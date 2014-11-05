@@ -1,0 +1,6 @@
+*.pyc
+bin
+lib
+include
+themes
+output
