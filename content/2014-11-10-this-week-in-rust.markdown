@@ -70,9 +70,54 @@ TODO: Link to complete breaking changes log
 [bitshift]: https://github.com/rust-lang/rust/pull/18206
 [unsafe-rustc]: https://github.com/rust-lang/rust/pull/18318
 
+
+
 ## Approved RFC's
+* [Num reform](https://github.com/rust-lang/rfcs/blob/master/text/0418-struct-variants.md): Strips down `std::num` to minimally support generic primitive numbers, without supporting a full mathematical hierarchy.
+
+* [Higher-ranked trait bounds](https://github.com/rust-lang/rfcs/blob/master/text/0387-higher-ranked-trait-bounds.md): Add the ability to have trait bounds that are polymorphic over lifetimes. Necessary for unboxed closures.
+
+* [un-feature-gating struct variants](https://github.com/rust-lang/rfcs/blob/master/text/0418-struct-variants.md): Woo!
+
+* [Multiple lifetime bounds](https://github.com/rust-lang/rfcs/blob/master/text/0192-bounds-on-object-and-generic-types.md): Removes special cases from the type system and makes more complex lifetime relationships be expressed that were previously only inferable.
+
+
 
 ## New RFC's
+* [Macro reform](https://github.com/rust-lang/rfcs/pull/453): Prepares macros for 1.0 stabilization. Renames `macro_rules!` to `macro!`, and introduces more robust support for module importing and exporting.
+
+* [Change integer fallback RFC to suggest `i32` instead of `int` as the fallback](https://github.com/rust-lang/rfcs/pull/452): Changes the fallback for performance and portability. 
+
+* [Un-feature-gate if let and tuple indexing](https://github.com/rust-lang/rfcs/pull/450): The features are well-behaved and used by many projects; ship 'em!
+
+* [Prohibit unused type parameters in impls](https://github.com/rust-lang/rfcs/pull/453): Require that every impl type parameter appears textually within the input type parameters of the trait reference or the impl self type.
+
+* [ES6-style unicode string escaping](https://github.com/rust-lang/rfcs/pull/446): Remove `\u203D` and `\U0001F4A9` unicode string escapes, and add ECMAScript 6-style `\u{1F4A9}` escapes instead. Strong positive feedback, some concern with how it interacts with format strings.
+
+* [extension trait conventions](https://github.com/rust-lang/rfcs/pull/445): Establishes a definition and naming convention for extension traits: traits which aren't intended for generic programing, but instead extending existing types. If extending a `Foo`, use `FooExt`. If Extending a `Foo`'s when they impl another trait like `Add`, use `FooAddExt`. 
+
+* [cmp and ops reform](https://github.com/rust-lang/rfcs/pull/439): Refactors `Cmp` and the operator overloading traits. Generally positive feedback. Highlights include:
+  * Make basic unary and binary operators work by value and use associated types.
+  * Generalize comparison operators to work across different types; drop Equiv.
+  * Refactor slice notation in favor of range notation so that special traits are no longer needed.
+  * Add IndexSet to better support maps.
+  * Clarify ownership semantics throughout.
+
+* [Change precedence of `+` in type grammar](https://github.com/rust-lang/rfcs/pull/438): Update type grammar to make `+` have lower precedence, consistent with the expression grammar, resolving a grammatical ambiguity.
+
+* [Relocate and improve c_str](https://github.com/rust-lang/rfcs/pull/435): 
+  * Move the c_str module out of std to rid the latter of type dependencies on libc.
+  * Split the current CString into a low-level type CStrBuf and a length-aware CString to make computation costs explicit.
+  * Provide custom destructors and purpose-specific, mnemonically named constructors.
+  * Add some methods and trait implementations to make the types more useful.
+  * Remove the Clone implementation due to lack of purpose.
+Lots of discussion of how to structure libc, not a lot of consensus.
+
+* [rename `lifetime` to `scope`](https://github.com/rust-lang/rfcs/pull/431): Highly controversial. Some community members argue that this change in terminology has been much more effective when introducing the actual concepts to newbies. Others argue that scope is already a well established concept in programming languages.
+
+* [Finalizing more naming conventions](https://github.com/rust-lang/rfcs/pull/430): finalizes a few long-running de facto conventions, including capitalization/underscores, and the role of the unwrap method. Generally positive feedback, some discussion of naming consts like enum variants.
+
+
 
 ## Community
 
