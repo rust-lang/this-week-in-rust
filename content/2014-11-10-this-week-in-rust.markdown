@@ -38,6 +38,25 @@ TODO: Link to complete breaking changes log
 * The comparision types have been [updated for DST][cmp], resulting in
   changes to how they are invoked for references to unsized types
   (i.e. `&str` and `&[T]`).
+* As part of the recent [collections overhaul][coll-rfc], the prelude
+  now contains a [`repeat`] function that returns an iterator that
+  repeatedly yields the same value.
+* Some changes to make [overloaded operators][ops] behave more
+  consistently will cause some previous code to break.
+* The collections crate has seen [major refactorings][coll1] and
+  [updates][coll2] as part of the [collections
+  overhaul][coll-rfc]. There was additional discussion about the
+  impact on [reddit][coll-reddit].
+* The json crate [works with string slices instead of strings][json],
+  and now overloads the index operator.
+* A number of prelude traits have been [renamed and consolidated][pre]
+  as fallout from DST and to conform to new [conventions]. This should
+  not break much code as these traits are rarely named explicitly.
+* The rlibc crate, which provides a few libc functions expected to
+  exist by LLVM's code generation, and is only useful for freestanding
+  Rust projects, has been [moved out of the main rust
+  distribution][rlibc], and now must be [installed via
+  cargo][rlibc-cargo].
 
 [flex]: https://github.com/rust-lang/rust/pull/16156
 [flex-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0131-target-specification.md
@@ -48,6 +67,16 @@ TODO: Link to complete breaking changes log
 [`ToSocketAddr`]: https://github.com/rust-lang/rust/pull/18462
 [`BytesContainer`]: https://github.com/rust-lang/rust/pull/18463
 [cmp]: https://github.com/rust-lang/rust/pull/18467
+[coll1]: https://github.com/rust-lang/rust/pull/18519
+[coll2]: https://github.com/rust-lang/rust/pull/18605
+[coll-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0235-collections-conventions.md
+[coll-reddit]: https://www.reddit.com/r/rust/comments/2ljfnd/warning_some_collection_methods_have_had_their/
+[`repeat`]: https://github.com/rust-lang/rust/pull/18468
+[ops]: https://github.com/rust-lang/rust/pull/18486
+[json]: https://github.com/rust-lang/rust/pull/18544
+[pre]: https://github.com/rust-lang/rust/pull/18559
+[rlibc]: https://github.com/rust-lang/rust/pull/18625
+[rlibc-cargo]: https://github.com/rust-lang/rlibc
 
 ## Other Changes
 
@@ -59,17 +88,30 @@ TODO: Link to complete breaking changes log
 * impls can now be [defined on trait objects][impltrait].
 * P1start has been [converting][help] compiler messages that provide
   suggestions from 'notes' to 'help' messages.
-* The ['exceeding_bitshifts'][bitshift] lint (deny by default) catches
-  overlong shifts (which are currently undefined behavior) of static
-  size.
-* Ariel [removed][unsafe-rustc] a bunch of unsafe code from the compiler. Yay!
+* The ['exceeding_bitshifts'][bitshift] lint catches overlong shifts
+  (which are currently undefined behavior) of static size. Due to
+  [bugs][bitshift-bugs] it is set to 'allow' be default.
+* Ariel [removed][unsafe-rustc] a bunch of unsafe code from the
+  compiler. Yay!
+* A new `-l` [flag] to the compiler has been added to specify linkage
+  to native libraries, primarily for use by cargo. In the same PR,
+  `include!` was updated to expand its arguments, allowing cargo to do
+  for more complex compile-time code generation. [RFC][flag-rfc].
+* `#![cfg]` and `#[cfg_attr]` [can be applied to crates][cfg].
+* On x86 Linux, random number generation now [prefers] the new
+  [`getrandom`] syscall.
 
 [blanket impls]: https://github.com/rust-lang/rust/pull/18388
 [impltrait]: https://github.com/rust-lang/rust/pull/18447
 [help]: https://github.com/rust-lang/rust/pull/18132
 [bitshift]: https://github.com/rust-lang/rust/pull/18206
+[bitshift-bugs]: https://github.com/rust-lang/rust/pull/18593
 [unsafe-rustc]: https://github.com/rust-lang/rust/pull/18318
-
+[flag]: https://github.com/rust-lang/rust/pull/18470
+[flag-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0403-cargo-build-command.md
+[cfg]: https://github.com/rust-lang/rust/pull/18634
+[prefers]: https://github.com/rust-lang/rust/pull/18664
+[getrandom]: http://lwn.net/Articles/606141/
 
 
 ## Approved RFC's
