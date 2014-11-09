@@ -221,9 +221,9 @@ the stack into the backing storage).
 
 ### New Projects
 
-* [this-week-in-rust](https://github.com/cmr/this-week-in-rust): This Week in Rust's content is now publicly hosted in a Github repo! If you find any errors, just submit a PR to the relevant markdown file in `/content`! If you'd like to help out, please contact cmr, brson, or Gankro on Github/Reddit/IRC; (NOTE TO BRSON: OR SOMEWHERE ELSE?)
+* [this-week-in-rust](https://github.com/cmr/this-week-in-rust): This Week in Rust's content is now publicly hosted in a Github repo! If you find any errors, just submit a PR to the relevant markdown file in `/content`! If you'd like to help out, please contact cmr, brson, or Gankro on Github/Reddit/IRC; (BRSON NOTE: OR SOMEWHERE ELSE?)
 
-* [rustaceans.org](http://rustaceans.org/): * This website is for finding Rustaceans. Wondering who is behind that GitHub username or IRC nick? Here is where to find out.*
+* [rustaceans.org](http://rustaceans.org/): *This website is for finding Rustaceans. Wondering who is behind that GitHub username or IRC nick? Here is where to find out.*
 
 * [rust-modifier](https://github.com/reem/rust-modifier): *Convenient chaining APIs for free*
 
