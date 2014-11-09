@@ -225,7 +225,7 @@ the stack into the backing storage).
 
 * [rustaceans.org](http://rustaceans.org/): * This website is for finding Rustaceans. Wondering who is behind that GitHub username or IRC nick? Here is where to find out.*
 
-* [https://github.com/reem/rust-modifier]: *Convenient chaining APIs for free*
+* [rust-modifier](https://github.com/reem/rust-modifier): *Convenient chaining APIs for free*
 
 * [dockerfiles](https://github.com/schickling/dockerfiles): *Collection of lightweight and ready-to-use docker images* 
 
