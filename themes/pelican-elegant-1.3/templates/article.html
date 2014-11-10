@@ -1,0 +1,154 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ article.title }} {%if article.subtitle %} - {{ article.subtitle }} {% endif %} · {{ super() }}
+{% endblock title %}
+
+{% block head_description %}
+{% if article.summary %}
+{{ article.summary|striptags }}
+{% endif %}
+{% endblock head_description %}
+
+{% block meta_tags_in_head %}
+{% if article.tags or article.category or article.keywords %}
+<meta name="keywords" content="{{ [article.tags|join(', '), article.category, article.keywords]|join(', ') }}" />
+{% endif %}
+{% endblock meta_tags_in_head %}
+
+{% block content %}
+<article>
+<div class="row-fluid">
+    <header class="page_header span10 offset2">
+    <h1><a href="{{ SITEURL }}/{{ article.url }}"> {{ article.title }} {%if article.subtitle %} <small> {{ article.subtitle }} </small> {% endif %} </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+    {% if article.toc %}
+    <div class="span2 table-of-content">
+        <nav>
+        <h4>Contents</h4>
+        {{ article.toc }}
+        </nav>
+    </div>
+    <div class="span8 article-content">
+        {% else %}
+        <div class="span8 offset2 article-content">
+            {% endif %}
+
+            {{ article.content }}
+            {% include 'comments.html' %}
+            <aside>
+            <hr/>
+            {% for an_article in dates %}
+            {% if an_article.url == article.url %}
+            {% set index = loop.index0 %}
+            {% if not loop.first %}
+            {% set next_article = dates[index-1] %}
+            {% endif %}
+            {% if not loop.last %}
+            {% set previous_article = dates[index+1] %}
+            {% endif %}
+            <nav>
+            <ul class="articles_timeline">
+                {% if previous_article %}
+                {% set ptitle = previous_article.title %}
+                {% set pv_title = ptitle %}
+                    {%if previous_article.subtitle %} 
+                        {% set pv_title = ptitle + " " +  "<small>" + previous_article.subtitle + "</small>" %}
+                        {% set ptitle = ptitle + " - " + previous_article.subtitle %}
+                    {% endif %} 
+                <li class="previous_article">« <a href="{{ SITEURL }}/{{ previous_article.url }}" title="Previous: {{ ptitle }}">{{ pv_title }}</a></li>
+                {% endif %}
+                {% if next_article %}
+                {% set ntitle = next_article.title %}
+                {% set nv_title = ntitle %}
+                    {%if next_article.subtitle %} 
+                        {% set nv_title = ntitle + " " +  "<small>" + next_article.subtitle + "</small>" %}
+                        {% set ntitle = ntitle + " - " + next_article.subtitle %}
+                    {% endif %} 
+                <li class="next_article"><a href="{{ SITEURL }}/{{ next_article.url }}" title="Next: {{ ntitle }}">{{ nv_title }}</a> »</li>
+                {% endif %}
+            </ul>
+            </nav>
+            {% endif %}
+            {% endfor %}
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+            {% if article.date %} 
+            <h4>Published</h4>
+            {% set day = article.date.strftime('%d')|int %}
+            <time pubdate="pubdate" datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b') }} {{ day }} {{- article.date.strftime(', %Y') }}</time>
+            {% endif %}
+            {% if article.modified %} 
+            <h4>Last Updated</h4>
+            <div class="last_updated">{{ article.modified }}</div>
+            {% endif %}
+            {% if article.category %}
+            <h4>Category</h4>
+            <a class="category-link" href="/categories.html#{{ category|replace(' ', '-')|e }}-ref">{{ article.category }}</a> 
+            {% endif %}
+            {% if article.tags %}
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article"> 
+                {% for tag in article.tags|sort %}
+                <li><a href="/tags.html#{{ tag|replace(' ', '-')|e }}-ref">{{ tag }}
+                    {% for aTag, tagged_articles in tags if aTag == tag %}
+                    <span>{{ tagged_articles|count }}</span>
+                    {% endfor %}</a></li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            {% if MAILCHIMP_FORM_ACTION %}
+            {% if not EMAIL_SUBSCRIPTION_LABEL %}
+            {% set EMAIL_SUBSCRIPTION_LABEL='Email Newsletter' %}
+            {% endif %}
+            {% if not SUBSCRIBE_BUTTON_TITLE %}
+            {% set SUBSCRIBE_BUTTON_TITLE='Subscribe' %}
+            {% endif %}
+            {% if not EMAIL_PLACEHOLDER %}
+            {% set EMAIL_PLACEHOLDER ='email address' %}
+            {% endif %}
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+                <form action="{{ MAILCHIMP_FORM_ACTION }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <h4>{{ EMAIL_SUBSCRIPTION_LABEL }}</h4>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{{ EMAIL_FIELD_PLACEHOLDER }}" required>
+                    <div class="clear"><input type="submit" value="{{ SUBSCRIBE_BUTTON_TITLE }}" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </form>
+            </div>
+
+            <!--End mc_embed_signup-->
+            {% endif %}
+        </div>
+        </section>
+</div>
+</article>
+{% endblock content %}
+
+{% block script %}
+    {{ super() }}
+    {% include 'disqus_script_count.html' %}
+    {% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}
+        <script  language="javascript" type="text/javascript">
+            function uncollapse() {
+                var hash_str = window.location.hash;
+                if (window.location.hash.match(/^#comment-\d+$/))
+                {
+                    var hash_str = '#disqus_thread';
+                }
+                $(hash_str).collapse({
+                    toggle: true
+                    })
+            }
+        </script>
+
+        <script type="text/javascript" language="JavaScript">
+            uncollapse(); 
+        </script>
+    {% endif %}
+{% endblock script %}

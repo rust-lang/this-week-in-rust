@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% if article and article.author %}
+        <meta name="author" content="{{ article.author }}" />
+        <meta name="copyright" content="{{ article.author }}" />
+        {% elif page and page.author %}
+        <meta name="author" content="{{ page.author }}" />
+        <meta name="copyright" content="{{ page.author }}" />
+        {% else %}
+        <meta name="author" content="{{ AUTHOR }}" />
+        <meta name="copyright" content="{{ AUTHOR }}" />
+        {% endif %}
+
+        {% if SITE_DESCRIPTION %}
+        <meta name="description" content="{% block head_description %}{{ SITE_DESCRIPTION }}{% endblock head_description %}" />
+        {% endif %}
+        {% block meta_tags_in_head %}
+        {% endblock meta_tags_in_head %}
+        <title>{% block title %}{{ SITENAME|striptags }}{% endblock title %}</title>
+        {% block head_links %}
+        <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/solarizedlight.css" media="screen">
+        {% endblock head_links %}
+        <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="{{ SITEURL }}/theme/images/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="{{ SITEURL }}/theme/images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="{{ SITEURL }}/theme/images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="{{ SITEURL }}/theme/images/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="{{ SITEURL }}/theme/images/apple-touch-icon-144x144.png" />
+        <link rel="icon" href="{{ SITEURL }}/theme/images/apple-touch-icon-144x144.png" />
+        {% include 'feeds.html' %}
+        {% include 'analytics.html' %}
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="{{ SITEURL }}/"><span class=site-name>{{ SITENAME }}</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li {% if page_name == "index" %} class="active"{% endif %}><a href="{{ SITEURL }}">Home</a></li>
+                            {% if DISPLAY_PAGES_ON_MENU %}
+                            {% for page in pages %}
+                            <li {% if output_file == page.url %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+                            {% endfor %}
+                            {% endif %}
+                            <li {% if page_name == "categories" %} class="active"{% endif %}><a href="{{ SITEURL }}/categories.html">Categories</a></li>
+                            <li {% if page_name == "tags" %} class="active"{% endif %}><a href="{{ SITEURL }}/tags.html">Tags</a></li>
+                            <li {% if page_name == "archives" %} class="active"{% endif %}><a href="{{ SITEURL }}/blog/archives/index.html">Archives</a></li>
+                            <li><a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}">Atom feed</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+                    {% block content %}
+                    {% endblock content %}
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+    </div>
+        {% include 'footer.html' %}
+        {% block script %}
+        <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+        {% endblock script %}
+    </body>
+</html>

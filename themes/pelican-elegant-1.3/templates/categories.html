@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %}
+All Categories · {{ super() }}
+{% endblock title %}
+
+{% block head_description %}
+All categories of the {{ SITENAME|striptags }} blog. 
+{% endblock head_description %}
+{% block content %}
+<div class="row-fluid">
+    <header class="page_header span10 offset2">
+    <h1><a href="/categories.html">All Categories</a></h1>
+    </header>
+</div>
+
+
+<div class="row-fluid">
+    <div class="span8 offset2">
+        <div class="accordion" id="accordion2">
+            {% for category, articles in categories %}
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle list-of-categories" data-toggle="collapse" data-parent="#accordion2" href="#{{ category|replace(' ', '-')|e }}-ref">
+                        {% set num = articles|count %}
+                        {{ category }}<span>{{ num }}</span>
+                    </a>
+                </div>
+                <div id="{{ category|replace(' ', '-')|e }}-ref" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <ul class="list-articles-category">
+                            {% for article in articles %} 
+                            <li><span><time pubdate="pubdate" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></span> <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {%if article.subtitle %} <small> {{ article.subtitle }} </small> {% endif %} </a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock content %}
+{% block script %}
+{{ super() }}
+<script  language="javascript" type="text/javascript">
+    function uncollapse() {
+            $(window.location.hash).collapse({
+                toggle: true
+            })
+    }
+</script>
+
+<script type="text/javascript" language="JavaScript">
+    uncollapse(); 
+</script>
+{% endblock script %}

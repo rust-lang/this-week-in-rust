@@ -1,0 +1,29 @@
+{% extends "base.html" %}                                                                                                                                                                                  
+{% block title %}
+All Posts · {{ super() }}
+{% endblock title %}
+
+{% block head_description %}
+Full archives of {{ SITENAME|striptags }} blog.
+{% endblock head_description %}
+
+{% block content %}
+
+<div class="row-fluid">
+    <header class="page_header span10 offset2">
+    <h1><a href="/archives.html">All Posts</a></h1>
+    </header>
+</div>
+<div class="row-fluid">
+    <div class="span8 offset2">
+        <ul class="list-all-articles">
+            {% for article in dates %}
+            <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {%if article.subtitle %} <small> {{ article.subtitle }} </small> {% endif %} </a>
+            <time pubdate="pubdate" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+{% endblock content %}
