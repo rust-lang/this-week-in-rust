@@ -10,6 +10,9 @@ email!](mailto:corey@octayn.net?subject=This%20Week%20in%20Rust%20Suggestion)
 Want to get involved? [We love
 contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contributors).
 
+This issue brought to you by the fantastic [Brian
+Anderson](https://github.com/brson/) and [Alexis Beingessner](https://github.com/Gankro/)!
+
 # What's cooking on master?
 
 101 pull requests were [merged in the last week][1]. Woo!
@@ -88,7 +91,7 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 * impls can now be [defined on trait objects][impltrait].
 * P1start has been [converting][help] compiler messages that provide
   suggestions from 'notes' to 'help' messages.
-* The ['exceeding_bitshifts'][bitshift] lint catches overlong shifts
+* The [`exceeding_bitshifts`][bitshift] lint catches overlong shifts
   (which are currently undefined behavior) of static size. Due to
   [bugs][bitshift-bugs] it is set to 'allow' be default.
 * Ariel [removed][unsafe-rustc] a bunch of unsafe code from the
@@ -137,11 +140,11 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 
 # New RFC's
 * [Macro reform](https://github.com/rust-lang/rfcs/pull/453): Prepares macros for 1.0 stabilization. Renames `macro_rules!` to `macro!`, and introduces more robust support for module importing and exporting.
-* [Change integer fallback RFC to suggest `i32` instead of `int` as the fallback](https://github.com/rust-lang/rfcs/pull/452): Changes the fallback for performance and portability. 
+* [Change integer fallback RFC to suggest `i32` instead of `int` as the fallback](https://github.com/rust-lang/rfcs/pull/452): Changes the fallback for performance and portability.
 * [Un-feature-gate if let and tuple indexing](https://github.com/rust-lang/rfcs/pull/450): The features are well-behaved and used by many projects; ship 'em!
 * [Prohibit unused type parameters in impls](https://github.com/rust-lang/rfcs/pull/453): Require that every impl type parameter appears textually within the input type parameters of the trait reference or the impl self type.
 * [ES6-style unicode string escaping](https://github.com/rust-lang/rfcs/pull/446): Remove `\u203D` and `\U0001F4A9` unicode string escapes, and add ECMAScript 6-style `\u{1F4A9}` escapes instead. Strong positive feedback, some concern with how it interacts with format strings.
-* [extension trait conventions](https://github.com/rust-lang/rfcs/pull/445): Establishes a definition and naming convention for extension traits: traits which aren't intended for generic programing, but instead extending existing types. If extending a `Foo`, use `FooExt`. If Extending a `Foo` when it impls another trait like `Add`, use `FooAddExt`. 
+* [extension trait conventions](https://github.com/rust-lang/rfcs/pull/445): Establishes a definition and naming convention for extension traits: traits which aren't intended for generic programing, but instead extending existing types. If extending a `Foo`, use `FooExt`. If Extending a `Foo` when it impls another trait like `Add`, use `FooAddExt`.
 * [cmp and ops reform](https://github.com/rust-lang/rfcs/pull/439): Refactors `Cmp` and the operator overloading traits. Generally positive feedback. Highlights include:
     * Make basic unary and binary operators work by value and use associated types.
     * Generalize comparison operators to work across different types; drop Equiv.
@@ -149,7 +152,7 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
     * Add IndexSet to better support maps.
     * Clarify ownership semantics throughout.
 * [Change precedence of `+` in type grammar](https://github.com/rust-lang/rfcs/pull/438): Update type grammar to make `+` have lower precedence, consistent with the expression grammar, resolving a grammatical ambiguity.
-* [Relocate and improve c_str](https://github.com/rust-lang/rfcs/pull/435): 
+* [Relocate and improve c_str](https://github.com/rust-lang/rfcs/pull/435):
     * Move the c_str module out of std to rid the latter of type dependencies on libc.
     * Split the current CString into a low-level type CStrBuf and a length-aware CString to make computation costs explicit.
     * Provide custom destructors and purpose-specific, mnemonically named constructors.
@@ -205,7 +208,7 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
   (rather than temporary storage on the stack and then copying the
   datum from the stack into the backing storage).
 * [Forbid -(unsigned integer)](http://discuss.rust-lang.org/t/forbid-unsigned-integer/752): the eternal struggle continues. It's super handy when you want it, but also a common error to make.
-* [Moving all built-in macros to plugins](http://discuss.rust-lang.org/t/moving-all-built-in-macros-to-plugins/737): Another proposal to handle some of the issues with macros for 1.0. May make it easier to bootstrap changes to the compiler. 
+* [Moving all built-in macros to plugins](http://discuss.rust-lang.org/t/moving-all-built-in-macros-to-plugins/737): Another proposal to handle some of the issues with macros for 1.0. May make it easier to bootstrap changes to the compiler.
 * [Lifetime Notation](http://discuss.rust-lang.org/t/lifetime-notation/751): `&'a` -> `a&`. Some discussion of tradeoffs and details.
 * [Poll: `Foo::new()` vs `Foo()` as the default constructor](http://discuss.rust-lang.org/t/poll-foo-new-vs-foo-as-the-default-constructor/758/29)
 
@@ -218,7 +221,7 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 * [Error interoperation now available in the nightlies](https://www.reddit.com/r/rust/comments/2l98pn/error_interoperation_now_available_in_the/)
 * [Trait-based Exception handling RFC postponed until after 1.0](http://www.reddit.com/r/rust/comments/2l8x2a/traitbased_exception_handling_rfc_postponed_till/)
 * [Cargo now supports build-scripts!](http://www.reddit.com/r/rust/comments/2lgyne/cargo_now_support_build_scripts_xpost_rrust/)
-* [What libraries would you like to see implemented in Rust?](https://www.reddit.com/r/rust/comments/2lmt99/what_libraries_would_you_like_to_see_implemented/)  
+* [What libraries would you like to see implemented in Rust?](https://www.reddit.com/r/rust/comments/2lmt99/what_libraries_would_you_like_to_see_implemented/)
 * [How good do you think the market for Rust developers will be 5 years from now, and in what area of programming?](http://www.reddit.com/r/rust/comments/2l3l07/rust_is_undoubtedly_one_of_the_upandcoming_big/)
 * [I think Rust and I were made for each other](http://www.reddit.com/r/rust/comments/2ljrp2/i_think_rust_and_i_were_meant_for_each_other/)
 * [How does the Rust community feel about FFI?](https://www.reddit.com/r/rust/comments/2lmkjw/how_does_the_rust_community_feel_about_ffi/)
@@ -233,7 +236,7 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 * [this-week-in-rust](https://github.com/cmr/this-week-in-rust): This Week in Rust's content is now publicly hosted in a Github repo! If you find any errors, just submit a PR to the relevant markdown file in `/content`! If you'd like to help out, please contact cmr, brson, or Gankro on Github/Reddit/IRC.
 * [rustaceans.org](http://rustaceans.org/): *This website is for finding Rustaceans. Wondering who is behind that GitHub username or IRC nick? Here is where to find out.*
 * [rust-modifier](https://github.com/reem/rust-modifier): *Convenient chaining APIs for free*
-* [dockerfiles](https://github.com/schickling/dockerfiles): *Collection of lightweight and ready-to-use docker images* 
+* [dockerfiles](https://github.com/schickling/dockerfiles): *Collection of lightweight and ready-to-use docker images*
 * [Window Tiling For The Win](https://github.com/Kintaro/wtftw): *A tiling window manager written in Rust*
 * [cxx2rs](https://github.com/manuels/cxx2rs): *A rust-binding generator for C/C++ files*
 * [sorting-rs](https://github.com/wackywendell/sorting-rs): *This is a set of sorting algorithms, written in Rust.*

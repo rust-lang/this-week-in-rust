@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}
+Page not found · {{ super() }}
+{% endblock title %}
+
+{% block head_description %}
+Page does not exist at {{ SITENAME|striptags }} blog. 
+{% endblock head_description %}
+{% block content %}
+<div class="row-fluid">
+    <header class="page_header span10 offset2">
+    <h1>That page doesn't exist!</h1>
+    </header>
+</div>
+
+
+<div class="row-fluid">
+    <div class="span8 offset2">
+        <p>Sorry, but the page you are looking for cannot be found. It seems that the page you were trying to reach doesn't exist, or may be it has just moved, or it no longer exists.</p>
+        <p>The best thing to do is to use the search form or start again from the <a href="{{ SITEURL }}">home page</a>.</p>
+        <div class="input-append">
+            <form action="{{ SITEURL }}/search.html" onsubmit="return validateForm(this.elements['q'].value)">
+                <input type="text" class="span12" placeholder="Search" name="q" id="tipue_search_input_404">
+                <button class="btn" type="button">Search</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock content %}
