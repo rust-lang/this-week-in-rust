@@ -12,21 +12,19 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 
 # What's cooking on master?
 
-TODO: Update this Monday morning
+101 pull requests were [merged in the last week][1]. Woo!
 
-XXX pull requests were [merged in the last week][1]. Woo!
-
-[1]: https://github.com/rust-lang/rust/pulls?page=1&q=is%3Apr+is%3Amerged+updated%3A%3E%3D2014-11-03
+[1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-11-03..2014-11-10
 
 ## Breaking Changes
-
-TODO: Link to complete breaking changes log
 
 * [Flexible target specification][flex] has finally landed. This makes
   it much easier to create custom toolchains for unsupported
   platforms. [RFC][flex-rfc].
 * [Error interoperation][err] improves the ergonomics of error
   handling when multiple error types are involved. [RFC][err-rfc].
+* The `rtio` abstraction layer that supported I/O on green threads
+  [has been removed][rtio]. [RFC][rtio-rfc].
 * There has been a minor breaking change to the [serialization of
   tuples][tup].
 * Minor [changes to macro interpolation][mac] have resulted the
@@ -77,6 +75,8 @@ TODO: Link to complete breaking changes log
 [pre]: https://github.com/rust-lang/rust/pull/18559
 [rlibc]: https://github.com/rust-lang/rust/pull/18625
 [rlibc-cargo]: https://github.com/rust-lang/rlibc
+[rtio]: https://github.com/rust-lang/rust/pull/18557
+[rtio-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0230-remove-runtime.md
 
 ## Other Changes
 
@@ -113,8 +113,7 @@ TODO: Link to complete breaking changes log
 [prefers]: https://github.com/rust-lang/rust/pull/18664
 [getrandom]: http://lwn.net/Articles/606141/
 
-
-## Approved RFC's
+# Approved RFC's
 * [Num reform](https://github.com/rust-lang/rfcs/blob/master/text/0418-struct-variants.md): Strips down `std::num` to minimally support generic primitive numbers, without supporting a full mathematical hierarchy.
 
 * [Higher-ranked trait bounds](https://github.com/rust-lang/rfcs/blob/master/text/0387-higher-ranked-trait-bounds.md): Add the ability to have trait bounds that are polymorphic over lifetimes. Necessary for unboxed closures.
@@ -125,7 +124,7 @@ TODO: Link to complete breaking changes log
 
 
 
-## New RFC's
+# New RFC's
 * [Macro reform](https://github.com/rust-lang/rfcs/pull/453): Prepares macros for 1.0 stabilization. Renames `macro_rules!` to `macro!`, and introduces more robust support for module importing and exporting.
 
 * [Change integer fallback RFC to suggest `i32` instead of `int` as the fallback](https://github.com/rust-lang/rfcs/pull/452): Changes the fallback for performance and portability. 
@@ -163,15 +162,9 @@ Lots of discussion of how to structure libc, not a lot of consensus.
 
 
 
-## Community
+# Community
 
-Ideas: blog posts, videos, reddit/hn/discuss threads, new projects, project updates
-TODO: Summarize
-
-
-
-
-### From the Team
+## From the Team
 
 * [Weekly-meetings/2014-11-04 (macros; multiple lifetime bounds; macro invocation syntax; higher-ranked trait bounds; pub trait methods; out-of-sync nightlies; struct variants; numerics)](https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-11-04.md)
   * [Discuss](https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-11-04.md)
@@ -183,19 +176,14 @@ TODO: Summarize
 
 * [IRC notifications now going to #rust-bots](http://discuss.rust-lang.org/t/irc-notifications-now-going-to-rust-bots/735): If you have a bot you'd like to post here (which would be awesome!) please add a description and contact to [the wiki page](https://github.com/rust-lang/rust/wiki/IRC-notifications-channel).
 
-
-
-
-### Videos
+## Videos
 
 * [An introduction to Servo](https://air.mozilla.org/an-introduction-to-servo/): Lars Bergstrom from the Research team provides an overview of the Servo project, demonstrates its current status, and shows how to contribute to it.
 
-* BRSON NOTE: other meetup talks on air mozilla? Site is inscrutable.
+* [November's Bay Area meetup](https://air.mozilla.org/bay-area-rust-meetup-november-2014/) happened
+  on Thursday, featuring five presentations about Servo and browser architecture.
 
-
-
-
-### Blog Posts
+## Blog Posts
 
 * [This Week In Servo (10)](http://blog.servo.org/2014/11/04/twis-10/)
 
@@ -216,7 +204,7 @@ TODO: Summarize
 
 
 
-### Discuss
+## Discuss
 
 * [Pre-RFC: placement box with Placer trait](http://discuss.rust-lang.org/t/pre-rfc-placement-box-with-placer-trait/729/6): Add user-defined placement box expression (more succinctly, "a box
 expression"), an operator analogous to "placement new" in C++. This
@@ -236,7 +224,7 @@ the stack into the backing storage).
 
 
 
-### Reddit
+## Reddit
 
 * [Warning! Some collection methods have had their semantics changed transparently!](http://www.reddit.com/r/rust/comments/2ljfnd/warning_some_collection_methods_have_had_their/)
 
@@ -261,9 +249,9 @@ the stack into the backing storage).
 
 
 
-### New Projects
+## New Projects
 
-* [this-week-in-rust](https://github.com/cmr/this-week-in-rust): This Week in Rust's content is now publicly hosted in a Github repo! If you find any errors, just submit a PR to the relevant markdown file in `/content`! If you'd like to help out, please contact cmr, brson, or Gankro on Github/Reddit/IRC; (BRSON NOTE: OR SOMEWHERE ELSE?)
+* [this-week-in-rust](https://github.com/cmr/this-week-in-rust): This Week in Rust's content is now publicly hosted in a Github repo! If you find any errors, just submit a PR to the relevant markdown file in `/content`! If you'd like to help out, please contact cmr, brson, or Gankro on Github/Reddit/IRC.
 
 * [rustaceans.org](http://rustaceans.org/): *This website is for finding Rustaceans. Wondering who is behind that GitHub username or IRC nick? Here is where to find out.*
 
@@ -284,14 +272,9 @@ the stack into the backing storage).
 * [rusqlite](https://github.com/jgallagher/rusqlite): *Ergonomic, semi-safe bindings to SQLite for Rust*
 
 
-
-
-### Upcoming Meetups
+## Upcoming Meetups
 
 * [Rust Bay Area: Cryptography and Rust, December 18th](http://www.meetup.com/Rust-Bay-Area/events/210632582/)
 
-BRSON NOTE: do we want this? maybe other calendar things?
 
-
-
-## New Contributors
+# New Contributors
