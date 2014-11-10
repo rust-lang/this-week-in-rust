@@ -174,6 +174,7 @@ Anderson](https://github.com/brson/) and [Alexis Beingessner](https://github.com
     * [Discuss](http://discuss.rust-lang.org/t/weekly-meetings-2014-10-30-error-conventions-cargo-namespaced-enums-trait-based-error-handling-macro-unification-coercions-dynamic-linking-byte-literals-failing-dtors/734)
     * [Reddit](http://www.reddit.com/r/rust/comments/2kuppu/weeklymeetings20141030_error_conventions_cargo/)
 * [IRC notifications now going to #rust-bots](http://discuss.rust-lang.org/t/irc-notifications-now-going-to-rust-bots/735): If you have a bot you'd like to post here (which would be awesome!) please add a description and contact to [the wiki page](https://github.com/rust-lang/rust/wiki/IRC-notifications-channel).
+* [Stability as a Deliverable](http://blog.rust-lang.org/2014/10/30/Stability.html)
 
 ## Videos
 
