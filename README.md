@@ -13,21 +13,20 @@ for pr in $(xsel -ob); do firefox https://github.com/mozilla/rust/pull/$pr; slee
 # write TWIR
 ```
 
-## How I get new contributors: 
+Alternately use GitHub search:
 
-  new_contribs.sh 6/21/2014 > ~/entropy/newbies.txt
+```
+https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-11-03..2014-11-10
+```
 
-Where `new_contribs.sh` is:
+## How I get new contributors:
 
-```sh
-#!/usr/bin/sh                     
+Use the included `new_contribs.sh` script:
 
-INITIAL_COMMIT=c01efc6
-START_COMMIT=`git log --before="$1" --author=bors --pretty=format:%H|head -n1`
-ALL_NAMES=`git log $INITIAL_COMMIT.. --pretty=format:%an|sort|uniq`
-OLD_NAMES=`git log $INITIAL_COMMIT..$START_COMMIT --pretty=format:%an|sort|uniq`
-echo "$OLD_NAMES">names_old.txt
-echo "$ALL_NAMES">names_all.txt
-diff names_old.txt names_all.txt
-rm names_old.txt names_all.txt
+  new_contribs.sh 6/21/2014
+
+## Building
+
+```
+pelican content -s pelicanconf.py
 ```
