@@ -83,7 +83,7 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 * New [blanket impls] of the unboxed closure types allow them to
   interoperate.  See
   [test](https://github.com/rust-lang/rust/blob/master/src/test/run-pass/unboxed-closures-fn-as-fnmut-and-fnonce.rs)
-  [cases])https://github.com/rust-lang/rust/blob/master/src/test/run-pass/unboxed-closures-fnmut-as-fnonce.rs)
+  [cases](https://github.com/rust-lang/rust/blob/master/src/test/run-pass/unboxed-closures-fnmut-as-fnonce.rs)
   for examples.
 * impls can now be [defined on trait objects][impltrait].
 * P1start has been [converting][help] compiler messages that provide
@@ -131,7 +131,7 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 * [Num reform](https://github.com/rust-lang/rfcs/blob/master/text/0418-struct-variants.md): Strips down `std::num` to minimally support generic primitive numbers, without supporting a full mathematical hierarchy.
 * [Higher-ranked trait bounds](https://github.com/rust-lang/rfcs/blob/master/text/0387-higher-ranked-trait-bounds.md): Add the ability to have trait bounds that are polymorphic over lifetimes. Necessary for unboxed closures.
 * [un-feature-gating struct variants](https://github.com/rust-lang/rfcs/blob/master/text/0418-struct-variants.md): Woo!
-* [Multiple lifetime bounds](https://github.com/rust-lang/rfcs/blob/master/text/0192-bounds-on-object-and-generic-types.md): Removes special cases from the type system and makes more complex lifetime relationships be expressed that were previously only inferable.
+* [Multiple lifetime bounds](https://github.com/rust-lang/rfcs/blob/master/text/0192-bounds-on-object-and-generic-types.md): Removes special cases from the type system and allows more complex lifetime relationships to be expressed that were previously only inferable.
 
 
 
@@ -207,6 +207,7 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 * [Forbid -(unsigned integer)](http://discuss.rust-lang.org/t/forbid-unsigned-integer/752): the eternal struggle continues. It's super handy when you want it, but also a common error to make.
 * [Moving all built-in macros to plugins](http://discuss.rust-lang.org/t/moving-all-built-in-macros-to-plugins/737): Another proposal to handle some of the issues with macros for 1.0. May make it easier to bootstrap changes to the compiler. 
 * [Lifetime Notation](http://discuss.rust-lang.org/t/lifetime-notation/751): `&'a` -> `a&`. Some discussion of tradeoffs and details.
+* [Poll: `Foo::new()` vs `Foo()` as the default constructor](http://discuss.rust-lang.org/t/poll-foo-new-vs-foo-as-the-default-constructor/758/29)
 
 
 
