@@ -136,7 +136,7 @@ TODO: Link to complete breaking changes log
 
 * [ES6-style unicode string escaping](https://github.com/rust-lang/rfcs/pull/446): Remove `\u203D` and `\U0001F4A9` unicode string escapes, and add ECMAScript 6-style `\u{1F4A9}` escapes instead. Strong positive feedback, some concern with how it interacts with format strings.
 
-* [extension trait conventions](https://github.com/rust-lang/rfcs/pull/445): Establishes a definition and naming convention for extension traits: traits which aren't intended for generic programing, but instead extending existing types. If extending a `Foo`, use `FooExt`. If Extending a `Foo`'s when they impl another trait like `Add`, use `FooAddExt`. 
+* [extension trait conventions](https://github.com/rust-lang/rfcs/pull/445): Establishes a definition and naming convention for extension traits: traits which aren't intended for generic programing, but instead extending existing types. If extending a `Foo`, use `FooExt`. If Extending a `Foo` when it impls another trait like `Add`, use `FooAddExt`. 
 
 * [cmp and ops reform](https://github.com/rust-lang/rfcs/pull/439): Refactors `Cmp` and the operator overloading traits. Generally positive feedback. Highlights include:
   * Make basic unary and binary operators work by value and use associated types.
@@ -159,6 +159,8 @@ Lots of discussion of how to structure libc, not a lot of consensus.
 
 * [Finalizing more naming conventions](https://github.com/rust-lang/rfcs/pull/430): finalizes a few long-running de facto conventions, including capitalization/underscores, and the role of the unwrap method. Generally positive feedback, some discussion of naming consts like enum variants.
 
+* [Reserve macro identifiers](https://github.com/rust-lang/rfcs/pull/456): Preemptively reserve a class of $ identifiers for allowing backwards compatible improvements to the macro system.
+
 
 
 ## Community
@@ -166,6 +168,130 @@ Lots of discussion of how to structure libc, not a lot of consensus.
 Ideas: blog posts, videos, reddit/hn/discuss threads, new projects, project updates
 TODO: Summarize
 
-https://www.reddit.com/r/rust/comments/2l98pn/error_interoperation_now_available_in_the/
+
+
+
+### From the Team
+
+* [Weekly-meetings/2014-11-04 (macros; multiple lifetime bounds; macro invocation syntax; higher-ranked trait bounds; pub trait methods; out-of-sync nightlies; struct variants; numerics)](https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-11-04.md)
+  * [Discuss](https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-11-04.md)
+  * [Reddit](http://www.reddit.com/r/rust/comments/2lrt7b/weeklymeetings20141104_macros_multiple_lifetime/)
+
+* [Weekly-meetings/2014-10-30 (error conventions; cargo; namespaced enums; trait-based error handling; macro unification; coercions; dynamic linking, byte literals, failing dtors)](https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-10-30.md)
+  * [Discuss](http://discuss.rust-lang.org/t/weekly-meetings-2014-10-30-error-conventions-cargo-namespaced-enums-trait-based-error-handling-macro-unification-coercions-dynamic-linking-byte-literals-failing-dtors/734)
+  * [Reddit](http://www.reddit.com/r/rust/comments/2kuppu/weeklymeetings20141030_error_conventions_cargo/)
+
+* [IRC notifications now going to #rust-bots](http://discuss.rust-lang.org/t/irc-notifications-now-going-to-rust-bots/735): If you have a bot you'd like to post here (which would be awesome!) please add a description and contact to [the wiki page](https://github.com/rust-lang/rust/wiki/IRC-notifications-channel).
+
+
+
+
+### Videos
+
+* [An introduction to Servo](https://air.mozilla.org/an-introduction-to-servo/): Lars Bergstrom from the Research team provides an overview of the Servo project, demonstrates its current status, and shows how to contribute to it.
+
+* BRSON NOTE: other meetup talks on air mozilla? Site is inscrutable.
+
+
+
+
+### Blog Posts
+
+* [This Week In Servo (10)](http://blog.servo.org/2014/11/04/twis-10/)
+
+* [Rewriting Rust Serialization, Part 2: Performance](http://erickt.github.io/blog/2014/11/03/performance/): A quick look at how Rust's JSON serialization performance compares to other languages and protocols.
+
+* [Improved Error Handling in Rust](http://lucumr.pocoo.org/2014/11/6/error-handling-in-rust/): Some discussion of how Rust currently and theoretically handles erroes.
+
+* [Don't Panic! The Hitchhiker's Guide to Unwinding](http://lucumr.pocoo.org/2014/10/30/dont-panic/): A nice discussion of the challenges of safe and ergonomic error handling, and how it relates to stack unwinding.
+
+* [Let's build a browser engine! Part 7: Painting 101](http://limpet.net/mbrubeck/2014/11/05/toy-layout-engine-7-painting.html): Part of a longer series on writing a browser engine in Rust. *In this article, I will add very basic painting code.*
+
+* [On pattern matching performance in Rust](http://www.cjqed.com/blog/rust-pattern-matching-performance/): A quick look at how the `match` statement can produce really efficient code.
+
+* [Rust and Go](https://medium.com/@adamhjk/rust-and-go-e18d511fbd95): A quick look at Rust and Go from the perspective of a sysadmin used to high-level programming languages. 
+
+* [Learning Rust](http://foon.uk/rust.html): *Inspired by Artyom's Learning Racket series, I've decided to log my efforts in learning Rust. I'm going to document my learning process as I go about trying to build a roguelike in Rust. I've downloaded the compiler, skimmed the getting started guide, and written “Hello World”. So let's get started!*
+
+
+
+
+### Discuss
+
+* [Pre-RFC: placement box with Placer trait](http://discuss.rust-lang.org/t/pre-rfc-placement-box-with-placer-trait/729/6): Add user-defined placement box expression (more succinctly, "a box
+expression"), an operator analogous to "placement new" in C++. This
+provides a way for a user to specify (1.) how the backing storage for
+some datum should be allocated, (2.) that the allocation should be
+ordered before the evaluation of the datum, and (3.) that the datum
+should preferably be stored directly into the backing storage (rather
+than temporary storage on the stack and then copying the datum from
+the stack into the backing storage).
+
+* [Forbid -(unsigned integer)](http://discuss.rust-lang.org/t/forbid-unsigned-integer/752): the eternal struggle continues. It's super handy when you want it, but also a common error to make.
+
+* [Moving all built-in macros to plugins](http://discuss.rust-lang.org/t/moving-all-built-in-macros-to-plugins/737): Another proposal to handle some of the issues with macros for 1.0. May make it easier to bootstrap changes to the compiler. 
+
+* [Lifetime Notation](http://discuss.rust-lang.org/t/lifetime-notation/751): `&'a` -> `a&`. Some discussion of tradeoffs and details.
+
+
+
+
+### Reddit
+
+* [Warning! Some collection methods have had their semantics changed transparently!](http://www.reddit.com/r/rust/comments/2ljfnd/warning_some_collection_methods_have_had_their/)
+
+* [Error interoperation now available in the nightlies](https://www.reddit.com/r/rust/comments/2l98pn/error_interoperation_now_available_in_the/)
+
+* [Trait-based Exception handling RFC postponed until after 1.0](http://www.reddit.com/r/rust/comments/2l8x2a/traitbased_exception_handling_rfc_postponed_till/)
+
+* [Cargo now supports build-scripts!](http://www.reddit.com/r/rust/comments/2lgyne/cargo_now_support_build_scripts_xpost_rrust/)
+
+* [What libraries would you like to see implemented in Rust?](https://www.reddit.com/r/rust/comments/2lmt99/what_libraries_would_you_like_to_see_implemented/)  
+
+* [How good do you think the market for Rust developers will be 5 years from now, and in what area of programming?](http://www.reddit.com/r/rust/comments/2l3l07/rust_is_undoubtedly_one_of_the_upandcoming_big/)
+
+* [I think Rust and I were made for each other](http://www.reddit.com/r/rust/comments/2ljrp2/i_think_rust_and_i_were_meant_for_each_other/)
+
+* [How does the Rust community feel about FFI?](https://www.reddit.com/r/rust/comments/2lmkjw/how_does_the_rust_community_feel_about_ffi/)
+
+* [How do you refactor Rust code?](https://www.reddit.com/r/rust/comments/2lo21r/how_do_you_refactor_rust_code/)
+
+* [I may start contributing to Rust...can I get a few pointers?](http://www.reddit.com/r/rust/comments/2lduv6/i_may_start_contributing_to_rustcan_i_get_a_few/)
+
+
+
+
+### New Projects
+
+* [this-week-in-rust](https://github.com/cmr/this-week-in-rust): This Week in Rust's content is now publicly hosted in a Github repo! If you find any errors, just submit a PR to the relevant markdown file in `/content`! If you'd like to help out, please contact cmr, brson, or Gankro on Github/Reddit/IRC; (BRSON NOTE: OR SOMEWHERE ELSE?)
+
+* [rustaceans.org](http://rustaceans.org/): *This website is for finding Rustaceans. Wondering who is behind that GitHub username or IRC nick? Here is where to find out.*
+
+* [rust-modifier](https://github.com/reem/rust-modifier): *Convenient chaining APIs for free*
+
+* [dockerfiles](https://github.com/schickling/dockerfiles): *Collection of lightweight and ready-to-use docker images* 
+
+* [Window Tiling For The Win](https://github.com/Kintaro/wtftw): *A tiling window manager written in Rust*
+
+* [cxx2rs](https://github.com/manuels/cxx2rs): *A rust-binding generator for C/C++ files*
+
+* [sorting-rs](https://github.com/wackywendell/sorting-rs): *This is a set of sorting algorithms, written in Rust.*
+
+* [rust-chatserver](https://github.com/BytePrelude/rust-chatserver): *A barebone command line TCP chatserver written in Rust*. [Looking for feedback](https://www.reddit.com/r/rust/comments/2lpsj8/tcp_chatserver_written_in_rust_looking_for/).
+
+* [rust-irc](https://github.com/viperscape/rust-irc): *A simple example irc implementation*. [Looking for feedback](https://www.reddit.com/r/rust/comments/2lpw9k/rust_irc_example_looking_for_feedback/)
+
+* [rusqlite](https://github.com/jgallagher/rusqlite): *Ergonomic, semi-safe bindings to SQLite for Rust*
+
+
+
+
+### Upcoming Meetups
+
+* [Rust Bay Area: Cryptography and Rust, December 18th](http://www.meetup.com/Rust-Bay-Area/events/210632582/)
+
+BRSON NOTE: do we want this? maybe other calendar things?
+
+
 
 ## New Contributors
