@@ -30,14 +30,14 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 * Minor [changes to macro interpolation][mac] have resulted the
   removal the `$foo:matchers` type of `macro_rules!` argument.
 * Socket construction is now more flexibly done through a
-  [`ToSocketAddr`] type.
-* Some changes have been made to the [`BytesContainer`], which is used
+  [ToSocketAddr] type.
+* Some changes have been made to the [BytesContainer], which is used
   to construct `Path`s, causing breakage is some cases.
 * The comparision types have been [updated for DST][cmp], resulting in
   changes to how they are invoked for references to unsized types
   (i.e. `&str` and `&[T]`).
 * As part of the recent [collections overhaul][coll-rfc], the prelude
-  now contains a [`repeat`] function that returns an iterator that
+  now contains a [repeat] function that returns an iterator that
   repeatedly yields the same value.
 * Some changes to make [overloaded operators][ops] behave more
   consistently will cause some previous code to break.
@@ -59,17 +59,17 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 [flex]: https://github.com/rust-lang/rust/pull/16156
 [flex-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0131-target-specification.md
 [err]: https://github.com/rust-lang/rust/pull/17753
-[err-rfc]: https://github.com/rust-lang/rfcs/blob/master/active/0070-error-chaining.md
+[err-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0201-error-chaining.md
 [tup]: https://github.com/rust-lang/rust/pull/17595
 [mac]: https://github.com/rust-lang/rust/pull/17830
-[`ToSocketAddr`]: https://github.com/rust-lang/rust/pull/18462
-[`BytesContainer`]: https://github.com/rust-lang/rust/pull/18463
+[ToSocketAddr]: https://github.com/rust-lang/rust/pull/18462
+[BytesContainer]: https://github.com/rust-lang/rust/pull/18463
 [cmp]: https://github.com/rust-lang/rust/pull/18467
 [coll1]: https://github.com/rust-lang/rust/pull/18519
 [coll2]: https://github.com/rust-lang/rust/pull/18605
 [coll-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0235-collections-conventions.md
 [coll-reddit]: https://www.reddit.com/r/rust/comments/2ljfnd/warning_some_collection_methods_have_had_their/
-[`repeat`]: https://github.com/rust-lang/rust/pull/18468
+[repeat]: https://github.com/rust-lang/rust/pull/18468
 [ops]: https://github.com/rust-lang/rust/pull/18486
 [json]: https://github.com/rust-lang/rust/pull/18544
 [pre]: https://github.com/rust-lang/rust/pull/18559
@@ -112,6 +112,20 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 [cfg]: https://github.com/rust-lang/rust/pull/18634
 [prefers]: https://github.com/rust-lang/rust/pull/18664
 [getrandom]: http://lwn.net/Articles/606141/
+
+## New Contributors
+
+* Cristi Burcă
+* juxiliary
+* Nathan Zadoks
+* qwitwa
+* Sean Jensen-Grey
+* Subhash Bhushan
+* thiagopnts
+* tshakah
+* Vitali Haravy
+* Vladimir Matveev
+* whataloadofwhat
 
 # Approved RFC's
 * [Num reform](https://github.com/rust-lang/rfcs/blob/master/text/0418-struct-variants.md): Strips down `std::num` to minimally support generic primitive numbers, without supporting a full mathematical hierarchy.
@@ -166,13 +180,13 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 
 ## Blog Posts
 
-* [This Week In Servo (10)](http://blog.servo.org/2014/11/04/twis-10/)
+* [This Week In Servo (10)](http://blog.servo.org/2014/11/04/twis-10/).
 * [Rewriting Rust Serialization, Part 2: Performance](http://erickt.github.io/blog/2014/11/03/performance/): A quick look at how Rust's JSON serialization performance compares to other languages and protocols.
 * [Improved Error Handling in Rust](http://lucumr.pocoo.org/2014/11/6/error-handling-in-rust/): Some discussion of how Rust currently and theoretically handles erroes.
 * [Don't Panic! The Hitchhiker's Guide to Unwinding](http://lucumr.pocoo.org/2014/10/30/dont-panic/): A nice discussion of the challenges of safe and ergonomic error handling, and how it relates to stack unwinding.
 * [Let's build a browser engine! Part 7: Painting 101](http://limpet.net/mbrubeck/2014/11/05/toy-layout-engine-7-painting.html): Part of a longer series on writing a browser engine in Rust. *In this article, I will add very basic painting code.*
 * [On pattern matching performance in Rust](http://www.cjqed.com/blog/rust-pattern-matching-performance/): A quick look at how the `match` statement can produce really efficient code.
-* [Rust and Go](https://medium.com/@adamhjk/rust-and-go-e18d511fbd95): A quick look at Rust and Go from the perspective of a sysadmin used to high-level programming languages. 
+* [Rust and Go](https://medium.com/@adamhjk/rust-and-go-e18d511fbd95): A quick look at Rust and Go from the perspective of a sysadmin used to high-level programming languages. [Reddit](https://www.reddit.com/r/rust/comments/2lmhpd/rust_and_go/). [Hacker News](http://news.ycombinator.com/item?id=8574184)
 * [Learning Rust](http://foon.uk/rust.html): *Inspired by Artyom's Learning Racket series, I've decided to log my efforts in learning Rust. I'm going to document my learning process as I go about trying to build a roguelike in Rust. I've downloaded the compiler, skimmed the getting started guide, and written “Hello World”. So let's get started!*
 
 
@@ -231,17 +245,3 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 
 * [Rust Bay Area: Cryptography and Rust, December 18th](http://www.meetup.com/Rust-Bay-Area/events/210632582/)
 
-
-# New Contributors
-
-* Cristi Burcă
-* juxiliary
-* Nathan Zadoks
-* qwitwa
-* Sean Jensen-Grey
-* Subhash Bhushan
-* thiagopnts
-* tshakah
-* Vitali Haravy
-* Vladimir Matveev
-* whataloadofwhat
