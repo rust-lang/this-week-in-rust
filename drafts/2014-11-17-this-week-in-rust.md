@@ -67,39 +67,64 @@ TODO
 ## From the Team
 
 * [Weekly-meetings/2014-11-11 TODO](https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-11-11.md)
-    * [Discuss]()
-    * [Reddit]()
-
-
-
-## Videos
-TODO
-
-
-
+    * [Reddit](https://www.reddit.com/r/rust/comments/2m109d/weekly_meeting_111114/)
 
 ## Blog Posts
-TODO
 
+* [Two hours after Rust][two]. Reports from a new Rust user. [Reddit][two-reddit].
+* [Rust Serialization part 2.1: now with more benchmarks: Cap'n Proto, MessagePack, and Protobuf][bench]. [Reddit][bench-reddit].
+* [Serialization part 2.2: Everything's faster (especially capn proto)][bench2]. [Reddit][bench2-reddit].
+* [This Week in Servo 11][twis].
+* [Go vs. Rust: Productivity vs. Performance][govr]. [Reddit][govr-reddit].
 
+[two]: http://jbowles.github.io/lambda-bowles/programs/two-hours-after-rust/
+[two-reddit]: https://www.reddit.com/r/rust/comments/2ly7q8/two_hours_after_rust/
+[bench]: http://erickt.github.io/blog/2014/11/11/benchmarks/
+[bench-reddit]: https://www.reddit.com/r/rust/comments/2lzc9n/rust_serialization_part_21_now_with_more/
+[bench2]: http://erickt.github.io/blog/2014/11/13/benchmarks-2/
+[bench2-reddit]: https://www.reddit.com/r/rust/comments/2m72br/serialization_part_22_everythings_faster/
+[twis]: http://blog.servo.org/2014/11/11/twis-11/
+[govr]: http://joshitech.blogspot.com/2014/11/go-vs-rust-productivity-vs-performance.html
+[govr-reddit]: https://www.reddit.com/r/rust/comments/2maqi7/go_vs_rust_productivity_vs_performance/
 
+## Discussions
 
-## Discuss
-TODO
+* [Closures vs. Unboxed Closures][cl]. Useful explanation for the uninitiated.
+* [Where is artithmetic (signed) right-shift][sh]. (A: `>>` is either arithmetic or logical based on type).
+* `Foo::new()` vs. `Foo(), both on [discuss][ctor-discuss] and [Reddit][ctor-reddit].
+* ["Hello, world" on a PSP via Rust!][psp]. Another supreme hack from Luqman. Nice use of [target specs].
+* [Does Rust have anything like C# async await][await]. Take 20.
+* [`std::sync::Future` is almost useless for async processing][future]. (`Future` is ancient and unloved).
+* [Single-source GPU support][gpu]. An inquiry about the prospects of compiling Rust to GPUs.
+* [Experienced users: how easy is Rust's memory management system to use?][mm]. Mostly gushing about how awsome Rust is (seconded!).
 
-
-
-
-## Reddit
-TODO
-
-
+[cl]: https://www.reddit.com/r/rust/comments/2lo6yt/closures_vs_unboxed_closures/
+[sh]: https://www.reddit.com/r/rust/comments/2lp3il/where_is_arithmetic_signed_rightshift/
+[ctor-discuss]: http://discuss.rust-lang.org/t/poll-foo-new-vs-foo-as-the-default-constructor/758
+[ctor-reddit]: https://www.reddit.com/r/rust/comments/2lvrf5/foonew_vs_foo_as_the_default_constructor/
+[psp]: https://www.reddit.com/r/rust/comments/2m10id/hello_world_on_a_psp_via_rust/
+[target specs]: https://github.com/rust-lang/rfcs/blob/master/text/0131-target-specification.md
+[await]: https://www.reddit.com/r/rust/comments/2m5rin/does_rust_have_something_like_c_async_wait/
+[future]: https://www.reddit.com/r/rust/comments/2m64o5/stdsyncfuture_is_almost_useless_for_async/
+[gpu]: http://discuss.rust-lang.org/t/single-source-gpu-support/898
+[mm]: https://www.reddit.com/r/rust/comments/2m9qw9/experienced_users_how_easy_is_rusts_memory/
 
 ## New Projects
-TODO
 
+* [rust-id3 and rust-metaflac][id3]. Reading and writing audio file metadata.
+* [rust-resistant-taskpool][taskpool]. A load-balancing task pool.
+* [Rust-Welder]. Experiments with error interop. [Second discussion][Rust-Welder2].
+* [json_macros]. Create JSON via Rust syntax.
+* [rust-bitfield]. A macro to generate bitfields.
+* [rust-smtp]. SMTP client.
 
-
+[id3]: https://www.reddit.com/r/rust/comments/2lsfrd/rustid3_and_rustmetaflac_libraries_to_read_and/
+[taskpool]: https://www.reddit.com/r/rust/comments/2ltjwm/a_loadbalancing_taskpool_resistant_to_child_panics/
+[Rust-Welder]: https://www.reddit.com/r/rust/comments/2lwciy/feedback_and_discussion_wanted_rustwelder_a_crate/
+[Rust-Welder2]: https://www.reddit.com/r/rust/comments/2m84s1/updated_rustwelder_errorresult_handling/
+[json_macros]: https://www.reddit.com/r/rust/comments/2m3bjj/json_macros_construct_json_objects_in_rust_from/
+[rust-bitfields]: https://www.reddit.com/r/rust/comments/2m82o9/a_procedural_macro_to_generate_bitfieldlike_stuct/
+[rust-smtp]: https://www.reddit.com/r/rust/comments/2m8nla/rust_smtp_client_looking_for_feedback/
 
 ## Upcoming Meetups
 
