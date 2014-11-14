@@ -12,7 +12,7 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 
 # What's cooking on master?
 
-xxx pull requests were [merged in the last week][1]. Woo!
+xxx pull requests were [merged in the last week][1].
 
 [1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-11-10..2014-11-17
 
@@ -53,14 +53,49 @@ TODO
 
 
 # Approved RFC's
-TODO
 
+* [RFC 369: Numerics reform][num]. Conservatively dismantle the
+  numeric trait heirarchy for later reconsideration. [PR][num-pr].
+* [RFC 380: Stabilize std::fmt][fmt]. Primarily stabilizes the user-facing
+  formatting syntax, while leaving the library APIs
+  unstable. [PR][fmt-pr].
 
+[num]: https://github.com/rust-lang/rfcs/blob/master/text/0369-num-reform.md
+[num-pr]: https://github.com/rust-lang/rfcs/pull/369
+[fmt]: https://github.com/rust-lang/rfcs/blob/master/text/0380-stabilize-std-fmt.md
+[fmt-pr]: https://github.com/rust-lang/rfcs/pull/380
 
 # New RFC's
-TODO
 
+* [RFC 457: Version attribute][457]. Provides a mechanism for
+  identifying which version of the language a given source corresponds
+  to.
+* [RFC 458: Improve the `Send` trait][458]. This RFC proposes
+  extending the Send trait in some relatively small but backwards
+  incompatible ways, to allow more safe behaviors to be exposed in
+  Rust's type system. In particular, this involves removing the
+  'static bound from Send in a way that preserves thread safety.
+* [RFC 459: Disallow type/lifetime parameter shadowing][459]. Source
+  of confusing bugs.
+* [RFC 461: Add a thread-local storage module][461]. Another TLS
+  design.
+* [RFC 462: Future-proof `box` and `&` patterns][462]. Futureproof box
+  patterns by renaming them to deref.  In an effort to consolidate box
+  and & patterns, change the latter to use the deref syntax as well,
+  in recognition of them being semantically equivalent to box
+  patterns.  Make the newly introduced deref keyword a non-strict
+  keyword.
+* [RFC 463: Restrict identifiers after literals][463]. Futureproofing.
+* [RFC 464: Rename uint/int][464]. Latest in a series of RFC's to
+  discourage use of pointer-sized integers as the 'default' type.
 
+[457]: https://github.com/rust-lang/rfcs/pull/457
+[458]: https://github.com/rust-lang/rfcs/pull/458
+[459]: https://github.com/rust-lang/rfcs/pull/459
+[461]: https://github.com/rust-lang/rfcs/pull/461
+[462]: https://github.com/rust-lang/rfcs/pull/462
+[463]: https://github.com/rust-lang/rfcs/pull/463
+[464]: https://github.com/rust-lang/rfcs/pull/464
 
 # Community
 
@@ -97,6 +132,7 @@ TODO
 * [`std::sync::Future` is almost useless for async processing][future]. (`Future` is ancient and unloved).
 * [Single-source GPU support][gpu]. An inquiry about the prospects of compiling Rust to GPUs.
 * [Experienced users: how easy is Rust's memory management system to use?][mm]. Mostly gushing about how awsome Rust is (seconded!).
+* [Pre RFC: Remove `FromError` trait, add `From` trait][from]
 
 [cl]: https://www.reddit.com/r/rust/comments/2lo6yt/closures_vs_unboxed_closures/
 [sh]: https://www.reddit.com/r/rust/comments/2lp3il/where_is_arithmetic_signed_rightshift/
@@ -108,6 +144,7 @@ TODO
 [future]: https://www.reddit.com/r/rust/comments/2m64o5/stdsyncfuture_is_almost_useless_for_async/
 [gpu]: http://discuss.rust-lang.org/t/single-source-gpu-support/898
 [mm]: https://www.reddit.com/r/rust/comments/2m9qw9/experienced_users_how_easy_is_rusts_memory/
+[from]: http://discuss.rust-lang.org/t/pre-rfc-remove-fromerror-trait-add-from-trait/783
 
 ## New Projects
 
