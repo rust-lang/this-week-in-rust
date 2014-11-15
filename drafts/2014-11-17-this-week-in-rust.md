@@ -154,6 +154,7 @@ TODO
 * [json_macros]. Create JSON via Rust syntax.
 * [rust-bitfield]. A macro to generate bitfields.
 * [rust-smtp]. SMTP client.
+* [yaglw]. Yet another high-level OpenGL wrapper.
 
 [id3]: https://www.reddit.com/r/rust/comments/2lsfrd/rustid3_and_rustmetaflac_libraries_to_read_and/
 [taskpool]: https://www.reddit.com/r/rust/comments/2ltjwm/a_loadbalancing_taskpool_resistant_to_child_panics/
@@ -162,6 +163,13 @@ TODO
 [json_macros]: https://www.reddit.com/r/rust/comments/2m3bjj/json_macros_construct_json_objects_in_rust_from/
 [rust-bitfields]: https://www.reddit.com/r/rust/comments/2m82o9/a_procedural_macro_to_generate_bitfieldlike_stuct/
 [rust-smtp]: https://www.reddit.com/r/rust/comments/2m8nla/rust_smtp_client_looking_for_feedback/
+[yaglw]: https://www.reddit.com/r/rust_gamedev/comments/2m7l9a/yaglw_yet_another_opengl_wrapper/
+
+## Project Updates
+
+* Piston has [seen some refactoring][pist] to how it handles event loops and windows.
+
+[pist]: https://www.reddit.com/r/rust_gamedev/comments/2m7k6v/piston_update_glutin_loop/
 
 ## Upcoming Meetups
 
