@@ -103,6 +103,14 @@ TODO
 
 * [Weekly-meetings/2014-11-11 TODO](https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-11-11.md)
     * [Reddit](https://www.reddit.com/r/rust/comments/2m109d/weekly_meeting_111114/)
+* [Allocators in Rust][alloc]: Niko attempts to lay out the tradeoffs
+  involved in integrating jemalloc with
+  Rust. [Reddit][alloc-reddit]. [HN][alloc-hn].
+
+
+[alloc]: http://smallcultfollowing.com/babysteps/blog/2014/11/14/allocators-in-rust/
+[alloc-reddit]: https://www.reddit.com/r/rust/comments/2mcew2/allocators_in_rust_from_nmatsakiss_blog/
+[alloc-hn]: https://news.ycombinator.com/item?id=8612430
 
 ## Blog Posts
 
