@@ -18,15 +18,15 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 
 ## Breaking Changes
 
-* The `Extendable` trait for extending a collection via an `Iterator`
-  has been [renamed][extend] to `Extend`, and can now be used with
-  `EnumSet` and `LruCache`.
-* The old 'once_fns' feature gate has been [removed][once] (everybody
-  thought it had been removed long ago). This is unrelated to the
-  modern `FnOnce` type.
+* Struct variants are [no longer feature-gated][structvars]. At the
+  same time, struct variants no longer support visibility modifiers,
+  for consistency with other variants. [RFC][structvars-rfc].
 * The `time` crate, which is widely considered to be of poor quality,
   has been [moved out of the distribution][time], but can still be
   accessed via cargo.
+* The new task pool that [reem announced on reddit][tp-reddit] earlier
+  in the week was speedily [merged into the tree][tp], replacing the
+  old `TaskPool`. It includes some breaking API changes.
 * The compiler now treats `()` not as a distinct 'unit' type but as a
   [zero-length tuple][unit] (though the docs continue to allow that
   `()` may be referred to as 'unit'). This may cause breakage for
@@ -34,19 +34,20 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
   expression.
 * `io::Buffer` has been [refactored to be object-safe][buffer], moving
   some methods into other traits.
-* The new task pool that [reem announced on reddit][tp-reddit] earlier
-  in the week was speedily [merged into the tree][tp], replacing the
-  old `TaskPool`. It includes some breaking API changes.
-* Struct variants are [no longer feature-gated][structvars]. At the
-  same time, struct variants no longer support visibility modifiers,
-  for consistency with other variants. [RFC][structars-rfc].
+* The `Extendable` trait for extending a collection via an `Iterator`
+  has been [renamed][extend] to `Extend`, and can now be used with
+  `EnumSet` and `LruCache`.
+* The old 'once_fns' feature gate has been [removed][once] (everybody
+  thought it had been removed long ago). This is unrelated to the
+  modern `FnOnce` type.
 
 [extend]: https://github.com/rust-lang/rust/pull/18475
-[once_fns]: https://github.com/rust-lang/rust/pull/18743
+[once]: https://github.com/rust-lang/rust/pull/18743
 [time]: https://github.com/rust-lang/rust/pull/18858
 [unit]: https://github.com/rust-lang/rust/pull/18752
 [buffer]: https://github.com/rust-lang/rust/pull/18788
 [tp]: https://github.com/rust-lang/rust/pull/18941
+[tp-reddit]: https://www.reddit.com/r/rust/comments/2ltjwm/a_loadbalancing_taskpool_resistant_to_child_panics/
 [structvars]: https://github.com/rust-lang/rust/pull/18994
 [structvars-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0418-struct-variants.md
 
@@ -128,8 +129,7 @@ TODO
 
 ## From the Team
 
-* [Weekly-meetings/2014-11-11][mtg]: fott; std::fmt; default typarams; rfc authors; 'coerce' vs. 'view', etc.; precent of + in type grammar; jemalloc
-    * [Reddit](https://www.reddit.com/r/rust/comments/2m109d/weekly_meeting_111114/)
+* [Weekly-meetings/2014-11-11][mtg]: fott; std::fmt; default typarams; rfc authors; 'coerce' vs. 'view', etc.; precent of + in type grammar; jemalloc. [Reddit][mtg-reddit].
 * [Brian Koropoff (unwound) is a friend of the tree!][fott]
 * [Allocators in Rust][alloc]: Niko attempts to lay out the tradeoffs
   involved in integrating jemalloc with
@@ -137,6 +137,7 @@ TODO
 
 
 [mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-11-11.md
+[mtg-reddit]: https://www.reddit.com/r/rust/comments/2me6r7/rustupps1_a_rustupsh_equivalent_for_windows/
 [alloc]: http://smallcultfollowing.com/babysteps/blog/2014/11/14/allocators-in-rust/
 [alloc-reddit]: https://www.reddit.com/r/rust/comments/2mcew2/allocators_in_rust_from_nmatsakiss_blog/
 [alloc-hn]: https://news.ycombinator.com/item?id=8612430
@@ -193,6 +194,8 @@ TODO
 * [rust-bitfield]. A macro to generate bitfields.
 * [rust-smtp]. SMTP client.
 * [yaglw]. Yet another high-level OpenGL wrapper.
+* [rustup.ps1]. A rustup.sh equivalent for Windows, installs Cargo
+  alongside Rust, which the Rust installer currently fails to do.
 
 [id3]: https://www.reddit.com/r/rust/comments/2lsfrd/rustid3_and_rustmetaflac_libraries_to_read_and/
 [taskpool]: https://www.reddit.com/r/rust/comments/2ltjwm/a_loadbalancing_taskpool_resistant_to_child_panics/
@@ -202,6 +205,7 @@ TODO
 [rust-bitfields]: https://www.reddit.com/r/rust/comments/2m82o9/a_procedural_macro_to_generate_bitfieldlike_stuct/
 [rust-smtp]: https://www.reddit.com/r/rust/comments/2m8nla/rust_smtp_client_looking_for_feedback/
 [yaglw]: https://www.reddit.com/r/rust_gamedev/comments/2m7l9a/yaglw_yet_another_opengl_wrapper/
+[rustup.ps1]: https://www.reddit.com/r/rust/comments/2me6r7/rustupps1_a_rustupsh_equivalent_for_windows/
 
 ## Project Updates
 
