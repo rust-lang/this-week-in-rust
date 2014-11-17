@@ -76,9 +76,16 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 [win]: https://github.com/rust-lang/rust/pull/18797
 
 ## New Contributors
-TODO
 
-
+* Adam Szkoda
+* Artem
+* Barosl Lee
+* Ian Connolly
+* Jeff Parsons
+* Josh Haberman
+* Josh Stone
+* Murarth
+* Ricky Taylor
 
 # Approved RFC's
 
@@ -148,7 +155,6 @@ TODO
 * [Two hours after Rust][two]. Reports from a new Rust user. [Reddit][two-reddit].
 * [Rust Serialization part 2.1: now with more benchmarks: Cap'n Proto, MessagePack, and Protobuf][bench]. [Reddit][bench-reddit].
 * [Serialization part 2.2: Everything's faster (especially capn proto)][bench2]. [Reddit][bench2-reddit].
-* [This Week in Servo 11][twis].
 * [Go vs. Rust: Productivity vs. Performance][govr]. [Reddit][govr-reddit].
 
 [two]: http://jbowles.github.io/lambda-bowles/programs/two-hours-after-rust/
@@ -157,7 +163,6 @@ TODO
 [bench-reddit]: https://www.reddit.com/r/rust/comments/2lzc9n/rust_serialization_part_21_now_with_more/
 [bench2]: http://erickt.github.io/blog/2014/11/13/benchmarks-2/
 [bench2-reddit]: https://www.reddit.com/r/rust/comments/2m72br/serialization_part_22_everythings_faster/
-[twis]: http://blog.servo.org/2014/11/11/twis-11/
 [govr]: http://joshitech.blogspot.com/2014/11/go-vs-rust-productivity-vs-performance.html
 [govr-reddit]: https://www.reddit.com/r/rust/comments/2maqi7/go_vs_rust_productivity_vs_performance/
 
@@ -209,8 +214,10 @@ TODO
 
 ## Project Updates
 
+* [This Week in Servo 11][twis].
 * Piston has [seen some refactoring][pist] to how it handles event loops and windows.
 
+[twis]: http://blog.servo.org/2014/11/11/twis-11/
 [pist]: https://www.reddit.com/r/rust_gamedev/comments/2m7k6v/piston_update_glutin_loop/
 
 ## Upcoming Meetups
