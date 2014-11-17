@@ -207,7 +207,7 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 [Rust-Welder]: https://www.reddit.com/r/rust/comments/2lwciy/feedback_and_discussion_wanted_rustwelder_a_crate/
 [Rust-Welder2]: https://www.reddit.com/r/rust/comments/2m84s1/updated_rustwelder_errorresult_handling/
 [json_macros]: https://www.reddit.com/r/rust/comments/2m3bjj/json_macros_construct_json_objects_in_rust_from/
-[rust-bitfields]: https://www.reddit.com/r/rust/comments/2m82o9/a_procedural_macro_to_generate_bitfieldlike_stuct/
+[rust-bitfield]: https://www.reddit.com/r/rust/comments/2m82o9/a_procedural_macro_to_generate_bitfieldlike_stuct/
 [rust-smtp]: https://www.reddit.com/r/rust/comments/2m8nla/rust_smtp_client_looking_for_feedback/
 [yaglw]: https://www.reddit.com/r/rust_gamedev/comments/2m7l9a/yaglw_yet_another_opengl_wrapper/
 [rustup.ps1]: https://www.reddit.com/r/rust/comments/2me6r7/rustupps1_a_rustupsh_equivalent_for_windows/
