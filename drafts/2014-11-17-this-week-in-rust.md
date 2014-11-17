@@ -12,7 +12,7 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 
 # What's cooking on master?
 
-xxx pull requests were [merged in the last week][1].
+55 pull requests were [merged in the last week][1].
 
 [1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-11-10..2014-11-17
 
@@ -27,10 +27,28 @@ xxx pull requests were [merged in the last week][1].
 * The `time` crate, which is widely considered to be of poor quality,
   has been [moved out of the distribution][time], but can still be
   accessed via cargo.
+* The compiler now treats `()` not as a distinct 'unit' type but as a
+  [zero-length tuple][unit] (though the docs continue to allow that
+  `()` may be referred to as 'unit'). This may cause breakage for
+  macros that expect `()` to be a literal, whereas now it is an
+  expression.
+* `io::Buffer` has been [refactored to be object-safe][buffer], moving
+  some methods into other traits.
+* The new task pool that [reem announced on reddit][tp-reddit] earlier
+  in the week was speedily [merged into the tree][tp], replacing the
+  old `TaskPool`. It includes some breaking API changes.
+* Struct variants are [no longer feature-gated][structvars]. At the
+  same time, struct variants no longer support visibility modifiers,
+  for consistency with other variants. [RFC][structars-rfc].
 
 [extend]: https://github.com/rust-lang/rust/pull/18475
 [once_fns]: https://github.com/rust-lang/rust/pull/18743
 [time]: https://github.com/rust-lang/rust/pull/18858
+[unit]: https://github.com/rust-lang/rust/pull/18752
+[buffer]: https://github.com/rust-lang/rust/pull/18788
+[tp]: https://github.com/rust-lang/rust/pull/18941
+[structvars]: https://github.com/rust-lang/rust/pull/18994
+[structvars-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0418-struct-variants.md
 
 ## Other Changes
 
@@ -41,11 +59,20 @@ xxx pull requests were [merged in the last week][1].
 * `AsRefReader` and `AsRefWriter` have been [renamed][asref] to
   `ByRefReader` and `ByRefWriter` for consistency with their method
   names. The original types remain and are deprecated.
+* Performance of `RingBuf` has [improved][ringbuf]. Some subsequent
+  [reddit discussion][ringbuf-reddit] lamented the introduction of
+  unsafe code.
+* On Windows, rustc [once again prefers the bundled MinGW linker][win]
+  over any system-installed MinGW linker in an attempt to make Rust on
+  Windows cause the fewest surprises.
 
 [btree]: https://github.com/rust-lang/rust/pull/18287
 [view-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0216-collection-views.md
 [stable]: https://github.com/rust-lang/rust/pull/18887
 [asref]: https://github.com/rust-lang/rust/pull/18891
+[ringbuf]: https://github.com/rust-lang/rust/pull/18747
+[ringbuf-reddit]: https://www.reddit.com/r/rust/comments/2mfcuk/ringbuf_remove_optiont/
+[win]: https://github.com/rust-lang/rust/pull/18797
 
 ## New Contributors
 TODO
@@ -101,16 +128,19 @@ TODO
 
 ## From the Team
 
-* [Weekly-meetings/2014-11-11 TODO](https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-11-11.md)
+* [Weekly-meetings/2014-11-11][mtg]: fott; std::fmt; default typarams; rfc authors; 'coerce' vs. 'view', etc.; precent of + in type grammar; jemalloc
     * [Reddit](https://www.reddit.com/r/rust/comments/2m109d/weekly_meeting_111114/)
+* [Brian Koropoff (unwound) is a friend of the tree!][fott]
 * [Allocators in Rust][alloc]: Niko attempts to lay out the tradeoffs
   involved in integrating jemalloc with
   Rust. [Reddit][alloc-reddit]. [HN][alloc-hn].
 
 
+[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-11-11.md
 [alloc]: http://smallcultfollowing.com/babysteps/blog/2014/11/14/allocators-in-rust/
 [alloc-reddit]: https://www.reddit.com/r/rust/comments/2mcew2/allocators_in_rust_from_nmatsakiss_blog/
 [alloc-hn]: https://news.ycombinator.com/item?id=8612430
+[fott]: https://github.com/rust-lang/rust/wiki/Doc-friends-of-the-tree#2014-11-11-brian-koropoff-unwound
 
 ## Blog Posts
 
