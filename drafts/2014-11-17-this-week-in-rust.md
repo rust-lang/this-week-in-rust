@@ -134,7 +134,7 @@ TODO
 
 * [Closures vs. Unboxed Closures][cl]. Useful explanation for the uninitiated.
 * [Where is artithmetic (signed) right-shift][sh]. (A: `>>` is either arithmetic or logical based on type).
-* `Foo::new()` vs. `Foo(), both on [discuss][ctor-discuss] and [Reddit][ctor-reddit].
+* `Foo::new()` vs. `Foo()`, both on [discuss][ctor-discuss] and [Reddit][ctor-reddit].
 * ["Hello, world" on a PSP via Rust!][psp]. Another supreme hack from Luqman. Nice use of [target specs].
 * [Does Rust have anything like C# async await][await]. Take 20.
 * [`std::sync::Future` is almost useless for async processing][future]. (`Future` is ancient and unloved).
