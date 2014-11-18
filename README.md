@@ -1,7 +1,10 @@
 this-week-in-rust
 =================
 
-Data for this-week-in-rust.org
+Content for this-week-in-rust.org. Made available under CC-BY-SA.
+
+All code Copyright 2014 Corey Richardson, made available under [the MIT
+license](http://mit-license.org/).
 
 ## How I get PR lists:
 

@@ -131,7 +131,7 @@ Anderson](https://github.com/brson/) and [Alexis Beingessner](https://github.com
 * whataloadofwhat
 
 # Approved RFC's
-* [Num reform](https://github.com/rust-lang/rfcs/blob/master/text/0418-struct-variants.md): Strips down `std::num` to minimally support generic primitive numbers, without supporting a full mathematical hierarchy.
+* [Num reform](https://github.com/rust-lang/rfcs/blob/master/text/0369-num-reform.md): Strips down `std::num` to minimally support generic primitive numbers, without supporting a full mathematical hierarchy.
 * [Higher-ranked trait bounds](https://github.com/rust-lang/rfcs/blob/master/text/0387-higher-ranked-trait-bounds.md): Add the ability to have trait bounds that are polymorphic over lifetimes. Necessary for unboxed closures.
 * [un-feature-gating struct variants](https://github.com/rust-lang/rfcs/blob/master/text/0418-struct-variants.md): Woo!
 * [Multiple lifetime bounds](https://github.com/rust-lang/rfcs/blob/master/text/0192-bounds-on-object-and-generic-types.md): Removes special cases from the type system and allows more complex lifetime relationships to be expressed that were previously only inferable.
@@ -142,7 +142,7 @@ Anderson](https://github.com/brson/) and [Alexis Beingessner](https://github.com
 * [Macro reform](https://github.com/rust-lang/rfcs/pull/453): Prepares macros for 1.0 stabilization. Renames `macro_rules!` to `macro!`, and introduces more robust support for module importing and exporting.
 * [Change integer fallback RFC to suggest `i32` instead of `int` as the fallback](https://github.com/rust-lang/rfcs/pull/452): Changes the fallback for performance and portability.
 * [Un-feature-gate if let and tuple indexing](https://github.com/rust-lang/rfcs/pull/450): The features are well-behaved and used by many projects; ship 'em!
-* [Prohibit unused type parameters in impls](https://github.com/rust-lang/rfcs/pull/453): Require that every impl type parameter appears textually within the input type parameters of the trait reference or the impl self type.
+* [Prohibit unused type parameters in impls](https://github.com/rust-lang/rfcs/pull/447): Require that every impl type parameter appears textually within the input type parameters of the trait reference or the impl self type.
 * [ES6-style unicode string escaping](https://github.com/rust-lang/rfcs/pull/446): Remove `\u203D` and `\U0001F4A9` unicode string escapes, and add ECMAScript 6-style `\u{1F4A9}` escapes instead. Strong positive feedback, some concern with how it interacts with format strings.
 * [extension trait conventions](https://github.com/rust-lang/rfcs/pull/445): Establishes a definition and naming convention for extension traits: traits which aren't intended for generic programing, but instead extending existing types. If extending a `Foo`, use `FooExt`. If Extending a `Foo` when it impls another trait like `Add`, use `FooAddExt`.
 * [cmp and ops reform](https://github.com/rust-lang/rfcs/pull/439): Refactors `Cmp` and the operator overloading traits. Generally positive feedback. Highlights include:
