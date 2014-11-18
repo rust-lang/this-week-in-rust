@@ -1,5 +1,5 @@
-Title: This Week in Rust 57
-Date: 2014-11-17
+Title: This Week in Rust XX
+Date: YYYY-MM-DD
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -12,7 +12,7 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 
 # What's cooking on master?
 
-xxx pull requests were [merged in the last week][1].
+XXX pull requests were [merged in the last week][1].
 
 [1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-11-17..2014-11-24
 
