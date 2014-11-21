@@ -179,6 +179,7 @@ Karen Rustad found a wild [rustacean](https://twitter.com/whoisaldeka/status/535
 * [raw-rs]. Utilities for manipulation of Rust core types.
 * [rust-uchardet]. Encoding detection.
 * [Rust-Relay]. IRC client library. Start your bots!
+* [cargo-do]. Cargo plugin for running multiple commands at once.
 
 [rust-eh]: https://www.reddit.com/r/rust/comments/2mjqzi/rusteh_python_like_error_tracebacks_for_rust/
 [sl]: https://www.reddit.com/r/rust/comments/2mrep5/sl1_reimplementation_in_rust/
@@ -186,6 +187,7 @@ Karen Rustad found a wild [rustacean](https://twitter.com/whoisaldeka/status/535
 [raw-rs]: https://www.reddit.com/r/rust/comments/2mp0il/rawrs_utilities_for_unsafe_manipulation_of_core/
 [rust-uchardet]: https://www.reddit.com/r/rust/comments/2mpedc/rustuchardet_encoding_detection_wrapper_using_ffi/
 [Rust-Relay]: https://www.reddit.com/r/rust/comments/2miyr2/rustrelay_an_ircv3_client_library_looking_for/
+[cargo-do]: https://www.reddit.com/r/rust/comments/2mwzah/cargo_subcommand_plugin_to_run_multiple_commands/
 
 ## Project Updates
 
