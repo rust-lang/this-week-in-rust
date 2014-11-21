@@ -59,6 +59,8 @@ xxx pull requests were [merged in the last week][1].
 * The little-used `col!` macro is [renamed to `column!`][column].
 * Non-ASCII lifetime identifiers are [behind the `non_ascii_idents`
   feature gate][ascii] as intended.
+* [Struct variants can not be matched as if they were tuple
+  variants][varmatch].
 
 [enumns]: https://github.com/rust-lang/rust/pull/18973
 [enumns-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0390-enum-namespacing.md
@@ -73,6 +75,7 @@ xxx pull requests were [merged in the last week][1].
 [fmt-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0380-stabilize-std-fmt.md
 [column]: https://github.com/rust-lang/rust/pull/19071
 [ascii]: https://github.com/rust-lang/rust/pull/19073
+[varmatch]: https://github.com/rust-lang/rust/pull/19087
 
 ## Other Changes
 
@@ -84,12 +87,18 @@ xxx pull requests were [merged in the last week][1].
   is behind the `linkage` feature gate.
 * Parts of rustc have been [pulled into a new `rustc_trans`
   crate][rustc_trans] to reduce memory pressure.
+* All idents following literals are [tokenized specially][litid] now
+  as future proofing. [RFC][litid-rfc].
+* [Unboxed closures can be written with the sugared syntax][sugar].
 
 [hrtb]: https://github.com/rust-lang/rust/pull/18993
 [hrtb-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0387-higher-ranked-trait-bounds.md
 [vec-writer]: https://github.com/rust-lang/rust/pull/18885
 [linkage]: https://github.com/rust-lang/rust/pull/18890
 [rustc_trans]: https://github.com/rust-lang/rust/pull/19070
+[litid]: https://github.com/rust-lang/rust/pull/19103
+[litid-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0463-future-proof-literal-suffixes.md
+[sugar]: https://github.com/rust-lang/rust/pull/19113
 
 ## New Contributors
 
