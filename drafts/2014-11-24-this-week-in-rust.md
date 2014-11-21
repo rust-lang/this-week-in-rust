@@ -163,15 +163,13 @@ Karen Rustad found a wild [rustacean](https://twitter.com/whoisaldeka/status/535
 * [What does 'unwrap' mean in Rust?][unwrap]
 * [How would a Rust application be able to properly react to low level failures, like memory allocation failure?][ll]
 * [The Race Towards 1.0 and The Standard Library][race].
-* [Is Rust recommended for beginners with 0 programming language experience?][newb]. (TL;DR it depends)
-* [Glium's design choices][glium]. Glium is a safe OpenGL wrapper.
+* [Is Rust recommended for beginners with 0 programming language experience?][newb]. TL;DR it depends.
 
 [c++]: https://www.reddit.com/r/rust/comments/2mwpie/what_are_the_advantages_of_rust_over_modern_c/
 [unwrap]: https://www.reddit.com/r/rust/comments/2mw2ns/what_does_unwrap_mean_in_rust/
 [ll]: https://www.reddit.com/r/rust/comments/2mthq2/how_would_a_rust_application_be_able_to_properly/
 [race]: https://www.reddit.com/r/rust/comments/2mo0zb/the_race_towards_10_and_the_standard_library/
 [newb]: https://www.reddit.com/r/rust/comments/2mlq18/is_rust_recommended_for_beginners_with_0/
-[glium]: https://www.reddit.com/r/rust_gamedev/comments/2mkbs9/gliums_design_choices/
 
 ## New Projects
 
@@ -192,9 +190,8 @@ Karen Rustad found a wild [rustacean](https://twitter.com/whoisaldeka/status/535
 ## Project Updates
 
 * [This Week in Servo 12][twis].
+* [Glium's design choices][glium]. Glium is a safe OpenGL wrapper.
 
 [twis]: http://blog.servo.org/2014/11/18/twis-12/
-
-## Upcoming Meetups
-
+[glium]: https://www.reddit.com/r/rust_gamedev/comments/2mkbs9/gliums_design_choices/
 
