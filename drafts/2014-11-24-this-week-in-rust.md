@@ -12,7 +12,7 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 
 The big news this week was that the [central crate
 repository][crates.io] is [now live][crates.io-blog].  There was much
-discussion on [HN][crates.io-hn], [/r/rust][crates.io-reddit1] and
+discussion on [Hacker News][crates.io-hn], [/r/rust][crates.io-reddit1] and
 [/r/programming][crates.io-reddit2].
 
 [crates.io]: https://crates.io/
@@ -129,21 +129,71 @@ Karen Rustad found a wild [rustacean](https://twitter.com/whoisaldeka/status/535
 [mtg-reddit]: https://www.reddit.com/r/rust/comments/2mwdhn/weekly_meeting_20141118/
 [cargo]: http://blog.rust-lang.org/2014/11/20/Cargo.html
 
+## Videos
+
+* [Introduction to programming safe and efficient systems in Rust][vid]. Jakub Bukaj at Øredev.
+
+[vid]: http://vimeo.com/111852387
+
 ## Blog Posts
 
+* [Rust, Lifetimes, and Collections][coll]. Alexis Beingessner (aka
+  Gankro), who has been driving the current modernization of the
+  collections libs, talks about the design of collections in
+  Rust. [Reddit][coll-reddit]. [HN][coll-hn].
+* [Chasing an EPROTOTYPE Through Rust, Sendto, and the OSX Kernel With
+  C-Reduce][erickt]. [Reddit][erickt-reddit].
+* [Rust tools][tools]. Nick Cameron has been thinking about the state
+  of Rust tooling. [Reddit][tools-reddit].
+* [Roguelike Tutorial in Rust: Part 5: Combat! Part III][rogue]. [Reddit][rogue-reddit].
 
+[coll]: http://cglab.ca/~abeinges/blah/rust-lifetimes-and-collections/
+[coll-hn]: http://news.ycombinator.com/item?id=8629789
+[coll-reddit]: https://www.reddit.com/r/rust/comments/2mqwdm/rust_lifetimes_and_collections/
+[erickt]: https://erickt.github.io/blog/2014/11/19/adventures-in-debugging-a-potential-osx-kernel-bug/
+[erickt-reddit]: https://www.reddit.com/r/rust/comments/2mslk8/chasing_an_eprototype_through_rust_sendto_and_the/
+[tools]: https://gist.github.com/nick29581/a3bbf6dd1b14ce57f18c
+[tools-reddit]: https://www.reddit.com/r/rust/comments/2mqkwk/rust_tools/
+[rogue]: http://jaredonline.svbtle.com/roguelike-tutorial-in-rust-part-5
+[rogue-reddit]: https://www.reddit.com/r/rust/comments/2mlq0h/roguelike_tutorial_in_rust_part_5_combat_part_iii/
 
 ## Discussions
 
+* [What are the advantages of Rust over modern C++?][c++]
+* [What does 'unwrap' mean in Rust?][unwrap]
+* [How would a Rust application be able to properly react to low level failures, like memory allocation failure?][ll]
+* [The Race Towards 1.0 and The Standard Library][race].
+* [Is Rust recommended for beginners with 0 programming language experience?][newb]. (TL;DR it depends)
+* [Glium's design choices][glium]. Glium is a safe OpenGL wrapper.
 
+[c++]: https://www.reddit.com/r/rust/comments/2mwpie/what_are_the_advantages_of_rust_over_modern_c/
+[unwrap]: https://www.reddit.com/r/rust/comments/2mw2ns/what_does_unwrap_mean_in_rust/
+[ll]: https://www.reddit.com/r/rust/comments/2mthq2/how_would_a_rust_application_be_able_to_properly/
+[race]: https://www.reddit.com/r/rust/comments/2mo0zb/the_race_towards_10_and_the_standard_library/
+[newb]: https://www.reddit.com/r/rust/comments/2mlq18/is_rust_recommended_for_beginners_with_0/
+[glium]: https://www.reddit.com/r/rust_gamedev/comments/2mkbs9/gliums_design_choices/
 
 ## New Projects
 
+* [rust-eh]. Python-like error tracebacks, from mitsuhiko.
+* `sl`, the classic Unix command, [in Rust][sl].
+* [img_hash]. Perceptual hashing of images.
+* [raw-rs]. Utilities for manipulation of Rust core types.
+* [rust-uchardet]. Encoding detection.
+* [Rust-Relay]. IRC client library. Start your bots!
 
+[rust-eh]: https://www.reddit.com/r/rust/comments/2mjqzi/rusteh_python_like_error_tracebacks_for_rust/
+[sl]: https://www.reddit.com/r/rust/comments/2mrep5/sl1_reimplementation_in_rust/
+[img_hash]: https://www.reddit.com/r/rust/comments/2mq3dg/img_hash_a_simple_rust_library_for_performing/
+[raw-rs]: https://www.reddit.com/r/rust/comments/2mp0il/rawrs_utilities_for_unsafe_manipulation_of_core/
+[rust-uchardet]: https://www.reddit.com/r/rust/comments/2mpedc/rustuchardet_encoding_detection_wrapper_using_ffi/
+[Rust-Relay]: https://www.reddit.com/r/rust/comments/2miyr2/rustrelay_an_ircv3_client_library_looking_for/
 
 ## Project Updates
 
+* [This Week in Servo 12][twis].
 
+[twis]: http://blog.servo.org/2014/11/18/twis-12/
 
 ## Upcoming Meetups
 
