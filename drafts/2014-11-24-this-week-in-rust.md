@@ -104,13 +104,57 @@ xxx pull requests were [merged in the last week][1].
 
 
 
-# Approved RFC's
 
+# Approved RFC's
+* [Higher-ranked trait bounds][rfc387]: Makes the type-system powerful enough to deal with
+unboxed closures as well as boxed ones.
+* [RFC to restrict placing an identifier after a literal.][rfc463]: Future-proofs syntax for literals
+* [Finalizing more naming conventions][rfc430]: snake_case-type stuff and `unwrap` vs `into_inner`
+* [Change precedence of `+` in type grammar][rfc438]: Cleans up a some weird parsing interactions
+* [cmp and ops reform][rfc439]: DST-ify operators, add multi-dispatch, make them by-value for
+flexibility, add IndexSet, unify slice operators with `..` notation sugaring to special types,
+kill Equiv
+* [Add a thread local storage module, std::tls][rfc461]: Introduces Scoped TLS and Owned TLS in a
+new thread_local module to replace the old design. Should have better perf, be more flexible.
+
+[rfc387]: https://github.com/rust-lang/rfcs/pull/387
+[rfc463]: https://github.com/rust-lang/rfcs/pull/463
+[rfc430]: https://github.com/rust-lang/rfcs/pull/430
+[rfc438]: https://github.com/rust-lang/rfcs/pull/438
+[rfc439]: https://github.com/rust-lang/rfcs/pull/439
+[rfc461]: https://github.com/rust-lang/rfcs/pull/461
 
 
 # New RFC's
 
+* [Release channels and feature staging][rfc475]: This RFC describes changes to the Rust release
+process, primarily the division of Rust's time-based releases into 'release channels', following
+the 'release train' model used by e.g. Firefox and Chrome; as well as 'feature staging', which
+enables the continued development of experimental language features and libraries APIs while
+providing strong stability guarantees in stable releases.
+* [path reform][rfc474]: This RFC reforms the design of the std::path module in preparation for API
+stabilization. The path API must deal with many competing demands, and the
+current design handles many of them, but suffers from some significant problems
+given in "Motivation" below. The RFC proposes a redesign modeled loosely on the
+current API that addresses these problems while maintaining the advantages of
+the current design.
+* [placement box with Placer trait for overloading][rfc470]: Add user-defined placement in
+expression (more succinctly, "an in expression"), an operator analogous to "placement new"
+in C++. This provides a way for a user to specify (1.) how the backing storage for some
+datum should be allocated, (2.) that the allocation should be ordered before the evaluation
+of the datum, and (3.) that the datum should preferably be stored directly into the backing
+storage (rather than allocating temporary storage on the stack and then copying the datum
+from the stack into the backing storage).
+* [Feature gate box patterns][rfc469]: Move box patterns behind a feature gate.The general idea is
+good, but the semantics aren't baked enough for 1.0.
+* [Add "function name macro"][rfc466]: This RFC proposes the addition of a function! macro that
+expands to the function it's used in. This will greatly help error reporting.
 
+[rfc474]: https://github.com/rust-lang/rfcs/pull/474
+[rfc475]: https://github.com/rust-lang/rfcs/pull/475
+[rfc470]: https://github.com/rust-lang/rfcs/pull/470
+[rfc469]: https://github.com/rust-lang/rfcs/pull/469
+[rfc466]: https://github.com/rust-lang/rfcs/pull/466
 
 # Community
 
