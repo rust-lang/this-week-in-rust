@@ -37,6 +37,11 @@ xxx pull requests were [merged in the last week][1].
   major change. Enums in the standard library have been reexported in
   their old locations, for now at
   least. [RFC][enumns-rfc]. [Reddit][enumns-reddit].
+* Collections have been modified to [no longer require the various
+  `_equiv` methods][borrow], which are now deprecated.  Methods that
+  search by key and value now often take a generic type that
+  implements `BorrowFrom`, which converts e.g. both `str` and `String`
+  to `&str`. [RFC][borrow-rfc].
 * As part of ongoing [DST-ification][dst], `AsSlice` has been
   [modified to work with unsized types][unsized-asslice]. This breaks
   existing code because `AsSlice` type vars should now be taken by
@@ -61,6 +66,10 @@ xxx pull requests were [merged in the last week][1].
   feature gate][ascii] as intended.
 * [Struct variants can not be matched as if they were tuple
   variants][varmatch].
+* There have been [several breaking changes and deprecations to
+  `std::char`][stdchar].
+* Likewise, there have been a number of changes to the code
+  [dealing with raw string and vector processing][raw].
 
 [enumns]: https://github.com/rust-lang/rust/pull/18973
 [enumns-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0390-enum-namespacing.md
@@ -76,6 +85,10 @@ xxx pull requests were [merged in the last week][1].
 [column]: https://github.com/rust-lang/rust/pull/19071
 [ascii]: https://github.com/rust-lang/rust/pull/19073
 [varmatch]: https://github.com/rust-lang/rust/pull/19087
+[stdchar]: https://github.com/rust-lang/rust/pull/18603
+[borrow]: https://github.com/rust-lang/rust/pull/18910
+[borrow-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0235-collections-conventions.md
+[raw]: https://github.com/rust-lang/rust/pull/19152
 
 ## Other Changes
 
@@ -102,10 +115,21 @@ xxx pull requests were [merged in the last week][1].
 
 ## New Contributors
 
-
-
+* Andrew Cann
+* Gleb Kozyrev
+* Jashank Jeremy
+* jmu303
+* Joonas Javanainen
+* jxv
+* Nicholas Bishop
+* oli-obk
+* sheroze1123
+* Simon Wollwage
+* Vadim Petrochenkov
+* we
 
 # Approved RFC's
+
 * [Higher-ranked trait bounds][rfc387]: Makes the type-system powerful enough to deal with
 unboxed closures as well as boxed ones.
 * [RFC to restrict placing an identifier after a literal.][rfc463]: Future-proofs syntax for literals
@@ -208,30 +232,42 @@ Karen Rustad found a wild [rustacean](https://twitter.com/whoisaldeka/status/535
 * [How would a Rust application be able to properly react to low level failures, like memory allocation failure?][ll]
 * [The Race Towards 1.0 and The Standard Library][race].
 * [Is Rust recommended for beginners with 0 programming language experience?][newb]. TL;DR it depends.
+* [Feedback wanted: improved Rust error handling][err]. More experiments from mitsuhiko.
+* [Benchmarks on different Map implementations for uint keys][bench].
 
 [c++]: https://www.reddit.com/r/rust/comments/2mwpie/what_are_the_advantages_of_rust_over_modern_c/
 [unwrap]: https://www.reddit.com/r/rust/comments/2mw2ns/what_does_unwrap_mean_in_rust/
 [ll]: https://www.reddit.com/r/rust/comments/2mthq2/how_would_a_rust_application_be_able_to_properly/
 [race]: https://www.reddit.com/r/rust/comments/2mo0zb/the_race_towards_10_and_the_standard_library/
 [newb]: https://www.reddit.com/r/rust/comments/2mlq18/is_rust_recommended_for_beginners_with_0/
+[err]: https://www.reddit.com/r/rust/comments/2n6mpm/feedback_wanted_improved_rust_error_handling/
+[bench]: https://www.reddit.com/r/rust/comments/2n2v3l/benchmarks_on_different_map_implementations_for/
 
 ## New Projects
 
 * [rust-eh]. Python-like error tracebacks, from mitsuhiko.
+* [rust-incidents]. More error experiments from mitsuhiko.
 * `sl`, the classic Unix command, [in Rust][sl].
 * [img_hash]. Perceptual hashing of images.
 * [raw-rs]. Utilities for manipulation of Rust core types.
 * [rust-uchardet]. Encoding detection.
 * [Rust-Relay]. IRC client library. Start your bots!
 * [cargo-do]. Cargo plugin for running multiple commands at once.
+* [dbus-rs]. D-Bus bindings.
+* [rusty-abstract-algebra].
+* [wire]. An abstraction over TCP and binary serialization.
 
 [rust-eh]: https://www.reddit.com/r/rust/comments/2mjqzi/rusteh_python_like_error_tracebacks_for_rust/
+[rust-incidents]: https://www.reddit.com/r/rust/comments/2n6mpm/feedback_wanted_improved_rust_error_handling/
 [sl]: https://www.reddit.com/r/rust/comments/2mrep5/sl1_reimplementation_in_rust/
 [img_hash]: https://www.reddit.com/r/rust/comments/2mq3dg/img_hash_a_simple_rust_library_for_performing/
 [raw-rs]: https://www.reddit.com/r/rust/comments/2mp0il/rawrs_utilities_for_unsafe_manipulation_of_core/
 [rust-uchardet]: https://www.reddit.com/r/rust/comments/2mpedc/rustuchardet_encoding_detection_wrapper_using_ffi/
 [Rust-Relay]: https://www.reddit.com/r/rust/comments/2miyr2/rustrelay_an_ircv3_client_library_looking_for/
 [cargo-do]: https://www.reddit.com/r/rust/comments/2mwzah/cargo_subcommand_plugin_to_run_multiple_commands/
+[dbus-rs]: https://www.reddit.com/r/rust/comments/2n5un5/dbus_bindings_for_rust/
+[rusty-abstract-algebra]: https://www.reddit.com/r/rust/comments/2n6ixn/abstract_algebra_traits_escaping_the_paramter_hell/
+[wire]: https://www.reddit.com/r/rust_gamedev/comments/2n5749/wire_an_abstraction_over_tcp_and_binary/
 
 ## Project Updates
 
