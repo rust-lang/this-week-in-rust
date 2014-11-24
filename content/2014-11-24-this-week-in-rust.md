@@ -27,7 +27,7 @@ We also have a new [guide to error handling][error].
 
 # What's cooking on master?
 
-xxx pull requests were [merged in the last week][1].
+100 pull requests were [merged in the last week][1].
 
 [1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-11-17..2014-11-23
 
