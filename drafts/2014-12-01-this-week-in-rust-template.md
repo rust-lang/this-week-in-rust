@@ -1,5 +1,5 @@
 Title: This Week in Rust 59
-Date: 2014-12-1
+Date: 2014-12-01
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -12,17 +12,76 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 
 # What's cooking on master?
 
-XXX pull requests were [merged in the last week][1].
+67 pull requests were [merged in the last week][1].
 
-[1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-11-24..2014-12-1
+[1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-11-24..2014-12-01
 
 ## Breaking Changes
 
+* [libgetopts has had][getopts] some public re-exports removed, Fail_ renamed to Fail,
+and getopts::FailType has been removed.
+* BinarySearchResult's variants [are no longer re-exported][bstenum], and must be accessed
+through the enum itself.
+* [libsync is dead][ripsync]. Long live `std::sync` and `std::comm`. All uses of libsync
+should be able to cleanly migrate to these two modules.
+* MaybeOwned[Vector] has been deprecated [in favour of Cow][cowabunga]. See the PR for
+full details of all the consequences.
+* Non-failing `unwrap` methods [have been renamed][into-winner] to `into_inner`, as
+per [RFC 430][rfc430]
+* You can [no longer invoke Dark Magicks][never4get] and match on an enum struct variant
+as if it were a tuple. As a consequence, Rust is no longer a useful programming language.
+* non-ASCII lifetime identifiers [have been feature-gated][whatishappening]. Rust is now
+only of academic interest, and lacks any practical applications.
 
+[getopts]: https://github.com/rust-lang/rust/pull/19365
+[bstenum]: https://github.com/rust-lang/rust/pull/19287
+[ripsync]: https://github.com/rust-lang/rust/pull/19255
+[cowabunga]: https://github.com/rust-lang/rust/pull/19252
+[into-winner]: https://github.com/rust-lang/rust/pull/19149
+[rfc430]: https://github.com/rust-lang/rfcs/pull/430
+[never4get]: https://github.com/rust-lang/rust/pull/19087
+[whatishappening]: https://github.com/rust-lang/rust/pull/19073
 
 ## Other Changes
 
+* CowString now [implements Str][cowstr] as MaybeOwned did.
+* Unboxed closure captures are [now avaiable in debuginfo][debuginfo].
+* tomjakubowski has taught Rustdoc about [several][tomja1] of [rust's][tomja2] new
+[features][tomja3].
+* Some missing collection iterators [have][iter1] [been][iter2] [added][iter3].
+* The inner contents of Buffered io types [are now accessible mutably][buffers].
+* Tests [now add less useless whitespace][notabs] to your terminal's output.
+* Statically allocated TLS keys are now [explicitly leaked][leaky].
+* Fields of consts are [now transitevly interpretted as const][constmemaybe],
+allowing e.g. `[T, ..MY_TUPLE.0]`.
+* `::::` [no longer appears][nonono] in module paths in debug logs.
+* AtomicOption now [correctly requires `Send`][atomic] for memory safety.
+* japaric has DST-ified more of the standard libs
+* The iterator module has been [partially stabalized][iterstab].
+* Platform-specific io modules `std::or::unix` and `std::os::windows`
+[have been added][i-oh-my] for working with lower-level `io` details
+like file descriptors, SOCKETS, HANDLES, etc.
+* Slice iterators can now [be converted to slices][sliceit] via `as_slice`.
+* Rng [now supports][random-floats] `next_f64` and `next_f32`.
 
+[debuginfo]: https://github.com/rust-lang/rust/pull/19363
+[tomja1]: https://github.com/rust-lang/rust/pull/19349
+[tomja2]: https://github.com/rust-lang/rust/pull/19272
+[tomja3]: https://github.com/rust-lang/rust/pull/19174
+[iter1]: https://github.com/rust-lang/rust/pull/19330
+[iter2]: https://github.com/rust-lang/rust/pull/19296
+[iter3]: https://github.com/rust-lang/rust/pull/19231
+[buffers]: https://github.com/rust-lang/rust/pull/19328
+[notabs]: https://github.com/rust-lang/rust/pull/19299
+[leaky]: https://github.com/rust-lang/rust/pull/19285
+[constmemaybe]: https://github.com/rust-lang/rust/pull/19266
+[nonono]: https://github.com/rust-lang/rust/pull/19262
+[atomic]: https://github.com/rust-lang/rust/pull/19250
+[dst1]: https://github.com/rust-lang/rust/pull/19248
+[iterstab]: https://github.com/rust-lang/rust/pull/19176
+[i-oh-my]: https://github.com/rust-lang/rust/pull/19169
+[sliceit]: https://github.com/rust-lang/rust/pull/18966
+[random-floats]: https://github.com/rust-lang/rust/pull/18534
 
 ## New Contributors
 
