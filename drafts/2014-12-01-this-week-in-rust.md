@@ -85,7 +85,11 @@ like file descriptors, SOCKETS, HANDLES, etc.
 
 ## New Contributors
 
-
+* Ben S
+* olivren
+* Pascal Hertleif
+* Roy Crihfield
+* Ulysse Carion
 
 # Approved RFC's
 
