@@ -44,7 +44,6 @@ only of academic interest, and lacks any practical applications.
 
 ## Other Changes
 
-* CowString now [implements Str][cowstr] as MaybeOwned did.
 * Unboxed closure captures are [now avaiable in debuginfo][debuginfo].
 * tomjakubowski has taught Rustdoc about [several][tomja1] of [rust's][tomja2] new
 [features][tomja3].
@@ -52,7 +51,7 @@ only of academic interest, and lacks any practical applications.
 * The inner contents of Buffered io types [are now accessible mutably][buffers].
 * Tests [now add less useless whitespace][notabs] to your terminal's output.
 * Statically allocated TLS keys are now [explicitly leaked][leaky].
-* Fields of consts are [now transitevly interpretted as const][constmemaybe],
+* Fields of consts are [now transitevly interpreted as const][constmemaybe],
 allowing e.g. `[T, ..MY_TUPLE.0]`.
 * `::::` [no longer appears][nonono] in module paths in debug logs.
 * AtomicOption now [correctly requires `Send`][atomic] for memory safety.
