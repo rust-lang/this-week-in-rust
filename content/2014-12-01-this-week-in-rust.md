@@ -57,7 +57,7 @@ allowing e.g. `[T, ..MY_TUPLE.0]`.
 * AtomicOption now [correctly requires `Send`][atomic] for memory safety.
 * japaric has DST-ified more of the standard libs
 * The iterator module has been [partially stabalized][iterstab].
-* Platform-specific io modules `std::or::unix` and `std::os::windows`
+* Platform-specific io modules `std::os::unix` and `std::os::windows`
 [have been added][i-oh-my] for working with lower-level `io` details
 like file descriptors, SOCKETS, HANDLES, etc.
 * Slice iterators can now [be converted to slices][sliceit] via `as_slice`.
