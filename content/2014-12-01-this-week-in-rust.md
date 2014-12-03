@@ -44,7 +44,7 @@ only of academic interest, and lacks any practical applications.
 
 ## Other Changes
 
-* Unboxed closure captures are [now avaiable in debuginfo][debuginfo].
+* Unboxed closure captures are [now available in debuginfo][debuginfo].
 * tomjakubowski has taught Rustdoc about [several][tomja1] of [rust's][tomja2] new
 [features][tomja3].
 * Some missing collection iterators [have][iter1] [been][iter2] [added][iter3].
@@ -128,7 +128,7 @@ like file descriptors, SOCKETS, HANDLES, etc.
 
 ## From the Team
 
-* [Weekly-meetings/2014-25-12][mtg]: extension trait conventions; shadowed lifetimes; problems with unused type params; es6-style string escaping; int fallback redux redux [Reddit][mtg-reddit].
+* [Weekly-meetings/2014-11-25][mtg]: extension trait conventions; shadowed lifetimes; problems with unused type params; es6-style string escaping; int fallback redux redux [Reddit][mtg-reddit].
 
 [mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-11-25.md
 [mtg-reddit]: http://www.reddit.com/r/rust/comments/2nhmgj/weekly_meeting_20141125_extension_trait/
