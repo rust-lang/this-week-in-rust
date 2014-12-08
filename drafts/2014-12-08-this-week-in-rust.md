@@ -1,4 +1,4 @@
-Title: This Week in Rust XX
+Title: This Week in Rust 60
 Date: 2014-12-08
 Category: This Week in Rust
 
