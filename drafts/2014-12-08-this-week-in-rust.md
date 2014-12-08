@@ -1,4 +1,4 @@
-Title: This Week in Rust XX
+Title: This Week in Rust 60
 Date: 2014-12-08
 Category: This Week in Rust
 
@@ -12,9 +12,9 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 
 # What's cooking on master?
 
-55 pull requests were [merged in the last week][1].
+58 pull requests were [merged in the last week][1].
 
-[1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-12-01..2014-12-07
+[1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-12-01..2014-12-08
 
 Now you can follow breaking changes *[as they happen][BitRust]*!
 
@@ -59,15 +59,47 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 ## New Contributors
 
-
+* Aaron Liblong
+* jbranchaud
+* jfager
+* Jim Apple
+* kulakowski
+* Mukilan Thiyagarajan
+* Oliver Schneider
+* Paul Collier
+* Victor van den Elzen
 
 # Approved RFC's
 
+* [450: Un-feature-gate `if let`, `while let` and tuple indexing][rfc450].
+* [490: Change `Sized?` syntax][rfc490]. From `Sized? T` to `T: Sized?`.
 
+[rfc450]: https://github.com/rust-lang/rfcs/pull/450
+[rfc490]: https://github.com/rust-lang/rfcs/pull/490
 
 # New RFC's
 
+* [495: Array pattern adjustments][rfc495]. Fixes several limitations.
+* [Ammendment to RFC 439 for grammar ambiguity][rfc498]. There's an
+  ambiguity with `..foo` in the previously-accepted slicing RFC.
+* [499: NonZero lang item][rfc499]. A way to tell the compiler that a
+  value is not 0.
+* [501: Consistent no-prelude attribute][rfc501]. Reworks the
+  mechanism for opting out of the prelude.
+* [502: Remove blanket extension impls][rfc502]. Blanket
+  implementations make it impossible to override default methods.
+* [503: Stabilize std::prelude][rfc503]. Scrutinizes what is included
+  in the prelude, removing many traits.
+* [504: Split `Show` into `String` and `Show`][rfc504]. Repurposes
+  `{:?}`.
 
+[rfc495]: https://github.com/rust-lang/rfcs/pull/495
+[rfc498]: https://github.com/rust-lang/rfcs/pull/498
+[rfc499]: https://github.com/rust-lang/rfcs/pull/499
+[rfc501]: https://github.com/rust-lang/rfcs/pull/501
+[rfc502]: https://github.com/rust-lang/rfcs/pull/502
+[rfc503]: https://github.com/rust-lang/rfcs/pull/503
+[rfc504]: https://github.com/rust-lang/rfcs/pull/504
 
 # Community
 
@@ -117,11 +149,13 @@ But that's not all that's going on!
   PSP][psp]. [Reddit][psp-reddit].
 * [Progress on Rustdoc source link problems][rustdoc]. lifthrasiir
   spreads the love of rustc metadata. [Reddit][rustdoc-reddit].
+* [A Beginner's Thoughts on Programming Languages (Part 1)][beg]. Some mentions of Rust.
 
 [psp]: http://fnordig.de/2014/12/03/a-story-of-hacking-or-rust-on-the-psp/
 [psp-reddit]: https://www.reddit.com/r/rust/comments/2o903j/the_story_of_my_childhood_or_rust_on_the_psp/
 [rustdoc]: https://lifthrasiir.github.io/rustlog/worklog-2014-12-06.html
 [rustdoc-reddit]. https://www.reddit.com/r/rust/comments/2ojnnh/worklog_20141206_progress_on_rustdoc_source_link/
+[beg]: https://medium.com/@chcokr/a-beginners-thoughts-on-programming-languages-part-1-e1ad124db3cd
 
 ## Discussions
 
@@ -164,6 +198,7 @@ But that's not all that's going on!
 ## New Projects
 
 * [BitRust]. A live breaking changes log!
+* [Sea Birds' Breakfast][birds]. long_void's Ludum Dare 31 entry.
 * [speedtest-rust]. Command-line tool for testing Internet
   speed. [Reddit][speedtest-rust-reddit].
 * [rust-once-mutex]. A mutex providing one-time lock and subsequent
@@ -183,6 +218,7 @@ But that's not all that's going on!
 * [acacia]. Generic spatial tree library. [Reddit][acacia-reddit].
 
 [BitRust]: http://bitrust.octarineparrot.com/
+[birds]: http://ludumdare.com/compo/ludum-dare-31/?action=preview&uid=19918
 [speedtest-rust]: https://github.com/gkbrk/speedtest-rust
 [speedtest-rust-reddit]: https://www.reddit.com/r/rust/comments/2nz8eh/wip_commandline_tool_to_test_your_internet_speed/
 [rust-once-mutex]: https://github.com/reem/rust-once-mutex

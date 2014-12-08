@@ -14,7 +14,7 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 
 XXX pull requests were [merged in the last week][1].
 
-[1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-12-01..2014-12-07
+[1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-12-01..2014-12-08
 
 ## Breaking Changes
 
