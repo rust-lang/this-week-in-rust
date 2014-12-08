@@ -45,7 +45,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * [Typechecking has been moved into its own crate][typeck].
 * Many `match` expressions in the compiler were [replaced by `if
   let`][iflet], which appears to be a nice improvement in readability.
-* The 'expected <foo>, found <bar>' parse errors are [much more
+* The 'expected foo, found bar' parse errors are [much more
   accurate about what they actually expect][parse].
 
 [sliceio]: https://github.com/rust-lang/rust/pull/18980
@@ -53,7 +53,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 [iflet]: https://github.com/rust-lang/rust/pull/19405/files
 [ungate]: https://github.com/rust-lang/rust/pull/19472
 [ungate-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0450-un-feature-gate-some-more-gates.md
-[es6]: https://github.com/rust-lang/rfcs/pull/446
+[es6]: https://github.com/rust-lang/rust/pull/19480
 [es6-rfc]: https://github.com/rust-lang/rfcs/pull/446
 [parse]: https://github.com/rust-lang/rust/pull/19494
 
@@ -118,7 +118,7 @@ featured a greater ratio of hacking to talking than previous ones.
 ## Blog Posts
 
 Zbigniew Siciarz has been writing an informative (and ambitious) series called
-"24 Days of Rust". Way to go, Zbigniew!
+"24 Days of Rust". Nice work, Zbigniew!
 
 * [24 Days of Rust - Cargo and crates.io][24days1]. [Reddit][24days1-reddit].
 * [24 Days of Rust - slow_primes][24days2]. [Reddit][24days2-reddit].
@@ -128,20 +128,20 @@ Zbigniew Siciarz has been writing an informative (and ambitious) series called
 * [24 Days of Rust - working with JSON][24days6]. [Reddit][24days6-reddit].
 * [24 Days of Rust - itertools][24days7]. [Reddit][24days7-reddit].
 
-* [24days1]: https://siciarz.net/24-days-rust-cargo-and-cratesio/
-* [24days1-reddit]: https://www.reddit.com/r/rust/comments/2nybtm/24_days_of_rust_cargo_and_cratesio/
-* [24days2]: https://siciarz.net/24-days-rust-slow_primes/
-* [24days2-reddit]: https://www.reddit.com/r/rust/comments/2o296i/24_days_of_rust_slow_primes/
-* [24days3]: https://siciarz.net/24-days-of-rust-csv/
-* [24days3-reddit]: https://www.reddit.com/r/rust/comments/2o69pc/24_days_of_rust_csv/
-* [24days4]: https://siciarz.net/24-days-of-rust-docopt/
-* [24days4-reddit]: https://www.reddit.com/r/rust/comments/2oa78k/24_days_of_rust_docopt/
-* [24days5]: https://siciarz.net/24-days-of-rust-hyper/
-* [24days5-reddit]: https://www.reddit.com/r/rust/comments/2oe0yg/24_days_of_rust_hyper/
-* [24days6]: https://siciarz.net/24-days-of-rust-working-json/
-* [24days6-reddit]: https://www.reddit.com/r/rust/comments/2oh6ue/24_days_of_rust_working_with_json/
-* [24days7]: https://siciarz.net/24-days-of-rust-itertools/
-* [24days7-reddit]: https://www.reddit.com/r/rust/comments/2okqey/24_days_of_rust_itertools/
+[24days1]: https://siciarz.net/24-days-rust-cargo-and-cratesio/
+[24days1-reddit]: https://www.reddit.com/r/rust/comments/2nybtm/24_days_of_rust_cargo_and_cratesio/
+[24days2]: https://siciarz.net/24-days-rust-slow_primes/
+[24days2-reddit]: https://www.reddit.com/r/rust/comments/2o296i/24_days_of_rust_slow_primes/
+[24days3]: https://siciarz.net/24-days-of-rust-csv/
+[24days3-reddit]: https://www.reddit.com/r/rust/comments/2o69pc/24_days_of_rust_csv/
+[24days4]: https://siciarz.net/24-days-of-rust-docopt/
+[24days4-reddit]: https://www.reddit.com/r/rust/comments/2oa78k/24_days_of_rust_docopt/
+[24days5]: https://siciarz.net/24-days-of-rust-hyper/
+[24days5-reddit]: https://www.reddit.com/r/rust/comments/2oe0yg/24_days_of_rust_hyper/
+[24days6]: https://siciarz.net/24-days-of-rust-working-json/
+[24days6-reddit]: https://www.reddit.com/r/rust/comments/2oh6ue/24_days_of_rust_working_with_json/
+[24days7]: https://siciarz.net/24-days-of-rust-itertools/
+[24days7-reddit]: https://www.reddit.com/r/rust/comments/2okqey/24_days_of_rust_itertools/
 
 But that's not all that's going on!
 
@@ -154,7 +154,7 @@ But that's not all that's going on!
 [psp]: http://fnordig.de/2014/12/03/a-story-of-hacking-or-rust-on-the-psp/
 [psp-reddit]: https://www.reddit.com/r/rust/comments/2o903j/the_story_of_my_childhood_or_rust_on_the_psp/
 [rustdoc]: https://lifthrasiir.github.io/rustlog/worklog-2014-12-06.html
-[rustdoc-reddit]. https://www.reddit.com/r/rust/comments/2ojnnh/worklog_20141206_progress_on_rustdoc_source_link/
+[rustdoc-reddit]: https://www.reddit.com/r/rust/comments/2ojnnh/worklog_20141206_progress_on_rustdoc_source_link/
 [beg]: https://medium.com/@chcokr/a-beginners-thoughts-on-programming-languages-part-1-e1ad124db3cd
 
 ## Discussions
