@@ -219,6 +219,7 @@ But that's not all that's going on!
 * [rusty-tags]. tags generator for cargo
   projects. [Reddit][rusty-tags-reddit].
 * [acacia]. Generic spatial tree library. [Reddit][acacia-reddit].
+* [doc_file]. Write crate documentation in an external file. [Reddit][doc_file-reddit].
 
 [BitRust]: http://bitrust.octarineparrot.com/
 [birds]: http://ludumdare.com/compo/ludum-dare-31/?action=preview&uid=19918
@@ -242,6 +243,8 @@ But that's not all that's going on!
 [rusty-tags-reddit]: https://www.reddit.com/r/rust/comments/2ol09b/ann_rustytags_create_tags_for_a_cargo_project_and/
 [acacia]: https://github.com/aepsil0n/acacia
 [acacia-reddit]: https://www.reddit.com/r/rust_gamedev/comments/2oasrs/acacia_a_generic_spatial_tree_library/
+[doc_file]: https://github.com/tomjakubowski/doc_file
+[doc_file-reddit]: https://www.reddit.com/r/rust/comments/2omey2/doc_file_write_crate_documentation_in_external/
 
 ## Project Updates
 
