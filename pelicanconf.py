@@ -6,6 +6,8 @@ AUTHOR = u'Corey Richardson'
 SITENAME = u"This Week in Rust"
 SITEURL = 'http://this-week-in-rust.org'
 
+SOURCE_URL = 'https://github.com/cmr/this-week-in-rust'
+
 THEME = 'pelican-elegant-1.3'
 
 TIMEZONE = 'America/New_York'
