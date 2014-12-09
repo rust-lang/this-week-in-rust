@@ -43,8 +43,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
   feature-gated][ungate]. [RFC][ungate-rfc].
 * There's [a new syntax for escaping unicode characters][es6]. The old
   will be deprecated briefly. [RFC][es6-rfc].
-* [`&[u8]` implements `Reader` and `&mut [u8]` implements
-  `Writer`][sliceio].
+* [`&[u8]` implements `Reader`][sliceio].
 * [Typechecking has been moved into its own crate][typeck].
 * Many `match` expressions in the compiler were [replaced by `if
   let`][iflet], which appears to be a nice improvement in readability.
