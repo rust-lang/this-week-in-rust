@@ -99,12 +99,21 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 ## From the Team
 
-* [Weekly-meetings/2014-18-11][mtg]:  [Reddit][mtg-reddit].
+* [Rust 1.0: Scheduling the Trains][trains]. About the 1.0 release
+  schedule. [Reddit][trains-reddit]. [HN][trains-hn].
+* [Yehuda Katz and Steve Klabnik are joining the Rust Core
+  Team][core]. [Reddit][core-reddit]. [HN][core-hn].
+* [Weekly-meetings/2014-18-11][mtg]: process changes; box patterns;
+  macros; issues in FIXMEs; placement box. [Reddit][mtg-reddit].
 
-[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-18-11.md
+[trains]: http://blog.rust-lang.org/2014/12/12/1.0-Timeline.html
+[trains-reddit]: https://www.reddit.com/r/rust/comments/2p35dk/rust_10_scheduling_the_trains/
+[trains-hn]: https://news.ycombinator.com/item?id=8740751
+[core]: http://blog.rust-lang.org/2014/12/12/Core-Team.html
+[core-reddit]: https://www.reddit.com/r/rust/comments/2p47ee/yehuda_katz_and_steve_klabnik_are_joining_the/
+[core-hn]: https://news.ycombinator.com/item?id=8742953
+[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-12-09.md
 [mtg-reddit]:
-
-
 
 ## Blog Posts
 
