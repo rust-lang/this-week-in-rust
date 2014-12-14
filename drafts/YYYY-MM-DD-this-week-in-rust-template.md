@@ -67,6 +67,6 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 
 
-## Upcoming Meetups
+## Upcoming Events
 
 

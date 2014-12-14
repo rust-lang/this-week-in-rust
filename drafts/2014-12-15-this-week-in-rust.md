@@ -126,6 +126,12 @@ None.
 
 # Community
 
+[rustbyexample.com] is an [official rust-lang project][rbe]
+now. Contributions highly encouraged. [Reddit][rbe-reddit].
+
+[rbe]: https://github.com/rust-lang/rust-by-example
+[rde-reddit]: https://www.reddit.com/r/rust/comments/2onzq0/rust_by_example_has_been_transferred_to_rustlang/
+
 ## From the Team
 
 * [Rust 1.0: Scheduling the Trains][trains]. About the 1.0 release
@@ -146,7 +152,30 @@ None.
 
 ## Blog Posts
 
+24 Days of Rust continues!
 
+* [24 Days of Rust - racer][24days8]. [Reddit][24days8-reddit].
+* [24 Days of Rust - anymay][24days9]. [Reddit][24days9-reddit].
+* [24 Days of Rust - the glorious tau][24days10]. [Reddit][24days10-reddit].
+* [24 Days of Rust - postgres][24days11]. [Reddit][24days11-reddit].
+* [24 Days of Rust - image][24days12]. [Reddit][24days12-reddit].
+* [24 Days of Rust - uuid][24days13]. [Reddit][24days13-reddit].
+* [24 Days of Rust - nalgebra][24days14]. [Reddit][24days14-reddit].
+
+[24days8]: https://siciarz.net/24-days-of-rust-racer/
+[24days8-reddit]: https://www.reddit.com/r/rust/comments/2oo1n5/24_days_of_rust_racer/
+[24days9]: https://siciarz.net/24-days-of-rust-anymap/
+[24days9-reddit]: https://siciarz.net/24-days-of-rust-anymap/
+[24days10]: https://siciarz.net/24-days-of-rust-glorious-tau/
+[24days10-reddit]: https://www.reddit.com/r/rust/comments/2ow3jm/24_days_of_rust_the_glorious_tau/
+[24days11]: https://siciarz.net/24-days-of-rust-postgres/
+[24days11-reddit]: https://www.reddit.com/r/rust/comments/2ozzeg/24_days_of_rust_postgres/
+[24days12]: https://siciarz.net/24-days-of-rust-image/
+[24days12-reddit]: https://www.reddit.com/r/rust/comments/2p3mjf/24_days_of_rust_image/
+[24days13]: https://siciarz.net/24-days-of-rust-uuid/
+[24days13-reddit]: https://www.reddit.com/r/rust/comments/2p6kvf/24_days_of_rust_uuid/
+[24days14]: https://siciarz.net/24-days-of-rust-nalgebra/
+[24days14-reddit]: https://www.reddit.com/r/rust/comments/2pa7md/24_days_of_rust_nalgebra/
 
 ## Discussions
 
@@ -160,7 +189,7 @@ None.
 
 
 
-## Upcoming Meetups
+## Upcoming Events
 
 * There will be a [talk about Rust at PyCon][pycon].
 
