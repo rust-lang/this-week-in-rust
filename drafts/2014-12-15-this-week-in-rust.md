@@ -89,11 +89,40 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 # Approved RFC's
 
-
+None.
 
 # New RFC's
 
+* [505: API comment conventions][rfc505]. Standardizing current
+  conventions.
+* [507: Release channels take 2][rfc507]. Describes the release train,
+  feature staging and in this iteration merges stability attributes
+  with feature gates.
+* [509: Collections reform part 2][rfc509]. This RFC shores up the
+  finer details of collections reform. In particular, where the
+  previous RFC focused on general conventions and patterns, this RFC
+  focuses on specific APIs. It also patches up any errors that were
+  found during implementation of part 1. Some of these changes have
+  already been implemented, and simply need to be ratified.
+* [517: `io` and `os` reform][rfc517]. This RFC proposes a significant
+  redesign of the std::io and std::os modules in preparation for API
+  stabilization.
+* [519: Panicking tasks should abort process if not handled][rfc519].
+* [520: Change array syntax to prevent ambiguity introduced by RFC
+  439][rfc520]. An alternative to [RFC 498]rfc498] that fixes the
+  ambiguity by changing the array type syntax.
+* [522: Allow the `Self` type to be used in impls][rfc522]. In the
+  implemantion of a trait, instead of writing the explicit type for
+  which a trait is implemented, just write `Self`.
 
+[rfc498]: https://github.com/rust-lang/rfcs/pull/498
+[rfc505]: https://github.com/rust-lang/rfcs/pull/505
+[rfc507]: https://github.com/rust-lang/rfcs/pull/507
+[rfc509]: https://github.com/rust-lang/rfcs/pull/509
+[rfc517]: https://github.com/rust-lang/rfcs/pull/517
+[rfc519]: https://github.com/rust-lang/rfcs/pull/519
+[rfc520]: https://github.com/rust-lang/rfcs/pull/520
+[rfc522]: https://github.com/rust-lang/rfcs/pull/522
 
 # Community
 
