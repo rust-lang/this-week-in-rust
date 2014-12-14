@@ -14,7 +14,11 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 
 XXX pull requests were [merged in the last week][1].
 
-[1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-12-01..2014-12-08
+[1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-12-08..2014-12-15
+
+Now you can follow breaking changes *[as they happen][BitRust]*!
+
+[BitRust]: http://bitrust.octarineparrot.com/
 
 ## Breaking Changes
 
@@ -22,6 +26,10 @@ XXX pull requests were [merged in the last week][1].
   explicitly][optin]. This is part of the [opt-in-builtin traits RFC
   (colloquially knows as OIBIT)][optin-rfc] which is supposed to
   remove some potential footguns from the typesystem.
+* Most use of closures have been [converted][unboxed] to 'unboxed
+  closures', the new, more flexible, closure model. As a result of API
+  changes some downstream code will break, the PR has detailed
+  instructions for the transition.
 * Slight adjustments have been made to the `fmt` API to make them
   [safe][fmt]. These APIs are rarely used directly.
 * It's now [impossible to explicitly call the `call` method][call] of
@@ -36,10 +44,18 @@ XXX pull requests were [merged in the last week][1].
 [fmt]: https://github.com/rust-lang/rust/pull/19506
 [call]: https://github.com/rust-lang/rust/pull/19587
 [reexp]: https://github.com/rust-lang/rust/pull/19653
+[unboxed]: https://github.com/rust-lang/rust/pull/19467
 
 ## Other Changes
 
+* Type bounds can be [constrained by the type of an associated
+  type][assoc-eq], as in `fn sum_uints<I>(iter: I) where I: Iterator,
+  I::A = uint { ... }`. [RFC][assoc-eq-rfc].
 * Lifetime elision [works on unboxed closure type sugar][sugar].
+* The [testing guide][testing] has been overhauled.
+* [`unsafe impl` and `unsafe trait` have landed][unsafe] as port of
+  [OIBIT][oibit-rfc]. This is required to convert `Send` and `Sync`
+  into library types.
 * [`BTreeSet` implements `BitOr`, `BitAnd`, `BitXor`, and `Sub`][btreeset].
 * The `recursion_limit` attribute [can control how deeply various
   algorithms in the compiler recurse][recur]. It can be used to
@@ -50,11 +66,22 @@ XXX pull requests were [merged in the last week][1].
   collected into or appended on to a single string, e.g. `let s:
   String = vec!["foo", "bar"].collect();`, `let s = String::new();
   s.extend(vec!["foo", "bar"]);`.
+* New `os::unix` and `os::windows` modules provide [platform-specific
+  interop with `std::io`][io].
+* The `TupleN` traits [are deprecated][tuplen] because tuple indexing
+  is part of the language.
 
+[testing]: http://doc.rust-lang.org/guide-testing.html
 [sugar]: https://github.com/rust-lang/rust/pull/19589
 [recur]: https://github.com/rust-lang/rust/pull/19466
 [btreeset]: https://github.com/rust-lang/rust/pull/19514
 [extend]: https://github.com/rust-lang/rust/pull/19626
+[io]: https://github.com/rust-lang/rust/pull/19169
+[assoc-eq]: https://github.com/rust-lang/rust/pull/19391
+[assoc-eq-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0195-associated-items.md#constraining-associated-types
+[tuplen]: https://github.com/rust-lang/rust/pull/19677
+[unsafe]: https://github.com/rust-lang/rust/pull/19703
+[oibit-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0019-opt-in-builtin-traits.md
 
 ## New Contributors
 
@@ -97,4 +124,6 @@ XXX pull requests were [merged in the last week][1].
 
 ## Upcoming Meetups
 
+* There will be a [talk about Rust at PyCon][pycon].
 
+[pycon]: https://us.pycon.org/2015/schedule/presentation/411/

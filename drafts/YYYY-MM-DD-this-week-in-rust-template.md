@@ -16,6 +16,10 @@ XXX pull requests were [merged in the last week][1].
 
 [1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-12-01..2014-12-08
 
+Now you can follow breaking changes *[as they happen][BitRust]*!
+
+[BitRust]: http://bitrust.octarineparrot.com/
+
 ## Breaking Changes
 
 
