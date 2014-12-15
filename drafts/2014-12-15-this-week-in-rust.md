@@ -187,7 +187,16 @@ now. Contributions highly encouraged. [Reddit][rbe-reddit].
 
 ## Project Updates
 
+* [This Week in Servo 14][twis]. Servo has adopted [hyper]. [Reddit][twis-reddit].
+* [Servo meeting notes from Mozlandia][servo-mozlandia]. Notes from the workweek.
+* [Servo running on Firefox OS][fxos]. [Reddit][fxos-reddit].
 
+[twis]: http://blog.servo.org/2014/12/09/twis-14/
+[twis-reddit]: https://www.reddit.com/r/rust/comments/2orabe/this_week_in_servo_15/
+[hyper]: https://github.com/hyperium/hyper
+[servo-mozlandia]: https://groups.google.com/forum/#!topic/mozilla.dev.servo/zK2H8a2dTGQ
+[fxos]: https://twitter.com/larsberg_/status/539937229049581568
+[fxos-reddit]: https://www.reddit.com/r/rust/comments/2orhhh/servo_running_on_firefox_os/
 
 ## Upcoming Events
 
