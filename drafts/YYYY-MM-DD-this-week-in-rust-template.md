@@ -10,6 +10,9 @@ email!](mailto:corey@octayn.net?subject=This%20Week%20in%20Rust%20Suggestion)
 Want to get involved? [We love
 contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contributors).
 
+This Week in Rust is openly developed [on Github](https://github.com/cmr/this-week-in-rust).
+If you find any errors or omissions in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
+
 # What's cooking on master?
 
 XXX pull requests were [merged in the last week][1].
