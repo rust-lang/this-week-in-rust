@@ -10,6 +10,9 @@ email!](mailto:corey@octayn.net?subject=This%20Week%20in%20Rust%20Suggestion)
 Want to get involved? [We love
 contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contributors).
 
+This Week in Rust is openly developed [on Github](https://github.com/cmr/this-week-in-rust).
+If you find any errors or omissions in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
+
 # What's cooking on master?
 
 XXX pull requests were [merged in the last week][1].
@@ -207,7 +210,7 @@ now. Contributions highly encouraged. [Reddit][rbe-reddit].
 * [Iota][iota]: A simple text editor written in Rust
 * [Metafactory][metafactory]: value construction pipeline builder
 * [superchan][superchan]: A Rust crate containing types for sending data across a network
-
+* [wxRust][wxRust]: A Rust binding of the wxWidgets cross platform toolkit
 
 [ecc]: https://github.com/Bren2010/ecc
 [rustache]: http://rustache.github.io/
@@ -215,6 +218,7 @@ now. Contributions highly encouraged. [Reddit][rbe-reddit].
 [iota]: https://github.com/gchp/iota
 [metafactory]: https://github.com/Nercury/metafactory-rs
 [superchan]: https://github.com/dradtke/superchan
+[wxRust]: https://github.com/kenz-gelsoft/wxRust
 
 ## Project Updates
 
