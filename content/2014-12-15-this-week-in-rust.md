@@ -15,7 +15,7 @@ If you find any errors or omissions in this week's issue, [please submit a PR](h
 
 # What's cooking on master?
 
-XXX pull requests were [merged in the last week][1].
+60 pull requests were [merged in the last week][1].
 
 [1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-12-08..2014-12-15
 
@@ -90,7 +90,15 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 ## New Contributors
 
-
+* Aaron Weiss
+* Aidan Cully
+* Arthur Liao
+* bluss
+* Jon Haddad
+* Matt Murphy
+* Matt Windsor
+* Maxime Quandalle
+* Nafis
 
 # Approved RFC's
 
@@ -131,11 +139,11 @@ None.
 
 # Community
 
-[rustbyexample.com] is an [official rust-lang project][rbe]
+[rustbyexample.com](http://rustbyexample.com) is an [official rust-lang project][rbe]
 now. Contributions highly encouraged. [Reddit][rbe-reddit].
 
 [rbe]: https://github.com/rust-lang/rust-by-example
-[rde-reddit]: https://www.reddit.com/r/rust/comments/2onzq0/rust_by_example_has_been_transferred_to_rustlang/
+[rbe-reddit]: https://www.reddit.com/r/rust/comments/2onzq0/rust_by_example_has_been_transferred_to_rustlang/
 
 ## From the Team
 
