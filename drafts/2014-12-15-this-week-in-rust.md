@@ -48,6 +48,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 ## Other Changes
 
+* Barosl [taught bors how to do rollups][rollup]!!!!!
 * Type bounds can be [constrained by the type of an associated
   type][assoc-eq], as in `fn sum_uints<I>(iter: I) where I: Iterator,
   I::A = uint { ... }`. [RFC][assoc-eq-rfc].
@@ -82,6 +83,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 [tuplen]: https://github.com/rust-lang/rust/pull/19677
 [unsafe]: https://github.com/rust-lang/rust/pull/19703
 [oibit-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0019-opt-in-builtin-traits.md
+[rollup]: https://github.com/graydon/bors/pull/47
 
 ## New Contributors
 
@@ -152,7 +154,15 @@ now. Contributions highly encouraged. [Reddit][rbe-reddit].
 
 ## Blog Posts
 
-24 Days of Rust continues!
+* [Fun with Threads][funthreads]: Comparing basic parallel programming in C and Rust, from a beginner's perspective. [Reddit][funthreads-reddit] 
+* [Rewriting Rust Serialization, Part 3: Introducing Serde][rustserial]: Part 3 of Erick's great series on serialization. [Reddit][rustserial-reddit] 
+* [Using Rust to Make a Safer Interface for Yahoo’s Fast MDBM Database][mdbm]: [Reddit][mdbm-reddit] 
+* [Bootstrapping Rust][bootstrapping]: A quick look at the issues of compiling a compiler written in itself. [Reddit][bootstrapping-reddit] 
+* [A Beginner’s Thoughts on Programming Languages (Part 2 — RAII, GC, Ownership, noexcept)][begginers]: [Reddit][begginers-reddit] 
+* [Working with AI behavior trees][behaviour]: Using some of the AI features found in Piston. [Reddit][behaviour-reddit] 
+
+
+### 24 Days of Rust continues!
 
 * [24 Days of Rust - racer][24days8]. [Reddit][24days8-reddit].
 * [24 Days of Rust - anymay][24days9]. [Reddit][24days9-reddit].
@@ -161,6 +171,19 @@ now. Contributions highly encouraged. [Reddit][rbe-reddit].
 * [24 Days of Rust - image][24days12]. [Reddit][24days12-reddit].
 * [24 Days of Rust - uuid][24days13]. [Reddit][24days13-reddit].
 * [24 Days of Rust - nalgebra][24days14]. [Reddit][24days14-reddit].
+
+[funthreads]: http://jvns.ca/blog/2014/12/14/fun-with-threads/
+[funthreads-reddit]: http://www.reddit.com/r/rust/comments/2pabnd/diving_into_concurrency_trying_out_mutexes_and/
+[rustserial]: http://erickt.github.io/blog/2014/12/13/rewriting-rust-serialization/
+[rustserial-reddit]: http://www.reddit.com/r/rust/comments/2p85za/rewriting_rust_serialization_part_3_introducing/
+[mdbm]: http://erickt.github.io/blog/2014/12/13/rust-and-mdbm/
+[mdbm-reddit]: http://www.reddit.com/r/rust/comments/2p70sj/using_rust_to_make_a_safer_interface_for_yahoos/
+[bootstrapping]: http://aidancully.blogspot.com/2014/12/bootstrapping-rust.html
+[bootstrapping-reddit]: http://www.reddit.com/r/rust/comments/2ovuko/bootstrapping_rust/
+[begginers]: https://medium.com/@chcokr/a-beginners-thoughts-on-programming-languages-part-2-raii-gc-ownership-noexcept-1c08f5dfe353
+[begginers-reddit]: http://www.reddit.com/r/rust/comments/2ov7e2/a_beginners_thoughts_on_programming_languages/
+[behaviour]: http://blog.piston.rs/2014/12/09/working-with-ai-behavior-trees/
+[behaviour-reddit]: http://www.reddit.com/r/rust/comments/2orssg/working_with_ai_behavior_trees_piston/
 
 [24days8]: https://siciarz.net/24-days-of-rust-racer/
 [24days8-reddit]: https://www.reddit.com/r/rust/comments/2oo1n5/24_days_of_rust_racer/
@@ -182,14 +205,27 @@ now. Contributions highly encouraged. [Reddit][rbe-reddit].
 
 
 ## New Projects
+* [Elliptic Curve Crypto][ecc]: Elliptic curve arithmetic and cryptography library in pure Rust
+* [Rustache][rustache]: a flexible template engine for Rust
+* [checked_cast!][checked]: A small macro to deal with the libc typedef hell
+* [Iota][iota]: A simple text editor written in Rust
+* [Metafactory][metafactory]: value construction pipeline builder
+* [superchan][superchan]: A Rust crate containing types for sending data across a network
 
 
+[ecc]: https://github.com/Bren2010/ecc
+[rustache]: http://rustache.github.io/
+[checked]: https://github.com/Jurily/rust-checked-cast
+[iota]: https://github.com/gchp/iota
+[metafactory]: https://github.com/Nercury/metafactory-rs
+[superchan]: https://github.com/dradtke/superchan
 
 ## Project Updates
 
 * [This Week in Servo 14][twis]. Servo has adopted [hyper]. [Reddit][twis-reddit].
 * [Servo meeting notes from Mozlandia][servo-mozlandia]. Notes from the workweek.
 * [Servo running on Firefox OS][fxos]. [Reddit][fxos-reddit].
+* [rusty-tags now supports emacs][rusty-tags]
 
 [twis]: http://blog.servo.org/2014/12/09/twis-14/
 [twis-reddit]: https://www.reddit.com/r/rust/comments/2orabe/this_week_in_servo_15/
@@ -197,6 +233,7 @@ now. Contributions highly encouraged. [Reddit][rbe-reddit].
 [servo-mozlandia]: https://groups.google.com/forum/#!topic/mozilla.dev.servo/zK2H8a2dTGQ
 [fxos]: https://twitter.com/larsberg_/status/539937229049581568
 [fxos-reddit]: https://www.reddit.com/r/rust/comments/2orhhh/servo_running_on_firefox_os/
+[rusty-tags]: https://github.com/dan-t/rusty-tags
 
 ## Upcoming Events
 
