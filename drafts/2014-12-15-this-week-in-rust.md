@@ -1,5 +1,5 @@
-Title: This Week in Rust XX
-Date: YYYY-MM-DD
+Title: This Week in Rust 61
+Date: 2014-12-15
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -199,10 +199,6 @@ now. Contributions highly encouraged. [Reddit][rbe-reddit].
 [24days13-reddit]: https://www.reddit.com/r/rust/comments/2p6kvf/24_days_of_rust_uuid/
 [24days14]: https://siciarz.net/24-days-of-rust-nalgebra/
 [24days14-reddit]: https://www.reddit.com/r/rust/comments/2pa7md/24_days_of_rust_nalgebra/
-
-## Discussions
-
-
 
 ## New Projects
 * [Elliptic Curve Crypto][ecc]: Elliptic curve arithmetic and cryptography library in pure Rust
