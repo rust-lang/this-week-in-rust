@@ -238,5 +238,7 @@ now. Contributions highly encouraged. [Reddit][rbe-reddit].
 ## Upcoming Events
 
 * There will be a [talk about Rust at PyCon][pycon].
+* [12/18 Bay Area Rust: Crypto][bay].
 
 [pycon]: https://us.pycon.org/2015/schedule/presentation/411/
+[bay]: http://www.meetup.com/Rust-Bay-Area/events/210632582/
