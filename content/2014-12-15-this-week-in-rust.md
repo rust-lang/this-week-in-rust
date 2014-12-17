@@ -68,8 +68,8 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * [`String` implements `FromIterator<&str>` and
   `Extend<&str>`][extend], which means that iterators of `&str` can be
   collected into or appended on to a single string, e.g. `let s:
-  String = vec!["foo", "bar"].collect();`, `let s = String::new();
-  s.extend(vec!["foo", "bar"]);`.
+  String = vec!["foo", "bar"].into_iter().collect();`, `let s = String::new();
+  s.extend(vec!["foo", "bar"].into_iter());`.
 * New `os::unix` and `os::windows` modules provide [platform-specific
   interop with `std::io`][io].
 * The `TupleN` traits [are deprecated][tuplen] because tuple indexing
