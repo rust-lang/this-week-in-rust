@@ -161,7 +161,7 @@ now. Contributions highly encouraged. [Reddit][rbe-reddit].
 [core-reddit]: https://www.reddit.com/r/rust/comments/2p47ee/yehuda_katz_and_steve_klabnik_are_joining_the/
 [core-hn]: https://news.ycombinator.com/item?id=8742953
 [mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-12-09.md
-[mtg-reddit]:
+[mtg-reddit]: http://www.reddit.com/r/rust/comments/2osxmn/weekly_meeting_20141209_process_changes_box/
 
 ## Blog Posts
 
