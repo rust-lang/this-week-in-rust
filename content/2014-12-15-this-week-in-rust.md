@@ -176,7 +176,7 @@ now. Contributions highly encouraged. [Reddit][rbe-reddit].
 ### 24 Days of Rust continues!
 
 * [24 Days of Rust - racer][24days8]. [Reddit][24days8-reddit].
-* [24 Days of Rust - anymay][24days9]. [Reddit][24days9-reddit].
+* [24 Days of Rust - anymap][24days9]. [Reddit][24days9-reddit].
 * [24 Days of Rust - the glorious tau][24days10]. [Reddit][24days10-reddit].
 * [24 Days of Rust - postgres][24days11]. [Reddit][24days11-reddit].
 * [24 Days of Rust - image][24days12]. [Reddit][24days12-reddit].
