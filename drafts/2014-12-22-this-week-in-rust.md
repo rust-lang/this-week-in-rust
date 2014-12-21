@@ -103,29 +103,84 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 ## From the Team
 
-* [Weekly-meetings/2014-18-11][mtg]:  [Reddit][mtg-reddit].
+* [Weekly-meetings/2014-12-16][mtg]:  [Reddit][mtg-reddit].
 
-[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-18-11.md
-[mtg-reddit]:
-
-
+[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-12-16.md
+[mtg-reddit]: http://www.reddit.com/r/rust/comments/2pjmve/weekly_meeting_20141216/
 
 ## Blog Posts
 
+* [Diving into concurrency][jvns]: trying out mutexes and atomics (in Rust and
+  C). [Reddit][jvns-reddit].
+* [Comparing Rust and C++][kuku]. [Reddit][kuku-reddit]. Note that this
+  appears to be a translation of an [older post in
+  Russian](http://habrahabr.ru/post/225003/).
+* [Updating Github Pages with Travis
+  CI](http://words.steveklabnik.com/update-github-pages-with-travis-ci).
+  [Reddit](http://www.reddit.com/r/rust/comments/2phrge/updating_github_pages_with_travis_ci/)
+* [This Week in Servo 15](blog.servo.org/2014/12/15/twis-15/).
+  [Reddit](http://www.reddit.com/r/rust/comments/2pj6bv/this_week_in_servo_15/).
+* [Columnarization in
+  Rust](http://www.frankmcsherry.org/columnarization/serialization/rust/2014/12/15/Columnarization-in-Rust.html).
+  [Reddit](http://www.reddit.com/r/rust/comments/2pozxt/columnarization_in_rust/).
+* [Introducing Hyper](http://seanmonstar.com/post/105541782562/hyper).
+  [Reddit](http://www.reddit.com/r/rust/comments/2pqnjn/hyper_intro/).
+* [Rewriting Rust Serialization, Part 3.1: Another Performance
+  Digression](http://erickt.github.io/blog/2014/12/13/performance-digression/).
+  [Reddit](http://www.reddit.com/r/rust/comments/2pxx52/rewriting_serialization_part_31_another/).
 
+[jvns]: http://jvns.ca/blog/2014/12/14/fun-with-threads/
+[jvns-reddit]: http://www.reddit.com/r/rust/comments/2pabnd/diving_into_concurrency_trying_out_mutexes_and/
+[kuku]: http://kukuruku.co/hub/rust/comparing-rust-and-cpp
+[kuku-reddit]: http://www.reddit.com/r/rust/comments/2pbzug/comparing_rust_and_c/
+
+
+## 24 Days of Rust continues!
+
+* [nalgebra](https://siciarz.net/24-days-of-rust-nalgebra/).
+  [Reddit](http://www.reddit.com/r/rust/comments/2pa7md/24_days_of_rust_nalgebra/)
+* [FUSE filesystems, part
+  1](https://siciarz.net/24-days-of-rust-fuse-filesystems-part-1/).
+  [Reddit](http://www.reddit.com/r/rust/comments/2pdxbe/24_days_of_rust_fuse_filesystems_part_1/).
+* [FUSE filesystems, part
+  2](https://siciarz.net/24-days-of-rust-fuse-filesystems-part-2/).
+* [`from_fn`](https://siciarz.net/24-days-of-rust-from_fn/).
+  [Reddit](http://www.reddit.com/r/rust/comments/2pljk9/24_days_of_rust_from_fn/).
+* [redis](https://siciarz.net/24-days-of-rust-redis/).
+  [Reddit](http://www.reddit.com/r/rust/comments/2ppltp/24_days_of_rust_redis/).
+* [zeromq](https://siciarz.net/24-days-of-rust-zeromq/).
+  [Reddit](http://www.reddit.com/r/rust/comments/2pwt70/24_days_of_rust_zeromq/).
+* [rusti](https://siciarz.net/24-days-of-rust-rusti/)
+* [rust-crypto](https://siciarz.net/24-days-of-rust-rust-crypto/).
+  [Reddit](http://www.reddit.com/r/rust/comments/2q07jv/24_days_of_rust_rustcrypto/).
 
 ## Discussions
 
-
+* [Anyone working on C/C++ to Rust
+  transpilers?](http://www.reddit.com/r/rust/comments/2pyg8f/anyone_working_on_cc_to_rust_transpilers/)
+* [Rust ruined C++ for
+  me](http://www.reddit.com/r/rust/comments/2pi3ju/rust_ruined_c_for_me/)
+* [Well written rust code to read and learn
+  from?](http://www.reddit.com/r/rust/comments/2pmaqz/well_written_rust_code_to_read_and_learn_from/)
 
 ## New Projects
 
-
-
-## Project Updates
-
-
+* [rusql](https://github.com/mttr/rusql), "A naive, SQL based RDBMS written in
+  Rust."
+* [Rusthon](https://github.com/rusthon/Rusthon), "a python-like language that
+  converts and compiles into: Rust, C++, and JavaScript."
+* [rbencode](https://github.com/asamy45/rbencode), a Bencode implementation.
+* [wtftw](https://github.com/Kintaro/wtftw), "Window Tiling For The Win. A
+  tiling window manager written in Rust."
+* [Custom Logger with time-stamp, file name and line
+  number](http://joshitech.blogspot.com/2014/12/rust-customer-logger.html).
+* [cpal](https://crates.io/crates/cpal), pure Rust audio renderer.
+* [rusti reborn](https://github.com/murarth/rusti), a REPL for Rust
+* [nadeko](https://github.com/klutzy/nadeko), "an experimental syntax
+  extension which converts functions into amd64 assembly code."
+* [traverse](https://github.com/reem/rust-traverse), "proof-of-concept trait
+  for internal iterators called traversals."
 
 ## Upcoming Events
 
-
+Nothing on the calendar for the next two weeks!
