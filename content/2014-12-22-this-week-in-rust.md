@@ -114,7 +114,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 # Approved RFC's
 
 - [503: prelude stabilization][503]. Removes a ton of stuff from the prelude,
-  and moves it to a `std::prelude::v1` module.
+  and moves what remains to a `std::prelude::v1` module.
 - [474: path reform][474]. Tightens up the `Path` API, and makes some changes
   around their internal representation.
 - [504: `Show` stabilization][504]. Splits `Show` into `Show` and `String`,
