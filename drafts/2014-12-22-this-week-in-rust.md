@@ -101,6 +101,11 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 # Community
 
+The [video from the Thursday's SF Meetup][meetup] about crypto has
+several interesting presentations.
+
+[meetup]: https://air.mozilla.org/bay-area-rust-meetup-december-2014/
+
 ## From the Team
 
 * [Weekly-meetings/2014-12-16][mtg]:  [Reddit][mtg-reddit].
