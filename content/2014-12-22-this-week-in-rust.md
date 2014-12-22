@@ -15,7 +15,7 @@ If you find any errors or omissions in this week's issue, [please submit a PR](h
 
 # What's cooking on master?
 
-105 pull requests were [merged in the last week][1].
+149 pull requests were [merged in the last week][1].
 
 [1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-12-15..2014-12-22
 
@@ -53,6 +53,9 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * [`is_power_of_two` no longer incorrectly considers 0 to be a power
   of 2][two].
 * `regex::Captures::at` and `Captures::name` [return `Option`][regex].
+* Many, many public reexports of enum variants [have been removed][enums].
+* The `HashSet` iterators [have been
+  renamed](https://github.com/rust-lang/rust/pull/19993).
 
 [binops]: https://github.com/rust-lang/rust/pull/19448
 [binops-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0439-cmp-ops-reform.md
@@ -69,6 +72,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 [rmcoll-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0509-collections-reform-part-2.md
 [mac]: https://github.com/rust-lang/rust/pull/19984
 [mac-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0378-expr-macros.md
+[enums]: https://github.com/rust-lang/rust/pull/19842
 
 ## Other Changes
 
@@ -89,15 +93,72 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 ## New Contributors
 
-
+* Aaron Friel
+* Akos Kiss
+* Andrew Wagner
+* Eric Kidd
+* Jacob Edelman
+* Jake Goulding
+* Jared Roesch
+* Ken Tossell
+* Kevin Yap
+* Martin Pool
+* Mathieu Poumeyrol
+* Mike Pedersen
+* Niels Egberts
+* Pedro Larroy
+* Sean Collins
+* Seth Pollack
+* mchaput
 
 # Approved RFC's
 
+- [503: prelude stabilization][503]. Removes a ton of stuff from the prelude,
+  and moves it to a `std::prelude::v1` module.
+- [474: path reform][474]. Tightens up the `Path` API, and makes some changes
+  around their internal representation.
+- [504: `Show` stabilization][504]. Splits `Show` into `Show` and `String`,
+  with `Show` being tied to the re-introduced `{:?}` format string specifier
+  for debugging purposes.
+- [453: macro reform][453]. Tightens up how macro import/export "works", and
+  solves the "curious inner module" problem with a `$crate` meta-variable.
+- [486: `std::ascii` reform][486]. Removes the `Ascii` newtype and implements
+  the old functionality on various forms of arrays of `u8` instead.
+- [509: collections reform part 2][509]. Finalizes the fate of
+  `std::collections`, marking some as stable and moving some to the external
+  `collect-rs` crate.
+- [520: new array repeat syntax][520]. Due to an ambiguity with range
+  notation, the fixed-length array syntax has changed to `[T; N]` for the type
+  and `[expr; N]` for the constructor.
+- [522: Allow `Self` to be used in impls][522]. As it sounds. Reduces
+  verbosity.
 
+[520]: https://github.com/rust-lang/rfcs/blob/master/text/0520-new-array-repeat-syntax.md
+[522]: https://github.com/rust-lang/rfcs/blob/master/text/0522-self-impl.md
+[509]: https://github.com/rust-lang/rfcs/blob/master/text/0509-collections-reform-part-2.md
+[486]: https://github.com/rust-lang/rfcs/blob/master/text/0486-std-ascii-reform.md
+[504]: https://github.com/rust-lang/rfcs/blob/master/text/0504-show-stabilization.md
+[503]: https://github.com/rust-lang/rfcs/blob/master/text/0503-prelude-stabilization.md
+[474]: https://github.com/rust-lang/rfcs/blob/master/text/0474-path-reform.md
+[453]: https://github.com/rust-lang/rfcs/blob/master/text/0453-macro-reform.md
 
 # New RFC's
 
-
+- [Mark `std::mem::drop` as unstable until negative bounds are
+  implemented](https://github.com/rust-lang/rfcs/pull/536).
+- [Rename `std::mem::drop`](https://github.com/rust-lang/rfcs/pull/535).
+- [Rename the `deriving` syntax extension to
+  `derive`](https://github.com/rust-lang/rfcs/pull/534).
+- [Remove certain array elem moves to prepare for non-zeroing
+  drop](https://github.com/rust-lang/rfcs/pull/533).
+- [`self` in `use`](https://github.com/rust-lang/rfcs/pull/532).
+- [Amend RFC process with a defined
+  scope](https://github.com/rust-lang/rfcs/pull/531).
+- [Generic conversion traits](https://github.com/rust-lang/rfcs/pull/529).
+- [Generic string pattern matching
+  API](https://github.com/rust-lang/rfcs/pull/528).
+- [Statically enforce Unicode in
+  `std::fmt`](https://github.com/rust-lang/rfcs/pull/526).
 
 # Community
 
