@@ -184,7 +184,7 @@ several interesting presentations.
 * [Updating Github Pages with Travis
   CI](http://words.steveklabnik.com/update-github-pages-with-travis-ci).
   [Reddit](http://www.reddit.com/r/rust/comments/2phrge/updating_github_pages_with_travis_ci/)
-* [This Week in Servo 15](blog.servo.org/2014/12/15/twis-15/).
+* [This Week in Servo 15](http://blog.servo.org/2014/12/15/twis-15/).
   [Reddit](http://www.reddit.com/r/rust/comments/2pj6bv/this_week_in_servo_15/).
 * [Columnarization in
   Rust](http://www.frankmcsherry.org/columnarization/serialization/rust/2014/12/15/Columnarization-in-Rust.html).
