@@ -91,15 +91,22 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 ## New Contributors
 
-
+* Brian J Brennan
+* Florian Wilkens
+* Johannes Hoff
+* Maya Nitu
+* Rolf Timmermans
+* Simonas Kazlauskas
 
 # Approved RFC's
 
-
+None.
 
 # New RFC's
 
+* [Rename `int/uint` to `intx/uintx`][uint].
 
+[uint]: https://github.com/rust-lang/rfcs/pull/544
 
 # Community
 
