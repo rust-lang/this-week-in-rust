@@ -1,5 +1,5 @@
-Title: This Week in Rust XX
-Date: YYYY-MM-DD
+Title: This Week in Rust 63
+Date: 2014-12-29
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -15,9 +15,9 @@ If you find any errors or omissions in this week's issue, [please submit a PR](h
 
 # What's cooking on master?
 
-XXX pull requests were [merged in the last week][1].
+93 pull requests were [merged in the last week][1].
 
-[1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-12-01..2014-12-08
+[1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-12-22..2014-12-29
 
 Now you can follow breaking changes *[as they happen][BitRust]*!
 
@@ -25,11 +25,69 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 ## Breaking Changes
 
+* `Send` and `Sync` are now [unsafe traits][oibit], partially
+  implementing the [OIBIT RFC][oibit-rfc]. They are implemented by
+  default for types that only contain `Send` and `Sync` types and can
+  be opted into (unsafely) for other types, particularly those
+  containing unsafe pointers.
+* The way `fn` items are coerced has [changed in subtle ways][fn].
+* There has been another [stabilization pass][str] over `std::str`
+  which includes a number of minor breaking changes.
+* The semantics of the `reserve` methods of `Bitv` and `BitSet` have
+  [changed to match conventions][bitv] such that it reserves n
+  *additional* units capacity instead of total. The free functions of
+  `collections::bit` have been deprecated.
+* `FPCategory`, for classifying floating point numbers, has been
+  [renamed `FpCategory`][fp] to match conventions.
+* `std::ascii` has [undergone some changes][ascii] with
+  `to_ascii_lower` being renamed to `to_ascii_lowercase` and
+  `to_ascii_uper` to `_to_ascii_uppercase`.  The `Ascii` type has been
+  removed in favor of the `AsciiExt` trait, implemented for `u8` and
+  `char`. [RFC][ascii-rfc].
+* `BinaryHeap::top` is [renamed to `peek`][peek].
+* A number of iterator types [have been renamed][iter]. Only breaking
+  if you name them somewhere.
+* `include_bin!` [is now `include_bytes!`][bytes].
 
+[fn]: https://github.com/rust-lang/rust/pull/19891
+[str]: https://github.com/rust-lang/rust/pull/19741
+[bitv]: https://github.com/rust-lang/rust/pull/19216
+[fp]: https://github.com/rust-lang/rust/pull/19758
+[ascii]: https://github.com/rust-lang/rust/pull/19916
+[ascii-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0486-std-ascii-reform.md
+[peek]: https://github.com/rust-lang/rust/pull/20053
+[iter]: https://github.com/rust-lang/rust/pull/20056
+[bytes]: https://github.com/rust-lang/rust/pull/20117
+[oibit]: https://github.com/rust-lang/rust/pull/20119
+[oibit-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0019-opt-in-builtin-traits.md
 
 ## Other Changes
 
+* A new [range syntax][range] allows for ranges to be specified with
+  `m..n`, `..n`, `m..` syntaxes, which will soon let slicing be
+  implemented as indexing over ranges. For now the `..n` notation is
+  not implemented [because of an ambiguity][ambig] in the syntax that
+  must be resolved first.  [RFC][rang-rfc].
+* The [new fixed length array syntax][array-rfc] that disambiguates
+  the [new range syntax][range-rfc] has [been implemented][array]. The
+  old syntax has not been removed yet.
+* The new `{:?}` fmt specifier [has been implemented][fmt]. It
+  corresponds to the `Show` trait and is intended to be implementable
+  by all types, whereas the `String` format specifier (`{}`) is purely
+  for types that can be losslessly converted to strings.
+  [RFC][fmt-rfc].
+* Return values have been optimized to [reduce stack usage
+  dramatically][stack], and rustc now only allocates 8MB of stack
+  instead of 32MB.
 
+[range]: https://github.com/rust-lang/rust/pull/19858
+[range-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0439-cmp-ops-reform.md
+[ambig]: https://github.com/rust-lang/rfcs/blob/master/text/0520-new-array-repeat-syntax.md
+[stack]: https://github.com/rust-lang/rust/pull/19898
+[array]: https://github.com/rust-lang/rust/pull/20057
+[array-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0520-new-array-repeat-syntax.md
+[fmt]: https://github.com/rust-lang/rust/pull/20080
+[fmt-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0504-show-stabilization.md
 
 ## New Contributors
 
