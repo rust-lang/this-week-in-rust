@@ -41,7 +41,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
   [renamed `FpCategory`][fp] to match conventions.
 * `std::ascii` has [undergone some changes][ascii] with
   `to_ascii_lower` being renamed to `to_ascii_lowercase` and
-  `to_ascii_uper` to `_to_ascii_uppercase`.  The `Ascii` type has been
+  `to_ascii_upper` to `to_ascii_uppercase`.  The `Ascii` type has been
   removed in favor of the `AsciiExt` trait, implemented for `u8` and
   `char`. [RFC][ascii-rfc].
 * `BinaryHeap::top` is [renamed to `peek`][peek].
