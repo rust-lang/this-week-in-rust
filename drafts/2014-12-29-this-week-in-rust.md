@@ -15,7 +15,7 @@ If you find any errors or omissions in this week's issue, [please submit a PR](h
 
 # What's cooking on master?
 
-93 pull requests were [merged in the last week][1].
+96 pull requests were [merged in the last week][1].
 
 [1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-12-22..2014-12-29
 
