@@ -25,7 +25,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 ## Breaking Changes
 
-* Macros using parens and square brackets (`macro!()`, macro![]`) are
+* Macros using parens and square brackets (`macro!()`, `macro![]`) are
   [parsed as expressions][mac] if not followed by a semicolon. This
   makes expressions like `vec![1i, 2, 3].len();` work as
   expected. [RFC][mac-rfc].
