@@ -67,7 +67,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
   `m..n`, `..n`, `m..` syntaxes, which will soon let slicing be
   implemented as indexing over ranges. For now the `..n` notation is
   not implemented [because of an ambiguity][ambig] in the syntax that
-  must be resolved first.  [RFC][rang-rfc].
+  must be resolved first.  [RFC][range-rfc].
 * The [new fixed length array syntax][array-rfc] that disambiguates
   the [new range syntax][range-rfc] has [been implemented][array]. The
   old syntax has not been removed yet.
