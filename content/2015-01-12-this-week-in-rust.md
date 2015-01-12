@@ -28,13 +28,14 @@ getting the Cargo ecosystem on the stability bandwagon and making sure
 the stage is set for all those 1.0 newbies to have a swell ride.
 
 It was discussed on [Hacker News][alpha-hn], [/r/rust][alpha-reddit],
-and [/r/programming][alpha-reddit] and surely other corners of the
-Internet.
+[/r/programming][alpha-reddit], [LWN][alpha-lwn] and surely other
+corners of the Internet.
 
 [alpha]: http://blog.rust-lang.org/2015/01/09/Rust-1.0-alpha.html
 [alpha-hn]: https://news.ycombinator.com/item?id=8863451
 [alpha-reddit]: https://www.reddit.com/r/rust/comments/2rvodx/announcing_rust_100_alpha/
 [alpha-reddit2]: https://www.reddit.com/r/programming/comments/2rvoha/announcing_rust_100_alpha/
+[alpha-lwn]: http://lwn.net/Articles/629025/
 
 # What's cooking on master?
 
