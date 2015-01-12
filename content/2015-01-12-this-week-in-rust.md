@@ -378,4 +378,12 @@ The #rust IRC channel now peaks at more than 900 users.
 
 ## Upcoming Events
 
+[January 12 - Seattle Meetup][seattle].
+[January 17 - Beijing Meetup][beijing]. Presantations about servo and
+zmq.rs.
+[January 17 - Getting starting contributing to Rust][sf]. A special SF
+Bay area meetup.
 
+[seattle]: https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg
+[beijing]: https://www.eventbrite.com/e/rust-meet-up-in-beijing-tickets-14905925023
+[sf]: http://www.meetup.com/Rust-Bay-Area/events/203782472/
