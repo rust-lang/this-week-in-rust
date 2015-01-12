@@ -117,12 +117,16 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
   set to warn in betas. [RFC][fs-rfc].
 * The various guides have been [merged into a book][trpl] called 'The
   Rust Programming Language'.
+* The `box` has been hidden behind the [`box_syntax` feature
+  gate][box]. until it is more fully-baked. For the primary use of
+  constructing boxes, just use `Box::new` for
+  now. [/r/rust][box-r-rust].
 * Syntax for [negative impls][neg] has been added been
   added behind the `optin_builtin_traits` feature gate. This will let
   `Sync` and `Send` be implemented completely in the library
   eventually. [RFC][neg-rfc].
 * Florian Hahn landed a [series][lexer1] of [patches][lexer2] to
-  [improved][lexer3] the model lexer.
+  [improve][lexer3] the model lexer.
 
 [neg]: https://github.com/rust-lang/rust/pull/20285
 [neg-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0019-opt-in-builtin-traits.md#default-and-negative-impls
@@ -133,6 +137,8 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 [fs2]: https://github.com/rust-lang/rust/pull/20738
 [fs-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0507-release-channels.md
 [trpl]: https://github.com/rust-lang/rust/pull/19897
+[box]: https://github.com/rust-lang/rust/pull/20723
+[box-r-rust]: https://www.reddit.com/r/rust/comments/2rr990/box_expr_syntax_is_now_behind_a_feature_gate/
 
 ## New Contributors
 
@@ -264,17 +270,42 @@ The #rust IRC channel now peaks at more than 900 users.
 
 ## Blog Posts
 
+* [Peeking inside Trait Objects][objs]. Huon explains the runtime
+  representation of Rust's opaque types. [/r/rust][objs-r-rust].
+* [The Sized trait][sized]. Then Huon explains
+  DST. [/r/rust][objs-r-rust].
+* [Object safety][safety]. Then Huon explains the conditions under
+  which a trait may be cast to an object. [/r/rust][safety-r-rust].
+* [Rust Patterns: Using traits for function
+  overloading][func]. Jonathan Reem demonstrates how to overload
+  functions. [/r/rust][func-r-rust].
+* [My experience converting a project from Rust 0.12 to 1.0
+  (alpha)][conv]. Looks painful...
 * [Is now a good time to learn Rust?][now]. A: wait 6-12
   weeks. [/r/programming][now-reddit].
 * [Iomrascálaí: A Great Way to Learn Rust or About AI]. An AI for the
   game of Go.
+* [Notch says something about Rust][notch]. Rust is official.
 
+[objs]: http://huonw.github.io/blog/2015/01/peeking-inside-trait-objects/
+[objs-r-rust] https://www.reddit.com/r/rust/comments/2rutqb/peeking_inside_trait_objects/
+[sized]: http://huonw.github.io/blog/2015/01/the-sized-trait/
+[sized-r-rust]: https://www.reddit.com/r/rust/comments/2s2gee/the_sized_trait/
+[safety]: http://huonw.github.io/blog/2015/01/object-safety/
+[safety-r-rust]: https://www.reddit.com/r/rust/comments/2s2okp/object_safety/
 [now]: https://www.codementor.io/learn-programming/now-good-time-learn-rust
 [now-reddit]: https://www.reddit.com/r/programming/comments/2ruixg/is_now_a_good_time_to_learn_rust/
 [iom]: http://bettong.net/2015/01/07/iomrascalai-a-great-way-to-learn-rust-or-about-ai/
+[conv]: https://kentaromiura.wordpress.com/2015/01/10/my-experience-converting-a-project-from-rust-0-12-to-1-0/
+[notch]: https://twitter.com/notch/status/554348548053929984
+[func]: https://medium.com/@jreem/advanced-rust-using-traits-for-argument-overloading-c6a6c8ba2e17
+[func-r-rust]: https://www.reddit.com/r/rust/comments/2s4tbx/advanced_rust_using_traits_for_function/
 
 ## Discussions
 
+* [Rust book by Packt Publishing][packt]. There is opportunity to be
+  involved in one of the first Rust books.
+* [Final decision on builtin integer types. Again][int]. Aftermath.
 * [Operating system development in Rust][os]. Well-commented hacker
   news discussion. Nothing new though.
 * [151-byte static binary in Rust][bin-hn]. Keegan shows that Rust can
@@ -284,6 +315,10 @@ The #rust IRC channel now peaks at more than 900 users.
   takedown][dmca-hn]. 'Cargo' looks suspiciously like
   pornography. [/r/rust][dmca-reddit].
 * [How big a deal is Rust, Really][deal]? A: the biggest.
+* [Pre-RFC: Linear type modifier][lin]. Requires certain types to be
+  explicitly disposed.
+* [Using Rust 1. for video game development?][vidja]. Some up to date
+  info here.
 
 [os]: https://news.ycombinator.com/item?id=8871357
 [love]: http://news.ycombinator.com/item?id=8869572
@@ -293,18 +328,53 @@ The #rust IRC channel now peaks at more than 900 users.
 [dmca-hn]: https://www.reddit.com/r/hackernews/comments/2rlaf5/tell_hn_google_removes_rust_netflix_other_github/
 [dmca-reddidt]: https://www.reddit.com/r/rust/comments/2rlaug/cargo_github_repo_link_has_been_dmcad_off_the/
 [deal]: https://www.reddit.com/r/programming/comments/2rlef7/how_big_a_deal_is_rust_really/
+[int]: https://www.reddit.com/r/rust/comments/2rg60o/final_decision_on_builtin_integer_types_again/
+[packt]: https://www.reddit.com/r/rust/comments/2rnked/rust_book_by_packt_publishing/
+[lin]: http://discuss.rust-lang.org/t/pre-rfc-linear-type-modifier/1225
+[vidja]: https://www.reddit.com/r/rust/comments/2s4kp9/using_rust_10_for_video_game_development/
 
 ## New Projects
 
+* [multirust]. Manage multiple Rust toolchains.
+* [Roogle]. Hoogle 4 Rust.
 * [Rust for Clojurists][clj]. An introduction to
   Rust. [/r/programming][clj-r-rust].
+* [Clippy for Rust][clippy]. A collection of
+  lints. [/r/rust][clippy-r-rust].
+* [rust-blas][blas]. Bindings to the immortal BLAS numerical library.
+* [fallthrough]. A macro far fall-through match cases.
+* [rust-vobject]. A vObject/iCalendar parser.
+* [ProjectEuler]. A new attempt at the Project Euler problems.
+* [forkallcc]. Continuations with fork(2)!
+* [construct]. A macro for building arbitrary collections.
+* [float_macros]. CTFE for some float functions.
 
+[multirust]: https://github.com/brson/multirust
+[Roogle]: https://github.com/ajtulloch/roogle
 [clj]: https://gist.github.com/oakes/4af1023b6c5162c6f8f0
 [clj-r-rust]: https://www.reddit.com/r/rust/comments/2rsl5s/rust_for_clojurists/
+[clippy]: https://github.com/Manishearth/rust-clippy
+[clippy-r-rust]: https://www.reddit.com/r/rust/comments/2rihkk/clippy_for_rust/
+[blas]: https://github.com/mikkyang/rust-blas
+[fallthrough]: https://github.com/pythonesque/fallthrough
+[rust-vobject]: https://github.com/untitaker/rust-vobject
+[ProjectEuler]: https://github.com/Ap0ph1s/ProjectEuler
+[forkallcc]: https://github.com/kmcallister/forkallcc
+[construct]: https://github.com/TyOverby/construct
+[float_macros]: https://github.com/talevy/float_macros
 
 ## Project Updates
 
+* [This Week in Servo 18][twis].
+* [Grisu and rust-strconv][grisu]. Yurume talks about his
+  implementation of the Grisu algorithm for converting floats to
+  strings. This work is likely to make it into std someday.
+* [Announcing support for 1.0 in Rust Explorer][expl]. Shows the
+  assembly of Rust code.
 
+[twis]: http://blog.servo.org/2015/01/06/twis-18/
+[grisu]: https://lifthrasiir.github.io/rustlog/worklog-2015-01-10.html
+[expl]: http://discuss.rust-lang.org/t/announcing-support-for-rust-1-0-in-rust-explorer/1287
 
 ## Upcoming Events
 
