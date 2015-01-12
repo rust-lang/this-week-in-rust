@@ -247,21 +247,60 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 # Community
 
+The #rust IRC channel now peaks at more than 900 users.
+
 ## From the Team
 
+* [Announcing Rust 1.0
+  Alpha][alpha]. [HN][alpha-hn]. [/r/rust][alpha-r-rust]. [/r/programming][alpha-r-programming].
+* [weekly-meetings/2015-01-06][mtg]. fott; 1.0 alpha priorities; LLVM
+  updates; the fate of `box`
 
+[alpha]: http://blog.rust-lang.org/2015/01/09/Rust-1.0-alpha.html
+[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2015-01-06.md
+[alpha-hn]: https://news.ycombinator.com/item?id=8863451
+[alpha-r-programming]: https://www.reddit.com/r/rust/comments/2rvodx/announcing_rust_100_alpha/
+[alpha-r-rust]: https://www.reddit.com/r/programming/comments/2rvoha/announcing_rust_100_alpha/
 
 ## Blog Posts
 
+* [Is now a good time to learn Rust?][now]. A: wait 6-12
+  weeks. [/r/programming][now-reddit].
+* [Iomrascálaí: A Great Way to Learn Rust or About AI]. An AI for the
+  game of Go.
 
+[now]: https://www.codementor.io/learn-programming/now-good-time-learn-rust
+[now-reddit]: https://www.reddit.com/r/programming/comments/2ruixg/is_now_a_good_time_to_learn_rust/
+[iom]: http://bettong.net/2015/01/07/iomrascalai-a-great-way-to-learn-rust-or-about-ai/
 
 ## Discussions
 
+* [Operating system development in Rust][os]. Well-commented hacker
+  news discussion. Nothing new though.
+* [151-byte static binary in Rust][bin-hn]. Keegan shows that Rust can
+  be small. [/r/rust][bin-r-rust]. [/r/programming][bin-r-programming].
+* ["hello world" contains Lovecraft quotes][love]. /me eyerolls
+* [Google removes rust, Netflix, other GitHub repos after DMCA
+  takedown][dmca-hn]. 'Cargo' looks suspiciously like
+  pornography. [/r/rust][dmca-reddit].
+* [How big a deal is Rust, Really][deal]? A: the biggest.
 
+[os]: https://news.ycombinator.com/item?id=8871357
+[love]: http://news.ycombinator.com/item?id=8869572
+[bin-hn]: http://news.ycombinator.com/item?id=8869167
+[bin-r-rust]: https://www.reddit.com/r/rust/comments/2s0s9n/151byte_static_linux_binary_in_rust/
+[bin-r-programming]: https://www.reddit.com/r/programming/comments/2s1sgg/151byte_static_linux_binary_in_rust/
+[dmca-hn]: https://www.reddit.com/r/hackernews/comments/2rlaf5/tell_hn_google_removes_rust_netflix_other_github/
+[dmca-reddidt]: https://www.reddit.com/r/rust/comments/2rlaug/cargo_github_repo_link_has_been_dmcad_off_the/
+[deal]: https://www.reddit.com/r/programming/comments/2rlef7/how_big_a_deal_is_rust_really/
 
 ## New Projects
 
+* [Rust for Clojurists][clj]. An introduction to
+  Rust. [/r/programming][clj-r-rust].
 
+[clj]: https://gist.github.com/oakes/4af1023b6c5162c6f8f0
+[clj-r-rust]: https://www.reddit.com/r/rust/comments/2rsl5s/rust_for_clojurists/
 
 ## Project Updates
 
