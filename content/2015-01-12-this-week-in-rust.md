@@ -28,7 +28,7 @@ getting the Cargo ecosystem on the stability bandwagon and making sure
 the stage is set for all those 1.0 newbies to have a swell ride.
 
 It was discussed on [Hacker News][alpha-hn], [/r/rust][alpha-reddit],
-[/r/programming][alpha-reddit], [LWN][alpha-lwn] and surely other
+[/r/programming][alpha-reddit2], [LWN][alpha-lwn] and surely other
 corners of the Internet.
 
 [alpha]: http://blog.rust-lang.org/2015/01/09/Rust-1.0-alpha.html
