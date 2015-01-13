@@ -65,7 +65,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
   local crate that the Self type is constrained by local types. Fixes
   soundness holes revealed by multidispatch. The commit message
   includes more details.
-* `c_str` and `c_vec` have been [redesigned]. There are no longer any
+* `c_str` and `c_vec` have been [redesigned][c_stuff]. There are no longer any
   scenerios where Rust frees strings allocated by C, and the APIs
   are more consistent with modern conventions. Details in the
   [RFC][c_stuff-rfc].
@@ -92,7 +92,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 [c_stuff-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0494-c_str-and-c_vec-stability.md
 [forsized]: https://github.com/rust-lang/rust/pull/20556
 [float]: https://github.com/rust-lang/rust/pull/20573
-[unusef]: https://github.com/rust-lang/rust/pull/20593
+[unused]: https://github.com/rust-lang/rust/pull/20593
 [unused-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0447-no-unused-impl-parameters.md
 [orph]: ttps://github.com/rust-lang/rust/pull/20594
 [sizedbound]: https://github.com/rust-lang/rust/pull/20602
@@ -100,7 +100,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 [isize]: https://github.com/rust-lang/rust/pull/20609
 [isize-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0544-rename-int-uint.md
 [intgate]: https://github.com/rust-lang/rust/pull/20754
-[imode]: https://github.com/rust-lang/rust/pull/20708
+[imod]: https://github.com/rust-lang/rust/pull/20708
 [thread]: https://github.com/rust-lang/rust/pull/20615
 [tpw]: https://github.com/rust-lang/rust/pull/20680
 [chain]: https://github.com/rust-lang/rust/pull/20726
@@ -219,7 +219,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
   integer types to be a program error on overflow. Implementations are
   not required to check for these errors except in debug mode. Adds
   wrapping int types to the library.
-* [Remove official `ndebug` variable support][rfc-563]. A more rusty
+* [Remove official `ndebug` variable support][rfc-563-pr]. A more rusty
   solution to turning on debug assertions.
 * [Relative paths by default][rfc-564-pr]. Make paths in `use`
   statements relative instead of absolute.
@@ -284,12 +284,12 @@ The #rust IRC channel now peaks at more than 900 users.
   (alpha)][conv]. Looks painful...
 * [Is now a good time to learn Rust?][now]. A: wait 6-12
   weeks. [/r/programming][now-reddit].
-* [Iomrascálaí: A Great Way to Learn Rust or About AI]. An AI for the
+* [Iomrascálaí: A Great Way to Learn Rust or About AI][iom]. An AI for the
   game of Go.
 * [Notch says something about Rust][notch]. Rust is official.
 
 [objs]: http://huonw.github.io/blog/2015/01/peeking-inside-trait-objects/
-[objs-r-rust] https://www.reddit.com/r/rust/comments/2rutqb/peeking_inside_trait_objects/
+[objs-r-rust]: https://www.reddit.com/r/rust/comments/2rutqb/peeking_inside_trait_objects/
 [sized]: http://huonw.github.io/blog/2015/01/the-sized-trait/
 [sized-r-rust]: https://www.reddit.com/r/rust/comments/2s2gee/the_sized_trait/
 [safety]: http://huonw.github.io/blog/2015/01/object-safety/
@@ -327,7 +327,7 @@ The #rust IRC channel now peaks at more than 900 users.
 [bin-r-rust]: https://www.reddit.com/r/rust/comments/2s0s9n/151byte_static_linux_binary_in_rust/
 [bin-r-programming]: https://www.reddit.com/r/programming/comments/2s1sgg/151byte_static_linux_binary_in_rust/
 [dmca-hn]: https://www.reddit.com/r/hackernews/comments/2rlaf5/tell_hn_google_removes_rust_netflix_other_github/
-[dmca-reddidt]: https://www.reddit.com/r/rust/comments/2rlaug/cargo_github_repo_link_has_been_dmcad_off_the/
+[dmca-reddit]: https://www.reddit.com/r/rust/comments/2rlaug/cargo_github_repo_link_has_been_dmcad_off_the/
 [deal]: https://www.reddit.com/r/programming/comments/2rlef7/how_big_a_deal_is_rust_really/
 [int]: https://www.reddit.com/r/rust/comments/2rg60o/final_decision_on_builtin_integer_types_again/
 [packt]: https://www.reddit.com/r/rust/comments/2rnked/rust_book_by_packt_publishing/
