@@ -61,7 +61,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
   `link_llvm_intrinsics` feature gate][intrinsics].
 * [Atomic ordering variants are no longer reepxorted][atomic].
 * A number of `DList` methods are [deprecated, along with some minor
-  breaking changes to other collections][coll]. 
+  breaking changes to other collections][coll].
 * The `BoxAny` trait [is removed][boxany]. Use `Box<Any>`.
 
 [lock]: https://github.com/rust-lang/rust/pull/19661
@@ -89,7 +89,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 ## Other Changes
 
-* Rust again has [picks a fallback (either `i32` or `f64`) for
+* Rust again [picks a fallback (either `i32` or `f64`) for
   uninferred numeric types][fb]. [RFC][fb-rfc].
 * [Indicating that a type parameter may be unsized][sized] is now done
   with `T: ?Sized` instead of `Sized? T`, and that `Self` may be
