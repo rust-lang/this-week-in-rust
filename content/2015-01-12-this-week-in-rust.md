@@ -343,7 +343,7 @@ The #rust IRC channel now peaks at more than 900 users.
 * [Clippy for Rust][clippy]. A collection of
   lints. [/r/rust][clippy-r-rust].
 * [rust-blas][blas]. Bindings to the immortal BLAS numerical library.
-* [fallthrough]. A macro far fall-through match cases.
+* [fallthrough]. A macro for fall-through match cases.
 * [rust-vobject]. A vObject/iCalendar parser.
 * [ProjectEuler]. A new attempt at the Project Euler problems.
 * [forkallcc]. Continuations with fork(2)!
