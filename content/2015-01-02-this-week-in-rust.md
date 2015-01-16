@@ -60,7 +60,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * Using the FFI to sneakily link to LLVM intrinsics [requires the
   `link_llvm_intrinsics` feature gate][intrinsics].
 * [Atomic ordering variants are no longer reepxorted][atomic].
-* A number `DList` methods are [deprecated, along with some minor
+* A number of `DList` methods are [deprecated, along with some minor
   breaking changes to other collections][coll]. 
 * The `BoxAny` trait [is removed][boxany]. Use `Box<Any>`.
 
