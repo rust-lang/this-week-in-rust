@@ -15,9 +15,9 @@ If you find any errors or omissions in this week's issue, [please submit a PR](h
 
 # What's cooking on master?
 
-Around XXX pull requests were [merged in the last week][1].
+119 pull requests were [merged in the last week][merged].
 
-[1]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2015-01-12..2015-01-18
+[merged]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-12..2015-01-18
 
 Now you can follow breaking changes *[as they happen][BitRust]*!
 
@@ -25,11 +25,27 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 ## Breaking Changes
 
+* `AtomicInt` and `AtomicUint` have been [renamed][atomic] to
+  `AtomicIsize` and `AtomicUsize` to match their corresponding integer
+  types.
 
+[atomic]: https://github.com/rust-lang/rust/pull/20896
 
 ## Other Changes
 
+* Certain long error messages of the form 'expected foo found bar' are
+  now [split neatly across multiple lines][multiline]. Examples in the
+  PR.
+* Mutexes on Windows are faster now they are [implemented with Slim
+  Reader Writer Locks][mutex].
+* The `#[rustc_on_unimplemented]` attribute, requiring the
+  'on_unimplemented' feature, lets rustc [display custom error
+  messages when a trait is expected to be implemented for a type but
+  is not][onun].
 
+[multiline]: https://github.com/rust-lang/rust/pull/19870
+[mutex]: https://github.com/rust-lang/rust/pull/20367
+[onun]: https://github.com/rust-lang/rust/pull/20889
 
 ## New Contributors
 
