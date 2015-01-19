@@ -185,6 +185,8 @@ The [periodic table of Rust types][period] has been updated, and
   ownership. [/r/rust][pwned-r-rust].
 * [DTrace on Rust][dtrace].
 * [SystemTap on Rust][systemtap]. Not to be outdone.
+* [Summary of Korean Rust Meetup #4][korea]. The Korean Rust
+  contingent is always up to interesting stuff.
 
 [d]: http://blog.dicebot.lv/2015/01/thoughts-about-rust-from-d-programmer.html
 [d-r-rust]: https://www.reddit.com/r/rust/comments/2s7bnt/thoughts_about_rust_from_d_programmer/
@@ -206,6 +208,7 @@ The [periodic table of Rust types][period] has been updated, and
 [started]: http://kmcallister.github.io/talks/rust/2015-contributing-to-rust/slides.html
 [pwned]: http://nercury.github.io/rust/guide/2015/01/19/ownership.html
 [pwned-r-rust]: https://www.reddit.com/r/rust/comments/2sv4uv/explore_ownership_system_in_rust/
+[korea]: https://gist.github.com/lifthrasiir/93ba9f6aec7bd2113941
 
 ## Videos
 
