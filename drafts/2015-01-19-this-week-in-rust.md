@@ -93,6 +93,12 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 # Community
 
+The [periodic table of Rust types][period] has been updated, and
+/r/rust finally hit [8 trillion subscribers][trill].
+
+[period]: http://cosmic.mearie.org/2014/01/periodic-table-of-rust-types/
+[trill]: https://www.reddit.com/r/rust/comments/2sn91h/8_trillion_subscribers_we_did_it_reddit/
+
 ## From the Team
 
 * [Weekly-meetings/2015-01-13][mtg]. fott; homu; integer overflow;
@@ -106,11 +112,26 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
   comparison. [/r/rust][d-r-rust]. [/r/programming][d-r-programming].
 * [Recent syntactic changes][syntax]. Nick discusses some of the
   last-minute syntax changes he's recently landed.
+* [Little Orphan Impls][orphan]. Niko discusses options for coherence
+  rules. [/r/rust][orphan-r-rust].
+* [Unboxed Closures and FFI Callbacks][ffi]. How to use closures as
+  foreign callbacks.
 * [A Quick Comparison of Nim
   vs. Rust][nim]. [/r/rust][nim-r-rust]. [/r/programming][nim-r-programming].
+* [Mooney GB: A Gameboy emulator written in Rust][mooneye].
+* [Building a HashMap in Rust - Part 1: What's a
+  Hashmap?][hashmap]. Gankro on the Rust
+  HashMap. [/r/rust][hashmap-r-rust].
+* [Worklog 2015-01-17: Rustdoc testing][rustdoc]. Yurume on his new
+  patch to test rustdoc output.
 * [Solving Project Eueler with Rust][euler]. A walk through of the
   first problem.
+* [Getting started contributing to Rust][started]. kmc's slides from
+  the Saturday event in SF.
+* [Explore ownership in Rust][pwned]. Good entry level discussion of
+  ownership. [/r/rust][pwned-r-rust].
 * [DTrace on Rust][dtrace].
+* [SystemTap on Rust][systemtap]. Not to be outdone.
 
 [d]: http://blog.dicebot.lv/2015/01/thoughts-about-rust-from-d-programmer.html
 [d-r-rust]: https://www.reddit.com/r/rust/comments/2s7bnt/thoughts_about_rust_from_d_programmer/
@@ -121,6 +142,17 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 [syntax]: http://featherweightmusings.blogspot.co.nz/2015/01/recent-syntactic-changes-to-rust.html
 [euler]: http://unlogic.co.uk/2015/01/12/solving-project-euler-with-rust-1/
 [dtrace]: https://twitter.com/bcantrill/status/555143487482368000
+[mooneye]: http://gekkio.fi/blog/2015-01-13-mooneye-gb-a-gameboy-emulator-written-in-rust.html
+[systemtap]: https://gist.github.com/cuviper/08239cbae023411a29d9
+[orphan]: http://smallcultfollowing.com/babysteps/blog/2015/01/14/little-orphan-impls/
+[orphan-r-rust]: https://www.reddit.com/r/rust/comments/2sfm4a/little_orphan_impls_nikos_blog/
+[hashmap]: http://cglab.ca/~abeinges/blah/robinhood-part-1/
+[hashmap-r-rust]: https://www.reddit.com/r/rust/comments/2sjayc/building_a_hashmap_in_rust_part_1_whats_a_hashmap/
+[ffi]: http://aatch.github.io/blog/2015/01/17/unboxed-closures-and-ffi-callbacks/
+[rustdoc]: https://lifthrasiir.github.io/rustlog/worklog-2015-01-17.html
+[started]: http://kmcallister.github.io/talks/rust/2015-contributing-to-rust/slides.html
+[pwned]: http://nercury.github.io/rust/guide/2015/01/19/ownership.html
+[pwned-r-rust]: https://www.reddit.com/r/rust/comments/2sv4uv/explore_ownership_system_in_rust/
 
 ## Videos
 
@@ -133,19 +165,52 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 ## Discussions
 
+* [Small string optimization, remove as_mut_vec][small]. The current
+  definition of `Vec` doesn't allow the common 'small string'
+  optimization. [/r/rust][small-r-rust].
 * [Does Rust let you develop faster than C++?][fast]. TL;DR ¯\_(ツ)_/¯
 * [Using Rust 1.0 for video game development][games]. Yes, please.
 * [Rust support in Visual Studio][vs]. Doesn't exist yet, sorry.
 * [Rust Berlin community efforts][berlin]. Berlin needs you!
+* [By value operator overloading problems][over]. Implementing math
+  operators for non-copyable types means you have to pass them by
+  reference, like `&a + &b`, which some consider unsightly.
 
 [games]: https://www.reddit.com/r/rust/comments/2s4kp9/using_rust_10_for_video_game_development/
 [vs]: https://www.reddit.com/r/rust/comments/2s5d65/rust_support_in_visual_studio/
 [fast]: https://www.reddit.com/r/rust/comments/2sa2qx/does_rust_let_you_develop_faster_than_c/
 [berlin]: https://www.reddit.com/r/rust/comments/2sbkuo/rustberlin_community_efforts/
+[small]: http://discuss.rust-lang.org/t/small-string-optimization-remove-as-mut-vec/1320
+[small-r-rust]: https://www.reddit.com/r/rust/comments/2slcs8/small_string_optimization_remove_as_mut_vec/
+[over]: https://www.reddit.com/r/rust/comments/2srz0g/by_value_operator_overloading_problems/
 
 ## New Projects
 
+* [launch-code]. Cryptographic auditing of unsafe code. [/r/rust][launch-code-r-rust].
+* [rust-cipher]. Encryption with XSalsa20 and BLAKE2B-512 in the
+  Encrypt-then-MAC mode.
+* [rust-haskell-ffi]. Example of calling Rust from Haskell.
+* [dynamodule]. Experiments with dynamic OOP.
+* [rdb-rs]. A Redis RDB parser.
+* [carboxyl]. Functional reactive programming.
+* [Sparkle]. An entity component system. [/r/rust][Sparkle-r-rust].
+* [rust-erl-ext]. Erlang 'external term' parser.
+* [rs-intrusive]. A system for creating intrusive data structures,
+  Rust's kryptonite.
+* [handlebars-iron]. Template middleware for the Iron web framework.
 
+[launch-code]: https://github.com/kmcallister/launch-code
+[launch-code-r-rust]: https://www.reddit.com/r/rust/comments/2sc7oq/cryptographic_signatures_for_auditing_unsafe_code/
+[rust-cipher]: https://github.com/zenith-nz/rust-cipher
+[rust-haskell-ffi]: https://github.com/aisamanra/rust-haskell-ffi
+[dynamodule]: https://github.com/kmcallister/dynamodule
+[rdb-rs]: http://fnordig.de/2015/01/15/rdb-rs-fast-and-efficient-rdb-parsing-utility/
+[carboxyl]: https://github.com/aepsil0n/carboxyl
+[Sparkle]: https://github.com/RustSparkle/Sparkle
+[Sparkle-r-rust]: https://www.reddit.com/r/rust/comments/2srrx0/another_entity_component_system/
+[rust-erl-ext]: https://github.com/seriyps/rust-erl-ext
+[rs-intrusive]: https://github.com/aidancully/rs-intrusive
+[handlebars-iron]: https://github.com/sunng87/handlebars-iron
 
 ## Project Updates
 
@@ -160,4 +225,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 * [January 19 - Rust Paris](http://www.meetup.com/Rust-Paris)
 * [January 20 - Rust Berlin](http://www.meetup.com/Rust-Berlin/events/219070839/)
+* [January 20 - Fast, Safe, and
+  Beautiful](http://www.oreilly.com/pub/e/3291). Jim Blandy's webcast
+  on Rust for O'Reilly.
 * [January 28 - Rust Amsterdam](http://www.meetup.com/Rust-Amsterdam/events/218908906/)
