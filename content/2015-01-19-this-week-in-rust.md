@@ -15,7 +15,7 @@ If you find any errors or omissions in this week's issue, [please submit a PR](h
 
 # What's cooking on master?
 
-119 pull requests were [merged in the last week][merged], and 1 [RFC][rfcs].
+119 pull requests were [merged in the last week][code], and 1 [RFC][rfcs].
 
 [code]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-12..2015-01-18
 [rfcs]: https://github.com/rust-lang/rfcs/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-12..2015-01-18
@@ -272,7 +272,7 @@ The [periodic table of Rust types][period] has been updated, and
 
 * [This Week in Servo 19][twis].
 * [Worklog 2015-01-13: Time zones, chrono, and associated
-  types]. Yurume discusses updates to rust-chrono.
+  types][chrono]. Yurume discusses updates to rust-chrono.
 
 [twis]: http://blog.servo.org/2015/01/13/twis-19/
 [chrono]: https://lifthrasiir.github.io/rustlog/worklog-2015-01-13.html
