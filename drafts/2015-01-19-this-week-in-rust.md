@@ -53,6 +53,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
   messages when a trait is expected to be implemented for a type but
   is not][onun].
 * [Preliminary support for PowerPC][powerpc].
+* Fatal runtime errors are [now suitably boring][bore].
 
 [multiline]: https://github.com/rust-lang/rust/pull/19870
 [mutex]: https://github.com/rust-lang/rust/pull/20367
@@ -62,10 +63,25 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 [powerpc]: https://github.com/rust-lang/rust/pull/20980
 [ufcs]: https://github.com/rust-lang/rust/pull/21077
 [ufcs-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0132-ufcs.md
+[bore]: https://github.com/rust-lang/rust/pull/20944
 
 ## New Contributors
 
-
+* Aidan Hobson Sayers
+* Alexander Korolkov
+* Andrew Barchuk
+* Cam Jackson
+* CarVac
+* Diggory Blake
+* Fenhl
+* Greg Chapple
+* Jeff Belgum
+* Lauri Lehmijoki
+* nathan dotz
+* Paul Crowley
+* Seth Faxon
+* Toni Cárdenas
+* Travis Watkins
 
 # Approved RFC's
 
@@ -79,20 +95,53 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 ## From the Team
 
-* [Weekly-meetings/2014-18-11][mtg]:  [Reddit][mtg-reddit].
+* [Weekly-meetings/2015-01-13][mtg]. fott; homu; integer overflow;
+  I/O; 1.0; comment RFC
 
-[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-18-11.md
-[mtg-reddit]:
-
-
+[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2015-01-13.md
 
 ## Blog Posts
 
+* [Thoughts about Rust from a D programmer][d]. Good
+  comparison. [/r/rust][d-r-rust]. [/r/programming][d-r-programming].
+* [Recent syntactic changes][syntax]. Nick discusses some of the
+  last-minute syntax changes he's recently landed.
+* [A Quick Comparison of Nim
+  vs. Rust][nim]. [/r/rust][nim-r-rust]. [/r/programming][nim-r-programming].
+* [Solving Project Eueler with Rust][euler]. A walk through of the
+  first problem.
+* [DTrace on Rust][dtrace].
 
+[d]: http://blog.dicebot.lv/2015/01/thoughts-about-rust-from-d-programmer.html
+[d-r-rust]: https://www.reddit.com/r/rust/comments/2s7bnt/thoughts_about_rust_from_d_programmer/
+[d-r-programming]: https://www.reddit.com/r/programming/comments/2s70mm/thoughts_about_rust_from_a_d_programmer/
+[nim-hn]: http://news.ycombinator.com/item?id=8883791
+[nim-r-rust]: https://www.reddit.com/r/rust/comments/2sd5rv/a_quick_comparison_of_nim_vs_rust/
+[nim-r-programming]: https://www.reddit.com/r/programming/comments/2scodb/a_quick_comparison_of_nim_vs_rust/
+[syntax]: http://featherweightmusings.blogspot.co.nz/2015/01/recent-syntactic-changes-to-rust.html
+[euler]: http://unlogic.co.uk/2015/01/12/solving-project-euler-with-rust-1/
+[dtrace]: https://twitter.com/bcantrill/status/555143487482368000
+
+## Videos
+
+* [Servo: Building a Parallel Web Browser][servo]. Jack Moffit at
+  linux.conf.au. [HN][servo-hn]. [/r/programming][servo-r-programming].
+
+[servo]: https://youtu.be/7q9vIMXSTzc
+[servo-hn]: https://news.ycombinator.com/item?id=8899812
+[servo-r-programming]: https://www.reddit.com/r/programming/comments/2lcap0/an_introduction_to_servo/
 
 ## Discussions
 
+* [Does Rust let you develop faster than C++?][fast]. TL;DR ¯\_(ツ)_/¯
+* [Using Rust 1.0 for video game development][games]. Yes, please.
+* [Rust support in Visual Studio][vs]. Doesn't exist yet, sorry.
+* [Rust Berlin community efforts][berlin]. Berlin needs you!
 
+[games]: https://www.reddit.com/r/rust/comments/2s4kp9/using_rust_10_for_video_game_development/
+[vs]: https://www.reddit.com/r/rust/comments/2s5d65/rust_support_in_visual_studio/
+[fast]: https://www.reddit.com/r/rust/comments/2sa2qx/does_rust_let_you_develop_faster_than_c/
+[berlin]: https://www.reddit.com/r/rust/comments/2sbkuo/rustberlin_community_efforts/
 
 ## New Projects
 
@@ -100,8 +149,15 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 ## Project Updates
 
+* [This Week in Servo 19][twis].
+* [Worklog 2015-01-13: Time zones, chrono, and associated
+  types]. Yurume discusses updates to rust-chrono.
 
+[twis]: http://blog.servo.org/2015/01/13/twis-19/
+[chrono]: https://lifthrasiir.github.io/rustlog/worklog-2015-01-13.html
 
 ## Upcoming Events
 
-
+* [January 19 - Rust Paris](http://www.meetup.com/Rust-Paris)
+* [January 20 - Rust Berlin](http://www.meetup.com/Rust-Berlin/events/219070839/)
+* [January 28 - Rust Amsterdam](http://www.meetup.com/Rust-Amsterdam/events/218908906/)
