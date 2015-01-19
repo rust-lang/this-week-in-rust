@@ -43,7 +43,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * UFCS method calls can now be [qualified by the trait][ufcs] of the
   method.  This can be used to disambiguate method calls when multiple
   applicable methods are in scope, e.g. `<i32 as Add<_>>::add(1, 2)`
-  which is equivalent to `1.add(2)`. [RFC][rfcs-rfc].
+  which is equivalent to `1.add(2)`. [RFC][ufcs-rfc].
 * Negative impls are [partially implemented][negimpl], though appear
   to still be special-cased to the `Send` and `Sync`
   traits. [RFC][negimpl-rfc].
