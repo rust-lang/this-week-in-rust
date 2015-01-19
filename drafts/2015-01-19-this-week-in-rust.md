@@ -15,9 +15,10 @@ If you find any errors or omissions in this week's issue, [please submit a PR](h
 
 # What's cooking on master?
 
-119 pull requests were [merged in the last week][merged].
+119 pull requests were [merged in the last week][merged], and 1 [RFC][rfcs].
 
-[merged]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-12..2015-01-18
+[code]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-12..2015-01-18
+[rfcs]: https://github.com/rust-lang/rfcs/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-12..2015-01-18
 
 Now you can follow breaking changes *[as they happen][BitRust]*!
 
@@ -85,11 +86,63 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 # Approved RFC's
 
+* [517: io and os reform (skeleton)][rfc-517]. Updating the `io` and
+  `os` modules is a large task and at the moment the RFC only lays out
+  the motivation. It will be updated incrementally in further pull
+  requests. [PR][rfc-517-pr]. Many follow-ups have been posted for
+  review: [string handling][rfc-517-string],
+  [`Reader`/`Writer`][rfc-517-readwrite], [deadlines][rfc-517-dead],
+  [`std::env`][rfc-517-env], [`std::process`][rfc-517-process].
 
+[rfc-517]: https://github.com/rust-lang/rfcs/blob/master/text/0517-io-os-reform.md
+[rfc-517-pr]: https://github.com/rust-lang/rfcs/pull/517
+[rfc-517-readwrite]: https://github.com/rust-lang/rfcs/pull/576
+[rfc-517-string]: https://github.com/rust-lang/rfcs/pull/575
+[rfc-517-dead]: https://github.com/rust-lang/rfcs/pull/577
+[rfc-517-env]: https://github.com/rust-lang/rfcs/pull/578
+[rfc-517-process]: https://github.com/rust-lang/rfcs/pull/579
 
 # New RFC's
 
+* [Use `isz`/`usz` as literal suffix for `isize`/`usize`][rfc-573-pr].
+* [Replace `Vec::drain` by a method that accepts a range parameter][rfc-574-pr].
+* [Rename (maybe one of) the standard collections for
+  consistency][rfc-580-pr]. Proposes several possible renamings.
+* [Add `foreach` to iterators][rfc-582-pr]. An internal iterator.
+* [Add `fmt` size hints][rfc-583-pr]. Allows buffers to be optimized.
+* [Remove `proc` keyword][rfc-584-pr]. Why isn't it gone already?
+* [Negative bounds][rfc-586-pr]. Gives flexibility to avoid coherence
+  conflicts.
+* [Make return types of `Fn` traits associated
+  types][rfc-587-pr]. More flexible because it doesn't require generic
+  return types to be constrained.
+* [Early trait bounds on generic types][rfc-590-pr]. Create a
+  convention to always apply trait bounds to wrapper types to improve
+  error messages when the bounds on the underlying types or methods
+  can't be satisfied.
+* [sizeof, alignof, offsetof, typeof][rfc-591-pr].
+* [CStr, the dereferenced complement to CString][rfc-592-pr].
+* [Forbid identifier `Self` for definitions][rfc-593-pr]. Fixing a
+  weird corner case that results from `Self` not being a keyword.
+* [Support incremental compilation][rfc-594-pr]. Rearchitect the
+  compiler.
+* [Output option handling][rfc-595-pr]. Make rustc's `-o`,
+  `--out-dir`, and `--emit` options more consistent.
 
+[rfc-573-pr]: https://github.com/rust-lang/rfcs/pull/573
+[rfc-574-pr]: https://github.com/rust-lang/rfcs/pull/574
+[rfc-580-pr]: https://github.com/rust-lang/rfcs/pull/580
+[rfc-582-pr]: https://github.com/rust-lang/rfcs/pull/582
+[rfc-583-pr]: https://github.com/rust-lang/rfcs/pull/583
+[rfc-584-pr]: https://github.com/rust-lang/rfcs/pull/584
+[rfc-586-pr]: https://github.com/rust-lang/rfcs/pull/586
+[rfc-587-pr]: https://github.com/rust-lang/rfcs/pull/587
+[rfc-590-pr]: https://github.com/rust-lang/rfcs/pull/590
+[rfc-591-pr]: https://github.com/rust-lang/rfcs/pull/591
+[rfc-592-pr]: https://github.com/rust-lang/rfcs/pull/592
+[rfc-593-pr]: https://github.com/rust-lang/rfcs/pull/593
+[rfc-594-pr]: https://github.com/rust-lang/rfcs/pull/594
+[rfc-595-pr]: https://github.com/rust-lang/rfcs/pull/595
 
 # Community
 
