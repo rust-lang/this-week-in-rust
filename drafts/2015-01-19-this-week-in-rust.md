@@ -28,24 +28,40 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * `AtomicInt` and `AtomicUint` have been [renamed][atomic] to
   `AtomicIsize` and `AtomicUsize` to match their corresponding integer
   types.
+* To fix a bug in coherence [builtin traits can only be implemented
+  for structs and enums][cohere].
 
 [atomic]: https://github.com/rust-lang/rust/pull/20896
+[cohere]: https://github.com/rust-lang/rust/pull/21167
 
 ## Other Changes
 
 * Certain long error messages of the form 'expected foo found bar' are
   now [split neatly across multiple lines][multiline]. Examples in the
   PR.
+* UFCS method calls can now be [qualified by the trait][ufcs] of the
+  method.  This can be used to disambiguate method calls when multiple
+  applicable methods are in scope, e.g. `<i32 as Add<_>>::add(1, 2)`
+  which is equivalent to `1.add(2)`. [RFC][rfcs-rfc].
+* Negative impls are [partially implemented][negimpl], though appear
+  to still be special-cased to the `Send` and `Sync`
+  traits. [RFC][negimpl-rfc].
 * Mutexes on Windows are faster now they are [implemented with Slim
   Reader Writer Locks][mutex].
 * The `#[rustc_on_unimplemented]` attribute, requiring the
   'on_unimplemented' feature, lets rustc [display custom error
   messages when a trait is expected to be implemented for a type but
   is not][onun].
+* [Preliminary support for PowerPC][powerpc].
 
 [multiline]: https://github.com/rust-lang/rust/pull/19870
 [mutex]: https://github.com/rust-lang/rust/pull/20367
 [onun]: https://github.com/rust-lang/rust/pull/20889
+[negimpl]: https://github.com/rust-lang/rust/pull/20972
+[negimpl-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0019-opt-in-builtin-traits.md
+[powerpc]: https://github.com/rust-lang/rust/pull/20980
+[ufcs]: https://github.com/rust-lang/rust/pull/21077
+[ufcs-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0132-ufcs.md
 
 ## New Contributors
 
