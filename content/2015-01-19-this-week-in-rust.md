@@ -224,7 +224,7 @@ The [periodic table of Rust types][period] has been updated, and
 * [Small string optimization, remove as_mut_vec][small]. The current
   definition of `Vec` doesn't allow the common 'small string'
   optimization. [/r/rust][small-r-rust].
-* [Does Rust let you develop faster than C++?][fast]. TL;DR ¯\_(ツ)_/¯
+* [Does Rust let you develop faster than C++?][fast]. TL;DR ¯\\\_(ツ)_/¯
 * [Using Rust 1.0 for video game development][games]. Yes, please.
 * [Rust support in Visual Studio][vs]. Doesn't exist yet, sorry.
 * [Rust Berlin community efforts][berlin]. Berlin needs you!
