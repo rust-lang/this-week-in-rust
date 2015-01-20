@@ -254,6 +254,7 @@ The [periodic table of Rust types][period] has been updated, and
 * [rs-intrusive]. A system for creating intrusive data structures,
   Rust's kryptonite.
 * [handlebars-iron]. Template middleware for the Iron web framework.
+* [hematite_server]. Minecraft server clone.
 
 [launch-code]: https://github.com/kmcallister/launch-code
 [launch-code-r-rust]: https://www.reddit.com/r/rust/comments/2sc7oq/cryptographic_signatures_for_auditing_unsafe_code/
@@ -267,6 +268,7 @@ The [periodic table of Rust types][period] has been updated, and
 [rust-erl-ext]: https://github.com/seriyps/rust-erl-ext
 [rs-intrusive]: https://github.com/aidancully/rs-intrusive
 [handlebars-iron]: https://github.com/sunng87/handlebars-iron
+[hematite_server]: https://github.com/PistonDevelopers/hematite_server
 
 ## Project Updates
 
