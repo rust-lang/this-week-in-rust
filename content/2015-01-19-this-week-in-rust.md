@@ -224,7 +224,7 @@ The [periodic table of Rust types][period] has been updated, and
 * [Small string optimization, remove as_mut_vec][small]. The current
   definition of `Vec` doesn't allow the common 'small string'
   optimization. [/r/rust][small-r-rust].
-* [Does Rust let you develop faster than C++?][fast]. TL;DR ¯\\\_(ツ)_/¯
+* [Does Rust let you develop faster than C++?][fast]. TL;DR ¯\_(ツ)_/¯
 * [Using Rust 1.0 for video game development][games]. Yes, please.
 * [Rust support in Visual Studio][vs]. Doesn't exist yet, sorry.
 * [Rust Berlin community efforts][berlin]. Berlin needs you!
@@ -254,6 +254,7 @@ The [periodic table of Rust types][period] has been updated, and
 * [rs-intrusive]. A system for creating intrusive data structures,
   Rust's kryptonite.
 * [handlebars-iron]. Template middleware for the Iron web framework.
+* [hematite_server]. Minecraft server clone.
 
 [launch-code]: https://github.com/kmcallister/launch-code
 [launch-code-r-rust]: https://www.reddit.com/r/rust/comments/2sc7oq/cryptographic_signatures_for_auditing_unsafe_code/
@@ -267,6 +268,7 @@ The [periodic table of Rust types][period] has been updated, and
 [rust-erl-ext]: https://github.com/seriyps/rust-erl-ext
 [rs-intrusive]: https://github.com/aidancully/rs-intrusive
 [handlebars-iron]: https://github.com/sunng87/handlebars-iron
+[hematite_server]: https://github.com/PistonDevelopers/hematite_server
 
 ## Project Updates
 
