@@ -169,8 +169,8 @@ The [periodic table of Rust types][period] has been updated, and
   rules. [/r/rust][orphan-r-rust].
 * [Unboxed Closures and FFI Callbacks][ffi]. How to use closures as
   foreign callbacks.
-* [A Quick Comparison of Nim
-  vs. Rust][nim]. [/r/rust][nim-r-rust]. [/r/programming][nim-r-programming].
+* [A Quick Comparison of Nim vs. Rust][nim]. [HN][nim-hn]. [/r/rust][nim-r-rust].
+  [/r/programming][nim-r-programming].
 * [Mooney GB: A Gameboy emulator written in Rust][mooneye].
 * [Building a HashMap in Rust - Part 1: What's a
   Hashmap?][hashmap]. Gankro on the Rust
@@ -191,6 +191,7 @@ The [periodic table of Rust types][period] has been updated, and
 [d]: http://blog.dicebot.lv/2015/01/thoughts-about-rust-from-d-programmer.html
 [d-r-rust]: https://www.reddit.com/r/rust/comments/2s7bnt/thoughts_about_rust_from_d_programmer/
 [d-r-programming]: https://www.reddit.com/r/programming/comments/2s70mm/thoughts_about_rust_from_a_d_programmer/
+[nim]: http://arthurtw.github.io/2015/01/12/quick-comparison-nim-vs-rust.html
 [nim-hn]: http://news.ycombinator.com/item?id=8883791
 [nim-r-rust]: https://www.reddit.com/r/rust/comments/2sd5rv/a_quick_comparison_of_nim_vs_rust/
 [nim-r-programming]: https://www.reddit.com/r/programming/comments/2scodb/a_quick_comparison_of_nim_vs_rust/
