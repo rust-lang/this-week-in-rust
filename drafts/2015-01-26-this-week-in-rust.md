@@ -13,6 +13,13 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 This Week in Rust is openly developed [on Github](https://github.com/cmr/this-week-in-rust).
 If you find any errors or omissions in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
+This week the [mailing list was closed][ml], `std::io` was [renamed
+`std::old_io`][oldio]. There were many pull requests merged, but not a
+lot of churn.
+
+[ml]: https://mail.mozilla.org/pipermail/rust-dev/2015-January/011558.html
+[oldio]: http://discuss.rust-lang.org/t/psa-io-old-io/1403
+
 # What's cooking on master?
 
 143 pull requests were [merged in the last week][merged], and XXX [RFCs][rfcs].
@@ -101,31 +108,131 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 # Community
 
-## From the Team
+What's [Built with Rust]?
 
-* [Weekly-meetings/2014-18-11][mtg]:  [Reddit][mtg-reddit].
+[Built with Rust]: http://builtwithrust.com/
 
-[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-18-11.md
-[mtg-reddit]:
+## Announcements
 
+* [Weekly-meetings/2015-01-20][mtg]: goodbye view items; deref
+  coercion; nounwind; discourse/ml changes; discriminant intrinsics;
+  issue triage; fott. [/r/rust][mtg-r-rust].
+* [PSA: io => old_io][oldio]. As part of the overhaul of `std::io` the
+  existing `io` module is being renamed to move it out of the way.
+* [Moving editor highlighting into their own repos][edit]. Your vim
+  and emacs modes will need to be obtained elsewhere before long.
+* [Issue categorization changes][iss]. Steve has been retriaging old
+  issues.
+* [Call for more comments on IO RFCs][iorfcs]. Now is your chance.
 
+[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2015-01-20.md
+[mtg-r-rust]: https://www.reddit.com/r/rust/comments/2t405p/weekly_meeting_20150120_goodbye_view_items_deref/
+[edit]: http://discuss.rust-lang.org/t/moving-editor-highlighting-into-their-own-repos/1395
+[oldio]: http://discuss.rust-lang.org/t/psa-io-old-io/1403
+[iss]: http://discuss.rust-lang.org/t/issue-categorization-changes/1417
+[iorfcs]: http://discuss.rust-lang.org/t/call-for-more-comments-io-rfcs/1449
 
 ## Blog Posts
 
+* [Functional reactive event handling][frp]. Explorations into
+  functional reactive programming in Rust.
+* [Mozilla's Servo Still On Track ofr 2015 Alpha
+  Release][servo]. Phoronix picks up Jack's linux.conf.au
+  talk. [/r/rust][servo-r-rust].
+* [Writing Cross-Platform Games Using Rust and Piston][games]. It can
+  be done.
+* [Raft so far][raft-rs]. Hoverbear talks about his endeavors to
+  implement the [Raft consensus algorithm][raft].
+* [Graydon comments on Rust 1.0 alpha][graydon].
 
+[frp]: http://blog.ebopp.de/blog/2015/01/26/frp-in-rust/
+[servo]: http://www.phoronix.com/scan.php?page=news_item&px=Mozilla-Servo-Engine-LCA2015
+[servo-r-rust]: https://www.reddit.com/r/rust/comments/2t0po8/mozillas_servo_still_on_track_for_2015_alpha/
+[graydon]: http://graydon2.dreamwidth.org/195706.html
+[games]: https://github.com/tedsta/getting-started-with-piston
+[raft-rs]: http://www.hoverbear.org/2015/01/25/raft-so-far/
+[raft]: https://raftconsensus.github.io/
 
 ## Discussions
 
+* [Say goodbye to the mailing list][ml]. Reddit responds to the end of
+  rust-dev.
+* [A macro that is to `Result::or_else` what `try!` is to
+  `Result::and_then`][try]. SimonSapin is trying.
+* [Replace most of the collections API with ranges and
+  iterators][ranges]. Gankro has a crazy far future idea.
+* [Jai Demo: Data-oriented features: SOA, crazy
+  'using'][jai]. Discussion on /r/rust about Jonathan Blow's latest.
+* [How Rust applications and libraries fit into Debian][deb]. Making
+  crates easy to repackage by Linux distributions is not yet solved.
 
+[ranges]: http://discuss.rust-lang.org/t/crazy-replace-most-of-the-collections-api-with-ranges-and-iterators/1375
+[jai]: https://www.reddit.com/r/rust/comments/2t6xqz/jai_demo_dataoriented_features_soa_crazy_using/
+[ml]: https://www.reddit.com/r/rust/comments/2tdqgc/rustdev_say_goodbye_to_the_mailing_list/
+[try]: http://discuss.rust-lang.org/t/a-macro-that-is-to-result-or-else-what-try-is-to-result-and-then/1416
+[deb]: https://www.reddit.com/r/rust/comments/2tnql2/how_rust_applications_and_libraries_fit_into/
+
+## Videos
+
+* [Jim Blandy - Programming in Rust][blandy]. Mozilla's Jim Blandy
+  talking about Rust for O'Reilly. Registration required.
+
+[blandy]: http://post.oreilly.com/rd/9z1z7bquivj2k5agpg7tuouo569mv0bkk8e4jrajhv0
 
 ## New Projects
 
+* [Built with Rust] - A website promoting projects built with Rust.
+* [cql-ffi-safe] - Safe bindings to the DataStax C++ driver for Cassandra.
+* [screenshot-rs] - Capturing the screen.
+* [rust-atomicwrites] - Atomic file writing for POSIX systems.
+* [winapi-rs] - Windows API bindings.
+* [rust-beanstalkd] - A beanstalkd client that is compatible with
+  IronMQ. It's API has been recently been redesigned.
+* [mm] - A multimedia library that is like a cross between SDL and GDK.
+* [seqloq] - Fast locks for read-heavy workloads.
+* [r6.rs] - R6RS Scheme implementation in Rust.
+* [oxischeme] - A Scheme implementation in Rust, with a working GC.
+* [CoatCheck] - A library for storing values and referencing them by
+  ticket.
+* [emojicons] - An emoji parser.
+* [maud] - A macro that takes markup and Rust tokens and emits HTML.
+* [ocb.rs] - OCB-AES 'authenticryption'.
+* [parser-combinators] - A parser-combinator library.
 
+[Built with Rust]: http://builtwithrust.com/
+[cql-ffi-safe]: https://github.com/tupshin/cql-ffi-safe
+[screenshot-rs]: https://github.com/alexchandel/screenshot-rs
+[rust-atomicwrites]: https://github.com/untitaker/rust-atomicwrites
+[winapi-rs]: https://github.com/retep998/winapi-rs
+[rust-beanstalkd]: https://github.com/schickling/rust-beanstalkd
+[mm]: https://github.com/Daggerbot/mm
+[seqloq]: https://github.com/kmcallister/seqloq
+[r6.rs]: https://github.com/kimhyunkang/r6.rs
+[oxischeme]: https://fitzgen.github.io/oxischeme/oxischeme/index.html
+[CoatCheck]: https://www.reddit.com/r/rust/comments/2th6qf/library_coatcheck/
+[emojicons]: https://github.com/sindriava/rust-emojicons
+[ocb.rs]: https://github.com/kmcallister/ocb.rs
+[parser-combinators]: https://github.com/Marwes/parser-combinators
 
 ## Project Updates
 
+* [This Week in Servo 20][twis].
+* [dynamodule], kmc's experiment in dynamic OOP supports virtual
+  destructors.
+* [multirust] can install custom toolchains.
 
+[twis]: http://blog.servo.org/2015/01/20/twis-20/
+[dynamodule]: https://github.com/kmcallister/dynamodule/blob/561191a6d735901cb351bf6e6aa29c79f08ca43a/README.md#virtual-destructors
+[multirust]: https://www.reddit.com/r/rust/comments/2tnmu2/multirust_can_also_manage_custom_local_toolchains/
 
 ## Upcoming Events
 
+* [January 27 - Rust NY][ny].
+* [January 28 - Amsterdam][amst].
+* [February 1 - The Story of Rust][steve]. Steve Klabnik at FOSDEM.
+* [February 1 - Servo and You][jdm]. Josh Matthews at FOSDEM.
 
+[ny]: http://www.meetup.com/RustNY/events/219961968/
+[amst]: http://www.meetup.com/Rust-Amsterdam/events/218908906/
+[steve]: https://fosdem.org/2015/schedule/event/the_story_of_rust/
+[jdm]: https://fosdem.org/2015/schedule/event/servo_the_parallel_web_browser_and_you!/

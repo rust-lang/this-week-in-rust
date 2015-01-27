@@ -46,13 +46,13 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 # Community
 
-## From the Team
 
-* [Weekly-meetings/2014-18-11][mtg]:  [Reddit][mtg-reddit].
+## Announcements
+
+* [Weekly-meetings/2014-18-11][mtg]: what? [Reddit][mtg-reddit].
 
 [mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-18-11.md
 [mtg-reddit]:
-
 
 
 ## Blog Posts
@@ -60,6 +60,10 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 
 ## Discussions
+
+
+
+## Videos
 
 
 
