@@ -22,7 +22,7 @@ lot of churn.
 
 # What's cooking on master?
 
-143 pull requests were [merged in the last week][merged], and XXX [RFCs][rfcs].
+143 pull requests were [merged in the last week][merged], and 6 [RFCs][rfcs].
 
 [merged]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-19..2015-01-25
 [rfcs]: https://github.com/rust-lang/rfcs/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-19..2015-01-25
@@ -100,11 +100,71 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 # Approved RFC's
 
+* [242: Deref conversions][rfc-242]. [PR][rfc-242-pr]. Adds coercions
+  from `&T` to `&U` when `T: Deref<U>`.
+* [550: Macro future proofing][rfc-550]. Places limits on the grammar
+  of macro matchers to avoid potential problems with adding more
+  syntax to Rust. The implementation has already
+  landed. [PR][rfc-550-pr].
+* [565: `fmt::Show` and `fmt::String` guidelines][rfc-565]. Renames
+  `Show` to `Debug`, `String` to `Display` and establishes conventions
+  for when to use and implement each. [PR][rfc-565-pr].
+* [Ammendment to 517 for string handling][rfc-517]. [rfc-517-pr]. Defines
+  the `OsString` and `OsStr` platform-specific string types.
+* [587: Make return type of `Fn` traits an associated type][rfc-587]. Allows
+  calls to be overloaded based on return type.
 
+[rfc-242]: https://github.com/rust-lang/rfcs/blob/master/text/0241-deref-conversions.md
+[rfc-242-pr]: https://github.com/rust-lang/rfcs/pull/241
+[rfc-550]: https://github.com/rust-lang/rfcs/blob/master/text/0550-macro-future-proofing.md
+[rfc-550-pr]: https://github.com/rust-lang/rfcs/pull/550
+[rfc-565]: https://github.com/rust-lang/rfcs/blob/master/text/0565-show-string-guidelines.md
+[rfc-565-pr]: https://github.com/rust-lang/rfcs/pull/565
+[rfc-517]: https://github.com/rust-lang/rfcs/blob/master/text/0517-io-os-reform.md#string-handling
+[rfc-517-pr]: https://github.com/rust-lang/rfcs/pull/575
+[rfc-587]: https://github.com/rust-lang/rfcs/blob/master/text/0587-fn-return-should-be-an-associated-type.md
+[rfc-587-pr]: https://github.com/rust-lang/rfcs/pull/587
 
 # New RFC's
 
+* [Introduce a default object lifetime bound][rfc-599-pr].
+* [Replace `be` with `become`][rfc-601-pr].
+* [Specify unwinding][rfc-638-pr].
+* [Implement a `discriminant_value` intrinsic][rfc-639-pr].
+* [Debug improvements][rfc-640].
+* [Disallow omitting the ABI in `extern` declarations][rfc-697-pr].
+* [Syntax for `FullRange`][rfc-702].
+* [Add a new macro for 'unreachable' whos meaning differs in release
+  builds][rfc-706-pr].
+* [Truly unsized types][rfc-709-pr].
+* [Reseeding `std::rand`][rfc-722-pr].
+* [Unsafe enums][rfc-724-pr].
+* [Ammend macro future proofing RFC][rfc-733-pr].
+* [Revert RFC to require impls to be near structs][rfc-735-pr].
+* [Privacy-respecting FRU][rfc-736-pr].
+* [Support variance for type parameters][rfc-738-pr].
+* [Ammend RFC 517 with material on `std::fs`][rfc-739-pr].
+* [Integer guidelines RFC][rfc-741-pr].
+* [Replace `ref` by `*` in patterns][rfc-742-pr].
 
+[rfc-599-pr]: https://github.com/rust-lang/rfcs/pull/599
+[rfc-601-pr]: https://github.com/rust-lang/rfcs/pull/601
+[rfc-638-pr]: https://github.com/rust-lang/rfcs/pull/638
+[rfc-639-pr]: https://github.com/rust-lang/rfcs/pull/639
+[rfc-640-pr]: https://github.com/rust-lang/rfcs/pull/640
+[rfc-697-pr]: https://github.com/rust-lang/rfcs/pull/697
+[rfc-702-pr]: https://github.com/rust-lang/rfcs/pull/702
+[rfc-706-pr]: https://github.com/rust-lang/rfcs/pull/706
+[rfc-709-pr]: https://github.com/rust-lang/rfcs/pull/709
+[rfc-722-pr]: https://github.com/rust-lang/rfcs/pull/722
+[rfc-724-pr]: https://github.com/rust-lang/rfcs/pull/724
+[rfc-733-pr]: https://github.com/rust-lang/rfcs/pull/733
+[rfc-735-pr]: https://github.com/rust-lang/rfcs/pull/735
+[rfc-736-pr]: https://github.com/rust-lang/rfcs/pull/736
+[rfc-738-pr]: https://github.com/rust-lang/rfcs/pull/738
+[rfc-739-pr]: https://github.com/rust-lang/rfcs/pull/739
+[rfc-741-pr]: https://github.com/rust-lang/rfcs/pull/741
+[rfc-742-pr]: https://github.com/rust-lang/rfcs/pull/742
 
 # Community
 
