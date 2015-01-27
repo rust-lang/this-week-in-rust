@@ -64,7 +64,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 [osstr]: https://github.com/rust-lang/rust/pull/21488
 [osstr-rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0517-io-os-reform.md
 [viewitems]: https://github.com/rust-lang/rust/pull/20179
-[grammer]: https://github.com/rust-lang/rust/pull/19353
+[grammar]: https://github.com/rust-lang/rust/pull/19353
 [recur]: https://github.com/rust-lang/rust/pull/20373
 [lalr]: https://github.com/rust-lang/rust/pull/21452
 
@@ -131,9 +131,9 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * [Replace `be` with `become`][rfc-601-pr].
 * [Specify unwinding][rfc-638-pr].
 * [Implement a `discriminant_value` intrinsic][rfc-639-pr].
-* [Debug improvements][rfc-640].
+* [Debug improvements][rfc-640-pr].
 * [Disallow omitting the ABI in `extern` declarations][rfc-697-pr].
-* [Syntax for `FullRange`][rfc-702].
+* [Syntax for `FullRange`][rfc-702-pr].
 * [Add a new macro for 'unreachable' whos meaning differs in release
   builds][rfc-706-pr].
 * [Truly unsized types][rfc-709-pr].
@@ -273,6 +273,7 @@ What's [Built with Rust]?
 [emojicons]: https://github.com/sindriava/rust-emojicons
 [ocb.rs]: https://github.com/kmcallister/ocb.rs
 [parser-combinators]: https://github.com/Marwes/parser-combinators
+[maud]: https://lambda.xyz/maud/doc/maud/
 
 ## Project Updates
 
