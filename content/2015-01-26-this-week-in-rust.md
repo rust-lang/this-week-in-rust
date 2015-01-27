@@ -56,7 +56,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
   definitions.
 * Brian Leibig [added his LALR grammar][lalr], which parses almost all
   the Rust files that rustc can.
-* The (oft-neglegcted) grammar from the manual was [extracted to its
+* The (oft-neglected) grammar from the manual was [extracted to its
   own file][grammar].
 * The [`unconditional_recursion`][recur] lint detects basic
   infinite recursion scenarios that are probably not intended.
@@ -109,7 +109,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * [565: `fmt::Show` and `fmt::String` guidelines][rfc-565]. Renames
   `Show` to `Debug`, `String` to `Display` and establishes conventions
   for when to use and implement each. [PR][rfc-565-pr].
-* [Ammendment to 517 for string handling][rfc-517]. [rfc-517-pr]. Defines
+* [Amendment to 517 for string handling][rfc-517]. [rfc-517-pr]. Defines
   the `OsString` and `OsStr` platform-specific string types.
 * [587: Make return type of `Fn` traits an associated type][rfc-587]. Allows
   calls to be overloaded based on return type.
@@ -134,16 +134,16 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * [Debug improvements][rfc-640-pr].
 * [Disallow omitting the ABI in `extern` declarations][rfc-697-pr].
 * [Syntax for `FullRange`][rfc-702-pr].
-* [Add a new macro for 'unreachable' whos meaning differs in release
+* [Add a new macro for 'unreachable' whose meaning differs in release
   builds][rfc-706-pr].
 * [Truly unsized types][rfc-709-pr].
 * [Reseeding `std::rand`][rfc-722-pr].
 * [Unsafe enums][rfc-724-pr].
-* [Ammend macro future proofing RFC][rfc-733-pr].
+* [Amend macro future proofing RFC][rfc-733-pr].
 * [Revert RFC to require impls to be near structs][rfc-735-pr].
 * [Privacy-respecting FRU][rfc-736-pr].
 * [Support variance for type parameters][rfc-738-pr].
-* [Ammend RFC 517 with material on `std::fs`][rfc-739-pr].
+* [Amend RFC 517 with material on `std::fs`][rfc-739-pr].
 * [Integer guidelines RFC][rfc-741-pr].
 * [Replace `ref` by `*` in patterns][rfc-742-pr].
 
