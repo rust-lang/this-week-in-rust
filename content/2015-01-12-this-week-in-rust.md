@@ -331,7 +331,7 @@ The #rust IRC channel now peaks at more than 900 users.
 [deal]: https://www.reddit.com/r/programming/comments/2rlef7/how_big_a_deal_is_rust_really/
 [int]: https://www.reddit.com/r/rust/comments/2rg60o/final_decision_on_builtin_integer_types_again/
 [packt]: https://www.reddit.com/r/rust/comments/2rnked/rust_book_by_packt_publishing/
-[lin]: http://discuss.rust-lang.org/t/pre-rfc-linear-type-modifier/1225
+[lin]: http://internals.rust-lang.org/t/pre-rfc-linear-type-modifier/1225
 [vidja]: https://www.reddit.com/r/rust/comments/2s4kp9/using_rust_10_for_video_game_development/
 
 ## New Projects
@@ -375,7 +375,7 @@ The #rust IRC channel now peaks at more than 900 users.
 
 [twis]: http://blog.servo.org/2015/01/06/twis-18/
 [grisu]: https://lifthrasiir.github.io/rustlog/worklog-2015-01-10.html
-[expl]: http://discuss.rust-lang.org/t/announcing-support-for-rust-1-0-in-rust-explorer/1287
+[expl]: http://internals.rust-lang.org/t/announcing-support-for-rust-1-0-in-rust-explorer/1287
 
 ## Upcoming Events
 

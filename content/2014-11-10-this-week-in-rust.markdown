@@ -171,9 +171,9 @@ Anderson](https://github.com/brson/) and [Alexis Beingessner](https://github.com
     * [Discuss](https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-11-04.md)
     * [Reddit](http://www.reddit.com/r/rust/comments/2lrt7b/weeklymeetings20141104_macros_multiple_lifetime/)
 * [Weekly-meetings/2014-10-30 (error conventions; cargo; namespaced enums; trait-based error handling; macro unification; coercions; dynamic linking, byte literals, failing dtors)](https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-10-30.md)
-    * [Discuss](http://discuss.rust-lang.org/t/weekly-meetings-2014-10-30-error-conventions-cargo-namespaced-enums-trait-based-error-handling-macro-unification-coercions-dynamic-linking-byte-literals-failing-dtors/734)
+    * [Discuss](http://internals.rust-lang.org/t/weekly-meetings-2014-10-30-error-conventions-cargo-namespaced-enums-trait-based-error-handling-macro-unification-coercions-dynamic-linking-byte-literals-failing-dtors/734)
     * [Reddit](http://www.reddit.com/r/rust/comments/2kuppu/weeklymeetings20141030_error_conventions_cargo/)
-* [IRC notifications now going to #rust-bots](http://discuss.rust-lang.org/t/irc-notifications-now-going-to-rust-bots/735): If you have a bot you'd like to post here (which would be awesome!) please add a description and contact to [the wiki page](https://github.com/rust-lang/rust/wiki/IRC-notifications-channel).
+* [IRC notifications now going to #rust-bots](http://internals.rust-lang.org/t/irc-notifications-now-going-to-rust-bots/735): If you have a bot you'd like to post here (which would be awesome!) please add a description and contact to [the wiki page](https://github.com/rust-lang/rust/wiki/IRC-notifications-channel).
 * [Stability as a Deliverable](http://blog.rust-lang.org/2014/10/30/Stability.html)
 
 ## Videos
@@ -199,7 +199,7 @@ Anderson](https://github.com/brson/) and [Alexis Beingessner](https://github.com
 ## Discuss
 
 * [Pre-RFC: placement box with Placer
-  trait](http://discuss.rust-lang.org/t/pre-rfc-placement-box-with-placer-trait/729/6):
+  trait](http://internals.rust-lang.org/t/pre-rfc-placement-box-with-placer-trait/729/6):
   Add user-defined placement box expression (more succinctly, "a box
   expression"), an operator analogous to "placement new" in C++. This
   provides a way for a user to specify (1.) how the backing storage
@@ -208,10 +208,10 @@ Anderson](https://github.com/brson/) and [Alexis Beingessner](https://github.com
   datum should preferably be stored directly into the backing storage
   (rather than temporary storage on the stack and then copying the
   datum from the stack into the backing storage).
-* [Forbid -(unsigned integer)](http://discuss.rust-lang.org/t/forbid-unsigned-integer/752): the eternal struggle continues. It's super handy when you want it, but also a common error to make.
-* [Moving all built-in macros to plugins](http://discuss.rust-lang.org/t/moving-all-built-in-macros-to-plugins/737): Another proposal to handle some of the issues with macros for 1.0. May make it easier to bootstrap changes to the compiler.
-* [Lifetime Notation](http://discuss.rust-lang.org/t/lifetime-notation/751): `&'a` -> `a&`. Some discussion of tradeoffs and details.
-* [Poll: `Foo::new()` vs `Foo()` as the default constructor](http://discuss.rust-lang.org/t/poll-foo-new-vs-foo-as-the-default-constructor/758/29)
+* [Forbid -(unsigned integer)](http://internals.rust-lang.org/t/forbid-unsigned-integer/752): the eternal struggle continues. It's super handy when you want it, but also a common error to make.
+* [Moving all built-in macros to plugins](http://internals.rust-lang.org/t/moving-all-built-in-macros-to-plugins/737): Another proposal to handle some of the issues with macros for 1.0. May make it easier to bootstrap changes to the compiler.
+* [Lifetime Notation](http://internals.rust-lang.org/t/lifetime-notation/751): `&'a` -> `a&`. Some discussion of tradeoffs and details.
+* [Poll: `Foo::new()` vs `Foo()` as the default constructor](http://internals.rust-lang.org/t/poll-foo-new-vs-foo-as-the-default-constructor/758/29)
 
 
 

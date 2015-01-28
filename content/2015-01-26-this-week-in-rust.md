@@ -18,7 +18,7 @@ This week the [mailing list was closed][ml], `std::io` was [renamed
 lot of churn.
 
 [ml]: https://mail.mozilla.org/pipermail/rust-dev/2015-January/011558.html
-[oldio]: http://discuss.rust-lang.org/t/psa-io-old-io/1403
+[oldio]: http://internals.rust-lang.org/t/psa-io-old-io/1403
 
 # What's cooking on master?
 
@@ -187,10 +187,10 @@ What's [Built with Rust]?
 
 [mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2015-01-20.md
 [mtg-r-rust]: https://www.reddit.com/r/rust/comments/2t405p/weekly_meeting_20150120_goodbye_view_items_deref/
-[edit]: http://discuss.rust-lang.org/t/moving-editor-highlighting-into-their-own-repos/1395
-[oldio]: http://discuss.rust-lang.org/t/psa-io-old-io/1403
-[iss]: http://discuss.rust-lang.org/t/issue-categorization-changes/1417
-[iorfcs]: http://discuss.rust-lang.org/t/call-for-more-comments-io-rfcs/1449
+[edit]: http://internals.rust-lang.org/t/moving-editor-highlighting-into-their-own-repos/1395
+[oldio]: http://internals.rust-lang.org/t/psa-io-old-io/1403
+[iss]: http://internals.rust-lang.org/t/issue-categorization-changes/1417
+[iorfcs]: http://internals.rust-lang.org/t/call-for-more-comments-io-rfcs/1449
 
 ## Blog Posts
 
@@ -226,10 +226,10 @@ What's [Built with Rust]?
 * [How Rust applications and libraries fit into Debian][deb]. Making
   crates easy to repackage by Linux distributions is not yet solved.
 
-[ranges]: http://discuss.rust-lang.org/t/crazy-replace-most-of-the-collections-api-with-ranges-and-iterators/1375
+[ranges]: http://internals.rust-lang.org/t/crazy-replace-most-of-the-collections-api-with-ranges-and-iterators/1375
 [jai]: https://www.reddit.com/r/rust/comments/2t6xqz/jai_demo_dataoriented_features_soa_crazy_using/
 [ml]: https://www.reddit.com/r/rust/comments/2tdqgc/rustdev_say_goodbye_to_the_mailing_list/
-[try]: http://discuss.rust-lang.org/t/a-macro-that-is-to-result-or-else-what-try-is-to-result-and-then/1416
+[try]: http://internals.rust-lang.org/t/a-macro-that-is-to-result-or-else-what-try-is-to-result-and-then/1416
 [deb]: https://www.reddit.com/r/rust/comments/2tnql2/how_rust_applications_and_libraries_fit_into/
 
 ## Videos

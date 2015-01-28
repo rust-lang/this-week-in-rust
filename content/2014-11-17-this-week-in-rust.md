@@ -180,15 +180,15 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 
 [cl]: https://www.reddit.com/r/rust/comments/2lo6yt/closures_vs_unboxed_closures/
 [sh]: https://www.reddit.com/r/rust/comments/2lp3il/where_is_arithmetic_signed_rightshift/
-[ctor-discuss]: http://discuss.rust-lang.org/t/poll-foo-new-vs-foo-as-the-default-constructor/758
+[ctor-discuss]: http://internals.rust-lang.org/t/poll-foo-new-vs-foo-as-the-default-constructor/758
 [ctor-reddit]: https://www.reddit.com/r/rust/comments/2lvrf5/foonew_vs_foo_as_the_default_constructor/
 [psp]: https://www.reddit.com/r/rust/comments/2m10id/hello_world_on_a_psp_via_rust/
 [target specs]: https://github.com/rust-lang/rfcs/blob/master/text/0131-target-specification.md
 [await]: https://www.reddit.com/r/rust/comments/2m5rin/does_rust_have_something_like_c_async_wait/
 [future]: https://www.reddit.com/r/rust/comments/2m64o5/stdsyncfuture_is_almost_useless_for_async/
-[gpu]: http://discuss.rust-lang.org/t/single-source-gpu-support/898
+[gpu]: http://internals.rust-lang.org/t/single-source-gpu-support/898
 [mm]: https://www.reddit.com/r/rust/comments/2m9qw9/experienced_users_how_easy_is_rusts_memory/
-[from]: http://discuss.rust-lang.org/t/pre-rfc-remove-fromerror-trait-add-from-trait/783
+[from]: http://internals.rust-lang.org/t/pre-rfc-remove-fromerror-trait-add-from-trait/783
 
 ## New Projects
 

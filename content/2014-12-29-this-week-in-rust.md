@@ -114,7 +114,7 @@ None.
 
 It's Christmas time and holidays, so no meetings at all this week.
 
-- [A Tale of Two's Complement](http://discuss.rust-lang.org/t/a-tale-of-twos-complement/1062/1).
+- [A Tale of Two's Complement](http://internals.rust-lang.org/t/a-tale-of-twos-complement/1062/1).
   [Reddit](http://www.reddit.com/r/rust/comments/2q40k2/a_tale_of_twos_complement/).
 
 
