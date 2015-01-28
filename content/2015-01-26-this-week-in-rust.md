@@ -38,7 +38,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * The `Show` and `String` formatting traits [have been renamed][fmt]
   to `Debug` and `Display` to more clearly reflect their related
   purposes. Automatically getting a string conversion to use with
-  `format!{":?}")` is now written `#[derive(Debug)]`.
+  `format!("{:?}", something_to_debug)` is now written `#[derive(Debug)]`.
 * Both the `#[start]` and `#[main]` attributes are [feature
   gated][gatemain] as a precaution. Use `#![feature(start)]` and
   `#![feature(main)]` to get them back.
