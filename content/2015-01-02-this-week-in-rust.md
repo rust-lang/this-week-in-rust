@@ -164,12 +164,12 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 - [PSA: Rust installers now come with Cargo and docs](https://www.reddit.com/r/rust/comments/2r92yw/psa_rust_installers_now_come_with_cargo_and_docs/)
 - [Is Intel MPX relevant for Rust?](http://www.reddit.com/r/rust/comments/2qlbx1/is_intel_mpx_relevant_for_rust/)
-- [Restarting the `int/uint` discussion](http://discuss.rust-lang.org/t/restarting-the-int-uint-discussion/1131)
+- [Restarting the `int/uint` discussion](http://internals.rust-lang.org/t/restarting-the-int-uint-discussion/1131)
 - [Making safety more explicit](http://www.reddit.com/r/rust/comments/2qr5yf/making_safety_more_explicit/)
 - [Erlang vs Rust for High concurrency servers](http://www.reddit.com/r/rust/comments/2qzyfb/erlang_vs_rust_for_high_concurrency_servers/)
 - [crates.io dependency graph](https://www.reddit.com/r/rust/comments/2rawmg/cratesio_crate_graph/)
-- [Architectural portability as a first-class artifact of the build system](http://discuss.rust-lang.org/t/architectural-portability-as-a-first-class-artifact-of-the-build-and-dependency-systems/1187)
-- [Implicit widening, polymorphic indexing, and similar ideas](http://discuss.rust-lang.org/t/implicit-widening-polymorphic-indexing-and-similar-ideas/1141)
+- [Architectural portability as a first-class artifact of the build system](http://internals.rust-lang.org/t/architectural-portability-as-a-first-class-artifact-of-the-build-and-dependency-systems/1187)
+- [Implicit widening, polymorphic indexing, and similar ideas](http://internals.rust-lang.org/t/implicit-widening-polymorphic-indexing-and-similar-ideas/1141)
 
 ## New Projects
 

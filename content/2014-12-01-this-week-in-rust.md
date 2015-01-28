@@ -182,7 +182,7 @@ Reader and Writer performantly, and determining if you've actually done that.
 * [Are there plans for a Rust runtime?][plans]
 
 [error-classes]: http://www.reddit.com/r/rust/comments/2nlis8/which_classes_of_errors_remain_with_rust/
-[sad-state]: http://discuss.rust-lang.org/t/the-sad-state-of-zero-on-drop/944
+[sad-state]: http://internals.rust-lang.org/t/the-sad-state-of-zero-on-drop/944
 [sad-state-reddit]: http://www.reddit.com/r/rust/comments/2nef5d/the_sad_state_of_zeroondrop/
 [rust-books]: http://www.reddit.com/r/rust/comments/2ne8jz/are_there_any_rust_books_in_the_pipeline/
 [crate-names]: https://github.com/rust-lang/cargo/issues/975

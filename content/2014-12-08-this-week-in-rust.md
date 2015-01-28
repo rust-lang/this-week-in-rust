@@ -191,11 +191,11 @@ But that's not all that's going on!
 [ex]: https://www.reddit.com/r/rust/comments/2of8ox/apologies_in_advance_arent_exceptions_mostly/
 [cxx]: https://www.reddit.com/r/rust/comments/2oes6s/cs_rvalue_references_correspond_to_rusts_mut/
 [ada]: https://www.reddit.com/r/rust/comments/2og8xf/why_rust_started_rather_than_ada/
-[copy]: http://discuss.rust-lang.org/t/psa-copy-is-becoming-opt-in/982
+[copy]: http://internals.rust-lang.org/t/psa-copy-is-becoming-opt-in/982
 [copy-reddit]: https://www.reddit.com/r/rust/comments/2ogqaj/psa_copy_is_becoming_optin/
-[gc]: http://discuss.rust-lang.org/t/could-the-gc-case-be-made-noise-free-by-default/924
-[rest]: http://discuss.rust-lang.org/t/rustdoc-restructuredtext-vs-markdown/356
-[repr]: http://discuss.rust-lang.org/t/repr-formatter-with-showrepr-trait/926/5
+[gc]: http://internals.rust-lang.org/t/could-the-gc-case-be-made-noise-free-by-default/924
+[rest]: http://internals.rust-lang.org/t/rustdoc-restructuredtext-vs-markdown/356
+[repr]: http://internals.rust-lang.org/t/repr-formatter-with-showrepr-trait/926/5
 
 ## New Projects
 

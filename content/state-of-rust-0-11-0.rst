@@ -86,7 +86,7 @@ preparation for the big 1.0.
 .. _official nightlies: http://www.rust-lang.org/install.html
 .. _script that installs them: http://www.rust-lang.org/rustup.sh
 .. _meeting minutes: https://github.com/rust-lang/meeting-minutes
-.. _Discourse forum: http://discuss.rust-lang.org/
+.. _Discourse forum: http://internals.rust-lang.org/
 .. _RFC process: https://github.com/rust-lang/rfcs/
 .. _documentation index page: http://doc.rust-lang.org/#libraries
 .. _regex crate: http://doc.rust-lang.org/regex/

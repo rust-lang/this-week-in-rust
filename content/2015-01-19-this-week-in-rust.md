@@ -237,7 +237,7 @@ The [periodic table of Rust types][period] has been updated, and
 [vs]: https://www.reddit.com/r/rust/comments/2s5d65/rust_support_in_visual_studio/
 [fast]: https://www.reddit.com/r/rust/comments/2sa2qx/does_rust_let_you_develop_faster_than_c/
 [berlin]: https://www.reddit.com/r/rust/comments/2sbkuo/rustberlin_community_efforts/
-[small]: http://discuss.rust-lang.org/t/small-string-optimization-remove-as-mut-vec/1320
+[small]: http://internals.rust-lang.org/t/small-string-optimization-remove-as-mut-vec/1320
 [small-r-rust]: https://www.reddit.com/r/rust/comments/2slcs8/small_string_optimization_remove_as_mut_vec/
 [over]: https://www.reddit.com/r/rust/comments/2srz0g/by_value_operator_overloading_problems/
 
