@@ -196,7 +196,7 @@ What's [Built with Rust]?
 
 * [Functional reactive event handling][frp]. Explorations into
   functional reactive programming in Rust.
-* [Mozilla's Servo Still On Track ofr 2015 Alpha
+* [Mozilla's Servo Still On Track For 2015 Alpha
   Release][servo]. Phoronix picks up Jack's linux.conf.au
   talk. [/r/rust][servo-r-rust].
 * [Writing Cross-Platform Games Using Rust and Piston][games]. It can
