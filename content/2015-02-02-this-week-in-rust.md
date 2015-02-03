@@ -192,7 +192,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * [FFI-Platypus-Lang-Rust][perl]. Call Rust from Perl.
 * [glassful]. kmc strikes again with a syntax extension that translates
   from Rust syntax to OpenGL Shader Language. [/r/rust][glassful-r-rust].
-* [secretshare]. Samir's secret sharing.
+* [secretshare]. Shamir's secret sharing.
 * [chip8-rust]. A emulator for the Chip-8 VM used to implement some
   old video games. Uses Piston for graphics.
 * [snowflake]. Library for generating process-unique IDs.
