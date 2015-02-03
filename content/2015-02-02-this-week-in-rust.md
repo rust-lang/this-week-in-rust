@@ -27,7 +27,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 ## Breaking Changes
 
 * `for` loops [now operate on the `IntoIterator` trait][into], which
-  eleminates the need to call `.iter()`, etc. to iterate over
+  eliminates the need to call `.iter()`, etc. to iterate over
   collections. There are some new subtleties to remember though
   regarding what sort of iterators various types yield, in particular
   that `for foo in bar { }` yields values from a move iterator,
