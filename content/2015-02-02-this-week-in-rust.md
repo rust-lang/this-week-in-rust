@@ -143,7 +143,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * [On Rust and Nim][nim]. Similar but
   different. [/r/rust][nim-r-rust]. [/r/programming][nim-r-programming].
 * [updated crates.io dependency graph][deps]. The registry is growing
-  fast. Thanks /u/corvette.
+  fast. Thanks /u/corevette.
 
 [heartbleed]: http://www.tedunangst.com/flak/post/heartbleed-in-rust
 [heartbleed-hn]: https://news.ycombinator.com/item?id=8983771
