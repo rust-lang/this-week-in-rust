@@ -74,15 +74,66 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 ## New Contributors
 
-
+* Caspar Krieger
+* Dan Yang
+* Filip Szczepański
+* Garrett Heel
+* Junseok Lee
+* Kostas Karachalios
+* Leo Testard
+* madmalik
+* Mikhail Zabaluev
+* Nick Sarten
+* Potpourri
+* Ulrik Sverdrup
 
 # Approved RFC's
 
+* [RFC 213: Finalize defaulted type parameters][rfc-213].
+* [RFC 320: Non-zeroing dynamic drop][rfc-320].
+* [RFC 469: Feature-gate box patterns][rfc-469].
+* [RFC 531: Ammend RFC process with a defined scope][rfc-531].
+* [RFC 533: No array element moves][rfc-533]. Disallows moving in and
+  out of arrays to fix non-zeroing dynamic drop.
+* [RFC 556: Convention for constructing lifetime-bound values from raw
+  pointers][rfc-556].
+* [RFC 560: Integer overflow][rfc-560]. Makes integers defined to not
+  overflow by default, with considerations for the impracticalities of
+  actually checking for overflow.
+* [RFC 720: Syntax for `RangeFull`][rfc-720]. Makes `..` mean
+  `RangeFull`.
+* The I/O RFC was updated for [changes to `Reader` and `Writer`][io1]
+  and [`std::fs`][fs].
+* [All RFCs now must define a 'feature_name' for tracking
+  purposes][feat].
 
+[rfc-213]: https://github.com/rust-lang/rfcs/blob/master/text/0213-defaulted-type-params.md
+[rfc-320]: https://github.com/rust-lang/rfcs/blob/master/text/0320-nonzeroing-dynamic-drop.md
+[rfc-469]: https://github.com/rust-lang/rfcs/blob/master/text/0469-feature-gate-box-patterns.md
+[rfc-531]: https://github.com/rust-lang/rfcs/blob/master/text/0531-define-rfc-scope.md
+[rfc-533]: https://github.com/rust-lang/rfcs/blob/master/text/0533-no-array-elem-moves.md
+[rfc-556]: https://github.com/rust-lang/rfcs/blob/master/text/0556-raw-lifetime.md
+[rfc-560]: https://github.com/rust-lang/rfcs/blob/master/text/0560-integer-overflow.md
+[io]: https://github.com/rust-lang/rfcs/pull/576
+[rfc-720]: https://github.com/rust-lang/rfcs/pull/702
+[fs]: https://github.com/rust-lang/rfcs/pull/739
+[feat]: https://github.com/rust-lang/rfcs/pull/815
 
 # New RFC's
 
+* [Type ascription][asc]. Hint to the compiler the type of arbitrary
+  expressions.
+* [Ammend RFC 517 to add material on `std::net`][net].
+* [Overloaded `box` and placement `in`][in]. A new strategy for boxing
+  things.
+* [Deprecate `std::fmt::format` in favor of `String::format`][fmt].
+* [Tweaks to the object safety rules][obj].
 
+[asc]: https://github.com/rust-lang/rfcs/pull/803
+[net]: https://github.com/rust-lang/rfcs/pull/807
+[in]: https://github.com/rust-lang/rfcs/pull/809
+[fmt]: https://github.com/rust-lang/rfcs/pull/810
+[obj]: https://github.com/rust-lang/rfcs/pull/817
 
 # Community
 
@@ -117,8 +168,12 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 * [How's Rust working out as the backend for crates.io?][crates]. Very
   well, thank you. Rust is solid as a rock.
+* [C++ has `vector(n, value)`, c has `calloc`, rust
+  has...][calloc]. Initializing a vector requires iterator chaining
+  today, `Vec::from_elem` no longer exists.
 
 [crates]: https://www.reddit.com/r/rust/comments/2v1fe3/hows_rust_working_out_as_the_backend_for_cratesio/
+[calloc]: http://users.rust-lang.org/t/c-has-vector-n-value-c-has-calloc-rust-has-uh/146
 
 ## New Projects
 
@@ -126,12 +181,17 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * [byteorder]. Big- and little-endian interop from BurntSushi.
 * [rustless]. A high-quality 'REST-like' microframework built on
   [Iron] and [Hyper].
+* [colonize!][colonize]. A roguelike using the [tcod] toolkit and
+  [Piston]. Indiv0 promises to document the development process.
 
 [dimensioned]: https://www.reddit.com/r/rust/comments/2uuwsx/introducing_dimensioned_a_library_for_compiletime/
 [byteorder]: https://github.com/BurntSushi/byteorder
 [rustless]: https://github.com/rustless/rustless
 [Iron]: http://ironframework.io/
 [Hyper]: https://github.com/hyperium/hyper
+[colonize]: https://www.reddit.com/r/rust_gamedev/comments/2ue5re/announcing_colonize/
+[tcod]: https://github.com/tomassedovic/tcod-rs
+[Piston]: https://github.com/PistonDevelopers/piston
 
 ## Project Updates
 
@@ -141,10 +201,19 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
   on that project.
 * [Racer project update 4][racer]. Rust's best code-completion tool
   supports generics and destructuring.
+* Conrod, the GUI for [Piston], is [now backend-agnostic][conrod].
+* Tomaka is [looking for somebody to port CPAL, the cross-platform
+  audio library to OS X][cpal].
+* [New playform screenshoht][playform]. The minecraft-like has
+  recently gotten a number of new fietaures.
 
 [twis]: https://www.reddit.com/r/rust/comments/2ut3qo/this_week_in_servo_22/
 [ServoNightly]: https://twitter.com/ServoNightly
 [racer]: http://phildawes.net/blog/2015/02/02/racer4/
+[conrod]: https://www.reddit.com/r/rust_gamedev/comments/2u6op6/conrod_the_immediate_mode_ui_for_piston_is_now/
+[cpal]: https://www.reddit.com/r/rust_gamedev/comments/2t7xtf/help_cpal_crossplatform_audio_library_get_osx/
+[Piston]: https://github.com/PistonDevelopers/piston
+[playform]: https://www.reddit.com/r/rust_gamedev/comments/2uxijy/new_playform_screenshot/
 
 ## Upcoming Events
 
