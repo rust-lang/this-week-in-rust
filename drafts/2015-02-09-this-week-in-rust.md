@@ -86,35 +86,79 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 # Community
 
-
 ## Announcements
 
-* [Weekly-meetings/2014-18-11][mtg]: what? [Reddit][mtg-reddit].
+* [Weekly-meetings/2015-02-03][mtg]: RFC shepherd attention spans; raw
+  pointers and lifetimes; non-zeroing drop
+* [Unofficial Rust and Cargo nightlies for ARM][arm]. japaric to the
+  rescue again.
+* [DroidLogician wants to help people with Rust on
+  Windows][droid].
 
-[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-18-11.md
-[mtg-reddit]:
-
+[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2015-02-03.md
+[droid]: https://www.reddit.com/r/rust/comments/2ut9r7/need_something_tested_on_windows_or_cant_figure/
+[arm]: https://www.reddit.com/r/rust/comments/2v3xin/unofficial_rust_and_cargo_nightlies_for_arm_again/
 
 ## Blog Posts
 
+* [Go and Rust: The road ahead for two young programming languages][gorust]
+* [The Story of Rust][story]. Steve Klabnik's slides from
+  FOSDEM. [/r/rust][story-r-rust].
+* [Raft experiences (part 1)][raft-rs]. Hoverbear is working on an
+  implementation of the [Raft consensus algorithm][raft].
 
+[gorust]: http://www.infoworld.com/article/2877924/application-development/go-rust-road-ahead-young-programming-languages.html
+[story]: http://www.steveklabnik.com/fosdem2015/
+[story-r-rust]: https://www.reddit.com/r/rust/comments/2uppko/the_story_of_rust/
+[raft-rs]: http://www.hoverbear.org/2015/02/05/raft-update-1/
+[raft]: https://duckduckgo.com/l/?kh=-1&uddg=https%3A%2F%2Fraftconsensus.github.io%2F
 
 ## Discussions
 
+* [How's Rust working out as the backend for crates.io?][crates]. Very
+  well, thank you. Rust is solid as a rock.
 
-
-## Videos
-
-
+[crates]: https://www.reddit.com/r/rust/comments/2v1fe3/hows_rust_working_out_as_the_backend_for_cratesio/
 
 ## New Projects
 
+* [dimensioned]. Compile-time checking of arbitrary units.
+* [byteorder]. Big- and little-endian interop from BurntSushi.
+* [rustless]. A high-quality 'REST-like' microframework built on
+  [Iron] and [Hyper].
 
+[dimensioned]: https://www.reddit.com/r/rust/comments/2uuwsx/introducing_dimensioned_a_library_for_compiletime/
+[byteorder]: https://github.com/BurntSushi/byteorder
+[rustless]: https://github.com/rustless/rustless
+[Iron]: http://ironframework.io/
+[Hyper]: https://github.com/hyperium/hyper
 
 ## Project Updates
 
+* [This Week in Servo 22][twis]. For its third birthday Servo added
+  cookie support.
+* If you are the tweeting type, follow [ServoNightly] for the latest
+  on that project.
+* [Racer project update 4][racer]. Rust's best code-completion tool
+  supports generics and destructuring.
 
+[twis]: https://www.reddit.com/r/rust/comments/2ut3qo/this_week_in_servo_22/
+[ServoNightly]: https://twitter.com/ServoNightly
+[racer]: http://phildawes.net/blog/2015/02/02/racer4/
 
 ## Upcoming Events
 
+* [Feb. 9. Sydney Meetup][syd]. Huon Wilson and Steve Klabnik will be
+  attending.
+* [Feb 9. Seattle Meetup][seattle].
+* [Feb 10. Rust NY][ny]. Lightning talks.
+* [Feb 10. San Diego Rust][sd].
+* [Feb 16. Rust Paris][paris].
+* [Feb 19. Rust Bay Area][sf]. Topic is I/O.
 
+[syd]: http://www.meetup.com/Rust-Sydney/events/220100853/
+[seattle]: https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg
+[ny]: http://www.meetup.com/RustNY/events/220177697/
+[sd]: www.meetup.com/San-Diego-Rust/events/220153428/
+[paris]: http://www.meetup.com/Rust-Paris
+[sf]: http://www.meetup.com/Rust-Bay-Area/events/219697152/
