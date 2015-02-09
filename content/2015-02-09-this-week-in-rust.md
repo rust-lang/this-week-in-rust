@@ -102,7 +102,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
   actually checking for overflow.
 * [RFC 720: Syntax for `RangeFull`][rfc-720]. Makes `..` mean
   `RangeFull`.
-* The I/O RFC was updated for [changes to `Reader` and `Writer`][io1]
+* The I/O RFC was updated for [changes to `Reader` and `Writer`][io]
   and [`std::fs`][fs].
 * [All RFCs now must define a 'feature_name' for tracking
   purposes][feat].
