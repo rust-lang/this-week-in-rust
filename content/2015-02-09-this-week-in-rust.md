@@ -43,7 +43,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * The `#![no_std]` attribute that allows for operation without the
   standard library has [been placed behind the `no_std` feature
   gate][no_std].
-* The scope if iterator expressions has been [narrowed][scope] in a
+* The scope of iterator expressions has been [narrowed][scope] in a
   way that breaks minor corner-cases.
 * The deprecated `MaybeOwnedVector` type [has been removed][maybe].
 
