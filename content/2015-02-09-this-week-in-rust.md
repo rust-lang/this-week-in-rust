@@ -27,7 +27,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 ## Breaking Changes
 
 * `std::path` [has been rewritten][path] to improve ergonomics and
-  better support platform-spcific features. The old path module still
+  better support platform-specific features. The old path module still
   exists as `std::old_path` and remains exported by the prelude (for
   now). [RFC][path-rfc].
 * [`std::env`][env] has been added to the standard library as an
