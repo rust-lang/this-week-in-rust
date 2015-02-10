@@ -205,7 +205,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * Tomaka is [looking for somebody to port CPAL, the cross-platform
   audio library to OS X][cpal].
 * [New playform screenshoht][playform]. The minecraft-like has
-  recently gotten a number of new fietaures.
+  recently gotten a number of new features.
 
 [twis]: https://www.reddit.com/r/rust/comments/2ut3qo/this_week_in_servo_22/
 [ServoNightly]: https://twitter.com/ServoNightly
