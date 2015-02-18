@@ -67,6 +67,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 [epic]: https://github.com/rust-lang/rust/pull/21744
 [no_mangle]: https://github.com/rust-lang/rust/pull/21881
 [fs]: https://github.com/rust-lang/rust/pull/21936
+[proc]: https://github.com/rust-lang/rust/pull/22119
 [`Path`]: http://doc.rust-lang.org/nightly/std/path/
 [RFC 579]: https://github.com/rust-lang/rfcs/pull/579
 [RFC 739]: https://github.com/rust-lang/rfcs/pull/739
