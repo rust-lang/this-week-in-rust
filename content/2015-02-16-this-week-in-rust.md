@@ -143,7 +143,7 @@ This week's friend of the tree was ... Jonathan Reem (reem)
 [nim-r-rust]: https://www.reddit.com/r/rust/comments/2vqy81/author_of_unix_in_rust_abandons_rust_in_favor_of/
 [nim-r-programming]: https://www.reddit.com/r/programming/comments/2vvcbm/author_of_unix_in_rust_abandons_rust_in_favour_of/
 [nim-hn]: http://news.ycombinator.com/item?id=9049698
-[deref]: https://github.com/rust-lang/rust/blob/ad2efdc67d871b18cc984eeb0b8d1d9b38daffb7/src/librustc/middle/
+[deref]: http://stackoverflow.com/questions/28519997/what-are-rusts-exact-auto-dereferencing-rules
 [reward]: http://mikedrivendevelopment.blogspot.com/2015/02/the-incredible-rewards-of-creating.html
 [osg]: http://mikedrivendevelopment.blogspot.com/2015/02/the-incredible-rewards-of-creating.html
 [codius]: https://codius.org/blog/codius-rust/
