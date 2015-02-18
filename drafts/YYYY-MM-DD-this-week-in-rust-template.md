@@ -15,7 +15,7 @@ If you find any errors or omissions in this week's issue, [please submit a PR](h
 
 # What's cooking on master?
 
-XXX pull requests were [merged in the last week][merged], and XXX [RFCs][rfcs].
+XXX pull requests were [merged in the last week][merged], and XXX [RFC PRs][rfcs].
 
 [merged]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-12..2015-01-18
 [rfcs]: https://github.com/rust-lang/rfcs/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-12..2015-01-18
@@ -36,18 +36,23 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 
 
-# Approved RFC's
+## Approved RFCs
 
 
 
-# New RFC's
+## New RFCs
 
 
+# Friend of the Tree
 
-# Community
+The Rust Team likes to occassionally recognize people who have made outstanding contributions to The Rust Project, its ecosystem, and its community. These people are 'friends of the tree'.
+
+This week's friend of the tree was ...
+
+# Quote of the Week
 
 
-## Announcements
+# Notable Links
 
 * [Weekly-meetings/2014-18-11][mtg]: what? [Reddit][mtg-reddit].
 
@@ -55,26 +60,10 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 [mtg-reddit]:
 
 
-## Blog Posts
+# Project Updates
 
 
 
-## Discussions
-
-
-
-## Videos
-
-
-
-## New Projects
-
-
-
-## Project Updates
-
-
-
-## Upcoming Events
+# Upcoming Events
 
 
