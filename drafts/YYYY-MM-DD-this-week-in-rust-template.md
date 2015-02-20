@@ -45,7 +45,9 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 # Friend of the Tree
 
-The Rust Team likes to occassionally recognize people who have made outstanding contributions to The Rust Project, its ecosystem, and its community. These people are 'friends of the tree'.
+The Rust Team likes to occassionally recognize people who have made
+outstanding contributions to The Rust Project, its ecosystem, and its
+community. These people are 'friends of the tree'.
 
 This week's friend of the tree was ...
 
