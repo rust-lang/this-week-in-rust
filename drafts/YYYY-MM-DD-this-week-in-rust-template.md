@@ -1,4 +1,4 @@
-Title: This Week in Rust XX
+Title: This Week in Rust. #XX
 Date: YYYY-MM-DD
 Category: This Week in Rust
 
