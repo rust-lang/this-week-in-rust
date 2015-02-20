@@ -66,4 +66,11 @@ This week's friend of the tree was ...
 
 # Upcoming Events
 
+* [What?]
 
+If you are running a Rust event please add it to the [calendar] to get
+it mentioned here. Email [Erick Tryzelaar] or [Brian Anderson] for access.
+
+[calendar]: https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com
+[erickt]: Erick Tryzelaar <erick.tryzelaar@gmail.com>
+[brson] Brian Anderson <banderson@mozilla.com>
