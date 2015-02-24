@@ -49,6 +49,8 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
   `target-pointer-width`][tpw], to match the recently changed
   `target_pointer_width` cfg attribute.
 * [`fmt::Writer` was renamed to `fmt::Write`][write].
+* `us`/`is`/`u`/`i` suffixes are now [replaced with
+  `usize`/`isize`][ussuffix].
 * A [number][audit1] of [modules][audit2] have been [audited][audit3]
   for incorrect use of `isize` and `usize`.
 * Use of arbitrary attributes not defined by the language [is feature
@@ -61,6 +63,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 [exact]: https://github.com/rust-lang/rust/pull/22299
 [write]: https://github.com/rust-lang/rust/pull/22311
 [into]: https://github.com/rust-lang/rust/pull/22313
+[ussuffix]: https://github.com/rust-lang/rust/pull/22497
 [audit1]: https://github.com/rust-lang/rust/pull/22339
 [audit2]: https://github.com/rust-lang/rust/pull/22401
 [audit3]: https://github.com/rust-lang/rust/pull/22485
