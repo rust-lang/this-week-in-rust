@@ -226,7 +226,7 @@ Friend of the Tree."
 * [Radical statements about the mobile web][radical]. Servo is going to fix it al.
 * [Embedded Rust Right Now!][now].
 * [On Rust and Nim][nim]. [HN][nim-hn].
-* [Rust Debuging in Emacs][emacs].
+* [Rust Debugging in Emacs][emacs].
 * [Thoughts of a Rustacean learning Go][go]. [/r/rust][go-r-rust].
 * [Some notes on Send and Sync][sendand].
 * [Turing tarpits in Rust's macro system][tarp].
