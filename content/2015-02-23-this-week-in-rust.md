@@ -158,7 +158,7 @@ This covers two weeks since last week I wasn't able review RFCs in time.
 * [Have collections impl Extend<&T> where T: Clone][extend].
 * [Changing struct literals][struct].
 * [Item grouping][group].
-* [Put `dev_rem` back in the standard library][rem].
+* [Put `div_rem` back in the standard library][rem].
 * [New struct syntax][new].
 * [Use globs as][as].
 * [Remove lifetime elision in type parameter position][el].
