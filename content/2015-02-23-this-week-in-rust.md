@@ -23,7 +23,7 @@ nightlies. Six more weeks until the beta, which should become
 
 # What's cooking on master?
 
-127 pull requests were [merged in the last week][merged], and XXX [RFC PRs][rfcs].
+157 pull requests were [merged in the last week][merged], and 15 [RFC PRs][rfcs].
 
 [merged]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-02-16..2015-02-23
 [rfcs]: https://github.com/rust-lang/rfcs/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-02-16..2015-02-23
@@ -88,14 +88,107 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 ## New Contributors
 
-
+* Adam Jacob
+* Alexander Bliskovsky
+* Brian Brooks
+* caipre
+* Darrell Hamilton
+* Dave Huseby
+* Denis Defreyne
+* Elantsev Serj
+* Henrik Schopmans
+* Ingo Blechschmidt
+* Jormundir
+* Lai Jiangshan
+* posixphreak
+* Ryan Riginding
+* Wesley Wiser
+* Will
+* wonyong kim
 
 ## Approved RFCs
 
+This covers two weeks since last week I wasn't able review RFCs in time.
 
+* [RFC 458: Improve the Send trait][rfc-458].
+* [RFC 505: API comment conventions][rfc-505].
+* [RFC 528: Add a generic string pattern matching API][rfc-528].
+* [RFC 563: Remove ndebug][rfc-563].
+* [RFC 572: Feature gate unused attributes][rfc-572].
+* [RFC 580: Rename some std colloctions][rfc-580].
+* [RFC 592: CStr][rfc-592].
+* [RFC 593: Forbid `Self` identifier][rfc-593].
+* [RFC 599: Default object lifetime bounds][rfc-599].
+* [RFC 601: Replace `be` with `become`][rfc-601].
+* [RFC 735: Lift restrictions on defition site of inherent impls][rfc-735].
+* [RFC 736: Privacy-respecting FRU][rfc-736].
+* [RFC 738: Variance for type params][rfc-738].
+* [RFC 769: Sound generic drop][rfc-769].
+* [RFC 809: `box` and placement `in`][rfc-809].
+* [RFC 823: Simplify `std::hash`][rfc-823].
+* [RFC 832: Add back `Vec::from_elem`][rfc-832].
+* [RFC 840: No panic in CString][rfc-840].
+
+[rfc-458]: https://github.com/rust-lang/rfcs/blob/master/text/0458-send-improvements.md
+[rfc-505]: https://github.com/rust-lang/rfcs/blob/master/text/0505-api-comment-conventions.md
+[rfc-528]: https://github.com/rust-lang/rfcs/blob/master/text/0528-string-patterns.md
+[rfc-563]: https://github.com/rust-lang/rfcs/blob/master/text/0563-remove-ndebug.md
+[rfc-572]: https://github.com/rust-lang/rfcs/blob/master/text/0572-rustc-attribute.md
+[rfc-580]: https://github.com/rust-lang/rfcs/blob/master/text/0580-rename-collections.md
+[rfc-592]: https://github.com/rust-lang/rfcs/blob/master/text/0592-c-str-deref.md
+[rfc-593]: https://github.com/rust-lang/rfcs/blob/master/text/0593-forbid-Self-definitions.md
+[rfc-599]: https://github.com/rust-lang/rfcs/blob/master/text/0599-default-object-bound.md
+[rfc-601]: https://github.com/rust-lang/rfcs/blob/master/text/0601-replace-be-with-become.md
+[rfc-735]: https://github.com/rust-lang/rfcs/blob/master/text/0735-allow-inherent-impls-anywhere.md
+[rfc-736]: https://github.com/rust-lang/rfcs/blob/master/text/0736-privacy-respecting-fru.md
+[rfc-738]: https://github.com/rust-lang/rfcs/blob/master/text/0738-variance.md
+[rfc-769]: https://github.com/rust-lang/rfcs/blob/master/text/0769-sound-generic-drop.md
+[rfc-809]: https://github.com/rust-lang/rfcs/blob/master/text/0809-box-and-in-for-stdlib.md
+[rfc-823]: https://github.com/rust-lang/rfcs/blob/master/text/0823-hash-simplification.md
+[rfc-832]: https://github.com/rust-lang/rfcs/blob/master/text/0832-from-elem-with-love.md
+[rfc-840]: https://github.com/rust-lang/rfcs/blob/master/text/0840-no-panic-in-c-string.md
 
 ## New RFCs
 
+* [`rustdoc` or `cargo doc` should pass `--cfg doc`][doc].
+* [Never allow reads from uninitialized memory in safe Rust][never].
+* [Have collections impl Extend<&T> where T: Clone][extend].
+* [Changing struct literals][struct].
+* [Item grouping][group].
+* [Put `dev_rem` back in the standard library][rem].
+* [New struct syntax][new].
+* [Use globs as][as].
+* [Remove lifetime elision in type parameter position][el].
+* [Replace IteratorExt::zip with tuple iteration][tup].
+* [Allow macros in types][mactype].
+* [Lex binary and octal literals more eagerly][lex]
+* [Improvements to range match patterns][range].
+* [Make function pointer types look like borrowed pointer types for forwards compatability][fn].
+* [Allow types to be parameterized by integer (and bool) constant values][bounds].
+* [Allow `#[must_use]` on functions, rather than just types. Mark `Result::{ok,err}` `#[must_use]`][must].
+* [Add single-threaded fences][fence].
+* [Custom preludes][prelude].
+* [Approx asserts][approx].
+
+[doc]: https://github.com/rust-lang/rfcs/pull/834
+[never]: https://github.com/rust-lang/rfcs/pull/837
+[extend]: https://github.com/rust-lang/rfcs/pull/839
+[struct]: https://github.com/rust-lang/rfcs/pull/841
+[group]: https://github.com/rust-lang/rfcs/pull/849
+[rem]: https://github.com/rust-lang/rfcs/pull/850
+[new]: https://github.com/rust-lang/rfcs/pull/866
+[as]: https://github.com/rust-lang/rfcs/pull/867
+[el]: https://github.com/rust-lang/rfcs/pull/869
+[tup]: https://github.com/rust-lang/rfcs/pull/870
+[mactype]: https://github.com/rust-lang/rfcs/pull/873
+[lex]: https://github.com/rust-lang/rfcs/pull/879
+[range]: https://github.com/rust-lang/rfcs/pull/880
+[fn]: https://github.com/rust-lang/rfcs/pull/883
+[bounds]: https://github.com/rust-lang/rfcs/pull/884
+[must]: https://github.com/rust-lang/rfcs/pull/886
+[fence]: https://github.com/rust-lang/rfcs/pull/888
+[prelude]: https://github.com/rust-lang/rfcs/pull/890
+[approx]: https://github.com/rust-lang/rfcs/pull/897
 
 # Friend of the Tree
 
@@ -116,29 +209,94 @@ Friend of the Tree."
 # Quote of the Week
 
 ```
-15:35 <Binero> so a Cow is a String that clones as soon as you try to mutate it?
-13:53 <scott> it clones when you try to mootate it
+<Manishearth> In other news, I have r+ on rust now :D
+<Ms2ger> No good deed goes unpunished
 ```
+
+[From #servo](http://logs.glob.uno/?c=mozilla%23servo&s=21+Feb+2015&e=21+Feb+2015&h=In+other+news#c175503). Thanks to SimonSapin for the tip.
 
 # Notable Links
 
-* [Weekly-meetings/2014-18-11][mtg]: what? [Reddit][mtg-reddit].
+* [Weekly-meetings/2015-02-17][mtg]. fott; security bugs; code completion; open-ended proposals; struct syntax; alpha2; integer suffixes; overflow.
+* [McPherrin succeeds at transcribing two hours of meetup talks, but
+  at great cost][mc].
+* [Radical statements about the mobile web][radical]. Servo is going to fix it al.
+* [Embedded Rust Right Now!][now].
+* [On Rust and Nim][nim]. [HN][nim-hn].
+* [Rust Debuging in Emacs][emacs].
+* [Thoughts of a Rustacean learning Go][go]. [/r/rust][go-r-rust].
+* [Some notes on Send and Sync][sendand].
+* [Turing tarpits in Rust's macro system][tarp].
+* [Bay Area Rust Meetup: Blocking and Async I/O][air]. Video.
+* [Memory management in Oxischeme][oxy].
 
-[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-18-11.md
+[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2015-02-17.md
 [mtg-reddit]:
-
+[mc]: http://i.gyazo.com/bb91d17de95587ccbbf146dc5c638e85.png
+[radical]: http://jlongster.com/Radical-Statements-about-the-Mobile-Web
+[nim]: https://andreaferretti.github.io/on-rust-and-nim/
+[nim-hn]: https://news.ycombinator.com/item?id=9088640
+[now]: http://spin.atomicobject.com/2015/02/20/rust-language-c-embedded/
+[emacs]: https://bjbell.wordpress.com/2015/02/17/emacs-rust-debugging/
+[go]: http://inpursuitoflaziness.blogspot.in/2015/02/thoughts-of-rustacean-learning-go.html
+[go-r-rust]: https://www.reddit.com/r/rust/comments/2wj6fh/thoughts_of_a_rustacean_learning_go/
+[sendand]: http://huonw.github.io/blog/2015/02/some-notes-on-send-and-sync/
+[tarp]: http://mainisusuallyafunction.blogspot.com/2015/02/turing-tarpits-in-rusts-macro-system.html
+[air]: https://air.mozilla.org/bay-area-rust-meetup-february-2015/
+[oxy]: http://fitzgeraldnick.com/weblog/60/
 
 # Project Updates
 
+* [Raft Update 2: Hacking the log][raft].
+* [Rewriting Rust serialization part 2][ser].
+* [rustdox.com]. Rust documentation hosting.
+* [var]. A macro for declaring multiple mutable variables at once.
+* [rexiv2]. A library for reading and writing EXIF data.
+* There was a good HackerNews thread about [exa], the replacement for `ls` written in Rust. Also
+  on [/r/rust][exa-r-rust].
+* [rust-netbeans]. Rust plugin for the NetBeans IDE, with Cargo support.
+* [This Week in Servo 24][twis].
+* [rtracker]. A bittorrent tracker in Rust.
+* [dns2]. A DNS library.
+* [rust-media]. Portable media player framework.
+* [ipc]. Clone of ipcalc.
+* [multilist]. Safe intrusive doubly-linked lists.
+* [rustle]. Install Cargo apps without installing Rust.
+* [xsv]. BurntSushi's CSV toolkit.
+* [suffix]. Suffix arrays for fast searching.
+* [Rust Share]. Share to play.rust-lang.org from SublimeText.
+* [chess]. Written in Rust!
 
+[var]: http://users.rust-lang.org/t/ann-var-is-a-macro-for-declaring-multiple-mutable-variables-at-once/370
+[rexiv2]: http://users.rust-lang.org/t/announcing-rexiv2-library-for-image-metadata-request-for-code-review/414
+[exa]: https://news.ycombinator.com/item?id=9087108
+[exa-r-rust]: https://www.reddit.com/r/rust/comments/2wp3pp/ive_added_loads_more_features_to_exa_my_ls/
+[rust-netbeans]: https://github.com/drrb/rust-netbeans
+[raft]: http://www.hoverbear.org/2015/02/18/raft-update-2/
+[ser]: http://erickt.github.io/blog/2015/02/13/rewriting-rust-serialization-there-can-be-only-one-serde/
+[twis]: http://blog.servo.org/2015/02/18/twis-24/
+[rtracker]: https://github.com/brutal-chaos/rtracker
+[dns2]: https://github.com/mahkoh/dns2
+[rustdox.com]: https://www.reddit.com/r/rust/comments/2wku7e/introducing_rustdoxcom_alpha_an_easy_way_to_host/
+[rust-media]: https://github.com/pcwalton/rust-media
+[ipc]: https://github.com/mfs/ipc
+[multilist]: https://github.com/pcwalton/multilist
+[rustle]: https://github.com/brson/rustle
+[xsv]: https://www.reddit.com/r/rust/comments/2wrtjn/a_fast_csv_toolkit_written_in_rust/
+[suffix]: https://github.com/BurntSushi/suffix
+[Rust Share]: https://github.com/GravityScore/Rust-Share
+[chess]: https://github.com/Yayformee/chess
 
 # Upcoming Events
 
-* [What?]
+* [Feb 26. Rust NY][ny].
+
+[ny]: http://www.meetup.com/Rust-NYC/
 
 If you are running a Rust event please add it to the [calendar] to get
-it mentioned here. Email [Erick Tryzelaar] or [Brian Anderson] for access.
+it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
+Anderson][brson] for access.
 
 [calendar]: https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com
-[erickt]: Erick Tryzelaar <erick.tryzelaar@gmail.com>
-[brson] Brian Anderson <banderson@mozilla.com>
+[erickt]: mailto:erick.tryzelaar@gmail.com
+[brson]: mailto:banderson@mozilla.com
