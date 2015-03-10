@@ -51,9 +51,6 @@ community. These people are 'friends of the tree'.
 
 This week's friend of the tree was ...
 
-# Quote of the Week
-
-
 # Notable Links
 
 * [Weekly-meetings/2014-18-11][mtg]: what? [Reddit][mtg-reddit].
@@ -77,3 +74,13 @@ Anderson][brson] for access.
 [calendar]: https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com
 [erickt]: mailto:erick.tryzelaar@gmail.com
 [brson]: mailto:banderson@mozilla.com
+
+# Quote of the Week
+
+*"Quote"*
+
+Explanation and link.
+
+Thanks to XXX for the tip. [Submit your quotes for next week!][submit].
+
+[submit]: http://users.rust-lang.org/t/twir-quote-of-the-week/328
