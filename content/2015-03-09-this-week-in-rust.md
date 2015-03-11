@@ -140,7 +140,7 @@ Manish started working on Servo as part of the GSoC program in 2014, where he im
 * [MaidSafe discusses Rust vs. C++][maidsafe]. Security-minded
   projects are eyeing us intently.
 * [Shrinking Rust Distribution for Fun and Profit][shrink].
-* [Rust, Travis, and GutHub Pages][travis]. Some advice on
+* [Rust, Travis, and GitHub Pages][travis]. Some advice on
   administering Rust projects.
 * [Mozilla Research is hiring][hire].
 * [Rust homepage over time][home]. More nostalgia.
@@ -151,7 +151,7 @@ Manish started working on Servo as part of the GSoC program in 2014, where he im
 [travis]: http://www.hoverbear.org/2015/03/07/rust-travis-github-pages/
 [shrink]: https://lifthrasiir.github.io/rustlog/worklog-2015-03-06.html
 [copy]: https://www.reddit.com/r/rust/comments/2xxjda/when_should_my_type_be_copy/
-[maidesafe]: https://www.reddit.com/r/rust/comments/2xwe4r/maidsafe_discusses_rust_vs_c/
+[maidsafe]: https://www.reddit.com/r/rust/comments/2xwe4r/maidsafe_discusses_rust_vs_c/
 [mio]: http://www.hoverbear.org/2015/03/04/getting-acquainted-with-mio/
 [shell]: http://blog.achernya.com/2015/03/starting-off-in-rust-trying-to-write.html
 [gsoc]: https://www.reddit.com/r/rust/comments/2xr57s/mozilla_rejected_for_google_summer_of_code_2015/
