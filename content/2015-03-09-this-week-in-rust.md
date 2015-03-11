@@ -166,7 +166,7 @@ Manish started working on Servo as part of the GSoC program in 2014, where he im
 * [Device abstraction in gfx-rs][gfx]. gfx-rs was recently rearchitected to
   support more graphics backends than just OpenGL.
 * [gstreamer1.0-rs]. Bindings to GStreamer.
-* [rust-prce]. Recently updated but needs a maintainer.
+* [rust-pcre]. Recently updated but needs a maintainer.
 * [synth]. A polyphonic Synth type whose multiple oscillators generate
   sound via amplitude and frequency envelopes, implemented in Rust.
 * [pcg]. A Rust implementation of the PCG PRNG.
@@ -208,7 +208,7 @@ Manish started working on Servo as part of the GSoC program in 2014, where he im
 [pcg]: https://github.com/codahale/pcg
 [cargo-build]: http://users.rust-lang.org/t/rust-to-js-with-emscripten/587/4
 [gstreamer1.0-rs]: http://users.rust-lang.org/t/gstreamer-bindings/591
-[rust-prce]: http://users.rust-lang.org/t/pcre-crate-in-rust/553
+[rust-pcre]: http://users.rust-lang.org/t/pcre-crate-in-rust/553
 [gfx]: https://gfx-rs.github.io/2015/03/01/device.html
 [synth]: https://www.reddit.com/r/rust/comments/2xruhg/synth_a_polyphonic_synth_type_whose_multiple/
 
