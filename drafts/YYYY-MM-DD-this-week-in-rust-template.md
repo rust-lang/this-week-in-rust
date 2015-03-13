@@ -22,7 +22,7 @@ XXX pull requests were [merged in the last week][merged], and XXX [RFC PRs][rfcs
 
 Now you can follow breaking changes *[as they happen][BitRust]*!
 
-[BitRust]: http://bitrust.octarineparrot.com/
+[BitRust]: http://rawgit.com/mrmonday/bitrust/gh-pages/index.html
 
 ## Breaking Changes
 
