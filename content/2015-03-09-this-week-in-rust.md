@@ -22,7 +22,7 @@ If you find any errors or omissions in this week's issue, [please submit a PR](h
 
 Now you can follow breaking changes *[as they happen][BitRust]*!
 
-[BitRust]: http://bitrust.octarineparrot.com/
+[BitRust]: http://rawgit.com/mrmonday/bitrust/gh-pages/index.html
 
 ## Breaking Changes
 
