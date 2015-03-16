@@ -24,23 +24,23 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 [BitRust]: http://rawgit.com/mrmonday/bitrust/gh-pages/index.html
 
-## Breaking Changes
+# Breaking Changes
 
 
 
-## Other Changes
+# Other Changes
 
 
 
-## New Contributors
+# New Contributors
 
 
 
-## Approved RFCs
+# Approved RFCs
 
 
 
-## New RFCs
+# New RFCs
 
 
 # Friend of the Tree
