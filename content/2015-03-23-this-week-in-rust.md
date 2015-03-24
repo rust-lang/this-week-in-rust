@@ -90,7 +90,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 [fn]: https://github.com/rust-lang/rfcs/pull/996
 [asc]: https://github.com/rust-lang/rfcs/pull/987
 [low]: https://github.com/rust-lang/rfcs/pull/986
-[conc]: https://github.com/rust-lang/rfcs/blob/master/text/0968-closure-return-type-syntax.md
+[conc]: https://github.com/rust-lang/rfcs/pull/985
 
 # Notable Links
 
