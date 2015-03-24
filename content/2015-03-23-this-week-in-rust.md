@@ -63,14 +63,14 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 # Approved RFCs
 
 * [RFC 529: Generic conversion traits][conv].
-* [RFC 803: Type ascription][asc].
+* [RFC 803: Type ascription][asc-approved].
 * [RFC 909: Move `std::thread_local` to `std::thread::local`][local].
 * [RFC 921: Entry API v3][entry].
 * [RFC 940: Disallow hyphens in crate names][hype].
 * [RFC 968: Tweak closure return type syntax][close].
 
 [conv]: https://github.com/rust-lang/rfcs/blob/master/text/0529-conversion-traits.md
-[asc]: https://github.com/rust-lang/rfcs/blob/master/text/0803-type-ascription.md
+[asc-approved]: https://github.com/rust-lang/rfcs/blob/master/text/0803-type-ascription.md
 [local]: https://github.com/rust-lang/rfcs/blob/master/text/0909-move-thread-local-to-std-thread.md
 [entry]: https://github.com/rust-lang/rfcs/blob/master/text/0921-entry_v3.md
 [hype]: https://github.com/rust-lang/rfcs/blob/master/text/0940-hyphens-considered-harmful.md
@@ -80,7 +80,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 
 * [Add std::env::concurrency_hint][conc].
 * [Deprecate `CharExt::to_{upper,lower}case`][low].
-* [Make type ascription expressions lvalues][asc].
+* [Make type ascription expressions lvalues][asc-new].
 * [Function pointers reform][fn].
 * [Add `AtomicI32` and `AtomicU32`][atom].
 * [Allow unstable features in 1.0][unst].
@@ -88,7 +88,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 [unst]: https://github.com/rust-lang/rfcs/pull/1007
 [atom]: https://github.com/rust-lang/rfcs/pull/1000
 [fn]: https://github.com/rust-lang/rfcs/pull/996
-[asc]: https://github.com/rust-lang/rfcs/pull/987
+[asc-new]: https://github.com/rust-lang/rfcs/pull/987
 [low]: https://github.com/rust-lang/rfcs/pull/986
 [conc]: https://github.com/rust-lang/rfcs/blob/master/text/0968-closure-return-type-syntax.md
 
