@@ -100,7 +100,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * [multirust](http://blog.rust-lang.org/2015/04/10/Fearless-Concurrency.html). The Rust toolchain manager, updated with new features and bugfixes.
 * [reforge](https://github.com/tedsta/reforge). A multiplayer sandbox space combat MMO.
 * [The Hat Backup System](https://github.com/google/hat-backup).
-* [Piston 1.0 is released](http://blog.piston.rs/2015/04/07/piston-0.1/).
+* [Piston 0.1 is released](http://blog.piston.rs/2015/04/07/piston-0.1/).
 * [gag](https://crates.io/crates/gag). Redirect stderr/stdout.
 * [afl.rs](https://github.com/kmcallister/afl.rs). Integrating American Fuzzy-Lop with Rust.
 * [hyper on beta](http://seanmonstar.com/post/115873169212/hyper-on-beta).
