@@ -121,6 +121,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 * [serde, the serialization library, is beta-compatible](https://erickt.github.io/blog/2015/04/12/serde-0-dot-3-1-now-compatible-with-beta/).
 * [nickel, the web framework, is on crates.io](https://www.reddit.com/r/rust/comments/32dhwb/nickel_is_on_cratesio/).
 * [coroutine-rs](https://github.com/rustcc/coroutine-rs). Coroutines.
+* [rust-sdl2 is beta-compatible](https://github.com/AngryLawyer/rust-sdl2/commit/00f7df56570b2e7e57df63813692bb7ef53d10a0).
 
 # Upcoming Events
 
