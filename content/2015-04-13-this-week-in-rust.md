@@ -97,7 +97,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 # Project Updates
 
 * [Racer progress update 5 (cargo support)](http://phildawes.net/blog/2015/04/05/racer5/).
-* [multirust](http://blog.rust-lang.org/2015/04/10/Fearless-Concurrency.html). The Rust toolchain manager, updated with new features and bugfixes.
+* [multirust](http://users.rust-lang.org/t/multirust-0-0-3/954). The Rust toolchain manager, updated with new features and bugfixes.
 * [reforge](https://github.com/tedsta/reforge). A multiplayer sandbox space combat MMO.
 * [The Hat Backup System](https://github.com/google/hat-backup).
 * [Piston 1.0 is released](http://blog.piston.rs/2015/04/07/piston-0.1/).
