@@ -20,9 +20,10 @@ XXX pull requests were [merged in the last week][merged], and XXX [RFC PRs][rfcs
 [merged]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-12..2015-01-18
 [rfcs]: https://github.com/rust-lang/rfcs/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-12..2015-01-18
 
-Now you can follow breaking changes *[as they happen][BitRust]*!
+Now you can follow breaking changes *[as they happen][BitRust]*! Or, [in html][BitRust2].
 
 [BitRust]: http://rawgit.com/mrmonday/bitrust/gh-pages/index.html
+[BitRust2]: http://killercup.github.io/bitrust/
 
 # Breaking Changes
 
