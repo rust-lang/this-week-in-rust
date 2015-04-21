@@ -103,6 +103,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*! Or, [in html][B
 
 * [4/20. Paris](http://www.meetup.com/Rust-Paris).
 * [4/22. The Columbus Rust Society](http://www.meetup.com/columbus-rs/).
+* [4/28. Sydney](http://www.meetup.com/Rust-Sydney/events/221993570/).
 
 A number of meetups will be [celebrating
 1.0](http://users.rust-lang.org/t/rust-1-0-launch-event-details-action-required-for-event-organizers/1025/6). Watch this space!
