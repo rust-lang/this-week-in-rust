@@ -97,6 +97,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*! Or, [in html][B
 * [LlamaDB](http://www.reddit.com/r/rust/comments/32wqa7/wip_llamadb_a_simple_sql_database_written_in_rust/). A SQL database.
 * [twilio-rs](http://www.reddit.com/r/rust/comments/336syv/twiliors_rust_library_for_working_with_twilio/). Library for working with Twilio.
 * [elmesque](https://github.com/mitchmindtree/elmesque). [Elm](http://elm-lang.org)'s std graphics modules ported to Rust and rendering to GL.
+* [trace](https://github.com/gsingh93/trace). A syntax extension for tracing function execution.
 
 # Upcoming Events
 
