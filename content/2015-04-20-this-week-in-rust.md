@@ -37,7 +37,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*! Or, [in html][B
 * [Add `Default` trait for `AtomicBool`, `AtomicIsize`, `AtomicUsize`](https://github.com/rust-lang/rust/pull/24329).
 * [rustdoc: Another round of improvements](https://github.com/rust-lang/rust/pull/24396).
 * [Move optimized `String::from_str` to `String::from`](https://github.com/rust-lang/rust/pull/24517).
-* Several patches adding extended diagnostics have appeared: [1](https://github.com/rust-lang/rust/pull/24542), [2](https://github.com/rust-lang/rust/pull/24552), [3](https://github.com/rust-lang/rust/pull/24525). Thanks to michaelsproul, GuillaumeGomez, meqif and others!
+* Several patches adding extended error explanations have appeared: [1](https://github.com/rust-lang/rust/pull/24542), [2](https://github.com/rust-lang/rust/pull/24552), [3](https://github.com/rust-lang/rust/pull/24525). Thanks to michaelsproul, GuillaumeGomez, meqif, lfairy, ruud-v-a, nham and all diagnosticians!
 
 # New Contributors
 
