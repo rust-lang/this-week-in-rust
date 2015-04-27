@@ -28,7 +28,7 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
 
 * [std: Add Default/IntoIterator/ToOwned to the prelude](https://github.com/rust-lang/rust/pull/24541)
 * [Enforce the comma after lifetime arguments and before type arguments](https://github.com/rust-lang/rust/pull/24547)
-* [Remove for deprecated functionality](https://github.com/rust-lang/rust/pull/24636)
+* [Remove more deprecated functionality](https://github.com/rust-lang/rust/pull/24636)
 * [Make stability attributes an error](https://github.com/rust-lang/rust/pull/24646)
 
 # Other Changes
