@@ -20,9 +20,8 @@ XXX pull requests were [merged in the last week][merged], and XXX [RFC PRs][rfcs
 [merged]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-12..2015-01-18
 [rfcs]: https://github.com/rust-lang/rfcs/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-12..2015-01-18
 
-Now you can follow breaking changes *[as they happen][BitRust]*! Or, [in html][BitRust2].
+Now you can follow breaking changes *[as they happen][BitRust2]*!
 
-[BitRust]: http://rawgit.com/mrmonday/bitrust/gh-pages/index.html
 [BitRust2]: http://killercup.github.io/bitrust/
 
 # Breaking Changes
@@ -44,6 +43,14 @@ Now you can follow breaking changes *[as they happen][BitRust]*! Or, [in html][B
 # New RFCs
 
 
+# Betawatch!
+
+The current beta is `1.0.0-beta.3 (5241bf9c3 2015-04-25)`.
+
+There were X PRs this week landing backports to beta.
+
+* [NNNNN](link).
+
 # Friend of the Tree
 
 The Rust Team likes to occassionally recognize people who have made
@@ -62,6 +69,13 @@ This week's friend of the tree was ...
 
 # Project Updates
 
+
+# Crate of the Week
+
+There are so many crates! It's easy to lose track of the good ones,
+like [THING].
+
+THING is a ...
 
 
 # Upcoming Events
