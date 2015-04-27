@@ -33,7 +33,7 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
 
 # Other Changes
 
-* [Rename std::fs::soft_link to std::fs::symlink](https://github.com/rust-lang/rust/pull/24222)
+* [Deprecate `std::fs::soft_link` in favor of platform-specific versions](https://github.com/rust-lang/rust/pull/24222)
 * [Introduce a `FreeRegionMap` to store relations between free regions](https://github.com/rust-lang/rust/pull/24553)
 * [implement rfc 1054: split_whitespace() fn, deprecate words()](https://github.com/rust-lang/rust/pull/24563)
 * [implement set_tcp_keepalive for linux](https://github.com/rust-lang/rust/pull/24594)
