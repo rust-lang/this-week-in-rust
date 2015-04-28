@@ -74,6 +74,7 @@ There were 2 PRs this week landing backports to beta.
 # Notable Links
 
 * [Rust once, run everywhere](http://blog.rust-lang.org/2015/04/24/Rust-Once-Run-Everywhere.html).
+* [Pre-Pitting Your Peaches With Rust](http://cglab.ca/~abeinges/blah/everyone-peaches/)
 * [Weekly meetings 2015-04-21][mtg]. Servo licensing, iter overflow, float formatting, branching.
 * [Core team meeting 2015-04-22](https://github.com/rust-lang/meeting-minutes/blob/master/core-team/meeting-2015-04-22.md). The core team is summarizing their weekly meeting.
 * [Let's build a web service and client in Rust](https://github.com/brson/httptest)
