@@ -100,7 +100,7 @@ There were 2 PRs this week landing backports to beta.
 * [I got Rust working on a $13 ARM micro controller board. Here are my notes from the process](http://antoinealb.net/programming/2015/05/01/rust-on-arm-microcontroller.html)
 * [Evaluation of performance and productivity metrics of potential programming languages in the HPC environment](https://github.com/MrFloya/thesis-ba/raw/master/tex/thesis.pdf). MrFloya's bachelor's thesis.
 * [A journey into iterators](http://hoverbear.org/2015/05/02/a-journey-into-iterators/)
-* [Abomination: terrifying serialization](http://www.frankmcsherry.org/serialization/2015/05/04/unsafe-at-any-speed.html)
+* [Abomonation: terrifying serialization](http://www.frankmcsherry.org/serialization/2015/05/04/unsafe-at-any-speed.html)
 * [Weekly meeting 2015-04-28](https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2015-04-28.md). Snapshots, transmute, static_assert.
 * [Core team meeting 2015-04-29](https://github.com/rust-lang/meeting-minutes/blob/master/core-team/meeting-2015-04-29.md). Optimizing by default, mem::forget, Debug builders, security policy.
 
