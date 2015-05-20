@@ -257,6 +257,7 @@ The current beta is `1.1.0-beta (cd7d89af9 2015-05-16) (built 2015-05-16)`.
 * Hematite, the Minecraft clone, [running in the browser via Emscripten](http://myth.aaronlindsay.com/test/).
 * [A Racer-based code completion plugin for KDE's Kate editor](https://blogs.kde.org/2015/05/18/basic-code-completion-rust-kdes-kate-and-later-kdevelop).
 * A Kickstarter for a book called [Rust Programming Concepts](https://www.kickstarter.com/projects/1712125778/1409335994?token=951963e5).
+* [KISS-UI](https://github.com/cybergeek94/kiss-ui), a simple UI toolkit for Rust.
 
 # Upcoming Events
 
