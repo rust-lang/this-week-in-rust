@@ -264,6 +264,8 @@ The current beta is `1.1.0-beta (cd7d89af9 2015-05-16) (built 2015-05-16)`.
 
 * [5/22. Boulder, CO](
 http://www.degoesconsulting.com/lambdaconf-2015/). Lambda conf. 'An Introduction to Rust: Or, "Who Got Types in My Systems Programming!" - Jared Roesch'
+* [5/23. Bangalore, India](http://www.eventbrite.com/e/rust-10-release-party-tickets-16908882924)
+* [5/23. Pune, India](https://www.facebook.com/events/983011235082826)
 * [5/27. Columbus Rust Society](http://www.meetup.com/columbus-rs/)
 * [5/27. Lithuania](http://www.meetup.com/functional-vilnius/events/222319383/). Functional Vilnius #4: Rust & Monoids.
 
