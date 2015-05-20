@@ -246,7 +246,7 @@ The current beta is `1.1.0-beta (cd7d89af9 2015-05-16) (built 2015-05-16)`.
 * [Google.rs dev diary #3 (video)](https://youtu.be/zrw2Qy-Ho5A).
 * Packt is releasing a book called [Rust Essentials](https://www.packtpub.com/application-development/rust-essentials) soon.
 * [Pulse](https://github.com/csherratt/pulse). A 'composable wait system'.
-* [Servo: The embeddable browser engine](http://blogs.s-osg.org/servo-the-embeddable-browser-engine/). An article for Samsung by Manish about Servo embeding.
+* [Servo: The embeddable browser engine](http://blogs.s-osg.org/servo-the-embeddable-browser-engine/). An article for Samsung by Lars and Mike about Servo embedding.
 * Chris Morgan overhauled the [design of play.rust-lang.org](http://www.reddit.com/r/rust/comments/35vwsg/playrustlangorg_is_pretty/).
 * [Rust running on a PlayStation](http://www.reddit.com/r/rust/comments/35ypb8/rust_running_on_a_playstation/).
 * [Visual Rust 0.1 released](http://blog.piston.rs/2015/05/14/Visual-Rust-0.1/).
