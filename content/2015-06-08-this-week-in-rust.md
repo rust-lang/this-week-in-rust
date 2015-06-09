@@ -158,7 +158,7 @@ improve performance of base64 encoding. Thanks Veedrac and cristicbz.
 * [The Flub Paradox](http://steved-imaginaryreal.blogspot.com/2015/06/the-flub-paradox.html). I guess some people think Rust is too good.
 * [Expressing L-systems in Rust](http://unconj.ca/blog/expressing-l-systems-in-rust.html).
 * [Tutoriel Rust](http://blog.guillaume-gomez.fr/Rust). A much-needed French-language tutorial.
-* [My Lint Writing Workflow](https://llogiq.github.io/2015/06/04/workflows.html). llogiq shows us how to write rstc lint plugins.
+* [My Lint Writing Workflow](https://llogiq.github.io/2015/06/04/workflows.html). llogiq shows us how to write rustc lint plugins.
 * [Measure Data Structure Sizes: Firefox vs. Servo](https://blog.mozilla.org/nnethercote/2015/06/03/measuring-data-structure-sizes-firefox-c-vs-servo-rust/). How Nick Nethercote is adding memory instrumentation to Servo.
 * [Servo: The Countdown to Your Next Browser Continues](http://blogs.s-osg.org/servo-the-countdown-to-your-next-browser-continues/)
 * [Rust on OpenWRT](https://github.com/japaric/rust-on-openwrt). Cross-compiling to popular MIPS devices.
