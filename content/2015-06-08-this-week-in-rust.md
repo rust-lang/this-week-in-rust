@@ -171,6 +171,10 @@ improve performance of base64 encoding. Thanks Veedrac and cristicbz.
 * [Defaulting to thread-safety: closures and concurrency](http://huonw.github.io/blog/2015/05/defaulting-to-thread-safety/). By Huon.
 * [Rust vs. C++ performance for a path tracer](http://xania.org/201505/on-rust-performance).
 * [Implementing methods on builtins](https://blog.dbrgn.ch/2015/5/25/rust-implementing-methods-on-builtins/).
+* [Five lists of six things about Rust](http://graydon2.dreamwidth.org/214016.html). By Graydon.
+* [Unsafe Rust: An Intro and Open Questions](http://cglab.ca/~abeinges/blah/rust-unsafe-intro/). Gankro is thinking about what unsafety means.
+* [Introducing the newest member of Mozilla's Rust team: Emily Dunham](https://internals.rust-lang.org/t/introducing-the-newest-member-of-mozillas-rust-team-emily-dunham/2143). Mozilla Research has a devops person now.
+* [Wrapper Types in Rust: Choosing Your Guarantees](http://manishearth.github.io/blog/2015/05/27/wrapper-types-in-rust-choosing-your-guarantees/).
 
 # Project Updates
 
@@ -194,10 +198,6 @@ improve performance of base64 encoding. Thanks Veedrac and cristicbz.
 * [Maud](http://lfairy.gitbooks.io/maud/content/). A template engine.
 * [units](https://github.com/Boddlnagg/units). Type-safe units of measure.
 * [This Week in Servo 33](http://blog.servo.org/2015/05/28/twis-33/).
-* [Five lists of six things about Rust](http://graydon2.dreamwidth.org/214016.html). By Graydon.
-* [Unsafe Rust: An Intro and Open Questions](http://cglab.ca/~abeinges/blah/rust-unsafe-intro/). Gankro is thinking about what unsafety means.
-* [Introducing the newest member of Mozilla's Rust team: Emily Dunham](https://internals.rust-lang.org/t/introducing-the-newest-member-of-mozillas-rust-team-emily-dunham/2143). Mozilla Research has a devops person now.
-* [Wrapper Types in Rust: Choosing Your Guarantees](http://manishearth.github.io/blog/2015/05/27/wrapper-types-in-rust-choosing-your-guarantees/).
 * The Rust Essentials book from Packt [has been released](http://www.reddit.com/r/rust/comments/37hm4o/rust_essentials_book_now_officially_published/).
 * [lifeguard](http://www.reddit.com/r/rust/comments/37ghej/lifeguard_an_autocollecting_object_pool/). A memory pool.
 * [gj](http://dwrensha.github.io/capnproto-rust/2015/05/25/asynchronous-io-with-promises.html). Async I/O with promises, from the author of capnp-rust.
