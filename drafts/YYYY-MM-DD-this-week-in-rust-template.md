@@ -15,10 +15,9 @@ If you find any errors or omissions in this week's issue, [please submit a PR](h
 
 # What's cooking on master?
 
-XXX pull requests were [merged in the last week][merged], and XXX [RFC PRs][rfcs].
+XXX pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-12..2015-01-18
-[rfcs]: https://github.com/rust-lang/rfcs/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-12..2015-01-18
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-05-18..2015-06-07
 
 Now you can follow breaking changes *[as they happen][BitRust2]*!
 
