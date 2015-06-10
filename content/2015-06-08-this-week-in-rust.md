@@ -23,10 +23,10 @@ details are still to be determined. Please submit talk proposals.
 Several I/O stabilization patches have been nominated for backporting
 to 1.1, filling out the somewhat meager story we had for 1.0. With things
 moving somewhat slowly since the last release, I/O improvements will
-probably be the most interesting part of the next.
+probably be the most interesting part of the next release.
 
 If you haven't recently, give [the
-playpen](https://play.rust-lang.org) another look as it's recieved
+playpen](https://play.rust-lang.org) another look as it's received
 several new features lately, including a new design from Chris Morgan,
 the ability to output Intel-flavor asm, automatically post GitHub
 gists, and run `#[test]` functions.
