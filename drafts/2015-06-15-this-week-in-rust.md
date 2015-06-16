@@ -27,11 +27,33 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
 
 # Breaking Changes
 
-
+* [Prevent raw pointers from being used as explicit
+  self](https://github.com/rust-lang/rust/pull/26225). Probably nobody
+  has ever tried to write such code, and the current implemented
+  behavior is bonkers.
 
 # Other Changes
 
 * [Add `Result::expect`](https://github.com/rust-lang/rust/pull/25359/files).
+* [Add
+  `CString::from_ptr/into_ptr`](https://github.com/rust-lang/rust/pull/25777). For
+  transfering ownership of C strings across the FFI.
+* [Implement `str::split_at`](https://github.com/rust-lang/rust/pull/25839).
+* [Stabilize a number of new `fs` features](https://github.com/rust-lang/rust/pull/25844).
+* [Parallel code generation works
+  again](https://github.com/rust-lang/rust/pull/26018). Pass `rustc -C
+  codegen-units=4` to try.
+* [The `to_uppercase` and `to_lowercase` functions now support complex
+  case mapping](https://github.com/rust-lang/rust/pull/26039). This
+  changes the behavior of the *stable*
+  `char::to_uppercase/to_lowercase` and also stabilizes
+  `str::to_uppercase/to_lowercase`.
+* [Implement `Extend<&T> where: T: Copy` for a variety of collection
+  types](https://github.com/rust-lang/rust/pull/25989).
+* [The unstable `String::from_str` is
+  deprecated](https://github.com/rust-lang/rust/pull/26077). Use
+  `String::from`.
+* [Heuristics for detecting identifier typos are improved](https://github.com/rust-lang/rust/pull/26087).
 
 # New Contributors
 
@@ -47,6 +69,7 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
   versioning](https://github.com/rust-lang/rfcs/blob/master/text/1122-language-semver.md). Describes
   how the language itself is allowed to change.
 * [RFC 1123. Introduce `str::split_at`](https://github.com/rust-lang/rfcs/blob/master/text/1123-str-split-at.md)
+* [RFC 1131. `likely` intrinsic](https://github.com/rust-lang/rfcs/blob/master/text/1131-likely-intrinsic.md). For hinting hot and cold branches.
 
 # New RFCs
 
