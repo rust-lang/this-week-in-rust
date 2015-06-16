@@ -17,9 +17,9 @@ This week's edition was edited by: Brian Anderson.
 
 # What's cooking on master?
 
-XXX pull requests were [merged in the last week][merged].
+160 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-05-18..2015-06-07
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-06-07..2015-06-15
 
 Now you can follow breaking changes *[as they happen][BitRust2]*!
 
@@ -31,7 +31,7 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
 
 # Other Changes
 
-
+* [Add `Result::expect`](https://github.com/rust-lang/rust/pull/25359/files).
 
 # New Contributors
 
@@ -39,7 +39,14 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
 
 # Approved RFCs
 
-
+* [RFC 1105. Policy on API
+  evolution](https://github.com/rust-lang/rfcs/blob/master/text/1105-api-evolution.md). Describes
+  how the Rust project evaluates changes to the libraries, and which are allowed when.
+* [RFC 1119. `Result::expect`](https://github.com/rust-lang/rfcs/pull/1119).
+* [RFC 1122. Semantic
+  versioning](https://github.com/rust-lang/rfcs/blob/master/text/1122-language-semver.md). Describes
+  how the language itself is allowed to change.
+* [RFC 1123. Introduce `str::split_at`](https://github.com/rust-lang/rfcs/blob/master/text/1123-str-split-at.md)
 
 # New RFCs
 
