@@ -57,7 +57,24 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
 
 # New Contributors
 
-
+* ben fleis
+* David Voit
+* Eli Friedman
+* frankamp
+* funkill
+* Johann Tuffe
+* joliv
+* Joshua Landau
+* Leo Correa
+* marcell
+* Marcel Müller
+* Matthew Astley
+* Nathan Long
+* Nick Fitzgerald
+* Russell McClellan
+* saml
+* simplex
+* swgillespie
 
 # Approved RFCs
 
@@ -79,22 +96,6 @@ dumb rules that made it into 1.0, but is a breaking change that
 affects relatively little code.
 * [Expand the `std::net` module](https://github.com/rust-lang/rfcs/pull/1158).
 
-# Betawatch!
-
-The current beta is `1.0.0-beta.3 (5241bf9c3 2015-04-25)`.
-
-There were X PRs this week landing backports to beta.
-
-* [NNNNN](link).
-
-# Friend of the Tree
-
-The Rust Team likes to occassionally recognize people who have made
-outstanding contributions to The Rust Project, its ecosystem, and its
-community. These people are 'friends of the tree'.
-
-This week's friend of the tree was ...
-
 # Notable Links
 
 * [Weekly-meetings/2014-18-11][mtg]: what? [Reddit][mtg-reddit].
@@ -106,17 +107,12 @@ This week's friend of the tree was ...
 # Project Updates
 
 
-# Crate of the Week
-
-There are so many crates! It's easy to lose track of the good ones,
-like [THING].
-
-THING is a ...
-
-
 # Upcoming Events
 
-* [What?]
+* [6/17. Montreal](http://www.meetup.com/Montreal-Rust-Language-Meetup/events/223045701/)
+* [6/17. Los Angeles](http://www.meetup.com/Rust-Los-Angeles/events/222656434/)
+* [6/24. Columbus Rust Society](http://www.meetup.com/columbus-rs/)
+* [6/29. Sydney](http://www.meetup.com/Rust-Sydney/events/222811456/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
