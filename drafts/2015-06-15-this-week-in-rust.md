@@ -73,6 +73,11 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
 
 # New RFCs
 
+* [Adjust default object
+bounds](https://github.com/rust-lang/rfcs/pull/1156). This fixes some
+dumb rules that made it into 1.0, but is a breaking change that
+affects relatively little code.
+* [Expand the `std::net` module](https://github.com/rust-lang/rfcs/pull/1158).
 
 # Betawatch!
 
