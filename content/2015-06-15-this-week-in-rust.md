@@ -15,6 +15,27 @@ If you find any errors or omissions in this week's issue, [please submit a PR](h
 
 This week's edition was edited by: Brian Anderson.
 
+# Notable Links
+
+* [A graph-based higher-order intermediate representation](http://compilers.cs.uni-saarland.de/papers/lkh15_cgo.pdf). A novel intermediate representation for a dialect of Rust.
+* [Interview with Mozilla's Aaron Turon](http://www.pl-enthusiast.net/2015/06/09/interview-with-mozillas-aaron-turon/).
+* [Out of curiosity - Who is currently focusing on improving compile times? If so, how is it coming along?](http://www.reddit.com/r/rust/comments/39f21l/out_of_curiosity_who_is_currently_focusing_on/). People are working on compile time.
+* [Hodor esolang as a Rust macro](http://www.reddit.com/r/rust/comments/39wvrm/hodor_esolang_as_a_rust_macro/).
+* [dispatcher](https://github.com/timonv/rdispatcher). Many-to-many channels.
+* ['When you have no room for error'](http://www.commitstrip.com/en/2015/06/15/when-you-have-no-room-for-error/). The CommitStrip comic mentions Rust.
+* [Fundraiser for a multi-language (incl. Rust) teaching tent at Chaos Communication Camp](https://www.betterplace.org/en/projects/30076-an-assembly-on-chaos-communication-camp-providing-free-teaching).
+
+# Project Updates
+
+* [Homu, a gatekeeper for your commits](http://homu.io/). Barosl is now offering homu-as-a-service. This is the CI system Rust and Servo both use, and it is compatible with Travis CI.
+* [rustorm](http://www.reddit.com/r/rust/comments/395hwl/ivancerasrustorm_a_simple_orm_for_rust/). A simple ORM.
+* [snake-piston](http://www.reddit.com/r/rust/comments/398azz/snake_game_in_rust_using_piston/). A snake game written with Piston.
+* [yaml-rust](http://chyh1990.github.io/yaml-rust/). A pure-Rust YAML 1.2 parser.
+* [crust](http://www.reddit.com/r/rust/comments/39elgj/crust_reliable_p2p_network_connections_in_rust/). Reliable p2p with NAT traversal.
+* [aho-corasick](https://github.com/BurntSushi/aho-corasick). Fast multi-substring nmatching.
+* [pcapng-rs](https://github.com/richo/pcapng-rs). A [pcapng](https://github.com/pcapng/pcapng) parser written with [nom](https://github.com/Geal/nom).
+* [deuterium](https://github.com/deuterium-orm/deuterium). A fully-typed SQL query builder.
+
 # What's cooking on master?
 
 160 pull requests were [merged in the last week][merged].
@@ -96,17 +117,6 @@ dumb rules that made it into 1.0, but is a breaking change that
 affects relatively little code.
 * [Expand the `std::net` module](https://github.com/rust-lang/rfcs/pull/1158).
 
-# Notable Links
-
-* [Weekly-meetings/2014-18-11][mtg]: what? [Reddit][mtg-reddit].
-
-[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-18-11.md
-[mtg-reddit]:
-
-
-# Project Updates
-
-
 # Upcoming Events
 
 * [6/17. Montreal](http://www.meetup.com/Montreal-Rust-Language-Meetup/events/223045701/)
@@ -124,10 +134,17 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
-*"Quote"*
+```text
+<Quxxy> I had a fun one in cargo script: there's currently no way in Rust
+to get a file's mtime and the system time in the same time format
+<Quxxy> (On Windows)
+<Quxxy> You can get one in UNIX time, the other in Windows time
+<Quxxy> Which have different scales and different epochs
+<Quxxy> Rust: Buy Your Own Damn Batteries; What Are You, A Communist?
+```
 
-Explanation and link.
+Quxxy discovers Rust's stance toward the inclusion of batteries.
 
-Thanks to XXX for the tip. [Submit your quotes for next week!][submit].
+Thanks to cmr for the tip. [Submit your quotes for next week!][submit].
 
 [submit]: http://users.rust-lang.org/t/twir-quote-of-the-week/328

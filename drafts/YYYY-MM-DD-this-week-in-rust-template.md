@@ -15,6 +15,17 @@ If you find any errors or omissions in this week's issue, [please submit a PR](h
 
 This week's edition was edited by: WHO??
 
+# Notable Links
+
+* [Weekly-meetings/2014-18-11][mtg]: what? [Reddit][mtg-reddit].
+
+[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-18-11.md
+[mtg-reddit]:
+
+
+# Project Updates
+
+
 # What's cooking on master?
 
 XXX pull requests were [merged in the last week][merged].
@@ -60,16 +71,7 @@ community. These people are 'friends of the tree'.
 
 This week's friend of the tree was ...
 
-# Notable Links
-
-* [Weekly-meetings/2014-18-11][mtg]: what? [Reddit][mtg-reddit].
-
-[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-18-11.md
-[mtg-reddit]:
-
-
-# Project Updates
-
+# Internals discussions
 
 # Crate of the Week
 
