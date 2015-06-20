@@ -13,7 +13,7 @@ contributions](https://github.com/rust-lang/rust/wiki/Note-guide-for-new-contrib
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors or omissions in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-This week's edition was edited by: WHO??
+This week's edition was edited by: Vikrant Chaudhary, mdinger, Andrew Gallant, and Brian Anderson
 
 # From Blogosphere
 
