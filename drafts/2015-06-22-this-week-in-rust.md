@@ -15,11 +15,33 @@ If you find any errors or omissions in this week's issue, [please submit a PR](h
 
 This week's edition was edited by: WHO??
 
-# Notable Links
+# From Blogosphere
 
+* [Exceptional results: error handling with C# and Rust](https://ruudvanasseldonk.com/2015/06/17/exceptional-results-error-handling-in-csharp-and-rust). Exceptions based error handling in C# vs Rust's monadic approach.
+* [Rust Torrent](http://pietro.menna.net.br/recurse-center/rust/2015/06/19/rusty-torrent/). Pietro Menna shares his experiece of writing a BitTorrent client in Rust.
+* [Exploring Rust](http://www.wilfred.me.uk/blog/2015/06/18/exploring-rust/). A brief look at state of affairs in Rust 1.0.
+* [Rust using Visual Studio Code](https://mobiarch.wordpress.com/2015/06/16/rust-using-visual-studio-code/). Setup Visual Studio Code for Rust development.
 
+# Tips & Tricks
 
-# Project Updates
+* [How to pass a closure into a trait object](http://camjackson.net/post/rust-lang-how-to-pass-a-closure-into-a-trait-object).
+* [Rust error stacktraces](http://phildawes.net/blog/2015/06/17/rust-stacktrace/). Get stacktrace from errors in production code.
+* [Benchmarking in Rust with `libtest`](https://llogiq.github.io/2015/06/16/bench.html).
+
+# In News
+
+* [Google Bazel added support for Rust](https://github.com/google/bazel/tree/master/tools/build_rules/rust).
+* [Impala: a Rust dialect that can partially evaluate functions at compile time and produce GPU code](http://compilers.cs.uni-saarland.de/papers/ppl14_web.pdf).
+* [Rust: Announcing the community subteam](https://internals.rust-lang.org/t/announcing-the-community-subteam/2248).
+
+# New Releases & Project Updates
+
+* [RustLex](https://github.com/LeoTestard/rustlex). Lexical analysers generator for Rust.
+* [rsedis](https://github.com/seppo0010/rsedis). Redis re-implemented in Rust.
+* [cargo add](https://github.com/withoutboats/cargo-add). A utility for adding cargo dependencies from the command line.
+* [volley](https://github.com/jonhoo/volley). A benchmarking tool for measuring the performance of server networking stacks.
+* [Rust Dispatcher](https://github.com/timonv/rdispatcher). Dispatcher for Rust, broadcast and subscribe many to many.
+* [rust-vim-setup](https://github.com/ivanceras/rust-vim-setup). Use VIM as your Rust IDE - set of bash scripts and a customised `vimrc` for Rust development.
 
 
 # What's cooking on master?
@@ -79,7 +101,9 @@ THING is a ...
 
 # Upcoming Events
 
-* [What?]
+* [6/23. Hannover](http://blog.thoughtram.io/rust/2015/06/17/anouncing-hanovers-second-rust-meetup.html)
+* [6/24. Columbus Rust Society](http://www.meetup.com/columbus-rs/)
+* [6/29. Sydney](http://www.meetup.com/Rust-Sydney/events/222811456/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
