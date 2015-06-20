@@ -35,6 +35,7 @@ This week's edition was edited by: Brian Anderson.
 * [aho-corasick](https://github.com/BurntSushi/aho-corasick). Fast multi-substring nmatching.
 * [pcapng-rs](https://github.com/richo/pcapng-rs). A [pcapng](https://github.com/pcapng/pcapng) parser written with [nom](https://github.com/Geal/nom).
 * [deuterium](https://github.com/deuterium-orm/deuterium). A fully-typed SQL query builder.
+* [regex](https://github.com/rust-lang/regex/pull/91). It got faster. A lot faster.
 
 # What's cooking on master?
 
