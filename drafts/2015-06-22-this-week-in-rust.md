@@ -43,6 +43,21 @@ This week's edition was edited by: WHO??
 * [Rust Dispatcher](https://github.com/timonv/rdispatcher). Dispatcher for Rust, broadcast and subscribe many to many.
 * [rust-vim-setup](https://github.com/ivanceras/rust-vim-setup). Use VIM as your Rust IDE - set of bash scripts and a customised `vimrc` for Rust development.
 
+* A summary of the major changes to [Rust by example](http://rustbyexample.com/)
+in the past few months include:
+ - February 15, 2015: The [flow control section](http://rustbyexample.com/flow_control.html)
+was [created](https://github.com/rust-lang/rust-by-example/pull/421) to house
+all flow control operations together.
+ - March 21, 2015: The [formatting section](http://rustbyexample.com/hello/print.html)
+was [revised](https://github.com/rust-lang/rust-by-example/pull/496) so new
+users are immediately confronted with the distinction of `Debug` and `Display`
+and how to deal with them.
+ - May 2, 2015: The table of contents was [reorganized](https://github.com/rust-lang/rust-by-example/pull/561)
+so examples are sorted consistently by categories.
+ - May 23, 2015: The [generics section](http://rustbyexample.com/generics.html) was
+majorly [expanded](https://github.com/rust-lang/rust-by-example/pull/572).
+ - June 15, 2015: The [closures section](http://rustbyexample.com/fn/closures.html) was
+completely rewritten and [expanded](https://github.com/rust-lang/rust-by-example/pull/594).
 
 # What's cooking on master?
 
