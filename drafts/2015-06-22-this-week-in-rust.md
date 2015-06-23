@@ -42,6 +42,7 @@ This week's edition was edited by: [Brian Anderson](https://github.com/brson), [
 * [volley](https://github.com/jonhoo/volley). A benchmarking tool for measuring the performance of server networking stacks.
 * [Rust Dispatcher](https://github.com/timonv/rdispatcher). Dispatcher for Rust, broadcast and subscribe many to many.
 * [rust-vim-setup](https://github.com/ivanceras/rust-vim-setup). Use VIM as your Rust IDE - set of bash scripts and a customised `vimrc` for Rust development.
+* [Herd](https://github.com/imjacobclark/herd). An experimental HTTP load testing application written in Rust.
 
 * A summary of the major changes to [Rust by example](http://rustbyexample.com/)
 in the past few months include:
