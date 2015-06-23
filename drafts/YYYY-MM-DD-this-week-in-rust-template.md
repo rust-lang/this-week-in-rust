@@ -49,6 +49,16 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
 
 
 
+# Final Comment Period
+
+Every week the teams announce a 'final comment period' for RFCs which
+are reaching a decision. Express your opinions now. [This week's][fcp]
+RFCs entering FCP are:
+
+[fcp]: https://github.com/rust-lang/rfcs/pulls?q=is%3Aopen+is%3Apr+label%3Afinal-comment-period
+
+* TODO
+
 # New RFCs
 
 

@@ -62,7 +62,7 @@ completely rewritten and [expanded](https://github.com/rust-lang/rust-by-example
 
 # What's cooking on master?
 
-XXX pull requests were [merged in the last week][merged].
+112 pull requests were [merged in the last week][merged].
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-06-15..2015-06-22
 
@@ -72,45 +72,80 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
 
 # Breaking Changes
 
-
+* [Don't panic when stdout doesn't
+  exist](https://github.com/rust-lang/rust/pull/26168). See [RFC
+  1014](https://github.com/rust-lang/rfcs/blob/master/text/1014-stdout-existential-crisis.md). This
+  is breaking because it changes the behavior of stdio, but in ways
+  that are expected to be less surprising. Considered a bugfix.
 
 # Other Changes
 
 * Thanks to Ashesh Kumar for pointing out that rust-lang.org was not
   configured with DMARC to prevent spoofing. The misconfiguration has
   now been corrected.
+* [Optimize implementations of FromIterator and Extend for
+  Vec](https://github.com/rust-lang/rust/pull/22681).
+* [Result - Add an `expect` method that prints a message and the `Err`
+  value](https://github.com/rust-lang/rust/pull/25359).
+* [Break apart global unstable
+  features](https://github.com/rust-lang/rust/pull/26192). Some of the
+  catch-all feature names, `core`, `std_misc`, `collections`, `alloc`,
+  are split into smaller, better-named features.
+* The regex crate received a [rewrite that includes a big performance
+  improvement](https://github.com/rust-lang/regex/pull/91).
+* [Avoid deref/ref cycles for no-op conversions between unsafe
+  pointers](https://github.com/rust-lang/rust/pull/26336). Reduces the
+  amount of IR rustc generates.
+* [Pass fat pointers in two immediate
+  arguments](https://github.com/rust-lang/rust/pull/26411). More
+  codegen improvements from dotdash.
+* [Add FromRow{Fd,Handle,Socket} to os
+  preludes](https://github.com/rust-lang/rust/pull/26413).
+* [Custom Debug impl for
+  io::Error](https://github.com/rust-lang/rust/pull/26416).
 
 # New Contributors
 
-
+* David Stygstra
+* Gulshan Singh
+* Jake Hickey
+* joliv
+* Markus
+* Steven Walter
+* Yongqian Li
 
 # Approved RFCs
 
-
+* [Update RFC 195 to account for RFC
+  246](https://github.com/rust-lang/rfcs/pull/865). Just accounting
+  for the `const`/`static` distinction in the associated items RFC.
+* [Clarify cast rules, especially regarding fat
+  pointers](https://github.com/rust-lang/rfcs/pull/1052). Updates RFC
+  401: coercions.
+* [RFC 1156: Adjust default object
+  bounds](https://github.com/rust-lang/rfcs/blob/master/text/1156-adjust-default-object-bounds.md). This
+  is a stable breaking change (the first) to the default lifetime
+  bounds of trait objects.
 
 # Final Comment Period
 
+Every week the teams announce a 'final comment period' for RFCs which
+are close to reaching a conclusion. Express your opinions now. [This
+week's][fcp] RFCs entering FCP are:
+
+[fcp]: https://github.com/rust-lang/rfcs/pulls?q=is%3Aopen+is%3Apr+label%3Afinal-comment-period
+
+* [Allow closure expressions to expand to a `&` or `&mut` temporary](https://github.com/rust-lang/rfcs/pull/756).
+* [Allow macros in types](https://github.com/rust-lang/rfcs/pull/873).
+* [read_all](https://github.com/rust-lang/rfcs/pull/980).
+* [Add read_into_buf and get_buf to BufRead](https://github.com/rust-lang/rfcs/pull/1015).
+* [Rename `connect` to `join`](https://github.com/rust-lang/rfcs/pull/1102).
+* [Implement `FromIterator` for the unit type](https://github.com/rust-lang/rfcs/pull/1130).
+* [Add some of `[T]`'s methods to strings and vice-versa](https://github.com/rust-lang/rfcs/pull/1152).
 
 # New RFCs
 
-
-# Internals discussions
-
-# Friend of the Tree
-
-The Rust Team likes to occassionally recognize people who have made
-outstanding contributions to The Rust Project, its ecosystem, and its
-community. These people are 'friends of the tree'.
-
-This week's friend of the tree was ...
-
-# Crate of the Week
-
-There are so many crates! It's easy to lose track of the good ones,
-like [THING].
-
-THING is a ...
-
+* [Make `size` an associated constant](https://github.com/rust-lang/rfcs/pull/1168).
 
 # Upcoming Events
 
@@ -126,12 +161,3 @@ Anderson][brson] for access.
 [erickt]: mailto:erick.tryzelaar@gmail.com
 [brson]: mailto:banderson@mozilla.com
 
-# Quote of the Week
-
-*"Quote"*
-
-Explanation and link.
-
-Thanks to XXX for the tip. [Submit your quotes for next week!][submit].
-
-[submit]: http://users.rust-lang.org/t/twir-quote-of-the-week/328
