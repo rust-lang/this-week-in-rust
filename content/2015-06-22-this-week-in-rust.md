@@ -43,6 +43,8 @@ This week's edition was edited by: [Brian Anderson](https://github.com/brson), [
 * [Rust Dispatcher](https://github.com/timonv/rdispatcher). Dispatcher for Rust, broadcast and subscribe many to many.
 * [rust-vim-setup](https://github.com/ivanceras/rust-vim-setup). Use VIM as your Rust IDE - set of bash scripts and a customised `vimrc` for Rust development.
 * [Herd](https://github.com/imjacobclark/herd). An experimental HTTP load testing application written in Rust.
+* [MaidSafe's Rust rewrite is going well](https://forum.safenetwork.io/t/maidsafe-dev-update-8th-june-2015/4069).
+* [claxon](https://github.com/ruud-v-a/claxon). A FLAC decoder.
 
 [Rust by example](http://rustbyexample.com/) has receieved a number of
 improvements recently:
