@@ -15,7 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 This week's edition was edited by: [Brian Anderson](https://github.com/brson), [Vikrant Chaudhary](https://github.com/nasa42), [Andrew Gallant](https://github.com/BurntSushi), and [mdinger](https://github.com/mdinger).
 
-# From Blogosphere
+# From the Blogosphere
 
 * [Exceptional results: error handling with C# and Rust](https://ruudvanasseldonk.com/2015/06/17/exceptional-results-error-handling-in-csharp-and-rust). Exceptions based error handling in C# vs Rust's monadic approach.
 * [Rust Torrent](http://pietro.menna.net.br/recurse-center/rust/2015/06/19/rusty-torrent/). Pietro Menna shares his experiece of writing a BitTorrent client in Rust.
@@ -28,7 +28,7 @@ This week's edition was edited by: [Brian Anderson](https://github.com/brson), [
 * [Rust error stacktraces](http://phildawes.net/blog/2015/06/17/rust-stacktrace/). Get stacktrace from errors in production code.
 * [Benchmarking in Rust with `libtest`](https://llogiq.github.io/2015/06/16/bench.html).
 
-# In News
+# In the News
 
 * [Google Bazel added support for Rust](https://github.com/google/bazel/tree/master/tools/build_rules/rust).
 * [Impala: a Rust dialect that can partially evaluate functions at compile time and produce GPU code](http://compilers.cs.uni-saarland.de/papers/ppl14_web.pdf).
@@ -75,7 +75,9 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
 
 # Other Changes
 
-
+* Thanks to Ashesh Kumar for pointing out that rust-lang.org was not
+  configured with DMARC to prevent spoofing. The misconfiguration has
+  now been corrected.
 
 # New Contributors
 
@@ -85,16 +87,13 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
 
 
 
+# Final Comment Period
+
+
 # New RFCs
 
 
-# Betawatch!
-
-The current beta is `1.0.0-beta.3 (5241bf9c3 2015-04-25)`.
-
-There were X PRs this week landing backports to beta.
-
-* [NNNNN](link).
+# Internals discussions
 
 # Friend of the Tree
 
@@ -103,8 +102,6 @@ outstanding contributions to The Rust Project, its ecosystem, and its
 community. These people are 'friends of the tree'.
 
 This week's friend of the tree was ...
-
-# Internals discussions
 
 # Crate of the Week
 

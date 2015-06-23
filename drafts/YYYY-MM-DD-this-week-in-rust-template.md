@@ -15,16 +15,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 This week's edition was edited by: WHO??
 
-# Notable Links
+# From the Blogosphere
 
-* [Weekly-meetings/2014-18-11][mtg]: what? [Reddit][mtg-reddit].
+# Tips & Tricks
 
-[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-18-11.md
-[mtg-reddit]:
+# In the News
 
-
-# Project Updates
-
+# New Releases & Project Updates
 
 # What's cooking on master?
 
@@ -55,13 +52,7 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
 # New RFCs
 
 
-# Betawatch!
-
-The current beta is `1.0.0-beta.3 (5241bf9c3 2015-04-25)`.
-
-There were X PRs this week landing backports to beta.
-
-* [NNNNN](link).
+# Internals discussions
 
 # Friend of the Tree
 
@@ -71,7 +62,6 @@ community. These people are 'friends of the tree'.
 
 This week's friend of the tree was ...
 
-# Internals discussions
 
 # Crate of the Week
 
