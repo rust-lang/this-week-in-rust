@@ -46,7 +46,7 @@ This week's edition was edited by: [Brian Anderson](https://github.com/brson), [
 * [MaidSafe's Rust rewrite is going well](https://forum.safenetwork.io/t/maidsafe-dev-update-8th-june-2015/4069).
 * [claxon](https://github.com/ruud-v-a/claxon). A FLAC decoder.
 
-[Rust by example](http://rustbyexample.com/) has receieved a number of
+[Rust by example](http://rustbyexample.com/) has received a number of
 improvements recently:
 
 * February 15, 2015: The [flow control
