@@ -62,6 +62,18 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
 * [MSVC: Implement runtime support for unwinding](https://github.com/rust-lang/rust/pull/26569). A key aspect is missing, however, which is that unwinding is still turned off by default for MSVC.
 * [Suggest missing trait bounds when a method exists but the bounds aren't satisfied](https://github.com/rust-lang/rust/pull/26435).
 
+# New Contributors
+
+* Andy Grover
+* Brody Holden
+* Christian Persson
+* Cruz Julian Bishop
+* Dirkjan Ochtman
+* Gulshan Singh
+* Jake Hickey
+* Makoto Kato
+* Yongqian Li
+
 # Final Comment Period
 
 Every week the teams announce a 'final comment period' for RFCs which
