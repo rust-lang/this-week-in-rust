@@ -23,15 +23,11 @@ This week's edition was edited by: WHO??
 
 # New Releases & Project Updates
 
-# What's cooking on master?
+# What's cooking on nightly?
 
 XXX pull requests were [merged in the last week][merged].
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-05-18..2015-06-07
-
-# Other Changes
-
-
 
 # New Contributors
 
