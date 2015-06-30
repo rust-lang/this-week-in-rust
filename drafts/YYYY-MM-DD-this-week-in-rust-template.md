@@ -29,14 +29,6 @@ XXX pull requests were [merged in the last week][merged].
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-05-18..2015-06-07
 
-Now you can follow breaking changes *[as they happen][BitRust2]*!
-
-[BitRust2]: http://killercup.github.io/bitrust/
-
-# Breaking Changes
-
-
-
 # Other Changes
 
 
