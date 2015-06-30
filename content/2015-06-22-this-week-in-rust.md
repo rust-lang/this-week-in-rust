@@ -53,8 +53,7 @@ improvements recently:
   section](http://rustbyexample.com/flow_control.html) was
   [created](https://github.com/rust-lang/rust-by-example/pull/421) to
   house all flow control operations together.
-* March 21, 2015: The [formatting section](http://rustbyexample.com/
-  hello/print.html) was
+* March 21, 2015: The [formatting section](http://rustbyexample.com/hello/print.html) was
   [revised](https://github.com/rust-lang/rust-by-example/pull/496) so
   new users are immediately confronted with the distinction of `Debug`
   and `Display` and how to deal with them.
