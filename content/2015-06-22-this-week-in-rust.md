@@ -108,7 +108,7 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
 * [Pass fat pointers in two immediate
   arguments](https://github.com/rust-lang/rust/pull/26411). More
   codegen improvements from dotdash.
-* [Add FromRow{Fd,Handle,Socket} to os
+* [Add FromRaw{Fd,Handle,Socket} to os
   preludes](https://github.com/rust-lang/rust/pull/26413).
 * [Custom Debug impl for
   io::Error](https://github.com/rust-lang/rust/pull/26416).
