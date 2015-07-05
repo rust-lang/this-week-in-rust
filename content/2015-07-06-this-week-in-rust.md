@@ -40,7 +40,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # New Contributors
 
-
+* Adam Heins
+* Alex Newman
+* Christian Persson
+* Eljay
+* Kagami Sascha Rosylight
 
 # Approved RFCs
 
