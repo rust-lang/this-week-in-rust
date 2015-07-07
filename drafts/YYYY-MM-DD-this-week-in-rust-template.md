@@ -5,32 +5,29 @@ Category: This Week in Rust
 Hello and welcome to another issue of *This Week in Rust*!
 [Rust](http://rust-lang.org) is a systems language pursuing the trifecta:
 safety, concurrency, and speed. This is a weekly summary of its progress and
-community. Want something mentioned? [Send me an
-email!](mailto:corey@octayn.net?subject=This%20Week%20in%20Rust%20Suggestion)
+community. Want something mentioned? Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) or [send us an
+email](mailto:corey@octayn.net?subject=This%20Week%20in%20Rust%20Suggestion)!
 Want to get involved? [We love
 contributions](https://github.com/rust-lang/rust/wiki/Note-guide-for-new-contributors).
 
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
-If you find any errors or omissions in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
+If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-# What's cooking on master?
+This week's edition was edited by: WHO??
 
-XXX pull requests were [merged in the last week][merged], and XXX [RFC PRs][rfcs].
+# From the Blogosphere
 
-[merged]: https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-12..2015-01-18
-[rfcs]: https://github.com/rust-lang/rfcs/pulls?q=is%3Apr+is%3Amerged+merged%3A2015-01-12..2015-01-18
+# Tips & Tricks
 
-Now you can follow breaking changes *[as they happen][BitRust2]*!
+# In the News
 
-[BitRust2]: http://killercup.github.io/bitrust/
+# New Releases & Project Updates
 
-# Breaking Changes
+# What's cooking on nightly?
 
+XXX pull requests were [merged in the last week][merged].
 
-
-# Other Changes
-
-
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-05-18..2015-06-07
 
 # New Contributors
 
@@ -40,16 +37,20 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
 
 
 
+# Final Comment Period
+
+Every week the teams announce a 'final comment period' for RFCs which
+are reaching a decision. Express your opinions now. [This week's][fcp]
+RFCs entering FCP are:
+
+[fcp]: https://github.com/rust-lang/rfcs/pulls?q=is%3Aopen+is%3Apr+label%3Afinal-comment-period
+
+* TODO
+
 # New RFCs
 
 
-# Betawatch!
-
-The current beta is `1.0.0-beta.3 (5241bf9c3 2015-04-25)`.
-
-There were X PRs this week landing backports to beta.
-
-* [NNNNN](link).
+# Internals discussions
 
 # Friend of the Tree
 
@@ -58,16 +59,6 @@ outstanding contributions to The Rust Project, its ecosystem, and its
 community. These people are 'friends of the tree'.
 
 This week's friend of the tree was ...
-
-# Notable Links
-
-* [Weekly-meetings/2014-18-11][mtg]: what? [Reddit][mtg-reddit].
-
-[mtg]: https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2014-18-11.md
-[mtg-reddit]:
-
-
-# Project Updates
 
 
 # Crate of the Week
