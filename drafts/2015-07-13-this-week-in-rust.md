@@ -29,13 +29,18 @@ XXX pull requests were [merged in the last week][merged].
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-07-06..2015-07-13
 
+* [Linux installation will try harder to set up the dynamic linker](https://github.com/rust-lang/rust-installer/pull/41), fixing a bad first-run issue where Fedora systems can't run rustc out of the box.
+* The `#[prelude_import]` attribute, which is employed by rustc to perform [dark](https://github.com/rust-lang/rust/blob/6a3b385cbd6b9044b4447da96aad066e8b257ddf/src/libsyntax/std_inject.rs#L164) and [mysterious](https://github.com/rust-lang/rust/blob/6a3b385cbd6b9044b4447da96aad066e8b257ddf/src/librustc_resolve/build_reduced_graph.rs#L292-L294) acts, but is not supposed to be stable. This is not known to break real code.
+* `rustc` on Windows now [looks in the registry](https://github.com/rust-lang/rust/pull/26741) to find the location of the MSVC linker.
+
 # New Contributors
 
 
 
 # Approved RFCs
 
-
+* [RFC 1058: Replace `slice.tail()`, `slice.init()` with new methods `slice.split_first()`, `slice.split_last()`](https://github.com/rust-lang/rfcs/blob/master/text/1058-slice-tail-redesign.md).
+* [RFC 1102: Rename `connect` to `join`](https://github.com/rust-lang/rfcs/blob/master/text/1102-rename-connect-to-join.md).
 
 # Final Comment Period
 
