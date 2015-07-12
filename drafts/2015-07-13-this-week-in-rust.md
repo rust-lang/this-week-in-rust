@@ -57,13 +57,17 @@ This week's edition was edited by: Brian Anderson
 
 # Final Comment Period
 
-Every week the teams announce a 'final comment period' for RFCs which
-are reaching a decision. Express your opinions now. [This week's][fcp]
-RFCs entering FCP are:
+Every week the teams announce a 'final comment period' for RFCs and
+key PRs which are reaching a decision. Express your opinions
+now. [This week's FCPs][fcp] are:
 
-[fcp]: https://github.com/rust-lang/rfcs/pulls?q=is%3Aopen+is%3Apr+label%3Afinal-comment-period
+[fcp]: https://github.com/issues?utf8=%E2%9C%93&q=is%3Apr+org%3Arust-lang+label%3Afinal-comment-period+is%3Aopen+updated%3A2015-07-06..2015-07-13
 
-* TODO
+* [Add a method `lines_any` to `BufRead`](https://github.com/rust-lang/rust/pull/26743)
+* [RFC for creation of `IntoRaw{Fd, Socket, Handle}` trait to complement `AsRaw*`](https://github.com/rust-lang/rfcs/pull/1174)
+* [RFC: Expand the std::net module](https://github.com/rust-lang/rfcs/pull/1158)
+* [RFC: Allow re-exporting associated items with `use`](https://github.com/rust-lang/rfcs/pull/1150)
+* [Allow macros in types](https://github.com/rust-lang/rfcs/pull/873)
 
 # New RFCs
 

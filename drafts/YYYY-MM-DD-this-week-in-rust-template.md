@@ -39,11 +39,11 @@ XXX pull requests were [merged in the last week][merged].
 
 # Final Comment Period
 
-Every week the teams announce a 'final comment period' for RFCs which
-are reaching a decision. Express your opinions now. [This week's][fcp]
-RFCs entering FCP are:
+Every week the teams announce a 'final comment period' for RFCs and
+key PRs which are reaching a decision. Express your opinions
+now. [This week's FCPs][fcp] are:
 
-[fcp]: https://github.com/rust-lang/rfcs/pulls?q=is%3Aopen+is%3Apr+label%3Afinal-comment-period
+[fcp]: https://github.com/issues?utf8=%E2%9C%93&q=is%3Apr+org%3Arust-lang+label%3Afinal-comment-period+is%3Aopen+updated%3A2015-07-06..2015-07-13
 
 * TODO
 
