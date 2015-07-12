@@ -71,6 +71,16 @@ now. [This week's FCPs][fcp] are:
 
 # New RFCs
 
+* [RFC for inclusive ranges with ...](https://github.com/rust-lang/rfcs/pull/1192)
+* [RFC: Prevent lint changes being a breaking change](https://github.com/rust-lang/rfcs/pull/1193)
+* [RFC: Add item recovery collection APIs](https://github.com/rust-lang/rfcs/pull/1194)
+* [ordered query API](https://github.com/rust-lang/rfcs/pull/1195)
+* [RFC for allowing eliding more type parameters](https://github.com/rust-lang/rfcs/pull/1196)
+* [pretty print `Debug` of tuples, tuple structs and enum variants in a single line](https://github.com/rust-lang/rfcs/pull/1198)
+* [SIMD groundwork](https://github.com/rust-lang/rfcs/pull/1199)
+* [RFC: Add `cargo install`](https://github.com/rust-lang/rfcs/pull/1200)
+* [Add support for naked functions](https://github.com/rust-lang/rfcs/pull/1201)
+
 
 # Internals discussions
 
