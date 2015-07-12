@@ -25,17 +25,30 @@ This week's edition was edited by: Brian Anderson
 
 # What's cooking on nightly?
 
-XXX pull requests were [merged in the last week][merged].
+122 pull requests were [merged in the last week][merged].
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-07-06..2015-07-13
 
+* [1.2 beta will issue warnings about code that will break](https://github.com/rust-lang/rust/pull/26829) when [RFC 1156](https://github.com/rust-lang/rfcs/blob/master/text/1156-adjust-default-object-bounds.md) is implemented. This approved breaking change will fix a major wart and is thought to break no real code.
 * [Linux installation will try harder to set up the dynamic linker](https://github.com/rust-lang/rust-installer/pull/41), fixing a bad first-run issue where Fedora systems can't run rustc out of the box.
 * The `#[prelude_import]` attribute, which is employed by rustc to perform [dark](https://github.com/rust-lang/rust/blob/6a3b385cbd6b9044b4447da96aad066e8b257ddf/src/libsyntax/std_inject.rs#L164) and [mysterious](https://github.com/rust-lang/rust/blob/6a3b385cbd6b9044b4447da96aad066e8b257ddf/src/librustc_resolve/build_reduced_graph.rs#L292-L294) acts, but is not supposed to be stable. This is not known to break real code.
 * `rustc` on Windows now [looks in the registry](https://github.com/rust-lang/rust/pull/26741) to find the location of the MSVC linker.
+* Inspired by some [poor I/O performance on the forums](https://users.rust-lang.org/t/reading-from-stdin-performance/2025), bluss dug into the problem [and pulled out some big improvements in zero-filling](https://github.com/rust-lang/rust/pull/26849) that greatly improve the performance of `Vec::resize` and `Read::read_to_end`.
+* GuillaumeGomez [added a host](https://github.com/rust-lang/rust/pull/26742) of [new error explanations](https://github.com/rust-lang/rust/pull/26879).
+* dotdash got some [huge improvements in the performance of `PartialEq` for slices](https://github.com/rust-lang/rust/pull/26884).
+* `rustc` now uses [LLVM to write archive files where possible](https://github.com/rust-lang/rust/pull/26926). Eventually this will eliminate the compiler's dependency on the `ar` utility.
+* [Add `String::into_boxed_slice` and `Box<str>::into_string`](https://github.com/rust-lang/rust/pull/26931).
+* Dave Huseby added [initial support for FreeBSD on i686](https://github.com/rust-lang/rust/pull/26959). Rust has long worked on 64-bit FreeBSD.
+* Simon [updated the gedit syntax highlighter](https://github.com/rust-lang/gedit-config/pull/8).
 
 # New Contributors
 
-
+* Alex HotShot Newman
+* Christian Weinz
+* Esption
+* Georg Brandl
+* Jesús Espino
+* jethrogb
 
 # Approved RFCs
 
