@@ -17,11 +17,24 @@ This week's edition was edited by: Brian Anderson
 
 # From the Blogosphere
 
-# Tips & Tricks
-
-# In the News
+* [Rust in Detail: Writing Scalable Chat Service from Scratch](https://nbaksalyar.github.io/2015/07/10/writing-chat-in-rust.html).
+* [Reading Rust Function Signatures](http://hoverbear.org/2015/07/10/reading-rust-function-signatures/). How to read function signatures and extract information from them.
+* [Collecting Results from Collections](http://hoverbear.org/2015/07/08/a-useful-error-pattern/). Use `.collect()` to transform `Vec<Result<()>>` into `Result<Vec<()>>`.
+* [Easier libc in Rust](https://mobiarch.wordpress.com/2015/07/03/easy-libc-in-rust/). An index of some of the most commonly used libc calls and their higher level wrappers.
+* [Importing C constants: Proof of Concept](http://vojtech.kral.hk/en/rust-importing-c-constants-proof-of-concept/). A proof-of-concept rustc plugin that imports C macro constants from C include files at compile time.
+* [A Pythonist getting Rusty these days... (Part 2)](https://wafflespeanut.github.io/blog/2015/07/08/a-pythonist-getting-rusty-these-days-dot-dot-dot-part-2/). Rust from a Python developer's perspective (part 2).
+* [Converting longitude and latitude coordinates into BNG coordinates](http://sensitivecities.com/rust-python-ffi-bng-EN.html).
+* [ArcadeRS - making a simple game in Rust](https://jadpole.github.io/2015/185/arcaders-1-0/).
+* [opinion] [Why Go and Rust are Competitors](http://www.doxsey.net/blog/why-go-and-rust-are-competitors/).
 
 # New Releases & Project Updates
+
+* [stdx](https://github.com/brson/stdx). Curated collection of well-regarded Rust crates.
+* [ipc-channel](https://github.com/pcwalton/ipc-channel). A multiprocess drop-in replacement for Rust channels.
+* [rocket](https://github.com/aochagavia/rocket).  A toy game in Rust, using Piston.
+* [forkjoin](https://github.com/faern/forkjoin). A work stealing fork-join parallelism library for Rust.
+* [capsize](https://github.com/softprops/capsize). Conversions between units of capacity.
+* [porthole](https://github.com/softprops/porthole). A tiny rust crate for resolving the next available network port.
 
 # What's cooking on nightly?
 
@@ -29,6 +42,7 @@ This week's edition was edited by: Brian Anderson
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-07-06..2015-07-13
 
+* [bluss](https://github.com/bluss) updated [substring search to use the Two Way algorithm](https://github.com/rust-lang/rust/pull/26327). 
 * [1.2 beta will issue warnings about code that will break](https://github.com/rust-lang/rust/pull/26829) when [RFC 1156](https://github.com/rust-lang/rfcs/blob/master/text/1156-adjust-default-object-bounds.md) is implemented. This approved breaking change will fix a major wart and is thought to break no real code.
 * [Linux installation will try harder to set up the dynamic linker](https://github.com/rust-lang/rust-installer/pull/41), fixing a bad first-run issue where Fedora systems can't run rustc out of the box.
 * The `#[prelude_import]` attribute, which is employed by rustc to perform [dark](https://github.com/rust-lang/rust/blob/6a3b385cbd6b9044b4447da96aad066e8b257ddf/src/libsyntax/std_inject.rs#L164) and [mysterious](https://github.com/rust-lang/rust/blob/6a3b385cbd6b9044b4447da96aad066e8b257ddf/src/librustc_resolve/build_reduced_graph.rs#L292-L294) acts, but is not supposed to be stable. This is not known to break real code.
@@ -81,29 +95,12 @@ now. [This week's FCPs][fcp] are:
 * [RFC: Add `cargo install`](https://github.com/rust-lang/rfcs/pull/1200)
 * [Add support for naked functions](https://github.com/rust-lang/rfcs/pull/1201)
 
-
-# Internals discussions
-
-# Friend of the Tree
-
-The Rust Team likes to occassionally recognize people who have made
-outstanding contributions to The Rust Project, its ecosystem, and its
-community. These people are 'friends of the tree'.
-
-This week's friend of the tree was ...
-
-
-# Crate of the Week
-
-There are so many crates! It's easy to lose track of the good ones,
-like [THING].
-
-THING is a ...
-
-
 # Upcoming Events
 
-* [What?]
+* [7/15. Tokyo Rust Monthly Meetup](https://rust.doorkeeper.jp/events/27068).
+* [7/15. Rust Los Angeles Monthly Meetup](http://www.meetup.com/Rust-Los-Angeles/events/223341178).
+* [7/20. Rust Paris](http://www.meetup.com/Rust-Paris).
+* [7/22. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -115,10 +112,8 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
-*"Quote"*
+*I think if someone placed the Rust and Go community in a room and asked them to fight, we'd probably just all order pizza and geek out over languages.* — [Manish Goregaokar](https://www.reddit.com/r/rust/comments/3cj69b/why_go_and_rust_are_competitors/csw5t5v)
 
-Explanation and link.
-
-Thanks to XXX for the tip. [Submit your quotes for next week!][submit].
+Thanks to [msiemens](https://users.rust-lang.org/users/msiemens) for the tip. [Submit your quotes for next week!][submit].
 
 [submit]: http://users.rust-lang.org/t/twir-quote-of-the-week/328
