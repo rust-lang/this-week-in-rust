@@ -13,6 +13,8 @@ contributions](https://github.com/rust-lang/rust/wiki/Note-guide-for-new-contrib
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
+This week's edition was edited by: Brian Anderson
+
 # From the Blogosphere
 
 * [Two reasons the Rust language will succeed](http://www.infoworld.com/article/2947214/open-source-tools/two-reasons-the-rust-language-will-succeed.html). _As good as the Rust project may be, its community is even better_.
@@ -40,9 +42,29 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # What's cooking on nightly?
 
+[bors](https://github.com/bors) underwent a [sudden unscheduled
+uprade](https://internals.rust-lang.org/t/buildbot-is-down-for-a-bit/2365/4)
+this week, incurring unusual ammounts of downtime. Thankfully, [Manish
+crafted an epic rollup](https://github.com/rust-lang/rust/pull/27066)
+to make up some of the slack.
+
 XXX pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-05-18..2015-06-07
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-07-13..2015-07-20
+
+* [Implement `DerefMut` for
+ `String`](https://github.com/rust-lang/rust/pull/26241)
+* [Add specializations of read_to_end for Stdin and File using
+  uninitialised buffers](https://github.com/rust-lang/rust/pull/26950)
+* [Allow semi tokens after macro
+  ty/path](https://github.com/rust-lang/rust/pull/27000). See [the
+  test
+  case](https://github.com/alexcrichton/rust/blob/af556238ebe72d58adbcf339bd2fa0aef4e3caf9/src/test/run-pass/semi-after-macro-ty.rs)
+  for an example of what this means.
+* [LLVM was updated to
+  3.7](https://github.com/rust-lang/rust/pull/27076). Includes
+  improved 32-bit MSVC, archive writing, and some performance
+  improvements and minor fixes.
 
 # New Contributors
 
@@ -50,13 +72,21 @@ XXX pull requests were [merged in the last week][merged].
 
 # Approved RFCs
 
+Changes to Rust follow the Rust [RFC (request for comments)
+process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
 
+* [RFC for creation of `IntoRaw{Fd, Socket, Handle}` trait to
+  complement
+  `AsRaw*`](https://github.com/rust-lang/rfcs/pull/1174). This
+  provides interop between the standard library's I/O and other
+  out-of-tree platform-specific APIs.
 
 # Final Comment Period
 
-Every week the teams announce a 'final comment period' for RFCs and
-key PRs which are reaching a decision. Express your opinions
-now. [This week's FCPs][fcp] are:
+Every week [the team](https://rust-lang.org/team.html) announces the
+'final comment period' for RFCs and key PRs which are reaching a
+decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/issues?utf8=%E2%9C%93&q=is%3Apr+org%3Arust-lang+label%3Afinal-comment-period+is%3Aopen+updated%3A2015-07-06..2015-07-13
 
@@ -66,6 +96,14 @@ now. [This week's FCPs][fcp] are:
 
 
 # Internals discussions
+
+# Subteam reports
+
+Every week the [Rust teams](http://www.rust-lang.org/team.html)
+release a report on what is going on in their corner of the
+project. Here are the highlights from [This week's report](TODO).
+
+* TODO
 
 # Friend of the Tree
 
@@ -82,7 +120,6 @@ There are so many crates! It's easy to lose track of the good ones,
 like [THING].
 
 THING is a ...
-
 
 # Upcoming Events
 
