@@ -94,8 +94,23 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 # New RFCs
 
+* [Update FOLLOW set for `ty` tokens](https://github.com/rust-lang/rfcs/pull/1209)
+* [RFC: impl specialization](https://github.com/rust-lang/rfcs/pull/1210)
+* [[RFC] Introduce a mid-level IR (MIR) in the compiler that will drive borrowck, trans](https://github.com/rust-lang/rfcs/pull/1211)
+* [RFC: line-endings](https://github.com/rust-lang/rfcs/pull/1212)
+* [RFC: The Life and Death of an API](https://github.com/rust-lang/rfcs/pull/1213)
 
 # Internals discussions
+
+* [Pre-RFC: SIMD
+  groundwork](https://internals.rust-lang.org/t/pre-rfc-simd-groundwork/2343/11). Huon
+  is working on SIMD and is still soliciting feedback.
+* [Adding “minifloats” (f24, f16, f8) as native types](https://internals.rust-lang.org/t/adding-minifloats-f24-f16-f8-as-native-types/2367/1)
+* [Pre-RFC: Explicit Opt-in OIBIT for truly POD data and safe transmutes](https://internals.rust-lang.org/t/pre-rfc-explicit-opt-in-oibit-for-truly-pod-data-and-safe-transmutes/2361/9)
+* [Implementation of `try!` that works with `Option` and `Result`](https://internals.rust-lang.org/t/implementation-of-try-that-works-with-option-and-result/2348/10)
+* [Core team meeting 2015-07-15 (Regression testing; Servo breakage; Connect to join; Specialization + dropck)](https://internals.rust-lang.org/t/core-team-meeting-2015-07-15-regression-testing-servo-breakage-connect-to-join-specialization-dropck/2369/1)
+* [Pre-RFC: become-assignments for reliable RVO/DPS](https://internals.rust-lang.org/t/pre-rfc-become-assignments-for-reliable-rvo-dps/2363/1)
+* [Pre-RFC solidifying repr(Rust)](https://internals.rust-lang.org/t/pre-rfc-solidifying-repr-rust/2306/1)
 
 # Subteam reports
 
