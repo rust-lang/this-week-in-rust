@@ -13,15 +13,30 @@ contributions](https://github.com/rust-lang/rust/wiki/Note-guide-for-new-contrib
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-This week's edition was edited by: WHO??
-
 # From the Blogosphere
 
-# Tips & Tricks
-
-# In the News
+* [Two reasons the Rust language will succeed](http://www.infoworld.com/article/2947214/open-source-tools/two-reasons-the-rust-language-will-succeed.html). _As good as the Rust project may be, its community is even better_.
+* [Holy std::borrow::Cow](https://llogiq.github.io/2015/07/09/cow.html), also [Redux](https://llogiq.github.io/2015/07/09/cow.html): Llogiq investigates Cow usage and implementation.
+* [`ijson` in Rust](http://softwaremaniacs.org/blog/category/ijson-in-rust/en/). A series of posts on implementing a streaming JSON parser.
+* [A Rusting Rubyist III](https://medium.com/@mfpiccolo/a-rusting-rubyist-iii-5db9915e3269). Rust HTTP Requests in a Ruby Module.
+* [Profiling Rust applications on Linux](https://llogiq.github.io/2015/07/15/profiling.html).
+* [Understanding Lifetime in Rust – Part II](https://mobiarch.wordpress.com/2015/07/08/understanding-lifetime-in-rust-part-ii-3/).
+* [Traits as Higher-order Functions](http://sproul.io/blog/posts/traits-as-hof-in-rust.html).
+* [Understanding `mio` and Asynchronous IO](http://hermanradtke.com/2015/07/12/my-basic-understanding-of-mio-and-async-io.html).
+* [Building a Random Friend Dialer Part 1: Getting Started with Rust and Iron](https://www.twilio.com/blog/2015/07/building-a-random-friend-dialer-part-1-getting-started-with-rust-and-iron.html).
+* [Parsing ISO8601 dates using nom](https://fnordig.de/2015/07/16/omnomnom-parsing-iso8601-dates-using-nom/).
+* [podcast] [Rusty radio - episode 2](http://rustyrad.io/podcast/2/). Featuring Alex Newman, Ben Striegel, Carl Lerche of [tilde.io](http://tilde.io), and Jonathan Reem of [terminal.com](http://terminal.com).
+* [video] [Rust: A type system you didn't know you wanted](https://www.youtube.com/watch?v=Q7lQCgnNWU0).
 
 # New Releases & Project Updates
+
+* [chan](https://github.com/BurntSushi/chan). Multi-producer, multi-consumer concurrent channel for Rust.
+* [cargo-check](https://github.com/rsolomo/cargo-check). Wrapper around `cargo rustc -- -Zno-trans`.
+* [Raft: New Crates!](http://hoverbear.org/2015/07/16/raft-new-crates/). Two new crates `wrapped_enum` (use multiple `try!()` with different errors) and `scoped_log` (log log context to logs) from Raft developers.
+* [rust-memalloc](https://github.com/reem/rust-memalloc). Raw allocation APIs in stable rust.
+* [newtype_macros](https://github.com/arienmalec/newtype_macros). Tuple structs with a single member, intended to be used for wrapping types to create new semantics for an underlying type.
+* [capnp-ffi](https://github.com/waynenilsen/capnp-ffi). Use Cap'n Proto as a better method of FFI communication.
+* [rust-farmhash](https://github.com/seiflotfy/rust-farmhash). Port of Google's Farmhash version 1.1 to pure Rust.
 
 # What's cooking on nightly?
 
@@ -71,7 +86,7 @@ THING is a ...
 
 # Upcoming Events
 
-* [What?]
+* [7/22. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -83,10 +98,8 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
-*"Quote"*
+*Rust is very much about only paying for what you need, and often you don't need much, but when you do need something, Rust is more than ready to rummage in your wallet for loose change.* — [Manish Goregaokar](https://www.reddit.com/r/rust/comments/3cj69b/why_go_and_rust_are_competitors/csw5t5v)
 
-Explanation and link.
-
-Thanks to XXX for the tip. [Submit your quotes for next week!][submit].
+Thanks to [llogiq](https://users.rust-lang.org/users/llogiq) for the tip. [Submit your quotes for next week!][submit].
 
 [submit]: http://users.rust-lang.org/t/twir-quote-of-the-week/328
