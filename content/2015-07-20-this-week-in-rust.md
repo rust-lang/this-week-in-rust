@@ -13,6 +13,8 @@ contributions](https://github.com/rust-lang/rust/wiki/Note-guide-for-new-contrib
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
+This week's edition was edited by: Brian Anderson
+
 # From the Blogosphere
 
 * [Two reasons the Rust language will succeed](http://www.infoworld.com/article/2947214/open-source-tools/two-reasons-the-rust-language-will-succeed.html). _As good as the Rust project may be, its community is even better_.
@@ -40,53 +42,86 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # What's cooking on nightly?
 
-XXX pull requests were [merged in the last week][merged].
+[bors](https://github.com/bors) underwent a [sudden unscheduled
+uprade](https://internals.rust-lang.org/t/buildbot-is-down-for-a-bit/2365/4)
+this week, incurring unusual ammounts of downtime. Thankfully, [Manish
+crafted an epic rollup](https://github.com/rust-lang/rust/pull/27066)
+to make up some of the slack.
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-05-18..2015-06-07
+98 pull requests were [merged in the last week][merged].
+
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-07-13..2015-07-20
+
+* [Implement `DerefMut` for
+ `String`](https://github.com/rust-lang/rust/pull/26241)
+* [Add specializations of read_to_end for Stdin and File using
+  uninitialised buffers](https://github.com/rust-lang/rust/pull/26950)
+* [Allow semi tokens after macro
+  ty/path](https://github.com/rust-lang/rust/pull/27000). See [the
+  test
+  case](https://github.com/alexcrichton/rust/blob/af556238ebe72d58adbcf339bd2fa0aef4e3caf9/src/test/run-pass/semi-after-macro-ty.rs)
+  for an example of what this means.
+* [LLVM was updated to
+  3.7](https://github.com/rust-lang/rust/pull/27076). Includes
+  improved 32-bit MSVC, archive writing, and some performance
+  improvements and minor fixes.
 
 # New Contributors
 
-
+* arthurprs
+* Frank McSherry
+* Jose Narvaez
+* Kristof Söderström
+* Ryan Pendleton
+* Vincent Bernat
+* Vladimir Rutsky
 
 # Approved RFCs
 
+Changes to Rust follow the Rust [RFC (request for comments)
+process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
 
+* [RFC for creation of `IntoRaw{Fd, Socket, Handle}` trait to
+  complement
+  `AsRaw*`](https://github.com/rust-lang/rfcs/pull/1174). This
+  provides interop between the standard library's I/O and other
+  out-of-tree platform-specific APIs.
 
 # Final Comment Period
 
-Every week the teams announce a 'final comment period' for RFCs and
-key PRs which are reaching a decision. Express your opinions
-now. [This week's FCPs][fcp] are:
+Every week [the team](https://rust-lang.org/team.html) announces the
+'final comment period' for RFCs and key PRs which are reaching a
+decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/issues?utf8=%E2%9C%93&q=is%3Apr+org%3Arust-lang+label%3Afinal-comment-period+is%3Aopen+updated%3A2015-07-06..2015-07-13
 
-* TODO
+* [RFC: Expand the std::net module](https://github.com/rust-lang/rfcs/pull/1158)
 
 # New RFCs
 
+* [Update FOLLOW set for `ty` tokens](https://github.com/rust-lang/rfcs/pull/1209)
+* [RFC: impl specialization](https://github.com/rust-lang/rfcs/pull/1210)
+* [[RFC] Introduce a mid-level IR (MIR) in the compiler that will drive borrowck, trans](https://github.com/rust-lang/rfcs/pull/1211)
+* [RFC: line-endings](https://github.com/rust-lang/rfcs/pull/1212)
+* [RFC: The Life and Death of an API](https://github.com/rust-lang/rfcs/pull/1213)
 
 # Internals discussions
 
-# Friend of the Tree
-
-The Rust Team likes to occassionally recognize people who have made
-outstanding contributions to The Rust Project, its ecosystem, and its
-community. These people are 'friends of the tree'.
-
-This week's friend of the tree was ...
-
-
-# Crate of the Week
-
-There are so many crates! It's easy to lose track of the good ones,
-like [THING].
-
-THING is a ...
-
+* [Pre-RFC: SIMD
+  groundwork](https://internals.rust-lang.org/t/pre-rfc-simd-groundwork/2343/11). Huon
+  is working on SIMD and is still soliciting feedback.
+* [Adding “minifloats” (f24, f16, f8) as native types](https://internals.rust-lang.org/t/adding-minifloats-f24-f16-f8-as-native-types/2367/1)
+* [Pre-RFC: Explicit Opt-in OIBIT for truly POD data and safe transmutes](https://internals.rust-lang.org/t/pre-rfc-explicit-opt-in-oibit-for-truly-pod-data-and-safe-transmutes/2361/9)
+* [Implementation of `try!` that works with `Option` and `Result`](https://internals.rust-lang.org/t/implementation-of-try-that-works-with-option-and-result/2348/10)
+* [Core team meeting 2015-07-15 (Regression testing; Servo breakage; Connect to join; Specialization + dropck)](https://internals.rust-lang.org/t/core-team-meeting-2015-07-15-regression-testing-servo-breakage-connect-to-join-specialization-dropck/2369/1)
+* [Pre-RFC: become-assignments for reliable RVO/DPS](https://internals.rust-lang.org/t/pre-rfc-become-assignments-for-reliable-rvo-dps/2363/1)
+* [Pre-RFC solidifying repr(Rust)](https://internals.rust-lang.org/t/pre-rfc-solidifying-repr-rust/2306/1)
 
 # Upcoming Events
 
-* [7/22. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
+* [July 22. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
+* [August 1. RustCamp](http://www.rustcamp.com).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian

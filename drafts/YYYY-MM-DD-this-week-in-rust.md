@@ -35,13 +35,16 @@ XXX pull requests were [merged in the last week][merged].
 
 # Approved RFCs
 
+Changes to Rust follow the Rust [RFC (request for comments)
+process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
 
 
 # Final Comment Period
 
-Every week the teams announce a 'final comment period' for RFCs and
-key PRs which are reaching a decision. Express your opinions
-now. [This week's FCPs][fcp] are:
+Every week [the team](https://rust-lang.org/team.html) announces the
+'final comment period' for RFCs and key PRs which are reaching a
+decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/issues?utf8=%E2%9C%93&q=is%3Apr+org%3Arust-lang+label%3Afinal-comment-period+is%3Aopen+updated%3A2015-07-06..2015-07-13
 
@@ -51,6 +54,14 @@ now. [This week's FCPs][fcp] are:
 
 
 # Internals discussions
+
+# Subteam reports
+
+Every week the [Rust teams](http://www.rust-lang.org/team.html)
+release a report on what is going on in their corner of the
+project. Here are the highlights from [This week's report](TODO).
+
+* TODO
 
 # Friend of the Tree
 
