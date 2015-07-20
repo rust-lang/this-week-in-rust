@@ -48,7 +48,7 @@ this week, incurring unusual ammounts of downtime. Thankfully, [Manish
 crafted an epic rollup](https://github.com/rust-lang/rust/pull/27066)
 to make up some of the slack.
 
-XXX pull requests were [merged in the last week][merged].
+98 pull requests were [merged in the last week][merged].
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-07-13..2015-07-20
 
@@ -68,7 +68,13 @@ XXX pull requests were [merged in the last week][merged].
 
 # New Contributors
 
-
+* arthurprs
+* Frank McSherry
+* Jose Narvaez
+* Kristof Söderström
+* Ryan Pendleton
+* Vincent Bernat
+* Vladimir Rutsky
 
 # Approved RFCs
 
@@ -90,7 +96,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/issues?utf8=%E2%9C%93&q=is%3Apr+org%3Arust-lang+label%3Afinal-comment-period+is%3Aopen+updated%3A2015-07-06..2015-07-13
 
-* TODO
+* [RFC: Expand the std::net module](https://github.com/rust-lang/rfcs/pull/1158)
 
 # New RFCs
 
@@ -112,33 +118,10 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Pre-RFC: become-assignments for reliable RVO/DPS](https://internals.rust-lang.org/t/pre-rfc-become-assignments-for-reliable-rvo-dps/2363/1)
 * [Pre-RFC solidifying repr(Rust)](https://internals.rust-lang.org/t/pre-rfc-solidifying-repr-rust/2306/1)
 
-# Subteam reports
-
-Every week the [Rust teams](http://www.rust-lang.org/team.html)
-release a report on what is going on in their corner of the
-project. Here are the highlights from [This week's report](TODO).
-
-* TODO
-
-# Friend of the Tree
-
-The Rust Team likes to occassionally recognize people who have made
-outstanding contributions to The Rust Project, its ecosystem, and its
-community. These people are 'friends of the tree'.
-
-This week's friend of the tree was ...
-
-
-# Crate of the Week
-
-There are so many crates! It's easy to lose track of the good ones,
-like [THING].
-
-THING is a ...
-
 # Upcoming Events
 
-* [7/22. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
+* [July 22. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
+* [August 1. RustCamp](http://www.rustcamp.com).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
