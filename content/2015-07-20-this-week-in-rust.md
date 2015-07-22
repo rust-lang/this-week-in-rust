@@ -43,7 +43,7 @@ This week's edition was edited by: Brian Anderson, Vikrant Chaudhary
 # What's cooking on nightly?
 
 [bors](https://github.com/bors) underwent a [sudden unscheduled
-uprade](https://internals.rust-lang.org/t/buildbot-is-down-for-a-bit/2365/4)
+upgrade](https://internals.rust-lang.org/t/buildbot-is-down-for-a-bit/2365/4)
 this week, incurring unusual amounts of downtime. Thankfully, [Manish
 crafted an epic rollup](https://github.com/rust-lang/rust/pull/27066)
 to make up some of the slack.
