@@ -35,3 +35,5 @@ A weekly newsletter about Rust and the Rust community, with bonus content
 scattered about.
 """
 }
+
+MD_EXTENSIONS = ['headerid']
