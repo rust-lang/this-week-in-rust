@@ -43,7 +43,16 @@ XXX pull requests were [merged in the last week][merged].
 
 # New Contributors
 
-
+* Andy Caldwell
+* Antti Keränen
+* eternaleye
+* Jason Schein
+* Jonathan Hansford
+* Kornel Lesiński
+* Leif Arne Storset
+* midinastasurazz
+* mitaa
+* Ticki
 
 # Approved RFCs
 
@@ -85,9 +94,13 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 Every week the [Rust teams](http://www.rust-lang.org/team.html)
 release a report on what is going on in their corner of the
-project. Here are the highlights from [This week's report](TODO).
+project. Here are the highlights from [this week's
+report](https://internals.rust-lang.org/t/subteam-reports-2015-07-24/2397/2).
 
-* TODO
+* The compiler is being refactored to work on an HIR and an MIR.
+* Work is proceeding on stabilizing the core library.
+* Basic allocators will soon be available.
+* MSVC integration is proceeding rapidly.
 
 # Friend of the Tree
 
@@ -95,20 +108,16 @@ The Rust Team likes to occassionally recognize people who have made
 outstanding contributions to The Rust Project, its ecosystem, and its
 community. These people are 'friends of the tree'.
 
-This week's friend of the tree was ...
+[This week's friend of the tree](https://internals.rust-lang.org/t/subteam-reports-2015-07-24/2397) was @tshepang:
 
+Over the last year Tshepang has landed over 100 improvements to our documentation. Tshepang saw where documentation was not, and said "No. This will not do."
 
-# Crate of the Week
-
-There are so many crates! It's easy to lose track of the good ones,
-like [THING].
-
-THING is a ...
-
+We should all endeavor to care about docs as much as Tshepang.
 
 # Upcoming Events
 
 * [7/29. Cologne, Germany](http://www.meetup.com/Rust-Cologne-Bonn/events/222915034/)
+* [8/1. RustCamp](http://www.rustcamp.com).
 * [8/5. Montreal](http://www.meetup.com/Montreal-Rust-Language-Meetup/events/224148410/)
 * [8/10. Seattle](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg)
 * [8/11. San Diego](http://www.meetup.com/San-Diego-Rust/events/223766853/)
