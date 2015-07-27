@@ -63,10 +63,21 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/issues?utf8=%E2%9C%93&q=is%3Apr+org%3Arust-lang+label%3Afinal-comment-period+is%3Aopen+updated%3A2015-07-20..2015-07-27
 
-* TODO
+* [I/O error handling design](https://github.com/rust-lang/rfcs/pull/770)
+* [Expand the std::net module](https://github.com/rust-lang/rfcs/pull/1158)
+* [Allow changing the default allocator](https://github.com/rust-lang/rfcs/pull/1183)
+* [Stabilize the #[no_std] attribute](https://github.com/rust-lang/rfcs/pull/1184)
+* [Multiple import
+  renaming](https://github.com/rust-lang/rfcs/pull/1219). e.g. `use
+  foo::{self as bar, baz as quux}`.
 
 # New RFCs
 
+* [Clarify (and improve) rules for projections and well-formedness](https://github.com/rust-lang/rfcs/pull/1214)
+* [Promote `!` to a type](https://github.com/rust-lang/rfcs/pull/1216)
+* [Checked integer conversions](https://github.com/rust-lang/rfcs/pull/1218)
+* [Multiple import renaming](https://github.com/rust-lang/rfcs/pull/1219)
+* [Update the RFC process with sub-teams, amongst other things](https://github.com/rust-lang/rfcs/pull/1224)
 
 # Internals discussions
 
