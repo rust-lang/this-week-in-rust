@@ -95,6 +95,12 @@ Anderson][brson] for access.
 [erickt]: mailto:erick.tryzelaar@gmail.com
 [brson]: mailto:banderson@mozilla.com
 
+# fn work(on: RustProject) -> Money
+
+* Assistant Researcher in Karlsruhe, Germany for embedded development on ARM stm32. Contact [Oliver Schneider][oli_obk]
+
+[oli_obk]: mailto:oliver.schneider@kit.edu
+
 # Quote of the Week
 
 *"Quote"*
