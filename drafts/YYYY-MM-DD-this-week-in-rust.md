@@ -99,6 +99,8 @@ There are some jobs writing Rust! This week's listings:
 
 * TODO
 
+(Don't forget to re-list last-week's).
+
 # Quote of the Week
 
 *"Quote"*
