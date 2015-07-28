@@ -17,16 +17,25 @@ This week's edition was edited by: Brian Anderson.
 
 # From the Blogosphere
 
-* [Learning Rust with Entirely Too Many Linked Lists](http://cglab.ca/~abeinges/blah/too-many-lists/book/). Gankro, master of collections, presents the definitive guide to linked lists in Rust.
-
-# Tips & Tricks
-
-# In the News
+* [MaidSafe switches to Rust from C++](http://blog.maidsafe.net/2015/07/01/the-ants-are-coming/).
+* [Servo developer tools overview](http://blog.servo.org/2015/07/22/environment/). Peek into one of the largest Rust projects' build systems.
+* [Extending Zabbix monitoring using the Rust programming language](https://dnaeon.github.io/extending-zabbix-with-rust/).
+* [Learning Rust With Entirely Too Many Linked Lists](http://cglab.ca/~abeinges/blah/too-many-lists/book/).
+* [Creating A Multi-echo Server using Rust and mio](http://hermanradtke.com/2015/07/22/creating-a-multi-echo-server-using-rust-and-mio.html).
+* [Rust: A modern programming environment](https://alexgaynor.net/2015/jul/20/rust-modern-programming-language/).
+* [Rewriting a Java web-service in Rustful framework](http://maniagnosis.crsr.net/2015/07/reimplementing-ashurbanipalweb-in-rust.html).
+* [My first unsafe code](https://llogiq.github.io/2015/07/23/unsafe.html). Llogiq writing space-efficient `Option<_>` replacements.
 
 # New Releases & Project Updates
 
-* [Piston 0.5 released](http://blog.piston.rs/2015/07/22/piston-0.5/).*
- [font-atlas](https://www.reddit.com/r/rust_gamedev/comments/3eriwm/fontatlas_a_set_of_crates_for_creating_and_using/). A set of crates for creating and using 'font atlases'.
+* [Cupid](https://github.com/shepmaster/cupid). Native Rust access to the x86 and x86_64 CPUID instruction.
+* [nue](https://github.com/arcnmx/nue). I/O and binary data encoding for Rust.
+* [oxcable](https://github.com/thenyeguy/oxcable). A signal processing framework for making music with Rust.
+* [rsmpi](https://github.com/bsteinb/rsmpi). Message Passing Interface (MPI) bindings for Rust.
+* [rust_box2d](https://github.com/Bastacyclop/rust_box2d). Rust bindings for Box2D physics engine.
+* [avr-emulator](https://github.com/RealScout/avr-emulator). Atmel 8-bit AVR Emulator in React and Rust.
+* [Piston 0.5 released](http://blog.piston.rs/2015/07/22/piston-0.5/).
+* [font-atlas](https://www.reddit.com/r/rust_gamedev/comments/3eriwm/fontatlas_a_set_of_crates_for_creating_and_using/). A set of crates for creating and using 'font atlases'.
 * [Hound 1.0.0](https://www.reddit.com/r/rust_gamedev/comments/3e2yz7/hound_100_released_a_crate_for_reading_and/). A crate for reading and writing wav audio.
 * [Rusty_Dodge](https://www.reddit.com/r/rust_gamedev/comments/3e35xi/rusty_dodge_a_simple_polar_dodging_game_using/). A simple polar dodging game using [glium](https://github.com/tomaka/glium).
 
@@ -145,10 +154,8 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
-*"Quote"*
+*Opening a vortex to Hell is actually safe, but de-referencing anything you pull from the vortex isn't safe.* — [Steve Klabnik](https://github.com/rust-lang/rfcs/pull/1184#issuecomment-123446297)
 
-Explanation and link.
-
-Thanks to XXX for the tip. [Submit your quotes for next week!][submit].
+Thanks to [Gankro](https://users.rust-lang.org/users/gankro) for the tip. [Submit your quotes for next week!][submit].
 
 [submit]: http://users.rust-lang.org/t/twir-quote-of-the-week/328
