@@ -53,24 +53,25 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 # New RFCs
 
 
-# Internals discussions
-
-# Subteam reports
-
-Every week the [Rust teams](http://www.rust-lang.org/team.html)
-release a report on what is going on in their corner of the
-project. Here are the highlights from [this week's report](TODO).
-
-* TODO
-
 # Friend of the Tree
 
-The Rust Team likes to occassionally recognize people who have made
+[The Rust Team](http://www.rust-lang.org/team.html) likes to
+occassionally recognize people who have made
 outstanding contributions to The Rust Project, its ecosystem, and its
 community. These people are 'friends of the tree'.
 
-This week's friend of the tree was ...
+[This week's friend of the tree](TODO) was ...
 
+
+# Subteam reports
+
+Every week [The Rust Team](http://www.rust-lang.org/team.html) release
+a report on what is going on in their corner of the project. Here are
+the highlights from [this week's report](TODO).
+
+* TODO
+
+# Internals discussions
 
 # Crate of the Week
 

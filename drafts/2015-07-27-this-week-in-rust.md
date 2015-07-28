@@ -13,9 +13,11 @@ contributions](https://github.com/rust-lang/rust/wiki/Note-guide-for-new-contrib
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-This week's edition was edited by: WHO??
+This week's edition was edited by: Brian Anderson.
 
 # From the Blogosphere
+
+* [Learning Rust with Entirely Too Many Linked Lists](http://cglab.ca/~abeinges/blah/too-many-lists/book/). Gankro, master of collections, presents the definitive guide to linked lists in Rust.
 
 # Tips & Tricks
 
@@ -23,9 +25,39 @@ This week's edition was edited by: WHO??
 
 # New Releases & Project Updates
 
+* [Piston 0.5 released](http://blog.piston.rs/2015/07/22/piston-0.5/).*
+ [font-atlas](https://www.reddit.com/r/rust_gamedev/comments/3eriwm/fontatlas_a_set_of_crates_for_creating_and_using/). A set of crates for creating and using 'font atlases'.
+* [Hound 1.0.0](https://www.reddit.com/r/rust_gamedev/comments/3e2yz7/hound_100_released_a_crate_for_reading_and/). A crate for reading and writing wav audio.
+* [Rusty_Dodge](https://www.reddit.com/r/rust_gamedev/comments/3e35xi/rusty_dodge_a_simple_polar_dodging_game_using/). A simple polar dodging game using [glium](https://github.com/tomaka/glium).
+
+# Friend of the Tree
+
+[The Rust Team](http://www.rust-lang.org/team.html) likes to
+occassionally recognize people who have made
+outstanding contributions to The Rust Project, its ecosystem, and its
+community. These people are 'friends of the tree'.
+
+[This week's friend of the tree](https://internals.rust-lang.org/t/subteam-reports-2015-07-24/2397) was @tshepang.
+
+Over the last year Tshepang has landed over 100 improvements to our documentation. Tshepang saw where documentation was not, and said "No. This will not do."
+
+We should all endeavor to care about docs as much as Tshepang.
+
+# Subteam reports
+
+Every week [The Rust Teams](http://www.rust-lang.org/team.html)
+release a report on what is going on in their corner of the
+project. Here are the highlights from [this week's
+report](https://internals.rust-lang.org/t/subteam-reports-2015-07-24/2397/2).
+
+* The compiler is being refactored to work on an HIR and an MIR.
+* Work is proceeding on stabilizing the core library.
+* Basic allocators will soon be available.
+* MSVC integration is proceeding rapidly.
+
 # What's cooking on nightly?
 
-XXX pull requests were [merged in the last week][merged].
+134 pull requests were [merged in the last week][merged].
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-07-20..2015-07-27
 
@@ -90,29 +122,9 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 # Internals discussions
 
-# Subteam reports
-
-Every week the [Rust teams](http://www.rust-lang.org/team.html)
-release a report on what is going on in their corner of the
-project. Here are the highlights from [this week's
-report](https://internals.rust-lang.org/t/subteam-reports-2015-07-24/2397/2).
-
-* The compiler is being refactored to work on an HIR and an MIR.
-* Work is proceeding on stabilizing the core library.
-* Basic allocators will soon be available.
-* MSVC integration is proceeding rapidly.
-
-# Friend of the Tree
-
-The Rust Team likes to occassionally recognize people who have made
-outstanding contributions to The Rust Project, its ecosystem, and its
-community. These people are 'friends of the tree'.
-
-[This week's friend of the tree](https://internals.rust-lang.org/t/subteam-reports-2015-07-24/2397) was @tshepang:
-
-Over the last year Tshepang has landed over 100 improvements to our documentation. Tshepang saw where documentation was not, and said "No. This will not do."
-
-We should all endeavor to care about docs as much as Tshepang.
+* [Pre-RFC: Stabilize catch_panic](https://internals.rust-lang.org/t/pre-rfc-stabilize-catch-panic/2398/1).
+* [Pre-RFC: Making extern methods invalid](https://internals.rust-lang.org/t/pre-rfc-making-extern-methods-invalid/2357/6)
+* [New crater reports: 1.1 stable vs beta-2015-07-10 and nightly-2015-07-10](https://internals.rust-lang.org/t/new-crater-reports-1-1-stable-vs-beta-2015-07-10-and-nightly-2015-07-10/2358/6).
 
 # Upcoming Events
 
