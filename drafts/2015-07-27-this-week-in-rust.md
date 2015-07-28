@@ -17,11 +17,23 @@ This week's edition was edited by: WHO??
 
 # From the Blogosphere
 
-# Tips & Tricks
-
-# In the News
+* [MaidSafe switches to Rust from C++](http://blog.maidsafe.net/2015/07/01/the-ants-are-coming/).
+* [Servo developer tools overview](http://blog.servo.org/2015/07/22/environment/). Peek into one of the largest Rust projects' build systems.
+* [Extending Zabbix monitoring using the Rust programming language](https://dnaeon.github.io/extending-zabbix-with-rust/).
+* [Learning Rust With Entirely Too Many Linked Lists](http://cglab.ca/~abeinges/blah/too-many-lists/book/).
+* [Creating A Multi-echo Server using Rust and mio](http://hermanradtke.com/2015/07/22/creating-a-multi-echo-server-using-rust-and-mio.html).
+* [Rust: A modern programming environment](https://alexgaynor.net/2015/jul/20/rust-modern-programming-language/).
+* [Rewriting a Java web-service in Rustful framework](http://maniagnosis.crsr.net/2015/07/reimplementing-ashurbanipalweb-in-rust.html).
+* [My first unsafe code](https://llogiq.github.io/2015/07/23/unsafe.html). Llogiq writing space-efficient `Option<_>` replacements.
 
 # New Releases & Project Updates
+
+* [Cupid](https://github.com/shepmaster/cupid). Native Rust access to the x86 and x86_64 CPUID instruction.
+* [nue](https://github.com/arcnmx/nue). I/O and binary data encoding for Rust.
+* [oxcable](https://github.com/thenyeguy/oxcable). A signal processing framework for making music with Rust.
+* [rsmpi](https://github.com/bsteinb/rsmpi). Message Passing Interface (MPI) bindings for Rust.
+* [rust_box2d](https://github.com/Bastacyclop/rust_box2d). Rust bindings for Box2D physics engine.
+* [avr-emulator](https://github.com/RealScout/avr-emulator). Atmel 8-bit AVR Emulator in React and Rust.
 
 # What's cooking on nightly?
 
@@ -97,10 +109,8 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
-*"Quote"*
+*Opening a vortex to Hell is actually safe, but de-referencing anything you pull from the vortex isn't safe.* — [Steve Klabnik](https://github.com/rust-lang/rfcs/pull/1184#issuecomment-123446297)
 
-Explanation and link.
-
-Thanks to XXX for the tip. [Submit your quotes for next week!][submit].
+Thanks to [Gankro](https://users.rust-lang.org/users/gankro) for the tip. [Submit your quotes for next week!][submit].
 
 [submit]: http://users.rust-lang.org/t/twir-quote-of-the-week/328
