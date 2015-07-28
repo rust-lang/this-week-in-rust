@@ -21,6 +21,8 @@ This week's edition was edited by: WHO??
 
 # In the News
 
+* [Atmel AVR 8-bit Emulator in React and Rust](http://realscout.github.io/avr-emulator/)
+
 # New Releases & Project Updates
 
 # What's cooking on nightly?
@@ -29,9 +31,30 @@ XXX pull requests were [merged in the last week][merged].
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-07-20..2015-07-27
 
+* [Rewrite the improper_ctypes
+  lint](https://github.com/rust-lang/rust/pull/26583). Makes the lint
+  a bit more accurate , and improves the quality of the diagnostic
+  messages.
+* [Resolve lifetime parameters for foreign functions](https://github.com/rust-lang/rust/pull/26588)
+* [Allow and implement recursive static variables](https://github.com/rust-lang/rust/pull/26630)
+* [Implement default type-parameter fallback](https://github.com/rust-lang/rust/pull/26870)
+* [Create proper debug info for functions and function pointers](https://github.com/rust-lang/rust/pull/27025)
+* [Fix negate_unsigned feature gate check](https://github.com/rust-lang/rust/pull/27026)
+* [Add `IntoRaw{Fd,Handle,Socket}` traits](https://github.com/rust-lang/rust/pull/27064)
+* [Get cargo working on i686-pc-windows-msvc](https://github.com/rust-lang/cargo/pull/1825)
+
 # New Contributors
 
-
+* Andy Caldwell
+* Antti Keränen
+* eternaleye
+* Jason Schein
+* Jonathan Hansford
+* Kornel Lesiński
+* Leif Arne Storset
+* midinastasurazz
+* mitaa
+* Ticki
 
 # Approved RFCs
 
@@ -39,6 +62,9 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
+* [RFC 837: Allow macros in types](https://github.com/rust-lang/rfcs/pull/873)
+* [RFC 1191: Add an HIR to the compiler](https://github.com/rust-lang/rfcs/pull/1191)
+* [RFC 1193: Prevent lint changes being breaking](https://github.com/rust-lang/rfcs/pull/1193)
 
 # Final Comment Period
 
@@ -48,10 +74,21 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/issues?utf8=%E2%9C%93&q=is%3Apr+org%3Arust-lang+label%3Afinal-comment-period+is%3Aopen+updated%3A2015-07-20..2015-07-27
 
-* TODO
+* [I/O error handling design](https://github.com/rust-lang/rfcs/pull/770)
+* [Expand the std::net module](https://github.com/rust-lang/rfcs/pull/1158)
+* [Allow changing the default allocator](https://github.com/rust-lang/rfcs/pull/1183)
+* [Stabilize the #[no_std] attribute](https://github.com/rust-lang/rfcs/pull/1184)
+* [Multiple import
+  renaming](https://github.com/rust-lang/rfcs/pull/1219). e.g. `use
+  foo::{self as bar, baz as quux}`.
 
 # New RFCs
 
+* [Clarify (and improve) rules for projections and well-formedness](https://github.com/rust-lang/rfcs/pull/1214)
+* [Promote `!` to a type](https://github.com/rust-lang/rfcs/pull/1216)
+* [Checked integer conversions](https://github.com/rust-lang/rfcs/pull/1218)
+* [Multiple import renaming](https://github.com/rust-lang/rfcs/pull/1219)
+* [Update the RFC process with sub-teams, amongst other things](https://github.com/rust-lang/rfcs/pull/1224)
 
 # Internals discussions
 
@@ -59,9 +96,13 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 Every week the [Rust teams](http://www.rust-lang.org/team.html)
 release a report on what is going on in their corner of the
-project. Here are the highlights from [This week's report](TODO).
+project. Here are the highlights from [this week's
+report](https://internals.rust-lang.org/t/subteam-reports-2015-07-24/2397/2).
 
-* TODO
+* The compiler is being refactored to work on an HIR and an MIR.
+* Work is proceeding on stabilizing the core library.
+* Basic allocators will soon be available.
+* MSVC integration is proceeding rapidly.
 
 # Friend of the Tree
 
@@ -69,20 +110,17 @@ The Rust Team likes to occassionally recognize people who have made
 outstanding contributions to The Rust Project, its ecosystem, and its
 community. These people are 'friends of the tree'.
 
-This week's friend of the tree was ...
+[This week's friend of the tree](https://internals.rust-lang.org/t/subteam-reports-2015-07-24/2397) was @tshepang:
 
+Over the last year Tshepang has landed over 100 improvements to our documentation. Tshepang saw where documentation was not, and said "No. This will not do."
 
-# Crate of the Week
-
-There are so many crates! It's easy to lose track of the good ones,
-like [THING].
-
-THING is a ...
-
+We should all endeavor to care about docs as much as Tshepang.
 
 # Upcoming Events
 
 * [7/29. Cologne, Germany](http://www.meetup.com/Rust-Cologne-Bonn/events/222915034/)
+* [8/1. RustCamp](http://www.rustcamp.com).
+* [8/5. Montreal](http://www.meetup.com/Montreal-Rust-Language-Meetup/events/224148410/)
 * [8/10. Seattle](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg)
 * [8/11. San Diego](http://www.meetup.com/San-Diego-Rust/events/223766853/)
 * [8/17. Paris](http://www.meetup.com/Rust-Paris)

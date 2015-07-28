@@ -59,7 +59,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 Every week the [Rust teams](http://www.rust-lang.org/team.html)
 release a report on what is going on in their corner of the
-project. Here are the highlights from [This week's report](TODO).
+project. Here are the highlights from [this week's report](TODO).
 
 * TODO
 
