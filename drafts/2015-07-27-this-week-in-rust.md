@@ -21,6 +21,8 @@ This week's edition was edited by: WHO??
 
 # In the News
 
+* [Atmel AVR 8-bit Emulator in React and Rust](http://realscout.github.io/avr-emulator/)
+
 # New Releases & Project Updates
 
 # What's cooking on nightly?
