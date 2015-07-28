@@ -93,6 +93,12 @@ Anderson][brson] for access.
 [erickt]: mailto:erick.tryzelaar@gmail.com
 [brson]: mailto:banderson@mozilla.com
 
+# fn work(on: RustProject) -> Money
+
+There are some jobs writing Rust! This week's listings:
+
+* TODO
+
 # Quote of the Week
 
 *"Quote"*
