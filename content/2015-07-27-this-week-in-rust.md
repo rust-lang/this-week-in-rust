@@ -120,6 +120,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Multiple import
   renaming](https://github.com/rust-lang/rfcs/pull/1219). e.g. `use
   foo::{self as bar, baz as quux}`.
+* [Add item recovery collection APIs](https://github.com/rust-lang/rfcs/pull/1194)
 
 # New RFCs
 
