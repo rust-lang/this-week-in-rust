@@ -5,3 +5,4 @@ include
 output
 *~
 cache
+.sass-cache

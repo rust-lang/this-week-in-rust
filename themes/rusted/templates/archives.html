@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-12">
+    <ul class="list-unstyled past-issues">
+      <li class="nav-header disabled"><h2>Past issues</h2></li>
+      {% for article in articles %}
+      <li>
+        {% include "_post-title.html" %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endblock content %}
