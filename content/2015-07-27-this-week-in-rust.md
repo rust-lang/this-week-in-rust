@@ -155,7 +155,7 @@ Anderson][brson] for access.
 
 There are some jobs writing Rust! This week's listings:
 
-* Assistant Researcher in Karlsruhe, Germany for embedded development on ARM stm32. Contact [Oliver Schneider][oli_obk]
+* Student Research Assistant in Karlsruhe, Germany for embedded development on ARM stm32. Contact [Oliver Schneider][oli_obk]
 
 [oli_obk]: mailto:oliver.schneider@kit.edu
 
