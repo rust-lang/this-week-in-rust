@@ -131,7 +131,6 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 # Internals discussions
 
-* [Pre-RFC: Stabilize catch_panic](https://internals.rust-lang.org/t/pre-rfc-stabilize-catch-panic/2398/1).
 * [Pre-RFC: Making extern methods invalid](https://internals.rust-lang.org/t/pre-rfc-making-extern-methods-invalid/2357/6)
 * [New crater reports: 1.1 stable vs beta-2015-07-10 and nightly-2015-07-10](https://internals.rust-lang.org/t/new-crater-reports-1-1-stable-vs-beta-2015-07-10-and-nightly-2015-07-10/2358/6).
 
