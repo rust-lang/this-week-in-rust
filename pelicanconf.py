@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Corey Richardson'
 SITENAME = u"This Week in Rust"
-SITEURL = 'http://this-week-in-rust.org'
+SITEURL = 'http://this-week-in-rust.org/staging'
 
 SOURCE_URL = 'https://github.com/cmr/this-week-in-rust'
 
