@@ -8,7 +8,10 @@ SITEURL = 'http://this-week-in-rust.org/staging'
 
 SOURCE_URL = 'https://github.com/cmr/this-week-in-rust'
 
-THEME = 'pelican-elegant-1.3'
+THEME = 'themes/rusted'
+
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ['assets']
 
 TIMEZONE = 'America/New_York'
 
