@@ -141,7 +141,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [8/5. Montreal](http://www.meetup.com/Montreal-Rust-Language-Meetup/events/224148410/)
 * [8/10. Seattle](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg)
 * [8/11. San Diego](http://www.meetup.com/San-Diego-Rust/events/223766853/)
-* [8/17. Paris](http://www.meetup.com/Rust-Paris)
+* [8/31. Paris](http://www.meetup.com/Rust-Paris)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
