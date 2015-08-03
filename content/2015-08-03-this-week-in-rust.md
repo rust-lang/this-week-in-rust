@@ -65,9 +65,18 @@ Every week [the team](https://rust-lang.org/team.html) announces the
 'final comment period' for RFCs and key PRs which are reaching a
 decision. Express your opinions now. [This week's FCPs][fcp] are:
 
-[fcp]: https://github.com/issues?utf8=%E2%9C%93&q=is%3Apr+org%3Arust-lang+label%3Afinal-comment-period+is%3Aopen+updated%3A2015-07-06..2015-07-13
+[fcp]: https://github.com/issues?utf8=%E2%9C%93&q=is%3Apr+org%3Arust-lang+label%3Afinal-comment-period+is%3Aopen+updated%3A2015-07-27..2015-07-03
 
-* TODO
+* [Allow renaming imports when importing a group of symbols from a module.](https://github.com/rust-lang/rfcs/pull/1219).
+* [Clarify rules for projections and well-formedness](https://github.com/rust-lang/rfcs/pull/1214).
+* [Introduce a mid-level IR (MIR) in the compiler](https://github.com/rust-lang/rfcs/pull/1211).
+* [Update FOLLOW set for `ty` tokens](https://github.com/rust-lang/rfcs/pull/1209).
+* [Add `cargo install`](https://github.com/rust-lang/rfcs/pull/1200).
+* [Improve ordered query API](https://github.com/rust-lang/rfcs/pull/1195).
+* [Add item recovery collection APIs](https://github.com/rust-lang/rfcs/pull/1194).
+* [Implement raw fat pointer comparisons](https://github.com/rust-lang/rfcs/pull/1135).
+* [Add `read_exact` to `Read` trait](https://github.com/rust-lang/rfcs/pull/980).
+* [Allow `#[must_use]` on functions, rather than just types.](https://github.com/rust-lang/rfcs/pull/886).
 
 # New RFCs
 
