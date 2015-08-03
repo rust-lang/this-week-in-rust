@@ -38,9 +38,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 *some intro here*
 
+* [pdf] [Keynote](http://rustcamp.com/RustCampKeynote.pdf) by [Aaron Turon](http://www.mpi-sws.org/~turon/) and [Niko Matsakis](https://twitter.com/nikomatsakis).
+* [notes] [Navigating the Open Seas](http://carol-nichols.com/2015/08/01/rustcamp-talk-notes/) by [Carol (Nichols || Goulding)](http://carol-nichols.com/).
 * [pdf] [Making tools for Rust](https://dl.dropboxusercontent.com/u/74741329/rust-tools.pdf) by [Nick Cameron](http://www.ncameron.org/).
 * [pdf] [Mio: Fast Async IO for Rust](https://www.dropbox.com/s/fzf7tiukacyft3b/Rustcamp%20-%20Mio.pdf) by [Carl Lerche](https://twitter.com/carllerche).
-* [slides] [OMG ITERATORS](http://cglab.ca/~abeinges/talks/iter/) by [Alexis Beingessner](https://twitter.com/gankro).
+* [slides] [Who Owns This Stream of Data?](http://cglab.ca/~abeinges/talks/iter/) by [Alexis Beingessner](https://twitter.com/gankro).
 
 # What's cooking on nightly?
 
