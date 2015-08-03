@@ -36,7 +36,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Slides and talks from RustCamp!
 
-*some intro here*
+[RustCamp](http://rustcamp.com) was on Saturday, August 1st. It was
+lovely event populated by lovely people. If you couldn't make it here
+are the slides from some of the talks. Hopefully the remainder of
+slides will become available this week. Video recordings will be
+available at an indeterminate future date.
 
 * [pdf] [Keynote](http://rustcamp.com/RustCampKeynote.pdf) by [Aaron Turon](http://www.mpi-sws.org/~turon/) and [Niko Matsakis](https://twitter.com/nikomatsakis).
 * [notes] [Navigating the Open Seas](http://carol-nichols.com/2015/08/01/rustcamp-talk-notes/) by [Carol (Nichols || Goulding)](http://carol-nichols.com/).
@@ -46,13 +50,71 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # What's cooking on nightly?
 
-XXX pull requests were [merged in the last week][merged].
+130 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-05-18..2015-06-07
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-07-27..2015-08-03
+
+* Gankro landed [The Advanced Rust Programming
+  Language](https://github.com/rust-lang/rust/pull/27032), which was
+  quickly renamed to [The
+  Rustonomicon](https://github.com/rust-lang/rust/pull/27444). This
+  book is about unsafe Rust and will become Gankro's master's
+  thesis. [Read it
+  online](http://doc.rust-lang.org/nightly/adv-book/).
+* [Nonzeroing move
+  hints](https://github.com/rust-lang/rust/pull/26173). This patch
+  adds drop flags to the stack as part of the [non-zeroing drop
+  RFC](https://github.com/rust-lang/rfcs/blob/master/text/0320-nonzeroing-dynamic-drop.md). It
+  does not yet remove the drop flag from objects.
+* [@azerupi](http://github.com/azerupi) cleaned up the design of
+  gitbook, the tool that generates The Book.
+* [Deprecated
+  `VecMap`](https://github.com/rust-lang/rust/pull/26734). This
+  little-used unstable collection has been moved to the `vec_map`
+  crate.
+* [Deprecate a number of unstable
+  features](https://github.com/rust-lang/rust/pull/26914). The list is
+  sizable.
+* [Implement `Clone` for `Box<T> where T:
+  Clone`](https://github.com/rust-lang/rust/pull/26934)
+* [Make `AtomicPtr` `Send`](https://github.com/rust-lang/rust/pull/27052)
+* [Make `Rc` and `Arc` `mem::forget`
+  safe](https://github.com/rust-lang/rust/pull/27174). This closes
+  some corner-case soundness holes in reference counting.
+* [More extended errors!](https://github.com/rust-lang/rust/pull/27230).
+* [Add a `--cap-lints` flag to the
+  compiler](https://github.com/rust-lang/rust/pull/27260). This flag
+  [will be used by Cargo to avoid breaking dependencies when lints
+  change](https://github.com/rust-lang/rfcs/blob/master/text/1193-cap-lints.md).
+* [Rewrite dropck to be more
+  correct](https://github.com/rust-lang/rust/pull/27261).
+* [Improve SipHash performance for longer
+  data](https://github.com/rust-lang/rust/pull/27280).
+* [Stabilize a number of small
+  APIs](https://github.com/rust-lang/rust/pull/27370).
+* [Implement `Clone` for
+  `Box<str>`](https://github.com/rust-lang/rust/pull/27371).
+* [Gate associated type
+  defaults](https://github.com/rust-lang/rust/pull/27382). 1.1 stable
+  mistakenly allowed default associated types to be written, but their
+  use was completely broken. With other outstanding questions about
+  the feature it has been gated for 1.2.
 
 # New Contributors
 
-
+* Agoston Szepessy
+* Andrew
+* Andrew Kuchev
+* Blake Loring
+* Daniel Albert
+* diaphore
+* Jeehoon Kang
+* Kieran Hunt
+* krumelmonster
+* Mark Buer
+* Nicolette Verlinden
+* Ralf Jung
+* Taliesin Beynon
 
 # Approved RFCs
 
@@ -60,6 +122,8 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
+* [RFC 1183: Allow changing the default allocator](https://github.com/rust-lang/rfcs/blob/master/text/1183-swap-out-jemalloc.md)
+* [RFC 1184: Stabilize the `#[no_std]` attribute](https://github.com/rust-lang/rfcs/blob/master/text/1184-stabilize-no_std.md)
 
 # Final Comment Period
 
@@ -82,38 +146,28 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 # New RFCs
 
-
-# Friend of the Tree
-
-[The Rust Team](http://www.rust-lang.org/team.html) likes to
-occassionally recognize people who have made
-outstanding contributions to The Rust Project, its ecosystem, and its
-community. These people are 'friends of the tree'.
-
-[This week's friend of the tree](TODO) was ...
-
-
-# Subteam reports
-
-Every week [The Rust Team](http://www.rust-lang.org/team.html) release
-a report on what is going on in their corner of the project. Here are
-the highlights from [this week's report](TODO).
-
-* TODO
+* [Place left arrow syntax (`place <-
+  expr`)](https://github.com/rust-lang/rfcs/pull/1228). Another
+  attempt at coming up with a pleasing 'placement new' syntax.
+* [Turn statically-known erroneous code into a warning and
+  unconditional panic](https://github.com/rust-lang/rfcs/pull/1229).
+* [Add `Box::leak` to leak `Box<T>` to a `&'static mut
+  T`](https://github.com/rust-lang/rfcs/pull/1233).
+* [Specify that `CoerceUnsized` should ignore `PhantomData`
+  fields](https://github.com/rust-lang/rfcs/pull/1234).
 
 # Internals discussions
 
-# Crate of the Week
-
-There are so many crates! It's easy to lose track of the good ones,
-like [THING].
-
-THING is a ...
-
+* [Pre-RFC?: rustc UX guidelines](https://internals.rust-lang.org/t/pre-rfc-rustc-ux-guidelines/2419/1).
 
 # Upcoming Events
 
-* [What?]
+* [8/5. Montreal](http://www.meetup.com/Montreal-Rust-Language-Meetup/events/224148410/).
+* [8/10. Seattle](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
+* [8/11. San Diego](http://www.meetup.com/San-Diego-Rust/events/223766853/).
+* [8/19. Los Angeles](http://www.meetup.com/Rust-Los-Angeles/events/224231575/).
+* [8/26. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
+* [8/31. Paris](http://www.meetup.com/Rust-Paris).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -127,16 +181,20 @@ Anderson][brson] for access.
 
 There are some jobs writing Rust! This week's listings:
 
-* TODO
+* Assistant Researcher in Karlsruhe, Germany for embedded development on ARM stm32. Contact [Oliver Schneider][oli_obk]
 
-(Don't forget to re-list last-week's).
+[oli_obk]: mailto:oliver.schneider@kit.edu
 
 # Quote of the Week
 
-*"Quote"*
+> It should be noted that the authentic Rust learning experience involves
+> writing code, having the compiler scream at you, and trying to figure out
+> what the heck that means. I will be carefully ensuring that this occurs as
+> frequently as possible.
 
-Explanation and link.
+From @Gankro's [Learning Rust With Entirely Too Many Linked
+Lists](http://cglab.ca/~abeinges/blah/too-many-lists/book/).
 
-Thanks to XXX for the tip. [Submit your quotes for next week!][submit].
+Thanks to @carols10cents for the tip. [Submit your quotes for next week!][submit].
 
 [submit]: http://users.rust-lang.org/t/twir-quote-of-the-week/328
