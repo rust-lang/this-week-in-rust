@@ -75,7 +75,7 @@ available at an indeterminate future date.
 * [Deprecate a number of unstable
   features](https://github.com/rust-lang/rust/pull/26914). The list is
   sizable.
-* [Implement `Clone` for `Box<T> where T:
+* [Implement `Clone` for `Box<[T]> where T:
   Clone`](https://github.com/rust-lang/rust/pull/26934)
 * [Make `AtomicPtr` `Send`](https://github.com/rust-lang/rust/pull/27052)
 * [Make `Rc` and `Arc` `mem::forget`
