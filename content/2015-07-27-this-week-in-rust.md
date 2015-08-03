@@ -42,7 +42,7 @@ This week's edition was edited by: Vikrant Chaudhary, Brian Anderson.
 # Friend of the Tree
 
 [The Rust Team](http://www.rust-lang.org/team.html) likes to
-occassionally recognize people who have made
+occasionally recognize people who have made
 outstanding contributions to The Rust Project, its ecosystem, and its
 community. These people are 'friends of the tree'.
 
