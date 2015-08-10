@@ -29,68 +29,147 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [coalesce-rs](https://github.com/arcnmx/coalesce-rs). Combine disjoint types that share common traits.
 * [mdBook](https://github.com/azerupi/mdBook). Create a book from markdown files.
 * [Serde 0.5.0 adds support for bincode](https://erickt.github.io/blog/2015/08/07/serde-0-dot-5-0-many-many-changes/).
-
-# What's cooking on nightly?
-
-XXX pull requests were [merged in the last week][merged].
-
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-05-18..2015-06-07
+* [Cargo Crusader 0.1](https://users.rust-lang.org/t/cargo-crusader-0-1-test-the-downstream-impact-of-rust-crate-changes-before-publishing/2373/5). A tool for validating changes to APIs prior to publishing.
 
 # New Contributors
 
-
-
-# Approved RFCs
-
-Changes to Rust follow the Rust [RFC (request for comments)
-process](https://github.com/rust-lang/rfcs#rust-rfcs). These
-are the RFCs that were approved for implementation this week:
-
-
-# Final Comment Period
-
-Every week [the team](https://rust-lang.org/team.html) announces the
-'final comment period' for RFCs and key PRs which are reaching a
-decision. Express your opinions now. [This week's FCPs][fcp] are:
-
-[fcp]: https://github.com/issues?utf8=%E2%9C%93&q=is%3Apr+org%3Arust-lang+label%3Afinal-comment-period+is%3Aopen+updated%3A2015-07-06..2015-07-13
-
-* TODO
-
-# New RFCs
-
-
-# Friend of the Tree
-
-[The Rust Team](http://www.rust-lang.org/team.html) likes to
-occasionally recognize people who have made
-outstanding contributions to The Rust Project, its ecosystem, and its
-community. These people are 'friends of the tree'.
-
-[This week's friend of the tree](TODO) was ...
-
+* Ivan Jager
+* Jan Likar
+* Marko Lalic
+* Matt Friedman
+* Mike Marcacci
+* Ruby
+* Tim Neumann
 
 # Subteam reports
 
 Every week [The Rust Team](http://www.rust-lang.org/team.html) release
 a report on what is going on in their corner of the project. Here are
-the highlights from [this week's report](TODO).
+the highlights from [this week's report](https://internals.rust-lang.org/t/subteam-reports-2015-08-07/2473).
 
-* TODO
+## Libs team
 
-# Internals discussions
+[Full report](https://github.com/rust-lang/subteams/blob/master/libs/reports/2015-08-07.md)
 
-# Crate of the Week
+First off, we had a great RustCamp last weekend! As many of us were
+involved with the event, it was a bit of a slow week.
 
-There are so many crates! It's easy to lose track of the good ones,
-like [THING].
+Decisions from last week:
 
-THING is a ...
+- [RFC PR #1184](https://github.com/rust-lang/rfcs/pull/1184):
+  RFC: Stabilize the #![no_std] attribute
+  - Merged
+- [RFC PR #1183](https://github.com/rust-lang/rfcs/pull/1183):
+  RFC: Allow changing the default allocator
+  - Merged
+- [RFC PR #770](https://github.com/rust-lang/rfcs/pull/770):
+  io error handling design
+  - Closed
+- [RFC PR #980](https://github.com/rust-lang/rfcs/pull/980):
+  read_exact
+  - Merged
+- [RFC PR #1194](https://github.com/rust-lang/rfcs/pull/1194):
+  RFC: Add item recovery collection APIs
+  - To be merged, pending last bits of bikeshedding
+- [PR #26818](https://github.com/rust-lang/rust/pull/26818):
+  Stabilize duration (with renamings)
+  - Merge, need to decide about 1.3 backport
 
+We'd like to call attention to the following two policy RFCs:
+
+- [PR #1242](https://github.com/rust-lang/rfcs/pull/1242):
+  RFC: policy for rust-lang crates
+- [PR #1224](https://github.com/rust-lang/rfcs/pull/1224):
+  Update the RFC process with sub-teams, amongst other things.
+
+as well as an RFC relating to `catch_panic` and exception safety in Rust:
+
+- [PR #1236](https://github.com/rust-lang/rfcs/pull/1236):
+  RFC: Stabilize catch_panic
+
+This week's RFCs going into (or staying in) **final comment period**:
+
+- [FCP PR #1195](https://github.com/rust-lang/rfcs/pull/1195):
+  ordered query API
+- [FCP PR #1192](https://github.com/rust-lang/rfcs/pull/1192):
+  RFC for inclusive ranges with ...
+
+## Lang team
+
+[Full report](https://github.com/rust-lang/subteams/blob/master/lang/reports/2015-08-07.md)
+
+The following RFCs are being promoted to **final comment period**:
+
+- [PR #886](https://github.com/rust-lang/rfcs/pull/886): Permit
+  `#[must_use]` attributes on functions as well as types. This allows
+  for functions whose return value should not be ignored even if the
+  type of that value is unexceptional (e.g., the `ok()` method of
+  `Result`).
+- [PR #890](https://github.com/rust-lang/rfcs/pull/890): Custom
+  preludes.  This RFC proposes an extension that allows crates to
+  define their own preludes. This can be used to have common names
+  available throughout a crate without forcing them to be explicitly
+  imported everywhere. This is particularly useful when combined with
+  the convention of having external crates define a `pub mod prelude`
+  that downstream crates can import into their own local
+  preludes. While clearly convenient, there were some concerns raised
+  that this will give rise to multiple dialects of Rust.
+- [PR #953](https://github.com/rust-lang/rfcs/pull/953): This defines
+  traits to support `+=` and other operators, closing a gap in our
+  operator overloading support. The traits take the LHS via an `&mut`
+  reference to permit in-place updates, take the RHS by value, and do
+  not require that the `Add` trait also be implemented.
+- [PR #1135](https://github.com/rust-lang/rfcs/pull/1135): This PR
+  permits raw fat pointers (e.g., `*[i32]` or `*Trait`) to be
+  compared, just like raw thin pointer (e.g., `*i32`). The semantics
+  are to compare both the pointer itself *and* any accompanying data
+  (e.g., the length of the slice).
+- [PR #1189](https://github.com/rust-lang/rfcs/pull/1189): This PR
+  simply corrects typos. 
+
+The following two RFCs have been accepted:
+
+- [PR #1214](https://github.com/rust-lang/rfcs/pull/1214): Clarify
+  (and improve) rules for projections and well-formedness.
+- [PR #1219](https://github.com/rust-lang/rfcs/pull/1219): Allow
+  aliasing imports when importing as a group.
+  
+In addition, I would like to call attention to the following RFC:
+
+- [PR #1238](https://github.com/rust-lang/rfcs/pull/1238):
+  Nonparametric dropck. This RFC simplifies the dropck rules to close
+  some soundness holes and make room for specialization. The change is
+  expected to cause little to no breakage in practice, e.g., a crater
+  run found no affected crates, but it nonetheless affects a core
+  component of the language.
+  
+## Compiler team
+
+[Full report](https://github.com/rust-lang/subteams/blob/master/compiler/reports/2015-08-07.md)
+
+@arielb1 opened
+[PR #27551](https://github.com/rust-lang/rust/pull/27551), which
+changes how structs and enums are represented in the compiler,
+replacing various hashtables with a single `AdtDef` struct. This is a
+reimplementation of a similar PR by @aatch. In addition to cleaner
+code, it results in a small performance boost (approximately 5%).
+
+There has been some progress towards removing drop flags. @pnkfelix
+landed his "nonzeroing move hints" branch
+([PR #26173](https://github.com/rust-lang/rust/pull/26173)). Unfortunately,
+some critical bugs were found shortly thereafter. The fix
+([PR #27413](https://github.com/rust-lang/rust/pull/27413)) is not yet
+ready.
 
 # Upcoming Events
 
-* [What?]
+* [8/10. Seattle](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
+* [8/11. San Diego](http://www.meetup.com/San-Diego-Rust/events/223766853/).
+* [8/18. Sydney](http://www.meetup.com/Rust-Sydney/).
+* [8/19. Los Angeles](http://www.meetup.com/Rust-Los-Angeles/events/224231575/).
+* [8/20. Berlin](http://www.meetup.com/Rust-Berlin/events/224141638/).
+* [8/26. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
+* [8/32. Paris](http://www.meetup.com/Rust-Paris).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -104,16 +183,18 @@ Anderson][brson] for access.
 
 There are some jobs writing Rust! This week's listings:
 
-* TODO
-
-(Don't forget to re-list last-week's).
+* Student Research Assistant in Karlsruhe, Germany for embedded development on ARM stm32. Contact [Oliver Schneider][oli_obk]
 
 # Quote of the Week
 
-*"Quote"*
+```
+<bluss> I've tried using unchecked indexing in non-trivial code now a couple of times. It never makes a big difference
+<bluss> Profiling shows like 1-2% improvement if that
+<bluss> so it's the tightest loops you should worry about, not much more
+```
 
-Explanation and link.
+@bluss knows a few things about micro-optimization.
 
-Thanks to XXX for the tip. [Submit your quotes for next week!][submit].
+Thanks to @bluss for the tip. [Submit your quotes for next week!][submit].
 
 [submit]: http://users.rust-lang.org/t/twir-quote-of-the-week/328
