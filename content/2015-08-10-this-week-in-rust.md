@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # New Releases & Project Updates
 
+* Check out the new unofficial [German-language Rust forums](http://forum.rustplatz.de/).
 * [rust-cpp](https://github.com/mystor/rust-cpp). Embed C++ directly inside your rust code.
 * [rustty](https://github.com/cpjreynolds/rustty). A terminal UI library.
 * [coalesce-rs](https://github.com/arcnmx/coalesce-rs). Combine disjoint types that share common traits.
