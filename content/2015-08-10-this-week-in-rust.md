@@ -170,7 +170,7 @@ ready.
 * [8/19. Los Angeles](http://www.meetup.com/Rust-Los-Angeles/events/224231575/).
 * [8/20. Berlin](http://www.meetup.com/Rust-Berlin/events/224141638/).
 * [8/26. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
-* [8/32. Paris](http://www.meetup.com/Rust-Paris).
+* [8/31. Paris](http://www.meetup.com/Rust-Paris).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
