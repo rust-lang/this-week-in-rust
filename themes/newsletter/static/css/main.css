@@ -1,17 +1,9 @@
 .ExternalClass {
-    width: 100% !important;
     font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-* {
-    font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    -webkit-text-size-adjust: none;
-    -webkit-text-resize: 100%;
-    text-resize: 100%;
 }
 
 body, table.body, h1, h2, h3, h4, h5, h6, p, td { 
-    font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 table.container {
