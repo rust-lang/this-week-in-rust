@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    {% if article and article.author %}
+    <meta name="author" content="{{ article.author }}" />
+    <meta name="copyright" content="{{ article.author }}" />
+    {% elif page and page.author %}
+    <meta name="author" content="{{ page.author }}" />
+    <meta name="copyright" content="{{ page.author }}" />
+    {% else %}
+    <meta name="author" content="{{ AUTHOR }}" />
+    <meta name="copyright" content="{{ AUTHOR }}" />
+    {% endif %}
+
+    {% if SITE_DESCRIPTION %}
+    <meta name="description" content="{% block head_description %}{{ SITE_DESCRIPTION }}{% endblock head_description %}" />
+    {% endif %}
+
+    {% block meta_tags_in_head %}
+    {% endblock meta_tags_in_head %}
+
+    <title>{% block title %}{{ SITENAME|striptags }}{% endblock title %}</title>
+
+    {% block head_links %}
+    {% endblock head_links %}
+
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME|striptags }} - Full Atom Feed" />
+
+    <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,500,500italic|Fira+Mono:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    {% assets filters="scss,cssmin", output="css/web-min.css", "css/main.scss" %}
+    <link rel="stylesheet" href="/{{ ASSET_URL }}">
+    {% endassets %}
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container wrapper">
+        <a class="site-title" href="{{ SITEURL }}/">{{ SITENAME }}</a>
+      </div>
+    </header>
+
+    <div class="page-content">
+      <div class="container wrapper">
+        {% block content %}
+        {% endblock content %}
+      </div>
+    </div>
+
+    <footer>
+      <div class="container wrapper">
+        <div class="row">
+          <div class="col-md-4">
+            <ul class="list-unstyled">
+              <li><a href="{{ SITEURL }}/blog/archives/index.html">past issues</a></li>
+              <li><a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}">atom feed</a></li>
+              <li><a href="{{ SOURCE_URL }}">source code</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-unstyled">
+              <li><a href="https://twitter.com/ThisWeekInRust">twitter</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 text-right">
+            <ul class="list-unstyled">
+              <li><a href="{{ SITEURL }}/pages/privacy-policy.html">privacy policy</a></li>
+              <li><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa-4.0</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
