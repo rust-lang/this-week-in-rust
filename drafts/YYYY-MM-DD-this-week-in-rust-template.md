@@ -1,4 +1,5 @@
 Title: This Week in Rust XX
+Number: XX
 Date: YYYY-MM-DD
 Category: This Week in Rust
 

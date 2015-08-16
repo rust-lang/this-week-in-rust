@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width"/>
+
+    <style type="text/css">
+     {{CSS_INK}}
+    </style>
+    <style type="text/css">
+     {{CSS_MAIN}}
+    </style>
+  </head>
+  <body>
+    <table class="body">
+      <tr>
+        <td class="center" align="center" valign="top">
+          <center>
+            <table class="container">
+              <tr>
+                <td>
+
+                  <table class="row">
+                    <tr>
+                      <td class="wrapper last">
+                        <table class="twelve columns">
+                          <tr>
+                            <td class="center">
+                              <small>
+                                Email isn't displaying correctly?
+                                <a href="{% block selfurl %}{% endblock selfurl %}">
+                                  Read this on the Web.
+                                </a>
+                              </small>
+                            </td>
+                            <td class="expander"></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table class="row header">
+                    <tr>
+                      <td class="wrapper">
+                        <table class="twelve columns">
+                          <tr>
+                            <td>
+                              <h1 class="title">This Week in Rust</h1>
+                              &nbsp;
+                              {% block number_and_date %}{% endblock number_and_date %}
+                            </td>
+                            <td class="expander"></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table class="row">
+                    <tr>
+                      <td class="wrapper last">
+                        <table class="twelve columns">
+                          <tr>
+                            <td>
+                              {% block content %}
+                              {% endblock content %}
+                            </td>
+                            <td class="expander"></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table class="row footer">
+                    <tr>
+                      <td class="wrapper last">
+                        <table class="twelve columns">
+                          <tr>
+                            <td class="center">
+                              <small>
+                                Sponsored by <a href="http://webstream.io">webstream.io</a>.
+                                <br />
+                                twiiter: <a href="https://twitter.com/ThisWeekInRust">@ThisWeekInRust</a>
+                                <br />
+                                <a href="{{ SITEURL }}/pages/privacy-policy.html">Privacy policy</a>
+                                |
+                                <a href="*|UNSUB|*">Unsubscribe</a>
+                                |
+                                <a href="*|UPDATE_PROFILE|*">Change email address</a>
+                                |
+                                <a href="{{ self.selfurl() }}">Read this issue on the Web</a>
+                              </small>
+                            </td>
+                            <td class="expander"></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                </td>
+              </tr>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

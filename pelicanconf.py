@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 AUTHOR = u'Corey Richardson'
 SITENAME = u"This Week in Rust"
@@ -8,7 +9,15 @@ SITEURL = 'http://this-week-in-rust.org'
 
 SOURCE_URL = 'https://github.com/cmr/this-week-in-rust'
 
-THEME = 'themes/rusted'
+if '1' == os.environ.get('TWIR_NEWSLETTER_THEME'):
+    THEME = 'themes/newsletter'
+    css_path = os.path.join(os.path.dirname(__file__), 'themes', 'newsletter', 'static', 'css')
+    with open(os.path.join(css_path, 'ink.css')) as f:
+        CSS_INK = f.read()
+    with open(os.path.join(css_path, 'main.css')) as f:
+        CSS_MAIN = f.read()
+else:
+    THEME = 'themes/rusted'
 
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ['assets']
