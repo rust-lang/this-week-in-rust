@@ -395,3 +395,31 @@ dt:hover > a.headerlink {
     visibility: visible;
     text-decoration:none;
 }
+
+h1#recent-posts {
+    font-size: 30px;
+}
+
+a#allposts {
+    width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+    h1#recent-posts {
+        font-size: 38.5px;
+    }
+
+}
+
+@media screen and (min-width: 360px) {
+    a#allposts {
+        width: inherit;
+    }
+}
+
+.emoji {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    border: 0px none;
+}
