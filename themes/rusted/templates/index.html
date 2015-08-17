@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-12 text-center">
+    <h1 class="pitch">Handpicked Rust updates, <br /> delivered to your inbox.</h1>
+    <p class="subtext">Stay up to date with events, learning resources, and recent developments in Rust community.</p>
+  </div>
+</div>
+{% include "_subscribe-form.html" %}
+<div class="row">
+  <div class="col-md-12">
+    <ul class="list-unstyled past-issues">
+      <li class="nav-header disabled"><h2>Past issues</h2></li>
+      {% for article in articles %}
+      {% if not RECENT_ARTICLES_COUNT %}
+      {% set RECENT_ARTICLES_COUNT = 5 %}
+      {% endif %}
+      {% if loop.index0 < RECENT_ARTICLES_COUNT %}
+      <li>
+        {% include "_post-title.html" %}
+      </li>
+      {% endif %}
+      {% endfor %}
+      <li class="text-right">
+        <a href="{{ SITEURL }}/blog/archives/index.html">View more &rarr;</a>
+      </li>
+    </ul>
+  </div>
+</div>
+{% endblock content %}

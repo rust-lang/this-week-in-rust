@@ -1,0 +1,12 @@
+
+.btn-primary {
+    background-color: rgb(66, 139, 202);
+    border-color: rgb(53, 126, 189);
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: $screen-xs-max) {
+  .custom-xs-text-left {
+    text-align: left;
+  }
+}

@@ -1,0 +1,10 @@
+<div class="row post-title">
+  <div class="col-xs-12 col-sm-4">
+    <span class="small text-muted time-prefix">
+      <time pubdate="pubdate" datetime="{{ article.date.isoformat() }}">{{ article.date.strftime("%d %b %Y").upper() }}</time>
+    </span>
+  </div>
+  <div class="col-xs-12 col-sm-8 text-right custom-xs-text-left">
+    <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+  </div>
+</div>

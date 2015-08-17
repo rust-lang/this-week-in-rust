@@ -1,0 +1,73 @@
+.ExternalClass {
+    font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body, table.body, h1, h2, h3, h4, h5, h6, p, td { 
+    font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+table.container {
+    border: 1px solid #DCDCDC;
+    border-top: 5px solid #000000;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+td.wrapper {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+}
+
+p {
+    margin: 0px !important;
+    font-size: 14px !important;
+    color: #333;
+}
+
+li {
+    font-size: 14px !important;
+}
+
+a, a:visited {
+    color: #428bca!important;
+    text-decoration: none;
+}
+
+code {
+    color: #c7254e !important;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    background-color: #eef;
+    font-weight::600 !important;
+    font-family: 'Fira Mono', monospace;
+}
+
+h1 {
+    font-size: 19px;
+    color: #333;
+    margin: 10px 0px 0px;
+    font-weight: bold;
+}
+
+h1.title {
+    font-size: 22px;
+    margin: 0px;
+    display: inline;
+}
+
+ul {
+    margin-top: 0px;
+}
+
+.header, .footer {
+    background-color: #fdfdfd;
+}
+
+.header {
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.footer {
+    border-top: 1px solid #e6e6e6;
+}
