@@ -190,11 +190,9 @@ There are some jobs writing Rust! This week's listings:
 
 # Quote of the Week
 
-```
-<bluss> I've tried using unchecked indexing in non-trivial code now a couple of times. It never makes a big difference
-<bluss> Profiling shows like 1-2% improvement if that
-<bluss> so it's the tightest loops you should worry about, not much more
-```
+    <bluss> I've tried using unchecked indexing in non-trivial code now a couple of times. It never makes a big difference
+    <bluss> Profiling shows like 1-2% improvement if that
+    <bluss> so it's the tightest loops you should worry about, not much more
 
 @bluss knows a few things about micro-optimization.
 
