@@ -237,11 +237,7 @@ Anderson][brson] for access.
 
 # fn work(on: RustProject) -> Money
 
-There are some jobs writing Rust! This week's listings:
-
-* Student Research Assistant in Karlsruhe, Germany for embedded development on ARM stm32. Contact [Oliver Schneider][oli_obk]
-
-[oli_obk]: mailto:oliver.schneider@kit.edu
+*No jobs listed for this week. Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
