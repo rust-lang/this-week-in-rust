@@ -4,12 +4,16 @@ Date: YYYY-MM-DD
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
-[Rust](http://rust-lang.org) is a systems language pursuing the trifecta:
+[Rust][rust] is a systems language pursuing the trifecta:
 safety, concurrency, and speed. This is a weekly summary of its progress and
-community. Want something mentioned? Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) or [send us an
-email](mailto:corey@octayn.net?subject=This%20Week%20in%20Rust%20Suggestion)!
-Want to get involved? [We love
-contributions](https://github.com/rust-lang/rust/wiki/Note-guide-for-new-contributors).
+community. Want something mentioned? Tweet us at [@ThisWeekInRust][twitter] or
+[send us an email][email]!  Want to get involved?
+[We love contributions][contributions].
+
+[rust]: https://www.rust-lang.org
+[twitter]: https://twitter.com/ThisWeekInRust
+[email]: mailto:corey@octayn.net?subject=This%20Week%20in%20Rust%20Suggestion
+[contributions]: https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md
 
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
@@ -43,7 +47,7 @@ are the RFCs that were approved for implementation this week:
 
 # Final Comment Period
 
-Every week [the team](https://rust-lang.org/team.html) announces the
+Every week [the team](https://www.rust-lang.org/team.html) announces the
 'final comment period' for RFCs and key PRs which are reaching a
 decision. Express your opinions now. [This week's FCPs][fcp] are:
 
@@ -56,7 +60,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 # Friend of the Tree
 
-[The Rust Team](http://www.rust-lang.org/team.html) likes to
+[The Rust Team](https://www.rust-lang.org/team.html) likes to
 occasionally recognize people who have made
 outstanding contributions to The Rust Project, its ecosystem, and its
 community. These people are 'friends of the tree'.
@@ -66,7 +70,7 @@ community. These people are 'friends of the tree'.
 
 # Subteam reports
 
-Every week [The Rust Team](http://www.rust-lang.org/team.html) release
+Every week [The Rust Team](https://www.rust-lang.org/team.html) release
 a report on what is going on in their corner of the project. Here are
 the highlights from [this week's report](TODO).
 
@@ -110,4 +114,4 @@ Explanation and link.
 
 Thanks to XXX for the tip. [Submit your quotes for next week!][submit].
 
-[submit]: http://users.rust-lang.org/t/twir-quote-of-the-week/328
+[submit]: https://users.rust-lang.org/t/twir-quote-of-the-week/328
