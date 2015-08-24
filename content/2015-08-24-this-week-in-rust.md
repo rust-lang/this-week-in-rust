@@ -32,6 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # New Releases & Project Updates
 
 * [Rust by Example](http://rustbyexample.com/) now [tracks stable Rust](https://github.com/rust-lang/rust-by-example/pull/636), [uses container-based Travis infrastructure](https://github.com/rust-lang/rust-by-example/pull/637), and [is tested against all three channels](https://github.com/rust-lang/rust-by-example/pull/638).
+- A [comparison of web frameworks](https://github.com/flosse/rust-web-framework-comparison) written in Rust.
 * [octavo](https://github.com/hauleth/octavo). Highly modular & configurable hash & crypto library written in pure Rust.
 * [Ammonia](https://github.com/notriddle/rust-ammonia). A whitelist-based HTML sanitization library.
 * [mm](https://www.reddit.com/r/rust/comments/3i4qd7/mm_general_purpose_math_and_multimedia_libraries/). General purpose math and multimedia libraries.
