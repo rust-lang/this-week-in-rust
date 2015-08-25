@@ -1,7 +1,7 @@
 this-week-in-rust
 =================
 
-Content for this-week-in-rust.org. Made available under CC-BY-SA.
+Content for [this-week-in-rust.org](http://this-week-in-rust.org). Made available under CC-BY-SA.
 
 All code Copyright 2014 Corey Richardson, made available under [the MIT
 license](http://mit-license.org/).
