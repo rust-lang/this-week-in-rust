@@ -91,6 +91,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Add a new `ToOpt` trait and have `bool` implement it](https://github.com/rust-lang/rfcs/issues/1265).
 * [`macro_rules!` should support gensym for creating items](https://github.com/rust-lang/rfcs/issues/1266).
 * [Implement `.drain(range)` and `.drain()` respectively as appropriate on collections](https://github.com/rust-lang/rfcs/pull/1257).
+* [UX guidelines for the Rust compiler](https://github.com/rust-lang/rfcs/pull/1246).
 * [TRPLF] [Pauseless Concurrent Garbage Collector](https://users.rust-lang.org/t/rfc-pauseless-concurrent-garbage-collector/2624).
 
 # Upcoming Events
