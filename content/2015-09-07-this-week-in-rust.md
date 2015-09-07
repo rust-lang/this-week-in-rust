@@ -40,6 +40,10 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42) and [llog
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-08-31..2015-09-07
 
+See the [subteam report for 2015-09-04][subteam] for details.
+
+[subteam]: https://internals.rust-lang.org/t/subteam-reports-2015-09-04/2600
+
 # New Contributors
 
 * Aleksey Kladov
