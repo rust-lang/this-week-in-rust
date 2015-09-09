@@ -87,7 +87,6 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 # New RFCs
 
 * [Allow overlapping implementations for marker traits](https://github.com/rust-lang/rfcs/pull/1268).
-* [Add `Mutex::into_inner()`](https://github.com/rust-lang/rfcs/issues/1269).
 * [Allow library authors to use a `#[deprecate]` attribute](https://github.com/rust-lang/rfcs/pull/1270).
 
 # Crate of the Week
