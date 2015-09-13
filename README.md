@@ -33,3 +33,11 @@ Use the included `new_contribs.sh` script:
 ```
 pelican content -s pelicanconf.py
 ```
+### To build the newsletter
+
+* Generate the HTML
+  ```
+  TWIR_NEWSLETTER_THEME=1 pelican --delete-output-directory content
+  ```
+* Copy the HTML and inline CSS at http://zurb.com/ink/inliner.php - (MailChimp's inliner doesn't remove the CSS from `<head>`).
+* Send the newsletter (we currently use MailChimp).
