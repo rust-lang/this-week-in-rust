@@ -1,107 +1,255 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width"/>
+    <meta charset="utf-8">
+    <style type="text/css">
+     body {
+       width: 100% !important;
+       min-width: 100%;
+       -webkit-text-size-adjust: 100%;
+       -ms-text-size-adjust: 100%;
+       margin: 0;
+       padding: 0;
+       color: #444444;
+     }
 
-    <style type="text/css">
-     {{CSS_INK}}
-    </style>
-    <style type="text/css">
-     {{CSS_MAIN}}
+     .container{
+       border: 1px solid #DCDCDC;
+       border-top: 5px solid #000000;
+     }
+
+     table .row {
+       border-collapse: collapse;
+       width: 660px;
+       border: none;
+     }
+     td .row-header-01 {
+       padding-top: 6px;
+       padding-bottom: 6px;
+       font-size: 12px;
+       text-align: center;
+       color: #444444;
+     }
+     td .row-header-01 a {
+       color: #ee5533;
+     }
+     td .row-header-02 {
+       border-top: 1px solid #e6e6e6;
+       border-bottom: 1px solid #e6e6e6;
+       background-color: #fdfdfd;
+     }
+
+     td .wrapper {
+       padding:6px 12px 1px;
+     }
+     
+     table .row-container{
+       width:100%;       
+     }
+
+     table .wrapper-container-01 {
+       width:50%
+     }
+     
+     table .wrapper-container-02{
+       text-align:right;
+       width:50%;
+     }
+     
+     .wrapper-header-01{
+       line-height:27px;
+       font-size:23px;
+       font-weight:bold;
+       color:#444444
+     }
+     
+     .wrapper-header-02{
+       font-size:16px;
+       line-height:36px;
+       font-weight:normal;
+       color:#444444;
+     }	
+
+     tr .footer {
+       border-top: 1px solid #e6e6e6;
+       background-color: #fdfdfd;
+     }
+
+     table.center, td.center {
+       text-align: center;
+     }
+
+     .ExternalClass {
+       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+       color: #444444;
+     }
+
+     body, table.body, h1, h2, h3, h4, h5, h6, p, td { 
+       font-family: 'Helvetica Neue', Helvetica, sans-serif;
+     }
+
+     table.container {
+       border: 1px solid #dcdcdc;
+       border-top: 5px solid #000000;
+       padding-left: 12px;
+       padding-right: 12px;
+     }
+
+     td.wrapper {
+       padding-left: 24px !important;
+       padding-right: 24px !important;
+     }
+
+     p {
+       margin: 0px !important;
+       font-size: 16px !important;
+       color: #444444;
+       line-height: 24px;
+     }
+
+     li {
+       font-size: 16px !important;
+     }
+
+     a, a:visited {
+       color: #2a7ae2 !important;
+       text-decoration: none;
+     }
+
+     code {
+       color: #c7254e !important;
+       border: 1px solid #e8e8e8;
+       border-radius: 3px;
+       background-color: #eeeeff;
+       font-weight::600 !important;
+       font-family: monospace;
+     }
+
+     h1, h2 {
+       font-size: 19px;
+       color: #444444;
+       margin: 10px 0px;
+       font-weight: bold;
+     }
+
+     h1 {
+       font-size: 24px;
+       margin: 16px 0px;
+     }
+
+     ul {
+       margin-top: 0px;
+     }
+     
+     .rust-container{
+       padding:16px 12px 12px 12px;
+     }
+     
+     .rust-row{
+       border-collapse:collapse;
+       width:100%
+     }	
+     
+     .wrapper-image{
+       width:30px;
+       vertical-align:bottom;
+     }		
+     
     </style>
   </head>
+
   <body>
-    <table class="body">
-      <tr>
-        <td class="center" align="center" valign="top">
-          <center>
-            <table class="container">
-              <tr>
-                <td>
-
-                  <table class="row">
-                    <tr>
-                      <td class="wrapper last">
-                        <table class="twelve columns">
+    <div style="margin:0">
+      <table class="body" align="center" border="0" cellpadding="0" cellspacing="0"  >
+        <tbody>
+          <tr>
+            <td class="container" align="center" valign="top">
+              <table class="row" cellpadding="0" cellspacing="0">
+                <tbody>
+                  <tr>
+                    <td class="row-header-01">
+                      <span>Email isn't displaying correctly?<br></span>
+                      <a href="{% block selfurl %}{% endblock selfurl %}">Read this e-mail on the Web</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="row" cellpadding="0" cellspacing="0">
+                <tbody>
+                  <tr>
+                    <td class="row-header-02">
+                      <table class="row-container" cellspacing="0" cellpadding="0" align="left">
+                        <tbody>
                           <tr>
-                            <td class="center">
-                              <small>
-                                Email isn't displaying correctly?
-                                <a href="{% block selfurl %}{% endblock selfurl %}">
-                                  Read this on the Web.
-                                </a>
-                              </small>
+                            <td class="wrapper" align="left">
+                              <table class="wrapper-container-01" align="left">
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <img class="wrapper-image " src="http://this-week-in-rust.org/images/logo32.png" alt="This Week in Rust">
+                                      <span class="wrapper-header-01" style="">This Week in Rust</span>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <table class="wrapper-container-02" align="left">
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <span class="wrapper-header-02"> {% block number_and_date %}{% endblock number_and_date %} </span>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
                             </td>
                           </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-
-                  <table class="row header">
-                    <tr>
-                      <td class="wrapper">
-                        <table class="twelve columns">
-                          <tr>
-                            <td>
-                              <h1 class="title">This Week in Rust</h1>
-                              &nbsp;
-                              {% block number_and_date %}{% endblock number_and_date %}
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-
-                  <table class="row">
-                    <tr>
-                      <td class="wrapper last">
-                        <table class="twelve columns">
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="rust-container" align="left">
+                      <table class="rust-row" align="left" cellpadding="0" cellspacing="0" style="">
+                        <tbody>
                           <tr>
                             <td>
                               {% block content %}
                               {% endblock content %}
                             </td>
                           </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-
-                  <table class="row footer">
-                    <tr>
-                      <td class="wrapper last">
-                        <table class="twelve columns">
-                          <tr>
-                            <td class="center">
-                              <small>
-                                Sponsored by <a href="http://webstream.io">webstream.io</a>.
-                                <br />
-                                twiiter: <a href="https://twitter.com/ThisWeekInRust">@ThisWeekInRust</a>
-                                <br />
-                                <a href="{{ SITEURL }}/pages/privacy-policy.html">Privacy policy</a>
-                                |
-                                <a href="*|UNSUB|*">Unsubscribe</a>
-                                |
-                                <a href="*|UPDATE_PROFILE|*">Change email address</a>
-                                |
-                                <a href="{{ self.selfurl() }}">Read this issue on the Web</a>
-                              </small>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-
-                </td>
-              </tr>
-            </table>
-          </center>
-        </td>
-      </tr>
-    </table>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr class="footer">
+                    <td class="wrapper last">
+                      <table style="width:100%;">
+                        <tr>
+                          <td class="center">
+                            <small>
+                              Sponsored by <a href="http://webstream.io">webstream.io</a>.
+                              <br />
+                              twiiter: <a href="https://twitter.com/ThisWeekInRust">@ThisWeekInRust</a>
+                              <br />
+                              <a href="http://this-week-in-rust.org/pages/privacy-policy.html">Privacy policy</a>
+                              |
+                              <a href="*|UNSUB|*">Unsubscribe</a>
+                              |
+                              <a href="*|UPDATE_PROFILE|*">Change email address</a>
+                              |
+                              <a href="{{ self.selfurl() }}">Read this issue on the Web</a>
+                            </small>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>
