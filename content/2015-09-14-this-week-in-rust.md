@@ -47,7 +47,9 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42) and [llog
 ## Notable changes
 
 * [Error Handing guide is rewritten from scratch](https://github.com/rust-lang/rust/pull/28301).
-* [std: Stabilize/deprecate features for 1.4](https://github.com/rust-lang/rust/pull/28339).
+* [Rust 1.4 deprecates some and stabilises many APIs](https://github.com/rust-lang/rust/pull/28339).
+* [jemalloc is updated to 4.0.0 and LLVM to 3.7](https://github.com/rust-lang/rust/pull/28173).
+* [Comparing raw pointers no longer crashes](https://github.com/rust-lang/rust/pull/28270).
 
 ## New Contributors
 
@@ -123,7 +125,7 @@ I've found it especially nice for mocking up the skeleton of a tool where all ro
 On `#rust-offtopic` IRC
 
 > 03:46 < durka42> rust has a culture of small crates
-
+>
 > 03:47 < XMPPwocky> a Cargo cult, if you will
 
 Thanks to [Manishearth](https://users.rust-lang.org/users/Manishearth) for the tip. [Submit your quotes for next week!][submit].
