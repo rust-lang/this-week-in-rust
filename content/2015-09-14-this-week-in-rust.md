@@ -46,7 +46,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42) and [llog
 
 ## Notable changes
 
-* [Error Handing guide is rewritten from scratch](https://github.com/rust-lang/rust/pull/28301).
+* [Error Handling guide is rewritten from scratch](https://github.com/rust-lang/rust/pull/28301).
 * [Rust 1.4 deprecates some and stabilises many APIs](https://github.com/rust-lang/rust/pull/28339).
 * [jemalloc is updated to 4.0.0 and LLVM to 3.7](https://github.com/rust-lang/rust/pull/28173).
 * [Comparing raw pointers no longer crashes](https://github.com/rust-lang/rust/pull/28270).
