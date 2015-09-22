@@ -58,6 +58,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42) and [llog
 * [Add a blanket `impl` for `&mut std::fmt::Write`](https://github.com/rust-lang/rust/pull/28368).
 * [Implement overload-able augmented/compound assignments, like `a += b` via the `AddAssign` trait](https://github.com/rust-lang/rust/pull/28345).
 * [Implement empty structs with braces](https://github.com/rust-lang/rust/pull/28336).
+* [Split up lint interface into pre- and post-expansion lints](https://github.com/rust-lang/rust/pull/28349).
 
 ## New Contributors
 
@@ -79,7 +80,6 @@ are the RFCs that were approved for implementation this week:
 * [1224: Update the RFC process with sub-teams, amongst other things.](https://github.com/rust-lang/rfcs/pull/1224).
 * [1238: Revise the Drop Check (`dropck`) part of Rust's static analyses](https://github.com/rust-lang/rfcs/pull/1238).
 * [1240: References into `repr(packed)` structs should be `unsafe`](https://github.com/rust-lang/rfcs/pull/1240).
-
 
 ## Final Comment Period
 
