@@ -1,8 +1,6 @@
 {% extends "base.html" %}
 
-{% block selfurl %}
-{{ SITEURL }}/{{ article.url }}
-{% endblock selfurl %}
+{% block selfurl %}{{ SITEURL }}/{{ article.url }}{% endblock selfurl %}
 
 {% block number_and_date %}
 issue {{ article.number or 'XX' }} — {{ article.date.strftime("%d %b %Y").upper() }}
