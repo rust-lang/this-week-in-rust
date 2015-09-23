@@ -79,8 +79,8 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Forbid wildcard dependencies on crates.io](https://github.com/rust-lang/rfcs/pull/1241).
 * [References into `repr(packed)` structs should be `unsafe`](https://github.com/rust-lang/rfcs/pull/1240).
 * [Revise the Drop Check (`dropck`) part of Rust's static analyses](https://github.com/rust-lang/rfcs/pull/1238).
-* [Update the RFC process with sub-teams, amongst other things.](https://github.com/rust-lang/rfcs/pull/1224).
-* [Lay the ground work for building powerful SIMD functionality.](https://github.com/rust-lang/rfcs/pull/1199).
+* [Update the RFC process with sub-teams, amongst other things](https://github.com/rust-lang/rfcs/pull/1224).
+* [Lay the ground work for building powerful SIMD functionality](https://github.com/rust-lang/rfcs/pull/1199).
 
 ## New RFCs
 
