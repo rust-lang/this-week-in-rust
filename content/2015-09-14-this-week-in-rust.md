@@ -122,7 +122,7 @@ I've found it especially nice for mocking up the skeleton of a tool where all ro
 
 # Quote of the Week
 
-On `#rust-offtopic` IRC
+On `#rust` IRC
 
 > 03:46 < durka42> rust has a culture of small crates
 >
