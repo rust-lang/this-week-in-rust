@@ -49,6 +49,10 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [brson](
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-09-28..2015-10-05
 
+See the [subteam report for 2015-10-02][subteam] for details.
+
+[subteam]: https://internals.rust-lang.org/t/subteam-reports-2015-10-02/2716
+
 ## Notable changes
 
 * [Backporting accepted PRs to beta](https://github.com/rust-lang/rust/pull/28802).
