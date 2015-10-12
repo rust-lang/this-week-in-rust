@@ -17,13 +17,6 @@
 {% endblock meta_tags_in_head %}
 
 {% block content %}
-
-<div class="row text-center">
-  <h3> Like what you see? Subscribe! </h3>
-</div>
-
-{% include "_subscribe-form.html" %}
-
 <div class="post">
   <header class="post-header">
     {% include "_post-title.html" %}
@@ -34,4 +27,10 @@
   </article>
 
 </div>
+
+<div class="row text-center">
+  <h3> Like what you see? Subscribe! </h3>
+</div>
+
+{% include "_subscribe-form.html" %}
 {% endblock content %}
