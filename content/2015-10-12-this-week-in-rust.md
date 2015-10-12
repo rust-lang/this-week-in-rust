@@ -116,7 +116,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 # Upcoming Events
 
 * [10/13. San Diego Rust Meetup #9](http://www.meetup.com/San-Diego-Rust/events/225389095/).
-* 10/14. RustBerlin Hack and Learn.
+* [10/14. RustBerlin Hack and Learn](http://www.meetup.com/de/Rust-Berlin/events/225137978/).
 * [10/19. Rust Paris](http://www.meetup.com/Rust-Paris).
 * [10/20. Rust Hack and Learn Hamburg](http://www.meetup.com/Rust-Meetup-Hamburg/events/225865482/).
 
