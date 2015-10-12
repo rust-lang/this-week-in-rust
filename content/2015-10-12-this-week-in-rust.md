@@ -134,9 +134,9 @@ Anderson][brson] for access.
 
 # Crate of the Week
 
-The Crate of this week is [Conrod](https://crates.io/crates/conrod), a simple to use intermediate-mode GUI library written in pure Rust. Thanks to [7zf](https://www.reddit.com/user/7zf).
+The Crate of this week is [Conrod](https://crates.io/crates/conrod), a simple to use immediate-mode GUI library written in pure Rust. Thanks to [7zf](https://www.reddit.com/user/7zf).
 
-Conrod forgos the traditional "wrap the default GUI for each operating system/desktop environment" approach and uses OpenGL to present a simple, but color- as well as powerful GUI in its own style. There are a good number of widgets implemented already, and writing GUI code with conrod is a breeze thanks to the very streamlined interface.
+Conrod forgoes the traditional "wrap the default GUI for each operating system/desktop environment" approach and uses OpenGL to present a simple, but color- as well as powerful GUI in its own style. There are a good number of widgets implemented already, and writing GUI code with conrod is a breeze thanks to the very streamlined interface.
 
 # Quote of the Week
 
