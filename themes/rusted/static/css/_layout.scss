@@ -113,7 +113,7 @@ body > footer {
         font-weight: bold;
     }
 
-    h1 { 
+    h1 {
         font-size: 24px;
     }
 
@@ -128,6 +128,10 @@ body > footer {
     h4 {
         font-size: 16px;
     }
+}
+
+blockquote {
+  white-space: pre-line;
 }
 
 .emoji {
