@@ -33,7 +33,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [brson](
 * [Experiences building an OS in Rust](https://mostlytyped.com/posts/experiences-building-an-os-in-ru).
 * [Ownership is theft: Experiences building an embedded OS in Rust](http://amitlevy.com/papers/tock-plos2015.pdf).
 * [Rust faster!](https://llogiq.github.io/2015/10/03/fast.html)
-* [podcast] [New Rustacean podcast episode 01](http://www.newrustacean.com/show_notes/e01/index.html). Documentation in general, and `rustdoc` and `cargo doc` in particular.
+* [podcast] [New Rustacean podcast episode 01](http://www.newrustacean.com/show_notes/e001/index.html). Documentation in general, and `rustdoc` and `cargo doc` in particular.
 * [Rusty queens](http://jd.ekstrandom.net/blog/2015/10/rusty-queens). An n-queens solver in Rust.
 
 ## Notable New Crates & Projects
