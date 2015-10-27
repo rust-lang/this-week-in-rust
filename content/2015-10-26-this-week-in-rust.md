@@ -109,6 +109,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [10/28. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
 * [10/28. Rust Amsterdam](http://www.meetup.com/Rust-Amsterdam/events/225117486/).
 * [10/28. RustBerlin Hack and Learn](http://www.meetup.com/Rust-Berlin/events/225614991/).
+* [10/28. Rust Meetup Cologne](http://rustaceans.cologne/2015/10/28/second-meetup.html)
 * [10/31. Rust Meetup Tokyo](https://rust-of-us.doorkeeper.jp/events/32615).
 * [11/2. Women Who Code, Codemotion Berlin](http://berlin2015.codemotionworld.com/news/women-who-code-workshop-introduction-to-rust/).
 * [11/4. PDXRust](http://www.meetup.com/PDXRust/events/225745776/).
