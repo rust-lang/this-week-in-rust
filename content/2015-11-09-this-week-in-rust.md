@@ -21,6 +21,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [brson](
 
 ## News & Blog Posts
 
+* [New version of kernel32-sys breaks multiple crates](https://github.com/retep998/winapi-rs/issues/238).
 * [Bare metal Rust: Low-level CPU I/O ports](http://www.randomhacks.net/2015/11/09/bare-metal-rust-cpu-port-io/).
 * [Macros in Rust - Part 1](http://ncameron.org/blog/macros-in-rust-pt1/).
 * [Macros in Rust - Part 2](http://www.ncameron.org/blog/macros-in-rust-pt2/). Procedural macros.
