@@ -43,6 +43,10 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [brson](
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2015-11-02..2015-11-09
 
+See the [triage digest][triage] for more details.
+
+[triage]: https://internals.rust-lang.org/t/triage-digest-tue-nov-03-2015/2865
+
 ## Notable changes
 
 * [Library FCP Issues for the 1.6 cycle](https://internals.rust-lang.org/t/library-fcp-issues-for-the-1-6-cycle/2872).
