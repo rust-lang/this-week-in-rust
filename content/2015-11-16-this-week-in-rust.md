@@ -103,6 +103,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 * [11/17. Rust Hack and Learn Hamburg](http://www.meetup.com/Rust-Meetup-Hamburg/events/226298232/?a=ea1_grp&rv=ea1&_af=event&_af_eid=226298232&https=off).
 * [11/18. Rust Los Angeles Monthly Meetup](http://www.meetup.com/Rust-Los-Angeles/events/226074704/).
+* [11/19. Wellington Rust Meetup](http://www.meetup.com/Wellington-Rust-Meetup/events/226584413/).
 * [11/25. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
 * [11/25. RustBerlin Hack and Learn](http://www.meetup.com/Rust-Berlin/).
 
