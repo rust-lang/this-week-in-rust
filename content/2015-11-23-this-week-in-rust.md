@@ -127,7 +127,7 @@ Anderson][brson] for access.
 # fn work(on: RustProject) -> Money
 
 * [Research Engineer - Servo](https://careers.mozilla.org/en-US/position/ozy21fwU) at Mozilla.
-* [Senior Research Engineer - Rust](https://careers.mozilla.org/en-US/position/o0H41fww) at Mozilla. Join the core Rust team!
+* [Senior Research Engineer - Rust](https://careers.mozilla.org/en-US/position/o0H41fww) at Mozilla.
 * [Open Source Software Engineer](http://maidsafe.net/careers) at MaidSafe.
 * [Systems Engineer](https://twitter.com/jarrednicholls/status/664446704410861568) at IronNet Cybersecurity.
 
