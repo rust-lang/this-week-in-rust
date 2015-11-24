@@ -135,7 +135,7 @@ Anderson][brson] for access.
 
 # Crate of the Week
 
-This week's Crate of the Week is [nom](https://crates.io/crates/nom), a library of fast zero-copy parser combinators, which has already been used to create safe, high-performance parsers for a number of formats both binary and textual. nom just reached version 1.0, too, so congratulations for both the major version and the CotW status!
+This week's Crate of the Week is [nom](https://crates.io/crates/nom), a library of fast zero-copy [parser combinators](https://en.wikipedia.org/wiki/Parser_combinator), which has already been used to create safe, high-performance parsers for a number of formats both binary and textual. nom just reached version 1.0, too, so congratulations for both the major version and the CotW status!
 
 Thanks to Reddit user [gbersac](https://www.reddit.com/user/gbersac) for the [nom-ination](https://www.reddit.com/r/rust/comments/3t10f3/nom_just_reached_10_cleaner_parsers_more_generic/cx2or2m)! [Submit your suggestions for next week][submit_crate]!
 
