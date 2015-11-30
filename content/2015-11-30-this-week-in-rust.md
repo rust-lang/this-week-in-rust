@@ -31,6 +31,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [brson](
 
 ## Notable New Crates & Projects
 
+* [Diesel](https://github.com/sgrif/diesel). A safe, extensible ORM and Query Builder for Rust.
 * [Chomp](https://github.com/m4rw3r/chomp). Fast parser combinator library for Rust.
 * [libkeccak-tiny](https://github.com/debris/tiny-keccak). A tiny implementation of SHA-3, SHAKE, Keccak, and sha3sum in Rust.
 * [Waitout](https://github.com/softprops/waitout). Simple interface for tracking and awaiting the completion of multiple asynchounous tasks.
