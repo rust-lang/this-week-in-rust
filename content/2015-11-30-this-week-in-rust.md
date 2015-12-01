@@ -104,6 +104,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [12/2. Boston: Concurrency in Rust Tutorial](http://www.meetup.com/Boston-Rust-Meetup-25317522aNpHwZdw/events/226759437/).
 * [12/8. San Diego Rust Meetup](http://www.meetup.com/San-Diego-Rust/events/226694618/).
 * [12/9. RustBerlin Hack and Learn](http://www.meetup.com/Rust-Berlin/).
+* [12/11. Rhein-Main Area Rust Meetup](http://www.meetup.com/de/Rust-Rhein-Main/events/226858571/).
 * [12/14. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
 
 If you are running a Rust event please add it to the [calendar] to get
