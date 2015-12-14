@@ -87,7 +87,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 ## New RFCs
 
 * [Provide a syntactic sugar to automatically implement a given trait `Tr` using a pre-existing type implementing `Tr`](https://github.com/rust-lang/rfcs/pull/1406).
-* [Amend 0809 to reduce the number of traits](https://github.com/rust-lang/rfcs/pull/1406).
+* [Amend 0809 to reduce the number of traits](https://github.com/rust-lang/rfcs/pull/1401).
 
 # Upcoming Events
 
