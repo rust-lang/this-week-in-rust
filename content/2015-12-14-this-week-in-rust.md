@@ -94,7 +94,6 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [12/15. Rust - Rethinking Systems Programming](http://www.meetup.com/de/NewStore/events/225945950/).
 * [12/16. SSD Rust meetup - servo + TBD topics](http://www.meetup.com/SolidStateDepot/events/227170190/).
 * [12/21. Paris - Rust Paris](http://www.meetup.com/Rust-Paris).
-* [12/23. RustBerlin Hack and Learn](http://www.meetup.com/Rust-Berlin/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
