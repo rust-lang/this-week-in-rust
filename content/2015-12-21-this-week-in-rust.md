@@ -29,6 +29,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [brson](
 * [Differential geometry in Rust](http://ebvalaim.mydevil.net/en/2015/12/18/differential-geometry-in-rust/).
 * [Adding community-driven Wayland support to Servo](http://blogs.s-osg.org/community-driven-wayland-support-servo/).
 * [Surfaces and signatures: Component privacy versus dependence](http://blog.pnkfx.org/blog/2015/12/19/signatures-and-surfaces-thoughts-on-privacy-versus-dependency/).
+* [This week in Redox OS 9](http://www.redox-os.org/news/this-week-in-redox-9/).
 
 ## Notable New Crates & Project Updates
 
