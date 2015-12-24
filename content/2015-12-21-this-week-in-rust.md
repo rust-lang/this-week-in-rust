@@ -124,7 +124,7 @@ Anderson][brson] for access.
 * [Research Engineer - Servo](https://careers.mozilla.org/en-US/position/ozy21fwU) at Mozilla.
 * [Senior Research Engineer - Rust](https://careers.mozilla.org/en-US/position/o0H41fww) at Mozilla.
 * [Open Source Software Engineer](http://maidsafe.net/careers) at MaidSafe.
-* [Mulitple positions](http://rust.jobboard.io/employers/6824-ironnet-cybersecurity) at IronNet Cybersecurity.
+* [Multiple positions](http://rust.jobboard.io/employers/6824-ironnet-cybersecurity) at IronNet Cybersecurity.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
