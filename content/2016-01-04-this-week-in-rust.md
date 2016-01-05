@@ -93,7 +93,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [1/12. Eat, Drink, Rust! San Diego Downtown Rust Meetup](http://www.meetup.com/San-Diego-Rust/events/227308164/).
 * [1/13. Copenhagen hackathon](https://cph.rs/).
 * [1/13. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
-* [1/13. Log Angeles Monthly Meetup - Happy New Year Hack Night](http://www.meetup.com/Rust-Los-Angeles/events/227438139/).
+* [1/13. Los Angeles Monthly Meetup - Happy New Year Hack Night](http://www.meetup.com/Rust-Los-Angeles/events/227438139/).
 * [1/14. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
 * [1/15. Rhein-Main Rust Meetup](http://www.meetup.com/de/Rust-Rhein-Main/events/227808685/).
 * [1/18. Rust Paris](http://www.meetup.com/Rust-Paris).
