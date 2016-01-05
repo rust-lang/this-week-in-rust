@@ -119,6 +119,10 @@ Anderson][brson] for access.
 
 This week's Crate of the Week is [rustfmt](https://crates.io/crates/rustfmt/), because it's nice to Rust with style.
 
+[Submit your suggestions for next week][submit_crate]!
+
+[submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
+
 # Quote of the Week
 
 > I think the "standard library" is really (forgive me) a brand.
@@ -126,3 +130,7 @@ This week's Crate of the Week is [rustfmt](https://crates.io/crates/rustfmt/), b
 [jimb on rust-internals](https://internals.rust-lang.org/t/thoughts-on-rust-stdlib-and-c-interfacing/3036/14)
 
 Thanks to llogiq for the belated suggestion.
+
+[Submit your quotes for next week][submit]!
+
+[submit]: http://users.rust-lang.org/t/twir-quote-of-the-week/328
