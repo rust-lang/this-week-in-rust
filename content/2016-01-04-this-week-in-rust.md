@@ -95,6 +95,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [1/13. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
 * [1/13. Log Angeles Monthly Meetup - Happy New Year Hack Night](http://www.meetup.com/Rust-Los-Angeles/events/227438139/).
 * [1/14. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
+* [1/15. Rhein-Main Rust Meetup](http://www.meetup.com/de/Rust-Rhein-Main/events/227808685/).
 * [1/18. Rust Paris](http://www.meetup.com/Rust-Paris).
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -113,3 +114,15 @@ Anderson][brson] for access.
 * [Multiple positions](http://rust.jobboard.io/employers/6824-ironnet-cybersecurity) at IronNet Cybersecurity.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
+# Crate of the Week
+
+This week's Crate of the Week is [rustfmt](https://crates.io/crates/rustfmt/), because it's nice to Rust with style.
+
+# Quote of the Week
+
+> I think the "standard library" is really (forgive me) a brand.
+
+[jimb on rust-internals](https://internals.rust-lang.org/t/thoughts-on-rust-stdlib-and-c-interfacing/3036/14)
+
+Thanks to llogiq for the belated suggestion.
