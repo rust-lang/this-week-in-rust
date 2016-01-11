@@ -32,6 +32,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [brson](
 * [The scope of `unsafe`](https://www.ralfj.de/blog/2016/01/09/the-scope-of-unsafe.html).
 * [Two weeks of Rust - building a Memcache clone](http://www.matusiak.eu/numerodix/blog/2016/1/10/two-weeks-rust/).
 * [Abstract return types, aka `impl Trait`](http://www.ncameron.org/blog/abstract-return-types-aka-%60impl-trait%60/).
+* [RustBelt: Logical Foundations for the Future of Safe Systems Programming](http://plv.mpi-sws.org/rustbelt/).
 
 ## Notable New Crates & Project Updates
 
@@ -132,6 +133,7 @@ Anderson][brson] for access.
 * [Rust Engineer](http://maidsafe.net/rust_engineer.html) at MaidSafe.
 * [Research Engineer - Servo](https://careers.mozilla.org/en-US/position/ozy21fwU) at Mozilla.
 * [Senior Research Engineer - Rust](https://careers.mozilla.org/en-US/position/o0H41fww) at Mozilla.
+* [PhD and postdoc positions](http://plv.mpi-sws.org/rustbelt/) at MPI-SWS.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
