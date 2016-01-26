@@ -31,6 +31,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [brson](
 ## Notable New Crates & Project Updates
 
 * [Are we concurrent yet](http://areweconcurrentyet.com/)?
+* [GFX](https://github.com/gfx-rs/gfx) epic rewrite for the Pipeline State Objects paradigm has [landed](https://github.com/gfx-rs/gfx/pull/828), described [on the blog](http://gfx-rs.github.io/2016/01/22/pso.html).
 * [Herbie](https://github.com/mcarton/rust-herbie-lint). A rustc plugin to check for numerical instability.
 * [Dynamo](http://blog.piston.rs/2016/01/23/dynamo/). A rusty dynamically typed scripting language.
 * [rust-vnc](https://github.com/whitequark/rust-vnc). An implementation of VNC protocol, client state machine and a client.
