@@ -111,6 +111,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [2/3. Rust Berlin: Leaf and Collenchyma](http://www.meetup.com/Rust-Berlin/events/227321071/).
 * [2/3. Rust Meetup in Cologne / Germany](http://www.meetup.com/de/Rust-Cologne-Bonn/events/227534456/).
 * [2/8. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
+* [2/12. Embedded Rust Workshop Frankfurt](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/228170051/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
