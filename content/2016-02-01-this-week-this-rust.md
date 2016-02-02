@@ -75,7 +75,6 @@ See the [triage digest][triage] and [subteam reports][subteam] for more details.
 
 * Ali Clark
 * Daan Sprenkels
-* ggomez
 * tgor
 * Thomas Wickham
 * Tomasz Miąsko
