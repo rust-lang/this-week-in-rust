@@ -5,7 +5,7 @@ import os
 
 AUTHOR = u'Corey Richardson'
 SITENAME = u"This Week in Rust"
-SITEURL = 'http://this-week-in-rust.org'
+SITEURL = 'https://this-week-in-rust.org'
 
 SOURCE_URL = 'https://github.com/cmr/this-week-in-rust'
 
@@ -23,7 +23,9 @@ DEFAULT_LANG = u'en'
 
 FEED_DOMAIN = SITEURL
 FEED_ALL_ATOM = 'atom.xml'
+FEED_ALL_RSS = 'rss.xml'
 CATEGORY_FEED_ATOM = 'categories/%s/atom.xml'
+CATEGORY_FEED_RSS = 'categories/%s/rss.xml'
 
 DEFAULT_PAGINATION = 10
 
