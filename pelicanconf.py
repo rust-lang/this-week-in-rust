@@ -23,7 +23,9 @@ DEFAULT_LANG = u'en'
 
 FEED_DOMAIN = SITEURL
 FEED_ALL_ATOM = 'atom.xml'
+FEED_ALL_RSS = 'rss.xml'
 CATEGORY_FEED_ATOM = 'categories/%s/atom.xml'
+CATEGORY_FEED_RSS = 'categories/%s/rss.xml'
 
 DEFAULT_PAGINATION = 10
 
