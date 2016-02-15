@@ -139,6 +139,10 @@ Anderson][brson] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+# GSoc Project
+
+Hi students! Looking for an awesome summer project in Rust? Look no further! Chris Holcombe from Canonical is an experienced GSoC mentor and has a project to implement CephX protocol decoding. [Check it out here](https://wiki.ubuntu.com/GoogleSoC2016/Ideas#Decode_CephX_Protocol).
+
 # Crate of the Week
 
 This week's Crate of the Week is [rayon](https://crates.io/crates/rayon),
