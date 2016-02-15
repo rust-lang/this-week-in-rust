@@ -30,9 +30,13 @@ Use the included `new_contribs.sh` script:
 
 ## Building
 
+Ensure you have SASS installed. The easiest way to get it is via `gem`, the
+Ruby package manager.
+
 ```
-pelican content -s pelicanconf.py
+env SASS_BIN=$HOME/.gem/ruby/*/bin/sass pelican content -s pelicanconf.py
 ```
+
 ### To build the newsletter
 
 * Generate the HTML
