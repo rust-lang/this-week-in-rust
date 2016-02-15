@@ -1,2 +1,4 @@
 Markdown==2.4
 pelican==3.5
+webassets
+cssmin
