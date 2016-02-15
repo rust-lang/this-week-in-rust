@@ -140,3 +140,11 @@ blockquote {
     vertical-align: middle;
     border: 0px none;
 }
+
+/**
+ * For honeypot
+ */
+.out-of-view-input {
+  position: absolute;
+  left: -5000px;
+}
