@@ -14,7 +14,7 @@ contributions](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md).
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [Andre](https://github.com/llogiq).
+This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llogiq](https://github.com/llogiq).
 
 
 # Updates from Rust Community
@@ -24,6 +24,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [And
 * [Binding threads and processes to CPUs in Rust](http://nitschinger.at/Binding-Threads-And-Processes-to-CPUs-in-Rust/).
 * [The many kinds of code reuse in Rust](http://cglab.ca/~abeinges/blah/rust-reuse-and-recycle/).
 * [Code of heat conductivity](https://llogiq.github.io/2016/02/10/code.html). Llogiq on Rust's Code of Conduct.
+* [Rustic Bits](https://llogiq.github.io/2016/02/11/rustic.html). And on the small things that make code *rustic*.
 * [Why Rust's ownership/borrowing is hard](http://softwaremaniacs.org/blog/2016/02/12/ownership-borrowing-hard/en/).
 * [video] [Rust: Unlocking Systems Programming by Aaron Turon](http://www.infoq.com/presentations/rust-thread-safety).
 * [This week in Servo 50](http://blog.servo.org/2016/02/08/twis-50/).
