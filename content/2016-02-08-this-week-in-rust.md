@@ -14,7 +14,7 @@ contributions](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md).
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [Andre](https://github.com/llogiq).
+This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llogiq](https://github.com/llogiq).
 
 
 # Updates from Rust Community
