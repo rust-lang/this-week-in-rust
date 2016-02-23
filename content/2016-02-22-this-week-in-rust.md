@@ -109,6 +109,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [3/2. Rust Amsterdam - Talks and Drinks](http://www.meetup.com/Rust-Amsterdam/events/227827508/).
 * [3/2. Cologne: Live Rust-Coding](http://www.meetup.com/de-DE/Rust-Cologne-Bonn/events/229013352/?eventId=229013352&chapter_analytics_code=UA-63812876-1).
 * [3/3. Rust São Paulo Meetup](http://www.meetup.com/Rust-Sao-Paulo-Meetup/events/228868463/).
+* [3/11. Darmstadt Rust Table of Regulars](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/228665878/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
