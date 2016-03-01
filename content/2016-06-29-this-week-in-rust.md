@@ -161,9 +161,11 @@ Anderson][brson] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
-# GSoc Project
+# GSoc Projects
 
 Hi students! Looking for an awesome summer project in Rust? Look no further! Chris Holcombe from Canonical is an experienced GSoC mentor and has a project to implement CephX protocol decoding. [Check it out here](https://wiki.ubuntu.com/GoogleSoC2016/Ideas#Decode_CephX_Protocol).
+
+Servo is also accepting project submissions under the Mozilla banner. See if any of the [project ideas](https://wiki.mozilla.org/Community:SummerOfCode16#Servo) appeal to you and read the [advice for applications](https://wiki.mozilla.org/Community:SummerOfCode16#Application_Advice).
 
 # Quote of the Week
 
