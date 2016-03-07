@@ -90,7 +90,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [rustdoc: Split out rustdoc pass to strip private imports](https://github.com/rust-lang/rust/pull/32055). No more private imports in rustdoc.
 * [Improve the `check_pat_enum` logic](https://github.com/rust-lang/rust/pull/32039). rustc will catch missing fields in pattern matches again.
 * [Truncate i8-s to i1-s when loading constants](https://github.com/rust-lang/rust/pull/32032). Regression fix for LLVM type errors with bools.
-* [Use `drop_in_place` in `Vec` and `VecDeque`](https://github.com/rust-lang/rust/pull/32012). Vecs and VecDeques now drop faster.
+* [Use `drop_in_place` in `Vec` and `VecDeque`](https://github.com/rust-lang/rust/pull/32012). VecDeques now drop faster.
 * [Extend compiletest to support revisions, incremental tests](https://github.com/rust-lang/rust/pull/32007).
 * [Use raw pointer casts for `slice`, `str`'s `.as_ptr()`](https://github.com/rust-lang/rust/pull/31999). `slice.as_ptr` generates simpler LLVM IR.
 * [Update libc](https://github.com/rust-lang/rust/pull/31996).
