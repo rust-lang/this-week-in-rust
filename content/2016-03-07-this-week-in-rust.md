@@ -41,6 +41,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 * [concatenation_benchmarks-rs](https://github.com/hoodie/concatenation_benchmarks-rs). Comparing ways to concatenate strings in Rust.
 * [rosc](https://github.com/klingtnet/rosc). An implementation of the OSC 1.0 (Open Sound Control) protocol in pure Rust.
 * [Rsoundio](https://github.com/klingtnet/rsoundio). A wrapper for libsoundio, a cross-platform realtime audio in- and output library.
+* [Releasing ndarray 0.4](http://bluss.github.io/rust/2016/03/06/ndarray-0.4/). ndarray is a Rust library providing an n-dimensional array.
 
 # Summer of Code Projects
 
