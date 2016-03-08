@@ -153,6 +153,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [3/10. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
 * [3/11. Darmstadt Rust Table of Regulars](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/228665878/).
 * [3/14. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
+* [3/17. London Rust Meetup](http://www.meetup.com/Rust-London-User-Group/events/229413056/).
 * [3/21. Rust Paris](http://www.meetup.com/Rust-Paris)
 
 If you are running a Rust event please add it to the [calendar] to get
