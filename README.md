@@ -8,7 +8,7 @@ license](http://mit-license.org/).
 
 ## PRs for 14 March 2016 issue are now being accepted
 
-Check the `draft` directory for more details.
+Check the `drafts` directory for more details.
 
 ## How I get PR lists:
 
