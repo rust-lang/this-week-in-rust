@@ -20,6 +20,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## News & Blog Posts
 
+* [These weeks in Amethyst 7](blog.amethyst.rs/2016/03/13/twia-7/).
 
 ## Notable New Crates & Project Updates
 
