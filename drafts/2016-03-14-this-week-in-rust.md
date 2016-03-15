@@ -35,6 +35,7 @@ Servo also has [a project](https://teams.railsgirlssummerofcode.org/projects/104
 
 # Crate of the Week
 
+The crate of this week is [LALRPOP](https://crates.io/crates/lalrpop), a LR(1) parser generator that compiles to Rust code. Thanks to [ogeon](https://users.rust-lang.org/users/ogeon) for the suggestion!
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -55,11 +56,24 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-113 pull requests were [merged in the last week][merged].
+142 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-02-29..2016-03-07
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-07..2016-03-14
 
 ## Notable changes
+
+* [implement RFC 1192 inclusive ranges](https://github.com/rust-lang/rust/pull/30884)
+* [SIMD intrinsics for fused multiply-add](https://github.com/rust-lang/rust/pull/32066)
+* [AVX broadcast/conversion intrinsics](https://github.com/rust-lang/rust/pull/32140)
+* [New i586-pc-windows-msvc target](https://github.com/rust-lang/rust/pull/32034)
+* [Huge-String-Slice-Overflow-DoS averted](https://github.com/rust-lang/rust/pull/32064)
+* [Forbid having overlapping fns in inherent impls for same type](https://github.com/rust-lang/rust/pull/31925)
+* [Add Pass manager for MIR](https://github.com/rust-lang/rust/pull/31916)
+* [fn item type shenanigans](https://github.com/rust-lang/rust/pull/31710)
+* [Fix name resolution in lexical scopes](https://github.com/rust-lang/rust/pull/32141)
+* [import resolution fixed](https://github.com/rust-lang/rust/pull/32097)
+* [optimize some std::process functions (more speed, less unsafe)](https://github.com/rust-lang/rust/pull/31618)
+* [mark associated types as live for the dead_code lint](https://github.com/rust-lang/rust/pull/32158)
 
 
 ## New Contributors
@@ -87,12 +101,9 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 # Upcoming Events
 
-* [3/9. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
-* [3/9. Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/).
-* [3/10. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
-* [3/11. Darmstadt Rust Table of Regulars](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/228665878/).
 * [3/14. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
 * [3/21. Rust Paris](http://www.meetup.com/Rust-Paris)
+* [4/15. Frankfurt/Main Rust Lint Workshop](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/229564640/?eventId=229564640)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
