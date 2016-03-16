@@ -142,7 +142,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [3/16. Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/).
 * [3/17. Rust London Meetup #4](http://www.meetup.com/Rust-London-User-Group/events/229413056/).
 * [3/21. Rust Paris](http://www.meetup.com/Rust-Paris)
-* [4/23. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
+* [3/23. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
 * [4/15. Frankfurt/Main Rust Lint Workshop](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/229564640/?eventId=229564640)
 
 If you are running a Rust event please add it to the [calendar] to get
