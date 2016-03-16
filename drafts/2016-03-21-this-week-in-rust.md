@@ -22,6 +22,8 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## Notable New Crates & Project Updates
 
+* [dryad.so.1](http://github.com/m4b/dryad) - an experimental x86-64 ELF dynamic linker, written entirely in Rust (and some asm)
+
 # Summer of Code Projects
 
 Hi students! Looking for an awesome summer project in Rust? Look no further! Chris Holcombe from Canonical is an experienced Google Summer of Code mentor and has a project to implement CephX protocol decoding. [Check it out here](https://wiki.ubuntu.com/GoogleSoC2016/Ideas#Decode_CephX_Protocol).
