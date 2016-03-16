@@ -42,7 +42,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 Hi students! Looking for an awesome summer project in Rust? Look no further! Chris Holcombe from Canonical is an experienced Google Summer of Code mentor and has a project to implement CephX protocol decoding. [Check it out here](https://wiki.ubuntu.com/GoogleSoC2016/Ideas#Decode_CephX_Protocol).
 
-Servo is also accepting GoSC project submissions under the Mozilla banner. See if any of the [project ideas](https://wiki.mozilla.org/Community:SummerOfCode16#Servo) appeal to you and read the [advice for applications](https://wiki.mozilla.org/Community:SummerOfCode16#Application_Advice).
+Servo is also accepting GSoC project submissions under the Mozilla banner. See if any of the [project ideas](https://wiki.mozilla.org/Community:SummerOfCode16#Servo) appeal to you and read the [advice for applications](https://wiki.mozilla.org/Community:SummerOfCode16#Application_Advice).
 
 Servo also has [a project](https://teams.railsgirlssummerofcode.org/projects/104-servo) in Rails Girls Summer of Code. nom is [also participating](https://teams.railsgirlssummerofcode.org/projects/78-nom).
 
