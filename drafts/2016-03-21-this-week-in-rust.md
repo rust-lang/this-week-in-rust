@@ -47,7 +47,7 @@ Servo also has [a project](https://teams.railsgirlssummerofcode.org/projects/104
 
 # Crate of the Week
 
-This week's Crate of the Week is [LALRPOP](https://crates.io/crates/lalrpop), a LR(1) parser generator that compiles to Rust code. Thanks to [ogeon](https://users.rust-lang.org/users/ogeon) for the suggestion!
+This week's Crate of the Week is [tempfile](https://crates.io/crates/tempfile), a crate that does exactly what it says on the tin. Thanks to [Steven Allen](https://users.rust-lang.org/users/stebalien) for the suggestion!
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -74,11 +74,27 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-142 pull requests were [merged in the last week][merged].
+103 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-07..2016-03-14
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-14..2016-03-21
 
 ## Notable changes
+
+* [RFC 1210 impl specialization has landed!](https://github.com/rust-lang/rust/pull/30652) Yay!
+* [typestrong const integers](https://github.com/rust-lang/rust/pull/30587) (breaking change)
+* [Fast floating point algebra](https://github.com/rust-lang/rust/pull/32256)
+* [#derive now uses intrinsics::unreachable](https://github.com/rust-lang/rust/pull/32250)
+* [*Map-Entries now have a `.key()` method](https://github.com/rust-lang/rust/pull/32248)
+* [Rustc platform intrinsics went on a slimming diet](https://github.com/rust-lang/rust/pull/32236)
+* [`rustc --test -q`: Shorter test output](https://github.com/rust-lang/rust/pull/31887)
+* [LLVM assertions disabled on ARM to workaround codegen bug](https://github.com/rust-lang/rust/pull/32361)
+* [Another LLVM update](https://github.com/rust-lang/rust/pull/32337)
+* [Fix an ICE in region inference](https://github.com/rust-lang/rust/pull/32332)
+* [No *into_ascii methods after all](https://github.com/rust-lang/rust/pull/32314) (destabilized and removed because of inference regression)
+* [Warn, not err on inherent overlaps](https://github.com/rust-lang/rust/pull/32309) (for now, this will become an error in later versions)
+* [coercions don't kill rustc anymore](https://github.com/rust-lang/rust/pull/32306)
+* [const_eval now correctly handles right shifts](https://github.com/rust-lang/rust/pull/32285) 
+* [Fix overflow when subtracting Instant](https://github.com/rust-lang/rust/pull/32273)
 
 ## New Contributors
 
