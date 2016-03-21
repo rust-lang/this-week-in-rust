@@ -20,9 +20,22 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## News & Blog Posts
 
+* [discussion] [What, in your opinion is the worst thing about Rust?](https://www.reddit.com/r/rust/comments/4b5rfi/what_in_your_opinion_is_the_worst_thing_about_rust/).
+* [The epic story of Dropbox’s exodus from the amazon cloud empire (feat. Rust)](http://www.wired.com/2016/03/epic-story-dropboxs-exodus-amazon-cloud-empire/).
+* [Servo is going to have an alpha release in June: Servo + browser.html](https://www.reddit.com/r/rust/comments/4aec34/servo_is_going_to_have_an_alpha_release_in_june/).
+* [Learn you a Rust II - references and borrowing](http://pro.theta.eu.org/2016/03/18/lyar-borrows.html).
+* [Mozilla looks towards the IoT for Rust](https://www.voxxed.com/blog/2016/03/rust/).
+* [Working with C unions in Rust FFI](http://hermanradtke.com/2016/03/17/unions-rust-ffi.html).
+* [pdf] [Fuzzing the Rust typechecker using CLP](https://www.cs.ucsb.edu/~benh/research/papers/dewey15fuzzing.pdf).
+* [This week in Servo 55](http://blog.servo.org/2016/03/14/twis-55/).
+
 ## Notable New Crates & Project Updates
 
+* [Gtk-rs released 0.0.7 with major changes](http://gtk-rs.org/blog/2016/03/15/forget-everything-you-knew-gtk-0.0.7.html).
+* [RustType 0.2 - Now with dynamic GPU font caching](https://github.com/dylanede/rusttype/blob/205def21e370e35e2b860eb6f086fda749e57df8/CHANGELOG.md).
+* [libs.rs](http://libs.rs). A catalogue of Rust community's awesomeness.
 * [dryad.so.1](http://github.com/m4b/dryad) - an experimental x86-64 ELF dynamic linker, written entirely in Rust (and some asm)
+* [Termion](https://github.com/Ticki/termion) (previously called libterm) now supports 256 colour mode, asynchronous key events, special key events, and password input.
 
 # Summer of Code Projects
 
@@ -47,12 +60,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Easy] [Servo: Reduce duplication of the "android-18" property in the Android build](https://github.com/servo/servo/issues/8348).
-* [Less easy] [Servo: Add support for :target pseudo-selector](https://github.com/servo/servo/issues/7720).
-* [Hard] [`cargo add`: Infer crate name from path/git repo](https://github.com/killercup/cargo-edit/issues/14).
-* [Easy] [`cargo add`: Target specifications](https://github.com/killercup/cargo-edit/issues/13).
-* [Easy] [`cargo list`: More tests](https://github.com/killercup/cargo-edit/issues/16).
-* [Easy/Mentored] [`multipart`: create sample projects](https://github.com/cybergeek94/multipart/issues/29)
+* [easy] [Rust: OsString could implement the Default trait](https://github.com/rust-lang/rust/issues/32385).
+* [easy] [Rust: Backtrace contains function names with MIR, but not on MSVC](https://github.com/rust-lang/rust/issues/32384).
+* [less easy] [Servo: Write a tool that reports unnecessary crate dependencies](https://github.com/servo/servo/issues/9256).
+* [easy] [Servo/Saltfs: Trim down the symlinks to ARM cross-compilation binaries](https://github.com/servo/saltfs/issues/252).
+* [easy] [`cargo add`: Target specifications](https://github.com/killercup/cargo-edit/issues/13).
+* [easy] [`cargo list`: More tests](https://github.com/killercup/cargo-edit/issues/16).
+* [easy/mentored] [`multipart`: create sample projects](https://github.com/cybergeek94/multipart/issues/29)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -68,13 +82,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Andrew Cantino
-* Andrey Cherkashin
-* Craig M. Brandenburg
-* Noah
-* Tang Chenglong
-* Tim Montague
-* vagrant
+* Daniel J Rollins
+* Eduard-Mihai Burtescu
+* pravic
+* Stu Black
+* tiehuis
+* Todd Lucas
 
 ## Approved RFCs
 
@@ -82,7 +95,10 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week!*.
+* [RFC 1479: Unix socket support in the standard library](https://github.com/rust-lang/rfcs/pull/1479).
+* [RFC 1498: Add octet-oriented interface to `std::net::Ipv6Addr`](https://github.com/rust-lang/rfcs/pull/1498).
+* [RFC 1434: Implement a method, `contains()`, for `Range`, `RangeFrom`, and `RangeTo`, checking if a number is in the range.](https://github.com/rust-lang/rfcs/pull/1434).
+* [RFC 1432: Add a `replace_slice` method to `Vec<T>` and `String` which removes a range of elements, and replaces it in place with a given sequence of values](https://github.com/rust-lang/rfcs/pull/1432).
 
 ## Final Comment Period
 
@@ -92,28 +108,21 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
+* [Unsafe expressions](https://github.com/rust-lang/rfcs/pull/1346).
+* [Prevent unstable items from causing name resolution conflicts with downstream code](https://github.com/rust-lang/rfcs/pull/1321).
 * [Add support for naked functions](https://github.com/rust-lang/rfcs/pull/1201).
 * [Expand the current pub/non-pub categorization of items with the ability to say "make this item visible solely to a (named) module tree"](https://github.com/rust-lang/rfcs/pull/1422).
-* [Add octet-oriented interface to `std::net::Ipv6Addr`](https://github.com/rust-lang/rfcs/pull/1498).
-* [Unix socket support in the standard library](https://github.com/rust-lang/rfcs/pull/1479).
-* [Implement a method, `contains()`, for `Range`, `RangeFrom`, and `RangeTo`, checking if a number is in the range.](https://github.com/rust-lang/rfcs/pull/1434).
-* [Add a `replace_slice` method to `Vec<T>` and `String` which removes a range of elements, and replaces it in place with a given sequence of values](https://github.com/rust-lang/rfcs/pull/1432).
 
 ## New RFCs
 
-* [Saturating and checking integer wrapper types](https://github.com/rust-lang/rfcs/pull/1534).
-* [Stabilize the `-C overflow-checks` command line argument](https://github.com/rust-lang/rfcs/pull/1535).
-* [Revise type ascription operator to use type equality, not coercion](https://github.com/rust-lang/rfcs/pull/1539).
-* [Add `TryFrom` and `TryInto` traits](https://github.com/rust-lang/rfcs/pull/1542).
-* [Add more integer atomic types](https://github.com/rust-lang/rfcs/pull/1543).
+* [Allow fields in traits that map to lvalues in `impl`'ing type](https://github.com/rust-lang/rfcs/pull/1546).
+* [`as_millis` function on `std::time::Duration`](https://github.com/rust-lang/rfcs/pull/1547).
+* [Add `global_asm!` for module-level inline assembly](https://github.com/rust-lang/rfcs/pull/1548).
 
 # Upcoming Events
 
-* [3/14. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
-* [3/16. Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/).
-* [3/17. Rust London Meetup #4](http://www.meetup.com/Rust-London-User-Group/events/229413056/).
-* [3/21. Rust Paris](http://www.meetup.com/Rust-Paris)
 * [3/23. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
+* [3/31. Tokyo Rust Meetup #4](http://www.meetup.com/Tokyo-Rust-Meetup/events/229260081/).
 * [4/15. Frankfurt/Main Rust Lint Workshop](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/229564640/?eventId=229564640)
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -133,11 +142,16 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
-> Rust is not what makes these projects awesome. These projects are what make Rust awesome.
+> <phaazon> ok
+> <phaazon> and what trait is from from?
+> <jix> From :D
+> <phaazon> ok :D
+> <phaazon> so from is from From
+> <phaazon> nice!
 
-— [Manish on twitter](https://twitter.com/ManishEarth/status/707222273871052800).
+— [phaazon on #rust](https://botbot.me/mozilla/rust/2016-03-20/?msg=62542397&page=11).
 
-Thanks to [llogiq](https://users.rust-lang.org/users/llogiq) for the suggestion.
+Thanks to [Thomas Winwood](https://users.rust-lang.org/users/ketsuban) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
