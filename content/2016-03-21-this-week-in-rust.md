@@ -93,7 +93,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [No *into_ascii methods after all](https://github.com/rust-lang/rust/pull/32314) (destabilized and removed because of inference regression)
 * [Warn, not err on inherent overlaps](https://github.com/rust-lang/rust/pull/32309) (for now, this will become an error in later versions)
 * [coercions don't kill rustc anymore](https://github.com/rust-lang/rust/pull/32306)
-* [const_eval now correctly handles right shifts](https://github.com/rust-lang/rust/pull/32285) 
+* [const_eval now correctly handles right shifts](https://github.com/rust-lang/rust/pull/32285)
 * [Fix overflow when subtracting Instant](https://github.com/rust-lang/rust/pull/32273)
 
 ## New Contributors
@@ -158,12 +158,12 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
-> <phaazon> ok
-> <phaazon> and what trait is from from?
-> <jix> From :D
-> <phaazon> ok :D
-> <phaazon> so from is from From
-> <phaazon> nice!
+> <phaazon\> ok
+> <phaazon\> and what trait is from from?
+> <jix\> From :D
+> <phaazon\> ok :D
+> <phaazon\> so from is from From
+> <phaazon\> nice!
 
 — [phaazon on #rust](https://botbot.me/mozilla/rust/2016-03-20/?msg=62542397&page=11).
 
