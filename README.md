@@ -6,7 +6,7 @@ Content for [this-week-in-rust.org](http://this-week-in-rust.org). Made availabl
 All code Copyright 2014 Corey Richardson, made available under [the MIT
 license](http://mit-license.org/).
 
-## PRs for 14 March 2016 issue are now being accepted
+## PRs for next issue are now being accepted
 
 Check the `drafts` directory for more details.
 
