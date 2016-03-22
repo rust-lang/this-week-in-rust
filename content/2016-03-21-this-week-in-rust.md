@@ -81,6 +81,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 ## Notable changes
 
 * [RFC 1210 impl specialization has landed!](https://github.com/rust-lang/rust/pull/30652) Yay!
+* [MIR is now able to bootstrap itself...into orbit!](https://github.com/rust-lang/rust/pull/32080)
 * [typestrong const integers](https://github.com/rust-lang/rust/pull/30587) (breaking change)
 * [Fast floating point algebra](https://github.com/rust-lang/rust/pull/32256)
 * [#derive now uses intrinsics::unreachable](https://github.com/rust-lang/rust/pull/32250)
@@ -99,7 +100,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 ## New Contributors
 
 * Daniel J Rollins
-* Eduard-Mihai Burtescu
 * pravic
 * Stu Black
 * tiehuis
@@ -137,6 +137,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 # Upcoming Events
 
+* [3/22. Bay Area Rust: Rust, Data, and Science](http://www.meetup.com/Rust-Bay-Area/events/229107276/).
 * [3/23. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
 * [3/31. Tokyo Rust Meetup #4](http://www.meetup.com/Tokyo-Rust-Meetup/events/229260081/).
 * [4/15. Frankfurt/Main Rust Lint Workshop](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/229564640/?eventId=229564640)
