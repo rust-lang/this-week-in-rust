@@ -81,6 +81,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 ## Notable changes
 
 * [RFC 1210 impl specialization has landed!](https://github.com/rust-lang/rust/pull/30652) Yay!
+* [MIR is now able to bootstrap itself...into orbit!](https://github.com/rust-lang/rust/pull/32080)
 * [typestrong const integers](https://github.com/rust-lang/rust/pull/30587) (breaking change)
 * [Fast floating point algebra](https://github.com/rust-lang/rust/pull/32256)
 * [#derive now uses intrinsics::unreachable](https://github.com/rust-lang/rust/pull/32250)
