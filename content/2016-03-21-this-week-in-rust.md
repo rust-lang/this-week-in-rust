@@ -100,7 +100,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 ## New Contributors
 
 * Daniel J Rollins
-* Eduard-Mihai Burtescu
 * pravic
 * Stu Black
 * tiehuis
