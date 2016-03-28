@@ -41,6 +41,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 * [Gracer](https://github.com/isamert/gracer). A Rust code completion plugin for gedit.
 * [untry](https://github.com/japaric/untry). Convert `try!()` into `?`s.
 * [cargo-deadlinks](https://github.com/deadlinks/cargo-deadlinks). Cargo subcommand for checking your documentation for broken links.
+* [screenprints](https://github.com/softprops/screenprints). Screenprints acts as a buffer for terminal display continuously printing output at a configured interval.
 
 # Crate of the Week
 
