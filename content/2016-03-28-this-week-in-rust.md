@@ -62,7 +62,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [less easy] [Vulkano: Add a memory pool](https://github.com/tomaka/vulkano/issues/14).
 * [easy] [Servo: Implement `HTMLScriptElement.type` and similar attributes](https://github.com/servo/servo/issues/10227).
 * [easy] [Servo: Stop re-exporting webrender_traits WebGL types from canvas_traits](https://github.com/servo/servo/issues/10211).
-* [easy] [Servo: Using viewport percentage lengths (e.g. vh, vw) causes unnecessary style recalc on resize](https://github.com/servo/servo/issues/10104).
+* [less easy] [Servo: Using viewport percentage lengths (e.g. vh, vw) causes unnecessary style recalc on resize](https://github.com/servo/servo/issues/10104).
 * [easy] [Servo: Enable CCACHE for AppVeyor Windows builds](https://github.com/servo/servo/issues/9874).
 * [easy] [`cargo add`: Target specifications](https://github.com/killercup/cargo-edit/issues/13).
 
