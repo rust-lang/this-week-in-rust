@@ -32,7 +32,7 @@ Servo also has [a project](https://teams.railsgirlssummerofcode.org/projects/104
 
 # Crate of the Week
 
-This week's Crate of the Week is [tempfile](https://crates.io/crates/tempfile), a crate that does exactly what it says on the tin. Thanks to [Steven Allen](https://users.rust-lang.org/users/stebalien) for the suggestion!
+This week's Crate of the Week is [gfx](https://crates.io/crates/gfx), a crate to show stuff on a screen on most available platforms that have one. Thanks to [Dzmitry Malyshau](https://users.rust-lang.org/users/kvark) for the suggestion!
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -61,9 +61,28 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 103 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-14..2016-03-21
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-21..2016-03-28
 
 ## Notable changes
+
+* [`+=` for `std::time` types](https://github.com/rust-lang/rust/pull/32448/files)
+* [Fix byte order for IPv6 addresses](https://github.com/rust-lang/rust/pull/32429)
+* [Scopes in MIR](https://github.com/rust-lang/rust/pull/32428)
+* [Naked functions](https://github.com/rust-lang/rust/pull/32410)
+* [`try!(_)` → `_?` in the code](https://github.com/rust-lang/rust/pull/32390)
+* [`Range*::contains(_)`](https://github.com/rust-lang/rust/pull/32396)
+* [Poisoning for `Once`](https://github.com/rust-lang/rust/pull/32325)
+* [UNIX sockets in `std`](https://github.com/rust-lang/rust/pull/32302)
+* [Symbol name improvements](https://github.com/rust-lang/rust/pull/32293)
+* [Lang items must be unique](https://github.com/rust-lang/rust/pull/32264)
+* [removed warnings is now a lint](https://github.com/rust-lang/rust/pull/32219)
+* [`encode_utf{8,16}(_)` return iterators](https://github.com/rust-lang/rust/pull/32204)
+* [Consts in `match` must be `Eq`](https://github.com/rust-lang/rust/pull/32199)
+* [MIR can analyze moves](https://github.com/rust-lang/rust/pull/32156)
+* [Un-hack name resolution for primitive types](https://github.com/rust-lang/rust/pull/32131)
+* [typeck: O(n) → O(1) for equal types](https://github.com/rust-lang/rust/pull/32062)
+* [Most core types are now `Debug`](https://github.com/rust-lang/rust/pull/32054)
+* [Forbid out-of-scope trait's methods](https://github.com/rust-lang/rust/pull/31908)
 
 ## New Contributors
 
