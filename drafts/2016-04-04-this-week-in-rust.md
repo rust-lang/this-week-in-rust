@@ -24,7 +24,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 # Crate of the Week
 
-This week's Crate of the Week is [gfx](https://crates.io/crates/gfx), a crate to show stuff on a screen on most available platforms that have one. Thanks to [Dzmitry Malyshau](https://users.rust-lang.org/users/kvark) for the suggestion!
+This week's Crate of the Week is [rustful](https://crates.io/crates/rustful), a simple, modular REST-like HTTP framework. Thanks to [Austin B](https://users.rust-lang.org/users/DroidLogician) for the suggestion!
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -51,30 +51,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-103 pull requests were [merged in the last week][merged].
+65 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-21..2016-03-28
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-28..2016-04-04
 
 ## Notable changes
 
-* [`+=` for `std::time` types](https://github.com/rust-lang/rust/pull/32448/files)
-* [Fix byte order for IPv6 addresses](https://github.com/rust-lang/rust/pull/32429)
-* [Scopes in MIR](https://github.com/rust-lang/rust/pull/32428)
-* [Naked functions](https://github.com/rust-lang/rust/pull/32410)
-* [`try!(_)` → `_?` in the code](https://github.com/rust-lang/rust/pull/32390)
-* [`Range*::contains(_)`](https://github.com/rust-lang/rust/pull/32396)
-* [Poisoning for `Once`](https://github.com/rust-lang/rust/pull/32325)
-* [UNIX sockets in `std`](https://github.com/rust-lang/rust/pull/32302)
-* [Symbol name improvements](https://github.com/rust-lang/rust/pull/32293)
-* [Lang items must be unique](https://github.com/rust-lang/rust/pull/32264)
-* [removed warnings is now a lint](https://github.com/rust-lang/rust/pull/32219)
-* [`encode_utf{8,16}(_)` return iterators](https://github.com/rust-lang/rust/pull/32204)
-* [Consts in `match` must be `Eq`](https://github.com/rust-lang/rust/pull/32199)
-* [MIR can analyze moves](https://github.com/rust-lang/rust/pull/32156)
-* [Un-hack name resolution for primitive types](https://github.com/rust-lang/rust/pull/32131)
-* [typeck: O(n) → O(1) for equal types](https://github.com/rust-lang/rust/pull/32062)
-* [Most core types are now `Debug`](https://github.com/rust-lang/rust/pull/32054)
-* [Forbid out-of-scope trait's methods](https://github.com/rust-lang/rust/pull/31908)
+* [specialization of `str::to_string()`](https://github.com/rust-lang/rust/pull/32586)
+* [weed out unneeded dependencies within rustc](https://github.com/rust-lang/rust/pull/32571)
+* [lldb breakpoints get source file names](https://github.com/rust-lang/rust/pull/32522)
+* [Parser recovery is behind debug flag until kinks worked out](https://github.com/rust-lang/rust/pull/32494)
+* [Parsing after EOF is now ICE](https://github.com/rust-lang/rust/pull/32479) (better than possible infinite loops)
+* [melt the ICE on lowering impossible range](https://github.com/rust-lang/rust/pull/32267)
+* [`const_eval` and `check_match` now live in their own crate](https://github.com/rust-lang/rust/pull/32259)
+* [MIR traversals, orbit bootstraps](https://github.com/rust-lang/rust/pull/32210)
+* [private fields/methods no longer interfere with selection](https://github.com/rust-lang/rust/pull/31938)
+* [RefCell/RefMut coercible to unsized](https://github.com/rust-lang/rust/pull/32652)
+* [Arc now `compare_exchange`s instead of `compare_and_swap`](https://github.com/rust-lang/rust/pull/32643) (should be faster on ARM)
+* [`HashMap`/`HashSet` and their iterators are now covariant](https://github.com/rust-lang/rust/pull/32635)
+* [`BTree`/`HashMap::values_mut()`](https://github.com/rust-lang/rust/pull/32633)
 
 ## New Contributors
 
