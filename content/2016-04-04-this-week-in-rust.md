@@ -20,7 +20,26 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## News & Blog Posts
 
+* [Carol Nichols joins the Community team](https://users.rust-lang.org/t/carol-nichols-is-joining-the-community-team/5190)!
+* Steve Klabnik is giving a [2 day course introducing Rust at OSCON](http://conferences.oreilly.com/oscon/open-source-us/public/schedule/detail/49862).
+* [Call for Proposals](http://cfp.rust-belt-rust.com/) for Rust Belt Rust Conference are now open.
+* [Deploying a Rust app to Google App Engine](http://blog.jecrooks.com/posts/rust-on-appengine.html).
+* [Native JavaScript classes in Neon](http://calculist.org/blog/2016/04/01/native-js-classes-in-neon/). Neon is a safe Rust abstraction layer for native Node.js modules.
+* [Rust via its Core Values](http://designisrefactoring.com/2016/04/01/rust-via-its-core-values/). Couple of ideas about learning programming languages.
+* [Error handling in Rust](https://facility9.com/2016/03/error-handling-in-rust/).
+* [Rust borrow checker woes](http://osa1.net/posts/2016-03-28-rust-brwchk-woes.html).
+* [Linear algebra in Rust](https://bluss.github.io/rust/2016/03/28/a-gemmed-rabbit-hole/).
+* [This week in Redox 13](http://www.redox-os.org/news/this-week-in-redox-13/).
+* [This week in Servo 57](https://blog.servo.org/2016/03/28/twis-57/).
+* [Announcing the official release of the Visual C++ Build Tools 2015](https://blogs.msdn.microsoft.com/vcblog/2016/03/31/announcing-the-official-release-of-the-visual-c-build-tools-2015/). Visual C++ Build Tools are required for MSVC builds of Rust.
+
 ## Notable New Crates & Project Updates
+
+* `rustup`, successor to `multirust` and `multirust-rs` is [now in beta](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/50).
+* [TiKV](https://github.com/pingcap/tikv). Distributed key-value database powered by Rust.
+* [Steven](https://github.com/Thinkofname/steven-rust). Rust Minecraft client.
+* [semantic-rs](https://fnordig.de/2016/03/29/releasing-rust-projects-the-automatic-way/). Automate your crate publishing routine.
+* [EGLI](https://github.com/Nercury/egli-rs). Easy to use EGL Interface for Rust.
 
 # Crate of the Week
 
@@ -37,12 +56,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [easy] [rustup: Add prelimenary telemetry](https://github.com/rust-lang-nursery/multirust-rs/issues/254).
+* [difficult] [rustup: Add Windows GUI / MSI installer](https://github.com/rust-lang-nursery/multirust-rs/issues/253).
+* [easy] [rexiv2: Results should likely use our own aliased Error (and Result?) type](https://github.com/felixc/rexiv2/issues/16).
+* [easy] [rexiv2: Provide access to full XML XMP packet](https://github.com/felixc/rexiv2/issues/14).
 * [medium] [buildengine5: Test `net::test::client_server_send` fails](https://github.com/Ameliorate/buildengine5/issues/10).
 * [less easy] [Vulkano: Add a memory pool](https://github.com/tomaka/vulkano/issues/14).
-* [easy] [Servo: Implement `HTMLScriptElement.type` and similar attributes](https://github.com/servo/servo/issues/10227).
-* [easy] [Servo: Stop re-exporting webrender_traits WebGL types from canvas_traits](https://github.com/servo/servo/issues/10211).
-* [easy] [Servo: Using viewport percentage lengths (e.g. vh, vw) causes unnecessary style recalc on resize](https://github.com/servo/servo/issues/10104).
-* [easy] [Servo: Enable CCACHE for AppVeyor Windows builds](https://github.com/servo/servo/issues/9874).
 * [easy] [`cargo add`: Target specifications](https://github.com/killercup/cargo-edit/issues/13).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -73,14 +92,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Alejandro Wainzinger
-* Andrew Horton
-* Cyryl Płotnicki-Chudyk
-* David Henningsson
-* ituxbag
-* Kevin Brothaler
-* nicholasf
-* Novotnik, Petr
+* Alan Somers
+* Andreas Linz
+* Christian Wesselhoeft
+* Christopher Serr
+* David AO Lozano
+* Florian Berger
+* Tobias Müller
+* Valentin Lorentz
+* Валерий Лашманов
 
 ## Approved RFCs
 
@@ -88,8 +108,9 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1201: Add support for naked functions](https://github.com/rust-lang/rfcs/pull/1201).
-* [RFC 1422: Expand the current pub/non-pub categorization of items with the ability to say "make this item visible solely to a (named) module tree"](https://github.com/rust-lang/rfcs/pull/1422).
+* [RFC 1552: Add a contains method to `VecDeque` and `LinkedList`](https://github.com/rust-lang/rfcs/pull/1552).
+* [Amendment to RFC 1291: Add libutil to scope of libc crate on Linux](https://github.com/rust-lang/rfcs/pull/1529).
+
 
 ## Final Comment Period
 
@@ -99,27 +120,37 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [Add a contains method to VecDeque and LinkedList](https://github.com/rust-lang/rfcs/pull/1552).
-* [Add libutil to scope of libc crate on Linux](https://github.com/rust-lang/rfcs/pull/1529).
+* [Add more integer atomic types](https://github.com/rust-lang/rfcs/pull/1543).
 * [Stabilize implementing panics as aborts](https://github.com/rust-lang/rfcs/pull/1513).
+* [Add a generic `Atomic<T>` type](https://github.com/rust-lang/rfcs/pull/1505).
+* [Amend RFC 550 with misc. follow set corrections](https://github.com/rust-lang/rfcs/pull/1494).
+* [Provide native support for C-compatible unions, defined via a new keyword `untagged_union`](https://github.com/rust-lang/rfcs/pull/1444).
 * [Add a standard allocator interface and support for user-defined allocators](https://github.com/rust-lang/rfcs/pull/1398).
 * [Remove some kinds of doc comments](https://github.com/rust-lang/rfcs/pull/1373).
-* [Unsafe expressions](https://github.com/rust-lang/rfcs/pull/1346).
-* [Prevent unstable items from causing name resolution conflicts with downstream code](https://github.com/rust-lang/rfcs/pull/1321).
 * [Amend RFC 1228 with operator fixity and precedence](https://github.com/rust-lang/rfcs/pull/1319).
 
 ## New RFCs
 
-* [Allow coercing non-capturing closures to function pointers](https://github.com/rust-lang/rfcs/pull/1558).
+* [<img src="https://cdn-business.discourse.org/images/emoji/emoji_one/scream.png?v=2" title=":scream:" class="emoji" alt=":scream:"> <img src="https://cdn-business.discourse.org/images/emoji/emoji_one/no_entry.png?v=2" title=":no_entry:" class="emoji" alt=":no_entry:"> <img src="https://cdn-business.discourse.org/images/emoji/emoji_one/exclamation.png?v=2" title=":exclamation:" class="emoji" alt=":exclamation:"> <img src="https://cdn-business.discourse.org/images/emoji/emoji_one/no_good.png?v=2" title=":no_good:" class="emoji" alt=":no_good:"> <img src="https://cdn-business.discourse.org/images/emoji/emoji_one/white_check_mark.png?v=2" title=":white_check_mark:" class="emoji" alt=":white_check_mark:"> <img src="https://cdn-business.discourse.org/images/emoji/emoji_one/sunglasses.png?v=2" title=":sunglasses:" class="emoji" alt=":sunglasses:">      ](https://github.com/rust-lang/rfcs/pull/1565).
+* [Amendment to RFC 1291: Add `errno()` and `set_errno()` to `libc` scope](https://github.com/rust-lang/rfcs/pull/1571).
+* [Standardise stream wrappers like compression, encryption and etc](https://github.com/rust-lang/rfcs/pull/1568).
+* [Normalization for long error codes explanations](https://github.com/rust-lang/rfcs/pull/1567).
+* [Procedural macros](https://github.com/rust-lang/rfcs/pull/1566).
+* [Add function overloading by using pattern matching](https://github.com/rust-lang/rfcs/pull/1564).
+* [Add `#![cfg_assert]`](https://github.com/rust-lang/rfcs/pull/1563).
+* [Macro naming and modularisation](https://github.com/rust-lang/rfcs/pull/1561).
+* [Some internal and language-level changes to name resolution](https://github.com/rust-lang/rfcs/pull/1560).
 
 # Upcoming Events
 
-* [3/31. Tokyo Rust Meetup #4](http://www.meetup.com/Tokyo-Rust-Meetup/events/229260081/).
 * [4/6. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
 * [4/6. Germany/Cologne - Hack and Learn](http://www.meetup.com/de-DE/Rust-Cologne-Bonn/events/229919455/).
 * [4/6. Rust São Paulo Meetup](http://www.meetup.com/Rust-Sao-Paulo-Meetup/events/229377422/).
 * [4/11. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
+* [4/13. Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/).
+* [4/14. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
 * [4/15. Frankfurt/Main Rust Lint Workshop](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/229564640/?eventId=229564640)
+* [4/18. Rust Paris](http://www.meetup.com/Rust-Paris).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -131,6 +162,7 @@ Anderson][brson] for access.
 
 # fn work(on: RustProject) -> Money
 
+* [Senior full stack developer](http://onesignal.applytojob.com/apply/gpSzt4/Senior-Full-Stack-Developer) at OneSignal.
 * [PhD and postdoc positions](http://plv.mpi-sws.org/rustbelt/) at MPI-SWS.
 * [Rust developer](http://rust.jobboard.io/jobs/125594-rust-developer-at-the-blackbird) at The Blackbird.
 
@@ -138,7 +170,11 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> Explicitness is the fourth core value of Rust. Ironically, I don’t see that “Explicitness” is ever explicitly stated as a goal of Rust.
+
+— [Ian Whitney in a blog post](http://designisrefactoring.com/2016/04/01/rust-via-its-core-values/).
+
+Thanks to [nayru25](https://users.rust-lang.org/users/nayru25) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
