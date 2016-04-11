@@ -83,7 +83,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [Prepare `privates_in_public` lint for `pub(restricted)`](https://github.com/rust-lang/rust/pull/32674)
 * [Simplified AST `StructField`](https://github.com/rust-lang/rust/pull/32682)
 * [Restrict atomic intrinsics to integers](https://github.com/rust-lang/rust/pull/32647)
-* [Save/Load the dependency graph for incremental compilation](https://github.com/rust-lang/rust/pull/32647)
+* [Save/Load the dependency graph for incremental compilation](https://github.com/rust-lang/rust/pull/32016)
 * [Release notes for 1.8](https://github.com/rust-lang/rust/pull/32810) (gearing up for release)
 
 ## New Contributors
