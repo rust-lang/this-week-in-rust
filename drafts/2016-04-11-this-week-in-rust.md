@@ -20,7 +20,22 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## News & Blog Posts
 
+* [Dealing with multiple error types in Rust](https://jadpole.github.io/rust/many-error-types).
+* [Memory leaks are memory safe](https://huonw.github.io/blog/2016/04/memory-leaks-are-memory-safe/). Understanding memory safety and memory leaks.
+* [You probably meant to use `.chars().count()`](http://brandonio21.com/2016/04/rust-you-probably-meant-to-use-chars-count/). How to get the "length" of a string.
+* [Writing Varnish Cache modules (VMOD) in Rust](http://info.varnish-software.com/blog/writing-vmods-in-rust).
+* [Understanding the performance characteristics of regex crate](https://github.com/rust-lang-nursery/regex/blob/master/PERFORMANCE.md).
+* [machine learning] [Naive Bayes Classifiers in Rust](https://athemathmo.github.io/2016/04/08/naive-bayes-rusty-machine.html).
+* [This week in Servo 58](https://blog.servo.org/2016/04/04/twis-58/).
+
 ## Notable New Crates & Project Updates
+
+* [токамак](https://vertexclique.github.io/tokamak/). Rust IDE package for Atom.
+* [fancy-regex](https://github.com/google/pulldown-cmark/tree/master/fancy-regex). A pure-Rust hybrid regular expression implementation.
+* [RustPrimer](https://github.com/rustcc/RustPrimer). Rust primer for beginners (in Chinese). English translations underway.
+* [Screech](https://github.com/trevp/screech). Implementation of the Noise Protocol Framework in Rust.
+* [Rusty Secrets](https://github.com/freedomofpress/RustySecrets). Rust implementation of threshold Shamir secret sharing.
+* [Rustler](https://github.com/hansihe/Rustler). Safe Rust bridge for creating Erlang NIF functions.
 
 # Crate of the Week
 
@@ -37,13 +52,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [rustup: Add prelimenary telemetry](https://github.com/rust-lang-nursery/multirust-rs/issues/254).
-* [difficult] [rustup: Add Windows GUI / MSI installer](https://github.com/rust-lang-nursery/multirust-rs/issues/253).
+* [easy] [rust: Add error explanations for all error codes](https://github.com/rust-lang/rust/issues/32777).
+* [easy] [rust: rustbuild seems to deal badly with poor internet connections](https://github.com/rust-lang/rust/issues/32834).
+* [medium] [regex: Decrease memory usage of DFA with variable width delta encoding of instruction pointers](https://github.com/rust-lang-nursery/regex/issues/199).
+* [less easy] [servo: Store a `Box<Iterator>`` instead of `Box<CollectionFilter>`` in `HTMLCollection`](https://github.com/servo/servo/issues/10477).
+* [easy] [токамак: Test cases for CI](https://github.com/vertexclique/tokamak/issues/16).
 * [easy] [rexiv2: Results should likely use our own aliased Error (and Result?) type](https://github.com/felixc/rexiv2/issues/16).
 * [easy] [rexiv2: Provide access to full XML XMP packet](https://github.com/felixc/rexiv2/issues/14).
-* [medium] [buildengine5: Test `net::test::client_server_send` fails](https://github.com/Ameliorate/buildengine5/issues/10).
-* [less easy] [Vulkano: Add a memory pool](https://github.com/tomaka/vulkano/issues/14).
-* [easy] [`cargo add`: Target specifications](https://github.com/killercup/cargo-edit/issues/13).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -73,15 +88,10 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Alan Somers
-* Andreas Linz
-* Christian Wesselhoeft
-* Christopher Serr
-* David AO Lozano
-* Florian Berger
-* Tobias Müller
-* Valentin Lorentz
-* Валерий Лашманов
+* Timon Van Overveldt
+* Tom Tromey
+* Varun Vats
+* vlastachu
 
 ## Approved RFCs
 
@@ -89,9 +99,10 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1552: Add a contains method to `VecDeque` and `LinkedList`](https://github.com/rust-lang/rfcs/pull/1552).
-* [Amendment to RFC 1291: Add libutil to scope of libc crate on Linux](https://github.com/rust-lang/rfcs/pull/1529).
-
+* [RFC 1513: Stabilize implementing panics as aborts](https://github.com/rust-lang/rfcs/pull/1513).
+* [RFC 1444: Provide native support for C-compatible unions, defined via a new keyword `untagged_union`](https://github.com/rust-lang/rfcs/pull/1444).
+* [RFC 1398: Add a standard allocator interface and support for user-defined allocators](https://github.com/rust-lang/rfcs/pull/1398).
+* [Amend RFC 550 with misc. follow set corrections](https://github.com/rust-lang/rfcs/pull/1494).
 
 ## Final Comment Period
 
@@ -101,37 +112,35 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
+* [Add `#[repr(pack = "N")]`](https://github.com/rust-lang/rfcs/pull/1399).
+* [Feature gate extern fn methods](https://github.com/rust-lang/rfcs/pull/1429).
+* [Allow Drop types in statics/const functions](https://github.com/rust-lang/rfcs/pull/1440).
+* [Add a new crate-type, rdylib](https://github.com/rust-lang/rfcs/pull/1510).
+* [Add workspaces to Cargo](https://github.com/rust-lang/rfcs/pull/1525).
+* [Stabilize the `-C overflow-checks` command line argument](https://github.com/rust-lang/rfcs/pull/1535).
 * [Add more integer atomic types](https://github.com/rust-lang/rfcs/pull/1543).
-* [Stabilize implementing panics as aborts](https://github.com/rust-lang/rfcs/pull/1513).
 * [Add a generic `Atomic<T>` type](https://github.com/rust-lang/rfcs/pull/1505).
-* [Amend RFC 550 with misc. follow set corrections](https://github.com/rust-lang/rfcs/pull/1494).
-* [Provide native support for C-compatible unions, defined via a new keyword `untagged_union`](https://github.com/rust-lang/rfcs/pull/1444).
-* [Add a standard allocator interface and support for user-defined allocators](https://github.com/rust-lang/rfcs/pull/1398).
 * [Remove some kinds of doc comments](https://github.com/rust-lang/rfcs/pull/1373).
 * [Amend RFC 1228 with operator fixity and precedence](https://github.com/rust-lang/rfcs/pull/1319).
 
 ## New RFCs
 
-* [<img src="https://cdn-business.discourse.org/images/emoji/emoji_one/scream.png?v=2" title=":scream:" class="emoji" alt=":scream:"> <img src="https://cdn-business.discourse.org/images/emoji/emoji_one/no_entry.png?v=2" title=":no_entry:" class="emoji" alt=":no_entry:"> <img src="https://cdn-business.discourse.org/images/emoji/emoji_one/exclamation.png?v=2" title=":exclamation:" class="emoji" alt=":exclamation:"> <img src="https://cdn-business.discourse.org/images/emoji/emoji_one/no_good.png?v=2" title=":no_good:" class="emoji" alt=":no_good:"> <img src="https://cdn-business.discourse.org/images/emoji/emoji_one/white_check_mark.png?v=2" title=":white_check_mark:" class="emoji" alt=":white_check_mark:"> <img src="https://cdn-business.discourse.org/images/emoji/emoji_one/sunglasses.png?v=2" title=":sunglasses:" class="emoji" alt=":sunglasses:">      ](https://github.com/rust-lang/rfcs/pull/1565).
-* [Amendment to RFC 1291: Add `errno()` and `set_errno()` to `libc` scope](https://github.com/rust-lang/rfcs/pull/1571).
-* [Standardise stream wrappers like compression, encryption and etc](https://github.com/rust-lang/rfcs/pull/1568).
-* [Normalization for long error codes explanations](https://github.com/rust-lang/rfcs/pull/1567).
-* [Procedural macros](https://github.com/rust-lang/rfcs/pull/1566).
-* [Add function overloading by using pattern matching](https://github.com/rust-lang/rfcs/pull/1564).
-* [Add `#![cfg_assert]`](https://github.com/rust-lang/rfcs/pull/1563).
-* [Macro naming and modularisation](https://github.com/rust-lang/rfcs/pull/1561).
-* [Some internal and language-level changes to name resolution](https://github.com/rust-lang/rfcs/pull/1560).
+* [Support code generators with source maps and multiple source directories](https://github.com/rust-lang/rfcs/pull/1573).
+* [Introduce more conventions around documenting Rust projects](https://github.com/rust-lang/rfcs/pull/1574).
+* [Add a `vis` matcher to `macro_rules!` that matches valid visibility annotations](https://github.com/rust-lang/rfcs/pull/1575).
+* [Add a `literal` fragment specifier for `macro_rules!` patterns that matches literal constants](https://github.com/rust-lang/rfcs/pull/1576).
+* [Rust memory model](https://github.com/rust-lang/rfcs/pull/1578).
 
 # Upcoming Events
 
-* [4/6. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
-* [4/6. Germany/Cologne - Hack and Learn](http://www.meetup.com/de-DE/Rust-Cologne-Bonn/events/229919455/).
-* [4/6. Rust São Paulo Meetup](http://www.meetup.com/Rust-Sao-Paulo-Meetup/events/229377422/).
-* [4/11. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
+* [4/12. (San Diego) Eat– Drink– Rust! Downtown Rust Meetup](http://www.meetup.com/San-Diego-Rust/events/229907308/).
+* 4/13. Introduction to Rust, The Arts and Science University of Chiapas.
+* 4/13. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * [4/13. Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/).
 * [4/14. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
 * [4/15. Frankfurt/Main Rust Lint Workshop](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/229564640/?eventId=229564640)
 * [4/18. Rust Paris](http://www.meetup.com/Rust-Paris).
+* [4/20. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -145,17 +154,12 @@ Anderson][brson] for access.
 
 * [Senior full stack developer](http://onesignal.applytojob.com/apply/gpSzt4/Senior-Full-Stack-Developer) at OneSignal.
 * [PhD and postdoc positions](http://plv.mpi-sws.org/rustbelt/) at MPI-SWS.
-* [Rust developer](http://rust.jobboard.io/jobs/125594-rust-developer-at-the-blackbird) at The Blackbird.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> Explicitness is the fourth core value of Rust. Ironically, I don’t see that “Explicitness” is ever explicitly stated as a goal of Rust.
-
-— [Ian Whitney in a blog post](http://designisrefactoring.com/2016/04/01/rust-via-its-core-values/).
-
-Thanks to [nayru25](https://users.rust-lang.org/users/nayru25) for the suggestion.
+*No quote was selected for QotW.*
 
 [Submit your quotes for next week][submit]!
 
