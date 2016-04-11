@@ -39,7 +39,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 # Crate of the Week
 
-This week's Crate of the Week is [rustful](https://crates.io/crates/rustful), a simple, modular REST-like HTTP framework. Thanks to [Austin B](https://users.rust-lang.org/users/DroidLogician) for the suggestion!
+This week's Crate of the Week is [gcc](https://crates.io/crates/gcc), a crate to easily use the local C compiler, which makes FFI with a build script a breeze. Thanks to [Ulrik Sverdrup](https://users.rust-lang.org/users/bluss) for the suggestion!
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -66,25 +66,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-65 pull requests were [merged in the last week][merged].
+89 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-28..2016-04-04
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-04-04..2016-04-11
 
 ## Notable changes
 
-* [specialization of `str::to_string()`](https://github.com/rust-lang/rust/pull/32586)
-* [weed out unneeded dependencies within rustc](https://github.com/rust-lang/rust/pull/32571)
-* [lldb breakpoints get source file names](https://github.com/rust-lang/rust/pull/32522)
-* [Parser recovery is behind debug flag until kinks worked out](https://github.com/rust-lang/rust/pull/32494)
-* [Parsing after EOF is now ICE](https://github.com/rust-lang/rust/pull/32479) (better than possible infinite loops)
-* [melt the ICE on lowering impossible range](https://github.com/rust-lang/rust/pull/32267)
-* [`const_eval` and `check_match` now live in their own crate](https://github.com/rust-lang/rust/pull/32259)
-* [MIR traversals, orbit bootstraps](https://github.com/rust-lang/rust/pull/32210)
-* [private fields/methods no longer interfere with selection](https://github.com/rust-lang/rust/pull/31938)
-* [RefCell/RefMut coercible to unsized](https://github.com/rust-lang/rust/pull/32652)
-* [Arc now `compare_exchange`s instead of `compare_and_swap`](https://github.com/rust-lang/rust/pull/32643) (should be faster on ARM)
-* [`HashMap`/`HashSet` and their iterators are now covariant](https://github.com/rust-lang/rust/pull/32635)
-* [`BTree`/`HashMap::values_mut()`](https://github.com/rust-lang/rust/pull/32633)
+* [Tuples auto-implement `Copy`](https://github.com/rust-lang/rust/pull/32774)
+* [Faster Overlap checking](https://github.com/rust-lang/rust/pull/32748) (fixed a rustc perf regression)
+* [Arc::downgrade no longer loops infinitely](https://github.com/rust-lang/rust/pull/32745)
+* [Function calls no longer need to store all returns on stack](https://github.com/rust-lang/rust/pull/32738)
+* ['Consider the semicolon' help now more helpful](https://github.com/rust-lang/rust/pull/32710)
+* [Specialize `==` for `[T]` and `[u8]` to `memcmp`](https://github.com/rust-lang/rust/pull/32699) (also `Ord`, `PartialOrd`)
+* [File IO buffer size now 8K](https://github.com/rust-lang/rust/pull/32695)
+* [AST now can represent `pub(restricted)`](https://github.com/rust-lang/rust/pull/32688)
+* [Prepare `privates_in_public` lint for `pub(restricted)`](https://github.com/rust-lang/rust/pull/32674)
+* [Simplified AST `StructField`](https://github.com/rust-lang/rust/pull/32682)
+* [Restrict atomic intrinsics to integers](https://github.com/rust-lang/rust/pull/32647)
+* [Save/Load the dependency graph for incremental compilation](https://github.com/rust-lang/rust/pull/32647)
+* [Release notes for 1.8](https://github.com/rust-lang/rust/pull/32810) (gearing up for release)
 
 ## New Contributors
 
