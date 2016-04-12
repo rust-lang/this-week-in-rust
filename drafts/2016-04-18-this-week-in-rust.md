@@ -40,7 +40,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [easy] [rust: Add error explanations for all error codes](https://github.com/rust-lang/rust/issues/32777).
 * [easy] [rust: rustbuild seems to deal badly with poor internet connections](https://github.com/rust-lang/rust/issues/32834).
 * [medium] [regex: Decrease memory usage of DFA with variable width delta encoding of instruction pointers](https://github.com/rust-lang-nursery/regex/issues/199).
-* [less easy] [servo: Store a `Box<Iterator>`` instead of `Box<CollectionFilter>`` in `HTMLCollection`](https://github.com/servo/servo/issues/10477).
+* [less easy] [servo: Store a `Box<Iterator>` instead of `Box<CollectionFilter>` in `HTMLCollection`](https://github.com/servo/servo/issues/10477).
 * [easy] [токамак: Test cases for CI](https://github.com/vertexclique/tokamak/issues/16).
 * [easy] [rexiv2: Results should likely use our own aliased Error (and Result?) type](https://github.com/felixc/rexiv2/issues/16).
 * [easy] [rexiv2: Provide access to full XML XMP packet](https://github.com/felixc/rexiv2/issues/14).
