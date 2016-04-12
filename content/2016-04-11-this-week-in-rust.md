@@ -72,7 +72,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Notable changes
 
-* [Tuples auto-implement `Copy`](https://github.com/rust-lang/rust/pull/32774)
 * [Faster Overlap checking](https://github.com/rust-lang/rust/pull/32748) (fixed a rustc perf regression)
 * [Arc::downgrade no longer loops infinitely](https://github.com/rust-lang/rust/pull/32745)
 * [Function calls no longer need to store all returns on stack](https://github.com/rust-lang/rust/pull/32738)
