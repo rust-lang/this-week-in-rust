@@ -137,6 +137,7 @@ Anderson][brson] for access.
 
 # fn work(on: RustProject) -> Money
 
+* [Software Engineer](http://www.coturnix.fr/en/#join) at Coturnix.
 * [Senior full stack developer](http://onesignal.applytojob.com/apply/gpSzt4/Senior-Full-Stack-Developer) at OneSignal.
 * [PhD and postdoc positions](http://plv.mpi-sws.org/rustbelt/) at MPI-SWS.
 
