@@ -80,7 +80,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [Specialize `==` for `[T]` and `[u8]` to `memcmp`](https://github.com/rust-lang/rust/pull/32699) (also `Ord`, `PartialOrd`)
 * [File IO buffer size now 8K](https://github.com/rust-lang/rust/pull/32695)
 * [AST now can represent `pub(restricted)`](https://github.com/rust-lang/rust/pull/32688)
-* [Prepare `privates_in_public` lint for `pub(restricted)`](https://github.com/rust-lang/rust/pull/32674)
+* [Prepare private-in-public checker for `pub(restricted)`](https://github.com/rust-lang/rust/pull/32674)
 * [Simplified AST `StructField`](https://github.com/rust-lang/rust/pull/32682)
 * [Restrict atomic intrinsics to integers](https://github.com/rust-lang/rust/pull/32647)
 * [Save/Load the dependency graph for incremental compilation](https://github.com/rust-lang/rust/pull/32016)
@@ -100,7 +100,7 @@ process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
 * [RFC 1513: Stabilize implementing panics as aborts](https://github.com/rust-lang/rfcs/pull/1513).
-* [RFC 1444: Provide native support for C-compatible unions, defined via a new keyword `untagged_union`](https://github.com/rust-lang/rfcs/pull/1444).
+* [RFC 1444: Provide native support for C-compatible unions, defined via a contextual keyword `union`](https://github.com/rust-lang/rfcs/pull/1444).
 * [RFC 1398: Add a standard allocator interface and support for user-defined allocators](https://github.com/rust-lang/rfcs/pull/1398).
 * [Amend RFC 550 with misc. follow set corrections](https://github.com/rust-lang/rfcs/pull/1494).
 
