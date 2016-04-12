@@ -72,7 +72,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Notable changes
 
-* [Tuples auto-implement `Copy`](https://github.com/rust-lang/rust/pull/32774)
 * [Faster Overlap checking](https://github.com/rust-lang/rust/pull/32748) (fixed a rustc perf regression)
 * [Arc::downgrade no longer loops infinitely](https://github.com/rust-lang/rust/pull/32745)
 * [Function calls no longer need to store all returns on stack](https://github.com/rust-lang/rust/pull/32738)
@@ -80,10 +79,10 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [Specialize `==` for `[T]` and `[u8]` to `memcmp`](https://github.com/rust-lang/rust/pull/32699) (also `Ord`, `PartialOrd`)
 * [File IO buffer size now 8K](https://github.com/rust-lang/rust/pull/32695)
 * [AST now can represent `pub(restricted)`](https://github.com/rust-lang/rust/pull/32688)
-* [Prepare `privates_in_public` lint for `pub(restricted)`](https://github.com/rust-lang/rust/pull/32674)
+* [Prepare private-in-public checker for `pub(restricted)`](https://github.com/rust-lang/rust/pull/32674)
 * [Simplified AST `StructField`](https://github.com/rust-lang/rust/pull/32682)
 * [Restrict atomic intrinsics to integers](https://github.com/rust-lang/rust/pull/32647)
-* [Save/Load the dependency graph for incremental compilation](https://github.com/rust-lang/rust/pull/32647)
+* [Save/Load the dependency graph for incremental compilation](https://github.com/rust-lang/rust/pull/32016)
 * [Release notes for 1.8](https://github.com/rust-lang/rust/pull/32810) (gearing up for release)
 
 ## New Contributors
@@ -100,7 +99,7 @@ process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
 * [RFC 1513: Stabilize implementing panics as aborts](https://github.com/rust-lang/rfcs/pull/1513).
-* [RFC 1444: Provide native support for C-compatible unions, defined via a new keyword `untagged_union`](https://github.com/rust-lang/rfcs/pull/1444).
+* [RFC 1444: Provide native support for C-compatible unions, defined via a contextual keyword `union`](https://github.com/rust-lang/rfcs/pull/1444).
 * [RFC 1398: Add a standard allocator interface and support for user-defined allocators](https://github.com/rust-lang/rfcs/pull/1398).
 * [Amend RFC 550 with misc. follow set corrections](https://github.com/rust-lang/rfcs/pull/1494).
 
