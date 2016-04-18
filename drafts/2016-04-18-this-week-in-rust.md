@@ -24,6 +24,8 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## Notable New Crates & Project Updates
 
+* [specs](https://github.com/slide-rs/specs) - a rusty parallel ECS with breaking performance ([ecs_bench](https://github.com/lschmierer/ecs_bench))
+
 # Crate of the Week
 
 This week's Crate of the Week is [gcc](https://crates.io/crates/gcc), a crate to easily use the local C compiler, which makes FFI with a build script a breeze. Thanks to [Ulrik Sverdrup](https://users.rust-lang.org/users/bluss) for the suggestion!
