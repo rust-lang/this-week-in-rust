@@ -26,7 +26,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 # Crate of the Week
 
-This week's Crate of the Week is [owning_ref](https://crates.io/crates/owning_ref), which contains a reference type that can carry it's owner with it. Thanks to [Diwic](https://users.rust-lang.org/users/diwic) for the suggestion!
+This week's Crate of the Week is [owning_ref](https://crates.io/crates/owning_ref), which contains a reference type that can carry its owner with it. Thanks to [Diwic](https://users.rust-lang.org/users/diwic) for the suggestion!
 
 [Submit your suggestions for next week][submit_crate]!
 
