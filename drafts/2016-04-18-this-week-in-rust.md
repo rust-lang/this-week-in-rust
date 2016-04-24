@@ -1,9 +1,9 @@
-Title: This Week in Rust 127
+Title: These Weeks in Rust 127
 Number: 127
-Date: 2016-04-18
+Date: 2016-04-25
 Category: This Week in Rust
 
-Hello and welcome to another issue of *This Week in Rust*!
+Hello and welcome to our first multi-week issue of *This Week in Rust*!
 [Rust](http://rust-lang.org) is a systems language pursuing the trifecta:
 safety, concurrency, and speed. This is a weekly summary of its progress and
 community. Want something mentioned? Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) or [send us an
@@ -53,9 +53,9 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-127 pull requests were [merged in the last week][merged].
+186 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-04-11..2016-04-18
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-04-11..2016-04-25
 
 ## Notable changes
 
@@ -67,17 +67,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [Avoid crashing due to duplicate external items](https://github.com/rust-lang/rust/pull/32970)
 * [Fix multiple glob import](https://github.com/rust-lang/rust/pull/32814)
 * [MIR debuginfo mostly works](https://github.com/rust-lang/rust/pull/32952) ([etc.](https://github.com/rust-lang/rust/pull/32803))
-* [register duplicate item symbols anyway](https://github.com/rust-lang/rust/pull/32946)
-* [resolve compiler performance regression fixed](https://github.com/rust-lang/rust/pull/33064)
+* [MIR Blocks no longer require END_BLOCK](https://github.com/rust-lang/rust/pull/33030)
+* [MIR now has LLVM-agnostic type layout](https://github.com/rust-lang/rust/pull/32939)
+* [Register duplicate item symbols anyway](https://github.com/rust-lang/rust/pull/32946)
+* [Resolve compiler performance regression fixed](https://github.com/rust-lang/rust/pull/33064)
 * [Syntax: Import prefixes are now paths](https://github.com/rust-lang/rust/pull/33044)
-* [don't report errors in constants at every use site](https://github.com/rust-lang/rust/pull/32877)
-* [handle over-aligned realloc failures on UNIX](https://github.com/rust-lang/rust/pull/32997)
+* [Don't report errors in constants at every use site](https://github.com/rust-lang/rust/pull/32877)
+* [Handle over-aligned realloc failures on UNIX](https://github.com/rust-lang/rust/pull/32997)
 * [String::truncate goes to greater lengths to not panic](https://github.com/rust-lang/rust/pull/32977)
 * [`BinaryHeap::append(..)`](https://github.com/rust-lang/rust/pull/32987)
-* [faster `is_char_boundary()` with bit twiddling](https://github.com/rust-lang/rust/pull/32862)
+* [Faster `is_char_boundary()` with bit twiddling](https://github.com/rust-lang/rust/pull/32862)
 * [Fixed `BufRead` overrun on `Take`](https://github.com/rust-lang/rust/pull/32855)
 * [`Default` for `RwLock`, `Mutex`, `CondVar`, `CStr`, `Path`](https://github.com/rust-lang/rust/pull/32785)
 * [Cargo can now use multiple git user names](https://github.com/rust-lang/cargo/pull/2584)
+* [Removed the (apparently broken) `std::net::IPV6_V6ONLY` feature](https://github.com/rust-lang/rust/pull/33124)
+* [Handle `DefId`s and extern crates before lowering the AST to HIR](https://github.com/rust-lang/rust/pull/33089)
+* [Compiletest now uses JSON output](https://github.com/rust-lang/rust/pull/33020)
+* [`VecDeque::contains(_)` and `LinkedList::contains(_)` implemented](https://github.com/rust-lang/rust/pull/32951)
+* [Rust now bootstraps from previous stable instead of snapshots](https://github.com/rust-lang/rust/pull/32942)
+* [`impl From<Vec<T>>` and `Into<Vec<T>>` for `VecDeque<T>`](https://github.com/rust-lang/rust/pull/32866)
+* [`BTree::append(_)` implemented](https://github.com/rust-lang/rust/pull/32466)
 
 ## New Contributors
 
