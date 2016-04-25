@@ -25,6 +25,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 ## Notable New Crates & Project Updates
 
 * [specs](https://github.com/slide-rs/specs) - a rusty parallel ECS with breaking performance ([ecs_bench](https://github.com/lschmierer/ecs_bench))
+* [Epaste](https://github.com/zetok/epaste). Tool to encrypt data and encode it as base64, so that it could be pasted on pastebin.
 
 # Crate of the Week
 
