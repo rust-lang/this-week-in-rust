@@ -3,7 +3,7 @@ Number: 127
 Date: 2016-04-25
 Category: This Week in Rust
 
-Hello and welcome to our first multi-week issue of *This Week in Rust*!
+Hello and welcome to our another multi-week issue of *This Week in Rust*!
 [Rust](http://rust-lang.org) is a systems language pursuing the trifecta:
 safety, concurrency, and speed. This is a weekly summary of its progress and
 community. Want something mentioned? Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) or [send us an
