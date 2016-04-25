@@ -20,11 +20,33 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## News & Blog Posts
 
-* Reminder: [Rust Belt Rust Conference CFP](http://cfp.rust-belt-rust.com/) is open until April 30!
+* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.8](http://blog.rust-lang.org/2016/04/14/Rust-1.8.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* [Writing an OS in Rust: Kernel heap](http://os.phil-opp.com/kernel-heap.html). Part of the series [Writing an OS in Rust](http://os.phil-opp.com/).
+* [Learn you a Rust III - Lifetimes 101](http://pro.theta.eu.org/2016/04/16/lyar-lifetimes.html). Part of the series [Learn you a Rust for great good!](http://pro.theta.eu.org/2016/03/12/learn-you-a-rust-for-great-good.html).
+* [PoC: using LLVM’s profile guided optimization in Rust](https://unhandledexpression.com/2016/04/14/using-llvm-pgo-in-rust/).
+* [From &str to Cow](http://blog.jwilm.io/from-str-to-cow/).
+* [The basics of Rust structs](https://facility9.com/2016/04/the-basics-of-rust-structs/).
+* [Rust community == Awesome!](https://llogiq.github.io/2016/04/23/awesome.html). How the Rust community wins despite its small size and incomplete ecosystem.
+* [This week in Rust docs 1](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-1).
+* [This week in Servo 59](http://blog.servo.org/2016/04/11/twis-59/).
+* [This week in Ruma 2016-04-17](https://www.ruma.io/news/this-week-in-ruma-2016-04-17/). Ruma is a Matrix client-server API written in Rust.
 
 ## Notable New Crates & Project Updates
 
-* [specs](https://github.com/slide-rs/specs) - a rusty parallel ECS with breaking performance ([ecs_bench](https://github.com/lschmierer/ecs_bench))
+* Reminder: [Rust Belt Rust Conference CFP](http://cfp.rust-belt-rust.com/) is open until April 30!
+* [rustc/cargo can now be installed on ARM Linux, NetBSD and FreeBSD using rustup/multirust](https://users.rust-lang.org/t/psa-rustc-cargo-can-now-be-installed-on-arm-linux-netbsd-and-freebsd-using-rustup-multirust/5383).
+* [Announcing cargo-apk](https://users.rust-lang.org/t/announcing-cargo-apk/5501).
+* Leaf now [has a book](http://autumnai.com/leaf/book/leaf.html) that teaches you how you can build machine learning applications.
+* [nix](http://kamalmarhubi.com/blog/2016/04/13/rust-nix-easier-unix-systems-programming-3/). Rust friendly bindings to \*nix APIs.
+* [winapi-kmd](https://github.com/pravic/winapi-kmd-rs). Windows Kernel-Mode Drivers written in Rust.
+* [rust-musl-builder](https://github.com/emk/rust-musl-builder). Docker container for easily building static Rust binaries.
+* [rustw](https://github.com/nrc/rustw). A web frontend for the Rust compiler.
+* [Cake](https://github.com/ticki/cake). A simple, Rustic build tool.
+* [NSA](https://llogiq.github.io/2016/04/24/nsa.html). A lint to collect some crate metadata.
+* [Anima Engine](https://github.com/anima-engine/anima-engine). The quirky game engine.
+* [Tera](https://blog.wearewizards.io/introducing-tera-a-template-engine-in-rust). A template engine in Rust.
+* [rgo](https://github.com/yberreby/rgo). A Go compiler toolchain, written in Rust.
+* [specs](https://github.com/slide-rs/specs). A rusty parallel ECS with breaking performance ([ecs_bench](https://github.com/lschmierer/ecs_bench))
 * [Epaste](https://github.com/zetok/epaste). Tool to encrypt data and encode it as base64, so that it could be pasted on pastebin.
 
 # Crate of the Week
@@ -43,12 +65,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [easy] [rust: Add error explanations for all error codes](https://github.com/rust-lang/rust/issues/32777).
-* [easy] [rust: rustbuild seems to deal badly with poor internet connections](https://github.com/rust-lang/rust/issues/32834).
-* [medium] [regex: Decrease memory usage of DFA with variable width delta encoding of instruction pointers](https://github.com/rust-lang-nursery/regex/issues/199).
-* [less easy] [servo: Store a `Box<Iterator>` instead of `Box<CollectionFilter>` in `HTMLCollection`](https://github.com/servo/servo/issues/10477).
-* [easy] [токамак: Test cases for CI](https://github.com/vertexclique/tokamak/issues/16).
-* [easy] [rexiv2: Results should likely use our own aliased Error (and Result?) type](https://github.com/felixc/rexiv2/issues/16).
-* [easy] [rexiv2: Provide access to full XML XMP packet](https://github.com/felixc/rexiv2/issues/14).
+* [easy] [servo/saltfs: buildbot steps need description and descriptionDone](https://github.com/servo/saltfs/issues/337).
+* [easy] [rust: rustbuild: Add a tidy check to ensure Cargo.lock updates are checked in](https://github.com/rust-lang/rust/issues/32901).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -93,10 +111,23 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Timon Van Overveldt
-* Tom Tromey
-* Varun Vats
-* vlastachu
+* Alec S
+* Andrey Tonkih
+* c4rlo
+* David Hewitt
+* David Tolnay
+* Deepak Kannan
+* Gigih Aji Ibrahim
+* jocki84
+* Jonathan Turner
+* Kaiyin Zhong
+* Lukas Kalbertodt
+* Lukas Pustina
+* Maxim Samburskiy
+* Raph Levien
+* rkjnsn
+* Sander Maijers
+* Szabolcs Berecz
 
 ## Approved RFCs
 
@@ -104,10 +135,12 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1513: Stabilize implementing panics as aborts](https://github.com/rust-lang/rfcs/pull/1513).
-* [RFC 1444: Provide native support for C-compatible unions, defined via a new keyword `untagged_union`](https://github.com/rust-lang/rfcs/pull/1444).
-* [RFC 1398: Add a standard allocator interface and support for user-defined allocators](https://github.com/rust-lang/rfcs/pull/1398).
-* [Amend RFC 550 with misc. follow set corrections](https://github.com/rust-lang/rfcs/pull/1494).
+* [RFC 1543: Add more integer atomic types](https://github.com/rust-lang/rfcs/pull/1543).
+* [RFC 1510: Add a new crate-type, cdylib](https://github.com/rust-lang/rfcs/pull/1510).
+* [RFC 1535: Stabilize the `-C overflow-checks` command line argument](https://github.com/rust-lang/rfcs/pull/1535).
+* [RFC 1440: Allow Drop types in statics/const functions](https://github.com/rust-lang/rfcs/pull/1440).
+* [RFC 1399: Add `#[repr(pack = "N")]`](https://github.com/rust-lang/rfcs/pull/1399).
+* [Amend RFC 1228 with operator fixity and precedence](https://github.com/rust-lang/rfcs/pull/1319).
 
 ## Final Comment Period
 
@@ -117,35 +150,27 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [Add `#[repr(pack = "N")]`](https://github.com/rust-lang/rfcs/pull/1399).
-* [Feature gate extern fn methods](https://github.com/rust-lang/rfcs/pull/1429).
-* [Allow Drop types in statics/const functions](https://github.com/rust-lang/rfcs/pull/1440).
-* [Add a new crate-type, rdylib](https://github.com/rust-lang/rfcs/pull/1510).
+* [Add `#[repr(align = "N")]`](https://github.com/rust-lang/rfcs/pull/1358).
+* [Proposal for thread affinity](https://github.com/rust-lang/rfcs/pull/1480).
+* [Specifying that `<T as Clone>::clone(&t)` where `T: Copy` should be equivalent to `ptr::read(&t)`](https://github.com/rust-lang/rfcs/pull/1521).
 * [Add workspaces to Cargo](https://github.com/rust-lang/rfcs/pull/1525).
-* [Stabilize the `-C overflow-checks` command line argument](https://github.com/rust-lang/rfcs/pull/1535).
-* [Add more integer atomic types](https://github.com/rust-lang/rfcs/pull/1543).
-* [Add a generic `Atomic<T>` type](https://github.com/rust-lang/rfcs/pull/1505).
-* [Remove some kinds of doc comments](https://github.com/rust-lang/rfcs/pull/1373).
-* [Amend RFC 1228 with operator fixity and precedence](https://github.com/rust-lang/rfcs/pull/1319).
+* [Add `TryFrom` and `TryInto` traits](https://github.com/rust-lang/rfcs/pull/1542).
+* [`as_millis` function on `std::time::Duration`](https://github.com/rust-lang/rfcs/pull/1547).
 
 ## New RFCs
 
-* [Support code generators with source maps and multiple source directories](https://github.com/rust-lang/rfcs/pull/1573).
-* [Introduce more conventions around documenting Rust projects](https://github.com/rust-lang/rfcs/pull/1574).
-* [Add a `vis` matcher to `macro_rules!` that matches valid visibility annotations](https://github.com/rust-lang/rfcs/pull/1575).
-* [Add a `literal` fragment specifier for `macro_rules!` patterns that matches literal constants](https://github.com/rust-lang/rfcs/pull/1576).
-* [Rust memory model](https://github.com/rust-lang/rfcs/pull/1578).
+* [`FusedIterator` marker trait and `iter::Fuse` specialization](https://github.com/rust-lang/rfcs/pull/1581).
+* [Add `parse_generics!` and `parse_where!` macros](https://github.com/rust-lang/rfcs/pull/1583).
+* [Macros by example 2.0. A replacement for `macro_rules!`](https://github.com/rust-lang/rfcs/pull/1584).
+* [Define a best practices procedure for making bug fixes in the compiler](https://github.com/rust-lang/rfcs/pull/1589).
+* [Add a `lifetime` specifier to `macro_rules!`](https://github.com/rust-lang/rfcs/pull/1590/files).
 
 # Upcoming Events
 
-* [4/12. (San Diego) Eat– Drink– Rust! Downtown Rust Meetup](http://www.meetup.com/San-Diego-Rust/events/229907308/).
-* 4/13. Introduction to Rust, The Arts and Science University of Chiapas.
-* 4/13. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [4/13. Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/).
-* [4/14. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
-* [4/15. Frankfurt/Main Rust Lint Workshop](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/229564640/?eventId=229564640)
-* [4/18. Rust Paris](http://www.meetup.com/Rust-Paris).
-* [4/20. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
+* [4/26. Rust Bay Area: Securing OSes and Apps with Rust, seL4, and SGX](http://www.meetup.com/Rust-Bay-Area/events/230271083/).
+* 4/27. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* [5/4. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
+* [5/9. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -157,15 +182,23 @@ Anderson][brson] for access.
 
 # fn work(on: RustProject) -> Money
 
+* [PhD and postdoc positions](http://plv.mpi-sws.org/rustbelt/) at MPI-SWS.
 * [Software Engineer](http://www.coturnix.fr/en/#join) at Coturnix.
 * [Senior full stack developer](http://onesignal.applytojob.com/apply/gpSzt4/Senior-Full-Stack-Developer) at OneSignal.
-* [PhD and postdoc positions](http://plv.mpi-sws.org/rustbelt/) at MPI-SWS.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+>> Cow is still criminally underused in a lot of code bases
+>
+> I suggest we make a new slogan to remedy this:
+> "To err is human, to moo bovine."
+> (I may or may not have shamelessly stolen this from [this bug report](https://bugs.launchpad.net/ubuntu/+source/apt/+bug/56125/comments/63))
+
+[so_you_like_donuts on reddit](https://www.reddit.com/r/rust/comments/4fc6m4/from_str_to_cow/d27rv0f).
+
+Thanks to [killercup](https://users.rust-lang.org/users/killercup) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
