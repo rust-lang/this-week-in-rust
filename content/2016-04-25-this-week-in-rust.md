@@ -28,7 +28,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 * [The basics of Rust structs](https://facility9.com/2016/04/the-basics-of-rust-structs/).
 * [Rust community == Awesome!](https://llogiq.github.io/2016/04/23/awesome.html). How the Rust community wins despite its small size and incomplete ecosystem.
 * [This week in Rust docs 1](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-1).
-* [This week in Servo 59](http://blog.servo.org/2016/04/11/twis-59/).
+* [This week in Servo 59](http://blog.servo.org/2016/04/11/twis-59/) and [This week in Servo 60](http://blog.servo.org/2016/04/18/twis-60/).
 * [This week in Ruma 2016-04-17](https://www.ruma.io/news/this-week-in-ruma-2016-04-17/). Ruma is a Matrix client-server API written in Rust.
 
 ## Notable New Crates & Project Updates
