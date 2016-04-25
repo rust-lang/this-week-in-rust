@@ -1,9 +1,9 @@
-Title: This Week in Rust 127
+Title: These Weeks in Rust 127
 Number: 127
-Date: 2016-04-18
+Date: 2016-04-25
 Category: This Week in Rust
 
-Hello and welcome to another issue of *This Week in Rust*!
+Hello and welcome to our first multi-week issue of *This Week in Rust*!
 [Rust](http://rust-lang.org) is a systems language pursuing the trifecta:
 safety, concurrency, and speed. This is a weekly summary of its progress and
 community. Want something mentioned? Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) or [send us an
@@ -29,7 +29,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 # Crate of the Week
 
-This week's Crate of the Week is [gcc](https://crates.io/crates/gcc), a crate to easily use the local C compiler, which makes FFI with a build script a breeze. Thanks to [Ulrik Sverdrup](https://users.rust-lang.org/users/bluss) for the suggestion!
+This week's Crate of the Week is [owning_ref](https://crates.io/crates/owning_ref), which contains a reference type that can carry its owner with it. Thanks to [Diwic](https://users.rust-lang.org/users/diwic) for the suggestion!
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -56,25 +56,40 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-89 pull requests were [merged in the last week][merged].
+186 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-04-04..2016-04-11
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-04-11..2016-04-25
 
 ## Notable changes
 
-* [Tuples auto-implement `Copy`](https://github.com/rust-lang/rust/pull/32774)
-* [Faster Overlap checking](https://github.com/rust-lang/rust/pull/32748) (fixed a rustc perf regression)
-* [Arc::downgrade no longer loops infinitely](https://github.com/rust-lang/rust/pull/32745)
-* [Function calls no longer need to store all returns on stack](https://github.com/rust-lang/rust/pull/32738)
-* ['Consider the semicolon' help now more helpful](https://github.com/rust-lang/rust/pull/32710)
-* [Specialize `==` for `[T]` and `[u8]` to `memcmp`](https://github.com/rust-lang/rust/pull/32699) (also `Ord`, `PartialOrd`)
-* [File IO buffer size now 8K](https://github.com/rust-lang/rust/pull/32695)
-* [AST now can represent `pub(restricted)`](https://github.com/rust-lang/rust/pull/32688)
-* [Prepare `privates_in_public` lint for `pub(restricted)`](https://github.com/rust-lang/rust/pull/32674)
-* [Simplified AST `StructField`](https://github.com/rust-lang/rust/pull/32682)
-* [Restrict atomic intrinsics to integers](https://github.com/rust-lang/rust/pull/32647)
-* [Save/Load the dependency graph for incremental compilation](https://github.com/rust-lang/rust/pull/32647)
-* [Release notes for 1.8](https://github.com/rust-lang/rust/pull/32810) (gearing up for release)
+* [`pub(restricted)` (RFC 1422) implemented](https://github.com/rust-lang/rust/pull/32875)
+* [Warn on type parameter defaults](https://github.com/rust-lang/rust/pull/32817), this will become an error in the future
+* [RFC #1494 amendment implemented](https://github.com/rust-lang/rust/pull/32945), allows type ascription in macros (IIRC)
+* [`de-`/`encode()` methods no longer break Serialization deriving](https://github.com/rust-lang/rust/pull/32908)
+* [Macro hygiene bugs fixed](https://github.com/rust-lang/rust/pull/32923)
+* [Avoid crashing due to duplicate external items](https://github.com/rust-lang/rust/pull/32970)
+* [Fix multiple glob import](https://github.com/rust-lang/rust/pull/32814)
+* [MIR debuginfo mostly works](https://github.com/rust-lang/rust/pull/32952) ([etc.](https://github.com/rust-lang/rust/pull/32803))
+* [MIR Blocks no longer require END_BLOCK](https://github.com/rust-lang/rust/pull/33030)
+* [MIR now has LLVM-agnostic type layout](https://github.com/rust-lang/rust/pull/32939)
+* [Register duplicate item symbols anyway](https://github.com/rust-lang/rust/pull/32946)
+* [Resolve compiler performance regression fixed](https://github.com/rust-lang/rust/pull/33064)
+* [Syntax: Import prefixes are now paths](https://github.com/rust-lang/rust/pull/33044)
+* [Don't report errors in constants at every use site](https://github.com/rust-lang/rust/pull/32877)
+* [Handle over-aligned realloc failures on UNIX](https://github.com/rust-lang/rust/pull/32997)
+* [String::truncate goes to greater lengths to not panic](https://github.com/rust-lang/rust/pull/32977)
+* [`BinaryHeap::append(..)`](https://github.com/rust-lang/rust/pull/32987)
+* [Faster `is_char_boundary()` with bit twiddling](https://github.com/rust-lang/rust/pull/32862)
+* [Fixed `BufRead` overrun on `Take`](https://github.com/rust-lang/rust/pull/32855)
+* [`Default` for `RwLock`, `Mutex`, `CondVar`, `CStr`, `Path`](https://github.com/rust-lang/rust/pull/32785)
+* [Cargo can now use multiple git user names](https://github.com/rust-lang/cargo/pull/2584)
+* [Removed the (apparently broken) `std::net::IPV6_V6ONLY` feature](https://github.com/rust-lang/rust/pull/33124)
+* [Handle `DefId`s and extern crates before lowering the AST to HIR](https://github.com/rust-lang/rust/pull/33089)
+* [Compiletest now uses JSON output](https://github.com/rust-lang/rust/pull/33020)
+* [`VecDeque::contains(_)` and `LinkedList::contains(_)` implemented](https://github.com/rust-lang/rust/pull/32951)
+* [Rust now bootstraps from previous stable instead of snapshots](https://github.com/rust-lang/rust/pull/32942)
+* [`impl From<Vec<T>>` and `Into<Vec<T>>` for `VecDeque<T>`](https://github.com/rust-lang/rust/pull/32866)
+* [`BTree::append(_)` implemented](https://github.com/rust-lang/rust/pull/32466)
 
 ## New Contributors
 
