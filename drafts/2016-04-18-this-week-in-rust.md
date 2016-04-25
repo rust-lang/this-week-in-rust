@@ -20,6 +20,8 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## News & Blog Posts
 
+* Reminder: [Rust Belt Rust Conference CFP](http://cfp.rust-belt-rust.com/) is open until April 30!
+
 ## Notable New Crates & Project Updates
 
 # Crate of the Week
