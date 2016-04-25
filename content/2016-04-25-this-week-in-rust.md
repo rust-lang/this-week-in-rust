@@ -82,7 +82,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 * [`pub(restricted)` (RFC 1422) implemented](https://github.com/rust-lang/rust/pull/32875)
 * [Warn on type parameter defaults](https://github.com/rust-lang/rust/pull/32817), this will become an error in the future
-* [RFC #1494 amendment implemented](https://github.com/rust-lang/rust/pull/32945), allows type ascription in macros (IIRC)
+* [RFC #1494 (amendment to #550) implemented](https://github.com/rust-lang/rust/pull/32945), allows blocks to follow types/paths in macro patterns
 * [`de-`/`encode()` methods no longer break Serialization deriving](https://github.com/rust-lang/rust/pull/32908)
 * [Macro hygiene bugs fixed](https://github.com/rust-lang/rust/pull/32923)
 * [Avoid crashing due to duplicate external items](https://github.com/rust-lang/rust/pull/32970)
