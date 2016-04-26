@@ -3,7 +3,7 @@ Number: 127
 Date: 2016-04-25
 Category: This Week in Rust
 
-Hello and welcome to our another multi-week issue of *This Week in Rust*!
+Hello and welcome to our first multi-week issue of *This Week in Rust*!
 [Rust](http://rust-lang.org) is a systems language pursuing the trifecta:
 safety, concurrency, and speed. This is a weekly summary of its progress and
 community. Want something mentioned? Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) or [send us an
@@ -42,7 +42,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 * [rust-musl-builder](https://github.com/emk/rust-musl-builder). Docker container for easily building static Rust binaries.
 * [rustw](https://github.com/nrc/rustw). A web frontend for the Rust compiler.
 * [Cake](https://github.com/ticki/cake). A simple, Rustic build tool.
-* [NSA](https://llogiq.github.io/2016/04/24/nsa.html). A lint to collect some crate metadata.
+* [metacollect](https://llogiq.github.io/2016/04/24/nsa.html). A lint to collect some crate metadata.
 * [Anima Engine](https://github.com/anima-engine/anima-engine). The quirky game engine.
 * [Tera](https://blog.wearewizards.io/introducing-tera-a-template-engine-in-rust). A template engine in Rust.
 * [rgo](https://github.com/yberreby/rgo). A Go compiler toolchain, written in Rust.
@@ -171,6 +171,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * 4/27. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * [5/4. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
 * [5/9. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
+* [5/13. Rust Meetup Darmstadt](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/230396961/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
