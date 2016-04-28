@@ -20,6 +20,8 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## News & Blog Posts
 
+* [Optimizing Matrix Multiplication in Rust.](http://www.suchin.co/2016/04/25/Matrix-Multiplication-In-Rust-Pt-1/)
+
 
 ## Notable New Crates & Project Updates
 
