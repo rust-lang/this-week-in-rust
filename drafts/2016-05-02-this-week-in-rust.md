@@ -23,6 +23,8 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## Notable New Crates & Project Updates
 
+* [Rust project changelog for 2016-04-29](https://users.rust-lang.org/t/rust-project-changelog-for-2016-04-29/5613).
+  Updates to bitflags, lazy_static, regex, rust-mode, rustup, uuid.
 
 # Crate of the Week
 
