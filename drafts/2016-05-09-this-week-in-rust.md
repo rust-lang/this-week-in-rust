@@ -121,6 +121,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [5/12. Rust Bay Area](http://www.meetup.com/Rust-Bay-Area/events/230624722/).
 * [5/13. Rust Meetup Darmstadt](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/230396961/).
 * [5/13. Hack Chiapas, Autonomous University of Chiapas, Mexico](http://hackchiapas.com/).
+* [5/14. Rust Minsk](http://www.meetup.com/Rust-%D0%B2-%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%D0%B5/events/229283305/).
 * [5/16. Rust Paris](http://www.meetup.com/Rust-Paris).
 * [5/17. Moscow Rust Conference](https://rustycrate.ru/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/2016/04/25/colaboratory-rust.html).
 
