@@ -21,7 +21,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 ## News & Blog Posts
 
 
-## Notable New Crates & Project Updates
+## New Crates & Project Updates
 
 
 # Crate of the Week
