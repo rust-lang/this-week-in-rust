@@ -83,14 +83,14 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Andy Russell
-* Brayden Winterton
-* Demetri Obenour
-* Ergenekon Yigit
-* Jonathan Turner
-* Michael Tiller
-* Timothy McRoy
-* Tomáš Hübelbauer
+* Brandon Edens
+* Garrett Squire
+* jonathandturner
+* Nerijus Arlauskas
+* Philipp Matthias Schaefer
+* Stephen Mather
+* Taylor Cramer
+* Wang Xuerui
 
 ## Approved RFCs
 
