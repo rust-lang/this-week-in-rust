@@ -20,11 +20,22 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## News & Blog Posts
 
-
+* [First ever RustConf will take place in Portland, US on 10 September 2016](http://rustconf.com/).
+* [Cargo: predictable dependency management](http://blog.rust-lang.org/2016/05/05/cargo-pillars.html).
+* [Non-lexical lifetimes: Introduction](http://smallcultfollowing.com/babysteps/blog/2016/04/27/non-lexical-lifetimes-introduction/).
+* [Non-lexical lifetimes based on liveness](http://smallcultfollowing.com/babysteps/blog/2016/05/04/non-lexical-lifetimes-based-on-liveness/).
+* [These weeks in Servo 61](https://blog.servo.org/2016/05/02/twis-61/).
+* [This week in Rust docs 2](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-2).
 
 ## Notable New Crates & Project Updates
 
-
+* [rustup 0.1.9 is released with a critical security fix](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/113).
+* [Helix](https://github.com/rustbridge/helix). Write Ruby classes in Rust without having to write the glue code yourself.
+* [Eudex](https://github.com/ticki/eudex). A blazingly fast phonetic reduction/hashing algorithm written in Rust.
+* [ncollide](http://ncollide.org/). 2 and 3-dimensional collision detection library in Rust.
+* [Panopticon](https://github.com/das-labor/panopticon). A libre cross-platform disassembler.
+* [vk_generator](https://github.com/Osspial/vk-rs). An automated Vulkan binding generator for Rust.
+* [Alchemist](https://mgattozzi.github.io/2016/05/05/announcing-alchemist.html). Unix platform agnostic installation tool written in Rust.
 
 # Crate of the Week
 
@@ -41,10 +52,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [Help improve DuckDuckGo's Rust-related searches](https://www.reddit.com/r/rust/comments/4gujbf/help_improve_duckduckgos_rustrelated_searches/).
 * [easy] [rust: Add error explanations for all error codes](https://github.com/rust-lang/rust/issues/32777).
-* [easy] [servo/highfive: Add a comment when a PR receives a push](https://github.com/servo/highfive/issues/101).
-* [easy] [servo/devices: Minimize duplication for unsupported platforms](https://github.com/servo/devices/issues/8).
+* [medium] [rustup: Make `rustup default x86_64-unknown-linux-gnu` do something smarter](https://github.com/rust-lang-nursery/rustup.rs/issues/411).
+* [easy] [rustup: Bad error when downloading bogus versions](https://github.com/rust-lang-nursery/rustup.rs/issues/390).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -82,7 +92,9 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week!*.
+* [RFC 1525: Add workspaces to Cargo](https://github.com/rust-lang/rfcs/pull/1525).
+* [RFC 1521: Copy/Clone semantics](https://github.com/rust-lang/rfcs/pull/1521).
+* [RFC 1542: Add `TryFrom` and `TryInto` traits](https://github.com/rust-lang/rfcs/pull/1542).
 
 ## Final Comment Period
 
@@ -92,32 +104,25 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [Float-free libcore](https://github.com/rust-lang/rfcs/pull/1596).
-* [`as_millis` function on `std::time::Duration`](https://github.com/rust-lang/rfcs/pull/1547).
-* [Add `TryFrom` and `TryInto` traits](https://github.com/rust-lang/rfcs/pull/1542).
-* [Add workspaces to Cargo](https://github.com/rust-lang/rfcs/pull/1525).
-* [Specifying that `<T as Clone>::clone(&t)` where `T: Copy` should be equivalent to `ptr::read(&t)`](https://github.com/rust-lang/rfcs/pull/1521).
-* [Proposal for thread affinity](https://github.com/rust-lang/rfcs/pull/1480).
+* [All but the last field of a tuple must be Sized](https://github.com/rust-lang/rfcs/pull/1592).
+* [Permit the `..` pattern fragment in more contexts](https://github.com/rust-lang/rfcs/pull/1492).
+* [Translate undefined generic intrinsics to an LLVM `unreachable` and a lint](https://github.com/rust-lang/rfcs/pull/1478).
+* [Add compiler support for generic atomic operations](https://github.com/rust-lang/rfcs/pull/1477).
 * [Add `#[repr(align = "N")]`](https://github.com/rust-lang/rfcs/pull/1358).
 
 ## New RFCs
 
-* [Introduce `dyn` keyword](https://github.com/rust-lang/rfcs/pull/1603).
-* [Amend RFC 1268 with a more feasible proposal post-specialization](https://github.com/rust-lang/rfcs/pull/1600).
-* [Associated type constructors (a form of higher-kinded polymorphism)](https://github.com/rust-lang/rfcs/pull/1598).
+* [Allow type aliases in enumeration repr attributes](https://github.com/rust-lang/rfcs/pull/1605).
+* [RFC process for formatting style and Rustfmt defaults](https://github.com/rust-lang/rfcs/pull/1607).
+* [clarify 'root' with 'root crate' or 'root `Cargo.toml`'](https://github.com/rust-lang/rfcs/pull/1608).
 
 # Upcoming Events
 
-* 5/4. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [5/4. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
-* [5/4. Cologne / Germany: Rust Anniversary Meetup](http://www.meetup.com/de-DE/Rust-Cologne-Bonn/events/230641335/).
-* [5/4. Wellington Rust meetup](http://www.meetup.com/Wellington-Rust-Meetup/events/230650719/).
-* 5/5. Rust London Meetup #5 at Mozilla London.
-* [5/9. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
 * [5/10. Rust NYC: Systems Programming (in Rust) and Tasting (in Beer)](http://www.meetup.com/Rust-NYC/events/230401806/).
 * [5/10. (San Diego) Eat– Drink– Rust! Downtown Rust Meetup](http://www.meetup.com/San-Diego-Rust/events/230492925/).
 * [5/11. Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/).
 * [5/11. Rust LA Monthly Meetup - Hack Night](http://www.meetup.com/Rust-Los-Angeles/events/230365091/).
+* 5/11. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * [5/12. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
 * [5/12. Rust Bay Area](http://www.meetup.com/Rust-Bay-Area/events/230624722/).
 * [5/13. Rust Meetup Darmstadt](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/230396961/).
@@ -125,6 +130,8 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [5/14. Rust Minsk](http://www.meetup.com/Rust-%D0%B2-%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%D0%B5/events/229283305/).
 * [5/16. Rust Paris](http://www.meetup.com/Rust-Paris).
 * [5/17. Moscow Rust Conference](https://rustycrate.ru/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/2016/04/25/colaboratory-rust.html).
+* 5/18. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* [5/18. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -142,11 +149,7 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
-> In general, enough layers of Rc/RefCell will make anything work.
-
-[gkoz on TRPLF](https://users.rust-lang.org/t/how-to-get-static-lifetime/5552/8).
-
-Thanks to [birkenfeld](https://users.rust-lang.org/users/birkenfeld) for the suggestion.
+*No quote was selected for QotW.*
 
 [Submit your quotes for next week][submit]!
 
