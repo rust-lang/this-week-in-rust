@@ -28,7 +28,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 # Crate of the Week
 
-This week's Crate of the Week is [arrayvec](https://crates.io/crates/arrayvec), which gives us a `Vec`-like interface over plain arrays for those instances where you don't want the indirection. Thanks to [ehiggs](https://users.rust-lang.org/users/ehiggs) for the suggestion!
+This week's Crate of the Week is [semantic-rs](https://github.com/semantic-rs/semantic-rs), which lets us update our project from the commandline ensuring semver compliance on the way. Thanks to [Florian Gilcher](https://users.rust-lang.org/users/skade) for the suggestion!
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -54,16 +54,22 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 92 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-04-25..2016-05-02
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-05-02..2016-05-09
 
-* [new `Entry::key()` method](https://github.com/rust-lang/rust/pull/33148)
-* [`Clone::clone()` no longer deep-clones `Copy` types](https://github.com/rust-lang/rust/pull/31414)
-* [`IPV6_V6ONLY` removed](https://github.com/rust-lang/rust/pull/33263) (breaking change!)
-* [`-Z save_analysis` now uses JSON format](https://github.com/rust-lang/rust/pull/33208)
-* [`trans::collector` improvements](https://github.com/rust-lang/rust/pull/33171)
-* [`pub(restricted)` on tuple struct fields](https://github.com/rust-lang/rust/pull/33161)
-* [simplify AST→HIR lowering by removing reproducibility](https://github.com/rust-lang/rust/pull/33296)
-* [New "Rust Friends" page](https://github.com/rust-lang/rust-www/pull/346)
+* [Cleaner messaging on Errors](https://github.com/rust-lang/rust/pull/32756) (Yay!)
+* [TryFrom/TryInto](https://github.com/rust-lang/rust/pull/33426) (implements [RFC #1542](https://github.com/rust-lang/rfcs/blob/master/text/1542-try-from.md))
+* [Let rustc optimize for size](https://github.com/rust-lang/rust/pull/32386)
+* [find() on chained iterators no longer 2×slower](https://github.com/rust-lang/rust/pull/33289)
+* [`mem::forget()` is now inlined](https://github.com/rust-lang/rust/pull/33357)
+* [MIR now supports constant expressions](https://github.com/rust-lang/rust/pull/33130) (This includes four breaking changes!)
+* [Less Unicode confusion through more aliases](https://github.com/rust-lang/rust/pull/33128/files)
+* [Drink the half-full entropy pool on early-bootup `Hash*` creation](https://github.com/rust-lang/rust/pull/33086) (avoids blocking to wait for entropy)
+* [`Duration::new(..)` now panics instead of wrapping](https://github.com/rust-lang/rust/pull/33072)
+* [`-Wrapping(_)` negation implemented](https://github.com/rust-lang/rust/pull/33067)
+* [`Default` for `&CStr` + `CString`](https://github.com/rust-lang/rust/pull/32990)
+* [`UnsafeCell/Cell.as_mut()`](https://github.com/rust-lang/rust/pull/32565)
+* [`const_eval` fixes](https://github.com/rust-lang/rust/pull/33339)
+* [New armv7-linux-androideabi target](https://github.com/rust-lang/rust/pull/33414)
 
 ## New Contributors
 
