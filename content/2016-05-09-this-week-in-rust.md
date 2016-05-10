@@ -72,7 +72,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [find() on chained iterators no longer 2×slower](https://github.com/rust-lang/rust/pull/33289)
 * [`mem::forget()` is now inlined](https://github.com/rust-lang/rust/pull/33357)
 * [MIR now supports constant expressions](https://github.com/rust-lang/rust/pull/33130) (This includes four breaking changes!)
-* [Less Unicode confusion through more aliases](https://github.com/rust-lang/rust/pull/33128/files)
+* [Less Unicode confusion through more aliases](https://github.com/rust-lang/rust/pull/33128)
 * [Drink the half-full entropy pool on early-bootup `Hash*` creation](https://github.com/rust-lang/rust/pull/33086) (avoids blocking to wait for entropy)
 * [`Duration::new(..)` now panics instead of wrapping](https://github.com/rust-lang/rust/pull/33072)
 * [`-Wrapping(_)` negation implemented](https://github.com/rust-lang/rust/pull/33067)
@@ -80,6 +80,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [`UnsafeCell/Cell.as_mut()`](https://github.com/rust-lang/rust/pull/32565)
 * [`const_eval` fixes](https://github.com/rust-lang/rust/pull/33339)
 * [New armv7-linux-androideabi target](https://github.com/rust-lang/rust/pull/33414)
+* [Implement constant support in MIR](https://github.com/rust-lang/rust/pull/33130)
 
 ## New Contributors
 
