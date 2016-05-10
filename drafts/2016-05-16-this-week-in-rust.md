@@ -20,6 +20,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## News & Blog Posts
 
+[cargo clippy](https://github.com/Manishearth/rust-clippy#as-a-cargo-subcommand-cargo-clippy) subcommand for convenient production of annoying warnings
 
 ## New Crates & Project Updates
 
@@ -64,7 +65,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [`Duration::new(..)` now panics instead of wrapping](https://github.com/rust-lang/rust/pull/33072)
 * [`-Wrapping(_)` negation implemented](https://github.com/rust-lang/rust/pull/33067)
 * [`Default` for `&CStr` + `CString`](https://github.com/rust-lang/rust/pull/32990)
-* [`UnsafeCell/Cell.get_mut()`](https://github.com/rust-lang/rust/pull/32565)
+* [`UnsafeCell/Cell.as_mut()`](https://github.com/rust-lang/rust/pull/32565)
 * [`const_eval` fixes](https://github.com/rust-lang/rust/pull/33339)
 * [New armv7-linux-androideabi target](https://github.com/rust-lang/rust/pull/33414)
 
