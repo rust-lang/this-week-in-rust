@@ -91,7 +91,7 @@ are the RFCs that were approved for implementation this week:
 
 ## Final Comment Period
 
-Every week [the team](https://rust-lang.org/team.html) announces the
+Every week [the team](https://www.rust-lang.org/team.html) announces the
 'final comment period' for RFCs and key PRs which are reaching a
 decision. Express your opinions now. [This week's FCPs][fcp] are:
 
