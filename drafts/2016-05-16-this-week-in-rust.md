@@ -26,7 +26,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 # Crate of the Week
 
-This week's Crate of the Week is [semantic-rs](https://github.com/semantic-rs/semantic-rs), which lets us update our project from the commandline ensuring semver compliance on the way. Thanks to [Florian Gilcher](https://users.rust-lang.org/users/skade) for the suggestion!
+This week's Crate of the Week is [cargo-profiler](https://github.com/pegasos1/cargo-profiler), which lets us profile our code directly from cargo using a variety of tools, notably valgrind's callgrind and cachegrind. Thanks to [kbknapp](https://users.rust-lang.org/users/kbknapp) for the suggestion!
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -49,24 +49,37 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-92 pull requests were [merged in the last two weeks][merged].
+132 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-05-02..2016-05-09
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-05-09..2016-05-16
 
-* [Cleaner messaging on Errors](https://github.com/rust-lang/rust/pull/32756) (Yay!)
-* [TryFrom/TryInto](https://github.com/rust-lang/rust/pull/33426) (implements [RFC #1542](https://github.com/rust-lang/rfcs/blob/master/text/1542-try-from.md))
-* [Let rustc optimize for size](https://github.com/rust-lang/rust/pull/32386)
-* [find() on chained iterators no longer 2×slower](https://github.com/rust-lang/rust/pull/33289)
-* [`mem::forget()` is now inlined](https://github.com/rust-lang/rust/pull/33357)
-* [MIR now supports constant expressions](https://github.com/rust-lang/rust/pull/33130) (This includes four breaking changes!)
-* [Less Unicode confusion through more aliases](https://github.com/rust-lang/rust/pull/33128/files)
-* [Drink the half-full entropy pool on early-bootup `Hash*` creation](https://github.com/rust-lang/rust/pull/33086) (avoids blocking to wait for entropy)
-* [`Duration::new(..)` now panics instead of wrapping](https://github.com/rust-lang/rust/pull/33072)
-* [`-Wrapping(_)` negation implemented](https://github.com/rust-lang/rust/pull/33067)
-* [`Default` for `&CStr` + `CString`](https://github.com/rust-lang/rust/pull/32990)
-* [`UnsafeCell/Cell.get_mut()`](https://github.com/rust-lang/rust/pull/32565)
-* [`const_eval` fixes](https://github.com/rust-lang/rust/pull/33339)
-* [New armv7-linux-androideabi target](https://github.com/rust-lang/rust/pull/33414)
+* [custom panic runtimes](https://github.com/rust-lang/rust/pull/32900) (finally implements [RFC #1513](https://github.com/rust-lang/rfcs/blob/master/text/1513-less-unwinding.md) – embedded Rust users rejoice!)
+* [cache ast-ty-to-ty again](https://github.com/rust-lang/rust/pull/33596)
+* [AtomicBools are now 8 bits wide](https://github.com/rust-lang/rust/pull/33579) (used to surprisingly be one ptr wide)
+* [reduce LLVM IR bloat in simple switches for large enums](https://github.com/rust-lang/rust/pull/33566)
+* [reduce LLVM IR bloat on CFG simplification](https://github.com/rust-lang/rust/pull/33544)
+* [split the type context into a local/global one](https://github.com/rust-lang/rust/pull/33425) for some memory savings
+* [MIR: CFG block merging](https://github.com/rust-lang/rust/pull/33552)
+* [MIR: allow mutable slicing of arbitrarily long arrays](https://github.com/rust-lang/rust/pull/33620)
+* [MIR: Prettier MIR pretty printing](https://github.com/rust-lang/rust/pull/33607)
+* [more MIR blockers fixed](https://github.com/rust-lang/rust/pull/33488)
+* [save-analysis format changes](https://github.com/rust-lang/rust/pull/33370)
+* [correct temp drop scheduling order](https://github.com/rust-lang/rust/pull/33239)
+* [don't use `env::current_exe with libbacktrace](https://github.com/rust-lang/rust/pull/33554)
+* [Better derived impls for large (mostly) C-like enums](https://github.com/rust-lang/rust/pull/33593)
+* [std::sync::OnceState now public](https://github.com/rust-lang/rust/pull/33563) (though unstable)
+* [normalize trait refs before use](https://github.com/rust-lang/rust/pull/33478/files)
+* [const_eval can now cast byte slices to bare ptrs](https://github.com/rust-lang/rust/pull/33457)
+* [earlier name resolution](https://github.com/rust-lang/rust/pull/33443)
+* [allow repr attribute on single variant enum](https://github.com/rust-lang/rust/pull/33355)
+* [`impl (Partial)Ord for Cell<T>+RefCell<T> where T: (Partial)Ord](https://github.com/rust-lang/rust/pull/33306)
+* [`std::process::ExitStatus::from_raw(_)`](https://github.com/rust-lang/rust/pull/33224)
+* [integer atomic types](https://github.com/rust-lang/rust/pull/33048)
+* [fix gdb pretty printing](https://github.com/rust-lang/rust/pull/33612)
+* [the playpen now uses the new error format](https://github.com/rust-lang/rust-playpen/pull/207)
+* [rustdoc no longer skips blanket impls](https://github.com/rust-lang/rust/pull/33514)
+* [make lifetime error reporting less confusing](https://github.com/rust-lang/rust/pull/33544)
+* There were a lot of documentaion improvements, too numerous to mention each.
 
 ## New Contributors
 
