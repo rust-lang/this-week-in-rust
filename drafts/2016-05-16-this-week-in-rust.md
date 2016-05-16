@@ -20,6 +20,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## News & Blog Posts
 
+[cargo clippy](https://github.com/Manishearth/rust-clippy#as-a-cargo-subcommand-cargo-clippy) subcommand for convenient production of annoying warnings
 
 ## New Crates & Project Updates
 
