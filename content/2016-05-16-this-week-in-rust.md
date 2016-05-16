@@ -1,6 +1,6 @@
-Title: This Week in Rust 129
-Number: 129
-Date: 2016-05-09
+Title: This Week in Rust 130
+Number: 130
+Date: 2016-05-16
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -20,10 +20,27 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## News & Blog Posts
 
-[cargo clippy](https://github.com/Manishearth/rust-clippy#as-a-cargo-subcommand-cargo-clippy) subcommand for convenient production of annoying warnings
+* [Introducing Helix](http://blog.skylight.io/introducing-helix/). Rust + Ruby, without the glue.
+* [Taking Rust everywhere with rustup](http://blog.rust-lang.org/2016/05/13/rustup.html). Push-button cross-compilation with rustup.
+* [Non-lexical lifetimes: Adding the outlives relation](http://smallcultfollowing.com/babysteps/blog/2016/05/09/non-lexical-lifetimes-adding-the-outlives-relation/).
+* [Deep Learning in Rust: a walk in the park](https://medium.com/@tedsta/deep-learning-in-rust-a-walk-in-the-park-fed6c87165ea)
+* [Rust for Node.js developers - Part 1 - Introduction to Rust](http://fredrik.anderzon.se/2016/05/10/rust-for-node-developers-part-1-introduction/).
+* [Writing documentation in Rust](https://facility9.com/2016/05/writing-documentation-in-rust/).
+* [Fancy Rust development with Emacs](http://julienblanchard.com/2016/fancy-rust-development-with-emacs/).
+* [Quick check: does your code work?](https://fnordig.de/2016/05/12/quickcheck-does-your-code-work/) Using QuickCheck to do property based testing.
+* [Autoconf for Rust projects](http://aravindavk.in/blog/autoconf-for-rust-projects/).
+* [This week in Servo 62](https://blog.servo.org/2016/05/09/twis-62/).
+* [This week in Rust docs 3](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-3).
+* [This week in intermezzOS 1](https://intermezzos.github.io/blog/articles/twii1/). intermezzOS is a learning operating system with a companion book, written in Rust.
+* [video] [Ferris makes emulators: Episode 8](https://www.youtube.com/watch?v=ToOt-osLxNk). Live stream of Ferris developing a N64 emulator in Rust (also on [Twitch](http://www.twitch.tv/ferrisstreamsstuff/profile)).
 
 ## New Crates & Project Updates
 
+* Announcing [RustFest Berlin 2016](http://www.rustfest.eu/blog/happy-birthday-announcing-rustfest) (17-18 September 2016).
+* [hydrogen](https://github.com/nathansizemore/hydrogen). Multithreaded, non-blocking Linux server framework in Rust.
+* [cargo-profiler](http://www.suchin.co/2016/05/11/Introducing-Cargo-Profiler/). Cargo subcommand to profile binaries.
+* [cargo clippy](https://github.com/Manishearth/rust-clippy#as-a-cargo-subcommand-cargo-clippy) subcommand for convenient production of annoying warnings.
+* [rfmt](https://github.com/zBaitu/rfmt). Rust source code formatter.
 
 # Crate of the Week
 
@@ -40,9 +57,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [easy] [rust: Participate in 2016 State of Rust Survey](http://blog.rust-lang.org/2016/05/09/survey.html).
+* [easy] [redox: Participate in Redox Survey](http://goo.gl/forms/RUOfIsxXsv).
+* [easy] [clippy: Participate in Rust Clippy Survey](https://docs.google.com/forms/d/1k0wuWgGwDhuUL3q_cONGVxQ6PJSYq5JRZOHKc0itLbg/viewform?c=0&w=1).
 * [easy] [rust: Add error explanations for all error codes](https://github.com/rust-lang/rust/issues/32777).
 * [medium] [rustup: Make `rustup default x86_64-unknown-linux-gnu` do something smarter](https://github.com/rust-lang-nursery/rustup.rs/issues/411).
-* [easy] [rustup: Bad error when downloading bogus versions](https://github.com/rust-lang-nursery/rustup.rs/issues/390).
+* [easy] [servo: Remove `--no-ssl` option](https://github.com/servo/servo/issues/11197).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -84,14 +104,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Brandon Edens
-* Garrett Squire
-* jonathandturner
-* Nerijus Arlauskas
-* Philipp Matthias Schaefer
-* Stephen Mather
-* Taylor Cramer
-* Wang Xuerui
+* billyevans
+* bnewbold
+* Brian Green
+* Cristian Oliveira
+* Dan Fockler
+* Geordon Worley
+* Haiko Schol
+* mrmiywj
+* Pavel Sountsov
+* silvo38
+* Stefan Schindler
+* Steven Burns
 
 ## Approved RFCs
 
@@ -99,9 +123,9 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1525: Add workspaces to Cargo](https://github.com/rust-lang/rfcs/pull/1525).
-* [RFC 1521: Copy/Clone semantics](https://github.com/rust-lang/rfcs/pull/1521).
-* [RFC 1542: Add `TryFrom` and `TryInto` traits](https://github.com/rust-lang/rfcs/pull/1542).
+* [RFC 1358: Add `#[repr(align = "N")]`](https://github.com/rust-lang/rfcs/pull/1358).
+* [RFC 1492: Permit the `..` pattern fragment in more contexts](https://github.com/rust-lang/rfcs/pull/1492).
+* [Amendment to RFC 1214: All but the last field of a tuple must be Sized](https://github.com/rust-lang/rfcs/pull/1592).
 
 ## Final Comment Period
 
@@ -111,34 +135,24 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [All but the last field of a tuple must be Sized](https://github.com/rust-lang/rfcs/pull/1592).
-* [Permit the `..` pattern fragment in more contexts](https://github.com/rust-lang/rfcs/pull/1492).
-* [Translate undefined generic intrinsics to an LLVM `unreachable` and a lint](https://github.com/rust-lang/rfcs/pull/1478).
-* [Add compiler support for generic atomic operations](https://github.com/rust-lang/rfcs/pull/1477).
-* [Add `#[repr(align = "N")]`](https://github.com/rust-lang/rfcs/pull/1358).
+*No RFCs are currently in final comment period.*
 
 ## New RFCs
 
-* [Allow type aliases in enumeration repr attributes](https://github.com/rust-lang/rfcs/pull/1605).
-* [RFC process for formatting style and Rustfmt defaults](https://github.com/rust-lang/rfcs/pull/1607).
-* [clarify 'root' with 'root crate' or 'root `Cargo.toml`'](https://github.com/rust-lang/rfcs/pull/1608).
+* [Let Cargo put data into platform-specific directories](https://github.com/rust-lang/rfcs/pull/1615).
+* [Add an owning "borrowed" pointer type `&move`](https://github.com/rust-lang/rfcs/pull/1617).
 
 # Upcoming Events
 
-* [5/10. Rust NYC: Systems Programming (in Rust) and Tasting (in Beer)](http://www.meetup.com/Rust-NYC/events/230401806/).
-* [5/10. (San Diego) Eat– Drink– Rust! Downtown Rust Meetup](http://www.meetup.com/San-Diego-Rust/events/230492925/).
-* [5/11. Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/).
-* [5/11. Rust LA Monthly Meetup - Hack Night](http://www.meetup.com/Rust-Los-Angeles/events/230365091/).
-* 5/11. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [5/12. Columbus Rust Society](http://www.meetup.com/columbus-rs/).
-* [5/12. Rust Bay Area](http://www.meetup.com/Rust-Bay-Area/events/230624722/).
-* [5/13. Rust Meetup Darmstadt](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/230396961/).
-* [5/13. Hack Chiapas, Autonomous University of Chiapas, Mexico](http://hackchiapas.com/).
-* [5/14. Rust Minsk](http://www.meetup.com/Rust-%D0%B2-%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%D0%B5/events/229283305/).
-* [5/16. Rust Paris](http://www.meetup.com/Rust-Paris).
 * [5/17. Moscow Rust Conference](https://rustycrate.ru/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/2016/04/25/colaboratory-rust.html).
+* [5/18. Rust Meetup Taipei #2](http://www.meetup.com/RUST-TW/events/230709491/).
 * 5/18. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [5/18. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
+* [5/18. Rust Berlin: Rust 1.0 Anniversary Meetup](http://www.meetup.com/Rust-Berlin/events/230810678/).
+* [5/24. Rust Brisbane Meetup #1](http://www.meetup.com/Rust-Brisbane/events/230676018/).
+* [5/24. Rust Barcelona - Cross compiling for ARM linux targets + accessing the GPIO in a Raspberry Pi](http://www.meetup.com/Rust-Barcelona/events/230638451/).
+* 5/25. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* [5/25. Boston Rust Meetup w/ Steve Klabnik and Andrew Gallant](http://www.meetup.com/BostonRust/events/230419544/).
+* [5/26. Rust DC - Inaugural Meetup](http://www.meetup.com/RustDC/events/227138240/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
