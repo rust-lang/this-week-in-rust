@@ -80,7 +80,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [`UnsafeCell/Cell.get_mut()`](https://github.com/rust-lang/rust/pull/32565)
 * [`const_eval` fixes](https://github.com/rust-lang/rust/pull/33339)
 * [New armv7-linux-androideabi target](https://github.com/rust-lang/rust/pull/33414)
-* [Implement constant support in MIR](https://github.com/rust-lang/rust/pull/33130)
 
 ## New Contributors
 
