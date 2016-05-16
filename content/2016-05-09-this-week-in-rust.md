@@ -138,7 +138,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [5/16. Rust Paris](http://www.meetup.com/Rust-Paris).
 * [5/17. Moscow Rust Conference](https://rustycrate.ru/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/2016/04/25/colaboratory-rust.html).
 * 5/18. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [5/18. OpenTechSchool Berlin: Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/).
+* [5/18. Rust Berlin: Rust 1.0 Anniversary Meetup](http://www.meetup.com/Rust-Berlin/events/230810678/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
