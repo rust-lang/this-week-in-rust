@@ -41,6 +41,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 * [cargo-profiler](http://www.suchin.co/2016/05/11/Introducing-Cargo-Profiler/). Cargo subcommand to profile binaries.
 * [cargo clippy](https://github.com/Manishearth/rust-clippy#as-a-cargo-subcommand-cargo-clippy) subcommand for convenient production of annoying warnings.
 * [rfmt](https://github.com/zBaitu/rfmt). Rust source code formatter.
+* [RustDT 0.6.0](https://github.com/RustDT/RustDT/releases/tag/v0.6.0) is out with improved build target support and experimental auto-check.
 
 # Crate of the Week
 
