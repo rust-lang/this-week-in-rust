@@ -1,6 +1,6 @@
-Title: This Week in Rust 129
-Number: 129
-Date: 2016-05-09
+Title: This Week in Rust 131
+Number: 131
+Date: 2016-05-23
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -39,7 +39,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 # Crate of the Week
 
-This week's Crate of the Week is [semantic-rs](https://github.com/semantic-rs/semantic-rs), which lets us update our project from the commandline ensuring semver compliance on the way. Thanks to [Florian Gilcher](https://users.rust-lang.org/users/skade) for the suggestion!
+This weeks Crate of the Week is [parking_lot](https://crates.io/crates/parking_lot) which gives us synchronization primitives (Mutex, RWLock, CondVar and friends) that are both smaller and faster than the standard library's implementations. I wonder why those are not put into `std`, but there's probably some reason.
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -62,24 +62,24 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-92 pull requests were [merged in the last two weeks][merged].
+117 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-05-02..2016-05-09
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-05-16..2016-05-23
 
-* [Cleaner messaging on Errors](https://github.com/rust-lang/rust/pull/32756) (Yay!)
-* [TryFrom/TryInto](https://github.com/rust-lang/rust/pull/33426) (implements [RFC #1542](https://github.com/rust-lang/rfcs/blob/master/text/1542-try-from.md))
-* [Let rustc optimize for size](https://github.com/rust-lang/rust/pull/32386)
-* [find() on chained iterators no longer 2×slower](https://github.com/rust-lang/rust/pull/33289)
-* [`mem::forget()` is now inlined](https://github.com/rust-lang/rust/pull/33357)
-* [MIR now supports constant expressions](https://github.com/rust-lang/rust/pull/33130) (This includes four breaking changes!)
-* [Less Unicode confusion through more aliases](https://github.com/rust-lang/rust/pull/33128)
-* [Drink the half-full entropy pool on early-bootup `Hash*` creation](https://github.com/rust-lang/rust/pull/33086) (avoids blocking to wait for entropy)
-* [`Duration::new(..)` now panics instead of wrapping](https://github.com/rust-lang/rust/pull/33072)
-* [`-Wrapping(_)` negation implemented](https://github.com/rust-lang/rust/pull/33067)
-* [`Default` for `&CStr` + `CString`](https://github.com/rust-lang/rust/pull/32990)
-* [`UnsafeCell/Cell.get_mut()`](https://github.com/rust-lang/rust/pull/32565)
-* [`const_eval` fixes](https://github.com/rust-lang/rust/pull/33339)
-* [New armv7-linux-androideabi target](https://github.com/rust-lang/rust/pull/33414)
+* [macro expression spans fixed](https://github.com/rust-lang/rust/pull/33712)
+* [`#[rustc_on_unimplemented = _]` now does fuzzy matching](https://github.com/rust-lang/rust/pull/33694)
+* [fixes for old error style, improvements for new](https://github.com/rust-lang/rust/pull/33688)
+* [more new-style error reporting improvements](https://github.com/rust-lang/rust/pull/33619)
+* [Macro expansion diagnostics improvements](https://github.com/rust-lang/rust/pull/33730)
+* [`hir::Ident`](https://github.com/rust-lang/rust/pull/33654) and [`ExplicitSelf`](https://github.com/rust-lang/rust/pull/33505) removed (requires lint writers to rustup)
+* [new crate type `cdylib`](https://github.com/rust-lang/rust/pull/33553) (for lean libs to embed in C)
+* [replace obligation forest with graph](https://github.com/rust-lang/rust/pull/33491)
+* [incremental compilation: Track deps across crates](https://github.com/rust-lang/rust/pull/33476)
+* [float parsing fixed on x87](https://github.com/rust-lang/rust/pull/33429)
+* [`HashMap::new()` speedups via thread-local storage](https://github.com/rust-lang/rust/pull/33318)
+* [extended warning for unsoundness with elided associated type lifetimes](https://github.com/rust-lang/rust/pull/33137)
+* [`EscapeUnicode::last()` and other specializations](https://github.com/rust-lang/rust/pull/33103)
+* [Backport an unsoundness fix in libbacktrace](https://github.com/rust-lang/rust/pull/33729)
 
 ## New Contributors
 
