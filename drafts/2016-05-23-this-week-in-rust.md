@@ -83,7 +83,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [more MIR blockers fixed](https://github.com/rust-lang/rust/pull/33488)
 * [save-analysis format changes](https://github.com/rust-lang/rust/pull/33370)
 * [correct temp drop scheduling order](https://github.com/rust-lang/rust/pull/33239)
-* [don't use `env::current_exe with libbacktrace](https://github.com/rust-lang/rust/pull/33554)
+* [don't use `env::current_exe` with libbacktrace](https://github.com/rust-lang/rust/pull/33554)
 * [Better derived impls for large (mostly) C-like enums](https://github.com/rust-lang/rust/pull/33593)
 * [std::sync::OnceState now public](https://github.com/rust-lang/rust/pull/33563) (though unstable)
 * [normalize trait refs before use](https://github.com/rust-lang/rust/pull/33478/files)
