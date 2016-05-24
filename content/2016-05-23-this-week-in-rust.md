@@ -41,7 +41,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 # Crate of the Week
 
-This weeks Crate of the Week is [parking_lot](https://crates.io/crates/parking_lot) which gives us synchronization primitives (Mutex, RWLock, CondVar and friends) that are both smaller and faster than the standard library's implementations. I wonder why those are not put into `std`, but there's probably some reason.
+This weeks Crate of the Week is [parking_lot](https://crates.io/crates/parking_lot) which gives us synchronization primitives (Mutex, RWLock, CondVar and friends) that are both smaller and faster than the standard library's implementations.
 
 [Submit your suggestions for next week][submit_crate]!
 
