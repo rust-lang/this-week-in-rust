@@ -22,7 +22,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## New Crates & Project Updates
 
-[bindgen 0.17.0](https://github.com/crabtw/rust-bindgen), a C binding generator.
+[bindgen 0.17.0](https://github.com/crabtw/rust-bindgen), a C binding generator. Lots of new features and fixes, with a much cleaner generated code. See the [changelog](https://github.com/crabtw/rust-bindgen/blob/0.17/Changelog.md) for a complete list.
 
 # Crate of the Week
 
