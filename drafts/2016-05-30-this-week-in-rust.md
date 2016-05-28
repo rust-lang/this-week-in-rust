@@ -22,6 +22,8 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## New Crates & Project Updates
 
+[bindgen 0.17.0](https://github.com/crabtw/rust-bindgen), a C binding generator.
+
 # Crate of the Week
 
 This weeks Crate of the Week is [parking_lot](https://crates.io/crates/parking_lot) which gives us synchronization primitives (Mutex, RWLock, CondVar and friends) that are both smaller and faster than the standard library's implementations.
