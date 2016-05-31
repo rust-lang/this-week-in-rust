@@ -26,7 +26,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 # Crate of the Week
 
-This weeks Crate of the Week is [parking_lot](https://crates.io/crates/parking_lot) which gives us synchronization primitives (Mutex, RWLock, CondVar and friends) that are both smaller and faster than the standard library's implementations.
+*Sadly, there was no suggestion for this week's crate.*
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -52,24 +52,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-117 pull requests were [merged in the last two weeks][merged].
+90 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-05-16..2016-05-23
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-05-23..2016-05-30
 
-* [macro expression spans fixed](https://github.com/rust-lang/rust/pull/33712)
-* [`#[rustc_on_unimplemented = _]` now does fuzzy matching](https://github.com/rust-lang/rust/pull/33694)
-* [fixes for old error style, improvements for new](https://github.com/rust-lang/rust/pull/33688)
-* [more new-style error reporting improvements](https://github.com/rust-lang/rust/pull/33619)
-* [Macro expansion diagnostics improvements](https://github.com/rust-lang/rust/pull/33730)
-* [`hir::Ident`](https://github.com/rust-lang/rust/pull/33654) and [`ExplicitSelf`](https://github.com/rust-lang/rust/pull/33505) removed (requires lint writers to rustup)
-* [new crate type `cdylib`](https://github.com/rust-lang/rust/pull/33553) (for lean libs to embed in C)
-* [replace obligation forest with graph](https://github.com/rust-lang/rust/pull/33491)
-* [incremental compilation: Track deps across crates](https://github.com/rust-lang/rust/pull/33476)
-* [float parsing fixed on x87](https://github.com/rust-lang/rust/pull/33429)
-* [`HashMap::new()` speedups via thread-local storage](https://github.com/rust-lang/rust/pull/33318)
-* [extended warning for unsoundness with elided associated type lifetimes](https://github.com/rust-lang/rust/pull/33137)
-* [`EscapeUnicode::last()` and other specializations](https://github.com/rust-lang/rust/pull/33103)
-* [Backport an unsoundness fix in libbacktrace](https://github.com/rust-lang/rust/pull/33729)
+* [abort with SIGABRT instead of SIGILL on Linux](https://github.com/rust-lang/rust/pull/31457) (breaking change!)
+* [process `cfg_attr(..)`s during macro expansion](https://github.com/rust-lang/rust/pull/33706) (breaking change!)
+* [allow `concat_idents!(..)` in type position](https://github.com/rust-lang/rust/pull/33735)
+* [don't expand erroneous macros](https://github.com/rust-lang/rust/pull/33713) (reduces duplicate error messages)
+* [1.10 stabilizations](https://github.com/rust-lang/rust/pull/33699)
+* [MIR dataflow fixes](https://github.com/rust-lang/rust/pull/33667) (changed 22 files, merged on first try. Kudos, pnkfelix!)
+* [deprecate `f32`/`f64.abs_sub(_)`](https://github.com/rust-lang/rust/pull/33664)
+* [remove ExplicitSelf from AST](https://github.com/rust-lang/rust/pull/33644) (plugin-breaking change)
+* [implement `..` in tuple (struct) patterns](https://github.com/rust-lang/rust/pull/33639) (plugin-breaking, [RFC #1492](https://github.com/rust-lang/rfcs/blob/master/text/1492-dotdot-in-patterns.md))
+* [HIR spans for loop labels](https://github.com/rust-lang/rust/pull/33351) (plugin-breaking)
+* [speed up unicode property lookup](https://github.com/rust-lang/rust/pull/33098)
+* [refactor autoderef obligation handling](https://github.com/rust-lang/rust/pull/33852) (fixes epic number of issues)
+* [make `EscapeUnicode` an `ExactSizeIterator`](https://github.com/rust-lang/rust/pull/33849)
+* [use `memalign` instead of `posix_memalign` on older Androids](https://github.com/rust-lang/rust/pull/33832) (yay for portability)
+* [cleanup macro expansion](https://github.com/rust-lang/rust/pull/33766)
+* [fix FFI argument handling](https://github.com/rust-lang/rust/pull/33872)
+* [fix ANTLR grammar verification script](https://github.com/rust-lang/rust/pull/33860) (though there's a newer yacc grammar)
+* [`fmt::Error` now implements the `Error` trait](https://github.com/rust-lang/rust/pull/33856)
+* [speed up `Ipv4Addr` comparisons](https://github.com/rust-lang/rust/pull/33891)
 
 ## New Contributors
 
