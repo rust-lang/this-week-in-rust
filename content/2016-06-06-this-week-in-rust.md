@@ -71,7 +71,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-05-30..2016-06-06
 
-* [Avoid deadlock by double-locking `RWLock`/`Mutix`](https://github.com/rust-lang/rust/pull/33861)
+* [Avoid deadlock by double-locking `RWLock`/`Mutex`](https://github.com/rust-lang/rust/pull/33861)
 * [Deny unsound projections and speeding up the compiler](https://github.com/rust-lang/rust/pull/33816)
 * [Rust aborts processes on Windows with __fastfail](https://github.com/rust-lang/rust/pull/33814) (instead of invalid instruction, this is a potentially breaking change)
 * [New AST validation pass](https://github.com/rust-lang/rust/pull/33794) to ensure macro expansions obey language rules
