@@ -34,7 +34,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 * [GDB now supports debugging programs written in Rust](https://gcc.gnu.org/ml/gcc/2016-06/msg00030.html).
 * [Redox OS will from now on comply with the GNU Free System Distribution Guidelines](https://doc.redox-os.org/book/introduction/why_free_software.html).
-* [Daikosune released a new project metrics dashboard](https://internals.rust-lang.org/t/the-rust-project-needs-much-better-visibility-into-important-metrics/3367/26?u=brson).
+* [dikaiosune released a new project metrics dashboard](https://internals.rust-lang.org/t/the-rust-project-needs-much-better-visibility-into-important-metrics/3367/26?u=brson).
 * [Tickets are now available for Rust Belt Rust Conference (27 & 28 October 2016, Pittsburgh, US)](https://rust-belt-rust.eventbrite.com/).
 * [This week in Servo 65](https://blog.servo.org/2016/05/30/twis-65/).
 * [This week in Rust docs 6](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-6).
