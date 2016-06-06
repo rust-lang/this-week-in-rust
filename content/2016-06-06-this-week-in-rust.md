@@ -1,5 +1,5 @@
 Title: This Week in Rust 133
-Number: 132
+Number: 133
 Date: 2016-06-06
 Category: This Week in Rust
 
@@ -20,11 +20,27 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## News & Blog Posts
 
+* [Why is a Rust executable large](https://lifthrasiir.github.io/rustlog/why-is-a-rust-executable-large.html)?
+* [`&` vs. `ref` in Rust patterns](http://xion.io/post/code/rust-patterns-ref.html).
+* [How do I use the Standard Library Macros in Rust? Part 1](https://mgattozzi.github.io/2016/06/01/how-do-i-std-macros.html).
+* [Things you could do with the Rust AST](http://kamalmarhubi.com/blog/2016/06/02/playing-with-the-rust-ast/).
+* [Beyond memory safety with types](https://insanitybit.github.io/2016/05/30/beyond-memory-safety-with-types).
+* [Interfacing Rust with the JVM](https://github.com/mottalli/rust-jni-test).
+* [Tween: a middleware library experiment](https://chrismorgan.info/blog/tween.html).
+* [podcast] [New Rustacean: News episode 01](http://www.newrustacean.com/show_notes/news/_1/). A year in, Rust is changing fast but still stable.
+* [video] [Ferris makes emulators: Episode 11 - Debugger part 2](https://www.youtube.com/watch?v=chU5uWs1sLw). Live stream of Ferris developing a N64 emulator in Rust (also on [Twitch](http://www.twitch.tv/ferrisstreamsstuff/profile)).
 
 ## New Crates & Project Updates
 
-* [Daikosune released a new project metrics
-  dashboard](https://internals.rust-lang.org/t/the-rust-project-needs-much-better-visibility-into-important-metrics/3367/26?u=brson).
+* [GDB now supports debugging programs written in Rust](https://gcc.gnu.org/ml/gcc/2016-06/msg00030.html).
+* [Redox OS will from now on comply with the GNU Free System Distribution Guidelines](https://doc.redox-os.org/book/introduction/why_free_software.html).
+* [Daikosune released a new project metrics dashboard](https://internals.rust-lang.org/t/the-rust-project-needs-much-better-visibility-into-important-metrics/3367/26?u=brson).
+* [Tickets are now available for Rust Belt Rust Conference (27 & 28 October 2016, Pittsburgh, US)](https://rust-belt-rust.eventbrite.com/).
+* [This week in Servo 65](https://blog.servo.org/2016/05/30/twis-65/).
+* [This week in Rust docs 6](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-6).
+* [This week in intermezzOS 2](https://intermezzos.github.io/blog/articles/twii2/).
+* [This week in Parity 3](https://ethcore.github.io/twip/content/2016-06-01.html).
+* [imag](https://github.com/matthiasbeyer/imag). Text based personal information management suite.
 
 # Crate of the Week
 
@@ -44,8 +60,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [easy] [rust: Participate in 2016 State of Rust Survey](http://blog.rust-lang.org/2016/05/09/survey.html).
 * [easy] [clippy: Participate in Rust Clippy Survey](https://docs.google.com/forms/d/1k0wuWgGwDhuUL3q_cONGVxQ6PJSYq5JRZOHKc0itLbg/viewform?c=0&w=1).
 * [easy] [rust: Add error explanations for all error codes](https://github.com/rust-lang/rust/issues/32777).
-* [medium] [rustup: Make `rustup default x86_64-unknown-linux-gnu` do something smarter](https://github.com/rust-lang-nursery/rustup.rs/issues/411).
-* [easy] [servo: Implement more `DOMParser::parseFromString` arguments](https://github.com/servo/servo/issues/11505).
+* [easy] [Speed up crypto in Rust by contributing to and using crypto-bench](https://users.rust-lang.org/t/speed-up-crypto-in-rust-by-contributing-to-and-using-crypto-bench/6097).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -57,9 +72,14 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-05-23..2016-05-30
 
-
 ## New Contributors
 
+* cheercroaker
+* Ivan Shapovalov
+* Jamey Sharp
+* M Farkas-Dyck
+* Scott A Carr
+* Zack M. Davis
 
 ## Approved RFCs
 
@@ -77,12 +97,33 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
+* [Implement new methods for checked and wrapping casts for potentially lossy integer conversions](https://github.com/rust-lang/rfcs/pull/1218).
+* [Change thread local variables to only accept async-signal-safe types](https://github.com/rust-lang/rfcs/pull/1379).
+* [Add a initial, minimal form of `impl Trait`](https://github.com/rust-lang/rfcs/pull/1522).
+* [Normalization for long error codes explanations](https://github.com/rust-lang/rfcs/pull/1567).
+* [Standardise stream wrappers like compression, encryption](https://github.com/rust-lang/rfcs/pull/1568).
+* [Add a `lifetime` specifier to `macro_rules!`](https://github.com/rust-lang/rfcs/pull/1590).
+* [Remove the one-type-only restriction on `format_args!` arguments](https://github.com/rust-lang/rfcs/pull/1618).
 
 ## New RFCs
 
+* [Require documentation for all new features](https://github.com/rust-lang/rfcs/pull/1636).
+* [Automatically implement some traits for `!`](https://github.com/rust-lang/rfcs/pull/1637).
+* [Add two new pointer-sized integer types; `uptr` and `iptr`](https://github.com/rust-lang/rfcs/pull/1635).
+* [Add `checked_sub()` already known from various primitive types to the `Duration` struct](https://github.com/rust-lang/rfcs/pull/1640).
+* [Add PTX and AMDGPU targets](https://github.com/rust-lang/rfcs/pull/1641).
 
 # Upcoming Events
 
+* 6/8. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* [6/8. Rust Berlin Meetup](http://www.meetup.com/Rust-Berlin/events/231188250/).
+* [6/8. Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/).
+* [6/9. Columbus Rust Society](http://www.meetup.com/columbus-rs/events/230812780/).
+* [6/13. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
+* [6/14. Eat – Drink – Rust! Downtown Rust Meetup (San Diego)](http://www.meetup.com/San-Diego-Rust/events/231356534/)
+* 6/15. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* [6/15. Rust Los Angeles Monthly Meetup - Hack Night](http://www.meetup.com/Rust-Los-Angeles/events/231587506/).
+* [6/17. Rhein-Main Rust Regulars' Table](http://www.meetup.com/Rust-Rhein-Main/events/231344035/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -100,6 +141,7 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
+*No quote was selected for QotW.*
 
 [Submit your quotes for next week][submit]!
 
