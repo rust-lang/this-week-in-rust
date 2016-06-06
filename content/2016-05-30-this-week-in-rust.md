@@ -129,7 +129,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Remove the one-type-only restriction on `format_args!` arguments](https://github.com/rust-lang/rfcs/pull/1618).
 * [Standardise stream wrappers like compression, encryption](https://github.com/rust-lang/rfcs/pull/1568).
 * [Change thread local variables to only accept async-signal-safe types](https://github.com/rust-lang/rfcs/pull/1379).
-* [IImplement new methods for checked and wrapping casts for potentially lossy integer conversions](https://github.com/rust-lang/rfcs/pull/1218).
+* [Implement new methods for checked and wrapping casts for potentially lossy integer conversions](https://github.com/rust-lang/rfcs/pull/1218).
 * [Normalization for long error codes explanations](https://github.com/rust-lang/rfcs/pull/1567).
 * [Add a `lifetime` specifier to `macro_rules!`](https://github.com/rust-lang/rfcs/pull/1590).
 
