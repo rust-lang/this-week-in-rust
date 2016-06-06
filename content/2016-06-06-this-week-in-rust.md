@@ -28,7 +28,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 # Crate of the Week
 
-*Sadly, there was no suggestion for this week's Crate of the Week.*
+This week's Crate of the Week is [pbr](https://crates.io/crates/pbr), which gives us a simple to set up progress bar for our applications. Thanks to LukasKalbertodt for the suggestion!
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -42,7 +42,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [easy] [rust: Participate in 2016 State of Rust Survey](http://blog.rust-lang.org/2016/05/09/survey.html).
-* [easy] [clippy: Participate in Rust Clippy Survey](https://docs.google.com/forms/d/1k0wuWgGwDhuUL3q_cONGVxQ6PJSYq5JRZOHKc0itLbg/viewform?c=0&w=1).
 * [easy] [rust: Add error explanations for all error codes](https://github.com/rust-lang/rust/issues/32777).
 * [medium] [rustup: Make `rustup default x86_64-unknown-linux-gnu` do something smarter](https://github.com/rust-lang-nursery/rustup.rs/issues/411).
 * [easy] [servo: Implement more `DOMParser::parseFromString` arguments](https://github.com/servo/servo/issues/11505).
@@ -53,10 +52,23 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-90 pull requests were [merged in the last two weeks][merged].
+84 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-05-23..2016-05-30
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-05-30..2016-06-06
 
+* [Avoid deadlock by double-locking `RWLock`/`Mutix`](https://github.com/rust-lang/rust/pull/33861)
+* [Deny unsound projections and speeding up the compiler](https://github.com/rust-lang/rust/pull/33816)
+* [Rust aborts processes on Windows with __fastfail](https://github.com/rust-lang/rust/pull/33814) (instead of invalid instruction, this is a potentially breaking change)
+* [New AST validation pass](https://github.com/rust-lang/rust/pull/33794) to ensure macro expansions obey language rules
+* [MIR Non-zeroing Drop](https://github.com/rust-lang/rust/pull/33622) A journey of three years find a happy conclusion
+* [MIR Don't generate 3-armed boolean switches](https://github.com/rust-lang/rust/pull/33583)
+* [Support 16-bit pointers](https://github.com/rust-lang/rust/pull/33460) for embedded (or oldschool?) systems
+* `def_map` no longer `RefCell`d in [TyCtxt](https://github.com/rust-lang/rust/pull/33977) and [driver::Resolutions](https://github.com/rust-lang/rust/pull/33964)
+* [Btree{Set,Map}::split_off](https://github.com/rust-lang/rust/pull/33947) (RFC #509)
+* [HIR Split Bindings and Paths](https://github.com/rust-lang/rust/pull/33929)
+* [Span of derived attributes fixed](https://github.com/rust-lang/rust/pull/33926)
+* [MIR range overflow checks](https://github.com/rust-lang/rust/pull/33905)
+* [byte slice compare checks for pointer equality](https://github.com/rust-lang/rust/pull/33892) (performance improvement)
 
 ## New Contributors
 
