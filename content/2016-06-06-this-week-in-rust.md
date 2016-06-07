@@ -44,7 +44,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 # Crate of the Week
 
-This week's Crate of the Week is [pbr](https://crates.io/crates/pbr), which gives us a simple to set up progress bar for our applications. Thanks to LukasKalbertodt for the suggestion!
+This week's Crate of the Week is [pbr](https://crates.io/crates/pbr), which gives us a simple way to set up a progress bar for our applications. Thanks to Lukas Kalbertodt for the suggestion!
 
 [Submit your suggestions for next week][submit_crate]!
 
