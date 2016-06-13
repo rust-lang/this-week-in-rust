@@ -22,6 +22,15 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## New Crates & Project Updates
 
+* [Rust Project changelog for2016-06-10](https://users.rust-lang.org/t/rust-project-changelog-for-2016-06-10/6181).
+  Updates to bitflags, libc, nano-config, regex, rustfmt, rust-mode,
+  rustup, rust.vim, sublime-rust, uuid, www.rustbyexample.com,
+  www.rust-lang.org.
+* [error-chain](https://users.rust-lang.org/t/announcing-error-chain-a-library-for-consistent-and-reliable-rust-error-handling/6133),
+  a library for consistent and reliable error handling. Initial release.
+* [rust-skeptic 0.5 released](https://users.rust-lang.org/t/rust-skeptic-test-your-rust-markdown-documentation-via-cargo/2163/2?u=brson).
+  A tool for testing Rust documentation.
+
 # Crate of the Week
 
 This week's Crate of the Week is [pbr](https://crates.io/crates/pbr), which gives us a simple way to set up a progress bar for our applications. Thanks to Lukas Kalbertodt for the suggestion!
