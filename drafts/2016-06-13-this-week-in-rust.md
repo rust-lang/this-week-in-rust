@@ -125,6 +125,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [6/14. Eat – Drink – Rust! Downtown Rust Meetup (San Diego)](http://www.meetup.com/San-Diego-Rust/events/231356534/)
 * 6/15. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * [6/15. Rust Los Angeles Monthly Meetup - Hack Night](http://www.meetup.com/Rust-Los-Angeles/events/231587506/).
+* [6/16. London Rust Meetup](http://www.meetup.com/Rust-London-User-Group/events/231332388/).
 * [6/17. Rhein-Main Rust Regulars' Table](http://www.meetup.com/Rust-Rhein-Main/events/231344035/).
 
 If you are running a Rust event please add it to the [calendar] to get
