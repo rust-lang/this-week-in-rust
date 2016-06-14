@@ -46,6 +46,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42) and [llog
 * [mayda](https://github.com/harharkh/mayda). A Rust library to compress integer arrays.
 * [rust-metrics](https://github.com/posix4e/rust-metrics). Multi reporter metrics library.
 * [process-viewer](https://github.com/GuillaumeGomez/process-viewer). A process viewer GUI in Rust.
+* [strfmt](https://github.com/vitiral/strfmt). Rust library for formatting dynamic strings.
 * [This week in Servo 66](https://blog.servo.org/2016/06/06/twis-66/).
 * [This week in Rust docs 7](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-7).
 * [This week in Ruma 2016-06-05](https://www.ruma.io/news/this-week-in-ruma-2016-06-05/).
