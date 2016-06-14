@@ -22,7 +22,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## New Crates & Project Updates
 
-* [Rust Project changelog for2016-06-10](https://users.rust-lang.org/t/rust-project-changelog-for-2016-06-10/6181).
+* [Rust Project changelog for 2016-06-10](https://users.rust-lang.org/t/rust-project-changelog-for-2016-06-10/6181).
   Updates to bitflags, libc, nano-config, regex, rustfmt, rust-mode,
   rustup, rust.vim, sublime-rust, uuid, www.rustbyexample.com,
   www.rust-lang.org.
