@@ -14,11 +14,24 @@ contributions](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md).
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llogiq](https://github.com/llogiq).
+This week's edition was edited by: [nasa42](https://github.com/nasa42) and [llogiq](https://github.com/llogiq).
 
 # Updates from Rust Community
 
 ## News & Blog Posts
+
+* [Baby steps: Slowly porting musl to Rust](http://blog.adamperry.me/rust/2016/06/11/baby-steps-porting-musl-to-rust/).
+* [Why Rust for Low-level Linux programming](http://groveronline.com/2016/06/why-rust-for-low-level-linux-programming/)?
+* [Lambda crabs (part 1): A mathematical introduction to lifetimes and regions](https://ticki.github.io/blog/lambda_crabs_1/).
+* [Lambda crabs (part 2): Region inference is (not) magic](https://ticki.github.io/blog/lambda_crabs_2/).
+* [Lambda crabs (part 3): Region-based alias analysis](https://ticki.github.io/blog/lambda_crabs_3/).
+* [Interior mutability in Rust: what, why, how](https://ricardomartins.cc/2016/06/08/interior-mutability)?
+* [Heterogeneous linked lists in Rust](http://src.codes/typed-linked-lists.html).
+* [Procedural macros vs. macros](https://llogiq.github.io/2016/06/11/expand.html).
+* [Beware upcoming Dyon v0.8 - It will be awesome](http://blog.piston.rs/2016/06/07/beware-dyon/)! Dyon is a dynamically typed programming language written in Rust.
+* [Sandboxing code in Rust](https://insanitybit.github.io/2016/06/11/sandboxing-code-in-rust).
+* [Recordings & slides from Rust Anniversary – Part II meetup](http://rustaceans.cologne/2016/06/06/rust-anniversary-part-2.html). Featuring [alexcrichton](https://github.com/alexcrichton), [llogiq](https://github.com/llogiq), and [flanfly](https://github.com/flanfly).
+* [Rust out your C](https://github.com/carols10cents/rust-out-your-c-talk). [Carol](https://github.com/carols10cents) talks about her experience in rewriting [Zopfli](https://github.com/google/zopfli) from C to Rust.
 
 ## New Crates & Project Updates
 
@@ -30,6 +43,12 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
   a library for consistent and reliable error handling. Initial release.
 * [rust-skeptic 0.5 released](https://users.rust-lang.org/t/rust-skeptic-test-your-rust-markdown-documentation-via-cargo/2163/2?u=brson).
   A tool for testing Rust documentation.
+* [mayda](https://github.com/harharkh/mayda). A Rust library to compress integer arrays.
+* [rust-metrics](https://github.com/posix4e/rust-metrics). Multi reporter metrics library.
+* [process-viewer](https://github.com/GuillaumeGomez/process-viewer). A process viewer GUI in Rust.
+* [This week in Servo 66](https://blog.servo.org/2016/06/06/twis-66/).
+* [This week in Rust docs 7](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-7).
+* [This week in Ruma 2016-06-05](https://www.ruma.io/news/this-week-in-ruma-2016-06-05/).
 
 # Crate of the Week
 
@@ -46,9 +65,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [rust: Participate in 2016 State of Rust Survey](http://blog.rust-lang.org/2016/05/09/survey.html).
 * [easy] [rust: Add error explanations for all error codes](https://github.com/rust-lang/rust/issues/32777).
-* [easy] [Speed up crypto in Rust by contributing to and using crypto-bench](https://users.rust-lang.org/t/speed-up-crypto-in-rust-by-contributing-to-and-using-crypto-bench/6097).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -76,12 +93,20 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* cheercroaker
-* Ivan Shapovalov
-* Jamey Sharp
-* M Farkas-Dyck
-* Scott A Carr
-* Zack M. Davis
+* Andrew Brinker
+* Chris Tomlinson
+* Hendrik Sollich
+* Horace Abenga
+* Jacob Clark
+* Jakob Demler
+* James Alan Preiss
+* James Lucas
+* Joachim Viide
+* Mark Côté
+* Mathieu De Coster
+* Michael Necio
+* Morten H. Solvang
+* Wojciech Nawrocki
 
 ## Approved RFCs
 
@@ -109,24 +134,22 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Require documentation for all new features](https://github.com/rust-lang/rfcs/pull/1636).
-* [Automatically implement some traits for `!`](https://github.com/rust-lang/rfcs/pull/1637).
-* [Add two new pointer-sized integer types; `uptr` and `iptr`](https://github.com/rust-lang/rfcs/pull/1635).
-* [Add `checked_sub()` already known from various primitive types to the `Duration` struct](https://github.com/rust-lang/rfcs/pull/1640).
-* [Add PTX and AMDGPU targets](https://github.com/rust-lang/rfcs/pull/1641).
+* [Add `CStr::with_ptr` and deprecate `CStr::as_ptr`](https://github.com/rust-lang/rfcs/pull/1642).
+* [Dedicated strike team to resolve unsafe code guidelines](https://github.com/rust-lang/rfcs/pull/1643).
+* [Default and expanded errors for rustc](https://github.com/rust-lang/rfcs/pull/1644).
+* [Add Cortex-M targets to the compiler + binary releases of `core`](https://github.com/rust-lang/rfcs/pull/1645).
+* [Add `&move` pointers, the `DerefMove` trait, and the unsafe `DerefPure` traits](https://github.com/rust-lang/rfcs/pull/1646).
+* [Allow `Self` to appear in the where clause of trait impls](https://github.com/rust-lang/rfcs/pull/1647).
 
 # Upcoming Events
 
-* 6/8. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [6/8. Rust Berlin Meetup](http://www.meetup.com/Rust-Berlin/events/231188250/).
-* [6/8. Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/).
-* [6/9. Columbus Rust Society](http://www.meetup.com/columbus-rs/events/230812780/).
-* [6/13. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
 * [6/14. Eat – Drink – Rust! Downtown Rust Meetup (San Diego)](http://www.meetup.com/San-Diego-Rust/events/231356534/)
 * 6/15. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * [6/15. Rust Los Angeles Monthly Meetup - Hack Night](http://www.meetup.com/Rust-Los-Angeles/events/231587506/).
 * [6/16. London Rust Meetup](http://www.meetup.com/Rust-London-User-Group/events/231332388/).
 * [6/17. Rhein-Main Rust Regulars' Table](http://www.meetup.com/Rust-Rhein-Main/events/231344035/).
+* 6/22. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* 6/23. Rust release triage at #rust-triage on irc.mozilla.org.
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -144,7 +167,13 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+>> Isn’t rust too difficult to be widely adopted?
+
+> I believe in people.
+
+— [Steve Klabnik on TRPLF](https://users.rust-lang.org/t/isnt-rust-too-difficult-to-be-widely-adopted/6173/2)
+
+Thanks to [Steven Allen](https://users.rust-lang.org/users/stebalien) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
