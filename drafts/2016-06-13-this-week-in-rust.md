@@ -33,7 +33,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 # Crate of the Week
 
-This week's Crate of the Week is [pbr](https://crates.io/crates/pbr), which gives us a simple way to set up a progress bar for our applications. Thanks to Lukas Kalbertodt for the suggestion!
+This week's Crate of the Week is [petgraph](https://crates.io/crates/petgraph), which provides graph structures and algorithms. Thanks to [/u/diwic](https://reddit.com/user/diwic) for the suggestion!
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -56,23 +56,23 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-84 pull requests were [merged in the last two weeks][merged].
+110 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-05-30..2016-06-06
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-06-06..2016-06-13
 
-* [Avoid double-locking `RWLock`/`Mutex`](https://github.com/rust-lang/rust/pull/33861)
-* [Deny unsound projections and speeding up the compiler](https://github.com/rust-lang/rust/pull/33816)
-* [Rust aborts processes on Windows with __fastfail](https://github.com/rust-lang/rust/pull/33814) (instead of invalid instruction, this is a potentially breaking change)
-* [New AST validation pass](https://github.com/rust-lang/rust/pull/33794) to ensure macro expansions obey language rules
-* [MIR Non-zeroing Drop](https://github.com/rust-lang/rust/pull/33622) A journey of three years find a happy conclusion
-* [MIR Don't generate 3-armed boolean switches](https://github.com/rust-lang/rust/pull/33583)
-* [Support 16-bit pointers](https://github.com/rust-lang/rust/pull/33460) for embedded (or oldschool?) systems
-* `def_map` no longer `RefCell`d in [TyCtxt](https://github.com/rust-lang/rust/pull/33977) and [driver::Resolutions](https://github.com/rust-lang/rust/pull/33964)
-* [Btree{Set,Map}::split_off](https://github.com/rust-lang/rust/pull/33947) (RFC #509)
-* [HIR Split Bindings and Paths](https://github.com/rust-lang/rust/pull/33929)
-* [Span of derived attributes fixed](https://github.com/rust-lang/rust/pull/33926)
-* [MIR range overflow checks](https://github.com/rust-lang/rust/pull/33905)
-* [byte slice compare checks for pointer equality](https://github.com/rust-lang/rust/pull/33892) (performance improvement)
+* [Implement RFC #495 for slice patterns](https://github.com/rust-lang/rust/pull/32202) ([RFC text](https://github.com/rust-lang/rfcs/blob/master/text/0495-array-pattern-changes.md))
+* [Rust now requires LLVM3.7 or newer](https://github.com/rust-lang/rust/pull/34104) (3.6 was also [removed from wrappers](https://github.com/rust-lang/rust/pull/34178))
+* [Outdated -Z gc and -Z count_type_sizes no longer exist](https://github.com/rust-lang/rust/pull/34124) (potential script-breaking change)
+* [Some MIR edge case fixes](https://github.com/rust-lang/rust/pull/34128)
+* [ABI return casts now always use memcpy](https://github.com/rust-lang/rust/pull/34141) (will be in next beta)
+* [MIR now supports 16-bit pointers](https://github.com/rust-lang/rust/pull/34174)
+* [Visitors now visit Statement and Expression Attributes](https://github.com/rust-lang/rust/pull/34199)
+* [Support `#[macro_use]` on macro-expanded crates](https://github.com/rust-lang/rust/pull/34032)
+* [Skip `#[test]`-annotated elements during non-test build](https://github.com/rust-lang/rust/pull/34002)
+* [MIR no longer double-rounds float consts](https://github.com/rust-lang/rust/pull/34006) (also TIL that NaNs are signed)
+* [Decorators are now run post-expansion](https://github.com/rust-lang/rust/pull/34010)
+* [Old follow checking removed](https://github.com/rust-lang/rust/pull/33982) (So we'll get errors instead of warnings for things like `$($x:expr),* ...` in macros)
+* [MIR scopes are now more similar to the lexical structure](https://github.com/rust-lang/rust/pull/33989)
 
 ## New Contributors
 
