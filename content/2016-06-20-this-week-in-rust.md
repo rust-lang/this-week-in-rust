@@ -45,7 +45,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42) and [llog
 
 # Crate of the Week
 
-This week's Crate of the Week is [petgraph](https://crates.io/crates/petgraph), which provides graph structures and algorithms. Thanks to [/u/diwic](https://reddit.com/user/diwic) for the suggestion!
+This week's Crate of the Week is [error-chain](https://crates.io/crates/error-chain) which feels like the missing piece in Rust's `Result`-based error-handling puzzle. Thanks to [KodrAus](https://users.rust-lang.org/users/KodrAus) for the suggestion.
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -67,23 +67,23 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-110 pull requests were [merged in the last two weeks][merged].
+73 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-06-06..2016-06-13
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-06-13..2016-06-20
 
-* [Implement RFC #495 for slice patterns](https://github.com/rust-lang/rust/pull/32202) ([RFC text](https://github.com/rust-lang/rfcs/blob/master/text/0495-array-pattern-changes.md))
-* [Rust now requires LLVM3.7 or newer](https://github.com/rust-lang/rust/pull/34104) (3.6 was also [removed from wrappers](https://github.com/rust-lang/rust/pull/34178))
-* [Outdated -Z gc and -Z count_type_sizes no longer exist](https://github.com/rust-lang/rust/pull/34124) (potential script-breaking change)
-* [Some MIR edge case fixes](https://github.com/rust-lang/rust/pull/34128)
-* [ABI return casts now always use memcpy](https://github.com/rust-lang/rust/pull/34141) (will be in next beta)
-* [MIR now supports 16-bit pointers](https://github.com/rust-lang/rust/pull/34174)
-* [Visitors now visit Statement and Expression Attributes](https://github.com/rust-lang/rust/pull/34199)
-* [Support `#[macro_use]` on macro-expanded crates](https://github.com/rust-lang/rust/pull/34032)
-* [Skip `#[test]`-annotated elements during non-test build](https://github.com/rust-lang/rust/pull/34002)
-* [MIR no longer double-rounds float consts](https://github.com/rust-lang/rust/pull/34006) (also TIL that NaNs are signed)
-* [Decorators are now run post-expansion](https://github.com/rust-lang/rust/pull/34010)
-* [Old follow checking removed](https://github.com/rust-lang/rust/pull/33982) (So we'll get errors instead of warnings for things like `$($x:expr),* ...` in macros)
-* [MIR scopes are now more similar to the lexical structure](https://github.com/rust-lang/rust/pull/33989)
+* [The pretty-printer will now `try!` again instead of questioning](https://github.com/rust-lang/rust/pull/34312) (since `?` isn't stable, this eases backporting)
+* MIR drop handling got a little easier by [caching in some cases](https://github.com/rust-lang/rust/pull/34307) and [dropping less](https://github.com/rust-lang/rust/pull/34290)
+* [`-Z dump_mir` now writes parent- and promoted MIR to different files](https://github.com/rust-lang/rust/pull/34306)
+* [Creating a file can now `Err(ERROR_FILE_EXISTS)` on Windows, too](https://github.com/rust-lang/rust/pull/34270)
+* [Fixed macro call site spans](https://github.com/rust-lang/rust/pull/33749)
+* [Fixed a macro scoping error introduced last week](https://github.com/rust-lang/rust/pull/34239)
+* [Process `#[cfg..]` attributes in decorator-generated items](https://github.com/rust-lang/rust/pull/34295)
+* [Support nested `#[cfg..]`s](https://github.com/rust-lang/rust/pull/34216)
+* [HIR no longer concerned with identifier hygiene](https://github.com/rust-lang/rust/pull/34207) (lint-breaking change)
+* [Debuginfo now contains absolute file paths](https://github.com/rust-lang/rust/pull/34187)
+* [More helpful errors when mixing up function arguments](https://github.com/rust-lang/rust/pull/34000) (also arbitrary milestone #34000)
+* [Map entries can now remove key or both key and value](https://github.com/rust-lang/rust/pull/33300) (and are still underused IMHO)
+* [Faster `.zip(_)` via specialization](https://github.com/rust-lang/rust/pull/33090)
 
 ## New Contributors
 
