@@ -38,7 +38,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42) and [llog
 * [json-rust](https://github.com/maciejhirsz/json-rust). JSON implementation in Rust.
 * [OxideNES](https://github.com/iamsix/oxidenes). NES emulator written in Rust.
 * [jamal](https://github.com/softprops/jamal). Bi-directional interface for transformations between JSON and YAML.
-* [atarashii_imap](https://github.com/GildedHonour/atarashii_imap). MAP client in Rust.
+* [atarashii_imap](https://github.com/GildedHonour/atarashii_imap). IMAP client in Rust.
 * [This week in Servo 67](https://blog.servo.org/2016/06/13/twis-67/).
 * [This week in Rust docs 8](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-8).
 * [This week in Ruma 2016-06-12](https://www.ruma.io/news/this-week-in-ruma-2016-06-12/).
