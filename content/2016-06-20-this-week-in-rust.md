@@ -20,11 +20,28 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42) and [llog
 
 ## News & Blog Posts
 
-
+* [Writing a simple REST app in Rust](https://gsquire.github.io/static/post/rest-in-rust/).
+* [Paradigms of Rust for the Go developer](https://medium.com/@deckarep/paradigms-of-rust-for-the-go-developer-210f67cd6a29#.6rw2gwmg1).
+* [Using ltrace to debug a memory leak](http://jvns.ca/blog/2016/06/15/using-ltrace-to-debug-a-memory-leak/).
+* [Scheduling timers on OS X with Rust and Kqueue](http://nitschinger.at/Scheduling-Timers-on-OS-X-with-Rust-and-Kqueue/).
+* [Problem in Rust adoption](https://sanxiyn.blogspot.in/2016/06/problem-in-rust-adoption.html).
+* [podcast] [New Rustacean podcast episode 15](http://www.newrustacean.com/show_notes/e015/index.html). `Box`, `String`, `Vec`, `Rc`, and `Arc` have this in common: they're not dumb.
 
 ## New Crates & Project Updates
 
-
+* [cargo-deb](https://github.com/mmstick/cargo-deb). A cargo subcommand that generates Debian packages from information in Cargo.toml.
+* [Habitat](https://github.com/habitat-sh/habitat). Build modern applications with built-in automation.
+* [Ruru](https://github.com/d-unseductable/ruru). Native Ruby extensions written in Rust.
+* [FasterPath](https://github.com/danielpclark/faster_path). Faster Pathname handling for Ruby written in Rust.
+* [Polydraw](https://github.com/polydraw/polydraw). 2D graphics engine written in Rust.
+* [Lia](https://github.com/willcrichton/lia). A High-Level Language for Rust.
+* [json-rust](https://github.com/maciejhirsz/json-rust). JSON implementation in Rust.
+* [OxideNES](https://github.com/iamsix/oxidenes). NES emulator written in Rust.
+* [jamal](https://github.com/softprops/jamal). Bi-directional interface for transformations between JSON and YAML.
+* [atarashii_imap](https://github.com/GildedHonour/atarashii_imap). MAP client in Rust.
+* [This week in Servo 67](https://blog.servo.org/2016/06/13/twis-67/).
+* [This week in Rust docs 8](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-8).
+* [This week in Ruma 2016-06-12](https://www.ruma.io/news/this-week-in-ruma-2016-06-12/).
 
 # Crate of the Week
 
@@ -42,6 +59,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [easy] [rust: Add error explanations for all error codes](https://github.com/rust-lang/rust/issues/32777).
+* [easy] [rust: List all available ABI strings in reference.md](https://github.com/rust-lang/rust/issues/34267).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -69,20 +87,8 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Andrew Brinker
-* Chris Tomlinson
-* Hendrik Sollich
-* Horace Abenga
-* Jacob Clark
-* Jakob Demler
-* James Alan Preiss
-* James Lucas
-* Joachim Viide
-* Mark Côté
-* Mathieu De Coster
-* Michael Necio
-* Morten H. Solvang
-* Wojciech Nawrocki
+* Esteban Küber
+* marudor
 
 ## Approved RFCs
 
@@ -90,7 +96,8 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 1567: Normalization for long error codes explanations](https://github.com/rust-lang/rfcs/pull/1567).
+* [RFC 1590: Add a `lifetime` specifier to `macro_rules!`](https://github.com/rust-lang/rfcs/pull/1590).
 
 ## Final Comment Period
 
@@ -100,32 +107,26 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [Implement new methods for checked and wrapping casts for potentially lossy integer conversions](https://github.com/rust-lang/rfcs/pull/1218).
-* [Change thread local variables to only accept async-signal-safe types](https://github.com/rust-lang/rfcs/pull/1379).
-* [Add a initial, minimal form of `impl Trait`](https://github.com/rust-lang/rfcs/pull/1522).
-* [Normalization for long error codes explanations](https://github.com/rust-lang/rfcs/pull/1567).
-* [Standardise stream wrappers like compression, encryption](https://github.com/rust-lang/rfcs/pull/1568).
-* [Add a `lifetime` specifier to `macro_rules!`](https://github.com/rust-lang/rfcs/pull/1590).
 * [Remove the one-type-only restriction on `format_args!` arguments](https://github.com/rust-lang/rfcs/pull/1618).
+* [Introduce more conventions around documenting Rust projects](https://github.com/rust-lang/rfcs/pull/1574).
+* [Standardise stream wrappers like compression, encryption](https://github.com/rust-lang/rfcs/pull/1568).
+* [Add a initial, minimal form of `impl Trait`](https://github.com/rust-lang/rfcs/pull/1522).
+* [Change thread local variables to only accept async-signal-safe types](https://github.com/rust-lang/rfcs/pull/1379).
+* [Implement new methods for checked and wrapping casts for potentially lossy integer conversions](https://github.com/rust-lang/rfcs/pull/1218).
 
 ## New RFCs
 
-* [Add `CStr::with_ptr` and deprecate `CStr::as_ptr`](https://github.com/rust-lang/rfcs/pull/1642).
-* [Dedicated strike team to resolve unsafe code guidelines](https://github.com/rust-lang/rfcs/pull/1643).
-* [Default and expanded errors for rustc](https://github.com/rust-lang/rfcs/pull/1644).
-* [Add Cortex-M targets to the compiler + binary releases of `core`](https://github.com/rust-lang/rfcs/pull/1645).
-* [Add `&move` pointers, the `DerefMove` trait, and the unsafe `DerefPure` traits](https://github.com/rust-lang/rfcs/pull/1646).
-* [Allow `Self` to appear in the where clause of trait impls](https://github.com/rust-lang/rfcs/pull/1647).
+* [Add extra access methods for atomic types](https://github.com/rust-lang/rfcs/pull/1649).
+* [Add the ability to define closures that are generic over types](https://github.com/rust-lang/rfcs/pull/1650).
+* [Extend `Cell` to work with non-`Copy` types](https://github.com/rust-lang/rfcs/pull/1651).
+* [Add `assert_ne` to compliment `assert_eq`](https://github.com/rust-lang/rfcs/pull/1653).
 
 # Upcoming Events
 
-* [6/14. Eat – Drink – Rust! Downtown Rust Meetup (San Diego)](http://www.meetup.com/San-Diego-Rust/events/231356534/)
-* 6/15. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [6/15. Rust Los Angeles Monthly Meetup - Hack Night](http://www.meetup.com/Rust-Los-Angeles/events/231587506/).
-* [6/16. London Rust Meetup](http://www.meetup.com/Rust-London-User-Group/events/231332388/).
-* [6/17. Rhein-Main Rust Regulars' Table](http://www.meetup.com/Rust-Rhein-Main/events/231344035/).
 * 6/22. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * 6/23. Rust release triage at #rust-triage on irc.mozilla.org.
+* 6/29. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* [6/30. Zurich, Switzerland - Introduction to Rust](http://www.meetup.com/Mozilla-Meetup-Switzerland/events/231268531/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -143,13 +144,11 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
->> Isn’t rust too difficult to be widely adopted?
+> The Rust standard libs aren't quite batteries included, but they come with a pile of adaptor cables and an optional chemistry lab.
 
-> I believe in people.
+— [Gankro on Twitter](https://twitter.com/Gankro/status/743425058652196865)
 
-— [Steve Klabnik on TRPLF](https://users.rust-lang.org/t/isnt-rust-too-difficult-to-be-widely-adopted/6173/2)
-
-Thanks to [Steven Allen](https://users.rust-lang.org/users/stebalien) for the suggestion.
+Thanks to [llogiq](https://users.rust-lang.org/users/llogiq) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
