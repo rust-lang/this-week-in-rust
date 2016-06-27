@@ -29,6 +29,8 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42) and [llog
 * [play.rust-lang.org was rewritten in Rust](https://github.com/rust-lang/rust-playpen/pull/187).
 * [Rust Project changelog for 2016-06-24](https://users.rust-lang.org/t/rust-project-changelog-for-2016-06-24/6323).
   New releases of net2, rustup, rust.vim, improvements to the websites.
+* The Dyon scripting language [improved its parser](https://github.com/PistonDevelopers/dyon/pull/311),
+  [has closures](https://github.com/PistonDevelopers/dyon/pull/313) and [grab expressions](https://github.com/PistonDevelopers/dyon/pull/318).
 
 # Crate of the Week
 
