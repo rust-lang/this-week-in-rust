@@ -22,6 +22,16 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42) and [llog
 
 ## New Crates & Project Updates
 
+* [rustup 0.2 released](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/137?u=brson).
+  This release includes the ability to set the toolchains' default
+  host, and the experimental reintroduction of hyper with TLS and
+  proxy support.
+* [play.rust-lang.org was rewritten in Rust](https://github.com/rust-lang/rust-playpen/pull/187).
+* [Rust Project changelog for 2016-06-24](https://users.rust-lang.org/t/rust-project-changelog-for-2016-06-24/6323).
+  New releases of net2, rustup, rust.vim, improvements to the websites.
+* The Dyon scripting language [improved its parser](https://github.com/PistonDevelopers/dyon/pull/311),
+  [has closures](https://github.com/PistonDevelopers/dyon/pull/313) and [grab expressions](https://github.com/PistonDevelopers/dyon/pull/318).
+
 # Crate of the Week
 
 This week's Crate of the Week is [error-chain](https://crates.io/crates/error-chain) which feels like the missing piece in Rust's `Result`-based error-handling puzzle. Thanks to [KodrAus](https://users.rust-lang.org/users/KodrAus) for the suggestion.
@@ -39,6 +49,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [easy] [rust: Add error explanations for all error codes](https://github.com/rust-lang/rust/issues/32777).
 * [easy] [rust: List all available ABI strings in reference.md](https://github.com/rust-lang/rust/issues/34267).
+* [easy] [rust: Expose the discriminant_value intrinsic](https://github.com/rust-lang/rust/issues/24263#issuecomment-228217702).
+* [easy] [rustup: "target list" shows unavailable toolchains](https://github.com/rust-lang-nursery/rustup.rs/issues/299#issuecomment-228215543).
+* [easy] [rustup: `rustup update` help is somewhat inaccurate](https://github.com/rust-lang-nursery/rustup.rs/issues/528#issuecomment-228216395).
+* [easy] [rustup: Add `rustup man`](https://github.com/rust-lang-nursery/rustup.rs/issues/490#issuecomment-228220481).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -105,6 +119,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * 6/22. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * 6/23. Rust release triage at #rust-triage on irc.mozilla.org.
 * 6/29. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* 6/29. [Rust Dublin - Error handling in Rust](http://www.meetup.com/Rust-Dublin/events/232035542/).
 * [6/30. Zurich, Switzerland - Introduction to Rust](http://www.meetup.com/Mozilla-Meetup-Switzerland/events/231268531/).
 
 If you are running a Rust event please add it to the [calendar] to get
