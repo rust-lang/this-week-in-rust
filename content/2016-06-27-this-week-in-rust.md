@@ -82,7 +82,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 * [`CharRange` is gone, `pthread_t` is stable](https://github.com/rust-lang/rust/pull/34399)
 * [Macros are hygienic again (beta/nightly)](https://github.com/rust-lang/rust/pull/34374)
-* [`thread::sleep(_)` can now sleep *really* long](https://github.com/rust-lang/rust/pull/34363) (Sleeping Beauty has nothing on us, folks :smile:)
+* [`thread::sleep(_)` can now sleep *really* long](https://github.com/rust-lang/rust/pull/34363) (Sleeping Beauty has nothing on us, folks 😴)
 * [`MultiItemModifier` may now return zero or more items](https://github.com/rust-lang/rust/pull/34253)
 * [`thread_local!(..)` accepts multiple bindings](https://github.com/rust-lang/rust/pull/34077)
 * [`assert_eq!(..)` now accepts an optional custom error message](https://github.com/rust-lang/rust/pull/33976)
