@@ -48,6 +48,8 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [llogiq]
 * [This week in Servo 69](https://blog.servo.org/2016/06/27/twis-69/).
 * [This week in Rust docs 9](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-9).
 * [This week in Rust docs 10](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-10).
+* [This week in Ruma, 2016-06-19](https://www.ruma.io/news/this-week-in-ruma-2016-06-19/).
+* [This week in Ruma, 2016-06-26](https://www.ruma.io/news/this-week-in-ruma-2016-06-26/).
 
 # Crate of the Week
 
