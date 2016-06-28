@@ -34,7 +34,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42) and [llog
 
 # Crate of the Week
 
-This week's Crate of the Week is [error-chain](https://crates.io/crates/error-chain) which feels like the missing piece in Rust's `Result`-based error-handling puzzle. Thanks to [KodrAus](https://users.rust-lang.org/users/KodrAus) for the suggestion.
+User [jkcclemens](https://users.rust-lang.org/users/jkcclemens) suggested his own [bins](https://crates.io/crates/bins) crate that lets us programmatically create pastebins and is now our Crate of the Week! Thanks, jkcclemens!
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -60,23 +60,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-73 pull requests were [merged in the last two weeks][merged].
+76 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-06-13..2016-06-20
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-06-20..2016-06-27
 
-* [The pretty-printer will now `try!` again instead of questioning](https://github.com/rust-lang/rust/pull/34312) (since `?` isn't stable, this eases backporting)
-* MIR drop handling got a little easier by [caching in some cases](https://github.com/rust-lang/rust/pull/34307) and [dropping less](https://github.com/rust-lang/rust/pull/34290)
-* [`-Z dump_mir` now writes parent- and promoted MIR to different files](https://github.com/rust-lang/rust/pull/34306)
-* [Creating a file can now `Err(ERROR_FILE_EXISTS)` on Windows, too](https://github.com/rust-lang/rust/pull/34270)
-* [Fixed macro call site spans](https://github.com/rust-lang/rust/pull/33749)
-* [Fixed a macro scoping error introduced last week](https://github.com/rust-lang/rust/pull/34239)
-* [Process `#[cfg..]` attributes in decorator-generated items](https://github.com/rust-lang/rust/pull/34295)
-* [Support nested `#[cfg..]`s](https://github.com/rust-lang/rust/pull/34216)
-* [HIR no longer concerned with identifier hygiene](https://github.com/rust-lang/rust/pull/34207) (lint-breaking change)
-* [Debuginfo now contains absolute file paths](https://github.com/rust-lang/rust/pull/34187)
-* [More helpful errors when mixing up function arguments](https://github.com/rust-lang/rust/pull/34000) (also arbitrary milestone #34000)
-* [Map entries can now remove key or both key and value](https://github.com/rust-lang/rust/pull/33300) (and are still underused IMHO)
-* [Faster `.zip(_)` via specialization](https://github.com/rust-lang/rust/pull/33090)
+* [`CharRange` is gone, `pthread_t` is stable](https://github.com/rust-lang/rust/pull/34399)
+* [Macros are hygienic again (beta/nightly)](https://github.com/rust-lang/rust/pull/34374)
+* [`thread::sleep(_)` can now sleep *really* long](https://github.com/rust-lang/rust/pull/34363) (Sleeping Beauty has nothing on us, folks :smile:)
+* [`MultiItemModifier` may now return zero or more items](https://github.com/rust-lang/rust/pull/34253)
+* [`thread_local!(..)` accepts multiple bindings](https://github.com/rust-lang/rust/pull/34077)
+* [`assert_eq!(..)` now accepts an optional custom error message](https://github.com/rust-lang/rust/pull/33976)
+* [no more `return_address` intrinsic](https://github.com/rust-lang/rust/pull/34491) (possibly breaking change, though crater is happy)
+* [The playground backend is now written in Rust](https://github.com/rust-lang/rust-playpen/pull/187) (it actually was a python script before, yay for dogfooding!)
 
 ## New Contributors
 
