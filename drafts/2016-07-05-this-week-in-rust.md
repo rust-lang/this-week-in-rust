@@ -16,6 +16,28 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 This week's edition was edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [brson](https://github.com/brson).
 
+# Friend of the Tree
+
+[The Rust Team](http://www.rust-lang.org/team.html) likes to
+occasionally recognize people who have made
+outstanding contributions to The Rust Project, its ecosystem, and its
+community. These people are 'friends of the tree'.
+
+This week's friend of the tree is Adam Perry, AKA [@dikaiosune].
+dikaiosune gives a sterling example of how to make an impact as a new
+contributor. In just a short time he has identified an area where
+we're lacking - project metrics - and has started cranking out
+solutions. His project dashboard, [rusty-dash.com], already shows
+pages of useful information. Check out the new [hot issues list] that
+shows those issues across the entire project that have been most
+commented in the last fortnight. Isn't that cool? Give dikaiosune his
+props (or make feature requests ;) on [internals.rlo].
+
+[dikaiosune]: https://github.com/dikaiosune
+[rusty-dash.com]: http://rusty-dash.com/
+[hot issues list]: http://rusty-dash.com/hot-issues
+[internals.rlro]: https://internals.rust-lang.org/t/the-rust-project-needs-much-better-visibility-into-important-metrics/3367
+
 # Updates from Rust Community
 
 ## News & Blog Posts
@@ -37,11 +59,16 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [rust: List all available ABI strings in reference.md](https://github.com/rust-lang/rust/issues/34267).
-* [easy] [rust: Expose the discriminant_value intrinsic](https://github.com/rust-lang/rust/issues/24263#issuecomment-228217702).
-* [easy] [rustup: "target list" shows unavailable toolchains](https://github.com/rust-lang-nursery/rustup.rs/issues/299#issuecomment-228215543).
-* [easy] [rustup: `rustup update` help is somewhat inaccurate](https://github.com/rust-lang-nursery/rustup.rs/issues/528#issuecomment-228216395).
-* [easy] [rustup: Add `rustup man`](https://github.com/rust-lang-nursery/rustup.rs/issues/490#issuecomment-228220481).
+* [easy] [rust: Make `-O` and `-C opt-level` override each other](https://github.com/rust-lang/rust/issues/7493#issuecomment-228892615).
+* [easy] [rust: Fix error about multiple `--emit` targets](https://github.com/rust-lang/rust/issues/20130#issuecomment-228900232).
+* [easy] [rust: Move some tests into run-pass-valgrind](https://github.com/rust-lang/rust/issues/21696).
+* [moderate] [rust: Convert compiler-rt builtins to a Rust crate](https://github.com/rust-lang/rust/issues/34400#issuecomment-230059689).
+* [moderate] [rust: Teach rustc to print CPU, etc. features](https://github.com/rust-lang/rust/issues/30961#issuecomment-228905399).
+* [easy] [rustfmt: Overlong function signatures](https://github.com/rust-lang-nursery/rustfmt/issues/1049).
+* [easy] [rustfmt: Overlong impl signatures](https://github.com/rust-lang-nursery/rustfmt/issues/1048).
+* [easy] [rust-by-example: Add a Mutex chapter](https://github.com/rust-lang/rust-by-example/issues/105).
+* [easy] [rust-by-exapmle: Add an Arc chapter](https://github.com/rust-lang/rust-by-example/issues/104).
+* [easy] [rustup: Print new rustup version during `self update`](https://github.com/rust-lang-nursery/rustup.rs/issues/542).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -122,7 +149,7 @@ Anderson][brson] for access.
 
 # fn work(on: RustProject) -> Money
 
-*No jobs listed for this week.*
+* [Rust developer at The Blackbird](https://rust.jobboard.io/jobs/394482-rust-developer-at-the-blackbird).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
