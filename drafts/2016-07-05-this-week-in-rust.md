@@ -26,7 +26,8 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [llogiq]
 
 # Crate of the Week
 
-User [jkcclemens](https://users.rust-lang.org/users/jkcclemens) suggested his own [bins](https://crates.io/crates/bins) crate that lets us programmatically create pastebins and is now our Crate of the Week! Thanks, jkcclemens!
+This week's Crate of the Week is Kerosene2000's [reustmann](https://crates.io/crates/reustmann) a Von-Neumann Architecture written in Rust.
+This is presumably useful as a base substrate to train genetic algorithms on. Thanks, Kerosene2000!
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -51,18 +52,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-76 pull requests were [merged in the last two weeks][merged].
+103 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-06-20..2016-06-27
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-06-27..2016-07-04
 
-* [`CharRange` is gone, `pthread_t` is stable](https://github.com/rust-lang/rust/pull/34399)
-* [Macros are hygienic again (beta/nightly)](https://github.com/rust-lang/rust/pull/34374)
-* [`thread::sleep(_)` can now sleep *really* long](https://github.com/rust-lang/rust/pull/34363) (Sleeping Beauty has nothing on us, folks :smile:)
-* [`MultiItemModifier` may now return zero or more items](https://github.com/rust-lang/rust/pull/34253)
-* [`thread_local!(..)` accepts multiple bindings](https://github.com/rust-lang/rust/pull/34077)
-* [`assert_eq!(..)` now accepts an optional custom error message](https://github.com/rust-lang/rust/pull/33976)
-* [no more `return_address` intrinsic](https://github.com/rust-lang/rust/pull/34491) (possibly breaking change, though crater is happy)
-* [The playground backend is now written in Rust](https://github.com/rust-lang/rust-playpen/pull/187) (it actually was a python script before, yay for dogfooding!)
+* [Release Notes for 1.10](https://github.com/rust-lang/rust/pull/34591) (if you want to know early)
+* [Beta is now more lenient with regards to Clang version](https://github.com/rust-lang/rust/pull/34589)
+* [MultiDecorators are now a special case of MultiModifiers](https://github.com/rust-lang/rust/pull/34446)
+  (also [some](https://github.com/rust-lang/rust/pull/33943) [cleanup](https://github.com/rust-lang/rust/pull/34459))
+* [Methods that require `Self: Sized` are no longer in the vtable](https://github.com/rust-lang/rust/pull/34419) (breaking change, also on beta)
+* [There can be only one...`Path`](https://github.com/rust-lang/rust/pull/34368) (plugin-breaking)
+* [Paren-expressions now share their child node's IDs](https://github.com/rust-lang/rust/pull/34355) (simplifies lookup)
+* [`ThinAttributes` are now a `ThinVec&lt;Attributes&gt;`](https://github.com/rust-lang/rust/pull/34339) (plugin-breaking)
+* [`Cow`s by `Default` now own their target type's `Default`](https://github.com/rust-lang/rust/pull/34305)
+* [Trait items can now be macro-expanded](https://github.com/rust-lang/rust/pull/34213)
+* [MIR: Dominators (control flow graph)](https://github.com/rust-lang/rust/pull/34169)
+* [Looking up hosts is now more picky about addresses](https://github.com/rust-lang/rust/pull/34067)
+* [`HashMap`s now use SipHash-1-3 hasher by default](https://github.com/rust-lang/rust/pull/33940)
+* [obligation errors now transitive](https://github.com/rust-lang/rust/pull/34605) (fix some memory leaks)
+* [More robust metadata lock](https://github.com/rust-lang/rust/pull/34604) (also in beta)
 
 ## New Contributors
 
