@@ -22,6 +22,8 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [llogiq]
 
 ## New Crates & Project Updates
 
+* [S.U.P.E.R. Android Analyzer](https://github.com/Razican/super). An Android applications vulnerability analyzer written in Rust.
+
 # Crate of the Week
 
 User [jkcclemens](https://users.rust-lang.org/users/jkcclemens) suggested his own [bins](https://crates.io/crates/bins) crate that lets us programmatically create pastebins and is now our Crate of the Week! Thanks, jkcclemens!
