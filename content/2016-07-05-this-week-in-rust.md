@@ -88,7 +88,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [Methods that require `Self: Sized` are no longer in the vtable](https://github.com/rust-lang/rust/pull/34419) (breaking change, also on beta)
 * [There can be only one...`Path`](https://github.com/rust-lang/rust/pull/34368) (plugin-breaking)
 * [Paren-expressions now share their child node's IDs](https://github.com/rust-lang/rust/pull/34355) (simplifies lookup)
-* [`ThinAttributes` are now a `ThinVec&lt;Attributes&gt;`](https://github.com/rust-lang/rust/pull/34339) (plugin-breaking)
+* [`ThinAttributes` are now a `ThinVec<Attributes>`](https://github.com/rust-lang/rust/pull/34339) (plugin-breaking)
 * [`Cow`s by `Default` now own their target type's `Default`](https://github.com/rust-lang/rust/pull/34305)
 * [Trait items can now be macro-expanded](https://github.com/rust-lang/rust/pull/34213)
 * [MIR: Dominators (control flow graph)](https://github.com/rust-lang/rust/pull/34169)
