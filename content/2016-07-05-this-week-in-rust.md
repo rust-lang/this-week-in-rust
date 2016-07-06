@@ -25,7 +25,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [llogiq]
 * [A toy front-end for LLVM, written in Rust](http://blog.ulysse.io/2016/07/03/llvm-getting-started.html).
 * [First steps in Rust](https://floooh.github.io/2016/06/27/first-steps-in-rust.html). Early impressions of Rust from the perspective of a C, C++ and Python coder.
 * [Why your first FizzBuzz implementation may not work](https://chrismorgan.info/blog/rust-fizzbuzz.html). An exploration into some initially surprising but great parts of Rust.
-* [Attention! Span](https://llogiq.github.io/2016/06/28/span.html).
+* [Attention! Span](https://llogiq.github.io/2016/06/28/span.html). Llogiq on `syntax::codemap::Span`, Rust's interface between macros and lints.
 * [Implementing an IMAP client in Rust](https://insanitybit.github.io/2016/06/28/implementing-an-imap-client-in-rust).
 * [podcast] [New Rustacean interview](http://www.newrustacean.com/show_notes/interview/_2/part_2/). Raph Levien on Rust's current strengths and places it can improve.
 * [video] [Shar Bringer](https://www.youtube.com/watch?v=40DGf1eKb_Y). Demo of a video game written entirely in Rust. ([Discussion thread](https://www.reddit.com/r/rust_gamedev/comments/4qlftu/look_our_game_writen_entirely_in_rust/)).
@@ -39,6 +39,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [llogiq]
 * [Rust on Tessel](https://github.com/tessel/tessel-rust). Example of using Rust development on Tessel 2.
 * [S.U.P.E.R. Android Analyzer](https://github.com/Razican/super). An Android applications vulnerability analyzer written in Rust.
 * [Takkerus](https://github.com/cdbfoster/takkerus). A Tak AI and board in the Rust language.
+* [envy](https://github.com/softprops/envy). Deserialize env vars into typesafe structs.
 * [This week in Rust docs 11](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-11).
 * [This week in Ruma - July 03, 2016](https://www.ruma.io/news/this-week-in-ruma-2016-07-03/).
 * [What’s coming up in imag (10)](http://beyermatthias.de/blog/2016/06/30/what-s-coming-up-in-imag-10/).
@@ -98,14 +99,17 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Alexander Stocko
-* cgswords
-* Fabian Vogt
-* Joseph Dunne
-* Mitsunori Komatsu
-* Nathan Moos
-* Nikhil Shagrithaya
-* Paul Jarrett
+* Aaronepower
+* Alexander Merritt
+* CensoredUsername
+* gnzlbg
+* Jonathan L
+* Jonathan Price
+* Jupp Müller
+* Peter Landoll
+* Tatsuya Kawano
+* Will Crichton
+* 吴冉波
 
 ## Approved RFCs
 
@@ -113,8 +117,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1618: Remove the one-type-only restriction on `format_args!` arguments](https://github.com/rust-lang/rfcs/pull/1618).
-* [RFC 1522: Add a initial, minimal form of `impl Trait`](https://github.com/rust-lang/rfcs/pull/1522).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -124,27 +127,33 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [Refine the unguarded-escape-hatch from RFC 1238 (nonparametric dropck)](https://github.com/rust-lang/rfcs/pull/1327).
-* [Introduce more conventions around documenting Rust projects](https://github.com/rust-lang/rfcs/pull/1574).
+* [Default and expanded errors for rustc](https://github.com/rust-lang/rfcs/pull/1644).
 * [RFC process for formatting style and Rustfmt defaults](https://github.com/rust-lang/rfcs/pull/1607).
+* [Introduce more conventions around documenting Rust projects](https://github.com/rust-lang/rfcs/pull/1574).
+* [Add space-friendly arguments](https://github.com/rust-lang/rfcs/pull/1509). Add `-C link-arg` and `-C llvm-arg` which allow you to pass along argument with spaces.
+* [Add a used attribute to prevent symbols from being discarded](https://github.com/rust-lang/rfcs/pull/1459).
+* [Refine the unguarded-escape-hatch from RFC 1238 (nonparametric dropck)](https://github.com/rust-lang/rfcs/pull/1327).
 
 ## New RFCs
 
-* [Const-dependent type system (also known as, Π-types and value-types)](https://github.com/rust-lang/rfcs/pull/1657).
-* [Revisiting specialization: Complementary traits](https://github.com/rust-lang/rfcs/pull/1658).
-* [Introduce a new type `MoveCell<T>` in `std::cell`](https://github.com/rust-lang/rfcs/pull/1659).
-* [Introduce non-panicking borrow methods on `RefCell<T>`](https://github.com/rust-lang/rfcs/pull/1660).
-* [Allow `::/` as a prefix in documentation links to indicate a module-relative link](https://github.com/rust-lang/rfcs/pull/1661).
+* [Propose asserts](https://github.com/rust-lang/rfcs/pull/1662). This rfc proposes that the following macros be added: `assert_gt`, `assert_lt`, `assert_ge`, and `assert_le`.
+* [Clarify behaviour when writing to a union field that implements Drop](https://github.com/rust-lang/rfcs/pull/1663).
+* [Windows subsystem support](https://github.com/rust-lang/rfcs/pull/1665).
+* [Extend the `Hasher` trait with `fn delimit` to support one-shot hashing](https://github.com/rust-lang/rfcs/pull/1666).
 
 # Upcoming Events
 
-* 6/29. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* 6/29. [Rust Dublin - Error handling in Rust](http://www.meetup.com/Rust-Dublin/events/232035542/).
-* [6/29. Rust Hack and Learn](http://www.meetup.com/opentechschool-berlin/events/231600336/).
-* [6/30. Zurich, Switzerland - Introduction to Rust](http://www.meetup.com/Mozilla-Meetup-Switzerland/events/231268531/).
 * 7/6. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* [7/6. Rust Cologne/Bonn: Open Night](http://www.meetup.com/Rust-Cologne-Bonn/events/232274957/).
+* [7/6. Symfony User Group Cologne - Rust für PHP Entwickler](http://www.meetup.com/sfugcgn/events/232051942/?eventId=232051942).
 * [7/7. Rust DC: Ownership and Borrowing](http://www.meetup.com/RustDC/events/231562147/).
 * [7/11. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
+* [7/12. (San Diego) Eat– Drink– Rust! Downtown Rust Meetup](http://www.meetup.com/San-Diego-Rust/events/232039818/).
+* 7/13. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* [7/13. Rust Boulder/Denver - Hello, Rust!](http://www.meetup.com/Rust-Boulder-Denver/events/232328647/).
+* 7/14. Rust release triage at #rust-triage on irc.mozilla.org.
+* [7/14. Columbus Rust Society: Monthly Meeting](http://www.meetup.com/columbus-rs/events/231678481/).
+* [7/18. Rust Paris Meetup #30](http://www.meetup.com/Rust-Paris/events/230111506/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -157,15 +166,13 @@ Anderson][brson] for access.
 # fn work(on: RustProject) -> Money
 
 * [Rust developer at The Blackbird](https://rust.jobboard.io/jobs/394482-rust-developer-at-the-blackbird).
+* [Engineering positions at Zcash mention Rust](https://z.cash/blog/hiring.html).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> <ketralnis\> Rust is also really phobic of heap allocations […]
-> <Xion\> Yes, Rust encourages everyone to be a full stack developer :)
-
-Thanks to [Matt Brubeck](https://users.rust-lang.org/users/mbrubeck) for the suggestion.
+*No quote was selected for QotW.*
 
 [Submit your quotes for next week][submit]!
 
