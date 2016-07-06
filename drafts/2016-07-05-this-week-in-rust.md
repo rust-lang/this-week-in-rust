@@ -20,9 +20,28 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [llogiq]
 
 ## News & Blog Posts
 
+* [State of Rust survey 2016](http://blog.rust-lang.org/2016/06/30/State-of-Rust-Survey-2016.html).
+* [rust-brotli: Lossless compression with Brotli in Rust](https://blogs.dropbox.com/tech/2016/06/lossless-compression-with-brotli/).
+* [A toy front-end for LLVM, written in Rust](http://blog.ulysse.io/2016/07/03/llvm-getting-started.html).
+* [First steps in Rust](https://floooh.github.io/2016/06/27/first-steps-in-rust.html). Early impressions of Rust from the perspective of a C, C++ and Python coder.
+* [Why your first FizzBuzz implementation may not work](https://chrismorgan.info/blog/rust-fizzbuzz.html). An exploration into some initially surprising but great parts of Rust.
+* [Attention! Span](https://llogiq.github.io/2016/06/28/span.html).
+* [Implementing an IMAP client in Rust](https://insanitybit.github.io/2016/06/28/implementing-an-imap-client-in-rust).
+* [podcast] [New Rustacean interview](http://www.newrustacean.com/show_notes/interview/_2/part_2/). Raph Levien on Rust's current strengths and places it can improve.
+* [video] [Shar Bringer](https://www.youtube.com/watch?v=40DGf1eKb_Y). Demo of a video game written entirely in Rust. ([Discussion thread](https://www.reddit.com/r/rust_gamedev/comments/4qlftu/look_our_game_writen_entirely_in_rust/)).
+
 ## New Crates & Project Updates
 
+* [Servo nightly builds are now available](https://blog.servo.org/2016/06/30/servo-nightlies/).
+* [clap-rs can now generate Bash tab-completion scripts at compile time](https://kbknapp.github.io/clap-rs/clap/struct.App.html#method.gen_completions)
+* [Thrussh](https://pijul.org/thrussh/). Portable SSH client and server library.
+* [Rust Playground Reimplementation](https://github.com/integer32llc/rust-playground). An alternate implementation of the Rust Playground.
+* [Rust on Tessel](https://github.com/tessel/tessel-rust). Example of using Rust development on Tessel 2.
 * [S.U.P.E.R. Android Analyzer](https://github.com/Razican/super). An Android applications vulnerability analyzer written in Rust.
+* [Takkerus](https://github.com/cdbfoster/takkerus). A Tak AI and board in the Rust language.
+* [This week in Rust docs 11](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-11).
+* [This week in Ruma - July 03, 2016](https://www.ruma.io/news/this-week-in-ruma-2016-07-03/).
+* [What’s coming up in imag (10)](http://beyermatthias.de/blog/2016/06/30/what-s-coming-up-in-imag-10/).
 
 # Crate of the Week
 
