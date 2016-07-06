@@ -24,7 +24,6 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [llogiq]
 * [rust-brotli: Lossless compression with Brotli in Rust](https://blogs.dropbox.com/tech/2016/06/lossless-compression-with-brotli/).
 * [A toy front-end for LLVM, written in Rust](http://blog.ulysse.io/2016/07/03/llvm-getting-started.html).
 * [First steps in Rust](https://floooh.github.io/2016/06/27/first-steps-in-rust.html). Early impressions of Rust from the perspective of a C, C++ and Python coder.
-* [Why your first FizzBuzz implementation may not work](https://chrismorgan.info/blog/rust-fizzbuzz.html). An exploration into some initially surprising but great parts of Rust.
 * [Attention! Span](https://llogiq.github.io/2016/06/28/span.html). Llogiq on `syntax::codemap::Span`, Rust's interface between macros and lints.
 * [Implementing an IMAP client in Rust](https://insanitybit.github.io/2016/06/28/implementing-an-imap-client-in-rust).
 * [podcast] [New Rustacean interview](http://www.newrustacean.com/show_notes/interview/_2/part_2/). Raph Levien on Rust's current strengths and places it can improve.
