@@ -22,6 +22,10 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [llogiq]
 
 ## New Crates & Project Updates
 
+* [task-hookrs](https://github.com/matthiasbeyer/task-hookrs) was released in
+  version 0.2.0 on [crates.io](https://crates.io/crates/task_hookrs)
+  ([blog article](http://beyermatthias.de/blog/2016/07/07/task-hookrs-v0-2-0/))
+
 # Crate of the Week
 
 This week's Crate of the Week is Kerosene2000's [reustmann](https://crates.io/crates/reustmann) a Von-Neumann Architecture written in Rust.
