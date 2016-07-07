@@ -52,6 +52,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [easy] [rust-by-example: Add a Mutex chapter](https://github.com/rust-lang/rust-by-example/issues/105).
 * [easy] [rust-by-exapmle: Add an Arc chapter](https://github.com/rust-lang/rust-by-example/issues/104).
 * [easy] [rustup: Print new rustup version during `self update`](https://github.com/rust-lang-nursery/rustup.rs/issues/542).
+* [easy] [imag: Make `imag` forward `--debug` and `--verbose` to subcommands](https://github.com/matthiasbeyer/imag/issues/506).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
