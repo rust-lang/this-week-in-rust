@@ -38,8 +38,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [rust: Make `-O` and `-C opt-level` override each other](https://github.com/rust-lang/rust/issues/7493#issuecomment-228892615).
-* [easy] [rust: Fix error about multiple `--emit` targets](https://github.com/rust-lang/rust/issues/20130#issuecomment-228900232).
+* [easy] [cargo: Warn on duplicate entry points for libs and bins](https://github.com/rust-lang/cargo/issues/2800).
+* [easy] [cargo: Can't specify precise crate version if there are multiple versions](https://github.com/rust-lang/cargo/issues/2773).
+* [easy] [cargo: Add `--dry-run` to `cargo publish`](https://github.com/rust-lang/cargo/issues/1332).
+* [easy] [rust: E0502 not rendered correctly](https://github.com/rust-lang/rust/issues/34716).
 * [easy] [rust: Move some tests into run-pass-valgrind](https://github.com/rust-lang/rust/issues/21696).
 * [moderate] [rust: Convert compiler-rt builtins to a Rust crate](https://github.com/rust-lang/rust/issues/34400#issuecomment-230059689).
 * [moderate] [rust: Teach rustc to print CPU, etc. features](https://github.com/rust-lang/rust/issues/30961#issuecomment-228905399).
@@ -47,7 +49,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [easy] [rustfmt: Overlong impl signatures](https://github.com/rust-lang-nursery/rustfmt/issues/1048).
 * [easy] [rust-by-example: Add a Mutex chapter](https://github.com/rust-lang/rust-by-example/issues/105).
 * [easy] [rust-by-exapmle: Add an Arc chapter](https://github.com/rust-lang/rust-by-example/issues/104).
-* [easy] [rustup: Print new rustup version during `self update`](https://github.com/rust-lang-nursery/rustup.rs/issues/542).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
