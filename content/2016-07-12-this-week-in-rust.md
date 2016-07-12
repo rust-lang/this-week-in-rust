@@ -35,6 +35,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [llogiq]
 * [Corrode](https://github.com/jameysharp/corrode). Automatic semantics-preserving translation from C to Rust.
 * [Rustls](https://github.com/ctz/rustls). A new, modern TLS library written in Rust.
 * [rulinalg](https://github.com/AtheMathmo/rulinalg). A linear algebra library in Rust designed for machine learning, extracted from [rusty-machine](https://github.com/AtheMathmo/rusty-machine).
+* [jsf](https://github.com/flosse/rust-json-file-store/). A simple JSON file store.
 * [This week in Rust docs 12](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-12).
 
 # Crate of the Week
