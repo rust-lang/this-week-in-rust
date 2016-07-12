@@ -22,6 +22,8 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [llogiq]
 
 ## New Crates & Project Updates
 
+- [jsf](https://github.com/flosse/rust-json-file-store/). A simple JSON file store.
+
 # Crate of the Week
 
 This week's Crate of the Week is Kerosene2000's [reustmann](https://crates.io/crates/reustmann) a Von-Neumann Architecture written in Rust.
