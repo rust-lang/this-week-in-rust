@@ -35,6 +35,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [llogiq]
 * [Corrode](https://github.com/jameysharp/corrode). Automatic semantics-preserving translation from C to Rust.
 * [Rustls](https://github.com/ctz/rustls). A new, modern TLS library written in Rust.
 * [rulinalg](https://github.com/AtheMathmo/rulinalg). A linear algebra library in Rust designed for machine learning, extracted from [rusty-machine](https://github.com/AtheMathmo/rusty-machine).
+* [task-hookrs](https://github.com/matthiasbeyer/task-hookrs). A Rust library for writing taskwarrior hooks and general interfacing with taskwarrior.
 * [jsf](https://github.com/flosse/rust-json-file-store/). A simple JSON file store.
 * [This week in Rust docs 12](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-12).
 
@@ -64,6 +65,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [easy] [rustfmt: Overlong impl signatures](https://github.com/rust-lang-nursery/rustfmt/issues/1048).
 * [easy] [rust-by-example: Add a Mutex chapter](https://github.com/rust-lang/rust-by-example/issues/105).
 * [easy] [rust-by-exapmle: Add an Arc chapter](https://github.com/rust-lang/rust-by-example/issues/104).
+* [easy] [imag: Make `imag` forward `--debug` and `--verbose` to subcommands](https://github.com/matthiasbeyer/imag/issues/506).
+* [moderate] [imag: Add Iterator-shortcut for `iter.fold(Ok(()), ...)`](https://github.com/matthiasbeyer/imag/issues/499).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
