@@ -20,12 +20,26 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [llogiq]
 
 ## News & Blog Posts
 
+* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.10](https://blog.rust-lang.org/2016/07/07/Rust-1.10.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* [Refining Rust's RFCs](https://aturon.github.io/blog/2016/07/05/rfc-refinement/).
+* [Rust and Rest](http://lucumr.pocoo.org/2016/7/10/rust-rest/). Lessons Learned from talking to Sentry's HTTP API from Rust.
+* [Pairing cryptography in Rust](https://z.cash/blog/pairing-cryptography-in-rust.html).
+* [Shave some time from your Travis builds](https://llogiq.github.io/2016/07/05/travis.html).
+* [Overview of open source game engines in Rust](http://www.shadercat.com/overview-of-open-source-game-engines-in-rust/).
+* [Rust & Docker in production @ Coursera](https://building.coursera.org/blog/2016/07/07/rust-docker-in-production-coursera/).
+* [Integer 32](http://www.integer32.com/), a Rust consultancy startup by [Carol Nichols](https://github.com/carols10cents) and [Jake Goulding](https://github.com/shepmaster).
+
 ## New Crates & Project Updates
+
+* [Dyon 0.8 is released](http://blog.piston.rs/2016/07/11/dyon-0.8/).
+* [Corrode](https://github.com/jameysharp/corrode). Automatic semantics-preserving translation from C to Rust.
+* [Rustls](https://github.com/ctz/rustls). A new, modern TLS library written in Rust.
+* [rulinalg](https://github.com/AtheMathmo/rulinalg). A linear algebra library in Rust designed for machine learning, extracted from [rusty-machine](https://github.com/AtheMathmo/rusty-machine).
+* [This week in Rust docs 12](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-12).
 
 # Crate of the Week
 
-This week's Crate of the Week is Kerosene2000's [reustmann](https://crates.io/crates/reustmann) a Von-Neumann Architecture written in Rust.
-This is presumably useful as a base substrate to train genetic algorithms on. Thanks, Kerosene2000!
+*No create was selected for CotW.*
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -56,39 +70,31 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-103 pull requests were [merged in the last two weeks][merged].
+100 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-06-27..2016-07-04
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-07-04..2016-07-11
 
-* [Release Notes for 1.10](https://github.com/rust-lang/rust/pull/34591) (if you want to know early)
-* [Beta is now more lenient with regards to Clang version](https://github.com/rust-lang/rust/pull/34589)
-* [MultiDecorators are now a special case of MultiModifiers](https://github.com/rust-lang/rust/pull/34446)
-  (also [some](https://github.com/rust-lang/rust/pull/33943) [cleanup](https://github.com/rust-lang/rust/pull/34459))
-* [Methods that require `Self: Sized` are no longer in the vtable](https://github.com/rust-lang/rust/pull/34419) (breaking change, also on beta)
-* [There can be only one...`Path`](https://github.com/rust-lang/rust/pull/34368) (plugin-breaking)
-* [Paren-expressions now share their child node's IDs](https://github.com/rust-lang/rust/pull/34355) (simplifies lookup)
-* [`ThinAttributes` are now a `ThinVec<Attributes>`](https://github.com/rust-lang/rust/pull/34339) (plugin-breaking)
-* [`Cow`s by `Default` now own their target type's `Default`](https://github.com/rust-lang/rust/pull/34305)
-* [Trait items can now be macro-expanded](https://github.com/rust-lang/rust/pull/34213)
-* [MIR: Dominators (control flow graph)](https://github.com/rust-lang/rust/pull/34169)
-* [Looking up hosts is now more picky about addresses](https://github.com/rust-lang/rust/pull/34067)
-* [`HashMap`s now use SipHash-1-3 hasher by default](https://github.com/rust-lang/rust/pull/33940)
-* [obligation errors now transitive](https://github.com/rust-lang/rust/pull/34605) (fix some memory leaks)
-* [More robust metadata lock](https://github.com/rust-lang/rust/pull/34604) (also in beta)
+* [Implement workspaces in Cargo](https://github.com/rust-lang/cargo/pull/2759).
+* [Drive trans from the output of the translation item collector](https://github.com/rust-lang/rust/pull/33890).
+* [std: Stabilize APIs for the 1.11.0 release](https://github.com/rust-lang/rust/pull/34530).
+* [Update jemalloc to include a fix for startup issues on OSX 10.12](https://github.com/rust-lang/rust/pull/34719).
+* [Cargo: Add support for RUSTDOCFLAGS](https://github.com/rust-lang/cargo/pull/2794).
+* [Add x86 intrinsics for bit manipulation (BMI 1.0, BMI 2.0, and TBM)](https://github.com/rust-lang/rust/pull/34412).
+* [Added a pretty printer for &mut slices](https://github.com/rust-lang/rust/pull/34550).
+* [Use lazy iterator in vec/slice gdb pretty printers](https://github.com/rust-lang/rust/pull/34639).
+* [Introducing TokenStreams and TokenSlices for procedural macros](https://github.com/rust-lang/rust/pull/34575).
 
 ## New Contributors
 
-* Aaronepower
-* Alexander Merritt
-* CensoredUsername
-* gnzlbg
-* Jonathan L
-* Jonathan Price
-* Jupp Müller
-* Peter Landoll
-* Tatsuya Kawano
-* Will Crichton
-* 吴冉波
+* CrLF0710
+* Hariharan R
+* Ivan Nejgebauer
+* Jared Manning
+* Kaivo Anastetiks
+* Mike Hommey
+* Phlogistic Fugu
+* Sam Payson
+* Ximin Luo
 
 ## Approved RFCs
 
@@ -96,7 +102,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 1327: Dropck Eyepatch](https://github.com/rust-lang/rfcs/pull/1327). Refine the unguarded-escape-hatch from RFC 1238 (nonparametric dropck).
 
 ## Final Comment Period
 
@@ -107,32 +113,31 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
 * [Default and expanded errors for rustc](https://github.com/rust-lang/rfcs/pull/1644).
+* [Dedicated strike team to resolve unsafe code guidelines](https://github.com/rust-lang/rfcs/pull/1643).
 * [RFC process for formatting style and Rustfmt defaults](https://github.com/rust-lang/rfcs/pull/1607).
 * [Introduce more conventions around documenting Rust projects](https://github.com/rust-lang/rfcs/pull/1574).
+* [Allow all literals in attributes](https://github.com/rust-lang/rfcs/pull/1559).
+* [Add `global_asm!` for module-level inline assembly](https://github.com/rust-lang/rfcs/pull/1548).
+* [Exclude macros from importing with `#[macro_use(not(...))]`](https://github.com/rust-lang/rfcs/pull/1517).
 * [Add space-friendly arguments](https://github.com/rust-lang/rfcs/pull/1509). Add `-C link-arg` and `-C llvm-arg` which allow you to pass along argument with spaces.
+* [Add support for 128-bit integers](https://github.com/rust-lang/rfcs/pull/1504).
 * [Add a used attribute to prevent symbols from being discarded](https://github.com/rust-lang/rfcs/pull/1459).
-* [Refine the unguarded-escape-hatch from RFC 1238 (nonparametric dropck)](https://github.com/rust-lang/rfcs/pull/1327).
+* [Add language support for bitfields](https://github.com/rust-lang/rfcs/pull/1449).
 
 ## New RFCs
 
-* [Propose asserts](https://github.com/rust-lang/rfcs/pull/1662). This rfc proposes that the following macros be added: `assert_gt`, `assert_lt`, `assert_ge`, and `assert_le`.
-* [Clarify behaviour when writing to a union field that implements Drop](https://github.com/rust-lang/rfcs/pull/1663).
-* [Windows subsystem support](https://github.com/rust-lang/rfcs/pull/1665).
-* [Extend the `Hasher` trait with `fn delimit` to support one-shot hashing](https://github.com/rust-lang/rfcs/pull/1666).
+* [Add an `unwrap!` macro](https://github.com/rust-lang/rfcs/pull/1669).
+* [Semantic "private in public" enforcement](https://github.com/rust-lang/rfcs/pull/1671). Enforce that public APIs do not expose private definitions at the semantic level, while allowing the use of private aliases and blanket implementations for convenience and automation.
+* [Disjointness based on associated types](https://github.com/rust-lang/rfcs/pull/1672). During coherence checking, when determining if the receivers of two impls are disjoint, treat bounds with disjoint associated types as mutually exclusive bounds.
 
 # Upcoming Events
 
-* 7/6. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [7/6. Rust Cologne/Bonn: Open Night](http://www.meetup.com/Rust-Cologne-Bonn/events/232274957/).
-* [7/6. Symfony User Group Cologne - Rust für PHP Entwickler](http://www.meetup.com/sfugcgn/events/232051942/?eventId=232051942).
-* [7/7. Rust DC: Ownership and Borrowing](http://www.meetup.com/RustDC/events/231562147/).
-* [7/11. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
-* [7/12. (San Diego) Eat– Drink– Rust! Downtown Rust Meetup](http://www.meetup.com/San-Diego-Rust/events/232039818/).
 * 7/13. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * [7/13. Rust Boulder/Denver - Hello, Rust!](http://www.meetup.com/Rust-Boulder-Denver/events/232328647/).
 * 7/14. Rust release triage at #rust-triage on irc.mozilla.org.
 * [7/14. Columbus Rust Society: Monthly Meeting](http://www.meetup.com/columbus-rs/events/231678481/).
 * [7/18. Rust Paris Meetup #30](http://www.meetup.com/Rust-Paris/events/230111506/).
+* 7/20. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
