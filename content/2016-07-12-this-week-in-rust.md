@@ -14,8 +14,6 @@ contributions](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md).
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-This week's edition was edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [brson](https://github.com/brson).
-
 # Updates from Rust Community
 
 ## News & Blog Posts
@@ -166,3 +164,5 @@ Anderson][brson] for access.
 [Submit your quotes for next week][submit]!
 
 [submit]: http://users.rust-lang.org/t/twir-quote-of-the-week/328
+
+*This Week in Rust is edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [brson](https://github.com/brson).*
