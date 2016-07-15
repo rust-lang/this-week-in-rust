@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-
+* [What's coming up in imag (11) was published](http://beyermatthias.de/blog/2016/07/15/what-s-coming-up-in-imag-11/)
 
 ## New Crates & Project Updates
 
