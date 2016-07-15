@@ -46,7 +46,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [easy] [imag: Make `imag` forward `--debug` and `--verbose` to subcommands](https://github.com/matthiasbeyer/imag/issues/506).
-* [moderate] [imag: Add Iterator-shortcut for `iter.fold(Ok(()), ...)`](https://github.com/matthiasbeyer/imag/issues/499).
 * [moderate] [rust: Very confusing error on attempt to pass
   `path::Path` by
   value](https://github.com/rust-lang/rust/issues/23286). This is bad
