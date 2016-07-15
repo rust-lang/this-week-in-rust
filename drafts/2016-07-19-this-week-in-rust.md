@@ -74,6 +74,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
   return)](https://github.com/rust-lang/rust/issues/28784). This bug
   identifies some bugs where the rustc parser disagrees with the
   reference parser. Good first bug for someone interested in parsers.
+* [easy] [imag: `--version` and `--versions` yield helptext instead of version(s)](https://github.com/matthiasbeyer/imag/issues/540).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
