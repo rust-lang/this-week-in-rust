@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-
+* [What's coming up in imag (11) was published](http://beyermatthias.de/blog/2016/07/15/what-s-coming-up-in-imag-11/)
 
 ## New Crates & Project Updates
 
@@ -46,7 +46,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [easy] [imag: Make `imag` forward `--debug` and `--verbose` to subcommands](https://github.com/matthiasbeyer/imag/issues/506).
-* [moderate] [imag: Add Iterator-shortcut for `iter.fold(Ok(()), ...)`](https://github.com/matthiasbeyer/imag/issues/499).
 * [moderate] [rust: Very confusing error on attempt to pass
   `path::Path` by
   value](https://github.com/rust-lang/rust/issues/23286). This is bad
@@ -75,6 +74,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
   return)](https://github.com/rust-lang/rust/issues/28784). This bug
   identifies some bugs where the rustc parser disagrees with the
   reference parser. Good first bug for someone interested in parsers.
+* [easy] [imag: `--version` and `--versions` yield helptext instead of version(s)](https://github.com/matthiasbeyer/imag/issues/540).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
