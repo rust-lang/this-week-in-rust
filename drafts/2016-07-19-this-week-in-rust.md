@@ -22,7 +22,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## New Crates & Project Updates
 
-
+* [Rust Project changelog for
+  2016-07-15](https://users.rust-lang.org/t/rust-project-changelog-for-2016-07-15/6555/1). Updates
+  to rustup, libc, net2, regex, websites.
+* [rustup 0.3
+  released](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/144). Includes
+  fixes for downloading old releases, various cleanups, and
+  preliminary (non-functional) rustls support.
 
 # Crate of the Week
 
@@ -39,19 +45,36 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [cargo: Warn on duplicate entry points for libs and bins](https://github.com/rust-lang/cargo/issues/2800).
-* [easy] [cargo: Can't specify precise crate version if there are multiple versions](https://github.com/rust-lang/cargo/issues/2773).
-* [easy] [cargo: Add `--dry-run` to `cargo publish`](https://github.com/rust-lang/cargo/issues/1332).
-* [easy] [rust: E0502 not rendered correctly](https://github.com/rust-lang/rust/issues/34716).
-* [easy] [rust: Move some tests into run-pass-valgrind](https://github.com/rust-lang/rust/issues/21696).
-* [moderate] [rust: Convert compiler-rt builtins to a Rust crate](https://github.com/rust-lang/rust/issues/34400#issuecomment-230059689).
-* [moderate] [rust: Teach rustc to print CPU, etc. features](https://github.com/rust-lang/rust/issues/30961#issuecomment-228905399).
-* [easy] [rustfmt: Overlong function signatures](https://github.com/rust-lang-nursery/rustfmt/issues/1049).
-* [easy] [rustfmt: Overlong impl signatures](https://github.com/rust-lang-nursery/rustfmt/issues/1048).
-* [easy] [rust-by-example: Add a Mutex chapter](https://github.com/rust-lang/rust-by-example/issues/105).
-* [easy] [rust-by-exapmle: Add an Arc chapter](https://github.com/rust-lang/rust-by-example/issues/104).
 * [easy] [imag: Make `imag` forward `--debug` and `--verbose` to subcommands](https://github.com/matthiasbeyer/imag/issues/506).
 * [moderate] [imag: Add Iterator-shortcut for `iter.fold(Ok(()), ...)`](https://github.com/matthiasbeyer/imag/issues/499).
+* [moderate] [rust: Very confusing error on attempt to pass
+  `path::Path` by
+  value](https://github.com/rust-lang/rust/issues/23286). This is bad
+  error message that is hit often. Good bug to get familiar with the
+  compiler.
+* [easy] [rust: move coerce_match, coerce_calls and related tests into
+  run-pass-valgrind](https://github.com/rust-lang/rust/issues/21696). Just
+  moving tests around. Easy introduction to the build system.
+* [easy] rustbyexample.com is in need of maintainers. Good first tasks
+  are [writing Mutex examples](https://github.com/rust-lang/rust-by-example/issues/105)
+  and [Arc examples](https://github.com/rust-lang/rust-by-example/issues/104).
+* [hard] [rustup: Write a GUI installer for rustup on
+  Windows](https://github.com/rust-lang-nursery/rustup.rs/issues/253). This
+  is involved but should be fun. It's an integration problem, writing
+  a Windows GUI that hooks into the MSI installation system and calls
+  into the rustup libraries. Required for rustup 1.0.
+* [easy] [cargo: Warn on the duplicate entry points for lib and
+  bin](https://github.com/rust-lang/cargo/issues/2800).
+* [easy] [cargo: Can't specify precise crate version if there are
+  multiple versions](https://github.com/rust-lang/cargo/issues/2773).
+* [easy] [error-chain: Display implementation should show the error's
+  Display, not just the
+  description](https://github.com/brson/error-chain/issues/2). Looks
+  like a simple fix.
+* [easy] [rust: Parsing inconsistencies (lambda, proc,
+  return)](https://github.com/rust-lang/rust/issues/28784). This bug
+  identifies some bugs where the rustc parser disagrees with the
+  reference parser. Good first bug for someone interested in parsers.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
