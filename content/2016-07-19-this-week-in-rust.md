@@ -161,11 +161,11 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
+* [Procedural macros 1.1](https://github.com/rust-lang/rfcs/pull/1681).
 * [Startup initialized statics](https://github.com/rust-lang/rfcs/pull/1674). Introduce the ability to initialize (i.e., mutate) static items (even non-mut ones) at the beginning of main in a compiler-guaranteed safe manner.
 * [Unified machine word trait](https://github.com/rust-lang/rfcs/pull/1676). Unify functionality peculiar to `i8`…`i64` and `u8`…`u64` in a trait containing the family of `overflowing`/`checked`/`wrapping`/`saturating` variants of arithmetic operations, as well as a few new ones.
 * [Add non-panicking `abs()` functions to all signed integer types](https://github.com/rust-lang/rfcs/pull/1678).
 * [Add "panic-safe" or "total" alternatives to the existing panicking indexing syntax](https://github.com/rust-lang/rfcs/pull/1679).
-* [Procedural macros 1.1](https://github.com/rust-lang/rfcs/pull/1681).
 
 # Upcoming Events
 
