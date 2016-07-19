@@ -18,7 +18,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-
+* [Mozilla is shipping its first production Rust code in Firefox 48](https://hacks.mozilla.org/2016/07/shipping-rust-in-firefox/).
+* [Linux perf gets Rust symbol demangling support](https://git.kernel.org/cgit/linux/kernel/git/tip/tip.git/commit/?id=cae15db74999edb96dd9f5bbd4d55849391dd92b).
+* [Testing strategies for Corrode](http://jamey.thesharps.us/2016/07/testing-strategies-for-corrode.html). Corrode is a C to Rust translator.
+* [Rust for Node.js developers - Part 3](http://fredrik.anderzon.se/rust-for-node-js-developers-part-3-crates-modules-and-the-web/). Crates, Modules and the web.
+* [How to package Rust applications to RPM using vendoring](https://czanik.blogs.balabit.com/2016/07/how-to-package-rust-applications-to-rpm-using-vendoring/).
+* [A Rust-powered public web page in 5 minutes](https://medium.com/@rap2h/a-rust-powered-public-website-in-5-minutes-b682d8527b6b).
 
 ## New Crates & Project Updates
 
@@ -29,6 +34,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
   released](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/144). Includes
   fixes for downloading old releases, various cleanups, and
   preliminary (non-functional) rustls support.
+* [Lyon](https://github.com/nical/lyon). GPU-based 2D graphics rendering experiments in Rust.
+* [Gluon](https://github.com/Marwes/gluon). A static, type inferred and embeddable language written in Rust.
+* [Tango](https://github.com/pnkfelix/tango). Markdown-based Literate programming in Rust, integrated with Cargo.
+* [ScreenRuster](https://github.com/meh/screenruster). X11 screen saver and locker.
+* [These weeks in Servo 71](https://blog.servo.org/2016/07/18/twis-71/).
+* [This week in Rust docs 13](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-13).
+* [This week in Ruma - July 17, 2016](https://www.ruma.io/news/this-week-in-ruma-2016-07-17/).
 
 # Crate of the Week
 
@@ -98,15 +110,14 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* CrLF0710
-* Hariharan R
-* Ivan Nejgebauer
-* Jared Manning
-* Kaivo Anastetiks
-* Mike Hommey
-* Phlogistic Fugu
-* Sam Payson
-* Ximin Luo
+* abhi
+* Aravind Gollakota
+* Ben Boeckel
+* Ben Stern
+* David
+* Dridi Boukelmoune
+* Isaac Andrade
+* Zhen Zhang
 
 ## Approved RFCs
 
@@ -114,7 +125,8 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1327: Dropck Eyepatch](https://github.com/rust-lang/rfcs/pull/1327). Refine the unguarded-escape-hatch from RFC 1238 (nonparametric dropck).
+* [RFC 1574: Introduce more conventions around documenting Rust projects](https://github.com/rust-lang/rfcs/pull/1574).
+* [RFC 1644: Default and expanded errors for rustc](https://github.com/rust-lang/rfcs/pull/1644).
 
 ## Final Comment Period
 
@@ -124,32 +136,33 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [Default and expanded errors for rustc](https://github.com/rust-lang/rfcs/pull/1644).
-* [Dedicated strike team to resolve unsafe code guidelines](https://github.com/rust-lang/rfcs/pull/1643).
-* [RFC process for formatting style and Rustfmt defaults](https://github.com/rust-lang/rfcs/pull/1607).
-* [Introduce more conventions around documenting Rust projects](https://github.com/rust-lang/rfcs/pull/1574).
-* [Allow all literals in attributes](https://github.com/rust-lang/rfcs/pull/1559).
-* [Add `global_asm!` for module-level inline assembly](https://github.com/rust-lang/rfcs/pull/1548).
-* [Exclude macros from importing with `#[macro_use(not(...))]`](https://github.com/rust-lang/rfcs/pull/1517).
-* [Add space-friendly arguments](https://github.com/rust-lang/rfcs/pull/1509). Add `-C link-arg` and `-C llvm-arg` which allow you to pass along argument with spaces.
-* [Add support for 128-bit integers](https://github.com/rust-lang/rfcs/pull/1504).
-* [Add a used attribute to prevent symbols from being discarded](https://github.com/rust-lang/rfcs/pull/1459).
+* [Promote `!` to a type](https://github.com/rust-lang/rfcs/pull/1216)
 * [Add language support for bitfields](https://github.com/rust-lang/rfcs/pull/1449).
+* [Add support for 128-bit integers](https://github.com/rust-lang/rfcs/pull/1504).
+* [Add space-friendly arguments](https://github.com/rust-lang/rfcs/pull/1509). Add `-C link-arg` and `-C llvm-arg` which allow you to pass along argument with spaces.
+* [Exclude macros from importing with `#[macro_use(not(...))]`](https://github.com/rust-lang/rfcs/pull/1517).
+* [Add `global_asm!` for module-level inline assembly](https://github.com/rust-lang/rfcs/pull/1548).
+* [Allow all literals in attributes](https://github.com/rust-lang/rfcs/pull/1559).
+* [RFC process for formatting style and Rustfmt defaults](https://github.com/rust-lang/rfcs/pull/1607).
+* [Replace synchronization primitives with those from parking_lot](https://github.com/rust-lang/rfcs/pull/1632).
+* [Dedicated strike team to resolve unsafe code guidelines](https://github.com/rust-lang/rfcs/pull/1643).
+* [Add `assert_ne` to compliment `assert_eq`](https://github.com/rust-lang/rfcs/pull/1653).
+* [Introduce non-panicking borrow methods on `RefCell<T>`](https://github.com/rust-lang/rfcs/pull/1660).
+* [Propose asserts](https://github.com/rust-lang/rfcs/pull/1662). This rfc proposes that the following macros be added: `assert_gt`, `assert_lt`, `assert_ge`, and `assert_le`.
 
 ## New RFCs
 
-* [Add an `unwrap!` macro](https://github.com/rust-lang/rfcs/pull/1669).
-* [Semantic "private in public" enforcement](https://github.com/rust-lang/rfcs/pull/1671). Enforce that public APIs do not expose private definitions at the semantic level, while allowing the use of private aliases and blanket implementations for convenience and automation.
-* [Disjointness based on associated types](https://github.com/rust-lang/rfcs/pull/1672). During coherence checking, when determining if the receivers of two impls are disjoint, treat bounds with disjoint associated types as mutually exclusive bounds.
+* [Startup initialized statics](https://github.com/rust-lang/rfcs/pull/1674). Introduce the ability to initialize (i.e., mutate) static items (even non-mut ones) at the beginning of main in a compiler-guaranteed safe manner.
+* [Unified machine word trait](https://github.com/rust-lang/rfcs/pull/1676). Unify functionality peculiar to `i8`…`i64` and `u8`…`u64` in a trait containing the family of `overflowing`/`checked`/`wrapping`/`saturating` variants of arithmetic operations, as well as a few new ones.
+* [Add non-panicking `abs()` functions to all signed integer types](https://github.com/rust-lang/rfcs/pull/1678).
+* [Add "panic-safe" or "total" alternatives to the existing panicking indexing syntax](https://github.com/rust-lang/rfcs/pull/1679).
+* [Procedural macros 1.1](https://github.com/rust-lang/rfcs/pull/1681).
 
 # Upcoming Events
 
-* 7/13. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [7/13. Rust Boulder/Denver - Hello, Rust!](http://www.meetup.com/Rust-Boulder-Denver/events/232328647/).
-* 7/14. Rust release triage at #rust-triage on irc.mozilla.org.
-* [7/14. Columbus Rust Society: Monthly Meeting](http://www.meetup.com/columbus-rs/events/231678481/).
-* [7/18. Rust Paris Meetup #30](http://www.meetup.com/Rust-Paris/events/230111506/).
 * 7/20. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* [7/21. Rust Hack & Learn Karlsruhe](http://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/232621692/).
+* 7/27. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -168,7 +181,13 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> fzammetti:
+> Am I the only one that finds highly ironic the naming of something that's supposed to be new and cutting-edge after a substance universally synonymous with old, dilapidated and broken down?
+>
+> paperelectron:
+> Rust is as close to the bare metal as you can get.
+
+On [/r/programming](https://www.reddit.com/r/programming/comments/4sgzk5/shipping_rust_in_firefox/d59d2lp).
 
 [Submit your quotes for next week][submit]!
 
