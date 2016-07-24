@@ -43,7 +43,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [imag: Make `imag` forward `--debug` and `--verbose` to subcommands](https://github.com/matthiasbeyer/imag/issues/506).
 * [easy] [rust: move coerce_match, coerce_calls and related tests into
   run-pass-valgrind](https://github.com/rust-lang/rust/issues/21696). Just
   moving tests around. Easy introduction to the build system.
@@ -57,7 +56,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
   return)](https://github.com/rust-lang/rust/issues/28784). This bug
   identifies some bugs where the rustc parser disagrees with the
   reference parser. Good first bug for someone interested in parsers.
-* [easy] [imag: `--version` and `--versions` yield helptext instead of version(s)](https://github.com/matthiasbeyer/imag/issues/540).
 * [easy] [rust: rustbuild should warn on quotes in
   PATH](https://github.com/rust-lang/rust/issues/34959). Easy fix for
   Rust's new build system.
