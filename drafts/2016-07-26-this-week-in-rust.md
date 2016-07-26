@@ -22,7 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week has a belated Crate of the Week with Vincent Esche's self-submitted [cargo-modules](https://crates.io/crates/cargo-modules), which gives us the `cargo modules` subcommand that shows the module structure of our crates in a tree view, optionally warning of orphans. Thanks, Vincent!
+In what seems to become a kind of tradition, User [gsingh93](https://users.rust-lang.org/users/gsingh93) suggested his [trace](https://crates.io/crates/trace) crate, a syntax extension to insert `print!` statements to functions to help trace execution. Thanks, gsingh93!
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -72,27 +72,23 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-105 pull requests were [merged in the last two weeks][merged].
+76 pull requests were [merged in the last two weeks][merged].
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-07-11..2016-07-18
 
-* [Match whole statements in macros](https://github.com/rust-lang/rust/pull/34886)
-* [Harder floats on MIPS](https://github.com/rust-lang/rust/pull/34841)
-* [New method `new_parser_from_ts`](https://github.com/rust-lang/rust/pull/34829)
-* [Non-Squiggly-braced Macros now need Semicolon](https://github.com/rust-lang/rust/pull/34660)
-* [Simplify Macro Hygiene](https://github.com/rust-lang/rust/pull/34570)
-* [Stable order for handling type projection bounds](https://github.com/rust-lang/rust/pull/34805)
-* [calling directly imported trait methods no longer crashes rustc](https://github.com/rust-lang/rust/pull/34797)
-* [Unicode 9.0 update](https://github.com/rust-lang/rust/pull/34599)
-* [Simplify error reporting](https://github.com/rust-lang/rust/pull/34789) (potentially plugin-breaking)
-* [`readdir` now also works on Solaris](https://github.com/rust-lang/rust/pull/34776)
-* [String interner cleanup](https://github.com/rust-lang/rust/pull/34772)
-* [`&Mutex` is now `RefUnwindSafe`](https://github.com/rust-lang/rust/pull/34756)
-* [Simplify `LinkedList` with `Shared` instead of `Box`](https://github.com/rust-lang/rust/pull/34608)
-* [Deprecated API spring clean](https://github.com/rust-lang/rust/pull/34705)
-* [Cargo can now enable dependencies' features](https://github.com/rust-lang/cargo/pull/2876)
+* [`mtwt` is now `hygiene` and cleaned up](https://github.com/rust-lang/rust/pull/34860) – nomen est omen
+* [`impl<T> From<T> for Option<T>`](https://github.com/rust-lang/rust/pull/34828)
+* [MIR optimization test groundwork](https://github.com/rust-lang/rust/pull/34715)
+* [Fixed interplay between precision and width in format specifiers](https://github.com/rust-lang/rust/pull/34544) (**breaking change**)
+* [`ExactSizeIterator::is_empty()`](https://github.com/rust-lang/rust/pull/34357)
+* [No more MIPS Soft-Float](https://github.com/rust-lang/rust/pull/34910)
+* [Macros: Statements are now matched greedily](https://github.com/rust-lang/rust/pull/34886)
+* [Nested `macro_rules!`](https://github.com/rust-lang/rust/pull/34925)
+* `impl Debug for {Entry, VacantEntry, OccupiedEntry}` in [`btree_map](https://github.com/rust-lang/rust/pull/34885) and [`hash_map`](https://github.com/rust-lang/rust/pull/34937)
+* [More privacy for linker symbols](https://github.com/rust-lang/rust/pull/34899) (improves perf)
+* [`impl AddAssign for String](https://github.com/rust-lang/rust/pull/34890) (wasn't there already?!)
+* [beta gets new jemalloc](https://github.com/rust-lang/rust/pull/34927)
 * [`cargo publish --dry-run`](https://github.com/rust-lang/cargo/pull/2849)
-
 
 ## New Contributors
 
