@@ -18,15 +18,34 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [The 2016 Rust conference lineup](https://blog.rust-lang.org/2016/07/25/conf-lineup.html).
+- [Rust performance: A story featuring perf and flamegraph on Linux](http://blog.adamperry.me/rust/2016/07/24/profiling-rust-perf-flamegraph/).
 - [Sebastian Ullrich has formally verified Rust's binary_search
   function by transpiling Rust to the Lean theorem
   prover](https://kha.github.io/2016/07/22/formally-verifying-rusts-binary-search.html).
+- [A short walkthrough of WebRender 2](http://www.masonchang.com/blog/2016/7/18/a-short-walkthrough-of-webrender-2).
+- [Rust code coverage guide](http://sunjay.ca/2016/07/25/rust-code-coverage). kcov + Travis CI + Codecov / Coveralls.
+- [Rust: The new LLVM](http://notes.willcrichton.net/rust-the-new-llvm/). Making a case for using Rust as compile target for new languages.
+- [Test setup and teardown in Rust without a framework](https://medium.com/@ericdreichert/test-setup-and-teardown-in-rust-without-a-framework-ba32d97aa5ab).
+- [podcast] [New Rustacean podcast episode 16](http://www.newrustacean.com/show_notes/e016/). Digging deeper on smart pointers and mutability with `Cell` and `RefCell`.
+
 
 ## New Crates & Project Updates
 
 - [rustup 0.4.0 released](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/147).
 - [error-chain 0.2.2 released](https://users.rust-lang.org/t/announcing-error-chain-a-library-for-consistent-and-reliable-rust-error-handling/6133/20),
   featuring a minor ergonomic improvement.
+- [Termion 1.0 released](https://github.com/ticki/termion/blob/master/CHANGELOG.md).
+- [Call for proposals for next Rust Doc Days crates](https://users.rust-lang.org/t/call-for-proposals-for-next-rust-doc-days-crates/6685). For the second Rust Doc Days, propose crates that need better documentation!
+- [All the Clippy lints](https://manishearth.github.io/rust-clippy/master/). Overview and documentation of all Clippy lints with search and filtering.
+- [RMP](https://github.com/3Hren/msgpack-rust). MessagePack implementation for Rust.
+- [electrolysis](https://github.com/Kha/electrolysis). A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover.
+- [rustsym](https://github.com/trixnz/rustsym). A tool to query symbols from Rust code for use in IDEs.
+- [cargo-benchcmp is rewritten in Rust (from Python)](https://github.com/BurntSushi/cargo-benchcmp/pull/2).
+- [This week in Servo 72](https://blog.servo.org/2016/07/25/twis-72/).
+- [This week in Rust docs 14](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-14).
+- [This week in TiKV 2016-07-23](http://www.pingcap.com/tikv/2016/07/23/tikv-weekly/).
+- [This week in Ruma 2016-07-24](https://www.ruma.io/news/this-week-in-ruma-2016-07-24/).
 
 # Crate of the Week
 
@@ -107,14 +126,8 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* abhi
-* Aravind Gollakota
-* Ben Boeckel
-* Ben Stern
-* David
-* Dridi Boukelmoune
-* Isaac Andrade
-* Zhen Zhang
+* Evgeny Safronov
+* Matt Horn
 
 ## Approved RFCs
 
@@ -122,8 +135,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1574: Introduce more conventions around documenting Rust projects](https://github.com/rust-lang/rfcs/pull/1574).
-* [RFC 1644: Default and expanded errors for rustc](https://github.com/rust-lang/rfcs/pull/1644).
+* [RFC 1559: Allow all literals in attributes](https://github.com/rust-lang/rfcs/pull/1559).
 
 ## Final Comment Period
 
@@ -139,27 +151,33 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Add space-friendly arguments](https://github.com/rust-lang/rfcs/pull/1509). Add `-C link-arg` and `-C llvm-arg` which allow you to pass along argument with spaces.
 * [Exclude macros from importing with `#[macro_use(not(...))]`](https://github.com/rust-lang/rfcs/pull/1517).
 * [Add `global_asm!` for module-level inline assembly](https://github.com/rust-lang/rfcs/pull/1548).
-* [Allow all literals in attributes](https://github.com/rust-lang/rfcs/pull/1559).
+* [Some internal and language-level changes to name resolution](https://github.com/rust-lang/rfcs/pull/1560).
+* [Define a best practices procedure for making bug fixes in the compiler](https://github.com/rust-lang/rfcs/pull/1589).
 * [RFC process for formatting style and Rustfmt defaults](https://github.com/rust-lang/rfcs/pull/1607).
+* [Add a compiler flag that emits crate dependencies on a best-effort basis](https://github.com/rust-lang/rfcs/pull/1622).
 * [Replace synchronization primitives with those from parking_lot](https://github.com/rust-lang/rfcs/pull/1632).
 * [Dedicated strike team to resolve unsafe code guidelines](https://github.com/rust-lang/rfcs/pull/1643).
 * [Add `assert_ne` to compliment `assert_eq`](https://github.com/rust-lang/rfcs/pull/1653).
 * [Introduce non-panicking borrow methods on `RefCell<T>`](https://github.com/rust-lang/rfcs/pull/1660).
 * [Propose asserts](https://github.com/rust-lang/rfcs/pull/1662). This rfc proposes that the following macros be added: `assert_gt`, `assert_lt`, `assert_ge`, and `assert_le`.
+* [Clarify behaviour when writing to a union field that implements Drop](https://github.com/rust-lang/rfcs/pull/1663).
 
 ## New RFCs
 
-* [Procedural macros 1.1](https://github.com/rust-lang/rfcs/pull/1681).
-* [Startup initialized statics](https://github.com/rust-lang/rfcs/pull/1674). Introduce the ability to initialize (i.e., mutate) static items (even non-mut ones) at the beginning of main in a compiler-guaranteed safe manner.
-* [Unified machine word trait](https://github.com/rust-lang/rfcs/pull/1676). Unify functionality peculiar to `i8`…`i64` and `u8`…`u64` in a trait containing the family of `overflowing`/`checked`/`wrapping`/`saturating` variants of arithmetic operations, as well as a few new ones.
-* [Add non-panicking `abs()` functions to all signed integer types](https://github.com/rust-lang/rfcs/pull/1678).
-* [Add "panic-safe" or "total" alternatives to the existing panicking indexing syntax](https://github.com/rust-lang/rfcs/pull/1679).
+* [Add API documentation front page styleguide](https://github.com/rust-lang/rfcs/pull/1687).
+* [Deprecate anonymous parameters](https://github.com/rust-lang/rfcs/pull/1685).
+* [Add an environment variable to choose between whether to link the static CRT or dynamic CRT](https://github.com/rust-lang/rfcs/pull/1684).
+* [Create a team responsible for documentation for the Rust project](https://github.com/rust-lang/rfcs/pull/1683).
+* [Propose a shorthand syntax for constructing struct-like values with _named_ fields](https://github.com/rust-lang/rfcs/pull/1682).
 
 # Upcoming Events
 
-* 7/20. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [7/21. Rust Hack & Learn Karlsruhe](http://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/232621692/).
 * 7/27. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* [7/27. Rust Berlin July Meetup](http://www.meetup.com/Rust-Berlin/events/232583152/).
+* [7/28. Rust Bay Area: Machine Learning, Bioinformatics, and Embedded OSes](http://www.meetup.com/Rust-Bay-Area/events/232406852/).
+* 8/3. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* 8/4. Rust release triage at #rust-triage on irc.mozilla.org.
+* [8/8. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -171,22 +189,17 @@ Anderson][brson] for access.
 
 # fn work(on: RustProject) -> Money
 
-* [Rust developer at The Blackbird](https://rust.jobboard.io/jobs/394482-rust-developer-at-the-blackbird).
-* [Engineering positions at Zcash mention Rust](https://z.cash/blog/hiring.html).
+*No jobs listed for this week.*
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> fzammetti:
-> Am I the only one that finds highly ironic the naming of something that's supposed to be new and cutting-edge after a substance universally synonymous with old, dilapidated and broken down?
->
-> paperelectron:
-> Rust is as close to the bare metal as you can get.
+> you have a problem. you decide to use Rust. now you have a Rc<RefCell<Box<Problem\>\>\>
 
-On [/r/programming](https://www.reddit.com/r/programming/comments/4sgzk5/shipping_rust_in_firefox/d59d2lp).
+[kmc on #rust](https://botbot.me/mozilla/rust/2016-07-25/?msg=70207904&page=14).
 
-[Submit your quotes for next week][submit]!
+Thanks to [Alex Burka](https://users.rust-lang.org/users/durka) for the tip. [Submit your quotes for next week][submit]!
 
 [submit]: http://users.rust-lang.org/t/twir-quote-of-the-week/328
 
