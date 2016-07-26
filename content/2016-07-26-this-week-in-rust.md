@@ -118,9 +118,9 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [No more MIPS Soft-Float](https://github.com/rust-lang/rust/pull/34910)
 * [Macros: Statements are now matched greedily](https://github.com/rust-lang/rust/pull/34886)
 * [Nested `macro_rules!`](https://github.com/rust-lang/rust/pull/34925)
-* `impl Debug for {Entry, VacantEntry, OccupiedEntry}` in [`btree_map](https://github.com/rust-lang/rust/pull/34885) and [`hash_map`](https://github.com/rust-lang/rust/pull/34937)
+* `impl Debug for {Entry, VacantEntry, OccupiedEntry}` in [`btree_map`](https://github.com/rust-lang/rust/pull/34885) and [`hash_map`](https://github.com/rust-lang/rust/pull/34937)
 * [More privacy for linker symbols](https://github.com/rust-lang/rust/pull/34899) (improves perf)
-* [`impl AddAssign for String](https://github.com/rust-lang/rust/pull/34890) (wasn't there already?!)
+* [`impl AddAssign for String`](https://github.com/rust-lang/rust/pull/34890) (wasn't there already?!)
 * [beta gets new jemalloc](https://github.com/rust-lang/rust/pull/34927)
 * [`cargo publish --dry-run`](https://github.com/rust-lang/cargo/pull/2849)
 
