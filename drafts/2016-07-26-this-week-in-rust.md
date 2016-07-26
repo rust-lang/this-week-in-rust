@@ -18,7 +18,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Sebastian Ullrich has formally verified Rust's binary_search
+  function by transpiling Rust to the Lean theorem
+  prover](https://kha.github.io/2016/07/22/formally-verifying-rusts-binary-search.html).
+
 ## New Crates & Project Updates
+
+- [rustup 0.4.0 released](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/147).
+- [error-chain 0.2.2 released](https://users.rust-lang.org/t/announcing-error-chain-a-library-for-consistent-and-reliable-rust-error-handling/6133/20),
+  featuring a minor ergonomic improvement.
 
 # Crate of the Week
 
@@ -36,24 +44,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [easy] [imag: Make `imag` forward `--debug` and `--verbose` to subcommands](https://github.com/matthiasbeyer/imag/issues/506).
-* [moderate] [rust: Very confusing error on attempt to pass
-  `path::Path` by
-  value](https://github.com/rust-lang/rust/issues/23286). This is bad
-  error message that is hit often. Good bug to get familiar with the
-  compiler.
 * [easy] [rust: move coerce_match, coerce_calls and related tests into
   run-pass-valgrind](https://github.com/rust-lang/rust/issues/21696). Just
   moving tests around. Easy introduction to the build system.
-* [easy] rustbyexample.com is in need of maintainers. Good first tasks
-  are [writing Mutex examples](https://github.com/rust-lang/rust-by-example/issues/105)
-  and [Arc examples](https://github.com/rust-lang/rust-by-example/issues/104).
-* [hard] [rustup: Write a GUI installer for rustup on
-  Windows](https://github.com/rust-lang-nursery/rustup.rs/issues/253). This
-  is involved but should be fun. It's an integration problem, writing
-  a Windows GUI that hooks into the MSI installation system and calls
-  into the rustup libraries. Required for rustup 1.0.
-* [easy] [cargo: Warn on the duplicate entry points for lib and
-  bin](https://github.com/rust-lang/cargo/issues/2800).
 * [easy] [cargo: Can't specify precise crate version if there are
   multiple versions](https://github.com/rust-lang/cargo/issues/2773).
 * [easy] [error-chain: Display implementation should show the error's
@@ -65,6 +58,29 @@ Some of these tasks may also have mentors available, visit the task page for mor
   identifies some bugs where the rustc parser disagrees with the
   reference parser. Good first bug for someone interested in parsers.
 * [easy] [imag: `--version` and `--versions` yield helptext instead of version(s)](https://github.com/matthiasbeyer/imag/issues/540).
+* [easy] [rust: rustbuild should warn on quotes in
+  PATH](https://github.com/rust-lang/rust/issues/34959). Easy fix for
+  Rust's new build system.
+* [easy] [rust: Make it easier to locate deadlocked
+  tests](https://github.com/rust-lang/rust/issues/2873).  A simple
+  enhancement to the test runner to notify the user about long-running
+  tests.
+* [easy] [rust: Remove obsolete no_stack_check attribute and
+  test](https://github.com/rust-lang/rust/issues/34915). Easy
+  introduction to the compiler and contribution process.
+* [easy] [rustfmt: Wrap overlong function
+  signatures](https://github.com/rust-lang-nursery/rustfmt/issues/1049).
+  There are several rustfmt bugs along these lines so this is a
+  fertile entrypoint for contributors.
+* [easy] [rustup: Add command to install shell
+  completions](https://github.com/rust-lang-nursery/rustup.rs/issues/387#issuecomment-234675568).
+* [easy] [rustup: Clean up toolchain directories after
+  uninstall](https://github.com/rust-lang-nursery/rustup.rs/issues/596#issuecomment-233716695).
+  A simple bug with a clear fix.
+* [moderate] [rust: improve error message when resolution via Deref
+  actually required
+  DerefMut](https://github.com/rust-lang/rust/issues/28419). Good
+  first type system bug.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
