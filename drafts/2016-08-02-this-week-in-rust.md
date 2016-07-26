@@ -18,34 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-- [The 2016 Rust conference lineup](https://blog.rust-lang.org/2016/07/25/conf-lineup.html).
-- [Rust performance: A story featuring perf and flamegraph on Linux](http://blog.adamperry.me/rust/2016/07/24/profiling-rust-perf-flamegraph/).
-- [Sebastian Ullrich has formally verified Rust's binary_search
-  function by transpiling Rust to the Lean theorem
-  prover](https://kha.github.io/2016/07/22/formally-verifying-rusts-binary-search.html).
-- [A short walkthrough of WebRender 2](http://www.masonchang.com/blog/2016/7/18/a-short-walkthrough-of-webrender-2).
-- [Rust code coverage guide](http://sunjay.ca/2016/07/25/rust-code-coverage). kcov + Travis CI + Codecov / Coveralls.
-- [Rust: The new LLVM](http://notes.willcrichton.net/rust-the-new-llvm/). Making a case for using Rust as compile target for new languages.
-- [Test setup and teardown in Rust without a framework](https://medium.com/@ericdreichert/test-setup-and-teardown-in-rust-without-a-framework-ba32d97aa5ab).
-- [podcast] [New Rustacean podcast episode 16](http://www.newrustacean.com/show_notes/e016/). Digging deeper on smart pointers and mutability with `Cell` and `RefCell`.
-
-
 ## New Crates & Project Updates
-
-- [rustup 0.4.0 released](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/147).
-- [error-chain 0.2.2 released](https://users.rust-lang.org/t/announcing-error-chain-a-library-for-consistent-and-reliable-rust-error-handling/6133/20),
-  featuring a minor ergonomic improvement.
-- [Termion 1.0 released](https://github.com/ticki/termion/blob/master/CHANGELOG.md).
-- [Call for proposals for next Rust Doc Days crates](https://users.rust-lang.org/t/call-for-proposals-for-next-rust-doc-days-crates/6685). For the second Rust Doc Days, propose crates that need better documentation!
-- [All the Clippy lints](https://manishearth.github.io/rust-clippy/master/). Overview and documentation of all Clippy lints with search and filtering.
-- [RMP](https://github.com/3Hren/msgpack-rust). MessagePack implementation for Rust.
-- [electrolysis](https://github.com/Kha/electrolysis). A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover.
-- [rustsym](https://github.com/trixnz/rustsym). A tool to query symbols from Rust code for use in IDEs.
-- [cargo-benchcmp is rewritten in Rust (from Python)](https://github.com/BurntSushi/cargo-benchcmp/pull/2).
-- [This week in Servo 72](https://blog.servo.org/2016/07/25/twis-72/).
-- [This week in Rust docs 14](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-14).
-- [This week in TiKV 2016-07-23](http://www.pingcap.com/tikv/2016/07/23/tikv-weekly/).
-- [This week in Ruma 2016-07-24](https://www.ruma.io/news/this-week-in-ruma-2016-07-24/).
 
 # Crate of the Week
 
