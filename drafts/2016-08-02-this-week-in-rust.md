@@ -20,6 +20,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## New Crates & Project Updates
 
+* [`rustup` 0.5.0 was released](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/149).
+  This build includes a more compact syntax for `rustup run`, a new
+  `rustup man` command, and bug fixes.
+
 # Crate of the Week
 
 In what seems to become a kind of tradition, User [gsingh93](https://users.rust-lang.org/users/gsingh93) suggested his [trace](https://crates.io/crates/trace) crate, a syntax extension to insert `print!` statements to functions to help trace execution. Thanks, gsingh93!
@@ -35,33 +39,20 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [rust: move coerce_match, coerce_calls and related tests into
-  run-pass-valgrind](https://github.com/rust-lang/rust/issues/21696). Just
-  moving tests around. Easy introduction to the build system.
+* [easy] [rust-dashboard: Fix '0 days since accident' sign](https://github.com/dikaiosune/rust-dashboard/issues/71).
+  Easy bug on important piece of infrastructure that needs more contributors.
+* [easy] [rust-dashboard: User-defined date rang](https://github.com/dikaiosune/rust-dashboard/issues/26).
+  This is an important enhancement. Requires some web experience.
+* [easy] [rustup: Don't capture backtraces without RUST_BACKTRACE=1](https://github.com/rust-lang-nursery/rustup.rs/issues/591#issuecomment-236235677).
+  An easy fix, done in two steps, first modifying error-chain, then upgrading it in rustup.
+* [easy] [cargo: Warn on duplicate entry points](https://github.com/rust-lang/cargo/issues/2800).
+  Simple way to get involved in one of the most important Rust projects.
 * [easy] [cargo: Can't specify precise crate version if there are
   multiple versions](https://github.com/rust-lang/cargo/issues/2773).
-* [easy] [error-chain: Display implementation should show the error's
-  Display, not just the
-  description](https://github.com/brson/error-chain/issues/2). Looks
-  like a simple fix.
-* [easy] [rust: Parsing inconsistencies (lambda, proc,
-  return)](https://github.com/rust-lang/rust/issues/28784). This bug
-  identifies some bugs where the rustc parser disagrees with the
-  reference parser. Good first bug for someone interested in parsers.
-* [easy] [rust: rustbuild should warn on quotes in
-  PATH](https://github.com/rust-lang/rust/issues/34959). Easy fix for
-  Rust's new build system.
 * [easy] [rust: Make it easier to locate deadlocked
   tests](https://github.com/rust-lang/rust/issues/2873).  A simple
   enhancement to the test runner to notify the user about long-running
   tests.
-* [easy] [rust: Remove obsolete no_stack_check attribute and
-  test](https://github.com/rust-lang/rust/issues/34915). Easy
-  introduction to the compiler and contribution process.
-* [easy] [rustfmt: Wrap overlong function
-  signatures](https://github.com/rust-lang-nursery/rustfmt/issues/1049).
-  There are several rustfmt bugs along these lines so this is a
-  fertile entrypoint for contributors.
 * [easy] [rustup: Add command to install shell
   completions](https://github.com/rust-lang-nursery/rustup.rs/issues/387#issuecomment-234675568).
 * [easy] [rustup: Clean up toolchain directories after
