@@ -24,7 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-In what seems to become a kind of tradition, User [gsingh93](https://users.rust-lang.org/users/gsingh93) suggested his [trace](https://crates.io/crates/trace) crate, a syntax extension to insert `print!` statements to functions to help trace execution. Thanks, gsingh93!
+This week's Crate of the Week is MaidSafe's [lru_time_cache](https://crates.io/crates/lru_time_cache), a simple but complete least-recently-used cache implementation. Thanks [gregwtmtno](https://users.rust-lang.org/users/gregwtmtno) for the suggestion.
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -81,23 +81,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-76 pull requests were [merged in the last two weeks][merged].
+127 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-07-11..2016-07-18
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-07-25..2016-08-01
 
-* [`mtwt` is now `hygiene` and cleaned up](https://github.com/rust-lang/rust/pull/34860) – nomen est omen
-* [`impl<T> From<T> for Option<T>`](https://github.com/rust-lang/rust/pull/34828)
-* [MIR optimization test groundwork](https://github.com/rust-lang/rust/pull/34715)
-* [Fixed interplay between precision and width in format specifiers](https://github.com/rust-lang/rust/pull/34544) (**breaking change**)
-* [`ExactSizeIterator::is_empty()`](https://github.com/rust-lang/rust/pull/34357)
-* [No more MIPS Soft-Float](https://github.com/rust-lang/rust/pull/34910)
-* [Macros: Statements are now matched greedily](https://github.com/rust-lang/rust/pull/34886)
-* [Nested `macro_rules!`](https://github.com/rust-lang/rust/pull/34925)
-* `impl Debug for {Entry, VacantEntry, OccupiedEntry}` in [`btree_map](https://github.com/rust-lang/rust/pull/34885) and [`hash_map`](https://github.com/rust-lang/rust/pull/34937)
-* [More privacy for linker symbols](https://github.com/rust-lang/rust/pull/34899) (improves perf)
-* [`impl AddAssign for String](https://github.com/rust-lang/rust/pull/34890) (wasn't there already?!)
-* [beta gets new jemalloc](https://github.com/rust-lang/rust/pull/34927)
-* [`cargo publish --dry-run`](https://github.com/rust-lang/cargo/pull/2849)
+* [Reuse `.o` files of unchanged modules](https://github.com/rust-lang/rust/pull/34956) (first step towards incremental compilation)
+* [{`vec`, `binary_heap`}::`Drain` is now covariant](https://github.com/rust-lang/rust/pull/34951)
+* [`SOCK_CLOEXEC` is now used on Linux](https://github.com/rust-lang/rust/pull/34946) (wasn't before because bug)
+* [TT-macro fixup](https://github.com/rust-lang/rust/pull/34908)
+* [unstable ABIs now properly feature-gated](https://github.com/rust-lang/rust/pull/34904) (scary change, but crater found zero regressions)
+* [`Debug` output now escapes fewer unicode codepoints](https://github.com/rust-lang/rust/pull/34485)
+* [`impl DoubleEndedIterator for std::env::args`](https://github.com/rust-lang/rust/pull/33312)
+* [ARM personality routine is now Rust](https://github.com/rust-lang/rust/pull/35032)
+* [Keep in-transit closure types out of obligation tree](https://github.com/rust-lang/rust/pull/34986)
+* [Process `feature` flags only on configured crates](https://github.com/rust-lang/rust/pull/34969)
+* [ICE on unresolved imports in patterns fixed](https://github.com/rust-lang/rust/pull/34963)
+* [`std::i*:checked_abs()`](https://github.com/rust-lang/rust/pull/35058)
+* [ensure absense of single quotes in Windows paths](https://github.com/rust-lang/rust/pull/35117)
+* [`MultiSpan` has a bunch of methods back](https://github.com/rust-lang/rust/pull/35094) (erroneously thought to be unused and removed last week, broke clippy)
+* [`intravisit::Visitor` now subsumes `IdVisitor`'s functionality](https://github.com/rust-lang/rust/pull/35090)
+* [Only export `#[no_mangle]` externals on LTO builds](https://github.com/rust-lang/rust/pull/35069)
+* [cargo now has subcommand man pages](https://github.com/rust-lang/cargo/pull/2918)
+* [cargo now creates bin crates by default](https://github.com/rust-lang/cargo/pull/2921)
+
+(On a less serious note, the team was [admonished](https://github.com/rust-lang/meeting-minutes/pull/18/files) to avoid time travel)
 
 ## New Contributors
 
