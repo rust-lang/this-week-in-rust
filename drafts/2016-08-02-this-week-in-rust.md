@@ -162,9 +162,12 @@ Anderson][brson] for access.
 
 # fn work(on: RustProject) -> Money
 
-*No jobs listed for this week.*
-
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
+<!-- Do not roll over to next week -->
+## [PhD Position: Concepts and Methods for securing the Future Energy System's Components and Plants](https://stellen.jobs.kit.edu/cgi-bin/appl/list.pl?tmpl=job_details&job_nr=248AF364-5B71-4112-9FBD-0F144C731087&cat_nr=28FD50F7-057E-4EB7-BF74-E00DD530252E&loc_nr=12B87EE0-C700-11D4-8972-0050BAC69B70)
+
+TLDR: the goal of the thesis is the development of a methodology for using the engineering metadata of the systems to generate models that can be used to check the communication and behaviour of the systems. A prototype of the checking tool will be implemented in Rust on ARM hardware.
 
 # Quote of the Week
 
