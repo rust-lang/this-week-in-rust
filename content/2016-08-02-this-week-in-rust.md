@@ -47,8 +47,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Rust docs 15](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-15).
 * [This week in Ruma 2016-07-31](https://www.ruma.io/news/this-week-in-ruma-2016-07-31/).
 * [This week in TiKV 2016-07-29](http://www.pingcap.com/tikv/2016/07/29/tikv-weekly/).
-* [What's coming up in imag 12](http://beyermatthias.de/blog/2016/07/29/what-s-coming-up-in-imag-12/). imag is a personal information
-management suite for the commandline.
+* [What's coming up in imag 12](http://beyermatthias.de/blog/2016/07/29/what-s-coming-up-in-imag-12/). The project also got [a website](http://imag-pim.org), an [IRC channel](irc://irc.freenode.net/#imag) and a [mailinglist](http://imag-pim.org/mailinglist/).
 
 # Crate of the Week
 
