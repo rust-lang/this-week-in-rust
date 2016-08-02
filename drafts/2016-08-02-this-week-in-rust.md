@@ -21,6 +21,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [What's coming up in imag (12)](http://beyermatthias.de/blog/2016/07/29/what-s-coming-up-in-imag-12/)
   was published on the 29th of July. imag is a personal information
   management suite for the commandline.
+  The project also got [a website](http://imag-pim.org), an
+  [IRC channel](irc://irc.freenode.net/#imag) and a
+  [mailinglist](http://imag-pim.org/mailinglist/).
 
 ## New Crates & Project Updates
 
