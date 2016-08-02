@@ -18,16 +18,37 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [What's coming up in imag (12)](http://beyermatthias.de/blog/2016/07/29/what-s-coming-up-in-imag-12/)
-  was published on the 29th of July. imag is a personal information
-  management suite for the commandline.
+* [Huon Wilson and Alexis Beingessner become Rust Team Alumni](https://internals.rust-lang.org/t/rust-team-alumni/3784).
+* [The Internet on Redox](https://www.redox-os.org/news/the-internet-on-redox/). Current state of the Redox operating system. Spoiler: It's progressing fast!
+* [Inside the fastest font renderer in the world](https://medium.com/@raphlinus/inside-the-fastest-font-renderer-in-the-world-75ae5270c445). font-rs, a font renderer written in Rust is an order of magnitude faster than the industry-standard FreeType.
+* [The Rust Platform](https://aturon.github.io/blog/2016/07/27/rust-platform/). Aaron Turon on the concept of “Rust Platform Package”, a _batteries included_ Rust development experience.
+* [Follow up on The Rust Platform](https://internals.rust-lang.org/t/follow-up-the-rust-platform/3782) by Aaron Turon.
+* [Hidden treasures of the Rust ecosystem](https://scribbles.pascalhertleif.de/hidden-treasures-of-the-rust-ecosystems.html).
+* [Structure literals vs constructors in Rust](http://words.steveklabnik.com/structure-literals-vs-constructors-in-rust).
+* [for loops in Rust](http://xion.io/post/code/rust-for-loop.html).
+* [Rust: Beyond the basics](https://medium.com/learning-rust/rust-beyond-the-basics-4fc697e3bf4f).
+* [References and UnsafeCell](https://ubsan.github.io/References-And-UnsafeCell/). Understanding references (`&T` and `&mut T`) and `UnsafeCell`.
+* [Hello World MesssageBox example in Rust](https://wesleywiser.github.io/post/rust-windows-messagebox-hello-world/). Developing a simple GUI application for Windows.
+* [Another happy quickcheck customer](https://llogiq.github.io/2016/07/29/quickcheck.html). @llogiq on his experience with QuickCheck. QuickCheck is a way to do property based testing using randomly generated input.
 
 ## New Crates & Project Updates
 
-* [Zone of Control was ported to GFX](https://github.com/ozkriff/zoc/issues/183).
 * [`rustup` 0.5.0 was released](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/149).
   This build includes a more compact syntax for `rustup run`, a new
   `rustup man` command, and bug fixes.
+* [Zone of Control was ported to GFX](https://github.com/ozkriff/zoc/issues/183).
+* [serde 0.8.0 released](https://github.com/serde-rs/serde/releases/tag/v0.8.0) with breaking changes, bug fixes, and performance enhancements.
+* [Rust Books](https://github.com/sger/RustBooks). List of Rust books.
+* [snap](https://github.com/BurntSushi/rust-snappy). Snappy compression implemented in Rust (including the Snappy frame format).
+* [shoop](https://github.com/mcginty/shoop). Fast SCP, for the modern era.
+* [tock](https://github.com/helena-project/tock). A secure embedded operating system for Cortex-M based microcontrollers.
+* [coq2rust](https://github.com/pirapira/coq2rust). Coq to Rust program extraction.
+* [OpenPGP](https://pijul.org/openpgp/). OpenPGP in Rust.
+* [This week in Rust docs 15](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-15).
+* [This week in Ruma 2016-07-31](https://www.ruma.io/news/this-week-in-ruma-2016-07-31/).
+* [This week in TiKV 2016-07-29](http://www.pingcap.com/tikv/2016/07/29/tikv-weekly/).
+* [What's coming up in imag 12](http://beyermatthias.de/blog/2016/07/29/what-s-coming-up-in-imag-12/). imag is a personal information
+management suite for the commandline.
 
 # Crate of the Week
 
@@ -79,6 +100,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-07-25..2016-08-01
 
+* [Switch to MIR-based translation by default](https://github.com/rust-lang/rust/pull/34096).
 * [Reuse `.o` files of unchanged modules](https://github.com/rust-lang/rust/pull/34956) (first step towards incremental compilation)
 * [{`vec`, `binary_heap`}::`Drain` is now covariant](https://github.com/rust-lang/rust/pull/34951)
 * [`SOCK_CLOEXEC` is now used on Linux](https://github.com/rust-lang/rust/pull/34946) (wasn't before because bug)
@@ -102,8 +124,17 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Evgeny Safronov
-* Matt Horn
+* Andrea Pretto
+* Jonathan A. Kollasch
+* Jonathan Creekmore
+* Knight
+* mcarton
+* Moritz Ulrich
+* Panashe M. Fundira
+* Rahiel Kasim
+* Robert Williamson
+* Thomas Garcia
+* Vladimir Vukicevic
 
 ## Approved RFCs
 
@@ -111,7 +142,13 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1559: Allow all literals in attributes](https://github.com/rust-lang/rfcs/pull/1559).
+* [RFC 1216: Promote `!` to a type](https://github.com/rust-lang/rfcs/pull/1216).
+* [RFC 1660: Introduce non-panicking borrow methods on `RefCell<T>`](https://github.com/rust-lang/rfcs/pull/1660).
+* [RFC 1653: Add `assert_ne` to compliment `assert_eq`](https://github.com/rust-lang/rfcs/pull/1653).
+* [RFC 1504: Add support for 128-bit integers](https://github.com/rust-lang/rfcs/pull/1504).
+* [RFC 1548: Add `global_asm!` for module-level inline assembly](https://github.com/rust-lang/rfcs/pull/1548).
+* [RFC 1560: Some internal and language-level changes to name resolution](https://github.com/rust-lang/rfcs/pull/1560).
+* [Amendment to RFC 1444: Clarify behaviour when writing to a union field that implements Drop](https://github.com/rust-lang/rfcs/pull/1663).
 
 ## Final Comment Period
 
@@ -121,39 +158,29 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [Promote `!` to a type](https://github.com/rust-lang/rfcs/pull/1216)
-* [Add language support for bitfields](https://github.com/rust-lang/rfcs/pull/1449).
-* [Add support for 128-bit integers](https://github.com/rust-lang/rfcs/pull/1504).
-* [Add space-friendly arguments](https://github.com/rust-lang/rfcs/pull/1509). Add `-C link-arg` and `-C llvm-arg` which allow you to pass along argument with spaces.
-* [Exclude macros from importing with `#[macro_use(not(...))]`](https://github.com/rust-lang/rfcs/pull/1517).
-* [Add `global_asm!` for module-level inline assembly](https://github.com/rust-lang/rfcs/pull/1548).
-* [Some internal and language-level changes to name resolution](https://github.com/rust-lang/rfcs/pull/1560).
-* [Define a best practices procedure for making bug fixes in the compiler](https://github.com/rust-lang/rfcs/pull/1589).
-* [RFC process for formatting style and Rustfmt defaults](https://github.com/rust-lang/rfcs/pull/1607).
-* [Add a compiler flag that emits crate dependencies on a best-effort basis](https://github.com/rust-lang/rfcs/pull/1622).
-* [Replace synchronization primitives with those from parking_lot](https://github.com/rust-lang/rfcs/pull/1632).
+* [Add extra access methods for atomic types](https://github.com/rust-lang/rfcs/pull/1649).
 * [Dedicated strike team to resolve unsafe code guidelines](https://github.com/rust-lang/rfcs/pull/1643).
-* [Add `assert_ne` to compliment `assert_eq`](https://github.com/rust-lang/rfcs/pull/1653).
-* [Introduce non-panicking borrow methods on `RefCell<T>`](https://github.com/rust-lang/rfcs/pull/1660).
-* [Propose asserts](https://github.com/rust-lang/rfcs/pull/1662). This rfc proposes that the following macros be added: `assert_gt`, `assert_lt`, `assert_ge`, and `assert_le`.
-* [Clarify behaviour when writing to a union field that implements Drop](https://github.com/rust-lang/rfcs/pull/1663).
+* [Add a compiler flag that emits crate dependencies on a best-effort basis](https://github.com/rust-lang/rfcs/pull/1622).
+* [Specify Rust compatibility of nursery crates](https://github.com/rust-lang/rfcs/pull/1619).
+* [RFC process for formatting style and Rustfmt defaults](https://github.com/rust-lang/rfcs/pull/1607).
+* [Define a best practices procedure for making bug fixes in the compiler](https://github.com/rust-lang/rfcs/pull/1589).
+* [`FusedIterator` marker trait and `iter::Fuse` specialization](https://github.com/rust-lang/rfcs/pull/1581).
 
 ## New RFCs
 
-* [Add API documentation front page styleguide](https://github.com/rust-lang/rfcs/pull/1687).
-* [Deprecate anonymous parameters](https://github.com/rust-lang/rfcs/pull/1685).
-* [Add an environment variable to choose between whether to link the static CRT or dynamic CRT](https://github.com/rust-lang/rfcs/pull/1684).
-* [Create a team responsible for documentation for the Rust project](https://github.com/rust-lang/rfcs/pull/1683).
-* [Propose a shorthand syntax for constructing struct-like values with _named_ fields](https://github.com/rust-lang/rfcs/pull/1682).
+* [Allow deriving `Deref` and `DerefMut`](https://github.com/rust-lang/rfcs/pull/1694).
+* [Add a `compile_error!` macro to libstd](https://github.com/rust-lang/rfcs/pull/1695). `compile_error!` will unconditionally cause compilation to fail with the given error message when encountered.
+* [`mem::discriminant()`](https://github.com/rust-lang/rfcs/pull/1696). Add a function that extracts the discriminant from an enum variant as a comparable, hashable, printable, but (for now) opaque and unorderable type.
 
 # Upcoming Events
 
-* 7/27. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [7/27. Rust Berlin July Meetup](http://www.meetup.com/Rust-Berlin/events/232583152/).
-* [7/28. Rust Bay Area: Machine Learning, Bioinformatics, and Embedded OSes](http://www.meetup.com/Rust-Bay-Area/events/232406852/).
 * 8/3. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * 8/4. Rust release triage at #rust-triage on irc.mozilla.org.
 * [8/8. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
+* 8/10. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* [8/10. Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/events/232581073/).
+* [8/11. Columbus Rust Society](http://www.meetup.com/columbus-rs/events/232469955/).
+* [8/15. Rust Paris](http://www.meetup.com/Rust-Paris/events/230111511/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -165,20 +192,17 @@ Anderson][brson] for access.
 
 # fn work(on: RustProject) -> Money
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
-
 <!-- Do not roll over to next week -->
-## [PhD Position: Concepts and Methods for securing the Future Energy System's Components and Plants](https://stellen.jobs.kit.edu/cgi-bin/appl/list.pl?tmpl=job_details&job_nr=248AF364-5B71-4112-9FBD-0F144C731087&cat_nr=28FD50F7-057E-4EB7-BF74-E00DD530252E&loc_nr=12B87EE0-C700-11D4-8972-0050BAC69B70)
 
-TLDR: the goal of the thesis is the development of a methodology for using the engineering metadata of the systems to generate models that can be used to check the communication and behaviour of the systems. A prototype of the checking tool will be implemented in Rust on ARM hardware.
+* [PhD Position: Concepts and Methods for securing the Future Energy System's Components and Plants](https://stellen.jobs.kit.edu/cgi-bin/appl/list.pl?tmpl=job_details&job_nr=248AF364-5B71-4112-9FBD-0F144C731087&cat_nr=28FD50F7-057E-4EB7-BF74-E00DD530252E&loc_nr=12B87EE0-C700-11D4-8972-0050BAC69B70). TLDR: the goal of the thesis is the development of a methodology for using the engineering metadata of the systems to generate models that can be used to check the communication and behaviour of the systems. A prototype of the checking tool will be implemented in Rust on ARM hardware.
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> you have a problem. you decide to use Rust. now you have a Rc<RefCell<Box<Problem\>\>\>
+*No quote was selected for QotW.*
 
-[kmc on #rust](https://botbot.me/mozilla/rust/2016-07-25/?msg=70207904&page=14).
-
-Thanks to [Alex Burka](https://users.rust-lang.org/users/durka) for the tip. [Submit your quotes for next week][submit]!
+[Submit your quotes for next week][submit]!
 
 [submit]: http://users.rust-lang.org/t/twir-quote-of-the-week/328
 
