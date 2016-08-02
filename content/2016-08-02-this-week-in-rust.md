@@ -174,6 +174,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 # Upcoming Events
 
 * 8/3. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* [8/3. Rust User Group Cologne/Bonn](http://rustaceans.cologne/2016/08/03/one-year-rust-cologne.html).
 * 8/4. Rust release triage at #rust-triage on irc.mozilla.org.
 * [8/8. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
 * 8/10. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
