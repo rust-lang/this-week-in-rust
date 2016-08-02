@@ -18,6 +18,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [What's coming up in imag (12)](http://beyermatthias.de/blog/2016/07/29/what-s-coming-up-in-imag-12/)
+  was published on the 29th of July. imag is a personal information
+  management suite for the commandline.
+
 ## New Crates & Project Updates
 
 * [Zone of Control was ported to GFX](https://github.com/ozkriff/zoc/issues/183).
