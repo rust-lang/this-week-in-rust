@@ -180,6 +180,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * 8/10. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * [8/10. Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/events/232581073/).
 * [8/11. Columbus Rust Society](http://www.meetup.com/columbus-rs/events/232469955/).
+* [8/12. Frankfurt/Germany Meetup](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/232956511/).
 * [8/15. Rust Paris](http://www.meetup.com/Rust-Paris/events/230111511/).
 
 If you are running a Rust event please add it to the [calendar] to get
