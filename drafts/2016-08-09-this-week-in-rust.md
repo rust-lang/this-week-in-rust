@@ -18,6 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [imag usecases](http://beyermatthias.de/blog/2016/08/07/imag-usecases/).
+  imag usecases explained.
+
 ## New Crates & Project Updates
 
 * [Exar DB](https://github.com/bfil/exar-db). An event store with streaming support.
