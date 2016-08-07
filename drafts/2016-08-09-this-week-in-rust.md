@@ -63,7 +63,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
   actually required
   DerefMut](https://github.com/rust-lang/rust/issues/28419). Good
   first type system bug.
-* [easy] [imag: Switch to clap in the `imag` binary](https://github.com/matthiasbeyer/imag/issues/566).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
