@@ -18,6 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [imag usecases](http://beyermatthias.de/blog/2016/08/07/imag-usecases/).
+  imag usecases explained.
+
 ## New Crates & Project Updates
 
 * [Exar DB](https://github.com/bfil/exar-db). An event store with streaming support.
@@ -61,7 +64,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
   actually required
   DerefMut](https://github.com/rust-lang/rust/issues/28419). Good
   first type system bug.
-* [easy] [imag: Switch to clap in the `imag` binary](https://github.com/matthiasbeyer/imag/issues/566).
+* [hard] [imag: implement bindings to lua/lisp (ketos)/rhai for the filter
+  library](https://github.com/matthiasbeyer/imag/issues/245)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
