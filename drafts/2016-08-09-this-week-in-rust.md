@@ -63,6 +63,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
   actually required
   DerefMut](https://github.com/rust-lang/rust/issues/28419). Good
   first type system bug.
+* [hard] [imag: implement bindings to lua/lisp (ketos)/rhai for the filter
+  library](https://github.com/matthiasbeyer/imag/issues/245)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
