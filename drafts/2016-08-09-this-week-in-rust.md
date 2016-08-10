@@ -18,12 +18,28 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [imag usecases](http://beyermatthias.de/blog/2016/08/07/imag-usecases/).
-  imag usecases explained.
+* [Announcing Tokio](https://medium.com/@carllerche/announcing-tokio-df6bb4ddb34). A Finagle inspired network application framework for Rust.
+* [Helping with the Rust errors](http://www.jonathanturner.org/2016/08/helping-out-with-rust-errors.html). Step-by-step instructions on how to help with the new Rust error messages.
+* [Introduction to nom](http://hermanradtke.com/2016/08/08/introduction-to-nom-rust-parsing-combinator-framework.html). A parsing framework written in Rust.
+* [Convenient and idiomatic conversions in Rust](https://ricardomartins.cc/2016/08/03/convenient_and_idiomatic_conversions_in_rust).
+* [Better Exception Messages](http://os.phil-opp.com/better-exception-messages.html). Part of the series [Writing an OS in Rust](http://os.phil-opp.com/).
+* [Writing a JPEG decoder in Rust](https://mht.technology/post/jpeg-rust-1/). Part 1: Background.
+* [Extent of Intent](https://llogiq.github.io/2016/08/05/intent.html). Llogiq considers no-ops for consistency's sake harmful.
+* [Rust code in mozilla-central now builds via cargo](https://groups.google.com/forum/#!topic/mozilla.dev.platform/BVPBhexRN3s).
+* [imag usecases](http://beyermatthias.de/blog/2016/08/07/imag-usecases/). imag usecases explained.
+* [podcast] [New Rustacean podcast episode 17](http://www.newrustacean.com/show_notes/e017/). A deep dive on references and pointers in Rust.
 
 ## New Crates & Project Updates
 
+* [graph] Six months of rustc [performance](https://www.reddit.com/r/rust/comments/4w7e83/six_months_of_rustc_performance_201601_201606/) and [memory usage](https://www.reddit.com/r/rust/comments/4wk4uu/rustc_memory_usage/).
+* [Tokamak 0.2.8 released](https://vertexclique.com/new-features-in-tokamak/). Now with Rustup support.
+* Cargo nightly builds now [support vendoring dependencies](https://users.rust-lang.org/t/cargo-vendoring-now-on-nightly/6776).
 * [Exar DB](https://github.com/bfil/exar-db). An event store with streaming support.
+* [DUX](https://github.com/meh/dux). An X11 backlight manager.
+* [This week in Servo 73](https://blog.servo.org/2016/08/01/twis-73/).
+* [This week in Rust docs 16](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-16).
+* [This week in TiKV 2016-08-05](http://www.pingcap.com/tikv/2016/08/05/tikv-weekly/).
+* [This week in Ruma 2016-08-07](https://www.ruma.io/news/this-week-in-ruma-2016-08-07/).
 
 # Crate of the Week
 
@@ -41,25 +57,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [easy] [rust book: Script to lint for copypasta'd file paths that should be generic](https://github.com/rust-lang/book/issues/123). Create a little script that will help the next version of the book have fewer errors!
-* [easy] [rust-dashboard: Fix '0 days since accident' sign](https://github.com/dikaiosune/rust-dashboard/issues/71).
-  Easy bug on important piece of infrastructure that needs more contributors.
-* [easy] [rust-dashboard: User-defined date rang](https://github.com/dikaiosune/rust-dashboard/issues/26).
-  This is an important enhancement. Requires some web experience.
+* [easy] [rust: Error code list which need to be updated to new format](https://github.com/rust-lang/rust/issues/35233).
 * [easy] [rustup: Don't capture backtraces without RUST_BACKTRACE=1](https://github.com/rust-lang-nursery/rustup.rs/issues/591#issuecomment-236235677).
   An easy fix, done in two steps, first modifying error-chain, then upgrading it in rustup.
-* [easy] [cargo: Warn on duplicate entry points](https://github.com/rust-lang/cargo/issues/2800).
-  Simple way to get involved in one of the most important Rust projects.
-* [easy] [cargo: Can't specify precise crate version if there are
-  multiple versions](https://github.com/rust-lang/cargo/issues/2773).
-* [easy] [rust: Make it easier to locate deadlocked
-  tests](https://github.com/rust-lang/rust/issues/2873).  A simple
-  enhancement to the test runner to notify the user about long-running
-  tests.
 * [easy] [rustup: Add command to install shell
   completions](https://github.com/rust-lang-nursery/rustup.rs/issues/387#issuecomment-234675568).
-* [easy] [rustup: Clean up toolchain directories after
-  uninstall](https://github.com/rust-lang-nursery/rustup.rs/issues/596#issuecomment-233716695).
-  A simple bug with a clear fix.
 * [moderate] [rust: improve error message when resolution via Deref
   actually required
   DerefMut](https://github.com/rust-lang/rust/issues/28419). Good
@@ -101,17 +103,39 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Andrea Pretto
-* Jonathan A. Kollasch
-* Jonathan Creekmore
-* Knight
-* mcarton
+* Adam Medziński
+* Alexander Altman
+* Chris Stankus
+* Christian Poveda
+* Dominik Boehi
+* Federico Ravasio
+* Fran Guijarro
+* Jakub Hlusička
+* Jared Wyles
+* Jonathan Giddy
+* kc1212
+* m4b
+* Matthias Rabault
+* Mikhail Modin
+* mLuby
 * Moritz Ulrich
-* Panashe M. Fundira
-* Rahiel Kasim
-* Robert Williamson
-* Thomas Garcia
-* Vladimir Vukicevic
+* Nick Massey
+* Oliver Forral
+* Omer Sheikh
+* Peter C. Norton
+* Rahul Sharma
+* Roy Brunton
+* Ryan Scott
+* Samuel Cormier-Iijima
+* Shantanu Raj
+* silenuss
+* Terry Sun
+* TheZoq2
+* trixnz
+* Vincent Prouillet
+* William Lee
+* Yojan Shrestha
+* Yossi Konstantinovsky
 
 ## Approved RFCs
 
@@ -119,13 +143,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1216: Promote `!` to a type](https://github.com/rust-lang/rfcs/pull/1216).
-* [RFC 1660: Introduce non-panicking borrow methods on `RefCell<T>`](https://github.com/rust-lang/rfcs/pull/1660).
-* [RFC 1653: Add `assert_ne` to compliment `assert_eq`](https://github.com/rust-lang/rfcs/pull/1653).
-* [RFC 1504: Add support for 128-bit integers](https://github.com/rust-lang/rfcs/pull/1504).
-* [RFC 1548: Add `global_asm!` for module-level inline assembly](https://github.com/rust-lang/rfcs/pull/1548).
-* [RFC 1560: Some internal and language-level changes to name resolution](https://github.com/rust-lang/rfcs/pull/1560).
-* [Amendment to RFC 1444: Clarify behaviour when writing to a union field that implements Drop](https://github.com/rust-lang/rfcs/pull/1663).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -135,6 +153,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
+* [Create a team responsible for documentation for the Rust project](https://github.com/rust-lang/rfcs/pull/1683).
 * [Add extra access methods for atomic types](https://github.com/rust-lang/rfcs/pull/1649).
 * [Dedicated strike team to resolve unsafe code guidelines](https://github.com/rust-lang/rfcs/pull/1643).
 * [Add a compiler flag that emits crate dependencies on a best-effort basis](https://github.com/rust-lang/rfcs/pull/1622).
@@ -142,12 +161,16 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [RFC process for formatting style and Rustfmt defaults](https://github.com/rust-lang/rfcs/pull/1607).
 * [Define a best practices procedure for making bug fixes in the compiler](https://github.com/rust-lang/rfcs/pull/1589).
 * [`FusedIterator` marker trait and `iter::Fuse` specialization](https://github.com/rust-lang/rfcs/pull/1581).
+* [Add a `literal` fragment specifier for `macro_rules!` patterns that matches literal constants](https://github.com/rust-lang/rfcs/pull/1576).
+* [Clarify the relationships between various kinds of structs and variants](https://github.com/rust-lang/rfcs/pull/1506).
 
 ## New RFCs
 
-* [Allow deriving `Deref` and `DerefMut`](https://github.com/rust-lang/rfcs/pull/1694).
-* [Add a `compile_error!` macro to libstd](https://github.com/rust-lang/rfcs/pull/1695). `compile_error!` will unconditionally cause compilation to fail with the given error message when encountered.
-* [`mem::discriminant()`](https://github.com/rust-lang/rfcs/pull/1696). Add a function that extracts the discriminant from an enum variant as a comparable, hashable, printable, but (for now) opaque and unorderable type.
+* [Allow crates to specify the version of Rust in which they are written](https://github.com/rust-lang/rfcs/pull/1709).
+* [Support versioned dependencies on build tools, such as cargo](https://github.com/rust-lang/rfcs/pull/1707).
+* [Add a 'thread lifetime, which denotes a thread-bounded region](https://github.com/rust-lang/rfcs/pull/1705).
+* [Allow uncallable method impls to be omitted](https://github.com/rust-lang/rfcs/pull/1699).
+* [Target bundles](https://github.com/rust-lang/rfcs/pull/1711). Combine distribution of standard libraries and targets into bundles for targeting a particular platform.
 
 # Upcoming Events
 
@@ -170,11 +193,18 @@ Anderson][brson] for access.
 
 # fn work(on: RustProject) -> Money
 
+*No jobs listed for this week.*
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> The if let construction is a neat thing Rust borrowed from Swift (perhaps "copied" would be more accurate, or "cloned" depending on your views on whether ideas have owners).
+
+— [Frank McSherry in a blog post](https://github.com/frankmcsherry/blog/blob/master/posts/2016-08-03.md#differential-dataflow-internals-a-work-in-progress).
+
+Thanks to [/u/vks_](https://www.reddit.com/r/rust/comments/4w1xlx/differential_dataflow_internals_a_work_in_progress/d65jvlh) and [Brian Anderson](https://users.rust-lang.org/t/twir-quote-of-the-week/328/278) for the suggestion.
+y way of /u/vks_ on Reddit8.
 
 [Submit your quotes for next week][submit]!
 
