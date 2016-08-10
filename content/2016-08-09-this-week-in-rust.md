@@ -36,6 +36,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * Cargo nightly builds now [support vendoring dependencies](https://users.rust-lang.org/t/cargo-vendoring-now-on-nightly/6776).
 * [Exar DB](https://github.com/bfil/exar-db). An event store with streaming support.
 * [DUX](https://github.com/meh/dux). An X11 backlight manager.
+* [rst](https://github.com/vitiral/rst). A requirements tracking tool made for developers and stands for "Requirements, Specifications and Tests". There is also an [introductory blog post](https://vitiral.github.io/developer/2016/08/08/why-hackers-should-track-their-requirements.html).
+* [fdpass-rs](https://github.com/stemjail/fdpass-rs). A high level library to send and receive file descriptors through UNIX socket in a safe way.
 * [This week in Servo 73](https://blog.servo.org/2016/08/01/twis-73/).
 * [This week in Rust docs 16](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-16).
 * [This week in TiKV 2016-08-05](http://www.pingcap.com/tikv/2016/08/05/tikv-weekly/).
@@ -174,15 +176,13 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 # Upcoming Events
 
-* 8/3. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [8/3. Rust User Group Cologne/Bonn](http://rustaceans.cologne/2016/08/03/one-year-rust-cologne.html).
-* 8/4. Rust release triage at #rust-triage on irc.mozilla.org.
-* [8/8. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
 * 8/10. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * [8/10. Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/events/232581073/).
 * [8/11. Columbus Rust Society](http://www.meetup.com/columbus-rs/events/232469955/).
 * [8/12. Frankfurt/Germany Meetup](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/232956511/).
 * [8/15. Rust Paris](http://www.meetup.com/Rust-Paris/events/230111511/).
+* 8/17. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* [8/17. Rust Los Angeles Meetup](https://www.meetup.com/Rust-Los-Angeles/events/232933613/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -200,12 +200,11 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
-> The if let construction is a neat thing Rust borrowed from Swift (perhaps "copied" would be more accurate, or "cloned" depending on your views on whether ideas have owners).
+> The `if let` construction is a neat thing Rust borrowed from Swift (perhaps "copied" would be more accurate, or "cloned" depending on your views on whether ideas have owners).
 
 — [Frank McSherry in a blog post](https://github.com/frankmcsherry/blog/blob/master/posts/2016-08-03.md#differential-dataflow-internals-a-work-in-progress).
 
 Thanks to [/u/vks_](https://www.reddit.com/r/rust/comments/4w1xlx/differential_dataflow_internals_a_work_in_progress/d65jvlh) and [Brian Anderson](https://users.rust-lang.org/t/twir-quote-of-the-week/328/278) for the suggestion.
-y way of /u/vks_ on Reddit8.
 
 [Submit your quotes for next week][submit]!
 
