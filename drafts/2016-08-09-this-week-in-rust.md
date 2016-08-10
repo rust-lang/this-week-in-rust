@@ -27,7 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's Crate of the Week is MaidSafe's [lru_time_cache](https://crates.io/crates/lru_time_cache), a simple but complete least-recently-used cache implementation. Thanks [gregwtmtno](https://users.rust-lang.org/users/gregwtmtno) for the suggestion.
+This week's Crate of the Week is Dylan Ede's [rusttype](https://crates.io/crates/rusttype), a pure Rust freetype replacement. Thanks [mindtree](https://users.rust-lang.org/users/mindtree) for the suggestion.
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -73,31 +73,31 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-127 pull requests were [merged in the last two weeks][merged].
+147 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-07-25..2016-08-01
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-08-01..2016-08-08
 
-* [Switch to MIR-based translation by default](https://github.com/rust-lang/rust/pull/34096).
-* [Reuse `.o` files of unchanged modules](https://github.com/rust-lang/rust/pull/34956) (first step towards incremental compilation)
-* [{`vec`, `binary_heap`}::`Drain` is now covariant](https://github.com/rust-lang/rust/pull/34951)
-* [`SOCK_CLOEXEC` is now used on Linux](https://github.com/rust-lang/rust/pull/34946) (wasn't before because bug)
-* [TT-macro fixup](https://github.com/rust-lang/rust/pull/34908)
-* [unstable ABIs now properly feature-gated](https://github.com/rust-lang/rust/pull/34904) (scary change, but crater found zero regressions)
-* [`Debug` output now escapes fewer unicode codepoints](https://github.com/rust-lang/rust/pull/34485)
-* [`impl DoubleEndedIterator for std::env::args`](https://github.com/rust-lang/rust/pull/33312)
-* [ARM personality routine is now Rust](https://github.com/rust-lang/rust/pull/35032)
-* [Keep in-transit closure types out of obligation tree](https://github.com/rust-lang/rust/pull/34986)
-* [Process `feature` flags only on configured crates](https://github.com/rust-lang/rust/pull/34969)
-* [ICE on unresolved imports in patterns fixed](https://github.com/rust-lang/rust/pull/34963)
-* [`std::i*:checked_abs()`](https://github.com/rust-lang/rust/pull/35058)
-* [ensure absense of single quotes in Windows paths](https://github.com/rust-lang/rust/pull/35117)
-* [`MultiSpan` has a bunch of methods back](https://github.com/rust-lang/rust/pull/35094) (erroneously thought to be unused and removed last week, broke clippy)
-* [`intravisit::Visitor` now subsumes `IdVisitor`'s functionality](https://github.com/rust-lang/rust/pull/35090)
-* [Only export `#[no_mangle]` externals on LTO builds](https://github.com/rust-lang/rust/pull/35069)
-* [cargo now has subcommand man pages](https://github.com/rust-lang/cargo/pull/2918)
-* [cargo now creates bin crates by default](https://github.com/rust-lang/cargo/pull/2921)
+* Too many error description updates to report here
+* [MIR switched on by default](https://github.com/rust-lang/rust/pull/34096) (test it while it's hot!)
+* [MIR deaggregates struct access](https://github.com/rust-lang/rust/pull/35168)
+* [The LLVM Upgrade from Hell](https://github.com/rust-lang/rust/pull/34743) (A most epic MIR blocker)
+* [fix out-of-sync LLVM interface](https://github.com/rust-lang/rust/pull/35174)
+* [Auto-Upgrade outmoded LLVM intrinsics](https://github.com/rust-lang/rust/pull/35261)
+* [MinGW linking problems dodged](https://github.com/rust-lang/rust/pull/34830)
+* [Fix `panic=abort` vs. plugins](https://github.com/rust-lang/cargo/pull/2954)
+* [`TokenStream`s are now ropes](https://github.com/rust-lang/rust/pull/35018)
+* [`TypeId`s are now unique cross-crate](https://github.com/rust-lang/rust/pull/35267)
+* [Cross-Crate DefIds](https://github.com/rust-lang/rust/pull/35197) needed for MIR
+* [Break unsound code with unused type parameters](https://github.com/rust-lang/rust/pull/35143) (breaking change, if you didn't infer that already)
+* [Better warnings against shadowing types/imports](https://github.com/rust-lang/rust/pull/35116)
+* [Ignore deprecated items within deprecated items](https://github.com/rust-lang/rust/pull/35317)
+* [Unify inlined code caching](https://github.com/rust-lang/rust/pull/35114) (should need less RAM)
+* [Unmatched surrogates are now reported in lowercase](https://github.com/rust-lang/rust/pull/35084) (could break your code if you relied on uppercase – hopefully no one did)
+* [`impl From<Vec<char>>` and `From<&[char]> for String`](https://github.com/rust-lang/rust/pull/35054)
+* [Handle `RwLock` reader overflow](https://github.com/rust-lang/rust/pull/35378)
+* [Cargo now supports local registry mirrors](https://github.com/rust-lang/cargo/pull/2857)
+* [Cargo warns, not errs on duplicate targets](https://github.com/rust-lang/cargo/pull/2962)
 
-(On a less serious note, the team was [admonished](https://github.com/rust-lang/meeting-minutes/pull/18/files) to avoid time travel)
 
 ## New Contributors
 
@@ -158,6 +158,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * 8/10. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * [8/10. Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/events/232581073/).
 * [8/11. Columbus Rust Society](http://www.meetup.com/columbus-rs/events/232469955/).
+* [8/12. Frankfurt/Germany Meetup](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/232956511/).
 * [8/15. Rust Paris](http://www.meetup.com/Rust-Paris/events/230111511/).
 
 If you are running a Rust event please add it to the [calendar] to get
