@@ -27,6 +27,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 - The official [nano-config](https://github.com/rust-lang/nano-config) repo is _undeprecated_. It now contains a configuration that is compatible with older versions of the editor.
 - [What's coming up in imag 13](http://beyermatthias.de/blog/2016/08/12/what-s-coming-up-in-imag-13/)
   was published on August 12th.
+* [filters](https://github.com/matthiasbeyer/filters) - a crate for building
+  predicates/filters with the builder pattern. Also
+  [released in 0.1.0](https://crates.io/crates/filters)!
 
 # Crate of the Week
 
