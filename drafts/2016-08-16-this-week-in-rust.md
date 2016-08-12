@@ -25,6 +25,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 - [error-chain 0.5.0 released](https://users.rust-lang.org/t/announcing-error-chain-a-library-for-consistent-and-reliable-rust-error-handling/6133/21), changing how backtraces are handled.
 - [rust-skeptic 0.6.1 released](https://users.rust-lang.org/t/rust-skeptic-test-your-rust-markdown-documentation-via-cargo/2163/4), with fixes and optimizations.
 - The official [nano-config](https://github.com/rust-lang/nano-config) repo is _undeprecated_. It now contains a configuration that is compatible with older versions of the editor.
+- [What's coming up in imag 13](http://beyermatthias.de/blog/2016/08/12/what-s-coming-up-in-imag-13/)
+  was published on August 12th.
 
 # Crate of the Week
 
