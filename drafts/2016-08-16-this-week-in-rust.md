@@ -28,7 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's Crate of the Week is Dylan Ede's [rusttype](https://crates.io/crates/rusttype), a pure Rust freetype replacement. Thanks [mindtree](https://users.rust-lang.org/users/mindtree) for the suggestion.
+This week's Crate of the Week is Raph Levien's [font-rs](https://github.com/google/font-rs), yet another pure Rust font renderer, which is incomplete, but *very* fast. Thanks [StefanoD](https://users.rust-lang.org/users/StefanoD) for the suggestion.
 
 [Submit your suggestions for next week][submit_crate]!
 
@@ -62,30 +62,35 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-147 pull requests were [merged in the last two weeks][merged].
+135 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-08-01..2016-08-08
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-08-08..2016-08-15
 
-* Too many error description updates to report here
-* [MIR switched on by default](https://github.com/rust-lang/rust/pull/34096) (test it while it's hot!)
-* [MIR deaggregates struct access](https://github.com/rust-lang/rust/pull/35168)
-* [The LLVM Upgrade from Hell](https://github.com/rust-lang/rust/pull/34743) (A most epic MIR blocker)
-* [fix out-of-sync LLVM interface](https://github.com/rust-lang/rust/pull/35174)
-* [Auto-Upgrade outmoded LLVM intrinsics](https://github.com/rust-lang/rust/pull/35261)
-* [MinGW linking problems dodged](https://github.com/rust-lang/rust/pull/34830)
-* [Fix `panic=abort` vs. plugins](https://github.com/rust-lang/cargo/pull/2954)
-* [`TokenStream`s are now ropes](https://github.com/rust-lang/rust/pull/35018)
-* [`TypeId`s are now unique cross-crate](https://github.com/rust-lang/rust/pull/35267)
-* [Cross-Crate DefIds](https://github.com/rust-lang/rust/pull/35197) needed for MIR
-* [Break unsound code with unused type parameters](https://github.com/rust-lang/rust/pull/35143) (breaking change, if you didn't infer that already)
-* [Better warnings against shadowing types/imports](https://github.com/rust-lang/rust/pull/35116)
-* [Ignore deprecated items within deprecated items](https://github.com/rust-lang/rust/pull/35317)
-* [Unify inlined code caching](https://github.com/rust-lang/rust/pull/35114) (should need less RAM)
-* [Unmatched surrogates are now reported in lowercase](https://github.com/rust-lang/rust/pull/35084) (could break your code if you relied on uppercase – hopefully no one did)
-* [`impl From<Vec<char>>` and `From<&[char]> for String`](https://github.com/rust-lang/rust/pull/35054)
-* [Handle `RwLock` reader overflow](https://github.com/rust-lang/rust/pull/35378)
-* [Cargo now supports local registry mirrors](https://github.com/rust-lang/cargo/pull/2857)
-* [Cargo warns, not errs on duplicate targets](https://github.com/rust-lang/cargo/pull/2962)
+* [`impl trait` in return type position](https://github.com/rust-lang/rust/pull/35091) Yay! @eddyb, you're a hero!
+* [It is now an error to use private items in public code](https://github.com/rust-lang/rust/pull/34206) (formerly a warning)
+* [Also, `private_in_public` checker now substitutes type aliases](https://github.com/rust-lang/rust/pull/34193)
+* [`--test-threads=`N argument for tests](https://github.com/rust-lang/rust/pull/35414)
+* [Slow test warning](https://github.com/rust-lang/rust/pull/35405)
+* [Extend MIR to emit LLVM lifetime statements](https://github.com/rust-lang/rust/pull/35409)
+* [MIR: new statement kind for enum deaggregation](https://github.com/rust-lang/rust/pull/35348)
+* [Incremental Compilation: Fixed some ICEs](https://github.com/rust-lang/rust/pull/35166)
+* [Strict Version Hashes for Crates improved](https://github.com/rust-lang/rust/pull/35079)
+* [Improved {H,C}ashing for dep-graphs](https://github.com/rust-lang/rust/pull/35406)
+* [Some artificial restrictions regarding zero-sized structs/enum variants lifted](https://github.com/rust-lang/rust/pull/35138) (RFC 1506)
+* [`std::vec::intoIter::as_&lt;mut_&gt;slice()`](https://github.com/rust-lang/rust/pull/35447)
+* [Optimize `std::panic::catch_unwind(_)` slightly](https://github.com/rust-lang/rust/pull/35444) (don't use it anyway unless you have to)
+* [`impl From<T> for` {ε, `Ref`, `Unsafe`}`Cell<T>`](https://github.com/rust-lang/rust/pull/35392)...
+* [`impl FromIterator<_> for Cow<str>`](https://github.com/rust-lang/rust/pull/35064)
+* [Macro expansion, expanded](https://github.com/rust-lang/rust/pull/34811)
+* [Macros: hygienic metavariables](https://github.com/rust-lang/rust/pull/35453)
+* [`binary_search_by_key(..)` now more flexible with specified lifetime](https://github.com/rust-lang/rust/pull/34762) (what a small lifetime annotation can do)
+* [Being smart about concatenating TokenStreams](https://github.com/rust-lang/rust/pull/35539)
+* [Unchanged github repos are no longer re-downloaded](https://github.com/rust-lang/cargo/pull/2974) (uses github API instead)
+* [Test improvements for emscripten port](https://github.com/rust-lang/rust/pull/35574)
+* [New errors (+ JSON mode) now active by default](https://github.com/rust-lang/rust/pull/35401) Yay! And kudos, Jonathan!
+* [Better error messages on missing parenthesis when calling fields](https://github.com/rust-lang/rust/pull/35456) (e.g. `(x.y)()`)
+* [Better {`&`, `*`}`ptr` printing in error messages](https://github.com/rust-lang/rust/pull/35611)
+* Another large batch of changes to error messages
 
 
 ## New Contributors
@@ -168,6 +173,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [8/15. Rust Paris](http://www.meetup.com/Rust-Paris/events/230111511/).
 * 8/17. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * [8/17. Rust Los Angeles Meetup](https://www.meetup.com/Rust-Los-Angeles/events/232933613/).
+* 9/9. Rust Table of Regulars Darmstadt
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
