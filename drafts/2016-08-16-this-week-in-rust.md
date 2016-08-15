@@ -18,7 +18,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Xero and Sandstorm.io have been added to the Friends of Rust page](https://www.rust-lang.org/en-US/friends.html). Xero is using Rust for infrastructure, and Sandstorm.io has a [collections application](https://sandstorm.io/news/2016-08-09-collections-app) in Rust.
+
 ## New Crates & Project Updates
+
+- [error-chain 0.5.0 released](https://users.rust-lang.org/t/announcing-error-chain-a-library-for-consistent-and-reliable-rust-error-handling/6133/21), changing how backtraces are handled.
+- [rust-skeptic 0.6.1 released](https://users.rust-lang.org/t/rust-skeptic-test-your-rust-markdown-documentation-via-cargo/2163/4), with fixes and optimizations.
+- The official [nano-config](https://github.com/rust-lang/nano-config) repo is _undeprecated_. It now contains a configuration that is compatible with older versions of the editor.
 
 # Crate of the Week
 
@@ -35,6 +41,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [moderate] [rust-www: Add a section to the front page with 3 rotating 'friends'](https://github.com/rust-lang/rust-www/issues/477).
+  This is an important change to how we present Rust that everybody will see.
 * [easy] [rust book: Script to lint for copypasta'd file paths that should be generic](https://github.com/rust-lang/book/issues/123). Create a little script that will help the next version of the book have fewer errors!
 * [easy] [rust: Error code list which need to be updated to new format](https://github.com/rust-lang/rust/issues/35233).
 * [easy] [rustup: Don't capture backtraces without RUST_BACKTRACE=1](https://github.com/rust-lang-nursery/rustup.rs/issues/591#issuecomment-236235677).
