@@ -18,9 +18,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Security Advisory for crates.io, 2016-08-15](https://users.rust-lang.org/t/security-advisory-for-crates-io-2016-08-15/6907). Please read, especially if you've renamed your GitHub account.
 - [Shape of errors to come](https://blog.rust-lang.org/2016/08/10/Shape-of-errors-to-come.html). A sneak peek at new & improved error formats in Rust.
 - [What’s new with “The Rust Programming Language”](http://words.steveklabnik.com/whats-new-with-the-rust-programming-language)? Second edition of TRPL book is coming up with [Carol Nicholas](https://github.com/carols10cents) as a co-author.
-- [Zero-cost futures in Rust](https://aturon.github.io/blog/2016/08/11/futures/).
+- [Zero-cost futures in Rust](https://aturon.github.io/blog/2016/08/11/futures/). futures-rs is now ready for prime time!
 - [Futures in Rust](http://www.ishbir.com/post/2016-08-14-futures-in-rust/). Writing an Async Web API Wrapper - An excercise in learning Rust.
 - [Rust compiler walk-through: Introduction](https://gchp.ie/2016/08/09/rust-compiler-walkthrough-introduction/).
 - [Asynchronous servers in Rust](https://gkbrk.com/2016/08/asynchronous-servers-in-rust/). Using tokio-rs to build an asynchronous server.
@@ -29,7 +30,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## New Crates & Project Updates
 
-- [Security Advisory for crates.io, 2016-08-15](https://users.rust-lang.org/t/security-advisory-for-crates-io-2016-08-15/6907). Please read, especially if you've renamed your GitHub account.
 - [error-chain 0.5.0 released](https://users.rust-lang.org/t/announcing-error-chain-a-library-for-consistent-and-reliable-rust-error-handling/6133/21), changing how backtraces are handled.
 - [rust-skeptic 0.6.1 released](https://users.rust-lang.org/t/rust-skeptic-test-your-rust-markdown-documentation-via-cargo/2163/4), with fixes and optimizations.
 - The official [nano-config](https://github.com/rust-lang/nano-config) repo is _undeprecated_. It now contains a configuration that is compatible with older versions of the editor.
@@ -40,16 +40,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 - [WS-RS](https://github.com/housleyjk/ws-rs). Lightweight, event-driven WebSockets for Rust.
 - [alexa-rs](https://github.com/neil-lobracco/alexa-rs). Rust library for building Alexa skills.
 - [Tantivy](https://github.com/fulmicoton/tantivy). A text search engine library written in Rust.
+- [filters](https://github.com/matthiasbeyer/filters) - a crate for building predicates/filters with the builder pattern.
+- [derive_builder](https://github.com/colin-kiegel/rust-derive-builder). Derive builder implementation for Rust structs.
 - [This week in Servo 74](https://blog.servo.org/2016/08/08/twis-74/).
-* [This week in Rust Docs 17](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-17).
+* [This week in Rust docs 17](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-17).
 - [TiKV weekly 2016-08-12](http://www.pingcap.com/tikv/2016/08/12/tikv-weekly/).
 - [Talking Tock week 1](http://www.tockos.org/blog/2016/talking-tock-1/). Tock is a safe, multitasking operating system for low-power, low-memory microcontrollers.
 - [Talking Tock week 2](http://www.tockos.org/blog/2016/talking-tock-2/).
-- [What's coming up in imag 13](http://beyermatthias.de/blog/2016/08/12/what-s-coming-up-in-imag-13/)
-  was published on August 12th.
-- [filters](https://github.com/matthiasbeyer/filters) - a crate for building
-  predicates/filters with the builder pattern. Also
-  [released in 0.1.0](https://crates.io/crates/filters)!
+- [What's coming up in imag 13](http://beyermatthias.de/blog/2016/08/12/what-s-coming-up-in-imag-13/).
 
 # Crate of the Week
 
@@ -68,8 +66,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [moderate] [rust-www: Add a section to the front page with 3 rotating 'friends'](https://github.com/rust-lang/rust-www/issues/477).
   This is an important change to how we present Rust that everybody will see.
-* [easy] [rust book: Script to lint for copypasta'd file paths that should be generic](https://github.com/rust-lang/book/issues/123). Create a little script that will help the next version of the book have fewer errors!
 * [easy] [rust: Error code list which need to be updated to new format](https://github.com/rust-lang/rust/issues/35233).
+* [easy] [servo: Do not define Pipeline::setup_common when on Windows](https://github.com/servo/servo/issues/12856).
 * [easy] [rustup: Don't capture backtraces without RUST_BACKTRACE=1](https://github.com/rust-lang-nursery/rustup.rs/issues/591#issuecomment-236235677).
   An easy fix, done in two steps, first modifying error-chain, then upgrading it in rustup.
 * [easy] [rustup: Add command to install shell
@@ -120,39 +118,27 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Adam Medziński
-* Alexander Altman
-* Chris Stankus
-* Christian Poveda
-* Dominik Boehi
-* Federico Ravasio
-* Fran Guijarro
-* Jakub Hlusička
-* Jared Wyles
-* Jonathan Giddy
-* kc1212
-* m4b
-* Matthias Rabault
-* Mikhail Modin
-* mLuby
-* Moritz Ulrich
-* Nick Massey
-* Oliver Forral
-* Omer Sheikh
-* Peter C. Norton
-* Rahul Sharma
-* Roy Brunton
-* Ryan Scott
-* Samuel Cormier-Iijima
-* Shantanu Raj
-* silenuss
-* Terry Sun
-* TheZoq2
-* trixnz
-* Vincent Prouillet
-* William Lee
-* Yojan Shrestha
-* Yossi Konstantinovsky
+* Andrii Dmytrenko
+* Cameron Hart
+* Cengiz Can
+* Chiu-Hsiang Hsu
+* Christophe Vu-Brugier
+* Clement Miao
+* crypto-universe
+* Felix Rath
+* hank-der-hafenarbeiter
+* José manuel Barroso Galindo
+* Krzysztof Garczynski
+* Luke Hinds
+* Marco A L Barbosa
+* Mark-Simulacrum
+* Matthew Piziak
+* Michael Gattozzi
+* Patrick McCann
+* Pietro Albini
+* ShyamSundarB
+* srdja
+* Stephen Lazaro
 
 ## Approved RFCs
 
@@ -160,7 +146,13 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 1643: Dedicated strike team to resolve unsafe code guidelines](https://github.com/rust-lang/rfcs/pull/1643).
+* [RFC 1607: RFC process for formatting style and Rustfmt defaults](https://github.com/rust-lang/rfcs/pull/1607).
+* [RFC 1683: Create a team responsible for documentation for the Rust project](https://github.com/rust-lang/rfcs/pull/1683).
+* [RFC 1581: `FusedIterator` marker trait and `iter::Fuse` specialization](https://github.com/rust-lang/rfcs/pull/1581).
+* [RFC 1649: Add extra access methods for atomic types](https://github.com/rust-lang/rfcs/pull/1649).
+* [RFC 1576: Add a `literal` fragment specifier for `macro_rules!` patterns that matches literal constants](https://github.com/rust-lang/rfcs/pull/1576).
+* [RFC 1506: Clarify the relationships between various kinds of structs and variants](https://github.com/rust-lang/rfcs/pull/1506).
 
 ## Final Comment Period
 
@@ -170,34 +162,34 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [Create a team responsible for documentation for the Rust project](https://github.com/rust-lang/rfcs/pull/1683).
-* [Add extra access methods for atomic types](https://github.com/rust-lang/rfcs/pull/1649).
-* [Dedicated strike team to resolve unsafe code guidelines](https://github.com/rust-lang/rfcs/pull/1643).
+* [Allow deriving `Deref` and `DerefMut`](https://github.com/rust-lang/rfcs/pull/1694).
+* [Procedural macros 1.1](https://github.com/rust-lang/rfcs/pull/1681).
+* [Add "panic-safe" or "total" alternatives to the existing panicking indexing syntax](https://github.com/rust-lang/rfcs/pull/1679).
+* [Add `checked_sub()` already known from various primitive types to the `Duration` struct](https://github.com/rust-lang/rfcs/pull/1640).
+* [Omit `'static` lifetimes to reference or generics lifetime values in `static` or `const` declarations](https://github.com/rust-lang/rfcs/pull/1623).
 * [Add a compiler flag that emits crate dependencies on a best-effort basis](https://github.com/rust-lang/rfcs/pull/1622).
 * [Specify Rust compatibility of nursery crates](https://github.com/rust-lang/rfcs/pull/1619).
-* [RFC process for formatting style and Rustfmt defaults](https://github.com/rust-lang/rfcs/pull/1607).
 * [Define a best practices procedure for making bug fixes in the compiler](https://github.com/rust-lang/rfcs/pull/1589).
-* [`FusedIterator` marker trait and `iter::Fuse` specialization](https://github.com/rust-lang/rfcs/pull/1581).
-* [Add a `literal` fragment specifier for `macro_rules!` patterns that matches literal constants](https://github.com/rust-lang/rfcs/pull/1576).
-* [Clarify the relationships between various kinds of structs and variants](https://github.com/rust-lang/rfcs/pull/1506).
+* [Add `parse_generics!` and `parse_where!` macros](https://github.com/rust-lang/rfcs/pull/1583).
+* [Support code generators with source maps and multiple source directories](https://github.com/rust-lang/rfcs/pull/1573).
+* [Macro naming and modularisation](https://github.com/rust-lang/rfcs/pull/1561).
+* [Propose `Interior<T>` data-type, to allow moves out of the dropped value during the drop hook](https://github.com/rust-lang/rfcs/pull/1180).
 
 ## New RFCs
 
-* [Allow crates to specify the version of Rust in which they are written](https://github.com/rust-lang/rfcs/pull/1709).
-* [Support versioned dependencies on build tools, such as cargo](https://github.com/rust-lang/rfcs/pull/1707).
-* [Add a 'thread lifetime, which denotes a thread-bounded region](https://github.com/rust-lang/rfcs/pull/1705).
-* [Allow uncallable method impls to be omitted](https://github.com/rust-lang/rfcs/pull/1699).
-* [Target bundles](https://github.com/rust-lang/rfcs/pull/1711). Combine distribution of standard libraries and targets into bundles for targeting a particular platform.
+* [Use `#[link(kind)]` to fix imports from native libs on Windows](https://github.com/rust-lang/rfcs/pull/1717).
+* [Add "meta tags" to Rust documentation conventions and to the rustdoc tool](https://github.com/rust-lang/rfcs/pull/1713).
+* [Add 'else match' blocks to if expressions](https://github.com/rust-lang/rfcs/pull/1712).
 
 # Upcoming Events
 
-* 8/10. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [8/10. Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/events/232581073/).
-* [8/11. Columbus Rust Society](http://www.meetup.com/columbus-rs/events/232469955/).
-* [8/12. Frankfurt/Germany Meetup](http://www.meetup.com/de-DE/Rust-Rhein-Main/events/232956511/).
-* [8/15. Rust Paris](http://www.meetup.com/Rust-Paris/events/230111511/).
+* [8/17. Boston Rust Meetup: Hack Night](http://www.meetup.com/BostonRust/events/233260730/).
 * 8/17. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * [8/17. Rust Los Angeles Meetup](https://www.meetup.com/Rust-Los-Angeles/events/232933613/).
+* 8/24. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* 8/25. Rust release triage at #rust-triage on irc.mozilla.org.
+* [8/29. Rust Sthlm: Rust on the Web](http://www.meetup.com/ruststhlm/events/232054490/).
+* [8/29. Rust on the web Rust Meetup Stockholm #2](http://www.meetup.com/ruststhlm/events/232054490/).
 * 9/9. Rust Table of Regulars Darmstadt
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -216,11 +208,11 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
-> The `if let` construction is a neat thing Rust borrowed from Swift (perhaps "copied" would be more accurate, or "cloned" depending on your views on whether ideas have owners).
+> The best way to learn Rust is to just `try!` and see what works (or is this to just see what works`?` now?)!
 
-— [Frank McSherry in a blog post](https://github.com/frankmcsherry/blog/blob/master/posts/2016-08-03.md#differential-dataflow-internals-a-work-in-progress).
+— [llogiq on /r/rust](https://www.reddit.com/r/rust/comments/4xuds0/sharing_coloring_books_with_friends_in_rust/d6jecnz).
 
-Thanks to [/u/vks_](https://www.reddit.com/r/rust/comments/4w1xlx/differential_dataflow_internals_a_work_in_progress/d65jvlh) and [Brian Anderson](https://users.rust-lang.org/t/twir-quote-of-the-week/328/278) for the suggestion.
+Thanks to [UtherII](https://users.rust-lang.org/users/utherii) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
