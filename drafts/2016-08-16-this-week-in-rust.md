@@ -18,13 +18,33 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Shape of errors to come](https://blog.rust-lang.org/2016/08/10/Shape-of-errors-to-come.html). A sneak peek at new & improved error formats in Rust.
+- [What’s new with “The Rust Programming Language”](http://words.steveklabnik.com/whats-new-with-the-rust-programming-language)? Second edition of TRPL book is coming up with [Carol Nicholas](https://github.com/carols10cents) as a co-author.
+- [Zero-cost futures in Rust](https://aturon.github.io/blog/2016/08/11/futures/).
+- [Futures in Rust](http://www.ishbir.com/post/2016-08-14-futures-in-rust/). Writing an Async Web API Wrapper - An excercise in learning Rust.
+- [Rust compiler walk-through: Introduction](https://gchp.ie/2016/08/09/rust-compiler-walkthrough-introduction/).
+- [Asynchronous servers in Rust](https://gkbrk.com/2016/08/asynchronous-servers-in-rust/). Using tokio-rs to build an asynchronous server.
+- [Parsing strategies in Rust](http://notes.willcrichton.net/parsing-strategies-in-rust/). Comparing two competing parsing frameworks in Rust: nom, a parser combinator, and LALRPOP, an LR(1) parser generator.
 - [Xero and Sandstorm.io have been added to the Friends of Rust page](https://www.rust-lang.org/en-US/friends.html). Xero is using Rust for infrastructure, and Sandstorm.io has a [collections application](https://sandstorm.io/news/2016-08-09-collections-app) in Rust.
 
 ## New Crates & Project Updates
 
+- [Security Advisory for crates.io, 2016-08-15](https://users.rust-lang.org/t/security-advisory-for-crates-io-2016-08-15/6907). Please read, especially if you've renamed your GitHub account.
 - [error-chain 0.5.0 released](https://users.rust-lang.org/t/announcing-error-chain-a-library-for-consistent-and-reliable-rust-error-handling/6133/21), changing how backtraces are handled.
 - [rust-skeptic 0.6.1 released](https://users.rust-lang.org/t/rust-skeptic-test-your-rust-markdown-documentation-via-cargo/2163/4), with fixes and optimizations.
 - The official [nano-config](https://github.com/rust-lang/nano-config) repo is _undeprecated_. It now contains a configuration that is compatible with older versions of the editor.
+- [Way Cooler](https://github.com/Immington-Industries/way-cooler). Customizable Wayland compositor (window manager) written in Rust.
+- [_ring_](https://github.com/briansmith/ring). Safe, fast, small crypto using Rust.
+- [ralloc](https://github.com/redox-os/ralloc). A fast & memory efficient pure-Rust memory allocator.
+- [Threshold Secret Sharing](https://github.com/snipsco/rust-threshold-secret-sharing).  A pure-Rust implementation of various threshold secret sharing schemes.
+- [WS-RS](https://github.com/housleyjk/ws-rs). Lightweight, event-driven WebSockets for Rust.
+- [alexa-rs](https://github.com/neil-lobracco/alexa-rs). Rust library for building Alexa skills.
+- [Tantivy](https://github.com/fulmicoton/tantivy). A text search engine library written in Rust.
+- [This week in Servo 74](https://blog.servo.org/2016/08/08/twis-74/).
+* [This week in Rust Docs 17](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-17).
+- [TiKV weekly 2016-08-12](http://www.pingcap.com/tikv/2016/08/12/tikv-weekly/).
+- [Talking Tock week 1](http://www.tockos.org/blog/2016/talking-tock-1/). Tock is a safe, multitasking operating system for low-power, low-memory microcontrollers.
+* [Talking Tock week 2](http://www.tockos.org/blog/2016/talking-tock-2/).
 
 # Crate of the Week
 
