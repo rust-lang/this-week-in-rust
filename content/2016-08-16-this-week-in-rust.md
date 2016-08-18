@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 - [Security Advisory for crates.io, 2016-08-15](https://users.rust-lang.org/t/security-advisory-for-crates-io-2016-08-15/6907). Please read, especially if you've renamed your GitHub account.
 - [Shape of errors to come](https://blog.rust-lang.org/2016/08/10/Shape-of-errors-to-come.html). A sneak peek at new & improved error formats in Rust.
-- [What’s new with “The Rust Programming Language”](http://words.steveklabnik.com/whats-new-with-the-rust-programming-language)? Second edition of TRPL book is coming up with [Carol Nichols](https://github.com/carols10cents) as a co-author.
+- [What’s new with “The Rust Programming Language”](http://words.steveklabnik.com/whats-new-with-the-rust-programming-language)? Second edition of TRPL book is coming up with [Carol (Nichols || Goulding)](https://github.com/carols10cents) as a co-author.
 - [Zero-cost futures in Rust](https://aturon.github.io/blog/2016/08/11/futures/). futures-rs is now ready for prime time!
 - [Futures in Rust](http://www.ishbir.com/post/2016-08-14-futures-in-rust/). Writing an Async Web API Wrapper - An excercise in learning Rust.
 - [Rust compiler walk-through: Introduction](https://gchp.ie/2016/08/09/rust-compiler-walkthrough-introduction/).
