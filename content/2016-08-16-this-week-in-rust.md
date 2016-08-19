@@ -100,7 +100,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [Strict Version Hashes for Crates improved](https://github.com/rust-lang/rust/pull/35079)
 * [Improved {H,C}ashing for dep-graphs](https://github.com/rust-lang/rust/pull/35406)
 * [Some artificial restrictions regarding zero-sized structs/enum variants lifted](https://github.com/rust-lang/rust/pull/35138) (RFC 1506)
-* [`std::vec::intoIter::as_&lt;mut_&gt;slice()`](https://github.com/rust-lang/rust/pull/35447)
+* [`std::vec::intoIter::as_`{,`mut_`}`slice()`](https://github.com/rust-lang/rust/pull/35447)
 * [Optimize `std::panic::catch_unwind(_)` slightly](https://github.com/rust-lang/rust/pull/35444) (don't use it anyway unless you have to)
 * [`impl From<T> for` {ε, `Ref`, `Unsafe`}`Cell<T>`](https://github.com/rust-lang/rust/pull/35392)...
 * [`impl FromIterator<_> for Cow<str>`](https://github.com/rust-lang/rust/pull/35064)
