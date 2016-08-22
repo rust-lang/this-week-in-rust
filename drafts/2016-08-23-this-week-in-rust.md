@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## New Crates & Project Updates
 
+[This Month in Zone of Control (2016.08.22)](https://users.rust-lang.org/t/this-month-in-zone-of-control-2016-08-22/6993)
+
 # Crate of the Week
 
 This week's Crate of the Week is Raph Levien's [font-rs](https://github.com/google/font-rs), yet another pure Rust font renderer, which is incomplete, but *very* fast. Thanks [StefanoD](https://users.rust-lang.org/users/StefanoD) for the suggestion.
