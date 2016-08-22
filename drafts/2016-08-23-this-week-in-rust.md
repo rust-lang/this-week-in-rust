@@ -18,6 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Filters everywhere - short intro to the "filters" crate and remaining
+  issues](http://beyermatthias.de/blog/2016/08/22/filters-everywhere/)
+
 ## New Crates & Project Updates
 
 # Crate of the Week
