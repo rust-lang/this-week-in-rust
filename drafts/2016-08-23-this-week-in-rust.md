@@ -22,9 +22,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's Crate of the Week is Raph Levien's [font-rs](https://github.com/google/font-rs), yet another pure Rust font renderer, which is incomplete, but *very* fast. Thanks [StefanoD](https://users.rust-lang.org/users/StefanoD) for the suggestion.
+No crate was selected for this week for lack of votes. Ain't that a pity?
 
-[Submit your suggestions for next week][submit_crate]!
+[Submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
@@ -56,36 +56,32 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-135 pull requests were [merged in the last two weeks][merged].
+167 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-08-08..2016-08-15
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-08-15..2016-08-22
 
-* [`impl trait` in return type position](https://github.com/rust-lang/rust/pull/35091) Yay! @eddyb, you're a hero!
-* [It is now an error to use private items in public code](https://github.com/rust-lang/rust/pull/34206) (formerly a warning)
-* [Also, `private_in_public` checker now substitutes type aliases](https://github.com/rust-lang/rust/pull/34193)
-* [`--test-threads=`N argument for tests](https://github.com/rust-lang/rust/pull/35414)
-* [Slow test warning](https://github.com/rust-lang/rust/pull/35405)
-* [Extend MIR to emit LLVM lifetime statements](https://github.com/rust-lang/rust/pull/35409)
-* [MIR: new statement kind for enum deaggregation](https://github.com/rust-lang/rust/pull/35348)
-* [Incremental Compilation: Fixed some ICEs](https://github.com/rust-lang/rust/pull/35166)
-* [Strict Version Hashes for Crates improved](https://github.com/rust-lang/rust/pull/35079)
-* [Improved {H,C}ashing for dep-graphs](https://github.com/rust-lang/rust/pull/35406)
-* [Some artificial restrictions regarding zero-sized structs/enum variants lifted](https://github.com/rust-lang/rust/pull/35138) (RFC 1506)
-* [`std::vec::intoIter::as_&lt;mut_&gt;slice()`](https://github.com/rust-lang/rust/pull/35447)
-* [Optimize `std::panic::catch_unwind(_)` slightly](https://github.com/rust-lang/rust/pull/35444) (don't use it anyway unless you have to)
-* [`impl From<T> for` {ε, `Ref`, `Unsafe`}`Cell<T>`](https://github.com/rust-lang/rust/pull/35392)...
-* [`impl FromIterator<_> for Cow<str>`](https://github.com/rust-lang/rust/pull/35064)
-* [Macro expansion, expanded](https://github.com/rust-lang/rust/pull/34811)
-* [Macros: hygienic metavariables](https://github.com/rust-lang/rust/pull/35453)
-* [`binary_search_by_key(..)` now more flexible with specified lifetime](https://github.com/rust-lang/rust/pull/34762) (what a small lifetime annotation can do)
-* [Being smart about concatenating TokenStreams](https://github.com/rust-lang/rust/pull/35539)
-* [Unchanged github repos are no longer re-downloaded](https://github.com/rust-lang/cargo/pull/2974) (uses github API instead)
-* [Test improvements for emscripten port](https://github.com/rust-lang/rust/pull/35574)
-* [New errors (+ JSON mode) now active by default](https://github.com/rust-lang/rust/pull/35401) Yay! And kudos, Jonathan!
-* [Better error messages on missing parenthesis when calling fields](https://github.com/rust-lang/rust/pull/35456) (e.g. `(x.y)()`)
-* [Better {`&`, `*`}`ptr` printing in error messages](https://github.com/rust-lang/rust/pull/35611)
-* Another large batch of changes to error messages
-
+* [1.11 Changelog](https://github.com/rust-lang/rust/pull/35736)
+* [1.12 stabilizations](https://github.com/rust-lang/rust/pull/35607)
+* [`!` is now a proper type](https://github.com/rust-lang/rust/pull/35162)
+* [`std::slice::Iter` now `AsRef`s to the underlying slice](https://github.com/rust-lang/rust/pull/35559)
+* [`std::vec::IntoIter::as_`{`slice`, `mut_slice`}](https://github.com/rust-lang/rust/pull/35447)
+* [`Debug` for `std::vec::IntoIter](https://github.com/rust-lang/rust/pull/35707)
+* [{`Cell`, `RefCell`, `UnsafeCell`}`<T>` now have `From<T>`](https://github.com/rust-lang/rust/pull/35392)
+* [`Drain`s now covariant](https://github.com/rust-lang/rust/pull/35354)
+* [`vec::IntoIter` now covariant again](https://github.com/rust-lang/rust/pull/35733)
+* [Extra methods on atomic types](https://github.com/rust-lang/rust/pull/35719) (implements [RFC #1649](https://github.com/rust-lang/rfcs/pull/1649))
+* [`panic::catch_unwind` slightly faster](https://github.com/rust-lang/rust/pull/35444) (but still an antipattern in normal code)
+* [incremental compilation now obeys certain commandline args](https://github.com/rust-lang/rust/pull/35340)
+* [improved `&`ptr printing](https://github.com/rust-lang/rust/pull/35611)
+* [No more RUST_NEW_ERROR_FORMAT](https://github.com/rust-lang/rust/pull/35708) (the new format is now live everywhere)
+* [MIR early exit cache invalidation fixed](https://github.com/rust-lang/rust/pull/35751) (one of CS' hard problems, even for Rust)
+* [More groundwork for `item_like_import`s](https://github.com/rust-lang/rust/pull/35776) (part of [RFC #1560](https://github.com/rust-lang/rfcs/pull/1560))
+* [LLVM backports to fix perf regressions](https://github.com/rust-lang/rust/pull/35740)
+* [MIPS-uclibc target added](https://github.com/rust-lang/rust/pull/35734)
+* [Cargo now allows `opt-level=`{`s`, `z`} in profiles](https://github.com/rust-lang/cargo/pull/3007)
+* [Cargo resolve no longer cares for the package root](https://github.com/rust-lang/cargo/pull/3013)
+* [Cargo: OpenSSL is now correctly downloaded from www.openssl.org](https://github.com/rust-lang/cargo/pull/3011) (formerly openssl.org, but they changed it apparently)
+* [`rustdoc` now omits the `!` in links to macros](https://github.com/rust-lang/rust/pull/35234)
 
 ## New Contributors
 
@@ -161,7 +157,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * 8/25. Rust release triage at #rust-triage on irc.mozilla.org.
 * [8/29. Rust Sthlm: Rust on the Web](http://www.meetup.com/ruststhlm/events/232054490/).
 * [8/29. Rust on the web Rust Meetup Stockholm #2](http://www.meetup.com/ruststhlm/events/232054490/).
-* 9/9. Rust Table of Regulars Darmstadt
+* [9/9. Rust Table of Regulars Darmstadt](https://www.meetup.com/de-DE/Rust-Rhein-Main/events/233544580/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
