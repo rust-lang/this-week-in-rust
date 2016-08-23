@@ -18,12 +18,28 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Filters everywhere - short intro to the "filters" crate and remaining
-  issues](http://beyermatthias.de/blog/2016/08/22/filters-everywhere/)
+* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.11](https://blog.rust-lang.org/2016/08/18/Rust-1.11.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* [A year of Rust and DNS](https://bluejekyll.github.io/blog/rust/dns/2016/08/21/a-year-of-rust-and-dns.html). Benjamin Fry talks about his experience developing [trust-dns
+](https://github.com/bluejekyll/trust-dns) - a Rust based DNS server.
+* [GC support in Rust: API design](https://manishearth.github.io/blog/2016/08/18/gc-support-in-rust-api-design/).
+* [Writing a JPEG decoder in Rust - Part 2: Implementation I](https://mht.technology/post/jpeg-rust-2/).
+* [A Tokio echo server in 35 lines](https://pyfisch.github.io/blog/tokio-echo-server/). Tokio is a network application framework for Rust.
+* [Filters everywhere](http://beyermatthias.de/blog/2016/08/22/filters-everywhere/). Short intro to the "filters" crate and remaining issues.
+* [<img alt="fire" class="emoji" title=":fire:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/fire.png?v=0"> discussion] [The `?` operator will be harmful to Rust](https://internals.rust-lang.org/t/the-operator-will-be-harmful-to-rust/3882).
+* [slides] [Rust: Systems programming for everyone](https://pnkfelix.github.io/presentations/qcon-london2016-deploy/qcon-london2016.html).
+* [podcast] [New Rustacean bonus episode 6](http://www.newrustacean.com/show_notes/bonus/_6/). Building (and celebrating) all the little, not-so-glorious pieces of the Rust ecosystem.
 
 ## New Crates & Project Updates
 
-[This Month in Zone of Control (2016.08.22)](https://users.rust-lang.org/t/this-month-in-zone-of-control-2016-08-22/6993)
+* [rustup 0.6.0 released](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/151) with bug fixes in manifest handling.
+* [aelitabot.xyz](https://aelitabot.xyz/). bors-like commit checking for GitHub repositories.
+* [GilRs](https://gitlab.com/Arvamer/gilrs). GilRs abstract platform specific APIs to provide unified interfaces for working with gamepads.
+* [This week in Servo 75](https://blog.servo.org/2016/08/15/twis-75/).
+* [This week in Rust docs 18](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-18).
+* [This week in Tock embedded OS 3](http://www.tockos.org/blog/2016/talking-tock-3/).
+* [This week in TiKV 2016-08-21](http://www.pingcap.com/tikv/2016/08/22/tikv-weekly/).
+* [This week in Ruma 2016-08-21](https://www.ruma.io/news/this-week-in-ruma-2016-08-21/).
+* [This month in Zone of Control 2016-08-22](https://users.rust-lang.org/t/this-month-in-zone-of-control-2016-08-22/6993). ZoC is a turn-based hexagonal strategy game written in Rust.
 
 # Crate of the Week
 
@@ -40,10 +56,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [moderate] [rust-www: Add a section to the front page with 3 rotating 'friends'](https://github.com/rust-lang/rust-www/issues/477).
-  This is an important change to how we present Rust that everybody will see.
+* [easy] [tokei: Update existing languages with their String litreals](https://github.com/Aaronepower/tokei/issues/52).
+* [easy] [servo: Change starting line of scripts from 0 to 1](https://github.com/servo/servo/issues/12996).
+* [easy] [servo: Remove the mako zip file and use proper python dependencies](https://github.com/servo/servo/issues/12958).
+* [less easy] [servo: Create a `./mach test-perf` command](https://github.com/servo/servo/issues/12792).
 * [easy] [rust: Error code list which need to be updated to new format](https://github.com/rust-lang/rust/issues/35233).
-* [easy] [servo: Do not define Pipeline::setup_common when on Windows](https://github.com/servo/servo/issues/12856).
 * [easy] [rustup: Don't capture backtraces without RUST_BACKTRACE=1](https://github.com/rust-lang-nursery/rustup.rs/issues/591#issuecomment-236235677).
   An easy fix, done in two steps, first modifying error-chain, then upgrading it in rustup.
 * [easy] [rustup: Add command to install shell
@@ -74,7 +91,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [`!` is now a proper type](https://github.com/rust-lang/rust/pull/35162)
 * [`std::slice::Iter` now `AsRef`s to the underlying slice](https://github.com/rust-lang/rust/pull/35559)
 * [`std::vec::IntoIter::as_`{`slice`, `mut_slice`}](https://github.com/rust-lang/rust/pull/35447)
-* [`Debug` for `std::vec::IntoIter](https://github.com/rust-lang/rust/pull/35707)
+* [`Debug` for `std::vec::IntoIter`](https://github.com/rust-lang/rust/pull/35707)
 * [{`Cell`, `RefCell`, `UnsafeCell`}`<T>` now have `From<T>`](https://github.com/rust-lang/rust/pull/35392)
 * [`Drain`s now covariant](https://github.com/rust-lang/rust/pull/35354)
 * [`vec::IntoIter` now covariant again](https://github.com/rust-lang/rust/pull/35733)
@@ -94,27 +111,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Andrii Dmytrenko
-* Cameron Hart
-* Cengiz Can
-* Chiu-Hsiang Hsu
-* Christophe Vu-Brugier
-* Clement Miao
-* crypto-universe
-* Felix Rath
-* hank-der-hafenarbeiter
-* José manuel Barroso Galindo
-* Krzysztof Garczynski
-* Luke Hinds
-* Marco A L Barbosa
-* Mark-Simulacrum
-* Matthew Piziak
-* Michael Gattozzi
-* Patrick McCann
-* Pietro Albini
-* ShyamSundarB
-* srdja
-* Stephen Lazaro
+* Alexandre Oliveira
+* Amit Levy
+* clementmiao
+* DarkEld3r
+* Dustin Bensing
+* Erik Uggeldahl
+* Jacob
+* JessRudder
+* Michael Layne
+* Nazım Can Altınova
+* Neil Williams
+* pliniker
 
 ## Approved RFCs
 
@@ -122,13 +130,12 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1643: Dedicated strike team to resolve unsafe code guidelines](https://github.com/rust-lang/rfcs/pull/1643).
-* [RFC 1607: RFC process for formatting style and Rustfmt defaults](https://github.com/rust-lang/rfcs/pull/1607).
-* [RFC 1683: Create a team responsible for documentation for the Rust project](https://github.com/rust-lang/rfcs/pull/1683).
-* [RFC 1581: `FusedIterator` marker trait and `iter::Fuse` specialization](https://github.com/rust-lang/rfcs/pull/1581).
-* [RFC 1649: Add extra access methods for atomic types](https://github.com/rust-lang/rfcs/pull/1649).
-* [RFC 1576: Add a `literal` fragment specifier for `macro_rules!` patterns that matches literal constants](https://github.com/rust-lang/rfcs/pull/1576).
-* [RFC 1506: Clarify the relationships between various kinds of structs and variants](https://github.com/rust-lang/rfcs/pull/1506).
+* [RFC 1679: Add "panic-safe" or "total" alternatives to the existing panicking indexing syntax](https://github.com/rust-lang/rfcs/pull/1679).
+* [RFC 1640: Add `checked_sub()` already known from various primitive types to the `Duration` struct](https://github.com/rust-lang/rfcs/pull/1640).
+* [RFC 1589: Define a best practices procedure for making bug fixes in the compiler](https://github.com/rust-lang/rfcs/pull/1589).
+* [RFC 1561: Macro naming and modularisation](https://github.com/rust-lang/rfcs/pull/1561).
+* [RFC 1623: Omit `'static` lifetimes to reference or generics lifetime values in `static` or `const` declarations](https://github.com/rust-lang/rfcs/pull/1623).
+* [RFC 1681: Procedural macros 1.1](https://github.com/rust-lang/rfcs/pull/1681).
 
 ## Final Comment Period
 
@@ -138,35 +145,35 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [Allow deriving `Deref` and `DerefMut`](https://github.com/rust-lang/rfcs/pull/1694).
-* [Procedural macros 1.1](https://github.com/rust-lang/rfcs/pull/1681).
-* [Add "panic-safe" or "total" alternatives to the existing panicking indexing syntax](https://github.com/rust-lang/rfcs/pull/1679).
-* [Add `checked_sub()` already known from various primitive types to the `Duration` struct](https://github.com/rust-lang/rfcs/pull/1640).
-* [Omit `'static` lifetimes to reference or generics lifetime values in `static` or `const` declarations](https://github.com/rust-lang/rfcs/pull/1623).
+* [`mem::discriminant()`](https://github.com/rust-lang/rfcs/pull/1696). Add a function that extracts the discriminant from an enum variant as a comparable, hashable, printable, but (for now) opaque and unorderable type.
+* [Eager expansion of macros](https://github.com/rust-lang/rfcs/pull/1628).
 * [Add a compiler flag that emits crate dependencies on a best-effort basis](https://github.com/rust-lang/rfcs/pull/1622).
-* [Specify Rust compatibility of nursery crates](https://github.com/rust-lang/rfcs/pull/1619).
-* [Define a best practices procedure for making bug fixes in the compiler](https://github.com/rust-lang/rfcs/pull/1589).
-* [Add `parse_generics!` and `parse_where!` macros](https://github.com/rust-lang/rfcs/pull/1583).
-* [Support code generators with source maps and multiple source directories](https://github.com/rust-lang/rfcs/pull/1573).
-* [Macro naming and modularisation](https://github.com/rust-lang/rfcs/pull/1561).
-* [Propose `Interior<T>` data-type, to allow moves out of the dropped value during the drop hook](https://github.com/rust-lang/rfcs/pull/1180).
+* [regex 1.0](https://github.com/rust-lang/rfcs/pull/1620).
+* [Allow type aliases in enumeration repr attributes](https://github.com/rust-lang/rfcs/pull/1605).
+* [Introduce `dyn` keyword](https://github.com/rust-lang/rfcs/pull/1603).
+* [Add a `vis` matcher to `macro_rules!` that matches valid visibility annotations](https://github.com/rust-lang/rfcs/pull/1575).
+* [Saturating and checking integer wrapper types](https://github.com/rust-lang/rfcs/pull/1534).
+* [`libstd::sys`, the great `libstd` refactor](https://github.com/rust-lang/rfcs/pull/1502).
 
 ## New RFCs
 
-* [Use `#[link(kind)]` to fix imports from native libs on Windows](https://github.com/rust-lang/rfcs/pull/1717).
-* [Add "meta tags" to Rust documentation conventions and to the rustdoc tool](https://github.com/rust-lang/rfcs/pull/1713).
-* [Add 'else match' blocks to if expressions](https://github.com/rust-lang/rfcs/pull/1712).
+* [A process for establishing the Rust roadmap](https://github.com/rust-lang/rfcs/pull/1728).
+* [Add two functions, `ptr::read_unaligned` and `ptr::write_unaligned`, which allows reading/writing to an unaligned pointer](https://github.com/rust-lang/rfcs/pull/1725).
+* [Enable customizing the linkage of a platform's C runtime](https://github.com/rust-lang/rfcs/pull/1721).
+* [Add std::function macro for getting the name of the current function](https://github.com/rust-lang/rfcs/pull/1719).
 
 # Upcoming Events
 
-* [8/17. Boston Rust Meetup: Hack Night](http://www.meetup.com/BostonRust/events/233260730/).
-* 8/17. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [8/17. Rust Los Angeles Meetup](https://www.meetup.com/Rust-Los-Angeles/events/232933613/).
 * 8/24. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * 8/25. Rust release triage at #rust-triage on irc.mozilla.org.
 * [8/29. Rust Sthlm: Rust on the Web](http://www.meetup.com/ruststhlm/events/232054490/).
 * [8/29. Rust on the web Rust Meetup Stockholm #2](http://www.meetup.com/ruststhlm/events/232054490/).
-* [9/9. Rust Table of Regulars Darmstadt](https://www.meetup.com/de-DE/Rust-Rhein-Main/events/233544580/)
+* 8/31. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* [9/5. Rust Cologne/Bonn: Compiling Rust to your Browser](http://rustaceans.cologne/2016/09/05/compile-to-js.html).
+* [9/5. Zurich / Switzerland: Rust Meetup - Lecture: Rust<T>](http://www.meetup.com/de-DE/Mozilla-Meetup-Switzerland/events/233292936/).
+* [9/9. RustConf 2016](http://rustconf.com/).
+* [9/9. Rust Table of Regulars Darmstadt](https://www.meetup.com/de-DE/Rust-Rhein-Main/events/233544580/).
+* [9/9. Tokio Hack Night](https://tokiohacknight.splashthat.com/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -178,17 +185,14 @@ Anderson][brson] for access.
 
 # fn work(on: RustProject) -> Money
 
-*No jobs listed for this week.*
+* [Rust engineer at MaidSafe](http://maidsafe.net/careers.html#rust_engineer).
+* [Rust developer at ANIXE](http://anixe.pl/rust_dev/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> The best way to learn Rust is to just `try!` and see what works (or is this to just see what works`?` now?)!
-
-— [llogiq on /r/rust](https://www.reddit.com/r/rust/comments/4xuds0/sharing_coloring_books_with_friends_in_rust/d6jecnz).
-
-Thanks to [UtherII](https://users.rust-lang.org/users/utherii) for the suggestion.
+*No quote was selected for QotW.*
 
 [Submit your quotes for next week][submit]!
 
