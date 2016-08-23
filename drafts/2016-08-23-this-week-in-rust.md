@@ -56,8 +56,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
   library](https://github.com/matthiasbeyer/imag/issues/245)
 * [hard] [filters: implement `BitAnd`, `BitOr`, `BitXor` and `Not` for all
   implementations of `Filter<N>`](https://github.com/matthiasbeyer/filters/issues/4)
-* [hard] [filters: We want to be able to use an implementation of `Filter<N>`
-  as function](https://github.com/matthiasbeyer/filters/issues/5)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
