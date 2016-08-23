@@ -18,6 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Filters everywhere - short intro to the "filters" crate and remaining
+  issues](http://beyermatthias.de/blog/2016/08/22/filters-everywhere/)
+
 ## New Crates & Project Updates
 
 [This Month in Zone of Control (2016.08.22)](https://users.rust-lang.org/t/this-month-in-zone-of-control-2016-08-22/6993)
@@ -51,6 +54,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
   first type system bug.
 * [hard] [imag: implement bindings to lua/lisp (ketos)/rhai for the filter
   library](https://github.com/matthiasbeyer/imag/issues/245)
+* [hard] [filters: implement `BitAnd`, `BitOr`, `BitXor` and `Not` for all
+  implementations of `Filter<N>`](https://github.com/matthiasbeyer/filters/issues/4)
+* [hard] [filters: We want to be able to use an implementation of `Filter<N>`
+  as function](https://github.com/matthiasbeyer/filters/issues/5)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
