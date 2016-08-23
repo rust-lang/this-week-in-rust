@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## New Crates & Project Updates
 
+[This Month in Zone of Control (2016.08.22)](https://users.rust-lang.org/t/this-month-in-zone-of-control-2016-08-22/6993)
+
 # Crate of the Week
 
 No crate was selected for this week for lack of votes. Ain't that a pity?
