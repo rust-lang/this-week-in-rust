@@ -56,7 +56,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [tokei: Update existing languages with their String litreals](https://github.com/Aaronepower/tokei/issues/52).
+* [easy] [tokei: Update existing languages with their String literals](https://github.com/Aaronepower/tokei/issues/52).
 * [easy] [servo: Change starting line of scripts from 0 to 1](https://github.com/servo/servo/issues/12996).
 * [easy] [servo: Remove the mako zip file and use proper python dependencies](https://github.com/servo/servo/issues/12958).
 * [less easy] [servo: Create a `./mach test-perf` command](https://github.com/servo/servo/issues/12792).
