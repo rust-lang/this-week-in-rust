@@ -16,6 +16,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* ['StoreId' - The biggest imag design flaw by now](http://beyermatthias.de/blog/2016/08/24/-storeid-the-biggest-imag-design-flaw-by-now/)
+* [What's coming up in imag (14)](http://beyermatthias.de/blog/2016/08/26/what-s-coming-up-in-imag-14/)
+
 ## New Crates & Project Updates
 
 # Crate of the Week
