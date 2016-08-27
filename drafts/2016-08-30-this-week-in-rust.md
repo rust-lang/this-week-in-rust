@@ -21,6 +21,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## New Crates & Project Updates
 
+* rustup [0.6.0](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/151),
+  [0.6.1](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/153), and
+  [0.6.2](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/164) were
+  released in rapid succession (to fix horrible bugs). This release has the ability
+  to [install source code for std](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/164).
+
 # Crate of the Week
 
 No crate was selected for this week for lack of votes. Ain't that a pity?
