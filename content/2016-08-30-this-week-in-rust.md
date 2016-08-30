@@ -49,7 +49,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-No crate was suggested for this week. So I unanimously declare [ring](https://crates.io/crates/ring), Brian Smith's Rust crypto implementation, which is finally on crates.io as this week's crate.
+No crate was suggested for this week. So I unilaterally declare [ring](https://crates.io/crates/ring), Brian Smith's Rust crypto implementation, which is finally on crates.io as this week's crate.
 
 Can we have suggestions and votes next week? Pretty please?
 
