@@ -21,6 +21,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## New Crates & Project Updates
 
+* rustup [0.6.0](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/151),
+  [0.6.1](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/153), and
+  [0.6.2](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/164) were
+  released in rapid succession (to fix horrible bugs). This release has the ability
+  to [install source code for std](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/164).
+
 # Crate of the Week
 
 No crate was selected for this week for lack of votes. Ain't that a pity?
@@ -43,16 +49,29 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [easy] [rust: Error code list which need to be updated to new format](https://github.com/rust-lang/rust/issues/35233).
 * [easy] [rustup: Don't capture backtraces without RUST_BACKTRACE=1](https://github.com/rust-lang-nursery/rustup.rs/issues/591#issuecomment-236235677).
   An easy fix, done in two steps, first modifying error-chain, then upgrading it in rustup.
-* [easy] [rustup: Add command to install shell
-  completions](https://github.com/rust-lang-nursery/rustup.rs/issues/387#issuecomment-234675568).
-* [moderate] [rust: improve error message when resolution via Deref
-  actually required
-  DerefMut](https://github.com/rust-lang/rust/issues/28419). Good
-  first type system bug.
 * [hard] [imag: implement bindings to lua/lisp (ketos)/rhai for the filter
   library](https://github.com/matthiasbeyer/imag/issues/245)
 * [hard] [filters: implement `BitAnd`, `BitOr`, `BitXor` and `Not` for all
   implementations of `Filter<N>`](https://github.com/matthiasbeyer/filters/issues/4)
+* [easy] [tempdir: make directory removal robust on windows]
+  (https://github.com/rust-lang-nursery/tempdir/issues/15). This bug lets you
+  publish a replacement for the unreliable `std::fs::remove_dir_all` fn.
+* [easy] [rust: Add version info to source tarball]
+  (https://github.com/rust-lang/rust/issues/32444).
+  Do you love makefiles?
+* [moderate] [rust: Create official .deb packages]
+  (https://github.com/rust-lang/rust/issues/28307).
+* [easy] [rustup: Fix PATH order for proxy binaries]
+  (https://github.com/rust-lang-nursery/rustup.rs/issues/475#issuecomment-241792606).
+  Simple task for an important tool.
+* [moderate] [rustup: Check for unexpected cargo/rustc during install]
+  (https://github.com/rust-lang-nursery/rustup.rs/issues/681).
+* [easy] [rust-www: Errors displayed after running front-page code look bad]
+  (https://github.com/rust-lang/rust-www/issues/490).
+  Important bug - first impressions matter.
+* [easy] [rust-www: Better front-page example]
+  (https://github.com/rust-lang/rust-www/issues/180).
+  The front page example on the website isn't so special. Make it shine.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
