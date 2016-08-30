@@ -16,16 +16,36 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* ['StoreId' - The biggest imag design flaw by now](http://beyermatthias.de/blog/2016/08/24/-storeid-the-biggest-imag-design-flaw-by-now/)
-* [What's coming up in imag (14)](http://beyermatthias.de/blog/2016/08/26/what-s-coming-up-in-imag-14/)
+* [Expanding the Tokio project](https://aturon.github.io/blog/2016/08/26/tokio/). Announcing the formation of the Tokio Core Team, as well as an overall plan for the two projects (Tokio & Futures) and how they fit together.
+* [Moving, cloning, and copying coloring books in Rust](http://jeenalee.com/2016/08/29/move-clone-copy.html).
+* [Optimizing Threshold Secret Sharing](https://medium.com/snips-ai/optimizing-threshold-secret-sharing-c877901231e5). Playing with Fourier transform in Rust.
+* [Running rustfmt on Travis CI](http://johannh.me/blog/rustfmt-ci.html).
+* [Chomp and impl Trait, revisited](https://m4rw3r.github.io/chomp-impl-trait--revisited).
+* [nRF51 support for Tock Operating System](http://www.tockos.org/blog/2016/nrf51-support/).
+* [In-place transposition in Rust](https://athemathmo.github.io/2016/08/29/inplace-transpose.html). Getting an optimized in-place transposition algorithm working in [rulinalg](https://github.com/AtheMathmo/rulinalg) - a pure Rust linear algebra library.
+* [Rustdoc meets the self-documenting editor](http://www.wilfred.me.uk/blog/2016/08/27/rustdoc-meets-the-self-documenting-editor/). racer.el for Emacs can now render rustdoc comments.
+* [An unmatched left parenthesis...](https://llogiq.github.io/2016/08/25/delim.html). Should error messages take code indentation into account for better reporting?
+* ['StoreId' - The biggest imag design flaw by now](http://beyermatthias.de/blog/2016/08/24/-storeid-the-biggest-imag-design-flaw-by-now/).
 
 ## New Crates & Project Updates
 
+* [redox/kernel](https://github.com/redox-os/kernel). A collaborative effort to rewrite the kernel with focus on correctness and code quality.
 * rustup [0.6.0](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/151),
   [0.6.1](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/153), and
   [0.6.2](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/164) were
   released in rapid succession (to fix horrible bugs). This release has the ability
   to [install source code for std](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/164).
+* [Are we learning yet?](http://www.arewelearningyet.com/). Cataloging the Rust machine learning ecosystem.
+* [Docs.rs](https://docs.rs/) builds and hosts documentation for all crates hosted on crates.io.
+* [Parallel](https://github.com/mmstick/parallel). A Command-line CPU Load Balancer Written in Rust.
+* [Dynasm-rs](https://github.com/CensoredUsername/dynasm-rs). A compiler plugin for assembling and executing code at runtime.
+* [serde_wat](https://github.com/mgoszcz2/serde_wat). Macros for easily accessing serde_json values in JavaScript like fashion.
+* [luminance](https://github.com/phaazon/luminance-rs). Type-safe, type-level and stateless Rust graphics framework.
+* [linefeed](https://github.com/murarth/linefeed). Configurable, extensible, interactive input reader for Unix terminals and Windows console.
+* [This week in Rust docs 19](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-19).
+* [This week in TiKV 2016-08-29](http://www.pingcap.com/tikv/2016/08/29/tikv-weekly/).
+* [This week in Ruma 2016-08-28](https://www.ruma.io/news/this-week-in-ruma-2016-08-28/).
+* [What's coming up in imag (14)](http://beyermatthias.de/blog/2016/08/26/what-s-coming-up-in-imag-14/).
 
 # Crate of the Week
 
@@ -44,35 +64,26 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [easy] [tera: Filters to implement (has examples)](https://github.com/Keats/tera/issues/46).
 * [easy] [tokei: Update existing languages with their String litreals](https://github.com/Aaronepower/tokei/issues/52).
-* [easy] [servo: Change starting line of scripts from 0 to 1](https://github.com/servo/servo/issues/12996).
-* [easy] [servo: Remove the mako zip file and use proper python dependencies](https://github.com/servo/servo/issues/12958).
-* [less easy] [servo: Create a `./mach test-perf` command](https://github.com/servo/servo/issues/12792).
 * [easy] [rust: Error code list which need to be updated to new format](https://github.com/rust-lang/rust/issues/35233).
-* [easy] [rustup: Don't capture backtraces without RUST_BACKTRACE=1](https://github.com/rust-lang-nurse-ry/rustup.rs/issues/591#issuecomment-236235677).
+* [easy] [rustup: Don't capture backtraces without RUST_BACKTRACE=1](https://github.com/rust-lang-nursery/rustup.rs/issues/591#issuecomment-236235677).
   An easy fix, done in two steps, first modifying error-chain, then upgrading it in rustup.
 * [hard] [imag: implement bindings to lua/lisp (ketos)/rhai for the filter
   library](https://github.com/matthiasbeyer/imag/issues/245)
 * [hard] [filters: implement `BitAnd`, `BitOr`, `BitXor` and `Not` for all
   implementations of `Filter<N>`](https://github.com/matthiasbeyer/filters/issues/4)
-* [easy] [tempdir: make directory removal robust on windows]
-  (https://github.com/rust-lang-nursery/tempdir/issues/15). This bug lets you
+* [easy] [tempdir: make directory removal robust on windows](https://github.com/rust-lang-nursery/tempdir/issues/15). This bug lets you
   publish a replacement for the unreliable `std::fs::remove_dir_all` fn.
-* [easy] [rust: Add version info to source tarball]
-  (https://github.com/rust-lang/rust/issues/32444).
+* [easy] [rust: Add version info to source tarball](https://github.com/rust-lang/rust/issues/32444).
   Do you love makefiles?
-* [moderate] [rust: Create official .deb packages]
-  (https://github.com/rust-lang/rust/issues/28307).
-* [easy] [rustup: Fix PATH order for proxy binaries]
-  (https://github.com/rust-lang-nursery/rustup.rs/issues/475#issuecomment-241792606).
+* [moderate] [rust: Create official .deb packages](https://github.com/rust-lang/rust/issues/28307).
+* [easy] [rustup: Fix PATH order for proxy binaries](https://github.com/rust-lang-nursery/rustup.rs/issues/475#issuecomment-241792606).
   Simple task for an important tool.
-* [moderate] [rustup: Check for unexpected cargo/rustc during install]
-  (https://github.com/rust-lang-nursery/rustup.rs/issues/681).
-* [easy] [rust-www: Errors displayed after running front-page code look bad]
-  (https://github.com/rust-lang/rust-www/issues/490).
+* [moderate] [rustup: Check for unexpected cargo/rustc during install](https://github.com/rust-lang-nursery/rustup.rs/issues/681).
+* [easy] [rust-www: Errors displayed after running front-page code look bad](https://github.com/rust-lang/rust-www/issues/490).
   Important bug - first impressions matter.
-* [easy] [rust-www: Better front-page example]
-  (https://github.com/rust-lang/rust-www/issues/180).
+* [easy] [rust-www: Better front-page example](https://github.com/rust-lang/rust-www/issues/180).
   The front page example on the website isn't so special. Make it shine.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -107,18 +118,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Alexandre Oliveira
-* Amit Levy
-* clementmiao
-* DarkEld3r
-* Dustin Bensing
-* Erik Uggeldahl
-* Jacob
-* JessRudder
-* Michael Layne
-* Nazım Can Altınova
-* Neil Williams
-* pliniker
+* changchun.fan
+* Daniele Baracchi
+* Mohit Agarwal
+* Paul Fanelli
+* Shyam Sundar B
+* zjhmale
 
 ## Approved RFCs
 
@@ -126,12 +131,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1679: Add "panic-safe" or "total" alternatives to the existing panicking indexing syntax](https://github.com/rust-lang/rfcs/pull/1679).
-* [RFC 1640: Add `checked_sub()` already known from various primitive types to the `Duration` struct](https://github.com/rust-lang/rfcs/pull/1640).
-* [RFC 1589: Define a best practices procedure for making bug fixes in the compiler](https://github.com/rust-lang/rfcs/pull/1589).
-* [RFC 1561: Macro naming and modularisation](https://github.com/rust-lang/rfcs/pull/1561).
-* [RFC 1623: Omit `'static` lifetimes to reference or generics lifetime values in `static` or `const` declarations](https://github.com/rust-lang/rfcs/pull/1623).
-* [RFC 1681: Procedural macros 1.1](https://github.com/rust-lang/rfcs/pull/1681).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -153,23 +153,20 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [A process for establishing the Rust roadmap](https://github.com/rust-lang/rfcs/pull/1728).
-* [Add two functions, `ptr::read_unaligned` and `ptr::write_unaligned`, which allows reading/writing to an unaligned pointer](https://github.com/rust-lang/rfcs/pull/1725).
-* [Enable customizing the linkage of a platform's C runtime](https://github.com/rust-lang/rfcs/pull/1721).
-* [Add std::function macro for getting the name of the current function](https://github.com/rust-lang/rfcs/pull/1719).
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
-* 8/24. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* 8/25. Rust release triage at #rust-triage on irc.mozilla.org.
-* [8/29. Rust Sthlm: Rust on the Web](http://www.meetup.com/ruststhlm/events/232054490/).
-* [8/29. Rust on the web Rust Meetup Stockholm #2](http://www.meetup.com/ruststhlm/events/232054490/).
 * 8/31. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * [9/5. Rust Cologne/Bonn: Compiling Rust to your Browser](http://rustaceans.cologne/2016/09/05/compile-to-js.html).
 * [9/5. Zurich / Switzerland: Rust Meetup - Lecture: Rust<T>](http://www.meetup.com/de-DE/Mozilla-Meetup-Switzerland/events/233292936/).
-* [9/9. RustConf 2016](http://rustconf.com/).
+* 9/7. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* 9/8. Rust release triage at #rust-triage on irc.mozilla.org.
+* [9/8. Columbus Rust Society](https://www.meetup.com/columbus-rs/events/232660905/).
+* **[9/9. RustConf 2016](http://rustconf.com/)**.
 * [9/9. Rust Table of Regulars Darmstadt](https://www.meetup.com/de-DE/Rust-Rhein-Main/events/233544580/).
 * [9/9. Tokio Hack Night](https://tokiohacknight.splashthat.com/).
+* [9/12. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -188,7 +185,11 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> My Rust memoirs will be called "Once in 'a lifetime".
+
+— [@Argorak on Twitter](https://twitter.com/Argorak/status/768040922030432256).
+
+Thanks to [Vincent Esche](https://users.rust-lang.org/users/regexident) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
