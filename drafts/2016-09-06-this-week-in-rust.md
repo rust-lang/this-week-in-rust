@@ -18,6 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## New Crates & Project Updates
 
+[releasetag](https://github.com/frehberg/rust-releasetag) Define release-tags for postmortem analysis, extractable from core-files.
+[bytestool](https://github.com/frehberg/rust-bytestool) Compiler plugins, compile time evaluation, eg. byte_size_of!(b"HELLO"), concat_bytes!(b"HEL", b"LO")
+
 # Crate of the Week
 
 No crate was suggested for this week. So I unilaterally declare [ring](https://crates.io/crates/ring), Brian Smith's Rust crypto implementation, which is finally on crates.io as this week's crate.
