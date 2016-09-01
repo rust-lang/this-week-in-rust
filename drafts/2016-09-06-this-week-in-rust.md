@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 ## New Crates & Project Updates
+* [ref_eq](https://github.com/emosenkis/ref_eq)
 
 # Crate of the Week
 
