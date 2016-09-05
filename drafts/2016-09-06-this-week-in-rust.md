@@ -142,6 +142,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [9/9. Rust Table of Regulars Darmstadt](https://www.meetup.com/de-DE/Rust-Rhein-Main/events/233544580/).
 * [9/9. Tokio Hack Night](https://tokiohacknight.splashthat.com/).
 * [9/12. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
+* [9/20. Rust NYC Meetup](https://www.meetup.com/Rust-NYC/events/233756447/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
