@@ -18,9 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## New Crates & Project Updates
 * [ref_eq](https://github.com/emosenkis/ref_eq)
-
-[releasetag](https://github.com/frehberg/rust-releasetag) Define release-tags for postmortem analysis, extractable from core-files.
-[bytestool](https://github.com/frehberg/rust-bytestool) Compiler plugins, compile time evaluation, eg. byte_size_of!(b"HELLO"), concat_bytes!(b"HEL", b"LO")
+* [releasetag](https://github.com/frehberg/rust-releasetag) Define release-tags for postmortem analysis, extractable from core-files.
+* [bytestool](https://github.com/frehberg/rust-bytestool) Compiler plugins, compile time evaluation, eg. byte_size_of!(b"HELLO"), concat_bytes!(b"HEL", b"LO")
 
 # Crate of the Week
 
