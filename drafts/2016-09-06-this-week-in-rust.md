@@ -24,9 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-No crate was suggested for this week. So I unilaterally declare [ring](https://crates.io/crates/ring), Brian Smith's Rust crypto implementation, which is finally on crates.io as this week's crate.
-
-Can we have suggestions and votes next week? Pretty please?
+You suggested, you voted, and here you have your crate of the week: [accurate](https://github.com/bsteinb/accurate/), a way to do accurate floating point sums. Thanks to [lifthrasir](https://users.rust-lang.org/users/lifthrasiir) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -67,29 +65,33 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-138 pull requests were [merged in the last two weeks][merged].
+146 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-08-22..2016-08-29
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-08-29..2016-09-05
 
-* [Don't round up DST prefix size to alignment](https://github.com/rust-lang/rust/pull/36027)
-* [Stabilize type macros](https://github.com/rust-lang/rust/pull/36014)
-* [Fix line numbers in macro expansion](https://github.com/rust-lang/rust/pull/35238)
-* [Fixed lifetime rules for `if` conditions](https://github.com/rust-lang/rust/pull/36029)
-* [Borrowck no longer hashes types in loan paths](https://github.com/rust-lang/rust/pull/36004)
-* [Substs now interleave types and regions](https://github.com/rust-lang/rust/pull/36002)
-* [`char::decode_utf8` now yields errors per Unicode](https://github.com/rust-lang/rust/pull/35947)
-* [Trans no longer generates `alloca`s for unused locals](https://github.com/rust-lang/rust/pull/35916)
-* [Typeck now uses `NoExpectation` to check type of diverging `fn`](https://github.com/rust-lang/rust/pull/35883)
-* [Fixed ICE in typeck on missing arg types in impl/trait methods](https://github.com/rust-lang/rust/pull/35877)
-* [Corrected memrchr alignment computation](https://github.com/rust-lang/rust/pull/35969) (lead to crashes on non-linux ARMv7 before)
-* [Avoid `Vec` growth to 0-terminate `CString`](https://github.com/rust-lang/rust/pull/35871)
-* [Hash HIR elements only once at the beginning](https://github.com/rust-lang/rust/pull/35854)
-* [Trans: Removed AST backend](https://github.com/rust-lang/rust/pull/35764) (MIR point of no return reached)
-* [Improved demangling of Rust symbols](https://github.com/rust-lang/rust/pull/36059)
-* [`FusedIterator`](https://github.com/rust-lang/rust/pull/35656) (implements [RFC #1581](https://github.com/rust-lang/rfcs/pull/1581))
-* [`impl CoerceUnsized for` {`Cell`, `RefCell`, `UnsafeCell`}`](https://github.com/rust-lang/rust/pull/35627)
-* [Transmuting from `fn` item to pointer-sized types is now an error](https://github.com/rust-lang/rust/pull/34923)
-* [`cargo metadata` now works with workspaces](https://github.com/rust-lang/cargo/pull/3051)
+* [Implement untagged unions](https://github.com/rust-lang/rust/pull/36016) ([RFC #1444](https://github.com/rust-lang/rfcs/pull/1444))
+* [Implement custom derive](https://github.com/rust-lang/rust/pull/35957) ([RFC #1681](https://github.com/rust-lang/rust/pull/35957): Macros 1.1)
+* [Implement item-like imports](https://github.com/rust-lang/rust/pull/35894) ([RFC #1560](https://github.com/rust-lang/rfcs/pull/1560))
+* [Default lifetimes in `static`/`const`s to `'static](https://github.com/rust-lang/rust/pull/35915) ([RFC #1623](https://github.com/rust-lang/rfcs/pull/1623), missing a feature gate for now. Llogiq apologizes profusely)
+* [Allow all literals in attributes](https://github.com/rust-lang/rust/pull/35850) ([RFC #1559](https://github.com/rust-lang/rfcs/pull/1559))
+* [Unsized tuple warnings are now errors](https://github.com/rust-lang/rust/pull/34982) ([RFC #1592](https://github.com/rust-lang/rfcs/pull/1592) finally in effect)
+* [LLVM: Invalidate metadata on SimplifyCFG hoisting](https://github.com/rust-lang/llvm/pull/48) (fixes segfaults)
+* [Improved Rust symbol demangling](https://github.com/rust-lang/rust/pull/36059)
+* [Fix illegal instruction on overflow in channel cloning](https://github.com/rust-lang/rust/pull/36104)
+* [Fix perf regression when working on arrays](https://github.com/rust-lang/rust/pull/36124)
+* [Better lifetime error messages with temporary variables](https://github.com/rust-lang/rust/pull/36171)
+* [Rust now warns about conflicting `#[repr(..)]`s](https://github.com/rust-lang/rust/pull/34623)
+* [Fix `#[derive(..)]` for empty tuple structs/variants](https://github.com/rust-lang/rust/pull/35728)
+* [Syntax/HIR: Generics now have their own Span](https://github.com/rust-lang/rust/pull/35591) (plugin-breaking change)
+* [Cache projections in trans](https://github.com/rust-lang/rust/pull/35761) (speeds up rustc)
+* [Copy-on-Write for incremental compilation caches](https://github.com/rust-lang/rust/pull/35718)
+* [`Iterator::`{`min`, `max`}`_by`](https://github.com/rust-lang/rust/pull/35856)
+* [`impl Debug for std::path::`{`Components`, `Iter`}](https://github.com/rust-lang/rust/pull/36101)
+* [`std::convert` traits implemented for `char`](https://github.com/rust-lang/rust/pull/35755)
+* [Condition Variables hardened against time travel](https://github.com/rust-lang/rust/pull/35048) (Remember kids, it's dangerous!)
+* [Fix GDB pretty-printing special-cased Rust types](https://github.com/rust-lang/rust/pull/35585)
+* [New `rustc --Zsave-analysis-api` option](https://github.com/rust-lang/rust/pull/36132)
+* [`cargo --all-features`](https://github.com/rust-lang/cargo/pull/3038) (surprisingly builds with all features enabled)
 
 ## New Contributors
 
