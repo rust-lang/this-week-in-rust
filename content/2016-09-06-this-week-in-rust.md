@@ -16,10 +16,29 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Rust's vision for the 2017 cycle](https://internals.rust-lang.org/t/setting-our-vision-for-the-2017-cycle/3958).
+* [One year of Rust](https://mgattozzi.github.io/2016/08/30/1-year-of-rust.html). How Rust and its community has changed in last one year and what we as a community can do differently.
+* [The next version of Fedora picks up Rust](http://www.infoworld.com/article/3114475/open-source-tools/the-next-version-of-fedora-picks-up-rust.html).
+* [Thoughts on conducting a beginner level Rust workshop](http://pramode.in/2016/09/05/on-teaching-rust-to-beginners/).
+* [Wasted](https://llogiq.github.io/2016/08/30/wasted.html). [@llogiq](https://github.com/llogiq) has ideas on reducing network bandwidth when using rustup & Cargo.
+* [Porting cargo benchcmp from Python to Rust](https://apanatshka.github.io/compsci/2016/09/04/porting-cargo-benchcmp/).
+* [Porting a Raspberry Pi GPIO programming library from Python to Rust](http://pramode.in/2016/08/31/rust-library-for-rpi-gpio-pgming/).
+* [Rust merge process for new contributors](https://blog.guillaume-gomez.fr/articles/2016-08-31+Rust+merge+process).
+
 ## New Crates & Project Updates
-* [ref_eq](https://github.com/emosenkis/ref_eq)
-* [releasetag](https://github.com/frehberg/rust-releasetag) Define release-tags for postmortem analysis, extractable from core-files.
-* [bytestool](https://github.com/frehberg/rust-bytestool) Compiler plugins, compile time evaluation, eg. byte_size_of!(b"HELLO"), concat_bytes!(b"HEL", b"LO")
+
+* [libfringe](https://github.com/nathan7/libfringe). A Rust library implementing safe, lightweight context switches, without relying on kernel services.
+* [lewton](https://github.com/est31/lewton). Vorbis decoder written in pure Rust.
+* [Are we game yet?](http://arewegameyet.com/). The state of game development in Rust.
+* [Scaproust](https://github.com/blabaere/scaproust). Scaproust is an implementation of the nanomsg "Scalability Protocols" in the Rust programming language.
+* [log_buffer](https://github.com/whitequark/rust-log_buffer). A zero-allocation ring buffer for storing text logs.
+* [query_interface](https://github.com/Diggsey/query_interface). Dynamically query a type-erased object for any trait implementation.
+* [Plantex](https://github.com/OsnaCS/plantex). Open-world exploration game with procedurally generated content.
+* [ref_eq](https://github.com/emosenkis/ref_eq). Determine if two borrowed pointers point to the same thing.
+* [releasetag](https://github.com/frehberg/rust-releasetag). Define release-tags for postmortem analysis, extractable from core-files.
+* [bytestool](https://github.com/frehberg/rust-bytestool). Compiler plugins, compile time evaluation, eg. `byte_size_of!(b"HELLO")`, `concat_bytes!(b"HEL", b"LO")`.
+* [Videos about Rust](https://daily-rust.github.io/2016/09/01/videos.html). Videos about Rust language found in the Web.
+* [This week in TiKV 2016-09-05](http://www.pingcap.com/tikv/2016/09/05/tikv-weekly/).
 
 # Crate of the Week
 
@@ -36,23 +55,16 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [easy] [rust: Document what `Default` does for each type in libstd](https://github.com/rust-lang/rust/issues/36265).
+* [easy] [rust: Silent overflow on debug beta/nightly](https://github.com/rust-lang/rust/issues/36110).
+* [easy] [rust: `mem::replace` and `mem::swap` say they don't copy, but they do](https://github.com/rust-lang/rust/issues/35935).
+* [hard] [rust: Support Apple app store bitcode](https://github.com/rust-lang/rust/issues/35968).
+* [hard] [rust: Missed opportunities to eliminate bounds checks](https://github.com/rust-lang/rust/issues/35981).
 * [easy] [tera: Filters to implement (has examples)](https://github.com/Keats/tera/issues/46).
 * [easy] [tokei: Update existing languages with their String litreals](https://github.com/Aaronepower/tokei/issues/52).
-* [easy] [rust: Error code list which need to be updated to new format](https://github.com/rust-lang/rust/issues/35233).
-* [easy] [rustup: Don't capture backtraces without RUST_BACKTRACE=1](https://github.com/rust-lang-nursery/rustup.rs/issues/591#issuecomment-236235677).
-  An easy fix, done in two steps, first modifying error-chain, then upgrading it in rustup.
-* [hard] [imag: implement bindings to lua/lisp (ketos)/rhai for the filter
-  library](https://github.com/matthiasbeyer/imag/issues/245)
-* [hard] [filters: implement `BitAnd`, `BitOr`, `BitXor` and `Not` for all
-  implementations of `Filter<N>`](https://github.com/matthiasbeyer/filters/issues/4)
 * [easy] [tempdir: make directory removal robust on windows](https://github.com/rust-lang-nursery/tempdir/issues/15). This bug lets you
   publish a replacement for the unreliable `std::fs::remove_dir_all` fn.
-* [easy] [rust: Add version info to source tarball](https://github.com/rust-lang/rust/issues/32444).
-  Do you love makefiles?
 * [moderate] [rust: Create official .deb packages](https://github.com/rust-lang/rust/issues/28307).
-* [easy] [rustup: Fix PATH order for proxy binaries](https://github.com/rust-lang-nursery/rustup.rs/issues/475#issuecomment-241792606).
-  Simple task for an important tool.
-* [moderate] [rustup: Check for unexpected cargo/rustc during install](https://github.com/rust-lang-nursery/rustup.rs/issues/681).
 * [easy] [rust-www: Errors displayed after running front-page code look bad](https://github.com/rust-lang/rust-www/issues/490).
   Important bug - first impressions matter.
 * [easy] [rust-www: Better front-page example](https://github.com/rust-lang/rust-www/issues/180).
@@ -94,12 +106,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* changchun.fan
-* Daniele Baracchi
-* Mohit Agarwal
-* Paul Fanelli
-* Shyam Sundar B
-* zjhmale
+* Abhishek Kumar
+* Andrea Corradi
+* athulappadan
+* Eugene R Gonzalez
+* Fabian Zaiser
+* johnthagen
+* Keunhong Lee
+* king6cong
+* Matt Ickstadt
+* philipp
+* QuietMisdreavus
+* Sebastian Ullrich
 
 ## Approved RFCs
 
@@ -118,24 +136,19 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
 * [`mem::discriminant()`](https://github.com/rust-lang/rfcs/pull/1696). Add a function that extracts the discriminant from an enum variant as a comparable, hashable, printable, but (for now) opaque and unorderable type.
-* [Eager expansion of macros](https://github.com/rust-lang/rfcs/pull/1628).
 * [Add a compiler flag that emits crate dependencies on a best-effort basis](https://github.com/rust-lang/rfcs/pull/1622).
 * [regex 1.0](https://github.com/rust-lang/rfcs/pull/1620).
-* [Allow type aliases in enumeration repr attributes](https://github.com/rust-lang/rfcs/pull/1605).
-* [Introduce `dyn` keyword](https://github.com/rust-lang/rfcs/pull/1603).
-* [Add a `vis` matcher to `macro_rules!` that matches valid visibility annotations](https://github.com/rust-lang/rfcs/pull/1575).
 * [Saturating and checking integer wrapper types](https://github.com/rust-lang/rfcs/pull/1534).
 * [`libstd::sys`, the great `libstd` refactor](https://github.com/rust-lang/rfcs/pull/1502).
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [Rename the current `?` operator to `?!` to improve code readability and language consistency](https://github.com/rust-lang/rfcs/pull/1737).
+* [`core::mem::replace_with` for temporarily moving out of ownership](https://github.com/rust-lang/rfcs/pull/1736).
+* [Traits should be aliased the same way types can be aliased with the `type` keyword](https://github.com/rust-lang/rfcs/pull/1733).
 
 # Upcoming Events
 
-* 8/31. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [9/5. Rust Cologne/Bonn: Compiling Rust to your Browser](http://rustaceans.cologne/2016/09/05/compile-to-js.html).
-* [9/5. Zurich / Switzerland: Rust Meetup - Lecture: Rust<T>](http://www.meetup.com/de-DE/Mozilla-Meetup-Switzerland/events/233292936/).
 * 9/7. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * 9/8. Rust release triage at #rust-triage on irc.mozilla.org.
 * [9/8. Columbus Rust Society](https://www.meetup.com/columbus-rs/events/232660905/).
@@ -143,7 +156,11 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [9/9. Rust Table of Regulars Darmstadt](https://www.meetup.com/de-DE/Rust-Rhein-Main/events/233544580/).
 * [9/9. Tokio Hack Night](https://tokiohacknight.splashthat.com/).
 * [9/12. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
-* [9/20. Rust NYC Meetup](https://www.meetup.com/Rust-NYC/events/233756447/)
+* 9/14. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* [9/14. Rust Boulder/Denver Monthly Meeting](https://www.meetup.com/Rust-Boulder-Denver/events/233463725/).
+* **[9/17. Rustfest Europe Conference](http://www.rustfest.eu/)**.
+* [9/19. Paris - Rust Paris](https://www.meetup.com/Rust-Paris/events/230111512/).
+* [9/20. Rust NYC Meetup](https://www.meetup.com/Rust-NYC/events/233756447/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
@@ -162,11 +179,7 @@ Anderson][brson] for access.
 
 # Quote of the Week
 
-> My Rust memoirs will be called "Once in 'a lifetime".
-
-— [@Argorak on Twitter](https://twitter.com/Argorak/status/768040922030432256).
-
-Thanks to [Vincent Esche](https://users.rust-lang.org/users/regexident) for the suggestion.
+*No quote was selected for QotW.*
 
 [Submit your quotes for next week][submit]!
 
