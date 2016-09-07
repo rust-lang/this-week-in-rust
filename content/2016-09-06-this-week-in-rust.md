@@ -174,6 +174,7 @@ Anderson][brson] for access.
 
 # fn work(on: RustProject) -> Money
 
+* [Research Engineer - Servo at Mozilla](https://careers.mozilla.org/position/gh/267268).
 * [Rust engineer at MaidSafe](http://maidsafe.net/careers.html#rust_engineer).
 * [Rust developer at ANIXE](http://anixe.pl/rust_dev/).
 
