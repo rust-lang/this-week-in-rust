@@ -159,10 +159,10 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [9/9. Tokio Hack Night](https://tokiohacknight.splashthat.com/).
 * [9/12. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
 * 9/14. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [9/14. Rust Boulder/Denver Monthly Meeting](https://www.meetup.com/Rust-Boulder-Denver/events/233463725/).
 * **[9/17. Rustfest Europe Conference](http://www.rustfest.eu/)**.
 * [9/19. Paris - Rust Paris](https://www.meetup.com/Rust-Paris/events/230111512/).
 * [9/20. Rust NYC Meetup](https://www.meetup.com/Rust-NYC/events/233756447/).
+* [9/21. Rust Boulder/Denver Monthly Meeting](https://www.meetup.com/Rust-Boulder-Denver/events/233463725/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
