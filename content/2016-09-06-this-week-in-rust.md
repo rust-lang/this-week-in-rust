@@ -39,6 +39,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [bytestool](https://github.com/frehberg/rust-bytestool). Compiler plugins, compile time evaluation, eg. `byte_size_of!(b"HELLO")`, `concat_bytes!(b"HEL", b"LO")`.
 * [Videos about Rust](https://daily-rust.github.io/2016/09/01/videos.html). Videos about Rust language found in the Web.
 * [spectral](https://github.com/cfrancia/spectral). Fluent test assertions.
+* [This Week in Rust Docs 20](http://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-20).
 * [This week in TiKV 2016-09-05](http://www.pingcap.com/tikv/2016/09/05/tikv-weekly/).
 
 # Crate of the Week
