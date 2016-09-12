@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-You suggested, you voted, and here you have your crate of the week: [accurate](https://github.com/bsteinb/accurate/), a way to do accurate floating point sums. Thanks to [lifthrasir](https://users.rust-lang.org/users/lifthrasiir) for the suggestion.
+This week's crate of the week is [tokio](https://github.com/tokio-rs/tokio), a high-level asynchronous IO library based on futures. Thanks to [notriddle](https://users.rust-lang.org/users/notriddle) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -54,33 +54,24 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-146 pull requests were [merged in the last two weeks][merged].
+84 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-08-29..2016-09-05
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-09-05..2016-09-12
 
-* [Implement untagged unions](https://github.com/rust-lang/rust/pull/36016) ([RFC #1444](https://github.com/rust-lang/rfcs/pull/1444))
-* [Implement custom derive](https://github.com/rust-lang/rust/pull/35957) ([RFC #1681](https://github.com/rust-lang/rust/pull/35957): Macros 1.1)
-* [Implement item-like imports](https://github.com/rust-lang/rust/pull/35894) ([RFC #1560](https://github.com/rust-lang/rfcs/pull/1560))
-* [Default lifetimes in `static`/`const`s to `'static](https://github.com/rust-lang/rust/pull/35915) ([RFC #1623](https://github.com/rust-lang/rfcs/pull/1623), missing a feature gate for now. Llogiq apologizes profusely)
-* [Allow all literals in attributes](https://github.com/rust-lang/rust/pull/35850) ([RFC #1559](https://github.com/rust-lang/rfcs/pull/1559))
-* [Unsized tuple warnings are now errors](https://github.com/rust-lang/rust/pull/34982) ([RFC #1592](https://github.com/rust-lang/rfcs/pull/1592) finally in effect)
-* [LLVM: Invalidate metadata on SimplifyCFG hoisting](https://github.com/rust-lang/llvm/pull/48) (fixes segfaults)
-* [Improved Rust symbol demangling](https://github.com/rust-lang/rust/pull/36059)
-* [Fix illegal instruction on overflow in channel cloning](https://github.com/rust-lang/rust/pull/36104)
-* [Fix perf regression when working on arrays](https://github.com/rust-lang/rust/pull/36124)
-* [Better lifetime error messages with temporary variables](https://github.com/rust-lang/rust/pull/36171)
-* [Rust now warns about conflicting `#[repr(..)]`s](https://github.com/rust-lang/rust/pull/34623)
-* [Fix `#[derive(..)]` for empty tuple structs/variants](https://github.com/rust-lang/rust/pull/35728)
-* [Syntax/HIR: Generics now have their own Span](https://github.com/rust-lang/rust/pull/35591) (plugin-breaking change)
-* [Cache projections in trans](https://github.com/rust-lang/rust/pull/35761) (speeds up rustc)
-* [Copy-on-Write for incremental compilation caches](https://github.com/rust-lang/rust/pull/35718)
-* [`Iterator::`{`min`, `max`}`_by`](https://github.com/rust-lang/rust/pull/35856)
-* [`impl Debug for std::path::`{`Components`, `Iter`}](https://github.com/rust-lang/rust/pull/36101)
-* [`std::convert` traits implemented for `char`](https://github.com/rust-lang/rust/pull/35755)
-* [Condition Variables hardened against time travel](https://github.com/rust-lang/rust/pull/35048) (Remember kids, it's dangerous!)
-* [Fix GDB pretty-printing special-cased Rust types](https://github.com/rust-lang/rust/pull/35585)
-* [New `rustc --Zsave-analysis-api` option](https://github.com/rust-lang/rust/pull/36132)
-* [`cargo --all-features`](https://github.com/rust-lang/cargo/pull/3038) (surprisingly builds with all features enabled)
+* [Don't double-count nested struct prefixes in DST size calculation](https://github.com/rust-lang/rust/pull/36351)
+* [Individual MIR passes now show up in `-Z time-passes`](https://github.com/rust-lang/rust/pull/36296)
+* [Refs to associated sized types no longer result in ICE](https://github.com/rust-lang/rust/pull/36281)
+* [`impl Trait` now correctly reports the empty lifetime](https://github.com/rust-lang/rust/pull/36333)
+* [Errors in macros now note the correct location](https://github.com/rust-lang/rust/pull/36308)
+* [Suggest `self::_` when missing item in current module](https://github.com/rust-lang/rust/pull/36289)
+* [`save-analysis` changes variable value output](https://github.com/rust-lang/rust/pull/36288)
+* [Item-like imports are no longer reported as unused](https://github.com/rust-lang/rust/pull/36276)
+* [Compiler controllers can now access the Registry](https://github.com/rust-lang/rust/pull/36240)
+* [Macros are now stacklessly expanded](https://github.com/rust-lang/rust/pull/36214)
+* [Cargo is now Macros-1.1-ready](https://github.com/rust-lang/cargo/pull/3064)
+* [Accessing external statics now requires `unsafe`](https://github.com/rust-lang/rust/pull/36173)
+* [Cyclic traits no longer allow arbitrary traits to be synthesized](https://github.com/rust-lang/rust/pull/35745) (which lead to unsoundness)
+* [Rustdoc filters out `Deref`fed methdos on `&mut self` unless `self impl`s `DerefMut`](https://github.com/rust-lang/rust/pull/36266)
 
 ## New Contributors
 
@@ -127,13 +118,6 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 # Upcoming Events
 
-* 9/7. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* 9/8. Rust release triage at #rust-triage on irc.mozilla.org.
-* [9/8. Columbus Rust Society](https://www.meetup.com/columbus-rs/events/232660905/).
-* **[9/9. RustConf 2016](http://rustconf.com/)**.
-* [9/9. Rust Table of Regulars Darmstadt](https://www.meetup.com/de-DE/Rust-Rhein-Main/events/233544580/).
-* [9/9. Tokio Hack Night](https://tokiohacknight.splashthat.com/).
-* [9/12. Seattle Rust Meetup](https://www.eventbrite.com/e/mozilla-rust-seattle-meetup-tickets-12222326307?aff=erelexporg).
 * 9/14. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
 * [9/14. Rust Boulder/Denver Monthly Meeting](https://www.meetup.com/Rust-Boulder-Denver/events/233463725/).
 * **[9/17. Rustfest Europe Conference](http://www.rustfest.eu/)**.
