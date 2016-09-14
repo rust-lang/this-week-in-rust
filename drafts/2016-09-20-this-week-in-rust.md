@@ -112,12 +112,10 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [9/26. São Paulo Meetup](https://www.meetup.com/Rust-Sao-Paulo-Meetup/events/233713814/).
 
 If you are running a Rust event please add it to the [calendar] to get
-it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
-Anderson][brson] for access.
+it mentioned here. Email the [Rust Community Team][community] for access.
 
 [calendar]: https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com
-[erickt]: mailto:erick.tryzelaar@gmail.com
-[brson]: mailto:banderson@mozilla.com
+[community]: mailto:community-team@rust-lang.org
 
 # fn work(on: RustProject) -> Money
 
