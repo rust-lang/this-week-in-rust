@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [GFX Programming Model](http://gfx-rs.github.io/2016/09/14/programming-model.html). A deep dive into what makes gfx-rs complex and awesome.
+
 ## New Crates & Project Updates
 
 # Crate of the Week
