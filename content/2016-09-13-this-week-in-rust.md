@@ -1,6 +1,6 @@
 Title: This Week in Rust 147
 Number: 147
-Date: 2016-09-06
+Date: 2016-09-13
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -16,7 +16,27 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Understanding incremental compilation](https://blog.rust-lang.org/2016/09/08/incremental.html). Now avaialble in Rust nightly.
+* [Higher-rank and higher-kinded types](https://www.stephanboyer.com/post/115/higher-rank-and-higher-kinded-types) explained using a Java-like syntax.
+* [Designing Futures for Rust](https://aturon.github.io/blog/2016/09/07/futures-design/). Explaining the core design of Futures library.
+* [The relationship between async libraries in Rust](https://www.jimmycuadra.com/posts/the-relationship-between-async-libraries-in-rust/). How Futures, MIO, and Tokio are different from each other.
+* [Thoughts on trusting types and unsafe code](http://smallcultfollowing.com/babysteps/blog/2016/09/12/thoughts-on-trusting-types-and-unsafe-code/) - by Niko Matsakis.
+* [Learning systems programming with Rust](http://jvns.ca/blog/2016/09/11/rustconf-keynote/). Transcript of the closing keynote at the first RustConf.
+* [Writing GStreamer elements in Rust (Part 2)](https://coaxion.net/blog/2016/09/writing-gstreamer-elements-in-rust-part-2-dont-panic-we-have-better-assertions-now-and-other-updates/). Read part 1 [here](https://coaxion.net/blog/2016/05/writing-gstreamer-plugins-and-elements-in-rust/).
+* [A Critique of Rust's `std::collections`](https://ticki.github.io/blog/horrible/).
+* [Why I’m dropping Rust](https://medium.com/@kingoipo/why-im-dropping-rust-fd1c32986c88).
+* [podcast] [New Rustacean bonus episode 7](http://www.newrustacean.com/show_notes/bonus/_7/). Building (and celebrating) all the little, not-so-glorious pieces of the Rust ecosystem.
+
 ## New Crates & Project Updates
+
+* [Reports of a Trojan written in Rust](http://news.softpedia.com/news/new-linux-trojan-discovered-coded-in-mozilla-s-rust-language-508135.shtml).
+* [This year in Conrod](http://blog.piston.rs/2016/09/13/this-year-in-conrod/).
+* [This week in Servo 77](https://blog.servo.org/2016/09/12/twis-77/).
+* [This week in Rust docs 21](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-21).
+* [These months in Amethyst 9](https://www.amethyst.rs/posts/twia-9.html).
+* [This week in Tock embedded OS 4](http://www.tockos.org/blog/2016/talking-tock-4/).
+* [This week in TiKV 2016-09-12](http://www.pingcap.com/tikv/2016/09/12/tikv-weekly/).
+* [What’s coming up in imag 15](http://beyermatthias.de/blog/2016/09/09/what-s-coming-up-in-imag-15/).
 
 # Crate of the Week
 
@@ -33,18 +53,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [rust: Document what `Default` does for each type in libstd](https://github.com/rust-lang/rust/issues/36265).
-* [easy] [rust: Silent overflow on debug beta/nightly](https://github.com/rust-lang/rust/issues/36110).
-* [easy] [rust: `mem::replace` and `mem::swap` say they don't copy, but they do](https://github.com/rust-lang/rust/issues/35935).
 * [hard] [rust: Support Apple app store bitcode](https://github.com/rust-lang/rust/issues/35968).
 * [hard] [rust: Missed opportunities to eliminate bounds checks](https://github.com/rust-lang/rust/issues/35981).
-* [easy] [tera: Filters to implement (has examples)](https://github.com/Keats/tera/issues/46).
-* [easy] [tokei: Update existing languages with their String litreals](https://github.com/Aaronepower/tokei/issues/52).
-* [easy] [tempdir: make directory removal robust on windows](https://github.com/rust-lang-nursery/tempdir/issues/15). This bug lets you
-  publish a replacement for the unreliable `std::fs::remove_dir_all` fn.
+* [easy] [tempdir: make directory removal robust on windows](https://github.com/rust-lang-nursery/tempdir/issues/15). This bug lets you publish a replacement for the unreliable `std::fs::remove_dir_all` fn.
 * [moderate] [rust: Create official .deb packages](https://github.com/rust-lang/rust/issues/28307).
-* [easy] [rust-www: Errors displayed after running front-page code look bad](https://github.com/rust-lang/rust-www/issues/490).
-  Important bug - first impressions matter.
 * [easy] [rust-www: Better front-page example](https://github.com/rust-lang/rust-www/issues/180).
   The front page example on the website isn't so special. Make it shine.
 
@@ -75,18 +87,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Abhishek Kumar
-* Andrea Corradi
-* athulappadan
-* Eugene R Gonzalez
-* Fabian Zaiser
-* johnthagen
-* Keunhong Lee
-* king6cong
-* Matt Ickstadt
-* philipp
-* QuietMisdreavus
-* Sebastian Ullrich
+* Cobrand
+* Jake Goldsborough
+* John Firebaugh
+* Justin LeFebvre
+* Kylo Ginsberg
+* Nicholas Nethercote
+* orbea
+* Richard Janis Goldschmidt
+* Ulrich Weigand
 
 ## Approved RFCs
 
@@ -94,7 +103,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 1620: regex 1.0](https://github.com/rust-lang/rfcs/pull/1620).
 
 ## Final Comment Period
 
@@ -106,23 +115,21 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 * [`mem::discriminant()`](https://github.com/rust-lang/rfcs/pull/1696). Add a function that extracts the discriminant from an enum variant as a comparable, hashable, printable, but (for now) opaque and unorderable type.
 * [Add a compiler flag that emits crate dependencies on a best-effort basis](https://github.com/rust-lang/rfcs/pull/1622).
-* [regex 1.0](https://github.com/rust-lang/rfcs/pull/1620).
-* [Saturating and checking integer wrapper types](https://github.com/rust-lang/rfcs/pull/1534).
-* [`libstd::sys`, the great `libstd` refactor](https://github.com/rust-lang/rfcs/pull/1502).
 
 ## New RFCs
 
-* [Rename the current `?` operator to `?!` to improve code readability and language consistency](https://github.com/rust-lang/rfcs/pull/1737).
-* [`core::mem::replace_with` for temporarily moving out of ownership](https://github.com/rust-lang/rfcs/pull/1736).
-* [Traits should be aliased the same way types can be aliased with the `type` keyword](https://github.com/rust-lang/rfcs/pull/1733).
+* [Check future-proofing of `macro_rules!` using FIRST sets](https://github.com/rust-lang/rfcs/pull/1746).
 
 # Upcoming Events
 
-* 9/14. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* [9/14. Rust Boulder/Denver Monthly Meeting](https://www.meetup.com/Rust-Boulder-Denver/events/233463725/).
 * **[9/17. Rustfest Europe Conference](http://www.rustfest.eu/)**.
 * [9/19. Paris - Rust Paris](https://www.meetup.com/Rust-Paris/events/230111512/).
 * [9/20. Rust NYC Meetup](https://www.meetup.com/Rust-NYC/events/233756447/).
+* [9/21. Rust Boulder/Denver Monthly Meeting](https://www.meetup.com/Rust-Boulder-Denver/events/233463725/).
+* 9/21. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* [9/22. RustPH Mentors Meeting](http://www.rustph.tech/).
+* 9/22. Rust release triage at #rust-triage on irc.mozilla.org.
+* [9/26. São Paulo Meetup](https://www.meetup.com/Rust-Sao-Paulo-Meetup/events/233713814/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email [Erick Tryzelaar][erickt] or [Brian
