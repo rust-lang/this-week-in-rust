@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Understanding incremental compilation](https://blog.rust-lang.org/2016/09/08/incremental.html). Now avaialble in Rust nightly.
+* [Understanding incremental compilation](https://blog.rust-lang.org/2016/09/08/incremental.html). Now available in Rust nightly.
 * [Higher-rank and higher-kinded types](https://www.stephanboyer.com/post/115/higher-rank-and-higher-kinded-types) explained using a Java-like syntax.
 * [Designing Futures for Rust](https://aturon.github.io/blog/2016/09/07/futures-design/). Explaining the core design of Futures library.
 * [The relationship between async libraries in Rust](https://www.jimmycuadra.com/posts/the-relationship-between-async-libraries-in-rust/). How Futures, MIO, and Tokio are different from each other.
@@ -40,7 +40,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate of the week is [tokio](https://github.com/tokio-rs/tokio), a high-level asynchronous IO library based on futures. Thanks to [notriddle](https://users.rust-lang.org/users/notriddle) for the suggestion.
+This week's crate of the week is [Tokio](https://github.com/tokio-rs/tokio), a high-level asynchronous IO library based on futures. Thanks to [notriddle](https://users.rust-lang.org/users/notriddle) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
