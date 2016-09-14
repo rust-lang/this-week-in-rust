@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## New Crates & Project Updates
 
+* [releasetag](https://crates.io/crates/releasetag) release-tags being extracted from core file postmortem (upgrade 0.5.0 for upcoming rust 1.13)
+
 # Crate of the Week
 
 This week's crate of the week is [tokio](https://github.com/tokio-rs/tokio), a high-level asynchronous IO library based on futures. Thanks to [notriddle](https://users.rust-lang.org/users/notriddle) for the suggestion.
