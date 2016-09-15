@@ -24,7 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Learning systems programming with Rust](http://jvns.ca/blog/2016/09/11/rustconf-keynote/). Transcript of the closing keynote at the first RustConf.
 * [Writing GStreamer elements in Rust (Part 2)](https://coaxion.net/blog/2016/09/writing-gstreamer-elements-in-rust-part-2-dont-panic-we-have-better-assertions-now-and-other-updates/). Read part 1 [here](https://coaxion.net/blog/2016/05/writing-gstreamer-plugins-and-elements-in-rust/).
 * [A critique of Rust's `std::collections`](https://ticki.github.io/blog/horrible/).
-* [Why I’m dropping Rust](https://medium.com/@kingoipo/why-im-dropping-rust-fd1c32986c88).
+* [Why I’m dropping Rust](https://medium.com/@kingoipo/why-im-dropping-rust-fd1c32986c88). (See this [reddit discussion thread](https://www.reddit.com/r/rust/comments/5295nf/why_im_dropping_rust/) for responses from the Rust community).
 * [podcast] [New Rustacean bonus episode 7](http://www.newrustacean.com/show_notes/bonus/_7/). Building (and celebrating) all the little, not-so-glorious pieces of the Rust ecosystem.
 
 ## New Crates & Project Updates
