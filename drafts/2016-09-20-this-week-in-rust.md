@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 ## New Crates & Project Updates
+* [bit_reverse](https://crates.io/crates/bit_reverse). A Rust library to compute the bit reversal of primitive integers. 
 
 # Crate of the Week
 
