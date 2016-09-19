@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [a RustConf travelogue](http://zackmdavis.net/blog/2016/09/rustconf-2016-travelogue/)
+
 ## New Crates & Project Updates
 
 # Crate of the Week
