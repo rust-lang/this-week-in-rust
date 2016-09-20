@@ -83,7 +83,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [Cargo is now Macros-1.1-ready](https://github.com/rust-lang/cargo/pull/3064)
 * [Accessing external statics now requires `unsafe`](https://github.com/rust-lang/rust/pull/36173)
 * [Cyclic traits no longer allow arbitrary traits to be synthesized](https://github.com/rust-lang/rust/pull/35745) (which lead to unsoundness)
-* [Rustdoc filters out `Deref`fed methdos on `&mut self` unless `self impl`s `DerefMut`](https://github.com/rust-lang/rust/pull/36266)
+* [Rustdoc filters out `Deref`fed methods on `&mut self` unless `self impl`s `DerefMut`](https://github.com/rust-lang/rust/pull/36266)
 
 ## New Contributors
 
