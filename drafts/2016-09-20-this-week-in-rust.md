@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [GFX Programming Model](http://gfx-rs.github.io/2016/09/14/programming-model.html). A deep dive into what makes gfx-rs complex and awesome.
 
 ## New Crates & Project Updates
+* [bit_reverse](https://crates.io/crates/bit_reverse). A Rust library to compute the bit reversal of primitive integers. 
 
 * [releasetag](https://crates.io/crates/releasetag) release-tags to be extracted from core-files postmortem (upgrade 0.6.0 for rust 1.12/1.13)
 
