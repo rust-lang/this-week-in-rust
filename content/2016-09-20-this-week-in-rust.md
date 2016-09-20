@@ -16,13 +16,37 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [a RustConf travelogue](http://zackmdavis.net/blog/2016/09/rustconf-2016-travelogue/)
+* [My experience rewriting Enjarify in Rust](https://medium.com/@robertgrosse/my-experience-rewriting-enjarify-in-rust-723089b406ad). Enjarify is a tool (written in Python) for translating Dalvik bytecode to equivalent Java bytecode.
+* [The PlayRust Classifier](http://www.suchin.co/2016/09/13/The-PlayRust-Classifier/). Synopsis of a RustConf talk on a classifier to detect posts that were intended for [/r/playrust](https://www.reddit.com/r/rust/) but were mistakenly posted on [/r/rust](https://www.reddit.com/r/rust/).
+* [Why Rust's `std::collections` is absolutely fantastic](https://ticki.github.io/blog/fantastic/). Follow-up to - [a critique of Rust's `std::collections`](https://ticki.github.io/blog/horrible/).
+* [Using `and_then` and `map` combinators on the Rust `Result` Type](http://hermanradtke.com/2016/09/12/rust-using-and_then-and-map-combinators-on-result-type.html).
 * [GFX Programming Model](http://gfx-rs.github.io/2016/09/14/programming-model.html). A deep dive into what makes gfx-rs complex and awesome.
+* [Building a scalable MySQL Proxy in Rust](http://www.agildata.com/building-scalable-mysql-proxy-rust/).
+* [Using unsafe tricks to examine Rust data structure layout](http://pramode.in/2016/09/13/using-unsafe-tricks-in-rust/).
+* [Tools for profiling Rust](https://athemathmo.github.io/2016/09/14/tools-for-profiling-rust.html).
+* [Generating Rustdoc with a custom style](https://blog.guillaume-gomez.fr/articles/2016-09-16+Generating+doc+with+rustdoc+and+a+custom+theme).
+* [Understanding where clauses and trait constraints](https://mgattozzi.github.io/2016/09/13/understanding-where-clauses.html).
+* [Let's Build a REPL/Parser with Rust & LALRPOP](https://dfockler.github.io/2016/09/15/lalrpop.html).
+* [video] [Videos from Rust Meetup Cologne/Bonn](https://media.ccc.de/c/rustmcb).
+
+### RustConf Experiences
+
+* [My RustConf travelogue](http://zackmdavis.net/blog/2016/09/rustconf-2016-travelogue/) by Zack M. Davis.
+* [Rustconf 2016 – What was cool and what surprised me](http://www.agildata.com/rustconf-2016-what-was-cool-and-what-surprised-me/) by Andy Grove.
+* [Notes from RustConf 2016 talks](http://alwayscoding.ca/momentos/2016/09/10/rustconf-2016-talks/) by Brian Pearce.
 
 ## New Crates & Project Updates
-* [bit_reverse](https://crates.io/crates/bit_reverse). A Rust library to compute the bit reversal of primitive integers. 
 
-* [releasetag](https://crates.io/crates/releasetag) release-tags to be extracted from core-files postmortem (upgrade 0.6.0 for rust 1.12/1.13)
+* [Announcing the code style RFC process and style team](https://internals.rust-lang.org/t/announcing-the-code-style-rfc-process-and-style-team/4079).
+* [Redox is now listed in Github's Open Source Operating Systems Showcase](https://github.com/showcases/open-source-operating-systems).
+* [rustcxx](https://github.com/google/rustcxx) is a tool allowing C++ to be used from a Rust project easily. It works by allowing snippets of C++ to be included within a Rust function, and vice-versa.
+* [Kinder](https://github.com/KitFreddura/Kinder). Algebraic structure and emulation of higher kinded types for Rust.
+* [rdedup](https://github.com/dpc/rdedup). Data deduplication with compression and public key encryption.
+* [bit_reverse](https://crates.io/crates/bit_reverse). A Rust library to compute the bit reversal of primitive integers.
+* [This Week in Rust Docs 22](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-22).
+* [These days in Piston 3](http://blog.piston.rs/2016/09/19/what-is-happening-3/).
+* [This week in Ruru 1](http://this-week-in-ruru.org/2016/09/18/this-week-in-ruru-1/). Ruru lets you write native Ruby extensions in Rust.
+* [This week in TiKV 2016-09-19](http://www.pingcap.com/tikv/2016/09/19/tikv-weekly/).
 
 # Crate of the Week
 
@@ -39,9 +63,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [hard] [rust: Support Apple app store bitcode](https://github.com/rust-lang/rust/issues/35968).
-* [hard] [rust: Missed opportunities to eliminate bounds checks](https://github.com/rust-lang/rust/issues/35981).
-* [easy] [tempdir: make directory removal robust on windows](https://github.com/rust-lang-nursery/tempdir/issues/15). This bug lets you publish a replacement for the unreliable `std::fs::remove_dir_all` fn.
+* [easy] [rust: Specialisation error 502 is misleading](https://github.com/rust-lang/rust/issues/36553).
+* [easy] [rust: Bootstrap key logic is too strict](https://github.com/rust-lang/rust/issues/36548).
+* [easy] [rust: rustc should emit an error when there's a bootstrap key mismatch](https://github.com/rust-lang/rust/issues/36544).
+* [easy] [rust: Lint against using generic conversion traits when concrete methods are available](https://github.com/rust-lang/rust/issues/36443).
+* [hard] [rust: Fix unwinding on emscripten](https://github.com/rust-lang/rust/issues/36514).
 * [moderate] [rust: Create official .deb packages](https://github.com/rust-lang/rust/issues/28307).
 * [easy] [rust-www: Better front-page example](https://github.com/rust-lang/rust-www/issues/180).
   The front page example on the website isn't so special. Make it shine.
@@ -90,15 +116,11 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Cobrand
-* Jake Goldsborough
-* John Firebaugh
-* Justin LeFebvre
-* Kylo Ginsberg
-* Nicholas Nethercote
-* orbea
-* Richard Janis Goldschmidt
-* Ulrich Weigand
+* Caleb Jones
+* dangcheng
+* Eugene Bulkin
+* knight42
+* Liigo
 
 ## Approved RFCs
 
@@ -106,7 +128,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1620: regex 1.0](https://github.com/rust-lang/rfcs/pull/1620).
+* [RFC 1696: `mem::discriminant()`](https://github.com/rust-lang/rfcs/pull/1696). Add a function that extracts the discriminant from an enum variant as a comparable, hashable, printable, but (for now) opaque and unorderable type.
 
 ## Final Comment Period
 
@@ -116,23 +138,25 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [`mem::discriminant()`](https://github.com/rust-lang/rfcs/pull/1696). Add a function that extracts the discriminant from an enum variant as a comparable, hashable, printable, but (for now) opaque and unorderable type.
+* [Let a `loop { ... }` expression return a value via `break my_value;`](https://github.com/rust-lang/rfcs/pull/1624).
 * [Add a compiler flag that emits crate dependencies on a best-effort basis](https://github.com/rust-lang/rfcs/pull/1622).
+* [Generalize the delayed resolution of language items to arbitrary items](https://github.com/rust-lang/rfcs/pull/1408).
 
 ## New RFCs
 
-* [Check future-proofing of `macro_rules!` using FIRST sets](https://github.com/rust-lang/rfcs/pull/1746).
+* [Crates.io should offer an API to release security advisories for crates](https://github.com/rust-lang/rfcs/pull/1752).
 
 # Upcoming Events
 
-* **[9/17. Rustfest Europe Conference](http://www.rustfest.eu/)**.
-* [9/19. Paris - Rust Paris](https://www.meetup.com/Rust-Paris/events/230111512/).
-* [9/20. Rust NYC Meetup](https://www.meetup.com/Rust-NYC/events/233756447/).
 * [9/21. Rust Boulder/Denver Monthly Meeting](https://www.meetup.com/Rust-Boulder-Denver/events/233463725/).
 * 9/21. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* 9/21. Rust Dcoumentation Team Meeting at #rust-docs on irc.mozilla.org.
 * [9/22. RustPH Mentors Meeting](http://www.rustph.tech/).
 * 9/22. Rust release triage at #rust-triage on irc.mozilla.org.
 * [9/26. São Paulo Meetup](https://www.meetup.com/Rust-Sao-Paulo-Meetup/events/233713814/).
+* [9/28. Boston Rust Meetup](https://www.meetup.com/BostonRust/events/234241654/).
+* 9/28. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* 9/28. Rust Dcoumentation Team Meeting at #rust-docs on irc.mozilla.org.
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -142,14 +166,17 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # fn work(on: RustProject) -> Money
 
-* [Rust engineer at MaidSafe](http://maidsafe.net/careers.html#rust_engineer).
-* [Rust developer at ANIXE](http://anixe.pl/rust_dev/).
+*No jobs listed for this week.*
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> "Why I’m dropping Rust" was so meh and it got into TWiR? Rdedup never got to TWiR, while it is way cooler than a guy that just couldn't force Rust to be Java. :P
+
+— [/u/dpc_pw on reddit](https://www.reddit.com/r/rust/comments/52ramk/this_week_in_rust_147/d7n5p9o).
+
+Thanks to [/u/llogiq](https://www.reddit.com/r/rust/comments/52ramk/this_week_in_rust_147/d7nfvfw) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
