@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate of the week is [tokio](https://github.com/tokio-rs/tokio), a high-level asynchronous IO library based on futures. Thanks to [notriddle](https://users.rust-lang.org/users/notriddle) for the suggestion.
+This week's crate of the week is (the in best TWiR-tradition shamelessly self-promoted) [mysql-proxy](https://crates.io/crates/mysql-proxy), a flexible, lightweight and scalable proxy for MySQL databases. Thanks to [andygrove](https://users.rust-lang.org/users/andygrove) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -46,24 +46,41 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-84 pull requests were [merged in the last two weeks][merged].
+98 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-09-05..2016-09-12
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-09-12..2016-09-19
 
-* [Don't double-count nested struct prefixes in DST size calculation](https://github.com/rust-lang/rust/pull/36351)
-* [Individual MIR passes now show up in `-Z time-passes`](https://github.com/rust-lang/rust/pull/36296)
-* [Refs to associated sized types no longer result in ICE](https://github.com/rust-lang/rust/pull/36281)
-* [`impl Trait` now correctly reports the empty lifetime](https://github.com/rust-lang/rust/pull/36333)
-* [Errors in macros now note the correct location](https://github.com/rust-lang/rust/pull/36308)
-* [Suggest `self::_` when missing item in current module](https://github.com/rust-lang/rust/pull/36289)
-* [`save-analysis` changes variable value output](https://github.com/rust-lang/rust/pull/36288)
-* [Item-like imports are no longer reported as unused](https://github.com/rust-lang/rust/pull/36276)
-* [Compiler controllers can now access the Registry](https://github.com/rust-lang/rust/pull/36240)
-* [Macros are now stacklessly expanded](https://github.com/rust-lang/rust/pull/36214)
-* [Cargo is now Macros-1.1-ready](https://github.com/rust-lang/cargo/pull/3064)
-* [Accessing external statics now requires `unsafe`](https://github.com/rust-lang/rust/pull/36173)
-* [Cyclic traits no longer allow arbitrary traits to be synthesized](https://github.com/rust-lang/rust/pull/35745) (which lead to unsoundness)
-* [Rustdoc filters out `Deref`fed methdos on `&mut self` unless `self impl`s `DerefMut`](https://github.com/rust-lang/rust/pull/36266)
+* [Macro invocations now fold/visit in the same order](https://github.com/rust-lang/rust/pull/36555) (makes it easier to reason about them)
+* [Optimized parser's last token handling](https://github.com/rust-lang/rust/pull/36527) (who'd have thought it could be optimized further?)
+* [Some dependency graph improvements](https://github.com/rust-lang/rust/pull/35960)
+* [Rustbuild now supports python3](https://github.com/rust-lang/rust/pull/36509)
+* [LLVM updated](https://github.com/rust-lang/rust/pull/36508)
+* [Don't lose padding for constant closures and tuples](https://github.com/rust-lang/rust/pull/36406) (fixes [#36401](https://github.com/rust-lang/rust/issues/36401) segfault)
+* [Improved move checker accuracy and error reports](https://github.com/rust-lang/rust/pull/36353)
+* [Better error message when shadowing type with generics](https://github.com/rust-lang/rust/pull/36338)
+* [Improve Macro-1.1 errors labelling](https://github.com/rust-lang/rust/pull/36308)
+* [`SyntaxExtension::MacroRulesTT` is no more](https://github.com/rust-lang/rust/pull/36444)
+* [`#[derive(Clone, Eq)]` produces less code](https://github.com/rust-lang/rust/pull/36384) (Yay! faster builds!)
+* [Default stack size upped to 16MiB](https://github.com/rust-lang/rust/pull/36505) (temporary measure against stack overflows)
+* [Change in invoking drop glue for boxed dynamically-sized values](https://github.com/rust-lang/rust/pull/36459) (fixes LLVM assertion failure)
+* [`private_in_public` error demoted to warning](https://github.com/rust-lang/rust/pull/36270) (until remaining regressions are fixed, also in beta)
+* [MIR optimization: Remove reborrows for references](https://github.com/rust-lang/rust/pull/36504) (and already pass dependencies seem to become subtle...)
+* [Better parent info for `-Z save-analysis`](https://github.com/rust-lang/rust/pull/36487)
+* [Avoid loading/parsing unused modules](https://github.com/rust-lang/rust/pull/36482) (e.g. `#[cfg(any())] mod foo`)
+* [Fix closure-as-trait-object dropping](https://github.com/rust-lang/rust/pull/36468)
+* [`Duration::checked_`{`add`, `sub`, `mul`, `div`}](https://github.com/rust-lang/rust/pull/36463)
+* [`ty::TraitObject`'s projection bounds are now stably sorted](https://github.com/rust-lang/rust/pull/36425) (also unifies/removes diverse hashing implementations)
+* [De-specialized `Zip` data](https://github.com/rust-lang/rust/pull/36490) (some ongoing optimization work)
+* [`Iterator::sum()` and `product()` no longer check for overflow in release mode](https://github.com/rust-lang/rust/pull/36372)
+* [Fix poor performance in `Vec::`{`extend_from_slice`,`extend_with_element`}`()`](https://github.com/rust-lang/rust/pull/36355)
+* [`std::str::replacen(..)`](https://github.com/rust-lang/rust/pull/36347)
+* [Zero the first byte of `CString`s on drop](https://github.com/rust-lang/rust/pull/36264)
+* [`likely(_)`/`unlikely(_)` intrinsics added](https://github.com/rust-lang/rust/pull/36181) (help the CPU with branch prediction)
+* [`std::io::Take::into_inner()`](https://github.com/rust-lang/rust/pull/36019)
+* [`std::alloc::`{`Rc`, `Arc`}`::ptr_eq(..)`](https://github.com/rust-lang/rust/pull/35992)
+* [`compiler-rt` is dead, long live `compiler-builtins`!](https://github.com/rust-lang/rust/pull/35021)
+* [dist tarball now contains version info](https://github.com/rust-lang/rust/pull/36213)
+* [sublime-rust now works with the new error format](https://github.com/rust-lang/sublime-rust/pull/87)
 
 ## New Contributors
 
