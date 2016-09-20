@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [a RustConf travelogue](http://zackmdavis.net/blog/2016/09/rustconf-2016-travelogue/)
+* [GFX Programming Model](http://gfx-rs.github.io/2016/09/14/programming-model.html). A deep dive into what makes gfx-rs complex and awesome.
 
 ## New Crates & Project Updates
 
