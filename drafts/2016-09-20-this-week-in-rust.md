@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## New Crates & Project Updates
 
+* [releasetag](https://crates.io/crates/releasetag) release-tags to be extracted from core-files postmortem (upgrade 0.6.0 for rust 1.12/1.13)
+
 # Crate of the Week
 
 This week's crate of the week is (the in best TWiR-tradition shamelessly self-promoted) [mysql-proxy](https://crates.io/crates/mysql-proxy), a flexible, lightweight and scalable proxy for MySQL databases. Thanks to [andygrove](https://users.rust-lang.org/users/andygrove) for the suggestion!
