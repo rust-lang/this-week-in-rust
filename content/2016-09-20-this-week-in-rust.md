@@ -172,11 +172,9 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> "Why I’m dropping Rust" was so meh and it got into TWiR? Rdedup never got to TWiR, while it is way cooler than a guy that just couldn't force Rust to be Java. :P
+*No quote was selected for QotW.*
 
-— [/u/dpc_pw on reddit](https://www.reddit.com/r/rust/comments/52ramk/this_week_in_rust_147/d7n5p9o).
-
-Thanks to [/u/llogiq](https://www.reddit.com/r/rust/comments/52ramk/this_week_in_rust_147/d7nfvfw) for the suggestion.
+_(Full disclosure: we removed QotW for this issue because selected QotW was deemed inappropriate and against the core values of Rust community. Here is the relevant [discussion on reddit](https://www.reddit.com/r/rust/comments/53oocf/this_week_in_rust_148/d7v4tnd). If you are curious, you can find the quote in [git history](https://github.com/cmr/this-week-in-rust/commits/master))._
 
 [Submit your quotes for next week][submit]!
 
