@@ -17,7 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [My experience rewriting Enjarify in Rust](https://medium.com/@robertgrosse/my-experience-rewriting-enjarify-in-rust-723089b406ad). Enjarify is a tool (written in Python) for translating Dalvik bytecode to equivalent Java bytecode.
-* [The PlayRust Classifier](http://www.suchin.co/2016/09/13/The-PlayRust-Classifier/). Synopsis of a RustConf talk on a classifier to detect posts that were intended for [/r/playrust](https://www.reddit.com/r/rust/) but were mistakenly posted on [/r/rust](https://www.reddit.com/r/rust/).
+* [The PlayRust Classifier](http://www.suchin.co/2016/09/13/The-PlayRust-Classifier/). Synopsis of a RustConf talk on a classifier to detect posts that were intended for [/r/playrust](https://www.reddit.com/r/playrust/) but were mistakenly posted on [/r/rust](https://www.reddit.com/r/rust/).
 * [Why Rust's `std::collections` is absolutely fantastic](https://ticki.github.io/blog/fantastic/). Follow-up to - [a critique of Rust's `std::collections`](https://ticki.github.io/blog/horrible/).
 * [Using `and_then` and `map` combinators on the Rust `Result` Type](http://hermanradtke.com/2016/09/12/rust-using-and_then-and-map-combinators-on-result-type.html).
 * [GFX Programming Model](http://gfx-rs.github.io/2016/09/14/programming-model.html). A deep dive into what makes gfx-rs complex and awesome.
