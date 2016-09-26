@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## New Crates & Project Updates
 
+* [What's coming up in imag 16](http://beyermatthias.de/blog/2016/09/23/what-s-coming-up-in-imag-16/)
+
 # Crate of the Week
 
 This week's crate of the week is (the in best TWiR-tradition shamelessly self-promoted) [mysql-proxy](https://crates.io/crates/mysql-proxy), a flexible, lightweight and scalable proxy for MySQL databases. Thanks to [andygrove](https://users.rust-lang.org/users/andygrove) for the suggestion!
