@@ -43,6 +43,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Sarkara](https://github.com/quininer/sarkara). A Post-Quantum cryptography library written in Rust.
 * [Native Windows GUI](https://github.com/gabdube/native-windows-gui). Native Window GUI (nwg for short) is a GUI library for Windows.
 * [dataplotlib](https://github.com/coder543/dataplotlib). Plotting library that tries to make it easy to do scientific plots in Rust.
+* [itertools version 0.5 released](http://bluss.github.io/rust/2016/09/26/itertools-0.5.0/). itertools provides extra functionality for iterators.
 * [rouille](https://github.com/tomaka/rouille). Rust web server middleware.
 * [Perlin](https://github.com/JDemler/perlin). A lazy, zero-allocation and data-agnostic Information Retrieval library.
 * [This week in Rust Docs 23](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-23). Updates from the Rust documentation team.
