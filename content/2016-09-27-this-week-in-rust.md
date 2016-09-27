@@ -56,7 +56,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate of the week is (the in best TWiR-tradition shamelessly self-promoted) [mysql-proxy](https://crates.io/crates/mysql-proxy), a flexible, lightweight and scalable proxy for MySQL databases. Thanks to [andygrove](https://users.rust-lang.org/users/andygrove) for the suggestion!
+Somewhat unsurprisingly, this week's crate of the week is [ripgrep](https://crates.io/crates/ripgrep). In case you've missed it, this is a grep/ag/pt/whatever search tool you use replacement that absolutely smokes the competition in most performance tests. Thanks to [DanielKeep](https://users.rust-lang.org/users/DanielKeep) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -85,41 +85,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-98 pull requests were [merged in the last two weeks][merged].
+77 pull requests were [merged in the last two weeks][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-09-12..2016-09-19
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-09-19..2016-09-26
 
-* [Macro invocations now fold/visit in the same order](https://github.com/rust-lang/rust/pull/36555) (makes it easier to reason about them)
-* [Optimized parser's last token handling](https://github.com/rust-lang/rust/pull/36527) (who'd have thought it could be optimized further?)
-* [Some dependency graph improvements](https://github.com/rust-lang/rust/pull/35960)
-* [Rustbuild now supports python3](https://github.com/rust-lang/rust/pull/36509)
-* [LLVM updated](https://github.com/rust-lang/rust/pull/36508)
-* [Don't lose padding for constant closures and tuples](https://github.com/rust-lang/rust/pull/36406) (fixes [#36401](https://github.com/rust-lang/rust/issues/36401) segfault)
-* [Improved move checker accuracy and error reports](https://github.com/rust-lang/rust/pull/36353)
-* [Better error message when shadowing type with generics](https://github.com/rust-lang/rust/pull/36338)
-* [Improve Macro-1.1 errors labelling](https://github.com/rust-lang/rust/pull/36308)
-* [`SyntaxExtension::MacroRulesTT` is no more](https://github.com/rust-lang/rust/pull/36444)
-* [`#[derive(Clone, Eq)]` produces less code](https://github.com/rust-lang/rust/pull/36384) (Yay! faster builds!)
-* [Default stack size upped to 16MiB](https://github.com/rust-lang/rust/pull/36505) (temporary measure against stack overflows)
-* [Change in invoking drop glue for boxed dynamically-sized values](https://github.com/rust-lang/rust/pull/36459) (fixes LLVM assertion failure)
-* [`private_in_public` error demoted to warning](https://github.com/rust-lang/rust/pull/36270) (until remaining regressions are fixed, also in beta)
-* [MIR optimization: Remove reborrows for references](https://github.com/rust-lang/rust/pull/36504) (and already pass dependencies seem to become subtle...)
-* [Better parent info for `-Z save-analysis`](https://github.com/rust-lang/rust/pull/36487)
-* [Avoid loading/parsing unused modules](https://github.com/rust-lang/rust/pull/36482) (e.g. `#[cfg(any())] mod foo`)
-* [Fix closure-as-trait-object dropping](https://github.com/rust-lang/rust/pull/36468)
-* [`Duration::checked_`{`add`, `sub`, `mul`, `div`}](https://github.com/rust-lang/rust/pull/36463)
-* [`ty::TraitObject`'s projection bounds are now stably sorted](https://github.com/rust-lang/rust/pull/36425) (also unifies/removes diverse hashing implementations)
-* [De-specialized `Zip` data](https://github.com/rust-lang/rust/pull/36490) (some ongoing optimization work)
-* [`Iterator::sum()` and `product()` no longer check for overflow in release mode](https://github.com/rust-lang/rust/pull/36372)
-* [Fix poor performance in `Vec::`{`extend_from_slice`,`extend_with_element`}`()`](https://github.com/rust-lang/rust/pull/36355)
-* [`std::str::replacen(..)`](https://github.com/rust-lang/rust/pull/36347)
-* [Zero the first byte of `CString`s on drop](https://github.com/rust-lang/rust/pull/36264)
-* [`likely(_)`/`unlikely(_)` intrinsics added](https://github.com/rust-lang/rust/pull/36181) (help the CPU with branch prediction)
-* [`std::io::Take::into_inner()`](https://github.com/rust-lang/rust/pull/36019)
-* [`std::alloc::`{`Rc`, `Arc`}`::ptr_eq(..)`](https://github.com/rust-lang/rust/pull/35992)
-* [`compiler-rt` is dead, long live `compiler-builtins`!](https://github.com/rust-lang/rust/pull/35021)
-* [dist tarball now contains version info](https://github.com/rust-lang/rust/pull/36213)
-* [sublime-rust now works with the new error format](https://github.com/rust-lang/sublime-rust/pull/87)
+* [`Self` can no longer be a type parameter](https://github.com/rust-lang/rust/pull/36649)
+* [MIR: Trivial copy propagation](https://github.com/rust-lang/rust/pull/36388)
+* [MIR: Constant propagation](https://github.com/rust-lang/rust/pull/36639)
+* [Attribute invocation at crate root level allowed again](https://github.com/rust-lang/rust/pull/36618) (were inadvertently disallowed two weeks ago)
+* [`TypedArena` now allocates lazily](https://github.com/rust-lang/rust/pull/36618), [loses `.with_capacity(_)`](https://github.com/rust-lang/rust/pull/36657) (the latter is a breaking change)
+* [`syntax::codemap::Span`s can now be merged if adjacent](https://github.com/rust-lang/rust/pull/36585)
+* [RBML is gone](https://github.com/rust-lang/rust/pull/36585) (epic PR)
+* [`#[inline]`d functions are now only instantiated on use site](https://github.com/rust-lang/rust/pull/36524) (epic speedup)
+* [Better `parent` info for `save-analysis](https://github.com/rust-lang/rust/pull/36487)
+* [`trans::adt` is superceded by `rustc::ty::layout`](https://github.com/rust-lang/rust/pull/36151)
+* [Rustc metadata diagnostics](https://github.com/rust-lang/rust/pull/36102)
+* [`assert_ne!(..)` and `debug_assert_ne!(..)`](https://github.com/rust-lang/rust/pull/35074)
+* [`2u64.pow(99)` now panics instead of silently overflowing](https://github.com/rust-lang/rust/pull/34942)
+* [`String` no longer `impl`s `From<Vec<char>>` nor `From<&'a [char]>`](https://github.com/rust-lang/rust/pull/36685) (for now, until the regressions are sorted out)
+* [ARM LLVM bug workaround: Setting discriminant via `memset`](https://github.com/rust-lang/rust/pull/36496)
+* [Preparations for macros 2.0](https://github.com/rust-lang/rust/pull/36154)
 
 ## New Contributors
 
