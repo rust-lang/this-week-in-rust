@@ -16,9 +16,43 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Returning from Exceptions](http://os.phil-opp.com/returning-from-exceptions.html). How to return from exceptions correctly. Part of the series [Writing an OS in Rust](http://os.phil-opp.com/).
+* [ripgrep is faster than {grep, ag, git grep, ucg, pt, sift}](http://blog.burntsushi.net/ripgrep/). ripgrep is a command line search tool that combines the usability of The Silver Searcher (an ack clone) with the raw speed of GNU grep.
+* [Intersection Impls](http://smallcultfollowing.com/babysteps/blog/2016/09/24/intersection-impls/). A specialization example of adding a blanket impl that implements `Clone` for any `Copy` type, its shortcomings, and one proposed fix using intersection impls (also called lattice impls).
+* [My adventures in Rust web development](https://medium.com/@tomaka/my-adventures-in-rust-webdev-850c67be6c40).
+* [From tweet to Rust feature](https://llogiq.github.io/2016/09/14/feature.html). Journey of an idea from being a tweet to becoming a Rust feature.
+* [How to count newlines really fast in Rust](https://llogiq.github.io/2016/09/24/newline.html).
+* [Writing Cocoa apps in Rust](https://kylewlacy.github.io/posts/cocoa-apps-in-rust-eventually/).
+* [Experiment: compare ZODB file-storage iteration with Python and Rust](http://jimfulton.info/site/2016/Sep/25/experiment-compare-zodb-file-storage-iteration-with-python-and-rust/).
+* [Implementing Huffman coding in Rust](http://pramode.in/2016/09/26/huffman-coding-in-rust/).
+
+### RustConf/RustFest Experiences
+
+* [My Thoughts on RustConf 2016](http://jeenalee.com/2016/09/23/rust-conf.html) by Jeena Lee.
+* [RustConf and Strange Loop 2016](http://hellomalisa.me/2016-09-20/rustconf-and-strange-loop.html) by Malisa.
+* [Habitat at RustConf](https://blog.chef.io/2016/09/23/habitat-at-rustconf/) by Salim Alam.
+* [RustFest was great!](https://blog.cyplo.net/posts/2016/09/rustfest-organization-was-the-best.html) by Cyryl Płotnicki.
+
 ## New Crates & Project Updates
 
-* [What's coming up in imag 16](http://beyermatthias.de/blog/2016/09/23/what-s-coming-up-in-imag-16/)
+* Rust Community Team [announces the Rust programming language video channel](https://users.rust-lang.org/t/announcing-the-rust-programming-language-video-channel-and-the-rustvideos-twitter-account/7370) on [YouTube](https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA/playlists8) and [Twitter](https://twitter.com/rustvideos).
+* Servo [maintains a fork of rust-bindgen](https://github.com/servo/rust-bindgen) which just got updated with a [major rewrite](https://github.com/servo/rust-bindgen/pull/37) that cleans up the codebase and paves the way for future improvements.
+* [slog version 1.0 released](https://github.com/dpc/slog-rs). slog is a structured, composable logging library for Rust.
+* [Cyano](https://github.com/ticki/cyano). An advanced Rust-to-JavaScript transpiler.
+* [gimli](https://github.com/gimli-rs/gimli). A lazy, zero-copy parser for the DWARF debugging format.
+* [Sarkara](https://github.com/quininer/sarkara). A Post-Quantum cryptography library written in Rust.
+* [Native Windows GUI](https://github.com/gabdube/native-windows-gui). Native Window GUI (nwg for short) is a GUI library for Windows.
+* [dataplotlib](https://github.com/coder543/dataplotlib). Plotting library that tries to make it easy to do scientific plots in Rust.
+* [rouille](https://github.com/tomaka/rouille). Rust web server middleware.
+* [Perlin](https://github.com/JDemler/perlin). A lazy, zero-allocation and data-agnostic Information Retrieval library.
+* [This week in Rust Docs 23](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-23). Updates from the Rust documentation team.
+* [This week in Servo 78](https://blog.servo.org/2016/09/19/twis-78/). Servo is a prototype web browser engine written in Rust.
+* [This week in Tock OS 5](http://www.tockos.org/blog/2016/talking-tock-5/). Tock is a safe, multitasking operating system for low-power, low-memory microcontrollers.
+* [These weeks in intermezzOS 3](https://intermezzos.github.io/blog/articles/twii3/). intermezzOS is a teaching operating system focused on introducing systems programming concepts to experienced developers.
+* [This week in TiKV 2016-09-16](http://www.pingcap.com/tikv/2016/09/26/tikv-weekly/). TiKV is a distributed Key-Value database which is based on the design of Google Spanner and HBase.
+* [This week in Ruma 2016-09-18](https://www.ruma.io/news/this-week-in-ruma-2016-09-18/). Ruma is a Matrix homeserver written in Rust.
+* [This week in Ruma 2016-09-25](https://www.ruma.io/news/this-week-in-ruma-2016-09-25/).
+* [What's coming up in imag 16](http://beyermatthias.de/blog/2016/09/23/what-s-coming-up-in-imag-16/). imag is a text based personal information management suite.
 
 # Crate of the Week
 
@@ -35,11 +69,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [rust: Specialisation error 502 is misleading](https://github.com/rust-lang/rust/issues/36553).
+* [Rust Design Patterns](https://github.com/rust-unofficial/patterns) is looking for collaborators. Check out the [README](https://github.com/rust-unofficial/patterns#readme) for more information.
+* [easy] [rust: incr.comp.: Issue warning if cache directory is on FS without hard-linking](https://github.com/rust-lang/rust/issues/36680).
+* [tedious] [rust: Initial webassembly support via LLVM](https://github.com/rust-lang/rust/issues/36317).
 * [easy] [rust: Bootstrap key logic is too strict](https://github.com/rust-lang/rust/issues/36548).
 * [easy] [rust: rustc should emit an error when there's a bootstrap key mismatch](https://github.com/rust-lang/rust/issues/36544).
 * [easy] [rust: Lint against using generic conversion traits when concrete methods are available](https://github.com/rust-lang/rust/issues/36443).
-* [hard] [rust: Fix unwinding on emscripten](https://github.com/rust-lang/rust/issues/36514).
 * [moderate] [rust: Create official .deb packages](https://github.com/rust-lang/rust/issues/28307).
 * [easy] [rust-www: Better front-page example](https://github.com/rust-lang/rust-www/issues/180).
   The front page example on the website isn't so special. Make it shine.
@@ -88,11 +123,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Caleb Jones
-* dangcheng
-* Eugene Bulkin
-* knight42
-* Liigo
+* aclarry
+* Alexander von Gluck IV
+* Andrew Lygin
+* Ashley Williams
+* Austin Hicks
+* Eitan Adler
+* Gianni Ciccarelli
+* jacobpadkins
+* James Duley
+* Joe Neeman
+* Niels Sascha Reedijk
+* Vanja Cosic
 
 ## Approved RFCs
 
@@ -100,7 +142,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1696: `mem::discriminant()`](https://github.com/rust-lang/rfcs/pull/1696). Add a function that extracts the discriminant from an enum variant as a comparable, hashable, printable, but (for now) opaque and unorderable type.
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -111,24 +153,24 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
 * [Let a `loop { ... }` expression return a value via `break my_value;`](https://github.com/rust-lang/rfcs/pull/1624).
-* [Add a compiler flag that emits crate dependencies on a best-effort basis](https://github.com/rust-lang/rfcs/pull/1622).
-* [Generalize the delayed resolution of language items to arbitrary items](https://github.com/rust-lang/rfcs/pull/1408).
 
 ## New RFCs
 
-* [Crates.io should offer an API to release security advisories for crates](https://github.com/rust-lang/rfcs/pull/1752).
+* [Custom attributes](https://github.com/rust-lang/rfcs/pull/1755).
+* [Specify `#[repr(transparent)]`](https://github.com/rust-lang/rfcs/pull/1758).
 
 # Upcoming Events
 
-* [9/21. Rust Boulder/Denver Monthly Meeting](https://www.meetup.com/Rust-Boulder-Denver/events/233463725/).
-* 9/21. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* 9/21. Rust Dcoumentation Team Meeting at #rust-docs on irc.mozilla.org.
-* [9/22. RustPH Mentors Meeting](http://www.rustph.tech/).
-* 9/22. Rust release triage at #rust-triage on irc.mozilla.org.
-* [9/26. São Paulo Meetup](https://www.meetup.com/Rust-Sao-Paulo-Meetup/events/233713814/).
 * [9/28. Boston Rust Meetup](https://www.meetup.com/BostonRust/events/234241654/).
 * 9/28. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
-* 9/28. Rust Dcoumentation Team Meeting at #rust-docs on irc.mozilla.org.
+* 9/28. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org.
+* [9/29. Rust Meetup Dresden](https://forum.rustplatz.de/t/neues-rust-meetup-in-dresden/156/7).
+* [9/29. Rust DC: Who is more foolish? Novice traps in Rust](https://www.meetup.com/RustDC/events/232445143/).
+* [10/5. Open-Space Rust Meetup Cologne/Bonn](http://rustaceans.cologne/2016/10/05/open-space.html).
+* 10/5. Rust Community Team Meeting at #rust-community on irc.mozilla.org.
+* 10/5. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org.
+* [10/6. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [10/10. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/233577254/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -144,11 +186,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> "Why I’m dropping Rust" was so meh and it got into TWiR? Rdedup never got to TWiR, while it is way cooler than a guy that just couldn't force Rust to be Java. :P
+> You can actually return Iterators without summoning one of the Great Old Ones now, which is pretty cool.
 
-— [/u/dpc_pw on reddit](https://www.reddit.com/r/rust/comments/52ramk/this_week_in_rust_147/d7n5p9o).
+— [/u/K900_ on reddit](https://www.reddit.com/r/rust/comments/53uzzh/most_interesting_uses_of_impl_trait/d7wgp42).
 
-Thanks to [/u/llogiq](https://www.reddit.com/r/rust/comments/52ramk/this_week_in_rust_147/d7nfvfw) for the suggestion.
+Thanks to [Johan Sigfrids](https://users.rust-lang.org/users/johansigfrids) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
