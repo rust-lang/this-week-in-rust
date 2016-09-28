@@ -95,7 +95,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [Attribute invocation at crate root level allowed again](https://github.com/rust-lang/rust/pull/36618) (were inadvertently disallowed two weeks ago)
 * [`TypedArena` now allocates lazily](https://github.com/rust-lang/rust/pull/36618), [loses `.with_capacity(_)`](https://github.com/rust-lang/rust/pull/36657) (the latter is a breaking change)
 * [`syntax::codemap::Span`s can now be merged if adjacent](https://github.com/rust-lang/rust/pull/36585)
-* [RBML is gone](https://github.com/rust-lang/rust/pull/36585) (epic PR)
+* [RBML is gone](https://github.com/rust-lang/rust/pull/36551) (epic PR)
 * [`#[inline]`d functions are now only instantiated on use site](https://github.com/rust-lang/rust/pull/36524) (epic speedup)
 * [Better `parent` info for `save-analysis](https://github.com/rust-lang/rust/pull/36487)
 * [`trans::adt` is superceded by `rustc::ty::layout`](https://github.com/rust-lang/rust/pull/36151)
