@@ -143,7 +143,7 @@ Our community likes to recognize people who have made outstanding contributions
 to the Rust Project, its ecosystem, and its community. These people are
 'friends of the forest'.
 
-This week's friends of the forest were nominated at [RustConf 2016]:
+This week's friends of the forest are:
 
 * [dtolnay] and [oli-obk] for taking over most of the maintenance of the [serde] stack
 * [seanmonstar] for answering my too many questions
@@ -168,6 +168,27 @@ This week's friends of the forest were nominated at [RustConf 2016]:
   Their efforts have made running Rust in production code much more feasible.
   sfackler: [rust-openssl], [rust-security-framework], [schannel-rs],
   [rust-native-tls], briansmith: [ring], [webpki]
+* from [llogiq][llogiq-nominated]:
+
+> I'd like to nominate [Veedrac] for his awesome contributions to various
+> performance-related endeavors.
+
+* from [codingcampbell][codingcampbell-nominated]:
+
+> I'd like to highlight [tomaka] for his numerous projects ([glium], [vulkano],
+> [glutin]). I know he's also involved in some other crates I take for granted,
+> like [gl_generator].
+>
+> I like to play with gamedev, but I am a newcomer to OpenGL things and I have
+> been very grateful for projects like [glium] and [gl_generator] that not only
+> give me a good starting point, but through various documentation has informed
+> me of OpenGL pitfalls.
+>
+> He recently wrote a [post-mortem][glium-postmortem] for [glium], which I think
+> is good as a matter of reflection, but I'm still very impressed with that
+> project, and the others he is tirelessly contributing to.
+>
+> Well done!
 
 [RustConf]: http://rustconf.com/
 [dtolnay]: https://github.com/dtolnay
@@ -212,6 +233,15 @@ This week's friends of the forest were nominated at [RustConf 2016]:
 [rust-native-tls]: https://github.com/sfackler/rust-native-tls
 [ring]: https://github.com/briansmith/ring
 [webpki]: https://github.com/briansmith/webpki
+[llogiq-nominated]: https://github.com/rust-community/team/issues/77#issuecomment-250074590
+[Veedrac]: https://github.com/Veedrac
+[codingcampbell-nominated]: https://users.rust-lang.org/t/twir-friends-of-the-forest/7295/2
+[tomaka]: https://github.com/tomaka
+[glium]: https://github.com/tomaka/glium
+[vulkano]: https://github.com/tomaka/vulkano
+[glutin]: https://github.com/tomaka/glutin
+[gl_generator]: https://github.com/brendanzab/gl-rs
+[glium-postmortem]: https://users.rust-lang.org/t/glium-post-mortem/7063
 
 [Submit your Friends-of-the-Forest nominations for next week][foft]!
 
