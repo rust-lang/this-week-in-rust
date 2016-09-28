@@ -137,6 +137,86 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+# Friends of the Forest
+
+Our community likes to recognize people who have made outstanding contributions
+to the Rust Project, its ecosystem, and its community. These people are
+'friends of the forest'.
+
+This week's friends of the forest were nominated at [RustConf 2016]:
+
+* [dtolnay] and [oli-obk] for taking over most of the maintenance of the [serde] stack
+* [seanmonstar] for answering my too many questions
+* [phildawes] for racer
+* [mitsuhiko] for [redis]
+* [serde] team ([dtolnay], [oli-obk], [erickt])
+* [athemathmo] for [rusty_machine]
+* [carllerche] for [mio]/[tokio]
+* [killercup] for keeping [diesel] running
+* [dikaiosune] - [rusty-dash]
+* [nasa42] and [llogiq] - [This Week In Rust]
+* [WindowsBunny] - being the fuzziest bunny +1 +1 (ed: the +1's are from multiple people)
+* [eddyb] - for knowing everything about rust
+* [chriskrycho] for [New Rustacean]
+* [steveklabnik], Rust documentation superhero
+* [carllerche], [eternaleye], [staticassert]
+* [Matthias Beyer]
+* [llogiq] and [manishearth]
+* [illegalprime] for his work on [rust-websocket]
+* [Mark-Simulacrum] for awesome work on the [compiler performance website]
+* [sfackler] and [briansmith] for enhancing the crypto/security story for Rust.
+  Their efforts have made running Rust in production code much more feasible.
+  sfackler: [rust-openssl], [rust-security-framework], [schannel-rs],
+  [rust-native-tls], briansmith: [ring], [webpki]
+
+[RustConf]: http://rustconf.com/
+[dtolnay]: https://github.com/dtolnay
+[oli-obk]: https://github.com/oli-obk
+[seanmonstar]: https://github.com/seanmonstar
+[phildawes]: https://github.com/phildawes
+[mitsuhiko]: https://github.com/mitsuhiko
+[redis]: https://github.com/mitsuhiko/redis-rs
+[erickt]: https://github.com/erickt
+[serde]: https://github.com/serde-rs
+[athemathmo]: https://github.com/AtheMathmo
+[rusty_machine]: https://github.com/AtheMathmo/rusty-machine
+[carllerche]: https://github.com/carllerche
+[mio]: https://github.com/carllerche/mio
+[tokio]: https://github.com/tokio-rs
+[killercup]: https://github.com/killercup
+[diesel]: http://diesel.rs/
+[dikaiosune]: https://github.com/dikaiosune
+[rusty-dash]: http://rusty-dash.com/
+[nasa42]: https://github.com/nasa42
+[llogiq]: https://github.com/llogiq
+[This Week In Rust]: https://this-week-in-rust.org/
+[WindowsBunny]: https://github.com/retep998
+[eddyb]: https://github.com/eddyb
+[chriskrycho]: https://github.com/chriskrycho
+[New Rustacean]: http://www.newrustacean.com/
+[steveklabnik]: https://github.com/steveklabnik
+[eternaleye]: https://github.com/eternaleye
+[staticassert]: https://github.com/insaneinside
+[Matthias Beyer]: http://beyermatthias.de
+[llogiq]: https://github.com/llogiq
+[manishearth]: https://github.com/manishearth
+[illegalprime]: https://github.com/illegalprime
+[rust-websocket]: https://github.com/cyderize/rust-websocket
+[Mark-Simulacrum]: https://github.com/Mark-Simulacrum
+[compiler performance website]: http://perf.rust-lang.org/
+[sfackler]: https://github.com/sfackler
+[briansmith]: https://github.com/briansmith
+[rust-openssl]: https://github.com/sfackler/rust-openssl
+[rust-security-framework]: https://github.com/sfackler/rust-security-framework
+[schannel-rs]: https://github.com/steffengy/schannel-rs
+[rust-native-tls]: https://github.com/sfackler/rust-native-tls
+[ring]: https://github.com/briansmith/ring
+[webpki]: https://github.com/briansmith/webpki
+
+[Submit your Friends-of-the-Forest nominations for next week][foft]!
+
+[foft]: https://users.rust-lang.org/t/twir-friends-of-the-forest/7295
+
 # Quote of the Week
 
 > You can actually return Iterators without summoning one of the Great Old Ones now, which is pretty cool.
