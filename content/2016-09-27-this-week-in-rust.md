@@ -94,7 +94,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [MIR: Trivial copy propagation](https://github.com/rust-lang/rust/pull/36388)
 * [MIR: Constant propagation](https://github.com/rust-lang/rust/pull/36639)
 * [Attribute invocation at crate root level allowed again](https://github.com/rust-lang/rust/pull/36618) (were inadvertently disallowed two weeks ago)
-* [`TypedArena` now allocates lazily](https://github.com/rust-lang/rust/pull/36618), [loses `.with_capacity(_)`](https://github.com/rust-lang/rust/pull/36657) (the latter is a breaking change)
+* [`TypedArena` now allocates lazily](https://github.com/rust-lang/rust/pull/36592), [loses `.with_capacity(_)`](https://github.com/rust-lang/rust/pull/36657) (the latter is a breaking change)
 * [`syntax::codemap::Span`s can now be merged if adjacent](https://github.com/rust-lang/rust/pull/36585)
 * [RBML is gone](https://github.com/rust-lang/rust/pull/36551) (epic PR)
 * [`#[inline]`d functions are now only instantiated on use site](https://github.com/rust-lang/rust/pull/36524) (epic speedup)
