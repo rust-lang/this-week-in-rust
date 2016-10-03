@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## New Crates & Project Updates
 
-
+* [SUPER 0.1.0 released](http://superanalyzer.rocks/2016/10/02/super-is-here). SUPER, the Secure, Unified, Powerful and Extensible Rust Android Analyzer has released its first version for Windows, Linux and MacOS X.
 
 # Crate of the Week
 
