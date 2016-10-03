@@ -46,6 +46,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [moderate] [rust: Create official .deb packages](https://github.com/rust-lang/rust/issues/28307).
 * [easy] [rust-www: Better front-page example](https://github.com/rust-lang/rust-www/issues/180).
   The front page example on the website isn't so special. Make it shine.
+* [easy] [imag: We use too much .fold(), there is libimagutil::iter::FoldResult!](https://github.com/matthiasbeyer/imag/issues/777)
+* [easy] [imag: Rewrite: libimagdiary: FromStoreId -> Option<_> to use Result<_>](https://github.com/matthiasbeyer/imag/issues/778)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
