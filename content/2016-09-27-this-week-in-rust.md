@@ -41,7 +41,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Cyano](https://github.com/ticki/cyano). An advanced Rust-to-JavaScript transpiler.
 * [gimli](https://github.com/gimli-rs/gimli). A lazy, zero-copy parser for the DWARF debugging format.
 * [Sarkara](https://github.com/quininer/sarkara). A Post-Quantum cryptography library written in Rust.
-* [Native Windows GUI](https://github.com/gabdube/native-windows-gui). Native Window GUI (nwg for short) is a GUI library for Windows.
+* [Native Windows GUI](https://github.com/gabdube/native-windows-gui). Native Windows GUI (nwg for short) is a GUI library for Windows.
 * [dataplotlib](https://github.com/coder543/dataplotlib). Plotting library that tries to make it easy to do scientific plots in Rust.
 * [itertools version 0.5 released](http://bluss.github.io/rust/2016/09/26/itertools-0.5.0/). itertools provides extra functionality for iterators.
 * [rouille](https://github.com/tomaka/rouille). Rust web server middleware.
