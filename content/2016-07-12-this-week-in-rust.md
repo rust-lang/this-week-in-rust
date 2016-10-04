@@ -40,7 +40,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-*No create was selected for CotW.*
+*No crate was selected for CotW.*
 
 [Submit your suggestions for next week][submit_crate]!
 
