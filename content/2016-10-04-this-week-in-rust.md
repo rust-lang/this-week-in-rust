@@ -248,7 +248,7 @@ This week's friends of the forest are:
 [New Rustacean]: http://www.newrustacean.com/
 [steveklabnik]: https://github.com/steveklabnik
 [eternaleye]: https://github.com/eternaleye
-[staticassert]: https://github.com/insaneinside
+[staticassert]: https://github.com/insanitybit
 [Matthias Beyer]: http://beyermatthias.de
 [llogiq]: https://github.com/llogiq
 [manishearth]: https://github.com/manishearth
