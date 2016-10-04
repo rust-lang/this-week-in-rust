@@ -83,7 +83,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-181(!) pull requests were [merged in the last two weeks][merged].
+181(!) pull requests were [merged in the last week][merged].
 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-09-26..2016-10-03
 
