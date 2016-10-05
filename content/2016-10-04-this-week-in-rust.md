@@ -21,7 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Optional arguments in Rust 1.12](http://xion.io/post/code/rust-optional-args.html).
 * [Applying Hoare logic to the Rust MIR](https://ticki.github.io/blog/a-hoare-logic-for-rust/). Hoare logic is a formal system with a set of logical rules for reasoning rigorously about the correctness of computer programs (from [Wikipedia article](https://en.wikipedia.org/wiki/Hoare_logic)).
 * [Rust as a language for high performance GC implementation](http://ts.data61.csiro.au/publications/nictaabstracts/Lin_BHN_16.abstract.pml).
-* [How to us Rust code inside Haskell](https://mgattozzi.github.io/2016/10/01/haskell-rust.html).
+* [How to use Rust code inside Haskell](https://mgattozzi.github.io/2016/10/01/haskell-rust.html).
 * [Rusty dynamic loading](https://damienradtke.com/post/rusty-dynamic-loading/). How to utilize dynamic libraries to reload code on the fly.
 * [Safe and efficient bidirectional trees](https://www.reddit.com/r/rust/comments/55ns2m/safe_and_efficient_bidirectional_trees/).
 * [How to implement a new DOM API for Servo](http://jeenalee.com/2016/10/03/implementing-doge-for-servo.html).
