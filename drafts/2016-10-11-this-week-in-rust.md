@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## New Crates & Project Updates
 
-
+* [imag pre-1.0.0 release strategy](http://beyermatthias.de/blog/2016/10/04/imag-pre-1-0-0-release-strategy/)
 
 ### Other weeklies from Rust community
 
