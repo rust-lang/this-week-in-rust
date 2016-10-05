@@ -130,6 +130,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * 10/12. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org.
 * [10/12. Rust Boulder/Denver](https://www.meetup.com/Rust-Boulder-Denver/events/233784848/).
 * [10/13. Columbus Rust Society](https://www.meetup.com/columbus-rs/events/233996456/).
+* [10/27 and 10/28 Rust Belt Rust in Pittsburgh, US](http://www.rust-belt-rust.com/). Tickets still available.
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
