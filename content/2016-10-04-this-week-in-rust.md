@@ -136,7 +136,8 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-*No RFCs are currently in final comment period.*
+* [Propose a shorthand syntax for constructing struct-like values with _named_ fields](https://github.com/rust-lang/rfcs/pull/1682).
+* [Let a `loop { ... }` expression return a value via `break my_value;`](https://github.com/rust-lang/rfcs/pull/1624).
 
 ## New RFCs
 
