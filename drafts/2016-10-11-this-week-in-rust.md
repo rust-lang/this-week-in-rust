@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-
+* [Bare Minimum Crates.io Mirror Plus One](http://integer32.com/2016/10/08/bare-minimum-crates-io-mirror-plus-one.html)
 
 ## New Crates & Project Updates
 
