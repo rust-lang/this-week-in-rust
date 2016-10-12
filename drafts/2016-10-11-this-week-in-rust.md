@@ -153,103 +153,61 @@ to the Rust Project, its ecosystem, and its community. These people are
 
 This week's friends of the forest are:
 
-* [dtolnay] and [oli-obk] for taking over most of the maintenance of the [serde] stack
-* [seanmonstar] for answering my too many questions
-* [phildawes] for racer
-* [mitsuhiko] for [redis]
-* [serde] team ([dtolnay], [oli-obk], [erickt])
-* [athemathmo] for [rusty_machine]
-* [carllerche] for [mio]/[tokio]
-* [killercup] for keeping [diesel] running
-* [dikaiosune] - [rusty-dash]
-* [nasa42] and [llogiq] - [This Week In Rust]
-* [WindowsBunny] - being the fuzziest bunny +1 +1 (ed: the +1's are from multiple people)
-* [eddyb] - for knowing everything about rust
-* [chriskrycho] for [New Rustacean]
-* [steveklabnik], Rust documentation superhero
-* [carllerche], [eternaleye], [staticassert]
-* [Matthias Beyer]
-* [llogiq] and [manishearth]
-* [illegalprime] for his work on [rust-websocket]
-* [Mark-Simulacrum] for awesome work on the [compiler performance website]
-* [sfackler] and [briansmith] for enhancing the crypto/security story for Rust.
-  Their efforts have made running Rust in production code much more feasible.
-  sfackler: [rust-openssl], [rust-security-framework], [schannel-rs],
-  [rust-native-tls], briansmith: [ring], [webpki]
-* from [llogiq][llogiq-nominated]:
+* From [jimmycuadra]:
 
-> I'd like to nominate [Veedrac] for his awesome contributions to various
-> performance-related endeavors.
-
-* from [codingcampbell][codingcampbell-nominated]:
-
-> I'd like to highlight [tomaka] for his numerous projects ([glium], [vulkano],
-> [glutin]). I know he's also involved in some other crates I take for granted,
-> like [gl_generator].
+> [dtolnay] for outstanding work on [Serde], taking it from a great library
+> into an outstanding library, improving documentation significantly, being on
+> top of the macros 1.1 transition, and even developing a new high level
+> library for making custom derive under macros 1.1 easier to work with.
 >
-> I like to play with gamedev, but I am a newcomer to OpenGL things and I have
-> been very grateful for projects like [glium] and [gl_generator] that not only
-> give me a good starting point, but through various documentation has informed
-> me of OpenGL pitfalls.
->
-> He recently wrote a [post-mortem][glium-postmortem] for [glium], which I think
-> is good as a matter of reflection, but I'm still very impressed with that
-> project, and the others he is tirelessly contributing to.
->
-> Well done!
+> [sgrif] for outstanding work on [Diesel], an ORM that will change the game
+> for ORMs, and for being incredibly helpful and friendly with early adopters.
 
-[RustConf]: http://rustconf.com/
+* From [Mark_Simulacrum]:
+
+> njn (on IRC) or [nnethercote1] on GitHub for outstanding work on compiler perf.
+> They've [removed an allocation during HashSet creation][HashSet], made [TypedArena
+> lazily allocate the first chunk][TypedArena], and [more]. They also have helped with
+> [adding a benchmarking script][benchmarking] to compare two different compiler versions
+> against the benchmarks in [http://perf.rust-lang.org], which helps future work
+> in this area.
+
+* From [nmatsakis]:
+
+> I nominate [TimNN] for Friend of the Forest for his repeated and invaluable
+> work minimizing and bisecting ([example]). Keep up the good work!
+
+* From [dzamlo]:
+
+> I'd like to nominate [BurntSushi] for Friend of the Forest. I think the
+> multiples crates he contributed are both important and high quality. In
+> addition to his code contributions to the ecosystem, he also did some good
+> and informative write up about some of them.
+
+* From [pmarcelll]:
+
+> I'd like to nominate [GuillaumeGomez] for the "Rust documentation superhero"
+> title as well.
+
+[jimmycuadra]: https://users.rust-lang.org/t/twir-friends-of-the-forest/7295/4?u=erickt
 [dtolnay]: https://github.com/dtolnay
-[oli-obk]: https://github.com/oli-obk
-[seanmonstar]: https://github.com/seanmonstar
-[phildawes]: https://github.com/phildawes
-[mitsuhiko]: https://github.com/mitsuhiko
-[redis]: https://github.com/mitsuhiko/redis-rs
-[erickt]: https://github.com/erickt
-[serde]: https://github.com/serde-rs
-[athemathmo]: https://github.com/AtheMathmo
-[rusty_machine]: https://github.com/AtheMathmo/rusty-machine
-[carllerche]: https://github.com/carllerche
-[mio]: https://github.com/carllerche/mio
-[tokio]: https://github.com/tokio-rs
-[killercup]: https://github.com/killercup
-[diesel]: http://diesel.rs/
-[dikaiosune]: https://github.com/dikaiosune
-[rusty-dash]: http://rusty-dash.com/
-[nasa42]: https://github.com/nasa42
-[llogiq]: https://github.com/llogiq
-[This Week In Rust]: https://this-week-in-rust.org/
-[WindowsBunny]: https://github.com/retep998
-[eddyb]: https://github.com/eddyb
-[chriskrycho]: https://github.com/chriskrycho
-[New Rustacean]: http://www.newrustacean.com/
-[steveklabnik]: https://github.com/steveklabnik
-[eternaleye]: https://github.com/eternaleye
-[staticassert]: https://github.com/insaneinside
-[Matthias Beyer]: http://beyermatthias.de
-[llogiq]: https://github.com/llogiq
-[manishearth]: https://github.com/manishearth
-[illegalprime]: https://github.com/illegalprime
-[rust-websocket]: https://github.com/cyderize/rust-websocket
-[Mark-Simulacrum]: https://github.com/Mark-Simulacrum
-[compiler performance website]: http://perf.rust-lang.org/
-[sfackler]: https://github.com/sfackler
-[briansmith]: https://github.com/briansmith
-[rust-openssl]: https://github.com/sfackler/rust-openssl
-[rust-security-framework]: https://github.com/sfackler/rust-security-framework
-[schannel-rs]: https://github.com/steffengy/schannel-rs
-[rust-native-tls]: https://github.com/sfackler/rust-native-tls
-[ring]: https://github.com/briansmith/ring
-[webpki]: https://github.com/briansmith/webpki
-[llogiq-nominated]: https://github.com/rust-community/team/issues/77#issuecomment-250074590
-[Veedrac]: https://github.com/Veedrac
-[codingcampbell-nominated]: https://users.rust-lang.org/t/twir-friends-of-the-forest/7295/2
-[tomaka]: https://github.com/tomaka
-[glium]: https://github.com/tomaka/glium
-[vulkano]: https://github.com/tomaka/vulkano
-[glutin]: https://github.com/tomaka/glutin
-[gl_generator]: https://github.com/brendanzab/gl-rs
-[glium-postmortem]: https://users.rust-lang.org/t/glium-post-mortem/7063
+[Serde]: https://serde.rs/
+[sgrif]: https://github.com/sgrif
+[Diesel]: http://diesel.rs/
+[Mark_Simulacrum]: https://users.rust-lang.org/t/twir-friends-of-the-forest/7295/5?u=erickt
+[nnethercote1]: https://github.com/nnethercote
+[HashSet]: https://github.com/rust-lang/rust/pull/36734
+[TypedArena]: https://github.com/rust-lang/rust/pull/36592
+[more]: https://github.com/rust-lang/rust/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Annethercote
+[benchmarking]: https://github.com/rust-lang-nursery/rustc-benchmarks/pull/17
+[http://perf.rust-lang.org]: http://perf.rust-lang.org
+[nmatsakis]: https://users.rust-lang.org/t/twir-friends-of-the-forest/7295/6?u=erickt
+[TimNN]: https://github.com/TimNN
+[example]: https://github.com/rust-lang/rust/issues/36954#issuecomment-251361101
+[dzamlo]: https://users.rust-lang.org/t/twir-friends-of-the-forest/7295/7?u=erickt
+[BurntSushi]: https://github.com/burntsushi
+[pmarcelll]: https://www.reddit.com/r/rust/comments/55utit/this_week_in_rust_150/d8dwvcy
+[GuillaumeGomez]: https://github.com/GuillaumeGomez
 
 [Submit your Friends-of-the-Forest nominations for next week][foft]!
 
