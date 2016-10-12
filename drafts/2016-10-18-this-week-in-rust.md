@@ -154,61 +154,24 @@ to the Rust Project, its ecosystem, and its community. These people are
 
 This week's friends of the forest are:
 
-* From [jimmycuadra]:
+* From [AtheMathmo]:
 
-> [dtolnay] for outstanding work on [Serde], taking it from a great library
-> into an outstanding library, improving documentation significantly, being on
-> top of the macros 1.1 transition, and even developing a new high level
-> library for making custom derive under macros 1.1 easier to work with.
->
-> [sgrif] for outstanding work on [Diesel], an ORM that will change the game
-> for ORMs, and for being incredibly helpful and friendly with early adopters.
+> I'd like to nominate [bluss] for his work on scientific programming in Rust.
+> [ndarray] is a monumental project but in addition to that he has worked
+> (really) hard to share that knowledge among others and provided easy-to-use
+> libraries like [matrixmultiply]. Without bluss' assistance rulinalg would be
+> in a far worse state.
 
-* From [Mark_Simulacrum]:
+* From [nasa42]:
 
-> njn (on IRC) or [nnethercote1] on GitHub for outstanding work on compiler perf.
-> They've [removed an allocation during HashSet creation][HashSet], made [TypedArena
-> lazily allocate the first chunk][TypedArena], and [more]. They also have helped with
-> [adding a benchmarking script][benchmarking] to compare two different compiler versions
-> against the benchmarks in [http://perf.rust-lang.org], which helps future work
-> in this area.
+> I'd like to nominate [Yehuda Katz], the lord of package managers.
 
-* From [nmatsakis]:
-
-> I nominate [TimNN] for Friend of the Forest for his repeated and invaluable
-> work minimizing and bisecting ([example]). Keep up the good work!
-
-* From [dzamlo]:
-
-> I'd like to nominate [BurntSushi] for Friend of the Forest. I think the
-> multiples crates he contributed are both important and high quality. In
-> addition to his code contributions to the ecosystem, he also did some good
-> and informative write up about some of them.
-
-* From [pmarcelll]:
-
-> I'd like to nominate [GuillaumeGomez] for the "Rust documentation superhero"
-> title as well.
-
-[jimmycuadra]: https://users.rust-lang.org/t/twir-friends-of-the-forest/7295/4?u=erickt
-[dtolnay]: https://github.com/dtolnay
-[Serde]: https://serde.rs/
-[sgrif]: https://github.com/sgrif
-[Diesel]: http://diesel.rs/
-[Mark_Simulacrum]: https://users.rust-lang.org/t/twir-friends-of-the-forest/7295/5?u=erickt
-[nnethercote1]: https://github.com/nnethercote
-[HashSet]: https://github.com/rust-lang/rust/pull/36734
-[TypedArena]: https://github.com/rust-lang/rust/pull/36592
-[more]: https://github.com/rust-lang/rust/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Annethercote
-[benchmarking]: https://github.com/rust-lang-nursery/rustc-benchmarks/pull/17
-[http://perf.rust-lang.org]: http://perf.rust-lang.org
-[nmatsakis]: https://users.rust-lang.org/t/twir-friends-of-the-forest/7295/6?u=erickt
-[TimNN]: https://github.com/TimNN
-[example]: https://github.com/rust-lang/rust/issues/36954#issuecomment-251361101
-[dzamlo]: https://users.rust-lang.org/t/twir-friends-of-the-forest/7295/7?u=erickt
-[BurntSushi]: https://github.com/burntsushi
-[pmarcelll]: https://www.reddit.com/r/rust/comments/55utit/this_week_in_rust_150/d8dwvcy
-[GuillaumeGomez]: https://github.com/GuillaumeGomez
+[AtheMathmo]: https://users.rust-lang.org/t/twir-friends-of-the-forest/7295/9
+[bluss]: https://github.com/bluss
+[ndarray]: https://github.com/bluss/rust-ndarray
+[matrixmultiply]: https://github.com/bluss/matrixmultiply
+[nasa42]: https://www.reddit.com/r/rust/comments/576h2q/this_week_in_rust_151/d8pca3k
+[Yehuda Katz]: https://github.com/wycats
 
 [Submit your Friends-of-the-Forest nominations for next week][foft]!
 
