@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Blog Posts
 
+* [Exploring ARM inline assembly in Rust](http://embed.rs/articles/2016/arm-inline-assembly-rust/). Shows some of the usefulness and plenty of the pitfalls of `asm!`.
+
 ## News & Project Updates
 
 ## Other Weeklies from Rust Community
