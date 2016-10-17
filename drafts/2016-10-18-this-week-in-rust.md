@@ -41,7 +41,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [easy] [Servo: Stylo: Implement font-kerning](https://github.com/servo/servo/issues/13667).
 * [hard] [rust: Optimize emscripten targets with emcc](https://github.com/rust-lang/rust/issues/36899).
 * [hard] [rust: Tell emscripten to remove exception handling code when the panic runtime is used](https://github.com/rust-lang/rust/issues/36900).
-* [moderate] [super: Coloring errors in the console](https://github.com/SUPERAndroidAnalyzer/super/issues/41).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
