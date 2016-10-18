@@ -43,6 +43,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [easy] [Servo: Stylo: Implement font-kerning](https://github.com/servo/servo/issues/13667).
 * [hard] [rust: Optimize emscripten targets with emcc](https://github.com/rust-lang/rust/issues/36899).
 * [hard] [rust: Tell emscripten to remove exception handling code when the panic runtime is used](https://github.com/rust-lang/rust/issues/36900).
+* [easy] [imag: Iterator for Iterator<Item = Result<T, Error>> tracing (wanna learn how to implement iterators?)[https://github.com/matthiasbeyer/imag/issues/813]
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
