@@ -16,17 +16,29 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Blog Posts
 
-* [Exploring ARM inline assembly in Rust](http://embed.rs/articles/2016/arm-inline-assembly-rust/). Shows some of the usefulness and plenty of the pitfalls of `asm!`.
+* [Compiling to the web with Rust and emscripten](https://users.rust-lang.org/t/compiling-to-the-web-with-rust-and-emscripten/7627).
+* [How to speed up the Rust compiler](https://blog.mozilla.org/nnethercote/2016/10/14/how-to-speed-up-the-rust-compiler/).
+* [Exploring ARM inline assembly in Rust](http://embed.rs/articles/2016/arm-inline-assembly-rust/). Usefulness and pitfalls of `asm!`.
+* [Pretty state machine patterns in Rust](https://hoverbear.org/2016/10/12/rust-state-machine-pattern/).
+* [What makes slog fast](https://github.com/slog-rs/slog/wiki/What-makes-slog-fast). Tips on writing efficient Rust code.
+* [Control flow for visitor callbacks](https://bluss.github.io/rust/2016/10/17/control-flow-for-visitors/). New pattern for visitor callbacks that hits the sweet spot for both convenience and the “pay for what you use” principle.
+* [How Rust do](http://blog.jfo.click/how-rust-do/)? Devlog of learning Rust by developing a small project in it.
+* [Using Haskell in Rust](https://mgattozzi.github.io/2016/10/15/rust-haskell.html). Follow-up to [Rust in Haskell](http://mgattozzi.github.io/2016/10/01/haskell-rust.html).
+* [Game of Life implemented in Rust-sdl2](http://pramode.in/2016/10/12/conway-game-of-life-rust-sdl2/).
 
 ## News & Project Updates
 
+* [@withoutboats](https://github.com/withoutboats) [joins language design team](https://internals.rust-lang.org/t/please-welcome-withoutboats-to-the-language-design-team/4191)!
+* [Future updates to the rustup distribution format](https://internals.rust-lang.org/t/future-updates-to-the-rustup-distribution-format/4196). Solving checksum failures and more!
+
 ## Other Weeklies from Rust Community
 
-## New Crates
+* [This week in Rust docs 26](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-26).
+* [These weeks in TiKV 2016-10-17](http://weekly.pingcap.com/2016/10/17/tidb-weekly/).
 
 # Crate of the Week
 
-*No crate was selected for CotW.*
+This week's Create of the Week is [xargo](https://github.com/japaric/xargo) - for effortless cross compilation of Rust programs to custom bare-metal targets like ARM Cortex-M. It recently reached version 0.2.0 and you can [read the announcement here](https://users.rust-lang.org/t/xargo-v0-2-0-effortless-cross-compilation-to-custom-bare-metal-targets/7679).
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -39,11 +51,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [rust: tidy script no longer checks lang features](https://github.com/rust-lang/rust/issues/37013).
-* [easy] [Servo: Stylo: Implement font-kerning](https://github.com/servo/servo/issues/13667).
+* [easy] [rust: Provide a better error message when the target sysroot is not installed](https://github.com/rust-lang/rust/issues/37131).
+* [less easy] [servo: Implement HTMLTimeElement#dateTime](https://github.com/servo/servo/issues/12967).
 * [hard] [rust: Optimize emscripten targets with emcc](https://github.com/rust-lang/rust/issues/36899).
 * [hard] [rust: Tell emscripten to remove exception handling code when the panic runtime is used](https://github.com/rust-lang/rust/issues/36900).
-* [easy] [imag: Iterator for Iterator<Item = Result<T, Error>> tracing (wanna learn how to implement iterators?)[https://github.com/matthiasbeyer/imag/issues/813]
+* [easy] [imag: Iterator for `Iterator<Item = Result<T, Error>>` tracing (wanna learn how to implement iterators?](https://github.com/matthiasbeyer/imag/issues/813).
+* [easy] [maud: Support "while" and "while let"](https://github.com/lfairy/maud/issues/51). Maud is an HTML template engine for Rust.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -51,38 +64,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-135 pull requests were [merged in the last week][merged].
+106 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-10-03..2016-10-10
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-10-10..2016-10-17
 
-* [std: Stabilize and deprecate APIs for 1.13](https://github.com/rust-lang/rust/pull/36815).
+* [Implement `read_offset` and `write_offset`](https://github.com/rust-lang/rust/pull/35704).
 * [Add ThreadId for comparing threads](https://github.com/rust-lang/rust/pull/36341).
-* [Add support for per-target rustflags in `.cargo/config`](https://github.com/rust-lang/cargo/pull/3157).
-* [Speed up `plug_leaks`](https://github.com/rust-lang/rust/pull/36917).
-* [Cargo: Add `--message-format` flag](https://github.com/rust-lang/cargo/pull/3000).
-* [Add Thumbs target definitions to the compiler](https://github.com/rust-lang/rust/pull/36874).
-* [rustc: Rename `rustc_macro` to `proc_macro`](https://github.com/rust-lang/rust/pull/36945).
-* [Clarify HashMap's capacity handling](https://github.com/rust-lang/rust/pull/36766).
-* [Enforce the shadowing restrictions from RFC 1560 for today's macros](https://github.com/rust-lang/rust/pull/36767).
-* [Restrict where in the tree platform-specific cfgs may be mentioned](https://github.com/rust-lang/rust/pull/36807).
-* [Improve error message and snippet for "did you mean `x`"](https://github.com/rust-lang/rust/pull/36798).
-* [Cargo: Warn about path overrides that won't work](https://github.com/rust-lang/cargo/pull/3136).
-* [Refactoring/bugfixing around definitions for struct/variant constructors](https://github.com/rust-lang/rust/pull/36814).
-* [std: Correct stability attributes for some implementations](https://github.com/rust-lang/rust/pull/36902).
+* [Cache conscious hashmap table](https://github.com/rust-lang/rust/pull/36692).
+* [Add `method str::repeat(self, usize) -> String`](https://github.com/rust-lang/rust/pull/36699).
+* [Add two functions to check type of given address](https://github.com/rust-lang/rust/pull/36707).
+* [Add `Vec::dedup_by` and `Vec::dedup_by_key`](https://github.com/rust-lang/rust/pull/36743).
+* [Add two functions to check type of `SockAddr`](https://github.com/rust-lang/rust/pull/36762).
+* [Add `println!()` macro with out any arguments](https://github.com/rust-lang/rust/pull/36825).
+* [stabilise `?`, attributes on stmts, deprecate Reflect](https://github.com/rust-lang/rust/pull/36995).
+* [Error monitor should emit error to stderr instead of stdout](https://github.com/rust-lang/rust/pull/37066).
+* [Make the AF_NETLINK constant available for Android](https://github.com/rust-lang/libc/pull/424).
+* [Specialize `Vec::extend` to `Vec::extend_from_slice`](https://github.com/rust-lang/rust/pull/37094).
+* [Lint against lowercase static mut](https://github.com/rust-lang/rust/pull/37162).
 
 ## New Contributors
 
-* Anthony Ramine
-* Christopher
-* Eric Roshan-Eisner
-* Florian Diebold
-* KillTheMule
-* Mathieu Borderé
-* Nick Stevens
-* p512
-* Razican
-* Stephen M. Coakley
-* 石博文
+* Danny Hua
+* Fabian Frei
+* Mikko Rantanen
+* Nabeel Omer
 
 ## Approved RFCs
 
@@ -100,13 +105,14 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
+* [Use `#[link(kind)]` to fix imports from native libs on Windows](https://github.com/rust-lang/rfcs/pull/1717).
+* [Enable customizing the linkage of a platform's C runtime](https://github.com/rust-lang/rfcs/pull/1721).
 * [Propose a shorthand syntax for constructing struct-like values with _named_ fields](https://github.com/rust-lang/rfcs/pull/1682).
 * [Let a `loop { ... }` expression return a value via `break my_value;`](https://github.com/rust-lang/rfcs/pull/1624).
 
 ## New RFCs
 
 * [Extend entry API to work on borrowed keys](https://github.com/rust-lang/rfcs/pull/1769).
-* [Abort by default v2](https://github.com/rust-lang/rfcs/pull/1765). Specify abort-by-default in `Cargo.toml` when the user does `cargo new --bin`, as well as various other refinements to the panick strategy system.
 
 ## Style RFCs
 
@@ -127,14 +133,15 @@ _No PRs this week._
 
 # Upcoming Events
 
-* [10/13. Rust Orange County Inaugural Meetup](https://www.meetup.com/Rust-Los-Angeles/events/234277000/).
-* [10/13. Columbus Rust Society](https://www.meetup.com/columbus-rs/events/233996456/).
-* [10/15. South Florida Rust Meetup](http://www.meetup.com/South-Florida-Rust-Meetup/events/234791780/).
-* [10/18. London Rust User Group Meetup #9](https://www.meetup.com/Rust-London-User-Group/events/233034964/).
+* [10/19. Los Angeles Rust Meetup](https://www.meetup.com/Rust-Los-Angeles/events/234140744/).
 * [10/19. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [10/19. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [10/20. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [10/27 and 10/28 Rust Belt Rust in Pittsburgh, US](http://www.rust-belt-rust.com/). Tickets still available.
+* [10/26. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [10/26. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* **[Rust Belt Rust Conference - Pittsburgh](http://www.rust-belt-rust.com/)**.
+* [10/31. Rust Paris](https://www.meetup.com/Rust-Paris/events/234528214/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -181,11 +188,15 @@ This week's friends of the forest are:
 
 # Quote of the Week
 
-> < Celti> I just had a recruiter contact me for a Rust job requiring 3+ years of professional experience with it.
+> <dRk\> that gives a new array of errors, guess that's a good thing
+> <misdreavus\> you passed one layer of tests, and hit the next layer :P
+> <misdreavus\> rustc is like onions
+> <dRk\> it makes you cry?
 
-— From [#rust](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust).
 
-Thanks to [bluss](https://users.rust-lang.org/users/bluss) for the suggestion.
+— From [#rust-beginners](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-beginners).
+
+Thanks to [Quiet Misdreavus](https://users.rust-lang.org/users/quietmisdreavus) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
