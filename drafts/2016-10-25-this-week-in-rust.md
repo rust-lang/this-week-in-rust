@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Project Updates
 
+* [What's coming up in imag (18)](http://beyermatthias.de/blog/2016/10/21/what-s-coming-up-in-imag-18/)
+
 ## Other Weeklies from Rust Community
 
 # Crate of the Week
