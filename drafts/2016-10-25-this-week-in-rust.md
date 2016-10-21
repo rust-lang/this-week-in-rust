@@ -39,7 +39,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [less easy] [servo: Implement HTMLTimeElement#dateTime](https://github.com/servo/servo/issues/12967).
 * [hard] [rust: Optimize emscripten targets with emcc](https://github.com/rust-lang/rust/issues/36899).
 * [hard] [rust: Tell emscripten to remove exception handling code when the panic runtime is used](https://github.com/rust-lang/rust/issues/36900).
-* [easy] [imag: Iterator for `Iterator<Item = Result<T, Error>>` tracing (wanna learn how to implement iterators?](https://github.com/matthiasbeyer/imag/issues/813).
 * [easy] [maud: Support "while" and "while let"](https://github.com/lfairy/maud/issues/51). Maud is an HTML template engine for Rust.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
