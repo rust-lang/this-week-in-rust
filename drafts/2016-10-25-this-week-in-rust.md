@@ -18,6 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Project Updates
 
+* imag v0.2.0
+  * [blog post](http://beyermatthias.de/blog/2016/10/23/imag-0-2-0/)
+  * [website](http://imag-pim.org/releases/)
 * [What's coming up in imag (18)](http://beyermatthias.de/blog/2016/10/21/what-s-coming-up-in-imag-18/)
 
 ## Other Weeklies from Rust Community
