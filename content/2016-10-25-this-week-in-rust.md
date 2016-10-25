@@ -142,18 +142,19 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [Style RFCs](https://github.com/rust-lang-nursery/fmt-rfcs) are part of the process for deciding on style guidelines for the Rust community and defaults for [Rustfmt](https://github.com/rust-lang-nursery/rustfmt). The process is similar to the RFC process, but we try to reach rough consensus on issues (including a final comment period) before progressing to PRs. Just like the RFC process, all users are welcome to comment and submit RFCs. If you want to help decide what Rust code should look like, come get involved!
 
-FCP issues:
+PRs:
 
-* [Guiding principles](https://github.com/rust-lang-nursery/fmt-rfcs/issues/4).
-* [Comments](https://github.com/rust-lang-nursery/fmt-rfcs/issues/17).
+* [Customising Rustfmt](https://github.com/rust-lang-nursery/fmt-rfcs/pull/33).
 
-Other issues getting a lot of discussion:
+[Issue 17](https://github.com/rust-lang-nursery/fmt-rfcs/issues/17) (comments) is ready for a PR, we'd love someone to help out with that, if you're interested ping someone in #rust-style.
 
-* [Imports (`use`)](https://github.com/rust-lang-nursery/fmt-rfcs/issues/24).
-* [Boolean and arithmetic expressions](https://github.com/rust-lang-nursery/fmt-rfcs/issues/18).
-* [Statements](https://github.com/rust-lang-nursery/fmt-rfcs/issues/11).
+*No FCP issues this week.*
 
-_No PRs this week._
+New P-high issues:
+
+* [Struct and union declarations](https://github.com/rust-lang-nursery/fmt-rfcs/issues/30).
+* [Enums and variants](https://github.com/rust-lang-nursery/fmt-rfcs/issues/31).
+* [`type` aliases](https://github.com/rust-lang-nursery/fmt-rfcs/issues/32).
 
 # Upcoming Events
 
