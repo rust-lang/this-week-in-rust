@@ -100,7 +100,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [Lint against lowercase static mut](https://github.com/rust-lang/rust/pull/37162).
 * [`#[may_dangle]` attribute](https://github.com/rust-lang/rust/pull/37117).
 * [Optimize `Substs::super_fold_with`](https://github.com/rust-lang/rust/pull/37108).
-* [Inline read_{un,}signed_leb128 and opaque::Decoder functions](https://github.com/rust-lang/rust/pull/37083).
+* [Inline `read_{un,}signed_leb128` and `opaque::Decoder` functions](https://github.com/rust-lang/rust/pull/37083).
 
 ## New Contributors
 
