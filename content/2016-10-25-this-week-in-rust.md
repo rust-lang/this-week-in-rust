@@ -33,6 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Introducing Rust Language Server, source release](https://internals.rust-lang.org/t/introducing-rust-language-server-source-release/4209). RLS provides a service that runs in the background, providing IDEs, editors, and other tools with information about Rust programs.
 * [Facebook is writing a Mercurial server in Rust](https://groups.google.com/forum/#!topic/mozilla.dev.version-control/nh4fITFlEMk).
 * [Announcing Cage: Develop and deploy complex Docker applications](http://blog.faraday.io/announcing-cage-develop-and-deploy-complex-docker-applications/).
+* [imag v0.2.0 released](http://beyermatthias.de/blog/2016/10/23/imag-0-2-0/).
 
 ## Other Weeklies from Rust Community
 
@@ -42,6 +43,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Tock Embedded OS #7](http://www.tockos.org/blog/2016/talking-tock-7/). Tock is a safe, multitasking operating system for low-power, low-memory microcontrollers.
 * [This week in Ruru 3](http://this-week-in-ruru.org/2016/10/24/this-weeks-in-ruru-3/). Ruru lets you write native Ruby extensions in Rust.
 * [This week in TiKV 2016-10-23](http://weekly.pingcap.com/2016/10/24/tidb-weekly/#notable-changes-to-tikv). TiKV is a distributed Key-Value database.
+* [What's coming up in imag 18](http://beyermatthias.de/blog/2016/10/21/what-s-coming-up-in-imag-18/). imag is a text based personal information management suite.
 
 # New Crates
 
