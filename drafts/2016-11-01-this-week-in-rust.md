@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Project Updates
 
+The community team hosts a hybrid hack event on November 19th/20th centered around the African/European time zones. If you are interested in participating, or supplying topics to work on, please head to the [novemb.rs](http://novemb.rs) website.
+
 ## Other Weeklies from Rust Community
 
 # New Crates
