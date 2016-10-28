@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # New Crates
 
+* [rustbreak](https://crates.io/crates/rustbreak) - a daybreak inspired self-contained file database
+
 # Crate of the Week
 
 *No crate was selected for CotW.*
