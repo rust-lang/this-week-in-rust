@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Blog Posts
 
 ## News & Project Updates
+- [Spectral fluent assertions 0.5.0 released.](https://github.com/cfrancia/spectral)
 
 ## Other Weeklies from Rust Community
 
