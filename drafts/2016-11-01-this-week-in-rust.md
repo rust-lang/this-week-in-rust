@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Blog Posts
 
+* [Hacking on the Rust language — error messages](https://andidog.de/blog/2016-10-28-today-i-learned-2-rust-hacking). Short guide on getting started working on Rust compiler — example of adding a previously missing error code explanation.
+
 ## News & Project Updates
 
 ## Other Weeklies from Rust Community
