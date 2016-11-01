@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Blog Posts
 
+* [Creating a Dalvik parser in Rust (Part 1)](http://superanalyzer.rocks/2016/10/18/dalvik-parser-1). First part of a series of articles describing how SUPER is building an Android Dalvik executable file parser.
+
 ## News & Project Updates
 
 ## Other Weeklies from Rust Community
