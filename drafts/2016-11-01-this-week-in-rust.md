@@ -28,6 +28,8 @@ The community team hosts a hybrid hack event on November 19th/20th centered arou
 
 # New Crates
 
+* [rustbreak](https://crates.io/crates/rustbreak) - a daybreak inspired self-contained file database
+
 # Crate of the Week
 
 *No crate was selected for CotW.*
