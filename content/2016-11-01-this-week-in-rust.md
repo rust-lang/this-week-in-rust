@@ -49,6 +49,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Spongedown](https://ivanceras.github.io/spongedown/) converts markdown to html with support for [svgbob diagrams](https://github.com/ivanceras/svgbobrus).
 * [loc](https://github.com/cgag/loc). A tool for counting lines of code. It's a Rust implementation of cloc, but it's more than 100x faster.
 * [cargo-update](https://github.com/nabijaczleweli/cargo-update). A cargo subcommand for checking and applying updates to installed executables.
+* [rustbreak](https://crates.io/crates/rustbreak) - a daybreak inspired self-contained file database.
 
 # Crate of the Week
 
