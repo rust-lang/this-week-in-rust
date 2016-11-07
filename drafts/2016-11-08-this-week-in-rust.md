@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## New Crates
 
+* [just](https://github.com/casey/just) – Just a command runner
+
 # Crate of the Week
 
 * This week's Crate of the Week is [app_dirs](https://github.com/AndyBarron/app-dirs-rs). app_dirs lets you put your app's data in the right place on every platform.
