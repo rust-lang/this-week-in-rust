@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Blog Posts
 
+* [What's coming up in imag (19)](http://beyermatthias.de/blog/2016/11/04/what-s-coming-up-in-imag-19/)
+
 ## News & Project Updates
 
 ## Other Weeklies from Rust Community
