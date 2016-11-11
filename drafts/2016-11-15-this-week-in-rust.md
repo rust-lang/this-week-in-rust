@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## New Crates
 
+* [nautilus-extension](https://github.com/talklittle/nautilus-extension-rs) – Safe bindings to libnautilus-extension
+
 # Crate of the Week
 
 *No crate was selected for CotW.*
