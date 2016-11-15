@@ -122,7 +122,13 @@ Ready for PR:
 Final comment period:
 
 * [Statements](https://github.com/rust-lang-nursery/fmt-rfcs/issues/11).
-* [static mut capitalisation](https://github.com/rust-lang-nursery/fmt-rfcs/issues/20).
+* [Imports (`use`)](https://github.com/rust-lang-nursery/fmt-rfcs/issues/24).
+
+Other notable issues:
+
+* [block vs visual indentation](https://github.com/rust-lang-nursery/fmt-rfcs/issues/8).
+* [function declarations](https://github.com/rust-lang-nursery/fmt-rfcs/issues/39).
+* [match](https://github.com/rust-lang-nursery/fmt-rfcs/issues/34).
 
 # Upcoming Events
 
