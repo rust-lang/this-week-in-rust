@@ -14,6 +14,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
+## novemb.rs
+
+[novemb.rs](http://novemb.rs), the distributed Rust hackfest, is happening this weekend. If you would like to participate, please refer to the website for a local meetup or for a chat to get in contact with other Rustceans. Note that if you want to attend a meetup,  you should check on Friday for most up-to-date information.
+
 ## Blog Posts
 
 * <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.13](https://blog.rust-lang.org/2016/11/10/Rust-1.13.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
@@ -33,6 +37,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in TiKV 2016-11-14](http://weekly.pingcap.com/2016/11/14/tidb-weekly/#weekly-update-in-tikv). TiKV is a distributed Key-Value database.
 
 ## New Crates
+
+* [nautilus-extension](https://github.com/talklittle/nautilus-extension-rs) – Safe bindings to libnautilus-extension
 
 # Crate of the Week
 
@@ -127,7 +133,13 @@ Ready for PR:
 Final comment period:
 
 * [Statements](https://github.com/rust-lang-nursery/fmt-rfcs/issues/11).
-* [static mut capitalisation](https://github.com/rust-lang-nursery/fmt-rfcs/issues/20).
+* [Imports (`use`)](https://github.com/rust-lang-nursery/fmt-rfcs/issues/24).
+
+Other notable issues:
+
+* [block vs visual indentation](https://github.com/rust-lang-nursery/fmt-rfcs/issues/8).
+* [function declarations](https://github.com/rust-lang-nursery/fmt-rfcs/issues/39).
+* [match](https://github.com/rust-lang-nursery/fmt-rfcs/issues/34).
 
 # Upcoming Events
 
