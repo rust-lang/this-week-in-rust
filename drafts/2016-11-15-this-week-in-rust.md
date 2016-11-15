@@ -16,7 +16,21 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Blog Posts
 
+* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.13](https://blog.rust-lang.org/2016/11/10/Rust-1.13.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* [Schemers: Build a Scheme Interpreter in Rust - a tutorial for Rust beginners](https://mgattozzi.github.io/2016/11/08/scheme-input.html).
+* [Rapid prototyping C applications with Rust](https://rust-leipzig.github.io/cargo/2016/11/13/rapid-prototyping-c-applications/).
+* [Associated type constructors, part 4: Unifying ATC and HKT](http://smallcultfollowing.com/babysteps/blog/2016/11/09/associated-type-constructors-part-4-unifying-atc-and-hkt/).
+* [Parallel iterators, part 3: Consumers](http://smallcultfollowing.com/babysteps/blog/2016/11/14/parallel-iterators-part-3-consumers/).
+* [A quick tour of Rust’s Type System part 1: Sum Types (a.k.a. Tagged Unions)](https://tonyarcieri.com/a-quick-tour-of-rusts-type-system-part-1-sum-types-a-k-a-tagged-unions).
+* [The fastest template engine in the West](https://lambda.xyz/blog/maud-is-fast/).
+* [Implementing Finite Automata in Rust (Part 2)](https://apanatshka.github.io/compsci/2016/11/12/implementing-finite-automata-part-2/).
+* [Using Rust for ‘scripting’](http://www.chriskrycho.com/2016/using-rust-for-scripting.html).
+
 ## Other Weeklies from Rust Community
+
+* [This week in Rust docs 30](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-30). Updates from the Rust documentation team.
+* [These weeks in Servo 83](https://blog.servo.org/2016/11/14/twis-83/). Servo is a prototype web browser engine written in Rust.
+* [This week in TiKV 2016-11-14](http://weekly.pingcap.com/2016/11/14/tidb-weekly/#weekly-update-in-tikv). TiKV is a distributed Key-Value database.
 
 ## New Crates
 
@@ -33,9 +47,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [less easy] [rust: Separate foreign items in HIR](https://github.com/rust-lang/rust/issues/37713).
+* [less easy] [rust: Separate trait items from trait](https://github.com/rust-lang/rust/issues/37712).
+* [easy] [rust: docs: Explain why/when `.lines()` returns an error](https://github.com/rust-lang/rust/issues/37744).
 * [easy] [git-series: Highlight trailing whitespace](https://github.com/git-series/git-series/issues/31).
 * [easy] [git-series: Support rebase --exec](https://github.com/git-series/git-series/issues/24).
-* [easy] [servo: Make parse functions implement from Parse trait in style](https://github.com/servo/servo/issues/14101).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -43,42 +59,33 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-140 pull requests were [merged in the last week][merged].
+152 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-10-31..2016-11-07
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-11-07..2016-11-14
 
-* [Cargo: Use a single profile set per workspace](https://github.com/rust-lang/cargo/pull/3249).
-* [rustc: Add knowledge of Windows subsystems](https://github.com/rust-lang/rust/pull/37501).
-* [Replace all uses of SHA-256 with BLAKE2b](https://github.com/rust-lang/rust/pull/37439).
-* [Rust download: Recommend MSVC ABI](https://github.com/rust-lang/rust-www/pull/602).
-* [Cargo: Ignore `panic` configuration for test/bench profiles](https://github.com/rust-lang/cargo/pull/3175).
-* [Add or and or_else for ordering](https://github.com/rust-lang/rust/pull/37054).
-* [rustbuild: support MIPS host builds](https://github.com/rust-lang/rust/pull/37625).
-* [Add `-Z hir-stats` for collecting statistics on HIR and AST](https://github.com/rust-lang/rust/pull/37583).
-* [Shrink `hir::Expr` slightly](https://github.com/rust-lang/rust/pull/37577).
-* [rustbuild: Rewrite user-facing interface](https://github.com/rust-lang/rust/pull/37521).
-* [Cargo: Expose rustc cfg values to build scripts](https://github.com/rust-lang/cargo/pull/3243).
-* [Don't reuse RandomState seeds](https://github.com/rust-lang/rust/pull/37470).
-* [Add `.wrapping_offset()` methods](https://github.com/rust-lang/rust/pull/37422).
-* [Reduce the number of bytes hashed by IchHasher](https://github.com/rust-lang/rust/pull/37427).
-* [Add impls for `&Wrapping`. Also `Sum`, `Product` impls for both `Wrapping` and `&Wrapping`](https://github.com/rust-lang/rust/pull/37356).
-* [Prevent exhaustive matching of Ordering to allow for future extension](https://github.com/rust-lang/rust/pull/37351).
-* [Add Iterator trait TrustedLen to enable better FromIterator / Extend](https://github.com/rust-lang/rust/pull/37306).
-* [Add `unwrap_or_default` method to `Result`](https://github.com/rust-lang/rust/pull/37299).
-* [Implement `RefUnwindSafe` for atomic types](https://github.com/rust-lang/rust/pull/37178).
-* [Detect extra region requirements in impls](https://github.com/rust-lang/rust/pull/37167).
-* [Add conversions from `io:ErrorKind` to `io::Error`](https://github.com/rust-lang/rust/pull/37037).
-* [Optimize ObligationForest's NodeState handling](https://github.com/rust-lang/rust/pull/36993).
-* [hashmap: Store hashes as usize internally](https://github.com/rust-lang/rust/pull/36595).
+* [Stabilize `..` in tuple (struct) patterns](https://github.com/rust-lang/rust/pull/36843).
+* [Partially stabilize RFC 1506 "Clarify relationships between ADTs"](https://github.com/rust-lang/rust/pull/36868).
+* [Macro parser performance improvements and refactoring](https://github.com/rust-lang/rust/pull/37701).
+* [Add `{into,from}_raw` to Rc and Arc](https://github.com/rust-lang/rust/pull/37192).
+* [Replace FNV with a faster hash function](https://github.com/rust-lang/rust/pull/37229).
+* [Support `#[macro_reexport]`ing custom derives](https://github.com/rust-lang/rust/pull/37542).
+* [Replace syntax's SmallVector with AccumulateVec](https://github.com/rust-lang/rust/pull/37551).
+* [Add support for ARMv5TE architecture](https://github.com/rust-lang/rust/pull/37615).
+* [std: Derive `Default` for `Duration`](https://github.com/rust-lang/rust/pull/37699).
 
 ## New Contributors
 
-* Dmitry Gritsay
-* leonardo.yvens
-* Marcin Fatyga
-* Martin Glagla
-* Matwey V. Kornilov
-* pweyck
+* abhijeetbhagat
+* Angelo Polo
+* Arthur Silva
+* Havvy
+* Josh Driver
+* Juan Gomez
+* karpinski
+* meh
+* Nicolas B. Pierron
+* oldmanmike
+* Trotter Cashion
 
 ## Approved RFCs
 
@@ -86,7 +93,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week!*
+* [RFC 1728: A process for establishing the Rust roadmap](https://github.com/rust-lang/rfcs/pull/1728).
 
 ## Final Comment Period
 
@@ -96,13 +103,13 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [A process for establishing the Rust roadmap](https://github.com/rust-lang/rfcs/pull/1728).
-* [Introduce a new type `MoveCell<T>` in `std::cell`](https://github.com/rust-lang/rfcs/pull/1659).
+* [Require documentation for all new features](https://github.com/rust-lang/rfcs/pull/1636).
+* [Add two functions, `ptr::read_unaligned` and `ptr::write_unaligned`, which allows reading/writing to an unaligned pointer](https://github.com/rust-lang/rfcs/pull/1725).
 
 ## New RFCs
 
-* [Conditional dependencies](https://github.com/rust-lang/rfcs/pull/1787).
-* [Create a separate libc_types crate for basic C types](https://github.com/rust-lang/rfcs/pull/1783).
+* [Introduce `Option::<&T>::borrowed`](https://github.com/rust-lang/rfcs/pull/1792).
+* [`AsCell` conversion from `&mut T` to `&Cell<T>`](https://github.com/rust-lang/rfcs/pull/1789).
 
 ## Style RFCs
 
@@ -124,18 +131,20 @@ Final comment period:
 
 # Upcoming Events
 
-* [11/9. Rust Boulder/Denver Monthly Meeting](https://www.meetup.com/Rust-Boulder-Denver/events/235031836/).
-* [11/10. Columbus Rust Society](https://www.meetup.com/columbus-rs/events/234855067/).
-* [11/14. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/234725296/).
-* [11/15. Rust Philippines: Introduction to Rust Programming Language](http://www.rustph.tech/rust-101-session-for-november-2016/).
 * [11/16. Rust User Group Cologne - Open Source Audio Meetup](http://rust.cologne/2016/11/16/audio-meetup.html).
 * [11/16. London Rust meetup #10](https://www.meetup.com/Rust-London-User-Group/events/234999144/).
 * [11/16. Rust LA Monthly Meetup - Hack Night](https://www.meetup.com/Rust-Los-Angeles/events/234998313/).
 * [11/16. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [11/16. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [11/17. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [11/19 - 11/20. ./novemb.rs Code Sprint](http://novemb.rs/).
 * [11/19 - 11/20. Rust Cologne - Weekend Special: Novemb.rs Code Sprint sponsored by Mozilla](https://www.meetup.com/RustCologne/events/235374218/).
 * [11/19 - 11/20. L'événement du Logiciel Libre à Toulouse](https://2016.capitoledulibre.org/programme.html).
+* [11/19 - 11/20. Rust Vilnius - Boot Camp Rust](https://www.meetup.com/Rust-in-Vilnius/events/234293479/).
+* [11/21. Rust Paris meetup #34](https://www.meetup.com/Rust-Paris/events/235570335/).
+* [11/22. Kaspersky CoLaboratory: Moscow Rust Meetup](https://events.kaspersky.com/event/rust2).
+* [11/23. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [11/23. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -145,18 +154,15 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # fn work(on: RustProject) -> Money
 
-* [Senior Rust Developer at OneSignal Mountain View, CA](http://onesignal.applytojob.com/apply/supk2g/Senior-Rust-Developer).
+*No jobs listed for this week.*
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
+> Now higher-kinded types especially are one of those PL topics that sound forebodingly complex and kind of abstract (like monads). But once you learn what it is, you realize it’s actually relevant to your life (unlike monads).
 
-> I want to paint you a picture of a utopia in which Rust has expanded to become the fabric of the entire classical computing world, where the possibilities of what we can achieve are not shackled to the decaying dreams of computer science past. In this perfect utopia you have invented the perfect model for managing your computer's sci-fi hardware, perfectly free from the legacy of Unix and Windows. And you need the perfect language to write it in. Everywhere you look is legacy: C, C++, Java; the stacks get bigger and bigger, cruft all the way down.
-
-> The only shining light is Rust. Those Rustaceans have been chipping away the cruft, distilling their platform to only the essence of bits and bytes, while also expanding its expressive power toward legendary elegance. Rust doesn't want to tell you how to build your system. Rust wants to serve you, to fulfill your dreams, on your terms. For your ambitions, Rust is the only reasonable choice in a world filled with compromises.
-
-— [brson on Refactoring std for ultimate portability](https://internals.rust-lang.org/t/refactoring-std-for-ultimate-portability/4301).
+— [@nikomatsakis invoking the M word in his blog post](http://smallcultfollowing.com/babysteps/blog/2016/11/02/associated-type-constructors-part-1-basic-concepts-and-introduction/).
 
 Thanks to [Japaric](https://users.rust-lang.org/users/japaric) for the suggestion.
 
