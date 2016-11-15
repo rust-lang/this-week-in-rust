@@ -14,6 +14,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
+## novemb.rs
+
+[novemb.rs](http://novemb.rs), the distributed Rust hackfest, is happening this weekend. If you would like to participate, please refer to the website for a local meetup or for a chat to get in contact with other Rustceans. Note that if you want to attend a meetup,  you should check on Friday for most up-to-date information.
+
 ## Blog Posts
 
 ## Other Weeklies from Rust Community
