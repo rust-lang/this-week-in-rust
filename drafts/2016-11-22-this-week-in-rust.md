@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Other Weeklies from Rust Community
 
+* [What's coming up in imag (20)](http://beyermatthias.de/blog/2016/11/18/what-s-coming-up-in-imag-20/)
+
 # Crate of the Week
 
 *No crate was selected for CotW.*
