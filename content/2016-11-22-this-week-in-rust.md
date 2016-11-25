@@ -33,7 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Project Updates
 
-* [The MSP430 LLVM backend has been enabled in the latest nightly, please test it](https://users.rust-lang.org/t/the-msp430-llvm-backend-has-been-enabled-in-the-latest-nightly-please-test-it/8045)!
+* [The MSP430 LLVM backend has been enabled in the latest nightly](https://users.rust-lang.org/t/the-msp430-llvm-backend-has-been-enabled-in-the-latest-nightly-please-test-it/8045).
 * [Rust documentation is now optional and opt-in when installing via rustup](https://users.rust-lang.org/t/psa-rust-documentation-is-now-optional-and-opt-in-when-installing-via-rustup/8072).
 * [Discovery: Discover the world of microcontrollers through Rust](https://users.rust-lang.org/t/discovery-discover-the-world-of-microcontrollers-through-rust/8015)! Discovery is a book about (programming) embedded systems / microcontrollers aimed at people without previous experience with them.
 
