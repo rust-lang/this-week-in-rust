@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Blog Posts
 
+- [Go To Statement Considered (Mostly) Harmless](http://jamey.thesharps.us/2016/11/go-to-statement-considered-harmless.html): Translating C `goto` statements to Rust with Corrode, a C to Rust translator.
+
 ## News & Project Updates
 
 ## Other Weeklies from Rust Community
