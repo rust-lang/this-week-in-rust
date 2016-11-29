@@ -22,9 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's Crate of the Week is [cargo-benchcmp](https://github.com/BurntSushi/cargo-benchcmp). `cargo-benchcmp` generates nice before-after summaries for benchmarks.
-
-Thanks to [bluss](https://users.rust-lang.org/users/bluss) for this week's suggestion. [Submit your suggestions and votes for next week][submit_crate]!
+Since there were no nominations, this week has to go without a Crate of the Week. Sorry. [Submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
@@ -49,21 +47,32 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-105 pull requests were [merged in the last week][merged].
+66 pull requests were [merged in the last week][merged]. Not much, but there were a good number of awesome changes:
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-11-14..2016-11-21
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-11-21..2016-11-28
 
-* [Add `std::process::abort`](https://github.com/rust-lang/rust/pull/37833).
-* [Remove `scope_auxiliary`](https://github.com/rust-lang/rust/pull/37764).
-* [rustdoc: add cli argument `--playground-url`](https://github.com/rust-lang/rust/pull/37763).
-* [Don't clone in `UnificationTable::probe()`](https://github.com/rust-lang/rust/pull/37848).
-* [enable the MSP430 LLVM backend](https://github.com/rust-lang/rust/pull/37672).
-* [rustc: Implement `#[link(cfg(..))]` and crt-static](https://github.com/rust-lang/rust/pull/37545).
-* [Stabilize RFC 1560 (Changes to name resolution)](https://github.com/rust-lang/rust/pull/37127).
-* [Fix grammar verification](https://github.com/rust-lang/rust/pull/37607).
-* [Improve `.chars().count()`](https://github.com/rust-lang/rust/pull/37888).
-* [Optimise `Chars::last()`](https://github.com/rust-lang/rust/pull/37882).
-* [Macro parser performance improvements and refactoring](https://github.com/rust-lang/rust/pull/37701).
+* [Implement `break` with value](https://github.com/rust-lang/rust/pull/37487) ([RFC #1624](https://github.com/rust-lang/rfcs/blob/master/text/1624-loop-break-value.md))
+* [Stabilized name resolution changes](https://github.com/rust-lang/rust/pull/37127) ([RFC #1560](https://github.com/rust-lang/rfcs/blob/master/text/1560-name-resolution.md))
+* [Implement panic-safe slicing](https://github.com/rust-lang/rust/pull/36340) ([RFC #1679](https://github.com/rust-lang/rfcs/blob/master/text/1679-panic-safe-slicing.md))
+* [Make more types uninhabited](https://github.com/rust-lang/rust/pull/36449)
+* [Pad const enums only once](https://github.com/rust-lang/rust/pull/38023)
+* [Simplify `HashMap` probing](https://github.com/rust-lang/rust/pull/38022)
+* [Reduce type construction calls](https://github.com/rust-lang/rust/pull/37979), [Reduce allocations while walking types](https://github.com/rust-lang/rust/pull/37760),
+  [make HirVec smaller](https://github.com/rust-lang/rust/pull/37642) – nnethercote is at it again…
+* [Improve macro name resolution performance](https://github.com/rust-lang/rust/pull/37951)
+* [Forward `ExactSizeIterator` on some adapters](https://github.com/rust-lang/rust/pull/37944) (for improved performance in some cases)
+* [Faster `.is_empty()` for slice and vec iterators](https://github.com/rust-lang/rust/pull/37943)
+* [Faster character count](https://github.com/rust-lang/rust/pull/37888)
+* [`.set_permissions(_)` for open `File`s](https://github.com/rust-lang/rust/pull/37886)
+* [Lifetimes in associated types now a hard error](https://github.com/rust-lang/rust/pull/37843)
+* [`Peekable` now remembers seeing a `None`](https://github.com/rust-lang/rust/pull/37834)
+* [Epic AST/HIR symbol refactoring](https://github.com/rust-lang/rust/pull/37824)
+* [Simplified directory ownership](https://github.com/rust-lang/rust/pull/37602) (breaking change)
+* [Crate type metadata](https://github.com/rust-lang/rust/pull/37681)
+* [`-Z print-type-sizes`](https://github.com/rust-lang/rust/pull/37770)
+* [rustbuild can now `bench`](https://github.com/rust-lang/rust/pull/38008)
+* [Cargo now compiles OpenSSL from source on OS X](https://github.com/rust-lang/cargo/pull/3332)
+
 
 ## New Contributors
 
