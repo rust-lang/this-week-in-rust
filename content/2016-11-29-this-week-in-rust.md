@@ -12,15 +12,27 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
+
 # Updates from Rust Community
 
-## Blog Posts
+## News & Blog Posts
 
-- [Go To Statement Considered (Mostly) Harmless](http://jamey.thesharps.us/2016/11/go-to-statement-considered-harmless.html): Translating C `goto` statements to Rust with Corrode, a C to Rust translator.
-
-## News & Project Updates
+* [How to speed up the Rust compiler some more](https://blog.mozilla.org/nnethercote/2016/11/23/how-to-speed-up-the-rust-compiler-some-more/).
+* [Rust’s standard hash table types could go quadratic](http://accidentallyquadratic.tumblr.com/post/153545455987/rust-hash-iteration-reinsertion).
+* [Rust’s iterators are inefficient, and here’s what we can do about it](https://medium.com/@veedrac/rust-is-slow-and-i-am-the-cure-32facc0fdcb).
+* [Goto statement considered (mostly) harmless](http://jamey.thesharps.us/2016/11/go-to-statement-considered-harmless.html): Translating C `goto` statements to Rust with Corrode, a C to Rust translator.
+* [This year in nom: 2.0 is here](https://unhandledexpression.com/2016/11/25/this-year-in-nom-2-0-is-here/).
+* [First steps in Nom: Parsing pseudo GLSL](https://maikklein.github.io/post/nom/).
+* [Writing GStreamer Elements in Rust (Part 3)](https://coaxion.net/blog/2016/11/writing-gstreamer-elements-in-rust-part-3-parsing-data-from-untrusted-sources-like-its-2016/). Parsing data from untrusted sources like it’s 2016.
+* [Painless Rust tests and benches on iOS and Android with Dinghy](https://medium.com/snips-ai/dinghy-painless-rust-tests-and-benches-on-ios-and-android-c9f94f81d305).
+* [First Rust+GObject coding session](https://siliconislandblog.wordpress.com/2016/11/22/first-rustgobject-coding-session/).
 
 ## Other Weeklies from Rust Community
+
+* [This week in Rust docs 32](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-32). Updates from the Rust documentation team.
+* [This week in Tock Embedded OS 9](http://www.tockos.org/blog/2016/talking-tock-9/).  Tock is a safe, multitasking operating system for low-power, low-memory microcontrollers.
+* [This week in Ruma 2016-11-27](https://www.ruma.io/news/this-week-in-ruma-2016-11-27/). Ruma is a Matrix homeserver written in Rust.
+* [Way Cooler Alpha Update (2016 November)](https://timidger.github.io/way-cooler-2016-november-update.html). Way Cooler is a customizable tiling window manager written in Rust for Wayland.
 
 # Crate of the Week
 
@@ -37,11 +49,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [less easy] [rayon: Parity with the `Iterator` trait](https://github.com/nikomatsakis/rayon/milestone/2).
 * [easy] [rust: Compiling `libunwind` with `--test` for arm-musl targets produces dynamically linked binaries](https://github.com/rust-lang/rust/issues/37811).
-* [less easy] [rust: Separate foreign items in HIR](https://github.com/rust-lang/rust/issues/37713).
-* [less easy] [rust: Separate trait items from trait](https://github.com/rust-lang/rust/issues/37712).
-* [easy] [rust: docs: Explain why/when `.lines()` returns an error](https://github.com/rust-lang/rust/issues/37744).
-* [easy] [git-series: Highlight trailing whitespace](https://github.com/git-series/git-series/issues/31).
-* [easy] [git-series: Support rebase --exec](https://github.com/git-series/git-series/issues/24).
+* [less easy] [servo: Make FetchMetadata reflect all possible response types](https://github.com/servo/servo/issues/14068).
+* [easy] [servo: Make HTTP redirect fetch return an error if redirecting to non-HTTP(S)](https://github.com/servo/servo/issues/14069).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -78,11 +87,10 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Brett Cooley
-* John Downey
-* jsen-
-* Robert Vally
-* Steve Smith
+* fkjogu
+* Paul Lietar
+* Sam Estep
+* Vickenty Fesunov
 
 ## Approved RFCs
 
@@ -90,7 +98,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1725: unaligned access via `std::ptr`](https://github.com/rust-lang/rfcs/pull/1725).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -104,8 +112,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Implement adaptive hashing for HashMap](https://github.com/rust-lang/rfcs/pull/1796).
-* [Process for abandoning crates](https://github.com/rust-lang/rfcs/pull/1794).
+*No new RFCs were proposed this week.*
 
 ## Style RFCs
 
@@ -117,19 +124,19 @@ PRs:
 
 Ready for PR:
 
+* [Statements](https://github.com/rust-lang-nursery/fmt-rfcs/issues/11).
+* [Imports (`use`)](https://github.com/rust-lang-nursery/fmt-rfcs/issues/24).
 * [Comments](https://github.com/rust-lang-nursery/fmt-rfcs/issues/17).
 * [Simple blocks, `{ ... }`](https://github.com/rust-lang-nursery/fmt-rfcs/issues/21).
 
 Final comment period:
 
-* [Statements](https://github.com/rust-lang-nursery/fmt-rfcs/issues/11).
-* [Imports (`use`)](https://github.com/rust-lang-nursery/fmt-rfcs/issues/24).
+* [match](https://github.com/rust-lang-nursery/fmt-rfcs/issues/34).
 
 Other notable issues:
 
 * [block vs visual indentation](https://github.com/rust-lang-nursery/fmt-rfcs/issues/8).
 * [function declarations](https://github.com/rust-lang-nursery/fmt-rfcs/issues/39).
-* [match](https://github.com/rust-lang-nursery/fmt-rfcs/issues/34).
 
 # Upcoming Events
 
@@ -137,8 +144,14 @@ Other notable issues:
 * [11/30. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [12/1. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [12/1. Rust DC Hack Session — Part 2](https://www.meetup.com/RustDC/events/234593927/).
+* [12/1. Rust Meetup, Irving, TX](https://twitter.com/Phrohdoh/status/803450464301944833).
 * [12/7. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [12/7. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [12/7. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [12/7. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [12/8. Columbus Rust Society](https://www.meetup.com/columbus-rs/events/235498108/).
+* [12/12. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/235157890/).
+* [12/15. Rust Bay Area: Syn/Macros 1.1, Helix, and Binding C in OpenSSL](https://www.meetup.com/Rust-Bay-Area/events/235285192/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -148,17 +161,14 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # fn work(on: RustProject) -> Money
 
+* [Paid Rust/PostgresQL OSS work](https://www.reddit.com/r/rust/comments/5f1q2f/paid_rustpostgresql_work/).
 * [Mozilla Research Internship (US/INTL) - University 2017](https://careers.mozilla.org/position/gh/503816).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> Rust iterators are the best thing since [Bread]
-
-— [Yaniel on Rust (lang) Matrix channel](https://matrix.to/#/!zXfJBqSUvXySmsZMtB:jki.re/%2414789013526180qkxyq:kolm.io).
-
-Thanks to [Elahn](https://users.rust-lang.org/users/elahn) for the suggestion.
+*No quote was selected for QotW.*
 
 [Submit your quotes for next week][submit]!
 
