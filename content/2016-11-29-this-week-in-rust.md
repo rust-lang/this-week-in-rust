@@ -32,6 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Rust docs 32](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-32). Updates from the Rust documentation team.
 * [This week in Tock Embedded OS 9](http://www.tockos.org/blog/2016/talking-tock-9/).  Tock is a safe, multitasking operating system for low-power, low-memory microcontrollers.
 * [This week in Ruma 2016-11-27](https://www.ruma.io/news/this-week-in-ruma-2016-11-27/). Ruma is a Matrix homeserver written in Rust.
+* [This week in TiKV 2016-11-28](http://weekly.pingcap.com/2016/11/28/tidb-weekly/#weekly-update-in-tikv). TiKV is a distributed Key-Value database.
 * [Way Cooler Alpha Update (2016 November)](https://timidger.github.io/way-cooler-2016-november-update.html). Way Cooler is a customizable tiling window manager written in Rust for Wayland.
 
 # Crate of the Week
