@@ -105,22 +105,20 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 PRs:
 
-* [Customising Rustfmt](https://github.com/rust-lang-nursery/fmt-rfcs/pull/33).
-
-Ready for PR:
-
-* [Statements](https://github.com/rust-lang-nursery/fmt-rfcs/issues/11).
-* [Imports (`use`)](https://github.com/rust-lang-nursery/fmt-rfcs/issues/24).
-* [Comments](https://github.com/rust-lang-nursery/fmt-rfcs/issues/17).
-* [Simple blocks, `{ ... }`](https://github.com/rust-lang-nursery/fmt-rfcs/issues/21).
+* [Customising Rustfmt (FCP)](https://github.com/rust-lang-nursery/fmt-rfcs/pull/33).
+* [Conventions for Cargo.toml files](https://github.com/rust-lang-nursery/fmt-rfcs/pull/41).
 
 Final comment period:
 
+* [boolean and arithmetic expressions](https://github.com/rust-lang-nursery/fmt-rfcs/issues/18).
+* [struct and union declarations](https://github.com/rust-lang-nursery/fmt-rfcs/issues/30).
+* [type aliases](https://github.com/rust-lang-nursery/fmt-rfcs/issues/32).
 * [match](https://github.com/rust-lang-nursery/fmt-rfcs/issues/34).
+* [#[macro_use]](https://github.com/rust-lang-nursery/fmt-rfcs/issues/36).
+* [To indent empty lines or not?](https://github.com/rust-lang-nursery/fmt-rfcs/issues/37).
 
 Other notable issues:
 
-* [block vs visual indentation](https://github.com/rust-lang-nursery/fmt-rfcs/issues/8).
 * [function declarations](https://github.com/rust-lang-nursery/fmt-rfcs/issues/39).
 
 # Upcoming Events
