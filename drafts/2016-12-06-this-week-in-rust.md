@@ -21,9 +21,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-Since there were no nominations, this week has to go without a Crate of the Week. Sorry. [Submit your suggestions and votes for next week][submit_crate]!
+This week's Crate of the Week is [seahash](https://crates.io/crates/seahash), a statistically well-tested fast hash. Thanks to Vikrant Chaudhary for the suggestion! [Submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
+
 
 # Call for Participation
 
@@ -43,32 +44,39 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-66 pull requests were [merged in the last week][merged]. Not much, but there were a good number of awesome changes:
+93 pull requests were [merged in the last week][merged]. This contains a good number of plugin-breaking changes.
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-11-21..2016-11-28
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-11-28..2016-12-05
 
-* [Implement `break` with value](https://github.com/rust-lang/rust/pull/37487) ([RFC #1624](https://github.com/rust-lang/rfcs/blob/master/text/1624-loop-break-value.md))
-* [Stabilized name resolution changes](https://github.com/rust-lang/rust/pull/37127) ([RFC #1560](https://github.com/rust-lang/rfcs/blob/master/text/1560-name-resolution.md))
-* [Implement panic-safe slicing](https://github.com/rust-lang/rust/pull/36340) ([RFC #1679](https://github.com/rust-lang/rfcs/blob/master/text/1679-panic-safe-slicing.md))
-* [Make more types uninhabited](https://github.com/rust-lang/rust/pull/36449)
-* [Pad const enums only once](https://github.com/rust-lang/rust/pull/38023)
-* [Simplify `HashMap` probing](https://github.com/rust-lang/rust/pull/38022)
-* [Reduce type construction calls](https://github.com/rust-lang/rust/pull/37979), [Reduce allocations while walking types](https://github.com/rust-lang/rust/pull/37760),
-  [make HirVec smaller](https://github.com/rust-lang/rust/pull/37642) – nnethercote is at it again…
-* [Improve macro name resolution performance](https://github.com/rust-lang/rust/pull/37951)
-* [Forward `ExactSizeIterator` on some adapters](https://github.com/rust-lang/rust/pull/37944) (for improved performance in some cases)
-* [Faster `.is_empty()` for slice and vec iterators](https://github.com/rust-lang/rust/pull/37943)
-* [Faster character count](https://github.com/rust-lang/rust/pull/37888)
-* [`.set_permissions(_)` for open `File`s](https://github.com/rust-lang/rust/pull/37886)
-* [Lifetimes in associated types now a hard error](https://github.com/rust-lang/rust/pull/37843)
-* [`Peekable` now remembers seeing a `None`](https://github.com/rust-lang/rust/pull/37834)
-* [Epic AST/HIR symbol refactoring](https://github.com/rust-lang/rust/pull/37824)
-* [Simplified directory ownership](https://github.com/rust-lang/rust/pull/37602) (breaking change)
-* [Crate type metadata](https://github.com/rust-lang/rust/pull/37681)
-* [`-Z print-type-sizes`](https://github.com/rust-lang/rust/pull/37770)
-* [rustbuild can now `bench`](https://github.com/rust-lang/rust/pull/38008)
-* [Cargo now compiles OpenSSL from source on OS X](https://github.com/rust-lang/cargo/pull/3332)
-
+* [desugar UFCS in HIR](https://github.com/rust-lang/rust/pull/37676)
+* [`AdtDef` and `TraidDef` no longer carry type information](https://github.com/rust-lang/rust/pull/38053)
+* Preparing for LLVM 4.0 [Use string length instead of 0 terminator](https://github.com/rust-lang/rust/pull/38048),
+  [Handle new DlFlag enum](https://github.com/rust-lang/rust/pull/37857)
+* [Rustc now emits a DWARF flag to help debuggers find the main entry point](https://github.com/rust-lang/llvm/pull/58)
+* [Avoid loading needless procedural macro dependencies](https://github.com/rust-lang/rust/pull/38024)
+* [`HashMap` uses displacement instead of initial bucket](https://github.com/rust-lang/rust/pull/38022)
+* [`save-analysis` redirects a module declaration to the start of defining file](https://github.com/rust-lang/rust/pull/37989)
+* [More output with `-Z incremental-info`](https://github.com/rust-lang/rust/pull/38096)
+* [`-Z incremental-dump-hash` flag](https://github.com/rust-lang/rust/pull/38113)
+* [`-Z mir-stats`](https://github.com/rust-lang/rust/pull/38092)
+* [new option to dump target spec as JSON](https://github.com/rust-lang/rust/pull/38061)
+* [Refactor trait object representation](https://github.com/rust-lang/rust/pull/37965)
+* [Fuchsia support for `std::process`](https://github.com/rust-lang/rust/pull/37936)
+* [Caching of build script output](https://github.com/rust-lang/cargo/pull/3310)
+* [impl items no longer wind up with multiple parents](https://github.com/rust-lang/rust/pull/37920)
+* [HIR: Separate signatures from function bodies](https://github.com/rust-lang/rust/pull/37918)
+* [Obligations are now evaluated in LIFO order](https://github.com/rust-lang/rust/pull/38059)
+* [Support `?Sized` in `where` clauses](https://github.com/rust-lang/rust/pull/37791)
+* [New `type_size_limit` crate attribute](https://github.com/rust-lang/rust/pull/37789)
+* [`target_feature` attribute](https://github.com/rust-lang/rust/pull/38079)
+* [`unmarked_api` feature removed](https://github.com/rust-lang/rust/pull/38087)
+* [`copy_from_slice(_)` got faster for small slices](https://github.com/rust-lang/rust/pull/37573)
+* [`String::split_off(..)`](https://github.com/rust-lang/rust/pull/38056)
+* [show short multiline spans in full](https://github.com/rust-lang/rust/pull/37369)
+* [SUpport macro invocation paths (e.g. `foo::bar!(..)`)](https://github.com/rust-lang/rust/pull/38082)
+* [Cargo will now correctly retry downloading in case of network error](https://github.com/rust-lang/cargo/pull/3348)
+* [Cargo has release branches now](https://github.com/rust-lang/cargo/pull/3345)
+* [Cargo: Fixed SSL paths](https://github.com/rust-lang/cargo/pull/3342) (this broke downloading for some days in nightly)
 
 ## New Contributors
 
