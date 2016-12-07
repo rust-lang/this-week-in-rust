@@ -17,7 +17,27 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Redox released its first ISO image](https://github.com/redox-os/redox/releases/tag/0.0.3).
+* [Starting a new Rust project right, with error-chain](https://brson.github.io/2016/11/30/starting-with-error-chain).
+* [Reflections on rusting trust](https://manishearth.github.io/blog/2016/12/02/reflections-on-rusting-trust/).
+* [Zero-cost abstractions](https://ruudvanasseldonk.com/2016/11/30/zero-cost-abstractions) in Rust.
+* [Building native macOS applications with Rust](https://blog.bugsnag.com/building-macos-apps-with-rust/).
+* [ripgrep code review](http://blog.mbrt.it/2016-12-01-ripgrep-code-review/) with focus on its design decisions and interesting implementation solutions.
+* [Taking TRust-DNS IntoFuture](https://bluejekyll.github.io/blog/rust/2016/12/03/trust-dns-into-future.html).
+* [WebVR coming to Servo: Architecture and latency optimizations](https://blog.mozvr.com/webvr-servo-architecture-and-latency-optimizations/).
+* [Three bytes and a space: or, Rust bugs, non-compliance, and how I learned to love IRC](https://medium.com/@covabishop/three-bytes-and-a-space-8f9fbd1c669b).
+* [I used to use pointers - now what](https://github.com/diwic/reffers-rs/blob/master/docs/Pointers.md)? Common C pointer patterns, and what to do in Rust instead.
+* [Russian dolls and clean Rust code](https://mgattozzi.com/posts/russian-dolls.html). Replacing nested pattern matching with `and_then`.
+* [24 days of Rust - cargo subcommands](https://siciarz.net/24-days-rust-cargo-subcommands/).
+* [24 days of Rust - structured logging](https://siciarz.net/24-days-rust-structured-logging/).
+* [24 days of Rust - environment variables](https://siciarz.net/24-days-rust-environment-variables/).
+* [survey] [Crate evaluation user research survey](https://www.surveymonkey.com/r/6TM9ZZM).
+
 ## Other Weeklies from Rust Community
+
+* [This week in Rust docs 33](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-33). Updates from the Rust documentation team.
+* [This week in TiKV 2016-12-05](http://weekly.pingcap.com/2016/12/05/tidb-weekly/#weekly-update-in-tikv). TiKV is a distributed Key-Value database.
+* [This week in Ruma 2016-12-04](https://www.ruma.io/news/this-week-in-ruma-2016-12-04/). Ruma is a Matrix homeserver written in Rust.
 
 # Crate of the Week
 
@@ -33,10 +53,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [less easy] [rayon: Parity with the `Iterator` trait](https://github.com/nikomatsakis/rayon/milestone/2).
-* [easy] [rust: Compiling `libunwind` with `--test` for arm-musl targets produces dynamically linked binaries](https://github.com/rust-lang/rust/issues/37811).
-* [less easy] [servo: Make FetchMetadata reflect all possible response types](https://github.com/servo/servo/issues/14068).
-* [easy] [servo: Make HTTP redirect fetch return an error if redirecting to non-HTTP(S)](https://github.com/servo/servo/issues/14069).
+* [less easy] [unicode-reverse: Fuzz testing](https://github.com/mbrubeck/unicode-reverse/issues/2). unicode-reverse is a Unicode-aware in-place string reverse function in Rust.
+* [easy] [tera: Use 64 bits for int/float](https://github.com/Keats/tera/issues/79). Tera is a template engine for Rust based on Jinja2/Django.
+* [easy] [tera: Fix include whitespace](https://github.com/Keats/tera/issues/72).
+* [easy] [tera: Adding tests (not unit test, the tester feature)](https://github.com/Keats/tera/issues/62).
+* [hard] [tera: Add not to mean `!`](https://github.com/Keats/tera/issues/39).
+* [hard] [tera: Add a magical variable that dumps the context](https://github.com/Keats/tera/issues/74).
+* [less easy] [rayon: Parity with the `Iterator` trait](https://github.com/nikomatsakis/rayon/milestone/2). Rayon: A data parallelism library for Rust.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -80,10 +103,9 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* fkjogu
-* Paul Lietar
-* Sam Estep
-* Vickenty Fesunov
+* Clar Charr
+* Theodore DeRego
+* Xidorn Quan
 
 ## Approved RFCs
 
@@ -91,7 +113,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 1636: Require documentation for all new features](https://github.com/rust-lang/rfcs/pull/1636).
 
 ## Final Comment Period
 
@@ -101,11 +123,13 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [Require documentation for all new features](https://github.com/rust-lang/rfcs/pull/1636).
+* [Allow intrinsics to be marked as _safe_, overriding the implicit `unsafe` from being in an extern block](https://github.com/rust-lang/rfcs/pull/1248).
+* [Procedural macros](https://github.com/rust-lang/rfcs/pull/1566).
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [Default struct field values](https://github.com/rust-lang/rfcs/pull/1806).
+* [Alloca for Rust](https://github.com/rust-lang/rfcs/pull/1808). Add a builtin `fn core::mem::reserve<'a, T>(elements: usize) -> StackSlice<'a, T>` that reserves space for the given number of elements on the stack and returns a `StackSlice<'a, T>` to it which derefs to `&'a [T]`.
 
 ## Style RFCs
 
@@ -131,18 +155,14 @@ Other notable issues:
 
 # Upcoming Events
 
-* [11/30. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [11/30. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [12/1. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [12/1. Rust DC Hack Session — Part 2](https://www.meetup.com/RustDC/events/234593927/).
-* [12/1. Rust Meetup, Irving, TX](https://twitter.com/Phrohdoh/status/803450464301944833).
-* [12/7. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [12/7. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [12/7. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [12/7. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [12/8. Columbus Rust Society](https://www.meetup.com/columbus-rs/events/235498108/).
+* [12/8. San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/236011811/).
 * [12/12. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/235157890/).
+* [12/14. South Florida Rust: Intro to Rust](https://www.meetup.com/South-Florida-Rust-Meetup/events/235596291/).
+* [12/14. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [12/14. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [12/15. Rust Bay Area: Syn/Macros 1.1, Helix, and Binding C in OpenSSL](https://www.meetup.com/Rust-Bay-Area/events/235285192/).
+* [12/17. South Florida Rust: Intro to Rust](https://www.meetup.com/South-Florida-Rust-Meetup/events/235596339/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -152,14 +172,17 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # fn work(on: RustProject) -> Money
 
-* [Paid Rust/PostgresQL OSS work](https://www.reddit.com/r/rust/comments/5f1q2f/paid_rustpostgresql_work/).
 * [Mozilla Research Internship (US/INTL) - University 2017](https://careers.mozilla.org/position/gh/503816).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> Such large. Very 128. Much bits.
+
+— [@nagisa introducing 128-bit integers in Rust](https://github.com/rust-lang/rust/pull/37900/commits/760da30ce3cfe69a7fed38d528e7228365c60b87).
+
+Thanks to [leodasvacas](https://users.rust-lang.org/users/leodasvacas) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
