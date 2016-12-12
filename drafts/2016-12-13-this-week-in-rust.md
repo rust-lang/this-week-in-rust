@@ -53,7 +53,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 * [Use link(kind) annotation to fix native Windows imports](https://github.com/rust-lang/rust/pull/37973) ([RFC #1717](https://github.com/rust-lang/rfcs/blob/master/text/1717-dllimport.md))
 * [Function arity errors now show the original definition](https://github.com/rust-lang/rust/pull/38121)
-* [`HashMap`/-`Set` now allocate smarter on `extend_from_iter(_)`](https://github.com/rust-lang/rust/pull/38017)
+* [`HashMap`/-`Set` now allocate smarter on `extend(_)`, `from_iter(_)`](https://github.com/rust-lang/rust/pull/38017)
 * [Faster `sort()`](https://github.com/rust-lang/rust/pull/38192)
 * [More forwarded `ExactSizeIterator` / `is_empty()`](https://github.com/rust-lang/rust/pull/38149)
 * [Stricter lifetimes for `LateLintPass`](https://github.com/rust-lang/rust/pull/38191) (Plugin-unbreaking 🙂)
@@ -64,7 +64,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [`tidy` now checks the licenses of vendored dependencies](https://github.com/rust-lang/rust/pull/38291)
 * [Rustbuild is now the default build system](https://github.com/rust-lang/rust/pull/37817) (1 year in the making)
 * [Allow `--test` on procedural-macro crates](https://github.com/rust-lang/rust/pull/38107)
-* [Cargo now picks up `build.rs` scripts by default](https://github.com/rust-lang/cargo/pull/3361) (unless `package.build = false` explicitly)
+* [Cargo will pick up `build.rs` scripts by default](https://github.com/rust-lang/cargo/pull/3361) unless `package.build = false` explicitly, for now warns
 * [`cargo test --all` for Workspaces](https://github.com/rust-lang/cargo/pull/3221)
 
 ## New Contributors
