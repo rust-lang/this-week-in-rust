@@ -21,7 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's Crate of the Week is [seahash](https://crates.io/crates/seahash), a statistically well-tested fast hash. Thanks to Vikrant Chaudhary for the suggestion! [Submit your suggestions and votes for next week][submit_crate]!
+This week, sadly no crate was nominated. [Submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
@@ -47,39 +47,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-93 pull requests were [merged in the last week][merged]. This contains a good number of plugin-breaking changes.
+74 pull requests were [merged in the last week][merged]. This contains a good number of plugin-breaking changes.
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-11-28..2016-12-05
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-12-05..2016-12-12
 
-* [desugar UFCS in HIR](https://github.com/rust-lang/rust/pull/37676)
-* [`AdtDef` and `TraidDef` no longer carry type information](https://github.com/rust-lang/rust/pull/38053)
-* Preparing for LLVM 4.0 [Use string length instead of 0 terminator](https://github.com/rust-lang/rust/pull/38048),
-  [Handle new DlFlag enum](https://github.com/rust-lang/rust/pull/37857)
-* [Rustc now emits a DWARF flag to help debuggers find the main entry point](https://github.com/rust-lang/llvm/pull/58)
-* [Avoid loading needless procedural macro dependencies](https://github.com/rust-lang/rust/pull/38024)
-* [`HashMap` uses displacement instead of initial bucket](https://github.com/rust-lang/rust/pull/38022)
-* [`save-analysis` redirects a module declaration to the start of defining file](https://github.com/rust-lang/rust/pull/37989)
-* [More output with `-Z incremental-info`](https://github.com/rust-lang/rust/pull/38096)
-* [`-Z incremental-dump-hash` flag](https://github.com/rust-lang/rust/pull/38113)
-* [`-Z mir-stats`](https://github.com/rust-lang/rust/pull/38092)
-* [new option to dump target spec as JSON](https://github.com/rust-lang/rust/pull/38061)
-* [Refactor trait object representation](https://github.com/rust-lang/rust/pull/37965)
-* [Fuchsia support for `std::process`](https://github.com/rust-lang/rust/pull/37936)
-* [Caching of build script output](https://github.com/rust-lang/cargo/pull/3310)
-* [impl items no longer wind up with multiple parents](https://github.com/rust-lang/rust/pull/37920)
-* [HIR: Separate signatures from function bodies](https://github.com/rust-lang/rust/pull/37918)
-* [Obligations are now evaluated in LIFO order](https://github.com/rust-lang/rust/pull/38059)
-* [Support `?Sized` in `where` clauses](https://github.com/rust-lang/rust/pull/37791)
-* [New `type_size_limit` crate attribute](https://github.com/rust-lang/rust/pull/37789)
-* [`target_feature` attribute](https://github.com/rust-lang/rust/pull/38079)
-* [`unmarked_api` feature removed](https://github.com/rust-lang/rust/pull/38087)
-* [`copy_from_slice(_)` got faster for small slices](https://github.com/rust-lang/rust/pull/37573)
-* [`String::split_off(..)`](https://github.com/rust-lang/rust/pull/38056)
-* [show short multiline spans in full](https://github.com/rust-lang/rust/pull/37369)
-* [SUpport macro invocation paths (e.g. `foo::bar!(..)`)](https://github.com/rust-lang/rust/pull/38082)
-* [Cargo will now correctly retry downloading in case of network error](https://github.com/rust-lang/cargo/pull/3348)
-* [Cargo has release branches now](https://github.com/rust-lang/cargo/pull/3345)
-* [Cargo: Fixed SSL paths](https://github.com/rust-lang/cargo/pull/3342) (this broke downloading for some days in nightly)
+* [Use link(kind) annotation to fix native Windows imports](https://github.com/rust-lang/rust/pull/37973) ([RFC #1717](https://github.com/rust-lang/rfcs/blob/master/text/1717-dllimport.md))
+* [Function arity errors now show the original definition](https://github.com/rust-lang/rust/pull/38121)
+* [`HashMap`/-`Set` now allocate smarter on `from_iter(_)`](https://github.com/rust-lang/rust/pull/38017)
+* [Faster `sort()`](https://github.com/rust-lang/rust/pull/38192) – Epic speedups
+* [More forwarded `ExactSizeIterator` / `is_empty()`](https://github.com/rust-lang/rust/pull/38149)
+* [Stricter lifetimes for `LateLintPass`](https://github.com/rust-lang/rust/pull/38191) (Plugin-unbreaking 🙂)
+* [`Iterator::nth(_)` no longer needs `self` to be `Sized`](https://github.com/rust-lang/rust/pull/38134)
+* [Incremental compilation will now recompile items on visibility change](https://github.com/rust-lang/rust/pull/38272)
+* [`-Z always_encode_mir`](https://github.com/rust-lang/rust/pull/38217)
+* [dylib symbol handling improvements](https://github.com/rust-lang/rust/pull/38117)
+* [`tidy` now checks the licenses of vendored dependencies](https://github.com/rust-lang/rust/pull/38291)
+* [Rustbuild is now the default build system](https://github.com/rust-lang/rust/pull/37817) (1 year in the making)
+* [Allow `--test` on procedural-macro crates](https://github.com/rust-lang/rust/pull/38107)
+* [Cargo will pick up `build.rs` scripts by default](https://github.com/rust-lang/cargo/pull/3361) unless `package.build = false` explicitly, for now warns
+* [`cargo test --all` for Workspaces](https://github.com/rust-lang/cargo/pull/3221)
 
 ## New Contributors
 
