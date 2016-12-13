@@ -17,16 +17,39 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Idiomatic callbacks in Rust](http://stackoverflow.com/a/41081702/265521)
+* [How to translate a large C project to Rust](http://jamey.thesharps.us/2016/12/how-to-translate-large-c-project-to-rust.html).
+* [Debian Rust packaging policy (draft)](https://internals.rust-lang.org/t/debian-rust-packaging-policy-draft/4453).
+* [Comparing Diesel and rust-postgres](https://hackernoon.com/comparing-diesel-and-rust-postgres-97fd8c656fdd).
+* [Idiomatic callbacks in Rust](http://stackoverflow.com/a/41081702/265521).
+* [Benchmarks vs. The World](https://llogiq.github.io/2016/12/08/hash.html).
+* [List of unstable feature gates in Rust](https://bot.tinaun.net/rust/featurelist/).
+* [Enforcing drop order in Rust](https://aochagavia.github.io/blog/enforcing-drop-order-in-rust/).
+* [rst 0.3 released, now with a web UI](https://vitiral.github.io/2016/11/30/rst-server.html).
+* [video] [Extending Python with Rust](https://www.youtube.com/watch?v=-ylbuEzkG4M).
+
+## 24 Days of Rust
+
+24 days of Rust is a series of articles introducing Rust language features, useful libraries, and cool projects built with Rust. Last week's articles are:
+
+* [derive_builder](https://siciarz.net/24-days-rust-derive_builder/).
+* [static initialization](https://siciarz.net/24-days-rust-static-initialization/).
+* [serde](https://siciarz.net/24-days-rust-serde/).
+* [winreg](https://siciarz.net/24-days-rust-winreg/).
+* [nom part 1](https://siciarz.net/24-days-rust-nom-part-1/).
+* [nom part 2](https://siciarz.net/24-days-rust-nom-part-2/).
 
 ## Other Weeklies from Rust Community
+
+* [This week in Rust docs 34](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-34). Updates from the Rust documentation team.
+* [This week in Ruma 2016-12-11](https://www.ruma.io/news/this-week-in-ruma-2016-12-11/). Ruma is a Matrix homeserver written in Rust.
+* [This week in TiKV 2016-12-12](http://weekly.pingcap.com/2016/12/12/tidb-weekly/#weekly-update-in-tikv). TiKV is a distributed Key-Value database.
+* [These weeks in Ruru 5](http://this-week-in-ruru.org/2016/12/10/these-weeks-in-ruru-5/). Ruru lets you write native Ruby extensions in Rust.
 
 # Crate of the Week
 
 This week, sadly no crate was nominated. [Submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
-
 
 # Call for Participation
 
@@ -35,13 +58,14 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [less easy] [unicode-reverse: Fuzz testing](https://github.com/mbrubeck/unicode-reverse/issues/2). unicode-reverse is a Unicode-aware in-place string reverse function in Rust.
-* [easy] [tera: Use 64 bits for int/float](https://github.com/Keats/tera/issues/79). Tera is a template engine for Rust based on Jinja2/Django.
-* [easy] [tera: Fix include whitespace](https://github.com/Keats/tera/issues/72).
+* [easy] [gimli: Provide `NativeEndian` default for generic `Endianity` type parameters](https://github.com/gimli-rs/gimli/issues/163). gimli is a lazy, zero-copy parser for the DWARF debugging format.
+* [easy] [tera: Fix include whitespace](https://github.com/Keats/tera/issues/72). Tera is a template engine for Rust based on Jinja2/Django.
 * [easy] [tera: Adding tests (not unit test, the tester feature)](https://github.com/Keats/tera/issues/62).
 * [hard] [tera: Add not to mean `!`](https://github.com/Keats/tera/issues/39).
-* [hard] [tera: Add a magical variable that dumps the context](https://github.com/Keats/tera/issues/74).
+* [less easy] [unicode-reverse: Fuzz testing](https://github.com/mbrubeck/unicode-reverse/issues/2). unicode-reverse is a Unicode-aware in-place string reverse function in Rust.
 * [less easy] [rayon: Parity with the `Iterator` trait](https://github.com/nikomatsakis/rayon/milestone/2). Rayon: A data parallelism library for Rust.
+* [easy] [servo: Canvas rendering context can be destroyed after the canvas thread exits](https://github.com/servo/servo/issues/14002).
+* [easy] [servo: Remove ResponseAction](https://github.com/servo/servo/issues/13717).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -71,9 +95,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Clar Charr
-* Theodore DeRego
-* Xidorn Quan
+* Stjepan Glavina
 
 ## Approved RFCs
 
@@ -81,7 +103,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1636: Require documentation for all new features](https://github.com/rust-lang/rfcs/pull/1636).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -91,13 +113,13 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [Allow intrinsics to be marked as _safe_, overriding the implicit `unsafe` from being in an extern block](https://github.com/rust-lang/rfcs/pull/1248).
+* [Allow `Self` to appear in the where clause of trait impls](https://github.com/rust-lang/rfcs/pull/1647).
+* [Safe intrinsics](https://github.com/rust-lang/rfcs/pull/1248). Allow intrinsics to be marked as _safe_, overriding the implicit `unsafe` from being in an extern block.
 * [Procedural macros](https://github.com/rust-lang/rfcs/pull/1566).
 
 ## New RFCs
 
-* [Default struct field values](https://github.com/rust-lang/rfcs/pull/1806).
-* [Alloca for Rust](https://github.com/rust-lang/rfcs/pull/1808). Add a builtin `fn core::mem::reserve<'a, T>(elements: usize) -> StackSlice<'a, T>` that reserves space for the given number of elements on the stack and returns a `StackSlice<'a, T>` to it which derefs to `&'a [T]`.
+* [Warn by default when encountering a statement which only consists of an equality comparison](https://github.com/rust-lang/rfcs/pull/1812).
 
 ## Style RFCs
 
@@ -105,17 +127,15 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 PRs:
 
-* [Customising Rustfmt (FCP)](https://github.com/rust-lang-nursery/fmt-rfcs/pull/33).
 * [Conventions for Cargo.toml files](https://github.com/rust-lang-nursery/fmt-rfcs/pull/41).
+* [Customising Rustfmt (FCP)](https://github.com/rust-lang-nursery/fmt-rfcs/pull/33).
 
-Final comment period:
+Ready for PR:
 
 * [boolean and arithmetic expressions](https://github.com/rust-lang-nursery/fmt-rfcs/issues/18).
 * [struct and union declarations](https://github.com/rust-lang-nursery/fmt-rfcs/issues/30).
 * [type aliases](https://github.com/rust-lang-nursery/fmt-rfcs/issues/32).
 * [match](https://github.com/rust-lang-nursery/fmt-rfcs/issues/34).
-* [#[macro_use]](https://github.com/rust-lang-nursery/fmt-rfcs/issues/36).
-* [To indent empty lines or not?](https://github.com/rust-lang-nursery/fmt-rfcs/issues/37).
 
 Other notable issues:
 
@@ -123,14 +143,14 @@ Other notable issues:
 
 # Upcoming Events
 
-* [12/8. Columbus Rust Society](https://www.meetup.com/columbus-rs/events/235498108/).
-* [12/8. San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/236011811/).
-* [12/12. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/235157890/).
 * [12/14. South Florida Rust: Intro to Rust](https://www.meetup.com/South-Florida-Rust-Meetup/events/235596291/).
 * [12/14. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [12/14. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [12/15. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [12/15. Rust Bay Area: Syn/Macros 1.1, Helix, and Binding C in OpenSSL](https://www.meetup.com/Rust-Bay-Area/events/235285192/).
 * [12/17. South Florida Rust: Intro to Rust](https://www.meetup.com/South-Florida-Rust-Meetup/events/235596339/).
+* [12/21. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [12/21. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -146,11 +166,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Such large. Very 128. Much bits.
+<img src="https://68.media.tumblr.com/325981894f7583b456062acd77a20125/tumblr_ohqiasRsdz1rop8n1o2_540.png">
 
-— [@nagisa introducing 128-bit integers in Rust](https://github.com/rust-lang/rust/pull/37900/commits/760da30ce3cfe69a7fed38d528e7228365c60b87).
+— [Programming People by David Marino](http://leftoversalad.com/c/015_programmingpeople/).
 
-Thanks to [leodasvacas](https://users.rust-lang.org/users/leodasvacas) for the suggestion.
+Thanks to [skade](https://users.rust-lang.org/users/skade) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
