@@ -166,7 +166,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-<img src="https://68.media.tumblr.com/325981894f7583b456062acd77a20125/tumblr_ohqiasRsdz1rop8n1o2_540.png">
+<img src="https://this-week-in-rust.org/images/programming-people-rust.png">
 
 — [Programming People by David Marino](http://leftoversalad.com/c/015_programmingpeople/).
 
