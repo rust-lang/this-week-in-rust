@@ -17,6 +17,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Idiomatic callbacks in Rust](http://stackoverflow.com/a/41081702/265521)
+
 ## Other Weeklies from Rust Community
 
 # Crate of the Week
