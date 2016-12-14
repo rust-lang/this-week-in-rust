@@ -79,7 +79,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 * [Use link(kind) annotation to fix native Windows imports](https://github.com/rust-lang/rust/pull/37973) ([RFC #1717](https://github.com/rust-lang/rfcs/blob/master/text/1717-dllimport.md))
 * [Function arity errors now show the original definition](https://github.com/rust-lang/rust/pull/38121)
-* [`HashMap`/-`Set` now allocate smarter on `from_iter(_)`](https://github.com/rust-lang/rust/pull/38017)
+* [`HashMap`/-`Set` now pre-allocate smarter on `extend(_)`](https://github.com/rust-lang/rust/pull/38017)
 * [Faster `sort()`](https://github.com/rust-lang/rust/pull/38192) – Epic speedups
 * [More forwarded `ExactSizeIterator` / `is_empty()`](https://github.com/rust-lang/rust/pull/38149)
 * [Stricter lifetimes for `LateLintPass`](https://github.com/rust-lang/rust/pull/38191) (Plugin-unbreaking 🙂)
