@@ -166,7 +166,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-<img src="https://this-week-in-rust.org/images/programming-people-rust.png">
+<img src="https://this-week-in-rust.org/images/programming-people-rust.png" alt="A lady warrior in heavy armour wielding three shields, one of which bears the Rust logo, saying: »I'll be designated driver tonight«. When answered »We know«, she warns: »Don't talk while eating. You could choke and die, haha.«">
 
 — [Programming People by David Marino](http://leftoversalad.com/c/015_programmingpeople/).
 
