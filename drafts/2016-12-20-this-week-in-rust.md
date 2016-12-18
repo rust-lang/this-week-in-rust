@@ -17,6 +17,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Prototyping a new 3D Web API for Servo with Vulkan backend](https://kvark.github.io/3d/api/2016/12/17/webmetal.html).
+* [Pegasus - framework combining specs ECS with gfx-rs rendering](https://github.com/kvark/pegasus).
+
 ## 24 Days of Rust
 
 ## Other Weeklies from Rust Community
