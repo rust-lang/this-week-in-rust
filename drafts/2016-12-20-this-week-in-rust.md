@@ -25,6 +25,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Other Weeklies from Rust Community
 
+* [What's coming up in imag (21)](http://beyermatthias.de/blog/2016/12/16/what-s-coming-up-in-imag-21/)
+
 # Crate of the Week
 
 This week, sadly no crate was nominated. [Submit your suggestions and votes for next week][submit_crate]!
