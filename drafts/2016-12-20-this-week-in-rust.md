@@ -29,7 +29,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week, sadly no crate was nominated. [Submit your suggestions and votes for next week][submit_crate]!
+This week's Crate of the Week is [ruru](https://github.com/d-unseductable/ruru), a wrapper around Ruby's C-API. Thanks to [turboladen](https://users.rust-lang.org/users/turboladen) for the suggestion!
+
+[Submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
@@ -55,25 +57,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-74 pull requests were [merged in the last week][merged]. This contains a good number of plugin-breaking changes.
+86 pull requests were [merged in the last week][merged]. This contains a good number of plugin-breaking changes.
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-12-05..2016-12-12
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-12-12..2016-12-19
 
-* [Use link(kind) annotation to fix native Windows imports](https://github.com/rust-lang/rust/pull/37973) ([RFC #1717](https://github.com/rust-lang/rfcs/blob/master/text/1717-dllimport.md))
-* [Function arity errors now show the original definition](https://github.com/rust-lang/rust/pull/38121)
-* [`HashMap`/-`Set` now allocate smarter on `from_iter(_)`](https://github.com/rust-lang/rust/pull/38017)
-* [Faster `sort()`](https://github.com/rust-lang/rust/pull/38192) – Epic speedups
-* [More forwarded `ExactSizeIterator` / `is_empty()`](https://github.com/rust-lang/rust/pull/38149)
-* [Stricter lifetimes for `LateLintPass`](https://github.com/rust-lang/rust/pull/38191) (Plugin-unbreaking 🙂)
-* [`Iterator::nth(_)` no longer needs `self` to be `Sized`](https://github.com/rust-lang/rust/pull/38134)
-* [Incremental compilation will now recompile items on visibility change](https://github.com/rust-lang/rust/pull/38272)
-* [`-Z always_encode_mir`](https://github.com/rust-lang/rust/pull/38217)
-* [dylib symbol handling improvements](https://github.com/rust-lang/rust/pull/38117)
-* [`tidy` now checks the licenses of vendored dependencies](https://github.com/rust-lang/rust/pull/38291)
-* [Rustbuild is now the default build system](https://github.com/rust-lang/rust/pull/37817) (1 year in the making)
-* [Allow `--test` on procedural-macro crates](https://github.com/rust-lang/rust/pull/38107)
-* [Cargo will pick up `build.rs` scripts by default](https://github.com/rust-lang/cargo/pull/3361) unless `package.build = false` explicitly, for now warns
-* [`cargo test --all` for Workspaces](https://github.com/rust-lang/cargo/pull/3221)
+* [Primitive type resolution bug fixed](https://github.com/rust-lang/rust/pull/38375)
+* [Better def ids for procedural macros](https://github.com/rust-lang/rust/pull/38278)
+* [procedurally derived functions must now be `pub`lic](https://github.com/rust-lang/rust/pull/38140)
+* [Macros can now use path fragments in type bounds](https://github.com/rust-lang/rust/pull/38279)
+* [No span mangling for tup/field access nodes](https://github.com/rust-lang/rust/pull/38194)
+* [MIR can copy-propagate fn arguments](https://github.com/rust-lang/rust/pull/38332)
+* [`-Zmir_opt_level` simplified](https://github.com/rust-lang/rust/pull/38307)
+* [struct field reordering](https://github.com/rust-lang/rust/pull/37429) (to reduce memory overhead due to padding)
+* [nightlies were broken for a few days. Here's the fix](https://github.com/rust-lang/rust/pull/38324)
+* [First tests for incremental compilation](https://github.com/rust-lang/rust/pull/38202)
+* [`std::ptr::`{`read`, `write`}`_unaligned](https://github.com/rust-lang/rust/pull/38309)
+* [Library stabilizations for the 1.15 release](https://github.com/rust-lang/rust/pull/38369)
+* [New `--list` commandline option for tests](https://github.com/rust-lang/rust/pull/38185)
+* [New `--exact` commandline option for tests](https://github.com/rust-lang/rust/pull/38181)
+* [`cargo check` is now built-in](https://github.com/rust-lang/cargo/pull/3296) and faster. Hooray! 😊
 
 ## New Contributors
 
