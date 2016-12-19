@@ -107,17 +107,13 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 PRs:
 
-* [Conventions for Cargo.toml files](https://github.com/rust-lang-nursery/fmt-rfcs/pull/41).
-* [Customising Rustfmt (FCP)](https://github.com/rust-lang-nursery/fmt-rfcs/pull/33).
+* [Conventions for Cargo.toml files (FCP)](https://github.com/rust-lang-nursery/fmt-rfcs/pull/41).
 
 Ready for PR:
 
-* [boolean and arithmetic expressions](https://github.com/rust-lang-nursery/fmt-rfcs/issues/18).
-* [struct and union declarations](https://github.com/rust-lang-nursery/fmt-rfcs/issues/30).
-* [type aliases](https://github.com/rust-lang-nursery/fmt-rfcs/issues/32).
-* [match](https://github.com/rust-lang-nursery/fmt-rfcs/issues/34).
+There's [a lot of them](https://github.com/rust-lang-nursery/fmt-rfcs/issues?q=is%3Aopen+is%3Aissue+label%3Aready-for-PR) right now, contributions here would be very welcome. If you want advice or help getting started, please ping nrc, or any other member of the style team, in #rust-style.
 
-Other notable issues:
+Issues in final comment period:
 
 * [function declarations](https://github.com/rust-lang-nursery/fmt-rfcs/issues/39).
 
