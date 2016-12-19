@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Prototyping a new 3D Web API for Servo with Vulkan backend](https://kvark.github.io/3d/api/2016/12/17/webmetal.html).
 * [Pegasus - framework combining specs ECS with gfx-rs rendering](https://github.com/kvark/pegasus).
+* [gfx-rs 0.13](https://crates.io/crates/gfx/0.13.0) is released, see [change log](https://github.com/gfx-rs/gfx/blob/master/CHANGELOG.md#version-0130-2016-12-18) for details.
 
 ## 24 Days of Rust
 
