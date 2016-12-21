@@ -17,15 +17,38 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Rustup 1.0 is released](https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/203) and is now the default installation method for Rust.
+* [Rust is included in GitHub's _Great for new contributors_ showcase](https://github.com/showcases/great-for-new-contributors).
+* [The Underhanded Rust Contest](https://underhanded.rs/blog/2016/12/15/underhanded-rust.en-US.html). Can you write 100% safe Rust that hides a logic bug, or hide an exploit in unsafe Rust that passes an audit? Now’s your chance!
+* [Idiomatic tree and graph like structures in Rust](https://rust-leipzig.github.io/architecture/2016/12/20/idiomatic-trees-in-rust/).
 * [Prototyping a new 3D Web API for Servo with Vulkan backend](https://kvark.github.io/3d/api/2016/12/17/webmetal.html).
-* [Pegasus - framework combining specs ECS with gfx-rs rendering](https://github.com/kvark/pegasus).
-* [gfx-rs 0.13](https://crates.io/crates/gfx/0.13.0) is released, see [change log](https://github.com/gfx-rs/gfx/blob/master/CHANGELOG.md#version-0130-2016-12-18) for details.
+* [Generating Rust FFI Bindings to C/C++ Libraries at cargo build time in `build.rs` with libbindgen](http://fitzgeraldnick.com/2016/12/14/using-libbindgen-in-build-rs.html).
+* [Rust futures at a glance](https://daiheitan.github.io/blog/2016/12/07/Rust-futures-at-a-glance/).
+* [Writing an Interpreter in Rust](https://chr4.org/blog/2016/12/09/writing-an-interpreter-in-rust/). (And [part 2](https://chr4.org/blog/2016/12/17/writing-an-interpreter-in-rust-part-2/).)
+* [Creating expedient microservices in Rust and Diesel](https://blog.codeship.com/creating-expedient-microservices-in-rust-and-diesel/).
+* [All about arrays](https://llogiq.github.io/2016/12/20/rfcs.html). More ideas around [Alloca for Rust](https://github.com/rust-lang/rfcs/pull/1808) RFC.
+* [Abstracting over mutability in Rust](https://lab.whitequark.org/notes/2016-12-13/abstracting-over-mutability-in-rust/).
+* [Owning collections in heap-less Rust](https://lab.whitequark.org/notes/2016-12-17/owning-collections-in-heap-less-rust/).
 
 ## 24 Days of Rust
 
+24 days of Rust is a series of articles introducing Rust language features, useful libraries, and cool projects built with Rust. Last week's articles are:
+
+* [clap](https://siciarz.net/24-days-rust-clap/).
+* [zip & lzma compression](https://siciarz.net/24-days-rust-zip-and-lzma-compression/).
+* [Cursive](https://siciarz.net/24-days-rust-cursive/).
+* [tera](https://siciarz.net/24-days-rust-tera/).
+* [git2](https://siciarz.net/24-days-rust-git2/).
+* [diesel](https://siciarz.net/24-days-rust-diesel/).
+* [error_chain](https://siciarz.net/24-days-rust-error_chain/).
+
 ## Other Weeklies from Rust Community
 
-* [What's coming up in imag (21)](http://beyermatthias.de/blog/2016/12/16/what-s-coming-up-in-imag-21/)
+* [These weeks in Servo 85](https://blog.servo.org/2016/12/19/twis-85/). Servo is a prototype web browser engine written in Rust.
+* [This week in Rust docs 35](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-35). Updates from the Rust documentation team.
+* [This week in TiKV 2016-12-19](http://weekly.pingcap.com/2016/12/19/tidb-weekly/#weekly-update-in-tikv). TiKV is a distributed Key-Value database.
+* [What's coming up in imag 21](http://beyermatthias.de/blog/2016/12/16/what-s-coming-up-in-imag-21/). imag is a text based personal information management suite.
+* [These weeks in PlanetKit 5](https://jeffparsons.github.io/2016/11/18/twipk-5/). PlanetKit generates colorful blobs that might one day resemble planets.
 
 # Crate of the Week
 
@@ -42,14 +65,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [gimli: Provide `NativeEndian` default for generic `Endianity` type parameters](https://github.com/gimli-rs/gimli/issues/163). gimli is a lazy, zero-copy parser for the DWARF debugging format.
-* [easy] [tera: Fix include whitespace](https://github.com/Keats/tera/issues/72). Tera is a template engine for Rust based on Jinja2/Django.
-* [easy] [tera: Adding tests (not unit test, the tester feature)](https://github.com/Keats/tera/issues/62).
-* [hard] [tera: Add not to mean `!`](https://github.com/Keats/tera/issues/39).
-* [less easy] [unicode-reverse: Fuzz testing](https://github.com/mbrubeck/unicode-reverse/issues/2). unicode-reverse is a Unicode-aware in-place string reverse function in Rust.
-* [less easy] [rayon: Parity with the `Iterator` trait](https://github.com/nikomatsakis/rayon/milestone/2). Rayon: A data parallelism library for Rust.
-* [easy] [servo: Canvas rendering context can be destroyed after the canvas thread exits](https://github.com/servo/servo/issues/14002).
-* [easy] [servo: Remove ResponseAction](https://github.com/servo/servo/issues/13717).
+* [easy] [servo: Stylo: implement -moz-orient](https://github.com/servo/servo/issues/14198).
+* [easy] [servo: Allow passing --nocapture argument to test-unit mach command](https://github.com/servo/servo/issues/14595).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -79,7 +96,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Stjepan Glavina
+* Christophe Biocca
+* Jeremy Fitzhardinge
+* Jeremy Soller
+* Jon Gjengset
+* Kalita Alexey
+* Michael Zapata
 
 ## Approved RFCs
 
@@ -87,7 +109,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 1566: Procedural macros](https://github.com/rust-lang/rfcs/pull/1566).
 
 ## Final Comment Period
 
@@ -97,13 +119,17 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
+* [Roadmap for 2017](https://github.com/rust-lang/rfcs/pull/1774).
+* [`core::mem::replace_with` for temporarily moving out of ownership](https://github.com/rust-lang/rfcs/pull/1736).
+* [Add a 'thread lifetime, which denotes a thread-bounded region](https://github.com/rust-lang/rfcs/pull/1705).
 * [Allow `Self` to appear in the where clause of trait impls](https://github.com/rust-lang/rfcs/pull/1647).
-* [Safe intrinsics](https://github.com/rust-lang/rfcs/pull/1248). Allow intrinsics to be marked as _safe_, overriding the implicit `unsafe` from being in an extern block.
-* [Procedural macros](https://github.com/rust-lang/rfcs/pull/1566).
+* [Macros by example 2.0. A replacement for `macro_rules!`](https://github.com/rust-lang/rfcs/pull/1584).
+* [Allow coercing non-capturing closures to function pointers](https://github.com/rust-lang/rfcs/pull/1558).
 
 ## New RFCs
 
-* [Warn by default when encountering a statement which only consists of an equality comparison](https://github.com/rust-lang/rfcs/pull/1812).
+* [Stackless coroutines](https://github.com/rust-lang/rfcs/pull/1823). Add language-level support for stackless coroutines (also known as semicoroutines or generators).
+* [Proposal for default crate recommendation ranking](https://github.com/rust-lang/rfcs/pull/1824).
 
 ## Style RFCs
 
@@ -123,14 +149,11 @@ Issues in final comment period:
 
 # Upcoming Events
 
-* [12/14. South Florida Rust: Intro to Rust](https://www.meetup.com/South-Florida-Rust-Meetup/events/235596291/).
-* [12/14. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [12/14. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [12/15. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [12/15. Rust Bay Area: Syn/Macros 1.1, Helix, and Binding C in OpenSSL](https://www.meetup.com/Rust-Bay-Area/events/235285192/).
-* [12/17. South Florida Rust: Intro to Rust](https://www.meetup.com/South-Florida-Rust-Meetup/events/235596339/).
 * [12/21. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [12/21. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [12/28. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [12/28. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [12/29. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -146,11 +169,13 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-<img src="https://68.media.tumblr.com/325981894f7583b456062acd77a20125/tumblr_ohqiasRsdz1rop8n1o2_540.png">
+> fmtq: I'm ridiculously good at the borrow checker though
+> fmtq: in Rust.
+> bstrie: once you've mastered borrow checkers, you may move on to borrow chess
 
-— [Programming People by David Marino](http://leftoversalad.com/c/015_programmingpeople/).
+— in #rust-offtopic.
 
-Thanks to [skade](https://users.rust-lang.org/users/skade) for the suggestion.
+Thanks to [Havvy](https://users.rust-lang.org/users/havvy) for the [suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/334).
 
 [Submit your quotes for next week][submit]!
 
