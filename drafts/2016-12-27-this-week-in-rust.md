@@ -17,6 +17,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [This Year in Gfx-rs - 2016](https://gfx-rs.github.io/2016/12/21/this-year.html).
+
 ## 24 Days of Rust
 
 24 days of Rust is a series of articles introducing Rust language features, useful libraries, and cool projects built with Rust. Last week's articles are:
