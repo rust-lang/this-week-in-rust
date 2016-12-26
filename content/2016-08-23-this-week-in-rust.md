@@ -23,7 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ](https://github.com/bluejekyll/trust-dns) - a Rust based DNS server.
 * [GC support in Rust: API design](https://manishearth.github.io/blog/2016/08/18/gc-support-in-rust-api-design/).
 * [Writing a JPEG decoder in Rust - Part 2: Implementation I](https://mht.technology/post/jpeg-rust-2/).
-* [A Tokio echo server in 35 lines](https://pyfisch.github.io/blog/tokio-echo-server/). Tokio is a network application framework for Rust.
+* [A Tokio echo server in 35 lines](https://pyfisch.org/blog/tokio-echo-server/). Tokio is a network application framework for Rust.
 * [Filters everywhere](http://beyermatthias.de/blog/2016/08/22/filters-everywhere/). Short intro to the "filters" crate and remaining issues.
 * [<img alt="fire" class="emoji" title=":fire:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/fire.png?v=0"> discussion] [The `?` operator will be harmful to Rust](https://internals.rust-lang.org/t/the-operator-will-be-harmful-to-rust/3882).
 * [slides] [Rust: Systems programming for everyone](https://pnkfelix.github.io/presentations/qcon-london2016-deploy/qcon-london2016.html).
