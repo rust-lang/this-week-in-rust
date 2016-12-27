@@ -72,7 +72,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [missing use statement leading to circular import path fixed](https://github.com/rust-lang/rust/pull/38539) (this crashed `rustc`)
 * [`registry.register_custom_derive(..)`](https://github.com/rust-lang/rust/pull/38533) allows undeprecated legacy custom derives
 * [signature info for `save-analysis`](https://github.com/rust-lang/rust/pull/38529)
-* [disable field reordering](https://github.com/rust-lang/rust/pull/38523) (rolled back for now, will be phased in again gently
+* [disable field reordering](https://github.com/rust-lang/rust/pull/38523) (rolled back for now, will be phased in again gently)
 * [redox memalign](https://github.com/rust-lang/libc/pull/478)
 * [`pub(restricted)` checking now uses `DefId`s instead of `NodeId`s](https://github.com/rust-lang/rust/pull/38490) (potentially plugin-breaking)
 * [local closure variables debuginfo fixed](https://github.com/rust-lang/rust/pull/38483)
