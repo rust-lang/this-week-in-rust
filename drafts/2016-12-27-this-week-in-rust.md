@@ -27,7 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's Crate of the Week is [ruru](https://github.com/d-unseductable/ruru), a wrapper around Ruby's C-API. Thanks to [turboladen](https://users.rust-lang.org/users/turboladen) for the suggestion!
+This week's Crate of the Week is [raster](https://github.com/kosinix/raster), an image processing library.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -49,25 +49,27 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-86 pull requests were [merged in the last week][merged]. This contains a good number of plugin-breaking changes.
+109 pull requests were [merged in the last week][merged]. This contains a good number of plugin-breaking changes.
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-12-12..2016-12-19
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-12-19..2016-12-26
 
-* [Primitive type resolution bug fixed](https://github.com/rust-lang/rust/pull/38375)
-* [Better def ids for procedural macros](https://github.com/rust-lang/rust/pull/38278)
-* [procedurally derived functions must now be `pub`lic](https://github.com/rust-lang/rust/pull/38140)
-* [Macros can now use path fragments in type bounds](https://github.com/rust-lang/rust/pull/38279)
-* [No span mangling for tup/field access nodes](https://github.com/rust-lang/rust/pull/38194)
-* [MIR can copy-propagate fn arguments](https://github.com/rust-lang/rust/pull/38332)
-* [`-Zmir_opt_level` simplified](https://github.com/rust-lang/rust/pull/38307)
-* [struct field reordering](https://github.com/rust-lang/rust/pull/37429) (to reduce memory overhead due to padding)
-* [nightlies were broken for a few days. Here's the fix](https://github.com/rust-lang/rust/pull/38324)
-* [First tests for incremental compilation](https://github.com/rust-lang/rust/pull/38202)
-* [`std::ptr::`{`read`, `write`}`_unaligned](https://github.com/rust-lang/rust/pull/38309)
-* [Library stabilizations for the 1.15 release](https://github.com/rust-lang/rust/pull/38369)
-* [New `--list` commandline option for tests](https://github.com/rust-lang/rust/pull/38185)
-* [New `--exact` commandline option for tests](https://github.com/rust-lang/rust/pull/38181)
-* [`cargo check` is now built-in](https://github.com/rust-lang/cargo/pull/3296) and faster. Hooray! 😊
+* The 1.14 release brought some PRs to prepare and execute the rollout.
+* [missing use statement leading to circular import path fixed](https://github.com/rust-lang/rust/pull/38539) (this crashed `rustc`)
+* [`registry.register_custom_derive(..)`](https://github.com/rust-lang/rust/pull/38533) allows undeprecated legacy custom derives
+* [signature info for `save-analysis`](https://github.com/rust-lang/rust/pull/38529)
+* [disable field reordering](https://github.com/rust-lang/rust/pull/38523) (rolled back for now, will be phased in again gently
+* [redox memalign](https://github.com/rust-lang/libc/pull/478)
+* [`pub(restricted)` checking now uses `DefId`s instead of `NodeId`s](https://github.com/rust-lang/rust/pull/38490) (potentially plugin-breaking)
+* [local closure variables debuginfo fixed](https://github.com/rust-lang/rust/pull/38483)
+* [cross compilation to redox now possible](https://github.com/rust-lang/rust/pull/38401)
+* [backwards incompatible import errors are now warnings](https://github.com/rust-lang/rust/pull/38271)
+* [`where < ident >` no longer parses](https://github.com/rust-lang/rust/pull/38268) (future proofing)
+* [unmangled spans for field/tup access nodes](https://github.com/rust-lang/rust/pull/38194)
+* [`#[proc_macro_derive]` functions need to be `pub`lic](https://github.com/rust-lang/rust/pull/38140)
+* [`impl From<[u16; 8]> for Ipv6Addr`](https://github.com/rust-lang/rust/pull/38131)
+* [all `std` structs are now `fmt::Debug`gable](https://github.com/rust-lang/rust/pull/38006)
+* [Abstract `std::slice::`{`binary_search`, `contains`}`(..)` over `Borrow`](https://github.com/rust-lang/rust/pull/37761)
+* [The playpen now works with `error-format=json`](https://github.com/rust-lang/rust-playpen/pull/267)
 
 ## New Contributors
 
