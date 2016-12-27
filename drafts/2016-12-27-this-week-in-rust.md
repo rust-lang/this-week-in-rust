@@ -17,13 +17,28 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [This Year in Gfx-rs - 2016](https://gfx-rs.github.io/2016/12/21/this-year.html).
+* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.14](https://blog.rust-lang.org/2016/12/22/Rust-1.14.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* [Four years with Rust](http://words.steveklabnik.com/four-years-with-rust).
+* [Rust CI / release infrastructure changes](https://internals.rust-lang.org/t/rust-ci-release-infrastructure-changes/4489).
+* [Getting started with Tokio](https://lukesteensen.com/2016/12/getting-started-with-tokio/).
+* [Complementing Python with Rust](https://medium.com/@caulagi/complementing-python-with-rust-657a8cb3d066).
 
 ## 24 Days of Rust
 
 24 days of Rust is a series of articles introducing Rust language features, useful libraries, and cool projects built with Rust. Last week's articles are:
 
+* [leftpad](https://siciarz.net/24-days-rust-leftpad/).
+* [reqwest](https://siciarz.net/24-days-rust-reqwest/).
+* [app_dirs and preferences](https://siciarz.net/24-days-rust-app_dirs-and-preferences/).
+* [lettre](https://siciarz.net/24-days-rust-lettre/).
+* [built with Rust](https://siciarz.net/24-days-rust-built-rust-2016/).
+* [conclusion](https://siciarz.net/24-days-rust-conclusion-2016/).
+
 ## Other Weeklies from Rust Community
+
+* [This Year in Gfx-rs - 2016](https://gfx-rs.github.io/2016/12/21/this-year.html).
+* [This week in Rust docs 36](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-36).
+* [This week in TiKV 2016-12-26](http://weekly.pingcap.com/2016/12/26/tidb-weekly/#weekly-update-in-tikv).
 
 # Crate of the Week
 
@@ -40,8 +55,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [servo: Stylo: implement -moz-orient](https://github.com/servo/servo/issues/14198).
-* [easy] [servo: Allow passing --nocapture argument to test-unit mach command](https://github.com/servo/servo/issues/14595).
+* [easy] [rust: libstd Process tests depend on msys programs on windows](https://github.com/rust-lang/rust/issues/38565).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -71,12 +85,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Christophe Biocca
-* Jeremy Fitzhardinge
-* Jeremy Soller
-* Jon Gjengset
-* Kalita Alexey
-* Michael Zapata
+* Elahn Ientile
+* Geoff Yoerger
+* Ivan Molodetskikh
+* Jason Campbell
+* Mark Simulacrum
+* Wesley Moore
 
 ## Approved RFCs
 
@@ -84,7 +98,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1566: Procedural macros](https://github.com/rust-lang/rfcs/pull/1566).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -100,19 +114,16 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Allow `Self` to appear in the where clause of trait impls](https://github.com/rust-lang/rfcs/pull/1647).
 * [Macros by example 2.0. A replacement for `macro_rules!`](https://github.com/rust-lang/rfcs/pull/1584).
 * [Allow coercing non-capturing closures to function pointers](https://github.com/rust-lang/rfcs/pull/1558).
+* [Add Rvalue-static-promotion](https://github.com/rust-lang/rfcs/pull/1414).
 
 ## New RFCs
 
-* [Stackless coroutines](https://github.com/rust-lang/rfcs/pull/1823). Add language-level support for stackless coroutines (also known as semicoroutines or generators).
-* [Proposal for default crate recommendation ranking](https://github.com/rust-lang/rfcs/pull/1824).
+* [Rust bookshelf](https://github.com/rust-lang/rfcs/pull/1828). Create a "Rust Bookshelf" of learning resources for Rust.
+* [Change the default URL of doc.rust-lang.org](https://github.com/rust-lang/rfcs/pull/1826).
 
 ## Style RFCs
 
 [Style RFCs](https://github.com/rust-lang-nursery/fmt-rfcs) are part of the process for deciding on style guidelines for the Rust community and defaults for [Rustfmt](https://github.com/rust-lang-nursery/rustfmt). The process is similar to the RFC process, but we try to reach rough consensus on issues (including a final comment period) before progressing to PRs. Just like the RFC process, all users are welcome to comment and submit RFCs. If you want to help decide what Rust code should look like, come get involved!
-
-PRs:
-
-* [Conventions for Cargo.toml files (FCP)](https://github.com/rust-lang-nursery/fmt-rfcs/pull/41).
 
 Ready for PR:
 
@@ -120,15 +131,18 @@ There's [a lot of them](https://github.com/rust-lang-nursery/fmt-rfcs/issues?q=i
 
 Issues in final comment period:
 
+* [Conventions for Cargo.toml files (FCP)](https://github.com/rust-lang-nursery/fmt-rfcs/pull/41).
 * [function declarations](https://github.com/rust-lang-nursery/fmt-rfcs/issues/39).
 
 # Upcoming Events
 
-* [12/21. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [12/21. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [12/28. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [12/28. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [12/29. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [1/4. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [1/4. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [1/5. Rust DC Hack Session—Part 3](https://www.meetup.com/RustDC/events/236141535/).
+* [1/9. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/236209293/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -144,13 +158,13 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> fmtq: I'm ridiculously good at the borrow checker though
-> fmtq: in Rust.
-> bstrie: once you've mastered borrow checkers, you may move on to borrow chess
+> scott: see, at christmas, if I unwrap() my present and I find that it's empty, I immediately have a panic attack and everyone gets really freaked out. if I expect() a present, at least I can send a stern message before I start panicking in the living room.
+> scott: sometimes I decide ahead of time that if I start having a panic attack, I'm just going to abort the whole christmas thing entirely and leave
+> scott: but it's easier to unwind if I don't abort and stick around
 
 — in #rust-offtopic.
 
-Thanks to [Havvy](https://users.rust-lang.org/users/havvy) for the [suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/334).
+Thanks to [Havvy](https://users.rust-lang.org/users/havvy) for the [suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/335).
 
 [Submit your quotes for next week][submit]!
 
