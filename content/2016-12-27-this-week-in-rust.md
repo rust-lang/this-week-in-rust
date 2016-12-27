@@ -37,7 +37,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Other Weeklies from Rust Community
 
-* [This Year in Gfx-rs - 2016](https://gfx-rs.github.io/2016/12/21/this-year.html).
+* [This year in Gfx-rs - 2016](https://gfx-rs.github.io/2016/12/21/this-year.html).
 * [This week in Rust docs 36](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-36).
 * [This week in TiKV 2016-12-26](http://weekly.pingcap.com/2016/12/26/tidb-weekly/#weekly-update-in-tikv).
 
