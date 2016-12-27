@@ -18,6 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [This Year in Gfx-rs - 2016](https://gfx-rs.github.io/2016/12/21/this-year.html).
+* [www.planet-rust.com](http://www.planet-rust.com), the Rust programming language feeds (planet) powered by [planetrs](https://github.com/Vagdish/planetrs).
 
 ## 24 Days of Rust
 
