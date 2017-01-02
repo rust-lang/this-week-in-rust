@@ -96,6 +96,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Macros by example 2.0. A replacement for `macro_rules!`](https://github.com/rust-lang/rfcs/pull/1584).
 * [Allow coercing non-capturing closures to function pointers](https://github.com/rust-lang/rfcs/pull/1558).
 * [Add Rvalue-static-promotion](https://github.com/rust-lang/rfcs/pull/1414).
+* [What categories should be available on crates.io? ](https://github.com/rust-lang/crates.io/pull/488)
 
 ## New RFCs
 
