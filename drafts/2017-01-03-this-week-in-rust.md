@@ -21,7 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's Crate of the Week is [raster](https://github.com/kosinix/raster), an image processing library.
+This week's Crate of the Week is [rocket](https://crates.io/crates/rocket), an experimental web framework (will need a nightly Rust!) with a focus on ease-of-use, expressability and speed. Thanks to Vikrant for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -44,25 +44,20 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 109 pull requests were [merged in the last week][merged]. This contains a good number of plugin-breaking changes.
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-12-19..2016-12-26
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-12-26..2016-01-02
 
-* The 1.14 release brought some PRs to prepare and execute the rollout.
-* [missing use statement leading to circular import path fixed](https://github.com/rust-lang/rust/pull/38539) (this crashed `rustc`)
-* [`registry.register_custom_derive(..)`](https://github.com/rust-lang/rust/pull/38533) allows undeprecated legacy custom derives
-* [signature info for `save-analysis`](https://github.com/rust-lang/rust/pull/38529)
-* [disable field reordering](https://github.com/rust-lang/rust/pull/38523) (rolled back for now, will be phased in again gently
-* [redox memalign](https://github.com/rust-lang/libc/pull/478)
-* [`pub(restricted)` checking now uses `DefId`s instead of `NodeId`s](https://github.com/rust-lang/rust/pull/38490) (potentially plugin-breaking)
-* [local closure variables debuginfo fixed](https://github.com/rust-lang/rust/pull/38483)
-* [cross compilation to redox now possible](https://github.com/rust-lang/rust/pull/38401)
-* [backwards incompatible import errors are now warnings](https://github.com/rust-lang/rust/pull/38271)
-* [`where < ident >` no longer parses](https://github.com/rust-lang/rust/pull/38268) (future proofing)
-* [unmangled spans for field/tup access nodes](https://github.com/rust-lang/rust/pull/38194)
-* [`#[proc_macro_derive]` functions need to be `pub`lic](https://github.com/rust-lang/rust/pull/38140)
-* [`impl From<[u16; 8]> for Ipv6Addr`](https://github.com/rust-lang/rust/pull/38131)
-* [all `std` structs are now `fmt::Debug`gable](https://github.com/rust-lang/rust/pull/38006)
-* [Abstract `std::slice::`{`binary_search`, `contains`}`(..)` over `Borrow`](https://github.com/rust-lang/rust/pull/37761)
-* [The playpen now works with `error-format=json`](https://github.com/rust-lang/rust-playpen/pull/267)
+* [`u128`/`i128` support!](https://github.com/rust-lang/rust/pull/38482) (RFC [#1504](https://github.com/rust-lang/rfcs/blob/master/text/1504-int128.md)), also [vim](https://github.com/rust-lang/rust.vim/pull/133)
+* [new `min_atomic_width` target option](https://github.com/rust-lang/rust/pull/38579)
+* [`--crate-type=metadata` is now `--emit=metadata`](https://github.com/rust-lang/rust/pull/38571)
+* [Rust can now compile to PTX (cuda)](https://github.com/rust-lang/rust/pull/38559)
+* [`fastcall` calling convention fixed](https://github.com/rust-lang/rust/pull/38542)
+* [`pub(restricted)` visibilities are now handled by `DefId`](https://github.com/rust-lang/rust/pull/38490) (potentially plugin-breaking)
+* [rustbuild now build's twice (instead of thrice) by default](https://github.com/rust-lang/rust/pull/38631) (hooray for faster builds!)
+* [A new `DroplessArena` for some speedups](https://github.com/rust-lang/rust/pull/38653)
+* [Debuggers can now pretty-print unions](https://github.com/rust-lang/rust/pull/38753)
+* [Custom derives now can work on structs with macros](https://github.com/rust-lang/rust/pull/38737)
+* [sparc64-linux support](https://github.com/rust-lang/rust/pull/38726)
+* [`impl TrustedLen for `{`Empty`, `Once`}](https://github.com/rust-lang/rust/pull/38713)
 
 ## New Contributors
 
