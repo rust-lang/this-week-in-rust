@@ -119,7 +119,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [What categories should be available on crates.io](https://github.com/rust-lang/crates.io/pull/488)?
+* [crates.io] [What categories should be available on crates.io](https://github.com/rust-lang/crates.io/pull/488)?
 * [Roadmap for 2017](https://github.com/rust-lang/rfcs/pull/1774).
 * [`core::mem::replace_with` for temporarily moving out of ownership](https://github.com/rust-lang/rfcs/pull/1736).
 * [Add a 'thread lifetime, which denotes a thread-bounded region](https://github.com/rust-lang/rfcs/pull/1705).
