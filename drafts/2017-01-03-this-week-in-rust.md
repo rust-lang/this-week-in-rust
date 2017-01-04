@@ -19,6 +19,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Other Weeklies from Rust Community
 
+[This year in Redox - 2016](https://www.redox-os.org/news/this-year-in-redox-18/)
+
 # Crate of the Week
 
 This week's Crate of the Week is [raster](https://github.com/kosinix/raster), an image processing library.
