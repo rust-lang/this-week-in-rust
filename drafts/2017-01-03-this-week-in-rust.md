@@ -17,7 +17,32 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Rust is more than safety](http://words.steveklabnik.com/rust-is-more-than-safety).
+* [Rust is mostly safety](https://graydon2.dreamwidth.org/247406.html).
+* [Safety is Rust's Fireflower](https://thefeedbackloop.xyz/safety-is-rusts-fireflower/).
+* [Fire Mario, not Fire Flowers](http://words.steveklabnik.com/fire-mario-not-fire-flowers).
+* [Rust is about productivity](http://www.ncameron.org/blog/rust-is-about-productivity/).
+* [Rust is its community](https://mgattozzi.com/rust-is).
+* [Why Rust? Sum types](https://insanitybit.github.io/2016/12/28/why-rust-sum-types).
+* [Rust is software's salvation](https://redox-os.org/news/rust-is-softwares-salvation-17/).
+* [Creating an enum iterator using Macros 1.1](https://cbreeden.github.io/Macros11/).
+* [Elegant library APIs in Rust](https://scribbles.pascalhertleif.de/elegant-apis-in-rust.html).
+* [Rust on RTL8710 running FreeRTOS](https://polyfractal.com/post/rustl8710/).
+* [Golang and Rustlang memory safety](https://insanitybit.github.io/2016/12/28/golang-and-rustlang-memory-safety).
+* [Six easy ways to make your crate awesome](http://www.integer32.com/2016/12/27/how-to-make-your-crate-awesome.html).
+* [Constrain API versions statically with traits](https://maikklein.github.io/post/version-trait/).
+* [Rust on the WiFi Pineapple (and OpenWrt)](http://nitschinger.at/Rust-on-the-Wifi-Pineapple-and-OpenWRT/).
+* [Xargo v0.3.0 released: Build Your Own `std`](https://users.rust-lang.org/t/xargo-v0-3-0-released-build-your-own-std/8571).
+* [podcast] [New Rustacean News 2: Let's talk roadmap! — Rust's achievements in 2016 and goals for 2017](http://www.newrustacean.com/show_notes/news/_2/index.html).
+
 ## Other Weeklies from Rust Community
+
+* [This week in Rust docs 37](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-37). Updates from the Rust documentation team.
+* [This year in Redox](http://www.redox-os.org/news/this-year-in-redox-18/). Redox is an operating-system written in Rust.
+* [This year in Robigalia](https://robigalia.org/blog/2016/12/27/this-year-in-robigalia.html). Robigalia is a project to create a highly reliable persistent capability OS, continuing the heritage of EROS and Coyotos.
+* [This year in Ruma](https://www.ruma.io/news/this-year-in-ruma-2016-12-31/). Ruma is a Matrix homeserver written in Rust.
+* [This week in Ruma 2017-01-01](https://www.ruma.io/news/this-week-in-ruma-2017-01-01/).
+* [These weeks in PlanetKit #6: the joy of motion](https://jeffparsons.github.io/2016/12/30/movement/). PlanetKit generates colorful blobs that might one day resemble planets.
 
 # Crate of the Week
 
@@ -34,7 +59,14 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [rust: libstd Process tests depend on msys programs on windows](https://github.com/rust-lang/rust/issues/38565).
+* [easy] [Diesel: SQLite Getting started/Skeleton app](https://github.com/diesel-rs/diesel/issues/376).
+* [easy] [Diesel: Refactorings using macros in type position](https://github.com/diesel-rs/diesel/issues/521).
+* [easy] [Diesel: Deny missing docs](https://github.com/diesel-rs/diesel/issues/563).
+* [android-rs-glue: Add more arguments and use clap to parse the arguments](https://github.com/tomaka/android-rs-glue/issues/115).
+* [tokei: Add package repositories](https://github.com/Aaronepower/tokei/issues/92).
+* [RustCrypto/hashes: Missing hash functions](https://github.com/RustCrypto/hashes/issues/1).
+* [RustCrypto/block-ciphers: Missing block ciphers](https://github.com/RustCrypto/block-ciphers/issues/1).
+* [Funding Redox OS development](https://www.reddit.com/r/rust/comments/5klu34/funding_redox_os_development/).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -66,12 +98,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Elahn Ientile
-* Geoff Yoerger
-* Ivan Molodetskikh
-* Jason Campbell
-* Mark Simulacrum
-* Wesley Moore
+* Adam Langley
+* Christoph Schulz
+* Curtis McEnroe
+* E. Dunham
+* Ian Kerins
+* kellerkindt
+* Luc Street
+* Martijn Vermaat
+* Philip Craig
 
 ## Approved RFCs
 
@@ -99,8 +134,8 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Rust bookshelf](https://github.com/rust-lang/rfcs/pull/1828). Create a "Rust Bookshelf" of learning resources for Rust.
-* [Change the default URL of doc.rust-lang.org](https://github.com/rust-lang/rfcs/pull/1826).
+* [Reject crates.io uploads which declare a feature named `no_std`](https://github.com/rust-lang/rfcs/pull/1841).
+* [Generators](https://github.com/rust-lang/rfcs/pull/1832).
 
 ## Style RFCs
 
@@ -117,13 +152,15 @@ Issues in final comment period:
 
 # Upcoming Events
 
-* [12/28. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [12/28. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [12/29. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [1/4. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [1/4. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+
+* [1/5. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/236137922/).
 * [1/5. Rust DC Hack Session—Part 3](https://www.meetup.com/RustDC/events/236141535/).
 * [1/9. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/236209293/)
+* [1/11. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [1/11 Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [1/12. Rust Utrecht](https://www.meetup.com/Rust-Utrecht/events/235444678/).
+* [1/12. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -133,19 +170,17 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # fn work(on: RustProject) -> Money
 
-* [Mozilla Research Internship (US/INTL) - University 2017](https://careers.mozilla.org/position/gh/503816).
+*No jobs listed for this week.*
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> scott: see, at christmas, if I unwrap() my present and I find that it's empty, I immediately have a panic attack and everyone gets really freaked out. if I expect() a present, at least I can send a stern message before I start panicking in the living room.
-> scott: sometimes I decide ahead of time that if I start having a panic attack, I'm just going to abort the whole christmas thing entirely and leave
-> scott: but it's easier to unwind if I don't abort and stick around
+> I would argue that if the Rust project would have just one mission statement, it wouldn't be "create a safe systems programming language". It would be "move towards a world where safe systems programming is the norm".
 
-— in #rust-offtopic.
+— [GolDDranks in reply to steveklabnik](https://news.ycombinator.com/item?id=13277096).
 
-Thanks to [Havvy](https://users.rust-lang.org/users/havvy) for the [suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/335).
+Thanks to [matematikaadit](https://users.rust-lang.org/users/matematikaadit) for the [suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/338).
 
 [Submit your quotes for next week][submit]!
 
