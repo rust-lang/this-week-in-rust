@@ -19,6 +19,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Other Weeklies from Rust Community
 
+[This year in Redox - 2016](https://www.redox-os.org/news/this-year-in-redox-18/)
+
 # Crate of the Week
 
 This week's Crate of the Week is [rocket](https://crates.io/crates/rocket), an experimental web framework (will need a nightly Rust!) with a focus on ease-of-use, expressability and speed. Thanks to Vikrant for the suggestion!
