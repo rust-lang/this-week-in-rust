@@ -32,6 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Six easy ways to make your crate awesome](http://www.integer32.com/2016/12/27/how-to-make-your-crate-awesome.html).
 * [Constrain API versions statically with traits](https://maikklein.github.io/post/version-trait/).
 * [Rust on the WiFi Pineapple (and OpenWrt)](http://nitschinger.at/Rust-on-the-Wifi-Pineapple-and-OpenWRT/).
+* [Rust: Borrowing, ownership, and lifetimes](https://medium.com/learning-rust/rust-the-tough-part-2ea11ed3693e).
 * [Xargo v0.3.0 released: Build Your Own `std`](https://users.rust-lang.org/t/xargo-v0-3-0-released-build-your-own-std/8571).
 * [podcast] [New Rustacean News 2: Let's talk roadmap! — Rust's achievements in 2016 and goals for 2017](http://www.newrustacean.com/show_notes/news/_2/index.html).
 
