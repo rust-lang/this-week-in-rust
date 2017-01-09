@@ -21,7 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's Crate of the Week is [rocket](https://crates.io/crates/rocket), an experimental web framework (will need a nightly Rust!) with a focus on ease-of-use, expressability and speed. Thanks to Vikrant for the suggestion!
+This week's Crate of the Week is [trust](https://github.com/japaric/trust), a Travis CI and AppVeyor template to test your Rust crate on 5 architectures and publish binary releases of it for Linux, macOS and Windows. Thanks to Vikrant for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -49,22 +49,36 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-109 pull requests were [merged in the last week][merged]. This contains a good number of plugin-breaking changes.
+112 pull requests were [merged in the last week][merged]. This contains a good number of plugin-breaking changes.
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-12-26..2016-01-02
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-01-02..2017-01-09
 
-* [`u128`/`i128` support!](https://github.com/rust-lang/rust/pull/38482) (RFC [#1504](https://github.com/rust-lang/rfcs/blob/master/text/1504-int128.md)), also [vim](https://github.com/rust-lang/rust.vim/pull/133)
-* [new `min_atomic_width` target option](https://github.com/rust-lang/rust/pull/38579)
-* [`--crate-type=metadata` is now `--emit=metadata`](https://github.com/rust-lang/rust/pull/38571)
-* [Rust can now compile to PTX (cuda)](https://github.com/rust-lang/rust/pull/38559)
-* [`fastcall` calling convention fixed](https://github.com/rust-lang/rust/pull/38542)
-* [`pub(restricted)` visibilities are now handled by `DefId`](https://github.com/rust-lang/rust/pull/38490) (potentially plugin-breaking)
-* [rustbuild now build's twice (instead of thrice) by default](https://github.com/rust-lang/rust/pull/38631) (hooray for faster builds!)
-* [A new `DroplessArena` for some speedups](https://github.com/rust-lang/rust/pull/38653)
-* [Debuggers can now pretty-print unions](https://github.com/rust-lang/rust/pull/38753)
-* [Custom derives now can work on structs with macros](https://github.com/rust-lang/rust/pull/38737)
-* [sparc64-linux support](https://github.com/rust-lang/rust/pull/38726)
-* [`impl TrustedLen for `{`Empty`, `Once`}](https://github.com/rust-lang/rust/pull/38713)
+* [`mem::transmute::<U, T>(_)` alignment fixed](https://github.com/rust-lang/rust/pull/38670)
+* [`writeln!()`](https://github.com/rust-lang/rust/pull/38469)
+* [more specific errors with `str` slices](https://github.com/rust-lang/rust/pull/38066)
+* [`Impl From<`{`Ipv4Addr`, `Ipv6Addr`}`> for IpAddr`](https://github.com/rust-lang/rust/pull/38327)
+* [placement-in for `Vec`: `Vec.place_back() <- _`](https://github.com/rust-lang/rust/pull/38551)
+* [`BinaryHeap::peek_mut().pop()`](https://github.com/rust-lang/rust/pull/38733)
+* [missing feature gate for {`std`, `core`}`::`{`i128`, `u128`}](https://github.com/rust-lang/rust/pull/38861)
+* [stability check only public items](https://github.com/rust-lang/rust/pull/38689) (fixes ICE)
+* [fix stack overflow when promoting MIR terminators](https://github.com/rust-lang/rust/pull/38833)
+* [associated types fixed in `Copy` implementation](https://github.com/rust-lang/rust/pull/38152)
+* [stabilize Macros 1.1](https://github.com/rust-lang/rust/pull/38783)
+* [improved diagnostics for Macros 1.1](https://github.com/rust-lang/rust/pull/38792)
+* [fix handling of empty types in patterns](https://github.com/rust-lang/rust/pull/38069)
+* [fix regression with doubly exported macro rules](https://github.com/rust-lang/rust/pull/38793)
+* [`const_eval` no longer builds fake HIR patterns](https://github.com/rust-lang/rust/pull/38766)
+* [negation of unsigned ints no longer typecheck](https://github.com/rust-lang/rust/pull/38776)
+* [smaller `std::unicode` tables](https://github.com/rust-lang/rust/pull/38781)
+* [debuginfo for unsized struct members fixed](https://github.com/rust-lang/rust/pull/38543)
+* [rustc no longer leaks private scope information in errors](https://github.com/rust-lang/rust/pull/38552)
+* [separate `ty::Table` per `Body`](https://github.com/rust-lang/rust/pull/38813)
+* [don't check global paths for `unused_qualifications`](https://github.com/rust-lang/rust/pull/38817)
+* [closures get drop glue even without reference](https://github.com/rust-lang/rust/pull/38822) (went missing in trans)
+* [on Windows, distinct processes no longer get overlapped handles](https://github.com/rust-lang/rust/pull/38835)
+* [`cargo` now builds all workspace members with `build --all`](https://github.com/rust-lang/cargo/pull/3511)
+* [`rustdoc` no longer ICEs with unstable features](https://github.com/rust-lang/rust/pull/38773)
+* [dead foreign items are no longer warned against when allowing `dead_code`](https://github.com/rust-lang/rust/pull/38791)
 
 ## New Contributors
 
