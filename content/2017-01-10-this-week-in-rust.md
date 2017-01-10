@@ -34,6 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Other Weeklies from Rust Community
 
 * [This week in Rust docs 38](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-38).
+* [These weeks in Servo 86](https://blog.servo.org/2017/01/02/twis-86/).
 * [video] [Ferris makes emulators 14](https://www.youtube.com/watch?v=d-dm4z5fJ1U).
 
 # Crate of the Week
@@ -134,7 +135,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 * [`'fn` lifetime ascription](https://github.com/rust-lang/rfcs/pull/1847). Add a `'fn` lifetime that is bound to the scope of the body of the current innermost function or closure.
 * [Remove static bound from type_id](https://github.com/rust-lang/rfcs/pull/1849).
-* [From<&[T]> for Rc<[T]> + From<&str> for Rc<str>](https://github.com/rust-lang/rfcs/pull/1845).
+* [`From<&[T]> for Rc<[T]> + From<&str> for Rc<str>`](https://github.com/rust-lang/rfcs/pull/1845).
 
 ## Style RFCs
 
