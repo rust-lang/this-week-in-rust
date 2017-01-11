@@ -160,11 +160,13 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 [calendar]: https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com
 [community]: mailto:community-team@rust-lang.org
 
-# fn work(on: RustProject) -> Money
+# Rust Jobs
 
 * [Senior backend developer at OneSignal](https://angel.co/onesignal/jobs/128684-senior-backend-developer).
 * [Rust backend developer at 1aim.com](https://news.ycombinator.com/item?id=13302210).
 * [Rust systems programmer at Hadean](https://news.ycombinator.com/item?id=13301893).
+* [Embedded software engineer at ATS](http://advancedtelematic.com/en/careers/embedded-software-engineer.html)
+* [Rust engineer at MaidSafe](https://maidsafe.net/careers.html#rust_engineer)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
