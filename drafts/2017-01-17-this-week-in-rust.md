@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Forensic Tool Development with Rust](http://getreu.net/public/downloads/doc/forensic-tool-development-with-rust/Forensic-Tool%20Development%20with%20Rust.html) [(pdf)](http://getreu.net/public/downloads/doc/forensic-tool-development-with-rust/Forensic-Tool%20Development%20with%20Rust.pdf).
+
 ## Other Weeklies from Rust Community
 
 # Crate of the Week
