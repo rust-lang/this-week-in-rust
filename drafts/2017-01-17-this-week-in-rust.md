@@ -26,6 +26,10 @@ This week's Crate of the Week is [trust](https://github.com/japaric/trust), a Tr
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
+# Answer of the Week
+
+This section highlights an exceptional answer to a question about Rust. This week Francis Gagné explains on StackOverflow [how to make something public within a crate, but private outside it](http://stackoverflow.com/a/41667202/265521).
+
 # Call for Participation
 
 Always wanted to contribute to open-source projects but didn't know where to start?
