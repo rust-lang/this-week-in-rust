@@ -16,9 +16,27 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Forensic Tool Development with Rust](http://getreu.net/public/downloads/doc/forensic-tool-development-with-rust/Forensic-Tool%20Development%20with%20Rust.html) [(pdf)](http://getreu.net/public/downloads/doc/forensic-tool-development-with-rust/Forensic-Tool%20Development%20with%20Rust.pdf).
+* [Announcing Tokio 0.1](https://tokio.rs/blog/tokio-0-1/).
+* [Rust tidbits: Box is special](https://manishearth.github.io/blog/2017/01/10/rust-tidbits-box-is-special/).
+* [Rust tidbits: What is a lang item](https://manishearth.github.io/blog/2017/01/11/rust-tidbits-what-is-a-lang-item/)?
+* [Let’s stop ascribing meaning to Code Points](https://manishearth.github.io/blog/2017/01/14/stop-ascribing-meaning-to-unicode-code-points/).
+* [Steed: Let’s build a standard library (std) free of C code / dependencies for Linux](https://users.rust-lang.org/t/lets-build-a-standard-library-std-free-of-c-code-dependencies-for-linux/8930).
+* [Remacs: Porting Emacs to Rust](http://www.wilfred.me.uk/blog/2017/01/11/announcing-remacs-porting-emacs-to-rust/).
+* [How do I satisfy the borrow checker](https://m-decoster.github.io//2017/01/16/fighting-borrowchk/).
+* [Rust on Teensy part 1: Bootup to LED](https://branan.github.io/teensy/2017/01/12/bootup.html). PJRC Teensy is a USB-based microcontroller development system.
+* [Forensic tool development with Rust](http://getreu.net/public/downloads/doc/forensic-tool-development-with-rust/Forensic-Tool%20Development%20with%20Rust.html) [(pdf)](http://getreu.net/public/downloads/doc/forensic-tool-development-with-rust/Forensic-Tool%20Development%20with%20Rust.pdf).
+* [How to make something public within a crate, but private outside it](http://stackoverflow.com/a/41667202).
+* [Debugging Rust's new Custom Derive system](https://quodlibetor.github.io/posts/debugging-rusts-new-custom-derive-system/).
+* [Announcing Rust Contributors](http://words.steveklabnik.com/announcing-rust-contributors).
+* [Announcing Language team shepherds](https://internals.rust-lang.org/t/language-team-shepherds/4595). Language team is creating a group of _shepherds_, comprising of members of the community with an increased level of trust and responsibility. They will guide discussion on RFCs, mentor RFC authors, and collaborate on improving designs and expositions.
+* [Rust and the limits of swarm design](http://esr.ibiblio.org/?p=7303). Follow-up to - [Rust severely disappoints me](http://esr.ibiblio.org/?p=7294).
+* [video playlist] [Videos from Rust Belt Rust 2016 are now available](https://www.youtube.com/playlist?list=PLgC1L0fKd7UmdG82JOEE0uzXci1XY61xU).
 
 ## Other Weeklies from Rust Community
+
+* [This week in Rust docs 39](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-39).
+* [This week in Ruma 2017-01-15](https://www.ruma.io/news/this-week-in-ruma-2017-01-15/).
+* [These weeks in Ruru 6](http://this-week-in-ruru.org/2017/01/10/these-weeks-in-ruru-6/).
 
 # Crate of the Week
 
@@ -28,10 +46,6 @@ This week's Crate of the Week is [alacritty](https://github.com/jwilm/alacritty)
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
-# Answer of the Week
-
-This section highlights an exceptional answer to a question about Rust. This week Francis Gagné explains on StackOverflow [how to make something public within a crate, but private outside it](http://stackoverflow.com/a/41667202/265521).
-
 # Call for Participation
 
 Always wanted to contribute to open-source projects but didn't know where to start?
@@ -39,6 +53,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Rust::from(lang)](https://github.com/mgattozzi/rust-from-lang) is a project to help people transition from other languages to Rust with articles that show how to do something in one language and then how to do it in Rust and comparing the two. You can help by writing examples or request for articles on problems you need help with.
 * [rust: Make Rust on wasm + emscripten a reliable, 1st class Rust target](https://github.com/rust-lang/rust/issues/38805).
 * [easy] [rust: Rvalue static promotion](https://github.com/rust-lang/rust/issues/38865).
 * [easy] [Diesel: Refactorings using macros in type position](https://github.com/diesel-rs/diesel/issues/521).
@@ -77,11 +92,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* derekdreery
-* F001
-* Kyle Aleshire
-* Mina Naguib
-* Yamakaky
+* Behnam Esfahbod
+* Benjamin Saunders
+* Ben Wiederhake
+* Bjorn Tipling
+* Christopher Armstrong
+* Craig Macomber
+* Djzin
+* Jeff Waugh
+* Tyler Julian
 
 ## Approved RFCs
 
@@ -89,9 +108,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1774: Roadmap for 2017](https://github.com/rust-lang/rfcs/pull/1774).
-* [RFC 1647: Allow `Self` to appear in the where clause of trait impls](https://github.com/rust-lang/rfcs/pull/1647).
-* [RFC 1414: Add Rvalue-static-promotion](https://github.com/rust-lang/rfcs/pull/1414).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -101,18 +118,22 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [crates.io] [What categories should be available on crates.io](https://github.com/rust-lang/crates.io/pull/488)?
-* [Abort by default v2](https://github.com/rust-lang/rfcs/pull/1765). Specify abort-by-default in `Cargo.toml` when the user does `cargo new --bin`, as well as various other refinements to the panick strategy system.
 * [Allow uncallable method impls to be omitted](https://github.com/rust-lang/rfcs/pull/1699).
+* [Const-dependent type system (also known as, Π-types and value-types)](https://github.com/rust-lang/rfcs/pull/1657).
+* [Extend `Cell` to work with non-`Copy` types](https://github.com/rust-lang/rfcs/pull/1651).
 * [Macros by example 2.0. A replacement for `macro_rules!`](https://github.com/rust-lang/rfcs/pull/1584).
 * [Add syntax for expressing tuples as a head and tail pair, similar to a Lisp cons cell](https://github.com/rust-lang/rfcs/pull/1582).
 * [Allow coercing non-capturing closures to function pointers](https://github.com/rust-lang/rfcs/pull/1558).
 
+## Closed RFCs
+
+Following proposals were rejected by [the team](https://www.rust-lang.org/team.html) after their 'final comment period' elapsed.
+
+* [Abort by default v2](https://github.com/rust-lang/rfcs/pull/1765). Specify abort-by-default in `Cargo.toml` when the user does `cargo new --bin`, as well as various other refinements to the panick strategy system.
+
 ## New RFCs
 
-* [`'fn` lifetime ascription](https://github.com/rust-lang/rfcs/pull/1847). Add a `'fn` lifetime that is bound to the scope of the body of the current innermost function or closure.
-* [Remove static bound from type_id](https://github.com/rust-lang/rfcs/pull/1849).
-* [`From<&[T]> for Rc<[T]> + From<&str> for Rc<str>`](https://github.com/rust-lang/rfcs/pull/1845).
+*No new RFCs were proposed this week.*
 
 ## Style RFCs
 
@@ -133,8 +154,6 @@ Issues in final comment period:
 
 # Upcoming Events
 
-* [1/12. Rust Utrecht](https://www.meetup.com/Rust-Utrecht/events/235444678/).
-* [1/12. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [1/18. Rust Cologne: Ruby meets Rust](https://www.meetup.com/RustCologne/events/235877954/).
 * [1/18. Rust LA Monthly Meetup - Hack Night](https://www.meetup.com/Rust-Los-Angeles/events/236735645/).
 * [1/18. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
@@ -148,7 +167,11 @@ Issues in final comment period:
 * [1/25. OpenTechSchool Berlin: Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/236658932/).
 * [1/26. Rust Stockholm: REST in Rust and Rust Hack Night](https://www.meetup.com/ruststhlm/events/236791788/).
 * [1/26. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-
+* [1/28. Rust MX - Rust Meetup in Mexico City](https://www.meetup.com/Rust-MX/events/236642131/).
+* [2/1. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [2/1. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [2/2. Stockholm Google Developer Group - Rust Talk](https://www.meetup.com/Stockholm-Google-Developer-Group/events/236959999/).
+* [2/4 - 2/5: FOSDEM 2017 Belgium - Meeting for Rustaceans](https://fosdem.org/2017/schedule/event/rust_bof/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -168,14 +191,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> This is the first version to have Rust code in it. The public API
-remains unchanged. Apologies in advance to distros who will have to
-adjust their build systems for Rust - it's like taking a one-time
-vaccine; you'll be better off in the end for it.
+> I really hate the phrase "fighting". Calling it a fight doesn't do justice to the conversations you have with the borrow checker when you use Rust every day. You don't fight with the borrow checker, because there isn't a fight to win. It's far more elegant, more precise. It's fencing; you fence with the borrow checker, with ripostes and parries and well-aimed thrusts. And sometimes, you get to the end and you realize you lose anyway because the thing you were trying to do was fundamentally wrong. And it's okay, because it's just fencing, and you're a little wiser, a little better-honed, a little more practiced for your next bout.
 
-— [Federico Mena Quintero announcing librsvg 2.41.0](https://mail.gnome.org/archives/desktop-devel-list/2017-January/msg00001.html).
+— [kaosjester on Hacker News](https://news.ycombinator.com/item?id=13413021).
 
-Thanks to [Zbigniew Siciarz](https://users.rust-lang.org/users/zsiciarz) for the [suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/338).
+Thanks to [Manishearth](https://users.rust-lang.org/users/manishearth) for the [suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/346).
 
 [Submit your quotes for next week][submit]!
 
