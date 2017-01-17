@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Other Weeklies from Rust Community
 
+* [What's coming up in imag (22)](https://beyermatthias.de/blog/2017/01/17/whats-coming-up-in-imag-22/)
+
 # Crate of the Week
 
 This week's Crate of the Week is [alacritty](https://github.com/jwilm/alacritty), an OpenGL-propelled Terminal application. Really fast, nice looking. Missing scrollback. Thanks to Vikrant for the suggestion!
