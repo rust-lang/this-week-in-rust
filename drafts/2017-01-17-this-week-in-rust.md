@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Forensic Tool Development with Rust](http://getreu.net/public/downloads/doc/forensic-tool-development-with-rust/Forensic-Tool%20Development%20with%20Rust.html) [(pdf)](http://getreu.net/public/downloads/doc/forensic-tool-development-with-rust/Forensic-Tool%20Development%20with%20Rust.pdf).
+* [PEG parser combinators using operator overloading without macros](https://github.com/J-F-Liu/pom/blob/master/doc/article.md).
 
 ## Other Weeklies from Rust Community
 
