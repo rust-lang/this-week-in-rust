@@ -34,6 +34,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Rust::from(lang)](https://github.com/mgattozzi/rust-from-lang) is a project to help people transition from other languages to Rust with articles that show how to do something in one language and then how to do it in Rust and comparing the two. You can help by writing examples or request for articles on problems you need help with.
+* [easy] [rust: Removal of the lang feature gate tests whitelist](https://github.com/rust-lang/rust/issues/39059).
 * [rust: Make Rust on wasm + emscripten a reliable, 1st class Rust target](https://github.com/rust-lang/rust/issues/38805).
 * [easy] [rust: Rvalue static promotion](https://github.com/rust-lang/rust/issues/38865).
 * [easy] [Diesel: Refactorings using macros in type position](https://github.com/diesel-rs/diesel/issues/521).
