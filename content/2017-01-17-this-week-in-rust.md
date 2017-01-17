@@ -36,6 +36,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Other Weeklies from Rust Community
 
 * [This week in Rust docs 39](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-39).
+* [This week in Servo 88](https://blog.servo.org/2017/01/16/twis-88/).
 * [This week in Ruma 2017-01-15](https://www.ruma.io/news/this-week-in-ruma-2017-01-15/).
 * [These weeks in Ruru 6](http://this-week-in-ruru.org/2017/01/10/these-weeks-in-ruru-6/).
 * [What's coming up in imag 22](https://beyermatthias.de/blog/2017/01/17/whats-coming-up-in-imag-22/)
