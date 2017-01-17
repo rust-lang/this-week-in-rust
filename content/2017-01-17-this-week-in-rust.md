@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Forensic tool development with Rust](http://getreu.net/public/downloads/doc/forensic-tool-development-with-rust/Forensic-Tool%20Development%20with%20Rust.html) [(pdf)](http://getreu.net/public/downloads/doc/forensic-tool-development-with-rust/Forensic-Tool%20Development%20with%20Rust.pdf).
 * [How to make something public within a crate, but private outside it](http://stackoverflow.com/a/41667202).
 * [Debugging Rust's new Custom Derive system](https://quodlibetor.github.io/posts/debugging-rusts-new-custom-derive-system/).
+* [PEG parser combinators using operator overloading without macros](https://github.com/J-F-Liu/pom/blob/master/doc/article.md).
 * [Announcing Rust Contributors](http://words.steveklabnik.com/announcing-rust-contributors).
 * [Announcing Language team shepherds](https://internals.rust-lang.org/t/language-team-shepherds/4595). Language team is creating a group of _shepherds_, comprising of members of the community with an increased level of trust and responsibility. They will guide discussion on RFCs, mentor RFC authors, and collaborate on improving designs and expositions.
 * [Rust and the limits of swarm design](http://esr.ibiblio.org/?p=7303). Follow-up to - [Rust severely disappoints me](http://esr.ibiblio.org/?p=7294).
@@ -37,6 +38,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Rust docs 39](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-39).
 * [This week in Ruma 2017-01-15](https://www.ruma.io/news/this-week-in-ruma-2017-01-15/).
 * [These weeks in Ruru 6](http://this-week-in-ruru.org/2017/01/10/these-weeks-in-ruru-6/).
+* [What's coming up in imag (22)](https://beyermatthias.de/blog/2017/01/17/whats-coming-up-in-imag-22/)
 
 # Crate of the Week
 
