@@ -63,7 +63,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [allow lint attributes on non-item nodes](https://github.com/rust-lang/rust/pull/38806)
 * [MIR constant promote `fn` arguments correctly](https://github.com/rust-lang/rust/pull/38989)
 * [use little, nbot native endian for Blake2 hashing](https://github.com/rust-lang/rust/pull/38960)
-* [more complete `save-analysis](https://github.com/rust-lang/rust/pull/38937)
+* [more complete `save-analysis`](https://github.com/rust-lang/rust/pull/38937)
 * [unions don't get drop glue](https://github.com/rust-lang/rust/pull/38934)
 * [`impl Display for char::`{`Escape`, `To*Case`}](https://github.com/rust-lang/rust/pull/38909)
 * [cache predecessors for incremental compilation](https://github.com/rust-lang/rust/pull/39020)
