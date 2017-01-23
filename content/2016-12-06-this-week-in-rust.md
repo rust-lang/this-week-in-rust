@@ -27,7 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [WebVR coming to Servo: Architecture and latency optimizations](https://blog.mozvr.com/webvr-servo-architecture-and-latency-optimizations/).
 * [Three bytes and a space: or, Rust bugs, non-compliance, and how I learned to love IRC](https://medium.com/@covabishop/three-bytes-and-a-space-8f9fbd1c669b).
 * [I used to use pointers - now what](https://github.com/diwic/reffers-rs/blob/master/docs/Pointers.md)? Common C pointer patterns, and what to do in Rust instead.
-* [Russian dolls and clean Rust code](https://mgattozzi.com/posts/russian-dolls.html). Replacing nested pattern matching with `and_then`.
+* [Russian dolls and clean Rust code](https://mgattozzi.com/russian-dolls). Replacing nested pattern matching with `and_then`.
 * [24 days of Rust - cargo subcommands](https://siciarz.net/24-days-rust-cargo-subcommands/).
 * [24 days of Rust - structured logging](https://siciarz.net/24-days-rust-structured-logging/).
 * [24 days of Rust - environment variables](https://siciarz.net/24-days-rust-environment-variables/).
