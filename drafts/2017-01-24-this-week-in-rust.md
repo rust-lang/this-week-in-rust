@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Other Weeklies from Rust Community
 
+* [This Month in Zone of Control (2017.01.24)](https://users.rust-lang.org/t/this-month-in-zone-of-control/6993/2). ZoC is a turn-based hexagonal strategy game.
+
 # Crate of the Week
 
 This week's Crate of the Week is [alacritty](https://github.com/jwilm/alacritty), an OpenGL-propelled Terminal application. Really fast, nice looking. Missing scrollback. Thanks to Vikrant for the suggestion!
