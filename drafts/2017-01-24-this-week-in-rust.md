@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's Crate of the Week is [alacritty](https://github.com/jwilm/alacritty), an OpenGL-propelled Terminal application. Really fast, nice looking. Missing scrollback. Thanks to Vikrant for the suggestion!
+Since there were no nominations, this week has to go without a Crate of the Week. Sorry.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -50,26 +50,44 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-119 pull requests were [merged in the last week][merged].
+139 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-01-09..2017-01-16
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-01-16..2017-01-23
 
-* [jemalloc now x86(_64)-only](https://github.com/rust-lang/rust/pull/38675)
-* [actual ranges for `BTree::range(_)`](https://github.com/rust-lang/rust/pull/38610)
-* [better ergonomics for iterators yielding `Result`s](https://github.com/rust-lang/rust/pull/38580)
-* [`use _::{self, ..}` now only imports `self` once](https://github.com/rust-lang/rust/pull/38313) (breaking change)
-* [faster UTF-8 validation](https://github.com/rust-lang/rust/pull/37926)
-* [enable attributes and `cfg` on struct fields](https://github.com/rust-lang/rust/pull/38814)
-* [allow lint attributes on non-item nodes](https://github.com/rust-lang/rust/pull/38806)
-* [MIR constant promote `fn` arguments correctly](https://github.com/rust-lang/rust/pull/38989)
-* [use little, nbot native endian for Blake2 hashing](https://github.com/rust-lang/rust/pull/38960)
-* [more complete `save-analysis`](https://github.com/rust-lang/rust/pull/38937)
-* [unions don't get drop glue](https://github.com/rust-lang/rust/pull/38934)
-* [`impl Display for char::`{`Escape`, `To*Case`}](https://github.com/rust-lang/rust/pull/38909)
-* [cache predecessors for incremental compilation](https://github.com/rust-lang/rust/pull/39020)
-* [`cargo test --doc` now correctly handles dev-dependencies](https://github.com/rust-lang/cargo/pull/3490)
-* [allow specifying numerical debuginfo level](https://github.com/rust-lang/cargo/pull/3534)
-* [`cargo build --all`](https://github.com/rust-lang/cargo/pull/3511), [`cargo doc --all`](https://github.com/rust-lang/cargo/pull/3515)
+* [1.15 release notes](https://github.com/rust-lang/rust/pull/38966)
+* [implement placement-in on `BinaryHeap`](https://github.com/rust-lang/rust/pull/39062)
+* [implement `#[proc_macro_attribute]`](https://github.com/rust-lang/rust/pull/38842) (RFC [#1566](https://github.com/nrc/rfcs/blob/proc-macros/text/0000-proc-macros.md))
+* [`&Void`'s uninhabitedness now feature gated](https://github.com/rust-lang/rust/pull/39151)
+* [fix ICE on `fn f<T: ?for<'a> Sized>() {}`](https://github.com/rust-lang/rust/pull/39138)
+* [warn, not ICE on unreachable patterns](https://github.com/rust-lang/rust/pull/39127)
+* [refactor parser to consume token trees](https://github.com/rust-lang/rust/pull/39118)
+* [merge `ObjectSum` and `PolyTraitRef` in AST/HIR](https://github.com/rust-lang/rust/pull/39110)
+* [rename `ExprKind::Vec` to `Array` in HIR/HAIR](https://github.com/rust-lang/rust/pull/39090)
+* [incremental compilation cleans up more garbage files](https://github.com/rust-lang/rust/pull/39109)
+* [fix UB in test helpers](https://github.com/rust-lang/rust/pull/39095)
+* [fix `u128`/`i128` bugs on big endian systems](https://github.com/rust-lang/rust/pull/39094)
+* [deprecate `#[unsafe_destructor_blind_to_params]`](https://github.com/rust-lang/rust/pull/38970)
+* [highlight code in diagnostics](https://github.com/rust-lang/rust/pull/38955)
+* [fix jemalloc for OS X 10.2](https://github.com/rust-lang/jemalloc/pull/16) [and introduce it in Rust](https://github.com/rust-lang/rust/pull/39166)
+* [fix linker failure on windows](https://github.com/rust-lang/rust/pull/38949)
+* [`Duration` now implements `Sum`](https://github.com/rust-lang/rust/pull/38712)
+* [`rand` types now implement `Debug`](https://github.com/rust-lang/rust/pull/39156)
+* [`IpAddr`s are now comparable to `Ipv`{4, 6}`Addr`s](https://github.com/rust-lang/rust/pull/38464)
+* [epic slice iteration search speedups](https://github.com/rust-lang/rust/pull/37972)
+* [compile rmeta crates faster](https://github.com/rust-lang/rust/pull/39184)
+* [fix regression in parsing trait object types](https://github.com/rust-lang/rust/pull/39179)
+* [remove unused ABIs (`Os`/`Architecture`) from libsyntax](https://github.com/rust-lang/rust/pull/39218)
+* [extra bounds in trait impls are now denied](https://github.com/rust-lang/rust/pull/39195)
+* [lint attributes now work below item level](https://github.com/rust-lang/rust/pull/38806)
+* [better unused `extern crate` and `#[macro_use]` warnings](https://github.com/rust-lang/rust/pull/39060)
+* [building cargo is now reproducible](https://github.com/rust-lang/cargo/pull/3554)
+* [examples can now be libraries](https://github.com/rust-lang/cargo/pull/3556)
+* [procedural macro crates can now be doctested](https://github.com/rust-lang/cargo/pull/3552)
+* [`cargo new` no longer allows numerical named crates](https://github.com/rust-lang/cargo/pull/3542)
+* [`cargo publish` now uploads CI badge information](https://github.com/rust-lang/cargo/pull/3546) so [crates.io can show the badges](https://github.com/rust-lang/crates.io/pull/504)
+* [`cargo publish` now uploads](https://github.com/rust-lang/cargo/pull/3301) the [categories on crates.io](https://github.com/rust-lang/crates.io/pull/488) (Warning: Huge bikeshedding)
+
+And my favorite PR title: ["travis: Move glibc backwards in time"](https://github.com/rust-lang/rust/pull/39198)
 
 ## New Contributors
 
