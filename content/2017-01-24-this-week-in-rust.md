@@ -26,7 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Defining a ‘handshake’ protocol between two traits](https://withoutboats.github.io/blog/rust/patterns/traits/2017/01/21/handshake-patterns.html).
 * [Short intro to C++ for Rust developers: Ownership and borrowing](https://nercury.github.io/c++/intro/2017/01/22/cpp-for-rust-devs.html).
 * [Using the Borrow Checker to make Tic-Tac-Toe safer](https://lukaskalbertodt.github.io/2017/01/20/abusing-borrowck-to-make-tic-tac-toe-safer.html).
-* [servo/rust-bindgen is not the canonical repository for `bindgen` crate](https://www.reddit.com/r/rust/comments/5pr3t9/heads_up_yamakakyrustbindgen_and_servorustbindgen/).
+* [servo/rust-bindgen is now the canonical repository for `bindgen` crate](https://www.reddit.com/r/rust/comments/5pr3t9/heads_up_yamakakyrustbindgen_and_servorustbindgen/).
 * [Categories and CI badges are now available on crates.io](http://www.integer32.com/2017/01/20/categories-and-ci-badges.html).
 
 ## Other Weeklies from Rust Community
