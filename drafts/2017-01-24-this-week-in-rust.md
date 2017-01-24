@@ -16,7 +16,24 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Announcing Rust Language Server alpha release](http://www.jonathanturner.org/2017/01/rls-alpha-release.html). RLS provides a service that runs in the background, providing IDEs, editors, and other tools with information about Rust programs.
+* [Hyper 0.10 is released which no longer depends on OpenSSL](http://seanmonstar.com/post/156128815358/a-hyper-update), and next release [will bring in non-blocking IO support](https://github.com/hyperium/hyper/commit/2d2d5574a698e74e5102d39b9a9ab750860d92d1).
+* [Parallelizing Enjarify in Go and Rust](https://medium.com/@robertgrosse/parallelizing-enjarify-in-go-and-rust-21055d64af7e). Comparing Go and Rust performance in parallelism ([source code](https://github.com/google/enjarify/tree/go)).
+* [Mitigating underhandedness with Clippy](https://manishearth.github.io/blog/2017/01/21/mitigating-underhandedness-clippy/).
+* [Coroutines and Rust](https://users.rust-lang.org/t/coroutines-and-rust/9058).
+* [Text analysis in Rust: Tokenization](http://nitschinger.at/Text-Analysis-in-Rust-Tokenization/).
+* [Assigning blame to unsafe code](http://smallcultfollowing.com/babysteps/blog/2017/01/22/assigning-blame-to-unsafe-code/).
+* [Defining a ‘handshake’ protocol between two traits](https://withoutboats.github.io/blog/rust/patterns/traits/2017/01/21/handshake-patterns.html).
+* [Short intro to C++ for Rust developers: Ownership and borrowing](https://nercury.github.io/c++/intro/2017/01/22/cpp-for-rust-devs.html).
+* [Using the Borrow Checker to make Tic-Tac-Toe safer](https://lukaskalbertodt.github.io/2017/01/20/abusing-borrowck-to-make-tic-tac-toe-safer.html).
+* [servo/rust-bindgen is not the canonical repository for `bindgen` crate](https://www.reddit.com/r/rust/comments/5pr3t9/heads_up_yamakakyrustbindgen_and_servorustbindgen/).
+* [Categories and CI badges are now available on crates.io](http://www.integer32.com/2017/01/20/categories-and-ci-badges.html).
+
 ## Other Weeklies from Rust Community
+
+* [This week in Rust docs 40](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-40).
+* [This week in Remacs 2017-01-19](http://www.wilfred.me.uk/blog/2017/01/19/this-week-in-remacs/).
+* [video] [Ferris makes Emulators 17](https://www.youtube.com/watch?v=0Lq3pj8qxk4): Envelopes and play control.
 
 # Crate of the Week
 
@@ -33,7 +50,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Rust::from(lang)](https://github.com/mgattozzi/rust-from-lang) is a project to help people transition from other languages to Rust with articles that show how to do something in one language and then how to do it in Rust and comparing the two. You can help by writing examples or request for articles on problems you need help with.
 * [easy] [rust: Removal of the lang feature gate tests whitelist](https://github.com/rust-lang/rust/issues/39059).
 * [rust: Make Rust on wasm + emscripten a reliable, 1st class Rust target](https://github.com/rust-lang/rust/issues/38805).
 * [easy] [rust: Rvalue static promotion](https://github.com/rust-lang/rust/issues/38865).
@@ -73,15 +89,20 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Behnam Esfahbod
-* Benjamin Saunders
-* Ben Wiederhake
-* Bjorn Tipling
-* Christopher Armstrong
-* Craig Macomber
-* Djzin
-* Jeff Waugh
-* Tyler Julian
+* Colm Seale
+* Constantin
+* Eijebong
+* gralpli
+* Jack Vickeridge
+* Jacob Wahlgren
+* Josh
+* krdln
+* Lin Clark
+* Martin Hafskjold Thoresen
+* Matthew Dawson
+* Richard S. Imaoka
+* Stephen E. Baker
+* theduke
 
 ## Approved RFCs
 
@@ -89,7 +110,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 1651: Extend `Cell` to work with non-`Copy` types](https://github.com/rust-lang/rfcs/pull/1651).
 
 ## Final Comment Period
 
@@ -100,21 +121,27 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
 * [Allow uncallable method impls to be omitted](https://github.com/rust-lang/rfcs/pull/1699).
-* [Const-dependent type system (also known as, Π-types and value-types)](https://github.com/rust-lang/rfcs/pull/1657).
-* [Extend `Cell` to work with non-`Copy` types](https://github.com/rust-lang/rfcs/pull/1651).
 * [Macros by example 2.0. A replacement for `macro_rules!`](https://github.com/rust-lang/rfcs/pull/1584).
-* [Add syntax for expressing tuples as a head and tail pair, similar to a Lisp cons cell](https://github.com/rust-lang/rfcs/pull/1582).
-* [Allow coercing non-capturing closures to function pointers](https://github.com/rust-lang/rfcs/pull/1558).
 
 ## Closed RFCs
 
 Following proposals were rejected by [the team](https://www.rust-lang.org/team.html) after their 'final comment period' elapsed.
 
-* [Abort by default v2](https://github.com/rust-lang/rfcs/pull/1765). Specify abort-by-default in `Cargo.toml` when the user does `cargo new --bin`, as well as various other refinements to the panick strategy system.
+* [Const-dependent type system (also known as, Π-types and value-types)](https://github.com/rust-lang/rfcs/pull/1657).
+* [Add syntax for expressing tuples as a head and tail pair, similar to a Lisp cons cell](https://github.com/rust-lang/rfcs/pull/1582).
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [Write to standard error with `eprint!` and `eprintln!`](https://github.com/rust-lang/rfcs/pull/1869).
+* [A portability lint](https://github.com/rust-lang/rfcs/pull/1868).
+* [Improve the `assert_eq` failure message formatting to increase legibility](https://github.com/rust-lang/rfcs/pull/1866).
+* [Add official Gitter and Slack channels to compliment our official IRC channels](https://github.com/rust-lang/rfcs/pull/1865).
+* [Add `extern type` declarations for declaring types from external libraries which have an unknown size/layout](https://github.com/rust-lang/rfcs/pull/1861).
+* [Include the `ManuallyDrop` wrapper in `core::mem`](https://github.com/rust-lang/rfcs/pull/1860).
+* [Extend `?` to operate over other types](https://github.com/rust-lang/rfcs/pull/1859).
+* [Add built-in trait `Move` which all existing types will implement. Types which do not implement it cannot move after they have been borrowed](https://github.com/rust-lang/rfcs/pull/1858).
+* [Add metadata to diagnostic messages' json output](https://github.com/rust-lang/rfcs/pull/1855).
+* [Stabilize drop order](https://github.com/rust-lang/rfcs/pull/1857).
 
 ## Style RFCs
 
@@ -135,24 +162,22 @@ Issues in final comment period:
 
 # Upcoming Events
 
-* [1/18. Rust Cologne: Ruby meets Rust](https://www.meetup.com/RustCologne/events/235877954/).
-* [1/18. Rust LA Monthly Meetup - Hack Night](https://www.meetup.com/Rust-Los-Angeles/events/236735645/).
-* [1/18. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [1/18. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [1/19. Rust Paris: Rust meetup #35](https://www.meetup.com/Rust-Paris/events/236727277/).
-* [1/19. GPU enhanced terminals, Counting Votes, and Converting C to Rust](https://www.meetup.com/Rust-Bay-Area/events/236668916/).
-* [1/20. Rust Rhein-Main: Rust Table of Regulars Darmstadt](https://www.meetup.com/de-DE/Rust-Rhein-Main/events/236456912/?eventId=236456912).
-* [1/24. Mozilla Meetup Switzerland: Rust January Meetup @ Coredump.ch](https://www.meetup.com/de-DE/Mozilla-Meetup-Switzerland/events/236277734/?eventId=236277734).
 * [1/25. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [1/25. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [1/25. OpenTechSchool Berlin: Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/236658932/).
 * [1/26. Rust Stockholm: REST in Rust and Rust Hack Night](https://www.meetup.com/ruststhlm/events/236791788/).
 * [1/26. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [1/28. Rust MX - Rust Meetup in Mexico City](https://www.meetup.com/Rust-MX/events/236642131/).
+* [2/1. Rust User Group Cologne - Macros 1.1](http://rust.cologne/2017/02/01/proc-macros.html).
 * [2/1. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [2/1. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [2/2. Stockholm Google Developer Group - Rust Talk](https://www.meetup.com/Stockholm-Google-Developer-Group/events/236959999/).
 * [2/4 - 2/5: FOSDEM 2017 Belgium - Meeting for Rustaceans](https://fosdem.org/2017/schedule/event/rust_bof/).
+* [2/8. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [2/8. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [2/9. Rust Boulder/Denver - Redox OS with Denver Open Source OS](https://www.meetup.com/Rust-Boulder-Denver/events/237016107/).
+* [2/9. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/236907254/).
+* [2/9. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -165,18 +190,17 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 * [Senior backend developer at OneSignal](https://angel.co/onesignal/jobs/128684-senior-backend-developer).
 * [Rust backend developer at 1aim.com](https://news.ycombinator.com/item?id=13302210).
 * [Rust systems programmer at Hadean](https://news.ycombinator.com/item?id=13301893).
-* [Embedded software engineer at ATS](http://advancedtelematic.com/en/careers/embedded-software-engineer.html)
 * [Rust engineer at MaidSafe](https://maidsafe.net/careers.html#rust_engineer)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> I really hate the phrase "fighting". Calling it a fight doesn't do justice to the conversations you have with the borrow checker when you use Rust every day. You don't fight with the borrow checker, because there isn't a fight to win. It's far more elegant, more precise. It's fencing; you fence with the borrow checker, with ripostes and parries and well-aimed thrusts. And sometimes, you get to the end and you realize you lose anyway because the thing you were trying to do was fundamentally wrong. And it's okay, because it's just fencing, and you're a little wiser, a little better-honed, a little more practiced for your next bout.
+> Yeah, it's like learning to dance when your partner [borrow checker] already knows all the steps. When you're just getting started, you step on their toes a lot, but over time you get the motions down. Eventually, you can start to anticipate their movements and start to appreciate the music as part of the dance, instead of just concentrating on getting your feet in the right place.
 
-— [kaosjester on Hacker News](https://news.ycombinator.com/item?id=13413021).
+— [QuietMisdreavus on reddit](https://www.reddit.com/r/rust/comments/5okn5y/this_week_in_rust_165/dcl0vv4/).
 
-Thanks to [Manishearth](https://users.rust-lang.org/users/manishearth) for the [suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/346).
+Thanks to [matthieum for the suggestion](https://www.reddit.com/r/rust/comments/5okn5y/this_week_in_rust_165/dclejnt/).
 
 [Submit your quotes for next week][submit]!
 
