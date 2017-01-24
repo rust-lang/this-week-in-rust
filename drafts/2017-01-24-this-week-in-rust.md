@@ -120,6 +120,12 @@ Following proposals were rejected by [the team](https://www.rust-lang.org/team.h
 
 [Style RFCs](https://github.com/rust-lang-nursery/fmt-rfcs) are part of the process for deciding on style guidelines for the Rust community and defaults for [Rustfmt](https://github.com/rust-lang-nursery/rustfmt). The process is similar to the RFC process, but we try to reach rough consensus on issues (including a final comment period) before progressing to PRs. Just like the RFC process, all users are welcome to comment and submit RFCs. If you want to help decide what Rust code should look like, come get involved!
 
+PRs:
+
+* [match](https://github.com/rust-lang-nursery/fmt-rfcs/pull/56)
+* [type aliases](https://github.com/rust-lang-nursery/fmt-rfcs/pull/55)
+* [structs and unions](https://github.com/rust-lang-nursery/fmt-rfcs/pull/53)
+
 Ready for PR:
 
 There's [a lot of them](https://github.com/rust-lang-nursery/fmt-rfcs/issues?q=is%3Aopen+is%3Aissue+label%3Aready-for-PR) right now, contributions here would be very welcome. If you want advice or help getting started, please ping nrc, or any other member of the style team, in #rust-style.
@@ -127,11 +133,17 @@ There's [a lot of them](https://github.com/rust-lang-nursery/fmt-rfcs/issues?q=i
 Issues in final comment period:
 
 * [Whitespace in associated type syntax](https://github.com/rust-lang-nursery/fmt-rfcs/issues/51).
-* [Against braces always demanding rightward drift](https://github.com/rust-lang-nursery/fmt-rfcs/issues/50).
-* [Disable trailing comma by default](https://github.com/rust-lang-nursery/fmt-rfcs/issues/42).
-* [Conventions for Cargo.toml files (FCP)](https://github.com/rust-lang-nursery/fmt-rfcs/pull/41).
+* [`..` vs `_`](https://github.com/rust-lang-nursery/fmt-rfcs/issues/49).
 * [function declarations](https://github.com/rust-lang-nursery/fmt-rfcs/issues/39).
-* [Customisation of Rustfmt should be allowed](https://github.com/rust-lang-nursery/fmt-rfcs/pull/33).
+* [enum declarations](https://github.com/rust-lang-nursery/fmt-rfcs/issues/31).
+* [generics declarations](https://github.com/rust-lang-nursery/fmt-rfcs/issues/29).
+
+Other significant issues:
+
+* [types](https://github.com/rust-lang-nursery/fmt-rfcs/issues/15)
+* [closures](https://github.com/rust-lang-nursery/fmt-rfcs/issues/35)
+* [where clauses](https://github.com/rust-lang-nursery/fmt-rfcs/issues/38)
+* [`extern` vs `extern "C"`](https://github.com/rust-lang-nursery/fmt-rfcs/issues/52)
 
 # Upcoming Events
 
