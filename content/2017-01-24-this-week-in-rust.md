@@ -35,6 +35,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Remacs 2017-01-19](http://www.wilfred.me.uk/blog/2017/01/19/this-week-in-remacs/).
 * [This month in Zone of Control 2017-01-24](https://users.rust-lang.org/t/this-month-in-zone-of-control/6993/2). ZoC is a turn-based hexagonal strategy game.
 * [video] [Ferris makes Emulators 17](https://www.youtube.com/watch?v=0Lq3pj8qxk4): Envelopes and play control.
+* [This week in Servo 89](https://blog.servo.org/2017/01/23/twis-89/)
 
 # Crate of the Week
 
