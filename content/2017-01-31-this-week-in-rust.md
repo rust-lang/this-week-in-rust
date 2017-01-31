@@ -16,7 +16,22 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [An overview of macros in Rust](http://words.steveklabnik.com/an-overview-of-macros-in-rust).
+* [Lowering Rust traits to logic](http://smallcultfollowing.com/babysteps/blog/2017/01/26/lowering-rust-traits-to-logic/).
+* [Lazy initialization in Rust](http://blog.kylehuey.com/post/156464146312/lazy-initialization-in-rust).
+* [How-to optimize Rust programs on Linux](https://jbendig.github.io/fix-rs/2017/01/24/how-to-optimize-rust-programs-on-linux/).
+* [A guide to porting C/C++ to Rust](https://locka99.gitbooks.io/a-guide-to-porting-c-to-rust/content/).
+* [Building high performance REST APIs with Rust and Rocket](https://github.com/sebasmagri/rocket-loadavg-api/blob/master/README.md).
+* [Building an asynchronous Hyper server](https://mgattozzi.com/hyper-async).
+* [The struggle with Rust](https://ayende.com/blog/176801/the-struggle-with-rust).
+* [Setting expectations for Rust's difficulty](http://www.suspectsemantics.com/blog/2017/01/26/setting-expectations-for-rusts-difficulty/).
+* [Initial Rust support has landed in Apache Thrift](https://www.reddit.com/r/rust/comments/5qbhat/announcement_initial_rust_support_for_thrift/).
+* [Serde 0.9.0](https://github.com/serde-rs/serde/releases/tag/v0.9.0) and [serde_json 0.9.0](https://github.com/serde-rs/json/releases/tag/v0.9.0) released with redesigned error-reporting API, better no_std support, a `json!` macro, and some important breaking changes.
+
 ## Other Weeklies from Rust Community
+
+* [This week in Rust docs 41](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-41).
+* [video] [Ferris makes Emulators 18](https://www.youtube.com/watch?v=CsQ9WOiHcUQ): Sweep and Mod.
 
 # Crate of the Week
 
@@ -33,15 +48,15 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [rust: Removal of the lang feature gate tests whitelist](https://github.com/rust-lang/rust/issues/39059).
-* [rust: Make Rust on wasm + emscripten a reliable, 1st class Rust target](https://github.com/rust-lang/rust/issues/38805).
-* [easy] [rust: Rvalue static promotion](https://github.com/rust-lang/rust/issues/38865).
+* [kafka-rust: Parallel communication to brokers](https://github.com/spicavigo/kafka-rust/issues/63).
+* [kafka-rust: Integration testing](https://github.com/spicavigo/kafka-rust/issues/138).
+* [easy] [clippy: Lint for redundant cast](https://github.com/Manishearth/rust-clippy/issues/1497).
+* [easy] [clippy: Exclude self-by-value trait methods implemented on Box<T> from boxed_local](https://github.com/Manishearth/rust-clippy/issues/1478).
+* [easy] [clippy: Writing out a `&Box<T>` type](https://github.com/Manishearth/rust-clippy/issues/1480).
+* [easy] [clippy: Lint on method/struct fields sharing the same name](https://github.com/Manishearth/rust-clippy/issues/1481).
 * [easy] [Diesel: Refactorings using macros in type position](https://github.com/diesel-rs/diesel/issues/521).
-* [easy] [Diesel: Deny missing docs](https://github.com/diesel-rs/diesel/issues/563).
 * [android-rs-glue: Add more arguments and use clap to parse the arguments](https://github.com/tomaka/android-rs-glue/issues/115).
 * [tokei: Add package repositories](https://github.com/Aaronepower/tokei/issues/92).
-* [RustCrypto/hashes: Missing hash functions](https://github.com/RustCrypto/hashes/issues/1).
-* [RustCrypto/block-ciphers: Missing block ciphers](https://github.com/RustCrypto/block-ciphers/issues/1).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -80,20 +95,14 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Colm Seale
-* Constantin
-* Eijebong
-* gralpli
-* Jack Vickeridge
-* Jacob Wahlgren
-* Josh
-* krdln
-* Lin Clark
-* Martin Hafskjold Thoresen
-* Matthew Dawson
-* Richard S. Imaoka
-* Stephen E. Baker
-* theduke
+* Caleb Reach
+* Collin J. Sutton
+* Denis Andrejew
+* Ömer Sinan Ağacan
+* Raphael Das Gupta
+* Segev Finer
+* Tatsuyuki Ishi
+* Zack Weinberg
 
 ## Approved RFCs
 
@@ -101,7 +110,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1651: Extend `Cell` to work with non-`Copy` types](https://github.com/rust-lang/rfcs/pull/1651).
+* [RFC 1584: Macros by example 2.0. A replacement for `macro_rules!`](https://github.com/rust-lang/rfcs/pull/1584).
 
 ## Final Comment Period
 
@@ -111,28 +120,21 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
+* [Rust bookshelf](https://github.com/rust-lang/rfcs/pull/1828). Create a "Rust Bookshelf" of learning resources for Rust.
+* [Variant types and untagged enums](https://github.com/rust-lang/rfcs/pull/1450).
 * [Allow uncallable method impls to be omitted](https://github.com/rust-lang/rfcs/pull/1699).
-* [Macros by example 2.0. A replacement for `macro_rules!`](https://github.com/rust-lang/rfcs/pull/1584).
 
 ## Closed RFCs
 
 Following proposals were rejected by [the team](https://www.rust-lang.org/team.html) after their 'final comment period' elapsed.
 
-* [Const-dependent type system (also known as, Π-types and value-types)](https://github.com/rust-lang/rfcs/pull/1657).
-* [Add syntax for expressing tuples as a head and tail pair, similar to a Lisp cons cell](https://github.com/rust-lang/rfcs/pull/1582).
+*No RFCs were closed this week!*
 
 ## New RFCs
 
-* [Write to standard error with `eprint!` and `eprintln!`](https://github.com/rust-lang/rfcs/pull/1869).
-* [A portability lint](https://github.com/rust-lang/rfcs/pull/1868).
-* [Improve the `assert_eq` failure message formatting to increase legibility](https://github.com/rust-lang/rfcs/pull/1866).
-* [Add official Gitter and Slack channels to compliment our official IRC channels](https://github.com/rust-lang/rfcs/pull/1865).
-* [Add `extern type` declarations for declaring types from external libraries which have an unknown size/layout](https://github.com/rust-lang/rfcs/pull/1861).
-* [Include the `ManuallyDrop` wrapper in `core::mem`](https://github.com/rust-lang/rfcs/pull/1860).
-* [Extend `?` to operate over other types](https://github.com/rust-lang/rfcs/pull/1859).
-* [Add built-in trait `Move` which all existing types will implement. Types which do not implement it cannot move after they have been borrowed](https://github.com/rust-lang/rfcs/pull/1858).
-* [Add metadata to diagnostic messages' json output](https://github.com/rust-lang/rfcs/pull/1855).
-* [Stabilize drop order](https://github.com/rust-lang/rfcs/pull/1857).
+* [Fix the handling of uninhabited types in pattern matching](https://github.com/rust-lang/rfcs/pull/1872).
+* [Add `SafeDeref` and `SafeDerefMut`, equivalent to `Deref` and `DerefMut` but which are guaranteed to always return the same object](https://github.com/rust-lang/rfcs/pull/1873).
+* [Allow `extern crate` to take a list of crates](https://github.com/rust-lang/rfcs/pull/1875).
 
 ## Style RFCs
 
@@ -165,22 +167,22 @@ Other significant issues:
 
 # Upcoming Events
 
-* [1/25. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [1/25. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [1/25. OpenTechSchool Berlin: Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/236658932/).
-* [1/26. Rust Stockholm: REST in Rust and Rust Hack Night](https://www.meetup.com/ruststhlm/events/236791788/).
-* [1/26. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [1/28. Rust MX - Rust Meetup in Mexico City](https://www.meetup.com/Rust-MX/events/236642131/).
 * [2/1. Rust User Group Cologne - Macros 1.1](http://rust.cologne/2017/02/01/proc-macros.html).
 * [2/1. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [2/1. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [2/2. TupperRust - Lyon, France](http://www.agendadulibre.org/events/12769).
 * [2/2. Stockholm Google Developer Group - Rust Talk](https://www.meetup.com/Stockholm-Google-Developer-Group/events/236959999/).
 * [2/4 - 2/5: FOSDEM 2017 Belgium - Meeting for Rustaceans](https://fosdem.org/2017/schedule/event/rust_bof/).
 * [2/8. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [2/8. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [2/9. Rust Bay Area: Security and Crypto with RustTLS and Macaroons](https://www.meetup.com/Rust-Bay-Area/events/237115024/).
 * [2/9. Rust Boulder/Denver - Redox OS with Denver Open Source OS](https://www.meetup.com/Rust-Boulder-Denver/events/237016107/).
 * [2/9. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/236907254/).
 * [2/9. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [2/13. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/236811856/).
+* [2/15. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [2/15. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [2/16. Rust DC Learn + Try: clap.rs](https://www.meetup.com/RustDC/events/236719329/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -190,10 +192,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Senior backend developer at OneSignal](https://angel.co/onesignal/jobs/128684-senior-backend-developer).
-* [Rust backend developer at 1aim.com](https://news.ycombinator.com/item?id=13302210).
-* [Rust systems programmer at Hadean](https://news.ycombinator.com/item?id=13301893).
-* [Rust engineer at MaidSafe](https://maidsafe.net/careers.html#rust_engineer)
+* [Postdoc positions for RustBelt project](http://lists.seas.upenn.edu/pipermail/types-announce/2017/006485.html) at MPI-SWS.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
@@ -203,11 +202,11 @@ Three day Rust course at [LinuxHotel](http://www.linuxhotel.de/kurs/rust/). (Ger
 
 # Quote of the Week
 
-> Yeah, it's like learning to dance when your partner [borrow checker] already knows all the steps. When you're just getting started, you step on their toes a lot, but over time you get the motions down. Eventually, you can start to anticipate their movements and start to appreciate the music as part of the dance, instead of just concentrating on getting your feet in the right place.
+> Clippy is for those of you who have become desensitized to the constant whining of the Rust compiler and need a higher dosage of whininess to be kept on their toes. Clippy is for those perfectionists amongst you who want to know every minute thing wrong with their code so that they can fix it. But really, Clippy is for everyone.
 
-— [QuietMisdreavus on reddit](https://www.reddit.com/r/rust/comments/5okn5y/this_week_in_rust_165/dcl0vv4/).
+— [Manishearth in a blog post](https://manishearth.github.io/blog/2017/01/21/mitigating-underhandedness-clippy/).
 
-Thanks to [matthieum for the suggestion](https://www.reddit.com/r/rust/comments/5okn5y/this_week_in_rust_165/dclejnt/).
+Thanks to [Johan Sigfrids for the suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/348).
 
 [Submit your quotes for next week][submit]!
 
