@@ -31,6 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Other Weeklies from Rust Community
 
 * [This week in Rust docs 41](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-41).
+* [This Week in Servo 90](https://blog.servo.org/2017/01/30/twis-90/).
 * [video] [Ferris makes Emulators 18](https://www.youtube.com/watch?v=CsQ9WOiHcUQ): Sweep and Mod.
 
 # Crate of the Week
