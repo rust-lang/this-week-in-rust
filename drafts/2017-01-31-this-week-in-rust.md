@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-Since there were no nominations, this week has to go without a Crate of the Week. Sorry.
+This week's crate of the week is [tantivy](https://crates.io/crates/tantivy), a full text search engine, akin to Lucene. Thanks to [Jos van den Oever](https://users.rust-lang.org/users/vandenoever) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -49,44 +49,34 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-139 pull requests were [merged in the last week][merged].
+103 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-01-16..2017-01-23
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-01-23..2017-01-30
 
-* [1.15 release notes](https://github.com/rust-lang/rust/pull/38966)
-* [implement placement-in on `BinaryHeap`](https://github.com/rust-lang/rust/pull/39062)
-* [implement `#[proc_macro_attribute]`](https://github.com/rust-lang/rust/pull/38842) (RFC [#1566](https://github.com/nrc/rfcs/blob/proc-macros/text/0000-proc-macros.md))
-* [`&Void`'s uninhabitedness now feature gated](https://github.com/rust-lang/rust/pull/39151)
-* [fix ICE on `fn f<T: ?for<'a> Sized>() {}`](https://github.com/rust-lang/rust/pull/39138)
-* [warn, not ICE on unreachable patterns](https://github.com/rust-lang/rust/pull/39127)
-* [refactor parser to consume token trees](https://github.com/rust-lang/rust/pull/39118)
-* [merge `ObjectSum` and `PolyTraitRef` in AST/HIR](https://github.com/rust-lang/rust/pull/39110)
-* [rename `ExprKind::Vec` to `Array` in HIR/HAIR](https://github.com/rust-lang/rust/pull/39090)
-* [incremental compilation cleans up more garbage files](https://github.com/rust-lang/rust/pull/39109)
-* [fix UB in test helpers](https://github.com/rust-lang/rust/pull/39095)
-* [fix `u128`/`i128` bugs on big endian systems](https://github.com/rust-lang/rust/pull/39094)
-* [deprecate `#[unsafe_destructor_blind_to_params]`](https://github.com/rust-lang/rust/pull/38970)
-* [highlight code in diagnostics](https://github.com/rust-lang/rust/pull/38955)
-* [fix jemalloc for OS X 10.2](https://github.com/rust-lang/jemalloc/pull/16) [and introduce it in Rust](https://github.com/rust-lang/rust/pull/39166)
-* [fix linker failure on windows](https://github.com/rust-lang/rust/pull/38949)
-* [`Duration` now implements `Sum`](https://github.com/rust-lang/rust/pull/38712)
-* [`rand` types now implement `Debug`](https://github.com/rust-lang/rust/pull/39156)
-* [`IpAddr`s are now comparable to `Ipv`{4, 6}`Addr`s](https://github.com/rust-lang/rust/pull/38464)
-* [epic slice iteration search speedups](https://github.com/rust-lang/rust/pull/37972)
-* [compile rmeta crates faster](https://github.com/rust-lang/rust/pull/39184)
-* [fix regression in parsing trait object types](https://github.com/rust-lang/rust/pull/39179)
-* [remove unused ABIs (`Os`/`Architecture`) from libsyntax](https://github.com/rust-lang/rust/pull/39218)
-* [extra bounds in trait impls are now denied](https://github.com/rust-lang/rust/pull/39195)
-* [lint attributes now work below item level](https://github.com/rust-lang/rust/pull/38806)
-* [better unused `extern crate` and `#[macro_use]` warnings](https://github.com/rust-lang/rust/pull/39060)
-* [building cargo is now reproducible](https://github.com/rust-lang/cargo/pull/3554)
-* [examples can now be libraries](https://github.com/rust-lang/cargo/pull/3556)
-* [procedural macro crates can now be doctested](https://github.com/rust-lang/cargo/pull/3552)
-* [`cargo new` no longer allows numerical named crates](https://github.com/rust-lang/cargo/pull/3542)
-* [`cargo publish` now uploads CI badge information](https://github.com/rust-lang/cargo/pull/3546) so [crates.io can show the badges](https://github.com/rust-lang/crates.io/pull/504)
-* [`cargo publish` now uploads](https://github.com/rust-lang/cargo/pull/3301) the [categories on crates.io](https://github.com/rust-lang/crates.io/pull/488) (Warning: Huge bikeshedding)
-
-And my favorite PR title: ["travis: Move glibc backwards in time"](https://github.com/rust-lang/rust/pull/39198)
+* [stabilizations for the 1.16.0 release](https://github.com/rust-lang/rust/pull/39307)
+* [stabilize `Self` and associated types in struct exprs and patterns](https://github.com/rust-lang/rust/pull/39282)
+* [`Self` in impl headers](https://github.com/rust-lang/rust/pull/38920) (Partially implements RFC [#1647](https://github.com/rust-lang/rfcs/blob/master/text/1647-allow-self-in-where-clauses.md))
+* [More lenient bounds parsing](https://github.com/rust-lang/rust/pull/39158) (to ease macros writing)
+* [add `std::process::Command::envs(_)`](https://github.com/rust-lang/rust/pull/38856)
+* [`impl ToSocketAddrs for String`](https://github.com/rust-lang/rust/pull/39048)
+* [binary ops will now note invalid double refs](https://github.com/rust-lang/rust/pull/38617)
+* [remove frequently wrong "add lifetime parameter" suggestion](https://github.com/rust-lang/rust/pull/37057)
+* [remove obsolete `Reflect` trait](https://github.com/rust-lang/rust/pull/39075)
+* [remove recursive `PartialEq` impl](https://github.com/rust-lang/rust/pull/39380)
+* [fix another endianness issue with 128 bit integers](https://github.com/rust-lang/rust/pull/39332)
+* [use `__SIZEOF__INT128__` to detect 128 bit integer support](https://github.com/rust-lang/rust/pull/39350)
+* [fix parsing inconsistency with `return`](https://github.com/rust-lang/rust/pull/39335)
+* [`x..y` exclusive range patterns](https://github.com/rust-lang/rust/pull/35712)
+* [fix ICE when unprettying MIR](https://github.com/rust-lang/rust/pull/39311)
+* [`tcx.map` is now `tcx.hir`](https://github.com/rust-lang/rust/pull/39309) (possibly plugin-breaking)
+* [make lifetime elision syntactic](https://github.com/rust-lang/rust/pull/39305)
+* [remove temporary lifetime extension borrow hints](https://github.com/rust-lang/rust/pull/39066)
+* [`save-analysis` now visits paths explicitly](https://github.com/rust-lang/rust/pull/39286)
+* [`save-analysis`: ICE after error averted](https://github.com/rust-lang/rust/pull/39285)
+* [`cfg-mods` option to parse `cfg`d out modules](https://github.com/rust-lang/rust/pull/39145)
+* [hide more internal symbols](https://github.com/rust-lang/rust/pull/39252)
+* [make incremental compilation cross-crate-tracking optional](https://github.com/rust-lang/rust/pull/39281)
+* [improve cargo error message on different dependency source paths](https://github.com/rust-lang/cargo/pull/3593)
 
 ## New Contributors
 
