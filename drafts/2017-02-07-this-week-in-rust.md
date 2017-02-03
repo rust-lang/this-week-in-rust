@@ -193,6 +193,16 @@ to the Rust Project, its ecosystem, and its community. These people are
 
 This week's friends of the forest are:
 
+* From [jer]:
+
+> I'd like to nominate [colin_kiegel] and [florob]. Both are co-organizers at the
+> monthly [rust.cologne] meetup, keeping it running all the time.
+
+[jer]: https://github.com/badboy
+[colin_kiegel]: https://users.rust-lang.org/users/colin_kiegel/activity
+[florob]: https://users.rust-lang.org/users/florob/activity
+[rust.cologne]: http://rust.cologne/
+
 * From [brson]:
 
 > A few months ago [Yamakaky] pinged me and offered to help maintain
@@ -202,7 +212,7 @@ This week's friends of the forest are:
 > appreciate @Yamakaky, Friend of the Forest. Thanks, @Yamakaky!
 
 [brson]: https://github.com/brson
-[yamakaky]: https://users.rust-lang.org/users/yamakaky/activity
+[Yamakaky]: https://github.com/Yamakaky
 [error-chain]: https://github.com/brson/error-chain
 
 # Quote of the Week
