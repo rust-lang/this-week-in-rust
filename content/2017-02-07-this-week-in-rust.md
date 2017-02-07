@@ -29,6 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Benchmarking Paillier encryption in Rust, C, and more languages](https://medium.com/snips-ai/benchmarking-paillier-encryption-15631a0b5ad8).
 * [Rust on Teensy part 2: Sending a message](https://branan.github.io/teensy/2017/01/28/uart.html). PJRC Teensy is a USB-based microcontroller development system.
 * [This week in Rust docs 42](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-42).
+* [This week in Servo 91](https://blog.servo.org/2017/02/06/twis-91/)
 * [video] [Ferris makes Emulators 19](https://www.youtube.com/watch?v=bhokkyhFcKQ): Sweep and Mod 2.
 
 # Crate of the Week
