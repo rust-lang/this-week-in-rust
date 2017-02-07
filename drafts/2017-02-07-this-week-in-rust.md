@@ -185,6 +185,36 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 Three day Rust course at [LinuxHotel](http://www.linuxhotel.de/kurs/rust/). (German)
 
+# Friends of the Forest
+
+Our community likes to recognize people who have made outstanding contributions
+to the Rust Project, its ecosystem, and its community. These people are
+'friends of the forest'.
+
+This week's friends of the forest are:
+
+* From [jer]:
+
+> I'd like to nominate [colin_kiegel] and [florob]. Both are co-organizers at the
+> monthly [rust.cologne] meetup, keeping it running all the time.
+
+[jer]: https://github.com/badboy
+[colin_kiegel]: https://users.rust-lang.org/users/colin_kiegel/activity
+[florob]: https://users.rust-lang.org/users/florob/activity
+[rust.cologne]: http://rust.cologne/
+
+* From [brson]:
+
+> A few months ago [Yamakaky] pinged me and offered to help maintain
+> [error-chain]. I eagerly dumped all maintenence duties on them, and since then
+> they have made the code more elegant, dealt with all issue and pull request
+> triage, and made the releases. If you've appreciated error-chain lately,
+> appreciate @Yamakaky, Friend of the Forest. Thanks, @Yamakaky!
+
+[brson]: https://github.com/brson
+[Yamakaky]: https://github.com/Yamakaky
+[error-chain]: https://github.com/brson/error-chain
+
 # Quote of the Week
 
 > Clippy is for those of you who have become desensitized to the constant whining of the Rust compiler and need a higher dosage of whininess to be kept on their toes. Clippy is for those perfectionists amongst you who want to know every minute thing wrong with their code so that they can fix it. But really, Clippy is for everyone.
