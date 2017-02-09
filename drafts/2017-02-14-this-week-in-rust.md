@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [task-hookrs 0.3.0 was released](https://github.com/matthiasbeyer/task-hookrs/) task-hookrs is a library for writing [taskwarrior](https://taskwarrior.org/) hooks and reading taskwarrior exported JSON ([blog post](https://beyermatthias.de/blog/2017/02/09/task-hookrs-0-3-0/))
 
 # Crate of the Week
 
