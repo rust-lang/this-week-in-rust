@@ -135,21 +135,18 @@ PRs:
 * [type aliases](https://github.com/rust-lang-nursery/fmt-rfcs/pull/55)
 * [structs and unions](https://github.com/rust-lang-nursery/fmt-rfcs/pull/53)
 
-Ready for PR:
-
-There's [a lot of them](https://github.com/rust-lang-nursery/fmt-rfcs/issues?q=is%3Aopen+is%3Aissue+label%3Aready-for-PR) right now, contributions here would be very welcome. If you want advice or help getting started, please ping nrc, or any other member of the style team, in #rust-style.
-
 Issues in final comment period:
 
+* [`extern` vs `extern "C"`](https://github.com/rust-lang-nursery/fmt-rfcs/issues/52)
 * [Whitespace in associated type syntax](https://github.com/rust-lang-nursery/fmt-rfcs/issues/51).
-* [function declarations](https://github.com/rust-lang-nursery/fmt-rfcs/issues/39).
+* [types](https://github.com/rust-lang-nursery/fmt-rfcs/issues/15)
+* [closures](https://github.com/rust-lang-nursery/fmt-rfcs/issues/35)
 
 Other significant issues:
 
-* [types](https://github.com/rust-lang-nursery/fmt-rfcs/issues/15)
-* [closures](https://github.com/rust-lang-nursery/fmt-rfcs/issues/35)
+* [ranges](https://github.com/rust-lang-nursery/fmt-rfcs/issues/60)
 * [where clauses](https://github.com/rust-lang-nursery/fmt-rfcs/issues/38)
-* [`extern` vs `extern "C"`](https://github.com/rust-lang-nursery/fmt-rfcs/issues/52)
+
 
 # Upcoming Events
 
