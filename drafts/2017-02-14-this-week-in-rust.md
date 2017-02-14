@@ -150,7 +150,7 @@ Other significant issues:
 * [2/22. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [2/22. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [2/23. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [2/24. Crate Polishing Worksgop, Darmstadt/Germany[(https://www.meetup.com/Rust-Rhein-Main/events/237509289/)
+* [2/24. Crate Polishing Workshop, Darmstadt/Germany](https://www.meetup.com/Rust-Rhein-Main/events/237509289/).
 * [3/31. Underhanded Rust Contest Submission Deadline](https://underhanded.rs/blog/2016/12/15/underhanded-rust.en-US.html)
 
 If you are running a Rust event please add it to the [calendar] to get
