@@ -19,7 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate of the week is [djangohashers](https://crates.io/crates/djangohashers), a Rust port of Django's password primitives. Thanks to [Ronaldo Ferreira](https://users.rust-lang.org/users/Racum) for the suggestion!
+This week's crate of the week is [derive_builder](https://crates.io/crates/derive_builder), a Rust port of Django's password primitives. Thanks to [Willi Kappler](https://users.rust-lang.org/users/willi_kappler) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -48,38 +48,22 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-144 pull requests were [merged in the last week][merged].
+153 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-01-30..2017-02-06
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-02-06..2017-02-13
 
-* [Fix `IntoIter::as_mut_slice` signature](https://github.com/rust-lang/rust/pull/39466) (this made stable [1.15.1](https://github.com/rust-lang/rust-www/pull/712),
-see [release notes](https://github.com/rust-lang/rust/pull/39517))
-* [`Cell` for non-`Copy` types](https://github.com/rust-lang/rust/pull/39287) (implements RFC [#1651](https://github.com/rust-lang/rfcs/blob/master/text/1651-movecell.md))
-* [implement `kind="static-nobundle"`](https://github.com/rust-lang/rust/pull/38426) (implements RFC [#1717](https://github.com/rust-lang/rfcs/blob/master/text/1717-dllimport.md))
-* [`Option::get_or_insert`(`_with`)`()`](https://github.com/rust-lang/rust/pull/39289)
-* [`Iterator::rfind(_)`](https://github.com/rust-lang/rust/pull/39399)
-* [make `format!` use `String::with_capacity(_)`](https://github.com/rust-lang/rust/pull/39356)
-* [branchless `.filter().count()`](https://github.com/rust-lang/rust/pull/39107)
-* [specialize `ToString` for `String`, `Cow<str>`](https://github.com/rust-lang/rust/pull/39440)
-* [slightly faster `slice::sort()`](https://github.com/rust-lang/rust/pull/39538) (remember that it got a massive speedup recently?)
-* [`FileDesc::set_`{`nonblocking`, `cloexec`} use less syscalls](https://github.com/rust-lang/rust/pull/39514)
-* [128-bit atomics](https://github.com/rust-lang/rust/pull/38959)
-* [fix `TryFrom`/`TryInto` for 128-bit integers](https://github.com/rust-lang/rust/pull/39408)
-* [better error message when adding two `&str`s](https://github.com/rust-lang/rust/pull/39116)
-* [better error message on unknown derives](https://github.com/rust-lang/rust/pull/39444)
-* [rustc no longer suggests things that don't exist](https://github.com/rust-lang/rust/pull/39443)
-* [rustc notes lints by name that were activated by group](https://github.com/rust-lang/rust/pull/38103)
-* [minimize dependency graph on incremental compilation](https://github.com/rust-lang/rust/pull/39424)
-* [save-analysis more carefully generates paths](https://github.com/rust-lang/rust/pull/39453)
-* [fix uninhabited `while let` patterns](https://github.com/rust-lang/rust/pull/39526)
-* [warn about default diverging types](https://github.com/rust-lang/rust/pull/39009)
-* [fix uninitialized variable in libbacktrace](https://github.com/rust-lang/rust/pull/39509)
-* [disable FPO on `i686-pc-windows-gnu` targets](https://github.com/rust-lang/rust/pull/39379) (fixes backtraces)
-* [rustdoc now works with non-feature crate attrs](https://github.com/rust-lang/rust/pull/38161)
-* [cargo no longer leaks job](https://github.com/rust-lang/cargo/pull/3621)
-* [cargo now works with new `rustdoc --test` output](https://github.com/rust-lang/cargo/pull/3616)
-* [cargo now searches path dependencies of workspace members](https://github.com/rust-lang/cargo/pull/3562)
-* [crates.io now supports gitlab CI badges](https://github.com/rust-lang/crates.io/pull/539)
+* [ICE when mutably accessing immutable enum fixed](https://github.com/rust-lang/rust/pull/39602)
+* [early-bind return type-only lifetimes](https://github.com/rust-lang/rust/pull/38897)
+* [structured `repr` representation](https://github.com/rust-lang/rust/pull/39595)
+* [simplified MIR conditional branching](https://github.com/rust-lang/rust/pull/39456)
+* [stabilized static lifetimes in statics](https://github.com/rust-lang/rust/pull/39265) ([RFC #1623](https://github.com/rust-lang/rfcs/blob/master/text/1623-static.md))
+* [`impl From<(I: Into<IpAddr>, u16)> for `{`SocketAddr`, `IpAddr`}](https://github.com/rust-lang/rust/pull/39372)
+* [`impl Default for PathBuf`](https://github.com/rust-lang/rust/pull/38764)
+* [specialize `PartialOrd<A> for [A] where A: Ord`](https://github.com/rust-lang/rust/pull/39642)
+* [leak, address, memory & thread sanitizer support](https://github.com/rust-lang/rust/pull/38699)
+* [compile rust data structures to Android](https://github.com/rust-lang/rust/pull/39724)
+* [`cargo` now assumes `build.rs` is a build script](https://github.com/rust-lang/cargo/pull/3664)
+* [`cargo` can now require features for `bin`s](https://github.com/rust-lang/cargo/pull/3667)
 
 ## New Contributors
 
@@ -166,6 +150,7 @@ Other significant issues:
 * [2/22. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [2/22. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [2/23. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [2/24. Crate Polishing Workshop, Darmstadt/Germany](https://www.meetup.com/Rust-Rhein-Main/events/237509289/).
 * [3/31. Underhanded Rust Contest Submission Deadline](https://underhanded.rs/blog/2016/12/15/underhanded-rust.en-US.html)
 
 If you are running a Rust event please add it to the [calendar] to get
