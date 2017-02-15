@@ -32,7 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate of the week is [derive_builder](https://crates.io/crates/derive_builder), a Rust port of Django's password primitives. Thanks to [Willi Kappler](https://users.rust-lang.org/users/willi_kappler) for the suggestion!
+This week's crate of the week is [derive_builder](https://crates.io/crates/derive_builder), automatically implement the builder pattern for arbitrary structs. Now with macro 1.1 support (custom derive since Rust 1.15). Thanks to [Willi Kappler](https://users.rust-lang.org/users/willi_kappler) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
