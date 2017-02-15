@@ -1,6 +1,6 @@
-Title: This Week in Rust 169
-Number: 169
-Date: 2017-02-14
+Title: This Week in Rust 170
+Number: 170
+Date: 2017-02-21
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -15,20 +15,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.15.1](https://blog.rust-lang.org/2017/02/09/Rust-1.15.1.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
-* [rustc compiler team design sprint -- summary](http://smallcultfollowing.com/babysteps/blog/2017/02/12/compiler-design-sprint-summary/).
-* [Specialization, coherence, and API evolution](https://aturon.github.io/blog/2017/02/06/specialization-and-coherence/).
-* [Safer microcontrollers almost here](http://dylanmckay.io/blog/rust/avr/llvm/2017/02/09/safer-microcontrollers-almost-here.html). Rust on AVR microcontrollers.
-* [Optimizing Rc memory usage in Rust](https://medium.com/@robertgrosse/optimizing-rc-memory-usage-in-rust-6652de9e119e).
-* [Content aware image resizing in Rust](https://mht.technology/post/content-aware-resize/).
-* [How to sanitize your Rust code](https://users.rust-lang.org/t/howto-sanitize-your-rust-code/9378).
-* [Safe Elixir and Erlang NIFs in Rust with Rustlr](http://hansihe.com/2017/02/05/rustler-safe-erlang-elixir-nifs-in-rust.html).
-* [Buffers in Rust](http://rust.fastmail.com.user.fm/2017/02/rusty-buffers/).
-* [What Elm and Rust teach us about the Future](https://dev.to/martincerny/what-elm-and-rust-teach-us-about-the-future).
-* [Chrono 0.3 released, and the future](https://users.rust-lang.org/t/chrono-0-3-released-and-the-future/9340).
-* [This week in Rust docs 43](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-43).
-* [This week in Servo 92](https://blog.servo.org/2017/02/13/twis-92/).
 
 # Crate of the Week
 
