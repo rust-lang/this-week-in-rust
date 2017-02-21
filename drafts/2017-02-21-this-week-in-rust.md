@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate of the week is [derive_builder](https://crates.io/crates/derive_builder), a Rust port of Django's password primitives. Thanks to [Willi Kappler](https://users.rust-lang.org/users/willi_kappler) for the suggestion!
+This week's crate of the week is [CDRS](https://crates.io/crates/cdrs), a client for Apache Cassandra written completely in Rust. Thanks to [Alex Pikalov](https://users.rust-lang.org/users/AlexPikalov) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -52,23 +52,28 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-153 pull requests were [merged in the last week][merged].
+107 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-02-06..2017-02-13
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-02-13..2017-02-20
 
-* [Delete the makefile build system](https://github.com/rust-lang/rust/pull/39431).
-* [ICE when mutably accessing immutable enum fixed](https://github.com/rust-lang/rust/pull/39602)
-* [early-bind return type-only lifetimes](https://github.com/rust-lang/rust/pull/38897)
-* [structured `repr` representation](https://github.com/rust-lang/rust/pull/39595)
-* [simplified MIR conditional branching](https://github.com/rust-lang/rust/pull/39456)
-* [stabilized static lifetimes in statics](https://github.com/rust-lang/rust/pull/39265) ([RFC #1623](https://github.com/rust-lang/rfcs/blob/master/text/1623-static.md))
-* [`impl From<(I: Into<IpAddr>, u16)> for `{`SocketAddr`, `IpAddr`}](https://github.com/rust-lang/rust/pull/39372)
-* [`impl Default for PathBuf`](https://github.com/rust-lang/rust/pull/38764)
-* [specialize `PartialOrd<A> for [A] where A: Ord`](https://github.com/rust-lang/rust/pull/39642)
-* [leak, address, memory & thread sanitizer support](https://github.com/rust-lang/rust/pull/38699)
-* [compile rust data structures to Android](https://github.com/rust-lang/rust/pull/39724)
-* [`cargo` now assumes `build.rs` is a build script](https://github.com/rust-lang/cargo/pull/3664)
-* [`cargo` can now require features for `bin`s](https://github.com/rust-lang/cargo/pull/3667)
+* [stabilize Field-init shorthand](https://github.com/rust-lang/rust/pull/39761) ([RFC #1682](https://github.com/rust-lang/rfcs/blob/master/text/1682-field-init-shorthand.md))
+* [ignore expected types in diverging blocks](https://github.com/rust-lang/rust/pull/39485)
+* [make derive macro passes independent](https://github.com/rust-lang/rust/pull/39572)
+* [improved derive macro suggestions](https://github.com/rust-lang/rust/pull/39752)
+* [fix macro sequence repetition ICE](https://github.com/rust-lang/rust/pull/39730)
+* [fix segfault on disordered BTrees](https://github.com/rust-lang/rust/pull/39457)
+* [`Hash`{`Map`, `Set`}`::retain(_)`](https://github.com/rust-lang/rust/pull/39560)
+* [adaptive `HashMap`](https://github.com/rust-lang/rust/pull/38368)
+* [`TypeId` now implements (`Partial`)`Ord`](https://github.com/rust-lang/rust/pull/38981)
+* [more `Cell` methods for non-`Copy` types](https://github.com/rust-lang/rust/pull/39793)
+* [`Cell::swap(..)`](https://github.com/rust-lang/rust/pull/39716)
+* [`is_ascii_...(_)`](https://github.com/rust-lang/rust/pull/39659)
+* [conversions between various string types](https://github.com/rust-lang/rust/pull/39594)
+* [`TraitSelect` now with less `Vec`](https://github.com/rust-lang/rust/pull/39912)
+* [MIR: `SwitchInt` all the branches!](https://github.com/rust-lang/rust/pull/39456)
+* [fix two ICEs in path resolution](https://github.com/rust-lang/rust/pull/39939)
+* [erase late-bound regions in `get_vtable_methods`](https://github.com/rust-lang/rust/pull/39887)
+* [port books to mdbook](https://github.com/rust-lang/rust/pull/39633) (bye bye rustbook)
 
 ## New Contributors
 
