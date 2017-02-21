@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [What's coming up in imag (23)](https://beyermatthias.de/blog/2017/02/20/whats-coming-up-in-imag-23/)
+
 # Crate of the Week
 
 This week's crate of the week is [derive_builder](https://crates.io/crates/derive_builder), a Rust port of Django's password primitives. Thanks to [Willi Kappler](https://users.rust-lang.org/users/willi_kappler) for the suggestion!
