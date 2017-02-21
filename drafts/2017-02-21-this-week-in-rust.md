@@ -153,6 +153,7 @@ Other significant issues:
 * [Feb 22. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/236658946/).
 * [Feb 23. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Feb 23. Rust Dresden](https://forum.rustplatz.de/t/neues-rust-meetup-in-dresden/156/24).
+* [Feb 23. Rust Copenhagen: Hack Night](http://cph.rs)
 * [Feb 24. Crate Polishing Workshop, Darmstadt/Germany](https://www.meetup.com/Rust-Rhein-Main/events/237509289/).
 * [Mar  1. South Florida Rust - Intro to Ownership and Borrowing](https://www.meetup.com/South-Florida-Rust-Meetup/events/237559303/).
 * [Mar  1. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
