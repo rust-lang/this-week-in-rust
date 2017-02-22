@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [What's coming up in imag (23)](https://beyermatthias.de/blog/2017/02/20/whats-coming-up-in-imag-23/)
+
 # Crate of the Week
 
 This week's crate of the week is [CDRS](https://crates.io/crates/cdrs), a client for Apache Cassandra written completely in Rust. Thanks to [Alex Pikalov](https://users.rust-lang.org/users/AlexPikalov) for the suggestion.
