@@ -16,13 +16,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Pathfinder, a Fast GPU-based Font Rasterizer in Rust](https://pcwalton.github.io/blog/2017/02/14/pathfinder/).
+* [Pathfinder, a fast GPU-based font rasterizer in Rust](https://pcwalton.github.io/blog/2017/02/14/pathfinder/).
 * [A simple Rust GUI with QML](https://www.vandenoever.info/blog/2017/02/17/a-simple-rust-gui-with-qml.html).
 * [How copying an int made my code 11 times faster](https://medium.com/@robertgrosse/how-copying-an-int-made-my-code-11-times-faster-f76c66312e0f).
 * [Graphical depiction of ownership and borrowing in Rust](https://rufflewind.com/2017-02-15/rust-move-copy-borrow).
 * [Rust Generic (not Generics)](https://beachape.com/blog/2017/02/04/rust-generic-not-generics/). Write functions that abstract over types and arity, but still have the ability to recover your original type afterwards.
 * [How librsvg exports reference-counted objects from Rust to C](https://people.gnome.org/~federico/news-2017-02.html#how-librsvg-exports-reference-counted-objects).
-* [Writing an interpreter in Rust](https://pliniker.github.io/eval-rs/).
+* [Writing an interpreter in Rust](https://pliniker.github.io/eval-rs/). A weekly series on writing a toy interpreter in Rust.
 * [Rust tutorial: authz](http://daringordon.com/authz_rs_tutorial/). Learn Rust-specific concepts using a real-world application.
 * [Rust sucks if I fail to write X](https://llogiq.github.io/2017/02/15/sucks.html).
 * [Diesel 0.11 released with MySQL support](https://github.com/diesel-rs/diesel/releases/tag/v0.11.0).
@@ -46,20 +46,17 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [rust: If you are on nightly, help test Rust's new release infrastructure](https://internals.rust-lang.org/t/new-nightlies-coming-soon-help-out-and-test/4789).
+* [easy] [rust: `std::ffi::FromBytesWithNulError` is not an `std::error::Error`](https://github.com/rust-lang/rust/issues/39925).
+* [easy] [clippy: Lint functions taking references as arguments but only use them to create an owned value](https://github.com/Manishearth/rust-clippy/issues/1563).
+* [easy] [clippy: Lint for iterating over a slice with one (or zero) element](https://github.com/Manishearth/rust-clippy/issues/1540).
+* [easy] [clippy: useless_transmute being raised when it's doing multiple casts](https://github.com/Manishearth/rust-clippy/issues/1545).
+* [easy] [clippy: Lint to suggest `.saturating_add/sub(x)` for `.checked_add/sub(x).unwrap_or(MAX/MIN)`](https://github.com/Manishearth/rust-clippy/issues/1557).
+* [easy] [clippy: Lint against const atomics](https://github.com/Manishearth/rust-clippy/issues/1560).
+* [easy] [crates.io: Insufficient spacing between Dev-Dependencies and Versions](https://github.com/rust-lang/crates.io/issues/235).
 * [easy] [crates.io: Document applying categories/adding new categories](https://github.com/rust-lang/crates.io/issues/544).
-* [easy] [crates.io: Crate listings duplicated on category subpages](https://github.com/rust-lang/crates.io/issues/524).
-* [easy] [crates.io: Update the site to include the email address help@crates.io somewhere](https://github.com/rust-lang/crates.io/issues/522).
-* [easy] [crates.io: Dependent crates link not shown for crates without reverse dependencies](https://github.com/rust-lang/crates.io/issues/379).
+* [medium] [crates.io: Yanking a crate should update its max_version](https://github.com/rust-lang/crates.io/issues/76).
 * [medium] [crates.io: Exact match not being obvious](https://github.com/rust-lang/crates.io/issues/493).
 * [medium] [crates.io: Be able to search within a keyword or category](https://github.com/rust-lang/crates.io/issues/491).
-* [easy] [servo: Set origin header in http_network_or_cache_fetch](https://github.com/servo/servo/issues/14787).
-* [easy/hard] [clippy: Lint unwrap in drop impls](https://github.com/Manishearth/rust-clippy/issues/1523).
-* [easy] [clippy:  `to_mut` false positive](https://github.com/Manishearth/rust-clippy/issues/1530).
-* [easy] [clippy: `len_without_is_empty` requires `allow` in the wrong place](https://github.com/Manishearth/rust-clippy/issues/1532).
-* [easy/medium] [clippy: Lint for Iterator + Copy](https://github.com/Manishearth/rust-clippy/issues/1534).
-* [easy] [clippy: calls to `std::mem::drop` with a `Copy` type](https://github.com/Manishearth/rust-clippy/issues/1537).
-
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -92,19 +89,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Aaron Power
-* Alexander Battisti
-* bjorn3
-* Charlie Fan
-* Gheorghe Anghelescu
-* Giang Nguyen
-* Henning Kowalk
-* Ingvar Stepanyan
-* Jan Zerebecki
-* Jordi Polo
-* Mario
-* Rob Speer
-* Shawn Walker-Salas
+* Amos Onn
+* Andrew Gaspar
+* Benoît CORTIER
+* Brian Vincent
+* Dmitry Guzeev
+* Glyne J. Gittens
+* Jeff Muizelaar
+* Luxko
+* Matt Williams
+* Michal Nazarewicz
+* Mikhail Pak
+* Sebastian Waisbrot
 
 ## Approved RFCs
 
@@ -112,7 +108,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1558: Allow coercing non-capturing closures to function pointers](https://github.com/rust-lang/rfcs/pull/1558).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -122,23 +118,21 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
+* [disposition: merge] [extend `?` to operate over other types](https://github.com/rust-lang/rfcs/pull/1859).
+* [disposition: merge] [Write to standard error with `eprint!` and `eprintln!`](https://github.com/rust-lang/rfcs/pull/1869).
 * [disposition: close] [Add a `Transmute<T>` trait for representing types that can be transmuted to `T`](https://github.com/rust-lang/rfcs/pull/1891).
 * [disposition: merge] [Deprecate anonymous parameters](https://github.com/rust-lang/rfcs/pull/1685).
 * [disposition: close] [Warn by default when encountering a statement which only consists of an equality comparison](https://github.com/rust-lang/rfcs/pull/1812).
 * [Allow uncallable method impls to be omitted](https://github.com/rust-lang/rfcs/pull/1699).
 
-## Closed RFCs
-
-Following proposals were rejected by [the team](https://www.rust-lang.org/team.html) after their 'final comment period' elapsed.
-
-*No RFCs were closed this week!*
-
 ## New RFCs
 
-* [Amend RFC 1105 to specify how dependency versions relate to semver](https://github.com/rust-lang/rfcs/pull/1890).
-* [Deprecate uninitialized for uninhabited types](https://github.com/rust-lang/rfcs/pull/1892).
-* [Introduce _pattern synonyms_ - used to create new patterns we can pattern match against from real patterns](https://github.com/rust-lang/rfcs/pull/1895).
-* [Unions 1.2](https://github.com/rust-lang/rfcs/pull/1897).
+* [Reverting default unsafety](https://github.com/rust-lang/rfcs/pull/1901). Provide ability to mark unsafe-by-default entities, like foreign items, as safe.
+* [Unsized Rvalues](https://github.com/rust-lang/rfcs/pull/1909). Allow for local variables, function arguments, and some expressions to have an unsized type.
+* [Add a `#[safe("Reason")]` to annotate why unsafe blocks are actually safe](https://github.com/rust-lang/rfcs/pull/1910).
+* [Macros 1.2: Fast-track to stabilize function-like procedural macros](https://github.com/rust-lang/rfcs/pull/1913). Stabilize function-like procedural macros (whose usage looks like `foo!(...)`), like this was done in “Macros 1.1” for custom `derive`, before “Macros 2.0” is fully ready.
+* [Extend and stabilize the `FixedSizeArray` trait, as a stop-gap solution for integer parameters in generics](https://github.com/rust-lang/rfcs/pull/1915).
+* [Unsafe lifetime](https://github.com/rust-lang/rfcs/pull/1918). Add a new special lifetime, `'unsafe`, that implicitly satisfies any constraint, but may only be instantiated within an unsafe context.
 
 ## Style RFCs
 
@@ -146,8 +140,6 @@ Following proposals were rejected by [the team](https://www.rust-lang.org/team.h
 
 PRs:
 
-* [match](https://github.com/rust-lang-nursery/fmt-rfcs/pull/56)
-* [type aliases](https://github.com/rust-lang-nursery/fmt-rfcs/pull/55)
 * [structs and unions](https://github.com/rust-lang-nursery/fmt-rfcs/pull/53)
 
 Issues in final comment period:
@@ -163,11 +155,6 @@ Other significant issues:
 
 # Upcoming Events
 
-* [Feb 15. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Feb 15. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [Feb 16. Rust DC Learn + Try: clap.rs](https://www.meetup.com/RustDC/events/236719329/).
-* [Feb 16. Rome Rust User Group Meetup](https://www.meetup.com/it-IT/Rust-Roma/events/237551678/).
-* [Feb 18. Rust NYC: Rust Hack & Learn](https://www.meetup.com/Rust-NYC/events/237386964/).
 * [Feb 22. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Feb 22. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Feb 22. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/236658946/).
@@ -179,6 +166,11 @@ Other significant issues:
 * [Mar  1. South Florida Rust - Intro to Ownership and Borrowing](https://www.meetup.com/South-Florida-Rust-Meetup/events/237559303/).
 * [Mar  1. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Mar  1. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Mar  7. Rust Oslo - What's New - Focus on web services](https://www.meetup.com/Rust-Oslo/events/237849579/).
+* [Mar  8. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Mar  8. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Mar  9. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/237525355/).
+* [Mar  9. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Mar 29. GNOME+Rust Hackfest 2017, Mexico City](https://wiki.gnome.org/Hackfests/Rust2017).
 * [Mar 31. Underhanded Rust Contest Submission Deadline](https://underhanded.rs/blog/2016/12/15/underhanded-rust.en-US.html)
 
