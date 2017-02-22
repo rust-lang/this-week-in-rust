@@ -16,6 +16,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Pathfinder, a Fast GPU-based Font Rasterizer in Rust](https://pcwalton.github.io/blog/2017/02/14/pathfinder/).
+* [A simple Rust GUI with QML](https://www.vandenoever.info/blog/2017/02/17/a-simple-rust-gui-with-qml.html).
+* [How copying an int made my code 11 times faster](https://medium.com/@robertgrosse/how-copying-an-int-made-my-code-11-times-faster-f76c66312e0f).
+* [Graphical depiction of ownership and borrowing in Rust](https://rufflewind.com/2017-02-15/rust-move-copy-borrow).
+* [Rust Generic (not Generics)](https://beachape.com/blog/2017/02/04/rust-generic-not-generics/). Write functions that abstract over types and arity, but still have the ability to recover your original type afterwards.
+* [How librsvg exports reference-counted objects from Rust to C](https://people.gnome.org/~federico/news-2017-02.html#how-librsvg-exports-reference-counted-objects).
+* [Writing an interpreter in Rust](https://pliniker.github.io/eval-rs/).
+* [Rust tutorial: authz](http://daringordon.com/authz_rs_tutorial/). Learn Rust-specific concepts using a real-world application.
+* [Rust sucks if I fail to write X](https://llogiq.github.io/2017/02/15/sucks.html).
+* [Diesel 0.11 released with MySQL support](https://github.com/diesel-rs/diesel/releases/tag/v0.11.0).
+* [Fireplace is a modular Wayland window manager written in Rust](https://github.com/Drakulix/fireplace).
+* [This week in Rust docs 44](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-44).
+* [This week in Ruma 2017-02-19](https://www.ruma.io/news/this-week-in-ruma-2017-02-19/).
+
 # Crate of the Week
 
 This week's crate of the week is [derive_builder](https://crates.io/crates/derive_builder), a Rust port of Django's password primitives. Thanks to [Willi Kappler](https://users.rust-lang.org/users/willi_kappler) for the suggestion!
@@ -154,6 +168,7 @@ Other significant issues:
 * [Feb 23. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Feb 23. Rust Dresden](https://forum.rustplatz.de/t/neues-rust-meetup-in-dresden/156/24).
 * [Feb 24. Crate Polishing Workshop, Darmstadt/Germany](https://www.meetup.com/Rust-Rhein-Main/events/237509289/).
+* [Mar  1. Rust User Group Cologne - Web development in Rust](http://rust.cologne/2017/03/01/web-dev.html).
 * [Mar  1. South Florida Rust - Intro to Ownership and Borrowing](https://www.meetup.com/South-Florida-Rust-Meetup/events/237559303/).
 * [Mar  1. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Mar  1. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
