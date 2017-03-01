@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [carol10cents has joined the Tooling and Infrastructure team](https://internals.rust-lang.org/t/please-welcome-carols10cents-to-the-tools-team/4830).
 * [Rust is now the fastest language on k-nucleotide](https://benchmarksgame.alioth.debian.org/u64q/performance.php?test=knucleotide). Using [OrderMap](https://github.com/bluss/ordermap) crate, Rust is now the fastest language at The Computer Language Benchmarks Game's k-nucleotide benchmark.
 * [Deploying Rust in a large codebase](https://medium.com/@rillian/deploying-rust-in-a-large-codebase-7e50328074e8). Shipping Rust in Firefox.
 * [Non-lexical lifetimes using liveness and location](http://smallcultfollowing.com/babysteps/blog/2017/02/21/non-lexical-lifetimes-using-liveness-and-location/).
@@ -30,13 +31,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [How we made TensorFlow run on a Raspberry Pi using Rust](https://medium.com/snips-ai/how-we-made-tensorflow-run-on-a-raspberry-pi-using-rust-7478f7a31329).
 * [The first Crate polishing workshop: Report](https://llogiq.github.io/2017/02/27/cpw.html).
 
-## weekly
+## Other Weeklies from Rust Community
 
-* [This Week in Rust Docs 45](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-45).
+* [This week in Rust docs 45](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-45).
+* [These weeks in Servo 93](https://blog.servo.org/2017/02/27/twis-93/).
 * [These weeks in Redox 19](https://redox-os.org/news/visual-refresh-19/). Visual refresh.
-* [Ferris Makes Emulators 22 - Sample Extraction](https://www.youtube.com/watch?v=Cd6yrfI82y8).
+* [Ferris makes emulators 22: Sample extraction](https://www.youtube.com/watch?v=Cd6yrfI82y8).
 * [What's coming up in imag 23](https://beyermatthias.de/blog/2017/02/20/whats-coming-up-in-imag-23/).
-* [This week in TiKV 2010-02-27](http://weekly.pingcap.com/2017/02/27/tidb-weekly/#weekly-update-in-tikv)
+* [This week in TiKV 2010-02-27](http://weekly.pingcap.com/2017/02/27/tidb-weekly/#weekly-update-in-tikv).
 
 # Crate of the Week
 
@@ -53,6 +55,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Rails Girls Summer of Code + Servo](https://blog.servo.org/2017/02/27/rgsoc/).
 * [discussion] [rust-book: Rust & OOP patterns](https://users.rust-lang.org/t/what-does-rust-oop-mean-to-you/9633).
 * [easy] [servo: Looking for something to work on](https://github.com/servo/servo/issues/15162).
 * [medium] [clippy: Lint `.into_iter()` if that only forwards to `.iter()`](https://github.com/Manishearth/rust-clippy/issues/1565).
@@ -185,6 +188,7 @@ Other significant issues:
 * [Mar 15. Rust Los Angeles - Rust LA Monthly Meetup - Hack Night](https://www.meetup.com/Rust-Los-Angeles/events/237757181/).
 * [Mar 15. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Mar 15. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Mar 16. Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/de-DE/Rust-Modern-Systems-Programming-in-Leipzig/events/237780401/).
 * [Mar 16. Thompson Rivers University, BC Canada - Get Rusty](https://www.eventbrite.ca/e/get-rusty-tickets-31407199780).
 * [Mar 29. GNOME+Rust Hackfest 2017, Mexico City](https://wiki.gnome.org/Hackfests/Rust2017).
 * [Mar 31. Underhanded Rust Contest Submission Deadline](https://underhanded.rs/blog/2016/12/15/underhanded-rust.en-US.html)
