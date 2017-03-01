@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate of the week is [CDRS](https://crates.io/crates/cdrs), a client for Apache Cassandra written completely in Rust. Thanks to [Alex Pikalov](https://users.rust-lang.org/users/AlexPikalov) for the suggestion.
+This week's crate of the week is [nalgebra](https://crates.io/crates/nalgebra), a linear algebra library in and for Rust. Thanks to [nasa42](https://users.rust-lang.org/users/nasa42) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -49,28 +49,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-107 pull requests were [merged in the last week][merged].
+124 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-02-13..2017-02-20
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-02-20..2017-02-27
 
-* [stabilize Field-init shorthand](https://github.com/rust-lang/rust/pull/39761) ([RFC #1682](https://github.com/rust-lang/rfcs/blob/master/text/1682-field-init-shorthand.md))
-* [ignore expected types in diverging blocks](https://github.com/rust-lang/rust/pull/39485)
-* [make derive macro passes independent](https://github.com/rust-lang/rust/pull/39572)
-* [improved derive macro suggestions](https://github.com/rust-lang/rust/pull/39752)
-* [fix macro sequence repetition ICE](https://github.com/rust-lang/rust/pull/39730)
-* [fix segfault on disordered BTrees](https://github.com/rust-lang/rust/pull/39457)
-* [`Hash`{`Map`, `Set`}`::retain(_)`](https://github.com/rust-lang/rust/pull/39560)
-* [adaptive `HashMap`](https://github.com/rust-lang/rust/pull/38368)
-* [`TypeId` now implements (`Partial`)`Ord`](https://github.com/rust-lang/rust/pull/38981)
-* [more `Cell` methods for non-`Copy` types](https://github.com/rust-lang/rust/pull/39793)
-* [`Cell::swap(..)`](https://github.com/rust-lang/rust/pull/39716)
-* [`is_ascii_...(_)`](https://github.com/rust-lang/rust/pull/39659)
-* [conversions between various string types](https://github.com/rust-lang/rust/pull/39594)
-* [`TraitSelect` now with less `Vec`](https://github.com/rust-lang/rust/pull/39912)
-* [MIR: `SwitchInt` all the branches!](https://github.com/rust-lang/rust/pull/39456)
-* [fix two ICEs in path resolution](https://github.com/rust-lang/rust/pull/39939)
-* [erase late-bound regions in `get_vtable_methods`](https://github.com/rust-lang/rust/pull/39887)
-* [port books to mdbook](https://github.com/rust-lang/rust/pull/39633) (bye bye rustbook)
+* [fix LLVM x86 interrupt calling convention](https://github.com/rust-lang/llvm/pull/63)
+* [fix ICE in trans](https://github.com/rust-lang/rust/pull/40064)
+* [properly display expected details on type mismatch](https://github.com/rust-lang/rust/pull/39905)
+* [`-C overflow-checks` option](https://github.com/rust-lang/rust/pull/40037)
+* [stabilize `static_recursion`](https://github.com/rust-lang/rust/pull/40027)
+* [allow tools to run test runners programmatically](https://github.com/rust-lang/rust/pull/39815)
+* [allow coercion of non-capturing closures to `fn`s](https://github.com/rust-lang/rust/pull/40025)
+* [improved lib defaults handling](https://github.com/rust-lang/rust/pull/40022)
+* [make `Unique<T>` `UnwindSafe` even for unsized types](https://github.com/rust-lang/rust/pull/40020)
+* [set LLVM metadata for vtables](https://github.com/rust-lang/rust/pull/39995) (allows better optimizations)
+* [track the `-Z sanitizer` flag over incremental compilations](https://github.com/rust-lang/rust/pull/39993)
+* [incremental compilation: detect bootstrap outputs](https://github.com/rust-lang/rust/pull/40038)
+* [adaptive hashmap: consider displacement instead of shift length](https://github.com/rust-lang/rust/pull/39988)
+* [don't treat privately uninhabited types as uninhabited](https://github.com/rust-lang/rust/pull/39980)
+* [improved type inference error reporting](https://github.com/rust-lang/rust/pull/39913)
+* [verify all sysroot crates are unstable](https://github.com/rust-lang/rust/pull/39851)
+* [Cargo: fix required features vs. dependencies' features interference](https://github.com/rust-lang/cargo/pull/3737)
+* [`cargo check --all`](https://github.com/rust-lang/cargo/pull/3731)
+* [migrate Cargo from rustc-serialize to serde](https://github.com/rust-lang/cargo/pull/3682)
+* [docs: port the reference to mkbook](https://github.com/rust-lang/rust/pull/39855)
 
 ## New Contributors
 
