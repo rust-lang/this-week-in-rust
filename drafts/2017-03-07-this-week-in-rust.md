@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [LLVM Social Berlin #6: Mull meets Rust. Implementing mutation testing system for Rust programming language.](https://www.youtube.com/watch?v=VasSufnFswc)
+
 ## Other Weeklies from Rust Community
 
 # Crate of the Week
