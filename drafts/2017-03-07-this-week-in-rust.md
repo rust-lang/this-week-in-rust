@@ -15,7 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-* My shot at RESTful microservices in Rust [Part 1](https://codingwithglee.blogspot.de/2017/02/my-shot-at-restful-microservices-in.html) [Part 2](https://codingwithglee.blogspot.de/2017/03/my-shot-at-restful-microservices-in.html).
+* My shot at RESTful microservices in Rust [Part 1](https://codingwithglee.blogspot.de/2017/02/my-shot-at-restful-microservices-in.html) [Part 2](https://codingwithglee.blogspot.de/2017/03/my-shot-at-restful-microservices-in.html) [Part 3](https://codingwithglee.blogspot.de/2017/03/my-shot-at-restful-microservices-in_6.html).
 
 * [LLVM Social Berlin #6: Mull meets Rust. Implementing mutation testing system for Rust programming language.](https://www.youtube.com/watch?v=VasSufnFswc)
 
