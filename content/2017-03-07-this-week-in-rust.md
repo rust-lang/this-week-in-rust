@@ -20,8 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [What are sum, product, and pi types](https://manishearth.github.io/blog/2017/03/04/what-are-sum-product-and-pi-types/).
 * [The future with Futures](http://asquera.de/blog/2017-03-01/the-future-with-futures/). Writing asynchronous Rust with Futures and Tokio.
 * [Designing non-lexical borrows: nested method calls via two-phase borrowing](http://smallcultfollowing.com/babysteps/blog/2017/03/01/nested-method-calls-via-two-phase-borrowing/).
-* [Mitigating underhandedness: Fuzzing your code](https://manishearth.github.io/blog/2017/03/02/mitigating-underhandedness-fuzzing-your-code/)
-* [What I Learned from Giving a Rust Training](http://asquera.de/blog/2017-02-27/rust-training/).
+* [Mitigating underhandedness: Fuzzing your code](https://manishearth.github.io/blog/2017/03/02/mitigating-underhandedness-fuzzing-your-code/).
+* [What I learned from giving a Rust training](http://asquera.de/blog/2017-02-27/rust-training/).
 * [Trying out Rust for graphics programming](http://members.iinet.net.au/~ideasman42/blog/learning_rust.html).
 * [Setting up a Rust development environment](http://asquera.de/blog/2017-03-03/setting-up-a-rust-devenv/).
 * [Rust faster than C? Not so fast…](https://dennisforbes.ca/index.php/2017/03/03/rust-faster-than-c-not-so-fast/). Follow-up to [Rust beating C in The Computer Language Benchmarks Game](https://benchmarksgame.alioth.debian.org/u64q/performance.php?test=knucleotide).
@@ -52,6 +52,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [The Underhanded Rust Contest](https://underhanded.rs/blog/2016/12/15/underhanded-rust.en-US.html).
 * [Rails Girls Summer of Code + Servo](https://blog.servo.org/2017/02/27/rgsoc/).
 * [easy] [servo: Looking for something to work on](https://github.com/servo/servo/issues/15162).
 * [easy] [clippy:  Extend option-map-unwrap-or-else to Result](https://github.com/Manishearth/rust-clippy/issues/1590).
