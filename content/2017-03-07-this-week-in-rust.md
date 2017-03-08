@@ -141,17 +141,17 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [Style RFCs](https://github.com/rust-lang-nursery/fmt-rfcs) are part of the process for deciding on style guidelines for the Rust community and defaults for [Rustfmt](https://github.com/rust-lang-nursery/rustfmt). The process is similar to the RFC process, but we try to reach rough consensus on issues (including a final comment period) before progressing to PRs. Just like the RFC process, all users are welcome to comment and submit RFCs. If you want to help decide what Rust code should look like, come get involved!
 
-Issues in final comment period:
+PRs in final comment period:
 
 * [structs and unions](https://github.com/rust-lang-nursery/fmt-rfcs/pull/53)
+
+Issues in final comment period:
+
 * [where clauses](https://github.com/rust-lang-nursery/fmt-rfcs/issues/38)
 
 Other significant issues:
 
-* [types](https://github.com/rust-lang-nursery/fmt-rfcs/issues/15)
-* [Whitespace in associated type syntax](https://github.com/rust-lang-nursery/fmt-rfcs/issues/51).
-* [`extern` vs `extern "C"`](https://github.com/rust-lang-nursery/fmt-rfcs/issues/52)
-* [ranges](https://github.com/rust-lang-nursery/fmt-rfcs/issues/60)
+* [expressions (tracking issue)](https://github.com/rust-lang-nursery/fmt-rfcs/issues/16)
 
 # Upcoming Events
 
