@@ -26,7 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Setting up a Rust development environment](http://asquera.de/blog/2017-03-03/setting-up-a-rust-devenv/).
 * [Rust faster than C? Not so fast…](https://dennisforbes.ca/index.php/2017/03/03/rust-faster-than-c-not-so-fast/). Follow-up to [Rust beating C in The Computer Language Benchmarks Game](https://benchmarksgame.alioth.debian.org/u64q/performance.php?test=knucleotide).
 * [LabelledGeneric in Rust: What, why, how](https://beachape.com/blog/2017/03/04/labelledgeneric-in-rust-what-why-how/)?
-* [RESTful microservices in Rust - Part 1](https://codingwithglee.blogspot.de/2017/02/my-shot-at-restful-microservices-in.html). Also available: [Part 2](https://codingwithglee.blogspot.de/2017/03/my-shot-at-restful-microservices-in.html).
+* [RESTful microservices in Rust: Part 1](https://codingwithglee.blogspot.de/2017/02/my-shot-at-restful-microservices-in.html), [part 2](https://codingwithglee.blogspot.de/2017/03/my-shot-at-restful-microservices-in.html) and [part 3](https://codingwithglee.blogspot.de/2017/03/my-shot-at-restful-microservices-in_6.html).
 * [Rust Language Server alpha 2 released bringing new features, better stability, and an easier installation than the first alpha](http://www.jonathanturner.org/2017/03/rls-alpha-2.html).
 * [Redox releases 0.1.1 which adds support for resizing windows, mouse scroll, changing window titles, and improves the look and feel of many Redox applications](https://github.com/redox-os/redox/releases/tag/0.1.1).
 * [video] [Videos from March 2017 Rust Meetup at Mozilla SF](https://air.mozilla.org/rust-meetup-march-2017/). GPU glyph rasterization, Rocket, and the orphan rules.
@@ -39,7 +39,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate of the week is [nalgebra](https://crates.io/crates/nalgebra), a linear algebra library in and for Rust. Thanks to [nasa42](https://users.rust-lang.org/users/nasa42) for the suggestion.
+This week's crate of the week is [cargo-fuzz](https://crates.io/crates/cargo-fuzz), a cargo subcommand to run libfuzz on your code. Thanks to [nasa42](https://users.rust-lang.org/users/nasa42) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -68,30 +68,33 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-124 pull requests were [merged in the last week][merged].
+105 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-02-20..2017-02-27
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-02-27..2017-03-06
 
-* [fix LLVM x86 interrupt calling convention](https://github.com/rust-lang/llvm/pull/63)
-* [fix ICE in trans](https://github.com/rust-lang/rust/pull/40064)
-* [properly display expected details on type mismatch](https://github.com/rust-lang/rust/pull/39905)
-* [`-C overflow-checks` option](https://github.com/rust-lang/rust/pull/40037)
-* [stabilize `static_recursion`](https://github.com/rust-lang/rust/pull/40027)
-* [allow tools to run test runners programmatically](https://github.com/rust-lang/rust/pull/39815)
-* [allow coercion of non-capturing closures to `fn`s](https://github.com/rust-lang/rust/pull/40025)
-* [improved lib defaults handling](https://github.com/rust-lang/rust/pull/40022)
-* [make `Unique<T>` `UnwindSafe` even for unsized types](https://github.com/rust-lang/rust/pull/40020)
-* [set LLVM metadata for vtables](https://github.com/rust-lang/rust/pull/39995) (allows better optimizations)
-* [track the `-Z sanitizer` flag over incremental compilations](https://github.com/rust-lang/rust/pull/39993)
-* [incremental compilation: detect bootstrap outputs](https://github.com/rust-lang/rust/pull/40038)
-* [adaptive hashmap: consider displacement instead of shift length](https://github.com/rust-lang/rust/pull/39988)
-* [don't treat privately uninhabited types as uninhabited](https://github.com/rust-lang/rust/pull/39980)
-* [improved type inference error reporting](https://github.com/rust-lang/rust/pull/39913)
-* [verify all sysroot crates are unstable](https://github.com/rust-lang/rust/pull/39851)
-* [Cargo: fix required features vs. dependencies' features interference](https://github.com/rust-lang/cargo/pull/3737)
-* [`cargo check --all`](https://github.com/rust-lang/cargo/pull/3731)
-* [migrate Cargo from rustc-serialize to serde](https://github.com/rust-lang/cargo/pull/3682)
-* [docs: port the reference to mkbook](https://github.com/rust-lang/rust/pull/39855)
+* [improve backtrace format](https://github.com/rust-lang/rust/pull/38165) (🎉Yay!🎉)
+* [support `x86-interrupt` calling conventions](https://github.com/rust-lang/rust/pull/39832) (also [update LLVM](https://github.com/rust-lang/rust/pull/40207) and the [unstable book](https://github.com/rust-lang/rust/pull/40191))
+* [transmuting from fn item types to pointers is now a hard error](https://github.com/rust-lang/rust/pull/34198) (breaking change)
+* [simplify `TokenTree`s and fix `macro_rules!`](https://github.com/rust-lang/rust/pull/39419) (macro-breaking change)
+* [indexing (`_[_]`) now coerces the argument](https://github.com/rust-lang/rust/pull/40166)
+* [syntax: use `TokenStream` instead of `TokenTree` where applicable](https://github.com/rust-lang/rust/pull/40202)
+* [`#[proc_macro]` for procedural bang!-macros](https://github.com/rust-lang/rust/pull/40129)
+* [have `format!(..)` panic on errors](https://github.com/rust-lang/rust/pull/40117)
+* [`impl FromIterator<&char> for String`](https://github.com/rust-lang/rust/pull/40028)
+* [on-demand typeck, const-qualification/eval and MIR building](https://github.com/rust-lang/rust/pull/40008) (12/12 would pull at least twice 😁)
+* [on-demand destructors](https://github.com/rust-lang/rust/pull/40178)
+* [MIR: improved operand lifetimes](https://github.com/rust-lang/rust/pull/40133)
+* [fix ICE on exhaustive-pattern check](https://github.com/rust-lang/rust/pull/40285)
+* [fix some normalization bugs](https://github.com/rust-lang/rust/pull/40163)
+* [fix missing `while let` pattern scope](https://github.com/rust-lang/rust/pull/40242)
+* [Let `-Crelocation-model` better control `-pie` linking](https://github.com/rust-lang/rust/pull/40245)
+* [don't optimize layout for `#[repr(C)]` or `#[repr(u8)]`](https://github.com/rust-lang/rust/pull/40188)
+* [`impl `{`Error`, `Display`}` for std::ffi::FromBytesWithNulError`](https://github.com/rust-lang/rust/pull/39960)
+* [`impl RangeArgument for RangeInclusive`](https://github.com/rust-lang/rust/pull/39936)
+* [spring clean `std::unicode`](https://github.com/rust-lang/rust/pull/40189)
+* [`cargo test --all`: fix doctest dependencies](https://github.com/rust-lang/cargo/pull/3721) (also [in beta](https://github.com/rust-lang/cargo/pull/3781))
+* [`cargo test`/`bench` no longer builds binaries with unselected features](https://github.com/rust-lang/cargo/pull/3770)
+* [cargo accepts more historically used underscores instead of dashes](https://github.com/rust-lang/cargo/pull/3776)
 
 ## New Contributors
 
