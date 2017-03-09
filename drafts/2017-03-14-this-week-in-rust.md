@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Building a parallel ECS in Rust](https://kvark.github.io/ecs/rust/2017/03/08/specs.html). The development story of `specs` commemorating the 0.8 version release.
+
 ## Other Weeklies from Rust Community
 
 # Crate of the Week
