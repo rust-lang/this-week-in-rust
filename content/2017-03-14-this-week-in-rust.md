@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Targeting the web with Rust](https://davidmcneil.github.io/the-rusty-web/). A demo web app that implements CPU bound portions in Rust (compiled to wasm/asm.js) while using existing web technologies to handle user facing pieces.
 * [Gentle intro to type-level recursion in Rust: From zero to HList sculpting](https://beachape.com/blog/2017/03/12/gentle-intro-to-type-level-recursion-in-Rust-from-zero-to-frunk-hlist-sculpting/).
 * [Math with distances in Rust: safety and correctness across units](https://ferrisellis.com/posts/rust-implementing-units-for-types/).
-* [Exploring Dynamic Dispatch in Rust](http://alschwalm.com/blog/static/2017/03/07/exploring-dynamic-dispatch-in-rust/).
+* [Exploring dynamic dispatch in Rust](http://alschwalm.com/blog/static/2017/03/07/exploring-dynamic-dispatch-in-rust/).
 * [Running Rust on the ARM Cortex M3](http://www.acrawford.com/2017/03/09/rust-on-the-cortex-m3.html).
 * [Little tour of multiple iterators implementation in Rust](https://blog.guillaume-gomez.fr/articles/2017-03-09+Little+tour+of+multiple+iterators+implementation+in+Rust).
 * [How to use Hyper HTTP library asynchronously](https://mgattozzi.com/hyper-client).
@@ -183,9 +183,9 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> In #rustlang, None is always an Option\\<\_>.
+> In #rustlang, None is always an Option<\_>.
 
-— [llogiq on reddit](https://twitter.com/llogiq/status/837411901437018113).
+— [llogiq on Twitter](https://twitter.com/llogiq/status/837411901437018113).
 
 Thanks to [Johan Sigfrids for the suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/363).
 
