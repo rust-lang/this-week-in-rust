@@ -22,7 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate of the week is [cargo-fuzz](https://crates.io/crates/cargo-fuzz), a cargo subcommand to run libfuzz on your code. Thanks to [nasa42](https://users.rust-lang.org/users/nasa42) for the suggestion.
+This week's crate of the week is [µtest](https://github.com/japaric/utest), a testing framework for embedded software. Thanks to [nasa42](https://users.rust-lang.org/users/nasa42) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -52,33 +52,36 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-105 pull requests were [merged in the last week][merged].
+142 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-02-27..2017-03-06
+[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-06..2016-03-13
 
-* [improve backtrace format](https://github.com/rust-lang/rust/pull/38165) (🎉Yay!🎉)
-* [support `x86-interrupt` calling conventions](https://github.com/rust-lang/rust/pull/39832) (also [update LLVM](https://github.com/rust-lang/rust/pull/40207) and the [unstable book](https://github.com/rust-lang/rust/pull/40191))
-* [transmuting from fn item types to pointers is now a hard error](https://github.com/rust-lang/rust/pull/34198) (breaking change)
-* [simplify `TokenTree`s and fix `macro_rules!`](https://github.com/rust-lang/rust/pull/39419) (macro-breaking change)
-* [indexing (`_[_]`) now coerces the argument](https://github.com/rust-lang/rust/pull/40166)
-* [syntax: use `TokenStream` instead of `TokenTree` where applicable](https://github.com/rust-lang/rust/pull/40202)
-* [`#[proc_macro]` for procedural bang!-macros](https://github.com/rust-lang/rust/pull/40129)
-* [have `format!(..)` panic on errors](https://github.com/rust-lang/rust/pull/40117)
-* [`impl FromIterator<&char> for String`](https://github.com/rust-lang/rust/pull/40028)
-* [on-demand typeck, const-qualification/eval and MIR building](https://github.com/rust-lang/rust/pull/40008) (12/12 would pull at least twice 😁)
-* [on-demand destructors](https://github.com/rust-lang/rust/pull/40178)
-* [MIR: improved operand lifetimes](https://github.com/rust-lang/rust/pull/40133)
-* [fix ICE on exhaustive-pattern check](https://github.com/rust-lang/rust/pull/40285)
-* [fix some normalization bugs](https://github.com/rust-lang/rust/pull/40163)
-* [fix missing `while let` pattern scope](https://github.com/rust-lang/rust/pull/40242)
-* [Let `-Crelocation-model` better control `-pie` linking](https://github.com/rust-lang/rust/pull/40245)
-* [don't optimize layout for `#[repr(C)]` or `#[repr(u8)]`](https://github.com/rust-lang/rust/pull/40188)
-* [`impl `{`Error`, `Display`}` for std::ffi::FromBytesWithNulError`](https://github.com/rust-lang/rust/pull/39960)
-* [`impl RangeArgument for RangeInclusive`](https://github.com/rust-lang/rust/pull/39936)
-* [spring clean `std::unicode`](https://github.com/rust-lang/rust/pull/40189)
-* [`cargo test --all`: fix doctest dependencies](https://github.com/rust-lang/cargo/pull/3721) (also [in beta](https://github.com/rust-lang/cargo/pull/3781))
-* [`cargo test`/`bench` no longer builds binaries with unselected features](https://github.com/rust-lang/cargo/pull/3770)
-* [cargo accepts more historically used underscores instead of dashes](https://github.com/rust-lang/cargo/pull/3776)
+* [1.16 release notes](https://github.com/rust-lang/rust/pull/39835) (merged prematurely)
+* [beta backports](https://github.com/rust-lang/rust/pull/40401)
+* [handle procedural macros during `save-analysis`](https://github.com/rust-lang/rust/pull/40311)
+* [export attributes in `save-analysis`](https://github.com/rust-lang/rust/pull/39820)
+* [rustc: exit quickly on only `--emit dep-info`](https://github.com/rust-lang/rust/pull/40336)
+* [`save-analysis` now works in the presence of type errors](https://github.com/rust-lang/rust/pull/40344)
+* [fix ICE on constant enums](https://github.com/rust-lang/rust/pull/40285)
+* [fix incorrect span label formatting](https://github.com/rust-lang/rust/pull/40287)
+* [fix const expressions with macros](https://github.com/rust-lang/rust/pull/40272)
+* [fix `personality_fn` within compiler_builtins](https://github.com/rust-lang/rust/pull/40254)
+* [new `syntax::ItemKind::MacroDef`, nix unnamed macros](https://github.com/rust-lang/rust/pull/40220) (breaking change)
+* [update syntax for `pub(restricted)`](https://github.com/rust-lang/rust/pull/40340)
+* [spans for individual path segments](https://github.com/rust-lang/rust/pull/40369)
+* [fix obligation cause body mismatch](https://github.com/rust-lang/rust/pull/40404)
+* [No more StorageLive for the `!` type](https://github.com/rust-lang/rust/pull/40372)
+* [no more MIR pass plugins](https://github.com/rust-lang/rust/pull/40239) (even if there ever was one)
+* [MIR inlining](https://github.com/rust-lang/rust/pull/39648)
+* placement-in for [`HashMap`](https://github.com/rust-lang/rust/pull/40390), [`VecDeque`](https://github.com/rust-lang/rust/pull/40389)
+* [reduce adaptive `HashMap` size overhead](https://github.com/rust-lang/rust/pull/40237)
+* [`OsString::shrink_to_fit`](https://github.com/rust-lang/rust/pull/40410)
+* [fix rustdoc display of associated consts](https://github.com/rust-lang/rust/pull/40419)
+* [improve rustdoc sidebar style](https://github.com/rust-lang/rust/pull/40265)
+* [decimate the old `configure` script further](https://github.com/rust-lang/rust/pull/39770)
+* [rustbuild: fix compiler docs](https://github.com/rust-lang/rust/pull/40448)
+* [rustbuild now copies instead of links](https://github.com/rust-lang/rust/pull/39518)
+* [crates.io now uses Diesel](https://github.com/rust-lang/crates.io/pull/609)
 
 ## New Contributors
 
