@@ -16,11 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Challenge: Rust's type system is not turing complete][turing-challenge] ([two][turing-proof-1] [proofs][turing-proof-2] 7 minutes apart!)
-
-[turing-challenge]: https://www.reddit.com/r/rust/comments/5y4x9r/challenge_rusts_type_system_is_not_turing_complete/
-[turing-proof-1]: https://www.reddit.com/r/rust/comments/5y4x9r/challenge_rusts_type_system_is_not_turing_complete/denigfg/
-[turing-proof-2]: https://www.reddit.com/r/rust/comments/5y4x9r/challenge_rusts_type_system_is_not_turing_complete/deni8a1/
+* [Rust's type system is Turing-complete: An exploration of type-level programming in Rust](https://sdleffler.github.io/RustTypeSystemTuringComplete/). A response to [Rust's type system is not Turing complete](https://www.reddit.com/r/rust/comments/5y4x9r/challenge_rusts_type_system_is_not_turing_complete/) challenge.
 
 ## Other Weeklies from Rust Community
 
