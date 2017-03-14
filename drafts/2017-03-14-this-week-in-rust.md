@@ -16,7 +16,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-## Other Weeklies from Rust Community
+* [Rust now beats C++ in many benchmarks in The Computer Language Benchmarks Game and is on par in others](https://benchmarksgame.alioth.debian.org/u64q/compare.php?lang=rust&lang2=gpp).
+* [Targeting the web with Rust](https://davidmcneil.github.io/the-rusty-web/). A demo web app that implements CPU bound portions in Rust (compiled to wasm/asm.js) while using existing web technologies to handle user facing pieces.
+* [Gentle intro to type-level recursion in Rust: From zero to HList sculpting](https://beachape.com/blog/2017/03/12/gentle-intro-to-type-level-recursion-in-Rust-from-zero-to-frunk-hlist-sculpting/).
+* [Math with distances in Rust: safety and correctness across units](https://ferrisellis.com/posts/rust-implementing-units-for-types/).
+* [Exploring Dynamic Dispatch in Rust](http://alschwalm.com/blog/static/2017/03/07/exploring-dynamic-dispatch-in-rust/).
+* [Running Rust on the ARM Cortex M3](http://www.acrawford.com/2017/03/09/rust-on-the-cortex-m3.html).
+* [Little tour of multiple iterators implementation in Rust](https://blog.guillaume-gomez.fr/articles/2017-03-09+Little+tour+of+multiple+iterators+implementation+in+Rust).
+* [How to use Hyper HTTP library asynchronously](https://mgattozzi.com/hyper-client).
+* [Map of a lifetime](https://llogiq.github.io/2017/03/06/lifetime.html). `flat_map` vs. nested loops.
+* [Reference iterators in Rust](https://medium.com/@jordan_98525/reference-iterators-in-rust-5603a51b5192).
+* [ripgrep 0.5.0 released with UTF-16 support](https://github.com/BurntSushi/ripgrep/releases/tag/0.5.0). ripgrep is a line oriented search tool that combines the usability of The Silver Searcher with the raw speed of GNU grep.
+* [This week in Rust docs 47](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-47).
+* [Parsing into an AST](https://pliniker.github.io/post/eval-rs-04/). Part of the series - [Writing an interpreter in Rust](https://pliniker.github.io/eval-rs/).
 
 # Crate of the Week
 
@@ -33,16 +45,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Crossbeam project is looking for new maintainers](https://internals.rust-lang.org/t/crossbeam-request-for-help/4933).
 * [The Underhanded Rust Contest](https://underhanded.rs/blog/2016/12/15/underhanded-rust.en-US.html).
-* [Rails Girls Summer of Code + Servo](https://blog.servo.org/2017/02/27/rgsoc/).
+* [medium] [notify-rust: Implement icons and images](https://github.com/hoodie/notify-rust/issues/13). notify-rust let's you send desktop notifications on Linux and BSD.
+* [tempdir: TempDir affected by remove_dir_all unreliability on windows](https://github.com/rust-lang-nursery/tempdir/issues/15#issuecomment-286513675).
 * [easy] [servo: Looking for something to work on](https://github.com/servo/servo/issues/15162).
-* [easy] [clippy:  Extend option-map-unwrap-or-else to Result](https://github.com/Manishearth/rust-clippy/issues/1590).
-* [easy] [clippy: Always true expressions in if expressions](https://github.com/Manishearth/rust-clippy/issues/1593).
-* [easy] [clippy: Spot wrong usage of bitwise and operator](https://github.com/Manishearth/rust-clippy/issues/1594).
-* [easy] [clippy: should_implement_trait should include ToOwned, FromStr](https://github.com/Manishearth/rust-clippy/issues/1600).
-* [easy] [crates.io: bad appveyor badges for projects with underscore](https://github.com/rust-lang/crates.io/issues/587).
-* [easy] [crates.io: Document applying categories/adding new categories](https://github.com/rust-lang/crates.io/issues/544).
-* [medium] [crates.io: Be able to search within a keyword or category](https://github.com/rust-lang/crates.io/issues/491).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -80,10 +87,16 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Ben Schreiber
-* deso
-* lukaramu
-* Maik Riechert
+* CrazyMerlyn
+* Fabjan Sukalia
+* Gibson Fahnestock
+* Joel Gallant
+* Jonas Bushart
+* Joshua Horwitz
+* madseagames
+* Paul Daniel Faria
+* Petr Hosek
+* Tobias Schottdorf
 
 ## Approved RFCs
 
@@ -91,7 +104,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 1845: `From<&[T]> for Rc<[T]> + From<&str> for Rc<str>`](https://github.com/rust-lang/rfcs/pull/1845).
 
 ## Final Comment Period
 
@@ -101,22 +114,17 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-
+* [disposition: merge] [Add unstable sort to libcore](https://github.com/rust-lang/rfcs/pull/1884).
 * [disposition: merge] [Write to standard error with `eprint!` and `eprintln!`](https://github.com/rust-lang/rfcs/pull/1869).
+* [disposition: merge] [Include the `ManuallyDrop` wrapper in `core::mem`](https://github.com/rust-lang/rfcs/pull/1860).
 * [disposition: merge] [extend `?` to operate over other types](https://github.com/rust-lang/rfcs/pull/1859).
-* [disposition: merge] [`From<&[T]> for Rc<[T]> + From<&str> for Rc<str>`](https://github.com/rust-lang/rfcs/pull/1845).
 * [disposition: close] [Add variable-length arrays to the language](https://github.com/rust-lang/rfcs/pull/1808).
 * [disposition: merge] [Extend entry API to work on borrowed keys](https://github.com/rust-lang/rfcs/pull/1769).
 * [disposition: merge] [Deprecate anonymous parameters](https://github.com/rust-lang/rfcs/pull/1685).
 
 ## New RFCs
 
-* [Intra Rustdoc Links](https://github.com/rust-lang/rfcs/pull/1946).
-* [Polymorphic Numeric Constants](https://github.com/rust-lang/rfcs/pull/1945).
-* [Improve match ergonomics](https://github.com/rust-lang/rfcs/pull/1944).
-* [Guess diagnostics](https://github.com/rust-lang/rfcs/pull/1941). `rustfix` should be the semantic companion to `rustfmt`, which automatically changes code to be more idiomatic.
-* [Support the `#[must_use]` attribute on arbitrary functions](https://github.com/rust-lang/rfcs/pull/1940).
-* [Allow the `?` operator to be used in `main`, and in `#[test]` functions and doctests](https://github.com/rust-lang/rfcs/pull/1937).
+* [Allow the name (qualifier) of an enum variant to be elided in expressions and patterns whenever it can be inferred](https://github.com/rust-lang/rfcs/pull/1949).
 
 ## Style RFCs
 
@@ -136,11 +144,6 @@ Other significant issues:
 
 # Upcoming Events
 
-* [Mar  9. San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/237602716/).
-* [Mar  9. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/237525355/).
-* [Mar  9. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Mar 11. Rust NYC - Rust Hack & Learn](https://www.meetup.com/Rust-NYC/events/238057861/).
-* [Mar 13. Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/237058819/).
 * [Mar 15. Rust Meetup Hamburg - Rust/Ethereum Meetup](https://www.meetup.com/Rust-Meetup-Hamburg/events/237858112/).
 * [Mar 15. Rust Los Angeles - Rust LA Monthly Meetup - Hack Night](https://www.meetup.com/Rust-Los-Angeles/events/237757181/).
 * [Mar 15. Rust Dublin - Rust Lightning Talks](https://www.meetup.com/Rust-Dublin/events/237883717/).
@@ -149,11 +152,16 @@ Other significant issues:
 * [Mar 16. Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/de-DE/Rust-Modern-Systems-Programming-in-Leipzig/events/237780401/).
 * [Mar 16. Thompson Rivers University, BC Canada - Get Rusty](https://www.eventbrite.ca/e/get-rusty-tickets-31407199780).
 * [Mar 21. Rust Paris Meetup #36](https://www.meetup.com/Rust-Paris/events/238240907/).
+* [Mar 22. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/238181558/).
 * [Mar 22. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Mar 22. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Mar 23. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Mar 29. GNOME+Rust Hackfest 2017, Mexico City](https://wiki.gnome.org/Hackfests/Rust2017).
-* [Mar 31. Underhanded Rust Contest Submission Deadline](https://underhanded.rs/blog/2016/12/15/underhanded-rust.en-US.html)
+* [Mar 29. South Florida Rust Meetup: Intro to Ownership and Borrowing Part 3](https://www.meetup.com/South-Florida-Rust-Meetup/events/238110251/).
+* [Mar 29. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Mar 29. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Mar 31. Underhanded Rust Contest Submission Deadline](https://underhanded.rs/blog/2016/12/15/underhanded-rust.en-US.html).
+* **[Apr 30. RustFest 2017 - Kyiv, Ukraine](http://2017.rustfest.eu/).**
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -163,17 +171,18 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-*No jobs listed for this week.*
+* [Rust developers at Cornell Tech New York](https://twitter.com/sahuguet/status/839198110819762177).
+* [Rust engineer at a startup in San Francisco](https://users.rust-lang.org/t/jobs-in-rust-development/3628/4).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> I sure need to work on my quotes.
+> In #rustlang, None is always an Option\\<\_>.
 
-— [llogiq on his QotW from last week](https://www.reddit.com/r/rust/comments/5wt2vq/this_week_in_rust_171/deczcbo/).
+— [llogiq on reddit](https://twitter.com/llogiq/status/837411901437018113).
 
-Thanks to [slashgrin for the suggestion](https://www.reddit.com/r/rust/comments/5wt2vq/this_week_in_rust_171/ded0un1/).
+Thanks to [Johan Sigfrids for the suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/363).
 
 [Submit your quotes for next week][submit]!
 
