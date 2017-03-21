@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate of the week is [µtest](https://github.com/japaric/utest), a testing framework for embedded software. Thanks to [nasa42](https://users.rust-lang.org/users/nasa42) for the suggestion.
+We don't have a Crate of this Week for lack of suggestions. Sorry.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -43,36 +43,28 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-142 pull requests were [merged in the last week][merged].
+117 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-06..2016-03-13
+[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-13..2016-03-20
 
-* [1.16 release notes](https://github.com/rust-lang/rust/pull/39835) (merged prematurely)
-* [beta backports](https://github.com/rust-lang/rust/pull/40401)
-* [handle procedural macros during `save-analysis`](https://github.com/rust-lang/rust/pull/40311)
-* [export attributes in `save-analysis`](https://github.com/rust-lang/rust/pull/39820)
-* [rustc: exit quickly on only `--emit dep-info`](https://github.com/rust-lang/rust/pull/40336)
-* [`save-analysis` now works in the presence of type errors](https://github.com/rust-lang/rust/pull/40344)
-* [fix ICE on constant enums](https://github.com/rust-lang/rust/pull/40285)
-* [fix incorrect span label formatting](https://github.com/rust-lang/rust/pull/40287)
-* [fix const expressions with macros](https://github.com/rust-lang/rust/pull/40272)
-* [fix `personality_fn` within compiler_builtins](https://github.com/rust-lang/rust/pull/40254)
-* [new `syntax::ItemKind::MacroDef`, nix unnamed macros](https://github.com/rust-lang/rust/pull/40220) (breaking change)
-* [update syntax for `pub(restricted)`](https://github.com/rust-lang/rust/pull/40340)
-* [spans for individual path segments](https://github.com/rust-lang/rust/pull/40369)
-* [fix obligation cause body mismatch](https://github.com/rust-lang/rust/pull/40404)
-* [No more StorageLive for the `!` type](https://github.com/rust-lang/rust/pull/40372)
-* [no more MIR pass plugins](https://github.com/rust-lang/rust/pull/40239) (even if there ever was one)
-* [MIR inlining](https://github.com/rust-lang/rust/pull/39648)
-* placement-in for [`HashMap`](https://github.com/rust-lang/rust/pull/40390), [`VecDeque`](https://github.com/rust-lang/rust/pull/40389)
-* [reduce adaptive `HashMap` size overhead](https://github.com/rust-lang/rust/pull/40237)
-* [`OsString::shrink_to_fit`](https://github.com/rust-lang/rust/pull/40410)
-* [fix rustdoc display of associated consts](https://github.com/rust-lang/rust/pull/40419)
-* [improve rustdoc sidebar style](https://github.com/rust-lang/rust/pull/40265)
-* [decimate the old `configure` script further](https://github.com/rust-lang/rust/pull/39770)
-* [rustbuild: fix compiler docs](https://github.com/rust-lang/rust/pull/40448)
-* [rustbuild now copies instead of links](https://github.com/rust-lang/rust/pull/39518)
-* [crates.io now uses Diesel](https://github.com/rust-lang/crates.io/pull/609)
+* [1.17 library stabilizations](https://github.com/rust-lang/rust/pull/40538)
+* [`0e+10` is now a valid Rust float literal](https://github.com/rust-lang/rust/pull/40589)
+* [Rust works again on pre 1.12 macOS](https://github.com/rust-lang/rust/pull/40482)
+* [pass attributes to procedural macros as `TokenStream`](https://github.com/rust-lang/rust/pull/40346) (macro plugin-breaking)
+* [fix `include!(_)` regression](https://github.com/rust-lang/rust/pull/40583)
+* [add `catch { }` to AST](https://github.com/rust-lang/rust/pull/39921) (plugin-breaking)
+* [avoid alignment-related undefined behavior on operand-pair store](https://github.com/rust-lang/rust/pull/40385)
+* [`TryFrom<Err=_>` is now `TryFrom<Error=_>`, also subsumes `FromStr`](https://github.com/rust-lang/rust/pull/40281)
+* [new `Utf8Error::error_len`](https://github.com/rust-lang/rust/pull/40212)
+* [remove `Default` impl for `Box<Path>`](https://github.com/rust-lang/rust/pull/40539)
+* [remove a few stray `From<Box<_>>` impls](https://github.com/rust-lang/rust/pull/40009)
+* [Fix race condition in `fs::create_dir_all(..)`](https://github.com/rust-lang/rust/pull/39799)
+* [LLVM: fix inliner funclet unwind memoization](https://github.com/rust-lang/llvm/pull/66) (unbreaks MSVC optimizer)
+* [`cargo -vv` now caps lints at `warn` level](https://github.com/rust-lang/cargo/pull/3827)
+* [`cargo` enables default features of dependencies overriding others without those features](https://github.com/rust-lang/cargo/pull/3843)
+* [`cargo` now assumes the `--cap-lints` feature is available](https://github.com/rust-lang/cargo/pull/3839)
+* [rustdoc displays `const` items](https://github.com/rust-lang/rust/pull/40564)
+* [docs are now required again](https://github.com/rust-lang/rust/pull/40526)
 
 ## New Contributors
 
