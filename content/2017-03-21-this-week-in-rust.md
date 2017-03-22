@@ -192,7 +192,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> #rustlang is a very strange place
+> \#rustlang is a very strange place
 > sans null deref nor data race
 > it has its own styles
 > but once it compiles
