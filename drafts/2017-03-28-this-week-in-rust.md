@@ -139,10 +139,20 @@ Issues in final comment period:
 
 * [Ordering of types of groups within a module](https://github.com/rust-lang-nursery/fmt-rfcs/issues/71).
 * [where clauses](https://github.com/rust-lang-nursery/fmt-rfcs/issues/38)
+* [Ranges](https://github.com/rust-lang-nursery/fmt-rfcs/issues/60)
+* [Conventions for blank lines](https://github.com/rust-lang-nursery/fmt-rfcs/issues/57)
 
 Other significant issues:
 
 * [expressions (tracking issue)](https://github.com/rust-lang-nursery/fmt-rfcs/issues/16)
+
+Good first issues:
+
+We're happy to mentor these, please reach out to us in #rust-style if you'd like to get invovled
+
+* [simple expressions](https://github.com/rust-lang-nursery/fmt-rfcs/issues/68)
+* [assignment and assignment operators](https://github.com/rust-lang-nursery/fmt-rfcs/issues/67)
+
 
 # Upcoming Events
 
