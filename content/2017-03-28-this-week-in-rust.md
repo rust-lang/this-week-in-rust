@@ -205,8 +205,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust developers at Cornell Tech New York](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/job/New-York-City-Cornell-Tech/Developer-or-Senior-Developer-in-Residence-Cornell-Tech--New-York--NY_WDR-00010241).
-* [Rust engineer at a startup in San Francisco](https://users.rust-lang.org/t/jobs-in-rust-development/3628/4).
+*No jobs listed for this week.*
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
