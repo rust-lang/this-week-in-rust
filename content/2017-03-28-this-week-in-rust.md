@@ -87,7 +87,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [allow `use`d 2.0 macros to shadow global macros](https://github.com/rust-lang/rust/pull/40501)
 * [on-demand privacy checks](https://github.com/rust-lang/rust/pull/40771) & [associated item retrieval](https://github.com/rust-lang/rust/pull/40668)
 * [warn instead of err on `'static` lifetime bounds](https://github.com/rust-lang/rust/pull/40734) (just use it directly, will you?)
-* [stabilize `pub(restricted)`](https://github.com/rust-lang/rust/pull/40566)
+* [stabilize `pub(restricted)`](https://github.com/rust-lang/rust/pull/40556)
 * [more helpful error on incorrect `pub(restricted)`](https://github.com/rust-lang/rust/pull/40627)
 * [simplify hash table drops](https://github.com/rust-lang/rust/pull/40739)
 * [implement `?` in `catch` expressions](https://github.com/rust-lang/rust/pull/40229)
