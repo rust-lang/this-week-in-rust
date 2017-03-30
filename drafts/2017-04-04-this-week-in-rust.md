@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Async, Futures, AMQP, pick three](https://www.clever-cloud.com/blog/engineering/2017/03/28/lapin-new-rust-amqp-library/).
 
 # Crate of the Week
 
@@ -168,6 +169,7 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 * [Mar 29. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Mar 29. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Mar 31. Underhanded Rust Contest Submission Deadline](https://underhanded.rs/blog/2016/12/15/underhanded-rust.en-US.html).
+* [Apr  4. Clever Cloud talks Rust in Paris](https://www.meetup.com/fr-FR/Rust-Paris/events/238791322/)
 * [Apr  5. Rust User Group Cologne - Crate Polishing](http://rust.cologne/2017/04/05/crate-polishing.html).
 * [Apr  5. Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/events/238104881/).
 * [Apr  5. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
