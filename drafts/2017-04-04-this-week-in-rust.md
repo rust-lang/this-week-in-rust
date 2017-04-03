@@ -142,20 +142,17 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [Style RFCs](https://github.com/rust-lang-nursery/fmt-rfcs) are part of the process for deciding on style guidelines for the Rust community and defaults for [Rustfmt](https://github.com/rust-lang-nursery/rustfmt). The process is similar to the RFC process, but we try to reach rough consensus on issues (including a final comment period) before progressing to PRs. Just like the RFC process, all users are welcome to comment and submit RFCs. If you want to help decide what Rust code should look like, come get involved!
 
+We're making good progress and the style is coming together. If you want to see the style in practice, check out [our example](https://github.com/rust-lang-nursery/fmt-rfcs/blob/master/example/lists.rs) or use the [Integer32 Playground](https://play.integer32.com/) and select 'Proposed RFC' from the 'Format' menu. Be aware that implementation is work in progress.
+
 Issues in final comment period:
 
-* [Ordering of types of groups within a module](https://github.com/rust-lang-nursery/fmt-rfcs/issues/71).
-* [where clauses](https://github.com/rust-lang-nursery/fmt-rfcs/issues/38)
-* [Ranges](https://github.com/rust-lang-nursery/fmt-rfcs/issues/60)
-* [Conventions for blank lines](https://github.com/rust-lang-nursery/fmt-rfcs/issues/57)
-
-Other significant issues:
-
-* [expressions (tracking issue)](https://github.com/rust-lang-nursery/fmt-rfcs/issues/16)
+* [Imports (`use`)](https://github.com/rust-lang-nursery/fmt-rfcs/issues/24)
+* [Closures](https://github.com/rust-lang-nursery/fmt-rfcs/issues/35)
+* [Where clauses](https://github.com/rust-lang-nursery/fmt-rfcs/issues/38)
 
 Good first issues:
 
-We're happy to mentor these, please reach out to us in #rust-style if you'd like to get invovled
+We're happy to mentor these, please reach out to us in #rust-style if you'd like to get involved
 
 * [simple expressions](https://github.com/rust-lang-nursery/fmt-rfcs/issues/68)
 * [assignment and assignment operators](https://github.com/rust-lang-nursery/fmt-rfcs/issues/67)
