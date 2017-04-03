@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's Crate of this Week is [pretty_assertions](https://github.com/colin-kiegel/rust-pretty-assertions) which replaces the standard ones to make them shiny. Thanks to [willi_kappler](https://users.rust-lang.org/users/willi_kappler) for the suggestion!
+This week's Crate of this Week is [fst](https://github.com/BurntSushi/fst), which contains Finite State Transducers and assorted algorithms that use them (e.g. fuzzy text search). Thanks to [Jules Kerssemakers](https://users.rust-lang.org/users/juleskers) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -58,48 +58,35 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-120 pull requests were [merged in the last week][merged].
+114 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-20..2016-03-27
+[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-27..2016-04-03
 
-* [yet another sort optimization](https://github.com/rust-lang/rust/pull/40807)
-* [even faster `unstable_sort`](https://github.com/rust-lang/rust/pull/40601) (integrates [pdqsort](https://github.com/stjepang/pdqsort) into std, note the "unstable" here is about sort order)
-* [replace `FromStr` with `TryFrom`](https://github.com/rust-lang/rust/pull/40281) (yay for the more general solution)
-* [implement `Error` for `!`](https://github.com/rust-lang/rust/pull/40566)
-* [`format!(..)` changes padding logic](https://github.com/rust-lang/rust/pull/40241) (⚠ breaking change! ⚠)
-* [fix invalid `Debug` display for associated constants](https://github.com/rust-lang/rust/pull/39628)
-* [fix macro derive ICE](https://github.com/rust-lang/rust/pull/40664)
-* [macros: better quoting for `TokenStream`s](https://github.com/rust-lang/rust/pull/40532)
-* [forbid conflicts between 1.0 and 2.0 macros](https://github.com/rust-lang/rust/pull/40509)
-* [allow `use`d 2.0 macros to shadow global macros](https://github.com/rust-lang/rust/pull/40501)
-* [on-demand privacy checks](https://github.com/rust-lang/rust/pull/40771) & [associated item retrieval](https://github.com/rust-lang/rust/pull/40668)
-* [warn instead of err on `'static` lifetime bounds](https://github.com/rust-lang/rust/pull/40734) (just use it directly, will you?)
-* [stabilize `pub(restricted)`](https://github.com/rust-lang/rust/pull/40566)
-* [more helpful error on incorrect `pub(restricted)`](https://github.com/rust-lang/rust/pull/40627)
-* [simplify hash table drops](https://github.com/rust-lang/rust/pull/40739)
-* [implement `?` in `catch` expressions](https://github.com/rust-lang/rust/pull/40229)
-* [remove unused adt-def insertion](https://github.com/rust-lang/rust/pull/40696) (yay for cleaning up)
-* [revert an unfortunate interaction between reachability & type inference](https://github.com/rust-lang/rust/pull/40636) (never-types make my head hurt, too)
-* [propagate expected type hints through struct literals](https://github.com/rust-lang/rust/pull/40398)
-* [trait object type parsing refactored, fixed](https://github.com/rust-lang/rust/pull/40043)
-* [HIR now has a `HirId` to use instead of `ast::NodeId`](https://github.com/rust-lang/rust/pull/40518) (plugin-breaking)
-* [MIR: constant function pointers are now values instead of items](https://github.com/rust-lang/rust/pull/40602)
-* [use MIR to translate shims](https://github.com/rust-lang/rust/pull/39628) (removes a lot of the old `trans` code)
-* [rustc now uses the liblog crate from crates.io](https://github.com/rust-lang/rust/pull/40347) (The first crate from crates.io in rustc! 🎉)
-* [split out `rls-data` crate to be used both by `--save-analysis` and the RLS](https://github.com/rust-lang/rust/pull/40554) (another crate on crates.io)
-* [`rustc --emit=mir`](https://github.com/rust-lang/rust/pull/39891)
-* [Correctly get source for metatdata-only crate type](https://github.com/rust-lang/rust/pull/40542)
-* [add missing LLVM 4.0 debuginfo to globals](https://github.com/rust-lang/rust/pull/40581)
-* [always create unwind tables under Windows](https://github.com/rust-lang/rust/pull/40549)
-* LLVM on ARM: [fix to codegen](https://github.com/rust-lang/rust/pull/40779), [fix `computeKnownBits` off-by-one error](https://github.com/rust-lang/llvm/pull/67)
-* [rustdoc now uses natural sort order for item names](https://github.com/rust-lang/rust/pull/40567)
-* [cargo invalidates caches on metadata change](https://github.com/rust-lang/cargo/pull/3857)
-* [`cargo test` now reports the name of failing tests](https://github.com/rust-lang/cargo/pull/3848)
-* [cargo no longer overflows the stack on cyclic dependencies](https://github.com/rust-lang/cargo/pull/3848)
-* [crates.io now uses](https://github.com/rust-lang/crates.io/pull/640) [Diesel](https://diesel.rs) for `/crates/new`
-* [crates.io: Schema simplification](https://github.com/rust-lang/crates.io/pull/641)
-* [crates.io: updated dependencies](https://github.com/rust-lang/crates.io/pull/642)
-* [crates.io now builds with clippy](https://github.com/rust-lang/crates.io/pull/618)
+* [diverging types now check more correctly](https://github.com/rust-lang/rust/pull/40224)
+* [`save-analysis` tracks associated types](https://github.com/rust-lang/rust/pull/40915)
+* [`save-analysis` allows clients to get data directly](https://github.com/rust-lang/rust/pull/40751) (without writing a file)
+* on-demand-ify [`custom_coerce_unsized_kind` and `inherent-impls`](https://github.com/rust-lang/rust/pull/40683) and the
+  [typechecking of item bodies](https://github.com/rust-lang/rust/pull/40540)
+* [more accurate macro expansion information](https://github.com/rust-lang/rust/pull/40597)
+* [`borrowck` `&mut` suggestion refactoring](https://github.com/rust-lang/rust/pull/40841)
+* [fix ICE on some nested macro definitions](https://github.com/rust-lang/rust/pull/40813)
+* [fix build on MSP430 (16 bit)](https://github.com/rust-lang/rust/pull/40832)
+* [keep `ast::NodeId` for range expressions during HIR lowering](https://github.com/rust-lang/rust/pull/40764)
+* [improve `InternedString` usability](https://github.com/rust-lang/rust/pull/40606) (notably, it now implements `PartialEq` to anything string-y)
+* [make `overlapping_inherent_impls` lint a hard error](https://github.com/rust-lang/rust/pull/40728)
+* [specialize `Vec::from_iter` for `Vec::IntoIter`](https://github.com/rust-lang/rust/pull/40731)
+* [`sort()` is now tested against random comparison functions](https://github.com/rust-lang/rust/pull/40947)
+* [`core::cmp::Reverse`](https://github.com/rust-lang/rust/pull/40720) (also [implements `PartialOrd` fully](https://github.com/rust-lang/rust/pull/40929))
+* [`impl `{`AsRawFd`, `IntoRawFd`}` for RawFd`](https://github.com/rust-lang/rust/pull/40842)
+* [checked slicing for strings](https://github.com/rust-lang/rust/pull/40737)
+* [no longer cache stdio handles on Windows](https://github.com/rust-lang/rust/pull/40516)
+* [add Pijul support to Cargo](https://github.com/rust-lang/cargo/pull/3842)
+* [rustdoc now uses `pulldown-cmark` instead of hoedown](https://github.com/rust-lang/rust/pull/40516) (yay!)
+* [rustdoc accepts `#` at the start of a markdown file](https://github.com/rust-lang/rust/pull/40828)
+* [rustdoc no longer documents reexported macros twice](https://github.com/rust-lang/rust/pull/40814)
+* [`crates.io` now sorts versions following semver](https://github.com/rust-lang/crates.io/pull/665)
+* [`crates.io` index corruption fixed](https://github.com/rust-lang/crates.io/pull/658)
+* [the playpen now highlights spans in MIR comments](https://github.com/rust-lang/rust-playpen/pull/284)
 
 ## New Contributors
 
