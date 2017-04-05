@@ -86,7 +86,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [checked slicing for strings](https://github.com/rust-lang/rust/pull/40737)
 * [no longer cache stdio handles on Windows](https://github.com/rust-lang/rust/pull/40516)
 * [add Pijul support to Cargo](https://github.com/rust-lang/cargo/pull/3842)
-* [rustdoc now uses `pulldown-cmark` instead of hoedown](https://github.com/rust-lang/rust/pull/40516) (yay!)
+* [rustdoc now uses `pulldown-cmark` instead of hoedown](https://github.com/rust-lang/rust/pull/40338) (yay!)
 * [rustdoc accepts `#` at the start of a markdown file](https://github.com/rust-lang/rust/pull/40828)
 * [rustdoc no longer documents reexported macros twice](https://github.com/rust-lang/rust/pull/40814)
 * [`crates.io` now sorts versions following semver](https://github.com/rust-lang/crates.io/pull/665)
