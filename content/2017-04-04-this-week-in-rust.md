@@ -29,7 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Building realtime APIs in Rust](https://lord.io/blog/2017/backtalk/).
 * [Writing GStreamer elements in Rust (part 4)](https://coaxion.net/blog/2017/03/writing-gstreamer-elements-in-rust-part-4-logging-cows-and-plugins/). Logging, COWs and plugins.
 * [This week in Rust docs 50](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-50).
-* [These weeks in Servo 96](https://blog.servo.org/2017/03/20/twis-96/).
+* [These weeks in Servo 96](https://blog.servo.org/2017/04/03/twis-96/).
 
 # Crate of the Week
 
