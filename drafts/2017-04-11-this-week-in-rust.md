@@ -16,6 +16,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Iteration patterns for Result & Option](http://xion.io/post/code/rust-iter-patterns.html).
+* [Corrode update: control flow translation correctness](http://jamey.thesharps.us/2017/04/corrode-update-control-flow-translation.html).
+* [Calling Rust from Python](https://bheisler.github.io/post/calling-rust-in-python/).
+* [Notes from the Rust+GNOME hackfest in Mexico City, part 1](https://people.gnome.org/~federico/news-2017-04.html#rust-gnome-hackfest-1).
+* [A demo of calling JavaScript from Rust in WebAssembly](https://github.com/kainino0x/wasm-call-js-from-rust).
+* [zk-SNARKs zero-knowledge proofs in Rust](https://z.cash/blog/bellman-zksnarks-in-rust.html).
+* [Visual Studio Code 1.11 is released and its text search functionality is powered by ripgrep - a tool written in Rust](https://code.visualstudio.com/updates/v1_11#_text-search-improvements).
+* [This week in Rust docs 51](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-51).
+* [This week in Servo 97](https://blog.servo.org/2017/04/10/twis-97/).
+
 # Crate of the Week
 
 This week's Crate of this Week is [fst](https://github.com/BurntSushi/fst), which contains Finite State Transducers and assorted algorithms that use them (e.g. fuzzy text search). Thanks to [Jules Kerssemakers](https://users.rust-lang.org/users/juleskers) for the suggestion!
@@ -31,16 +41,35 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Want to join the Rust docs team](http://words.steveklabnik.com/want-to-join-the-rust-docs-team)?
+* [Rusoto an AWS SDK for Rust is looking for maintainers](https://github.com/rusoto/rusoto/issues/593).
 * [Rust reference docs: Document all features](https://github.com/rust-lang-nursery/reference/issues/9).
-* [Rusoto an AWS SDK for Rust is looking for maintainers](https://github.com/rusoto/rusoto).
+* [rust: Error message when VS 2015 build tools exist but not the SDK needs to be better](https://github.com/rust-lang/rust/issues/41151).
+* [easy] [lazy_static: Set html_root_url crate attribute](https://github.com/rust-lang-nursery/lazy-static.rs/issues/69). lazy_static is a small macro for defining lazy evaluated static variables in Rust.
+* [easy] [lazy_static: Change Cargo.toml `documentation` to point to "https://docs.rs/lazy_static"](https://github.com/rust-lang-nursery/lazy-static.rs/issues/68).
+* [easy] [lazy_static: Include `homepage` in Cargo.toml](https://github.com/rust-lang-nursery/lazy-static.rs/issues/67).
+* [easy] [lazy_static: Include `categories` in Cargo.toml](https://github.com/rust-lang-nursery/lazy-static.rs/issues/66).
+* [easy] [lazy_static: Publish CI badges for all Tier 1 platforms](https://github.com/rust-lang-nursery/lazy-static.rs/issues/65).
+* [easy] [flate2: Remove R: Read bounds on structs](https://github.com/alexcrichton/flate2-rs/issues/88). flate2 implements FLATE, Gzip, and Zlib bindings for Rust.
+* [easy] [flate2: Method to get mtime of a GzHeader as a datetime](https://github.com/alexcrichton/flate2-rs/issues/86).
+* [easy] [flate2: Clarify documentation of GzHeader::mtime](https://github.com/alexcrichton/flate2-rs/issues/85).
+* [easy] [flate2: GzBuilder methods should take `Into<Vec<u8>>`](https://github.com/alexcrichton/flate2-rs/issues/84).
+* [easy] [flate2: All public types should implement `Debug`](https://github.com/alexcrichton/flate2-rs/issues/83).
+* [easy] [flate2: Eagerly implement common traits](https://github.com/alexcrichton/flate2-rs/issues/82).
+* [easy] [flate2: Wire up rustdoc hyperlinks](https://github.com/alexcrichton/flate2-rs/issues/81).
+* [easy] [flate2: Publish CI badges for all Tier 1 platforms](https://github.com/alexcrichton/flate2-rs/issues/80).
+* [easy] [flate2: Use distinct Flush types for `Compress::compress` vs `Decompress::decompress`](https://github.com/alexcrichton/flate2-rs/issues/79).
+* [easy] [flate2: Document error conditions in "Errors" sections](https://github.com/alexcrichton/flate2-rs/issues/78).
+* [easy] [flate2: Document the GzBuilder panic cases](https://github.com/alexcrichton/flate2-rs/issues/77).
+* [easy] [flate2: Write usage examples](https://github.com/alexcrichton/flate2-rs/issues/76).
+* [easy] [flate2: Rename internal types to match the public types](https://github.com/alexcrichton/flate2-rs/issues/75).
+* [easy] [bitflags: Resolve clippy lints](https://github.com/rust-lang-nursery/bitflags/issues/41). Bitflags is a Rust macro to generate structures which behave like a set of bitflags.
+* [easy] [bitflags: Mention Default trait in the docs](https://github.com/rust-lang-nursery/bitflags/issues/66).
 * [liner: Make keyboard interrupts (e.g. SIGINT from Ctrl-c) work](https://github.com/MovingtoMars/liner/issues/4). Liner is a readline-like library in Rust.
 * [liner: Tilde expansion](https://github.com/MovingtoMars/liner/issues/34).
 * [liner: Password mode](https://github.com/MovingtoMars/liner/issues/25).
 * [liner: Use right arrow key to select autocompletion](https://github.com/MovingtoMars/liner/issues/37).
 * [Ion: Optional Descriptions for Functions](https://github.com/redox-os/ion/issues/232). Ion is a shell for UNIX platforms, and is the default shell in Redox.
 * [Ion: Implement Mapfiles](https://github.com/redox-os/ion/issues/247).
-* [parenchyma: CUDA maintainer](https://github.com/lychee-eng/parenchyma/issues/22). Parenchyma is an extensible HPC-Framework for CUDA, OpenCL and native CPU.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -80,16 +109,13 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Alan Stoate
-* aStoate
-* Donnie Bishop
-* GAJaloyan
-* Jörg Thalheim
-* Malo Jaffré
-* Micah Tigley
-* Nick Sweeting
-* Phil Ellison
-* raph
+* Anatol Pomozov
+* Bryan Tan
+* GitLab
+* Matthew Jasper
+* Nathan Stocks
+* Peter Gerber
+* Shiz
 
 ## Approved RFCs
 
@@ -107,7 +133,6 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [disposition: postpone] [Polymorphic Numeric Constants](https://github.com/rust-lang/rfcs/pull/1945).
 * [disposition: postpone] [Introduce `with` bounds for pi types](https://github.com/rust-lang/rfcs/pull/1932).
 * [disposition: merge] [extend `?` to operate over other types](https://github.com/rust-lang/rfcs/pull/1859).
 * [disposition: merge] [Remove static bound from type_id](https://github.com/rust-lang/rfcs/pull/1849).
@@ -116,7 +141,8 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Copy most of the static `ptr::` functions to methods on unsafe pointers themselves](https://github.com/rust-lang/rfcs/pull/1966).
+* [Allow any Displayable type for expect](https://github.com/rust-lang/rfcs/pull/1968).
+* [Prepublication dependencies for Cargo](https://github.com/rust-lang/rfcs/pull/1969).
 
 ## Style RFCs
 
@@ -137,7 +163,6 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 * [simple expressions](https://github.com/rust-lang-nursery/fmt-rfcs/issues/68)
 * [assignment and assignment operators](https://github.com/rust-lang-nursery/fmt-rfcs/issues/67)
 
-
 # Upcoming Events
 
 * [Apr  5. Rust User Group Cologne - Crate Polishing](http://rust.cologne/2017/04/05/crate-polishing.html).
@@ -150,6 +175,7 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 * [Apr  6. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Apr 10. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/238404173/).
 * [Apr 11. Toronto Rust Meetup](https://www.meetup.com/Rust-Toronto/events/238780453/).
+
 * [Apr 12. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Apr 12. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Apr 13. Rust Melbourne - Why your first FizzBuzz Rust implementation may not work](https://www.meetup.com/Rust-Melbourne/events/238108356/).
@@ -157,10 +183,13 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 * [Apr 13. Rust Meetup Hamburg - Hack & Learn Tokio Edition](https://www.meetup.com/Rust-Meetup-Hamburg/events/237984043/).
 * [Apr 13. Columbus Rust Society](https://www.meetup.com/columbus-rs/events/238502945/).
 * [Apr 18. Mozilla Meetup Switzerland - Iron - Web development with Rust](https://www.meetup.com/en-US/Mozilla-Meetup-Switzerland/events/237870710/).
+* [Apr 19. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/238743312/).
 * [Apr 19. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Apr 19. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Apr 20. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Apr 20. Rust Utrecht - Use Rust: Mentored Workshop](https://www.meetup.com/Rust-Utrecht/events/238725437/).
+* [Apr 27. Rust Stockholm - Rust meetup @ Distil Networks](https://www.meetup.com/ruststhlm/events/238207716/).
+* [Apr 27. Rust Meetup Dresden](https://forum.rustplatz.de/t/neues-rust-meetup-in-dresden/156/28).
 * **[Apr 30. RustFest 2017 - Kyiv, Ukraine](http://2017.rustfest.eu/).**
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -177,12 +206,12 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I gave my company's Embedded C training course this morning.
-> It's amazing how much more sense C makes when you explain it in Rust terms.
+>  Nobody expects the Rust Evangelism Strike Force!
+> Our chief weapon is surprise, surprise and fearless concurrency... fearless concurrency and surprise... our two weapons are fearless concurrency and surprise, and ruthless efficiency our three, weapons are fearless concurrency, and surprise, and ruthless efficiency, and an almost fanatical devotion to zero-cost abstractions. Our four, no--amongst our weapons... Amongst our weaponry... are, such elements as fearless concurrency, surprise... I'll come in again.
 
-— [theJPster in #rust-embedded](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-embedded).
+— [kibwen in reddit](https://www.reddit.com/r/rust/comments/63ws8o/rust_go_to_mentioned_in_a_batgirl_comic/dfxyghk/).
 
-Thanks to [Oliver Schneider for the suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/379).
+Thanks to [shadow31](https://www.reddit.com/r/rust/comments/63ws8o/rust_go_to_mentioned_in_a_batgirl_comic/dfyf1db/) and [KillTheMule](https://users.rust-lang.org/t/twir-quote-of-the-week/328/389) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
