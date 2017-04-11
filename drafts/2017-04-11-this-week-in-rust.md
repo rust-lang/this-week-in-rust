@@ -159,6 +159,7 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 * [Apr 13. San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/238305909/).
 * [Apr 13. Rust Meetup Hamburg - Hack & Learn Tokio Edition](https://www.meetup.com/Rust-Meetup-Hamburg/events/237984043/).
 * [Apr 13. Columbus Rust Society](https://www.meetup.com/columbus-rs/events/238502945/).
+* [Apr 16. Beijing Rust Meetup](https://www.meetup.com/Beijing-Infrastructure-Meetup/events/239125196/).
 * [Apr 18. Mozilla Meetup Switzerland - Iron - Web development with Rust](https://www.meetup.com/en-US/Mozilla-Meetup-Switzerland/events/237870710/).
 * [Apr 19. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Apr 19. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
