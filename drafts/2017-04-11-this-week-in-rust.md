@@ -16,7 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Announcing `runtime-fmt`, a crate for using runtime format strings](https://www.platymuus.com/posts/2017/runtime-fmt/)
+* [Launching a URL shortener in Rust using Rocket](https://matthias-endler.de/2017/rust-url-shortener).
+* [Announcing `runtime-fmt`, a crate for using runtime format strings](https://www.platymuus.com/posts/2017/runtime-fmt/).
 
 # Crate of the Week
 
