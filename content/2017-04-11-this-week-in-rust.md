@@ -168,17 +168,6 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 
 # Upcoming Events
 
-* [Apr  5. Rust User Group Cologne - Crate Polishing](http://rust.cologne/2017/04/05/crate-polishing.html).
-* [Apr  5. Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/events/238104881/).
-* [Apr  5. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Apr  5. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [Apr  5. OpenTechSchool Berlin: Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/238613284/).
-* [Apr  6. Rust DC Learn + Try: tokio](https://www.meetup.com/RustDC/events/238221152/).
-* [Apr  6. Rust Detroit - Letting the type system catch errors for you](https://www.meetup.com/rust-detroit/events/238662757).
-* [Apr  6. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Apr 10. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/238404173/).
-* [Apr 11. Toronto Rust Meetup](https://www.meetup.com/Rust-Toronto/events/238780453/).
-
 * [Apr 12. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Apr 12. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Apr 13. Rust Melbourne - Why your first FizzBuzz Rust implementation may not work](https://www.meetup.com/Rust-Melbourne/events/238108356/).
@@ -213,7 +202,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 >  Nobody expects the Rust Evangelism Strike Force!
 > Our chief weapon is surprise, surprise and fearless concurrency... fearless concurrency and surprise... our two weapons are fearless concurrency and surprise, and ruthless efficiency our three, weapons are fearless concurrency, and surprise, and ruthless efficiency, and an almost fanatical devotion to zero-cost abstractions. Our four, no--amongst our weapons... Amongst our weaponry... are, such elements as fearless concurrency, surprise... I'll come in again.
 
-— [kibwen in reddit](https://www.reddit.com/r/rust/comments/63ws8o/rust_go_to_mentioned_in_a_batgirl_comic/dfxyghk/).
+— [kibwen on reddit](https://www.reddit.com/r/rust/comments/63ws8o/rust_go_to_mentioned_in_a_batgirl_comic/dfxyghk/).
 
 Thanks to [shadow31](https://www.reddit.com/r/rust/comments/63ws8o/rust_go_to_mentioned_in_a_batgirl_comic/dfyf1db/) and [KillTheMule](https://users.rust-lang.org/t/twir-quote-of-the-week/328/389) for the suggestion.
 
