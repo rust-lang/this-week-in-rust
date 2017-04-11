@@ -14,6 +14,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
+ * Questions or concerns about Rust's infrastructure (CI, PR Queue, bors, highfive) should go to #rust-infra on
+   IRC.
+
 ## News & Blog Posts
 
 * [Iteration patterns for Result & Option](http://xion.io/post/code/rust-iter-patterns.html).
