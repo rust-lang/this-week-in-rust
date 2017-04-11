@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's Crate of this Week is [fst](https://github.com/BurntSushi/fst), which contains Finite State Transducers and assorted algorithms that use them (e.g. fuzzy text search). Thanks to [Jules Kerssemakers](https://users.rust-lang.org/users/juleskers) for the suggestion!
+This week's Crate of this Week is [rust-skeptic](https://github.com/brson/rust-skeptic), a cargo subcommand to doctest your README.md. Thanks to [staticassert](https://users.rust-lang.org/users/staticassert) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -50,35 +50,36 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-114 pull requests were [merged in the last week][merged].
+132 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-27..2016-04-03
+[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-04-03..2016-04-10
 
-* [diverging types now check more correctly](https://github.com/rust-lang/rust/pull/40224)
+* [ABI layout computation is no longer tied to LLVM](https://github.com/rust-lang/rust/pull/40658) (yay!)
+* [new `#[used]` attribute](https://github.com/rust-lang/rust/pull/39987)
+* [the "visible parent map" is now immutable](https://github.com/rust-lang/rust/pull/41061) (potentially, but unlikely plugin-breaking)
+* [undefined types (e.g. due to parsing errors) are now `TyError` instead of `TyInfer`](https://github.com/rust-lang/rust/pull/40887) (potentially plugin-breaking)
+* [avoid dropflags creation for empty drops](https://github.com/rust-lang/rust/pull/41148)
+* [the `overlapping_inherent_impls` lint is now a hard error](https://github.com/rust-lang/rust/pull/41052)
+* [fix macros including `#[derive]`s](https://github.com/rust-lang/rust/pull/41050)
+* [on Linux, use `poll instead of `select`](https://github.com/rust-lang/rust/pull/41039) (for more than 1K file descriptors)
+* [improve `iterator::Rev::`{`find`, `rfind`} plumbing](https://github.com/rust-lang/rust/pull/41028) ([also on `slice::Iter`/`IterMut`](https://github.com/rust-lang/rust/pull/41154)
+* [simplify `HashMap::Bucket` for awesome speedups](https://github.com/rust-lang/rust/pull/40561)
+* [optimize `AtomicBool::fetch_nand(..)`](https://github.com/rust-lang/rust/pull/41143)
+* [`RawFd` no longer implements `AsRawFd`/`IntoRawFd`](https://github.com/rust-lang/rust/pull/41035)
+* [`Vec::place_back()` no longer requires `T: Clone`](https://github.com/rust-lang/rust/pull/40909)
+* [new `[T]::`{`rsplit`, `rsplit_mut` methods}`(..)`](https://github.com/rust-lang/rust/pull/41065)
+* [add safe wrapper for `atomic_compilerfence` intrinsics](https://github.com/rust-lang/rust/pull/41092)
+* [on-demandify reachability](https://github.com/rust-lang/rust/pull/40873)
+* [point out private fields inadvertently called as methods](https://github.com/rust-lang/rust/pull/41062)
+* [better error message on missing item category](https://github.com/rust-lang/rust/pull/40815)
+* [Suggest enum when variant is erroneously used as type](https://github.com/rust-lang/rust/pull/40775)
+* [don't try to blame tuple fields for immutability](https://github.com/rust-lang/rust/pull/41108)
+* [always show the end of multiline annotations](https://github.com/rust-lang/rust/pull/41136)
+* [show last valid token on syntax errors](https://github.com/rust-lang/rust/pull/40811)
 * [`save-analysis` tracks associated types](https://github.com/rust-lang/rust/pull/40915)
-* [`save-analysis` allows clients to get data directly](https://github.com/rust-lang/rust/pull/40751) (without writing a file)
-* on-demand-ify [`custom_coerce_unsized_kind` and `inherent-impls`](https://github.com/rust-lang/rust/pull/40683) and the
-  [typechecking of item bodies](https://github.com/rust-lang/rust/pull/40540)
-* [more accurate macro expansion information](https://github.com/rust-lang/rust/pull/40597)
-* [`borrowck` `&mut` suggestion refactoring](https://github.com/rust-lang/rust/pull/40841)
-* [fix ICE on some nested macro definitions](https://github.com/rust-lang/rust/pull/40813)
-* [fix build on MSP430 (16 bit)](https://github.com/rust-lang/rust/pull/40832)
-* [keep `ast::NodeId` for range expressions during HIR lowering](https://github.com/rust-lang/rust/pull/40764)
-* [improve `InternedString` usability](https://github.com/rust-lang/rust/pull/40606) (notably, it now implements `PartialEq` to anything string-y)
-* [make `overlapping_inherent_impls` lint a hard error](https://github.com/rust-lang/rust/pull/40728)
-* [specialize `Vec::from_iter` for `Vec::IntoIter`](https://github.com/rust-lang/rust/pull/40731)
-* [`sort()` is now tested against random comparison functions](https://github.com/rust-lang/rust/pull/40947)
-* [`core::cmp::Reverse`](https://github.com/rust-lang/rust/pull/40720) (also [implements `PartialOrd` fully](https://github.com/rust-lang/rust/pull/40929))
-* [`impl `{`AsRawFd`, `IntoRawFd`}` for RawFd`](https://github.com/rust-lang/rust/pull/40842)
-* [checked slicing for strings](https://github.com/rust-lang/rust/pull/40737)
-* [no longer cache stdio handles on Windows](https://github.com/rust-lang/rust/pull/40516)
-* [add Pijul support to Cargo](https://github.com/rust-lang/cargo/pull/3842)
-* [rustdoc now uses `pulldown-cmark` instead of hoedown](https://github.com/rust-lang/rust/pull/40516) (yay!)
-* [rustdoc accepts `#` at the start of a markdown file](https://github.com/rust-lang/rust/pull/40828)
-* [rustdoc no longer documents reexported macros twice](https://github.com/rust-lang/rust/pull/40814)
-* [`crates.io` now sorts versions following semver](https://github.com/rust-lang/crates.io/pull/665)
-* [`crates.io` index corruption fixed](https://github.com/rust-lang/crates.io/pull/658)
-* [the playpen now highlights spans in MIR comments](https://github.com/rust-lang/rust-playpen/pull/284)
+* [allow multiple output types again](https://github.com/rust-lang/rust/pull/41085) (regressed after 1.14)
+* [rustdoc now uses pulldown-cmark instead of hoedown](https://github.com/rust-lang/rust/pull/41112) (also [assorted issues fixed](https://github.com/rust-lang/rust/pull/41111))
+* [crates.io now shows links directly under crate name header](https://github.com/rust-lang/crates.io/pull/668)
 
 ## New Contributors
 
