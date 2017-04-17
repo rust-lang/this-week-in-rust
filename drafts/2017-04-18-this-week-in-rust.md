@@ -19,7 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's Crate of this Week is [rust-skeptic](https://github.com/brson/rust-skeptic), a cargo subcommand to doctest your README.md. Thanks to [staticassert](https://users.rust-lang.org/users/staticassert) for the suggestion!
+Sadly, for lack of nominations we have no Crate of this Week.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -68,36 +68,32 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-132 pull requests were [merged in the last week][merged].
+100 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-04-03..2016-04-10
+[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-04-10..2016-04-17
 
-* [ABI layout computation is no longer tied to LLVM](https://github.com/rust-lang/rust/pull/40658) (yay!)
-* [new `#[used]` attribute](https://github.com/rust-lang/rust/pull/39987)
-* [the "visible parent map" is now immutable](https://github.com/rust-lang/rust/pull/41061) (potentially, but unlikely plugin-breaking)
-* [undefined types (e.g. due to parsing errors) are now `TyError` instead of `TyInfer`](https://github.com/rust-lang/rust/pull/40887) (potentially plugin-breaking)
-* [avoid dropflags creation for empty drops](https://github.com/rust-lang/rust/pull/41148)
-* [the `overlapping_inherent_impls` lint is now a hard error](https://github.com/rust-lang/rust/pull/41052)
-* [fix macros including `#[derive]`s](https://github.com/rust-lang/rust/pull/41050)
-* [on Linux, use `poll instead of `select`](https://github.com/rust-lang/rust/pull/41039) (for more than 1K file descriptors)
-* [improve `iterator::Rev::`{`find`, `rfind`} plumbing](https://github.com/rust-lang/rust/pull/41028) ([also on `slice::Iter`/`IterMut`](https://github.com/rust-lang/rust/pull/41154)
-* [simplify `HashMap::Bucket` for awesome speedups](https://github.com/rust-lang/rust/pull/40561)
-* [optimize `AtomicBool::fetch_nand(..)`](https://github.com/rust-lang/rust/pull/41143)
-* [`RawFd` no longer implements `AsRawFd`/`IntoRawFd`](https://github.com/rust-lang/rust/pull/41035)
-* [`Vec::place_back()` no longer requires `T: Clone`](https://github.com/rust-lang/rust/pull/40909)
-* [new `[T]::`{`rsplit`, `rsplit_mut` methods}`(..)`](https://github.com/rust-lang/rust/pull/41065)
-* [add safe wrapper for `atomic_compilerfence` intrinsics](https://github.com/rust-lang/rust/pull/41092)
-* [on-demandify reachability](https://github.com/rust-lang/rust/pull/40873)
-* [point out private fields inadvertently called as methods](https://github.com/rust-lang/rust/pull/41062)
-* [better error message on missing item category](https://github.com/rust-lang/rust/pull/40815)
-* [Suggest enum when variant is erroneously used as type](https://github.com/rust-lang/rust/pull/40775)
-* [don't try to blame tuple fields for immutability](https://github.com/rust-lang/rust/pull/41108)
-* [always show the end of multiline annotations](https://github.com/rust-lang/rust/pull/41136)
-* [show last valid token on syntax errors](https://github.com/rust-lang/rust/pull/40811)
-* [`save-analysis` tracks associated types](https://github.com/rust-lang/rust/pull/40915)
-* [allow multiple output types again](https://github.com/rust-lang/rust/pull/41085) (regressed after 1.14)
-* [rustdoc now uses pulldown-cmark instead of hoedown](https://github.com/rust-lang/rust/pull/41112) (also [assorted issues fixed](https://github.com/rust-lang/rust/pull/41111))
-* [crates.io now shows links directly under crate name header](https://github.com/rust-lang/crates.io/pull/668)
+* [struct field reordering, including optimization fuel](https://github.com/rust-lang/rust/pull/40377) (yay!)
+* [on-demand `adt_sized_constraint`](https://github.com/rust-lang/rust/pull/41319)
+* [handle subtyping in inference through obligations](https://github.com/rust-lang/rust/pull/40570)
+* [fix `if let .. else` desugaring](https://github.com/rust-lang/rust/pull/41316)
+* [improve generated LLVM IR, removing ZSTs and unneeded branches](https://github.com/rust-lang/rust/pull/40367)
+* [compress `ReprOptions` memory representation](https://github.com/rust-lang/rust/pull/41329)
+* [allow overlapping `impl`s for marker traits](https://github.com/rust-lang/rust/pull/41309) (RFC [#1268](https://github.com/rust-lang/rfcs/blob/master/text/1268-allow-overlapping-impls-on-marker-traits.md))
+* [`global_asm!()`](https://github.com/rust-lang/rust/pull/40702) (RFC [#1548](https://github.com/rust-lang/rfcs/blob/master/text/1548-global-asm.md))
+* [manually drop](https://github.com/rust-lang/rust/pull/40559) (RFC [#1860](https://github.com/rust-lang/rfcs/blob/master/text/1860-manually-drop.md)) 
+* [compile WASM as is instead of asm.js](https://github.com/rust-lang/rust/pull/41303)
+* [consolidate type adjustment composition](https://github.com/rust-lang/rust/pull/41279)
+* [fix 128-bit division on 32-bit targets](https://github.com/rust-lang/rust/pull/41250)
+* [fix pairs of doubles using illegal vectors](https://github.com/rust-lang/rust/pull/41206)
+* [highlight and simplify mismatched types](https://github.com/rust-lang/rust/pull/41205)
+* [fix move checking for nested union fields](https://github.com/rust-lang/rust/pull/41153)
+* [improve metadata hashing](https://github.com/rust-lang/rust/pull/41141)
+* [`str::`{`as_bytes_mut`, `from_utf8_mut`, `from_utf8_unchecked_mut`}](https://github.com/rust-lang/rust/pull/41096)
+* [`ToOwned::clone_into`](https://github.com/rust-lang/rust/pull/41009)
+* [`Vec::from_elem` specialized to use `calloc`](https://github.com/rust-lang/rust/pull/40409) (massive speedup)
+* [always emit build script warnings for crates failing to build](https://github.com/rust-lang/cargo/pull/3847)
+* [the RLS is now a submodule](https://github.com/rust-lang/rust/pull/40584)
+
 
 ## New Contributors
 
