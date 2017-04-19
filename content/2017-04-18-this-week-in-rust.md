@@ -22,13 +22,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [RLS now available on nightly (and via rustup)](http://www.jonathanturner.org/2017/04/rls-now-in-nightly.md.html).
 * [Introducing Relm, a GUI library, based on GTK+ and futures, written in Rust](http://relm.ml/relm-intro).
 * [Optimizing Rust struct size: A 6-month compiler development project](http://camlorn.net/posts/April%202017/rust-struct-field-reordering.html).
-* [Prolonging temporaries in Rust](https://manishearth.github.io/blog/2017/04/13/prolonging-temporaries-in-rust/). Telling compiler to hold on to a temporary value for the scope of the outer block.
 * [As part of MOSS, Mozilla awards $50,000 to Tokio - an asynchronous I/O project in Rust](https://blog.mozilla.org/blog/2017/04/10/mozilla-awards-365000-to-open-source-projects-as-part-of-moss/).
 * [Servo: Windows nightly builds now available](https://blog.servo.org/2017/04/13/windows/).
+* [Prolonging temporaries in Rust](https://manishearth.github.io/blog/2017/04/13/prolonging-temporaries-in-rust/). Telling compiler to hold on to a temporary value for the scope of the outer block.
 * [Rust's fearless concurrency in rdedup](http://dpc.pw/blog/2017/04/rusts-fearless-concurrency-in-rdedup/).
 * [slides] [The end of unsafety: The past, present, and future of the Rust programming language](https://brson.github.io/the-end-of-unsafety/).
 * [Boilerplate-free struct transforms in Rust](https://beachape.com/blog/2017/04/12/boilerplate-free-struct-transforms-in-rust/).
-* [The path to Rust on the Web with WebAssembly](http://asquera.de/blog/2017-04-10/the-path-to-rust-on-the-web/).
+* [The path to Rust on the web with WebAssembly](http://asquera.de/blog/2017-04-10/the-path-to-rust-on-the-web/).
 * [This week in Servo 98](https://blog.servo.org/2017/04/17/twis-98/).
 * [This week in Rust docs 52](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-52).
 
@@ -81,7 +81,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [compress `ReprOptions` memory representation](https://github.com/rust-lang/rust/pull/41329)
 * [allow overlapping `impl`s for marker traits](https://github.com/rust-lang/rust/pull/41309) (RFC [#1268](https://github.com/rust-lang/rfcs/blob/master/text/1268-allow-overlapping-impls-on-marker-traits.md))
 * [`global_asm!()`](https://github.com/rust-lang/rust/pull/40702) (RFC [#1548](https://github.com/rust-lang/rfcs/blob/master/text/1548-global-asm.md))
-* [manually drop](https://github.com/rust-lang/rust/pull/40559) (RFC [#1860](https://github.com/rust-lang/rfcs/blob/master/text/1860-manually-drop.md)) 
+* [manually drop](https://github.com/rust-lang/rust/pull/40559) (RFC [#1860](https://github.com/rust-lang/rfcs/blob/master/text/1860-manually-drop.md))
 * [compile WASM as is instead of asm.js](https://github.com/rust-lang/rust/pull/41303)
 * [consolidate type adjustment composition](https://github.com/rust-lang/rust/pull/41279)
 * [fix 128-bit division on 32-bit targets](https://github.com/rust-lang/rust/pull/41250)
