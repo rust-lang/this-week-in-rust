@@ -16,6 +16,21 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Carol Nichols and Nick Cameron join the core team, and Patrick Walton retires](https://internals.rust-lang.org/t/announcement-carol-nichols-and-nick-cameron-join-the-core-team-patrick-walton-retires/5070).
+* [Announcing the Rust infrastructure team](https://internals.rust-lang.org/t/announcing-the-unofficial-rust-infrastructure-team/5093).
+* [Updated: Rust language 2017 ergonomic improvements initiative](https://github.com/rust-lang/rust-roadmap/issues/17).
+* [RLS now available on nightly (and via rustup)](http://www.jonathanturner.org/2017/04/rls-now-in-nightly.md.html).
+* [Introducing Relm, a GUI library, based on GTK+ and futures, written in Rust](http://relm.ml/relm-intro).
+* [Optimizing Rust struct size: A 6-month compiler development project](http://camlorn.net/posts/April%202017/rust-struct-field-reordering.html).
+* [Prolonging temporaries in Rust](https://manishearth.github.io/blog/2017/04/13/prolonging-temporaries-in-rust/). Telling compiler to hold on to a temporary value for the scope of the outer block.
+* [As part of MOSS, Mozilla awards $50,000 to Tokio - an asynchronous I/O project in Rust](https://blog.mozilla.org/blog/2017/04/10/mozilla-awards-365000-to-open-source-projects-as-part-of-moss/).
+* [Servo: Windows nightly builds now available](https://blog.servo.org/2017/04/13/windows/).
+* [Rust's fearless concurrency in rdedup](http://dpc.pw/blog/2017/04/rusts-fearless-concurrency-in-rdedup/).
+* [slides] [The end of unsafety: The past, present, and future of the Rust programming language](https://brson.github.io/the-end-of-unsafety/).
+* [Boilerplate-free struct transforms in Rust](https://beachape.com/blog/2017/04/12/boilerplate-free-struct-transforms-in-rust/).
+* [The path to Rust on the Web with WebAssembly](http://asquera.de/blog/2017-04-10/the-path-to-rust-on-the-web/).
+* [This week in Servo 98](https://blog.servo.org/2017/04/17/twis-98/).
+* [This week in Rust docs 52](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-52).
 
 # Crate of the Week
 
@@ -32,29 +47,15 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Rusoto an AWS SDK for Rust is looking for maintainers](https://github.com/rusoto/rusoto/issues/593).
-* [Rust reference docs: Document all features](https://github.com/rust-lang-nursery/reference/issues/9).
 * [rust: Error message when VS 2015 build tools exist but not the SDK needs to be better](https://github.com/rust-lang/rust/issues/41151).
-* [easy] [lazy_static: Set html_root_url crate attribute](https://github.com/rust-lang-nursery/lazy-static.rs/issues/69). lazy_static is a small macro for defining lazy evaluated static variables in Rust.
-* [easy] [lazy_static: Change Cargo.toml `documentation` to point to "https://docs.rs/lazy_static"](https://github.com/rust-lang-nursery/lazy-static.rs/issues/68).
-* [easy] [lazy_static: Include `homepage` in Cargo.toml](https://github.com/rust-lang-nursery/lazy-static.rs/issues/67).
+* [easy] [lazy_static: Include `homepage` in Cargo.toml](https://github.com/rust-lang-nursery/lazy-static.rs/issues/67). lazy_static is a small macro for defining lazy evaluated static variables in Rust.
 * [easy] [lazy_static: Include `categories` in Cargo.toml](https://github.com/rust-lang-nursery/lazy-static.rs/issues/66).
 * [easy] [lazy_static: Publish CI badges for all Tier 1 platforms](https://github.com/rust-lang-nursery/lazy-static.rs/issues/65).
-* [easy] [flate2: Remove R: Read bounds on structs](https://github.com/alexcrichton/flate2-rs/issues/88). flate2 implements FLATE, Gzip, and Zlib bindings for Rust.
-* [easy] [flate2: Method to get mtime of a GzHeader as a datetime](https://github.com/alexcrichton/flate2-rs/issues/86).
-* [easy] [flate2: Clarify documentation of GzHeader::mtime](https://github.com/alexcrichton/flate2-rs/issues/85).
-* [easy] [flate2: GzBuilder methods should take `Into<Vec<u8>>`](https://github.com/alexcrichton/flate2-rs/issues/84).
-* [easy] [flate2: All public types should implement `Debug`](https://github.com/alexcrichton/flate2-rs/issues/83).
-* [easy] [flate2: Eagerly implement common traits](https://github.com/alexcrichton/flate2-rs/issues/82).
-* [easy] [flate2: Wire up rustdoc hyperlinks](https://github.com/alexcrichton/flate2-rs/issues/81).
-* [easy] [flate2: Publish CI badges for all Tier 1 platforms](https://github.com/alexcrichton/flate2-rs/issues/80).
+* [easy] [flate2: Wire up rustdoc hyperlinks](https://github.com/alexcrichton/flate2-rs/issues/81). flate2 implements FLATE, Gzip, and Zlib bindings for Rust.
 * [easy] [flate2: Use distinct Flush types for `Compress::compress` vs `Decompress::decompress`](https://github.com/alexcrichton/flate2-rs/issues/79).
 * [easy] [flate2: Document error conditions in "Errors" sections](https://github.com/alexcrichton/flate2-rs/issues/78).
-* [easy] [flate2: Document the GzBuilder panic cases](https://github.com/alexcrichton/flate2-rs/issues/77).
 * [easy] [flate2: Write usage examples](https://github.com/alexcrichton/flate2-rs/issues/76).
 * [easy] [flate2: Rename internal types to match the public types](https://github.com/alexcrichton/flate2-rs/issues/75).
-* [easy] [bitflags: Resolve clippy lints](https://github.com/rust-lang-nursery/bitflags/issues/41). Bitflags is a Rust macro to generate structures which behave like a set of bitflags.
-* [easy] [bitflags: Mention Default trait in the docs](https://github.com/rust-lang-nursery/bitflags/issues/66).
 * [liner: Make keyboard interrupts (e.g. SIGINT from Ctrl-c) work](https://github.com/MovingtoMars/liner/issues/4). Liner is a readline-like library in Rust.
 * [liner: Tilde expansion](https://github.com/MovingtoMars/liner/issues/34).
 * [liner: Password mode](https://github.com/MovingtoMars/liner/issues/25).
@@ -101,13 +102,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Anatol Pomozov
-* Bryan Tan
-* GitLab
-* Matthew Jasper
-* Nathan Stocks
-* Peter Gerber
-* Shiz
+* Aaron Hill
+* alexey zabelin
+* nate
+* Nathaniel Ringo
+* Scott McMurray
+* Suchith J N
 
 ## Approved RFCs
 
@@ -125,16 +125,23 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [disposition: postpone] [Introduce `with` bounds for pi types](https://github.com/rust-lang/rfcs/pull/1932).
+* [disposition: postpone] [Amend RFC 1105 to specify how dependency versions relate to semver](https://github.com/rust-lang/rfcs/pull/1890).
+* [disposition: merge] [A portability lint](https://github.com/rust-lang/rfcs/pull/1868).
+* [disposition: merge] [Improve the `assert_eq` failure message formatting to increase legibility](https://github.com/rust-lang/rfcs/pull/1866).
 * [disposition: merge] [extend `?` to operate over other types](https://github.com/rust-lang/rfcs/pull/1859).
 * [disposition: merge] [Remove static bound from type_id](https://github.com/rust-lang/rfcs/pull/1849).
+* [disposition: merge] [Proposal for default crate recommendation ranking](https://github.com/rust-lang/rfcs/pull/1824).
+* [disposition: postpone] [Stackless coroutines](https://github.com/rust-lang/rfcs/pull/1823). Add language-level support for stackless coroutines (also known as semicoroutines or generators).
+* [disposition: close] [Create a separate libc_types crate for basic C types](https://github.com/rust-lang/rfcs/pull/1783).
 * [disposition: merge] [Extend entry API to work on borrowed keys](https://github.com/rust-lang/rfcs/pull/1769).
+* [disposition: merge] [Traits should be aliased the same way types can be aliased with the `type` keyword](https://github.com/rust-lang/rfcs/pull/1733).
 * [disposition: merge] [Deprecate anonymous parameters](https://github.com/rust-lang/rfcs/pull/1685).
 
 ## New RFCs
 
-* [Allow any Displayable type for expect](https://github.com/rust-lang/rfcs/pull/1968).
-* [Prepublication dependencies for Cargo](https://github.com/rust-lang/rfcs/pull/1969).
+* [Introduce a public/private distinction to crate dependencies](https://github.com/rust-lang/rfcs/pull/1977).
+* [Allow the usage of `use` inside `impl` blocks and `match` blocks](https://github.com/rust-lang/rfcs/pull/1976).
+* [Prepare global allocators for stabilization](https://github.com/rust-lang/rfcs/pull/1974).
 
 ## Style RFCs
 
@@ -144,6 +151,9 @@ We're making good progress and the style is coming together. If you want to see 
 
 Issues in final comment period:
 
+* [Add text from the structs/unions RFC to the guide](https://github.com/rust-lang-nursery/fmt-rfcs/pull/78).
+* [Ordering of types of groups within a module](https://github.com/rust-lang-nursery/fmt-rfcs/issues/71).
+* [Convention about empty lines](https://github.com/rust-lang-nursery/fmt-rfcs/issues/57).
 * [Imports (`use`)](https://github.com/rust-lang-nursery/fmt-rfcs/issues/24)
 * [Closures](https://github.com/rust-lang-nursery/fmt-rfcs/issues/35)
 * [Where clauses](https://github.com/rust-lang-nursery/fmt-rfcs/issues/38)
@@ -157,22 +167,17 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 
 # Upcoming Events
 
-* [Apr 12. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Apr 12. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [Apr 13. Rust Melbourne - Why your first FizzBuzz Rust implementation may not work](https://www.meetup.com/Rust-Melbourne/events/238108356/).
-* [Apr 13. San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/238305909/).
-* [Apr 13. Rust Meetup Hamburg - Hack & Learn Tokio Edition](https://www.meetup.com/Rust-Meetup-Hamburg/events/237984043/).
-* [Apr 13. Columbus Rust Society](https://www.meetup.com/columbus-rs/events/238502945/).
-* [Apr 16. Beijing Rust Meetup](https://www.meetup.com/Beijing-Infrastructure-Meetup/events/239125196/).
-* [Apr 18. Mozilla Meetup Switzerland - Iron - Web development with Rust](https://www.meetup.com/en-US/Mozilla-Meetup-Switzerland/events/237870710/).
-* [Apr 19. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/238743312/).
-* [Apr 19. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Apr 19. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Apr 20. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Apr 20. Rust Utrecht - Use Rust: Mentored Workshop](https://www.meetup.com/Rust-Utrecht/events/238725437/).
+* [Apr 26. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Apr 26. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Apr 27. Rust Stockholm - Rust meetup @ Distil Networks](https://www.meetup.com/ruststhlm/events/238207716/).
 * [Apr 27. Rust Meetup Dresden](https://forum.rustplatz.de/t/neues-rust-meetup-in-dresden/156/28).
 * **[Apr 30. RustFest 2017 - Kyiv, Ukraine](http://2017.rustfest.eu/).**
+* [May  3. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [May  3. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [May  4. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [May  4. Rust Bay Area: Using Rust at Dropbox to make Magic Pocket](https://www.meetup.com/Rust-Bay-Area/events/239222217/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -188,12 +193,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
->  Nobody expects the Rust Evangelism Strike Force!
-> Our chief weapon is surprise, surprise and fearless concurrency... fearless concurrency and surprise... our two weapons are fearless concurrency and surprise, and ruthless efficiency our three, weapons are fearless concurrency, and surprise, and ruthless efficiency, and an almost fanatical devotion to zero-cost abstractions. Our four, no--amongst our weapons... Amongst our weaponry... are, such elements as fearless concurrency, surprise... I'll come in again.
+> Rust doesn't end unsafety, it just builds a strong, high-visibility fence around it, with warning signs on the one gate to get inside. As opposed to C's approach, which was to have a sign on the periphery reading "lol good luck".
 
-— [kibwen on reddit](https://www.reddit.com/r/rust/comments/63ws8o/rust_go_to_mentioned_in_a_batgirl_comic/dfxyghk/).
+— [Quxxy on reddit](https://www.reddit.com/r/rust/comments/65t0eq/the_end_of_unsafety_the_past_present_and_future/dgd3h8o/).
 
-Thanks to [shadow31](https://www.reddit.com/r/rust/comments/63ws8o/rust_go_to_mentioned_in_a_batgirl_comic/dfyf1db/) and [KillTheMule](https://users.rust-lang.org/t/twir-quote-of-the-week/328/389) for the suggestion.
+Thanks to [msiemens](https://users.rust-lang.org/t/twir-quote-of-the-week/328/391) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
