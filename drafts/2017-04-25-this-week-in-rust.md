@@ -168,7 +168,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-*No jobs listed for this week.*
+* [RustJobs.rs](https://rustjobs.rs) - a website dedicated to rust jobs. There are 13 open rust positions plus a list of companies using rust.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
