@@ -32,7 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-Sadly, for lack of nominations we have no Crate of this Week.
+This week's crate of the week is [pq](https://crates.io/crates/pq), a crate to generically decode protobuf messages. Thanks to [sevagh](https://users.rust-lang.org/users/sevagh) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -45,6 +45,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [What topics would you like to see covered in a video course about Rust](https://users.rust-lang.org/t/what-topics-would-you-like-to-see-covered-in-a-video-course-about-rust/10500)?
 * [rust: Debian Rust packages](https://github.com/rust-lang/rust/issues/28307#issuecomment-295283017).
 * [rdedup](https://github.com/dpc/rdedup) - a data deduplication with compression and public key encryption library, is [looking for contributors](https://users.rust-lang.org/t/twir-call-for-participation/4821/42) who are interested in crypto, command line, and backups.
 * [PumpkinDB](https://github.com/PumpkinDB/PumpkinDB) has a list of [starter issues](https://github.com/PumpkinDB/PumpkinDB/issues?q=is%3Aissue+is%3Aopen+label%3AWhatCanIStartWith%3F) for [people interested in an event sourcing database engine](https://users.rust-lang.org/t/twir-call-for-participation/4821/43).
@@ -60,32 +61,33 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-100 pull requests were [merged in the last week][merged].
+98 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-04-10..2016-04-17
+[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-04-17..2016-04-24
 
-* [struct field reordering, including optimization fuel](https://github.com/rust-lang/rust/pull/40377) (yay!)
-* [on-demand `adt_sized_constraint`](https://github.com/rust-lang/rust/pull/41319)
-* [handle subtyping in inference through obligations](https://github.com/rust-lang/rust/pull/40570)
-* [fix `if let .. else` desugaring](https://github.com/rust-lang/rust/pull/41316)
-* [improve generated LLVM IR, removing ZSTs and unneeded branches](https://github.com/rust-lang/rust/pull/40367)
-* [compress `ReprOptions` memory representation](https://github.com/rust-lang/rust/pull/41329)
-* [allow overlapping `impl`s for marker traits](https://github.com/rust-lang/rust/pull/41309) (RFC [#1268](https://github.com/rust-lang/rfcs/blob/master/text/1268-allow-overlapping-impls-on-marker-traits.md))
-* [`global_asm!()`](https://github.com/rust-lang/rust/pull/40702) (RFC [#1548](https://github.com/rust-lang/rfcs/blob/master/text/1548-global-asm.md))
-* [manually drop](https://github.com/rust-lang/rust/pull/40559) (RFC [#1860](https://github.com/rust-lang/rfcs/blob/master/text/1860-manually-drop.md))
-* [compile WASM as is instead of asm.js](https://github.com/rust-lang/rust/pull/41303)
-* [consolidate type adjustment composition](https://github.com/rust-lang/rust/pull/41279)
-* [fix 128-bit division on 32-bit targets](https://github.com/rust-lang/rust/pull/41250)
-* [fix pairs of doubles using illegal vectors](https://github.com/rust-lang/rust/pull/41206)
-* [highlight and simplify mismatched types](https://github.com/rust-lang/rust/pull/41205)
-* [fix move checking for nested union fields](https://github.com/rust-lang/rust/pull/41153)
-* [improve metadata hashing](https://github.com/rust-lang/rust/pull/41141)
-* [`str::`{`as_bytes_mut`, `from_utf8_mut`, `from_utf8_unchecked_mut`}](https://github.com/rust-lang/rust/pull/41096)
-* [`ToOwned::clone_into`](https://github.com/rust-lang/rust/pull/41009)
-* [`Vec::from_elem` specialized to use `calloc`](https://github.com/rust-lang/rust/pull/40409) (massive speedup)
-* [always emit build script warnings for crates failing to build](https://github.com/rust-lang/cargo/pull/3847)
-* [the RLS is now a submodule](https://github.com/rust-lang/rust/pull/40584)
-
+* [repr struct alignment](https://github.com/rust-lang/rust/pull/39999) (RFC [#1358](https://github.com/rust-lang/rfcs/blob/master/text/1358-repr-align.md)]
+* [syntax: support parenthesis around trait bounds](https://github.com/rust-lang/rust/pull/41077)
+* [:vis matcher for macro_rules](https://github.com/rust-lang/rust/pull/41012)
+* [`traits::select(..)` filters out predicates from other traits](https://github.com/rust-lang/rust/pull/41486)
+* [cache DTOR check constraints on abstract data types](https://github.com/rust-lang/rust/pull/41485)
+* [performance audit Spring 2017](https://github.com/rust-lang/rust/pull/41469)
+* [remove unstable deprecated items](https://github.com/rust-lang/rust/pull/41437)
+* [don't panic if attribute macros don't resolve at crate root](https://github.com/rust-lang/rust/pull/41432)
+* [hoedown makes a comeback!](https://github.com/rust-lang/rust/pull/41290)
+* [re-enable hoedown by default](https://github.com/rust-lang/rust/pull/41431)
+* [specialize `Vec::extend(IntoIter)`](https://github.com/rust-lang/rust/pull/41191)
+* [specialize {`Path`, `OsStr`}`.clone_into()`](https://github.com/rust-lang/rust/pull/41390)
+* [add functions to transmute floats to ints](https://github.com/rust-lang/rust/pull/39271)
+* [don't clog register allocator with byvals](https://github.com/rust-lang/rust/pull/41378)
+* [back out backtrace pruning logic](https://github.com/rust-lang/rust/pull/41364) (it was too eager)
+* [convert calls to `visit_all_item_likes_in_crate(..)`](https://github.com/rust-lang/rust/pull/41360)
+* [fix debug infinite loop](https://github.com/rust-lang/rust/pull/41342)
+* [on-demand-ify `associated_item_def_ids`](https://github.com/rust-lang/rust/pull/41340)
+* [on-demand-ify `monomorphic_const_eval`](https://github.com/rust-lang/rust/pull/41310)
+* [polymorphic `const_eval(..)`](https://github.com/rust-lang/rust/pull/41408)
+* [cargo: add `overflow_checks` to profiles](https://github.com/rust-lang/cargo/pull/3908)
+* [cargo: CLI support for `--all-`{`bins`, `tests`, `examples`, `benches`}](https://github.com/rust-lang/cargo/pull/3901)
+* [cargo: support `$RUSTC_WRAPPER`](https://github.com/rust-lang/cargo/pull/3887)
 
 ## New Contributors
 
@@ -175,6 +177,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [RustJobs.rs](https://rustjobs.rs) - a website dedicated to Rust jobs. There are 13 open Rust positions plus a list of companies using Rust.
 * [Rust Software Engineer at resin.io](https://resin.workable.com/j/ACF748D4A2).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
