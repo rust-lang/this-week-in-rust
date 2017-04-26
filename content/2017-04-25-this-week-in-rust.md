@@ -63,7 +63,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 98 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-04-17..2016-04-24
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-04-17..2016-04-24
 
 * [repr struct alignment](https://github.com/rust-lang/rust/pull/39999) (RFC [#1358](https://github.com/rust-lang/rfcs/blob/master/text/1358-repr-align.md)]
 * [syntax: support parenthesis around trait bounds](https://github.com/rust-lang/rust/pull/41077)
@@ -155,6 +155,7 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 * [Apr 27. Rust Meetup Dresden](https://forum.rustplatz.de/t/neues-rust-meetup-in-dresden/156/28).
 * **[Apr 30. RustFest 2017 - Kyiv, Ukraine](http://2017.rustfest.eu/).**
 * [Apr 30. Kickstart to Rust Mozilla Gujarat User Group](https://reps.mozilla.org/e/kickstart-to-rust-mozilla-gujarat-user-group/).
+* [May  2. Rust Workshop - RustBridge - Dortmund, Germany](https://www.meetup.com/Softwerkskammer-Ruhrgebiet/events/239380377/).
 * [May  3. Intro to Rust for Java programmers - Code@LTH](https://www.facebook.com/events/1395576530485976/).
 * [May  3. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/238448447/).
 * [May  3. Boston Rust: Rust 1.0 Anniversary Party and Hack Night](https://www.meetup.com/BostonRust/events/239319480/).
