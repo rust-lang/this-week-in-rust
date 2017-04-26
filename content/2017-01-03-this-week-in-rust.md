@@ -77,7 +77,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 109 pull requests were [merged in the last week][merged]. This contains a good number of plugin-breaking changes.
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-12-26..2016-01-02
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-12-26..2017-01-02
 
 * [`u128`/`i128` support!](https://github.com/rust-lang/rust/pull/38482) (RFC [#1504](https://github.com/rust-lang/rfcs/blob/master/text/1504-int128.md)), also [vim](https://github.com/rust-lang/rust.vim/pull/133)
 * [new `min_atomic_width` target option](https://github.com/rust-lang/rust/pull/38579)

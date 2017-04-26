@@ -65,7 +65,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 114 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-27..2016-04-03
+[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-03-27..2017-04-03
 
 * [diverging types now check more correctly](https://github.com/rust-lang/rust/pull/40224)
 * [`save-analysis` tracks associated types](https://github.com/rust-lang/rust/pull/40915)
