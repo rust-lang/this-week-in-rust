@@ -78,7 +78,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 117 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-13..2016-03-20
+[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-03-13..2017-03-20
 
 * [1.17 library stabilizations](https://github.com/rust-lang/rust/pull/40538)
 * [`0e+10` is now a valid Rust float literal](https://github.com/rust-lang/rust/pull/40589)

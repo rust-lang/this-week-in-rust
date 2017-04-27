@@ -73,7 +73,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 120 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-03-20..2016-03-27
+[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-03-20..2017-03-27
 
 * [yet another sort optimization](https://github.com/rust-lang/rust/pull/40807)
 * [even faster `unstable_sort`](https://github.com/rust-lang/rust/pull/40601) (integrates [pdqsort](https://github.com/stjepang/pdqsort) into std, note the "unstable" here is about sort order)

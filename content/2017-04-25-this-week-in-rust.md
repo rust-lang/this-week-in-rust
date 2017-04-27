@@ -63,7 +63,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 98 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2016-04-17..2016-04-24
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-04-17..2017-04-24
 
 * [repr struct alignment](https://github.com/rust-lang/rust/pull/39999) (RFC [#1358](https://github.com/rust-lang/rfcs/blob/master/text/1358-repr-align.md)]
 * [syntax: support parenthesis around trait bounds](https://github.com/rust-lang/rust/pull/41077)
