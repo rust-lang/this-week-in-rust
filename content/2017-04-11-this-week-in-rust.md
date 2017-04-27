@@ -81,7 +81,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 132 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-04-03..2017-04-10
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-04-03..2017-04-10
 
 * [ABI layout computation is no longer tied to LLVM](https://github.com/rust-lang/rust/pull/40658) (yay!)
 * [new `#[used]` attribute](https://github.com/rust-lang/rust/pull/39987)

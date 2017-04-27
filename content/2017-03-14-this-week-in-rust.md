@@ -61,7 +61,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 142 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-03-06..2017-03-13
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-03-06..2017-03-13
 
 * [1.16 release notes](https://github.com/rust-lang/rust/pull/39835) (merged prematurely)
 * [beta backports](https://github.com/rust-lang/rust/pull/40401)

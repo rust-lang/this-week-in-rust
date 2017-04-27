@@ -71,7 +71,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 100 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?page=6&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-04-10..2017-04-17
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-04-10..2017-04-17
 
 * [struct field reordering, including optimization fuel](https://github.com/rust-lang/rust/pull/40377) (yay!)
 * [on-demand `adt_sized_constraint`](https://github.com/rust-lang/rust/pull/41319)
