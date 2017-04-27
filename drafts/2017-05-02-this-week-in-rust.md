@@ -41,6 +41,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [less easy] [rust-bindgen: Add in-worklist bits to the analysis runner](https://github.com/servo/rust-bindgen/issues/664).
 * [easy] [flate2: Use distinct Flush types for `Compress::compress` vs `Decompress::decompress`](https://github.com/alexcrichton/flate2-rs/issues/79). flate2 implements FLATE, Gzip, and Zlib bindings for Rust.
 * [easy] [flate2: Write usage examples](https://github.com/alexcrichton/flate2-rs/issues/76).
+* [PX8: Open source Fantasy Console](https://github.com/Gigoteur/PX8)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
