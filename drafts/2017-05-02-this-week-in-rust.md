@@ -119,14 +119,17 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 We're making good progress and the style is coming together. If you want to see the style in practice, check out [our example](https://github.com/rust-lang-nursery/fmt-rfcs/blob/master/example/lists.rs) or use the [Integer32 Playground](https://play.integer32.com/) and select 'Proposed RFC' from the 'Format' menu. Be aware that implementation is work in progress.
 
+PRs:
+
+* [Statements](https://github.com/rust-lang-nursery/fmt-rfcs/pull/81)
+
 Issues in final comment period:
 
-* [Add text from the structs/unions RFC to the guide](https://github.com/rust-lang-nursery/fmt-rfcs/pull/78).
-* [Ordering of types of groups within a module](https://github.com/rust-lang-nursery/fmt-rfcs/issues/71).
-* [Convention about empty lines](https://github.com/rust-lang-nursery/fmt-rfcs/issues/57).
-* [Imports (`use`)](https://github.com/rust-lang-nursery/fmt-rfcs/issues/24)
-* [Closures](https://github.com/rust-lang-nursery/fmt-rfcs/issues/35)
+* [Ordering of types of groups within a module](https://github.com/rust-lang-nursery/fmt-rfcs/issues/71)
+* [Struct and tuple literals](https://github.com/rust-lang-nursery/fmt-rfcs/issues/64)
+* [Array literals](https://github.com/rust-lang-nursery/fmt-rfcs/issues/63)
 * [Where clauses](https://github.com/rust-lang-nursery/fmt-rfcs/issues/38)
+* [Imports (`use`)](https://github.com/rust-lang-nursery/fmt-rfcs/issues/24)
 
 Good first issues:
 
@@ -134,6 +137,11 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 
 * [simple expressions](https://github.com/rust-lang-nursery/fmt-rfcs/issues/68)
 * [assignment and assignment operators](https://github.com/rust-lang-nursery/fmt-rfcs/issues/67)
+
+Other interesting issues:
+
+* [Function calls](https://github.com/rust-lang-nursery/fmt-rfcs/issues/64) and [chains of calls](https://github.com/rust-lang-nursery/fmt-rfcs/issues/66)
+* [Combining opening and closing delims](https://github.com/rust-lang-nursery/fmt-rfcs/issues/61)
 
 # Upcoming Events
 
