@@ -19,7 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate of the week is [pq](https://crates.io/crates/pq), a crate to generically decode protobuf messages. Thanks to [sevagh](https://users.rust-lang.org/users/sevagh) for the suggestion.
+This week's crate of the week is [indicatif](https://crates.io/crates/indicatif), a crate to show nice progress bars on the console. Thanks to [Willi Kappler](https://users.rust-lang.org/users/willi_kappler) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -48,33 +48,40 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-98 pull requests were [merged in the last week][merged].
+120 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-04-17..2017-04-24
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-04-24..2017-05-01
 
-* [repr struct alignment](https://github.com/rust-lang/rust/pull/39999) (RFC [#1358](https://github.com/rust-lang/rfcs/blob/master/text/1358-repr-align.md)]
-* [syntax: support parenthesis around trait bounds](https://github.com/rust-lang/rust/pull/41077)
-* [:vis matcher for macro_rules](https://github.com/rust-lang/rust/pull/41012)
-* [`traits::select(..)` filters out predicates from other traits](https://github.com/rust-lang/rust/pull/41486)
-* [cache DTOR check constraints on abstract data types](https://github.com/rust-lang/rust/pull/41485)
-* [performance audit Spring 2017](https://github.com/rust-lang/rust/pull/41469)
-* [remove unstable deprecated items](https://github.com/rust-lang/rust/pull/41437)
-* [don't panic if attribute macros don't resolve at crate root](https://github.com/rust-lang/rust/pull/41432)
-* [hoedown makes a comeback!](https://github.com/rust-lang/rust/pull/41290)
-* [re-enable hoedown by default](https://github.com/rust-lang/rust/pull/41431)
-* [specialize `Vec::extend(IntoIter)`](https://github.com/rust-lang/rust/pull/41191)
-* [specialize {`Path`, `OsStr`}`.clone_into()`](https://github.com/rust-lang/rust/pull/41390)
-* [add functions to transmute floats to ints](https://github.com/rust-lang/rust/pull/39271)
-* [don't clog register allocator with byvals](https://github.com/rust-lang/rust/pull/41378)
-* [back out backtrace pruning logic](https://github.com/rust-lang/rust/pull/41364) (it was too eager)
-* [convert calls to `visit_all_item_likes_in_crate(..)`](https://github.com/rust-lang/rust/pull/41360)
-* [fix debug infinite loop](https://github.com/rust-lang/rust/pull/41342)
-* [on-demand-ify `associated_item_def_ids`](https://github.com/rust-lang/rust/pull/41340)
-* [on-demand-ify `monomorphic_const_eval`](https://github.com/rust-lang/rust/pull/41310)
-* [polymorphic `const_eval(..)`](https://github.com/rust-lang/rust/pull/41408)
-* [cargo: add `overflow_checks` to profiles](https://github.com/rust-lang/cargo/pull/3908)
-* [cargo: CLI support for `--all-`{`bins`, `tests`, `examples`, `benches`}](https://github.com/rust-lang/cargo/pull/3901)
-* [cargo: support `$RUSTC_WRAPPER`](https://github.com/rust-lang/cargo/pull/3887)
+* [LLVM upgraded to 4.0](https://github.com/rust-lang/rust/pull/40123) (Hooray!)
+* [rust-windbg.cmd script added](https://github.com/rust-lang/rust/pull/39983) (Windows™ users rejoice)
+* [file path remapping for debuginfo and reproducible builds](https://github.com/rust-lang/rust/pull/41508)
+* [compile OpenSSL with one core only](https://github.com/rust-lang/rust/pull/41563) (File under: things that wouldn't happen in Rust)
+* [associated consts are not object safe](https://github.com/rust-lang/rust/pull/41494)
+* [parse trait objects startin with a lifetime bound](https://github.com/rust-lang/rust/pull/41542)
+* [typeck now resolves vars before `try_index_step`](https://github.com/rust-lang/rust/pull/41578)
+* [ICE on cross-crate associated type mismatch fixed](https://github.com/rust-lang/rust/pull/41583)
+* [adjust `OperandPair` struct field index](https://github.com/rust-lang/rust/pull/41529)
+* [fix lvalue ops handling](https://github.com/rust-lang/rust/pull/41651)
+* [`#[used]` items are never dead code](https://github.com/rust-lang/rust/pull/41637)
+* [improve error on moving out of indexed content](https://github.com/rust-lang/rust/pull/41564)
+* [point to variables moved by closure on error](https://github.com/rust-lang/rust/pull/41523)
+* queries for [`def_span`](https://github.com/rust-lang/rust/pull/41593), [`describe_def`](https://github.com/rust-lang/rust/pull/41534),
+also [ergonomic improvements](https://github.com/rust-lang/rust/pull/41504)
+* [we can `default impl` traits](https://github.com/rust-lang/rust/pull/37860)
+* [`Step::replace_one` no longer puts a zero instead of one](https://github.com/rust-lang/rust/pull/41493)
+* [`traits::select` filters out other traits' predicates](https://github.com/rust-lang/rust/pull/41486) (for faster compiles)
+* [cache symbols in `ty::maps`](https://github.com/rust-lang/rust/pull/41507)
+* [stricter privacy checks for trait items](https://github.com/rust-lang/rust/pull/41332)
+* [reduce stack requirement for floating-point formatting](https://github.com/rust-lang/rust/pull/41509)
+* [more methods, less transmute for `Box<`{`[u8]`, `str`}`>`](https://github.com/rust-lang/rust/pull/41258)
+* [`io::`{`Chain`, `Take`}`::into_inner()`](https://github.com/rust-lang/rust/pull/41463)
+* [{`Vec`, `String`}`::splice(..)`](https://github.com/rust-lang/rust/pull/40434)
+* [`impl From<&mut [T]> for Vec<T>`](https://github.com/rust-lang/rust/pull/41530)
+* [`FromIterator` and `extend` for `Cow<str>`](https://github.com/rust-lang/rust/pull/41449)
+* [`cargo` {`build`, `test`, ...} `--all-`{`bins`, `tests`, `benches`, `examples`}](https://github.com/rust-lang/cargo/pull/3901)
+* [The rust installer now has xz-compressed tarballs](https://github.com/rust-lang/rust-installer/pull/57) (will allow for smaller downloads in the future)
+* [Haiku is now a supported OS target](https://github.com/rust-lang/rust-installer/pull/58)
+
 
 ## New Contributors
 
