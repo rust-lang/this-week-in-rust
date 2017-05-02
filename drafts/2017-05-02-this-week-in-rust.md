@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* Last week's [visual guide for rustfmt’s configs](https://github.com/regexident/rustfmt-configs-guide) has been [merged into rustfmt project](https://github.com/rust-lang-nursery/rustfmt/blob/master/Configurations.md) along with 120 unit tests.
 
 # Crate of the Week
 
