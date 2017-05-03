@@ -209,7 +209,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 >
 > <sub>[1] Yeah, Windows won. Sorry.</sub>
 
-— [/u/kibwen revealing the origin of a highly advanced AI from future, known today as "Alex Chrichton"](https://www.reddit.com/r/rust/comments/67x46l/announcing_rust_117/dgty1ay/).
+— [/u/kibwen revealing the origin of a highly advanced AI from future, known today as "Alex Crichton"](https://www.reddit.com/r/rust/comments/67x46l/announcing_rust_117/dgty1ay/).
 
 Thanks to [/u/burkadurka](https://www.reddit.com/r/rust/comments/67x46l/announcing_rust_117/dguc8x0/) for the suggestion.
 
