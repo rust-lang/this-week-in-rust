@@ -165,7 +165,9 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [RustJobs.rs](https://rustjobs.rs) - a website dedicated to Rust jobs. There are 13 open Rust positions plus a list of companies using Rust.
+* [RustJobs.rs](https://rustjobs.rs) - a website dedicated to Rust jobs. There are 15 open Rust positions plus a list of companies using Rust.
+* [Systems Programmer at Hadean](https://rustjobs.rs/jobs/17/hadean-systems-programmer) - C and Rust
+* [Software Engineer (Full Stack) at One Codex](https://rustjobs.rs/jobs/16/one-codex-software-engineer-full-stack-) - new code in Rust
 * [Rust Software Engineer at resin.io](https://resin.workable.com/j/ACF748D4A2).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
