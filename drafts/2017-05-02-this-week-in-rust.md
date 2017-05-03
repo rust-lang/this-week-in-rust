@@ -16,6 +16,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.17](https://blog.rust-lang.org/2017/04/27/Rust-1.17.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* [Helix: Native Ruby extensions without fear](https://usehelix.com/).
+* [bindgen now has a users guide](https://servo.github.io/rust-bindgen/).
+* [Asynchronous Rust for fun & profit](http://xion.io/post/programming/rust-async-closer-look.html).
+* [Rust your ARM microcontroller](http://blog.japaric.io/quickstart/). Build Rust applications for any ARM Cortex-M microcontroller.
+* [Lessons learned redesigning and refactoring a Rust library](https://mgattozzi.com/refactor-rust).
+* [Implementing Weld in Rust](http://dawn.cs.stanford.edu/blog/weld.html).
+* [The RustConf 2017 call for proposals is now open](http://cfp.rustconf.com/events/rustconf-2017).
+* [This week in Rust docs 54](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-54).
+* [This week In Servo 100](https://blog.servo.org/2017/05/01/twis-100/).
 
 # Crate of the Week
 
@@ -32,12 +42,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [What topics would you like to see covered in a video course about Rust](https://users.rust-lang.org/t/what-topics-would-you-like-to-see-covered-in-a-video-course-about-rust/10500)?
-* [rust: Debian Rust packages](https://github.com/rust-lang/rust/issues/28307#issuecomment-295283017).
+* [Rust team is looking for someone to take over the process of making Rust's release notes](https://internals.rust-lang.org/t/rust-release-milestone-predictions/4591/33).
 * [rdedup](https://github.com/dpc/rdedup) - a data deduplication with compression and public key encryption library, is [looking for contributors](https://users.rust-lang.org/t/twir-call-for-participation/4821/42) who are interested in crypto, command line, and backups.
 * [PumpkinDB](https://github.com/PumpkinDB/PumpkinDB) has a list of [starter issues](https://github.com/PumpkinDB/PumpkinDB/issues?q=is%3Aissue+is%3Aopen+label%3AWhatCanIStartWith%3F) for [people interested in an event sourcing database engine](https://users.rust-lang.org/t/twir-call-for-participation/4821/43).
+* [easy] [tokei: AutoHotKey support](https://github.com/Aaronepower/tokei/issues/106). Tokei is a program that displays statistics about your code.
+* [less easy] [tokei: Move CI to trust](https://github.com/Aaronepower/tokei/issues/120).
 * [easy] [maud: Remove `error!` macro](https://github.com/lfairy/maud/issues/84). Maud is an HTML template engine for Rust.
-* [easy] [maud: Document toggled classes](https://github.com/lfairy/maud/issues/85).
 * [less easy] [rust-bindgen: Add in-worklist bits to the analysis runner](https://github.com/servo/rust-bindgen/issues/664).
 * [easy] [flate2: Use distinct Flush types for `Compress::compress` vs `Decompress::decompress`](https://github.com/alexcrichton/flate2-rs/issues/79). flate2 implements FLATE, Gzip, and Zlib bindings for Rust.
 * [easy] [flate2: Write usage examples](https://github.com/alexcrichton/flate2-rs/issues/76).
@@ -78,9 +88,13 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Dylan Maccora
-* Maxwell Paul Brickner
-* Nicolas Bigaouette
+* achernyak
+* Artem Chernyak
+* Eh2406
+* gaurikholkar
+* Henri Sivonen
+* Jessica Hamilton
+* Titus Barik
 
 ## Approved RFCs
 
@@ -88,7 +102,10 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1733: Trait alias](https://github.com/rust-lang/rfcs/pull/1733).
+* [RFC 1685: Deprecate anonymous parameters](https://github.com/rust-lang/rfcs/pull/1685).
+* [RFC 1868: A portability lint](https://github.com/rust-lang/rfcs/pull/1868).
+* [RFC 1824: Proposal for default crate recommendation ranking](https://github.com/rust-lang/rfcs/pull/1824).
+* [RFC 1866: Improve the `assert_eq` failure message formatting to increase legibility](https://github.com/rust-lang/rfcs/pull/1866).
 
 ## Final Comment Period
 
@@ -98,20 +115,19 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [disposition: merge] [Deprecate anonymous parameters](https://github.com/rust-lang/rfcs/pull/1685).
-* [disposition: close] [Check future-proofing of `macro_rules!` using FIRST sets](https://github.com/rust-lang/rfcs/pull/1746).
+* [disposition: merge] [Specify `#[repr(transparent)]`](https://github.com/rust-lang/rfcs/pull/1758).
 * [disposition: merge] [Extend entry API to work on borrowed keys](https://github.com/rust-lang/rfcs/pull/1769).
-* [disposition: merge] [Proposal for default crate recommendation ranking](https://github.com/rust-lang/rfcs/pull/1824).
+* [disposition: close] [Generators](https://github.com/rust-lang/rfcs/pull/1832).
 * [disposition: merge] [Remove static bound from type_id](https://github.com/rust-lang/rfcs/pull/1849).
 * [disposition: merge] [extend `?` to operate over other types](https://github.com/rust-lang/rfcs/pull/1859).
-* [disposition: merge] [Improve the `assert_eq` failure message formatting to increase legibility](https://github.com/rust-lang/rfcs/pull/1866).
-* [disposition: merge] [A portability lint](https://github.com/rust-lang/rfcs/pull/1868).
 * [disposition: postpone] [Add `SafeDeref` and `SafeDerefMut`, equivalent to `Deref` and `DerefMut` but which are guaranteed to always return the same object](https://github.com/rust-lang/rfcs/pull/1873).
-* [disposition: postpone] [Unsafe lifetime](https://github.com/rust-lang/rfcs/pull/1918). Add a new special lifetime, `'unsafe`, that implicitly satisfies any constraint, but may only be instantiated within an unsafe context.
+* [disposition: close] [Allow the name (qualifier) of an enum variant to be elided in expressions and patterns whenever it can be inferred](https://github.com/rust-lang/rfcs/pull/1949).
+* [disposition: merge] [Expand and stabilize `impl Trait`](https://github.com/rust-lang/rfcs/pull/1951).
 
 ## New RFCs
 
-* [Make RangeInclusive just a two-field struct (amend 1192)](https://github.com/rust-lang/rfcs/pull/1980).
+* [Amend RFC 1242 to require an RFC for deprecation of crates from the nursery](https://github.com/rust-lang/rfcs/pull/1983).
+* [Tiered browser support policy for Rust's web content](https://github.com/rust-lang/rfcs/pull/1985).
 
 ## Style RFCs
 
@@ -137,12 +153,6 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 
 # Upcoming Events
 
-* [Apr 27. Rust Mexico City Meetup #5](https://www.meetup.com/es-ES/Rust-MX/events/239279107/).
-* [Apr 27. Rust Stockholm - Rust meetup @ Distil Networks](https://www.meetup.com/ruststhlm/events/238207716/).
-* [Apr 27. Rust Meetup Dresden](https://forum.rustplatz.de/t/neues-rust-meetup-in-dresden/156/28).
-* **[Apr 30. RustFest 2017 - Kyiv, Ukraine](http://2017.rustfest.eu/).**
-* [Apr 30. Kickstart to Rust Mozilla Gujarat User Group](https://reps.mozilla.org/e/kickstart-to-rust-mozilla-gujarat-user-group/).
-* [May  2. Rust Workshop - RustBridge - Dortmund, Germany](https://www.meetup.com/Softwerkskammer-Ruhrgebiet/events/239380377/).
 * [May  3. Intro to Rust for Java programmers - Code@LTH](https://www.facebook.com/events/1395576530485976/).
 * [May  3. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/238448447/).
 * [May  3. Boston Rust: Rust 1.0 Anniversary Party and Hack Night](https://www.meetup.com/BostonRust/events/239319480/).
@@ -152,10 +162,19 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 * [May  4. Rust Bay Area: Using Rust at Dropbox to make Magic Pocket](https://www.meetup.com/Rust-Bay-Area/events/239222217/).
 * [May  8. Prague Rust Meetup #3](https://www.meetup.com/rust-prague/events/239129625/).
 * [May  8. Seattle Rust - Monthly Meetup](https://www.meetup.com/Seattle-Rust-Meetup/).
+* [May 10. Rust Rome - Rust Meetup #2 - Intro + Rocket.rs](https://www.meetup.com/it-IT/Rust-Roma/events/239513275/).
 * [May 10. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [May 10. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [May 11. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/czcwhlywhbpb/).
 * [May 11. Rust DC - Building high performance REST APIs with Rust and Rocket](https://www.meetup.com/RustDC/events/239115583/).
+* [May 15. Rust Sydney Meetup - Happy Birthday Rust](https://www.meetup.com/Rust-Sydney/events/239659974/)!
+* [May 16. Tokyo Rust Meetup #7 - Rust Birthday Party](https://www.meetup.com/Tokyo-Rust-Meetup/events/239301821/)!
+* [May 17. Rust LA May Meetup - Rust Birthday Party](https://www.meetup.com/Rust-Los-Angeles/events/239616841/)!
+* [May 17. South Florida Rust - Rust Birthday Party](https://www.meetup.com/South-Florida-Rust-Meetup/events/239036595/)!
+* [May 17. Rust Atlanta - Heterogeneous Collections in Rust at Tech Square Labs (Midtown)](https://www.meetup.com/Rust-ATL/events/239205124/).
+* [May 17. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [May 17. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [May 18. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -165,18 +184,29 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [RustJobs.rs](https://rustjobs.rs) - a website dedicated to Rust jobs. There are 13 open Rust positions plus a list of companies using Rust.
-* [Rust Software Engineer at resin.io](https://resin.workable.com/j/ACF748D4A2).
+*No jobs listed for this week.*
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> There are many ways in which Rust is like a version of C/C++ that mutated when Haskell was injected into its veins.
+> Indeed, it was that very event that lent the world to ruin...
+>
+> It had been decades since the last line of C code was erased, and the last C compiler (written, ironically (but unsurprisingly), in Rust) engraved onto a golden disc and launched toward that distant star around which the GooglePepsiMusk Sphere's construction could be faintly observed. To even utter that fell syllable would be met with swift retaliation from the paramilitary _Borrow Xekkers_ (the alphabet as well having been altered to better suit this shining memory-safe utopia). The whole world, everything, had all been rewritten in Rust, and at last the world knew universal peace and prosperity of boundless proportion.
+>
+> But something stirred... a prophecy ancient in origin. **The Second.0 Coming**. And when realized at last, the world was divided between the forward-thinking devotees of 𝕽𝖚𝖘𝖙 𝕿𝖜𝖔-𝕻𝖔𝖎𝖓𝖙-𝕺𝖍 and those vainly clinging to 𝕽𝖚𝖘𝖙 𝕺𝖓𝖊-𝕻𝖔𝖎𝖓𝖙-𝕱𝖔𝖚𝖗-𝕳𝖚𝖓𝖉𝖗𝖊𝖉-𝕬𝖓𝖉-𝕾𝖊𝖛𝖊𝖓𝖙𝖊𝖊𝖓.
+>
+> And thus did The Great Schism rend interstellar civilization in twain.
+>
+> There was but one ray of hope. As the fires of war rushed toward the newly-completed GooglePepsiMusk Sphere, its cadre of elite 10<sup>10x</sup> programmers set to work. Their task: to write the most advanced compound artificial intelligence ever known, one capable of averting the catastrophe consuming the universe: _AlexKryton.exe_<sup>[1]</sup> . Due to Rust's incredible productivity benefits, they completed their task in a mere 22 seconds--and thanks to the Rust compiler's incredible performance, spent only nine months waiting for it compile. Using the artificial black hole at the center of the GPMS, and with only moments to spare, they sent their AI back in time, to the era of Rust's birth: 2011.
+>
+> That's the whole story. And yet those perceptible among you may ask: "_which version of Rust did they use?!_" Alex alone knows...
+>
+> <sub>[1] Yeah, Windows won. Sorry.</sub>
 
-— [Lokathor on reddit](https://www.reddit.com/r/rust/comments/667ocp/why_are_some_people_comparing_rust_to_haskell/dggbked/).
+— [/u/kibwen revealing the origin of a highly advanced AI from future, known today as "Alex Chrichton"](https://www.reddit.com/r/rust/comments/67x46l/announcing_rust_117/dgty1ay/).
 
-Thanks to [Johan Sigfrids](https://users.rust-lang.org/t/twir-quote-of-the-week/328/392) and [liquidivy](https://www.reddit.com/r/rust/comments/667ocp/why_are_some_people_comparing_rust_to_haskell/dgge8vj/) for the suggestion.
+Thanks to [/u/burkadurka](https://www.reddit.com/r/rust/comments/67x46l/announcing_rust_117/dguc8x0/) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
