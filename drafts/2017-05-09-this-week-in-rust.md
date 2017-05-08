@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Running Gource on the Rust library index](https://medium.com/@daniellockyer/running-gource-on-the-rust-library-index-f939b0067f3a)
+
 # Crate of the Week
 
 This week's crate of the week is [indicatif](https://crates.io/crates/indicatif), a crate to show nice progress bars on the console. Thanks to [Willi Kappler](https://users.rust-lang.org/users/willi_kappler) for the suggestion.
