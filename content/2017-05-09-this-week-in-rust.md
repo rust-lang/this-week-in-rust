@@ -33,7 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate of the week is [remove_dir_all](https://crates.io/crates/remove_dir_all/), a crate to show nice progress bars on the console. Thanks to [brson](https://users.rust-lang.org/users/brson) for the suggestion.
+This week's crate of the week is [remove_dir_all](https://crates.io/crates/remove_dir_all/), a safe, reliable implementation of `remove_dir_all` for Windows. Thanks to [brson](https://users.rust-lang.org/users/brson) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
