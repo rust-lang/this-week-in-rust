@@ -33,7 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate of the week is [indicatif](https://crates.io/crates/indicatif), a crate to show nice progress bars on the console. Thanks to [Willi Kappler](https://users.rust-lang.org/users/willi_kappler) for the suggestion.
+This week's crate of the week is [remove_dir_all](https://crates.io/crates/remove_dir_all/), a crate to show nice progress bars on the console. Thanks to [brson](https://users.rust-lang.org/users/brson) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -71,40 +71,32 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-120 pull requests were [merged in the last week][merged].
+122 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-04-24..2017-05-01
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-05-01..2017-05-08
 
-* [LLVM upgraded to 4.0](https://github.com/rust-lang/rust/pull/40123) (Hooray!)
-* [rust-windbg.cmd script added](https://github.com/rust-lang/rust/pull/39983) (Windows™ users rejoice)
-* [file path remapping for debuginfo and reproducible builds](https://github.com/rust-lang/rust/pull/41508)
-* [compile OpenSSL with one core only](https://github.com/rust-lang/rust/pull/41563) (File under: things that wouldn't happen in Rust)
-* [associated consts are not object safe](https://github.com/rust-lang/rust/pull/41494)
-* [parse trait objects startin with a lifetime bound](https://github.com/rust-lang/rust/pull/41542)
-* [typeck now resolves vars before `try_index_step`](https://github.com/rust-lang/rust/pull/41578)
-* [ICE on cross-crate associated type mismatch fixed](https://github.com/rust-lang/rust/pull/41583)
-* [adjust `OperandPair` struct field index](https://github.com/rust-lang/rust/pull/41529)
-* [fix lvalue ops handling](https://github.com/rust-lang/rust/pull/41651)
-* [`#[used]` items are never dead code](https://github.com/rust-lang/rust/pull/41637)
-* [improve error on moving out of indexed content](https://github.com/rust-lang/rust/pull/41564)
-* [point to variables moved by closure on error](https://github.com/rust-lang/rust/pull/41523)
-* queries for [`def_span`](https://github.com/rust-lang/rust/pull/41593), [`describe_def`](https://github.com/rust-lang/rust/pull/41534),
-also [ergonomic improvements](https://github.com/rust-lang/rust/pull/41504)
-* [we can `default impl` traits](https://github.com/rust-lang/rust/pull/37860)
-* [`Step::replace_one` no longer puts a zero instead of one](https://github.com/rust-lang/rust/pull/41493)
-* [`traits::select` filters out other traits' predicates](https://github.com/rust-lang/rust/pull/41486) (for faster compiles)
-* [cache symbols in `ty::maps`](https://github.com/rust-lang/rust/pull/41507)
-* [stricter privacy checks for trait items](https://github.com/rust-lang/rust/pull/41332)
-* [reduce stack requirement for floating-point formatting](https://github.com/rust-lang/rust/pull/41509)
-* [more methods, less transmute for `Box<`{`[u8]`, `str`}`>`](https://github.com/rust-lang/rust/pull/41258)
-* [`io::`{`Chain`, `Take`}`::into_inner()`](https://github.com/rust-lang/rust/pull/41463)
-* [{`Vec`, `String`}`::splice(..)`](https://github.com/rust-lang/rust/pull/40434)
-* [`impl From<&mut [T]> for Vec<T>`](https://github.com/rust-lang/rust/pull/41530)
-* [`FromIterator` and `extend` for `Cow<str>`](https://github.com/rust-lang/rust/pull/41449)
-* [`cargo` {`build`, `test`, ...} `--all-`{`bins`, `tests`, `benches`, `examples`}](https://github.com/rust-lang/cargo/pull/3901)
-* [The rust installer now has xz-compressed tarballs](https://github.com/rust-lang/rust-installer/pull/57) (will allow for smaller downloads in the future)
-* [Haiku is now a supported OS target](https://github.com/rust-lang/rust-installer/pull/58)
-
+* [`MutexGuard<T>` is now only `Sync` if `T` is](https://github.com/rust-lang/rust/pull/41624) (breaking change, fixes unsoundness)
+* [far-ranging MIR pipeline changes](https://github.com/rust-lang/rust/pull/41625) (also adds "stealing" as a move violent form of borrowing)
+* [fix arm-linux-androideabi](https://github.com/rust-lang/rust/pull/41656)
+* [fix Windows' ULONG_PTR type on Windows 32 bit systems](https://github.com/rust-lang/rust/pull/41787)
+* [Rust documenters can now write '`##`' to show `#` in rustdoc output](https://github.com/rust-lang/rust/pull/41785)
+* [Windows doctests no longer deadlock](https://github.com/rust-lang/rust/pull/41769)
+* [reworking `NonZero`, `Shared` and `Unique`](https://github.com/rust-lang/rust/pull/41064) (so they can be stabilized – fingers crossed)
+* [`core::sync::atomic::hint_core_should_pause()` for optimized atomic spin loops](https://github.com/rust-lang/rust/pull/41207)
+* [various LLVM backports](https://github.com/rust-lang/rust/pull/41739)
+* [variance refactoring, no more `pub` map](https://github.com/rust-lang/rust/pull/41734)
+* [on-demand-ify region mapping](https://github.com/rust-lang/rust/pull/41662)
+* [remove ast-ty-to-ty cache](https://github.com/rust-lang/rust/pull/41733)
+* [delete no longer used `syntax` features](https://github.com/rust-lang/rust/pull/41729)
+* [remove unused `TyCtxt` fields](https://github.com/rust-lang/rust/pull/41754)
+* [suggest `!` for bitwise negation when encountering `~` prefix](https://github.com/rust-lang/rust/pull/41722) (ease transition from C)
+* [point to fields that make type recursive](https://github.com/rust-lang/rust/pull/40857)
+* [lint against](https://github.com/rust-lang/rust/pull/41692) and [remove anonymous parameters](https://github.com/rust-lang/rust/pull/41693) (deprecated soon)
+* [remove obsolete `--disable-elf-tls` switch](https://github.com/rust-lang/rust/pull/41687)
+* [forbid `-Z` on stable and beta](https://github.com/rust-lang/rust/pull/41751)
+* [the rust build process can now generate XZ-compressed tarballs](https://github.com/rust-lang/rust/pull/41600)
+* [rust-installer will use available `xz` or `7z`](https://github.com/rust-lang/rust-installer/pull/60)
+* [`cargo bench --all`](https://github.com/rust-lang/cargo/pull/3988)
 
 ## New Contributors
 
