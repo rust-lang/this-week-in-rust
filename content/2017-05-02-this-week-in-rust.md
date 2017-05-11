@@ -211,7 +211,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 >
 > It had been decades since the last line of C code was erased, and the last C compiler (written, ironically (but unsurprisingly), in Rust) engraved onto a golden disc and launched toward that distant star around which the GooglePepsiMusk Sphere's construction could be faintly observed. To even utter that fell syllable would be met with swift retaliation from the paramilitary _Borrow Xekkers_ (the alphabet as well having been altered to better suit this shining memory-safe utopia). The whole world, everything, had all been rewritten in Rust, and at last the world knew universal peace and prosperity of boundless proportion.
 >
-> But something stirred... a prophecy ancient in origin. **The Second.0 Coming**. And when realized at last, the world was divided between the forward-thinking devotees of 𝕽𝖚𝖘𝖙 𝕿𝖜𝖔-𝕻𝖔𝖎𝖓𝖙-𝕺𝖍 and those vainly clinging to 𝕽𝖚𝖘𝖙 𝕺𝖓𝖊-𝕻𝖔𝖎𝖓𝖙-𝕱𝖔𝖚𝖗-𝕳𝖚𝖓𝖉𝖗𝖊𝖉-𝕬𝖓𝖉-𝕾𝖊𝖛𝖊𝖓𝖙𝖊𝖊𝖓.
+> But something stirred... a prophecy ancient in origin. **The Second.0 Coming**. And when realized at last, the world was divided between the forward-thinking devotees of _Rust Two-Point-Oh_ and those vainly clinging to _Rust One-Point-Four-Hundred-And-Seventeen_.
 >
 > And thus did The Great Schism rend interstellar civilization in twain.
 >
