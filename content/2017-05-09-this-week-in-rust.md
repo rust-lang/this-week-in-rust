@@ -76,7 +76,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 [merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-05-01..2017-05-08
 
 * [`MutexGuard<T>` is now only `Sync` if `T` is](https://github.com/rust-lang/rust/pull/41624) (breaking change, fixes unsoundness)
-* [far-ranging MIR pipeline changes](https://github.com/rust-lang/rust/pull/41625) (also adds "stealing" as a move violent form of borrowing)
+* [far-ranging MIR pipeline changes](https://github.com/rust-lang/rust/pull/41625) (also adds "stealing" as a more violent form of borrowing)
 * [fix arm-linux-androideabi](https://github.com/rust-lang/rust/pull/41656)
 * [fix Windows' ULONG_PTR type on Windows 32 bit systems](https://github.com/rust-lang/rust/pull/41787)
 * [Rust documenters can now write '`##`' to show `#` in rustdoc output](https://github.com/rust-lang/rust/pull/41785)
