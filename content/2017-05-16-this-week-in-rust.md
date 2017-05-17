@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Achieving warp speed with Rust](https://gist.github.com/jFransham/369a86eff00e5f280ed25121454acec1). Rust code performance tips.
 * [Two years of Rust](https://blog.rust-lang.org/2017/05/15/rust-at-two-years.html). From Rust's official blog.
 * [Two years of Rust](https://mgattozzi.com/2-years-of-rust).
+* [Going to the edge of space safely, with OpenStratos and Rust](https://medium.com/@Razican/going-to-the-edge-of-space-safely-with-openstratos-and-rust-f58fba8bf151).
 * [The story of a Rust bug — a trip down a rabbit hole](https://thesquareplanet.com/blog/the-story-of-a-rust-bug/).
 * [Implementing an atomic hash table in Rust](https://ticki.github.io/blog/an-atomic-hash-table/).
 * [Mentally modelling Rust modules](https://manishearth.github.io/blog/2017/05/14/mentally-modelling-modules/).
