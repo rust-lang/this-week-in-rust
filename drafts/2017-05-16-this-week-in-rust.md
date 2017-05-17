@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Mles - a new protocol in Rust](http://mles.io/blog).
 
 # Crate of the Week
 
