@@ -37,7 +37,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate of the week is [remove_dir_all](https://crates.io/crates/remove_dir_all/), a safe, reliable implementation of `remove_dir_all` for Windows. Thanks to [brson](https://users.rust-lang.org/users/brson) for the suggestion.
+This week's crate of the week is [PX8](https://github.com/Gigoteur/PX8), a Rust implementation of an Open Source fantasy console. Thanks to [hallucino](https://users.rust-lang.org/users/hallucino) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -79,32 +79,40 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-122 pull requests were [merged in the last week][merged].
+125 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-05-01..2017-05-08
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-05-08..2017-05-15
 
-* [`MutexGuard<T>` is now only `Sync` if `T` is](https://github.com/rust-lang/rust/pull/41624) (breaking change, fixes unsoundness)
-* [far-ranging MIR pipeline changes](https://github.com/rust-lang/rust/pull/41625) (also adds "stealing" as a move violent form of borrowing)
-* [fix arm-linux-androideabi](https://github.com/rust-lang/rust/pull/41656)
-* [fix Windows' ULONG_PTR type on Windows 32 bit systems](https://github.com/rust-lang/rust/pull/41787)
-* [Rust documenters can now write '`##`' to show `#` in rustdoc output](https://github.com/rust-lang/rust/pull/41785)
-* [Windows doctests no longer deadlock](https://github.com/rust-lang/rust/pull/41769)
-* [reworking `NonZero`, `Shared` and `Unique`](https://github.com/rust-lang/rust/pull/41064) (so they can be stabilized – fingers crossed)
-* [`core::sync::atomic::hint_core_should_pause()` for optimized atomic spin loops](https://github.com/rust-lang/rust/pull/41207)
-* [various LLVM backports](https://github.com/rust-lang/rust/pull/41739)
-* [variance refactoring, no more `pub` map](https://github.com/rust-lang/rust/pull/41734)
-* [on-demand-ify region mapping](https://github.com/rust-lang/rust/pull/41662)
-* [remove ast-ty-to-ty cache](https://github.com/rust-lang/rust/pull/41733)
-* [delete no longer used `syntax` features](https://github.com/rust-lang/rust/pull/41729)
-* [remove unused `TyCtxt` fields](https://github.com/rust-lang/rust/pull/41754)
-* [suggest `!` for bitwise negation when encountering `~` prefix](https://github.com/rust-lang/rust/pull/41722) (ease transition from C)
-* [point to fields that make type recursive](https://github.com/rust-lang/rust/pull/40857)
-* [lint against](https://github.com/rust-lang/rust/pull/41692) and [remove anonymous parameters](https://github.com/rust-lang/rust/pull/41693) (deprecated soon)
-* [remove obsolete `--disable-elf-tls` switch](https://github.com/rust-lang/rust/pull/41687)
-* [forbid `-Z` on stable and beta](https://github.com/rust-lang/rust/pull/41751)
-* [the rust build process can now generate XZ-compressed tarballs](https://github.com/rust-lang/rust/pull/41600)
-* [rust-installer will use available `xz` or `7z`](https://github.com/rust-lang/rust-installer/pull/60)
-* [`cargo bench --all`](https://github.com/rust-lang/cargo/pull/3988)
+* [disallow `._` in float literal](https://github.com/rust-lang/rust/pull/41946) (breaking change, but...who does this?), also
+  [`illegal_floating_point_literal_pattern` compat lint](https://github.com/rust-lang/rust/pull/41293)
+* [enforce well-formedness after generalizing](https://github.com/rust-lang/rust/pull/41716)
+* [`eprint!(..)` / `eprintln!(..)`](https://github.com/rust-lang/rust/pull/41192)
+* [faster `[u8].reverse()`](https://github.com/rust-lang/rust/pull/41764)
+* [polymorphic `span_label`](https://github.com/rust-lang/rust/pull/41745) (reduces plugin ceremony)
+* [diagnostics: allow multiple suggestions](https://github.com/rust-lang/rust/pull/41876)
+* [remove no longer needed libsyntax features](https://github.com/rust-lang/rust/pull/41729)
+* [remove unused macros](https://github.com/rust-lang/rust/pull/41934)
+* [more crate metadata queries](https://github.com/rust-lang/rust/pull/41724)
+* [include crate root in `save-analysis`](https://github.com/rust-lang/rust/pull/41919)
+* [finer crate hashing for incremental compilation](https://github.com/rust-lang/rust/pull/41709)
+* [Windows io::Error improvements](https://github.com/rust-lang/rust/pull/41684)
+* [`impl Clone for .split_whitespace()`](https://github.com/rust-lang/rust/pull/41659)
+* [allow bare CR in doc comments](https://github.com/rust-lang/rust/pull/41827)
+* [box large MIR variants](https://github.com/rust-lang/rust/pull/41926)
+* [fix exponential LLVM code growth on inlining drops](https://github.com/rust-lang/rust/pull/41920)
+* [RLS crash fixed](https://github.com/rust-lang/rust/pull/41969)
+* [fix lvalue ops](https://github.com/rust-lang/rust/pull/41939)
+* [fix error with `-Z treat-err-as-bug`](https://github.com/rust-lang/rust/pull/41942)
+* [don't deny outer type parameters in embedded constants](https://github.com/rust-lang/rust/pull/41939)
+* [equate items ignoring variance](https://github.com/rust-lang/rust/pull/41913)
+* [new `-Z force-unstable-if-unmarked` flag](https://github.com/rust-lang/rust/pull/41847)
+* [stabilize `-C target-feature=+crt-static`](https://github.com/rust-lang/rust/pull/41757)
+* [cargo fetches only registry index master branch](https://github.com/rust-lang/cargo/pull/4024)
+* [cargo now ignores malformed manifests on git deps](https://github.com/rust-lang/cargo/pull/3998)
+* [cargo build script search path fixed](https://github.com/rust-lang/cargo/pull/3974)
+* [cargo now retries requests that failed with 5XX](https://github.com/rust-lang/cargo/pull/4032)
+* [cargo no longer checks out the whole crates.io index](https://github.com/rust-lang/cargo/pull/4026)
+* [(mostly) rewrite the Rust installer in Rust](https://github.com/rust-lang/rust-installer/pull/62)
 
 ## New Contributors
 
@@ -194,6 +202,9 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Rust Developer at Anixe](https://rustjobs.rs/jobs/21/anixe-rust-developer)
+* [Rust Legend at Between Lines](https://rustjobs.rs/jobs/20/between-lines-ltd-rust-legend)
+* [Research Engineer (Big Data) at Hadean](https://rustjobs.rs/jobs/18/hadean-research-engineer-big-data)
 * [Rust Engineer at Suitable Technologies](https://www.reddit.com/r/rust/comments/6bfjqc/possible_paid_rust_work/).
 * [Core Developer for Parity Technologies](https://parity.io/#rust-dev-job)
 
