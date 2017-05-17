@@ -182,7 +182,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-[Core Developer for Parity Technologies](https://parity.io/#rust-dev-job)
+* [Rust Developer at Anixe](https://rustjobs.rs/jobs/21/anixe-rust-developer)
+* [Rust Legend at Between Lines](https://rustjobs.rs/jobs/20/between-lines-ltd-rust-legend)
+* [Research Engineer (Big Data) at Hadean](https://rustjobs.rs/jobs/18/hadean-research-engineer-big-data)
+* [Core Developer for Parity Technologies](https://parity.io/#rust-dev-job)
+
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
