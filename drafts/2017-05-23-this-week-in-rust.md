@@ -33,6 +33,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [Rust libz blitz status update 2017-05-12](https://internals.rust-lang.org/t/rust-libz-blitz/5184/29). 11 issues were closed last week and 8 new cookbook examples added. This week, the libz blitz is in need of someone to [lead the walkdir evaluation](https://internals.rust-lang.org/t/rust-libz-blitz/5184/30).
 * [rust-url is looking for maintainers](https://users.rust-lang.org/t/help-wanted-maintaining-rust-url/10707).
+* [easy] [i3status-rust is looking for contributors to make i3 more awesome!](https://github.com/XYunknown/i3status-rust).
 * [rust: Get test suite working with wasm](https://github.com/rust-lang/rust/issues/38800).
 * [easy] [rust-cookbook: Switch error handling setup to quick_main! macro from error-chain](https://github.com/brson/rust-cookbook/issues/59).
 * [rustup: Optimize disk access during install](https://github.com/rust-lang-nursery/rustup.rs/issues/904).
