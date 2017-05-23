@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate of the week is [PX8](https://github.com/Gigoteur/PX8), a Rust implementation of an Open Source fantasy console. Thanks to [hallucino](https://users.rust-lang.org/users/hallucino) for the suggestion.
+Sadly, we had no nominations this week, so stay tuned for next week!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -60,40 +60,34 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-125 pull requests were [merged in the last week][merged].
+135 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-05-08..2017-05-15
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-05-15..2017-05-22
 
-* [disallow `._` in float literal](https://github.com/rust-lang/rust/pull/41946) (breaking change, but...who does this?), also
-  [`illegal_floating_point_literal_pattern` compat lint](https://github.com/rust-lang/rust/pull/41293)
-* [enforce well-formedness after generalizing](https://github.com/rust-lang/rust/pull/41716)
-* [`eprint!(..)` / `eprintln!(..)`](https://github.com/rust-lang/rust/pull/41192)
-* [faster `[u8].reverse()`](https://github.com/rust-lang/rust/pull/41764)
-* [polymorphic `span_label`](https://github.com/rust-lang/rust/pull/41745) (reduces plugin ceremony)
-* [diagnostics: allow multiple suggestions](https://github.com/rust-lang/rust/pull/41876)
-* [remove no longer needed libsyntax features](https://github.com/rust-lang/rust/pull/41729)
-* [remove unused macros](https://github.com/rust-lang/rust/pull/41934)
-* [more crate metadata queries](https://github.com/rust-lang/rust/pull/41724)
-* [include crate root in `save-analysis`](https://github.com/rust-lang/rust/pull/41919)
-* [finer crate hashing for incremental compilation](https://github.com/rust-lang/rust/pull/41709)
-* [Windows io::Error improvements](https://github.com/rust-lang/rust/pull/41684)
-* [`impl Clone for .split_whitespace()`](https://github.com/rust-lang/rust/pull/41659)
-* [allow bare CR in doc comments](https://github.com/rust-lang/rust/pull/41827)
-* [box large MIR variants](https://github.com/rust-lang/rust/pull/41926)
-* [fix exponential LLVM code growth on inlining drops](https://github.com/rust-lang/rust/pull/41920)
-* [RLS crash fixed](https://github.com/rust-lang/rust/pull/41969)
-* [fix lvalue ops](https://github.com/rust-lang/rust/pull/41939)
-* [fix error with `-Z treat-err-as-bug`](https://github.com/rust-lang/rust/pull/41942)
-* [don't deny outer type parameters in embedded constants](https://github.com/rust-lang/rust/pull/41939)
-* [equate items ignoring variance](https://github.com/rust-lang/rust/pull/41913)
-* [new `-Z force-unstable-if-unmarked` flag](https://github.com/rust-lang/rust/pull/41847)
-* [stabilize `-C target-feature=+crt-static`](https://github.com/rust-lang/rust/pull/41757)
-* [cargo fetches only registry index master branch](https://github.com/rust-lang/cargo/pull/4024)
-* [cargo now ignores malformed manifests on git deps](https://github.com/rust-lang/cargo/pull/3998)
-* [cargo build script search path fixed](https://github.com/rust-lang/cargo/pull/3974)
-* [cargo now retries requests that failed with 5XX](https://github.com/rust-lang/cargo/pull/4032)
-* [cargo no longer checks out the whole crates.io index](https://github.com/rust-lang/cargo/pull/4026)
-* [(mostly) rewrite the Rust installer in Rust](https://github.com/rust-lang/rust-installer/pull/62)
+* [fix LLVM signed multiplication with overflow](https://github.com/rust-lang/llvm/pull/79)
+* [fix debuginfo compilation unit names for OSX linker](https://github.com/rust-lang/rust/pull/42100)
+* [fix off-by-one error in span columns](https://github.com/rust-lang/rust/pull/42062)
+* [rustc/rustdoc now err nicely on non-unicode arguments](https://github.com/rust-lang/rust/pull/42092)
+* [incremental compilation: reduce collisions by moving from 64- to 128-bit-hashes](https://github.com/rust-lang/rust/pull/42082)
+* [only compile often-changing code incrementally](https://github.com/rust-lang/cargo/pull/4065)
+* [default cross-crate incremental compilation](https://github.com/rust-lang/rust/pull/42055)
+* [`include!(line!())` no longer ICEs](https://github.com/rust-lang/rust/pull/42006)
+* [fix `macro_rules` name matching regression](https://github.com/rust-lang/rust/pull/42005)
+* [`-Z pre-link-args`](https://github.com/rust-lang/rust/pull/41971)
+* [`quote!()` now handles `br#".."`](https://github.com/rust-lang/rust/pull/41961)
+* [use equality in the coerce-unsized check](https://github.com/rust-lang/rust/pull/41937)
+* [lint unused macros](https://github.com/rust-lang/rust/pull/41907)
+* [number of filtered out tests in test summary](https://github.com/rust-lang/rust/pull/41910)
+* [library stabilizations for 1.18.0](https://github.com/rust-lang/rust/pull/41904)
+* [stabilize `Iterator::step_by(_)`](https://github.com/rust-lang/rust/pull/41439)
+* [`mem::needs_drop(_)`](https://github.com/rust-lang/rust/pull/41892)
+* [`Vec::resize_default(self, usize)`](https://github.com/rust-lang/rust/pull/41771)
+* [faster string operations](https://github.com/rust-lang/rust/pull/42037)
+* [cargo: change inferring bin name logic](https://github.com/rust-lang/cargo/pull/4046)
+* [cargo: support glob syntax in workspace members](https://github.com/rust-lang/cargo/pull/3979)
+* [cargo: `rustc-env` in build scripts](https://github.com/rust-lang/cargo/pull/3929)
+* [cargo: allow space- or comma-delimited features](https://github.com/rust-lang/cargo/pull/4084)
+
 
 ## New Contributors
 
