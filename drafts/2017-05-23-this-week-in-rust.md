@@ -186,6 +186,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 * [Rust Developer at Anixe](https://rustjobs.rs/jobs/21/anixe-rust-developer)
 * [Rust Legend at Between Lines](https://rustjobs.rs/jobs/20/between-lines-ltd-rust-legend)
+* [Rust Developer at 1aim GmbH](https://rustjobs.rs/jobs/22/1aim-gmbh-rust-developer)
 * [Research Engineer (Big Data) at Hadean](https://rustjobs.rs/jobs/18/hadean-research-engineer-big-data)
 * [Rust Engineer at Suitable Technologies](https://www.reddit.com/r/rust/comments/6bfjqc/possible_paid_rust_work/).
 * [Core Developer for Parity Technologies](https://parity.io/#rust-dev-job)
