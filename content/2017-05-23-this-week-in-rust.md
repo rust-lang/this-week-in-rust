@@ -43,10 +43,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Rust libz blitz status update 2017-05-19](https://internals.rust-lang.org/t/rust-libz-blitz/5184/34). Contribution opportunities are available.
+* The log crate just completed its [evaluation](https://internals.rust-lang.org/t/crate-evaluation-for-2017-05-16-log/5185/50), generating a ton of [easy-tagged issues](https://github.com/rust-lang-nursery/log/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3Aeasy).
 * [Rust cookbook needs a lot of help](https://github.com/brson/rust-cookbook/issues?q=is%3Aissue+is%3Aopen+label%3Aexample)!
 * [Help wanted: Rust for embedded development: Where we are and what’s missing](https://users.rust-lang.org/t/rust-for-embedded-development-where-we-are-and-whats-missing/10861).
 * [rust-url is looking for maintainers](https://users.rust-lang.org/t/help-wanted-maintaining-rust-url/10707).
-* The log crate just completed its [evaluation](https://internals.rust-lang.org/t/crate-evaluation-for-2017-05-16-log/5185/50), generating a ton of [easy-tagged issues](https://github.com/rust-lang-nursery/log/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3Aeasy).
 * [easy] [i3status-rust is looking for contributors to make i3 window manager more awesome](https://github.com/XYunknown/i3status-rust)!
 * [rust: Teach .pkg, .msi, .exe installers about RLS](https://github.com/rust-lang/rust/issues/42157).
 * [rust: Get test suite working with wasm](https://github.com/rust-lang/rust/issues/38800).
