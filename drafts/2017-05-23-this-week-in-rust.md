@@ -16,6 +16,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Announcing the Infrastructure, Cargo, and Dev Tools teams; disbanding the Tools team](https://internals.rust-lang.org/t/announcing-the-infrastructure-cargo-and-dev-tools-teams-disbanding-the-tools-team/5256).
+* [Rust and CSV parsing](http://blog.burntsushi.net/csv/).
+* [How to: Run Rust code on your NVIDIA GPU](https://github.com/japaric/nvptx#nvptx).
+* [System programming in Rust: Beyond safety](https://www.sigops.org/hotos/hotos17/papers/hotos17-final92.pdf).
+* [TLA + Rust for provably correct and safe distributed systems](https://github.com/spacejam/tla-rust/blob/master/README.md).
+* [Building graphical applications to JS in stable Rust](https://gregkatz.github.io/2017-05-20-rust-emscripten.html).
+* [Walkthrough: Rocket, Diesel and a Postgres database on AWS using Rusoto](https://matthewkmayer.github.io/blag/public/post/rusoto-rds-walkthrough/).
+* [Enforcing documentation in a medium-size Rust project](https://medium.com/@Razican/enforcing-documentation-in-a-medium-size-rust-project-7b6a2a47b6d6).
+* [My first PR for a Rust project](https://medium.com/adventures-in-rust/my-first-pr-for-a-rust-project-364d8c02220b).
+* [This week in Rust docs 57](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-57).
+
 # Crate of the Week
 
 This week's crate of the week is [PX8](https://github.com/Gigoteur/PX8), a Rust implementation of an Open Source fantasy console. Thanks to [hallucino](https://users.rust-lang.org/users/hallucino) for the suggestion.
@@ -31,28 +42,14 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Rust libz blitz status update 2017-05-12](https://internals.rust-lang.org/t/rust-libz-blitz/5184/29). 11 issues were closed last week and 8 new cookbook examples added. This week, the libz blitz is in need of someone to [lead the walkdir evaluation](https://internals.rust-lang.org/t/rust-libz-blitz/5184/30).
+* [Rust cookbook needs a lot of help](https://github.com/brson/rust-cookbook/issues?q=is%3Aissue+is%3Aopen+label%3Aexample).
+* [Help wanted: Rust for embedded development: Where we are and what’s missing](https://users.rust-lang.org/t/rust-for-embedded-development-where-we-are-and-whats-missing/10861).
 * [rust-url is looking for maintainers](https://users.rust-lang.org/t/help-wanted-maintaining-rust-url/10707).
+* [Rust libz blitz status update 2017-05-19](https://internals.rust-lang.org/t/rust-libz-blitz/5184/34). Contribution opportunities are available.
+* The log crate just completed its [evaluation](https://internals.rust-lang.org/t/crate-evaluation-for-2017-05-16-log/5185/50), generating a ton of [easy-tagged issues](https://github.com/rust-lang-nursery/log/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3Aeasy).
+* [rust: Teach .pkg, .msi, .exe installers about RLS](https://github.com/rust-lang/rust/issues/42157).
 * [rust: Get test suite working with wasm](https://github.com/rust-lang/rust/issues/38800).
-* [easy] [rust-cookbook: Switch error handling setup to quick_main! macro from error-chain](https://github.com/brson/rust-cookbook/issues/59).
-* [rustup: Optimize disk access during install](https://github.com/rust-lang-nursery/rustup.rs/issues/904).
-* [rustup: Improve error message when override doesn't exist](https://github.com/rust-lang-nursery/rustup.rs/issues/820).
-* [easy] [rustup: Use ShellExecute to open docs on windows](https://github.com/rust-lang-nursery/rustup.rs/issues/499).
-* [easy] [rustup: No info printed on `rustup target remove`](https://github.com/rust-lang-nursery/rustup.rs/issues/306).
-* [easy] [rustup: rustup tries to sync channel updates for non-updatable channels](https://github.com/rust-lang-nursery/rustup.rs/issues/756).
-* [easy] [rustup: Windows confirmation prompt not disabled with -y](https://github.com/rust-lang-nursery/rustup.rs/issues/916).
-* [easy] [rustup: Please show me the version I'm downloading/updatin](https://github.com/rust-lang-nursery/rustup.rs/issues/1007).
-* [easy] [rustup: `target add` and `component add` should succeed if target/component is already installed](https://github.com/rust-lang-nursery/rustup.rs/issues/1009).
-* [rustup: Build with panic=abort](https://github.com/rust-lang-nursery/rustup.rs/issues/992).
-* [rustup: zero exit code on failing `rustup update`](https://github.com/rust-lang-nursery/rustup.rs/issues/1095).
-* [rustup: Teach rustup/rustbuild about optional components](https://github.com/rust-lang-nursery/rustup.rs/issues/1006).
-* [rustup: Support dependencies between optional components/extensions](https://github.com/rust-lang-nursery/rustup.rs/issues/1111).
-* [easy] [rusoto: SQS: bring back integration tests](https://github.com/rusoto/rusoto/issues/616). Rusoto is an AWS SDK for Rust.
-* [easy] [quackin: Better documentation for the recommender module](https://github.com/z1mvader/quackin/issues/3). Quackin is a recommender systems framework for Rust.
-* [easy] [quackin: Item based recommender](https://github.com/z1mvader/quackin/issues/1).
-* [medium] [quackin: Benchmarks for recommenders](https://github.com/z1mvader/quackin/issues/4).
-* [easy] [quackin: Support similarities like Jaccard and Pearson correlation](https://github.com/z1mvader/quackin/issues/5).
-* [medium] [quackin: Performance metrics like Precision, Recall, RMSE and MAE](https://github.com/z1mvader/quackin/issues/7).
+* [gutenberg: Make a SyntaxSet pool](https://github.com/Keats/gutenberg/issues/70). Gutenberg is an opinionated static site generator written in Rust.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -97,11 +94,13 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Bastien Orivel
-* Dennis Schridde
-* Eduardo Pinho
-* faso
-* Liran Ringel
+* Anders Papitto
+* Daniel Lockyer
+* David LeGare
+* Ivan Dardi
+* Michael Kohl
+* Mike Lubinets
+* Venkata Giri Reddy
 
 ## Approved RFCs
 
@@ -109,7 +108,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 1849: Remove static bound from type_id](https://github.com/rust-lang/rfcs/pull/1849).
+* [Amendment to RFC 1192: Make RangeInclusive just a two-field struct](https://github.com/rust-lang/rfcs/pull/1980).
 
 ## Final Comment Period
 
@@ -119,16 +118,15 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
+* [disposition: merge] [Finalize syntax and parameter scoping for `impl Trait`, while expanding it to arguments](https://github.com/rust-lang/rfcs/pull/1951).
+* [disposition: merge] [extend `?` to operate over other types](https://github.com/rust-lang/rfcs/pull/1859).
 * [disposition: merge] [Specify `#[repr(transparent)]`](https://github.com/rust-lang/rfcs/pull/1758).
 * [disposition: close] [Add Cargo post-build scripts](https://github.com/rust-lang/rfcs/pull/1777).
-* [disposition: close] [Reject crates.io uploads which declare a feature named `no_std`](https://github.com/rust-lang/rfcs/pull/1841).
-* [disposition: merge] [Expand and stabilize `impl Trait`](https://github.com/rust-lang/rfcs/pull/1951).
-* [disposition: close] [Allow any Displayable type for expect](https://github.com/rust-lang/rfcs/pull/1968).
-* [disposition: merge] [Make RangeInclusive just a two-field struct (amend 1192)](https://github.com/rust-lang/rfcs/pull/1980).
 
 ## New RFCs
 
-* [Const generics](https://github.com/rust-lang/rfcs/pull/2000).
+* [Support of alternate registries in Cargo](https://github.com/rust-lang/rfcs/pull/2006).
+* [Match ergonomics using default binding modes](https://github.com/rust-lang/rfcs/pull/2005).
 
 ## Style RFCs
 
@@ -140,7 +138,6 @@ Issues in final comment period:
 
 * [Spaces around `=` in attributes](https://github.com/rust-lang-nursery/fmt-rfcs/issues/82)
 * [Return type on new line](https://github.com/rust-lang-nursery/fmt-rfcs/issues/77) - proposed to close
-* [Single-line where](https://github.com/rust-lang-nursery/fmt-rfcs/issues/74) - proposed to close
 * [Attribute/doc comment ordering](https://github.com/rust-lang-nursery/fmt-rfcs/issues/72)
 * [Ordering of types of groups within a module](https://github.com/rust-lang-nursery/fmt-rfcs/issues/71)
 * [Function calls](https://github.com/rust-lang-nursery/fmt-rfcs/issues/65) and [chains of calls](https://github.com/rust-lang-nursery/fmt-rfcs/issues/66)
@@ -154,18 +151,8 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 * [simple expressions](https://github.com/rust-lang-nursery/fmt-rfcs/issues/68)
 * [assignment and assignment operators](https://github.com/rust-lang-nursery/fmt-rfcs/issues/67)
 
-
 # Upcoming Events
 
-* [May 17. Rust LA May Meetup - Rust Birthday Party](https://www.meetup.com/Rust-Los-Angeles/events/239616841/)!
-* [May 17. South Florida Rust - Rust Birthday Party](https://www.meetup.com/South-Florida-Rust-Meetup/events/239036595/)!
-* [May 17. Rust Atlanta - Heterogeneous Collections in Rust at Tech Square Labs (Midtown)](https://www.meetup.com/Rust-ATL/events/239205124/).
-* [May 17. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/239666001/).
-* [May 17. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [May 17. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [May 18. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [May 20. Rust Bangalore community meetup](https://www.eventshigh.com/detail/Bangalore/9a49c6be73b6591e770d1cece7eec6fe-Rust-Bangalore-First-Meetup).
-* [May 20-21. Hackathon TupperRust (Lyon)](https://public.etherpad-mozilla.org/p/TupperRust-lyon-1705).
 * [May 24. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [May 24. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [May 30. Rust Oslo - Fearless programming with Rust - Adventures with Asynchronous I/O](https://www.meetup.com/Rust-Oslo/events/238315636/).
@@ -174,6 +161,13 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 * [May 31. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [May 31. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Jun  1. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [Jun  5. Rust Prague Meetup #4](https://www.meetup.com/rust-prague/events/240025447/).
+* [Jun  6. Mozilla Rust Roadshow @ GA Boston: Rust! Hack Without Fear](https://generalassemb.ly/education/ga-mozilla-developer-roadshow-presents-rust-hack-without-fear/boston/36069).
+* [Jun  7. Rust Cologne - Rust 2nd Anniversary Reloaded](http://rust.cologne/2017/06/07/rust-2nd-aniversary-part-2.html).
+* [Jun  7. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/240072184/).
+* [Jun  7. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Jun  7. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Jun 8. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/240198831/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -183,21 +177,15 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Rust Developer at 1aim](https://rustjobs.rs/jobs/22/1aim-gmbh-rust-developer).
 * [Rust Developer at Anixe](https://rustjobs.rs/jobs/21/anixe-rust-developer)
 * [Rust Legend at Between Lines](https://rustjobs.rs/jobs/20/between-lines-ltd-rust-legend)
-* [Research Engineer (Big Data) at Hadean](https://rustjobs.rs/jobs/18/hadean-research-engineer-big-data)
-* [Rust Engineer at Suitable Technologies](https://www.reddit.com/r/rust/comments/6bfjqc/possible_paid_rust_work/).
-* [Core Developer for Parity Technologies](https://parity.io/#rust-dev-job)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> Spent the last week learning rust. The old martial arts adage applies. Cry in the dojo, laugh in the battlefield.
-
-— [/u/crusoe on Reddit](https://www.reddit.com/r/programming/comments/69g8il/the_horror_in_the_standard_library/dh7fakg/).
-
-Thanks to [Ayose Cazorla](https://users.rust-lang.org/t/twir-quote-of-the-week/328/399) for the suggestion.
+*No quote was selected for QotW.*
 
 [Submit your quotes for next week][submit]!
 
