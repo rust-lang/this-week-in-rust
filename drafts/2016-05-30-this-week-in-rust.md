@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-Sadly, we had no nominations this week, so stay tuned for next week!
+This week's crate is [Oath2](https://crates.io/crates/oath2), a library for two-factor authentication. Thanks to [crypto-universe](https://users.rust-lang.org/u/crypto-universe) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -47,34 +47,28 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-135 pull requests were [merged in the last week][merged].
+94 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-05-15..2017-05-22
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-05-22..2017-05-29
 
-* [fix LLVM signed multiplication with overflow](https://github.com/rust-lang/llvm/pull/79)
-* [fix debuginfo compilation unit names for OSX linker](https://github.com/rust-lang/rust/pull/42100)
-* [fix off-by-one error in span columns](https://github.com/rust-lang/rust/pull/42062)
-* [rustc/rustdoc now err nicely on non-unicode arguments](https://github.com/rust-lang/rust/pull/42092)
-* [incremental compilation: reduce collisions by moving from 64- to 128-bit-hashes](https://github.com/rust-lang/rust/pull/42082)
-* [only compile often-changing code incrementally](https://github.com/rust-lang/cargo/pull/4065)
-* [default cross-crate incremental compilation](https://github.com/rust-lang/rust/pull/42055)
-* [`include!(line!())` no longer ICEs](https://github.com/rust-lang/rust/pull/42006)
-* [fix `macro_rules` name matching regression](https://github.com/rust-lang/rust/pull/42005)
-* [`-Z pre-link-args`](https://github.com/rust-lang/rust/pull/41971)
-* [`quote!()` now handles `br#".."`](https://github.com/rust-lang/rust/pull/41961)
-* [use equality in the coerce-unsized check](https://github.com/rust-lang/rust/pull/41937)
-* [lint unused macros](https://github.com/rust-lang/rust/pull/41907)
-* [number of filtered out tests in test summary](https://github.com/rust-lang/rust/pull/41910)
-* [library stabilizations for 1.18.0](https://github.com/rust-lang/rust/pull/41904)
-* [stabilize `Iterator::step_by(_)`](https://github.com/rust-lang/rust/pull/41439)
-* [`mem::needs_drop(_)`](https://github.com/rust-lang/rust/pull/41892)
-* [`Vec::resize_default(self, usize)`](https://github.com/rust-lang/rust/pull/41771)
-* [faster string operations](https://github.com/rust-lang/rust/pull/42037)
-* [cargo: change inferring bin name logic](https://github.com/rust-lang/cargo/pull/4046)
-* [cargo: support glob syntax in workspace members](https://github.com/rust-lang/cargo/pull/3979)
-* [cargo: `rustc-env` in build scripts](https://github.com/rust-lang/cargo/pull/3929)
-* [cargo: allow space- or comma-delimited features](https://github.com/rust-lang/cargo/pull/4084)
-
+* [declarative macros 2.0](https://github.com/rust-lang/rust/pull/40847) (RFC [#1584](https://github.com/rust-lang/rfcs/blob/0f130f5341574a881283fc00b36166ab4109d669/text/1584-macros.md))
+* [stabilize `loop_break_value`](https://github.com/rust-lang/rust/pull/42016) (RFC [#1624](https://github.com/rust-lang/rfcs/blob/0f130f5341574a881283fc00b36166ab4109d669/text/1624-loop-break-value.md))
+* [stabilize destructor-less unions with `Copy` fields](https://github.com/rust-lang/rust/pull/42068)
+* [stabilize library features for 1.18.0](https://github.com/rust-lang/rust/pull/41904)
+* [move the mutable parts out of `LintStore`](https://github.com/rust-lang/rust/pull/42052)
+* [support Win32 `thiscall` calling convention](https://github.com/rust-lang/rust/pull/42058)
+* [correctly count errors](https://github.com/rust-lang/rust/pull/42150)
+* [improve help message on erroneous usage of `PartialEq`](https://github.com/rust-lang/rust/pull/41559)
+* [fix `missing_docs` lint ICE with nested enums](https://github.com/rust-lang/rust/pull/42262)
+* [forbid more parenthesized parameters in primitive types](https://github.com/rust-lang/rust/pull/41856)
+* [make assignments to `Copy` union fields safe](https://github.com/rust-lang/rust/pull/42083)
+* [type flags (like `is_sized`) are now proper queries](https://github.com/rust-lang/rust/pull/42015)
+* [`trace_macros` now shows both macro call & expansion](https://github.com/rust-lang/rust/pull/42103)
+* [prevent `StorageLive`/`StorageDead` in statics](https://github.com/rust-lang/rust/pull/42023)
+* [translate array drop glue using MIR](https://github.com/rust-lang/rust/pull/41917)
+* [`Iterator::step_by(_)` can now be `ExactSizeIterator`](https://github.com/rust-lang/rust/pull/42167)
+* [two-field `RangeInclusive`](https://github.com/rust-lang/rust/pull/42134)
+* [cargo can now `--exclude` packages when using `--all`](https://github.com/rust-lang/cargo/pull/4031)
 
 ## New Contributors
 
