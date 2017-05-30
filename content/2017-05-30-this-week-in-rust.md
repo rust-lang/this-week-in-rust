@@ -33,7 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [Oath2](https://crates.io/crates/oath2), a library for two-factor authentication. Thanks to [crypto-universe](https://users.rust-lang.org/u/crypto-universe) for the suggestion!
+Sadly, we had no nominations this week, so stay tuned for next week!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
