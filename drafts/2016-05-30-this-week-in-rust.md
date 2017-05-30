@@ -114,13 +114,7 @@ We're making good progress and the style is coming together. If you want to see 
 
 Issues in final comment period:
 
-* [Spaces around `=` in attributes](https://github.com/rust-lang-nursery/fmt-rfcs/issues/82)
-* [Return type on new line](https://github.com/rust-lang-nursery/fmt-rfcs/issues/77) - proposed to close
-* [Attribute/doc comment ordering](https://github.com/rust-lang-nursery/fmt-rfcs/issues/72)
-* [Ordering of types of groups within a module](https://github.com/rust-lang-nursery/fmt-rfcs/issues/71)
-* [Function calls](https://github.com/rust-lang-nursery/fmt-rfcs/issues/65) and [chains of calls](https://github.com/rust-lang-nursery/fmt-rfcs/issues/66)
 * [Combining opening and closing delims](https://github.com/rust-lang-nursery/fmt-rfcs/issues/61)
-* [Where clauses](https://github.com/rust-lang-nursery/fmt-rfcs/issues/38)
 
 Good first issues:
 
