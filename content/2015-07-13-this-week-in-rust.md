@@ -19,6 +19,7 @@ This week's edition was edited by: Brian Anderson, Vikrant Chaudhary
 
 * [Rust in Detail: Writing Scalable Chat Service from Scratch](https://nbaksalyar.github.io/2015/07/10/writing-chat-in-rust.html).
 * [Reading Rust Function Signatures](http://hoverbear.org/2015/07/10/reading-rust-function-signatures/). How to read function signatures and extract information from them.
+* [Holy std::borrow::Cow](https://llogiq.github.io/2015/07/09/cow.html), also [Redux](https://llogiq.github.io/2015/07/09/cow.html): Llogiq investigates Cow usage and implementation.
 * [Collecting Results from Collections](http://hoverbear.org/2015/07/08/a-useful-error-pattern/). Use `.collect()` to transform `Vec<Result<()>>` into `Result<Vec<()>>`.
 * [Easier libc in Rust](https://mobiarch.wordpress.com/2015/07/03/easy-libc-in-rust/). An index of some of the most commonly used libc calls and their higher level wrappers.
 * [Importing C constants: Proof of Concept](http://vojtech.kral.hk/en/rust-importing-c-constants-proof-of-concept/). A proof-of-concept rustc plugin that imports C macro constants from C include files at compile time.
