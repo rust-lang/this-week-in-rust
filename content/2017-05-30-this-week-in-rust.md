@@ -16,6 +16,21 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [@RustStatus](https://twitter.com/RustStatus) - Official Twitter account to track outages of Crates.io, rustup, bors, and nightly breakage.
+* [Announcing Tectonic: A complete, modernized, self-contained TeX/LaTeX engine](https://users.rust-lang.org/t/tectonic-a-complete-modernized-self-contained-tex-latex-engine/11053).
+* [Sccache for caching Rust compilation](https://users.rust-lang.org/t/sccache-for-caching-rust-compilation/10960).
+* [Rust: A Scala engineer's perspective](https://beachape.com/blog/2017/05/24/rust-from-scala/).
+* [Overhead analysis of the RTFM framework](http://blog.japaric.io/rtfm-overhead/). RTFM is a framework for building concurrent applications, for ARM Cortex-M MCUs.
+* [Debug Rust on Windows with Visual Studio Code and the MSVC debugger](https://www.brycevandyk.com/debug-rust-on-windows-with-visual-studio-code-and-the-msvc-debugger/).
+* [Query structure in chalk](http://smallcultfollowing.com/babysteps/blog/2017/05/25/query-structure-in-chalk/). Chalk is a PROLOG-ish interpreter written in Rust, intended eventually for use in the compiler.
+* [Notes on building Noise: a JSON search engine written in Rust](http://damienkatz.net/2017/05/23/notes-on-building-noise-a-json-search-engine-written-in-rust/).
+* [Continuous integration and code coverage report for a Rust project](https://medium.com/@Razican/continuous-integration-and-code-coverage-report-for-a-rust-project-5dfd4d68fbe5).
+* [Rust in TiKV](https://pingcap.github.io/blog/2017/05/27/rust-in-tikv/). TiKV is a distributed Key-Value database written in Rust.
+* [video] [Helix: Build and deploy a Ruby native extension with Rust in 10 minutes](https://www.youtube.com/watch?v=nq1nNx8-fNQ).
+* [Rust support for KDevelop being worked on as a GSoC project](https://perplexinglyemma.blogspot.in/2017/05/summer-of-coding.html).
+* [This week in Rust docs 5](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-58).
+
+
 # Crate of the Week
 
 This week's crate is [Oath2](https://crates.io/crates/oath2), a library for two-factor authentication. Thanks to [crypto-universe](https://users.rust-lang.org/u/crypto-universe) for the suggestion!
@@ -31,13 +46,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Rust libz blitz status update 2017-05-19](https://internals.rust-lang.org/t/rust-libz-blitz/5184/34). Contribution opportunities are available.
+* [Rust libz blitz status update 2017-05-27](https://internals.rust-lang.org/t/rust-libz-blitz/5184/47). Contribution opportunities are available.
 * The log crate just completed its [evaluation](https://internals.rust-lang.org/t/crate-evaluation-for-2017-05-16-log/5185/50), generating a ton of [easy-tagged issues](https://github.com/rust-lang-nursery/log/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3Aeasy).
 * [Rust cookbook needs a lot of help](https://github.com/brson/rust-cookbook/issues?q=is%3Aissue+is%3Aopen+label%3Aexample)!
 * [Help wanted: Rust for embedded development: Where we are and what’s missing](https://users.rust-lang.org/t/rust-for-embedded-development-where-we-are-and-whats-missing/10861).
-* [rust-url is looking for maintainers](https://users.rust-lang.org/t/help-wanted-maintaining-rust-url/10707).
 * [easy] [i3status-rust is looking for contributors to make i3 window manager more awesome](https://github.com/XYunknown/i3status-rust)!
-* [rust: Teach .pkg, .msi, .exe installers about RLS](https://github.com/rust-lang/rust/issues/42157).
 * [rust: Get test suite working with wasm](https://github.com/rust-lang/rust/issues/38800).
 * [gutenberg: Make a SyntaxSet pool](https://github.com/Keats/gutenberg/issues/70). Gutenberg is an opinionated static site generator written in Rust.
 
@@ -72,13 +85,11 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Anders Papitto
-* Daniel Lockyer
-* David LeGare
-* Ivan Dardi
-* Michael Kohl
-* Mike Lubinets
-* Venkata Giri Reddy
+* Charlie Somerville
+* Dmitry Vyukov
+* Ian Douglas Scott
+* Matthew
+* matthewjasper
 
 ## Approved RFCs
 
@@ -86,7 +97,8 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Amendment to RFC 1192: Make RangeInclusive just a two-field struct](https://github.com/rust-lang/rfcs/pull/1980).
+* [RFC 1951: Finalize syntax and parameter scoping for `impl Trait`, while expanding it to arguments](https://github.com/rust-lang/rfcs/pull/1951).
+* [RFC 1859: Introduce a trait `Try` for customizing the behavior of the `?`](https://github.com/rust-lang/rfcs/pull/1859).
 
 ## Final Comment Period
 
@@ -96,15 +108,14 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [disposition: merge] [Finalize syntax and parameter scoping for `impl Trait`, while expanding it to arguments](https://github.com/rust-lang/rfcs/pull/1951).
-* [disposition: merge] [extend `?` to operate over other types](https://github.com/rust-lang/rfcs/pull/1859).
 * [disposition: merge] [Specify `#[repr(transparent)]`](https://github.com/rust-lang/rfcs/pull/1758).
-* [disposition: close] [Add Cargo post-build scripts](https://github.com/rust-lang/rfcs/pull/1777).
+* [disposition: close] [Implement adaptive hashing for HashMap](https://github.com/rust-lang/rfcs/pull/1796).
 
 ## New RFCs
 
-* [Support of alternate registries in Cargo](https://github.com/rust-lang/rfcs/pull/2006).
-* [Match ergonomics using default binding modes](https://github.com/rust-lang/rfcs/pull/2005).
+* [Future-proofing enums/structs with `#[non_exhaustive]` attribute](https://github.com/rust-lang/rfcs/pull/2008).
+* [Const/static type annotation elision](https://github.com/rust-lang/rfcs/pull/2010). Allow elision of type annotations in many cases for const and static items, as part of the ergonomics initiative.
+* [Make the `assert!` macro generic to all expressions, and extend the readability of debug dumps](https://github.com/rust-lang/rfcs/pull/2011).
 
 ## Style RFCs
 
@@ -125,10 +136,6 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 
 # Upcoming Events
 
-* [May 24. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [May 24. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [May 30. Rust Oslo - Fearless programming with Rust - Adventures with Asynchronous I/O](https://www.meetup.com/Rust-Oslo/events/238315636/).
-* [May 30. Rust Toronto meetup - Hands-on parsing in Rust](https://www.meetup.com/Rust-Toronto/events/239839632/).
 * [May 31. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/239889748/).
 * [May 31. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [May 31. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
@@ -139,7 +146,13 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 * [Jun  7. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/240072184/).
 * [Jun  7. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Jun  7. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [Jun 8. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/240198831/).
+* [Jun  8. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/240198831/).
+* [Jun 12. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/239841907/).
+* [Jun 14. Rust Meetup Vienna](https://www.eventbrite.com/e/rust-meetup-vienna-tickets-34958469724).
+* [Jun 14. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Jun 14. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Jun 14. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/240113597/).
+* [Jun 15. Rust DC Learn + Try: Embedded Rust](https://www.meetup.com/RustDC/events/239115658/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -150,14 +163,18 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Rust Developer at 1aim](https://rustjobs.rs/jobs/22/1aim-gmbh-rust-developer).
-* [Rust Developer at Anixe](https://rustjobs.rs/jobs/21/anixe-rust-developer)
-* [Rust Legend at Between Lines](https://rustjobs.rs/jobs/20/between-lines-ltd-rust-legend)
+* [Rust Developer at Anixe](https://rustjobs.rs/jobs/21/anixe-rust-developer).
+* [Rust Legend at Between Lines](https://rustjobs.rs/jobs/20/between-lines-ltd-rust-legend).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> <kmc\> Rust std library has a type called Cow
+> <alixir\> seems useful
+> <alixir\> to avoid Mooving data unnecessarily
+
+Thanks to [Kmcallister](https://users.rust-lang.org/t/twir-quote-of-the-week/328/403) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
