@@ -28,7 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust in TiKV](https://pingcap.github.io/blog/2017/05/27/rust-in-tikv/). TiKV is a distributed Key-Value database written in Rust.
 * [video] [Helix: Build and deploy a Ruby native extension with Rust in 10 minutes](https://www.youtube.com/watch?v=nq1nNx8-fNQ).
 * [Rust support for KDevelop being worked on as a GSoC project](https://perplexinglyemma.blogspot.in/2017/05/summer-of-coding.html).
-* [This week in Rust docs 5](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-58).
+* [This week in Rust docs 58](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-58).
 
 
 # Crate of the Week
