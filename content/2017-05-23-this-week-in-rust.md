@@ -26,6 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Enforcing documentation in a medium-size Rust project](https://medium.com/@Razican/enforcing-documentation-in-a-medium-size-rust-project-7b6a2a47b6d6).
 * [My first PR for a Rust project](https://medium.com/adventures-in-rust/my-first-pr-for-a-rust-project-364d8c02220b).
 * [This week in Rust docs 57](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-57).
+* [This week in TiKV 2017-05-23](http://weekly.pingcap.com/2017/05/22/tidb-weekly/#weekly-update-in-tikv)
 
 # Crate of the Week
 
