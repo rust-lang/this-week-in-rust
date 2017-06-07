@@ -30,7 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [Oath2](https://crates.io/crates/oath2), a library for two-factor authentication. Thanks to [crypto-universe](https://users.rust-lang.org/u/crypto-universe) for the suggestion!
+This week's crate is [array_tool](https://crates.io/crates/array_tool), a crate with some nice extra functionality for `Vec`s and `String`s. Thanks to [danielpclark](https://users.rust-lang.org/u/danielpclark) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -66,28 +66,34 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-94 pull requests were [merged in the last week][merged].
+122 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-05-22..2017-05-29
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-05-29..2017-06-06
 
-* [declarative macros 2.0](https://github.com/rust-lang/rust/pull/40847) (RFC [#1584](https://github.com/rust-lang/rfcs/blob/0f130f5341574a881283fc00b36166ab4109d669/text/1584-macros.md))
-* [stabilize `loop_break_value`](https://github.com/rust-lang/rust/pull/42016) (RFC [#1624](https://github.com/rust-lang/rfcs/blob/0f130f5341574a881283fc00b36166ab4109d669/text/1624-loop-break-value.md))
-* [stabilize destructor-less unions with `Copy` fields](https://github.com/rust-lang/rust/pull/42068)
-* [stabilize library features for 1.18.0](https://github.com/rust-lang/rust/pull/41904)
-* [move the mutable parts out of `LintStore`](https://github.com/rust-lang/rust/pull/42052)
-* [support Win32 `thiscall` calling convention](https://github.com/rust-lang/rust/pull/42058)
-* [correctly count errors](https://github.com/rust-lang/rust/pull/42150)
-* [improve help message on erroneous usage of `PartialEq`](https://github.com/rust-lang/rust/pull/41559)
-* [fix `missing_docs` lint ICE with nested enums](https://github.com/rust-lang/rust/pull/42262)
-* [forbid more parenthesized parameters in primitive types](https://github.com/rust-lang/rust/pull/41856)
-* [make assignments to `Copy` union fields safe](https://github.com/rust-lang/rust/pull/42083)
-* [type flags (like `is_sized`) are now proper queries](https://github.com/rust-lang/rust/pull/42015)
-* [`trace_macros` now shows both macro call & expansion](https://github.com/rust-lang/rust/pull/42103)
-* [prevent `StorageLive`/`StorageDead` in statics](https://github.com/rust-lang/rust/pull/42023)
-* [translate array drop glue using MIR](https://github.com/rust-lang/rust/pull/41917)
-* [`Iterator::step_by(_)` can now be `ExactSizeIterator`](https://github.com/rust-lang/rust/pull/42167)
-* [two-field `RangeInclusive`](https://github.com/rust-lang/rust/pull/42134)
-* [cargo can now `--exclude` packages when using `--all`](https://github.com/rust-lang/cargo/pull/4031)
+* [deprecate *`Range::step_by(_)`](https://github.com/rust-lang/rust/pull/42310) (use `Iterator::step_by(_)` instead)
+* [turn mature compatibility lints into hard errors](https://github.com/rust-lang/rust/pull/42136)
+* [check trait obligations and regions for associated consts](https://github.com/rust-lang/rust/pull/42324)
+* [support LLVM `prefetch` intrinsic, speedier binary search](https://github.com/rust-lang/rust/pull/41418)
+* [`slice::rotate(..)`](https://github.com/rust-lang/rust/pull/41670)
+* [`?` will now `Try` (no more `Carrier`)](https://github.com/rust-lang/rust/pull/42275) (RFC [#1859](TODO))
+* [`RangeFrom` has actually infinite size](https://github.com/rust-lang/rust/pull/42315)
+* [`for` loops no longer borrow their `Iterator`](https://github.com/rust-lang/rust/pull/42265)
+* [remove temporary lifetime extension by borrow hint](https://github.com/rust-lang/rust/pull/42396)
+* [querify layout, move parameter environment out of inference context](https://github.com/rust-lang/rust/pull/42189)
+* [incr. comp. remove `DepGraph::write()`](https://github.com/rust-lang/rust/pull/42192)
+* [incr. comp. remove `DefIdDirectory` in favor of global hashes](https://github.com/rust-lang/rust/pull/42332)
+* [remove method map, reduce type adjustments footprint](https://github.com/rust-lang/rust/pull/42281)
+* [`ProjectionTy` goes from `Name` to `DefId`](https://github.com/rust-lang/rust/pull/42297)
+* [explain why a closure is `FnOnce` in closure errors](https://github.com/rust-lang/rust/pull/42196)
+* [lint unused macros 2.0](https://github.com/rust-lang/rust/pull/42334)
+* [parse `default!` macros correctly](https://github.com/rust-lang/rust/pull/42330)
+* [better error messages for `const extern fn`](https://github.com/rust-lang/rust/pull/42319)
+* [better suggestions for unknown methods](https://github.com/rust-lang/rust/pull/42391)
+* [support VS 2017](https://github.com/rust-lang/rust/pull/42225)
+* [improved windows reallocation](https://github.com/rust-lang/rust/pull/42331)
+* [`.exe`, `.msi` and `.pkg` installers now optionally install RLS](https://github.com/rust-lang/rust/pull/42306)
+* [the windows installer sets executable bits more carefully](https://github.com/rust-lang/rust/pull/42343)
+* [optimizing cargo](https://github.com/rust-lang/cargo/pull/4118)
 
 ## New Contributors
 
@@ -178,6 +184,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Open Source Rust Engineer at Buoyant](https://rustjobs.rs/jobs/24/buoyant-open-source-rust-engineer).
 * [Rust Developer at 1aim](https://rustjobs.rs/jobs/22/1aim-gmbh-rust-developer).
 * [Rust Developer at Anixe](https://rustjobs.rs/jobs/21/anixe-rust-developer).
 * [Rust Legend at Between Lines](https://rustjobs.rs/jobs/20/between-lines-ltd-rust-legend).
