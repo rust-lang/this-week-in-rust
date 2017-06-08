@@ -75,7 +75,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [check trait obligations and regions for associated consts](https://github.com/rust-lang/rust/pull/42324)
 * [support LLVM `prefetch` intrinsic, speedier binary search](https://github.com/rust-lang/rust/pull/41418)
 * [`slice::rotate(..)`](https://github.com/rust-lang/rust/pull/41670)
-* [`?` will now `Try` (no more `Carrier`)](https://github.com/rust-lang/rust/pull/42275) (RFC [#1859](TODO))
+* [`?` will now `Try` (no more `Carrier`)](https://github.com/rust-lang/rust/pull/42275) (RFC [#1859](https://github.com/rust-lang/rfcs/blob/master/text/1859-try-trait.md))
 * [`RangeFrom` has actually infinite size](https://github.com/rust-lang/rust/pull/42315)
 * [`for` loops no longer borrow their `Iterator`](https://github.com/rust-lang/rust/pull/42265)
 * [remove temporary lifetime extension by borrow hint](https://github.com/rust-lang/rust/pull/42396)
