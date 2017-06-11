@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [What's coming up in imag (26)](https://imag-pim.org/blog/2017/06/11/whats-coming-up-in-imag-26/) published on [the new website](https://imag-pim.org/blog/2017/06/10/imag-pim.org---the-new-website/)
+
 # Crate of the Week
 
 This week's crate is [array_tool](https://crates.io/crates/array_tool), a crate with some nice extra functionality for `Vec`s and `String`s. Thanks to [danielpclark](https://users.rust-lang.org/u/danielpclark) for the suggestion!
