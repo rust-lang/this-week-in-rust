@@ -126,14 +126,19 @@ We're making good progress and the style is coming together. If you want to see 
 
 Issues in final comment period:
 
-* [Combining opening and closing delims](https://github.com/rust-lang-nursery/fmt-rfcs/issues/61)
+* [[macro_use] on the same line as crate](https://github.com/rust-lang-nursery/fmt-rfcs/issues/83)
+* [trait bounds](https://github.com/rust-lang-nursery/fmt-rfcs/issues/80)
+* [Specify rules for breaking long `where` conditions](https://github.com/rust-lang-nursery/fmt-rfcs/issues/75)
+* [Single-line `where`](https://github.com/rust-lang-nursery/fmt-rfcs/issues/74)
 
 Good first issues:
 
 We're happy to mentor these, please reach out to us in #rust-style if you'd like to get involved
 
+* [paths](https://github.com/rust-lang-nursery/fmt-rfcs/issues/69)
 * [simple expressions](https://github.com/rust-lang-nursery/fmt-rfcs/issues/68)
 * [assignment and assignment operators](https://github.com/rust-lang-nursery/fmt-rfcs/issues/67)
+* [control flow](https://github.com/rust-lang-nursery/fmt-rfcs/issues/62)
 
 # Upcoming Events
 
