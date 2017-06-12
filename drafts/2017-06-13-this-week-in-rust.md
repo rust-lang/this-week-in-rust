@@ -181,6 +181,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 * [Rust Developer at 1aim](https://rustjobs.rs/jobs/22/1aim-gmbh-rust-developer).
 * [Rust Developer at Anixe](https://rustjobs.rs/jobs/21/anixe-rust-developer).
 * [Rust Legend at Between Lines](https://rustjobs.rs/jobs/20/between-lines-ltd-rust-legend).
+* Student Research Assistant for developing Clippy in Karlsruhe (contact oliver.schneider \at kit.edu)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
