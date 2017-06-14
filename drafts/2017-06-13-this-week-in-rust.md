@@ -16,6 +16,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.18](https://blog.rust-lang.org/2017/06/08/Rust-1.18.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* [Rustup 1.4.0 released](https://users.rust-lang.org/t/rustup-1-4-0-released/11268).
+* [How MutexGuard was Sync when it should not have been](https://www.ralfj.de/blog/2017/06/09/mutexguard-sync.html).
+* [Exploring Rust's standard library: system calls and errors](https://people.gnome.org/~federico/blog/rust-libstd-syscalls-and-errors.html).
+* [Exploring MIR Semantics through miri](https://www.ralfj.de/blog/2017/06/06/MIR-semantics.html).
+* [Docs.rs now supports building non-default features](https://github.com/onur/docs.rs/pull/131).
+* [video] ["Rust: Hack without fear!" as the opening talk at C++Now 2017](https://youtu.be/lO1z-7cuRYI).
+* [This week in Redox 21](https://www.redox-os.org/news/this-week-in-redox-21/).
+* [This week in Rust docs 60 ](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-60).
+
 # Crate of the Week
 
 This week's crate is [array_tool](https://crates.io/crates/array_tool), a crate with some nice extra functionality for `Vec`s and `String`s. Thanks to [danielpclark](https://users.rust-lang.org/u/danielpclark) for the suggestion!
@@ -31,21 +41,31 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [discussion] [What does Rust need today for server workloads](https://users.rust-lang.org/t/what-does-rust-need-today-for-server-workloads/11114)?
-* [Rust libz blitz status update 2017-06-02](https://internals.rust-lang.org/t/rust-libz-blitz/5184/53). Contribution opportunities are available.
+* [stdx: Set up testing of every stdx crate](https://github.com/brson/stdx/issues/36). stdx is a collection of curated Rust libraries.
+* [stdx: Create stdx-check tool](https://github.com/brson/stdx/issues/35).
+* [stdx: Add num_cpus, threadpool to stdx](https://github.com/brson/stdx/issues/33).
+* [easy] [lyon: Make the basic_shapes tessellation routines provide vertex normals](https://github.com/nical/lyon/issues/13). Lyon is a library for GPU-based 2D graphics rendering in Rust.
+* [easy] [lyon: Implement rounded rectangle stroke tessellation](https://github.com/nical/lyon/issues/38).
+* [easy] [lyon: Implement circle stroke tessellation](https://github.com/nical/lyon/issues/40).
+* [easy] [lyon: Add fuzz testing for the fill tesselator](https://github.com/nical/lyon/issues/11).
+* [easy] [lyon: Lyon should conform to the rust API guidelines](https://github.com/nical/lyon/issues/44).
+* [easy] [lyon: Implement computing the bounding rect for LineSegment and Triangle](https://github.com/nical/lyon/issues/65).
+* [medium] [lyon: Implement clipping line joins at the miter limit](https://github.com/nical/lyon/issues/35).
+* [medium] [lyon: Implement round line caps](https://github.com/nical/lyon/issues/33).
+* [medium] [lyon: Implement round line joins](https://github.com/nical/lyon/issues/5).
+* [medium] [lyon: Implement bevel line joins](https://github.com/nical/lyon/issues/34).
+* [lyon: Make the source code easier to understand and discover](https://github.com/nical/lyon/issues/36).
+* [perceptia: Add support for offscreen mode with VNC or Spice](https://github.com/perceptia/perceptia/issues/22). Perceptia is a dynamic window manager with support for Wayland.
+* [perceptia: Add support for libinput](https://github.com/perceptia/perceptia/issues/18).
+* [perceptia: Add configuration for panel](https://github.com/perceptia/perceptia/issues/14).
+* [easy] [perceptia: Generate better name for screenshot file](https://github.com/perceptia/perceptia/issues/9).
+* [easy] [perceptia: Add more options for setting background](https://github.com/perceptia/perceptia/issues/5).
 * [rustup: Create and publish a snap of rustup](https://github.com/rust-lang-nursery/rustup.rs/issues/1144).
 * [rust: Create and publish a snap of Rust](https://github.com/rust-lang/rust/issues/42349).
 * [rust: Update docker images to share scripts when possible](https://github.com/rust-lang/rust/issues/42201).
 * [corrode-but-in-rust: let-defined lambdas aren't combined](https://github.com/tcr/corrode-but-in-rust/issues/65).
-* [easy] [rust-url: Explain the term "fragment" in `Url::fragment`](https://github.com/servo/rust-url/issues/318).
 * [easy] [rust-url: Modify docs to put error conditions into `Errors` sections](https://github.com/servo/rust-url/issues/314).
-* [easy] [rust-url: Implement Debug for many types](https://github.com/servo/rust-url/issues/305).
-* [rust-url: Document the percent_encoding module](https://github.com/servo/rust-url/issues/298).
-* [easy] [reqwest: Examples for RequestBuilder::body](https://github.com/seanmonstar/reqwest/issues/119).
-* [reqwest: Error doc improvements](https://github.com/seanmonstar/reqwest/issues/117).
-* [reqwest: Response doc improvements](https://github.com/seanmonstar/reqwest/issues/115).
 * [log: Remove env_logger from this repository](https://github.com/rust-lang-nursery/log/issues/145).
-* [easy] [log: Expand log! docs for `max_level_*`](https://github.com/rust-lang-nursery/log/issues/125).
 * [log: Support construction of `Record`s and `Metadata`](https://github.com/rust-lang-nursery/log/issues/116).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -85,11 +105,13 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Edward Yang
-* James Cowgill
-* Jan Niehusmann
-* Tom Prince
-* zzhu
+* Arthur Arnold
+* Campbell Barton
+* Fuqiao Xue
+* gentoo90
+* Inokentiy Babushkin
+* Michael Killough
+* Nick Whitney
 
 ## Approved RFCs
 
@@ -97,7 +119,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2005: Match ergonomics using default binding modes](https://github.com/rust-lang/rfcs/pull/2005).
 
 ## Final Comment Period
 
@@ -109,14 +131,14 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 * [disposition: merge] [Specify `#[repr(transparent)]`](https://github.com/rust-lang/rfcs/pull/1758).
 * [disposition: merge] [Conversions from `&mut T` to `&Cell<T>`](https://github.com/rust-lang/rfcs/pull/1789).
-* [disposition: merge] [Match ergonomics using default binding modes](https://github.com/rust-lang/rfcs/pull/2005).
 * [disposition: merge] [Tiered browser support policy for Rust's web content](https://github.com/rust-lang/rfcs/pull/1985).
 * [disposition: merge] [Prepare global allocators for stabilization](https://github.com/rust-lang/rfcs/pull/1974).
 
 ## New RFCs
 
-* [Implement Add for OsString](https://github.com/rust-lang/rfcs/pull/2020).
-* [Allow comparisons between integers of different types](https://github.com/rust-lang/rfcs/pull/2021).
+* [Privacy for enum variants and trait items](https://github.com/rust-lang/rfcs/pull/2028).
+* [Tweak object safety rules to allow static dispatch](https://github.com/rust-lang/rfcs/pull/2027).
+* [Enable nested method calls](https://github.com/rust-lang/rfcs/pull/2025).
 
 ## Style RFCs
 
@@ -142,32 +164,27 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 
 # Upcoming Events
 
-* [Jun  7. Rust Cologne - Rust 2nd Anniversary Reloaded](http://rust.cologne/2017/06/07/rust-2nd-aniversary-part-2.html).
-* [Jun  7. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/240072184/).
-* [Jun  7. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Jun  7. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [Jun  8. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/240198831/).
-* [Jun 10. Hong Kong OS Conf 17 - Building Artificial Intelligence Units in Rust](https://hkoscon.org/2017/topics/building-artificial-intelligence-units-in-rust/).
-* [Jun 10. RainOfRust Camp Nagpur - I](https://reps.mozilla.org/e/rainofrust-camp-nagpur-i/).
-* [Jun 10. RainOfRust Camp Ahmedabad, Gujarat](https://reps.mozilla.org/e/rainofrust-camp-ahmedabad-gujarat-1/).
-* [Jun 11. RainOfRust Camp Nagpur - II](https://reps.mozilla.org/e/rainofrust-camp-nagpur-ii/).
-* [Jun 12. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/239841907/).
-* [Jun 13. Rust Bay Area - Consensus with VMware's Haret and Service Meshes with linkerd-tcp](https://www.meetup.com/Rust-Bay-Area/events/240453207/).
-* [Jun 13. RainOfRust Camp Vadodara, Gujarat](https://reps.mozilla.org/e/rainofrust-camp-vadodara-gujarat/).
-* [Jun 14. Rust Meetup Vienna](https://www.eventbrite.com/e/rust-meetup-vienna-tickets-34958469724).
-* [Jun 14. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Jun 14. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [Jun 14. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/240113597/).
 * [Jun 15. Rust DC Learn + Try: Embedded Rust](https://www.meetup.com/RustDC/events/239115658/).
 * [Jun 15. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Jun 16. RainOfRust Camp Nashik - III](https://reps.mozilla.org/e/rainofrust-camp-nashik-iii/).
+* [Jun 17. Rust Bangalore - Rust 'core' Workshop on Types, Memory and Interfacing with other languages](https://www.meetup.com/rustox/events/240262219/).
 * [Jun 17. RainOfRust Camp Gandhinagar, Gujarat](https://reps.mozilla.org/e/rainofrust-camp-gandhinagar-gujarat/).
 * [Jun 17. Rust Activate - Ciudad de México](https://reps.mozilla.org/e/rust-activate/).
+* [Jun 17. Rust Day Mexico City 2017](https://2017.rustday.mx/).
 * [Jun 18. #RainOfRust Workshop in Pune](https://reps.mozilla.org/e/rainofrust-workshop-in-pune/).
 * [Jun 19. First Belgian Rust meetup](https://users.rust-lang.org/t/first-belgian-rust-meetup/11172).
 * [Jun 21. Rust Meetup Dresden](https://www.meetup.com/Mozilla-Community-Dresden/events/240188745/).
 * [Jun 21. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Jun 21. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Jun 24. RainOfRust Camp Ahmedabad, Gujarat](https://reps.mozilla.org/e/rainofrust-camp-ahmedabad-gujarat/).
+* [Jun 27. Let's Rust - Hyderabad](https://reps.mozilla.org/e/let-s-rust/).
+* [Jun 27. RainOfRust Camp Patan, Gujarat](https://reps.mozilla.org/e/rainofrust-camp-patan-gujarat/).
+* [Jun 28. Boston Rust - Tutorial Bug-fixing Hackathon](https://www.meetup.com/BostonRust/events/240244837/).
+* [Jun 28. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/240365553/).
+* [Jun 28. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Jun 28. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Jun 29. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [Jul  4. Rust Utrecht - Rust Workshop](https://www.meetup.com/Rust-Utrecht/events/240660834/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -181,19 +198,13 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 * [Rust Developer at 1aim](https://rustjobs.rs/jobs/22/1aim-gmbh-rust-developer).
 * [Rust Developer at Anixe](https://rustjobs.rs/jobs/21/anixe-rust-developer).
 * [Rust Legend at Between Lines](https://rustjobs.rs/jobs/20/between-lines-ltd-rust-legend).
-* Student Research Assistant for developing Clippy in Karlsruhe (contact oliver.schneider \at kit.edu)
+* Student Research Assistant for developing Clippy in Karlsruhe (contact oliver.schneider \at kit.edu).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> Nothing to worry about, if you ask me. There's no official "Rust ideology".
->
-> All you have to do is to accept the message of memory safety and swear allegiance to Our Lord and Savior, Rust programming language, protector of the highly parallel and the most efficient. Avoid the sin of unsafety, respect the lifetimes, mark your path with Send and Sync, and you too can become a member of Rust Evangelism Strike Force.
-
-— [/u/dpc_pw on reddit](https://www.reddit.com/r/rust/comments/6ewjt5/question_about_rusts_odd_code_of_conduct/didok4h/).
-
-Thanks to [/u/caramba2654](https://www.reddit.com/r/rust/comments/6ewjt5/question_about_rusts_odd_code_of_conduct/didqcfz/) for the suggestion.
+*No quote was selected for QotW.*
 
 [Submit your quotes for next week][submit]!
 
