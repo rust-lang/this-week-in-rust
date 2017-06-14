@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [What's coming up in imag (26)](https://imag-pim.org/blog/2017/06/11/whats-coming-up-in-imag-26/) published on [the new website](https://imag-pim.org/blog/2017/06/10/imag-pim.org---the-new-website/)
+
 # Crate of the Week
 
 This week's crate is [structopt](https://crates.io/crates/structopt), a crate that lets your auto-derive your command-line options from a struct to parse them into. Thanks to [m4b](https://users.rust-lang.org/u/m4b) for the suggestion!
