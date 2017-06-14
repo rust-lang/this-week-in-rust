@@ -28,7 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [array_tool](https://crates.io/crates/array_tool), a crate with some nice extra functionality for `Vec`s and `String`s. Thanks to [danielpclark](https://users.rust-lang.org/u/danielpclark) for the suggestion!
+This week's crate is [structopt](https://crates.io/crates/structopt), a crate that lets your auto-derive your command-line options from a struct to parse them into. Thanks to [m4b](https://users.rust-lang.org/u/m4b) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -74,34 +74,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-122 pull requests were [merged in the last week][merged].
+115 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-05-29..2017-06-06
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-06-06..2017-06-13
 
-* [deprecate *`Range::step_by(_)`](https://github.com/rust-lang/rust/pull/42310) (use `Iterator::step_by(_)` instead)
-* [turn mature compatibility lints into hard errors](https://github.com/rust-lang/rust/pull/42136)
-* [check trait obligations and regions for associated consts](https://github.com/rust-lang/rust/pull/42324)
-* [support LLVM `prefetch` intrinsic, speedier binary search](https://github.com/rust-lang/rust/pull/41418)
-* [`slice::rotate(..)`](https://github.com/rust-lang/rust/pull/41670)
-* [`?` will now `Try` (no more `Carrier`)](https://github.com/rust-lang/rust/pull/42275) (RFC [#1859](TODO))
-* [`RangeFrom` has actually infinite size](https://github.com/rust-lang/rust/pull/42315)
-* [`for` loops no longer borrow their `Iterator`](https://github.com/rust-lang/rust/pull/42265)
-* [remove temporary lifetime extension by borrow hint](https://github.com/rust-lang/rust/pull/42396)
-* [querify layout, move parameter environment out of inference context](https://github.com/rust-lang/rust/pull/42189)
-* [incr. comp. remove `DepGraph::write()`](https://github.com/rust-lang/rust/pull/42192)
-* [incr. comp. remove `DefIdDirectory` in favor of global hashes](https://github.com/rust-lang/rust/pull/42332)
-* [remove method map, reduce type adjustments footprint](https://github.com/rust-lang/rust/pull/42281)
-* [`ProjectionTy` goes from `Name` to `DefId`](https://github.com/rust-lang/rust/pull/42297)
-* [explain why a closure is `FnOnce` in closure errors](https://github.com/rust-lang/rust/pull/42196)
-* [lint unused macros 2.0](https://github.com/rust-lang/rust/pull/42334)
-* [parse `default!` macros correctly](https://github.com/rust-lang/rust/pull/42330)
-* [better error messages for `const extern fn`](https://github.com/rust-lang/rust/pull/42319)
-* [better suggestions for unknown methods](https://github.com/rust-lang/rust/pull/42391)
-* [support VS 2017](https://github.com/rust-lang/rust/pull/42225)
-* [improved windows reallocation](https://github.com/rust-lang/rust/pull/42331)
-* [`.exe`, `.msi` and `.pkg` installers now optionally install RLS](https://github.com/rust-lang/rust/pull/42306)
-* [the windows installer sets executable bits more carefully](https://github.com/rust-lang/rust/pull/42343)
-* [optimizing cargo](https://github.com/rust-lang/cargo/pull/4118)
+* [epic macro expansion speedup](https://github.com/rust-lang/rust/pull/42533)
+* [`unimplemented!(..)` now allows message](https://github.com/rust-lang/rust/pull/42155)
+* [better suggestions for missing trait impls](https://github.com/rust-lang/rust/pull/42383)
+* [disentangle `InferCtxt", "MemCategorizationContext", `ExprUseVisitor`](https://github.com/rust-lang/rust/pull/42563) (plugin-breaking, but clippy already fixed)
+* [convert `StdIo` from `File`, `ChildStdout`, `ChildStderr`](https://github.com/rust-lang/rust/pull/42133)
+* [disallow "String"_ literals](https://github.com/rust-lang/rust/pull/41990) (No clue why this compiled in the first place?)
+* [speed up `mem::swap(..)`](https://github.com/rust-lang/rust/pull/40454)
+* [improve codegen for `.next_power_of_two` (and others)](https://github.com/rust-lang/rust/pull/42556)
+* [our tests need more jokes!](https://github.com/rust-lang/rust/pull/42247) (look at the change list for some laughs)
+* [don't panic, `rust_eh_parsonality()`!](https://github.com/rust-lang/rust/pull/42487)
+* [don't store zero-sized pair fields](https://github.com/rust-lang/rust/pull/42486)
+* [`#[inline]` `io::Error::from`](https://github.com/rust-lang/rust/pull/42426)
+* [`use foo::self;` is now only one error](https://github.com/rust-lang/rust/pull/42580)
+* [everything outlives the `'empty` lifetime](https://github.com/rust-lang/rust/pull/42482)
+* [doctests skip files without three backticks](https://github.com/rust-lang/rust/pull/42437)
+* [speed up cargo](https://github.com/rust-lang/cargo/pull/4118)
 
 ## New Contributors
 
