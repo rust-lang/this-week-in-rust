@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [structopt](https://crates.io/crates/structopt), a crate that lets your auto-derive your command-line options from a struct to parse them into. Thanks to [m4b](https://users.rust-lang.org/u/m4b) for the suggestion!
+This week's crate is [include_dir](https://crates.io/crates/include_dir), a crate that lets you include entire directory contents in your binary – like `include_str!`, but on steroids. Thanks to [Michael Bryan](https://users.rust-lang.org/u/Michael-F-Bryan) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -64,26 +64,22 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-115 pull requests were [merged in the last week][merged].
+122 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-06-06..2017-06-13
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-06-12..2017-06-19
 
-* [epic macro expansion speedup](https://github.com/rust-lang/rust/pull/42533)
-* [`unimplemented!(..)` now allows message](https://github.com/rust-lang/rust/pull/42155)
-* [better suggestions for missing trait impls](https://github.com/rust-lang/rust/pull/42383)
-* [disentangle `InferCtxt", "MemCategorizationContext", `ExprUseVisitor`](https://github.com/rust-lang/rust/pull/42563) (plugin-breaking, but clippy already fixed)
-* [convert `StdIo` from `File`, `ChildStdout`, `ChildStderr`](https://github.com/rust-lang/rust/pull/42133)
-* [disallow "String"_ literals](https://github.com/rust-lang/rust/pull/41990) (No clue why this compiled in the first place?)
-* [speed up `mem::swap(..)`](https://github.com/rust-lang/rust/pull/40454)
-* [improve codegen for `.next_power_of_two` (and others)](https://github.com/rust-lang/rust/pull/42556)
-* [our tests need more jokes!](https://github.com/rust-lang/rust/pull/42247) (look at the change list for some laughs)
-* [don't panic, `rust_eh_parsonality()`!](https://github.com/rust-lang/rust/pull/42487)
-* [don't store zero-sized pair fields](https://github.com/rust-lang/rust/pull/42486)
-* [`#[inline]` `io::Error::from`](https://github.com/rust-lang/rust/pull/42426)
-* [`use foo::self;` is now only one error](https://github.com/rust-lang/rust/pull/42580)
-* [everything outlives the `'empty` lifetime](https://github.com/rust-lang/rust/pull/42482)
-* [doctests skip files without three backticks](https://github.com/rust-lang/rust/pull/42437)
-* [speed up cargo](https://github.com/rust-lang/cargo/pull/4118)
+* [overflow-check `str` index by inclusive (`...`) ranges](https://github.com/rust-lang/rust/pull/42428)
+* [float `min`/`max` is now pure Rust](https://github.com/rust-lang/rust/pull/42430)
+* [`Ord::`{`min`, `max`}](https://github.com/rust-lang/rust/pull/42496)
+* [allocation-less `Display` for `Path` and `OsStr`](https://github.com/rust-lang/rust/pull/42613)
+* [suggest `==` on inadvertent assignment in `if` conditions](https://github.com/rust-lang/rust/pull/42649)
+* [omit trait errors implied by other errors](https://github.com/rust-lang/rust/pull/41840)
+* [save-analysis is now JSON only](https://github.com/rust-lang/rust/pull/42650)
+* [`collections` is back](https://github.com/rust-lang/rust/pull/42720)
+* [fix type inference ICE due to missing obligations](https://github.com/rust-lang/rust/pull/42659)
+* [fix fn pointer coercion ICE](https://github.com/rust-lang/rust/pull/42735)
+* [use custom cargo/rustc paths when parsing flags](https://github.com/rust-lang/rust/pull/42695)
+* [cargo stores API tokens in separate, user-private file](https://github.com/rust-lang/cargo/pull/3978)
 
 ## New Contributors
 
