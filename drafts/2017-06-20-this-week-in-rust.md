@@ -16,6 +16,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [RustConf 2017 tickets are now available](https://twitter.com/rustconf/status/874697180778565632).
+* [encoding_rs, a new character encoding conversion library written in Rust, has landed in nightly Firefox](https://twitter.com/hsivonen/status/875043685544718336).
+* [Bugs you'll probably only have in Rust](https://gankro.github.io/blah/only-in-rust/).
+* [Why not to use Rust](https://llogiq.github.io/2017/06/16/no-rust.html).
+* [Algorithms cookbook in Rust](https://github.com/EbTech/rust-algorithms).
+* [Implementing cooperative multitasking in Rust](https://gmorenz.gitlab.io/coop.html).
+* [Switching from C++ to Rust](http://psychopath.io/switching-from-c-to-rust/).
+* [Graphics by squares: a gfx-rs tutorial](https://suhr.github.io/gsgt/).
+* [Rustfmt releases](https://users.rust-lang.org/t/rustfmt-releases/11357). There are some significant changes happening to Rustfmt. Here is what you need to know.
+* [System programming in Rust: beyond safety](https://blog.acolyer.org/2017/06/14/system-programming-in-rust-beyond-safety/).
+* [Writing a LALR(1) parser generator in Rust](https://medium.com/@DmitrySoshnikov/rust-lalr-1-parser-generator-a623b64164e4).
+* [hyper v0.11 is released](http://seanmonstar.com/post/161786147642/hyper-v011).
+* [This week in Redox 22](https://www.redox-os.org/news/this-week-in-redox-22/).
+
 # Crate of the Week
 
 This week's crate is [structopt](https://crates.io/crates/structopt), a crate that lets your auto-derive your command-line options from a struct to parse them into. Thanks to [m4b](https://users.rust-lang.org/u/m4b) for the suggestion!
@@ -31,32 +45,28 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [stdx: Set up testing of every stdx crate](https://github.com/brson/stdx/issues/36). stdx is a collection of curated Rust libraries.
-* [stdx: Create stdx-check tool](https://github.com/brson/stdx/issues/35).
-* [stdx: Add num_cpus, threadpool to stdx](https://github.com/brson/stdx/issues/33).
-* [easy] [lyon: Make the basic_shapes tessellation routines provide vertex normals](https://github.com/nical/lyon/issues/13). Lyon is a library for GPU-based 2D graphics rendering in Rust.
-* [easy] [lyon: Implement rounded rectangle stroke tessellation](https://github.com/nical/lyon/issues/38).
-* [easy] [lyon: Implement circle stroke tessellation](https://github.com/nical/lyon/issues/40).
-* [easy] [lyon: Add fuzz testing for the fill tesselator](https://github.com/nical/lyon/issues/11).
-* [easy] [lyon: Lyon should conform to the rust API guidelines](https://github.com/nical/lyon/issues/44).
-* [easy] [lyon: Implement computing the bounding rect for LineSegment and Triangle](https://github.com/nical/lyon/issues/65).
-* [medium] [lyon: Implement clipping line joins at the miter limit](https://github.com/nical/lyon/issues/35).
-* [medium] [lyon: Implement round line caps](https://github.com/nical/lyon/issues/33).
-* [medium] [lyon: Implement round line joins](https://github.com/nical/lyon/issues/5).
-* [medium] [lyon: Implement bevel line joins](https://github.com/nical/lyon/issues/34).
-* [lyon: Make the source code easier to understand and discover](https://github.com/nical/lyon/issues/36).
-* [perceptia: Add support for offscreen mode with VNC or Spice](https://github.com/perceptia/perceptia/issues/22). Perceptia is a dynamic window manager with support for Wayland.
-* [perceptia: Add support for libinput](https://github.com/perceptia/perceptia/issues/18).
-* [perceptia: Add configuration for panel](https://github.com/perceptia/perceptia/issues/14).
-* [easy] [perceptia: Generate better name for screenshot file](https://github.com/perceptia/perceptia/issues/9).
-* [easy] [perceptia: Add more options for setting background](https://github.com/perceptia/perceptia/issues/5).
-* [rustup: Create and publish a snap of rustup](https://github.com/rust-lang-nursery/rustup.rs/issues/1144).
-* [rust: Create and publish a snap of Rust](https://github.com/rust-lang/rust/issues/42349).
-* [rust: Update docker images to share scripts when possible](https://github.com/rust-lang/rust/issues/42201).
-* [corrode-but-in-rust: let-defined lambdas aren't combined](https://github.com/tcr/corrode-but-in-rust/issues/65).
-* [easy] [rust-url: Modify docs to put error conditions into `Errors` sections](https://github.com/servo/rust-url/issues/314).
-* [log: Remove env_logger from this repository](https://github.com/rust-lang-nursery/log/issues/145).
-* [log: Support construction of `Record`s and `Metadata`](https://github.com/rust-lang-nursery/log/issues/116).
+* [easy] [rust: Guard types should implement more traits](https://github.com/rust-lang/rust/issues/24372).
+* [walkdir: Add Error docs to methods that return Result](https://github.com/BurntSushi/walkdir/issues/24).
+* [walkdir: Default to generating constified enums, rather than generating Rust enums](https://github.com/servo/rust-bindgen/issues/758).
+* [walkdir: Change OsString args in sort_by to OsStr](https://github.com/BurntSushi/walkdir/issues/44).
+* [walkdir: Remove re-export of is_same_file](https://github.com/BurntSushi/walkdir/issues/43).
+* [walkdir: Document why unwraps won't fail](https://github.com/BurntSushi/walkdir/issues/42).
+* [walkdir: Make skip_current_dir and filter_entry inherent methods](https://github.com/BurntSushi/walkdir/issues/40).
+* [walkdir: Link references to std in docs](https://github.com/BurntSushi/walkdir/issues/39).
+* [walkdir: Add build badges to Cargo.toml](https://github.com/BurntSushi/walkdir/issues/35).
+* [walkdir: Implement Debug for WalkDir, Iter and IterFilterEntry](https://github.com/BurntSushi/walkdir/issues/34).
+* [walkdir: Correct errors in WalkDir type docs](https://github.com/BurntSushi/walkdir/issues/32).
+* [walkdir: Document that `Iter` and `IterFilterEntry` are the result of trait methods](https://github.com/BurntSushi/walkdir/issues/31).
+* [walkdir: Add links to other walkdir items in WalkDirIterator docs](https://github.com/BurntSushi/walkdir/issues/30).
+* [walkdir: Add links to other walkdir items in Iter and IterFilterEntry docs](https://github.com/BurntSushi/walkdir/issues/28).
+* [walkdir: Add links to other walkdir items in DirEntry docs](https://github.com/BurntSushi/walkdir/issues/27).
+* [walkdir: Add example for content_first](https://github.com/BurntSushi/walkdir/issues/26).
+* [rust-cookbook: Use `filter_entry` in walkdir examples](https://github.com/brson/rust-cookbook/issues/182).
+* [easy] [rust-bindgen: Default to generating constified enums, rather than generating Rust enums](https://github.com/servo/rust-bindgen/issues/758).
+* [less-easy] [rust-bindgen: Rewrite `is_unsized` as either a graph traversal or fix-point analysis](https://github.com/servo/rust-bindgen/issues/768).
+* [less-easy] [rust-bindgen: Rewrite `can_derive_debug` as either a graph traversal or fix-point analysis](https://github.com/servo/rust-bindgen/issues/767).
+* [less-easy] [rust-bindgen: Rewrite `can_derive_copy[_in_array]` as either a graph traversal or fix-point analysis](https://github.com/servo/rust-bindgen/issues/766).
+* [less-easy] [rust-bindgen: Rewrite `has_vtable` checks as either graph traversal or fix-point analysis](https://github.com/servo/rust-bindgen/issues/765).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -87,13 +97,9 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Arthur Arnold
-* Campbell Barton
-* Fuqiao Xue
-* gentoo90
-* Inokentiy Babushkin
-* Michael Killough
-* Nick Whitney
+* Marco Castelluccio
+* Thomas Lively
+* Wonwoo Choi
 
 ## Approved RFCs
 
@@ -101,7 +107,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2005: Match ergonomics using default binding modes](https://github.com/rust-lang/rfcs/pull/2005).
+* [RFC 1974: Prepare global allocators for stabilization](https://github.com/rust-lang/rfcs/pull/1974).
 
 ## Final Comment Period
 
@@ -111,16 +117,16 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
+* [disposition: postpone] [Allow `extern crate` to take a list of crates](https://github.com/rust-lang/rfcs/pull/1875).
+* [disposition: merge] [Stabilize drop order](https://github.com/rust-lang/rfcs/pull/1857).
 * [disposition: merge] [Specify `#[repr(transparent)]`](https://github.com/rust-lang/rfcs/pull/1758).
 * [disposition: merge] [Conversions from `&mut T` to `&Cell<T>`](https://github.com/rust-lang/rfcs/pull/1789).
 * [disposition: merge] [Tiered browser support policy for Rust's web content](https://github.com/rust-lang/rfcs/pull/1985).
-* [disposition: merge] [Prepare global allocators for stabilization](https://github.com/rust-lang/rfcs/pull/1974).
 
 ## New RFCs
 
-* [Privacy for enum variants and trait items](https://github.com/rust-lang/rfcs/pull/2028).
-* [Tweak object safety rules to allow static dispatch](https://github.com/rust-lang/rfcs/pull/2027).
-* [Enable nested method calls](https://github.com/rust-lang/rfcs/pull/2025).
+* [Experimentally add coroutines to Rust](https://github.com/rust-lang/rfcs/pull/2033).
+* [Add a try_with method to LocalKey, replacing the existing but unstable state method](https://github.com/rust-lang/rfcs/pull/2030)
 
 ## Style RFCs
 
@@ -134,6 +140,7 @@ Issues in final comment period:
 * [trait bounds](https://github.com/rust-lang-nursery/fmt-rfcs/issues/80)
 * [Specify rules for breaking long `where` conditions](https://github.com/rust-lang-nursery/fmt-rfcs/issues/75)
 * [Single-line `where`](https://github.com/rust-lang-nursery/fmt-rfcs/issues/74)
+* [Combining openings and closings](https://github.com/rust-lang-nursery/fmt-rfcs/issues/61)
 
 Good first issues:
 
@@ -146,19 +153,13 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 
 # Upcoming Events
 
-* [Jun 15. Rust DC Learn + Try: Embedded Rust](https://www.meetup.com/RustDC/events/239115658/).
-* [Jun 15. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Jun 16. RainOfRust Camp Nashik - III](https://reps.mozilla.org/e/rainofrust-camp-nashik-iii/).
-* [Jun 17. Rust Bangalore - Rust 'core' Workshop on Types, Memory and Interfacing with other languages](https://www.meetup.com/rustox/events/240262219/).
-* [Jun 17. RainOfRust Camp Gandhinagar, Gujarat](https://reps.mozilla.org/e/rainofrust-camp-gandhinagar-gujarat/).
-* [Jun 17. Rust Activate - Ciudad de México](https://reps.mozilla.org/e/rust-activate/).
-* [Jun 17. Rust Day Mexico City 2017](https://2017.rustday.mx/).
-* [Jun 18. #RainOfRust Workshop in Pune](https://reps.mozilla.org/e/rainofrust-workshop-in-pune/).
-* [Jun 19. First Belgian Rust meetup](https://users.rust-lang.org/t/first-belgian-rust-meetup/11172).
 * [Jun 21. Rust Meetup Dresden](https://www.meetup.com/Mozilla-Community-Dresden/events/240188745/).
 * [Jun 21. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Jun 21. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Jun 24. RainOfRust Camp Ahmedabad, Gujarat](https://reps.mozilla.org/e/rainofrust-camp-ahmedabad-gujarat/).
+* [Jun 24. Rust Workshop Bangalore - Rain of Rust](https://reps.mozilla.org/e/rust-workshop-rain-of-rust/).
+* [Jun 27. Rust Zurich - June Meetup](https://www.meetup.com/de-DE/Rust-Zurich/events/240752079/).
+* [Jun 27. Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/240812524/).
 * [Jun 27. Let's Rust - Hyderabad](https://reps.mozilla.org/e/let-s-rust/).
 * [Jun 27. RainOfRust Camp Patan, Gujarat](https://reps.mozilla.org/e/rainofrust-camp-patan-gujarat/).
 * [Jun 28. Boston Rust - Tutorial Bug-fixing Hackathon](https://www.meetup.com/BostonRust/events/240244837/).
@@ -166,7 +167,12 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 * [Jun 28. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Jun 28. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Jun 29. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [Jun 29. Rust  Durham, NC - Welcome to Rust! Introductions and Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/240942367/).
+* [Jun  3. Rust Prague Meetup](https://www.meetup.com/rust-prague/events/240884817/).
 * [Jul  4. Rust Utrecht - Rust Workshop](https://www.meetup.com/Rust-Utrecht/events/240660834/).
+* [Jul  5. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/rhvgrmywkbhb/).
+* [Jul  5. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Jul  5. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -176,17 +182,25 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Open Source Rust Engineer at Buoyant](https://rustjobs.rs/jobs/24/buoyant-open-source-rust-engineer).
-* [Rust Developer at 1aim](https://rustjobs.rs/jobs/22/1aim-gmbh-rust-developer).
-* [Rust Developer at Anixe](https://rustjobs.rs/jobs/21/anixe-rust-developer).
-* [Rust Legend at Between Lines](https://rustjobs.rs/jobs/20/between-lines-ltd-rust-legend).
+* [Senior Research Engineer - Servo at Mozilla](https://careers.mozilla.org/position/gh/727971).
+* [Tor: Summer 2017 Internship to Create a Bridge Bandwidth Scanner](https://blog.torproject.org/blog/summer-2017-internship-create-bridge-bandwidth-scanner).
 * Student Research Assistant for developing Clippy in Karlsruhe (contact oliver.schneider \at kit.edu).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+```
+impl<T> Clone for T {
+  fn clone(&self) -> T {
+    unsafe { std::ptr::read(self) }
+  }
+}
+```
+
+— [@horse_rust on twitter](https://twitter.com/horse_rust/status/876205034999996417).
+
+Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/407) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
