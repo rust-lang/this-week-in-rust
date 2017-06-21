@@ -187,7 +187,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-<pre>impl<T> Clone for T {
+<pre>impl&lt;T&gt; Clone for T {
   fn clone(&self) -> T {
     unsafe { std::ptr::read(self) }
   }
