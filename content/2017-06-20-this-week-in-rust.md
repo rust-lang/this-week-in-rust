@@ -186,13 +186,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-```
-impl<T> Clone for T {
+<pre>impl<T> Clone for T {
   fn clone(&self) -> T {
     unsafe { std::ptr::read(self) }
   }
-}
-```
+}</pre>
 
 — [@horse_rust on twitter](https://twitter.com/horse_rust/status/876205034999996417).
 
