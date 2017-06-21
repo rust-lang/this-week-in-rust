@@ -29,6 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Writing a LALR(1) parser generator in Rust](https://medium.com/@DmitrySoshnikov/rust-lalr-1-parser-generator-a623b64164e4).
 * [hyper v0.11 is released](http://seanmonstar.com/post/161786147642/hyper-v011).
 * [This week in Redox 22](https://www.redox-os.org/news/this-week-in-redox-22/).
+* [This week in Servo 104](https://blog.servo.org/2017/06/12/twis-104/).
 
 # Crate of the Week
 
