@@ -16,6 +16,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+# Friends of the Forest
+
+Our community likes to recognize people who have made outstanding contributions
+to the Rust Project, its ecosystem, and its community. These people are
+'friends of the forest'. The community team has been lax in making nominations for
+this on a regular basis, but we hope to get back on track!
+
+Today's featured friend of the forest is [Mark Simulacrum](https://github.com/Mark-Simulacrum). As of Friday, June 23, Mark
+has made sure that [all 2,634 open issues on the rust-lang/rust repo](https://github.com/rust-lang/rust/issues) have a label!
+Thank you, Mark, for this heroic effort!
+
 # Crate of the Week
 
 This week's crate is [include_dir](https://crates.io/crates/include_dir), a crate that lets you include entire directory contents in your binary – like `include_str!`, but on steroids. Thanks to [Michael Bryan](https://users.rust-lang.org/u/Michael-F-Bryan) for the suggestion!
