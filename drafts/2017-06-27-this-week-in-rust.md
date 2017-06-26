@@ -114,15 +114,15 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [Style RFCs](https://github.com/rust-lang-nursery/fmt-rfcs) are part of the process for deciding on style guidelines for the Rust community and defaults for [Rustfmt](https://github.com/rust-lang-nursery/rustfmt). The process is similar to the RFC process, but we try to reach rough consensus on issues (including a final comment period) before progressing to PRs. Just like the RFC process, all users are welcome to comment and submit RFCs. If you want to help decide what Rust code should look like, come get involved!
 
-We're making good progress and the style is coming together. If you want to see the style in practice, check out [our example](https://github.com/rust-lang-nursery/fmt-rfcs/blob/master/example/lists.rs) or use the [Integer32 Playground](https://play.integer32.com/) and select 'Proposed RFC' from the 'Format' menu. Be aware that implementation is work in progress.
+The RFC style is now the default style in Rustfmt - try it out and let us know what you think!
 
 Issues in final comment period:
 
-* [[macro_use] on the same line as crate](https://github.com/rust-lang-nursery/fmt-rfcs/issues/83)
-* [trait bounds](https://github.com/rust-lang-nursery/fmt-rfcs/issues/80)
-* [Specify rules for breaking long `where` conditions](https://github.com/rust-lang-nursery/fmt-rfcs/issues/75)
-* [Single-line `where`](https://github.com/rust-lang-nursery/fmt-rfcs/issues/74)
 * [Combining openings and closings](https://github.com/rust-lang-nursery/fmt-rfcs/issues/61)
+
+An interesting issue:
+
+* [Define short](https://github.com/rust-lang-nursery/fmt-rfcs/issues/47)
 
 Good first issues:
 
