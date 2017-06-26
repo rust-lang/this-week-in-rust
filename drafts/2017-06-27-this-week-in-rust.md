@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Rusoto](https://github.com/rusoto/rusoto), an AWS SDK, has a [codegen walkthrough](https://matthewkmayer.github.io/blag/public/post/rusoto-codegen/) that follows code generation from JSON files to Rust code.  [Codegen walkthrough, part two](https://matthewkmayer.github.io/blag/public/post/rusoto-codegen-part-two/).
+
 # Crate of the Week
 
 This week's crate is [include_dir](https://crates.io/crates/include_dir), a crate that lets you include entire directory contents in your binary – like `include_str!`, but on steroids. Thanks to [Michael Bryan](https://users.rust-lang.org/u/Michael-F-Bryan) for the suggestion!
