@@ -201,6 +201,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Rust Software Engineer - Remote working available](http://www.headresourcing.com/software-engineer-c-c-rust-remote-working-available-bbbh28438-1496919540).
 * [Senior Research Engineer - Servo at Mozilla](https://careers.mozilla.org/position/gh/727971).
 * [Tor: Summer 2017 Internship to Create a Bridge Bandwidth Scanner](https://blog.torproject.org/blog/summer-2017-internship-create-bridge-bandwidth-scanner).
 * Student Research Assistant for developing Clippy in Karlsruhe (contact oliver.schneider \at kit.edu).
