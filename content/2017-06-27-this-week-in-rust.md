@@ -16,7 +16,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Announcing the Talk Help section](https://users.rust-lang.org/t/announcing-the-talk-help-section/11461). The "Talk Help" section in [TRPLF](https://users.rust-lang.org/) is for discussing conference or meetup talks in all stages, from idea, over proposal to the post-talk feedback.
 * [A Rust view on Effective Modern C++](https://mainisusuallyafunction.blogspot.in/2017/06/a-rust-view-on-effective-modern-c.html).
 * [The highs and lows of Rust (2017)](https://www.jimmycuadra.com/posts/the-highs-and-lows-of-rust-2017/).
 * [Get Started with Rust, WebAssembly, and Webpack](https://medium.com/@ianjsikes/get-started-with-rust-webassembly-and-webpack-58d28e219635).
@@ -29,10 +28,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Rust docs 61](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-61).
 * [This week in Redox 23](https://redox-os.org/news/this-week-in-redox-23/).
 * [GSoC project: Making Redox self-hosting - status report 1](https://redox-os.org/news/gsoc-self-hosting-1/).
+* [Announcing the Talk Help section](https://users.rust-lang.org/t/announcing-the-talk-help-section/11461). The "Talk Help" section in [TRPLF](https://users.rust-lang.org/) is for discussing conference or meetup talks in all stages, from idea, over proposal to the post-talk feedback.
 * [Rusoto](https://github.com/rusoto/rusoto), an AWS SDK, has a [codegen walkthrough](https://matthewkmayer.github.io/blag/public/post/rusoto-codegen/) that follows code generation from JSON files to Rust code.  [Codegen walkthrough, part two](https://matthewkmayer.github.io/blag/public/post/rusoto-codegen-part-two/).
 * [podcast] [Request for Explanation #0 - What the hell](https://request-for-explanation.github.io/podcast/ep0-what-the-hell/index.html). This week's topic is [RFC 2005](https://github.com/rust-lang/rfcs/blob/master/text/2005-match-ergonomics.md) "Match Ergonomics Using Default Binding Modes".
 
-## Friends of the Forest
+# Friends of the Forest
 
 Our community likes to recognize people who have made outstanding contributions
 to the Rust Project, its ecosystem, and its community. These people are
