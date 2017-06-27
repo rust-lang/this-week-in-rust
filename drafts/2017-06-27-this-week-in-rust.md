@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [include_dir](https://crates.io/crates/include_dir), a crate that lets you include entire directory contents in your binary – like `include_str!`, but on steroids. Thanks to [Michael Bryan](https://users.rust-lang.org/u/Michael-F-Bryan) for the suggestion!
+This week's crate is [strum](https://crates.io/crates/strum), a crate that allows you to derive stringify and parse operations for your enums. Thanks to [lucab](https://users.rust-lang.org/u/lucab) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -62,22 +62,27 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-122 pull requests were [merged in the last week][merged].
+94 pull requests were [merged in the last week][merged].
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-06-12..2017-06-19
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-06-19..2017-06-26
 
-* [overflow-check `str` index by inclusive (`...`) ranges](https://github.com/rust-lang/rust/pull/42428)
-* [float `min`/`max` is now pure Rust](https://github.com/rust-lang/rust/pull/42430)
-* [`Ord::`{`min`, `max`}](https://github.com/rust-lang/rust/pull/42496)
-* [allocation-less `Display` for `Path` and `OsStr`](https://github.com/rust-lang/rust/pull/42613)
-* [suggest `==` on inadvertent assignment in `if` conditions](https://github.com/rust-lang/rust/pull/42649)
-* [omit trait errors implied by other errors](https://github.com/rust-lang/rust/pull/41840)
-* [save-analysis is now JSON only](https://github.com/rust-lang/rust/pull/42650)
-* [`collections` is back](https://github.com/rust-lang/rust/pull/42720)
-* [fix type inference ICE due to missing obligations](https://github.com/rust-lang/rust/pull/42659)
-* [fix fn pointer coercion ICE](https://github.com/rust-lang/rust/pull/42735)
-* [use custom cargo/rustc paths when parsing flags](https://github.com/rust-lang/rust/pull/42695)
-* [cargo stores API tokens in separate, user-private file](https://github.com/rust-lang/cargo/pull/3978)
+* [MIR dataflow for borrows](https://github.com/rust-lang/rust/pull/39409) (this broke nightly, alas)
+* [make `break` break just the loop, not type inference](https://github.com/rust-lang/rust/pull/42634) (but break clippy in the process...)
+* [enable `#[thread_local]` for Windows](https://github.com/rust-lang/rust/pull/42687)
+* [`SyncSender` now implements `Sync`](https://github.com/rust-lang/rust/pull/42397)
+* [integrate jobserver for parallel codegen](https://github.com/rust-lang/rust/pull/42682)
+* [`compile_error!("...")` macro](https://github.com/rust-lang/rust/pull/42620)
+* [implement `Display`, `Debug` for *`Guard` types](https://github.com/rust-lang/rust/pull/42822)
+* [`wasm32-experimental-emscripten` target](https://github.com/rust-lang/rust/pull/42571)
+* [more readable multiline message for `assert_eq!(..)`](https://github.com/rust-lang/rust/pull/42541)
+  (also update [test infrastructure](https://github.com/rust-lang/cargo/pull/4181)
+  and [cargo](https://github.com/rust-lang/cargo/pull/4196) for multiline messages)
+* [allocator integration](https://github.com/rust-lang/rust/pull/42313)
+* [fix memory eating bug on name resolution](https://github.com/rust-lang/rust/pull/42728)
+* [avoid exponential blowup in `is_representable`](https://github.com/rust-lang/rust/pull/42751)
+* [cherrypick LLVM stack coloring improvement](https://github.com/rust-lang/rust/pull/42750)
+* [avoid inlining unwind calls](https://github.com/rust-lang/rust/pull/42771)
+* [color for rustbuild errors](https://github.com/rust-lang/rust/pull/42804)
 
 ## New Contributors
 
