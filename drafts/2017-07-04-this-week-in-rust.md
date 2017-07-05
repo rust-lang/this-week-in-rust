@@ -29,7 +29,7 @@ Thank you, Mark, for this heroic effort!
 
 # Crate of the Week
 
-This week's crate is [strum](https://crates.io/crates/strum), a crate that allows you to derive stringify and parse operations for your enums. Thanks to [lucab](https://users.rust-lang.org/u/lucab) for the suggestion!
+This week's crate is [strum](https://crates.io/crates/cargo-make), a crate that helps you automate your build workflow beyond what cargo already offers. Thanks to [Sagie Gur Ari](https://users.rust-lang.org/u/sagiegurari) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -69,27 +69,34 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-94 pull requests were [merged in the last week][merged].
+109 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-06-19..2017-06-26
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-06-26..2017-07-03
 
-* [MIR dataflow for borrows](https://github.com/rust-lang/rust/pull/39409) (this broke nightly, alas)
-* [make `break` break just the loop, not type inference](https://github.com/rust-lang/rust/pull/42634) (but break clippy in the process...)
-* [enable `#[thread_local]` for Windows](https://github.com/rust-lang/rust/pull/42687)
-* [`SyncSender` now implements `Sync`](https://github.com/rust-lang/rust/pull/42397)
-* [integrate jobserver for parallel codegen](https://github.com/rust-lang/rust/pull/42682)
-* [`compile_error!("...")` macro](https://github.com/rust-lang/rust/pull/42620)
-* [implement `Display`, `Debug` for *`Guard` types](https://github.com/rust-lang/rust/pull/42822)
-* [`wasm32-experimental-emscripten` target](https://github.com/rust-lang/rust/pull/42571)
-* [more readable multiline message for `assert_eq!(..)`](https://github.com/rust-lang/rust/pull/42541)
-  (also update [test infrastructure](https://github.com/rust-lang/cargo/pull/4181)
-  and [cargo](https://github.com/rust-lang/cargo/pull/4196) for multiline messages)
-* [allocator integration](https://github.com/rust-lang/rust/pull/42313)
-* [fix memory eating bug on name resolution](https://github.com/rust-lang/rust/pull/42728)
-* [avoid exponential blowup in `is_representable`](https://github.com/rust-lang/rust/pull/42751)
-* [cherrypick LLVM stack coloring improvement](https://github.com/rust-lang/rust/pull/42750)
-* [avoid inlining unwind calls](https://github.com/rust-lang/rust/pull/42771)
-* [color for rustbuild errors](https://github.com/rust-lang/rust/pull/42804)
+* [1.19 stabilizations](https://github.com/rust-lang/rust/pull/42745)
+* [stabilize `sort_unstable`](https://github.com/rust-lang/rust/pull/43010)
+* [stabilize some IO `into_inner()` methods](https://github.com/rust-lang/rust/pull/43002)
+* [update LLVM to 4.0.1](https://github.com/rust-lang/rust/pull/42930)
+* [LLVM code now contains demangled `fn` names as comments](https://github.com/rust-lang/rust/pull/42971) (hooray for readability!)
+* [fix windows32 stack probes](https://github.com/rust-lang/llvm/pull/89)
+* [split signatures off function items](https://github.com/rust-lang/rust/pull/42417) (plugin-breaking change)
+* [issue lint-by-default/by-setting notes only once per lint](https://github.com/rust-lang/rust/pull/42919) (yay for reduced clutter!)
+* [MIR dataflow](https://github.com/rust-lang/rust/pull/42924) (another step to MIR-borrowck)
+* [`$crate` is a keyword](https://github.com/rust-lang/rust/pull/42902)
+* [fix `alloc::alloc_one`](https://github.com/rust-lang/rust/pull/42901)
+* [activate jemalloc fill](https://github.com/rust-lang/rust/pull/42900)
+* [speed up `slice::rotate`](https://github.com/rust-lang/rust/pull/42819) (same trick as `mem::swap`)
+* [`iterator::for_each`](https://github.com/rust-lang/rust/pull/42782) (faster than a `for` loop for complex iterators)
+* [detect missing `;` on unit-returning methods](https://github.com/rust-lang/rust/pull/42850) (huzzah for better error messages!)
+* [report the total number of errors on compilation failure](https://github.com/rust-lang/rust/pull/43015) (about time)
+* [coerce fields to the correct type](https://github.com/rust-lang/rust/pull/42807)
+* [don't hash single-variant enum discriminant](https://github.com/rust-lang/rust/pull/42709)
+* [correct sign handling for NaNs](https://github.com/rust-lang/rust/pull/42431)
+* [`#[allow_fail]` attributes for tests that run, but may fail](https://github.com/rust-lang/rust/pull/42219)
+* [cargo now infers multi-file binaries by convention](https://github.com/rust-lang/cargo/pull/4214)
+* [cargo can now install specific versions](https://github.com/rust-lang/cargo/pull/4229)
+* [crates.io now allows multiple API tokens per user](https://github.com/rust-lang/crates.io/pull/697)
+* [crates.io images are now SVG](https://github.com/rust-lang/crates.io/pull/826)
 
 ## New Contributors
 
