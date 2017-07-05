@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Sep 30. RustFest Zürich](http://zurich.rustfest.eu/).
+
 # Friends of the Forest
 
 Our community likes to recognize people who have made outstanding contributions
@@ -42,6 +44,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [CFP for RustFest Zürich](https://cfp.rustfest.eu/events/rustfest-ch).
 * [Rust libz blitz status update 2017-06-20](https://internals.rust-lang.org/t/rust-libz-blitz/5184/80). Contribution opportunities are available.
 * [rustup: Fix 'show' displaying UNC paths on windows](https://github.com/rust-lang-nursery/rustup.rs/issues/1177).
 * [easy] [rustup: Fix 'show' when active toolchain is not installed](https://github.com/rust-lang-nursery/rustup.rs/issues/1178).
