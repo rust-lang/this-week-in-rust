@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [video] [Bootstrapping Embedded Development in Rust by James Munns](https://youtu.be/SOTh6Bu_0OM).
+
 # Friends of the Forest
 
 Our community likes to recognize people who have made outstanding contributions
