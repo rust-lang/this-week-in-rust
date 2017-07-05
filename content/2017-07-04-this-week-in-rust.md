@@ -16,20 +16,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [The *new* TRust-DNS Resolver](https://bluejekyll.github.io/blog/rust/2017/06/30/trust-dns-resolver.html), quick overview of the new 100% Rust and Tokio based Resolver.
-* [video] [Bootstrapping Embedded Development in Rust by James Munns](https://youtu.be/SOTh6Bu_0OM).
-* [Sep 30. RustFest Zürich](http://zurich.rustfest.eu/).
-
-# Friends of the Forest
-
-Our community likes to recognize people who have made outstanding contributions
-to the Rust Project, its ecosystem, and its community. These people are
-'friends of the forest'. The community team has been lax in making nominations for
-this on a regular basis, but we hope to get back on track!
-
-Today's featured friend of the forest is [Mark Simulacrum](https://github.com/Mark-Simulacrum). As of Friday, June 23, Mark
-has made sure that [all 2,634 open issues on the rust-lang/rust repo](https://github.com/rust-lang/rust/issues) have a label!
-Thank you, Mark, for this heroic effort!
+* [Announcing the Increasing Rust's Reach project](https://blog.rust-lang.org/2017/06/27/Increasing-Rusts-Reach.html).
+* [Recapping this week’s Mozilla all-hands](https://internals.rust-lang.org/t/recapping-this-weeks-mozilla-all-hands/5465).
+* [Building a container runtime in Rust](https://blogs.oracle.com/developers/building-a-container-runtime-in-rust).
+* [A Rusty tale of shared memories and passed messages](https://www.worthe-it.co.za/programming/2017/06/19/a-rusty-tale-of-shared-memories-and-passed-messages-1.html).
+* [pdf] [Writing parsers like it is 2017](http://spw17.langsec.org/papers/chifflier-parsing-in-2017.pdf). Writing memory-safe parsers using Rust.
+* [PROST! - A Protocol Buffers implementation for the Rust language](https://github.com/danburkert/prost).
+* [Integrating Rocket and Elm with Brunch](https://medium.com/@frank_27716/integrating-rocket-and-elm-with-brunch-da4680ae7b29).
+* [The new TRust-DNS Resolver](https://bluejekyll.github.io/blog/rust/2017/06/30/trust-dns-resolver.html), quick overview of the new 100% Rust and Tokio based Resolver.
+* [DLL hooking in Rust](https://github.com/Verideth/dll_hook-rs). Rust code to show how hooking in rust with a dll works.
+* [This week in Rust docs 62](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-62).
+* [podcast] [Request for explanation #1 - Constermash](https://request-for-explanation.github.io/podcast/ep1-constermash/index.html).
+* [podcast] [New Rustacean - crates you show know: Rocket](http://www.newrustacean.com/show_notes/cysk/rocket/). An accessible, well-designed web framework in Rust!
+* [video] [Bootstrapping embedded development in Rust by James Munns](https://youtu.be/SOTh6Bu_0OM).
 
 # Crate of the Week
 
@@ -46,27 +45,25 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [CFP for RustFest Zürich](https://cfp.rustfest.eu/events/rustfest-ch).
-* [Rust libz blitz status update 2017-06-20](https://internals.rust-lang.org/t/rust-libz-blitz/5184/80). Contribution opportunities are available.
+* [Call for Proposals is open for RustFest Zürich](https://cfp.rustfest.eu/events/rustfest-ch).
+* [rust-api-guidelines: Mention HashMap::insert and HashSet::insert under c-intermediate](https://github.com/brson/rust-api-guidelines/issues/55).
+* [rust-api-guidelines: Provide easier navigation/multipage structure](https://github.com/brson/rust-api-guidelines/issues/52).
+* [PumpkinDB: "builtins" files don't allow for computed constants](https://github.com/PumpkinDB/PumpkinDB/issues/318).
+* [PumpkinDB: different users would use different naming conventions](https://github.com/PumpkinDB/PumpkinDB/issues/317).
+* [PumpkinDB: numerous mio deprecation notices](https://github.com/PumpkinDB/PumpkinDB/issues/294).
+* [PumpkinDB: lack of synchronization primitives](https://github.com/PumpkinDB/PumpkinDB/issues/115).
+* [PumpkinDB: non-trivial to detect if JSON's value is an integer or a float](https://github.com/PumpkinDB/PumpkinDB/issues/296).
+* [PumpkinDB: integer constants in builtins get interpreted as instructions](https://github.com/PumpkinDB/PumpkinDB/issues/314).
 * [rustup: Fix 'show' displaying UNC paths on windows](https://github.com/rust-lang-nursery/rustup.rs/issues/1177).
-* [easy] [rustup: Fix 'show' when active toolchain is not installed](https://github.com/rust-lang-nursery/rustup.rs/issues/1178).
-* [easy] [rustup: Add a reqwest backend to rustup](https://github.com/rust-lang-nursery/rustup.rs/issues/1183).
-* [easy] [rustup: Teach hyper/rustls HTTP backends to resume partial downloads](https://github.com/rust-lang-nursery/rustup.rs/issues/1181).
 * [walkdir: Add Error docs to methods that return Result](https://github.com/BurntSushi/walkdir/issues/24).
-* [walkdir: Document why unwraps won't fail](https://github.com/BurntSushi/walkdir/issues/42).
 * [walkdir: Link references to std in docs](https://github.com/BurntSushi/walkdir/issues/39).
 * [walkdir: Correct errors in WalkDir type docs](https://github.com/BurntSushi/walkdir/issues/32).
 * [walkdir: Document that `Iter` and `IterFilterEntry` are the result of trait methods](https://github.com/BurntSushi/walkdir/issues/31).
 * [walkdir: Add links to other walkdir items in WalkDirIterator docs](https://github.com/BurntSushi/walkdir/issues/30).
-* [walkdir: Add links to other walkdir items in Iter and IterFilterEntry docs](https://github.com/BurntSushi/walkdir/issues/28).
-* [walkdir: Add links to other walkdir items in DirEntry docs](https://github.com/BurntSushi/walkdir/issues/27).
-* [walkdir: Add example for content_first](https://github.com/BurntSushi/walkdir/issues/26).
-* [rust-cookbook: Use `filter_entry` in walkdir examples](https://github.com/brson/rust-cookbook/issues/182).
 * [easy] [rust-bindgen: Default to generating constified enums, rather than generating Rust enums](https://github.com/servo/rust-bindgen/issues/758).
 * [less-easy] [rust-bindgen: Rewrite `is_unsized` as either a graph traversal or fix-point analysis](https://github.com/servo/rust-bindgen/issues/768).
 * [less-easy] [rust-bindgen: Rewrite `can_derive_debug` as either a graph traversal or fix-point analysis](https://github.com/servo/rust-bindgen/issues/767).
 * [less-easy] [rust-bindgen: Rewrite `can_derive_copy[_in_array]` as either a graph traversal or fix-point analysis](https://github.com/servo/rust-bindgen/issues/766).
-* [less-easy] [rust-bindgen: Rewrite `has_vtable` checks as either graph traversal or fix-point analysis](https://github.com/servo/rust-bindgen/issues/765).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -105,13 +102,8 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Casey Rodarmor
-* Chris MacNaughton
-* Giles Cope
-* Leonardo Yvens
-* Nick Whitney
-* slo
-* Squirrel
+* Lee Bousfield
+* Milton Mazzarri
 
 ## Approved RFCs
 
@@ -119,7 +111,10 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 1857: Stabilize drop order](https://github.com/rust-lang/rfcs/pull/1857).
+* [RFC 1985: Tiered browser support policy for Rust's web content](https://github.com/rust-lang/rfcs/pull/1985).
+* [RFC 1758: Specify `#[repr(transparent)]`](https://github.com/rust-lang/rfcs/pull/1758).
+* [RFC 1789: Conversions from `&mut T` to `&Cell<T>`](https://github.com/rust-lang/rfcs/pull/1789).
 
 ## Final Comment Period
 
@@ -130,19 +125,13 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
 * [disposition: merge] [Experimentally add coroutines to Rust](https://github.com/rust-lang/rfcs/pull/2033).
-* [disposition: merge] [Tiered browser support policy for Rust's web content](https://github.com/rust-lang/rfcs/pull/1985).
-* [disposition: merge] [Specify `#[repr(transparent)]`](https://github.com/rust-lang/rfcs/pull/1758).
-* [disposition: merge] [Conversions from `&mut T` to `&Cell<T>`](https://github.com/rust-lang/rfcs/pull/1789).
-* [disposition: merge] [Stabilize drop order](https://github.com/rust-lang/rfcs/pull/1857).
-* [disposition: postpone] [Allow `extern crate` to take a list of crates](https://github.com/rust-lang/rfcs/pull/1875).
+* [disposition: merge] [Amend #1440: allow `const` items to contain drop types](https://github.com/rust-lang/rfcs/pull/1817).
+* [disposition: merge] [Prepublication dependencies for Cargo](https://github.com/rust-lang/rfcs/pull/1969).
 
 ## New RFCs
 
-* [Add `is_aligned` intrinsic](https://github.com/rust-lang/rfcs/pull/2043).
-* [Put the RFCs repo under license terms](https://github.com/rust-lang/rfcs/pull/2044).
-* [Allow a break not only out of `loop`, but of labelled blocks with no loop](https://github.com/rust-lang/rfcs/pull/2046).
-* [Extend Rust target specification to follow more closely LLVM triple specification](https://github.com/rust-lang/rfcs/pull/2048).
-* [Zero-Sized References](https://github.com/rust-lang/rfcs/pull/2040).
+* [Evolving Rust through Epochs](https://github.com/rust-lang/rfcs/pull/2052).
+* [Add alternative to Conservative Impl Trait (RFC 1522)](https://github.com/rust-lang/rfcs/pull/2051).
 
 ## Style RFCs
 
@@ -169,18 +158,6 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 
 # Upcoming Events
 
-* [Jun 28. Boston Rust - Tutorial Bug-fixing Hackathon](https://www.meetup.com/BostonRust/events/240244837/).
-* [Jun 28. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/240365553/).
-* [Jun 28. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Jun 28. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [Jun 29. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Jun 29. Rust  Durham, NC - Welcome to Rust! Introductions and Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/240942367/).
-* [Jun  3. Rust Prague Meetup](https://www.meetup.com/rust-prague/events/240884817/).
-* [Jul  4. Rust Utrecht - Rust Workshop](https://www.meetup.com/Rust-Utrecht/events/240660834/).
-* [Jul  5. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/rhvgrmywkbhb/).
-* [Jul  5. Rust User Group Cologne - Live Coding](https://www.meetup.com//RustCologne/events/240619280/).
-* [Jul  5. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Jul  5. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Jul  7. Rust Toronto - Game Development in Rust](https://www.meetup.com/Rust-Toronto/events/240585994/).
 * [Jul 10. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/240751286/).
 * [Jul 12. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/241046172/).
@@ -188,6 +165,10 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 * [Jul 12. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Jul 13. Columbus Rust Society - Monthly Meetup](https://www.meetup.com/columbus-rs/events/240698982/).
 * [Jul 13. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [Jul 19. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Jul 19. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Jul 20. Lessons learned integrating Rust with Ruby](https://www.meetup.com/RustDC/events/241110467/).
+* [Jul 20. Mozilla Community Dresden Meetup](https://www.meetup.com/Mozilla-Community-Dresden/events/241302860/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -197,23 +178,29 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Software Engineer, Systems - Buoyant](https://jobs.lever.co/buoyant/7a64f7d1-6fea-40b1-ba52-5ab44802c5f6).
 * [Rust Software Engineer - Remote working available](http://www.headresourcing.com/software-engineer-c-c-rust-remote-working-available-bbbh28438-1496919540).
 * [Senior Research Engineer - Servo at Mozilla](https://careers.mozilla.org/position/gh/727971).
-* [Tor: Summer 2017 Internship to Create a Bridge Bandwidth Scanner](https://blog.torproject.org/blog/summer-2017-internship-create-bridge-bandwidth-scanner).
-* Student Research Assistant for developing Clippy in Karlsruhe (contact oliver.schneider \at kit.edu).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> Regarding the C++ discussion, when I started programming the only viable oss version control system was cvs. It was horrible, but better than nothing. Then subversion was created and it was like a breath of fresh air, because it did the same thing well. Then alternatives exploded and among them git emerged as this amazing, amazing game-changer because it changed the whole approach to version control, enabling amazing things.
+> I have rewritten
+> the code
+> that was formerly
+> in c
 >
-> To me, Rust is that git-like game-changer of systems programming languages because it changes the whole approach, enabling amazing things.
+> And which
+> you probably had
+> written very well
+>
+> Forgive me
+> it was unsafe
 
+— [@horse_rust on Twitter](https://twitter.com/horse_rust/status/881936300261101568).
 
-— [Nathan Stocks on TRPLF](https://users.rust-lang.org/t/blog-why-not-to-use-rust/11388/13).
-
-Thanks to [Aleksey Kladov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/412) for the suggestion.
+Thanks to [@balrogboogie](https://twitter.com/balrogboogie/status/882061844436963329) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
