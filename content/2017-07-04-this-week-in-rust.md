@@ -32,7 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [strum](https://crates.io/crates/cargo-make), a crate that helps you automate your build workflow beyond what cargo already offers. Thanks to [Sagie Gur Ari](https://users.rust-lang.org/u/sagiegurari) for the suggestion!
+This week's crate is [cargo-make](https://crates.io/crates/cargo-make), a crate that helps you automate your build workflow beyond what cargo already offers. Thanks to [Sagie Gur Ari](https://users.rust-lang.org/u/sagiegurari) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
