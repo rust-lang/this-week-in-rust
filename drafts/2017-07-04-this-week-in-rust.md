@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [The *new* TRust-DNS Resolver](https://bluejekyll.github.io/blog/rust/2017/06/30/trust-dns-resolver.html), quick overview of the new 100% Rust and Tokio based Resolver.
 * [video] [Bootstrapping Embedded Development in Rust by James Munns](https://youtu.be/SOTh6Bu_0OM).
 * [Sep 30. RustFest Zürich](http://zurich.rustfest.eu/).
 
