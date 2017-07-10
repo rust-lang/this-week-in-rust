@@ -126,10 +126,6 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 The RFC style is now the default style in Rustfmt - try it out and let us know what you think!
 
-Issues in final comment period:
-
-* [Combining openings and closings](https://github.com/rust-lang-nursery/fmt-rfcs/issues/61)
-
 An interesting issue:
 
 * [Define short](https://github.com/rust-lang-nursery/fmt-rfcs/issues/47)
