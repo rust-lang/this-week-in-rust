@@ -46,7 +46,7 @@ Our this week's friend of the forest is [Guillaume Gomez](https://github.com/Gui
 
 # Crate of the Week
 
-This week's crate is [strum](https://crates.io/crates/cargo-make), a crate that helps you automate your build workflow beyond what cargo already offers. Thanks to [Sagie Gur Ari](https://users.rust-lang.org/u/sagiegurari) for the suggestion!
+Sadly, no crate was nominated this week.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -96,34 +96,32 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-109 pull requests were [merged in the last week][merged]
+113 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-06-26..2017-07-03
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-07-03..2017-07-10
 
-* [1.19 stabilizations](https://github.com/rust-lang/rust/pull/42745)
+* [stack probes on X86](https://github.com/rust-lang/rust/pull/42816) (Hooray!)
+* [skip main thread stack guard on Linux](https://github.com/rust-lang/rust/pull/43072)
+* [`#[global_allocator]`](https://github.com/rust-lang/rust/pull/42727)
+* [some `proc_macro` APIs](https://github.com/rust-lang/rust/pull/40939)
+* [`TcpStream::connect_timeout(..)`](https://github.com/rust-lang/rust/pull/43062)
+* [rustc no longer crashes on ambiguous `<` in type ascription](https://github.com/rust-lang/rust/pull/43060)
+* [disallow `$($v:vis)*`](https://github.com/rust-lang/rust/pull/43078)
+* [`repr(align(x))` now goes to `u32::MAX`](https://github.com/rust-lang/rust/pull/43097) (formerly `i16::MAX`)
+* [fix silent NaN encoding on certain architectures](https://github.com/rust-lang/rust/pull/43025)
+* [`associated_consts` are now stable](https://github.com/rust-lang/rust/pull/42809)
 * [stabilize `sort_unstable`](https://github.com/rust-lang/rust/pull/43010)
-* [stabilize some IO `into_inner()` methods](https://github.com/rust-lang/rust/pull/43002)
-* [update LLVM to 4.0.1](https://github.com/rust-lang/rust/pull/42930)
-* [LLVM code now contains demangled `fn` names as comments](https://github.com/rust-lang/rust/pull/42971) (hooray for readability!)
-* [fix windows32 stack probes](https://github.com/rust-lang/llvm/pull/89)
-* [split signatures off function items](https://github.com/rust-lang/rust/pull/42417) (plugin-breaking change)
-* [issue lint-by-default/by-setting notes only once per lint](https://github.com/rust-lang/rust/pull/42919) (yay for reduced clutter!)
-* [MIR dataflow](https://github.com/rust-lang/rust/pull/42924) (another step to MIR-borrowck)
-* [`$crate` is a keyword](https://github.com/rust-lang/rust/pull/42902)
-* [fix `alloc::alloc_one`](https://github.com/rust-lang/rust/pull/42901)
-* [activate jemalloc fill](https://github.com/rust-lang/rust/pull/42900)
-* [speed up `slice::rotate`](https://github.com/rust-lang/rust/pull/42819) (same trick as `mem::swap`)
-* [`iterator::for_each`](https://github.com/rust-lang/rust/pull/42782) (faster than a `for` loop for complex iterators)
-* [detect missing `;` on unit-returning methods](https://github.com/rust-lang/rust/pull/42850) (huzzah for better error messages!)
-* [report the total number of errors on compilation failure](https://github.com/rust-lang/rust/pull/43015) (about time)
-* [coerce fields to the correct type](https://github.com/rust-lang/rust/pull/42807)
-* [don't hash single-variant enum discriminant](https://github.com/rust-lang/rust/pull/42709)
-* [correct sign handling for NaNs](https://github.com/rust-lang/rust/pull/42431)
-* [`#[allow_fail]` attributes for tests that run, but may fail](https://github.com/rust-lang/rust/pull/42219)
-* [cargo now infers multi-file binaries by convention](https://github.com/rust-lang/cargo/pull/4214)
-* [cargo can now install specific versions](https://github.com/rust-lang/cargo/pull/4229)
-* [crates.io now allows multiple API tokens per user](https://github.com/rust-lang/crates.io/pull/697)
-* [crates.io images are now SVG](https://github.com/rust-lang/crates.io/pull/826)
+* [convert `Into`s to `From`s where applicable](https://github.com/rust-lang/rust/pull/42227)
+* [avoid inlining `HashMap::resize(..)`](https://github.com/rust-lang/rust/pull/43093) (to reduce stack usage)
+* [specialize O(1) `Iterator::nth(_)` for ranges](https://github.com/rust-lang/rust/pull/43077)
+* [improved error message on `?` in non-`Result` returning methods](https://github.com/rust-lang/rust/pull/43001)
+* [suggestions now include line numbers](https://github.com/rust-lang/rust/pull/42904)
+* [switch to nursery `rust-compiler-builtins`](https://github.com/rust-lang/rust/pull/42899)
+* [AST/HIR now store method call generic arguments](https://github.com/rust-lang/rust/pull/43115)
+* [`pub_use_of_private_extern_crate`, `parenthesized_params_in_types_and_modules`, `safe_extern_statics`, `missing_fragment_specifier`, `legacy_directory_ownership`, `resolve_trait_on_defaulted_unit` lints are now `Deny` by default](https://github.com/rust-lang/rust/pull/42894)
+* [stronger type privacy checking](https://github.com/rust-lang/rust/pull/42125)
+* [update libstd_unicode to Unicode 10.0.0](https://github.com/rust-lang/rust/pull/42999)
+* [`cargo bench --no-fail-fast`](https://github.com/rust-lang/cargo/pull/4248)
 
 ## New Contributors
 
@@ -169,10 +167,6 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 [Style RFCs](https://github.com/rust-lang-nursery/fmt-rfcs) are part of the process for deciding on style guidelines for the Rust community and defaults for [Rustfmt](https://github.com/rust-lang-nursery/rustfmt). The process is similar to the RFC process, but we try to reach rough consensus on issues (including a final comment period) before progressing to PRs. Just like the RFC process, all users are welcome to comment and submit RFCs. If you want to help decide what Rust code should look like, come get involved!
 
 The RFC style is now the default style in Rustfmt - try it out and let us know what you think!
-
-Issues in final comment period:
-
-* [Combining openings and closings](https://github.com/rust-lang-nursery/fmt-rfcs/issues/61)
 
 An interesting issue:
 
