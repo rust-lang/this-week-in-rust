@@ -39,8 +39,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 Our community likes to recognize people who have made outstanding contributions
 to the Rust Project, its ecosystem, and its community. These people are
-'friends of the forest'. The community team has been lax in making nominations for
-this on a regular basis, but we hope to get back on track!
+'friends of the forest'.
 
 Our this week's friend of the forest is [Guillaume Gomez](https://github.com/GuillaumeGomez), whose [influence is evident everywhere you look in Rust](https://users.rust-lang.org/t/twir-friends-of-the-forest/7295/23).
 
@@ -59,13 +58,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Get in the swing with the libz blitz contest: Win free tickets to RustFest Zürich](http://blog.rustfest.eu/libz-blitz).
 * [Rust is in great need of volunteers interested in making a dent in some of the libz blitz crates](https://users.rust-lang.org/t/twir-call-for-participation/4821/81).
 * [Rust libz blitz status update 2017/07/05](https://internals.rust-lang.org/t/rust-libz-blitz/5184/104).
 * [Out of band crate evaluation for 2017-07-06: env_logger](https://internals.rust-lang.org/t/out-of-band-crate-evaluation-for-2017-07-06-env-logger/5488).
 * [Out of band crate evaluation for 2017-07-06: threadpool](https://internals.rust-lang.org/t/out-of-band-crate-evaluation-for-2017-07-06-threadpool/5495).
 * [Crate evaluation for 2017-07-11: gcc](https://internals.rust-lang.org/t/crate-evaluation-for-2017-07-11-gcc/5450).
 * [Help wanted: parser-c (and parser-haskell, corollary, and rust-corrode)](https://users.rust-lang.org/t/help-wanted-parser-c-and-parser-haskell-corollary-and-rust-corrode/11729).
-* [Get in the swing with the libz blitz contest: Win free tickets to RustFest Zürich](http://blog.rustfest.eu/libz-blitz).
 * [Call for Proposals is open for RustFest Zürich](https://cfp.rustfest.eu/events/rustfest-ch).
 * [rust-api-guidelines: Mention HashMap::insert and HashSet::insert under c-intermediate](https://github.com/brson/rust-api-guidelines/issues/55).
 * [rust-api-guidelines: Provide easier navigation/multipage structure](https://github.com/brson/rust-api-guidelines/issues/52).
