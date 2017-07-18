@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Rusoto codegen part three: crategen](https://matthewkmayer.github.io/blag/public/post/rusoto-codegen-part-three/).  Rusoto, an AWS SDK, generates a crate for each AWS service.  This post details how that's done.
+* Bitfury Group [releases](https://github.com/exonum/exonum/releases) [Exonum](https://exonum.com) — an extensible framework for blockchain projects [written in Rust](https://github.com/exonum/exonum).
 
 # Friends of the Forest
 
