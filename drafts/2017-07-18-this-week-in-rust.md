@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Rusoto codegen part three: crategen](https://matthewkmayer.github.io/blag/public/post/rusoto-codegen-part-three/).  Rusoto, an AWS SDK, generates a crate for each AWS service.  This post details how that's done.
+* [These Weeks in Remacs II](http://www.wilfred.me.uk/blog/2017/07/15/these-weeks-in-remacs-ii/)
 
 # Friends of the Forest
 
