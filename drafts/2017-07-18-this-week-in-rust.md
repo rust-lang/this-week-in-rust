@@ -37,7 +37,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-Sadly, no crate was nominated this week.
+This week's crate is [extfsm](https://crates.io/crates/extfsm), a crate to help build finite state machines. Thanks to [Tony P.](https://users.rust-lang.org/u/prz) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -81,32 +81,19 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-113 pull requests were [merged in the last week][merged]
+103 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-07-03..2017-07-10
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-07-10..2017-07-17
 
-* [stack probes on X86](https://github.com/rust-lang/rust/pull/42816) (Hooray!)
-* [skip main thread stack guard on Linux](https://github.com/rust-lang/rust/pull/43072)
-* [`#[global_allocator]`](https://github.com/rust-lang/rust/pull/42727)
-* [some `proc_macro` APIs](https://github.com/rust-lang/rust/pull/40939)
-* [`TcpStream::connect_timeout(..)`](https://github.com/rust-lang/rust/pull/43062)
-* [rustc no longer crashes on ambiguous `<` in type ascription](https://github.com/rust-lang/rust/pull/43060)
-* [disallow `$($v:vis)*`](https://github.com/rust-lang/rust/pull/43078)
-* [`repr(align(x))` now goes to `u32::MAX`](https://github.com/rust-lang/rust/pull/43097) (formerly `i16::MAX`)
-* [fix silent NaN encoding on certain architectures](https://github.com/rust-lang/rust/pull/43025)
-* [`associated_consts` are now stable](https://github.com/rust-lang/rust/pull/42809)
-* [stabilize `sort_unstable`](https://github.com/rust-lang/rust/pull/43010)
-* [convert `Into`s to `From`s where applicable](https://github.com/rust-lang/rust/pull/42227)
-* [avoid inlining `HashMap::resize(..)`](https://github.com/rust-lang/rust/pull/43093) (to reduce stack usage)
-* [specialize O(1) `Iterator::nth(_)` for ranges](https://github.com/rust-lang/rust/pull/43077)
-* [improved error message on `?` in non-`Result` returning methods](https://github.com/rust-lang/rust/pull/43001)
-* [suggestions now include line numbers](https://github.com/rust-lang/rust/pull/42904)
-* [switch to nursery `rust-compiler-builtins`](https://github.com/rust-lang/rust/pull/42899)
-* [AST/HIR now store method call generic arguments](https://github.com/rust-lang/rust/pull/43115)
-* [`pub_use_of_private_extern_crate`, `parenthesized_params_in_types_and_modules`, `safe_extern_statics`, `missing_fragment_specifier`, `legacy_directory_ownership`, `resolve_trait_on_defaulted_unit` lints are now `Deny` by default](https://github.com/rust-lang/rust/pull/42894)
-* [stronger type privacy checking](https://github.com/rust-lang/rust/pull/42125)
-* [update libstd_unicode to Unicode 10.0.0](https://github.com/rust-lang/rust/pull/42999)
-* [`cargo bench --no-fail-fast`](https://github.com/rust-lang/cargo/pull/4248)
+* [don't panic, compiler-builtins](https://github.com/rust-lang/rust/pull/43258)
+* [thread-local `pub(restricted)`](https://github.com/rust-lang/rust/pull/43185)
+* [thread-local try-with](https://github.com/rust-lang/rust/pull/43158)
+* [macro parsing improvements](https://github.com/rust-lang/rust/pull/42913) (fixes *a lot* of issues around old macros),
+  [also identifiers in patterns no longer cause problems](https://github.com/rust-lang/rust/pull/43224)
+* [revert some SIMD annotations causing problems on PowerPC](https://github.com/rust-lang/rust/pull/43159)
+* [More Rust/RLS integration](https://github.com/rust-lang/rust/pull/42146)
+* [`cargo test` now fails if no tests found](https://github.com/rust-lang/rust/pull/43145)
+* [`cargo` conventions around libs / binaries streamlined](https://github.com/rust-lang/cargo/pull/4259) (epic refactor)
 
 ## New Contributors
 
