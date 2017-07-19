@@ -21,7 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [ The official Rust Playground now has the top 100 crates available](https://users.rust-lang.org/t/the-official-rust-playground-now-has-the-top-100-crates-available/11817).
 * [The Rustdoc redux](https://internals.rust-lang.org/t/the-rustdoc-redux/5542). A ground-up re-write of rustdoc is coming.
 * [Non-lexical lifetimes: draft RFC and prototype available](http://smallcultfollowing.com/babysteps/blog/2017/07/11/non-lexical-lifetimes-draft-rfc-and-prototype-available/).
-* [Inner workings of a search engine written in Rust - Part 2: Super fast indexing](http://fulmicoton.com/posts/behold-tantivy-part2/).
+* [Inner workings of a search engine written in Rust part 2: Super fast indexing](http://fulmicoton.com/posts/behold-tantivy-part2/).
 * [Rocket v0.3: Fairings, TLS, and private cookies](https://rocket.rs/news/2017-07-14-version-0.3/).
 * [Avoiding logic bugs in Rust with traits and types](https://mgattozzi.com/avoiding-logic-errors).
 * [How to rewrite your project in Rust](https://unhandledexpression.com/2017/07/12/how-to-rewrite-you-project-in-rust/).
