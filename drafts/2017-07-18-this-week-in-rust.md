@@ -16,15 +16,24 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [The 2017 Rust conference lineup](https://blog.rust-lang.org/2017/07/18/conf-lineup.html).
+* [Ashley and Sebastián join the Rust community team](https://users.rust-lang.org/t/announcing-ashley-and-sebastian-joining-the-community-team/11883)!
+* [ The official Rust Playground now has the top 100 crates available](https://users.rust-lang.org/t/the-official-rust-playground-now-has-the-top-100-crates-available/11817).
+* [The Rustdoc redux](https://internals.rust-lang.org/t/the-rustdoc-redux/5542). A ground-up re-write of rustdoc is coming.
+* [Non-lexical lifetimes: draft RFC and prototype available](http://smallcultfollowing.com/babysteps/blog/2017/07/11/non-lexical-lifetimes-draft-rfc-and-prototype-available/).
+* [Inner workings of a search engine written in Rust - Part 2: Super fast indexing](http://fulmicoton.com/posts/behold-tantivy-part2/).
+* [Rocket v0.3: Fairings, TLS, and private cookies](https://rocket.rs/news/2017-07-14-version-0.3/).
+* [Avoiding logic bugs in Rust with traits and types](https://mgattozzi.com/avoiding-logic-errors).
+* [How to rewrite your project in Rust](https://unhandledexpression.com/2017/07/12/how-to-rewrite-you-project-in-rust/).
+* [Multithreading in Rust part 2: Pointers to shared memory](https://www.worthe-it.co.za/programming/2017/07/11/a-rusty-tale-of-shared-memories-and-passed-messages-2.html).
+* [Undefined behavior and unsafe code guidelines](https://www.ralfj.de/blog/2017/07/14/undefined-behavior.html).
+* [Building a microservice in Rust (with actors)](https://insanitybit.github.io/2017/07/10/building-a-microservice-in-rust).
+* [Types as contracts](https://www.ralfj.de/blog/2017/07/17/types-as-contracts.html).
 * [Rusoto codegen part three: crategen](https://matthewkmayer.github.io/blag/public/post/rusoto-codegen-part-three/).  Rusoto, an AWS SDK, generates a crate for each AWS service.  This post details how that's done.
-
-# Friends of the Forest
-
-Our community likes to recognize people who have made outstanding contributions
-to the Rust Project, its ecosystem, and its community. These people are
-'friends of the forest'.
-
-Our this week's friend of the forest is [Guillaume Gomez](https://github.com/GuillaumeGomez), whose [influence is evident everywhere you look in Rust](https://users.rust-lang.org/t/twir-friends-of-the-forest/7295/23).
+* [Rust On L4Re — Safe Language Meets Safe Microkernel](http://crustulus.de/2017/07/rustonl4re-safelanguagemeetssafekernel/). L4Re is a microkernel featuring strict isolation and virtualisation. The article gives an overview about the porting work.
+* [libsolv - A case study in interfacing with C - Part 1](https://ambaxter.github.io/rust/libsolv/2017/07/14/libsolv-interfaces-part1.html).
+* [This week in Redox 25](https://redox-os.org/news/this-week-in-redox-25/).
+* [This week in Rust docs 64](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-64).
 
 # Crate of the Week
 
@@ -42,35 +51,29 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Get in the swing with the libz blitz contest: Win free tickets to RustFest Zürich](http://blog.rustfest.eu/libz-blitz).
-* [Rust is in great need of volunteers interested in making a dent in some of the libz blitz crates](https://users.rust-lang.org/t/twir-call-for-participation/4821/81).
-* [Rust libz blitz status update 2017/07/05](https://internals.rust-lang.org/t/rust-libz-blitz/5184/104).
-* [Out of band crate evaluation for 2017-07-06: env_logger](https://internals.rust-lang.org/t/out-of-band-crate-evaluation-for-2017-07-06-env-logger/5488).
-* [Out of band crate evaluation for 2017-07-06: threadpool](https://internals.rust-lang.org/t/out-of-band-crate-evaluation-for-2017-07-06-threadpool/5495).
-* [Crate evaluation for 2017-07-11: gcc](https://internals.rust-lang.org/t/crate-evaluation-for-2017-07-11-gcc/5450).
-* [Help wanted: parser-c (and parser-haskell, corollary, and rust-corrode)](https://users.rust-lang.org/t/help-wanted-parser-c-and-parser-haskell-corollary-and-rust-corrode/11729).
-* [Call for Proposals is open for RustFest Zürich](https://cfp.rustfest.eu/events/rustfest-ch).
-* [rust-api-guidelines: Mention HashMap::insert and HashSet::insert under c-intermediate](https://github.com/brson/rust-api-guidelines/issues/55).
-* [rust-api-guidelines: Provide easier navigation/multipage structure](https://github.com/brson/rust-api-guidelines/issues/52).
-* [easy] [stdx: Add semver crate](https://github.com/brson/stdx/issues/50).
+* [Rust libz blitz status update 2017/07/14](https://internals.rust-lang.org/t/rust-libz-blitz/5184/120).
+* [gcc: Rename crate](https://github.com/alexcrichton/gcc-rs/issues/186).
+* [gcc: Extract windows_registry module into its own crate](https://github.com/alexcrichton/gcc-rs/issues/174).
+* [gcc: Add panic conditions to various functions](https://github.com/alexcrichton/gcc-rs/issues/181).
+* [gcc: Clarify behavior of `expand`](https://github.com/alexcrichton/gcc-rs/issues/187).
+* [gcc: Rename `Config` type](https://github.com/alexcrichton/gcc-rs/issues/189).
+* [gcc: Add warning control](https://github.com/alexcrichton/gcc-rs/issues/190).
+* [gcc: Add try_compile and try_expand](https://github.com/alexcrichton/gcc-rs/issues/192).
+* [gcc: Mention in the crate docs that this crate also supports assembly](https://github.com/alexcrichton/gcc-rs/issues/193).
+* [gcc: Explain what metadata is emitted by `cargo_metadata`](https://github.com/alexcrichton/gcc-rs/issues/194).
+* [gcc: Document the `rayon` feature](https://github.com/alexcrichton/gcc-rs/issues/196).
+* [gcc: Backward spans are displayed strangely](https://github.com/rust-lang/rust/issues/42104).
+* [rust-cookbook: Add "Extract phone numbers from text" example](https://github.com/brson/rust-cookbook/issues/241).
+* [rust-cookbook: Add "Filter a log file by matching multiple regular expressions" example](https://github.com/brson/rust-cookbook/issues/244).
+* [rust-cookbook: Add "Extract all unique links from a webpage" example](https://github.com/brson/rust-cookbook/issues/245).
+* [rust-cookbook: Use a custom environment variable to set up logging](https://github.com/brson/rust-cookbook/issues/222).
+* [rust-cookbook: Add "Obtain backtrace of complex error scenarios" example](https://github.com/brson/rust-cookbook/issues/216).
+* [rust-cookbook: Add "Avoid discarding errors during error conversions" example](https://github.com/brson/rust-cookbook/issues/215).
+* [semver: Implement serde Serialize/Deserialize for VersionReq](https://github.com/steveklabnik/semver/issues/119).
+* [skeptic: Produce better names for test cases](https://github.com/brson/rust-skeptic/issues/38).
+* [easy] [skeptic: Allow lines that begin with `#!`](https://github.com/brson/rust-skeptic/issues/39).
+* [easy] [rustup: Replace rustup_utils::remove_dir_all with remove_dir_all crate](https://github.com/rust-lang-nursery/rustup.rs/issues/1204).
 * [easy] [stdx: Add encoding_rs crate](https://github.com/brson/stdx/issues/51).
-* [hard] [maud: Port to new proc-macro interface](https://github.com/lfairy/maud/issues/92).
-* [sass-rs: Fix build on OSX and Windows](https://github.com/compass-rs/sass-rs/issues/12).
-* [walkdir: Correct errors in WalkDir type docs](https://github.com/BurntSushi/walkdir/issues/32).
-* [walkdir: Add links to other walkdir items in WalkDirIterator docs](https://github.com/BurntSushi/walkdir/issues/30).
-* [walkdir: Add Error docs to methods that return Result](https://github.com/BurntSushi/walkdir/issues/24).
-* [easy] [rust-url: Modify docs to put error conditions into `Errors` sections](https://github.com/servo/rust-url/issues/314).
-* [easy] [flate2-rs: Rename internal types to match the public types](https://github.com/alexcrichton/flate2-rs/issues/75).
-* [PumpkinDB: "builtins" files don't allow for computed constants](https://github.com/PumpkinDB/PumpkinDB/issues/318).
-* [PumpkinDB: different users would use different naming conventions](https://github.com/PumpkinDB/PumpkinDB/issues/317).
-* [PumpkinDB: numerous mio deprecation notices](https://github.com/PumpkinDB/PumpkinDB/issues/294).
-* [PumpkinDB: lack of synchronization primitives](https://github.com/PumpkinDB/PumpkinDB/issues/115).
-* [PumpkinDB: non-trivial to detect if JSON's value is an integer or a float](https://github.com/PumpkinDB/PumpkinDB/issues/296).
-* [PumpkinDB: integer constants in builtins get interpreted as instructions](https://github.com/PumpkinDB/PumpkinDB/issues/314).
-* [rustup: Fix 'show' displaying UNC paths on windows](https://github.com/rust-lang-nursery/rustup.rs/issues/1177).
-* [easy] [rust-bindgen: Default to generating constified enums, rather than generating Rust enums](https://github.com/servo/rust-bindgen/issues/758).
-* [less-easy] [rust-bindgen: Rewrite `is_unsized` as either a graph traversal or fix-point analysis](https://github.com/servo/rust-bindgen/issues/768).
-* [less-easy] [rust-bindgen: Rewrite `can_derive_debug` as either a graph traversal or fix-point analysis](https://github.com/servo/rust-bindgen/issues/767).
-* [less-easy] [rust-bindgen: Rewrite `can_derive_copy[_in_array]` as either a graph traversal or fix-point analysis](https://github.com/servo/rust-bindgen/issues/766).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -107,9 +110,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* boreeas
-* Kornel
-* oyvindln
+* Luca Barbato
+* Lynn
+* Sam Cappleman-Lynes
+* Valentin Brandl
+* William Brown
+* Yorwba
 
 ## Approved RFCs
 
@@ -117,7 +123,9 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2033: Experimentally add coroutines to Rust](https://github.com/rust-lang/rfcs/pull/2033).
+* [RFC 1937: Allow the `?` operator to be used in `main`, and in `#[test]` functions and doctests](https://github.com/rust-lang/rfcs/pull/1937).
+* [RFC 1969: Prepublication dependencies for Cargo](https://github.com/rust-lang/rfcs/pull/1969).
+* [RFC 1940: Support the `#[must_use]` attribute on arbitrary functions](https://github.com/rust-lang/rfcs/pull/1940).
 
 ## Final Comment Period
 
@@ -127,22 +135,18 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
+* [disposition: merge] [Put the RFCs repo under license terms](https://github.com/rust-lang/rfcs/pull/2044).
 * [disposition: merge] [Tweak object safety rules to allow static dispatch](https://github.com/rust-lang/rfcs/pull/2027).
-* [disposition: merge] [Allow the usage of `use` inside `impl` blocks and `match` blocks](https://github.com/rust-lang/rfcs/pull/1976).
 * [disposition: postpone] [Warn by default when casting a pointer to an integer smaller than usize](https://github.com/rust-lang/rfcs/pull/1782).
 * [disposition: merge] [Amend #1440: allow `const` items to contain drop types](https://github.com/rust-lang/rfcs/pull/1817).
 * [disposition: merge] [Add `extern type` declarations for declaring types from external libraries which have an unknown size/layout](https://github.com/rust-lang/rfcs/pull/1861).
-* [disposition: merge] [Prepublication dependencies for Cargo](https://github.com/rust-lang/rfcs/pull/1969).
-* [disposition: merge] [Support the `#[must_use]` attribute on arbitrary functions](https://github.com/rust-lang/rfcs/pull/1940).
-* [disposition: merge] [Allow the `?` operator to be used in `main`, and in `#[test]` functions and doctests](https://github.com/rust-lang/rfcs/pull/1937).
+* [disposition: merge] [Intra Rustdoc Links](https://github.com/rust-lang/rfcs/pull/1946).
+* [disposition: postpone] [Allow the usage of `use` inside `impl` blocks and `match` blocks](https://github.com/rust-lang/rfcs/pull/1976).
+* [disposition: merge] [Enable nested method calls](https://github.com/rust-lang/rfcs/pull/2025).
 
 ## New RFCs
 
-* [Make unreachable patterns error, not warning](https://github.com/rust-lang/rfcs/pull/2058).
-* [Move "How do we teach this?" before "Detailed design"](https://github.com/rust-lang/rfcs/pull/2059).
-* [Allow destructuring of structs that implement Drop](https://github.com/rust-lang/rfcs/pull/2061).
-* [Add replace and swap functions to RefCell](https://github.com/rust-lang/rfcs/pull/2057).
-* [Allow trivial constraints to appear in where clauses](https://github.com/rust-lang/rfcs/pull/2056).
+* [Infer function signatures from trait declaration into 'impl's](https://github.com/rust-lang/rfcs/pull/2063).
 
 ## Style RFCs
 
@@ -165,17 +169,17 @@ We're happy to mentor these, please reach out to us in #rust-style if you'd like
 
 # Upcoming Events
 
-* [Jul 13. Columbus Rust Society - Monthly Meetup](https://www.meetup.com/columbus-rs/events/240698982/).
-* [Jul 13. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Jul 15. Rust Bangalore - Rust 'ORBL' workshop](https://www.meetup.com/rustox/events/240305692/).
-* [Jul 19. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Jul 19. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Jul 20. Rust DC: Lessons learned integrating Rust with Ruby](https://www.meetup.com/RustDC/events/241110467/).
 * [Jul 20. Mozilla Community Dresden Meetup](https://www.meetup.com/Mozilla-Community-Dresden/events/241302860/).
+* [Jul 24. Triangle Rustaceans - Durham, NC - Hack Night](https://www.meetup.com/triangle-rustaceans/events/241451502/).
+* [Jul 26. Ciudad de México, México - Rust Meetup #6](https://www.meetup.com/es-ES/Rust-MX/events/241026269/).
 * [Jul 26. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Jul 26. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Jul 26. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/241512566/).
 * [Jul 27. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [Aug  2. Rust User Group Cologne - Crate Polishing](http://rust.cologne/2017/08/02/crate-polishing.html).
+* [Aug  2. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Aug  2. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -185,19 +189,17 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Software Engineer, Systems - Buoyant](https://jobs.lever.co/buoyant/7a64f7d1-6fea-40b1-ba52-5ab44802c5f6).
-* [Rust Software Engineer - Remote working available](http://www.headresourcing.com/software-engineer-c-c-rust-remote-working-available-bbbh28438-1496919540).
-* [Senior Research Engineer - Servo at Mozilla](https://careers.mozilla.org/position/gh/727971).
+*No jobs listed for this week.*
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> Unsafe is your friend! It's maybe not a friend like you would invite to your sister's wedding, or the christening of her first-born child. But it's sort of the friend who lives in the country and has a pick-up truck and 37 guns. And so you might not want to hang out with them all the time, but if you need something blown up he is there for you.
+> Good farmers use their bare hands, average farmers use a combine harvester.
 
-— [Simon Heath on game development in Rust (at 38:35 in video)](https://air.mozilla.org/game-developement-in-rust/).
+— [/u/sin2pifx in response](https://www.reddit.com/r/rust/comments/6nqfez/slashdot_reports_on_a_techcrunch_opinion_piece/dkbpulb/) to "Good programmers write C, average programmers write Rust".
 
-Thanks to [G2P](https://users.rust-lang.org/t/twir-quote-of-the-week/328/416) and [David Tolnay](https://users.rust-lang.org/t/twir-quote-of-the-week/328/418) for the suggestion.
+Thanks to [Rushmore](https://users.rust-lang.org/t/twir-quote-of-the-week/328/421) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
