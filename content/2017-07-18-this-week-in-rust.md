@@ -92,7 +92,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
   [also identifiers in patterns no longer cause problems](https://github.com/rust-lang/rust/pull/43224)
 * [revert some SIMD annotations causing problems on PowerPC](https://github.com/rust-lang/rust/pull/43159)
 * [More Rust/RLS integration](https://github.com/rust-lang/rust/pull/42146)
-* [`cargo test` now fails if no tests found](https://github.com/rust-lang/rust/pull/43145)
 * [`cargo` conventions around libs / binaries streamlined](https://github.com/rust-lang/cargo/pull/4259) (epic refactor)
 
 ## New Contributors
