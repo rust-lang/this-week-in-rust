@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [gfx-rs: we need to go lower](http://gfx-rs.github.io/2017/07/24/low-level.html).
+
 # Crate of the Week
 
 This week's crate is [extfsm](https://crates.io/crates/extfsm), a crate to help build finite state machines. Thanks to [Tony P.](https://users.rust-lang.org/u/prz) for the suggestion.
