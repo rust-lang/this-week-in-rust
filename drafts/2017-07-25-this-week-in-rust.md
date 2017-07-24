@@ -122,18 +122,11 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 The RFC style is now the default style in Rustfmt - try it out and let us know what you think!
 
-An interesting issue:
+Currently being discussed:
 
 * [Define short](https://github.com/rust-lang-nursery/fmt-rfcs/issues/47)
+* [Special casing some macros](https://github.com/rust-lang-nursery/fmt-rfcs/issues/86)
 
-Good first issues:
-
-We're happy to mentor these, please reach out to us in #rust-style if you'd like to get involved
-
-* [paths](https://github.com/rust-lang-nursery/fmt-rfcs/issues/69)
-* [simple expressions](https://github.com/rust-lang-nursery/fmt-rfcs/issues/68)
-* [assignment and assignment operators](https://github.com/rust-lang-nursery/fmt-rfcs/issues/67)
-* [control flow](https://github.com/rust-lang-nursery/fmt-rfcs/issues/62)
 
 # Upcoming Events
 
