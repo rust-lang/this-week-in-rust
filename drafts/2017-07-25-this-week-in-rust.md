@@ -32,7 +32,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [extfsm](https://crates.io/crates/extfsm), a crate to help build finite state machines. Thanks to [Tony P.](https://users.rust-lang.org/u/prz) for the suggestion.
+This week's crate is [cute](https://crates.io/crates/cute), a crate containing a macro to allow Python (or Haskell) style
+comprehensions (e.g. `c![x / 2 for x in my_iter if (x & 1) == 0]`). Thanks to [Willi Kappler](https://users.rust-lang.org/u/willi_kappler)
+for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -69,19 +71,27 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-103 pull requests were [merged in the last week][merged]
+110 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-07-10..2017-07-17
+[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-07-17..2017-07-24
 
-* [don't panic, compiler-builtins](https://github.com/rust-lang/rust/pull/43258)
-* [thread-local `pub(restricted)`](https://github.com/rust-lang/rust/pull/43185)
-* [thread-local try-with](https://github.com/rust-lang/rust/pull/43158)
-* [macro parsing improvements](https://github.com/rust-lang/rust/pull/42913) (fixes *a lot* of issues around old macros),
-  [also identifiers in patterns no longer cause problems](https://github.com/rust-lang/rust/pull/43224)
-* [revert some SIMD annotations causing problems on PowerPC](https://github.com/rust-lang/rust/pull/43159)
-* [More Rust/RLS integration](https://github.com/rust-lang/rust/pull/42146)
-* [`cargo test` now fails if no tests found](https://github.com/rust-lang/rust/pull/43145)
-* [`cargo` conventions around libs / binaries streamlined](https://github.com/rust-lang/cargo/pull/4259) (epic refactor)
+* [cloneable `!`](https://github.com/rust-lang/rust/pull/43406)
+* [LLVM 5.0 update (work in progress)](https://github.com/rust-lang/rust/pull/43387)
+* [RELRO support](https://github.com/rust-lang/rust/pull/43170) (hardening technique)
+* [compiler buildins abort on panic](https://github.com/rust-lang/rust/pull/43258)
+* [fix macro spans](https://github.com/rust-lang/rust/pull/43352)
+* [match pattern range cover check fixed](https://github.com/rust-lang/rust/pull/43266)
+* [repr alignment for unions](https://github.com/rust-lang/rust/pull/43274)
+* [support generic lifetime args in method calls](https://github.com/rust-lang/rust/pull/42492)
+* [allow linking of Address Sanitizer to dylibs/cdylibs](https://github.com/rust-lang/rust/pull/42711)
+* [`const fn` {`size_of`, `align_of`}`(_)`](https://github.com/rust-lang/rust/pull/42859)
+* [reduced `#[inline(always)]` annotations](https://github.com/rust-lang/rust/pull/43367) (a good reminder not to overuse them)
+* [JSON error byte positions now always start at the top of the file](https://github.com/rust-lang/rust/pull/42973)
+* [rustbuild is now more eager to build our rust](https://github.com/rust-lang/rust/pull/43096)
+* [some more notes changed to suggestions](https://github.com/rust-lang/rust/pull/42033)
+* [improved error when mistyping `;` as `:`](https://github.com/rust-lang/rust/pull/43096)
+* [more compact message for multiple unused args](https://github.com/rust-lang/rust/pull/43323)
+* [cargo now uses .gitignore-like pattern matching for files/paths](https://github.com/rust-lang/cargo/pull/4270)
 
 ## New Contributors
 
@@ -131,18 +141,11 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 The RFC style is now the default style in Rustfmt - try it out and let us know what you think!
 
-An interesting issue:
+Currently being discussed:
 
 * [Define short](https://github.com/rust-lang-nursery/fmt-rfcs/issues/47)
+* [Special casing some macros](https://github.com/rust-lang-nursery/fmt-rfcs/issues/86)
 
-Good first issues:
-
-We're happy to mentor these, please reach out to us in #rust-style if you'd like to get involved
-
-* [paths](https://github.com/rust-lang-nursery/fmt-rfcs/issues/69)
-* [simple expressions](https://github.com/rust-lang-nursery/fmt-rfcs/issues/68)
-* [assignment and assignment operators](https://github.com/rust-lang-nursery/fmt-rfcs/issues/67)
-* [control flow](https://github.com/rust-lang-nursery/fmt-rfcs/issues/62)
 
 # Upcoming Events
 
