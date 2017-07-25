@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [gfx-rs: we need to go lower](http://gfx-rs.github.io/2017/07/24/low-level.html).
+
 # Crate of the Week
 
 This week's crate is [cute](https://crates.io/crates/cute), a crate containing a macro to allow Python (or Haskell) style
