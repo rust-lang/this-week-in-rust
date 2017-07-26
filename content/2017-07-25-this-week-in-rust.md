@@ -19,14 +19,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.19](https://blog.rust-lang.org/2017/07/20/Rust-1.19.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
 * [Towards a second edition of the compiler](https://internals.rust-lang.org/t/towards-a-second-edition-of-the-compiler/5582).
 * [Introducing PyO3 - Rust bindings for the Python interpreter](https://www.reddit.com/r/rust/comments/6p3rjp/pyo3_python_rust_binding/).
-* [Introducting Tarpaulin - A code coverage tool for Rust](https://xd009642.github.io/2017/07/20/introducting-tarpaulin.html).
+* [Introducting Tarpaulin - a code coverage tool for Rust](https://xd009642.github.io/2017/07/20/introducting-tarpaulin.html).
 * [Measuring test coverage of Rust libraries](https://jbp.io/2017/07/19/measuring-test-coverage-of-rust-programs).
 * [Using Rocket + error_chain for REST APIs in Rust](https://jamesmunns.com/update/2017/07/22/rocket-plus-error-chain.html).
 * [Gfx-rs - the new low-level core](https://gfx-rs.github.io/2017/07/24/low-level.html).
 * [Supporting workspaces in RLS](https://xanewok.github.io/gsoc/2017/supporting-workspaces-in-rls/).
 * [Making Redox self-hosting, status report 3](https://redox-os.org/news/gsoc-self-hosting-3/).
 * [Making of RustDay Mexico City 2017, a RustBridge day](http://blog.community.rs/2017/07/23/rustdaymx-2017.html).
-* [Rain of Rust – How we did it](http://www.rowdymehul.com/rain-of-rust-how-we-did-it/)?
+* [Rain of Rust – how we did it](http://www.rowdymehul.com/rain-of-rust-how-we-did-it/)?
 * [This week in Rust docs 65](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-65).
 * [This week in Redox 26](https://redox-os.org/news/this-week-in-redox-26/).
 
@@ -62,7 +62,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [ion: Builtin argument parser (ie: getopt)](https://github.com/redox-os/ion/issues/361).
 * [ion: More sophisticated matching mechanisms](https://github.com/redox-os/ion/issues/358).
 * [ion: Associative arrays (HashMaps)](https://github.com/redox-os/ion/issues/246).
-* [ion: Syntax discussion: $(), $[], @(), @[], $(())](https://github.com/redox-os/ion/issues/329).
+* [ion: Syntax discussion](https://github.com/redox-os/ion/issues/329).
 * [ion: Functions and variable scopes](https://github.com/redox-os/ion/issues/328).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -175,8 +175,6 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 # Quote of the Week
 
 *No quote was selected for QotW.*
-
-Thanks to [Rushmore](https://users.rust-lang.org/t/twir-quote-of-the-week/328/421) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
