@@ -33,7 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Crate of the Week
 
 This week's crate is [cute](https://crates.io/crates/cute), a crate containing a macro to allow Python (or Haskell) style
-comprehensions (e.g. `c![x / 2 for x in my_iter if (x & 1) == 0]`). Thanks to [Willi Kappler](https://users.rust-lang.org/u/willi_kappler)
+comprehensions (e.g. `c![x / 2, for x in 0..10, if (x & 1) == 0]`). Thanks to [Willi Kappler](https://users.rust-lang.org/u/willi_kappler)
 for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
