@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.19](https://blog.rust-lang.org/2017/07/20/Rust-1.19.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* &#127880;&#127881; [Announcing Rust 1.19](https://blog.rust-lang.org/2017/07/20/Rust-1.19.html). &#127881;&#127880;
 * [Towards a second edition of the compiler](https://internals.rust-lang.org/t/towards-a-second-edition-of-the-compiler/5582).
 * [Introducing PyO3 - Rust bindings for the Python interpreter](https://www.reddit.com/r/rust/comments/6p3rjp/pyo3_python_rust_binding/).
 * [Introducting Tarpaulin - a code coverage tool for Rust](https://xd009642.github.io/2017/07/20/introducting-tarpaulin.html).
