@@ -73,7 +73,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 110 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/issues?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-07-17..2017-07-24
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-07-17..2017-07-24
 
 * [cloneable `!`](https://github.com/rust-lang/rust/pull/43406)
 * [LLVM 5.0 update (work in progress)](https://github.com/rust-lang/rust/pull/43387)
