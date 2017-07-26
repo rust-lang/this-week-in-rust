@@ -47,7 +47,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Call for Proposals is open for Rust Belt Rust 2017 until 7 August](https://cfp.rustfest.eu/events/rustfest-ch).
+* [Call for Proposals is open for Rust Belt Rust 2017 until 1 August](https://cfp.rustfest.eu/events/rustfest-ch).
 * [Get in the swing with the libz blitz contest: Win free tickets to RustFest Zürich](http://blog.rustfest.eu/libz-blitz).
 * [easy] [rust-unic: Expand components/ucd/tests/category_tests.rs](https://github.com/behnam/rust-unic/issues/43).
 * [easy] [rust-bindgen: Stop passing `whitelisted_items` as an argument to the codegen functions, and use ctx.codegen_items() instead](https://github.com/servo/rust-bindgen/issues/838).
