@@ -87,7 +87,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [`const fn` {`size_of`, `align_of`}`(_)`](https://github.com/rust-lang/rust/pull/42859)
 * [reduced `#[inline(always)]` annotations](https://github.com/rust-lang/rust/pull/43367) (a good reminder not to overuse them)
 * [JSON error byte positions now always start at the top of the file](https://github.com/rust-lang/rust/pull/42973)
-* [rustbuild is now more eager to build our rust](https://github.com/rust-lang/rust/pull/43096)
+* [rustbuild is now more eager to build our rust](https://github.com/rust-lang/rust/pull/43059)
 * [some more notes changed to suggestions](https://github.com/rust-lang/rust/pull/42033)
 * [improved error when mistyping `;` as `:`](https://github.com/rust-lang/rust/pull/43096)
 * [more compact message for multiple unused args](https://github.com/rust-lang/rust/pull/43323)
