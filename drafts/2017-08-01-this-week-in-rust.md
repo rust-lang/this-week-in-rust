@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+The [Rust Herald](https://herald.community.rs) has been in testing for a while and after fixing some bugs, is now ready for general use. The Herald is page meant for small news snippets: your new crate, a meetup announcement or some short thoughts on a subject. All posts will be shared through RSS and Twitter.
+
 # Crate of the Week
 
 This week's crate is [cute](https://crates.io/crates/cute), a crate containing a macro to allow Python (or Haskell) style
