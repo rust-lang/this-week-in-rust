@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* The [Rust Herald](https://herald.community.rs) has been in testing for a while and after fixing some bugs, is now ready for general use. The Herald is page meant for small news snippets: your new crate, a meetup announcement or some short thoughts on a subject. All posts will be shared through RSS and Twitter.
+* The [Rust Herald](https://herald.community.rs) has been in testing for a while and after fixing some bugs, is now ready for general use. The Herald is meant for small news snippets: your new crate, a meetup announcement, or some short thoughts on a subject. All posts will be shared through RSS and Twitter.
 * [Announcing the “impl period”, Sep 18 - Dec 17](https://internals.rust-lang.org/t/announcing-the-impl-period-sep-18-dec-17/5676).
 * [Revisiting Rust’s modules](https://aturon.github.io/blog/2017/07/26/revisiting-rusts-modules/). ([Discuss here](https://internals.rust-lang.org/t/revisiting-rusts-modules/5628)).
 * [Announcing the `http` crate](https://users.rust-lang.org/t/announcing-the-http-crate/12123).
