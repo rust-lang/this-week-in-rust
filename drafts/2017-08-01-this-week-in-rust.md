@@ -16,7 +16,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-The [Rust Herald](https://herald.community.rs) has been in testing for a while and after fixing some bugs, is now ready for general use. The Herald is page meant for small news snippets: your new crate, a meetup announcement or some short thoughts on a subject. All posts will be shared through RSS and Twitter.
+* The [Rust Herald](https://herald.community.rs) has been in testing for a while and after fixing some bugs, is now ready for general use. The Herald is page meant for small news snippets: your new crate, a meetup announcement or some short thoughts on a subject. All posts will be shared through RSS and Twitter.
+* [Announcing the “impl period”, Sep 18 - Dec 17](https://internals.rust-lang.org/t/announcing-the-impl-period-sep-18-dec-17/5676).
+* [Revisiting Rust’s modules](https://aturon.github.io/blog/2017/07/26/revisiting-rusts-modules/). ([Discuss here](https://internals.rust-lang.org/t/revisiting-rusts-modules/5628)).
+* [Announcing the `http` crate](https://users.rust-lang.org/t/announcing-the-http-crate/12123).
+* [IntelliJ Rust plugin is now officially supported by JetBrains](https://intellij-rust.github.io/2017/07/31/changelog-47.html).
+* [All contain-rs crates are now in maintenance-mode](https://users.rust-lang.org/t/all-contain-rs-crates-are-now-in-maintenance-mode/12056).
+* [Implementing a bot for Slack in Rust, Rocket and Anterofit - Part 1](https://abishov.com/2017/07/27/hexocat-bot-part-1.html).
+* [Grokking Diesel ORM](https://medium.com/@Buys/grokking-diesel-652cb8886a63).
+* [Parsing NES ROM Headers with nom](https://bheisler.github.io/post/nes-rom-parser-with-nom/).
+* [cortex-m-rtfm v2: simpler, less overhead and more device support](http://blog.japaric.io/rtfm-v2/).
+* [Writing GStreamer applications in Rust](https://coaxion.net/blog/2017/07/writing-gstreamer-applications-in-rust/).
+* [Rust: Not so great for codec implementing](https://codecs.multimedia.cx/?p=1246).
+* [This week in Rust docs 66](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-66).
+* [This week in Redox 27](https://redox-os.org/news/this-week-in-redox-27/).
 
 # Crate of the Week
 
@@ -37,21 +50,27 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [Call for Proposals is open for Rust Belt Rust 2017 until 7 August](http://cfp.rust-belt-rust.com/).
 * [Get in the swing with the libz blitz contest: Win free tickets to RustFest Zürich](http://blog.rustfest.eu/libz-blitz).
-* [easy] [rust-unic: Expand components/ucd/tests/category_tests.rs](https://github.com/behnam/rust-unic/issues/43).
-* [easy] [rust-bindgen: Stop passing `whitelisted_items` as an argument to the codegen functions, and use ctx.codegen_items() instead](https://github.com/servo/rust-bindgen/issues/838).
-* [easy] [rust-bindgen: Document bitfield usage in the users guide](https://github.com/servo/rust-bindgen/issues/818).
-* [easy] [rust-bindgen: Start emitting unions in stable mode](https://github.com/servo/rust-bindgen/issues/832).
-* [rust-corrode: Port Map, IntMap, Set, and IntSet methods from Haskell](https://github.com/tcr/rust-corrode/issues/2).
-* [ion: Better builtin help documentation](https://github.com/redox-os/ion/issues/416).
-* [ion: List of builtins to implement](https://github.com/redox-os/ion/issues/409).
-* [ion: List of methods in Ion](https://github.com/redox-os/ion/issues/441).
-* [ion: Possible algebraic data types / enum support](https://github.com/redox-os/ion/issues/439).
-* [ion: Prompt configuration](https://github.com/redox-os/ion/issues/423).
-* [ion: Builtin argument parser (ie: getopt)](https://github.com/redox-os/ion/issues/361).
-* [ion: More sophisticated matching mechanisms](https://github.com/redox-os/ion/issues/358).
-* [ion: Associative arrays (HashMaps)](https://github.com/redox-os/ion/issues/246).
-* [ion: Syntax discussion](https://github.com/redox-os/ion/issues/329).
-* [ion: Functions and variable scopes](https://github.com/redox-os/ion/issues/328).
+* [less easy] [bindgen: Emitting or deriving trait implementations](https://github.com/rust-lang-nursery/rust-bindgen/issues/886).
+* [less easy] [bindgen: Emit a "manual" implementation of Debug when it cannot be derived](https://github.com/rust-lang-nursery/rust-bindgen/issues/875).
+* [less easy] [bindgen: Derive Hash when we can](https://github.com/rust-lang-nursery/rust-bindgen/issues/876).
+* [less easy] [bindgen: "manually" implement Hash when it cannot be derived](https://github.com/rust-lang-nursery/rust-bindgen/issues/877).
+* [less easy] [bindgen: "manually" implement PartialEq when it cannot be derived](https://github.com/rust-lang-nursery/rust-bindgen/issues/879).
+* [less easy] [bindgen: Derive `Eq` when possible](https://github.com/rust-lang-nursery/rust-bindgen/issues/880).
+* [less easy] [bindgen: "manually" implement Eq when we cannot derive it](https://github.com/rust-lang-nursery/rust-bindgen/issues/881).
+* [less easy] [bindgen: Derive PartialOrd when possible](https://github.com/rust-lang-nursery/rust-bindgen/issues/882).
+* [less easy] [bindgen: "manually" implement PartialOrd when we cannot derive it](https://github.com/rust-lang-nursery/rust-bindgen/issues/883).
+* [less easy] [bindgen: Derive Ord when possible](https://github.com/rust-lang-nursery/rust-bindgen/issues/884).
+* [less easy] [bindgen: "manually" implement Ord when we cannot derive it](https://github.com/rust-lang-nursery/rust-bindgen/issues/885).
+* [doc] [same-file: Note why `Handle` methods in `win` won't panic](https://github.com/BurntSushi/same-file/issues/8). `same-file` is a cross platform Rust library for checking whether two file paths are the same file.
+* [easy] [same-file: Add `html_root` attribute](https://github.com/BurntSushi/same-file/issues/12).
+* [doc] [same-file: Note that `dev` and `ino` methods are unix only](https://github.com/BurntSushi/same-file/issues/14).
+* [doc] [same-file: Note why `Handle` methods in `unix` won't panic](https://github.com/BurntSushi/same-file/issues/7).
+* [doc] [same-file: Clarify Approach to comparing files in docs](https://github.com/BurntSushi/same-file/issues/2).
+* [walkdir: Implement `Clone` for `WalkDir`](https://github.com/BurntSushi/walkdir/issues/54). Walkdir is a Rust library for walking directories recursively.
+* [doc] [rust-ffi-guide: Make the book more consistent](https://github.com/Michael-F-Bryan/rust-ffi-guide/issues/8).
+* [easy] [ggez: Input doesn't work on mac using tmux and iterm2](https://github.com/ggez/ggez/issues/30). ggez is a Rust library to create good games easily.
+* [easy] [ggez: SDL controller input doesn't work](https://github.com/ggez/ggez/issues/35).
+* [doc] [ggez: Finish full building-and-install docs for each platform](https://github.com/ggez/ggez/issues/118).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -83,12 +102,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Bruce Mitchener
-* Evan Cameron
-* Jacques-Henri Jourdan
-* Joe Ranweiler
-* Others
-* Perry Fraser
+* Daiki Mizukami
+* Danek Duvall
+* Isaac van Bakel
+* Joshua Liebow-Feeser
+* MaulingMonkey
+* Richard Dodd
 
 ## Approved RFCs
 
@@ -96,10 +115,9 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2044: Put the RFCs repo under license terms](https://github.com/rust-lang/rfcs/pull/2044).
-* [RFC 1946: Intra Rustdoc Links](https://github.com/rust-lang/rfcs/pull/1946).
-* [RFC 1861: Add `extern type` declarations for declaring types from external libraries which have an unknown size/layout](https://github.com/rust-lang/rfcs/pull/1861).
-* [Amend #1440: allow `const` items to contain drop types](https://github.com/rust-lang/rfcs/pull/1817).
+* [RFC 2027: Tweak object safety rules to allow static dispatch](https://github.com/rust-lang/rfcs/pull/2027).
+* [RFC 2057: Add replace and swap functions to RefCell](https://github.com/rust-lang/rfcs/pull/2057).
+* ["Guide-level" and "Reference-level" explanations to replace how we teach and detailed design sections](https://github.com/rust-lang/rfcs/pull/2059).
 
 ## Final Comment Period
 
@@ -109,19 +127,21 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [disposition: merge] ["Guide-level" and "Reference-level" explanations to replace how we teach and detailed design sections](https://github.com/rust-lang/rfcs/pull/2059).
-* [disposition: merge] [Add replace and swap functions to RefCell](https://github.com/rust-lang/rfcs/pull/2057).
 * [disposition: merge] [Generic associated types (associated type constructors)](https://github.com/rust-lang/rfcs/pull/1598).
-* [disposition: postpone] [Eager expansion of macros](https://github.com/rust-lang/rfcs/pull/1628).
+* [disposition: merge] [Unsafe pointer methods](https://github.com/rust-lang/rfcs/pull/1966).
 * [disposition: merge] [Allow an optional vert at the beginning of a match branch](https://github.com/rust-lang/rfcs/pull/1925).
+* [disposition: postpone] [Eager expansion of macros](https://github.com/rust-lang/rfcs/pull/1628).
 * [disposition: merge] [Future-proofing enums/structs with `#[non_exhaustive]` attribute](https://github.com/rust-lang/rfcs/pull/2008).
 * [disposition: merge] [Enable nested method calls](https://github.com/rust-lang/rfcs/pull/2025).
-* [disposition: merge] [Tweak object safety rules to allow static dispatch](https://github.com/rust-lang/rfcs/pull/2027).
 
 ## New RFCs
 
-* [stable mechanism to specify the behavior of panic! in no-std applications](https://github.com/rust-lang/rfcs/pull/2070).
-* [Add impl Trait type alias and variable declarations](https://github.com/rust-lang/rfcs/pull/2071).
+* [Automatically usable external crates](https://github.com/rust-lang/rfcs/pull/2088).
+* [Implied bounds](https://github.com/rust-lang/rfcs/pull/2089).
+* [Semantic inlining (another try to the unwrap/expect line info problem)](https://github.com/rust-lang/rfcs/pull/2091).
+* [Allow Irrefutable Patterns in if-let and while-let statements](https://github.com/rust-lang/rfcs/pull/2086).
+* [Warning on tautology in if or while statements](https://github.com/rust-lang/rfcs/pull/2087).
+* [Add `std::net::MacAddr48` to `std::net`](https://github.com/rust-lang/rfcs/pull/2082).
 
 ## Style RFCs
 
@@ -137,16 +157,16 @@ Currently being discussed:
 
 # Upcoming Events
 
-* [Jul 27. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Aug  2. Rust User Group Cologne - Crate Polishing](http://rust.cologne/2017/08/02/crate-polishing.html).
-* [Aug  2. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Aug  2. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Aug  7. Rust Belt Rust 2017 CFP deadline](http://cfp.rust-belt-rust.com/).
 * [Aug  9. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Aug  9. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Aug  9. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/krnczlywlbmb/).
 * [Aug 10. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Aug 10. Columbus Rust Society - Monthly meetup](https://www.meetup.com/columbus-rs/events/czcwhlywlbnb/).
+* [Aug 14. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/241535500/).
+* [Aug 16. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Aug 16. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* **[Aug 18-19. RustConf 2017](http://rustconf.com/)**.
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
