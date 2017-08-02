@@ -33,7 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [tarpaulin](https://crates.io/crates/cargo-tarpaulin), a crate to collect test coverage of your Rust code. Thanks to [Colin Kriegel](https://users.rust-lang.org/u/colin_kriegel)
+This week's crate is [tarpaulin](https://crates.io/crates/cargo-tarpaulin), a crate to collect test coverage of your Rust code. Thanks to [Colin Kiegel](https://users.rust-lang.org/u/colin_kiegel)
 for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
