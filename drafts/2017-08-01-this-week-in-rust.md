@@ -33,8 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [cute](https://crates.io/crates/cute), a crate containing a macro to allow Python (or Haskell) style
-comprehensions (e.g. `c![x / 2 for x in my_iter if (x & 1) == 0]`). Thanks to [Willi Kappler](https://users.rust-lang.org/u/willi_kappler)
+This week's crate is [tarpaulin](https://crates.io/crates/tarpaulin), a crate to collect test coverage of your Rust code. Thanks to [Colin Kriegel](https://users.rust-lang.org/u/colin_kriegel)
 for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
@@ -78,27 +77,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-110 pull requests were [merged in the last week][merged]
+146 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-07-17..2017-07-24
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-07-24..2017-07-31
 
-* [cloneable `!`](https://github.com/rust-lang/rust/pull/43406)
-* [LLVM 5.0 update (work in progress)](https://github.com/rust-lang/rust/pull/43387)
-* [RELRO support](https://github.com/rust-lang/rust/pull/43170) (hardening technique)
-* [compiler buildins abort on panic](https://github.com/rust-lang/rust/pull/43258)
-* [fix macro spans](https://github.com/rust-lang/rust/pull/43352)
-* [match pattern range cover check fixed](https://github.com/rust-lang/rust/pull/43266)
-* [repr alignment for unions](https://github.com/rust-lang/rust/pull/43274)
-* [support generic lifetime args in method calls](https://github.com/rust-lang/rust/pull/42492)
-* [allow linking of Address Sanitizer to dylibs/cdylibs](https://github.com/rust-lang/rust/pull/42711)
-* [`const fn` {`size_of`, `align_of`}`(_)`](https://github.com/rust-lang/rust/pull/42859)
-* [reduced `#[inline(always)]` annotations](https://github.com/rust-lang/rust/pull/43367) (a good reminder not to overuse them)
-* [JSON error byte positions now always start at the top of the file](https://github.com/rust-lang/rust/pull/42973)
-* [rustbuild is now more eager to build our rust](https://github.com/rust-lang/rust/pull/43096)
-* [some more notes changed to suggestions](https://github.com/rust-lang/rust/pull/42033)
-* [improved error when mistyping `;` as `:`](https://github.com/rust-lang/rust/pull/43096)
-* [more compact message for multiple unused args](https://github.com/rust-lang/rust/pull/43323)
-* [cargo now uses .gitignore-like pattern matching for files/paths](https://github.com/rust-lang/cargo/pull/4270)
+* [1.20 stabilizations](https://github.com/rust-lang/rust/pull/43373)
+* [Better diagnostics and recovery for `mut ref` in patterns](https://github.com/rust-lang/rust/pull/43489)
+* [Point at path segment on module not found](https://github.com/rust-lang/rust/pull/43447)
+* [proc macros keep more span information](https://github.com/rust-lang/rust/pull/43230)
+* [simplify syntax path parsing](https://github.com/rust-lang/rust/pull/43438)
+* [no more `-Z` in stable `--help`](https://github.com/rust-lang/rust/pull/43556) (the option was removed from stable in 1.19.0)
+* [fix `-Z verbose` region printing](https://github.com/rust-lang/rust/pull/43458)
+* [save subobligations in projection cache](https://github.com/rust-lang/rust/pull/43546)
+* [Improve checking of conflicting packed and align representation hints on structs and unions](https://github.com/rust-lang/rust/pull/43443)
+* [ARM hard-float supports homogeneous aggregates](https://github.com/rust-lang/rust/pull/43518)
+* [rustdoc: link `[src]` of associated `fn`s in `impl`s](https://github.com/rust-lang/rust/pull/43509)
+* [rustdoc: print associated types in traits "implementors" section](https://github.com/rust-lang/rust/pull/43515)
+* [rustdoc: add unions to whitelist of sidebar types](https://github.com/rust-lang/rust/pull/43446)
+* [cargo now applies `--all` on virtual workspaces](https://github.com/rust-lang/cargo/pull/4335)
+
 
 ## New Contributors
 
