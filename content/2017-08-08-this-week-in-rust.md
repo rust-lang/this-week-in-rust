@@ -16,6 +16,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Revisiting Rust’s modules, part 2](https://internals.rust-lang.org/t/revisiting-rust-s-modules-part-2/5700).
+* [RustFest 2017: Supporter tickets on-sale, diversity ticket applications open](http://blog.rustfest.eu/this-week-in-rustfest-5-tickets-diversity).
+* [JetBrains announces official support for Rust plugin for IntelliJ IDEA, CLion, and other JetBrains IDEs](https://blog.jetbrains.com/blog/2017/08/04/official-support-for-open-source-rust-plugin-for-intellij-idea-clion-and-other-jetbrains-ides/).
+* [Building a mobile app in Rust and React Native - part 1](https://medium.com/@marekkotewicz/building-a-mobile-app-in-rust-and-react-native-part-1-project-setup-b8dbcf3f539f).
+* [Asynchronous Rust: complaints & suggestions](https://pro.theta.eu.org/2017/08/04/async-rust.html).
+* [A Stratego interpreter in Rust](http://blog.jeffsmits.net/compsci/2017/08/06/a-stratego-interpreter-in-rust/). Building a faster interpreter for an old language in Rust.
+* [Compile-time safety is for everybody](https://www.tockos.org/blog/2017/apsys-paper/). Follow-up to [Ownership is theft](http://amitlevy.com/papers/tock-plos2015.pdf).
+* [Fearless concurrency with hazard pointers](https://ticki.github.io/blog/fearless-concurrency-with-hazard-pointers/).
+* [Scrapmetal — Scrap your Rust boilerplate](http://fitzgeraldnick.com/2017/08/03/scrapmetal.html).
+* [Rust: Optimising decoder experience](https://codecs.multimedia.cx/2017/08/rust-optimising-decoder-experience/). Follow-up to [Rust: Not so great for codec implementing](https://codecs.multimedia.cx/?p=1246).
+* [This week in Rust docs 67](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-67).
+
 # Crate of the Week
 
 This week's crate is [aesni](https://crates.io/crates/aesni), a crate providing a Rust AES (Rijndael) block ciphers
@@ -32,11 +44,17 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Ticket sale for RustFest Zürich has started](http://blog.rustfest.eu/this-week-in-rustfest-5-tickets-diversity)
-* [Get in the swing with the libz blitz contest: Win free tickets to RustFest Zürich](http://blog.rustfest.eu/libz-blitz).
+* [PumpkinDB: Rust nightly after 2017-06-20 affects benchmarks negatively](https://github.com/PumpkinDB/PumpkinDB/issues/345). ([Discuss here](https://gitter.im/PumpkinDB/Lobby)).
+* [easy] [gimli: Improve error handling in dwarfdump](https://github.com/gimli-rs/gimli/issues/231). gimli is a lazy, zero-copy parser for the DWARF debugging format.
+* [wayland-window: Add control buttons](https://github.com/Smithay/wayland-window/issues/4).
+* [wayland-window: Make borders prettier](https://github.com/Smithay/wayland-window/issues/19).
+* [doc] [lyon: API guidelines: methods on collections that produce iterators follow the iter, iter_mut, into_iter conventions](https://github.com/nical/lyon/issues/86). Lyon is a GPU-based 2D graphics rendering engine in Rust.
+* [doc] [lyon: API guidelines: ad-hoc conversions follow as_, to_, into_ conventions](https://github.com/nical/lyon/issues/85).
+* [doc] [lyon: API guidelines: iterator type names should match the methods that produce them](https://github.com/nical/lyon/issues/87).
+* [doc] [lyon: API guidelines: return error type from functions instead of empty struct](https://github.com/nical/lyon/issues/88).
+* [medium] [lyon: Implement clipping line joins at the miter limit](https://github.com/nical/lyon/issues/35).
 * [less easy] [bindgen: Emitting or deriving trait implementations](https://github.com/rust-lang-nursery/rust-bindgen/issues/886).
 * [less easy] [bindgen: Emit a "manual" implementation of Debug when it cannot be derived](https://github.com/rust-lang-nursery/rust-bindgen/issues/875).
-* [less easy] [bindgen: Derive Hash when we can](https://github.com/rust-lang-nursery/rust-bindgen/issues/876).
 * [less easy] [bindgen: "manually" implement Hash when it cannot be derived](https://github.com/rust-lang-nursery/rust-bindgen/issues/877).
 * [less easy] [bindgen: "manually" implement PartialEq when it cannot be derived](https://github.com/rust-lang-nursery/rust-bindgen/issues/879).
 * [less easy] [bindgen: Derive `Eq` when possible](https://github.com/rust-lang-nursery/rust-bindgen/issues/880).
@@ -45,12 +63,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [less easy] [bindgen: "manually" implement PartialOrd when we cannot derive it](https://github.com/rust-lang-nursery/rust-bindgen/issues/883).
 * [less easy] [bindgen: Derive Ord when possible](https://github.com/rust-lang-nursery/rust-bindgen/issues/884).
 * [less easy] [bindgen: "manually" implement Ord when we cannot derive it](https://github.com/rust-lang-nursery/rust-bindgen/issues/885).
-* [doc] [same-file: Note why `Handle` methods in `win` won't panic](https://github.com/BurntSushi/same-file/issues/8). `same-file` is a cross platform Rust library for checking whether two file paths are the same file.
-* [easy] [same-file: Add `html_root` attribute](https://github.com/BurntSushi/same-file/issues/12).
-* [doc] [same-file: Note that `dev` and `ino` methods are unix only](https://github.com/BurntSushi/same-file/issues/14).
-* [doc] [same-file: Note why `Handle` methods in `unix` won't panic](https://github.com/BurntSushi/same-file/issues/7).
-* [doc] [same-file: Clarify Approach to comparing files in docs](https://github.com/BurntSushi/same-file/issues/2).
-* [walkdir: Implement `Clone` for `WalkDir`](https://github.com/BurntSushi/walkdir/issues/54). Walkdir is a Rust library for walking directories recursively.
 * [doc] [rust-ffi-guide: Make the book more consistent](https://github.com/Michael-F-Bryan/rust-ffi-guide/issues/8).
 * [easy] [ggez: Input doesn't work on mac using tmux and iterm2](https://github.com/ggez/ggez/issues/30). ggez is a Rust library to create good games easily.
 * [easy] [ggez: SDL controller input doesn't work](https://github.com/ggez/ggez/issues/35).
@@ -86,12 +98,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Daiki Mizukami
-* Danek Duvall
-* Isaac van Bakel
-* Joshua Liebow-Feeser
-* MaulingMonkey
-* Richard Dodd
+* Eric Daniels
+* Mario Idival
+* Ryan Leckey
+* scalexm
+* Tobias Schaffner
+* Tymoteusz Jankowski
 
 ## Approved RFCs
 
@@ -99,9 +111,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2027: Tweak object safety rules to allow static dispatch](https://github.com/rust-lang/rfcs/pull/2027).
-* [RFC 2057: Add replace and swap functions to RefCell](https://github.com/rust-lang/rfcs/pull/2057).
-* ["Guide-level" and "Reference-level" explanations to replace how we teach and detailed design sections](https://github.com/rust-lang/rfcs/pull/2059).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -111,21 +121,21 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [disposition: merge] [Generic associated types (associated type constructors)](https://github.com/rust-lang/rfcs/pull/1598).
-* [disposition: merge] [Unsafe pointer methods](https://github.com/rust-lang/rfcs/pull/1966).
 * [disposition: merge] [Allow an optional vert at the beginning of a match branch](https://github.com/rust-lang/rfcs/pull/1925).
-* [disposition: postpone] [Eager expansion of macros](https://github.com/rust-lang/rfcs/pull/1628).
+* [disposition: merge] [Unsafe pointer methods](https://github.com/rust-lang/rfcs/pull/1966).
+* [disposition: merge] [Amend RFC 1242 to require an RFC for deprecation of crates from the nursery](https://github.com/rust-lang/rfcs/pull/1983).
+* [disposition: close] [Match branch semicolon](https://github.com/rust-lang/rfcs/pull/1994).
 * [disposition: merge] [Future-proofing enums/structs with `#[non_exhaustive]` attribute](https://github.com/rust-lang/rfcs/pull/2008).
 * [disposition: merge] [Enable nested method calls](https://github.com/rust-lang/rfcs/pull/2025).
+* [disposition: close] [Zero-Sized References](https://github.com/rust-lang/rfcs/pull/2040).
+* [disposition: merge] [Evolving Rust through checkpoints](https://github.com/rust-lang/rfcs/pull/2052).
+* [disposition: close] [Allow use of pipe operator in patterns](https://github.com/rust-lang/rfcs/pull/1882).
+* [disposition: merge] [Generic associated types (associated type constructors)](https://github.com/rust-lang/rfcs/pull/1598).
 
 ## New RFCs
 
-* [Automatically usable external crates](https://github.com/rust-lang/rfcs/pull/2088).
-* [Implied bounds](https://github.com/rust-lang/rfcs/pull/2089).
-* [Semantic inlining (another try to the unwrap/expect line info problem)](https://github.com/rust-lang/rfcs/pull/2091).
-* [Allow Irrefutable Patterns in if-let and while-let statements](https://github.com/rust-lang/rfcs/pull/2086).
-* [Warning on tautology in if or while statements](https://github.com/rust-lang/rfcs/pull/2087).
-* [Add `std::net::MacAddr48` to `std::net`](https://github.com/rust-lang/rfcs/pull/2082).
+* [Non-lexical lifetimes](https://github.com/rust-lang/rfcs/pull/2094).
+* [Infer `T: 'x` outlives requirements on structs](https://github.com/rust-lang/rfcs/pull/2093).
 
 ## Style RFCs
 
@@ -138,19 +148,19 @@ Currently being discussed:
 * [Define short](https://github.com/rust-lang-nursery/fmt-rfcs/issues/47)
 * [Special casing some macros](https://github.com/rust-lang-nursery/fmt-rfcs/issues/86)
 
-
 # Upcoming Events
 
-* [Aug  7. Rust Belt Rust 2017 CFP deadline](http://cfp.rust-belt-rust.com/).
-* [Aug  9. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Aug  9. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [Aug  9. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/krnczlywlbmb/).
 * [Aug 10. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Aug 10. Columbus Rust Society - Monthly meetup](https://www.meetup.com/columbus-rs/events/czcwhlywlbnb/).
 * [Aug 14. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/241535500/).
 * [Aug 16. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Aug 16. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * **[Aug 18-19. RustConf 2017](http://rustconf.com/)**.
+* [Aug 23. GOTO Night Berlin: Modern low level - Rust in 2017](https://www.meetup.com/GOTO-Nights-Berlin/events/241544422/).
+* [Aug 23. OpenTechSchool Berlin: Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/242277432/).
+* [Aug 23. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Aug 23. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Aug 24. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -160,13 +170,19 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust developer at SparkTG India](https://twitter.com/by1x/status/887653738252451840).
+*No jobs listed for this week.*
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> Nah, it's not you, it's the borrow checker.
+>> Honey, it's not you, it's &mut me.
+>>> You can borrow me, and you can change me, but you can't own me.
+
+— [/u/staticassert, /u/ybx, and /u/paholg on reddit](https://www.reddit.com/r/rust/comments/6s8vhg/how_do_i_do_if_let_somex_selfbla_selfdobla/dlazidp/).
+
+Thanks to [Matt Ickstadt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/428) and [QuadDamaged](https://users.rust-lang.org/t/twir-quote-of-the-week/328/429) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
