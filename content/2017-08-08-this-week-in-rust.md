@@ -76,7 +76,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 105 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-07-31..2017-07-07
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-07-31..2017-08-07
 
 * [rewrite large float math in Rust and use it for stable compile-time evaluation](https://github.com/rust-lang/rust/pull/43554)
 * [borrowck: skip CFG construction when there is nothing to propagate](https://github.com/rust-lang/rust/pull/43547) (awesome memory savings)
