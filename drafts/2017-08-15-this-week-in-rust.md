@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* Announcing [Rusty Object Notation](https://kvark.github.io/format/data/json/2017/08/09/rusty-object-notation.html).
+
 # Crate of the Week
 
 This week's crate is [aesni](https://crates.io/crates/aesni), a crate providing a Rust AES (Rijndael) block ciphers
