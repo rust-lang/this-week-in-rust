@@ -18,8 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [tarpaulin](https://crates.io/crates/tarpaulin), a crate to collect test coverage of your Rust code. Thanks to [Colin Kriegel](https://users.rust-lang.org/u/colin_kriegel)
-for the suggestion.
+This week's crate is [aesni](https://crates.io/crates/aesni), a crate providing a Rust AES (Rijndael) block ciphers
+implementation using AES-NI. Thanks to [newpavlov](https://users.rust-lang.org/u/newpavlov) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -62,25 +62,27 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-146 pull requests were [merged in the last week][merged]
+105 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-07-24..2017-07-31
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-07-31..2017-07-07
 
-* [1.20 stabilizations](https://github.com/rust-lang/rust/pull/43373)
-* [Better diagnostics and recovery for `mut ref` in patterns](https://github.com/rust-lang/rust/pull/43489)
-* [Point at path segment on module not found](https://github.com/rust-lang/rust/pull/43447)
-* [proc macros keep more span information](https://github.com/rust-lang/rust/pull/43230)
-* [simplify syntax path parsing](https://github.com/rust-lang/rust/pull/43438)
-* [no more `-Z` in stable `--help`](https://github.com/rust-lang/rust/pull/43556) (the option was removed from stable in 1.19.0)
-* [fix `-Z verbose` region printing](https://github.com/rust-lang/rust/pull/43458)
-* [save subobligations in projection cache](https://github.com/rust-lang/rust/pull/43546)
-* [Improve checking of conflicting packed and align representation hints on structs and unions](https://github.com/rust-lang/rust/pull/43443)
-* [ARM hard-float supports homogeneous aggregates](https://github.com/rust-lang/rust/pull/43518)
-* [rustdoc: link `[src]` of associated `fn`s in `impl`s](https://github.com/rust-lang/rust/pull/43509)
-* [rustdoc: print associated types in traits "implementors" section](https://github.com/rust-lang/rust/pull/43515)
-* [rustdoc: add unions to whitelist of sidebar types](https://github.com/rust-lang/rust/pull/43446)
-* [cargo now applies `--all` on virtual workspaces](https://github.com/rust-lang/cargo/pull/4335)
-
+* [rewrite large float math in Rust and use it for stable compile-time evaluation](https://github.com/rust-lang/rust/pull/43554)
+* [borrowck: skip CFG construction when there is nothing to propagate](https://github.com/rust-lang/rust/pull/43547) (awesome memory savings)
+* [cycle-free dependency graph](https://github.com/rust-lang/rust/pull/43590)
+* [fix instability in import suggestions](https://github.com/rust-lang/rust/pull/43552) (alas, re-exports still aren't correctly filtered)
+* [fix quadratic performance on `use` statements](https://github.com/rust-lang/rust/pull/43584)
+* [save-analysis fixes](https://github.com/rust-lang/rust/pull/43533)
+* [save subobligations in the projection cache](https://github.com/rust-lang/rust/pull/43546)
+* [don't warn on unused `union` fields](https://github.com/rust-lang/rust/pull/43397)
+* [error code & explanation for calling private methods from outside](https://github.com/rust-lang/rust/pull/43699)
+* [improve error message for trying static dispatch on trait object](https://github.com/rust-lang/rust/pull/43600)
+* [the case of the missing error codes](https://github.com/rust-lang/rust/pull/43709)
+* [{`StdIn`, `StdOut`, `StdErr`}`.as_raw_fd()`](https://github.com/rust-lang/rust/pull/43459)
+* [MIR Validate statement](https://github.com/rust-lang/rust/pull/43403) (hook for unsafe code guidelines validation via miri)
+* [MIR don't build unused unwind cleanup blocks](https://github.com/rust-lang/rust/pull/43576)
+* [MIR trans no longer ICEs on assignment errors](https://github.com/rust-lang/rust/pull/43568)
+* [more parallelization between trans and LLVM](https://github.com/rust-lang/rust/pull/43506)
+* [inline bitwise modification ops](https://github.com/rust-lang/rust/pull/43581)
 
 ## New Contributors
 
