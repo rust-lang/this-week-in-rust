@@ -32,7 +32,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Call for Proposals is open for Rust Belt Rust 2017 until 7 August](http://cfp.rust-belt-rust.com/).
+* [Ticket sale for RustFest Zürich has started](http://blog.rustfest.eu/this-week-in-rustfest-5-tickets-diversity)
 * [Get in the swing with the libz blitz contest: Win free tickets to RustFest Zürich](http://blog.rustfest.eu/libz-blitz).
 * [less easy] [bindgen: Emitting or deriving trait implementations](https://github.com/rust-lang-nursery/rust-bindgen/issues/886).
 * [less easy] [bindgen: Emit a "manual" implementation of Debug when it cannot be derived](https://github.com/rust-lang-nursery/rust-bindgen/issues/875).
