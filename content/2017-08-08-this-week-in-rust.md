@@ -22,6 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Building a mobile app in Rust and React Native - part 1](https://medium.com/@marekkotewicz/building-a-mobile-app-in-rust-and-react-native-part-1-project-setup-b8dbcf3f539f).
 * [Asynchronous Rust: complaints & suggestions](https://pro.theta.eu.org/2017/08/04/async-rust.html).
 * [A Stratego interpreter in Rust](http://blog.jeffsmits.net/compsci/2017/08/06/a-stratego-interpreter-in-rust/). Building a faster interpreter for an old language in Rust.
+* [Evolution of a simple `du -s` clone](https://durka.github.io/blog/2017/08/06/du-evolution.html).
 * [Compile-time safety is for everybody](https://www.tockos.org/blog/2017/apsys-paper/). Follow-up to [Ownership is theft](http://amitlevy.com/papers/tock-plos2015.pdf).
 * [Fearless concurrency with hazard pointers](https://ticki.github.io/blog/fearless-concurrency-with-hazard-pointers/).
 * [Scrapmetal — Scrap your Rust boilerplate](http://fitzgeraldnick.com/2017/08/03/scrapmetal.html).
