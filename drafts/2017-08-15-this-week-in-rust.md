@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Evolution of a simple `du -s` clone](https://durka.github.io/blog/2017/08/06/du-evolution.html).
 
 # Crate of the Week
 
