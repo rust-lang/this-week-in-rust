@@ -136,6 +136,49 @@ Currently being discussed:
 * [Define short](https://github.com/rust-lang-nursery/fmt-rfcs/issues/47)
 * [Special casing some macros](https://github.com/rust-lang-nursery/fmt-rfcs/issues/86)
 
+# These Weeks in Dev-tools
+
+The dev-tools team published their first issue of [these weeks in dev-tools](https://www.ncameron.org/blog/these-weeks-in-dev-tools-issue-1/).
+
+These Weeks in Dev-Tools will keep you up to date with all the exciting
+dev-tools news. We plan to have a new issue every few weeks. If you have any news
+you'd like us to report, please comment on our [tracking issue](https://github.com/nrc/dev-tools-team/issues/25).
+
+Summary of dev-tools news:
+
+* Announced and released the [RLS Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
+* [Clippy](https://github.com/rust-lang-nursery/rust-clippy) and [Bindgen](https://github.com/rust-lang-nursery/rust-bindgen) moved into the [rust-lang nursery]()
+* [Rust IntelliJ support is official!](https://blog.jetbrains.com/blog/2017/08/04/official-support-for-open-source-rust-plugin-for-intellij-idea-clion-and-other-jetbrains-ides/)
+* Blog post - [one environment to rule them all](https://xanewok.github.io/gsoc/2017/one-environment-to-rule-them-all/) - how the RLS handle environment variables by Xanewok
+  - Xanewok also has a few other [blog posts](https://xanewok.github.io/gsoc/) about his GSoC project working on the RLS
+* Blog post - [what the RLS can do](http://www.ncameron.org/blog/what-the-rls-can-do/) by nrc
+* [Bindgen](https://github.com/rust-lang-nursery/rust-bindgen) - lots happened!
+
+## Releases
+
+* [Rustfmt](https://crates.io/crates/rustfmt-nightly) 0.2 and 0.2.1
+* [RLS Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
+  0.1, 0.2.0, 0.2.1: [changelog](https://github.com/rust-lang-nursery/rls-vscode/blob/master/CHANGELOG.md)
+* [Racer](https://github.com/racer-rust/racer) 2.0.10 [changelog](https://github.com/racer-rust/racer/blob/master/CHANGELOG.md#2010)
+* [Bindgen](https://github.com/rust-lang-nursery/rust-bindgen) 0.29.0 [announcement](https://users.rust-lang.org/t/bindgen-automatically-generate-rust-ffi-bindings-to-c-and-c-libraries/12126)
+* [IntelliJ Rust](https://github.com/intellij-rust/intellij-rust) #48 [changelog](https://intellij-rust.github.io/2017/08/07/changelog-48.html)
+* [cargo-edit](https://github.com/killercup/cargo-edit) 0.2 [release notes](https://github.com/killercup/cargo-edit/releases/tag/v0.2.0)
+
+
+## RFCs
+
+* [Add external doc attribute to rustc](https://github.com/rust-lang/rfcs/pull/1990) has been proposed to enter FCP
+
+
+## Thanks!
+
+* [@photoszzt](https://github.com/photoszzt) has been re-writing various ad-hoc computations into fix-point analyses in Bindgen:
+* @topecongiro for doing sustained, impressive work on Rustfmt.
+* Shout out to @TedDriggs for continuing to push Racer forward.
+
+
+See [the full issue](https://www.ncameron.org/blog/these-weeks-in-dev-tools-issue-1/) for more.
+
 # Upcoming Events
 
 * [Aug 10. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
