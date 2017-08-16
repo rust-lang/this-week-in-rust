@@ -17,7 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 [REST Calls Made Rustic: RS-ES in Idiomatic Rust Tutorial](https://qbox.io/blog/elasticsearch-rest-client-idiomatic-rust-tutorial)
-and [User-Friendly Elasticsearch Queries with Rust and Elastic](https://qbox.io/blog/elasticsearch-rest-client-idiomatic-rust-tutorial)
+and [User-Friendly Elasticsearch Queries with Rust and Elastic](https://qbox.io/blog/elasticsearch-rest-client-idiomatic-rust-tutorial).
 Two recent blog posts about using Rust and Elasticsearch together.
 
 # Crate of the Week
