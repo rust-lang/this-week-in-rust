@@ -14,7 +14,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-## News & Blog Posts
+## News & Blog Posts  
+* [Implementing a bot for Slack in Rust, Rocket and Anterofit - Part 2](https://abishov.com/2017/08/08/hexocat-bot-part-2.html).
+
 * [Evolution of a simple `du -s` clone](https://durka.github.io/blog/2017/08/06/du-evolution.html).
 
 * Announcing [Rusty Object Notation](https://kvark.github.io/format/data/json/2017/08/09/rusty-object-notation.html).
