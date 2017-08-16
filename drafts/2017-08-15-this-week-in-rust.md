@@ -19,6 +19,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * Announcing [Rusty Object Notation](https://kvark.github.io/format/data/json/2017/08/09/rusty-object-notation.html).
 
+[REST Calls Made Rustic: RS-ES in Idiomatic Rust Tutorial](https://qbox.io/blog/elasticsearch-rest-client-idiomatic-rust-tutorial)
+and [User-Friendly Elasticsearch Queries with Rust and Elastic](https://qbox.io/blog/elasticsearch-rest-client-idiomatic-rust-tutorial).
+Two recent blog posts about using Rust and Elasticsearch together.
+
 # Crate of the Week
 
 This week's crate is [exa](https://the.exa.website), a modern `ls` replacement (with a `tree` thrown in as well) written in Rust. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion.
