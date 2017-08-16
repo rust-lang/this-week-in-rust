@@ -15,15 +15,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts  
-* [Implementing a bot for Slack in Rust, Rocket and Anterofit - Part 2](https://abishov.com/2017/08/08/hexocat-bot-part-2.html).
-
-* [Evolution of a simple `du -s` clone](https://durka.github.io/blog/2017/08/06/du-evolution.html).
-
-* Announcing [Rusty Object Notation](https://kvark.github.io/format/data/json/2017/08/09/rusty-object-notation.html).
-
-[REST Calls Made Rustic: RS-ES in Idiomatic Rust Tutorial](https://qbox.io/blog/elasticsearch-rest-client-idiomatic-rust-tutorial)
-and [User-Friendly Elasticsearch Queries with Rust and Elastic](https://qbox.io/blog/elasticsearch-rest-client-idiomatic-rust-tutorial).
-Two recent blog posts about using Rust and Elasticsearch together.
 
 * [Announcing Gotham - A flexible web framework that does not sacrifice safety, security or speed.](https://gotham.rs/blog).
 * [What the RLS can do for Rust support in IDEs](https://www.ncameron.org/blog/what-the-rls-can-do/).
@@ -38,7 +29,10 @@ Two recent blog posts about using Rust and Elasticsearch together.
 * [Types as contracts: Implementation and evaluation](https://www.ralfj.de/blog/2017/08/11/types-as-contracts-evaluation.html).
 * [Exposing a Rust library to C](http://greyblake.com/blog/2017/08/10/exposing-rust-library-to-c/).
 * [Think local, act local in Rust](https://llogiq.github.io/2017/08/14/local.html).
+* [Announcing Rusty Object Notation](https://kvark.github.io/format/data/json/2017/08/09/rusty-object-notation.html).
 * [Implementing a bot for Slack in Rust, Rocket and Anterofit - Part 2](https://abishov.com/2017/08/08/hexocat-bot-part-2.html).
+* [Evolution of a simple `du -s` clone](https://durka.github.io/blog/2017/08/06/du-evolution.html).
+* [REST calls made Rustic: RS-ES in idiomatic Rust tutorial](https://qbox.io/blog/elasticsearch-rest-client-idiomatic-rust-tutorial).
 * [User-friendly Elasticsearch queries with Rust and Elastic](https://qbox.io/blog/user-friendly-elasticsearch-queries-with-rust-and-elastic).
 * [This Week in Rust Docs 68](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-68).
 * [These weeks in dev-tools 1](https://www.ncameron.org/blog/these-weeks-in-dev-tools-issue-1/).
@@ -177,6 +171,7 @@ Currently being discussed:
 # Upcoming Events
 
 * **[Aug 18-19. RustConf 2017](http://rustconf.com/)**.
+* [Aug 19. Rust Bangalore - Rust "Traits" Workshop](https://www.meetup.com/rustox/events/240321748/).
 * [Aug 23. GOTO Night Berlin: Modern low level - Rust in 2017](https://www.meetup.com/GOTO-Nights-Berlin/events/241544422/).
 * [Aug 23. OpenTechSchool Berlin: Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/242277432/).
 * [Aug 23. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
