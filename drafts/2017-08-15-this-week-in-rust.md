@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* Announcing [Rusty Object Notation](https://kvark.github.io/format/data/json/2017/08/09/rusty-object-notation.html).
+
 # Crate of the Week
 
 This week's crate is [exa](https://the.exa.website), a modern `ls` replacement (with a `tree` thrown in as well) written in Rust. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion.
