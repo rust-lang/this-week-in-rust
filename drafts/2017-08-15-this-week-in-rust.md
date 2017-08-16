@@ -14,7 +14,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-## News & Blog Posts
+## News & Blog Posts  
+* [Implementing a bot for Slack in Rust, Rocket and Anterofit - Part 2](https://abishov.com/2017/08/08/hexocat-bot-part-2.html).
+
+* [Evolution of a simple `du -s` clone](https://durka.github.io/blog/2017/08/06/du-evolution.html).
+
+* Announcing [Rusty Object Notation](https://kvark.github.io/format/data/json/2017/08/09/rusty-object-notation.html).
+
+[REST Calls Made Rustic: RS-ES in Idiomatic Rust Tutorial](https://qbox.io/blog/elasticsearch-rest-client-idiomatic-rust-tutorial)
+and [User-Friendly Elasticsearch Queries with Rust and Elastic](https://qbox.io/blog/elasticsearch-rest-client-idiomatic-rust-tutorial).
+Two recent blog posts about using Rust and Elasticsearch together.
 
 * [Announcing Gotham - A flexible web framework that does not sacrifice safety, security or speed.](https://gotham.rs/blog).
 * [What the RLS can do for Rust support in IDEs](https://www.ncameron.org/blog/what-the-rls-can-do/).
@@ -37,8 +46,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [aesni](https://crates.io/crates/aesni), a crate providing a Rust AES (Rijndael) block ciphers
-implementation using AES-NI. Thanks to [newpavlov](https://users.rust-lang.org/u/newpavlov) for the suggestion.
+This week's crate is [exa](https://the.exa.website), a modern `ls` replacement (with a `tree` thrown in as well) written in Rust. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -80,27 +88,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-105 pull requests were [merged in the last week][merged]
+128 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-07-31..2017-07-07
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-08-07..2017-08-14
 
-* [rewrite large float math in Rust and use it for stable compile-time evaluation](https://github.com/rust-lang/rust/pull/43554)
-* [borrowck: skip CFG construction when there is nothing to propagate](https://github.com/rust-lang/rust/pull/43547) (awesome memory savings)
-* [cycle-free dependency graph](https://github.com/rust-lang/rust/pull/43590)
-* [fix instability in import suggestions](https://github.com/rust-lang/rust/pull/43552) (alas, re-exports still aren't correctly filtered)
-* [fix quadratic performance on `use` statements](https://github.com/rust-lang/rust/pull/43584)
-* [save-analysis fixes](https://github.com/rust-lang/rust/pull/43533)
-* [save subobligations in the projection cache](https://github.com/rust-lang/rust/pull/43546)
-* [don't warn on unused `union` fields](https://github.com/rust-lang/rust/pull/43397)
-* [error code & explanation for calling private methods from outside](https://github.com/rust-lang/rust/pull/43699)
-* [improve error message for trying static dispatch on trait object](https://github.com/rust-lang/rust/pull/43600)
+* [cleanup in preparation of no-LLVM build support](https://github.com/rust-lang/rust/pull/43842)
+* [`#[must_use]` for functions](https://github.com/rust-lang/rust/pull/43728)
+* [fix unused result lint triggering on functions returning `()`, `!` or empty enums](https://github.com/rust-lang/rust/pull/43813)
+* [rustc can now be built without jemalloc](https://github.com/rust-lang/rust/pull/43589)
+* [fixed the needless mut lint, found libcore bugs](https://github.com/rust-lang/rust/pull/43582)
+* [fixed `#[thread_local]` statics check](https://github.com/rust-lang/rust/pull/43746)
+* [fix `-Z hir-stats`](https://github.com/rust-lang/rust/pull/43824)
+* [fix region hashing](https://github.com/rust-lang/rust/pull/43743)
+* [nonlexical lifetimes region renumberer](https://github.com/rust-lang/rust/pull/43559) (one step closer to nonlexical lifetimes)
+* [rearchitect lints to be emitted more eagerly](https://github.com/rust-lang/rust/pull/43522) (broke clippy)
+* [`mem::unreachable`](https://github.com/rust-lang/rust/pull/43750) (the intrinsic, not the panic)
+* [make `for_all_relevant_impls` O(1) again](https://github.com/rust-lang/rust/pull/43723)
+* [add an overflow check to range's `Iter::next()` method](https://github.com/rust-lang/rust/pull/43595) (which turns out to make things faster)
+* [optimize allocation paths in `RawVec`](https://github.com/rust-lang/rust/pull/43815)
+* [improve error messages on duplicate type/method names](https://github.com/rust-lang/rust/pull/43737)
+* [better labeling of mismatched return type](https://github.com/rust-lang/rust/pull/43484)
+* [syntax hint for `extern C { .. }` errors](https://github.com/rust-lang/rust/pull/43720)
+* [Validation now works correctly on blocks with multiple incoming edges](https://github.com/rust-lang/rust/pull/43748)
+* [`break rust`](https://github.com/rust-lang/rust/pull/43745)
 * [the case of the missing error codes](https://github.com/rust-lang/rust/pull/43709)
-* [{`StdIn`, `StdOut`, `StdErr`}`.as_raw_fd()`](https://github.com/rust-lang/rust/pull/43459)
-* [MIR Validate statement](https://github.com/rust-lang/rust/pull/43403) (hook for unsafe code guidelines validation via miri)
-* [MIR don't build unused unwind cleanup blocks](https://github.com/rust-lang/rust/pull/43576)
-* [MIR trans no longer ICEs on assignment errors](https://github.com/rust-lang/rust/pull/43568)
-* [more parallelization between trans and LLVM](https://github.com/rust-lang/rust/pull/43506)
-* [inline bitwise modification ops](https://github.com/rust-lang/rust/pull/43581)
 
 ## New Contributors
 
