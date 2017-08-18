@@ -37,6 +37,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Rust docs 68](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-68).
 * [These weeks in dev-tools 1](https://www.ncameron.org/blog/these-weeks-in-dev-tools-issue-1/).
 * [This week in Redox 28](https://redox-os.org/news/this-week-in-redox-28/).
+* [Distributing Rust GTK+ Apps](http://blog.ctaggart.com/2017/08/distributing-rust-gtk-apps.html).
 
 # Crate of the Week
 
