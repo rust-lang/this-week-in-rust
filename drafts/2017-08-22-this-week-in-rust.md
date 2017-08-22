@@ -40,7 +40,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [exa](https://the.exa.website), a modern `ls` replacement (with a `tree` thrown in as well) written in Rust. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion.
+This week's crate is [pest](https://crates.io/crates/pest), a PEG-based parsing library. Thanks to [Laurent Wandrebeck](https://users.rust-lang.org/u/lwandrebeck) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -82,30 +82,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-128 pull requests were [merged in the last week][merged]
+99 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-08-07..2017-08-14
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-08-14..2017-08-21
 
-* [cleanup in preparation of no-LLVM build support](https://github.com/rust-lang/rust/pull/43842)
-* [`#[must_use]` for functions](https://github.com/rust-lang/rust/pull/43728)
-* [fix unused result lint triggering on functions returning `()`, `!` or empty enums](https://github.com/rust-lang/rust/pull/43813)
-* [rustc can now be built without jemalloc](https://github.com/rust-lang/rust/pull/43589)
-* [fixed the needless mut lint, found libcore bugs](https://github.com/rust-lang/rust/pull/43582)
-* [fixed `#[thread_local]` statics check](https://github.com/rust-lang/rust/pull/43746)
-* [fix `-Z hir-stats`](https://github.com/rust-lang/rust/pull/43824)
-* [fix region hashing](https://github.com/rust-lang/rust/pull/43743)
-* [nonlexical lifetimes region renumberer](https://github.com/rust-lang/rust/pull/43559) (one step closer to nonlexical lifetimes)
-* [rearchitect lints to be emitted more eagerly](https://github.com/rust-lang/rust/pull/43522) (broke clippy)
-* [`mem::unreachable`](https://github.com/rust-lang/rust/pull/43750) (the intrinsic, not the panic)
-* [make `for_all_relevant_impls` O(1) again](https://github.com/rust-lang/rust/pull/43723)
-* [add an overflow check to range's `Iter::next()` method](https://github.com/rust-lang/rust/pull/43595) (which turns out to make things faster)
-* [optimize allocation paths in `RawVec`](https://github.com/rust-lang/rust/pull/43815)
-* [improve error messages on duplicate type/method names](https://github.com/rust-lang/rust/pull/43737)
-* [better labeling of mismatched return type](https://github.com/rust-lang/rust/pull/43484)
-* [syntax hint for `extern C { .. }` errors](https://github.com/rust-lang/rust/pull/43720)
-* [Validation now works correctly on blocks with multiple incoming edges](https://github.com/rust-lang/rust/pull/43748)
-* [`break rust`](https://github.com/rust-lang/rust/pull/43745)
-* [the case of the missing error codes](https://github.com/rust-lang/rust/pull/43709)
+* [forbid non-standard literal patterns](https://github.com/rust-lang/rust/pull/43842)
+* [cleanup for LLVM-less build, second attempt](https://github.com/rust-lang/rust/pull/43842)
+* [stabilize rvalue promotion to `'static`](https://github.com/rust-lang/rust/pull/43838)
+* [implement `CompilerDesugaringKind`](https://github.com/rust-lang/rust/pull/43832) (was stringly typed before)
+* [fix span miscalculation in `save-analysis`](https://github.com/rust-lang/rust/pull/43826)
+* [fix ICE with elided lifetimes in foreign function return types](https://github.com/rust-lang/rust/pull/43651)
+* [`RefCell::`{`swap`, `replace`}](https://github.com/rust-lang/rust/pull/43574)
+* [`String::retain`](https://github.com/rust-lang/rust/pull/43500)
+* [`Vec::drain_filter`](https://github.com/rust-lang/rust/pull/43245)
+* [MIR borrowck](https://github.com/rust-lang/rust/pull/43108)
+* [rerun MIR passes on promoted temporaries](https://github.com/rust-lang/rust/pull/43902)
+* [everybody loops🎶 but `impl Trait`](https://github.com/rust-lang/rust/pull/43878)
+* [redox now has unwinding panics](https://github.com/rust-lang/rust/pull/43917)
+* [ship the rustdoc book](https://github.com/rust-lang/rust/pull/43863)
+* [crates.io now shows the README.md on crate pages](https://github.com/rust-lang/crates.io/pull/869)
 
 ## New Contributors
 
