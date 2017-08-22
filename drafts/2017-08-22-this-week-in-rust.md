@@ -163,10 +163,8 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 The RFC style is now the default style in Rustfmt - try it out and let us know what you think!
 
-Currently being discussed:
+Nothing of note this week.
 
-* [Define short](https://github.com/rust-lang-nursery/fmt-rfcs/issues/47)
-* [Special casing some macros](https://github.com/rust-lang-nursery/fmt-rfcs/issues/86)
 
 # Upcoming Events
 
