@@ -21,7 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Inside a super fast CSS engine: Quantum CSS (aka Stylo)](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/).
 * [rustgo: calling Rust from Go with near-zero overhead](https://blog.filippo.io/rustgo/).
 * [Gtk-rs: The huge and long awaited release is finally here](http://gtk-rs.org/blog/2017/08/20/new-release.html).
-* [RLSL- A new shading language](https://maikklein.github.io/post/shading-language-part1/).
+* [RLSL - a new shading language](https://maikklein.github.io/post/shading-language-part1/).
 * [nalgebra - a linear algebra library released v0.13 with pure-rust SVD, LU, Lapack integration, and matrix resizing](https://www.reddit.com/r/rust/comments/6tw57q/nalgebra_v013_released_with_purerust_svd_lu_etc/).
 * [Making Redox self-hosting - status report 4](https://redox-os.org/news/gsoc-self-hosting-4/).
 * [Building a mobile app in Rust and React Native, part 2](https://medium.com/@marekkotewicz/building-a-mobile-app-in-rust-and-react-native-part-2-hello-world-60970a7d194a).
@@ -47,32 +47,58 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Pleco.rs - a chess engine in Rust is looking for contributors](https://www.reddit.com/r/rust/comments/6tpc3b/lets_create_a_rustbased_chess_engine_a_call_for/).
-* [easy] [bindgen: Rename `TypeKind::Named` to `TypeKind::TypeParam`](https://github.com/rust-lang-nursery/rust-bindgen/issues/914).
-* [less easy] [bindgen: Emitting or deriving trait implementations](https://github.com/rust-lang-nursery/rust-bindgen/issues/886).
-* [less easy] [bindgen: Emit a "manual" implementation of Debug when it cannot be derived](https://github.com/rust-lang-nursery/rust-bindgen/issues/875).
-* [less easy] [bindgen: "manually" implement Hash when it cannot be derived](https://github.com/rust-lang-nursery/rust-bindgen/issues/877).
-* [less easy] [bindgen: "manually" implement PartialEq when it cannot be derived](https://github.com/rust-lang-nursery/rust-bindgen/issues/879).
-* [less easy] [bindgen: Derive `Eq` when possible](https://github.com/rust-lang-nursery/rust-bindgen/issues/880).
-* [less easy] [bindgen: "manually" implement Eq when we cannot derive it](https://github.com/rust-lang-nursery/rust-bindgen/issues/881).
-* [less easy] [bindgen: Derive PartialOrd when possible](https://github.com/rust-lang-nursery/rust-bindgen/issues/882).
-* [less easy] [bindgen: "manually" implement PartialOrd when we cannot derive it](https://github.com/rust-lang-nursery/rust-bindgen/issues/883).
-* [less easy] [bindgen: Derive Ord when possible](https://github.com/rust-lang-nursery/rust-bindgen/issues/884).
-* [less easy] [bindgen: "manually" implement Ord when we cannot derive it](https://github.com/rust-lang-nursery/rust-bindgen/issues/885).
-* [PumpkinDB: Rust nightly after 2017-06-20 affects benchmarks negatively](https://github.com/PumpkinDB/PumpkinDB/issues/345). ([Discuss here](https://gitter.im/PumpkinDB/Lobby)).
-* [wayland-window: Add control buttons](https://github.com/Smithay/wayland-window/issues/4).
-* [wayland-window: Make borders prettier](https://github.com/Smithay/wayland-window/issues/19).
-* [doc] [lyon: API guidelines: methods on collections that produce iterators follow the iter, iter_mut, into_iter conventions](https://github.com/nical/lyon/issues/86). Lyon is a GPU-based 2D graphics rendering engine in Rust.
-* [doc] [lyon: API guidelines: ad-hoc conversions follow as_, to_, into_ conventions](https://github.com/nical/lyon/issues/85).
-* [doc] [lyon: API guidelines: iterator type names should match the methods that produce them](https://github.com/nical/lyon/issues/87).
-* [medium] [lyon: Implement clipping line joins at the miter limit](https://github.com/nical/lyon/issues/35).
-* [easy] [ggez: Input doesn't work on mac using tmux and iterm2](https://github.com/ggez/ggez/issues/30). ggez is a Rust library to create good games easily.
-* [easy] [ggez: SDL controller input doesn't work](https://github.com/ggez/ggez/issues/35).
-* [doc] [ggez: Finish full building-and-install docs for each platform](https://github.com/ggez/ggez/issues/118).
+This week's Call for Participation is submitted by RustConf 2017 attendees!
+
+<img src="https://this-week-in-rust.org/images/rustconf-2017-cfp.jpg" alt="A photo of a whiteboard from RustConf 2017 which lists projects looking for help.">
+
+### Transcript
+
+* [Servo](https://starters.servo.org/)
+* [Rusoto](https://github.com/rusoto/rusoto)
+* [Rust](https://www.rust-lang.org/en-US/contribute-bugs.html)
+* [community.rs](https://community.rs/)
+* [Alacritty](https://github.com/jwilm/alacritty)
+* [cell-gc](https://github.com/jorendorff/cell-gc)
+* [bindgen](https://github.com/rust-lang-nursery/rust-bindgen)
+* [Robigalia](https://robigalia.org/)
+* [Clippy](https://github.com/rust-lang-nursery/rust-clippy)
+* [Habitat](https://github.com/habitat-sh)
+* [startisd](https://github.com/stratis-storage/stratisd)
+* [gfx-rs](https://github.com/gfx-rs/gfx)
+* [trust-dns](https://github.com/bluejekyll/trust-dns)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
+
+# Who's been awesome for the Rust community - RustConf 2017 edition
+
+Our community likes to recognize people who have made outstanding contributions
+to the Rust Project, its ecosystem, and its community. This year at RustConf, attendees
+nominated people who have been awesome for the Rust community. And here they are:
+
+<img src="https://this-week-in-rust.org/images/rustconf-2017-fotf.jpg" alt="A photo of a whiteboard from RustConf 2017 which displays a list titled - who's been awesome for the Rust community - contributed by attendees.">
+
+### Transcript
+
+* [Paul Faria](https://github.com/Nashenas88)
+* [brson](https://github.com/brson)
+* [retep998](https://github.com/retep998)
+* [John Van Enk](https://github.com/sw17ch)
+* [cramertj](https://github.com/cramertj)
+* [withoutboats](https://github.com/withoutboats)
+* [Manishearth](https://github.com/Manishearth)
+* [jdm](https://github.com/jdm)
+* [Mark Simulacrum](https://github.com/Mark-Simulacrum)
+* petroclenkov
+* [Amit Levy](https://github.com/alevy)
+* [Leah and the RustConf team](http://rustconf.com/about.html)
+* [Ashley Williams](https://github.com/ashleygwilliams)
+* [dtolnay](https://github.com/dtolnay)
+* [KodrAus](https://github.com/KodrAus)
+* [Steve Klabnik](https://github.com/steveklabnik)
+* [tomaka](https://github.com/tomaka)
+* [bors](https://github.com/bors)
 
 # Updates from Rust Core
 
