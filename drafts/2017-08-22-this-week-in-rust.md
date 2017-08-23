@@ -16,28 +16,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts  
 
-* [Announcing Gotham - a flexible web framework that does not sacrifice safety, security or speed.](https://gotham.rs/blog).
-* [What the RLS can do for Rust support in IDEs](https://www.ncameron.org/blog/what-the-rls-can-do/).
-* [Optimizing Rust](https://blogs.gentoo.org/lu_zero/2017/08/12/optimizing-rust/).
-* [Rust for the web](https://thefullsnack.com/en/rust-for-the-web.html).
-* [Setting up a Rust environment on Windows](https://fungos.github.io/blog/2017/08/12/setting-up-a-rust-environment-on-windows/).
-* [Of boxes and trees - smart pointers in Rust](https://matthias-endler.de/2017/boxes-and-trees/).
-* [Rustls and Servo](https://simrangujral.github.io/Rustls&Servo).
-* [My experience contributing to Servo](http://brainlessdeveloper.com/2017/08/12/my-experience-contributing-to-servo/).
-* [Debugging a race condition in a release target](http://blog.boxofrox.me/2017/08/debugging-a-rust-release-build.html).
-* [Designing a channel](https://stjepang.github.io/2017/08/13/designing-a-channel.html).
-* [Types as contracts: Implementation and evaluation](https://www.ralfj.de/blog/2017/08/11/types-as-contracts-evaluation.html).
-* [Exposing a Rust library to C](http://greyblake.com/blog/2017/08/10/exposing-rust-library-to-c/).
-* [Think local, act local in Rust](https://llogiq.github.io/2017/08/14/local.html).
-* [Announcing Rusty Object Notation](https://kvark.github.io/format/data/json/2017/08/09/rusty-object-notation.html).
-* [Implementing a bot for Slack in Rust, Rocket and Anterofit - Part 2](https://abishov.com/2017/08/08/hexocat-bot-part-2.html).
-* [Evolution of a simple `du -s` clone](https://durka.github.io/blog/2017/08/06/du-evolution.html).
-* [REST calls made rustic: RS-ES in idiomatic Rust tutorial](https://qbox.io/blog/elasticsearch-rest-client-idiomatic-rust-tutorial).
-* [User-friendly Elasticsearch queries with Rust and Elastic](https://qbox.io/blog/user-friendly-elasticsearch-queries-with-rust-and-elastic).
-* [This week in Rust docs 68](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-68).
-* [These weeks in dev-tools 1](https://www.ncameron.org/blog/these-weeks-in-dev-tools-issue-1/).
-* [This week in Redox 28](https://redox-os.org/news/this-week-in-redox-28/).
-* [Annoucnement - try out Rust IDE support in Visual Studio Code](https://users.rust-lang.org/t/try-out-rust-ide-support-in-visual-studio-code/12407)
+* [brson - a Rust core team member and a key figure in Rust community is leaving](https://internals.rust-lang.org/t/farewell-rust/5776).
+* [crates.io now renders README files of crates](https://github.com/rust-lang/crates.io/pull/869).
+* [Inside a super fast CSS engine: Quantum CSS (aka Stylo)](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/).
+* [rustgo: calling Rust from Go with near-zero overhead](https://blog.filippo.io/rustgo/).
+* [Gtk-rs: The huge and long awaited release is finally here](http://gtk-rs.org/blog/2017/08/20/new-release.html).
+* [RLSL- A new shading language](https://maikklein.github.io/post/shading-language-part1/).
+* [nalgebra - a linear algebra library released v0.13 with pure-rust SVD, LU, Lapack integration, and matrix resizing](https://www.reddit.com/r/rust/comments/6tw57q/nalgebra_v013_released_with_purerust_svd_lu_etc/).
+* [Making Redox self-hosting - status report 4](https://redox-os.org/news/gsoc-self-hosting-4/).
+* [Building a mobile app in Rust and React Native, part 2](https://medium.com/@marekkotewicz/building-a-mobile-app-in-rust-and-react-native-part-2-hello-world-60970a7d194a).
+* [Make docs into code](https://llogiq.github.io/2017/08/20/docs.html).
+* [Announcement - try out Rust IDE support in Visual Studio Code](https://users.rust-lang.org/t/try-out-rust-ide-support-in-visual-studio-code/12407).
+* [podcast] [Request for explanation #8 - An existential crisis](https://request-for-explanation.github.io/podcast/ep8-an-existential-crisis/index.html). This week's focus is [RFC 2071](https://github.com/rust-lang/rfcs/pull/2071) "Add impl Trait type alias and variable declarations".
+* [This week in Rust docs 69](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-69).
 
 # Crate of the Week
 
@@ -105,16 +96,14 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Alexey Tarasov
-* arshiamufti
-* Foucher
-* Justin Browne
-* Natalie Boehm
-* nicole mazzuca
-* Owen Sanchez
-* Ryan Leckey
-* Tej Chajed
-* Thomas Levy
+* adrian5
+* Anthony Clays
+* Anthony Defranceschi
+* Fourchaux
+* Hunter Praska
+* Martin Hoffmann
+* Seiichi Uchida
+* Shanavas M
 
 ## Approved RFCs
 
@@ -122,7 +111,8 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [Amend RFC 1242 to require an RFC for deprecation of crates from the nursery](https://github.com/rust-lang/rfcs/pull/1983).
+* [RFC 1966: Unsafe pointer methods](https://github.com/rust-lang/rfcs/pull/1966).
 
 ## Final Comment Period
 
@@ -132,50 +122,41 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [disposition: merge] [Evolving Rust through checkpoints](https://github.com/rust-lang/rfcs/pull/2052).
-* [disposition: close] [Zero-Sized References](https://github.com/rust-lang/rfcs/pull/2040).
-* [disposition: merge] [Generic associated types (associated type constructors)](https://github.com/rust-lang/rfcs/pull/1598).
-* [disposition: close] [Allow use of pipe operator in patterns](https://github.com/rust-lang/rfcs/pull/1882).
-* [disposition: merge] [Allow an optional vert at the beginning of a match branch](https://github.com/rust-lang/rfcs/pull/1925).
-* [disposition: merge] [Unsafe pointer methods](https://github.com/rust-lang/rfcs/pull/1966).
-* [disposition: merge] [Amend RFC 1242 to require an RFC for deprecation of crates from the nursery](https://github.com/rust-lang/rfcs/pull/1983).
-* [disposition: merge] [Add external doc attribute to rustc](https://github.com/rust-lang/rfcs/pull/1990).
-* [disposition: close] [Match branch semicolon](https://github.com/rust-lang/rfcs/pull/1994).
 * [disposition: merge] [Future-proofing enums/structs with `#[non_exhaustive]` attribute](https://github.com/rust-lang/rfcs/pull/2008).
+* [disposition: merge] [Add external doc attribute to rustc](https://github.com/rust-lang/rfcs/pull/1990).
+* [disposition: merge] [Allow an optional vert at the beginning of a match branch](https://github.com/rust-lang/rfcs/pull/1925).
+* [disposition: close] [Allow use of pipe operator in patterns](https://github.com/rust-lang/rfcs/pull/1882).
+* [disposition: merge] [Generic associated types (associated type constructors)](https://github.com/rust-lang/rfcs/pull/1598).
 * [disposition: merge] [Enable nested method calls](https://github.com/rust-lang/rfcs/pull/2025).
+* [disposition: merge] [Evolving Rust through checkpoints](https://github.com/rust-lang/rfcs/pull/2052).
 
 ## New RFCs
 
-* [Module redesign](https://github.com/rust-lang/rfcs/pull/2108).
-* [Ok wrapping: Improved support for writing code from an error handling mindset](https://github.com/rust-lang/rfcs/pull/2107).
-* [Introduce more potentially useful environment-related functions to `std::env`](https://github.com/rust-lang/rfcs/pull/2101).
-* [Unnamed fields of struct and union type](https://github.com/rust-lang/rfcs/pull/2102).
-* [Attributes for tools, 2.0](https://github.com/rust-lang/rfcs/pull/2103).
-* [Rand crate revision (pre-stabilisation)](https://github.com/rust-lang/rfcs/pull/2106). Evaluate options for the future of `rand` regarding both cryptographic and non-cryptographic uses.
-
-## Style RFCs
-
-[Style RFCs](https://github.com/rust-lang-nursery/fmt-rfcs) are part of the process for deciding on style guidelines for the Rust community and defaults for [Rustfmt](https://github.com/rust-lang-nursery/rustfmt). The process is similar to the RFC process, but we try to reach rough consensus on issues (including a final comment period) before progressing to PRs. Just like the RFC process, all users are welcome to comment and submit RFCs. If you want to help decide what Rust code should look like, come get involved!
-
-The RFC style is now the default style in Rustfmt - try it out and let us know what you think!
-
-Nothing of note this week.
-
+* [Argument-bound lifetimes](https://github.com/rust-lang/rfcs/pull/2115).
+* [Fully-qualified names in RustDocs](https://github.com/rust-lang/rfcs/pull/2114).
+* [Fallible collection allocation 1.0](https://github.com/rust-lang/rfcs/pull/2116).
+* [Debuggable macro expansions](https://github.com/rust-lang/rfcs/pull/2117).
+* [Crypto / rand trait & crate split](https://github.com/rust-lang/rfcs/pull/2118).
+* [Add the `()` → `Result<(), _>` coercion rule, for removing `Ok(())` everywhere](https://github.com/rust-lang/rfcs/pull/2120).
+* [`dyn Trait` syntax for trait objects: Take 2](https://github.com/rust-lang/rfcs/pull/2113).
+* [Autoreferencing `Copy` types](https://github.com/rust-lang/rfcs/pull/2111).
 
 # Upcoming Events
 
-* **[Aug 18-19. RustConf 2017](http://rustconf.com/)**.
-* [Aug 19. Rust Bangalore - Rust "Traits" Workshop](https://www.meetup.com/rustox/events/240321748/).
-* [Aug 23. GOTO Night Berlin: Modern low level - Rust in 2017](https://www.meetup.com/GOTO-Nights-Berlin/events/241544422/).
-* [Aug 23. OpenTechSchool Berlin: Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/242277432/).
-* [Aug 23. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Aug 23. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Aug 24. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Aug 30. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Aug 30. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Aug 31. Rust NYC - Come learn about Rust](https://www.meetup.com/Rust-NYC/events/241866546/).
 * [Aug 31. Rust London - Rust learning and hacking evening #2](https://www.meetup.com/Rust-London-User-Group/events/242378000/).
 * [Aug 31. Cambridge Rust Meetup - Rust Study Group](https://www.meetup.com/Cambridge-Rust-Meetup/events/242409356/).
+* [Aug 31. Rust Roma Italy - Rust learning and hacking evening #1](https://www.meetup.com/Rust-Roma/events/242709171/).
+* [Sep  4. Rust Zurich - September Community Meetup](https://www.meetup.com/de-DE/Rust-Zurich/events/242032911/).
+* [Sep  6. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/krnczlywmbjb/).
+* [Sep  6. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/241813161/).
+* [Sep  6. Rust Cologne - RFC Lightning Talks](https://www.meetup.com/RustCologne/events/242597353/).
+* [Sep  6. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Sep  6. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Sep  7. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -185,17 +166,17 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-*No jobs listed for this week.*
+* [Sr. Software Development Engineer at Amazon](https://www.amazon.jobs/en/jobs/559813/sr-software-development-engineer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> once you can walk barefoot (C), it’s easy to learn to walk with shoes (go) but it will take time to learn to ride a bike (rust)
+> Rust, but verify.
 
-— [/u/freakhill on Reddit](https://www.reddit.com/r/rust/comments/6srf8h/thoughts_from_a_dumb_person_notes_on_my_threeweek/dlf58jt/).
+— [@isislovecruft talking about elliptic curve cryptography in Rust at RustConf 2017](https://twitter.com/jcdyer/status/899058522930921472).
 
-Thanks to [Rushmore](https://users.rust-lang.org/t/twir-quote-of-the-week/328/431) for the suggestion.
+Thanks to [llogiq](https://twitter.com/llogiq/status/899399721609035777) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
