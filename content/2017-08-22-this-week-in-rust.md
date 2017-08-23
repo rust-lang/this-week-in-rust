@@ -90,7 +90,7 @@ nominated people who have been awesome for the Rust community. And here they are
 * [Manishearth](https://github.com/Manishearth)
 * [jdm](https://github.com/jdm)
 * [Mark Simulacrum](https://github.com/Mark-Simulacrum)
-* petroclenkov
+* [petrochenkov](https://github.com/petrochenkov)
 * [Amit Levy](https://github.com/alevy)
 * [Leah and the RustConf team](http://rustconf.com/about.html)
 * [Ashley Williams](https://github.com/ashleygwilliams)
