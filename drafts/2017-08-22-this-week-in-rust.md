@@ -27,6 +27,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Building a mobile app in Rust and React Native, part 2](https://medium.com/@marekkotewicz/building-a-mobile-app-in-rust-and-react-native-part-2-hello-world-60970a7d194a).
 * [Make docs into code](https://llogiq.github.io/2017/08/20/docs.html).
 * [Announcement - try out Rust IDE support in Visual Studio Code](https://users.rust-lang.org/t/try-out-rust-ide-support-in-visual-studio-code/12407).
+* [Distributing Rust GTK+ Apps](http://blog.ctaggart.com/2017/08/distributing-rust-gtk-apps.html).
+* [Zone of Control is dead. Long life Zemeroth.](https://ozkriff.github.io/2017-08-17--devlog.html). A new turn-based strategy game in Rust.
 * [podcast] [Request for explanation #8 - An existential crisis](https://request-for-explanation.github.io/podcast/ep8-an-existential-crisis/index.html). This week's focus is [RFC 2071](https://github.com/rust-lang/rfcs/pull/2071) "Add impl Trait type alias and variable declarations".
 * [This week in Rust docs 69](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-69).
 
