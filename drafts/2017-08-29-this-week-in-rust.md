@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts  
 
+* [Rust FFI in a C Wireshark dissector](https://github.com/sevagh/wireshark-dissector-rs/blob/master/README.md)
+
 # Crate of the Week
 
 This week's crate is [pest](https://crates.io/crates/pest), a PEG-based parsing library. Thanks to [Laurent Wandrebeck](https://users.rust-lang.org/u/lwandrebeck) for the suggestion.
