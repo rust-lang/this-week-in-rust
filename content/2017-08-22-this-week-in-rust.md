@@ -99,6 +99,7 @@ nominated people who have been awesome for the Rust community. And here they are
 * [Steve Klabnik](https://github.com/steveklabnik)
 * [tomaka](https://github.com/tomaka)
 * [bors](https://github.com/bors)
+* [budziq](https://github.com/budziq)
 
 # Updates from Rust Core
 
