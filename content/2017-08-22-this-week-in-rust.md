@@ -107,7 +107,7 @@ nominated people who have been awesome for the Rust community. And here they are
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-08-14..2017-08-21
 
-* [forbid non-standard literal patterns](https://github.com/rust-lang/rust/pull/43842)
+* [forbid non-standard literal patterns](https://github.com/rust-lang/rust/pull/43844)
 * [cleanup for LLVM-less build, second attempt](https://github.com/rust-lang/rust/pull/43842)
 * [stabilize rvalue promotion to `'static`](https://github.com/rust-lang/rust/pull/43838)
 * [implement `CompilerDesugaringKind`](https://github.com/rust-lang/rust/pull/43832) (was stringly typed before)
