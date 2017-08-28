@@ -14,11 +14,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-## News & Blog Posts  
+## News & Blog Posts
 
 # Crate of the Week
 
-This week's crate is [pest](https://crates.io/crates/pest), a PEG-based parsing library. Thanks to [Laurent Wandrebeck](https://users.rust-lang.org/u/lwandrebeck) for the suggestion.
+Sadly, we had no nomination for the crate of the week.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -86,25 +86,34 @@ nominated people who have been awesome for the Rust community. And here they are
 
 # Updates from Rust Core
 
-99 pull requests were [merged in the last week][merged]
+120 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-08-14..2017-08-21
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-08-21..2017-08-28
 
-* [forbid non-standard literal patterns](https://github.com/rust-lang/rust/pull/43842)
-* [cleanup for LLVM-less build, second attempt](https://github.com/rust-lang/rust/pull/43842)
-* [stabilize rvalue promotion to `'static`](https://github.com/rust-lang/rust/pull/43838)
-* [implement `CompilerDesugaringKind`](https://github.com/rust-lang/rust/pull/43832) (was stringly typed before)
-* [fix span miscalculation in `save-analysis`](https://github.com/rust-lang/rust/pull/43826)
-* [fix ICE with elided lifetimes in foreign function return types](https://github.com/rust-lang/rust/pull/43651)
-* [`RefCell::`{`swap`, `replace`}](https://github.com/rust-lang/rust/pull/43574)
-* [`String::retain`](https://github.com/rust-lang/rust/pull/43500)
-* [`Vec::drain_filter`](https://github.com/rust-lang/rust/pull/43245)
-* [MIR borrowck](https://github.com/rust-lang/rust/pull/43108)
-* [rerun MIR passes on promoted temporaries](https://github.com/rust-lang/rust/pull/43902)
-* [everybody loops🎶 but `impl Trait`](https://github.com/rust-lang/rust/pull/43878)
-* [redox now has unwinding panics](https://github.com/rust-lang/rust/pull/43917)
-* [ship the rustdoc book](https://github.com/rust-lang/rust/pull/43863)
-* [crates.io now shows the README.md on crate pages](https://github.com/rust-lang/crates.io/pull/869)
+* [warn by default on unused extern crates](https://github.com/rust-lang/rust/pull/42588)
+* [speed up APFloat divisions for small divisors](https://github.com/rust-lang/rust/pull/44051)
+* [generate builtin `Clone` impls](https://github.com/rust-lang/rust/pull/43690)
+* [no needless `min_stack` on thread spawn if user has set stack size](https://github.com/rust-lang/rust/pull/44054)
+* [`[T]::swap_with_slice(_)`](https://github.com/rust-lang/rust/pull/44031)
+* [handle OS errors on joining threads](https://github.com/rust-lang/rust/pull/44112)
+* [relax syntax path grammar](https://github.com/rust-lang/rust/pull/43540)
+* [desugar parenthesized generic arguments in HIR](https://github.com/rust-lang/rust/pull/43532)
+* [elaborate trait obligations while type checking impls](https://github.com/rust-lang/rust/pull/43786)
+* [fix length of arrays with zero-sized-typed components](https://github.com/rust-lang/rust/pull/44060)
+* [feature gate `fn_must_use`](https://github.com/rust-lang/rust/pull/43776) (sorry, no insta-stable)
+* [respect formatting flags for OSStr](https://github.com/rust-lang/rust/pull/43830)
+* [keep generic arguments out of attribute paths](https://github.com/rust-lang/rust/pull/43948)
+* [improve placement of `use` suggestions](https://github.com/rust-lang/rust/pull/43929)
+* [improve message on missing condition after `else if`](https://github.com/rust-lang/rust/pull/43854)
+* [the error emitter no longer confuses bytes with chars](https://github.com/rust-lang/rust/pull/44081)
+* [add let-bindings to the HIR parent map](https://github.com/rust-lang/rust/pull/43971)
+* [borrowck: name the correct type in error message](https://github.com/rust-lang/rust/pull/43993)
+* [querified MIR borrowck](https://github.com/rust-lang/rust/pull/44009)
+* [incr. comp.: Cache HIR-DepNodeIndices in HIR map](https://github.com/rust-lang/rust/pull/44012)
+* [fix missing `EndRegion`s because of faulty lookup](https://github.com/rust-lang/rust/pull/44082)
+* [fix trait constraint cycle detection](https://github.com/rust-lang/rust/pull/44071)
+* [avoid duplication in rustdoc](https://github.com/rust-lang/rust/pull/43966)
+* [rustdoc: Add links to impls](https://github.com/rust-lang/rust/pull/43979)
 
 ## New Contributors
 
