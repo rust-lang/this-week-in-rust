@@ -153,6 +153,20 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [`dyn Trait` syntax for trait objects: Take 2](https://github.com/rust-lang/rfcs/pull/2113).
 * [Autoreferencing `Copy` types](https://github.com/rust-lang/rfcs/pull/2111).
 
+## Style RFCs
+
+[Style RFCs](https://github.com/rust-lang-nursery/fmt-rfcs) are part of the process for deciding on style guidelines for the Rust community and defaults for [Rustfmt](https://github.com/rust-lang-nursery/rustfmt). The process is similar to the RFC process, but we try to reach rough consensus on issues (including a final comment period) before progressing to PRs. Just like the RFC process, all users are welcome to comment and submit RFCs. If you want to help decide what Rust code should look like, come get involved!
+
+The RFC style is now the default style in Rustfmt - try it out and let us know what you think!
+
+We're currently writing up the discussions, we'd love some help. Check out [the tracking issue](https://github.com/rust-lang-nursery/fmt-rfcs/issues/89) for details.
+
+PRs:
+
+* [ranges and blocks](https://github.com/rust-lang-nursery/fmt-rfcs/pull/91)
+
+
+
 # Upcoming Events
 
 * [Aug 24. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
