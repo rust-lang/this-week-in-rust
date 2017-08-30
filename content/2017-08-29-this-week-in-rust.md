@@ -19,7 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Relaxed-memory concurrency synchronization patterns in Rust](https://jeehoonkang.github.io/2017/08/23/synchronization-patterns.html).
 * [How Glib-rs works, part 1: Type conversions](https://people.gnome.org/~federico/blog/how-glib-rs-works-part-1.html) and [part 2: Transferring lists and arrays](https://people.gnome.org/~federico/blog/how-glib-rs-works-part-2.html).
 * [GSoC: Making Redox self-hosting, final summary](https://redox-os.org/news/gsoc-self-hosting-final/).
-* [GSoC: Warpping up work on Rust Language Server](https://xanewok.github.io/gsoc/2017/wrapping-up-work-for-gsoc/).
+* [GSoC: Wrapping up work on Rust Language Server](https://xanewok.github.io/gsoc/2017/wrapping-up-work-for-gsoc/).
 * [GSoC: Summary of KDevelop Rust plugin development](https://perplexinglyemma.blogspot.com/2017/08/autumn-is-here-wait-this-is-gsoc-not-got.html).
 * [Adventures in logging](https://unhandledexpression.com/2017/08/23/adventures-in-logging/).
 * [Tooling support while using rustc as a library](https://maikklein.github.io/post/rust-compiler/).
