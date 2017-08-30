@@ -80,6 +80,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-08-21..2017-08-28
 
+* [Generator support](https://github.com/rust-lang/rust/pull/43076)
 * [warn by default on unused extern crates](https://github.com/rust-lang/rust/pull/42588)
 * [speed up APFloat divisions for small divisors](https://github.com/rust-lang/rust/pull/44051)
 * [generate builtin `Clone` impls](https://github.com/rust-lang/rust/pull/43690)
