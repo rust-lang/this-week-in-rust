@@ -24,13 +24,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Adventures in logging](https://unhandledexpression.com/2017/08/23/adventures-in-logging/).
 * [Tooling support while using rustc as a library](https://maikklein.github.io/post/rust-compiler/).
 * [Notes from the Rain of Rust campaign](http://abhiramrk.com/its-raining-rust-at-red-hat/).
+* [Rust FFI in a C Wireshark dissector](https://github.com/sevagh/wireshark-dissector-rs/blob/master/README.md).
 * [RustFest Zürich: Announcing first speakers](http://blog.rustfest.eu/this-week-in-rustfest-8-speakers).
 * [This week in Rust docs 70](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-70).
 * [podcast] [Request For explanation #9](https://request-for-explanation.github.io/podcast/ep9-a-once-in-a-lifetime-rfc/index.html). This week's RFC is [RFC 2094: Non-lexical lifetimes](https://github.com/rust-lang/rfcs/pull/2094).
 
 # Crate of the Week
 
-This week's crate is [pest](https://crates.io/crates/pest), a PEG-based parsing library. Thanks to [Laurent Wandrebeck](https://users.rust-lang.org/u/lwandrebeck) for the suggestion.
+Sadly, we had no nomination for the crate of the week.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -75,25 +76,34 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-99 pull requests were [merged in the last week][merged]
+120 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-08-14..2017-08-21
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-08-21..2017-08-28
 
-* [forbid non-standard literal patterns](https://github.com/rust-lang/rust/pull/43842)
-* [cleanup for LLVM-less build, second attempt](https://github.com/rust-lang/rust/pull/43842)
-* [stabilize rvalue promotion to `'static`](https://github.com/rust-lang/rust/pull/43838)
-* [implement `CompilerDesugaringKind`](https://github.com/rust-lang/rust/pull/43832) (was stringly typed before)
-* [fix span miscalculation in `save-analysis`](https://github.com/rust-lang/rust/pull/43826)
-* [fix ICE with elided lifetimes in foreign function return types](https://github.com/rust-lang/rust/pull/43651)
-* [`RefCell::`{`swap`, `replace`}](https://github.com/rust-lang/rust/pull/43574)
-* [`String::retain`](https://github.com/rust-lang/rust/pull/43500)
-* [`Vec::drain_filter`](https://github.com/rust-lang/rust/pull/43245)
-* [MIR borrowck](https://github.com/rust-lang/rust/pull/43108)
-* [rerun MIR passes on promoted temporaries](https://github.com/rust-lang/rust/pull/43902)
-* [everybody loops🎶 but `impl Trait`](https://github.com/rust-lang/rust/pull/43878)
-* [redox now has unwinding panics](https://github.com/rust-lang/rust/pull/43917)
-* [ship the rustdoc book](https://github.com/rust-lang/rust/pull/43863)
-* [crates.io now shows the README.md on crate pages](https://github.com/rust-lang/crates.io/pull/869)
+* [warn by default on unused extern crates](https://github.com/rust-lang/rust/pull/42588)
+* [speed up APFloat divisions for small divisors](https://github.com/rust-lang/rust/pull/44051)
+* [generate builtin `Clone` impls](https://github.com/rust-lang/rust/pull/43690)
+* [no needless `min_stack` on thread spawn if user has set stack size](https://github.com/rust-lang/rust/pull/44054)
+* [`[T]::swap_with_slice(_)`](https://github.com/rust-lang/rust/pull/44031)
+* [handle OS errors on joining threads](https://github.com/rust-lang/rust/pull/44112)
+* [relax syntax path grammar](https://github.com/rust-lang/rust/pull/43540)
+* [desugar parenthesized generic arguments in HIR](https://github.com/rust-lang/rust/pull/43532)
+* [elaborate trait obligations while type checking impls](https://github.com/rust-lang/rust/pull/43786)
+* [fix length of arrays with zero-sized-typed components](https://github.com/rust-lang/rust/pull/44060)
+* [feature gate `fn_must_use`](https://github.com/rust-lang/rust/pull/43776) (sorry, no insta-stable)
+* [respect formatting flags for OSStr](https://github.com/rust-lang/rust/pull/43830)
+* [keep generic arguments out of attribute paths](https://github.com/rust-lang/rust/pull/43948)
+* [improve placement of `use` suggestions](https://github.com/rust-lang/rust/pull/43929)
+* [improve message on missing condition after `else if`](https://github.com/rust-lang/rust/pull/43854)
+* [the error emitter no longer confuses bytes with chars](https://github.com/rust-lang/rust/pull/44081)
+* [add let-bindings to the HIR parent map](https://github.com/rust-lang/rust/pull/43971)
+* [borrowck: name the correct type in error message](https://github.com/rust-lang/rust/pull/43993)
+* [querified MIR borrowck](https://github.com/rust-lang/rust/pull/44009)
+* [incr. comp.: Cache HIR-DepNodeIndices in HIR map](https://github.com/rust-lang/rust/pull/44012)
+* [fix missing `EndRegion`s because of faulty lookup](https://github.com/rust-lang/rust/pull/44082)
+* [fix trait constraint cycle detection](https://github.com/rust-lang/rust/pull/44071)
+* [avoid duplication in rustdoc](https://github.com/rust-lang/rust/pull/43966)
+* [rustdoc: Add links to impls](https://github.com/rust-lang/rust/pull/43979)
 
 ## New Contributors
 
@@ -138,6 +148,20 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Copy/Clone closures](https://github.com/rust-lang/rfcs/pull/2132). Implement `Clone` and `Copy` for closures where possible.
 * [Compiler-generated Clone impls for arrays and tuples](https://github.com/rust-lang/rfcs/pull/2133).
 * [Add `Option::filter` to the standard library](https://github.com/rust-lang/rfcs/pull/2124).
+
+## Style RFCs
+
+[Style RFCs](https://github.com/rust-lang-nursery/fmt-rfcs) are part of the process for deciding on style guidelines for the Rust community and defaults for [Rustfmt](https://github.com/rust-lang-nursery/rustfmt). The process is similar to the RFC process, but we try to reach rough consensus on issues (including a final comment period) before progressing to PRs. Just like the RFC process, all users are welcome to comment and submit RFCs. If you want to help decide what Rust code should look like, come get involved!
+
+The RFC style is now the default style in Rustfmt - try it out and let us know what you think!
+
+We're currently writing up the discussions, we'd love some help. Check out [the tracking issue](https://github.com/rust-lang-nursery/fmt-rfcs/issues/89) for details.
+
+PRs:
+
+* [ranges and blocks](https://github.com/rust-lang-nursery/fmt-rfcs/pull/91)
+
+
 
 # Upcoming Events
 
