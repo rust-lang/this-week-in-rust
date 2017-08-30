@@ -203,7 +203,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 > Abomonation has no safe methods. […] If you are concerned about safety, it may be best to avoid Abomonation all together. It does several things that may be undefined behavior, depending on how undefined behavior is defined.
 
-— [Frank McSherry in Abomination docs](http://www.frankmcsherry.org/abomonation/abomonation/trait.Abomonation.html).
+— [Frank McSherry in Abomonation docs](http://www.frankmcsherry.org/abomonation/abomonation/trait.Abomonation.html).
 
 Thanks to [Adwhit](https://users.rust-lang.org/t/twir-quote-of-the-week/328/435) for the suggestion.
 
