@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Rust FFI in a C Wireshark dissector](https://github.com/sevagh/wireshark-dissector-rs/blob/master/README.md)
+
 # Crate of the Week
 
 Sadly, we had no nomination for the crate of the week.
