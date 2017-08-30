@@ -14,7 +14,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-## News & Blog Posts  
+## News & Blog Posts
+
+* [Relaxed-memory concurrency synchronization patterns in Rust](https://jeehoonkang.github.io/2017/08/23/synchronization-patterns.html).
+* [How Glib-rs works, part 1: Type conversions](https://people.gnome.org/~federico/blog/how-glib-rs-works-part-1.html) and [part 2: Transferring lists and arrays](https://people.gnome.org/~federico/blog/how-glib-rs-works-part-2.html).
+* [GSoC: Making Redox self-hosting, final summary](https://redox-os.org/news/gsoc-self-hosting-final/).
+* [GSoC: Warpping up work on Rust Language Server](https://xanewok.github.io/gsoc/2017/wrapping-up-work-for-gsoc/).
+* [GSoC: Summary of KDevelop Rust plugin development](https://perplexinglyemma.blogspot.com/2017/08/autumn-is-here-wait-this-is-gsoc-not-got.html).
+* [Adventures in logging](https://unhandledexpression.com/2017/08/23/adventures-in-logging/).
+* [Tooling support while using rustc as a library](https://maikklein.github.io/post/rust-compiler/).
+* [Notes from the Rain of Rust campaign](http://abhiramrk.com/its-raining-rust-at-red-hat/).
+* [RustFest Zürich: Announcing first speakers](http://blog.rustfest.eu/this-week-in-rustfest-8-speakers).
+* [This week in Rust docs 70](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-70).
+* [podcast] [Request For explanation #9](https://request-for-explanation.github.io/podcast/ep9-a-once-in-a-lifetime-rfc/index.html). This week's RFC is [RFC 2094: Non-lexical lifetimes](https://github.com/rust-lang/rfcs/pull/2094).
 
 # Crate of the Week
 
@@ -31,58 +43,35 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-This week's Call for Participation is submitted by RustConf 2017 attendees!
-
-<img src="https://this-week-in-rust.org/images/rustconf-2017-cfp.jpg" alt="A photo of a whiteboard from RustConf 2017 which lists projects looking for help.">
-
-### Transcript
-
-* [Servo](https://starters.servo.org/)
-* [Rusoto](https://github.com/rusoto/rusoto)
-* [Rust](https://www.rust-lang.org/en-US/contribute-bugs.html)
-* [community.rs](https://community.rs/)
-* [Alacritty](https://github.com/jwilm/alacritty)
-* [cell-gc](https://github.com/jorendorff/cell-gc)
-* [bindgen](https://github.com/rust-lang-nursery/rust-bindgen)
-* [Robigalia](https://robigalia.org/)
-* [Clippy](https://github.com/rust-lang-nursery/rust-clippy)
-* [Habitat](https://github.com/habitat-sh)
-* [startisd](https://github.com/stratis-storage/stratisd)
-* [gfx-rs](https://github.com/gfx-rs/gfx)
-* [trust-dns](https://github.com/bluejekyll/trust-dns)
+* [Libz blitz: crate evaluation for 2017-08-29: rayon](https://internals.rust-lang.org/t/crate-evaluation-for-2017-08-29-rayon/5795).
+* [easy] [Diesel: Crash with special timestamp value in mysql (`0000-00-00 00:00:00`) through chrono](https://github.com/diesel-rs/diesel/issues/1130).
+* [Diesel: Deny missing docs](https://github.com/diesel-rs/diesel/issues/563).
+* [less easy] [bindgen: Add something like rustc's -Z time-passes](https://github.com/rust-lang-nursery/rust-bindgen/issues/933).
+* [mio: Discuss platform support in the crate-level doc](https://github.com/carllerche/mio/issues/686).
+* [mio: Link to MSDN doc on completion ports](https://github.com/carllerche/mio/issues/685).
+* [mio: Consider deprecating only_v6 and set_only_v6](https://github.com/carllerche/mio/issues/684).
+* [mio: Consistent case convention for name of the crate](https://github.com/carllerche/mio/issues/679).
+* [mio: Clarify BSD support](https://github.com/carllerche/mio/issues/678).
+* [mio: Expose EPOLLWAKEUP](https://github.com/carllerche/mio/issues/677).
+* [mio: Expose EPOLLEXCLUSIVE](https://github.com/carllerche/mio/issues/676).
+* [mio: Bound but not registered](https://github.com/carllerche/mio/issues/675).
+* [mio: Single Evented on more than on Poll](https://github.com/carllerche/mio/issues/674).
+* [mio: Multithreaded behavior of Poll](https://github.com/carllerche/mio/issues/673).
+* [mio: Accept ToSocketAddrs](https://github.com/carllerche/mio/issues/668).
+* [mio: SocketAddr argument to UdpSocket methods](https://github.com/carllerche/mio/issues/667).
+* [mio: Rustdoc examples for mio::net methods](https://github.com/carllerche/mio/issues/665).
+* [mio: Implement Hash for Event, PollOpt, Ready](https://github.com/carllerche/mio/issues/663).
+* [mio: Consider using associated constants for the bitflag-like types](https://github.com/carllerche/mio/issues/661).
+* [mio: Upgrade to a stable version of iovec](https://github.com/carllerche/mio/issues/660).
+* [mio: Winapi in the public API of mio](https://github.com/carllerche/mio/issues/658).
+* [mio: Document that UdpSocket::recv and recv_from do not read from the buffer](https://github.com/carllerche/mio/issues/657).
+* [env_logger: Implement Debug for Logger and Filter](https://github.com/sebasmagri/env_logger/issues/14).
+* [env_logger: Should we add new separate filter_module and filter_level to Builder](https://github.com/sebasmagri/env_logger/issues/13)?
+* [env_logger: Define and implement missing impls for Logger](https://github.com/sebasmagri/env_logger/issues/7).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
-
-# Who's been awesome for the Rust community - RustConf 2017 edition
-
-Our community likes to recognize people who have made outstanding contributions
-to the Rust Project, its ecosystem, and its community. This year at RustConf, attendees
-nominated people who have been awesome for the Rust community. And here they are:
-
-<img src="https://this-week-in-rust.org/images/rustconf-2017-fotf.jpg" alt="A photo of a whiteboard from RustConf 2017 which displays a list titled - who's been awesome for the Rust community - contributed by attendees.">
-
-### Transcript
-
-* [Paul Faria](https://github.com/Nashenas88)
-* [brson](https://github.com/brson)
-* [retep998](https://github.com/retep998)
-* [John Van Enk](https://github.com/sw17ch)
-* [cramertj](https://github.com/cramertj)
-* [withoutboats](https://github.com/withoutboats)
-* [Manishearth](https://github.com/Manishearth)
-* [jdm](https://github.com/jdm)
-* [Mark Simulacrum](https://github.com/Mark-Simulacrum)
-* petroclenkov
-* [Amit Levy](https://github.com/alevy)
-* [Leah and the RustConf team](http://rustconf.com/about.html)
-* [Ashley Williams](https://github.com/ashleygwilliams)
-* [dtolnay](https://github.com/dtolnay)
-* [KodrAus](https://github.com/KodrAus)
-* [Steve Klabnik](https://github.com/steveklabnik)
-* [tomaka](https://github.com/tomaka)
-* [bors](https://github.com/bors)
 
 # Updates from Rust Core
 
@@ -108,14 +97,13 @@ nominated people who have been awesome for the Rust community. And here they are
 
 ## New Contributors
 
-* adrian5
-* Anthony Clays
-* Anthony Defranceschi
-* Fourchaux
-* Hunter Praska
-* Martin Hoffmann
-* Seiichi Uchida
-* Shanavas M
+* David Ross
+* Evgeniy A. Dushistov
+* Jouan Amate
+* Matthew Hammer
+* Michal 'vorner' Vaner
+* Samuel Holland
+* Sebastian Humenda
 
 ## Approved RFCs
 
@@ -123,8 +111,9 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Amend RFC 1242 to require an RFC for deprecation of crates from the nursery](https://github.com/rust-lang/rfcs/pull/1983).
-* [RFC 1966: Unsafe pointer methods](https://github.com/rust-lang/rfcs/pull/1966).
+* [RFC 2008: Future-proofing enums/structs with `#[non_exhaustive]` attribute](https://github.com/rust-lang/rfcs/pull/2008).
+* [RFC 1925: Allow an optional vert at the beginning of a match branch](https://github.com/rust-lang/rfcs/pull/1925).
+* [RFC 2025: Enable nested method calls](https://github.com/rust-lang/rfcs/pull/2025).
 
 ## Final Comment Period
 
@@ -134,41 +123,43 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [disposition: merge] [Future-proofing enums/structs with `#[non_exhaustive]` attribute](https://github.com/rust-lang/rfcs/pull/2008).
 * [disposition: merge] [Add external doc attribute to rustc](https://github.com/rust-lang/rfcs/pull/1990).
-* [disposition: merge] [Allow an optional vert at the beginning of a match branch](https://github.com/rust-lang/rfcs/pull/1925).
-* [disposition: close] [Allow use of pipe operator in patterns](https://github.com/rust-lang/rfcs/pull/1882).
+* [disposition: merge] [Clamp function for primitive types](https://github.com/rust-lang/rfcs/pull/1961).
 * [disposition: merge] [Generic associated types (associated type constructors)](https://github.com/rust-lang/rfcs/pull/1598).
-* [disposition: merge] [Enable nested method calls](https://github.com/rust-lang/rfcs/pull/2025).
 * [disposition: merge] [Evolving Rust through checkpoints](https://github.com/rust-lang/rfcs/pull/2052).
+* [disposition: merge] [Allow Irrefutable Patterns in if-let and while-let statements](https://github.com/rust-lang/rfcs/pull/2086).
 
 ## New RFCs
 
-* [Argument-bound lifetimes](https://github.com/rust-lang/rfcs/pull/2115).
-* [Fully-qualified names in RustDocs](https://github.com/rust-lang/rfcs/pull/2114).
-* [Fallible collection allocation 1.0](https://github.com/rust-lang/rfcs/pull/2116).
-* [Debuggable macro expansions](https://github.com/rust-lang/rfcs/pull/2117).
-* [Crypto / rand trait & crate split](https://github.com/rust-lang/rfcs/pull/2118).
-* [Add the `()` → `Result<(), _>` coercion rule, for removing `Ok(())` everywhere](https://github.com/rust-lang/rfcs/pull/2120).
-* [`dyn Trait` syntax for trait objects: Take 2](https://github.com/rust-lang/rfcs/pull/2113).
-* [Autoreferencing `Copy` types](https://github.com/rust-lang/rfcs/pull/2111).
+* [Clarify and streamline paths and visibility](https://github.com/rust-lang/rfcs/pull/2126).
+* [Provide a community-wide banner server](https://github.com/rust-lang/rfcs/pull/2127).
+* [Nested groups in imports](https://github.com/rust-lang/rfcs/pull/2128).
+* [Crate changelogs](https://github.com/rust-lang/rfcs/pull/2129). Add changelog support to `cargo` and [crates.io](https://crates.io/).
+* [Copy/Clone closures](https://github.com/rust-lang/rfcs/pull/2132). Implement `Clone` and `Copy` for closures where possible.
+* [Compiler-generated Clone impls for arrays and tuples](https://github.com/rust-lang/rfcs/pull/2133).
+* [Add `Option::filter` to the standard library](https://github.com/rust-lang/rfcs/pull/2124).
 
 # Upcoming Events
 
-* [Aug 24. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Aug 30. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Aug 30. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Aug 31. Mozilla Community Dresden - Rust Meetup](https://www.meetup.com/Mozilla-Community-Dresden/events/242028333/).
 * [Aug 31. Rust NYC - Come learn about Rust](https://www.meetup.com/Rust-NYC/events/241866546/).
 * [Aug 31. Rust London - Rust learning and hacking evening #2](https://www.meetup.com/Rust-London-User-Group/events/242378000/).
 * [Aug 31. Cambridge Rust Meetup - Rust Study Group](https://www.meetup.com/Cambridge-Rust-Meetup/events/242409356/).
 * [Aug 31. Rust Roma Italy - Rust learning and hacking evening #1](https://www.meetup.com/Rust-Roma/events/242709171/).
+* [Aug 31. Rust Bay Area - GRPC and Turing Tarpits](https://www.meetup.com/Rust-Bay-Area/events/242797574/).
 * [Sep  4. Rust Zurich - September Community Meetup](https://www.meetup.com/de-DE/Rust-Zurich/events/242032911/).
-* [Sep  6. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/krnczlywmbjb/).
 * [Sep  6. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/241813161/).
 * [Sep  6. Rust Cologne - RFC Lightning Talks](https://www.meetup.com/RustCologne/events/242597353/).
 * [Sep  6. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Sep  6. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Sep  6. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/krnczlywmbjb/).
 * [Sep  7. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [Sep 11. Seattle Rust Monthly Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/242563613/).
+* [Sep 12. Rust Berlin Meetup - September 2017](https://www.meetup.com/Rust-Berlin/events/242564404/).
+* [Sep 13. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Sep 13. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Sep 14. Rust Washington, DC - Hacktember](https://www.meetup.com/RustDC/events/242847065/).
+* [Sep 14. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/242459785/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -178,17 +169,18 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Rust Systems Engineer at Immunant](http://immunant.com/page/002_rustacean/).
 * [Sr. Software Development Engineer at Amazon](https://www.amazon.jobs/en/jobs/559813/sr-software-development-engineer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> Rust, but verify.
+> Abomonation has no safe methods. […] If you are concerned about safety, it may be best to avoid Abomonation all together. It does several things that may be undefined behavior, depending on how undefined behavior is defined.
 
-— [@isislovecruft talking about elliptic curve cryptography in Rust at RustConf 2017](https://twitter.com/jcdyer/status/899058522930921472).
+— [Frank McSherry in Abomination docs](http://www.frankmcsherry.org/abomonation/abomonation/trait.Abomonation.html).
 
-Thanks to [llogiq](https://twitter.com/llogiq/status/899399721609035777) for the suggestion.
+Thanks to [Adwhit](https://users.rust-lang.org/t/twir-quote-of-the-week/328/435) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
