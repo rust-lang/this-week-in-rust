@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Generating C bindings for Rust crates with cbindgen](http://dreamingofbits.com/post/generating-c-bindings-for-rust-crates-with-cbindgen/)
+* [Midinight Commander syntax highlighting](https://github.com/chabapok/mc-rust-lang)
 
 # Crate of the Week
 
