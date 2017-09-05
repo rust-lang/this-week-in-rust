@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Generating C bindings for Rust crates with cbindgen](http://dreamingofbits.com/post/generating-c-bindings-for-rust-crates-with-cbindgen/)
+* [Fast JSON parser which picks up values directly without performing tokenization](https://github.com/pikkr/pikkr)
 
 # Crate of the Week
 
