@@ -16,18 +16,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* &#127880;&#127881; [Announcing Rust 1.20](https://blog.rust-lang.org/2017/08/31/Rust-1.20.html). &#127881;&#127880;
+* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.20](https://blog.rust-lang.org/2017/08/31/Rust-1.20.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
 * [Rust 2017 survey results](https://blog.rust-lang.org/2017/09/05/Rust-2017-Survey-Results.html).
 * [Welcome cramertj to the lang team](https://internals.rust-lang.org/t/welcome-cramertj-to-the-lang-team/5844)!
 * [elfmalloc performance evaluation - a pure Rust allocator that's competitive on performance with jemalloc](https://github.com/ezrosent/allocators-rs/blob/master/info/elfmalloc-performance.md).
 * [Announcing Rust Qt binding generator](https://www.vandenoever.info/blog/2017/09/04/rust_qt_binding_generator.html).
-* [Announcing a fast JSON parser which picks up values directly without performing tokenization](https://users.rust-lang.org/t/json-parser-which-picks-up-values-directly-without-performing-tokenization-in-rust/12680)
+* [Announcing a fast JSON parser which picks up values directly without performing tokenization](https://users.rust-lang.org/t/json-parser-which-picks-up-values-directly-without-performing-tokenization-in-rust/12680).
+* [Getting started with artifact - a design documentation tool](https://github.com/vitiral/artifact/blob/master/docs/QuickStart.md).
 * [5 tips for writing small CLI tools in Rust](https://deterministic.space/rust-cli-tips.html).
 * [Generating C bindings for Rust crates with cbindgen](http://dreamingofbits.com/post/generating-c-bindings-for-rust-crates-with-cbindgen/).
 * [Librsvg's build infrastructure: Autotools and Rust](https://people.gnome.org/~federico/blog/librsvg-build-infrastructure.html).
 * [Replacing a shells script with strongly typed Rust code](https://www.worthe-it.co.za/programming/2017/08/29/writing-git-hooks-using-rust.html).
-* [Getting started with artifact - a design documentation tool](https://github.com/vitiral/artifact/blob/master/docs/QuickStart.md).
-* [Outreachy: Wrapping up work on Rust Lifetime Errors](https://medium.com/@geekytwoshoes11/once-a-rustacean-always-a-rustacean-fed0a877472f)
+* [Outreachy: Wrapping up work on Rust Lifetime Errors](https://medium.com/@geekytwoshoes11/once-a-rustacean-always-a-rustacean-fed0a877472f).
 * [Rust Belt Rust 2017 sessions announced](http://rust-belt-rust.com/sessions.html?year=2017).
 * [This week in Rust docs 71](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-71).
 * [podcast] [Request for explanation #10 - Two paths diverged in a yellow wood](https://request-for-explanation.github.io/podcast/ep10-two-paths-diverged-in-a-yellow-wood/index.html). This week's RFC is [RFC 2126](https://github.com/rust-lang/rfcs/pull/2126) "Clarify and streamline paths and visibility" (aka "The modules RFC").
