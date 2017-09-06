@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Generating C bindings for Rust crates with cbindgen](http://dreamingofbits.com/post/generating-c-bindings-for-rust-crates-with-cbindgen/)
+* [Announcing a fast JSON parser which picks up values directly without performing tokenization](https://users.rust-lang.org/t/json-parser-which-picks-up-values-directly-without-performing-tokenization-in-rust/12680)
 * [Outreachy: Wrapping up work on Rust Lifetime Errors](https://medium.com/@geekytwoshoes11/once-a-rustacean-always-a-rustacean-fed0a877472f)
 
 # Crate of the Week
