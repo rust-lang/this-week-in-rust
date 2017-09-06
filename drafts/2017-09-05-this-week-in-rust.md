@@ -21,11 +21,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Welcome cramertj to the lang team](https://internals.rust-lang.org/t/welcome-cramertj-to-the-lang-team/5844)!
 * [elfmalloc performance evaluation - a pure Rust allocator that's competitive on performance with jemalloc](https://github.com/ezrosent/allocators-rs/blob/master/info/elfmalloc-performance.md).
 * [Announcing Rust Qt binding generator](https://www.vandenoever.info/blog/2017/09/04/rust_qt_binding_generator.html).
+* [Announcing a fast JSON parser which picks up values directly without performing tokenization](https://users.rust-lang.org/t/json-parser-which-picks-up-values-directly-without-performing-tokenization-in-rust/12680)
 * [5 tips for writing small CLI tools in Rust](https://deterministic.space/rust-cli-tips.html).
 * [Generating C bindings for Rust crates with cbindgen](http://dreamingofbits.com/post/generating-c-bindings-for-rust-crates-with-cbindgen/).
 * [Librsvg's build infrastructure: Autotools and Rust](https://people.gnome.org/~federico/blog/librsvg-build-infrastructure.html).
 * [Replacing a shells script with strongly typed Rust code](https://www.worthe-it.co.za/programming/2017/08/29/writing-git-hooks-using-rust.html).
 * [Getting started with artifact - a design documentation tool](https://github.com/vitiral/artifact/blob/master/docs/QuickStart.md).
+* [Outreachy: Wrapping up work on Rust Lifetime Errors](https://medium.com/@geekytwoshoes11/once-a-rustacean-always-a-rustacean-fed0a877472f)
 * [Rust Belt Rust 2017 sessions announced](http://rust-belt-rust.com/sessions.html?year=2017).
 * [This week in Rust docs 71](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-71).
 * [podcast] [Request for explanation #10 - Two paths diverged in a yellow wood](https://request-for-explanation.github.io/podcast/ep10-two-paths-diverged-in-a-yellow-wood/index.html). This week's RFC is [RFC 2126](https://github.com/rust-lang/rfcs/pull/2126) "Clarify and streamline paths and visibility" (aka "The modules RFC").
@@ -33,7 +35,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-Sadly, we had no nomination for the crate of the week.
+This week's crate is [brain](https://crates.io/crates/brain), a programming language transpiler to brainfuck of all things!
+Thank you, [icefoxen](https://users.rust-lang.org/u/icefoxen) for the weird suggestion. It's appreciated!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -63,33 +66,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 120 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-08-21..2017-08-28
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-08-28..2017-09-04
 
-* [Generator support](https://github.com/rust-lang/rust/pull/43076)
-* [warn by default on unused extern crates](https://github.com/rust-lang/rust/pull/42588)
-* [speed up APFloat divisions for small divisors](https://github.com/rust-lang/rust/pull/44051)
-* [generate builtin `Clone` impls](https://github.com/rust-lang/rust/pull/43690)
-* [no needless `min_stack` on thread spawn if user has set stack size](https://github.com/rust-lang/rust/pull/44054)
-* [`[T]::swap_with_slice(_)`](https://github.com/rust-lang/rust/pull/44031)
-* [handle OS errors on joining threads](https://github.com/rust-lang/rust/pull/44112)
-* [relax syntax path grammar](https://github.com/rust-lang/rust/pull/43540)
-* [desugar parenthesized generic arguments in HIR](https://github.com/rust-lang/rust/pull/43532)
-* [elaborate trait obligations while type checking impls](https://github.com/rust-lang/rust/pull/43786)
-* [fix length of arrays with zero-sized-typed components](https://github.com/rust-lang/rust/pull/44060)
-* [feature gate `fn_must_use`](https://github.com/rust-lang/rust/pull/43776) (sorry, no insta-stable)
-* [respect formatting flags for OSStr](https://github.com/rust-lang/rust/pull/43830)
-* [keep generic arguments out of attribute paths](https://github.com/rust-lang/rust/pull/43948)
-* [improve placement of `use` suggestions](https://github.com/rust-lang/rust/pull/43929)
-* [improve message on missing condition after `else if`](https://github.com/rust-lang/rust/pull/43854)
-* [the error emitter no longer confuses bytes with chars](https://github.com/rust-lang/rust/pull/44081)
-* [add let-bindings to the HIR parent map](https://github.com/rust-lang/rust/pull/43971)
-* [borrowck: name the correct type in error message](https://github.com/rust-lang/rust/pull/43993)
-* [querified MIR borrowck](https://github.com/rust-lang/rust/pull/44009)
-* [incr. comp.: Cache HIR-DepNodeIndices in HIR map](https://github.com/rust-lang/rust/pull/44012)
-* [fix missing `EndRegion`s because of faulty lookup](https://github.com/rust-lang/rust/pull/44082)
-* [fix trait constraint cycle detection](https://github.com/rust-lang/rust/pull/44071)
-* [avoid duplication in rustdoc](https://github.com/rust-lang/rust/pull/43966)
-* [rustdoc: Add links to impls](https://github.com/rust-lang/rust/pull/43979)
+* [mark allocation functions as `nounwind`](https://github.com/rust-lang/rust/pull/44049)
+* [`String::splice` no longer returns a `Splice`](https://github.com/rust-lang/rust/pull/44044)
+* [libsyntax `Span` fields are now private](https://github.com/rust-lang/rust/pull/43968) (plugin-breaking)
+* [`align_offset` intrinsic](https://github.com/rust-lang/rust/pull/43903)
+* [clippy is now a submodule](https://github.com/rust-lang/rust/pull/43886)
+* [`method::probe` no longer does hacky trait selection](https://github.com/rust-lang/rust/pull/43880) (some breakage, see [#44224](https://github.com/rust-lang/rust/issues/44224))
+* [`errors::Handler::reset_err_count`](https://github.com/rust-lang/rust/pull/43778)
+* [`core::option::Option<&mut T>::cloned`](https://github.com/rust-lang/rust/pull/43705)
+* [fix `alloc_jemalloc` `debug` feature](https://github.com/rust-lang/rust/pull/43648)
+* [warn when rustdoc HTML rendering differs](https://github.com/rust-lang/rust/pull/41991)
+* [fix `proc_macro` expansion on trait methods](https://github.com/rust-lang/rust/pull/44089)
+* [fix reachability with cross-crate generators](https://github.com/rust-lang/rust/pull/44202)
+* [generalize `on_unimplemented`](https://github.com/rust-lang/rust/pull/44191) (allows to generate better compiler errors)
+* [`CodeExtent` now uses `ItemLocalId` instead of `NodeId`](https://github.com/rust-lang/rust/pull/44171)
+* [Allow `|` prefix in match arms](https://github.com/rust-lang/rust/pull/44108) (RFC [#1925](https://github.com/rust-lang/rfcs/blob/master/text/1925-optional-match-vert.md))
+* [stabilize `mem::discriminant`](https://github.com/rust-lang/rust/pull/44263)
+* [flag 128-bit integers as FFI-unsafe](https://github.com/rust-lang/rust/pull/44261)
 
 ## New Contributors
 
