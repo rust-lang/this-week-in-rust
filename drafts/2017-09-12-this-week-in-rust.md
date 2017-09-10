@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Implementing the Read trait for strings](https://codingwithglee.blogspot.de/2017/09/a-stringreader-in-rust.html)
+
 # Crate of the Week
 
 This week's crate is [brain](https://crates.io/crates/brain), a programming language transpiler to brainfuck of all things!
