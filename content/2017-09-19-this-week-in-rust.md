@@ -22,7 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust By Example has been ported to mdBook](https://github.com/rust-lang/rust-by-example/pull/897).
 * [Rust is one of the most energy efficient languages](https://sites.google.com/view/energy-efficiency-languages).
 * [This week in Rust docs 73](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-73).
-* [podcast] [New Rustacean - crates you show know: Rayon](http://www.newrustacean.com/show_notes/cysk/rocket/). Safe, threaded, parallel code in Rust!
+* [podcast] [New Rustacean - crates you show know: Rayon](http://www.newrustacean.com/show_notes/cysk/rayon/). Safe, threaded, parallel code in Rust!
 
 # Crate of the Week
 
