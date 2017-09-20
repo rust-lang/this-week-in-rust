@@ -16,6 +16,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [impl Future for Rust](https://blog.rust-lang.org/2017/09/18/impl-future-for-rust.html). An update on 2017 roadmap.
+* [Josh Triplett joins the Cargo team](https://internals.rust-lang.org/t/please-welcome-josh-triplett-to-the-cargo-team/5898).
+* [Discover the world of microcontrollers through Rust](https://japaric.github.io/discovery/).
+* [Rust By Example has been ported to mdBook](https://github.com/rust-lang/rust-by-example/pull/897).
+* [Rust is one of the most energy efficient languages](https://sites.google.com/view/energy-efficiency-languages).
+* [This week in Rust docs 73](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-73).
+* [podcast] [New Rustacean - crates you show know: Rayon](http://www.newrustacean.com/show_notes/cysk/rocket/). Safe, threaded, parallel code in Rust!
+
 # Crate of the Week
 
 This week's crate is [pikkr](https://github.com/pikkr/pikkr), a JSON parser that can extract values without tokenization and is blazingly fast using AVX2 instructions,
@@ -32,27 +40,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [less easy] [bindgen: Allow specifying certain types we shouldn't derive/impl Debug for](https://github.com/rust-lang-nursery/rust-bindgen/issues/961).
-* [less easy] [bindgen: Allow specifying certain types we shouldn't derive/impl Copy for](https://github.com/rust-lang-nursery/rust-bindgen/issues/962).
-* [less easy] [bindgen: Allow specifying certain types we shouldn't derive/impl Default for](https://github.com/rust-lang-nursery/rust-bindgen/issues/963).
-* [less easy] [bindgen: Allow specifying certain types we shouldn't derive/impl Hash for](https://github.com/rust-lang-nursery/rust-bindgen/issues/964).
-* [less easy] [bindgen: Allow specifying certain types we shouldn't derive/impl PartialEq for](https://github.com/rust-lang-nursery/rust-bindgen/issues/965).
-* [easy] [bindgen: bindgen generates erroneous rust code: error: expected identifier, found `_`](https://github.com/rust-lang-nursery/rust-bindgen/issues/631).
-* [less easy] [bindgen: Rewrite `is_unsized` as a fix-point analysis](https://github.com/rust-lang-nursery/rust-bindgen/issues/768).
-* [less easy] [bindgen: Large bitfield causes compilation failures re: `derive(Debug)`](https://github.com/rust-lang-nursery/rust-bindgen/issues/982).
-* [easy] [bindgen: Add a `Builder::blacklist_type` method; deprecate `Builder::hide_type`](https://github.com/rust-lang-nursery/rust-bindgen/issues/984).
-* [easy] [bindgen: Add `Builder::whitelist_function`; deprecate `Builder::whitelisted_function`](https://github.com/rust-lang-nursery/rust-bindgen/issues/985).
-* [easy] [bindgen:  Add `Builder::whitelist_var`; deprecate `Builder::whitelisted_var`](https://github.com/rust-lang-nursery/rust-bindgen/issues/986).
-* [easy] [bindgen: Add `Builder::whitelist_type`; deprecate `Builder::whitelisted_type`](https://github.com/rust-lang-nursery/rust-bindgen/issues/987).
-* [easy] [bindgen: TemplateParameters' methods should just return a Vec, not an Option<Vec>](https://github.com/rust-lang-nursery/rust-bindgen/issues/960).
-* [easy] [bindgen: Make BindgenOptions be pub(crate)](https://github.com/rust-lang-nursery/rust-bindgen/issues/958).
-* [medium] [allocators-rs: elfmalloc: Handle thread-local storage on platforms without `#[thread_local]`](https://github.com/ezrosent/allocators-rs/issues/54).
-* [medium] [allocators-rs: slab-alloc: Create mechanism for supporting time in no-std and no-os](https://github.com/ezrosent/allocators-rs/issues/3).
-* [medium] [allocators-rs: bsalloc: Support allocation failures](https://github.com/ezrosent/allocators-rs/issues/4).
-* [easy] [allocators-rs: Add links in documentation](https://github.com/ezrosent/allocators-rs/issues/1).
-* [medium] [allocators-rs: Travis: Spurious test failures on Mac](https://github.com/ezrosent/allocators-rs/issues/36).
-* [easy] [allocators-rs: AppVeyor: Mark appveyor.sh files executable](https://github.com/ezrosent/allocators-rs/issues/67).
-* [easy] [allocators-rs: test-scripts/check-copyright-comments.sh: Fix comment typo](https://github.com/ezrosent/allocators-rs/issues/70).
+* [Findwork: Find something Rusty to work on](https://www.rustaceans.org/findwork/). An entry point to a number of open issues across the Rust project.
+* [Help us libz blitz this impl period](https://www.reddit.com/r/rust/comments/70zi34/help_us_libz_blitz_this_impl_period/)!
+* [Libz blitz: Out-of-band crate evaluation for 2017-10-09: semver](https://internals.rust-lang.org/t/out-of-band-crate-evaluation-for-2017-10-09-semver/5929).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -92,17 +82,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* bgermann
-* Douglas Campos
-* Ethan Dagner
-* Jacob Kiesel
-* John Colanduoni
-* Lance Roy
-* Mark
-* MarkMcCaskey
-* Max Comstock
-* toidiu
-* Zaki Manian
+* 42triangles
+* David Adler
+* Gauri Kholkar
+* Ixrec
+* J. Cliff Dyer
+* Michal Budzynski
+* rwakulszowa
+* smt923
+* Trevor Merrifield
 
 ## Approved RFCs
 
@@ -110,15 +98,14 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2115: In-band lifetime bindings](https://github.com/rust-lang/rfcs/pull/2115).
-* [RFC 2128: Nested groups in imports](https://github.com/rust-lang/rfcs/pull/2128).
-* [RFC 2089: Implied bounds](https://github.com/rust-lang/rfcs/pull/2089).
-* [RFC 2132: Copy/Clone closures](https://github.com/rust-lang/rfcs/pull/2132).
-* [RFC 2086: Allow Irrefutable Patterns in if-let and while-let statements](https://github.com/rust-lang/rfcs/pull/2086).
-* [RFC 2043: Add `align_offset` intrinsic and `[T]::align_to` function](https://github.com/rust-lang/rfcs/pull/2043).
-* [RFC 2070: stable mechanism to specify the behavior of panic! in no-std applications](https://github.com/rust-lang/rfcs/pull/2070).
-* [RFC 2093: Infer `T: 'x` outlives requirements on structs](https://github.com/rust-lang/rfcs/pull/2093).
-* [RFC 2133: Compiler-generated Clone impls for arrays and tuples](https://github.com/rust-lang/rfcs/pull/2133).
+* [RFC 2052: Evolving Rust through Epochs](https://github.com/rust-lang/rfcs/pull/2052).
+* [RFC 2000: Const generics](https://github.com/rust-lang/rfcs/pull/2000).
+* [RFC 1977: Introduce a public/private distinction to crate dependencies](https://github.com/rust-lang/rfcs/pull/1977).
+* [RFC 2126: Clarify and streamline paths and visibility](https://github.com/rust-lang/rfcs/pull/2126).
+* [RFC 2071: Named existentials and impl Trait variable declarations](https://github.com/rust-lang/rfcs/pull/2071).
+* [RFC 1826: Change the default URL of doc.rust-lang.org](https://github.com/rust-lang/rfcs/pull/1826).
+* [RFC 2103: Attributes for tools, 2.0](https://github.com/rust-lang/rfcs/pull/2103).
+* [RFC 2113: `dyn Trait` syntax for trait objects: Take 2](https://github.com/rust-lang/rfcs/pull/2113).
 
 ## Final Comment Period
 
@@ -128,57 +115,45 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [disposition: merge] [`dyn Trait` syntax for trait objects: Take 2](https://github.com/rust-lang/rfcs/pull/2113).
-* [disposition: merge] [Introduce a public/private distinction to crate dependencies](https://github.com/rust-lang/rfcs/pull/1977).
+* [disposition: merge] [Non-lexical lifetimes](https://github.com/rust-lang/rfcs/pull/2094).
 * [disposition: merge] [Fallible collection allocation 1.0](https://github.com/rust-lang/rfcs/pull/2116).
-* [disposition: merge] [Autoreferencing `Copy` types](https://github.com/rust-lang/rfcs/pull/2111).
-* [disposition: merge] [Attributes for tools, 2.0](https://github.com/rust-lang/rfcs/pull/2103).
-* [disposition: merge] [Add impl Trait type alias and variable declarations](https://github.com/rust-lang/rfcs/pull/2071).
-* [disposition: merge] [Evolving Rust through Epochs](https://github.com/rust-lang/rfcs/pull/2052).
+* [disposition: merge] [Implicit caller location (third try to the unwrap/expect line info problem)](https://github.com/rust-lang/rfcs/pull/2091).
+* [disposition: postpone] [Infer function signatures from trait declaration into 'impl's](https://github.com/rust-lang/rfcs/pull/2063).
 * [disposition: merge] [`cfg!(target_feature)` and `#[target_feature]`](https://github.com/rust-lang/rfcs/pull/2045).
-* [disposition: postpone] [Allow comparisons between integers of different types](https://github.com/rust-lang/rfcs/pull/2021).
-* [disposition: merge] [Const generics](https://github.com/rust-lang/rfcs/pull/2000).
+* [disposition: merge] [Make the `assert!` macro generic to all expressions, and extend the readability of debug dumps](https://github.com/rust-lang/rfcs/pull/2011).
 * [disposition: merge] [Add external doc attribute to rustc](https://github.com/rust-lang/rfcs/pull/1990).
-* [disposition: merge] [Change the default URL of doc.rust-lang.org](https://github.com/rust-lang/rfcs/pull/1826).
-* [disposition: merge] [Clarify and streamline paths and visibility](https://github.com/rust-lang/rfcs/pull/2126).
+* [disposition: postpone] [Tuple-based variadic generics](https://github.com/rust-lang/rfcs/pull/1935).
+* [disposition: merge] [Unsized Rvalues](https://github.com/rust-lang/rfcs/pull/1909).
+* [disposition: postpone] [`'fn` lifetime ascription](https://github.com/rust-lang/rfcs/pull/1847). Add a `'fn` lifetime that is bound to the scope of the body of the current innermost function or closure.
+* [disposition: postpone] [Default struct field values](https://github.com/rust-lang/rfcs/pull/1806).
+* [disposition: postpone] [Introduce `Option::<&T>::borrowed`](https://github.com/rust-lang/rfcs/pull/1792).
+* [disposition: merge] [Support defining C-compatible variadic functions in Rust](https://github.com/rust-lang/rfcs/pull/2137).
+* [disposition: merge] [Add support to Cargo for alternative registries](https://github.com/rust-lang/rfcs/pull/2141).
 
 ## New RFCs
 
-* [Add support to Cargo for alternative registries](https://github.com/rust-lang/rfcs/pull/2141).
-* [Type privacy and private-in-public lints](https://github.com/rust-lang/rfcs/pull/2145).
-* [Allow autoderef and autoref in operators](https://github.com/rust-lang/rfcs/pull/2147).
-* [Adding unsafe modules and unsafe blocks outside functions](https://github.com/rust-lang/rfcs/pull/2148).
-* [Add match/in statements](https://github.com/rust-lang/rfcs/pull/2144).
-
-## Style RFCs
-
-[Style RFCs](https://github.com/rust-lang-nursery/fmt-rfcs) are part of the process for deciding on style guidelines for the Rust community and defaults for [Rustfmt](https://github.com/rust-lang-nursery/rustfmt). The process is similar to the RFC process, but we try to reach rough consensus on issues (including a final comment period) before progressing to PRs. Just like the RFC process, all users are welcome to comment and submit RFCs. If you want to help decide what Rust code should look like, come get involved!
-
-The RFC style is now the default style in Rustfmt - try it out and let us know what you think!
-
-We're currently writing up the discussions, we'd love some help. Check out [the tracking issue](https://github.com/rust-lang-nursery/fmt-rfcs/issues/89) for details.
-
-PRs:
-
-* [ranges and blocks](https://github.com/rust-lang-nursery/fmt-rfcs/pull/91)
+* [Raw Identifiers](https://github.com/rust-lang/rfcs/pull/2151). Add a raw identifier format `r#ident`, so crates written in future language epochs/versions can still use an older API that overlaps with new keywords.
+* [new `rand_core` crate, `rand` adaptations](https://github.com/rust-lang/rfcs/pull/2152).
+* [Debuginfo-based panic locations](https://github.com/rust-lang/rfcs/pull/2154).
 
 # Upcoming Events
 
-* [Sep 14. Rust Washington, DC - Hacktember](https://www.meetup.com/RustDC/events/242847065/).
-* [Sep 14. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/242459785/).
-* [Sep 14. St. Petersburg, Russia - Game Development in Rust](https://www.meetup.com/Rust-%D0%B2-%D0%9F%D0%B8%D1%82%D0%B5%D1%80%D0%B5/events/242219775/).
-* [Sep 20. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Sep 20. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [Sep 20. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/242793549/).
 * [Sep 21. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [Sep 23: Rust Hungary Kickoff](https://www.meetup.com/Rust-Hungary-Meetup/events/242955063/).
 * [Sep 24. Rust Indonesia - Level up Your Knowledge on Rust](https://www.eventbrite.com/e/level-up-your-knowledge-on-rust-tickets-36755777520).
 * [Sep 25. Rust Paris Meetup #38](https://www.meetup.com/Rust-Paris/events/243110057/).
+* [Sep 25. Rust Durham, NC - Becoming a Contributor / Chris Krycho](https://www.meetup.com/triangle-rustaceans/events/243047099/).
 * [Sep 27. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Sep 27. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Sep 28. Mozilla Community Dresden - Rust Meetup](https://www.meetup.com/Mozilla-Community-Dresden/events/242610304/).
-* [Sep 30 - Oct 1. RustFest Zürich](http://zurich.rustfest.eu).
+* **[Sep 30 - Oct 1. RustFest Zürich](http://zurich.rustfest.eu).**
 * [Sep 30. Rust Mexico #8: Taller Introductorio a Rust y Rocket](https://www.meetup.com/Rust-MX/events/243334902/).
 * [Oct  2 - Oct 3. Impl Days at RustFest Zürich](https://github.com/RustFestEU/blog.rustfest.eu/issues/29).
+* [Oct  4. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Oct  4. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/243164851/).
+* [Oct  4. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Oct  4. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/243084182/).
+* [Oct  5. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -188,19 +163,24 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-*No jobs listed for this week.*
+* [Rust developers at Æternity](https://blog.aeternity.com/join-the-t%C3%A6m-rust-or-erlang-devs-wanted-31908daba788).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
->> When programmers are saying that there are a lot of bicycles in code that means that it contains reimplementations of freely available libraries instead of using them
->
-> Presumably the metric for this would be bicyclomatic complexity?
+> \<heycam\> one of the best parts about stylo has been how much easier it has been to implement these style system optimizations that we need, because Rust
+> \<heycam\> can you imagine if we needed to implement this all in C++ in the timeframe we have
+> \<bholley\> heycam: yeah srsly
+> \<bholley\> heycam: it's so rare that we get fuzz bugs in rust code
+> \<bholley\> heycam: considering all the complex stuff we're doing
+> * heycam remembers getting a bunch of fuzzer bugs from all kinds of style system stuff in gecko
+> \<bholley\> heycam: think about how much time we could save if each one of those annoying compiler errors today was swapped for a fuzz bug tomorrow :-)
+> \<njn\> you guys sound like an ad for Rust
 
-— [/u/tomwhoiscontrary on reddit](https://www.reddit.com/r/rust/comments/6zdvza/my_experience_participating_in_highload_cup_re/dmuoydx/).
+— [Conversation between some long-time Firefox developers](http://logs.glob.uno/?c=mozilla%23servo&s=13+Sep+2017&e=13+Sep+2017#c751661).
 
-Thanks to [Matt Ickstadt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/443) for the suggestion.
+Thanks to [Josh Matthews](https://users.rust-lang.org/t/twir-quote-of-the-week/328/452) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
