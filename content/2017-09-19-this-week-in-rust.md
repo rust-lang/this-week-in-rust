@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [impl Future for Rust](https://blog.rust-lang.org/2017/09/18/impl-future-for-rust.html). An update on 2017 roadmap.
+* [impl Future for Rust](https://blog.rust-lang.org/2017/09/18/impl-future-for-rust.html). Announcing the Rust "Impl period"!
 * [Josh Triplett joins the Cargo team](https://internals.rust-lang.org/t/please-welcome-josh-triplett-to-the-cargo-team/5898).
 * [Discover the world of microcontrollers through Rust](https://japaric.github.io/discovery/).
 * [Rust By Example has been ported to mdBook](https://github.com/rust-lang/rust-by-example/pull/897).
@@ -126,21 +126,21 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [disposition: merge] [Non-lexical lifetimes](https://github.com/rust-lang/rfcs/pull/2094).
 * [disposition: merge] [Fallible collection allocation 1.0](https://github.com/rust-lang/rfcs/pull/2116).
 * [disposition: merge] [Implicit caller location (third try to the unwrap/expect line info problem)](https://github.com/rust-lang/rfcs/pull/2091).
-* [disposition: postpone] [Infer function signatures from trait declaration into 'impl's](https://github.com/rust-lang/rfcs/pull/2063).
 * [disposition: merge] [`cfg!(target_feature)` and `#[target_feature]`](https://github.com/rust-lang/rfcs/pull/2045).
 * [disposition: merge] [Make the `assert!` macro generic to all expressions, and extend the readability of debug dumps](https://github.com/rust-lang/rfcs/pull/2011).
 * [disposition: merge] [Add external doc attribute to rustc](https://github.com/rust-lang/rfcs/pull/1990).
-* [disposition: postpone] [Tuple-based variadic generics](https://github.com/rust-lang/rfcs/pull/1935).
-* [disposition: merge] [Unsized Rvalues](https://github.com/rust-lang/rfcs/pull/1909).
-* [disposition: postpone] [`'fn` lifetime ascription](https://github.com/rust-lang/rfcs/pull/1847). Add a `'fn` lifetime that is bound to the scope of the body of the current innermost function or closure.
-* [disposition: postpone] [Default struct field values](https://github.com/rust-lang/rfcs/pull/1806).
-* [disposition: postpone] [Introduce `Option::<&T>::borrowed`](https://github.com/rust-lang/rfcs/pull/1792).
+* [disposition: merge] [Unsized rvalues](https://github.com/rust-lang/rfcs/pull/1909).
 * [disposition: merge] [Support defining C-compatible variadic functions in Rust](https://github.com/rust-lang/rfcs/pull/2137).
 * [disposition: merge] [Add support to Cargo for alternative registries](https://github.com/rust-lang/rfcs/pull/2141).
+* [disposition: postpone] [`'fn` lifetime ascription](https://github.com/rust-lang/rfcs/pull/1847). Add a `'fn` lifetime that is bound to the scope of the body of the current innermost function or closure.
+* [disposition: postpone] [Tuple-based variadic generics](https://github.com/rust-lang/rfcs/pull/1935).
+* [disposition: postpone] [Default struct field values](https://github.com/rust-lang/rfcs/pull/1806).
+* [disposition: postpone] [Infer function signatures from trait declaration into 'impl's](https://github.com/rust-lang/rfcs/pull/2063).
+* [disposition: postpone] [Introduce `Option::<&T>::borrowed`](https://github.com/rust-lang/rfcs/pull/1792).
 
 ## New RFCs
 
-* [Raw Identifiers](https://github.com/rust-lang/rfcs/pull/2151). Add a raw identifier format `r#ident`, so crates written in future language epochs/versions can still use an older API that overlaps with new keywords.
+* [Raw identifiers](https://github.com/rust-lang/rfcs/pull/2151). Add a raw identifier format `r#ident`, so crates written in future language epochs/versions can still use an older API that overlaps with new keywords.
 * [new `rand_core` crate, `rand` adaptations](https://github.com/rust-lang/rfcs/pull/2152).
 * [Debuginfo-based panic locations](https://github.com/rust-lang/rfcs/pull/2154).
 
@@ -177,14 +177,14 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> \<heycam\> one of the best parts about stylo has been how much easier it has been to implement these style system optimizations that we need, because Rust
-> \<heycam\> can you imagine if we needed to implement this all in C++ in the timeframe we have
-> \<bholley\> heycam: yeah srsly
-> \<bholley\> heycam: it's so rare that we get fuzz bugs in rust code
-> \<bholley\> heycam: considering all the complex stuff we're doing
+> <heycam\> one of the best parts about stylo has been how much easier it has been to implement these style system optimizations that we need, because Rust
+> <heycam\> can you imagine if we needed to implement this all in C++ in the timeframe we have
+> <bholley\> heycam: yeah srsly
+> <bholley\> heycam: it's so rare that we get fuzz bugs in rust code
+> <bholley\> heycam: considering all the complex stuff we're doing
 > * heycam remembers getting a bunch of fuzzer bugs from all kinds of style system stuff in gecko
-> \<bholley\> heycam: think about how much time we could save if each one of those annoying compiler errors today was swapped for a fuzz bug tomorrow :-)
-> \<njn\> you guys sound like an ad for Rust
+> <bholley\> heycam: think about how much time we could save if each one of those annoying compiler errors today was swapped for a fuzz bug tomorrow :-)
+> <njn\> you guys sound like an ad for Rust
 
 — [Conversation between some long-time Firefox developers](http://logs.glob.uno/?c=mozilla%23servo&s=13+Sep+2017&e=13+Sep+2017#c751661).
 
