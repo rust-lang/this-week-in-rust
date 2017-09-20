@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [podcast] [New Rustacean: Crates You Should Know: Rayon](http://www.newrustacean.com/show_notes/cysk/rayon/)
+
 # Crate of the Week
 
 This week's crate is [pikkr](https://github.com/pikkr/pikkr), a JSON parser that can extract values without tokenization and is blazingly fast using AVX2 instructions,
