@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Rust docs 74](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-74).
 * [These weeks in dev-tools, issue 2](https://www.ncameron.org/blog/these-weeks-in-dev-tools-issue-2/).
 * [This week in Redox 29](https://redox-os.org/news/this-week-in-redox-29/).
+* [podcast] [Request for explanation 11 - Cargo culting the build system](https://request-for-explanation.github.io/podcast/ep11-cargo-culting-the-build-system/index.html). This week's topic is [eRFC 2136](https://github.com/rust-lang/rfcs/pull/2136) "Cargo build system integration".
 
 # Crate of the Week
 
