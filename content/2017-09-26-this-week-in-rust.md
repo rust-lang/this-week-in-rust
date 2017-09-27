@@ -18,7 +18,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Security advisory for crates.io, 2017-09-19](https://users.rust-lang.org/t/security-advisory-for-crates-io-2017-09-19/12960).
 * [kennytm joins the Rust infrastructure team](https://internals.rust-lang.org/t/please-welcome-kennytm-to-the-infrastructure-team/5944).
-* [mrustc is an alternative Rust compiler written in C++](https://github.com/thepowersgang/mrustc).
 * [How the RLS works](https://www.ncameron.org/blog/how-the-rls-works/).
 * [An RFC for a Tokio revamp](https://tokio.rs/blog/tokio-reform/).
 * [Rewriting a Java application in Rust](https://blog.rom1v.com/2017/09/gnirehtet-rewritten-in-rust/).
