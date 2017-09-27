@@ -15,6 +15,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+- [Password Manager In Rust Using Argon2](http://vitiral.github.io/2017/09/12/password-manager-in-rust-using-argon2.html): how writing my second (rust) CLI
+  was fun and easy.
 
 # Crate of the Week
 
