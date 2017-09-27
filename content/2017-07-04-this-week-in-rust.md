@@ -27,7 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [DLL hooking in Rust](https://github.com/Verideth/dll_hook-rs). Rust code to show how hooking in rust with a dll works.
 * [This week in Rust docs 62](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-62).
 * [podcast] [Request for explanation #1 - Constermash](https://request-for-explanation.github.io/podcast/ep1-constermash/index.html).
-* [podcast] [New Rustacean - crates you show know: Rocket](http://www.newrustacean.com/show_notes/cysk/rocket/). An accessible, well-designed web framework in Rust!
+* [podcast] [New Rustacean - crates you should know: Rocket](http://www.newrustacean.com/show_notes/cysk/rocket/). An accessible, well-designed web framework in Rust!
 * [video] [Bootstrapping embedded development in Rust by James Munns](https://youtu.be/SOTh6Bu_0OM).
 
 # Crate of the Week
