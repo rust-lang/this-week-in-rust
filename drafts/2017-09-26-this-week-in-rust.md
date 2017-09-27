@@ -29,8 +29,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [rug](https://crates.io/crates/rug), a crate providing arbitrary-precision integers, rationals and floating-point numbers, using GMP, MPFR and MPC.
-Thank you, [Trevor Spiteri](https://users.rust-lang.org/u/tspiteri) for the suggestion!
+This week's crate is [rustbreak](https://crates.io/crates/rustbreak), a crate providing simple single-file storage to e.g. persist settings.
+Thank you, [Dieter Konrad](https://users.rust-lang.org/u/dkotrada) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -57,43 +57,43 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-160 pull requests were [merged in the last week][merged]
+157 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-09-04..2017-09-11
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-09-18..2017-09-25
 
-* [accept underscores in unicode escapes](https://github.com/rust-lang/rust/pull/43716)
-* [evaluate fixed-length array length expressions lazily](https://github.com/rust-lang/rust/pull/44275)
-* [remove overzealous Box<ZeroSizeType> optimization](https://github.com/rust-lang/rust/pull/44553)
-* [fix end region emission order](https://github.com/rust-lang/rust/pull/44129)
-* [fix regression in promotion of rvalues referencing a static](https://github.com/rust-lang/rust/pull/44442)
-* [fix "new trace_macros doesn't work if there's an error during expansion"](https://github.com/rust-lang/rust/pull/44088)
-* [remove `HirId` from queries](https://github.com/rust-lang/rust/pull/44435)
-* [remove `Session::dep_graph`](https://github.com/rust-lang/rust/pull/44502)
-* [get `allow(unused_mut)` to work on `let` bindings](https://github.com/rust-lang/rust/pull/44590)
-* [Fix mispositioned error indicators](https://github.com/rust-lang/rust/pull/44386)
-* [run the miri test suite on the aux builder and travis](https://github.com/rust-lang/rust/pull/43628) (will make future type system work easier)
-* [autodetect the type of allocator crate used](https://github.com/rust-lang/rust/pull/44133)
-* [preallocate when building the dep graph](https://github.com/rust-lang/rust/pull/44586) (good memory savings)
-* [remove rustc_bitflags; use the bitflags crate](https://github.com/rust-lang/rust/pull/44441)
-* [specialize `<FlatMap as Iterator>::fold`](https://github.com/rust-lang/rust/pull/44577) (great speedup)
-* [`Ipv4Addr` and `Ipv6Addr` convenience constructors](https://github.com/rust-lang/rust/pull/44395)
-* [add `_.or_default()` to `Entry` APIs](https://github.com/rust-lang/rust/pull/44344)
-* [additional traits for `std::mem::ManuallyDrop`](https://github.com/rust-lang/rust/pull/44310)
-* [implement `<Rc<Any>>::downcast`](https://github.com/rust-lang/rust/pull/44273)
-* [implement `Arc`/`Rc` raw pointer conversions for `?Sized`](https://github.com/rust-lang/rust/pull/44073)
-* [`impl Hasher for` {`&mut Hasher`, `Box<Hasher>`}](https://github.com/rust-lang/rust/pull/44015)
-* [remove `Borrow` bound from `SliceExt::binary_search`](https://github.com/rust-lang/rust/pull/43989)
-* [implement unsafe pointer methods](https://github.com/rust-lang/rust/pull/43964)
-* [individualize feature gates for `const fn` invocation](https://github.com/rust-lang/rust/pull/43017)
-* [remove deprecated lang items](https://github.com/rust-lang/rust/pull/44526)
-* [stabilize `iterator_for_each`](https://github.com/rust-lang/rust/pull/44567)
-* [stabilize `drop_types_in_const`](https://github.com/rust-lang/rust/pull/44456)
-* [stabilize `tcpstream_connect_timeout`](https://github.com/rust-lang/rust/pull/44563)
-* [stabilize `compiler_fences`](https://github.com/rust-lang/rust/pull/44595)
-* [stabilize `ord_max_min`](https://github.com/rust-lang/rust/pull/44593)
-* [rustdoc: Compile fail stable](https://github.com/rust-lang/rust/pull/43949)
-* [cargo: Infer targets from subdirectories](https://github.com/rust-lang/cargo/pull/4496)
-* [crates.io sends an email to a user to confirm their email address](https://github.com/rust-lang/crates.io/pull/1045)
+* [incr.comp.: Add new DepGraph implementation](https://github.com/rust-lang/rust/pull/44772)
+* [Use memoized hashes when hashing Fingerprint](https://github.com/rust-lang/cargo/pull/4521)
+* [Don't visit the same unit multiple times](https://github.com/rust-lang/cargo/pull/4520) (fixes perf regression)
+* [Make the fallback of generator resumption be unreachable instead of using return](https://github.com/rust-lang/rust/pull/44747)
+* [Include unary operator to span for `ExprKind::Unary`](https://github.com/rust-lang/rust/pull/44746)
+* [Make `-Z borrowck-mir` imply that `EndRegion`'s should be emitted](https://github.com/rust-lang/rust/pull/44717)
+* [Move effect-checking to MIR](https://github.com/rust-lang/rust/pull/44700)
+* [Implement underscore lifetimes](https://github.com/rust-lang/rust/pull/44691)
+* [Add iterator method `.rfold(init, function)` the reverse of fold](https://github.com/rust-lang/rust/pull/44682)
+* [rustbuild: with --no-fail-fast, report the specific commands that failed](https://github.com/rust-lang/rust/pull/44680)
+* [Add clippy to `toolstate.toml`](https://github.com/rust-lang/rust/pull/44679) (one more step to a stable clippy)
+* [Compress most of spans to 32 bits](https://github.com/rust-lang/rust/pull/44646) (memory savings + modest speedup)
+* [Improve diagnostics when attempting to match tuple enum variant with struct pattern](https://github.com/rust-lang/rust/pull/44786)
+* [Stabilized vec_splice and modified splice tracking issue](https://github.com/rust-lang/rust/pull/44640)
+* [Record semantic types for all syntactic types in bodies](https://github.com/rust-lang/rust/pull/44633)
+* [`--cap-lints allow` switches off `can_emit_warnings`](https://github.com/rust-lang/rust/pull/44627)
+* [Forbid interpolated tokens in the HIR](https://github.com/rust-lang/rust/pull/44601)
+* [cargo_compile: iterate packages once, not three times](https://github.com/rust-lang/cargo/pull/4494)
+* [Add pub visibility for methods as well](https://github.com/rust-lang/rust/pull/44554)
+* [Implement `Copy`/`Clone` for closures](https://github.com/rust-lang/rust/pull/44551)
+* [Refactor translation unit partitioning/collection as a query](https://github.com/rust-lang/rust/pull/44529)
+* [Correctly bubble up errors from libbacktrace](https://github.com/rust-lang/rust/pull/44525)
+* [Add `Cow<str>` → `Box<Error>` impls](https://github.com/rust-lang/rust/pull/44466)
+* [Add Duration::from_micros](https://github.com/rust-lang/rust/pull/44436)
+* [Only consider yields coming after the expressions when computing generator interiors](https://github.com/rust-lang/rust/pull/44392)
+* [Optimize drain_filter](https://github.com/rust-lang/rust/pull/44355)
+* [Improve how rustdoc warnings are displayed](https://github.com/rust-lang/rust/pull/44350)
+* [Require rlibs for dependent crates when linking static executables](https://github.com/rust-lang/rust/pull/44279)
+* [don't suggest placing `use` statements into expanded code](https://github.com/rust-lang/rust/pull/44215)
+* [add comparison operators to must-use lint](https://github.com/rust-lang/rust/pull/44103)
+* [Allow writing metadata without llvm](https://github.com/rust-lang/rust/pull/44085)
+* [only set non-ADT derive error once per attribute, not per trait](https://github.com/rust-lang/rust/pull/44055) (yay for more focused error messages)
+* [Add deref suggestion](https://github.com/rust-lang/rust/pull/43870)
 
 ## New Contributors
 
