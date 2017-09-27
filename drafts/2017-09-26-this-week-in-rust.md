@@ -14,6 +14,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
+- [`rsmt2`](https://crates.io/crates/rsmt2) is a crate providing [SMT-LIB 2.5](http://smtlib.cs.uiowa.edu) bindings for SMT-solvers through system pipes. It recently reached v0.9, fixing many shortcomings of the previous version, and is preparing for 1.0. Contributions/comments/issues are welcome!
+
 ## News & Blog Posts
 
 # Crate of the Week
