@@ -16,7 +16,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-[This year in the Amethyst game engine](https://www.amethyst.rs/2017/09/16/twia-10.html)
+* [The 2016 Underhanded Rust Contest results](http://blog.community.rs/underhanded/2017/09/27/underhanded-results.html).
+* [How `Future` works](https://gist.github.com/Diggsey/6f924bf3f741bcdffd240faee102fe92).
+* [Attacking Rust for fun and profit](https://avadacatavra.github.io/rust/gdb/exploit/2017/09/26/attackingrustforfunandprofit.html).
+* [Calling Rust from C#](https://dev.to/living_syn/calling-rust-from-c-6hk).
+* [Testing a Rust command line tool](https://mattgathu.github.io/testing-rust-cli-apps/).
+* [This year in the Amethyst game engine](https://www.amethyst.rs/2017/09/16/twia-10.html).
+* [This week in Rust docs 75](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-75).
+* [RustFest Spring 2018 will be in Paris](https://twitter.com/rustlang/status/914169823009103872).
 
 # Crate of the Week
 
@@ -34,12 +41,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Contribute to Rust's 2017 impl period](https://www.rustaceans.org/findwork/impl).
-* [impl period opportunities: rustdoc](https://quietmisdreavus.net/code/2017/09/18/come-work-on-rustdoc/).
-* [impl period opportunities: bindgen](http://fitzgeraldnick.com/2017/09/21/come-hack-on-bindgen-with-us.html).
-* [Neon - a library for writing native Node.js modules is looking for contributors](http://calculist.org/blog/2017/09/25/neon-wants-your-help/).
-* [imag - a personal information management suite needs help with 0.5.0 milestone](https://github.com/matthiasbeyer/imag/milestone/5).
-* [Help with expanding UNIC’s components for the Unicode Character Database](https://github.com/behnam/rust-unic/issues/158).
-* [rsmt2 - library to interact with SMT-LIB 2 compliant solvers is looking for contributors](https://github.com/kino-mc/rsmt2/issues).
+* [impl period opportunities: Diesel](https://medium.com/@sgrif/impl-version-1-0-for-diesel-10f5872c7be).
+* [Way Cooler is looking for help with milestone 0.7](https://github.com/way-cooler/way-cooler/issues?q=is%3Aopen+is%3Aissue+milestone%3A0.7+label%3A%22Help+Wanted%22).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -72,13 +75,14 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Basile Desloges
-* Bob Sun
-* James Tucker
-* Lucas Morales
-* Marcus Buffett
-* P.Y. Laligand
-* Romain Porte
+* Badel2
+* Ben Cressey
+* Daniel Klauer
+* Jeroen Bollen
+* Matthias Devlamynck
+* Sean Prashad
+* Tomas Nilsson
+* Vitaly Vi Shukela
 
 ## Approved RFCs
 
@@ -86,9 +90,9 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2045: target_feature](https://github.com/rust-lang/rfcs/pull/2045).
-* [RFC 2011: generic_assert: Make the `assert!` macro recognize more expressions](https://github.com/rust-lang/rfcs/pull/2011).
-* [RFC 1990: Add external doc attribute to rustc](https://github.com/rust-lang/rfcs/pull/1990).
+* [RFC 2094: Non-lexical lifetimes](https://github.com/rust-lang/rfcs/pull/2094).
+* [RFC 2137: Support defining C-compatible variadic functions in Rust](https://github.com/rust-lang/rfcs/pull/2137).
+* [RFC 2141: Add support to Cargo for alternative registries](https://github.com/rust-lang/rfcs/pull/2141).
 
 ## Final Comment Period
 
@@ -98,43 +102,29 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [disposition: merge] [Non-lexical lifetimes](https://github.com/rust-lang/rfcs/pull/2094).
-* [disposition: merge] [Support defining C-compatible variadic functions in Rust](https://github.com/rust-lang/rfcs/pull/2137).
-* [disposition: merge] [Add support to Cargo for alternative registries](https://github.com/rust-lang/rfcs/pull/2141).
-* [disposition: merge] [Type privacy and private-in-public lints](https://github.com/rust-lang/rfcs/pull/2145).
-* [disposition: merge] [eRFC: Cargo build system integration](https://github.com/rust-lang/rfcs/pull/2136).
 * [disposition: merge] [Fallible collection allocation 1.0](https://github.com/rust-lang/rfcs/pull/2116).
 * [disposition: merge] [Implicit caller location (third try to the unwrap/expect line info problem)](https://github.com/rust-lang/rfcs/pull/2091).
 * [disposition: merge] [Unsized rvalues](https://github.com/rust-lang/rfcs/pull/1909).
-* [disposition: postpone] [Infer function signatures from trait declaration into 'impl's](https://github.com/rust-lang/rfcs/pull/2063).
-* [disposition: postpone] [Tuple-based variadic generics](https://github.com/rust-lang/rfcs/pull/1935).
-* [disposition: postpone] [`'fn` lifetime ascription](https://github.com/rust-lang/rfcs/pull/1847). Add a `'fn` lifetime that is bound to the scope of the body of the current innermost function or closure.
-* [disposition: postpone] [Default struct field values](https://github.com/rust-lang/rfcs/pull/1806).
-* [disposition: postpone] [Introduce `Option::<&T>::borrowed`](https://github.com/rust-lang/rfcs/pull/1792).
+* [disposition: merge] [eRFC: Cargo build system integration](https://github.com/rust-lang/rfcs/pull/2136).
+* [disposition: merge] [Type privacy and private-in-public lints](https://github.com/rust-lang/rfcs/pull/2145).
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [impl-only-use](https://github.com/rust-lang/rfcs/pull/2166). The `use …::{… as …}` syntax can now accept `_` as alias to a trait to only import the implementations of such a trait.
 
 # Upcoming Events
 
-* [Sep 28. Mozilla Community Dresden - Rust Meetup](https://www.meetup.com/Mozilla-Community-Dresden/events/242610304/).
-* [Sep 28. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/241234876/).
-* **[Sep 30 - Oct 1. RustFest Zürich](http://zurich.rustfest.eu).**
-* [Sep 30. Rust Bangalore IO and Error Handling Workshop](https://www.meetup.com/rustox/events/243364708/).
-* [Sep 30. Rust Mexico #8: Taller Introductorio a Rust y Rocket](https://www.meetup.com/Rust-MX/events/243334902/).
-* [Oct  2 - Oct 3. Impl Days at RustFest Zürich](https://github.com/RustFestEU/blog.rustfest.eu/issues/29).
-* [Oct  4. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Oct  4. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [Oct  4. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/243164851/).
-* [Oct  4. Rust Cologne - Open Space](https://www.meetup.com/RustCologne/events/243156120/).
-* [Oct  4. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/243084182/).
 * [Oct  5. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Oct  7. Rust Bangalore SQL Data Binding Workshop](https://www.meetup.com/rustox/events/243387585/).
+* [Oct  9. Rust Seattle Monthly Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/243267474/).
 * [Oct 11. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Oct 11. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Oct 12. Rust Washington DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/243672292/).
 * [Oct 12. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/243389836/).
+* [Oct 18. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/243663198/).
+* [Oct 18. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Oct 18. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Oct 19. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -144,18 +134,17 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust developers at Æternity](https://blog.aeternity.com/join-the-t%C3%A6m-rust-or-erlang-devs-wanted-31908daba788).
-* [Rust web developer - remote position](https://www.reddit.com/r/rust/comments/717rk2/hiring_rust_web_developer_contractor_remote/).
+* [Rust Research Intern - University 2018 - Mozilla](https://careers.mozilla.org/position/gh/864822).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> A Box always holds exactly one thing, like a single large struct. A Vec holds zero to many things of exactly one type and can change over time. If you had to relate them, a Box is a Vec with one element that went to Neverland and forgot it could ever grow.
+> The compiler is grumpy for you so you don’t have to be
 
-— [/u/zzyzzyxx on reddit](https://www.reddit.com/r/rust/comments/70szta/hey_rustaceans_got_an_easy_question_ask_here/dncs4wa/?context=3).
+— Élisabeth Henry @RustFest Zürich
 
-Thanks to [/u/l-arkham](https://www.reddit.com/r/rust/comments/70szta/hey_rustaceans_got_an_easy_question_ask_here/dncs4wa/) for the suggestion.
+Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/454) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
