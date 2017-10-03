@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[This year in the Amethyst game engine](https://www.amethyst.rs/2017/09/16/twia-10.html)
+
 # Crate of the Week
 
 This week's crate is [rustbreak](https://crates.io/crates/rustbreak), a crate providing simple single-file storage to e.g. persist settings.
