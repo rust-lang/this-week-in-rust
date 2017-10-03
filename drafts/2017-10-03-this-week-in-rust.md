@@ -20,8 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [rustbreak](https://crates.io/crates/rustbreak), a crate providing simple single-file storage to e.g. persist settings.
-Thank you, [Dieter Konrad](https://users.rust-lang.org/u/dkotrada) for the suggestion!
+Sadly, no one suggested a crate for the week.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -48,43 +47,28 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-157 pull requests were [merged in the last week][merged]
+100 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-09-18..2017-09-25
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-09-25..2017-10-02
 
-* [incr.comp.: Add new DepGraph implementation](https://github.com/rust-lang/rust/pull/44772)
-* [Use memoized hashes when hashing Fingerprint](https://github.com/rust-lang/cargo/pull/4521)
-* [Don't visit the same unit multiple times](https://github.com/rust-lang/cargo/pull/4520) (fixes perf regression)
-* [Make the fallback of generator resumption be unreachable instead of using return](https://github.com/rust-lang/rust/pull/44747)
-* [Include unary operator to span for `ExprKind::Unary`](https://github.com/rust-lang/rust/pull/44746)
-* [Make `-Z borrowck-mir` imply that `EndRegion`'s should be emitted](https://github.com/rust-lang/rust/pull/44717)
-* [Move effect-checking to MIR](https://github.com/rust-lang/rust/pull/44700)
-* [Implement underscore lifetimes](https://github.com/rust-lang/rust/pull/44691)
-* [Add iterator method `.rfold(init, function)` the reverse of fold](https://github.com/rust-lang/rust/pull/44682)
-* [rustbuild: with --no-fail-fast, report the specific commands that failed](https://github.com/rust-lang/rust/pull/44680)
-* [Add clippy to `toolstate.toml`](https://github.com/rust-lang/rust/pull/44679) (one more step to a stable clippy)
-* [Compress most of spans to 32 bits](https://github.com/rust-lang/rust/pull/44646) (memory savings + modest speedup)
-* [Improve diagnostics when attempting to match tuple enum variant with struct pattern](https://github.com/rust-lang/rust/pull/44786)
-* [Stabilized vec_splice and modified splice tracking issue](https://github.com/rust-lang/rust/pull/44640)
-* [Record semantic types for all syntactic types in bodies](https://github.com/rust-lang/rust/pull/44633)
-* [`--cap-lints allow` switches off `can_emit_warnings`](https://github.com/rust-lang/rust/pull/44627)
-* [Forbid interpolated tokens in the HIR](https://github.com/rust-lang/rust/pull/44601)
-* [cargo_compile: iterate packages once, not three times](https://github.com/rust-lang/cargo/pull/4494)
-* [Add pub visibility for methods as well](https://github.com/rust-lang/rust/pull/44554)
-* [Implement `Copy`/`Clone` for closures](https://github.com/rust-lang/rust/pull/44551)
-* [Refactor translation unit partitioning/collection as a query](https://github.com/rust-lang/rust/pull/44529)
-* [Correctly bubble up errors from libbacktrace](https://github.com/rust-lang/rust/pull/44525)
-* [Add `Cow<str>` → `Box<Error>` impls](https://github.com/rust-lang/rust/pull/44466)
-* [Add Duration::from_micros](https://github.com/rust-lang/rust/pull/44436)
-* [Only consider yields coming after the expressions when computing generator interiors](https://github.com/rust-lang/rust/pull/44392)
-* [Optimize drain_filter](https://github.com/rust-lang/rust/pull/44355)
-* [Improve how rustdoc warnings are displayed](https://github.com/rust-lang/rust/pull/44350)
-* [Require rlibs for dependent crates when linking static executables](https://github.com/rust-lang/rust/pull/44279)
-* [don't suggest placing `use` statements into expanded code](https://github.com/rust-lang/rust/pull/44215)
-* [add comparison operators to must-use lint](https://github.com/rust-lang/rust/pull/44103)
-* [Allow writing metadata without llvm](https://github.com/rust-lang/rust/pull/44085)
-* [only set non-ADT derive error once per attribute, not per trait](https://github.com/rust-lang/rust/pull/44055) (yay for more focused error messages)
-* [Add deref suggestion](https://github.com/rust-lang/rust/pull/43870)
+* [fix native main() signature on 64bit](https://github.com/rust-lang/rust/pull/44906)
+* [add suggestions for misspelled method names](https://github.com/rust-lang/rust/pull/44297)
+* [code suggestions for unused-mut, while-true, deprecated-attribute, and unused-parens lints](https://github.com/rust-lang/rust/pull/44942)
+* [allow unused extern crate again](https://github.com/rust-lang/rust/pull/44825) (backs out until diagnostics are fixed)
+* [friendlier error message for closure argument type mismatch](https://github.com/rust-lang/rust/pull/44735)
+* [macros: fix bug in collecting trait and impl items with derives](https://github.com/rust-lang/rust/pull/44757)
+* [apply attr proc macros before cfg processing](https://github.com/rust-lang/rust/pull/44528)
+* [handle nested generics in `Generics::type_param`/`region_param`](https://github.com/rust-lang/rust/pull/44959)
+* [encode region::Scope using fewer bytes](https://github.com/rust-lang/rust/pull/44809)
+* [initial support for `..=` syntax](https://github.com/rust-lang/rust/pull/44709)
+* [some fixes to mir-borrowck](https://github.com/rust-lang/rust/pull/44736)
+* [allow replacing HashMap entries](https://github.com/rust-lang/rust/pull/44278)
+* [`impl<T, U> TryFrom<T> for U where U: From<T>`](https://github.com/rust-lang/rust/pull/44174)
+* [`impl<T> Try for Option<T>](https://github.com/rust-lang/rust/pull/42526) (this was a long time coming)
+* [do not require semantic types for all syntactic types when there are errors](https://github.com/rust-lang/rust/pull/44945)
+* [add more custom folding to `core::iter` adaptors](https://github.com/rust-lang/rust/pull/44856)
+* [trustedRandomAccess specialisation for Iterator::cloned when Item: Copy](https://github.com/rust-lang/rust/pull/44790)
+* [fix capacity comparison in `VecDeque::reserve`](https://github.com/rust-lang/rust/pull/44802)
 
 ## New Contributors
 
