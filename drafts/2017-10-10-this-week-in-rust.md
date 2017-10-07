@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Version 0.1 of Smithay](https://smithay.github.io/smithay-v-0-1.html)
+
 # Crate of the Week
 
 Sadly, no one suggested a crate for the week.
