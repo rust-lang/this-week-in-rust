@@ -14,6 +14,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
+* [Creating and Printing a TypeScript AST from Rust](http://blog.ctaggart.com/2017/10/creating-and-printing-typescript-ast.html)
+
 ## News & Blog Posts
 
 # Crate of the Week
