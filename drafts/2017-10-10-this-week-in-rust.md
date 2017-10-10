@@ -18,7 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-Sadly, no one suggested a crate for the week.
+Despite there being no votes, the crate of this week is [abrute](https://crates.io/crates/abrute), a crate to brute-force AES keys.
+Thanks to [Daniel P. Clark](https://users.rust-lang.org/u/danielpclark) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -41,28 +42,32 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-100 pull requests were [merged in the last week][merged]
+117 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-09-25..2017-10-02
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-10-02..2017-10-09
 
-* [fix native main() signature on 64bit](https://github.com/rust-lang/rust/pull/44906)
-* [add suggestions for misspelled method names](https://github.com/rust-lang/rust/pull/44297)
-* [code suggestions for unused-mut, while-true, deprecated-attribute, and unused-parens lints](https://github.com/rust-lang/rust/pull/44942)
-* [allow unused extern crate again](https://github.com/rust-lang/rust/pull/44825) (backs out until diagnostics are fixed)
-* [friendlier error message for closure argument type mismatch](https://github.com/rust-lang/rust/pull/44735)
-* [macros: fix bug in collecting trait and impl items with derives](https://github.com/rust-lang/rust/pull/44757)
-* [apply attr proc macros before cfg processing](https://github.com/rust-lang/rust/pull/44528)
-* [handle nested generics in `Generics::type_param`/`region_param`](https://github.com/rust-lang/rust/pull/44959)
-* [encode region::Scope using fewer bytes](https://github.com/rust-lang/rust/pull/44809)
-* [initial support for `..=` syntax](https://github.com/rust-lang/rust/pull/44709)
-* [some fixes to mir-borrowck](https://github.com/rust-lang/rust/pull/44736)
-* [allow replacing HashMap entries](https://github.com/rust-lang/rust/pull/44278)
-* [`impl<T, U> TryFrom<T> for U where U: From<T>`](https://github.com/rust-lang/rust/pull/44174)
-* [`impl<T> Try for Option<T>](https://github.com/rust-lang/rust/pull/42526) (this was a long time coming)
-* [do not require semantic types for all syntactic types when there are errors](https://github.com/rust-lang/rust/pull/44945)
-* [add more custom folding to `core::iter` adaptors](https://github.com/rust-lang/rust/pull/44856)
-* [trustedRandomAccess specialisation for Iterator::cloned when Item: Copy](https://github.com/rust-lang/rust/pull/44790)
-* [fix capacity comparison in `VecDeque::reserve`](https://github.com/rust-lang/rust/pull/44802)
+* [add -Zmutable-noalias flag](https://github.com/rust-lang/rust/pull/45012)
+* [improvements to `proc_macro::Span` API](https://github.com/rust-lang/rust/pull/43604)
+* [rustc: Don't create empty codegen units](https://github.com/rust-lang/rust/pull/45035)
+* [rustc: Implement ThinLTO](https://github.com/rust-lang/rust/pull/44841)
+* [store a new Region value every time we create a new region variable](https://github.com/rust-lang/rust/pull/44878)
+* [rustc_trans: do not set NoCapture for anonymous lifetime &T arguments](https://github.com/rust-lang/rust/pull/45033)
+* [faster compile times for release builds with llvm fix](https://github.com/rust-lang/rust/pull/45054)
+* [don't panic in the coordinator thread, bubble up the failure](https://github.com/rust-lang/rust/pull/45111)
+* [incr.comp.: Fix infinite recursion in Debug implementation of DepNode](https://github.com/rust-lang/rust/pull/45018)
+* [incr.comp.: Switch to red/green change tracking, remove legacy system](https://github.com/rust-lang/rust/pull/44901)
+* [add notes to report_conflicting_borrow MIR borrowck](https://github.com/rust-lang/rust/pull/44882)
+* [MIR-borrowck: gather and signal any move errors](https://github.com/rust-lang/rust/pull/45016)
+* [overlapping borrows can point to different lvalues](https://github.com/rust-lang/rust/pull/44999)
+* [fix logic error in #44269's `prune_cache_value_obligations`](https://github.com/rust-lang/rust/pull/45065)
+* [make non_snake_case lint allow extern no-mangle functions](https://github.com/rust-lang/rust/pull/44966)
+* [allow atomic operations up to 32 bits](https://github.com/rust-lang/rust/pull/44978)
+* [add read_to_end implementation to `&[u8]`'s Read impl](https://github.com/rust-lang/rust/pull/45083)
+* [made `fs::copy` return the length of the main stream](https://github.com/rust-lang/rust/pull/44895)
+* [implement `and_modify` on `Entry`](https://github.com/rust-lang/rust/pull/44734)
+* [show callback function type args in rustdoc](https://github.com/rust-lang/rust/pull/44892)
+* [cargo doc no longer crashes on impl trait](https://github.com/rust-lang/rust/pull/44860)
+* [remove root from cargo lock](https://github.com/rust-lang/cargo/pull/4571)
 
 ## New Contributors
 
