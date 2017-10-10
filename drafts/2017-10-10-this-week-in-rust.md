@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Creating and Printing a TypeScript AST from Rust](http://blog.ctaggart.com/2017/10/creating-and-printing-typescript-ast.html)
+
 # Crate of the Week
 
 Despite there being no votes, the crate of this week is [abrute](https://crates.io/crates/abrute), a crate to brute-force AES keys.
