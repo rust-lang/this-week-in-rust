@@ -16,7 +16,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Creating and Printing a TypeScript AST from Rust](http://blog.ctaggart.com/2017/10/creating-and-printing-typescript-ast.html)
+* [Red Hat adds Go, Clang/LLVM, Rust compiler toolsets; updates GCC](https://developers.redhat.com/blog/2017/10/04/red-hat-adds-go-clangllvm-rust-compiler-toolsets-updates-gcc/).
+* [An opinionated guide to Rust web servers](https://wiki.alopex.li/AnOpinionatedGuideToRustWebServers).
+* [Creating and printing a TypeScript AST from Rust](http://blog.ctaggart.com/2017/10/creating-and-printing-typescript-ast.html).
+* [This week in Rust docs 76](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-76).
 
 # Crate of the Week
 
@@ -34,9 +37,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Help test out ThinLTO](https://internals.rust-lang.org/t/help-test-out-thinlto/6017)!
 * [Contribute to Rust's 2017 impl period](https://www.rustaceans.org/findwork/impl).
-* [impl period opportunities: Diesel](https://medium.com/@sgrif/impl-version-1-0-for-diesel-10f5872c7be).
-* [Way Cooler is looking for help with milestone 0.7](https://github.com/way-cooler/way-cooler/issues?q=is%3Aopen+is%3Aissue+milestone%3A0.7+label%3A%22Help+Wanted%22).
+* [Hacktoberfest and the impl period](http://blog.community.rs/2017/10/02/hacktoberfest-and-the-impl-period.html).
+* [medium] [allocators-rs: Travis: Spurious test failures on Mac](https://github.com/ezrosent/allocators-rs/issues/36).
+* [tarpaulin: Update outdated dependencies](https://github.com/xd009642/tarpaulin/issues/45).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -73,14 +78,20 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Badel2
-* Ben Cressey
-* Daniel Klauer
-* Jeroen Bollen
-* Matthias Devlamynck
-* Sean Prashad
-* Tomas Nilsson
-* Vitaly Vi Shukela
+* Andreas Jonson
+* Barret Rennie
+* Garrett Berg
+* hinaria
+* James Munns
+* Kevin Hunter Kesling
+* leavehouse
+* Maik Klein
+* mchlrhw
+* Nikolai Vazquez
+* Niv Kaminer
+* Pirh
+* Stephane Raux
+* Suriyaa ✌️️
 
 ## Approved RFCs
 
@@ -88,9 +99,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2094: Non-lexical lifetimes](https://github.com/rust-lang/rfcs/pull/2094).
-* [RFC 2137: Support defining C-compatible variadic functions in Rust](https://github.com/rust-lang/rfcs/pull/2137).
-* [RFC 2141: Add support to Cargo for alternative registries](https://github.com/rust-lang/rfcs/pull/2141).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -108,21 +117,25 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [impl-only-use](https://github.com/rust-lang/rfcs/pull/2166). The `use …::{… as …}` syntax can now accept `_` as alias to a trait to only import the implementations of such a trait.
+* [Handle borrows of unions in NLL](https://github.com/rust-lang/rfcs/pull/2168).
 
 # Upcoming Events
 
-* [Oct  5. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Oct  7. Rust Bangalore SQL Data Binding Workshop](https://www.meetup.com/rustox/events/243387585/).
-* [Oct  9. Rust Seattle Monthly Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/243267474/).
-* [Oct 11. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Oct 11. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Ocr 12. San Diego Rust October Meetup - Beginner's Study Session](https://www.meetup.com/San-Diego-Rust/events/243960032/).
 * [Oct 12. Rust Washington DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/243672292/).
 * [Oct 12. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/243389836/).
+* [Oct 16. Rust London - Rust learning and hacking evening #4](https://www.meetup.com/Rust-London-User-Group/events/244021078/).
+* [Oct 16. Rust Roma - Rust learning and hacking evening #2](https://www.meetup.com/it-IT/Rust-Roma/events/243948917/).
 * [Oct 18. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/243663198/).
 * [Oct 18. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Oct 18. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Oct 19. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [Oct 21. Mozilla Brasil - Mergulhando em Rust — O futuro da programação de sistemas #4](https://www.eventbrite.com.br/e/mergulhando-em-rust-o-futuro-da-programacao-de-sistemas-4-registration-38145874337).
+* [Oct 23. Durham, NC - Triangle Rustaceans - with Rust Community Team member Ben Striegel](https://www.meetup.com/triangle-rustaceans/events/243586365/).
+* [Oct 25. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Oct 25. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Oct 26. Finland Rust-lang group October meetup](https://www.meetup.com/Finland-Rust-Meetup/events/243886850/).
+* [Oct 26. Mozilla Community Dresden - Rust meetup](https://www.meetup.com/Mozilla-Community-Dresden/events/243915635/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -132,17 +145,18 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Multiple job openings mentioning Rust](https://www.reddit.com/r/rust/comments/743qal/15_job_openings_mentioning_rust_in_this_months/).
 * [Rust Research Intern - University 2018 - Mozilla](https://careers.mozilla.org/position/gh/864822).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> The compiler is grumpy for you so you don’t have to be
+> The long compile breaks give me time to focus on TV.
 
-— Élisabeth Henry @RustFest Zürich
+— [/u/staticassert on watching TV while programming in Rust](https://www.reddit.com/r/rust/comments/74tyqx/what_are_reasons_to_spend_time_on_rust/do1bzpx/).
 
-Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/454) for the suggestion.
+Thanks to [/u/tomwhoiscontrary and /u/kixunil](https://www.reddit.com/r/rust/comments/74tyqx/what_are_reasons_to_spend_time_on_rust/do4n5xq/?context=3) for the suggestion.
 
 [Submit your quotes for next week][submit]!
 
