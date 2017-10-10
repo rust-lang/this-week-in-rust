@@ -121,7 +121,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 # Upcoming Events
 
-* [Ocr 12. San Diego Rust October Meetup - Beginner's Study Session](https://www.meetup.com/San-Diego-Rust/events/243960032/).
+* [Oct 12. San Diego Rust October Meetup - Beginner's Study Session](https://www.meetup.com/San-Diego-Rust/events/243960032/).
 * [Oct 12. Rust Washington DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/243672292/).
 * [Oct 12. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/243389836/).
 * [Oct 16. Rust London - Rust learning and hacking evening #4](https://www.meetup.com/Rust-London-User-Group/events/244021078/).
