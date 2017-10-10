@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Version 0.1 of Smithay](https://smithay.github.io/smithay-v-0-1.html)
+
 # Crate of the Week
 
 Despite there being no votes, the crate of this week is [abrute](https://crates.io/crates/abrute), a crate to brute-force AES keys.
