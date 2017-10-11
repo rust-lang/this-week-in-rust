@@ -37,6 +37,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Hacktoberfest and the impl period](http://blog.community.rs/2017/10/02/hacktoberfest-and-the-impl-period.html).
 * [medium] [allocators-rs: Travis: Spurious test failures on Mac](https://github.com/ezrosent/allocators-rs/issues/36).
 * [tarpaulin: Update outdated dependencies](https://github.com/xd009642/tarpaulin/issues/45).
+* [Join us at FOSDEM 2018: devroom CFP](https://rust-fosdem.github.io)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
