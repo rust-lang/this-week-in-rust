@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [It's gfx-rs aLL the way down](https://users.rust-lang.org/t/its-gfx-rs-all-the-way-down/13339) - an interim update on the LL rewrite progress.
+
 # Crate of the Week
 
 Despite there being no votes, the crate of this week is [abrute](https://crates.io/crates/abrute), a crate to brute-force AES keys.
