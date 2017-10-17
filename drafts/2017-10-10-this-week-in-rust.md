@@ -18,7 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-Sadly, no one suggested a crate for the week.
+This week's crate is [if_chain](https://crates.io/crates/if_chain) a macro that helps combat rightwards drift where code nests many `if`s and `if let`s. Since the
+latter cannot be contracted with `&&`, this can be really helpful to make code more readable. Thanks to [Michael Budde](https://users.rust-lang.org/u/mbudde) for
+the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -41,28 +43,42 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-100 pull requests were [merged in the last week][merged]
+163 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-09-25..2017-10-02
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-10-09..2017-10-16
 
-* [fix native main() signature on 64bit](https://github.com/rust-lang/rust/pull/44906)
-* [add suggestions for misspelled method names](https://github.com/rust-lang/rust/pull/44297)
-* [code suggestions for unused-mut, while-true, deprecated-attribute, and unused-parens lints](https://github.com/rust-lang/rust/pull/44942)
-* [allow unused extern crate again](https://github.com/rust-lang/rust/pull/44825) (backs out until diagnostics are fixed)
-* [friendlier error message for closure argument type mismatch](https://github.com/rust-lang/rust/pull/44735)
-* [macros: fix bug in collecting trait and impl items with derives](https://github.com/rust-lang/rust/pull/44757)
-* [apply attr proc macros before cfg processing](https://github.com/rust-lang/rust/pull/44528)
-* [handle nested generics in `Generics::type_param`/`region_param`](https://github.com/rust-lang/rust/pull/44959)
-* [encode region::Scope using fewer bytes](https://github.com/rust-lang/rust/pull/44809)
-* [initial support for `..=` syntax](https://github.com/rust-lang/rust/pull/44709)
-* [some fixes to mir-borrowck](https://github.com/rust-lang/rust/pull/44736)
-* [allow replacing HashMap entries](https://github.com/rust-lang/rust/pull/44278)
-* [`impl<T, U> TryFrom<T> for U where U: From<T>`](https://github.com/rust-lang/rust/pull/44174)
-* [`impl<T> Try for Option<T>](https://github.com/rust-lang/rust/pull/42526) (this was a long time coming)
-* [do not require semantic types for all syntactic types when there are errors](https://github.com/rust-lang/rust/pull/44945)
-* [add more custom folding to `core::iter` adaptors](https://github.com/rust-lang/rust/pull/44856)
-* [trustedRandomAccess specialisation for Iterator::cloned when Item: Copy](https://github.com/rust-lang/rust/pull/44790)
-* [fix capacity comparison in `VecDeque::reserve`](https://github.com/rust-lang/rust/pull/44802)
+* [add `x86_64-unknown-linux-gnux32` target](https://github.com/rust-lang/rust/pull/45224)
+* [inline `eq_slice` into `str::eq`](https://github.com/rust-lang/rust/pull/45005)
+* [MIR-borrowck: moves of prefixes invalidate uses too](https://github.com/rust-lang/rust/pull/45025)
+* [MIR borrowck: print lvalues in error messages in the same way that the AST borrowck](https://github.com/rust-lang/rust/pull/44985)
+* [MIR-borrowck: add false edges to match arms](https://github.com/rust-lang/rust/pull/45200)
+* [MIR-borrowck: migrate remaining AST diagnostics](https://github.com/rust-lang/rust/pull/45167)
+* [querify `trans_fulfill_obligation`](https://github.com/rust-lang/rust/pull/44967)
+* [querify Vtable methods](https://github.com/rust-lang/rust/pull/45137)
+* [check namespaces when resolving associated items in typeck](https://github.com/rust-lang/rust/pull/45297)
+* [rustc: Remove `used_mut_nodes` from `TyCtxt`](https://github.com/rust-lang/rust/pull/45283)
+* [rustc: Fix some ThinLTO internalization](https://github.com/rust-lang/rust/pull/45215)
+* [rustc: Update LLVM with a ThinLTO fix](https://github.com/rust-lang/rust/pull/45203)
+* [rustc: Handle `#[inline(always)]` at `-O0`](https://github.com/rust-lang/rust/pull/45202)
+* [rustc: Don't inline in CGUs at `-O0`](https://github.com/rust-lang/rust/pull/45075)
+* [rustc: Reduce default CGUs to 16](https://github.com/rust-lang/rust/pull/45064)
+* [incremental compilation auto assert (with except)](https://github.com/rust-lang/rust/pull/45104)
+* [incremental compilation: Bring back output of -Zincremental-info](https://github.com/rust-lang/rust/pull/45063)
+* [ensure `std::mem::Discriminant` is `Send + Sync`](https://github.com/rust-lang/rust/pull/45095)
+* [fix `TcpStream::connect_timeout` on linux](https://github.com/rust-lang/rust/pull/45269)
+* [improve performance of `spsc_queue` and stream](https://github.com/rust-lang/rust/pull/44963)
+* [improve raw `Box` conversions](https://github.com/rust-lang/rust/pull/44877)
+* [some hashmap cleanups](https://github.com/rust-lang/rust/pull/45263)
+* [optimize comparison functions of `Iterator`](https://github.com/rust-lang/rust/pull/45007)
+* [compiletest/runtest: format `ErrorKind` with `Display`](https://github.com/rust-lang/rust/pull/45258)
+* [implement display_hint in gdb pretty printers](https://github.com/rust-lang/rust/pull/45071)
+* [some low-hanging rustdoc optimizations](https://github.com/rust-lang/rust/pull/44613)
+* [rustdoc: mobile sidebar improvements](https://github.com/rust-lang/rust/pull/45240)
+* [let rustdoc print the crate version into docs](https://github.com/rust-lang/rust/pull/44989)
+* [incr.comp.: Introduce `ensure` and `ensure` typeck_tables_of](https://github.com/rust-lang/rust/pull/45228)
+* [enable building clippy in CI](https://github.com/rust-lang/rust/pull/45177) (one more step towards stable clippy!)
+* [update grammar to parse current rust syntax](https://github.com/rust-lang/rust/pull/45125) (Language lawyers rejoice!)
+
 
 ## New Contributors
 
