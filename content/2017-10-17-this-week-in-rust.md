@@ -21,7 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [str vs String](http://www.ameyalokare.com/rust/2017/10/12/rust-str-vs-String.html).
 * [A little story about the `yes` Unix command](https://matthias-endler.de/2017/yes/).
 * [Squeezing Rust into production for real time audio analysis](http://www.tzaeru.com/squeezing-rust-into-production-part-2/).
-* [The case for writing a kernel in Rust](https://www.cs.virginia.edu/~bjc8c/papers/levy17rustkernel.pdf).
+* [pdf] [The case for writing a kernel in Rust](https://www.cs.virginia.edu/~bjc8c/papers/levy17rustkernel.pdf).
 * [Exploring lock-free Rust](https://morestina.net/blog/742/exploring-lock-free-rust-1-locks).
 * [It's gfx-rs aLL the way down](https://users.rust-lang.org/t/its-gfx-rs-all-the-way-down/13339) - an interim update on the LL rewrite progress.
 * [Multi-platform Rust and Emscripten specific functions](https://www.worthe-it.co.za/programming/2017/10/10/multiplatform-rust-and-emscripten-specific-functions.html).
