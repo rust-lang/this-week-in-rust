@@ -16,7 +16,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.21](https://blog.rust-lang.org/2017/10/12/Rust-1.21.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* [IntelliJ Rust 0.2.0 released](https://users.rust-lang.org/t/intellij-rust-0-2-0-released/13419).
+* [str vs String](http://www.ameyalokare.com/rust/2017/10/12/rust-str-vs-String.html).
+* [A little story about the `yes` Unix command](https://matthias-endler.de/2017/yes/).
+* [Squeezing Rust into production for real time audio analysis](http://www.tzaeru.com/squeezing-rust-into-production-part-2/).
+* [The case for writing a kernel in Rust](https://www.cs.virginia.edu/~bjc8c/papers/levy17rustkernel.pdf).
+* [Exploring lock-free Rust](https://morestina.net/blog/742/exploring-lock-free-rust-1-locks).
 * [It's gfx-rs aLL the way down](https://users.rust-lang.org/t/its-gfx-rs-all-the-way-down/13339) - an interim update on the LL rewrite progress.
+* [Multi-platform Rust and Emscripten specific functions](https://www.worthe-it.co.za/programming/2017/10/10/multiplatform-rust-and-emscripten-specific-functions.html).
+* [The impl period newsletter #2](https://internals.rust-lang.org/t/the-impl-period-newsletter-2/6034).
+* [This week in Rust docs 77](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-77).
+* [This week in Redox 30](https://www.redox-os.org/news/this-week-in-redox-30/).
+* [podcast] [Rusty Spike Podcast - Episode 3](http://castbox.fm/episode/Episode-3-%E2%80%93-Oct-11%2C-2017-id1065347-id53530474?country=gb).
+* [video] [Videos from RustFest Zürich 2017](http://www.video.ethz.ch/events/2017/rust.html).
 
 # Crate of the Week
 
@@ -34,12 +47,18 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Help test out ThinLTO](https://internals.rust-lang.org/t/help-test-out-thinlto/6017)!
+* [Join us at FOSDEM 2018: devroom CFP](https://rust-fosdem.github.io).
 * [Contribute to Rust's 2017 impl period](https://www.rustaceans.org/findwork/impl).
-* [Hacktoberfest and the impl period](http://blog.community.rs/2017/10/02/hacktoberfest-and-the-impl-period.html).
-* [medium] [allocators-rs: Travis: Spurious test failures on Mac](https://github.com/ezrosent/allocators-rs/issues/36).
-* [tarpaulin: Update outdated dependencies](https://github.com/xd009642/tarpaulin/issues/45).
-* [Join us at FOSDEM 2018: devroom CFP](https://rust-fosdem.github.io)
+* [Libz blitz: Out-of-band crate evaluation for 2017-10-20: mime](https://internals.rust-lang.org/t/out-of-band-crate-evaluation-for-2017-10-20-mime/5997).
+* [easy] [allocators-rs: Cargo.toml: Add missing license](https://github.com/ezrosent/allocators-rs/issues/109).
+* [medium] [allocators-rs: alloc-fmt: Skip early frames of backtrace](https://github.com/ezrosent/allocators-rs/issues/107).
+* [medium] [allocators-rs: alloc-fmt: Allow disabling backtrace with feature](https://github.com/ezrosent/allocators-rs/issues/108).
+* [doc] [num_cpus: libz blitz evaluation tracking issue](https://github.com/seanmonstar/num_cpus/issues/55).
+* [doc] [num_cpus: Improve `get_physical()` documentation](https://github.com/seanmonstar/num_cpus/issues/59).
+* [doc] [num_cpus: Expand crate level documentation](https://github.com/seanmonstar/num_cpus/issues/56).
+* [doc] [num_cpus: Add example to `get()` docs](https://github.com/seanmonstar/num_cpus/issues/57).
+* [doc] [num_cpus: Add example to `get_physical()` docs](https://github.com/seanmonstar/num_cpus/issues/58).
+* [doc] [num_cpus: Improve `get()` documentation](https://github.com/seanmonstar/num_cpus/issues/60).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -76,20 +95,19 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Andreas Jonson
-* Barret Rennie
-* Garrett Berg
-* hinaria
-* James Munns
-* Kevin Hunter Kesling
-* leavehouse
-* Maik Klein
-* mchlrhw
-* Nikolai Vazquez
-* Niv Kaminer
-* Pirh
-* Stephane Raux
-* Suriyaa ✌️️
+* Alexander Kuleshov
+* Bráulio Bezerra
+* Cameron Steffen
+* Christopher Vittal
+* Hoàng Đức Hiếu
+* Jean Lourenço
+* Jimmy Brisson
+* JLockerman
+* Joe Rattazzi
+* Joshua Lockerman
+* k0pernicus
+* Matt
+* Michael Hewson
 
 ## Approved RFCs
 
@@ -115,25 +133,32 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Handle borrows of unions in NLL](https://github.com/rust-lang/rfcs/pull/2168).
+* [or-patterns in if / while let expressions](https://github.com/rust-lang/rfcs/pull/2175).
+* [Quick `dbg!(expr)` macro](https://github.com/rust-lang/rfcs/pull/2173).
+* [Partial turbofish](https://github.com/rust-lang/rfcs/pull/2176).
+* [Add Euclidean modulo & division functionality for integers](https://github.com/rust-lang/rfcs/pull/2169).
 
 # Upcoming Events
 
-* [Ocr 12. San Diego Rust October Meetup - Beginner's Study Session](https://www.meetup.com/San-Diego-Rust/events/243960032/).
-* [Oct 12. Rust Washington DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/243672292/).
-* [Oct 12. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/243389836/).
-* [Oct 16. Rust London - Rust learning and hacking evening #4](https://www.meetup.com/Rust-London-User-Group/events/244021078/).
-* [Oct 16. Rust Roma - Rust learning and hacking evening #2](https://www.meetup.com/it-IT/Rust-Roma/events/243948917/).
-* [Oct 18. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/243663198/).
-* [Oct 18. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Oct 18. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Oct 19. Cambridge Rust Meetup #4](https://www.meetup.com/Cambridge-Rust-Meetup/events/244085314/).
 * [Oct 19. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Oct 21. Mozilla Brasil - Mergulhando em Rust — O futuro da programação de sistemas #4](https://www.eventbrite.com.br/e/mergulhando-em-rust-o-futuro-da-programacao-de-sistemas-4-registration-38145874337).
 * [Oct 23. Durham, NC - Triangle Rustaceans - with Rust Community Team member Ben Striegel](https://www.meetup.com/triangle-rustaceans/events/243586365/).
+* [Oct 25. Rust Language Milano - Secondo incontro](https://www.meetup.com/rust-language-milano/events/244050676/).
 * [Oct 25. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Oct 25. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Oct 26. Finland Rust-lang group October meetup](https://www.meetup.com/Finland-Rust-Meetup/events/243886850/).
 * [Oct 26. Mozilla Community Dresden - Rust meetup](https://www.meetup.com/Mozilla-Community-Dresden/events/243915635/).
+* [Oct 27. Rust Bangalore - Rust XML JSON and Serialization Workshop](https://www.meetup.com/rustox/events/243387629/).
+* [Oct 31. Rust Zürich - Calling Rust from C and Java - October Community Meetup](https://www.meetup.com/Rust-Zurich/events/243147356/).
+* [Nov  1. Boston Rust - Presentation and Hack Night](https://www.meetup.com/BostonRust/events/244260833/).
+* [Nov  1. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/243942704/).
+* [Nov  1. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/krnczlywpbcb/).
+* [Nov  1. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Nov  1. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Nov  2. Rust Bay Area - Zero Knowledge Proof Macros and Cernan (data pipelining)](https://www.meetup.com/Rust-Bay-Area/events/244156617/).
+* [Nov  2. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [Nov  4. Rust Bangalore - Rust Concurrency Workshop](https://www.meetup.com/rustox/events/240879563/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -143,18 +168,13 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Multiple job openings mentioning Rust](https://www.reddit.com/r/rust/comments/743qal/15_job_openings_mentioning_rust_in_this_months/).
-* [Rust Research Intern - University 2018 - Mozilla](https://careers.mozilla.org/position/gh/864822).
+*No jobs listed for this week.*
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> The long compile breaks give me time to focus on TV.
-
-— [/u/staticassert on watching TV while programming in Rust](https://www.reddit.com/r/rust/comments/74tyqx/what_are_reasons_to_spend_time_on_rust/do1bzpx/).
-
-Thanks to [/u/tomwhoiscontrary and /u/kixunil](https://www.reddit.com/r/rust/comments/74tyqx/what_are_reasons_to_spend_time_on_rust/do4n5xq/?context=3) for the suggestion.
+*No quote was selected for QotW.*
 
 [Submit your quotes for next week][submit]!
 
