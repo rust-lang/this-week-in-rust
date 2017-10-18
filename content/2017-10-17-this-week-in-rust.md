@@ -29,7 +29,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Rust docs 77](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-77).
 * [This week in Redox 30](https://www.redox-os.org/news/this-week-in-redox-30/).
 * [podcast] [Rusty Spike Podcast - Episode 3](http://castbox.fm/episode/Episode-3-%E2%80%93-Oct-11%2C-2017-id1065347-id53530474?country=gb).
-* [video] [Videos from RustFest Zürich 2017](http://www.video.ethz.ch/events/2017/rust.html).
 
 # Crate of the Week
 
