@@ -33,8 +33,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-Despite there being no votes, the crate of this week is [abrute](https://crates.io/crates/abrute), a crate to brute-force AES keys.
-Thanks to [Daniel P. Clark](https://users.rust-lang.org/u/danielpclark) for the suggestion.
+This week's crate is [if_chain](https://crates.io/crates/if_chain) a macro that helps combat rightwards drift where code nests many `if`s and `if let`s. Since the
+latter cannot be contracted with `&&`, this can be really helpful to make code more readable. Thanks to [Michael Budde](https://users.rust-lang.org/u/mbudde) for
+the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -66,32 +67,41 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-117 pull requests were [merged in the last week][merged]
+163 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-10-02..2017-10-09
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-10-09..2017-10-16
 
-* [add -Zmutable-noalias flag](https://github.com/rust-lang/rust/pull/45012)
-* [improvements to `proc_macro::Span` API](https://github.com/rust-lang/rust/pull/43604)
-* [rustc: Don't create empty codegen units](https://github.com/rust-lang/rust/pull/45035)
-* [rustc: Implement ThinLTO](https://github.com/rust-lang/rust/pull/44841)
-* [store a new Region value every time we create a new region variable](https://github.com/rust-lang/rust/pull/44878)
-* [rustc_trans: do not set NoCapture for anonymous lifetime &T arguments](https://github.com/rust-lang/rust/pull/45033)
-* [faster compile times for release builds with llvm fix](https://github.com/rust-lang/rust/pull/45054)
-* [don't panic in the coordinator thread, bubble up the failure](https://github.com/rust-lang/rust/pull/45111)
-* [incr.comp.: Fix infinite recursion in Debug implementation of DepNode](https://github.com/rust-lang/rust/pull/45018)
-* [incr.comp.: Switch to red/green change tracking, remove legacy system](https://github.com/rust-lang/rust/pull/44901)
-* [add notes to report_conflicting_borrow MIR borrowck](https://github.com/rust-lang/rust/pull/44882)
-* [MIR-borrowck: gather and signal any move errors](https://github.com/rust-lang/rust/pull/45016)
-* [overlapping borrows can point to different lvalues](https://github.com/rust-lang/rust/pull/44999)
-* [fix logic error in #44269's `prune_cache_value_obligations`](https://github.com/rust-lang/rust/pull/45065)
-* [make non_snake_case lint allow extern no-mangle functions](https://github.com/rust-lang/rust/pull/44966)
-* [allow atomic operations up to 32 bits](https://github.com/rust-lang/rust/pull/44978)
-* [add read_to_end implementation to `&[u8]`'s Read impl](https://github.com/rust-lang/rust/pull/45083)
-* [made `fs::copy` return the length of the main stream](https://github.com/rust-lang/rust/pull/44895)
-* [implement `and_modify` on `Entry`](https://github.com/rust-lang/rust/pull/44734)
-* [show callback function type args in rustdoc](https://github.com/rust-lang/rust/pull/44892)
-* [cargo doc no longer crashes on impl trait](https://github.com/rust-lang/rust/pull/44860)
-* [remove root from cargo lock](https://github.com/rust-lang/cargo/pull/4571)
+* [add `x86_64-unknown-linux-gnux32` target](https://github.com/rust-lang/rust/pull/45224)
+* [inline `eq_slice` into `str::eq`](https://github.com/rust-lang/rust/pull/45005)
+* [MIR-borrowck: moves of prefixes invalidate uses too](https://github.com/rust-lang/rust/pull/45025)
+* [MIR borrowck: print lvalues in error messages in the same way that the AST borrowck](https://github.com/rust-lang/rust/pull/44985)
+* [MIR-borrowck: add false edges to match arms](https://github.com/rust-lang/rust/pull/45200)
+* [MIR-borrowck: migrate remaining AST diagnostics](https://github.com/rust-lang/rust/pull/45167)
+* [querify `trans_fulfill_obligation`](https://github.com/rust-lang/rust/pull/44967)
+* [querify Vtable methods](https://github.com/rust-lang/rust/pull/45137)
+* [check namespaces when resolving associated items in typeck](https://github.com/rust-lang/rust/pull/45297)
+* [rustc: Remove `used_mut_nodes` from `TyCtxt`](https://github.com/rust-lang/rust/pull/45283)
+* [rustc: Fix some ThinLTO internalization](https://github.com/rust-lang/rust/pull/45215)
+* [rustc: Update LLVM with a ThinLTO fix](https://github.com/rust-lang/rust/pull/45203)
+* [rustc: Handle `#[inline(always)]` at `-O0`](https://github.com/rust-lang/rust/pull/45202)
+* [rustc: Don't inline in CGUs at `-O0`](https://github.com/rust-lang/rust/pull/45075)
+* [rustc: Reduce default CGUs to 16](https://github.com/rust-lang/rust/pull/45064)
+* [incremental compilation auto assert (with except)](https://github.com/rust-lang/rust/pull/45104)
+* [incremental compilation: Bring back output of -Zincremental-info](https://github.com/rust-lang/rust/pull/45063)
+* [ensure `std::mem::Discriminant` is `Send + Sync`](https://github.com/rust-lang/rust/pull/45095)
+* [fix `TcpStream::connect_timeout` on linux](https://github.com/rust-lang/rust/pull/45269)
+* [improve performance of `spsc_queue` and stream](https://github.com/rust-lang/rust/pull/44963)
+* [improve raw `Box` conversions](https://github.com/rust-lang/rust/pull/44877)
+* [some hashmap cleanups](https://github.com/rust-lang/rust/pull/45263)
+* [optimize comparison functions of `Iterator`](https://github.com/rust-lang/rust/pull/45007)
+* [compiletest/runtest: format `ErrorKind` with `Display`](https://github.com/rust-lang/rust/pull/45258)
+* [implement display_hint in gdb pretty printers](https://github.com/rust-lang/rust/pull/45071)
+* [some low-hanging rustdoc optimizations](https://github.com/rust-lang/rust/pull/44613)
+* [rustdoc: mobile sidebar improvements](https://github.com/rust-lang/rust/pull/45240)
+* [let rustdoc print the crate version into docs](https://github.com/rust-lang/rust/pull/44989)
+* [incr.comp.: Introduce `ensure` and `ensure` typeck_tables_of](https://github.com/rust-lang/rust/pull/45228)
+* [enable building clippy in CI](https://github.com/rust-lang/rust/pull/45177) (one more step towards stable clippy!)
+* [update grammar to parse current rust syntax](https://github.com/rust-lang/rust/pull/45125) (Language lawyers rejoice!)
 
 ## New Contributors
 
