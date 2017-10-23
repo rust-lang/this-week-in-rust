@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Test driven development with Rust](https://matthewkmayer.github.io/blag/public/post/tdd-with-rust/).
+
 # Crate of the Week
 
 This week's crate is [if_chain](https://crates.io/crates/if_chain) a macro that helps combat rightwards drift where code nests many `if`s and `if let`s. Since the
