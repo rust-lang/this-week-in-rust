@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [How to Deploy a Rocket Application to Heroku](http://www.duelinmarkers.com/2017/10/21/how-to-deploy-a-rocket-application-to-heroku.html)
+* [Test driven development with Rust](https://matthewkmayer.github.io/blag/public/post/tdd-with-rust/).
 
 # Crate of the Week
 
