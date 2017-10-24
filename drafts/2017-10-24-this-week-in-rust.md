@@ -21,8 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [if_chain](https://crates.io/crates/if_chain) a macro that helps combat rightwards drift where code nests many `if`s and `if let`s. Since the
-latter cannot be contracted with `&&`, this can be really helpful to make code more readable. Thanks to [Michael Budde](https://users.rust-lang.org/u/mbudde) for
+This week's crate is [colored](https://crates.io/crates/colored) a UNIX-based terminal color crate. Thanks to [Kyle Galloway](https://users.rust-lang.org/u/kylegalloway) for
 the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
@@ -56,41 +55,28 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-163 pull requests were [merged in the last week][merged]
+121 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-10-09..2017-10-16
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-10-16..2017-10-23
 
-* [add `x86_64-unknown-linux-gnux32` target](https://github.com/rust-lang/rust/pull/45224)
-* [inline `eq_slice` into `str::eq`](https://github.com/rust-lang/rust/pull/45005)
-* [MIR-borrowck: moves of prefixes invalidate uses too](https://github.com/rust-lang/rust/pull/45025)
-* [MIR borrowck: print lvalues in error messages in the same way that the AST borrowck](https://github.com/rust-lang/rust/pull/44985)
-* [MIR-borrowck: add false edges to match arms](https://github.com/rust-lang/rust/pull/45200)
-* [MIR-borrowck: migrate remaining AST diagnostics](https://github.com/rust-lang/rust/pull/45167)
-* [querify `trans_fulfill_obligation`](https://github.com/rust-lang/rust/pull/44967)
-* [querify Vtable methods](https://github.com/rust-lang/rust/pull/45137)
-* [check namespaces when resolving associated items in typeck](https://github.com/rust-lang/rust/pull/45297)
-* [rustc: Remove `used_mut_nodes` from `TyCtxt`](https://github.com/rust-lang/rust/pull/45283)
-* [rustc: Fix some ThinLTO internalization](https://github.com/rust-lang/rust/pull/45215)
-* [rustc: Update LLVM with a ThinLTO fix](https://github.com/rust-lang/rust/pull/45203)
-* [rustc: Handle `#[inline(always)]` at `-O0`](https://github.com/rust-lang/rust/pull/45202)
-* [rustc: Don't inline in CGUs at `-O0`](https://github.com/rust-lang/rust/pull/45075)
-* [rustc: Reduce default CGUs to 16](https://github.com/rust-lang/rust/pull/45064)
-* [incremental compilation auto assert (with except)](https://github.com/rust-lang/rust/pull/45104)
-* [incremental compilation: Bring back output of -Zincremental-info](https://github.com/rust-lang/rust/pull/45063)
-* [ensure `std::mem::Discriminant` is `Send + Sync`](https://github.com/rust-lang/rust/pull/45095)
-* [fix `TcpStream::connect_timeout` on linux](https://github.com/rust-lang/rust/pull/45269)
-* [improve performance of `spsc_queue` and stream](https://github.com/rust-lang/rust/pull/44963)
-* [improve raw `Box` conversions](https://github.com/rust-lang/rust/pull/44877)
-* [some hashmap cleanups](https://github.com/rust-lang/rust/pull/45263)
-* [optimize comparison functions of `Iterator`](https://github.com/rust-lang/rust/pull/45007)
-* [compiletest/runtest: format `ErrorKind` with `Display`](https://github.com/rust-lang/rust/pull/45258)
-* [implement display_hint in gdb pretty printers](https://github.com/rust-lang/rust/pull/45071)
-* [some low-hanging rustdoc optimizations](https://github.com/rust-lang/rust/pull/44613)
-* [rustdoc: mobile sidebar improvements](https://github.com/rust-lang/rust/pull/45240)
-* [let rustdoc print the crate version into docs](https://github.com/rust-lang/rust/pull/44989)
-* [incr.comp.: Introduce `ensure` and `ensure` typeck_tables_of](https://github.com/rust-lang/rust/pull/45228)
-* [enable building clippy in CI](https://github.com/rust-lang/rust/pull/45177) (one more step towards stable clippy!)
-* [update grammar to parse current rust syntax](https://github.com/rust-lang/rust/pull/45125) (Language lawyers rejoice!)
+* [rustbuild: Compile rustc with ThinLTO](https://github.com/rust-lang/rust/pull/45400)
+* [code suggestions for non-shorthand field pattern, no-mangle lints](https://github.com/rust-lang/rust/pull/45232)
+* [cleanly error for non-const variable in associated const](https://github.com/rust-lang/rust/pull/45442)
+* [remove or encapsulate the remaining non-query data in tcx](https://github.com/rust-lang/rust/pull/44501)
+* [make `erase_regions_ty` query anonymous](https://github.com/rust-lang/rust/pull/45364)
+* [bump the minimum LLVM to 3.9](https://github.com/rust-lang/rust/pull/45326)
+* [backport ThinLTO LLVM 5 fixes](https://github.com/rust-lang/rust/pull/45301)
+* [rustc: Move bytecode compression into codegen](https://github.com/rust-lang/rust/pull/45399)
+* [rustc: Add `_imp_` symbols later in compilation](https://github.com/rust-lang/rust/pull/45348)
+* [incr.comp.: Use 128bit SipHash for fingerprinting](https://github.com/rust-lang/rust/pull/45319)
+* [mark block exits as reachable if the block can break](https://github.com/rust-lang/rust/pull/45316)
+* [avoid unnecessary allocas for indirect function arguments](https://github.com/rust-lang/rust/pull/44573)
+* [std: Update randomness implementation on Windows](https://github.com/rust-lang/rust/pull/45370)
+* [fix a few bugs in drop generation](https://github.com/rust-lang/rust/pull/45359)
+* [introduce pthread_cancel() for terminating threads](https://github.com/rust-lang/libc/pull/810)
+* [fix ABI breakage in syscall constants](https://github.com/rust-lang/libc/pull/815)
+* [fix most rendering warnings from switching to CommonMark](https://github.com/rust-lang/rust/pull/45419)
+* [allow cargo install --version as well (preferred)](https://github.com/rust-lang/cargo/pull/4637)
 
 ## New Contributors
 
