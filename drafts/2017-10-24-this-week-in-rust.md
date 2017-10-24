@@ -39,6 +39,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Join us at FOSDEM 2018: devroom CFP](https://rust-fosdem.github.io).
 * [Contribute to Rust's 2017 impl period](https://www.rustaceans.org/findwork/impl).
 * [Libz blitz: Out-of-band crate evaluation for 2017-10-20: mime](https://internals.rust-lang.org/t/out-of-band-crate-evaluation-for-2017-10-20-mime/5997).
+* [How to get involved with the new gfx-rs development](https://github.com/gfx-rs/gfx/wiki/Getting-Involved)
 * [easy] [allocators-rs: Cargo.toml: Add missing license](https://github.com/ezrosent/allocators-rs/issues/109).
 * [medium] [allocators-rs: alloc-fmt: Skip early frames of backtrace](https://github.com/ezrosent/allocators-rs/issues/107).
 * [medium] [allocators-rs: alloc-fmt: Allow disabling backtrace with feature](https://github.com/ezrosent/allocators-rs/issues/108).
