@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [How to deploy a Rocket application to Heroku](http://www.duelinmarkers.com/2017/10/21/how-to-deploy-a-rocket-application-to-heroku.html)
 * [Test driven development with Rust](https://matthewkmayer.github.io/blag/public/post/tdd-with-rust/).
 * [This week in Rust docs 78](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-78).
+* [podcast] [Rusty Spike Podcast - Episode 4](https://rusty-spike.blubrry.net/2017/10/18/episode-4-oct-18-2017/). Rust 1.21 release, popularity of the O’Reilly Rust book, GitHub Octoverse, module counts, and Servo adding JetStream.
 
 # Crate of the Week
 
