@@ -16,8 +16,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [How to Deploy a Rocket Application to Heroku](http://www.duelinmarkers.com/2017/10/21/how-to-deploy-a-rocket-application-to-heroku.html)
+* [Building a cross-platform game in Rust](https://www.reddit.com/r/rust/comments/78bowa/hey_this_is_kyren_from_chucklefish_we_make_and/).
+* [Rust to WebAssembly, made easy](https://lord.io/blog/2017/wargo/).
+* [HolyJit: A JIT for Firefox's and Servo's JS engine written in Rust](https://blog.mozilla.org/javascript/2017/10/20/holyjit-a-new-hope/).
+* [Rust with session types for safe & high-performance codecs](https://polysync.io/blog/session-types-for-hearty-codecs/).
+* [Nightly rustdoc is changing markdown rendering, here's some common differences and how to fix them](https://blog.guillaume-gomez.fr/articles/2017-09-18+New+rustdoc+rendering+common+errors).
+* [How to deploy a Rocket application to Heroku](http://www.duelinmarkers.com/2017/10/21/how-to-deploy-a-rocket-application-to-heroku.html)
 * [Test driven development with Rust](https://matthewkmayer.github.io/blag/public/post/tdd-with-rust/).
+* [This week in Rust docs 78](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-78).
 
 # Crate of the Week
 
@@ -36,18 +42,33 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Join us at FOSDEM 2018: devroom CFP](https://rust-fosdem.github.io).
+* [How to get involved with the new gfx-rs development](https://github.com/gfx-rs/gfx/wiki/Getting-Involved).
 * [Contribute to Rust's 2017 impl period](https://www.rustaceans.org/findwork/impl).
-* [Libz blitz: Out-of-band crate evaluation for 2017-10-20: mime](https://internals.rust-lang.org/t/out-of-band-crate-evaluation-for-2017-10-20-mime/5997).
-* [easy] [allocators-rs: Cargo.toml: Add missing license](https://github.com/ezrosent/allocators-rs/issues/109).
+* [CfP is open for FOSDEM 2018](https://rust-fosdem.github.io).
+* [semver-parser: Add examples to public items and methods](https://github.com/steveklabnik/semver-parser/issues/17).
+* [semver-parser: Add readme, keywords and categories to Cargo.toml](https://github.com/steveklabnik/semver-parser/issues/18).
+* [semver-parser: Add html_root_url attribute to crate root](https://github.com/steveklabnik/semver-parser/issues/19).
+* [semver-parser: Make structures with public fields non-exhaustive](https://github.com/steveklabnik/semver-parser/issues/20).
+* [semver-parser: Rename `Predicate` to `Comparator` and `VersionReq` to `Range`](https://github.com/steveklabnik/semver-parser/issues/21).
+* [semver-parser: Support parsing range sets](https://github.com/steveklabnik/semver-parser/issues/22).
+* [semver-parser: Add documentation to the crate root and public items](https://github.com/steveklabnik/semver-parser/issues/23).
+* [semver-parser: Implement common traits for `Version`](https://github.com/steveklabnik/semver-parser/issues/16).
+* [semver-parser: Implement common traits for `VersionReq`](https://github.com/steveklabnik/semver-parser/issues/15).
+* [semver: Use `?` instead of `unwrap` in examples](https://github.com/steveklabnik/semver/issues/129).
+* [semver: Document error cases on `Version::parse`](https://github.com/steveklabnik/semver/issues/130).
+* [semver: Document error cases on `VersionReq::parse`](https://github.com/steveklabnik/semver/issues/131).
+* [semver: Turn references to other `semver` items into links](https://github.com/steveklabnik/semver/issues/132).
+* [semver: Add keywords and categories to Cargo.toml](https://github.com/steveklabnik/semver/issues/133).
+* [semver: Add html_root_url attribute to crate root](https://github.com/steveklabnik/semver/issues/134).
+* [semver: Make error types non-exhaustive](https://github.com/steveklabnik/semver/issues/135).
+* [semver: Make fields on `Version` private](https://github.com/steveklabnik/semver/issues/136).
+* [semver: Support range sets](https://github.com/steveklabnik/semver/issues/137).
+* [semver: Rename VersionReq to Range](https://github.com/steveklabnik/semver/issues/138).
+* [winit: Wayland metabug](https://github.com/tomaka/winit/issues/306).
+* [arrayvec: ArrayString lacks removal features](https://github.com/bluss/arrayvec/issues/66#issuecomment-338413765).
+* [easy] [allocators-rs: malloc-bind: Use likely/unlikely](https://github.com/ezrosent/allocators-rs/issues/111).
+* [medium] [allocators-rs: elfc: Test in Travis and AppVeyor](https://github.com/ezrosent/allocators-rs/issues/119).
 * [medium] [allocators-rs: alloc-fmt: Skip early frames of backtrace](https://github.com/ezrosent/allocators-rs/issues/107).
-* [medium] [allocators-rs: alloc-fmt: Allow disabling backtrace with feature](https://github.com/ezrosent/allocators-rs/issues/108).
-* [doc] [num_cpus: libz blitz evaluation tracking issue](https://github.com/seanmonstar/num_cpus/issues/55).
-* [doc] [num_cpus: Improve `get_physical()` documentation](https://github.com/seanmonstar/num_cpus/issues/59).
-* [doc] [num_cpus: Expand crate level documentation](https://github.com/seanmonstar/num_cpus/issues/56).
-* [doc] [num_cpus: Add example to `get()` docs](https://github.com/seanmonstar/num_cpus/issues/57).
-* [doc] [num_cpus: Add example to `get_physical()` docs](https://github.com/seanmonstar/num_cpus/issues/58).
-* [doc] [num_cpus: Improve `get()` documentation](https://github.com/seanmonstar/num_cpus/issues/60).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -93,19 +114,11 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Alexander Kuleshov
-* Bráulio Bezerra
-* Cameron Steffen
-* Christopher Vittal
-* Hoàng Đức Hiếu
-* Jean Lourenço
-* Jimmy Brisson
-* JLockerman
-* Joe Rattazzi
-* Joshua Lockerman
-* k0pernicus
-* Matt
-* Michael Hewson
+* cjkenn
+* clippered
+* greg
+* Marco Concetto Rudilosso
+* Sunjay Varma
 
 ## Approved RFCs
 
@@ -131,24 +144,18 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [or-patterns in if / while let expressions](https://github.com/rust-lang/rfcs/pull/2175).
-* [Quick `dbg!(expr)` macro](https://github.com/rust-lang/rfcs/pull/2173).
-* [Partial turbofish](https://github.com/rust-lang/rfcs/pull/2176).
-* [Add Euclidean modulo & division functionality for integers](https://github.com/rust-lang/rfcs/pull/2169).
+* [Cargo versioning](https://github.com/rust-lang/rfcs/pull/2182).
+* [Movable array iterators](https://github.com/rust-lang/rfcs/pull/2185).
+* [Imply Option](https://github.com/rust-lang/rfcs/pull/2180).
+* [Support long path names on all Windows versions](https://github.com/rust-lang/rfcs/pull/2188).
 
 # Upcoming Events
 
-* [Oct 19. Cambridge Rust Meetup #4](https://www.meetup.com/Cambridge-Rust-Meetup/events/244085314/).
-* [Oct 19. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Oct 21. Mozilla Brasil - Mergulhando em Rust — O futuro da programação de sistemas #4](https://www.eventbrite.com.br/e/mergulhando-em-rust-o-futuro-da-programacao-de-sistemas-4-registration-38145874337).
-* [Oct 23. Durham, NC - Triangle Rustaceans - with Rust Community Team member Ben Striegel](https://www.meetup.com/triangle-rustaceans/events/243586365/).
-* [Oct 25. Rust Language Milano - Secondo incontro](https://www.meetup.com/rust-language-milano/events/244050676/).
-* [Oct 25. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Oct 25. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Oct 26 & 27. Rust Belt Rust 2017 - Columbus OH](https://www.rust-belt-rust.com/).
 * [Oct 26. Finland Rust-lang group October meetup](https://www.meetup.com/Finland-Rust-Meetup/events/243886850/).
 * [Oct 26. Mozilla Community Dresden - Rust meetup](https://www.meetup.com/Mozilla-Community-Dresden/events/243915635/).
 * [Oct 27. Rust Bangalore - Rust XML JSON and Serialization Workshop](https://www.meetup.com/rustox/events/243387629/).
+* [Oct 30. Rust Oslo - Code generation and type providers in Rust](https://www.meetup.com/Rust-Oslo/events/244142198/).
 * [Oct 31. Rust Zürich - Calling Rust from C and Java - October Community Meetup](https://www.meetup.com/Rust-Zurich/events/243147356/).
 * [Nov  1. Boston Rust - Presentation and Hack Night](https://www.meetup.com/BostonRust/events/244260833/).
 * [Nov  1. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/243942704/).
@@ -158,6 +165,10 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Nov  2. Rust Bay Area - Zero Knowledge Proof Macros and Cernan (data pipelining)](https://www.meetup.com/Rust-Bay-Area/events/244156617/).
 * [Nov  2. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Nov  4. Rust Bangalore - Rust Concurrency Workshop](https://www.meetup.com/rustox/events/240879563/).
+* [Nov  8. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Nov  8. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Nov  9. Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/243672298/).
+* [Nov  9. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/244164143/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -167,13 +178,18 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-*No jobs listed for this week.*
+* [Distributed Application Developer at Sphere Identity, Auckland, NZ](https://nz.linkedin.com/jobs/view/distributed-application-developers---blockchain-at-sphere-identity-ltd-442432632).
+* [Full-time Rust position at Commure, San Francisco, US](https://news.ycombinator.com/item?id=15387799).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> I guess I would say that, it’s not only important that it be possible to do a good design in a given language, but that the language actively encourage it by making the bad design painful. I think rust does a FANTASTIC job of this.
+
+— [/u/kyrenn during an AMA on developing a cross-platform game in Rust](https://www.reddit.com/r/rust/comments/78bowa/hey_this_is_kyren_from_chucklefish_we_make_and/dosq5qr/).
+
+Thanks to [Kyle Strand](https://users.rust-lang.org/t/twir-quote-of-the-week/328/460) for the suggestion!
 
 [Submit your quotes for next week][submit]!
 
