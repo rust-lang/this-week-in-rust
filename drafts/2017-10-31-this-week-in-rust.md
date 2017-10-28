@@ -156,6 +156,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Software Engineer at Fortanix, Mountain View, CA, US](https://www.fortanix.com/company/careers/#engineer)
 * [Distributed Application Developer at Sphere Identity, Auckland, NZ](https://nz.linkedin.com/jobs/view/distributed-application-developers---blockchain-at-sphere-identity-ltd-442432632).
 * [Full-time Rust position at Commure, San Francisco, US](https://news.ycombinator.com/item?id=15387799).
 
