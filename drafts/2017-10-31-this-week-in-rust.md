@@ -18,8 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [colored](https://crates.io/crates/colored) a UNIX-based terminal color crate. Thanks to [Kyle Galloway](https://users.rust-lang.org/u/kylegalloway) for
-the suggestion.
+This week's crate is [cargo-outdated](https://crates.io/crates/cargo-outdated), a cargo subcommand that shows outdated dependencies including latest compatible
+and latest version. Thanks to [Colin Kiegel](https://users.rust-lang.org/u/colin_kiegel) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -66,28 +66,35 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-121 pull requests were [merged in the last week][merged]
+111 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-10-16..2017-10-23
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-10-23..2017-10-30
 
-* [rustbuild: Compile rustc with ThinLTO](https://github.com/rust-lang/rust/pull/45400)
-* [code suggestions for non-shorthand field pattern, no-mangle lints](https://github.com/rust-lang/rust/pull/45232)
-* [cleanly error for non-const variable in associated const](https://github.com/rust-lang/rust/pull/45442)
-* [remove or encapsulate the remaining non-query data in tcx](https://github.com/rust-lang/rust/pull/44501)
-* [make `erase_regions_ty` query anonymous](https://github.com/rust-lang/rust/pull/45364)
-* [bump the minimum LLVM to 3.9](https://github.com/rust-lang/rust/pull/45326)
-* [backport ThinLTO LLVM 5 fixes](https://github.com/rust-lang/rust/pull/45301)
-* [rustc: Move bytecode compression into codegen](https://github.com/rust-lang/rust/pull/45399)
-* [rustc: Add `_imp_` symbols later in compilation](https://github.com/rust-lang/rust/pull/45348)
-* [incr.comp.: Use 128bit SipHash for fingerprinting](https://github.com/rust-lang/rust/pull/45319)
-* [mark block exits as reachable if the block can break](https://github.com/rust-lang/rust/pull/45316)
-* [avoid unnecessary allocas for indirect function arguments](https://github.com/rust-lang/rust/pull/44573)
-* [std: Update randomness implementation on Windows](https://github.com/rust-lang/rust/pull/45370)
-* [fix a few bugs in drop generation](https://github.com/rust-lang/rust/pull/45359)
-* [introduce pthread_cancel() for terminating threads](https://github.com/rust-lang/libc/pull/810)
-* [fix ABI breakage in syscall constants](https://github.com/rust-lang/libc/pull/815)
-* [fix most rendering warnings from switching to CommonMark](https://github.com/rust-lang/rust/pull/45419)
-* [allow cargo install --version as well (preferred)](https://github.com/rust-lang/cargo/pull/4637)
+* [ci: upgrade Android SDK/NDK and refactor to use sdkmanager/avdmanager](https://github.com/rust-lang/rust/pull/45580)
+* [implement RFC 1861: Extern types](https://github.com/rust-lang/rust/pull/44295)
+* [avoid unnecessary copies of arguments that are simple bindings](https://github.com/rust-lang/rust/pull/45380)
+* [add short error message-format](https://github.com/rust-lang/rust/pull/44636)
+* [add several lints into `unused` lint group](https://github.com/rust-lang/rust/pull/45424)
+* [resolve types properly in const eval](https://github.com/rust-lang/rust/pull/45488)
+* [create NormalizeTy query](https://github.com/rust-lang/rust/pull/44984)
+* [`crate` shorthand visibility modifier](https://github.com/rust-lang/rust/pull/45401)
+* [move Generics from MethodSig to TraitItem and ImplItem](https://github.com/rust-lang/rust/pull/44766)
+* [add generics to LateContext](https://github.com/rust-lang/rust/pull/45611)
+* [don't emit the same compiler diagnostic twice](https://github.com/rust-lang/rust/pull/45519)
+* [improve diagnostics when list of tokens has incorrect separators](https://github.com/rust-lang/rust/pull/45503)
+* [use 128 bit instead of Symbol for crate disambiguator](https://github.com/rust-lang/rust/pull/45476)
+* [remove dependency tracking for variance computation](https://github.com/rust-lang/rust/pull/45473)
+* [implement Hash for raw pointers to unsized types](https://github.com/rust-lang/rust/pull/45483)
+* [visit attribute tokens in `DefCollector` and `BuildReducedGraphVisitor`](https://github.com/rust-lang/rust/pull/45464)
+* [remove deprecated `collections` crate](https://github.com/rust-lang/rust/pull/45446)
+* [fix 32- vs 64-bit platform instability in StableHasher](https://github.com/rust-lang/rust/pull/45522)
+* [std: optimize thread park/unpark implementation](https://github.com/rust-lang/rust/pull/45524)
+* [std: disable usage of mmap allocator in libbacktrace ](https://github.com/rust-lang/rust/pull/45523)
+* [add current_pid function](https://github.com/rust-lang/rust/pull/45059)
+* [cargo: add unit test checking to `cargo check`](https://github.com/rust-lang/cargo/pull/4592)
+* [cargo: improving the error message for when a patched dependency does not resolve to anything](https://github.com/rust-lang/cargo/pull/4607)
+* [cargo: alternative registries](https://github.com/rust-lang/cargo/pull/4506)
+* [rustdoc: Show src button and function version on mobile version ](https://github.com/rust-lang/rust/pull/45502)
 
 ## New Contributors
 
