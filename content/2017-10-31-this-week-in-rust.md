@@ -18,9 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Fun facts about Rust's growing popularity](http://www.jonathanturner.org/2017/10/fun-facts-about-rust-growth.html).
 * [Cargo alternative registries](https://boats.gitlab.io/blog/post/2017-10-28-alternative-registries/).
-* [My experience with writing a plant simulation game in Rust](https://www.reddit.com/r/rust/comments/795dg4/i_spent_the_last_year_writing_a_plant/).
+* [A game developer's experience with writing a plant simulation game in Rust](https://www.reddit.com/r/rust/comments/795dg4/i_spent_the_last_year_writing_a_plant/).
 * [A brief history of Rust](http://slides.com/bstrie/triangle-rust-history).
-* [The Expressive C++17 coding challenge (in Rust)](http://words.steveklabnik.com/the-expressive-c-17-coding-challenge-in-rust).
+* [The Expressive C++17 coding challenge… in Rust](http://words.steveklabnik.com/the-expressive-c-17-coding-challenge-in-rust).
 * [Announcing bindgen 0.31.0](https://www.reddit.com/r/rust/comments/795n0k/announcing_bindgen_0310/).
 * [Pleco: Creating a Chess engine with Rust](https://sfleischman105.github.io/2017/10/26/creating-a-chess-engine.html).
 * [Swagger.io can now autogenerate Rust servers from OpenAPI specifications](https://www.metaswitch.com/the-switch/metaswitch-swagger-codegen-for-rust-accepted-upstream).
