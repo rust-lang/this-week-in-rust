@@ -16,7 +16,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Swagger.io can now autogenerate Rust servers from OpenAPI specifications](https://www.metaswitch.com/the-switch/metaswitch-swagger-codegen-for-rust-accepted-upstream)
+* [Fun facts about Rust's growing popularity](http://www.jonathanturner.org/2017/10/fun-facts-about-rust-growth.html).
+* [Cargo alternative registries](https://boats.gitlab.io/blog/post/2017-10-28-alternative-registries/).
+* [My experience with writing a plant simulation game in Rust](https://www.reddit.com/r/rust/comments/795dg4/i_spent_the_last_year_writing_a_plant/).
+* [A brief history of Rust](http://slides.com/bstrie/triangle-rust-history).
+* [The Expressive C++17 coding challenge (in Rust)](http://words.steveklabnik.com/the-expressive-c-17-coding-challenge-in-rust).
+* [Announcing bindgen 0.31.0](https://www.reddit.com/r/rust/comments/795n0k/announcing_bindgen_0310/).
+* [Pleco: Creating a Chess engine with Rust](https://sfleischman105.github.io/2017/10/26/creating-a-chess-engine.html).
+* [Swagger.io can now autogenerate Rust servers from OpenAPI specifications](https://www.metaswitch.com/the-switch/metaswitch-swagger-codegen-for-rust-accepted-upstream).
+* [This week in Rust docs 79](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-79).
+* [podcast] [Rusty Spike Podcast - Episode 5](https://rusty-spike.blubrry.net/2017/10/25/episode-5-oct-25-2017/). A new game written in Rust, improvements to WASM support, a JIT compiler in Rust, and Gstreamer support in Servo.s
 
 # Crate of the Week
 
@@ -34,33 +43,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [How to get involved with the new gfx-rs development](https://github.com/gfx-rs/gfx/wiki/Getting-Involved).
 * [Contribute to Rust's 2017 impl period](https://www.rustaceans.org/findwork/impl).
-* [CfP is open for FOSDEM 2018](https://rust-fosdem.github.io).
-* [semver-parser: Add examples to public items and methods](https://github.com/steveklabnik/semver-parser/issues/17).
-* [semver-parser: Add readme, keywords and categories to Cargo.toml](https://github.com/steveklabnik/semver-parser/issues/18).
-* [semver-parser: Add html_root_url attribute to crate root](https://github.com/steveklabnik/semver-parser/issues/19).
-* [semver-parser: Make structures with public fields non-exhaustive](https://github.com/steveklabnik/semver-parser/issues/20).
-* [semver-parser: Rename `Predicate` to `Comparator` and `VersionReq` to `Range`](https://github.com/steveklabnik/semver-parser/issues/21).
-* [semver-parser: Support parsing range sets](https://github.com/steveklabnik/semver-parser/issues/22).
-* [semver-parser: Add documentation to the crate root and public items](https://github.com/steveklabnik/semver-parser/issues/23).
-* [semver-parser: Implement common traits for `Version`](https://github.com/steveklabnik/semver-parser/issues/16).
-* [semver-parser: Implement common traits for `VersionReq`](https://github.com/steveklabnik/semver-parser/issues/15).
-* [semver: Use `?` instead of `unwrap` in examples](https://github.com/steveklabnik/semver/issues/129).
-* [semver: Document error cases on `Version::parse`](https://github.com/steveklabnik/semver/issues/130).
-* [semver: Document error cases on `VersionReq::parse`](https://github.com/steveklabnik/semver/issues/131).
-* [semver: Turn references to other `semver` items into links](https://github.com/steveklabnik/semver/issues/132).
-* [semver: Add keywords and categories to Cargo.toml](https://github.com/steveklabnik/semver/issues/133).
-* [semver: Add html_root_url attribute to crate root](https://github.com/steveklabnik/semver/issues/134).
-* [semver: Make error types non-exhaustive](https://github.com/steveklabnik/semver/issues/135).
-* [semver: Make fields on `Version` private](https://github.com/steveklabnik/semver/issues/136).
-* [semver: Support range sets](https://github.com/steveklabnik/semver/issues/137).
-* [semver: Rename VersionReq to Range](https://github.com/steveklabnik/semver/issues/138).
-* [winit: Wayland metabug](https://github.com/tomaka/winit/issues/306).
-* [arrayvec: ArrayString lacks removal features](https://github.com/bluss/arrayvec/issues/66#issuecomment-338413765).
-* [easy] [allocators-rs: malloc-bind: Use likely/unlikely](https://github.com/ezrosent/allocators-rs/issues/111).
-* [medium] [allocators-rs: elfc: Test in Travis and AppVeyor](https://github.com/ezrosent/allocators-rs/issues/119).
-* [medium] [allocators-rs: alloc-fmt: Skip early frames of backtrace](https://github.com/ezrosent/allocators-rs/issues/107).
+* [Call for help: Cargo "airplane" mode](https://internals.rust-lang.org/t/call-for-help-cargo-airplane-mode/6134). ([GitHub issue](https://github.com/rust-lang/cargo/issues/4686))
+* [stdsimd: Implement all x86 vendor intrinsics](https://github.com/rust-lang-nursery/stdsimd/issues/40).
+* [stdsimd: Implement all ARM NEON intrinsics](https://github.com/rust-lang-nursery/stdsimd/issues/148).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -100,11 +86,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* cjkenn
-* clippered
-* greg
-* Marco Concetto Rudilosso
-* Sunjay Varma
+* Dustin Speckhals
+* Igor Matuszewski
+* John Paul Adrian Glaubitz
+* Josh Leeb-du Toit
+* Laurent Arnoud
+* Nadav Zingerman
+* Paul Liétar
+* Thayne McCombs
+* Virgil Palanciuc
 
 ## Approved RFCs
 
@@ -130,33 +120,27 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Cargo versioning](https://github.com/rust-lang/rfcs/pull/2182).
-* [Movable array iterators](https://github.com/rust-lang/rfcs/pull/2185).
-* [Imply Option](https://github.com/rust-lang/rfcs/pull/2180).
-* [Support long path names on all Windows versions](https://github.com/rust-lang/rfcs/pull/2188).
+* [Formally define repr(X) on enums with payloads](https://github.com/rust-lang/rfcs/pull/2195).
+* [TryClone trait](https://github.com/rust-lang/rfcs/pull/2189).
 
 # Upcoming Events
 
-* [Oct 26 & 27. Rust Belt Rust 2017 - Columbus OH](https://www.rust-belt-rust.com/).
-* [Oct 26. Finland Rust-lang group October meetup](https://www.meetup.com/Finland-Rust-Meetup/events/243886850/).
-* [Oct 26. Mozilla Community Dresden - Rust meetup](https://www.meetup.com/Mozilla-Community-Dresden/events/243915635/).
-* [Oct 27. Rust Bangalore - Rust XML JSON and Serialization Workshop](https://www.meetup.com/rustox/events/243387629/).
-* [Oct 28 & 29. Get In Touch With Rust! @ MozFest London](http://mozillafestival.org/)
-* [Oct 30. Rust Oslo - Code generation and type providers in Rust](https://www.meetup.com/Rust-Oslo/events/244142198/).
-* [Oct 31. Rust Zürich - Calling Rust from C and Java - October Community Meetup](https://www.meetup.com/Rust-Zurich/events/243147356/).
-* [Nov  1. Boston Rust - Presentation and Hack Night](https://www.meetup.com/BostonRust/events/244260833/).
-* [Nov  1. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/243942704/).
-* [Nov  1. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/krnczlywpbcb/).
-* [Nov  1. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Nov  1. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Nov  2. Live AMA with Rust Core Team members](https://hashnode.com/ama/with-rust-language-team-cj99mv7s101yw4rwtk5zntk8k).
 * [Nov  2. Rust Bay Area - Zero Knowledge Proof Macros and Cernan (data pipelining)](https://www.meetup.com/Rust-Bay-Area/events/244156617/).
 * [Nov  2. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Nov  4. Rust Bangalore - Rust Concurrency Workshop](https://www.meetup.com/rustox/events/240879563/).
+* [Nov  5. DevFest Ahmedabad 2017: Dive Into Rust](http://devfest.gdgahmedabad.com/).
+* [Nov  8. Rust Roma - Rust learning and hacking evening #3](https://www.meetup.com/Rust-Roma/events/244508431/).
 * [Nov  8. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Nov  8. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Nov  9. Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/243672298/).
 * [Nov  9. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/244164143/).
+* [Nov  9. San Diego Rust November Meetup - Beginner's Training Session](https://www.meetup.com/San-Diego-Rust/events/244506375/).
+* [Nov 13. Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/244037662/).
+* [Nov 15. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/244340757/).
+* [Nov 15. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Nov 15. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Nov 16. Cambridge Rust Meetup #5](https://www.meetup.com/Cambridge-Rust-Meetup/events/244114730/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -174,11 +158,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I guess I would say that, it’s not only important that it be possible to do a good design in a given language, but that the language actively encourage it by making the bad design painful. I think rust does a FANTASTIC job of this.
+> I feel like I'm doing something wrong because I'm programming faster and nothing has gone wrong yet
 
-— [/u/kyrenn during an AMA on developing a cross-platform game in Rust](https://www.reddit.com/r/rust/comments/78bowa/hey_this_is_kyren_from_chucklefish_we_make_and/dosq5qr/).
+— [@0x424c41434b on Rust](https://twitter.com/0x424c41434b/status/923369121844043776).
 
-Thanks to [Kyle Strand](https://users.rust-lang.org/t/twir-quote-of-the-week/328/460) for the suggestion!
+Thanks to [@llogiq](https://twitter.com/llogiq/status/923431261523374081) for the suggestion!
 
 [Submit your quotes for next week][submit]!
 
