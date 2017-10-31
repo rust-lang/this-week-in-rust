@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Swagger.io can now autogenerate Rust servers from OpenAPI specifications](https://www.metaswitch.com/the-switch/metaswitch-swagger-codegen-for-rust-accepted-upstream)
+
 # Crate of the Week
 
 This week's crate is [cargo-outdated](https://crates.io/crates/cargo-outdated), a cargo subcommand that shows outdated dependencies including latest compatible
