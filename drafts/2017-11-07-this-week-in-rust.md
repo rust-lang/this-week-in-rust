@@ -18,8 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [cargo-outdated](https://crates.io/crates/cargo-outdated), a cargo subcommand that shows outdated dependencies including latest compatible
-and latest version. Thanks to [Colin Kiegel](https://users.rust-lang.org/u/colin_kiegel) for the suggestion.
+This week's crate is [futures-await](https://crates.io/crates/futures-await), a crate to simplify writing futures-based async code. Thanks to [LilianMoraru](https://users.rust-lang.org/u/LilianMoraru) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -43,35 +42,34 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-111 pull requests were [merged in the last week][merged]
+125 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-10-23..2017-10-30
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-10-30..2017-11-06
 
-* [ci: upgrade Android SDK/NDK and refactor to use sdkmanager/avdmanager](https://github.com/rust-lang/rust/pull/45580)
-* [implement RFC 1861: Extern types](https://github.com/rust-lang/rust/pull/44295)
-* [avoid unnecessary copies of arguments that are simple bindings](https://github.com/rust-lang/rust/pull/45380)
-* [add short error message-format](https://github.com/rust-lang/rust/pull/44636)
-* [add several lints into `unused` lint group](https://github.com/rust-lang/rust/pull/45424)
-* [resolve types properly in const eval](https://github.com/rust-lang/rust/pull/45488)
-* [create NormalizeTy query](https://github.com/rust-lang/rust/pull/44984)
-* [`crate` shorthand visibility modifier](https://github.com/rust-lang/rust/pull/45401)
-* [move Generics from MethodSig to TraitItem and ImplItem](https://github.com/rust-lang/rust/pull/44766)
-* [add generics to LateContext](https://github.com/rust-lang/rust/pull/45611)
-* [don't emit the same compiler diagnostic twice](https://github.com/rust-lang/rust/pull/45519)
-* [improve diagnostics when list of tokens has incorrect separators](https://github.com/rust-lang/rust/pull/45503)
-* [use 128 bit instead of Symbol for crate disambiguator](https://github.com/rust-lang/rust/pull/45476)
-* [remove dependency tracking for variance computation](https://github.com/rust-lang/rust/pull/45473)
-* [implement Hash for raw pointers to unsized types](https://github.com/rust-lang/rust/pull/45483)
-* [visit attribute tokens in `DefCollector` and `BuildReducedGraphVisitor`](https://github.com/rust-lang/rust/pull/45464)
-* [remove deprecated `collections` crate](https://github.com/rust-lang/rust/pull/45446)
-* [fix 32- vs 64-bit platform instability in StableHasher](https://github.com/rust-lang/rust/pull/45522)
-* [std: optimize thread park/unpark implementation](https://github.com/rust-lang/rust/pull/45524)
-* [std: disable usage of mmap allocator in libbacktrace ](https://github.com/rust-lang/rust/pull/45523)
-* [add current_pid function](https://github.com/rust-lang/rust/pull/45059)
-* [cargo: add unit test checking to `cargo check`](https://github.com/rust-lang/cargo/pull/4592)
-* [cargo: improving the error message for when a patched dependency does not resolve to anything](https://github.com/rust-lang/cargo/pull/4607)
-* [cargo: alternative registries](https://github.com/rust-lang/cargo/pull/4506)
-* [rustdoc: Show src button and function version on mobile version ](https://github.com/rust-lang/rust/pull/45502)
+* [enable non-lexical lifetimes in the MIR borrow checker](https://github.com/rust-lang/rust/pull/45538)
+* [fix MIR inlining panic in generic function](https://github.com/rust-lang/rust/pull/45723)
+* [optimize some span operations](https://github.com/rust-lang/rust/pull/45602)
+* [display spans correctly when there are zero-width or wide characters](https://github.com/rust-lang/rust/pull/45711)
+* [typeck: suggest use of match_default_bindings feature](https://github.com/rust-lang/rust/pull/45409)
+* [typeck: use subtyping on the LHS of binops](https://github.com/rust-lang/rust/pull/45435)
+* [suggest renaming import if names clash](https://github.com/rust-lang/rust/pull/45660)
+* [future-proofing enums/structs with `#[non_exhaustive]` attribute](https://github.com/rust-lang/rust/pull/45394) (RFC [#2008](https://rust-lang.github.io/rfcs/2008-non-exhaustive.html))
+* [implement auto trait syntax](https://github.com/rust-lang/rust/pull/45247)
+* [incr.comp.: Implement compiler diagnostic persistence](https://github.com/rust-lang/rust/pull/45472)
+* [incr.comp.: Fix two problems with HIR hashing](https://github.com/rust-lang/rust/pull/45551)
+* save-analysis: [emit crate disambiguators](https://github.com/rust-lang/rust/pull/45468),
+                 [fixes](https://github.com/rust-lang/rust/pull/45709)),
+                 [more fixes](https://github.com/rust-lang/rust/pull/45798),
+                 [union support](https://github.com/rust-lang/rust/pull/45647)
+* [`BufReader::is_empty(..)`](https://github.com/rust-lang/rust/pull/45369)
+* [bring back `slice::ref_slice` as `slice::from_ref`](https://github.com/rust-lang/rust/pull/45306)
+* [remove the `T: Sync` requirement for `RwLock<T>: Send`](https://github.com/rust-lang/rust/pull/45267)
+* [implement `TryFrom<&[T]>` for `&[T; N]`](https://github.com/rust-lang/rust/pull/44764)
+* [copy all `AsciiExt` methods to the primitive types directly in order to deprecate it later](https://github.com/rust-lang/rust/pull/44042)
+* [impl `From<T>` for `AtomicT`](https://github.com/rust-lang/rust/pull/45610)
+* [next_power_of_two now panics on overflow](https://github.com/rust-lang/rust/pull/45754)
+* [cargo: support uninstallation of multiple packages](https://github.com/rust-lang/cargo/pull/4561)
+* [rustdoc: improve sidebar rendering and add methods list](https://github.com/rust-lang/rust/pull/45187)
 
 ## New Contributors
 
