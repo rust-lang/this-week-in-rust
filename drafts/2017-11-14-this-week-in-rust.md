@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [futures-await](https://crates.io/crates/futures-await), a crate to simplify writing futures-based async code. Thanks to [LilianMoraru](https://users.rust-lang.org/u/LilianMoraru) for the suggestion.
+This week's crate is [failure](https://github.com/withoutboats/failure), a crate to deal with... you guessed it, failure. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -48,34 +48,57 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-125 pull requests were [merged in the last week][merged]
+137 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-10-30..2017-11-06
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-11-06..2017-11-13
 
-* [enable non-lexical lifetimes in the MIR borrow checker](https://github.com/rust-lang/rust/pull/45538)
-* [fix MIR inlining panic in generic function](https://github.com/rust-lang/rust/pull/45723)
-* [optimize some span operations](https://github.com/rust-lang/rust/pull/45602)
-* [display spans correctly when there are zero-width or wide characters](https://github.com/rust-lang/rust/pull/45711)
-* [typeck: suggest use of match_default_bindings feature](https://github.com/rust-lang/rust/pull/45409)
-* [typeck: use subtyping on the LHS of binops](https://github.com/rust-lang/rust/pull/45435)
-* [suggest renaming import if names clash](https://github.com/rust-lang/rust/pull/45660)
-* [future-proofing enums/structs with `#[non_exhaustive]` attribute](https://github.com/rust-lang/rust/pull/45394) (RFC [#2008](https://rust-lang.github.io/rfcs/2008-non-exhaustive.html))
-* [implement auto trait syntax](https://github.com/rust-lang/rust/pull/45247)
-* [incr.comp.: Implement compiler diagnostic persistence](https://github.com/rust-lang/rust/pull/45472)
-* [incr.comp.: Fix two problems with HIR hashing](https://github.com/rust-lang/rust/pull/45551)
-* save-analysis: [emit crate disambiguators](https://github.com/rust-lang/rust/pull/45468),
-                 [fixes](https://github.com/rust-lang/rust/pull/45709)),
-                 [more fixes](https://github.com/rust-lang/rust/pull/45798),
-                 [union support](https://github.com/rust-lang/rust/pull/45647)
-* [`BufReader::is_empty(..)`](https://github.com/rust-lang/rust/pull/45369)
-* [bring back `slice::ref_slice` as `slice::from_ref`](https://github.com/rust-lang/rust/pull/45306)
-* [remove the `T: Sync` requirement for `RwLock<T>: Send`](https://github.com/rust-lang/rust/pull/45267)
-* [implement `TryFrom<&[T]>` for `&[T; N]`](https://github.com/rust-lang/rust/pull/44764)
-* [copy all `AsciiExt` methods to the primitive types directly in order to deprecate it later](https://github.com/rust-lang/rust/pull/44042)
-* [impl `From<T>` for `AtomicT`](https://github.com/rust-lang/rust/pull/45610)
-* [next_power_of_two now panics on overflow](https://github.com/rust-lang/rust/pull/45754)
-* [cargo: support uninstallation of multiple packages](https://github.com/rust-lang/cargo/pull/4561)
-* [rustdoc: improve sidebar rendering and add methods list](https://github.com/rust-lang/rust/pull/45187)
+* [add `Option::filter()`](https://github.com/rust-lang/rust/pull/45863) (RFC [#2124](https://github.com/LukasKalbertodt/rfcs/blob/8857fc3aa021058084e2a16af457e43249cc50ce/text/2124-option-filter.md)
+* [refactor Option::filter method](https://github.com/rust-lang/rust/pull/45933)
+* [MIR-borrowck: fix diagnostics for closures](https://github.com/rust-lang/rust/pull/45927)
+* [compiletest: Fix a couple of test re-run issues](https://github.com/rust-lang/rust/pull/45917)
+* [fix test case header parsing code in presence of multiple revisions](https://github.com/rust-lang/rust/pull/45914)
+* [rustbuild: Disable ThinLTO for libtest](https://github.com/rust-lang/rust/pull/45908)
+* [make saturating u128 -> f32 casts the default behavior](https://github.com/rust-lang/rust/pull/45900)
+* [check::method - unify receivers before normalizing method signatures](https://github.com/rust-lang/rust/pull/45890)
+* [fix core for targets with max-atomic-width = 0](https://github.com/rust-lang/rust/pull/45882)
+* [restore move out dataflow, add report of move out errors](https://github.com/rust-lang/rust/pull/45877)
+* [implement arbitrary_self_types](https://github.com/rust-lang/rust/pull/45870)
+* [incr.comp.: Verify stability of incr. comp. hashes and clean up various other things](https://github.com/rust-lang/rust/pull/45867)
+* [disable `mmap` in `libbacktrace` on Apple platforms](https://github.com/rust-lang/rust/pull/45866)
+* [fix help for duplicated names: `extern crate (...) as (...)`](https://github.com/rust-lang/rust/pull/45856)
+* [disable LLVM assertions on Nightly, enable them in "alt" builds](https://github.com/rust-lang/rust/pull/45810)
+* [make positional argument error in format! clearer](https://github.com/rust-lang/rust/pull/45807)
+* [deduplicate projection error (E0271) messages](https://github.com/rust-lang/rust/pull/45952)
+* [add missing div and rem vector intrinsics](https://github.com/rust-lang/rust/pull/45804)
+* [prefer libproc_macro APIs to libsyntax ones in the quasi-quoter](https://github.com/rust-lang/rust/pull/45791)
+* [fixes to MIR effectck](https://github.com/rust-lang/rust/pull/45785)
+* [display all emission types in error msg if user inputs invalid option](https://github.com/rust-lang/rust/pull/45782)
+* [accept interpolated patterns in trait method parameters](https://github.com/rust-lang/rust/pull/45775)
+* [add error for `...` in expressions](https://github.com/rust-lang/rust/pull/45773)
+* [resolve: Use same rules for disambiguating fresh bindings in `match` and `let`](https://github.com/rust-lang/rust/pull/45050)
+* [change MIR dump filenames from `rustc.nodeN...` to `rustc.<DefPath>`](https://github.com/rust-lang/rust/pull/45757)
+* [fix MIR CopyPropagation errneously propagating assignments to function args](https://github.com/rust-lang/rust/pull/45753)
+* [handle anon lifetime arg being returned with named lifetime return type](https://github.com/rust-lang/rust/pull/45751)
+* [refactor internal suggestion API](https://github.com/rust-lang/rust/pull/45741)
+* [extend NLL with preliminary support for free regions on functions](https://github.com/rust-lang/rust/pull/45668)
+* [allow overriding the thread-local statics model](https://github.com/rust-lang/rust/pull/45666)
+* [use a `Set<T>` instead of a `Map<T, bool>`](https://github.com/rust-lang/rust/pull/45736)
+* [regenerate libcore/char_private.rs](https://github.com/rust-lang/rust/pull/45571)
+* [detect `=` → `:` typo in let bindings](https://github.com/rust-lang/rust/pull/45452)
+* [forbid casting to/from a pointer of unknown kind](https://github.com/rust-lang/rust/pull/45735)
+* [working towards a libc-less (wasm32) libstd](https://github.com/rust-lang/rust/pull/45725)
+* [rustc: add item name to deprecated lint warning](https://github.com/rust-lang/rust/pull/45707)
+* [RwLock guards are Sync if T is](https://github.com/rust-lang/rust/pull/45682)
+* [remove `T: Sized` on pointer `as_ref()` and `as_mut()`](https://github.com/rust-lang/rust/pull/44932)
+* [impl FromIterator<()> for ()](https://github.com/rust-lang/rust/pull/45379)
+* [improve SliceExt::binary_search performance](https://github.com/rust-lang/rust/pull/45333)
+* [saturating casts between integers and floats](https://github.com/rust-lang/rust/pull/45205)
+* [`OccupiedEntry::replace_entry`](https://github.com/rust-lang/rust/pull/45152)
+* [cargo: List available binary names](https://github.com/rust-lang/cargo/pull/4673)
+* [rustdoc: Fix duplicated impls with generics](https://github.com/rust-lang/rust/pull/45620)
+* [rustdoc: Search over generic types in docs](https://github.com/rust-lang/rust/pull/45673)
+* [rustdoc: add more elements in the sidebar](https://github.com/rust-lang/rust/pull/45766)
+* [rustdoc: add `#[allow(unused)]` to every doctest](https://github.com/rust-lang/rust/pull/45764)
 
 ## New Contributors
 
