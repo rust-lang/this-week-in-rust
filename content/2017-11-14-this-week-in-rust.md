@@ -24,7 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Rust docs 81](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-81).
 * [Impl period newsletter 3](https://internals.rust-lang.org/t/impl-period-newsletter-3/6185).
 * [video] [How Rust gets polymorphism right](https://www.youtube.com/watch?v=VSlBhAOLtFA).
-* [podcast] [Rusty Spike Podcast - Episode 7](https://rusty-spike.blubrry.net/2017/11/08/episode-7-nov-8-2017/). Stanford using Rust, the Rust AMA, RLS release dates, crates.io growth, and Servo audio.
+* [podcast] [Rusty Spike Podcast - episode 7](https://rusty-spike.blubrry.net/2017/11/08/episode-7-nov-8-2017/). Stanford using Rust, the Rust AMA, RLS release dates, crates.io growth, and Servo audio.
 
 # Crate of the Week
 
@@ -43,7 +43,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [Contribute to Rust's 2017 impl period](https://www.rustaceans.org/findwork/impl).
 * [Help us benchmark saturating float casts](https://internals.rust-lang.org/t/help-us-benchmark-saturating-float-casts/6231).
-* [Want to learn more about Wayland? Here are some detailed issues on how to help me implement a safe wlroots wrapper in Rust](https://github.com/swaywm/wlroots-rs/issues/22).
+* [Want to learn more about Wayland? Here are some detailed issues on how to help implement a safe wlroots wrapper in Rust](https://github.com/swaywm/wlroots-rs/issues/22).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -55,7 +55,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-11-06..2017-11-13
 
-* [add `Option::filter()`](https://github.com/rust-lang/rust/pull/45863) (RFC [#2124](https://github.com/LukasKalbertodt/rfcs/blob/8857fc3aa021058084e2a16af457e43249cc50ce/text/2124-option-filter.md)
+* [add `Option::filter()`](https://github.com/rust-lang/rust/pull/45863) (RFC [#2124](https://github.com/LukasKalbertodt/rfcs/blob/8857fc3aa021058084e2a16af457e43249cc50ce/text/2124-option-filter.md))
 * [refactor Option::filter method](https://github.com/rust-lang/rust/pull/45933)
 * [MIR-borrowck: fix diagnostics for closures](https://github.com/rust-lang/rust/pull/45927)
 * [compiletest: Fix a couple of test re-run issues](https://github.com/rust-lang/rust/pull/45917)
