@@ -16,6 +16,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Fearless concurrency in Firefox Quantum](https://blog.rust-lang.org/2017/11/14/Fearless-Concurrency-In-Firefox-Quantum.html).
+* [Zoxc joins Rust compiler team](https://internals.rust-lang.org/t/please-welcome-zoxc-to-the-compiler-team/6207).
+* [Rust futures: a short tutorial - part 1](https://dev.to/mindflavor/rust-futures-an-uneducated-short-and-hopefully-not-boring-tutorial---part-1-3k3).
+* [Cross-compiling Rust for the Raspberry Pi on macOS](https://akappel.github.io/2017/11/07/rpi-crosstool.html).
+* [A linear hashing implementation in Rust](https://samrat.me/posts/2017-11-09-kvstore-rust-hashtable/).
+* [This week in Rust docs 81](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-81).
+* [Impl period newsletter 3](https://internals.rust-lang.org/t/impl-period-newsletter-3/6185).
+* [video] [How Rust gets polymorphism right](https://www.youtube.com/watch?v=VSlBhAOLtFA).
+* [podcast] [Rusty Spike Podcast - Episode 7](https://rusty-spike.blubrry.net/2017/11/08/episode-7-nov-8-2017/). Stanford using Rust, the Rust AMA, RLS release dates, crates.io growth, and Servo audio.
+
 # Crate of the Week
 
 This week's crate is [failure](https://github.com/withoutboats/failure), a crate to deal with... you guessed it, failure. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion.
@@ -31,16 +41,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Help us benchmark incremental compilation](https://internals.rust-lang.org/t/help-us-benchmark-incremental-compilation/6153)!
 * [Contribute to Rust's 2017 impl period](https://www.rustaceans.org/findwork/impl).
-* [MusicBrainz crate is looking for maintainers](https://www.reddit.com/r/rust/comments/7a2nq4/looking_for_potential_maintainer_to_musicbrainz/).
-* [docs] [rust-ffi-guide: CString.as_ptr() problem](https://github.com/Michael-F-Bryan/rust-ffi-guide/issues/50).
-* [docs] [rust-ffi-guide: Enum from integer is UB problem](https://github.com/Michael-F-Bryan/rust-ffi-guide/issues/51).
-* [docs] [rust-ffi-guide: More examples of UB and FFI footguns](https://github.com/Michael-F-Bryan/rust-ffi-guide/issues/52).
-* [docs] [rust-ffi-guide: Beware of allocators mismatch](https://github.com/Michael-F-Bryan/rust-ffi-guide/issues/53).
-* [docs] [rust-ffi-guide: Rust enums and tagged unions](https://github.com/Michael-F-Bryan/rust-ffi-guide/issues/54).
-* [docs] [rust-ffi-guide: Unwinding problem](https://github.com/Michael-F-Bryan/rust-ffi-guide/issues/49).
-* [docs] [rust-ffi-guide: Linker errors and name mangling problem](https://github.com/Michael-F-Bryan/rust-ffi-guide/issues/48).
+* [Help us benchmark saturating float casts](https://internals.rust-lang.org/t/help-us-benchmark-saturating-float-casts/6231).
+* [Want to learn more about Wayland? Here are some detailed issues on how to help me implement a safe wlroots wrapper in Rust](https://github.com/swaywm/wlroots-rs/issues/22).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -102,12 +105,13 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* David Wood
-* Jonathan Behrens
-* Lance John
-* laurent
-* matt rice
-* Rolf Karp
+* Alec Theriault
+* Alkis Evlogimenos
+* John Ford
+* John-John Tedro
+* Sebastian Dröge
+* Sébastien Santoro
+* Shotaro Yamada
 
 ## Approved RFCs
 
@@ -115,7 +119,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2124: Add `Option::filter` to the standard library](https://github.com/rust-lang/rfcs/pull/2124).
 
 ## Final Comment Period
 
@@ -133,27 +137,27 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Semantic build scripts for Cargo](https://github.com/rust-lang/rfcs/pull/2196).
-* [Constants in array repeat expressions](https://github.com/rust-lang/rfcs/pull/2203).
-* [The ConstDefault trait](https://github.com/rust-lang/rfcs/pull/2204).
-* [`#[derive unfinished(..)]` and `#[unfinished]`](https://github.com/rust-lang/rfcs/pull/2205).
+* [Minimal target feature unsafe](https://github.com/rust-lang/rfcs/pull/2212).
 
 # Upcoming Events
 
-* [Nov  9. Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/243672298/).
-* [Nov  9. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/244164143/).
-* [Nov  9. San Diego Rust November Meetup - Beginner's Training Session](https://www.meetup.com/San-Diego-Rust/events/244506375/).
-* [Now 10. Rust Meetup Stuttgart (Germany)](https://blog.shackspace.de/?p=5723)
-* [Nov 13. Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/244037662/).
-* [Nov 15. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/244340757/).
-* [Nov 15. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Nov 15. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Nov 16. Cambridge Rust Meetup #5](https://www.meetup.com/Cambridge-Rust-Meetup/events/244114730/).
 * [Nov 16. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Nov 19. Rust India Community Monthly Call](https://reps.mozilla.org/e/rust-india-monthly-call/).
 * [Nov 21. Beginning Rust and Rust Hack Night @ Valtech Stockholm Sweden](https://www.meetup.com/ruststhlm/events/244792464/).
+* [Nov 21. Rust Zürich - Intro to Rust: November Community Meetup](https://www.meetup.com/Rust-Zurich/events/244698503/).
+* [Nov 22. Rust Milano - Meet Rust Language with a live coding session](https://www.meetup.com/rust-language-milano/events/245059623).
 * [Nov 22. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Nov 22. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Nov 24. Monkey Tech Days Toulouse, France - Explore Languages (Go Vs Rust) - MKTD#5](https://www.meetup.com/Monkey-Tech-Days/events/237545492/).
+* [Nov 25. Rust Bangalore - Rust Concurrency (part 2 of 2)](https://www.meetup.com/rustox/events/244782966/).
+* [Nov 27. Triangle Rustaceans Durham, NC - Algebraic Data Types in Practice and Theory](https://www.meetup.com/triangle-rustaceans/events/kkjnpnywpbkc).
+* [Nov 29. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Nov 29. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Nov 29. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/krnczlywpbmc).
+* [Nov 30. Rust Munich: Rust Machine Learning with Juice](https://www.meetup.com/rust-munich/events/244580709/).
+* [Nov 30. Rust Detroit - Introducing Tock OS 1.0](https://www.meetup.com/rust-detroit/events/244855856/).
+* [Nov 30. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -163,20 +167,13 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust jobs from "Who's Hiring" thread on Hacker News](https://www.reddit.com/r/rust/comments/7adboi/17_rustrelated_job_openings_in_novembers_whos/).
-* [Rust + Machine Learning at Etsy](https://www.reddit.com/r/rust/comments/7aoiod/job_etsy_rust_machine_learning/).
+* [Rust developers at stokebrain](https://users.rust-lang.org/t/rust-developers-wanted-for-startup/13784).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> durka42: IMO the name "dangling" is scary enough :)
-> Havvy gives durka42 a ptr::dangling::<Candy>().
-> durka42 declines to unwrap() it
-
-— [durka42 and Havvy](https://botbot.me/mozilla/rust-internals/2017-11-02/?msg=93047552&page=2) discussing [PR #45527](https://github.com/rust-lang/rust/pull/45527).
-
-Thanks to [Centril](https://users.rust-lang.org/t/twir-quote-of-the-week/328/464) for the suggestion!
+*No quote was selected for QotW.*
 
 [Submit your quotes for next week][submit]!
 
