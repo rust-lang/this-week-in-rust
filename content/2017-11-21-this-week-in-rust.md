@@ -16,9 +16,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Nightly Rust compiler and Cargo now run on Redox](https://www.redox-os.org/news/this-week-in-redox-32/).
+* [Announcing Failure](https://boats.gitlab.io/blog/post/2017-11-16-announcing-failure/).
+* [Speed up your Python using Rust](https://developers.redhat.com/blog/2017/11/16/speed-python-using-rust/).
+* [Evolving Rust with Milksnake](https://blog.sentry.io/2017/11/14/evolving-our-rust-with-milksnake).
+* [Crates.io ecosystem not ready for embedded Rust](https://www.tockos.org/blog/2017/crates-are-not-safe/).
+* [This week in Rust docs 82](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-82).
+* Notes from Rust+GNOME Hackfest in Berlin - by [Federico](https://people.gnome.org/~federico/blog/rust-gnome-hackfest-berlin.html), [Guillaume](https://blog.guillaume-gomez.fr/articles/2017-11-18+Rust%2BGNOME+Hackfest+in+Berlin), and [Antoyo](http://antoyo.ml/rust-gnome-hackfest-november).
+* [podcast] [Rusty Spike Podcast - episode 8](https://rusty-spike.blubrry.net/2017/11/16/episode-8-nov-15-2017/). Firefox Quantum, Lin’s Quantum post, fearless concurrency, incremental typecheck, better wasm support, and Cargo on Redox.
+
 # Crate of the Week
 
-This week's crate is [Ammonia](https://crates.io/crates/ammonia), a crate for sanitizing HTML to prevent cros-site scripting (XSS), layout breaking and clickjacking.
+This week's crate is [Ammonia](https://crates.io/crates/ammonia), a crate for sanitizing HTML to prevent cross-site scripting (XSS), layout breaking and clickjacking.
 Thanks to [Jules Kerssemakers](https://users.rust-lang.org/u/juleskers) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
@@ -33,8 +42,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Contribute to Rust's 2017 impl period](https://www.rustaceans.org/findwork/impl).
-* [Help us benchmark saturating float casts](https://internals.rust-lang.org/t/help-us-benchmark-saturating-float-casts/6231).
-* [Want to learn more about Wayland? Here are some detailed issues on how to help implement a safe wlroots wrapper in Rust](https://github.com/swaywm/wlroots-rs/issues/22).
+* [Molten - "a style-preserving TOML parser" has some easy and accessible issues for beginners](https://github.com/LeopoldArkham/Molten/issues).
+* [easy] [mdbook: Select default theme](https://github.com/rust-lang-nursery/mdBook/issues/95).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -75,13 +84,19 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Alec Theriault
-* Alkis Evlogimenos
-* John Ford
-* John-John Tedro
-* Sebastian Dröge
-* Sébastien Santoro
-* Shotaro Yamada
+* Alexey Orlenko
+* Benjamin Hoffmeyer
+* Chris Vittal
+* Collin Anderson
+* Dan Gohman
+* Jeff Crocker
+* Laurentiu Nicola
+* loomaclin
+* Martin Lindhe
+* Michael Lamparski
+* Ramana Venkata
+* Ritiek Malhotra
+* Robert T Baldwin
 
 ## Approved RFCs
 
@@ -89,7 +104,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2124: Add `Option::filter` to the standard library](https://github.com/rust-lang/rfcs/pull/2124).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -107,18 +122,10 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Minimal target feature unsafe](https://github.com/rust-lang/rfcs/pull/2212).
+* [Guard Clause Flow Typing](https://github.com/rust-lang/rfcs/pull/2221).
 
 # Upcoming Events
 
-* [Nov 16. Cambridge Rust Meetup #5](https://www.meetup.com/Cambridge-Rust-Meetup/events/244114730/).
-* [Nov 16. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Nov 19. Rust India Community Monthly Call](https://reps.mozilla.org/e/rust-india-monthly-call/).
-* [Nov 21. Beginning Rust and Rust Hack Night @ Valtech Stockholm Sweden](https://www.meetup.com/ruststhlm/events/244792464/).
-* [Nov 21. Rust Zürich - Intro to Rust: November Community Meetup](https://www.meetup.com/Rust-Zurich/events/244698503/).
-* [Nov 22. Rust Milano - Meet Rust Language with a live coding session](https://www.meetup.com/rust-language-milano/events/245059623).
-* [Nov 22. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Nov 22. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Nov 24. Monkey Tech Days Toulouse, France - Explore Languages (Go Vs Rust) - MKTD#5](https://www.meetup.com/Monkey-Tech-Days/events/237545492/).
 * [Nov 25. Rust Bangalore - Rust Concurrency (part 2 of 2)](https://www.meetup.com/rustox/events/244782966/).
 * [Nov 27. Triangle Rustaceans Durham, NC - Algebraic Data Types in Practice and Theory](https://www.meetup.com/triangle-rustaceans/events/kkjnpnywpbkc).
@@ -128,6 +135,10 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Nov 30. Rust Munich: Rust Machine Learning with Juice](https://www.meetup.com/rust-munich/events/244580709/).
 * [Nov 30. Rust Detroit - Introducing Tock OS 1.0](https://www.meetup.com/rust-detroit/events/244855856/).
 * [Nov 30. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [Dec  6. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Dec  6. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Dec  6. Rust Cologne: impl Glühwein](https://www.meetup.com/RustCologne/events/244487721/).
+* [Dec  6. Rust Atlanta: Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/rhvgrmywqbjb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -137,13 +148,19 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust developers at stokebrain](https://users.rust-lang.org/t/rust-developers-wanted-for-startup/13784).
+* [Contract opportunity @ Mozilla: Distributed compilation cache written in Rust](https://users.rust-lang.org/t/contract-opportunity-mozilla-distributed-compilation-cache-written-in-rust/13898).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> Rust's abstraction layers feel both transparent and productive. It's like being on a glass-bottomed boat, you see the sharks, but they can't get you.
+> It's like a teaching language that you can also use in production. Rust helped me understand C.
+> Also Rust people are amazing.
+
+— [@gibfahn on Twitter](https://twitter.com/gibfahn/status/931187143686393863).
+
+Thanks to [@sebasmagri](https://twitter.com/sebasmagri/status/931246295439650816) for the suggestion!
 
 [Submit your quotes for next week][submit]!
 
