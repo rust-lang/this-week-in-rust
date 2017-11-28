@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Rust docs 82](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-82).
 * Notes from Rust+GNOME Hackfest in Berlin - by [Federico](https://people.gnome.org/~federico/blog/rust-gnome-hackfest-berlin.html), [Guillaume](https://blog.guillaume-gomez.fr/articles/2017-11-18+Rust%2BGNOME+Hackfest+in+Berlin), and [Antoyo](http://antoyo.ml/rust-gnome-hackfest-november).
 * [podcast] [Rusty Spike Podcast - episode 8](https://rusty-spike.blubrry.net/2017/11/16/episode-8-nov-15-2017/). Firefox Quantum, Lin’s Quantum post, fearless concurrency, incremental typecheck, better wasm support, and Cargo on Redox.
+* [podcast] [New Rustacean News: Rust 1.21 and 1.22](http://www.newrustacean.com/show_notes/news/rust_1_21_1_22/index.html). Quality of life improvements, Failure, wasm, and rustdoc fun – or, a bunch of highlights from the new releases *and* the community since 1.20.
 
 # Crate of the Week
 
