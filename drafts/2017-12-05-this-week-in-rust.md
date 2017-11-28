@@ -1,6 +1,6 @@
-Title: This Week in Rust 210
-Number: 210
-Date: 2017-11-28
+Title: This Week in Rust 211
+Number: 211
+Date: 2017-12-05
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -15,14 +15,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.22 (and 1.22.1)](https://blog.rust-lang.org/2017/11/22/Rust-1.22.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
-* [GTK Rust tutorials - a series](https://mmstick.github.io/gtkrs-tutorials/).
-* [Writing fast and safe native Node.js modules with Rust](https://blog.risingstack.com/node-js-native-modules-with-rust/).
-* [Improving Ruby performance with Rust](https://blog.codeship.com/improving-ruby-performance-with-rust/).
-* [This week in Rust docs 83](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-83).
-* [podcast] [New Rustacean News: Rust 1.21 and 1.22](http://www.newrustacean.com/show_notes/news/rust_1_21_1_22/index.html). Quality of life improvements, Failure, wasm, and rustdoc fun – or, a bunch of highlights from the new releases *and* the community since 1.20.
-* [podcast] [Rusty Spike Podcast - episode 9](https://rusty-spike.blubrry.net/2017/11/22/episode-9-nov-22-2017/). We chat about impl trait, Rust/GNOME hackfest, memory layouts, Visual Studio, failure, suricata, wasm, and some feel-good news.
 
 # Crate of the Week
 
