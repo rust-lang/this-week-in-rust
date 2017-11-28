@@ -15,20 +15,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-
-* [Nightly Rust compiler and Cargo now run on Redox](https://www.redox-os.org/news/this-week-in-redox-32/).
-* [Announcing Failure](https://boats.gitlab.io/blog/post/2017-11-16-announcing-failure/).
-* [Speed up your Python using Rust](https://developers.redhat.com/blog/2017/11/16/speed-python-using-rust/).
-* [Evolving Rust with Milksnake](https://blog.sentry.io/2017/11/14/evolving-our-rust-with-milksnake).
-* [Crates.io ecosystem not ready for embedded Rust](https://www.tockos.org/blog/2017/crates-are-not-safe/).
-* [This week in Rust docs 82](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-82).
-* Notes from Rust+GNOME Hackfest in Berlin - by [Federico](https://people.gnome.org/~federico/blog/rust-gnome-hackfest-berlin.html), [Guillaume](https://blog.guillaume-gomez.fr/articles/2017-11-18+Rust%2BGNOME+Hackfest+in+Berlin), and [Antoyo](http://antoyo.ml/rust-gnome-hackfest-november).
-* [podcast] [Rusty Spike Podcast - episode 8](https://rusty-spike.blubrry.net/2017/11/16/episode-8-nov-15-2017/). Firefox Quantum, Lin’s Quantum post, fearless concurrency, incremental typecheck, better wasm support, and Cargo on Redox.
+* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.22 (and 1.22.1)](https://blog.rust-lang.org/2017/11/22/Rust-1.22.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* [Writing fast and safe native Node.js modules with Rust](https://blog.risingstack.com/node-js-native-modules-with-rust/).
+* [Improving Ruby performance with Rust](https://blog.codeship.com/improving-ruby-performance-with-rust/).
+* [GTK Rust tutorials - a series](https://mmstick.github.io/gtkrs-tutorials/).
+* [This week in Rust docs 83](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-83).
 * [podcast] [New Rustacean News: Rust 1.21 and 1.22](http://www.newrustacean.com/show_notes/news/rust_1_21_1_22/index.html). Quality of life improvements, Failure, wasm, and rustdoc fun – or, a bunch of highlights from the new releases *and* the community since 1.20.
 
 # Crate of the Week
 
-Sadly, this week saw no nomination, so it remains crateless.
+This week's crate is [faster](https://github.com/AdamNiederer/faster), a crate for zero-overhead, cross-platform, beautiful explicit SIMD code. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -42,8 +38,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Contribute to Rust's 2017 impl period](https://www.rustaceans.org/findwork/impl).
-* [Molten - "a style-preserving TOML parser" has some easy and accessible issues for beginners](https://github.com/LeopoldArkham/Molten/issues).
-* [easy] [mdbook: Select default theme](https://github.com/rust-lang-nursery/mdBook/issues/95).
+* [tera: Allow other type of quotes for strings in the parser](https://github.com/Keats/tera/issues/236). Tera is a template engine for Rust based on Jinja2/Django.
+* [tera: Sort filter (and possibly some others)](https://github.com/Keats/tera/issues/233).
+* [smallvec: Dedup functionality](https://github.com/servo/rust-smallvec/issues/2). "Small vector" optimization for Rust: Smallvec let's you store up to a small number of items on the stack.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -93,19 +90,11 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Alexey Orlenko
-* Benjamin Hoffmeyer
-* Chris Vittal
-* Collin Anderson
-* Dan Gohman
-* Jeff Crocker
-* Laurentiu Nicola
-* loomaclin
-* Martin Lindhe
-* Michael Lamparski
-* Ramana Venkata
-* Ritiek Malhotra
-* Robert T Baldwin
+* colinmarsh19
+* David Alber
+* Julien Cretin
+* Maxim Zholobak
+* Mazdak
 
 ## Approved RFCs
 
@@ -131,23 +120,27 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Guard Clause Flow Typing](https://github.com/rust-lang/rfcs/pull/2221).
+* [Cargo publish with internal path dependencies](https://github.com/rust-lang/rfcs/pull/2224).
+* [Hexadecimal integers with fmt::Debug, including within larger types](https://github.com/rust-lang/rfcs/pull/2226).
 
 # Upcoming Events
 
-* [Nov 24. Monkey Tech Days Toulouse, France - Explore Languages (Go Vs Rust) - MKTD#5](https://www.meetup.com/Monkey-Tech-Days/events/237545492/).
-* [Nov 25. Rust Bangalore - Rust Concurrency (part 2 of 2)](https://www.meetup.com/rustox/events/244782966/).
-* [Nov 27. Triangle Rustaceans Durham, NC - Algebraic Data Types in Practice and Theory](https://www.meetup.com/triangle-rustaceans/events/kkjnpnywpbkc).
-* [Nov 29. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Nov 29. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [Nov 29. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/krnczlywpbmc).
 * [Nov 30. Rust Munich: Rust Machine Learning with Juice](https://www.meetup.com/rust-munich/events/244580709/).
 * [Nov 30. Rust Detroit - Introducing Tock OS 1.0](https://www.meetup.com/rust-detroit/events/244855856/).
 * [Nov 30. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Dec  6. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Dec  6. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Dec  6. Rust Cologne: impl Glühwein](https://www.meetup.com/RustCologne/events/244487721/).
 * [Dec  6. Rust Atlanta: Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/rhvgrmywqbjb/).
+* [Dex  6. Rust Roma: Rust learning and hacking evening #4](https://www.meetup.com/Rust-Roma/events/245256474/).
+* [Dec  6. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Dec  6. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Dec 11. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/svbqbmywqbpb/).
+* [Dec 13. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Dec 13. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Dec 13. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/krnczlywqbrb/).
+* [Dec 14. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [Dec 14. Rust DC - Mid-month Rustful: Falcon](https://www.meetup.com/RustDC/events/243672324/).
+* [Dec 14. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/czcwhlywqbsb/).
+
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -157,19 +150,17 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Contract opportunity @ Mozilla: Distributed compilation cache written in Rust](https://users.rust-lang.org/t/contract-opportunity-mozilla-distributed-compilation-cache-written-in-rust/13898).
+*No jobs listed for this week.*
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> Rust's abstraction layers feel both transparent and productive. It's like being on a glass-bottomed boat, you see the sharks, but they can't get you.
-> It's like a teaching language that you can also use in production. Rust helped me understand C.
-> Also Rust people are amazing.
+> Indeed. I notice even when after some Rust I return to the “main day job” C, I start to think differently, and it is excellent. Rust is like a complement to good diet and exercise.
 
-— [@gibfahn on Twitter](https://twitter.com/gibfahn/status/931187143686393863).
+— [AndrewY on TRPLF](https://users.rust-lang.org/t/solved-what-is-the-best-way-to-dump-sqlite3-row-values-into-sql-text-when-the-table-structure-is-unknown-at-compile-time/14020/7).
 
-Thanks to [@sebasmagri](https://twitter.com/sebasmagri/status/931246295439650816) for the suggestion!
+Thanks to [juleskers](https://users.rust-lang.org/t/twir-quote-of-the-week/328/466) for the suggestion!
 
 [Submit your quotes for next week][submit]!
 
