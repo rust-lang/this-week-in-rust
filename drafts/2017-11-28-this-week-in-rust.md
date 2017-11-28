@@ -150,7 +150,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-*No jobs listed for this week.*
+* [Port 2,200 lines of C++ to Rust (face_detection)](https://users.rust-lang.org/t/paid-gig-port-2-200-lines-of-clean-c-to-rust/14096)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
