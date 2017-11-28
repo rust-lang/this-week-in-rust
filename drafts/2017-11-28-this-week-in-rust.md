@@ -28,8 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [Ammonia](https://crates.io/crates/ammonia), a crate for sanitizing HTML to prevent cross-site scripting (XSS), layout breaking and clickjacking.
-Thanks to [Jules Kerssemakers](https://users.rust-lang.org/u/juleskers) for the suggestion.
+Sadly, this week saw no nomination, so it remains crateless.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -52,36 +51,45 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-110 pull requests were [merged in the last week][merged]
+118 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-11-13..2017-11-20
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-11-20..2017-11-27
 
-* [implement `impl Trait` in argument position](https://github.com/rust-lang/rust/pull/45918) (RFC [#1951](https://rust-lang.github.io/rfcs/1951-expand-impl-trait.html))
-* [trait object debug](https://github.com/rust-lang/rust/pull/45897)
-* [refactor type memory layouts and ABIs, to be more general and easier to optimize](https://github.com/rust-lang/rust/pull/45225)
-* [enable TrapUnreachable in LLVM](https://github.com/rust-lang/rust/pull/45920)
-* [incr.comp.: Implement query result cache and use it to cache type checking tables](https://github.com/rust-lang/rust/pull/46004)
-* [incr.comp. Collect stats about duplicated edge reads from queries](https://github.com/rust-lang/rust/pull/46068)
-* [set short-message feature unstable](https://github.com/rust-lang/rust/pull/46005)
-* [std: Add a new wasm32-unknown-unknown target](https://github.com/rust-lang/rust/pull/45905)
-* [always add an unreachable branch on matches to give more info to llvm](https://github.com/rust-lang/rust/pull/45821)
-* [MIR: hardcode pass list internally and remove premature pluggability](https://github.com/rust-lang/rust/pull/45916)
-* [handle closures correctly in MIR inlining](https://github.com/rust-lang/rust/pull/45913)
-* [normalize inlined function in MIR inliner](https://github.com/rust-lang/rust/pull/45909)
-* [fix MIR borrowck EndRegion not found](https://github.com/rust-lang/rust/pull/45922)
-* [add `StorageDead` handling](https://github.com/rust-lang/rust/pull/45936)
-* [ignore borrowck for static lvalues and allow assignment to static muts](https://github.com/rust-lang/rust/pull/46032)
-* [integrate MIR type-checker with NLL inference](https://github.com/rust-lang/rust/pull/45825)
-* [MIR-borrowck: don't ICE for cannot move from array error](https://github.com/rust-lang/rust/pull/45967)
-* [rustc_trans: atomically write .rmeta outputs to avoid races](https://github.com/rust-lang/rust/pull/45899)
-* [simplify higher-ranked LUB/GLB](https://github.com/rust-lang/rust/pull/45853)
-* [short-circuiting internal iteration with Iterator::try_fold & try_rfold](https://github.com/rust-lang/rust/pull/45595)
-* [rustc_driver: expose a way to override query providers in CompileController](https://github.com/rust-lang/rust/pull/45944)
-* [cargo: Add support for publish to optionally take the index that can be used](https://github.com/rust-lang/cargo/pull/4568)
-* [start shipping the Cargo book](https://github.com/rust-lang/rust/pull/45692)
-* [support `extern type` in rustdoc](https://github.com/rust-lang/rust/pull/46000)
-* [make rustdoc not include self-by-value methods from Deref target](https://github.com/rust-lang/rust/pull/45645)
-* [rustdoc: Fix primitive types not showing up](https://github.com/rust-lang/rust/pull/46066)
+* [rustbuild: Enable WebAssembly backend by default](https://github.com/rust-lang/rust/pull/46115)
+* [rustc: Add support for some more x86 SIMD ops](https://github.com/rust-lang/rust/pull/45367)
+* [rustc: don't mark lifetimes as early-bound in the presence of impl Trait](https://github.com/rust-lang/rust/pull/46191)
+* [implement in-band lifetime bindings](https://github.com/rust-lang/rust/pull/46051)
+* [impl Trait Lifetime Handling](https://github.com/rust-lang/rust/pull/45701)
+* [Display negative traits implementation](https://github.com/rust-lang/rust/pull/46134)
+* [Properly handle reexport of foreign items](https://github.com/rust-lang/rust/pull/46129)
+* [Make accesses to fields of packed structs unsafe](https://github.com/rust-lang/rust/pull/44884)
+* [support `::crate` in paths](https://github.com/rust-lang/rust/pull/45771)
+* [allocators: don’t assume MIN_ALIGN for small sizes](https://github.com/rust-lang/rust/pull/46117)
+* [Kill the storage for all locals on returning terminators](https://github.com/rust-lang/rust/pull/46100)
+* [incr.comp.: Make sure we don't lose unused green results from the query cache](https://github.com/rust-lang/rust/pull/46111)
+* [`InstCombine Len([_; N]) => const N` in MIR](https://github.com/rust-lang/rust/pull/46264)
+* [do match-check for consts](https://github.com/rust-lang/rust/pull/46033)
+* [rustc_trans: don't apply noalias on returned references](https://github.com/rust-lang/rust/pull/46253)
+* [allow filtering analysis by reachability](https://github.com/rust-lang/rust/pull/46011)
+* [typeck aggregate rvalues in MIR type checker](https://github.com/rust-lang/rust/pull/46054)
+* [add a MIR pass to lower 128-bit operators to lang item calls](https://github.com/rust-lang/rust/pull/46093)
+* [add a MIR-borrowck-only output mode](https://github.com/rust-lang/rust/pull/46106)
+* [MIR Borrowck: Parity with Ast for E0384 (Cannot assign twice to immutable)](https://github.com/rust-lang/rust/pull/46022)
+* [add structured suggestions for various "use" suggestions](https://github.com/rust-lang/rust/pull/46035)
+* [be more obvious when suggesting dereference](https://github.com/rust-lang/rust/pull/45947)
+* [add hints for the case of confusing enum with its variants](https://github.com/rust-lang/rust/pull/45942)
+* [dead code lint to say "never constructed" for variants](https://github.com/rust-lang/rust/pull/46103)
+* [add process::parent_id](https://github.com/rust-lang/rust/pull/46092)
+* [impl From for Mutex and RwLock](https://github.com/rust-lang/rust/pull/46082)
+* [optimize `read_to_end`](https://github.com/rust-lang/rust/pull/46050)
+* [make float::from_bits transmute](https://github.com/rust-lang/rust/pull/46012)
+* [implement `Rc`/`Arc` conversions for string-like types](https://github.com/rust-lang/rust/pull/45990)
+* [add Box::leak<'a>(Box<T>) -> &'a mut T where T: 'a](https://github.com/rust-lang/rust/pull/45881)
+* [move closure kind, signature into `ClosureSubsts`](https://github.com/rust-lang/rust/pull/45879)
+* [add RefCell<T>::replace_with](https://github.com/rust-lang/rust/pull/45819)
+* [rustdoc: Fix path search](https://github.com/rust-lang/rust/pull/46081)
+* [show in docs whether the return type of a function impls Iterator/Read/Write](https://github.com/rust-lang/rust/pull/45039)
+* [rustdoc: include external files in documentation](https://github.com/rust-lang/rust/pull/44781) (RFC [#1990](https://rust-lang.github.io/rfcs/1990-external-doc-attribute.html))
 
 ## New Contributors
 
