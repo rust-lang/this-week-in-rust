@@ -42,7 +42,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Contribute to Rust's 2017 impl period](https://www.rustaceans.org/findwork/impl).
 * [tera: Allow other type of quotes for strings in the parser](https://github.com/Keats/tera/issues/236). Tera is a template engine for Rust based on Jinja2/Django.
 * [tera: Sort filter (and possibly some others)](https://github.com/Keats/tera/issues/233).
-* [smallvec: Dedup functionality](https://github.com/servo/rust-smallvec/issues/2). "Small vector" optimization for Rust: Smallvec let's you store up to a small number of items on the stack.
+* [smallvec: Dedup functionality](https://github.com/servo/rust-smallvec/issues/2). "Small vector" optimization for Rust: Smallvec lets you store up to a small number of items on the stack.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
