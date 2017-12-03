@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Zemeroth's devlog 2: Jokers, Rancor, Blood and more](https://ozkriff.github.io/2017-12-01--devlog.html). Zemeroth is a turn-based hexagonal tactical game 🎮 .
+
 # Crate of the Week
 
 This week's crate is [faster](https://github.com/AdamNiederer/faster), a crate for zero-overhead, cross-platform, beautiful explicit SIMD code. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion.
