@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Modules, Crates, Workspaces, std modules and Preludes](https://medium.com/learning-rust/rust-lets-get-it-started-bdd8de58178d)
+
 # Crate of the Week
 
 This week's crate is [faster](https://github.com/AdamNiederer/faster), a crate for zero-overhead, cross-platform, beautiful explicit SIMD code. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion.
