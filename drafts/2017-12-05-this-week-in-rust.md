@@ -18,9 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [faster](https://github.com/AdamNiederer/faster), a crate for zero-overhead, cross-platform, beautiful explicit SIMD code. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion.
-
-[Submit your suggestions and votes for next week][submit_crate]!
+This week is a bit sad for lack of a crate. Look, if you want a weekly crate, [submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
@@ -42,45 +40,50 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-118 pull requests were [merged in the last week][merged]
+146 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-11-20..2017-11-27
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-11-27..2017-12-04
 
-* [rustbuild: Enable WebAssembly backend by default](https://github.com/rust-lang/rust/pull/46115)
-* [rustc: Add support for some more x86 SIMD ops](https://github.com/rust-lang/rust/pull/45367)
-* [rustc: don't mark lifetimes as early-bound in the presence of impl Trait](https://github.com/rust-lang/rust/pull/46191)
-* [implement in-band lifetime bindings](https://github.com/rust-lang/rust/pull/46051)
-* [impl Trait Lifetime Handling](https://github.com/rust-lang/rust/pull/45701)
-* [Display negative traits implementation](https://github.com/rust-lang/rust/pull/46134)
-* [Properly handle reexport of foreign items](https://github.com/rust-lang/rust/pull/46129)
-* [Make accesses to fields of packed structs unsafe](https://github.com/rust-lang/rust/pull/44884)
-* [support `::crate` in paths](https://github.com/rust-lang/rust/pull/45771)
-* [allocators: don’t assume MIN_ALIGN for small sizes](https://github.com/rust-lang/rust/pull/46117)
-* [Kill the storage for all locals on returning terminators](https://github.com/rust-lang/rust/pull/46100)
-* [incr.comp.: Make sure we don't lose unused green results from the query cache](https://github.com/rust-lang/rust/pull/46111)
-* [`InstCombine Len([_; N]) => const N` in MIR](https://github.com/rust-lang/rust/pull/46264)
-* [do match-check for consts](https://github.com/rust-lang/rust/pull/46033)
-* [rustc_trans: don't apply noalias on returned references](https://github.com/rust-lang/rust/pull/46253)
-* [allow filtering analysis by reachability](https://github.com/rust-lang/rust/pull/46011)
-* [typeck aggregate rvalues in MIR type checker](https://github.com/rust-lang/rust/pull/46054)
-* [add a MIR pass to lower 128-bit operators to lang item calls](https://github.com/rust-lang/rust/pull/46093)
-* [add a MIR-borrowck-only output mode](https://github.com/rust-lang/rust/pull/46106)
-* [MIR Borrowck: Parity with Ast for E0384 (Cannot assign twice to immutable)](https://github.com/rust-lang/rust/pull/46022)
-* [add structured suggestions for various "use" suggestions](https://github.com/rust-lang/rust/pull/46035)
-* [be more obvious when suggesting dereference](https://github.com/rust-lang/rust/pull/45947)
-* [add hints for the case of confusing enum with its variants](https://github.com/rust-lang/rust/pull/45942)
-* [dead code lint to say "never constructed" for variants](https://github.com/rust-lang/rust/pull/46103)
-* [add process::parent_id](https://github.com/rust-lang/rust/pull/46092)
-* [impl From for Mutex and RwLock](https://github.com/rust-lang/rust/pull/46082)
-* [optimize `read_to_end`](https://github.com/rust-lang/rust/pull/46050)
-* [make float::from_bits transmute](https://github.com/rust-lang/rust/pull/46012)
-* [implement `Rc`/`Arc` conversions for string-like types](https://github.com/rust-lang/rust/pull/45990)
-* [add Box::leak<'a>(Box<T>) -> &'a mut T where T: 'a](https://github.com/rust-lang/rust/pull/45881)
-* [move closure kind, signature into `ClosureSubsts`](https://github.com/rust-lang/rust/pull/45879)
-* [add RefCell<T>::replace_with](https://github.com/rust-lang/rust/pull/45819)
-* [rustdoc: Fix path search](https://github.com/rust-lang/rust/pull/46081)
-* [show in docs whether the return type of a function impls Iterator/Read/Write](https://github.com/rust-lang/rust/pull/45039)
-* [rustdoc: include external files in documentation](https://github.com/rust-lang/rust/pull/44781) (RFC [#1990](https://rust-lang.github.io/rfcs/1990-external-doc-attribute.html))
+* [allow nested groups in imports](https://github.com/rust-lang/rust/pull/45846)
+* [add an i128_lowering flag in TargetOptions](https://github.com/rust-lang/rust/pull/46486)
+* [implement the special repr(C)-non-clike-enum layout](https://github.com/rust-lang/rust/pull/46123)
+* [rustc: filter out bogus extern crate warnings](https://github.com/rust-lang/rust/pull/46405)
+* [rustc: prepare to enable ThinLTO by default](https://github.com/rust-lang/rust/pull/46382)
+* [incr.comp.: make traits::VTable encodable and decodable](https://github.com/rust-lang/rust/pull/46400)
+* [incr.comp.: remove ability to produce incr. comp. hashes during metadata export](https://github.com/rust-lang/rust/pull/46370)
+* [incr.comp.: remove an unnecessary HIR access which enables hashing spans for type definitions](https://github.com/rust-lang/rust/pull/46368)
+* [incr.comp.: load cached diagnostics lazily and allow more things in the cache](https://github.com/rust-lang/rust/pull/46338)
+* [incr.comp.: some preparatory work for caching more query results](https://github.com/rust-lang/rust/pull/46299)
+* [make coercions to `!` in unreachable code a hard error](https://github.com/rust-lang/rust/pull/45880)
+* [stabilize const-calling existing const-fns in std](https://github.com/rust-lang/rust/pull/46287)
+* [remove semicolon note](https://github.com/rust-lang/rust/pull/46258)
+* [use suggestions instead of notes ref mismatches](https://github.com/rust-lang/rust/pull/46256) (for better tooling)
+* [avoid type-live-for-region obligations on dummy nodes](https://github.com/rust-lang/rust/pull/46226)
+* [suggest using slice when encountering `let _ = ""[..];`](https://github.com/rust-lang/rust/pull/46249)
+* [add case insensitive comparison, besides Levenstein for DYM](https://github.com/rust-lang/rust/pull/46347)
+* [MIR: split Operand::Consume into Copy and Move](https://github.com/rust-lang/rust/pull/46142)
+* [MIR: Fix value moved diagnose messages](https://github.com/rust-lang/rust/pull/46231)
+* [MIR: Fix CopyPropagation regression (2)](https://github.com/rust-lang/rust/pull/46462)
+* [MIR borrowck: finalize `check_access_permissions()`](https://github.com/rust-lang/rust/pull/46041)
+* [MIR-borrowck: immutable unique closure upvars can be mutated](https://github.com/rust-lang/rust/pull/46236)
+* [disable jemalloc on executables for ios targets](https://github.com/rust-lang/rust/pull/46211)
+* [stabilize `spin_loop_hint`](https://github.com/rust-lang/rust/pull/46174)
+* [add a specialization of read_exact for Cursor](https://github.com/rust-lang/rust/pull/46485)
+* [reject '2' as a binary digit in internals of b: number formatting](https://github.com/rust-lang/rust/pull/46356)
+* [remove `T: Sized` on `ptr::is_null()`](https://github.com/rust-lang/rust/pull/46094)
+* [stabilize some `ascii_ctype` methods](https://github.com/rust-lang/rust/pull/46077)
+* [add std::sync::mpsc::Receiver::recv_deadline()](https://github.com/rust-lang/rust/pull/45969)
+* [generic Associated Types Parsing & Name Resolution](https://github.com/rust-lang/rust/pull/45904)
+* [`impl From<bool> for AtomicBool`](https://github.com/rust-lang/rust/pull/46293)
+* [implement `From<RecvError>` for `TryRecvError` and `RecvTimeoutError`](https://github.com/rust-lang/rust/pull/45506)
+* [deprecate the Formatter::flags method](https://github.com/rust-lang/rust/pull/46284)
+* [introduce `LinkedList::drain_filter`](https://github.com/rust-lang/rust/pull/46262)
+* [cargo: add a workspace.default-members config that overrides implied --all ](https://github.com/rust-lang/cargo/pull/4743)
+* [rustdoc: fix search results overlap](https://github.com/rust-lang/rust/pull/46454)
+* [rustdoc: fix deduplication of items](https://github.com/rust-lang/rust/pull/46433)
+* [rustdoc: hide private trait type params and show hidden items with document-private](https://github.com/rust-lang/rust/pull/46412)
+* [fix rustdoc item summaries that are headers](https://github.com/rust-lang/rust/pull/46387)
+* [rustdoc: fix global search](https://github.com/rust-lang/rust/pull/46175)
 
 ## New Contributors
 
