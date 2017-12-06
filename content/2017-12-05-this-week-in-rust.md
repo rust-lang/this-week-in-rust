@@ -20,20 +20,22 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Building and deploying a Rust library on Android](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-21-rust-on-android.html).
 * [Building and deploying a Rust library on iOS](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-06-rust-on-ios.html).
 * [Boiling the ocean, incrementally - How Stylo brought Rust and Servo to Firefox](http://bholley.net/blog/2017/stylo.html).
-* [Mercurial's Oxidation Plan: Using Rust in Mercurial](https://www.mercurial-scm.org/wiki/OxidationPlan).
-* [Rust comes to RISC-V](https://abopen.com/news/rust-comes-risc-v/).
-* [Rocket - A Rust game running on WebAssembly](https://aochagavia.github.io/blog/rocket---a-rust-game-running-on-wasm/).
+* [Mercurial's oxidation plan: Using Rust in Mercurial](https://www.mercurial-scm.org/wiki/OxidationPlan).
 * [Diesel: Schema in depth](http://diesel.rs/guides/schema-in-depth/).
 * [The rise of Rust in Dev/Ops](https://mesosphere.com/blog/rust-devops/).
 * [What's a reference in Rust](https://jvns.ca/blog/2017/11/27/rust-ref/)?
 * [Replacing Elasticsearch with Rust and SQLite](https://nbsoftsolutions.com/blog/replacing-elasticsearch-with-rust-and-sqlite).
+* [Rust comes to RISC-V](https://abopen.com/news/rust-comes-risc-v/).
 * [Rust on ARM Cortex-M microcontrollers](http://pramode.in/2017/12/04/rust-on-arm-cortexm-microcontrollers/).
 * [Writing a Brainfuck interpreter in Rust (and WebAssembly)](https://shr.ite.sh/brainfuck-rust-wasm.html).
 * [Learning Rust: Modules, crates, workspaces, std modules, and preludes](https://medium.com/learning-rust/rust-lets-get-it-started-bdd8de58178d).
+* [Rocket - A Rust game running on WebAssembly](https://aochagavia.github.io/blog/rocket---a-rust-game-running-on-wasm/).
 * [Failure 0.1.1 released: Now with `bail!` and `ensure!`](https://boats.gitlab.io/blog/post/2017-11-30-failure-0-1-1/).
 * [Writing a turn-based strategy game in Rust: Progress report](https://ozkriff.github.io/2017-12-01--devlog.html).
 * [The impl period newsletter #4](https://internals.rust-lang.org/t/the-impl-period-newsletter-4/6313).
 * [This week in Rust docs 84](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-84).
+* [podcast] [Rusty Spike Podcast - episode 10](https://rusty-spike.blubrry.net/2017/11/30/episode-10-nov-29-2019/). Rust 1.22, RISC-V, impl newsletter #4, more WASM work, Fennec and Stylo, and Bobby Holley’s Stylo writeup.
+
 
 # Crate of the Week
 
