@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Learning Rust: Modules, crates, workspaces, std modules, and preludes](https://medium.com/learning-rust/rust-lets-get-it-started-bdd8de58178d).
+* [Writing a turn-based strategy game in Rust: Progress report](https://ozkriff.github.io/2017-12-01--devlog.html).
 
 # Crate of the Week
 
