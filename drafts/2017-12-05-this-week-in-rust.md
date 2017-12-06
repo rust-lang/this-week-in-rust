@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Zemeroth's devlog 2: Jokers, Rancor, Blood and more](https://ozkriff.github.io/2017-12-01--devlog.html). Zemeroth is a turn-based hexagonal tactical game 🎮 .
+* [Writing a turn-based strategy game in Rust: Progress report](https://ozkriff.github.io/2017-12-01--devlog.html).
 
 # Crate of the Week
 
