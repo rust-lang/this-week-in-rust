@@ -16,8 +16,24 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Rust Playground can now output in WebAssembly](https://play.rust-lang.org/?gist=ffb83a685e4aa842527e38569bf23f36&version=nightly).
+* [Building and deploying a Rust library on Android](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-21-rust-on-android.html).
+* [Building and deploying a Rust library on iOS](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-06-rust-on-ios.html).
+* [Boiling the ocean, incrementally - How Stylo brought Rust and Servo to Firefox](http://bholley.net/blog/2017/stylo.html).
+* [Mercurial's Oxidation Plan: Using Rust in Mercurial](https://www.mercurial-scm.org/wiki/OxidationPlan).
+* [Rust comes to RISC-V](https://abopen.com/news/rust-comes-risc-v/).
+* [Rocket - A Rust game running on WebAssembly](https://aochagavia.github.io/blog/rocket---a-rust-game-running-on-wasm/).
+* [Diesel: Schema in depth](http://diesel.rs/guides/schema-in-depth/).
+* [The rise of Rust in Dev/Ops](https://mesosphere.com/blog/rust-devops/).
+* [What's a reference in Rust](https://jvns.ca/blog/2017/11/27/rust-ref/)?
+* [Replacing Elasticsearch with Rust and SQLite](https://nbsoftsolutions.com/blog/replacing-elasticsearch-with-rust-and-sqlite).
+* [Rust on ARM Cortex-M microcontrollers](http://pramode.in/2017/12/04/rust-on-arm-cortexm-microcontrollers/).
+* [Writing a Brainfuck interpreter in Rust (and WebAssembly)](https://shr.ite.sh/brainfuck-rust-wasm.html).
 * [Learning Rust: Modules, crates, workspaces, std modules, and preludes](https://medium.com/learning-rust/rust-lets-get-it-started-bdd8de58178d).
+* [Failure 0.1.1 released: Now with `bail!` and `ensure!`](https://boats.gitlab.io/blog/post/2017-11-30-failure-0-1-1/).
 * [Writing a turn-based strategy game in Rust: Progress report](https://ozkriff.github.io/2017-12-01--devlog.html).
+* [The impl period newsletter #4](https://internals.rust-lang.org/t/the-impl-period-newsletter-4/6313).
+* [This week in Rust docs 84](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-84).
 
 # Crate of the Week
 
@@ -33,9 +49,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Contribute to Rust's 2017 impl period](https://www.rustaceans.org/findwork/impl).
-* [tera: Allow other type of quotes for strings in the parser](https://github.com/Keats/tera/issues/236). Tera is a template engine for Rust based on Jinja2/Django.
-* [tera: Sort filter (and possibly some others)](https://github.com/Keats/tera/issues/233).
-* [smallvec: Dedup functionality](https://github.com/servo/rust-smallvec/issues/2). "Small vector" optimization for Rust: Smallvec let's you store up to a small number of items on the stack.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -90,11 +103,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* colinmarsh19
-* David Alber
-* Julien Cretin
-* Maxim Zholobak
-* Mazdak
+* Christian Duerr
+* Irina-Gabriela Popa
+* Julian Kulesh
+* Kenjiro Nakayama
+* Kyle Huey
+* Nikolay Merinov
 
 ## Approved RFCs
 
@@ -120,19 +134,13 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Cargo publish with internal path dependencies](https://github.com/rust-lang/rfcs/pull/2224).
-* [Hexadecimal integers with fmt::Debug, including within larger types](https://github.com/rust-lang/rfcs/pull/2226).
+* [Closures capture disjoint fields](https://github.com/rust-lang/rfcs/pull/2229).
+* [Bury `Error::description()`](https://github.com/rust-lang/rfcs/pull/2230).
+* [String reflection](https://github.com/rust-lang/rfcs/pull/2233).
+* [Add a machine-readable JSON-output mode for Rust's libtest](https://github.com/rust-lang/rfcs/pull/2234).
 
 # Upcoming Events
 
-* [Nov 30. Rust Munich: Rust Machine Learning with Juice](https://www.meetup.com/rust-munich/events/244580709/).
-* [Nov 30. Rust Detroit - Introducing Tock OS 1.0](https://www.meetup.com/rust-detroit/events/244855856/).
-* [Nov 30. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Dec  6. Rust Cologne: impl Glühwein](https://www.meetup.com/RustCologne/events/244487721/).
-* [Dec  6. Rust Atlanta: Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/rhvgrmywqbjb/).
-* [Dex  6. Rust Roma: Rust learning and hacking evening #4](https://www.meetup.com/Rust-Roma/events/245256474/).
-* [Dec  6. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Dec  6. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Dec 11. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/svbqbmywqbpb/).
 * [Dec 13. Rust Amsterdam: Theme night on Procedural Macros & Custom Derive](https://www.meetup.com/Rust-Amsterdam/events/245075721/)
 * [Dec 13. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
@@ -141,7 +149,9 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Dec 14. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Dec 14. Rust DC - Mid-month Rustful: Falcon](https://www.meetup.com/RustDC/events/243672324/).
 * [Dec 14. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/czcwhlywqbsb/).
-
+* [Dec 20. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Dec 20. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Dec 21. Cambridge Rust Meetup #6](https://www.meetup.com/Cambridge-Rust-Meetup/events/mgtcwnywqbcc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -151,17 +161,13 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Port 2,200 lines of C++ to Rust (face_detection)](https://users.rust-lang.org/t/paid-gig-port-2-200-lines-of-clean-c-to-rust/14096)
+*No jobs listed for this week.*
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> Indeed. I notice even when after some Rust I return to the “main day job” C, I start to think differently, and it is excellent. Rust is like a complement to good diet and exercise.
-
-— [AndrewY on TRPLF](https://users.rust-lang.org/t/solved-what-is-the-best-way-to-dump-sqlite3-row-values-into-sql-text-when-the-table-structure-is-unknown-at-compile-time/14020/7).
-
-Thanks to [juleskers](https://users.rust-lang.org/t/twir-quote-of-the-week/328/466) for the suggestion!
+*No quote was selected for QotW.*
 
 [Submit your quotes for next week][submit]!
 
