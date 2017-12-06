@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Modules, Crates, Workspaces, std modules and Preludes](https://medium.com/learning-rust/rust-lets-get-it-started-bdd8de58178d)
+* [Learning Rust: Modules, crates, workspaces, std modules and preludes](https://medium.com/learning-rust/rust-lets-get-it-started-bdd8de58178d)
 
 # Crate of the Week
 
