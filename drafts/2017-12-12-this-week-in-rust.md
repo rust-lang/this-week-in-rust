@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Conference talk at Cycon 2017] [Forensic tool development with Rust](https://www.youtube.com/watch?v=wAHjiWt8XPY&list=PLV8RTnZwQxclg8-tvg-JG-_RwL2EBvOiP&index=25) Fast forward to minute 36:55.
+
 # Crate of the Week
 
 This week is a bit sad for lack of a crate. Look, if you want a weekly crate, [submit your suggestions and votes for next week][submit_crate]!
