@@ -142,7 +142,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Add a machine-readable JSON-output mode for Rust's libtest](https://github.com/rust-lang/rfcs/pull/2234).
 
 # Upcoming Events
-
+* [Dec 9. Rust Bangalore "2-Day" Hackathon](https://www.meetup.com/rustox/events/240268612/).
 * [Dec 11. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/svbqbmywqbpb/).
 * [Dec 13. Rust Amsterdam: Theme night on Procedural Macros & Custom Derive](https://www.meetup.com/Rust-Amsterdam/events/245075721/)
 * [Dec 13. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
