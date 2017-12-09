@@ -16,6 +16,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
++* [How to use Diesel ORM in Rust](http://spejss.com/index.php/2017/12/06/how-to-use-diesel-orm-in-rust/) Guide for using Diesel ORM.
+
++* [Extending C with Rust - a hello world example](http://spejss.com/index.php/2017/12/03/extending-c-with-rust-101/) 
+
 # Crate of the Week
 
 This week is a bit sad for lack of a crate. Look, if you want a weekly crate, [submit your suggestions and votes for next week][submit_crate]!
