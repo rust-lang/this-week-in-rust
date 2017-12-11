@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 import os
 
-AUTHOR = u'Corey Richardson'
+AUTHOR = u'TWiR Contributors'
 SITENAME = u"This Week in Rust"
 SITEURL = 'https://this-week-in-rust.org'
 
