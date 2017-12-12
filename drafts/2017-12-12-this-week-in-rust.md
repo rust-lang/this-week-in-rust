@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [A tutorial on how to use Diesel ORM in Rust](http://spejss.com/index.php/2017/12/06/how-to-use-diesel-orm-in-rust/).
+
 # Crate of the Week
 
 This week's crate is [printpdf](https://crates.io/crates/printpdf), a pure Rust PDF-writing library that already has a lot of features (though I note a lot of
