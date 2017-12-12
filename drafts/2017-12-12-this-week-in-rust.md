@@ -16,6 +16,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Rust and the case for WebAssembly in 2018](https://mgattozzi.com/rust-wasm).
+* [Introducing TQL - An easy-to-use ORM for Rust](http://antoyo.ml/tql-easy-orm).
+* [Introducing Conduit - A service mesh for Kubernates written in Rust](https://buoyant.io/2017/12/05/introducing-conduit/).
+* [Running Rust regex engine on JVM, via WebAssembly](https://github.com/cretz/asmble/tree/master/examples/rust-regex).
+* [This week in Rust docs 85](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-85).
+* [video] [Why Rust is successful](https://www.youtube.com/watch?v=-Tj8Q12DaEQ).
+* [podcast] [Rusty Spike Podcast - episode 11](https://rusty-spike.blubrry.net/2017/12/07/episode-11-dec-6-2017/). Fedora, Conduit, a WebAssembly game, The Playground, Criterion.rs, Diesel, Mercurial, Android, and iOS.
+
 # Crate of the Week
 
 This week is a bit sad for lack of a crate. Look, if you want a weekly crate, [submit your suggestions and votes for next week][submit_crate]!
@@ -84,12 +92,10 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Christian Duerr
-* Irina-Gabriela Popa
-* Julian Kulesh
-* Kenjiro Nakayama
-* Kyle Huey
-* Nikolay Merinov
+* Agustin Chiappe Berrini
+* Jonathan Strong
+* JRegimbal
+* Timo
 
 ## Approved RFCs
 
@@ -115,24 +121,25 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Closures capture disjoint fields](https://github.com/rust-lang/rfcs/pull/2229).
-* [Bury `Error::description()`](https://github.com/rust-lang/rfcs/pull/2230).
-* [String reflection](https://github.com/rust-lang/rfcs/pull/2233).
-* [Add a machine-readable JSON-output mode for Rust's libtest](https://github.com/rust-lang/rfcs/pull/2234).
+* [Hex literals](https://github.com/rust-lang/rfcs/pull/2244). Introduce hex literals in the form of `h"00 aa cc ff"`.
+* [Pointers to const fn:s](https://github.com/rust-lang/rfcs/pull/2238). Introduce the syntax `const fn(input_types..) -> return_type` as a type which `const fn`s may be coereced to.
+* [Implement Debug, Eq, PartialEq, and Hash for libc structs](https://github.com/rust-lang/rfcs/pull/2237).
+* [const bounds and methods](https://github.com/rust-lang/rfcs/pull/2237).
 
 # Upcoming Events
 
-* [Dec 11. Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/svbqbmywqbpb/).
-* [Dec 13. Rust Amsterdam: Theme night on Procedural Macros & Custom Derive](https://www.meetup.com/Rust-Amsterdam/events/245075721/)
-* [Dec 13. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Dec 13. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [Dec 13. OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/krnczlywqbrb/).
+* [Dec 14. Rust Nairobi - Writing a Rust library: Africa's Talking API wrapper in Rust](https://www.meetup.com/Rust-Nairobi/events/245535269/).
 * [Dec 14. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Dec 14. Rust DC - Mid-month Rustful: Falcon](https://www.meetup.com/RustDC/events/243672324/).
 * [Dec 14. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/czcwhlywqbsb/).
+* [Dec 18. Rust London - Rust learning and hacking evening #6](https://www.meetup.com/Rust-London-User-Group/events/245327924/).
+* [Dec 20. Rust London Meetup #19 - Show and Tell](https://www.meetup.com/Rust-London-User-Group/events/242846316/).
 * [Dec 20. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Dec 20. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Dec 21. Cambridge Rust Meetup #6](https://www.meetup.com/Cambridge-Rust-Meetup/events/mgtcwnywqbcc/).
+* [Dec 27. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Dec 27. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Dec 28. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -142,13 +149,17 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-*No jobs listed for this week.*
+* [Full-time Rust developer for iOS/Android app at Mullvad](https://mullvad.net/blog/2017/12/5/hiring-full-time-rust-developer-iosandroid-app/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> Although rusting is generally a negative aspect of iron, a particular form of rusting, known as “stable rust,” causes the object to have a thin coating of rust over the top, and if kept in low relative humidity, makes the “stable” layer protective to the iron below
+
+— [Wikipedia on rusting of iron](https://en.wikipedia.org/wiki/Rust).
+
+Thanks to [leodasvacas](https://users.rust-lang.org/t/twir-quote-of-the-week/328/473) for the suggestion!
 
 [Submit your quotes for next week][submit]!
 
