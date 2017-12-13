@@ -100,7 +100,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 * [Hex literals](https://github.com/rust-lang/rfcs/pull/2244). Introduce hex literals in the form of `h"00 aa cc ff"`.
 * [Pointers to const fn:s](https://github.com/rust-lang/rfcs/pull/2238). Introduce the syntax `const fn(input_types..) -> return_type` as a type which `const fn`s may be coereced to.
-* [Implement Debug, Eq, PartialEq, and Hash for libc structs](https://github.com/rust-lang/rfcs/pull/2237).
+* [Implement Debug, Eq, PartialEq, and Hash for libc structs](https://github.com/rust-lang/rfcs/pull/2235).
 * [const bounds and methods](https://github.com/rust-lang/rfcs/pull/2237).
 
 # Upcoming Events
