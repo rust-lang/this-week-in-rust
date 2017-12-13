@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Rust and the case for WebAssembly in 2018](https://mgattozzi.com/rust-wasm).
 * [Introducing TQL - An easy-to-use ORM for Rust](http://antoyo.ml/tql-easy-orm).
-* [Introducing Conduit - A service mesh for Kubernates written in Rust](https://buoyant.io/2017/12/05/introducing-conduit/).
+* [Introducing Conduit - A service mesh for Kubernetes written in Rust](https://buoyant.io/2017/12/05/introducing-conduit/).
 * [Running Rust regex engine on JVM, via WebAssembly](https://github.com/cretz/asmble/tree/master/examples/rust-regex).
 * [A tutorial on how to use Diesel ORM in Rust](http://spejss.com/index.php/2017/12/06/how-to-use-diesel-orm-in-rust/).
 * [This week in Rust docs 85](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-85).
