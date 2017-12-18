@@ -33,6 +33,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Contribute to Rust's 2017 impl period](https://www.rustaceans.org/findwork/impl).
+* [Rusoto, an AWS SDK, is looking for maintainers](https://github.com/rusoto/rusoto/issues/593).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
