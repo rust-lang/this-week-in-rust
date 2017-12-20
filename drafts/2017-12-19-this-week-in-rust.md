@@ -44,6 +44,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-12-11..2017-12-18
 
+* [Validate miri against the HIR const evaluator](https://github.com/rust-lang/rust/pull/45002).
 * [Implement impl Trait lifetime elision](https://github.com/rust-lang/rust/pull/46616)
 * [ThinLTO: updates for LLVM 5](https://github.com/rust-lang/rust/pull/46652)
 * [incr.comp.: Mark DepKind node as input](https://github.com/rust-lang/rust/pull/46811)
