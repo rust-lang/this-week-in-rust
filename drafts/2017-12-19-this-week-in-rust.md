@@ -16,6 +16,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Announcing Rust extension for Visual Studio 2017 with RLS support](https://marketplace.visualstudio.com/items?itemName=DanielGriffen.Rust).
+* [Firefox nightly's JavaScript debugger now supports debugging and source maps for Rust compiled to WebAssembly](https://twitter.com/slsoftworks/status/941400137921949696).
+* [stdweb now supports wasm32-unknown-unknown - access the DOM and call into JavaScript from Rust](https://github.com/koute/stdweb).
+* [winapi 0.3 deprecates the `-sys` crates and now has everything in a single crate](https://retep998.github.io/blog/winapi-0.3/).
+* [faster 0.3 released with new license, docs, examples, and much more](https://github.com/AdamNiederer/faster).
+* [Tokio internals: Understanding Rust's asynchronous I/O framework from the bottom up](https://cafbit.com/post/tokio_internals/).
+* [Writing a CHIP-8 emulator with Rust and WebAssembly](http://blog.scottlogic.com/2017/12/13/chip8-emulator-webassembly-rust.html).
+* [This week in Rust docs 86](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-86).
+* [This week in Redox 33](https://redox-os.org/news/this-week-in-redox-33/).
+* [video] [Rust: Reach further (by Nicholas Matsakis)](https://www.youtube.com/watch?v=ksirw1v5gXk).
+
 # Crate of the Week
 
 This week's crate is [printpdf](https://crates.io/crates/printpdf), a pure Rust PDF-writing library that already has a lot of features (though I note a lot of
@@ -32,8 +43,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Contribute to Rust's 2017 impl period](https://www.rustaceans.org/findwork/impl).
+* [Use cargo-contribute to find issues in your dependencies to contribute to](https://github.com/Xion/cargo-contribute).
 * [Rusoto, an AWS SDK, is looking for maintainers](https://github.com/rusoto/rusoto/issues/593).
+* [Contribute to Rust's 2017 impl period](https://www.rustaceans.org/findwork/impl).
+* [good first issue] [Criterion.rs: Replace rustc_serialize with Serde](https://github.com/japaric/criterion.rs/issues/91).
+* [good first issue] [Criterion.rs: Replace Floaty with num-traits](https://github.com/japaric/criterion.rs/issues/95).
+* [medium] [allocators-rs: object-alloc-test: Finish `corruption::mapped::is_mapped_range` on Windows](https://github.com/ezrosent/allocators-rs/issues/137).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -61,10 +76,11 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Agustin Chiappe Berrini
-* Jonathan Strong
-* JRegimbal
-* Timo
+* David Teller
+* Felix Schütt
+* Nika Layzell
+* qres
+* varkor
 
 ## Approved RFCs
 
@@ -90,25 +106,19 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Hex literals](https://github.com/rust-lang/rfcs/pull/2244). Introduce hex literals in the form of `h"00 aa cc ff"`.
-* [Pointers to const fn:s](https://github.com/rust-lang/rfcs/pull/2238). Introduce the syntax `const fn(input_types..) -> return_type` as a type which `const fn`s may be coereced to.
-* [Implement Debug, Eq, PartialEq, and Hash for libc structs](https://github.com/rust-lang/rfcs/pull/2237).
-* [const bounds and methods](https://github.com/rust-lang/rfcs/pull/2237).
+* [Change impls of `PartialEq` and friends in libstd to be more generic](https://github.com/rust-lang/rfcs/pull/2245).
+* [Finalize syntax of `impl Trait` and `dyn Trait` with multiple bounds](https://github.com/rust-lang/rfcs/pull/2250).
 
 # Upcoming Events
 
-* [Dec 14. Rust Nairobi - Writing a Rust library: Africa's Talking API wrapper in Rust](https://www.meetup.com/Rust-Nairobi/events/245535269/).
-* [Dec 14. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Dec 14. Rust DC - Mid-month Rustful: Falcon](https://www.meetup.com/RustDC/events/243672324/).
-* [Dec 14. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/czcwhlywqbsb/).
-* [Dec 18. Rust London - Rust learning and hacking evening #6](https://www.meetup.com/Rust-London-User-Group/events/245327924/).
-* [Dec 20. Rust London Meetup #19 - Show and Tell](https://www.meetup.com/Rust-London-User-Group/events/242846316/).
-* [Dec 20. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Dec 20. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Dec 21. Cambridge Rust Meetup #6](https://www.meetup.com/Cambridge-Rust-Meetup/events/mgtcwnywqbcc/).
 * [Dec 27. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Dec 27. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Dec 28. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [Jan  2. Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxcbdb/).
+* [Jan  3. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/rhvgrmyxcbfb/).
+* [Jan  3. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Jan  3. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -118,17 +128,13 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Full-time Rust developer for iOS/Android app at Mullvad](https://mullvad.net/blog/2017/12/5/hiring-full-time-rust-developer-iosandroid-app/).
+* [Rust Developer at ANIXE Wrocław Poland](http://anixe.pl/jobs/rust_dev/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> Although rusting is generally a negative aspect of iron, a particular form of rusting, known as “stable rust,” causes the object to have a thin coating of rust over the top, and if kept in low relative humidity, makes the “stable” layer protective to the iron below
-
-— [Wikipedia on rusting of iron](https://en.wikipedia.org/wiki/Rust).
-
-Thanks to [leodasvacas](https://users.rust-lang.org/t/twir-quote-of-the-week/328/473) for the suggestion!
+*No quote was selected for QotW.*
 
 [Submit your quotes for next week][submit]!
 
