@@ -26,6 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Rust docs 86](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-86).
 * [This week in Redox 33](https://redox-os.org/news/this-week-in-redox-33/).
 * [video] [Rust: Reach further (by Nicholas Matsakis)](https://www.youtube.com/watch?v=ksirw1v5gXk).
+* [podcast] [Rusty Spike Podcast - episode 12](https://rusty-spike.blubrry.net/2017/12/13/episode-12-dec-13-2017/). Visual Studio support for Rust, ProPublica’s ad tool, and Mozilla’s growing support.
 
 # Crate of the Week
 
@@ -59,7 +60,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-12-11..2017-12-18
 
-* [Validate miri against the HIR const evaluator](https://github.com/rust-lang/rust/pull/45002).
+* [Validate miri against the HIR const evaluator](https://github.com/rust-lang/rust/pull/45002)
 * [Implement impl Trait lifetime elision](https://github.com/rust-lang/rust/pull/46616)
 * [ThinLTO: updates for LLVM 5](https://github.com/rust-lang/rust/pull/46652)
 * [incr.comp.: Mark DepKind node as input](https://github.com/rust-lang/rust/pull/46811)
