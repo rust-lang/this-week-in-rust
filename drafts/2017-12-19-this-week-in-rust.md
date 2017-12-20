@@ -18,8 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [printpdf](https://crates.io/crates/printpdf), a pure Rust PDF-writing library that already has a lot of features (though I note a lot of
-bool-taking methods). Thanks to [Felix Schütt](https://users.rust-lang.org/u/sharazam) for the suggestion!
+This week's crate is [cargo-audit](https://crates.io/crates/cargo-audit), a cargo subcommand to look through a crates dependencies for known insecure versions. Thanks to [Danilo](https://users.rust-lang.org/u/dbrgn) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -41,23 +40,28 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-105 pull requests were [merged in the last week][merged]
+82 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-12-04..2017-12-11
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-12-11..2017-12-18
 
-* [fix bad error message for cannot_reborrow_already_uniquely_borrowed](https://github.com/rust-lang/rust/pull/46572)
-* [rustc_mir: promote references of statics from other statics](https://github.com/rust-lang/rust/pull/46524)
-* [MIR borrowck: implement union-and-array-compatible semantics](https://github.com/rust-lang/rust/pull/46268)
-* [incr.comp.: uncorporate the stable commandline arg hash and SVHs of upstream crates into the SVH](https://github.com/rust-lang/rust/pull/46427)
-* [incr.comp.: enable query result caching for many more queries](https://github.com/rust-lang/rust/pull/46556)
-* [coherence: fix is_knowable logic](https://github.com/rust-lang/rust/pull/46192)
-* [rustc_trans: don't write discriminants for uninhabited variants](https://github.com/rust-lang/rust/pull/46521)
-* [rustc: further tweak linkage in ThinLTO](https://github.com/rust-lang/rust/pull/46549)
-* [stabilize abi_sysv64](https://github.com/rust-lang/rust/pull/46528)
-* [add read, read_string, and write functions to std::fs](https://github.com/rust-lang/rust/pull/45837)
-* [add Drop impl for linked_list::DrainFilter](https://github.com/rust-lang/rust/pull/46581)
-* [compiletest: account for `ui` reference files when deciding to skip](https://github.com/rust-lang/rust/pull/46533)
-* [rustdoc: improve search style](https://github.com/rust-lang/rust/pull/46502)
+* [Validate miri against the HIR const evaluator](https://github.com/rust-lang/rust/pull/45002).
+* [Implement impl Trait lifetime elision](https://github.com/rust-lang/rust/pull/46616)
+* [ThinLTO: updates for LLVM 5](https://github.com/rust-lang/rust/pull/46652)
+* [incr.comp.: Mark DepKind node as input](https://github.com/rust-lang/rust/pull/46811)
+* [syntax: recovery for incorrect associated item paths like `[T; N]::clone`](https://github.com/rust-lang/rust/pull/46788)
+* [suggest `..` for erroneous `...` struct field patterns](https://github.com/rust-lang/rust/pull/46763)
+* [When attempting to write str with single quote suggest double quotes](https://github.com/rust-lang/rust/pull/46653)
+* [fix borrow casts or binary expression suggestions](https://github.com/rust-lang/rust/pull/46761)
+* [Fix division-by-zero ICE in -Z perf-stats](https://github.com/rust-lang/rust/pull/46728)
+* [Point at var in short lived borrows instead of drop location](https://github.com/rust-lang/rust/pull/46719)
+* [Point at whole method call instead of args](https://github.com/rust-lang/rust/pull/46633)
+* [Fix visible_parent_map to choose globally minimal paths](https://github.com/rust-lang/rust/pull/46708)
+* [Lifetime Resolution for Generic Associated Types](https://github.com/rust-lang/rust/pull/46706)
+* [rustc: unpack newtyped of `#[repr(simd)]` vector types](https://github.com/rust-lang/rust/pull/46701)
+* [rustc_trans: approximate ABI alignment for padding/union fillers](https://github.com/rust-lang/rust/pull/46623)
+* [lossless UNIX OsStr Debug impl](https://github.com/rust-lang/rust/pull/46798)
+* [Expose the line and column fields from the proc_macro::LineColumn struct](https://github.com/rust-lang/rust/pull/46690)
+* [cargo: Don’t swallow virtual manifest parsing errors](https://github.com/rust-lang/cargo/pull/4828)
 
 ## New Contributors
 
