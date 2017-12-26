@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [cargo-audit](https://crates.io/crates/cargo-audit), a cargo subcommand to look through a crates dependencies for known insecure versions. Thanks to [Danilo](https://users.rust-lang.org/u/dbrgn) for the suggestion!
+This week's crate is [crossbeam-channel](https://crates.io/crates/crossbeam-channel), a crate that improves multi-producer multi-consumer channels compared to what the standard library offers. Thanks to [leodasvacas](https://users.rust-lang.org/u/leodasvacas) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -46,28 +46,43 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-82 pull requests were [merged in the last week][merged]
+118 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-12-11..2017-12-18
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-12-18..2017-12-25
 
-* [Validate miri against the HIR const evaluator](https://github.com/rust-lang/rust/pull/45002)
-* [Implement impl Trait lifetime elision](https://github.com/rust-lang/rust/pull/46616)
-* [ThinLTO: updates for LLVM 5](https://github.com/rust-lang/rust/pull/46652)
-* [incr.comp.: Mark DepKind node as input](https://github.com/rust-lang/rust/pull/46811)
-* [syntax: recovery for incorrect associated item paths like `[T; N]::clone`](https://github.com/rust-lang/rust/pull/46788)
-* [suggest `..` for erroneous `...` struct field patterns](https://github.com/rust-lang/rust/pull/46763)
-* [When attempting to write str with single quote suggest double quotes](https://github.com/rust-lang/rust/pull/46653)
-* [fix borrow casts or binary expression suggestions](https://github.com/rust-lang/rust/pull/46761)
-* [Fix division-by-zero ICE in -Z perf-stats](https://github.com/rust-lang/rust/pull/46728)
-* [Point at var in short lived borrows instead of drop location](https://github.com/rust-lang/rust/pull/46719)
-* [Point at whole method call instead of args](https://github.com/rust-lang/rust/pull/46633)
-* [Fix visible_parent_map to choose globally minimal paths](https://github.com/rust-lang/rust/pull/46708)
-* [Lifetime Resolution for Generic Associated Types](https://github.com/rust-lang/rust/pull/46706)
-* [rustc: unpack newtyped of `#[repr(simd)]` vector types](https://github.com/rust-lang/rust/pull/46701)
-* [rustc_trans: approximate ABI alignment for padding/union fillers](https://github.com/rust-lang/rust/pull/46623)
-* [lossless UNIX OsStr Debug impl](https://github.com/rust-lang/rust/pull/46798)
-* [Expose the line and column fields from the proc_macro::LineColumn struct](https://github.com/rust-lang/rust/pull/46690)
-* [cargo: Don’t swallow virtual manifest parsing errors](https://github.com/rust-lang/cargo/pull/4828)
+* [`feature(nll)`](https://github.com/rust-lang/rust/pull/46862)
+* [prevent unwinding past FFI boundaries](Prevent unwinding past FFI boundaries) (finally!)
+* [prevent rustc overwriting input files](https://github.com/rust-lang/rust/pull/46814)
+* [`-C incremental`](https://github.com/rust-lang/rust/pull/46751) and
+  [enable incremental by default](https://github.com/rust-lang/cargo/pull/4817) (this effectively stabilizes incremental compilation)
+* [do not emit type errors on recovered blocks](https://github.com/rust-lang/rust/pull/46732)
+* [kill borrows on a local variable whenever we assign over it](https://github.com/rust-lang/rust/pull/46752)
+* [MIR borrowck: no "move occurs because `X` is not Copy` error](https://github.com/rust-lang/rust/pull/46949)
+* [MIR: terminate unreachable blocks in `construct_const`](https://github.com/rust-lang/rust/pull/46877)
+* [rustc: set release mode cgus to 16 by default](https://github.com/rust-lang/rust/pull/46910)
+* [rustc: sort codegen units before merging](https://github.com/rust-lang/rust/pull/46918) (fix non-determinism)
+* [rustc: do not raise the alignment of optimized enums to the niche's alignment](https://github.com/rust-lang/rust/pull/46809)
+* [rustc: ensure optimized enums have a properly aligned size](https://github.com/rust-lang/rust/pull/46808)
+* [rustc: work around `DICompileUnit` bugs in LLVM](https://github.com/rust-lang/rust/pull/46772)
+* [fix ICE when calling non-functions within closures](https://github.com/rust-lang/rust/pull/46780)
+* [work towards thread safety in rustc](https://github.com/rust-lang/rust/pull/46779)
+* [fix -Z lower_128bit_ops handling of statics](https://github.com/rust-lang/rust/pull/46583)
+* [type privacy polishing](https://github.com/rust-lang/rust/pull/46083)
+* [only mark unions as uninhabited if all of their fields are uninhabited](https://github.com/rust-lang/rust/pull/46859)
+* [`visible_parent_map` now sorts by crate num](https://github.com/rust-lang/rust/pull/46838)
+* [convert warning about `*const _` to a future-compat lint](https://github.com/rust-lang/rust/pull/46914)
+* [lint against single-use lifetime names](https://github.com/rust-lang/rust/pull/46441)
+* [set the dwarf linkage_name to the mangled name](https://github.com/rust-lang/rust/pull/46899)
+* [fix debuginfo scoping of let-statements](https://github.com/rust-lang/rust/pull/46896)
+* [add a feature gate for nested uses of `impl Trait`](https://github.com/rust-lang/rust/pull/46888)
+* [ensure separate activations only occur for assignments to locals](https://github.com/rust-lang/rust/pull/46887)
+* [move `PhantomData<T>` from `Shared<T>` to users of both `Shared` and `#[may_dangle]`](https://github.com/rust-lang/rust/pull/46749)
+* [add Hash impl for SystemTime and Instant](https://github.com/rust-lang/rust/pull/46828)
+* [capture `Command` environment at spawn](https://github.com/rust-lang/rust/pull/46789)
+* [add more Duration methods for consistency](https://github.com/rust-lang/rust/pull/46508)
+* [reject superfluous `::` in IPv6 addresses](https://github.com/rust-lang/rust/pull/46671)
+* [stablize `RefCell::`{`replace`, `swap`}](https://github.com/rust-lang/rust/pull/46517)
+* [rustdoc: const-eval array lengths](https://github.com/rust-lang/rust/pull/46894)
 
 ## New Contributors
 
