@@ -164,7 +164,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 — [aaron-lebo on Hacker News](https://news.ycombinator.com/item?id=15981227) about [@steveklabnik](https://github.com/steveklabnik).
 
-Thanks to [Aleksey Kladov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/477) for the suggestion!
+Thanks to [Aleksey Kladov for the suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/477)!
 
 [Submit your quotes for next week][submit]!
 
