@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 - [podcast] [New Rustacean: Increasing Rust's Reach – Anna Liao](http://www.newrustacean.com/show_notes/interview/irr_2017/anna_liao/index.html), on Anna's experience learning Rust while porting a Raspberry Pi Python project as part of the Increasing Rust’s Reach 2017 program.
+- [podcast] [New Rustacean: Increasing Rust's Reach – Lee Baillie](http://www.newrustacean.com/show_notes/interview/irr_2017/lee_baillie/index.html), on Lee's experience designing a new website for Rust.
 
 # Crate of the Week
 
