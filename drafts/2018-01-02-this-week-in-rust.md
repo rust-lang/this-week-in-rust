@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [mithril - a Rust Monero miner](https://github.com/Ragnaroek/mithril).
+
 # Crate of the Week
 
 This week's crate is [crossbeam-channel](https://crates.io/crates/crossbeam-channel), a crate that improves multi-producer multi-consumer channels compared to what the standard library offers. Thanks to [leodasvacas](https://users.rust-lang.org/u/leodasvacas) for the suggestion!
