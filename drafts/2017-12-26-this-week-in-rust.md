@@ -16,7 +16,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-- [podcast] [New Rustacean: Increasing Rust's Reach – Anna Liao](http://www.newrustacean.com/show_notes/interview/irr_2017/anna_liao/index.html), on Anna's experience learning Rust while porting a Raspberry Pi Python project as part of the Increasing Rust’s Reach 2017 program.
+* [Rust in 2017: what we achieved](https://blog.rust-lang.org/2017/12/21/rust-in-2017.html).
+* [Five years with Rust](http://words.steveklabnik.com/five-years-with-rust).
+* [mrustc - a Rust compiler written in C++ can now build rustc from a source tarball](https://www.reddit.com/r/rust/comments/7lu6di/mrustc_alternate_rust_compiler_in_c_now_broken/).
+* [Introducing May - a stackful coroutine library in Rust](https://blog.zhpass.com/2017/12/23/may-announcement/).
+* [Introducing YEW - a framework for making Elm/React/Angular-like client web-apps with Rust](https://users.rust-lang.org/t/yew-a-framework-for-client-side-web-apps/14597).
+* [Debugging a segfault in a Rust program](https://jvns.ca/blog/2017/12/23/segfault-debugging/).
+* [Undefined vs unsafe in Rust](https://manishearth.github.io/blog/2017/12/24/undefined-vs-unsafe-in-rust/).
+* [The final impl period newsletter](https://internals.rust-lang.org/t/the-final-impl-period-newsletter/6408).
+* [podcast] [Rusty Spike Podcast - episode 13](https://rusty-spike.blubrry.net/2017/12/13/episode-12-dec-13-2017/). Debugging WASM->Rust, more Google tools, stdweb, NLL, and tokio.
+* [podcast] [New Rustacean: Increasing Rust's Reach – Anna Liao](http://www.newrustacean.com/show_notes/interview/irr_2017/anna_liao/index.html), on Anna's experience learning Rust while porting a Raspberry Pi Python project as part of the Increasing Rust’s Reach 2017 program.
 
 # Crate of the Week
 
@@ -33,12 +42,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Use cargo-contribute to find issues in your dependencies to contribute to](https://github.com/Xion/cargo-contribute).
-* [Rusoto, an AWS SDK, is looking for maintainers](https://github.com/rusoto/rusoto/issues/593).
-* [Contribute to Rust's 2017 impl period](https://www.rustaceans.org/findwork/impl).
-* [good first issue] [Criterion.rs: Replace rustc_serialize with Serde](https://github.com/japaric/criterion.rs/issues/91).
-* [good first issue] [Criterion.rs: Replace Floaty with num-traits](https://github.com/japaric/criterion.rs/issues/95).
-* [medium] [allocators-rs: object-alloc-test: Finish `corruption::mapped::is_mapped_range` on Windows](https://github.com/ezrosent/allocators-rs/issues/137).
+* [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -50,7 +54,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-12-18..2017-12-25
 
-* [`feature(nll)`](https://github.com/rust-lang/rust/pull/46862)
+* [`feature(nll)` - non-lexical lifetimes](https://github.com/rust-lang/rust/pull/46862)
 * [prevent unwinding past FFI boundaries](Prevent unwinding past FFI boundaries) (finally!)
 * [prevent rustc overwriting input files](https://github.com/rust-lang/rust/pull/46814)
 * [`-C incremental`](https://github.com/rust-lang/rust/pull/46751) and
@@ -86,11 +90,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* David Teller
-* Felix Schütt
-* Nika Layzell
-* qres
-* varkor
+* Antal Szabó
+* Christopher Durham
+* Ed Schouten
+* Florian Keller
+* Jonas Platte
+* Matti Niemenmaa
+* Sam Green
+* Scott Abbey
+* Wilco Kusee
 
 ## Approved RFCs
 
@@ -116,19 +124,26 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Change impls of `PartialEq` and friends in libstd to be more generic](https://github.com/rust-lang/rfcs/pull/2245).
-* [Finalize syntax of `impl Trait` and `dyn Trait` with multiple bounds](https://github.com/rust-lang/rfcs/pull/2250).
+* [if- and while-let-chains](https://github.com/rust-lang/rfcs/pull/2260).
+* [libsyntax2.0](https://github.com/rust-lang/rfcs/pull/2256).
+* [Abstracting type limits](https://github.com/rust-lang/rfcs/pull/2252).
 
 # Upcoming Events
 
-* [Dec 21. Cambridge Rust Meetup #6](https://www.meetup.com/Cambridge-Rust-Meetup/events/mgtcwnywqbcc/).
-* [Dec 27. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Dec 27. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Dec 28. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Jan  2. Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxcbdb/).
+* [Jan  3. Indy.rs - 2018 kickoff - Indianapolis](https://www.meetup.com/indyrs/events/245944859/).
 * [Jan  3. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/rhvgrmyxcbfb/).
 * [Jan  3. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Jan  3. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Jan  7. Dive into Rust @ Guna, MP India](https://reps.mozilla.org/e/dive-into-rust-guna-mp/).
+* [Jan  8. Seattle Rust Monthly Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/hztzcpyxcblb/).
+* [Jan  9. Downtown Community Hack Night at nordstromrack.com | Hautelook - Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/246118689/).
+* [Jan 10. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Jan 10. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Jan 11. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [Jan 11. San Diego Rust January Meetup](https://www.meetup.com/San-Diego-Rust/events/246221114/).
+* [Jan 11. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/czcwhlyxcbpb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -138,13 +153,17 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Developer at ANIXE Wrocław Poland](http://anixe.pl/jobs/rust_dev/).
+* [Rust Developer at Ahrefs (Singapore & San Francisco)](https://ahrefs.com/jobs/rust-developer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> Every great language needs a Steve.
+
+— [aaron-lebo on Hacker News](https://news.ycombinator.com/item?id=15981227) about [@steveklabnik](https://github.com/steveklabnik).
+
+Thanks to [Aleksey Kladov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/477) for the suggestion!
 
 [Submit your quotes for next week][submit]!
 
