@@ -56,7 +56,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-12-18..2017-12-25
 
 * [`feature(nll)` - non-lexical lifetimes](https://github.com/rust-lang/rust/pull/46862)
-* [prevent unwinding past FFI boundaries](Prevent unwinding past FFI boundaries) (finally!)
+* [prevent unwinding past FFI boundaries](https://github.com/rust-lang/rust/pull/46833) (finally!)
 * [prevent rustc overwriting input files](https://github.com/rust-lang/rust/pull/46814)
 * [`-C incremental`](https://github.com/rust-lang/rust/pull/46751) and
   [enable incremental by default](https://github.com/rust-lang/cargo/pull/4817) (this effectively stabilizes incremental compilation)
