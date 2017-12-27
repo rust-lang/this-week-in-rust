@@ -25,7 +25,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Undefined vs unsafe in Rust](https://manishearth.github.io/blog/2017/12/24/undefined-vs-unsafe-in-rust/).
 * [The final impl period newsletter](https://internals.rust-lang.org/t/the-final-impl-period-newsletter/6408).
 * [podcast] [Rusty Spike Podcast - episode 13](https://rusty-spike.blubrry.net/2017/12/13/episode-12-dec-13-2017/). Debugging WASM->Rust, more Google tools, stdweb, NLL, and tokio.
-* [podcast] [New Rustacean: Increasing Rust's Reach – Anna Liao](http://www.newrustacean.com/show_notes/interview/irr_2017/anna_liao/index.html), on Anna's experience learning Rust while porting a Raspberry Pi Python project as part of the Increasing Rust’s Reach 2017 program.
+* [podcast] [New Rustacean: Increasing Rust's reach – Anna Liao](http://www.newrustacean.com/show_notes/interview/irr_2017/anna_liao/index.html), on Anna's experience learning Rust while porting a Raspberry Pi Python project as part of the Increasing Rust’s Reach 2017 program.
+* [podcast] [New Rustacean: Increasing Rust's reach – Lee Baillie](http://www.newrustacean.com/show_notes/interview/irr_2017/lee_baillie/index.html), on Lee's experience designing a new website for Rust.
 
 # Crate of the Week
 
