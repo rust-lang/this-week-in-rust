@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [This Year in Gfx-rs - 2017](http://gfx-rs.github.io/2017/12/30/this-year.html)
+* [Announcing `ndarray` version 0.11.0](https://jim.turner.link/pages/ndarray-0.11/)
 
 # Crate of the Week
 
