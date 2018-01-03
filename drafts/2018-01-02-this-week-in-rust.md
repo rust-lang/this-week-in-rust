@@ -16,7 +16,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [This Year in Gfx-rs - 2017](http://gfx-rs.github.io/2017/12/30/this-year.html)
+* [Not explicit](https://boats.gitlab.io/blog/post/2017-12-27-things-explicit-is-not/). What is means for Rust syntax to be _explicit_.
+* [Porting a roguelike game to WebAssembly](https://aimlesslygoingforward.com/blog/2017/12/25/dose-response-ported-to-webassembly/).
+* [Simulating conditional enum variants in Rust](https://rreverser.com/conditional-enum-variants-in-rust/).
+* [Rust IDE + REPL In Vim](https://startupsventurecapital.com/rust-ide-repl-in-vim-11daa921a2c4).
+* [Making TRust-DNS faster than BIND9](https://bluejekyll.github.io/blog/rust/2017/12/29/making-trust-dns-fast.html).
+* [Diesel 1.0 released](https://github.com/diesel-rs/diesel/releases/tag/v1.0.0).
+* [This year in Gfx-rs 2017](http://gfx-rs.github.io/2017/12/30/this-year.html).
+* [This week in Redox 34](https://redox-os.org/news/this-week-in-redox-34/).
 
 # Crate of the Week
 
@@ -34,6 +41,18 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
+* [easy] [gluon: Add syntax aware contexts to errors](https://github.com/gluon-lang/gluon/issues/145).
+* [gluon: Make it possible to use a custom allocator for the vm](https://github.com/gluon-lang/gluon/issues/245).
+* [gluon: Add raw string literals](https://github.com/gluon-lang/gluon/issues/276).
+* [gluon: Run clippy](https://github.com/gluon-lang/gluon/issues/405).
+* [gluon: Try to make gluon compile compile to wasm](https://github.com/gluon-lang/gluon/issues/424).
+* [mdBook: Article named 'print' triggers printing dialog](https://github.com/rust-lang-nursery/mdBook/issues/258).
+* [mdBook: Facilitate maintaining URLs with redirect mapping](https://github.com/rust-lang-nursery/mdBook/issues/430).
+* [mdBook: build is overeager to delete files in destination](https://github.com/rust-lang-nursery/mdBook/issues/436).
+* [mdBook: Styling flash on RBE](https://github.com/rust-lang-nursery/mdBook/issues/443).
+* [mdBook: Changing Chapter removes focus from main area](https://github.com/rust-lang-nursery/mdBook/issues/480).
+* [mdBook: hyperlink to another section jumps to wrong location on Firefox 57](https://github.com/rust-lang-nursery/mdBook/issues/499).
+* [mdBook: Document the Ace Editor](https://github.com/rust-lang-nursery/mdBook/issues/521).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -81,15 +100,10 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Antal Szabó
-* Christopher Durham
-* Ed Schouten
-* Florian Keller
-* Jonas Platte
-* Matti Niemenmaa
-* Sam Green
-* Scott Abbey
-* Wilco Kusee
+* Bastian Köcher
+* Josh Holmer
+* Matt Peterson
+* Rafael Fernández López
 
 ## Approved RFCs
 
@@ -115,26 +129,26 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [if- and while-let-chains](https://github.com/rust-lang/rfcs/pull/2260).
-* [libsyntax2.0](https://github.com/rust-lang/rfcs/pull/2256).
-* [Abstracting type limits](https://github.com/rust-lang/rfcs/pull/2252).
+* [Legal double reference](https://github.com/rust-lang/rfcs/pull/2268).
+* [Amend RFC 1758 (repr(transparent)) w.r.t. repr(align)](https://github.com/rust-lang/rfcs/pull/2271).
 
 # Upcoming Events
 
-* [Dec 28. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Jan  2. Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxcbdb/).
-* [Jan  3. Indy.rs - 2018 kickoff - Indianapolis](https://www.meetup.com/indyrs/events/245944859/).
-* [Jan  3. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/rhvgrmyxcbfb/).
-* [Jan  3. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Jan  3. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Jan  7. Dive into Rust @ Guna, MP India](https://reps.mozilla.org/e/dive-into-rust-guna-mp/).
 * [Jan  8. Seattle Rust Monthly Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/hztzcpyxcblb/).
+* [Jan  8. Rust Cologne - Rust Open Space](https://www.meetup.com/RustCologne/events/245799713/).
 * [Jan  9. Downtown Community Hack Night at nordstromrack.com | Hautelook - Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/246118689/).
+* [Jan  9. Rust Roma - Rust learning and hacking evening](https://www.meetup.com/Rust-Roma/events/246244324/).
 * [Jan 10. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Jan 10. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Jan 11. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Jan 11. San Diego Rust January Meetup](https://www.meetup.com/San-Diego-Rust/events/246221114/).
 * [Jan 11. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/czcwhlyxcbpb/).
+* [Jan 15. Rust Sydney - Meetup 12](https://www.meetup.com/Rust-Sydney/events/245798720/).
+* [Jan 17. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Jan 17. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Jan 18. Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/245934654/).
+* [Jan 18. Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/mgtcwnyxcbxb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -150,11 +164,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Every great language needs a Steve.
+> If C is like playing with knives and C++ is like juggling chainsaws then Rust is like parkour wearing protective gear while suspended from strings. It may look ridiculous at times, but you can do all sorts of awesome moves that would be damn scary or outright impossible without it.
 
-— [aaron-lebo on Hacker News](https://news.ycombinator.com/item?id=15981227) about [@steveklabnik](https://github.com/steveklabnik).
+— [u/llogiq on r/rust](https://www.reddit.com/r/rust/comments/7kjnu7/hey_rustaceans_got_an_easy_question_ask_here/drj63ti/).
 
-Thanks to [Aleksey Kladov for the suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/477)!
+Thanks to [Christopher Durham for the suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/478)!
 
 [Submit your quotes for next week][submit]!
 
