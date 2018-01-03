@@ -137,7 +137,6 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Jan  3. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/rhvgrmyxcbfb/).
 * [Jan  3. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Jan  3. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
-* [Jan 6. Rust and Go compared](https://www.meetup.com/rustox/events/246234333/).
 * [Jan  7. Dive into Rust @ Guna, MP India](https://reps.mozilla.org/e/dive-into-rust-guna-mp/).
 * [Jan  8. Seattle Rust Monthly Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/hztzcpyxcblb/).
 * [Jan  9. Downtown Community Hack Night at nordstromrack.com | Hautelook - Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/246118689/).
