@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Not explicit](https://boats.gitlab.io/blog/post/2017-12-27-things-explicit-is-not/). What is means for Rust syntax to be _explicit_.
+* [Not explicit](https://boats.gitlab.io/blog/post/2017-12-27-things-explicit-is-not/). What is means for Rust syntax to be explicit.
 * [Porting a roguelike game to WebAssembly](https://aimlesslygoingforward.com/blog/2017/12/25/dose-response-ported-to-webassembly/).
 * [Simulating conditional enum variants in Rust](https://rreverser.com/conditional-enum-variants-in-rust/).
 * [Rust IDE + REPL In Vim](https://startupsventurecapital.com/rust-ide-repl-in-vim-11daa921a2c4).
@@ -115,6 +115,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 # Upcoming Events
 
+* [Jan  6. Rust Bangalore - Rust and Go compared](https://www.meetup.com/rustox/events/246234333/).
 * [Jan  7. Dive into Rust @ Guna, MP India](https://reps.mozilla.org/e/dive-into-rust-guna-mp/).
 * [Jan  8. Seattle Rust Monthly Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/hztzcpyxcblb/).
 * [Jan  8. Rust Cologne - Rust Open Space](https://www.meetup.com/RustCologne/events/245799713/).
