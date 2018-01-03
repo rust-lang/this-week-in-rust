@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Not explicit](https://boats.gitlab.io/blog/post/2017-12-27-things-explicit-is-not/). What is means for Rust syntax to be explicit.
+* [Not explicit](https://boats.gitlab.io/blog/post/2017-12-27-things-explicit-is-not/). What it means for Rust syntax to be explicit.
 * [Porting a roguelike game to WebAssembly](https://aimlesslygoingforward.com/blog/2017/12/25/dose-response-ported-to-webassembly/).
 * [Simulating conditional enum variants in Rust](https://rreverser.com/conditional-enum-variants-in-rust/).
 * [Rust IDE + REPL In Vim](https://startupsventurecapital.com/rust-ide-repl-in-vim-11daa921a2c4).
