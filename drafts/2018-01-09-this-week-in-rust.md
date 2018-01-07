@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [podcast]\ [New Rustacean: News – Rust 1.23](http://www.newrustacean.com/show_notes/news/rust_1_23/) – Rustdoc changes, the first impl period, Firefox Quantum, and more wasm! (Also note the [`Script` struct docs](http://www.newrustacean.com/show_notes/news/rust_1_23/struct.Script.html) if you prefer reading to listening!)
+
 # Crate of the Week
 
 This week's crate is [YEW](https://github.com/DenisKolodin/yew), a framework for making Elm/React/Angular-like client web-apps with Rust. Thanks to [Willi Kappler](https://users.rust-lang.org/u/willi_kappler) for the suggestion!
