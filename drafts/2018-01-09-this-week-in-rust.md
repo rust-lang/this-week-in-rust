@@ -122,6 +122,9 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Jan 11. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/czcwhlyxcbpb/).
 * [Jan 15. Rust Sydney - Meetup 12](https://www.meetup.com/Rust-Sydney/events/245798720/).
 * [Jan 15. Munich - Thread pools and iterators. Introduction and hands-on coding.](https://www.meetup.com/de-DE/rust-munich/events/245850409/)
+* [Jan 16. Rust Karlsruhe](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/246063436/)
+* [Jan 16. HTWG Konstanz: Rust - Was steckt hinter "Concurrency without Fear"?](https://www.htwg-konstanz.de/fileadmin/pub/fk_in/Aktuelles/Veranstaltungen/Rust_Concurrency-without-fear_Web.pdf)
+* [Jan 17. Linuxing in London: Getting started with CLI programs in Rust](https://www.meetup.com/Linuxing-In-London/events/246605527/)
 * [Jan 17. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Jan 17. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Jan 18. Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/245934654/).
