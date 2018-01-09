@@ -17,8 +17,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [New year's Rust: A call for community blogposts](https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html).
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.23](https://blog.rust-lang.org/2018/01/04/Rust-1.23.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
-* [Announcing Diesel 1.0 — A safe, extensible query builder and ORM](https://medium.com/@sgrif/announcing-diesel-1-0-a-safe-extensible-query-builder-and-orm-15e6bd8a9ed0).
+* <img alt="balloon" class="emoji" title=":balloon:" src="https://discourse-cdn-sjc1.com/business/images/emoji/twitter/balloon.png?v=5"><img alt="tada" class="emoji" title=":tada:" src="https://discourse-cdn-sjc1.com/business/images/emoji/twitter/tada.png?v=5"> [Announcing Rust 1.23](https://blog.rust-lang.org/2018/01/04/Rust-1.23.html). <img alt="tada" class="emoji" title=":tada:" src="https://discourse-cdn-sjc1.com/business/images/emoji/twitter/tada.png?v=5"><img alt="balloon" class="emoji" title=":balloon:" src="https://discourse-cdn-sjc1.com/business/images/emoji/twitter/balloon.png?v=5">
+* [Announcing Diesel 1.0 — a safe, extensible query builder and ORM](https://medium.com/@sgrif/announcing-diesel-1-0-a-safe-extensible-query-builder-and-orm-15e6bd8a9ed0).
 * [Ashley Williams joins the Core Team and taking lead of the Community Team](https://internals.rust-lang.org/t/announcement-ashley-williams-joins-the-core-team-and-taking-lead-of-the-community-team/6453).
 * [Lessons from the impl period](http://smallcultfollowing.com/babysteps/blog/2018/01/05/lessons-from-the-impl-period/).
 * [How to use Rust non lexical lifetimes on nightly](https://santiagopastorino.com/how-to-use-rust-non-lexical-lifetimes-on-nightly/).
@@ -128,14 +128,6 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 # Upcoming Events
 
-* [Jan  6. Rust Bangalore - Rust and Go compared](https://www.meetup.com/rustox/events/246234333/).
-* [Jan  7. Dive into Rust @ Guna, MP India](https://reps.mozilla.org/e/dive-into-rust-guna-mp/).
-* [Jan  8. Seattle Rust Monthly Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/hztzcpyxcblb/).
-* [Jan  8. Rust Cologne - Rust Open Space](https://www.meetup.com/RustCologne/events/245799713/).
-* [Jan  9. Downtown Community Hack Night at nordstromrack.com | Hautelook - Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/246118689/).
-* [Jan  9. Rust Roma - Rust learning and hacking evening](https://www.meetup.com/Rust-Roma/events/246244324/).
-* [Jan 10. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Jan 10. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Jan 11. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Jan 11. San Diego Rust January Meetup](https://www.meetup.com/San-Diego-Rust/events/246221114/).
 * [Jan 11. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/czcwhlyxcbpb/).
@@ -148,6 +140,12 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Jan 17. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Jan 18. Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/245934654/).
 * [Jan 18. Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/mgtcwnyxcbxb/).
+* [Jan 22. Durham, NC - Triangle Rustaceans - Rust 101](https://www.meetup.com/triangle-rustaceans/events/kkjnpnyxcbdc/).
+* [Jan 23. A deep dive into Rust @ Facebook Developer Circle Ruhr](https://www.meetup.com/Facebook-Developer-Circle-Ruhr/events/246462601/).
+* [Jan 24. Milano - Overload di funzioni in Rust - Come ho imparato a vivere felicemente senza](https://www.meetup.com/rust-language-milano/events/246439486/).
+* [Jan 24. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Jan 24. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Jan 25. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
