@@ -16,7 +16,36 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-- [podcast]\ [New Rustacean: News – Rust 1.23](http://www.newrustacean.com/show_notes/news/rust_1_23/) – Rustdoc changes, the first impl period, Firefox Quantum, and more wasm! (Also note the [`Script` struct docs](http://www.newrustacean.com/show_notes/news/rust_1_23/struct.Script.html) if you prefer reading to listening!)
+* [New year's Rust: A call for community blogposts](https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html).
+* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.23](https://blog.rust-lang.org/2018/01/04/Rust-1.23.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* [Announcing Diesel 1.0 — A safe, extensible query builder and ORM](https://medium.com/@sgrif/announcing-diesel-1-0-a-safe-extensible-query-builder-and-orm-15e6bd8a9ed0).
+* [Ashley Williams joins the Core Team and taking lead of the Community Team](https://internals.rust-lang.org/t/announcement-ashley-williams-joins-the-core-team-and-taking-lead-of-the-community-team/6453).
+* [Lessons from the impl period](http://smallcultfollowing.com/babysteps/blog/2018/01/05/lessons-from-the-impl-period/).
+* [How to use Rust non lexical lifetimes on nightly](https://santiagopastorino.com/how-to-use-rust-non-lexical-lifetimes-on-nightly/).
+* [A proof-of-concept GraphQL server framework for Rust](https://www.ncameron.org/blog/a-proof-of-concept-graphql-server-framework-for-rust/).
+* [Web scraping with Rust](https://codeburst.io/web-scraping-in-rust-881b534a60f7). A beginner-friendly tutorial highlighting Rust’s viability as a scripting language for everyday use.
+* [This week in Rust docs 87](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-87).
+* [podcast] [New Rustacean: News – Rust 1.23](http://www.newrustacean.com/show_notes/news/rust_1_23/) – Rustdoc changes, the first impl period, Firefox Quantum, and more wasm! (Also note the [`Script` struct docs](http://www.newrustacean.com/show_notes/news/rust_1_23/struct.Script.html) if you prefer reading to listening!)
+* [videos] [Videos from Rust Belt Rust 2017 are now available](https://www.youtube.com/playlist?list=PLgC1L0fKd7Ul71lD_cImGuMxsZ6J8fa06).
+
+## #Rust2018
+
+* [2018 should be boring](https://www.ncameron.org/blog/rust-2018/) by nrc.
+* [Don’t be the new Haskell](https://medium.com/@tibotz/rust-2018-dont-be-the-new-haskell-a383dbd74481) by /u/tibodelor.
+* [Improving how we improve Rust in 2018](http://www.jonathanturner.org/2018/01/rust2018-and-data.html) by jonathandturner.
+* [Three humble paper cuts](https://gist.github.com/cessen/394829673855e56157f63b4447f91e67) by cessen.
+* [What Rust needs in 2018 to succeed](https://llogiq.github.io/2018/01/09/rust.html) by llogiq.
+* [What I want changed for Rust to help Way Cooler](http://way-cooler.org/blog/2018/01/09/way-cooler-turns-two.html) by Timidger.
+* [Back to the roots](https://www.reddit.com/r/rust/comments/7p6n90/rust2018_back_to_the_roots/) by /u/0b_0101_001_1010.
+* [Looking back and looking forward](https://gist.github.com/est31/c063704716b6880fd74ce2ba11b11298) by est31.
+* [My wish list for 2018](http://www.mmrath.com/post/rust-my-wish-list-for-2018/) by mmrath.
+* [Looking in on Rust in 2018](https://kasma1990.gitlab.io/2018/01/07/looking-in-on-rust-in-2018/) by KasMA1990.
+* [The new wave of Rust](https://quietmisdreavus.net/code/2018/01/07/the-new-wave-of-rust/) by QuietMisdreavus.
+* [New faces for our lovely bots](https://lukaskalbertodt.github.io/2018/01/07/new-faces-for-bots-rust2018.html) by LukasKalbertodt.
+* [Better Debug derive](https://www.reddit.com/r/rust/comments/7p4imw/rust2018_wishpost_better_debug_derive/) by lokathor.
+* [Machine learning perspective](https://www.reddit.com/r/rust/comments/7p6rpw/rust_2018_machine_learning_perspective/) by /u/osamc.
+* [Rust 2018](http://www.suspectsemantics.com/blog/2018/01/07/rust-2018/) by AndrewBrinker.
+* [Goals and directions for Rust in 2018](http://www.wezm.net/technical/2018/01/goals-directions-rust-2018/) by wezm.
 
 # Crate of the Week
 
@@ -34,18 +63,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
-* [easy] [gluon: Add syntax aware contexts to errors](https://github.com/gluon-lang/gluon/issues/145).
-* [gluon: Make it possible to use a custom allocator for the vm](https://github.com/gluon-lang/gluon/issues/245).
-* [gluon: Add raw string literals](https://github.com/gluon-lang/gluon/issues/276).
-* [gluon: Run clippy](https://github.com/gluon-lang/gluon/issues/405).
-* [gluon: Try to make gluon compile compile to wasm](https://github.com/gluon-lang/gluon/issues/424).
-* [mdBook: Article named 'print' triggers printing dialog](https://github.com/rust-lang-nursery/mdBook/issues/258).
-* [mdBook: Facilitate maintaining URLs with redirect mapping](https://github.com/rust-lang-nursery/mdBook/issues/430).
-* [mdBook: build is overeager to delete files in destination](https://github.com/rust-lang-nursery/mdBook/issues/436).
-* [mdBook: Styling flash on RBE](https://github.com/rust-lang-nursery/mdBook/issues/443).
-* [mdBook: Changing Chapter removes focus from main area](https://github.com/rust-lang-nursery/mdBook/issues/480).
-* [mdBook: hyperlink to another section jumps to wrong location on Firefox 57](https://github.com/rust-lang-nursery/mdBook/issues/499).
-* [mdBook: Document the Ace Editor](https://github.com/rust-lang-nursery/mdBook/issues/521).
+* [medium] [mdBook: Introduce preprocessors](https://github.com/rust-lang-nursery/mdBook/issues/530).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -75,10 +93,11 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Bastian Köcher
-* Josh Holmer
-* Matt Peterson
-* Rafael Fernández López
+* aheart
+* BurntPizza
+* Johannes Boczek
+* keatinge
+* Sam
 
 ## Approved RFCs
 
@@ -104,8 +123,8 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Legal double reference](https://github.com/rust-lang/rfcs/pull/2268).
-* [Amend RFC 1758 (repr(transparent)) w.r.t. repr(align)](https://github.com/rust-lang/rfcs/pull/2271).
+* [Custom cargo profiles](https://github.com/rust-lang/rfcs/pull/2282).
+* [Function Structs](https://github.com/rust-lang/rfcs/pull/2276).
 
 # Upcoming Events
 
@@ -135,17 +154,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Developer at Ahrefs (Singapore & San Francisco)](https://ahrefs.com/jobs/rust-developer).
-
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+*No jobs listed for this week.*
 
 # Quote of the Week
 
-> If C is like playing with knives and C++ is like juggling chainsaws then Rust is like parkour wearing protective gear while suspended from strings. It may look ridiculous at times, but you can do all sorts of awesome moves that would be damn scary or outright impossible without it.
-
-— [u/llogiq on r/rust](https://www.reddit.com/r/rust/comments/7kjnu7/hey_rustaceans_got_an_easy_question_ask_here/drj63ti/).
-
-Thanks to [Christopher Durham for the suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/478)!
+*No quote was selected for QotW.*
 
 [Submit your quotes for next week][submit]!
 
