@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [YEW](https://github.com/DenisKolodin/yew), a framework for making Elm/React/Angular-like client web-apps with Rust. Thanks to [Willi Kappler](https://users.rust-lang.org/u/willi_kappler) for the suggestion!
+This week's crate is [artifact](https://github.com/vitrial/artifact), a design documentation tool. Thanks to [musicmatze](https://users.rust-lang.org/u/musicmatze) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -51,23 +51,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-79 pull requests were [merged in the last week][merged]
+130 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-12-25..2018-01-01
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-01-01..2018-01-08
 
-* [allow `?` in `fn main()`](https://github.com/rust-lang/rust/pull/46479) (RFC [#1937](https://rust-lang.github.io/rfcs/1937-ques-in-main.html))
-* [allow lifetimes in macros](https://github.com/rust-lang/rust/pull/46895)
-* [Make the output of the column! macro 1 based](https://github.com/rust-lang/rust/pull/46977)
-* [Improved error messages for linking failure](https://github.com/rust-lang/rust/pull/47052)
-* [Use def span for non-ascii ident feature gate error](https://github.com/rust-lang/rust/pull/46803)
-* [rustc_trans: support ZST indexing involving uninhabited types](https://github.com/rust-lang/rust/pull/47009)
-* [rustc: don't use union layouts for tagged union enums](https://github.com/rust-lang/rust/pull/47007)
-* [update check::cast::pointer_kind logic to new rustc](https://github.com/rust-lang/rust/pull/46973)
-* [Use memchr to speed up `[u8]::contains` 3x](https://github.com/rust-lang/rust/pull/46713), also
-  [Use memchr for str::find(char) for 10x improvement](https://github.com/rust-lang/rust/pull/46735)
-* [Optimise min/max](https://github.com/rust-lang/rust/pull/47080)
-* [Make internal docs build properly](https://github.com/rust-lang/rust/pull/46979) and
-  [Add compiler docs testing to CI](https://github.com/rust-lang/rust/pull/46278)
+* [delete the old docs, lift up the new](https://github.com/rust-lang/cargo/pull/4904)
+* [generate code for unused const- and inline-fns if -Clink-dead-code is specified](https://github.com/rust-lang/rust/pull/46916)
+* [allow non-alphabetic underscores in camel case](https://github.com/rust-lang/rust/pull/46907)
+* [NLL fixes](https://github.com/rust-lang/rust/pull/46984)
+* [only bump error count when we are sure that the diagnostic is not a repetition](https://github.com/rust-lang/rust/pull/47146)
+* [limit style lint to non-synthetic generic params](https://github.com/rust-lang/rust/pull/47132)
+* [try to improve LLVM pass ordering](https://github.com/rust-lang/rust/pull/46739)
+  and [the pass manager order](https://github.com/rust-lang/llvm/pull/101)
+* [use name-discarding LLVM context](https://github.com/rust-lang/rust/pull/47220)
+* [force appropriate extension when converting from int to ptr](https://github.com/rust-lang/rust/pull/47147)
+* [delay panic for aliasing violation for static items](https://github.com/rust-lang/rust/pull/47105)
+  and [from incoherent drop implementation](https://github.com/rust-lang/rust/pull/47104)
+* [add 'Span::parent()' and 'Span::source()' to proc_macro API](https://github.com/rust-lang/rust/pull/47099)
+* [`CStore` switch `FxHashMap` to `IndexVec`](https://github.com/rust-lang/rust/pull/46913)
+* [implement `TrustedRandomAccess` for `slice::`{`Chunks`, `ChunksMut`, `Windows`}](https://github.com/rust-lang/rust/pull/47142)
 
 ## New Contributors
 
