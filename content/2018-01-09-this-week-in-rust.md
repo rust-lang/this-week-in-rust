@@ -62,6 +62,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [New year's Rust: A call for community blogposts](https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html).
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
 * [medium] [mdBook: Introduce preprocessors](https://github.com/rust-lang-nursery/mdBook/issues/530).
 
