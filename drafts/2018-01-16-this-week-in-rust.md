@@ -16,6 +16,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [H2 (Tokio based HTTP/2.0 client and server) is released to crates.io](https://crates.io/crates/h2)
+* [Announcing Actix web](https://github.com/actix/actix-web) — A small, fast, pragmatic, async rust web framework
+
 ## #Rust2018
 
 * [2018 should be boring](https://www.ncameron.org/blog/rust-2018/) by nrc.
