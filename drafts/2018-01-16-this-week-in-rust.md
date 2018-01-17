@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [podcast] [New Rustacean: Interview – Diesel 1.0, With Sean Griffin, Part 1](https://www.patreon.com/newrustacean), on growing Diesel's community, self-imposed technical challenges, and some of the ways Diesel has contributed to the Rust ecosystem.
+
 ## #Rust2018
 
 * [2018 should be boring](https://www.ncameron.org/blog/rust-2018/) by nrc.
