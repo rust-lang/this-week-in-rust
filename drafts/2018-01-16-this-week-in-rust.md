@@ -16,24 +16,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Announcement: a new Release Team, and new leadership for the Infrastructure Team](https://internals.rust-lang.org/t/announcement-a-new-release-team-and-new-leadership-for-the-infrastructure-team/6562).
+* [Clap's new year's weight loss program with cargo-bloat](https://clap.rs/2018/01/09/new-years-weight-loss/).
+* [What’s Tokio and async IO all about](https://manishearth.github.io/blog/2018/01/10/whats-tokio-and-async-io-all-about/)?
+* [Writing complex macros in Rust: Reverse Polish notation](https://rreverser.com/writing-complex-macros-in-rust/).
+* [About the undefined behavior](https://vorner.github.io/undefined.html).
+* [Benchmarking in stable Rust with criterion.rs](https://bheisler.github.io/post/benchmarking-with-criterion-rs/).
+* [Rust and WebAssembly With Turtle](https://varblog.org/blog/2018/01/08/rust-and-webassembly-with-turtle/).
+* [Debugging Rust programs with lldb on MacOS](https://bryce.fisher-fleig.org/blog/debugging-rust-programs-with-lldb/index.html).
+* [A year with Rust & game dev](http://druerridge.com/?p=536).
+* [This week in Rust docs 88](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-88).
+
 ## #Rust2018
 
-* [2018 should be boring](https://www.ncameron.org/blog/rust-2018/) by nrc.
-* [Don’t be the new Haskell](https://medium.com/@tibotz/rust-2018-dont-be-the-new-haskell-a383dbd74481) by /u/tibodelor.
-* [Improving how we improve Rust in 2018](http://www.jonathanturner.org/2018/01/rust2018-and-data.html) by jonathandturner.
-* [Three humble paper cuts](https://gist.github.com/cessen/394829673855e56157f63b4447f91e67) by cessen.
-* [What Rust needs in 2018 to succeed](https://llogiq.github.io/2018/01/09/rust.html) by llogiq.
-* [What I want changed for Rust to help Way Cooler](http://way-cooler.org/blog/2018/01/09/way-cooler-turns-two.html) by Timidger.
-* [Back to the roots](https://www.reddit.com/r/rust/comments/7p6n90/rust2018_back_to_the_roots/) by /u/0b_0101_001_1010.
-* [Looking back and looking forward](https://gist.github.com/est31/c063704716b6880fd74ce2ba11b11298) by est31.
-* [My wish list for 2018](http://www.mmrath.com/post/rust-my-wish-list-for-2018/) by mmrath.
-* [Looking in on Rust in 2018](https://kasma1990.gitlab.io/2018/01/07/looking-in-on-rust-in-2018/) by KasMA1990.
-* [The new wave of Rust](https://quietmisdreavus.net/code/2018/01/07/the-new-wave-of-rust/) by QuietMisdreavus.
-* [New faces for our lovely bots](https://lukaskalbertodt.github.io/2018/01/07/new-faces-for-bots-rust2018.html) by LukasKalbertodt.
-* [Better Debug derive](https://www.reddit.com/r/rust/comments/7p4imw/rust2018_wishpost_better_debug_derive/) by lokathor.
-* [Machine learning perspective](https://www.reddit.com/r/rust/comments/7p6rpw/rust_2018_machine_learning_perspective/) by /u/osamc.
-* [Rust 2018](http://www.suspectsemantics.com/blog/2018/01/07/rust-2018/) by AndrewBrinker.
-* [Goals and directions for Rust in 2018](http://www.wezm.net/technical/2018/01/goals-directions-rust-2018/) by wezm.
+Find all #Rust2018 posts at [Read Rust](http://readrust.net/rust2018/).
 
 # Crate of the Week
 
@@ -50,8 +46,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [doc] [good first issue] [Help Rayon prepare for 1.0](https://users.rust-lang.org/t/rayon-1-0-on-feb-14/14950).
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
-* [medium] [mdBook: Introduce preprocessors](https://github.com/rust-lang-nursery/mdBook/issues/530).
+* [Tera: Allow filters in math operations in 0.11](https://github.com/Keats/tera/issues/244). Tera is a template engine for Rust based on Jinja2/Django.
+* [good first issue] [Gutenberg: Make content::Section hold references](https://github.com/Keats/gutenberg/issues/205). Gutenberg is an opinionated static site generator with everything built-in.
+* [good first issue] [Aardwolf: Routing for web templates](https://github.com/BanjoFox/aardwolf/issues/69). Aardwolf is a platform for creating new social networks, connected across the web.
+* [good first issue] [miniz_oxide: Port CVE and other tests from zlib-ng](https://github.com/Frommi/miniz_oxide/issues/17). miniz_oxide is a Rust replacement for miniz deflate/zlib encoder/decoder.
+* [mdBook: Add not found page](https://github.com/rust-lang-nursery/mdBook/issues/539).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -81,11 +82,17 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* aheart
-* BurntPizza
-* Johannes Boczek
-* keatinge
-* Sam
+* Alexander Regueiro
+* Alexis Hunt
+* Bulat Musin
+* Dan Robertson
+* Fenrir
+* Kagamihime
+* muvlon
+* Neil Shen
+* O01eg
+* ritiek
+* Ryan Cumming
 
 ## Approved RFCs
 
@@ -103,6 +110,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
+* [disposition: merge] [Finalize syntax of `impl Trait` and `dyn Trait` with multiple bounds](https://github.com/rust-lang/rfcs/pull/2250).
 * [disposition: merge] [Fallible collection allocation 1.0](https://github.com/rust-lang/rfcs/pull/2116).
 * [disposition: merge] [Implicit caller location (third try to the unwrap/expect line info problem)](https://github.com/rust-lang/rfcs/pull/2091).
 * [disposition: merge] [Unsized rvalues](https://github.com/rust-lang/rfcs/pull/1909).
@@ -111,29 +119,28 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Custom cargo profiles](https://github.com/rust-lang/rfcs/pull/2282).
-* [Function Structs](https://github.com/rust-lang/rfcs/pull/2276).
+* [Benchmarking / cargo bench](https://github.com/rust-lang/rfcs/pull/2287).
+* [Associated type bounds of form `MyTrait<AssociatedType: Bounds>`](https://github.com/rust-lang/rfcs/pull/2289).
+* [Add `std::mem::zero`](https://github.com/rust-lang/rfcs/pull/2291).
+* [Allow `if let` guards in `match` expressions](https://github.com/rust-lang/rfcs/pull/2294).
 
 # Upcoming Events
 
-* [Jan 11. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Jan 11. San Diego Rust January Meetup](https://www.meetup.com/San-Diego-Rust/events/246221114/).
-* [Jan 11. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/czcwhlyxcbpb/).
-* [Jan 15. Rust Sydney - Meetup 12](https://www.meetup.com/Rust-Sydney/events/245798720/).
-* [Jan 15. Munich - Thread pools and iterators. Introduction and hands-on coding.](https://www.meetup.com/de-DE/rust-munich/events/245850409/)
-* [Jan 16. Rust Karlsruhe](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/246063436/)
-* [Jan 16. HTWG Konstanz: Rust - Was steckt hinter "Concurrency without Fear"?](https://www.htwg-konstanz.de/fileadmin/pub/fk_in/Aktuelles/Veranstaltungen/Rust_Concurrency-without-fear_Web.pdf)
-* [Jan 17. Linuxing in London: Getting started with CLI programs in Rust](https://www.meetup.com/Linuxing-In-London/events/246605527/)
-* [Jan 17. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Jan 17. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Jan 18. Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/245934654/).
 * [Jan 18. Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/mgtcwnyxcbxb/).
+* [Jan 20. Rust Bangalore - Rust for newbies (part 1 of 12)](https://www.meetup.com/rustox/events/246863039/).
 * [Jan 22. Durham, NC - Triangle Rustaceans - Rust 101](https://www.meetup.com/triangle-rustaceans/events/kkjnpnyxcbdc/).
+* [Jan 22. Lyon, France - TupperRust (registration required)](https://framaforms.org/inscription-obligatoire-tupperrust-de-janvier-2018-a-lens-lyon-1515789658).
 * [Jan 23. A deep dive into Rust @ Facebook Developer Circle Ruhr](https://www.meetup.com/Facebook-Developer-Circle-Ruhr/events/246462601/).
+* [Jan 23. Boston Rust - January Meetup at Amazon](https://www.meetup.com/BostonRust/events/246571213/).
 * [Jan 24. Milano - Overload di funzioni in Rust - Come ho imparato a vivere felicemente senza](https://www.meetup.com/rust-language-milano/events/246439486/).
+* [Jan 24. Rust NYC - Traits](https://www.meetup.com/Rust-NYC/events/246695372/).
 * [Jan 24. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Jan 24. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Jan 25. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [Jan 29. Rust London User Group - LDN Talks: January 2018](https://www.meetup.com/Rust-London-User-Group/events/246637221/).
+* [Jan 31. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Jan 31. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -147,7 +154,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> Anything that will make wasm nicer will be awesome, but honestly, I’m thrilled with what we’ve got. It feels absolutely insane that I can just compile this language that’s basically the opposite of JavaScript and it’s running in the browser.
+
+— [Tomas Sedovic in a #Rust2018 post](https://aimlesslygoingforward.com/blog/2018/01/10/rust-2018/).
+
+Thanks to [ErichDonGubler and CAD97 for the suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/482)!
 
 [Submit your quotes for next week][submit]!
 
