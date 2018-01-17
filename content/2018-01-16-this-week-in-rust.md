@@ -22,11 +22,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Writing complex macros in Rust: Reverse Polish notation](https://rreverser.com/writing-complex-macros-in-rust/).
 * [About the undefined behavior](https://vorner.github.io/undefined.html).
 * [Benchmarking in stable Rust with criterion.rs](https://bheisler.github.io/post/benchmarking-with-criterion-rs/).
-* [Rust and WebAssembly With Turtle](https://varblog.org/blog/2018/01/08/rust-and-webassembly-with-turtle/).
+* [Running Rust in browser: A tutorial with Turtle](https://varblog.org/blog/2018/01/08/rust-and-webassembly-with-turtle/).
 * [Debugging Rust programs with lldb on MacOS](https://bryce.fisher-fleig.org/blog/debugging-rust-programs-with-lldb/index.html).
 * [A year with Rust & game dev](http://druerridge.com/?p=536).
+* [Rust Enhanced: 2017 in review and what's coming in 2018](https://jason-williams.co.uk/rust-enhanced-reaches-50k-downloads/). Rust Enhanced is the official Sublime Text 3 package for Rust.
 * [This week in Rust docs 88](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-88).
-- [podcast] [New Rustacean: Interview – Diesel 1.0, with Sean Griffin, part 1](https://www.patreon.com/newrustacean), on growing Diesel's community, self-imposed technical challenges, and some of the ways Diesel has contributed to the Rust ecosystem.
+* [podcast] [New Rustacean: Interview – Diesel 1.0, with Sean Griffin, part 1](https://www.patreon.com/newrustacean). On growing Diesel's community, self-imposed technical challenges, and some of the ways Diesel has contributed to the Rust ecosystem.
+* [podcast] [Rusty Spike Podcast - episode 14](https://rusty-spike.blubrry.net/2018/01/11/episode-14-jan-10-2018/). #Rust2018 blogging, Rust 1.23, Rust 1.24, Diesel 1.0, cargo-bloat, Programming Rust O’Reilly book, mrustc, May, the final impl period, and the Rust year in review.
 
 ## #Rust2018
 
