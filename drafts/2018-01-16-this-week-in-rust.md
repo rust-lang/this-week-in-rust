@@ -26,6 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Debugging Rust programs with lldb on MacOS](https://bryce.fisher-fleig.org/blog/debugging-rust-programs-with-lldb/index.html).
 * [A year with Rust & game dev](http://druerridge.com/?p=536).
 * [This week in Rust docs 88](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-88).
+- [podcast] [New Rustacean: Interview – Diesel 1.0, with Sean Griffin, part 1](https://www.patreon.com/newrustacean), on growing Diesel's community, self-imposed technical challenges, and some of the ways Diesel has contributed to the Rust ecosystem.
 
 ## #Rust2018
 
@@ -33,7 +34,7 @@ Find all #Rust2018 posts at [Read Rust](http://readrust.net/rust2018/).
 
 # Crate of the Week
 
-This week's crate is [artifact](https://github.com/vitrial/artifact), a design documentation tool. Thanks to [musicmatze](https://users.rust-lang.org/u/musicmatze) for the suggestion!
+This week's crate is [cargo-bloat](https://github.com/RazrFalcon/cargo-bloat), a cargo subcommand to find out how much space crates/functions take up in an executable. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -60,25 +61,38 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-130 pull requests were [merged in the last week][merged]
+158 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-01-01..2018-01-08
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-01-08..2018-01-15
 
-* [delete the old docs, lift up the new](https://github.com/rust-lang/cargo/pull/4904)
-* [generate code for unused const- and inline-fns if -Clink-dead-code is specified](https://github.com/rust-lang/rust/pull/46916)
-* [allow non-alphabetic underscores in camel case](https://github.com/rust-lang/rust/pull/46907)
-* [NLL fixes](https://github.com/rust-lang/rust/pull/46984)
-* [only bump error count when we are sure that the diagnostic is not a repetition](https://github.com/rust-lang/rust/pull/47146)
-* [limit style lint to non-synthetic generic params](https://github.com/rust-lang/rust/pull/47132)
-* [try to improve LLVM pass ordering](https://github.com/rust-lang/rust/pull/46739)
-  and [the pass manager order](https://github.com/rust-lang/llvm/pull/101)
-* [use name-discarding LLVM context](https://github.com/rust-lang/rust/pull/47220)
-* [force appropriate extension when converting from int to ptr](https://github.com/rust-lang/rust/pull/47147)
-* [delay panic for aliasing violation for static items](https://github.com/rust-lang/rust/pull/47105)
-  and [from incoherent drop implementation](https://github.com/rust-lang/rust/pull/47104)
-* [add 'Span::parent()' and 'Span::source()' to proc_macro API](https://github.com/rust-lang/rust/pull/47099)
-* [`CStore` switch `FxHashMap` to `IndexVec`](https://github.com/rust-lang/rust/pull/46913)
-* [implement `TrustedRandomAccess` for `slice::`{`Chunks`, `ChunksMut`, `Windows`}](https://github.com/rust-lang/rust/pull/47142)
+* [add a "-Z offline" flag to Cargo, altering it's dependency resolution behavior](https://github.com/rust-lang/cargo/pull/4770)
+* [`auto trait Foo { .. }`](https://github.com/rust-lang/rust/pull/47416)
+* [fix std breakage with custom libdir](https://github.com/rust-lang/rust/pull/46592)
+* [syntax: rewrite parsing of impls](https://github.com/rust-lang/rust/pull/46455)
+* [add error code for unstable feature errors](https://github.com/rust-lang/rust/pull/47413)
+* [type error method suggestions use whitelisted identity-like conversions](https://github.com/rust-lang/rust/pull/46461)
+* [avoid panicking when invalid argument is passed to `cfg(..)`](https://github.com/rust-lang/rust/pull/47372)
+* [NLL: bad error message when converting anonymous lifetime to `'static`](https://github.com/rust-lang/rust/pull/47329)
+* [NLL: resolve type and region variables in "NLL dropck"](https://github.com/rust-lang/rust/pull/47322)
+* [treat `#[path]` files as mod.rs files](https://github.com/rust-lang/rust/pull/47298)
+* [shorten names of some compiler generated artifacts](https://github.com/rust-lang/rust/pull/47269)
+* [account for `pub` in `const` → `static` suggestion](https://github.com/rust-lang/rust/pull/47262)
+* [remove deprecated unstable attribute `#[simd]`](https://github.com/rust-lang/rust/pull/47251)
+* [rustc: tweak `#[target_feature]` syntax](https://github.com/rust-lang/rust/pull/47223)
+* [macros: improve 1.0/2.0 interaction](https://github.com/rust-lang/rust/pull/46551)
+* [make double ended searchers use dependent fingers](https://github.com/rust-lang/rust/pull/47208)
+* [add iterator method specialisations to `Range*`](https://github.com/rust-lang/rust/pull/47180)
+* [fix built-in indexing not being used where index type wasn't "obviously" `usize`](https://github.com/rust-lang/rust/pull/47167)
+* [add `slice::`{`ExactChunks`, `ExactChunksMut`} iterators](https://github.com/rust-lang/rust/pull/47126)
+* [better Debug impl for io::Error](https://github.com/rust-lang/rust/pull/47120)
+* [fix nested imports not included in the save_analysis output](https://github.com/rust-lang/rust/pull/47081)
+* [implement AsRef<Path> for Component](https://github.com/rust-lang/rust/pull/46985)
+* [`BufRead`: only flush the internal buffer if seeking outside of it](https://github.com/rust-lang/rust/pull/46832)
+* [pre-allocate in `fs::`{`read`, `read_string`}](https://github.com/rust-lang/rust/pull/47324)
+* [implement `Write` for `Cursor<&mut Vec<T>>`](https://github.com/rust-lang/rust/pull/46830)
+* [fix off-by-one error in `BufWriter`](https://github.com/rust-lang/rust/pull/47330)
+* [deprecate `[T]::rotate` in favor of `[T]::rotate_`{`left`, `right`}](https://github.com/rust-lang/rust/pull/46777)
+* [add `HashMap::remove_entry`](https://github.com/rust-lang/rust/pull/47259)
 
 ## New Contributors
 
