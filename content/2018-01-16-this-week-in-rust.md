@@ -92,7 +92,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [`BufRead`: only flush the internal buffer if seeking outside of it](https://github.com/rust-lang/rust/pull/46832)
 * [pre-allocate in `fs::`{`read`, `read_string`}](https://github.com/rust-lang/rust/pull/47324)
 * [implement `Write` for `Cursor<&mut Vec<T>>`](https://github.com/rust-lang/rust/pull/46830)
-* [fix off-by-one error in `BufWriter`](https://github.com/rust-lang/rust/pull/47330)
+* [fix off-by-one error in `BufWriter` documentation](https://github.com/rust-lang/rust/pull/47330)
 * [deprecate `[T]::rotate` in favor of `[T]::rotate_`{`left`, `right`}](https://github.com/rust-lang/rust/pull/46777)
 * [add `HashMap::remove_entry`](https://github.com/rust-lang/rust/pull/47259)
 
