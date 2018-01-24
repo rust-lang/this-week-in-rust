@@ -16,6 +16,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Welcome kodraus and withoutboats as full Libs Team members](https://internals.rust-lang.org/t/welcome-kodraus-and-withoutboats-as-full-libs-team-members/6582)!
+* [Rust by Example is now part of official Rust docs (nightly)](https://doc.rust-lang.org/nightly/rust-by-example/).
+* [Redox crash challenge](https://github.com/redox-os/redox/issues/1136).
+* [Retooling the Rust Libs Team team for 2018](https://aturon.github.io/blog/2018/01/16/libs-mission/).
+* [Introduction to lyon: 2D vector graphics rendering on the GPU in Rust](https://nical.github.io/posts/lyon-intro.html).
+* [Brave new I/O: A new approach to I/O in embedded contexts](http://blog.japaric.io/brave-new-io/).
+* [Oxidizing Source Maps with Rust and WebAssembly](https://hacks.mozilla.org/2018/01/oxidizing-source-maps-with-rust-and-webassembly/).
+* [Why is Rust difficult](https://vorner.github.io/difficult.html)?
+* [Using Capabilities to design safer, more expressive APIs](http://zsck.co/writing/capability-based-apis.html).
+* [State machines in a Rust game](https://dev.to/mindflavor/lets-build-zork-using-rust-1opm).
+* [Ref patterns, destructuring, and invisible borrows](https://medium.com/@robertgrosse/ref-patterns-destructuring-and-invisible-borrows-2f8ae6902656).
+* [This week in Rust docs 89](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-89).
+* [podcast] [The Changelog: Building a secure operating system with Rust](https://changelog.com/podcast/280).
+
 ## #Rust2018
 
 Find all #Rust2018 posts at [Read Rust](http://readrust.net/rust2018/).
@@ -35,13 +49,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [doc] [good first issue] [Help Rayon prepare for 1.0](https://users.rust-lang.org/t/rayon-1-0-on-feb-14/14950).
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
-* [Tera: Allow filters in math operations in 0.11](https://github.com/Keats/tera/issues/244). Tera is a template engine for Rust based on Jinja2/Django.
-* [good first issue] [Gutenberg: Make content::Section hold references](https://github.com/Keats/gutenberg/issues/205). Gutenberg is an opinionated static site generator with everything built-in.
-* [good first issue] [Aardwolf: Routing for web templates](https://github.com/BanjoFox/aardwolf/issues/69). Aardwolf is a platform for creating new social networks, connected across the web.
-* [good first issue] [miniz_oxide: Port CVE and other tests from zlib-ng](https://github.com/Frommi/miniz_oxide/issues/17). miniz_oxide is a Rust replacement for miniz deflate/zlib encoder/decoder.
-* [mdBook: Add not found page](https://github.com/rust-lang-nursery/mdBook/issues/539).
+* [Help Rayon prepare for 1.0](https://users.rust-lang.org/t/rayon-1-0-on-feb-14/14950).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -84,17 +93,16 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Alexander Regueiro
-* Alexis Hunt
-* Bulat Musin
-* Dan Robertson
-* Fenrir
-* Kagamihime
-* muvlon
-* Neil Shen
-* O01eg
-* ritiek
-* Ryan Cumming
+* Adam C. Foltzer
+* andjo403
+* Dominik Winecki
+* Gauri
+* Marcel Hellwig
+* Mark Mansi
+* Matthew Walinga
+* Petr Sumbera
+* Pieter Penninckx
+* Pulkit Goyal
 
 ## Approved RFCs
 
@@ -121,28 +129,36 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Benchmarking / cargo bench](https://github.com/rust-lang/rfcs/pull/2287).
-* [Associated type bounds of form `MyTrait<AssociatedType: Bounds>`](https://github.com/rust-lang/rfcs/pull/2289).
-* [Add `std::mem::zero`](https://github.com/rust-lang/rfcs/pull/2291).
-* [Allow `if let` guards in `match` expressions](https://github.com/rust-lang/rfcs/pull/2294).
+* [`Self` in type definitions allowing `enum List<T> { Nil, Cons(T, Box<Self>) }`](https://github.com/rust-lang/rfcs/pull/2300).
+* [`?` repetition in macro rules](https://github.com/rust-lang/rfcs/pull/2298).
+* [Tuple struct construction with `Self(v1, v2, ..)`](https://github.com/rust-lang/rfcs/pull/2302).
+* [Add `Option::replace` to the core library](https://github.com/rust-lang/rfcs/pull/2296).
+* [Add `pub fn identity<T>(x: T) -> T { x }` to core::convert](https://github.com/rust-lang/rfcs/pull/2306).
+* [Introduce panic_thin, a fmtless alternative to panic_fmt](https://github.com/rust-lang/rfcs/pull/2305).
+* [Implement parent items with child traits](https://github.com/rust-lang/rfcs/pull/2303).
+* [Add std::num::NonZeroU32 and friends, deprecate core::nonzero](https://github.com/rust-lang/rfcs/pull/2307).
+* [Inherent traits](https://github.com/rust-lang/rfcs/pull/2309).
+* [Extend pattern API to OsStr](https://github.com/rust-lang/rfcs/pull/2295).
+* [Make the `as` keyword consider `Into` Trait implementations](https://github.com/rust-lang/rfcs/pull/2308).
 
 # Upcoming Events
 
-* [Jan 18. Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/245934654/).
-* [Jan 18. Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/mgtcwnyxcbxb/).
-* [Jan 20. Rust Bangalore - Rust for newbies (part 1 of 12)](https://www.meetup.com/rustox/events/246863039/).
-* [Jan 22. Durham, NC - Triangle Rustaceans - Rust 101](https://www.meetup.com/triangle-rustaceans/events/kkjnpnyxcbdc/).
-* [Jan 22. Lyon, France - TupperRust (registration required)](https://framaforms.org/inscription-obligatoire-tupperrust-de-janvier-2018-a-lens-lyon-1515789658).
-* [Jan 23. A deep dive into Rust @ Facebook Developer Circle Ruhr](https://www.meetup.com/Facebook-Developer-Circle-Ruhr/events/246462601/).
-* [Jan 23. Boston Rust - January Meetup at Amazon](https://www.meetup.com/BostonRust/events/246571213/).
-* [Jan 24. Milano - Overload di funzioni in Rust - Come ho imparato a vivere felicemente senza](https://www.meetup.com/rust-language-milano/events/246439486/).
-* [Jan 24. Rust NYC - Traits](https://www.meetup.com/Rust-NYC/events/246695372/).
-* [Jan 24. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Jan 24. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Jan 25. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Jan 29. Rust London User Group - LDN Talks: January 2018](https://www.meetup.com/Rust-London-User-Group/events/246637221/).
+* [Jan 30. Rust Zurich - Embedded Rust](https://www.meetup.com/Rust-Zurich/events/246675630/).
+* [Jan 30. Mexico City - Rust MX - Rust Meetup #9](https://www.meetup.com/Rust-MX/events/246913439/).
 * [Jan 31. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Jan 31. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Feb  2 - Feb 4. Multiple locations - Rust Roadshow Brazil 2018](https://mozillabr.org/2017/12/anunciando-o-rust-roadshow-brasil-2018-para-mobilizadores-de-todo-o-brasil/).
+* [Feb  6. Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/).
+* [Feb  7. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Feb  7. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Feb  7. Indianapolis - Indy.rs - February 2018](https://www.meetup.com/indyrs/events/246726699/).
+* [Feb  7. Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/rhvgrmyxdbkb/).
+* [Feb  8. Helsinki - Finland Rust-lang Group](https://www.meetup.com/Finland-Rust-Meetup/events/246866694/).
+* [Feb  8. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/czcwhlyxdblb/).
+* [Feb  8. San Diego Rust February Meetup](https://www.meetup.com/San-Diego-Rust/events/246906809/).
+* [Feb  8. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -156,11 +172,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Anything that will make wasm nicer will be awesome, but honestly, I’m thrilled with what we’ve got. It feels absolutely insane that I can just compile this language that’s basically the opposite of JavaScript and it’s running in the browser.
+> Rust is difficult because most programmers abuse shared mutable state and Rust makes you sacrifice your first-born to be able to to do it.
 
-— [Tomas Sedovic in a #Rust2018 post](https://aimlesslygoingforward.com/blog/2018/01/10/rust-2018/).
+— [u/_errata_ on reddit](https://www.reddit.com/r/rust/comments/7rza1q/why_is_rust_difficult/dt11dqx/).
 
-Thanks to [ErichDonGubler and CAD97 for the suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/482)!
+Thanks to [u/kixunil for the suggestion](https://www.reddit.com/r/rust/comments/7rza1q/why_is_rust_difficult/dt22fol/)!
 
 [Submit your quotes for next week][submit]!
 
