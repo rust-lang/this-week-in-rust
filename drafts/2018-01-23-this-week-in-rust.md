@@ -22,7 +22,7 @@ Find all #Rust2018 posts at [Read Rust](http://readrust.net/rust2018/).
 
 # Crate of the Week
 
-This week's crate is [cargo-bloat](https://github.com/RazrFalcon/cargo-bloat), a cargo subcommand to find out how much space crates/functions take up in an executable. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion!
+This week's crate is [actix-web](https://github.com/actix/actix-web), a small fast pragmatic open-source Rust web framework. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -49,38 +49,27 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-158 pull requests were [merged in the last week][merged]
+144 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-01-08..2018-01-15
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-01-15..2018-01-22
 
-* [add a "-Z offline" flag to Cargo, altering it's dependency resolution behavior](https://github.com/rust-lang/cargo/pull/4770)
-* [`auto trait Foo { .. }`](https://github.com/rust-lang/rust/pull/47416)
-* [fix std breakage with custom libdir](https://github.com/rust-lang/rust/pull/46592)
-* [syntax: rewrite parsing of impls](https://github.com/rust-lang/rust/pull/46455)
-* [add error code for unstable feature errors](https://github.com/rust-lang/rust/pull/47413)
-* [type error method suggestions use whitelisted identity-like conversions](https://github.com/rust-lang/rust/pull/46461)
-* [avoid panicking when invalid argument is passed to `cfg(..)`](https://github.com/rust-lang/rust/pull/47372)
-* [NLL: bad error message when converting anonymous lifetime to `'static`](https://github.com/rust-lang/rust/pull/47329)
-* [NLL: resolve type and region variables in "NLL dropck"](https://github.com/rust-lang/rust/pull/47322)
-* [treat `#[path]` files as mod.rs files](https://github.com/rust-lang/rust/pull/47298)
-* [shorten names of some compiler generated artifacts](https://github.com/rust-lang/rust/pull/47269)
-* [account for `pub` in `const` → `static` suggestion](https://github.com/rust-lang/rust/pull/47262)
-* [remove deprecated unstable attribute `#[simd]`](https://github.com/rust-lang/rust/pull/47251)
-* [rustc: tweak `#[target_feature]` syntax](https://github.com/rust-lang/rust/pull/47223)
-* [macros: improve 1.0/2.0 interaction](https://github.com/rust-lang/rust/pull/46551)
-* [make double ended searchers use dependent fingers](https://github.com/rust-lang/rust/pull/47208)
-* [add iterator method specialisations to `Range*`](https://github.com/rust-lang/rust/pull/47180)
-* [fix built-in indexing not being used where index type wasn't "obviously" `usize`](https://github.com/rust-lang/rust/pull/47167)
-* [add `slice::`{`ExactChunks`, `ExactChunksMut`} iterators](https://github.com/rust-lang/rust/pull/47126)
-* [better Debug impl for io::Error](https://github.com/rust-lang/rust/pull/47120)
-* [fix nested imports not included in the save_analysis output](https://github.com/rust-lang/rust/pull/47081)
-* [implement AsRef<Path> for Component](https://github.com/rust-lang/rust/pull/46985)
-* [`BufRead`: only flush the internal buffer if seeking outside of it](https://github.com/rust-lang/rust/pull/46832)
-* [pre-allocate in `fs::`{`read`, `read_string`}](https://github.com/rust-lang/rust/pull/47324)
-* [implement `Write` for `Cursor<&mut Vec<T>>`](https://github.com/rust-lang/rust/pull/46830)
-* [fix off-by-one error in `BufWriter`](https://github.com/rust-lang/rust/pull/47330)
-* [deprecate `[T]::rotate` in favor of `[T]::rotate_`{`left`, `right`}](https://github.com/rust-lang/rust/pull/46777)
-* [add `HashMap::remove_entry`](https://github.com/rust-lang/rust/pull/47259)
+* [implement repr(transparent)](https://github.com/rust-lang/rust/pull/47158)
+* [compute LLVM argument indices correctly in face of padding](https://github.com/rust-lang/rust/pull/47401)
+* [whitelist x86 fxsr feature](https://github.com/rust-lang/rust/pull/47514)
+* [rustc_trans: reorganize CrateContext and rename context types](https://github.com/rust-lang/rust/pull/47209)
+* [remove noop landing pads in cleanup shims](https://github.com/rust-lang/rust/pull/47467)
+* [custom error when moving arg outside of its closure](https://github.com/rust-lang/rust/pull/47144)
+* [tweaks to invalid ctor messages](https://github.com/rust-lang/rust/pull/47116)
+* [rename std::ptr::Shared to NonNull and stabilize it](https://github.com/rust-lang/rust/pull/46952)
+* [point at unused arguments for format string](https://github.com/rust-lang/rust/pull/47481)
+* [do not suggest to make `mut` binding external to `Fn` closure](https://github.com/rust-lang/rust/pull/47468)
+* [add transpose conversions for nested Option and Result](https://github.com/rust-lang/rust/pull/47193)
+* [deprecate std::net::lookup_host](https://github.com/rust-lang/rust/pull/47510)
+* [optimize `slice::`{`position`, `rposition`} result bounds check](https://github.com/rust-lang/rust/pull/47333)
+* [implement "only-<platforms>" for test headers](https://github.com/rust-lang/rust/pull/47487)
+* [cargo: allow packaging of crates with unstable features](https://github.com/rust-lang/cargo/pull/4955)
+* [rustdoc: switch to pulldown as default markdown renderer](https://github.com/rust-lang/rust/pull/47398)
+* [rust-installer: Stream the parallel xz/gz tarball generation](https://github.com/rust-lang/rust-installer/pull/76)
 
 ## New Contributors
 
