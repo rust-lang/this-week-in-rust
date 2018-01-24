@@ -17,19 +17,21 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Welcome kodraus and withoutboats as full Libs Team members](https://internals.rust-lang.org/t/welcome-kodraus-and-withoutboats-as-full-libs-team-members/6582)!
+* [Retooling the Rust Libs Team team for 2018](https://aturon.github.io/blog/2018/01/16/libs-mission/).
 * [Rust by Example is now part of official Rust docs (nightly)](https://doc.rust-lang.org/nightly/rust-by-example/).
 * [Redox crash challenge](https://github.com/redox-os/redox/issues/1136).
-* [Retooling the Rust Libs Team team for 2018](https://aturon.github.io/blog/2018/01/16/libs-mission/).
 * [Introduction to lyon: 2D vector graphics rendering on the GPU in Rust](https://nical.github.io/posts/lyon-intro.html).
 * [Brave new I/O: A new approach to I/O in embedded contexts](http://blog.japaric.io/brave-new-io/).
 * [Oxidizing Source Maps with Rust and WebAssembly](https://hacks.mozilla.org/2018/01/oxidizing-source-maps-with-rust-and-webassembly/).
-* [Why is Rust difficult](https://vorner.github.io/difficult.html)?
 * [Using Capabilities to design safer, more expressive APIs](http://zsck.co/writing/capability-based-apis.html).
 * [State machines in a Rust game](https://dev.to/mindflavor/lets-build-zork-using-rust-1opm).
 * [Ref patterns, destructuring, and invisible borrows](https://medium.com/@robertgrosse/ref-patterns-destructuring-and-invisible-borrows-2f8ae6902656).
 * [WebRender capture infrastructure](https://kvark.github.io/webrender/debug/ron/2018/01/23/wr-capture-infra.html).
+* [Why is Rust difficult](https://vorner.github.io/difficult.html)?
 * [This week in Rust docs 89](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-89).
 * [podcast] [The Changelog: Building a secure operating system with Rust](https://changelog.com/podcast/280).
+* [podcast] [New Rustacean: Interview – Diesel 1.0, with Sean Griffin, part 2](http://www.newrustacean.com/show_notes/interview/diesel_1_0/part_2/). Getting Diesel to 1.0, writing docs and exposing problems with the API, improving Diesel in the future, and thinking about API design for open source libraries in general.
+* [podcast] [Rusty Spike Podcast - episode 15](https://rusty-spike.blubrry.net/2018/01/18/episode-15-jan-17-2018/). Atom, Programming Rust, more books, Rust governance, http2 support, #rust2018 and more.
 
 ## #Rust2018
 
