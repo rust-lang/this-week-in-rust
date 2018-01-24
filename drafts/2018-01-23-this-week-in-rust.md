@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [WebRender capture infrastructure](https://kvark.github.io/webrender/debug/ron/2018/01/23/wr-capture-infra.html).
+
 ## #Rust2018
 
 Find all #Rust2018 posts at [Read Rust](http://readrust.net/rust2018/).
