@@ -22,7 +22,7 @@ Find all #Rust2018 posts at [Read Rust](http://readrust.net/rust2018/).
 
 # Crate of the Week
 
-This week's crate is [actix-web](https://github.com/actix/actix-web), a small fast pragmatic open-source Rust web framework. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion!
+This week's crate is [rust-semverver](https://github.com/rust-lang-nursery/rust-semverver), an as-of-yet buggy, but already useful semantic versioning (semver) checking tool. Thanks to [Philipp Hansch](https://users.rust-lang.org/u/phansch) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -44,27 +44,42 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-144 pull requests were [merged in the last week][merged]
+135 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-01-15..2018-01-22
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-01-22..2018-01-29
 
-* [implement repr(transparent)](https://github.com/rust-lang/rust/pull/47158)
-* [compute LLVM argument indices correctly in face of padding](https://github.com/rust-lang/rust/pull/47401)
-* [whitelist x86 fxsr feature](https://github.com/rust-lang/rust/pull/47514)
-* [rustc_trans: reorganize CrateContext and rename context types](https://github.com/rust-lang/rust/pull/47209)
-* [remove noop landing pads in cleanup shims](https://github.com/rust-lang/rust/pull/47467)
-* [custom error when moving arg outside of its closure](https://github.com/rust-lang/rust/pull/47144)
-* [tweaks to invalid ctor messages](https://github.com/rust-lang/rust/pull/47116)
-* [rename std::ptr::Shared to NonNull and stabilize it](https://github.com/rust-lang/rust/pull/46952)
-* [point at unused arguments for format string](https://github.com/rust-lang/rust/pull/47481)
-* [do not suggest to make `mut` binding external to `Fn` closure](https://github.com/rust-lang/rust/pull/47468)
-* [add transpose conversions for nested Option and Result](https://github.com/rust-lang/rust/pull/47193)
-* [deprecate std::net::lookup_host](https://github.com/rust-lang/rust/pull/47510)
-* [optimize `slice::`{`position`, `rposition`} result bounds check](https://github.com/rust-lang/rust/pull/47333)
-* [implement "only-<platforms>" for test headers](https://github.com/rust-lang/rust/pull/47487)
-* [cargo: allow packaging of crates with unstable features](https://github.com/rust-lang/cargo/pull/4955)
-* [rustdoc: switch to pulldown as default markdown renderer](https://github.com/rust-lang/rust/pull/47398)
-* [rust-installer: Stream the parallel xz/gz tarball generation](https://github.com/rust-lang/rust-installer/pull/76)
+* [stabilized `#[repr(align(x))]` attribute](https://github.com/rust-lang/rust/pull/47006) (RFC [#1358](https://rust-lang.github.io/rfcs/1358-repr-align))
+* [implement intra-rustdoc links](https://github.com/rust-lang/rust/pull/47046) (RFC [#1946](https://rust-lang.github.io/rfcs/1946-intra-rustdoc-links))
+* [fix type inhabitedness check for arrays](https://github.com/rust-lang/rust/pull/47600)
+* [fix ICE on const eval of union field](https://github.com/rust-lang/rust/pull/47794)
+* [fix ICE when return type includes unconstrained anon region](https://github.com/rust-lang/rust/pull/47668)
+* [fix ICE when use trees have multiple empty nested groups](https://github.com/rust-lang/rust/pull/47705)
+* [fix ICE with `use self;`](https://github.com/rust-lang/rust/pull/47633)
+* [fix never-type rvalue ICE](https://github.com/rust-lang/rust/pull/47746)
+* [track recursion limit when expanding existential impl trait](https://github.com/rust-lang/rust/pull/47529)
+* [rustc: SIMD types use pointers in Rust's ABI](https://github.com/rust-lang/rust/pull/47743)
+* [add CGU size heuristic for partitioning](https://github.com/rust-lang/rust/pull/47415)
+* [first round of LLVM 6.0.0 compatibility](https://github.com/rust-lang/rust/pull/47710)
+* [let LLVM 5 add DW_OP_deref to indirect args itself](https://github.com/rust-lang/rust/pull/47688)
+* [LLVM5: update DW_OP_plus to DW_OP_plus_uconst](https://github.com/rust-lang/rust/pull/47610)
+* [rustc: load the `rustc_trans` crate at runtime](https://github.com/rust-lang/rust/pull/47671)
+* [rustc: add `-C lto=`{`thin`, `fat`} option](https://github.com/rust-lang/rust/pull/47521)
+* [properly pass down immutability info for thread-locals](https://github.com/rust-lang/rust/pull/47425)
+* [simplify irrefutable slice patterns](https://github.com/rust-lang/rust/pull/47374)
+* [make use of the implemented red/green algorithm for variance](https://github.com/rust-lang/rust/pull/47696)
+* [do not capture stderr in the compiler. Instead just panic silently for fatal errors](https://github.com/rust-lang/rust/pull/47634)
+* [fix spans in unused import lint for nested groups](https://github.com/rust-lang/rust/pull/47726)
+* [add `-Z teach` flag to provide extended diagnostic help](https://github.com/rust-lang/rust/pull/47652)
+* [on missing method do not suggest private traits](https://github.com/rust-lang/rust/pull/47534)
+* [immovable generators](https://github.com/rust-lang/rust/pull/45337)
+* [NLL test for mutating &mut references](https://github.com/rust-lang/rust/pull/47609)
+* [make the constructors of Duration const fns](https://github.com/rust-lang/rust/pull/47300)
+* [make core::ops::Place an unsafe trait](https://github.com/rust-lang/rust/pull/47299)
+* [make UnsafeCell::into_inner safe](https://github.com/rust-lang/rust/pull/47204)
+* [expose float `from_bits` and `to_bits` in libcore](https://github.com/rust-lang/rust/pull/46931)
+* [use the slice length to hint the optimizer about iter.position result](https://github.com/rust-lang/rust/pull/47772)
+* [add rustc-args option to test runner](https://github.com/rust-lang/rust/pull/47558)
+* [rustdoc: show when traits are auto traits](https://github.com/rust-lang/rust/pull/47672)
 
 ## New Contributors
 
@@ -134,6 +149,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Feb  8. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/czcwhlyxdblb/).
 * [Feb  8. San Diego Rust February Meetup](https://www.meetup.com/San-Diego-Rust/events/246906809/).
 * [Feb  8. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
+* [Feb  9. Rust Table of Regulars Darmstadt / Germany](https://www.meetup.com/de-DE/Rust-Rhein-Main/events/246744631)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
