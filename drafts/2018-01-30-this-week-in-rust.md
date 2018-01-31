@@ -16,6 +16,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Async/Await I: Self-referential structs](https://boats.gitlab.io/blog/post/2018-01-25-async-i-self-referential-structs/).
+* [Seamless Rust integration into JavaScript with Parcel](https://medium.com/@devongovett/parcel-v1-5-0-released-source-maps-webassembly-rust-and-more-3a6385e43b95).
+* [Rust lifetimes for the uninitialised](http://asquera.de/blog/2018-01-29/rust-lifetimes-for-the-uninitialised/).
+* [Unfolding a Stream of paginated items](http://xion.io/post/code/rust-unfold-pagination.html). How to use the `Stream` interface and functions from futures crate.
+* [Maybe it's time for a crates team](https://beyermatthias.de/blog/2018/01/31/maybe-its-time-for-a-crates-team/).
+* [This week in Rust docs 90](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-90).
+* [podcast] [Rusty Spike Podcast - episode 16](https://rusty-spike.blubrry.net/2018/01/25/episode-16-jan-24-2018/). Parcel, Mozilla, Lyon, a Redox interview and hackfest, Mercurial, and HackerRank.
+
 ## #Rust2018
 
 Find all #Rust2018 posts at [Read Rust](http://readrust.net/rust2018/).
@@ -83,16 +91,8 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Adam C. Foltzer
-* andjo403
-* Dominik Winecki
-* Gauri
-* Marcel Hellwig
-* Mark Mansi
-* Matthew Walinga
-* Petr Sumbera
-* Pieter Penninckx
-* Pulkit Goyal
+* evelynmitchell
+* Gilad Naaman
 
 ## Approved RFCs
 
@@ -100,7 +100,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2091: Implicit caller location](https://github.com/rust-lang/rfcs/pull/2091).
 
 ## Final Comment Period
 
@@ -110,36 +110,26 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
+* [disposition: merge] [impl-only-use](https://github.com/rust-lang/rfcs/pull/2166). The `use …::{… as …}` syntax can now accept `_` as alias to a trait to only import the implementations of such a trait.
+* [disposition: merge] [or-patterns in if / while let expressions](https://github.com/rust-lang/rfcs/pull/2175).
 * [disposition: merge] [Finalize syntax of `impl Trait` and `dyn Trait` with multiple bounds](https://github.com/rust-lang/rfcs/pull/2250).
 * [disposition: merge] [Fallible collection allocation 1.0](https://github.com/rust-lang/rfcs/pull/2116).
-* [disposition: merge] [Implicit caller location (third try to the unwrap/expect line info problem)](https://github.com/rust-lang/rfcs/pull/2091).
 * [disposition: merge] [Unsized rvalues](https://github.com/rust-lang/rfcs/pull/1909).
 * [disposition: merge] [eRFC: Cargo build system integration](https://github.com/rust-lang/rfcs/pull/2136).
 * [disposition: merge] [Type privacy and private-in-public lints](https://github.com/rust-lang/rfcs/pull/2145).
 
 ## New RFCs
 
-* [`Self` in type definitions allowing `enum List<T> { Nil, Cons(T, Box<Self>) }`](https://github.com/rust-lang/rfcs/pull/2300).
-* [`?` repetition in macro rules](https://github.com/rust-lang/rfcs/pull/2298).
-* [Tuple struct construction with `Self(v1, v2, ..)`](https://github.com/rust-lang/rfcs/pull/2302).
-* [Add `Option::replace` to the core library](https://github.com/rust-lang/rfcs/pull/2296).
-* [Add `pub fn identity<T>(x: T) -> T { x }` to core::convert](https://github.com/rust-lang/rfcs/pull/2306).
-* [Introduce panic_thin, a fmtless alternative to panic_fmt](https://github.com/rust-lang/rfcs/pull/2305).
-* [Implement parent items with child traits](https://github.com/rust-lang/rfcs/pull/2303).
-* [Add std::num::NonZeroU32 and friends, deprecate core::nonzero](https://github.com/rust-lang/rfcs/pull/2307).
-* [Inherent traits](https://github.com/rust-lang/rfcs/pull/2309).
-* [Extend pattern API to OsStr](https://github.com/rust-lang/rfcs/pull/2295).
-* [Make the `as` keyword consider `Into` Trait implementations](https://github.com/rust-lang/rfcs/pull/2308).
+* [Rust 2018 Roadmap](https://github.com/rust-lang/rfcs/pull/2314).
+* [Tighter coupling of Cargo workspaces](https://github.com/rust-lang/rfcs/pull/2315).
+* [DynSized without ?DynSized — Lint against use of `extern type` in `size_of_val`, and more](https://github.com/rust-lang/rfcs/pull/2310).
+* [Overconstraining and omitting `unsafe` in impls of `unsafe` trait methods](https://github.com/rust-lang/rfcs/pull/2316).
 
 # Upcoming Events
 
-* [Jan 25. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Jan 29. Rust London User Group - LDN Talks: January 2018](https://www.meetup.com/Rust-London-User-Group/events/246637221/).
-* [Jan 30. Rust Zurich - Embedded Rust](https://www.meetup.com/Rust-Zurich/events/246675630/).
-* [Jan 30. Mexico City - Rust MX - Rust Meetup #9](https://www.meetup.com/Rust-MX/events/246913439/).
-* [Jan 31. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Jan 31. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Feb  2 - Feb 4. Multiple locations - Rust Roadshow Brazil 2018](https://mozillabr.org/2017/12/anunciando-o-rust-roadshow-brasil-2018-para-mobilizadores-de-todo-o-brasil/).
+* [Feb  3 - Feb 4. Brussels - FOSDEM Rust Devroom](https://fosdem.org/2018/schedule/track/rust/)
+* [Feb  4. Rust Bangalore - Rust for newbies (Part 2 of 12)](https://www.meetup.com/rustox/events/247201900/).
 * [Feb  6. Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/).
 * [Feb  7. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Feb  7. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
@@ -149,7 +139,14 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Feb  8. Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/czcwhlyxdblb/).
 * [Feb  8. San Diego Rust February Meetup](https://www.meetup.com/San-Diego-Rust/events/246906809/).
 * [Feb  8. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
-* [Feb  9. Rust Table of Regulars Darmstadt / Germany](https://www.meetup.com/de-DE/Rust-Rhein-Main/events/246744631)
+* [Feb  9. Rust Table of Regulars Darmstadt / Germany](https://www.meetup.com/Rust-Rhein-Main/events/246744631)
+* [Feb 10. Mangalore, India - RUSTCON2k18](https://www.rustcon2k18.in/).
+* [Feb 12. Rust London User Group - LDN Talks: February 2018](https://www.meetup.com/Rust-London-User-Group/events/246860921/).
+* [Feb 12. Rust Amsterdam - Perl FFI && Long-term reliability in Rust projects](https://www.meetup.com/Rust-Amsterdam/events/247120013/).
+* [Feb 12. Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/hztzcpyxdbqb/).
+* [Feb 14. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Feb 14. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Feb 15. Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/mgtcwnyxdbtb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -159,15 +156,18 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-*No jobs listed for this week.*
+* [Rust Engineer at MaidSafe](https://maidsafe.net/careers.html#rust_engineer).
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> Rust is difficult because most programmers abuse shared mutable state and Rust makes you sacrifice your first-born to be able to to do it.
+> Failure is not an OPTION<T>.
+> It’s a Result<T, E>.
 
-— [u/_errata_ on reddit](https://www.reddit.com/r/rust/comments/7rza1q/why_is_rust_difficult/dt11dqx/).
+— [llogiq on Twitter](https://twitter.com/llogiq/status/956051804374134785).
 
-Thanks to [u/kixunil for the suggestion](https://www.reddit.com/r/rust/comments/7rza1q/why_is_rust_difficult/dt22fol/)!
+Thanks to [nasa42](https://users.rust-lang.org/t/twir-quote-of-the-week/328/484)!
 
 [Submit your quotes for next week][submit]!
 
