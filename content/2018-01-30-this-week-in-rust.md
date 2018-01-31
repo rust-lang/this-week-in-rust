@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Seamless Rust integration into JavaScript with Parcel](https://medium.com/@devongovett/parcel-v1-5-0-released-source-maps-webassembly-rust-and-more-3a6385e43b95).
 * [Rust lifetimes for the uninitialised](http://asquera.de/blog/2018-01-29/rust-lifetimes-for-the-uninitialised/).
 * [Unfolding a Stream of paginated items](http://xion.io/post/code/rust-unfold-pagination.html). How to use the `Stream` interface and functions from futures crate.
-* [Maybe it's time for a crates team](https://beyermatthias.de/blog/2018/01/31/maybe-its-time-for-a-crates-team/).
+* [opinion] [Maybe it's time for a crates team](https://beyermatthias.de/blog/2018/01/31/maybe-its-time-for-a-crates-team/).
 * [This week in Rust docs 90](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-90).
 * [podcast] [Rusty Spike Podcast - episode 16](https://rusty-spike.blubrry.net/2018/01/25/episode-16-jan-24-2018/). Parcel, Mozilla, Lyon, a Redox interview and hackfest, Mercurial, and HackerRank.
 
@@ -120,7 +120,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [Rust 2018 Roadmap](https://github.com/rust-lang/rfcs/pull/2314).
+* [Rust 2018 roadmap](https://github.com/rust-lang/rfcs/pull/2314).
 * [Tighter coupling of Cargo workspaces](https://github.com/rust-lang/rfcs/pull/2315).
 * [DynSized without ?DynSized — Lint against use of `extern type` in `size_of_val`, and more](https://github.com/rust-lang/rfcs/pull/2310).
 * [Overconstraining and omitting `unsafe` in impls of `unsafe` trait methods](https://github.com/rust-lang/rfcs/pull/2316).
@@ -162,8 +162,8 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Failure is not an OPTION<T>.
-> It’s a Result<T, E>.
+> Failure is not an OPTION<T\>.
+> It’s a Result<T, E\>.
 
 — [llogiq on Twitter](https://twitter.com/llogiq/status/956051804374134785).
 
