@@ -159,7 +159,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 — [llogiq on Twitter](https://twitter.com/llogiq/status/956051804374134785).
 
-Thanks to [nasa42](https://users.rust-lang.org/t/twir-quote-of-the-week/328/484)!
+Thanks to [nasa42 for the suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/484)!
 
 [Submit your quotes for next week][submit]!
 
