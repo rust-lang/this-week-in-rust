@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [podcast] [New Rustacean: e022 – `Send` and `Sync`: The “marker” traits Rust uses for safe concurrency](http://www.newrustacean.com/show_notes/e022/)
+
 ## #Rust2018
 
 Find all #Rust2018 posts at [Read Rust](http://readrust.net/rust2018/).
