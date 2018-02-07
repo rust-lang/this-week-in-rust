@@ -23,7 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [In Rust, ordinary vectors are values](http://smallcultfollowing.com/babysteps/blog/2018/02/01/in-rust-ordinary-vectors-are-values/).
 * [Make your own make (build system)](https://matklad.github.io/2018/01/03/make-your-own-make.html).
 * [Introduction to procedural macros](https://tinkering.xyz/posts/introduction-to-proc-macros/).
-* [Sharing for a Lifetime](https://www.ralfj.de/blog/2018/01/31/sharing-for-a-lifetime.html).
+* [Sharing for a Lifetime](https://www.ralfj.de/blog/2018/01/31/sharing-for-a-lifetime.html). Some thoughts on how interior mutability fundamentally affects how we have to think about shared references, and how that relates to the private invariants maintained by a type.
 * [Writing a command-line program in Rust](https://people.gnome.org/~federico/blog/writing-a-command-line-program-in-rust.html).
 * [Writing eBPF tracing tools in Rust](https://jvns.ca/blog/2018/02/05/rust-bcc/).
 * [Compiling to eBPF from Rust](https://unhandledexpression.com/2018/02/02/poc-compiling-to-ebpf-from-rust/).
