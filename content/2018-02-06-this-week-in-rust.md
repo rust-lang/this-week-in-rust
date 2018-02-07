@@ -30,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [These weeks in dev-tools 3](https://www.ncameron.org/blog/these-weeks-in-dev-tools-issue-3/).
 * [This week in Rust docs 91](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-91).
 * [podcast] [New Rustacean: e022 – `Send` and `Sync`: The “marker” traits Rust uses for safe concurrency](http://www.newrustacean.com/show_notes/e022/)
+* [podcast] [Rusty Spike Podcast - episode 17](https://rusty-spike.blubrry.net/2018/02/01/episode-17-jan-31-2018/). Awards, 2018 roadmap RFC, 2018 conferences, and KubOS.
 
 # Crate of the Week
 
@@ -178,6 +179,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 # Quote of the Week
 
 > > Rust has a very high friction coefficient.
+>
 > We call it grip and it lets us drive fearlessly around hard corners very fast.
 
 — [u/asmx85 on reddit](https://www.reddit.com/r/programming/comments/7ugm8e/c2_c_with_cleaner_syntax_a_module_system_no/dtkde2s/).
