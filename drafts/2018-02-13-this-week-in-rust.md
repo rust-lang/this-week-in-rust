@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [datafusion](https://www.datafusion.rs), a query planner/execution framework for Big Data processing. Thanks to [andygrove](https://users.rust-lang.org/u/andygrove) for the suggestion!
+This week sadly had to go without a crate for lack of votes.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -41,36 +41,34 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-115 pull requests were [merged in the last week][merged]
+117 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-01-29..2018-02-05
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-02-05..2018-02-12
 
-* [syntax: lower priority of `+` in `impl Trait`/`dyn Trait`](https://github.com/rust-lang/rust/pull/45294)
-* [improve char escaping in lexer messages](https://github.com/rust-lang/rust/pull/47914)
-* [stabilize `feature(match_beginning_vert)`](https://github.com/rust-lang/rust/pull/47947)
-* [add a `-Z no-index-update` for crater and benchmarking](https://github.com/rust-lang/cargo/pull/4990)
-* [fix ICE when reading non-UTF-8 input from stdin](https://github.com/rust-lang/rust/pull/47895)
-* [use a range to identify SIGSEGV in stack guards](https://github.com/rust-lang/rust/pull/47912)
-* [fix overflow when performing drop check calculations in NLL](https://github.com/rust-lang/rust/pull/47920)
-* [fix ref-to-ptr coercions not working with NLL in certain cases](https://github.com/rust-lang/rust/pull/47873)
-* [fix ICE when assigning references to a static mut with NLL](https://github.com/rust-lang/rust/pull/47898)
-* [make region inference use a dirty list](https://github.com/rust-lang/rust/pull/47766)
-* [add approximate suggestions for rustfix](https://github.com/rust-lang/rust/pull/47540)
-* [add line numbers and columns to error messages spanning multiple files](https://github.com/rust-lang/rust/pull/47780)
-* [don't lint unnecessary parens in function or method arguments inside of nested macros](https://github.com/rust-lang/rust/pull/47896)
-* [avoid underflow in render_source_line](https://github.com/rust-lang/rust/pull/47677)
-* [minimize weird spans involving macro context](https://github.com/rust-lang/rust/pull/47942)
-* [tweak presentation on lifetime trait mismatch](https://github.com/rust-lang/rust/pull/47791)
-* [suggest removing value from `break` when invalid](https://github.com/rust-lang/rust/pull/47829)
-* [fix regression: account for trait methods in arg count mismatch error](https://github.com/rust-lang/rust/pull/47844)
-* [cleanup the shim code](https://github.com/rust-lang/rust/pull/47865)
-* [implement `Send` for `process::Command` on Unix](https://github.com/rust-lang/rust/pull/47760)
-* [specialize `StepBy::nth`](https://github.com/rust-lang/rust/pull/47552)
-* [move `Duration` to libcore](https://github.com/rust-lang/rust/pull/46666)
-* [rustbuild: per-stage `RUSTFLAGS`](https://github.com/rust-lang/rust/pull/47836)
-* [cargo: allow configuration of LTO in `[profile]`](https://github.com/rust-lang/cargo/pull/4984)
-* [rustdoc: fix const evaluation ICE](https://github.com/rust-lang/rust/pull/47862)
-* [rustdoc: fix link title rendering with hoedown](https://github.com/rust-lang/rust/pull/47855)
+* epochs: [rustc](https://github.com/rust-lang/rust/pull/48014) and [cargo](https://github.com/rust-lang/cargo/pull/5011) (RFC [#2052](https://rust-lang.github.io/rfcs/2052-epochs.html))
+* [rustc: upgrade to LLVM 6](https://github.com/rust-lang/rust/pull/47828)
+* [customizable extended tools](https://github.com/rust-lang/rust/pull/48015)
+* [fix ICE for mismatched args on target without span](https://github.com/rust-lang/rust/pull/48047)
+* [proc_macro: don't panic parsing `..=`](https://github.com/rust-lang/rust/pull/48036)
+* [implement `?` macro repetition](https://github.com/rust-lang/rust/pull/47752)
+* [warn about more ignored bounds in type aliases](https://github.com/rust-lang/rust/pull/48020)
+* [do not ignore lifetime bounds in Copy impls](https://github.com/rust-lang/rust/pull/47877)
+* [add filtering options to `rustc_on_unimplemented`](https://github.com/rust-lang/rust/pull/47613)
+* [rustc: Add `#[rustc_args_required_const]`](https://github.com/rust-lang/rust/pull/48018)
+* [rustc_mir: insert a dummy access to places being matched on, when building MIR](https://github.com/rust-lang/rust/pull/48092)
+* [emit data::Impl in save-analysis](https://github.com/rust-lang/rust/pull/47657)
+* [ui tests: diff from old (expected) to new (actual) instead of backwards](https://github.com/rust-lang/rust/pull/47978)
+* [NLL: improve `DefiningTy::Const`](https://github.com/rust-lang/rust/pull/47957)
+* [NLL: add false edges out of infinite loops](https://github.com/rust-lang/rust/pull/47802)
+* [stabilize `use_nested_groups`](https://github.com/rust-lang/rust/pull/47948)
+* [implement `TrustedLen` for `Take<Repeat>` and `Take<RangeFrom>`](https://github.com/rust-lang/rust/pull/47944)
+* [override `try_(r)fold` for RangeInclusive](https://github.com/rust-lang/rust/pull/48012)
+* [add some APIs to ptr::NonNull](https://github.com/rust-lang/rust/pull/47631)
+* [add `-Zteach` documentation](https://github.com/rust-lang/rust/pull/47843)
+* [update book](https://github.com/rust-lang/rust/pull/47753)
+* [fix rustdoc ICE on macros defined within functions](https://github.com/rust-lang/rust/pull/47959)
+* [make resolution backtracking smarter](https://github.com/rust-lang/cargo/pull/4834)
+* [do not rename packages on `cargo new`](https://github.com/rust-lang/cargo/pull/5013)
 
 ## New Contributors
 
