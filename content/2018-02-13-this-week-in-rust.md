@@ -14,10 +14,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-The community team is trying to improve outreach to meetup organisers. Please fill out their [call for contact info](https://docs.google.com/forms/d/e/1FAIpQLSf52YXGhqBaHtCXtVna4iHYMK7IQaTqUW6V-ztsZC8C2TBInQ/viewform) if you are running or used to run a meetup.
-
 ## News & Blog Posts
 
+* The community team is trying to improve outreach to meetup organisers. Please fill out their [call for contact info](https://docs.google.com/forms/d/e/1FAIpQLSf52YXGhqBaHtCXtVna4iHYMK7IQaTqUW6V-ztsZC8C2TBInQ/viewform) if you are running or used to run a meetup.
 * [Closing out an incredible week in Rust](https://aturon.github.io/2018/02/09/amazing-week/).
 * [Maximally minimal specialization: always applicable impls](http://smallcultfollowing.com/babysteps/blog/2018/02/09/maximally-minimal-specialization-always-applicable-impls/).
 * [Announcing the 2018 domain Working Groups](https://internals.rust-lang.org/t/announcing-the-2018-domain-working-groups/6737).
@@ -138,6 +137,8 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 * [Amend RFC 0141 Lifetime elision: Mention deduplicated lifetimes](https://github.com/rust-lang/rfcs/pull/2330).
 
 # Upcoming Events
+
+The community team is trying to improve outreach to meetup organisers. Please fill out their [call for contact info](https://docs.google.com/forms/d/e/1FAIpQLSf52YXGhqBaHtCXtVna4iHYMK7IQaTqUW6V-ztsZC8C2TBInQ/viewform) if you are running or used to run a meetup.
 
 * [Feb 15. Cambridge, UK - Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/mgtcwnyxdbtb/).
 * [Feb 17. Chennai, India - Monthly Meetup - February](https://www.meetup.com/mad-rs/events/247446699/).
