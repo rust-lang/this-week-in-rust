@@ -31,7 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [RLSL (Rust -> SPIR-V compiler) progress report](https://maikklein.github.io/rlsl-progress-report/).
 * [This week in Rust docs 92](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-92).
 * [podcast] [Rusty Spike Podcast - episode 18](https://rusty-spike.blubrry.net/2018/02/08/episode-18-feb-7-2018/). Reddit, a whitepaper, an academic paper, FOSDEM (and the lines), and AV1.
-* [podcast] [New Rustacean: Crates you show know: Serde](http://www.newrustacean.com/show_notes/cysk/serde/).
+* [podcast] [New Rustacean: Crates you should know: Serde](http://www.newrustacean.com/show_notes/cysk/serde/).
 * [RustFest 2018](https://blog.rustfest.eu/next-stop-paris). 26 May - 27 May 2018 in Paris.
 
 # Crate of the Week
