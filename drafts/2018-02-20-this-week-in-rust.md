@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-[Ferrous Oxide For Jaguars And Incremented Crocodiles](https://eno.space/blog//2018/02/Ferrous-oxide-for-jaguars-and-incremented-crocodiles), a small set of pitfalls a novice might encounter, and how to avoid them.
+* [Learning Rust: A small set of pitfalls a novice might encounter, and how to avoid them](https://eno.space/blog/2018/02/Ferrous-oxide-for-jaguars-and-incremented-crocodiles).
 
 # Crate of the Week
 
