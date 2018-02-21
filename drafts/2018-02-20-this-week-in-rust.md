@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Learning Rust: A small set of pitfalls a novice might encounter, and how to avoid them](https://eno.space/blog/2018/02/Ferrous-oxide-for-jaguars-and-incremented-crocodiles).
+
 # Crate of the Week
 
 This week sadly had to go without a crate for lack of votes.
