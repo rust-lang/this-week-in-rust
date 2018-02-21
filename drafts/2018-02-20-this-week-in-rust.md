@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week sadly had to go without a crate for lack of votes.
+This week's crate is [afl.rs](https://github.com/rust-fuzz/afl.rs), a by now pretty well-known fuzzing tool for Rust. Thanks to [Philipp Hansch](https://users.rust-lang.org/u/phansch) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -43,34 +43,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-117 pull requests were [merged in the last week][merged]
+95 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-02-05..2018-02-12
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-02-12..2018-02-19
 
-* epochs: [rustc](https://github.com/rust-lang/rust/pull/48014) and [cargo](https://github.com/rust-lang/cargo/pull/5011) (RFC [#2052](https://rust-lang.github.io/rfcs/2052-epochs.html))
-* [rustc: upgrade to LLVM 6](https://github.com/rust-lang/rust/pull/47828)
-* [customizable extended tools](https://github.com/rust-lang/rust/pull/48015)
-* [fix ICE for mismatched args on target without span](https://github.com/rust-lang/rust/pull/48047)
-* [proc_macro: don't panic parsing `..=`](https://github.com/rust-lang/rust/pull/48036)
-* [implement `?` macro repetition](https://github.com/rust-lang/rust/pull/47752)
-* [warn about more ignored bounds in type aliases](https://github.com/rust-lang/rust/pull/48020)
-* [do not ignore lifetime bounds in Copy impls](https://github.com/rust-lang/rust/pull/47877)
-* [add filtering options to `rustc_on_unimplemented`](https://github.com/rust-lang/rust/pull/47613)
-* [rustc: Add `#[rustc_args_required_const]`](https://github.com/rust-lang/rust/pull/48018)
-* [rustc_mir: insert a dummy access to places being matched on, when building MIR](https://github.com/rust-lang/rust/pull/48092)
-* [emit data::Impl in save-analysis](https://github.com/rust-lang/rust/pull/47657)
-* [ui tests: diff from old (expected) to new (actual) instead of backwards](https://github.com/rust-lang/rust/pull/47978)
-* [NLL: improve `DefiningTy::Const`](https://github.com/rust-lang/rust/pull/47957)
-* [NLL: add false edges out of infinite loops](https://github.com/rust-lang/rust/pull/47802)
-* [stabilize `use_nested_groups`](https://github.com/rust-lang/rust/pull/47948)
-* [implement `TrustedLen` for `Take<Repeat>` and `Take<RangeFrom>`](https://github.com/rust-lang/rust/pull/47944)
-* [override `try_(r)fold` for RangeInclusive](https://github.com/rust-lang/rust/pull/48012)
-* [add some APIs to ptr::NonNull](https://github.com/rust-lang/rust/pull/47631)
-* [add `-Zteach` documentation](https://github.com/rust-lang/rust/pull/47843)
-* [update book](https://github.com/rust-lang/rust/pull/47753)
-* [fix rustdoc ICE on macros defined within functions](https://github.com/rust-lang/rust/pull/47959)
-* [make resolution backtracking smarter](https://github.com/rust-lang/cargo/pull/4834)
-* [do not rename packages on `cargo new`](https://github.com/rust-lang/cargo/pull/5013)
+* [don't promote the result of dereferences to `'static`](https://github.com/rust-lang/rust/pull/47408)
+* [rustc: persist LLVM's `Linker` in Fat LTO](https://github.com/rust-lang/rust/pull/48163)
+* [incr.comp.: run cache directory garbage collection before loading dep-graph](https://github.com/rust-lang/rust/pull/48181)
+* [continue parsing function after finding `...` arg](https://github.com/rust-lang/rust/pull/48154)
+* [remove allocation from width of character function](https://github.com/rust-lang/rust/pull/48167)
+* [unimplement Send/Sync for ::env::{Args,ArgsOs,Vars,VarsOs}](https://github.com/rust-lang/rust/pull/48005)
+* [support `default impl` for specialization](https://github.com/rust-lang/rust/pull/45404)
+* [`PanicInfo` and `Location` API changes](https://github.com/rust-lang/rust/pull/47687) (RFC #2070)
+* [optimize `Vec::retain`](https://github.com/rust-lang/rust/pull/48065)
+* [early exit for empty HashMap](https://github.com/rust-lang/rust/pull/48035)
+* [add `Range(Inclusive)::is_empty`](https://github.com/rust-lang/rust/pull/48087)
+* [add `std`/`core::iter::repeat_with`](https://github.com/rust-lang/rust/pull/48156)
+* [`cargo new` defaults to bin](https://github.com/rust-lang/cargo/pull/5029)
+* [cargo conflict tracking](https://github.com/rust-lang/cargo/pull/5037)
+* [remove hoedown from rustdoc](https://github.com/rust-lang/rust/pull/48274)
+* [compiletest: delete the compiled program once its test is done](https://github.com/rust-lang/rust/pull/48144)
+
+And my personal favourite:
+
+* [this is the ideal FileType on Windows. You may not like it, but this is what peak performance looks like](https://github.com/rust-lang/rust/pull/47956)
 
 ## New Contributors
 
