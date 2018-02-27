@@ -47,7 +47,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
-* [doc] [rustc-guide: A guide to how rustc works and how to contribute to it](https://github.com/rust-lang-nursery/rustc-guide) has [listed issued that need help](https://github.com/rust-lang-nursery/rustc-guide/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22). The difficulty ranges from "copy the contents of the rustc READMEs" or "proofreading" to "write about the dark bowls of X in rustc". Prior knowledge of compiler internals is _not_ required.
+* [doc] [rustc-guide](https://github.com/rust-lang-nursery/rustc-guide): A guide to how rustc works and how to contribute to it [has issues that need help](https://github.com/rust-lang-nursery/rustc-guide/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22). The difficulty ranges from "copy the contents of the rustc READMEs" or "proofreading" to "write about the dark bowls of X in rustc". Prior knowledge of compiler internals is _not_ required.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
