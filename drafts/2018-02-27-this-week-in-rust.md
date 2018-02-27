@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [afl.rs](https://github.com/rust-fuzz/afl.rs), a by now pretty well-known fuzzing tool for Rust. Thanks to [Philipp Hansch](https://users.rust-lang.org/u/phansch) for the suggestion.
+This week's crate is [fselect](https://github.com/jhspetersson/fselect), a crate to find files by SQL-like queries. Thanks to [Jhspetersson](https://users.rust-lang.org/u/jhspetersson) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -41,30 +41,53 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-95 pull requests were [merged in the last week][merged]
+127 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-02-12..2018-02-19
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-02-19..2018-02-26
 
-* [don't promote the result of dereferences to `'static`](https://github.com/rust-lang/rust/pull/47408)
-* [rustc: persist LLVM's `Linker` in Fat LTO](https://github.com/rust-lang/rust/pull/48163)
-* [incr.comp.: run cache directory garbage collection before loading dep-graph](https://github.com/rust-lang/rust/pull/48181)
-* [continue parsing function after finding `...` arg](https://github.com/rust-lang/rust/pull/48154)
-* [remove allocation from width of character function](https://github.com/rust-lang/rust/pull/48167)
-* [unimplement Send/Sync for ::env::{Args,ArgsOs,Vars,VarsOs}](https://github.com/rust-lang/rust/pull/48005)
-* [support `default impl` for specialization](https://github.com/rust-lang/rust/pull/45404)
-* [`PanicInfo` and `Location` API changes](https://github.com/rust-lang/rust/pull/47687) (RFC #2070)
-* [optimize `Vec::retain`](https://github.com/rust-lang/rust/pull/48065)
-* [early exit for empty HashMap](https://github.com/rust-lang/rust/pull/48035)
-* [add `Range(Inclusive)::is_empty`](https://github.com/rust-lang/rust/pull/48087)
-* [add `std`/`core::iter::repeat_with`](https://github.com/rust-lang/rust/pull/48156)
-* [`cargo new` defaults to bin](https://github.com/rust-lang/cargo/pull/5029)
-* [cargo conflict tracking](https://github.com/rust-lang/cargo/pull/5037)
-* [remove hoedown from rustdoc](https://github.com/rust-lang/rust/pull/48274)
-* [compiletest: delete the compiled program once its test is done](https://github.com/rust-lang/rust/pull/48144)
-
-And my personal favourite:
-
-* [this is the ideal FileType on Windows. You may not like it, but this is what peak performance looks like](https://github.com/rust-lang/rust/pull/47956)
+* [fix exponential projection complexity on nested types](https://github.com/rust-lang/rust/pull/48296)
+* [avoid ICE in arg mistmatch error for tuple variants](https://github.com/rust-lang/rust/pull/48246)
+* [fix parsing of extern paths in types and poly-traits](https://github.com/rust-lang/rust/pull/48441)
+* [make ".e0" not parse as 0.0](https://github.com/rust-lang/rust/pull/48235)
+* [use sparse bitsets instead of dense ones for NLL results](https://github.com/rust-lang/rust/pull/48245)
+* [reset default binding mode when we pass through a `&` pattern](https://github.com/rust-lang/rust/pull/48448)
+* [add nonstandard_style alias for bad_style](https://github.com/rust-lang/rust/pull/48386)
+* [fix span of visibility](https://github.com/rust-lang/rust/pull/47799)
+* [overhaul improper_ctypes output](https://github.com/rust-lang/rust/pull/48221)
+* [inform user where to give a type annotation](https://github.com/rust-lang/rust/pull/48198)
+* [handle custom diagnostic for `&str + String`](https://github.com/rust-lang/rust/pull/48392)
+* [fix nested impl trait lifetimes](https://github.com/rust-lang/rust/pull/48072)
+* [error on nested impl Trait and path projections from impl Trait](https://github.com/rust-lang/rust/pull/48084)
+* [remove "static item recursion checking" in favor of relying on cycle checks in the query engine](https://github.com/rust-lang/rust/pull/47987)
+* [improve tuple struct field access hygiene](https://github.com/rust-lang/rust/pull/48083)
+* [macros: improve struct constructor field hygiene, fix span bug](https://github.com/rust-lang/rust/pull/48082)
+* [do not run the default panic hook inside procedural macros](https://github.com/rust-lang/rust/pull/47933)
+* [introduce UnpackedKind](https://github.com/rust-lang/rust/pull/48452)
+* [do not run MIR type checker twice](https://github.com/rust-lang/rust/pull/48061)
+* [MIR: gather move at SwitchInt, Assert terminators](https://github.com/rust-lang/rust/pull/48232)
+* [allow two-phase borrows of &mut self in ops](https://github.com/rust-lang/rust/pull/48197)
+* [incr.comp.: Don't keep RefCells in on-disk-cache borrowed in order to allow for recursive invocations](https://github.com/rust-lang/rust/pull/48185)
+* [rustc_trans: rewrite mips64 ABI code](https://github.com/rust-lang/rust/pull/47964)
+* [termination trait in tests](https://github.com/rust-lang/rust/pull/48143)
+* [detect wrong number of args when type-checking a closure](https://github.com/rust-lang/rust/pull/48123)
+* [add Iterator::try_for_each](https://github.com/rust-lang/rust/pull/48157)
+* [add Iterator::flatten](https://github.com/rust-lang/rust/pull/48115)
+* [add Condvar APIs not susceptible to spurious wake](https://github.com/rust-lang/rust/pull/47970)
+* [stabilize 'entry_and_modify' feature](https://github.com/rust-lang/rust/pull/48166)
+* [stabilize Box::leak](https://github.com/rust-lang/rust/pull/48110)
+* [Fix borrow checker unsoundness with unions](https://github.com/rust-lang/rust/pull/47689)
+* [Derive std::cmp::Reverse as Copy or Clone](https://github.com/rust-lang/rust/pull/47379)
+* [When encountering invalid token after `unsafe`, mention `{`](https://github.com/rust-lang/rust/pull/48356)
+* [Implement implied shortcut links for intra-rustdoc-links](https://github.com/rust-lang/rust/pull/48335)
+* [rename rdrnd target feature to rdrand](https://github.com/rust-lang/rust/pull/48369)
+* [book: Second edition is now the definitive edition](https://github.com/rust-lang/book/pull/1180)
+* [rustc explain](https://github.com/rust-lang/rust/pull/48337)
+* [rustdoc: generate documentation for auto-trait impls](https://github.com/rust-lang/rust/pull/47833)
+* [rustdoc: don't crash when an external trait's docs needs to import another trait](https://github.com/rust-lang/rust/pull/48415)
+* [fix rustdoc test ICE](https://github.com/rust-lang/rust/pull/48382)
+* [make cargo-the-binary version the same as the Rust version](https://github.com/rust-lang/cargo/pull/5083)
+* [cargo: warn Windows 7 users about old TLS](https://github.com/rust-lang/cargo/pull/5069)
+* [cargo: display path to custom commands with `--list -v`](https://github.com/rust-lang/cargo/pull/5041)
 
 ## New Contributors
 
