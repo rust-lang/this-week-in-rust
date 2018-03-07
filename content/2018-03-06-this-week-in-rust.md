@@ -22,7 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Why Rust has macros](https://kasma1990.gitlab.io/2018/03/04/why-rust-has-macros/).
 * [Writing a microservice in Rust](http://www.goldsborough.me/rust/web/tutorial/2018/01/20/17-01-11-writing_a_microservice_in_rust/).
 * [Futures 0.2 is nearing release](https://aturon.github.io/2018/02/27/futures-0-2-RC/).
-* [Writing your first compiler: Making a Brainf*ck to C compiler in Rust](https://medium.com/@CanHasCommunism/making-a-brainf-ck-to-c-compiler-in-rust-10f0c01a282d).
+* [Writing your first compiler: Making a Brainfuck to C compiler in Rust](https://medium.com/@CanHasCommunism/making-a-brainf-ck-to-c-compiler-in-rust-10f0c01a282d).
 * [Stopping a Rust worker](https://matklad.github.io/2018/03/02/stopping-a-rust-worker.html).
 * [Serializing awkward data with Serde](http://zork.net/~st/jottings/Serializing_awkward_data_with_serde.html).
 * [An introduction to writing platform agnostic drivers in Rust using the MCP3008 as an example](http://pramode.in/2018/02/24/an-introduction-to-writing-embedded-hal-based-drivers-in-rust/).
