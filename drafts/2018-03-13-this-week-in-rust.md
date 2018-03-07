@@ -103,10 +103,10 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
 * [disposition: merge] [Add Euclidean modulo & division functionality for integers](https://github.com/rust-lang/rfcs/pull/2169).
-* [disposition: merge] [Inherent traits](https://github.com/rust-lang/rfcs/pull/2309).
 * [disposition: merge] [Allow locals and destructuring in const fn](https://github.com/rust-lang/rfcs/pull/2341).
 * [disposition: merge] [Update the disambiguation handling in RFC 1946 (intra-rustdoc-links) to match impl concerns](https://github.com/rust-lang/rfcs/pull/2285).
 * [disposition: postpone] [Function Structs](https://github.com/rust-lang/rfcs/pull/2276).
+* [disposition: closed] [Inherent traits](https://github.com/rust-lang/rfcs/pull/2309).
 
 ## New RFCs
 
