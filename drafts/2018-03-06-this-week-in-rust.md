@@ -16,6 +16,21 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* 🎈🎉 [Announcing Rust 1.24.1](https://blog.rust-lang.org/2018/03/01/Rust-1.24.1.html). 🎉🎈
+* [Announcing the CLI working group](https://internals.rust-lang.org/t/announcing-the-cli-working-group/6872).
+* [Come join the Rust and WebAssembly working group](http://fitzgeraldnick.com/2018/02/27/wasm-domain-working-group.html).
+* [Why Rust has macros](https://kasma1990.gitlab.io/2018/03/04/why-rust-has-macros/).
+* [Writing a microservice in Rust](http://www.goldsborough.me/rust/web/tutorial/2018/01/20/17-01-11-writing_a_microservice_in_rust/).
+* [Futures 0.2 is nearing release](https://aturon.github.io/2018/02/27/futures-0-2-RC/).
+* [Writing your first compiler: Making a Brainf*ck to C compiler in Rust](https://medium.com/@CanHasCommunism/making-a-brainf-ck-to-c-compiler-in-rust-10f0c01a282d).
+* [Stopping a Rust worker](https://matklad.github.io/2018/03/02/stopping-a-rust-worker.html).
+* [Serializing awkward data with Serde](http://zork.net/~st/jottings/Serializing_awkward_data_with_serde.html).
+* [An introduction to writing platform agnostic drivers in Rust using the MCP3008 as an example](http://pramode.in/2018/02/24/an-introduction-to-writing-embedded-hal-based-drivers-in-rust/).
+* [Opportunistic mutations for the mutagen - a Rust mutation testing framework](https://llogiq.github.io/2018/03/03/opportune.html).
+* [This week in Rust docs 95](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-95).
+* [podcast] [New Rustacean: Rust 1.24](http://www.newrustacean.com/show_notes/news/rust_1_24/). Performance wins, incremental compilation, and the Rust 2018 Roadmap and Epoch.
+* [podcast] [Rusty Spike Podcast - episode 21](https://rusty-spike.blubrry.net/2018/03/01/episode-21-feb-28-2018/). SIMD, WebAssembly for performance, the embedded working group, the Rust+WebAssembly working group, and the return of the Servo newsletter.
+
 # Crate of the Week
 
 This week's crate is [fselect](https://github.com/jhspetersson/fselect), a crate to find files by SQL-like queries. Thanks to [Jhspetersson](https://users.rust-lang.org/u/jhspetersson) for the suggestion.
@@ -31,8 +46,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Rust CLI Survey – Help the CLI WG determine which problems to tackle](https://goo.gl/forms/lqUTazC78j26ISu53).
+* [Help write the Embedded Rust Book - an official guide to using Rust on microcontrollers](https://github.com/rust-lang-nursery/embedded-wg/issues/56).
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
-* [doc] [rustc-guide](https://github.com/rust-lang-nursery/rustc-guide): A guide to how rustc works and how to contribute to it [has issues that need help](https://github.com/rust-lang-nursery/rustc-guide/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22). The difficulty ranges from "copy the contents of the rustc READMEs" or "proofreading" to "write about the dark bowls of X in rustc". Prior knowledge of compiler internals is _not_ required.
+* [Cargo: Abort crate resolution if too many candidates have been tried](https://github.com/rust-lang/cargo/issues/4066).
+* [Cargo: Command to update Cargo.lock to minimal versions](https://github.com/rust-lang/cargo/issues/4100).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -90,22 +108,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Andreas Streichardt
-* Anthony Deschamps
-* boats
-* Bryan Drewery
-* csmoe
-* Dale Wijnand
-* Dan Aloni
-* Federico Poli
-* hedgehog1024
-* Hidehito Yabuuchi
-* Jakub Adam Wieczorek
-* Jimmy Brush
-* moe
-* Nathan Ringo
-* newpavlov
-* Vitali Lovich
+* Alexander Ronald Altman
+* debris
+* flip1995
+* Jewoo Lee
+* Lukas Lueg
+* Tobias Stolzmann
 
 ## Approved RFCs
 
@@ -113,13 +121,9 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2325: Stable SIMD in Rust](https://github.com/rust-lang/rfcs/pull/2325).
-* [RFC 2226: Hexadecimal integers with fmt::Debug, including within larger types](https://github.com/rust-lang/rfcs/pull/2226).
-* [RFC 2151: Raw identifiers](https://github.com/rust-lang/rfcs/pull/2151). Add a raw identifier format `r#ident`, so crates written in future language epochs/versions can still use an older API that overlaps with new keywords.
-* [RFC 2298: `?` repetition in macro rules](https://github.com/rust-lang/rfcs/pull/2298).
-* [RFC 2046: label-break-value](https://github.com/rust-lang/rfcs/pull/2046). Allow a break not only out of `loop`, but of labelled blocks with no loop
-* [RFC 2333: Prior art](https://github.com/rust-lang/rfcs/pull/2333). A section to the RFC template where RFC authors may discuss the experience of other programming languages.
-
+* [RFC 2314: Rust 2018 roadmap](https://github.com/rust-lang/rfcs/pull/2314).
+* [RFC 2282: Cargo profile dependencies](https://github.com/rust-lang/rfcs/pull/2282).
+* [RFC 2250: Finalize syntax of `impl Trait` and `dyn Trait` with multiple bounds](https://github.com/rust-lang/rfcs/pull/2250).
 
 ## Final Comment Period
 
@@ -129,42 +133,44 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [disposition: merge] [Rust 2018 roadmap](https://github.com/rust-lang/rfcs/pull/2314).
-* [disposition: merge] [Cargo profile dependencies](https://github.com/rust-lang/rfcs/pull/2282).
+* [disposition: merge] [Add Euclidean modulo & division functionality for integers](https://github.com/rust-lang/rfcs/pull/2169).
+* [disposition: merge] [Inherent traits](https://github.com/rust-lang/rfcs/pull/2309).
 * [disposition: merge] [Allow locals and destructuring in const fn](https://github.com/rust-lang/rfcs/pull/2341).
-* [disposition: merge] [Finalize syntax of `impl Trait` and `dyn Trait` with multiple bounds](https://github.com/rust-lang/rfcs/pull/2250).
-* [disposition: merge] [Amend RFC 0141 Lifetime elision: Mention deduplicated lifetimes](https://github.com/rust-lang/rfcs/pull/2330).
 * [disposition: merge] [Update the disambiguation handling in RFC 1946 (intra-rustdoc-links) to match impl concerns](https://github.com/rust-lang/rfcs/pull/2285).
+* [disposition: postpone] [Function Structs](https://github.com/rust-lang/rfcs/pull/2276).
 
 ## New RFCs
 
-* [Standard library API for immovable types](https://github.com/rust-lang/rfcs/pull/2349).
-* [Allow `loop` in constant evaluation](https://github.com/rust-lang/rfcs/pull/2344).
-* [Allow panicking in constants](https://github.com/rust-lang/rfcs/pull/2345).
-* [`#[derive_no_bound(..)]` and `#[derive_field_bound(..)]`](https://github.com/rust-lang/rfcs/pull/2353).
-* [Add `is_sorted` to the standard library](https://github.com/rust-lang/rfcs/pull/2351).
+* [Ghost busting](https://github.com/rust-lang/rfcs/pull/2357).
 
 # Upcoming Events
 
 The community team is trying to improve outreach to meetup organisers. Please fill out their [call for contact info](https://docs.google.com/forms/d/e/1FAIpQLSf52YXGhqBaHtCXtVna4iHYMK7IQaTqUW6V-ztsZC8C2TBInQ/viewform) if you are running or used to run a meetup.
 
-* [Mar  4. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxfbgb/).
-* [Mar  5. London, GB - Rust learning and hacking evening #8](https://www.meetup.com/Rust-London-User-Group/events/247286584/).
-* [Mar  6. Johannesburg, SA - Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxfbjb/).
-* [Mar  7. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/krnczlyxfbkb/).
-* [Mar  7. Atlanta, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/rhvgrmyxfbkb/).
-* [Mar  7. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
-* [Mar  7. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Mar  8. Washington, DC, US - Mid-month Rustful](https://www.meetup.com/RustDC/events/247478996/).
 * [Mar  8. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Mar  8. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/czcwhlyxfblb/).
 * [Mar  8. San Diego, US - San Diego Rust March Meetup](https://www.meetup.com/San-Diego-Rust/events/248229805/).
 * [Mar 11. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxfbpb/).
+* [Mar 12. Cologne, DE - Rust User Group Cologne - Is that a spectrum, or memory access timings](https://www.meetup.com/RustCologne/events/247875532/)?
 * [Mar 12. Seattle, US - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/hztzcpyxfbqb/).
+* [Mar 13. Rome, IT - Rust Roma - Rust learning and hacking evening #7](https://www.meetup.com/Rust-Roma/events/248449368/).
 * [Mar 13. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-content).
 * [Mar 13. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
 * [Mar 13. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
 * [Mar 13. Rust Events Team Meeting](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Mar 14. Tokyo, JP - Rust Meetup in Tokyo](https://www.facebook.com/events/355711738265206).
+* [Mar 15. Hamburg, DE - Rust Hack & Learn with a Sprinkle of Web Assembly](https://www.meetup.com/Rust-Meetup-Hamburg/events/248310938/).
 * [Mar 15. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/fmwshpyxfbtb/).
+* [Mar 17. Chennai, IN - Monthly Meetup - March](https://www.meetup.com/mad-rs/events/248475319/).
+* [Mar 18. Bangalore, IN - Rust for newbies (Part 5 of 12)](https://www.meetup.com/rustox/events/247982987/).
+* [Mar 18. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxfbxb/).
+* [Mar 19. London, GB - LDN Talks: March 2018](https://www.meetup.com/Rust-London-User-Group/events/247681377/).
+* [Mar 21. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/247387953/).
+* [Mar 21. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/ckwdlpyxfbcc/).
+* [Mar 21. Rust Community Team Meeting at #rust-community on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community).
+* [Mar 21. Rust Documentation Team Meeting at #rust-docs on irc.mozilla.org](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-docs).
+* [Mar 22. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -174,7 +180,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Software Engineer at Vistaprint](https://careers.vistaprint.com/job-description/?id=23901).
+* [Research Engineer at Cornell University](https://cornell.wd1.myworkdayjobs.com/CornellCareerPage/job/New-York-City-Cornell-Tech/Research-Engineer_WDR-00013499-1).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
