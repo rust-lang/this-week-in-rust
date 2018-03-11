@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Rusoto 0.32.0 - now exclusively using non-blocking I/O based on `futures` and `tokio`](https://github.com/rusoto/rusoto/releases/tag/rusoto-v0.32.0)
+
 # Crate of the Week
 
 This week's crate is [trace](https://github.com/gsingh93/trace), a crate to allow for quick debug outputs without `println!`. Thanks to [gilescope](https://users.rust-lang.org/u/gilescope) for the suggestion.
