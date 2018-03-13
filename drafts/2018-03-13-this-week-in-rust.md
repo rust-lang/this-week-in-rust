@@ -151,6 +151,8 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Research Engineer at Cornell University](https://cornell.wd1.myworkdayjobs.com/CornellCareerPage/job/New-York-City-Cornell-Tech/Research-Engineer_WDR-00013499-1).
+* [Senior Data Engineer at MU INC](https://news.ycombinator.com/threads?id=muinc).
+* [Senior Computing Engineer at MU INC](https://news.ycombinator.com/threads?id=muinc).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
