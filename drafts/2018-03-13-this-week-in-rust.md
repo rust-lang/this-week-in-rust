@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Rusoto 0.32.0 - now exclusively using non-blocking I/O based on `futures` and `tokio`](https://github.com/rusoto/rusoto/releases/tag/rusoto-v0.32.0)
+
 # Crate of the Week
 
 This week's crate is [cursive](https://crates.io/crates/cursive), a library for easy text-user interface applications. Thanks to [Wangshan Lu](https://users.rust-lang.org/u/WiSaGaN) for the suggestion.
