@@ -33,7 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [trace](https://github.com/gsingh93/trace), a crate to allow for quick debug outputs without `println!`. Thanks to [gilescope](https://users.rust-lang.org/u/gilescope) for the suggestion.
+This week's crate is [cursive](https://crates.io/crates/cursive), a library for easy text-user interface applications. Thanks to [Wangshan Lu](https://users.rust-lang.org/u/WiSaGaN) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -55,37 +55,22 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-141 pull requests were [merged in the last week][merged]
+124 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-02-26..2018-03-05
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-03-05..2018-03-12
 
-* [comprehensively support trailing commas in std/core macros](https://github.com/rust-lang/rust/pull/48056)
-* [type check defaults at declaration](https://github.com/rust-lang/rust/pull/46785)
-* [fix spans ending not on UTF8 character bound](https://github.com/rust-lang/rust/pull/48522) (UTF8 is hard)
-* [NLL: avoid borrowed value must be valid for lifetime '_#2r..." in errors](https://github.com/rust-lang/rust/pull/48592)
-* [replace Rc with Lrc for shared data](https://github.com/rust-lang/rust/pull/48586)
-* [support parentheses in patterns under feature gate](https://github.com/rust-lang/rust/pull/48500)
-* [restrict the `Termination` impls to simplify stabilization](https://github.com/rust-lang/rust/pull/48497)
-* [rustc: tweak funclet cleanups of FFI functions](https://github.com/rust-lang/rust/pull/48572)
-* [add functionality for epoch lints; add epoch lint for dyn-trait](https://github.com/rust-lang/rust/pull/48461)
-  and [use `dyn trait` everywhere](https://github.com/rust-lang/rust/pull/48477)
-* [implement `--remap-path-prefix`](https://github.com/rust-lang/rust/pull/48359)
-* [make TransitiveRelation thread safe](https://github.com/rust-lang/rust/pull/48587)
-* [backport LLVM fixes for a `JumpThreading` / `assume` intrinsic bug](https://github.com/rust-lang/rust/pull/48583)
-* [bring back `ParamEnv` deduplication](https://github.com/rust-lang/rust/pull/48576)
-* [turn down xz compression level](https://github.com/rust-lang/rust-installer/pull/80)
-* [include stdsimd in rust-src component](https://github.com/rust-lang/rust/pull/48736)
-* [add std::path::Path::ancestors](https://github.com/rust-lang/rust/pull/48420)
-* [stabilize `[T]::rotate_`{`left`, `right`}](https://github.com/rust-lang/rust/pull/48450)
-* [stabilize unsafe pointer methods](https://github.com/rust-lang/rust/pull/48259)
-* [stabilize `LocalKey::try_with`](https://github.com/rust-lang/rust/pull/48585)
-* [specialize `Zip::nth` for `TrustedRandomAccess`](https://github.com/rust-lang/rust/pull/48635)
-* [`impl Clone for ::std_unicode::char::`{`ToLowercase`, `ToUppercase`}](https://github.com/rust-lang/rust/pull/48629)
-* [`impl Default + Hash for ::core::cmp::Reverse`](https://github.com/rust-lang/rust/pull/48628)
-* [package lock files in published crates](https://github.com/rust-lang/cargo/pull/5093)
-* [cache the query result](https://github.com/rust-lang/cargo/pull/5112)
-* [support `--exclude` option for `cargo doc`](https://github.com/rust-lang/cargo/pull/5081)
-* [support `+toolchain` rustup override in bash completions](https://github.com/rust-lang/cargo/pull/5111)
+* [replace all const evaluation with miri](https://github.com/rust-lang/rust/pull/46882) (epic PR)
+* [replace internal iterator structures with `impl Trait`](https://github.com/rust-lang/rust/pull/48699)
+* [NLL: Make causal tracking lazy](https://github.com/rust-lang/rust/pull/48682)
+* [turn feature-gate table into a query so it is covered by dependency tracking](https://github.com/rust-lang/rust/pull/48208)
+* [Warn about ignored generic bounds in `for`](https://github.com/rust-lang/rust/pull/48326)
+* [show used type variable when issuing a "can't use type parameters from outer function" error message](https://github.com/rust-lang/rust/pull/47574)
+* [suggest type for overflowing bin/hex-literals](https://github.com/rust-lang/rust/pull/48432)
+* [add functionality for gating feature flags on epochs; rejigger epoch lints](https://github.com/rust-lang/rust/pull/48801)
+* [optimize `str::repeat`](https://github.com/rust-lang/rust/pull/48657)
+* [add functions for reversing the bit pattern in an integer](https://github.com/rust-lang/rust/pull/48573)
+* [implement `FromStr` for `PathBuf`](https://github.com/rust-lang/rust/pull/48292)
+* [stabilize FusedIterator](https://github.com/rust-lang/rust/pull/47463)
 
 ## New Contributors
 
@@ -138,6 +123,7 @@ The community team is trying to improve outreach to meetup organisers. Please fi
 * [Mar 18. Bangalore, IN - Rust for newbies (Part 5 of 12)](https://www.meetup.com/rustox/events/247982987/).
 * [Mar 18. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxfbxb/).
 * [Mar 19. London, GB - LDN Talks: March 2018](https://www.meetup.com/Rust-London-User-Group/events/247681377/).
+* [Mar 19. Karlsruhe, DE -`Hack and Meet](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/248201379/).
 * [Mar 21. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/247387953/).
 * [Mar 21. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/ckwdlpyxfbcc/).
 * [Mar 21. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
@@ -157,6 +143,8 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Librsvg and Gnome-class accepting interns](https://people.gnome.org/~federico/blog/interns-summer-2018.html).
+* [Senior Computing Engineer at Marginal Unit](https://news.ycombinator.com/item?id=16493235).
+* [Senior Data Engineer at Marginal Unit](https://news.ycombinator.com/item?id=16493216).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
