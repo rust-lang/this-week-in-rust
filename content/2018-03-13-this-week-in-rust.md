@@ -20,14 +20,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust is the most loved language for 3 years in a row in Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey/2018/#most-loved-dreaded-and-wanted).
 * [Writing an OS in pure Rust](https://os.phil-opp.com/news/2018-03-09-pure-rust/).
 * [Announcing the Tokio runtime](https://tokio.rs/blog/2018-03-tokio-runtime/).
-* [Redefining Failure: Review of failure crate](https://epage.github.io/blog/2018/03/redefining-failure/).
+* [Redefining failure: Review of failure crate](https://epage.github.io/blog/2018/03/redefining-failure/).
 * [Announcing Rust Compiler Performance Working Group](https://internals.rust-lang.org/t/rust-compiler-performance-working-group/6934).
 * [Announcing Rust Portability Working Group](https://internals.rust-lang.org/t/rust-needs-to-run-and-be-easy-to-use-on-every-platform/6935).
 * [Snips open sources Snips NLU - a Natural Language Understanding service written in Rust](https://medium.com/snips-ai/snips-nlu-is-an-open-source-private-by-design-alternative-to-dialogflow-amazon-lex-and-other-nlu-a95dbe16f4a1).
 * [Announcing relibc: A libc implementation in Rust](https://github.com/redox-os/relibc).
 * [Exploring function overloading](http://casualhacks.net/blog/2018-03-10/exploring-function-overloading/).
 * [Coping with mutable state in multiple threads with Rust](https://medium.com/@KevinHoffman/coping-with-mutable-state-in-multiple-threads-with-rust-9059c83b6c01).
-* [Crashing a Rust Hyper server with a Denial of Service attack](https://klausi.github.io/rustnish/2018/03/11/crashing-a-rust-hyper-server-with-a-denial-of-service-attack.html).
+* [Crashing a Rust Hyper server with a denial of service attack](https://klausi.github.io/rustnish/2018/03/11/crashing-a-rust-hyper-server-with-a-denial-of-service-attack.html).
 * [This week in Rust docs 96](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-96).
 * [podcast] [Rusty Spike Podcast - episode 22](https://rusty-spike.blubrry.net/2018/03/08/episode-22-mar-7-2018/). Rust 1.24.1, the 2018 roadmap, compile times, SIMD, and Pathfinder.
 
