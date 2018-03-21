@@ -30,7 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [cursive](https://crates.io/crates/cursive), a library for easy text-user interface applications. Thanks to [Wangshan Lu](https://users.rust-lang.org/u/WiSaGaN) for the suggestion.
+This week's crate is [noisy_float](https://crates.io/crates/noisy_float), a crate with surprisingly useful floating point types that would rather panic than be Not a Number. Thanks to [Ayose Cazorla](https://users.rust-lang.org/u/ayosec) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -52,22 +52,31 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-124 pull requests were [merged in the last week][merged]
+145 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-03-05..2018-03-12
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-03-12..2018-03-19
 
-* [replace all const evaluation with miri](https://github.com/rust-lang/rust/pull/46882) (epic PR)
-* [replace internal iterator structures with `impl Trait`](https://github.com/rust-lang/rust/pull/48699)
-* [NLL: Make causal tracking lazy](https://github.com/rust-lang/rust/pull/48682)
-* [turn feature-gate table into a query so it is covered by dependency tracking](https://github.com/rust-lang/rust/pull/48208)
-* [Warn about ignored generic bounds in `for`](https://github.com/rust-lang/rust/pull/48326)
-* [show used type variable when issuing a "can't use type parameters from outer function" error message](https://github.com/rust-lang/rust/pull/47574)
-* [suggest type for overflowing bin/hex-literals](https://github.com/rust-lang/rust/pull/48432)
-* [add functionality for gating feature flags on epochs; rejigger epoch lints](https://github.com/rust-lang/rust/pull/48801)
-* [optimize `str::repeat`](https://github.com/rust-lang/rust/pull/48657)
-* [add functions for reversing the bit pattern in an integer](https://github.com/rust-lang/rust/pull/48573)
-* [implement `FromStr` for `PathBuf`](https://github.com/rust-lang/rust/pull/48292)
-* [stabilize FusedIterator](https://github.com/rust-lang/rust/pull/47463)
+* [coherence diagnostic tweaks](https://github.com/rust-lang/rust/pull/49037)
+* [two phase borrows rewrite](https://github.com/rust-lang/rust/pull/48770)
+* [minimum viable chalkification](https://github.com/rust-lang/rust/pull/48985) (hooray!)
+* [make CodeMap and FileMap thread-safe](https://github.com/rust-lang/rust/pull/48904)
+* [introduce canonical queries, use for normalization and dropck-outlives](https://github.com/rust-lang/rust/pull/48411)
+* [remove auto trait implementation section when empty](https://github.com/rust-lang/rust/pull/48898)
+* [enable embedding LLVM bitcode for iOS](https://github.com/rust-lang/rust/pull/48896)
+* [delegate debug implementation for `InternedString`](https://github.com/rust-lang/cargo/pull/5184)
+* [check stability of macro invocations](https://github.com/rust-lang/rust/pull/48524)
+* [make `assert` a built-in procedural macro](https://github.com/rust-lang/rust/pull/48813)
+* [fix hygene issue when deriving Debug](https://github.com/rust-lang/rust/pull/48934)
+* [add info message for `-Wall` command](https://github.com/rust-lang/rust/pull/48765) (welcome, C users)
+* [move ascii::escape_default to libcore](https://github.com/rust-lang/rust/pull/48735)
+* [fallible allocation](https://github.com/rust-lang/rust/pull/48648) (RFC [#2116](https://rust-lang.github.io/rfcs/2116-alloc-me-maybe.html))
+* [add intrinsics for portable packed SIMD vector reductions](https://github.com/rust-lang/rust/pull/48983)
+* [stabilize inclusive range (`..=`)](https://github.com/rust-lang/rust/pull/47813) (RFC [#1192](https://rust-lang.github.io/rfcs/1192-inclusive-ranges.html))
+* [stabilize `!`](https://github.com/rust-lang/rust/pull/47630) (RFC [#1216](https://rust-lang.github.io/rfcs/1216-bang-type.html))
+* [remove or hide deprecated unstable `SipHasher`{`13`, `24`}](https://github.com/rust-lang/rust/pull/49108)
+* [cargo: faster resolver: clean code and the `backtrack_stack`](https://github.com/rust-lang/cargo/pull/5187),
+  also [cache conflicting_activations](https://github.com/rust-lang/cargo/pull/5168)
+* [rustbuild: faster submodule updating](https://github.com/rust-lang/rust/pull/49057)
 
 ## New Contributors
 
