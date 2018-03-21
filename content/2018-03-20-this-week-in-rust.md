@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [CLI Working Group newsletter 1](https://internals.rust-lang.org/t/cli-wg-newsletter-1/7061).
 * [The Embedded Working Group newsletter 1](https://internals.rust-lang.org/t/the-embedded-working-group-newsletter-1/7053).
 * [This week in Rust docs 97](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-97).
+* [podcast] [Rusty Spike Podcast - episode 23](https://rusty-spike.blubrry.net/2018/03/15/episode-23-march-14-2018/). Ember, the roadmap, Redmonk, IDEs, and MIRI.
 
 # Crate of the Week
 
