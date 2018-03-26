@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Designing a fast CLI join tool with rust](https://milancio42.github.io/blog/2018-03-22-rjoin/)
+
 # Crate of the Week
 
 This week's crate is [noisy_float](https://crates.io/crates/noisy_float), a crate with surprisingly useful floating point types that would rather panic than be Not a Number. Thanks to [Ayose Cazorla](https://users.rust-lang.org/u/ayosec) for the suggestion.
