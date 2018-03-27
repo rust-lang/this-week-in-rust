@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Touring a Fast, Safe, and Complete(ish) Web Service in Rust](https://brandur.org/rust-web)
+
 * [Designing a fast CLI join tool with rust](https://milancio42.github.io/blog/2018-03-22-rjoin/)
 
 # Crate of the Week
