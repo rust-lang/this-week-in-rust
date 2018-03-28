@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [noisy_float](https://crates.io/crates/noisy_float), a crate with surprisingly useful floating point types that would rather panic than be Not a Number. Thanks to [Ayose Cazorla](https://users.rust-lang.org/u/ayosec) for the suggestion.
+This week's crate is [fui](https://crates.io/crates/fui), a crate to add both a command-line interface and text forms to your program. Thanks to [musicmatze](https://users.rust-lang.org/u/musicmatze) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -42,31 +42,53 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-145 pull requests were [merged in the last week][merged]
+178 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-03-12..2018-03-19
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2017-03-19..2018-03-26
 
-* [coherence diagnostic tweaks](https://github.com/rust-lang/rust/pull/49037)
-* [two phase borrows rewrite](https://github.com/rust-lang/rust/pull/48770)
-* [minimum viable chalkification](https://github.com/rust-lang/rust/pull/48985) (hooray!)
-* [make CodeMap and FileMap thread-safe](https://github.com/rust-lang/rust/pull/48904)
-* [introduce canonical queries, use for normalization and dropck-outlives](https://github.com/rust-lang/rust/pull/48411)
-* [remove auto trait implementation section when empty](https://github.com/rust-lang/rust/pull/48898)
-* [enable embedding LLVM bitcode for iOS](https://github.com/rust-lang/rust/pull/48896)
-* [delegate debug implementation for `InternedString`](https://github.com/rust-lang/cargo/pull/5184)
-* [check stability of macro invocations](https://github.com/rust-lang/rust/pull/48524)
-* [make `assert` a built-in procedural macro](https://github.com/rust-lang/rust/pull/48813)
-* [fix hygene issue when deriving Debug](https://github.com/rust-lang/rust/pull/48934)
-* [add info message for `-Wall` command](https://github.com/rust-lang/rust/pull/48765) (welcome, C users)
-* [move ascii::escape_default to libcore](https://github.com/rust-lang/rust/pull/48735)
-* [fallible allocation](https://github.com/rust-lang/rust/pull/48648) (RFC [#2116](https://rust-lang.github.io/rfcs/2116-alloc-me-maybe.html))
-* [add intrinsics for portable packed SIMD vector reductions](https://github.com/rust-lang/rust/pull/48983)
-* [stabilize inclusive range (`..=`)](https://github.com/rust-lang/rust/pull/47813) (RFC [#1192](https://rust-lang.github.io/rfcs/1192-inclusive-ranges.html))
-* [stabilize `!`](https://github.com/rust-lang/rust/pull/47630) (RFC [#1216](https://rust-lang.github.io/rfcs/1216-bang-type.html))
-* [remove or hide deprecated unstable `SipHasher`{`13`, `24`}](https://github.com/rust-lang/rust/pull/49108)
-* [cargo: faster resolver: clean code and the `backtrack_stack`](https://github.com/rust-lang/cargo/pull/5187),
-  also [cache conflicting_activations](https://github.com/rust-lang/cargo/pull/5168)
-* [rustbuild: faster submodule updating](https://github.com/rust-lang/rust/pull/49057)
+* [prepare the 1.25.0 stable release](https://github.com/rust-lang/rust/pull/49340)
+* [rustc: add a `#[wasm_custom_section]` attribute](https://github.com/rust-lang/rust/pull/48883)
+* [add basic PGO support](https://github.com/rust-lang/rust/pull/48346) (Hooray!)
+* [improve lint for type alias bounds](https://github.com/rust-lang/rust/pull/48909)
+* [stabilize the copy_closures and clone_closures features](https://github.com/rust-lang/rust/pull/49299)
+* [stabilize impl Trait](https://github.com/rust-lang/rust/pull/49255) (Huzzah!)
+* [detect illegal hidden lifetimes in `impl Trait`](https://github.com/rust-lang/rust/pull/49041)
+* [NLL should identify and respect the lifetime annotations that the user wrote](https://github.com/rust-lang/rust/pull/48482)
+* [fix DefKey lookup for proc-macro crates](https://github.com/rust-lang/rust/pull/49273)
+* [always print `aborting due to n previous error(s)`](https://github.com/rust-lang/rust/pull/49046)
+* [better diagnostics for '..' pattern fragment not in the last position](https://github.com/rust-lang/rust/pull/49268)
+* [support elision in impl headers](https://github.com/rust-lang/rust/pull/49251) (`'_`)
+* [fix type_dependent_defs ICE on method calls](https://github.com/rust-lang/rust/pull/49244)
+* [pass attributes to hir::TyParam](https://github.com/rust-lang/rust/pull/49242)
+* [produce nice array lengths on a best effort basis](https://github.com/rust-lang/rust/pull/49262)
+* [remove slow HashSet during miri stack frame creation](https://github.com/rust-lang/rust/pull/49274)
+* [refactor the `BorrowckErrors` trait to take `fn(self)`](https://github.com/rust-lang/rust/pull/48902)
+* [don't check interpret_interner when accessing a static to fix miri mutable statics](https://github.com/rust-lang/rust/pull/49216)
+* [implement "Implemented-From-Env" Chalk lowering rule](https://github.com/rust-lang/rust/pull/49211)
+* [implement Raw Identifiers](https://github.com/rust-lang/rust/pull/48942) (RFC #[2151](https://rust-lang.github.io/rfcs/2151-raw-identifiers.html))
+* [fix the conversion between bit representations and i128 representations](https://github.com/rust-lang/rust/pull/49210)
+* [encode/decode extern statics in metadata and incremental cache](https://github.com/rust-lang/rust/pull/49200)
+* [extend stable hasher to support `CanonicalTy`](https://github.com/rust-lang/rust/pull/49091)
+* [`Pin`, `Unpin`, `PinBox`](https://github.com/rust-lang/rust/pull/49058) (immovable types for generators)
+* [make resuming generators unsafe instead of the creation of immovable generators](https://github.com/rust-lang/rust/pull/49194)
+* [add hexadecimal formatting of integers with fmt::Debug](https://github.com/rust-lang/rust/pull/48978)
+* [reduce the diagnostic spam when multiple fields are missing in pattern](https://github.com/rust-lang/rust/pull/49160)
+* [add a -Z flag for LLVM align attributes on arguments](https://github.com/rust-lang/rust/pull/49122)
+* [deprecate the AsciiExt trait in favor of inherent methods](https://github.com/rust-lang/rust/pull/49109)
+* [stabilize termination_trait, split out termination_trait_test](https://github.com/rust-lang/rust/pull/49162)
+* [stabilise FromUtf8Error::as_bytes](https://github.com/rust-lang/rust/pull/49121)
+* [stabilize 128-bit integers](https://github.com/rust-lang/rust/pull/49101)
+* [replace `convert::Infallible` with `!`](https://github.com/rust-lang/rust/pull/49038)
+* [add `simd_select` intrinsic](https://github.com/rust-lang/rust/pull/49141)
+* [add `BufReader::buffer`](https://github.com/rust-lang/rust/pull/49139)
+* [suggest removing `&`s](https://github.com/rust-lang/rust/pull/48834)
+* [implement Integer methods for Wrapping](https://github.com/rust-lang/rust/pull/48810)
+* [stabilize slice patterns without `..`](https://github.com/rust-lang/rust/pull/48516)
+* [implement `get_key_value` for {`HashMap`, `BTreeMap`}](https://github.com/rust-lang/rust/pull/49346)
+* [fix vector fmin/fmax non-fast/fast intrinsics NaN handling](https://github.com/rust-lang/rust/pull/49231)
+* [add 12 num::NonZero* types for primitive integers, deprecate core::nonzero](https://github.com/rust-lang/rust/pull/48265)
+* [cargo: faster resolver: use a inverse-index to not activate the causes of conflict](https://github.com/rust-lang/cargo/pull/5213)
+* [fix ordering of auto-generated trait bounds in rustdoc output](https://github.com/rust-lang/rust/pull/49196)
 
 ## New Contributors
 
