@@ -21,9 +21,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Dora: Implementing a JIT-compiler with Rust](https://dinfuehr.github.io/blog/dora-implementing-a-jit-compiler-with-rust/).
 * [Atomics and memory ordering](https://vorner.github.io/2018/03/25/Atomics.html).
 * [Talks I'd love to see at RustConf](https://jvns.ca/blog/2018/03/24/rustconf-talks/).
-* [Designing a fast CLI join tool with rust](https://milancio42.github.io/blog/2018-03-22-rjoin/)
+* [Designing a fast CLI join tool with rust](https://milancio42.github.io/blog/2018-03-22-rjoin/).
 * [Building a Restful CRUD API with Rust](https://medium.com/sean3z/building-a-restful-crud-api-with-rust-1867308352d8).
-* [Touring a fast, safe, and complete(ish) web service in Rust](https://brandur.org/rust-web)
+* [Touring a fast, safe, and complete(ish) web service in Rust](https://brandur.org/rust-web).
 * [Putting bors on a performance improvement plan](https://aturon.github.io/2018/03/19/bors/).
 * [Mutation based testing & code coverage](https://llogiq.github.io/2018/03/25/cover.html).
 * [Redox OS 0.3.5 is released with a new network stack](https://github.com/redox-os/redox/releases/tag/0.3.5).
@@ -47,7 +47,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* If you’re interested in language design, please help us polish up [the new Delegation RFC draft](https://internals.rust-lang.org/t/new-rfc-for-delegation-anyone-interested-in-contributing/6644/8).
+* If you’re interested in language design, please help polish up [the new Delegation RFC draft](https://internals.rust-lang.org/t/new-rfc-for-delegation-anyone-interested-in-contributing/6644/8).
 * [rustc-guide](https://github.com/rust-lang-nursery/rustc-guide) is a project to write a short guide about how the rust compiler works, and it needs your help. There are some [easier issues](https://github.com/rust-lang-nursery/rustc-guide/issues?q=is%3Aissue+is%3Aopen+label%3AEasy), [issues which might require a bit of investigation/code reading](https://github.com/rust-lang-nursery/rustc-guide/issues?q=is%3Aissue+is%3Aopen+label%3AMedium), and [issues which probably require some advanced knowledge or a lot of time](https://github.com/rust-lang-nursery/rustc-guide/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3AHard).
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
 
@@ -193,7 +193,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 — [Michal 'vorner' Vaner](https://vorner.github.io/2018/03/11/Should-you-learn-rust.html).
 
-Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/502)!
+Thanks to [llogiq for the suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/502)!
 
 [Submit your quotes for next week][submit]!
 
