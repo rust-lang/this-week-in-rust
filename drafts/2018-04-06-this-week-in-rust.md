@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Rust-webapp-starter](https://github.com/OUISRC/Rust-webapp-starter)
 
 * 🎈🎉 [Announcing Rust 1.25](https://blog.rust-lang.org/2018/03/29/Rust-1.25.html). 🎉🎈
 * [Tokio: New Timer implementation](https://tokio.rs/blog/2018-03-timers/).
