@@ -1,6 +1,6 @@
 Title: This Week in Rust 228
 Number: 228
-Date: 2018-04-06
+Date: 2018-04-03
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -15,7 +15,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-* [Rust-webapp-starter](https://github.com/OUISRC/Rust-webapp-starter)
 
 * 🎈🎉 [Announcing Rust 1.25](https://blog.rust-lang.org/2018/03/29/Rust-1.25.html). 🎉🎈
 * [Tokio: New Timer implementation](https://tokio.rs/blog/2018-03-timers/).
@@ -24,9 +23,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [HTTP upgrades with hyper](http://seanmonstar.com/post/172531530657/http-upgrades-with-hyper).
 * [Porting an academic C++ library to Rust to do analysis on Doom maps](https://eev.ee/blog/2018/03/30/a-geometric-rust-adventure/).
 * [Building tiny Rust binaries for embedded Linux](https://jamesmunns.com/update/2018/04/01/tinyrocket.html).
-* [Speeding Up `dwarfdump` With Rust](https://robert.ocallahan.org/2018/03/speeding-up-dwarfdump-with-rust.html).
+* [Speeding up dwarfdump with Rust](https://robert.ocallahan.org/2018/03/speeding-up-dwarfdump-with-rust.html).
 * [Analysing crates.io data for top dependencies](https://tirkarthi.github.io/rust/2018/03/30/analyzing-crates-data.html).
-* [This Week in Rust Docs 99](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-99).
+* [Rust-webapp-starter: A template for Actix-web and Vue.js](https://github.com/OUISRC/Rust-webapp-starter)
+* [This week in Rust docs 99](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-99).
 * [The Embedded Working Group Newsletter 2](https://internals.rust-lang.org/t/the-embedded-working-group-newsletter-2/7176).
 * [podcast] [New Rustacean: Rust 1.25](https://newrustacean.com/show_notes/news/rust_1_25/). Paths and matches and SIMD, cargo new changes, and tons of community-driven learning materials.
 
