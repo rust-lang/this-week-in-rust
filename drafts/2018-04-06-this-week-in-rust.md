@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Rust-webapp-starter](https://github.com/OUISRC/Rust-webapp-starter)
 
 # Crate of the Week
 
