@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Bringing Vulkan everywhere](http://gfx-rs.github.io/2018/04/09/vulkan-portability.html) - an update on gfx-rs portability initiative.
+
 # Crate of the Week
 
 This week's crate is [Ditto](https://github.com/alex-shapiro/ditto) - CRDTs for common data structures like maps, vecs, sets, text, and JSON. Thanks to [nasa42](https://users.rust-lang.org/u/nasa42) for the suggestion!
