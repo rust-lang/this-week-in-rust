@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [Ditto](https://github.com/alex-shapiro/ditto) - CRDTs for common data structures like maps, vecs, sets, text, and JSON. Thanks to [nasa42](https://users.rust-lang.org/u/nasa42) for the suggestion!
+This week's crate is [shiplift](https://crates.io/crates/shiplift), a rusty API for talking with docker daemons. Thanks to [Matthias Beyer](https://users.rust-lang.org/u/musicmatze) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -43,31 +43,33 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-149 pull requests were [merged in the last week][merged]
+200 (!) pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-03-26..2018-04-02
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-04-02..2018-04-09
 
-* [Stabilize `std::process::id()`](https://github.com/rust-lang/rust/pull/49574).
-* [Stabilize method `String::retain`](https://github.com/rust-lang/rust/pull/49243).
-* [Stabilize `match_default_bindings`](https://github.com/rust-lang/rust/pull/49394).
-* [Stabilize `fs::read` and `fs::write`](https://github.com/rust-lang/rust/pull/49422).
-* [Rename `fs::read_string` to `read_to_string` and stabilize](https://github.com/rust-lang/rust/pull/49522).
-* [Stabilize underscore lifetimes](https://github.com/rust-lang/rust/pull/49458).
-* [Enable target_feature on any LLVM 6+](https://github.com/rust-lang/rust/pull/49428).
-* [Forbid `#[inline(always)]` with `#[target_feature]`](https://github.com/rust-lang/rust/pull/49425).
-* [Stabilize TryFrom / TryInto, and tweak impls for integers](https://github.com/rust-lang/rust/pull/49305).
-* [Revert "Add TryFrom and TryInto to the prelude"](https://github.com/rust-lang/rust/pull/49518).
-* [Add basic PGO support](https://github.com/rust-lang/rust/pull/48346).
-* [Add `slice::sort_by_cached_key` as a memoised `sort_by_key`](https://github.com/rust-lang/rust/pull/48639).
-* [Rename RangeArgument to RangeBounds, move it and Bound to libcore](https://github.com/rust-lang/rust/pull/49163).
-* [Group linked libraries where needed](https://github.com/rust-lang/rust/pull/49316).
-* [Cargo: Add description for each `-Z` flag in cargo help](https://github.com/rust-lang/cargo/pull/5235).
-* [Add `is_whitespace` and `is_alphanumeric` to str](https://github.com/rust-lang/rust/pull/49381).
-* [Cargo: Run `rustc` for information fewer times](https://github.com/rust-lang/cargo/pull/5249).
-* [Expand Attributes on Statements and Expressions](https://github.com/rust-lang/rust/pull/49124).
-* [Move the `alloc::allocator` module to `core::heap`](https://github.com/rust-lang/rust/pull/49481).
-* [Introduce trait engine](https://github.com/rust-lang/rust/pull/49202).
-* [Fail the build if we build Cargo twice](https://github.com/rust-lang/rust/pull/49053).
+* [better `Debug` for `proc_macro` types](https://github.com/rust-lang/rust/pull/49748)
+* [proc_macro: reorganize public API](https://github.com/rust-lang/rust/pull/49597)
+* [AST: give spans to all identifiers](https://github.com/rust-lang/rust/pull/49154)
+* [stabilize attributes on generic parameters](https://github.com/rust-lang/rust/pull/48851)
+* [mem-categorization, coherence fix](https://github.com/rust-lang/rust/pull/49714)
+* [fix ICE with `main`'s return type containing lifetimes](https://github.com/rust-lang/rust/pull/49692)
+* [Make queries thread safe](https://github.com/rust-lang/rust/pull/49045)
+* [Print query stack on ICEs](https://github.com/rust-lang/rust/pull/49222)
+* [miri: add public alloc_kind accessor](https://github.com/rust-lang/rust/pull/49625)
+* [miri: make write_discriminant_value public](https://github.com/rust-lang/rust/pull/49758)
+* [add more `vec![... ; n]` optimizations](https://github.com/rust-lang/rust/pull/49496)
+* [`impl Unpin for Pin`](https://github.com/rust-lang/rust/pull/49621)
+* [introduce `Vec::resize_with` method](https://github.com/rust-lang/rust/pull/49559)
+* [expand macros in `extern {}` blocks](https://github.com/rust-lang/rust/pull/49350)
+* [non-exhaustive enums/structs: finishing touches](https://github.com/rust-lang/rust/pull/49345/files)
+* [add `Iterator::find_map`](https://github.com/rust-lang/rust/pull/49098)
+* [`std::sync::atomic::Atomic*::`{`fetch_min`, `fetch_max`, `fetch_update`}](https://github.com/rust-lang/rust/pull/48658)
+* [stabilize iterator methods in 1.27](https://github.com/rust-lang/rust/pull/49607)
+* [stabilize String::replace_range](https://github.com/rust-lang/rust/pull/49577)
+* [`cargo build --out-dir`](https://github.com/rust-lang/cargo/pull/5203)
+* [crates.io: allow feature names to begin with numbers](https://github.com/rust-lang/crates.io/pull/1331)
+* [rustdoc: handle future deprecation annotations](https://github.com/rust-lang/rust/pull/49179)
+* [book: update mdbook, allows search](https://github.com/rust-lang/rust/pull/49623)
 
 ## New Contributors
 
@@ -129,6 +131,7 @@ The community team is trying to improve outreach to meetup organisers. Please fi
 * [Apr 18. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/ckwdlpyxgbxb/).
 * [Apr 19. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Apr 19. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxgbzb/).
+* [Apr 27. Darmstadt, DE - Rhein-Main Rust Meetup](https://www.meetup.com/Rust-Rhein-Main/events/249543182/).
 * **[May 27. Paris, FR - RustFest Paris 2018](https://paris.rustfest.eu/)**.
 
 If you are running a Rust event please add it to the [calendar] to get
