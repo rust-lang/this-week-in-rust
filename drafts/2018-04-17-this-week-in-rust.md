@@ -16,6 +16,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[rayascott](https://users.rust-lang.org/u/rayascott) created a
+[list of fearless rust bloggers](https://users.rust-lang.org/t/fearless-rust-bloggers/16770)
+from the this-week-in-rust history.
+
 ### From Rust All Hands in Berlin
 
 * [The Rust team All Hands in Berlin: a recap](https://blog.rust-lang.org/2018/04/06/all-hands.html).
