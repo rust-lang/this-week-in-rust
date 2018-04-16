@@ -16,9 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-[rayascott](https://users.rust-lang.org/u/rayascott) created a
-[list of fearless rust bloggers](https://users.rust-lang.org/t/fearless-rust-bloggers/16770)
-from the this-week-in-rust history.
+* [rayascott](https://users.rust-lang.org/u/rayascott) created a [list of fearless rust bloggers](https://users.rust-lang.org/t/fearless-rust-bloggers/16770) from the this-week-in-rust history.
+* [Armstrong Publications](armstrong-publications.com) released a [brand new Rust book](https://www.armstrong-publications.com/product/step-ahead-with-rust/) for intermediate to advanced programmers
 
 ### From Rust All Hands in Berlin
 
