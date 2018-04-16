@@ -143,7 +143,6 @@ The community team is trying to improve outreach to meetup organisers. Please fi
 * [Apr 18. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/ckwdlpyxgbxb/).
 * [Apr 18. Wrocław, PL - Technocracy. 1st Rust Meetup in Wrocław](https://www.meetup.com/Technocracy/events/249259107/).
 * [Apr 18. Milano, IT - Rust Exercises](https://www.meetup.com/rust-language-milano/events/249592365/).
-* [Apr 19. Rust release triage](https://internals.rust-lang.org/t/release-cycle-triage-proposal/3544).
 * [Apr 19. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxgbzb/).
 * [Apr 21. Chennai, IN - Monthly Meetup - April](https://www.meetup.com/mad-rs/events/249535481/).
 * [Apr 22. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxgbdc/).
