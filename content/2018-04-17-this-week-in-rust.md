@@ -23,14 +23,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust pattern: Rooting an Rc handle](http://smallcultfollowing.com/babysteps/blog/2018/04/16/rust-pattern-rooting-an-rc-handle/).
 * [Conway's Game of Life: A tutorial on implementing a game in Rust and WebAssembly](https://rust-lang-nursery.github.io/rust-wasm/game-of-life/introduction.html).
 * [Safe intrusive collections with pinning](https://www.ralfj.de/blog/2018/04/10/safe-intrusive-collections-with-pinning.html).
-* [Rust memory safety revolution: Why, what and how for complete beginners](https://anixe.pl/content/news/rust_memory_safety_revolution).
+* [Rust memory safety revolution: Why, what, and how for complete beginners](https://anixe.pl/content/news/rust_memory_safety_revolution).
 * [A useful feature few Rust programmers know about](http://rickyhan.com/jekyll/update/2018/04/16/the-best-kept-secret-rust-feature.html). The `{:#?}` pretty-printer flag.
 * [Instance identity in C++ and Rust](https://jrvanwhy.github.io/instance-identity/).
 * [A shifty riddle: Why is `std::ops::Shl::shl` not equal to `<<`](https://llogiq.github.io/2018/04/11/shift.html)?
 * [Fearless Rust bloggers](https://users.rust-lang.org/t/fearless-rust-bloggers/16770). A list of blogs from past This Week in Rust issues.
 * [This week in Rust docs 101](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-101).
 * [The Embedded Working Group newsletter 3](https://internals.rust-lang.org/t/the-embedded-working-group-newsletter-3/7319).
-* [CLI Working Group newsletter #2](https://internals.rust-lang.org/t/cli-wg-newsletter-2/7309).
+* [CLI Working Group newsletter 2](https://internals.rust-lang.org/t/cli-wg-newsletter-2/7309).
 * [IntelliJ Rust changelog 72](https://intellij-rust.github.io/2018/04/16/changelog-72.html). Now with support for macro expansion.
 * [podcast] [Rusty Spike Podcast - episode 25](https://rusty-spike.blubrry.net/2018/04/12/episode-25-apr-11-2018/). Rust Reach, the Rust all hands, webassembly.studio, more wasm tools, async/await, and GStreamer.
 
