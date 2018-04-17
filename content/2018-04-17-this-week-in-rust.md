@@ -28,6 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Instance identity in C++ and Rust](https://jrvanwhy.github.io/instance-identity/).
 * [A shifty riddle: Why is `std::ops::Shl::shl` not equal to `<<`](https://llogiq.github.io/2018/04/11/shift.html)?
 * [Fearless Rust bloggers](https://users.rust-lang.org/t/fearless-rust-bloggers/16770). A list of blogs from past This Week in Rust issues.
+* Armstrong Publications released a Rust book [Step Ahead with Rust](https://www.armstrong-publications.com/product/step-ahead-with-rust/) for intermediate to advanced programmers.
 * [This week in Rust docs 101](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-101).
 * [The Embedded Working Group newsletter 3](https://internals.rust-lang.org/t/the-embedded-working-group-newsletter-3/7319).
 * [CLI Working Group newsletter 2](https://internals.rust-lang.org/t/cli-wg-newsletter-2/7309).
