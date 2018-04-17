@@ -28,7 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [shiplift](https://crates.io/crates/shiplift), a rusty API for talking with docker daemons. Thanks to [Matthias Beyer](https://users.rust-lang.org/u/musicmatze) for the suggestion!
+This week's crate is [rain](https://github.com/substantic/rain), a framework for large-scale distributed computations. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -55,33 +55,39 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-200 (!) pull requests were [merged in the last week][merged]
+143 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-04-02..2018-04-09
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-04-09..2018-04-16
 
-* [better `Debug` for `proc_macro` types](https://github.com/rust-lang/rust/pull/49748)
-* [proc_macro: reorganize public API](https://github.com/rust-lang/rust/pull/49597)
-* [AST: give spans to all identifiers](https://github.com/rust-lang/rust/pull/49154)
-* [stabilize attributes on generic parameters](https://github.com/rust-lang/rust/pull/48851)
-* [mem-categorization, coherence fix](https://github.com/rust-lang/rust/pull/49714)
-* [fix ICE with `main`'s return type containing lifetimes](https://github.com/rust-lang/rust/pull/49692)
-* [Make queries thread safe](https://github.com/rust-lang/rust/pull/49045)
-* [Print query stack on ICEs](https://github.com/rust-lang/rust/pull/49222)
-* [miri: add public alloc_kind accessor](https://github.com/rust-lang/rust/pull/49625)
-* [miri: make write_discriminant_value public](https://github.com/rust-lang/rust/pull/49758)
-* [add more `vec![... ; n]` optimizations](https://github.com/rust-lang/rust/pull/49496)
-* [`impl Unpin for Pin`](https://github.com/rust-lang/rust/pull/49621)
-* [introduce `Vec::resize_with` method](https://github.com/rust-lang/rust/pull/49559)
-* [expand macros in `extern {}` blocks](https://github.com/rust-lang/rust/pull/49350)
-* [non-exhaustive enums/structs: finishing touches](https://github.com/rust-lang/rust/pull/49345/files)
-* [add `Iterator::find_map`](https://github.com/rust-lang/rust/pull/49098)
-* [`std::sync::atomic::Atomic*::`{`fetch_min`, `fetch_max`, `fetch_update`}](https://github.com/rust-lang/rust/pull/48658)
-* [stabilize iterator methods in 1.27](https://github.com/rust-lang/rust/pull/49607)
-* [stabilize String::replace_range](https://github.com/rust-lang/rust/pull/49577)
-* [`cargo build --out-dir`](https://github.com/rust-lang/cargo/pull/5203)
-* [crates.io: allow feature names to begin with numbers](https://github.com/rust-lang/crates.io/pull/1331)
-* [rustdoc: handle future deprecation annotations](https://github.com/rust-lang/rust/pull/49179)
-* [book: update mdbook, allows search](https://github.com/rust-lang/rust/pull/49623)
+* [implement Euclidean modulo](https://github.com/rust-lang/rust/pull/49389) (RFC #[2169](https://rust-lang.github.io/rfcs/2169-euclidean-modulo.html))
+* [implement `#[repr(packed(n))]`](https://github.com/rust-lang/rust/pull/48528) (RFC #[1399](https://rust-lang.github.io/rfcs/1399-repr-pack.html))
+* [fix unsoundness bug in functions input references](https://github.com/rust-lang/rust/pull/49885)
+* [skip MIR encoding for cargo check](https://github.com/rust-lang/rust/pull/49433)
+* [proc_macro: avoid cached `TokenStream` more often](https://github.com/rust-lang/rust/pull/49852)
+* [proc_macro: Generalize `FromIterator` impl](https://github.com/rust-lang/rust/pull/49734)
+* [hygiene 2.0: avoid comparing fields by name](https://github.com/rust-lang/rust/pull/49718)
+* [fix derive(PartialOrd) and optimise final field operation](https://github.com/rust-lang/rust/pull/49881)
+* [update `?` repetition disambiguation](https://github.com/rust-lang/rust/pull/49719)
+* [suggest `!` for erroneous identifier `not`](https://github.com/rust-lang/rust/pull/49258)
+* [fix incorrect span in `&mut` suggestion](https://github.com/rust-lang/rust/pull/49931)
+* [don't recurse into allocations, use a global table instead](https://github.com/rust-lang/rust/pull/49833)
+* [Fix ICE by disallowing `impl Trait` in unsupported position](https://github.com/rust-lang/rust/pull/49830)
+* [chalkify: Implement lowering rule Implied-Bound-From-Trait](https://github.com/rust-lang/rust/pull/49435)
+* [don't abort const eval due to long running evals, just warn](https://github.com/rust-lang/rust/pull/49947)
+* [add `GlobalAlloc` trait + tweaks for initial stabilization](https://github.com/rust-lang/rust/pull/49669)
+* [add `to_bytes` and `from_bytes` to primitive integers](https://github.com/rust-lang/rust/pull/49871)
+* [correctly print fractional part of a second](https://github.com/rust-lang/cargo/pull/5357)
+* [stabilize `Option::filter`](https://github.com/rust-lang/rust/pull/49575)
+* [stabilize `fetch_nand`](https://github.com/rust-lang/rust/pull/49963)
+* [stabilize `take_set_limit`](https://github.com/rust-lang/rust/pull/49681)
+* [move `Range`*`::contains` to a single default impl on `RangeBounds`](https://github.com/rust-lang/rust/pull/49130)
+* [replace manual iterator exhaust with `for_each(drop)`](https://github.com/rust-lang/rust/pull/48945)
+* [merge the `std_unicode` crate into the `core` crate](https://github.com/rust-lang/rust/pull/49698)
+* [core: Remove panics from some `Layout` methods](https://github.com/rust-lang/rust/pull/49884)
+* [cargo: include package metadata in `cargo metadata`](https://github.com/rust-lang/cargo/pull/5360)
+* [cargo: rustc cache](https://github.com/rust-lang/cargo/pull/5359)
+* [rustdoc: add target features when extracting and running doctests](https://github.com/rust-lang/rust/pull/49864)
+* [rustdoc: port the -C option from rustc](https://github.com/rust-lang/rust/pull/49956)
 
 ## New Contributors
 
