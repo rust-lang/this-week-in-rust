@@ -151,6 +151,7 @@ The community team is trying to improve outreach to meetup organisers. Please fi
 * [Apr 24. Dallas, US - Last Tuesday Meetup](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxgbgc/).
 * [Apr 25. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
 * [Apr 25. Rust Events Team Meeting](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Apr 26. NYC, US - Rust NYC (Security)](https://www.meetup.com/Rust-NYC/events/249849155/).
 * [Apr 27. Darmstadt, DE - Rhein-Main Rust Meetup](https://www.meetup.com/Rust-Rhein-Main/events/249543182/).
 * **[May 27. Paris, FR - RustFest Paris 2018](https://paris.rustfest.eu/)**.
 
