@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Reports from the Madrid Rust+GNOME Hackfest](https://wiki.gnome.org/Hackfests/Rust2018#Reports) (at the bottom of the page).
+
 # Crate of the Week
 
 This week's crate is [rain](https://github.com/substantic/rain), a framework for large-scale distributed computations. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion!
