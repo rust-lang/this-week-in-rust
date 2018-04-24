@@ -17,7 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Announcing cargo src (beta)](https://ncameron.org/blog/announcing-cargo-src-beta/).
-* [Hello `wasm-pack`](https://hacks.mozilla.org/2018/04/hello-wasm-pack/)! `wasm-pack` is a tool for assembling and packaging Rust crates that target WebAssembly.
+* [Hello `wasm-pack`](https://hacks.mozilla.org/2018/04/hello-wasm-pack/) - a tool for assembling and packaging Rust crates that targets WebAssembly.
 * [Dev-tools team: Goals for 2018](https://www.ncameron.org/blog/dev-tools-in-2018/).
 * [pdf] [Rust case study: Chucklefish taps Rust to bring safe concurrency to video games](https://www.rust-lang.org/pdfs/Rust-Chucklefish-Whitepaper.pdf).
 * [Facebook announces fastmod, a code refactoring tool written in Rust](https://twitter.com/fbOpenSource/status/987050395972255744).
@@ -26,6 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Announcing the Network Services Working Group (WG-Net)](https://internals.rust-lang.org/t/announcing-the-network-services-working-group-wg-net/7354).
 * [Small WebAssembly binaries with Rust + Emscripten](https://kripken.github.io/blog/binaryen/2018/04/18/rust-emscripten.html).
 * [This week in Rust docs 102](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-102).
+* [podcast] [Rusty Spike Podcast - episode 26](https://rusty-spike.blubrry.net/2018/04/19/episode-26-apr-18-2018/). wasm-pack, SIMD, IntelliJ, VSCode, cargo src, hackfests, rustfmt, and redox.
 
 # Crate of the Week
 
