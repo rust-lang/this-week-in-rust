@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Reports from the Madrid Rust+GNOME Hackfest](https://wiki.gnome.org/Hackfests/Rust2018#Reports) (at the bottom of the page).
+
 # Crate of the Week
 
 This week's crate is [human-panic](https://crates.io/crates/human-panic), a crate to make Rust's error handling usable to end users. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion!
