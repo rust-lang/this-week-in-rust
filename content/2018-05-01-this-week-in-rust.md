@@ -30,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Rust docs 103](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-103).
 * [This week in Rust and WebAssembly 001](https://rustwasm.github.io/2018/04/21/this-week-in-rust-wasm-001.html).
 * [The Embedded Working Group newsletter 4](https://internals.rust-lang.org/t/the-embedded-working-group-newsletter-4/7414).
+* [CLI Working Group newsletter 3](https://internals.rust-lang.org/t/cli-wg-newsletter-3/7406).
 * [podcast] [Rusty Spike Podcast - episode 27](https://rusty-spike.blubrry.net/2018/04/26/episode-27-apr-25-2018/). Game development, GNOME, Facebook, and match-making.
 * [podcast] [New Rustacean: e023 – Traits deep dive, part 1](https://newrustacean.com/show_notes/e023/).
 
