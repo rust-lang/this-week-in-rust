@@ -16,6 +16,23 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [regex 1.0 is released](https://github.com/rust-lang/regex/releases/tag/1.0.0).
+* [nperf: A sampling CPU profiler for Linux written in Rust from Nokia](https://github.com/nokia/nperf).
+* [How to speed up the Rust compiler in 2018](https://blog.mozilla.org/nnethercote/2018/04/30/how-to-speed-up-the-rust-compiler-in-2018/).
+* [Borrowing in async code](https://aturon.github.io/2018/04/24/async-borrowing/).
+* [An alias-based formulation of the borrow checker](http://smallcultfollowing.com/babysteps/blog/2018/04/27/an-alias-based-formulation-of-the-borrow-checker/).
+* [Writing an OS in Rust: Unit testing](https://os.phil-opp.com/unit-testing/).
+* [How does dynamic dispatch work in WebAssembly](http://fitzgeraldnick.com/2018/04/26/how-does-dynamic-dispatch-work-in-wasm.html)?
+* [Rust pattern: Precise closure capture clauses](http://smallcultfollowing.com/babysteps/blog/2018/04/24/rust-pattern-precise-closure-capture-clauses/).
+* [Embedded Rust experiments - Flipping some bits high on STM32VLDISCOVERY board](https://nercury.github.io/rust/embedded/experiments/2018/04/29/rust-embedded-01-discovery-vl-flipping-bits.html).
+* [Introducing Sentry for Rust](https://blog.sentry.io/2018/05/01/sentry-for-rust).
+* [Installing Rust offline](https://hatsunearu.github.io/2018/04/29/rust-offline/).
+* [This week in Rust docs 103](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-103).
+* [This week in Rust and WebAssembly 001](https://rustwasm.github.io/2018/04/21/this-week-in-rust-wasm-001.html).
+* [The Embedded Working Group newsletter 4](https://internals.rust-lang.org/t/the-embedded-working-group-newsletter-4/7414).
+* [podcast] [Rusty Spike Podcast - episode 27](https://rusty-spike.blubrry.net/2018/04/26/episode-27-apr-25-2018/). Game development, GNOME, Facebook, and match-making.
+* [podcast] [New Rustacean: e023 – Traits deep dive, part 1](https://newrustacean.com/show_notes/e023/).
+
 # Crate of the Week
 
 This week's crate is [human-panic](https://crates.io/crates/human-panic), a crate to make Rust's error handling usable to end users. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion!
@@ -31,7 +48,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [hard] [tarpaulin: Link error with undefined reference to main on Arch](https://github.com/xd009642/tarpaulin/issues/23). Tarpaulin is a code coverage tool for Rust projects.
 * [Clippy](https://github.com/rust-lang-nursery/rust-clippy) has a lot of [good first issues](https://github.com/rust-lang-nursery/rust-clippy/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) to get started.
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
 
@@ -69,13 +85,13 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Dylan MacKenzie
-* Johannes Nixdorf
-* Kerem
-* krk
-* Nathaniel McCallum
-* Nicholas Rishel
-* Russell Cohen
+* Aaron Aaeng
+* Irina Popa
+* James Sanderson
+* Pazzaz
+* Philipp Hansch
+* Ralf Biedert
+* z4v1er
 
 ## Approved RFCs
 
@@ -83,7 +99,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2318: Custom test frameworks](https://github.com/rust-lang/rfcs/pull/2318).
 
 ## Final Comment Period
 
@@ -93,41 +109,40 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [disposition: merge] [Custom test frameworks](https://github.com/rust-lang/rfcs/pull/2318).
 * [disposition: merge] [Reserve `try` for `try { .. }` block expressions](https://github.com/rust-lang/rfcs/pull/2388).
 * [disposition: merge] [Async/await notation for ergonomic asynchronous IO](https://github.com/rust-lang/rfcs/pull/2394).
-* [disposition: postpone] [Macros Derive PlopAhead and PlopBehind](https://github.com/rust-lang/rfcs/pull/2390).
-* [disposition: close] [Add `unless` and `until` as reserved keywords to the Rust language](https://github.com/rust-lang/rfcs/pull/2384).
+* [disposition: merge] [Unreserve `proc`](https://github.com/rust-lang/rfcs/pull/2420).
 
 ## New RFCs
 
-* [optimise(size) attribute](https://github.com/rust-lang/rfcs/pull/2412).
-* [iter-fn: Implementing iterators from stateful closures](https://github.com/rust-lang/rfcs/pull/2406). Make trivial to have an iterator by just writing a function/closure.
-* [carrying_mul](https://github.com/rust-lang/rfcs/pull/2417). Add an inherent method to integral types which does a double-wide multiplication.
+* [Add Async trait and task system to libcore](https://github.com/rust-lang/rfcs/pull/2418).
+* [Unreserve `proc`](https://github.com/rust-lang/rfcs/pull/2420).
+* [Keyword unreservations (pure, sizeof, alignof, offsetof)](https://github.com/rust-lang/rfcs/pull/2421).
+* [`throw` expressions](https://github.com/rust-lang/rfcs/pull/2426).
 
 # Upcoming Events
 
 The community team is trying to improve outreach to meetup organisers. Please fill out their [call for contact info](https://docs.google.com/forms/d/e/1FAIpQLSf52YXGhqBaHtCXtVna4iHYMK7IQaTqUW6V-ztsZC8C2TBInQ/viewform) if you are running or used to run a meetup.
 
-* [Apr 26. New York City, US - Rust NYC (Security)](https://www.meetup.com/Rust-NYC/events/249849155/).
-* [Apr 27. Darmstadt, DE - Rhein-Main Rust Meetup](https://www.meetup.com/Rust-Rhein-Main/events/249543182/).
-* [Apr 29. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxgbmc/).
-* [May  1. Johannesburg, ZA - Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxhbcb/).
-* [May  2. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/249134945/).
-* [May  2. Cologne, DE - Rust Cologne - Constrained Solving](https://www.meetup.com/RustCologne/events/vnwndpyxhbdb/).
-* [May  2. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
-* [May  2. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/ckwdlpyxhbdb/).
-* [May  2. Atlanta, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/rhvgrmyxhbdb/).
-* [May  2. Indianapolis, US - Indy.rs - Actix Actor Framework](https://www.meetup.com/indyrs/events/cpvshpyxhbdb/).
 * [May  3. Utrecht, NL - Rust Workshop](https://www.meetup.com/Rust-Utrecht/events/248995086/).
 * [May  6. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxhbjb/).
 * [May  7. Sydney, AU - Rust Sydney - Meetup 13](https://www.meetup.com/Rust-Sydney/events/249764935/).
+* [May  8. Helsinki, FI - Finland Rust-lang Group - May Rust meetup](https://www.meetup.com/Finland-Rust-Meetup/events/250129359/).
+* [May  8. São Paulo, BR - Encontro de Comunidades - Guru-SP e RustLangBR na TOTVS](https://www.meetup.com/Guru-SP-Grupo-de-Usuarios-Ruby-de-Sao-Paulo/events/249463627/).
 * [May  8. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
 * [May  9. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
 * [May  9. Rust Events Team Meeting](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [May 10. Redwood City, US - Bay Area - Where "Self-Driving" Database Meets a "Rusty" Distributed Key-Value Store](https://www.meetup.com/Bay-Area-NewSQL-Database-Meetup/events/249676562/).
+* [May 10. Arlington, US - Rust DC - Learn+Try: parsing with nom](https://www.meetup.com/RustDC/events/249883820).
 * [May 10. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/lcsdqpyxhbnb/).
 * [May 10. San Diego, US - San Diego Rust May Meetup](https://www.meetup.com/San-Diego-Rust/events/249783590/).
+* [May 13. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxhbrb/).
+* [May 14. Seattle, US - Seattle Rust Monthly Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/hztzcpyxhbsb/).
+* [May 16. Denver, US - Rust Boulder/Denver - Rust Denver May Meetup](https://www.meetup.com/Rust-Boulder-Denver/events/249098925/).
+* [May 16. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
+* [May 16. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/249497881/).
+* [May 16. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/ckwdlpyxhbvb/).
+* [May 17. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxhbwb/).
 * **[May 27. Paris, FR - RustFest Paris 2018](https://paris.rustfest.eu/)**.
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -144,11 +159,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I’ve become fearless in Rust, but it’s made me fear every other language…
+> last time i talked to the infra team they made a bot to replace kennytm. i fear if I ask them to write a rust based unikernel with a custom os to host the docs they’ll actually do it
 
-— [u/bluejekyll on reddit](https://www.reddit.com/r/rust/comments/8babua/fearless_rust_bloggers/dx6ay6k/?context=1).
+— [@killercup on Twitter](https://twitter.com/killercup/status/988894247075155968).
 
-Thanks to [nasa42](https://users.rust-lang.org/t/twir-quote-of-the-week/328/515) for the suggestion!
+Thanks to [skade](https://users.rust-lang.org/t/twir-quote-of-the-week/328/516) for the suggestion!
 
 [Submit your quotes for next week][submit]!
 
