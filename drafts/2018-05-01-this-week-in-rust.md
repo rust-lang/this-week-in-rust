@@ -35,7 +35,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [human-panic](https://crates.io/crates/human-panic), a crate to make Rust's error handling usable to end users. Thanks to [Vikrant](https://users.rust-lang.org/u/nasa42) for the suggestion!
+This week's crate is [imgref](https://github.com/kornelski/imgref), a trivial Rust struct for interchange of pixel buffers with width, height and stride. Thanks to [Willi Kappler](https://users.rust-lang.org/u/willi_kappler) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -49,6 +49,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Clippy](https://github.com/rust-lang-nursery/rust-clippy) has a lot of [good first issues](https://github.com/rust-lang-nursery/rust-clippy/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) to get started.
+* [mutagen has more 'good first issues'](https://github.com/llogiq/mutagen/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -57,31 +58,39 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-132 pull requests were [merged in the last week][merged]
+140 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-04-16..2018-04-23
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-04-23..2018-04-30
 
-* [stabilize x86/x86_64 SIMD](https://github.com/rust-lang/rust/pull/49664) (WOOT!)
-* [wasm: increase default stack size to 1MB](https://github.com/rust-lang/rust/pull/50083)
-* [std: minimize size of panicking on wasm](https://github.com/rust-lang/rust/pull/49488)
-* [remove 'proc' from the reserved keywords list](https://github.com/rust-lang/rust/pull/49699)
-* [proc_macro: stay on the "use the cache" path more](https://github.com/rust-lang/rust/pull/50069)
-* [work around LLVM debuginfo problem in librustc_driver](https://github.com/rust-lang/rust/pull/49904)
-* [avoid allocating when parsing \u{...} literals](https://github.com/rust-lang/rust/pull/50052)
-* [parser: do not override syntactic context for dummy spans](https://github.com/rust-lang/rust/pull/50152)
-* [lazily evaluate EvalErrorKind::*.into() calls](https://github.com/rust-lang/rust/pull/50051)
-* [change the hashcounts in raw `Lit` variants from `usize` to `u16`](https://github.com/rust-lang/rust/pull/49993)
-* [remove HIR inlining](https://github.com/rust-lang/rust/pull/49991)
-* [properly handle ranges of signed enums using both extremums](https://github.com/rust-lang/rust/pull/49981)
-* [update Rhs on ShlAssign to default to Self](https://github.com/rust-lang/rust/pull/49630)
-* [add inherent methods in libcore for `[T]`, `[u8]`, `str`, `f32`, and `f64`](https://github.com/rust-lang/rust/pull/49896)
-* [implement size_hint for some iterators](https://github.com/rust-lang/cargo/pull/5272)
-* [atomic: remove 'Atomic*' from Debug output](https://github.com/rust-lang/rust/pull/48553)
-* [replace {`Alloc`, `GlobalAlloc`}`::oom` with a lang item](https://github.com/rust-lang/rust/pull/50144)
-* [stabilize a bunch of minor api additions](https://github.com/rust-lang/rust/pull/50017)
-* [rustdoc: UI tests for rustdoc](https://github.com/rust-lang/rust/pull/49542)
-* [rustdoc: add doc search aliases](https://github.com/rust-lang/rust/pull/49757)
-* [cargo: add new metadata fields](https://github.com/rust-lang/cargo/pull/5386)
+* [make incremental compilation thread-safe](https://github.com/rust-lang/rust/pull/49732)
+* [display correct unused field suggestion for nested struct patterns](https://github.com/rust-lang/rust/pull/50327)
+* [improve error message for `#[repr(align=x)]`](https://github.com/rust-lang/rust/pull/50317)
+* [don't ICE on tuple struct ctor with incorrect arg count](https://github.com/rust-lang/rust/pull/50257)
+* [warn on all erroneous constants](https://github.com/rust-lang/rust/pull/50110)
+* [warn on pointless #[derive] in more places](https://github.com/rust-lang/rust/pull/50092)
+* [better error message when trying to write default impls](https://github.com/rust-lang/rust/pull/49372)
+* [mark `std::str::replace`(`n`) as `#[must_use]`](https://github.com/rust-lang/rust/pull/50177)
+* [allow MIR borrowck to catch unused mutable locals](https://github.com/rust-lang/rust/pull/48605)
+* [allow `#[inline]` on closures](https://github.com/rust-lang/rust/pull/50273)
+* [rustc: emit `uwtable` for allocator shims](https://github.com/rust-lang/rust/pull/50263)
+* [make `dump_`{`alloc`,`allocs`,`local`}`()` no-ops when tracing is disabled](https://github.com/rust-lang/rust/pull/50246)
+* [implement LazyBTreeMap and use it in a few places](https://github.com/rust-lang/rust/pull/50240)
+* [speed up `nearest_common_ancestor`](https://github.com/rust-lang/rust/pull/50106)
+* [use `FxHashMap` in `syntax_pos::symbol::Interner::intern`](https://github.com/rust-lang/rust/pull/50174)
+* [make `Vec::new` a `const fn`](https://github.com/rust-lang/rust/pull/50233)
+* [fix ICE with erroneous `impl Trait` in a trait impl](https://github.com/rust-lang/rust/pull/50227)
+* [use enum for approximate suggestions](https://github.com/rust-lang/rust/pull/50204)
+* [core: fix overflow in `int::mod_euc` when `self < 0 && rhs == MIN`](https://github.com/rust-lang/rust/pull/50185)
+* [remove hack around comparisons of i1 values](https://github.com/rust-lang/rust/pull/50137)
+* [stabilize dyn trait](https://github.com/rust-lang/rust/pull/49968)
+* [stabilize `std::hint::unreachable_unchecked`](https://github.com/rust-lang/rust/pull/49906)
+* [compiletest: detect non-ICE compiler panics](https://github.com/rust-lang/rust/pull/49891)
+* [rustc_driver: catch ICEs on the main thread too](https://github.com/rust-lang/rust/pull/49826)
+* [add `Cell::update`](https://github.com/rust-lang/rust/pull/49727)
+* [treat `repr(Rust)` univariant fieldless enums as ZSTs](https://github.com/rust-lang/rust/pull/49513)
+* [std: inline `DefaultResizePolicy::new`](https://github.com/rust-lang/rust/pull/50306)
+* [cargo: add target directory parameter --target-dir](https://github.com/rust-lang/cargo/pull/5393)
+* [docs: add "the Rustc book"](https://github.com/rust-lang/rust/pull/49707)
 
 ## New Contributors
 
