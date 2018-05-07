@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Refactoring Apache Arrow to use traits and generics](https://andygrove.io/2018/05/apache-arrow-traits-generics/).
+
 # Crate of the Week
 
 This week's crate is [imgref](https://github.com/kornelski/imgref), a trivial Rust struct for interchange of pixel buffers with width, height and stride. Thanks to [Willi Kappler](https://users.rust-lang.org/u/willi_kappler) for the suggestion!
