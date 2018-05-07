@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Refactoring Apache Arrow to use traits and generics](https://andygrove.io/2018/05/apache-arrow-traits-generics/).
+* [Rust: Enterprise Services Need Not Suck](https://medium.com/@paulhoughton/rust-enterprise-services-need-not-suck-679b79edcab5).
 
 # Crate of the Week
 
