@@ -30,7 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [imgref](https://github.com/kornelski/imgref), a trivial Rust struct for interchange of pixel buffers with width, height and stride. Thanks to [Willi Kappler](https://users.rust-lang.org/u/willi_kappler) for the suggestion!
+This week's crate is [semverver](https://crates.io/crates/semverver), a currently nightly-only cargo subcommand to detect semver violations. Thanks to [Dzmitry Malyshau](https://users.rust-lang.org/u/kvark) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -56,39 +56,33 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-140 pull requests were [merged in the last week][merged]
+145 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-04-23..2018-04-30
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-04-30..2018-05-07
 
-* [make incremental compilation thread-safe](https://github.com/rust-lang/rust/pull/49732)
-* [display correct unused field suggestion for nested struct patterns](https://github.com/rust-lang/rust/pull/50327)
-* [improve error message for `#[repr(align=x)]`](https://github.com/rust-lang/rust/pull/50317)
-* [don't ICE on tuple struct ctor with incorrect arg count](https://github.com/rust-lang/rust/pull/50257)
-* [warn on all erroneous constants](https://github.com/rust-lang/rust/pull/50110)
-* [warn on pointless #[derive] in more places](https://github.com/rust-lang/rust/pull/50092)
-* [better error message when trying to write default impls](https://github.com/rust-lang/rust/pull/49372)
-* [mark `std::str::replace`(`n`) as `#[must_use]`](https://github.com/rust-lang/rust/pull/50177)
-* [allow MIR borrowck to catch unused mutable locals](https://github.com/rust-lang/rust/pull/48605)
-* [allow `#[inline]` on closures](https://github.com/rust-lang/rust/pull/50273)
-* [rustc: emit `uwtable` for allocator shims](https://github.com/rust-lang/rust/pull/50263)
-* [make `dump_`{`alloc`,`allocs`,`local`}`()` no-ops when tracing is disabled](https://github.com/rust-lang/rust/pull/50246)
-* [implement LazyBTreeMap and use it in a few places](https://github.com/rust-lang/rust/pull/50240)
-* [speed up `nearest_common_ancestor`](https://github.com/rust-lang/rust/pull/50106)
-* [use `FxHashMap` in `syntax_pos::symbol::Interner::intern`](https://github.com/rust-lang/rust/pull/50174)
-* [make `Vec::new` a `const fn`](https://github.com/rust-lang/rust/pull/50233)
-* [fix ICE with erroneous `impl Trait` in a trait impl](https://github.com/rust-lang/rust/pull/50227)
-* [use enum for approximate suggestions](https://github.com/rust-lang/rust/pull/50204)
-* [core: fix overflow in `int::mod_euc` when `self < 0 && rhs == MIN`](https://github.com/rust-lang/rust/pull/50185)
-* [remove hack around comparisons of i1 values](https://github.com/rust-lang/rust/pull/50137)
-* [stabilize dyn trait](https://github.com/rust-lang/rust/pull/49968)
-* [stabilize `std::hint::unreachable_unchecked`](https://github.com/rust-lang/rust/pull/49906)
-* [compiletest: detect non-ICE compiler panics](https://github.com/rust-lang/rust/pull/49891)
-* [rustc_driver: catch ICEs on the main thread too](https://github.com/rust-lang/rust/pull/49826)
-* [add `Cell::update`](https://github.com/rust-lang/rust/pull/49727)
-* [treat `repr(Rust)` univariant fieldless enums as ZSTs](https://github.com/rust-lang/rust/pull/49513)
-* [std: inline `DefaultResizePolicy::new`](https://github.com/rust-lang/rust/pull/50306)
-* [cargo: add target directory parameter --target-dir](https://github.com/rust-lang/cargo/pull/5393)
-* [docs: add "the Rustc book"](https://github.com/rust-lang/rust/pull/49707)
+* [stable release 1.26.0](https://github.com/rust-lang/rust/pull/50510)
+* [add some groundwork for cross-language LTO](https://github.com/rust-lang/rust/pull/50000)
+* [fix ICE in assertion macro](https://github.com/rust-lang/rust/pull/50474)
+* [fix ICE when using `a..=b` in a closure](https://github.com/rust-lang/rust/pull/50421)
+* [forbid constructing empty identifiers from concat_idents](https://github.com/rust-lang/rust/pull/50406)
+* [proc_macro: explicitly make everything !Send/Sync](https://github.com/rust-lang/rust/pull/50453)
+* [introduce `-Znll-facts` to dump base-facts for the NLL analysis](https://github.com/rust-lang/rust/pull/50370)
+* [immutably and implicitly borrow all pattern ids for their guards (NLL only)](https://github.com/rust-lang/rust/pull/49870)
+* [fix a warning in libcore on 16bit targets](https://github.com/rust-lang/rust/pull/50369)
+* [stabilize `#[must_use]` for functions and must-use comparison operators](https://github.com/rust-lang/rust/pull/48925) (RFC [#1940](https://rust-lang.github.io/rfcs/1940-must-use-functions.html))
+* [reduce maximum repr(align(N)) to 2^29](https://github.com/rust-lang/rust/pull/50378)
+* [correct initial field alignment for `repr(C)`/`repr(int)`](https://github.com/rust-lang/rust/pull/50354)
+* [use `escape_default()` for strings in `LitKind::token()`](https://github.com/rust-lang/rust/pull/50391)
+* [extend `Printer::buf` on demand](https://github.com/rust-lang/rust/pull/50339)
+* [always inline simple `BytePos` and `CharPos` methods](https://github.com/rust-lang/rust/pull/50407)
+* [rustc: return iterators from `Terminator(Kind)::successors(_mut)`](https://github.com/rust-lang/rust/pull/50278)
+* [treat generators as if they have an arbitrary destructor](https://github.com/rust-lang/rust/pull/49943)
+* [`RangeInclusive::{new, start, end}` methods](https://github.com/rust-lang/rust/pull/49724)
+* [use `ManuallyDrop` instead of `Option` in `BinaryHeap` Hole implementation](https://github.com/rust-lang/rust/pull/50487)
+* [remove the deprecated `std::net::`{`lookup_host`,`LookupHost`}](https://github.com/rust-lang/rust/pull/50435)
+* [cargo: show elapsed time in minutes if >= 60 secs](https://github.com/rust-lang/cargo/pull/5456)
+* [rustdoc: resolve nested `impl Trait`s](https://github.com/rust-lang/rust/pull/50419)
+* [rustbuild: allow quick testing of libstd and libcore at stage0](https://github.com/rust-lang/rust/pull/50466)
 
 ## New Contributors
 
