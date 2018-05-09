@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Announcing the codegen working group](https://internals.rust-lang.org/t/announcing-the-codegen-working-group/7434).
 * [This week in Rust docs 104](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-104).
 * [Networking WG newsletter 1](https://internals.rust-lang.org/t/networking-wg-newletter-1/7431).
+* [podcast] [Rusty Spike Podcast - episode 28](https://rusty-spike.blubrry.net/2018/05/03/episode-28-may-2-2018/). Figma, Sentry, Polysync, Nokia, Maryland, regex, compilers, and the borrow checker.
 
 # Crate of the Week
 
@@ -138,7 +139,7 @@ The community team is trying to improve outreach to meetup organisers. Please fi
 * [May 23. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
 * [May 23. Rust Events Team Meeting](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * **[May 27. Paris, FR - RustFest Paris 2018](https://paris.rustfest.eu/)**.
-* [May 30/31 Rust/WASM course around JSConf.EU](https://ti.to/asquera-event-ug/rust-wasm-wwwtf-2018/).
+* [May 30/31. Rust/WASM course around JSConf.EU](https://ti.to/asquera-event-ug/rust-wasm-wwwtf-2018/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
