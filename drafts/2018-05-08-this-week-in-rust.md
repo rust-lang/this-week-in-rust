@@ -16,7 +16,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [New Tokio release, now with filesystem support](https://tokio.rs/blog/2018-05-tokio-fs/).
+* [Encapsulating lifetime of the field](https://matklad.github.io/2018/05/04/encapsulating-lifetime-of-the-field.html).
+* [Rust in production at Figma](https://blog.figma.com/rust-in-production-at-figma-e10a0ec31929).
+* [How fast can we compile Rust hello world](http://www.jonathanturner.org/2018/05/how-fast-can-we-compile-rust-hello-world.html)?
 * [Refactoring Apache Arrow to use traits and generics](https://andygrove.io/2018/05/apache-arrow-traits-generics/).
+* [Introducing gtk-test - a framework to test GTK UI](http://gtk-rs.org/blog/2018/05/02/who-talked-about-testing.html).
+* [Introducing seiri — a music manager written in Rust](https://medium.com/@chyyran/introducing-seiri-a-music-manager-for-lots-of-music-990b464b3387).
+* [sudo_pair: A sudo plugin from Square that requires another human to approve and monitor privileged sudo sessions](https://github.com/square/sudo_pair).
+* [Announcing the codegen working group](https://internals.rust-lang.org/t/announcing-the-codegen-working-group/7434).
+* [This week in Rust docs 104](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-104).
+* [Networking WG newsletter 1](https://internals.rust-lang.org/t/networking-wg-newletter-1/7431).
 
 # Crate of the Week
 
@@ -33,10 +43,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Clippy](https://github.com/rust-lang-nursery/rust-clippy) has a lot of [good first issues](https://github.com/rust-lang-nursery/rust-clippy/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) to get started.
-* [mutagen has more 'good first issues'](https://github.com/llogiq/mutagen/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
+* [Sodium Oxide: Call for maintainers](https://github.com/sodiumoxide/sodiumoxide/issues/203). Sodium Oxide is a fast cryptographic library for Rust (bindings to libsodium).
+* [easy] [gfx-rs: Set buffers mutability qualifiers on Metal compute pipelines](https://github.com/gfx-rs/gfx/issues/1999). gfx-rs is a high-performance, bindless graphics API for Rust.
+* [easy] [gfx-rs: Set threadGroupSizeIsMultipleOfThreadExecutionWidth on Metal compute pipelines](https://github.com/gfx-rs/gfx/issues/1998).
+* [easy] [gfx-rs: Use set_bytes for short temporary data in Metal internal shaders](https://github.com/gfx-rs/gfx/issues/1997).
+* [mutagen has some 'good first issues'](https://github.com/llogiq/mutagen/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
-* [hard] [tarpaulin: Link error with undefined reference to main on Arch](https://github.com/xd009642/tarpaulin/issues/23). Tarpaulin is a code coverage tool for Rust projects.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -80,13 +92,9 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Aaron Aaeng
-* Irina Popa
-* James Sanderson
-* Pazzaz
-* Philipp Hansch
-* Ralf Biedert
-* z4v1er
+* Harm Berntsen
+* rleungx
+* Samuel Wilson
 
 ## Approved RFCs
 
@@ -94,7 +102,8 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2318: Custom test frameworks](https://github.com/rust-lang/rfcs/pull/2318).
+* [RFC 2388: Reserve `try` for `try { .. }` block expressions](https://github.com/rust-lang/rfcs/pull/2388).
+* [RFC 2230: Bury `Error::description()`](https://github.com/rust-lang/rfcs/pull/2230).
 
 ## Final Comment Period
 
@@ -104,42 +113,38 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [disposition: merge] [Reserve `try` for `try { .. }` block expressions](https://github.com/rust-lang/rfcs/pull/2388).
-* [disposition: merge] [Async/await notation for ergonomic asynchronous IO](https://github.com/rust-lang/rfcs/pull/2394).
 * [disposition: merge] [Unreserve `proc`](https://github.com/rust-lang/rfcs/pull/2420).
+* [disposition: close] [`Result::pass()`, turning `Result<T,E>` into `Result<U,F>`, if `From` is set up](https://github.com/rust-lang/rfcs/pull/1996).
+* [disposition: close] [The ConstDefault trait](https://github.com/rust-lang/rfcs/pull/2204).
 
 ## New RFCs
 
-* [Add Async trait and task system to libcore](https://github.com/rust-lang/rfcs/pull/2418).
-* [Unreserve `proc`](https://github.com/rust-lang/rfcs/pull/2420).
-* [Keyword unreservations (pure, sizeof, alignof, offsetof)](https://github.com/rust-lang/rfcs/pull/2421).
-* [`throw` expressions](https://github.com/rust-lang/rfcs/pull/2426).
+* [Reserve `delegate` as a keyword in edition 2018](https://github.com/rust-lang/rfcs/pull/2429).
 
 # Upcoming Events
 
 The community team is trying to improve outreach to meetup organisers. Please fill out their [call for contact info](https://docs.google.com/forms/d/e/1FAIpQLSf52YXGhqBaHtCXtVna4iHYMK7IQaTqUW6V-ztsZC8C2TBInQ/viewform) if you are running or used to run a meetup.
 
-* [May  3. Utrecht, NL - Rust Workshop](https://www.meetup.com/Rust-Utrecht/events/248995086/).
-* [May  6. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxhbjb/).
-* [May  7. Sydney, AU - Rust Sydney - Meetup 13](https://www.meetup.com/Rust-Sydney/events/249764935/).
-* [May  8. Helsinki, FI - Finland Rust-lang Group - May Rust meetup](https://www.meetup.com/Finland-Rust-Meetup/events/250129359/).
-* [May  8. São Paulo, BR - Encontro de Comunidades - Guru-SP e RustLangBR na TOTVS](https://www.meetup.com/Guru-SP-Grupo-de-Usuarios-Ruby-de-Sao-Paulo/events/249463627/).
-* [May  8. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
-* [May  9. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
-* [May  9. Rust Events Team Meeting](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [May 10. Redwood City, US - Bay Area - Where "Self-Driving" Database Meets a "Rusty" Distributed Key-Value Store](https://www.meetup.com/Bay-Area-NewSQL-Database-Meetup/events/249676562/).
 * [May 10. Arlington, US - Rust DC - Learn+Try: parsing with nom](https://www.meetup.com/RustDC/events/249883820).
 * [May 10. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/lcsdqpyxhbnb/).
 * [May 10. San Diego, US - San Diego Rust May Meetup](https://www.meetup.com/San-Diego-Rust/events/249783590/).
 * [May 13. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxhbrb/).
 * [May 14. Seattle, US - Seattle Rust Monthly Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/hztzcpyxhbsb/).
+* [May 15. Rome, IT - Rust learning and hacking evening #8](https://www.meetup.com/Rust-Roma/events/250581929/).
+* [May 16. Orange County, US - Coding Session and Discussion](https://www.meetup.com/oc-rust/events/250342850/).
 * [May 16. Denver, US - Rust Boulder/Denver - Rust Denver May Meetup](https://www.meetup.com/Rust-Boulder-Denver/events/249098925/).
 * [May 16. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
 * [May 16. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/249497881/).
 * [May 16. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/ckwdlpyxhbvb/).
 * [May 17. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxhbwb/).
+* [May 20. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxhbbc/).
+* [May 22. Paris, FR - Rust Paris meetup #42](https://www.meetup.com/Rust-Paris/events/250587163/).
+* [May 22. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
+* [May 23. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
+* [May 23. Rust Events Team Meeting](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * **[May 27. Paris, FR - RustFest Paris 2018](https://paris.rustfest.eu/)**.
-* [May 30./31. Rust/WASM course around JSConf.EU](https://ti.to/asquera-event-ug/rust-wasm-wwwtf-2018/).
+* [May 30/31 Rust/WASM course around JSConf.EU](https://ti.to/asquera-event-ug/rust-wasm-wwwtf-2018/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -149,17 +154,13 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-*No jobs listed for this week.*
+* [Rust Engineer at Commure, Inc. San Francisco, US](https://news.ycombinator.com/item?id=16968087).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> last time i talked to the infra team they made a bot to replace kennytm. i fear if I ask them to write a rust based unikernel with a custom os to host the docs they’ll actually do it
-
-— [@killercup on Twitter](https://twitter.com/killercup/status/988894247075155968).
-
-Thanks to [skade](https://users.rust-lang.org/t/twir-quote-of-the-week/328/516) for the suggestion!
+*No quote was selected for QotW.*
 
 [Submit your quotes for next week][submit]!
 
