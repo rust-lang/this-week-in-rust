@@ -16,9 +16,22 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* 🎈🎉 [Announcing Rust 1.26](https://blog.rust-lang.org/2018/05/10/Rust-1.26.html). 🎉🎈
+* 🎈🎉 [Rust turns three](https://blog.rust-lang.org/2018/05/15/Rust-turns-three.html). 🎉🎈
+* [How Rust 1.26 more than tripled the speed of my code](http://troubles.md/posts/the-power-of-compilers/).
+* [Notes on impl Trait](https://www.reddit.com/r/rust/comments/8ik620/notes_on_impl_trait/).
+* [Entity-Component-System architecture for UI in Rust](https://raphlinus.github.io/personal/2018/05/08/ecs-ui.html).
+* [Performance experiments with matrix multiplication](https://vorner.github.io/2018/05/12/Mat-perf.html).
+* [Cortex-M library development now possible on beta and the path towards stable embedded Rust](https://users.rust-lang.org/t/cortex-m-library-development-now-possible-on-beta-and-the-path-towards-stable-embedded-rust/17420).
+* [nom 4.0 released: faster, safer, simpler parsers](http://unhandledexpression.com/general/2018/05/14/nom-4-0-faster-safer-simpler-parsers.html).
+* [This week in Rust docs 105](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-105).
+* [This week in Rust and WebAssembly 2](https://rustwasm.github.io/2018/05/14/this-week-in-rust-wasm-002.html).
+* [These weeks in dev tools issue 4](https://www.ncameron.org/blog/these-weeks-in-dev-tools-issue-4/).
+* [podcast] [New Rustacean: Rust 1.26](https://newrustacean.com/show_notes/e023/). impl trait, match on references, Results from main, and more. A good way to mark three years since Rust 1.0!
+
 # Crate of the Week
 
-This week's crate is [semverver](https://crates.io/crates/askama), a Jinja-like type-safe compiled templating engine. Thanks to [Icefoxen](https://users.rust-lang.org/u/Icefoxen) for the suggestion!
+This week's crate is [Askama](https://crates.io/crates/askama), a Jinja-like type-safe compiled templating engine. Thanks to [Icefoxen](https://users.rust-lang.org/u/Icefoxen) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -31,11 +44,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Sodium Oxide: Call for maintainers](https://github.com/sodiumoxide/sodiumoxide/issues/203). Sodium Oxide is a fast cryptographic library for Rust (bindings to libsodium).
+* [rustc-guide](https://github.com/rust-lang-nursery/rustc-guide) is a project to write a short guide about how the rust compiler works, and it needs your help. There are some [easier issues](https://github.com/rust-lang-nursery/rustc-guide/issues?q=is%3Aissue+is%3Aopen+label%3AEasy), [issues which might require a bit of investigation/code reading](https://github.com/rust-lang-nursery/rustc-guide/issues?q=is%3Aissue+is%3Aopen+label%3AMedium), and [issues which probably require some advanced knowledge or a lot of time](https://github.com/rust-lang-nursery/rustc-guide/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3AHard).
 * [easy] [gfx-rs: Set buffers mutability qualifiers on Metal compute pipelines](https://github.com/gfx-rs/gfx/issues/1999). gfx-rs is a high-performance, bindless graphics API for Rust.
 * [easy] [gfx-rs: Set threadGroupSizeIsMultipleOfThreadExecutionWidth on Metal compute pipelines](https://github.com/gfx-rs/gfx/issues/1998).
 * [easy] [gfx-rs: Use set_bytes for short temporary data in Metal internal shaders](https://github.com/gfx-rs/gfx/issues/1997).
-* [mutagen has some 'good first issues'](https://github.com/llogiq/mutagen/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -79,9 +91,16 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## New Contributors
 
-* Harm Berntsen
-* rleungx
-* Samuel Wilson
+* Aaron DeVore
+* C Jones
+* Collins Abitekaniza
+* Isaac Whitfield
+* Katrin Leinweber
+* Martin Husemann
+* Roman Stoliar
+* Sebastian Köln
+* Tim Allen
+* Tomas Gavenciak
 
 ## Approved RFCs
 
@@ -89,8 +108,8 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2388: Reserve `try` for `try { .. }` block expressions](https://github.com/rust-lang/rfcs/pull/2388).
-* [RFC 2230: Bury `Error::description()`](https://github.com/rust-lang/rfcs/pull/2230).
+* [RFC 2394: Async/await notation for ergonomic asynchronous IO](https://github.com/rust-lang/rfcs/pull/2394).
+* [RFC 2420: Unreserve `proc`](https://github.com/rust-lang/rfcs/pull/2420).
 
 ## Final Comment Period
 
@@ -100,38 +119,35 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 [fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
 
-* [disposition: merge] [Unreserve `proc`](https://github.com/rust-lang/rfcs/pull/2420).
-* [disposition: close] [`Result::pass()`, turning `Result<T,E>` into `Result<U,F>`, if `From` is set up](https://github.com/rust-lang/rfcs/pull/1996).
 * [disposition: close] [The ConstDefault trait](https://github.com/rust-lang/rfcs/pull/2204).
 
 ## New RFCs
 
-* [Reserve `delegate` as a keyword in edition 2018](https://github.com/rust-lang/rfcs/pull/2429).
+* [Rust style guide](https://github.com/rust-lang/rfcs/pull/2436).
+* [Rustfmt stability](https://github.com/rust-lang/rfcs/pull/2437).
+* [Simple postfix macros](https://github.com/rust-lang/rfcs/pull/2442).
+* [Reserve `throw` and `fail` as keywords in edition 2018](https://github.com/rust-lang/rfcs/pull/2441).
+* [DerefMove](https://github.com/rust-lang/rfcs/pull/2439). Add a new `DerefMove` trait that allows consuming a smart pointer to move its contents, as in `let x = *p`;
+* [Deny the `overflowing_literals` lint for the 2018 edition](https://github.com/rust-lang/rfcs/pull/2438).
 
 # Upcoming Events
 
 The community team is trying to improve outreach to meetup organisers. Please fill out their [call for contact info](https://docs.google.com/forms/d/e/1FAIpQLSf52YXGhqBaHtCXtVna4iHYMK7IQaTqUW6V-ztsZC8C2TBInQ/viewform) if you are running or used to run a meetup.
 
-* [May 10. Redwood City, US - Bay Area - Where "Self-Driving" Database Meets a "Rusty" Distributed Key-Value Store](https://www.meetup.com/Bay-Area-NewSQL-Database-Meetup/events/249676562/).
-* [May 10. Arlington, US - Rust DC - Learn+Try: parsing with nom](https://www.meetup.com/RustDC/events/249883820).
-* [May 10. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/lcsdqpyxhbnb/).
-* [May 10. San Diego, US - San Diego Rust May Meetup](https://www.meetup.com/San-Diego-Rust/events/249783590/).
-* [May 13. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxhbrb/).
-* [May 14. Seattle, US - Seattle Rust Monthly Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/hztzcpyxhbsb/).
-* [May 15. Rome, IT - Rust learning and hacking evening #8](https://www.meetup.com/Rust-Roma/events/250581929/).
-* [May 16. Orange County, US - Coding Session and Discussion](https://www.meetup.com/oc-rust/events/250342850/).
-* [May 16. Denver, US - Rust Boulder/Denver - Rust Denver May Meetup](https://www.meetup.com/Rust-Boulder-Denver/events/249098925/).
-* [May 16. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
-* [May 16. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/249497881/).
-* [May 16. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/ckwdlpyxhbvb/).
-* [May 17. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxhbwb/).
+* [May 19. Chennai, IN - Rust Monthly Meetup - May](https://www.meetup.com/mad-rs/events/250714467/).
 * [May 20. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxhbbc/).
 * [May 22. Paris, FR - Rust Paris meetup #42](https://www.meetup.com/Rust-Paris/events/250587163/).
 * [May 22. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
 * [May 23. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
 * [May 23. Rust Events Team Meeting](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [May 23. Durham, US - Triangle Rustaceans - Async Programming With Tokio](https://www.meetup.com/triangle-rustaceans/events/kkjnpnyxhblc/).
 * **[May 27. Paris, FR - RustFest Paris 2018](https://paris.rustfest.eu/)**.
-* [May 30/31. Rust/WASM course around JSConf.EU](https://ti.to/asquera-event-ug/rust-wasm-wwwtf-2018/).
+* [May 27. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxhbkc/).
+* [May 29. Dallas, US - Last Tuesday Meetup](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxhbmc/).
+* [May 30/31. Berlin, DE - Rust/WASM course around JSConf.EU](https://ti.to/asquera-event-ug/rust-wasm-wwwtf-2018/).
+* [May 30. Berlin, DE - Berlin Mozilla Meetup - Rust Hack and Learn](https://www.meetup.com/Berlin-Mozilla-Meetup/events/tvmmslyxhbnc/).
+* [May 30. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
+* [May 30. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/ckwdlpyxhbnc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -141,7 +157,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Engineer at Commure, Inc. San Francisco, US](https://news.ycombinator.com/item?id=16968087).
+*No jobs listed for this week.*
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
