@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [semverver](https://crates.io/crates/semverver), a currently nightly-only cargo subcommand to detect semver violations. Thanks to [Dzmitry Malyshau](https://users.rust-lang.org/u/kvark) for the suggestion!
+This week's crate is [semverver](https://crates.io/crates/askama), a Jinja-like type-safe compiled templating engine. Thanks to [Icefoxen](https://users.rust-lang.org/u/Icefoxen) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -44,33 +44,38 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-145 pull requests were [merged in the last week][merged]
+153 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-04-30..2018-05-07
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-05-07..2018-05-14
 
-* [stable release 1.26.0](https://github.com/rust-lang/rust/pull/50510)
-* [add some groundwork for cross-language LTO](https://github.com/rust-lang/rust/pull/50000)
-* [fix ICE in assertion macro](https://github.com/rust-lang/rust/pull/50474)
-* [fix ICE when using `a..=b` in a closure](https://github.com/rust-lang/rust/pull/50421)
-* [forbid constructing empty identifiers from concat_idents](https://github.com/rust-lang/rust/pull/50406)
-* [proc_macro: explicitly make everything !Send/Sync](https://github.com/rust-lang/rust/pull/50453)
-* [introduce `-Znll-facts` to dump base-facts for the NLL analysis](https://github.com/rust-lang/rust/pull/50370)
-* [immutably and implicitly borrow all pattern ids for their guards (NLL only)](https://github.com/rust-lang/rust/pull/49870)
-* [fix a warning in libcore on 16bit targets](https://github.com/rust-lang/rust/pull/50369)
-* [stabilize `#[must_use]` for functions and must-use comparison operators](https://github.com/rust-lang/rust/pull/48925) (RFC [#1940](https://rust-lang.github.io/rfcs/1940-must-use-functions.html))
-* [reduce maximum repr(align(N)) to 2^29](https://github.com/rust-lang/rust/pull/50378)
-* [correct initial field alignment for `repr(C)`/`repr(int)`](https://github.com/rust-lang/rust/pull/50354)
-* [use `escape_default()` for strings in `LitKind::token()`](https://github.com/rust-lang/rust/pull/50391)
-* [extend `Printer::buf` on demand](https://github.com/rust-lang/rust/pull/50339)
-* [always inline simple `BytePos` and `CharPos` methods](https://github.com/rust-lang/rust/pull/50407)
-* [rustc: return iterators from `Terminator(Kind)::successors(_mut)`](https://github.com/rust-lang/rust/pull/50278)
-* [treat generators as if they have an arbitrary destructor](https://github.com/rust-lang/rust/pull/49943)
-* [`RangeInclusive::{new, start, end}` methods](https://github.com/rust-lang/rust/pull/49724)
-* [use `ManuallyDrop` instead of `Option` in `BinaryHeap` Hole implementation](https://github.com/rust-lang/rust/pull/50487)
-* [remove the deprecated `std::net::`{`lookup_host`,`LookupHost`}](https://github.com/rust-lang/rust/pull/50435)
-* [cargo: show elapsed time in minutes if >= 60 secs](https://github.com/rust-lang/cargo/pull/5456)
-* [rustdoc: resolve nested `impl Trait`s](https://github.com/rust-lang/rust/pull/50419)
-* [rustbuild: allow quick testing of libstd and libcore at stage0](https://github.com/rust-lang/rust/pull/50466)
+* [set PrepareForThinLTO flag when using ThinLTO](https://github.com/rust-lang/rust/pull/50684)
+* [typeck: fix ICE with struct update syntax](https://github.com/rust-lang/rust/pull/50643)
+* [typeck: save the index of private fields](https://github.com/rust-lang/rust/pull/50693)
+* [use `SmallVec` for `DepNodeIndex` within `dep_graph`](https://github.com/rust-lang/rust/pull/50565)
+* [inline `Span` methods](https://github.com/rust-lang/rust/pull/50564)
+* [don't use Lock for heavily accessed `CrateMetadata::cnum_map`](https://github.com/rust-lang/rust/pull/50532)
+* [do not silently truncate offsets for `read_at`/`write_at` on emscripten](https://github.com/rust-lang/rust/pull/50634)
+* [fix `panic` for binaries built during tests](https://github.com/rust-lang/cargo/pull/5513)
+* [fix volatile_store and nontemporal_store](https://github.com/rust-lang/rust/pull/50648)
+* [rustc: leave space for fields of uninhabited types to allow partial initialization](https://github.com/rust-lang/rust/pull/50622)
+* [rustc: don't trip an assertion for enums with present but uninhabited variants](https://github.com/rust-lang/rust/pull/50735)
+* [rustc: allow an edition's feature on that edition](https://github.com/rust-lang/rust/pull/50663)
+* [rustc: include semicolon when removing `extern crate`](https://github.com/rust-lang/rust/pull/50670)
+* [improve single-use and zero-use lifetime lints](https://github.com/rust-lang/rust/pull/50440)
+* [prevent infinite recursion of modules](https://github.com/rust-lang/rust/pull/50305)
+* [fix self referential impl Trait substitutions](https://github.com/rust-lang/rust/pull/50694)
+* [macros: Add a 'literal' fragment specifier](https://github.com/rust-lang/rust/pull/49835)
+* [rename Pin to PinMut, and some more breaking changes](https://github.com/rust-lang/rust/pull/50497)
+* [stabilize macro_lifetime_matcher](https://github.com/rust-lang/rust/pull/50385)
+* [don't allocate when creating an empty BTree](https://github.com/rust-lang/rust/pull/50352)
+* [only lookup types in one interner](https://github.com/rust-lang/rust/pull/50332)
+* [idiom lints for removing `extern crate`](https://github.com/rust-lang/rust/pull/50260)
+* [added missing implementation hint](https://github.com/rust-lang/rust/pull/50161)
+* [make `String::new()` const](https://github.com/rust-lang/rust/pull/50460)
+* [turn `ManuallyDrop::new` into a constant function](https://github.com/rust-lang/rust/pull/50148)
+* [std: avoid `ptr::copy` if unnecessary in `vec::Drain`](https://github.com/rust-lang/rust/pull/50575)
+* [add fn `into_inner(self) -> (Idx, Idx)` to RangeInclusive](https://github.com/rust-lang/rust/pull/50574)
+* [./x.py test should be able to run individual tests](https://github.com/rust-lang/rust/pull/49729)
 
 ## New Contributors
 
