@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [The Rust compiler is getting faster](https://blog.mozilla.org/nnethercote/2018/05/17/the-rust-compiler-is-getting-faster/).
 * [Rand 0.5.0 released with quite significant changes over 0.4](https://www.reddit.com/r/rust/comments/8l95zk/rand_050_released/).
-* [Cannoli: A Python Compiler Written Entirely in Rust](https://github.com/joncatanio/cannoli).
+* [Cannoli: A Python compiler written entirely in Rust](https://github.com/joncatanio/cannoli).
 * [Auto reloading development web servers with systemfd/listenfd](https://www.reddit.com/r/rust/comments/8kpea2/ann_auto_reloading_development_web_servers_with/).
 * [Migrating to Actix Web from Rocket for stability](https://nbsoftsolutions.com/blog/migrating-to-actix-web-from-rocket-for-stability).
 * [Improving SmallVec's speed by 60% and why that shouldn't matter to you](http://troubles.md/posts/improving-smallvec/).
@@ -27,8 +27,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Building a Datalog engine in under 300 lines of Rust](https://github.com/frankmcsherry/blog/blob/master/posts/2018-05-19.md).
 * [Porting Rust benchmarks to Criterion](https://llogiq.github.io/2018/05/18/criterion.html).
 * [Compile time prevention of SQL-injections in Rust](https://polyfloyd.net/post/compile-time-prevention-of-sql-injections/).
-* [The Embedded Working Group newsletter 5](https://internals.rust-lang.org/t/the-embedded-working-group-newsletter-5/7536).
 * [This week in Rust docs 106](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-106).
+* [The Embedded Working Group newsletter 5](https://internals.rust-lang.org/t/the-embedded-working-group-newsletter-5/7536).
 * [podcast] [CoRecursive w/ Adam Bell - 013](https://corecursive.com/013-rust-and-with-jim-blandy). Rust and bitter C++ developers with Jim Blandy, one of the authors of Programming Rust.
 * [podcast] [Rusty Spike Podcast - episode 29](https://rusty-spike.blubrry.net/2018/05/17/episode-29-may-16-2018/). Square, Amazon, the 1.26 release, Cloudflare, Rust’s birthday, and three-fold improvements.
 
