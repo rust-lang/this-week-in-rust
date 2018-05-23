@@ -22,7 +22,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Auto reloading development web servers with systemfd/listenfd](https://www.reddit.com/r/rust/comments/8kpea2/ann_auto_reloading_development_web_servers_with/).
 * [Migrating to Actix Web from Rocket for stability](https://nbsoftsolutions.com/blog/migrating-to-actix-web-from-rocket-for-stability).
 * [Improving SmallVec's speed by 60% and why that shouldn't matter to you](http://troubles.md/posts/improving-smallvec/).
-* [Validating UTF-8 strings using as little as 0.7 cycles per byte](https://lemire.me/blog/2018/05/16/validating-utf-8-strings-using-as-little-as-0-7-cycles-per-byte/).
 * [Swapping and dropping to accelerate Rust in a benchmark](https://barrielle.cedeela.fr/research_page/dropping-drops.html).
 * [Building a Datalog engine in under 300 lines of Rust](https://github.com/frankmcsherry/blog/blob/master/posts/2018-05-19.md).
 * [Porting Rust benchmarks to Criterion](https://llogiq.github.io/2018/05/18/criterion.html).
