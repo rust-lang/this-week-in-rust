@@ -34,7 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [Askama](https://crates.io/crates/askama), a Jinja-like type-safe compiled templating engine. Thanks to [Icefoxen](https://users.rust-lang.org/u/Icefoxen) for the suggestion!
+This week's crate is [Thunder](https://crates.io/crates/thunder), a crate for creating simple command-line programs. Thanks to [Bujiraso](https://users.rust-lang.org/u/Bujiraso) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -57,38 +57,57 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-153 pull requests were [merged in the last week][merged]
+140 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-05-07..2018-05-14
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-05-14..2018-05-21
 
-* [set PrepareForThinLTO flag when using ThinLTO](https://github.com/rust-lang/rust/pull/50684)
-* [typeck: fix ICE with struct update syntax](https://github.com/rust-lang/rust/pull/50643)
-* [typeck: save the index of private fields](https://github.com/rust-lang/rust/pull/50693)
-* [use `SmallVec` for `DepNodeIndex` within `dep_graph`](https://github.com/rust-lang/rust/pull/50565)
-* [inline `Span` methods](https://github.com/rust-lang/rust/pull/50564)
-* [don't use Lock for heavily accessed `CrateMetadata::cnum_map`](https://github.com/rust-lang/rust/pull/50532)
-* [do not silently truncate offsets for `read_at`/`write_at` on emscripten](https://github.com/rust-lang/rust/pull/50634)
-* [fix `panic` for binaries built during tests](https://github.com/rust-lang/cargo/pull/5513)
-* [fix volatile_store and nontemporal_store](https://github.com/rust-lang/rust/pull/50648)
-* [rustc: leave space for fields of uninhabited types to allow partial initialization](https://github.com/rust-lang/rust/pull/50622)
-* [rustc: don't trip an assertion for enums with present but uninhabited variants](https://github.com/rust-lang/rust/pull/50735)
-* [rustc: allow an edition's feature on that edition](https://github.com/rust-lang/rust/pull/50663)
-* [rustc: include semicolon when removing `extern crate`](https://github.com/rust-lang/rust/pull/50670)
-* [improve single-use and zero-use lifetime lints](https://github.com/rust-lang/rust/pull/50440)
-* [prevent infinite recursion of modules](https://github.com/rust-lang/rust/pull/50305)
-* [fix self referential impl Trait substitutions](https://github.com/rust-lang/rust/pull/50694)
-* [macros: Add a 'literal' fragment specifier](https://github.com/rust-lang/rust/pull/49835)
-* [rename Pin to PinMut, and some more breaking changes](https://github.com/rust-lang/rust/pull/50497)
-* [stabilize macro_lifetime_matcher](https://github.com/rust-lang/rust/pull/50385)
-* [don't allocate when creating an empty BTree](https://github.com/rust-lang/rust/pull/50352)
-* [only lookup types in one interner](https://github.com/rust-lang/rust/pull/50332)
-* [idiom lints for removing `extern crate`](https://github.com/rust-lang/rust/pull/50260)
-* [added missing implementation hint](https://github.com/rust-lang/rust/pull/50161)
-* [make `String::new()` const](https://github.com/rust-lang/rust/pull/50460)
-* [turn `ManuallyDrop::new` into a constant function](https://github.com/rust-lang/rust/pull/50148)
-* [std: avoid `ptr::copy` if unnecessary in `vec::Drain`](https://github.com/rust-lang/rust/pull/50575)
-* [add fn `into_inner(self) -> (Idx, Idx)` to RangeInclusive](https://github.com/rust-lang/rust/pull/50574)
-* [./x.py test should be able to run individual tests](https://github.com/rust-lang/rust/pull/49729)
+* [implement label break value](https://github.com/rust-lang/rust/pull/50045) (RFC [#2046](TODO))
+* [lexer: fix span override for the first token in a string](https://github.com/rust-lang/rust/pull/50924)
+* [rustc: disallow modules and macros in expansions](https://github.com/rust-lang/rust/pull/50820)
+* [prevent main from having a where clause](https://github.com/rust-lang/rust/pull/50782)
+* [fix `fn main() -> impl Trait` for non-`Termination` trait](https://github.com/rust-lang/rust/pull/50656)
+* [resolve: don't add unnecessary import candidates for `prefix::{self}` imports](https://github.com/rust-lang/rust/pull/50908)
+* [rustc: introduce {ast,hir}::AnonConst to consolidate so-called "embedded constants"](https://github.com/rust-lang/rust/pull/50851)
+* [fix conversion from Miri Value to ConstValue](https://github.com/rust-lang/rust/pull/50710)
+* [unused shorthand field pattern finally fixed(?)](https://github.com/rust-lang/rust/pull/50854)
+* [NLL: stop considering location when computing outlives relationships](https://github.com/rust-lang/rust/pull/50593)
+* [NLL: use `reset_unifications` instead of creating new unification table](https://github.com/rust-lang/rust/pull/50874)
+* [cleanup uses of TypeIdHasher and replace them with StableHasher](https://github.com/rust-lang/rust/pull/50531)
+* [ensure derive(PartialOrd) is no longer accidentally exponential](https://github.com/rust-lang/rust/pull/50011)
+* [review proc macro API 1.2](https://github.com/rust-lang/rust/pull/50473)
+* [speed up the macro parser](https://github.com/rust-lang/rust/pull/50855)
+* [speed up `opt_normalize_projection_type`](https://github.com/rust-lang/rust/pull/50818)
+* [streamline `StringReader::bump`](https://github.com/rust-lang/rust/pull/50566)
+* [tweak `nearest_common_ancestor()`](https://github.com/rust-lang/rust/pull/50649)
+* [`CheckLoopVisitor`: also visit break expressions](https://github.com/rust-lang/rust/pull/50829)
+* [don't lint numeric overflows in promoteds in release mode](https://github.com/rust-lang/rust/pull/50841)
+* [add lint checks for unused loop labels](https://github.com/rust-lang/rust/pull/50763)
+* [turn deprecation lint `legacy_imports` into a hard error](https://github.com/rust-lang/rust/pull/50760)
+* [make the `const_err` lint `deny`-by-default](https://github.com/rust-lang/rust/pull/50653)
+* [remove vestigial diverging !-coercion](https://github.com/rust-lang/rust/pull/50351)
+* [reduce span highlighted code in unused_variables lint](https://github.com/rust-lang/rust/pull/50675)
+* [update LLVM to fix performance regression](https://github.com/rust-lang/rust/pull/50827)
+* [emit noalias on &mut parameters by default](https://github.com/rust-lang/rust/pull/50744) (hooray!)
+* [add auto-impl for primitive type](https://github.com/rust-lang/rust/pull/50533)
+* [fix an ICE when attempting to transmute an uninhabited type](https://github.com/rust-lang/rust/pull/50803)
+* [fix an ICE when casting a nonexistent const](https://github.com/rust-lang/rust/pull/50788)
+* [switch Vec from doubling size on growth to using RawVec's reserve](https://github.com/rust-lang/rust/pull/50739)
+* [ensure that statics are always ByRef](https://github.com/rust-lang/rust/pull/50690)
+* [don't unconditionally set CLOEXEC twice on every fd we open on Linux](https://github.com/rust-lang/rust/pull/50638)
+* [improve format string errors](https://github.com/rust-lang/rust/pull/50610)
+* [rustc_mir: allow promotion of promotable temps indexed at runtime](https://github.com/rust-lang/rust/pull/50603)
+* [add Option::xor method](https://github.com/rust-lang/rust/pull/50553)
+* [implement `[T]::align_to`](https://github.com/rust-lang/rust/pull/50319)
+* [implement edition hygiene for keywords](https://github.com/rust-lang/rust/pull/50307)
+* [add implementation of Extend for ()](https://github.com/rust-lang/rust/pull/50234)
+* [implement From for more types on Cow](https://github.com/rust-lang/rust/pull/50170)
+* [stabilize `num::NonZeroU*`](https://github.com/rust-lang/rust/pull/50808)
+* [stabilize `inclusive_range_methods`](https://github.com/rust-lang/rust/pull/50758)
+* [stabilize opt-level={s,z}](https://github.com/rust-lang/rust/pull/50265)
+* [rustdoc: Add minification process](https://github.com/rust-lang/rust/pull/50632)
+* [rustdoc: replace most (e)println! statements with structured warnings/errors](https://github.com/rust-lang/rust/pull/50541)
+* [fix rustdoc panic with `impl Trait` in type parameters](https://github.com/rust-lang/rust/pull/50728)
+* [compiletest: run revisions as independent tests](https://github.com/rust-lang/rust/pull/50400)
 
 ## New Contributors
 
