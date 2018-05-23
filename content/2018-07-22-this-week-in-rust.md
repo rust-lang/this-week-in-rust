@@ -61,7 +61,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-05-14..2018-05-21
 
-* [implement label break value](https://github.com/rust-lang/rust/pull/50045) (RFC [#2046](https://github.com/rust-lang/rfcs/pull/2046))
+* [implement label break value](https://github.com/rust-lang/rust/pull/50045) (RFC [#2046](https://github.com/rust-lang/rfcs/blob/master/text/2046-label-break-value.md))
 * [lexer: fix span override for the first token in a string](https://github.com/rust-lang/rust/pull/50924)
 * [rustc: disallow modules and macros in expansions](https://github.com/rust-lang/rust/pull/50820)
 * [prevent main from having a where clause](https://github.com/rust-lang/rust/pull/50782)
