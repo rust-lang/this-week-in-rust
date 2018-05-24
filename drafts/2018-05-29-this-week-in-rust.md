@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Wicked Fast Web Servers in Rust -- An introduction to writing a simple web server using Thruster](https://medium.com/@MertzAlertz/wicked-fast-web-servers-in-rust-4947688426bc)
+
 # Crate of the Week
 
 This week's crate is [Thunder](https://crates.io/crates/thunder), a crate for creating simple command-line programs. Thanks to [Bujiraso](https://users.rust-lang.org/u/Bujiraso) for the suggestion!
