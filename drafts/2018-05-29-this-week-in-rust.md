@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Clippy is removing the `#![plugin(clippy)]` API in favour of `cargo clippy`](https://github.com/rust-lang-nursery/rust-clippy/pull/2783)
+
 # Crate of the Week
 
 This week's crate is [Thunder](https://crates.io/crates/thunder), a crate for creating simple command-line programs. Thanks to [Bujiraso](https://users.rust-lang.org/u/Bujiraso) for the suggestion!
