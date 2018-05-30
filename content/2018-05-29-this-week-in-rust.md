@@ -35,7 +35,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### RSoC Projects
 
 * [Porting tokio-rs to redox](https://www.redox-os.org/news/rsoc-porting-tokio-1/).
-* [Implementing a FAT32 Filesystem in Redox](https://www.redox-os.org/news/rsoc-fat32-1/)
+* [Implementing a FAT32 Filesystem in Redox](https://www.redox-os.org/news/rsoc-fat32-1/).
 
 # Crate of the Week
 
