@@ -29,9 +29,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### GSoC Projects
 
-* [Porting tokio-rs to redox](https://www.redox-os.org/news/rsoc-porting-tokio-to-redox/).
 * [Nebulet - Booting up](http://lsneff.me/nebulet-booting-up/). Nebulet is a microkernel that executes WebAssembly. See also: [Why Nebulet](http://lsneff.me/why-nebulet/)?
 * [Cargo-ebuild - GSoC week 1 report](https://gibix.github.io/2018/05/20/gsoc-week-1-report.html).
+
+### RSoC Projects
+
+* [Porting tokio-rs to redox](https://www.redox-os.org/news/rsoc-porting-tokio-1/).
+* [Implementing a FAT32 Filesystem in Redox](https://www.redox-os.org/news/rsoc-fat32-1/)
 
 # Crate of the Week
 
