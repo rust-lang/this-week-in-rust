@@ -20,10 +20,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Exploring Rust fat pointers](https://iandouglasscott.com/2018/05/28/exploring-rust-fat-pointers/).
 * [Typed key pattern](https://matklad.github.io/2018/05/24/typed-key-pattern.html). A pattern for extracting values from a weakly typed map.
 * [aturon.log: listening and trust, part 1](https://aturon.github.io/2018/05/25/listening-part-1/). Thoughts on controversies from past week.
-* [Fuzz testing in Rust with Cargo-fuzz](https://medium.com/@seasoned_sw/fuzz-testing-in-rust-with-cargo-fuzz-13b89feecc30).
-* [Bobbin SDK: Richer hardware abstractions for embedded systems programming](http://www.bobbin.io/blog/post/bobbin_sdk_richer_hardware/).
-* [Wicked fast web servers in Rust - An introduction to writing a simple web server using Thruster](https://medium.com/@MertzAlertz/wicked-fast-web-servers-in-rust-4947688426bc)
 * [Clippy is removing the `#![plugin(clippy)]` API in favour of `cargo clippy`](https://github.com/rust-lang-nursery/rust-clippy/pull/2783).
+* [Fuzz testing in Rust with Cargo-fuzz](https://medium.com/@seasoned_sw/fuzz-testing-in-rust-with-cargo-fuzz-13b89feecc30).
+* [Wicked fast web servers in Rust - An introduction to writing a simple web server using Thruster](https://medium.com/@MertzAlertz/wicked-fast-web-servers-in-rust-4947688426bc).
+* [Bobbin SDK: Richer hardware abstractions for embedded systems programming](http://www.bobbin.io/blog/post/bobbin_sdk_richer_hardware/).
 * [video] [RustFest Paris 2018 recordings](https://www.youtube.com/watch?v=23lRkdDXqY0&list=PL85XCvVPmGQgdqz9kz6qH3SI_hp7Zb4s1).
 * [podcast] [Rusty Spike Podcast - episode 30](https://rusty-spike.blubrry.net/2018/05/24/episode-30-may-23-2018/). Compile times, Aaron’s new quest, books, logic programming, JetBrains, and RustConf.
 
