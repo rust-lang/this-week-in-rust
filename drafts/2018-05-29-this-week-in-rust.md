@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Wicked Fast Web Servers in Rust -- An introduction to writing a simple web server using Thruster](https://medium.com/@MertzAlertz/wicked-fast-web-servers-in-rust-4947688426bc)
 * [Clippy is removing the `#![plugin(clippy)]` API in favour of `cargo clippy`](https://github.com/rust-lang-nursery/rust-clippy/pull/2783)
 
 # Crate of the Week
