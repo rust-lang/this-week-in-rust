@@ -205,6 +205,7 @@ The community team is trying to improve outreach to meetup organisers. Please fi
 * [May 30. Milano, IT - Rust Exercises](https://www.meetup.com/rust-language-milano/events/250868847/).
 * [Jun  2. Florianópolis, BR - 1º Encontro Rust Floripa](https://www.meetup.com/rustfloripa/events/xvglrpyxjbdb/).
 * [Jun  3. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxhbbc/).
+* [Jun  4. Rust Hack & Learn - Karlsruhe, Technologiefabrik](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/250646555/).
 * [Jun  5. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
 * [Jun  5. Johannesburg, ZA - Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxjbhb/).
 * [Jun  6. Rust Events Team Meeting](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
