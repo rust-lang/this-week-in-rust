@@ -22,6 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [aturon.log: listening and trust, part 1](https://aturon.github.io/2018/05/25/listening-part-1/). Thoughts on controversies from past week.
 * [Fuzz testing in Rust with Cargo-fuzz](https://medium.com/@seasoned_sw/fuzz-testing-in-rust-with-cargo-fuzz-13b89feecc30).
 * [Bobbin SDK: Richer hardware abstractions for embedded systems programming](http://www.bobbin.io/blog/post/bobbin_sdk_richer_hardware/).
+* [Wicked fast web servers in Rust - An introduction to writing a simple web server using Thruster](https://medium.com/@MertzAlertz/wicked-fast-web-servers-in-rust-4947688426bc)
 * [Clippy is removing the `#![plugin(clippy)]` API in favour of `cargo clippy`](https://github.com/rust-lang-nursery/rust-clippy/pull/2783).
 * [video] [RustFest Paris 2018 recordings](https://www.youtube.com/watch?v=23lRkdDXqY0&list=PL85XCvVPmGQgdqz9kz6qH3SI_hp7Zb4s1).
 * [podcast] [Rusty Spike Podcast - episode 30](https://rusty-spike.blubrry.net/2018/05/24/episode-30-may-23-2018/). Compile times, Aaron’s new quest, books, logic programming, JetBrains, and RustConf.
@@ -165,7 +166,7 @@ The community team is trying to improve outreach to meetup organisers. Please fi
 * [Jun  2. Nairobi, KE - Rust on the BBC micro:bit](https://www.meetup.com/Rust-Nairobi/events/250762823/).
 * [Jun  2. Florianópolis, BR - 1º Encontro Rust Floripa](https://www.meetup.com/rustfloripa/events/xvglrpyxjbdb/).
 * [Jun  3. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxhbbc/).
-* [Jun  4. Karlsruhe, DE - Meetup & Talks](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/250646555/).
+* [Jun  4. Karlsruhe, DE - Rust Hack & Learn Karlsruhe - Meetup & Talks](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/250646555/).
 * [Jun  5. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
 * [Jun  5. Johannesburg, ZA - Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxjbhb/).
 * [Jun  6. Rust Events Team Meeting](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
