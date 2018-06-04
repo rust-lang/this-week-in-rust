@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Tricking the HashMap](https://idubrov.github.io/rust/2018/06/01/tricking-the-hashmap.html).
+
 # Crate of the Week
 
 This week's crate is [syntect](https://crates.io/crates/syntect), a library for syntax highlighting using Sublime Text syntax definitions. Thanks to [kornel](https://users.rust-lang.org/u/kornel) for the suggestion!
