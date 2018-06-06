@@ -16,6 +16,27 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* 🎈🎉 [Announcing Rust 1.26.2](https://blog.rust-lang.org/2018/06/05/Rust-1.26.2.html). 🎉🎈
+* [How to speed up the Rust compiler some more in 2018](https://blog.mozilla.org/nnethercote/2018/06/05/how-to-speed-up-the-rust-compiler-some-more-in-2018/).
+* [The future of Clippy (the Rust linter)](https://manishearth.github.io/blog/2018/06/05/the-future-of-clippy-the-rust-linter/).
+* [Async methods I: generic associated types](https://boats.gitlab.io/blog/post/async-methods-i/).
+* [Async methods II: object safety](https://boats.gitlab.io/blog/post/async-methods-ii/).
+* [Avoiding the pyramid of doom](https://www.reddit.com/r/rust/comments/8n4o5q/avoiding_the_pyramid_of_doom/).
+* [The Rust way of OS development](https://phil-opp.github.io/talk-konstanz-may-2018/).
+* [The secret life of Cows](https://deterministic.space/secret-life-of-cows.html).
+* [The state of Gotham](https://gotham.rs/blog/2018/05/31/the-state-of-gotham.html).
+* [Optimising path tracing with SIMD](https://bitshifter.github.io/blog/2018/06/04/simd-path-tracing/).
+* [Writing a simple web service in Rust with actix-web](https://danielwelch.github.io/rust-web-service.html).
+* [Newtype index pattern](https://matklad.github.io/2018/06/03/newtype-index-pattern.html).
+* [The Rust language and special cases](https://blog.infinitenegativeutility.com/2018/6/the-rust-language-and-special-cases).
+* [aturon.log: listening and trust, part 2](https://aturon.github.io/2018/06/02/listening-part-2/).
+* [Introducing feL4: Rust programs for the seL4 microkernel](https://www.reddit.com/r/rust/comments/8oqppz/introducing_fel4_rust_programs_for_the_sel4/).
+* [hyper v0.12 is released](http://seanmonstar.com/post/174480374517/hyper-v012).
+* [This week in Rust docs 107](https://guillaumegomez.github.io/this-week-in-rust-docs/blog/this-week-in-rust-docs-107).
+* [This week in Rust and WebAssembly 3](https://rustwasm.github.io/2018/06/04/this-week-in-rust-wasm-003.html).
+* [podcast] [New Rustacean: Crates you should know: wasm](https://newrustacean.com/show_notes/cysk/wasm/index.html). wasm intro, wasm-bindgen, and wasm-pack.
+* [podcast] [Rusty Spike Podcast - episode 31](https://rusty-spike.blubrry.net/2018/05/31/episode-31-may-30-2018/). 1.26.1 release, RustFest videos, Rust reach, RustRush 2018, and a bit of behind the scenes look at running Rust.
+
 # Crate of the Week
 
 This week's crate is [syntect](https://crates.io/crates/syntect), a library for syntax highlighting using Sublime Text syntax definitions. Thanks to [kornel](https://users.rust-lang.org/u/kornel) for the suggestion!
@@ -31,8 +52,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Have you ever complained that rustc is slow? We want to know more](https://github.com/rust-lang-nursery/rustc-perf/issues/232)!
-* [rand: Add wasm_bindgen support](https://github.com/rust-lang-nursery/rand/issues/478).
+* [wasm-pack has several open good first issues available to new contributors](https://github.com/ashleygwilliams/wasm-pack/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -102,68 +122,58 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [add the 2018 edition of the book to doc.rust-lang.org](https://github.com/rust-lang/rust/pull/50952)
 * [support `--target` argument in `cargo rustdoc`](https://github.com/rust-lang/cargo/pull/5587)
 
-## New Contributors
-
-* Benjamin Lamowski
-* Cory Sherman
-* Jaro Fietz
-* Joe ST
-* Martin Carton
-* Mateusz Mikuła
-* Nick Babcock
-* Takanori Ishibashi
-* uuttff8
-
 ## Approved RFCs
 
 Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2386: `#[used]` static variables](https://github.com/rust-lang/rfcs/pull/2386).
-* [RFC 2294: Allow `if let` guards in `match` expressions](https://github.com/rust-lang/rfcs/pull/2294).
-* [RFC 2421: Keyword unreservations (pure, sizeof, alignof, offsetof)](https://github.com/rust-lang/rfcs/pull/2421).
+* [Amend 1105: Unstable features accidentally usable on the Stable release chanel are still unstable](https://github.com/rust-lang/rfcs/pull/2405).
 
 ## Final Comment Period
 
 Every week [the team](https://www.rust-lang.org/team.html) announces the
 'final comment period' for RFCs and key PRs which are reaching a
-decision. Express your opinions now. [This week's FCPs][fcp] are:
+decision. Express your opinions now.
 
-[fcp]: https://github.com/rust-lang/rfcs/labels/final-comment-period
+### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Reserve `throw` and `fail` as keywords in edition 2018](https://github.com/rust-lang/rfcs/pull/2441).
-* [disposition: merge] [Unstable features accidentally usable on the Stable release chanel are still unstable](https://github.com/rust-lang/rfcs/pull/2405).
-* [disposition: postpone] [Implied `#[derive(SuperTrait)]`](https://github.com/rust-lang/rfcs/pull/2385).
-* [disposition: postpone] [DynSized without ?DynSized — Lint against use of `extern type` in `size_of_val`, and more](https://github.com/rust-lang/rfcs/pull/2310).
+*No RFCs are currently in final comment period.*
+
+### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
+
+* [disposition: merge] [Tracking issue for the GlobalAlloc trait and related APIs](https://github.com/rust-lang/rust/issues/49668).
+* [disposition: merge] [Stabilize GlobalAlloc and `#[global_allocator]`](https://github.com/rust-lang/rust/pull/51241).
+* [disposition: merge] [Tracking issue for `ToOwned::clone_into` (`toowned_clone_into`)](https://github.com/rust-lang/rust/issues/41263).
+* [disposition: merge] [Tracking issue for "macro naming and modularisation" (RFC #1561)](https://github.com/rust-lang/rust/issues/35896).
+* [disposition: merge] [Tracking issue for promoting `!` to a type (RFC 1216)](https://github.com/rust-lang/rust/issues/35121).
+* [disposition: merge] [Exhaustive integer matching](https://github.com/rust-lang/rust/pull/50912).
+* [disposition: merge] [Stabilize `std::path::Path::ancestors`](https://github.com/rust-lang/rust/pull/50894).
+* [disposition: merge] [Add ability to apply custom derive to union types](https://github.com/rust-lang/rust/pull/50383).
 
 ## New RFCs
 
-* [Announce tracking issues in FCP](https://github.com/rust-lang/rfcs/pull/2449).
-* [Lint for unused results of `const fn` functions](https://github.com/rust-lang/rfcs/pull/2450).
+* [Re-Rebalancing Coherence](https://github.com/rust-lang/rfcs/pull/2451).
+* [Allow non-ASCII identifiers](https://github.com/rust-lang/rfcs/pull/2457).
+* [Unused const fn results](https://github.com/rust-lang/rfcs/pull/2450).
 
 # Upcoming Events
 
-The community team is trying to improve outreach to meetup organisers. Please fill out their [call for contact info](https://docs.google.com/forms/d/e/1FAIpQLSf52YXGhqBaHtCXtVna4iHYMK7IQaTqUW6V-ztsZC8C2TBInQ/viewform) if you are running or used to run a meetup.
-
-* [Jun  2. Nairobi, KE - Rust on the BBC micro:bit](https://www.meetup.com/Rust-Nairobi/events/250762823/).
-* [Jun  2. Florianópolis, BR - 1º Encontro Rust Floripa](https://www.meetup.com/rustfloripa/events/xvglrpyxjbdb/).
-* [Jun  3. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxhbbc/).
-* [Jun  4. Karlsruhe, DE - Rust Hack & Learn Karlsruhe - Meetup & Talks](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/250646555/).
-* [Jun  5. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
-* [Jun  5. Johannesburg, ZA - Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxjbhb/).
-* [Jun  6. Rust Events Team Meeting](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-* [Jun  6. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
-* [Jun  6. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/cpvshpyxjbjb/).
-* [Jun  6. Atlanta, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/rhvgrmyxjbjb/).
 * [Jun 10. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxjbnb/).
 * [Jun 11. Seattle, US - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/hztzcpyxjbpb/).
+* [Jun 12. Rome, IT - Rust learning and hacking evening #9](https://www.meetup.com/Rust-Roma/events/251298815/).
 * [Jun 13. Berlin, DE - OpenTechSchool - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/250904450/).
 * [Jun 13. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
 * [Jun 13. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxjbrb/).
 * [Jun 14. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxjbsb/).
 * [Jun 14. San Diego, US - San Diego Rust June Meetup](https://www.meetup.com/San-Diego-Rust/events/251001684/).
 * [Jun 14. Utah Valley, US - Utah Rust meetup](https://docs.google.com/document/d/1O8S7IEfDw-3jTN74CWCuKYl_UWxTLd6-epz7NOMDYRg).
+* [Jun 17. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxjbwb/).
+* [Jun 19. Denver, US - Rust Boulder/Denver - June Meetup in Boulder](https://www.meetup.com/Rust-Boulder-Denver/events/250076478/).
+* [Jun 19. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
+* [Jun 20. Rust Events Team Meeting](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Jun 20. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
+* [Jun 21. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxjbcc/).
 * **[Aug 17. Portland, US - RustConf 2018](http://rustconf.com/).** Registration is now open.
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -174,15 +184,16 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-*No jobs listed for this week.*
-
-* [Freelance Rust developer in Paris (remote work available)](https://twitter.com/JonathanBelolo/status/1000128978936623104).
+* [Senior Backend Engineer at ClanHQ, San Francisco (remote available)](https://twitter.com/JonathanBelolo/status/1000128978936623104).
+* [Rust Developer at 1am, Berlin](https://twitter.com/__1aim/status/1002493500099833856).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> We’re able to replicate the structure of cows, but not their lifetimes, in C++, which makes Cows dangerous.
+
+— [Henri Sivonen](https://twitter.com/hsivonen) closing his talk about integrating Rust and C++ at [RustFest](https://paris.rustfest.eu/).
 
 [Submit your quotes for next week][submit]!
 
