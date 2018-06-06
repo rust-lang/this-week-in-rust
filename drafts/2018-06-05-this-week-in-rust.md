@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [syntect](https://crates.io/crates/syntect), a library for syntax highlighting using Sublime Text syntax definitions. Thanks to [kornel](https://users.rust-lang.org/u/kornel) for the suggestion!
+This week's crate, as decreed by llogiq, is [im](https://docs.rs/im), a library for immutable data structures in Rust.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -41,66 +41,48 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-141 pull requests were [merged in the last week][merged]
+149 pull requests were [merged in the last week][merged]
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-05-21..2018-05-28
 
-* [stable point release (1.26.1)](https://github.com/rust-lang/rust/pull/51045)
-* [infer outlives requirements](https://github.com/rust-lang/rust/pull/50070) (RFC [#2093](https://github.com/rust-lang/rfcs/pull/2093))
-* [don't ICE if crate has no valid crate types left](https://github.com/rust-lang/rust/pull/51035)
-* [`NaN > NaN` is now false again](https://github.com/rust-lang/rust/pull/50812) (Breaking change, duh!)
-* [add suggestion applicabilities to librustc and libsyntax](https://github.com/rust-lang/rust/pull/50724)
-* [add -Z no-parallel-llvm flag](https://github.com/rust-lang/rust/pull/50972)
-* [WebAssembly: fix fast-isel lowering illegal argument and return types](https://github.com/rust-lang/llvm/pull/117)
-* [remove unused lowering field and method](https://github.com/rust-lang/rust/pull/51034)
-* [quick refactoring around Substs & friends](https://github.com/rust-lang/rust/pull/50801)
-* [operate on `HirId` instead of `NodeId` in `hir::Pat::each_binding`, and consequences of that](https://github.com/rust-lang/rust/pull/50929)
-* [use `Ident`s for fields in HIR](https://github.com/rust-lang/rust/pull/51072)
-* [remove extra calls to kill_loans_out_of_scope_at_location](https://github.com/rust-lang/rust/pull/50891)
-* [fix behaviour of divergence in while loop conditions](https://github.com/rust-lang/rust/pull/51049)
-* [fail typecheck if we encounter a bogus break](https://github.com/rust-lang/rust/pull/51070)
-* [generate "invalidates" facts when -Znll-facts is passed](https://github.com/rust-lang/rust/pull/50798)
-* [NLL facts invalidate followup](https://github.com/rust-lang/rust/pull/50998)
-* [use `AllFacts` from polonius-engine](https://github.com/rust-lang/rust/pull/51047)
-* [enforce stability of const fn in promoteds](https://github.com/rust-lang/rust/pull/50909)
-* [stabilize suggestion applicability field in json output](https://github.com/rust-lang/rust/pull/50486)
-* [shrink `LiveNode`](https://github.com/rust-lang/rust/pull/50981)
-* [right-size the `VecDeque` in `coerce_unsized`](https://github.com/rust-lang/rust/pull/50963)
-* [optimize seen Predicate filtering](https://github.com/rust-lang/rust/pull/50932)
-* [inline `try_get`](https://github.com/rust-lang/rust/pull/50931)
-* [make `&Slice` a thin pointer](https://github.com/rust-lang/rust/pull/50612)
-* [find the largest niche when computing layouts](https://github.com/rust-lang/rust/pull/50860)
-* ["crate-ify" paths that begin with a renamed crate](https://github.com/rust-lang/rust/pull/51010)
-* [rustc: fix another double-lint issue with `crate::`](https://github.com/rust-lang/rust/pull/50982)
-* [rustc: correctly pretty-print macro delimiters](https://github.com/rust-lang/rust/pull/50971)
-* [rename `TokenStream::empty` to `TokenStream::new`](https://github.com/rust-lang/rust/pull/51073)
-* [underline multiple suggested replacements in the same line](https://github.com/rust-lang/rust/pull/50987)
-* [tweak `main` type arguments and where clause spans](https://github.com/rust-lang/rust/pull/50986)
-* [fix span for type-only arguments](https://github.com/rust-lang/rust/pull/50979)
-* [`CheckLoopVisitor`: also visit closure arguments](https://github.com/rust-lang/rust/pull/50849)
-* [add lint for multiple associated types](https://github.com/rust-lang/rust/pull/50682)
-* [`impl Trait` diagnostic/test cleanups](https://github.com/rust-lang/rust/pull/50943)
-* [prohibit turbofish in `impl Trait` methods](https://github.com/rust-lang/rust/pull/51051)
-* [fix naming conventions for new lints](https://github.com/rust-lang/rust/pull/50879)
-* [MIRI API refactor](https://github.com/rust-lang/rust/pull/50967)
-* [use different datastructure for MIRI relocations](https://github.com/rust-lang/rust/pull/50866)
-* [misc changes related to Miri allocations](https://github.com/rust-lang/rust/pull/50520)
-* [allow let bindings and destructuring in constants and const fn](https://github.com/rust-lang/rust/pull/49172)
-* [allow `Size` to be any valid `u64`](https://github.com/rust-lang/rust/pull/50916)
-* [implement the chalk-engine traits](https://github.com/rust-lang/rust/pull/50937)
-* [fun testcase: What does an expression look like, that consists only of special characters?](https://github.com/rust-lang/rust/pull/51059)
-* [escape combining characters in `char::Debug`](https://github.com/rust-lang/rust/pull/49283)
-* [improve `Debug` impl of `time::Duration`](https://github.com/rust-lang/rust/pull/50364)
-* [add SIMD math intrinsics and gather/scatter](https://github.com/rust-lang/rust/pull/50521)
-* [`Unpin` changes](https://github.com/rust-lang/rust/pull/50984)
-* [make `[T]::len` and `str::len` const fn](https://github.com/rust-lang/rust/pull/50863)
-* [std: ensure OOM is classified as `nounwind`](https://github.com/rust-lang/rust/pull/51041)
-* [stabilize `from_ref`](https://github.com/rust-lang/rust/pull/50945)
-* [stabilize `ops::RangeBounds`](https://github.com/rust-lang/rust/pull/51033)
-* [stabilize `Formatter` alignment](https://github.com/rust-lang/rust/pull/51078)
-* [remove the unstable Float trait](https://github.com/rust-lang/rust/pull/50933)
-* [add the 2018 edition of the book to doc.rust-lang.org](https://github.com/rust-lang/rust/pull/50952)
-* [support `--target` argument in `cargo rustdoc`](https://github.com/rust-lang/cargo/pull/5587)
+* [fix building rustc on and for musl hosts](https://github.com/rust-lang/rust/pull/51063)
+* [add polonius compare mode](https://github.com/rust-lang/rust/pull/51138)
+* [make borrowck use polonius output](https://github.com/rust-lang/rust/pull/51133)
+* [register outlives predicates from queries the right way around](https://github.com/rust-lang/rust/pull/51096)
+* [resolve: make sure indeterminate and inconsistent macro resolutions always generate errors](https://github.com/rust-lang/rust/pull/51145)
+* [typeck: do not pass the field check on field error](https://github.com/rust-lang/rust/pull/51146)
+* [make GlobalCtxt thread-safe](https://github.com/rust-lang/rust/pull/50108)
+* [stabilize short error format](https://github.com/rust-lang/rust/pull/49546)
+* [suggest using `as_ref` on some borrow errors](https://github.com/rust-lang/rust/pull/51100)
+* [merge unused-extern-crate and unnecessary-extern-crate lints](https://github.com/rust-lang/rust/pull/51015)
+* [make anon params lint warn-by-default](https://github.com/rust-lang/rust/pull/48309)
+* [do not promote union field accesses](https://github.com/rust-lang/rust/pull/51328)
+* [make const decoding thread-safe](https://github.com/rust-lang/rust/pull/51060)
+* [`impl Default for &mut str`](https://github.com/rust-lang/rust/pull/51306)
+* [const fn integer operations](https://github.com/rust-lang/rust/pull/51299)
+* [every match arm reads the match's borrowed input](https://github.com/rust-lang/rust/pull/50783)
+* [also check `let` arms and nested patterns for mutable borrows](https://github.com/rust-lang/rust/pull/51274)
+* [implement `#[panic_implementation]`](https://github.com/rust-lang/rust/pull/50338)
+* [OOM handling changes](https://github.com/rust-lang/rust/pull/50880)
+* [make the OOM hook return `()` rather than `!`](https://github.com/rust-lang/rust/pull/51264)
+* [`std::fs::DirEntry.metadata`: use fstatat instead of lstat when possible](https://github.com/rust-lang/rust/pull/51050)
+* [add missing Wrapping methods, use doc_comment!](https://github.com/rust-lang/rust/pull/50465)
+* [optimize joining for slices](https://github.com/rust-lang/rust/pull/50340)
+* [hash up to 8 bytes at once with `FxHasher`](https://github.com/rust-lang/rust/pull/51019)
+* [two minor parsing tweaks](https://github.com/rust-lang/rust/pull/51240)
+* [make `Layout`'s align a `NonZeroUsize`](https://github.com/rust-lang/rust/pull/51226)
+* [make some std::intrinsics `const fn`s](https://github.com/rust-lang/rust/pull/51171)
+* [simplify `HashMap` layout calculation by using `Layout`](https://github.com/rust-lang/rust/pull/51163)
+* [optimize layout calculations in `HashMap`](https://github.com/rust-lang/rust/pull/51340)
+* [fs: copy: use copy_file_range on Linux](https://github.com/rust-lang/rust/pull/50772)
+* [add `From<bool>` for int types](https://github.com/rust-lang/rust/pull/50554)
+* [add `as_nanos` function to `Duration`](https://github.com/rust-lang/rust/pull/50167)
+* [`Arc` downcast](https://github.com/rust-lang/rust/pull/50836)
+* [stabilize SliceIndex trait](https://github.com/rust-lang/rust/pull/51147)
+* [stabilize SystemTime::UNIX_EPOCH](https://github.com/rust-lang/rust/pull/51144)
+* [cargo: verify that src dir wasn't modified by `build.rs` when publishing](https://github.com/rust-lang/cargo/pull/5584)
+* [cargo: fix a deadlock issue](https://github.com/rust-lang/cargo/pull/5570)
+* [Rust Logo on a diet](https://github.com/rust-lang/rust-www/pull/915)
 
 ## New Contributors
 
@@ -182,7 +164,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> When picking up a lentil (Result) a pigeon (?) must consider two options. If the lentil is a good one (Ok), the pigeon simply puts it into the pot (evaluates to the wrapped value). However, if the lentil happens to be a bad one (Err), the pigeon eats it, digests it (from) and finally “returns” it. Also the silhouette of a pigeon kind of resembles a questionmark.
+
+– [anatol1234](https://users.rust-lang.org/u/anatol1234) on [internals](https://internals.rust-lang.org/t/bikeshed-a-consise-verb-for-the-operator/7289/77)
+
+Thanks to [Christopher Durham](https://users.rust-lang.org/u/cad97) for the suggestion!
 
 [Submit your quotes for next week][submit]!
 
