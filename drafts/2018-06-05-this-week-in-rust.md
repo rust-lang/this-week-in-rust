@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Tricking the HashMap](https://idubrov.github.io/rust/2018/06/01/tricking-the-hashmap.html).
+
 # Crate of the Week
 
 This week's crate, as decreed by llogiq, is [im](https://docs.rs/im), a library for immutable data structures in Rust.
