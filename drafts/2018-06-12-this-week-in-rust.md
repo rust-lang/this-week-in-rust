@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Actix::From(🚀 Rocket)](https://noyez.gitlab.io/post/2018-06-11-rocket-to-actix/)
+* [Migrating to Actix from Rocket](https://noyez.gitlab.io/post/2018-06-11-rocket-to-actix/).
 
 # Crate of the Week
 
