@@ -119,6 +119,7 @@ decision. Express your opinions now.
 # Upcoming Events
 
 * [Jun 10. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxjbnb/).
+* [Jun 11. Zürich, CH - Actix.rs - July Meetup](https://www.meetup.com/de-DE/Rust-Zurich/events/250386292/).
 * [Jun 11. Seattle, US - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/hztzcpyxjbpb/).
 * [Jun 12. Rome, IT - Rust learning and hacking evening #9](https://www.meetup.com/Rust-Roma/events/251298815/).
 * [Jun 13. Berlin, DE - OpenTechSchool - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/250904450/).
