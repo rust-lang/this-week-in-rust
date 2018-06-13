@@ -16,6 +16,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Understanding the difference between `Box<Trait>`, `&Trait`, `impl Trait`, and `dyn Trait`](https://joshleeb.com/posts/rust-traits-and-trait-objects/).
+* [varkor joins the Compiler Team](https://internals.rust-lang.org/t/please-welcome-varkor-to-the-compiler-team/7716)!
+* [First screenshot of Dota2 running on gfx-portabilty with Metal backend](https://www.reddit.com/r/rust/comments/8pmniu/first_screenshot_of_dota2_running_on/).
+* [Actix – an actor framework for Rust](https://simplabs.com/blog/2018/06/11/actix.html).
+* [A Rust-based unikernel: First version of a Rust-based libOS](https://hermitcore.org/2018/06/06/A-Rust-based-Unikernel/).
+* [Where do Rust threads come from](http://www.squidarth.com/rc/rust/concurrency/2018/06/09/rust-threads-detach.html)?
+* [To do a Rust GUI](https://www.vandenoever.info/blog/2018/06/09/to-do-a-rust-gui.html).
+* [Integrating QML and Rust: Creating a QMetaObject at compile time](https://woboq.com/blog/qmetaobject-from-rust.html).
+* [crates.rs an alternative to crates.io](https://crates.rs/).
+* [nphysics: A Physics engine in Rust now has 3D demos running in modern browsers](http://demo.nphysics.org/).
+* [podcast] [Rusty Spike Podcast - episode 32](https://rusty-spike.blubrry.net/2018/06/07/episode-32-jun-6-2018/). 1.26.2 release, the arch (video and site), compiler speed-ups, crates.rs, and more thoughts on the Rust design process.
+
 # Crate of the Week
 
 This week's crate, as decreed by llogiq, is [im](https://docs.rs/im), a library for immutable data structures in Rust.
@@ -31,6 +43,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Sponsor work on Rust](https://aturon.github.io/sponsor/)!
 * [wasm-pack has several open good first issues available to new contributors](https://github.com/ashleygwilliams/wasm-pack/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
 
@@ -89,7 +102,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Amend 1105: Unstable features accidentally usable on the Stable release chanel are still unstable](https://github.com/rust-lang/rfcs/pull/2405).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -99,42 +112,49 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: close] [Reserve `throw` and `fail` as keywords in edition 2018](https://github.com/rust-lang/rfcs/pull/2441).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Tracking issue for the GlobalAlloc trait and related APIs](https://github.com/rust-lang/rust/issues/49668).
-* [disposition: merge] [Stabilize GlobalAlloc and `#[global_allocator]`](https://github.com/rust-lang/rust/pull/51241).
-* [disposition: merge] [Tracking issue for `ToOwned::clone_into` (`toowned_clone_into`)](https://github.com/rust-lang/rust/issues/41263).
-* [disposition: merge] [Tracking issue for "macro naming and modularisation" (RFC #1561)](https://github.com/rust-lang/rust/issues/35896).
-* [disposition: merge] [Tracking issue for promoting `!` to a type (RFC 1216)](https://github.com/rust-lang/rust/issues/35121).
 * [disposition: merge] [Exhaustive integer matching](https://github.com/rust-lang/rust/pull/50912).
 * [disposition: merge] [Stabilize `std::path::Path::ancestors`](https://github.com/rust-lang/rust/pull/50894).
 * [disposition: merge] [Add ability to apply custom derive to union types](https://github.com/rust-lang/rust/pull/50383).
+* [disposition: merge] [Tracking issue for `ToOwned::clone_into` (`toowned_clone_into`)](https://github.com/rust-lang/rust/issues/41263).
+* [disposition: merge] [Tracking issue for "macro naming and modularisation" (RFC #1561)](https://github.com/rust-lang/rust/issues/35896).
+* [disposition: merge] [Tracking issue for promoting `!` to a type (RFC 1216)](https://github.com/rust-lang/rust/issues/35121).
 
 ## New RFCs
 
-* [Re-Rebalancing Coherence](https://github.com/rust-lang/rfcs/pull/2451).
-* [Allow non-ASCII identifiers](https://github.com/rust-lang/rfcs/pull/2457).
-* [Unused const fn results](https://github.com/rust-lang/rfcs/pull/2450).
+* [Add lint warning for inner function marked as `#[test]`](https://github.com/rust-lang/rfcs/pull/2471).
 
 # Upcoming Events
 
-* [Jun 10. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxjbnb/).
-* [Jun 11. Seattle, US - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/hztzcpyxjbpb/).
-* [Jun 12. Rome, IT - Rust learning and hacking evening #9](https://www.meetup.com/Rust-Roma/events/251298815/).
-* [Jun 13. Berlin, DE - OpenTechSchool - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/250904450/).
-* [Jun 13. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
-* [Jun 13. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxjbrb/).
+### Online
+
+* [Jun 19. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
+* [Jun 20. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
+* [Jun 20. Rust Events Team Meeting](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Jun 27. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
+
+### Europe
+
+* [Jun 21. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxjbcc/).
+* [Jun 27. Berlin, DE - OpenTechSchool - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/251675898/).
+
+### North America
+
 * [Jun 14. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxjbsb/).
 * [Jun 14. San Diego, US - San Diego Rust June Meetup](https://www.meetup.com/San-Diego-Rust/events/251001684/).
 * [Jun 14. Utah Valley, US - Utah Rust meetup](https://docs.google.com/document/d/1O8S7IEfDw-3jTN74CWCuKYl_UWxTLd6-epz7NOMDYRg).
+* [Jun 14. Arlington, US - Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/250848451).
 * [Jun 17. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxjbwb/).
 * [Jun 19. Denver, US - Rust Boulder/Denver - June Meetup in Boulder](https://www.meetup.com/Rust-Boulder-Denver/events/250076478/).
-* [Jun 19. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
-* [Jun 20. Rust Events Team Meeting](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-* [Jun 20. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
-* [Jun 21. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxjbcc/).
+* [Jun 19. Kitchener, CA - Graph Mining in Rust & Your Project Demos](https://www.meetup.com/Rust-KW/events/251426929/).
+* [Jun 24. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxjbgc/).
+* [Jun 26. Dallas, US - Last Tuesday Meetup](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxjbjc/).
+* [Jun 26. New York City, US - Procedural Macros - parse JSX using nom](https://www.meetup.com/Rust-NYC/events/251490499/).
+* [Jun 27. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxjbkc/).
+* [Jun 28. San Francisco, US - Rust Bay Area - Zero Knowledge Proof Macros and Cernan (data pipelining)](https://www.meetup.com/Rust-Bay-Area/events/244156617/).
 * **[Aug 17. Portland, US - RustConf 2018](http://rustconf.com/).** Registration is now open.
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -145,8 +165,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Senior Backend Engineer at ClanHQ, San Francisco (remote available)](https://twitter.com/JonathanBelolo/status/1000128978936623104).
-* [Rust Developer at 1am, Berlin](https://twitter.com/__1aim/status/1002493500099833856).
+* [Rust Engineer at Commure, Inc. San Francisco, US](https://news.ycombinator.com/item?id=16968087).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
