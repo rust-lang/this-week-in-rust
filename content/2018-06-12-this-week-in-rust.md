@@ -25,7 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Where do Rust threads come from](http://www.squidarth.com/rc/rust/concurrency/2018/06/09/rust-threads-detach.html)?
 * [To do a Rust GUI](https://www.vandenoever.info/blog/2018/06/09/to-do-a-rust-gui.html).
 * [Integrating QML and Rust: Creating a QMetaObject at compile time](https://woboq.com/blog/qmetaobject-from-rust.html).
-* [crates.rs an alternative to crates.io](https://crates.rs/).
+* [crates.rs: An alternative to crates.io](https://crates.rs/).
 * [nphysics: A Physics engine in Rust now has 3D demos running in modern browsers](http://demo.nphysics.org/).
 * [podcast] [Rusty Spike Podcast - episode 32](https://rusty-spike.blubrry.net/2018/06/07/episode-32-jun-6-2018/). 1.26.2 release, the arch (video and site), compiler speed-ups, crates.rs, and more thoughts on the Rust design process.
 
