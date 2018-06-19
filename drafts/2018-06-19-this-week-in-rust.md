@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Divans: Open source compression](https://blogs.dropbox.com/tech/2018/06/building-better-compression-together-with-divans/) in Rust from Dropbox using threads, SIMD with a [WASM demo](https://dropbox.github.io/divans) in the browser.
+
 # Crate of the Week
 
 This week's crate is [clap-verbosity-flag](https://crates.io/crates/clap-verbosity-flag), a small crate to easily add a verbosity setting to Rust command line applications. Thanks to [Yoshuawuyts](https://users.rust-lang.org/u/yoshuawuyts) for the suggestion!
