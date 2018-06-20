@@ -18,14 +18,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [MIR-based borrow check (NLL) status update](http://smallcultfollowing.com/babysteps/blog/2018/06/15/mir-based-borrow-check-nll-status-update/).
 * [Divans: Open source compression](https://blogs.dropbox.com/tech/2018/06/building-better-compression-together-with-divans/) in Rust from Dropbox using threads, SIMD with a [WASM demo](https://dropbox.github.io/divans) in the browser.
-* [aturon.log: listening and trust, part 3](https://aturon.github.io/2018/06/18/listening-part-3/).
 * [Integration tests](https://os.phil-opp.com/integration-tests/). Part of the series [Writing an OS in Rust](https://os.phil-opp.com/).
 * [From ActiveRecord to Diesel](http://patshaughnessy.net/2018/6/9/from-activerecord-to-diesel).
 * [Building a Diesel project on GitLab CI](https://noyez.gitlab.io/post/2018-06-15-rust-plus-diesel-plus-gitlab/).
 * [A trick for test maintenance](https://matklad.github.io/2018/06/18/a-trick-for-test-maintenance.html).
-* [Why Rust's async functions should use the outer return type approach](https://github.com/MajorBreakfast/rust-blog/blob/master/posts/2018-06-19-outer-return-type-approach.md).
 * [Running Rust on the GPU with Accel](https://bheisler.github.io/post/rust-on-the-gpu-with-accel/).
 * [Rust on LPC82x microcontrollers using lpc82x-hal](https://users.rust-lang.org/t/lpc82x-hal-0-2-rust-on-lpc82x-microcontrollers/18144).
+* [Why Rust's async functions should use the outer return type approach](https://github.com/MajorBreakfast/rust-blog/blob/master/posts/2018-06-19-outer-return-type-approach.md).
+* [aturon.log: listening and trust, part 3](https://aturon.github.io/2018/06/18/listening-part-3/).
 * [This week in Rust and WebAssembly 3](https://rustwasm.github.io/2018/06/04/this-week-in-rust-wasm-003.html).
 * [podcast] [Rusty Spike Podcast - episode 33](https://rusty-spike.blubrry.net/2018/06/13/episode-33-jun-13-2018/). Crossbeam channels, actix benchmarks (and how to use it), qt, servo, gfx-portability, debian, OS development, LibOS, and a new book.
 
@@ -129,7 +129,7 @@ decision. Express your opinions now.
 * [Jun 27. Berlin, DE - OpenTechSchool - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/251675898/).
 * [Jun 27. Cologne, DE - Rust Cologne at ThoughtWorks](https://www.meetup.com/RustCologne/events/vnwndpyxjbjb/).
 * [Jun 27. Milan, IT - Perché non compila](https://www.meetup.com/rust-language-milano/events/251914721/)?
-* [Jul  6. Darmstadt, DE - Rhein-Main Rust Meetup](https://www.meetup.com/Rust-Rhein-Main/events/251928672)
+* [Jul  6. Darmstadt, DE - Rhein-Main Rust Meetup](https://www.meetup.com/Rust-Rhein-Main/events/251928672).
 
 ### North America
 
