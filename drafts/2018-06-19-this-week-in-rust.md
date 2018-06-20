@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-[Rust + Diesel + GitLab + CI](https://noyez.gitlab.io/post/2018-06-15-rust-plus-diesel-plus-gitlab/)
+[Building a Diesel project on GitLab CI](https://noyez.gitlab.io/post/2018-06-15-rust-plus-diesel-plus-gitlab/).
 
 # Crate of the Week
 
