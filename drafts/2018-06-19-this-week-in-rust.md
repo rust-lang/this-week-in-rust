@@ -16,7 +16,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-[Divans: Open source compression](https://blogs.dropbox.com/tech/2018/06/building-better-compression-together-with-divans/) in Rust from Dropbox using threads, SIMD with a [WASM demo](https://dropbox.github.io/divans) in the browser.
+* [Divans: Open source compression](https://blogs.dropbox.com/tech/2018/06/building-better-compression-together-with-divans/) in Rust from Dropbox using threads, SIMD with a [WASM demo](https://dropbox.github.io/divans) in the browser.
+* [Rust on LPC82x microcontrollers using lpc82x-hal](https://users.rust-lang.org/t/lpc82x-hal-0-2-rust-on-lpc82x-microcontrollers/18144).
+* [Building a Diesel project on GitLab CI](https://noyez.gitlab.io/post/2018-06-15-rust-plus-diesel-plus-gitlab/).
 
 # Crate of the Week
 
