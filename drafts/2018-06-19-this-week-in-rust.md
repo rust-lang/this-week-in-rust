@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Building a Diesel project on GitLab CI](https://noyez.gitlab.io/post/2018-06-15-rust-plus-diesel-plus-gitlab/).
+
 # Crate of the Week
 
 This week's crate is [clap-verbosity-flag](https://crates.io/crates/clap-verbosity-flag), a small crate to easily add a verbosity setting to Rust command line applications. Thanks to [Yoshuawuyts](https://users.rust-lang.org/u/yoshuawuyts) for the suggestion!
