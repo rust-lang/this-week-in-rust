@@ -116,10 +116,10 @@ decision. Express your opinions now.
 * [disposition: merge] [Tracking issue for `ToOwned::clone_into` (`toowned_clone_into`)](https://github.com/rust-lang/rust/issues/41263).
 * [disposition: merge] [`extern type` cannot support `size_of_val` and `align_of_val`](https://github.com/rust-lang/rust/issues/49708).
 * [disposition: merge] [Tracking issue for the to_bytes and from_bytes methods of integers](https://github.com/rust-lang/rust/issues/49792).
-* [disposition: close] [Can't overload indexing for arrays](https://github.com/rust-lang/rust/issues/49786).
-* [disposition: merge] [Implement iter::{Sum<U>, Product<U>} for Option<T>](https://github.com/rust-lang/rust/pull/50884).
+* [disposition: merge] [Implement `iter::{Sum<U>, Product<U>}` for `Option<T>`](https://github.com/rust-lang/rust/pull/50884).
 * [disposition: merge] [Implement `PartialEq` between `&str` and `OsString`](https://github.com/rust-lang/rust/pull/51178).
 * [disposition: merge] [Remove quote_*! macros](https://github.com/rust-lang/rust/pull/51285).
+* [disposition: close] [Can't overload indexing for arrays](https://github.com/rust-lang/rust/issues/49786).
 
 ## New RFCs
 
