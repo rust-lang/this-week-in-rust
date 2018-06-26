@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [SIMDNoise](https://crates.io/crates/simdnoise), a crate to use modern CPU vector instructions to generate various types of noise really fast. Thanks to [gregwtmtno](https://users.rust-lang.org/u/gregwtmtno) for the suggestion!
+This week's crate is [mutagen](https://github.com/llogiq/mutagen), a mutation testing framework for Rust. Thanks to llogiq for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -40,24 +40,39 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-66 pull requests were [merged in the last week][merged]
+95 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-06-11..2018-06-18
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-06-18..2018-06-25
 
-* [rustc_codegen_llvm: don't treat `i1` as signed, even for `#[repr(i8)]` enums](https://github.com/rust-lang/rust/pull/51594)
-* [rustdoc: process cross-crate glob re-exports](https://github.com/rust-lang/rust/pull/51584)
-* [Stabilize `#[repr(transparent)]`](https://github.com/rust-lang/rust/pull/51562)
-* [libstd: add an RAII utility for `sys_common::mutex::Mutex`](https://github.com/rust-lang/rust/pull/51529)
-* [Don't auto-hide inherent impls even if `rustdoc-collapse == true`](https://github.com/rust-lang/rust/pull/51527)
-* [Add `Ref`/`RefMut::map_split` method](https://github.com/rust-lang/rust/pull/51466)
-* [Improve memoization and refactor NLL type check](https://github.com/rust-lang/rust/pull/51460)
-* [refactor: create multiple HIR items for imports](https://github.com/rust-lang/rust/pull/51425)
-* [Speed up obligation forest code](https://github.com/rust-lang/rust/pull/51411)
+* [async/await](https://github.com/rust-lang/rust/pull/51580)
+* [rename OOM to allocation error](https://github.com/rust-lang/rust/pull/51543)
+* [prohibit `global_allocator` in submodules](https://github.com/rust-lang/rust/pull/51335)
+* [run some stuff in parallel](https://github.com/rust-lang/rust/pull/51383)
+* [reduce number of allocations done by NLL](https://github.com/rust-lang/rust/pull/51617)
+* [NLL: walk the MIR only once for the "unused mut" lint](https://github.com/rust-lang/rust/pull/51660)
+* [NLL diagnostics: revise `fn check_access_permissions`](https://github.com/rust-lang/rust/pull/51275)
+* [improve memoization and refactor NLL type check](https://github.com/rust-lang/rust/pull/51460)
+* [add existential type definitions](https://github.com/rust-lang/rust/pull/51414)
+* [make more `libsyntax` methods public](https://github.com/rust-lang/rust/pull/51664)
+* [add ability to apply custom derive to union types](https://github.com/rust-lang/rust/pull/50383)
+* [The Great Generics Generalisation: HIR Edition](https://github.com/rust-lang/rust/pull/48149)
+* [fix processing mod with multi-level path on Windows](https://github.com/rust-lang/rust/pull/51278)
+* [disable probestack when GCOV profiling is being used](https://github.com/rust-lang/rust/pull/51666)
+* [support future deprecation for rustc_deprecated](https://github.com/rust-lang/rust/pull/51681)
+* [fix an ICE when matching over const slices](https://github.com/rust-lang/rust/pull/51733)
+* [yet another "old borrowck" bug around match default bindings](https://github.com/rust-lang/rust/pull/51686)
+* [fix erroneous error note when using field after move](https://github.com/rust-lang/rust/pull/51688)
+* [three diagnostics upgrades](https://github.com/rust-lang/rust/pull/51750)
+* [various changes to existing diagnostics](https://github.com/rust-lang/rust/pull/51463)
+* [don't suggest incorrect syntax](https://github.com/rust-lang/rust/pull/51670)
+* [use fstatat64 where available](https://github.com/rust-lang/rust/pull/51785)
+* [specialize `StepBy<Range(Inclusive)>`](https://github.com/rust-lang/rust/pull/51601)
 * [`impl Hash for !`](https://github.com/rust-lang/rust/pull/51404)
-* [Stabilize `GlobalAlloc` and `#[global_allocator]`](https://github.com/rust-lang/rust/pull/51241)
-* [Replace `core::iter::AlwaysOk<T>` by `Result<T, !>`](https://github.com/rust-lang/rust/pull/50941)
-* [Stabilize `std::path::Path::ancestors`](https://github.com/rust-lang/rust/pull/50894)
-* [Add error message for using >= 65535 hashes for raw string literal escapes](https://github.com/rust-lang/rust/pull/50296)
+* [stabilize std::path::Path::ancestors](https://github.com/rust-lang/rust/pull/50894)
+* [replace tempdir by tempfile](https://github.com/rust-lang/rust/pull/50698)
+* [rustdoc: greatly improve tables display](https://github.com/rust-lang/rust/pull/51482)
+* [rustbuild: use quiet tests by default](https://github.com/rust-lang/rust/pull/51367)
+* [ship LLVM tools with the toolchain](https://github.com/rust-lang/rust/pull/50336)
 
 ## Approved RFCs
 
@@ -145,11 +160,9 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> In Rust it’s the compiler that complains, with C++ it’s the colleagues
+> I’m hesitating in cc’ing [the crate author] because I’d rather this be an educational conversation, and not a unsafety witchhunt.
 
-– Michal 'Vorner' Vaner on [gitter](https://gitter.im/rust-lang/rust?at=5b212b1a37a2df7bed398c7c)
-
-(selected by llogiq per one unanimous vote)
+– vitalyd on [rust-users](https://users.rust-lang.org/t/how-not-to-use-unsafe-code/18170/13)
 
 [Please submit your quotes for next week][submit]!
 
