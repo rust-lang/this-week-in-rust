@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Generic associated types in iterators](https://boiethios.gitlab.io/blog/2018-06-21_GATs_iterators.html)
+
 # Crate of the Week
 
 This week's crate is [mutagen](https://github.com/llogiq/mutagen), a mutation testing framework for Rust. Thanks to llogiq for the suggestion.
