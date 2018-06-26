@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Generic associated types in iterators](https://boiethios.gitlab.io/blog/2018-06-21_GATs_iterators.html)
+
 # Crate of the Week
 
 This week's crate is [SIMDNoise](https://crates.io/crates/simdnoise), a crate to use modern CPU vector instructions to generate various types of noise really fast. Thanks to [gregwtmtno](https://users.rust-lang.org/u/gregwtmtno) for the suggestion!
