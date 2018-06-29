@@ -132,6 +132,7 @@ decision. Express your opinions now.
 
 * [Jul  4. Dresden, DE - Mozilla Community Dresden - Rust Meetup](https://www.meetup.com/Mozilla-Community-Dresden/events/252020329/).
 * [Jul  6. Darmstadt, DE - Rhein-Main Rust Meetup](https://www.meetup.com/Rust-Rhein-Main/events/251928672).
+* [Jul  9. Karlsruhe, DE - Rust Meetup](https://www.meetup.com/de-DE/Rust-Hack-Learn-Karlsruhe/events/252267570/)
 * [Jul 11. Zurich, CH - Actix.rs - July Meetup](https://www.meetup.com/Rust-Zurich/events/250386292/).
 * [Jul 11. Berlin, DE - OpenTechSchool - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/xkdlvpyxkbpb/).
 
