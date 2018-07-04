@@ -136,7 +136,7 @@ decision. Express your opinions now.
 * [disposition: merge] [Tracking issue for `ToOwned::clone_into` (`toowned_clone_into`)](https://github.com/rust-lang/rust/issues/41263).
 * [disposition: merge] [Tracking issue for `Rc::downcast` (`rc_downcast` feature)](https://github.com/rust-lang/rust/issues/44608).
 * [disposition: merge] [Respect -Z no-verify during LTO](https://github.com/rust-lang/rust/pull/51230).
-* [disposition: merge] [impl Clone for Box<CStr>, Box<OsStr>, Box<Path>](https://github.com/rust-lang/rust/pull/51912).
+* [disposition: merge] [impl Clone for `Box<CStr>`, `Box<OsStr>`, `Box<Path>`](https://github.com/rust-lang/rust/pull/51912).
 * [disposition: merge] [Add `#[repr(transparent)]` to some libcore types](https://github.com/rust-lang/rust/pull/51395).
 * [disposition: close] [Add `TryFrom<{integer}>` for `bool`](https://github.com/rust-lang/rust/pull/50597).
 
