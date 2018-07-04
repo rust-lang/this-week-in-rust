@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [mutagen](https://github.com/llogiq/mutagen), a mutation testing framework for Rust. Thanks to llogiq for the suggestion.
+This week's crate is [datafrog](https://crates.io/crates/datafrog), the lightweight embeddable datalog engine that powers Rust's non-lexical lifetimes (NLL). Thanks to [Jules Kerssemakers](https://users.rust-lang.org/u/juleskers) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -39,39 +39,61 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-95 pull requests were [merged in the last week][merged]
+174 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-06-18..2018-06-25
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-06-25..2018-07-02
 
-* [async/await](https://github.com/rust-lang/rust/pull/51580)
-* [rename OOM to allocation error](https://github.com/rust-lang/rust/pull/51543)
-* [prohibit `global_allocator` in submodules](https://github.com/rust-lang/rust/pull/51335)
-* [run some stuff in parallel](https://github.com/rust-lang/rust/pull/51383)
-* [reduce number of allocations done by NLL](https://github.com/rust-lang/rust/pull/51617)
-* [NLL: walk the MIR only once for the "unused mut" lint](https://github.com/rust-lang/rust/pull/51660)
-* [NLL diagnostics: revise `fn check_access_permissions`](https://github.com/rust-lang/rust/pull/51275)
-* [improve memoization and refactor NLL type check](https://github.com/rust-lang/rust/pull/51460)
-* [add existential type definitions](https://github.com/rust-lang/rust/pull/51414)
-* [make more `libsyntax` methods public](https://github.com/rust-lang/rust/pull/51664)
-* [add ability to apply custom derive to union types](https://github.com/rust-lang/rust/pull/50383)
-* [The Great Generics Generalisation: HIR Edition](https://github.com/rust-lang/rust/pull/48149)
-* [fix processing mod with multi-level path on Windows](https://github.com/rust-lang/rust/pull/51278)
-* [disable probestack when GCOV profiling is being used](https://github.com/rust-lang/rust/pull/51666)
-* [support future deprecation for rustc_deprecated](https://github.com/rust-lang/rust/pull/51681)
-* [fix an ICE when matching over const slices](https://github.com/rust-lang/rust/pull/51733)
-* [yet another "old borrowck" bug around match default bindings](https://github.com/rust-lang/rust/pull/51686)
-* [fix erroneous error note when using field after move](https://github.com/rust-lang/rust/pull/51688)
-* [three diagnostics upgrades](https://github.com/rust-lang/rust/pull/51750)
-* [various changes to existing diagnostics](https://github.com/rust-lang/rust/pull/51463)
-* [don't suggest incorrect syntax](https://github.com/rust-lang/rust/pull/51670)
-* [use fstatat64 where available](https://github.com/rust-lang/rust/pull/51785)
-* [specialize `StepBy<Range(Inclusive)>`](https://github.com/rust-lang/rust/pull/51601)
-* [`impl Hash for !`](https://github.com/rust-lang/rust/pull/51404)
-* [stabilize std::path::Path::ancestors](https://github.com/rust-lang/rust/pull/50894)
-* [replace tempdir by tempfile](https://github.com/rust-lang/rust/pull/50698)
-* [rustdoc: greatly improve tables display](https://github.com/rust-lang/rust/pull/51482)
-* [rustbuild: use quiet tests by default](https://github.com/rust-lang/rust/pull/51367)
-* [ship LLVM tools with the toolchain](https://github.com/rust-lang/rust/pull/50336)
+* [did you mean to block nightlies on clippy?](https://github.com/rust-lang/rust/pull/51122) (a big leap forward on the way to stable clippy!)
+* [llvm: add DWARF for discriminated unions](https://github.com/rust-lang/llvm/pull/118)
+* [libc: simplify the stdbuild section](https://github.com/rust-lang/libc/pull/1019)
+* [allow irrefutable `let` patterns](https://github.com/rust-lang/rust/pull/49469) (RFC [#2086](https://rust-lang.github.io/rfcs/2086-allow-if-let-irrefutables.html))
+* [loosened rules involving statics mentioning other statics](https://github.com/rust-lang/rust/pull/51110)
+* [obligation forest cleanup](https://github.com/rust-lang/rust/pull/51613)
+* [suggestion for 'static impl Trait return](https://github.com/rust-lang/rust/pull/51444)
+* [fix incorrect type mismatch label pointing at return type](https://github.com/rust-lang/rust/pull/46720)
+* [use literal span for concrete type suggestion](https://github.com/rust-lang/rust/pull/51920)
+* [improve the error message when `#[panic_implementation]` is missing](https://github.com/rust-lang/rust/pull/51921)
+* [point to lifetime spans on lifetime errors](https://github.com/rust-lang/rust/pull/51862)
+* [add modifier keyword spans to hir::Visibility; improve unreachable-pub, private-no-mangle lint suggestions](https://github.com/rust-lang/rust/pull/51866)
+* [provide existing ref suggestions for more E0308 errors](https://github.com/rust-lang/rust/pull/51822)
+* [`Self` in where clauses may not be object safe](https://github.com/rust-lang/rust/pull/50966)
+* [suggest correct comparison against negative literal](https://github.com/rust-lang/rust/pull/51883)
+* [lint to favor `..=` over `...` range patterns; migrate to `..=` throughout codebase](https://github.com/rust-lang/rust/pull/51149)
+* [detect overflows of non u32 shifts](https://github.com/rust-lang/rust/pull/51839)
+* [`HirId`-ification, continued](https://github.com/rust-lang/rust/pull/51321)
+* [optimize `places_conflict` to avoid complex vectors etc.](https://github.com/rust-lang/rust/pull/51849)
+* [NLL: better move errors](https://github.com/rust-lang/rust/pull/51729)
+* [NLL: bad error message when converting anonymous lifetime to `'static`](https://github.com/rust-lang/rust/pull/51536)
+* [NLL: introduce dirty list to liveness, eliminate `ins` vector](https://github.com/rust-lang/rust/pull/51896)
+* [convert NLL ops to caches](https://github.com/rust-lang/rust/pull/51538)
+* [avoid needless allocations in `liveness_of_locals`](https://github.com/rust-lang/rust/pull/51869)
+* [speed up compilation of large constant arrays](https://github.com/rust-lang/rust/pull/51833)
+* [implement `#[macro_export(local_inner_macros)]`](https://github.com/rust-lang/rust/pull/51496)
+* [use `Ident`s in HIR and remove emulation of hygiene with gensyms](https://github.com/rust-lang/rust/pull/51492)
+* [always check type_dependent_defs](https://github.com/rust-lang/rust/pull/51882)
+* [fix ICEs when using continue as an array length inside closures (inside loop conditions)](https://github.com/rust-lang/rust/pull/51731)
+* [add error for using null characters in `#[export_name]`](https://github.com/rust-lang/rust/pull/51747)
+* [don't inspect the generated existential type items](https://github.com/rust-lang/rust/pull/51773)
+* [don't ICE when performing `lower_pattern_unadjusted` on a `TyError`](https://github.com/rust-lang/rust/pull/51789)
+* [make the public API of the `alloc` crate a subset of `std`](https://github.com/rust-lang/rust/pull/51569)
+* [new safe associated functions for `PinMut`](https://github.com/rust-lang/rust/pull/51730)
+* [make custom trait object for `Future` generic](https://github.com/rust-lang/rust/pull/51944)
+* [optimize sum of Durations by using custom function](https://github.com/rust-lang/rust/pull/51598)
+* [add `str::split_ascii_whitespace`](https://github.com/rust-lang/rust/pull/49987)
+* [`Arc`: remove unused allocation from `Weak::new()`](https://github.com/rust-lang/rust/pull/50357)
+* [make `BTreeMap::clone()` not allocate when cloning an empty tree](https://github.com/rust-lang/rust/pull/51893)
+* [make `FileMap::`{`lines`, `multibyte_chars`, `non_narrow_chars`} non-mutable](https://github.com/rust-lang/rust/pull/50997)
+* [implement `PartialEq` between `&str` and `OsString`](https://github.com/rust-lang/rust/pull/51178)
+* [`park`/`park_timeout`: prohibit spurious wakeups in next `park`](https://github.com/rust-lang/rust/pull/51290)
+* [fix possibly endless loop in `ReadDir` iterator](https://github.com/rust-lang/rust/pull/50630)
+* [stabilize `Iterator::flatten`](https://github.com/rust-lang/rust/pull/51511)
+* [stabilize `to_bytes` and `from_bytes` for integers](https://github.com/rust-lang/rust/pull/51835)
+* [cargo: remove all 4 `Rc` clones in `min_candidates`](https://github.com/rust-lang/cargo/pull/5625)
+* [cargo: display a one line progress of what crates are currently built](https://github.com/rust-lang/cargo/pull/5620)
+* [cargo: remove redundant hashmap](https://github.com/rust-lang/cargo/pull/5619)
+* [rustdoc: minify css](https://github.com/rust-lang/rust/pull/51791)
+* [crates.io: `dyn` all the things](https://github.com/rust-lang/crates.io/pull/1441)
+* [crates.io: forbid tarballs with hard links being uploaded](https://github.com/rust-lang/crates.io/pull/1448)
 
 ## Approved RFCs
 
@@ -162,12 +184,12 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I’m hesitating in cc’ing [the crate author] because I’d rather this be an educational conversation, and not a unsafety witchhunt.
+> Freedom to shoot yourself in the foot is not a rust marketing point 😉
 
-– vitalyd on [rust-users](https://users.rust-lang.org/t/how-not-to-use-unsafe-code/18170/13)
+– [eugene2k](https://users.rust-lang.org/u/eugene2k) on [rust-users](https://users.rust-lang.org/t/why-cant-i-increment-a-variable-like-this/18287/14)
 
-[Please submit your quotes for next week][submit]!
+Thanks to [DPC](https://users.rust-lang.org/u/dylan.dpc) for the suggestion!
 
-[submit]: http://users.rust-lang.org/t/twir-quote-of-the-week/328
+[Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
 *This Week in Rust is edited by: [nasa42](https://github.com/nasa42) and [llogiq](https://github.com/llogiq).*
