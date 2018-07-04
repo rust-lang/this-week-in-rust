@@ -22,7 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Proposal for a staged RFC process](http://smallcultfollowing.com/babysteps/blog/2018/06/20/proposal-for-a-staged-rfc-process/).
 * [What I learned: Porting Dateutil parser from Python to Rust](https://speice.io/2018/06/dateutil-parser-to-rust.html).
 * [Making `Arc` more atomic](https://vorner.github.io/2018/06/24/arc-more-atomic.html).
-* [Optimising path tracing: the last 10%](https://bitshifter.github.io/blog/2018/06/20/the-last-10-percent/).
+* [Optimising path tracing: the last 10%](https://bitshifter.github.io/2018/06/20/the-last-10-percent/).
 * [Rust with Rocket + Elm running on Heroku](http://ethanfrei.com/posts/rust-with-rocket-elm-running-on-heroku.html).
 * [Generic associated types in iterators](https://boiethios.gitlab.io/blog/2018-06-21_GATs_iterators.html).
 * [podcast] [Rusty Spike Podcast - episode 34](https://rusty-spike.blubrry.net/2018/06/20/episode-34-jun-20-2018/). DivANS, IDE support, Aaron’s continued series, async/await, non-lexical lifetimes, and Rust Reach.
