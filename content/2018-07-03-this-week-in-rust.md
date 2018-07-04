@@ -16,6 +16,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Rust 2018: the home stretch](https://internals.rust-lang.org/t/rust-2018-the-home-stretch/7810).
+* [Microsoft announces using Rust to build some of its Azure IoT functionality](https://twitter.com/maxgortman/status/1012011425353461760).
+* [Learning SIMD with Rust by finding planets](https://medium.com/@Razican/learning-simd-with-rust-by-finding-planets-b85ccfb724c3).
+* [`llvm-tools`, a new rustup component for binary inspection (objdump, nm, size) and profiling (profdata)](https://internals.rust-lang.org/t/llvm-tools-a-new-rustup-component-for-binary-inspection-objdump-nm-size-and-profiling-profdata/7830).
+* [How much Rust in Firefox](https://4e6.github.io/firefox-lang-stats/)?
+* [A rusty go at channels](https://gsquire.github.io/static/post/a-rusty-go-at-channels/).
+* [Better HTTP upgrades with hyper](http://seanmonstar.com/post/175280388657/better-http-upgrades-with-hyper).
+* [Our Vision for wasm-bindgen](https://rustwasm.github.io/2018/07/02/vision-for-wasm-bindgen.html).
+* [The Embedded WG newsletter 6](https://internals.rust-lang.org/t/the-embedded-working-group-newsletter-6/7842).
+* [podcast] [Rusty Spike Podcast - episode 35](https://rusty-spike.blubrry.net/2018/06/28/episode-35-june-27-2018/). Rust 1.27, new books, Microsoft, Eclipse, converting C to Rust, the Rust 2018 preview, the Rust 2018 roadmap, and RFCs.
+* [podcast] [New Rustacean news – Rust 1.27](https://newrustacean.com/show_notes/e024/). Stable SIMD, dyn trait, rustfix and the alpha release of the Rust 2018 Edition Preview.
+
 # Crate of the Week
 
 This week's crate is [datafrog](https://crates.io/crates/datafrog), the lightweight embeddable datalog engine that powers Rust's non-lexical lifetimes (NLL). Thanks to [Jules Kerssemakers](https://users.rust-lang.org/u/juleskers) for the suggestion.
@@ -31,6 +43,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [good first issue] [wasm-bindgen: Expose bindings to ALL the global JS things](https://github.com/rustwasm/wasm-bindgen/issues/275).
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -101,7 +114,12 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2345: Allow panicking in constants](https://github.com/rust-lang/rfcs/pull/2345).
+* [RFC 2296: Add `Option::replace` to the core library](https://github.com/rust-lang/rfcs/pull/2296).
+* [RFC 2344: Allow `loop` in constant evaluation](https://github.com/rust-lang/rfcs/pull/2344).
+* [RFC 2302: Tuple struct construction with `Self(v1, v2, ..)`](https://github.com/rust-lang/rfcs/pull/2302).
+* [RFC 2397: Introduce `#[do_not_recommend]` to control errors for trait impls](https://github.com/rust-lang/rfcs/pull/2397).
+* [Amend RFC 0430: Allow underscores between numbers in CamelCase names](https://github.com/rust-lang/rfcs/pull/2478).
 
 ## Final Comment Period
 
@@ -111,63 +129,52 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Allow panicking in constants](https://github.com/rust-lang/rfcs/pull/2345).
-* [disposition: merge] [Allow `loop` in constant evaluation](https://github.com/rust-lang/rfcs/pull/2344).
-* [disposition: merge] [Introduce `#[do_not_recommend]` to control errors for trait impls](https://github.com/rust-lang/rfcs/pull/2397).
-* [disposition: merge] [Tuple struct construction with `Self(v1, v2, ..)`](https://github.com/rust-lang/rfcs/pull/2302).
-* [disposition: merge] [Update RFC 0430 to allow underscores between numbers in CamelCase names](https://github.com/rust-lang/rfcs/pull/2478).
-* [disposition: merge] [Add `Option::replace` to the core library](https://github.com/rust-lang/rfcs/pull/2296).
-* [disposition: close] [Reserve `delegate` as a keyword in edition 2018](https://github.com/rust-lang/rfcs/pull/2429).
-* [disposition: close] [Reserve `f(a = b)` in Rust 2018](https://github.com/rust-lang/rfcs/pull/2443).
+* [disposition: postpone] [String reflection](https://github.com/rust-lang/rfcs/pull/2233).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Tracking issue for "macro naming and modularisation" (RFC #1561)](https://github.com/rust-lang/rust/issues/35896).
 * [disposition: merge] [Tracking issue for `ToOwned::clone_into` (`toowned_clone_into`)](https://github.com/rust-lang/rust/issues/41263).
-* [disposition: merge] [`extern type` cannot support `size_of_val` and `align_of_val`](https://github.com/rust-lang/rust/issues/49708).
-* [disposition: merge] [Tracking issue for the to_bytes and from_bytes methods of integers](https://github.com/rust-lang/rust/issues/49792).
-* [disposition: merge] [Implement `iter::{Sum<U>, Product<U>}` for `Option<T>`](https://github.com/rust-lang/rust/pull/50884).
-* [disposition: merge] [Implement `PartialEq` between `&str` and `OsString`](https://github.com/rust-lang/rust/pull/51178).
-* [disposition: merge] [Remove quote_*! macros](https://github.com/rust-lang/rust/pull/51285).
-* [disposition: close] [Can't overload indexing for arrays](https://github.com/rust-lang/rust/issues/49786).
+* [disposition: merge] [Tracking issue for `Rc::downcast` (`rc_downcast` feature)](https://github.com/rust-lang/rust/issues/44608).
+* [disposition: merge] [Respect -Z no-verify during LTO](https://github.com/rust-lang/rust/pull/51230).
+* [disposition: merge] [impl Clone for Box<CStr>, Box<OsStr>, Box<Path>](https://github.com/rust-lang/rust/pull/51912).
+* [disposition: merge] [Add `#[repr(transparent)]` to some libcore types](https://github.com/rust-lang/rust/pull/51395).
+* [disposition: close] [Add `TryFrom<{integer}>` for `bool`](https://github.com/rust-lang/rust/pull/50597).
 
 ## New RFCs
 
-* [Add new channels for long term support (LTS) releases](https://github.com/rust-lang/rfcs/pull/2483).
-* [Stabilize the alloc crate](https://github.com/rust-lang/rfcs/pull/2480).
-* [Conversions: `FromLossy` and `TryFromLossy` traits](https://github.com/rust-lang/rfcs/pull/2484).
+* [Existential types with external definition](https://github.com/rust-lang/rfcs/pull/2492).
+* [Add a replace_with method to Option](https://github.com/rust-lang/rfcs/pull/2490).
 
 # Upcoming Events
 
 ### Online
 
-* [Jul  3. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
-* [Jul  4. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
-* [Jul  4. Rust Events Team Meeting](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Jul 11. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
+* [Jul 17. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
+* [Jul 18. Rust Events Team Meeting](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Jul 18. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
 
-### Africa
+### Asia
 
-* [Jul  3. Johannesburg, ZA - Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxkbfb/).
+* [Jul 19. Tokyo, JP - Rust Meetup #9 in Shibuya](https://www.meetup.com/Tokyo-Rust-Meetup/events/252145423/).
 
 ### Europe
 
-* [Jul  4. Dresden, DE - Mozilla Community Dresden - Rust Meetup](https://www.meetup.com/Mozilla-Community-Dresden/events/252020329/).
 * [Jul  6. Darmstadt, DE - Rhein-Main Rust Meetup](https://www.meetup.com/Rust-Rhein-Main/events/251928672).
 * [Jul  9. Karlsruhe, DE - Rust Meetup](https://www.meetup.com/de-DE/Rust-Hack-Learn-Karlsruhe/events/252267570/)
 * [Jul 11. Zurich, CH - Actix.rs - July Meetup](https://www.meetup.com/Rust-Zurich/events/250386292/).
 * [Jul 11. Berlin, DE - OpenTechSchool - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/xkdlvpyxkbpb/).
+* [Jul 19. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxkbzb/).
 
 ### North America
 
-* [Jul  1. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxkbcb/).
-* [Jul  4. Atlanta, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/rhvgrmyxkbgb/).
-* [Jul  4. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyxkbgb/).
 * [Jul  8. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxkblb/).
 * [Jul  9. Seattle, US - Monthly Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/pkggvpyxkbmb/).
 * [Jul 11. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxjbkc/).
 * [Jul 12. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxkbqb/).
 * [Jul 12. Utah Valley, Utah, US - Utah Rust - Monthly Meeting](https://www.meetup.com/utahrust/events/251816575/).
+* [Jul 15. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxkbtb/).
+* [Jul 18. Standford, US - Rust Bay Area - [@ Stanford] Munching Macros and Facebook's Mononoke](https://www.meetup.com/Rust-Bay-Area/events/251862242/).
 * **[Aug 17. Portland, US - RustConf 2018](http://rustconf.com/).** Registration is now open.
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -178,8 +185,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Senior Software Developer at Nymi, Toronto, CA](https://nymi.com/careers/sr-software).
-* [Senior Rust Engineer at Ticketmaster, Arizona, US](https://www.reddit.com/r/rust/comments/8s0tk1/9095_remote_senior_rust_engineer_ticketmaster/).
+* [Rust Engineer at Commure, Inc. San Francisco, US](https://news.ycombinator.com/item?id=17442861).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
