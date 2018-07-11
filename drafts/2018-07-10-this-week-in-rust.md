@@ -155,6 +155,8 @@ decision. Express your opinions now.
 * [Jul 11. Zurich, CH - Actix.rs - July Meetup](https://www.meetup.com/Rust-Zurich/events/250386292/).
 * [Jul 11. Berlin, DE - OpenTechSchool - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/xkdlvpyxkbpb/).
 * [Jul 19. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxkbzb/).
+* [Jul 20. Barcelona, ES - BcnRust 1st meetup with Ashley Williams & Steve Klabnik](https://www.meetup.com/es-ES/BcnRust/events/251237895/).
+
 
 ### North America
 
