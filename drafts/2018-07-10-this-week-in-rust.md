@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Exploring new communication channels](https://internals.rust-lang.org/t/exploring-new-communication-channels/7859). Some Rust teams are trying out the Discord chat platform for team discussions.
 * [Security Advisory for rustdoc](https://blog.rust-lang.org/2018/07/06/security-advisory-for-rustdoc.html).
 * [Programming for Redox OS](https://dev.to/legolord208/programming-for-redox-os-4124).
+* [Programming Servo: an HTTP cache](https://medium.com/programming-servo/programming-servo-an-http-cache-edb52a7f267f).
 * [podcast] [New Rustacean: Traits deep dive, part 3](https://newrustacean.com/show_notes/e025/index.html). Closure traits, impl trait, dyn trait, and object safety.
 
 # Crate of the Week
@@ -118,6 +119,7 @@ decision. Express your opinions now.
 ### Europe
 
 * [Jul 19. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxkbzb/).
+* [Jul 20. Barcelona, ES - BcnRust 1st meetup with Ashley Williams & Steve Klabnik](https://www.meetup.com/es-ES/BcnRust/events/251237895/).
 * [Jul 24. Rome, IT - Rust learning and hacking evening #10](https://www.meetup.com/Rust-Roma/events/252627092/).
 
 ### North America
