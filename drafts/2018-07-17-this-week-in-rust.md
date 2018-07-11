@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Why Rust is Important](https://alexkitchens.net/2018/07/06/why-i-love-rust.html)
+
 # Crate of the Week
 
 This week's crate is [cargo-geiger](https://github.com/anderejd/cargo-geiger), which detects usage of unsafe Rust in your project and its dependencies.
