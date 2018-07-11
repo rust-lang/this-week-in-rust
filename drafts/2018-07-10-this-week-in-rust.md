@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Programming Servo: an HTTP cache](https://medium.com/programming-servo/programming-servo-an-http-cache-edb52a7f267f).
+
 # Crate of the Week
 
 This week's crate is [datafrog](https://crates.io/crates/datafrog), the lightweight embeddable datalog engine that powers Rust's non-lexical lifetimes (NLL). Thanks to [Jules Kerssemakers](https://users.rust-lang.org/u/juleskers) for the suggestion.
