@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Bug Graph: Initial development using Actix, Yew and IndraDB](https://richiejp.github.io/bug-graph/)
+
 # Crate of the Week
 
 This week's crate is [cargo-geiger](https://github.com/anderejd/cargo-geiger), which detects usage of unsafe Rust in your project and its dependencies.
