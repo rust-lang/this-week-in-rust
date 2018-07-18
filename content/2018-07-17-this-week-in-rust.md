@@ -84,6 +84,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [remove sync::Once::call_once 'static bound](https://github.com/rust-lang/rust/pull/52239)
 * [improve Debug display for a few types](https://github.com/rust-lang/cargo/pull/5712)
 * [cargo: most sorts can be unstable](https://github.com/rust-lang/cargo/pull/5732)
+* [cargo: Make index lookup robust to _ vs -, but don't let the user get it wrong](https://github.com/rust-lang/cargo/pull/5691).
 * [implement default-run option to set default binary for cargo run](https://github.com/rust-lang/cargo/pull/5710)
 * [rustdoc: don't panic when the cross-re-export handler sees a proc-macro](https://github.com/rust-lang/rust/pull/52361)
 
