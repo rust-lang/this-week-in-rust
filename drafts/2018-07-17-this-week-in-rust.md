@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [The tale of a bug in Arc: Synchronization and data races](https://www.ralfj.de/blog/2018/07/13/arc-synchronization.html).
 * [Running Rust on a Drone Flight Controller](https://www.joshmcguigan.com/blog/betafpv-drone-flight-controller-hello-rust/).
 * [Writing a GPU-accelerated path tracer in Rust - part 2](https://bheisler.github.io/post/writing-gpu-accelerated-path-tracer-part-2/).
+* [Programming Servo: a 'script' event-loop](https://medium.com/programming-servo/programming-servo-the-script-event-loop-be687b985b3e).
+* [Compatibility with dependencies](https://github.com/teiesti/compdep/blob/master/compdep.pdf).
 * [This week in Rust and WebAssembly 4](https://rustwasm.github.io/2018/07/10/this-week-in-rust-wasm-004.html).
 * [The Embedded WG newsletter 7](https://internals.rust-lang.org/t/the-embedded-working-group-newsletter-7/7959).
 * [2018 Edition - end of week post (2018-07-13)](https://internals.rust-lang.org/t/2018-edition-end-of-week-post-2018-07-13/7943).
@@ -29,7 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [cargo-geiger](https://github.com/anderejd/cargo-geiger), which detects usage of unsafe Rust in your project and its dependencies.
+This week's crate is [paste](https://github.com/jkcclemens/paste), a self-hosted pastebin made of a lot of Rust and a little Ruby. Thanks to [Kyle Clemens](https://users.rust-lang.org/u/jkcclemens) for both crate and suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -52,34 +54,37 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-158 pull requests were [merged in the last week][merged]
+172 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-07-02..2018-07-09
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-07-09..2018-07-16
 
-* [Stable release 1.27.1](https://github.com/rust-lang/rust/pull/52134).
-* [Add `#[repr(transparent)]` to some libcore types](https://github.com/rust-lang/rust/pull/51395).
-* [Stabilize rc_downcast](https://github.com/rust-lang/rust/pull/52103).
-* [Add lint warning for inner function marked as `#[test]`](https://github.com/rust-lang/rust/pull/51450).
-* [rust: add initial changes to support powerpc64le musl](https://github.com/rust-lang/rust/pull/51619).
-* [Initialize LLVM's AMDGPU target machine, if available](https://github.com/rust-lang/rust/pull/51548).
-* [Implement always-fallible TryFrom for usize/isize conversions that are infallible on some platforms](https://github.com/rust-lang/rust/pull/51564).
-* [Haiku: several smaller fixes to build and run rust on Haiku](https://github.com/rust-lang/rust/pull/51757).
-* [Add `read_exact_at` and `write_all_at` methods to `FileExt` on unix](https://github.com/rust-lang/rust/pull/51809).
-* [Add the `alloc::prelude` module](https://github.com/rust-lang/rust/pull/52159).
-* [Ship clippy in manifests](https://github.com/rust-lang/rust/pull/52131).
-* [Don't suggest `let` bindings if they don't help with borrows](https://github.com/rust-lang/rust/pull/52106).
-* [Get rid of `TyImplTraitExistential`](https://github.com/rust-lang/rust/pull/51979).
-* [rename rustc's lld to rust-lld](https://github.com/rust-lang/rust/pull/51936).
-* [Add outlives annotations to `BTreeMap`](https://github.com/rust-lang/rust/pull/51914).
-* [Performance improvement of Vec's swap_remove](https://github.com/rust-lang/rust/pull/52166).
-* [Add a punch card to weird expressions test](https://github.com/rust-lang/rust/pull/52073).
-* [Add linux musl powerpc (32-bit) support](https://github.com/rust-lang/libc/pull/1031).
-* [Implementation of tool lints](https://github.com/rust-lang/rust/pull/52018).
-* [Enable Atomic*.{load,store} for ARMv6-M / MSP430](https://github.com/rust-lang/rust/pull/51953).
-* [Make causal tracking lazy](https://github.com/rust-lang/rust/pull/51889).
-* [Move self trait predicate to items](https://github.com/rust-lang/rust/pull/51895).
-* [Mostly fix metadata_only backend and extract some code out of rustc_codegen_llvm](https://github.com/rust-lang/rust/pull/51590).
-* [Deprecate `std::env::home_dir` and fix incorrect documentation](https://github.com/rust-lang/rust/pull/51656).
+* [add the `amdgpu-kernel` ABI](https://github.com/rust-lang/rust/pull/52032)
+* [infinite loop detection for const evaluation](https://github.com/rust-lang/rust/pull/51702)
+* [chalk lowering rule: WellFormed-TraitRef](https://github.com/rust-lang/rust/pull/50250)
+* [fix ICE when using a pointer cast as array size](https://github.com/rust-lang/rust/pull/52314)
+* [implement `#[alloc_error_handler]`](https://github.com/rust-lang/rust/pull/52191)
+* [improve error message shown for unsafe operations](https://github.com/rust-lang/rust/pull/52207)
+* [remove most of `PartialEq` and `Hash` impls from AST and HIR structures](https://github.com/rust-lang/rust/pull/51829)
+* [deny bare trait objects in the rest of rust](https://github.com/rust-lang/rust/pull/52302)
+* [reach the body of functions returning `impl Trait` but don't treat it as public](https://github.com/rust-lang/rust/pull/52348)
+* [NLL: suggest `ref mut` and `&mut self`](https://github.com/rust-lang/rust/pull/52242)
+* [resolve: functions introducing procedural macros reserve a slot in the macro namespace as well](https://github.com/rust-lang/rust/pull/52383)
+* [proc_macro: fix crate root detection](https://github.com/rust-lang/rust/pull/52328)
+* [correct suggestion for println](https://github.com/rust-lang/rust/pull/51614)
+* [do not attempt to recompile codegen backend(s) with --keep-stage](https://github.com/rust-lang/rust/pull/52360)
+* [openbsd fix](https://github.com/rust-lang/libc/pull/1040)
+* [rustc: stabilize the `proc_macro` feature](https://github.com/rust-lang/rust/pull/52081)
+* [ensure StorageDead is created even if variable initialization fails](https://github.com/rust-lang/rust/pull/52046)
+* [rustc_codegen_llvm: replace the first argument early in FnType::new_vtable](https://github.com/rust-lang/rust/pull/52089)
+* [change RangeInclusive to a three-field struct](https://github.com/rust-lang/rust/pull/51622)
+* [add ExactChunks::remainder and ExactChunks::into_remainder](https://github.com/rust-lang/rust/pull/51339)
+* [implement `Option::replace` in the core library](https://github.com/rust-lang/rust/pull/52003)
+* [add `#[repr(transparent)]` to `Atomic*` types](https://github.com/rust-lang/rust/pull/52149)
+* [remove sync::Once::call_once 'static bound](https://github.com/rust-lang/rust/pull/52239)
+* [improve Debug display for a few types](https://github.com/rust-lang/cargo/pull/5712)
+* [cargo: most sorts can be unstable](https://github.com/rust-lang/cargo/pull/5732)
+* [implement default-run option to set default binary for cargo run](https://github.com/rust-lang/cargo/pull/5710)
+* [rustdoc: don't panic when the cross-re-export handler sees a proc-macro](https://github.com/rust-lang/rust/pull/52361)
 
 ## Approved RFCs
 
@@ -142,6 +147,7 @@ decision. Express your opinions now.
 * [Jun 23. Durham, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyxkbfc/).
 * [Jul 24. Denver, US - Rust Boulder/Denver - Rust Denver July Meetup](https://www.meetup.com/Rust-Boulder-Denver/events/252275279/).
 * [Jul 25. Chicago, US - Rust Meetup July 2018](https://www.meetup.com/Chicago-Rust-Meetup/events/251961097/).
+* [Jul 25. New York, NY US - Rust NYC Meetup](https://www.meetup.com/Rust-NYC/events/252181812/)
 * [Jul 25. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxkbhc/).
 * [Jul 29. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxkbmc/).
 * [Jul 31. Dallas, US - Last Tuesday Meetup](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxkbpc/).
@@ -168,11 +174,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> actix-web has removed all unsound use of unsafe in its codebase. It’s down to less than 15 occurences of unsafe from 100+.
+> References are not pointers, but temporary locks on data
 
-– [u/_ar7 celebrating this commendable achievement](https://www.reddit.com/r/rust/comments/8wlkbe/actixweb_has_removed_all_unsound_use_of_unsafe_in/).
+– [Kornel](https://users.rust-lang.org/u/kornel) [on rust-users](https://users.rust-lang.org/t/cannot-move-out-of-borrowed-content-take-2/18700/7).
 
-Thanks to [Jules Kerssemakers](https://users.rust-lang.org/t/twir-quote-of-the-week/328/542) for the suggestion!
+Thanks to [Squirrel](https://users.rust-lang.org/u/gilescope) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
