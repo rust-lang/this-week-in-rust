@@ -120,6 +120,7 @@ decision. Express your opinions now.
 * [Jul 18. Standford, US - Rust Bay Area - [@ Stanford] Munching Macros and Facebook's Mononoke](https://www.meetup.com/Rust-Bay-Area/events/251862242/).
 * [Jul 24. Denver, US - Rust Boulder/Denver - Rust Denver July Meetup](https://www.meetup.com/Rust-Boulder-Denver/events/252275279/).
 * [Jul 25. Chicago, US - Rust Meetup July 2018](https://www.meetup.com/Chicago-Rust-Meetup/events/251961097/).
+* [Jul 25. New York, NY US - Rust NYC Meetup](https://www.meetup.com/Rust-NYC/events/252181812/)
 * **[Aug 17. Portland, US - RustConf 2018](http://rustconf.com/).**
 
 If you are running a Rust event please add it to the [calendar] to get
