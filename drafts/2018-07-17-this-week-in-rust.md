@@ -16,7 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Programming Servo: a 'script' event-loop](https://medium.com/programming-servo/programming-servo-the-script-event-loop-be687b985b3e)
+* [Compatibility with dependencies](https://github.com/teiesti/compdep/blob/master/compdep.pdf).
+* [Programming Servo: a 'script' event-loop](https://medium.com/programming-servo/programming-servo-the-script-event-loop-be687b985b3e).
 
 # Crate of the Week
 
