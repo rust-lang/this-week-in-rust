@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Running Rust on a drone flight controller](https://www.joshmcguigan.com/blog/betafpv-drone-flight-controller-hello-rust/).
 * [Writing a GPU-accelerated path tracer in Rust - part 2](https://bheisler.github.io/post/writing-gpu-accelerated-path-tracer-part-2/).
 * [Programming Servo: a 'script' event-loop](https://medium.com/programming-servo/programming-servo-the-script-event-loop-be687b985b3e).
+* [Artifact 2.0 - Rust full stack web and cli application](https://vitiral.github.io/2018/07/16/artifact-2.0-rust-full-stack-web-and-cli-application.html).
 * [Compatibility with dependencies](https://github.com/teiesti/compdep/blob/master/compdep.pdf).
 * [This week in Rust and WebAssembly 4](https://rustwasm.github.io/2018/07/10/this-week-in-rust-wasm-004.html).
 * [The Embedded WG newsletter 7](https://internals.rust-lang.org/t/the-embedded-working-group-newsletter-7/7959).
