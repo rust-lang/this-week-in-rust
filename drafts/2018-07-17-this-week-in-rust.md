@@ -16,6 +16,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Clippy is now available as a rustup component](https://internals.rust-lang.org/t/clippy-is-available-as-a-rustup-component/7967).
+* [Auditing popular crates: how a one-line unsafe has nearly ruined everything](https://www.reddit.com/r/rust/comments/8zpp5f/auditing_popular_crates_how_a_oneline_unsafe_has/).
+* [Announcing State Of Rust](https://internals.rust-lang.org/t/announcing-state-of-rust/7937).
+* [The tale of a bug in Arc: Synchronization and data races](https://www.ralfj.de/blog/2018/07/13/arc-synchronization.html).
+* [Running Rust on a Drone Flight Controller](https://www.joshmcguigan.com/blog/betafpv-drone-flight-controller-hello-rust/).
+* [Writing a GPU-accelerated path tracer in Rust - part 2](https://bheisler.github.io/post/writing-gpu-accelerated-path-tracer-part-2/).
+* [This week in Rust and WebAssembly 4](https://rustwasm.github.io/2018/07/10/this-week-in-rust-wasm-004.html).
+* [The Embedded WG newsletter 7](https://internals.rust-lang.org/t/the-embedded-working-group-newsletter-7/7959).
+* [2018 Edition - end of week post (2018-07-13)](https://internals.rust-lang.org/t/2018-edition-end-of-week-post-2018-07-13/7943).
+* [Possible stabilizations for 2018 Edition Preview 2](https://internals.rust-lang.org/t/possible-stabilizations-for-2018-edition-preview-2/7983).
+
 # Crate of the Week
 
 This week's crate is [cargo-geiger](https://github.com/anderejd/cargo-geiger), which detects usage of unsafe Rust in your project and its dependencies.
@@ -31,8 +42,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Rustberry: Test Rustberry 0.1 on Raspberry Pi](https://www.reddit.com/r/rust/comments/8x1ayd/calling_all_raspberry_pi_owners_rustberry_010_has/).
-* [medium/hard] [rustc-guide: Codegen: LLVM IR, Monomorphization, Codegen Units, Partitioning, Symbol Linkage and Visibility](https://github.com/rust-lang-nursery/rustc-guide/issues/89).
+* [Help port musl's libm to Rust, for math support in WASM/core/no_std code](https://mobile.twitter.com/japaricious/status/1017934106318032901).
+* [image-png: Unbounded memory consumption on malformed inputs](https://github.com/PistonDevelopers/image-png/issues/80).
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -86,38 +97,62 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Associated type bounds of form `MyTrait<AssociatedType: Bounds>`](https://github.com/rust-lang/rfcs/pull/2289).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [resolve: Modularize crate-local `#[macro_export] macro_rules`](https://github.com/rust-lang/rust/pull/52234).
+* [disposition: merge] [Change behavior of `?` as a macro separator and Kleene op in 2018 edition](https://github.com/rust-lang/rust/issues/51934).
 * [disposition: merge] [Deprecation of `str::slice_unchecked(_mut)`](https://github.com/rust-lang/rust/pull/51807).
 * [disposition: merge] [Tracking issue for `ToOwned::clone_into` (`toowned_clone_into`)](https://github.com/rust-lang/rust/issues/41263).
-* [disposition: merge] [impl Clone for `Box<CStr>`, `Box<OsStr>`, `Box<Path>`](https://github.com/rust-lang/rust/pull/51912).
+* [disposition: close] [NLL lets borrowck observe drop order for `let (a, b);`](https://github.com/rust-lang/rust/issues/51036).
+* [disposition: close] [adds Default impl for Instant](https://github.com/rust-lang/rust/pull/50800).
 
 ## New RFCs
 
-* [Minimum Supported Rust Version](https://github.com/rust-lang/rfcs/pull/2495).
+* [if- and while-let-chains, take 2](https://github.com/rust-lang/rfcs/pull/2497).
+* [Pattern API](https://github.com/rust-lang/rfcs/pull/2500).
+* [Hygiene opt-out (escaping) for declarative macros 2.0](https://github.com/rust-lang/rfcs/pull/2498).
 
 # Upcoming Events
 
-### Asia
+### Online
 
-* [Jul 19. Tokyo, JP - Rust Meetup #9 in Shibuya](https://www.meetup.com/Tokyo-Rust-Meetup/events/252145423/).
+* [Jul 25. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Jul 31. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
+* [Aug  1. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Aug  1. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+
+### Asia-Pacific
+
+* [Jul 23. Sydney, AU - Rust Sydney Meetup 14](https://www.meetup.com/Rust-Sydney/events/251749825/).
 
 ### Europe
 
-* [Jul 19. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxkbzb/).
-* [Jul 20. Barcelona, ES - BcnRust 1st meetup with Ashley Williams & Steve Klabnik](https://www.meetup.com/es-ES/BcnRust/events/251237895/).
+* [Jul 20. Barcelona, ES - BcnRust 1st meetup with Ashley Williams & Steve Klabnik](https://www.meetup.com/BcnRust/events/251237895/).
 * [Jul 24. Rome, IT - Rust learning and hacking evening #10](https://www.meetup.com/Rust-Roma/events/252627092/).
+* [Jul 25. Wrocław, PL - Rust Wroclaw Meetup #3](https://www.meetup.com/Rust-Wroclaw/events/252190812/).
+* [Jul 25. Berlin, DE - OpenTechSchool - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/xkdlvpyxkbhc/).
+* [Jul 25. Milan, IT - Rust Language Milano - Rust Exercises](https://www.meetup.com/rust-language-milano/events/252893336/).
+* [Aug  1. Cologne, DE - Rust Cologne](https://www.meetup.com/RustCologne/events/252432033).
 
 ### North America
 
-* [Jul 12. Utah Valley, Utah, US - Utah Rust - Monthly Meeting](https://www.meetup.com/utahrust/events/251816575/).
-* [Jul 18. Orange County, US - Crash Course for Traits and Associated Types](https://www.meetup.com/oc-rust/events/252639183/).
-* [Jul 18. Standford, US - Rust Bay Area - [@ Stanford] Munching Macros and Facebook's Mononoke](https://www.meetup.com/Rust-Bay-Area/events/251862242/).
+* [Jul 22. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxkbdc/).
+* [Jun 23. Durham, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyxkbfc/).
 * [Jul 24. Denver, US - Rust Boulder/Denver - Rust Denver July Meetup](https://www.meetup.com/Rust-Boulder-Denver/events/252275279/).
 * [Jul 25. Chicago, US - Rust Meetup July 2018](https://www.meetup.com/Chicago-Rust-Meetup/events/251961097/).
+* [Jul 25. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxkbhc/).
+* [Jul 29. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxkbmc/).
+* [Jul 31. Dallas, US - Last Tuesday Meetup](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxkbpc/).
+* [Aug  1. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyxlbcb/).
+* [Aug  1. Atlanta, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/rhvgrmyxlbcb/).
 * **[Aug 17. Portland, US - RustConf 2018](http://rustconf.com/).**
+
+### South America
+
+* [Jul 21. São Paulo, BR - Rust at The Developers Conference - TDC2018](http://www.thedevelopersconference.com.br/tdc/2018/saopaulo/trilha-rust).
+* [Jul 28. Florianópolis, BR - 2º Encontro Rust Floripa](https://www.meetup.com/rustfloripa/events/xvglrpyxkbkb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -127,7 +162,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Software Engineer at Distil Networks, San Francisco](https://www.distilnetworks.com/job/?id=c2a5db5c-12ce-40f2-949c-48510acf7fa1).
+* [Rust Software Engineer at IOHK (Remote work available)](https://iohk.recruiterbox.com/jobs/fk0177c?source=linkedin).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
