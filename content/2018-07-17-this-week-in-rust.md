@@ -17,10 +17,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Clippy is now available as a rustup component](https://internals.rust-lang.org/t/clippy-is-available-as-a-rustup-component/7967).
+* [Announcing State of Rust](https://internals.rust-lang.org/t/announcing-state-of-rust/7937).
 * [Auditing popular crates: how a one-line unsafe has nearly ruined everything](https://www.reddit.com/r/rust/comments/8zpp5f/auditing_popular_crates_how_a_oneline_unsafe_has/).
-* [Announcing State Of Rust](https://internals.rust-lang.org/t/announcing-state-of-rust/7937).
 * [The tale of a bug in Arc: Synchronization and data races](https://www.ralfj.de/blog/2018/07/13/arc-synchronization.html).
-* [Running Rust on a Drone Flight Controller](https://www.joshmcguigan.com/blog/betafpv-drone-flight-controller-hello-rust/).
+* [Running Rust on a drone flight controller](https://www.joshmcguigan.com/blog/betafpv-drone-flight-controller-hello-rust/).
 * [Writing a GPU-accelerated path tracer in Rust - part 2](https://bheisler.github.io/post/writing-gpu-accelerated-path-tracer-part-2/).
 * [Programming Servo: a 'script' event-loop](https://medium.com/programming-servo/programming-servo-the-script-event-loop-be687b985b3e).
 * [Compatibility with dependencies](https://github.com/teiesti/compdep/blob/master/compdep.pdf).
