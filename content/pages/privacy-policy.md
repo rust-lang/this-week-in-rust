@@ -3,7 +3,7 @@ Date: 2015-07-08
 
 Last updated: 8 July, 2015
 
-TWiR team ("us", "we", or "our") operates the <a href="http://this-week-in-rust.org/">This Week in Rust</a> website (the "Service").
+TWiR team ("us", "we", or "our") operates the <a href="https://this-week-in-rust.github.io/">This Week in Rust</a> website (the "Service").
 
 This page informs you of our policies regarding the collection, use and disclosure of Personal Information when you use our Service.
 

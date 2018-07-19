@@ -49,7 +49,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 This week's Call for Participation is submitted by RustConf 2017 attendees!
 
-<img src="https://this-week-in-rust.org/images/rustconf-2017-cfp.jpg" alt="A photo of a whiteboard from RustConf 2017 which lists projects looking for help.">
+<img src="https://this-week-in-rust.github.io/images/rustconf-2017-cfp.jpg" alt="A photo of a whiteboard from RustConf 2017 which lists projects looking for help.">
 
 ### Transcript
 
@@ -77,7 +77,7 @@ Our community likes to recognize people who have made outstanding contributions
 to the Rust Project, its ecosystem, and its community. This year at RustConf, attendees
 nominated people who have been awesome for the Rust community. And here they are:
 
-<img src="https://this-week-in-rust.org/images/rustconf-2017-fotf.jpg" alt="A photo of a whiteboard from RustConf 2017 which displays a list titled - who's been awesome for the Rust community - contributed by attendees.">
+<img src="https://this-week-in-rust.github.io/images/rustconf-2017-fotf.jpg" alt="A photo of a whiteboard from RustConf 2017 which displays a list titled - who's been awesome for the Rust community - contributed by attendees.">
 
 ### Transcript
 

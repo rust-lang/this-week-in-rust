@@ -242,7 +242,7 @@ This week's friends of the forest are:
 [rusty-dash]: http://rusty-dash.com/
 [nasa42]: https://github.com/nasa42
 [llogiq]: https://github.com/llogiq
-[This Week In Rust]: https://this-week-in-rust.org/
+[This Week In Rust]: https://this-week-in-rust.github.io/
 [WindowsBunny]: https://github.com/retep998
 [eddyb]: https://github.com/eddyb
 [chriskrycho]: https://github.com/chriskrycho
