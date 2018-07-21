@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Rust concurrency patterns: communicate by sharing your Sender](https://medium.com/@polyglot_factotum/rust-concurrency-patterns-communicate-by-sharing-your-sender-11a496ce7791)
+
 # Crate of the Week
 
 This week's crate is [paste](https://github.com/jkcclemens/paste), a self-hosted pastebin made of a lot of Rust and a little Ruby. Thanks to [Kyle Clemens](https://users.rust-lang.org/u/jkcclemens) for both crate and suggestion!
