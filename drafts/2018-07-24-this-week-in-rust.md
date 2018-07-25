@@ -26,6 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Creating CLI apps in Rust is super easy](https://blog.kuviman.com/2018/07/20/glitchcat.html).
 * [Deploying Rust with Docker and Kubernetes](https://www.fpcomplete.com/blog/2018/07/deploying-rust-with-docker-and-kubernetes).
 * [Natively run OCaml from Rust](https://blog.s-m.ac/ocaml-rust-ffi/).
+* [Rust concurrency patterns: communicate by sharing your Sender](https://medium.com/@polyglot_factotum/rust-concurrency-patterns-communicate-by-sharing-your-sender-11a496ce7791).
 * [Thoughts on compile-time function evaluation and type systems](https://www.ralfj.de/blog/2018/07/19/const.html).
 * [On impl blocks, injection and surjection in Rust](https://phaazon.net/blog/on-rust-impl-block).
 * [Rebooting the network services working group](https://internals.rust-lang.org/t/rebooting-the-network-services-working-group/8036).
