@@ -58,9 +58,9 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-172 pull requests were [merged in the last week][merged]
+151 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-07-09..2018-07-16
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-07-16..2018-07-23
 
 * [Cargo: Import `cargo fix` directly in to Cargo](https://github.com/rust-lang/cargo/pull/5723).
 * [Implement existential types](https://github.com/rust-lang/rust/pull/52024).
@@ -119,7 +119,7 @@ decision. Express your opinions now.
 
 ### Africa
 
-* [Jul  7. Johannesburg, ZA - Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxlbkb/).
+* [Aug  7. Johannesburg, ZA - Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxlbkb/).
 
 ### Europe
 
@@ -159,7 +159,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 > I’ve just realized that “guarantees memory safety in the presence of bugs” is a nice way to describe Rust to C/C++ folks
 
-– [matklad on Rust Internals](https://internals.rust-lang.org/t/size-hint-correctness-reproducibility-and-documentation/8058/4).
+– [matklad](https://internals.rust-lang.org/t/size-hint-correctness-reproducibility-and-documentation/8058/4).
 
 Thanks to [TomP](https://users.rust-lang.org/t/twir-quote-of-the-week/328/545) for the suggestion!
 
