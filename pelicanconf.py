@@ -5,7 +5,7 @@ import os
 
 AUTHOR = u'TWiR Contributors'
 SITENAME = u"This Week in Rust"
-SITEURL = 'https://this-week-in-rust.github.io'
+SITEURL = 'https://this-week-in-rust.org'
 
 SOURCE_URL = 'https://github.com/cmr/this-week-in-rust'
 
