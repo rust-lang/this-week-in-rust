@@ -120,6 +120,7 @@ decision. Express your opinions now.
 * [Aug  8. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxlblb/).
 * [Aug  9. Arlington, US - Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/252742624).
 * [Aug  9. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxlbmb/).
+* [Aug 9. Lehi, UT - Utah Rust - Monthly Meeting #3](https://www.meetup.com/utahrust/events/252760018/).
 * **[Aug 17. Portland, US - RustConf 2018](http://rustconf.com/).**
 
 ### South America
