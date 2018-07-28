@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Programming Servo: How to match](https://medium.com/programming-servo/programming-servo-how-to-match-b76c43f76fe6)
+* [Rust concurrency patterns: Natural Born Pipelines](https://medium.com/@polyglot_factotum/rust-concurrency-patterns-natural-born-pipelines-4d599e7612fc)
 
 # Crate of the Week
 
