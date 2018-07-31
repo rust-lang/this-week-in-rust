@@ -34,6 +34,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [How to help test the 2018 edition](https://www.ncameron.org/blog/how-to-help-test-the-2018-edition/).
 * [bitwarden_rs: Looking for wannabe rustaceans, that'd like to get their feet wet](https://www.reddit.com/r/rust/comments/90xh79/looking_for_wannabe_rustaceans_thatd_like_to_get/).
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
+* [exercism.io needs Rust mentors](https://users.rust-lang.org/t/exercism-io-needs-mentors/19222)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
