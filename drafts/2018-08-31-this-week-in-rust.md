@@ -16,6 +16,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Programming Servo: How to match](https://medium.com/programming-servo/programming-servo-how-to-match-b76c43f76fe6)
+* [Rust concurrency patterns: Natural Born Pipelines](https://medium.com/@polyglot_factotum/rust-concurrency-patterns-natural-born-pipelines-4d599e7612fc)
+
 # Crate of the Week
 
 This week's crate is [Taizen](https://github.com/NerdyPepper/taizen), a wikipedia browser for your terminal. Thanks to [nasa42](https://users.rust-lang.org/t/crate-of-the-week/2704/419) for suggestion!
