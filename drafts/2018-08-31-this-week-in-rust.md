@@ -23,7 +23,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Pointers are complicated, or: What's in a byte](https://www.ralfj.de/blog/2018/07/24/pointers-and-bytes.html)?
 * [Version selection in Cargo](https://aturon.github.io/2018/07/25/cargo-version-selection/).
 * [A "rustup target" example: Using a Mac to cross-compile Linux binaries](http://timryan.org/2018/07/27/cross-compiling-linux-binaries-from-macos.html).
+* [Rust concurrency patterns: Natural born pipelines](https://medium.com/@polyglot_factotum/rust-concurrency-patterns-natural-born-pipelines-4d599e7612fc).
 * [Build a sequence-based recommender system in Rust](https://maciejkula.github.io/2018/07/27/recommending-books-with-rust/).
+* [Programming Servo: How to match](https://medium.com/programming-servo/programming-servo-how-to-match-b76c43f76fe6).
 * [My experience with the Rust 2018 preview](https://boats.gitlab.io/blog/post/my-experience-with-rust-2018/).
 * [Writing a front-end WebAssembly framework in Rust: lessons learned](https://medium.com/@robert.balicki_2494/writing-a-front-end-webassembly-framework-in-rust-lessons-learned-7cc48ed27d96).
 * [2018 edition end of week post (2018-07-27)](https://internals.rust-lang.org/t/2018-edition-end-of-week-post-2018-07-27/8078).
@@ -32,7 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [rav1e](https://github.com/xiph/rav1e), the fastest and safest AV1 encoder from Xiph.Org Foundation. Thanks to [nasa42](https://users.rust-lang.org/t/crate-of-the-week/2704/419) for suggestion!
+This week's crate is [Taizen](https://github.com/NerdyPepper/taizen), a wikipedia browser for your terminal. Thanks to [nasa42](https://users.rust-lang.org/t/crate-of-the-week/2704/419) for suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -46,6 +48,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Help test out the 2018 module system changes](https://internals.rust-lang.org/t/help-test-out-the-2018-module-system-changes/8047).
+* [exercism.io needs Rust mentors](https://users.rust-lang.org/t/exercism-io-needs-mentors/19222).
 * [jsonwebtoken: Add ES* family](https://github.com/Keats/jsonwebtoken/issues/21).
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
 
@@ -55,26 +58,38 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-151 pull requests were [merged in the last week][merged]
+158 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-07-16..2018-07-23
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-07-23..2018-07-31
 
-* [Cargo: Import `cargo fix` directly in to Cargo](https://github.com/rust-lang/cargo/pull/5723).
-* [Implement existential types](https://github.com/rust-lang/rust/pull/52024).
-* [Overhaul exit codes for rustc and rustdoc](https://github.com/rust-lang/rust/pull/52197).
-* [rustc: Stabilize `#[wasm_import_module]` as `#[link(...)]`](https://github.com/rust-lang/rust/pull/52445).
-* [Stabilize lint handling in rustdoc](https://github.com/rust-lang/rust/pull/52354).
-* [Deprecation of `str::slice_unchecked(_mut)`](https://github.com/rust-lang/rust/pull/51807).
-* [Lint `async` identifiers in 2018 preparation mode](https://github.com/rust-lang/rust/pull/52375).
-* [rustc: Enable `use_extern_macros` in 2018 edition](https://github.com/rust-lang/rust/pull/52472).
-* [Implement statfs for dragonfly, freebsd and openbsd](https://github.com/rust-lang/libc/pull/1039).
-* [Speed up `SparseBitMatrix` use in `RegionValues`](https://github.com/rust-lang/rust/pull/52250).
-* [mem::swap the obvious way for types smaller than the SIMD optimization's block size](https://github.com/rust-lang/rust/pull/52051).
-* [Cargo: Don't warn about ignored files in cargo-fix](https://github.com/rust-lang/cargo/pull/5770).
-* [rustc: Work around an upstream wasm ThinLTO bug](https://github.com/rust-lang/rust/pull/52506).
-* [Allow clippy to be installed with make install](https://github.com/rust-lang/rust/pull/52464).
-* [regex: expose lower level search APIs](https://github.com/rust-lang/regex/pull/493).
-* [Implement rfc 1789: Conversions from `&mut T` to `&Cell<T>`](https://github.com/rust-lang/rust/pull/50494).
+* [try to fix an ICE](https://github.com/rust-lang/rust/pull/52673)
+* [abort if a promoted fails to be const evaluable and its runtime checks didn't trigger](https://github.com/rust-lang/rust/pull/52571)
+* [allow declaring existential types inside blocks](https://github.com/rust-lang/rust/pull/52645)
+* [do not overwrite child def-id in place but rather remove/insert](https://github.com/rust-lang/rust/pull/52546)
+* [format linker args in a way that works for gcc and ld](https://github.com/rust-lang/rust/pull/52654)
+* [rustc: implement tokenization of nested items](https://github.com/rust-lang/rust/pull/52618)
+* [buffer NLL errors](https://github.com/rust-lang/rust/pull/52566)
+* [don't match on region kinds when reporting NLL errors](https://github.com/rust-lang/rust/pull/52617)
+* [NLL: improve the "fully elaborated type" case in region errors](https://github.com/rust-lang/rust/pull/52648)
+* [NLL: use better spans in some errors](https://github.com/rust-lang/rust/pull/52678)
+* [NLL: make temp for each candidate in `match` arm](https://github.com/rust-lang/rust/pull/52733)
+* [NLL: fix some things for bootstrap](https://github.com/rust-lang/rust/pull/52830)
+* [suggest underscore when using dashes in crate name](https://github.com/rust-lang/rust/pull/52740)
+* [suggest fix when encountering different mutability from impl to trait](https://github.com/rust-lang/rust/pull/52702)
+* [do a basic sanity check for all constant values](https://github.com/rust-lang/rust/pull/51361)
+* [tweak the raw_identifiers lints in 2018](https://github.com/rust-lang/rust/pull/52722)
+* [change ManuallyDrop<T> to a lang item](https://github.com/rust-lang/rust/pull/52711)
+* [don't use NonNull::dangling as sentinel value in Rc, Arc](https://github.com/rust-lang/rust/pull/52637)
+* [add unaligned volatile intrinsics](https://github.com/rust-lang/rust/pull/52391)
+* [`impl PartialEq+Eq for BuildHasherDefault`](https://github.com/rust-lang/rust/pull/52402)
+* [`impl Executor for Box<E: Executor>`](https://github.com/rust-lang/rust/pull/52674)
+* [`impl std::ops::Try for std::task::Poll`](https://github.com/rust-lang/rust/pull/52721)
+* [`impl Send & Sync for JoinHandle`](https://github.com/rust-lang/rust/pull/52759)
+* [make `memrchr` use `align_offset`](https://github.com/rust-lang/rust/pull/52744)
+* [stablize Redox Unix Sockets](https://github.com/rust-lang/rust/pull/52656)
+* [don't `format!()` string literals](https://github.com/rust-lang/rust/pull/52805)
+* [`cargo -Zcompile-progress`: use the target name in the progress bar when building a test/binary](https://github.com/rust-lang/cargo/pull/5828)
+* [rustdoc: rework how default passes are chosen](https://github.com/rust-lang/rust/pull/52751)
 
 ## Approved RFCs
 
@@ -123,6 +138,7 @@ decision. Express your opinions now.
 
 * [Aug  8. Berlin, DE - Binding to Rust from everything](https://www.meetup.com/Rust-Berlin/events/252872742/).
 * [Aug  8. Berlin, DE - OpenTechSchool - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/xkdlvpyxlblb/).
+* [Aug 10. Frankfurt, DE - Rhein-Main Rust Meetup (with Special Guest)](https://www.meetup.com/Rust-Rhein-Main/events/253311151).
 * [Aug 16. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxlbvb/).
 
 ### North America
@@ -149,11 +165,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I’ve just realized that “guarantees memory safety in the presence of bugs” is a nice way to describe Rust to C/C++ folks
+> Rust is more restrictive, indeed. But only in the sense that a car with seatbelts is more restrictive than one without: both reach the same top speed, but only one of them will save you in a bad day 😊
 
-– [matklad](https://internals.rust-lang.org/t/size-hint-correctness-reproducibility-and-documentation/8058/4).
+– [Felix91gr on rust-users](https://users.rust-lang.org/t/which-language-gives-users-more-control-c-or-rust/19034/8).
 
-Thanks to [TomP](https://users.rust-lang.org/t/twir-quote-of-the-week/328/545) for the suggestion!
+Thanks to [Jules Kerssemakers](https://users.rust-lang.org/u/juleskers) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
