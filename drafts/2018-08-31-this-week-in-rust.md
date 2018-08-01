@@ -16,6 +16,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [What is Rust 2018](https://blog.rust-lang.org/2018/07/27/what-is-rust-2018.html)?
+* [Announcing the js-sys crate](https://rustwasm.github.io/2018/07/26/announcing-the-js-sys-crate.html).
+* [Learn how to build OpenGL renderer with Rust](https://old.reddit.com/r/rust/comments/92abkg/rust_and_opengl_from_scratch_a_blog_post_series/).
+* [A snapshot of Rust's popularity in July 2018](http://www.jonathanturner.org/2018/07/snapshot-of-rust-popularity.html).
+* [Pointers are complicated, or: What's in a byte](https://www.ralfj.de/blog/2018/07/24/pointers-and-bytes.html)?
+* [Version selection in Cargo](https://aturon.github.io/2018/07/25/cargo-version-selection/).
+* [A "rustup target" example: Using a Mac to cross-compile Linux binaries](http://timryan.org/2018/07/27/cross-compiling-linux-binaries-from-macos.html).
+* [Build a sequence-based recommender system in Rust](https://maciejkula.github.io/2018/07/27/recommending-books-with-rust/).
+* [My experience with the Rust 2018 preview](https://boats.gitlab.io/blog/post/my-experience-with-rust-2018/).
+* [Writing a front-end WebAssembly framework in Rust: lessons learned](https://medium.com/@robert.balicki_2494/writing-a-front-end-webassembly-framework-in-rust-lessons-learned-7cc48ed27d96).
+* [2018 edition end of week post (2018-07-27)](https://internals.rust-lang.org/t/2018-edition-end-of-week-post-2018-07-27/8078).
+* [The Embedded WG newsletter 8](https://internals.rust-lang.org/t/the-embedded-working-group-newsletter-8/8089).
+* [Rust 2018 release schedule and extended beta](https://internals.rust-lang.org/t/rust-2018-release-schedule-and-extended-beta/8076).
+
 # Crate of the Week
 
 This week's crate is [rav1e](https://github.com/xiph/rav1e), the fastest and safest AV1 encoder from Xiph.Org Foundation. Thanks to [nasa42](https://users.rust-lang.org/t/crate-of-the-week/2704/419) for suggestion!
@@ -31,8 +45,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [How to help test the 2018 edition](https://www.ncameron.org/blog/how-to-help-test-the-2018-edition/).
-* [bitwarden_rs: Looking for wannabe rustaceans, that'd like to get their feet wet](https://www.reddit.com/r/rust/comments/90xh79/looking_for_wannabe_rustaceans_thatd_like_to_get/).
+* [Help test out the 2018 module system changes](https://internals.rust-lang.org/t/help-test-out-the-2018-module-system-changes/8047).
+* [jsonwebtoken: Add ES* family](https://github.com/Keats/jsonwebtoken/issues/21).
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -68,7 +82,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2289: Associated type bounds of form `MyTrait<AssociatedType: Bounds>`](https://github.com/rust-lang/rfcs/pull/2289).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -78,27 +92,28 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Closures Capture Disjoint Fields](https://github.com/rust-lang/rfcs/pull/2229).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Tracking issue: RFC 2103 - attributes for tools](https://github.com/rust-lang/rust/issues/44690).
+* [disposition: merge] [Tracking issue for `:vis` macro matcher](https://github.com/rust-lang/rust/issues/41022).
+* [disposition: merge] [Tracking issue for RFC 2093: Infer `T: 'x` outlives requirements on structs](https://github.com/rust-lang/rust/issues/44493).
+* [disposition: merge] [Tracking issue for RFC 2151, Raw Identifiers](https://github.com/rust-lang/rust/issues/48589).
 * [disposition: merge] [Tracking issue for `ToOwned::clone_into` (`toowned_clone_into`)](https://github.com/rust-lang/rust/issues/41263).
-* [disposition: merge] [Modularize crate-local `#[macro_export] macro_rules`](https://github.com/rust-lang/rust/pull/52234).
+* [disposition: merge] [Calculate capacity when collecting into Option and Result](https://github.com/rust-lang/rust/pull/52910).
 
 ## New RFCs
 
-* [Fix the Error trait](https://github.com/rust-lang/rfcs/pull/2504).
-* [Make AcqRel universally usable as ordering mode](https://github.com/rust-lang/rfcs/pull/2503).
+* [Teach `concat!()` to join `[u8]` and byte `str`](https://github.com/rust-lang/rfcs/pull/2509).
 
 # Upcoming Events
 
 ### Online
 
-* [Jul 31. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
-* [Aug  1. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-* [Aug  1. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Aug  8. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Aug 14. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
+* [Aug 15. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Aug 15. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
 ### Africa
 
@@ -106,25 +121,19 @@ decision. Express your opinions now.
 
 ### Europe
 
-* [Aug  1. Cologne, DE - Rust Cologne](https://www.meetup.com/RustCologne/events/252432033).
 * [Aug  8. Berlin, DE - Binding to Rust from everything](https://www.meetup.com/Rust-Berlin/events/252872742/).
 * [Aug  8. Berlin, DE - OpenTechSchool - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/xkdlvpyxlblb/).
+* [Aug 16. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxlbvb/).
 
 ### North America
 
-* [Jul 29. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxkbmc/).
-* [Jul 31. Dallas, US - Last Tuesday Meetup](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxkbpc/).
-* [Aug  1. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyxlbcb/).
-* [Aug  1. Atlanta, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/rhvgrmyxlbcb/).
 * [Aug  5. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbhb/).
 * [Aug  8. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxlblb/).
 * [Aug  9. Arlington, US - Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/252742624).
 * [Aug  9. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxlbmb/).
+* [Aug 12. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbqb/).
+* [Aug 13. Seattle, US - Monthly Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/pkggvpyxlbrb/).
 * **[Aug 17. Portland, US - RustConf 2018](http://rustconf.com/).**
-
-### South America
-
-* [Jul 28. Florianópolis, BR - 2º Encontro Rust Floripa](https://www.meetup.com/rustfloripa/events/xvglrpyxkbkb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -134,7 +143,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Engineer at Commure, Inc. (San Francisco, Boston, Montreal)](https://news.ycombinator.com/item?id=17442861).
+* [Rust Engineer at Commure, Inc. (San Francisco, Boston, Montreal)](https://www.reddit.com/r/rust/comments/92e67g/commure_healthcare_software_startup_hiring_rust/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
