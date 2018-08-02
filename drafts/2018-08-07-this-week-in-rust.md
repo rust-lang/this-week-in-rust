@@ -35,6 +35,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [exercism.io needs Rust mentors](https://users.rust-lang.org/t/exercism-io-needs-mentors/19222).
 * [jsonwebtoken: Add ES* family](https://github.com/Keats/jsonwebtoken/issues/21).
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
+* [easy] [rustc: mark applicability of diagnostic suggestions](https://github.com/rust-lang/rust/issues/50723)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
