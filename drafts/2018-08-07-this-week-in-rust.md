@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [Taizen](https://github.com/NerdyPepper/taizen), a wikipedia browser for your terminal. Thanks to [nasa42](https://users.rust-lang.org/t/crate-of-the-week/2704/419) for suggestion!
+This week's crate is [warp](https://github.com/seanmonstar/warp), a fast, composable web framework. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/428) for suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -43,38 +43,55 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-158 pull requests were [merged in the last week][merged]
+165 pull requests were [merged in the last week][merged]
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-07-23..2018-07-31
 
-* [try to fix an ICE](https://github.com/rust-lang/rust/pull/52673)
-* [abort if a promoted fails to be const evaluable and its runtime checks didn't trigger](https://github.com/rust-lang/rust/pull/52571)
-* [allow declaring existential types inside blocks](https://github.com/rust-lang/rust/pull/52645)
-* [do not overwrite child def-id in place but rather remove/insert](https://github.com/rust-lang/rust/pull/52546)
-* [format linker args in a way that works for gcc and ld](https://github.com/rust-lang/rust/pull/52654)
-* [rustc: implement tokenization of nested items](https://github.com/rust-lang/rust/pull/52618)
-* [buffer NLL errors](https://github.com/rust-lang/rust/pull/52566)
-* [don't match on region kinds when reporting NLL errors](https://github.com/rust-lang/rust/pull/52617)
-* [NLL: improve the "fully elaborated type" case in region errors](https://github.com/rust-lang/rust/pull/52648)
-* [NLL: use better spans in some errors](https://github.com/rust-lang/rust/pull/52678)
-* [NLL: make temp for each candidate in `match` arm](https://github.com/rust-lang/rust/pull/52733)
-* [NLL: fix some things for bootstrap](https://github.com/rust-lang/rust/pull/52830)
-* [suggest underscore when using dashes in crate name](https://github.com/rust-lang/rust/pull/52740)
-* [suggest fix when encountering different mutability from impl to trait](https://github.com/rust-lang/rust/pull/52702)
-* [do a basic sanity check for all constant values](https://github.com/rust-lang/rust/pull/51361)
-* [tweak the raw_identifiers lints in 2018](https://github.com/rust-lang/rust/pull/52722)
-* [change ManuallyDrop<T> to a lang item](https://github.com/rust-lang/rust/pull/52711)
-* [don't use NonNull::dangling as sentinel value in Rc, Arc](https://github.com/rust-lang/rust/pull/52637)
-* [add unaligned volatile intrinsics](https://github.com/rust-lang/rust/pull/52391)
-* [`impl PartialEq+Eq for BuildHasherDefault`](https://github.com/rust-lang/rust/pull/52402)
-* [`impl Executor for Box<E: Executor>`](https://github.com/rust-lang/rust/pull/52674)
-* [`impl std::ops::Try for std::task::Poll`](https://github.com/rust-lang/rust/pull/52721)
-* [`impl Send & Sync for JoinHandle`](https://github.com/rust-lang/rust/pull/52759)
-* [make `memrchr` use `align_offset`](https://github.com/rust-lang/rust/pull/52744)
-* [stablize Redox Unix Sockets](https://github.com/rust-lang/rust/pull/52656)
-* [don't `format!()` string literals](https://github.com/rust-lang/rust/pull/52805)
-* [`cargo -Zcompile-progress`: use the target name in the progress bar when building a test/binary](https://github.com/rust-lang/cargo/pull/5828)
-* [rustdoc: rework how default passes are chosen](https://github.com/rust-lang/rust/pull/52751)
+* [don't commit thread stack on Windows](https://github.com/rust-lang/rust/pull/52847)
+* [implement a self profiler](https://github.com/rust-lang/rust/pull/51657)
+* [update LLVM submodule to 7.0](https://github.com/rust-lang/rust/pull/52983)
+* [use `BitVector` for global sets of `AttrId`](https://github.com/rust-lang/rust/pull/52799)
+* [use suggestions for shell format arguments](https://github.com/rust-lang/rust/pull/52888)
+* [async can begin expressions](https://github.com/rust-lang/rust/pull/52954)
+* [resolve: modularize crate-local `#[macro_export] macro_rules`](https://github.com/rust-lang/rust/pull/52234)
+* [resolve: record single-segment extern crate import resolutions](https://github.com/rust-lang/rust/pull/52930)
+* [privacy: fix an ICE in `path_is_private_type`](https://github.com/rust-lang/rust/pull/53001)
+* [reintroduce `Undef` and properly check constant value sizes](https://github.com/rust-lang/rust/pull/52712)
+* [enable RISCV](https://github.com/rust-lang/rust/pull/52787)
+* [aarch64 fix](https://github.com/rust-lang/llvm/pull/123)
+* [NLL migration in the 2018 edition needs two-phase borrows too!](https://github.com/rust-lang/rust/pull/52975)
+* [NLL mentions lifetimes that are not included in printed span(s)](https://github.com/rust-lang/rust/pull/52973)
+* [NLL: dangly paths for box](https://github.com/rust-lang/rust/pull/52782)
+* [NLL: disable some nice region errors in NLL mode](https://github.com/rust-lang/rust/pull/53115)
+* [NLL: avoid computing liveness for locals that escape into statics](https://github.com/rust-lang/rust/pull/52991)
+* [NLL: use smaller spans for errors involving closure captures](https://github.com/rust-lang/rust/pull/52959)
+* [NLL: better Diagnostic When "Later" means "A Future Loop Iteration"](https://github.com/rust-lang/rust/pull/52948)
+* [include lifetime in mutability suggestion in NLL messages](https://github.com/rust-lang/rust/pull/52883)
+* [NLL: allow conflicting borrows of promoted length zero arrays](https://github.com/rust-lang/rust/pull/52834)
+* [NLL: Don't make "fake" match variables mutable](https://github.com/rust-lang/rust/pull/52810)
+* [fix NLL migration mode so that reports region errors when necessary](https://github.com/rust-lang/rust/pull/53045)
+* [NLL: sort diagnostics by span](https://github.com/rust-lang/rust/pull/52904)
+* [slices: fix ZST slice iterators making up pointers; debug_assert alignment in from_raw_parts](https://github.com/rust-lang/rust/pull/52206)
+* [App-lint-cability](https://github.com/rust-lang/rust/pull/52968)
+* [add more diagnostics to smooth edition transition](https://github.com/rust-lang/cargo/pull/5824)
+* [fix memrchr in MIRI](https://github.com/rust-lang/rust/pull/52854)
+* [`invalid_const_promotion`: check if we get the right signal](https://github.com/rust-lang/rust/pull/52823)
+* [remove unstable and deprecated APIs](https://github.com/rust-lang/rust/pull/52732)
+* [revert "Stabilize to_bytes and from_bytes for integers."](https://github.com/rust-lang/rust/pull/52850)
+* [provide `{to,from}_{ne,le,be}_bytes` functions on integers](https://github.com/rust-lang/rust/pull/51919)
+* [treat gc=No characters as numeric](https://github.com/rust-lang/rust/pull/51609)
+* [implement inner deref for `Option` and `Result`](https://github.com/rust-lang/rust/pull/50267)
+* [make `io::Read::read_to_end` consider `io::Take::limit`](https://github.com/rust-lang/rust/pull/52939)
+* [use `SetLenOnDrop` in `Vec::truncate()`](https://github.com/rust-lang/rust/pull/52908)
+* [Implement Unpin for FutureObj and LocalFutureObj](https://github.com/rust-lang/rust/pull/52870)
+* [reexport tests without polluting namespaces](https://github.com/rust-lang/rust/pull/52890)
+* [cargo: fix the edition build scripts are compiled with](https://github.com/rust-lang/cargo/pull/5861)
+* [cargo: use listed dependency name for feature names](https://github.com/rust-lang/cargo/pull/5811)
+* [cargo fully capture rustc and rustdoc output when `-Zcompile-progress` is passed](https://github.com/rust-lang/cargo/pull/5862)
+* [cargo can silently fix some bad lockfiles (use `--locked` to disable)](https://github.com/rust-lang/cargo/pull/5831)
+* [rustdoc: stabilize `--color` and `--error-format` options](https://github.com/rust-lang/rust/pull/53003)
+* [rustdoc: make `everybody_loops` preserve item declarations](https://github.com/rust-lang/rust/pull/53002)
+* [fix ICE when rustdoc encounters certain usages of HRTBs](https://github.com/rust-lang/rust/pull/52990)
 
 ## Approved RFCs
 
@@ -151,11 +168,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Rust is more restrictive, indeed. But only in the sense that a car with seatbelts is more restrictive than one without: both reach the same top speed, but only one of them will save you in a bad day 😊
+> We put in a lot of work to make upgrades painless; for example, we run a tool (called “crater”) before each Rust release that downloads every package on crates.io and attempts to build their code and run their tests.
 
-– [Felix91gr on rust-users](https://users.rust-lang.org/t/which-language-gives-users-more-control-c-or-rust/19034/8).
+– [Rust Blog: What is Rust 2018](https://blog.rust-lang.org/2018/07/27/what-is-rust-2018.html).
 
-Thanks to [Jules Kerssemakers](https://users.rust-lang.org/u/juleskers) for the suggestion!
+Thanks to [azriel91](https://users.rust-lang.org/u/azriel91) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
