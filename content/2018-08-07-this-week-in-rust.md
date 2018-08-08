@@ -16,8 +16,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [`intl_pluralrules` - A new crate for CLDR plural rules](https://blog.mozilla.org/l10n/2018/08/03/intl_pluralrules-a-rust-crate-for-handling-plural-forms-with-cldr-plural-rules/)
-* [Rust concurrency patterns: No context, no cancel, no leaks](https://medium.com/@polyglot_factotum/rust-concurrency-patterns-no-context-no-cancel-no-leak-b6c1ec2dafa5)
+* 🎈🎉 [Announcing Rust 1.28](https://blog.rust-lang.org/2018/08/02/Rust-1.28.html). 🎉🎈
+* [warp: a new web framework for Rust](https://seanmonstar.com/post/176530511587/warp).
+* [Data manipulation in Rust (Part 1: nalgebra)](https://misoraclette.github.io/2018/08/04/data_manipulation.html).
+* [Rust and the case of the redundant comparison](https://blog.dend.ro/rust-and-the-case-of-the-redundant-comparison/).
+* [Solving the generalized streaming iterator problem without GATs](https://lukaskalbertodt.github.io/2018/08/03/solving-the-generalized-streaming-iterator-problem-without-gats.html).
+* [Stacked borrows: An aliasing model for Rust](https://www.ralfj.de/blog/2018/08/07/stacked-borrows.html).
+* [Amethyst game engine: New tutorial and huge feature update](https://www.amethyst.rs/blog/release-0-8/).
+* [`intl_pluralrules` - A new crate for CLDR plural rules](https://blog.mozilla.org/l10n/2018/08/03/intl_pluralrules-a-rust-crate-for-handling-plural-forms-with-cldr-plural-rules/).
+* [Notes on two PRs that slightly improve Rust's performance](https://llogiq.github.io/2018/08/04/improve.html).
+* [Rust concurrency patterns: No context, no cancel, no leaks](https://medium.com/@polyglot_factotum/rust-concurrency-patterns-no-context-no-cancel-no-leak-b6c1ec2dafa5).
+* [ripgrep is now packaged in Debian](https://packages.debian.org/sid/ripgrep).
+* [This week in Rust and WebAssembly 5](https://rustwasm.github.io/2018/08/01/this-week-in-rust-wasm-005.html).
+* [2018 Edition end of week post (2018-08-04)](https://internals.rust-lang.org/t/2018-edition-end-of-week-post-2018-08-04/8123).
 
 # Crate of the Week
 
@@ -34,11 +45,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Help test out the 2018 module system changes](https://internals.rust-lang.org/t/help-test-out-the-2018-module-system-changes/8047).
-* [exercism.io needs Rust mentors](https://users.rust-lang.org/t/exercism-io-needs-mentors/19222).
-* [jsonwebtoken: Add ES* family](https://github.com/Keats/jsonwebtoken/issues/21).
+* [How to land your first Rust pull request in TiKV](https://www.pingcap.com/blog/adding-built-in-functions-to-tikv/).
+* [easy] [Maud: Update benchmarks](https://github.com/lfairy/maud/issues/143). Maud is an HTML template engine for Rust.
+* [atom-language-rust: Help with PR reviews](https://users.rust-lang.org/t/twir-call-for-participation/4821/202).
+* [intl_pluralrules: Seeking crate review](https://users.rust-lang.org/t/twir-call-for-participation/4821/203).
 * [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
-* [easy] [rustc: mark applicability of diagnostic suggestions](https://github.com/rust-lang/rust/issues/50723)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -112,50 +123,43 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Closures Capture Disjoint Fields](https://github.com/rust-lang/rfcs/pull/2229).
+*No RFCs are currently in final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Tracking issue for `:vis` macro matcher](https://github.com/rust-lang/rust/issues/41022).
 * [disposition: merge] [Tracking issue for RFC 2093: Infer `T: 'x` outlives requirements on structs](https://github.com/rust-lang/rust/issues/44493).
-* [disposition: merge] [Tracking issue for RFC 2151, Raw Identifiers](https://github.com/rust-lang/rust/issues/48589).
-* [disposition: merge] [Tracking issue for `ToOwned::clone_into` (`toowned_clone_into`)](https://github.com/rust-lang/rust/issues/41263).
 * [disposition: merge] [Calculate capacity when collecting into Option and Result](https://github.com/rust-lang/rust/pull/52910).
+* [disposition: close] [Undeprecate `thread::sleep_ms`](https://github.com/rust-lang/rust/pull/51610).
 
 ## New RFCs
 
-* [Teach `concat!()` to join `[u8]` and byte `str`](https://github.com/rust-lang/rfcs/pull/2509).
+* [Permit impl Trait in type aliases](https://github.com/rust-lang/rfcs/pull/2515).
+* [Union initialization and Drop](https://github.com/rust-lang/rfcs/pull/2514).
+* [Project-based Examples for Cargo Projects](https://github.com/rust-lang/rfcs/pull/2517).
 
 # Upcoming Events
 
 ### Online
 
-* [Aug  8. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Aug 14. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
 * [Aug 15. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Aug 15. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-
-### Africa
-
-* [Aug  7. Johannesburg, ZA - Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxlbkb/).
+* [Aug 22. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
 ### Europe
 
-* [Aug  8. Berlin, DE - Binding to Rust from everything](https://www.meetup.com/Rust-Berlin/events/252872742/).
-* [Aug  8. Berlin, DE - OpenTechSchool - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/xkdlvpyxlblb/).
 * [Aug 10. Frankfurt, DE - Rhein-Main Rust Meetup (with Special Guest)](https://www.meetup.com/Rust-Rhein-Main/events/253311151).
 * [Aug 16. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxlbvb/).
 
 ### North America
 
-* [Aug  5. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbhb/).
-* [Aug  8. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxlblb/).
-* [Aug  9. Arlington, US - Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/252742624).
-* [Aug  9. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxlbmb/).
-* [Aug  9. Lehi, UT - Utah Rust - Monthly Meeting #3](https://www.meetup.com/utahrust/events/252760018/).
 * [Aug 12. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbqb/).
 * [Aug 13. Seattle, US - Monthly Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/pkggvpyxlbrb/).
+* [Aug 15. Orange County, US - Rust Foreign Function Interface (FFI) Development](https://www.meetup.com/oc-rust/events/253565445/).
 * **[Aug 17. Portland, US - RustConf 2018](http://rustconf.com/).**
+* [Aug 19. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbzb/).
+* [Aug 22. Berlin, DE - OpenTechSchool - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/253062831/).
+* [Aug 22. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxlblb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
