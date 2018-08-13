@@ -137,8 +137,10 @@ decision. Express your opinions now.
 ### Online
 
 * [Aug 15. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-* [Aug 15. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Aug 22. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Aug 15. Rust Community Team Meeting at #rust-community on irc.mozilla.org]().
+* [Aug 22. Rust Community Team Meeting at #rust-community on irc.mozilla.org]().
+* [Aug 28. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org]().
+* [Aug 29. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 
 ### Europe
 
@@ -151,6 +153,10 @@ decision. Express your opinions now.
 * **[Aug 17. Portland, US - RustConf 2018](http://rustconf.com/).**
 * [Aug 19. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbzb/).
 * [Aug 22. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxlblb/).
+* [Aug 26. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbjc/).
+* [Aug 27. Durham, US - Triangle Rustaceans](https://www.meehttps://www tup.com/triangle-rustaceans/).
+* [Aug 28. Chicago, US - Rust Meetup](https://www.meetup.com/Chicago-Rust-Meetup/events/253621611/).
+* [Aug 28. Dallas, US - Rust Meetup](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxlblc/).
 
 ### Asia
 
