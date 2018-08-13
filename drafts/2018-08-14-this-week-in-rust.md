@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Benchmaking gfx-portability versus MoltenVK and OpenGL on Dota](https://gfx-rs.github.io/2018/08/10/dota2-macos-performance.html), discussions on [Reddit](https://www.reddit.com/r/rust/comments/966us8/benchmarking_gfxportability_versus_moltenvk_and/) and [HN](https://news.ycombinator.com/item?id=17732957).
+
 # Crate of the Week
 
 This week's crate is [warp](https://github.com/seanmonstar/warp), a fast, composable web framework. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/428) for suggestion!
