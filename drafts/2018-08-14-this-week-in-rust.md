@@ -109,19 +109,21 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge][Fix the Error trait](https://github.com/rust-lang/rfcs/pull/2504)
-* [disposition: merge][Add `is_sorted` to the standard library](https://github.com/rust-lang/rfcs/pull/2351)
-* [disposition: merge][Add `pub fn identity<T>(x: T) -> T { x }` to core::convert](https://github.com/rust-lang/rfcs/pull/2306)
-* [disposition: postpone][Introduce panic_thin, a fmtless alternative to panic_fmt](https://github.com/rust-lang/rfcs/pull/2305)
-* [disposition: close][Add std::mem::zero](https://github.com/rust-lang/rfcs/pull/2291)
-* [disposition: merge][Deprecate uninitialized in favor of a new MaybeUninit type](https://github.com/rust-lang/rfcs/pull/1892)
+* [disposition: merge] [Fix the Error trait](https://github.com/rust-lang/rfcs/pull/2504).
+* [disposition: merge] [Add `is_sorted` to the standard library](https://github.com/rust-lang/rfcs/pull/2351).
+* [disposition: merge] [Add `pub fn identity<T>(x: T) -> T { x }` to core::convert](https://github.com/rust-lang/rfcs/pull/2306).
+* [disposition: merge] [if- and while-let-chains, take 2](https://github.com/rust-lang/rfcs/pull/2497).
+* [disposition: merge] [Deprecate uninitialized in favor of a new MaybeUninit type](https://github.com/rust-lang/rfcs/pull/1892).
+* [disposition: postpone] [Introduce panic_thin, a fmtless alternative to panic_fmt](https://github.com/rust-lang/rfcs/pull/2305).
+* [disposition: close] [Add std::mem::zero](https://github.com/rust-lang/rfcs/pull/2291).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: close] [(Modules) Tracking issue for the `mod.rs` changes](https://github.com/rust-lang/rust/issues/53125)
-* [disposition: close] [unsized ManuallyDrop](https://github.com/rust-lang/rust/pull/53033)
-* [disposition: close] [Allow to check if sync::Once is already initialized](https://github.com/rust-lang/rust/pull/53027)
-* [disposition: close] [Allow all literals in attributes (Tracking Issue for RFC #1559)](https://github.com/rust-lang/rust/issues/34981)
+* [disposition: merge] [(Modules) Tracking issue for the `mod.rs` changes](https://github.com/rust-lang/rust/issues/53125).
+* [disposition: merge] [Allow to check if sync::Once is already initialized](https://github.com/rust-lang/rust/pull/53027).
+* [disposition: merge] [Allow all literals in attributes (Tracking Issue for RFC #1559)](https://github.com/rust-lang/rust/issues/34981).
+* [disposition: merge] [Tracking Issue for Iterator::find_map](https://github.com/rust-lang/rust/issues/49602).
+* [disposition: close] [Define non-panicking UTF encoding methods on `char`](https://github.com/rust-lang/rust/pull/52580).
 
 ## New RFCs
 
