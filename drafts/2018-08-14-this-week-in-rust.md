@@ -16,6 +16,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Launching the 2018 State of Rust Survey](https://blog.rust-lang.org/2018/08/08/survey.html).
+* [Discord's new game store makes extensive use of Rust](https://twitter.com/ManishEarth/status/1027676698068713473).
+* [Benchmarking gfx-portability versus MoltenVK and OpenGL with Dota2 on Mac](https://gfx-rs.github.io/2018/08/10/dota2-macos-performance.html).
+* [How to alleviate the pain of Rust compile times](https://vfoley.xyz/rust-compile-speed-tips/).
+* [Never patterns, exhaustive matching, and uninhabited types](http://smallcultfollowing.com/babysteps/blog/2018/08/13/never-patterns-exhaustive-matching-and-uninhabited-types-oh-my/).
+* [Tower Web — A new web framework for Rust](https://medium.com/@carllerche/tower-web-a-new-web-framework-for-rust-e2912856851b).
+* [The state of GPGPU in Rust](https://bheisler.github.io/post/state-of-gpgpu-in-rust/).
+* [The Xi text engine CRDT](https://github.com/google/xi-editor/blob/e8065a3993b80af0aadbca0e50602125d60e4e38/doc/crdt-details.md).
+* [The WG-Net vision for Rust 2018](https://rust-lang-nursery.github.io/wg-net/2018/08/09/going-live.html).
+* [The Embedded WG newsletter 9](https://internals.rust-lang.org/t/the-embedded-working-group-newsletter-9/8185).
+
 # Crate of the Week
 
 This week's crate is [warp](https://github.com/seanmonstar/warp), a fast, composable web framework. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/428) for suggestion!
@@ -31,11 +42,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [How to land your first Rust pull request in TiKV](https://www.pingcap.com/blog/adding-built-in-functions-to-tikv/).
-* [easy] [Maud: Update benchmarks](https://github.com/lfairy/maud/issues/143). Maud is an HTML template engine for Rust.
-* [atom-language-rust: Help with PR reviews](https://users.rust-lang.org/t/twir-call-for-participation/4821/202).
-* [intl_pluralrules: Seeking crate review](https://users.rust-lang.org/t/twir-call-for-participation/4821/203).
-* [Get started with these beginner-friendly issues](https://www.rustaceans.org/findwork/starters).
+* [easy] [rustc: mark applicability of diagnostic suggestions](https://github.com/rust-lang/rust/issues/50723)
+* [WG-Net: Call For Example Web Projects](https://github.com/rust-lang-nursery/wg-net/issues/44).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -155,7 +163,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Engineer at Commure, Inc. (San Francisco, Boston, Montreal)](https://www.reddit.com/r/rust/comments/92e67g/commure_healthcare_software_startup_hiring_rust/).
+* [Rust/Core Developer at Parity Technologies, Berlin](https://paritytech.io/jobs/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
@@ -169,4 +177,4 @@ Thanks to [azriel91](https://users.rust-lang.org/u/azriel91) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
-*This Week in Rust is edited by: [nasa42](https://github.com/nasa42) and [llogiq](https://github.com/llogiq).*
+*This Week in Rust is edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [Flavsditz](https://github.com/Flavsditz).*
