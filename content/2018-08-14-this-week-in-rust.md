@@ -18,9 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Launching the 2018 State of Rust Survey](https://blog.rust-lang.org/2018/08/08/survey.html).
 * [Discord's new game store makes extensive use of Rust](https://twitter.com/ManishEarth/status/1027676698068713473).
-* [Benchmarking gfx-portability versus MoltenVK and OpenGL with Dota2 on Mac](https://gfx-rs.github.io/2018/08/10/dota2-macos-performance.html).
 * [How to alleviate the pain of Rust compile times](https://vfoley.xyz/rust-compile-speed-tips/).
 * [Never patterns, exhaustive matching, and uninhabited types](http://smallcultfollowing.com/babysteps/blog/2018/08/13/never-patterns-exhaustive-matching-and-uninhabited-types-oh-my/).
+* [Benchmarking gfx-portability versus MoltenVK and OpenGL with Dota2 on Mac](https://gfx-rs.github.io/2018/08/10/dota2-macos-performance.html).
 * [Tower Web — A new web framework for Rust](https://medium.com/@carllerche/tower-web-a-new-web-framework-for-rust-e2912856851b).
 * [The state of GPGPU in Rust](https://bheisler.github.io/post/state-of-gpgpu-in-rust/).
 * [The Xi text engine CRDT](https://github.com/google/xi-editor/blob/e8065a3993b80af0aadbca0e50602125d60e4e38/doc/crdt-details.md).
@@ -43,7 +43,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [rustc: mark applicability of diagnostic suggestions](https://github.com/rust-lang/rust/issues/50723)
+* [easy] [rustc: mark applicability of diagnostic suggestions](https://github.com/rust-lang/rust/issues/50723).
 * [WG-Net: Call For Example Web Projects](https://github.com/rust-lang-nursery/wg-net/issues/44).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -134,6 +134,7 @@ decision. Express your opinions now.
 
 ### North America
 
+* [Aug 16. Portland, US - Meetup w/ Zcash, ParityTech, Solana | Why Use Rust For Blockchain Development](https://www.meetup.com/Portland-Solana-Blockchain-Meetup/events/253180468/).
 * **[Aug 17. Portland, US - RustConf 2018](http://rustconf.com/).**
 * [Aug 19. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbzb/).
 * [Aug 22. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxlblb/).
