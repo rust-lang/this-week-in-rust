@@ -127,9 +127,9 @@ decision. Express your opinions now.
 
 ## New RFCs
 
-* [Unify std::os::raw::c_void and libc::c_void via libcore](https://github.com/rust-lang/rfcs/issues/2521).
-* [Generalized Type Ascription](https://github.com/rust-lang/rfcs/issues/2522).
-* [#\[cfg(accessible(..) / version = ".." / nightly)\]](https://github.com/rust-lang/rfcs/issues/2523).
+* [Unify std::os::raw::c_void and libc::c_void via libcore](https://github.com/rust-lang/rfcs/pull/2521).
+* [Generalized Type Ascription](https://github.com/rust-lang/rfcs/pull/2522).
+* [#\[cfg(accessible(..) / version = ".." / nightly)\]](https://github.com/rust-lang/rfcs/pull/2523).
 
 # Upcoming Events
 
