@@ -26,10 +26,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [The Xi text engine CRDT](https://github.com/google/xi-editor/blob/e8065a3993b80af0aadbca0e50602125d60e4e38/doc/crdt-details.md).
 * [The WG-Net vision for Rust 2018](https://rust-lang-nursery.github.io/wg-net/2018/08/09/going-live.html).
 * [The Embedded WG newsletter 9](https://internals.rust-lang.org/t/the-embedded-working-group-newsletter-9/8185).
+* [DX11 backend for gfx-rs - GSoC 2018 report](https://gfx-rs.github.io/2018/08/14/gsoc.html).
 
 # Crate of the Week
 
-This week's crate is [warp](https://github.com/seanmonstar/warp), a fast, composable web framework. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/428) for suggestion!
+This week's crate is [macro_railroad](https://github.com/lukaslueg/macro_railroad), a library to create neat syntax diagrams for `macro_rules!` declarative macros. Thanks to [kornel](https://users.rust-lang.org/t/crate-of-the-week/2704/436) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -51,55 +52,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-165 pull requests were [merged in the last week][merged]
+102 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-07-23..2018-07-31
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-08-06..2018-08-13
 
-* [don't commit thread stack on Windows](https://github.com/rust-lang/rust/pull/52847)
-* [implement a self profiler](https://github.com/rust-lang/rust/pull/51657)
-* [update LLVM submodule to 7.0](https://github.com/rust-lang/rust/pull/52983)
-* [use `BitVector` for global sets of `AttrId`](https://github.com/rust-lang/rust/pull/52799)
-* [use suggestions for shell format arguments](https://github.com/rust-lang/rust/pull/52888)
-* [async can begin expressions](https://github.com/rust-lang/rust/pull/52954)
-* [resolve: modularize crate-local `#[macro_export] macro_rules`](https://github.com/rust-lang/rust/pull/52234)
-* [resolve: record single-segment extern crate import resolutions](https://github.com/rust-lang/rust/pull/52930)
-* [privacy: fix an ICE in `path_is_private_type`](https://github.com/rust-lang/rust/pull/53001)
-* [reintroduce `Undef` and properly check constant value sizes](https://github.com/rust-lang/rust/pull/52712)
-* [enable RISCV](https://github.com/rust-lang/rust/pull/52787)
-* [aarch64 fix](https://github.com/rust-lang/llvm/pull/123)
-* [NLL migration in the 2018 edition needs two-phase borrows too!](https://github.com/rust-lang/rust/pull/52975)
-* [NLL mentions lifetimes that are not included in printed span(s)](https://github.com/rust-lang/rust/pull/52973)
-* [NLL: dangly paths for box](https://github.com/rust-lang/rust/pull/52782)
-* [NLL: disable some nice region errors in NLL mode](https://github.com/rust-lang/rust/pull/53115)
-* [NLL: avoid computing liveness for locals that escape into statics](https://github.com/rust-lang/rust/pull/52991)
-* [NLL: use smaller spans for errors involving closure captures](https://github.com/rust-lang/rust/pull/52959)
-* [NLL: better Diagnostic When "Later" means "A Future Loop Iteration"](https://github.com/rust-lang/rust/pull/52948)
-* [include lifetime in mutability suggestion in NLL messages](https://github.com/rust-lang/rust/pull/52883)
-* [NLL: allow conflicting borrows of promoted length zero arrays](https://github.com/rust-lang/rust/pull/52834)
-* [NLL: Don't make "fake" match variables mutable](https://github.com/rust-lang/rust/pull/52810)
-* [fix NLL migration mode so that reports region errors when necessary](https://github.com/rust-lang/rust/pull/53045)
-* [NLL: sort diagnostics by span](https://github.com/rust-lang/rust/pull/52904)
-* [slices: fix ZST slice iterators making up pointers; debug_assert alignment in from_raw_parts](https://github.com/rust-lang/rust/pull/52206)
-* [App-lint-cability](https://github.com/rust-lang/rust/pull/52968)
-* [add more diagnostics to smooth edition transition](https://github.com/rust-lang/cargo/pull/5824)
-* [fix memrchr in MIRI](https://github.com/rust-lang/rust/pull/52854)
-* [`invalid_const_promotion`: check if we get the right signal](https://github.com/rust-lang/rust/pull/52823)
-* [remove unstable and deprecated APIs](https://github.com/rust-lang/rust/pull/52732)
-* [revert "Stabilize to_bytes and from_bytes for integers."](https://github.com/rust-lang/rust/pull/52850)
-* [provide `{to,from}_{ne,le,be}_bytes` functions on integers](https://github.com/rust-lang/rust/pull/51919)
-* [treat gc=No characters as numeric](https://github.com/rust-lang/rust/pull/51609)
-* [implement inner deref for `Option` and `Result`](https://github.com/rust-lang/rust/pull/50267)
-* [make `io::Read::read_to_end` consider `io::Take::limit`](https://github.com/rust-lang/rust/pull/52939)
-* [use `SetLenOnDrop` in `Vec::truncate()`](https://github.com/rust-lang/rust/pull/52908)
-* [Implement Unpin for FutureObj and LocalFutureObj](https://github.com/rust-lang/rust/pull/52870)
-* [reexport tests without polluting namespaces](https://github.com/rust-lang/rust/pull/52890)
-* [cargo: fix the edition build scripts are compiled with](https://github.com/rust-lang/cargo/pull/5861)
-* [cargo: use listed dependency name for feature names](https://github.com/rust-lang/cargo/pull/5811)
-* [cargo fully capture rustc and rustdoc output when `-Zcompile-progress` is passed](https://github.com/rust-lang/cargo/pull/5862)
-* [cargo can silently fix some bad lockfiles (use `--locked` to disable)](https://github.com/rust-lang/cargo/pull/5831)
-* [rustdoc: stabilize `--color` and `--error-format` options](https://github.com/rust-lang/rust/pull/53003)
-* [rustdoc: make `everybody_loops` preserve item declarations](https://github.com/rust-lang/rust/pull/53002)
-* [fix ICE when rustdoc encounters certain usages of HRTBs](https://github.com/rust-lang/rust/pull/52990)
+* [whitelist wasm32 simd128 target feature](https://github.com/rust-lang/rust/pull/53179)
+* [fix a few regressions from enabling macro modularization](https://github.com/rust-lang/rust/pull/53270)
+* [resolve: support custom attributes when macro modularization is enabled](https://github.com/rust-lang/rust/pull/53053)
+* [Place unions, pointer casts and pointer derefs behind extra feature gates](https://github.com/rust-lang/rust/pull/51990)
+* [suggest float for integer literals where a float was expected](https://github.com/rust-lang/rust/pull/53283)
+* [suggest missing comma in macro call](https://github.com/rust-lang/rust/pull/53183)
+* [add help message for missing `IndexMut` impl](https://github.com/rust-lang/rust/pull/52788)
+* [add errors for unknown, stable and duplicate feature attributes](https://github.com/rust-lang/rust/pull/52644)
+* [suggest comma when writing `println!("{}" a);`](https://github.com/rust-lang/rust/pull/52397)
+* [emit error for pattern arguments in trait methods](https://github.com/rust-lang/rust/pull/53051)
+* [fix improper_ctypes lint for individual foreign items](https://github.com/rust-lang/rust/pull/53100)
+* [NLL: use span of the closure args in free region errors](https://github.com/rust-lang/rust/pull/53088)
+* [apply some fixes to cross-language LTO (especially when targeting MSVC)](https://github.com/rust-lang/rust/pull/53031)
+* [Un-name globals with private linkage](https://github.com/rust-lang/rust/pull/51007)
+* [avoid many allocations for `CString`s during codegen](https://github.com/rust-lang/rust/pull/53161)
+* [change `assert!` to `debug_assert!` in `visit_with`](https://github.com/rust-lang/rust/pull/53025)
+* [don't `collect()` when `size_hint` is useless](https://github.com/rust-lang/rust/pull/53019)
+* [make IpvXAddr::new const fns and the well known addresses associated constants](https://github.com/rust-lang/rust/pull/52872)
+* [change rustdoc style so fully qualified name does not overlap src link](https://github.com/rust-lang/rust/pull/53060)
+* [crates.io: add crate size on the crate detail page](https://github.com/rust-lang/crates.io/pull/1436)
 
 ## Approved RFCs
 
@@ -117,43 +93,54 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Fix the Error trait](https://github.com/rust-lang/rfcs/pull/2504).
+* [disposition: merge] [Add `is_sorted` to the standard library](https://github.com/rust-lang/rfcs/pull/2351).
+* [disposition: merge] [Add `pub fn identity<T>(x: T) -> T { x }` to core::convert](https://github.com/rust-lang/rfcs/pull/2306).
+* [disposition: merge] [if- and while-let-chains, take 2](https://github.com/rust-lang/rfcs/pull/2497).
+* [disposition: merge] [Deprecate uninitialized in favor of a new MaybeUninit type](https://github.com/rust-lang/rfcs/pull/1892).
+* [disposition: postpone] [Introduce panic_thin, a fmtless alternative to panic_fmt](https://github.com/rust-lang/rfcs/pull/2305).
+* [disposition: close] [Add std::mem::zero](https://github.com/rust-lang/rfcs/pull/2291).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Tracking issue for RFC 2093: Infer `T: 'x` outlives requirements on structs](https://github.com/rust-lang/rust/issues/44493).
-* [disposition: merge] [Calculate capacity when collecting into Option and Result](https://github.com/rust-lang/rust/pull/52910).
-* [disposition: close] [Undeprecate `thread::sleep_ms`](https://github.com/rust-lang/rust/pull/51610).
+* [disposition: merge] [(Modules) Tracking issue for the `mod.rs` changes](https://github.com/rust-lang/rust/issues/53125).
+* [disposition: merge] [Allow to check if sync::Once is already initialized](https://github.com/rust-lang/rust/pull/53027).
+* [disposition: merge] [Allow all literals in attributes (Tracking Issue for RFC #1559)](https://github.com/rust-lang/rust/issues/34981).
+* [disposition: merge] [Tracking Issue for Iterator::find_map](https://github.com/rust-lang/rust/issues/49602).
+* [disposition: close] [Define non-panicking UTF encoding methods on `char`](https://github.com/rust-lang/rust/pull/52580).
 
 ## New RFCs
 
-* [Permit impl Trait in type aliases](https://github.com/rust-lang/rfcs/pull/2515).
-* [Union initialization and Drop](https://github.com/rust-lang/rfcs/pull/2514).
-* [Project-based Examples for Cargo Projects](https://github.com/rust-lang/rfcs/pull/2517).
+* [Unify std::os::raw::c_void and libc::c_void via libcore](https://github.com/rust-lang/rfcs/pull/2521).
+* [Generalized Type Ascription](https://github.com/rust-lang/rfcs/pull/2522).
+* [#\[cfg(accessible(..) / version = ".." / nightly)\]](https://github.com/rust-lang/rfcs/pull/2523).
 
 # Upcoming Events
 
 ### Online
 
-* [Aug 14. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
-* [Aug 15. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-* [Aug 15. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Aug 22. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Aug 28. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
+* [Aug 29. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+
+### Asia
+
+* [Aug 18. Chennai, IN - Rust Monthly Meetup](https://www.meetup.com/mad-rs/events/253751178/).
 
 ### Europe
 
-* [Aug 10. Frankfurt, DE - Rhein-Main Rust Meetup (with Special Guest)](https://www.meetup.com/Rust-Rhein-Main/events/253311151).
 * [Aug 16. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxlbvb/).
+* [Aug 22. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/253062831/).
 
 ### North America
 
-* [Aug 12. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbqb/).
-* [Aug 13. Seattle, US - Monthly Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/pkggvpyxlbrb/).
-* [Aug 15. Orange County, US - Rust Foreign Function Interface (FFI) Development](https://www.meetup.com/oc-rust/events/253565445/).
 * **[Aug 17. Portland, US - RustConf 2018](http://rustconf.com/).**
 * [Aug 19. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbzb/).
-* [Aug 22. Berlin, DE - OpenTechSchool - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/253062831/).
 * [Aug 22. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxlblb/).
+* [Aug 26. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbjc/).
+* [Aug 27. Durham, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyxlbkc/).
+* [Aug 28. Chicago, US - Rust Meetup](https://www.meetup.com/Chicago-Rust-Meetup/events/253621611/).
+* [Aug 28. Dallas, US - Rust Meetup](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxlblc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
@@ -169,11 +156,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> We put in a lot of work to make upgrades painless; for example, we run a tool (called “crater”) before each Rust release that downloads every package on crates.io and attempts to build their code and run their tests.
+> Fearless concurrency includes fearless refactoring.
 
-– [Rust Blog: What is Rust 2018](https://blog.rust-lang.org/2018/07/27/what-is-rust-2018.html).
+– [cuviper at rust-users](https://users.rust-lang.org/t/parallel-problems-to-showcase-rust-features/19365/6).
 
-Thanks to [azriel91](https://users.rust-lang.org/u/azriel91) for the suggestion!
+Thanks to [Jules Kerssemakers](https://users.rust-lang.org/u/juleskers) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
