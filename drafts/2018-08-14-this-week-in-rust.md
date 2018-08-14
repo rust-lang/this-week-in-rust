@@ -84,43 +84,54 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Fix the Error trait](https://github.com/rust-lang/rfcs/pull/2504).
+* [disposition: merge] [Add `is_sorted` to the standard library](https://github.com/rust-lang/rfcs/pull/2351).
+* [disposition: merge] [Add `pub fn identity<T>(x: T) -> T { x }` to core::convert](https://github.com/rust-lang/rfcs/pull/2306).
+* [disposition: merge] [if- and while-let-chains, take 2](https://github.com/rust-lang/rfcs/pull/2497).
+* [disposition: merge] [Deprecate uninitialized in favor of a new MaybeUninit type](https://github.com/rust-lang/rfcs/pull/1892).
+* [disposition: postpone] [Introduce panic_thin, a fmtless alternative to panic_fmt](https://github.com/rust-lang/rfcs/pull/2305).
+* [disposition: close] [Add std::mem::zero](https://github.com/rust-lang/rfcs/pull/2291).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Tracking issue for RFC 2093: Infer `T: 'x` outlives requirements on structs](https://github.com/rust-lang/rust/issues/44493).
-* [disposition: merge] [Calculate capacity when collecting into Option and Result](https://github.com/rust-lang/rust/pull/52910).
-* [disposition: close] [Undeprecate `thread::sleep_ms`](https://github.com/rust-lang/rust/pull/51610).
+* [disposition: merge] [(Modules) Tracking issue for the `mod.rs` changes](https://github.com/rust-lang/rust/issues/53125).
+* [disposition: merge] [Allow to check if sync::Once is already initialized](https://github.com/rust-lang/rust/pull/53027).
+* [disposition: merge] [Allow all literals in attributes (Tracking Issue for RFC #1559)](https://github.com/rust-lang/rust/issues/34981).
+* [disposition: merge] [Tracking Issue for Iterator::find_map](https://github.com/rust-lang/rust/issues/49602).
+* [disposition: close] [Define non-panicking UTF encoding methods on `char`](https://github.com/rust-lang/rust/pull/52580).
 
 ## New RFCs
 
-* [Permit impl Trait in type aliases](https://github.com/rust-lang/rfcs/pull/2515).
-* [Union initialization and Drop](https://github.com/rust-lang/rfcs/pull/2514).
-* [Project-based Examples for Cargo Projects](https://github.com/rust-lang/rfcs/pull/2517).
+* [Unify std::os::raw::c_void and libc::c_void via libcore](https://github.com/rust-lang/rfcs/pull/2521).
+* [Generalized Type Ascription](https://github.com/rust-lang/rfcs/pull/2522).
+* [#\[cfg(accessible(..) / version = ".." / nightly)\]](https://github.com/rust-lang/rfcs/pull/2523).
 
 # Upcoming Events
 
 ### Online
 
-* [Aug 14. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
-* [Aug 15. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-* [Aug 15. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Aug 22. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Aug 28. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
+* [Aug 29. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+
+### Asia
+
+* [Aug 18. Chennai, IN - Rust Monthly Meetup](https://www.meetup.com/mad-rs/events/253751178/).
 
 ### Europe
 
-* [Aug 10. Frankfurt, DE - Rhein-Main Rust Meetup (with Special Guest)](https://www.meetup.com/Rust-Rhein-Main/events/253311151).
 * [Aug 16. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxlbvb/).
+* [Aug 22. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/253062831/).
 
 ### North America
 
-* [Aug 12. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbqb/).
-* [Aug 13. Seattle, US - Monthly Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/pkggvpyxlbrb/).
-* [Aug 15. Orange County, US - Rust Foreign Function Interface (FFI) Development](https://www.meetup.com/oc-rust/events/253565445/).
 * **[Aug 17. Portland, US - RustConf 2018](http://rustconf.com/).**
 * [Aug 19. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbzb/).
-* [Aug 22. Berlin, DE - OpenTechSchool - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/253062831/).
 * [Aug 22. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxlblb/).
+* [Aug 26. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbjc/).
+* [Aug 27. Durham, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyxlbkc/).
+* [Aug 28. Chicago, US - Rust Meetup](https://www.meetup.com/Chicago-Rust-Meetup/events/253621611/).
+* [Aug 28. Dallas, US - Rust Meetup](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxlblc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
