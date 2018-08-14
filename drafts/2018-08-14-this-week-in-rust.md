@@ -16,6 +16,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Benchmaking gfx-portability versus MoltenVK and OpenGL on Dota](https://gfx-rs.github.io/2018/08/10/dota2-macos-performance.html), discussions on [Reddit](https://www.reddit.com/r/rust/comments/966us8/benchmarking_gfxportability_versus_moltenvk_and/) and [HN](https://news.ycombinator.com/item?id=17732957).
+* [DX11 backend for gfx-rs - GSOC 2018 report](https://gfx-rs.github.io/2018/08/14/gsoc.html).
+
 # Crate of the Week
 
 This week's crate is [macro_railroad](https://github.com/lukaslueg/macro_railroad), a library to create neat syntax diagrams for `macro_rules!` declarative macros. Thanks to [kornel](https://users.rust-lang.org/t/crate-of-the-week/2704/436) for the suggestion!
