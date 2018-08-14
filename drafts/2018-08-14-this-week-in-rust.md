@@ -135,11 +135,13 @@ decision. Express your opinions now.
 
 ### Online
 
-* [Aug 15. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-* [Aug 15. Rust Community Team Meeting at #rust-community on irc.mozilla.org]().
-* [Aug 22. Rust Community Team Meeting at #rust-community on irc.mozilla.org]().
-* [Aug 28. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org]().
+* [Aug 22. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Aug 28. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
 * [Aug 29. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+
+### Asia
+
+* [Aug 18. Chennai, IN - Rust Monthly Meetup](https://www.meetup.com/mad-rs/events/253751178/).
 
 ### Europe
 
@@ -148,18 +150,13 @@ decision. Express your opinions now.
 
 ### North America
 
-* [Aug 15. Orange County, US - Rust Foreign Function Interface (FFI) Development](https://www.meetup.com/oc-rust/events/253565445/).
 * **[Aug 17. Portland, US - RustConf 2018](http://rustconf.com/).**
 * [Aug 19. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbzb/).
 * [Aug 22. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxlblb/).
 * [Aug 26. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbjc/).
-* [Aug 27. Durham, US - Triangle Rustaceans](https://www.meehttps://www tup.com/triangle-rustaceans/).
+* [Aug 27. Durham, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyxlbkc/).
 * [Aug 28. Chicago, US - Rust Meetup](https://www.meetup.com/Chicago-Rust-Meetup/events/253621611/).
 * [Aug 28. Dallas, US - Rust Meetup](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxlblc/).
-
-### Asia
-
-* [Aug 18. Chennai, IN - Rust Monthly Meetup](https://www.meetup.com/mad-rs/events/253751178/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
