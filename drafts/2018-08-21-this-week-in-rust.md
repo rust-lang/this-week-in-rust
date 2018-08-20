@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Emacs org-babel support for rust](https://gitlab.com/ajyoon/ob-rust)
+
 # Crate of the Week
 
 This week's crate is [macro_railroad](https://github.com/lukaslueg/macro_railroad), a library to create neat syntax diagrams for `macro_rules!` declarative macros. Thanks to [kornel](https://users.rust-lang.org/t/crate-of-the-week/2704/436) for the suggestion!
