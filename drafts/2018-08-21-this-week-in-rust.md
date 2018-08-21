@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Blog: Thanks For Asking!](https://llogiq.github.io/2018/08/16/ask.html).
 * [Functional Rust - An Exploration](https://www.infoq.com/presentations/functional-rust).
 * [podcast] [New Rustacean—News: Rust 1.28](https://newrustacean.com/show_notes/news/rust_1_28/).
+* [Programming Servo: Anatomy of a Fetch](https://medium.com/programming-servo/anatomy-of-a-fetch-8872a5c843cd)
 
 # Crate of the Week
 
