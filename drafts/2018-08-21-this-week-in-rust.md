@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [macro_railroad](https://github.com/lukaslueg/macro_railroad), a library to create neat syntax diagrams for `macro_rules!` declarative macros. Thanks to [kornel](https://users.rust-lang.org/t/crate-of-the-week/2704/436) for the suggestion!
+This week's crate is [wasm-bindgen-futures](https://crates.io/crates/wasm-bindgen-futures), a crate to make ECMAScript futures and Rust futures interoperate. Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/438) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -40,30 +40,35 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-102 pull requests were [merged in the last week][merged]
+157 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-08-06..2018-08-13
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-08-13..2018-08-20
 
-* [whitelist wasm32 simd128 target feature](https://github.com/rust-lang/rust/pull/53179)
-* [fix a few regressions from enabling macro modularization](https://github.com/rust-lang/rust/pull/53270)
-* [resolve: support custom attributes when macro modularization is enabled](https://github.com/rust-lang/rust/pull/53053)
-* [Place unions, pointer casts and pointer derefs behind extra feature gates](https://github.com/rust-lang/rust/pull/51990)
-* [suggest float for integer literals where a float was expected](https://github.com/rust-lang/rust/pull/53283)
-* [suggest missing comma in macro call](https://github.com/rust-lang/rust/pull/53183)
-* [add help message for missing `IndexMut` impl](https://github.com/rust-lang/rust/pull/52788)
-* [add errors for unknown, stable and duplicate feature attributes](https://github.com/rust-lang/rust/pull/52644)
-* [suggest comma when writing `println!("{}" a);`](https://github.com/rust-lang/rust/pull/52397)
-* [emit error for pattern arguments in trait methods](https://github.com/rust-lang/rust/pull/53051)
-* [fix improper_ctypes lint for individual foreign items](https://github.com/rust-lang/rust/pull/53100)
-* [NLL: use span of the closure args in free region errors](https://github.com/rust-lang/rust/pull/53088)
-* [apply some fixes to cross-language LTO (especially when targeting MSVC)](https://github.com/rust-lang/rust/pull/53031)
-* [Un-name globals with private linkage](https://github.com/rust-lang/rust/pull/51007)
-* [avoid many allocations for `CString`s during codegen](https://github.com/rust-lang/rust/pull/53161)
-* [change `assert!` to `debug_assert!` in `visit_with`](https://github.com/rust-lang/rust/pull/53025)
-* [don't `collect()` when `size_hint` is useless](https://github.com/rust-lang/rust/pull/53019)
-* [make IpvXAddr::new const fns and the well known addresses associated constants](https://github.com/rust-lang/rust/pull/52872)
-* [change rustdoc style so fully qualified name does not overlap src link](https://github.com/rust-lang/rust/pull/53060)
-* [crates.io: add crate size on the crate detail page](https://github.com/rust-lang/crates.io/pull/1436)
+* [the Great Generics Generalisation: HIR Followup](https://github.com/rust-lang/rust/pull/51880)
+* [implement Unsized Rvalues](https://github.com/rust-lang/rust/pull/51131)
+* [add bare-metal aarch64 target](https://github.com/rust-lang/rust/pull/53233)
+* [`debug_assert` to ensure that `from_raw_parts` is only used properly aligned](https://github.com/rust-lang/rust/pull/52972)
+* [do not suggest conversion method that is already there](https://github.com/rust-lang/rust/pull/53406)
+* [export WASM table by default](https://github.com/rust-lang/rust/pull/53237)
+* [fix usage of `wasm_target_feature`](https://github.com/rust-lang/rust/pull/53321)
+* [syntax: enforce attribute grammar in the parser](https://github.com/rust-lang/rust/pull/53293)
+* [move SmallVector and ThinVec out of libsyntax](https://github.com/rust-lang/rust/pull/53085)
+* [resolve: crates only exist in the type namespace](https://github.com/rust-lang/rust/pull/53335)
+* [`#[feature(uniform_paths)]`: allow `use x::y;` to resolve through `self::x`, not just `::x`](https://github.com/rust-lang/rust/pull/52923)
+* [`Self` in type definitions](https://github.com/rust-lang/rust/pull/53324) (RFC [#2300](http://rust-lang.github.io/rfcs/2300-self-in-typedefs.html))
+* [rustc_codegen_llvm: restore the closure env alloca hack for LLVM 5](https://github.com/rust-lang/rust/pull/53239)
+* [make LLVM emit assembly comments with `-Z asm-comments`](https://github.com/rust-lang/rust/pull/53290)
+* [unions are not always trivially dropable](https://github.com/rust-lang/rust/pull/53288)
+* [cause cycle err on inf trait normalization](https://github.com/rust-lang/rust/pull/53316)
+* [NLL: optimize reassignment immutable state](https://github.com/rust-lang/rust/pull/53258)
+* [speed up NLL with `HybridIdxSetBuf`](https://github.com/rust-lang/rust/pull/53383)
+* [`TokenStream::extend`](https://github.com/rust-lang/rust/pull/53304) (awesome speedups!)
+* [don't accept non-string literals for the format string in writeln](https://github.com/rust-lang/rust/pull/53256)
+* [add the identity function as core::convert::identity](https://github.com/rust-lang/rust/pull/47562) (RFC [#2306](https://rust-lang.github.io/rfcs/2306-convert-id.html))
+* [don't panic on `std::env::vars()` when env is null](https://github.com/rust-lang/rust/pull/53208)
+* [use `target_pointer_width` for `BACKTRACE_ELF_SIZE`](https://github.com/rust-lang/rust/pull/53377)
+* [non-naive implementation of `VecDeque.append`](https://github.com/rust-lang/rust/pull/52553)
+* [stabilize `use_extern_macros`](https://github.com/rust-lang/rust/pull/50911)
 
 ## Approved RFCs
 
@@ -145,11 +150,9 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Fearless concurrency includes fearless refactoring.
+> I made a thing to test building every possible Rust program...eventually.
 
-– [cuviper at rust-users](https://users.rust-lang.org/t/parallel-problems-to-showcase-rust-features/19365/6).
-
-Thanks to [Jules Kerssemakers](https://users.rust-lang.org/u/juleskers) for the suggestion!
+– [zowch on /r/rust](https://www.reddit.com/r/rust/comments/98v0td/i_made_a_thing_to_test_building_every_possible/).
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
