@@ -16,6 +16,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Annoucning Rust 2018 Preview 2!](https://internals.rust-lang.org/t/annoucning-rust-2018-preview-2/8218).
+* [Safe Partial Initialization In Rust](https://scottjmaddox.github.io/Safe-partial-initialization-in-Rust/).
+* [Announcing the RLS 1.0 release candidate](https://www.ncameron.org/blog/rls-1-0-release-candidate/).
+* [How Rust’s standard library was vulnerable for years and nobody noticed](https://medium.com/@shnatsel/how-rusts-standard-library-was-vulnerable-for-years-and-nobody-noticed-aebf0503c3d6).
+* [With Undefined Behavior, Anything is Possible](https://raphlinus.github.io/programming/rust/2018/08/17/undefined-behavior.html).
+* [Rust GraphQL webserver with Warp, Juniper & MongoDB](http://alex.amiran.it/post/2018-08-16-rust-graphql-webserver-with-warp-juniper-and-mongodb.html).
+* [Blog: Thanks For Asking!](https://llogiq.github.io/2018/08/16/ask.html).
+* [Functional Rust - An Exploration](https://www.infoq.com/presentations/functional-rust).
+* [podcast] [New Rustacean—News: Rust 1.28](https://newrustacean.com/show_notes/news/rust_1_28/).
+
 # Crate of the Week
 
 This week's crate is [macro_railroad](https://github.com/lukaslueg/macro_railroad), a library to create neat syntax diagrams for `macro_rules!` declarative macros. Thanks to [kornel](https://users.rust-lang.org/t/crate-of-the-week/2704/436) for the suggestion!
@@ -81,27 +91,20 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Fix the Error trait](https://github.com/rust-lang/rfcs/pull/2504).
-* [disposition: merge] [Add `is_sorted` to the standard library](https://github.com/rust-lang/rfcs/pull/2351).
-* [disposition: merge] [Add `pub fn identity<T>(x: T) -> T { x }` to core::convert](https://github.com/rust-lang/rfcs/pull/2306).
-* [disposition: merge] [if- and while-let-chains, take 2](https://github.com/rust-lang/rfcs/pull/2497).
-* [disposition: merge] [Deprecate uninitialized in favor of a new MaybeUninit type](https://github.com/rust-lang/rfcs/pull/1892).
-* [disposition: postpone] [Introduce panic_thin, a fmtless alternative to panic_fmt](https://github.com/rust-lang/rfcs/pull/2305).
-* [disposition: close] [Add std::mem::zero](https://github.com/rust-lang/rfcs/pull/2291).
+* [disposition: merge] [eRFC: if- and while-let-chains, take 2](https://api.github.com/repos/rust-lang/rfcs/issues/2497).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [(Modules) Tracking issue for the `mod.rs` changes](https://github.com/rust-lang/rust/issues/53125).
-* [disposition: merge] [Allow to check if sync::Once is already initialized](https://github.com/rust-lang/rust/pull/53027).
-* [disposition: merge] [Allow all literals in attributes (Tracking Issue for RFC #1559)](https://github.com/rust-lang/rust/issues/34981).
-* [disposition: merge] [Tracking Issue for Iterator::find_map](https://github.com/rust-lang/rust/issues/49602).
-* [disposition: close] [Define non-panicking UTF encoding methods on `char`](https://github.com/rust-lang/rust/pull/52580).
+* [disposition: merge] [Add Error::source method per RFC 2504.](https://api.github.com/repos/rust-lang/rust/issues/53533).
+* [disposition: merge] [Tracking issue for integer types conversion to and from byte arrays](https://api.github.com/repos/rust-lang/rust/issues/52963).
+* [disposition: close] [Define non-panicking UTF encoding methods on `char`](https://api.github.com/repos/rust-lang/rust/issues/52580).
+* [disposition: merge] [Tracking Issue for Iterator::find_map](https://api.github.com/repos/rust-lang/rust/issues/49602).
+* [disposition: merge] [Allow all literals in attributes (Tracking Issue for RFC #1559)](https://api.github.com/repos/rust-lang/rust/issues/34981).
 
 ## New RFCs
 
-* [Unify std::os::raw::c_void and libc::c_void via libcore](https://github.com/rust-lang/rfcs/pull/2521).
-* [Generalized Type Ascription](https://github.com/rust-lang/rfcs/pull/2522).
-* [#\[cfg(accessible(..) / version = ".." / nightly)\]](https://github.com/rust-lang/rfcs/pull/2523).
+* [Support underscores as constant names](https://api.github.com/repos/rust-lang/rfcs/issues/2526).
+* [RFC: Permit _ in type aliases](https://api.github.com/repos/rust-lang/rfcs/issues/2524).
 
 # Upcoming Events
 
@@ -110,26 +113,24 @@ decision. Express your opinions now.
 * [Aug 22. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Aug 28. Rust Community Content Subteam Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
 * [Aug 29. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-
-### Asia
-
-* [Aug 18. Chennai, IN - Rust Monthly Meetup](https://www.meetup.com/mad-rs/events/253751178/).
+* [Aug 29. Rust Community Team Meeting at #rust-content on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
+* [Aug 30. Rust Switchboard Team Meeting]()
 
 ### Europe
 
-* [Aug 16. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxlbvb/).
 * [Aug 22. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/253062831/).
 
 ### North America
 
-* [Aug 16. Portland, US - Meetup w/ Zcash, ParityTech, Solana | Why Use Rust For Blockchain Development](https://www.meetup.com/Portland-Solana-Blockchain-Meetup/events/253180468/).
-* **[Aug 17. Portland, US - RustConf 2018](http://rustconf.com/).**
-* [Aug 19. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbzb/).
 * [Aug 22. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxlblb/).
 * [Aug 26. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxlbjc/).
 * [Aug 27. Durham, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyxlbkc/).
 * [Aug 28. Chicago, US - Rust Meetup](https://www.meetup.com/Chicago-Rust-Meetup/events/253621611/).
 * [Aug 28. Dallas, US - Rust Meetup](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxlblc/).
+
+### South America
+
+* [Aug 23. Montevideo, UY - Rust meetup Montevideo](https://www.meetup.com/Rust-Uruguay/events/253617627/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Email the [Rust Community Team][community] for access.
