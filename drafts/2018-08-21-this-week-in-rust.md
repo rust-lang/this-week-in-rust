@@ -16,6 +16,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Annoucning Rust 2018 Preview 2!](https://internals.rust-lang.org/t/annoucning-rust-2018-preview-2/8218).
+* [Safe Partial Initialization In Rust](https://scottjmaddox.github.io/Safe-partial-initialization-in-Rust/).
+* [Announcing the RLS 1.0 release candidate](https://www.ncameron.org/blog/rls-1-0-release-candidate/).
+* [How Rust’s standard library was vulnerable for years and nobody noticed](https://medium.com/@shnatsel/how-rusts-standard-library-was-vulnerable-for-years-and-nobody-noticed-aebf0503c3d6).
+* [With Undefined Behavior, Anything is Possible](https://raphlinus.github.io/programming/rust/2018/08/17/undefined-behavior.html).
+* [Rust GraphQL webserver with Warp, Juniper & MongoDB](http://alex.amiran.it/post/2018-08-16-rust-graphql-webserver-with-warp-juniper-and-mongodb.html).
+* [Blog: Thanks For Asking!](https://llogiq.github.io/2018/08/16/ask.html).
+* [Functional Rust - An Exploration](https://www.infoq.com/presentations/functional-rust).
+* [podcast] [New Rustacean—News: Rust 1.28](https://newrustacean.com/show_notes/news/rust_1_28/).
+
 # Crate of the Week
 
 This week's crate is [macro_railroad](https://github.com/lukaslueg/macro_railroad), a library to create neat syntax diagrams for `macro_rules!` declarative macros. Thanks to [kornel](https://users.rust-lang.org/t/crate-of-the-week/2704/436) for the suggestion!
