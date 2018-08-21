@@ -118,7 +118,7 @@ decision. Express your opinions now.
 * [Aug 28. Chicago, US - Rust Meetup](https://www.meetup.com/Chicago-Rust-Meetup/events/253621611/).
 * [Aug 28. Dallas, US - Rust Meetup](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxlblc/).
 
-## South America
+### South America
 
 * [Aug 23. Montevideo, UY - Rust meetup Montevideo](https://www.meetup.com/Rust-Uruguay/events/253617627/).
 
