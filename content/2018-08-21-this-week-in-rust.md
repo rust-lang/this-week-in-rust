@@ -16,16 +16,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Announcing Rust 2018 Preview 2](https://internals.rust-lang.org/t/annoucning-rust-2018-preview-2/8218). <sub>[[discuss](https://www.reddit.com/r/rust/comments/97mpt0/annoucning_rust_2018_preview_2/)]</sub>
-* 12 [Safe partial initialization in Rust](https://scottjmaddox.github.io/Safe-partial-initialization-in-Rust/). <sub>[[discuss](https://www.reddit.com/r/rust/comments/98nmge/safe_partial_initialization_in_rust/)]</sub>
-* [Announcing the RLS 1.0 release candidate](https://www.ncameron.org/blog/rls-1-0-release-candidate/). <sub>[[discuss](https://www.reddit.com/r/rust/comments/98gqsg/announcing_the_rls_10_release_candidate/)]</sub>
-* [How Rust’s standard library was vulnerable for years and nobody noticed](https://medium.com/@shnatsel/how-rusts-standard-library-was-vulnerable-for-years-and-nobody-noticed-aebf0503c3d6). <sub>[[discuss](https://www.reddit.com/r/rust/comments/988euh/how_rusts_standard_library_was_vulnerable_for/)]</sub>
-* [With undefined behavior, anything is possible](https://raphlinus.github.io/programming/rust/2018/08/17/undefined-behavior.html). <sub>[[discuss](https://www.reddit.com/r/rust/comments/985id0/with_undefined_behavior_anything_is_possible/)]</sub>
-* [Rust GraphQL webserver with Warp, Juniper, and MongoDB](http://alex.amiran.it/post/2018-08-16-rust-graphql-webserver-with-warp-juniper-and-mongodb.html). <sub>[[discuss](https://www.reddit.com/r/rust/comments/97zlav/rust_graphql_webserver_with_warp_juniper_mongodb/)]</sub>
-* 82 [Thanks for asking](https://llogiq.github.io/2018/08/16/ask.html). An analysis of questions that are asked on r/rust subreddit. <sub>[[discuss](https://www.reddit.com/r/rust/comments/97ps8m/blog_thanks_for_asking/)]</sub>
-* [podcast] [New Rustacean news: Rust 1.28](https://newrustacean.com/show_notes/news/rust_1_28/). <sub>[[discuss](https://www.reddit.com/r/rust/comments/98tkve/new_rustaceannews_rust_128/)]</sub>
-* [Programming Servo: Anatomy of a fetch](https://medium.com/programming-servo/anatomy-of-a-fetch-8872a5c843cd). <sub>[[discuss](https://www.reddit.com/r/rust/comments/986p56/programming_servo_anatomy_of_a_fetch/)]</sub>
-* [This week in Rust and WebAssembly 6](https://rustwasm.github.io/2018/08/14/this-week-in-rust-wasm-006.html). <sub>[[discuss](https://www.reddit.com/r/rust/comments/97ah4r/this_week_in_rust_and_webassembly_6/)]</sub>
+* [Announcing Rust 2018 Preview 2](https://internals.rust-lang.org/t/annoucning-rust-2018-preview-2/8218). <small>[[discuss](https://www.reddit.com/r/rust/comments/97mpt0/annoucning_rust_2018_preview_2/)]</small>
+* [Announcing the RLS 1.0 release candidate](https://www.ncameron.org/blog/rls-1-0-release-candidate/). <small>[[discuss](https://www.reddit.com/r/rust/comments/98gqsg/announcing_the_rls_10_release_candidate/)]</small>
+* [How Rust’s standard library was vulnerable for years and nobody noticed](https://medium.com/@shnatsel/how-rusts-standard-library-was-vulnerable-for-years-and-nobody-noticed-aebf0503c3d6). <small>[[discuss](https://www.reddit.com/r/rust/comments/988euh/how_rusts_standard_library_was_vulnerable_for/)]</small>
+* [Safe partial initialization in Rust](https://scottjmaddox.github.io/Safe-partial-initialization-in-Rust/). <small>[[discuss](https://www.reddit.com/r/rust/comments/98nmge/safe_partial_initialization_in_rust/)]</small>
+* [With undefined behavior, anything is possible](https://raphlinus.github.io/programming/rust/2018/08/17/undefined-behavior.html). <small>[[discuss](https://www.reddit.com/r/rust/comments/985id0/with_undefined_behavior_anything_is_possible/)]</small>
+* [Rust GraphQL webserver with Warp, Juniper, and MongoDB](http://alex.amiran.it/post/2018-08-16-rust-graphql-webserver-with-warp-juniper-and-mongodb.html). <small>[[discuss](https://www.reddit.com/r/rust/comments/97zlav/rust_graphql_webserver_with_warp_juniper_mongodb/)]</small>
+* [Programming Servo: Anatomy of a fetch](https://medium.com/programming-servo/anatomy-of-a-fetch-8872a5c843cd). <small>[[discuss](https://www.reddit.com/r/rust/comments/986p56/programming_servo_anatomy_of_a_fetch/)]</small>
+* [Thanks for asking](https://llogiq.github.io/2018/08/16/ask.html). An analysis of questions that are asked on r/rust subreddit. <small>[[discuss](https://www.reddit.com/r/rust/comments/97ps8m/blog_thanks_for_asking/)]</small>
+* [This week in Rust and WebAssembly 6](https://rustwasm.github.io/2018/08/14/this-week-in-rust-wasm-006.html). <small>[[discuss](https://www.reddit.com/r/rust/comments/97ah4r/this_week_in_rust_and_webassembly_6/)]</small>
+* [podcast] [New Rustacean news: Rust 1.28](https://newrustacean.com/show_notes/news/rust_1_28/). <small>[[discuss](https://www.reddit.com/r/rust/comments/98tkve/new_rustaceannews_rust_128/)]</small>
 
 # Crate of the Week
 
@@ -179,4 +179,4 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 *This Week in Rust is edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [Flavsditz](https://github.com/Flavsditz).*
 
-<sub>Discuss this issue on [r/rust]()</sub>
+<small>Discuss this issue on [r/rust]()</small>
