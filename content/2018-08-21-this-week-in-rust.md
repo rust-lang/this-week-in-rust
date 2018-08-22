@@ -29,7 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [wasm-bindgen-futures](https://crates.io/crates/wasm-bindgen-futures), a crate to make ECMAScript futures and Rust futures interoperate. Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/438) for the suggestion!
+This week's crate is [wasm-bindgen-futures](https://crates.io/crates/wasm-bindgen-futures), a crate to make ECMAScript promises and Rust futures interoperate. Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/438) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
