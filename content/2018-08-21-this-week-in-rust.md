@@ -101,22 +101,22 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [eRFC: if- and while-let-chains, take 2](https://github.com/repos/rust-lang/rfcs/issues/2497).
+* [disposition: merge] [eRFC: if- and while-let-chains, take 2](https://github.com/rust-lang/rfcs/issues/2497).
 * [disposition: merge] [Unify std::os::raw::c_void and libc::c_void via libcore](https://github.com/rust-lang/rfcs/pull/2521).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Add Error::source method per RFC 2504.](https://github.com/repos/rust-lang/rust/issues/53533).
-* [disposition: merge] [Tracking issue for integer types conversion to and from byte arrays](https://github.com/repos/rust-lang/rust/issues/52963).
-* [disposition: merge] [Tracking Issue for Iterator::find_map](https://github.com/repos/rust-lang/rust/issues/49602).
-* [disposition: merge] [Allow all literals in attributes (Tracking Issue for RFC #1559)](https://github.com/repos/rust-lang/rust/issues/34981).
+* [disposition: merge] [Add Error::source method per RFC 2504.](https://github.com/rust-lang/rust/issues/53533).
+* [disposition: merge] [Tracking issue for integer types conversion to and from byte arrays](https://github.com/rust-lang/rust/issues/52963).
+* [disposition: merge] [Tracking Issue for Iterator::find_map](https://github.com/rust-lang/rust/issues/49602).
+* [disposition: merge] [Allow all literals in attributes (Tracking Issue for RFC #1559)](https://github.com/rust-lang/rust/issues/34981).
 * [disposition: merge] [Tracking issue for RFC#1685: Deprecate anonymous parameters](https://github.com/rust-lang/rust/issues/41686).
-* [disposition: close] [Define non-panicking UTF encoding methods on `char`](https://github.com/repos/rust-lang/rust/issues/52580).
+* [disposition: close] [Define non-panicking UTF encoding methods on `char`](https://github.com/rust-lang/rust/issues/52580).
 
 ## New RFCs
 
-* [Support underscores as constant names](https://github.com/repos/rust-lang/rfcs/issues/2526).
-* [RFC: Permit _ in type aliases](https://github.com/repos/rust-lang/rfcs/issues/2524).
+* [Support underscores as constant names](https://github.com/rust-lang/rfcs/issues/2526).
+* [RFC: Permit _ in type aliases](https://github.com/rust-lang/rfcs/issues/2524).
 
 # Upcoming Events
 
