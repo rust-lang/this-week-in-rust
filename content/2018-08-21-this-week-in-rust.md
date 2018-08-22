@@ -179,4 +179,4 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 *This Week in Rust is edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [Flavsditz](https://github.com/Flavsditz).*
 
-<small>[Discuss on r/rust](https://old.reddit.com/r/rust/comments/999jbu/this_week_in_rust_248/).</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/999jbu/this_week_in_rust_248/).</small>
