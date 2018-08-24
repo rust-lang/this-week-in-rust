@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Oxidizing sourmash: Python and FFI](https://blog.luizirber.org/2018/08/23/sourmash-rust/). <small>[[discuss](https://www.reddit.com/r/rust/comments/99vakd/blog_post_converting_c_to_rust_and_interoperate/)]</small>
+
 # Crate of the Week
 
 This week's crate is [wasm-bindgen-futures](https://crates.io/crates/wasm-bindgen-futures), a crate to make ECMAScript futures and Rust futures interoperate. Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/438) for the suggestion!
