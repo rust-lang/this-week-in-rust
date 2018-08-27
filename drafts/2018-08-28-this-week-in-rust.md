@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Programming Servo: The Debug Way](https://medium.com/coding-neutrino-blog/programming-servo-the-debug-way-5db01f09b7f4). <small>[[discuss](https://www.reddit.com/r/rust/comments/9anveo/)]</small>
+
 # Crate of the Week
 
 This week's crate is [wasm-bindgen-futures](https://crates.io/crates/wasm-bindgen-futures), a crate to make ECMAScript futures and Rust futures interoperate. Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/438) for the suggestion!
