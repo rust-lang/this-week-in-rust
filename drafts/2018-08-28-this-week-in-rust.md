@@ -90,22 +90,25 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [eRFC: if- and while-let-chains, take 2](https://github.com/rust-lang/rfcs/issues/2497).
 * [disposition: merge] [Unify std::os::raw::c_void and libc::c_void via libcore](https://github.com/rust-lang/rfcs/pull/2521).
+* [disposition: merge] [Add lint warning for inner function marked as `#[test]`](https://github.com/rust-lang/rfcs/pull/2471).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Add Error::source method per RFC 2504.](https://github.com/rust-lang/rust/issues/53533).
-* [disposition: merge] [Tracking issue for integer types conversion to and from byte arrays](https://github.com/rust-lang/rust/issues/52963).
-* [disposition: merge] [Tracking Issue for Iterator::find_map](https://github.com/rust-lang/rust/issues/49602).
-* [disposition: merge] [Allow all literals in attributes (Tracking Issue for RFC #1559)](https://github.com/rust-lang/rust/issues/34981).
-* [disposition: merge] [Tracking issue for RFC#1685: Deprecate anonymous parameters](https://github.com/rust-lang/rust/issues/41686).
-* [disposition: close] [Define non-panicking UTF encoding methods on `char`](https://github.com/rust-lang/rust/issues/52580).
+* [disposition: merge] [Add Error::source method per RFC 2504.](https://github.com/rust-lang/rust/pull/53533).
+* [disposition: merge] [set cfg(rustdoc) when rustdoc is running on a crate](https://github.com/rust-lang/rust/pull/53076).
+* [disposition: merge] [Tracking issue for RFC#1685: Deprecate anonymous parameters ](https://github.com/rust-lang/rust/issues/41686).
+* [disposition: merge] [Tracking issue for lifetime elision for impl headers (feature impl_header_lifetime_elision)](https://github.com/rust-lang/rust/issues/15872).
 
 ## New RFCs
 
-* [Support underscores as constant names](https://github.com/rust-lang/rfcs/issues/2526).
-* [RFC: Permit _ in type aliases](https://github.com/rust-lang/rfcs/issues/2524).
+* [Keeping Secrets in Rust](https://github.com/rust-lang/rfcs/issues/2533).
+* [RFC: Associated type defaults and Default groups](https://github.com/rust-lang/rfcs/pull/2532).
+* [Amend RFC 2175 to support for loops and leading vert](https://github.com/rust-lang/rfcs/pull/2530).
+* [RFC: Hidden trait implementations](https://github.com/rust-lang/rfcs/pull/2529).
+* [Type-changing struct update syntax](https://github.com/rust-lang/rfcs/pull/2528).
+* [Support underscores as constant names](https://github.com/rust-lang/rfcs/pull/2526).
+* [RFC: Permit _ in type aliases](https://github.com/rust-lang/rfcs/pull/2524).
 
 # Upcoming Events
 
