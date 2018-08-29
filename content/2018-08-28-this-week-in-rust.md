@@ -180,4 +180,4 @@ Thanks to [Mazdak Farrokhzad](https://users.rust-lang.org/u/Centril) for the sug
 
 *This Week in Rust is edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [Flavsditz](https://github.com/Flavsditz).*
 
-<small>[Discuss on r/rust]().</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/9b6i15/this_week_in_rust_249/).</small>
