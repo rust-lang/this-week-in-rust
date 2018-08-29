@@ -28,6 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Programming Servo: The debug way](https://medium.com/coding-neutrino-blog/programming-servo-the-debug-way-5db01f09b7f4). <small>[[discuss](https://www.reddit.com/r/rust/comments/9anveo/programming_servo_the_debug_way_debug_servo_and/)]</small>
 * [Easy `proc_macro_derive`s with `synstructure`](https://llogiq.github.io/2018/08/25/synstruct.html). <small>[[discuss](https://llogiq.github.io/2018/08/25/synstruct.html)]</small>
 * [Next Rust Fest to take place in Rome on 24 and 25 November](https://blog.rustfest.eu/next-stop-rome). <small>[[discuss](https://www.reddit.com/r/rust/comments/99w5vp/let_rome_rust_festnext_rustfest_november_24th_25th/)]</small>
+* [Two Kinds of Invariants](https://www.ralfj.de/blog/2018/08/22/two-kinds-of-invariants.html), proposing rules for unsafe code concerning uninitialized data. <small>[[discuss](https://www.reddit.com/r/rust/comments/99g5b1/two_kinds_of_invariants/)]</small>
 
 # Crate of the Week
 
