@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Programming Servo: the makings of a task-queue](https://medium.com/programming-servo/programming-servo-the-makings-of-a-task-queue-b4138cd246ca). <small>[[discuss](https://www.reddit.com/r/rust/comments/9axo53/programming_servo_the_makings_of_a_taskqueue/)]</small>
+
 # Crate of the Week
 
 This week's crate is [generational-arena](https://github.com/lukaslueg/macro_railroad), a safe arena allocator that allows deletion without suffering from the ABA problem by using generational indices. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/447) for the suggestion!
