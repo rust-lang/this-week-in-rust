@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Programming Servo: The Debug Way](https://medium.com/coding-neutrino-blog/programming-servo-the-debug-way-5db01f09b7f4). <small>[[discuss](https://www.reddit.com/r/rust/comments/9anveo/)]</small>
 * [Programming Servo: the makings of a task-queue](https://medium.com/programming-servo/programming-servo-the-makings-of-a-task-queue-b4138cd246ca). <small>[[discuss](https://www.reddit.com/r/rust/comments/9axo53/programming_servo_the_makings_of_a_taskqueue/)]</small>
 
 # Crate of the Week
