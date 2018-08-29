@@ -16,9 +16,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Oxidizing sourmash: Python and FFI](https://blog.luizirber.org/2018/08/23/sourmash-rust/). <small>[[discuss](https://www.reddit.com/r/rust/comments/99vakd/blog_post_converting_c_to_rust_and_interoperate/)]</small>
-* [Programming Servo: The Debug Way](https://medium.com/coding-neutrino-blog/programming-servo-the-debug-way-5db01f09b7f4). <small>[[discuss](https://www.reddit.com/r/rust/comments/9anveo/)]</small>
+* [Experimental async / await support for Tokio](https://tokio.rs/blog/2018-08-async-await/). <small>[[discuss](https://www.reddit.com/r/rust/comments/9as61i/tokio_experimental_async_await_support/)]</small>
+* [Nightly Rust is switching to use LLD (LLVM's new built-in linker) as the default linker for ARM microcontrollers](https://rust-embedded.github.io/blog/2018-08-2x-psa-cortex-m-breakage/). <small>[[discuss](https://www.reddit.com/r/rust/comments/9a7te2/nightly_rust_is_switching_to_use_lld_llvms_new/)]</small>
+* [CVE-2018-1000657: buffer overflow in VecDeque::reserve() in Rust 1.3 through 1.21 allows arbitrary code execution](https://www.reddit.com/r/rust/comments/9926jq/cve20181000657_buffer_overflow_in_vecdequereserve/). <small>[[discuss](https://www.reddit.com/r/rust/comments/9926jq/cve20181000657_buffer_overflow_in_vecdequereserve/)]</small>
+* [More on the RLS and a 1.0 release](https://www.ncameron.org/blog/more-on-the-rls-and-a-1-0-release/). <small>[[discuss](https://www.reddit.com/r/rust/comments/99ltpr/more_on_the_rls_and_a_10_release/)]</small>
+* [Another look at the pinning API](https://boats.gitlab.io/blog/post/rethinking-pin/). <small>[[discuss](https://www.reddit.com/r/rust/comments/99iqdy/another_look_at_the_pinning_api/)]</small>
+* [Oxidizing sourmash: Python and FFI](https://blog.luizirber.org/2018/08/23/sourmash-rust/). <small>[[discuss](https://www.reddit.com/r/rust/comments/99vakd/blog_post_converting_c_to_rust_and_interoperate)]</small>
+* [Reading files quickly in Rust](https://boyter.org/posts/reading-files-quickly-in-rust/). <small>[[discuss](https://www.reddit.com/r/rust/comments/99e4tq/reading_files_quickly_in_rust/)]</small>
+* [Calling C# natively from Rust](https://medium.com/@chyyran/calling-c-natively-from-rust-1f92c506289d). <small>[[discuss](https://www.reddit.com/r/rust/comments/99z7bd/calling_c_natively_from_rust/)]</small>
 * [Programming Servo: the makings of a task-queue](https://medium.com/programming-servo/programming-servo-the-makings-of-a-task-queue-b4138cd246ca). <small>[[discuss](https://www.reddit.com/r/rust/comments/9axo53/programming_servo_the_makings_of_a_taskqueue/)]</small>
+* [Programming Servo: The debug way](https://medium.com/coding-neutrino-blog/programming-servo-the-debug-way-5db01f09b7f4). <small>[[discuss](https://www.reddit.com/r/rust/comments/9anveo/programming_servo_the_debug_way_debug_servo_and/)]</small>
+* [Easy `proc_macro_derive`s with `synstructure`](https://llogiq.github.io/2018/08/25/synstruct.html). <small>[[discuss](https://llogiq.github.io/2018/08/25/synstruct.html)]</small>
+* [Next Rust Fest to take place in Rome on 24 and 25 November](https://blog.rustfest.eu/next-stop-rome). <small>[[discuss](https://www.reddit.com/r/rust/comments/99w5vp/let_rome_rust_festnext_rustfest_november_24th_25th/)]</small>
 
 # Crate of the Week
 
@@ -35,8 +44,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Call for help building a distributed filesystem in Rust](https://www.reddit.com/r/rust/comments/98d3zk/call_for_help_building_a_distributed_filesystem/).
-* [easy] [rustc: mark applicability of diagnostic suggestions](https://github.com/rust-lang/rust/issues/50723).
+*No issues were submitted for CfP this week.*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -72,11 +80,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2504: Fix the Error trait](https://github.com/rust-lang/rfcs/pull/2504).
-* [RFC 2351: Add `is_sorted` to the standard library](https://github.com/rust-lang/rfcs/pull/2351).
-* [RFC 2229: Closures Capture Disjoint Fields](https://github.com/rust-lang/rfcs/pull/2229).
-* [RFC 1892: Deprecate uninitialized in favor of a new MaybeUninit type](https://github.com/rust-lang/rfcs/pull/1892).
-* [RFC 2306: Add `pub fn identity<T>(x: T) -> T { x }` to `core::convert`](https://github.com/rust-lang/rfcs/pull/2306).
+* [RFC 2497: if- and while-let-chains, take 2](https://github.com/rust-lang/rfcs/pull/2497).
 
 ## Final Comment Period
 
@@ -88,6 +92,7 @@ decision. Express your opinions now.
 
 * [disposition: merge] [Unify std::os::raw::c_void and libc::c_void via libcore](https://github.com/rust-lang/rfcs/pull/2521).
 * [disposition: merge] [Add lint warning for inner function marked as `#[test]`](https://github.com/rust-lang/rfcs/pull/2471).
+* [disposition: merge] [Rustfmt stability](https://github.com/rust-lang/rfcs/pull/2437).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
@@ -95,30 +100,26 @@ decision. Express your opinions now.
 * [disposition: merge] [set cfg(rustdoc) when rustdoc is running on a crate](https://github.com/rust-lang/rust/pull/53076).
 * [disposition: merge] [Tracking issue for RFC#1685: Deprecate anonymous parameters ](https://github.com/rust-lang/rust/issues/41686).
 * [disposition: merge] [Tracking issue for lifetime elision for impl headers (feature impl_header_lifetime_elision)](https://github.com/rust-lang/rust/issues/15872).
+* [disposition: merge] [Tracking issue for RFC 2070: stable mechanism to specify the behavior of panic! in no-std applications](https://github.com/rust-lang/rust/issues/44489).
 
 ## New RFCs
 
-* [Keeping Secrets in Rust](https://github.com/rust-lang/rfcs/issues/2533).
-* [RFC: Associated type defaults and Default groups](https://github.com/rust-lang/rfcs/pull/2532).
-* [Amend RFC 2175 to support for loops and leading vert](https://github.com/rust-lang/rfcs/pull/2530).
-* [RFC: Hidden trait implementations](https://github.com/rust-lang/rfcs/pull/2529).
 * [Type-changing struct update syntax](https://github.com/rust-lang/rfcs/pull/2528).
-* [Support underscores as constant names](https://github.com/rust-lang/rfcs/pull/2526).
-* [RFC: Permit _ in type aliases](https://github.com/rust-lang/rfcs/pull/2524).
+* [Hidden trait implementations](https://github.com/rust-lang/rfcs/pull/2529).
+* [Amend RFC 2175 to support for loops and leading vert](https://github.com/rust-lang/rfcs/pull/2530).
+* [Associated type defaults and Default groups](https://github.com/rust-lang/rfcs/pull/2532).
 
 # Upcoming Events
 
 ### Online
 
-* [Aug 29. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-* [Aug 29. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Sep  5. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Sep  5. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
 * [Sep 11. Rust Community Content Subteam Meeting at channel #rust-community](irc://irc.mozilla.org/rust-community).
+* [Sep 12. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Sep 12. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 
 ### Africa
 
-* [Aug 25. Nairobi, KE - Rustbridge Workshop at GirlsCode](https://www.meetup.com/Rust-Nairobi/events/253950971/).
 * [Sep  4. Johannesburg, ZA - Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxmbgb/).
 
 ### Asia
@@ -130,7 +131,6 @@ decision. Express your opinions now.
 * [Sep  4. Brussels, BE - #3 futures/async/tokio && Gotham-rs](https://www.meetup.com/Belgium-Rust-user-group/events/249899651/).
 * [Sep  5. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/253541000/).
 * [Sep  5. Cologne, DE - Rust Cologne](http://rust.cologne/2018/09/05/fun-traits.html).
-* [Sep  7. Helsinki, FIN - Helsinki Rust informal meetup](https://www.meetup.com/Finland-Rust-Meetup/).
 
 ### North America
 
@@ -138,13 +138,14 @@ decision. Express your opinions now.
 * [Sep  5. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyxmbhb/).
 * [Sep  5. Atlanta, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/cbcmbqyxmbhb/).
 * [Sep  5. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxmbhb/).
-* [Sep  5. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/246726699/).
-* [Sep  9. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View).
-* [Sep 10. Seattle, US - Seattle Rust Meetup](http://www.meetup.com/Seattle-Rust-Meetup/).
+* [Sep  9. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxmbmb/).
+* [Sep 10. Seattle, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/pkggvpyxmbnb/).
+* [Sep 13. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxmbrb/).
+* [Sep 13. Arlington, US - Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/253787454).
+* [Sep 13. San Diego, US - San Diego Rust September Meetup - WASM, "failure" library, or ???](https://www.meetup.com/San-Diego-Rust/events/253862312/).
 
 ### South America
 
-* [Aug 23. Montevideo, UY - Rust meetup Montevideo](https://www.meetup.com/Rust-Uruguay/events/253617627/).
 * [Sep  3. Montevideo, UY - Rust meetup - WebAssembly](https://www.meetup.com/Rust-Uruguay/events/253617627/).
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -155,7 +156,8 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Software Engineer - Blockchain at TenX, Sydney, AU](https://tenx.workable.com/jobs/689268).
+* [Rust Engineer at Anixe, Wrocław, Poland](https://anixe.bamboohr.co.uk/jobs/view.php?id=17).
+* [Rust Engineer at TagiFi, Remote](https://www.reddit.com/r/rust/comments/994fcg/job_tagnifi_is_looking_for_a_rust_engineer/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
@@ -178,4 +180,4 @@ Thanks to [Mazdak Farrokhzad](https://users.rust-lang.org/u/Centril) for the sug
 
 *This Week in Rust is edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [Flavsditz](https://github.com/Flavsditz).*
 
-<small>Discuss this issue on [r/rust]()</small>
+<small>[Discuss on r/rust]().</small>
