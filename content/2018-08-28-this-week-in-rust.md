@@ -53,27 +53,37 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-157 pull requests were [merged in the last week][merged]
+140 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-08-13..2018-08-20
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-08-20..2018-08-27
 
+* [Stablize Iterator::find_map](https://github.com/rust-lang/rust/pull/53385)
+* [Stabilise raw_identifiers feature](https://github.com/rust-lang/rust/pull/53236)
+* [Stabilize 'attr_literals' feature](https://github.com/rust-lang/rust/pull/53044)
+* [Exhaustive integer matching](https://github.com/rust-lang/rust/pull/50912)
+* [Unify E0243, E0244, E0087, E0088, E0089, and E0090 into E0107](https://github.com/rust-lang/rust/pull/53584)
+* [Change `Rc::inc_{weak,strong}` to better hint optimization to LLVM](https://github.com/rust-lang/rust/pull/53080)
+* [add `#[panic_handler]`; deprecate `#[panic_implementation]`](https://github.com/rust-lang/rust/pull/53619)
 * [wasm: remove --strip-debug argument to LLD](https://github.com/rust-lang/rust/pull/53434)
 * [resolve: overhaul `#![feature(uniform_paths)]` error reporting](https://github.com/rust-lang/rust/pull/53427)
-* [do not suggest conversion method that is already there](https://github.com/rust-lang/rust/pull/53406)
 * [visit all attributes for feature collection](https://github.com/rust-lang/rust/pull/53397)
-* [speed up NLL with HybridIdxSetBuf](https://github.com/rust-lang/rust/pull/53383)
 * [`{to,from}_{ne,le,be}_bytes` for unsigned integer types](https://github.com/rust-lang/rust/pull/53358)
 * [fix error for unsized packed struct field](https://github.com/rust-lang/rust/pull/53342)
-* [resolve: crates only exist in the type namespace](https://github.com/rust-lang/rust/pull/53335)
-* [`Self` in type definitions](https://github.com/rust-lang/rust/pull/53324)
-* [`TokenStream::extend`](https://github.com/rust-lang/rust/pull/53304)
 * [various changes to `rustc_on_unimplemented`](https://github.com/rust-lang/rust/pull/53295)
-* [NLL: optimize reassignment immutable state](https://github.com/rust-lang/rust/pull/53258)
-* [don't accept non-string literals for the format string in writeln](https://github.com/rust-lang/rust/pull/53256)
-* [don't panic on std::env::vars() when env is null](https://github.com/rust-lang/rust/pull/53208)
 * [implement Iterator::size_hint for Elaborator](https://github.com/rust-lang/rust/pull/52858)
-* [non-naive implementation of `VecDeque.append`](https://github.com/rust-lang/rust/pull/52553)
-* [implement Unsized Rvalues](https://github.com/rust-lang/rust/pull/51131)
+* [Fix unsoundness for VecDeque](https://github.com/rust-lang/rust/pull/53571)
+* [Use optimized SmallVec implementation](https://github.com/rust-lang/rust/pull/53384)
+* [Feature gate where clauses on associated type impls](https://github.com/rust-lang/rust/pull/53235)
+* [resolve suggestions should use `crate::` when enabled](https://github.com/rust-lang/rust/pull/51456)
+* [Allow panicking with string literal messages inside constants](https://github.com/rust-lang/rust/pull/52011)
+* [Implement try block expressions](https://github.com/rust-lang/rust/pull/52602)
+* [Stabilize a few secondary macro features](https://github.com/rust-lang/rust/pull/53459)
+* [Merge `IdxSet` and `IdxSetBuf`](https://github.com/rust-lang/rust/pull/53520)
+* [syntax: Optimize some literal parsing](https://github.com/rust-lang/rust/pull/53521)
+* [Buffer LLVM's object output stream](https://github.com/rust-lang/rust/pull/53524)
+* [Fix NLL ICEs](https://github.com/rust-lang/rust/pull/53580)
+* [Rename TyVariants and variants](https://github.com/rust-lang/rust/pull/53581)
+* [Use SmallVec for SmallCStr](https://github.com/rust-lang/rust/pull/53644)
 
 ## Approved RFCs
 
