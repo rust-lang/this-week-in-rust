@@ -45,7 +45,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-*No issues were submitted for CfP this week.*
+* [png: Unbounded memory consumption on malformed inputs](https://github.com/PistonDevelopers/image-png/issues/80).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
