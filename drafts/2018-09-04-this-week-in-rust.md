@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Programming Servo: A generic “worker event-loop”](https://medium.com/programming-servo/programming-servo-a-generic-worker-event-loop-400a6f113a60). <small>[[discuss](https://www.reddit.com/r/rust/comments/9caa3u/programming_servo_a_generic_worker_eventloop/]</small> 
+
 # Crate of the Week
 
 This week's crate is [generational-arena](https://github.com/lukaslueg/macro_railroad), a safe arena allocator that allows deletion without suffering from the ABA problem by using generational indices. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/447) for the suggestion!
