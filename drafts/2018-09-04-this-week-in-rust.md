@@ -16,6 +16,22 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [A dynamic analysis framework for WebAssembly programs](https://github.com/danleh/wasabi).
+* [greenwasm — an implementation of the WebAssembly spec in Rust](https://github.com/Kimundi/greenwasm).
+* [Failsafe: A circuit breaker pattern implementation for rust](https://github.com/dmexe/failsafe-rs).
+* [Statemaps in Rust - internal Joyent presentation from Bryan Cantrill](https://www.youtube.com/watch?v=aWbGPMxs0AM).
+* [Feasible functors in Rust](https://varkor.github.io/blog/2018/08/28/feasible-functors-in-rust.html).
+* [Rust pattern: Iterating an over a Rc<Vec<T>>](http://smallcultfollowing.com/babysteps/blog/2018/09/02/rust-pattern-iterating-an-over-a-rc-vec-t/).
+* [Learning Generics in Rust - Andrew Johnson](https://tutorialedge.net/rust/learning-generics-in-rust/).
+* [Primitives in Rust are Weird (and Cool)](https://speice.io/2018/09/primitives-in-rust-are-weird.html).
+* [Why Rust Closures are (Somewhat) Hard](http://stevedonovan.github.io/rustifications/2018/08/18/rust-closures-are-hard.html).
+* [Rustcast #7 - How to implement Iterator in Rust programming language](https://www.youtube.com/watch?v=pgFWz0jgqMU).
+* [Blog post: Benchmarking a #rustlang web application](https://klausi.github.io/rustnish/2018/08/31/benchmarking-a-rust-web-application.html).
+* [Experimental!: Gecko using WebRender running on Vulkan](https://github.com/szeged/webrender/issues/198#issuecomment-416635113).
+* [Unsafe Code Guidelines Meetings](https://internals.rust-lang.org/t/unsafe-code-guidelines-meetings/8335).
+* [Serde Deserialize This or That into u64](https://noyez.gitlab.io/post/2018-08-28-serilize-this-or-that-into-u64/).
+* [The 10th Embedded WG Newsletter (and a new blog!)](https://rust-embedded.github.io/blog/2018-08-28-newsletter-10/).
+
 # Crate of the Week
 
 This week's crate is [generational-arena](https://github.com/lukaslueg/macro_railroad), a safe arena allocator that allows deletion without suffering from the ABA problem by using generational indices. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/447) for the suggestion!
