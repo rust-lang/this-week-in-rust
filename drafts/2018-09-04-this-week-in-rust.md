@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [RPCS3 and Dolphin on macOS using gfx-portability](https://gfx-rs.github.io/2018/09/03/rpcs3-dolphin.html), discussions on [Reddit](https://www.reddit.com/r/rust/comments/9crxlr/rpcs3_and_dolphin_on_macos_using_gfxportability/) and [HN](https://news.ycombinator.com/item?id=17906397).
+
 # Crate of the Week
 
 This week's crate is [generational-arena](https://github.com/lukaslueg/macro_railroad), a safe arena allocator that allows deletion without suffering from the ABA problem by using generational indices. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/447) for the suggestion!
