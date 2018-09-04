@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [generational-arena](https://github.com/lukaslueg/macro_railroad), a safe arena allocator that allows deletion without suffering from the ABA problem by using generational indices. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/447) for the suggestion!
+This week's crate is [cgroups](https://crates.io/crates/cgroups), a native Rust library for managing control groups under Linux. Thanks to [yoshuawuyts](https://users.rust-lang.org/t/crate-of-the-week/2704/450) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -39,27 +39,38 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-157 pull requests were [merged in the last week][merged]
+109 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-08-13..2018-08-20
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-08-27..2018-09-03
 
-* [wasm: remove --strip-debug argument to LLD](https://github.com/rust-lang/rust/pull/53434)
-* [resolve: overhaul `#![feature(uniform_paths)]` error reporting](https://github.com/rust-lang/rust/pull/53427)
-* [do not suggest conversion method that is already there](https://github.com/rust-lang/rust/pull/53406)
-* [visit all attributes for feature collection](https://github.com/rust-lang/rust/pull/53397)
-* [speed up NLL with HybridIdxSetBuf](https://github.com/rust-lang/rust/pull/53383)
-* [`{to,from}_{ne,le,be}_bytes` for unsigned integer types](https://github.com/rust-lang/rust/pull/53358)
-* [fix error for unsized packed struct field](https://github.com/rust-lang/rust/pull/53342)
-* [resolve: crates only exist in the type namespace](https://github.com/rust-lang/rust/pull/53335)
-* [`Self` in type definitions](https://github.com/rust-lang/rust/pull/53324)
-* [`TokenStream::extend`](https://github.com/rust-lang/rust/pull/53304)
-* [various changes to `rustc_on_unimplemented`](https://github.com/rust-lang/rust/pull/53295)
-* [NLL: optimize reassignment immutable state](https://github.com/rust-lang/rust/pull/53258)
-* [don't accept non-string literals for the format string in writeln](https://github.com/rust-lang/rust/pull/53256)
-* [don't panic on std::env::vars() when env is null](https://github.com/rust-lang/rust/pull/53208)
-* [implement Iterator::size_hint for Elaborator](https://github.com/rust-lang/rust/pull/52858)
-* [non-naive implementation of `VecDeque.append`](https://github.com/rust-lang/rust/pull/52553)
-* [implement Unsized Rvalues](https://github.com/rust-lang/rust/pull/51131)
+* [enable ThinLTO with incremental compilation](https://github.com/rust-lang/rust/pull/53673)
+* [build LLVM with ThinLTO enabled (2nd attempt)](https://github.com/rust-lang/rust/pull/53245)
+* [update LLVM submodule](https://github.com/rust-lang/rust/pull/53611) (mainly WASM improvements)
+* [ADD more Cortex-R targets](https://github.com/rust-lang/rust/pull/53679)
+* [change the default linker of the ARM Cortex-M targets to rust-lld](https://github.com/rust-lang/rust/pull/53648)
+* [begin preparation for Rust 2018](https://github.com/rust-lang/crates.io/pull/1467)
+* [fix promotion stability hole in old borrowck](https://github.com/rust-lang/rust/pull/53699)
+* [Miri engine cleanup](https://github.com/rust-lang/rust/pull/53671)
+* [Miri refactor: Final round](https://github.com/rust-lang/rust/pull/53779)
+* [use partial but correct vtable layout](https://github.com/rust-lang/rust/pull/53757)
+* [replace `AccumulateVec` by `SmallVec`](https://github.com/rust-lang/rust/pull/53659)
+* [`HybridIdxSet` tweaks](https://github.com/rust-lang/rust/pull/53656)
+* [NLL: experiment with inverting liveness](https://github.com/rust-lang/rust/pull/53314)
+* [fix NLL ICEs](https://github.com/rust-lang/rust/pull/53580)
+* [set rustfix auto-applicability for a few lints](https://github.com/rust-lang/rust/pull/53655)
+* [use `FxHash`{`Map`, `Set`} instead of the default `Hash`{`Map`, `Set`}](https://github.com/rust-lang/rust/pull/53472)
+* [various small diagnostic and code clean up](https://github.com/rust-lang/rust/pull/53842)
+* [save-analysis: record info for the types in `where` clauses](https://github.com/rust-lang/rust/pull/53838)
+* [fix `u32` `steps_between` for 16-bit systems](https://github.com/rust-lang/rust/pull/53755)
+* [reduce number of syscalls in `rand`](https://github.com/rust-lang/rust/pull/53725)
+* [reoptimize `VecDeque::append`](https://github.com/rust-lang/rust/pull/53564)
+* [add more const int ops](https://github.com/rust-lang/rust/pull/53697)
+* [make `std::intrinsics::transmute()` `const fn`](https://github.com/rust-lang/rust/pull/53535)
+* [`impl PartialEq for TryFromIntError`](https://github.com/rust-lang/rust/pull/53476)
+* [add `--allow-staged` to `cargo fix`](https://github.com/rust-lang/cargo/pull/5943)
+* [add rust-gdbgui script](https://github.com/rust-lang/rust/pull/53774)
+* [set `cfg(rustdoc)` when rustdoc is running on a crate](https://github.com/rust-lang/rust/pull/53076)
+* [rustbuild: distribute libLLVM.so with rustc](https://github.com/rust-lang/rust/pull/53828)
 
 ## Approved RFCs
 
@@ -118,6 +129,7 @@ decision. Express your opinions now.
 * [Sep  4. Brussels, BE - #3 futures/async/tokio && Gotham-rs](https://www.meetup.com/Belgium-Rust-user-group/events/249899651/).
 * [Sep  5. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/253541000/).
 * [Sep  5. Cologne, DE - Rust Cologne](http://rust.cologne/2018/09/05/fun-traits.html).
+* [Sep  7. Darmstadt, DE - Rhein Main Rust Meetup / Mentoring Round](https://www.meetup.com/Rust-Rhein-Main/events/254282818)
 
 ### North America
 
@@ -150,19 +162,11 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> # Bastion of the Turbofish
->
-> Beware travellers, lest you venture into waters callous and unforgiving, where hope must abandoned, ere it is cruelly torn from you. For here stands the bastion of the Turbofish: an impenetrable fortress holding unshaking against those who would dare suggest the supererogation of the Turbofish.
->
-> Once I was young and foolish and had the impudence to imagine that I could shake free from the coils by which that creature had us tightly bound. I dared to suggest that there was a better way: a brighter future, in which Rustaceans both new and old could be rid of that vile beast. But alas! In my foolhardiness my ignorance was unveiled and my dreams were dashed unforgivingly against the rock of syntactic ambiguity.
->
-> This humble program, small and insignificant though it might seem, demonstrates that to which we had previously cast a blind eye: an ambiguity in permitting generic arguments to be provided without the consent of the Great Turbofish. Should you be so naïve as to try to revolt against its mighty clutches, here shall its wrath be indomitably displayed. This program must pass for all eternity, fundamentally at odds with an impetuous rebellion against the Turbofish.
->
-> My heart aches in sorrow, for I know I am defeated. Let this be a warning to all those who come after. Here stands the bastion of the Turbofish.
+> Zeitgeist of Rust: developing load bearing software that will survive us.
 
-– [varkor on the rust github](https://github.com/rust-lang/rust/pull/53562).
+– [Bryan Cantrill on Youtube: "The Summer of Rust (1:08:10)"](https://www.youtube.com/watch?v=LjFM8vw3pbU).
 
-Thanks to [Mazdak Farrokhzad](https://users.rust-lang.org/u/Centril) for the suggestion!
+Thanks to [Matthieu M](https://users.rust-lang.org/u/matthieum) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
