@@ -77,24 +77,30 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Unify std::os::raw::c_void and libc::c_void via libcore](https://github.com/rust-lang/rfcs/pull/2521).
-* [disposition: merge] [Add lint warning for inner function marked as `#[test]`](https://github.com/rust-lang/rfcs/pull/2471).
+* [disposition: merge] [Amend RFC 2175 to support for loops and leading vert](https://github.com/rust-lang/rfcs/pull/2530).
 * [disposition: merge] [Rustfmt stability](https://github.com/rust-lang/rfcs/pull/2437).
+* [disposition: e] [RFC: add futures and task system to libcore](https://github.com/rust-lang/rfcs/pull/2418).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Add Error::source method per RFC 2504.](https://github.com/rust-lang/rust/pull/53533).
-* [disposition: merge] [set cfg(rustdoc) when rustdoc is running on a crate](https://github.com/rust-lang/rust/pull/53076).
-* [disposition: merge] [Tracking issue for RFC#1685: Deprecate anonymous parameters ](https://github.com/rust-lang/rust/issues/41686).
-* [disposition: merge] [Tracking issue for lifetime elision for impl headers (feature impl_header_lifetime_elision)](https://github.com/rust-lang/rust/issues/15872).
-* [disposition: merge] [Tracking issue for RFC 2070: stable mechanism to specify the behavior of panic! in no-std applications](https://github.com/rust-lang/rust/issues/44489).
+* [disposition: merge] [Tracking issue for a minimal subset of RFC 911, const fn](https://github.com/rust-lang/rust/issues/53555).
+* [disposition: merge] [Add a implementation of `From` for converting `&'a Option<T>` into `Option<&'a T>`](https://github.com/rust-lang/rust/pull/53218).
+* [disposition: merge] [Add trim_start, trim_end etc.; deprecate trim_left, trim_right, etc. in future](https://github.com/rust-lang/rust/pull/52994).
+* [disposition: merge] [[eRFC] add -Z emit-stack-sizes](https://github.com/rust-lang/rust/pull/51946).
+* [disposition: merge] [Tracking issue for RFC 2070: stable mechanism to specify the behavior of panic! in no-std applications ](https://github.com/rust-lang/rust/issues/44489).
+* [disposition: merge] [Tracking issue for the `#[used]` attribute](https://github.com/rust-lang/rust/issues/40289).
 
 ## New RFCs
 
-* [Type-changing struct update syntax](https://github.com/rust-lang/rfcs/pull/2528).
-* [Hidden trait implementations](https://github.com/rust-lang/rfcs/pull/2529).
+* [RFC: Or patterns, i.e `Foo(Bar(x) | Baz(x))`](https://github.com/rust-lang/rfcs/pull/2535).
+* [RFC: Write References for Direct and Partial Initialization using &out T and &uninit T](https://github.com/rust-lang/rfcs/pull/2534).
+* [Keeping Secrets in Rust](https://github.com/rust-lang/rfcs/issues/2533).
+* [RFC: Associated type defaults and Default groups](https://github.com/rust-lang/rfcs/pull/2532).
 * [Amend RFC 2175 to support for loops and leading vert](https://github.com/rust-lang/rfcs/pull/2530).
-* [Associated type defaults and Default groups](https://github.com/rust-lang/rfcs/pull/2532).
+* [RFC: Hidden trait implementations](https://github.com/rust-lang/rfcs/pull/2529).
+* [Type-changing struct update syntax](https://github.com/rust-lang/rfcs/pull/2528).
+* [Support underscores as constant names](https://github.com/rust-lang/rfcs/pull/2526).
+* [RFC: Permit _ in type aliases](https://github.com/rust-lang/rfcs/pull/2524).
 
 # Upcoming Events
 
@@ -104,39 +110,47 @@ decision. Express your opinions now.
 * [Sep 11. Rust Community Content Subteam Meeting at channel #rust-community](irc://irc.mozilla.org/rust-community).
 * [Sep 12. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Sep 12. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-
-### Africa
-
-* [Sep  4. Johannesburg, ZA - Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxmbgb/).
+* [Sep 13. Rust Switchboard Team Meeting]().
+* [Sep 19. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
 
 ### Asia
 
-* [Sep  2. Tel Aviv, IL - Cargo, Production and N00bing](https://www.meetup.com/Rust-TLV/events/253408497/).
+* [Sep 15. Chennai, IN - Rust Monthly Meetup](https://www.meetup.com/mad-rs/events/).
 
 ### Europe
 
-* [Sep  4. Brussels, BE - #3 futures/async/tokio && Gotham-rs](https://www.meetup.com/Belgium-Rust-user-group/events/249899651/).
 * [Sep  5. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/253541000/).
 * [Sep  5. Cologne, DE - Rust Cologne](http://rust.cologne/2018/09/05/fun-traits.html).
+* [Sep  7. Helsinki, FI - Helsinki Rust informal meetup](https://www.meetup.com/Finland-Rust-Meetup/).
+* [Sep  7. Darmstadt, DE - Rust Meetup – Mentoring Round](https://www.meetup.com/Rust-Rhein-Main/events/254282818/).
+* [Sep 18. Amsterdam, NL - Amsterdam Rust Meetup - Concurrency fundamentals, Tokio & WebAssembly](https://www.meetup.com/Rust-Amsterdam/events/253425558).
+* [Sep 18. Rapperswil-Jona, CH - Rapperswil-Jona, Zürichsee Meetup - Looking for a speaker](https://www.meetup.com/de-DE/Rust-Zurich/events/251682152/).
+* [Sep 18. Paris, FR - Paris - Rust Paris](http://www.meetup.com/Rust-Paris).
+* [Sep 19. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/find/events/?allMeetups=false&keywords=Rust+Hack+and+Learn+OpenTechSchool&radius=25&userFreeform=Berlin%2C+Germany&mcName=Berlin%2C+DE&eventFilter=all).
 
 ### North America
 
-* [Sep  2. Mountain View, US - Open Table / Icebreaker: what projects are you working on](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxmbdb/).
 * [Sep  5. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyxmbhb/).
 * [Sep  5. Atlanta, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/cbcmbqyxmbhb/).
 * [Sep  5. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxmbhb/).
 * [Sep  9. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxmbmb/).
 * [Sep 10. Seattle, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/pkggvpyxmbnb/).
+* [Sep 12. Boulder, US - Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/).
 * [Sep 13. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxmbrb/).
 * [Sep 13. Arlington, US - Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/253787454).
 * [Sep 13. San Diego, US - San Diego Rust September Meetup - WASM, "failure" library, or ???](https://www.meetup.com/San-Diego-Rust/events/253862312/).
+* [Sep 13. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/253965052/).
+* [Sep 16. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View).
+* [Sep 19. Vancouver, CA - Vancouver Rust meetup - Study/Hack/Hang-out](https://www.meetup.com/Vancouver-Rust/events/).
 
 ### South America
 
-* [Sep  3. Montevideo, UY - Rust meetup - WebAssembly](https://www.meetup.com/Rust-Uruguay/events/253617627/).
+* [Sep  8. Santiago, CHL - Hackday Santiago de Chile]().
+* [Sep 15. Sao Paulo, BR - Rust Sao Paulo - Meetup](https://www.meetup.com/Rust-Sao-Paulo-Meetup/events/253842754/).
 
 If you are running a Rust event please add it to the [calendar] to get
-it mentioned here. Email the [Rust Community Team][community] for access.
+it mentioned here. Please remember to add a link to the event too. 
+Email the [Rust Community Team][community] for access.
 
 [calendar]: https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com
 [community]: mailto:community-team@rust-lang.org
