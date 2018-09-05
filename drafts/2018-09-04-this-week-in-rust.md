@@ -16,23 +16,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Programming Servo: A generic “worker event-loop”](https://medium.com/programming-servo/programming-servo-a-generic-worker-event-loop-400a6f113a60). <small>[[discuss](https://www.reddit.com/r/rust/comments/9caa3u/programming_servo_a_generic_worker_eventloop/]</small> 
-* [RPCS3 and Dolphin on macOS using gfx-portability](https://gfx-rs.github.io/2018/09/03/rpcs3-dolphin.html), discussions on [Reddit](https://www.reddit.com/r/rust/comments/9crxlr/rpcs3_and_dolphin_on_macos_using_gfxportability/) and [HN](https://news.ycombinator.com/item?id=17906397).
-* [A dynamic analysis framework for WebAssembly programs](https://github.com/danleh/wasabi).
-* [greenwasm — an implementation of the WebAssembly spec in Rust](https://github.com/Kimundi/greenwasm).
-* [Failsafe: A circuit breaker pattern implementation for rust](https://github.com/dmexe/failsafe-rs).
-* [Statemaps in Rust - internal Joyent presentation from Bryan Cantrill](https://www.youtube.com/watch?v=aWbGPMxs0AM).
+* [Why Rust closures are (somewhat) hard](http://stevedonovan.github.io/rustifications/2018/08/18/rust-closures-are-hard.html).
+* [Rust pattern: Iterating an over a `Rc<Vec<T>>`](http://smallcultfollowing.com/babysteps/blog/2018/09/02/rust-pattern-iterating-an-over-a-rc-vec-t/).
+* [FlatBuffers adds support for Rust](https://github.com/google/flatbuffers/pull/4898).
+* [RPCS3 and Dolphin on macOS using gfx-portability](https://gfx-rs.github.io/2018/09/03/rpcs3-dolphin.html).
+* [Learning generics in Rust](https://tutorialedge.net/rust/learning-generics-in-rust/).
 * [Feasible functors in Rust](https://varkor.github.io/blog/2018/08/28/feasible-functors-in-rust.html).
-* [Rust pattern: Iterating an over a Rc<Vec<T>>](http://smallcultfollowing.com/babysteps/blog/2018/09/02/rust-pattern-iterating-an-over-a-rc-vec-t/).
-* [Learning Generics in Rust - Andrew Johnson](https://tutorialedge.net/rust/learning-generics-in-rust/).
-* [Primitives in Rust are Weird (and Cool)](https://speice.io/2018/09/primitives-in-rust-are-weird.html).
-* [Why Rust Closures are (Somewhat) Hard](http://stevedonovan.github.io/rustifications/2018/08/18/rust-closures-are-hard.html).
-* [Rustcast #7 - How to implement Iterator in Rust programming language](https://www.youtube.com/watch?v=pgFWz0jgqMU).
-* [Blog post: Benchmarking a #rustlang web application](https://klausi.github.io/rustnish/2018/08/31/benchmarking-a-rust-web-application.html).
-* [Experimental!: Gecko using WebRender running on Vulkan](https://github.com/szeged/webrender/issues/198#issuecomment-416635113).
-* [Unsafe Code Guidelines Meetings](https://internals.rust-lang.org/t/unsafe-code-guidelines-meetings/8335).
-* [Serde Deserialize This or That into u64](https://noyez.gitlab.io/post/2018-08-28-serilize-this-or-that-into-u64/).
-* [The 10th Embedded WG Newsletter (and a new blog!)](https://rust-embedded.github.io/blog/2018-08-28-newsletter-10/).
+* [Programming Servo: A generic “worker event-loop”](https://medium.com/programming-servo/programming-servo-a-generic-worker-event-loop-400a6f113a60).
+* [Serde deserialize This or That into u64](https://noyez.gitlab.io/post/2018-08-28-serilize-this-or-that-into-u64/).
+* [This Week in Rust and WebAssembly 7](https://rustwasm.github.io/2018/09/04/this-week-in-rust-wasm-007.html).
+* [The Embedded WG newsletter 10](https://rust-embedded.github.io/blog/2018-08-28-newsletter-10/).
 
 # Crate of the Week
 
@@ -49,7 +42,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-*No issues were submitted for CfP this week.*
+* [png: Unbounded memory consumption on malformed inputs](https://github.com/PistonDevelopers/image-png/issues/80).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -96,7 +89,8 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2497: if- and while-let-chains, take 2](https://github.com/rust-lang/rfcs/pull/2497).
+* [RFC 2471: Add lint warning for inner function marked as `#[test]`](https://github.com/rust-lang/rfcs/pull/2471).
+* [RFC 2521: Unify `std::os::raw::c_void` and `libc::c_void` via libcore](https://github.com/rust-lang/rfcs/pull/2521).
 
 ## Final Comment Period
 
@@ -108,60 +102,41 @@ decision. Express your opinions now.
 
 * [disposition: merge] [Amend RFC 2175 to support for loops and leading vert](https://github.com/rust-lang/rfcs/pull/2530).
 * [disposition: merge] [Rustfmt stability](https://github.com/rust-lang/rfcs/pull/2437).
-* [disposition: e] [RFC: add futures and task system to libcore](https://github.com/rust-lang/rfcs/pull/2418).
+* [disposition: postpone] [Add futures and task system to libcore](https://github.com/rust-lang/rfcs/pull/2418).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [Tracking issue for a minimal subset of RFC 911, const fn](https://github.com/rust-lang/rust/issues/53555).
 * [disposition: merge] [Add a implementation of `From` for converting `&'a Option<T>` into `Option<&'a T>`](https://github.com/rust-lang/rust/pull/53218).
 * [disposition: merge] [Add trim_start, trim_end etc.; deprecate trim_left, trim_right, etc. in future](https://github.com/rust-lang/rust/pull/52994).
-* [disposition: merge] [[eRFC] add -Z emit-stack-sizes](https://github.com/rust-lang/rust/pull/51946).
+* [disposition: merge] [Add `-Z emit-stack-sizes`](https://github.com/rust-lang/rust/pull/51946).
 * [disposition: merge] [Tracking issue for RFC 2070: stable mechanism to specify the behavior of panic! in no-std applications ](https://github.com/rust-lang/rust/issues/44489).
 * [disposition: merge] [Tracking issue for the `#[used]` attribute](https://github.com/rust-lang/rust/issues/40289).
 
 ## New RFCs
 
-* [RFC: Or patterns, i.e `Foo(Bar(x) | Baz(x))`](https://github.com/rust-lang/rfcs/pull/2535).
-* [RFC: Write References for Direct and Partial Initialization using &out T and &uninit T](https://github.com/rust-lang/rfcs/pull/2534).
-* [Keeping Secrets in Rust](https://github.com/rust-lang/rfcs/issues/2533).
-* [RFC: Associated type defaults and Default groups](https://github.com/rust-lang/rfcs/pull/2532).
-* [Amend RFC 2175 to support for loops and leading vert](https://github.com/rust-lang/rfcs/pull/2530).
-* [RFC: Hidden trait implementations](https://github.com/rust-lang/rfcs/pull/2529).
-* [Type-changing struct update syntax](https://github.com/rust-lang/rfcs/pull/2528).
-* [Support underscores as constant names](https://github.com/rust-lang/rfcs/pull/2526).
-* [RFC: Permit _ in type aliases](https://github.com/rust-lang/rfcs/pull/2524).
+* [Or patterns, i.e `Foo(Bar(x) | Baz(x))`](https://github.com/rust-lang/rfcs/pull/2535).
+* [Write References for Direct and Partial Initialization using &out T and &uninit T](https://github.com/rust-lang/rfcs/pull/2534).
 
 # Upcoming Events
 
 ### Online
 
-* [Sep  5. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Sep 11. Rust Community Content Subteam Meeting at channel #rust-community](irc://irc.mozilla.org/rust-community).
 * [Sep 12. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Sep 12. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-* [Sep 13. Rust Switchboard Team Meeting]().
-* [Sep 19. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-content).
-
-### Asia
-
-* [Sep 15. Chennai, IN - Rust Monthly Meetup](https://www.meetup.com/mad-rs/events/).
+* [Sep 19. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
 ### Europe
 
-* [Sep  5. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/253541000/).
-* [Sep  5. Cologne, DE - Rust Cologne](http://rust.cologne/2018/09/05/fun-traits.html).
-* [Sep  7. Helsinki, FI - Helsinki Rust informal meetup](https://www.meetup.com/Finland-Rust-Meetup/).
 * [Sep  7. Darmstadt, DE - Rhein Main Rust Meetup / Mentoring Round](https://www.meetup.com/Rust-Rhein-Main/events/254282818).
 * [Sep 18. Amsterdam, NL - Amsterdam Rust Meetup - Concurrency fundamentals, Tokio & WebAssembly](https://www.meetup.com/Rust-Amsterdam/events/253425558).
 * [Sep 18. Rapperswil-Jona, CH - Rapperswil-Jona, Zürichsee Meetup - Looking for a speaker](https://www.meetup.com/de-DE/Rust-Zurich/events/251682152/).
-* [Sep 18. Paris, FR - Paris - Rust Paris](http://www.meetup.com/Rust-Paris).
-* [Sep 19. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/find/events/?allMeetups=false&keywords=Rust+Hack+and+Learn+OpenTechSchool&radius=25&userFreeform=Berlin%2C+Germany&mcName=Berlin%2C+DE&eventFilter=all).
+* [Sep 19. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/253541005/).
+* [Sep 20. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxmbbc/).
 
 ### North America
 
-* [Sep  5. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyxmbhb/).
-* [Sep  5. Atlanta, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/cbcmbqyxmbhb/).
-* [Sep  5. Vancouver, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/dqldspyxmbhb/).
 * [Sep  9. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxmbmb/).
 * [Sep 10. Seattle, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/pkggvpyxmbnb/).
 * [Sep 12. Boulder, US - Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/).
@@ -169,16 +144,17 @@ decision. Express your opinions now.
 * [Sep 13. Arlington, US - Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/253787454).
 * [Sep 13. San Diego, US - San Diego Rust September Meetup - WASM, "failure" library, or ???](https://www.meetup.com/San-Diego-Rust/events/253862312/).
 * [Sep 13. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/253965052/).
-* [Sep 16. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View).
-* [Sep 19. Vancouver, CA - Vancouver Rust meetup - Study/Hack/Hang-out](https://www.meetup.com/Vancouver-Rust/events/).
+* [Sep 16. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxmbvb/).
+* [Sep 19. Vancouver, CA - Vancouver Rust meetup - Study/Hack/Hang-out](https://www.meetup.com/Vancouver-Rust/events/dqldspyxmbzb/).
+* *[Oct 19 & 20. Ann Arbor, US - Rust Belt Rust 2018](https://rust-belt-rust.com/).*
 
 ### South America
 
-* [Sep  8. Santiago, CHL - Hackday Santiago de Chile]().
+* [Sep  8. Santiago, CL - Hackday Santiago de Chile](https://www.meetup.com/Rust-Santiago-de-Chile/events/254285104/).
 * [Sep 15. Sao Paulo, BR - Rust Sao Paulo - Meetup](https://www.meetup.com/Rust-Sao-Paulo-Meetup/events/253842754/).
 
 If you are running a Rust event please add it to the [calendar] to get
-it mentioned here. Please remember to add a link to the event too. 
+it mentioned here. Please remember to add a link to the event too.
 Email the [Rust Community Team][community] for access.
 
 [calendar]: https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com
@@ -186,8 +162,9 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Engineer at Anixe, Wrocław, Poland](https://anixe.bamboohr.co.uk/jobs/view.php?id=17).
-* [Rust Engineer at TagiFi, Remote](https://www.reddit.com/r/rust/comments/994fcg/job_tagnifi_is_looking_for_a_rust_engineer/).
+* [Rust Developer at Parity, Berlin](https://paritytech.io/jobs/).
+* [Rust Backend Engineer at Kraken, Remote](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105).
+* [Rust Lead Engineer at Setter, Torronto](https://setter.breezy.hr/p/880e8a830036-lead-engineer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
