@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [RPCS3 and Dolphin on macOS using gfx-portability](https://gfx-rs.github.io/2018/09/03/rpcs3-dolphin.html), discussions on [Reddit](https://www.reddit.com/r/rust/comments/9crxlr/rpcs3_and_dolphin_on_macos_using_gfxportability/) and [HN](https://news.ycombinator.com/item?id=17906397).
 * [A dynamic analysis framework for WebAssembly programs](https://github.com/danleh/wasabi).
 * [greenwasm — an implementation of the WebAssembly spec in Rust](https://github.com/Kimundi/greenwasm).
 * [Failsafe: A circuit breaker pattern implementation for rust](https://github.com/dmexe/failsafe-rs).
