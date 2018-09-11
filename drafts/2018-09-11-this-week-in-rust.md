@@ -16,6 +16,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [[blog series] From Rust to beyond 🚀, episode 4: The C galaxy — An end-to-end example, includes cbindgen and clang](https://mnt.io/2018/09/11/from-rust-to-beyond-the-c-galaxy/).
+* [Parallelizing PNG, part 5: choosing Rust for mtpng](https://brionv.com/log/2018/09/09/parallelizing-png-part-5-choosing-rust-for-mtpng/).
+* [Rust Embedded Working Group Newsletter 11, Cortex-R support, an Arduino MKRZERO crate, and a no_std synthesizer!](https://rust-embedded.github.io/blog/2018-09-09-newsletter-11/).
+* [Generic traits as an alternative to method overloading](https://www.youtube.com/watch?v=URDlIAsyLP4).
+* [Pun Intended: Bare Metal Attracts Rust](https://hackaday.com/2018/09/08/pun-intended-bare-metal-attracts-rust/).
+* [rustfmt, compiled to wasm, in a webpage](https://alexcrichton.github.io/rustfmt-wasm/).
+* [Tower Web - Expanding the middleware stack](https://medium.com/@carllerche/tower-web-expanding-the-middleware-stack-f9bf55bfa109).
+* [Blog: Rust Faster – SIMD edition](https://llogiq.github.io/2018/09/06/fast.html).
+* [Adventures in Rust: Futures and Tokio](http://bryangilbert.com/post/code/rust/adventures-futures-tokio-rust/).
+* [Beware the rust cache on Travis (or why you should use it with care)](https://levans.fr/rust_travis_cache.html).
+* [RustFest Rome CFP is open and supporter tickets available!](https://blog.rustfest.eu/this-week-in-rustfest-0-cfp-and-tickets).
+
 # Crate of the Week
 
 This week's crate is [cgroups](https://crates.io/crates/cgroups), a native Rust library for managing control groups under Linux. Thanks to [yoshuawuyts](https://users.rust-lang.org/t/crate-of-the-week/2704/450) for the suggestion!
