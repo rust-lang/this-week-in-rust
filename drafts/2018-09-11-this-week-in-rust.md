@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [cgroups](https://crates.io/crates/cgroups), a native Rust library for managing control groups under Linux. Thanks to [yoshuawuyts](https://users.rust-lang.org/t/crate-of-the-week/2704/450) for the suggestion!
+This week's crate is [cargo-src](https://crates.io/crates/cargo-src), a Rust source browser with syntax highlighting, jump to def, smart search and much more. Thanks to [mark-i-m](https://users.rust-lang.org/t/crate-of-the-week/2704/452) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -39,38 +39,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-109 pull requests were [merged in the last week][merged]
+137 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-08-27..2018-09-03
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-09-03..2018-09-10
 
-* [enable ThinLTO with incremental compilation](https://github.com/rust-lang/rust/pull/53673)
-* [build LLVM with ThinLTO enabled (2nd attempt)](https://github.com/rust-lang/rust/pull/53245)
-* [update LLVM submodule](https://github.com/rust-lang/rust/pull/53611) (mainly WASM improvements)
-* [ADD more Cortex-R targets](https://github.com/rust-lang/rust/pull/53679)
-* [change the default linker of the ARM Cortex-M targets to rust-lld](https://github.com/rust-lang/rust/pull/53648)
-* [begin preparation for Rust 2018](https://github.com/rust-lang/crates.io/pull/1467)
-* [fix promotion stability hole in old borrowck](https://github.com/rust-lang/rust/pull/53699)
-* [Miri engine cleanup](https://github.com/rust-lang/rust/pull/53671)
-* [Miri refactor: Final round](https://github.com/rust-lang/rust/pull/53779)
-* [use partial but correct vtable layout](https://github.com/rust-lang/rust/pull/53757)
-* [replace `AccumulateVec` by `SmallVec`](https://github.com/rust-lang/rust/pull/53659)
-* [`HybridIdxSet` tweaks](https://github.com/rust-lang/rust/pull/53656)
-* [NLL: experiment with inverting liveness](https://github.com/rust-lang/rust/pull/53314)
-* [fix NLL ICEs](https://github.com/rust-lang/rust/pull/53580)
-* [set rustfix auto-applicability for a few lints](https://github.com/rust-lang/rust/pull/53655)
-* [use `FxHash`{`Map`, `Set`} instead of the default `Hash`{`Map`, `Set`}](https://github.com/rust-lang/rust/pull/53472)
-* [various small diagnostic and code clean up](https://github.com/rust-lang/rust/pull/53842)
-* [save-analysis: record info for the types in `where` clauses](https://github.com/rust-lang/rust/pull/53838)
-* [fix `u32` `steps_between` for 16-bit systems](https://github.com/rust-lang/rust/pull/53755)
-* [reduce number of syscalls in `rand`](https://github.com/rust-lang/rust/pull/53725)
-* [reoptimize `VecDeque::append`](https://github.com/rust-lang/rust/pull/53564)
-* [add more const int ops](https://github.com/rust-lang/rust/pull/53697)
-* [make `std::intrinsics::transmute()` `const fn`](https://github.com/rust-lang/rust/pull/53535)
-* [`impl PartialEq for TryFromIntError`](https://github.com/rust-lang/rust/pull/53476)
-* [add `--allow-staged` to `cargo fix`](https://github.com/rust-lang/cargo/pull/5943)
-* [add rust-gdbgui script](https://github.com/rust-lang/rust/pull/53774)
-* [set `cfg(rustdoc)` when rustdoc is running on a crate](https://github.com/rust-lang/rust/pull/53076)
-* [rustbuild: distribute libLLVM.so with rustc](https://github.com/rust-lang/rust/pull/53828)
+* [introduce Custom Test Frameworks](https://github.com/rust-lang/rust/pull/53410)
+* [ThinLTO: don't keep files open after mmaping them](https://github.com/rust-lang/rust/pull/53962)
+* [rustc: prepare the `atomics` feature for wasm](https://github.com/rust-lang/rust/pull/53878)
+* [if- and while-let-chains, take 2 - edition changes](https://github.com/rust-lang/rust/pull/53854)
+* [resolve: relax shadowing restrictions on macro-expanded macros](https://github.com/rust-lang/rust/pull/53778)
+* [`proc_macro::Group::span_open` and `span_close`](https://github.com/rust-lang/rust/pull/53902)
+* [fix incorrect outer function type parameter message](https://github.com/rust-lang/rust/pull/53960)
+* [fix `is_non_exhaustive` confusion between structs and enums](https://github.com/rust-lang/rust/pull/53721)
+* [rewrite `precompute_borrows_out_of_scope` for fewer hash table lookups](https://github.com/rust-lang/rust/pull/53942)
+* [make loop detector only consider reachable memory](https://github.com/rust-lang/rust/pull/52626)
+* [miri engine: make sure we do not copy unsized data](https://github.com/rust-lang/rust/pull/53883)
+* [optimize miri checking of integer array/slices](https://github.com/rust-lang/rust/pull/53903)
+* [NLL: do not propagate closure requirements if we can prove them locally](https://github.com/rust-lang/rust/pull/53745)
+* [NLL: teach SCC about `'static`](https://github.com/rust-lang/rust/pull/53327)
+* [implement Unpin for Box, Rc, and Arc](https://github.com/rust-lang/rust/pull/53874)
+* [add trim_start, trim_end etc.; deprecate trim_left, trim_right, etc. in future](https://github.com/rust-lang/rust/pull/52994)
+* [allow to check if sync::Once is already initialized](https://github.com/rust-lang/rust/pull/53027)
+* [stabilize `#[panic_handler]`](https://github.com/rust-lang/rust/pull/51366)
+* [rustdoc: show trait impl docs](https://github.com/rust-lang/rust/pull/51885)
+* [rustbuild: tweak LLVM distribution layout](https://github.com/rust-lang/rust/pull/53955)
 
 ## Approved RFCs
 
@@ -159,11 +151,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Zeitgeist of Rust: developing load bearing software that will survive us.
+> Bare Metal Attracts Rust
 
-– [Bryan Cantrill on Youtube: "The Summer of Rust (1:08:10)"](https://www.youtube.com/watch?v=LjFM8vw3pbU).
+– [Sven Gregori on Hackaday"](https://hackaday.com/2018/09/08/pun-intended-bare-metal-attracts-rust/).
 
-Thanks to [Matthieu M](https://users.rust-lang.org/u/matthieum) for the suggestion!
+Thanks to [llogiq](https://users.rust-lang.org/u/llogiq) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
