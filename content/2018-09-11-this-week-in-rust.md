@@ -146,7 +146,7 @@ decision. Express your opinions now.
 * [Sep 23. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxmbfc/).
 * [Sep 24. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/events/mfglwpyxmbgc/).
 * [Sep 25. Dallas, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxmbhc/).
-* *[Oct 19 & 20. Ann Arbor, US - Rust Belt Rust 2018](https://rust-belt-rust.com/).*
+* **[Oct 19 & 20. Ann Arbor, US - Rust Belt Rust 2018](https://rust-belt-rust.com/).**
 
 ### South America
 
@@ -170,7 +170,7 @@ Email the [Rust Community Team][community] for access.
 
 > Bare Metal Attracts Rust
 
-– [Sven Gregori on Hackaday"](https://hackaday.com/2018/09/08/pun-intended-bare-metal-attracts-rust/).
+– [Sven Gregori on Hackaday](https://hackaday.com/2018/09/08/pun-intended-bare-metal-attracts-rust/).
 
 Thanks to [llogiq](https://users.rust-lang.org/u/llogiq) for the suggestion!
 
