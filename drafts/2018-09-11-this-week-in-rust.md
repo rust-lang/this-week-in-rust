@@ -16,17 +16,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [[blog series] From Rust to beyond 🚀, episode 4: The C galaxy — An end-to-end example, includes cbindgen and clang](https://mnt.io/2018/09/11/from-rust-to-beyond-the-c-galaxy/).
-* [Parallelizing PNG, part 5: choosing Rust for mtpng](https://brionv.com/log/2018/09/09/parallelizing-png-part-5-choosing-rust-for-mtpng/).
-* [Rust Embedded Working Group Newsletter 11, Cortex-R support, an Arduino MKRZERO crate, and a no_std synthesizer!](https://rust-embedded.github.io/blog/2018-09-09-newsletter-11/).
-* [Generic traits as an alternative to method overloading](https://www.youtube.com/watch?v=URDlIAsyLP4).
-* [Pun Intended: Bare Metal Attracts Rust](https://hackaday.com/2018/09/08/pun-intended-bare-metal-attracts-rust/).
+* [ripgrep 0.10.0 released (PCRE2 and multi-line support)](https://github.com/BurntSushi/ripgrep/releases/tag/0.10.0).
 * [rustfmt, compiled to wasm, in a webpage](https://alexcrichton.github.io/rustfmt-wasm/).
-* [Tower Web - Expanding the middleware stack](https://medium.com/@carllerche/tower-web-expanding-the-middleware-stack-f9bf55bfa109).
-* [Blog: Rust Faster – SIMD edition](https://llogiq.github.io/2018/09/06/fast.html).
+* [Rust faster – SIMD edition](https://llogiq.github.io/2018/09/06/fast.html).
+* [2019 Strategy for rustc and the RLS](https://internals.rust-lang.org/t/2019-strategy-for-rustc-and-the-rls/8361).
 * [Adventures in Rust: Futures and Tokio](http://bryangilbert.com/post/code/rust/adventures-futures-tokio-rust/).
+* [From Rust to beyond, episode 4: The C galaxy](https://mnt.io/2018/09/11/from-rust-to-beyond-the-c-galaxy/). An end-to-end example, includes cbindgen and clang.
+* [Parallelizing PNG, part 5: choosing Rust for mtpng](https://brionv.com/log/2018/09/09/parallelizing-png-part-5-choosing-rust-for-mtpng/).
+* [Tower Web - Expanding the middleware stack](https://medium.com/@carllerche/tower-web-expanding-the-middleware-stack-f9bf55bfa109).
 * [Beware the rust cache on Travis (or why you should use it with care)](https://levans.fr/rust_travis_cache.html).
-* [RustFest Rome CFP is open and supporter tickets available!](https://blog.rustfest.eu/this-week-in-rustfest-0-cfp-and-tickets).
+* [RustFest Rome CFP is open and supporter tickets available](https://blog.rustfest.eu/this-week-in-rustfest-0-cfp-and-tickets).
+* [Videos from RustConf 2018](https://www.youtube.com/playlist?list=PL85XCvVPmGQi3tivxDDF1hrT9qr5hdMBZ).
+* [Rust Embedded WG newsletter 11](https://rust-embedded.github.io/blog/2018-09-09-newsletter-11/).
 
 # Crate of the Week
 
@@ -43,7 +44,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [png: Unbounded memory consumption on malformed inputs](https://github.com/PistonDevelopers/image-png/issues/80).
+* [auto_impl has a few issues for beginners interested in working with the new proc macro API](https://users.rust-lang.org/t/twir-call-for-participation/4821/204).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -82,8 +83,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2471: Add lint warning for inner function marked as `#[test]`](https://github.com/rust-lang/rfcs/pull/2471).
-* [RFC 2521: Unify `std::os::raw::c_void` and `libc::c_void` via libcore](https://github.com/rust-lang/rfcs/pull/2521).
+* [Amend RFC 2175 to support for loops and leading vert](https://github.com/rust-lang/rfcs/pull/2530).
 
 ## Final Comment Period
 
@@ -93,11 +93,12 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: postpone] [RFC: add futures and task system to libcore](https://github.com/rust-lang/rfcs/pull/2418).
-* [disposition: merge] [Lint Reasons RFC](https://github.com/rust-lang/rfcs/pull/2383).
-* [disposition: merge] [Simpler alternative dbg!() macro](https://github.com/rust-lang/rfcs/pull/2361).
+* [disposition: merge] [Deny the `overflowing_literals` lint for the 2018 edition](https://github.com/rust-lang/rfcs/pull/2438).
+* [disposition: merge] [Lint reasons](https://github.com/rust-lang/rfcs/pull/2383).
+* [disposition: merge] [Simpler alternative `dbg!()` macro](https://github.com/rust-lang/rfcs/pull/2361).
+* [disposition: postpone] [Add futures and task system to libcore](https://github.com/rust-lang/rfcs/pull/2418).
+* [disposition: postpone] [Imply Option](https://github.com/rust-lang/rfcs/pull/2180).
 * [disposition: close] [Support long path names on all Windows versions](https://github.com/rust-lang/rfcs/pull/2188).
-* [disposition: postpone] [RFC: Imply Option](https://github.com/rust-lang/rfcs/pull/2180).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
@@ -105,60 +106,47 @@ decision. Express your opinions now.
 * [disposition: merge] [Move std::os::raw::c_void into libcore and re-export in libstd](https://github.com/rust-lang/rust/pull/53910).
 * [disposition: merge] [Limit the promotion of const fns to the libstd and the `rustc_promotable` attribute](https://github.com/rust-lang/rust/pull/53851).
 * [disposition: merge] [stabilize slice_align_to](https://github.com/rust-lang/rust/pull/53754).
-* [disposition: merge] [Tracking issue for a minimal subset of RFC 911, const fn](https://github.com/rust-lang/rust/issues/53555).
 * [disposition: merge] [resolve: Do not error on access to proc macros imported with `#[macro_use]`](https://github.com/rust-lang/rust/pull/53461).
 * [disposition: merge] [Add a implementation of `From` for converting `&'a Option<T>` into `Option<&'a T>`](https://github.com/rust-lang/rust/pull/53218).
 * [disposition: merge] [(Modules) Tracking issue for Picking a Module Path System variant](https://github.com/rust-lang/rust/issues/53130).
 * [disposition: merge] [(Modules) Tracking issue for `(use) crate_name::` paths without `extern crate`](https://github.com/rust-lang/rust/issues/53128).
-* [disposition: merge] [[eRFC] add -Z emit-stack-sizes](https://github.com/rust-lang/rust/pull/51946).
 * [disposition: merge] [non-lexical lifetimes (NLL) tracking issue](https://github.com/rust-lang/rust/issues/43234).
 
 ## New RFCs
 
-* [Lint for function call in `unwrap_or(..)` parameter](https://github.com/rust-lang/rfcs/issues/2536).
-* [RFC: Or patterns, i.e `Foo(Bar(x) | Baz(x))`](https://github.com/rust-lang/rfcs/pull/2535).
-* [RFC: Write References for Direct and Partial Initialization using &out T and &uninit T](https://github.com/rust-lang/rfcs/pull/2534).
-* [Keeping Secrets in Rust](https://github.com/rust-lang/rfcs/issues/2533).
-* [RFC: Associated type defaults and Default groups](https://github.com/rust-lang/rfcs/pull/2532).
-* [RFC: Hidden trait implementations](https://github.com/rust-lang/rfcs/pull/2529).
-* [Type-changing struct update syntax](https://github.com/rust-lang/rfcs/pull/2528).
-* [Support underscores as constant names](https://github.com/rust-lang/rfcs/pull/2526).
-* [RFC: Permit _ in type aliases](https://github.com/rust-lang/rfcs/pull/2524).
+* [`#[cfg_attr]` expanding to multiple attributes](https://github.com/rust-lang/rfcs/pull/2539).
 
 # Upcoming Events
 
 ### Online
 
-* [Sep 12. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Sep 12. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-* [Sep 19. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
-* [Sep 25. Rust Community Content Subteam Meeting](http://irc.mozilla.org&amp;sa=D&amp;usd=2&amp;usg=AFQjCNFzDENVr8E_TntlyEAFQlsfwEPMKA).
+* [Sep 19. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Sep 25. Rust Community Content Subteam Meeting at channel #rust-community](irc://irc.mozilla.org/rust-community).
 * [Sep 26. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-* [Sep 26. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
+* [Sep 26. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
 ### Europe
 
 * [Sep 14. Rome, IT - Rust Rome Meetup](https://www.meetup.com/it-IT/Rust-Roma/events/254404386/).
 * [Sep 18. Amsterdam, NL - Amsterdam Rust Meetup - Concurrency fundamentals, Tokio & WebAssembly](https://www.meetup.com/Rust-Amsterdam/events/253425558).
 * [Sep 18. Rapperswil-Jona, CH - Rapperswil-Jona, Zürichsee Meetup - Looking for a speaker](https://www.meetup.com/de-DE/Rust-Zurich/events/251682152/).
-* [Sep 18. Paris, FR - Rust Paris](http://www.meetup.com/Rust-Paris).
 * [Sep 19. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/253541005/).
 * [Sep 20. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxmbbc/).
 
 ### North America
 
-* [Sep 12. Boulder, US - Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/).
 * [Sep 13. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxmbrb/).
-* [Sep 13. Arlington, US - Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/253787454).
 * [Sep 13. San Diego, US - San Diego Rust September Meetup - WASM, "failure" library, or ???](https://www.meetup.com/San-Diego-Rust/events/253862312/).
 * [Sep 13. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/253965052/).
 * [Sep 16. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxmbvb/).
+* [Sep 17. Boston, US - September Meetup at VMware](https://www.meetup.com/BostonRust/events/254400823/).
 * [Sep 18. Denver, US - Denver Rust Meetup](https://www.meetup.com/Rust-Boulder-Denver/events/254386309/).
 * [Sep 19. Vancouver, CA - Vancouver Rust meetup - Study/Hack/Hang-out](https://www.meetup.com/Vancouver-Rust/events/dqldspyxmbzb/).
+* [Sep 20. Arlington, US - Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/253787454).
+* [Sep 23. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxmbfc/).
+* [Sep 24. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/events/mfglwpyxmbgc/).
+* [Sep 25. Dallas, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxmbhc/).
 * *[Oct 19 & 20. Ann Arbor, US - Rust Belt Rust 2018](https://rust-belt-rust.com/).*
-* [Sep 23. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View).
-* [Sep 24. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/).
-* [Sep 25. Dallas, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/).
 
 ### South America
 
@@ -173,9 +161,8 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Developer at Parity, Berlin](https://paritytech.io/jobs/).
-* [Rust Backend Engineer at Kraken, Remote](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105).
-* [Rust Lead Engineer at Setter, Torronto](https://setter.breezy.hr/p/880e8a830036-lead-engineer).
+* [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
+* [Software Engineer at VMRay, Bochum, DE](https://careers.vmray.com/apply-software-engineer-rust-en/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
