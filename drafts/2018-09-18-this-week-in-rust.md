@@ -81,27 +81,31 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [disposition: merge] [Deny the `overflowing_literals` lint for the 2018 edition](https://github.com/rust-lang/rfcs/pull/2438).
-* [disposition: merge] [Lint reasons](https://github.com/rust-lang/rfcs/pull/2383).
-* [disposition: merge] [Simpler alternative `dbg!()` macro](https://github.com/rust-lang/rfcs/pull/2361).
-* [disposition: postpone] [Add futures and task system to libcore](https://github.com/rust-lang/rfcs/pull/2418).
-* [disposition: postpone] [Imply Option](https://github.com/rust-lang/rfcs/pull/2180).
-* [disposition: close] [Support long path names on all Windows versions](https://github.com/rust-lang/rfcs/pull/2188).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Allow for opting out of ThinLTO and clean up LTO related cli flag handling.](https://github.com/rust-lang/rust/pull/53950).
-* [disposition: merge] [Move std::os::raw::c_void into libcore and re-export in libstd](https://github.com/rust-lang/rust/pull/53910).
+* [disposition: merge] [Fix camel case type warning for types with trailing underscores](https://github.com/rust-lang/rust/pull/54101).
 * [disposition: merge] [Limit the promotion of const fns to the libstd and the `rustc_promotable` attribute](https://github.com/rust-lang/rust/pull/53851).
-* [disposition: merge] [stabilize slice_align_to](https://github.com/rust-lang/rust/pull/53754).
-* [disposition: merge] [resolve: Do not error on access to proc macros imported with `#[macro_use]`](https://github.com/rust-lang/rust/pull/53461).
-* [disposition: merge] [Add a implementation of `From` for converting `&'a Option<T>` into `Option<&'a T>`](https://github.com/rust-lang/rust/pull/53218).
-* [disposition: merge] [(Modules) Tracking issue for Picking a Module Path System variant](https://github.com/rust-lang/rust/issues/53130).
-* [disposition: merge] [(Modules) Tracking issue for `(use) crate_name::` paths without `extern crate`](https://github.com/rust-lang/rust/issues/53128).
-* [disposition: merge] [non-lexical lifetimes (NLL) tracking issue](https://github.com/rust-lang/rust/issues/43234).
+* [disposition: merge] [Support an explicit annotation for marker traits](https://github.com/rust-lang/rust/pull/53693).
 
 ## New RFCs
 
-* [`#[cfg_attr]` expanding to multiple attributes](https://github.com/rust-lang/rfcs/pull/2539).
+* [RFC: Elide array size](https://github.com/rust-lang/rfcs/pull/2545).
+* [Make the turbofish syntax redundant](https://github.com/rust-lang/rfcs/pull/2544).
+* [syntactic sugar for `EnumVariant(())`](https://github.com/rust-lang/rfcs/issues/2543).
+* [Provide the llvm.is.constant/__builtin_constant_p intrinsic](https://github.com/rust-lang/rfcs/issues/2542).
+* [Use `T: ToString` for `thread::Builder::name`](https://github.com/rust-lang/rfcs/pull/2541).
+* [Add Duration::ZERO constant](https://github.com/rust-lang/rfcs/issues/2540).
+* [#[cfg_attr] expanding to multiple attributes](https://github.com/rust-lang/rfcs/pull/2539).
+* [Lint for function call in `unwrap_or(..)` parameter](https://github.com/rust-lang/rfcs/issues/2536).
+* [RFC: Or patterns, i.e `Foo(Bar(x) | Baz(x))`](https://github.com/rust-lang/rfcs/pull/2535).
+* [RFC: Write References for Direct and Partial Initialization using &out T and &uninit T](https://github.com/rust-lang/rfcs/pull/2534).
+* [Keeping Secrets in Rust](https://github.com/rust-lang/rfcs/issues/2533).
+* [RFC: Associated type defaults and Default groups](https://github.com/rust-lang/rfcs/pull/2532).
+* [RFC: Hidden trait implementations](https://github.com/rust-lang/rfcs/pull/2529).
+* [Type-changing struct update syntax](https://github.com/rust-lang/rfcs/pull/2528).
+* [Support underscores as constant names](https://github.com/rust-lang/rfcs/pull/2526).
+* [RFC: Permit _ in type aliases](https://github.com/rust-lang/rfcs/pull/2524).
 
 # Upcoming Events
 
