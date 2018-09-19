@@ -16,6 +16,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* 🎈🎉 [Announcing Rust 1.29](https://blog.rust-lang.org/2018/09/13/Rust-1.29.html). 🎉🎈
+* [Ripgrep is available as a package in Ubuntu 18.10](https://github.com/BurntSushi/ripgrep/pull/1054).
+* [WebRender is now enabled by default in Firefox Nightly on Windows 10 with Nvidia GPUs](https://groups.google.com/forum/#!topic/mozilla.dev.platform/x_sFbDgQJP0).
+* [RustConf 2018 closing keynote (blog post)](https://kyren.github.io/2018/09/14/rustconf-talk.html).
+* [Rising Tide: building a modular web framework in the open](https://rust-lang-nursery.github.io/wg-net/2018/09/11/tide.html).
+* [You can’t “turn off the borrow checker” in Rust](https://words.steveklabnik.com/you-can-t-turn-off-the-borrow-checker-in-rust).
+* [Measuring SmallVec footprint with Smallvectune](https://llogiq.github.io/2018/09/13/smallvec.html).
+* [How we organize a complex Rust codebase](https://blog.getseq.net/rust-at-datalust-how-we-organize-a-complex-rust-codebase/).
+* [Desktop apps with Rust (Electorn + WebAssembly)](https://speice.io/2018/09/isomorphic-apps.html).
+* [The Networking WG newsletter 1](https://internals.rust-lang.org/t/the-networking-working-group-newsletter-01/8391).
+
 # Crate of the Week
 
 This week's crate is [mtpng](https://github.com/brion/mtpng), a parallelized PNG encoder. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/454) for the suggestion!
@@ -31,7 +42,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [auto_impl has a few issues for beginners interested in working with the new proc macro API](https://users.rust-lang.org/t/twir-call-for-participation/4821/204).
+* [Rust office hours with Niko Matsakis](http://smallcultfollowing.com/babysteps/blog/2018/09/12/rust-office-hours/).
+* [rust: Panic in `Receiver::recv()`](https://github.com/rust-lang/rust/issues/39364).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -76,7 +88,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Amend RFC 2175 to support for loops and leading vert](https://github.com/rust-lang/rfcs/pull/2530).
+* [RFC 2361: Simpler alternative `dbg!()` macro](https://github.com/rust-lang/rfcs/pull/2361).
 
 ## Final Comment Period
 
@@ -91,60 +103,46 @@ decision. Express your opinions now.
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [Fix camel case type warning for types with trailing underscores](https://github.com/rust-lang/rust/pull/54101).
-* [disposition: merge] [Limit the promotion of const fns to the libstd and the `rustc_promotable` attribute](https://github.com/rust-lang/rust/pull/53851).
 * [disposition: merge] [Support an explicit annotation for marker traits](https://github.com/rust-lang/rust/pull/53693).
 
 ## New RFCs
 
-* [RFC: Elide array size](https://github.com/rust-lang/rfcs/pull/2545).
+* [Elide array size](https://github.com/rust-lang/rfcs/pull/2545).
 * [Make the turbofish syntax redundant](https://github.com/rust-lang/rfcs/pull/2544).
-* [syntactic sugar for `EnumVariant(())`](https://github.com/rust-lang/rfcs/issues/2543).
-* [Provide the llvm.is.constant/__builtin_constant_p intrinsic](https://github.com/rust-lang/rfcs/issues/2542).
 * [Use `T: ToString` for `thread::Builder::name`](https://github.com/rust-lang/rfcs/pull/2541).
-* [Add Duration::ZERO constant](https://github.com/rust-lang/rfcs/issues/2540).
-* [#[cfg_attr] expanding to multiple attributes](https://github.com/rust-lang/rfcs/pull/2539).
-* [Lint for function call in `unwrap_or(..)` parameter](https://github.com/rust-lang/rfcs/issues/2536).
-* [RFC: Or patterns, i.e `Foo(Bar(x) | Baz(x))`](https://github.com/rust-lang/rfcs/pull/2535).
-* [RFC: Write References for Direct and Partial Initialization using &out T and &uninit T](https://github.com/rust-lang/rfcs/pull/2534).
-* [Keeping Secrets in Rust](https://github.com/rust-lang/rfcs/issues/2533).
-* [RFC: Associated type defaults and Default groups](https://github.com/rust-lang/rfcs/pull/2532).
-* [RFC: Hidden trait implementations](https://github.com/rust-lang/rfcs/pull/2529).
-* [Type-changing struct update syntax](https://github.com/rust-lang/rfcs/pull/2528).
-* [Support underscores as constant names](https://github.com/rust-lang/rfcs/pull/2526).
-* [RFC: Permit _ in type aliases](https://github.com/rust-lang/rfcs/pull/2524).
 
 # Upcoming Events
 
 ### Online
 
-* [Sep 19. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Sep 25. Rust Community Content Subteam Meeting at channel #rust-community](irc://irc.mozilla.org/rust-community).
+* [Sep 25. Rust Community Content Subteam Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Sep 26. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Sep 26. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Oct 3. Rust Community Team Meeting at #rust-community on irc.mozilla.org](irc://irc.mozilla.org/rust-community).
+* [Oct 3. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
 ### Africa
 
-* [Oct 2. Johannesburg, SA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup).
+* [Oct 2. Johannesburg, SA - Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxnbdb/).
+
+### Asia
+
+* [Oct 3. Kuala Lumpur, MY - Rust Lang Meetup - Project X](https://www.facebook.com/events/190938831689130/).
 
 ### Europe
 
-* [Sep 19. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/253541005/).
-* [Sep 20. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxmbbc/).
-* [Oct 3. Vilnius, LT - Vilnius Rust Meetup #3 - Network Simulation and Web Assembly](https://www.meetup.com/Rust-in-Vilnius/events/254403141/).
-* [Oct 3. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/).
+* [Sep 27. Helsinki, FI - Rust is back with Embedded topics](https://www.meetup.com/Finland-Rust-Meetup/events/254758208/).
+* [Oct 3. Vilnius, LT - Vilnius Rust Meetup #3 - Network Simulation and WebAssembly](https://www.meetup.com/Rust-in-Vilnius/events/254403141/).
+* [Oct 3. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/xkdlvpyxnbfb/).
 
 ### North America
 
-* [Sep 19. Vancouver, CA - Vancouver Rust meetup - Study/Hack/Hang-out](https://www.meetup.com/Vancouver-Rust/events/dqldspyxmbzb/).
-* [Sep 20. Arlington, US - Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/253787454).
 * [Sep 23. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxmbfc/).
 * [Sep 24. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/events/mfglwpyxmbgc/).
 * [Sep 25. Dallas, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxmbhc/).
-* [Sep 30. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View).
-* [Oct 3. Indianopolis, US - Indy.rs](https://www.meetup.com/indyrs/events/246726699/).
-* [Oct 3. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/).
-* [Oct 3. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/).
+* [Sep 30. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxmbnc/).
+* [Oct 3. Indianopolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyxnbfb/).
+* [Oct 3. Atlanta, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/cbcmbqyxnbfb/).
+* [Oct 3. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/dqldspyxnbfb/).
 * **[Oct 19 & 20. Ann Arbor, US - Rust Belt Rust 2018](https://rust-belt-rust.com/).**
 
 
