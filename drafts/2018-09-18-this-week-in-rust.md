@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Postgres over TLS with the postgres crate, r2d2_postgres and openssl](https://matthewkmayer.github.io/blag/public/post/postgres-tls/)
+
 # Crate of the Week
 
 This week's crate is [mtpng](https://github.com/brion/mtpng), a parallelized PNG encoder. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/454) for the suggestion!
