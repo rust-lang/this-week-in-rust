@@ -133,6 +133,7 @@ decision. Express your opinions now.
 
 * [Sep 19. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/253541005/).
 * [Sep 20. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxmbbc/).
+* [Oct 1. Barcelona, ES - BcnRust Meetup](https://www.meetup.com/BcnRust/events/254655075/).
 * [Oct 3. Vilnius, LT - Vilnius Rust Meetup #3 - Network Simulation and Web Assembly](https://www.meetup.com/Rust-in-Vilnius/events/254403141/).
 * [Oct 3. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/).
 
