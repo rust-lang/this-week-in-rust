@@ -157,8 +157,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
-* [Software Engineer at VMRay, Bochum, DE](https://careers.vmray.com/apply-software-engineer-rust-en/).
+* [RustBelt is looking for postdocs and PhD students](https://plv.mpi-sws.org/rustbelt/#positions).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
