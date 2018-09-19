@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Measuring SmallVec footprint with Smallvectune](https://llogiq.github.io/2018/09/13/smallvec.html).
 * [How we organize a complex Rust codebase](https://blog.getseq.net/rust-at-datalust-how-we-organize-a-complex-rust-codebase/).
 * [Desktop apps with Rust (Electorn + WebAssembly)](https://speice.io/2018/09/isomorphic-apps.html).
+* [Postgres over TLS with the postgres crate, r2d2_postgres and openssl](https://matthewkmayer.github.io/blag/public/post/postgres-tls/).
 * [The Networking WG newsletter 1](https://internals.rust-lang.org/t/the-networking-working-group-newsletter-01/8391).
 
 # Crate of the Week
@@ -131,6 +132,7 @@ decision. Express your opinions now.
 ### Europe
 
 * [Sep 27. Helsinki, FI - Rust is back with Embedded topics](https://www.meetup.com/Finland-Rust-Meetup/events/254758208/).
+* [Oct 1. Barcelona, ES - BcnRust Meetup](https://www.meetup.com/BcnRust/events/254655075/).
 * [Oct 3. Vilnius, LT - Vilnius Rust Meetup #3 - Network Simulation and WebAssembly](https://www.meetup.com/Rust-in-Vilnius/events/254403141/).
 * [Oct 3. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/xkdlvpyxnbfb/).
 
