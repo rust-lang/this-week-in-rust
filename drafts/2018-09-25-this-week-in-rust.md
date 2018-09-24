@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Creating a robot for Eurobot in Rust : The context](https://blog.florencepaul.com/creating-a-robot-for-eurobot-part-1-context)
+
 # Crate of the Week
 
 This week's crate is [mtpng](https://github.com/brion/mtpng), a parallelized PNG encoder. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/454) for the suggestion!
