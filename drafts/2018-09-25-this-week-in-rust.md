@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Creating a robot for Eurobot in Rust : The context](https://blog.florencepaul.com/creating-a-robot-for-eurobot-part-1-context)
+
 # Crate of the Week
 
 This week's crate is [packed_simd](https://github.com/rust-lang-nursery/packed_simd), a crate with portable SIMD vector types. Thanks to [Gabriel Majeri](https://users.rust-lang.org/t/crate-of-the-week/2704/456) for the suggestion!
