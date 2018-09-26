@@ -16,7 +16,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-[Creating a robot for Eurobot in Rust : The context](https://blog.florencepaul.com/creating-a-robot-for-eurobot-part-1-context)
+* 🎈🎉 [Announcing Rust 1.29.1](https://blog.rust-lang.org/2018/09/25/Rust-1.29.1.html). 🎉🎈
+* [Citybound: Introducing live builds](http://aeplay.co/citybound-devblog/introducing-live-builds).
+* [The biggest wasm-pack release yet](https://rustwasm.github.io/2018/09/24/the-biggest-wasm-pack-release-yet.html).
+* [Office Hours with Niko Matsakis: Debugging with GDB](http://smallcultfollowing.com/babysteps/blog/2018/09/21/office-hours-0-debugging-with-gdb/).
+* [Office Hours with Niko Matsakis: Cyclic services](http://smallcultfollowing.com/babysteps/blog/2018/09/24/office-hours-1-cyclic-services/).
+* [Rust on iOS: How to](https://github.com/mtak-/rust-on-mobile/blob/master/examples/ios/example01.md).
+* [A Rust FFI adventure in unsafety](https://travisf.net/capstone-rs-unsafety-adventure).
+* [How to integrate Rust with C#](https://blog.getseq.net/rust-at-datalust-how-we-integrate-rust-with-csharp/).
+* [Rewriting a bash script in Rust](https://wiredforge.com/blog/misc/getpid/index.html).
+* [Creating a robot for Eurobot in Rust: The context](https://blog.florencepaul.com/creating-a-robot-for-eurobot-part-1-context).
+* [Incinerator: The ABA problem and concurrent reclamation](https://bzim.gitlab.io/blog/posts/incinerator-the-aba-problem-and-concurrent-reclamation.html).
 
 # Crate of the Week
 
@@ -33,6 +43,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Rust 2018 RC1 is available - please help test](https://internals.rust-lang.org/t/rust-2018-rc1-is-available/8435).
 * [Rust office hours with Niko Matsakis](http://smallcultfollowing.com/babysteps/blog/2018/09/12/rust-office-hours/).
 * [rust: Panic in `Receiver::recv()`](https://github.com/rust-lang/rust/issues/39364).
 
@@ -77,7 +88,9 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2361: Simpler alternative `dbg!()` macro](https://github.com/rust-lang/rfcs/pull/2361).
+* [RFC 2438: Deny the `overflowing_literals` lint for the 2018 edition](https://github.com/rust-lang/rfcs/pull/2438).
+* [RFC 2383: Lint Reasons](https://github.com/rust-lang/rfcs/pull/2383).
+* [RFC 2437: Rustfmt stability](https://github.com/rust-lang/rfcs/pull/2437).
 
 ## Final Comment Period
 
@@ -88,6 +101,8 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [disposition: merge] [The optimize attribute](https://github.com/rust-lang/rfcs/pull/2412).
+* [disposition: merge] [Or patterns, i.e `Foo(Bar(x) | Baz(x))`](https://github.com/rust-lang/rfcs/pull/2535).
+* [disposition: merge] [`#[cfg_attr]` expanding to multiple attributes](https://github.com/rust-lang/rfcs/pull/2539).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
@@ -98,39 +113,17 @@ decision. Express your opinions now.
 
 ## New RFCs
 
-* [Put HashMap's hasher in an Option and Default::default() it to None](https://github.com/rust-lang/rfcs/issues/2551).
-* [Iterator::folding](https://github.com/rust-lang/rfcs/issues/2550).
-* [RFC: Create Editorconfig File as Part of Cargo Project](https://github.com/rust-lang/rfcs/pull/2549).
-* [RFC: Associated type lifetime elision](https://github.com/rust-lang/rfcs/pull/2548).
-* [Trim methods on slices](https://github.com/rust-lang/rfcs/issues/2547).
-* [Expose a public unsafe API to spawn threads with unrestricted lifetime bounds](https://github.com/rust-lang/rfcs/issues/2546).
-* [RFC: Elide array size](https://github.com/rust-lang/rfcs/pull/2545).
-* [Make the turbofish syntax redundant](https://github.com/rust-lang/rfcs/pull/2544).
-* [syntactic sugar for `EnumVariant(())`](https://github.com/rust-lang/rfcs/issues/2543).
-* [Provide the llvm.is.constant/__builtin_constant_p intrinsic](https://github.com/rust-lang/rfcs/issues/2542).
-* [Use `T: ToString` for `thread::Builder::name`](https://github.com/rust-lang/rfcs/pull/2541).
-* [Add Duration::ZERO constant](https://github.com/rust-lang/rfcs/issues/2540).
-* [#[cfg_attr] expanding to multiple attributes](https://github.com/rust-lang/rfcs/pull/2539).
-* [Lint for function call in `unwrap_or(..)` parameter](https://github.com/rust-lang/rfcs/issues/2536).
-* [RFC: Or patterns, i.e `Foo(Bar(x) | Baz(x))`](https://github.com/rust-lang/rfcs/pull/2535).
-* [RFC: Write References for Direct and Partial Initialization using &out T and &uninit T](https://github.com/rust-lang/rfcs/pull/2534).
-* [Keeping Secrets in Rust](https://github.com/rust-lang/rfcs/issues/2533).
-* [RFC: Associated type defaults and Default groups](https://github.com/rust-lang/rfcs/pull/2532).
-* [RFC: Hidden trait implementations](https://github.com/rust-lang/rfcs/pull/2529).
-* [Type-changing struct update syntax](https://github.com/rust-lang/rfcs/pull/2528).
-* [Support underscores as constant names](https://github.com/rust-lang/rfcs/pull/2526).
-* [RFC: Permit _ in type aliases](https://github.com/rust-lang/rfcs/pull/2524).
+* [Create Editorconfig File as Part of Cargo Project](https://github.com/rust-lang/rfcs/pull/2549).
+* [Associated type lifetime elision](https://github.com/rust-lang/rfcs/pull/2548).
 
 # Upcoming Events
 
 ### Online
 
-* [Sep 26. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-* [Sep 26. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Oct 3. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Oct 9. Rust Community Content Subteam Meeting in IRC](https://www.google.com/url?q=http%3A%2F%2Firc.mozilla.org&amp;sa=D&amp;usd=2&amp;usg=AFQjCNFzDENVr8E_TntlyEAFQlsfwEPMKA).
-* [Oct 10. Rust Events Team Meeting in telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-* [Oct 10. Rust Community Team Meeting #rust-community on irc.mozilla.org](http://irc.mozilla.org).
+* [Oct 9. Rust Community Content Subteam Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Oct 10. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Oct 10. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
 ### Africa
 
@@ -138,14 +131,11 @@ decision. Express your opinions now.
 
 ### Asia
 
-* [Sep 29. Bangalore, IN - Diesel - A safe, extensible ORM and Query Builder](https://www.meetup.com/rustox/events/250769067/).
+* [Sep 30. Bangalore, IN - Diesel - A safe, extensible ORM and Query Builder](https://www.meetup.com/rustox/events/250769067/).
 * [Oct 3. Kuala Lumpur, MY - Rust Lang Meetup - Project X](https://www.facebook.com/events/190938831689130/).
-* [Oct 6. Bangalore, IN - Hyper: An HTTP library for Rust Sanchayan M.](https://www.meetup.com/rustox/).
 
 ### Europe
 
-* [Sep 26. Milan, IT - Milano - 8080 Emulator](https://www.meetup.com/rust-language-milano/events/254832595/).
-* [Sep 27. Helsinki, FI - Rust is back with Embedded topics](https://www.meetup.com/Finland-Rust-Meetup/events/254758208/).
 * [Oct 1. Barcelona, ES - BcnRust Meetup](https://www.meetup.com/BcnRust/events/254655075/).
 * [Oct 3. Vilnius, LT - Vilnius Rust Meetup #3 - Network Simulation and WebAssembly](https://www.meetup.com/Rust-in-Vilnius/events/254403141/).
 * [Oct 3. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/xkdlvpyxnbfb/).
@@ -156,11 +146,10 @@ decision. Express your opinions now.
 * [Oct 3. Indianopolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyxnbfb/).
 * [Oct 3. Atlanta, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/cbcmbqyxnbfb/).
 * [Oct 3. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/dqldspyxnbfb/).
-* [Oct 7. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View).
-* [Oct 8. Seattle, US  - Seattle Rust Meetup](http://www.meetup.com/Seattle-Rust-Meetup/).
-* [Oct 10. Boulder, US - Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/ ).
+* [Oct 7. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxnbkb/).
+* [Oct 8. Seattle, US  - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/pkggvpyxnblb/).
+* [Oc 11. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxnbpb/).
 * **[Oct 19 & 20. Ann Arbor, US - Rust Belt Rust 2018](https://rust-belt-rust.com/).**
-
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -171,6 +160,8 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Rust Software Engineer at VMRay, Bochum, DE](https://careers.vmray.com/apply-software-engineer-rust/).
+* [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
 * [RustBelt is looking for postdocs and PhD students](https://plv.mpi-sws.org/rustbelt/#positions).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
