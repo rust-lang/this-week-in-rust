@@ -19,8 +19,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * 🎈🎉 [Announcing Rust 1.29.1](https://blog.rust-lang.org/2018/09/25/Rust-1.29.1.html). 🎉🎈
 * [Citybound: Introducing live builds](http://aeplay.co/citybound-devblog/introducing-live-builds).
 * [The biggest wasm-pack release yet](https://rustwasm.github.io/2018/09/24/the-biggest-wasm-pack-release-yet.html).
-* [Office Hours with Niko Matsakis: Debugging with GDB](http://smallcultfollowing.com/babysteps/blog/2018/09/21/office-hours-0-debugging-with-gdb/).
-* [Office Hours with Niko Matsakis: Cyclic services](http://smallcultfollowing.com/babysteps/blog/2018/09/24/office-hours-1-cyclic-services/).
+* [Office hours with Niko Matsakis: Debugging with GDB](http://smallcultfollowing.com/babysteps/blog/2018/09/21/office-hours-0-debugging-with-gdb/).
+* [Office hours with Niko Matsakis: Cyclic services](http://smallcultfollowing.com/babysteps/blog/2018/09/24/office-hours-1-cyclic-services/).
 * [Rust on iOS: How to](https://github.com/mtak-/rust-on-mobile/blob/master/examples/ios/example01.md).
 * [A Rust FFI adventure in unsafety](https://travisf.net/capstone-rs-unsafety-adventure).
 * [How to integrate Rust with C#](https://blog.getseq.net/rust-at-datalust-how-we-integrate-rust-with-csharp/).
@@ -123,7 +123,6 @@ decision. Express your opinions now.
 * [Oct 3. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Oct 9. Rust Community Content Subteam Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Oct 10. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-* [Oct 10. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
 ### Africa
 
