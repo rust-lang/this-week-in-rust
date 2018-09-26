@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [mtpng](https://github.com/brion/mtpng), a parallelized PNG encoder. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/454) for the suggestion!
+This week's crate is [packed_simd](https://github.com/rust-lang-nursery/packed_simd), a crate with portable SIMD vector types. Thanks to [Gabriel Majeri](https://users.rust-lang.org/t/crate-of-the-week/2704/456) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -40,36 +40,34 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-131 pull requests were [merged in the last week][merged]
+154 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-09-10..2018-09-17
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-09-17..2018-09-24
 
-* [temporarily prohibit proc macro attributes placed after derives](https://github.com/rust-lang/rust/pull/54277)
-* [add target thumbv7a-pc-windows-msvc](https://github.com/rust-lang/rust/pull/53621)
-* [PowerPC: fix the calling convention for i1 arguments on PPC32](https://github.com/rust-lang/llvm/pull/127)
-* [allow for opting out of ThinLTO and clean up LTO related cli flag handling](https://github.com/rust-lang/rust/pull/53950)
-* [resolve: allow only core, std, meta and --extern in Rust 2018 paths](https://github.com/rust-lang/rust/pull/54116)
-* [resolve: do not error on access to proc macros imported with `#[macro_use]`](https://github.com/rust-lang/rust/pull/53461)
-* [add inspection and setter methods to proc_macro::Diagnostic](https://github.com/rust-lang/rust/pull/52896)
-* [support ascription for patterns in NLL](https://github.com/rust-lang/rust/pull/53873)
-* [allow named lifetimes in async functions](https://github.com/rust-lang/rust/pull/54000)
-* [suggest && and || instead of 'and' and 'or'](https://github.com/rust-lang/rust/pull/54181)
-* [use structured suggestion for "missing mut" label](https://github.com/rust-lang/rust/pull/54157)
-* [de-overlap the lifetimes of `flow_inits` and `flow_{un,ever_}inits`](https://github.com/rust-lang/rust/pull/54213)
-* [don't compute padding of braces unless they are unmatched](https://github.com/rust-lang/rust/pull/54092)
-* [don't suggest extra clone when converting cloned slice to Vec](https://github.com/rust-lang/rust/pull/54080)
-* [reexport `CheckLintNameResult`](https://github.com/rust-lang/rust/pull/54106)
-* [miri: keep around some information for dead allocations](https://github.com/rust-lang/rust/pull/54254)
-* [miri loop detector hashing](https://github.com/rust-lang/rust/pull/54076)
-* [fix some uses of pointer intrinsics with invalid pointers](https://github.com/rust-lang/rust/pull/53804)
-* [first step towards `u128` instead of `Const` in `PatternKind::Range`](https://github.com/rust-lang/rust/pull/51159)
-* [stabilize outlives requirements](https://github.com/rust-lang/rust/pull/53793)
-* [stabilize `#[used]`](https://github.com/rust-lang/rust/pull/51363)
-* [stabilize slice_align_to](https://github.com/rust-lang/rust/pull/53754)
-* [implement `tuple_struct_self_ctor`](https://github.com/rust-lang/rust/pull/53751) (RFC [#2302](https://rust-lang.github.io/rfcs/2302-tuple-struct-self-ctor.html))
-* [implement `map_or_else` for `Result<T, E>`](https://github.com/rust-lang/rust/pull/53777)
-* [add a implementation of `From` for converting `&'a Option<T>` into `Option<&'a T>`](https://github.com/rust-lang/rust/pull/53218)
-* [cargo: add empty ctrlc handler on Windows](https://github.com/rust-lang/cargo/pull/6004)
+* [switch linker for `aarch64-pc-windows-msvc` from LLD to MSVC](https://github.com/rust-lang/rust/pull/54290)
+* [remove (more) CAS API from Atomic* types where not natively supported](https://github.com/rust-lang/rust/pull/54280)
+* [parser: tweak function parameter parsing to avoid rollback on succesfull path](https://github.com/rust-lang/rust/pull/54415)
+* [improve handling of type bounds in `bit_set.rs`](https://github.com/rust-lang/rust/pull/54370)
+* [use `HybridBitSet` in `SparseBitMatrix`](https://github.com/rust-lang/rust/pull/54318)
+* [merge `bitvec.rs` and `indexed_set.rs`](https://github.com/rust-lang/rust/pull/54286)
+* [split `Liveness::users` into three](https://github.com/rust-lang/rust/pull/54211)
+* [compress `Liveness` data some more](https://github.com/rust-lang/rust/pull/54420)
+* [NLL: deduplicate errors for incorrect move in loop](https://github.com/rust-lang/rust/pull/53995)
+* [NLL: rework checking for borrows conflicting with drops](https://github.com/rust-lang/rust/pull/54509)
+* [report when borrow could cause `&mut` aliasing during Drop](https://github.com/rust-lang/rust/pull/54310)
+* [move `std::os::raw::c_void` into libcore and re-export in libstd](https://github.com/rust-lang/rust/pull/53910) and
+  [Re-export `core::ffi::c_void` if it exists](https://github.com/rust-lang/libc/pull/1082) (RFC [#2521](https://github.com/rust-lang/rfcs/pull/2521))
+* [make `rustc::middle::region::Scope`'s fields public](https://github.com/rust-lang/rust/pull/54260)
+* [miri: correctly compute expected alignment for field](https://github.com/rust-lang/rust/pull/54298)
+* [extend MIR inlining to all operand variants](https://github.com/rust-lang/rust/pull/54416)
+* [std: check for overflow in `str::repeat`](https://github.com/rust-lang/rust/pull/54399)
+* [switch wasm math symbols to their original names](https://github.com/rust-lang/rust/pull/54257)
+* [update to a new pinning API](https://github.com/rust-lang/rust/pull/53877)
+* [implement `[T]::copy_within`](https://github.com/rust-lang/rust/pull/53652)
+* [implement `MaybeUninit`](https://github.com/rust-lang/rust/pull/53508)
+* [`Duration` div mul extras](https://github.com/rust-lang/rust/pull/52813)
+* [cargo: fix missing messages when --message-format=json is deeply nested](https://github.com/rust-lang/cargo/pull/6081)
+* [cargo: fix incomplete conflict set backjump](https://github.com/rust-lang/cargo/pull/5988)
 
 ## Approved RFCs
 
@@ -177,11 +175,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Sometimes bad designs will fail faster in Rust
+> Rust beginners worrying about lifetimes is like kids worrying about quicksand. Both turn out to be a non-issue in life.
 
-– [Catherine West @ Rustconf](https://youtu.be/aKLntZcp27M?t=1444).
+– [frequentlywrong on r/rust](https://www.reddit.com/r/rust/comments/9i3xng/anyone_else_not_using_rust_until_nll/e6gsy90/).
 
-Thanks to [kornel](https://users.rust-lang.org/t/twir-quote-of-the-week/328/561) for the suggestion!
+Thanks to [pyfisch](https://users.rust-lang.org/t/twir-quote-of-the-week/328/562) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
