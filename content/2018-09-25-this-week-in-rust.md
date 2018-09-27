@@ -106,7 +106,7 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Impl From<NonZero<T>> for T](https://github.com/rust-lang/rust/pull/54240).
+* [disposition: merge] [Impl `From<NonZero<T>>` for `T`](https://github.com/rust-lang/rust/pull/54240).
 * [disposition: merge] [Tracking issue for eRFC 2497, "if- and while-let-chains, take 2", edition changes](https://github.com/rust-lang/rust/issues/53668).
 * [disposition: merge] [Tracking issue for RFC 2296, `Option::replace`](https://github.com/rust-lang/rust/issues/51998).
 * [disposition: close] [Tracking issue for channel selection](https://github.com/rust-lang/rust/issues/27800).
