@@ -88,21 +88,33 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
+* [disposition: merge] [#[cfg_attr] expanding to multiple attributes](https://github.com/rust-lang/rfcs/pull/2539).
+* [disposition: merge] [RFC: Or patterns, i.e `Foo(Bar(x) | Baz(x))`](https://github.com/rust-lang/rfcs/pull/2535).
+* [disposition: merge] [Support underscores as constant names](https://github.com/rust-lang/rfcs/pull/2526).
 * [disposition: merge] [The optimize attribute](https://github.com/rust-lang/rfcs/pull/2412).
-* [disposition: merge] [Or patterns, i.e `Foo(Bar(x) | Baz(x))`](https://github.com/rust-lang/rfcs/pull/2535).
-* [disposition: merge] [`#[cfg_attr]` expanding to multiple attributes](https://github.com/rust-lang/rfcs/pull/2539).
+* [disposition: close] [Prior doc comments](https://github.com/rust-lang/rfcs/pull/2374).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Impl From<NonZero<T>> for T](https://github.com/rust-lang/rust/pull/54240).
-* [disposition: merge] [Tracking issue for eRFC 2497, "if- and while-let-chains, take 2", edition changes](https://github.com/rust-lang/rust/issues/53668).
-* [disposition: merge] [Tracking issue for RFC 2296, `Option::replace`](https://github.com/rust-lang/rust/issues/51998).
-* [disposition: close] [Tracking issue for channel selection](https://github.com/rust-lang/rust/issues/27800).
+* [disposition: merge] [Tracking issue for RFC 2086: Allow Irrefutable Patterns in if-let and while-let statements](https://github.com/rust-lang/rust/issues/44495).
 
 ## New RFCs
 
-* [Create Editorconfig File as Part of Cargo Project](https://github.com/rust-lang/rfcs/pull/2549).
-* [Associated type lifetime elision](https://github.com/rust-lang/rfcs/pull/2548).
+* [Add bree-range-by](https://github.com/rust-lang/rfcs/pull/2553).
+* [RFC: Create Editorconfig File as Part of Cargo Project](https://github.com/rust-lang/rfcs/pull/2549).
+* [RFC: Associated type lifetime elision](https://github.com/rust-lang/rfcs/pull/2548).
+* [RFC: Elide array size](https://github.com/rust-lang/rfcs/pull/2545).
+* [Make the turbofish syntax redundant](https://github.com/rust-lang/rfcs/pull/2544).
+* [Use `T: ToString` for `thread::Builder::name`](https://github.com/rust-lang/rfcs/pull/2541).
+* [#[cfg_attr] expanding to multiple attributes](https://github.com/rust-lang/rfcs/pull/2539).
+* [RFC: Or patterns, i.e `Foo(Bar(x) | Baz(x))`](https://github.com/rust-lang/rfcs/pull/2535).
+* [RFC: Write References for Direct and Partial Initialization using &out T and &uninit T](https://github.com/rust-lang/rfcs/pull/2534).
+* [RFC: Associated type defaults and Default groups](https://github.com/rust-lang/rfcs/pull/2532).
+* [RFC: Hidden trait implementations](https://github.com/rust-lang/rfcs/pull/2529).
+* [Type-changing struct update syntax](https://github.com/rust-lang/rfcs/pull/2528).
+* [Support underscores as constant names](https://github.com/rust-lang/rfcs/pull/2526).
+* [RFC: Permit _ in type aliases](https://github.com/rust-lang/rfcs/pull/2524).
+
 
 # Upcoming Events
 
@@ -110,32 +122,40 @@ decision. Express your opinions now.
 
 * [Oct 3. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Oct 9. Rust Community Content Subteam Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Oct 9. Rust Community Content Subteam Meeting at channel #rust-community](irc://irc.mozilla.org/rust-community).
 * [Oct 10. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Oct 10. Rust Community Team Meeting at channel #rust-community](irc://irc.mozilla.org/rust-community).
+* [Oct 17. Rust Community Team Meeting at channel #rust-community](irc://irc.mozilla.org/rust-community).
 
 ### Africa
 
-* [Oct 2. Johannesburg, SA - Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxnbdb/).
 
 ### Asia
 
-* [Sep 30. Bangalore, IN - Diesel - A safe, extensible ORM and Query Builder](https://www.meetup.com/rustox/events/250769067/).
 * [Oct 3. Kuala Lumpur, MY - Rust Lang Meetup - Project X](https://www.facebook.com/events/190938831689130/).
+* [Oct 13. Bangalore, IN - Flat Buffers: What and How](https://www.meetup.com/rustox/events/254812229/).
 
 ### Europe
 
-* [Oct 1. Barcelona, ES - BcnRust Meetup](https://www.meetup.com/BcnRust/events/254655075/).
 * [Oct 3. Vilnius, LT - Vilnius Rust Meetup #3 - Network Simulation and WebAssembly](https://www.meetup.com/Rust-in-Vilnius/events/254403141/).
 * [Oct 3. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/xkdlvpyxnbfb/).
+* [Oct 8. Rome, IT - Rust Rome Meetup](https://www.meetup.com/it-IT/Rust-Roma/events/255137175/).
+* [Oct 9. Amsterdam, NL - Amsterdam Rust - Intro workshop & Hack night](https://www.meetup.com/Rust-Amsterdam/events/254791434/).
+* [Oct 17. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/255020858/).
 
 ### North America
 
-* [Sep 30. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxmbnc/).
 * [Oct 3. Indianopolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyxnbfb/).
 * [Oct 3. Atlanta, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/cbcmbqyxnbfb/).
 * [Oct 3. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/dqldspyxnbfb/).
 * [Oct 7. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxnbkb/).
 * [Oct 8. Seattle, US  - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/pkggvpyxnblb/).
-* [Oc 11. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxnbpb/).
+* [Oct 10. Boulder, US - Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/).
+* [Oct 11. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxnbpb/).
+* [Oct 11. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/).
+* [Oct 11. San Diego, US - San Diego Rust](http://meetu.ps/c/2vF0G/4DXV4/a).
+* [Oct 14. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View).
+* [Oct 17. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/).
 * **[Oct 19 & 20. Ann Arbor, US - Rust Belt Rust 2018](https://rust-belt-rust.com/).**
 
 If you are running a Rust event please add it to the [calendar] to get
