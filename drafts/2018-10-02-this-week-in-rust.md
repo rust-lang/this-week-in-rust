@@ -16,9 +16,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Announcing the web-sys crate](https://rustwasm.github.io/2018/09/26/announcing-web-sys.html)!
+* [The relative performance of C and Rust](http://dtrace.org/blogs/bmc/2018/09/28/the-relative-performance-of-c-and-rust/).
+* [Understanding compilers — for humans (version 2)](https://towardsdatascience.com/understanding-compilers-for-humans-version-2-157f0edb02dd).
+* [How I’ve found vulnerability in a popular Rust crate (and you can too)](https://medium.com/@shnatsel/how-ive-found-vulnerability-in-a-popular-rust-crate-and-you-can-too-3db081a67fb).
+* [lolbench: automagically and empirically discovering Rust performance regressions](https://blog.anp.lol/rust/2018/09/29/lolbench/).
+* [This week in Rust and WebAssembly 8](https://rustwasm.github.io/2018/10/01/this-week-in-rust-wasm-008.html).
+* [The embedded WG newsletter 12](https://rust-embedded.github.io/blog/2018-09-25-newsletter-12/).
+
 # Crate of the Week
 
-This week's crate is [packed_simd](https://github.com/rust-lang-nursery/packed_simd), a crate with portable SIMD vector types. Thanks to [Gabriel Majeri](https://users.rust-lang.org/t/crate-of-the-week/2704/456) for the suggestion!
+This week's crate is [Evcxr](https://github.com/google/evcxr), a Rust REPL and Rust Jupyter Kernel. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/457) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -31,9 +39,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Rust 2018 RC1 is available - please help test](https://internals.rust-lang.org/t/rust-2018-rc1-is-available/8435).
-* [Rust office hours with Niko Matsakis](http://smallcultfollowing.com/babysteps/blog/2018/09/12/rust-office-hours/).
-* [rust: Panic in `Receiver::recv()`](https://github.com/rust-lang/rust/issues/39364).
+* [easy] [winapi: Take advantage of the new Class trait](https://github.com/retep998/winapi-rs/issues/681).
+* [Crater now has a contributing guide and a few issues with mentoring instructions](https://github.com/rust-lang-nursery/crater/blob/master/CONTRIBUTING.md).
+* [Quinn has some good first issues, listed here](https://github.com/djc/quinn/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -41,34 +49,35 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-154 pull requests were [merged in the last week][merged]
+114 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-09-17..2018-09-24
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-09-24..2018-10-01
 
-* [switch linker for `aarch64-pc-windows-msvc` from LLD to MSVC](https://github.com/rust-lang/rust/pull/54290)
-* [remove (more) CAS API from Atomic* types where not natively supported](https://github.com/rust-lang/rust/pull/54280)
-* [parser: tweak function parameter parsing to avoid rollback on succesfull path](https://github.com/rust-lang/rust/pull/54415)
-* [improve handling of type bounds in `bit_set.rs`](https://github.com/rust-lang/rust/pull/54370)
-* [use `HybridBitSet` in `SparseBitMatrix`](https://github.com/rust-lang/rust/pull/54318)
-* [merge `bitvec.rs` and `indexed_set.rs`](https://github.com/rust-lang/rust/pull/54286)
-* [split `Liveness::users` into three](https://github.com/rust-lang/rust/pull/54211)
-* [compress `Liveness` data some more](https://github.com/rust-lang/rust/pull/54420)
-* [NLL: deduplicate errors for incorrect move in loop](https://github.com/rust-lang/rust/pull/53995)
-* [NLL: rework checking for borrows conflicting with drops](https://github.com/rust-lang/rust/pull/54509)
-* [report when borrow could cause `&mut` aliasing during Drop](https://github.com/rust-lang/rust/pull/54310)
-* [move `std::os::raw::c_void` into libcore and re-export in libstd](https://github.com/rust-lang/rust/pull/53910) and
-  [Re-export `core::ffi::c_void` if it exists](https://github.com/rust-lang/libc/pull/1082) (RFC [#2521](https://github.com/rust-lang/rfcs/pull/2521))
-* [make `rustc::middle::region::Scope`'s fields public](https://github.com/rust-lang/rust/pull/54260)
-* [miri: correctly compute expected alignment for field](https://github.com/rust-lang/rust/pull/54298)
-* [extend MIR inlining to all operand variants](https://github.com/rust-lang/rust/pull/54416)
-* [std: check for overflow in `str::repeat`](https://github.com/rust-lang/rust/pull/54399)
-* [switch wasm math symbols to their original names](https://github.com/rust-lang/rust/pull/54257)
-* [update to a new pinning API](https://github.com/rust-lang/rust/pull/53877)
-* [implement `[T]::copy_within`](https://github.com/rust-lang/rust/pull/53652)
-* [implement `MaybeUninit`](https://github.com/rust-lang/rust/pull/53508)
-* [`Duration` div mul extras](https://github.com/rust-lang/rust/pull/52813)
-* [cargo: fix missing messages when --message-format=json is deeply nested](https://github.com/rust-lang/cargo/pull/6081)
-* [cargo: fix incomplete conflict set backjump](https://github.com/rust-lang/cargo/pull/5988)
+* [Stabilize pattern_parentheses feature](https://github.com/rust-lang/rust/pull/54497).
+* [Support an explicit annotation for marker traits](https://github.com/rust-lang/rust/pull/53693).
+* [Better user experience when attempting to call associated functions with dot notation](https://github.com/rust-lang/rust/pull/54308).
+* [Add "temporary value borrowed for too long" error](https://github.com/rust-lang/rust/pull/54164).
+* [Remove `-Z disable_ast_check_for_mutation_in_guard`](https://github.com/rust-lang/rust/pull/54676).
+* [Add a `-C default-linker-libraries` option](https://github.com/rust-lang/rust/pull/54675).
+* [Implement the `dbg!(..)` macro](https://github.com/rust-lang/rust/pull/54317).
+* [Add -Z emit-stack-sizes](https://github.com/rust-lang/rust/pull/51946).
+* [`impl trait` in bindings (feature: impl-trait-existential-types](https://github.com/rust-lang/rust/pull/53542).
+* [Make "await" a pseudo-edition keyword](https://github.com/rust-lang/rust/pull/54411).
+* [Use full name to identify a macro in a `FileName`](https://github.com/rust-lang/rust/pull/54338).
+* [Introduce the partition_dedup/by/by_key methods for slices](https://github.com/rust-lang/rust/pull/54058).
+* [Rework how we handle outlives relationships](https://github.com/rust-lang/rust/pull/54453).
+* [NLL: Get Polonius borrow check to work in simple cases](https://github.com/rust-lang/rust/pull/54468).
+* [NLL: Be more permissive when checking access due to Match](https://github.com/rust-lang/rust/pull/53438).
+* [NLL: Rework checking for borrows conflicting with drops](https://github.com/rust-lang/rust/pull/54509).
+* [Don't lint non-extern-prelude extern crate's in Rust 2018](https://github.com/rust-lang/rust/pull/54650).
+* [Deny the `overflowing_literals` lint for the 2018 edition](https://github.com/rust-lang/rust/pull/54507).
+* [Rename slice::exact_chunks() to slice::chunks_exact()](https://github.com/rust-lang/rust/pull/54537).
+* [Avoid loading constructor attributes in AdtDef decoding](https://github.com/rust-lang/rust/pull/54485).
+* [Panic when using mem::uninitialized or mem::zeroed on an uninhabited type](https://github.com/rust-lang/rust/pull/54667).
+* [Improvements to finding LLVM's FileCheck](https://github.com/rust-lang/rust/pull/54558).
+* [In which we include attributes in unused `extern crate` suggestion spans](https://github.com/rust-lang/rust/pull/54488).
+* [In which inferable outlives-requirements are linted](https://github.com/rust-lang/rust/pull/53013).
+* [Add a per-tree error cache to the obligation forest](https://github.com/rust-lang/rust/pull/53255).
 
 ## Approved RFCs
 
@@ -76,9 +85,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2438: Deny the `overflowing_literals` lint for the 2018 edition](https://github.com/rust-lang/rfcs/pull/2438).
-* [RFC 2383: Lint Reasons](https://github.com/rust-lang/rfcs/pull/2383).
-* [RFC 2437: Rustfmt stability](https://github.com/rust-lang/rfcs/pull/2437).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -88,8 +95,8 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [#[cfg_attr] expanding to multiple attributes](https://github.com/rust-lang/rfcs/pull/2539).
-* [disposition: merge] [RFC: Or patterns, i.e `Foo(Bar(x) | Baz(x))`](https://github.com/rust-lang/rfcs/pull/2535).
+* [disposition: merge] [`#[cfg_attr]` expanding to multiple attributes](https://github.com/rust-lang/rfcs/pull/2539).
+* [disposition: merge] [Or patterns, i.e `Foo(Bar(x) | Baz(x))`](https://github.com/rust-lang/rfcs/pull/2535).
 * [disposition: merge] [Support underscores as constant names](https://github.com/rust-lang/rfcs/pull/2526).
 * [disposition: merge] [The optimize attribute](https://github.com/rust-lang/rfcs/pull/2412).
 * [disposition: close] [Prior doc comments](https://github.com/rust-lang/rfcs/pull/2374).
@@ -101,61 +108,34 @@ decision. Express your opinions now.
 ## New RFCs
 
 * [Add bree-range-by](https://github.com/rust-lang/rfcs/pull/2553).
-* [RFC: Create Editorconfig File as Part of Cargo Project](https://github.com/rust-lang/rfcs/pull/2549).
-* [RFC: Associated type lifetime elision](https://github.com/rust-lang/rfcs/pull/2548).
-* [RFC: Elide array size](https://github.com/rust-lang/rfcs/pull/2545).
-* [Make the turbofish syntax redundant](https://github.com/rust-lang/rfcs/pull/2544).
-* [Use `T: ToString` for `thread::Builder::name`](https://github.com/rust-lang/rfcs/pull/2541).
-* [#[cfg_attr] expanding to multiple attributes](https://github.com/rust-lang/rfcs/pull/2539).
-* [RFC: Or patterns, i.e `Foo(Bar(x) | Baz(x))`](https://github.com/rust-lang/rfcs/pull/2535).
-* [RFC: Write References for Direct and Partial Initialization using &out T and &uninit T](https://github.com/rust-lang/rfcs/pull/2534).
-* [RFC: Associated type defaults and Default groups](https://github.com/rust-lang/rfcs/pull/2532).
-* [RFC: Hidden trait implementations](https://github.com/rust-lang/rfcs/pull/2529).
-* [Type-changing struct update syntax](https://github.com/rust-lang/rfcs/pull/2528).
-* [Support underscores as constant names](https://github.com/rust-lang/rfcs/pull/2526).
-* [RFC: Permit _ in type aliases](https://github.com/rust-lang/rfcs/pull/2524).
-
 
 # Upcoming Events
 
 ### Online
 
-* [Oct 3. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Oct 9. Rust Community Content Subteam Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Oct 9. Rust Community Content Subteam Meeting at channel #rust-community](irc://irc.mozilla.org/rust-community).
 * [Oct 10. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-* [Oct 10. Rust Community Team Meeting at channel #rust-community](irc://irc.mozilla.org/rust-community).
-* [Oct 17. Rust Community Team Meeting at channel #rust-community](irc://irc.mozilla.org/rust-community).
-
-### Africa
-
+* [Oct 17. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
 ### Asia
 
-* [Oct 3. Kuala Lumpur, MY - Rust Lang Meetup - Project X](https://www.facebook.com/events/190938831689130/).
 * [Oct 13. Bangalore, IN - Flat Buffers: What and How](https://www.meetup.com/rustox/events/254812229/).
 
 ### Europe
 
-* [Oct 3. Vilnius, LT - Vilnius Rust Meetup #3 - Network Simulation and WebAssembly](https://www.meetup.com/Rust-in-Vilnius/events/254403141/).
-* [Oct 3. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/xkdlvpyxnbfb/).
 * [Oct 8. Rome, IT - Rust Rome Meetup](https://www.meetup.com/it-IT/Rust-Roma/events/255137175/).
 * [Oct 9. Amsterdam, NL - Amsterdam Rust - Intro workshop & Hack night](https://www.meetup.com/Rust-Amsterdam/events/254791434/).
 * [Oct 17. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/255020858/).
+* [Oct 18. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxnbxb/).
 
 ### North America
 
-* [Oct 3. Indianopolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyxnbfb/).
-* [Oct 3. Atlanta, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/cbcmbqyxnbfb/).
-* [Oct 3. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/dqldspyxnbfb/).
 * [Oct 7. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxnbkb/).
 * [Oct 8. Seattle, US  - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/pkggvpyxnblb/).
-* [Oct 10. Boulder, US - Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/).
 * [Oct 11. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxnbpb/).
-* [Oct 11. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/).
-* [Oct 11. San Diego, US - San Diego Rust](http://meetu.ps/c/2vF0G/4DXV4/a).
-* [Oct 14. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View).
-* [Oct 17. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/).
+* [Oct 11. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/255209633/).
+* [Oct 14. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxnbsb/).
+* [Oct 17. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/dqldspyxnbwb/).
 * **[Oct 19 & 20. Ann Arbor, US - Rust Belt Rust 2018](https://rust-belt-rust.com/).**
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -167,19 +147,14 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Software Engineer at VMRay, Bochum, DE](https://careers.vmray.com/apply-software-engineer-rust/).
+* [Compilers & distributed systems engineers in Australia](https://www.reddit.com/r/rust/comments/9kx94z/job_compilers_distributed_systems_engineers_in/).
 * [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
-* [RustBelt is looking for postdocs and PhD students](https://plv.mpi-sws.org/rustbelt/#positions).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> Rust beginners worrying about lifetimes is like kids worrying about quicksand. Both turn out to be a non-issue in life.
-
-– [frequentlywrong on r/rust](https://www.reddit.com/r/rust/comments/9i3xng/anyone_else_not_using_rust_until_nll/e6gsy90/).
-
-Thanks to [pyfisch](https://users.rust-lang.org/t/twir-quote-of-the-week/328/562) for the suggestion!
+*No quote was selected for QotW.*
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
