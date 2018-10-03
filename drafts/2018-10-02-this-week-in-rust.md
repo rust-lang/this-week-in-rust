@@ -167,6 +167,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Rust Engineer at The Graph, Remote](https://thegraph.com/careers?job=3#section3).
 * [Rust Software Engineer at VMRay, Bochum, DE](https://careers.vmray.com/apply-software-engineer-rust/).
 * [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
 * [RustBelt is looking for postdocs and PhD students](https://plv.mpi-sws.org/rustbelt/#positions).
