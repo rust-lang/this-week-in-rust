@@ -147,6 +147,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Rust Engineer at The Graph, Remote](https://thegraph.com/careers?job=3#section3).
 * [Compilers & distributed systems engineers in Australia](https://www.reddit.com/r/rust/comments/9kx94z/job_compilers_distributed_systems_engineers_in/).
 * [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
 
