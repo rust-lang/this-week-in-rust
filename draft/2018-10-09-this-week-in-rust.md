@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[comacro: a declarative building block for static analysis](http://blog.lambdaverse.org/comacro)
+
 # Crate of the Week
 
 This week's crate is [Evcxr](https://github.com/google/evcxr), a Rust REPL and Rust Jupyter Kernel. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/457) for the suggestion!
