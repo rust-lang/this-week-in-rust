@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [Evcxr](https://github.com/google/evcxr), a Rust REPL and Rust Jupyter Kernel. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/457) for the suggestion!
+This week's crate is [pest](https://pest.rs), a Parsing Expression Grammar-based parser library. Thanks to [CAD97](https://users.rust-lang.org/t/crate-of-the-week/2704/460) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -41,35 +41,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-114 pull requests were [merged in the last week][merged]
+136 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-09-24..2018-10-01
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-10-01..2018-10-08
 
-* [Stabilize pattern_parentheses feature](https://github.com/rust-lang/rust/pull/54497).
-* [Support an explicit annotation for marker traits](https://github.com/rust-lang/rust/pull/53693).
-* [Better user experience when attempting to call associated functions with dot notation](https://github.com/rust-lang/rust/pull/54308).
-* [Add "temporary value borrowed for too long" error](https://github.com/rust-lang/rust/pull/54164).
-* [Remove `-Z disable_ast_check_for_mutation_in_guard`](https://github.com/rust-lang/rust/pull/54676).
-* [Add a `-C default-linker-libraries` option](https://github.com/rust-lang/rust/pull/54675).
-* [Implement the `dbg!(..)` macro](https://github.com/rust-lang/rust/pull/54317).
-* [Add -Z emit-stack-sizes](https://github.com/rust-lang/rust/pull/51946).
-* [`impl trait` in bindings (feature: impl-trait-existential-types](https://github.com/rust-lang/rust/pull/53542).
-* [Make "await" a pseudo-edition keyword](https://github.com/rust-lang/rust/pull/54411).
-* [Use full name to identify a macro in a `FileName`](https://github.com/rust-lang/rust/pull/54338).
-* [Introduce the partition_dedup/by/by_key methods for slices](https://github.com/rust-lang/rust/pull/54058).
-* [Rework how we handle outlives relationships](https://github.com/rust-lang/rust/pull/54453).
-* [NLL: Get Polonius borrow check to work in simple cases](https://github.com/rust-lang/rust/pull/54468).
-* [NLL: Be more permissive when checking access due to Match](https://github.com/rust-lang/rust/pull/53438).
-* [NLL: Rework checking for borrows conflicting with drops](https://github.com/rust-lang/rust/pull/54509).
-* [Don't lint non-extern-prelude extern crate's in Rust 2018](https://github.com/rust-lang/rust/pull/54650).
-* [Deny the `overflowing_literals` lint for the 2018 edition](https://github.com/rust-lang/rust/pull/54507).
-* [Rename slice::exact_chunks() to slice::chunks_exact()](https://github.com/rust-lang/rust/pull/54537).
-* [Avoid loading constructor attributes in AdtDef decoding](https://github.com/rust-lang/rust/pull/54485).
-* [Panic when using mem::uninitialized or mem::zeroed on an uninhabited type](https://github.com/rust-lang/rust/pull/54667).
-* [Improvements to finding LLVM's FileCheck](https://github.com/rust-lang/rust/pull/54558).
-* [In which we include attributes in unused `extern crate` suggestion spans](https://github.com/rust-lang/rust/pull/54488).
-* [In which inferable outlives-requirements are linted](https://github.com/rust-lang/rust/pull/53013).
-* [Add a per-tree error cache to the obligation forest](https://github.com/rust-lang/rust/pull/53255).
+* [merge `proc_macro_` expansion feature gates as `proc_macro_hygiene`](https://github.com/rust-lang/rust/pull/52121)
+* [proptest basic validation](https://github.com/rust-lang/cargo/pull/6149)
+* [allow both explicit and elided lifetimes in the same impl header](https://github.com/rust-lang/rust/pull/54458)
+* [do not promote comparing function pointers](https://github.com/rust-lang/rust/pull/54702)
+* [nest the `impl Trait` existential item inside the return type](https://github.com/rust-lang/rust/pull/54741)
+* [do not normalize all non-scalar constants to a ConstValue::ScalarPair](https://github.com/rust-lang/rust/pull/54693)
+* [fix dead code lint for functions using `impl Trait`](https://github.com/rust-lang/rust/pull/54810)
+* [add suggestion for inverted function parameters](https://github.com/rust-lang/rust/pull/54804)
+* [suggest to use self for fake-self from other languages](https://github.com/rust-lang/rust/pull/54694)
+* [NLL: improve move error loop detection](https://github.com/rust-lang/rust/pull/54343)
+* [make NLL suggest "try removing `&mut` here"](https://github.com/rust-lang/rust/pull/54720)
+* [introduce `TyKind::UnnormalizedProjection`](https://github.com/rust-lang/rust/pull/54789)
+* [stabilize `min_const_fn`](https://github.com/rust-lang/rust/pull/54835)
+* [improve error message when trying to move from an Rc or Arc](https://github.com/rust-lang/rust/pull/54703)
+* [revisit work on cvoid](https://github.com/rust-lang/libc/pull/1086)
+* [fix Once perf regression](https://github.com/rust-lang/rust/pull/54662)
+* [make `CStr::from_bytes_with_nul_unchecked()` a const fn](https://github.com/rust-lang/rust/pull/54745)
+* [std: start implementing wasm32 atomics](https://github.com/rust-lang/rust/pull/54017)
+* [make `spec_extend` use `for_each()`](https://github.com/rust-lang/rust/pull/54761)
 
 ## Approved RFCs
 
@@ -146,7 +140,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> Rust is a Fast Programming Language. Rust programs are therefore “fast,” especially so if you write them with the correct observations to the arcane ley lines of birth and death known as “lifetimes,” and also remember to pass cargo the `--release` flag.
+
+– Adam Perry [blogging about lolbench](https://blog.anp.lol/rust/2018/09/29/lolbench)
+
+Thanks to [Pascal Hertleif](https://users.rust-lang.org/t/twir-quote-of-the-week/328/565) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
