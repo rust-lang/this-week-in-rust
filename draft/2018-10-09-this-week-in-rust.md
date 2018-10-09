@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 [comacro: a declarative building block for static analysis](http://blog.lambdaverse.org/comacro)
+[Remacs continues to improve](http://db48x.net/rust-remacs-2018/)
 
 # Crate of the Week
 
