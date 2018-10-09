@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[comacro: a declarative building block for static analysis](http://blog.lambdaverse.org/comacro)
+
 # Crate of the Week
 
 This week's crate is [pest](https://pest.rs), a Parsing Expression Grammar-based parser library. Thanks to [CAD97](https://users.rust-lang.org/t/crate-of-the-week/2704/460) for the suggestion!
