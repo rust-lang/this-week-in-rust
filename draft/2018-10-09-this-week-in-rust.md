@@ -113,6 +113,7 @@ decision. Express your opinions now.
 * [Oct 9. Amsterdam, NL - Amsterdam Rust - Intro workshop & Hack night](https://www.meetup.com/Rust-Amsterdam/events/254791434/).
 * [Oct 17. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/255020858/).
 * [Oct 18. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxnbxb/).
+* [Oct 25. Wroclaw, PL - Rust Wroclaw Meetup](https://www.meetup.com/Rust-Wroclaw/events/255053694/).
 
 ### North America
 
