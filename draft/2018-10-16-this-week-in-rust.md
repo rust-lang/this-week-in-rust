@@ -140,6 +140,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Rust Engineer at The Graph, Remote](https://thegraph.com/careers?job=3#section3).
 * [Software Engineer - Backend at Watchful, San Francisco](https://jobs.lever.co/watchful/7f502bc3-a91d-46fd-908f-19a9cefbb4b2).
 * [Rust Engineer at Standard Cognition, San Francisco](https://www.reddit.com/r/rust/comments/9ml170/job_create_high_performance_rust_systems/).
 * [Rust Software Engineer at IOHK (Remote work available)](https://iohk.recruiterbox.com/jobs/fk0177c).
