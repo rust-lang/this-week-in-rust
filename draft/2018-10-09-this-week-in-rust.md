@@ -37,6 +37,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [easy] [winapi: Take advantage of the new Class trait](https://github.com/retep998/winapi-rs/issues/681).
 * [Crater now has a contributing guide and a few issues with mentoring instructions](https://github.com/rust-lang-nursery/crater/blob/master/CONTRIBUTING.md).
 * [Quinn has some good first issues, listed here](https://github.com/djc/quinn/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+* [The imag project calls for contributors](https://imag-pim.org/blog/2018/10/10/call-for-participation-1/)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
