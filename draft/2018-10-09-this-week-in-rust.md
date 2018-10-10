@@ -26,6 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Hunting for bugs in Rust](https://blog.troutwine.us/2018/10/08/hunting-for-bugs-in-rust/).
 * [Who authors the most popular crates on crates.io](https://words.steveklabnik.com/who-authors-the-most-popular-crates-on-crates-io)?
 * [Rust's story for default arguments](https://medium.com/@softprops/default-values-copy-that-ae43831781f3).
+* [Remacs continues to improve](http://db48x.net/rust-remacs-2018/).
 * [Future directions for cbindgen (rust-ffi)](http://dreamingofbits.com/post/future-directions-for-cbindgen-rust-ffi/).
 * [The Embedded WG newsletter 13](https://rust-embedded.github.io/blog/2018-10-09-newsletter-13/).
 
@@ -46,6 +47,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [Announcing the Tokio doc blitz effort, we need your help](https://tokio.rs/blog/2018-10-doc-blitz/)!
 * [Rust Web Survey from from Networking Services WG](https://docs.google.com/forms/d/e/1FAIpQLSf9KCUs-8G87pHB08lM8-iXcDSY_VttOI0PvkKseHaZseCGGA/viewform).
+* [The imag project calls for contributors](https://imag-pim.org/blog/2018/10/10/call-for-participation-1/).
 * [macro_railroad: Update the parser for syn-0.15](https://github.com/lukaslueg/macro_railroad/issues/17). macro_railroad is a library to generate syntax diagrams for Rust macros.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
