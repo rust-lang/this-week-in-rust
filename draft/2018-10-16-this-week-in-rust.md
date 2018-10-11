@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Fixing a Clippy crash](https://phansch.net/2018/10/10/fixing-a-clippy-crash/).
+
 # Crate of the Week
 
 This week's crate is [pest](https://pest.rs), a Parsing Expression Grammar-based parser library. Thanks to [CAD97](https://users.rust-lang.org/t/crate-of-the-week/2704/460) for the suggestion!
