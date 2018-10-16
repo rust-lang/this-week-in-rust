@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [pest](https://pest.rs), a Parsing Expression Grammar-based parser library. Thanks to [CAD97](https://users.rust-lang.org/t/crate-of-the-week/2704/460) for the suggestion!
+This week's crate is [Noria](https://crates.io/crates/noria),  a new streaming data-flow system designed to act as a fast storage backend for read-heavy web applications. Thanks to [Stevensonmt](https://users.rust-lang.org/t/crate-of-the-week/2704/464) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -45,29 +45,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-136 pull requests were [merged in the last week][merged]
+124 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-10-01..2018-10-08
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-10-08..2018-10-15
 
-* [merge `proc_macro_` expansion feature gates as `proc_macro_hygiene`](https://github.com/rust-lang/rust/pull/52121)
-* [proptest basic validation](https://github.com/rust-lang/cargo/pull/6149)
-* [allow both explicit and elided lifetimes in the same impl header](https://github.com/rust-lang/rust/pull/54458)
-* [do not promote comparing function pointers](https://github.com/rust-lang/rust/pull/54702)
-* [nest the `impl Trait` existential item inside the return type](https://github.com/rust-lang/rust/pull/54741)
-* [do not normalize all non-scalar constants to a ConstValue::ScalarPair](https://github.com/rust-lang/rust/pull/54693)
-* [fix dead code lint for functions using `impl Trait`](https://github.com/rust-lang/rust/pull/54810)
-* [add suggestion for inverted function parameters](https://github.com/rust-lang/rust/pull/54804)
-* [suggest to use self for fake-self from other languages](https://github.com/rust-lang/rust/pull/54694)
-* [NLL: improve move error loop detection](https://github.com/rust-lang/rust/pull/54343)
-* [make NLL suggest "try removing `&mut` here"](https://github.com/rust-lang/rust/pull/54720)
-* [introduce `TyKind::UnnormalizedProjection`](https://github.com/rust-lang/rust/pull/54789)
-* [stabilize `min_const_fn`](https://github.com/rust-lang/rust/pull/54835)
-* [improve error message when trying to move from an Rc or Arc](https://github.com/rust-lang/rust/pull/54703)
-* [revisit work on cvoid](https://github.com/rust-lang/libc/pull/1086)
-* [fix Once perf regression](https://github.com/rust-lang/rust/pull/54662)
-* [make `CStr::from_bytes_with_nul_unchecked()` a const fn](https://github.com/rust-lang/rust/pull/54745)
-* [std: start implementing wasm32 atomics](https://github.com/rust-lang/rust/pull/54017)
-* [make `spec_extend` use `for_each()`](https://github.com/rust-lang/rust/pull/54761)
+* [rustc: allow targets to specify SIMD args are by-val](https://github.com/rust-lang/rust/pull/55024)
+* [stabilize tool lints](https://github.com/rust-lang/rust/pull/54870)
+* [user annotations in patterns](https://github.com/rust-lang/rust/pull/54757)
+* [`impl Eq+Hash for TyLayout`](https://github.com/rust-lang/rust/pull/54936)
+* [prepare miri engine for enforcing validity invariant during execution](https://github.com/rust-lang/rust/pull/54762)
+* [miri engine: fix run-time validation](https://github.com/rust-lang/rust/pull/54955)
+* [fix handling of `#[must_use]` on unit and uninhabited types](https://github.com/rust-lang/rust/pull/54920)
+* [`#[must_use]` for associated functions is supposed to actually work](https://github.com/rust-lang/rust/pull/55003)
+* [the `#[panic_handler]` attribute can be applied to non-functions](https://github.com/rust-lang/rust/pull/54997)
+* [NLL is missing struct field suggestion](https://github.com/rust-lang/rust/pull/54831)
+* [add chalk rules related to associated type defs](https://github.com/rust-lang/rust/pull/54909)
+* [better Diagnostic for Trait Object Capture](https://github.com/rust-lang/rust/pull/54848)
+* [structured suggestions for unused-lifetimes lint](https://github.com/rust-lang/rust/pull/54686)
+* [mir-inlining: don't inline virtual calls](https://github.com/rust-lang/rust/pull/55046)
+* [use `MaybeUninit` in liballoc](https://github.com/rust-lang/rust/pull/54924)
+* [stabilize the `Option::replace` method](https://github.com/rust-lang/rust/pull/54904)
+* [std: implement Thread-local storage for wasm32-unknown-unknown](https://github.com/rust-lang/rust/pull/54951)
+* [std: synchronize global allocator on wasm32](https://github.com/rust-lang/rust/pull/54950)
+* [rustdoc: fix mobile docs](https://github.com/rust-lang/rust/pull/54869)
 
 ## Approved RFCs
 
@@ -154,9 +154,9 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Rust is a Fast Programming Language. Rust programs are therefore “fast,” especially so if you write them with the correct observations to the arcane ley lines of birth and death known as “lifetimes,” and also remember to pass cargo the `--release` flag.
+> There actually are NOT very many places where the C code’s behavior conflicts with Rust’s borrowing rules. This is both somewhat surprising, because there’s no way this code was written with Rust’s borrowing semantics in mind, and also entirely sensible, since Rust’s borrowing semantics are often quite close to how you actually want your code to behave anyway.
 
-– Adam Perry [blogging about lolbench](https://blog.anp.lol/rust/2018/09/29/lolbench)
+– SimonHeath [porting C to Rust](https://wiki.alopex.li/PortingCToRust)
 
 Thanks to [Pascal Hertleif](https://users.rust-lang.org/t/twir-quote-of-the-week/328/565) for the suggestion!
 
