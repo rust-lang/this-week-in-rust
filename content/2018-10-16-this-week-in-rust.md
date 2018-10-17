@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust has a static garbage collector](https://words.steveklabnik.com/borrow-checking-escape-analysis-and-the-generational-hypothesis).
 * [Serverless Rust with Cloudflare Workers](https://blog.cloudflare.com/cloudflare-workers-as-a-serverless-rust-platform/).
 * [Notes on type layouts and ABIs in Rust](https://gankro.github.io/blah/rust-layouts-and-abis/).
-* [Game dev from zero - Part 1: Hello, Rust lang](https://hashnode.com/post/game-dev-from-zero-part-1-hello-rust-lang-cjn3brwto001jv7s2e533bdfc).
+* [Game dev from zero - part 1: Hello, Rust lang](https://hashnode.com/post/game-dev-from-zero-part-1-hello-rust-lang-cjn3brwto001jv7s2e533bdfc).
 * [Fixing a Clippy crash](https://phansch.net/2018/10/10/fixing-a-clippy-crash/).
 * [Handling configurations in a Rust app with envy](https://medium.com/@softprops/configuration-envy-a09584386705).
 * [Routing and extraction in Tide: a first sketch](https://rust-lang-nursery.github.io/wg-net/2018/10/16/tide-routing.html).
