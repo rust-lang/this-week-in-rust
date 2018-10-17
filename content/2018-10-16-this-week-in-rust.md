@@ -41,7 +41,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Rust Web Survey from from Networking Services WG](https://docs.google.com/forms/d/e/1FAIpQLSf9KCUs-8G87pHB08lM8-iXcDSY_VttOI0PvkKseHaZseCGGA/viewform).
+* [Rust Web Survey from Networking Services WG](https://docs.google.com/forms/d/e/1FAIpQLSf9KCUs-8G87pHB08lM8-iXcDSY_VttOI0PvkKseHaZseCGGA/viewform).
 * [Alpine Linux is looking for help with porting Rust to non-x86 architectures](https://lists.alpinelinux.org/alpine-devel/6295.html).
 * [Rav1e, an encoder for the new AV1 codec written in Rust, has some open issues for Hacktoberfest 2018](https://github.com/xiph/rav1e/projects/6).
 * [Call for participation in the Rust devroom at FOSDEM (2-3 Feb 2019, Brussels, Belgium)](https://rust-fosdem.github.io/).
@@ -171,4 +171,4 @@ Thanks to [Pascal Hertleif](https://users.rust-lang.org/t/twir-quote-of-the-week
 
 *This Week in Rust is edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [Flavsditz](https://github.com/Flavsditz).*
 
-<small>[Discuss on r/rust]().</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/9oyzci/this_week_in_rust_0x100/).</small>
