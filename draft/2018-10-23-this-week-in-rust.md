@@ -153,6 +153,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Rust Engineer at The Graph, Remote](https://thegraph.com/careers?job=3#section3).
 * [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
 * [Rust Developer at 1aim, Berlin](https://1aim.com/careers).
 * [Rust Engineer at Commure, Inc. (San Francisco, Boston, Montreal)](https://www.reddit.com/r/rust/comments/92e67g/commure_healthcare_software_startup_hiring_rust/).
