@@ -28,7 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [Noria](https://crates.io/crates/noria),  a new streaming data-flow system designed to act as a fast storage backend for read-heavy web applications. Thanks to [Stevensonmt](https://users.rust-lang.org/t/crate-of-the-week/2704/464) for the suggestion!
+This week's crate is [static-assertions](https://docs.rs/static_assertions), a crate that does what it says on the tin – allow you to write static assertions. Thanks to [llogiq](https://github.com/llogiq) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -52,29 +52,49 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-124 pull requests were [merged in the last week][merged]
+115 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-10-08..2018-10-15
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-10-15..2018-10-22
 
-* [rustc: allow targets to specify SIMD args are by-val](https://github.com/rust-lang/rust/pull/55024)
-* [stabilize tool lints](https://github.com/rust-lang/rust/pull/54870)
-* [user annotations in patterns](https://github.com/rust-lang/rust/pull/54757)
-* [`impl Eq+Hash for TyLayout`](https://github.com/rust-lang/rust/pull/54936)
-* [prepare miri engine for enforcing validity invariant during execution](https://github.com/rust-lang/rust/pull/54762)
-* [miri engine: fix run-time validation](https://github.com/rust-lang/rust/pull/54955)
-* [fix handling of `#[must_use]` on unit and uninhabited types](https://github.com/rust-lang/rust/pull/54920)
-* [`#[must_use]` for associated functions is supposed to actually work](https://github.com/rust-lang/rust/pull/55003)
-* [the `#[panic_handler]` attribute can be applied to non-functions](https://github.com/rust-lang/rust/pull/54997)
-* [NLL is missing struct field suggestion](https://github.com/rust-lang/rust/pull/54831)
-* [add chalk rules related to associated type defs](https://github.com/rust-lang/rust/pull/54909)
-* [better Diagnostic for Trait Object Capture](https://github.com/rust-lang/rust/pull/54848)
-* [structured suggestions for unused-lifetimes lint](https://github.com/rust-lang/rust/pull/54686)
 * [mir-inlining: don't inline virtual calls](https://github.com/rust-lang/rust/pull/55046)
-* [use `MaybeUninit` in liballoc](https://github.com/rust-lang/rust/pull/54924)
-* [stabilize the `Option::replace` method](https://github.com/rust-lang/rust/pull/54904)
-* [std: implement Thread-local storage for wasm32-unknown-unknown](https://github.com/rust-lang/rust/pull/54951)
-* [std: synchronize global allocator on wasm32](https://github.com/rust-lang/rust/pull/54950)
-* [rustdoc: fix mobile docs](https://github.com/rust-lang/rust/pull/54869)
+* [reject partial init and reinit of uninitialized data](https://github.com/rust-lang/rust/pull/54941)
+* [improve verify_llvm_ir config option](https://github.com/rust-lang/rust/pull/55031)
+* [add missing lifetime fragment specifier to error message](https://github.com/rust-lang/rust/pull/55025)
+* [rustc: fix (again) simd vectors by-val in ABI](https://github.com/rust-lang/rust/pull/55073)
+* [resolve: scale back hard-coded extern prelude additions on 2015 edition](https://github.com/rust-lang/rust/pull/54671)
+* [resolve: do not skip extern prelude during speculative resolution](https://github.com/rust-lang/rust/pull/55102)
+* [allow explicit matches on ! without warning](https://github.com/rust-lang/rust/pull/55119)
+* [deduplicate some code and compile-time values around vtables](https://github.com/rust-lang/rust/pull/55016)
+* [NLL: propagate bounds from generators](https://github.com/rust-lang/rust/pull/55013)
+* [NLL lacks various special case handling of closures](https://github.com/rust-lang/rust/pull/54976)
+* [NLL: fix migrate mode issue by not buffering lints](https://github.com/rust-lang/rust/pull/55135)
+* [NLL: change compare-mode=nll to use borrowck=migrate](https://github.com/rust-lang/rust/pull/55134)
+* [NLL: use new region infer errors when explaining borrows](https://github.com/rust-lang/rust/pull/55069)
+* [NLL type annotations in multisegment path](https://github.com/rust-lang/rust/pull/55093)
+* [add filtering option to `rustc_on_unimplemented` and reword `Iterator` E0277 errors](https://github.com/rust-lang/rust/pull/54946    )
+* [custom E0277 diagnostic for `Path`](https://github.com/rust-lang/rust/pull/54979)
+* [`unused_patterns` lint](https://github.com/rust-lang/rust/pull/54820)
+* [check the type of statics and constants for `Sized`ness](https://github.com/rust-lang/rust/pull/55004)
+* [miri: layout should not affect CTFE checks](https://github.com/rust-lang/rust/pull/55142)
+* [added graphviz visualization for obligation forests](https://github.com/rust-lang/rust/pull/54486)
+* [replace CanonicalVar with DebruijnIndex](https://github.com/rust-lang/rust/pull/52984)
+* [stabilize slice::chunks_exact(), chunks_exact_mut(), rchunks(), rchunks_mut(), rchunks_exact(), rchunks_exact_mut()](https://github.com/rust-lang/rust/pull/55178)
+* [add a `copysign` function to f32 and f64](https://github.com/rust-lang/rust/pull/55169)
+* [don't warn about parentheses on `match (return)`](https://github.com/rust-lang/rust/pull/55166)
+* [handle underscore bounds in unexpected places](https://github.com/rust-lang/rust/pull/55162)
+* [fix ICE and report a human readable error](https://github.com/rust-lang/rust/pull/55071)
+* [add slice::rchunks(), rchunks_mut(), rchunks_exact() and rchunks_exact_mut()](https://github.com/rust-lang/rust/pull/54580)
+* [unify multiple errors on single typo in match pattern](https://github.com/rust-lang/rust/pull/55156)
+* [fix LLVMRustInlineAsmVerify return type mismatch](https://github.com/rust-lang/rust/pull/55128)
+* [miri engine: hooks for basic stacked borrows](https://github.com/rust-lang/rust/pull/55125)
+* [add support for 'cargo check --all-features'](https://github.com/rust-lang/rust.vim/pull/265)
+* [cargo: add PackageError wrappers for activation errors](https://github.com/rust-lang/cargo/pull/6175)
+* [rustdoc: use dyn keyword when rendering dynamic traits](https://github.com/rust-lang/rust/pull/55077)
+* [rustdoc: don't prefer dynamic linking in doc tests](https://github.com/rust-lang/rust/pull/54939)
+* [rustdoc: add lint for doc without codeblocks](https://github.com/rust-lang/rust/pull/54349)
+* [detect if access to localStorage is forbidden by the user's browser](https://github.com/rust-lang/rust/pull/55080)
+* [librustdoc: disable spellcheck for search field](https://github.com/rust-lang/rust/pull/55161)
+* [crates.io: add a missing index on crates](https://github.com/rust-lang/crates.io/pull/1527)
 
 ## Approved RFCs
 
@@ -162,11 +182,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> There actually are NOT very many places where the C code’s behavior conflicts with Rust’s borrowing rules. This is both somewhat surprising, because there’s no way this code was written with Rust’s borrowing semantics in mind, and also entirely sensible, since Rust’s borrowing semantics are often quite close to how you actually want your code to behave anyway.
+> Panic is “pulling over to the side of the road” whereas crash is “running into a telephone pole”.
 
-– SimonHeath [porting C to Rust](https://wiki.alopex.li/PortingCToRust)
+– /u/zzzzYUPYUPphlumph [on /r/rust](https://www.reddit.com/r/rust/comments/9q3jqn/how_is_rust_safe_when_panics_can_happen_out_of/e86glzs/)
 
-Thanks to [Pascal Hertleif](https://users.rust-lang.org/t/twir-quote-of-the-week/328/565) for the suggestion!
+Thanks to [KillTheMule](https://users.rust-lang.org/t/twir-quote-of-the-week/328/570) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
