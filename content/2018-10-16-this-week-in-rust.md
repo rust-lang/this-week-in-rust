@@ -162,7 +162,7 @@ Email the [Rust Community Team][community] for access.
 
 – SimonHeath [porting C to Rust](https://wiki.alopex.li/PortingCToRust)
 
-Thanks to [Pascal Hertleif](https://users.rust-lang.org/t/twir-quote-of-the-week/328/565) for the suggestion!
+Thanks to [StyMaar](https://users.rust-lang.org/t/twir-quote-of-the-week/328/567) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
