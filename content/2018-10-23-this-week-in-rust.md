@@ -24,7 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Is Rust functional](https://www.fpcomplete.com/blog/2018/10/is-rust-functional)?
 * [Multithreading Rust and WebAssembly](https://rustwasm.github.io/2018/10/24/multithreading-rust-and-wasm.html).
 * [Rust has higher kinded types already... sort of](https://joshlf.com/post/2018/10/18/rust-higher-kinded-types-already/).
-* [Auth Web Microservice with rust using Actix-Web](https://hgill.io/posts/auth-microservice-rust-actix-web-diesel-complete-tutorial-part-1/).
+* [Auth web microservice with Rust using actix-web](https://hgill.io/posts/auth-microservice-rust-actix-web-diesel-complete-tutorial-part-1/).
 
 # Crate of the Week
 
@@ -161,6 +161,7 @@ decision. Express your opinions now.
 * [Nov  8. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/255209655/).
 * [Nov  8. Arlington, US - Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/254871472).
 * [Nov  8. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxpblb/).
+* [Nov  8. Boston, US - Rust/Scala meetup at SPLASH conf](https://www.meetup.com/BostonRust/events/255445951/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -172,9 +173,6 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Rust Engineer at The Graph, Remote](https://thegraph.com/careers?job=3#section3).
-* [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
-* [Rust Developer at 1aim, Berlin](https://1aim.com/careers).
-* [Rust Engineer at Commure, Inc. (San Francisco, Boston, Montreal)](https://www.reddit.com/r/rust/comments/92e67g/commure_healthcare_software_startup_hiring_rust/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
