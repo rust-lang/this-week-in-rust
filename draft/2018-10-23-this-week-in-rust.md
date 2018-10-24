@@ -16,15 +16,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* 🎈🎉 [Announcing Rust 1.29.2](https://blog.rust-lang.org/2018/10/12/Rust-1.29.2.html). 🎉🎈
-* [Rust has a static garbage collector](https://words.steveklabnik.com/borrow-checking-escape-analysis-and-the-generational-hypothesis).
-* [Serverless Rust with Cloudflare Workers](https://blog.cloudflare.com/cloudflare-workers-as-a-serverless-rust-platform/).
-* [Notes on type layouts and ABIs in Rust](https://gankro.github.io/blah/rust-layouts-and-abis/).
-* [Game dev from zero - part 1: Hello, Rust lang](https://hashnode.com/post/game-dev-from-zero-part-1-hello-rust-lang-cjn3brwto001jv7s2e533bdfc).
-* [Fixing a Clippy crash](https://phansch.net/2018/10/10/fixing-a-clippy-crash/).
-* [Handling configurations in a Rust app with envy](https://medium.com/@softprops/configuration-envy-a09584386705).
-* [Routing and extraction in Tide: a first sketch](https://rust-lang-nursery.github.io/wg-net/2018/10/16/tide-routing.html).
-* [Amethyst is growing; news on ongoing projects](https://www.amethyst.rs/blog/dev-news-10-2018/).
+* [Writing an OS in Rust: Hardware interrupts](https://os.phil-opp.com/hardware-interrupts/).
+* [Towards fearless SIMD](https://raphlinus.github.io/rust/simd/2018/10/19/fearless-simd.html).
+* [Shifgrethor I: Garbage collection as a Rust library](https://boats.gitlab.io/blog/post/shifgrethor-i/).
+* [Update on the October 15, 2018 incident on crates.io](https://blog.rust-lang.org/2018/10/19/Update-on-crates.io-incident.html).
+* [docs.rs is now part of the rust-lang-nursery organization](https://github.com/rust-lang-nursery/docs.rs).
+* [Is Rust functional](https://www.fpcomplete.com/blog/2018/10/is-rust-functional)?
+* [Multithreading Rust and WebAssembly](https://rustwasm.github.io/2018/10/24/multithreading-rust-and-wasm.html).
+* [Rust has higher kinded types already... sort of](https://joshlf.com/post/2018/10/18/rust-higher-kinded-types-already/).
+* [Auth Web Microservice with rust using Actix-Web](https://hgill.io/posts/auth-microservice-rust-actix-web-diesel-complete-tutorial-part-1/).
 
 # Crate of the Week
 
@@ -41,10 +41,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Rust Web Survey from Networking Services WG](https://docs.google.com/forms/d/e/1FAIpQLSf9KCUs-8G87pHB08lM8-iXcDSY_VttOI0PvkKseHaZseCGGA/viewform).
-* [Alpine Linux is looking for help with porting Rust to non-x86 architectures](https://lists.alpinelinux.org/alpine-devel/6295.html).
-* [Rav1e, an encoder for the new AV1 codec written in Rust, has some open issues for Hacktoberfest 2018](https://github.com/xiph/rav1e/projects/6).
-* [Call for participation in the Rust devroom at FOSDEM (2-3 Feb 2019, Brussels, Belgium)](https://rust-fosdem.github.io/).
+* [toml: External enum serialization](https://github.com/alexcrichton/toml-rs/pull/267).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -82,7 +79,8 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2476: Clippy 1.0](https://github.com/rust-lang/rfcs/pull/2476).
+* [RFC 2514: Union initialization and Drop](https://github.com/rust-lang/rfcs/pull/2514).
 
 ## Final Comment Period
 
@@ -92,57 +90,57 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Clippy 1.0](https://github.com/rust-lang/rfcs/pull/2476).
+* [disposition: merge] [Re-Rebalancing Coherence](https://github.com/rust-lang/rfcs/pull/2451).
 * [disposition: merge] [Allow non-ASCII identifiers](https://github.com/rust-lang/rfcs/pull/2457).
-* [disposition: merge] [Formatting guidelines](https://github.com/rust-lang/rfcs/pull/2436).
+* [disposition: merge] [Meta-RFC: Future possibilities](https://github.com/rust-lang/rfcs/pull/2561).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [Report const eval error inside the query](https://github.com/rust-lang/rust/pull/53821).
-* [disposition: close] [Introduce the `Result::into_inner` method](https://github.com/rust-lang/rust/pull/54219).
+* [disposition: merge] [Unchecked thread spawning](https://github.com/rust-lang/rust/pull/55043).
+* [disposition: merge] [Implement FromStr for PathBuf](https://github.com/rust-lang/rust/pull/55148).
+* [disposition: close] [Regression from stable: pointer to usize conversion no longer compiles](https://github.com/rust-lang/rust/issues/54709).
 
 ## New RFCs
 
-* [Meta-RFC: Future work](https://github.com/rust-lang/rfcs/pull/2561).
-* [Attributes in formal function parameter position](https://github.com/rust-lang/rfcs/pull/2565).
+* [SIMD vectors in FFI](https://github.com/rust-lang/rfcs/pull/2574).
+* [flat_map as an alias for and_then](https://github.com/rust-lang/rfcs/pull/2572).
+* [Linked list cursors](https://github.com/rust-lang/rfcs/pull/2570).
 
 # Upcoming Events
 
 ### Online
 
-* [Oct 22. Rust Community Content Subteam Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Oct 24. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Oct 31. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Nov  5. Rust Community Content Subteam Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Nov  7. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 
 ### Africa
 
 * [Oct 27. Nairobi, KE - HACK & LEARN: Hacktoberfest Edition](https://www.meetup.com/Rust-Nairobi/events/255546089).
-
-### Asia
-
-* [Oct 27. St. Petersburg, RU - Неформальная встреча Rust-разработчиков](https://www.meetup.com/Rust-%D0%B2-%D0%9F%D0%B8%D1%82%D0%B5%D1%80%D0%B5/events/nhpkmpyxnbkc).
+* [Nov  6. Johannesburg, SA - Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxpbjb/).
 
 ### Europe
 
-* [Oct 18. Oslo, NO - Fuzzing and property-based testing in Rust](https://www.meetup.com/Rust-Oslo/events/254830021/).
-* [Oct 18. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxnbxb/).
-* [Oct 24. Zurich, CH - Rust Zurich - Atomics](https://www.meetup.com/Rust-Zurich/events/255279862/).
-* [Oct 25. Wroclaw, PL - Rust Wroclaw Meetup](https://www.meetup.com/Rust-Wroclaw/events/255053694/).
+* [Oct 27. St. Petersburg, RU - Неформальная встреча Rust-разработчиков](https://www.meetup.com/Rust-%D0%B2-%D0%9F%D0%B8%D1%82%D0%B5%D1%80%D0%B5/events/nhpkmpyxnbkc).
 * [Oct 30. Paris, FR - Rust Paris meetup #43](https://www.meetup.com/Rust-Paris/events/255604978).
 * [Oct 31. Prague, CZ - Prague Containers Meetup - The way of Rust](https://www.meetup.com/Prague-Containers-Meetup/events/251325363/).
 * [Oct 31. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyxnbpc/).
+* [Oct 31. Milan, IT - Rust Language Milano - Rust Exercises](https://www.meetup.com/rust-language-milano/events/255737296/).
+* [Nov  7. Stuttgart, DE - Rust in der Industrie & Automatisierung](https://www.meetup.com/slowtec/events/255390000/).
+* [Nov  7. Cologne, DE - Rust Cologne](https://www.meetup.com/RustCologne/events/vnwndpyxpbkb/).
 
 ### North America
 
-* [Oct 18. Ann Arbor, US - Pre Rust Belt Impl Day](https://rust-belt-rust.com/).
-* [Oct 19 & 20. Ann Arbor, US - Rust Belt Rust 2018](https://rust-belt-rust.com/).
-* [Oct 20 & 21. Vancouver, CA - Vancouver Rust Hackathon](https://www.eventbrite.ca/e/vancouver-rust-hackathon-tickets-50012680273).
-* [Oct 21. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxnbcc/).
-* [Oct 22. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/events/mfglwpyxnbdc/).
-* [Oct 23. Chicago, US - The Rust Ecosystem: What to Know After "Hello World"](https://www.meetup.com/Chicago-Rust-Meetup/events/255066746).
 * [Oct 28. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxnblc/).
 * [Oct 30. Dallas, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxnbnc/).
 * [Oct 31. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/xttphqyxnbpc/).
+* [Nov  4. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxpbgb/).
+* [Nov  7. Atlanta, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/cbcmbqyxpbkb/).
+* [Nov  7. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyxpbkb/).
+* [Nov  8. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/255209655/).
+* [Nov  8. Arlington, US - Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/254871472).
+* [Nov  8. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxpblb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
