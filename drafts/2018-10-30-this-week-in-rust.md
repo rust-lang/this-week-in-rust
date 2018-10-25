@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Jim Blandy interview on mastering moves and borrows](https://corecursive.com/016-moves-and-borrowing-in-rust-with-jim-blandy/).
 
 # Crate of the Week
 
