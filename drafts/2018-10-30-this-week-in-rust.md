@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [static-assertions](https://docs.rs/static_assertions), a crate that does what it says on the tin – allow you to write static assertions. Thanks to [llogiq](https://github.com/llogiq) for the suggestion!
+This week's crate is [dutree](https://github.com/nachoparker/dutree), a command line tool that produces a colorful tree view of your disk usage. Thanks to [gilescope](https://users.rust-lang.org/t/crate-of-the-week/2704/466) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -39,49 +39,41 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-115 pull requests were [merged in the last week][merged]
+131 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-10-15..2018-10-22
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-10-22..2018-10-29
 
-* [mir-inlining: don't inline virtual calls](https://github.com/rust-lang/rust/pull/55046)
-* [reject partial init and reinit of uninitialized data](https://github.com/rust-lang/rust/pull/54941)
-* [improve verify_llvm_ir config option](https://github.com/rust-lang/rust/pull/55031)
-* [add missing lifetime fragment specifier to error message](https://github.com/rust-lang/rust/pull/55025)
-* [rustc: fix (again) simd vectors by-val in ABI](https://github.com/rust-lang/rust/pull/55073)
-* [resolve: scale back hard-coded extern prelude additions on 2015 edition](https://github.com/rust-lang/rust/pull/54671)
-* [resolve: do not skip extern prelude during speculative resolution](https://github.com/rust-lang/rust/pull/55102)
-* [allow explicit matches on ! without warning](https://github.com/rust-lang/rust/pull/55119)
-* [deduplicate some code and compile-time values around vtables](https://github.com/rust-lang/rust/pull/55016)
-* [NLL: propagate bounds from generators](https://github.com/rust-lang/rust/pull/55013)
-* [NLL lacks various special case handling of closures](https://github.com/rust-lang/rust/pull/54976)
-* [NLL: fix migrate mode issue by not buffering lints](https://github.com/rust-lang/rust/pull/55135)
-* [NLL: change compare-mode=nll to use borrowck=migrate](https://github.com/rust-lang/rust/pull/55134)
-* [NLL: use new region infer errors when explaining borrows](https://github.com/rust-lang/rust/pull/55069)
-* [NLL type annotations in multisegment path](https://github.com/rust-lang/rust/pull/55093)
-* [add filtering option to `rustc_on_unimplemented` and reword `Iterator` E0277 errors](https://github.com/rust-lang/rust/pull/54946    )
-* [custom E0277 diagnostic for `Path`](https://github.com/rust-lang/rust/pull/54979)
-* [`unused_patterns` lint](https://github.com/rust-lang/rust/pull/54820)
-* [check the type of statics and constants for `Sized`ness](https://github.com/rust-lang/rust/pull/55004)
-* [miri: layout should not affect CTFE checks](https://github.com/rust-lang/rust/pull/55142)
-* [added graphviz visualization for obligation forests](https://github.com/rust-lang/rust/pull/54486)
-* [replace CanonicalVar with DebruijnIndex](https://github.com/rust-lang/rust/pull/52984)
-* [stabilize slice::chunks_exact(), chunks_exact_mut(), rchunks(), rchunks_mut(), rchunks_exact(), rchunks_exact_mut()](https://github.com/rust-lang/rust/pull/55178)
-* [add a `copysign` function to f32 and f64](https://github.com/rust-lang/rust/pull/55169)
-* [don't warn about parentheses on `match (return)`](https://github.com/rust-lang/rust/pull/55166)
-* [handle underscore bounds in unexpected places](https://github.com/rust-lang/rust/pull/55162)
-* [fix ICE and report a human readable error](https://github.com/rust-lang/rust/pull/55071)
-* [add slice::rchunks(), rchunks_mut(), rchunks_exact() and rchunks_exact_mut()](https://github.com/rust-lang/rust/pull/54580)
-* [unify multiple errors on single typo in match pattern](https://github.com/rust-lang/rust/pull/55156)
-* [fix LLVMRustInlineAsmVerify return type mismatch](https://github.com/rust-lang/rust/pull/55128)
-* [miri engine: hooks for basic stacked borrows](https://github.com/rust-lang/rust/pull/55125)
-* [add support for 'cargo check --all-features'](https://github.com/rust-lang/rust.vim/pull/265)
-* [cargo: add PackageError wrappers for activation errors](https://github.com/rust-lang/cargo/pull/6175)
-* [rustdoc: use dyn keyword when rendering dynamic traits](https://github.com/rust-lang/rust/pull/55077)
-* [rustdoc: don't prefer dynamic linking in doc tests](https://github.com/rust-lang/rust/pull/54939)
-* [rustdoc: add lint for doc without codeblocks](https://github.com/rust-lang/rust/pull/54349)
-* [detect if access to localStorage is forbidden by the user's browser](https://github.com/rust-lang/rust/pull/55080)
-* [librustdoc: disable spellcheck for search field](https://github.com/rust-lang/rust/pull/55161)
-* [crates.io: add a missing index on crates](https://github.com/rust-lang/crates.io/pull/1527)
+* [compile the libstd we distribute with `-Ccodegen-unit=1`](https://github.com/rust-lang/rust/pull/55264)
+* [implement by-value object safety](https://github.com/rust-lang/rust/pull/54183)
+* [report const eval error inside the query](https://github.com/rust-lang/rust/pull/53821)
+* [path suggestions in Rust 2018 should point out the change in semantics](https://github.com/rust-lang/rust/pull/55185)
+* [suggest appropriate syntax on missing lifetime specifier in return type](https://github.com/rust-lang/rust/pull/55173)
+* [Macro diagnostics tweaks](https://github.com/rust-lang/rust/pull/55292)
+* [list allowed tokens after macro fragments](https://github.com/rust-lang/rust/pull/55301)
+* [make unused-parens suggestions heed what the user actually wrote](https://github.com/rust-lang/rust/pull/55138)
+* [fix suggestion on renamed import conflict](https://github.com/rust-lang/rust/pull/55113)
+* [suggest to remove prefix `b` in cfg attribute lint string](https://github.com/rust-lang/rust/pull/54929)
+* [lint reasons](https://github.com/rust-lang/rust/pull/54683) (RFC #[2383](https://rust-lang.github.io/rfcs/2383-lint-reasons.html), part 1)
+* [point at macro definition when no rules expect token](https://github.com/rust-lang/rust/pull/55298)
+* [fix an ICE in the min_const_fn analysis](https://github.com/rust-lang/rust/pull/55412)
+* [avoid unnecessary allocations in `float_lit` and `integer_lit`](https://github.com/rust-lang/rust/pull/55384)
+* [add a "cheap" mode for `compute_missing_ctors`](https://github.com/rust-lang/rust/pull/55167)
+* [use `SmallVec` for the queue in `coerce_unsized`](https://github.com/rust-lang/rust/pull/55383)
+* [shrink `Statement`](https://github.com/rust-lang/rust/pull/55346)
+* [introduce type-op for user-type ascription in NLL](https://github.com/rust-lang/rust/pull/55323)
+* [NLL: cast causes failure to promote to static](https://github.com/rust-lang/rust/pull/55385)
+* [rustc: tweak filenames encoded into metadata](https://github.com/rust-lang/rust/pull/54626)
+* [unimplement ExactSizeIterator for MIR traversing iterators](https://github.com/rust-lang/rust/pull/55271)
+* [miri engine: stacked Borrows NG](https://github.com/rust-lang/rust/pull/55270)
+* [validity: assert that unions are non-empty](https://github.com/rust-lang/rust/pull/55379)
+* [allow extern statics with an extern type](https://github.com/rust-lang/rust/pull/55257)
+* [add `extern crate` items to extern prelude](https://github.com/rust-lang/rust/pull/54658)
+* [rewrite the `UnconditionalRecursion` lint to use MIR](https://github.com/rust-lang/rust/pull/54490)
+* [`#[inline]` a bunch of trivial methods of `NonNull`](https://github.com/rust-lang/rust/pull/55426)
+* [add `ManuallyDrop::take`](https://github.com/rust-lang/rust/pull/55421)
+* [add `MaybeUninit::new`](https://github.com/rust-lang/rust/pull/55244)
+* [add line numbers option to rustdoc](https://github.com/rust-lang/rust/pull/54921)
+* [fix rustdoc ICE when checking blanket impls](https://github.com/rust-lang/rust/pull/55258)
 
 ## Approved RFCs
 
@@ -168,11 +160,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Panic is “pulling over to the side of the road” whereas crash is “running into a telephone pole”.
+> &T means it’s borrowed, and T means it’s owned, and you can’t take ownership of a thing you’ve borrowed — Rust doesn’t support stealing! 😉
 
-– /u/zzzzYUPYUPphlumph [on /r/rust](https://www.reddit.com/r/rust/comments/9q3jqn/how_is_rust_safe_when_panics_can_happen_out_of/e86glzs/)
+– kornel [on rust-users](https://users.rust-lang.org/t/vec-t-to-vec-t/21736/2)
 
-Thanks to [KillTheMule](https://users.rust-lang.org/t/twir-quote-of-the-week/328/570) for the suggestion!
+Thanks to [Cerberuser](https://users.rust-lang.org/t/twir-quote-of-the-week/328/576) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
