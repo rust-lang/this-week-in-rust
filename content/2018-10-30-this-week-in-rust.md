@@ -23,7 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [2d graphics in Rust discussion - A look at GPU memory management](https://nical.github.io/posts/rust-2d-graphics-02.html).
 * [Announcing Gotham 0.3](https://gotham.rs/blog/release/2018/10/29/gotham-0.3.html).
 * [Finding and fixing memory leaks in a Hyper application](https://blog.1aim.com/2018/10/finding-and-fixing-memory-leaks-in-a-hyper-application-or-how-i-learned-to-stop-worrying-and-love-the-allocator/).
-* [A brief introduction to Serverless applications in Rust](https://medium.com/@softprops/serverless-rust-318732a3596).
+* [A brief introduction to serverless applications in Rust](https://medium.com/@softprops/serverless-rust-318732a3596).
 * [The case for macros](https://llogiq.github.io/2018/10/25/macros.html).
 * [Jim Blandy interview on mastering moves and borrows](https://corecursive.com/016-moves-and-borrowing-in-rust-with-jim-blandy/).
 * [The Embedded WG newsletter 14](https://rust-embedded.github.io/blog/2018-10-28-newsletter-14/).
