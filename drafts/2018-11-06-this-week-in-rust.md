@@ -16,6 +16,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Rust now available on 14 Debian architectures](https://lists.debian.org/debian-devel-announce/2018/11/msg00000.html).
+* [MIR-based borrowck is almost here](http://smallcultfollowing.com/babysteps/blog/2018/10/31/mir-based-borrowck-is-almost-here/).
+* [How to speed up the Rust compiler in 2018: NLL edition](https://blog.mozilla.org/nnethercote/2018/11/06/how-to-speed-up-the-rust-compiler-in-2018-nll-edition/).
+* [After NLL: Interprocedural conflicts](http://smallcultfollowing.com/babysteps/blog/2018/11/01/after-nll-interprocedural-conflicts/).
+* [Shifgrethor IV: Tracing](https://boats.gitlab.io/blog/post/shifgrethor-iv/).
+* [A hammer you can only hold by the handle](https://blog.systems.ethz.ch/blog/2018/a-hammer-you-can-only-hold-by-the-handle.html). Looking at the Rust borrow checker from a different perspective.
+* [Anchored and uniform paths](https://boats.gitlab.io/blog/post/anchored-uniform/).
+* [On dealing with owning and borrowing in public interfaces](https://phaazon.net/blog/on-owning-borrowing-pub-interface).
+
+https://www.reddit.com/r/rust/comments/9twam5/jemalloc_was_just_removed_from_the_standard/
+
 # Crate of the Week
 
 This week's crate is [dutree](https://github.com/nachoparker/dutree), a command line tool that produces a colorful tree view of your disk usage. Thanks to [gilescope](https://users.rust-lang.org/t/crate-of-the-week/2704/466) for the suggestion!
@@ -31,11 +42,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Help test Rust 2018](https://blog.rust-lang.org/2018/10/30/help-test-rust-2018.html).
-* [Cargo: Resolvers error messages should include the version requirements](https://github.com/rust-lang/cargo/issues/6199).
-* [Cargo: Intern more kinds of things](https://github.com/rust-lang/cargo/issues/6207).
-* [Rutie: Current dll linking has timeouts on Windows](https://github.com/danielpclark/rutie/issues/48).
-* [railroad: Implement a "Auto-Stack" that overflows a Sequence into a Stack](https://github.com/lukaslueg/railroad/issues/5).
+* [swc transcompiles new-generation JavaScript to old-generation JavaScript and needs help](https://users.rust-lang.org/t/twir-call-for-participation/4821/214).
+* [Tera: Consider remove error_chain dependency](https://github.com/Keats/tera/issues/297).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -85,8 +93,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2451: Re-Rebalancing Coherence](https://github.com/rust-lang/rfcs/pull/2451).
-* [RFC 2457: Allow non-ASCII identifiers](https://github.com/rust-lang/rfcs/pull/2457).
+* [RFC 2561: Meta-RFC: Future possibilities](https://github.com/rust-lang/rfcs/pull/2561).
 
 ## Final Comment Period
 
@@ -96,7 +103,8 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Meta-RFC: Future possibilities](https://github.com/rust-lang/rfcs/pull/2561).
+* [disposition: merge] [Linked list cursors](https://github.com/rust-lang/rfcs/pull/2570).
+* [disposition: close] [flat_map as an alias for and_then](https://github.com/rust-lang/rfcs/pull/2572).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
@@ -104,45 +112,42 @@ decision. Express your opinions now.
 
 ## New RFCs
 
-* [Generic integers](https://github.com/rust-lang/rfcs/pull/2581).
-* [Pointer metadata & VTable](https://github.com/rust-lang/rfcs/pull/2580).
-* [Second-generation binary operator traits with specialization](https://github.com/rust-lang/rfcs/pull/2578).
+* [An operator to take a raw reference](https://github.com/rust-lang/rfcs/pull/2582).s
+* [Structural Records](https://github.com/rust-lang/rfcs/pull/2584).
+* [Unsafe blocks in unsafe fn](https://github.com/rust-lang/rfcs/pull/2585).
+* [Anonymous variant types, a minimal ad-hoc sum type](https://github.com/rust-lang/rfcs/pull/2587).
 
 # Upcoming Events
 
 ### Online
 
-* [Nov  5. Rust Community Content Subteam Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Nov  7. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Nov 14. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-
-### Africa
-
-* [Nov  6. Johannesburg, SA - Monthly Meetup of the Johannesburg Rustaceans](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpblrnyxpbjb/).
+* [Nov 19. Rust Community Content Subteam Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Nov 21. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 
 ### Europe
 
-* [Nov  6. Rome, IT - Rust Rome Meetup](https://www.meetup.com/it-IT/Rust-Roma/events/255940927/).
-* [Nov  7. Stuttgart, DE - Rust in der Industrie & Automatisierung](https://www.meetup.com/slowtec/events/255390000/).
-* [Nov  7. Cologne, DE - Rust Cologne](https://www.meetup.com/RustCologne/events/vnwndpyxpbkb/).
 * [Nov 14. Helsinki, FI - Helsinki Rust meetup](https://www.meetup.com/Finland-Rust-Meetup/events/255855675/).
 * [Nov 14. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyxpbsb/).
 * [Nov 15. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxpbtb/).
+* [Nov 15. Madrid, ES - Rust + Deliveroo](https://www.meetup.com/MadRust/events/256141489).
+* [Nov 17. Toulouse, FR - Capitole du Libre 2018 - Introduction à Rust](https://2018.capitoledulibre.org/programme/#introduction-a-rust-2).
+* [Nov 17. Toulouse, FR - Capitole du Libre 2018 - Initiation à Rust](https://2018.capitoledulibre.org/programme/#initiation-a-rust).
+* [Nov 21. Oslo, NO - Hack & Learn](https://www.meetup.com/Rust-Oslo/events/255966088/).
+* [Nov 21. Hamburg, DE - Rust Hack & Learn Nov 2018](https://www.meetup.com/Rust-Meetup-Hamburg/events/254969484/).
 
 ### North America
 
-* [Nov  4. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxpbgb/).
-* [Nov  6. Santa Monica, US - Rust Los Angeles Meetup](https://www.meetup.com/Rust-Los-Angeles/events/255934998).
-* [Nov  7. Atlanta, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/cbcmbqyxpbkb/).
-* [Nov  7. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyxpbkb/).
 * [Nov  8. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/255209655/).
 * [Nov  8. Arlington, US - Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/254871472).
 * [Nov  8. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxpblb/).
 * [Nov  8. Boston, US - Rust/Scala meetup at SPLASH conf](https://www.meetup.com/BostonRust/events/255445951/).
 * [Nov  8. Arlington, US - Rust DC—Mid-month Rustful](https://www.meetup.com/RustDC/events/254871472).
-* [Nov 11. Mountain View,US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxpbpb/).
+* [Nov 11. Mountain View, US - Rust Dev in Mountain View](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxpbpb/).
 * [Nov 12. Seattle, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/pkggvpyxpbqb/).
+* [Nov 13. Charlottesville, US - Rustlang Meetup](https://www.meetup.com/Charlottesville-Rust-Meetup/events/255551577/).
 * [Nov 14. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/xttphqyxpbsb/).
+* [Nov 18. Mountain View, US - Rust Dev in Mountain View](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxpbxb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -153,7 +158,9 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Rust Backend Engineer at Kraken, Remote](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105).
 * [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
+* [Senior Blockchain Protocol Engineer at crypto.com, Hong Kong](https://cryptocom.bamboohr.com/jobs/view.php?id=61).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
