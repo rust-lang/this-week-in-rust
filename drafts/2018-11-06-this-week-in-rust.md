@@ -29,7 +29,7 @@ https://www.reddit.com/r/rust/comments/9twam5/jemalloc_was_just_removed_from_the
 
 # Crate of the Week
 
-This week's crate is [dutree](https://github.com/nachoparker/dutree), a command line tool that produces a colorful tree view of your disk usage. Thanks to [gilescope](https://users.rust-lang.org/t/crate-of-the-week/2704/466) for the suggestion!
+This week's crate is [parse_wiki_text](https://crates.io/crates/parse_wiki_text), a crate to parse MediaWiki entries into a tree of elements. Thanks to [Fredrik](https://users.rust-lang.org/t/crate-of-the-week/2704/467) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -53,39 +53,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 131 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-10-22..2018-10-29
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-10-29..2018-11-05
 
-* [compile the libstd we distribute with `-Ccodegen-unit=1`](https://github.com/rust-lang/rust/pull/55264)
-* [implement by-value object safety](https://github.com/rust-lang/rust/pull/54183)
-* [report const eval error inside the query](https://github.com/rust-lang/rust/pull/53821)
-* [path suggestions in Rust 2018 should point out the change in semantics](https://github.com/rust-lang/rust/pull/55185)
-* [suggest appropriate syntax on missing lifetime specifier in return type](https://github.com/rust-lang/rust/pull/55173)
-* [Macro diagnostics tweaks](https://github.com/rust-lang/rust/pull/55292)
-* [list allowed tokens after macro fragments](https://github.com/rust-lang/rust/pull/55301)
-* [make unused-parens suggestions heed what the user actually wrote](https://github.com/rust-lang/rust/pull/55138)
-* [fix suggestion on renamed import conflict](https://github.com/rust-lang/rust/pull/55113)
-* [suggest to remove prefix `b` in cfg attribute lint string](https://github.com/rust-lang/rust/pull/54929)
-* [lint reasons](https://github.com/rust-lang/rust/pull/54683) (RFC #[2383](https://rust-lang.github.io/rfcs/2383-lint-reasons.html), part 1)
-* [point at macro definition when no rules expect token](https://github.com/rust-lang/rust/pull/55298)
-* [fix an ICE in the min_const_fn analysis](https://github.com/rust-lang/rust/pull/55412)
-* [avoid unnecessary allocations in `float_lit` and `integer_lit`](https://github.com/rust-lang/rust/pull/55384)
-* [add a "cheap" mode for `compute_missing_ctors`](https://github.com/rust-lang/rust/pull/55167)
-* [use `SmallVec` for the queue in `coerce_unsized`](https://github.com/rust-lang/rust/pull/55383)
-* [shrink `Statement`](https://github.com/rust-lang/rust/pull/55346)
-* [introduce type-op for user-type ascription in NLL](https://github.com/rust-lang/rust/pull/55323)
-* [NLL: cast causes failure to promote to static](https://github.com/rust-lang/rust/pull/55385)
-* [rustc: tweak filenames encoded into metadata](https://github.com/rust-lang/rust/pull/54626)
-* [unimplement ExactSizeIterator for MIR traversing iterators](https://github.com/rust-lang/rust/pull/55271)
-* [miri engine: stacked Borrows NG](https://github.com/rust-lang/rust/pull/55270)
-* [validity: assert that unions are non-empty](https://github.com/rust-lang/rust/pull/55379)
-* [allow extern statics with an extern type](https://github.com/rust-lang/rust/pull/55257)
-* [add `extern crate` items to extern prelude](https://github.com/rust-lang/rust/pull/54658)
-* [rewrite the `UnconditionalRecursion` lint to use MIR](https://github.com/rust-lang/rust/pull/54490)
-* [`#[inline]` a bunch of trivial methods of `NonNull`](https://github.com/rust-lang/rust/pull/55426)
-* [add `ManuallyDrop::take`](https://github.com/rust-lang/rust/pull/55421)
-* [add `MaybeUninit::new`](https://github.com/rust-lang/rust/pull/55244)
-* [add line numbers option to rustdoc](https://github.com/rust-lang/rust/pull/54921)
-* [fix rustdoc ICE when checking blanket impls](https://github.com/rust-lang/rust/pull/55258)
+* [fix DWARF generation for enums](https://github.com/rust-lang/rust/pull/54004)
+* [add libproc_macro to rust-src distribution](https://github.com/rust-lang/rust/pull/55280)
+* [remove the `alloc_jemalloc` crate](https://github.com/rust-lang/rust/pull/55238)
+* [add Retagging statements](https://github.com/rust-lang/rust/pull/55316)
+* [implement object-safety and dynamic dispatch for arbitrary_self_types](https://github.com/rust-lang/rust/pull/54383)
+* [universes refactor 3](https://github.com/rust-lang/rust/pull/55305)
+* [correct alignment of atomic types and (re)add `Atomic`{`I`,`U`}`128`](https://github.com/rust-lang/rust/pull/55410)
+* [rustc_target: pass contexts by reference, not value](https://github.com/rust-lang/rust/pull/55665)
+* [take advantage of impl Iterator in (transitive/elaborate)_bounds](https://github.com/rust-lang/rust/pull/55473)
+* [change a `flat_map` with 0/1-element vecs to a `filter_map`](https://github.com/rust-lang/rust/pull/55476)
+* [improve a few cases of collecting to an `FxHash`(`Map`/`Set`)](https://github.com/rust-lang/rust/pull/55205)
+* [crates.io: ensure only exact name matches are added to the index](https://github.com/rust-lang/crates.io/pull/1550)
+* [use `SmallVec` within `MoveData`](https://github.com/rust-lang/rust/pull/55574)
+* [tweak `MatcherPos::matches`](https://github.com/rust-lang/rust/pull/55558)
+* [make `-Z ls` list the actual filename of external dependencies](https://github.com/rust-lang/rust/pull/55555)
+* [syntax: improve a few allocations](https://github.com/rust-lang/rust/pull/55542)
+* [pass suggestions as impl Iterator instead of Vec](https://github.com/rust-lang/rust/pull/55536)
+* [fix `invalid_const_promotion` test on some archs](https://github.com/rust-lang/rust/pull/55575)
+* [add `raw_entry` API to `HashMap`](https://github.com/rust-lang/rust/pull/54043)
+* [cargo: configure tar to not set mtime](https://github.com/rust-lang/cargo/pull/6257)
+* [rustdoc: hide default impls items](https://github.com/rust-lang/rust/pull/54162)
+* [rustdoc: refactor: centralize all command-line argument parsing](https://github.com/rust-lang/rust/pull/55515)
 
 ## Approved RFCs
 
@@ -166,11 +157,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> &T means it’s borrowed, and T means it’s owned, and you can’t take ownership of a thing you’ve borrowed — Rust doesn’t support stealing! 😉
+> Everything about Rust is ironic.
 
-– kornel [on rust-users](https://users.rust-lang.org/t/vec-t-to-vec-t/21736/2)
+– @jessitron [on twitter](https://mobile.twitter.com/jessitron/status/1057080556863799298)
 
-Thanks to [Cerberuser](https://users.rust-lang.org/t/twir-quote-of-the-week/328/576) for the suggestion!
+Thanks to [David Sullins](https://users.rust-lang.org/t/twir-quote-of-the-week/328/578) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
