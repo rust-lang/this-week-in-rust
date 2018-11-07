@@ -25,8 +25,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Anchored and uniform paths](https://boats.gitlab.io/blog/post/anchored-uniform/).
 * [On dealing with owning and borrowing in public interfaces](https://phaazon.net/blog/on-owning-borrowing-pub-interface).
 
-https://www.reddit.com/r/rust/comments/9twam5/jemalloc_was_just_removed_from_the_standard/
-
 # Crate of the Week
 
 This week's crate is [parse_wiki_text](https://crates.io/crates/parse_wiki_text), a crate to parse MediaWiki entries into a tree of elements. Thanks to [Fredrik](https://users.rust-lang.org/t/crate-of-the-week/2704/467) for the suggestion!
@@ -103,7 +101,7 @@ decision. Express your opinions now.
 
 ## New RFCs
 
-* [An operator to take a raw reference](https://github.com/rust-lang/rfcs/pull/2582).s
+* [An operator to take a raw reference](https://github.com/rust-lang/rfcs/pull/2582).
 * [Structural Records](https://github.com/rust-lang/rfcs/pull/2584).
 * [Unsafe blocks in unsafe fn](https://github.com/rust-lang/rfcs/pull/2585).
 * [Anonymous variant types, a minimal ad-hoc sum type](https://github.com/rust-lang/rfcs/pull/2587).
