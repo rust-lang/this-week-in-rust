@@ -83,19 +83,21 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Linked list cursors](https://github.com/rust-lang/rfcs/pull/2570).
-* [disposition: close] [flat_map as an alias for and_then](https://github.com/rust-lang/rfcs/pull/2572).
+* [disposition: merge] [RFC: Linked list cursors](https://github.com/rust-lang/rfcs/pull/2570).
+* [disposition: close] [RFC: Create Editorconfig File as Part of Cargo Project](https://github.com/rust-lang/rfcs/pull/2549).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Minor standard library constification](https://github.com/rust-lang/rust/pull/55278).
+* [disposition: merge] [add FromIterator<A> to Box<[A]>](https://github.com/rust-lang/rust/pull/55843).
+* [disposition: merge] [Tracking issue for `literal` fragment specifier (RFC 1576)](https://github.com/rust-lang/rust/issues/35625).
+* [disposition: close] [Tracking issue for FnBox()](https://github.com/rust-lang/rust/issues/28796).
 
 ## New RFCs
 
-* [An operator to take a raw reference](https://github.com/rust-lang/rfcs/pull/2582).
-* [Structural Records](https://github.com/rust-lang/rfcs/pull/2584).
-* [Unsafe blocks in unsafe fn](https://github.com/rust-lang/rfcs/pull/2585).
-* [Anonymous variant types, a minimal ad-hoc sum type](https://github.com/rust-lang/rfcs/pull/2587).
+* [RFC: Custom DSTs](https://github.com/rust-lang/rfcs/pull/2594).
+* [Enum variant types](https://github.com/rust-lang/rfcs/pull/2593).
+* [RFC: stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592).
+* [Stabilise exhaustive integer pattern matching](https://github.com/rust-lang/rfcs/pull/2591).
 
 # Upcoming Events
 
