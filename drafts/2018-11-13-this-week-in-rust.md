@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [parse_wiki_text](https://crates.io/crates/parse_wiki_text), a crate to parse MediaWiki entries into a tree of elements. Thanks to [Fredrik](https://users.rust-lang.org/t/crate-of-the-week/2704/467) for the suggestion!
+This week's crate is [cargo-nono](https://github.com/hobofan/cargo-nono), a cargo subcommand to check a crate's dependencies for no-std compatibility. Thanks to [Hobofan](https://www.reddit.com/r/rust/comments/9wbv0v/cargo_nono_detect_possible_no_std_compatibility) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -40,32 +40,43 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-131 pull requests were [merged in the last week][merged]
+140 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-10-29..2018-11-05
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-11-05..2018-11-12
 
-* [fix DWARF generation for enums](https://github.com/rust-lang/rust/pull/54004)
-* [add libproc_macro to rust-src distribution](https://github.com/rust-lang/rust/pull/55280)
-* [remove the `alloc_jemalloc` crate](https://github.com/rust-lang/rust/pull/55238)
-* [add Retagging statements](https://github.com/rust-lang/rust/pull/55316)
-* [implement object-safety and dynamic dispatch for arbitrary_self_types](https://github.com/rust-lang/rust/pull/54383)
-* [universes refactor 3](https://github.com/rust-lang/rust/pull/55305)
-* [correct alignment of atomic types and (re)add `Atomic`{`I`,`U`}`128`](https://github.com/rust-lang/rust/pull/55410)
-* [rustc_target: pass contexts by reference, not value](https://github.com/rust-lang/rust/pull/55665)
-* [take advantage of impl Iterator in (transitive/elaborate)_bounds](https://github.com/rust-lang/rust/pull/55473)
-* [change a `flat_map` with 0/1-element vecs to a `filter_map`](https://github.com/rust-lang/rust/pull/55476)
-* [improve a few cases of collecting to an `FxHash`(`Map`/`Set`)](https://github.com/rust-lang/rust/pull/55205)
-* [crates.io: ensure only exact name matches are added to the index](https://github.com/rust-lang/crates.io/pull/1550)
-* [use `SmallVec` within `MoveData`](https://github.com/rust-lang/rust/pull/55574)
-* [tweak `MatcherPos::matches`](https://github.com/rust-lang/rust/pull/55558)
-* [make `-Z ls` list the actual filename of external dependencies](https://github.com/rust-lang/rust/pull/55555)
-* [syntax: improve a few allocations](https://github.com/rust-lang/rust/pull/55542)
-* [pass suggestions as impl Iterator instead of Vec](https://github.com/rust-lang/rust/pull/55536)
-* [fix `invalid_const_promotion` test on some archs](https://github.com/rust-lang/rust/pull/55575)
-* [add `raw_entry` API to `HashMap`](https://github.com/rust-lang/rust/pull/54043)
-* [cargo: configure tar to not set mtime](https://github.com/rust-lang/cargo/pull/6257)
-* [rustdoc: hide default impls items](https://github.com/rust-lang/rust/pull/54162)
-* [rustdoc: refactor: centralize all command-line argument parsing](https://github.com/rust-lang/rust/pull/55515)
+* [remove support for building against LLVM 4](https://github.com/rust-lang/rust/pull/55698)
+* [use lld directly for Fuchsia target](https://github.com/rust-lang/rust/pull/55106)
+* [support memcpy/memmove with differing src/dst alignment](https://github.com/rust-lang/rust/pull/55633)
+* [treat "proc-macro" crate type the same as `proc-macro = true`](https://github.com/rust-lang/cargo/pull/6256)
+* [custom diagnostic when trying to doc comment argument](https://github.com/rust-lang/rust/pull/55451)
+* [enforce unused-must-use lint in macros](https://github.com/rust-lang/rust/pull/55569)
+* [don't print opt fuel messages to stdout because it breaks Rustbuild](https://github.com/rust-lang/rust/pull/55495)
+* [NLL: fix ICE with elided lifetimes](https://github.com/rust-lang/rust/pull/55822)
+* [NLL: update box insensitivity test](https://github.com/rust-lang/rust/pull/55801)
+* [NLL: missing errors for borrows of union fields](https://github.com/rust-lang/rust/pull/55696)
+* [NLL: unions not reinitialized after assignment into field](https://github.com/rust-lang/rust/pull/55657)
+* [consume optimization fuel from the MIR inliner](https://github.com/rust-lang/rust/pull/55739)
+* [take supertraits into account when calculating associated types](https://github.com/rust-lang/rust/pull/55687)
+* [typecheck patterns of all match arms first, so we get types for bindings](https://github.com/rust-lang/rust/pull/55819)
+* [don't inline virtual calls (take 2)](https://github.com/rust-lang/rust/pull/55802)
+* [use `SmallVec` to avoid allocations in `from_decimal_string`](https://github.com/rust-lang/rust/pull/55816)
+* [un-`P` my `Lit`! Don't allocate it in vain](https://github.com/rust-lang/rust/pull/55777)
+* [don't `Box` the `TyCtxt::associated_items`](https://github.com/rust-lang/rust/pull/55604)
+* [make `MatcherPos::stack` a `SmallVec`](https://github.com/rust-lang/rust/pull/55525)
+* [improve creation of 3 IndexVecs](https://github.com/rust-lang/rust/pull/55755)
+* [implement rotate using funnel shift on LLVM >= 7](https://github.com/rust-lang/rust/pull/55650)
+* [value visitors for miri](Value visitors for miri)
+* [remove the `alloc_system` crate](https://github.com/rust-lang/rust/pull/55660)
+* [std: improve codegen size of accessing TLS](https://github.com/rust-lang/rust/pull/55518)
+* [std: enable usage of `thread_local!` through imports](https://github.com/rust-lang/rust/pull/55597)
+* [choose predicates without inference variables over those with them](https://github.com/rust-lang/rust/pull/55453)
+* [minor standard library constification](https://github.com/rust-lang/rust/pull/55278)
+* [fix `Rc`/`Arc` allocation layout](https://github.com/rust-lang/rust/pull/55764)
+* [fix undefined behavior in `Rc`/`Arc` allocation](https://github.com/rust-lang/rust/pull/54922)
+* [cargo: avoid retaining all rustc output in memory](https://github.com/rust-lang/cargo/pull/6289)
+* [cargo: timeout batch downloads, not each download](https://github.com/rust-lang/cargo/pull/6285)
+* [cargo: small things to help with fuzz tests](https://github.com/rust-lang/cargo/pull/6274)
+* [cargo: don't include build scripts in --out-dir](https://github.com/rust-lang/cargo/pull/6300)
 
 ## Approved RFCs
 
@@ -146,11 +157,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Everything about Rust is ironic.
+> I’m also pretty sure that most languages would not go that far. The idea that the type plugged in has only one possible value, therefore it doesn’t need to be stored and methods on that don’t care about the `self` reference is pretty neat.
 
-– @jessitron [on twitter](https://mobile.twitter.com/jessitron/status/1057080556863799298)
+– Michael 'vorner' Vaner [on his blog](https://vorner.github.io/2018/11/11/truly-zero-cost.html)
 
-Thanks to [David Sullins](https://users.rust-lang.org/t/twir-quote-of-the-week/328/578) for the suggestion!
+Thanks to llogiq for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
