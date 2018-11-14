@@ -94,9 +94,9 @@ decision. Express your opinions now.
 
 ## New RFCs
 
-* [RFC: Custom DSTs](https://github.com/rust-lang/rfcs/pull/2594).
+* [Custom DSTs](https://github.com/rust-lang/rfcs/pull/2594).
 * [Enum variant types](https://github.com/rust-lang/rfcs/pull/2593).
-* [RFC: stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592).
+* [Stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592).
 * [Stabilise exhaustive integer pattern matching](https://github.com/rust-lang/rfcs/pull/2591).
 
 # Upcoming Events
