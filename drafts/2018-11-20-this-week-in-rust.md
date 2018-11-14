@@ -135,8 +135,8 @@ decision. Express your opinions now.
 * [Nov 27. Sofia, BG - Rust Bulgaria @ Global Tech Summit](https://www.meetup.com/rust-bulgaria/events/256338832/).
 * [Nov 28. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyxpblc/).
 * [Nov 29. Copenhagen, DK - Copenhagen Rust Group - Hack Night #11](http://cph.rs/).
+* [Dec  3. Karlsruhe, DE - Rust 2018 Edition](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/256200841/?_xtd=gqFyqTE5MzgwNjQ5OKFwp2FuZHJvaWQ&from=ref).
 * [Dec 15. Moscow, RU - RustRush 2018](https://rustrush.ru).
-
 
 ### North America
 
@@ -155,7 +155,9 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Software Infrastructure Engineer - Engines at Blue Origin, Kent, US](https://careers-blueorigin.icims.com/jobs/3247/software-infrastructure-engineer---engines/job).
 * [Rust web developer at Impero, Denmark/remote](https://impero.com/job/full-stack-web-developer-rust/)
+* [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
