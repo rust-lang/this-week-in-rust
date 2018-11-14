@@ -147,7 +147,7 @@ decision. Express your opinions now.
 * [Nov 28. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyxpblc/).
 * [Nov 29. Copenhagen, DK - Copenhagen Rust Group - Hack Night #11](http://cph.rs/).
 * [Dec  3. Karlsruhe, DE - Rust 2018 Edition](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/256200841/?_xtd=gqFyqTE5MzgwNjQ5OKFwp2FuZHJvaWQ&from=ref).
-* [Dec 15. Moscow, RU - RustRush 2018](https://rustrush.ru).
+* [Dec 15 & 16. Moscow, RU - RustRush 2018](https://rustrush.ru).
 
 ### North America
 
