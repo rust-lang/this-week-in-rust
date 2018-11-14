@@ -16,6 +16,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* 🎈🎉 [Announcing Rust 1.30.1](https://blog.rust-lang.org/2018/11/08/Rust-1.30.1.html). 🎉🎈
+* [Things Rust doesn’t let you do](https://medium.com/@GolDDranks/things-rust-doesnt-let-you-do-draft-f596a3c740a5).
+* [After NLL: Moving from borrowed data and the sentinel pattern](http://smallcultfollowing.com/babysteps/blog/2018/11/10/after-nll-moving-from-borrowed-data-and-the-sentinel-pattern/).
+* [Running Rust natively in AWS Lambda and testing it locally](https://medium.com/@bernardo.belchior1/running-rust-natively-in-aws-lambda-and-testing-it-locally-57080421426d).
+* [Truly zero cost abstractions](https://vorner.github.io/2018/11/11/truly-zero-cost.html).
+* [Implementing Rust’s `std::sync::Mutex` in D](https://atilanevesoncode.wordpress.com/2018/11/06/implementing-rusts-stdsyncmutex-in-d/).
+* [Middleware in Tide](https://rust-lang-nursery.github.io/wg-net/2018/11/07/tide-middleware.html).
+* [Monadic do notation in Rust: Part I](https://varkor.github.io/blog/2018/11/10/monadic-do-notation-in-rust-part-i.html).
+* [`proc_macro_attribute` revisited](https://llogiq.github.io/2018/11/10/proc-macro.html).
+* [pdf] [Writing network drivers in Rust](https://www.net.in.tum.de/fileadmin/bibtex/publications/theses/2018-ixy-rust.pdf).
+
 # Crate of the Week
 
 This week's crate is [parse_wiki_text](https://crates.io/crates/parse_wiki_text), a crate to parse MediaWiki entries into a tree of elements. Thanks to [Fredrik](https://users.rust-lang.org/t/crate-of-the-week/2704/467) for the suggestion!
@@ -31,8 +42,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [swc transcompiles new-generation JavaScript to old-generation JavaScript and needs help](https://users.rust-lang.org/t/twir-call-for-participation/4821/214).
-* [Tera: Consider remove error_chain dependency](https://github.com/Keats/tera/issues/297).
+*No issues were proposed for CfP*.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -73,7 +83,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2561: Meta-RFC: Future possibilities](https://github.com/rust-lang/rfcs/pull/2561).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -138,9 +148,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Backend Engineer at Kraken, Remote](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105).
-* [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
-* [Senior Blockchain Protocol Engineer at crypto.com, Hong Kong](https://cryptocom.bamboohr.com/jobs/view.php?id=61).
+* [Rust web developer at Impero, Denmark/remote](https://impero.com/job/full-stack-web-developer-rust/)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
