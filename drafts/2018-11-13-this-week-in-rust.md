@@ -83,8 +83,8 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [RFC: Linked list cursors](https://github.com/rust-lang/rfcs/pull/2570).
-* [disposition: close] [RFC: Create Editorconfig File as Part of Cargo Project](https://github.com/rust-lang/rfcs/pull/2549).
+* [disposition: merge] [Linked list cursors](https://github.com/rust-lang/rfcs/pull/2570).
+* [disposition: close] [Create Editorconfig File as Part of Cargo Project](https://github.com/rust-lang/rfcs/pull/2549).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
