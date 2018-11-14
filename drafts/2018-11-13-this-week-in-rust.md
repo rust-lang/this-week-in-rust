@@ -29,7 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [parse_wiki_text](https://crates.io/crates/parse_wiki_text), a crate to parse MediaWiki entries into a tree of elements. Thanks to [Fredrik](https://users.rust-lang.org/t/crate-of-the-week/2704/467) for the suggestion!
+This week's crate is [cargo-nono](https://github.com/hobofan/cargo-nono), a cargo subcommand to check a crate's dependencies for no-std compatibility. Thanks to [Hobofan](https://www.reddit.com/r/rust/comments/9wbv0v/cargo_nono_detect_possible_no_std_compatibility) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -50,32 +50,43 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-131 pull requests were [merged in the last week][merged]
+140 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-10-29..2018-11-05
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-11-05..2018-11-12
 
-* [fix DWARF generation for enums](https://github.com/rust-lang/rust/pull/54004)
-* [add libproc_macro to rust-src distribution](https://github.com/rust-lang/rust/pull/55280)
-* [remove the `alloc_jemalloc` crate](https://github.com/rust-lang/rust/pull/55238)
-* [add Retagging statements](https://github.com/rust-lang/rust/pull/55316)
-* [implement object-safety and dynamic dispatch for arbitrary_self_types](https://github.com/rust-lang/rust/pull/54383)
-* [universes refactor 3](https://github.com/rust-lang/rust/pull/55305)
-* [correct alignment of atomic types and (re)add `Atomic`{`I`,`U`}`128`](https://github.com/rust-lang/rust/pull/55410)
-* [rustc_target: pass contexts by reference, not value](https://github.com/rust-lang/rust/pull/55665)
-* [take advantage of impl Iterator in (transitive/elaborate)_bounds](https://github.com/rust-lang/rust/pull/55473)
-* [change a `flat_map` with 0/1-element vecs to a `filter_map`](https://github.com/rust-lang/rust/pull/55476)
-* [improve a few cases of collecting to an `FxHash`(`Map`/`Set`)](https://github.com/rust-lang/rust/pull/55205)
-* [crates.io: ensure only exact name matches are added to the index](https://github.com/rust-lang/crates.io/pull/1550)
-* [use `SmallVec` within `MoveData`](https://github.com/rust-lang/rust/pull/55574)
-* [tweak `MatcherPos::matches`](https://github.com/rust-lang/rust/pull/55558)
-* [make `-Z ls` list the actual filename of external dependencies](https://github.com/rust-lang/rust/pull/55555)
-* [syntax: improve a few allocations](https://github.com/rust-lang/rust/pull/55542)
-* [pass suggestions as impl Iterator instead of Vec](https://github.com/rust-lang/rust/pull/55536)
-* [fix `invalid_const_promotion` test on some archs](https://github.com/rust-lang/rust/pull/55575)
-* [add `raw_entry` API to `HashMap`](https://github.com/rust-lang/rust/pull/54043)
-* [cargo: configure tar to not set mtime](https://github.com/rust-lang/cargo/pull/6257)
-* [rustdoc: hide default impls items](https://github.com/rust-lang/rust/pull/54162)
-* [rustdoc: refactor: centralize all command-line argument parsing](https://github.com/rust-lang/rust/pull/55515)
+* [remove support for building against LLVM 4](https://github.com/rust-lang/rust/pull/55698)
+* [use lld directly for Fuchsia target](https://github.com/rust-lang/rust/pull/55106)
+* [support memcpy/memmove with differing src/dst alignment](https://github.com/rust-lang/rust/pull/55633)
+* [treat "proc-macro" crate type the same as `proc-macro = true`](https://github.com/rust-lang/cargo/pull/6256)
+* [custom diagnostic when trying to doc comment argument](https://github.com/rust-lang/rust/pull/55451)
+* [enforce unused-must-use lint in macros](https://github.com/rust-lang/rust/pull/55569)
+* [don't print opt fuel messages to stdout because it breaks Rustbuild](https://github.com/rust-lang/rust/pull/55495)
+* [NLL: fix ICE with elided lifetimes](https://github.com/rust-lang/rust/pull/55822)
+* [NLL: update box insensitivity test](https://github.com/rust-lang/rust/pull/55801)
+* [NLL: missing errors for borrows of union fields](https://github.com/rust-lang/rust/pull/55696)
+* [NLL: unions not reinitialized after assignment into field](https://github.com/rust-lang/rust/pull/55657)
+* [consume optimization fuel from the MIR inliner](https://github.com/rust-lang/rust/pull/55739)
+* [take supertraits into account when calculating associated types](https://github.com/rust-lang/rust/pull/55687)
+* [typecheck patterns of all match arms first, so we get types for bindings](https://github.com/rust-lang/rust/pull/55819)
+* [don't inline virtual calls (take 2)](https://github.com/rust-lang/rust/pull/55802)
+* [use `SmallVec` to avoid allocations in `from_decimal_string`](https://github.com/rust-lang/rust/pull/55816)
+* [un-`P` my `Lit`! Don't allocate it in vain](https://github.com/rust-lang/rust/pull/55777)
+* [don't `Box` the `TyCtxt::associated_items`](https://github.com/rust-lang/rust/pull/55604)
+* [make `MatcherPos::stack` a `SmallVec`](https://github.com/rust-lang/rust/pull/55525)
+* [improve creation of 3 IndexVecs](https://github.com/rust-lang/rust/pull/55755)
+* [implement rotate using funnel shift on LLVM >= 7](https://github.com/rust-lang/rust/pull/55650)
+* [value visitors for miri](Value visitors for miri)
+* [remove the `alloc_system` crate](https://github.com/rust-lang/rust/pull/55660)
+* [std: improve codegen size of accessing TLS](https://github.com/rust-lang/rust/pull/55518)
+* [std: enable usage of `thread_local!` through imports](https://github.com/rust-lang/rust/pull/55597)
+* [choose predicates without inference variables over those with them](https://github.com/rust-lang/rust/pull/55453)
+* [minor standard library constification](https://github.com/rust-lang/rust/pull/55278)
+* [fix `Rc`/`Arc` allocation layout](https://github.com/rust-lang/rust/pull/55764)
+* [fix undefined behavior in `Rc`/`Arc` allocation](https://github.com/rust-lang/rust/pull/54922)
+* [cargo: avoid retaining all rustc output in memory](https://github.com/rust-lang/cargo/pull/6289)
+* [cargo: timeout batch downloads, not each download](https://github.com/rust-lang/cargo/pull/6285)
+* [cargo: small things to help with fuzz tests](https://github.com/rust-lang/cargo/pull/6274)
+* [cargo: don't include build scripts in --out-dir](https://github.com/rust-lang/cargo/pull/6300)
 
 ## Approved RFCs
 
@@ -94,50 +105,57 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [disposition: merge] [Linked list cursors](https://github.com/rust-lang/rfcs/pull/2570).
-* [disposition: close] [flat_map as an alias for and_then](https://github.com/rust-lang/rfcs/pull/2572).
+* [disposition: close] [Create Editorconfig File as Part of Cargo Project](https://github.com/rust-lang/rfcs/pull/2549).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Minor standard library constification](https://github.com/rust-lang/rust/pull/55278).
+* [disposition: merge] [add FromIterator<A> to Box<[A]>](https://github.com/rust-lang/rust/pull/55843).
+* [disposition: merge] [Tracking issue for `literal` fragment specifier (RFC 1576)](https://github.com/rust-lang/rust/issues/35625).
+* [disposition: close] [Tracking issue for FnBox()](https://github.com/rust-lang/rust/issues/28796).
 
 ## New RFCs
 
-* [An operator to take a raw reference](https://github.com/rust-lang/rfcs/pull/2582).
-* [Structural Records](https://github.com/rust-lang/rfcs/pull/2584).
-* [Unsafe blocks in unsafe fn](https://github.com/rust-lang/rfcs/pull/2585).
-* [Anonymous variant types, a minimal ad-hoc sum type](https://github.com/rust-lang/rfcs/pull/2587).
+* [Custom DSTs](https://github.com/rust-lang/rfcs/pull/2594).
+* [Enum variant types](https://github.com/rust-lang/rfcs/pull/2593).
+* [Stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592).
+* [Stabilise exhaustive integer pattern matching](https://github.com/rust-lang/rfcs/pull/2591).
 
 # Upcoming Events
 
 ### Online
 
-* [Nov 14. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Nov 19. Rust Community Content Subteam Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Nov 21. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Nov 28. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+
+### Asia
+
+* [Nov 17. Chennai, IN - Monthly Meetup - November](https://www.meetup.com/mad-rs/events/256339435/).
 
 ### Europe
 
-* [Nov 14. Helsinki, FI - Helsinki Rust meetup](https://www.meetup.com/Finland-Rust-Meetup/events/255855675/).
-* [Nov 14. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyxpbsb/).
 * [Nov 15. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxpbtb/).
-* [Nov 15. Madrid, ES - Rust + Deliveroo](https://www.meetup.com/MadRust/events/256141489).
+* [Nov 15. Madrid, ES - Madrid Rust Meetup: Rust in Deliveroo](https://www.meetup.com/MadRust/events/256141489).
 * [Nov 17. Toulouse, FR - Capitole du Libre 2018 - Introduction à Rust](https://2018.capitoledulibre.org/programme/#introduction-a-rust-2).
-* [Nov 17. Toulouse, FR - Capitole du Libre 2018 - Initiation à Rust](https://2018.capitoledulibre.org/programme/#initiation-a-rust).
+* [Nov 18. Toulouse, FR - Capitole du Libre 2018 - Initiation à Rust](https://2018.capitoledulibre.org/programme/#initiation-a-rust).
+* [Nov 20. Paris, FR - Rust Paris](http://www.meetup.com/Rust-Paris).
 * [Nov 21. Oslo, NO - Hack & Learn](https://www.meetup.com/Rust-Oslo/events/255966088/).
 * [Nov 21. Hamburg, DE - Rust Hack & Learn Nov 2018](https://www.meetup.com/Rust-Meetup-Hamburg/events/254969484/).
+* [Nov 24. St. Petersburg, RU - Rust Meetup](https://www.meetup.com/spbrust/events/bqctlqyxpbgc).
+* **[Nov 24 & 25. Rome, IT - RustFest Rome 2018](https://rome.rustfest.eu).**
+* [Nov 27. Sofia, BG - Rust Bulgaria @ Global Tech Summit](https://www.meetup.com/rust-bulgaria/events/256338832/).
+* [Nov 28. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyxpblc/).
+* [Nov 29. Copenhagen, DK - Copenhagen Rust Group - Hack Night #11](http://cph.rs/).
+* [Dec 15. Moscow, RU - RustRush 2018](https://rustrush.ru).
+
 
 ### North America
 
-* [Nov  8. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/255209655/).
-* [Nov  8. Arlington, US - Rust DC - Mid-month Rustful](https://www.meetup.com/RustDC/events/254871472).
-* [Nov  8. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxpblb/).
-* [Nov  8. Boston, US - Rust/Scala meetup at SPLASH conf](https://www.meetup.com/BostonRust/events/255445951/).
-* [Nov  8. Arlington, US - Rust DC—Mid-month Rustful](https://www.meetup.com/RustDC/events/254871472).
-* [Nov 11. Mountain View, US - Rust Dev in Mountain View](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxpbpb/).
-* [Nov 12. Seattle, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/pkggvpyxpbqb/).
-* [Nov 13. Charlottesville, US - Rustlang Meetup](https://www.meetup.com/Charlottesville-Rust-Meetup/events/255551577/).
-* [Nov 14. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/xttphqyxpbsb/).
 * [Nov 18. Mountain View, US - Rust Dev in Mountain View](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxpbxb/).
+* [Nov 25. Mountain View, US - Rust Dev in Mountain View](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxpbhc/).
+* [Nov 26. Durham, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyxpbjc/).
+* [Nov 27. Dallas, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxpbkc/).
+* [Nov 28. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/xttphqyxpblc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -154,11 +172,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Everything about Rust is ironic.
+> I’m also pretty sure that most languages would not go that far. The idea that the type plugged in has only one possible value, therefore it doesn’t need to be stored and methods on that don’t care about the `self` reference is pretty neat.
 
-– @jessitron [on twitter](https://mobile.twitter.com/jessitron/status/1057080556863799298)
+– Michael 'vorner' Vaner [on his blog](https://vorner.github.io/2018/11/11/truly-zero-cost.html)
 
-Thanks to [David Sullins](https://users.rust-lang.org/t/twir-quote-of-the-week/328/578) for the suggestion!
+Thanks to llogiq for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
