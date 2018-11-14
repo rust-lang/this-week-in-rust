@@ -64,7 +64,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [make `MatcherPos::stack` a `SmallVec`](https://github.com/rust-lang/rust/pull/55525)
 * [improve creation of 3 IndexVecs](https://github.com/rust-lang/rust/pull/55755)
 * [implement rotate using funnel shift on LLVM >= 7](https://github.com/rust-lang/rust/pull/55650)
-* [value visitors for miri](Value visitors for miri)
+* [value visitors for miri](https://github.com/rust-lang/rust/pull/55549)
 * [remove the `alloc_system` crate](https://github.com/rust-lang/rust/pull/55660)
 * [std: improve codegen size of accessing TLS](https://github.com/rust-lang/rust/pull/55518)
 * [std: enable usage of `thread_local!` through imports](https://github.com/rust-lang/rust/pull/55597)
@@ -136,7 +136,7 @@ decision. Express your opinions now.
 * [Nov 28. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyxpblc/).
 * [Nov 29. Copenhagen, DK - Copenhagen Rust Group - Hack Night #11](http://cph.rs/).
 * [Dec  3. Karlsruhe, DE - Rust 2018 Edition](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/256200841/?_xtd=gqFyqTE5MzgwNjQ5OKFwp2FuZHJvaWQ&from=ref).
-* [Dec 15. Moscow, RU - RustRush 2018](https://rustrush.ru).
+* [Dec 15 & 16. Moscow, RU - RustRush 2018](https://rustrush.ru).
 
 ### North America
 
