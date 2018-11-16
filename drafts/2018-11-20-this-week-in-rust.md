@@ -158,6 +158,7 @@ Email the [Rust Community Team][community] for access.
 * [Software Infrastructure Engineer - Engines at Blue Origin, Kent, US](https://careers-blueorigin.icims.com/jobs/3247/software-infrastructure-engineer---engines/job).
 * [Rust web developer at Impero, Denmark/remote](https://impero.com/job/full-stack-web-developer-rust/)
 * [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
+* [Software Engineer for Qwant Maps, Paris, FR](https://www.welcometothejungle.co/companies/qwant-research/jobs/software-engineer-qwant-maps_paris).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
