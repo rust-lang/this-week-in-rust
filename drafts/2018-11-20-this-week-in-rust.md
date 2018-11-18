@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Programming Servo: a background-hang-monitor](https://medium.com/programming-servo/programming-servo-a-background-hang-monitor-73e89185ce1). <small>[[discuss](https://www.reddit.com/r/rust/comments/9xlrw2/programming_servo_a_backgroundhangmonitor/]</small> 
+
 # Crate of the Week
 
 This week's crate is [cargo-nono](https://github.com/hobofan/cargo-nono), a cargo subcommand to check a crate's dependencies for no-std compatibility. Thanks to [Hobofan](https://www.reddit.com/r/rust/comments/9wbv0v/cargo_nono_detect_possible_no_std_compatibility) for the suggestion!
