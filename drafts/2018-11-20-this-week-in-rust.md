@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Programming Servo: a background-hang-monitor](https://medium.com/programming-servo/programming-servo-a-background-hang-monitor-73e89185ce1). <small>[[discuss](https://www.reddit.com/r/rust/comments/9xlrw2/programming_servo_a_backgroundhangmonitor/]</small> 
+* [Programming Servo: a background-hang-monitor](https://medium.com/programming-servo/programming-servo-a-background-hang-monitor-73e89185ce1).
 
 # Crate of the Week
 
