@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Programming Servo: a background-hang-monitor](https://medium.com/programming-servo/programming-servo-a-background-hang-monitor-73e89185ce1).
+
 # Crate of the Week
 
 This week's crate is [cargo-nono](https://github.com/hobofan/cargo-nono), a cargo subcommand to check a crate's dependencies for no-std compatibility. Thanks to [Hobofan](https://www.reddit.com/r/rust/comments/9wbv0v/cargo_nono_detect_possible_no_std_compatibility) for the suggestion!
@@ -159,6 +161,8 @@ Email the [Rust Community Team][community] for access.
 * [Rust web developer at Impero, Denmark/remote](https://impero.com/job/full-stack-web-developer-rust/)
 * [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
 * [Software Engineer for Qwant Maps, Paris, FR](https://www.welcometothejungle.co/companies/qwant-research/jobs/software-engineer-qwant-maps_paris).
+* [Embedded operating system developer, Karlsruhe, DE](https://www.pse.kit.edu/karriere/joboffer.php?id=2093&language=en)
+* [Student research assistant (embedded), Karlsruhe, DE](https://twitter.com/oli_obk/status/1064856324071178240)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
