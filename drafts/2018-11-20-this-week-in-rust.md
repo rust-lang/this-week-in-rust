@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [cargo-nono](https://github.com/hobofan/cargo-nono), a cargo subcommand to check a crate's dependencies for no-std compatibility. Thanks to [Hobofan](https://www.reddit.com/r/rust/comments/9wbv0v/cargo_nono_detect_possible_no_std_compatibility) for the suggestion!
+This week's crate is [cargo-sweep](https://github.com/holmgr/cargo-sweep), a cargo subcommand to clean cargo's various temporaries. Thanks to [Viktor Holmgren](https://users.rust-lang.org/t/crate-of-the-week/2704/470) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -41,43 +41,41 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-140 pull requests were [merged in the last week][merged]
+124 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-11-05..2018-11-12
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-11-12..2018-11-19
 
-* [remove support for building against LLVM 4](https://github.com/rust-lang/rust/pull/55698)
-* [use lld directly for Fuchsia target](https://github.com/rust-lang/rust/pull/55106)
-* [support memcpy/memmove with differing src/dst alignment](https://github.com/rust-lang/rust/pull/55633)
-* [treat "proc-macro" crate type the same as `proc-macro = true`](https://github.com/rust-lang/cargo/pull/6256)
-* [custom diagnostic when trying to doc comment argument](https://github.com/rust-lang/rust/pull/55451)
-* [enforce unused-must-use lint in macros](https://github.com/rust-lang/rust/pull/55569)
-* [don't print opt fuel messages to stdout because it breaks Rustbuild](https://github.com/rust-lang/rust/pull/55495)
-* [NLL: fix ICE with elided lifetimes](https://github.com/rust-lang/rust/pull/55822)
-* [NLL: update box insensitivity test](https://github.com/rust-lang/rust/pull/55801)
-* [NLL: missing errors for borrows of union fields](https://github.com/rust-lang/rust/pull/55696)
-* [NLL: unions not reinitialized after assignment into field](https://github.com/rust-lang/rust/pull/55657)
-* [consume optimization fuel from the MIR inliner](https://github.com/rust-lang/rust/pull/55739)
-* [take supertraits into account when calculating associated types](https://github.com/rust-lang/rust/pull/55687)
-* [typecheck patterns of all match arms first, so we get types for bindings](https://github.com/rust-lang/rust/pull/55819)
-* [don't inline virtual calls (take 2)](https://github.com/rust-lang/rust/pull/55802)
-* [use `SmallVec` to avoid allocations in `from_decimal_string`](https://github.com/rust-lang/rust/pull/55816)
-* [un-`P` my `Lit`! Don't allocate it in vain](https://github.com/rust-lang/rust/pull/55777)
-* [don't `Box` the `TyCtxt::associated_items`](https://github.com/rust-lang/rust/pull/55604)
-* [make `MatcherPos::stack` a `SmallVec`](https://github.com/rust-lang/rust/pull/55525)
-* [improve creation of 3 IndexVecs](https://github.com/rust-lang/rust/pull/55755)
-* [implement rotate using funnel shift on LLVM >= 7](https://github.com/rust-lang/rust/pull/55650)
-* [value visitors for miri](https://github.com/rust-lang/rust/pull/55549)
-* [remove the `alloc_system` crate](https://github.com/rust-lang/rust/pull/55660)
-* [std: improve codegen size of accessing TLS](https://github.com/rust-lang/rust/pull/55518)
-* [std: enable usage of `thread_local!` through imports](https://github.com/rust-lang/rust/pull/55597)
-* [choose predicates without inference variables over those with them](https://github.com/rust-lang/rust/pull/55453)
-* [minor standard library constification](https://github.com/rust-lang/rust/pull/55278)
-* [fix `Rc`/`Arc` allocation layout](https://github.com/rust-lang/rust/pull/55764)
-* [fix undefined behavior in `Rc`/`Arc` allocation](https://github.com/rust-lang/rust/pull/54922)
-* [cargo: avoid retaining all rustc output in memory](https://github.com/rust-lang/cargo/pull/6289)
-* [cargo: timeout batch downloads, not each download](https://github.com/rust-lang/cargo/pull/6285)
-* [cargo: small things to help with fuzz tests](https://github.com/rust-lang/cargo/pull/6274)
-* [cargo: don't include build scripts in --out-dir](https://github.com/rust-lang/cargo/pull/6300)
+* [remove "approx env bounds" if we already know from trait](https://github.com/rust-lang/rust/pull/56043)
+* [resolve: implement uniform paths 2.0](https://github.com/rust-lang/rust/pull/56042)
+* [chalk lowering rule: ProjectionEq-Normalize](https://github.com/rust-lang/rust/pull/52153)
+* [miri backtrace improvements](https://github.com/rust-lang/rust/pull/55970)
+* [fix emission of niche-filling discriminant values](https://github.com/rust-lang/rust/pull/55701)
+* [avoid shared ref in UnsafeCell::get](https://github.com/rust-lang/rust/pull/56012)
+* [CTFE: dynamically make sure we do not call non-const-fn](https://github.com/rust-lang/rust/pull/56007)
+* [reattach all grandchildren when constructing specialization graph](https://github.com/rust-lang/rust/pull/54906)
+* [ty: return impl Iterator from Predicate::walk_tys](https://github.com/rust-lang/rust/pull/55949)
+* [a handful of hir tweaks](https://github.com/rust-lang/rust/pull/55930)
+* [make miri value visitor useful for mutation](https://github.com/rust-lang/rust/pull/55916)
+* [miri enum discriminant handling: Fix treatment of pointers, better error when it is undef](https://github.com/rust-lang/rust/pull/55894)
+* [more precise spans for temps and their drops](https://github.com/rust-lang/rust/pull/55781)
+* [reference count `crate_inherent_impls`s return value](https://github.com/rust-lang/rust/pull/55882)
+* [unix RwLock: avoid racy access to write_locked](https://github.com/rust-lang/rust/pull/55865)
+* [forward the ABI of the non-zero sized fields of an union if they have the same ABI](https://github.com/rust-lang/rust/pull/55834)
+* [a few tweaks to iterations/collecting](https://github.com/rust-lang/rust/pull/55827)
+* [move `static_assert!` into librustc_data_structures](https://github.com/rust-lang/rust/pull/55805)
+* [wrap some query results in `Lrc`](https://github.com/rust-lang/rust/pull/55778)
+* [avoid converting bytes to UTF-8 strings to print, just pass bytes to stdout/err](https://github.com/rust-lang/rust/pull/55754)
+* [impl_stable_hash_for: support enums and tuple structs with generic parameters](https://github.com/rust-lang/rust/pull/55722)
+* [std: Synchronize access to global env during `exec`](https://github.com/rust-lang/rust/pull/55939)
+* [add mem::forget_unsized() for forgetting unsized values](https://github.com/rust-lang/rust/pull/55785)
+* [core/char: speed up `to_digit()` for `radix <= 10`](https://github.com/rust-lang/rust/pull/55932)
+* [add `VecDeque::resize_with`](https://github.com/rust-lang/rust/pull/56016)
+* [add `FromIterator<A>` to `Box<[A]>`](https://github.com/rust-lang/rust/pull/55843)
+* [speed up `String::from_utf16`](https://github.com/rust-lang/rust/pull/55530)
+* [cargo: add `c` alias for `check`](https://github.com/rust-lang/cargo/pull/6218)
+* [cargo: distinguish custom build invocations](https://github.com/rust-lang/cargo/pull/6331)
+* [cargo: allow crate_type=bin examples to run](https://github.com/rust-lang/cargo/pull/6330)
+* [rustdoc: properly calculate spans for intra-doc link resolution errors](https://github.com/rust-lang/rust/pull/55962)
 
 ## Approved RFCs
 
@@ -168,9 +166,9 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I’m also pretty sure that most languages would not go that far. The idea that the type plugged in has only one possible value, therefore it doesn’t need to be stored and methods on that don’t care about the `self` reference is pretty neat.
+> It’s like building stuff with LEGO. Sure, it could be a single type, but then you’d need a type for every possible combination of types, which would arguably be a whole lot worse.
 
-– Michael 'vorner' Vaner [on his blog](https://vorner.github.io/2018/11/11/truly-zero-cost.html)
+– Daniel Keep [on rust-users](https://users.rust-lang.org/t/help-getting-started-with-converting-c-project/22370/8)
 
 Thanks to llogiq for the suggestion!
 
