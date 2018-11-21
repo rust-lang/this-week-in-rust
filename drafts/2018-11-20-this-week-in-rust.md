@@ -16,7 +16,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [A verified email address will be required to publish to crates.io starting on 2019-02-28](https://users.rust-lang.org/t/a-verified-email-address-will-be-required-to-publish-to-crates-io-starting-on-2019-02-28/22425).
+* [Rust and game development](https://alexene.github.io/2018/11/15/Rust-and-game-development.html).
+* [Build your own shell using Rust](https://www.joshmcguigan.com/blog/build-your-own-shell-rust/).
+* [Stacked borrows implemented: An aliasing model for Rust](https://www.ralfj.de/blog/2018/11/16/stacked-borrows-implementation.html).
+* [Bringing Elm's architecture to Rust and Webassembly](https://sindrejohansen.no/blog/willow/rust/elm/2018/11/16/willow-elm-in-rust.html).
 * [Programming Servo: a background-hang-monitor](https://medium.com/programming-servo/programming-servo-a-background-hang-monitor-73e89185ce1).
+* [Compile time feature flags in Rust](https://www.worthe-it.co.za/programming/2018/11/18/compile-time-feature-flags-in-rust.html).
+* [Program synthesis is possible in Rust](http://fitzgeraldnick.com/2018/11/15/program-synthesis-is-possible-in-rust.html).
+* [This year in embedded Rust](https://rust-embedded.github.io/blog/2018-11-14-this-year-in-embedded-rust/).
 
 # Crate of the Week
 
@@ -33,7 +41,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-*No issues were proposed for CfP*.
+* [Mundane: Test that symbol version names are correct](https://github.com/google/mundane/issues/8).
+* [Mundane: Linker bug compiling on Linux](https://github.com/google/mundane/issues/3).
+* [Mundane: Pin to a particular version of BoringSSL](https://github.com/google/mundane/issues/10).
+* [gcode: WebAssembly showcase website](https://github.com/Michael-F-Bryan/gcode-rs/issues/32).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -157,12 +168,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Software Infrastructure Engineer - Engines at Blue Origin, Kent, US](https://careers-blueorigin.icims.com/jobs/3247/software-infrastructure-engineer---engines/job).
-* [Rust web developer at Impero, Denmark/remote](https://impero.com/job/full-stack-web-developer-rust/)
-* [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
 * [Software Engineer for Qwant Maps, Paris, FR](https://www.welcometothejungle.co/companies/qwant-research/jobs/software-engineer-qwant-maps_paris).
-* [Embedded operating system developer, Karlsruhe, DE](https://www.pse.kit.edu/karriere/joboffer.php?id=2093&language=en)
-* [Student research assistant (embedded), Karlsruhe, DE](https://twitter.com/oli_obk/status/1064856324071178240)
+* [Embedded operating system developer, Karlsruhe, DE](https://www.pse.kit.edu/karriere/joboffer.php?id=2093&language=en).
+* [Student research assistant (embedded), Karlsruhe, DE](https://twitter.com/oli_obk/status/1064856324071178240).
+* [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
