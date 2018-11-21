@@ -93,6 +93,7 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
+* [disposition: merge] [Stabilise exhaustive integer pattern matching](https://github.com/rust-lang/rfcs/pull/2591).
 * [disposition: merge] [Needle API (née Pattern API)](https://github.com/rust-lang/rfcs/pull/2500).
 * [disposition: close] [Add RFC for officially adopting Ferris](https://github.com/rust-lang/rfcs/pull/2328).
 
@@ -101,6 +102,9 @@ decision. Express your opinions now.
 * [disposition: merge] [[Stabilization] Pin APIs](https://github.com/rust-lang/rust/issues/55766).
 * [disposition: merge] [Refiling "#[repr(simd)] struct(isize, isize) not allowed"](https://github.com/rust-lang/rust/issues/55078).
 * [disposition: merge] [Tracking Issue: Duration::{as_nanos, as_micros, as_millis}](https://github.com/rust-lang/rust/issues/50202).
+* [disposition: merge] [Tracking issue for `?` macro repetition](https://github.com/rust-lang/rust/issues/48075).
+* [disposition: merge] [[Stabilization] Stablize using some arbitrary self types defined in std](https://github.com/rust-lang/rust/issues/55786).
+* [disposition: merge] [[beta] resolve: Implement edition hygiene for imports and absolute paths](https://github.com/rust-lang/rust/pull/56053).
 
 # Upcoming Events
 
