@@ -95,46 +95,45 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Linked list cursors](https://github.com/rust-lang/rfcs/pull/2570).
-* [disposition: close] [Create Editorconfig File as Part of Cargo Project](https://github.com/rust-lang/rfcs/pull/2549).
+* [disposition: merge] [Stabilise exhaustive integer pattern matching](https://github.com/rust-lang/rfcs/pull/2591).
+* [disposition: merge] [Needle API (née Pattern API)](https://github.com/rust-lang/rfcs/pull/2500).
+* [disposition: close] [Add RFC for officially adopting Ferris](https://github.com/rust-lang/rfcs/pull/2328).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [add FromIterator<A> to Box<[A]>](https://github.com/rust-lang/rust/pull/55843).
-* [disposition: merge] [Tracking issue for `literal` fragment specifier (RFC 1576)](https://github.com/rust-lang/rust/issues/35625).
-* [disposition: close] [Tracking issue for FnBox()](https://github.com/rust-lang/rust/issues/28796).
-
-## New RFCs
-
-* [Custom DSTs](https://github.com/rust-lang/rfcs/pull/2594).
-* [Enum variant types](https://github.com/rust-lang/rfcs/pull/2593).
-* [Stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592).
-* [Stabilise exhaustive integer pattern matching](https://github.com/rust-lang/rfcs/pull/2591).
+* [disposition: merge] [[Stabilization] Pin APIs](https://github.com/rust-lang/rust/issues/55766).
+* [disposition: merge] [Refiling "#[repr(simd)] struct(isize, isize) not allowed"](https://github.com/rust-lang/rust/issues/55078).
+* [disposition: merge] [Tracking Issue: Duration::{as_nanos, as_micros, as_millis}](https://github.com/rust-lang/rust/issues/50202).
+* [disposition: merge] [Tracking issue for `?` macro repetition](https://github.com/rust-lang/rust/issues/48075).
+* [disposition: merge] [[Stabilization] Stablize using some arbitrary self types defined in std](https://github.com/rust-lang/rust/issues/55786).
+* [disposition: merge] [[beta] resolve: Implement edition hygiene for imports and absolute paths](https://github.com/rust-lang/rust/pull/56053).
 
 # Upcoming Events
 
 ### Online
 
-* [Nov 19. Rust Community Content Subteam Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Nov 21. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Nov 28. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Dec  3. Rust Community Content Subteam Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Dec  5. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+
+### Africa
+
+* [Dec  5. Johannesburg, SA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/jdqplqyxqbhb/).
 
 ### Asia
 
-* [Nov 17. Chennai, IN - Monthly Meetup - November](https://www.meetup.com/mad-rs/events/256339435/).
+* [Nov 23. Delhi, IN- Rust workshop at Delhi, India]( https://reps.mozilla.org/e/rust-community-meetup-delhi/).
+* [Dec  6. Pune, IN - Rust workshop at Pune, India](https://reps.mozilla.org/e/rust-community-meetup-pune/).
 
 ### Europe
 
-* [Nov 15. Cambridge, GB - Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxpbtb/).
-* [Nov 15. Madrid, ES - Madrid Rust Meetup: Rust in Deliveroo](https://www.meetup.com/MadRust/events/256141489).
-* [Nov 17. Toulouse, FR - Capitole du Libre 2018 - Introduction à Rust](https://2018.capitoledulibre.org/programme/#introduction-a-rust-2).
-* [Nov 18. Toulouse, FR - Capitole du Libre 2018 - Initiation à Rust](https://2018.capitoledulibre.org/programme/#initiation-a-rust).
-* [Nov 20. Paris, FR - Rust Paris](http://www.meetup.com/Rust-Paris).
 * [Nov 21. Oslo, NO - Hack & Learn](https://www.meetup.com/Rust-Oslo/events/255966088/).
 * [Nov 21. Hamburg, DE - Rust Hack & Learn Nov 2018](https://www.meetup.com/Rust-Meetup-Hamburg/events/254969484/).
+* [Nov 22. Turin, IT - Rust Turin meetup](https://www.meetup.com/Mozilla-Torino/events/sbtclqyxpbdc/).
 * [Nov 24. St. Petersburg, RU - Rust Meetup](https://www.meetup.com/spbrust/events/bqctlqyxpbgc).
 * **[Nov 24 & 25. Rome, IT - RustFest Rome 2018](https://rome.rustfest.eu).**
 * [Nov 27. Sofia, BG - Rust Bulgaria @ Global Tech Summit](https://www.meetup.com/rust-bulgaria/events/256338832/).
+* [Nov 27. Vienna, AT - Rust - November Meetup](https://www.meetup.com/Rust-Vienna/events/256401313).
 * [Nov 28. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyxpblc/).
 * [Nov 29. Copenhagen, DK - Copenhagen Rust Group - Hack Night #11](http://cph.rs/).
 * [Dec  3. Karlsruhe, DE - Rust 2018 Edition](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/256200841/?_xtd=gqFyqTE5MzgwNjQ5OKFwp2FuZHJvaWQ&from=ref).
@@ -142,11 +141,20 @@ decision. Express your opinions now.
 
 ### North America
 
-* [Nov 18. Mountain View, US - Rust Dev in Mountain View](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxpbxb/).
 * [Nov 25. Mountain View, US - Rust Dev in Mountain View](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxpbhc/).
 * [Nov 26. Durham, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyxpbjc/).
 * [Nov 27. Dallas, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxpbkc/).
+* [Nov 27. Chicago, US - Chicago Rust Meetup - So You Want To Write A Protocol Client In Rust](https://www.meetup.com/Chicago-Rust-Meetup/events/255834903/).
 * [Nov 28. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/xttphqyxpblc/).
+* [Nov 28. Ann Arbor, US - Ann Arbor Rust Meetup](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/cgsskqyxpblc/).
+* [Dec  2. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxqbdb/).
+* [Dec  5. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/events/cbcmbqyxqbhb/).
+* [Dec  5. Indianopolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyxqbhb/).
+* [Dec  6. Phoenix, US - Phoenix 2018 Edition Release Party](https://www.meetup.com/Desert-Rustaceans/events/256503618).
+
+### South America
+
+* [Nov 24. Sao Paulo, BR - Rust Meetup: Sao Paulo](https://www.meetup.com/Rust-Sao-Paulo-Meetup/events/255942981/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
