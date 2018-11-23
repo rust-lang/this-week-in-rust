@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+*  [Why should we use Rust in Digital Forensics? - Conference talk: DSS ITSEC 2018](https://www.youtube.com/watch?v=7-aGVOoYvqE)
+
 # Crate of the Week
 
 This week's crate is [cargo-sweep](https://github.com/holmgr/cargo-sweep), a cargo subcommand to clean cargo's various temporaries. Thanks to [Viktor Holmgren](https://users.rust-lang.org/t/crate-of-the-week/2704/470) for the suggestion!
