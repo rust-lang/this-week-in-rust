@@ -110,12 +110,19 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [[Stabilization] Pin APIs](https://github.com/rust-lang/rust/issues/55766).
-* [disposition: merge] [Refiling "#[repr(simd)] struct(isize, isize) not allowed"](https://github.com/rust-lang/rust/issues/55078).
-* [disposition: merge] [Tracking Issue: Duration::{as_nanos, as_micros, as_millis}](https://github.com/rust-lang/rust/issues/50202).
-* [disposition: merge] [Tracking issue for `?` macro repetition](https://github.com/rust-lang/rust/issues/48075).
 * [disposition: merge] [[Stabilization] Stablize using some arbitrary self types defined in std](https://github.com/rust-lang/rust/issues/55786).
-* [disposition: merge] [[beta] resolve: Implement edition hygiene for imports and absolute paths](https://github.com/rust-lang/rust/pull/56053).
+* [disposition: merge] [experiment: Support aliasing local crate root in extern prelude](https://github.com/rust-lang/rust/pull/55275).
+* [disposition: merge] [Refiling "#[repr(simd)] struct(isize, isize) not allowed"](https://github.com/rust-lang/rust/issues/55078).
+* [disposition: merge] [Tracking issue for inclusion of `derive` in lint `unused_attributes`](https://github.com/rust-lang/rust/issues/54651).
+* [disposition: merge] [Tracking issue for RFC 2361, "Simpler alternative dbg!() macro"](https://github.com/rust-lang/rust/issues/54306).
+* [disposition: merge] [Tracking issue for RFC 2302, Tuple struct construction with `Self(v1, v2, ..)`](https://github.com/rust-lang/rust/issues/51994).
+* [disposition: merge] [tracking issue for `?` macro repetition](https://github.com/rust-lang/rust/issues/48075).
+
+## New RFCs
+
+* [Symbol Mangling v2](https://github.com/rust-lang/rfcs/pull/2603).
+* [#[attribute]s galore](https://github.com/rust-lang/rfcs/pull/2602).
+* [Multiple Attributes in an Attribute Container](https://github.com/rust-lang/rfcs/pull/2600).
 
 # Upcoming Events
 
