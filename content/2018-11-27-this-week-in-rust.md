@@ -24,8 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Bootstrapping an embedded Rust development environment](https://josh.robsonchase.com/embedded-bootstrapping/).
 * [Tide's evolving middleware approach](https://rust-lang-nursery.github.io/wg-net/2018/11/27/tide-middleware-evolution.html).
 * [Rust traits and their (lack of) privacy](https://phaazon.net/blog/rust-traits-privacy).
-* [Generic Methods in Rust: How Exonum Shifted from Iron to Actix-web](https://medium.com/meetbitfury/generic-methods-in-rust-how-exonum-shifted-from-iron-to-actix-web-7a2752171388).
 * [Serverless HTTP](https://medium.com/@softprops/serverless-http-9a58f9b2df60).
+* [Generic methods in Rust: How Exonum shifted from Iron to Actix-web](https://medium.com/meetbitfury/generic-methods-in-rust-how-exonum-shifted-from-iron-to-actix-web-7a2752171388).
 * [Rust+GNOME Hackfest 4](http://antoyo.ml/rust-gnome-hackfest-thessaloniki).
 * [Amethyst Foundation has been formed](https://www.amethyst.rs/blog/non-profit-announce/).
 * [Rust language cheat sheet (cheats.rs)](https://cheats.rs).
