@@ -67,7 +67,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [debug: fix `VecDeque` pretty-printer](https://github.com/rust-lang/rust/pull/55961)
 * [debug: fix `BTreeSet` and `BTreeMap` gdb pretty-printers](https://github.com/rust-lang/rust/pull/56144)
 * [do not panic just because cargo failed](https://github.com/rust-lang/rust/pull/55867)
-* [cargo: allow `crate_type=bin` examples to run](Allow crate_type=bin examples to run)
+* [cargo: allow `crate_type=bin` examples to run](https://github.com/rust-lang/cargo/pull/6330)
 
 ## Approved RFCs
 
