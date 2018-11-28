@@ -35,7 +35,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [modulator](https://crates.io/crates/modulator), a crate of abstract modulators for use in audio synthesizers (and possibly elsewhere). Thanks to [Andrea Pessino](https://www.youtube.com/watch?v=n-txrCMvdms) for the suggestion!
+This week's crate is [modulator](https://crates.io/crates/modulator), a crate of abstract modulators for use in audio synthesizers (and possibly elsewhere). Thanks to [Andrea Pessino](https://twitter.com/AndreaPessino/status/1065409923553517568) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
