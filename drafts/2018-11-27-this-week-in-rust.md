@@ -17,6 +17,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 - [Rust Latam CFP is now open, deadline is December 31st.](https://cfp.rustlatam.org/events/rust-latam) Also [ticket sales are open](https://rustlatam.org/#tickets).
 
+ * [Rust Language Cheat Sheet (cheats.rs)](https://cheats.rs).
+
 # Crate of the Week
 
 This week's crate is [cargo-sweep](https://github.com/holmgr/cargo-sweep), a cargo subcommand to clean cargo's various temporaries. Thanks to [Viktor Holmgren](https://users.rust-lang.org/t/crate-of-the-week/2704/470) for the suggestion!
