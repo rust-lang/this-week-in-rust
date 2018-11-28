@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+- [Rust Latam CFP is now open, deadline is December 31st.](https://cfp.rustlatam.org/events/rust-latam) Also [ticket sales are open](https://rustlatam.org/#tickets).
 
 # Crate of the Week
 
