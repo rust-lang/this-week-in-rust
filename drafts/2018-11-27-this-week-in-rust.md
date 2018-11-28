@@ -21,7 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [cargo-sweep](https://github.com/holmgr/cargo-sweep), a cargo subcommand to clean cargo's various temporaries. Thanks to [Viktor Holmgren](https://users.rust-lang.org/t/crate-of-the-week/2704/470) for the suggestion!
+This week's crate is [modulator](https://crates.io/crates/modulator), a crate of abstract modulators for use in audio synthesizers (and possibly elsewhere). Thanks to [Andrea Pessino](https://www.youtube.com/watch?v=n-txrCMvdms) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -45,41 +45,35 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-124 pull requests were [merged in the last week][merged]
+173 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-11-12..2018-11-19
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-11-19..2018-11-26
 
-* [remove "approx env bounds" if we already know from trait](https://github.com/rust-lang/rust/pull/56043)
-* [resolve: implement uniform paths 2.0](https://github.com/rust-lang/rust/pull/56042)
-* [chalk lowering rule: ProjectionEq-Normalize](https://github.com/rust-lang/rust/pull/52153)
-* [miri backtrace improvements](https://github.com/rust-lang/rust/pull/55970)
-* [fix emission of niche-filling discriminant values](https://github.com/rust-lang/rust/pull/55701)
-* [avoid shared ref in UnsafeCell::get](https://github.com/rust-lang/rust/pull/56012)
-* [CTFE: dynamically make sure we do not call non-const-fn](https://github.com/rust-lang/rust/pull/56007)
-* [reattach all grandchildren when constructing specialization graph](https://github.com/rust-lang/rust/pull/54906)
-* [ty: return impl Iterator from Predicate::walk_tys](https://github.com/rust-lang/rust/pull/55949)
-* [a handful of hir tweaks](https://github.com/rust-lang/rust/pull/55930)
-* [make miri value visitor useful for mutation](https://github.com/rust-lang/rust/pull/55916)
-* [miri enum discriminant handling: Fix treatment of pointers, better error when it is undef](https://github.com/rust-lang/rust/pull/55894)
-* [more precise spans for temps and their drops](https://github.com/rust-lang/rust/pull/55781)
-* [reference count `crate_inherent_impls`s return value](https://github.com/rust-lang/rust/pull/55882)
-* [unix RwLock: avoid racy access to write_locked](https://github.com/rust-lang/rust/pull/55865)
-* [forward the ABI of the non-zero sized fields of an union if they have the same ABI](https://github.com/rust-lang/rust/pull/55834)
-* [a few tweaks to iterations/collecting](https://github.com/rust-lang/rust/pull/55827)
-* [move `static_assert!` into librustc_data_structures](https://github.com/rust-lang/rust/pull/55805)
-* [wrap some query results in `Lrc`](https://github.com/rust-lang/rust/pull/55778)
-* [avoid converting bytes to UTF-8 strings to print, just pass bytes to stdout/err](https://github.com/rust-lang/rust/pull/55754)
-* [impl_stable_hash_for: support enums and tuple structs with generic parameters](https://github.com/rust-lang/rust/pull/55722)
-* [std: Synchronize access to global env during `exec`](https://github.com/rust-lang/rust/pull/55939)
-* [add mem::forget_unsized() for forgetting unsized values](https://github.com/rust-lang/rust/pull/55785)
-* [core/char: speed up `to_digit()` for `radix <= 10`](https://github.com/rust-lang/rust/pull/55932)
-* [add `VecDeque::resize_with`](https://github.com/rust-lang/rust/pull/56016)
-* [add `FromIterator<A>` to `Box<[A]>`](https://github.com/rust-lang/rust/pull/55843)
-* [speed up `String::from_utf16`](https://github.com/rust-lang/rust/pull/55530)
-* [cargo: add `c` alias for `check`](https://github.com/rust-lang/cargo/pull/6218)
-* [cargo: distinguish custom build invocations](https://github.com/rust-lang/cargo/pull/6331)
-* [cargo: allow crate_type=bin examples to run](https://github.com/rust-lang/cargo/pull/6330)
-* [rustdoc: properly calculate spans for intra-doc link resolution errors](https://github.com/rust-lang/rust/pull/55962)
+* [lint if a private item has doctests](https://github.com/rust-lang/rust/pull/55367)
+* [fix self profiler ICE on Windows](https://github.com/rust-lang/rust/pull/56170)
+* [allow `#[must_use]` on traits](https://github.com/rust-lang/rust/pull/55663)
+* [suggest correct syntax when writing type arg instead of assoc type](https://github.com/rust-lang/rust/pull/55808)
+* [`match_ref_pats`: don't emit suggestions inside of a macro](https://github.com/rust-lang/rust-clippy/pull/3432)
+* [fix stability hole with `static _](https://github.com/rust-lang/rust/pull/55983)
+* [stabilize `macro_literal_matcher`](https://github.com/rust-lang/rust/pull/56072)
+* [check arg/ret sizedness at `ExprKind::Path`](https://github.com/rust-lang/rust/pull/56045)
+* [miri: accept extern types in structs if they are the only field](https://github.com/rust-lang/rust/pull/55672)
+* [miri engine refactoring](https://github.com/rust-lang/rust/pull/55915)
+* [allow assignments in const contexts](https://github.com/rust-lang/rust/pull/56070)
+* [clean up and streamline snapshot data structures](https://github.com/rust-lang/rust/pull/55906)
+* [remove clones made redundant by Intern `SourceId`](https://github.com/rust-lang/cargo/pull/6347)
+* [cleanup from lexical MIR borrowck removal](https://github.com/rust-lang/rust/pull/55959)
+* [stabilize `extern_crate_item_prelude`](https://github.com/rust-lang/rust/pull/56032)
+* [generator fields are not necessarily initialized](https://github.com/rust-lang/rust/pull/56100)
+* [stabilize the `int_to_from_bytes` feature](https://github.com/rust-lang/rust/pull/56207)
+* [add `std::iter::unfold`](https://github.com/rust-lang/rust/pull/55869)
+* [`read_c_str` should call the `AllocationExtra` hooks](https://github.com/rust-lang/rust/pull/56210)
+* [implement `checked_add_duration` for `SystemTime`](https://github.com/rust-lang/rust/pull/55527)
+* [return `&T` / `&mut T` in `ManuallyDrop` `Deref`(`Mut`) impl](https://github.com/rust-lang/rust/pull/55485)
+* [debug: fix `VecDeque` pretty-printer](https://github.com/rust-lang/rust/pull/55961)
+* [debug: fix `BTreeSet` and `BTreeMap` gdb pretty-printers](https://github.com/rust-lang/rust/pull/56144)
+* [do not panic just because cargo failed](https://github.com/rust-lang/rust/pull/55867)
+* [cargo: allow `crate_type=bin` examples to run](Allow crate_type=bin examples to run)
 
 ## Approved RFCs
 
@@ -173,9 +167,9 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> It’s like building stuff with LEGO. Sure, it could be a single type, but then you’d need a type for every possible combination of types, which would arguably be a whole lot worse.
+> "I did not want to inflict memory management on my son" – @M_a_s_s_i
 
-– Daniel Keep [on rust-users](https://users.rust-lang.org/t/help-getting-started-with-converting-c-project/22370/8)
+– Massimiliano Mantione [during his RustFest talk](https://twitter.com/RustFest/status/1058302698834087936)
 
 Thanks to llogiq for the suggestion!
 
