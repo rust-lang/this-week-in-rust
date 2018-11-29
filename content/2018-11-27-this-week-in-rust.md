@@ -31,7 +31,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust language cheat sheet (cheats.rs)](https://cheats.rs).
 * [Rust Latam CFP is now open, deadline is December 31st](https://cfp.rustlatam.org/events/rust-latam). Also [ticket sales are open](https://rustlatam.org/#tickets).
 * [Videos from Rust Belt Rust 2018 are now available](https://www.youtube.com/playlist?list=PLgC1L0fKd7UlpVTHVfLYVtudVx8CzbSxW).
-* [Videos from Rustfest 2018 Rome](https://media.ccc.de/c/rustfest18rome).
 
 # Crate of the Week
 
