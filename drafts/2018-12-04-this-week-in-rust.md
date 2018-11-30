@@ -157,6 +157,8 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Rust Engineer at Layer1 Capital, San Francisco, US](https://angel.co/layer1-capital/jobs/459718-rust-engineer).
+* [Embedded operating system developer, Karlsruhe, DE](https://www.pse.kit.edu/karriere/joboffer.php?id=2093&language=en)
+* [Student research assistant (embedded), Karlsruhe, DE](https://twitter.com/oli_obk/status/1064856324071178240)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
