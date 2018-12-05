@@ -117,7 +117,6 @@ decision. Express your opinions now.
 ### Europe
 
 * [Dec  5. Cologne, DE - Cologne meetup](https://rust.cologne/2018/12/05/rust-2018-eve.html).
-* [Dec  6. Gouda, NL - Rust Gouda - Rust 2018 edition release party](https://www.meetup.com/Rust-Gouda/events/254877742/).
 * [Dec 10. Vienna, AT - Metalab - Rust Workshop](https://metalab.at/wiki/Rust-Workshop).
 * [Dec 11. Zurich, CH - Rust Zurich - Rust Embedded Edition 2018](https://www.meetup.com/Rust-Zurich/events/255279763/).
 * [Dec 12. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyxqbqb/).
