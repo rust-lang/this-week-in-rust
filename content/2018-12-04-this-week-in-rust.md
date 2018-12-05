@@ -162,7 +162,8 @@ Email the [Rust Community Team][community] for access.
 
 * [Software Infrastructure Engineer - Engines at Blue Origin, Kent, US](https://careers-blueorigin.icims.com/jobs/3247/software-infrastructure-engineer---engines/job).
 * [Rust Engineer at Commure, Inc. (San Francisco, Boston, Montreal)](https://www.commure.com/#jobSection).
-* [Intermediate Software Developer at Finhaven, Vancouver](https://angel.co/finhaven/jobs/411238-intermediate-software-developer).
+* [Intermediate Software Developer at Finhaven, Vancouver, CA](https://angel.co/finhaven/jobs/411238-intermediate-software-developer).
+* [Tech Lead at Hashintel, London, GB](https://twitter.com/nonparibus/status/1067893414765764614).
 * [Embedded operating system developer, Karlsruhe, DE](https://www.pse.kit.edu/karriere/joboffer.php?id=2093&language=en)
 * [Student research assistant (embedded), Karlsruhe, DE](https://twitter.com/oli_obk/status/1064856324071178240)
 
