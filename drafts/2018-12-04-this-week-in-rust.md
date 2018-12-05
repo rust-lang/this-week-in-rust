@@ -16,6 +16,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [A new look for rust-lang.org](https://blog.rust-lang.org/2018/11/29/a-new-look-for-rust-lang-org.html).
+* [Rust Quiz: 26 medium to hard Rust questions with complete explanations](https://dtolnay.github.io/rust-quiz/18).
+* [Announcing RustaCUDA](https://bheisler.github.io/post/announcing-rustacuda/).
+* [The Bug I did not have](https://www.reddit.com/r/rust/comments/a1w75c/the_bug_i_did_not_have/).
+* [Official Rust runtime for AWS Lambda](https://aws.amazon.com/blogs/opensource/rust-runtime-for-aws-lambda/).
+* [Creating my first AWS Lambda using Rust](https://medium.com/@kkostov/rust-aws-lambda-30a1b92d4009).
+* [How I wrote a modern C++ library in Rust](https://hsivonen.fi/modern-cpp-in-rust/).
+* [Using Passenger with Rust](https://www.phusionpassenger.com/docs/advanced_guides/gls/rust.html).
+* [wasm-bindgen — how does it work](http://fitzgeraldnick.com/2018/12/02/wasm-bindgen-how-does-it-work.html)?
+* [Rust web survey 2018](https://rust-lang-nursery.github.io/wg-net/2018/11/28/wg-net-survey.html).
+* [This Week in Rust and WebAssembly 9](https://rustwasm.github.io/2018/11/28/this-week-in-rust-wasm-009.html).
+
 # Crate of the Week
 
 This week's crate is [modulator](https://crates.io/crates/modulator), a crate of abstract modulators for use in audio synthesizers (and possibly elsewhere). Thanks to [Andrea Pessino](https://www.youtube.com/watch?v=n-txrCMvdms) for the suggestion!
@@ -78,19 +90,26 @@ are the RFCs that were approved for implementation this week:
 
 *No RFCs were approved this week.*
 
+* [RFC 2591: Stabilise exhaustive integer pattern matching](https://github.com/rust-lang/rfcs/pull/2591).
+* [RFC 2500: Needle API (née Pattern API)](https://github.com/rust-lang/rfcs/pull/2500).
+
 ## Final Comment Period
 
 Every week [the team](https://www.rust-lang.org/team.html) announces the
 'final comment period' for RFCs and key PRs which are reaching a
 decision. Express your opinions now.
 
+### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+*No RFCs are currently in final comment period.*
+
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [Stabilize memory-releated `std::arch::wasm32` intrinsics](https://github.com/rust-lang/rust/issues/56292).
-* [disposition: close] [Tracking issue for feature `extern_in_paths`](https://github.com/rust-lang/rust/issues/55600).
 * [disposition: merge] [Tracking issue for RFC 2300, "`Self` in type definitions"](https://github.com/rust-lang/rust/issues/49303).
 * [disposition: merge] [Tracking issue for str::split_ascii_whitespace](https://github.com/rust-lang/rust/issues/48656).
 * [disposition: merge] [Tracking issue for Vec::resize_with and resize_default](https://github.com/rust-lang/rust/issues/41758).
+* [disposition: close] [Tracking issue for feature `extern_in_paths`](https://github.com/rust-lang/rust/issues/55600).
 
 ## New RFCs
 
@@ -100,34 +119,28 @@ decision. Express your opinions now.
 
 ### Online
 
-* [Dec  5. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Dec 12. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Dec 17. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Dec 19. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 
-### Africa
-
-* [Dec  5. Johannesburg, SA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/jdqplqyxqbhb/).
-
-### Asia
+### Asia Pacific
 
 * [Dec  6. Pune, IN - Rust workshop at Pune, India](https://reps.mozilla.org/e/rust-community-meetup-pune/).
 * [Dec 12. Hangzhou, CN - Rust Hangzhou](https://www.meetup.com/Rust-Hangzhou/events/256338781/).
-* [Dec 15. Chennai, IN - Rust Monthly Meetup - February](https://www.meetup.com/mad-rs/).
+* [Dec 16. Sydney, AU - Rust Sydney Meetup 15](https://www.meetup.com/Rust-Sydney/events/256668602/).
 
 ### Europe
 
-* [Dec  5. Cologne, DE - Cologne meetup](https://rust.cologne/2018/12/05/rust-2018-eve.html).
 * [Dec 10. Vienna, AT - Metalab - Rust Workshop](https://metalab.at/wiki/Rust-Workshop).
 * [Dec 11. Zurich, CH - Rust Zurich - Rust Embedded Edition 2018](https://www.meetup.com/Rust-Zurich/events/255279763/).
 * [Dec 12. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyxqbqb/).
 * [Dec 12. Milano, IT - Milano - Hello Open Closed Principle](https://www.meetup.com/rust-language-milano/events/256948632/).
 * [Dec 15 & 16. Moscow, RU - RustRush 2018](https://rustrush.ru).
+* [Dec 20. Cambridge, GB - The Last Cambridge Rust](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxqbbc/)?
+* [Dec 20. Turin, IT - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/sbtclqyxqbkc/).
 
 ### North America
 
-* [Dec  5. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/events/cbcmbqyxqbhb/).
-* [Dec  5. Indianopolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyxqbhb/).
 * [Dec  6. Phoenix, US - Phoenix 2018 Edition Release Party](https://www.meetup.com/Desert-Rustaceans/events/256503618).
 * [Dec  9. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxqbmb/).
 * [Dec 10. Seattle, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/pkggvpyxqbnb/).
@@ -138,10 +151,7 @@ decision. Express your opinions now.
 * [Dec 13. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/255209738/).
 * [Dec 13. San Diego, US - San Diego Rust December Meetup - Rust 2018 Overview + Memory Allocator](https://www.meetup.com/San-Diego-Rust/events/256264465/).
 * [Dec 16. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxqbvb/).
-
-### Oceania
-
-* [Dec 16. Sydney, AU - Rust Sydney Meetup 15](https://www.meetup.com/Rust-Sydney/events/256668602/).
+* [Dec 20. Chicago, US - Rust for the Holidays](https://www.meetup.com/Chicago-Rust-Meetup/events/256778181).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -152,7 +162,9 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Engineer at Layer1 Capital, San Francisco, US](https://angel.co/layer1-capital/jobs/459718-rust-engineer).
+* [Software Infrastructure Engineer - Engines at Blue Origin, Kent, US](https://careers-blueorigin.icims.com/jobs/3247/software-infrastructure-engineer---engines/job).
+* [Rust Engineer at Commure, Inc. (San Francisco, Boston, Montreal)](https://www.commure.com/#jobSection).
+* [Intermediate Software Developer at Finhaven, Vancouver](https://angel.co/finhaven/jobs/411238-intermediate-software-developer).
 * [Embedded operating system developer, Karlsruhe, DE](https://www.pse.kit.edu/karriere/joboffer.php?id=2093&language=en)
 * [Student research assistant (embedded), Karlsruhe, DE](https://twitter.com/oli_obk/status/1064856324071178240)
 
