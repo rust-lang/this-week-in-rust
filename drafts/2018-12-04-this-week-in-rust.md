@@ -84,35 +84,26 @@ Every week [the team](https://www.rust-lang.org/team.html) announces the
 'final comment period' for RFCs and key PRs which are reaching a
 decision. Express your opinions now.
 
-### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-
-* [disposition: merge] [Stabilise exhaustive integer pattern matching](https://github.com/rust-lang/rfcs/pull/2591).
-* [disposition: merge] [Needle API (née Pattern API)](https://github.com/rust-lang/rfcs/pull/2500).
-* [disposition: close] [Add RFC for officially adopting Ferris](https://github.com/rust-lang/rfcs/pull/2328).
-
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [[Stabilization] Stablize using some arbitrary self types defined in std](https://github.com/rust-lang/rust/issues/55786).
-* [disposition: merge] [Wxperiment: Support aliasing local crate root in extern prelude](https://github.com/rust-lang/rust/pull/55275).
-* [disposition: merge] [Refiling "#[repr(simd)] struct(isize, isize) not allowed"](https://github.com/rust-lang/rust/issues/55078).
-* [disposition: merge] [Tracking issue for inclusion of `derive` in lint `unused_attributes`](https://github.com/rust-lang/rust/issues/54651).
-* [disposition: merge] [Tracking issue for RFC 2361, "Simpler alternative dbg!() macro"](https://github.com/rust-lang/rust/issues/54306).
-* [disposition: merge] [Tracking issue for RFC 2302, Tuple struct construction with `Self(v1, v2, ..)`](https://github.com/rust-lang/rust/issues/51994).
-* [disposition: merge] [tracking issue for `?` macro repetition](https://github.com/rust-lang/rust/issues/48075).
+* [disposition: merge] [Stabilize memory-releated `std::arch::wasm32` intrinsics](https://github.com/rust-lang/rust/issues/56292).
+* [disposition: close] [Tracking issue for feature `extern_in_paths`](https://github.com/rust-lang/rust/issues/55600).
+* [disposition: merge] [Tracking issue for RFC 2300, "`Self` in type definitions"](https://github.com/rust-lang/rust/issues/49303).
+* [disposition: merge] [Tracking issue for str::split_ascii_whitespace](https://github.com/rust-lang/rust/issues/48656).
+* [disposition: merge] [Tracking issue for Vec::resize_with and resize_default](https://github.com/rust-lang/rust/issues/41758).
 
 ## New RFCs
 
-* [Symbol Mangling v2](https://github.com/rust-lang/rfcs/pull/2603).
-* [#[attribute]s galore](https://github.com/rust-lang/rfcs/pull/2602).
-* [Multiple Attributes in an Attribute Container](https://github.com/rust-lang/rfcs/pull/2600).
+* [impl trait expressions](https://github.com/rust-lang/rfcs/pull/2604).
 
 # Upcoming Events
 
 ### Online
 
-* [Dec  3. Rust Community Content Subteam Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Dec  5. Rust Events Team Meeting in Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Dec 12. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Dec 17. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Dec 19. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 
 ### Africa
 
@@ -122,31 +113,35 @@ decision. Express your opinions now.
 
 * [Dec  6. Pune, IN - Rust workshop at Pune, India](https://reps.mozilla.org/e/rust-community-meetup-pune/).
 * [Dec 12. Hangzhou, CN - Rust Hangzhou](https://www.meetup.com/Rust-Hangzhou/events/256338781/).
+* [Dec 15. Chennai, IN - Rust Monthly Meetup - February](https://www.meetup.com/mad-rs/).
 
 ### Europe
 
-* [Nov 29. Copenhagen, DK - Copenhagen Rust Group - Hack Night #11](http://cph.rs/).
-* [Dec  3. Karlsruhe, DE - Rust 2018 Edition](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/256200841/?_xtd=gqFyqTE5MzgwNjQ5OKFwp2FuZHJvaWQ&from=ref).
 * [Dec  5. Cologne, DE - Cologne meetup](https://rust.cologne/2018/12/05/rust-2018-eve.html).
-* [Dec  6. Gouda, NL - Rust Gouda - Rust 2018 edition release party](https://www.meetup.com/Rust-Gouda/events/254877742/).
 * [Dec 10. Vienna, AT - Metalab - Rust Workshop](https://metalab.at/wiki/Rust-Workshop).
 * [Dec 11. Zurich, CH - Rust Zurich - Rust Embedded Edition 2018](https://www.meetup.com/Rust-Zurich/events/255279763/).
 * [Dec 12. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyxqbqb/).
+* [Dec 12. Milano, IT - Milano - Hello Open Closed Principle](https://www.meetup.com/rust-language-milano/events/256948632/).
 * [Dec 15 & 16. Moscow, RU - RustRush 2018](https://rustrush.ru).
 
 ### North America
 
-* [Dec  2. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxqbdb/).
 * [Dec  5. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/events/cbcmbqyxqbhb/).
 * [Dec  5. Indianopolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyxqbhb/).
 * [Dec  6. Phoenix, US - Phoenix 2018 Edition Release Party](https://www.meetup.com/Desert-Rustaceans/events/256503618).
 * [Dec  9. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxqbmb/).
 * [Dec 10. Seattle, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/pkggvpyxqbnb/).
 * [Dec 12. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rzszlqyxqbqb/).
+* [Dec 12. Boulder, US - Rust Boulder/Denver Monthly Meeting](https://www.meetup.com/Rust-Boulder-Denver/events/256949931/).
 * [Dec 13. Arlington, US - Rust DC — Mid-month Rustful](https://www.meetup.com/RustDC/events/256181658).
 * [Dec 13. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxqbrb/).
 * [Dec 13. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/255209738/).
 * [Dec 13. San Diego, US - San Diego Rust December Meetup - Rust 2018 Overview + Memory Allocator](https://www.meetup.com/San-Diego-Rust/events/256264465/).
+* [Dec 16. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxqbvb/).
+
+### Oceania
+
+* [Dec 16. Sydney, AU - Rust Sydney Meetup 15](https://www.meetup.com/Rust-Sydney/events/256668602/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
