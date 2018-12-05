@@ -30,7 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [modulator](https://crates.io/crates/modulator), a crate of abstract modulators for use in audio synthesizers (and possibly elsewhere). Thanks to [Andrea Pessino](https://www.youtube.com/watch?v=n-txrCMvdms) for the suggestion!
+This week's crate is [cargo-call-stack](https://github.com/japaric/cargo-call-stack), a cargo subcommand for whole-program call stack analysis. Thanks to [Jorge Aparicio](https://mobile.twitter.com/japaricious/status/1069569802241486850) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -52,35 +52,33 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-173 pull requests were [merged in the last week][merged]
+254 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-11-19..2018-11-26
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-11-26..2018-12-03
 
-* [lint if a private item has doctests](https://github.com/rust-lang/rust/pull/55367)
-* [fix self profiler ICE on Windows](https://github.com/rust-lang/rust/pull/56170)
-* [allow `#[must_use]` on traits](https://github.com/rust-lang/rust/pull/55663)
-* [suggest correct syntax when writing type arg instead of assoc type](https://github.com/rust-lang/rust/pull/55808)
-* [`match_ref_pats`: don't emit suggestions inside of a macro](https://github.com/rust-lang/rust-clippy/pull/3432)
-* [fix stability hole with `static _](https://github.com/rust-lang/rust/pull/55983)
-* [stabilize `macro_literal_matcher`](https://github.com/rust-lang/rust/pull/56072)
-* [check arg/ret sizedness at `ExprKind::Path`](https://github.com/rust-lang/rust/pull/56045)
-* [miri: accept extern types in structs if they are the only field](https://github.com/rust-lang/rust/pull/55672)
-* [miri engine refactoring](https://github.com/rust-lang/rust/pull/55915)
-* [allow assignments in const contexts](https://github.com/rust-lang/rust/pull/56070)
-* [clean up and streamline snapshot data structures](https://github.com/rust-lang/rust/pull/55906)
-* [remove clones made redundant by Intern `SourceId`](https://github.com/rust-lang/cargo/pull/6347)
-* [cleanup from lexical MIR borrowck removal](https://github.com/rust-lang/rust/pull/55959)
-* [stabilize `extern_crate_item_prelude`](https://github.com/rust-lang/rust/pull/56032)
-* [generator fields are not necessarily initialized](https://github.com/rust-lang/rust/pull/56100)
-* [stabilize the `int_to_from_bytes` feature](https://github.com/rust-lang/rust/pull/56207)
-* [add `std::iter::unfold`](https://github.com/rust-lang/rust/pull/55869)
-* [`read_c_str` should call the `AllocationExtra` hooks](https://github.com/rust-lang/rust/pull/56210)
-* [implement `checked_add_duration` for `SystemTime`](https://github.com/rust-lang/rust/pull/55527)
-* [return `&T` / `&mut T` in `ManuallyDrop` `Deref`(`Mut`) impl](https://github.com/rust-lang/rust/pull/55485)
-* [debug: fix `VecDeque` pretty-printer](https://github.com/rust-lang/rust/pull/55961)
-* [debug: fix `BTreeSet` and `BTreeMap` gdb pretty-printers](https://github.com/rust-lang/rust/pull/56144)
-* [do not panic just because cargo failed](https://github.com/rust-lang/rust/pull/55867)
-* [cargo: allow `crate_type=bin` examples to run](https://github.com/rust-lang/cargo/pull/6330)
+* [decouple proc_macro from the rest of the compiler](https://github.com/rust-lang/rust/pull/49219)
+* [implement chalk unification routines](https://github.com/rust-lang/rust/pull/56214)
+* [upgrade LLVM to trunk, still version 8](https://github.com/rust-lang/rust/pull/55835)
+* [another LLVM Update](https://github.com/rust-lang/rust/pull/56313) and [Re-enable lldb](https://github.com/rust-lang/rust/pull/56298)
+* [use sort_by_cached_key when the key function is not trivial/free](https://github.com/rust-lang/rust/pull/55821)
+* [deduplicate literal → constant lowering](https://github.com/rust-lang/rust/pull/56312)
+* [use `MaybeUninit` instead of `mem::uninitialized` for Windows Mutex](https://github.com/rust-lang/rust/pull/56275)
+* [libcore: add VaList and variadic arg handling intrinsics](https://github.com/rust-lang/rust/pull/49878)
+* [arena: speed up TypedArena::clear and improve common patterns](https://github.com/rust-lang/rust/pull/56378)
+* [stabilize `macro_at_most_once_rep`](https://github.com/rust-lang/rust/pull/56245)
+* [stabilize `dbg!(..)`](https://github.com/rust-lang/rust/pull/56395)
+* [stabilize `self_in_typedefs`](https://github.com/rust-lang/rust/pull/56366)
+* [stabilize `self_struct_ctor`](https://github.com/rust-lang/rust/pull/56365)
+* [remove unsafe `unsafe` inner function](https://github.com/rust-lang/rust/pull/56236)
+* [add `TryFrom<&[T]> for [T; $N] where T: Copy`](https://github.com/rust-lang/rust/pull/56216)
+* [move VecDeque::resize_with out of the impl<T:Clone> block](https://github.com/rust-lang/rust/pull/56401)
+* [use allow-dirty option in `cargo package` to skip vcs checks](https://github.com/rust-lang/cargo/pull/6280)
+* [make `ParseIntError` and `IntErrorKind` fully public](https://github.com/rust-lang/rust/pull/55705)
+* [use MaybeUninit in libcore](https://github.com/rust-lang/rust/pull/54668)
+* [fix futures creating aliasing mutable and shared ref](https://github.com/rust-lang/rust/pull/56319)
+* [add libstd Cargo feature `panic_immediate_abort`](https://github.com/rust-lang/rust/pull/55011)
+* [cargo: ConflictStoreTrie: faster filtered search](https://github.com/rust-lang/cargo/pull/6366)
+* [crates.io: email verification warning](https://github.com/rust-lang/crates.io/pull/1565)
 
 ## Approved RFCs
 
@@ -172,11 +170,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> "I did not want to inflict memory management on my son" – @M_a_s_s_i
+> The bug I did not have
 
-– Massimiliano Mantione [during his RustFest talk](https://twitter.com/RustFest/status/1058302698834087936)
+– /u/pacman82's [reddit post](https://www.reddit.com/r/rust/comments/a1w75c/the_bug_i_did_not_have/) title
 
-Thanks to llogiq for the suggestion!
+Thanks to [Felix](https://users.rust-lang.org/t/twir-quote-of-the-week/328/582) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
