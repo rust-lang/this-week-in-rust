@@ -19,7 +19,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [A new look for rust-lang.org](https://blog.rust-lang.org/2018/11/29/a-new-look-for-rust-lang-org.html).
 * [Rust Quiz: 26 medium to hard Rust questions with complete explanations](https://dtolnay.github.io/rust-quiz/18).
 * [Announcing RustaCUDA](https://bheisler.github.io/post/announcing-rustacuda/).
-* [The Bug I did not have](https://www.reddit.com/r/rust/comments/a1w75c/the_bug_i_did_not_have/).
 * [Official Rust runtime for AWS Lambda](https://aws.amazon.com/blogs/opensource/rust-runtime-for-aws-lambda/).
 * [Creating my first AWS Lambda using Rust](https://medium.com/@kkostov/rust-aws-lambda-30a1b92d4009).
 * [How I wrote a modern C++ library in Rust](https://hsivonen.fi/modern-cpp-in-rust/).
