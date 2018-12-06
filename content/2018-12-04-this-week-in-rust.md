@@ -85,8 +85,6 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
-
 * [RFC 2591: Stabilise exhaustive integer pattern matching](https://github.com/rust-lang/rfcs/pull/2591).
 * [RFC 2500: Needle API (née Pattern API)](https://github.com/rust-lang/rfcs/pull/2500).
 
