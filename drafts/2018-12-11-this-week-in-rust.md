@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [cargo-call-stack](https://github.com/japaric/cargo-call-stack), a cargo subcommand for whole-program call stack analysis. Thanks to [Jorge Aparicio](https://mobile.twitter.com/japaricious/status/1069569802241486850) for the suggestion!
+This week's crate is [lsd](https://github.com/Peltoche/lsd), a colorful and fast `ls` replacement. Thanks to [Pierre Peltier](https://users.rust-lang.org/t/crate-of-the-week/2704/471) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -40,33 +40,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-254 pull requests were [merged in the last week][merged]
+264 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-11-26..2018-12-03
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-12-03..2018-12-10
 
-* [decouple proc_macro from the rest of the compiler](https://github.com/rust-lang/rust/pull/49219)
-* [implement chalk unification routines](https://github.com/rust-lang/rust/pull/56214)
-* [upgrade LLVM to trunk, still version 8](https://github.com/rust-lang/rust/pull/55835)
-* [another LLVM Update](https://github.com/rust-lang/rust/pull/56313) and [Re-enable lldb](https://github.com/rust-lang/rust/pull/56298)
-* [use sort_by_cached_key when the key function is not trivial/free](https://github.com/rust-lang/rust/pull/55821)
-* [deduplicate literal → constant lowering](https://github.com/rust-lang/rust/pull/56312)
-* [use `MaybeUninit` instead of `mem::uninitialized` for Windows Mutex](https://github.com/rust-lang/rust/pull/56275)
-* [libcore: add VaList and variadic arg handling intrinsics](https://github.com/rust-lang/rust/pull/49878)
-* [arena: speed up TypedArena::clear and improve common patterns](https://github.com/rust-lang/rust/pull/56378)
-* [stabilize `macro_at_most_once_rep`](https://github.com/rust-lang/rust/pull/56245)
-* [stabilize `dbg!(..)`](https://github.com/rust-lang/rust/pull/56395)
-* [stabilize `self_in_typedefs`](https://github.com/rust-lang/rust/pull/56366)
-* [stabilize `self_struct_ctor`](https://github.com/rust-lang/rust/pull/56365)
-* [remove unsafe `unsafe` inner function](https://github.com/rust-lang/rust/pull/56236)
-* [add `TryFrom<&[T]> for [T; $N] where T: Copy`](https://github.com/rust-lang/rust/pull/56216)
-* [move VecDeque::resize_with out of the impl<T:Clone> block](https://github.com/rust-lang/rust/pull/56401)
-* [use allow-dirty option in `cargo package` to skip vcs checks](https://github.com/rust-lang/cargo/pull/6280)
-* [make `ParseIntError` and `IntErrorKind` fully public](https://github.com/rust-lang/rust/pull/55705)
-* [use MaybeUninit in libcore](https://github.com/rust-lang/rust/pull/54668)
-* [fix futures creating aliasing mutable and shared ref](https://github.com/rust-lang/rust/pull/56319)
-* [add libstd Cargo feature `panic_immediate_abort`](https://github.com/rust-lang/rust/pull/55011)
-* [cargo: ConflictStoreTrie: faster filtered search](https://github.com/rust-lang/cargo/pull/6366)
-* [crates.io: email verification warning](https://github.com/rust-lang/crates.io/pull/1565)
+* [bump stack size to 32MB](https://github.com/rust-lang/rust/pull/56467)
+* [resolve: reduce some clutter in import ambiguity errors](https://github.com/rust-lang/rust/pull/56620)
+* [delay gensym creation for "`_` items" (`use foo as _`/`const _`) until name resolution](https://github.com/rust-lang/rust/pull/56392)
+* [codegen_llvm_back: improve allocations](https://github.com/rust-lang/rust/pull/55871)
+* [panic on include bytes of own file](https://github.com/rust-lang/rust/pull/54517)
+* [fix ICE with generators and NLL](https://github.com/rust-lang/rust/pull/56460)
+* [fix ICE in `const` slice patterns](https://github.com/rust-lang/rust/pull/55922)
+* [handle existential types in dead code analysis](https://github.com/rust-lang/rust/pull/56456)
+* [more MIR borrow check cleanup](https://github.com/rust-lang/rust/pull/56388)
+* [use a `SmallVec` within `_match::Matrix`](https://github.com/rust-lang/rust/pull/56269)
+* [introduce `ptr::hash` for references](https://github.com/rust-lang/rust/pull/56250)
+* [allow calling `const unsafe fn` in `const fn` behind a feature gate](https://github.com/rust-lang/rust/pull/55635)
+* [add template parameter debuginfo to generic types](https://github.com/rust-lang/rust/pull/55010)
+* [add `Weak.ptr_eq`](https://github.com/rust-lang/rust/pull/55987)
+* [optimized `String` `FromIterator` + `Extend` impls](https://github.com/rust-lang/rust/pull/56548)
+* [only ensure solutions are in the same file in `cargo fix`](https://github.com/rust-lang/cargo/pull/6402)
+* [emit error when doc generation fails](https://github.com/rust-lang/rust/pull/55933)
+* [rustdoc: Fix line numbers display](https://github.com/rust-lang/rust/pull/56498)
+* [rustdoc inline macro reexport](https://github.com/rust-lang/rust/pull/56315)
+* [crates.io: Mark API tokens as revoked](https://github.com/rust-lang/crates.io/pull/1567)
 
 ## Approved RFCs
 
@@ -157,11 +154,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> The bug I did not have
+> I'll know ide support is mature when the flame wars start.
 
-– /u/pacman82's [reddit post](https://www.reddit.com/r/rust/comments/a1w75c/the_bug_i_did_not_have/) title
+– Unnamed friend of arthrowpod
 
-Thanks to [Felix](https://users.rust-lang.org/t/twir-quote-of-the-week/328/582) for the suggestion!
+Thanks to [arthrowpod](https://users.rust-lang.org/t/twir-quote-of-the-week/328/587) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
