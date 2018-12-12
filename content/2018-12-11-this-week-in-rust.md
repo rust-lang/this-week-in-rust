@@ -101,8 +101,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2591: Stabilise exhaustive integer pattern matching](https://github.com/rust-lang/rfcs/pull/2591).
-* [RFC 2500: Needle API (née Pattern API)](https://github.com/rust-lang/rfcs/pull/2500).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -122,13 +121,14 @@ decision. Express your opinions now.
 * [disposition: merge] [Tracking issue for RFC 2539, "#[cfg_attr] expanding to multiple attributes"](https://github.com/rust-lang/rust/issues/54881).
 * [disposition: merge] [`#[repr(packed(N))]` (tracking issue for RFC 1399)](https://github.com/rust-lang/rust/issues/33158).
 
-*There are no new RFCs*
+## New RFCs
+
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
 ### Online
 
-* [Dec 12. Rust Community Team Meeting in Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Dec 17. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Dec 19. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Dec 26. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
@@ -136,16 +136,13 @@ decision. Express your opinions now.
 
 ### Asia Pacific
 
-* [Dec 12. Hangzhou, CN - Rust Hangzhou](https://www.meetup.com/Rust-Hangzhou/events/256338781/).
 * [Dec 15. Chennai, IN - Rust Monthly Meetup - February](https://www.meetup.com/mad-rs/events/257072971/).
 * [Dec 16. Sydney, AU - Rust Sydney Meetup 15](https://www.meetup.com/Rust-Sydney/events/256668602/).
 
 ### Europe
 
-* [Dec 12. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyxqbqb/).
-* [Dec 12. Hamburg, DE - Rust Meetup Hamburg](https://www.meetup.com/Rust-Meetup-Hamburg/events/256592285/).
-* [Dec 12. Milano, IT - Milano - Hello Open Closed Principle](https://www.meetup.com/rust-language-milano/events/256948632/).
 * [Dec 15 & 16. Moscow, RU - RustRush 2018](https://rustrush.ru).
+* [Dec 17. Utrecht, NL - Rust Hacknight](https://www.meetup.com/Rust-Utrecht/events/257031905/).
 * [Dec 20. Cambridge, GB - The Last Cambridge Rust](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxqbbc/)?
 * [Dec 20. Turin, IT - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/sbtclqyxqbkc/).
 * [Dec 23. St. Petersburg, RU - St. Petersburg Rust Meetup](https://www.meetup.com/spbrust/events/gzjnmqyxqbfc).
@@ -153,14 +150,12 @@ decision. Express your opinions now.
 
 ### North America
 
-* [Dec 12. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rzszlqyxqbqb/).
-* [Dec 12. Boulder, US - Rust Boulder/Denver Monthly Meeting](https://www.meetup.com/Rust-Boulder-Denver/events/256949931/).
 * [Dec 13. Arlington, US - Rust DC — Using C's va_list in Rust (and why you never should)](https://www.meetup.com/RustDC/events/256181658).
 * [Dec 13. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyxqbrb/).
 * [Dec 13. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/255209738/).
 * [Dec 13. San Diego, US - San Diego Rust December Meetup - Rust 2018 Overview + Memory Allocator](https://www.meetup.com/San-Diego-Rust/events/256264465/).
 * [Dec 16. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxqbvb/).
-* [Dec 17. North Carolina, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/events/mfglwpyxqbgc/).
+* [Dec 17. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/events/mfglwpyxqbgc/).
 * [Dec 20. Chicago, US - Rust for the Holidays](https://www.meetup.com/Chicago-Rust-Meetup/events/256778181).
 * [Dec 23. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxqbfc/).
 * [Dec 25. Dallas, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxqbhc/).
