@@ -16,6 +16,34 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* 🎈🎉 [Announcing Rust 1.31 and Rust 2018](https://blog.rust-lang.org/2018/12/06/Rust-1.31-and-rust-2018.html). 🎉🎈
+* [Rust 2018 is here… but what is it](https://hacks.mozilla.org/2018/12/rust-2018-is-here/)?
+* [Reflecting on Rust and WebAssembly in 2018](https://rustwasm.github.io/2018/12/06/reflecting-on-rust-and-wasm-in-2018.html).
+* [Rocket v0.4: Typed URIs, database support, revamped queries, & more](https://rocket.rs/v0.4/news/2018-12-08-version-0.4/).
+* [Inside Rust's async transform](https://blag.nemo157.com/2018/12/09/inside-rusts-async-transform.html).
+* [The Swiss army knife of hashmaps](https://blog.waffles.space/2018/12/07/deep-dive-into-hashbrown/).
+* [Building Alexa Skills in Rust](https://medium.com/@amalec/building-alexa-skills-in-rust-4cf54a497ea4).
+* [Wherefore art thou Romio](https://boats.gitlab.io/blog/post/romio/)? Romio is a port of a small part of the Tokio project to the newer futures APIs.
+* [Existential types in Rust](https://adelbertc.github.io/posts/2018-12-10-rust-existentials.html).
+* [Currying in Rust](https://hashnode.com/post/currying-in-rust-cjpfb0i2z00cm56s2aideuo4z).
+* [More on RLS version numbering](https://www.ncameron.org/blog/more-on-rls-version-numbering/).
+* [Patterns of Refactoring C to Rust: The case of librsvg](https://people.gnome.org/~federico/blog/guadec-2018-presentation.html).
+
+### #Rust2019
+
+* [Rust in 2022 (and 2019)](https://www.ncameron.org/blog/rust-in-2022/).
+* [Rust 2019: Think bigger](http://fitzgeraldnick.com/2018/12/11/rust-2019-think-bigger.html).
+* [The Fallow Year](https://www.jonathanturner.org/2018/12/the-fallow-year.html).
+* [eddyb's wishes for Rust in 2019](https://twitter.com/eddyb_r/status/1072444398284300289).
+* [pcwalton's plans for 2019](https://pcwalton.github.io/2018/12/07/plans-for-2019.html).
+* [Lokathor's Rust 2019 wishpost](https://www.reddit.com/r/rust/comments/a4ygji/lokathors_rust_2019_wishpost/).
+* [Rust 2019 - The road ahead](https://llogiq.github.io/2018/12/08/rust.html).
+* [2019 wishlist - Finish and ship the work that has already started](https://www.reddit.com/r/rust/comments/a3sav1/2019_roadmap_more_like_a_wishlist_finish_and_ship/).
+* [Rust 2019: a newbie's thoughts](https://www.reddit.com/r/rust/comments/a44txf/rust_2019_a_newbies_thoughts/).
+* [Rust 2019 — let us pursue composability](https://medium.com/@GolDDranks/rust-2019-let-us-pursue-composability-70f1eb2238c3).
+* [2019 Wishlist/Pain points](https://www.reddit.com/r/rust/comments/a59b3a/2019_wishlistpain_points/).
+* [Rust 2019 - Named argument syntax](https://twitter.com/PistonDeveloper/status/1072193819855196160).
+
 # Crate of the Week
 
 This week's crate is [cargo-call-stack](https://github.com/japaric/cargo-call-stack), a cargo subcommand for whole-program call stack analysis. Thanks to [Jorge Aparicio](https://mobile.twitter.com/japaricious/status/1069569802241486850) for the suggestion!
@@ -31,8 +59,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [A call for Rust 2019 Roadmap blog posts](https://blog.rust-lang.org/2018/12/06/call-for-rust-2019-roadmap-blogposts.html).
 * [Rust Latam CFP is now open, deadline is December 31st](https://cfp.rustlatam.org/events/rust-latam).
-* [The imag project calls for contributors (2)](https://imag-pim.org/blog/2018/12/04/call-for-participation-2/)
+* [Tarpaulin: OSX support tracking issue](https://github.com/xd009642/tarpaulin/issues/152). Tarpaulin is a code coverage tool for Rust projects.
+* [The imag project calls for contributors (2)](https://imag-pim.org/blog/2018/12/04/call-for-participation-2/).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -146,12 +176,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Software Infrastructure Engineer - Engines at Blue Origin, Kent, US](https://careers-blueorigin.icims.com/jobs/3247/software-infrastructure-engineer---engines/job).
+* [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
 * [Rust Engineer at Commure, Inc. (San Francisco, Boston, Montreal)](https://www.commure.com/#jobSection).
-* [Intermediate Software Developer at Finhaven, Vancouver, CA](https://angel.co/finhaven/jobs/411238-intermediate-software-developer).
 * [Tech Lead at Hashintel, London, GB](https://twitter.com/nonparibus/status/1067893414765764614).
-* [Embedded operating system developer, Karlsruhe, DE](https://www.pse.kit.edu/karriere/joboffer.php?id=2093&language=en)
-* [Student research assistant (embedded), Karlsruhe, DE](https://twitter.com/oli_obk/status/1064856324071178240)
+* [Intermediate Software Developer at Finhaven, Vancouver, CA](https://angel.co/finhaven/jobs/411238-intermediate-software-developer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
