@@ -136,7 +136,7 @@ decision. Express your opinions now.
 
 ### Asia Pacific
 
-* [Dec 15. Chennai, IN - Rust Monthly Meetup - February](https://www.meetup.com/mad-rs/events/257072971/).
+* [Dec 15. Chennai, IN - Rust Monthly Meetup - December](https://www.meetup.com/mad-rs/events/257072971/).
 * [Dec 16. Sydney, AU - Rust Sydney Meetup 15](https://www.meetup.com/Rust-Sydney/events/256668602/).
 
 ### Europe
