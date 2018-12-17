@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Building a JS Interpreter in Rust Part 1](https://jason-williams.co.uk/building-a-js-interpreter-in-rust-part-1/#more-140).
+
 # Crate of the Week
 
 This week's crate is [lsd](https://github.com/Peltoche/lsd), a colorful and fast `ls` replacement. Thanks to [Pierre Peltier](https://users.rust-lang.org/t/crate-of-the-week/2704/471) for the suggestion!
