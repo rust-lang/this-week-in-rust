@@ -76,7 +76,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [rustc: add an unstable `simd_select_bitmask` intrinsic](https://github.com/rust-lang/rust/pull/56789)
 * [allow ptr::hash to accept fat pointers](https://github.com/rust-lang/rust/pull/56751)
 * [specialize: remove Boxes used by Children::insert](https://github.com/rust-lang/rust/pull/56744)
-* [infer: remove Box from a returned Iterator](infer: remove Box from a returned Iterator)
+* [infer: remove Box from a returned Iterator](https://github.com/rust-lang/rust/pull/56742)
 * [`TokenStream` improvements](https://github.com/rust-lang/rust/pull/56737)
 * [remove `tokenstream::Delimited`](https://github.com/rust-lang/rust/pull/56369)
 * [overhaul `FileSearch` and `SearchPaths`](https://github.com/rust-lang/rust/pull/56090)
