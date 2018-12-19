@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Building a JS Interpreter in Rust Part 1](https://jason-williams.co.uk/building-a-js-interpreter-in-rust-part-1/#more-140).
+
 # Crate of the Week
 
 This week's crate is [yaserde](https://github.com/media-io/yaserde), a specialized XML (de)serialization crate compatible with serde. Thanks to [Marc Antoine Arnaud](https://users.rust-lang.org/t/crate-of-the-week/2704/472) for the suggestion!
