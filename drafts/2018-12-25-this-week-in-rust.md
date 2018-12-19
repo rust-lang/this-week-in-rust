@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [How to Become a Rust Super-developer](https://hashnode.com/post/how-to-become-a-rust-super-developer-cjpv1ee7e000buhs2aqrdw2ym)
+
 ### #Rust2019
 
 Find all #Rust2019 posts at [Read Rust](https://readrust.net/rust-2019/).
