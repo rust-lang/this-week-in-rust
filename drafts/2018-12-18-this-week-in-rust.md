@@ -16,6 +16,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Tools in the 2018 edition](https://blog.rust-lang.org/2018/12/17/Rust-2018-dev-tools.html).
+* [Making Rust float parsing fast and correct](https://www.reddit.com/r/rust/comments/a6j5j1/making_rust_float_parsing_fast_and_correct/).
+* [Bootstrapping Rust](https://www.gnu.org/software/guix/blog/2018/bootstrapping-rust/).
+* [Async in Rust, circa 2018](https://rust-lang-nursery.github.io/wg-net/2018/12/13/async-update.html).
+* [Rust Analyzer in 2018 and 2019](https://ferrous-systems.com/blog/rust-analyzer-2019/).
+* [Rust and WebAssembly in 2019](http://fitzgeraldnick.com/2018/12/14/rust-and-webassembly-in-2019.html).
+* [Storing unboxed trait objects in Rust](https://guiand.xyz/blog-posts/unboxed-trait-objects.html).
+* [Currying in Rust — Part 2 (A glimpse of generics)](https://hashnode.com/post/currying-in-rust-part-2-a-glimpse-of-generics-cjphbgun90025pms241ggh3d9).
+* [Edge programming with Rust and WebAssembly](https://www.fastly.com/blog/edge-programming-rust-web-assembly).
+
+### #Rust2019
+
+Find all #Rust2019 posts at [Read Rust](https://readrust.net/rust-2019/).
+
 # Crate of the Week
 
 This week's crate is [lsd](https://github.com/Peltoche/lsd), a colorful and fast `ls` replacement. Thanks to [Pierre Peltier](https://users.rust-lang.org/t/crate-of-the-week/2704/471) for the suggestion!
@@ -144,10 +158,8 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Sr. Software Engineer - Rust at Mersive, Denver, US](https://www.mersive.com/company/join-mersive-team/?gh_jid=4136286002)
 * [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
-* [Rust Engineer at Commure, Inc. (San Francisco, Boston, Montreal)](https://www.commure.com/#jobSection).
-* [Tech Lead at Hashintel, London, GB](https://twitter.com/nonparibus/status/1067893414765764614).
-* [Intermediate Software Developer at Finhaven, Vancouver, CA](https://angel.co/finhaven/jobs/411238-intermediate-software-developer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
