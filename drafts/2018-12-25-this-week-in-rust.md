@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Bryan Cantril on Software Values](https://corecursive.com/024-software-as-a-reflection-of-values-with-bryan-cantrill/) Interview with Bryan about software values, Rust's values and why he is betting on Rust.
 
 ### #Rust2019
 
