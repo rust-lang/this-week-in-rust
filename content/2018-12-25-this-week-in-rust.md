@@ -19,7 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * 🎈🎉 [Announcing Rust 1.31.1](https://blog.rust-lang.org/2018/12/20/Rust-1.31.1.html). 🎉🎈
 * [Procedural macros in Rust 2018](https://blog.rust-lang.org/2018/12/21/Procedural-Macros-in-Rust-2018.html).
 * [Tokio: A great 2018, an even better 2019](https://tokio.rs/blog/2018-12-recap-2018/).
-* [Using C libraries un Rust: making a `*-sys` crate](https://kornel.ski/rust-sys-crate).
+* [Using C libraries in Rust: making a `*-sys` crate](https://kornel.ski/rust-sys-crate).
 * [Rust asynchronous IO: from mio to coroutine](https://github.com/Hexilee/async-io-demo).
 * [Methods for array initialization in Rust](https://www.joshmcguigan.com/blog/array-initialization-rust/).
 * [Currying in rust Part 3 (The circle of life... aka why borrowchecker... why)](https://hashnode.com/post/currying-in-rust-part-3-the-circle-of-life-aka-why-borrowchecker-why-cjq3z1dd800dknds1sls4dqav)!?
