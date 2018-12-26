@@ -22,7 +22,7 @@ Find all #Rust2019 posts at [Read Rust](https://readrust.net/rust-2019/).
 
 # Crate of the Week
 
-This week's crate is [yaserde](https://github.com/media-io/yaserde), a specialized XML (de)serialization crate compatible with serde. Thanks to [Marc Antoine Arnaud](https://users.rust-lang.org/t/crate-of-the-week/2704/472) for the suggestion!
+This week's crate is [sandspiel](https://sandspiel.info), a WASM-powered online sandbox automaton game. Thanks to [Vikrant Chaudhari](https://users.rust-lang.org/t/crate-of-the-week/2704/473) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -46,41 +46,51 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-247 pull requests were [merged in the last week][merged]
+214 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-12-10..2018-12-17
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-12-17..2018-12-24
 
-* [x86: add the `adx` target feature to whitelist](https://github.com/rust-lang/rust/pull/56749)
-* [bump minimum required LLVM version to 6.0](https://github.com/rust-lang/rust/pull/56642)
-* [unconditionally emit the target-cpu LLVM attribute](https://github.com/rust-lang/rust/pull/56609)
-* [account for `impl Trait` when suggesting lifetime](https://github.com/rust-lang/rust/pull/56755)
-* [fixed issue with using `Self` ctor in typedefs](https://github.com/rust-lang/rust/pull/56850)
-* [clearer error message for dead assign](https://github.com/rust-lang/rust/pull/56439)
-* [emit error with span for empty asserts](https://github.com/rust-lang/rust/pull/56491)
-* [fix span for invalid number of parameters in trait method](https://github.com/rust-lang/rust/pull/56641)
-* [contexually dependent error message for E0424 when value is assigned to "self"](https://github.com/rust-lang/rust/pull/56572)
-* [don't depend on `Allocation` sizes for pattern length](https://github.com/rust-lang/rust/pull/56540)
-* [some cleanups around `AllocId` management](https://github.com/rust-lang/rust/pull/56461)
-* [improve MIR match generation for ranges](https://github.com/rust-lang/rust/pull/56810)
-* [rustc: add an unstable `simd_select_bitmask` intrinsic](https://github.com/rust-lang/rust/pull/56789)
-* [allow ptr::hash to accept fat pointers](https://github.com/rust-lang/rust/pull/56751)
-* [specialize: remove Boxes used by Children::insert](https://github.com/rust-lang/rust/pull/56744)
-* [infer: remove Box from a returned Iterator](infer: remove Box from a returned Iterator)
-* [`TokenStream` improvements](https://github.com/rust-lang/rust/pull/56737)
-* [remove `tokenstream::Delimited`](https://github.com/rust-lang/rust/pull/56369)
-* [overhaul `FileSearch` and `SearchPaths`](https://github.com/rust-lang/rust/pull/56090)
-* [`SortedMap` upgrades](https://github.com/rust-lang/rust/pull/56039)
-* [make `const unsafe fn` bodies `unsafe`](https://github.com/rust-lang/rust/pull/56706)
-* [self-profiler: add column for percent of total time](https://github.com/rust-lang/rust/pull/56702)
-* [`#[must_use]` on traits in stdlib](https://github.com/rust-lang/rust/pull/56677)
-* [fix `BTreeMap` UB](https://github.com/rust-lang/rust/pull/56648)
-* [std: activate compiler_builtins `mem` feature for no_std targets](https://github.com/rust-lang/rust/pull/56825)
-* [add `checked_add` method to `Instant` time type](https://github.com/rust-lang/rust/pull/56490)
-* [`VecDeque`: fix for stacked borrows](https://github.com/rust-lang/rust/pull/56161)
-* [std: depend directly on crates.io crates](https://github.com/rust-lang/rust/pull/56092)
-* [libtest: use deterministic HashMap, avoid spawning thread if there is no concurrency](https://github.com/rust-lang/rust/pull/56243)
-* [greatly improve rustdoc rendering speed issues](https://github.com/rust-lang/rust/pull/56005)
-* [rustdoc: fix local reexports of proc macros](https://github.com/rust-lang/rust/pull/56637)
+* [add targets thumbv7neon-linux-androideabi and thumbv7neon-unknown-linux-gnueabihf](https://github.com/rust-lang/rust/pull/56947)
+* [less conservative uninhabitedness check](https://github.com/rust-lang/rust/pull/54125)
+* [remove "visited" set from inhabitedness checking](https://github.com/rust-lang/rust/pull/57033)
+* [short-circuit DefIdForest::intersection()](https://github.com/rust-lang/rust/pull/57060)
+* [make the 'a lifetime on TyCtxt useless](https://github.com/rust-lang/rust/pull/56601)
+* [trigger unsized coercions keyed on Sized bounds](https://github.com/rust-lang/rust/pull/56219)
+* [fix various aspects around `let` bindings inside const functions](https://github.com/rust-lang/rust/pull/56160)
+* [deny intra-doc link resolution failures in libstd](https://github.com/rust-lang/rust/pull/56941)
+* [process nested obligations in autoderef](https://github.com/rust-lang/rust/pull/54252)
+* [mark tuple structs as live if their constructors are used](https://github.com/rust-lang/rust/pull/56953)
+* [fix alignment for array indexing](https://github.com/rust-lang/rust/pull/57053)
+* [enable emission of alignment attrs for pointer params](https://github.com/rust-lang/rust/pull/57021)
+* [enum type instead of variant suggestion unification](https://github.com/rust-lang/rust/pull/56188)
+* [make basic CTFE tracing available on release builds](https://github.com/rust-lang/rust/pull/56973)
+* [remove `TokenStream::JointTree`](https://github.com/rust-lang/rust/pull/56964)
+* [miri: allocation is infallible](https://github.com/rust-lang/rust/pull/56981)
+* [fix mutable references in `static mut`](https://github.com/rust-lang/rust/pull/56916)
+* [simplify MIR generation for logical operations](https://github.com/rust-lang/rust/pull/56917)
+* [static eval: do not ICE on layout size overflow](https://github.com/rust-lang/rust/pull/56909)
+* [disable field reordering for repr(int)](https://github.com/rust-lang/rust/pull/56887)
+* [always run rustc in a thread](https://github.com/rust-lang/rust/pull/56813)
+* [version-gate the trailing semicolon change of return statements inside a match arm](https://github.com/rust-lang/rustfmt/pull/3250)
+* [add `DoubleEndedIterator::nth_back`](https://github.com/rust-lang/rust/pull/56802)
+* [mir-opt: make `SimplifyCfg` collapse goto chains starting from `bb0`](https://github.com/rust-lang/rust/pull/56764)
+* [treat ref-to-raw cast like a reborrow: do a special kind of retag](https://github.com/rust-lang/rust/pull/56741)
+* [MIR borrowck doesn't accept the example of iterating and updating a mutable reference](https://github.com/rust-lang/rust/pull/56649)
+* [rework treatment of `$crate` in procedural macros](https://github.com/rust-lang/rust/pull/56647)
+* [tweak query code for performance](https://github.com/rust-lang/rust/pull/56613)
+* [implement `Eq`, `PartialEq` and `Hash` for `atomic::Ordering`](https://github.com/rust-lang/rust/pull/56881)
+* [add unstable `VecDeque::rotate_`{`left`, `right`}](https://github.com/rust-lang/rust/pull/56842)
+* [remove Cycle::try_fold override](https://github.com/rust-lang/rust/pull/56904)
+* [short-circuit `Rc`/`Arc` equality checking on equal pointers where `T: Eq`](https://github.com/rust-lang/rust/pull/56550)
+* [stabilize `Rc`, `Arc` and `Pin` as method receivers](https://github.com/rust-lang/rust/pull/56805)
+* [stabilize `min_const_unsafe_fn` in 1.33](https://github.com/rust-lang/rust/pull/57067)
+* [stabilize `Vec(Deque)::resize_with`](https://github.com/rust-lang/rust/pull/57002)
+* [stabilize `Pin`](https://github.com/rust-lang/rust/pull/56939)
+* [stabilize `underscore_imports`](https://github.com/rust-lang/rust/pull/56303)
+* [bootstrap: Link LLVM as a dylib with ThinLTO](https://github.com/rust-lang/rust/pull/56944)
+* [profiler: simplify total_duration, improve readability](https://github.com/rust-lang/rust/pull/56918)
+* [cargo: warn on unused patches](https://github.com/rust-lang/cargo/pull/6470)
+* [rustdoc: add new CLI flag to load static files from a different location](https://github.com/rust-lang/rust/pull/57011)
 
 ## Approved RFCs
 
@@ -102,21 +112,21 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Short-circuit Rc/Arc equality checking on equal pointers where T: Eq](https://github.com/rust-lang/rust/pull/56550).
-* [disposition: merge] [Tracking issue for unsafe operations in const fn](https://github.com/rust-lang/rust/issues/55607).
-* [disposition: merge] [Tracking issue for RFC 2539, "#[cfg_attr] expanding to multiple attributes"](https://github.com/rust-lang/rust/issues/54881).
-* [disposition: merge] [`#[repr(packed(N))]` (tracking issue for RFC 1399)](https://github.com/rust-lang/rust/issues/33158).
+* [disposition: merge] [Make the getter for NonZero types into a const fn](https://github.com/rust-lang/rust/pull/56739).
 
 ## New RFCs
 
-* [Add file-open-with RFC](https://github.com/rust-lang/rfcs/pull/2615).
-* [eCrate name transfer](https://github.com/rust-lang/rfcs/pull/2614).
+* [Using enums like traits](https://github.com/rust-lang/rfcs/pull/2618).
+* [Local `loop` bindings](https://github.com/rust-lang/rfcs/pull/2617).
 
 # Upcoming Events
 
 ### Online
 
+* [Dec 26. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Dec 31. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Jan  2. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Jan 9. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
 ### Europe
 
@@ -125,18 +135,19 @@ decision. Express your opinions now.
 * [Dec 23. St. Petersburg, RU - St. Petersburg Rust Meetup](https://www.meetup.com/spbrust/events/gzjnmqyxqbfc).
 * [Dec 27. - 30. Leipzig, DE, Rust assembly at 35c3](https://users.rust-lang.org/t/35c3-rust-assembly-at-ccc-leipzig/22288)
 * [Jan 8. Zürich, CH, Rust Zürichsee meetup at Coredump - Looking for a speaker](https://www.meetup.com/de-DE/Rust-Zurich/events/253608548/)
+* [Jan 9. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzcbmb/).
 * [Jan 10. Brno, CZ, Rust meetup at Masaryk University](https://rust-brno.github.io/)
 
 ### North America
 
-* [Dec 20. Chicago, US - Rust for the Holidays](https://www.meetup.com/Chicago-Rust-Meetup/events/256778181).
-* [Dec 23. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxqbfc/).
-* [Dec 25. Dallas, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyxqbhc/).
 * [Dec 26. Ann Arbor, US - Ann Arbor Rust Meetup](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/cgsskqyxqbjc/).
 * [Dec 26. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rzszlqyxqbjc/).
 * [Dec 30. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxqbnc/).
 * [Jan  2. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/246726699/).
 * [Jan  2. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/events/cbcmbqyzcbdb/).
+* [Jan  6. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyzcbjb/).
+* [Jan  9. Boulder, US - Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/ ).
+* [Jan  9. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rzszlqyzcbmb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -154,11 +165,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> `impl Drop for Mic {}`
+> Using (traits) for Inheritance was like putting car wheels on a boat because I am used to driving a vehicle with wheels.
 
-– Nick Fitzgerald [rapping about Rust](http://fitzgeraldnick.com/2018/12/13/rust-raps.html)
+– Marco Alka [on Hashnode](https://hashnode.com/post/how-to-become-a-rust-super-developer-cjpv1ee7e000buhs2aqrdw2ym)
 
-Thanks to [mark-i-m](https://users.rust-lang.org/t/twir-quote-of-the-week/328/588) for the suggestion!
+Thanks to [oberien](https://users.rust-lang.org/t/twir-quote-of-the-week/328/590) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
