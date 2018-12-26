@@ -161,9 +161,9 @@ Email the [Rust Community Team][community] for access.
 * [Networking Engineer at MaidSafe, Ayr, GB (Remote)](https://maidsafe.net/careers/#networking_engineer).
 * [Senior Backend/Blockchain Developer with Rust at BitFinex, Remote](https://bitfinex.recruitee.com/o/senior-backendblockchain-developer-with-rust-remote).
 * [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
-* [Sr. Software Engineer - Rust at Mersive, Denver, US](https://www.mersive.com/company/join-mersive-team/?gh_jid=4136286002)
-* [Embedded operating system developer, Karlsruhe, DE](https://www.pse.kit.edu/karriere/joboffer.php?id=2093&language=en)
-* [Student research assistant (embedded), Karlsruhe, DE](https://twitter.com/oli_obk/status/1064856324071178240)
+* [Sr. Software Engineer - Rust at Mersive, Denver, US](https://www.mersive.com/company/join-mersive-team/?gh_jid=4136286002).
+* [Embedded operating system developer, Karlsruhe, DE](https://www.pse.kit.edu/karriere/joboffer.php?id=2093&language=en).
+* [Student research assistant (embedded), Karlsruhe, DE](https://twitter.com/oli_obk/status/1064856324071178240).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
