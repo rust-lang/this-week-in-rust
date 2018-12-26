@@ -102,15 +102,12 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Short-circuit Rc/Arc equality checking on equal pointers where T: Eq](https://github.com/rust-lang/rust/pull/56550).
-* [disposition: merge] [Tracking issue for unsafe operations in const fn](https://github.com/rust-lang/rust/issues/55607).
-* [disposition: merge] [Tracking issue for RFC 2539, "#[cfg_attr] expanding to multiple attributes"](https://github.com/rust-lang/rust/issues/54881).
-* [disposition: merge] [`#[repr(packed(N))]` (tracking issue for RFC 1399)](https://github.com/rust-lang/rust/issues/33158).
+* [disposition: merge] [Make the getter for NonZero types into a const fn](https://github.com/rust-lang/rust/pull/56739).
 
 ## New RFCs
 
-* [Add file-open-with RFC](https://github.com/rust-lang/rfcs/pull/2615).
-* [eCrate name transfer](https://github.com/rust-lang/rfcs/pull/2614).
+* [Using enums like traits](https://github.com/rust-lang/rfcs/pull/2618).
+* [Local `loop` bindings](https://github.com/rust-lang/rfcs/pull/2617).
 
 # Upcoming Events
 
