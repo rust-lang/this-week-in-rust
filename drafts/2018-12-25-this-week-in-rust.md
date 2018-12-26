@@ -16,6 +16,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* 🎈🎉 [Announcing Rust 1.31.1](https://blog.rust-lang.org/2018/12/20/Rust-1.31.1.html). 🎉🎈
+* [Procedural macros in Rust 2018](https://blog.rust-lang.org/2018/12/21/Procedural-Macros-in-Rust-2018.html).
+* [Tokio: A great 2018, an even better 2019](https://tokio.rs/blog/2018-12-recap-2018/).
+* [Using C libraries un Rust: making a `*-sys` crate](https://kornel.ski/rust-sys-crate).
+* [Rust asynchronous IO: from mio to coroutine](https://github.com/Hexilee/async-io-demo).
+* [Methods for array initialization in Rust](https://www.joshmcguigan.com/blog/array-initialization-rust/).
+* [Currying in rust Part 3 (The circle of life... aka why borrowchecker... why)](https://hashnode.com/post/currying-in-rust-part-3-the-circle-of-life-aka-why-borrowchecker-why-cjq3z1dd800dknds1sls4dqav)!?
 * [How to get better at Rust: For beginners](https://hashnode.com/post/how-to-become-a-rust-super-developer-cjpv1ee7e000buhs2aqrdw2ym).
 
 ### #Rust2019
@@ -24,7 +31,7 @@ Find all #Rust2019 posts at [Read Rust](https://readrust.net/rust-2019/).
 
 # Crate of the Week
 
-This week's crate is [sandspiel](https://sandspiel.info), a WASM-powered online sandbox automaton game. Thanks to [Vikrant Chaudhari](https://users.rust-lang.org/t/crate-of-the-week/2704/473) for the suggestion!
+This week's crate is [sandspiel](https://sandspiel.info), a WASM-powered online sandbox automaton game. Thanks to [Vikrant Chaudhary](https://users.rust-lang.org/t/crate-of-the-week/2704/473) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -38,9 +45,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [A call for Rust 2019 Roadmap blog posts](https://blog.rust-lang.org/2018/12/06/call-for-rust-2019-roadmap-blogposts.html).
-* [Rust Latam CFP is now open, deadline is December 31st](https://cfp.rustlatam.org/events/rust-latam).
-* [Tarpaulin: OSX support tracking issue](https://github.com/xd009642/tarpaulin/issues/152). Tarpaulin is a code coverage tool for Rust projects.
-* [The imag project calls for contributors (2)](https://imag-pim.org/blog/2018/12/04/call-for-participation-2/).
+* [PEACE: Implement loading functions from static linked libraries](https://github.com/playXE/PEACE/issues/1). PEACE is a simple JIT library.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -125,27 +130,22 @@ decision. Express your opinions now.
 
 ### Online
 
-* [Dec 26. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Dec 31. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Jan  2. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Jan 2. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Jan 9. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
 ### Europe
 
-* [Dec 27. - 30. Leipzig, DE, Rust assembly at 35c3](https://users.rust-lang.org/t/35c3-rust-assembly-at-ccc-leipzig/22288)
-* [Jan 8. Rapperswil-Jona, CH, Rust Zürichsee meetup at Coredump - Looking for a speaker](https://www.meetup.com/de-DE/Rust-Zurich/events/253608548/)
+* [Dec 27 - 30. Leipzig, DE - Rust assembly at 35c3](https://users.rust-lang.org/t/35c3-rust-assembly-at-ccc-leipzig/22288).
+* [Jan 8. Rapperswil-Jona, CH - Rust Zürichsee meetup at Coredump - Looking for a speaker](https://www.meetup.com/Rust-Zurich/events/253608548/).
 * [Jan 9. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzcbmb/).
-* [Jan 10. Brno, CZ, Rust meetup at Masaryk University](https://rust-brno.github.io/)
+* [Jan 10. Brno, CZ - Rust meetup at Masaryk University](https://rust-brno.github.io/).
 
 ### North America
 
-* [Dec 26. Ann Arbor, US - Ann Arbor Rust Meetup](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/cgsskqyxqbjc/).
-* [Dec 26. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rzszlqyxqbjc/).
 * [Dec 30. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyxqbnc/).
 * [Jan  2. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/246726699/).
 * [Jan  2. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/events/cbcmbqyzcbdb/).
 * [Jan  6. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyzcbjb/).
-* [Jan  9. Boulder, US - Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/ ).
 * [Jan  9. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rzszlqyzcbmb/).
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -157,8 +157,11 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Sr. Software Engineer - Rust at Mersive, Denver, US](https://www.mersive.com/company/join-mersive-team/?gh_jid=4136286002)
+* [Rust Developer at XAIN, Berlin, DE](https://www.linkedin.com/jobs/cap/view/948142464/?pathWildcard=948142464&trk=mcm).
+* [Networking Engineer at MaidSafe, Ayr, GB (Remote)](https://maidsafe.net/careers/#networking_engineer).
+* [Senior Backend/Blockchain Developer with Rust at BitFinex, Remote](https://bitfinex.recruitee.com/o/senior-backendblockchain-developer-with-rust-remote).
 * [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
+* [Sr. Software Engineer - Rust at Mersive, Denver, US](https://www.mersive.com/company/join-mersive-team/?gh_jid=4136286002)
 * [Embedded operating system developer, Karlsruhe, DE](https://www.pse.kit.edu/karriere/joboffer.php?id=2093&language=en)
 * [Student research assistant (embedded), Karlsruhe, DE](https://twitter.com/oli_obk/status/1064856324071178240)
 
