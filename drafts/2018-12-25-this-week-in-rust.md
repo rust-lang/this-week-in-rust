@@ -130,9 +130,6 @@ decision. Express your opinions now.
 
 ### Europe
 
-* [Dec 20. Cambridge, GB - The Last Cambridge Rust](https://www.meetup.com/Cambridge-Rust-Meetup/events/pzwshpyxqbbc/)?
-* [Dec 20. Turin, IT - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/sbtclqyxqbkc/).
-* [Dec 23. St. Petersburg, RU - St. Petersburg Rust Meetup](https://www.meetup.com/spbrust/events/gzjnmqyxqbfc).
 * [Dec 27. - 30. Leipzig, DE, Rust assembly at 35c3](https://users.rust-lang.org/t/35c3-rust-assembly-at-ccc-leipzig/22288)
 * [Jan 8. Zürich, CH, Rust Zürichsee meetup at Coredump - Looking for a speaker](https://www.meetup.com/de-DE/Rust-Zurich/events/253608548/)
 * [Jan 9. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzcbmb/).
