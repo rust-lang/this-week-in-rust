@@ -133,7 +133,7 @@ decision. Express your opinions now.
 ### Europe
 
 * [Dec 27. - 30. Leipzig, DE, Rust assembly at 35c3](https://users.rust-lang.org/t/35c3-rust-assembly-at-ccc-leipzig/22288)
-* [Jan 8. Zürich, CH, Rust Zürichsee meetup at Coredump - Looking for a speaker](https://www.meetup.com/de-DE/Rust-Zurich/events/253608548/)
+* [Jan 8. Rapperswil-Jona, CH, Rust Zürichsee meetup at Coredump - Looking for a speaker](https://www.meetup.com/de-DE/Rust-Zurich/events/253608548/)
 * [Jan 9. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzcbmb/).
 * [Jan 10. Brno, CZ, Rust meetup at Masaryk University](https://rust-brno.github.io/)
 
