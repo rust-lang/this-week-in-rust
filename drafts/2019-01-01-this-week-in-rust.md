@@ -22,7 +22,7 @@ Find all #Rust2019 posts at [Read Rust](https://readrust.net/rust-2019/).
 
 # Crate of the Week
 
-This week's crate is [sandspiel](https://sandspiel.info), a WASM-powered online sandbox automaton game. Thanks to [Vikrant Chaudhary](https://users.rust-lang.org/t/crate-of-the-week/2704/473) for the suggestion!
+This week's crate is [Dose Response](https://tryjumping.itch.io/dose-response), an online-playable roguelike game with a probably bleak outcome. Thanks to [Vikrant Chaudhary](https://users.rust-lang.org/t/crate-of-the-week/2704/473) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -44,51 +44,31 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-214 pull requests were [merged in the last week][merged]
+150 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-12-17..2018-12-24
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-12-24..2018-12-31
 
-* [add targets thumbv7neon-linux-androideabi and thumbv7neon-unknown-linux-gnueabihf](https://github.com/rust-lang/rust/pull/56947)
-* [less conservative uninhabitedness check](https://github.com/rust-lang/rust/pull/54125)
-* [remove "visited" set from inhabitedness checking](https://github.com/rust-lang/rust/pull/57033)
-* [short-circuit DefIdForest::intersection()](https://github.com/rust-lang/rust/pull/57060)
-* [make the 'a lifetime on TyCtxt useless](https://github.com/rust-lang/rust/pull/56601)
-* [trigger unsized coercions keyed on Sized bounds](https://github.com/rust-lang/rust/pull/56219)
-* [fix various aspects around `let` bindings inside const functions](https://github.com/rust-lang/rust/pull/56160)
-* [deny intra-doc link resolution failures in libstd](https://github.com/rust-lang/rust/pull/56941)
-* [process nested obligations in autoderef](https://github.com/rust-lang/rust/pull/54252)
-* [mark tuple structs as live if their constructors are used](https://github.com/rust-lang/rust/pull/56953)
-* [fix alignment for array indexing](https://github.com/rust-lang/rust/pull/57053)
-* [enable emission of alignment attrs for pointer params](https://github.com/rust-lang/rust/pull/57021)
-* [enum type instead of variant suggestion unification](https://github.com/rust-lang/rust/pull/56188)
-* [make basic CTFE tracing available on release builds](https://github.com/rust-lang/rust/pull/56973)
-* [remove `TokenStream::JointTree`](https://github.com/rust-lang/rust/pull/56964)
-* [miri: allocation is infallible](https://github.com/rust-lang/rust/pull/56981)
-* [fix mutable references in `static mut`](https://github.com/rust-lang/rust/pull/56916)
-* [simplify MIR generation for logical operations](https://github.com/rust-lang/rust/pull/56917)
-* [static eval: do not ICE on layout size overflow](https://github.com/rust-lang/rust/pull/56909)
-* [disable field reordering for repr(int)](https://github.com/rust-lang/rust/pull/56887)
-* [always run rustc in a thread](https://github.com/rust-lang/rust/pull/56813)
-* [version-gate the trailing semicolon change of return statements inside a match arm](https://github.com/rust-lang/rustfmt/pull/3250)
-* [add `DoubleEndedIterator::nth_back`](https://github.com/rust-lang/rust/pull/56802)
-* [mir-opt: make `SimplifyCfg` collapse goto chains starting from `bb0`](https://github.com/rust-lang/rust/pull/56764)
-* [treat ref-to-raw cast like a reborrow: do a special kind of retag](https://github.com/rust-lang/rust/pull/56741)
-* [MIR borrowck doesn't accept the example of iterating and updating a mutable reference](https://github.com/rust-lang/rust/pull/56649)
-* [rework treatment of `$crate` in procedural macros](https://github.com/rust-lang/rust/pull/56647)
-* [tweak query code for performance](https://github.com/rust-lang/rust/pull/56613)
-* [implement `Eq`, `PartialEq` and `Hash` for `atomic::Ordering`](https://github.com/rust-lang/rust/pull/56881)
-* [add unstable `VecDeque::rotate_`{`left`, `right`}](https://github.com/rust-lang/rust/pull/56842)
-* [remove Cycle::try_fold override](https://github.com/rust-lang/rust/pull/56904)
-* [short-circuit `Rc`/`Arc` equality checking on equal pointers where `T: Eq`](https://github.com/rust-lang/rust/pull/56550)
-* [stabilize `Rc`, `Arc` and `Pin` as method receivers](https://github.com/rust-lang/rust/pull/56805)
-* [stabilize `min_const_unsafe_fn` in 1.33](https://github.com/rust-lang/rust/pull/57067)
-* [stabilize `Vec(Deque)::resize_with`](https://github.com/rust-lang/rust/pull/57002)
-* [stabilize `Pin`](https://github.com/rust-lang/rust/pull/56939)
-* [stabilize `underscore_imports`](https://github.com/rust-lang/rust/pull/56303)
-* [bootstrap: Link LLVM as a dylib with ThinLTO](https://github.com/rust-lang/rust/pull/56944)
-* [profiler: simplify total_duration, improve readability](https://github.com/rust-lang/rust/pull/56918)
-* [cargo: warn on unused patches](https://github.com/rust-lang/cargo/pull/6470)
-* [rustdoc: add new CLI flag to load static files from a different location](https://github.com/rust-lang/rust/pull/57011)
+* [add `-Z instrument-mcount`](https://github.com/rust-lang/rust/pull/57220)
+* [parallel query tweaks](https://github.com/rust-lang/rust/pull/56983)
+* [move jemalloc from rustc_driver to rustc](https://github.com/rust-lang/rust/pull/56986)
+* [uninline some debugging code and use unlikely! macro](https://github.com/rust-lang/rust/pull/57035)
+* [resolve: fix an ICE in import validation](https://github.com/rust-lang/rust/pull/57160)
+* [resolve: fix another ICE in import validation](https://github.com/rust-lang/rust/pull/57181)
+* [AST/HIR: introduce `ExprKind::Err` for better error recovery in the front-end](https://github.com/rust-lang/rust/pull/56999)
+* [fix new unused patch warning](https://github.com/rust-lang/cargo/pull/6494)
+* [suggest `.as_ref()?` instead of `?` in certain circumstances](https://github.com/rust-lang/rust-clippy/pull/3561)
+* [suggest `.as_ref()` when appropriate for `Option` and `Result`](https://github.com/rust-lang/rust/pull/57158)
+* [tweaks to format string diagnostics](https://github.com/rust-lang/rust/pull/57140)
+* [various changes to string format diagnostics](https://github.com/rust-lang/rust/pull/57069)
+* [point to cause of `fn` expected return type](https://github.com/rust-lang/rust/pull/57020)
+* [codegen: make zero-sized arrays affect alignment](https://github.com/rust-lang/rust-bindgen/pull/1477)
+* [make Alloc::check_bounds_ptr private; you should use Memory::check_bounds_ptr instead](https://github.com/rust-lang/rust/pull/57129)
+* [add Unpin to std prelude, not just core](https://github.com/rust-lang/rust/pull/57137)
+* [remove the private generic NonZero<T> wrapper type](https://github.com/rust-lang/rust/pull/57133)
+* [stabilize Duration::{as_millis, as_micros, as_nanos}](https://github.com/rust-lang/rust/pull/57124)
+* [make the getter for NonZero types into a const fn](https://github.com/rust-lang/rust/pull/57167)
+* [make tm struct members public](https://github.com/rust-lang/libc/pull/1183)
+* [testsuite: require failing commands to check output](https://github.com/rust-lang/cargo/pull/6497)
 
 ## Approved RFCs
 
@@ -160,9 +140,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Using (traits) for Inheritance was like putting car wheels on a boat because I am used to driving a vehicle with wheels.
+> In theory it would be entirely reasonable to guess that most Rust projects would need to use a significant amount of unsafe code to escape the
+> limitations of the borrow checker. However, in practice it turns out (shockingly!) that the overwhelming majority of programs can be implemented
+> perfectly well using only safe Rust.
 
-– Marco Alka [on Hashnode](https://hashnode.com/post/how-to-become-a-rust-super-developer-cjpv1ee7e000buhs2aqrdw2ym)
+– PM_ME_UR_MONADS [on reddit](https://www.reddit.com/r/rust/comments/a7kkw9/looking_for_someone_to_change_my_view_on_this/ec3r38n/)
 
 Thanks to [oberien](https://users.rust-lang.org/t/twir-quote-of-the-week/328/590) for the suggestion!
 
