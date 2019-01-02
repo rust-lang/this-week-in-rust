@@ -17,6 +17,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [This year in gfx-rs: 2018](https://gfx-rs.github.io/2018/12/27/this-year.html).
+* [Comparing Pythagorean triples in C++, D, and Rust](https://atilanevesoncode.wordpress.com/2018/12/31/comparing-pythagorean-triples-in-c-d-and-rust/).
+* [My experience converting a Python library to Rust](https://alantrick.ca/writings/programming/python_to_rust/).
 
 ### #Rust2019
 
@@ -24,7 +26,7 @@ Find all #Rust2019 posts at [Read Rust](https://readrust.net/rust-2019/).
 
 # Crate of the Week
 
-This week's crate is [Dose Response](https://tryjumping.itch.io/dose-response), an online-playable roguelike game with a probably bleak outcome. Thanks to [Vikrant Chaudhary](https://users.rust-lang.org/t/crate-of-the-week/2704/473) for the suggestion!
+This week's crate is [Dose Response](https://tryjumping.itch.io/dose-response), an online-playable roguelike game with a probably bleak outcome. Thanks to [Vikrant Chaudhary](https://users.rust-lang.org/t/crate-of-the-week/2704/474) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -38,7 +40,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [A call for Rust 2019 Roadmap blog posts](https://blog.rust-lang.org/2018/12/06/call-for-rust-2019-roadmap-blogposts.html).
-* [PEACE: Implement loading functions from static linked libraries](https://github.com/playXE/PEACE/issues/1). PEACE is a simple JIT library.
+* [content-security-policy: Implement post-request check for fetch directives](https://github.com/rust-ammonia/rust-content-security-policy/issues/3).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -92,7 +94,7 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-*No RFCs are currently in this section.*
+*No RFCs are currently in final comment period.*
 
 ## New RFCs
 
@@ -102,9 +104,7 @@ decision. Express your opinions now.
 
 ### Online
 
-* [Jan  2. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Jan  9. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Jan 14. Rust Community Content Subteam Meeting on Discord](ttps://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Jan 16. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 
 ### Asia
@@ -113,7 +113,6 @@ decision. Express your opinions now.
 
 ### Europe
 
-* [Dec 27 - 30. Leipzig, DE - Rust assembly at 35c3](https://users.rust-lang.org/t/35c3-rust-assembly-at-ccc-leipzig/22288).
 * [Jan  8. Rapperswil-Jona, CH - Rust Zürichsee meetup at Coredump - Looking for a speaker](https://www.meetup.com/Rust-Zurich/events/253608548/).
 * [Jan  9. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzcbmb/).
 * [Jan 10. Brno, CZ - Rust meetup at Masaryk University](https://rust-brno.github.io/).
@@ -126,10 +125,8 @@ decision. Express your opinions now.
 * [Jan  2. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/events/cbcmbqyzcbdb/).
 * [Jan  6. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyzcbjb/).
 * [Jan  9. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rzszlqyzcbmb/).
-* [Jan  9. Boulder, US - Rust Boulder/Denver Monthly Meeting](http://www.meetup.com/Rust-Boulder-Denver/).
 * [Jan 10. Columbus, US - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dbcfrpyzcbnb/).
 * [Jan 10. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/255209742/).
-* [Jan 10. San Diego, US - San Diego Rust](http://meetu.ps/c/2vF0G/4DXV4/a).
 * [Jan 13. Mountain view, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyzcbrb/).
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -141,11 +138,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Developer at XAIN, Berlin, DE](https://www.linkedin.com/jobs/cap/view/948142464/?pathWildcard=948142464&trk=mcm).
-* [Networking Engineer at MaidSafe, Ayr, GB (Remote)](https://maidsafe.net/careers/#networking_engineer).
-* [Senior Backend/Blockchain Developer with Rust at BitFinex, Remote](https://bitfinex.recruitee.com/o/senior-backendblockchain-developer-with-rust-remote).
-* [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
-* [Sr. Software Engineer - Rust at Mersive, Denver, US](https://www.mersive.com/company/join-mersive-team/?gh_jid=4136286002).
+* [Gameplay & Generlist Engineer at Embard Studios, Stockholm, SE](https://www.embark-studios.com/#jobs).
 * [Embedded operating system developer, Karlsruhe, DE](https://www.pse.kit.edu/karriere/joboffer.php?id=2093&language=en).
 * [Student research assistant (embedded), Karlsruhe, DE](https://twitter.com/oli_obk/status/1064856324071178240).
 
@@ -159,7 +152,7 @@ Email the [Rust Community Team][community] for access.
 
 – PM_ME_UR_MONADS [on reddit](https://www.reddit.com/r/rust/comments/a7kkw9/looking_for_someone_to_change_my_view_on_this/ec3r38n/)
 
-Thanks to [oberien](https://users.rust-lang.org/t/twir-quote-of-the-week/328/590) for the suggestion!
+Thanks to [nasa42](https://users.rust-lang.org/t/twir-quote-of-the-week/328/591) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
