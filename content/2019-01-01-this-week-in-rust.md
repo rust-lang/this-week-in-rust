@@ -138,7 +138,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Gameplay & Generlist Engineer at Embard Studios, Stockholm, SE](https://www.embark-studios.com/#jobs).
+* [Gameplay & Generlist Engineer at Embark Studios, Stockholm, SE](https://www.embark-studios.com/#jobs).
 * [Embedded operating system developer, Karlsruhe, DE](https://www.pse.kit.edu/karriere/joboffer.php?id=2093&language=en).
 * [Student research assistant (embedded), Karlsruhe, DE](https://twitter.com/oli_obk/status/1064856324071178240).
 
