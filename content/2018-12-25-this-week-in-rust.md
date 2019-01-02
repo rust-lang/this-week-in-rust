@@ -31,7 +31,7 @@ Find all #Rust2019 posts at [Read Rust](https://readrust.net/rust-2019/).
 
 # Crate of the Week
 
-This week's crate is [sandspiel](https://sandspiel.info), a WASM-powered online sandbox automaton game. Thanks to [Vikrant Chaudhary](https://users.rust-lang.org/t/crate-of-the-week/2704/473) for the suggestion!
+This week's crate is [sandspiel](https://sandspiel.club), a WASM-powered online sandbox automaton game. Thanks to [Vikrant Chaudhary](https://users.rust-lang.org/t/crate-of-the-week/2704/473) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
