@@ -90,15 +90,25 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Implement Debug, Eq, PartialEq, and Hash for libc structs](https://github.com/rust-lang/rfcs/pull/2235).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Summary issue for const-stabilizing `const_int_overflowing`](https://github.com/rust-lang/rust/issues/57237).
+* [disposition: merge] [Const-stabilize `const_int_ops` + `const_ip`](https://github.com/rust-lang/rust/pull/57234).
+* [disposition: merge] [Stabilize `let` bindings and destructuring in constants and const fn](https://github.com/rust-lang/rust/pull/57175).
+* [disposition: merge] [Stablilize const_int_{rotate,wrapping,sign}](https://github.com/rust-lang/rust/pull/57105).
+* [disposition: merge] [Stabilize `uniform_paths`](https://github.com/rust-lang/rust/pull/56759).
+* [disposition: merge] [Stabilize the `integer_atomics` feature: Atomic{I,U}{8,16,32,64}](https://github.com/rust-lang/rust/issues/56753).
+* [disposition: merge] [Stabilization proposal for #![feature(if_while_or_patterns)]](https://github.com/rust-lang/rust/issues/56212).
+* [disposition: merge] [Tracking issue for RFC 2306, "Add core::convert::identity"](https://github.com/rust-lang/rust/issues/53500).
+* [disposition: merge] [Tracking issue for write_all_at/read_exact_at convenience methods](https://github.com/rust-lang/rust/issues/51984).
+* [disposition: merge] [Tracking issue for non-panicking pow](https://github.com/rust-lang/rust/issues/48320).
+* [disposition: merge] [Tracking Issue for Result<Option> and Option<Result> Conversion](https://github.com/rust-lang/rust/issues/47338).
 
 ## New RFCs
 
-*There are currently no new RFCs*
+* [Type Ascribed Coercions](https://github.com/rust-lang/rfcs/pull/2623).
 
 # Upcoming Events
 
