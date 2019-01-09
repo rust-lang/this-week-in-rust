@@ -179,4 +179,4 @@ Thanks to [Cauê Baasch De Souza](https://users.rust-lang.org/t/twir-quote-of-th
 
 *This Week in Rust is edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [Flavsditz](https://github.com/Flavsditz).*
 
-<small>[Discuss on r/rust]().</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/ae9ua8/this_week_in_rust_268/).</small>
