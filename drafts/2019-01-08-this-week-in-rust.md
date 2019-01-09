@@ -90,22 +90,35 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Implement Debug, Eq, PartialEq, and Hash for libc structs](https://github.com/rust-lang/rfcs/pull/2235).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Summary issue for const-stabilizing `const_int_overflowing`](https://github.com/rust-lang/rust/issues/57237).
+* [disposition: merge] [Const-stabilize `const_int_ops` + `const_ip`](https://github.com/rust-lang/rust/pull/57234).
+* [disposition: merge] [Stabilize `let` bindings and destructuring in constants and const fn](https://github.com/rust-lang/rust/pull/57175).
+* [disposition: merge] [Stablilize const_int_{rotate,wrapping,sign}](https://github.com/rust-lang/rust/pull/57105).
+* [disposition: merge] [Stabilize `uniform_paths`](https://github.com/rust-lang/rust/pull/56759).
+* [disposition: merge] [Stabilize the `integer_atomics` feature: Atomic{I,U}{8,16,32,64}](https://github.com/rust-lang/rust/issues/56753).
+* [disposition: merge] [Stabilization proposal for #![feature(if_while_or_patterns)]](https://github.com/rust-lang/rust/issues/56212).
+* [disposition: merge] [Tracking issue for RFC 2306, "Add core::convert::identity"](https://github.com/rust-lang/rust/issues/53500).
+* [disposition: merge] [Tracking issue for write_all_at/read_exact_at convenience methods](https://github.com/rust-lang/rust/issues/51984).
+* [disposition: merge] [Tracking issue for non-panicking pow](https://github.com/rust-lang/rust/issues/48320).
+* [disposition: merge] [Tracking Issue for Result<Option> and Option<Result> Conversion](https://github.com/rust-lang/rust/issues/47338).
 
 ## New RFCs
 
-*There are currently no new RFCs*
+* [Type Ascribed Coercions](https://github.com/rust-lang/rfcs/pull/2623).
 
 # Upcoming Events
 
 ### Online
 
 * [Jan  9. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Jan 14. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Jan 16. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Jan 16. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Jan 23. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
 ### Asia
 
@@ -113,10 +126,12 @@ decision. Express your opinions now.
 
 ### Europe
 
-* [Jan  8. Rapperswil-Jona, CH - Rust Zürichsee meetup at Coredump - Looking for a speaker](https://www.meetup.com/Rust-Zurich/events/253608548/).
 * [Jan  9. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzcbmb/).
 * [Jan 10. Brno, CZ - Rust meetup at Masaryk University](https://rust-brno.github.io/).
 * [Jan 14. Cologne, DE - Rust Cologne Meetup](https://www.meetup.com/RustCologne/events/vnwndpyzcbdb/).
+* [Jan 15. Rome, IT - Rust Rome Meetup](https://www.meetup.com/Rust-Roma/events/257921654/).
+* [Jan 22. Lyon, FR - TupperRust](https://tupperrust.github.io).
+* [Jan 23. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzcbfc/).
 
 ### North America
 
@@ -127,7 +142,12 @@ decision. Express your opinions now.
 * [Jan  9. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rzszlqyzcbmb/).
 * [Jan 10. Columbus, US - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dbcfrpyzcbnb/).
 * [Jan 10. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/255209742/).
+* [Jan 10. Arlington, US - Rust DC—Mid-month Rustful](https://www.meetup.com/RustDC/events/256380444).
 * [Jan 13. Mountain view, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyzcbrb/).
+* [Jan 15. Los Angeles, US - Los Angeles Rust Meetup](https://www.meetup.com/Rust-Los-Angeles/events/257872752/).
+* [Jan 20. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyzcbbc/).
+* [Jan 23. Ann Arbor, US - Ann Arbor Rust Meetup](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/cgsskqyzcbfc/).
+* [Jan 23. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rzszlqyzcbfc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
