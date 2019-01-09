@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This year in gfx-rs: 2018](https://gfx-rs.github.io/2018/12/27/this-year.html).
 * [Comparing Pythagorean triples in C++, D, and Rust](https://atilanevesoncode.wordpress.com/2018/12/31/comparing-pythagorean-triples-in-c-d-and-rust/).
 * [My experience converting a Python library to Rust](https://alantrick.ca/writings/programming/python_to_rust/).
+* [Building a JS interpreter in Rust Part 2](https://jason-williams.co.uk/building-a-js-interpreter-in-rust-part-2).
 
 ### #Rust2019
 
