@@ -16,10 +16,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [This year in gfx-rs: 2018](https://gfx-rs.github.io/2018/12/27/this-year.html).
-* [Comparing Pythagorean triples in C++, D, and Rust](https://atilanevesoncode.wordpress.com/2018/12/31/comparing-pythagorean-triples-in-c-d-and-rust/).
-* [My experience converting a Python library to Rust](https://alantrick.ca/writings/programming/python_to_rust/).
-* [Building a JS interpreter in Rust Part 2](https://jason-williams.co.uk/building-a-js-interpreter-in-rust-part-2).
+* [Rust cheat sheet for beginners](https://www.breakdown-notes.com/make).
+* [Deriving traits in Rust with procedural macros](https://naftuli.wtf/2019/01/02/rust-derive-macros/).
+* [Using Rust for Gamedev](https://medium.com/@michelotti.matthew/using-rust-for-gamedev-2f60b0e4cc5c).
+* [Are we async yet](https://areweasyncyet.rs/)?
+* [Building a JS interpreter in Rust part 2](https://jason-williams.co.uk/building-a-js-interpreter-in-rust-part-2).
+* [New Rustacean interview: Carol Nichols || Goulding and Jake Goulding](https://newrustacean.com/show_notes/interview/integer32/). Talking with Carol and Jake about The Rust Programming Language, Rust in Motion, and Rust Belt Rust.
 
 ### #Rust2019
 
@@ -40,8 +42,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [A call for Rust 2019 Roadmap blog posts](https://blog.rust-lang.org/2018/12/06/call-for-rust-2019-roadmap-blogposts.html).
-* [content-security-policy: Implement post-request check for fetch directives](https://github.com/rust-ammonia/rust-content-security-policy/issues/3).
+* [A call for #Rust2019 Roadmap blog posts](https://blog.rust-lang.org/2018/12/06/call-for-rust-2019-roadmap-blogposts.html).
+* [A call for #RustWasm2019 Roadmap blog posts](https://rustwasm.github.io/2018/12/06/reflecting-on-rust-and-wasm-in-2018.html).
+* [medium] [Mundane: Run tests with ASan and MSan](https://github.com/google/mundane/issues/15). Mundane is a Rust cryptography library backed by BoringSSL.
+* [medium] [Mundane: Test BoringSSL refcounting](https://github.com/google/mundane/issues/14).
+* [easy] [Mundane: CONTRIBUTING.md: Document that you need to pull from googlesource.com](https://github.com/google/mundane/issues/12).
+* [Tetra: Black screen/shader issues on MacOS](https://github.com/17cupsofcoffee/tetra/issues/54). Tetra is a 2D game framework written in Rust.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -120,19 +126,11 @@ decision. Express your opinions now.
 
 ### Online
 
-* [Jan  9. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Jan 14. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Jan 16. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Jan 16. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Jan 23. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
-### Asia
-
-* [Jan 9. Kuala Lumpur, MY - Rust Malaysia Meetup Kuala Lumpur](https://www.facebook.com/events/1128655260646848/).
-
 ### Europe
 
-* [Jan  9. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzcbmb/).
 * [Jan 10. Brno, CZ - Rust meetup at Masaryk University](https://rust-brno.github.io/).
 * [Jan 14. Cologne, DE - Rust Cologne Meetup](https://www.meetup.com/RustCologne/events/vnwndpyzcbdb/).
 * [Jan 15. Rome, IT - Rust Rome Meetup](https://www.meetup.com/Rust-Roma/events/257921654/).
@@ -164,9 +162,13 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Gameplay & Generlist Engineer at Embard Studios, Stockholm, SE](https://www.embark-studios.com/#jobs).
-* [Embedded operating system developer, Karlsruhe, DE](https://www.pse.kit.edu/karriere/joboffer.php?id=2093&language=en).
-* [Student research assistant (embedded), Karlsruhe, DE](https://twitter.com/oli_obk/status/1064856324071178240).
+* [Rust Intern (Summer 2019) at Mozilla, San Francisco, US](https://careers.mozilla.org/position/gh/1480831/).
+* [Kernel Engineer at System76, Denver, US](https://system76.com/careers#kernel-engineer).
+* [Senior Software Engineer at Prevoty, Los Angeles, US](https://www.prevoty.com/about/careers?gh_jid=4032159002).
+* [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
+* [volunteer] [UX Developer at Amethyst](https://community.amethyst-engine.org/t/position-available-showcase-team-ux-developers/321).
+* [volunteer] [Team Artist at Amethyst](https://community.amethyst-engine.org/t/position-available-showcase-team-artists/319).
+* [volunteer] [Core Developer at Amethyst](https://community.amethyst-engine.org/t/position-available-showcase-team-core-developers/320).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
