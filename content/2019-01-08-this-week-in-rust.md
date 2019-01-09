@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Rust cheat sheet for beginners](https://www.breakdown-notes.com/make).
+* [Rust cheat sheet for beginners](https://www.breakdown-notes.com/make/load/rust_cs_canvas/true).
 * [Deriving traits in Rust with procedural macros](https://naftuli.wtf/2019/01/02/rust-derive-macros/).
 * [Using Rust for Gamedev](https://medium.com/@michelotti.matthew/using-rust-for-gamedev-2f60b0e4cc5c).
 * [Are we async yet](https://areweasyncyet.rs/)?
