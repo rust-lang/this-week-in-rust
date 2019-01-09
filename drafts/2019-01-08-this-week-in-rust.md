@@ -27,7 +27,7 @@ Find all #Rust2019 posts at [Read Rust](https://readrust.net/rust-2019/).
 
 # Crate of the Week
 
-This week's crate is [Dose Response](https://tryjumping.itch.io/dose-response), an online-playable roguelike game with a probably bleak outcome. Thanks to [Vikrant Chaudhary](https://users.rust-lang.org/t/crate-of-the-week/2704/474) for the suggestion!
+This week's crate is [gfx-hal](https://crates.io/crates/gfx-hal), a hardware abstraction layer for gfx-rs. Thanks to [Vikrant Chaudhary](https://users.rust-lang.org/t/crate-of-the-week/2704/476) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -49,31 +49,36 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-150 pull requests were [merged in the last week][merged]
+166 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-12-24..2018-12-31
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-12-31..2019-01-07
 
-* [add `-Z instrument-mcount`](https://github.com/rust-lang/rust/pull/57220)
-* [parallel query tweaks](https://github.com/rust-lang/rust/pull/56983)
-* [move jemalloc from rustc_driver to rustc](https://github.com/rust-lang/rust/pull/56986)
-* [uninline some debugging code and use unlikely! macro](https://github.com/rust-lang/rust/pull/57035)
-* [resolve: fix an ICE in import validation](https://github.com/rust-lang/rust/pull/57160)
-* [resolve: fix another ICE in import validation](https://github.com/rust-lang/rust/pull/57181)
-* [AST/HIR: introduce `ExprKind::Err` for better error recovery in the front-end](https://github.com/rust-lang/rust/pull/56999)
-* [fix new unused patch warning](https://github.com/rust-lang/cargo/pull/6494)
-* [suggest `.as_ref()?` instead of `?` in certain circumstances](https://github.com/rust-lang/rust-clippy/pull/3561)
-* [suggest `.as_ref()` when appropriate for `Option` and `Result`](https://github.com/rust-lang/rust/pull/57158)
-* [tweaks to format string diagnostics](https://github.com/rust-lang/rust/pull/57140)
-* [various changes to string format diagnostics](https://github.com/rust-lang/rust/pull/57069)
-* [point to cause of `fn` expected return type](https://github.com/rust-lang/rust/pull/57020)
-* [codegen: make zero-sized arrays affect alignment](https://github.com/rust-lang/rust-bindgen/pull/1477)
-* [make Alloc::check_bounds_ptr private; you should use Memory::check_bounds_ptr instead](https://github.com/rust-lang/rust/pull/57129)
-* [add Unpin to std prelude, not just core](https://github.com/rust-lang/rust/pull/57137)
-* [remove the private generic NonZero<T> wrapper type](https://github.com/rust-lang/rust/pull/57133)
-* [stabilize Duration::{as_millis, as_micros, as_nanos}](https://github.com/rust-lang/rust/pull/57124)
-* [make the getter for NonZero types into a const fn](https://github.com/rust-lang/rust/pull/57167)
-* [make tm struct members public](https://github.com/rust-lang/libc/pull/1183)
-* [testsuite: require failing commands to check output](https://github.com/rust-lang/cargo/pull/6497)
+* [implement the Re-rebalance coherence RFC](https://github.com/rust-lang/rust/pull/56145)
+* [forbid recursive `impl trait`](https://github.com/rust-lang/rust/pull/56074)
+* [allow to dispatch fn traits depending on number of parameters](https://github.com/rust-lang/rust/pull/55986)
+* [rustc: fix regression where jemalloc isn't used](https://github.com/rust-lang/rust/pull/57287)
+* [syntax: fix regression in diagnostics for patterns in trait method parameters](https://github.com/rust-lang/rust/pull/57251)
+* [resolve: simplify treatment of ambiguity errors](https://github.com/rust-lang/rust/pull/57199)
+* [calculate privacy access only via query](https://github.com/rust-lang/rust/pull/57343)
+* [privacy: fix regression in impl reachability](https://github.com/rust-lang/rust/pull/57344)
+* [tweak unicode escape diagnostics](https://github.com/rust-lang/rust/pull/57210)
+* [suggest using raw identifiers in 2018 edition when using keywords](https://github.com/rust-lang/rust/pull/57209)
+* [do not complain about missing crate named as a keyword](https://github.com/rust-lang/rust/pull/57208)
+* [use structured suggestions for nonexistent fields](https://github.com/rust-lang/rust/pull/57047)
+* [use structured suggestion for method calls](https://github.com/rust-lang/rust/pull/57291)
+* [add specific diagnostic when attempting to transmute between equal generic types](https://github.com/rust-lang/rust/pull/57044)
+* [don't emit `Unevaluated` from `const_eval`](https://github.com/rust-lang/rust/pull/56723)
+* [make `CompileController` thread-safe](https://github.com/rust-lang/rust/pull/57308)
+* [NLL: user type annotations refactor, associated constant patterns and ref bindings](https://github.com/rust-lang/rust/pull/55937)
+* [universes](https://github.com/rust-lang/rust/pull/55517)
+* [rustdoc: force binary filename for compiled doctests](https://github.com/rust-lang/rust/pull/57338)
+* [improve `Box<T>` → `Pin<Box<T>>` conversion](https://github.com/rust-lang/rust/pull/57313)
+* [eliminate `Receiver::recv_timeout` panic](https://github.com/rust-lang/rust/pull/56827)
+* [`VaList::copy` should not require a mutable ref](https://github.com/rust-lang/rust/pull/57311)
+* [add duration constants](https://github.com/rust-lang/rust/pull/57375)
+* [NLL: fix bug in associated constant type annotations](https://github.com/rust-lang/rust/pull/57304)
+* [make sure feature gate errors are recoverable](https://github.com/rust-lang/rust/pull/57272)
+* [cargo: fix error message when resolving dependencies](https://github.com/rust-lang/cargo/pull/6510)
 
 ## Approved RFCs
 
@@ -167,13 +172,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> In theory it would be entirely reasonable to guess that most Rust projects would need to use a significant amount of unsafe code to escape the
-> limitations of the borrow checker. However, in practice it turns out (shockingly!) that the overwhelming majority of programs can be implemented
-> perfectly well using only safe Rust.
+> The name Rust suggests what it is: a thin layer on top of the metal.
 
-– PM_ME_UR_MONADS [on reddit](https://www.reddit.com/r/rust/comments/a7kkw9/looking_for_someone_to_change_my_view_on_this/ec3r38n/)
+– c3534l [on reddit](https://www.reddit.com/r/rust/comments/abm6hy/why_rust_is_successful_compared_with/ed1k1xl)
 
-Thanks to [nasa42](https://users.rust-lang.org/t/twir-quote-of-the-week/328/591) for the suggestion!
+Thanks to [Cauê Baasch De Souza](https://users.rust-lang.org/t/twir-quote-of-the-week/328/593) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
