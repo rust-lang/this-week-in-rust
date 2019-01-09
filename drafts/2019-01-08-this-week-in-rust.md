@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Comparing Pythagorean triples in C++, D, and Rust](https://atilanevesoncode.wordpress.com/2018/12/31/comparing-pythagorean-triples-in-c-d-and-rust/).
 * [My experience converting a Python library to Rust](https://alantrick.ca/writings/programming/python_to_rust/).
 * [Building a JS interpreter in Rust Part 2](https://jason-williams.co.uk/building-a-js-interpreter-in-rust-part-2).
+* [Rust 2019 wish list](https://estada.ch/2019/1/9/rust-2019-wish-list/)
 
 ### #Rust2019
 
