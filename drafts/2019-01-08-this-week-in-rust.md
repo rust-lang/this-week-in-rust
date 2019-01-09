@@ -115,7 +115,10 @@ decision. Express your opinions now.
 ### Online
 
 * [Jan  9. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Jan 14. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Jan 16. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Jan 16. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Jan 23. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
 ### Asia
 
@@ -123,10 +126,12 @@ decision. Express your opinions now.
 
 ### Europe
 
-* [Jan  8. Rapperswil-Jona, CH - Rust Zürichsee meetup at Coredump - Looking for a speaker](https://www.meetup.com/Rust-Zurich/events/253608548/).
 * [Jan  9. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzcbmb/).
 * [Jan 10. Brno, CZ - Rust meetup at Masaryk University](https://rust-brno.github.io/).
 * [Jan 14. Cologne, DE - Rust Cologne Meetup](https://www.meetup.com/RustCologne/events/vnwndpyzcbdb/).
+* [Jan 15. Rome, IT - Rust Rome Meetup](https://www.meetup.com/Rust-Roma/events/257921654/).
+* [Jan 22. Lyon, FR - TupperRust](https://tupperrust.github.io).
+* [Jan 23. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzcbfc/).
 
 ### North America
 
@@ -137,7 +142,12 @@ decision. Express your opinions now.
 * [Jan  9. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rzszlqyzcbmb/).
 * [Jan 10. Columbus, US - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dbcfrpyzcbnb/).
 * [Jan 10. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/255209742/).
+* [Jan 10. Arlington, US - Rust DC—Mid-month Rustful](https://www.meetup.com/RustDC/events/256380444).
 * [Jan 13. Mountain view, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyzcbrb/).
+* [Jan 15. Los Angeles, US - Los Angeles Rust Meetup](https://www.meetup.com/Rust-Los-Angeles/events/257872752/).
+* [Jan 20. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyzcbbc/).
+* [Jan 23. Ann Arbor, US - Ann Arbor Rust Meetup](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/cgsskqyzcbfc/).
+* [Jan 23. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rzszlqyzcbfc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
