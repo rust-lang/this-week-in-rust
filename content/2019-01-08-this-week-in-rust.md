@@ -48,6 +48,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [medium] [Mundane: Test BoringSSL refcounting](https://github.com/google/mundane/issues/14).
 * [easy] [Mundane: CONTRIBUTING.md: Document that you need to pull from googlesource.com](https://github.com/google/mundane/issues/12).
 * [Tetra: Black screen/shader issues on MacOS](https://github.com/17cupsofcoffee/tetra/issues/54). Tetra is a 2D game framework written in Rust.
+* [UX Developer at Amethyst](https://community.amethyst-engine.org/t/position-available-showcase-team-ux-developers/321).
+* [Team Artist at Amethyst](https://community.amethyst-engine.org/t/position-available-showcase-team-artists/319).
+* [Core Developer at Amethyst](https://community.amethyst-engine.org/t/position-available-showcase-team-core-developers/320).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -161,9 +164,6 @@ Email the [Rust Community Team][community] for access.
 * [Kernel Engineer at System76, Denver, US](https://system76.com/careers#kernel-engineer).
 * [Senior Software Engineer at Prevoty, Los Angeles, US](https://www.prevoty.com/about/careers?gh_jid=4032159002).
 * [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
-* [volunteer] [UX Developer at Amethyst](https://community.amethyst-engine.org/t/position-available-showcase-team-ux-developers/321).
-* [volunteer] [Team Artist at Amethyst](https://community.amethyst-engine.org/t/position-available-showcase-team-artists/319).
-* [volunteer] [Core Developer at Amethyst](https://community.amethyst-engine.org/t/position-available-showcase-team-core-developers/320).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
