@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Understanding Rust Lifetimes](https://medium.com/nearprotocol/understanding-rust-lifetimes-e813bcd405fa).
+
 ### #Rust2019
 
 Find all #Rust2019 posts at [Read Rust](https://readrust.net/rust-2019/).
