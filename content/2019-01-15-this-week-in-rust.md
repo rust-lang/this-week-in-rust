@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Librsvg is almost rustified now](https://people.gnome.org/~federico/blog/librsvg-is-almost-rustified.html).
 * [Understanding Rust lifetimes](https://medium.com/nearprotocol/understanding-rust-lifetimes-e813bcd405fa).
 * [const types, traits and implementations in Rust](https://varkor.github.io/blog/2019/01/11/const-types-traits-and-implementations-in-Rust.html).
+* [Generate Rust tests from data files](https://blog.cyplo.net/posts/2018/12/generate-rust-tests-from-data.html).
 * [The evolution of a Rust programmer](http://antoyo.ml/evolution-rust-programmer).
 
 ### #Rust2019
