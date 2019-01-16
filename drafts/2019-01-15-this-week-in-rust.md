@@ -16,7 +16,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Understanding Rust Lifetimes](https://medium.com/nearprotocol/understanding-rust-lifetimes-e813bcd405fa).
+* [Writing an OS in Rust: Introduction to paging](https://os.phil-opp.com/paging-introduction/).
+* [Librsvg is almost rustified now](https://people.gnome.org/~federico/blog/librsvg-is-almost-rustified.html).
+* [Understanding Rust lifetimes](https://medium.com/nearprotocol/understanding-rust-lifetimes-e813bcd405fa).
+* [const types, traits and implementations in Rust](https://varkor.github.io/blog/2019/01/11/const-types-traits-and-implementations-in-Rust.html).
+* [The evolution of a Rust programmer](http://antoyo.ml/evolution-rust-programmer).
 
 ### #Rust2019
 
@@ -37,12 +41,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [A call for #Rust2019 Roadmap blog posts](https://blog.rust-lang.org/2018/12/06/call-for-rust-2019-roadmap-blogposts.html).
-* [A call for #RustWasm2019 Roadmap blog posts](https://rustwasm.github.io/2018/12/06/reflecting-on-rust-and-wasm-in-2018.html).
-* [medium] [Mundane: Run tests with ASan and MSan](https://github.com/google/mundane/issues/15). Mundane is a Rust cryptography library backed by BoringSSL.
-* [medium] [Mundane: Test BoringSSL refcounting](https://github.com/google/mundane/issues/14).
-* [easy] [Mundane: CONTRIBUTING.md: Document that you need to pull from googlesource.com](https://github.com/google/mundane/issues/12).
-* [Tetra: Black screen/shader issues on MacOS](https://github.com/17cupsofcoffee/tetra/issues/54). Tetra is a 2D game framework written in Rust.
+* [easy] [Mundane: Rename `Signature::verify` to `is_valid`](https://github.com/google/mundane/issues/16).
+* [easy] [Crater: Test Clippy lint](https://github.com/rust-lang-nursery/crater/issues/388).
+* [Review source code of yaserde: Yet another serializer/deserializer](https://users.rust-lang.org/t/twir-call-for-participation/4821/226).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -114,6 +115,7 @@ decision. Express your opinions now.
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [Add signed num::NonZeroI* types](https://github.com/rust-lang/rust/pull/57475).
+* [disposition: merge] [Stabilize extern_crate_self](https://github.com/rust-lang/rust/pull/57407).
 * [disposition: merge] [Stabilize the `integer_atomics` feature: Atomic{I,U}{8,16,32,64}](https://github.com/rust-lang/rust/issues/56753).
 
 ## New RFCs
@@ -124,14 +126,12 @@ decision. Express your opinions now.
 
 ### Online
 
-* [Jan 16. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Jan 23. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Jan 28. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Jan 30. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 
 ### Asia
 
-* [Jan 17. Hong Kong, CN - HK Functional Programming Meetup: Fullstack Web Development in Rust](https://www.meetup.com/HK-Functional-programming/events/256805970/).
+* [Jan 17. Hong Kong, HK - HK Functional Programming Meetup: Fullstack Web Development in Rust](https://www.meetup.com/HK-Functional-programming/events/256805970/).
 
 ### Europe
 
@@ -163,13 +163,8 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Intern (Summer 2019) at Mozilla, San Francisco, US](https://careers.mozilla.org/position/gh/1480831/).
-* [Kernel Engineer at System76, Denver, US](https://system76.com/careers#kernel-engineer).
-* [Senior Software Engineer at Prevoty, Los Angeles, US](https://www.prevoty.com/about/careers?gh_jid=4032159002).
-* [Rust Developer at Parity, Berlin, DE](https://paritytech.io/jobs/).
-* [volunteer] [UX Developer at Amethyst](https://community.amethyst-engine.org/t/position-available-showcase-team-ux-developers/321).
-* [volunteer] [Team Artist at Amethyst](https://community.amethyst-engine.org/t/position-available-showcase-team-artists/319).
-* [volunteer] [Core Developer at Amethyst](https://community.amethyst-engine.org/t/position-available-showcase-team-core-developers/320).
+* [Rust Developer at Devolutions, Quebec, CA](https://devolutions.net/careers/openings/rust-developer).
+* [Senior Backend Engineer at Kraken, Remote](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
