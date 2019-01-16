@@ -24,7 +24,7 @@ Find all #Rust2019 posts at [Read Rust](https://readrust.net/rust-2019/).
 
 # Crate of the Week
 
-This week's crate is [gfx-hal](https://crates.io/crates/gfx-hal), a hardware abstraction layer for gfx-rs. Thanks to [Vikrant Chaudhary](https://users.rust-lang.org/t/crate-of-the-week/2704/476) for the suggestion!
+This week's crate is [ropey](https://github.com/cessen/ropey), an editable text buffer data structure. Thanks to [Vikrant Chaudhary](https://users.rust-lang.org/t/crate-of-the-week/2704/477) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -50,36 +50,46 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-166 pull requests were [merged in the last week][merged]
+189 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2018-12-31..2019-01-07
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-01-07..2019-01-14
 
-* [implement the Re-rebalance coherence RFC](https://github.com/rust-lang/rust/pull/56145)
-* [forbid recursive `impl trait`](https://github.com/rust-lang/rust/pull/56074)
-* [allow to dispatch fn traits depending on number of parameters](https://github.com/rust-lang/rust/pull/55986)
-* [rustc: fix regression where jemalloc isn't used](https://github.com/rust-lang/rust/pull/57287)
-* [syntax: fix regression in diagnostics for patterns in trait method parameters](https://github.com/rust-lang/rust/pull/57251)
-* [resolve: simplify treatment of ambiguity errors](https://github.com/rust-lang/rust/pull/57199)
-* [calculate privacy access only via query](https://github.com/rust-lang/rust/pull/57343)
-* [privacy: fix regression in impl reachability](https://github.com/rust-lang/rust/pull/57344)
-* [tweak unicode escape diagnostics](https://github.com/rust-lang/rust/pull/57210)
-* [suggest using raw identifiers in 2018 edition when using keywords](https://github.com/rust-lang/rust/pull/57209)
-* [do not complain about missing crate named as a keyword](https://github.com/rust-lang/rust/pull/57208)
-* [use structured suggestions for nonexistent fields](https://github.com/rust-lang/rust/pull/57047)
-* [use structured suggestion for method calls](https://github.com/rust-lang/rust/pull/57291)
-* [add specific diagnostic when attempting to transmute between equal generic types](https://github.com/rust-lang/rust/pull/57044)
-* [don't emit `Unevaluated` from `const_eval`](https://github.com/rust-lang/rust/pull/56723)
-* [make `CompileController` thread-safe](https://github.com/rust-lang/rust/pull/57308)
-* [NLL: user type annotations refactor, associated constant patterns and ref bindings](https://github.com/rust-lang/rust/pull/55937)
-* [universes](https://github.com/rust-lang/rust/pull/55517)
-* [rustdoc: force binary filename for compiled doctests](https://github.com/rust-lang/rust/pull/57338)
-* [improve `Box<T>` → `Pin<Box<T>>` conversion](https://github.com/rust-lang/rust/pull/57313)
-* [eliminate `Receiver::recv_timeout` panic](https://github.com/rust-lang/rust/pull/56827)
-* [`VaList::copy` should not require a mutable ref](https://github.com/rust-lang/rust/pull/57311)
-* [add duration constants](https://github.com/rust-lang/rust/pull/57375)
-* [NLL: fix bug in associated constant type annotations](https://github.com/rust-lang/rust/pull/57304)
-* [make sure feature gate errors are recoverable](https://github.com/rust-lang/rust/pull/57272)
-* [cargo: fix error message when resolving dependencies](https://github.com/rust-lang/cargo/pull/6510)
+* [add miri to rustup](https://github.com/rust-lang/rustup.rs/pull/1606)
+* [fix undefined behavior](https://github.com/rust-lang/rust/pull/57511)
+* [resolve: mark extern crate items as used in more cases](https://github.com/rust-lang/rust/pull/57557)
+* [clarify resolve typo suggestion](https://github.com/rust-lang/rust/pull/57477)
+* [privacy: fix private-in-public check for existential types](https://github.com/rust-lang/rust/pull/57556)
+* [tweak output of type mismatch between "then" and `else` `if` arms](https://github.com/rust-lang/rust/pull/57381)
+* [use structured suggestion when casting a reference](https://github.com/rust-lang/rust/pull/57493)
+* [use structured suggestions for nonstandard style lints](https://github.com/rust-lang/rust/pull/57387)
+* [point at match discriminant on type error in match arm pattern](https://github.com/rust-lang/rust/pull/57366)
+* [const-stabilize `const_int_ops` + `const_ip`](https://github.com/rust-lang/rust/pull/57234)
+* [don't actually create a full MIR stack frame when not needed](https://github.com/rust-lang/rust/pull/57351)
+* [speed up item_bodies for large match statements involving regions](https://github.com/rust-lang/rust/pull/57494)
+* [change `String` to `&'static str` in `ParseResult::Failure`](https://github.com/rust-lang/rust/pull/57461)
+* [parallelize and optimize parts of HIR map creation](https://github.com/rust-lang/rust/pull/57232)
+* [stabilize cfg_target_vendor](https://github.com/rust-lang/rust/pull/57465)
+* [stabilize cfg_attr_multi](https://github.com/rust-lang/rust/pull/57332)
+* [stabilize core::convert::identity](https://github.com/rust-lang/rust/pull/57322)
+* [stabilize `let` bindings and destructuring in constants and const fn](https://github.com/rust-lang/rust/pull/57175)
+* [clean up and optimize OpenTask / read_index](https://github.com/rust-lang/rust/pull/57114)
+* [NLL: add union justifications to conflicting borrows](https://github.com/rust-lang/rust/pull/57102)
+* [fix and optimize query profiling](https://github.com/rust-lang/rust/pull/57095)
+* [make `TokenStream` less recursive](https://github.com/rust-lang/rust/pull/57004)
+* [replace LockCell with atomic types](https://github.com/rust-lang/rust/pull/56614)
+* [make more passes incremental](https://github.com/rust-lang/rust/pull/51487)
+* [librustc_mir: fix ICE with slice patterns](https://github.com/rust-lang/rust/pull/57538)
+* [don't unwrap unexpected tokens in `format!`](https://github.com/rust-lang/rust/pull/57522)
+* [stabilize `uniform_paths`](https://github.com/rust-lang/rust/pull/56759)
+* [stabilize irrefutable if-let and while-let patterns](https://github.com/rust-lang/rust/pull/57535)
+* [stabilize `if_while_or_patterns`](https://github.com/rust-lang/rust/pull/57532)
+* [std: render large exit codes as hex on Windows](https://github.com/rust-lang/rust/pull/57473)
+* [add `#[must_use]` to `Iterator` and `Future`](https://github.com/rust-lang/rust/pull/57549)
+* [std: force `Instant::now()` to be monotonic](https://github.com/rust-lang/rust/pull/56988)
+* [optimise floating point `is_finite` (2x) and `is_infinite` (1.6x)](https://github.com/rust-lang/rust/pull/57353)
+* [`cargo --`{`example`,`bin`,`bench`,`test`} with no argument now lists all available targets](https://github.com/rust-lang/cargo/pull/6505)
+* [rustup: fix `utils::copy_file` for symlink](https://github.com/rust-lang/rustup.rs/pull/1521)
+* [rustdoc: allow inlining of reexported crates and crate items](https://github.com/rust-lang/rust/pull/57508)
 
 ## Approved RFCs
 
@@ -164,9 +174,26 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> The name Rust suggests what it is: a thin layer on top of the metal.
+> Right.  I've never even used this impl, but my first thought upon seeing the question "I have an `Iterator` of `X` and need a `Y`" was to look at the `FromIterator` impls of `Y`.
+>
+> If that impl *didn't* exist, I'd then look for the following:
+>
+> * Other `FromIterator<X>` impls for `String` to see if any of those `X` can easily be produced from `char` (and then I would call `map` before `.collect()`).
+> * `impl FromIterator<char> for Vec<u8>`.  If this existed I would use `String::from_utf8(iterator.collect())`.
+> * `impl Add<char> for String`.  If this existed, I would use `.fold(String::new(), |s, c| s + c)`
+> * methods of [char](https://doc.rust-lang.org/std/primitive.char.html) to see if there's anything that lets you obtain the UTF8 bytes.  Indeed, there is `encode_utf8`, which even gives a `&mut str`, so one can write
+>   ```rust
+>   .fold(String::new(), |s, c| {
+>       let mut buffer = [u8; 4];
+>       s += &*c.encode_utf8(&mut buffer);
+>       s
+>   })
+>   ```
+> * idly check the [inherent methods of `String`](https://doc.rust-lang.org/std/string/struct.String.html) for whatever pops out at me
+>
+> and if I could still find nothing after all of that I'd slam my head into a wall somewhere.
 
-– c3534l [on reddit](https://www.reddit.com/r/rust/comments/abm6hy/why_rust_is_successful_compared_with/ed1k1xl)
+– Michael Lamparski [on rust-users](https://users.rust-lang.org/t/iterator-of-char-into-string/24003/4)
 
 Thanks to [Cauê Baasch De Souza](https://users.rust-lang.org/t/twir-quote-of-the-week/328/593) for the suggestion!
 
