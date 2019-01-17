@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [A bot for Starcraft in Rust, C or any other language](https://habr.com/en/post/436254/).
+
 ### #Rust2019
 
 Find all #Rust2019 posts at [Read Rust](https://readrust.net/rust-2019/).
