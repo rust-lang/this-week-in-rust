@@ -145,15 +145,12 @@ decision. Express your opinions now.
 
 ### North America
 
+* [Jan 16. Ciudad de México, MX - Rust MX: primera reunión del 2019](https://www.meetup.com/Rust-MX/events/257791793/).
 * [Jan 20. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyzcbbc/).
 * [Jan 23. Ann Arbor, US - Ann Arbor Rust Meetup](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/cgsskqyzcbfc/).
 * [Jan 23. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rzszlqyzcbfc/).
 * [Jan 28. North Carolina, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/).
 * [Jan 30. Chicago, US - Chicago Rust Meetup - Property-Based Testing in Rust](https://www.meetup.com/Chicago-Rust-Meetup/events/257469240/).
-
-### South America
-
-* [Jan 16. Ciudad de México, MX - Rust MX: primera reunión del 2019](https://www.meetup.com/Rust-MX/events/257791793/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
