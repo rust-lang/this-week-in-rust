@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [A bot for Starcraft in Rust, C or any other language](https://habr.com/en/post/436254/).
+* LeetCode now support Rust. [中文站点](https://s.growingio.com/A15RmP), [LeetCode Site - Two sum](https://leetcode.com/problems/two-sum/)
 
 ### #Rust2019
 
