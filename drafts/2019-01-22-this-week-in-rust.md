@@ -24,7 +24,7 @@ Find all #Rust2019 posts at [Read Rust](https://readrust.net/rust-2019/).
 
 # Crate of the Week
 
-This week's crate is [ropey](https://github.com/cessen/ropey), an editable text buffer data structure. Thanks to [Vikrant Chaudhary](https://users.rust-lang.org/t/crate-of-the-week/2704/477) for the suggestion!
+This week's crate is [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer), an experimental Rust compiler frontend for IDEs. Thanks to [llogiq](https://github.com/llogiq) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -47,46 +47,46 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-189 pull requests were [merged in the last week][merged]
+215 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-01-07..2019-01-14
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-01-14..2019-01-21
 
-* [add miri to rustup](https://github.com/rust-lang/rustup.rs/pull/1606)
-* [fix undefined behavior](https://github.com/rust-lang/rust/pull/57511)
-* [resolve: mark extern crate items as used in more cases](https://github.com/rust-lang/rust/pull/57557)
-* [clarify resolve typo suggestion](https://github.com/rust-lang/rust/pull/57477)
-* [privacy: fix private-in-public check for existential types](https://github.com/rust-lang/rust/pull/57556)
-* [tweak output of type mismatch between "then" and `else` `if` arms](https://github.com/rust-lang/rust/pull/57381)
-* [use structured suggestion when casting a reference](https://github.com/rust-lang/rust/pull/57493)
-* [use structured suggestions for nonstandard style lints](https://github.com/rust-lang/rust/pull/57387)
-* [point at match discriminant on type error in match arm pattern](https://github.com/rust-lang/rust/pull/57366)
-* [const-stabilize `const_int_ops` + `const_ip`](https://github.com/rust-lang/rust/pull/57234)
-* [don't actually create a full MIR stack frame when not needed](https://github.com/rust-lang/rust/pull/57351)
-* [speed up item_bodies for large match statements involving regions](https://github.com/rust-lang/rust/pull/57494)
-* [change `String` to `&'static str` in `ParseResult::Failure`](https://github.com/rust-lang/rust/pull/57461)
-* [parallelize and optimize parts of HIR map creation](https://github.com/rust-lang/rust/pull/57232)
-* [stabilize cfg_target_vendor](https://github.com/rust-lang/rust/pull/57465)
-* [stabilize cfg_attr_multi](https://github.com/rust-lang/rust/pull/57332)
-* [stabilize core::convert::identity](https://github.com/rust-lang/rust/pull/57322)
-* [stabilize `let` bindings and destructuring in constants and const fn](https://github.com/rust-lang/rust/pull/57175)
-* [clean up and optimize OpenTask / read_index](https://github.com/rust-lang/rust/pull/57114)
-* [NLL: add union justifications to conflicting borrows](https://github.com/rust-lang/rust/pull/57102)
-* [fix and optimize query profiling](https://github.com/rust-lang/rust/pull/57095)
-* [make `TokenStream` less recursive](https://github.com/rust-lang/rust/pull/57004)
-* [replace LockCell with atomic types](https://github.com/rust-lang/rust/pull/56614)
-* [make more passes incremental](https://github.com/rust-lang/rust/pull/51487)
-* [librustc_mir: fix ICE with slice patterns](https://github.com/rust-lang/rust/pull/57538)
-* [don't unwrap unexpected tokens in `format!`](https://github.com/rust-lang/rust/pull/57522)
-* [stabilize `uniform_paths`](https://github.com/rust-lang/rust/pull/56759)
-* [stabilize irrefutable if-let and while-let patterns](https://github.com/rust-lang/rust/pull/57535)
-* [stabilize `if_while_or_patterns`](https://github.com/rust-lang/rust/pull/57532)
-* [std: render large exit codes as hex on Windows](https://github.com/rust-lang/rust/pull/57473)
-* [add `#[must_use]` to `Iterator` and `Future`](https://github.com/rust-lang/rust/pull/57549)
-* [std: force `Instant::now()` to be monotonic](https://github.com/rust-lang/rust/pull/56988)
-* [optimise floating point `is_finite` (2x) and `is_infinite` (1.6x)](https://github.com/rust-lang/rust/pull/57353)
-* [`cargo --`{`example`,`bin`,`bench`,`test`} with no argument now lists all available targets](https://github.com/rust-lang/cargo/pull/6505)
-* [rustup: fix `utils::copy_file` for symlink](https://github.com/rust-lang/rustup.rs/pull/1521)
-* [rustdoc: allow inlining of reexported crates and crate items](https://github.com/rust-lang/rust/pull/57508)
+* [rustc: Remove platform intrinsics crate](https://github.com/rust-lang/rust/pull/57416)
+* [implement new literal type `Err`](https://github.com/rust-lang/rust/pull/57651)
+* [Better lifetime error message](https://github.com/rust-lang/rust/pull/56479)
+* [Add span for malformed doc comment](https://github.com/rust-lang/rust/pull/57784)
+* [Add "dereference boxed value" suggestion](https://github.com/rust-lang/rust/pull/57783)
+* [Suggest correct cast for struct fields with shorthand syntax](https://github.com/rust-lang/rust/pull/57769)
+* [Continue parsing after parent type args and suggest using angle brackets](https://github.com/rust-lang/rust/pull/57768)
+* [Remove delay_span_bug from qualify_min_const_fn](https://github.com/rust-lang/rust/pull/57736)
+* [Use structured suggestion to surround struct literal with parenthesis](https://github.com/rust-lang/rust/pull/57725)
+* [Point at cause for expectation in return type type error](https://github.com/rust-lang/rust/pull/57723)
+* [Fix suggestions given mulitple bad lifetimes](https://github.com/rust-lang/rust/pull/57720)
+* [better error message for bad manifest with `cargo install`](https://github.com/rust-lang/cargo/pull/6560)
+* [add applicability to remaining suggestions](https://github.com/rust-lang/rust/pull/57699)
+* [use a faster early exit during region expansion](https://github.com/rust-lang/rust/pull/57697)
+* [Tweak `expand_node`](https://github.com/rust-lang/rust/pull/57719)
+* [simplify `TokenStream` some more](https://github.com/rust-lang/rust/pull/57486)
+* [redo `hir::Stmt`](https://github.com/rust-lang/rust/pull/57689)
+* [high priority resolutions for associated variants](https://github.com/rust-lang/rust/pull/57501)
+* [provide suggestion for invalid boolean cast](https://github.com/rust-lang/rust/pull/57481)
+* [two HIR tweaks](https://github.com/rust-lang/rust/pull/57658)
+* [librustc_metadata: pass a default value when unwrapping a span](https://github.com/rust-lang/rust/pull/57650)
+* [privacy: account for associated existential types](https://github.com/rust-lang/rust/pull/57649)
+* [use structured macro and path resolve suggestions](https://github.com/rust-lang/rust/pull/57635)
+* [unaccept `extern_in_paths`](https://github.com/rust-lang/rust/pull/57572)
+* [querify `entry_fn`](https://github.com/rust-lang/rust/pull/57573)
+* [querify local `plugin_registrar_fn` and `proc_macro_decls_static`](https://github.com/rust-lang/rust/pull/57570)
+* [modify some parser diagnostics to continue evaluating beyond the parser](https://github.com/rust-lang/rust/pull/57540)
+* [Fix poor worst case performance of set intersection](https://github.com/rust-lang/rust/pull/57043)
+* [add `core::iter::once_with()`](https://github.com/rust-lang/rust/pull/57579)
+* [Add `is_sorted` to `Iterator` and `[T]`](https://github.com/rust-lang/rust/pull/55045)
+* [add a `debug_assert` to `Vec::set_len`](https://github.com/rust-lang/rust/pull/57589)
+* [enhance `Pin` impl applicability for `PartialEq` and `PartialOrd`](https://github.com/rust-lang/rust/pull/57685)
+* [Change bounds on `TryFrom` blanket impl to use `Into` instead of `From`](https://github.com/rust-lang/rust/pull/56796)
+* [stabilize `FileExt::read_exact_at`/`write_all_at`](https://github.com/rust-lang/rust/pull/57625)
+* [rustdoc: Add option to persist doc test executables](https://github.com/rust-lang/rust/pull/56189)
+* [crates.io: Reject publishing of crates that depend on an alternative registry](https://github.com/rust-lang/crates.io/pull/1589)
 
 ## Approved RFCs
 
@@ -166,28 +166,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Right.  I've never even used this impl, but my first thought upon seeing the question "I have an `Iterator` of `X` and need a `Y`" was to look at the `FromIterator` impls of `Y`.
->
-> If that impl *didn't* exist, I'd then look for the following:
->
-> * Other `FromIterator<X>` impls for `String` to see if any of those `X` can easily be produced from `char` (and then I would call `map` before `.collect()`).
-> * `impl FromIterator<char> for Vec<u8>`.  If this existed I would use `String::from_utf8(iterator.collect())`.
-> * `impl Add<char> for String`.  If this existed, I would use `.fold(String::new(), |s, c| s + c)`
-> * methods of [char](https://doc.rust-lang.org/std/primitive.char.html) to see if there's anything that lets you obtain the UTF8 bytes.  Indeed, there is `encode_utf8`, which even gives a `&mut str`, so one can write
->   ```rust
->   .fold(String::new(), |s, c| {
->       let mut buffer = [u8; 4];
->       s += &*c.encode_utf8(&mut buffer);
->       s
->   })
->   ```
-> * idly check the [inherent methods of `String`](https://doc.rust-lang.org/std/string/struct.String.html) for whatever pops out at me
->
-> and if I could still find nothing after all of that I'd slam my head into a wall somewhere.
+> Use usize for counting things that are in memory. Otherwise use the right size for whatever you are doing. Don’t use u32 to track the U.S. national debt, but it’s fine for counting the eggs in most recipes.
 
-– Michael Lamparski [on rust-users](https://users.rust-lang.org/t/iterator-of-char-into-string/24003/4)
+– David Roundy [on rust-users](https://users.rust-lang.org/t/how-i128-are-stored-in-a-32-bit-os-architecture/24321/6)
 
-Thanks to [Cauê Baasch De Souza](https://users.rust-lang.org/t/twir-quote-of-the-week/328/593) for the suggestion!
+Thanks to [Cerberuser](https://users.rust-lang.org/t/twir-quote-of-the-week/328/605) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
