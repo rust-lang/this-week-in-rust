@@ -104,51 +104,46 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: close] [Using enums like traits](https://github.com/rust-lang/rfcs/pull/2618).
-* [disposition: close] [Local `loop` bindings](https://github.com/rust-lang/rfcs/pull/2617).
+* [disposition: e] [impl trait expressions](https://github.com/rust-lang/rfcs/pull/2604).
+* [disposition: e] [Direct and Partial Initialization using &uninit T](https://github.com/rust-lang/rfcs/pull/2534).
 * [disposition: close] [Item-level blocks (was: Item-level *scopes*)](https://github.com/rust-lang/rfcs/pull/2377).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Add signed num::NonZeroI* types](https://github.com/rust-lang/rust/pull/57475).
 * [disposition: merge] [Stabilize extern_crate_self](https://github.com/rust-lang/rust/pull/57407).
-* [disposition: merge] [Stabilize the `integer_atomics` feature: Atomic{I,U}{8,16,32,64}](https://github.com/rust-lang/rust/issues/56753).
 
 ## New RFCs
 
-* [Amend RFC 1242 to specify what “minimal maintenance” means for r-l-deprecated crates](https://github.com/rust-lang/rfcs/pull/2624).
+*No new RFCs this week*
 
 # Upcoming Events
 
 ### Online
 
 * [Jan 23. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Jan 28. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Jan 30. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-
-### Asia
-
-* [Jan 17. Hong Kong, HK - HK Functional Programming Meetup: Fullstack Web Development in Rust](https://www.meetup.com/HK-Functional-programming/events/256805970/).
+* [Feb  6. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
 ### Europe
 
-* [Jan 20. St.Petersburg, RU - St. Petersburg Rust Meetup](https://www.meetup.com/spbrust/events/gzjnmqyzcbbc/).
 * [Jan 22. Lyon, FR - TupperRust](https://tupperrust.github.io).
 * [Jan 23. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzcbfc/).
 * [Jan 24. Hamburg, DE - Rust Hack & Learn Hamburg](https://www.meetup.com/Rust-Meetup-Hamburg/events/257153030/).
-* [Jan 24. Frankfurt, DE - How to Start in Embedded Rust](https://www.meetup.com/Rust-Rhein-Main/events/257833713/).
 * [Jan 30. Toulouse, FR - Rust Toulouse](https://www.meetup.com/fr-FR/Toulouse-Rust-Meetup/events/257926837/).
+* [Jan 31. Helsinki, FI - Helsinki Rust meetup](https://www.meetup.com/Finland-Rust-Meetup/events/257863678/).
+* [Jan 31. Torino, IT - Turin Rust meetup](https://www.meetup.com/Mozilla-Torino/events/sbtclqyzcbgc/).
+* [Feb  3. Bruxelles, BE - Rust Dev Room @ FOSDEM](https://fosdem.org/2019/).
+* [Feb  6. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup).
+* [Feb  6. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzdbjb/).
 
 ### North America
 
-* [Jan 20. Mountain View, US - Rust Dev in Mountain View!](https://www.meetup.com/Rust-Dev-in-Mountain-View/events/glnfcpyzcbbc/).
 * [Jan 23. Ann Arbor, US - Ann Arbor Rust Meetup](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/cgsskqyzcbfc/).
-* [Jan 23. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rzszlqyzcbfc/).
-* [Jan 28. North Carolina, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/).
+* [Jan 23. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/).
+* [Jan 28. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/).
 * [Jan 30. Chicago, US - Chicago Rust Meetup - Property-Based Testing in Rust](https://www.meetup.com/Chicago-Rust-Meetup/events/257469240/).
-
-### South America
-
-* [Jan 16. Ciudad de México, MX - Rust MX: primera reunión del 2019](https://www.meetup.com/Rust-MX/events/257791793/).
+* [Jan 31. Phoenix, US - Phoenix Rust: Games](https://www.meetup.com/Desert-Rustaceans/events/257976456/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
