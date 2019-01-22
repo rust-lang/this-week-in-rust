@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [A bot for Starcraft in Rust, C or any other language](https://habr.com/en/post/436254/).
+* [Building JavaScript Development tools in Rust](https://freemasen.github.io/rusty-ecma-book/)
 
 ### #Rust2019
 
