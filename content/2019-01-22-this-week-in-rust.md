@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [A bot for Starcraft in Rust, C, or any other language](https://habr.com/en/post/436254/).
 * [Building JavaScript development tools in Rust](https://freemasen.github.io/rusty-ecma-book/).
 * [Guide to rust-analyzer](https://github.com/rust-analyzer/rust-analyzer/blob/e0d8c86563b72e5414cf10fe16da5e88201447e2/guide.md).
-* [The state Of ggez, 2019](https://wiki.alopex.li/TheStateOfGGEZ2019).
+* [The state of ggez, 2019](https://wiki.alopex.li/TheStateOfGGEZ2019).
 * [proc-macro-rules - macro_rules patterns in procedural macros](https://www.ncameron.org/blog/proc-macro-rules/).
 * [Polonius and region errors](http://smallcultfollowing.com/babysteps/blog/2019/01/17/polonius-and-region-errors/).
 * [Why aren't my Rust threads running](https://esimmler.com/why-arent-my-rust-threads-running/)?
