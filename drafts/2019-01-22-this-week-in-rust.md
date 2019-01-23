@@ -16,8 +16,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [A bot for Starcraft in Rust, C or any other language](https://habr.com/en/post/436254/).
-* [Building JavaScript Development tools in Rust](https://freemasen.github.io/rusty-ecma-book/)
+* 🎈🎉 [Announcing Rust 1.32.0](https://blog.rust-lang.org/2019/01/17/Rust-1.32.0.html). 🎉🎈
+* [A bot for Starcraft in Rust, C, or any other language](https://habr.com/en/post/436254/).
+* [Building JavaScript development tools in Rust](https://freemasen.github.io/rusty-ecma-book/).
+* [Guide to rust-analyzer](https://github.com/rust-analyzer/rust-analyzer/blob/e0d8c86563b72e5414cf10fe16da5e88201447e2/guide.md).
+* [The state Of ggez, 2019](https://wiki.alopex.li/TheStateOfGGEZ2019).
+* [proc-macro-rules - macro_rules patterns in procedural macros](https://www.ncameron.org/blog/proc-macro-rules/).
+* [Polonius and region errors](http://smallcultfollowing.com/babysteps/blog/2019/01/17/polonius-and-region-errors/).
+* [Why aren't my Rust threads running](https://esimmler.com/why-arent-my-rust-threads-running/)?
+* [Paw at Rust GUIs](https://medium.com/@m.siglreith/paw-at-rust-guis-d4d848e14b94).
+* [Serialising Rust tests](https://tech.labs.oliverwyman.com/blog/2019/01/14/serialising-rust-tests/).
 
 ### #Rust2019
 
@@ -38,9 +46,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [easy] [Mundane: Rename `Signature::verify` to `is_valid`](https://github.com/google/mundane/issues/16).
-* [easy] [Crater: Test Clippy lint](https://github.com/rust-lang-nursery/crater/issues/388).
-* [Review source code of yaserde: Yet another serializer/deserializer](https://users.rust-lang.org/t/twir-call-for-participation/4821/226).
+* [Call for Maintainers - criterion-plot](https://users.rust-lang.org/t/call-for-maintainers-criterion-plot/24413).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -95,7 +101,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2235: Implement Debug, Eq, PartialEq, and Hash for libc structs](https://github.com/rust-lang/rfcs/pull/2235).
 
 ## Final Comment Period
 
@@ -105,8 +111,8 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: e] [impl trait expressions](https://github.com/rust-lang/rfcs/pull/2604).
-* [disposition: e] [Direct and Partial Initialization using &uninit T](https://github.com/rust-lang/rfcs/pull/2534).
+* [disposition: postpone] [impl trait expressions](https://github.com/rust-lang/rfcs/pull/2604).
+* [disposition: postpone] [Direct and Partial Initialization using &uninit T](https://github.com/rust-lang/rfcs/pull/2534).
 * [disposition: close] [Item-level blocks (was: Item-level *scopes*)](https://github.com/rust-lang/rfcs/pull/2377).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
@@ -115,33 +121,31 @@ decision. Express your opinions now.
 
 ## New RFCs
 
-*No new RFCs this week*
+* [`#[link(kind="dll")]`](https://github.com/rust-lang/rfcs/pull/2627).
 
 # Upcoming Events
 
 ### Online
 
-* [Jan 23. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Jan 28. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Jan 30. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Feb  6. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
+### Africa
+
+* [Feb  6. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/qbhxmqyzdbjb/).
+
 ### Europe
 
-* [Jan 22. Lyon, FR - TupperRust](https://tupperrust.github.io).
-* [Jan 23. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzcbfc/).
 * [Jan 24. Hamburg, DE - Rust Hack & Learn Hamburg](https://www.meetup.com/Rust-Meetup-Hamburg/events/257153030/).
 * [Jan 30. Toulouse, FR - Rust Toulouse](https://www.meetup.com/fr-FR/Toulouse-Rust-Meetup/events/257926837/).
 * [Jan 31. Helsinki, FI - Helsinki Rust meetup](https://www.meetup.com/Finland-Rust-Meetup/events/257863678/).
 * [Jan 31. Torino, IT - Turin Rust meetup](https://www.meetup.com/Mozilla-Torino/events/sbtclqyzcbgc/).
 * [Feb  3. Bruxelles, BE - Rust Dev Room @ FOSDEM](https://fosdem.org/2019/).
-* [Feb  6. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup).
 * [Feb  6. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzdbjb/).
+* [Apr 26-29. Berlin, DE - OxidizeConf tickets are now available](https://oxidizeconf.com/).
 
 ### North America
 
-* [Jan 23. Ann Arbor, US - Ann Arbor Rust Meetup](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/cgsskqyzcbfc/).
-* [Jan 23. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/).
 * [Jan 28. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/).
 * [Jan 30. Chicago, US - Chicago Rust Meetup - Property-Based Testing in Rust](https://www.meetup.com/Chicago-Rust-Meetup/events/257469240/).
 * [Jan 31. Phoenix, US - Phoenix Rust: Games](https://www.meetup.com/Desert-Rustaceans/events/257976456/).
@@ -155,8 +159,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Developer at Devolutions, Quebec, CA](https://devolutions.net/careers/openings/rust-developer).
-* [Senior Backend Engineer at Kraken, Remote](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105).
+* [Rust Engineer at slowtec Stuttgart, DE](https://www.reddit.com/r/rust/comments/ahahqj/job_rust_engineer_position_in_stuttgart_de/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
