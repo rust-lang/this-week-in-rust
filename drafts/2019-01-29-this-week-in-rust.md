@@ -96,17 +96,21 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: postpone] [impl trait expressions](https://github.com/rust-lang/rfcs/pull/2604).
-* [disposition: postpone] [Direct and Partial Initialization using &uninit T](https://github.com/rust-lang/rfcs/pull/2534).
-* [disposition: close] [Item-level blocks (was: Item-level *scopes*)](https://github.com/rust-lang/rfcs/pull/2377).
+* [disposition: merge] [stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592).
+* [disposition: e] [RFC for anonymous variant types, a minimal ad-hoc sum type](https://github.com/rust-lang/rfcs/pull/2587).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize extern_crate_self](https://github.com/rust-lang/rust/pull/57407).
+* [disposition: merge] [Deprecate the unstable Vec::resize_default](https://github.com/rust-lang/rust/pull/57656).
+* [disposition: merge] [syntax: Remove warning for unnecessary path disambiguators](https://github.com/rust-lang/rust/pull/57565).
+* [disposition: merge] [Automatically open an issue when a tool breaks](https://github.com/rust-lang/rust/pull/56951).
+* [disposition: merge] [[WIP] Unsized rvalues: implement boxed closure impls.](https://github.com/rust-lang/rust/pull/55431).
+* [disposition: merge] [Tracking issue for Range*::contains](https://github.com/rust-lang/rust/issues/32311).
 
 ## New RFCs
 
-* [`#[link(kind="dll")]`](https://github.com/rust-lang/rfcs/pull/2627).
+* [RFC for a formalized notion on where to enforce reference propertes in MIR](https://github.com/rust-lang/rfcs/pull/2631).
+* [New proc-macro-attribute-recursion](https://github.com/rust-lang/rfcs/pull/2628).
 
 # Upcoming Events
 
