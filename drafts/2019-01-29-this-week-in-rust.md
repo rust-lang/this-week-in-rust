@@ -16,6 +16,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Writing an OS in Rust: Advanced paging](https://os.phil-opp.com/advanced-paging/).
+* [Embedding WebAssembly in your Rust application](https://medium.com/wasmer/executing-webassembly-in-your-rust-application-d5cd32e8ce46).
+* [Lock-free Rust: Crossbeam in 2019](https://stjepang.github.io/2019/01/29/lock-free-rust-crossbeam-in-2019.html).
+* [Performance of Rust's match vs. lookup tables](https://kevinlynagh.com/notes/match-vs-lookup/).
+* [Librsvg's GObject boilerplate is in Rust now](https://people.gnome.org/~federico/blog/librsvg-gobject-in-rust.html).
+* [Enjoy a slice of QUIC, and Rust](https://blog.cloudflare.com/enjoy-a-slice-of-quic-and-rust/). Quiche is an implementation of the QUIC transport protocol, by Cloudflare.
+* [Exporting Serde types to TypeScript](http://timryan.org/2019/01/22/exporting-serde-types-to-typescript.html).
+
 # Crate of the Week
 
 This week's crate is [typetag](https://github.com/dtolnay/typetag), a small crate to allow for serde trait objects. Thanks to [Christopher Durham](https://users.rust-lang.org/t/crate-of-the-week/2704/481) for the suggestion!
@@ -31,7 +39,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Call for Maintainers - criterion-plot](https://users.rust-lang.org/t/call-for-maintainers-criterion-plot/24413).
+* [Request for implementation - Crates that don't exist, but should](https://github.com/dtolnay/request-for-implementation).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -81,7 +89,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2235: Implement Debug, Eq, PartialEq, and Hash for libc structs](https://github.com/rust-lang/rfcs/pull/2235).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -92,11 +100,12 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [disposition: merge] [stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592).
-* [disposition: e] [RFC for anonymous variant types, a minimal ad-hoc sum type](https://github.com/rust-lang/rfcs/pull/2587).
+* [disposition: postpone] [RFC for anonymous variant types, a minimal ad-hoc sum type](https://github.com/rust-lang/rfcs/pull/2587).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [Deprecate the unstable Vec::resize_default](https://github.com/rust-lang/rust/pull/57656).
+* [disposition: merge] [Error on duplicate matcher bindings](https://github.com/rust-lang/rust/pull/57617).
 * [disposition: merge] [syntax: Remove warning for unnecessary path disambiguators](https://github.com/rust-lang/rust/pull/57565).
 * [disposition: merge] [Automatically open an issue when a tool breaks](https://github.com/rust-lang/rust/pull/56951).
 * [disposition: merge] [[WIP] Unsized rvalues: implement boxed closure impls.](https://github.com/rust-lang/rust/pull/55431).
@@ -105,16 +114,18 @@ decision. Express your opinions now.
 ## New RFCs
 
 * [RFC for a formalized notion on where to enforce reference propertes in MIR](https://github.com/rust-lang/rfcs/pull/2631).
-* [New proc-macro-attribute-recursion](https://github.com/rust-lang/rfcs/pull/2628).
+* [proc-macro-attribute-recursion](https://github.com/rust-lang/rfcs/pull/2628).
 
 # Upcoming Events
 
 ### Online
 
-* [Jan 30. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Feb  6. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Feb 11. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Feb 13. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+
+### Africa
+
+* [Feb  6. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/qbhxmqyzdbjb/).
 
 ### Asia Pacific
 
@@ -122,24 +133,20 @@ decision. Express your opinions now.
 
 ### Europe
 
-* [Jan 30. Toulouse, FR - Rust Toulouse](https://www.meetup.com/fr-FR/Toulouse-Rust-Meetup/events/257926837/).
 * [Jan 31. Helsinki, FI - Helsinki Rust meetup](https://www.meetup.com/Finland-Rust-Meetup/events/257863678/).
 * [Jan 31. Copenhagen, DK - [cph.rs] Copenhagen Rust Hack Night #12 ](http://cph.rs/).
 * [Jan 31. Oslo, NO - Rust Oslo - Hack & Learn](https://www.meetup.com/Rust-Oslo/events/258150829/).
 * [Jan 31. Torino, IT - Turin Rust meetup](https://www.meetup.com/Mozilla-Torino/events/sbtclqyzcbgc/).
 * [Feb  3. Bruxelles, BG - Rust Dev Room @ FOSDEM](https://fosdem.org/2019/).
-* [Feb  6. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup).
 * [Feb  6. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzdbjb/).
-* [Apr 26-29. Berlin, DE - OxidizeConf tickets are now available](https://oxidizeconf.com/).
 
 ### North America
 
-* [Jan 30. Chicago, US - Chicago Rust Meetup - Property-Based Testing in Rust](https://www.meetup.com/Chicago-Rust-Meetup/events/257469240/).
 * [Jan 31. Phoenix, US - Phoenix Rust: Games](https://www.meetup.com/Desert-Rustaceans/events/257976456).
-* [Feb  6. Indianapolis, US - Indy.rs](https://www.google.com/url?q=https%3A%2F%2Fwww.meetup.com%2Findyrs%2Fevents%2F246726699%2F&amp;sa=D&amp;usd=2&amp;usg=AFQjCNG-ZrwHciAZIXgWBkPm0iNS3fCe9A).
-* [Feb  6. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/).
-* [Feb  6. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/).
-* [Feb 11. Seattle, US - Seattle Rust Meetup](http://www.meetup.com/Seattle-Rust-Meetup/).
+* [Feb  6. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/events/cbcmbqyzdbjb/).
+* [Feb  6. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/hkllqqyzdbjb/).
+* [Feb  7. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/246726699/).
+* [Feb 12. Seattle, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/nzfspqyzdbpb/).
 * [Feb 12. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/257819656/).
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -151,7 +158,8 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Engineer at slowtec Stuttgart, DE](https://www.reddit.com/r/rust/comments/ahahqj/job_rust_engineer_position_in_stuttgart_de/).
+* [Senior Embedded Systems Engineer at SpanIO, San Francisco, US](https://www.span.io/careers/embedded-linux).
+* [Senior Software Engineer at Prevoty, Los Angeles, US](https://www.prevoty.com/about/careers?gh_jid=4032159002).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
