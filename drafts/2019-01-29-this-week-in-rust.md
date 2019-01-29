@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer), an experimental Rust compiler frontend for IDEs. Thanks to [llogiq](https://github.com/llogiq) for the suggestion!
+This week's crate is [typetag](https://github.com/dtolnay/typetag), a small crate to allow for serde trait objects. Thanks to [Christopher Durham](https://users.rust-lang.org/t/crate-of-the-week/2704/481) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -39,46 +39,41 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-215 pull requests were [merged in the last week][merged]
+186 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-01-14..2019-01-21
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-01-21..2019-01-28
 
-* [rustc: Remove platform intrinsics crate](https://github.com/rust-lang/rust/pull/57416)
-* [implement new literal type `Err`](https://github.com/rust-lang/rust/pull/57651)
-* [Better lifetime error message](https://github.com/rust-lang/rust/pull/56479)
-* [Add span for malformed doc comment](https://github.com/rust-lang/rust/pull/57784)
-* [Add "dereference boxed value" suggestion](https://github.com/rust-lang/rust/pull/57783)
-* [Suggest correct cast for struct fields with shorthand syntax](https://github.com/rust-lang/rust/pull/57769)
-* [Continue parsing after parent type args and suggest using angle brackets](https://github.com/rust-lang/rust/pull/57768)
-* [Remove delay_span_bug from qualify_min_const_fn](https://github.com/rust-lang/rust/pull/57736)
-* [Use structured suggestion to surround struct literal with parenthesis](https://github.com/rust-lang/rust/pull/57725)
-* [Point at cause for expectation in return type type error](https://github.com/rust-lang/rust/pull/57723)
-* [Fix suggestions given mulitple bad lifetimes](https://github.com/rust-lang/rust/pull/57720)
-* [better error message for bad manifest with `cargo install`](https://github.com/rust-lang/cargo/pull/6560)
-* [add applicability to remaining suggestions](https://github.com/rust-lang/rust/pull/57699)
-* [use a faster early exit during region expansion](https://github.com/rust-lang/rust/pull/57697)
-* [Tweak `expand_node`](https://github.com/rust-lang/rust/pull/57719)
-* [simplify `TokenStream` some more](https://github.com/rust-lang/rust/pull/57486)
-* [redo `hir::Stmt`](https://github.com/rust-lang/rust/pull/57689)
-* [high priority resolutions for associated variants](https://github.com/rust-lang/rust/pull/57501)
-* [provide suggestion for invalid boolean cast](https://github.com/rust-lang/rust/pull/57481)
-* [two HIR tweaks](https://github.com/rust-lang/rust/pull/57658)
-* [librustc_metadata: pass a default value when unwrapping a span](https://github.com/rust-lang/rust/pull/57650)
-* [privacy: account for associated existential types](https://github.com/rust-lang/rust/pull/57649)
-* [use structured macro and path resolve suggestions](https://github.com/rust-lang/rust/pull/57635)
-* [unaccept `extern_in_paths`](https://github.com/rust-lang/rust/pull/57572)
-* [querify `entry_fn`](https://github.com/rust-lang/rust/pull/57573)
-* [querify local `plugin_registrar_fn` and `proc_macro_decls_static`](https://github.com/rust-lang/rust/pull/57570)
-* [modify some parser diagnostics to continue evaluating beyond the parser](https://github.com/rust-lang/rust/pull/57540)
-* [Fix poor worst case performance of set intersection](https://github.com/rust-lang/rust/pull/57043)
-* [add `core::iter::once_with()`](https://github.com/rust-lang/rust/pull/57579)
-* [Add `is_sorted` to `Iterator` and `[T]`](https://github.com/rust-lang/rust/pull/55045)
-* [add a `debug_assert` to `Vec::set_len`](https://github.com/rust-lang/rust/pull/57589)
-* [enhance `Pin` impl applicability for `PartialEq` and `PartialOrd`](https://github.com/rust-lang/rust/pull/57685)
-* [Change bounds on `TryFrom` blanket impl to use `Into` instead of `From`](https://github.com/rust-lang/rust/pull/56796)
-* [stabilize `FileExt::read_exact_at`/`write_all_at`](https://github.com/rust-lang/rust/pull/57625)
-* [rustdoc: Add option to persist doc test executables](https://github.com/rust-lang/rust/pull/56189)
-* [crates.io: Reject publishing of crates that depend on an alternative registry](https://github.com/rust-lang/crates.io/pull/1589)
+* [enable RISC-V atomic compare and swap](https://github.com/rust-lang/rust/pull/57925)
+* [recover from parse errors in literal struct fields and incorrect float literals](https://github.com/rust-lang/rust/pull/57779)
+* [merge visitors in AST validation](https://github.com/rust-lang/rust/pull/57730)
+* [resolve: Fix span arithmetics in the import conflict error](https://github.com/rust-lang/rust/pull/57908)
+* [fix race condition when emitting stored diagnostics](https://github.com/rust-lang/rust/pull/57066)
+* [don't ICE when logging unusual types](https://github.com/rust-lang/rust/pull/57865)
+* [combine all builtin early lints](https://github.com/rust-lang/rust/pull/57726)
+* [add suggestion for moving type declaration before associated type bindings in generic arguments](https://github.com/rust-lang/rust/pull/57886)
+* [add suggestion for incorrect field syntax](https://github.com/rust-lang/rust/pull/57863)
+* [suggest removing leading left angle brackets](https://github.com/rust-lang/rust/pull/57852)
+* [add error for trailing angle brackets](https://github.com/rust-lang/rust/pull/57817)
+* [print visible name for types as well as modules](https://github.com/rust-lang/rust/pull/57802)
+* [use structured suggestion instead of notes](https://github.com/rust-lang/rust/pull/57795)
+* [explain type mismatch cause pointing to return type when it is `impl Trait`](https://github.com/rust-lang/rust/pull/57793)
+* [when using value after move, point at span of local](https://github.com/rust-lang/rust/pull/57294)
+* [conditionally skip two passes if their related attributes were not found](https://github.com/rust-lang/rust/pull/57691)
+* [fix evaluating trivial drop glue in constants](https://github.com/rust-lang/rust/pull/57734)
+* [const_eval: predetermine the layout of all locals when pushing a stack frame](https://github.com/rust-lang/rust/pull/57677)
+* [fix memory leak in `P::filter_map`](https://github.com/rust-lang/rust/pull/57667)
+* [get rid of the fake stack frame for reading from constants](https://github.com/rust-lang/rust/pull/57606)
+* [add intrinsic to create an integer bitmask from a vector mask](https://github.com/rust-lang/rust/pull/57269)
+* [un-deprecate `mem::zeroed`](https://github.com/rust-lang/rust/pull/57825)
+* [make `MutexGuard`'s `Debug` implementation more useful](https://github.com/rust-lang/rust/pull/57703)
+* [make `str` indexing generic on `SliceIndex`](https://github.com/rust-lang/rust/pull/57604)
+* [small perf improvement for `fmt`](https://github.com/rust-lang/rust/pull/57537)
+* [add signed `num::NonZeroI*` types](https://github.com/rust-lang/rust/pull/57475)
+* [std: stabilize fixed-width integer atomics](https://github.com/rust-lang/rust/pull/57425)
+* [use pinning for generators to make trait safe](https://github.com/rust-lang/rust/pull/55704)
+* [implement `optimize(size)` and `optimize(speed)` attributes](https://github.com/rust-lang/rust/pull/55641)
+* [cargo: make incremental compilation the default for all profiles](https://github.com/rust-lang/cargo/pull/6564)
+* [rustdoc: fix ICE from loading proc-macro stubs](https://github.com/rust-lang/rust/pull/57846)
 
 ## Approved RFCs
 
@@ -150,11 +145,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Use usize for counting things that are in memory. Otherwise use the right size for whatever you are doing. Don’t use u32 to track the U.S. national debt, but it’s fine for counting the eggs in most recipes.
+> Rust is kind of nice in that it lets you choose between type erasure and monomorphization, or between heap-allocation and stack-allocation, but the downside is that you have to choose.
 
-– David Roundy [on rust-users](https://users.rust-lang.org/t/how-i128-are-stored-in-a-32-bit-os-architecture/24321/6)
+– Brook Heisler [on discord](https://discordapp.com/channels/442252698964721669/448238009733742612/536406836178583562) (login needed, sorry!)
 
-Thanks to [Cerberuser](https://users.rust-lang.org/t/twir-quote-of-the-week/328/605) for the suggestion!
+Thanks to [scottmcm](https://users.rust-lang.org/t/twir-quote-of-the-week/328/614) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
