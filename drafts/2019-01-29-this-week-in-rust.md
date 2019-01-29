@@ -118,26 +118,34 @@ decision. Express your opinions now.
 
 * [Jan 30. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Feb  6. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Feb 11. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Feb 13. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 
-### Africa
+### Asia Pacific
 
-* [Feb  6. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/qbhxmqyzdbjb/).
+* [Feb 13. Melbourne, AU - Melbourne hack night](https://www.meetup.com/Rust-Melbourne/events/257974991/).
 
 ### Europe
 
-* [Jan 24. Hamburg, DE - Rust Hack & Learn Hamburg](https://www.meetup.com/Rust-Meetup-Hamburg/events/257153030/).
 * [Jan 30. Toulouse, FR - Rust Toulouse](https://www.meetup.com/fr-FR/Toulouse-Rust-Meetup/events/257926837/).
 * [Jan 31. Helsinki, FI - Helsinki Rust meetup](https://www.meetup.com/Finland-Rust-Meetup/events/257863678/).
+* [Jan 31. Copenhagen, DK - [cph.rs] Copenhagen Rust Hack Night #12 ](http://cph.rs/).
+* [Jan 31. Oslo, NO - Rust Oslo - Hack & Learn](https://www.meetup.com/Rust-Oslo/events/258150829/).
 * [Jan 31. Torino, IT - Turin Rust meetup](https://www.meetup.com/Mozilla-Torino/events/sbtclqyzcbgc/).
-* [Feb  3. Bruxelles, BE - Rust Dev Room @ FOSDEM](https://fosdem.org/2019/).
+* [Feb  3. Bruxelles, BG - Rust Dev Room @ FOSDEM](https://fosdem.org/2019/).
+* [Feb  6. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup).
 * [Feb  6. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzdbjb/).
 * [Apr 26-29. Berlin, DE - OxidizeConf tickets are now available](https://oxidizeconf.com/).
 
 ### North America
 
-* [Jan 28. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/).
 * [Jan 30. Chicago, US - Chicago Rust Meetup - Property-Based Testing in Rust](https://www.meetup.com/Chicago-Rust-Meetup/events/257469240/).
-* [Jan 31. Phoenix, US - Phoenix Rust: Games](https://www.meetup.com/Desert-Rustaceans/events/257976456/).
+* [Jan 31. Phoenix, US - Phoenix Rust: Games](https://www.meetup.com/Desert-Rustaceans/events/257976456).
+* [Feb  6. Indianapolis, US - Indy.rs](https://www.google.com/url?q=https%3A%2F%2Fwww.meetup.com%2Findyrs%2Fevents%2F246726699%2F&amp;sa=D&amp;usd=2&amp;usg=AFQjCNG-ZrwHciAZIXgWBkPm0iNS3fCe9A).
+* [Feb  6. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/).
+* [Feb  6. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/).
+* [Feb 11. Seattle, US - Seattle Rust Meetup](http://www.meetup.com/Seattle-Rust-Meetup/).
+* [Feb 12. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/257819656/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
