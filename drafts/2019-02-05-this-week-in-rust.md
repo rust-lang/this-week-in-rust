@@ -152,6 +152,7 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Embedded Systems Engineer at SpanIO, San Francisco, US](https://www.span.io/careers/embedded-linux).
 * [Senior Software Engineer at Prevoty, Los Angeles, US](https://www.prevoty.com/about/careers?gh_jid=4032159002).
+* [Navitia Software Engineer at Kisio Digital, Paris, FR](https://www.welcometothejungle.co/companies/kisio-digital/jobs/rust-c-developpeur-h-f_paris).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
