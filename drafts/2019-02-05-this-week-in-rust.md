@@ -31,6 +31,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [TiKV: Set compile-time env vars in build script instead of Makefile](https://github.com/tikv/tikv/issues/4051)
+* [TiKV: Build with dylibs instead of statically](https://github.com/tikv/tikv/issues/4151)
+* [rustc: Implement RFC 2091 re implicit caller information](https://github.com/rust-lang/rust/issues/47809) - make 'unwrap' report a useful line number.
 * [Request for implementation - Crates that don't exist, but should](https://github.com/dtolnay/request-for-implementation).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
