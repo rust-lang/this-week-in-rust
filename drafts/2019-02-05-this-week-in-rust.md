@@ -92,21 +92,24 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [disposition: merge] [stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592).
-* [disposition: postpone] [RFC for anonymous variant types, a minimal ad-hoc sum type](https://github.com/rust-lang/rfcs/pull/2587).
+* [disposition: close] [Make AcqRel universally usable as ordering mode](https://github.com/rust-lang/rfcs/pull/2503).
+* [disposition: close] [Ghost Busting](https://github.com/rust-lang/rfcs/pull/2357).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Stabilize slice_sort_by_cached_key](https://github.com/rust-lang/rust/pull/58074).
+* [disposition: merge] [deprecate before_exec in favor of unsafe pre_exec](https://github.com/rust-lang/rust/pull/58059).
 * [disposition: merge] [Deprecate the unstable Vec::resize_default](https://github.com/rust-lang/rust/pull/57656).
 * [disposition: merge] [Error on duplicate matcher bindings](https://github.com/rust-lang/rust/pull/57617).
-* [disposition: merge] [syntax: Remove warning for unnecessary path disambiguators](https://github.com/rust-lang/rust/pull/57565).
-* [disposition: merge] [Automatically open an issue when a tool breaks](https://github.com/rust-lang/rust/pull/56951).
-* [disposition: merge] [[WIP] Unsized rvalues: implement boxed closure impls.](https://github.com/rust-lang/rust/pull/55431).
+* [disposition: merge] [Rename `MaybeUninit` to `MaybeUninitialized`](https://github.com/rust-lang/rust/pull/56138).
+* [disposition: merge] [Tracking issue for std::iter::from_fn](https://github.com/rust-lang/rust/issues/55977).
+* [disposition: merge] [Tracking issue for `time_checked_add` feature](https://github.com/rust-lang/rust/issues/55940).
+* [disposition: merge] [Unsized rvalues: implement boxed closure impls.](https://github.com/rust-lang/rust/pull/55431).
 * [disposition: merge] [Tracking issue for Range*::contains](https://github.com/rust-lang/rust/issues/32311).
 
 ## New RFCs
 
-* [RFC for a formalized notion on where to enforce reference propertes in MIR](https://github.com/rust-lang/rfcs/pull/2631).
-* [proc-macro-attribute-recursion](https://github.com/rust-lang/rfcs/pull/2628).
+* [Calling methods on generic parameters of const fns](https://github.com/rust-lang/rfcs/pull/2632).
 
 # Upcoming Events
 
