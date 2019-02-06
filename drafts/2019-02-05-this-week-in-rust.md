@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Rust: regretless concurrency](https://medium.com/@polyglot_factotum/rust-regret-less-concurrency-2238b9e53333). <small>[[discuss](https://www.reddit.com/r/rust/comments/amdp0u/rust_regretless_concurrency/]</small> 
+* [Rust: regretless concurrency](https://medium.com/@polyglot_factotum/rust-regret-less-concurrency-2238b9e53333).
 
 # Crate of the Week
 
