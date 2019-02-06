@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Rust: regretless concurrency](https://medium.com/@polyglot_factotum/rust-regret-less-concurrency-2238b9e53333). <small>[[discuss](https://www.reddit.com/r/rust/comments/amdp0u/rust_regretless_concurrency/]</small> 
+
 # Crate of the Week
 
 This week's crate is [typetag](https://github.com/dtolnay/typetag), a small crate to allow for serde trait objects. Thanks to [Christopher Durham](https://users.rust-lang.org/t/crate-of-the-week/2704/481) for the suggestion!
