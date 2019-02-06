@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [typetag](https://github.com/dtolnay/typetag), a small crate to allow for serde trait objects. Thanks to [Christopher Durham](https://users.rust-lang.org/t/crate-of-the-week/2704/481) for the suggestion!
+This week's crate is [log-derive](https://crates.io/crates/log-derive), a procedural macro to log function outputs. Thanks to [elichai2](https://users.rust-lang.org/t/crate-of-the-week/2704/482) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -39,41 +39,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-186 pull requests were [merged in the last week][merged]
+157 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-01-21..2019-01-28
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-01-28..2019-02-04
 
-* [enable RISC-V atomic compare and swap](https://github.com/rust-lang/rust/pull/57925)
-* [recover from parse errors in literal struct fields and incorrect float literals](https://github.com/rust-lang/rust/pull/57779)
-* [merge visitors in AST validation](https://github.com/rust-lang/rust/pull/57730)
-* [resolve: Fix span arithmetics in the import conflict error](https://github.com/rust-lang/rust/pull/57908)
-* [fix race condition when emitting stored diagnostics](https://github.com/rust-lang/rust/pull/57066)
-* [don't ICE when logging unusual types](https://github.com/rust-lang/rust/pull/57865)
-* [combine all builtin early lints](https://github.com/rust-lang/rust/pull/57726)
-* [add suggestion for moving type declaration before associated type bindings in generic arguments](https://github.com/rust-lang/rust/pull/57886)
-* [add suggestion for incorrect field syntax](https://github.com/rust-lang/rust/pull/57863)
-* [suggest removing leading left angle brackets](https://github.com/rust-lang/rust/pull/57852)
-* [add error for trailing angle brackets](https://github.com/rust-lang/rust/pull/57817)
-* [print visible name for types as well as modules](https://github.com/rust-lang/rust/pull/57802)
-* [use structured suggestion instead of notes](https://github.com/rust-lang/rust/pull/57795)
-* [explain type mismatch cause pointing to return type when it is `impl Trait`](https://github.com/rust-lang/rust/pull/57793)
-* [when using value after move, point at span of local](https://github.com/rust-lang/rust/pull/57294)
-* [conditionally skip two passes if their related attributes were not found](https://github.com/rust-lang/rust/pull/57691)
-* [fix evaluating trivial drop glue in constants](https://github.com/rust-lang/rust/pull/57734)
-* [const_eval: predetermine the layout of all locals when pushing a stack frame](https://github.com/rust-lang/rust/pull/57677)
-* [fix memory leak in `P::filter_map`](https://github.com/rust-lang/rust/pull/57667)
-* [get rid of the fake stack frame for reading from constants](https://github.com/rust-lang/rust/pull/57606)
-* [add intrinsic to create an integer bitmask from a vector mask](https://github.com/rust-lang/rust/pull/57269)
-* [un-deprecate `mem::zeroed`](https://github.com/rust-lang/rust/pull/57825)
-* [make `MutexGuard`'s `Debug` implementation more useful](https://github.com/rust-lang/rust/pull/57703)
-* [make `str` indexing generic on `SliceIndex`](https://github.com/rust-lang/rust/pull/57604)
-* [small perf improvement for `fmt`](https://github.com/rust-lang/rust/pull/57537)
-* [add signed `num::NonZeroI*` types](https://github.com/rust-lang/rust/pull/57475)
-* [std: stabilize fixed-width integer atomics](https://github.com/rust-lang/rust/pull/57425)
-* [use pinning for generators to make trait safe](https://github.com/rust-lang/rust/pull/55704)
-* [implement `optimize(size)` and `optimize(speed)` attributes](https://github.com/rust-lang/rust/pull/55641)
-* [cargo: make incremental compilation the default for all profiles](https://github.com/rust-lang/cargo/pull/6564)
-* [rustdoc: fix ICE from loading proc-macro stubs](https://github.com/rust-lang/rust/pull/57846)
+* [HirIdification: add key HirId methods](https://github.com/rust-lang/rust/pull/58090)
+* [don't panic when accessing enum variant ctor using `Self` in match](https://github.com/rust-lang/rust/pull/58007)
+* [use LLVM intrinsics for saturating add/sub](https://github.com/rust-lang/rust/pull/58003)
+* [add MOVBE x86 CPU feature](https://github.com/rust-lang/rust/pull/57999)
+* [NVPTX target specification](https://github.com/rust-lang/rust/pull/57937)
+* [fix bug in integer range matching](https://github.com/rust-lang/rust/pull/57978)
+* [unused variable suggestions apply on all patterns](https://github.com/rust-lang/rust/pull/57899)
+* [add information to higher-ranked lifetimes conflicts error messages](https://github.com/rust-lang/rust/pull/57901)
+* [rustc: use multiple threads by default](https://github.com/rust-lang/rust/pull/57948)
+* [misc performance tweaks](https://github.com/rust-lang/rust/pull/57916)
+* [simplify `ConstValue::ScalarPair`](https://github.com/rust-lang/rust/pull/57442)
+* [mark `str::trim*` functions as `#[must_use]`](https://github.com/rust-lang/rust/pull/57106)
+* [override `VecDeque`'s `Iter::try_fold`](https://github.com/rust-lang/rust/pull/57974)
+* [introduce `into_raw_non_null` on `Rc` and `Arc`](https://github.com/rust-lang/rust/pull/57934)
+* [implement `Weak::`{`strong_count`, `weak_count`}](https://github.com/rust-lang/rust/pull/56696)
+* [rename `iter::unfold` to `iter::from_fn` and remove explicit state](https://github.com/rust-lang/rust/pull/58062)
+* [stabilize `std::error::Error::type_id`](https://github.com/rust-lang/rust/pull/58048)
+* [stabilize `split_ascii_whitespace`](https://github.com/rust-lang/rust/pull/58047)
+* [cargo: fix overlapping progress with stdout](https://github.com/rust-lang/cargo/pull/6618)
+* [cargo: improve progress bar flickering](https://github.com/rust-lang/cargo/pull/6615)
 
 ## Approved RFCs
 
@@ -157,11 +146,19 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Rust is kind of nice in that it lets you choose between type erasure and monomorphization, or between heap-allocation and stack-allocation, but the downside is that you have to choose.
+This time, we have two quotes for the price of one:
+
+> The borrow checker breaks you down so that it can build you back up, stronger and more resilient than you once were. It also had me do all sorts of weird things like catch flies with chopsticks and scrub counters to a polish.
+
+– /u/bkv on /r/rust
+
+> I always think of borrowck as an angel sitting on your shoulder, advising you not to sin against the rules of ownership and borrowing, so your design will be obvious and your code simple and fast.
+
+– llogiq on [/r/rust](https://www.reddit.com/r/rust/comments/ampvvt/as_a_new_selftaught_student_to_programming_this/efo074d)
 
 – Brook Heisler [on discord](https://discordapp.com/channels/442252698964721669/448238009733742612/536406836178583562) (login needed, sorry!)
 
-Thanks to [scottmcm](https://users.rust-lang.org/t/twir-quote-of-the-week/328/614) for the suggestion!
+Thanks to [Christopher Durham](https://users.rust-lang.org/t/twir-quote-of-the-week/328/617) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
