@@ -16,7 +16,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Cargo's next few years](https://www.ncameron.org/blog/cargos-next-few-years/).
+* [The steps towards rustc, the great optimiser](https://kazlauskas.me/entries/the-road-to-bestest-optimiser.html).
+* [Salsa: Incremental recompilation](http://smallcultfollowing.com/babysteps/blog/2019/01/29/salsa-incremental-recompilation/).
+* [Collection of Rust hacks](https://vorner.github.io/2019/02/03/hacks.html).
+* [Writing Neovim plugins in Rust](https://medium.com/@srishanbhattarai/a-detailed-guide-to-writing-your-first-neovim-plugin-in-rust-a81604c606b1).
+* [osaka.rs - rust async without the noise](https://aep.github.io/rust-async-without-the-noise/).
+* [Rust on iOS (and Android)](https://medium.com/visly/rust-on-ios-39f799b3c1dd).
 * [Rust: regretless concurrency](https://medium.com/@polyglot_factotum/rust-regret-less-concurrency-2238b9e53333).
+* [An introduction to the Rust programming language for Node developers](https://twitter.com/PipoPeperoni/status/1092842843637456899).
+* [Learning Rust via Advent of Code](https://www.forrestthewoods.com/blog/learning-rust-via-advent-of-code/).
+* [Creating web-server .deb binary with rust](https://gill.net.in/posts/creating-web-server-deb-binary-with-rust/).
 
 # Crate of the Week
 
@@ -33,10 +43,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [TiKV: Set compile-time env vars in build script instead of Makefile](https://github.com/tikv/tikv/issues/4051)
-* [TiKV: Build with dylibs instead of statically](https://github.com/tikv/tikv/issues/4151)
+* [TiKV: Set compile-time env vars in build script instead of Makefile](https://github.com/tikv/tikv/issues/4051).
+* [TiKV: Build with dylibs instead of statically](https://github.com/tikv/tikv/issues/4151).
 * [rustc: Implement RFC 2091 re implicit caller information](https://github.com/rust-lang/rust/issues/47809) - make 'unwrap' report a useful line number.
-* [Request for implementation - Crates that don't exist, but should](https://github.com/dtolnay/request-for-implementation).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -143,10 +152,11 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Software Engineer at Discord, San Francisco, US](https://discordapp.com/jobs/4200751002).
 * [Network Engineer at NearProtocol, San Francisco, US](https://nearprotocol.com/careers/?gh_jid=4205573002).
-* [Senior Embedded Systems Engineer at SpanIO, San Francisco, US](https://www.span.io/careers/embedded-linux).
-* [Senior Software Engineer at Prevoty, Los Angeles, US](https://www.prevoty.com/about/careers?gh_jid=4032159002).
 * [Navitia Software Engineer at Kisio Digital, Paris, FR](https://www.welcometothejungle.co/companies/kisio-digital/jobs/rust-c-developpeur-h-f_paris).
+* [Rust web developer at Impero, Denmark/remote](https://impero.com/job/full-stack-web-developer-rust/)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
