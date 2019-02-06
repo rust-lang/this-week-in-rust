@@ -86,32 +86,33 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [disposition: merge] [stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592).
-* [disposition: postpone] [RFC for anonymous variant types, a minimal ad-hoc sum type](https://github.com/rust-lang/rfcs/pull/2587).
+* [disposition: close] [Make AcqRel universally usable as ordering mode](https://github.com/rust-lang/rfcs/pull/2503).
+* [disposition: close] [Ghost Busting](https://github.com/rust-lang/rfcs/pull/2357).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Stabilize slice_sort_by_cached_key](https://github.com/rust-lang/rust/pull/58074).
+* [disposition: merge] [deprecate before_exec in favor of unsafe pre_exec](https://github.com/rust-lang/rust/pull/58059).
 * [disposition: merge] [Deprecate the unstable Vec::resize_default](https://github.com/rust-lang/rust/pull/57656).
 * [disposition: merge] [Error on duplicate matcher bindings](https://github.com/rust-lang/rust/pull/57617).
-* [disposition: merge] [syntax: Remove warning for unnecessary path disambiguators](https://github.com/rust-lang/rust/pull/57565).
-* [disposition: merge] [Automatically open an issue when a tool breaks](https://github.com/rust-lang/rust/pull/56951).
-* [disposition: merge] [[WIP] Unsized rvalues: implement boxed closure impls.](https://github.com/rust-lang/rust/pull/55431).
+* [disposition: merge] [Rename `MaybeUninit` to `MaybeUninitialized`](https://github.com/rust-lang/rust/pull/56138).
+* [disposition: merge] [Tracking issue for std::iter::from_fn](https://github.com/rust-lang/rust/issues/55977).
+* [disposition: merge] [Tracking issue for `time_checked_add` feature](https://github.com/rust-lang/rust/issues/55940).
+* [disposition: merge] [Unsized rvalues: implement boxed closure impls.](https://github.com/rust-lang/rust/pull/55431).
 * [disposition: merge] [Tracking issue for Range*::contains](https://github.com/rust-lang/rust/issues/32311).
 
 ## New RFCs
 
-* [RFC for a formalized notion on where to enforce reference propertes in MIR](https://github.com/rust-lang/rfcs/pull/2631).
-* [proc-macro-attribute-recursion](https://github.com/rust-lang/rfcs/pull/2628).
+* [Calling methods on generic parameters of const fns](https://github.com/rust-lang/rfcs/pull/2632).
 
 # Upcoming Events
 
 ### Online
 
 * [Feb  6. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Feb 11. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Feb 13. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-
-### Africa
-
-* [Feb  6. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/qbhxmqyzdbjb/).
+* [Feb 20. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
 ### Asia Pacific
 
@@ -119,22 +120,27 @@ decision. Express your opinions now.
 
 ### Europe
 
-* [Jan 31. Helsinki, FI - Helsinki Rust meetup](https://www.meetup.com/Finland-Rust-Meetup/events/257863678/).
-* [Jan 31. Copenhagen, DK - [cph.rs] Copenhagen Rust Hack Night #12 ](http://cph.rs/).
-* [Jan 31. Oslo, NO - Rust Oslo - Hack & Learn](https://www.meetup.com/Rust-Oslo/events/258150829/).
-* [Jan 31. Torino, IT - Turin Rust meetup](https://www.meetup.com/Mozilla-Torino/events/sbtclqyzcbgc/).
-* [Feb  3. Bruxelles, BG - Rust Dev Room @ FOSDEM](https://fosdem.org/2019/).
+* [Feb  6. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup).
 * [Feb  6. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzdbjb/).
+* [Feb  6. Cologne, DE - Cologne Meetup](https://www.meetup.com/RustCologne/events/vnwndpyzdbjb/).
+* [Feb 12. Villeurbanne, FR - TupperRust](https://tupperrust.github.io).
 * [Feb 18. Karlsruhe, DE - Karlsruhe Rust Hack and Learn](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/258728236/).
+* [Feb 20. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzdbbc/).
 
 ### North America
 
-* [Jan 31. Phoenix, US - Phoenix Rust: Games](https://www.meetup.com/Desert-Rustaceans/events/257976456).
-* [Feb  6. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/events/cbcmbqyzdbjb/).
-* [Feb  6. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/hkllqqyzdbjb/).
-* [Feb  7. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/246726699/).
-* [Feb 12. Seattle, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/nzfspqyzdbpb/).
+### North America
+
+* [Feb  6. Indianapolis, US - Indy.rs](https://www.google.com/url?q=https%3A%2F%2Fwww.meetup.com%2Findyrs%2Fevents%2F246726699%2F&amp;sa=D&amp;usd=2&amp;usg=AFQjCNG-ZrwHciAZIXgWBkPm0iNS3fCe9A).
+* [Feb  6. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/).
+* [Feb  6. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/).
+* [Feb 11. Seattle, US - Seattle Rust Meetup](http://www.meetup.com/Seattle-Rust-Meetup/).
 * [Feb 12. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/257819656/).
+* [Feb 13. Ciudad de México, MX - Study group RustMX](https://www.meetup.com/es/Rust-MX/).
+* [Feb 14. Columbus, US - Columbus Rust Society](http://www.meetup.com/columbus-rs/).
+* [Feb 14. San Diego, US - San Diego Rust](http://meetu.ps/c/2vF0G/4DXV4/a).
+* [Feb 20. Chicago, US - Chicago Rust Meetup - Property-Based Testing in Rust](https://www.meetup.com/Chicago-Rust-Meetup/events/257469240/).
+* [Feb 20. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
