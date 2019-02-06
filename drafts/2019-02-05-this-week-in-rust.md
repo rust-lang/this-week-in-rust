@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Rust: regretless concurrency](https://medium.com/@polyglot_factotum/rust-regret-less-concurrency-2238b9e53333).
+
 # Crate of the Week
 
 This week's crate is [log-derive](https://crates.io/crates/log-derive), a procedural macro to log function outputs. Thanks to [elichai2](https://users.rust-lang.org/t/crate-of-the-week/2704/482) for the suggestion!
