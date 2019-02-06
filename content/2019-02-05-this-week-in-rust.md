@@ -24,9 +24,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [osaka.rs - rust async without the noise](https://aep.github.io/rust-async-without-the-noise/).
 * [Rust on iOS (and Android)](https://medium.com/visly/rust-on-ios-39f799b3c1dd).
 * [Rust: regretless concurrency](https://medium.com/@polyglot_factotum/rust-regret-less-concurrency-2238b9e53333).
-* [An introduction to the Rust programming language for Node developers](https://twitter.com/PipoPeperoni/status/1092842843637456899).
 * [Learning Rust via Advent of Code](https://www.forrestthewoods.com/blog/learning-rust-via-advent-of-code/).
 * [Creating web-server .deb binary with rust](https://gill.net.in/posts/creating-web-server-deb-binary-with-rust/).
+* [An introduction to the Rust programming language for Node developers](https://twitter.com/PipoPeperoni/status/1092842843637456899).
 
 # Crate of the Week
 
@@ -97,6 +97,8 @@ decision. Express your opinions now.
 * [disposition: merge] [stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592).
 * [disposition: close] [Make AcqRel universally usable as ordering mode](https://github.com/rust-lang/rfcs/pull/2503).
 * [disposition: close] [Ghost Busting](https://github.com/rust-lang/rfcs/pull/2357).
+* [disposition: postpone] [Accept semicolons as item-like](https://github.com/rust-lang/rfcs/pull/2479).
+* [disposition: postpone] [Generic integers](https://github.com/rust-lang/rfcs/pull/2581).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
@@ -118,8 +120,6 @@ decision. Express your opinions now.
 
 ### Online
 
-* [Feb  6. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Feb 11. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Feb 13. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Feb 20. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
@@ -129,27 +129,19 @@ decision. Express your opinions now.
 
 ### Europe
 
-* [Feb  6. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup).
-* [Feb  6. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzdbjb/).
-* [Feb  6. Cologne, DE - Cologne Meetup](https://www.meetup.com/RustCologne/events/vnwndpyzdbjb/).
 * [Feb 12. Villeurbanne, FR - TupperRust](https://tupperrust.github.io).
 * [Feb 18. Karlsruhe, DE - Karlsruhe Rust Hack and Learn](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/258728236/).
 * [Feb 20. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzdbbc/).
 
 ### North America
 
-### North America
-
-* [Feb  6. Indianapolis, US - Indy.rs](https://www.google.com/url?q=https%3A%2F%2Fwww.meetup.com%2Findyrs%2Fevents%2F246726699%2F&amp;sa=D&amp;usd=2&amp;usg=AFQjCNG-ZrwHciAZIXgWBkPm0iNS3fCe9A).
-* [Feb  6. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/).
-* [Feb  6. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/).
-* [Feb 11. Seattle, US - Seattle Rust Meetup](http://www.meetup.com/Seattle-Rust-Meetup/).
+* [Feb 12. Seattle, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/nzfspqyzdbpb/).
 * [Feb 12. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/257819656/).
-* [Feb 13. Ciudad de México, MX - Study group RustMX](https://www.meetup.com/es/Rust-MX/).
-* [Feb 14. Columbus, US - Columbus Rust Society](http://www.meetup.com/columbus-rs/).
-* [Feb 14. San Diego, US - San Diego Rust](http://meetu.ps/c/2vF0G/4DXV4/a).
+* [Feb 13. Ciudad de México, MX - Grupo de estudio RustMX - Sesión 1: Conceptos básicos](https://www.meetup.com/Rust-MX/events/258659340/).
+* [Feb 14. Columbus, US - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dbcfrpyzdbsb/).
 * [Feb 20. Chicago, US - Chicago Rust Meetup - Property-Based Testing in Rust](https://www.meetup.com/Chicago-Rust-Meetup/events/257469240/).
-* [Feb 20. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/).
+* [Feb 20. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/hkllqqyzdbbc/).
+* [Feb 20. Sacramento, US - Sacramento Rust Inaugural Meetup](https://www.meetup.com/Rust-Sacramento/events/258393260/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -173,13 +165,11 @@ This time, we have two quotes for the price of one:
 
 > The borrow checker breaks you down so that it can build you back up, stronger and more resilient than you once were. It also had me do all sorts of weird things like catch flies with chopsticks and scrub counters to a polish.
 
-– /u/bkv on /r/rust
+– /u/bkv on [/r/rust](https://www.reddit.com/r/rust/comments/ampvvt/as_a_new_selftaught_student_to_programming_this/efnw35o/)
 
 > I always think of borrowck as an angel sitting on your shoulder, advising you not to sin against the rules of ownership and borrowing, so your design will be obvious and your code simple and fast.
 
 – llogiq on [/r/rust](https://www.reddit.com/r/rust/comments/ampvvt/as_a_new_selftaught_student_to_programming_this/efo074d)
-
-– Brook Heisler [on discord](https://discordapp.com/channels/442252698964721669/448238009733742612/536406836178583562) (login needed, sorry!)
 
 Thanks to [Christopher Durham](https://users.rust-lang.org/t/twir-quote-of-the-week/328/617) for the suggestion!
 
