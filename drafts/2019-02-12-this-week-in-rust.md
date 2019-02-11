@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [How to upload any file on Amazon S3 using Rust?](https://blog.knoldus.com/how-to-upload-any-file-on-amazon-s3-using-rust/).
+* [Structure your data in Rust](https://blog.knoldus.com/structure-your-data-in-rust/).
 
 
 # Crate of the Week
