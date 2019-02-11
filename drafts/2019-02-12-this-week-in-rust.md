@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+This week's blog is How to upload any file on Amazon S3 using Rust? (https://blog.knoldus.com/how-to-upload-any-file-on-amazon-s3-using-rust/), describes file upload on aws s3 using rust.
+
 # Crate of the Week
 
 This week's crate is [log-derive](https://crates.io/crates/log-derive), a procedural macro to log function outputs. Thanks to [elichai2](https://users.rust-lang.org/t/crate-of-the-week/2704/482) for the suggestion!
