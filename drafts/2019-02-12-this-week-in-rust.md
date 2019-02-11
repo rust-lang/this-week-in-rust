@@ -15,8 +15,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-[How to upload any file on Amazon S3 using Rust?]
-(https://blog.knoldus.com/how-to-upload-any-file-on-amazon-s3-using-rust/).
+
+* [How to upload any file on Amazon S3 using Rust?](https://blog.knoldus.com/how-to-upload-any-file-on-amazon-s3-using-rust/).
 
 
 # Crate of the Week
