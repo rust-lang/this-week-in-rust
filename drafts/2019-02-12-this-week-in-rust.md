@@ -15,8 +15,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-[Connecting Rust with AWS S3]
-(https://blog.knoldus.com/connecting-rust-with-aws-s3/)
+* [Memory Management in Rust: Ownership](https://blog.knoldus.com/memory-management-in-rust-ownership/)
+* [Connecting Rust with AWS S3](https://blog.knoldus.com/connecting-rust-with-aws-s3/)
 
 # Crate of the Week
 
