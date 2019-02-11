@@ -15,6 +15,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Fearless Concurrency in Rust ](https://blog.knoldus.com/fearless-concurrency-in-rust/)
+* [Pattern matching in Rust ](https://blog.knoldus.com/pattern-matching-in-rust-2/)
 
 # Crate of the Week
 
