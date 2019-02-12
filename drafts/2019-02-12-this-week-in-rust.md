@@ -31,9 +31,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [TiKV: Set compile-time env vars in build script instead of Makefile](https://github.com/tikv/tikv/issues/4051).
-* [TiKV: Build with dylibs instead of statically](https://github.com/tikv/tikv/issues/4151).
-* [rustc: Implement RFC 2091 re implicit caller information](https://github.com/rust-lang/rust/issues/47809) - make 'unwrap' report a useful line number.
+- [raft: Convert `Storage::entries`'s `max_size` argument to `Option<u64>`](https://github.com/pingcap/raft-rs/issues/98)
+- [TiKV: Convert trait objects to `dyn` syntax for Rust 2018](https://github.com/tikv/tikv/issues/4197)
+- [TiKV: Remove all the `extern crate`s for Rust 2018](https://github.com/tikv/tikv/issues/4196)
+- [TiKV: Add tcmalloc support to the tikv_alloc crate](https://github.com/tikv/tikv/issues/4191)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
