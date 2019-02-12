@@ -109,10 +109,13 @@ decision. Express your opinions now.
 
 * [Feb 13. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Feb 20. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Feb 25. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Feb 27. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 
 ### Asia Pacific
 
 * [Feb 13. Melbourne, AU - Melbourne hack night](https://www.meetup.com/Rust-Melbourne/events/257974991/).
+* [Feb 16. Chennai, IN - Rust Chennai meetup](https://www.meetup.com/mad-rs/events/258822338/).
 
 ### Europe
 
@@ -122,13 +125,16 @@ decision. Express your opinions now.
 
 ### North America
 
-* [Feb 12. Seattle, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/nzfspqyzdbpb/).
 * [Feb 12. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/257819656/).
-* [Feb 13. Ciudad de México, MX - Grupo de estudio RustMX - Sesión 1: Conceptos básicos](https://www.meetup.com/Rust-MX/events/258659340/).
-* [Feb 14. Columbus, US - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dbcfrpyzdbsb/).
+* [Feb 13. Ciudad de México, MX - Study group RustMX](https://www.meetup.com/es/Rust-MX/).
+* [Feb 14. Columbus, US - Columbus Rust Society](http://www.meetup.com/columbus-rs/).
+* [Feb 14. San Diego, US - San Diego Rust](http://meetu.ps/c/2vF0G/4DXV4/a).
 * [Feb 20. Chicago, US - Chicago Rust Meetup - Property-Based Testing in Rust](https://www.meetup.com/Chicago-Rust-Meetup/events/257469240/).
-* [Feb 20. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/hkllqqyzdbbc/).
-* [Feb 20. Sacramento, US - Sacramento Rust Inaugural Meetup](https://www.meetup.com/Rust-Sacramento/events/258393260/).
+* [Feb 20. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/).
+* [Feb 21. Arlington, US - Rust DC—Learn+Try: Custom Redis Datastructures](https://www.meetup.com/RustDC/events/257969733).
+* [Feb 25. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/).
+* [Feb 27. Ann Arbor, US - Ann Arbor Rust Meetup](https://www.meetup.com/Ann-Arbor-Rust-Meetup/).
+* [Feb 27. Ciudad de México, MX - Study group RustMX](https://www.meetup.com/es/Rust-MX/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
