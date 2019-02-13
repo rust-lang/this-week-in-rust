@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Are you still using 'println' in Rust for debugging?](https://blog.knoldus.com/are-you-still-using-println-in-rust-for-debugging/).
 
 # Crate of the Week
 
