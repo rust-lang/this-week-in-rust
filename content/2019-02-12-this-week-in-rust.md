@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Aturon retires from the Core Team (but not from Rust)](https://internals.rust-lang.org/t/aturon-retires-from-the-core-team-but-not-from-rust/9392).
 * [Rewriting stackcollapse-xdebug in Rust](https://daniellockyer.com/rewriting-stackcollapse-xdebug/).
 * [Are you still using 'println' in Rust for debugging](https://blog.knoldus.com/are-you-still-using-println-in-rust-for-debugging/)?
+* [UCG+Miri All-Hands 2019 Recap](https://www.ralfj.de/blog/2019/02/12/all-hands-recap.html).
 
 # Crate of the Week
 
