@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [A quick look at trait objects in Rust](https://tratt.net/laurie/blog/entries/a_quick_look_at_trait_objects_in_rust.html).
 * [Allocations in Rust: An introduction to the memory model](https://speice.io/2019/02/understanding-allocations-in-rust.html).
 * [Custom exit status codes with ? in main](https://www.joshmcguigan.com/blog/custom-exit-status-codes-rust/).
+* [Rust: a unique perspective](https://limpet.net/mbrubeck/2019/02/07/rust-a-unique-perspective.html).
 * [Rust on STM32: Blinking an LED](https://jonathanklimt.de/electrics/programming/rust-STM32F103-blink/).
 * [Generators I: Toward a minimum viable product](https://boats.gitlab.io/blog/post/generators-i/).
 * [Aturon retires from the Core Team (but not from Rust)](https://internals.rust-lang.org/t/aturon-retires-from-the-core-team-but-not-from-rust/9392).
