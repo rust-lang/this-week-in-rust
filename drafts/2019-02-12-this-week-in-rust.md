@@ -17,6 +17,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 * [Are you still using 'println' in Rust for debugging?](https://blog.knoldus.com/are-you-still-using-println-in-rust-for-debugging/).
 
+* [Rewriting stackcollapse-xdebug in Rust](https://daniellockyer.com/rewriting-stackcollapse-xdebug/)
+
 # Crate of the Week
 
 This week's crate is [log-derive](https://crates.io/crates/log-derive), a procedural macro to log function outputs. Thanks to [elichai2](https://users.rust-lang.org/t/crate-of-the-week/2704/482) for the suggestion!
