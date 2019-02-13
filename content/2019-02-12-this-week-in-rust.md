@@ -17,9 +17,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Learning Rust in 2019](https://www.ragona.com/posts/learning_rust_2019).
-* [A Quick Look at Trait Objects in Rust](https://tratt.net/laurie/blog/entries/a_quick_look_at_trait_objects_in_rust.html).
+* [A quick look at trait objects in Rust](https://tratt.net/laurie/blog/entries/a_quick_look_at_trait_objects_in_rust.html).
 * [Allocations in Rust: An introduction to the memory model](https://speice.io/2019/02/understanding-allocations-in-rust.html).
-* [Custom Exit Status Codes with ? in main](https://www.joshmcguigan.com/blog/custom-exit-status-codes-rust/).
+* [Custom exit status codes with ? in main](https://www.joshmcguigan.com/blog/custom-exit-status-codes-rust/).
 * [Rust on STM32: Blinking an LED](https://jonathanklimt.de/electrics/programming/rust-STM32F103-blink/).
 * [Generators I: Toward a minimum viable product](https://boats.gitlab.io/blog/post/generators-i/).
 * [Aturon retires from the Core Team (but not from Rust)](https://internals.rust-lang.org/t/aturon-retires-from-the-core-team-but-not-from-rust/9392).
@@ -41,10 +41,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [raft: Convert `Storage::entries`'s `max_size` argument to `Option<u64>`](https://github.com/pingcap/raft-rs/issues/98)
-* [TiKV: Convert trait objects to `dyn` syntax for Rust 2018](https://github.com/tikv/tikv/issues/4197)
-* [TiKV: Remove all the `extern crate`s for Rust 2018](https://github.com/tikv/tikv/issues/4196)
-* [TiKV: Add tcmalloc support to the tikv_alloc crate](https://github.com/tikv/tikv/issues/4191)
+* [raft: Convert `Storage::entries`'s `max_size` argument to `Option<u64>`](https://github.com/pingcap/raft-rs/issues/98).
+* [TiKV: Convert trait objects to `dyn` syntax for Rust 2018](https://github.com/tikv/tikv/issues/4197).
+* [TiKV: Remove all the `extern crate`s for Rust 2018](https://github.com/tikv/tikv/issues/4196).
+* [TiKV: Add tcmalloc support to the tikv_alloc crate](https://github.com/tikv/tikv/issues/4191).
 * [rand: Standard should be implemented for NonZero types](https://github.com/rust-random/rand/issues/727).
 * [Tarpaulin: Test coveralls with other CI services](https://github.com/xd009642/tarpaulin/issues/213).
 * [Inferno: Multiple good first issues](https://github.com/jonhoo/inferno/issues).
@@ -143,6 +143,7 @@ decision. Express your opinions now.
 ### North America
 
 * [Feb 14. Columbus, US - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dbcfrpyzdbsb/).
+* [Feb 20. Sacramento, US - Sacramento Rust Inaugural Meetup](https://www.meetup.com/Rust-Sacramento/events/258393260/).
 * [Feb 20. Chicago, US - Chicago Rust Meetup - Property-Based Testing in Rust](https://www.meetup.com/Chicago-Rust-Meetup/events/257469240/).
 * [Feb 20. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/hkllqqyzdbbc/).
 * [Feb 21. San Diego, US - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/258775454/).
@@ -169,7 +170,7 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-This time, we have two quotes for the price of one:
+Once again, we have two quotes for the price of one:
 
 > I love Rust because it reduces bugs by targeting it’s biggest source… me.
 
@@ -183,7 +184,7 @@ This time, we have two quotes for the price of one:
 >
 > Just like with the seatbelt, there will be always those that don’t wear one for their very subjective reasons (e.g. because of edge cases where a seatbelt could trap you in a burning car, or because it is not cool, or because they hate the feeling and think accidents only happen to people who can’t drive).
 
-– [atoav on HN](https://news.ycombinator.com/item?id=19139949) comparing Rusts safety guarantees with seat-belts.
+– [atoav on HN](https://news.ycombinator.com/item?id=19139949) comparing Rust's safety guarantees with seat-belts.
 
 Thanks to [Kornel](https://users.rust-lang.org/t/twir-quote-of-the-week/328/619) and [pitdicker](https://users.rust-lang.org/t/twir-quote-of-the-week/328/623) for the suggestion!
 
