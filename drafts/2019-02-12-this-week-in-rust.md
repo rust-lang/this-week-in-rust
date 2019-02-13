@@ -15,13 +15,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-* [Are you still using 'println' in Rust for debugging?](https://blog.knoldus.com/are-you-still-using-println-in-rust-for-debugging/).
 
-* [Rewriting stackcollapse-xdebug in Rust](https://daniellockyer.com/rewriting-stackcollapse-xdebug/)
+* [Learning Rust in 2019](https://www.ragona.com/posts/learning_rust_2019).
+* [A Quick Look at Trait Objects in Rust](https://tratt.net/laurie/blog/entries/a_quick_look_at_trait_objects_in_rust.html).
+* [Allocations in Rust: An introduction to the memory model](https://speice.io/2019/02/understanding-allocations-in-rust.html).
+* [Custom Exit Status Codes with ? in main](https://www.joshmcguigan.com/blog/custom-exit-status-codes-rust/).
+* [Rust on STM32: Blinking an LED](https://jonathanklimt.de/electrics/programming/rust-STM32F103-blink/).
+* [Generators I: Toward a minimum viable product](https://boats.gitlab.io/blog/post/generators-i/).
+* [Aturon retires from the Core Team (but not from Rust)](https://internals.rust-lang.org/t/aturon-retires-from-the-core-team-but-not-from-rust/9392).
+* [Rewriting stackcollapse-xdebug in Rust](https://daniellockyer.com/rewriting-stackcollapse-xdebug/).
+* [Are you still using 'println' in Rust for debugging](https://blog.knoldus.com/are-you-still-using-println-in-rust-for-debugging/)?
 
 # Crate of the Week
 
-This week's crate is [log-derive](https://crates.io/crates/log-derive), a procedural macro to log function outputs. Thanks to [elichai2](https://users.rust-lang.org/t/crate-of-the-week/2704/482) for the suggestion!
+This week's crate is [sysinfo](https://github.com/guillaumeGomez/sysinfo), a system handler to get information and interact with processes. Thanks to [GuillaumeGomez](https://users.rust-lang.org/t/crate-of-the-week/2704/483) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -34,10 +41,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-- [raft: Convert `Storage::entries`'s `max_size` argument to `Option<u64>`](https://github.com/pingcap/raft-rs/issues/98)
-- [TiKV: Convert trait objects to `dyn` syntax for Rust 2018](https://github.com/tikv/tikv/issues/4197)
-- [TiKV: Remove all the `extern crate`s for Rust 2018](https://github.com/tikv/tikv/issues/4196)
-- [TiKV: Add tcmalloc support to the tikv_alloc crate](https://github.com/tikv/tikv/issues/4191)
+* [raft: Convert `Storage::entries`'s `max_size` argument to `Option<u64>`](https://github.com/pingcap/raft-rs/issues/98)
+* [TiKV: Convert trait objects to `dyn` syntax for Rust 2018](https://github.com/tikv/tikv/issues/4197)
+* [TiKV: Remove all the `extern crate`s for Rust 2018](https://github.com/tikv/tikv/issues/4196)
+* [TiKV: Add tcmalloc support to the tikv_alloc crate](https://github.com/tikv/tikv/issues/4191)
+* [rand: Standard should be implemented for NonZero types](https://github.com/rust-random/rand/issues/727).
+* [Tarpaulin: Test coveralls with other CI services](https://github.com/xd009642/tarpaulin/issues/213).
+* [Inferno: Multiple good first issues](https://github.com/jonhoo/inferno/issues).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -45,30 +55,36 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-157 pull requests were [merged in the last week][merged]
+236 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-01-28..2019-02-04
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-02-04..2019-02-11
 
-* [HirIdification: add key HirId methods](https://github.com/rust-lang/rust/pull/58090)
-* [don't panic when accessing enum variant ctor using `Self` in match](https://github.com/rust-lang/rust/pull/58007)
-* [use LLVM intrinsics for saturating add/sub](https://github.com/rust-lang/rust/pull/58003)
-* [add MOVBE x86 CPU feature](https://github.com/rust-lang/rust/pull/57999)
-* [NVPTX target specification](https://github.com/rust-lang/rust/pull/57937)
-* [fix bug in integer range matching](https://github.com/rust-lang/rust/pull/57978)
-* [unused variable suggestions apply on all patterns](https://github.com/rust-lang/rust/pull/57899)
-* [add information to higher-ranked lifetimes conflicts error messages](https://github.com/rust-lang/rust/pull/57901)
-* [rustc: use multiple threads by default](https://github.com/rust-lang/rust/pull/57948)
-* [misc performance tweaks](https://github.com/rust-lang/rust/pull/57916)
-* [simplify `ConstValue::ScalarPair`](https://github.com/rust-lang/rust/pull/57442)
-* [mark `str::trim*` functions as `#[must_use]`](https://github.com/rust-lang/rust/pull/57106)
-* [override `VecDeque`'s `Iter::try_fold`](https://github.com/rust-lang/rust/pull/57974)
-* [introduce `into_raw_non_null` on `Rc` and `Arc`](https://github.com/rust-lang/rust/pull/57934)
-* [implement `Weak::`{`strong_count`, `weak_count`}](https://github.com/rust-lang/rust/pull/56696)
-* [rename `iter::unfold` to `iter::from_fn` and remove explicit state](https://github.com/rust-lang/rust/pull/58062)
-* [stabilize `std::error::Error::type_id`](https://github.com/rust-lang/rust/pull/58048)
-* [stabilize `split_ascii_whitespace`](https://github.com/rust-lang/rust/pull/58047)
-* [cargo: fix overlapping progress with stdout](https://github.com/rust-lang/cargo/pull/6618)
-* [cargo: improve progress bar flickering](https://github.com/rust-lang/cargo/pull/6615)
+* [Initial addition of the Embedded Rust Book](https://github.com/rust-lang/rust/pull/56291).
+* [Add const generics to the AST](https://github.com/rust-lang/rust/pull/58191).
+* [Error on duplicate matcher bindings](https://github.com/rust-lang/rust/pull/57617).
+* [libc: RFC 2235 - Implement PartialEq,Eq,Hash,Debug for all types](https://github.com/rust-lang/libc/pull/1217).
+* [Lower constant patterns with ascribed types](https://github.com/rust-lang/rust/pull/58161).
+* [Make `intern_lazy_const` actually intern its argument](https://github.com/rust-lang/rust/pull/58207).
+* [Avoid committing to autoderef in object method probing](https://github.com/rust-lang/rust/pull/57885).
+* [Add #[must_use] to core::task::Poll](https://github.com/rust-lang/rust/pull/58145).
+* [Add #[must_use] message to Fn* traits](https://github.com/rust-lang/rust/pull/58262).
+* [Avoid some bounds checks in binary_heap::{PeekMut,Hole}](https://github.com/rust-lang/rust/pull/58123).
+* [Make -Zdump-mir dump shims](https://github.com/rust-lang/rust/pull/58103).
+* [Cargo: Bail when trying to run "test --doc --no-run"](https://github.com/rust-lang/cargo/pull/6628).
+* [Improve error message and docs for non-UTF-8 bytes in stdio on Windows](https://github.com/rust-lang/rust/pull/58136).
+* [Move privacy checking later in the pipeline and make some passes run in parallel](https://github.com/rust-lang/rust/pull/58010).
+* [Overhaul `syntax::fold::Folder`](https://github.com/rust-lang/rust/pull/58061).
+* [Factor out error reporting from `smart_resolve_path_fragment` fn](https://github.com/rust-lang/rust/pull/58065).
+* [Do not ICE in codegen when using a extern_type static](https://github.com/rust-lang/rust/pull/58192).
+* [hir: add more HirId methods](https://github.com/rust-lang/rust/pull/58139).
+* [Implement more detailed self profiling](https://github.com/rust-lang/rust/pull/58085).
+* [Add a forever unstable opt-out of const qualification checks](https://github.com/rust-lang/rust/pull/56123).
+* [Initial implementation of rustfixable unused_imports lint](https://github.com/rust-lang/rust/pull/56645).
+* [Add a query type which is always marked as red if it runs](https://github.com/rust-lang/rust/pull/57770).
+* [Don't try to clean predicates involving ReErased](https://github.com/rust-lang/rust/pull/57851).
+* [Deduplicate mismatched delimiter errors](https://github.com/rust-lang/rust/pull/57944).
+* [Add suggestion for duplicated import](https://github.com/rust-lang/rust/pull/57973).
+* [Allow #[repr(align(x))] on enums](https://github.com/rust-lang/rust/pull/57998).
 
 ## Approved RFCs
 
@@ -86,8 +102,8 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: e] [Generic integers](https://github.com/rust-lang/rfcs/pull/2581).
-* [disposition: e] [Accept semicolons as item-like](https://github.com/rust-lang/rfcs/pull/2479).
+* [disposition: postpone] [Generic integers](https://github.com/rust-lang/rfcs/pull/2581).
+* [disposition: postpone] [Accept semicolons as item-like](https://github.com/rust-lang/rfcs/pull/2479).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
@@ -104,41 +120,35 @@ decision. Express your opinions now.
 
 ## New RFCs
 
-* [RFC changing the overflow behavior for usize in release builds to panic](https://github.com/rust-lang/rfcs/pull/2635).
+* [Changing the overflow behavior for usize in release builds to panic](https://github.com/rust-lang/rfcs/pull/2635).
 * [#[ffi_returns_twice]](https://github.com/rust-lang/rfcs/pull/2633).
 
 # Upcoming Events
 
 ### Online
 
-* [Feb 13. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Feb 20. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Feb 25. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Feb 27. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 
 ### Asia Pacific
 
-* [Feb 13. Melbourne, AU - Melbourne hack night](https://www.meetup.com/Rust-Melbourne/events/257974991/).
 * [Feb 16. Chennai, IN - Rust Chennai meetup](https://www.meetup.com/mad-rs/events/258822338/).
 
 ### Europe
 
-* [Feb 12. Villeurbanne, FR - TupperRust](https://tupperrust.github.io).
 * [Feb 18. Karlsruhe, DE - Karlsruhe Rust Hack and Learn](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/258728236/).
 * [Feb 20. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzdbbc/).
 
 ### North America
 
-* [Feb 12. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/257819656/).
-* [Feb 13. Ciudad de México, MX - Study group RustMX](https://www.meetup.com/es/Rust-MX/).
-* [Feb 14. Columbus, US - Columbus Rust Society](http://www.meetup.com/columbus-rs/).
-* [Feb 14. San Diego, US - San Diego Rust](http://meetu.ps/c/2vF0G/4DXV4/a).
+* [Feb 14. Columbus, US - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dbcfrpyzdbsb/).
 * [Feb 20. Chicago, US - Chicago Rust Meetup - Property-Based Testing in Rust](https://www.meetup.com/Chicago-Rust-Meetup/events/257469240/).
-* [Feb 20. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/).
+* [Feb 20. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/hkllqqyzdbbc/).
+* [Feb 21. San Diego, US - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/258775454/).
 * [Feb 21. Arlington, US - Rust DC—Learn+Try: Custom Redis Datastructures](https://www.meetup.com/RustDC/events/257969733).
-* [Feb 25. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/).
-* [Feb 27. Ann Arbor, US - Ann Arbor Rust Meetup](https://www.meetup.com/Ann-Arbor-Rust-Meetup/).
-* [Feb 27. Ciudad de México, MX - Study group RustMX](https://www.meetup.com/es/Rust-MX/).
+* [Feb 25. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzdbhc/).
+* [Feb 27. Ann Arbor, US - Ann Arbor Rust Meetup](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/cgsskqyzdbkc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -149,10 +159,11 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Software Developer at Finhaven, Vancouver, CA](https://angel.co/finhaven/jobs/411238-software-developer).
 * [Software Engineer at Discord, San Francisco, US](https://discordapp.com/jobs/4200751002).
 * [Network Engineer at NearProtocol, San Francisco, US](https://nearprotocol.com/careers/?gh_jid=4205573002).
 * [Navitia Software Engineer at Kisio Digital, Paris, FR](https://www.welcometothejungle.co/companies/kisio-digital/jobs/rust-c-developpeur-h-f_paris).
-* [Rust web developer at Impero, Denmark/remote](https://impero.com/job/full-stack-web-developer-rust/)
+* [Rust web developer at Impero, Denmark/remote](https://impero.com/job/full-stack-web-developer-rust/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
@@ -160,15 +171,21 @@ Email the [Rust Community Team][community] for access.
 
 This time, we have two quotes for the price of one:
 
-> The borrow checker breaks you down so that it can build you back up, stronger and more resilient than you once were. It also had me do all sorts of weird things like catch flies with chopsticks and scrub counters to a polish.
+> I love Rust because it reduces bugs by targeting it’s biggest source… me.
 
-– /u/bkv on [/r/rust](https://www.reddit.com/r/rust/comments/ampvvt/as_a_new_selftaught_student_to_programming_this/efnw35o/)
+– [ObliviousJD on Twitter](https://twitter.com/ObliviousJD/status/1094456407376637952)
 
-> I always think of borrowck as an angel sitting on your shoulder, advising you not to sin against the rules of ownership and borrowing, so your design will be obvious and your code simple and fast.
+> Say the same thing about seatbelts in a car. If you don’t plan to have accidents, why do you need seatbelts?
+>
+> Car accidents, like mistakes in programming are a risk that has a likelihood that is non-zero. A seatbelt might be a little bit annoying when things go well, but much less so when they don’t. Rust is there to stop you in most cases when you try to accidentally shot yourself into the leg, unless you deliberately without knowing what you are doing while yelling “hold my beer” (unsafe). And contrary to popular belief even in unsafe blocks many of Rust’s safety guarantees hold, just not all.
+>
+> …
+>
+> Just like with the seatbelt, there will be always those that don’t wear one for their very subjective reasons (e.g. because of edge cases where a seatbelt could trap you in a burning car, or because it is not cool, or because they hate the feeling and think accidents only happen to people who can’t drive).
 
-– llogiq on [/r/rust](https://www.reddit.com/r/rust/comments/ampvvt/as_a_new_selftaught_student_to_programming_this/efo074d)
+– [atoav on HN](https://news.ycombinator.com/item?id=19139949) comparing Rusts safety guarantees with seat-belts.
 
-Thanks to [Christopher Durham](https://users.rust-lang.org/t/twir-quote-of-the-week/328/617) for the suggestion!
+Thanks to [Kornel](https://users.rust-lang.org/t/twir-quote-of-the-week/328/619) and [pitdicker](https://users.rust-lang.org/t/twir-quote-of-the-week/328/623) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
