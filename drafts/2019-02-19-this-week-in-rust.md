@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Porting a CHIP-8 emulator to Rust](https://ntcore.com/?p=594)
 
 # Crate of the Week
 
