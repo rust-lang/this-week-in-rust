@@ -15,7 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-
+* [You can live without Exceptions, If you are using RUST](https://blog.knoldus.com/you-can-live-without-exceptions-if-you-are-using-rust/)
 # Crate of the Week
 
 This week's crate is [sysinfo](https://github.com/guillaumeGomez/sysinfo), a system handler to get information and interact with processes. Thanks to [GuillaumeGomez](https://users.rust-lang.org/t/crate-of-the-week/2704/483) for the suggestion!
