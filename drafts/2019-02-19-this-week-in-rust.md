@@ -155,6 +155,7 @@ Email the [Rust Community Team][community] for access.
 * [Network Engineer at NearProtocol, San Francisco, US](https://nearprotocol.com/careers/?gh_jid=4205573002).
 * [Navitia Software Engineer at Kisio Digital, Paris, FR](https://www.welcometothejungle.co/companies/kisio-digital/jobs/rust-c-developpeur-h-f_paris).
 * [Rust web developer at Impero, Denmark/remote](https://impero.com/job/full-stack-web-developer-rust/).
+* [Rust Software Consultant, Noida, India](https://www.knoldus.com/careers/rust-software-consultant.knol).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
