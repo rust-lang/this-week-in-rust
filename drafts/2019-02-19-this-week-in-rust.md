@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [sysinfo](https://github.com/guillaumeGomez/sysinfo), a system handler to get information and interact with processes. Thanks to [GuillaumeGomez](https://users.rust-lang.org/t/crate-of-the-week/2704/483) for the suggestion!
+This week's crate is [num-format](https://github.com/bcmyers/num-format), a crate to format numbers to international standards. Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/485) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -45,36 +45,23 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-236 pull requests were [merged in the last week][merged]
+247 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-02-04..2019-02-11
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-02-11..2019-02-18
 
-* [Initial addition of the Embedded Rust Book](https://github.com/rust-lang/rust/pull/56291).
-* [Add const generics to the AST](https://github.com/rust-lang/rust/pull/58191).
-* [Error on duplicate matcher bindings](https://github.com/rust-lang/rust/pull/57617).
-* [libc: RFC 2235 - Implement PartialEq,Eq,Hash,Debug for all types](https://github.com/rust-lang/libc/pull/1217).
-* [Lower constant patterns with ascribed types](https://github.com/rust-lang/rust/pull/58161).
-* [Make `intern_lazy_const` actually intern its argument](https://github.com/rust-lang/rust/pull/58207).
-* [Avoid committing to autoderef in object method probing](https://github.com/rust-lang/rust/pull/57885).
-* [Add #[must_use] to core::task::Poll](https://github.com/rust-lang/rust/pull/58145).
-* [Add #[must_use] message to Fn* traits](https://github.com/rust-lang/rust/pull/58262).
-* [Avoid some bounds checks in binary_heap::{PeekMut,Hole}](https://github.com/rust-lang/rust/pull/58123).
-* [Make -Zdump-mir dump shims](https://github.com/rust-lang/rust/pull/58103).
-* [Cargo: Bail when trying to run "test --doc --no-run"](https://github.com/rust-lang/cargo/pull/6628).
-* [Improve error message and docs for non-UTF-8 bytes in stdio on Windows](https://github.com/rust-lang/rust/pull/58136).
-* [Move privacy checking later in the pipeline and make some passes run in parallel](https://github.com/rust-lang/rust/pull/58010).
-* [Overhaul `syntax::fold::Folder`](https://github.com/rust-lang/rust/pull/58061).
-* [Factor out error reporting from `smart_resolve_path_fragment` fn](https://github.com/rust-lang/rust/pull/58065).
-* [Do not ICE in codegen when using a extern_type static](https://github.com/rust-lang/rust/pull/58192).
-* [hir: add more HirId methods](https://github.com/rust-lang/rust/pull/58139).
-* [Implement more detailed self profiling](https://github.com/rust-lang/rust/pull/58085).
-* [Add a forever unstable opt-out of const qualification checks](https://github.com/rust-lang/rust/pull/56123).
-* [Initial implementation of rustfixable unused_imports lint](https://github.com/rust-lang/rust/pull/56645).
-* [Add a query type which is always marked as red if it runs](https://github.com/rust-lang/rust/pull/57770).
-* [Don't try to clean predicates involving ReErased](https://github.com/rust-lang/rust/pull/57851).
-* [Deduplicate mismatched delimiter errors](https://github.com/rust-lang/rust/pull/57944).
-* [Add suggestion for duplicated import](https://github.com/rust-lang/rust/pull/57973).
-* [Allow #[repr(align(x))] on enums](https://github.com/rust-lang/rust/pull/57998).
+* [Implement incremental "fat" LTO](https://github.com/rust-lang/rust/pull/58378)
+* [Enable comparing fat pointers](https://github.com/rust-lang/rust/pull/58301)
+* [`impl iter() for dyn Error`](https://github.com/rust-lang/rust/pull/58289)
+* [Improve the error messages for missing stability attributes](https://github.com/rust-lang/rust/pull/58276)
+* [Cut down on number formating code size](https://github.com/rust-lang/rust/pull/58272)
+* [Reduce the size of `hir::Expr`](https://github.com/rust-lang/rust/pull/58258)
+* [Make `saturating_add` and `saturating_sub` `const` functions](https://github.com/rust-lang/rust/pull/58246)
+* [Stabilize `slice_sort_by_cached_key`](https://github.com/rust-lang/rust/pull/58074)
+* [Stabilize `str::escape_*` methods with new return types](https://github.com/rust-lang/rust/pull/58051)
+* [Stabilize the `time_checked_add` feature](https://github.com/rust-lang/rust/pull/58034)
+* [Update the future/task API](https://github.com/rust-lang/rust/pull/57992)
+* [Speed up the fast path for `assert_eq!` and `assert_ne!`](https://github.com/rust-lang/rust/pull/57815)
+* [cargo: Stabilize Alternative Registries](https://github.com/rust-lang/cargo/pull/6654)
 
 ## Approved RFCs
 
@@ -160,23 +147,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-Once again, we have two quotes for the price of one:
+> … the experience I had in 2019 was dramatically better than the first time I touched the language. After a month I’m feeling very comfortable, and looking forward to writing more.
 
-> I love Rust because it reduces bugs by targeting it’s biggest source… me.
+Ryan Ragona, [Learning Rust in 2019](https://www.ragona.com/posts/learning_rust_2019)
 
-– [ObliviousJD on Twitter](https://twitter.com/ObliviousJD/status/1094456407376637952)
-
-> Say the same thing about seatbelts in a car. If you don’t plan to have accidents, why do you need seatbelts?
->
-> Car accidents, like mistakes in programming are a risk that has a likelihood that is non-zero. A seatbelt might be a little bit annoying when things go well, but much less so when they don’t. Rust is there to stop you in most cases when you try to accidentally shot yourself into the leg, unless you deliberately without knowing what you are doing while yelling “hold my beer” (unsafe). And contrary to popular belief even in unsafe blocks many of Rust’s safety guarantees hold, just not all.
->
-> …
->
-> Just like with the seatbelt, there will be always those that don’t wear one for their very subjective reasons (e.g. because of edge cases where a seatbelt could trap you in a burning car, or because it is not cool, or because they hate the feeling and think accidents only happen to people who can’t drive).
-
-– [atoav on HN](https://news.ycombinator.com/item?id=19139949) comparing Rust's safety guarantees with seat-belts.
-
-Thanks to [Kornel](https://users.rust-lang.org/t/twir-quote-of-the-week/328/619) and [pitdicker](https://users.rust-lang.org/t/twir-quote-of-the-week/328/623) for the suggestion!
+Thanks to [Jules Kerssemakers](https://users.rust-lang.org/t/twir-quote-of-the-week/328/624) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
