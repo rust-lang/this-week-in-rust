@@ -31,12 +31,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [raft: Convert `Storage::entries`'s `max_size` argument to `Option<u64>`](https://github.com/pingcap/raft-rs/issues/98).
-* [TiKV: Convert trait objects to `dyn` syntax for Rust 2018](https://github.com/tikv/tikv/issues/4197).
-* [TiKV: Remove all the `extern crate`s for Rust 2018](https://github.com/tikv/tikv/issues/4196).
-* [TiKV: Add tcmalloc support to the tikv_alloc crate](https://github.com/tikv/tikv/issues/4191).
 * [rand: Standard should be implemented for NonZero types](https://github.com/rust-random/rand/issues/727).
 * [Tarpaulin: Test coveralls with other CI services](https://github.com/xd009642/tarpaulin/issues/213).
+- [TiKV: Figure out how to add a second "release" profile for "dev+optimized" builds](https://github.com/tikv/tikv/issues/4189)
+- [TiKV: Consolidate rocksdb imports into one module for engine abstraction](https://github.com/tikv/tikv/issues/4229)
+- [TiKV: Avoid unnecessary clone of unstable raft log](https://github.com/tikv/tikv/issues/2373)
 * [Inferno: Multiple good first issues](https://github.com/jonhoo/inferno/issues).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
