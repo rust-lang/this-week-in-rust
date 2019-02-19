@@ -78,26 +78,20 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: postpone] [Generic integers](https://github.com/rust-lang/rfcs/pull/2581).
-* [disposition: postpone] [Accept semicolons as item-like](https://github.com/rust-lang/rfcs/pull/2479).
+* [disposition: merge] [#[link(kind="raw-dylib")]](https://github.com/rust-lang/rfcs/pull/2627).
+* [disposition: merge] [Associated type defaults](https://github.com/rust-lang/rfcs/pull/2532).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Relax some Ord bounds on BinaryHeap<T>](https://github.com/rust-lang/rust/pull/58421).
+* [disposition: merge] [Relax some Hash bounds on HashMap<K, V, S> and HashSet<T, S>](https://github.com/rust-lang/rust/pull/58370).
 * [disposition: merge] [Stabilize TryFrom and TryInto with a convert::Infallible empty enum](https://github.com/rust-lang/rust/pull/58302).
-* [disposition: merge] [Tracking issue for str::as_mut_ptr](https://github.com/rust-lang/rust/issues/58215).
-* [disposition: merge] [Stabilize slice_sort_by_cached_key](https://github.com/rust-lang/rust/pull/58074).
-* [disposition: merge] [deprecate before_exec in favor of unsafe pre_exec](https://github.com/rust-lang/rust/pull/58059).
-* [disposition: merge] [Stabilize linker-plugin based LTO (aka cross-language LTO)](https://github.com/rust-lang/rust/pull/58057).
-* [disposition: merge] [Tracking issue for std::iter::successors](https://github.com/rust-lang/rust/issues/58045).
-* [disposition: merge] [Tracking issue for Option::copied](https://github.com/rust-lang/rust/issues/57126).
-* [disposition: merge] [Tracking issue for std::ptr::hash](https://github.com/rust-lang/rust/issues/56286).
-* [disposition: merge] [Rename `MaybeUninit` to `MaybeUninitialized`](https://github.com/rust-lang/rust/pull/56138).
-* [disposition: merge] [Tracking issue for std::iter::from_fn](https://github.com/rust-lang/rust/issues/55977).
+* [disposition: merge] [Clarify guarantees for `Box` allocation](https://github.com/rust-lang/rust/pull/58183).
+* [disposition: merge] [dbg!() without parameters](https://github.com/rust-lang/rust/pull/57847).
 
 ## New RFCs
 
-* [Changing the overflow behavior for usize in release builds to panic](https://github.com/rust-lang/rfcs/pull/2635).
-* [#[ffi_returns_twice]](https://github.com/rust-lang/rfcs/pull/2633).
+*No RFCs are currently in final comment period.*
 
 # Upcoming Events
 
