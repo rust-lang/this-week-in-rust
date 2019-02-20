@@ -123,6 +123,7 @@ decision. Express your opinions now.
 * [Feb 21. Arlington, US - Rust DC—Learn+Try: Custom Redis Datastructures](https://www.meetup.com/RustDC/events/257969733).
 * [Feb 25. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzdbhc/).
 * [Feb 26. Irvine, US - Orange County Rust](https://www.meetup.com/oc-rust/events/258331354/).
+* [Feb 26. Stanford, US - [@ Stanford] Barriers to Learning Rust, Wasmer](https://www.meetup.com/Rust-Bay-Area/events/258913342/).
 * [Feb 27. Ann Arbor, US - Ann Arbor Rust Meetup](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/cgsskqyzdbkc/).
 * [Feb 27. Mesa, US - Phoenix Rust: Embedded Devices](https://www.meetup.com/Desert-Rustaceans/events/258596537).
 * [Mar  6. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyzfbjb/).
