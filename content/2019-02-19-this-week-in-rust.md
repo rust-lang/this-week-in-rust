@@ -22,7 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [A list of itch.io games written in Rust](https://itch.io/c/449652/rustlang-games).
 * [Cross-compiling Rust code to Minix](https://iandouglasscott.com/2019/02/18/cross-compiling-rust-code-to-minix/).
 * [One hundred Rust PRs later](https://phansch.net/2019/02/18/onehundred-rust-prs/).
-* [This Week in Rust and WebAssembly 10](https://rustwasm.github.io/2019/02/13/this-week-in-rust-and-wasm-010.html).
+* [This week in Rust and WebAssembly 10](https://rustwasm.github.io/2019/02/13/this-week-in-rust-and-wasm-010.html).
 
 # Crate of the Week
 
