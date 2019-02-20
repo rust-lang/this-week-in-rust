@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Changes in Flathub land](https://blogs.gnome.org/alexl/2019/02/19/changes-in-flathub-land/)
+
 # Crate of the Week
 
 This week's crate is [num-format](https://github.com/bcmyers/num-format), a crate to format numbers to international standards. Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/485) for the suggestion!
