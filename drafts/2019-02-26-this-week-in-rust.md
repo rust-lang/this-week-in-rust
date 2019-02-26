@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [num-format](https://github.com/bcmyers/num-format), a crate to format numbers to international standards. Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/485) for the suggestion!
+This week's crate is [shellfn](https://crates.io/crates/shellfn), a proc macro to easily and safely use shell scripts in rust. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/490) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -43,23 +43,34 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-247 pull requests were [merged in the last week][merged]
+245 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-02-11..2019-02-18
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-02-18..2019-02-25
 
-* [Implement incremental "fat" LTO](https://github.com/rust-lang/rust/pull/58378)
-* [Enable comparing fat pointers](https://github.com/rust-lang/rust/pull/58301)
-* [`impl iter() for dyn Error`](https://github.com/rust-lang/rust/pull/58289)
-* [Improve the error messages for missing stability attributes](https://github.com/rust-lang/rust/pull/58276)
-* [Cut down on number formating code size](https://github.com/rust-lang/rust/pull/58272)
-* [Reduce the size of `hir::Expr`](https://github.com/rust-lang/rust/pull/58258)
-* [Make `saturating_add` and `saturating_sub` `const` functions](https://github.com/rust-lang/rust/pull/58246)
-* [Stabilize `slice_sort_by_cached_key`](https://github.com/rust-lang/rust/pull/58074)
-* [Stabilize `str::escape_*` methods with new return types](https://github.com/rust-lang/rust/pull/58051)
-* [Stabilize the `time_checked_add` feature](https://github.com/rust-lang/rust/pull/58034)
-* [Update the future/task API](https://github.com/rust-lang/rust/pull/57992)
-* [Speed up the fast path for `assert_eq!` and `assert_ne!`](https://github.com/rust-lang/rust/pull/57815)
-* [cargo: Stabilize Alternative Registries](https://github.com/rust-lang/cargo/pull/6654)
+* [Add an unstable option to build proc macros for both the host and the target](https://github.com/rust-lang/cargo/pull/6547)
+* [Avoid ICE when region sneaks into impl trait](https://github.com/rust-lang/rust/pull/58649)
+* [Add const generics to the HIR](https://github.com/rust-lang/rust/pull/58503)
+* [Improve parsing diagnostic for negative supertrait bounds](https://github.com/rust-lang/rust/pull/57364)
+* [Optimise `vec![false; N]` to zero-alloc](https://github.com/rust-lang/rust/pull/58628)
+* [Add expected/provided byte alignments to validation error message](https://github.com/rust-lang/rust/pull/58658)
+* [Remove `LazyTokenStream`](https://github.com/rust-lang/rust/pull/58476)
+* [Add better error message for partial move](https://github.com/rust-lang/rust/pull/58199)
+* [Suggest removing parentheses surrounding lifetimes](https://github.com/rust-lang/rust/pull/58198)
+* [Use normal mutable borrows in matches](https://github.com/rust-lang/rust/pull/57609)
+* [Monomorphize less code in `fs::`{`read`, `write`}](https://github.com/rust-lang/rust/pull/58530)
+* [Make overflowing and wrapping negation const](https://github.com/rust-lang/rust/pull/58044)
+* [Fix overlapping references in BTree](https://github.com/rust-lang/rust/pull/58431)
+* [Relax some Ord bounds on BinaryHeap<T>](https://github.com/rust-lang/rust/pull/58421)
+* [Relax some Hash bounds on HashMap<K, V, S> and HashSet<T, S>](https://github.com/rust-lang/rust/pull/58370)
+* [Turn duration consts into associated consts](https://github.com/rust-lang/rust/pull/58595)
+* [`RangeInclusive` internal iteration performance improvement](https://github.com/rust-lang/rust/pull/58122)
+* [Override `VecDeque::try_rfold`, also update iterator](https://github.com/rust-lang/rust/pull/58064)
+* [Stabilize `TryFrom` and `TryInto` with a `convert::Infallible` empty enum](https://github.com/rust-lang/rust/pull/58302)
+* [Stabilize `iter::successors` and `iter::from_fn`](https://github.com/rust-lang/rust/pull/58576)
+* [Destabilize fixed-width const defined atomic integers](https://github.com/rust-lang/rust/pull/58616)
+* [Deprecate the unstable `Vec::resize_default`](https://github.com/rust-lang/rust/pull/57656)
+* [Modify doctest's auto-`fn main()` to allow `Result`s](https://github.com/rust-lang/rust/pull/56470)
+* [crates.io: Stop logging the referer header](https://github.com/rust-lang/crates.io/pull/1636)
 
 ## Approved RFCs
 
@@ -150,11 +161,7 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> … the experience I had in 2019 was dramatically better than the first time I touched the language. After a month I’m feeling very comfortable, and looking forward to writing more.
-
-Ryan Ragona, [Learning Rust in 2019](https://www.ragona.com/posts/learning_rust_2019)
-
-Thanks to [Jules Kerssemakers](https://users.rust-lang.org/t/twir-quote-of-the-week/328/624) for the suggestion!
+Sadly, no quotes were nominated this week.
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
