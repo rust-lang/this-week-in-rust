@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Working with Command Line Arguments in Rust](https://blog.knoldus.com/working-with-command-line-arguments-in-rust/)
 
 # Crate of the Week
 
