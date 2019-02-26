@@ -77,20 +77,24 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [#[link(kind="raw-dylib")]](https://github.com/rust-lang/rfcs/pull/2627).
-* [disposition: merge] [Associated type defaults](https://github.com/rust-lang/rfcs/pull/2532).
+*No RFCs in the final comment period this week*
+
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Relax some Ord bounds on BinaryHeap<T>](https://github.com/rust-lang/rust/pull/58421).
-* [disposition: merge] [Relax some Hash bounds on HashMap<K, V, S> and HashSet<T, S>](https://github.com/rust-lang/rust/pull/58370).
-* [disposition: merge] [Stabilize TryFrom and TryInto with a convert::Infallible empty enum](https://github.com/rust-lang/rust/pull/58302).
-* [disposition: merge] [Clarify guarantees for `Box` allocation](https://github.com/rust-lang/rust/pull/58183).
-* [disposition: merge] [dbg!() without parameters](https://github.com/rust-lang/rust/pull/57847).
+* [disposition: merge] [Cosmetic changes to compiler comments and docs](https://github.com/rust-lang/rust/issues/58619).
+* [disposition: merge] [Relax Read bounds on a bunch of BufReader<R> methods](https://github.com/rust-lang/rust/pull/58423).
+* [disposition: merge] [Tracking issue for Option::xor](https://github.com/rust-lang/rust/issues/50512).
+* [disposition: merge] [Tracking issue for RFC 2043: Add `align_offset` intrinsic (formerly: and `[T]::align_to` function)](https://github.com/rust-lang/rust/issues/44488).
+* [disposition: merge] [Tracking issue for RefCell::{replace, swap}](https://github.com/rust-lang/rust/issues/43570).
+* [disposition: merge] [Tracking issue for Vec::remove_item](https://github.com/rust-lang/rust/issues/40062).
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [Add scoped threads to the standard library](https://github.com/rust-lang/rfcs/pull/2647).
+* [Add more examples for | patterns in let in RFC 2175](https://github.com/rust-lang/rfcs/pull/2646).
+* [Transparent Unions](https://github.com/rust-lang/rfcs/pull/2645).
+* [Simplify visibility grammar](https://github.com/rust-lang/rfcs/pull/2640).
 
 # Upcoming Events
 
