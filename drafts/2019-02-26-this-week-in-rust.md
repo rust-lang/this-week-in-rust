@@ -33,9 +33,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [RustFest is searching for local teams to apply for the next events](https://blog.rustfest.eu/call-for-teams).
 * [The CLI-WG wants to help other CLI maintainers to write good first issues for contributions](https://github.com/rust-lang-nursery/cli-wg/issues/120).
-* [TiKV: Figure out how to add a second "release" profile for "dev+optimized" builds](https://github.com/tikv/tikv/issues/4189).
-* [TiKV: Consolidate rocksdb imports into one module for engine abstraction](https://github.com/tikv/tikv/issues/4229).
-* [TiKV: Avoid unnecessary clone of unstable raft log](https://github.com/tikv/tikv/issues/2373).
+* [TiKV: support ALLOW_INVALID_DATES in coprocessor](https://github.com/tikv/tikv/issues/4100)
+* [TiKV: Use breakpad + symbolic to generate and interpret minidump-format core dumps](https://github.com/tikv/tikv/issues/4202)
+* [TiKV: Make git dependency revisions explicit in Cargo.toml](https://github.com/tikv/tikv/issues/4283)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
