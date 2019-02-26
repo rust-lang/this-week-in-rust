@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Bid adieu to tarpaulin, HTML reports are here for RUST](https://blog.knoldus.com/bid-adieu-to-tarpaulin-html-reports-are-here-for-rust/)
+
 # Crate of the Week
 
 This week's crate is [num-format](https://github.com/bcmyers/num-format), a crate to format numbers to international standards. Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/485) for the suggestion!
