@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+[Blockchain in Rust video series](https://www.youtube.com/watch?v=vJdT05zl6jk&list=PLwnSaD6BDfXL0RiKT_5nOIdxTxZWpPtAv&index=2&t=0s)
 
 # Crate of the Week
 
