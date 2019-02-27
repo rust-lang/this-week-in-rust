@@ -15,14 +15,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-[Blockchain in Rust video series](https://www.youtube.com/watch?v=vJdT05zl6jk&list=PLwnSaD6BDfXL0RiKT_5nOIdxTxZWpPtAv&index=2&t=0s)
-
-* [HTML code coverage reports for Rust](https://blog.knoldus.com/bid-adieu-to-tarpaulin-html-reports-are-here-for-rust/).
 
 * [Rust case study: Community makes Rust an easy choice for npm](https://www.rust-lang.org/static/pdfs/Rust-npm-Whitepaper.pdf).
 * [Combine results for improved Rust validation logic](https://www.joshmcguigan.com/blog/multi-try-improved-validation-logic-rust/).
 * [Rust now runs on the new Cortex-M33 based Nordic nRF9160 LTE SiP](https://twitter.com/42Technology/status/1099009843967471617).
 * [Scientific computing: a Rust adventure - part 0 - vectors](https://www.lpalmieri.com/posts/2019-02-23-scientific-computing-a-rust-adventure-part-0-vectors/).
+* [HTML code coverage reports for Rust](https://blog.knoldus.com/bid-adieu-to-tarpaulin-html-reports-are-here-for-rust/).
+* [Blockchain in Rust - a video series](https://www.youtube.com/watch?v=vJdT05zl6jk&list=PLwnSaD6BDfXL0RiKT_5nOIdxTxZWpPtAv&index=2&t=0s).
 * [Changes in the core team](https://blog.rust-lang.org/2019/02/22/Core-team-changes.html).
 * [Rust lang team working groups](http://smallcultfollowing.com/babysteps/blog/2019/02/22/rust-lang-team-working-groups/).
 * [This week in Rust and WebAssembly 11](https://rustwasm.github.io/2019/02/21/this-week-in-rust-and-wasm-011.html).
@@ -30,7 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [shellfn](https://crates.io/crates/shellfn), a proc macro to easily and safely use shell scripts in rust. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/490) for the suggestion!
+This week's crate is [shellfn](https://crates.io/crates/shellfn), a proc macro to easily and safely use shell scripts in Rust. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/490) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -43,7 +42,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [RustConf CFP is now open](https://cfp.rustconf.com/events/rustconf-2019).
+* [RustConf CfP is now open](https://cfp.rustconf.com/events/rustconf-2019).
 * [RustFest is searching for local teams to apply for the next events](https://blog.rustfest.eu/call-for-teams).
 * [Rust: Add LLVM atomic memcpy intrinsics, expose in core/std](https://github.com/rust-lang/rust/issues/58599).
 * [TiKV: support ALLOW_INVALID_DATES in coprocessor](https://github.com/tikv/tikv/issues/4100).
