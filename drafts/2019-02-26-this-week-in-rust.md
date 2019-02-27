@@ -16,6 +16,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Rust case study: Community makes Rust an easy choice for npm](https://www.rust-lang.org/static/pdfs/Rust-npm-Whitepaper.pdf).
+* [Combine results for improved Rust validation logic](https://www.joshmcguigan.com/blog/multi-try-improved-validation-logic-rust/).
+* [Rust now runs on the new Cortex-M33 based Nordic nRF9160 LTE SiP](https://twitter.com/42Technology/status/1099009843967471617).
+* [Scientific computing: a Rust adventure - part 0 - vectors](https://www.lpalmieri.com/posts/2019-02-23-scientific-computing-a-rust-adventure-part-0-vectors/).
+* [Changes in the core team](https://blog.rust-lang.org/2019/02/22/Core-team-changes.html).
+* [Rust lang team working groups](http://smallcultfollowing.com/babysteps/blog/2019/02/22/rust-lang-team-working-groups/).
+* [This week in Rust and WebAssembly 11](https://rustwasm.github.io/2019/02/21/this-week-in-rust-and-wasm-011.html).
+* [The embedded WG newsletter 15](https://rust-embedded.github.io/blog/newsletter-15/).
+
 # Crate of the Week
 
 This week's crate is [shellfn](https://crates.io/crates/shellfn), a proc macro to easily and safely use shell scripts in rust. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/490) for the suggestion!
@@ -31,11 +40,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [RustConf CFP is now open](https://cfp.rustconf.com/events/rustconf-2019).
 * [RustFest is searching for local teams to apply for the next events](https://blog.rustfest.eu/call-for-teams).
-* [The CLI-WG wants to help other CLI maintainers to write good first issues for contributions](https://github.com/rust-lang-nursery/cli-wg/issues/120).
-* [TiKV: support ALLOW_INVALID_DATES in coprocessor](https://github.com/tikv/tikv/issues/4100)
-* [TiKV: Use breakpad + symbolic to generate and interpret minidump-format core dumps](https://github.com/tikv/tikv/issues/4202)
-* [TiKV: Make git dependency revisions explicit in Cargo.toml](https://github.com/tikv/tikv/issues/4283)
+* [Rust: Add LLVM atomic memcpy intrinsics, expose in core/std](https://github.com/rust-lang/rust/issues/58599).
+* [TiKV: support ALLOW_INVALID_DATES in coprocessor](https://github.com/tikv/tikv/issues/4100).
+* [TiKV: Use breakpad + symbolic to generate and interpret minidump-format core dumps](https://github.com/tikv/tikv/issues/4202).
+* [TiKV: Make git dependency revisions explicit in Cargo.toml](https://github.com/tikv/tikv/issues/4283).
+* [LSD: Looking for maintainers](https://github.com/Peltoche/lsd/issues/131).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -78,7 +89,8 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2570: Linked list cursors](https://github.com/rust-lang/rfcs/pull/2570).
+* [RFC 2627: `#[link(kind="raw-dylib")]`](https://github.com/rust-lang/rfcs/pull/2627).
+* [RFC 2532: Associated type defaults](https://github.com/rust-lang/rfcs/pull/2532).
 
 ## Final Comment Period
 
@@ -88,7 +100,7 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs in the final comment period this week*
+*No RFCs are currently in final comment period.*
 
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
@@ -111,32 +123,27 @@ decision. Express your opinions now.
 
 ### Online
 
-* [Feb 27. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Mar  6. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Mar 11. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Mar 13. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+
+### Africa
+
+* [Mar  6. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/qbhxmqyzfbjb/).
 
 ### Asia Pacific
 
-* [Mar  6. Selangor, MY - Rust Malaysia Meetup Kuala Lumpur](https://www.facebook.com/events/1128655260646848/<).
+* [Mar  6. Selangor, MY - Rust Malaysia Meetup Kuala Lumpur](https://www.facebook.com/events/1128655260646848/).
 
 ### Europe
 
-* [Feb 26. Toulouse, FR - Rust Toulouse Meetup](https://www.meetup.com/fr-FR/Toulouse-Rust-Meetup/events/258761649/).
-* [Feb 27. MI, it, IT - Milano - Welcome Webasm](https://www.meetup.com/rust-language-milano/events/259067981).
 * [Feb 28. Copenhagen, DK - Copenhagen Rust Hack Night #0xC](https://cph.rs/).
 * [Feb 28. Torino, IT - Rust Turin Meetup](https://www.meetup.com/Mozilla-Torino/events/258586428).
-* [Mar  3. Санкт-Петербург, RU - St. Petersburg Rust Meetup](https://www.meetup.com/spbrust/events/whmxrqyzfbfb).
-* [Mar  6. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup).
+* [Mar  3. St. Petersburg, RU - St. Petersburg Rust Meetup](https://www.meetup.com/spbrust/events/whmxrqyzfbfb).
 * [Mar  6. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzfbjb/).
 * [Mar 14. Brno, CZ - Rust Brno Meetup at Masaryk University](https://rust-brno.github.io/)
 
 ### North America
 
-* [Feb 26. Irvine, US - Orange County Rust](https://www.meetup.com/oc-rust/events/258331354/).
-* [Feb 27. Ann Arbor, US - Ann Arbor Rust Meetup](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/cgsskqyzdbkc/).
-* [Feb 27. Ciudad de México, MX - Study group RustMX](https://www.meetup.com/Rust-MX/events/259194133/).
-* [Feb 27. Mesa, US - Phoenix Rust: Embedded Devices](https://www.meetup.com/Desert-Rustaceans/events/258596537).
 * [Mar  6. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyzfbjb/).
 * [Mar  6. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/events/cbcmbqyzfbjb/).
 * [Mar  6. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/hkllqqyzfbjb/).
@@ -151,12 +158,8 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Software Consultant at Knoldus, Noida, IN](https://www.knoldus.com/careers/rust-software-consultant.knol).
-* [Software Developer at Finhaven, Vancouver, CA](https://angel.co/finhaven/jobs/411238-software-developer).
-* [Software Engineer at Discord, San Francisco, US](https://discordapp.com/jobs/4200751002).
-* [Network Engineer at NearProtocol, San Francisco, US](https://nearprotocol.com/careers/?gh_jid=4205573002).
-* [Navitia Software Engineer at Kisio Digital, Paris, FR](https://www.welcometothejungle.co/companies/kisio-digital/jobs/rust-c-developpeur-h-f_paris).
-* [Rust web developer at Impero, Denmark/remote](https://impero.com/job/full-stack-web-developer-rust/).
+* [Software Engineer at TenX, Singapore](https://tenx.workable.com/jobs/689264).
+* [Software Engineer - Blockchain at TenX, Sydney, AU](https://tenx.workable.com/jobs/689268).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
