@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [HTML code coverage reports for Rust](https://blog.knoldus.com/bid-adieu-to-tarpaulin-html-reports-are-here-for-rust/).
+
 # Crate of the Week
 
 This week's crate is [shellfn](https://crates.io/crates/shellfn), a proc macro to easily and safely use shell scripts in rust. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/490) for the suggestion!
