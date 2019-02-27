@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Bid adieu to tarpaulin, HTML reports are here for RUST](https://blog.knoldus.com/bid-adieu-to-tarpaulin-html-reports-are-here-for-rust/)
+* [HTML code coverage reports for Rust](https://blog.knoldus.com/bid-adieu-to-tarpaulin-html-reports-are-here-for-rust/).
 
 # Crate of the Week
 
