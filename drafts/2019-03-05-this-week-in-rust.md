@@ -151,6 +151,7 @@ Email the [Rust Community Team][community] for access.
 
 * [Software Engineer at TenX, Singapore](https://tenx.workable.com/jobs/689264).
 * [Software Engineer - Blockchain at TenX, Sydney, AU](https://tenx.workable.com/jobs/689268).
+* [Rust Software Consultant at Knoldus, Noida, IN](https://www.knoldus.com/careers/rust-software-consultant.knol).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
