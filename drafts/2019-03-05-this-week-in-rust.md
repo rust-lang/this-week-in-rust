@@ -121,6 +121,10 @@ decision. Express your opinions now.
 
 * [Mar  6. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/qbhxmqyzfbjb/).
 
+### India
+
+* [Mar 15. Lifetime in Rust-Knoldus, Noida, IN meetup](https://www.meetup.com/Reactive-Application-Programmers-in-Delhi-NCR/events/259354521/)
+
 ### Asia Pacific
 
 * [Mar  6. Selangor, MY - Rust Malaysia Meetup Kuala Lumpur](https://www.facebook.com/events/1128655260646848/).
