@@ -38,6 +38,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [TiKV: Use breakpad + symbolic to generate and interpret minidump-format core dumps](https://github.com/tikv/tikv/issues/4202).
 * [TiKV: Make git dependency revisions explicit in Cargo.toml](https://github.com/tikv/tikv/issues/4283).
 * [LSD: Looking for maintainers](https://github.com/Peltoche/lsd/issues/131).
+* [LambdAle (FP conference): CfP is now open](https://www.papercall.io/lambdale-2019)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
