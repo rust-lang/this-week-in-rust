@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Safe Way to access private fields in rust](https://blog.knoldus.com/safe-way-to-access-private-fields-in-rust/)
 
 # Crate of the Week
 
