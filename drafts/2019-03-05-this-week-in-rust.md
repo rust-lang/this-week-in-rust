@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Frame Cease-less User-Interactive Concept in Rust Programming](https://blog.knoldus.com/frame-cease-less-user-interactive-concept-in-rust-programming/)
 
 # Crate of the Week
 
