@@ -34,10 +34,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [RustConf CfP is now open](https://cfp.rustconf.com/events/rustconf-2019).
 * [RustFest is searching for local teams to apply for the next events](https://blog.rustfest.eu/call-for-teams).
 * [Rust: Add LLVM atomic memcpy intrinsics, expose in core/std](https://github.com/rust-lang/rust/issues/58599).
-* [TiKV: support ALLOW_INVALID_DATES in coprocessor](https://github.com/tikv/tikv/issues/4100).
-* [TiKV: Use breakpad + symbolic to generate and interpret minidump-format core dumps](https://github.com/tikv/tikv/issues/4202).
-* [TiKV: Make git dependency revisions explicit in Cargo.toml](https://github.com/tikv/tikv/issues/4283).
 * [LSD: Looking for maintainers](https://github.com/Peltoche/lsd/issues/131).
+* [TiKV: Break up TiKV into multiple dependencies](https://github.com/tikv/tikv/issues/4165)
+* [TiKV: Build with dylibs instead of rlibs](https://github.com/tikv/tikv/issues/4151)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
