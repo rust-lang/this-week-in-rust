@@ -93,22 +93,15 @@ decision. Express your opinions now.
 
 *No RFCs are currently in final comment period.*
 
-
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Add FromStr impl for NonZero types](https://github.com/rust-lang/rust/pull/58717).
 * [disposition: merge] [Cosmetic changes to compiler comments and docs](https://github.com/rust-lang/rust/issues/58619).
-* [disposition: merge] [Relax Read bounds on a bunch of BufReader<R> methods](https://github.com/rust-lang/rust/pull/58423).
-* [disposition: merge] [Tracking issue for Option::xor](https://github.com/rust-lang/rust/issues/50512).
-* [disposition: merge] [Tracking issue for RFC 2043: Add `align_offset` intrinsic (formerly: and `[T]::align_to` function)](https://github.com/rust-lang/rust/issues/44488).
-* [disposition: merge] [Tracking issue for RefCell::{replace, swap}](https://github.com/rust-lang/rust/issues/43570).
-* [disposition: merge] [Tracking issue for Vec::remove_item](https://github.com/rust-lang/rust/issues/40062).
 
 ## New RFCs
 
-* [Add scoped threads to the standard library](https://github.com/rust-lang/rfcs/pull/2647).
-* [Add more examples for | patterns in let in RFC 2175](https://github.com/rust-lang/rfcs/pull/2646).
-* [Transparent Unions](https://github.com/rust-lang/rfcs/pull/2645).
-* [Simplify visibility grammar](https://github.com/rust-lang/rfcs/pull/2640).
+* [Initial pipeline rfc](https://github.com/rust-lang/rfcs/pull/2656).
+* [Add Destructuring assignment](https://github.com/rust-lang/rfcs/pull/2649).
 
 # Upcoming Events
 
