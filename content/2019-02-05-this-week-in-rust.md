@@ -140,7 +140,7 @@ decision. Express your opinions now.
 * [Feb 13. Ciudad de México, MX - Grupo de estudio RustMX - Sesión 1: Conceptos básicos](https://www.meetup.com/Rust-MX/events/258659340/).
 * [Feb 14. Columbus, US - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dbcfrpyzdbsb/).
 * [Feb 20. Chicago, US - Chicago Rust Meetup - Property-Based Testing in Rust](https://www.meetup.com/Chicago-Rust-Meetup/events/257469240/).
-* [Feb 20. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/hkllqqyzdbbc/).
+* [Feb 20. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/hkllqqyzdbbc/).
 * [Feb 20. Sacramento, US - Sacramento Rust Inaugural Meetup](https://www.meetup.com/Rust-Sacramento/events/258393260/).
 
 If you are running a Rust event please add it to the [calendar] to get
