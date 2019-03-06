@@ -15,7 +15,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+
+* 🎈🎉 [Announcing Rust 1.33.0](https://blog.rust-lang.org/2019/02/28/Rust-1.33.0.html). 🎉🎈
+* [Building fast interpreters in Rust](https://blog.cloudflare.com/building-fast-interpreters-in-rust/).
+* [Implications of rewriting a browser component in Rust](https://hacks.mozilla.org/2019/02/rewriting-a-browser-component-in-rust/).
+* [24 hours of game development in Rust](http://iolivia.me/posts/24-hours-of-rust-game-dev/).
+* [Proposal: New channels for Rust's standard library](https://stjepang.github.io/2019/03/02/new-channels.html).
+* [Async-await status report](http://smallcultfollowing.com/babysteps/blog/2019/03/01/async-await-status-report/).
+* [Up and Running with React + Rust + Wasm](https://prestonrichey.com/blog/react-rust-wasm/).
+* [Exposing FFI from the Rust library](https://svartalf.info/posts/2019-03-01-exposing-ffi-from-the-rust-library/).
 * [Compile time function evaluation using `const fn` in Rust](https://blog.knoldus.com/no-more-run-time-enjoy-compile-time-function-evaluation-using-const-fn-in-rust/).
+* [This week in Rust and WebAssembly 12](https://rustwasm.github.io/2019/02/28/this-week-in-rust-and-wasm-012.html).
 
 # Crate of the Week
 
@@ -32,13 +42,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [RustConf CfP is now open](https://cfp.rustconf.com/events/rustconf-2019).
-* [RustFest is searching for local teams to apply for the next events](https://blog.rustfest.eu/call-for-teams).
-* [Rust: Add LLVM atomic memcpy intrinsics, expose in core/std](https://github.com/rust-lang/rust/issues/58599).
-* [LSD: Looking for maintainers](https://github.com/Peltoche/lsd/issues/131).
-* [LambdAle (FP conference): CfP is now open](https://www.papercall.io/lambdale-2019)
-* [TiKV: Break up TiKV into multiple dependencies](https://github.com/tikv/tikv/issues/4165)
-* [TiKV: Build with dylibs instead of rlibs](https://github.com/tikv/tikv/issues/4151)
+* [LambdAle (FP conference): CfP is now open](https://www.papercall.io/lambdale-2019).
+* [TiKV: Break up TiKV into multiple dependencies](https://github.com/tikv/tikv/issues/4165).
+* [TiKV: Build with dylibs instead of rlibs](https://github.com/tikv/tikv/issues/4151).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -67,8 +73,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2627: `#[link(kind="raw-dylib")]`](https://github.com/rust-lang/rfcs/pull/2627).
-* [RFC 2532: Associated type defaults](https://github.com/rust-lang/rfcs/pull/2532).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -94,25 +99,16 @@ decision. Express your opinions now.
 
 ### Online
 
-* [Mar  6. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-* [Mar 11. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Mar 13. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Mar 20. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
-### India
-
-* [Mar 15. Lifetime in Rust-Knoldus, Noida, IN meetup](https://www.meetup.com/Reactive-Application-Programmers-in-Delhi-NCR/events/259354521/)
-
 ### Asia Pacific
 
-* [Mar  6. Selangor, MY - Rust Malaysia Meetup Kuala Lumpur](https://www.facebook.com/events/1128655260646848/).
-* [Mar  25. Auckland, NZ - Rust AKL Meetup](https://www.meetup.com/rust-akl/events/259480499/).
-
+* [Mar 15. Noida, IN - Lifetime in Rust-Knoldus](https://www.meetup.com/Reactive-Application-Programmers-in-Delhi-NCR/events/259354521/).
+* [Mar 25. Auckland, NZ - Rust AKL Meetup](https://www.meetup.com/rust-akl/events/259480499/).
 
 ### Europe
 
-* [Mar  6. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup).
-* [Mar  6. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzfbjb/).
 * [Mar 11. Stockholm, SE - Rust Meetup Stockholm First one for 2019](https://www.meetup.com/ruststhlm/events/259387426/).
 * [Mar 14. Brno, CZ - Rust Brno Meetup at Masaryk University](https://rust-brno.github.io/)
 * [Mar 14. Göteborg, SE - Rust Gothenburg](https://www.meetup.com/rustgbg/events/259386306/).
@@ -122,16 +118,12 @@ decision. Express your opinions now.
 
 ### North America
 
-* [Mar  6. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyzfbjb/).
-* [Mar  6. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/events/cbcmbqyzfbjb/).
-* [Mar  6. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/hkllqqyzfbjb/).
-* [Mar  9. 200 University Ave W, Waterloo, CN - Workshop: Introduction to Game Development in Rust!](https://www.meetup.com/Rust-KW/events/259335419/).
+* [Mar  9. 200 University Ave W, Waterloo, CN - Workshop: Introduction to Game Development in Rust](https://www.meetup.com/Rust-KW/events/259335419/).
 * [Mar 11. Seattle, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/nzfspqyzfbpb/).
 * [Mar 13. Ciudad de México, MX - Study group RustMX](https://www.meetup.com/Rust-MX/events/259473143/).
 * [Mar 14. Columbus, US - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dbcfrpyzfbsb/).
 * [Mar 14. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/258703993/).
-* [Mar 14. San Diego, US - San Diego Rust](http://meetu.ps/c/2vF0G/4DXV4/a).
-* [Mar 20. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/).
+* [Mar 20. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/gqbksqyzfbbc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -142,8 +134,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Software Engineer at TenX, Singapore](https://tenx.workable.com/jobs/689264).
-* [Software Engineer - Blockchain at TenX, Sydney, AU](https://tenx.workable.com/jobs/689268).
+* [Tech Ambassador at Parity, Berlin, DE](https://www.parity.io/jobs/#berlin-tech-ambassador).
 * [Rust Software Consultant at Knoldus, Noida, IN](https://www.knoldus.com/careers/rust-software-consultant.knol).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
