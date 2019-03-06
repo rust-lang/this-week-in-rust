@@ -43,6 +43,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [LambdAle (FP conference): CfP is now open](https://www.papercall.io/lambdale-2019).
+* [Rust: Erroneous compilation failure with associated constant](https://github.com/rust-lang/rust/issues/54822).
 * [TiKV: Break up TiKV into multiple dependencies](https://github.com/tikv/tikv/issues/4165).
 * [TiKV: Build with dylibs instead of rlibs](https://github.com/tikv/tikv/issues/4151).
 
@@ -136,6 +137,7 @@ Email the [Rust Community Team][community] for access.
 
 * [Tech Ambassador at Parity, Berlin, DE](https://www.parity.io/jobs/#berlin-tech-ambassador).
 * [Rust Software Consultant at Knoldus, Noida, IN](https://www.knoldus.com/careers/rust-software-consultant.knol).
+* [Summer Internship at Brave Software, San Francisco, US](https://www.reddit.com/r/rust/comments/av50om/rustrelated_summer_internship_at_brave_software/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
