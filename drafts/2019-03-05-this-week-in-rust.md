@@ -93,33 +93,24 @@ decision. Express your opinions now.
 
 *No RFCs are currently in final comment period.*
 
-
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Add FromStr impl for NonZero types](https://github.com/rust-lang/rust/pull/58717).
 * [disposition: merge] [Cosmetic changes to compiler comments and docs](https://github.com/rust-lang/rust/issues/58619).
-* [disposition: merge] [Relax Read bounds on a bunch of BufReader<R> methods](https://github.com/rust-lang/rust/pull/58423).
-* [disposition: merge] [Tracking issue for Option::xor](https://github.com/rust-lang/rust/issues/50512).
-* [disposition: merge] [Tracking issue for RFC 2043: Add `align_offset` intrinsic (formerly: and `[T]::align_to` function)](https://github.com/rust-lang/rust/issues/44488).
-* [disposition: merge] [Tracking issue for RefCell::{replace, swap}](https://github.com/rust-lang/rust/issues/43570).
-* [disposition: merge] [Tracking issue for Vec::remove_item](https://github.com/rust-lang/rust/issues/40062).
 
 ## New RFCs
 
-* [Add scoped threads to the standard library](https://github.com/rust-lang/rfcs/pull/2647).
-* [Add more examples for | patterns in let in RFC 2175](https://github.com/rust-lang/rfcs/pull/2646).
-* [Transparent Unions](https://github.com/rust-lang/rfcs/pull/2645).
-* [Simplify visibility grammar](https://github.com/rust-lang/rfcs/pull/2640).
+* [Initial pipeline rfc](https://github.com/rust-lang/rfcs/pull/2656).
+* [Add Destructuring assignment](https://github.com/rust-lang/rfcs/pull/2649).
 
 # Upcoming Events
 
 ### Online
 
 * [Mar  6. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+* [Mar 11. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Mar 13. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-
-### Africa
-
-* [Mar  6. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/qbhxmqyzfbjb/).
+* [Mar 20. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
 ### Asia Pacific
 
@@ -127,18 +118,27 @@ decision. Express your opinions now.
 
 ### Europe
 
-* [Feb 28. Copenhagen, DK - Copenhagen Rust Hack Night #0xC](https://cph.rs/).
-* [Feb 28. Torino, IT - Rust Turin Meetup](https://www.meetup.com/Mozilla-Torino/events/258586428).
-* [Mar  3. St. Petersburg, RU - St. Petersburg Rust Meetup](https://www.meetup.com/spbrust/events/whmxrqyzfbfb).
+* [Mar  6. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup).
 * [Mar  6. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzfbjb/).
+* [Mar 11. Stockholm, SE - Rust Meetup Stockholm First one for 2019](https://www.meetup.com/ruststhlm/events/259387426/).
 * [Mar 14. Brno, CZ - Rust Brno Meetup at Masaryk University](https://rust-brno.github.io/)
+* [Mar 14. Göteborg, SE - Rust Gothenburg](https://www.meetup.com/rustgbg/events/259386306/).
+* [Mar 19. Nijmegen, NL - Rust Nijmegen: Rust for the (Inter)Net - API's, HTTP/3 and Tide](https://www.meetup.com/Rust-Nijmegen/events/258758167).
+* [Mar 19. Paris, FR - Paris - Rust Paris](http://www.meetup.com/Rust-Paris).
+* [Mar 20. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/find/events/?allMeetups=false&keywords=Rust+Hack+and+Learn+OpenTechSchool&radius=25&userFreeform=Berlin%2C+Germany&mcName=Berlin%2C+DE&eventFilter=all).
 
 ### North America
 
 * [Mar  6. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyzfbjb/).
 * [Mar  6. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/events/cbcmbqyzfbjb/).
 * [Mar  6. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/hkllqqyzfbjb/).
+* [Mar  9. 200 University Ave W, Waterloo, CN - Workshop: Introduction to Game Development in Rust!](https://www.meetup.com/Rust-KW/events/259335419/).
 * [Mar 11. Seattle, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/nzfspqyzfbpb/).
+* [Mar 13. Ciudad de México, MX - Study group RustMX](https://www.meetup.com/Rust-MX/events/259473143/).
+* [Mar 14. Columbus, US - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dbcfrpyzfbsb/).
+* [Mar 14. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/258703993/).
+* [Mar 14. San Diego, US - San Diego Rust](http://meetu.ps/c/2vF0G/4DXV4/a).
+* [Mar 20. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
