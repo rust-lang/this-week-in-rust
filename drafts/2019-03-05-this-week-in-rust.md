@@ -98,6 +98,10 @@ decision. Express your opinions now.
 * [Mar 13. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Mar 20. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
+### India
+
+* [Mar 15. Lifetime in Rust-Knoldus, Noida, IN meetup](https://www.meetup.com/Reactive-Application-Programmers-in-Delhi-NCR/events/259354521/)
+
 ### Asia Pacific
 
 * [Mar  6. Selangor, MY - Rust Malaysia Meetup Kuala Lumpur](https://www.facebook.com/events/1128655260646848/).
@@ -139,6 +143,7 @@ Email the [Rust Community Team][community] for access.
 
 * [Software Engineer at TenX, Singapore](https://tenx.workable.com/jobs/689264).
 * [Software Engineer - Blockchain at TenX, Sydney, AU](https://tenx.workable.com/jobs/689268).
+* [Rust Software Consultant at Knoldus, Noida, IN](https://www.knoldus.com/careers/rust-software-consultant.knol).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
