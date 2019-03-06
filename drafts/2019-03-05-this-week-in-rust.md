@@ -35,6 +35,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [RustFest is searching for local teams to apply for the next events](https://blog.rustfest.eu/call-for-teams).
 * [Rust: Add LLVM atomic memcpy intrinsics, expose in core/std](https://github.com/rust-lang/rust/issues/58599).
 * [LSD: Looking for maintainers](https://github.com/Peltoche/lsd/issues/131).
+* [LambdAle (FP conference): CfP is now open](https://www.papercall.io/lambdale-2019)
 * [TiKV: Break up TiKV into multiple dependencies](https://github.com/tikv/tikv/issues/4165)
 * [TiKV: Build with dylibs instead of rlibs](https://github.com/tikv/tikv/issues/4151)
 
