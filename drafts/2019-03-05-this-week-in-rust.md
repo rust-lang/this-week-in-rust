@@ -115,6 +115,8 @@ decision. Express your opinions now.
 ### Asia Pacific
 
 * [Mar  6. Selangor, MY - Rust Malaysia Meetup Kuala Lumpur](https://www.facebook.com/events/1128655260646848/).
+* [Mar  25. Auckland, NZ - Rust AKL Meetup](https://www.meetup.com/rust-akl/events/259480499/).
+
 
 ### Europe
 
