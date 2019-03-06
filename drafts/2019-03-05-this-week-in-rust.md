@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Compile time function evaluation using `const fn` in Rust](https://blog.knoldus.com/no-more-run-time-enjoy-compile-time-function-evaluation-using-const-fn-in-rust/).
 
 # Crate of the Week
 
