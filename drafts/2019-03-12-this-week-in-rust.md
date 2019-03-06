@@ -152,7 +152,7 @@ And again, we have two quotes for the week:
 
 > > What is the ! type?
 >
-> The never type 15 for computations that don’t resolve to a value. It’s named after its stabilization date.
+> The never type for computations that don’t resolve to a value. It’s named after its stabilization date.
 
 – /u/LousyBeggar [on reddit](https://www.reddit.com/r/rust/comments/avbkts/this_week_in_rust_275/ehe50oj/)
 
