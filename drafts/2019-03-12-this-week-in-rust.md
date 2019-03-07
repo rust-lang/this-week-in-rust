@@ -95,6 +95,7 @@ decision. Express your opinions now.
 ### Asia Pacific
 
 * [Mar 15. Noida, IN - Lifetime in Rust-Knoldus](https://www.meetup.com/Reactive-Application-Programmers-in-Delhi-NCR/events/259354521/).
+* [Mar 20. Tokyo, JP - Rust Game-bot Challenge](https://connpass.com/event/122171/).
 * [Mar 25. Auckland, NZ - Rust AKL Meetup](https://www.meetup.com/rust-akl/events/259480499/).
 
 ### Europe
