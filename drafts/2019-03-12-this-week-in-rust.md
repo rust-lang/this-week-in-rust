@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Don’t Worry… I hugged it first – Loggers In Rust](https://blog.knoldus.com/dont-worry-i-hugged-it-first-loggers-in-rust/)
 
 # Crate of the Week
 
