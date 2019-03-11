@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+[Combinators- A functional approach of error handling in ‘Rust](https://blog.knoldus.com/combinators-a-functional-approach-of-error-handling-in-rust/)
 
 # Crate of the Week
 
