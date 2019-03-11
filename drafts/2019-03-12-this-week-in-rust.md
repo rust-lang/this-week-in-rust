@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Embody System Commands in Rust Programming](https://blog.knoldus.com/embody-system-commands-in-rust-programming/)
 
 # Crate of the Week
 
