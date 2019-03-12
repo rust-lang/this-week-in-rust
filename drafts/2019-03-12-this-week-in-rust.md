@@ -73,17 +73,17 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Stabilize the alloc crate](https://github.com/rust-lang/rfcs/pull/2480).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Add FromStr impl for NonZero types](https://github.com/rust-lang/rust/pull/58717).
-* [disposition: merge] [Cosmetic changes to compiler comments and docs](https://github.com/rust-lang/rust/issues/58619).
+* [disposition: merge] [Add provided methods `Seek::{stream_len, stream_position}`](https://github.com/rust-lang/rust/pull/58422).
+* [disposition: merge] [Tracking issue for Ref/RefMut::map_split](https://github.com/rust-lang/rust/issues/51476).
 
 ## New RFCs
 
-* [Initial pipeline rfc](https://github.com/rust-lang/rfcs/pull/2656).
-* [Add Destructuring assignment](https://github.com/rust-lang/rfcs/pull/2649).
+* [Amend the template from RFC 1589](https://github.com/rust-lang/rfcs/pull/2658).
+* [Roadmap for 2019](https://github.com/rust-lang/rfcs/pull/2657).
 
 # Upcoming Events
 
