@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Welcoming RUST to the world of IoT](https://blog.knoldus.com/welcoming-rust-to-the-world-of-iot/)
+
 # Crate of the Week
 
 This week's crate is [multi_try](https://github.com/JoshMcguigan/multi_try), a crate to simplify working with multiple results. Thanks to [Azriel Hoh](https://users.rust-lang.org/t/crate-of-the-week/2704/495) for the suggestion!
