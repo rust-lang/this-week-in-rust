@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Remote Development and Debugging of Rust with CLion](https://medium.com/@zaver.max/remote-development-and-debugging-of-rust-with-clion-39c38ced7cc1).
+
 # Crate of the Week
 
 This week's crate is [validator](https://github.com/Keats/validator), a crate offering simple validation for Rust structs. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/500) for the suggestion!
