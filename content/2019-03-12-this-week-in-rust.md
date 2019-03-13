@@ -162,7 +162,7 @@ Email the [Rust Community Team][community] for access.
 
 – @Cryolite [on twitter](https://twitter.com/Cryolite/status/1104325100881375232) (translated from Japanese)
 
-Thanks to [Xidorn Quan](https://users.rust-lang.org/t/twir-quote-of-the-week/328/629) for the suggestion!
+Thanks to [Xidorn Quan](https://users.rust-lang.org/t/twir-quote-of-the-week/328/629) and [GolDDranks](https://www.reddit.com/r/rust/comments/b0m6vv/this_week_in_rust_277/eifwdno/) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
