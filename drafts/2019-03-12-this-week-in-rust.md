@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Intro to web programming in Rust for NodeJS developers](https://medium.com/@gruberbastian/intro-to-web-programming-in-rust-for-nodejs-developers-1a9c048c4de1)
 
 * [Remote Development and Debugging of Rust with CLion](https://medium.com/@zaver.max/remote-development-and-debugging-of-rust-with-clion-39c38ced7cc1).
 
