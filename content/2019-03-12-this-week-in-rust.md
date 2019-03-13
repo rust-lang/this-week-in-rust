@@ -17,11 +17,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Tools team changes](https://internals.rust-lang.org/t/tools-team-changes/9569).
-* [Raspberry Pi 3: Hardware Debugging using JTAG](https://github.com/rust-embedded/rust-raspi3-OS-tutorials/tree/master/0B_hw_debug_JTAG).
+* [Raspberry Pi 3: Hardware debugging using JTAG](https://github.com/rust-embedded/rust-raspi3-OS-tutorials/tree/master/0B_hw_debug_JTAG).
 * [From 46s to 5s - Optimizing a 350 line raytracer in Rust](https://blog.usejournal.com/from-48s-to-5s-optimizing-a-350-line-pathtracer-in-rust-191ab4a1a412).
-* [The rise of wgpu](https://gfx-rs.github.io/2019/03/06/wgpu.html).
 * [Should Rust channels panic on send if nobody's listening](http://www.randomhacks.net/2019/03/08/should-rust-channels-panic-on-send/)?
 * [In nightly Rust, 'await!' may never return (dropping futures)](http://www.randomhacks.net/2019/03/09/in-nightly-rust-await-may-never-return/).
+* [The rise of wgpu](https://gfx-rs.github.io/2019/03/06/wgpu.html).
 * [Making a case: Rust for Python developers](https://medium.com/@rajasekar3eg/making-a-case-rust-for-python-developers-1a114e2d89f4).
 * [Intro to web programming in Rust for NodeJS developers](https://medium.com/@gruberbastian/intro-to-web-programming-in-rust-for-nodejs-developers-1a9c048c4de1).
 * [Remote development and debugging of Rust with CLion](https://medium.com/nearprotocol/remote-development-and-debugging-of-rust-with-clion-39c38ced7cc1).
@@ -115,6 +115,7 @@ decision. Express your opinions now.
 ### Asia Pacific
 
 * [Mar 16. Chennai, IN - Rust Chennai monthly meetup](https://www.meetup.com/mad-rs/events/259616775).
+* [Mar 20. Tokyo, JP - Tokyo Rust Game Hack](https://connpass.com/event/122171/).
 * [Mar 25. Melbourne, AU - Rust Melbourne Meetup](https://www.meetup.com/Rust-Melbourne/events/259230502/).
 
 ### Europe
@@ -133,6 +134,7 @@ decision. Express your opinions now.
 * [Mar 14. Columbus, US - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dbcfrpyzfbsb/).
 * [Mar 14. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/258703993/).
 * [Mar 14. San Diego, US - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/259691778/).
+* [Mar 19. Austin, US - March Meetup](https://www.meetup.com/rust-atx/events/259273075/).
 * [Mar 20. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/gqbksqyzfbbc/).
 * [Mar 20. Ciudad de México, MX - Study group RustMX](https://www.meetup.com/Rust-MX/events/259473311/).
 * [Mar 25. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzfbhc/).
@@ -159,7 +161,7 @@ Email the [Rust Community Team][community] for access.
 
 – @Cryolite [on twitter](https://twitter.com/Cryolite/status/1104325100881375232) (translated from Japanese)
 
-Thanks to [Xidorn Quan](https://users.rust-lang.org/t/twir-quote-of-the-week/328/629) for the suggestions!
+Thanks to [Xidorn Quan](https://users.rust-lang.org/t/twir-quote-of-the-week/328/629) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
