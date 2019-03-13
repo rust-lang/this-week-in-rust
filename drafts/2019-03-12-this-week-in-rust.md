@@ -15,9 +15,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-* [Intro to web programming in Rust for NodeJS developers](https://medium.com/@gruberbastian/intro-to-web-programming-in-rust-for-nodejs-developers-1a9c048c4de1)
 
-* [Remote Development and Debugging of Rust with CLion](https://medium.com/@zaver.max/remote-development-and-debugging-of-rust-with-clion-39c38ced7cc1).
+* [Tools team changes](https://internals.rust-lang.org/t/tools-team-changes/9569).
+* [Raspberry Pi 3: Hardware Debugging using JTAG](https://github.com/rust-embedded/rust-raspi3-OS-tutorials/tree/master/0B_hw_debug_JTAG).
+* [From 46s to 5s - Optimizing a 350 line raytracer in Rust](https://blog.usejournal.com/from-48s-to-5s-optimizing-a-350-line-pathtracer-in-rust-191ab4a1a412).
+* [The rise of wgpu](https://gfx-rs.github.io/2019/03/06/wgpu.html).
+* [Should Rust channels panic on send if nobody's listening](http://www.randomhacks.net/2019/03/08/should-rust-channels-panic-on-send/)?
+* [In nightly Rust, 'await!' may never return (dropping futures)](http://www.randomhacks.net/2019/03/09/in-nightly-rust-await-may-never-return/).
+* [Making a case: Rust for Python developers](https://medium.com/@rajasekar3eg/making-a-case-rust-for-python-developers-1a114e2d89f4).
+* [Intro to web programming in Rust for NodeJS developers](https://medium.com/@gruberbastian/intro-to-web-programming-in-rust-for-nodejs-developers-1a9c048c4de1).
+* [Remote development and debugging of Rust with CLion](https://medium.com/nearprotocol/remote-development-and-debugging-of-rust-with-clion-39c38ced7cc1).
+* [This week in Rust and WebAssembly 13](https://rustwasm.github.io/2019/03/07/this-week-in-rust-and-wasm-013.html).
+* [The Embedded WG newsletter 16](https://rust-embedded.github.io/blog/newsletter-16/).
 
 # Crate of the Week
 
@@ -34,8 +43,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [LambdAle (FP conference): CfP is now open](https://www.papercall.io/lambdale-2019).
-* [Rust: Erroneous compilation failure with associated constant](https://github.com/rust-lang/rust/issues/54822).
+* [Classic Unix utilities make great beginner projects](https://www.reddit.com/r/rust/comments/b0i625/classic_unix_utilities_make_great_beginner/).
 * [TiKV: Set compile-time env vars in build script instead of Makefile](https://github.com/tikv/tikv/issues/4051)
 * [TiKV: Use breakpad + symbolic to generate and interpret minidump-format core dumps](https://github.com/tikv/tikv/issues/4202)
 
@@ -73,7 +81,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2592: stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592).
 
 ## Final Comment Period
 
@@ -84,6 +92,8 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [disposition: merge] [Stabilize the alloc crate](https://github.com/rust-lang/rfcs/pull/2480).
+* [disposition: merge] [Transparent Unions and Enums](https://github.com/rust-lang/rfcs/pull/2645).
+* [disposition: postpone] [Initial pipeline](https://github.com/rust-lang/rfcs/pull/2656).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
@@ -92,15 +102,13 @@ decision. Express your opinions now.
 
 ## New RFCs
 
-* [Amend the template from RFC 1589](https://github.com/rust-lang/rfcs/pull/2658).
 * [Roadmap for 2019](https://github.com/rust-lang/rfcs/pull/2657).
+* [Amend the template from RFC 1589](https://github.com/rust-lang/rfcs/pull/2658).
 
 # Upcoming Events
 
 ### Online
 
-* [Mar 13. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
-* [Mar 25. Rust Community Content Subteam Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 * [Mar 27. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
 * [Mar 27. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
 
@@ -113,9 +121,8 @@ decision. Express your opinions now.
 
 * [Mar 14. Brno, CZ - Rust Brno Meetup at Masaryk University](https://rust-brno.github.io/).
 * [Mar 14. Göteborg, SE - Rust Gothenburg](https://www.meetup.com/rustgbg/events/259386306/).
-* [Mar 17. Санкт-Петербург, RU - St. Petersburg Rust Meetup](https://www.meetup.com/spbrust/events/whmxrqyzfbwb/).
+* [Mar 17. St. Petersburg, RU - St. Petersburg Rust Meetup](https://www.meetup.com/spbrust/events/whmxrqyzfbwb/).
 * [Mar 19. Nijmegen, NL - Rust Nijmegen: Rust for the (Inter)Net - API's, HTTP/3 and Tide](https://www.meetup.com/Rust-Nijmegen/events/258758167).
-* [Mar 19. Paris, FR - Paris - Rust Paris](http://www.meetup.com/Rust-Paris).
 * [Mar 20. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzfbbc/).
 * [Mar 21. Torino, IT - Turin Rust Meetup](https://www.meetup.com/Mozilla-Torino/events/ktqcpqyzfblc/).
 * [Mar 26. Berlin, DE - Rust and Tell Berlin](https://www.meetup.com/Rust-Berlin/events/szgnqqyzfbjc/).
@@ -123,17 +130,14 @@ decision. Express your opinions now.
 
 ### North America
 
-* [Mar 12. Los Angeles, US - Los Angeles Rust Meetup](https://www.meetup.com/Rust-Los-Angeles/events/259501387/).
-* [Mar 13. Ciudad de México, MX - Study group RustMX](https://www.meetup.com/Rust-MX/events/259473143/).
-* [Mar 13. San Francisco, US - Bay Area Rust: tokio-trace](https://www.meetup.com/Rust-Bay-Area/events/259482992/).
 * [Mar 14. Columbus, US - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dbcfrpyzfbsb/).
 * [Mar 14. Utah, US - Utah Rust monthly meetup](https://www.meetup.com/utahrust/events/258703993/).
-* [Mar 14. San Diego, US - San Diego Rust](http://meetu.ps/c/2vF0G/4DXV4/a).
-* [Mar 20. Vancouver, CN - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/gqbksqyzfbbc/).
+* [Mar 14. San Diego, US - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/259691778/).
+* [Mar 20. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/gqbksqyzfbbc/).
 * [Mar 20. Ciudad de México, MX - Study group RustMX](https://www.meetup.com/Rust-MX/events/259473311/).
 * [Mar 25. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzfbhc/).
 * [Mar 27. Ann Arbor, US - Ann Arbor Rust Meetup](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/cgsskqyzfbkc/).
-* [Mar 27. Mesa, US - Phoenix Rust: Scientific Computing](https://www.meetup.com/Desert-Rustaceans/events/259615926/?isFirstPublish=true).
+* [Mar 27. Mesa, US - Phoenix Rust: Scientific Computing](https://www.meetup.com/Desert-Rustaceans/events/259615926/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -144,9 +148,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Tech Ambassador at Parity, Berlin, DE](https://www.parity.io/jobs/#berlin-tech-ambassador).
-* [Rust Software Consultant at Knoldus, Noida, IN](https://www.knoldus.com/careers/rust-software-consultant.knol).
-* [Summer Internship at Brave Software, San Francisco, US](https://www.reddit.com/r/rust/comments/av50om/rustrelated_summer_internship_at_brave_software/).
+* [Rust Developer at ANIXE, Wrocław, PL](https://anixe.bamboohr.co.uk/jobs/view.php?id=72).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
