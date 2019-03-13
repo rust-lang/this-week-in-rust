@@ -15,7 +15,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-* [Moving from NodeJS to Rust in 2019](https://medium.com/@gruberbastian/moving-from-nodejs-to-rust-in-2019-62c0b85d2fa7)
 * [Intro to web programming in Rust for NodeJS developers](https://medium.com/@gruberbastian/intro-to-web-programming-in-rust-for-nodejs-developers-1a9c048c4de1)
 
 # Crate of the Week
