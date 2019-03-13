@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [multi_try](https://github.com/JoshMcguigan/multi_try), a crate to simplify working with multiple results. Thanks to [Azriel Hoh](https://users.rust-lang.org/t/crate-of-the-week/2704/495) for the suggestion!
+This week's crate is [validator](https://github.com/Keats/validator), a crate offering simple validation for Rust structs. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/500) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -42,20 +42,27 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-195 pull requests were [merged in the last week][merged]
+173 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-02-25..2019-03-04
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-03-04..2019-03-11
 
-* [Support defining C compatible variadic functions](https://github.com/rust-lang/rust/pull/57760)
-* [Fix C-variadic function printing](https://github.com/rust-lang/rust/pull/58865)
-* [Add support for using a jobserver with Rayon](https://github.com/rust-lang/rust/pull/56946)
-* [Stabilize `unrestricted_attribute_tokens`](https://github.com/rust-lang/rust/pull/57367)
-* [Include bounds from promoted constants in NLL](https://github.com/rust-lang/rust/pull/57202)
-* [NLL: Type check operations with pointer types](https://github.com/rust-lang/rust/pull/58673)
-* [NLL: Remove `LiveVar`](https://github.com/rust-lang/rust/pull/58505)
-* [Self-Profiler: Make the profiler faster/more efficient](https://github.com/rust-lang/rust/pull/58425)
-* [Normalize the type `Self` resolves to in an impl](https://github.com/rust-lang/rust/pull/58757)
-* [Use internal iteration in all methods of `Filter` and `FilterMap`](https://github.com/rust-lang/rust/pull/58730)
+* [Make the rustc driver and interface demand driven](https://github.com/rust-lang/rust/pull/56732)
+* [Make the lifetime parameters of tcx consistent](https://github.com/rust-lang/rust/pull/58926)
+* [Don't promote function calls to nonpromotable things](https://github.com/rust-lang/rust/pull/58784)
+* [HirIdification: almost there](https://github.com/rust-lang/rust/pull/58915)
+* [Monomorphize generator field types for debuginfo](https://github.com/rust-lang/rust/pull/58906)
+* [Always emit unclosed delimiter diagnostics](https://github.com/rust-lang/rust/pull/58903)
+* [Mention `unwind(aborts)` in diagnostics for `#[unwind]`](https://github.com/rust-lang/rust/pull/58762)
+* [Add const generics to ty (and transitive dependencies)](https://github.com/rust-lang/rust/pull/58583)
+* [Make the Entry API of HashMap<K, V> Sync and Send](https://github.com/rust-lang/rust/pull/58369)
+* [On return type `impl Trait` for block with no expr point at last semi](https://github.com/rust-lang/rust/pull/58204)
+* [Create a derive macro for HashStable and allow proc macros in rustc](https://github.com/rust-lang/rust/pull/58013)
+* [Move index updates off the web server](https://github.com/rust-lang/crates.io/pull/1588)
+* [Make `Unique::as_ptr`, `NonNull::dangling` and `NonNull::cast` const](https://github.com/rust-lang/rust/pull/58750)
+* [MaybeUninit: add read_initialized, add examples](https://github.com/rust-lang/rust/pull/58660)
+* [Add `as_slice()` to `slice::IterMut` and `vec::Drain`](https://github.com/rust-lang/rust/pull/58924)
+* [cargo: Emit warning on misspelled environment variables](https://github.com/rust-lang/cargo/pull/6694)
+* [rustdoc: add option to calculate "documentation coverage"](https://github.com/rust-lang/rust/pull/58626)
 
 ## Approved RFCs
 
@@ -133,31 +140,12 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-And again, we have two quotes for the week:
+> – Rust’s ownership is difficult.
+> – Yes, ownership is difficult. For such a difficult thing, you (are going to) ever check by hand rather than having machine do it for you.
 
-> > Can you eli5 why TryFrom and TryInto matters, and why it’s been stuck for so long ? (the RFC seems to be 3 years old)
->
-> If you stabilise Try{From,Into}, you also want implementations of the types in std. So you want things like impl TryFrom<u8> for u16. But that requires an error type, and that was (I believe) the problem.
->
-> u8 to u16 cannot fail, so you want the error type to be !. Except using ! as a type isn’t stable yet. So use a placeholder enum! But that means that once ! is stabilised, we’ve got this Infallible type kicking around that is redundant. So change it? But that would be breaking. So make the two isomorphic? Woah, woah, hold on there, this is starting to get crazy…
->
-> *new person bursts into the room* “Hey, should ! automatically implement all traits, or not?”
->
-> “Yes!” “No!” “Yes, and so should all variant-less enums!”
->
-> Everyone in the room is shouting, and the curtains spontaneously catching fire. In the corner, the person who proposed Try{From,Into} sits, sobbing. It was supposed to all be so simple… but this damn ! thing is just ruining everything.
->
-> … That’s not what happened, but it’s more entertaining than just saying “many people were unsure exactly what to do about the ! situation, which turned out to be more complicated than expected”.
+– @Cryolite [on twitter](https://twitter.com/Cryolite/status/1104325100881375232) (translated from Japanese)
 
-– /u/Quxxy [on reddit](https://www.reddit.com/r/rust/comments/avbkts/this_week_in_rust_275/ehe2kre/?context=1)
-
-> > What is the ! type?
->
-> The never type for computations that don’t resolve to a value. It’s named after its stabilization date.
-
-– /u/LousyBeggar [on reddit](https://www.reddit.com/r/rust/comments/avbkts/this_week_in_rust_275/ehe50oj/)
-
-Thanks to [runiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/625) and [StyMaar](https://users.rust-lang.org/t/twir-quote-of-the-week/328/626) for the suggestions!
+Thanks to [Xidorn Quan](https://users.rust-lang.org/t/twir-quote-of-the-week/328/629) for the suggestions!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
