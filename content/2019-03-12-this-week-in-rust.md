@@ -167,4 +167,4 @@ Thanks to [Xidorn Quan](https://users.rust-lang.org/t/twir-quote-of-the-week/328
 
 *This Week in Rust is edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [Flavsditz](https://github.com/Flavsditz).*
 
-<small>[Discuss on r/rust]().</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/b0m6vv/this_week_in_rust_277/).</small>
