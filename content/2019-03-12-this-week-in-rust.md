@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [New members for the Rust core team](https://internals.rust-lang.org/t/new-members-for-the-rust-core-team/9575).
 * [Tools team changes](https://internals.rust-lang.org/t/tools-team-changes/9569).
 * [Raspberry Pi 3: Hardware debugging using JTAG](https://github.com/rust-embedded/rust-raspi3-OS-tutorials/tree/master/0B_hw_debug_JTAG).
 * [From 46s to 5s - Optimizing a 350 line raytracer in Rust](https://blog.usejournal.com/from-48s-to-5s-optimizing-a-350-line-pathtracer-in-rust-191ab4a1a412).
