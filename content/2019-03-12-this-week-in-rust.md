@@ -157,8 +157,8 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> – Rust’s ownership is difficult.
-> – Yes, ownership is difficult. For such a difficult thing, you (are going to) ever check by hand rather than having machine do it for you.
+> Ownership is hard.
+> It indeed is. And you managed to do that exact hard thing by hand, without any mechanical checks. (Or so you think.)
 
 – @Cryolite [on twitter](https://twitter.com/Cryolite/status/1104325100881375232) (translated from Japanese)
 
