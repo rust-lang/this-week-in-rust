@@ -33,8 +33,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [LambdAle (FP conference): CfP is now open](https://www.papercall.io/lambdale-2019).
 * [Rust: Erroneous compilation failure with associated constant](https://github.com/rust-lang/rust/issues/54822).
-* [TiKV: Break up TiKV into multiple dependencies](https://github.com/tikv/tikv/issues/4165).
-* [TiKV: Build with dylibs instead of rlibs](https://github.com/tikv/tikv/issues/4151).
+* [TiKV: Set compile-time env vars in build script instead of Makefile](https://github.com/tikv/tikv/issues/4051)
+* [TiKV: Use breakpad + symbolic to generate and interpret minidump-format core dumps](https://github.com/tikv/tikv/issues/4202)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
