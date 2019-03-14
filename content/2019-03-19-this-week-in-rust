@@ -1,0 +1,102 @@
+Title: This Week in Rust 278
+Number: 278
+Date: 2019-03-19
+Category: This Week in Rust
+
+Hello and welcome to another issue of *This Week in Rust*!
+[Rust](http://rust-lang.org) is a systems language pursuing the trifecta: safety, concurrency, and speed.
+This is a weekly summary of its progress and community.
+Want something mentioned? Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) or [send us a pull request](https://github.com/cmr/this-week-in-rust).
+Want to get involved? [We love contributions](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md).
+
+*This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
+If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
+
+# Updates from Rust Community
+
+## News & Blog Posts
+
+* [New members for the Rust core team](https://internals.rust-lang.org/t/new-members-for-the-rust-core-team/9575).
+
+# Crate of the Week
+
+
+[Submit your suggestions and votes for next week][submit_crate]!
+
+[submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
+
+# Call for Participation
+
+Always wanted to contribute to open-source projects but didn't know where to start?
+Every week we highlight some tasks from the Rust community for you to pick and get started!
+
+Some of these tasks may also have mentors available, visit the task page for more information.
+
+
+If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
+
+[guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
+
+# Updates from Rust Core
+
+
+## Approved RFCs
+
+
+## Final Comment Period
+
+Every week [the team](https://www.rust-lang.org/team.html) announces the
+'final comment period' for RFCs and key PRs which are reaching a
+decision. Express your opinions now.
+
+## New RFCs
+
+# Upcoming Events
+
+### Online
+
+* [Mar 27. Rust Events Team Meeting on Telegram](https://t.me/joinchat/EkKINhHCgZ9llzvPidOssA).
+* [Mar 27. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
+
+### Asia Pacific
+
+* [Mar 20. Tokyo, JP - Tokyo Rust Game Hack](https://connpass.com/event/122171/).
+* [Mar 25. Melbourne, AU - Rust Melbourne Meetup](https://www.meetup.com/Rust-Melbourne/events/259230502/).
+
+### Europe
+
+* [Mar 19. Nijmegen, NL - Rust Nijmegen: Rust for the (Inter)Net - API's, HTTP/3 and Tide](https://www.meetup.com/Rust-Nijmegen/events/258758167).
+* [Mar 20. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzfbbc/).
+* [Mar 21. Torino, IT - Turin Rust Meetup](https://www.meetup.com/Mozilla-Torino/events/ktqcpqyzfblc/).
+* [Mar 26. Berlin, DE - Rust and Tell Berlin](https://www.meetup.com/Rust-Berlin/events/szgnqqyzfbjc/).
+* [Apr 04. Wroclaw, PL - Rust Wroclaw Meetup](https://www.meetup.com/Rust-Wroclaw/events/259511136/).
+
+### North America
+
+* [Mar 19. Austin, US - March Meetup](https://www.meetup.com/rust-atx/events/259273075/).
+* [Mar 20. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/gqbksqyzfbbc/).
+* [Mar 20. Ciudad de México, MX - Study group RustMX](https://www.meetup.com/Rust-MX/events/259473311/).
+* [Mar 25. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzfbhc/).
+* [Mar 27. Ann Arbor, US - Ann Arbor Rust Meetup](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/cgsskqyzfbkc/).
+* [Mar 27. Mesa, US - Phoenix Rust: Scientific Computing](https://www.meetup.com/Desert-Rustaceans/events/259615926/).
+
+If you are running a Rust event please add it to the [calendar] to get
+it mentioned here. Please remember to add a link to the event too.
+Email the [Rust Community Team][community] for access.
+
+[calendar]: https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com
+[community]: mailto:community-team@rust-lang.org
+
+# Rust Jobs
+
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
+# Quote of the Week
+
+
+[Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
+
+*This Week in Rust is edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [Flavsditz](https://github.com/Flavsditz).*
+
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/b0m6vv/this_week_in_rust_277/).</small>
