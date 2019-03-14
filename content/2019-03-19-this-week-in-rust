@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [New members for the Rust core team](https://internals.rust-lang.org/t/new-members-for-the-rust-core-team/9575).
+* [Zero-cost abstractions (Scientific computing: a Rust Adventure, Part 1)](https://www.lpalmieri.com/posts/2019-03-12-scientific-computing-a-rust-adventure-part-1-zero-cost-abstractions/).
 
 # Crate of the Week
 
