@@ -105,6 +105,7 @@ decision. Express your opinions now.
 * [Mar 16. Chennai, IN - Rust Chennai monthly meetup](https://www.meetup.com/mad-rs/events/259616775).
 * [Mar 20. Tokyo, JP - Tokyo Rust Game Hack](https://connpass.com/event/122171/).
 * [Mar 25. Melbourne, AU - Rust Melbourne Meetup](https://www.meetup.com/Rust-Melbourne/events/259230502/).
+* [Mar 25. Auckland, NZ - Rust AKL Meetup](https://www.meetup.com/rust-akl/events/259480499/).
 
 ### Europe
 
