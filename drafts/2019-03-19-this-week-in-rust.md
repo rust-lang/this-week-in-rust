@@ -34,6 +34,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Classic Unix utilities make great beginner projects](https://www.reddit.com/r/rust/comments/b0i625/classic_unix_utilities_make_great_beginner/).
 * [TiKV: Set compile-time env vars in build script instead of Makefile](https://github.com/tikv/tikv/issues/4051)
 * [TiKV: Use breakpad + symbolic to generate and interpret minidump-format core dumps](https://github.com/tikv/tikv/issues/4202)
+* [gfx-rs call for participation](https://users.rust-lang.org/t/gfx-rs-call-for-participation/26410)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
