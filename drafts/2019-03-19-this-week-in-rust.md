@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [validator](https://github.com/Keats/validator), a crate offering simple validation for Rust structs. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/500) for the suggestion!
+This week's crate is [copyless](https://crates.io/crates/copyless), a crate to extend boxes and vecs to operate on values while avoiding `memcpy`s. Thanks to [Dzmitry Malyshau](https://users.rust-lang.org/t/crate-of-the-week/2704/503) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -41,27 +41,24 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-173 pull requests were [merged in the last week][merged]
+205 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-03-04..2019-03-11
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-03-11..2019-03-18
 
-* [Make the rustc driver and interface demand driven](https://github.com/rust-lang/rust/pull/56732)
-* [Make the lifetime parameters of tcx consistent](https://github.com/rust-lang/rust/pull/58926)
-* [Don't promote function calls to nonpromotable things](https://github.com/rust-lang/rust/pull/58784)
-* [HirIdification: almost there](https://github.com/rust-lang/rust/pull/58915)
-* [Monomorphize generator field types for debuginfo](https://github.com/rust-lang/rust/pull/58906)
-* [Always emit unclosed delimiter diagnostics](https://github.com/rust-lang/rust/pull/58903)
-* [Mention `unwind(aborts)` in diagnostics for `#[unwind]`](https://github.com/rust-lang/rust/pull/58762)
-* [Add const generics to ty (and transitive dependencies)](https://github.com/rust-lang/rust/pull/58583)
-* [Make the Entry API of HashMap<K, V> Sync and Send](https://github.com/rust-lang/rust/pull/58369)
-* [On return type `impl Trait` for block with no expr point at last semi](https://github.com/rust-lang/rust/pull/58204)
-* [Create a derive macro for HashStable and allow proc macros in rustc](https://github.com/rust-lang/rust/pull/58013)
-* [Move index updates off the web server](https://github.com/rust-lang/crates.io/pull/1588)
-* [Make `Unique::as_ptr`, `NonNull::dangling` and `NonNull::cast` const](https://github.com/rust-lang/rust/pull/58750)
-* [MaybeUninit: add read_initialized, add examples](https://github.com/rust-lang/rust/pull/58660)
-* [Add `as_slice()` to `slice::IterMut` and `vec::Drain`](https://github.com/rust-lang/rust/pull/58924)
-* [cargo: Emit warning on misspelled environment variables](https://github.com/rust-lang/cargo/pull/6694)
-* [rustdoc: add option to calculate "documentation coverage"](https://github.com/rust-lang/rust/pull/58626)
+* [Optimize copying large ranges of undefmask blocks](https://github.com/rust-lang/rust/pull/58556)
+* [Unregress using scalar unions in constants](https://github.com/rust-lang/rust/pull/59139)
+* [Ignore higher-ranked object bound conditions created by WF](https://github.com/rust-lang/rust/pull/59132)
+* [Visit impl Trait for `dead_code` lint](https://github.com/rust-lang/rust/pull/59129)
+* [rustc: Fix ICE when trait alias has bare Self](https://github.com/rust-lang/rust/pull/59118)
+* [Fix ICE in MIR pretty printing](https://github.com/rust-lang/rust/pull/59036)
+* [resolve: Account for new importable entities](https://github.com/rust-lang/rust/pull/59047)
+* [Remove restriction on `isize`/`usize` in `repr(simd)`](https://github.com/rust-lang/rust/pull/59201)
+* [Add `Cmp::clamp` for ranges](https://github.com/rust-lang/rust/pull/58710)
+* [Stabilize `Range*::contains`](https://github.com/rust-lang/rust/pull/59152)
+* [Change `std::fs::copy` to use `copyfile` on MacOS and iOS](https://github.com/rust-lang/rust/pull/58901)
+* [Stabilize `Option::copied`](https://github.com/rust-lang/rust/pull/59231)
+* [cargo: Fix resolving yanked crates when using a local registry](https://github.com/rust-lang/cargo/pull/6742)
+* [cargo: Stricter package change detection](https://github.com/rust-lang/cargo/pull/6740)
 
 ## Approved RFCs
 
@@ -144,12 +141,7 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> – Rust’s ownership is difficult.
-> – Yes, ownership is difficult. For such a difficult thing, you (are going to) ever check by hand rather than having machine do it for you.
-
-– @Cryolite [on twitter](https://twitter.com/Cryolite/status/1104325100881375232) (translated from Japanese)
-
-Thanks to [Xidorn Quan](https://users.rust-lang.org/t/twir-quote-of-the-week/328/629) for the suggestion!
+Sadly, no quote was nominated this week.
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
