@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Web Programming in Rust - 02/x: Deployments](https://dev.to/gruberb/web-programming-in-rust-02x-deploy-your-first-app-1k05)
 
 # Crate of the Week
 
