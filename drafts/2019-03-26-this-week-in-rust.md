@@ -103,6 +103,7 @@ decision. Express your opinions now.
 * [Mar 25. Melbourne, AU - Rust Melbourne Meetup](https://www.meetup.com/Rust-Melbourne/events/259230502/).
 * [Mar 25. Auckland, NZ - Rust AKL Meetup](https://www.meetup.com/rust-akl/events/259480499/).
 * [Mar 25. Tokyo, JP - Tokyo Rust Meetup](https://rust.connpass.com/event/122377/).
+* [Mar 29. Fearless Concurrency in RUST-Knoldus, Noida, IN meetup](https://www.meetup.com/Reactive-Application-Programmers-in-Delhi-NCR/events/259722745/).
 
 ### Europe
 
@@ -140,6 +141,7 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Database Engineer Developer at Parity, Berlin, DE](https://www.parity.io/jobs/#berlin-database-engine-developer).
+* [Rust Software Consultant at Knoldus, Noida, IN](https://www.knoldus.com/careers/rust-software-consultant.knol).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
