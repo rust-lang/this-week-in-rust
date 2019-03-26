@@ -16,6 +16,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[GNOME Google Summer of Code](https://twitter.com/sdroege_/status/1109135842793148419): couple of Rust-related ideas lined up for this year's GSOC. From low-level libraries like Gstreamer, and Librsvg, to system services, to desktop applications. More details can be found by searching [this wiki page](https://wiki.gnome.org/Outreach/SummerOfCode/2019/Ideas)
+
+
 # Crate of the Week
 
 This week's crate is [copyless](https://crates.io/crates/copyless), a crate to extend boxes and vecs to operate on values while avoiding `memcpy`s. Thanks to [Dzmitry Malyshau](https://users.rust-lang.org/t/crate-of-the-week/2704/503) for the suggestion!
