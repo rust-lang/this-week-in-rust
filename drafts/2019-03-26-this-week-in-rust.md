@@ -106,6 +106,7 @@ decision. Express your opinions now.
 * [Mar 25. Melbourne, AU - Rust Melbourne Meetup](https://www.meetup.com/Rust-Melbourne/events/259230502/).
 * [Mar 25. Auckland, NZ - Rust AKL Meetup](https://www.meetup.com/rust-akl/events/259480499/).
 * [Mar 25. Tokyo, JP - Tokyo Rust Meetup](https://rust.connpass.com/event/122377/).
+* [Apr 20. Beijing, CN - RustCon Asia](https://rustcon.asia/)
 
 ### Europe
 
