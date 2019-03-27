@@ -123,7 +123,7 @@ decision. Express your opinions now.
 
 * [Mar 29. Noida, IN - Fearless Concurrency in Rust - Knoldus Meetup](https://www.meetup.com/Reactive-Application-Programmers-in-Delhi-NCR/events/259722745/).
 * [Mar 30. Taipei, TW - Rust Taiwan Meetup](https://www.facebook.com/events/431401857668601/).
-* [Apr 20. Beijing, CN - RustCon Asia](https://rustcon.asia/)
+* [Apr 20. Beijing, CN - RustCon Asia](https://rustcon.asia/).
 
 ### Europe
 
@@ -131,6 +131,7 @@ decision. Express your opinions now.
 * [Mar 28. Toulouse, FR - Rust Toulouse meetup](https://www.meetup.com/fr-FR/Toulouse-Rust-Meetup/events/259589986/).
 * [Mar 31. St. Petersburg, RU - St. Petersburg Rust Meetup](https://www.meetup.com/spbrust/events/whmxrqyzfbpc).
 * [Apr  3. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzgbfb/).
+* [Apr  4. Zagreb, HR - Rust Meetup 201904: Persistent data in Rust](https://www.meetup.com/Zagreb-Rust-Meetup/events/259597646/).
 * [Apr 04. Wroclaw, PL - Rust Wroclaw Meetup](https://www.meetup.com/Rust-Wroclaw/events/259511136/).
 * [Apr 13. Kyiv, UA - PeerLab Kyiv #NativeDev: Rust 1.34 Release in Depth](https://www.meetup.com/PeerLab-Native-Developers/events/260050471/).
 * [Jun 28-29. Firenze, IT - RustLab](https://www.rustlab.it/).
