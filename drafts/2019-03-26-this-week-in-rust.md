@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [copyless](https://crates.io/crates/copyless), a crate to extend boxes and vecs to operate on values while avoiding `memcpy`s. Thanks to [Dzmitry Malyshau](https://users.rust-lang.org/t/crate-of-the-week/2704/503) for the suggestion!
+This week's crate is [safety-guard](https://gitlab.com/tdiekmann/safety-guard), a crate providing a `#[safety]` attribute that generates both a doc entry and debug assertion. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/506) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -33,6 +33,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [Rust and WebAssembly WG: Let's build Gloo together](https://rustwasm.github.io/2019/03/12/lets-build-gloo-together.html).
 * [gfx-rs: Call for participation](https://users.rust-lang.org/t/gfx-rs-call-for-participation/26410).
+- [grpc-rs: Add support for well-known types](https://github.com/pingcap/grpc-rs/issues/276)
+- [TiKV: Flush logs on fatal errors](https://github.com/tikv/tikv/issues/4328)
+- [TiKV: Disable test suites that contain no tests](https://github.com/tikv/tikv/issues/4391)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -40,24 +43,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-205 pull requests were [merged in the last week][merged]
+169 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-03-11..2019-03-18
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-03-18..2019-03-25
 
-* [Optimize copying large ranges of undefmask blocks](https://github.com/rust-lang/rust/pull/58556)
-* [Unregress using scalar unions in constants](https://github.com/rust-lang/rust/pull/59139)
-* [Ignore higher-ranked object bound conditions created by WF](https://github.com/rust-lang/rust/pull/59132)
-* [Visit impl Trait for `dead_code` lint](https://github.com/rust-lang/rust/pull/59129)
-* [rustc: Fix ICE when trait alias has bare Self](https://github.com/rust-lang/rust/pull/59118)
-* [Fix ICE in MIR pretty printing](https://github.com/rust-lang/rust/pull/59036)
-* [resolve: Account for new importable entities](https://github.com/rust-lang/rust/pull/59047)
-* [Remove restriction on `isize`/`usize` in `repr(simd)`](https://github.com/rust-lang/rust/pull/59201)
-* [Add `Cmp::clamp` for ranges](https://github.com/rust-lang/rust/pull/58710)
-* [Stabilize `Range*::contains`](https://github.com/rust-lang/rust/pull/59152)
-* [Change `std::fs::copy` to use `copyfile` on MacOS and iOS](https://github.com/rust-lang/rust/pull/58901)
-* [Stabilize `Option::copied`](https://github.com/rust-lang/rust/pull/59231)
-* [cargo: Fix resolving yanked crates when using a local registry](https://github.com/rust-lang/cargo/pull/6742)
-* [cargo: Stricter package change detection](https://github.com/rust-lang/cargo/pull/6740)
+* [Move libtest out of rust-lang/rust](https://github.com/rust-lang/rust/pull/57842)
+* [Introduce assembly tests suite](https://github.com/rust-lang/rust/pull/58791)
+* [syntax: Better recovery for `$ty::AssocItem` and `ty!()::AssocItem`](https://github.com/rust-lang/rust/pull/59058)
+* [MIR optimization: Run branch cleanup after copy propagation](https://github.com/rust-lang/rust/pull/59290)
+* [Do not complain about non-existing fields after parse recovery](https://github.com/rust-lang/rust/pull/59266)
+* [Make meta-item API compatible with `LocalInternedString::get` soundness fix](https://github.com/rust-lang/rust/pull/59256)
+* [Use a valid name for graphviz graphs](https://github.com/rust-lang/rust/pull/59251)
+* [When moving out of a for loop head, suggest borrowing it](https://github.com/rust-lang/rust/pull/59195)
+* [When encountering `||{}()`, suggest the likely intended `(||{})()`](https://github.com/rust-lang/rust/pull/59035)
+* [Point at coercion reason for `if` expressions without else clause if caused by return type](https://github.com/rust-lang/rust/pull/58981)
+* [Elide object safety errors on non-existent trait function](https://github.com/rust-lang/rust/pull/58929)
+* [Unify `OsString`/`OsStr` for byte-based implementations](https://github.com/rust-lang/rust/pull/58953)
+* [Add provided methods `Seek::`{`stream_len`, `stream_position`}](https://github.com/rust-lang/rust/pull/58422)
+* [Add `todo!()` macro](https://github.com/rust-lang/rust/pull/56348)
+* [Implement `ExactSizeIterator` for `ToLowercase` and `ToUppercase`](https://github.com/rust-lang/rust/pull/58778)
+* [Make `Option<ThreadId>` no larger than `ThreadId` with `NonZeroU64`](https://github.com/rust-lang/rust/pull/59291)
+* [Stabilize `refcell_map_split` feature](https://github.com/rust-lang/rust/pull/59280)
+* [Add const generics to rustdoc](https://github.com/rust-lang/rust/pull/59170)
+* [crates.io: Allow download counts to fail to be updated](https://github.com/rust-lang/crates.io/pull/1675)
 
 ## Approved RFCs
 
@@ -104,6 +112,7 @@ decision. Express your opinions now.
 * [Mar 25. Auckland, NZ - Rust AKL Meetup](https://www.meetup.com/rust-akl/events/259480499/).
 * [Mar 25. Tokyo, JP - Tokyo Rust Meetup](https://rust.connpass.com/event/122377/).
 * [Mar 29. Noida, IN - Fearless Concurrency in Rust - Knoldus Meetup](https://www.meetup.com/Reactive-Application-Programmers-in-Delhi-NCR/events/259722745/).
+* [Apr 20. Beijing, CN - RustCon Asia](https://rustcon.asia/)
 
 ### Europe
 
@@ -116,6 +125,7 @@ decision. Express your opinions now.
 * [Apr  3. Sandown, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/gpxrtqyzgbfb/).
 * [Apr  3. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/rjgkhqyzgbfb/).
 * [Apr 04. Wroclaw, PL - Rust Wroclaw Meetup](https://www.meetup.com/Rust-Wroclaw/events/259511136/).
+* [Jun 28-29. Firenze, IT - RustLab](https://www.rustlab.it/).
 
 ### North America
 
@@ -146,7 +156,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-Sadly, no quote was nominated this week.
+> all the ergonomic improvements in rust 2018 are really messing up my book that consists entirely of running face-first into compiler errors so i can explain concepts.
+
+– Alexis Beingessner, author of “Learning Rust With Entirely Too Many Linked Lists”
+
+Thanks to [icefoxen](https://users.rust-lang.org/t/twir-quote-of-the-week/328/631) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
