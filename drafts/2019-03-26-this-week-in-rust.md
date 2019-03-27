@@ -33,6 +33,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [Rust and WebAssembly WG: Let's build Gloo together](https://rustwasm.github.io/2019/03/12/lets-build-gloo-together.html).
 * [gfx-rs: Call for participation](https://users.rust-lang.org/t/gfx-rs-call-for-participation/26410).
+- [grpc-rs: Add support for well-known types](https://github.com/pingcap/grpc-rs/issues/276)
+- [TiKV: Flush logs on fatal errors](https://github.com/tikv/tikv/issues/4328)
+- [TiKV: Disable test suites that contain no tests](https://github.com/tikv/tikv/issues/4391)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -103,6 +106,7 @@ decision. Express your opinions now.
 * [Mar 25. Melbourne, AU - Rust Melbourne Meetup](https://www.meetup.com/Rust-Melbourne/events/259230502/).
 * [Mar 25. Auckland, NZ - Rust AKL Meetup](https://www.meetup.com/rust-akl/events/259480499/).
 * [Mar 25. Tokyo, JP - Tokyo Rust Meetup](https://rust.connpass.com/event/122377/).
+* [Apr 20. Beijing, CN - RustCon Asia](https://rustcon.asia/)
 
 ### Europe
 
