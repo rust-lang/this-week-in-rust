@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [How to Write Better Compilation Error Message In Rust](https://blog.knoldus.com/how-to-write-better-compilation-error-message-in-rust/)
+
 # Crate of the Week
 
 This week's crate is [safety-guard](https://gitlab.com/tdiekmann/safety-guard), a crate providing a `#[safety]` attribute that generates both a doc entry and debug assertion. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/506) for the suggestion!
