@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Containerize Rust Application with Docker](https://blog.knoldus.com/containerize-rust-application-with-docker/)
 
 # Crate of the Week
 
