@@ -119,6 +119,7 @@ decision. Express your opinions now.
 * [Apr  3. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzgbfb/).
 * [Apr  4. Zagreb, HR - Rust Meetup 201904: Persistent data in Rust](https://www.meetup.com/Zagreb-Rust-Meetup/events/259597646/).
 * [Apr 04. Wroclaw, PL - Rust Wroclaw Meetup](https://www.meetup.com/Rust-Wroclaw/events/259511136/).
+* [Apr 04. Madrid, ES - Madrid Rust Meetup](https://www.meetup.com/MadRust/events/259988070/).
 * [Apr 13. Kyiv, UA - PeerLab Kyiv #NativeDev: Rust 1.34 Release in Depth](https://www.meetup.com/PeerLab-Native-Developers/events/260050471/).
 * [Jun 28-29. Firenze, IT - RustLab](https://www.rustlab.it/).
 
