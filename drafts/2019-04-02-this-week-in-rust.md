@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Explained: How does async work in Rust?](https://dev.to/gruberb/explained-how-does-async-work-in-rust-46f8)
 
 # Crate of the Week
 
