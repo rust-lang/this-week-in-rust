@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [safety-guard](https://gitlab.com/tdiekmann/safety-guard), a crate providing a `#[safety]` attribute that generates both a doc entry and debug assertion. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/506) for the suggestion!
+This week's crate is [sonic](https://github.com/valeriansaliou/sonic), a fast, lightweight & schema-less search backend. Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/509) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -44,29 +44,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-169 pull requests were [merged in the last week][merged]
+251 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-03-18..2019-03-25
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-03-25..2019-04-01
 
-* [Move libtest out of rust-lang/rust](https://github.com/rust-lang/rust/pull/57842)
-* [Introduce assembly tests suite](https://github.com/rust-lang/rust/pull/58791)
-* [syntax: Better recovery for `$ty::AssocItem` and `ty!()::AssocItem`](https://github.com/rust-lang/rust/pull/59058)
-* [MIR optimization: Run branch cleanup after copy propagation](https://github.com/rust-lang/rust/pull/59290)
-* [Do not complain about non-existing fields after parse recovery](https://github.com/rust-lang/rust/pull/59266)
-* [Make meta-item API compatible with `LocalInternedString::get` soundness fix](https://github.com/rust-lang/rust/pull/59256)
-* [Use a valid name for graphviz graphs](https://github.com/rust-lang/rust/pull/59251)
-* [When moving out of a for loop head, suggest borrowing it](https://github.com/rust-lang/rust/pull/59195)
-* [When encountering `||{}()`, suggest the likely intended `(||{})()`](https://github.com/rust-lang/rust/pull/59035)
-* [Point at coercion reason for `if` expressions without else clause if caused by return type](https://github.com/rust-lang/rust/pull/58981)
-* [Elide object safety errors on non-existent trait function](https://github.com/rust-lang/rust/pull/58929)
-* [Unify `OsString`/`OsStr` for byte-based implementations](https://github.com/rust-lang/rust/pull/58953)
-* [Add provided methods `Seek::`{`stream_len`, `stream_position`}](https://github.com/rust-lang/rust/pull/58422)
-* [Add `todo!()` macro](https://github.com/rust-lang/rust/pull/56348)
-* [Implement `ExactSizeIterator` for `ToLowercase` and `ToUppercase`](https://github.com/rust-lang/rust/pull/58778)
-* [Make `Option<ThreadId>` no larger than `ThreadId` with `NonZeroU64`](https://github.com/rust-lang/rust/pull/59291)
-* [Stabilize `refcell_map_split` feature](https://github.com/rust-lang/rust/pull/59280)
-* [Add const generics to rustdoc](https://github.com/rust-lang/rust/pull/59170)
-* [crates.io: Allow download counts to fail to be updated](https://github.com/rust-lang/crates.io/pull/1675)
+* [Add intial support for `wasm32-unknown-wasi`](https://github.com/rust-lang/libc/pull/1307)
+* [Allow closure to unsafe fn coercion](https://github.com/rust-lang/rust/pull/59580)
+* [Include bounds in generic re-ordering diagnostic](https://github.com/rust-lang/rust/pull/59572)
+* [Optimize indentation in the pretty printer](https://github.com/rust-lang/rust/pull/59507)
+* [Use `SmallVec` in `TokenStreamBuilder`](https://github.com/rust-lang/rust/pull/59476)
+* [Make ASCII case conversions more than 4× faster](https://github.com/rust-lang/rust/pull/59283)
+* [Adjust `MaybeUninit` API to discussions](https://github.com/rust-lang/rust/pull/59284)
+* [Introduce `proc_macro::Span::source_text`](https://github.com/rust-lang/rust/pull/55780)
+* [Add `Default` to `std::alloc::System`](https://github.com/rust-lang/rust/pull/59451)
+* [Add `FromStr` impl for `NonZero` types](https://github.com/rust-lang/rust/pull/58717)
+* [Implement `AsRawFd` for stdio locks](https://github.com/rust-lang/rust/pull/59512)
+* [Simplify `checked_duration_since`](https://github.com/rust-lang/rust/pull/59374)
+* [Stabilize `refcell_replace_swap`](https://github.com/rust-lang/rust/pull/59581)
+* [stabilize `ptr::hash`](https://github.com/rust-lang/rust/pull/59603)
+* [Stabilize {`f32`, `f64`}`::copysign()`](https://github.com/rust-lang/rust/pull/59503)
+* [cargo metadata: Don't show `null` deps](https://github.com/rust-lang/cargo/pull/6534)
+* [cargo install: Be more restrictive about cli flags](https://github.com/rust-lang/cargo/pull/6801)
+* [rustdoc: Fix infinite recursion](https://github.com/rust-lang/rust/pull/59539)
+* [rustdoc: collapse blanket impls in the same way as normal impls](https://github.com/rust-lang/rust/pull/59534)
 
 ## Approved RFCs
 
@@ -154,11 +154,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> all the ergonomic improvements in rust 2018 are really messing up my book that consists entirely of running face-first into compiler errors so i can explain concepts.
+> Thanks for walking through the process.
+>
+> Quite the mental exercise, some people do Sudoku, others solve borrow puzzles!
 
-– Alexis Beingessner, author of “Learning Rust With Entirely Too Many Linked Lists”
+– [Gambhiro on rust-users](https://users.rust-lang.org/t/solved-channel-in-a-loop-in-a-thread-borrowed-value-does-not-live-long-enough/26733/9)
 
-Thanks to [icefoxen](https://users.rust-lang.org/t/twir-quote-of-the-week/328/631) for the suggestion!
+Thanks to [Tom Phinney](https://users.rust-lang.org/t/twir-quote-of-the-week/328/633) for the suggestion!
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
