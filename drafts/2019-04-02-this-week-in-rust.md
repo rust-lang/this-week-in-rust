@@ -15,7 +15,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-* [Explained: How does async work in Rust?](https://dev.to/gruberb/explained-how-does-async-work-in-rust-46f8)
+
+* [Five super helpful Rust things that nobody told you about](https://saghm.github.io/five-rust-things/).
+* [RaptorQ (RFC6330) and performance optimization in Rust](https://www.cberner.com/2019/03/30/raptorq-rfc6330-rust-optimization/).
+* [Idiomatic monads in Rust](https://varkor.github.io/blog/2019/03/28/idiomatic-monads-in-rust.html).
+* [BoringTun, a userspace WireGuard implementation in Rust](https://blog.cloudflare.com/boringtun-userspace-wireguard-rust/).
+* [Understanding futures in Rust - part 1](https://www.viget.com/articles/understanding-futures-in-rust-part-1/).
+* [Mocking in Rust with conditional compilation](https://klausi.github.io/rustnish/2019/03/31/mocking-in-rust-with-conditional-compilation.html).
+* [Face detection with Tensorflow Rust](https://cetra3.github.io/blog/face-detection-with-tensorflow-rust/).
+* [DSL in Rust: Challenges](https://blog.yoshuawuyts.com/2019-03-03-dsls-2/).
+* [Explained: How does async work in Rust](https://dev.to/gruberb/explained-how-does-async-work-in-rust-46f8)?
+* [This week in Rust and WebAssembly 15](https://rustwasm.github.io/2019/03/28/this-week-in-rust-and-wasm-015.html).
 
 # Crate of the Week
 
@@ -32,12 +42,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Call for proposal - RustLab 2019, June 28-29, Florence, IT](https://www.rustlab.it/page/1398227/call-for-proposal).
-* [Tools Team: tell us your sorrows](https://internals.rust-lang.org/t/tools-team-tell-us-your-sorrows/9657).
-* [grpc-rs: Add support for well-known types](https://github.com/pingcap/grpc-rs/issues/276).
-* [TiKV: Flush logs on fatal errors](https://github.com/tikv/tikv/issues/4328).
-* [TiKV: Disable test suites that contain no tests](https://github.com/tikv/tikv/issues/4391).
-* [GNOME Google Summer of Code](https://twitter.com/sdroege_/status/1109135842793148419): couple of Rust-related ideas lined up for this year's GSOC. From low-level libraries like Gstreamer, and Librsvg, to system services, to desktop applications. More details can be found by searching [this wiki page](https://wiki.gnome.org/Outreach/SummerOfCode/2019/Ideas).
+* [rust: Add rustc-guide to toolstate](https://github.com/rust-lang/rust/issues/59597).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -75,7 +80,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2657: Roadmap for 2019](https://github.com/rust-lang/rfcs/pull/2657).
 
 ## Final Comment Period
 
@@ -85,57 +90,40 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Roadmap for 2019](https://github.com/rust-lang/rfcs/pull/2657).
-* [disposition: merge] [Transparent Unions and Enums](https://github.com/rust-lang/rfcs/pull/2645).
-* [disposition: close] [`mut (x, y, ..)` and `mut [x, y, ..]` pattern shorthand](https://github.com/rust-lang/rfcs/pull/2401).
+* [disposition: postpone] [Destructuring assignment](https://github.com/rust-lang/rfcs/pull/2649).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [More restrictive 2 phase borrows - take 2](https://github.com/rust-lang/rust/pull/58739).
-* [disposition: merge] [Introduce RefCell::try_borrow_unguarded](https://github.com/rust-lang/rust/pull/59211).
-* [disposition: merge] [Tracking issue for {f32, f64}::copysign](https://github.com/rust-lang/rust/issues/58046).
+* [disposition: merge] [Tracking issue: const fn std::mem::needs_drop](https://github.com/rust-lang/rust/issues/51929).
 
 ## New RFCs
 
-* [RFC for a match based surface syntax to get pointer-to-field](https://github.com/rust-lang/rfcs/pull/2666).
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
-### Africa
-
-* [Mar 30. Nairobi, KE - Rust Nairobi Meetup: Projects Showcase](https://www.meetup.com/Rust-Nairobi/events/259650701/).
-* [Apr  3. Johannesburg, ZA - Johannesburg meetup - using Rust in production](https://www.meetup.com/Johannesburg-Rust-Meetup/events/gpxrtqyzgbfb/).
-
 ### Asia Pacific
 
-* [Mar 29. Noida, IN - Fearless Concurrency in Rust - Knoldus Meetup](https://www.meetup.com/Reactive-Application-Programmers-in-Delhi-NCR/events/259722745/).
-* [Mar 30. Taipei, TW - Rust Taiwan Meetup](https://www.facebook.com/events/431401857668601/).
 * [Apr 20. Beijing, CN - RustCon Asia](https://rustcon.asia/).
 
 ### Europe
 
-* [Mar 28. Copenhagen, DK - Copenhagen Rust Hack Night #14](https://cph.rs/).
-* [Mar 28. Toulouse, FR - Rust Toulouse meetup](https://www.meetup.com/fr-FR/Toulouse-Rust-Meetup/events/259589986/).
-* [Mar 31. St. Petersburg, RU - St. Petersburg Rust Meetup](https://www.meetup.com/spbrust/events/whmxrqyzfbpc).
-* [Apr  3. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzgbfb/).
 * [Apr  4. Zagreb, HR - Rust Meetup 201904: Persistent data in Rust](https://www.meetup.com/Zagreb-Rust-Meetup/events/259597646/).
-* [Apr 04. Wroclaw, PL - Rust Wroclaw Meetup](https://www.meetup.com/Rust-Wroclaw/events/259511136/).
-* [Apr 04. Madrid, ES - Madrid Rust Meetup](https://www.meetup.com/MadRust/events/259988070/).
+* [Apr  4. Wroclaw, PL - Rust Wroclaw Meetup](https://www.meetup.com/Rust-Wroclaw/events/259511136/).
+* [Apr  4. Madrid, ES - Madrid Rust Meetup](https://www.meetup.com/MadRust/events/259988070/).
 * [Apr 13. Kyiv, UA - PeerLab Kyiv #NativeDev: Rust 1.34 Release in Depth](https://www.meetup.com/PeerLab-Native-Developers/events/260050471/).
-* [Jun 28-29. Firenze, IT - RustLab](https://www.rustlab.it/).
+* [Apr 17. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzgbwb/).
+* [Apr 18. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/ktqcpqyzgbhc/).
 
 ### North America
 
-* [Apr  3. Indianapolis, US - Indy.rs](https://www.meetup.com/indyrs/events/246726699/).
-* [Apr  3. Atlanta, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/events/lgtvsqyzgbfb/).
-* [Apr  3. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/gqbksqyzgbfb/).
 * [Apr  9. Seattle, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/nzfspqyzgbmb/).
+* [Apr  9. Irvine, US - Orange County Rust - C2Rust - Rewrite all the things](https://www.meetup.com/oc-rust/events/260233390/).
 * [Apr 11. Arlington, US - Rust DC — Mid-month Rustful](https://www.meetup.com/RustDC/events/259782531).
 * [Apr 11. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyzgbpb/).
-
-### South America
-
-* [Mar 29. Montevideo, UY - Rust Latam @ Montevideo, Uruguay](https://rustlatam.org/).
+* [Apr 18. Denver, US - Rust Boulder/Denver - Rust Meetup for April](https://www.meetup.com/Rust-Boulder-Denver/events/259124388/).
+* [Apr 17. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/gqbksqyzgbwb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -146,11 +134,9 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [WebAssembly / Cranelift Intern (Summer 2019) at Mozilla, San Francisco, US](https://careers.mozilla.org/position/gh/1501382/).
-* [Senior Software Engineer at Metaswitch, North London, UK](https://www.metaswitch.com/careers-blog/senior-software-engineer-enfield).
+* [Rust Developer at Smarkets, London, UK](https://smarkets.com/job/1617761/).
+* [Database Engine Developer at Parity, Berlin, DE](https://www.parity.io/jobs/#berlin-database-engine-developer).
 * [Lead Engineer (Cryptography) at Cosmian, Paris, FR](https://cosmian.com/wp-content/uploads/2019/03/Rust-CPP-lead-engineer.pdf).
-* [Database Engineer Developer at Parity, Berlin, DE](https://www.parity.io/jobs/#berlin-database-engine-developer).
-* [Rust Software Consultant at Knoldus, Noida, IN](https://www.knoldus.com/careers/rust-software-consultant.knol).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
