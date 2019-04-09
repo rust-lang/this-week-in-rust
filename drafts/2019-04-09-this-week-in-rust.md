@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Array1 and function traits (Scientific computing: a Rust Adventure, Part 2)](https://www.lpalmieri.com/posts/2019-04-07-scientific-computing-a-rust-adventure-part-2-array1/).
+
 # Crate of the Week
 
 This week's crate is [sonic](https://github.com/valeriansaliou/sonic), a fast, lightweight & schema-less search backend. Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/509) for the suggestion!
