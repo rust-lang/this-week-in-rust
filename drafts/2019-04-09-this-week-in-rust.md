@@ -18,7 +18,13 @@ The *This Week in Rust* privacy policy has changed due to our migration to GitHu
 
 ## News & Blog Posts
 
-[Array1 and function traits (Scientific computing: a Rust Adventure, Part 2)](https://www.lpalmieri.com/posts/2019-04-07-scientific-computing-a-rust-adventure-part-2-array1/).
+* [Rust is the most loved language four years in a row](https://insights.stackoverflow.com/survey/2019#most-loved-dreaded-and-wanted).
+* [How to compose functions in Rust](https://stackoverflow.com/questions/45786955/how-to-compose-functions-in-rust).
+* [A basic web application with Rust and Actix-web](https://zupzup.org/rust-webapp/).
+* [More tricks up in the ArcSwap’s sleeve](https://vorner.github.io/2019/04/06/tricks-in-arc-swap.html).
+* [Arenas vs. indices](https://llogiq.github.io/2019/04/06/arena.html).
+* [Protocols in Tokio (i3 IPC)](https://leshow.github.io/post/impl_proto_tokio/).
+* [Array1 and function traits (scientific computing: a Rust adventure, part 2)](https://www.lpalmieri.com/posts/2019-04-07-scientific-computing-a-rust-adventure-part-2-array1/).
 
 # Crate of the Week
 
@@ -35,7 +41,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [rust: Add rustc-guide to toolstate](https://github.com/rust-lang/rust/issues/59597).
+* [Releasing nom 5.0](https://www.reddit.com/r/rust/comments/ba366j/call_for_help_releasing_nom_50/).
+* [Veloren, the open-source voxel MMORPG, is looking for contributors](https://veloren.net/).
+* [pulldown-cmark: Create a framework for detecting quadratic time regressions](https://github.com/raphlinus/pulldown-cmark/issues/257).
+* [compact_arena: Make the crate `no_std`](https://github.com/llogiq/compact_arena/issues/1).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -76,34 +85,13 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [Speed up rustdoc run](https://github.com/rust-lang/rust/pull/59452)
 * [crates.io: Add monitoring for common spam patterns](https://github.com/rust-lang/crates.io/pull/1678)
 
-
-* [Add intial support for `wasm32-unknown-wasi`](https://github.com/rust-lang/libc/pull/1307)
-* [Allow closure to unsafe fn coercion](https://github.com/rust-lang/rust/pull/59580)
-* [Include bounds in generic re-ordering diagnostic](https://github.com/rust-lang/rust/pull/59572)
-* [Optimize indentation in the pretty printer](https://github.com/rust-lang/rust/pull/59507)
-* [Use `SmallVec` in `TokenStreamBuilder`](https://github.com/rust-lang/rust/pull/59476)
-* [Make ASCII case conversions more than 4× faster](https://github.com/rust-lang/rust/pull/59283)
-* [Adjust `MaybeUninit` API to discussions](https://github.com/rust-lang/rust/pull/59284)
-* [Introduce `proc_macro::Span::source_text`](https://github.com/rust-lang/rust/pull/55780)
-* [Add `Default` to `std::alloc::System`](https://github.com/rust-lang/rust/pull/59451)
-* [Add `FromStr` impl for `NonZero` types](https://github.com/rust-lang/rust/pull/58717)
-* [Implement `AsRawFd` for stdio locks](https://github.com/rust-lang/rust/pull/59512)
-* [Simplify `checked_duration_since`](https://github.com/rust-lang/rust/pull/59374)
-* [Stabilize `refcell_replace_swap`](https://github.com/rust-lang/rust/pull/59581)
-* [stabilize `ptr::hash`](https://github.com/rust-lang/rust/pull/59603)
-* [Stabilize {`f32`, `f64`}`::copysign()`](https://github.com/rust-lang/rust/pull/59503)
-* [cargo metadata: Don't show `null` deps](https://github.com/rust-lang/cargo/pull/6534)
-* [cargo install: Be more restrictive about cli flags](https://github.com/rust-lang/cargo/pull/6801)
-* [rustdoc: Fix infinite recursion](https://github.com/rust-lang/rust/pull/59539)
-* [rustdoc: collapse blanket impls in the same way as normal impls](https://github.com/rust-lang/rust/pull/59534)
-
 ## Approved RFCs
 
 Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2657: Roadmap for 2019](https://github.com/rust-lang/rfcs/pull/2657).
+* [RFC 2480: Stabilize the alloc crate](https://github.com/rust-lang/rfcs/pull/2480).
 
 ## Final Comment Period
 
@@ -113,41 +101,47 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: postpone] [Destructuring assignment](https://github.com/rust-lang/rfcs/pull/2649).
+*No RFCs are currently in final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [More restrictive 2 phase borrows - take 2](https://github.com/rust-lang/rust/pull/58739).
-* [disposition: merge] [Tracking issue: const fn std::mem::needs_drop](https://github.com/rust-lang/rust/issues/51929).
+* [disposition: merge] [Permit `-> _` return types for improved diagnostics](https://github.com/rust-lang/rust/issues/56132).
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [Named custom cargo profiles](https://github.com/rust-lang/rfcs/pull/2678).
+* [Add the Close trait](https://github.com/rust-lang/rfcs/pull/2677).
 
 # Upcoming Events
 
 ### Asia Pacific
 
 * [Apr 20. Beijing, CN - RustCon Asia](https://rustcon.asia/).
+* [Apr 20. Taipei, TW - Rust Taiwan Meetup](https://www.facebook.com/events/400895290642737/).
+* [Apr 24. Tokyo, JP - Tokyo Rust Meetup](https://rust.connpass.com/event/125666/).
 
 ### Europe
 
-* [Apr  4. Zagreb, HR - Rust Meetup 201904: Persistent data in Rust](https://www.meetup.com/Zagreb-Rust-Meetup/events/259597646/).
-* [Apr  4. Wroclaw, PL - Rust Wroclaw Meetup](https://www.meetup.com/Rust-Wroclaw/events/259511136/).
-* [Apr  4. Madrid, ES - Madrid Rust Meetup](https://www.meetup.com/MadRust/events/259988070/).
+* [Apr 11. Oslo, NO - Rust Oslo - Hack & Learn](https://www.meetup.com/Rust-Oslo/events/260244075/).
 * [Apr 13. Kyiv, UA - PeerLab Kyiv #NativeDev: Rust 1.34 Release in Depth](https://www.meetup.com/PeerLab-Native-Developers/events/260050471/).
+* [Apr 16. Rome, IT - Rust Roma - Rust learning and hacking evening #17](https://www.meetup.com/Rust-Roma/events/260430915/).
 * [Apr 17. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzgbwb/).
 * [Apr 18. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/ktqcpqyzgbhc/).
+* [Apr 25. Toulouse, FR - Mon premier service web en Rust](https://www.meetup.com/Toulouse-Rust-Meetup/events/260218832).
 * [Apr 26. Stuttgart, DE - Rust Meetup #2](https://gettogether.community/rust-stuttgart/)
+* [Apr 26. Berlind, DE - Oxidize Berlin Conference](https://oxidizeconf.com/).
 
 ### North America
 
-* [Apr  9. Seattle, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/nzfspqyzgbmb/).
-* [Apr  9. Irvine, US - Orange County Rust - C2Rust - Rewrite all the things](https://www.meetup.com/oc-rust/events/260233390/).
 * [Apr 11. Arlington, US - Rust DC — Mid-month Rustful](https://www.meetup.com/RustDC/events/259782531).
 * [Apr 11. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyzgbpb/).
+* [Apr 11. San Diego, US - San Diego Rust April Meetup](https://www.meetup.com/San-Diego-Rust/events/260346466/).
 * [Apr 18. Denver, US - Rust Boulder/Denver - Rust Meetup for April](https://www.meetup.com/Rust-Boulder-Denver/events/259124388/).
 * [Apr 17. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/gqbksqyzgbwb/).
+* [Apr 22. Durham, US - Triangle Rustaceans](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzgbdc/).
+* [Apr 23. Chicago, US - Chicago Rust Meetup - Discussion: Better Method Chaining in Rust](https://www.meetup.com/Chicago-Rust-Meetup/events/260321118).
+* [Apr 24. Sacramento, US - Hands-on Rust](https://www.meetup.com/Rust-Sacramento/events/260347016/).
+* [Apr 24. Ann Arbor, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/vsncvqyzgbgc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -158,9 +152,9 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Developer at Smarkets, London, UK](https://smarkets.com/job/1617761/).
-* [Database Engine Developer at Parity, Berlin, DE](https://www.parity.io/jobs/#berlin-database-engine-developer).
-* [Lead Engineer (Cryptography) at Cosmian, Paris, FR](https://cosmian.com/wp-content/uploads/2019/03/Rust-CPP-lead-engineer.pdf).
+* [Senior Software Engineer, Backend - Rust at Kraken, Remote](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105).
+* [Rust Systems Software Engineer at Cloudseal, Remote (US)](https://www.cloudseal.io/hiring/rust-systems-software-engineer-sp19).
+* [Compilers (LLVM), distributed systems, & theorem proving engineers at Offscale.io, Remote/Sydney, AU](https://www.reddit.com/r/rust/comments/bb33yo/job_compilers_llvm_distributed_systems_theorem/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
