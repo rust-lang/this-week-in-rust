@@ -18,6 +18,8 @@ The *This Week in Rust* privacy policy has changed due to our migration to GitHu
 
 ## News & Blog Posts
 
+[Array1 and function traits (Scientific computing: a Rust Adventure, Part 2)](https://www.lpalmieri.com/posts/2019-04-07-scientific-computing-a-rust-adventure-part-2-array1/).
+
 # Crate of the Week
 
 This week's crate is [interact](https://github.com/interact-rs/interact), a framework for online introspection of the running program state. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/513) for the suggestion!
