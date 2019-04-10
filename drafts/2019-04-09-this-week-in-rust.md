@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [sonic](https://github.com/valeriansaliou/sonic), a fast, lightweight & schema-less search backend. Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/509) for the suggestion!
+This week's crate is [interact](https://github.com/interact-rs/interact), a framework for online introspection of the running program state. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/513) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -39,9 +39,39 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-251 pull requests were [merged in the last week][merged]
+198 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-03-25..2019-04-01
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-04-01..2019-04-08
+
+* [Show better errors for LLVM IR output](https://github.com/rust-lang/rust/pull/59744)
+* [Use for_each to extend collections](https://github.com/rust-lang/rust/pull/59740)
+* [wasi: Use shared API for preopened file descriptors](https://github.com/rust-lang/rust/pull/59727)
+* [Never return uninhabited values at all](https://github.com/rust-lang/rust/pull/59639)
+* [Shrink `mir::Statement`](https://github.com/rust-lang/rust/pull/59630)
+* [Refactor async fn return type lowering](https://github.com/rust-lang/rust/pull/59286)
+* [Unsized rvalues: implement boxed closure impls](https://github.com/rust-lang/rust/pull/59500)
+* [Fixes for shallow borrows](https://github.com/rust-lang/rust/pull/59585)
+* [Suggest using anonymous lifetime in `impl Trait` return](https://github.com/rust-lang/rust/pull/58919)
+* [Fix invalid bounds string generation in rustdoc](https://github.com/rust-lang/rust/pull/58894)
+* [More restrictive 2 phase borrows - take 2](https://github.com/rust-lang/rust/pull/58739)
+* [Tweak `Span` encoding](https://github.com/rust-lang/rust/pull/58458)
+* [Add 'partition_at_index/_by/_by_key' for slices](https://github.com/rust-lang/rust/pull/55448)
+* [Support allocating iterators with arenas](https://github.com/rust-lang/rust/pull/59533)
+* [Remove duplicated code from Iterator::{ne, lt, le, gt, ge}](https://github.com/rust-lang/rust/pull/59262)
+* [Forward formatter settings to bounds of `Range<T>` in `fmt::Debug` impl](https://github.com/rust-lang/rust/pull/59596)
+* [std: Avoid usage of `Once` in `Instant`](https://github.com/rust-lang/rust/pull/59676)
+* [Improve worst-case performance of HashSet.is_subset](https://github.com/rust-lang/rust/pull/59665)
+* [Improve worst-case performance of BTreeSet intersection](https://github.com/rust-lang/rust/pull/59186)
+* [Implement useful steps_between for all integers](https://github.com/rust-lang/rust/pull/59444)
+* [cargo: Add install-upgrade](https://github.com/rust-lang/cargo/pull/6798)
+* [cargo: Improve error message to rerun a test in a workspace](https://github.com/rust-lang/cargo/pull/6824)
+* [cargo Resolve: Be less strict while offline](https://github.com/rust-lang/cargo/pull/6814)
+* [cargo: Add more suggestions on how to deal with excluding a package from a workspace](https://github.com/rust-lang/cargo/pull/6805)
+* [Allow `cargo install --path P` to load config from P](https://github.com/rust-lang/cargo/pull/6804)
+* [Allow `cargo doc --open` with multiple packages](https://github.com/rust-lang/cargo/pull/6803)
+* [Speed up rustdoc run](https://github.com/rust-lang/rust/pull/59452)
+* [crates.io: Add monitoring for common spam patterns](https://github.com/rust-lang/crates.io/pull/1678)
+
 
 * [Add intial support for `wasm32-unknown-wasi`](https://github.com/rust-lang/libc/pull/1307)
 * [Allow closure to unsafe fn coercion](https://github.com/rust-lang/rust/pull/59580)
@@ -131,13 +161,7 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Thanks for walking through the process.
->
-> Quite the mental exercise, some people do Sudoku, others solve borrow puzzles!
-
-– [Gambhiro on rust-users](https://users.rust-lang.org/t/solved-channel-in-a-loop-in-a-thread-borrowed-value-does-not-live-long-enough/26733/9)
-
-Thanks to [Tom Phinney](https://users.rust-lang.org/t/twir-quote-of-the-week/328/633) for the suggestion!
+Sadly there was no suggestion this week.
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
