@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [A Love Letter to Rust Macros](https://happens.lol/posts/a-love-letter-to-rust-macros/).
+
 # Crate of the Week
 
 This week's crate is [interact](https://github.com/interact-rs/interact), a framework for online introspection of the running program state. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/513) for the suggestion!
