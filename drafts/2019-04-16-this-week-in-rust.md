@@ -118,7 +118,7 @@ decision. Express your opinions now.
 * [Apr 13. Kyiv, UA - PeerLab Kyiv #NativeDev: Rust 1.34 Release in Depth](https://www.meetup.com/PeerLab-Native-Developers/events/260050471/).
 * [Apr 16. Rome, IT - Rust Roma - Rust learning and hacking evening #17](https://www.meetup.com/Rust-Roma/events/260430915/).
 * [Apr 17. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzgbwb/).
-* [Apr 17. Stuttgart, DE - Rust Workshop - Beginner to Intermediate](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/260337649/).
+* [Apr 17. Stuttgart, DE - Rust Workshop - Beginner to Intermediate](https://www.meetup.com/Rust-Community-Stuttgart/events/260337649/).
 * [Apr 18. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/ktqcpqyzgbhc/).
 * [Apr 25. Toulouse, FR - Mon premier service web en Rust](https://www.meetup.com/Toulouse-Rust-Meetup/events/260218832).
 * [Apr 25. Paris, FR - Rust Paris meetup #44](https://www.meetup.com/Rust-Paris/events/260443108/).
