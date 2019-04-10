@@ -1,7 +1,7 @@
 Title: Privacy Policy
 Date: 2015-07-08
 
-Last updated: 8 July, 2015
+Last updated: 9 April, 2019
 
 TWiR team ("us", "we", or "our") operates the <a href="http://this-week-in-rust.org/">This Week in Rust</a> website (the "Service").
 
@@ -13,35 +13,19 @@ We use your Personal Information for providing and improving the Service. By usi
 
 ## Information Collection And Use
 
-While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to, your email address ("Personal Information").
+While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to, your email address ("Personal Information") and your computer's Internet Protocol address.
 
 We collect this information for the purpose of providing the Service, identifying and communicating with you, responding to your requests/enquiries, and improving our services.
-
-## Log Data
-
-We collect information that your browser sends whenever you visit our Service ("Log Data"). This Log Data may include information such as your computer's Internet Protocol ("IP") address, browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages and other statistics.
-
-## Cookies
-
-Cookies are files with a small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and transferred to your device. We use cookies to collect information in order to improve our services for you.
-
-You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. The Help feature on most browsers provide information on how to accept cookies, disable cookies or to notify you when receiving a new cookie.
-
-If you do not accept cookies, you may not be able to use some features of our Service and we recommend that you leave them turned on.
-
-## Do Not Track Disclosure
-
-We support Do Not Track ("DNT"). Do Not Track is a preference you can set in your web browser to inform websites that you do not want to be tracked.
-
-You can enable or disable Do Not Track by visiting the Preferences or Settings page of your web browser.
 
 ## Service Providers
 
 We may employ third party companies and individuals to facilitate our Service, to provide the Service on our behalf, to perform Service-related services and/or to assist us in analyzing how our Service is used.
 
-These third parties have access to your Personal Information only to perform specific tasks on our behalf and are obligated not to disclose or use your information for any other purpose.
+Following third-party services have access to your Personal Information: MailChimp, used for managing and delivering the newsletter; GitHub, used to host this-week-in-rust.org's web page.
 
-Following third-party services have access to your Personal Information: MailChimp.
+[MailChimp's privacy policy](https://mailchimp.com/legal/privacy/#3._Privacy_for_Contacts).
+
+[GitHub's privacy policy](https://help.github.com/en/articles/github-privacy-statement).
 
 In future, if we employ any additional third-party services that may access your Personal Information, we'll reflect that information in third-party services list above by updating this Privacy Policy.
 
@@ -73,7 +57,7 @@ We have no control over, and assume no responsibility for the content, privacy p
 
 ## Changes To This Privacy Policy
 
-This Privacy Policy is effective as of 8 July, 2015 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.
+This Privacy Policy is effective as of 9 April, 2019 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.
 
 We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.
 
