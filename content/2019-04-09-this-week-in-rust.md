@@ -128,11 +128,13 @@ decision. Express your opinions now.
 * [Apr 17. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzgbwb/).
 * [Apr 18. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/ktqcpqyzgbhc/).
 * [Apr 25. Toulouse, FR - Mon premier service web en Rust](https://www.meetup.com/Toulouse-Rust-Meetup/events/260218832).
+* [Apr 25. Paris, FR - Rust Paris meetup #44](https://www.meetup.com/Rust-Paris/events/260443108/).
 * [Apr 26. Stuttgart, DE - Rust Meetup #2](https://gettogether.community/rust-stuttgart/)
 * [Apr 26. Berlin, DE - Oxidize Berlin Conference](https://oxidizeconf.com/).
 
 ### North America
 
+* [Apr 11. Orem, US - Utah Rust - Meetup #11: Hack and learn](https://www.meetup.com/utah-rust/events/260015102/).
 * [Apr 11. Arlington, US - Rust DC — Mid-month Rustful](https://www.meetup.com/RustDC/events/259782531).
 * [Apr 11. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyzgbpb/).
 * [Apr 11. San Diego, US - San Diego Rust April Meetup](https://www.meetup.com/San-Diego-Rust/events/260346466/).
