@@ -166,4 +166,4 @@ Sadly there was no suggestion this week.
 
 *This Week in Rust is edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [Flavsditz](https://github.com/Flavsditz).*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/b93t3p/this_week_in_rust_280/).</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/bbkh7k/this_week_in_rust_281/).</small>
