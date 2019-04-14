@@ -33,6 +33,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [org-rs - org-mode parser rewrite it rust](https://redd.it/bcz7d4)
 * [Releasing nom 5.0](https://www.reddit.com/r/rust/comments/ba366j/call_for_help_releasing_nom_50/).
 * [Veloren, the open-source voxel MMORPG, is looking for contributors](https://veloren.net/).
 * [pulldown-cmark: Create a framework for detecting quadratic time regressions](https://github.com/raphlinus/pulldown-cmark/issues/257).
