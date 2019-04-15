@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Building a pub/sub server with Sonr](https://hagsteel.com/posts/building-a-pub-sub-with-sonr-part-1/).
 
 # Crate of the Week
 
