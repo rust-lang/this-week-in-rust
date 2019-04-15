@@ -122,6 +122,7 @@ decision. Express your opinions now.
 * [Apr 18. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/ktqcpqyzgbhc/).
 * [Apr 25. Toulouse, FR - Mon premier service web en Rust](https://www.meetup.com/Toulouse-Rust-Meetup/events/260218832).
 * [Apr 25. Paris, FR - Rust Paris meetup #44](https://www.meetup.com/Rust-Paris/events/260443108/).
+* [Apr 25. Brno, CZ - Rust Brno meetup](https://rust-brno.github.io/).
 * [Apr 26. Stuttgart, DE - Rust Meetup #2](https://gettogether.community/rust-stuttgart/)
 * [Apr 26. Berlin, DE - Oxidize Berlin Conference](https://oxidizeconf.com/).
 
