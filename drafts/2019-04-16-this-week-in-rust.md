@@ -124,6 +124,7 @@ decision. Express your opinions now.
 * [Apr 25. Paris, FR - Rust Paris meetup #44](https://www.meetup.com/Rust-Paris/events/260443108/).
 * [Apr 26. Stuttgart, DE - Rust Meetup #2](https://gettogether.community/rust-stuttgart/)
 * [Apr 26. Berlin, DE - Oxidize Berlin Conference](https://oxidizeconf.com/).
+* [Apr 30. London, UK - Rust London User Group - LDN Talks](https://www.meetup.com/Rust-London-User-Group/events/260565918/).
 
 ### North America
 
