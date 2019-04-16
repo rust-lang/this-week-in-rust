@@ -23,6 +23,8 @@ The [CFP for Colorado Gold Rust](https://cfp.cogoldrust.com/events/cogoldrust-20
 Submit a talk today! The organizers are also looking for volunteers to help people draft talk proposals.
 If you can help out [send them an email](mailto:coloradogoldrust@gmail.com) or DM them on Twitter at [@COGoldRust](https://twitter.com/cogoldrust)!
 
+* [A Love Letter to Rust Macros](https://happens.lol/posts/a-love-letter-to-rust-macros/).
+
 # Crate of the Week
 
 This week's crate is [interact](https://github.com/interact-rs/interact), a framework for online introspection of the running program state. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/513) for the suggestion!
