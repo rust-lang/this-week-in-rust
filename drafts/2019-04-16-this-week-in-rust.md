@@ -18,6 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 * [Web Development with Rust — 03/x: Create a REST API](https://dev.to/gruberb/web-development-with-rust-03-x-create-a-rest-api-3i82)
+* [Building a pub/sub server with Sonr](https://hagsteel.com/posts/building-a-pub-sub-with-sonr-part-1/)
 
 The [CFP for Colorado Gold Rust](https://cfp.cogoldrust.com/events/cogoldrust-2019) is open now!
 Submit a talk today! The organizers are also looking for volunteers to help people draft talk proposals.
