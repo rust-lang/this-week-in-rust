@@ -17,7 +17,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-* [Building a pub/sub server with Sonr](https://hagsteel.com/posts/building-a-pub-sub-with-sonr-part-1/).
+* [Web Development with Rust — 03/x: Create a REST API](https://dev.to/gruberb/web-development-with-rust-03-x-create-a-rest-api-3i82)
+* [Building a pub/sub server with Sonr](https://hagsteel.com/posts/building-a-pub-sub-with-sonr-part-1/)
+
+The [CFP for Colorado Gold Rust](https://cfp.cogoldrust.com/events/cogoldrust-2019) is open now!
+Submit a talk today! The organizers are also looking for volunteers to help people draft talk proposals.
+If you can help out [send them an email](mailto:coloradogoldrust@gmail.com) or DM them on Twitter at [@COGoldRust](https://twitter.com/cogoldrust)!
+
+* [A Love Letter to Rust Macros](https://happens.lol/posts/a-love-letter-to-rust-macros/).
 
 # Crate of the Week
 
@@ -123,8 +130,10 @@ decision. Express your opinions now.
 * [Apr 18. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/ktqcpqyzgbhc/).
 * [Apr 25. Toulouse, FR - Mon premier service web en Rust](https://www.meetup.com/Toulouse-Rust-Meetup/events/260218832).
 * [Apr 25. Paris, FR - Rust Paris meetup #44](https://www.meetup.com/Rust-Paris/events/260443108/).
+* [Apr 25. Brno, CZ - Rust Brno meetup](https://rust-brno.github.io/).
 * [Apr 26. Stuttgart, DE - Rust Meetup #2](https://gettogether.community/rust-stuttgart/)
 * [Apr 26. Berlin, DE - Oxidize Berlin Conference](https://oxidizeconf.com/).
+* [Apr 30. London, UK - Rust London User Group - LDN Talks](https://www.meetup.com/Rust-London-User-Group/events/260565918/).
 
 ### North America
 
