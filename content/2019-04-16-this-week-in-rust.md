@@ -84,6 +84,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [rustup.rs: Less copying during dist installation](https://github.com/rust-lang/rustup.rs/pull/1744)
 * [rustup.rs: Shell completions for Cargo](https://github.com/rust-lang/rustup.rs/pull/1646)
 * [Add --path option to 'rustup override set'](https://github.com/rust-lang/rustup.rs/pull/1524)
+* [clippy: suggest .copied() instead of .cloned() in map_clone lint](https://github.com/rust-lang/rust-clippy/pull/3970)
 
 ## Approved RFCs
 
