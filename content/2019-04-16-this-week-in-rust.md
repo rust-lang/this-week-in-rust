@@ -12,8 +12,6 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-**Important Update**: The *This Week in Rust* privacy policy has changed due to our migration to GitHub pages for hosting. The current policy can be accessed [here](https://this-week-in-rust.org/pages/privacy-policy.html). The git-diff can be [viewed here](https://github.com/cmr/this-week-in-rust/pull/885/files).
-
 # Updates from Rust Community
 
 ## News & Blog Posts
