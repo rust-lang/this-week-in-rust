@@ -27,7 +27,7 @@ If you can help out [send them an email](mailto:coloradogoldrust@gmail.com) or D
 
 # Crate of the Week
 
-This week's crate is [interact](https://github.com/interact-rs/interact), a framework for online introspection of the running program state. Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/513) for the suggestion!
+This week's crate is [sendfd](https://github.com/Standard-Cognition/sendfd), a simple way to send file descriptors over UNIX sockets. Thanks to [Léo Gaspard](https://users.rust-lang.org/t/crate-of-the-week/2704/514) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -51,38 +51,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-198 pull requests were [merged in the last week][merged]
+241 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-04-01..2019-04-08
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-04-08..2019-04-15
 
-* [Show better errors for LLVM IR output](https://github.com/rust-lang/rust/pull/59744)
-* [Use for_each to extend collections](https://github.com/rust-lang/rust/pull/59740)
-* [wasi: Use shared API for preopened file descriptors](https://github.com/rust-lang/rust/pull/59727)
-* [Never return uninhabited values at all](https://github.com/rust-lang/rust/pull/59639)
-* [Shrink `mir::Statement`](https://github.com/rust-lang/rust/pull/59630)
-* [Refactor async fn return type lowering](https://github.com/rust-lang/rust/pull/59286)
-* [Unsized rvalues: implement boxed closure impls](https://github.com/rust-lang/rust/pull/59500)
-* [Fixes for shallow borrows](https://github.com/rust-lang/rust/pull/59585)
-* [Suggest using anonymous lifetime in `impl Trait` return](https://github.com/rust-lang/rust/pull/58919)
-* [Fix invalid bounds string generation in rustdoc](https://github.com/rust-lang/rust/pull/58894)
-* [More restrictive 2 phase borrows - take 2](https://github.com/rust-lang/rust/pull/58739)
-* [Tweak `Span` encoding](https://github.com/rust-lang/rust/pull/58458)
-* [Add 'partition_at_index/_by/_by_key' for slices](https://github.com/rust-lang/rust/pull/55448)
-* [Support allocating iterators with arenas](https://github.com/rust-lang/rust/pull/59533)
-* [Remove duplicated code from Iterator::{ne, lt, le, gt, ge}](https://github.com/rust-lang/rust/pull/59262)
-* [Forward formatter settings to bounds of `Range<T>` in `fmt::Debug` impl](https://github.com/rust-lang/rust/pull/59596)
-* [std: Avoid usage of `Once` in `Instant`](https://github.com/rust-lang/rust/pull/59676)
-* [Improve worst-case performance of HashSet.is_subset](https://github.com/rust-lang/rust/pull/59665)
-* [Improve worst-case performance of BTreeSet intersection](https://github.com/rust-lang/rust/pull/59186)
-* [Implement useful steps_between for all integers](https://github.com/rust-lang/rust/pull/59444)
-* [cargo: Add install-upgrade](https://github.com/rust-lang/cargo/pull/6798)
-* [cargo: Improve error message to rerun a test in a workspace](https://github.com/rust-lang/cargo/pull/6824)
-* [cargo Resolve: Be less strict while offline](https://github.com/rust-lang/cargo/pull/6814)
-* [cargo: Add more suggestions on how to deal with excluding a package from a workspace](https://github.com/rust-lang/cargo/pull/6805)
-* [Allow `cargo install --path P` to load config from P](https://github.com/rust-lang/cargo/pull/6804)
-* [Allow `cargo doc --open` with multiple packages](https://github.com/rust-lang/cargo/pull/6803)
-* [Speed up rustdoc run](https://github.com/rust-lang/rust/pull/59452)
-* [crates.io: Add monitoring for common spam patterns](https://github.com/rust-lang/crates.io/pull/1678)
+* [save-analysis: Pull associated type definition using `qpath_def`](https://github.com/rust-lang/rust/pull/59894)
+* [Recover from missing semicolon based on the found token](https://github.com/rust-lang/rust/pull/59866)
+* [Increase `Span` from 4 bytes to 8 bytes](https://github.com/rust-lang/rust/pull/59693)
+* [proc_macro: Stop using LEB128 for RPC](https://github.com/rust-lang/rust/pull/59820)
+* [Remove duplicated redundant spans](https://github.com/rust-lang/rust/pull/59896)
+* [Mark variables captured by reference as mutable correctly](https://github.com/rust-lang/rust/pull/59708)
+* [Suggest removing `?` to resolve type errors](https://github.com/rust-lang/rust/pull/59859)
+* [Make duplicate matcher bindings a hard error](https://github.com/rust-lang/rust/pull/59858)
+* [Improvement for comparision against fn](https://github.com/rust-lang/rust/pull/59798)
+* [Suggest importing macros from the crate root](https://github.com/rust-lang/rust/pull/59784)
+* [Function arguments should never get promoted](https://github.com/rust-lang/rust/pull/59724)
+* [miri: Implement non-deterministc mode](https://github.com/rust-lang/miri/pull/683)
+* [miri: Unsized locals and by-value dyn traits](https://github.com/rust-lang/rust/pull/59780)
+* [std: Add {`read`, `write`}`_vectored` for more types](https://github.com/rust-lang/rust/pull/59852)
+* [`MaybeUninit`: Remove deprecated functions](https://github.com/rust-lang/rust/pull/59912)
+* [Stabilize the `alloc` crate](https://github.com/rust-lang/rust/pull/59675)
+* [Improve warning in `cargo new` with parse error](https://github.com/rust-lang/cargo/pull/6839)
+* [rustup.rs: Less copying during dist installation](https://github.com/rust-lang/rustup.rs/pull/1744)
+* [rustup.rs: Shell completions for Cargo](https://github.com/rust-lang/rustup.rs/pull/1646)
+* [Add --path option to 'rustup override set'](https://github.com/rust-lang/rustup.rs/pull/1524)
 
 ## Approved RFCs
 
@@ -164,7 +156,9 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-Sadly there was no suggestion this week.
+> Confusion is a product type.
+
+– [/u/casual-cryptarch on /r/rust](https://www.reddit.com/r/rust/comments/bbpqbc/how_would_you_articulate_this_difference_in_trait/eklggop/)
 
 [Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
 
