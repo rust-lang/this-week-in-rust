@@ -32,6 +32,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * The [CFP for Colorado Gold Rust](https://cfp.cogoldrust.com/events/cogoldrust-2019) is open now. The organizers are also looking for volunteers to help people draft talk proposals. If you can help out [send them an email](mailto:coloradogoldrust@gmail.com) or DM them on Twitter at [@COGoldRust](https://twitter.com/cogoldrust).
+* The [CFP for "Everything in Rust" in COSCUP](https://blog.coscup.org/2019/04/2019-cfp-open.html#rust) is open now. Rust Taiwan Community is looking for speakers. COSCUP is one of the biggest open source conferences in Asia and takes place in Taipei, Taiwan.
 * [discussion] [tetra: Is the OpenGL layer safe](https://github.com/17cupsofcoffee/tetra/issues/117)? Tetra is a simple 2D game framework written in Rust.
 * [easy] [ruma-api-macros: Look into removing trait import names in generated code](https://github.com/ruma/ruma-api-macros/issues/16).
 * [medium] [ruma-api-macros: Properly handle all possible run time panics](https://github.com/ruma/ruma-api-macros/issues/5).
