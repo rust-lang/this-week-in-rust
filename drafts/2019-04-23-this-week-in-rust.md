@@ -19,7 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [sendfd](https://github.com/Standard-Cognition/sendfd), a simple way to send file descriptors over UNIX sockets. Thanks to [Léo Gaspard](https://users.rust-lang.org/t/crate-of-the-week/2704/514) for the suggestion!
+This week's crate is [color-backtrace](https://github.com/athre0z/color-backtrace), a crate to give panic backtraces more information (and some color, too). Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/518) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -48,30 +48,27 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-241 pull requests were [merged in the last week][merged]
+221 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-04-08..2019-04-15
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-04-15..2019-04-22
 
-* [save-analysis: Pull associated type definition using `qpath_def`](https://github.com/rust-lang/rust/pull/59894)
-* [Recover from missing semicolon based on the found token](https://github.com/rust-lang/rust/pull/59866)
-* [Increase `Span` from 4 bytes to 8 bytes](https://github.com/rust-lang/rust/pull/59693)
-* [proc_macro: Stop using LEB128 for RPC](https://github.com/rust-lang/rust/pull/59820)
-* [Remove duplicated redundant spans](https://github.com/rust-lang/rust/pull/59896)
-* [Mark variables captured by reference as mutable correctly](https://github.com/rust-lang/rust/pull/59708)
-* [Suggest removing `?` to resolve type errors](https://github.com/rust-lang/rust/pull/59859)
-* [Make duplicate matcher bindings a hard error](https://github.com/rust-lang/rust/pull/59858)
-* [Improvement for comparision against fn](https://github.com/rust-lang/rust/pull/59798)
-* [Suggest importing macros from the crate root](https://github.com/rust-lang/rust/pull/59784)
-* [Function arguments should never get promoted](https://github.com/rust-lang/rust/pull/59724)
-* [miri: Implement non-deterministc mode](https://github.com/rust-lang/miri/pull/683)
-* [miri: Unsized locals and by-value dyn traits](https://github.com/rust-lang/rust/pull/59780)
-* [std: Add {`read`, `write`}`_vectored` for more types](https://github.com/rust-lang/rust/pull/59852)
-* [`MaybeUninit`: Remove deprecated functions](https://github.com/rust-lang/rust/pull/59912)
-* [Stabilize the `alloc` crate](https://github.com/rust-lang/rust/pull/59675)
-* [Improve warning in `cargo new` with parse error](https://github.com/rust-lang/cargo/pull/6839)
-* [rustup.rs: Less copying during dist installation](https://github.com/rust-lang/rustup.rs/pull/1744)
-* [rustup.rs: Shell completions for Cargo](https://github.com/rust-lang/rustup.rs/pull/1646)
-* [Add --path option to 'rustup override set'](https://github.com/rust-lang/rustup.rs/pull/1524)
+* [Implement event filtering for self-profiler](https://github.com/rust-lang/rust/pull/59915)
+* [Continue evaluating after missing main](https://github.com/rust-lang/rust/pull/59903)
+* [Point at try `?` on errors affecting the err match arm of the desugared code](https://github.com/rust-lang/rust/pull/60064)
+* [Make const parameters enforce no variance constraints](https://github.com/rust-lang/rust/pull/60058)
+* [save-analysis: Use serde instead of libserialize to dump JSON data](https://github.com/rust-lang/rust/pull/60053)
+* [Fix ICE on const evaluation of const method](https://github.com/rust-lang/rust/pull/60048)
+* [Specialize `nth_back()` for `Bytes`, `Fuse` and `Enumerate`](https://github.com/rust-lang/rust/pull/60023)
+* [Fix the max value of `usize` on 16-bit platforms](https://github.com/rust-lang/rust/pull/60013)
+* [Fix `LinkedList` invalidating mutable references](https://github.com/rust-lang/rust/pull/60072)
+* [Allow multiple args to `dbg!(..)`](https://github.com/rust-lang/rust/pull/59826)
+* [Add `must_use` annotations to `Result::is_ok` and `is_err`](https://github.com/rust-lang/rust/pull/59648)
+* [chalk: Remove coinductive_traits from `ProgramEnvironment`](https://github.com/rust-lang/chalk/pull/213)
+* [chalk: Simplify crate structure](https://github.com/rust-lang/chalk/pull/215)
+* [cargo: Treat HTTP/2 stream errors as spurious network errors](https://github.com/rust-lang/cargo/pull/6861)
+* [cargo: Validate registry token before operations that require it](https://github.com/rust-lang/cargo/pull/6854)
+* [cargo: Pass `OsStr`/`OsString` args through to the process spawned by cargo run](https://github.com/rust-lang/cargo/pull/6849)
+* [rustdoc: Remove `default` keyword from re-exported trait methods](https://github.com/rust-lang/rust/pull/59978)
 
 ## Approved RFCs
 
