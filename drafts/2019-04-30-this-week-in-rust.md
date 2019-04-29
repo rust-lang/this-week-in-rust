@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [color-backtrace](https://github.com/athre0z/color-backtrace), a crate to give panic backtraces more information (and some color, too). Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/518) for the suggestion!
+This week's crate is [cast-rs](https://github.com/japaric/cast), a crate with ergonomic, checked cast functions for primitive types. Thanks to [mark-i-m](https://users.rust-lang.org/t/crate-of-the-week/2704/525) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -43,27 +43,21 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-221 pull requests were [merged in the last week][merged]
+229 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-04-15..2019-04-22
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-04-22..2019-04-29
 
-* [Implement event filtering for self-profiler](https://github.com/rust-lang/rust/pull/59915)
-* [Continue evaluating after missing main](https://github.com/rust-lang/rust/pull/59903)
-* [Point at try `?` on errors affecting the err match arm of the desugared code](https://github.com/rust-lang/rust/pull/60064)
-* [Make const parameters enforce no variance constraints](https://github.com/rust-lang/rust/pull/60058)
-* [save-analysis: Use serde instead of libserialize to dump JSON data](https://github.com/rust-lang/rust/pull/60053)
-* [Fix ICE on const evaluation of const method](https://github.com/rust-lang/rust/pull/60048)
-* [Specialize `nth_back()` for `Bytes`, `Fuse` and `Enumerate`](https://github.com/rust-lang/rust/pull/60023)
-* [Fix the max value of `usize` on 16-bit platforms](https://github.com/rust-lang/rust/pull/60013)
-* [Fix `LinkedList` invalidating mutable references](https://github.com/rust-lang/rust/pull/60072)
-* [Allow multiple args to `dbg!(..)`](https://github.com/rust-lang/rust/pull/59826)
-* [Add `must_use` annotations to `Result::is_ok` and `is_err`](https://github.com/rust-lang/rust/pull/59648)
-* [chalk: Remove coinductive_traits from `ProgramEnvironment`](https://github.com/rust-lang/chalk/pull/213)
-* [chalk: Simplify crate structure](https://github.com/rust-lang/chalk/pull/215)
-* [cargo: Treat HTTP/2 stream errors as spurious network errors](https://github.com/rust-lang/cargo/pull/6861)
-* [cargo: Validate registry token before operations that require it](https://github.com/rust-lang/cargo/pull/6854)
-* [cargo: Pass `OsStr`/`OsString` args through to the process spawned by cargo run](https://github.com/rust-lang/cargo/pull/6849)
-* [rustdoc: Remove `default` keyword from re-exported trait methods](https://github.com/rust-lang/rust/pull/59978)
+* [Introduce `hir::ExprKind::Use` and employ in for loop desugaring](https://github.com/rust-lang/rust/pull/60225)
+* [Future-proof MIR for dedicated debuginfo](https://github.com/rust-lang/rust/pull/56278)
+* [Add `f16c` target_feature](https://github.com/rust-lang/rust/pull/60191)
+* [Fix `sync_all` on macos/ios](https://github.com/rust-lang/rust/pull/60121)
+* [Implement `saturating_abs()` and `saturating_neg()` functions for signed integer types](https://github.com/rust-lang/rust/pull/60192)
+* [Replace HashMap implementation with SwissTable (as an external crate)](https://github.com/rust-lang/rust/pull/58623)
+* [Stabilize `Iterator::copied`](https://github.com/rust-lang/rust/pull/60333)
+* [Stabilize `pointer::align_offset`](https://github.com/rust-lang/rust/pull/60303)
+* [Const-stabilize `std::mem::needs_drop`](https://github.com/rust-lang/rust/pull/60364)
+* [cargo: Support relative paths for registries](https://github.com/rust-lang/cargo/pull/6873)
+* [Set `cfg(test)` when rustdoc is running with `--test` option](https://github.com/rust-lang/rust/pull/59940)
 
 ## Approved RFCs
 
@@ -150,9 +144,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> Clippy’s Favorite Activity Is Criticizing Clippy’s Codebase
 
-[Please submit your quotes for next week](http://users.rust-lang.org/t/twir-quote-of-the-week/328)!
+[ReductRs on twitter](https://mobile.twitter.com/reduct_rs/status/1121439213772333058)!
+
+Llogiq is pretty self-congratulatory for picking this awesome quote.
+
+[Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
 *This Week in Rust is edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [Flavsditz](https://github.com/Flavsditz).*
 
