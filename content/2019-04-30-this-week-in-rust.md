@@ -32,7 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [cast-rs](https://github.com/japaric/cast), a crate with ergonomic, checked cast functions for primitive types. Thanks to [mark-i-m](https://users.rust-lang.org/t/crate-of-the-week/2704/525) for the suggestion!
+This week's crate is [cast-rs](https://github.com/japaric/cast.rs), a crate with ergonomic, checked cast functions for primitive types. Thanks to [mark-i-m](https://users.rust-lang.org/t/crate-of-the-week/2704/525) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
