@@ -16,6 +16,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* 🎈🎉 [Announcing Rust 1.34.1](https://blog.rust-lang.org/2019/04/25/Rust-1.34.1.html). 🎉🎈
+* [Await syntax discussion summary](https://internals.rust-lang.org/t/await-syntax-discussion-summary/9914).
+* [A (type-based) Rust cheatsheet](https://upsuper.github.io/rust-cheatsheet/).
+* [Writing an OS in Rust: Testing](https://os.phil-opp.com/testing/).
+* [How Rust solved dependency hell](https://stephencoakley.com/2019/04/24/how-rust-solved-dependency-hell).
+* [Creating crossplatform Rust terminal apps](http://www.jonathanturner.org/2019/04/porting-the-pikachu.html).
+* [10 key learnings in Rust after 30,000 lines of code](https://medium.com/@jondot/my-key-learnings-after-30-000-loc-in-rust-a553e6403c19).
+* [UWP port is in progress](https://www.reddit.com/r/rust/comments/bhffwn/uwp_port_is_in_progress/).
+* [Mozilla IRC sunset and the Rust channel](https://blog.rust-lang.org/2019/04/26/Mozilla-IRC-Sunset-and-the-Rust-Channel.html).
+* [Giving up on wlroots-rs](http://way-cooler.org/blog/2019/04/29/rewriting-way-cooler-in-c.html).
+* [Making Sandspiel (a falling sand game in Rust and Wasm)](https://maxbittker.com/making-sandspiel).
+* [Implementing tile encoding in rav1e](https://blog.rom1v.com/2019/04/implementing-tile-encoding-in-rav1e/).
+
 # Crate of the Week
 
 This week's crate is [cast-rs](https://github.com/japaric/cast), a crate with ergonomic, checked cast functions for primitive types. Thanks to [mark-i-m](https://users.rust-lang.org/t/crate-of-the-week/2704/525) for the suggestion!
@@ -31,11 +44,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* The [CFP for "Everything in Rust" in COSCUP](https://blog.coscup.org/2019/04/2019-cfp-open.html#rust) is open now. Rust Taiwan Community is looking for speakers. COSCUP is one of the biggest open source conferences in Asia and takes place in Taipei, Taiwan.
-* The [CFP for Colorado Gold Rust](https://cfp.cogoldrust.com/events/cogoldrust-2019) is open now. The organizers are also looking for volunteers to help people draft talk proposals. If you can help out [send them an email](mailto:coloradogoldrust@gmail.com) or DM them on Twitter at [@COGoldRust](https://twitter.com/cogoldrust).
-* [Evolution Island: Amethyst showcase game looking for collaborators](https://www.reddit.com/r/rust/comments/bf65l3/evolution_island_amethyst_showcase_game_looking/).
-* [good first issue] [futures-jsonrpc: Handler track request/reply](https://github.com/vlopes11/futures-jsonrpc/issues/2).
-* [Out-of-band crate evaluation for 2019-04-19: uuid](https://internals.rust-lang.org/t/out-of-band-crate-evaluation-for-2019-04-19-uuid/9848).
+*No issues were proposed for CfP*.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -47,12 +56,13 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-04-22..2019-04-29
 
+* [Stabilize futures_api](https://github.com/rust-lang/rust/pull/59739).
+* [Replace HashMap implementation with SwissTable (as an external crate)](https://github.com/rust-lang/rust/pull/58623)
 * [Introduce `hir::ExprKind::Use` and employ in for loop desugaring](https://github.com/rust-lang/rust/pull/60225)
 * [Future-proof MIR for dedicated debuginfo](https://github.com/rust-lang/rust/pull/56278)
 * [Add `f16c` target_feature](https://github.com/rust-lang/rust/pull/60191)
 * [Fix `sync_all` on macos/ios](https://github.com/rust-lang/rust/pull/60121)
 * [Implement `saturating_abs()` and `saturating_neg()` functions for signed integer types](https://github.com/rust-lang/rust/pull/60192)
-* [Replace HashMap implementation with SwissTable (as an external crate)](https://github.com/rust-lang/rust/pull/58623)
 * [Stabilize `Iterator::copied`](https://github.com/rust-lang/rust/pull/60333)
 * [Stabilize `pointer::align_offset`](https://github.com/rust-lang/rust/pull/60303)
 * [Const-stabilize `std::mem::needs_drop`](https://github.com/rust-lang/rust/pull/60364)
@@ -65,7 +75,8 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2645: Transparent Unions and Enums](https://github.com/rust-lang/rfcs/pull/2645).
+* [RFC 2565: Attributes in formal function parameter position](https://github.com/rust-lang/rfcs/pull/2565).
 
 ## Final Comment Period
 
@@ -75,20 +86,23 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Attributes in formal function parameter position](https://github.com/rust-lang/rfcs/pull/2565).
+* [disposition: merge] [Allow arbitrary enums to have explicit discriminants](https://github.com/rust-lang/rfcs/pull/2363).
+* [disposition: merge] [Symbol Mangling v2](https://github.com/rust-lang/rfcs/pull/2603).
+* [disposition: merge] [Introduce "compiler-team contributors"](https://github.com/rust-lang/rfcs/pull/2689).
+* [disposition: postpone] [Changing the overflow behavior for usize in release builds to panic](https://github.com/rust-lang/rfcs/pull/2635).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [[Stabilization] Future APIs](https://github.com/rust-lang/rust/issues/59725).
-* [disposition: merge] [Tracking issue for vectored IO support](https://github.com/rust-lang/rust/issues/58452).
-* [disposition: merge] [Tracking issue for Iterator::copied](https://github.com/rust-lang/rust/issues/57127).
+* [disposition: merge] [Stabilize the core::array module and reexport in std (for TryFromSliceError)](https://github.com/rust-lang/rust/issues/60014).
+* [disposition: merge] [Tracking issue for DoubleEndedIterator::nth_back](https://github.com/rust-lang/rust/issues/56995).
+* [disposition: merge] [Experimentally add `ffi_const` and `ffi_pure` extern fn attributes](https://github.com/rust-lang/rust/pull/58327).
 * [disposition: merge] [Implement `iter::Sum` and `iter::Product` for `Option`](https://github.com/rust-lang/rust/pull/58975).
+* [disposition: merge] [std: Derive `Default` for `io::Cursor`](https://github.com/rust-lang/rust/pull/60234).
 
 ## New RFCs
 
-* [Add `f16b` floating-point type for native support of `bfloat16`](https://github.com/rust-lang/rfcs/pull/2690).
-* [Allow floating-point operations to provide extra precision than specified, as an optimization](https://github.com/rust-lang/rfcs/pull/2686).
-* [Introduce "compiler-team contributors"](https://github.com/rust-lang/rfcs/pull/2689).
+* [Add Unicode Annex 31 methods to `char`](https://github.com/rust-lang/rfcs/pull/2693).
 
 # Upcoming Events
 
@@ -98,35 +112,27 @@ decision. Express your opinions now.
 
 ### Asia Pacific
 
-* [Apr 20. Beijing, CN - RustCon Asia](https://rustcon.asia/).
-* [Apr 20. Taipei, TW - Rust Taiwan Meetup](https://www.facebook.com/events/400895290642737/).
-* [Apr 24. Tokyo, JP - Tokyo Rust Meetup](https://rust.connpass.com/event/125666/).
 * [May  6. Auckland, NZ - Rust AKL - Rust Debugging Techniques + Lightening Talks](https://www.meetup.com/rust-akl/events/259480601/).
 * [May  8. Kuala Lumpur, MY - Rust Meetup May 2019](https://docs.google.com/forms/d/e/1FAIpQLScUHpCLPMF8I1QxA_WnIz9bipalrNsUckSyLMysGGNB5y0Lyw/viewform).
 
 ### Europe
 
-* [Apr 25. Paris, FR - Rust Paris meetup #44](https://www.meetup.com/Rust-Paris/events/260443108/).
-* [Apr 25. Brno, CZ - Rust Brno meetup](https://rust-brno.github.io/).
-* [Apr 26. Stuttgart, DE - Rust Meetup #2](https://gettogether.community/rust-stuttgart/)
-* [Apr 26. Berlin, DE - Oxidize Berlin Conference](https://oxidizeconf.com/).
-* [Apr 30. London, UK - Rust London User Group - LDN Talks](https://www.meetup.com/Rust-London-User-Group/events/260565918/).
-* [Apr 30. Vienna, AT - Rust Meetup](https://www.meetup.com/Rust-Vienna/events/260693863/).
-* [May  1. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzhbcb/).
 * [May  2. Munich, DE - Rust Munich - Rust libp2p](https://www.meetup.com/rust-munich/events/259984522/).
+* [May  2. Zagreb, HR - Rust Meetup 201905: WebAssembly <3 Rust](https://www.meetup.com/Zagreb-Rust-Meetup/events/260942646/).
 * [May  6. Budapest, HU - Rust Hungary Meetup](https://www.meetup.com/Rust-Hungary-Meetup/events/260651034/).
 * [May  9. Wrocław, PL - Rust Wroclaw Meetup #10](https://www.meetup.com/Rust-Wroclaw/events/260858425/).
 * [May  9. Berlin, DE - Rust+GNOME 2019 Hackfest#5](https://wiki.gnome.org/Hackfests/Rust2019).
+* [May 15. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzhbtb/).
+* [May 15. Helsinki, FI - Rust meetup May](https://www.meetup.com/Finland-Rust-Meetup/events/260939025/).
 
 ### North America
 
-* [Apr 25. San Francisco, US - WebAssembly SF - Let's talk about Rust and a microkernel @ Cloudflare](https://www.meetup.com/wasmsf/events/260288977/).
-* [Apr 30. Dallas, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyzgbnc/).
-* [May  1. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/hjrwvqyzhbcb/).
-* [May  1. Atlanta, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/lgtvsqyzhbcb/).
+* [May  8. Mesa, US - Desert Rust: Rust Study Group (booze.rs)](https://www.meetup.com/Desert-Rustaceans/events/xbfdtqyzhblb/).
 * [May  9. San Diego, US - San Diego Rust May Meetup](https://www.meetup.com/San-Diego-Rust/events/260763786/).
 * [May  9. Arlington, US - Rust DC — Mid-month Rustful](https://www.meetup.com/RustDC/events/260559957).
 * [May  9. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyzhbmb/).
+* [May 14. Seattle, US - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/nzfspqyzhbsb/).
+* [May 15. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/fzqqwqyzhbtb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -137,8 +143,8 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Blockchain Runtime Engineer at Parity, Berlin, DE or remote](https://twitter.com/ParityTech/status/1120303295606788097).
-* [Senior Firware Engineer (Rust/C) at Helium, San Francisco, US](https://angel.co/helium-2/jobs/541447-senior-firware-engineer-rust-c).
+* [Mozilla is hiring for the Rust Team](https://internals.rust-lang.org/t/mozilla-is-hiring-for-the-rust-team-2019/9949).
+* [Developer Advocate at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-developer-advocate).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
