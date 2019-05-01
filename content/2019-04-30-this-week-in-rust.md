@@ -28,6 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Giving up on wlroots-rs](http://way-cooler.org/blog/2019/04/29/rewriting-way-cooler-in-c.html).
 * [Making Sandspiel (a falling sand game in Rust and Wasm)](https://maxbittker.com/making-sandspiel).
 * [Implementing tile encoding in rav1e](https://blog.rom1v.com/2019/04/implementing-tile-encoding-in-rav1e/).
+* [Stacked Borrows 2](https://www.ralfj.de/blog/2019/04/30/stacked-borrows-2.html) with more precise tracking of shared references.
 
 # Crate of the Week
 
