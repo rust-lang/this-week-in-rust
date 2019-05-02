@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+[Using Wasmer for Plugins Part 4](https://wiredforge.com/blog/wasmer-plugin-pt-4/index.html)
 
 # Crate of the Week
 
