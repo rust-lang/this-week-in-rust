@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Hawk: Image Recognition Application using Rust and AWS Services](https://blog.knoldus.com/hawk-image-recognition-project-using-rust-and-aws-services/).
+
 # Crate of the Week
 
 This week's crate is [cast-rs](https://github.com/japaric/cast), a crate with ergonomic, checked cast functions for primitive types. Thanks to [mark-i-m](https://users.rust-lang.org/t/crate-of-the-week/2704/525) for the suggestion!
