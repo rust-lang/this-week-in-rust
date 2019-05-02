@@ -111,6 +111,7 @@ decision. Express your opinions now.
 * [May  9. Berlin, DE - Rust+GNOME 2019 Hackfest#5](https://wiki.gnome.org/Hackfests/Rust2019).
 * [May 15. Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzhbtb/).
 * [May 15. Helsinki, FI - Rust meetup May](https://www.meetup.com/Finland-Rust-Meetup/events/260939025/).
+* [May 22. Erlangen, DE - Rust Franken Meetup #0](https://www.meetup.com/Rust-NERF/events/261101152/).
 
 ### North America
 
