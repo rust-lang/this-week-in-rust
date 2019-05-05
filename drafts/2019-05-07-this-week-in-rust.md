@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Explained: Futures in Rust for Web Development](https://dev.to/gruberb/explained-rust-futures-for-web-development-a10)
 
 # Crate of the Week
 
