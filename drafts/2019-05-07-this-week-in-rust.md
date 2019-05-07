@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [cast-rs](https://github.com/japaric/cast), a crate with ergonomic, checked cast functions for primitive types. Thanks to [mark-i-m](https://users.rust-lang.org/t/crate-of-the-week/2704/525) for the suggestion!
+This week's crate is [select-rustc](https://crates.io/crates/select-rustc), a crate for conditional compilation according to rustc version. Thanks to [ehsanmok](https://users.rust-lang.org/t/crate-of-the-week/2704/531) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -39,22 +39,23 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-229 pull requests were [merged in the last week][merged]
+235 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-04-22..2019-04-29
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-04-29..2019-05-06
 
-* [Stabilize futures_api](https://github.com/rust-lang/rust/pull/59739).
-* [Replace HashMap implementation with SwissTable (as an external crate)](https://github.com/rust-lang/rust/pull/58623)
-* [Introduce `hir::ExprKind::Use` and employ in for loop desugaring](https://github.com/rust-lang/rust/pull/60225)
-* [Future-proof MIR for dedicated debuginfo](https://github.com/rust-lang/rust/pull/56278)
-* [Add `f16c` target_feature](https://github.com/rust-lang/rust/pull/60191)
-* [Fix `sync_all` on macos/ios](https://github.com/rust-lang/rust/pull/60121)
-* [Implement `saturating_abs()` and `saturating_neg()` functions for signed integer types](https://github.com/rust-lang/rust/pull/60192)
-* [Stabilize `Iterator::copied`](https://github.com/rust-lang/rust/pull/60333)
-* [Stabilize `pointer::align_offset`](https://github.com/rust-lang/rust/pull/60303)
-* [Const-stabilize `std::mem::needs_drop`](https://github.com/rust-lang/rust/pull/60364)
-* [cargo: Support relative paths for registries](https://github.com/rust-lang/cargo/pull/6873)
-* [Set `cfg(test)` when rustdoc is running with `--test` option](https://github.com/rust-lang/rust/pull/59940)
+* [Stop `-O`/`-C opt-level` and `-g`/`-C debuginfo` conflicting](https://github.com/rust-lang/rust/pull/60426)
+* [The Genesis of Generic Germination](https://github.com/rust-lang/rust/pull/53645)
+* [Avoid repeated interning of static strings](https://github.com/rust-lang/rust/pull/60467)
+* [Suggest `try_into` when possible](https://github.com/rust-lang/rust/pull/60159)
+* [Suggest using an inclusive range instead of an exclusive range when the endpoint overflows by 1](https://github.com/rust-lang/rust/pull/60330)
+* [Search for incompatible universes in borrow errors](https://github.com/rust-lang/rust/pull/60327)
+* [Constrain all regions in the concrete type for an opaque type](https://github.com/rust-lang/rust/pull/60449)
+* [Const propagation refactoring](https://github.com/rust-lang/rust/pull/60457)
+* [Implement `BorrowMut<str>` for `String`](https://github.com/rust-lang/rust/pull/60404)
+* [Stabilize vectored IO](https://github.com/rust-lang/rust/pull/60334)
+* [Stabilize `str::as_mut_ptr`](https://github.com/rust-lang/rust/pull/60356)
+* [Add `Option::flatten` and `Into<Option<_>> for Option<Option<_>>`](https://github.com/rust-lang/rust/pull/60256)
+* [cargo: Add some help with updating the registry in offline mode](https://github.com/rust-lang/cargo/pull/6871)
 
 ## Approved RFCs
 
@@ -138,9 +139,9 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Clippy’s Favorite Activity Is Criticizing Clippy’s Codebase
+> A compile_fail test that fails to fail to compile is also a failure.
 
-[ReductRs on twitter](https://mobile.twitter.com/reduct_rs/status/1121439213772333058)!
+[David Tolnay in the try-build README](https://github.com/dtolnay/trybuild/blob/f4abe7607480e74db1905800ea858bab145c3740/README.md)
 
 Llogiq is pretty self-congratulatory for picking this awesome quote.
 
