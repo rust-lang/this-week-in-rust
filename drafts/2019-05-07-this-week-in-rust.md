@@ -14,10 +14,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-* [Rust parallelism for non-C/C++ developers](https://medium.com/nearprotocol/rust-parallelism-for-non-c-c-developers-ec23f48b7e56)
-
 ## News & Blog Posts
-[Using Wasmer for Plugins Part 4](https://wiredforge.com/blog/wasmer-plugin-pt-4/index.html)
+
+* [A final proposal for await syntax](https://boats.gitlab.io/blog/post/await-decision/).
+* [Cargo in 2019](https://www.ncameron.org/blog/cargo-in-2019/).
+* [Const generics: a summary of progress so far](https://github.com/rust-lang/rust/issues/44580#issuecomment-488819344).
+* [Rust parallelism for non-C/C++ developers](https://medium.com/nearprotocol/rust-parallelism-for-non-c-c-developers-ec23f48b7e56).
+* [Writing an OS in Rust: Updates in April 2019](https://os.phil-opp.com/status-update/2019-05-01/).
+* [A Guide to Rust Graphics Libraries as of 2019](https://wiki.alopex.li/AGuideToRustGraphicsLibraries2019).
+* [World's first private Cargo registry](https://blog.cloudsmith.io/2019/05/01/worlds-first-private-cargo-registry/).
+* [Compile-time coprocessor codegen, with Rust macros](https://guiand.xyz/blog-posts/macro-assembly-codegen.html).
+* [Using Wasmer for plugins part 4](https://wiredforge.com/blog/wasmer-plugin-pt-4/index.html)
 
 # Crate of the Week
 
@@ -66,8 +73,8 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2645: Transparent Unions and Enums](https://github.com/rust-lang/rfcs/pull/2645).
-* [RFC 2565: Attributes in formal function parameter position](https://github.com/rust-lang/rfcs/pull/2565).
+* [RFC 2689: Introduce "compiler-team contributors"](https://github.com/rust-lang/rfcs/pull/2689).
+* [RFC 2363: Allow arbitrary enums to have explicit discriminants](https://github.com/rust-lang/rfcs/pull/2363).
 
 ## Final Comment Period
 
@@ -77,56 +84,46 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Allow arbitrary enums to have explicit discriminants](https://github.com/rust-lang/rfcs/pull/2363).
 * [disposition: merge] [Symbol Mangling v2](https://github.com/rust-lang/rfcs/pull/2603).
-* [disposition: merge] [Introduce "compiler-team contributors"](https://github.com/rust-lang/rfcs/pull/2689).
-* [disposition: postpone] [Changing the overflow behavior for usize in release builds to panic](https://github.com/rust-lang/rfcs/pull/2635).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [[Stabilization] Future APIs](https://github.com/rust-lang/rust/issues/59725).
+* [disposition: merge] [Document the order of {Vec,VecDeque,String}::retain](https://github.com/rust-lang/rust/pull/60396).
+* [disposition: merge] [const-stabilize NonNull::dangling and NonNull::cast](https://github.com/rust-lang/rust/pull/60244).
+* [disposition: merge] [std: Derive `Default` for `io::Cursor`](https://github.com/rust-lang/rust/pull/60234).
+* [disposition: merge] [Implement DoubleEndedIterator for CaseMappingIter](https://github.com/rust-lang/rust/pull/60112).
 * [disposition: merge] [Stabilize the core::array module and reexport in std (for TryFromSliceError)](https://github.com/rust-lang/rust/issues/60014).
 * [disposition: merge] [Tracking issue for DoubleEndedIterator::nth_back](https://github.com/rust-lang/rust/issues/56995).
-* [disposition: merge] [Experimentally add `ffi_const` and `ffi_pure` extern fn attributes](https://github.com/rust-lang/rust/pull/58327).
-* [disposition: merge] [Implement `iter::Sum` and `iter::Product` for `Option`](https://github.com/rust-lang/rust/pull/58975).
-* [disposition: merge] [std: Derive `Default` for `io::Cursor`](https://github.com/rust-lang/rust/pull/60234).
 
 ## New RFCs
 
-* [Add Unicode Annex 31 methods to `char`](https://github.com/rust-lang/rfcs/pull/2693).
+* [Add key and value methods to DebugMap](https://github.com/rust-lang/rfcs/pull/2696).
 
 # Upcoming Events
 
-### Africa
-
-* [May  2. Johannesburg, ZA - Johannesburg meetup - Everybody Borrows](https://www.meetup.com/Johannesburg-Rust-Meetup/events/gpxrtqyzhbcb/).
-
-### Asia Pacific
-
-* [May  6. Auckland, NZ - Rust AKL - Rust Debugging Techniques + Lightening Talks](https://www.meetup.com/rust-akl/events/259480601/).
-* [May  8. Kuala Lumpur, MY - Rust Meetup May 2019](https://docs.google.com/forms/d/e/1FAIpQLScUHpCLPMF8I1QxA_WnIz9bipalrNsUckSyLMysGGNB5y0Lyw/viewform).
-
 ### Europe
 
-* [May  2. Munich, DE - Rust Munich - Rust libp2p](https://www.meetup.com/rust-munich/events/259984522/).
-* [May  2. Zagreb, HR - Rust Meetup 201905: WebAssembly <3 Rust](https://www.meetup.com/Zagreb-Rust-Meetup/events/260942646/).
-* [May  6. Budapest, HU - Rust Hungary Meetup](https://www.meetup.com/Rust-Hungary-Meetup/events/260651034/).
 * [May  9. Wrocław, PL - Rust Wroclaw Meetup #10](https://www.meetup.com/Rust-Wroclaw/events/260858425/).
 * [May  9. Berlin, DE - Rust+GNOME 2019 Hackfest#5](https://wiki.gnome.org/Hackfests/Rust2019).
-* [May 14. Barcelona, ES - BcnRust Meetup](https://www.meetup.com/es-ES/BcnRust/events/261043339/).
+* [May 14. Barcelona, ES - BcnRust Meetup](https://www.meetup.com/BcnRust/events/261043339/).
 * [May 15. Berlin, DE - Rust and Rust Berlin Birthday Party](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzhbtb/).
 * [May 15. Helsinki, FI - Rust meetup May](https://www.meetup.com/Finland-Rust-Meetup/events/260939025/).
-* [May 15. Stuttgart, DE - Workshop: Ownership, Borrowing & Lifetimes](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/261050644/).
+* [May 15. Stuttgart, DE - Workshop: Ownership, Borrowing & Lifetimes](https://www.meetup.com/Rust-Community-Stuttgart/events/261050644/).
 * [May 22. Erlangen, DE - Rust Franken Meetup #0](https://www.meetup.com/Rust-NERF/events/261101152/).
+* [May 22. Hamburg, DE - Rust Hack & Learn May 2019](https://www.meetup.com/Rust-Meetup-Hamburg/events/260454690/).
+* [May 23. Paris, FR - Rust Paris meetup #45](https://www.meetup.com/Rust-Paris/events/260925527/).
 
 ### North America
 
-* [May  8. Mesa, US - Desert Rust: Rust Study Group (booze.rs)](https://www.meetup.com/Desert-Rustaceans/events/xbfdtqyzhblb/).
+* [May  9. Lehi, UT, US - Meetup #12: Happy Anniversary, Utah Rust](https://www.meetup.com/utah-rust/events/261148910/).
 * [May  9. San Diego, US - San Diego Rust May Meetup](https://www.meetup.com/San-Diego-Rust/events/260763786/).
 * [May  9. Arlington, US - Rust DC — Mid-month Rustful](https://www.meetup.com/RustDC/events/260559957).
 * [May  9. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyzhbmb/).
 * [May 14. Seattle, US - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/nzfspqyzhbsb/).
+* [May 15. Mexico City, MX - Rust MX - Taller de desarrollo con Rocket](https://www.meetup.com/Rust-MX/events/261254479/).
 * [May 15. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/fzqqwqyzhbtb/).
+* [May 22. Ann Arbor, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/vsncvqyzhbdc/).
+* [May 22. Mesa, AZ, US - Desert Rust - Rust: Backend Web Frameworks](https://www.meetup.com/Desert-Rustaceans/events/mkwgvqyzhbdc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -137,8 +134,8 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Mozilla is hiring for the Rust Team](https://internals.rust-lang.org/t/mozilla-is-hiring-for-the-rust-team-2019/9949).
-* [Developer Advocate at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-developer-advocate).
+* [Blockchain Runtime Engineer at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-blockchain-runtime-engineer).
+* [Senior Software Engineer, Backend - Rust at Karken, Remote](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
