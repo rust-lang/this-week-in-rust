@@ -14,6 +14,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
+* [Rust parallelism for non-C/C++ developers](https://medium.com/nearprotocol/rust-parallelism-for-non-c-c-developers-ec23f48b7e56)
+
 ## News & Blog Posts
 [Using Wasmer for Plugins Part 4](https://wiredforge.com/blog/wasmer-plugin-pt-4/index.html)
 
