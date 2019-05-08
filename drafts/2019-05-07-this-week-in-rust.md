@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+[Using Wasmer for Plugins Part 4](https://wiredforge.com/blog/wasmer-plugin-pt-4/index.html)
 
 # Crate of the Week
 
@@ -109,8 +110,10 @@ decision. Express your opinions now.
 * [May  6. Budapest, HU - Rust Hungary Meetup](https://www.meetup.com/Rust-Hungary-Meetup/events/260651034/).
 * [May  9. Wrocław, PL - Rust Wroclaw Meetup #10](https://www.meetup.com/Rust-Wroclaw/events/260858425/).
 * [May  9. Berlin, DE - Rust+GNOME 2019 Hackfest#5](https://wiki.gnome.org/Hackfests/Rust2019).
+* [May 14. Barcelona, ES - BcnRust Meetup](https://www.meetup.com/es-ES/BcnRust/events/261043339/).
 * [May 15. Berlin, DE - Rust and Rust Berlin Birthday Party](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzhbtb/).
 * [May 15. Helsinki, FI - Rust meetup May](https://www.meetup.com/Finland-Rust-Meetup/events/260939025/).
+* [May 15. Stuttgart, DE - Workshop: Ownership, Borrowing & Lifetimes](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/261050644/).
 * [May 22. Erlangen, DE - Rust Franken Meetup #0](https://www.meetup.com/Rust-NERF/events/261101152/).
 
 ### North America
