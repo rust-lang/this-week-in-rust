@@ -21,7 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Const generics: a summary of progress so far](https://github.com/rust-lang/rust/issues/44580#issuecomment-488819344).
 * [Rust parallelism for non-C/C++ developers](https://medium.com/nearprotocol/rust-parallelism-for-non-c-c-developers-ec23f48b7e56).
 * [Writing an OS in Rust: Updates in April 2019](https://os.phil-opp.com/status-update/2019-05-01/).
-* [A Guide to Rust Graphics Libraries as of 2019](https://wiki.alopex.li/AGuideToRustGraphicsLibraries2019).
+* [A guide to Rust graphics libraries as of 2019](https://wiki.alopex.li/AGuideToRustGraphicsLibraries2019).
 * [World's first private Cargo registry](https://blog.cloudsmith.io/2019/05/01/worlds-first-private-cargo-registry/).
 * [Compile-time coprocessor codegen, with Rust macros](https://guiand.xyz/blog-posts/macro-assembly-codegen.html).
 * [Using Wasmer for plugins part 4](https://wiredforge.com/blog/wasmer-plugin-pt-4/index.html)
