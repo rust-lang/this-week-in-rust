@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Security advisory for the standard library](https://blog.rust-lang.org/2019/05/13/Security-advisory.html).
 * [Update on the CI investigation](https://internals.rust-lang.org/t/update-on-the-ci-investigation/10056).
 * [2D graphics on modern GPU](https://raphlinus.github.io/rust/graphics/gpu/2019/05/08/modern-2d.html).
-* [Rust patterns: Enums instead of booleans](http://blakesmith.me/2019/05/07/rust-patterns-enums-instead-of-booleans.html).
+* [Rust patterns: enums instead of booleans](http://blakesmith.me/2019/05/07/rust-patterns-enums-instead-of-booleans.html).
 * [Asymmetric multi-processing on microcontrollers with μAMP](https://blog.japaric.io/microamp/).
 * [State of machine learning in Rust](https://ehsanmkermani.com/2019/05/13/state-of-machine-learning-in-rust/).
 
@@ -39,7 +39,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Help answer: What are the similarities and differences between C++'s concepts and Rust’s traits](https://users.rust-lang.org/t/twir-call-for-participation/4821/242).
+* [Help answer: What are the similarities and differences between C++'s concepts and Rust’s traits](https://users.rust-lang.org/t/twir-call-for-participation/4821/242)?
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
