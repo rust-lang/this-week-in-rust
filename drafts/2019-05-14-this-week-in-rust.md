@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [select-rustc](https://crates.io/crates/select-rustc), a crate for conditional compilation according to rustc version. Thanks to [ehsanmok](https://users.rust-lang.org/t/crate-of-the-week/2704/531) for the suggestion!
+This week's crate is [panic-never](https://github.com/japaric/panic-never), a crate to make every panic a link-time error. Thanks to [ehsanmok](https://users.rust-lang.org/t/crate-of-the-week/2704/544) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -39,23 +39,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-235 pull requests were [merged in the last week][merged]
+190 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-04-29..2019-05-06
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-05-06..2019-05-13
 
-* [Stop `-O`/`-C opt-level` and `-g`/`-C debuginfo` conflicting](https://github.com/rust-lang/rust/pull/60426)
-* [The Genesis of Generic Germination](https://github.com/rust-lang/rust/pull/53645)
-* [Avoid repeated interning of static strings](https://github.com/rust-lang/rust/pull/60467)
-* [Suggest `try_into` when possible](https://github.com/rust-lang/rust/pull/60159)
-* [Suggest using an inclusive range instead of an exclusive range when the endpoint overflows by 1](https://github.com/rust-lang/rust/pull/60330)
-* [Search for incompatible universes in borrow errors](https://github.com/rust-lang/rust/pull/60327)
-* [Constrain all regions in the concrete type for an opaque type](https://github.com/rust-lang/rust/pull/60449)
-* [Const propagation refactoring](https://github.com/rust-lang/rust/pull/60457)
-* [Implement `BorrowMut<str>` for `String`](https://github.com/rust-lang/rust/pull/60404)
-* [Stabilize vectored IO](https://github.com/rust-lang/rust/pull/60334)
-* [Stabilize `str::as_mut_ptr`](https://github.com/rust-lang/rust/pull/60356)
-* [Add `Option::flatten` and `Into<Option<_>> for Option<Option<_>>`](https://github.com/rust-lang/rust/pull/60256)
-* [cargo: Add some help with updating the registry in offline mode](https://github.com/rust-lang/cargo/pull/6871)
+* [Implement built-in `.await` syntax](https://github.com/rust-lang/rust/pull/60586) (Hooray!)
+* [Remove the old await! macro](https://github.com/rust-lang/rust/pull/60675)
+* [Cleanup the .await HIR lowering with .stmt(..)](https://github.com/rust-lang/rust/pull/60733)
+* [Revert "Disable big-endian simd in swap_nonoverlapping_bytes"](https://github.com/rust-lang/rust/pull/60588)
+* [syntax: introduce unescape module](https://github.com/rust-lang/rust/pull/60261)
+* [syntax_pos: Optimize symbol interner pre-filling slightly](https://github.com/rust-lang/rust/pull/60700)
+* [Keep original literal tokens in AST](https://github.com/rust-lang/rust/pull/60679)
+* [Tweak `Symbol` and `InternedString`](https://github.com/rust-lang/rust/pull/60659)
+* [Use `Symbol` more](https://github.com/rust-lang/rust/pull/60630)
+* [Better IO buffer when validating dist hashes](https://github.com/rust-lang/rustup.rs/pull/1845)
+* [Remove `hir::ExprKind::If`](https://github.com/rust-lang/rust/pull/59288)
+* [Optimize HIR map](https://github.com/rust-lang/rust/pull/60246)
+* [Fix HIR printing of existential type](https://github.com/rust-lang/rust/pull/60694)
+* [Const-stabilize `NonNull::dangling` and `NonNull::cast`](https://github.com/rust-lang/rust/pull/60244)
+* [std: Derive `Default` for `io::Cursor`](https://github.com/rust-lang/rust/pull/60234)
+* [cargo: Stabilize offline mode](https://github.com/rust-lang/cargo/pull/6934)
+* [cargo: Always include `Cargo.toml` when packaging](https://github.com/rust-lang/cargo/pull/6925)
+* [Implement the Cargo half of pipelined compilation](https://github.com/rust-lang/cargo/pull/6883)
+* [rustup: More progress bars](https://github.com/rust-lang/rustup.rs/pull/1842)
 
 ## Approved RFCs
 
@@ -132,11 +138,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> A compile_fail test that fails to fail to compile is also a failure.
+> The big gorilla 3D game framework. Apparently it actually works.
 
-[David Tolnay in the try-build README](https://github.com/dtolnay/trybuild/blob/f4abe7607480e74db1905800ea858bab145c3740/README.md)
+[SimonHeath on Amethyst](https://wiki.alopex.li/AGuideToRustGraphicsLibraries2019)
 
-Llogiq is pretty self-congratulatory for picking this awesome quote.
+Thanks to [Magnus Larsen](https://users.rust-lang.org/t/twir-quote-of-the-week/328/640) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
