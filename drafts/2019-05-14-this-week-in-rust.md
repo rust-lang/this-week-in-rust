@@ -16,6 +16,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* 🎈🎉 [Announcing Rust 1.34.2](https://blog.rust-lang.org/2019/05/14/Rust-1.34.2.html). 🎉🎈
+* [Security advisory for the standard library](https://blog.rust-lang.org/2019/05/13/Security-advisory.html).
+* [Update on the CI investigation](https://internals.rust-lang.org/t/update-on-the-ci-investigation/10056).
+* [2D graphics on modern GPU](https://raphlinus.github.io/rust/graphics/gpu/2019/05/08/modern-2d.html).
+* [Rust patterns: Enums instead of booleans](http://blakesmith.me/2019/05/07/rust-patterns-enums-instead-of-booleans.html).
+* [Asymmetric multi-processing on microcontrollers with μAMP](https://blog.japaric.io/microamp/).
+* [State of machine learning in Rust](https://ehsanmkermani.com/2019/05/13/state-of-machine-learning-in-rust/).
+
 # Crate of the Week
 
 This week's crate is [panic-never](https://github.com/japaric/panic-never), a crate to make every panic a link-time error. Thanks to [ehsanmok](https://users.rust-lang.org/t/crate-of-the-week/2704/544) for the suggestion!
@@ -31,7 +39,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-*No issues were proposed for CfP*.
+* [Help answer: What are the similarities and differences between C++'s concepts and Rust’s traits](https://users.rust-lang.org/t/twir-call-for-participation/4821/242).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -69,8 +77,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2689: Introduce "compiler-team contributors"](https://github.com/rust-lang/rfcs/pull/2689).
-* [RFC 2363: Allow arbitrary enums to have explicit discriminants](https://github.com/rust-lang/rfcs/pull/2363).
+* [RFC 2603: Symbol Mangling v2](https://github.com/rust-lang/rfcs/pull/2603).
 
 ## Final Comment Period
 
@@ -80,47 +87,47 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Symbol Mangling v2](https://github.com/rust-lang/rfcs/pull/2603).
+* [disposition: merge] [Named custom cargo profiles](https://github.com/rust-lang/rfcs/pull/2678).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Document the order of {Vec,VecDeque,String}::retain](https://github.com/rust-lang/rust/pull/60396).
-* [disposition: merge] [const-stabilize NonNull::dangling and NonNull::cast](https://github.com/rust-lang/rust/pull/60244).
-* [disposition: merge] [std: Derive `Default` for `io::Cursor`](https://github.com/rust-lang/rust/pull/60234).
-* [disposition: merge] [Implement DoubleEndedIterator for CaseMappingIter](https://github.com/rust-lang/rust/pull/60112).
-* [disposition: merge] [Stabilize the core::array module and reexport in std (for TryFromSliceError)](https://github.com/rust-lang/rust/issues/60014).
-* [disposition: merge] [Tracking issue for DoubleEndedIterator::nth_back](https://github.com/rust-lang/rust/issues/56995).
+* [disposition: merge] [Tracking issue for VecDeque::rotate_{left|right} (feature vecdeque_rotate)](https://github.com/rust-lang/rust/issues/56686).
+* [disposition: merge] [std: implement `Error` for `Box<dyn Error>`](https://github.com/rust-lang/rust/pull/58974).
+* [disposition: merge] [Stabilize ADX, TBM, and SSE4a target features](https://github.com/rust-lang/rust/pull/60109).
+* [disposition: merge] [Allow null-pointer-optimized enums in FFI if their underlying representation is FFI safe](https://github.com/rust-lang/rust/pull/60300).
+* [disposition: merge] [Stabilize core parts of MaybeUninit](https://github.com/rust-lang/rust/pull/60445).
 
 ## New RFCs
 
-* [Add key and value methods to DebugMap](https://github.com/rust-lang/rfcs/pull/2696).
+* [Deprecate stdlib modules dedicated to numeric constants and move those constants to associated consts](https://github.com/rust-lang/rfcs/pull/2700).
+* [Annotate unwind rust](https://github.com/rust-lang/rfcs/pull/2699).
 
 # Upcoming Events
 
+### Asia
+
+* [May 18. Chennai, IN - Rust Chennai - Monthly meetup - May](https://www.meetup.com/mad-rs/events/261443876/).
+* [May 25. Taipei, TW - Rust Taiwan Meetup](https://www.facebook.com/events/381254712479005/).
+* [May 27. Tokyo, JP - Tokyo Rust Meetup - Rust LT #5](https://rust.connpass.com/event/129406/).
+
 ### Europe
 
-* [May  9. Wrocław, PL - Rust Wroclaw Meetup #10](https://www.meetup.com/Rust-Wroclaw/events/260858425/).
-* [May  9. Berlin, DE - Rust+GNOME 2019 Hackfest#5](https://wiki.gnome.org/Hackfests/Rust2019).
-* [May 14. Barcelona, ES - BcnRust Meetup](https://www.meetup.com/BcnRust/events/261043339/).
-* [May 15. Berlin, DE - Rust and Rust Berlin Birthday Party](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzhbtb/).
-* [May 15. Helsinki, FI - Rust meetup May](https://www.meetup.com/Finland-Rust-Meetup/events/260939025/).
-* [May 15. Stuttgart, DE - Workshop: Ownership, Borrowing & Lifetimes](https://www.meetup.com/Rust-Community-Stuttgart/events/261050644/).
 * [May 20. Karlsruhe, DE - Rust Hack & Learn](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/261106439/).
 * [May 22. Erlangen, DE - Rust Franken Meetup #0](https://www.meetup.com/Rust-NERF/events/261101152/).
 * [May 22. Hamburg, DE - Rust Hack & Learn May 2019](https://www.meetup.com/Rust-Meetup-Hamburg/events/260454690/).
+* [May 22. Grenoble, FR - FLOSS Grenoble - Rust meetup](https://www.meetup.com/FLOSS-Grenoble/events/261250845/).
 * [May 23. Paris, FR - Rust Paris meetup #45](https://www.meetup.com/Rust-Paris/events/260925527/).
+* [May 29. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzhbmc/).
+* [May 28. Vilnius, LT - Rust Vilnius - Rust Safety and Distributed Consensus](https://www.meetup.com/Rust-in-Vilnius/events/260937510/).
 
 ### North America
 
-* [May  9. Lehi, UT, US - Meetup #12: Happy Anniversary, Utah Rust](https://www.meetup.com/utah-rust/events/261148910/).
-* [May  9. San Diego, US - San Diego Rust May Meetup](https://www.meetup.com/San-Diego-Rust/events/260763786/).
-* [May  9. Arlington, US - Rust DC — Mid-month Rustful](https://www.meetup.com/RustDC/events/260559957).
-* [May  9. Columbus, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyzhbmb/).
-* [May 14. Seattle, US - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/nzfspqyzhbsb/).
-* [May 15. Mexico City, MX - Rust MX - Taller de desarrollo con Rocket](https://www.meetup.com/Rust-MX/events/261254479/).
-* [May 15. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/fzqqwqyzhbtb/).
 * [May 22. Ann Arbor, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/vsncvqyzhbdc/).
 * [May 22. Mesa, AZ, US - Desert Rust - Rust: Backend Web Frameworks](https://www.meetup.com/Desert-Rustaceans/events/mkwgvqyzhbdc/).
+* [May 27. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzhbkc/).
+* [May 28. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyzhblc/).
+* [May 29. Vancouver, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/fzqqwqyzhbmc/).
+* [May 29. Chicago, IL, US - Chicago Rust Meetup - Unsafe Rust](https://www.meetup.com/Chicago-Rust-Meetup/events/260918979).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -131,8 +138,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Lead Software Engineer at SE4, Tokyo, JP](https://www.linkedin.com/jobs/cap/view/1162802661/).
+* [Software Engineer - Backend at SISU, San Francisco, US](https://sisu.ai/careers/?gh_jid=4057600002).
+* [Software Engineer at TenX, Singapore](https://tenx.workable.com/jobs/689264).
 * [Blockchain Runtime Engineer at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-blockchain-runtime-engineer).
-* [Senior Software Engineer, Backend - Rust at Karken, Remote](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
