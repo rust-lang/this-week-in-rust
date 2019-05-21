@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [panic-never](https://github.com/japaric/panic-never), a crate to make every panic a link-time error. Thanks to [ehsanmok](https://users.rust-lang.org/t/crate-of-the-week/2704/544) for the suggestion!
+This week we have two crates: [memory-profiles](https://github.com/nokia/memory-profiler), does what it says on the box. [momo](https://github.com/llogiq/momo) is a procedural macro that outlines generic conversions to reduce monomorphized code. Thanks to [ehsanmok](https://users.rust-lang.org/t/crate-of-the-week/2704/549) and llogiq for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -39,29 +39,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-190 pull requests were [merged in the last week][merged]
+240 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-05-06..2019-05-13
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-05-13..2019-05-20
 
-* [Implement built-in `.await` syntax](https://github.com/rust-lang/rust/pull/60586) (Hooray!)
-* [Remove the old await! macro](https://github.com/rust-lang/rust/pull/60675)
-* [Cleanup the .await HIR lowering with .stmt(..)](https://github.com/rust-lang/rust/pull/60733)
-* [Revert "Disable big-endian simd in swap_nonoverlapping_bytes"](https://github.com/rust-lang/rust/pull/60588)
-* [syntax: introduce unescape module](https://github.com/rust-lang/rust/pull/60261)
-* [syntax_pos: Optimize symbol interner pre-filling slightly](https://github.com/rust-lang/rust/pull/60700)
-* [Keep original literal tokens in AST](https://github.com/rust-lang/rust/pull/60679)
-* [Tweak `Symbol` and `InternedString`](https://github.com/rust-lang/rust/pull/60659)
-* [Use `Symbol` more](https://github.com/rust-lang/rust/pull/60630)
-* [Better IO buffer when validating dist hashes](https://github.com/rust-lang/rustup.rs/pull/1845)
-* [Remove `hir::ExprKind::If`](https://github.com/rust-lang/rust/pull/59288)
-* [Optimize HIR map](https://github.com/rust-lang/rust/pull/60246)
-* [Fix HIR printing of existential type](https://github.com/rust-lang/rust/pull/60694)
-* [Const-stabilize `NonNull::dangling` and `NonNull::cast`](https://github.com/rust-lang/rust/pull/60244)
-* [std: Derive `Default` for `io::Cursor`](https://github.com/rust-lang/rust/pull/60234)
-* [cargo: Stabilize offline mode](https://github.com/rust-lang/cargo/pull/6934)
-* [cargo: Always include `Cargo.toml` when packaging](https://github.com/rust-lang/cargo/pull/6925)
-* [Implement the Cargo half of pipelined compilation](https://github.com/rust-lang/cargo/pull/6883)
-* [rustup: More progress bars](https://github.com/rust-lang/rustup.rs/pull/1842)
+* [Move token tree related lexer state to a separate struct](https://github.com/rust-lang/rust/pull/60763)
+* [Stop using gensyms in HIR lowering](https://github.com/rust-lang/rust/pull/60960)
+* [Fix more escaping ReScopes](https://github.com/rust-lang/rust/pull/60765)
+* [Perform constant propagation into terminators](https://github.com/rust-lang/rust/pull/60745)
+* [Do some simple constant propagation in the `ConstProp` pass](https://github.com/rust-lang/rust/pull/60597)
+* [Test interaction of unions with non-zero/niche-filling optimization](https://github.com/rust-lang/rust/pull/60590)
+* [Forego caching for all participants in cycles, apart from root node](https://github.com/rust-lang/rust/pull/60444)
+* [Mark `core::alloc::Layout::from_size_align_unchecked` const](https://github.com/rust-lang/rust/pull/60370)
+* [Remove the unstable and deprecated `mpsc_select`](https://github.com/rust-lang/rust/pull/60921)
+* [Stabilize core parts of `MaybeUninit`](https://github.com/rust-lang/rust/pull/60445)
+* [Stabilize `vecdeque_rotate`](https://github.com/rust-lang/rust/pull/60678)
+* [Add entry-like methods to `HashSet`](https://github.com/rust-lang/rust/pull/60894)
+* [Add implementations of `last` in terms of `next_back` on a bunch of `DoubleEndedIterators`](https://github.com/rust-lang/rust/pull/60130)
+* [Fix display of const generics in rustdoc](https://github.com/rust-lang/rust/pull/60760)
+* [rustup: Avoid blocking on `CloseHandle`](https://github.com/rust-lang/rustup.rs/pull/1850)
+* [rustc-guide: Add documentation about profile-guided optimization](https://github.com/rust-lang/rustc-guide/pull/318)
+* [lint: convert `incoherent_fundamental_impls` into hard error](https://github.com/rust-lang/rust/pull/49799)
+* [clippy: Prevent symbocalypse](https://github.com/rust-lang/rust-clippy/pull/4110)
+* [crates.io: Fix performance regression on crate search](https://github.com/rust-lang/crates.io/pull/1746)
 
 ## Approved RFCs
 
@@ -139,11 +139,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> The big gorilla 3D game framework. Apparently it actually works.
+> Just the presence of well integrated Algebraic Data Types (ADTs) makes an incredible amount of difference. They are used to represent errors in a meaningful and easy to understand way (`Result<T>`), are used to show that a function may or may not return a meaningful value without needing a garbage value (`Option<T>`), and the optional case can even be used to wrap a null pointer scenario in a safe way (Option<Ref<T>> being the closest to a literal translation I think).
+>
+> That’s just one small feature that permeates the language. Whatever the opposite of a death-of-a-thousand-cuts is, Rust has it.
 
-[SimonHeath on Amethyst](https://wiki.alopex.li/AGuideToRustGraphicsLibraries2019)
+[tomcatfish on the orange website](https://news.ycombinator.com/item?id=19922344)
 
-Thanks to [Magnus Larsen](https://users.rust-lang.org/t/twir-quote-of-the-week/328/640) for the suggestion!
+Thanks to [PrototypeNM1](https://users.rust-lang.org/t/twir-quote-of-the-week/328/643) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
