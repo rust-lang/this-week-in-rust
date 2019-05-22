@@ -30,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [How to start Rust chat app](https://medium.com/@steadylearner/how-to-start-rust-chat-app-499a194d0820).
 * [WebRender MVP ships in Firefox](https://mozillagfx.wordpress.com/2019/05/21/graphics-team-ships-webrender-mvp/).
 * [Rust in Motion](https://www.manning.com/livevideo/rust-in-motion) - a video series by Carol Nichols and Jake Goulding (requires purchase).
+* [Rust in Action](https://www.manning.com/books/rust-in-action) - a book by Tim McNamara (early access, requires purchase).
 
 # Crate of the Week
 
