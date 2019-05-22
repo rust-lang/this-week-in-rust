@@ -159,7 +159,7 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Just the presence of well integrated Algebraic Data Types (ADTs) makes an incredible amount of difference. They are used to represent errors in a meaningful and easy to understand way (`Result<T>`), are used to show that a function may or may not return a meaningful value without needing a garbage value (`Option<T>`), and the optional case can even be used to wrap a null pointer scenario in a safe way (Option<Ref<T>> being the closest to a literal translation I think).
+> Just the presence of well integrated Algebraic Data Types (ADTs) makes an incredible amount of difference. They are used to represent errors in a meaningful and easy to understand way (`Result<T>`), are used to show that a function may or may not return a meaningful value without needing a garbage value (`Option<T>`), and the optional case can even be used to wrap a null pointer scenario in a safe way (`Option<Ref<T>>` being the closest to a literal translation I think).
 >
 > That’s just one small feature that permeates the language. Whatever the opposite of a death-of-a-thousand-cuts is, Rust has it.
 
