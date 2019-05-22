@@ -34,7 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week we have two crates: [memory-profiles](https://github.com/nokia/memory-profiler), does what it says on the box. [momo](https://github.com/llogiq/momo) is a procedural macro that outlines generic conversions to reduce monomorphized code. Thanks to [ehsanmok](https://users.rust-lang.org/t/crate-of-the-week/2704/549) and llogiq for the suggestion!
+This week we have two crates: [memory-profiler](https://github.com/nokia/memory-profiler), does what it says on the box. [momo](https://github.com/llogiq/momo) is a procedural macro that outlines generic conversions to reduce monomorphized code. Thanks to [ehsanmok](https://users.rust-lang.org/t/crate-of-the-week/2704/549) and llogiq for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
