@@ -15,6 +15,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [How to sequence in Rust](https://dev.to/kdrakon/how-to-sequence-in-rust-4nhl)
+* [Rust's Bindgen + Fuse in 2019](https://dev.to/kdrakon/rust-s-bindgen-fuse-in-2019-2e8l)
+* [Creating a 'paged' Vec in Rust](https://dev.to/kdrakon/creating-a-paged-vec-in-rust-193l)
 
 # Crate of the Week
 
