@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Programming Servo: Zen and the art of removing blocks from your system](https://medium.com/@polyglot_factotum/programming-servo-zen-and-the-art-of-removing-blocks-from-your-system-51c1b7d404e3).
 * [Announcing Mockiato - A strict, yet friendly mocking library for Rust 2018](https://blog.myelin.ch/2019/05/24/mockiato-announcement.html).
 
 # Crate of the Week
