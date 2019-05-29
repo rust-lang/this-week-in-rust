@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week we have two crates: [memory-profiles](https://github.com/nokia/memory-profiler), does what it says on the box. [momo](https://github.com/llogiq/momo) is a procedural macro that outlines generic conversions to reduce monomorphized code. Thanks to [ehsanmok](https://users.rust-lang.org/t/crate-of-the-week/2704/549) and llogiq for the suggestion!
+This week's crate is [mockiato](https://github.com/myelin-ai/mockiato), a strict yet friendly mocking library for Rust 2018. Thanks to [Ruben Schmidmeister](https://users.rust-lang.org/t/crate-of-the-week/2704/550) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -43,29 +43,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-240 pull requests were [merged in the last week][merged]
+286 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-05-13..2019-05-20
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-05-20..2019-05-27
 
-* [Move token tree related lexer state to a separate struct](https://github.com/rust-lang/rust/pull/60763)
-* [Stop using gensyms in HIR lowering](https://github.com/rust-lang/rust/pull/60960)
-* [Fix more escaping ReScopes](https://github.com/rust-lang/rust/pull/60765)
-* [Perform constant propagation into terminators](https://github.com/rust-lang/rust/pull/60745)
-* [Do some simple constant propagation in the `ConstProp` pass](https://github.com/rust-lang/rust/pull/60597)
-* [Test interaction of unions with non-zero/niche-filling optimization](https://github.com/rust-lang/rust/pull/60590)
-* [Forego caching for all participants in cycles, apart from root node](https://github.com/rust-lang/rust/pull/60444)
-* [Mark `core::alloc::Layout::from_size_align_unchecked` const](https://github.com/rust-lang/rust/pull/60370)
-* [Remove the unstable and deprecated `mpsc_select`](https://github.com/rust-lang/rust/pull/60921)
-* [Stabilize core parts of `MaybeUninit`](https://github.com/rust-lang/rust/pull/60445)
-* [Stabilize `vecdeque_rotate`](https://github.com/rust-lang/rust/pull/60678)
-* [Add entry-like methods to `HashSet`](https://github.com/rust-lang/rust/pull/60894)
-* [Add implementations of `last` in terms of `next_back` on a bunch of `DoubleEndedIterators`](https://github.com/rust-lang/rust/pull/60130)
-* [Fix display of const generics in rustdoc](https://github.com/rust-lang/rust/pull/60760)
-* [rustup: Avoid blocking on `CloseHandle`](https://github.com/rust-lang/rustup.rs/pull/1850)
-* [rustc-guide: Add documentation about profile-guided optimization](https://github.com/rust-lang/rustc-guide/pull/318)
-* [lint: convert `incoherent_fundamental_impls` into hard error](https://github.com/rust-lang/rust/pull/49799)
-* [clippy: Prevent symbocalypse](https://github.com/rust-lang/rust-clippy/pull/4110)
-* [crates.io: Fix performance regression on crate search](https://github.com/rust-lang/crates.io/pull/1746)
+* [Turn turbo 🐟 🍨 into an error](https://github.com/rust-lang/rust/pull/61189)
+* [Remove `ObsoleteInPlace`](https://github.com/rust-lang/rust/pull/60803)
+* [Make place projections concrete](https://github.com/rust-lang/rust/pull/60441)
+* [Simplify use of keyword symbols](https://github.com/rust-lang/rust/pull/60740)
+* [Fix overflowing literal lint in loops](https://github.com/rust-lang/rust/pull/61098)
+* [Use `Symbol` even more](https://github.com/rust-lang/rust/pull/60815)
+* [Use `Symbol` more in lint APIs](https://github.com/rust-lang/rust/pull/60827)
+* [Move gensym operations from `Symbol` to `Ident`](https://github.com/rust-lang/rust/pull/60903)
+* [Avoid symbol interning in `file_metadata`](https://github.com/rust-lang/rust/pull/60973)
+* [Avoid more symbol interning](https://github.com/rust-lang/rust/pull/61035)
+* [Don't arena-allocate static symbols](https://github.com/rust-lang/rust/pull/61077)
+* [rustc: Improve type size assertions](https://github.com/rust-lang/rust/pull/60959)
+* [Allow null-pointer-optimized enums in FFI if their underlying representation is FFI safe](https://github.com/rust-lang/rust/pull/60300)
+* [Preserve local scopes in generator MIR](https://github.com/rust-lang/rust/pull/60840)
+* [Annotate each `reverse_bits` with `#[must_use]`](https://github.com/rust-lang/rust/pull/61134)
+* [Vec: Avoid creating slices to the elements](https://github.com/rust-lang/rust/pull/61114)
+* [Fix dangling reference in `Vec::append`](https://github.com/rust-lang/rust/pull/61082)
+* [crates.io: Further address performance regression in search](https://github.com/rust-lang/crates.io/pull/1749)
+* [rustbuild: Add clippy and fix commands to x.py](https://github.com/rust-lang/rust/pull/56595)
 
 ## Approved RFCs
 
@@ -146,11 +146,9 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Just the presence of well integrated Algebraic Data Types (ADTs) makes an incredible amount of difference. They are used to represent errors in a meaningful and easy to understand way (`Result<T>`), are used to show that a function may or may not return a meaningful value without needing a garbage value (`Option<T>`), and the optional case can even be used to wrap a null pointer scenario in a safe way (Option<Ref<T>> being the closest to a literal translation I think).
->
-> That’s just one small feature that permeates the language. Whatever the opposite of a death-of-a-thousand-cuts is, Rust has it.
+> I used to think of programs as execution flowing and think about what the CPU is doing. As I moved to rust I started thinking a lot more about memory: how the data was laid out in memory, and how ownership of different parts of memory is given to different parts of the program at run time.
 
-[tomcatfish on the orange website](https://news.ycombinator.com/item?id=19922344)
+[Oliver Gould on "The Open Source Show: All About Rust](https://youtu.be/FYGS2q1bljE?t=280)
 
 Thanks to [PrototypeNM1](https://users.rust-lang.org/t/twir-quote-of-the-week/328/643) for the suggestion!
 
