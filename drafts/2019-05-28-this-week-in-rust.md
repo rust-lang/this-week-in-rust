@@ -112,6 +112,7 @@ decision. Express your opinions now.
 * [May 26. St. Petersburg, RU - St. Petersburg Rust Meetup](https://www.meetup.com/spbrust/events/whmxrqyzhbjc/).
 * [May 29. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzhbmc/).
 * [May 28. Vilnius, LT - Rust Vilnius - Rust Safety and Distributed Consensus](https://www.meetup.com/Rust-in-Vilnius/events/260937510/).
+* [Jun  5. Clermont-Ferrand, FR - Clermont'ech: Rust Workshop](https://www.clermontech.org/workshops/workshop-3-rust.html).
 * [Jun  6. Wroclaw, PL - Rust Wroclaw Meetup #11](https://www.meetup.com/Rust-Wroclaw/events/261283360/).
 
 ### North America
