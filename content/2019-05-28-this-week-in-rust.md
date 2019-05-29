@@ -159,7 +159,7 @@ Email the [Rust Community Team][community] for access.
 
 [Oliver Gould on "The Open Source Show: All About Rust](https://youtu.be/FYGS2q1bljE?t=280)
 
-Thanks to [PrototypeNM1](https://users.rust-lang.org/t/twir-quote-of-the-week/328/643) for the suggestion!
+Thanks to [infogulch](https://users.rust-lang.org/t/twir-quote-of-the-week/328/651) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
