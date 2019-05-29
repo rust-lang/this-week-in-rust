@@ -141,6 +141,7 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Software Engineer, Backend - Rust at Kraken, Berlin, DE or remote](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105).
 * [Blockchain Runtime Engineer at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-blockchain-runtime-engineer).
+* [Rust Developer at Kaspersky Lab, Moscow, Russia](https://careers.kaspersky.com/job/Developer-%D0%BD%D0%B0-Rust-(QA-Team%2C-KasperskyOS)/561880800/?locale=en_EU).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
