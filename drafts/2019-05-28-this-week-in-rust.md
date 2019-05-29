@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Programming Servo: Zen and the art of removing blocks from your system](https://medium.com/@polyglot_factotum/programming-servo-zen-and-the-art-of-removing-blocks-from-your-system-51c1b7d404e3).
+
 # Crate of the Week
 
 This week we have two crates: [memory-profiles](https://github.com/nokia/memory-profiler), does what it says on the box. [momo](https://github.com/llogiq/momo) is a procedural macro that outlines generic conversions to reduce monomorphized code. Thanks to [ehsanmok](https://users.rust-lang.org/t/crate-of-the-week/2704/549) and llogiq for the suggestion!
