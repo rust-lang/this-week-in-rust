@@ -104,6 +104,7 @@ decision. Express your opinions now.
 ### Asia Pacific
 
 * [Jun 10. Auckland, NZ - Rust AKL - WASM - the past, present and future](https://www.meetup.com/rust-akl/events/259480660/).
+* [Jun 12. Melbourne, AU - Rust Melbourne meetup](https://www.meetup.com/Rust-Melbourne/events/261628621/).
 
 ### Europe
 
