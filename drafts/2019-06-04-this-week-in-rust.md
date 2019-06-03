@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Hawk-Rust Series: Actuation of Raspberry Pi Camera](https://blog.knoldus.com/hawk-rust-series-actuation-of-raspberry-pi-camera/)
 
 # Crate of the Week
 
