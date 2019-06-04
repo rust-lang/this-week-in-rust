@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [mockiato](https://github.com/myelin-ai/mockiato), a strict yet friendly mocking library for Rust 2018. Thanks to [Ruben Schmidmeister](https://users.rust-lang.org/t/crate-of-the-week/2704/550) for the suggestion!
+This week's crate is [emu](https://github.com/calebwin/emu), a Rust-based language for programming GPUs. Thanks to [Caleb Winston](https://users.rust-lang.org/t/crate-of-the-week/2704/561) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -39,29 +39,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-286 pull requests were [merged in the last week][merged]
+283 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-05-20..2019-05-27
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-05-27..2019-06-03
 
-* [Turn turbo 🐟 🍨 into an error](https://github.com/rust-lang/rust/pull/61189)
-* [Remove `ObsoleteInPlace`](https://github.com/rust-lang/rust/pull/60803)
-* [Make place projections concrete](https://github.com/rust-lang/rust/pull/60441)
-* [Simplify use of keyword symbols](https://github.com/rust-lang/rust/pull/60740)
-* [Fix overflowing literal lint in loops](https://github.com/rust-lang/rust/pull/61098)
-* [Use `Symbol` even more](https://github.com/rust-lang/rust/pull/60815)
-* [Use `Symbol` more in lint APIs](https://github.com/rust-lang/rust/pull/60827)
-* [Move gensym operations from `Symbol` to `Ident`](https://github.com/rust-lang/rust/pull/60903)
-* [Avoid symbol interning in `file_metadata`](https://github.com/rust-lang/rust/pull/60973)
-* [Avoid more symbol interning](https://github.com/rust-lang/rust/pull/61035)
-* [Don't arena-allocate static symbols](https://github.com/rust-lang/rust/pull/61077)
-* [rustc: Improve type size assertions](https://github.com/rust-lang/rust/pull/60959)
-* [Allow null-pointer-optimized enums in FFI if their underlying representation is FFI safe](https://github.com/rust-lang/rust/pull/60300)
-* [Preserve local scopes in generator MIR](https://github.com/rust-lang/rust/pull/60840)
-* [Annotate each `reverse_bits` with `#[must_use]`](https://github.com/rust-lang/rust/pull/61134)
-* [Vec: Avoid creating slices to the elements](https://github.com/rust-lang/rust/pull/61114)
-* [Fix dangling reference in `Vec::append`](https://github.com/rust-lang/rust/pull/61082)
-* [crates.io: Further address performance regression in search](https://github.com/rust-lang/crates.io/pull/1749)
-* [rustbuild: Add clippy and fix commands to x.py](https://github.com/rust-lang/rust/pull/56595)
+* [Introduce Rust symbol mangling scheme](https://github.com/rust-lang/rust/pull/57967)
+* [Remove `GlobalArenas` and use `Arena` instead](https://github.com/rust-lang/rust/pull/61389)
+* [Short circuit `Send` and `Sync` impls for `TokenTree`](https://github.com/rust-lang/rust/pull/60967)
+* [Explicitly suggest `type_ascription` feature](https://github.com/rust-lang/rust/pull/61374)
+* [Recover gracefully from argument with missing type or param name](https://github.com/rust-lang/rust/pull/61331)
+* [When encountering move error on an `Option`, suggest using `as_ref`](https://github.com/rust-lang/rust/pull/61147)
+* [Reword malformed attribute input diagnostics](https://github.com/rust-lang/rust/pull/61140)
+* [Apply `#[must_use]` lint to components of tuples](https://github.com/rust-lang/rust/pull/61100)
+* [miri: Tag static/const allocations](https://github.com/rust-lang/miri/pull/748)
+* [Update LLVM to include fmin/fmax optimisations](https://github.com/rust-lang/rust/pull/61384)
+* [Stabilize `reverse_bits` feature](https://github.com/rust-lang/rust/pull/61364)
+* [Stabilize `iter_nth_back` feature](https://github.com/rust-lang/rust/pull/61363)
+* [Stabilize `RefCell::try_borrow_unguarded`](https://github.com/rust-lang/rust/pull/60850)
+* [`Weak::into_raw`](https://github.com/rust-lang/rust/pull/60766)
+* [Implement `iter::Sum` and `iter::Product` for `Option`](https://github.com/rust-lang/rust/pull/58975)
+* [Add `Step::sub_usize`](https://github.com/rust-lang/rust/pull/60542)
+* [`BufReader`: In Seek impl, remove extra discard_buffer call](https://github.com/rust-lang/rust/pull/61157)
+* [Do not print panic message on doctest failures](https://github.com/rust-lang/rust/pull/60549)
+* [cargo: Test the Resolver against the varisat Library](https://github.com/rust-lang/cargo/pull/6980)
 
 ## Approved RFCs
 
@@ -145,11 +145,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I used to think of programs as execution flowing and think about what the CPU is doing. As I moved to rust I started thinking a lot more about memory: how the data was laid out in memory, and how ownership of different parts of memory is given to different parts of the program at run time.
+> apparently I wrote Building Git to explain a complex problem to rust devs who could then help me build it in rust
 
-[Oliver Gould on "The Open Source Show: All About Rust](https://youtu.be/FYGS2q1bljE?t=280)
+[/dev/horse @ jsconf eu (mountain_ghosts) on twitter](https://twitter.com/mountain_ghosts/status/1134739348593827841)
 
-Thanks to [PrototypeNM1](https://users.rust-lang.org/t/twir-quote-of-the-week/328/643) for the suggestion!
+Thanks to [Dos Moonen](https://users.rust-lang.org/t/twir-quote-of-the-week/328/656) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
