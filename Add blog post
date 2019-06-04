@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Hawk: Image Recognition Application using Rust and AWS Services](https://blog.knoldus.com/hawk-image-recognition-project-using-rust-and-aws-services/)
+
 # Crate of the Week
 
 This week's crate is [mockiato](https://github.com/myelin-ai/mockiato), a strict yet friendly mocking library for Rust 2018. Thanks to [Ruben Schmidmeister](https://users.rust-lang.org/t/crate-of-the-week/2704/550) for the suggestion!
