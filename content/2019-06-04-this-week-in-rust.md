@@ -107,10 +107,6 @@ decision. Express your opinions now.
 
 # Upcoming Events
 
-### Africa
-
-* [Jun  5. Johannesburg, ZA - Johannesburg Rust Meetup - informal discussions on topics related to the language](https://www.meetup.com/Johannesburg-Rust-Meetup/events/gpxrtqyzhbcb/).
-
 ### Asia Pacific
 
 * [Jun 10. Auckland, NZ - Rust AKL - WASM - the past, present and future](https://www.meetup.com/rust-akl/events/259480660/).
@@ -118,14 +114,11 @@ decision. Express your opinions now.
 
 ### Europe
 
-* [Jun  5. Clermont-Ferrand, FR - Clermont'ech: Rust Workshop](https://www.clermontech.org/workshops/workshop-3-rust.html).
 * [Jun  6. Wroclaw, PL - Rust Wroclaw Meetup #11](https://www.meetup.com/Rust-Wroclaw/events/261283360/).
 * [Jun 12. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzjbqb/).
 
 ### North America
 
-* [Jun  5. Atlanta, GA, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/kkzkxqyzjbhb/).
-* [Jun  5. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyzjbhb/).
 * [Jun 11. Detroit, MI, US - Detroit Rust - June Detroit Rust at Bamboo](https://www.meetup.com/rust-detroit/events/244855856/).
 * [Jun 11. Redmond, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/nzfspqyzjbpb/).
 * [Jun 12. Boston, MA, US - Boston Rust Meetup at MassRobotics](https://www.meetup.com/BostonRust/events/260834642/).
@@ -135,10 +128,6 @@ decision. Express your opinions now.
 * [Jun 12. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/fzqqwqyzjbqb/).
 * [Jun 18. Denver, CO, US - Rust Boulder/Denver - Rust Meetup for June](https://www.meetup.com/Rust-Boulder-Denver/events/259124426/).
 * [Jun 19. Mexico City, MX - Rust MX - Reunión junio: Hablemos de Fuchsia OS y WebAssembly](https://www.meetup.com/Rust-MX/events/261739565/).
-
-### South America
-
-* [Jun 1. Sao Paulo, BR - Rust SP - Encontro Junho 2019](https://www.meetup.com/Rust-Sao-Paulo-Meetup/events/261123153/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -151,10 +140,6 @@ Email the [Rust Community Team][community] for access.
 
 * [Software Engineer at 3DSignals, Kfar Saba, IL](https://3dsig.com/positions/software-engineer/).
 * [Blockchain Runtime Engineer at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-blockchain-runtime-engineer).
-
-* [DevOps Storage Engineer at Comcast, Pennsylvania, US](https://career8.successfactors.com/sfcareer/jobreqcareer?jobId=198894).
-* [Rust Developer at enhance, London, UK or remote](https://enhance.com/#jobs).
-* [Rust Developer at Kaspersky Lab, Moscow, RU](https://careers.kaspersky.com/job/Developer-%D0%BD%D0%B0-Rust-(QA-Team%2C-KasperskyOS)/561880800/?locale=en_EU).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
