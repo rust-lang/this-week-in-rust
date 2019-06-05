@@ -16,6 +16,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Writing an OS in Rust: Updates in May 2019](https://os.phil-opp.com/status-update/2019-06-03/).
+* [Unsafe Code Guidelines Reference now available online](https://rust-lang.github.io/unsafe-code-guidelines/).
+* [Actix-web 1.0 released](https://github.com/actix/actix-web/blob/master/CHANGES.md).
+* [j4rs - calling Java code from Rust](https://astonbitecode.github.io/blog/post/j4rs_0.6.0/).
+* [The Governance WG is going public](https://blog.rust-lang.org/2019/06/03/governance-wg-announcement.html).
+* [Bzip2 in Rust - basic infrastructure and CRC32 computation](https://people.gnome.org/~federico/blog/bzip2-in-rust-basic-infra.html).
+* [Evoli - an official Amethyst showcase game](https://amethyst.rs/posts/evoli-an-official-amethyst-showcase-game).
+* [Poking the macOS IO Kit with Rust](https://svartalf.info/posts/2019-05-31-poking-the-macos-io-kit-with-rust/).
+
 # Crate of the Week
 
 This week's crate is [emu](https://github.com/calebwin/emu), a Rust-based language for programming GPUs. Thanks to [Caleb Winston](https://users.rust-lang.org/t/crate-of-the-week/2704/561) for the suggestion!
@@ -31,7 +40,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-*No issues were proposed for CfP*.
+* [Cargo: Less duplication in activate](https://github.com/rust-lang/cargo/pull/6967#issuecomment-497764185).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -69,7 +78,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2678: Named custom cargo profiles](https://github.com/rust-lang/rfcs/pull/2678).
 
 ## Final Comment Period
 
@@ -84,16 +93,17 @@ decision. Express your opinions now.
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [Tracking issue for RFC 1789: Conversions from `&mut T` to `&Cell<T>`](https://github.com/rust-lang/rust/issues/43038).
-* [disposition: merge] [Tracking issue for reversing the bit pattern in an integer](https://github.com/rust-lang/rust/issues/48763).
-* [disposition: merge] [Stabilize rustdoc theme options](https://github.com/rust-lang/rust/pull/54733).
-* [disposition: merge] [Bors policy question: Auto-reassignment on r+](https://github.com/rust-lang/rust/issues/59489).
-* [disposition: merge] [Stabilize RefCell::try_borrow_unguarded](https://github.com/rust-lang/rust/pull/60850).
-* [disposition: merge] [Stabilize `std::arch::wasm32::unreachable`](https://github.com/rust-lang/rust/issues/61119).
+* [disposition: merge] [Stabilize copy_within](https://github.com/rust-lang/rust/pull/61398).
+* [disposition: merge] [Stabilize support for Profile-guided Optimization](https://github.com/rust-lang/rust/pull/61268).
+* [disposition: merge] [Stabilize `#![feature(repr_align_enum)]` in Rust 1.37.0](https://github.com/rust-lang/rust/pull/61229).
 * [disposition: merge] [Add std::mem::take as suggested in #61129](https://github.com/rust-lang/rust/pull/61130).
+* [disposition: merge] [Support ? Kleene macro operator in 2015](https://github.com/rust-lang/rust/pull/60932).
 
 ## New RFCs
 
-* [Add generalized arity tuples](https://github.com/rust-lang/rfcs/pull/2702).
+* [Get type of an arbitrary expression](https://github.com/rust-lang/rfcs/pull/2706).
+* [Make `..` a pattern syntactically](https://github.com/rust-lang/rfcs/pull/2707).
+* [Amend RFC2603 to allow mangled identifiers to start with a digit](https://github.com/rust-lang/rfcs/pull/2705).
 
 # Upcoming Events
 
@@ -117,12 +127,14 @@ decision. Express your opinions now.
 * [Jun  5. Atlanta, GA, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/kkzkxqyzjbhb/).
 * [Jun  5. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyzjbhb/).
 * [Jun 11. Detroit, MI, US - Detroit Rust - June Detroit Rust at Bamboo](https://www.meetup.com/rust-detroit/events/244855856/).
-* [May 14. Redmond, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/nzfspqyzjbpb/).
+* [Jun 11. Redmond, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/nzfspqyzjbpb/).
+* [Jun 12. Boston, MA, US - Boston Rust Meetup at MassRobotics](https://www.meetup.com/BostonRust/events/260834642/).
 * [Jun 13. San Diego, CA, US - San Diego Rust May Meetup](https://www.meetup.com/San-Diego-Rust/events/261595821/).
 * [Jun 13. Arlington, VA, US - Rust DC — Mid-month Rustful](https://www.meetup.com/RustDC/events/261239650).
 * [Jun 13. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyzjbrb/).
 * [Jun 12. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/fzqqwqyzjbqb/).
 * [Jun 18. Denver, CO, US - Rust Boulder/Denver - Rust Meetup for June](https://www.meetup.com/Rust-Boulder-Denver/events/259124426/).
+* [Jun 19. Mexico City, MX - Rust MX - Reunión junio: Hablemos de Fuchsia OS y WebAssembly](https://www.meetup.com/Rust-MX/events/261739565/).
 
 ### South America
 
@@ -137,10 +149,12 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Software Engineer at 3DSignals, Kfar Saba, IL](https://3dsig.com/positions/software-engineer/).
+* [Blockchain Runtime Engineer at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-blockchain-runtime-engineer).
+
 * [DevOps Storage Engineer at Comcast, Pennsylvania, US](https://career8.successfactors.com/sfcareer/jobreqcareer?jobId=198894).
 * [Rust Developer at enhance, London, UK or remote](https://enhance.com/#jobs).
 * [Rust Developer at Kaspersky Lab, Moscow, RU](https://careers.kaspersky.com/job/Developer-%D0%BD%D0%B0-Rust-(QA-Team%2C-KasperskyOS)/561880800/?locale=en_EU).
-* [Blockchain Runtime Engineer at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-blockchain-runtime-engineer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
