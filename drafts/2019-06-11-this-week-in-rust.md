@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Rusts hidden talents](https://estada.ch/2019/6/7/rusts-hidden-talents/]
+* [Rusts hidden talents speeding up builds and managing versions](https://estada.ch/2019/6/7/rusts-hidden-talents/]
 
 # Crate of the Week
 
