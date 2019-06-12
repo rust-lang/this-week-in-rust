@@ -65,10 +65,8 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [Minimize use of `#![feature(custom_attribute)]`](https://github.com/rust-lang/rust/pull/61660).
 * [parser: Remove `Deref` impl from `Parser`](https://github.com/rust-lang/rust/pull/61616).
 * [Change visit api](https://github.com/rust-lang/rust/pull/61554).
-* [Make visitors iterate](https://github.com/rust-lang/rust/pull/61559).
 * [Don't allow using const fn arguments as "args_required_const"](https://github.com/rust-lang/rust/pull/61536).
 * [Support Rvalue::{Ref,Len} and Deref](https://github.com/rust-lang/rust/pull/61532).
-* [Fix NLL typeck ICEs](https://github.com/rust-lang/rust/pull/61488).
 * [Fix integer overflow in rotate_left](https://github.com/rust-lang/rust/pull/61454).
 * [On TerminatorKind::DropAndReplace still handle unused_mut correctly](https://github.com/rust-lang/rust/pull/61446).
 * [Use LLVM intrinsics for floating-point min/max](https://github.com/rust-lang/rust/pull/61408).
