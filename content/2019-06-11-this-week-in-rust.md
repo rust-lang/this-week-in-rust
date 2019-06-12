@@ -154,4 +154,4 @@ Email the [Rust Community Team][community] for access.
 
 *This Week in Rust is edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [Flavsditz](https://github.com/Flavsditz).*
 
-<small>[Discuss on r/rust]().</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/bzqagg/this_week_in_rust_290/).</small>
