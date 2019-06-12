@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [gfx-rs project 5 year anniversary](https://gfx-rs.github.io/2019/06/12/anniversary-5.html).
+
 # Crate of the Week
 
 This week's crate is [uom](https://crates.io/crates/uom), Units of measurement is a crate that does automatic type-safe zero-cost dimensional analysis. Thanks to [ehsanmok](https://users.rust-lang.org/t/crate-of-the-week/2704/562) for the suggestion!
