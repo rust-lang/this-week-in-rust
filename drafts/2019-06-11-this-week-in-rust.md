@@ -16,11 +16,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Rusts hidden talents speeding up builds and managing versions](https://estada.ch/2019/6/7/rusts-hidden-talents/]
+* [Sealed Rust - A plan to bring Rust to safety critical software domains](https://ferrous-systems.com/blog/sealed-rust-the-pitch/).
+* [Embedded WG: Embedded Rust in 2019](https://rust-embedded.github.io/blog/embedded-rust-in-2019/).
+* [Nannou update - Vulkan, LASERs and more](https://nannou.cc/posts/nannou_v0.9).
+* [Bzip2 to see revival under new maintainership, experimental porting to Rust](https://www.phoronix.com/scan.php?page=news_item&px=Bzip2-Revival-2019).
+* [Auth web microservice with Rust using actix-web 1.0 - complete tutorial](https://gill.net.in/posts/auth-microservice-rust-actix-web1.0-diesel-complete-tutorial/).
+* [How to use gtk-rs on Windows using the MSVC toolchain](https://www.reddit.com/r/rust/comments/bzkhmt/how_to_use_gtkrs_on_windows_using_the_msvc/).
+* [Hosting embedded Rust apps on Apache Mynewt with STM32 Blue Pill](https://medium.com/@ly.lee/hosting-embedded-rust-apps-on-apache-mynewt-with-stm32-blue-pill-c86b119fe5f?sk=f58f4cf6c608fded4b354063e474a93b).
+* [Speeding up builds and managing versions](https://estada.ch/2019/6/7/rusts-hidden-talents/).
 
 # Crate of the Week
 
-This week's crate is [emu](https://github.com/calebwin/emu), a Rust-based language for programming GPUs. Thanks to [Caleb Winston](https://users.rust-lang.org/t/crate-of-the-week/2704/561) for the suggestion!
+This week's crate is [uom](https://crates.io/crates/uom), Units of measurement is a crate that does automatic type-safe zero-cost dimensional analysis. Thanks to [ehsanmok](https://users.rust-lang.org/t/crate-of-the-week/2704/562) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -33,7 +40,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Cargo: Less duplication in activate](https://github.com/rust-lang/cargo/pull/6967#issuecomment-497764185).
+* [good first issue] [blasoxide: Add more tests for level2 and level3](https://github.com/oezgurmakkurt/blasoxide/issues/3).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -41,29 +48,37 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-283 pull requests were [merged in the last week][merged]
+242 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-05-27..2019-06-03
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-06-03..2019-06-10
 
-* [Introduce Rust symbol mangling scheme](https://github.com/rust-lang/rust/pull/57967)
-* [Remove `GlobalArenas` and use `Arena` instead](https://github.com/rust-lang/rust/pull/61389)
-* [Short circuit `Send` and `Sync` impls for `TokenTree`](https://github.com/rust-lang/rust/pull/60967)
-* [Explicitly suggest `type_ascription` feature](https://github.com/rust-lang/rust/pull/61374)
-* [Recover gracefully from argument with missing type or param name](https://github.com/rust-lang/rust/pull/61331)
-* [When encountering move error on an `Option`, suggest using `as_ref`](https://github.com/rust-lang/rust/pull/61147)
-* [Reword malformed attribute input diagnostics](https://github.com/rust-lang/rust/pull/61140)
-* [Apply `#[must_use]` lint to components of tuples](https://github.com/rust-lang/rust/pull/61100)
-* [miri: Tag static/const allocations](https://github.com/rust-lang/miri/pull/748)
-* [Update LLVM to include fmin/fmax optimisations](https://github.com/rust-lang/rust/pull/61384)
-* [Stabilize `reverse_bits` feature](https://github.com/rust-lang/rust/pull/61364)
-* [Stabilize `iter_nth_back` feature](https://github.com/rust-lang/rust/pull/61363)
-* [Stabilize `RefCell::try_borrow_unguarded`](https://github.com/rust-lang/rust/pull/60850)
-* [`Weak::into_raw`](https://github.com/rust-lang/rust/pull/60766)
-* [Implement `iter::Sum` and `iter::Product` for `Option`](https://github.com/rust-lang/rust/pull/58975)
-* [Add `Step::sub_usize`](https://github.com/rust-lang/rust/pull/60542)
-* [`BufReader`: In Seek impl, remove extra discard_buffer call](https://github.com/rust-lang/rust/pull/61157)
-* [Do not print panic message on doctest failures](https://github.com/rust-lang/rust/pull/60549)
-* [cargo: Test the Resolver against the varisat Library](https://github.com/rust-lang/cargo/pull/6980)
+* [Stabilize Cell::from_mut and as_slice_of_cells](https://github.com/rust-lang/rust/pull/61620).
+* [Stabilize #![feature(repr_align_enum)] in Rust 1.37.0](https://github.com/rust-lang/rust/pull/61229).
+* [Implementation of RFC 2289 (associated_type_bounds)](https://github.com/rust-lang/rust/pull/57428).
+* [Import the cargo-vendor subcommand into Cargo](https://github.com/rust-lang/cargo/pull/6869).
+* [Support ? Kleene macro operator in 2015](https://github.com/rust-lang/rust/pull/60932).
+* [Add std::mem::take as suggested in #61129](https://github.com/rust-lang/rust/pull/61130).
+* [Make tuple constructors real const fns](https://github.com/rust-lang/rust/pull/61209).
+* [syntax: Remove `Deref` impl from `Token`](https://github.com/rust-lang/rust/pull/61669).
+* [Make `i*::signum` a `const fn`](https://github.com/rust-lang/rust/pull/61635).
+* [Remove useless allocations in macro_rules follow logic](https://github.com/rust-lang/rust/pull/61646).
+* [Minimize use of `#![feature(custom_attribute)]`](https://github.com/rust-lang/rust/pull/61660).
+* [parser: Remove `Deref` impl from `Parser`](https://github.com/rust-lang/rust/pull/61616).
+* [Change visit api](https://github.com/rust-lang/rust/pull/61554).
+* [Make visitors iterate](https://github.com/rust-lang/rust/pull/61559).
+* [Don't allow using const fn arguments as "args_required_const"](https://github.com/rust-lang/rust/pull/61536).
+* [Support Rvalue::{Ref,Len} and Deref](https://github.com/rust-lang/rust/pull/61532).
+* [Fix NLL typeck ICEs](https://github.com/rust-lang/rust/pull/61488).
+* [Fix integer overflow in rotate_left](https://github.com/rust-lang/rust/pull/61454).
+* [On TerminatorKind::DropAndReplace still handle unused_mut correctly](https://github.com/rust-lang/rust/pull/61446).
+* [Use LLVM intrinsics for floating-point min/max](https://github.com/rust-lang/rust/pull/61408).
+* [Add new diagnostic writer using annotate-snippet library](https://github.com/rust-lang/rust/pull/61407).
+* [Add Bound::cloned()](https://github.com/rust-lang/rust/pull/61376).
+* [Refactor `TypeVariableOrigin`](https://github.com/rust-lang/rust/pull/59331).
+* [Replace linear token counting macros with optimized implementation](https://github.com/rust-lang/rust/pull/59600).
+* [Suggest using `as_ref` on `*const T`](https://github.com/rust-lang/rust/pull/61444).
+* [Re-implement async fn drop order lowering](https://github.com/rust-lang/rust/pull/61413).
+* [syntax: Keep token span as a part of `Token`](https://github.com/rust-lang/rust/pull/61541).
 
 ## Approved RFCs
 
@@ -71,7 +86,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2678: Named custom cargo profiles](https://github.com/rust-lang/rfcs/pull/2678).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -81,46 +96,44 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Expose the type_name intrinsic](https://github.com/rust-lang/rfcs/issues/1428).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Tracking issue for RFC 1789: Conversions from `&mut T` to `&Cell<T>`](https://github.com/rust-lang/rust/issues/43038).
-* [disposition: merge] [Stabilize copy_within](https://github.com/rust-lang/rust/pull/61398).
+* [disposition: merge] [Support `cfg` and `cfg_attr` on generic parameters](https://github.com/rust-lang/rust/pull/61547).
+* [disposition: merge] [Stabilize underscore_const_names in 1.37.0](https://github.com/rust-lang/rust/pull/61347).
 * [disposition: merge] [Stabilize support for Profile-guided Optimization](https://github.com/rust-lang/rust/pull/61268).
-* [disposition: merge] [Stabilize `#![feature(repr_align_enum)]` in Rust 1.37.0](https://github.com/rust-lang/rust/pull/61229).
-* [disposition: merge] [Add std::mem::take as suggested in #61129](https://github.com/rust-lang/rust/pull/61130).
-* [disposition: merge] [Support ? Kleene macro operator in 2015](https://github.com/rust-lang/rust/pull/60932).
 
 ## New RFCs
 
-* [Get type of an arbitrary expression](https://github.com/rust-lang/rfcs/pull/2706).
-* [Make `..` a pattern syntactically](https://github.com/rust-lang/rfcs/pull/2707).
-* [Amend RFC2603 to allow mangled identifiers to start with a digit](https://github.com/rust-lang/rfcs/pull/2705).
+* [Generic Pointer to Field](https://github.com/rust-lang/rfcs/pull/2708).
 
 # Upcoming Events
 
 ### Asia Pacific
 
-* [Jun 10. Auckland, NZ - Rust AKL - WASM - the past, present and future](https://www.meetup.com/rust-akl/events/259480660/).
-* [Jun 12. Melbourne, AU - Rust Melbourne meetup](https://www.meetup.com/Rust-Melbourne/events/261628621/).
+* [Jun 15. Chennai, IN - Rust Chennai - Monthly meetup - June](https://www.meetup.com/mad-rs/events/262191938/).
+* [Jun 25. Seoul, KR - Seoul Rust Meetup, Hapjeong - Deep dive into Rusts standard library](https://www.meetup.com/Rust-Seoul-Meetup/events/srxvzqyzjbhc/).
 
 ### Europe
 
-* [Jun  6. Wroclaw, PL - Rust Wroclaw Meetup #11](https://www.meetup.com/Rust-Wroclaw/events/261283360/).
-* [Jun 12. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzjbqb/).
+* [Jun 18. London, UK - Rust London User Group - LDN Talks June 2019](https://www.meetup.com/Rust-London-User-Group/events/262000795/).
+* [Jun 26. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzjbjc/).
+* [Jun 26. Milano, IT - Rust Language Milano - Fun with Rusty Robots](https://www.meetup.com/rust-language-milano/events/262155219).
+* [Jun 28-29. Firenze, IT - RustLab 2019](https://www.rustlab.it/).
 
 ### North America
 
-* [Jun 11. Detroit, MI, US - Detroit Rust - June Detroit Rust at Bamboo](https://www.meetup.com/rust-detroit/events/244855856/).
-* [Jun 11. Redmond, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/nzfspqyzjbpb/).
-* [Jun 12. Boston, MA, US - Boston Rust Meetup at MassRobotics](https://www.meetup.com/BostonRust/events/260834642/).
 * [Jun 13. San Diego, CA, US - San Diego Rust May Meetup](https://www.meetup.com/San-Diego-Rust/events/261595821/).
 * [Jun 13. Arlington, VA, US - Rust DC — Mid-month Rustful](https://www.meetup.com/RustDC/events/261239650).
 * [Jun 13. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyzjbrb/).
-* [Jun 12. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/fzqqwqyzjbqb/).
+* [Jun 13. Lehi, UT, US - Utah Rust - Meetup #13: Serde, Serde, and More Serde](https://www.meetup.com/utah-rust/events/262109363).
 * [Jun 18. Denver, CO, US - Rust Boulder/Denver - Rust Meetup for June](https://www.meetup.com/Rust-Boulder-Denver/events/259124426/).
 * [Jun 19. Mexico City, MX - Rust MX - Reunión junio: Hablemos de Fuchsia OS y WebAssembly](https://www.meetup.com/Rust-MX/events/261739565/).
+* [Jun 24. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzjbgc/).
+* [Jun 25. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyzjbhc/).
+* [Jun 26. Ann Arbor, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/vsncvqyzjbjc/).
+* [Jun 26. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/fzqqwqyzjbjc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -131,18 +144,13 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Software Engineer at 3DSignals, Kfar Saba, IL](https://3dsig.com/positions/software-engineer/).
 * [Blockchain Runtime Engineer at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-blockchain-runtime-engineer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> apparently I wrote Building Git to explain a complex problem to rust devs who could then help me build it in rust
-
-[/dev/horse @ jsconf eu (mountain_ghosts) on twitter](https://twitter.com/mountain_ghosts/status/1134739348593827841)
-
-Thanks to [Dos Moonen](https://users.rust-lang.org/t/twir-quote-of-the-week/328/656) for the suggestion!
+*No quote was selected for QotW.*
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
