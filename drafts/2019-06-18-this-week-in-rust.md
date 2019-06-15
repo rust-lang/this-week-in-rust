@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [gfx-rs project 5 year anniversary](https://gfx-rs.github.io/2019/06/12/anniversary-5.html).
+* [Building Secure Systems using RISC-V and Rust (slides from presentation)](https://content.riscv.org/wp-content/uploads/2019/06/14.05-building_secure_systems-1.pdf)
 
 # Crate of the Week
 
