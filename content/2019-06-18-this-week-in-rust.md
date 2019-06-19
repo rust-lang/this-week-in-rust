@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [gfx-rs project 5 year anniversary](https://gfx-rs.github.io/2019/06/12/anniversary-5.html).
+* [gfx-rs: 5 year anniversary](https://gfx-rs.github.io/2019/06/12/anniversary-5.html).
 * [Green threads explained in 200 lines of Rust](https://cfsamson.gitbook.io/green-threads-explained-in-200-lines-of-rust/).
 * [Facebook's new cryptocurrency Libra uses Rust](https://developers.libra.org/docs/community/coding-guidelines).
 * [Vimeo introduces support for AV1 using rav1e, a Rust library](https://press.vimeo.com/61553-vimeo-introduces-support-for-royalty-free-video-codec-av1).
