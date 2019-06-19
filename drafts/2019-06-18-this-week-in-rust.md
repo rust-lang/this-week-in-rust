@@ -17,10 +17,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [gfx-rs project 5 year anniversary](https://gfx-rs.github.io/2019/06/12/anniversary-5.html).
+* [Green threads explained in 200 lines of Rust](https://cfsamson.gitbook.io/green-threads-explained-in-200-lines-of-rust/).
+* [Facebook's new cryptocurrency Libra uses Rust](https://developers.libra.org/docs/community/coding-guidelines).
+* [Vimeo introduces support for AV1 using rav1e, a Rust library](https://press.vimeo.com/61553-vimeo-introduces-support-for-royalty-free-video-codec-av1).
+* [Amethyst v0.11.0 released, now supporting gfx-hal with Rendy](https://amethyst.rs/posts/release-0-11).
+* [Bzip2 in Rust: porting the randomization table](https://people.gnome.org/~federico/blog/bzip2-in-rust-randomization-table.html).
 
 # Crate of the Week
 
-This week's crate is [uom](https://crates.io/crates/uom), Units of measurement is a crate that does automatic type-safe zero-cost dimensional analysis. Thanks to [ehsanmok](https://users.rust-lang.org/t/crate-of-the-week/2704/562) for the suggestion!
+This week's crate is [safe](https://github.com/Centril/rust-safe), a `#[safe]` attribute for explaining why `unsafe { ... }` is OK. Thanks to [Michael-F-Bryan](https://users.rust-lang.org/t/crate-of-the-week/2704/569) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -33,7 +38,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [good first issue] [blasoxide: Add more tests for level2 and level3](https://github.com/oezgurmakkurt/blasoxide/issues/3).
+* [Final async/await testing push](https://internals.rust-lang.org/t/final-async-await-testing-push/10423).
+* [Rubble: Help wanted solving our BLE stack problem](https://mckeogh.tech/help-wanted-ble/). Rubble is a Bluetooth Low Energy compatible protocol stack for embedded Rust.
+* [contrie: Rayon support: FromParallelIterator & ParallelExtend](https://github.com/vorner/contrie/issues/3). ConTrie is a concurrent hash-trie map & set.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -41,35 +48,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-242 pull requests were [merged in the last week][merged]
+205 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-06-03..2019-06-10
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-06-10..2019-06-17
 
-* [Stabilize Cell::from_mut and as_slice_of_cells](https://github.com/rust-lang/rust/pull/61620).
-* [Stabilize #![feature(repr_align_enum)] in Rust 1.37.0](https://github.com/rust-lang/rust/pull/61229).
-* [Implementation of RFC 2289 (associated_type_bounds)](https://github.com/rust-lang/rust/pull/57428).
-* [Import the cargo-vendor subcommand into Cargo](https://github.com/rust-lang/cargo/pull/6869).
-* [Support ? Kleene macro operator in 2015](https://github.com/rust-lang/rust/pull/60932).
-* [Add std::mem::take as suggested in #61129](https://github.com/rust-lang/rust/pull/61130).
-* [Make tuple constructors real const fns](https://github.com/rust-lang/rust/pull/61209).
-* [syntax: Remove `Deref` impl from `Token`](https://github.com/rust-lang/rust/pull/61669).
-* [Make `i*::signum` a `const fn`](https://github.com/rust-lang/rust/pull/61635).
-* [Remove useless allocations in macro_rules follow logic](https://github.com/rust-lang/rust/pull/61646).
-* [Minimize use of `#![feature(custom_attribute)]`](https://github.com/rust-lang/rust/pull/61660).
-* [parser: Remove `Deref` impl from `Parser`](https://github.com/rust-lang/rust/pull/61616).
-* [Change visit api](https://github.com/rust-lang/rust/pull/61554).
-* [Don't allow using const fn arguments as "args_required_const"](https://github.com/rust-lang/rust/pull/61536).
-* [Support Rvalue::{Ref,Len} and Deref](https://github.com/rust-lang/rust/pull/61532).
-* [Fix integer overflow in rotate_left](https://github.com/rust-lang/rust/pull/61454).
-* [On TerminatorKind::DropAndReplace still handle unused_mut correctly](https://github.com/rust-lang/rust/pull/61446).
-* [Use LLVM intrinsics for floating-point min/max](https://github.com/rust-lang/rust/pull/61408).
-* [Add new diagnostic writer using annotate-snippet library](https://github.com/rust-lang/rust/pull/61407).
-* [Add Bound::cloned()](https://github.com/rust-lang/rust/pull/61376).
-* [Refactor `TypeVariableOrigin`](https://github.com/rust-lang/rust/pull/59331).
-* [Replace linear token counting macros with optimized implementation](https://github.com/rust-lang/rust/pull/59600).
-* [Suggest using `as_ref` on `*const T`](https://github.com/rust-lang/rust/pull/61444).
-* [Re-implement async fn drop order lowering](https://github.com/rust-lang/rust/pull/61413).
-* [syntax: Keep token span as a part of `Token`](https://github.com/rust-lang/rust/pull/61541).
+* [Stabilize copy_within](https://github.com/rust-lang/rust/pull/61398).
+* [Stabilize underscore_const_names in 1.37.0](https://github.com/rust-lang/rust/pull/61347).
+* [Stabilize Option::xor](https://github.com/rust-lang/rust/pull/60376).
+* [rustc: replace `TyCtxt<'a, 'gcx, 'tcx>` with `TyCtxt<'gcx, 'tcx>`](https://github.com/rust-lang/rust/pull/61722).
+* [Unify all uses of 'gcx and 'tcx](https://github.com/rust-lang/rust/pull/61817).
+* [Deprecate ONCE_INIT in future 1.38 release](https://github.com/rust-lang/rust/pull/61757).
+* [Implement RFC 2645 (transparent enums and unions)](https://github.com/rust-lang/rust/pull/60463).
+* [Allow attributes in formal function parameters](https://github.com/rust-lang/rust/pull/60669).
+* [Implement Clone::clone_from for Option and Result](https://github.com/rust-lang/rust/pull/61348).
+* [Implement nth_back for Range(Inclusive)](https://github.com/rust-lang/rust/pull/61671).
+* [Use Symbol, Span in libfmt_macros](https://github.com/rust-lang/rust/pull/61568).
+* [typeck: Fix const generic in repeat param ICE](https://github.com/rust-lang/rust/pull/61698).
+* [Hygienize macros in the standard library](https://github.com/rust-lang/rust/pull/61629).
+* [Optimize matches](https://github.com/rust-lang/rust/pull/60730).
+* [When suggesting borrow, remove useless clones](https://github.com/rust-lang/rust/pull/61143).
+* [lexer: Disallow bare CR in raw byte strings](https://github.com/rust-lang/rust/pull/60793).
+* [Generator optimization: Overlap locals that never have storage live at the same time](https://github.com/rust-lang/rust/pull/60187).
+* [Implement unchecked_{add,sub,mul} intrinsics](https://github.com/rust-lang/miri/pull/776).
+* [Limit dylib symbols](https://github.com/rust-lang/rust/pull/59752).
 
 ## Approved RFCs
 
@@ -87,44 +88,44 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Expose the type_name intrinsic](https://github.com/rust-lang/rfcs/issues/1428).
+*No RFCs are currently in final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Support `cfg` and `cfg_attr` on generic parameters](https://github.com/rust-lang/rust/pull/61547).
-* [disposition: merge] [Stabilize underscore_const_names in 1.37.0](https://github.com/rust-lang/rust/pull/61347).
-* [disposition: merge] [Stabilize support for Profile-guided Optimization](https://github.com/rust-lang/rust/pull/61268).
+*No issues are currently in final comment period.*
 
 ## New RFCs
 
-* [Generic Pointer to Field](https://github.com/rust-lang/rfcs/pull/2708).
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
+### Africa
+
+* [Jul  3. Johannesburg, ZA - Johannesburg Rust Meetup - informal discussions on topics related to the language](https://www.meetup.com/Johannesburg-Rust-Meetup/events/dgqmbryzkbfb/).
+
 ### Asia Pacific
 
-* [Jun 15. Chennai, IN - Rust Chennai - Monthly meetup - June](https://www.meetup.com/mad-rs/events/262191938/).
+* [Jun 24. Sydney, AU - Rust Sydney - Meetup 17](https://www.meetup.com/Rust-Sydney/events/262194894/).
 * [Jun 25. Seoul, KR - Seoul Rust Meetup, Hapjeong - Deep dive into Rusts standard library](https://www.meetup.com/Rust-Seoul-Meetup/events/srxvzqyzjbhc/).
+* [Jun 29. Taipei, TW - Rust Taiwan Meetup](https://www.facebook.com/events/2824830874225735/).
+* [Jul  1. Auckland, NZ - Rust AKL - WASM - Implementing a scalable omiscient debugger in Rust](https://www.meetup.com/rust-akl/events/259480968/).
+* [Jul  7. Tokyo, JP - Tokyo Rust Meetup - Rust LT #6](https://rust.connpass.com/event/133657/).
 
 ### Europe
 
-* [Jun 18. London, UK - Rust London User Group - LDN Talks June 2019](https://www.meetup.com/Rust-London-User-Group/events/262000795/).
 * [Jun 26. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzjbjc/).
 * [Jun 26. Milano, IT - Rust Language Milano - Fun with Rusty Robots](https://www.meetup.com/rust-language-milano/events/262155219).
 * [Jun 28-29. Firenze, IT - RustLab 2019](https://www.rustlab.it/).
 
 ### North America
 
-* [Jun 13. San Diego, CA, US - San Diego Rust May Meetup](https://www.meetup.com/San-Diego-Rust/events/261595821/).
-* [Jun 13. Arlington, VA, US - Rust DC — Mid-month Rustful](https://www.meetup.com/RustDC/events/261239650).
-* [Jun 13. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyzjbrb/).
-* [Jun 13. Lehi, UT, US - Utah Rust - Meetup #13: Serde, Serde, and More Serde](https://www.meetup.com/utah-rust/events/262109363).
-* [Jun 18. Denver, CO, US - Rust Boulder/Denver - Rust Meetup for June](https://www.meetup.com/Rust-Boulder-Denver/events/259124426/).
-* [Jun 19. Mexico City, MX - Rust MX - Reunión junio: Hablemos de Fuchsia OS y WebAssembly](https://www.meetup.com/Rust-MX/events/261739565/).
 * [Jun 24. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzjbgc/).
 * [Jun 25. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyzjbhc/).
 * [Jun 26. Ann Arbor, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/vsncvqyzjbjc/).
 * [Jun 26. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/fzqqwqyzjbjc/).
+* [Jul  3. Atlanta, GA, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/kkzkxqyzkbfb/).
+* [Jul  3. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyzkbfb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
