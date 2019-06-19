@@ -22,6 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Vimeo introduces support for AV1 using rav1e, a Rust library](https://press.vimeo.com/61553-vimeo-introduces-support-for-royalty-free-video-codec-av1).
 * [Amethyst v0.11.0 released, now supporting gfx-hal with Rendy](https://amethyst.rs/posts/release-0-11).
 * [Bzip2 in Rust: porting the randomization table](https://people.gnome.org/~federico/blog/bzip2-in-rust-randomization-table.html).
+* [Building secure systems using RISC-V and Rust](https://content.riscv.org/wp-content/uploads/2019/06/14.05-building_secure_systems-1.pdf).
 
 # Crate of the Week
 
