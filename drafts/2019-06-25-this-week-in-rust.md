@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Let's build a JS Engine (in Rust)](https://2019.jsconf.eu/jason-williams/lets-build-a-javascript-engine.html).
+
 # Crate of the Week
 
 This week's crate is [safe](https://github.com/Centril/rust-safe), a `#[safe]` attribute for explaining why `unsafe { ... }` is OK. Thanks to [Michael-F-Bryan](https://users.rust-lang.org/t/crate-of-the-week/2704/569) for the suggestion!
