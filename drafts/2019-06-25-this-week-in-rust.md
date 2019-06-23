@@ -109,6 +109,7 @@ decision. Express your opinions now.
 
 * [Jun 26. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzjbjc/).
 * [Jun 26. Milano, IT - Rust Language Milano - Fun with Rusty Robots](https://www.meetup.com/rust-language-milano/events/262155219).
+* [Jun 26. Barcelona, ES - 5th BcnRust Meetup - Live-coding session: Building an audio delay effect](https://www.meetup.com/es-ES/BcnRust/events/262457440).
 * [Jun 28-29. Firenze, IT - RustLab 2019](https://www.rustlab.it/).
 
 ### North America
