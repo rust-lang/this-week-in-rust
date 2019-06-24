@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Rust for closed-source projects](https://ntcore.com/?p=641)
+
 # Crate of the Week
 
 This week's crate is [safe](https://github.com/Centril/rust-safe), a `#[safe]` attribute for explaining why `unsafe { ... }` is OK. Thanks to [Michael-F-Bryan](https://users.rust-lang.org/t/crate-of-the-week/2704/569) for the suggestion!
