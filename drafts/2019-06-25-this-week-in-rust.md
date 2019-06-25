@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [safe](https://github.com/Centril/rust-safe), a `#[safe]` attribute for explaining why `unsafe { ... }` is OK. Thanks to [Michael-F-Bryan](https://users.rust-lang.org/t/crate-of-the-week/2704/569) for the suggestion!
+This week's crate is [winit](https://github.com/rust-windowing/winit), a pure-rust cross-platform window initialization library. Thanks to [Osspial](https://users.rust-lang.org/t/crate-of-the-week/2704/572) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -45,25 +45,19 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-06-10..2019-06-17
 
-* [Stabilize copy_within](https://github.com/rust-lang/rust/pull/61398).
-* [Stabilize underscore_const_names in 1.37.0](https://github.com/rust-lang/rust/pull/61347).
-* [Stabilize Option::xor](https://github.com/rust-lang/rust/pull/60376).
-* [rustc: replace `TyCtxt<'a, 'gcx, 'tcx>` with `TyCtxt<'gcx, 'tcx>`](https://github.com/rust-lang/rust/pull/61722).
-* [Unify all uses of 'gcx and 'tcx](https://github.com/rust-lang/rust/pull/61817).
-* [Deprecate ONCE_INIT in future 1.38 release](https://github.com/rust-lang/rust/pull/61757).
-* [Implement RFC 2645 (transparent enums and unions)](https://github.com/rust-lang/rust/pull/60463).
-* [Allow attributes in formal function parameters](https://github.com/rust-lang/rust/pull/60669).
-* [Implement Clone::clone_from for Option and Result](https://github.com/rust-lang/rust/pull/61348).
-* [Implement nth_back for Range(Inclusive)](https://github.com/rust-lang/rust/pull/61671).
-* [Use Symbol, Span in libfmt_macros](https://github.com/rust-lang/rust/pull/61568).
-* [typeck: Fix const generic in repeat param ICE](https://github.com/rust-lang/rust/pull/61698).
-* [Hygienize macros in the standard library](https://github.com/rust-lang/rust/pull/61629).
-* [Optimize matches](https://github.com/rust-lang/rust/pull/60730).
-* [When suggesting borrow, remove useless clones](https://github.com/rust-lang/rust/pull/61143).
-* [lexer: Disallow bare CR in raw byte strings](https://github.com/rust-lang/rust/pull/60793).
-* [Generator optimization: Overlap locals that never have storage live at the same time](https://github.com/rust-lang/rust/pull/60187).
-* [Implement unchecked_{add,sub,mul} intrinsics](https://github.com/rust-lang/miri/pull/776).
-* [Limit dylib symbols](https://github.com/rust-lang/rust/pull/59752).
+* [Introduce `Let(..)` in AST, remove `IfLet` + `WhileLet` and parse let chains](https://github.com/rust-lang/rust/pull/60861)
+* [Support `cfg` and `cfg_attr` on generic parameters](https://github.com/rust-lang/rust/pull/61547)
+* [librustc_data_structures: Speedup union of sparse and dense hybrid set](https://github.com/rust-lang/rust/pull/61020)
+* [Refactor miri pointer checks](https://github.com/rust-lang/rust/pull/62081)
+* [Help LLVM better optimize `slice::Iter`(`Mut`)`::len`](https://github.com/rust-lang/rust/pull/61885)
+* [Remove the default type of `Rem::Output`](https://github.com/rust-lang/rust/pull/61874)
+* [Make use of `ptr::null`(`_mut`) instead of casting zero](https://github.com/rust-lang/rust/pull/61864)
+* [Make `MaybeUninit` `#[repr(transparent)]`](https://github.com/rust-lang/rust/pull/61802)
+* [Implement `nth_back` for `slice::`{`Iter`, `IterMut`}](https://github.com/rust-lang/rust/pull/60772)
+* [Add custom `nth_back` to `Skip`](https://github.com/rust-lang/rust/pull/60454)
+* [Add functions for building raw slices to libcore](https://github.com/rust-lang/rust/pull/60667)
+* [rustdoc: Only show methods that appear in `impl` blocks in the Implementors sections of trait doc pages](https://github.com/rust-lang/rust/pull/61505)
+* [rustdoc: Generate implementors for all auto traits](https://github.com/rust-lang/rust/pull/60293)
 
 ## Approved RFCs
 
@@ -135,7 +129,19 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-*No quote was selected for QotW.*
+> why doesn't 'static, the largest lifetime, not simply eat all the others
+
+– [@mountain_ghosts on twitter](https://twitter.com/mountain_ghosts/status/1133406976002674688?s=09)
+
+> @mountain_ghosts 'static is biggest but actually,, weakest of lifetimes, becuase it is subtype of every lifetime
+>
+> 'static is big soft friend
+>
+> pls love and protect it
+
+– [@gankro on twitter](https://twitter.com/Gankro/status/1133435497806815232?s=09)
+
+Thanks to [Christopher Durham](https://users.rust-lang.org/t/twir-quote-of-the-week/328/654) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
