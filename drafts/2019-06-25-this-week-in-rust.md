@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Let's build a JavaScript Engine (in Rust)](https://2019.jsconf.eu/jason-williams/lets-build-a-javascript-engine.html).
 * [Rust for closed-source projects](https://ntcore.com/?p=641)
 
 # Crate of the Week
