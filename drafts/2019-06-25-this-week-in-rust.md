@@ -16,8 +16,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [nom parser combinators 5.0 release: replace macros with functions, better errors](http://unhandledexpression.com/general/2019/06/17/nom-5-is-here.html).
+* [The typestate pattern in Rust](http://cliffle.com/blog/rust-typestate/).
+* [Implementing ptrace for Redox OS - part 0](https://www.redox-os.org/news/rsoc-ptrace-0/).
 * [Let's build a JavaScript Engine (in Rust)](https://2019.jsconf.eu/jason-williams/lets-build-a-javascript-engine.html).
-* [Rust for closed-source projects](https://ntcore.com/?p=641)
+* [Real time for the masses goes multi-core](https://blog.japaric.io/multicore-rtfm/).
+* [Rust streams](https://blog.yoshuawuyts.com/rust-streams/).
+* [Rust on the ESP32/ESP8266 and how to get started](https://dentrassi.de/2019/06/16/rust-on-the-esp-and-how-to-get-started/).
+* [Rust for closed-source projects](https://ntcore.com/?p=641).
+* [swym: Are we lock-free yet](https://mtak-blog.github.io/are-we-lock-free-yet)?
 
 # Crate of the Week
 
@@ -34,10 +41,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Final async/await testing push](https://internals.rust-lang.org/t/final-async-await-testing-push/10423).
-* [Rubble: Help wanted solving our BLE stack problem](https://mckeogh.tech/help-wanted-ble/). Rubble is a Bluetooth Low Energy compatible protocol stack for embedded Rust.
-* [contrie: Rayon support: FromParallelIterator & ParallelExtend](https://github.com/vorner/contrie/issues/3). ConTrie is a concurrent hash-trie map & set.
-* [Request for implementation](https://github.com/dtolnay/request-for-implementation/) - Crates that don't exist but should. Suggest your own design and someone will pick it up. 
+* [Call for Proposals is open for Rust Belt Rust 2019 until 1 July](http://cfp.rust-belt-rust.com/).
+* [Winit 0.20, the state of windowing in Rust, and a request for help](https://users.rust-lang.org/t/winit-0-20-the-state-of-windowing-in-rust-and-a-request-for-help/29485).
+* [Request for implementation](https://github.com/dtolnay/request-for-implementation/) - Crates that don't exist but should. Suggest your own design and someone will pick it up.
+* [miniz_oxide: Some Panics cause segfaults in jemalloc when called from flate2](https://github.com/Frommi/miniz_oxide/issues/14).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -45,9 +52,9 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-205 pull requests were [merged in the last week][merged]
+172 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-06-10..2019-06-17
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-06-17..2019-06-24
 
 * [Introduce `Let(..)` in AST, remove `IfLet` + `WhileLet` and parse let chains](https://github.com/rust-lang/rust/pull/60861)
 * [Support `cfg` and `cfg_attr` on generic parameters](https://github.com/rust-lang/rust/pull/61547)
@@ -79,15 +86,16 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Finalize syntax for slice patterns with subslices](https://github.com/rust-lang/rfcs/pull/2359).
+* [disposition: merge] [Make `..` a pattern syntactically](https://github.com/rust-lang/rfcs/pull/2707).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-*No issues are currently in final comment period.*
+* [disposition: merge] [Stabilize `type_alias_enum_variants` in Rust 1.37.0](https://github.com/rust-lang/rust/pull/61682).
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [RFC for Vec::append_from_within()](https://github.com/rust-lang/rfcs/pull/2714).
 
 # Upcoming Events
 
@@ -97,26 +105,23 @@ decision. Express your opinions now.
 
 ### Asia Pacific
 
-* [Jun 24. Sydney, AU - Rust Sydney - Meetup 17](https://www.meetup.com/Rust-Sydney/events/262194894/).
-* [Jun 25. Seoul, KR - Seoul Rust Meetup, Hapjeong - Deep dive into Rusts standard library](https://www.meetup.com/Rust-Seoul-Meetup/events/srxvzqyzjbhc/).
 * [Jun 29. Taipei, TW - Rust Taiwan Meetup](https://www.facebook.com/events/2824830874225735/).
 * [Jul  1. Auckland, NZ - Rust AKL - WASM - Implementing a scalable omiscient debugger in Rust](https://www.meetup.com/rust-akl/events/259480968/).
 * [Jul  7. Tokyo, JP - Tokyo Rust Meetup - Rust LT #6](https://rust.connpass.com/event/133657/).
+* [Jul 10. Petaling Jaya, MY - Rust Meetup July 2019](https://docs.google.com/forms/d/e/1FAIpQLSeyDIRlKFE0h4gJ8cxL6tz_3G4p7k4okZZBNhGbuitlOqBJOg/viewform).
 
 ### Europe
 
-* [Jun 26. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzjbjc/).
-* [Jun 26. Milano, IT - Rust Language Milano - Fun with Rusty Robots](https://www.meetup.com/rust-language-milano/events/262155219).
 * [Jun 28-29. Firenze, IT - RustLab 2019](https://www.rustlab.it/).
+* [Jul 10. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzkbnb/).
 
 ### North America
 
-* [Jun 24. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzjbgc/).
-* [Jun 25. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyzjbhc/).
-* [Jun 26. Ann Arbor, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/vsncvqyzjbjc/).
-* [Jun 26. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/fzqqwqyzjbjc/).
 * [Jul  3. Atlanta, GA, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/kkzkxqyzkbfb/).
 * [Jul  3. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyzkbfb/).
+* [Jul  9. Redmond, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gfnncryzkbmb/).
+* [Jul 10. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/fzqqwqyzkbnb/).
+* [Jul 11. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyzkbpb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -127,7 +132,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Blockchain Runtime Engineer at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-blockchain-runtime-engineer).
+* [Senior Software Engineer (Rust) at IOTA, Remote](https://iota.bamboohr.com/jobs/view.php?id=90).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
