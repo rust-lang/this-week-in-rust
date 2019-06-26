@@ -19,8 +19,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [nom parser combinators 5.0 release: replace macros with functions, better errors](http://unhandledexpression.com/general/2019/06/17/nom-5-is-here.html).
 * [The typestate pattern in Rust](http://cliffle.com/blog/rust-typestate/).
 * [Implementing ptrace for Redox OS - part 0](https://www.redox-os.org/news/rsoc-ptrace-0/).
-* [Let's build a JavaScript Engine (in Rust)](https://2019.jsconf.eu/jason-williams/lets-build-a-javascript-engine.html).
-* [Real time for the masses goes multi-core](https://blog.japaric.io/multicore-rtfm/).
+* [Let's build a JavaScript engine (in Rust)](https://2019.jsconf.eu/jason-williams/lets-build-a-javascript-engine.html).
+* [Real Time for the Masses (RTFM) goes multi-core](https://blog.japaric.io/multicore-rtfm/).
 * [Rust streams](https://blog.yoshuawuyts.com/rust-streams/).
 * [Rust on the ESP32/ESP8266 and how to get started](https://dentrassi.de/2019/06/16/rust-on-the-esp-and-how-to-get-started/).
 * [Rust for closed-source projects](https://ntcore.com/?p=641).
