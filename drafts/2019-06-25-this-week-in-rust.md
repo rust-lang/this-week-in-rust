@@ -34,6 +34,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Final async/await testing push](https://internals.rust-lang.org/t/final-async-await-testing-push/10423).
 * [Rubble: Help wanted solving our BLE stack problem](https://mckeogh.tech/help-wanted-ble/). Rubble is a Bluetooth Low Energy compatible protocol stack for embedded Rust.
 * [contrie: Rayon support: FromParallelIterator & ParallelExtend](https://github.com/vorner/contrie/issues/3). ConTrie is a concurrent hash-trie map & set.
+* [Request for implementation](https://github.com/dtolnay/request-for-implementation/) - Crates that don't exist but should. Suggest your own design and someone will pick it up. 
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
