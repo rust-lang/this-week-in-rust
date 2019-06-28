@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [New RON (Rusty Object Notation) IntelliJ plugin brings the Rust type-checker to the serde format.](https://vultix.github.io/intellij-ron-plugin/)
+
 # Crate of the Week
 
 This week's crate is [winit](https://github.com/rust-windowing/winit), a pure-rust cross-platform window initialization library. Thanks to [Osspial](https://users.rust-lang.org/t/crate-of-the-week/2704/572) for the suggestion!
