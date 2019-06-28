@@ -36,6 +36,14 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Request for implementation](https://github.com/dtolnay/request-for-implementation/) - Crates that don't exist but should. Suggest your own design and someone will pick it up.
 * [miniz_oxide: Some Panics cause segfaults in jemalloc when called from flate2](https://github.com/Frommi/miniz_oxide/issues/14).
 
+gfx-rs introduces the [contributor-friendly](https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly) label for issues that are appropriately inviting to new members:
+* [Should have a way of telling whether backend is supported](https://github.com/gfx-rs/gfx/issues/2783)
+* [A comparative table of HAL features available per backend](https://github.com/gfx-rs/gfx/issues/2547)
+* (hal) [Consider removing typed command buffers, pools and queues](https://github.com/gfx-rs/gfx/issues/2862)
+* (metal) [Try Kudzu instead of storage-map](https://github.com/gfx-rs/gfx/issues/2860)
+* (dx12) [Support VertexIndex and InstanceIndex semantics](https://github.com/gfx-rs/gfx/issues/2589)
+* (dx12) [Pipeline caches](https://github.com/gfx-rs/gfx/issues/2877)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
