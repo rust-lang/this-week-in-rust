@@ -107,6 +107,7 @@ decision. Express your opinions now.
 
 ### North America
 
+* [Jul  2. Toronto, ON, Canada - Rust features and ecosystem gems that power WebRender](https://www.meetup.com/Rust-Toronto/events/261238938/).
 * [Jul  3. Atlanta, GA, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/kkzkxqyzkbfb/).
 * [Jul  3. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyzkbfb/).
 * [Jul  9. Redmond, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gfnncryzkbmb/).
