@@ -16,6 +16,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Writing an OS in Rust: Heap allocation](https://os.phil-opp.com/heap-allocation/).
+* [Non-lexical lifetimes arrives for everyone](http://blog.pnkfx.org/blog/2019/06/26/breaking-news-non-lexical-lifetimes-arrives-for-everyone/).
+* [Status of rust-analyzer: Achievements and Open Collective](https://ferrous-systems.com/blog/rust-analyzer-status-opencollective/).
+* [TLS performance: rustls versus OpenSSL](https://jbp.io/2019/07/01/rustls-vs-openssl-performance.html).
+* [Optimizing jieba-rs to be 33% faster than cppjieba](https://blog.paulme.ng/posts/2019-06-30-optimizing-jieba-rs-to-be-33percents-faster-than-cppjieba.html).
+* [Brave improves its ad-blocker performance by 69x with new engine implementation in Rust](https://brave.com/improved-ad-blocker-performance/).
+* [Writing a small ray tracer in Rust and Zig](https://nelari.us/post/raytracer_with_rust_and_zig/).
+* [Compiling Rust apps for Termux with nix-shell](https://blog.geemili.xyz/blog/rust-app-on-termux-with-nix/).
+* [Building crates so they look like C(ABI) libraries](https://dev.to/luzero/building-crates-so-they-look-like-c-abi-libraries-1ibn).
+
 # Crate of the Week
 
 This week's crate is [aljabar](https://github.com/maplant/aljabar), an extremely generic linear algebra libary. Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/574) for the suggestion!
@@ -31,13 +41,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Call for Proposals is open for Rust Belt Rust 2019 until 1 July](http://cfp.rust-belt-rust.com/).
-* [Winit 0.20, the state of windowing in Rust, and a request for help](https://users.rust-lang.org/t/winit-0-20-the-state-of-windowing-in-rust-and-a-request-for-help/29485).
-* [Request for implementation](https://github.com/dtolnay/request-for-implementation/) - Crates that don't exist but should. Suggest your own design and someone will pick it up.
-* [miniz_oxide: Some Panics cause segfaults in jemalloc when called from flate2](https://github.com/Frommi/miniz_oxide/issues/14).
 * [TiKV: Replace Debug formatting with Display formatting in errors, panics and logs](https://github.com/tikv/tikv/issues/4960).
+* [Goblin: Crash on malformed ELF file](https://github.com/m4b/goblin/issues/120). Goblin is an impish, cross-platform binary parsing crate, written in Rust.
 
 gfx-rs introduces the [contributor-friendly](https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly) label for issues that are appropriately inviting to new members:
+
 * [Should have a way of telling whether backend is supported](https://github.com/gfx-rs/gfx/issues/2783)
 * [A comparative table of HAL features available per backend](https://github.com/gfx-rs/gfx/issues/2547)
 * (hal) [Consider removing typed command buffers, pools and queues](https://github.com/gfx-rs/gfx/issues/2862)
@@ -81,7 +89,8 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2359: Finalize syntax for slice patterns with subslices](https://github.com/rust-lang/rfcs/pull/2359).
+* [RFC 2707: Make `..` a pattern syntactically](https://github.com/rust-lang/rfcs/pull/2707).
 
 ## Final Comment Period
 
@@ -91,42 +100,38 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Finalize syntax for slice patterns with subslices](https://github.com/rust-lang/rfcs/pull/2359).
-* [disposition: merge] [Make `..` a pattern syntactically](https://github.com/rust-lang/rfcs/pull/2707).
+* [disposition: merge] [Permit impl Trait in type aliases](https://github.com/rust-lang/rfcs/pull/2515).
+* [disposition: merge] [Add key and value methods to DebugMap](https://github.com/rust-lang/rfcs/pull/2696).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize `type_alias_enum_variants` in Rust 1.37.0](https://github.com/rust-lang/rust/pull/61682).
+* [disposition: merge] [Stabilize todo macro](https://github.com/rust-lang/rust/pull/61879).
+* [disposition: merge] [Add `impl<T> FromIterator<T> for Arc/Rc<[T]>`](https://github.com/rust-lang/rust/pull/61953).
 
 ## New RFCs
 
-* [RFC for Vec::append_from_within()](https://github.com/rust-lang/rfcs/pull/2714).
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
-### Africa
-
-* [Jul  3. Johannesburg, ZA - Johannesburg Rust Meetup - informal discussions on topics related to the language](https://www.meetup.com/Johannesburg-Rust-Meetup/events/dgqmbryzkbfb/).
-
 ### Asia Pacific
 
-* [Jun 29. Taipei, TW - Rust Taiwan Meetup](https://www.facebook.com/events/2824830874225735/).
-* [Jul  1. Auckland, NZ - Rust AKL - WASM - Implementing a scalable omiscient debugger in Rust](https://www.meetup.com/rust-akl/events/259480968/).
 * [Jul  7. Tokyo, JP - Tokyo Rust Meetup - Rust LT #6](https://rust.connpass.com/event/133657/).
 * [Jul 10. Petaling Jaya, MY - Rust Meetup July 2019](https://docs.google.com/forms/d/e/1FAIpQLSeyDIRlKFE0h4gJ8cxL6tz_3G4p7k4okZZBNhGbuitlOqBJOg/viewform).
 
 ### Europe
 
-* [Jun 28-29. Firenze, IT - RustLab 2019](https://www.rustlab.it/).
+* [Jul  9. Göteborg, SE - Rust Gbg — July 2019](https://www.meetup.com/rustgbg/events/262786615/).
 * [Jul 10. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzkbnb/).
+* [Jul 18. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/258593192).
 
 ### North America
 
-* [Jul  3. Atlanta, GA, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/kkzkxqyzkbfb/).
-* [Jul  3. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyzkbfb/).
 * [Jul  9. Redmond, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gfnncryzkbmb/).
 * [Jul 10. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/fzqqwqyzkbnb/).
 * [Jul 11. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyzkbpb/).
+* [Jul 11. San Diego, CA, US - San Diego Rust July Meetup](https://www.meetup.com/San-Diego-Rust/events/262650307/).
+* [Jul 17. San Francisco, CA, US - Rust in Blockchain San Francisco - In Rust We Trust](https://www.meetup.com/Rust-in-Blockchain-San-Francisco/events/262773260/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -137,8 +142,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Software Infrastructure Engineer at Blue Origin, Kent, WA](https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Kent-WA/Software-Infrastructure-Engineer_R661)
-* [Senior Software Engineer (Rust) at IOTA, Remote](https://iota.bamboohr.com/jobs/view.php?id=90).
+* [Blockchain Runtime Engineer at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-blockchain-runtime-engineer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
