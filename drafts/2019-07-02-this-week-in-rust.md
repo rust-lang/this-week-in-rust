@@ -35,6 +35,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Winit 0.20, the state of windowing in Rust, and a request for help](https://users.rust-lang.org/t/winit-0-20-the-state-of-windowing-in-rust-and-a-request-for-help/29485).
 * [Request for implementation](https://github.com/dtolnay/request-for-implementation/) - Crates that don't exist but should. Suggest your own design and someone will pick it up.
 * [miniz_oxide: Some Panics cause segfaults in jemalloc when called from flate2](https://github.com/Frommi/miniz_oxide/issues/14).
+* [TiKV: Replace Debug formatting with Display formatting in errors, panics and logs](https://github.com/tikv/tikv/issues/4960).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
