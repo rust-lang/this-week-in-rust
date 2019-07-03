@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [winit](https://github.com/rust-windowing/winit), a pure-rust cross-platform window initialization library. Thanks to [Osspial](https://users.rust-lang.org/t/crate-of-the-week/2704/572) for the suggestion!
+This week's crate is [aljabar](https://github.com/maplant/aljabar), an extremely generic linear algebra libary. Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/574) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -42,23 +42,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-172 pull requests were [merged in the last week][merged]
+196 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-06-17..2019-06-24
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-06-24..2019-07-01
 
-* [Introduce `Let(..)` in AST, remove `IfLet` + `WhileLet` and parse let chains](https://github.com/rust-lang/rust/pull/60861)
-* [Support `cfg` and `cfg_attr` on generic parameters](https://github.com/rust-lang/rust/pull/61547)
-* [librustc_data_structures: Speedup union of sparse and dense hybrid set](https://github.com/rust-lang/rust/pull/61020)
-* [Refactor miri pointer checks](https://github.com/rust-lang/rust/pull/62081)
-* [Help LLVM better optimize `slice::Iter`(`Mut`)`::len`](https://github.com/rust-lang/rust/pull/61885)
-* [Remove the default type of `Rem::Output`](https://github.com/rust-lang/rust/pull/61874)
-* [Make use of `ptr::null`(`_mut`) instead of casting zero](https://github.com/rust-lang/rust/pull/61864)
-* [Make `MaybeUninit` `#[repr(transparent)]`](https://github.com/rust-lang/rust/pull/61802)
-* [Implement `nth_back` for `slice::`{`Iter`, `IterMut`}](https://github.com/rust-lang/rust/pull/60772)
-* [Add custom `nth_back` to `Skip`](https://github.com/rust-lang/rust/pull/60454)
-* [Add functions for building raw slices to libcore](https://github.com/rust-lang/rust/pull/60667)
-* [rustdoc: Only show methods that appear in `impl` blocks in the Implementors sections of trait doc pages](https://github.com/rust-lang/rust/pull/61505)
-* [rustdoc: Generate implementors for all auto traits](https://github.com/rust-lang/rust/pull/60293)
+* [Clean up query cache code](https://github.com/rust-lang/rust/pull/59722)
+* [Don't ICE on mutable zst slices](https://github.com/rust-lang/rust/pull/62094)
+* [syntax: Remove `ast::Guard`](https://github.com/rust-lang/rust/pull/62075)
+* [Always parse `async unsafe fn` + properly ban in 2015](https://github.com/rust-lang/rust/pull/62241)
+* [Call out explicitly that general read needs to be called with an initialized buffer](https://github.com/rust-lang/rust/pull/62102)
+* [Fix error counting](https://github.com/rust-lang/rust/pull/62055)
+* [Use ecx for const-prop local storage](https://github.com/rust-lang/rust/pull/62012)
+* [Fix HIR visit order](https://github.com/rust-lang/rust/pull/61572)
+* [Extend the `#[must_use]` lint to boxed types](https://github.com/rust-lang/rust/pull/62228)
+* [Extend the `#[must_use]` lint to arrays](https://github.com/rust-lang/rust/pull/62235)
+* [Clean up MIR drop generation](https://github.com/rust-lang/rust/pull/61872)
+* [Use a more efficient iteration order for backward dataflow](https://github.com/rust-lang/rust/pull/62063)
+* [Use a more efficient iteration order for forward dataflow](https://github.com/rust-lang/rust/pull/62062)
+* [save-analysis: Use buffered writes](https://github.com/rust-lang/rust/pull/62164)
+* [Remove `FnBox`](https://github.com/rust-lang/rust/pull/62043)
+* [rustdoc: Remove unused derives and variants](https://github.com/rust-lang/rust/pull/62224)
+* [rustdoc: Prevent panic when sysroot cannot be computed](https://github.com/rust-lang/rust/pull/61459)
+* [backtrace: More improvements to gimli support](https://github.com/rust-lang/backtrace-rs/pull/217)
+* [rustup: Switch to `std::fs::read_to_string`](https://github.com/rust-lang/rustup.rs/pull/1906)
 
 ## Approved RFCs
 
@@ -122,25 +128,18 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Software Infrastructure Engineer at Blue Origin, Kent, WA](https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Kent-WA/Software-Infrastructure-Engineer_R661)
 * [Senior Software Engineer (Rust) at IOTA, Remote](https://iota.bamboohr.com/jobs/view.php?id=90).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> why doesn't 'static, the largest lifetime, not simply eat all the others
+> Python and Go pick up your trash for you. C lets you litter everywhere, but throws a fit when it steps on your banana peel. Rust slaps you and demands that you clean up after yourself.
 
-– [@mountain_ghosts on twitter](https://twitter.com/mountain_ghosts/status/1133406976002674688?s=09)
+– [Nicholas Hahn on his blog](http://www.nicolas-hahn.com/python/go/rust/programming/2019/07/01/program-in-python-go-rust/)
 
-> @mountain_ghosts 'static is biggest but actually,, weakest of lifetimes, becuase it is subtype of every lifetime
->
-> 'static is big soft friend
->
-> pls love and protect it
-
-– [@gankro on twitter](https://twitter.com/Gankro/status/1133435497806815232?s=09)
-
-Thanks to [Christopher Durham](https://users.rust-lang.org/t/twir-quote-of-the-week/328/654) for the suggestion!
+Thanks to [UtherII](https://users.rust-lang.org/t/twir-quote-of-the-week/328/662) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
