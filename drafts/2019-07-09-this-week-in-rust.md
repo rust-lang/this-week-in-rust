@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Safer, Simpler Embedded Rust with Apache Mynewt on STM32 Blue Pill](https://medium.com/@ly.lee/safer-simpler-embedded-rust-with-apache-mynewt-on-stm32-blue-pill-d8fcb41969ac)
+
 # Crate of the Week
 
 This week's crate is [aljabar](https://github.com/maplant/aljabar), an extremely generic linear algebra libary. Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/574) for the suggestion!
