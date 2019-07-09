@@ -18,7 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-Sadly, no crate was suggested this week.
+This week's CotW is not a crate but [Rustexp](https://rustexp.lpil.uk/) site, a Rust regular expression editor & tester.
+Thanks to [carols10cents](https://github.com/cmr/this-week-in-rust/issues/939) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
