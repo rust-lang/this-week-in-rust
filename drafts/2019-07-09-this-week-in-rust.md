@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Safer, Simpler Embedded Rust with Apache Mynewt on STM32 Blue Pill](https://medium.com/@ly.lee/safer-simpler-embedded-rust-with-apache-mynewt-on-stm32-blue-pill-d8fcb41969ac)
+
 # Crate of the Week
 
 This week's CotW is not a crate but [Rustexp](https://rustexp.lpil.uk/) site, a Rust regular expression editor & tester.
