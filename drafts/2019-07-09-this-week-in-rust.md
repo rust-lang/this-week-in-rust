@@ -16,7 +16,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Safer, Simpler Embedded Rust with Apache Mynewt on STM32 Blue Pill](https://medium.com/@ly.lee/safer-simpler-embedded-rust-with-apache-mynewt-on-stm32-blue-pill-d8fcb41969ac)
+* 🎈🎉 [Announcing Rust 1.36.0](https://blog.rust-lang.org/2019/07/04/Rust-1.36.0.html). 🎉🎈
+* [Async-await status report #2](http://smallcultfollowing.com/babysteps/blog/2019/07/08/async-await-status-report-2/).
+* [Writing an OS in Rust: Updates in June 2019](https://os.phil-opp.com/status-update/2019-06-04/).
+* [Method for emulating higher-kinded types in Rust](https://gist.github.com/edmundsmith/855fcf0cb35dd467c29a9350481f0ecf).
+* [Speedy desktop apps with GTK and Rust](https://nora.codes/tutorial/speedy-desktop-apps-with-gtk-and-rust/).
+* [Build a decentralized chat using JavaScript & Rust (WebAssembly)](https://medium.com/perlin-network/build-a-decentralized-chat-using-javascript-rust-webassembly-c775f8484b52).
+* [Safer, simpler embedded Rust with Apache Mynewt](https://medium.com/@ly.lee/safer-simpler-embedded-rust-with-apache-mynewt-on-stm32-blue-pill-d8fcb41969ac).
 
 # Crate of the Week
 
@@ -34,17 +40,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [TiKV: Replace Debug formatting with Display formatting in errors, panics and logs](https://github.com/tikv/tikv/issues/4960).
-* [Goblin: Crash on malformed ELF file](https://github.com/m4b/goblin/issues/120). Goblin is an impish, cross-platform binary parsing crate, written in Rust.
-
-gfx-rs introduces the [contributor-friendly](https://github.com/gfx-rs/gfx/issues?q=is%3Aissue+is%3Aopen+label%3Acontributor-friendly) label for issues that are appropriately inviting to new members:
-
-* [Should have a way of telling whether backend is supported](https://github.com/gfx-rs/gfx/issues/2783).
-* [A comparative table of HAL features available per backend](https://github.com/gfx-rs/gfx/issues/2547).
-* (hal) [Consider removing typed command buffers, pools and queues](https://github.com/gfx-rs/gfx/issues/2862).
-* (metal) [Try Kudzu instead of storage-map](https://github.com/gfx-rs/gfx/issues/2860).
-* (dx12) [Support VertexIndex and InstanceIndex semantics](https://github.com/gfx-rs/gfx/issues/2589).
-* (dx12) [Pipeline caches](https://github.com/gfx-rs/gfx/issues/2877).
+* [js_int: wasm_bindgen support](https://github.com/jplatte/js_int/issues/7). js_int is JavaScript-interoperable integer types for Rust.
+* [js_int: Add a feature that adds a kind method to ParseIntError](https://github.com/jplatte/js_int/issues/8).
+* [js_int: Implement `std::iter::Sum` for `Int`, `UInt`](https://github.com/jplatte/js_int/issues/10).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -75,8 +73,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2359: Finalize syntax for slice patterns with subslices](https://github.com/rust-lang/rfcs/pull/2359).
-* [RFC 2707: Make `..` a pattern syntactically](https://github.com/rust-lang/rfcs/pull/2707).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -86,38 +83,38 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Permit impl Trait in type aliases](https://github.com/rust-lang/rfcs/pull/2515).
-* [disposition: merge] [Add key and value methods to DebugMap](https://github.com/rust-lang/rfcs/pull/2696).
+*No RFCs are currently in final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Tracking issue for the `cast` method of raw pointers](https://github.com/rust-lang/rust/issues/60602.)
 * [disposition: merge] [Stabilize todo macro](https://github.com/rust-lang/rust/pull/61879).
 * [disposition: merge] [Add `impl<T> FromIterator<T> for Arc/Rc<[T]>`](https://github.com/rust-lang/rust/pull/61953).
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [Private registry authentication](https://github.com/rust-lang/rfcs/pull/2719).
 
 # Upcoming Events
 
 ### Asia Pacific
 
-* [Jul  7. Tokyo, JP - Tokyo Rust Meetup - Rust LT #6](https://rust.connpass.com/event/133657/).
-* [Jul 10. Petaling Jaya, MY - Rust Meetup July 2019](https://docs.google.com/forms/d/e/1FAIpQLSeyDIRlKFE0h4gJ8cxL6tz_3G4p7k4okZZBNhGbuitlOqBJOg/viewform).
+* [Jul 23. Wellington, NZ - Rust Wellington - Talk: 5 Essential Traits](https://www.meetup.com/Rust-Wellington/events/262407494/).
 
 ### Europe
 
-* [Jul  9. Göteborg, SE - Rust Gbg — July 2019](https://www.meetup.com/rustgbg/events/262786615/).
-* [Jul 10. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzkbnb/).
+* [Jun 17. Munich, DE - Rust Munich - Rust Mini Unconference V2](https://www.meetup.com/rust-munich/events/261925415/).
 * [Jul 18. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/258593192).
+* [Jul 24. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzkbgc/).
 
 ### North America
 
-* [Jul  9. Redmond, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gfnncryzkbmb/).
-* [Jul 10. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/fzqqwqyzkbnb/).
 * [Jul 11. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyzkbpb/).
 * [Jul 11. San Diego, CA, US - San Diego Rust July Meetup](https://www.meetup.com/San-Diego-Rust/events/262650307/).
 * [Jul 17. San Francisco, CA, US - Rust in Blockchain San Francisco - In Rust We Trust](https://www.meetup.com/Rust-in-Blockchain-San-Francisco/events/262773260/).
+* [Jul 17. Portland, OR, US - PDXRust - PDX Rust Hack Night (not the usual meetup)](https://www.meetup.com/PDXRust/events/262623734/).
+* [Jul 24. Mexico City, MX - Rust MX - Reunión Julio: Rust y Big data](https://www.meetup.com/Rust-MX/events/262960131/).
+* [Jun 24. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzkbdc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -128,13 +125,12 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Backend Engineer at Bitski, San Francisco, US](https://angel.co/company/bitski/jobs/366874-backend-engineer).
 * [Blockchain Runtime Engineer at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-blockchain-runtime-engineer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
-
-
 
 > > Are we trying to steal the JVM’s “compile once run everywhere” concept?
 
