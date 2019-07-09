@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Retrieve DHCP Logs using Rust Programming](https://blog.knoldus.com/retrieve-dhcp-logs-using-rust-programming/)
 
 # Crate of the Week
 
