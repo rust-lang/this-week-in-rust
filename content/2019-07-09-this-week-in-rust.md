@@ -87,7 +87,7 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Tracking issue for the `cast` method of raw pointers](https://github.com/rust-lang/rust/issues/60602.)
+* [disposition: merge] [Tracking issue for the `cast` method of raw pointers](https://github.com/rust-lang/rust/issues/60602).
 * [disposition: merge] [Stabilize todo macro](https://github.com/rust-lang/rust/pull/61879).
 * [disposition: merge] [Add `impl<T> FromIterator<T> for Arc/Rc<[T]>`](https://github.com/rust-lang/rust/pull/61953).
 
