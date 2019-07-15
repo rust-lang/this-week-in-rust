@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[gfx-rs Javelin project kick-off](https://gfx-rs.github.io/2019/07/13/javelin.html).
+
 # Crate of the Week
 
 This week's CotW is not a crate but [Rustexp](https://rustexp.lpil.uk/) site, a Rust regular expression editor & tester.
