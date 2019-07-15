@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Rust Summer Classes](https://ferrous-systems.com/blog/rust-summer-classes/) in Berlin.
+
 # Crate of the Week
 
 This week's CotW is not a crate but [Rustexp](https://rustexp.lpil.uk/) site, a Rust regular expression editor & tester.
