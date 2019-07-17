@@ -123,6 +123,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Graphics Engineer at Mozilla, Toronto, CA](https://careers.mozilla.org/position/gh/1728803/).
 * [Backend Engineer at Bitski, San Francisco, US](https://angel.co/company/bitski/jobs/366874-backend-engineer).
 * [Blockchain Runtime Engineer at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-blockchain-runtime-engineer).
 
