@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Ferrous Systems: Rust Summer Classes in Berlin](https://ferrous-systems.com/blog/rust-summer-classes/) in Berlin.
 [gfx-rs Javelin project kick-off](https://gfx-rs.github.io/2019/07/13/javelin.html).
 
 # Crate of the Week
