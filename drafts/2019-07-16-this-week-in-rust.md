@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Visual programming in embedded Rust with Apache Mynewt and Google Blockly](https://medium.com/@ly.lee/visual-programming-with-embedded-rust-yes-we-can-with-apache-mynewt-and-google-blockly-8b67ef7412d7).
 [Ferrous Systems: Rust Summer Classes in Berlin](https://ferrous-systems.com/blog/rust-summer-classes/) in Berlin.
 [gfx-rs Javelin project kick-off](https://gfx-rs.github.io/2019/07/13/javelin.html).
 
