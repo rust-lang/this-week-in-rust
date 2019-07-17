@@ -16,10 +16,21 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Stream combinators implemented using for await syntax](https://www.reddit.com/r/rust/comments/cbvhq9/stream_combinators_implemented_using_for_await/)
+* [Microsoft Security Response Center endorses the use of Rust for safe systems programming](https://msrc-blog.microsoft.com/2019/07/16/a-proactive-approach-to-more-secure-code/).
+* [How to speed up the Rust compiler in 2019](https://blog.mozilla.org/nnethercote/2019/07/17/how-to-speed-up-the-rust-compiler-in-2019/).
+* ["What the hardware does" is not what your program does: Uninitialized memory](https://www.reddit.com/r/rust/comments/cd522f/what_the_hardware_does_is_not_what_your_program/).
+* [What is Rust's unsafe](https://nora.codes/post/what-is-rusts-unsafe/)?
+* [AiC: Unbounded queues and lang design](http://smallcultfollowing.com/babysteps/blog/2019/07/10/aic-unbounded-queues-and-lang-design/).
+* [Creating a simple LISP in Rust](https://willspeak.me/2019/07/10/lisp-in-two-days-with-rust.html).
+* [Announcing Rustacean Station and Rust 1.36](https://rustacean-station.org/episode/000-rust-1.36.0/).
+* [Rust as the new C. Part 1: building and combining native libs into C API](http://hotforknowledge.com/2019/07/14/6-rust-the-new-c/).
+* [New tools for 2D game development](https://amethyst.rs/posts/tools-for-2d-games).
+* [Fullstack Rust with Yew](https://www.steadylearner.com/blog/read/Fullstack-Rust-with-Yew).
+* [gfx-rs Javelin project kick-off](https://gfx-rs.github.io/2019/07/13/javelin.html).
 * [Visual programming in embedded Rust with Apache Mynewt and Google Blockly](https://medium.com/@ly.lee/visual-programming-with-embedded-rust-yes-we-can-with-apache-mynewt-and-google-blockly-8b67ef7412d7).
-[Ferrous Systems: Rust Summer Classes in Berlin](https://ferrous-systems.com/blog/rust-summer-classes/) in Berlin.
-[gfx-rs Javelin project kick-off](https://gfx-rs.github.io/2019/07/13/javelin.html).
+* [Stream combinators implemented using for await syntax](https://www.reddit.com/r/rust/comments/cbvhq9/stream_combinators_implemented_using_for_await/).
+* [Ferrous Systems: Rust Summer Classes in Berlin](https://ferrous-systems.com/blog/rust-summer-classes/).
+* [Tickets are now available RustFest Barcelona - 9-12 November 2019](https://blog.rustfest.eu/barcelona-announcement).
 
 # Crate of the Week
 
@@ -37,9 +48,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [js_int: wasm_bindgen support](https://github.com/jplatte/js_int/issues/7). js_int is JavaScript-interoperable integer types for Rust.
-* [js_int: Add a feature that adds a kind method to ParseIntError](https://github.com/jplatte/js_int/issues/8).
-* [js_int: Implement `std::iter::Sum` for `Int`, `UInt`](https://github.com/jplatte/js_int/issues/10).
+* [std::future support merged to hyper master. There's now smaller tasks if you'd like to join in](https://github.com/hyperium/hyper/milestone/5).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -51,6 +60,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-07-08..2019-07-15
 
+* [Use const generics for array impls [part 1]](https://github.com/rust-lang/rust/pull/62435)
 * [Update to LLVM 9](https://github.com/rust-lang/llvm-project/pull/19) (ongoing work)
 * [Update LLVM: apply patch necessary for ThinLTO on RISC-V](https://github.com/rust-lang/rust/pull/62463)
 * [Use visitor for `#[structural_match]` check](https://github.com/rust-lang/rust/pull/62339)
@@ -86,35 +96,47 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Tracking issue for the `cast` method of raw pointers](https://github.com/rust-lang/rust/issues/60602.)
-* [disposition: merge] [Stabilize todo macro](https://github.com/rust-lang/rust/pull/61879).
-* [disposition: merge] [Add `impl<T> FromIterator<T> for Arc/Rc<[T]>`](https://github.com/rust-lang/rust/pull/61953).
+* [disposition: merge] [Deprecate `try!` macro](https://github.com/rust-lang/rust/pull/62672).
+* [disposition: merge] [Add joining slices of slices with a slice separator, not just a single item](https://github.com/rust-lang/rust/pull/62528).
+* [disposition: merge] [Stablize Euclidean Modulo (feature euclidean_division)](https://github.com/rust-lang/rust/pull/61884).
+* [disposition: merge] [Tracking issue for unstable `--json-rendered` flag](https://github.com/rust-lang/rust/issues/60987).
+* [disposition: merge] [Tracking issue for stable `-C emit-artifact-notifications` rustc flag](https://github.com/rust-lang/rust/issues/60419).
 
 ## New RFCs
 
-* [Private registry authentication](https://github.com/rust-lang/rfcs/pull/2719).
+* [Target feature runtime](https://github.com/rust-lang/rfcs/pull/2725).
+* [Allow Overloading || and &&](https://github.com/rust-lang/rfcs/pull/2722).
 
 # Upcoming Events
 
+### Africa
+
+* [Jul 20. Nairobi, KE - Rust Nairobi - HACK & LEARN: Exercism Edition](https://www.meetup.com/Rust-Nairobi/events/259650701/).
+
 ### Asia Pacific
 
+* [Jul 20. Chennai, IN - Rust Chennai - Monthly meetup - July](https://www.meetup.com/mad-rs/events/263158278).
 * [Jul 23. Wellington, NZ - Rust Wellington - Talk: 5 Essential Traits](https://www.meetup.com/Rust-Wellington/events/262407494/).
+* [Jun 25. Seoul, KR - Seoul Rust Meetup, Hapjeong](https://www.meetup.com/Rust-Seoul-Meetup/events/srxvzqyzkbfc/).
 
 ### Europe
 
-* [Jun 17. Munich, DE - Rust Munich - Rust Mini Unconference V2](https://www.meetup.com/rust-munich/events/261925415/).
-* [Jul 18. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/258593192).
 * [Jul 24. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzkbgc/).
+* [Jul 24. London, GB - Rust London User Group - LDN Talks July 2019](https://www.meetup.com/Rust-London-User-Group/events/262999277/).
+* [Jul 24. Milano, IT - Rust Language Milano - Rust Exercises](https://www.meetup.com/rust-language-milano/events/263140153).
 * [Aug 07. Erlangen, DE - Rust Franken Meetup #1](https://www.meetup.com/Rust-NERF/events/263163435/).
 
 ### North America
 
-* [Jul 11. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dbcfrpyzkbpb/).
-* [Jul 11. San Diego, CA, US - San Diego Rust July Meetup](https://www.meetup.com/San-Diego-Rust/events/262650307/).
-* [Jul 17. San Francisco, CA, US - Rust in Blockchain San Francisco - In Rust We Trust](https://www.meetup.com/Rust-in-Blockchain-San-Francisco/events/262773260/).
-* [Jul 17. Portland, OR, US - PDXRust - PDX Rust Hack Night (not the usual meetup)](https://www.meetup.com/PDXRust/events/262623734/).
 * [Jul 24. Mexico City, MX - Rust MX - Reunión Julio: Rust y Big data](https://www.meetup.com/Rust-MX/events/262960131/).
-* [Jun 24. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzkbdc/).
+* [Jul 24. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzkbdc/).
+* [Jul 24. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscryzkbgc/).
+* [Jul 24. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/fzqqwqyzkbgc/).
+* [Jul 30. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyzkbnc/).
+
+### South America
+
+* [Jul 27. Sao Paulo, BR - Rust SP - Encontro Julho 2019](https://www.meetup.com/Rust-Sao-Paulo-Meetup/events/262488375).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
