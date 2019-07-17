@@ -118,6 +118,7 @@ decision. Express your opinions now.
 * [Jul 20. Chennai, IN - Rust Chennai - Monthly meetup - July](https://www.meetup.com/mad-rs/events/263158278).
 * [Jul 23. Wellington, NZ - Rust Wellington - Talk: 5 Essential Traits](https://www.meetup.com/Rust-Wellington/events/262407494/).
 * [Jun 25. Seoul, KR - Seoul Rust Meetup, Hapjeong](https://www.meetup.com/Rust-Seoul-Meetup/events/srxvzqyzkbfc/).
+* [Aug 10. Singapore, SG - Rust Meetup](https://www.eventbrite.com/e/rust-meetup-tickets-65358532129).
 
 ### Europe
 
