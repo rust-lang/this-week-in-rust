@@ -16,12 +16,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Visual Programming with Embedded Rust? Yes we can with Apache Mynewt and Google Blockly!](https://medium.com/@ly.lee/visual-programming-with-embedded-rust-yes-we-can-with-apache-mynewt-and-google-blockly-8b67ef7412d7?source=friends_link&sk=353fb92b6f20ebf885ff5c9be44fd6f2)
+* [Visual programming in embedded Rust with Apache Mynewt and Google Blockly](https://medium.com/@ly.lee/visual-programming-with-embedded-rust-yes-we-can-with-apache-mynewt-and-google-blockly-8b67ef7412d7).
+[Ferrous Systems: Rust Summer Classes in Berlin](https://ferrous-systems.com/blog/rust-summer-classes/) in Berlin.
+[gfx-rs Javelin project kick-off](https://gfx-rs.github.io/2019/07/13/javelin.html).
 
 # Crate of the Week
 
-This week's CotW is not a crate but [Rustexp](https://rustexp.lpil.uk/) site, a Rust regular expression editor & tester.
-Thanks to [carols10cents](https://github.com/cmr/this-week-in-rust/issues/939) for the suggestion!
+This week's crate is [overloadable](https://crates.io/crates/overloadable), a crate to provides you with the capabilities to overload your functions in a similar style to C# or C++, including support for meta attributes, type parameters and constraints, and visibility modifiers
+Thanks to [Stevensonmt](https://users.rust-lang.org/t/crate-of-the-week/2704/585) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -44,22 +46,24 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-237 pull requests were [merged in the last week][merged]
+235 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-07-01..2019-07-08
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-07-08..2019-07-15
 
-* [Stabilize support for Profile-guided Optimization](https://github.com/rust-lang/rust/pull/61268) (Hooray!)
-* [Break out of the correct number of scopes in loops](https://github.com/rust-lang/rust/pull/62388)
-* [Improve error span for async type inference error](https://github.com/rust-lang/rust/pull/62383)
-* [Remove `hir::ExprKind::While`](https://github.com/rust-lang/rust/pull/61988)
-* [Generalize impl trait to permit multiple lifetime bounds](https://github.com/rust-lang/rust/pull/61775)
-* [Support stability and deprecation checking for all macros](https://github.com/rust-lang/rust/pull/62042)
-* [Implement `Option::contains` and `Result::contains`](https://github.com/rust-lang/rust/pull/62356)
-* [implement `Iterator::last` via `DoubleEndedIterator::next_back` for some libcore types](https://github.com/rust-lang/rust/pull/62316)
-* [Add `Vec::leak`](https://github.com/rust-lang/rust/pull/62196)
-* [Implement `mem::`{`zeroed`, `uninitialized`} in terms of `MaybeUninit`](https://github.com/rust-lang/rust/pull/62150)
-* [`nth_back` for `chunks_exact`](https://github.com/rust-lang/rust/pull/62064)
-* [Only call the closure parameter of `Iterator::is_sorted_by_key` once per item](https://github.com/rust-lang/rust/pull/62473)
+* [Update to LLVM 9](https://github.com/rust-lang/llvm-project/pull/19) (ongoing work)
+* [Update LLVM: apply patch necessary for ThinLTO on RISC-V](https://github.com/rust-lang/rust/pull/62463)
+* [Use visitor for `#[structural_match]` check](https://github.com/rust-lang/rust/pull/62339)
+* [Normalize projections appearing in `impl Trait`](https://github.com/rust-lang/rust/pull/62221)
+* [typeck: Merge opaque type inference logic](https://github.com/rust-lang/rust/pull/62090)
+* [Fact generation for liveness calculations in Polonius](https://github.com/rust-lang/rust/pull/60266)
+* [Add key and value methods to DebugMap](https://github.com/rust-lang/rust/pull/60458)
+* [Add an AtomicCell abstraction](https://github.com/rust-lang/rust/pull/62577)
+* [Add messages to `Option`'s and `Result`'s `must_use` annotation for `is_*`](https://github.com/rust-lang/rust/pull/62431)
+* [Prevent Vec::drain_filter from double dropping on panic](https://github.com/rust-lang/rust/pull/61224)
+* [Add `impl<T> FromIterator<T> for Arc/Rc<[T]>`](https://github.com/rust-lang/rust/pull/61953)
+* [Add Iterator::partition_in_place() and is_partitioned()](https://github.com/rust-lang/rust/pull/62278)
+* [Use `fold` in `Iterator::last` default implementation](https://github.com/rust-lang/rust/pull/62481)
+* [rustc guide: Add humor appendix](https://github.com/rust-lang/rustc-guide/pull/350)
 
 ## Approved RFCs
 
@@ -126,13 +130,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> > Are we trying to steal the JVM’s “compile once run everywhere” concept?
+> Rust is 5 languages stacked on top of each other, except that instead of ending up like 5 children under a trenchcoat, they end up like the power rangers.
 
-> No, we just borrow it mutably.
+– [reuvenpo on /r/rust](https://reddit.com/r/rust/comments/cb49lb/coworker_rust_doesnt_offer_anything_c_doesnt/etdddwt/)
 
-– [minno & llogiq on /r/rust](https://reddit.com/r/rust/comments/cap8sy/rust_136_stabilized_the_wasm32wasi_target/etahiix/?context=8&depth=9)
-
-Thanks to [Will Page](https://users.rust-lang.org/t/twir-quote-of-the-week/328/664) for the suggestion!
+Thanks to [Jelte Fennema](https://users.rust-lang.org/t/twir-quote-of-the-week/328/666) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
