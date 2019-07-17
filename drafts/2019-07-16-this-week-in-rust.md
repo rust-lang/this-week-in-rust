@@ -104,6 +104,7 @@ decision. Express your opinions now.
 * [Jun 17. Munich, DE - Rust Munich - Rust Mini Unconference V2](https://www.meetup.com/rust-munich/events/261925415/).
 * [Jul 18. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/258593192).
 * [Jul 24. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzkbgc/).
+* [Aug 07. Erlangen, DE - Rust Franken Meetup #1](https://www.meetup.com/Rust-NERF/events/263163435/).
 
 ### North America
 
