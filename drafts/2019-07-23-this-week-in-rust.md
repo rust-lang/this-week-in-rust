@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[HOWTO: Replace mem::uninitialized with mem::MaybeUninit](https://www.reddit.com/r/rust/comments/cefgec/howto_replace_memuninitialized_with_memmaybeuninit/)
+
 # Crate of the Week
 
 This week's crate is [overloadable](https://crates.io/crates/overloadable), a crate to provides you with the capabilities to overload your functions in a similar style to C# or C++, including support for meta attributes, type parameters and constraints, and visibility modifiers
