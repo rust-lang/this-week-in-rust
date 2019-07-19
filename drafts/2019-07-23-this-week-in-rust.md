@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Whiteboard series on Rust Libp2p](https://www.youtube.com/watch?v=_9o6RTYG_xk)
+
 # Crate of the Week
 
 This week's crate is [overloadable](https://crates.io/crates/overloadable), a crate to provides you with the capabilities to overload your functions in a similar style to C# or C++, including support for meta attributes, type parameters and constraints, and visibility modifiers
