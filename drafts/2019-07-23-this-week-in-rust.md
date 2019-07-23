@@ -109,6 +109,7 @@ decision. Express your opinions now.
 * [Jul 24. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzkbgc/).
 * [Jul 24. London, GB - Rust London User Group - LDN Talks July 2019](https://www.meetup.com/Rust-London-User-Group/events/262999277/).
 * [Jul 24. Milano, IT - Rust Language Milano - Rust Exercises](https://www.meetup.com/rust-language-milano/events/263140153).
+* [Jul 26. Stuttgart, DE - Rust Meetup Stuttgart - Hack and Learn](https://gettogether.community/events/1763/3-hack-and-learn-shackspace-stuttgart/).
 * [Aug 07. Erlangen, DE - Rust Franken Meetup #1](https://www.meetup.com/Rust-NERF/events/263163435/).
 
 ### North America
