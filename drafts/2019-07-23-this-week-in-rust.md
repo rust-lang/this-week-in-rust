@@ -24,12 +24,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Announcing heim project](https://svartalf.info/posts/2019-07-17-announcing-heim-project/).
 * [Gotham — from start to Heroku](https://blog.codeship.com/gotham-from-start-to-heroku/).
 * [How to write Full Stack Rust code](https://www.steadylearner.com/blog/read/How-to-write-Full-Stack-Rust-code).
+* [HOWTO: Replace mem::uninitialized with mem::MaybeUninit](https://www.reddit.com/r/rust/comments/cefgec/howto_replace_memuninitialized_with_memmaybeuninit/).
 * [Stream combinators implemented using for await syntax](https://www.reddit.com/r/rust/comments/cbvhq9/stream_combinators_implemented_using_for_await/).
 
 # Crate of the Week
 
-This week's crate is [overloadable](https://crates.io/crates/overloadable), a crate to provides you with the capabilities to overload your functions in a similar style to C# or C++, including support for meta attributes, type parameters and constraints, and visibility modifiers
-Thanks to [Stevensonmt](https://users.rust-lang.org/t/crate-of-the-week/2704/585) for the suggestion!
+This week's crate is [abscissa](https://github.com/iqlusioninc/abscissa), a security-oriented Rust application framework.
+Thanks to [Tony Arcieri](https://users.rust-lang.org/t/crate-of-the-week/2704/590) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -50,25 +51,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-235 pull requests were [merged in the last week][merged]
+230 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-07-08..2019-07-15
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-07-15..2019-07-22
 
-* [Use const generics for array impls [part 1]](https://github.com/rust-lang/rust/pull/62435)
-* [Update to LLVM 9](https://github.com/rust-lang/llvm-project/pull/19) (ongoing work)
-* [Update LLVM: apply patch necessary for ThinLTO on RISC-V](https://github.com/rust-lang/rust/pull/62463)
-* [Use visitor for `#[structural_match]` check](https://github.com/rust-lang/rust/pull/62339)
-* [Normalize projections appearing in `impl Trait`](https://github.com/rust-lang/rust/pull/62221)
-* [typeck: Merge opaque type inference logic](https://github.com/rust-lang/rust/pull/62090)
-* [Fact generation for liveness calculations in Polonius](https://github.com/rust-lang/rust/pull/60266)
-* [Add key and value methods to DebugMap](https://github.com/rust-lang/rust/pull/60458)
-* [Add an AtomicCell abstraction](https://github.com/rust-lang/rust/pull/62577)
-* [Add messages to `Option`'s and `Result`'s `must_use` annotation for `is_*`](https://github.com/rust-lang/rust/pull/62431)
-* [Prevent Vec::drain_filter from double dropping on panic](https://github.com/rust-lang/rust/pull/61224)
-* [Add `impl<T> FromIterator<T> for Arc/Rc<[T]>`](https://github.com/rust-lang/rust/pull/61953)
-* [Add Iterator::partition_in_place() and is_partitioned()](https://github.com/rust-lang/rust/pull/62278)
-* [Use `fold` in `Iterator::last` default implementation](https://github.com/rust-lang/rust/pull/62481)
-* [rustc guide: Add humor appendix](https://github.com/rust-lang/rustc-guide/pull/350)
+* [The essence of lexer](https://github.com/rust-lang/rust/pull/59706)
+* [Implement RFC](https://github.com/rust-lang/rust/pull/61749) [#2203](https://rust-lang.github.io/rfcs/2203-const-repeat-expr.html)
+* [Add meta-variable checks in macro definitions](https://github.com/rust-lang/rust/pull/62008)
+* [Stabilize `<*mut _>::cast` and `<*const _>::cast`](https://github.com/rust-lang/rust/pull/62713)
+* [Specific error for positional args after named args in `format!()`](https://github.com/rust-lang/rust/pull/62710)
+* [rustc_typeck: Improve diagnostics for `-> _ fn` return type](https://github.com/rust-lang/rust/pull/62694)
+* [Add info about undefined behavior to `as_ref` suggestions](https://github.com/rust-lang/rust/pull/62685)
+* [resolve: Improve candidate search for unresolved macro suggestions](https://github.com/rust-lang/rust/pull/62684)
+* [miri validation: Better error messages for dangling references](https://github.com/rust-lang/rust/pull/62673)
+* [Cancel unemitted diagnostics during error recovery](https://github.com/rust-lang/rust/pull/62666)
+* [Make `VaListImpl<'f>` invariant over `'f`](https://github.com/rust-lang/rust/pull/62639)
+* [Add `Option::expect_none(msg)` and `unwrap_none()`](https://github.com/rust-lang/rust/pull/62596)
+* [stdarch: Add ARM Neon vmvn_*/vmvnq_* bitwise not intrinsics](https://github.com/rust-lang/stdarch/pull/770)
+* [cargo: Add support for multiple --features options](https://github.com/rust-lang/cargo/pull/7084)
+* [cargo: Optimize runtime of `#[cargo_test_macro]`](https://github.com/rust-lang/cargo/pull/7146)
 
 ## Approved RFCs
 
@@ -114,6 +115,7 @@ decision. Express your opinions now.
 
 ### Europe
 
+* [Jul 26. Stuttgart, DE - Rust Meetup Stuttgart - Hack and Learn](https://gettogether.community/events/1763/3-hack-and-learn-shackspace-stuttgart/).
 * [Aug  7. Erlangen, DE - Rust Franken Meetup #1](https://www.meetup.com/Rust-NERF/events/263163435/).
 * [Aug  7. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzlbkb/).
 
@@ -150,9 +152,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Rust is 5 languages stacked on top of each other, except that instead of ending up like 5 children under a trenchcoat, they end up like the power rangers.
+> Roses are red,  
+> Rust-lang is fine,  
+> `cannot borrow \`i\` as mutable more than once at a time`
 
-– [reuvenpo on /r/rust](https://reddit.com/r/rust/comments/cb49lb/coworker_rust_doesnt_offer_anything_c_doesnt/etdddwt/)
+– [Joseph Lyons on twitter](https://twitter.com/MyDeathMachine/status/1151957842934599680)
 
 Thanks to [Jelte Fennema](https://users.rust-lang.org/t/twir-quote-of-the-week/328/666) for the suggestion!
 
