@@ -155,7 +155,7 @@ Email the [Rust Community Team][community] for access.
 
 > Roses are red,
 > Rust-lang is fine,
-> `cannot borrow \`i\` as mutable more than once at a time`
+> `cannot borrow 'i' as mutable more than once at a time`
 
 – [Joseph Lyons on twitter](https://twitter.com/MyDeathMachine/status/1151957842934599680)
 
