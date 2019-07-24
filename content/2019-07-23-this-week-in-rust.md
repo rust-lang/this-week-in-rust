@@ -26,6 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [How to write Full Stack Rust code](https://www.steadylearner.com/blog/read/How-to-write-Full-Stack-Rust-code).
 * [HOWTO: Replace mem::uninitialized with mem::MaybeUninit](https://www.reddit.com/r/rust/comments/cefgec/howto_replace_memuninitialized_with_memmaybeuninit/).
 * [Stream combinators implemented using for await syntax](https://www.reddit.com/r/rust/comments/cbvhq9/stream_combinators_implemented_using_for_await/).
+* [CLion Rust plugin adds a new experimental macro expansion engine](https://www.jetbrains.com/clion/whatsnew/#v2019-2-rust).
 
 # Crate of the Week
 
