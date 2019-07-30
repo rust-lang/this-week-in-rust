@@ -18,8 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [abscissa](https://github.com/iqlusioninc/abscissa), a security-oriented Rust application framework.
-Thanks to [Tony Arcieri](https://users.rust-lang.org/t/crate-of-the-week/2704/590) for the suggestion!
+This week's crate is [async-trait](https://github.com/dtolnay/async-trait), a procedural macro to allow `async fn`s in trait methods.
+Thanks to [Ehsan M. Kermani](https://users.rust-lang.org/t/crate-of-the-week/2704/592) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -40,25 +40,32 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-230 pull requests were [merged in the last week][merged]
+324 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-07-15..2019-07-22
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-07-22..2019-07-29
 
-* [The essence of lexer](https://github.com/rust-lang/rust/pull/59706)
-* [Implement RFC](https://github.com/rust-lang/rust/pull/61749) [#2203](https://rust-lang.github.io/rfcs/2203-const-repeat-expr.html)
-* [Add meta-variable checks in macro definitions](https://github.com/rust-lang/rust/pull/62008)
-* [Stabilize `<*mut _>::cast` and `<*const _>::cast`](https://github.com/rust-lang/rust/pull/62713)
-* [Specific error for positional args after named args in `format!()`](https://github.com/rust-lang/rust/pull/62710)
-* [rustc_typeck: Improve diagnostics for `-> _ fn` return type](https://github.com/rust-lang/rust/pull/62694)
-* [Add info about undefined behavior to `as_ref` suggestions](https://github.com/rust-lang/rust/pull/62685)
-* [resolve: Improve candidate search for unresolved macro suggestions](https://github.com/rust-lang/rust/pull/62684)
-* [miri validation: Better error messages for dangling references](https://github.com/rust-lang/rust/pull/62673)
-* [Cancel unemitted diagnostics during error recovery](https://github.com/rust-lang/rust/pull/62666)
-* [Make `VaListImpl<'f>` invariant over `'f`](https://github.com/rust-lang/rust/pull/62639)
-* [Add `Option::expect_none(msg)` and `unwrap_none()`](https://github.com/rust-lang/rust/pull/62596)
-* [stdarch: Add ARM Neon vmvn_*/vmvnq_* bitwise not intrinsics](https://github.com/rust-lang/stdarch/pull/770)
-* [cargo: Add support for multiple --features options](https://github.com/rust-lang/cargo/pull/7084)
-* [cargo: Optimize runtime of `#[cargo_test_macro]`](https://github.com/rust-lang/cargo/pull/7146)
+* [Add support for UWP targets](https://github.com/rust-lang/rust/pull/60260)
+* [Add `riscv32i-unknown-none-elf` target](https://github.com/rust-lang/rust/pull/62784)
+* [Update wasm32 support for LLVM 9](https://github.com/rust-lang/rust/pull/62809)
+* [Move unescape module to rustc_lexer](https://github.com/rust-lang/rust/pull/62851)
+* [Make the parser TokenStream more resilient after mismatched delimiter recovery](https://github.com/rust-lang/rust/pull/62887)
+* [Improve diagnostics for _ const/static declarations](https://github.com/rust-lang/rust/pull/62804)
+* [Avoid ICE when referencing desugared local binding in borrow error](https://github.com/rust-lang/rust/pull/63051)
+* [Suggest trait bound on type parameter when it is unconstrained](https://github.com/rust-lang/rust/pull/62772)
+* [Allow lifetime elision in `Pin<&(mut) Self>`](https://github.com/rust-lang/rust/pull/61207)
+* [Stop bare trait lint applying to macro call sites](https://github.com/rust-lang/rust/pull/63014)
+* [Add note suggesting to borrow a String argument to find](https://github.com/rust-lang/rust/pull/62981)
+* [Add method disambiguation help for trait implementation](https://github.com/rust-lang/rust/pull/62921)
+* [miri: Enable Intrptrcast by default](https://github.com/rust-lang/miri/pull/851)
+* [Don't access a static just for its size and alignment](https://github.com/rust-lang/rust/pull/62982)
+* [Use const array repeat expressions for `uninit_array`](https://github.com/rust-lang/rust/pull/62799)
+* [Stabilize the `type_name` intrinsic in `core::any`](https://github.com/rust-lang/rust/pull/60066)
+* [Constantly improve the `Vec`(`Deque`) array `PartialEq` impls](https://github.com/rust-lang/rust/pull/63061)
+* [hashbrown: Do not grow the container if an insertion is on a tombstone](https://github.com/rust-lang/hashbrown/pull/106)
+* [rust-bindgen: Cleanup `wchar_t` layout computation to happen later](https://github.com/rust-lang/rust-bindgen/pull/1596)
+* [rustdoc: Make `#[doc(include)]` relative to the containing file](https://github.com/rust-lang/rust/pull/60938)
+* [docs.rs: Fix weird layout workflow issues on firefox](https://github.com/rust-lang/docs.rs/pull/358)
+* [Force clippy to run every time](https://github.com/rust-lang/cargo/pull/7157) (finally!)
 
 ## Approved RFCs
 
@@ -141,13 +148,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Roses are red,
-> Rust-lang is fine,
-> `cannot borrow \`i\` as mutable more than once at a time`
+> Rust clearly popularized the ownership model, with similar implementations being considered in D, Swift and other languages. This is great news for both performance and memory safety in general.
+>
+> Also let's not forget that Rust is not the endgame. Someone may at one point find or invent a language that will offer an even better position in the safety-performance-ergonomics space. We should be careful not to get too attached to Rust, lest we stand in progress' way.
 
-– [Joseph Lyons on twitter](https://twitter.com/MyDeathMachine/status/1151957842934599680)
+– [llogiq on reddit](https://reddit.com/r/rust/comments/cfeng7/the_redmonk_programming_language_rankings_june/euann96/)
 
-Thanks to [Jelte Fennema](https://users.rust-lang.org/t/twir-quote-of-the-week/328/666) for the suggestion!
+Thanks to [Vikrant](https://users.rust-lang.org/t/twir-quote-of-the-week/328/676) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
