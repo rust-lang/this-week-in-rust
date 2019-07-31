@@ -33,6 +33,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [RustFest Barcelona - Call for Proposals is open](https://blog.rustfest.eu/cfp-for-barcelona).
+* [Rust in Blockchain - Call for Contributors](https://rustinblockchain.org/2019/07/30/call-for-contributors/).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
