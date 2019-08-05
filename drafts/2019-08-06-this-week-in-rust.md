@@ -15,6 +15,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+- [Zero-Cost Asynchronous Programming in Rust](https://blog.knoldus.com/zero-cost-asynchronous-programming-in-rust/)
+
 
 # Crate of the Week
 
