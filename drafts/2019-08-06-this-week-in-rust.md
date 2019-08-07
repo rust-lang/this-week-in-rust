@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Rust Rocks NB-IoT! STM32 Blue Pill with Quectel BC95-G on Apache Mynewt](https://medium.com/@ly.lee/rust-rocks-nb-iot-stm32-blue-pill-with-quectel-bc95-g-on-apache-mynewt-ef62a7e28f7e?sk=aaa21371f68a07c543066b6b89a760f0).
+
 # Crate of the Week
 
 This week's crate is [broot](https://github.com/Canop/broot), a program to show the gist of a directory tree.
