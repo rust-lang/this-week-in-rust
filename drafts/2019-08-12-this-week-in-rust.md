@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Parsing Rust Strings into Slices](https://wduquette.github.io/parsing-strings-into-slices)
+
 # Crate of the Week
 
 This week's crate is [broot](https://github.com/Canop/broot), a program to show the gist of a directory tree.
