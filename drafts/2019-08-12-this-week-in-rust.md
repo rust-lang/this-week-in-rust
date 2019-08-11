@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Functional Programming Jargon in Rust](https://functional.works-hub.com/learn/functional-programming-jargon-in-rust-1b555)
+
 # Crate of the Week
 
 This week's crate is [broot](https://github.com/Canop/broot), a program to show the gist of a directory tree.
