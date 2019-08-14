@@ -18,6 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Parsing Rust Strings into Slices](https://wduquette.github.io/parsing-strings-into-slices)
 [Functional Programming Jargon in Rust](https://functional.works-hub.com/learn/functional-programming-jargon-in-rust-1b555)
+* [Steam Wishlist Announced for Way of Rhea, A Sidescrolling Puzzle Game Written in Rust](https://store.steampowered.com/app/1110620/Way_of_Rhea/)
 
 # Crate of the Week
 
