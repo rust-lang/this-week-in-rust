@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Parsing Rust Strings into Slices](https://wduquette.github.io/parsing-strings-into-slices)
 [Functional Programming Jargon in Rust](https://functional.works-hub.com/learn/functional-programming-jargon-in-rust-1b555)
 
 # Crate of the Week
