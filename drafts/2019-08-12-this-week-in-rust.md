@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Functional Programming Jargon in Rust](https://functional.works-hub.com/learn/functional-programming-jargon-in-rust-1b555)
+
 # Crate of the Week
 
 This week's crate is [topgrade](https://crates.io/crates/topgrade), a command-line program to upgrade all the things.
