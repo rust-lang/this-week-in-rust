@@ -17,12 +17,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Parsing Rust Strings into Slices](https://wduquette.github.io/parsing-strings-into-slices)
+[Functional Programming Jargon in Rust](https://functional.works-hub.com/learn/functional-programming-jargon-in-rust-1b555)
 
 # Crate of the Week
 
-This week's crate is [broot](https://github.com/Canop/broot), a program to show the gist of a directory tree.
+This week's crate is [topgrade](https://crates.io/crates/topgrade), a command-line program to upgrade all the things.
 
-Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/596) for the suggestion!
+Thanks to [Dror Levin](https://users.rust-lang.org/t/crate-of-the-week/2704/598) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -44,27 +45,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-249 pull requests were [merged in the last week][merged]
+270 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-07-29..2019-08-05
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-08-05..2019-08-12
 
-* [Avoid ICE when suggestion span is at Eof](https://github.com/rust-lang/rust/pull/62995)
-* [On `format!()` arg count mismatch provide extra info](https://github.com/rust-lang/rust/pull/63121)
-* [Syntax: Recover on `for ( $pat in $expr ) $block`](https://github.com/rust-lang/rust/pull/62928)
-* [dead_code: Properly inspect fields in struct patterns with type relative paths](https://github.com/rust-lang/rust/pull/63227)
-* [Collect file → edition mapping after AST expansion](https://github.com/rust-lang/rls/pull/1513)
-* [Unsupport the `await!(future)` macro](https://github.com/rust-lang/rust/pull/62293)
-* [Round generator sizes to a multiple of their alignment](https://github.com/rust-lang/rust/pull/63208)
-* [miri: Fix determining size of an "extra function" allocation](https://github.com/rust-lang/rust/pull/63076)
-* [miri: Add misssing 'roundf32' and 'roundf64' intrinsics](https://github.com/rust-lang/miri/pull/885)
-* [Impl `Debug` for `Chars`](https://github.com/rust-lang/rust/pull/63000)
-* [`const fn`-ify `std::any::type_name`](https://github.com/rust-lang/rust/pull/63123)
-* [hashbrown: Replace FxHash with AHash as the default hasher](https://github.com/rust-lang/hashbrown/pull/97)
-* [hashbrown: Experimentally expose RawTable under the "raw" feature](https://github.com/rust-lang/hashbrown/pull/108)
-* [rustc: Stabilize options for pipelined compilation](https://github.com/rust-lang/rust/pull/62766)
-* [cargo: Enable pipelined compilation by default](https://github.com/rust-lang/cargo/pull/7143)
-* [cargo: Improve error message for unmatched prerelease dependencies](https://github.com/rust-lang/cargo/pull/7191)
-* [rustdoc: Use doc comments from 'pub use' statements](https://github.com/rust-lang/rust/pull/63048)
+* [Sort the fat LTO modules to produce deterministic output](https://github.com/rust-lang/rust/pull/63352)
+* [More explicit diagnostic when using a `vec![]` in a pattern](https://github.com/rust-lang/rust/pull/63399)
+* [Give built-in macros stable addresses in the standard library](https://github.com/rust-lang/rust/pull/63056)
+* [Remove gensym in `format_args`](https://github.com/rust-lang/rust/pull/63114)
+* [Cleanup & Simplify stuff in lowering](https://github.com/rust-lang/rust/pull/63432)
+* [Revert "Simplify MIR generation for logical ops"](https://github.com/rust-lang/rust/pull/63431)
+* [CTFE: Simplify `ConstValue` by not checking for alignment](https://github.com/rust-lang/rust/pull/63079)
+* [Miri: Use ldexp from cmath instead](https://github.com/rust-lang/miri/pull/898)
+* [Fix generator size regressions due to optimization](https://github.com/rust-lang/rust/pull/63034)
+* [Improve invalid_value lint message](https://github.com/rust-lang/rust/pull/63483)
+* [Fix for "ambiguous associated type" issue with ATBs](https://github.com/rust-lang/rust/pull/61919)
+* [Add implementations for converting boxed slices into boxed arrays](https://github.com/rust-lang/rust/pull/61515)
+* [Add {`IoSlice`, `IoSliceMut`}`::advance`](https://github.com/rust-lang/rust/pull/62987)
+* [Stabilize `duration_float`](https://github.com/rust-lang/rust/pull/62756)
+* [Deprecate `try!` macro](https://github.com/rust-lang/rust/pull/62672)
+* [Use internal iteration in the Sum and Product impls of `Result` and `Option`](https://github.com/rust-lang/rust/pull/62459)
+* [Implement `DoubleEndedIterator` for `iter::`{`StepBy`, `Peekable`, `Take`}](https://github.com/rust-lang/rust/pull/61457)
+* [Skip roundtrip on few structs on OpenBSD](https://github.com/rust-lang/libc/pull/1456)
+* [cargo: Improve error message when using API command with non-remote registry](https://github.com/rust-lang/cargo/pull/7239)
 
 ## Approved RFCs
 
@@ -109,6 +112,8 @@ decision. Express your opinions now.
 * [Aug 21. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzlbcc/).
 * [Aug 19. Berlin, DE - Rust Berlin - Rust for Decentralised Technology](https://www.meetup.com/Rust-Berlin/events/263390533).
 * [Aug 21. Berlin, DE - In Rust We Trust - VM on Blockchain](https://www.meetup.com/Rust-in-Blockchain-Berlin/events/263526816/).
+* [Aug 26. Thessaloniki, GR - Rust + GNOME Workshop at GUADEC](https://wiki.gnome.org/GUADEC/2019/Hackingdays/RustGtkGstWorkshop).
+* [Aug 27. Thessaloniki, GR - Rust + GNOME BoF at GUADEC](https://wiki.gnome.org/GUADEC/2019/Hackingdays/RustBoF).
 
 ### North America
 
@@ -135,11 +140,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> If you want to block threads, get your own threads.
+> For me, acquiring a taste for rustfmt-style seems worthwhile to 'eliminate broad classes of debate', even if I didn't like some of the style when I first looked. I've resisted the temptation to even read about how to customise.
+>
+> Years ago, I was that person writing style guides etc. I now prefer this problem to be automated-away; freeing up time for malloc-memcpy-golf (most popular sport in the Rust community).
 
-– [kornel on rust-users](https://users.rust-lang.org/t/how-to-implement-a-future-for-a-long-running-function-i-can-not-modify/30610/12)
+– [@dholroyd on rust-users](https://users.rust-lang.org/t/how-are-you-using-rustfmt-and-clippy/31082/8)
 
-Thanks to [Tom Phinney](https://users.rust-lang.org/t/twir-quote-of-the-week/328/679) for the suggestion!
+Thanks to [troiganto](https://users.rust-lang.org/t/twir-quote-of-the-week/328/680) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
