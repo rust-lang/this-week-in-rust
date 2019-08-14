@@ -16,8 +16,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Parsing Rust Strings into Slices](https://wduquette.github.io/parsing-strings-into-slices)
-[Functional Programming Jargon in Rust](https://functional.works-hub.com/learn/functional-programming-jargon-in-rust-1b555)
+* [Tokio alpha release with async & await](https://tokio.rs/blog/2019-08-alphas/).
+* [Await a minute, why bother](https://docs.rs/dtolnay/0.0.5/dtolnay/macro._01__await_a_minute.html)?
+* [Functional programming jargon in Rust](https://functional.works-hub.com/learn/functional-programming-jargon-in-rust-1b555).
+* [Migrating the TiKV Rust client from futures 0.1 to 0.3](https://tikv.org/blog/client-futures/).
+* [Updating to async/await](https://leshow.github.io/post/async_await/).
+* [Follow-up to Method on Emulating Higher-Kinded Types (HKTs) in Rust](https://gist.github.com/edmundsmith/e09d5f473172066c0023ef84ee830cad).
+* [Runtime configuration reloading](https://vorner.github.io/2019/08/11/runtime-configuration-reloading.html).
+* [Parsing Rust strings into slices](https://wduquette.github.io/parsing-strings-into-slices).
+* [Why is there a large performance impact when looping over an array over 240 elements](https://stackoverflow.com/questions/57458460/)?
 
 # Crate of the Week
 
@@ -36,8 +43,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Actix: Call to community and participation](https://github.com/actix/actix-web/issues/1019).
-* [Kate editor: Support Rust LSP server auto-detect some useful root path based on location of Cargo.toml](https://phabricator.kde.org/D22963).
+* [Survey from the Rust Game Development Working Group](https://users.rust-lang.org/t/survey-from-the-rust-game-development-working-group/31270).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -85,42 +91,44 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No new RFCs were proposed this week.*
+*No RFCs are currently in final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [[Stabilization] async/await MVP](https://github.com/rust-lang/rust/issues/62149).
-* [disposition: merge] [Stabilize duration_float](https://github.com/rust-lang/rust/pull/62756).
-* [disposition: merge] [Stabilize checked_duration_since for 1.38.0](https://github.com/rust-lang/rust/pull/62860).
-* [disposition: merge] [Give built-in macros stable addresses in the standard library](https://github.com/rust-lang/rust/pull/63056).
+* [disposition: merge] [Remove recommendation about idiomatic syntax for Arc::clone](https://github.com/rust-lang/rust/pull/63252).
 * [disposition: merge] [Tracking issue for {HashMap, BTreeMap}::get_key_value stabilization](https://github.com/rust-lang/rust/issues/49347).
+* [disposition: merge] [Tracking issue for Pin::{into_inner, into_inner_unchecked} (feature `pin_into_inner`)](https://github.com/rust-lang/rust/issues/60245).
+* [disposition: merge] [Clarify `Box<T>` representation and its use in FFI](https://github.com/rust-lang/rust/pull/62514).
 
 ## New RFCs
 
-* [Add a new unsafe trait TypeInfo to core::any, and implement it for all types](https://github.com/rust-lang/rfcs/pull/2738).
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
 ### Asia Pacific
 
-* [Aug 10. Singapore, SG - Rust Meetup](https://www.eventbrite.com/e/rust-meetup-tickets-65358532129).
 * [Aug 17. Taipei, TW - "Everything in Rust" at COSCUP 2019](https://coscup.org/2019/en/).
-* [Aug 15. Wellington, NZ - Rust Wellington - Coffee & cake](https://www.meetup.com/Rust-Wellington/events/hgrxbryzlbtb/).
+* [Aug 27. Seoul, KR - Seoul Rust Meetup, Hapjeong](https://www.meetup.com/Rust-Seoul-Meetup/events/nxkdfryzlbkc/).
+* [Aug 20. Wellington, NZ - Rust Wellington - Talks: "A C++ Programmer Learns Rust!" + "Ergonomic Errors"](https://www.meetup.com/Rust-Wellington/events/262426843/).
 
 ### Europe
 
-* [Aug 21. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzlbcc/).
 * [Aug 19. Berlin, DE - Rust Berlin - Rust for Decentralised Technology](https://www.meetup.com/Rust-Berlin/events/263390533).
+* [Aug 21. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gkkttqyzlbcc/).
 * [Aug 21. Berlin, DE - In Rust We Trust - VM on Blockchain](https://www.meetup.com/Rust-in-Blockchain-Berlin/events/263526816/).
 * [Aug 26. Thessaloniki, GR - Rust + GNOME Workshop at GUADEC](https://wiki.gnome.org/GUADEC/2019/Hackingdays/RustGtkGstWorkshop).
 * [Aug 27. Thessaloniki, GR - Rust + GNOME BoF at GUADEC](https://wiki.gnome.org/GUADEC/2019/Hackingdays/RustBoF).
+* [Aug 29. Zurich, CH - Rust Zurich - August Community Meetup](https://www.meetup.com/Rust-Zurich/events/263756588/).
 
 ### North America
 
-* [Aug 13. Toronto, ON, CA - Rust Toronto - Toronto Rustaceans Tech and Talk](https://www.meetup.com/Rust-Toronto/events/263395708).
-* [Aug 13. Denver, CO, US - Rust Boulder/Denver - Hack 'N Snack](https://www.meetup.com/Rust-Boulder-Denver/events/263156621/).
-* [Aug 13. Seattle, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/prbtdryzlbrb/).
 * [Aug 21. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryzlbcc/).
+* [Aug 21. Portland, OR, US - PDXRust - Hack Night (not the usual meetup!)](https://www.meetup.com/PDXRust/events/263076291/).
+* [Aug 26. Durham, NC, US - Triangle Rustaceans - Build a syslog server with mio](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzlbjc/).
+* [Aug 27. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyzlbkc/).
+* [Aug 27. Chicago, IL, US - Chicago Rust Meetup - Macros Rule! A Dive Into Rust's Syntax Extension Toolbox](https://www.meetup.com/Chicago-Rust-Meetup/events/263849534).
+* [Aug 28. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscryzlblc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -132,9 +140,7 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Blockchain Runtime Engineer at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-blockchain-runtime-engineer).
-* [Senior Platform Engineer - Layout as Mozilla, Portland, US](https://careers.mozilla.org/position/gh/1787784/).
-* [Senior Software Engineer at ConsenSys R&D, Remote](https://consensys.net/open-roles/1792013/).
-* [Rust Developer at Finhaven, Vancouver, CA](https://finhaven.humi.ca/job-board/engineering/1306).
+* [Security Engineer at Parity, Berlin, DE](https://www.parity.io/jobs/#berlin-security-engineer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
