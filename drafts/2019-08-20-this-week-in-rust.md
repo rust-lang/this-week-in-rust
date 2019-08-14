@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Pre-/Post-Conf Events: sustainable 🚄 train travels from and to RustFest Barcelona](https://blog.rustfest.eu/pre-post-conf-events-sustainable-train-travels)
+
 # Crate of the Week
 
 This week's crate is [topgrade](https://crates.io/crates/topgrade), a command-line program to upgrade all the things.
