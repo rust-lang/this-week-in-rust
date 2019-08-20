@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [First Amazon Alexa Skill in Rust](https://muditchhabra.wordpress.com/2019/08/20/first-amazon-alexa-skill-in-rust/)
+
 # Crate of the Week
 
 This week's crate is [topgrade](https://crates.io/crates/topgrade), a command-line program to upgrade all the things.
