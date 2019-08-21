@@ -131,6 +131,7 @@ Email the [Rust Community Team][community] for access.
 
 * [Blockchain Runtime Engineer at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-blockchain-runtime-engineer).
 * [Security Engineer at Parity, Berlin, DE](https://www.parity.io/jobs/#berlin-security-engineer).
+* [Senior Software Engineer at ConsenSys R&D, Remote](https://consensys.net/open-roles/1792013/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
