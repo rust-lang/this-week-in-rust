@@ -17,6 +17,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Steam Wishlist Announced for Way of Rhea, A Sidescrolling Puzzle Game Written in Rust](https://store.steampowered.com/app/1110620/Way_of_Rhea/)
+* [Pre-/Post-Conf Events: sustainable 🚄 train travels from and to RustFest Barcelona](https://blog.rustfest.eu/pre-post-conf-events-sustainable-train-travels)
+[Visual Embedded Rust Programming with Visual Studio Code](https://medium.com/@ly.lee/visual-embedded-rust-programming-with-visual-studio-code-1bc1262e398c?source=friends_link&sk=222de63e45993aacd0db5a2e4b1f33c7).
 
 # Crate of the Week
 
@@ -133,6 +135,7 @@ Email the [Rust Community Team][community] for access.
 
 * [Blockchain Runtime Engineer at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-blockchain-runtime-engineer).
 * [Security Engineer at Parity, Berlin, DE](https://www.parity.io/jobs/#berlin-security-engineer).
+* [Senior Software Engineer at ConsenSys R&D, Remote](https://consensys.net/open-roles/1792013/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
