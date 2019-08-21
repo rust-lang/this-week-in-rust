@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Visual Embedded Rust Programming with Visual Studio Code](https://medium.com/@ly.lee/visual-embedded-rust-programming-with-visual-studio-code-1bc1262e398c?source=friends_link&sk=222de63e45993aacd0db5a2e4b1f33c7).
+
 # Crate of the Week
 
 This week's crate is [topgrade](https://crates.io/crates/topgrade), a command-line program to upgrade all the things.
