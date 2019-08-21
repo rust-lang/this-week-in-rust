@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Steam Wishlist Announced for Way of Rhea, A Sidescrolling Puzzle Game Written in Rust](https://store.steampowered.com/app/1110620/Way_of_Rhea/)
 * [Pre-/Post-Conf Events: sustainable 🚄 train travels from and to RustFest Barcelona](https://blog.rustfest.eu/pre-post-conf-events-sustainable-train-travels)
 [Visual Embedded Rust Programming with Visual Studio Code](https://medium.com/@ly.lee/visual-embedded-rust-programming-with-visual-studio-code-1bc1262e398c?source=friends_link&sk=222de63e45993aacd0db5a2e4b1f33c7).
 
