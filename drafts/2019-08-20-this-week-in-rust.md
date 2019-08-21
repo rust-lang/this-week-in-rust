@@ -22,9 +22,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [topgrade](https://crates.io/crates/topgrade), a command-line program to upgrade all the things.
+This week's crate is [async-std](https://crates.io/crates/async-std), a library with async variants of the standard library's IO etc.
 
-Thanks to [Dror Levin](https://users.rust-lang.org/t/crate-of-the-week/2704/598) for the suggestion!
+Thanks to [mmmmib](https://users.rust-lang.org/t/crate-of-the-week/2704/602) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -45,29 +45,32 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-270 pull requests were [merged in the last week][merged]
+268 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-08-05..2019-08-12
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-08-12..2019-08-19
 
-* [Sort the fat LTO modules to produce deterministic output](https://github.com/rust-lang/rust/pull/63352)
-* [More explicit diagnostic when using a `vec![]` in a pattern](https://github.com/rust-lang/rust/pull/63399)
-* [Give built-in macros stable addresses in the standard library](https://github.com/rust-lang/rust/pull/63056)
-* [Remove gensym in `format_args`](https://github.com/rust-lang/rust/pull/63114)
-* [Cleanup & Simplify stuff in lowering](https://github.com/rust-lang/rust/pull/63432)
-* [Revert "Simplify MIR generation for logical ops"](https://github.com/rust-lang/rust/pull/63431)
-* [CTFE: Simplify `ConstValue` by not checking for alignment](https://github.com/rust-lang/rust/pull/63079)
-* [Miri: Use ldexp from cmath instead](https://github.com/rust-lang/miri/pull/898)
-* [Fix generator size regressions due to optimization](https://github.com/rust-lang/rust/pull/63034)
-* [Improve invalid_value lint message](https://github.com/rust-lang/rust/pull/63483)
-* [Fix for "ambiguous associated type" issue with ATBs](https://github.com/rust-lang/rust/pull/61919)
-* [Add implementations for converting boxed slices into boxed arrays](https://github.com/rust-lang/rust/pull/61515)
-* [Add {`IoSlice`, `IoSliceMut`}`::advance`](https://github.com/rust-lang/rust/pull/62987)
-* [Stabilize `duration_float`](https://github.com/rust-lang/rust/pull/62756)
-* [Deprecate `try!` macro](https://github.com/rust-lang/rust/pull/62672)
-* [Use internal iteration in the Sum and Product impls of `Result` and `Option`](https://github.com/rust-lang/rust/pull/62459)
-* [Implement `DoubleEndedIterator` for `iter::`{`StepBy`, `Peekable`, `Take`}](https://github.com/rust-lang/rust/pull/61457)
-* [Skip roundtrip on few structs on OpenBSD](https://github.com/rust-lang/libc/pull/1456)
-* [cargo: Improve error message when using API command with non-remote registry](https://github.com/rust-lang/cargo/pull/7239)
+* [Hash the remapped sysroot instead of the original](https://github.com/rust-lang/rust/pull/63505)
+* [Make sure that all file loading happens via SourceMap](https://github.com/rust-lang/rust/pull/63525)
+* [syntax: Account for CVarArgs being in the argument list](https://github.com/rust-lang/rust/pull/63459)
+* [Remove redundant `ty` fields from `mir::Constant` and `hair::pattern::PatternRange`](https://github.com/rust-lang/rust/pull/63495)
+* [resolve: Remove remaining special cases from built-in macros](https://github.com/rust-lang/rust/pull/63449)
+* [resolve: Properly integrate derives and `macro_rules` scopes](https://github.com/rust-lang/rust/pull/63667)
+* [Point at the right enclosing scope when using `await` in non-async fn](https://github.com/rust-lang/rust/pull/63509)
+* [typeck: Prohibit RPIT types that inherit lifetimes](https://github.com/rust-lang/rust/pull/62849)
+* [Handle elision in async fn correctly](https://github.com/rust-lang/rust/pull/63499)
+* [When needing type annotations in local bindings, account for impl Trait and closures](https://github.com/rust-lang/rust/pull/63507)
+* [Improved error message for break in async block](https://github.com/rust-lang/rust/pull/63659)
+* [Suggest Rust 2018 on `<expr>.await` with no such field](https://github.com/rust-lang/rust/pull/63539)
+* [Crank up invalid value lint](https://github.com/rust-lang/rust/pull/63657)
+* [Refactor Miri ops (unary, binary) to have more types](https://github.com/rust-lang/rust/pull/63658)
+* [Do not generate allocations for zero sized allocations](https://github.com/rust-lang/rust/pull/63635)
+* [Feature gate 'yield $expr?' pre-expansion](https://github.com/rust-lang/rust/pull/63545)
+* [Provide map_ok and map_err method for Poll<Option<Result<T, E>>>](https://github.com/rust-lang/rust/pull/63512)
+* [Implement `Clone`, `Display` for `ascii::EscapeDefault`](https://github.com/rust-lang/rust/pull/63421)
+* [Add APIs for uninitialized `Box`, `Rc`, and `Arc` (Plus `get_mut_unchecked`)](https://github.com/rust-lang/rust/pull/62451)
+* [Reduce the genericity of closures in the iterator traits](https://github.com/rust-lang/rust/pull/62429)
+* [Add custom `nth_back` for `Chain`](https://github.com/rust-lang/rust/pull/60492)
+* [`cargo install`: Remove orphaned executables](https://github.com/rust-lang/cargo/pull/7246)
 
 ## Approved RFCs
 
@@ -141,13 +144,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> For me, acquiring a taste for rustfmt-style seems worthwhile to 'eliminate broad classes of debate', even if I didn't like some of the style when I first looked. I've resisted the temptation to even read about how to customise.
+> C++ being memory safe is like saying riding a motorcycle is crash safe.
 >
-> Years ago, I was that person writing style guides etc. I now prefer this problem to be automated-away; freeing up time for malloc-memcpy-golf (most popular sport in the Rust community).
+> It totally is, if you happen to have the knowledge and experience to realize this is only true if you remember to put on body-armor, a helmet, a full set of leathers including gloves and reinforced boots, and then remember to operate the motorcycle correctly afterwards. In C/C++ though, that armor is completely 100% optional.
 
-– [@dholroyd on rust-users](https://users.rust-lang.org/t/how-are-you-using-rustfmt-and-clippy/31082/8)
+– [cyrusm on /r/rust](https://www.reddit.com/r/rust/comments/cseulx/is_rust_a_new_paradigmclass_of_programing/exeyibc)
 
-Thanks to [troiganto](https://users.rust-lang.org/t/twir-quote-of-the-week/328/680) for the suggestion!
+Thanks to [Dmitry Kashitsyn](https://users.rust-lang.org/t/twir-quote-of-the-week/328/682) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
