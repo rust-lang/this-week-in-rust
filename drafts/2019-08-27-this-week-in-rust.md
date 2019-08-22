@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+ * [Actually Using Crev, Or, The Problem Of Trusting Software Dependencies](https://wiki.alopex.li/ActuallyUsingCrev)
+
 # Crate of the Week
 
 This week's crate is [async-std](https://crates.io/crates/async-std), a library with async variants of the standard library's IO etc.
