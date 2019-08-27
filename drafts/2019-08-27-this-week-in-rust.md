@@ -18,9 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [async-std](https://crates.io/crates/async-std), a library with async variants of the standard library's IO etc.
+This week's crate is [include_flate](https://crates.io/crates/include_flate), a variant of `include_bytes!`/`include_str` with compile-time DEFLATE compression and runtime lazy decompression.
 
-Thanks to [mmmmib](https://users.rust-lang.org/t/crate-of-the-week/2704/602) for the suggestion!
+Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/606) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -43,32 +43,22 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-268 pull requests were [merged in the last week][merged]
+221 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-08-12..2019-08-19
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-08-19..2019-08-26
 
-* [Hash the remapped sysroot instead of the original](https://github.com/rust-lang/rust/pull/63505)
-* [Make sure that all file loading happens via SourceMap](https://github.com/rust-lang/rust/pull/63525)
-* [syntax: Account for CVarArgs being in the argument list](https://github.com/rust-lang/rust/pull/63459)
-* [Remove redundant `ty` fields from `mir::Constant` and `hair::pattern::PatternRange`](https://github.com/rust-lang/rust/pull/63495)
-* [resolve: Remove remaining special cases from built-in macros](https://github.com/rust-lang/rust/pull/63449)
-* [resolve: Properly integrate derives and `macro_rules` scopes](https://github.com/rust-lang/rust/pull/63667)
-* [Point at the right enclosing scope when using `await` in non-async fn](https://github.com/rust-lang/rust/pull/63509)
-* [typeck: Prohibit RPIT types that inherit lifetimes](https://github.com/rust-lang/rust/pull/62849)
-* [Handle elision in async fn correctly](https://github.com/rust-lang/rust/pull/63499)
-* [When needing type annotations in local bindings, account for impl Trait and closures](https://github.com/rust-lang/rust/pull/63507)
-* [Improved error message for break in async block](https://github.com/rust-lang/rust/pull/63659)
-* [Suggest Rust 2018 on `<expr>.await` with no such field](https://github.com/rust-lang/rust/pull/63539)
-* [Crank up invalid value lint](https://github.com/rust-lang/rust/pull/63657)
-* [Refactor Miri ops (unary, binary) to have more types](https://github.com/rust-lang/rust/pull/63658)
-* [Do not generate allocations for zero sized allocations](https://github.com/rust-lang/rust/pull/63635)
-* [Feature gate 'yield $expr?' pre-expansion](https://github.com/rust-lang/rust/pull/63545)
-* [Provide map_ok and map_err method for Poll<Option<Result<T, E>>>](https://github.com/rust-lang/rust/pull/63512)
-* [Implement `Clone`, `Display` for `ascii::EscapeDefault`](https://github.com/rust-lang/rust/pull/63421)
-* [Add APIs for uninitialized `Box`, `Rc`, and `Arc` (Plus `get_mut_unchecked`)](https://github.com/rust-lang/rust/pull/62451)
-* [Reduce the genericity of closures in the iterator traits](https://github.com/rust-lang/rust/pull/62429)
-* [Add custom `nth_back` for `Chain`](https://github.com/rust-lang/rust/pull/60492)
-* [`cargo install`: Remove orphaned executables](https://github.com/rust-lang/cargo/pull/7246)
+* [Stabilize `async_await` in Rust 1.39.0](https://github.com/rust-lang/rust/pull/63209)
+* [When declaring a declarative macro in an item it's only accessible inside it](https://github.com/rust-lang/rust/pull/63624)
+* [Improve diagnostics: break/continue in wrong context](https://github.com/rust-lang/rust/pull/63780)
+* [Audit uses of `apply_mark` in built-in macros + Remove default macro transparencies](https://github.com/rust-lang/rust/pull/63823)
+* [Ensure miri can do bit ops on pointer values](https://github.com/rust-lang/rust/pull/63839)
+* [Use more optimal `Ord` implementation for integers](https://github.com/rust-lang/rust/pull/63767)
+* [Fix bug in `iter::Chain::size_hint`](https://github.com/rust-lang/rust/pull/63691)
+* [Implement `nth_back` for `ChunksExactMut`](https://github.com/rust-lang/rust/pull/63265)
+* [Avoid unnecessary reservations in `std::io::Take::read_to_end`](https://github.com/rust-lang/rust/pull/63216)
+* [cargo: Fix `error:`/`warning:` coloring inconsistency with rustc](https://github.com/rust-lang/cargo/pull/7294)
+* [rustdoc: Support `impl Trait` in inlined documentation](https://github.com/rust-lang/rust/pull/61613)
+* [rustup: Replace mem::uninitialized with MaybeUninit](https://github.com/rust-lang/rustup.rs/pull/1963)
 
 ## Approved RFCs
 
@@ -143,13 +133,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> C++ being memory safe is like saying riding a motorcycle is crash safe.
->
-> It totally is, if you happen to have the knowledge and experience to realize this is only true if you remember to put on body-armor, a helmet, a full set of leathers including gloves and reinforced boots, and then remember to operate the motorcycle correctly afterwards. In C/C++ though, that armor is completely 100% optional.
+> Just as Bruce Lee practiced Jeet Kune Do, the style of all styles, Rust is not bound to any one paradigm. Instead of trying to put it into an existing box, it's best to just feel it out. Rust isn't Haskell and it's not C. It has aspects in common with each and it has traits unique to itself.
 
-– [cyrusm on /r/rust](https://www.reddit.com/r/rust/comments/cseulx/is_rust_a_new_paradigmclass_of_programing/exeyibc)
+– [Alexander Nye on rust-users](https://users.rust-lang.org/t/idiomatic-rust-favors-functional-or-imperative-style/31720/2)
 
-Thanks to [Dmitry Kashitsyn](https://users.rust-lang.org/t/twir-quote-of-the-week/328/682) for the suggestion!
+Thanks to [Louis Cloete](https://users.rust-lang.org/t/twir-quote-of-the-week/328/685) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
