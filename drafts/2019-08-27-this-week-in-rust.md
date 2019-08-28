@@ -16,7 +16,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
- * [Actually Using Crev, Or, The Problem Of Trusting Software Dependencies](https://wiki.alopex.li/ActuallyUsingCrev)
+* [Should small Rust structs be passed by-copy or by-borrow](https://www.forrestthewoods.com/blog/should-small-rust-structs-be-passed-by-copy-or-by-borrow/)?
+* [Thoughts on Rust bloat](https://raphlinus.github.io/rust/2019/08/21/rust-bloat.html).
+* [Rust GUI ecosystem overview](https://gitlab.com/z0mbie42/rust_gui_ecosystem_overview).
+* [Introduction to C2Rust](https://immunant.com/blog/2019/08/introduction-to-c2rust/).
+* [Async stack traces in Rust](http://fitzgeraldnick.com/2019/08/27/async-stacks-in-rust.html).
+* [Polsim - a case study for small-scale scientific computing in Rust](https://tinkering.xyz/polsim/).
+* [Managing memory in Rust: Entity-component systems](https://mmstick.keybase.pub/managing-memory-in-rust-ecs/).
+* [Actually using Crev, or, the problem of trusting software dependencies](https://wiki.alopex.li/ActuallyUsingCrev).
+* [Review of “Everything in Rust” of COSCUP 2019](https://medium.com/coding-neutrino-blog/review-of-everything-in-rust-of-coscup-2019-54152467d1c6).
 
 # Crate of the Week
 
@@ -35,9 +43,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [rustc-guide: Make HIR identifiers table more discoverable](https://github.com/rust-lang/rustc-guide/issues/420).
-* [rustc-guide: Explain what interning means](https://github.com/rust-lang/rustc-guide/issues/419).
-* [rustc-guide: Terms used before being explained](https://github.com/rust-lang/rustc-guide/issues/418).
+*No issues were proposed for CfP*.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -78,12 +84,12 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [hint::bench_black_box](https://github.com/rust-lang/rfcs/pull/2360).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Clarify `Box<T>` representation and its use in FFI](https://github.com/rust-lang/rust/pull/62514).
 * [disposition: merge] [Constify LinkedList new function](https://github.com/rust-lang/rust/pull/63684).
+* [disposition: merge] [Test that Wrapping arithmetic ops are implemented for all int types](https://github.com/rust-lang/rust/pull/63692).
 
 ## New RFCs
 
@@ -97,28 +103,22 @@ decision. Express your opinions now.
 
 ### Asia Pacific
 
-* [Aug 24. Chennai, IN - Rust Chennai - Monthly meetup - August](https://www.meetup.com/mad-rs/events/264125149).
-* [Aug 27. Seoul, KR - Seoul Rust Meetup, Hapjeong](https://www.meetup.com/Rust-Seoul-Meetup/events/nxkdfryzlbkc/).
 * [Sep  2. Auckland, NZ - Rust AKL - Introduction to Rust (session 1 of 3)](https://www.meetup.com/rust-akl/events/259481026/).
+* [Sep 11. Selangor, MY - Rust Malaysia Meetup September 2019](https://docs.google.com/forms/d/e/1FAIpQLScsqK0kH3o6ti12AEc9Fn4To-W0rXo9Q-frLmZ3JZUWc8yjjw/viewform).
 
 ### Europe
 
-* [Aug 26. Thessaloniki, GR - Rust + GNOME Workshop at GUADEC](https://wiki.gnome.org/GUADEC/2019/Hackingdays/RustGtkGstWorkshop).
-* [Aug 27. London, GB - Rust London User Group - Rust Hack n Learn + Lightning Talks Evening #16](https://www.meetup.com/Rust-London-User-Group/events/264000041/).
-* [Aug 27. Thessaloniki, GR - Rust + GNOME BoF at GUADEC](https://wiki.gnome.org/GUADEC/2019/Hackingdays/RustBoF).
-* [Aug 28. Copenhagen, DK - Copenhagen Rust Hack Night #17](https://cph.rs/).
-* [Aug 29. Zurich, CH - Rust Zurich - August Community Meetup](https://www.meetup.com/Rust-Zurich/events/263756588/).
 * [Sep  4. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzmbgb/).
+* [Sep  5. Hamburg, DE - Rust Hack & Learn September 2019](https://www.meetup.com/Rust-Meetup-Hamburg/events/264102479/).
 
 ### North America
 
-* [Aug 26. Durham, NC, US - Triangle Rustaceans - Build a syslog server with mio](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzlbjc/).
-* [Aug 27. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyzlbkc/).
-* [Aug 27. Chicago, IL, US - Chicago Rust Meetup - Macros Rule! A Dive Into Rust's Syntax Extension Toolbox](https://www.meetup.com/Chicago-Rust-Meetup/events/263849534).
-* [Aug 28. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscryzlblc/).
-* [Aug 28. Mesa, AZ, US - Desert Rust - Rust: Frontend Web](https://www.meetup.com/Desert-Rustaceans/events/lftjxqyzlblc/).
 * [Sep  4. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryzmbgb/).
 * [Sep  4. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyzmbgb/).
+* [Sep  5. Seattle, WA, US - Seattle Rust Meetup - Physical Computing Workshop](https://www.meetup.com/Seattle-Rust-Meetup/events/264245990/).
+* [Sep 10. Detroit, MI, US - Detroit Rust - September Detroit Rust at the Altimetrik Collider](https://www.meetup.com/detroitrust/events/264251923/).
+* [Sep 12. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgryzmbqb/).
+* [Sep 12. San Diego, CA, US - San Diego Rust September Meetup](https://www.meetup.com/San-Diego-Rust/events/264062555/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -129,7 +129,9 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Software Engineer - Rust at IOHK, Remote](https://iohk.recruiterbox.com/jobs/fk03udp/).
 * [Senior Software Engineer at ConsenSys R&D, Remote](https://consensys.net/open-roles/1792013/).
+* [Rust/Core Developer at Parity, Berlin, DE](https://www.parity.io/jobs/#berlin-rust-core-developer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
