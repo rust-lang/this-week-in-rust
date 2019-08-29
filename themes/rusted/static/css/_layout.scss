@@ -130,6 +130,59 @@ body > footer {
     }
 }
 
+.post-neighbors {
+    font-size: 16px;
+    margin-top: 15px;
+    &::after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
+    $arrow-margin: 6px;
+
+    .neighbor {
+        display: inline-flex;
+        align-items: center;
+        line-height: 1.25;
+        color: $grey-colour-dark;
+        &:hover {
+            text-decoration: none;
+            .neighbor-title {
+                text-decoration: underline;
+            }
+        }
+
+        &.prev-article {
+            float: left;
+            .neighbor-arrow {
+                margin-right: $arrow-margin;
+            }
+        }
+        &.next-article {
+            float: right;
+            text-align: right;
+            .neighbor-arrow {
+                margin-left: $arrow-margin;
+            }
+        }
+
+        .neighbor-arrow {
+            font-size: 24px;
+            display: inline-block;
+        }
+        .neighbor-content {
+            display: inline-block;
+
+            .neighbor-label {
+                display: block;
+            }
+            .neighbor-title {
+                color: $brand-color;
+            }
+        }
+    }
+}
+
 blockquote p {
   white-space: pre-line;
 }

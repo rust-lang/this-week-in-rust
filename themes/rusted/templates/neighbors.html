@@ -1,0 +1,23 @@
+{% if article.next_article or article.prev_article %}
+<nav class="post-neighbors">
+  {% if article.prev_article %}
+  <a  class="neighbor prev-article" href="{{ SITEURL }}/{{ article.prev_article.url }}">
+    <span class="neighbor-arrow">«</span>
+    <span class="neighbor-content">
+      <span class="neighbor-label">Previous:</span>
+      <span class="neighbor-title">{{ article.prev_article.title }}</span>
+    </span>
+  </a>
+  {% endif %}
+
+  {% if article.next_article %}
+  <a class="neighbor next-article" href="{{ SITEURL }}/{{ article.next_article.url }}">
+    <span class="neighbor-content">
+      <span class="neighbor-label">Next:</span>
+      <span class="neighbor-title">{{ article.next_article.title }}</span>
+    </span>
+    <span class="neighbor-arrow">»</span>
+  </a>
+  {% endif %}
+</nav>
+{% endif %}
