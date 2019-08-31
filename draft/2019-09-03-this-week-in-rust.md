@@ -14,6 +14,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
+* [Announcing cargo-udeps](https://www.reddit.com/r/rust/comments/cxjdl4/announcing_cargoudeps/)
+
 ## News & Blog Posts
 
 # Crate of the Week
