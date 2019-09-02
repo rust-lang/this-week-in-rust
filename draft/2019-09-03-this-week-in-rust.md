@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Introduction to Rust Web Applications](https://erwabook.com/intro/)
+
 # Crate of the Week
 
 This week's crate is [include_flate](https://crates.io/crates/include_flate), a variant of `include_bytes!`/`include_str` with compile-time DEFLATE compression and runtime lazy decompression.
