@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Low Power NB-IoT on STM32 Blue Pill with Apache Mynewt and Embedded Rust](https://medium.com/@ly.lee/low-power-nb-iot-on-stm32-blue-pill-with-apache-mynewt-and-embedded-rust-cef5a3ecdd90?source=friends_link&sk=e232e68dc7c91dd4397e96d7dbde543a).
+
 # Crate of the Week
 
 This week's crate is [include_flate](https://crates.io/crates/include_flate), a variant of `include_bytes!`/`include_str` with compile-time DEFLATE compression and runtime lazy decompression.
