@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [This Month in Rust GameDev #1 - August 2019](https://rust-gamedev.github.io/2019/09/02/newsletter-001.html)
+
 # Crate of the Week
 
 This week's crate is [include_flate](https://crates.io/crates/include_flate), a variant of `include_bytes!`/`include_str` with compile-time DEFLATE compression and runtime lazy decompression.
