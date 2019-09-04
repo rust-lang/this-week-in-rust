@@ -14,6 +14,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
+* [Announcing structopt 0.3](https://www.reddit.com/r/rust/comments/cxgw86/announcing_structopt_03/)
 * [Announcing cargo-udeps](https://www.reddit.com/r/rust/comments/cxjdl4/announcing_cargoudeps/)
 
 ## News & Blog Posts
