@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Semantic validation in Rust](https://slowtec.de/posts/2019-09-03-semantic-validation-with-rust.html)
 * [This Month in Rust GameDev #1 - August 2019](https://rust-gamedev.github.io/2019/09/02/newsletter-001.html)
 
 # Crate of the Week
