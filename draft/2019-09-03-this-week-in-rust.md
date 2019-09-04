@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Low Power NB-IoT on STM32 Blue Pill with Apache Mynewt and Embedded Rust](https://medium.com/@ly.lee/low-power-nb-iot-on-stm32-blue-pill-with-apache-mynewt-and-embedded-rust-cef5a3ecdd90).
 - [Semantic validation in Rust](https://slowtec.de/posts/2019-09-03-semantic-validation-with-rust.html)
 * [This Month in Rust GameDev #1 - August 2019](https://rust-gamedev.github.io/2019/09/02/newsletter-001.html)
 
