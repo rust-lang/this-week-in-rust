@@ -17,12 +17,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 - [Semantic validation in Rust](https://slowtec.de/posts/2019-09-03-semantic-validation-with-rust.html)
+* [This Month in Rust GameDev #1 - August 2019](https://rust-gamedev.github.io/2019/09/02/newsletter-001.html)
 
 # Crate of the Week
 
-This week's crate is [include_flate](https://crates.io/crates/include_flate), a variant of `include_bytes!`/`include_str` with compile-time DEFLATE compression and runtime lazy decompression.
+This week's crate is [cargo-udeps](https://crates.io/crates/cargo-udeps), a cargo subcommand to find unused dependencies.
 
-Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/606) for the suggestion!
+Thanks to [Christopher Durham](https://users.rust-lang.org/t/crate-of-the-week/2704/613) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -43,22 +44,21 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-221 pull requests were [merged in the last week][merged]
+214 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-08-19..2019-08-26
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-08-26..2019-09-02
 
-* [Stabilize `async_await` in Rust 1.39.0](https://github.com/rust-lang/rust/pull/63209)
-* [When declaring a declarative macro in an item it's only accessible inside it](https://github.com/rust-lang/rust/pull/63624)
-* [Improve diagnostics: break/continue in wrong context](https://github.com/rust-lang/rust/pull/63780)
-* [Audit uses of `apply_mark` in built-in macros + Remove default macro transparencies](https://github.com/rust-lang/rust/pull/63823)
-* [Ensure miri can do bit ops on pointer values](https://github.com/rust-lang/rust/pull/63839)
-* [Use more optimal `Ord` implementation for integers](https://github.com/rust-lang/rust/pull/63767)
-* [Fix bug in `iter::Chain::size_hint`](https://github.com/rust-lang/rust/pull/63691)
-* [Implement `nth_back` for `ChunksExactMut`](https://github.com/rust-lang/rust/pull/63265)
-* [Avoid unnecessary reservations in `std::io::Take::read_to_end`](https://github.com/rust-lang/rust/pull/63216)
-* [cargo: Fix `error:`/`warning:` coloring inconsistency with rustc](https://github.com/rust-lang/cargo/pull/7294)
-* [rustdoc: Support `impl Trait` in inlined documentation](https://github.com/rust-lang/rust/pull/61613)
-* [rustup: Replace mem::uninitialized with MaybeUninit](https://github.com/rust-lang/rustup.rs/pull/1963)
+* [rustc: Handle modules in "fat" LTO more robustly](https://github.com/rust-lang/rust/pull/63956)
+* [Add default serialization for `Ident`s](https://github.com/rust-lang/rust/pull/63853)
+* [Correctly suggest adding bounds to `impl Trait` argument](https://github.com/rust-lang/rust/pull/63811)
+* [Strip code to the left and right in diagnostics for long lines](https://github.com/rust-lang/rust/pull/63402)
+* [Do not complain about unused code when used in `impl` `Self` type](https://github.com/rust-lang/rust/pull/63317)
+* [Simplify eager normalization of constants](https://github.com/rust-lang/rust/pull/63820)
+* [miri: Stacked Borrows: Don't read from memory during retagging](https://github.com/rust-lang/miri/pull/931)
+* [miri: detect too large dynamically sized objects](https://github.com/rust-lang/rust/pull/64014)
+* [Small improvement for `Ord` implementation of integers](https://github.com/rust-lang/rust/pull/63992)
+* [Improve Rustdoc's handling of procedural macros](https://github.com/rust-lang/rust/pull/62855)
+* [crates.io: Show right-hand column for yanked versions to crate owners](https://github.com/rust-lang/crates.io/pull/1759)
 
 ## Approved RFCs
 
@@ -129,11 +129,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Just as Bruce Lee practiced Jeet Kune Do, the style of all styles, Rust is not bound to any one paradigm. Instead of trying to put it into an existing box, it's best to just feel it out. Rust isn't Haskell and it's not C. It has aspects in common with each and it has traits unique to itself.
+> Threads are for working in parallel, async is for waiting in parallel.
 
-– [Alexander Nye on rust-users](https://users.rust-lang.org/t/idiomatic-rust-favors-functional-or-imperative-style/31720/2)
+– [ssokolow on /r/rust](https://reddit.com/r/rust/comments/cws788/is_await_only_useful_is_my_code_doesnt_do_much/eyfg4va/)
 
-Thanks to [Louis Cloete](https://users.rust-lang.org/t/twir-quote-of-the-week/328/685) for the suggestion!
+Thanks to [Philipp Oppermann](https://users.rust-lang.org/t/twir-quote-of-the-week/328/686) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
