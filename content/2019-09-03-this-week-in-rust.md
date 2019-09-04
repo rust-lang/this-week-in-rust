@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Introduction to Rust web applications](https://erwabook.com/intro/)
+* [Introduction to Rust web applications](https://erwabook.com/intro/).
 * [This month in Rust GameDev #1 - August 2019](https://rust-gamedev.github.io/2019/09/02/newsletter-001.html).
 * [HHVM is rewriting some of its OCaml code to Rust](https://hhvm.com/blog/2019/08/27/hhvm-4.20.0.html).
 * [Announcing cargo-udeps](https://gist.github.com/est31/3d9e880be746c3a443c699d9ff1888d2).
