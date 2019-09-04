@@ -14,15 +14,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-* [Announcing structopt 0.3](https://www.reddit.com/r/rust/comments/cxgw86/announcing_structopt_03/)
-* [Announcing cargo-udeps](https://www.reddit.com/r/rust/comments/cxjdl4/announcing_cargoudeps/)
-
 ## News & Blog Posts
 
-* [Introduction to Rust Web Applications](https://erwabook.com/intro/)
-[Low Power NB-IoT on STM32 Blue Pill with Apache Mynewt and Embedded Rust](https://medium.com/@ly.lee/low-power-nb-iot-on-stm32-blue-pill-with-apache-mynewt-and-embedded-rust-cef5a3ecdd90).
-- [Semantic validation in Rust](https://slowtec.de/posts/2019-09-03-semantic-validation-with-rust.html)
-* [This Month in Rust GameDev #1 - August 2019](https://rust-gamedev.github.io/2019/09/02/newsletter-001.html)
+* [Introduction to Rust web applications](https://erwabook.com/intro/)
+* [This month in Rust GameDev #1 - August 2019](https://rust-gamedev.github.io/2019/09/02/newsletter-001.html).
+* [HHVM is rewriting some of its OCaml code to Rust](https://hhvm.com/blog/2019/08/27/hhvm-4.20.0.html).
+* [Announcing cargo-udeps](https://gist.github.com/est31/3d9e880be746c3a443c699d9ff1888d2).
+* [Announcing structopt 0.3](https://www.reddit.com/r/rust/comments/cxgw86/announcing_structopt_03/).
+* [Semantic validation in Rust](https://slowtec.de/posts/2019-09-03-semantic-validation-with-rust.html).
+* [Low power NB-IoT on STM32 Blue Pill with Apache Mynewt and embedded Rust](https://medium.com/@ly.lee/low-power-nb-iot-on-stm32-blue-pill-with-apache-mynewt-and-embedded-rust-cef5a3ecdd90).
 
 # Crate of the Week
 
@@ -71,7 +71,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2360: hint::bench_black_box](https://github.com/rust-lang/rfcs/pull/2360).
 
 ## Final Comment Period
 
@@ -81,41 +81,39 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [hint::bench_black_box](https://github.com/rust-lang/rfcs/pull/2360).
+*No RFCs are currently in final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Constify LinkedList new function](https://github.com/rust-lang/rust/pull/63684).
-* [disposition: merge] [Test that Wrapping arithmetic ops are implemented for all int types](https://github.com/rust-lang/rust/pull/63692).
+* [disposition: merge] [Tracking issue for udp_peer_addr](https://github.com/rust-lang/rust/issues/59127).
+* [disposition: merge] [Specify: int->float and f32->f64 round to nearest, overflow to infinity](https://github.com/rust-lang/rust/issues/62231).
+* [disposition: merge] [Stabilize `bind_by_move_pattern_guards` in Rust 1.39.0](https://github.com/rust-lang/rust/pull/63118).
+* [disposition: merge] [Make `abs`, `wrapping_abs`, `overflowing_abs` const functions](https://github.com/rust-lang/rust/pull/63786).
+* [disposition: merge] [Stabilize `Vec::new` and `String::new` as `const fn`s](https://github.com/rust-lang/rust/pull/64028).
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [Collection Transmute](https://github.com/rust-lang/rfcs/pull/2756).
+* [Stabilize `#[unwind]`](https://github.com/rust-lang/rfcs/pull/2753).
 
 # Upcoming Events
 
-### Africa
-
-* [Sep  4. Johannesburg, ZA - Johannesburg Rust Meetup - informal discussions on topics related to the language](https://www.meetup.com/Johannesburg-Rust-Meetup/events/dgqmbryzmbgb/).
-
 ### Asia Pacific
 
-* [Sep  2. Auckland, NZ - Rust AKL - Introduction to Rust (session 1 of 3)](https://www.meetup.com/rust-akl/events/259481026/).
 * [Sep 11. Selangor, MY - Rust Malaysia Meetup September 2019](https://docs.google.com/forms/d/e/1FAIpQLScsqK0kH3o6ti12AEc9Fn4To-W0rXo9Q-frLmZ3JZUWc8yjjw/viewform).
 
 ### Europe
 
-* [Sep  4. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzmbgb/).
-* [Sep  5. Hamburg, DE - Rust Hack & Learn September 2019](https://www.meetup.com/Rust-Meetup-Hamburg/events/264102479/).
+* [Sep 18. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzmbxb/).
 
 ### North America
 
-* [Sep  4. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryzmbgb/).
-* [Sep  4. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyzmbgb/).
-* [Sep  5. Seattle, WA, US - Seattle Rust Meetup - Physical Computing Workshop](https://www.meetup.com/Seattle-Rust-Meetup/events/264245990/).
 * [Sep 10. Detroit, MI, US - Detroit Rust - September Detroit Rust at the Altimetrik Collider](https://www.meetup.com/detroitrust/events/264251923/).
 * [Sep 12. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgryzmbqb/).
 * [Sep 12. San Diego, CA, US - San Diego Rust September Meetup](https://www.meetup.com/San-Diego-Rust/events/264062555/).
+* [Sep 18. Portland, OR, US - PDXRust - Hack Night (not the usual meetup!)](https://www.meetup.com/PDXRust/events/264332355/).
+* [Sep 18. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryzmbxb/).
+* [Sep 20-21. Denver, CO, US - Colorado Gold Rust](https://www.cogoldrust.com/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -126,9 +124,8 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Software Engineer - Rust at IOHK, Remote](https://iohk.recruiterbox.com/jobs/fk03udp/).
+* [Blockchain Runtime Engineer at Parity, Berlin, DE or remote](https://www.parity.io/jobs/#berlin-blockchain-runtime-engineer).
 * [Senior Software Engineer at ConsenSys R&D, Remote](https://consensys.net/open-roles/1792013/).
-* [Rust/Core Developer at Parity, Berlin, DE](https://www.parity.io/jobs/#berlin-rust-core-developer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
