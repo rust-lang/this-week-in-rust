@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [This Month in Rust GameDev #1 - August 2019](https://rust-gamedev.github.io/2019/09/02/newsletter-001.html)
+
 # Crate of the Week
 
 This week's crate is [cargo-udeps](https://crates.io/crates/cargo-udeps), a cargo subcommand to find unused dependencies.
