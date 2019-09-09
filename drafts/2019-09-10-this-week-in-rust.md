@@ -96,6 +96,7 @@ decision. Express your opinions now.
 
 ### Europe
 
+* [Sep 17. Wrocław, PL - Rust Wrocław Meetup #12](https://www.meetup.com/Rust-Wroclaw/events/264586907/)
 * [Sep 18. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzmbxb/).
 
 ### North America
