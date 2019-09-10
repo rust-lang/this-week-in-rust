@@ -18,9 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [cargo-udeps](https://crates.io/crates/cargo-udeps), a cargo subcommand to find unused dependencies.
+This week's crate is [viu](https://github.com/atanunq/viu), a terminal image viewer.
 
-Thanks to [Christopher Durham](https://users.rust-lang.org/t/crate-of-the-week/2704/613) for the suggestion!
+Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/617) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -41,21 +41,33 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-214 pull requests were [merged in the last week][merged]
+303 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-08-26..2019-09-02
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-09-02..2019-09-09
 
-* [rustc: Handle modules in "fat" LTO more robustly](https://github.com/rust-lang/rust/pull/63956)
-* [Add default serialization for `Ident`s](https://github.com/rust-lang/rust/pull/63853)
-* [Correctly suggest adding bounds to `impl Trait` argument](https://github.com/rust-lang/rust/pull/63811)
-* [Strip code to the left and right in diagnostics for long lines](https://github.com/rust-lang/rust/pull/63402)
-* [Do not complain about unused code when used in `impl` `Self` type](https://github.com/rust-lang/rust/pull/63317)
-* [Simplify eager normalization of constants](https://github.com/rust-lang/rust/pull/63820)
-* [miri: Stacked Borrows: Don't read from memory during retagging](https://github.com/rust-lang/miri/pull/931)
-* [miri: detect too large dynamically sized objects](https://github.com/rust-lang/rust/pull/64014)
-* [Small improvement for `Ord` implementation of integers](https://github.com/rust-lang/rust/pull/63992)
-* [Improve Rustdoc's handling of procedural macros](https://github.com/rust-lang/rust/pull/62855)
-* [crates.io: Show right-hand column for yanked versions to crate owners](https://github.com/rust-lang/crates.io/pull/1759)
+* [Support both static and dynamic linking mode in testing for vxWorks](https://github.com/rust-lang/rust/pull/63789)
+* [Point at variant on pattern field count mismatch](https://github.com/rust-lang/rust/pull/64161)
+* [Use hygiene for AST passes](https://github.com/rust-lang/rust/pull/63919)
+* [Account for doc comments coming from proc macros without spans](https://github.com/rust-lang/rust/pull/63930)
+* [Reduce span to function name in unreachable calls](https://github.com/rust-lang/rust/pull/64229)
+* [Move path parsing earlier](https://github.com/rust-lang/rust/pull/64120)
+* [or-patterns: Uniformly use `PatKind::Or` in AST & Fix/Cleanup resolve](https://github.com/rust-lang/rust/pull/64111)
+* [Allow checking of run-pass execution output in compiletest](https://github.com/rust-lang/rust/pull/63825)
+* [Rust 2018: NLL migrate mode => hard error](https://github.com/rust-lang/rust/pull/63565)
+* [Extend Polonius fact generation for (some) move tracking](https://github.com/rust-lang/rust/pull/62800)
+* [polonius: Finalise initialisation calculations](https://github.com/rust-lang/polonius/pull/110)
+* [libc: Remove WASI Core API](https://github.com/rust-lang/libc/pull/1461)
+* [Use wasi crate for Core API](https://github.com/rust-lang/rust/pull/63676)
+* [Use unicode-xid crate instead of libcore](https://github.com/rust-lang/rust/pull/62848)
+* [Add `Result::cloned`{,`_err`} and `Result::copied`{,`_err`}](https://github.com/rust-lang/rust/pull/63166)
+* [Stabilize `bind_by_move_pattern_guards` in Rust 1.39.0](https://github.com/rust-lang/rust/pull/63118)
+* [Stabilize `checked_duration_since` for 1.38.0](https://github.com/rust-lang/rust/pull/62860)
+* [Stabilize `pin_into_inner` in 1.39.0](https://github.com/rust-lang/rust/pull/63985)
+* [`Rev::rposition` counts from the wrong end](https://github.com/rust-lang/rust/pull/63549)
+* [Override `StepBy::{try_fold, try_rfold}`](https://github.com/rust-lang/rust/pull/64121)
+* [Add Iterator comparison methods that take a comparison function](https://github.com/rust-lang/rust/pull/62205)
+* [Add methods for converting `bool` to `Option<T>`](https://github.com/rust-lang/rust/pull/64255)
+* [cargo: Rename `--all` to `--workspace`](https://github.com/rust-lang/cargo/pull/7241)
 
 ## Approved RFCs
 
@@ -123,11 +135,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Threads are for working in parallel, async is for waiting in parallel.
+> The Rust compiler is basically 30 years of trying to figure out how to teach a computer how to see the things we worry about as C developers.
 
-– [ssokolow on /r/rust](https://reddit.com/r/rust/comments/cws788/is_await_only_useful_is_my_code_doesnt_do_much/eyfg4va/)
+– [James Munns (@bitshiftmask) on Twitter](https://mobile.twitter.com/bitshiftmask/status/1170043794387083268)
 
-Thanks to [Philipp Oppermann](https://users.rust-lang.org/t/twir-quote-of-the-week/328/686) for the suggestion!
+Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/699) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
