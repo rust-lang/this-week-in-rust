@@ -16,12 +16,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [How Rust optimizes async/await II: Program analysis](https://tmandry.gitlab.io/blog/posts/optimizing-await-2/).
+* [How Rust optimizes async/await II: program analysis](https://tmandry.gitlab.io/blog/posts/optimizing-await-2/).
 * [Rust on the ESP32](https://mabez.dev/blog/posts/esp32-rust/).
 * [Linux.Fe2O3: a Rust virus](https://www.guitmz.com/linux-fe2o3-rust-virus/).
 * [Improvement to the compile time of a crate](http://antoyo.ml/compilation-time-dependencies).
 * [hyper 0.13 alpha supports async/await](https://seanmonstar.com/post/187493499882/hyper-alpha-supports-asyncawait).
-* [Writing an OS in Rust: Updates in August 2019](https://os.phil-opp.com/status-update/2019-09-09/).
+* [Writing an OS in Rust: updates in August 2019](https://os.phil-opp.com/status-update/2019-09-09/).
 * [Rust in large organizations - meeting notes](https://users.rust-lang.org/t/rust-in-large-organizations-meeting/32059).
 * [Futures concurrency](https://blog.yoshuawuyts.com/futures-concurrency/).
 
