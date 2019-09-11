@@ -15,7 +15,7 @@ else:
     THEME = 'themes/rusted'
 
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ['assets']
+PLUGINS = ['assets', 'neighbors']
 
 TIMEZONE = 'America/New_York'
 
