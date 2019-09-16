@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Adventures in Motion Control](http://adventures.michaelfbryan.com/posts/announcing-adventures-in-motion-control/)
+
 # Crate of the Week
 
 This week's crate is [viu](https://github.com/atanunq/viu), a terminal image viewer.
