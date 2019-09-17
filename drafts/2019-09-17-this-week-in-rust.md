@@ -18,9 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [viu](https://github.com/atanunq/viu), a terminal image viewer.
+This week's crate is [texture-synthesis](https://github.com/EmbarkStudios/texture-synthesis), a program to generate textures by choosing examples.
 
-Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/617) for the suggestion!
+Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/621) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -42,33 +42,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-303 pull requests were [merged in the last week][merged]
+282 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-09-02..2019-09-09
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-09-09..2019-09-16
 
-* [Support both static and dynamic linking mode in testing for vxWorks](https://github.com/rust-lang/rust/pull/63789)
-* [Point at variant on pattern field count mismatch](https://github.com/rust-lang/rust/pull/64161)
-* [Use hygiene for AST passes](https://github.com/rust-lang/rust/pull/63919)
-* [Account for doc comments coming from proc macros without spans](https://github.com/rust-lang/rust/pull/63930)
-* [Reduce span to function name in unreachable calls](https://github.com/rust-lang/rust/pull/64229)
-* [Move path parsing earlier](https://github.com/rust-lang/rust/pull/64120)
-* [or-patterns: Uniformly use `PatKind::Or` in AST & Fix/Cleanup resolve](https://github.com/rust-lang/rust/pull/64111)
-* [Allow checking of run-pass execution output in compiletest](https://github.com/rust-lang/rust/pull/63825)
-* [Rust 2018: NLL migrate mode => hard error](https://github.com/rust-lang/rust/pull/63565)
-* [Extend Polonius fact generation for (some) move tracking](https://github.com/rust-lang/rust/pull/62800)
-* [polonius: Finalise initialisation calculations](https://github.com/rust-lang/polonius/pull/110)
-* [libc: Remove WASI Core API](https://github.com/rust-lang/libc/pull/1461)
-* [Use wasi crate for Core API](https://github.com/rust-lang/rust/pull/63676)
-* [Use unicode-xid crate instead of libcore](https://github.com/rust-lang/rust/pull/62848)
-* [Add `Result::cloned`{,`_err`} and `Result::copied`{,`_err`}](https://github.com/rust-lang/rust/pull/63166)
-* [Stabilize `bind_by_move_pattern_guards` in Rust 1.39.0](https://github.com/rust-lang/rust/pull/63118)
-* [Stabilize `checked_duration_since` for 1.38.0](https://github.com/rust-lang/rust/pull/62860)
-* [Stabilize `pin_into_inner` in 1.39.0](https://github.com/rust-lang/rust/pull/63985)
-* [`Rev::rposition` counts from the wrong end](https://github.com/rust-lang/rust/pull/63549)
-* [Override `StepBy::{try_fold, try_rfold}`](https://github.com/rust-lang/rust/pull/64121)
-* [Add Iterator comparison methods that take a comparison function](https://github.com/rust-lang/rust/pull/62205)
-* [Add methods for converting `bool` to `Option<T>`](https://github.com/rust-lang/rust/pull/64255)
-* [cargo: Rename `--all` to `--workspace`](https://github.com/rust-lang/cargo/pull/7241)
+* [rustc: Allow the cdylib crate type with wasm32-wasi](https://github.com/rust-lang/rust/pull/64188)
+* [Hide diagnostics emitted during --cfg parsing](https://github.com/rust-lang/rust/pull/64467)
+* [Improve hygiene of `alloc::format!`](https://github.com/rust-lang/rust/pull/64060)
+* [Cleanup handling of hygiene for built-in macros](https://github.com/rust-lang/rust/pull/64469)
+* [resolve: Tweak some "cannot find" wording for macros](https://github.com/rust-lang/rust/pull/64483)
+* [Provide a span if main function is not present in crate](https://github.com/rust-lang/rust/pull/64290)
+* [def_collector: Do not ICE on attributes on unnamed fields](https://github.com/rust-lang/rust/pull/64457)
+* [Permit impls referencing errors to overlap](https://github.com/rust-lang/rust/pull/64474)
+* [lowering: Extend temporary lifetimes around await](https://github.com/rust-lang/rust/pull/64292)
+* [Shrink `ObligationCauseCode`](https://github.com/rust-lang/rust/pull/64302)
+* [check_match: Refactor + improve non-exhaustive diagnostics for default binding modes](https://github.com/rust-lang/rust/pull/64271)
+* [fn ptr is structural match](https://github.com/rust-lang/rust/pull/64431)
+* [rustc_mir: Buffer -Zdump-mir output instead of pestering the kernel constantly](https://github.com/rust-lang/rust/pull/64344)
+* [std: Add a `backtrace` module](https://github.com/rust-lang/rust/pull/64154)
+* [Stabilize `Vec::new` and `String::new` as `const fn`s](https://github.com/rust-lang/rust/pull/64028)
+* [Stabilise weak_ptr_eq](https://github.com/rust-lang/rust/pull/61797)
+* [Make `abs`, `wrapping_abs`, `overflowing_abs` const functions](https://github.com/rust-lang/rust/pull/63786)
+* [Use `try_fold` instead of manually carrying an accumulator](https://github.com/rust-lang/rust/pull/64473)
+* [Improve `BTreeSet::Intersection::size_hint`](https://github.com/rust-lang/rust/pull/64383)
+* [cargo: Don't build libstd as a `dylib`](https://github.com/rust-lang/cargo/pull/7353)
 
 ## Approved RFCs
 
@@ -137,11 +134,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> The Rust compiler is basically 30 years of trying to figure out how to teach a computer how to see the things we worry about as C developers.
+> Well, let me tell you: unless your code is cooler than ICE, the compiler does not miss anything. Rust accompanies us at each step of our path, very gently pulling our hand when we are too close to falling onto a (safety) hole, and also very gently letting us fall all the way down the hole, as soon we spell the forbidden incantation: `unsafe`.
 
-– [James Munns (@bitshiftmask) on Twitter](https://mobile.twitter.com/bitshiftmask/status/1170043794387083268)
+– [Daniel H-M on rust-users](https://users.rust-lang.org/t/looking-for-a-deeper-understanding-of-phatomdata/32477/4)
 
-Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/699) for the suggestion!
+Thanks to [Cerberuser](https://users.rust-lang.org/t/twir-quote-of-the-week/328/700) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
