@@ -14,6 +14,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
+* [Announcing awesome-rust-mentors](https://rustbeginners.github.io/awesome-rust-mentors/).
+
 ## News & Blog Posts
 
 # Crate of the Week
