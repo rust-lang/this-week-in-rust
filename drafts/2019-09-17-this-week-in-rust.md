@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Oreboot: Coreboot minus C, a talk by Google](https://osfc.io/uploads/talk/paper/23/Oreboot.pdf).
+
 # Crate of the Week
 
 This week's crate is [viu](https://github.com/atanunq/viu), a terminal image viewer.
