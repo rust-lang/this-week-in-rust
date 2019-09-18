@@ -38,6 +38,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
+If you are a new Rustacean unsure of where to start, consider finding a mentor [here](https://rustbeginners.github.io/awesome-rust-mentors/).
+
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
 # Updates from Rust Core
