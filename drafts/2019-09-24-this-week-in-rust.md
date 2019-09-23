@@ -121,6 +121,7 @@ decision. Express your opinions now.
 * [Sep 25. Milano, IT - Rust Language Milano - Virtual Filesystem with Rust](https://www.meetup.com/rust-language-milano/events/264311325).
 * [Sep 25. Copenhagen, DK - Copenhagen Rust Hack Night #18](https://cph.rs/).
 * [Sep 26. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/264748662).
+* [Sep 26. London, GB - Rust London User Group - Hack 'n Learn September 2019](https://www.meetup.com/it-IT/Rust-London-User-Group/events/264999149/).
 * [Oct  1. Göteborg, SE - Rust Gbg — Golden October Rust 2019](https://www.meetup.com/rustgbg/events/264957575/).
 * [Oct  2. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryznbdb/).
 * [Oct  3. Toulouse, FR - Rust talks at DevFest Toulouse 2019](https://devfesttoulouse.fr/).
