@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Algebraics 0.1.0 – pure-Rust algebraic numbers library](https://users.rust-lang.org/t/algebraics-0-1-0-pure-rust-algebraic-numbers-library/32688).
+
 # Crate of the Week
 
 This week's crate is [runtime](https://github.com/mun-lang/runtime), an experimental hot-reloading oriented runtime in Rust.
