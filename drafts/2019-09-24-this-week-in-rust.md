@@ -17,12 +17,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 [Build an NB-IoT GPS Tracker on STM32 L476 with Apache Mynewt and Embedded Rust](https://medium.com/@ly.lee/build-an-nb-iot-gps-tracker-on-stm32-l476-with-apache-mynewt-and-embedded-rust-8c095a925546?source=friends_link&sk=f3e802795d4fd7d569f0d67679e8c9e6).
+- [Adventures In Motion Control: Top-Level Infrastructure](http://adventures.michaelfbryan.com/posts/top-level-infrastructure/)
+* [Navigating the Rust OSS Community](https://yaah.dev/getting-involved)
 
 # Crate of the Week
 
-This week's crate is [texture-synthesis](https://github.com/EmbarkStudios/texture-synthesis), a program to generate textures by choosing examples.
+This week's crate is [runtime](https://github.com/mun-lang/runtime), an experimental hot-reloading oriented runtime in Rust.
 
-Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/621) for the suggestion!
+Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/628) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -45,31 +47,27 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-282 pull requests were [merged in the last week][merged]
+278 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-09-09..2019-09-16
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-09-16..2019-09-23
 
-* [rustc: Allow the cdylib crate type with wasm32-wasi](https://github.com/rust-lang/rust/pull/64188)
-* [Hide diagnostics emitted during --cfg parsing](https://github.com/rust-lang/rust/pull/64467)
-* [Improve hygiene of `alloc::format!`](https://github.com/rust-lang/rust/pull/64060)
-* [Cleanup handling of hygiene for built-in macros](https://github.com/rust-lang/rust/pull/64469)
-* [resolve: Tweak some "cannot find" wording for macros](https://github.com/rust-lang/rust/pull/64483)
-* [Provide a span if main function is not present in crate](https://github.com/rust-lang/rust/pull/64290)
-* [def_collector: Do not ICE on attributes on unnamed fields](https://github.com/rust-lang/rust/pull/64457)
-* [Permit impls referencing errors to overlap](https://github.com/rust-lang/rust/pull/64474)
-* [lowering: Extend temporary lifetimes around await](https://github.com/rust-lang/rust/pull/64292)
-* [Shrink `ObligationCauseCode`](https://github.com/rust-lang/rust/pull/64302)
-* [check_match: Refactor + improve non-exhaustive diagnostics for default binding modes](https://github.com/rust-lang/rust/pull/64271)
-* [fn ptr is structural match](https://github.com/rust-lang/rust/pull/64431)
-* [rustc_mir: Buffer -Zdump-mir output instead of pestering the kernel constantly](https://github.com/rust-lang/rust/pull/64344)
-* [std: Add a `backtrace` module](https://github.com/rust-lang/rust/pull/64154)
-* [Stabilize `Vec::new` and `String::new` as `const fn`s](https://github.com/rust-lang/rust/pull/64028)
-* [Stabilise weak_ptr_eq](https://github.com/rust-lang/rust/pull/61797)
-* [Make `abs`, `wrapping_abs`, `overflowing_abs` const functions](https://github.com/rust-lang/rust/pull/63786)
-* [Use `try_fold` instead of manually carrying an accumulator](https://github.com/rust-lang/rust/pull/64473)
-* [Improve `BTreeSet::Intersection::size_hint`](https://github.com/rust-lang/rust/pull/64383)
-* [cargo: Don't build libstd as a `dylib`](https://github.com/rust-lang/cargo/pull/7353)
-* [rustup: Update to most recent viable nightly](https://github.com/rust-lang/rustup.rs/pull/1997)
+* [Infer consts more consistently](https://github.com/rust-lang/rust/pull/64679)
+* [Parse assoc type bounds in generic params and provide custom diagnostic](https://github.com/rust-lang/rust/pull/64676)
+* [Update to LLVM 9.0.0](https://github.com/rust-lang/rust/pull/64634)
+* [rustbuild: Copy crate doc files fewer times](https://github.com/rust-lang/rust/pull/64613)
+* [Point at original span when emitting unreachable lint](https://github.com/rust-lang/rust/pull/64592)
+* [record fewer adjustment types in generator witnesses, avoid spurious drops in MIR construction](https://github.com/rust-lang/rust/pull/64584)
+* [More `ObligationForest` improvements](https://github.com/rust-lang/rust/pull/64545)
+* [Replace `state_for_location` with `DataflowResultsCursor`](https://github.com/rust-lang/rust/pull/64532)
+* [Load proc macro metadata in the correct order](https://github.com/rust-lang/rust/pull/64528)
+* [Various `ObligationForest` improvements](https://github.com/rust-lang/rust/pull/64500)
+* [Shrink `SubregionOrigin`](https://github.com/rust-lang/rust/pull/64394)
+* [save-analysis: Nest typeck tables when processing functions/methods](https://github.com/rust-lang/rust/pull/64250)
+* [Add `cmp::{min_by, min_by_key, max_by, max_by_key}`](https://github.com/rust-lang/rust/pull/64047)
+* [Stabilize `param_attrs` in Rust 1.39.0](https://github.com/rust-lang/rust/pull/64010)
+* [Make sure interned constants are immutable](https://github.com/rust-lang/rust/pull/63955)
+* [Added ability to crosscompile doctests](https://github.com/rust-lang/cargo/pull/6892)
+* [Add std_detect::detect::features() API that returns iterator of target-features and reject unstable features in feature-detection macros](https://github.com/rust-lang/stdarch/pull/739)
 
 ## Approved RFCs
 
@@ -123,10 +121,12 @@ decision. Express your opinions now.
 * [Sep 25. Milano, IT - Rust Language Milano - Virtual Filesystem with Rust](https://www.meetup.com/rust-language-milano/events/264311325).
 * [Sep 25. Copenhagen, DK - Copenhagen Rust Hack Night #18](https://cph.rs/).
 * [Sep 26. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/264748662).
+* [Sep 26. London, GB - Rust London User Group - Hack 'n Learn September 2019](https://www.meetup.com/it-IT/Rust-London-User-Group/events/264999149/).
 * [Oct  1. Göteborg, SE - Rust Gbg — Golden October Rust 2019](https://www.meetup.com/rustgbg/events/264957575/).
 * [Oct  2. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryznbdb/).
 * [Oct  3. Toulouse, FR - Rust talks at DevFest Toulouse 2019](https://devfesttoulouse.fr/).
 * [Oct  4. Toulouse, FR - Toulouse Rust Meetup - Future<Output = Rust>](https://www.meetup.com/Toulouse-Rust-Meetup/events/264780064).
+* [Oct  4. Darmstadt, DE - Hacktoberfest for Rustaceans](https://www.meetup.com/Rust-Rhein-Main/events/265052778).
 
 ### North America
 
@@ -161,11 +161,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Well, let me tell you: unless your code is cooler than ICE, the compiler does not miss anything. Rust accompanies us at each step of our path, very gently pulling our hand when we are too close to falling onto a (safety) hole, and also very gently letting us fall all the way down the hole, as soon we spell the forbidden incantation: `unsafe`.
+> I don’t like Rust being pigeon holed as a “safer C++”—it’s so much more than that.
+>
+> It’s been stated more often lately. It overlooks the fact that Rust has actively opened the door to systems programming to people coming from langs like Javascript, where C and C++ never did.
 
-– [Daniel H-M on rust-users](https://users.rust-lang.org/t/looking-for-a-deeper-understanding-of-phatomdata/32477/4)
+– [Benjamin Fry on twitter](https://twitter.com/benj_fry/status/1173754548453699584)
 
-Thanks to [Cerberuser](https://users.rust-lang.org/t/twir-quote-of-the-week/328/700) for the suggestion!
+Thanks to [Sverre Johann Bjørke](https://users.rust-lang.org/t/twir-quote-of-the-week/328/703) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
