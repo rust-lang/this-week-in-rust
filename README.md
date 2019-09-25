@@ -49,3 +49,18 @@ env SASS_BIN=$HOME/.gem/ruby/*/bin/sass pelican content -s pelicanconf.py
   ```
 * Copy the HTML and inline CSS at http://zurb.com/ink/inliner.php - (MailChimp's inliner doesn't remove the CSS from `<head>`).
 * Send the newsletter (we currently use MailChimp).
+
+##  Contributing Content
+
+To propose content for inclusion in the next newsletter (found in the `drafts/`
+folder), create a new [Pull Request][pr] updating the relevant section in the 
+draft.
+
+Some guidelines for contributions:
+
+- Avoid duplicating recent posts
+- Keep it relevant to the Rust community
+- Make sure content abides by the [Rust Code of Conduct][RCoC]
+
+[pr]: https://github.com/cmr/this-week-in-rust/pulls
+[RCoC]: https://www.rust-lang.org/policies/code-of-conduct
