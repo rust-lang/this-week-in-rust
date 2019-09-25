@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Adventures in Motion Control: FPS Counter](http://adventures.michaelfbryan.com/posts/fps-counter/)
+
 # Crate of the Week
 
 This week's crate is [runtime](https://github.com/mun-lang/runtime), an experimental hot-reloading oriented runtime in Rust.
