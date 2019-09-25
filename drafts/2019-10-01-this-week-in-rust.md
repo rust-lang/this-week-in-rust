@@ -147,7 +147,7 @@ Email the [Rust Community Team][community] for access.
 
 * [2D Graphics Programmer at Dungeonfog, Vienna, AT (Remote available)](https://www.dungeonfog.com/about/job-offers/).
 * [Principal Software Engineer at Microsoft, Redmond, WA, US](https://twitter.com/ryan_levick/status/1171830191804551168).
-* [Multiple Rust positions at Parity, Berlin, DE (Remove available)](https://www.parity.io/jobs/).
+* [Multiple Rust positions at Parity, Berlin, DE (Remote available)](https://www.parity.io/jobs/).
 * [Software Engineer at 3DSignals, Kfar Saba, IL](https://3dsig.com/positions/software-engineer/).
 * [Senior Engineer at Ditto at San Francisco, US (Remote available)](https://twitter.com/Adam_Fish/status/1173672751271268352).
 
