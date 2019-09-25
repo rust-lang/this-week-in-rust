@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Adventures In Motion Control: Top-Level Infrastructure](http://adventures.michaelfbryan.com/posts/top-level-infrastructure/)
 * [Navigating the Rust OSS Community](https://yaah.dev/getting-involved)
 
 # Crate of the Week
