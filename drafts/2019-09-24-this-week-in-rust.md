@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Navigating the Rust OSS Community](https://yaah.dev/getting-involved)
+
 # Crate of the Week
 
 This week's crate is [runtime](https://github.com/mun-lang/runtime), an experimental hot-reloading oriented runtime in Rust.
