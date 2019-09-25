@@ -16,9 +16,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-[Build an NB-IoT GPS Tracker on STM32 L476 with Apache Mynewt and Embedded Rust](https://medium.com/@ly.lee/build-an-nb-iot-gps-tracker-on-stm32-l476-with-apache-mynewt-and-embedded-rust-8c095a925546?source=friends_link&sk=f3e802795d4fd7d569f0d67679e8c9e6).
-- [Adventures In Motion Control: Top-Level Infrastructure](http://adventures.michaelfbryan.com/posts/top-level-infrastructure/)
-* [Navigating the Rust OSS Community](https://yaah.dev/getting-involved)
+* [LLVM: closing the gap - cross-language LTO between Rust and C/C++](http://blog.llvm.org/2019/09/closing-gap-cross-language-lto-between.html).
+* [Weld: accelerating numpy, scikit and pandas as much as 100x with Rust and LLVM](https://notamonadtutorial.com/weld-accelerating-numpy-scikit-and-pandas-as-much-as-100x-with-rust-and-llvm-12ec1c630a1).
+* [Declarative memory management](https://amos.me/blog/2019/declarative-memory-management/).
+* [Generic newtypes: A way to work around the orphan rule](https://blog.eizinger.io/8593/generic-newtypes-a-way-to-work-around-the-orphan-rule).
+* [Async builders](https://blog.yoshuawuyts.com/async-finalizers/).
+* [Adventures in motion control: top-level infrastructure](http://adventures.michaelfbryan.com/posts/top-level-infrastructure/).
+* [Build an NB-IoT GPS Tracker on STM32 L476 with Apache Mynewt and Embedded Rust](https://medium.com/@ly.lee/build-an-nb-iot-gps-tracker-on-stm32-l476-with-apache-mynewt-and-embedded-rust-8c095a925546).
+* [Navigating the Rust OSS community](https://yaah.dev/getting-involved).
 
 # Crate of the Week
 
@@ -37,9 +42,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Rustup needs your help (testing a new feature)](https://www.reddit.com/r/rust/comments/d5hbdu/rustup_needs_your_help_testing_a_new_feature/).
-* [Rustup needs your help (testing a new feature, part two)](https://www.reddit.com/r/rust/comments/d5kxr6/rustup_needs_your_help_testing_a_new_feature_part/).
-* [Notify: Looking for maintainers](https://github.com/notify-rs/notify/issues/209). Notify is a cross-platform filesystem notification library for Rust.
+*No issues were proposed for CfP*.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -75,7 +78,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2582: RFC for an operator to take a raw reference](https://github.com/rust-lang/rfcs/pull/2582).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -85,13 +88,21 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [`#[cfg(accessible(..) / version(..))]`](https://github.com/rust-lang/rfcs/pull/2523).
+* [disposition: postpone] [Existential types with external definition](https://github.com/rust-lang/rfcs/pull/2492).
+* [disposition: postpone] [Custom self types](https://github.com/rust-lang/rfcs/pull/2362).
 * [disposition: postpone] [Cargo versioning](https://github.com/rust-lang/rfcs/pull/2182).
+* [disposition: close] [Project-based Examples for Cargo Projects](https://github.com/rust-lang/rfcs/pull/2517).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize `str::len`, `[T]::len` and `str::as_bytes` as const fn](https://github.com/rust-lang/rust/pull/63770).
-* [disposition: merge] [Stabilize `param_attrs` in Rust 1.39.0](https://github.com/rust-lang/rust/pull/64010).
+* [disposition: merge] [Stabilize macros in some more positions](https://github.com/rust-lang/rust/pull/63931).
+* [disposition: merge] [Stabilize `Option::as_deref` and `Option::as_deref_mut`](https://github.com/rust-lang/rust/pull/64708).
+* [disposition: merge] [Stabilize mem::take (mem_take)](https://github.com/rust-lang/rust/pull/64716).
+* [disposition: merge] [Tracking issue for RFC 2008: Future-proofing enums/structs with #[non_exhaustive] attribute](https://github.com/rust-lang/rust/issues/44109).
+* [disposition: merge] [Support repr(simd) on ADTs containing a single array field](https://github.com/rust-lang/rust/pull/63531).
+* [disposition: merge] [syntax: Support modern attribute syntax in the `meta` matcher](https://github.com/rust-lang/rust/pull/63674).
+* [disposition: merge] [convert `\r\n` -> `\n` in include_str! macro](https://github.com/rust-lang/rust/pull/63681).
+* [disposition: close] [Regression: : cannot determine resolution for the attribute macro `test`](https://github.com/rust-lang/rust/issues/56375).
 * [disposition: close] [Expose Linux syscall interface](https://github.com/rust-lang/rust/pull/63745).
 
 ## New RFCs
@@ -100,47 +111,39 @@ decision. Express your opinions now.
 
 # Upcoming Events
 
-### Online
-
-* [Sep 25. Rust Community Team Meeting on Discord](https://discordapp.com/channels/442252698964721669/443773747350994945).
-
 ### Africa
 
 * [Oct  2. Johannesburg, ZA - Johannesburg Rust Meetup - futures (part 2)](https://www.meetup.com/Johannesburg-Rust-Meetup/events/dgqmbryznbdb/).
 
 ### Asia Pacific
 
-* [Sep 21. Chennai, IN - Rust Chennai - Monthly meetup](https://www.meetup.com/mad-rs/events/264945694).
-* [Sep 25. Hangzhou, CN - Rust in Blockchain Hangzhou - In Rust We Trust](https://www.meetup.com/Rust-in-Blockchain-Hangzhou/events/264778357/).
 * [Sep 28. Taipei, TW - Rust Taiwan Meetup](https://www.facebook.com/events/2110177005945081/).
+* [Oct  7. Auckland, NZ - Rust AKL - Introduction to Rust (session 2 of 3)](https://www.meetup.com/rust-akl/events/259481147/).
 
 ### Europe
 
-* [Sep 23. Oslo, NO - Rust Oslo - Hack & Learn](https://www.meetup.com/Rust-Oslo/events/264778400/).
-* [Sep 24. London, GB - Rust London User Group - LDN Talks September 2019](https://www.meetup.com/Rust-London-User-Group/events/264890481/).
-* [Sep 25. Milano, IT - Rust Language Milano - Virtual Filesystem with Rust](https://www.meetup.com/rust-language-milano/events/264311325).
-* [Sep 25. Copenhagen, DK - Copenhagen Rust Hack Night #18](https://cph.rs/).
 * [Sep 26. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/264748662).
 * [Sep 26. London, GB - Rust London User Group - Hack 'n Learn September 2019](https://www.meetup.com/it-IT/Rust-London-User-Group/events/264999149/).
 * [Oct  1. Göteborg, SE - Rust Gbg — Golden October Rust 2019](https://www.meetup.com/rustgbg/events/264957575/).
 * [Oct  2. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryznbdb/).
+* [Oct  2. Cologne, DE - Rust Cologne - Open Space](https://www.meetup.com/RustCologne/events/tnrnbryznbdb/).
 * [Oct  3. Toulouse, FR - Rust talks at DevFest Toulouse 2019](https://devfesttoulouse.fr/).
 * [Oct  4. Toulouse, FR - Toulouse Rust Meetup - Future<Output = Rust>](https://www.meetup.com/Toulouse-Rust-Meetup/events/264780064).
 * [Oct  4. Darmstadt, DE - Hacktoberfest for Rustaceans](https://www.meetup.com/Rust-Rhein-Main/events/265052778).
+* [Oct  5. Kharkiv, UA - PeerLab Kharkiv #Rust: AsyncIO](https://dou.ua/calendar/28904/).
+* [Oct 10. Helsinki, FI - Finland Rust-lang Group - October meetup](https://www.meetup.com/Finland-Rust-Meetup/events/265091401/).
+* [Oct 10. Warsaw, PL - Rust Warsaw - reboot](https://www.meetup.com/Rust-Warsaw/events/265091321/).
 
 ### North America
 
-* [Sep 20-21. Denver, CO, US - Colorado Gold Rust](https://www.cogoldrust.com/).
-* [Sep 23. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzmbfc/).
-* [Sep 24. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyzmbgc/).
-* [Sep 25. Chicago, IL, US - Chicago Rust Meetup - Wait, why does Rust have 4 string types](https://www.meetup.com/Chicago-Rust-Meetup/events/264559606).
-* [Sep 25. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscryzmbhc/).
-* [Sep 25. Mesa, AZ, US - Desert Rust - Rust: Web assembly](https://www.meetup.com/Desert-Rustaceans/events/wmmphryzmbhc/).
 * [Sep 26. New York, NY - Local Native: A Decentralized Cross-platform App Developed with Rust](https://www.meetup.com/Rust-NYC/events/264849068/).
 * [Oct  1. Toronto, ON, CA - Rust Toronto - Rust for the Web](https://www.meetup.com/Rust-Toronto/events/264727074/).
 * [Oct  2. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyznbdb/).
 * [Oct  2. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryznbdb/).
 * [Oct  2. Boston, MA, US - Boston Rust Meetup at VMware](https://www.meetup.com/BostonRust/events/264555065/).
+* [Oct  8. Detroit, MI, US - Detroit Rust - Diving into Rust web frameworks](https://www.meetup.com/detroitrust/events/265090754/).
+* [Oct  9. Atlanta, GA, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgryznbmb/).
+* [Oct 10. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgryznbnb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
