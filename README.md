@@ -26,7 +26,7 @@ Alternately use GitHub search:
 https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-11-03..2014-11-10
 ```
 
-## How I get new contributors:
+## How I get new contributors to Rust:
 
 Use the included `new_contribs.sh` script:
 
