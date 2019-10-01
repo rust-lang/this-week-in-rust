@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Rust Traits: Deep Dive](https://blog.knoldus.com/rust-traits-beyond-basics/)
 
 # Crate of the Week
 
