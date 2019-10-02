@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[gfx-rs 2019 update](https://gfx-rs.github.io/2019/10/01/update.html)
+
 # Crate of the Week
 
 This week's crate is [runtime](https://github.com/mun-lang/runtime), an experimental hot-reloading oriented runtime in Rust.
