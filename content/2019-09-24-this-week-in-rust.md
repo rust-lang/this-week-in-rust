@@ -27,7 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [runtime](https://github.com/mun-lang/runtime), an experimental hot-reloading oriented runtime in Rust.
+This week's crate is [mun_runtime](https://github.com/mun-lang/runtime), an experimental hot-reloading oriented runtime in Rust.
 
 Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/628) for the suggestion!
 
