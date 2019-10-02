@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Adventures in Motion Control: FPS Counter](http://adventures.michaelfbryan.com/posts/fps-counter/)
 [gfx-rs 2019 update](https://gfx-rs.github.io/2019/10/01/update.html)
 
 # Crate of the Week
