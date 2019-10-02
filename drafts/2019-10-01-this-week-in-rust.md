@@ -16,8 +16,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-- [Adventures in Motion Control: FPS Counter](http://adventures.michaelfbryan.com/posts/fps-counter/)
-[gfx-rs 2019 update](https://gfx-rs.github.io/2019/10/01/update.html)
+* 🎈🎉 [Announcing Rust 1.38.0](https://blog.rust-lang.org/2019/09/26/Rust-1.38.0.html). 🎉🎈
+* [Security advisory for Cargo](https://blog.rust-lang.org/2019/09/30/Security-advisory-for-cargo.html).
+* [Async-await hits beta](https://blog.rust-lang.org/2019/09/30/Async-await-hits-beta.html).
+* [Accurate mental model for Rust's reference types](https://docs.rs/dtolnay/0.0.6/dtolnay/macro._02__reference_types.html).
+* [Fighting the Async fragmentation](https://vorner.github.io/2019/09/29/figthting-the-async-fragmentation.html).
+* [Making a RISC-V Operating System using Rust](http://web.eecs.utk.edu/~smarz1/osblog/).
+* [Plugins in Rust](http://adventures.michaelfbryan.com/posts/plugins-in-rust/).
+* [Building the Azure IoT Edge Security Daemon in Rust](https://msrc-blog.microsoft.com/2019/09/30/building-the-azure-iot-edge-security-daemon-in-rust/).
+* [Adventures in motion control: FPS counter](http://adventures.michaelfbryan.com/posts/fps-counter/).
+* [Causal profiling Rust code](https://llogiq.github.io/2019/09/25/coz.html).
+* [gfx-rs 2019 update](https://gfx-rs.github.io/2019/10/01/update.html).
+* [Announcing Drone OS - an embedded operating system for writing real-time applications in Rust](https://www.reddit.com/r/rust/comments/d999qo/announcing_drone_os_010/).
 
 # Crate of the Week
 
@@ -36,7 +46,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-*No issues were proposed for CfP*.
+* [vector: Update `stdin` source to use a thread instead of using the tokio version](https://github.com/timberio/vector/issues/932). Vector is a high-performance observability data router.
+* [mundane: Build docs.rs documentation with all features enabled](https://github.com/google/mundane/issues/21). Mundane is a Rust cryptography library backed by BoringSSL.
+* [rustfm-scrobble: Issues for Hacktoberfest](https://github.com/bobbo/rustfm-scrobble/issues?q=is%3Aissue+is%3Aopen+label%3AHacktoberfest). rustfm-scrobble is a Last.fm scrobble API library in Rust.
+* [Tokamak is looking for maintainers](https://github.com/vertexclique/tokamak/issues/91). Tokamak is a Rust IDE for Atom.
+* [Bastion is looking for maintainers](https://github.com/bastion-rs/bastion/issues/32). Bastion is a fault-tolerant runtime for Rust applications
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -79,7 +93,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2523: `#[cfg(accessible(..) / version(..))]`](https://github.com/rust-lang/rfcs/pull/2523).
 
 ## Final Comment Period
 
@@ -89,64 +103,45 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: postpone] [Existential types with external definition](https://github.com/rust-lang/rfcs/pull/2492).
-* [disposition: postpone] [Custom self types](https://github.com/rust-lang/rfcs/pull/2362).
-* [disposition: postpone] [Cargo versioning](https://github.com/rust-lang/rfcs/pull/2182).
+* [disposition: merge] [Minimum supported Rust version](https://github.com/rust-lang/rfcs/pull/2495).
 * [disposition: close] [Project-based Examples for Cargo Projects](https://github.com/rust-lang/rfcs/pull/2517).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize macros in some more positions](https://github.com/rust-lang/rust/pull/63931).
+* [disposition: merge] [Tracking issue for RFC 2008: Future-proofing enums/structs with #[non_exhaustive] attribute](https://github.com/rust-lang/rust/issues/44109).
 * [disposition: merge] [Stabilize `Option::as_deref` and `Option::as_deref_mut`](https://github.com/rust-lang/rust/pull/64708).
 * [disposition: merge] [Stabilize mem::take (mem_take)](https://github.com/rust-lang/rust/pull/64716).
-* [disposition: merge] [Tracking issue for RFC 2008: Future-proofing enums/structs with #[non_exhaustive] attribute](https://github.com/rust-lang/rust/issues/44109).
-* [disposition: merge] [Support repr(simd) on ADTs containing a single array field](https://github.com/rust-lang/rust/pull/63531).
-* [disposition: merge] [syntax: Support modern attribute syntax in the `meta` matcher](https://github.com/rust-lang/rust/pull/63674).
-* [disposition: merge] [convert `\r\n` -> `\n` in include_str! macro](https://github.com/rust-lang/rust/pull/63681).
-* [disposition: close] [Regression: : cannot determine resolution for the attribute macro `test`](https://github.com/rust-lang/rust/issues/56375).
-* [disposition: close] [Expose Linux syscall interface](https://github.com/rust-lang/rust/pull/63745).
+* [disposition: merge] [Stabilize `slice::repeat` (feature `repeat_generic_slice`)](https://github.com/rust-lang/rust/pull/64877).
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [RFC 1201 ammendments: Naked function corrections](https://github.com/rust-lang/rfcs/pull/2774).
 
 # Upcoming Events
 
-### Africa
-
-* [Oct  2. Johannesburg, ZA - Johannesburg Rust Meetup - futures (part 2)](https://www.meetup.com/Johannesburg-Rust-Meetup/events/dgqmbryznbdb/).
-
 ### Asia Pacific
 
-* [Sep 28. Taipei, TW - Rust Taiwan Meetup](https://www.facebook.com/events/2110177005945081/).
 * [Oct  7. Auckland, NZ - Rust AKL - Introduction to Rust (session 2 of 3)](https://www.meetup.com/rust-akl/events/259481147/).
 
 ### Europe
 
-* [Sep 26. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/264748662).
-* [Sep 26. London, GB - Rust London User Group - Hack 'n Learn September 2019](https://www.meetup.com/it-IT/Rust-London-User-Group/events/264999149/).
-* [Oct  1. Göteborg, SE - Rust Gbg — Golden October Rust 2019](https://www.meetup.com/rustgbg/events/264957575/).
-* [Oct  2. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryznbdb/).
-* [Oct  2. Cologne, DE - Rust Cologne - Open Space](https://www.meetup.com/RustCologne/events/tnrnbryznbdb/).
-* [Oct  3. Toulouse, FR - Rust talks at DevFest Toulouse 2019](https://devfesttoulouse.fr/).
 * [Oct  4. Toulouse, FR - Toulouse Rust Meetup - Future<Output = Rust>](https://www.meetup.com/Toulouse-Rust-Meetup/events/264780064).
 * [Oct  4. Darmstadt, DE - Hacktoberfest for Rustaceans](https://www.meetup.com/Rust-Rhein-Main/events/265052778).
 * [Oct  5. Kharkiv, UA - PeerLab Kharkiv #Rust: AsyncIO](https://dou.ua/calendar/28904/).
 * [Oct  9. Zagreb, HR - impl Zagreb for Rust: Rust, FFmpeg i TensorFlow](https://www.meetup.com/Zagreb-Rust-Meetup/events/265307360/).
 * [Oct 10. Helsinki, FI - Finland Rust-lang Group - October meetup](https://www.meetup.com/Finland-Rust-Meetup/events/265091401/).
 * [Oct 10. Warsaw, PL - Rust Warsaw - reboot](https://www.meetup.com/Rust-Warsaw/events/265091321/).
+* [Oct 16. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryznbvb/).
 
 ### North America
 
-* [Sep 26. New York, NY - Local Native: A Decentralized Cross-platform App Developed with Rust](https://www.meetup.com/Rust-NYC/events/264849068/).
-* [Oct  1. Toronto, ON, CA - Rust Toronto - Rust for the Web](https://www.meetup.com/Rust-Toronto/events/264727074/).
-* [Oct  2. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyznbdb/).
-* [Oct  2. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryznbdb/).
-* [Oct  2. Boston, MA, US - Boston Rust Meetup at VMware](https://www.meetup.com/BostonRust/events/264555065/).
 * [Oct  5. Cleveland, OH, US - Cleveland RustBridge](https://coffee.dev/rustbridge).
 * [Oct  8. Detroit, MI, US - Detroit Rust - Diving into Rust web frameworks](https://www.meetup.com/detroitrust/events/265090754/).
 * [Oct  9. Atlanta, GA, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgryznbmb/).
 * [Oct 10. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgryznbnb/).
+* [Oct 10. Arlington, VA, US - Rust DC — Mid-month Rustful](https://www.meetup.com/RustDC/events/264768938).
+* [Oct 16. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryznbvb/).
+* [Oct 18 & 19. Dayton, OH, US - Rust Belt Rust](https://www.rust-belt-rust.com/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -157,12 +152,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [2D Graphics Programmer at Dungeonfog, Vienna, AT (Remote available)](https://www.dungeonfog.com/about/job-offers/).
-* [Principal Software Engineer at Microsoft, Redmond, WA, US](https://twitter.com/ryan_levick/status/1171830191804551168).
-* [Multiple Rust positions at Parity, Berlin, DE (Remote available)](https://www.parity.io/jobs/).
-* [Software Engineer at 3DSignals, Kfar Saba, IL](https://3dsig.com/positions/software-engineer/).
-* [Senior Engineer at Ditto at San Francisco, US (Remote available)](https://twitter.com/Adam_Fish/status/1173672751271268352).
-* [Multiple Rust jobs at Matter Labs (Berlin, Kiev, remote](https://medium.com/matter-labs/software-engineering-jobs-at-matter-labs-c456d01b2a02)
+* [Official /r/rust "Who's Hiring" thread for job-seekers and job-offerers [Rust 1.38]](https://www.reddit.com/r/rust/comments/d9l79d/official_rrust_whos_hiring_thread_for_jobseekers/).
+* [Software engineer (New grad) at Embark Studios, Stockholm, SE](https://www.embark-studios.com/jobs/278026-software-engineer-new-grad).
+* [Multiple Rust jobs at Matter Labs (Berlin, Kiev, remote](https://medium.com/matter-labs/software-engineering-jobs-at-matter-labs-c456d01b2a02).
+* [Rust internship at Tsuru Capital, Tokyo, JP](https://www.reddit.com/r/rust/comments/db7910/job_rust_internship_in_japan/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
