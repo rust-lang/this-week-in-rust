@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Adventures in Motion Control: The Communications System Part 1](http://adventures.michaelfbryan.com/posts/comms-part-1/)
+
 # Crate of the Week
 
 This week's crate is [pin-project](https://crates.io/crates/pin-project), a proc-macro-derive for ergonomic and safe `Pin` projections.
