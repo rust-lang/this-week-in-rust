@@ -154,7 +154,7 @@ Email the [Rust Community Team][community] for access.
 
 * [Official /r/rust "Who's Hiring" thread for job-seekers and job-offerers [Rust 1.38]](https://www.reddit.com/r/rust/comments/d9l79d/official_rrust_whos_hiring_thread_for_jobseekers/).
 * [Software engineer (New grad) at Embark Studios, Stockholm, SE](https://www.embark-studios.com/jobs/278026-software-engineer-new-grad).
-* [Multiple Rust jobs at Matter Labs (Berlin, Kiev, remote](https://medium.com/matter-labs/software-engineering-jobs-at-matter-labs-c456d01b2a02).
+* [Multiple Rust jobs at Matter Labs (Berlin, Kiev, remote)](https://medium.com/matter-labs/software-engineering-jobs-at-matter-labs-c456d01b2a02).
 * [Rust internship at Tsuru Capital, Tokyo, JP](https://www.reddit.com/r/rust/comments/db7910/job_rust_internship_in_japan/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
