@@ -102,7 +102,7 @@ decision. Express your opinions now.
 
 ## New RFCs
 
-* [RFC 1201 ammendments: Naked function corrections](https://github.com/rust-lang/rfcs/pull/2774).
+* [RFC 2777: Scope prints in diagnostics](https://github.com/rust-lang/rfcs/pull/2777).
 
 # Upcoming Events
 
