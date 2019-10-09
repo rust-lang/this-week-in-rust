@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Coding nRF52 with Rust and Apache Mynewt on Visual Studio Code](https://medium.com/@ly.lee/coding-nrf52-with-rust-and-apache-mynewt-on-visual-studio-code-9521bcba6004?source=friends_link&sk=bb4e2523b922d0870259ab3fa696c7da).
 - [Adventures in Motion Control: The Communications System Part 1](http://adventures.michaelfbryan.com/posts/comms-part-1/)
 
 # Crate of the Week
