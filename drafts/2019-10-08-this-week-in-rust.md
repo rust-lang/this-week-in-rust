@@ -21,9 +21,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [pin-project](https://crates.io/crates/pin-project), a proc-macro-derive for ergonomic and safe `Pin` projections.
+This week's crate is [algebraics](https://crates.io/crates/algebraics), a pure-Rust algebraic numbers library for infinite-precision computation.
 
-Thanks to [Krishna Sannasi](https://users.rust-lang.org/t/crate-of-the-week/2704/636) for the suggestion!
+Thanks to [Jacob Lifshay](https://users.rust-lang.org/t/crate-of-the-week/2704/629) and [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/639) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -48,34 +48,50 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-278 pull requests were [merged in the last week][merged]
+338 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-09-23..2019-09-30
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-09-30..2019-10-07
 
-* [Rest In Peace, AST borrowck (2012-2019)](https://github.com/rust-lang/rust/pull/64790)
-* [Fix double panic when printing query stack during an ICE](https://github.com/rust-lang/rust/pull/64799)
-* [or-patterns: Push `PatKind/PatternKind::Or` at top level to HIR & HAIR](https://github.com/rust-lang/rust/pull/64508)
-* [Fix format macro expansions spans to be macro-generated](https://github.com/rust-lang/rust/pull/64793)
-* [Remove blanket silencing of "type annotation needed" errors](https://github.com/rust-lang/rust/pull/64746)
-* [Include message on tests that should panic but do not](https://github.com/rust-lang/rust/pull/64745)
-* [Point at definition when misusing ADT](https://github.com/rust-lang/rust/pull/64691)
-* [Account for tail expressions when pointing at return type](https://github.com/rust-lang/rust/pull/64802)
-* [On obligation errors point at the unfulfilled binding when possible](https://github.com/rust-lang/rust/pull/64151)
-* [Fix coherence checking for impl trait in type aliases](https://github.com/rust-lang/rust/pull/63934)
-* [Propagate `types.err` in locals further to avoid spurious knock-down errors](https://github.com/rust-lang/rust/pull/64674)
-* [check_match: Improve diagnostics for `let A = 2;` with `const A: i32 = 3`](https://github.com/rust-lang/rust/pull/64859)
-* [Point at enclosing match when expecting `()` in arm](https://github.com/rust-lang/rust/pull/64825)
-* [Add a cycle detector for generic `Graph`s and `mir::Body`s](https://github.com/rust-lang/rust/pull/64622)
-* [Add const-eval support for SIMD types, insert, and extract](https://github.com/rust-lang/rust/pull/64738)
-* [Implement dataflow-based const validation](https://github.com/rust-lang/rust/pull/64470)
-* [Optimize `try_eval_bits` to avoid layout queries](https://github.com/rust-lang/rust/pull/64673)
-* [Even more `ObligationForest` improvements](https://github.com/rust-lang/rust/pull/64627)
-* [A more explanatory thread local storage panic message](https://github.com/rust-lang/rust/pull/64481)
-* [Stabilize `str::len`, `[T]::len` and `str::as_bytes` as const fn](https://github.com/rust-lang/rust/pull/63770)
-* [Reserve `impl<T> From<!> for T`](https://github.com/rust-lang/rust/pull/62661)
-* [Remove manual unrolling from `slice::Iter`(`Mut`)`::try_fold`](https://github.com/rust-lang/rust/pull/64600)
-* [compiler-builtins: Implement bcmp](https://github.com/rust-lang/compiler-builtins/pull/315)
-* [cargo: Improve test output with `--quiet`](https://github.com/rust-lang/cargo/pull/7446)
+* [Only add sanitizer runtimes when linking an executable](https://github.com/rust-lang/rust/pull/64780)
+* [LLVM/wasm: Fix conflict between ret legalization and sjlj](https://github.com/rust-lang/llvm-project/pull/25)
+* [LLVM/wasm: Restore defaults for stores per memop](https://github.com/rust-lang/llvm-project/pull/24)
+* [When encountering chained operators use heuristics to recover from bad turbofish](https://github.com/rust-lang/rust/pull/64909)
+* [Make visit projection iterative](https://github.com/rust-lang/rust/pull/65056)
+* [Make re-export collection deterministic](https://github.com/rust-lang/rust/pull/65043)
+* [Deduplicate closure type errors](https://github.com/rust-lang/rust/pull/64937)
+* [Suggest fix for type mismatch based on operator precendence](https://github.com/rust-lang/rust/pull/64933)
+* [syntax: improve parameter without type suggestions](https://github.com/rust-lang/rust/pull/64959)
+* [Polonius: use the fx hasher when interning](https://github.com/rust-lang/polonius/pull/131)
+* [extract expected return type for async fn generators](https://github.com/rust-lang/rust/pull/64999)
+* [async/await: improve not-send errors](https://github.com/rust-lang/rust/pull/64895)
+* [const-prop: Fix ICE when trying to eval polymorphic promoted MIR](https://github.com/rust-lang/rust/pull/65066)
+* [const-prop: Correctly handle locals that can't be propagated](https://github.com/rust-lang/rust/pull/64991)
+* [Still more `ObligationForest` improvements](https://github.com/rust-lang/rust/pull/64805)
+* [Avoid `chain()` in `find_constraint_paths_between_regions()`](https://github.com/rust-lang/rust/pull/64801)
+* [Optimize integral pattern matching](https://github.com/rust-lang/rust/pull/65089)
+* [proc_macro API: Expose `macro_rules` hygiene](https://github.com/rust-lang/rust/pull/64690)
+* [Deprecate `#![plugin]` & `#[plugin_registrar]`](https://github.com/rust-lang/rust/pull/64675)
+* [metadata: Some crate loading cleanup](https://github.com/rust-lang/rust/pull/65026)
+* [Do not ICE when dereferencing non-Copy raw pointer](https://github.com/rust-lang/rust/pull/65011)
+* [Fix zebra-striping in generic dataflow visualization](https://github.com/rust-lang/rust/pull/64974)
+* [Don't mark borrows of zero-sized arrays as indirectly mutable](https://github.com/rust-lang/rust/pull/64967)
+* [Deny specializing items not in the parent impl](https://github.com/rust-lang/rust/pull/64564)
+* [Add feature gate for raw_dylib](https://github.com/rust-lang/rust/pull/63948)
+* [Stabilize macros in some more positions](https://github.com/rust-lang/rust/pull/63931)
+* [syntax: Support modern attribute syntax in the `meta` matcher](https://github.com/rust-lang/rust/pull/63674)
+* [Use `PlaceBuilder` to avoid a lot of slice → vec → slice convertions](https://github.com/rust-lang/rust/pull/64922)
+* [use `try_fold` instead of `try_for_each` to reduce compile time](https://github.com/rust-lang/rust/pull/64885)
+* [Stabilize `UdpSocket::peer_addr`](https://github.com/rust-lang/rust/pull/64728)
+* [Stabilize `Option::as_deref` and `Option::as_deref_mut`](https://github.com/rust-lang/rust/pull/64708)
+* [Stabilize `todo!(..)` macro](https://github.com/rust-lang/rust/pull/61879)
+* [hashbrown: Add `RustcVacantEntry::insert_entry`](https://github.com/rust-lang/hashbrown/pull/118)
+* [`BTreeSet` `intersection`, `is_subset` & `difference` optimizations](https://github.com/rust-lang/rust/pull/64820)
+* [Implement `Clone::clone_from` for `LinkedList`](https://github.com/rust-lang/rust/pull/64975)
+* [Inline {`min`,`max`}`_value` even in debug builds](https://github.com/rust-lang/rust/pull/64941)
+* [cargo: Support for named profiles](https://github.com/rust-lang/cargo/pull/6989) (RFC 2678)
+* [cargo: Disable preserving mtimes on archives](https://github.com/rust-lang/cargo/pull/7465)
+* [rustup: Cleaned up error messages](https://github.com/rust-lang/rustup.rs/pull/2035)
+* [rustbuild: Make all alt builders produce parallel-enabled compilers](https://github.com/rust-lang/rust/pull/64722)
 
 ## Approved RFCs
 
@@ -152,7 +168,9 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-Sadly, there were no nominations this week.
+> "Rust compilation is so slow that I can fix the bugs while it still compiles the crates"
+
+– [Rustafarian on rust-users](https://users.rust-lang.org/t/twir-quote-of-the-week/328/705)
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
