@@ -11,6 +11,7 @@
        margin: 0;
        padding: 0;
        color: #444444;
+       font-size: 16px;
      }
 
      .container{
@@ -30,7 +31,7 @@
      td .row-header-01 {
        padding-top: 6px;
        padding-bottom: 6px;
-       font-size: 12px;
+       font-size: 0.75em;
        text-align: center;
        color: #444444;
      }
@@ -62,13 +63,13 @@
 
      .wrapper-header-01{
        line-height:27px;
-       font-size:23px;
+       font-size: 1.4em;
        font-weight:bold;
        color:#444444
      }
 
      .wrapper-header-02{
-       font-size:16px;
+       font-size: 1em;
        line-height:36px;
        font-weight:normal;
        color:#444444;
@@ -107,13 +108,13 @@
      p {
        margin: 0px !important;
        margin-bottom: 15px !important;
-       font-size: 16px !important;
+       font-size: 1em !important;
        color: #444444;
        line-height: 24px;
      }
 
      li {
-       font-size: 16px !important;
+       font-size: 1em !important;
      }
 
      a, a:visited {
@@ -131,14 +132,14 @@
      }
 
      h1, h2 {
-       font-size: 19px;
+       font-size: 1.2em;
        color: #444444;
        margin: 10px 0px;
        font-weight: bold;
      }
 
      h1 {
-       font-size: 24px;
+       font-size: 1.5em;
        margin: 16px 0px;
      }
 
@@ -171,13 +172,47 @@
        color: #828282;
        border-left: 4px solid #E8E8E8;
        padding-left: 15px;
-       font-size: 18px;
+       font-size: 1.2em;
        font-style: italic;
      }
 
      blockquote p {
        white-space: pre-line;
      }
+
+    @media only screen and (max-width: 1020px) {
+      body {
+        font-size: 34px !important;
+      }
+
+      p {
+        line-height: normal;
+      }
+
+      table .row-container {
+        width: 100% !important;
+      }
+
+      table .row {
+        width: 100% !important;
+      }
+
+      table .wrapper-container-01 {
+        width: 60%
+      }
+
+      table .wrapper-container-02 {
+        width: 40%;
+      }
+
+      .wrapper-image {
+        width: 50px;
+      }
+
+      .wrapper-header-02 {
+        font-size: 0.8em;
+      }
+    }
     </style>
   </head>
 
