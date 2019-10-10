@@ -53,8 +53,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Hacktoberfest issues from EmbarkStudios](https://github.com/search?q=user:EmbarkStudios+label:hacktoberfest+state:open).
 * [rustc: Deprecation warning emitted from derive without a span](https://github.com/rust-lang/rust/issues/56195).
 * [async-std: Add `task::yield_now`](https://github.com/async-rs/async-std/issues/290).
-* [Add `sync::CondVar`](https://github.com/async-rs/async-std/issues/217).
-* [Add `path::{Path,PathBuf}`](https://github.com/async-rs/async-std/issues/183).
+* [async-std: Add `sync::CondVar`](https://github.com/async-rs/async-std/issues/217).
+* [async-std: Add `path::{Path,PathBuf}`](https://github.com/async-rs/async-std/issues/183).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -162,7 +162,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Senior Blockchain Engineer at Nervos, Hangzhou, China; Remote](https://angel.co/company/nervos-1/jobs/589230-senior-blockchain-engineer)
+* [Senior Blockchain Engineer at Nervos, Hangzhou, CN (Remote available)](https://angel.co/company/nervos-1/jobs/589230-senior-blockchain-engineer).
 * [Rust/Core Developer at Parity, Berlin, DE (Remote available)](https://www.parity.io/jobs/#berlin-rust-core-developer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
