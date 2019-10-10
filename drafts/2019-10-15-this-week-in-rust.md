@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Adventures in motion control: The communications system part 2](http://adventures.michaelfbryan.com/posts/comms-part-2/)
 
 # Crate of the Week
 
