@@ -15,7 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-
+- [Get Your Hands Wet with Traits Object of Rust](https://blog.knoldus.com/get-your-hands-wet-with-traits-object-of-rust/) 
 
 # Crate of the Week
 
