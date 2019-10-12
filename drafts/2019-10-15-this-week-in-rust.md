@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Vulnerability in sodiumoxide: generichash::Digest::eq always return true](https://www.reddit.com/r/rust/comments/dguqt3/vulnerability_in_sodiumoxide_generichashdigesteq/)
+
 
 # Crate of the Week
 
