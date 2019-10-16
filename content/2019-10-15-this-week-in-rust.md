@@ -81,7 +81,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [Stabilize `mem::take`](https://github.com/rust-lang/rust/pull/64716)
 * [Implement (`HashMap`) `Entry::insert`](https://github.com/rust-lang/rust/pull/64656)
 * [improve performance of signed `saturating_mul`](https://github.com/rust-lang/rust/pull/65312)
-* [dist: minimize the `rust-std` component](https://github.com/rust-lang/rust/pull/64823)
 
 ## Approved RFCs
 
