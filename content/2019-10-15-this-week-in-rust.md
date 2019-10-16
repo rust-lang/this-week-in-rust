@@ -129,6 +129,7 @@ decision. Express your opinions now.
 * [Oct 24. Vienna, AT - Rust Vienna - Rust Townsquare Gathering Oktober](https://www.meetup.com/Rust-Vienna/events/265535638/).
 * [Oct 28. Zurich, CH - Rust Zurich - October Meetup: Claudia Saxer – 66 hours of Rust](https://www.meetup.com/Rust-Zurich/events/265507413/).
 * [Oct 28. Gouda, NL - Rust Nederland - Rust - Talks & Demos](https://www.meetup.com/Rust-Nederland/events/265656966).
+* [Oct 28. London, GB - Rust London User Group - LDN Talks October 2019](https://www.meetup.com/Rust-London-User-Group/events/265590044/).
 * [Oct 30. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryznbnc/).
 
 ### North America
