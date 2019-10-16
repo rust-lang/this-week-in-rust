@@ -16,12 +16,22 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-- [Vulnerability in sodiumoxide: generichash::Digest::eq always return true](https://www.reddit.com/r/rust/comments/dguqt3/vulnerability_in_sodiumoxide_generichashdigesteq/)
-- [Adventures in motion control: The communications system part 2](http://adventures.michaelfbryan.com/posts/comms-part-2/)
+* [Making the Tokio scheduler 10x faster](https://tokio.rs/blog/2019-10-scheduler/).
+* [How to speed up the Rust compiler some more in 2019](https://blog.mozilla.org/nnethercote/2019/10/11/how-to-speed-up-the-rust-compiler-some-more-in-2019/).
+* [The node experiment - exploring async basics with Rust](https://cfsamson.github.io/book-exploring-async-basics/).
+* [Debugging Rust code in CLion](https://blog.jetbrains.com/clion/2019/10/debugging-rust-code-in-clion/).
+* [My favorite rust function `std::mem::drop`](https://blog.jabid.in/2019/10/11/drop.html).
+* [Vulnerability in sodiumoxide: generichash::Digest::eq always return true](https://www.reddit.com/r/rust/comments/dguqt3/vulnerability_in_sodiumoxide_generichashdigesteq/).
+* [RISC-V OS using Rust: Communications](http://osblog.stephenmarz.com/ch2.html).
+* [Migrating a crate from futures 0.1 to 0.3](https://www.ncameron.org/blog/migrating-a-crate-from-futures-0-1-to-0-3/).
+* [Adventures in motion control: The communications system part 2](http://adventures.michaelfbryan.com/posts/comms-part-2/).
+* [Announcing Rustup 1.20.0](https://blog.rust-lang.org/2019/10/15/Rustup-1.20.0.html).
+* [New VxWorks release supports Rust](https://www.windriver.com/news/press/pr.html?ID=22444).
+* [AWS’ sponsorship of the Rust Project](https://aws.amazon.com/blogs/opensource/aws-sponsorship-of-the-rust-project/).
 
 # Crate of the Week
 
-This week, we don't have one, nor two, but *three* crates of the week! There's [Watt](https://github.com/dtolnay/watt), a fast WASM-based proc-macro runtime, [Anyhow](https://github.com/dtolnay/anyhow), yet another error handling crate and [spotify-tui](https://github.com/Rigellute/spotify-tui), a console user interface for spotify.
+This week, we don't have one, nor two, but *three* crates of the week! There's [Watt](https://github.com/dtolnay/watt), a fast WASM-based proc-macro runtime, [Anyhow](https://github.com/dtolnay/anyhow), yet another error handling crate and [spotify-tui](https://github.com/Rigellute/spotify-tui), a console user interface for Spotify.
 
 Thanks to [Aloso](https://users.rust-lang.org/t/crate-of-the-week/2704/649), [zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/645) and [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/644) for the suggestion!
 
@@ -36,11 +46,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Hacktoberfest issues from EmbarkStudios](https://github.com/search?q=user:EmbarkStudios+label:hacktoberfest+state:open).
-* [rustc: Deprecation warning emitted from derive without a span](https://github.com/rust-lang/rust/issues/56195).
-* [async-std: Add `task::yield_now`](https://github.com/async-rs/async-std/issues/290).
-* [async-std: Add `sync::CondVar`](https://github.com/async-rs/async-std/issues/217).
-* [async-std: Add `path::{Path,PathBuf}`](https://github.com/async-rs/async-std/issues/183).
+* [good first issue] [async-std: Add Stream::throttle](https://github.com/async-rs/async-std/issues/342).
+* [good first issue] [async-std: Add Stream::timeout](https://github.com/async-rs/async-std/issues/340).
+* [good first issue] [async-std: Add Future::delay](https://github.com/async-rs/async-std/issues/341).
+* [async-std: [tracking] streams](https://github.com/async-rs/async-std/issues/129).
+* [good first issue] [tracing: core: add `dispatcher::set_default`](https://github.com/tokio-rs/tracing/issues/383).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -79,7 +89,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2495: Minimum Supported Rust Version](https://github.com/rust-lang/rfcs/pull/2495).
 
 ## Final Comment Period
 
@@ -89,39 +99,49 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: postpone] [Tighter coupling of Cargo workspaces](https://github.com/rust-lang/rfcs/pull/2315).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize proc macros generating `macro_rules` items](https://github.com/rust-lang/rust/pull/64035).
-* [disposition: merge] [Stabilize `slice::repeat` (feature `repeat_generic_slice`)](https://github.com/rust-lang/rust/pull/64877).
+* [disposition: merge] [Stabilize RFC 2451, re-rebalance coherence](https://github.com/rust-lang/rust/issues/63599).
+* [disposition: merge] [make is_power_of_two a const function](https://github.com/rust-lang/rust/pull/65092).
 
 ## New RFCs
 
-* [Variadic tuples](https://github.com/rust-lang/rfcs/pull/2775).
-* [Scope prints in diagnostics](https://github.com/rust-lang/rfcs/pull/2777).
-* [Initial cargo-plugin-fields](https://github.com/rust-lang/rfcs/pull/2776).
+* [Unified coroutines a.k.a. Generator resume arguments](https://github.com/rust-lang/rfcs/pull/2781).
+* [impl-only glob imports](https://github.com/rust-lang/rfcs/pull/2782).
 
 # Upcoming Events
 
+### Asia Pacific
+
+* [Oct 19. Chennai, IN - Rust Chennai - Monthly meetup](https://www.meetup.com/mad-rs/events/265677784).
+* [Oct 26. Tokyo, JP - Rust.Tokyo 2019](https://rust.tokyo/).
+* [Oct 26. Taipei, TW - Rust Taiwan Meetup](https://www.facebook.com/events/495062051340992/).
+
 ### Europe
 
-* [Oct 16. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryznbvb/).
-* [Oct 17. Barcelona, ES - BcnRust Meetup](https://www.meetup.com/es-ES/BcnRust/events/265509739/)
+* [Oct 17. Barcelona, ES - BcnRust Meetup](https://www.meetup.com/es-ES/BcnRust/events/265509739/).
 * [Oct 18. Stuttgart, DE - Rust Meetup Hack and Learn](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/265526369/).
-* [Oct 19.-23. Rome, IT - Rust+GNOME 2019 Hackfest #6](https://wiki.gnome.org/Hackfests/Rust2019-2#preview).
+* [Oct 19-23. Rome, IT - Rust+GNOME 2019 Hackfest #6](https://wiki.gnome.org/Hackfests/Rust2019-2#preview).
 * [Oct 23. Stockholm, SE - Stockholm Rust - Rust Meetup @Embark Studios](https://www.meetup.com/Stockholm-Rust/events/265322700/).
 * [Oct 24. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/265207841).
 * [Oct 24. Vienna, AT - Rust Vienna - Rust Townsquare Gathering Oktober](https://www.meetup.com/Rust-Vienna/events/265535638/).
-
+* [Oct 28. Zurich, CH - Rust Zurich - October Meetup: Claudia Saxer – 66 hours of Rust](https://www.meetup.com/Rust-Zurich/events/265507413/).
+* [Oct 28. Gouda, NL - Rust Nederland - Rust - Talks & Demos](https://www.meetup.com/Rust-Nederland/events/265656966).
+* [Oct 30. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryznbnc/).
 
 ### North America
 
-* [Oct 16. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryznbvb/).
-* [Oct 16. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscryznbfc/).
 * [Oct 18 & 19. Dayton, OH, US - Rust Belt Rust](https://www.rust-belt-rust.com/).
 * [Oct 23. Portland, OR, US - PDXRust - Hack Night](https://www.meetup.com/PDXRust/events/265043014/).
-* [Oct 30. San Francisco, US - Rust in Blockchain Workshop Day (SFBW)](https://www.meetup.com/Rust-in-Blockchain-San-Francisco/events/265362152/)
+* [Oct 23. Mesa, AZ, US - Desert Rust - Rust: lightning talks](https://www.meetup.com/Desert-Rustaceans/events/wmmphryznbfc/).
+* [Oct 28. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyznblc/).
+* [Oct 29. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyznbmc/).
+* [Oct 29. Chicago, IL, US - Chicago Rust Meetup - Entity Component Systems: An Intro To The Specs Crate Using Roguelikes](https://www.meetup.com/Chicago-Rust-Meetup/events/265283294).
+* [Oct 30. San Francisco, CA, US - Rust in Blockchain Workshop Day (SFBW)](https://www.meetup.com/Rust-in-Blockchain-San-Francisco/events/265362152/)
+* [Oct 30. Santa Clara, CA, US - Rust Bay Area - [@ Intel Santa Clara] Security with Rust & SGX + Life of an Async fn](https://www.meetup.com/Rust-Bay-Area/events/265478102).
+* [Oct 30. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryznbnc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
