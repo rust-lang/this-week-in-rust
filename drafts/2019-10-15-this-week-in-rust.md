@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Vulnerability in sodiumoxide: generichash::Digest::eq always return true](https://www.reddit.com/r/rust/comments/dguqt3/vulnerability_in_sodiumoxide_generichashdigesteq/)
 - [Adventures in motion control: The communications system part 2](http://adventures.michaelfbryan.com/posts/comms-part-2/)
 
 # Crate of the Week
