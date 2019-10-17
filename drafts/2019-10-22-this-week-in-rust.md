@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [An intern's experience with Rust](https://msrc-blog.microsoft.com/2019/10/16/an-interns-experience-with-rust/)
 
 # Crate of the Week
 
