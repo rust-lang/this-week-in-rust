@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Programming Servo: shipping message-ports(via a detour into Spectre)](https://medium.com/programming-servo/programming-servo-shipping-message-ports-via-a-detour-into-spectre-c96683ac0b8).
+
 # Crate of the Week
 
 This week, we don't have one, nor two, but *three* crates of the week! There's [Watt](https://github.com/dtolnay/watt), a fast WASM-based proc-macro runtime, [Anyhow](https://github.com/dtolnay/anyhow), yet another error handling crate and [spotify-tui](https://github.com/Rigellute/spotify-tui), a console user interface for Spotify.
