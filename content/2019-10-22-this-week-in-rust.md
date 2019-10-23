@@ -22,10 +22,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Update on const generics progress](https://github.com/rust-lang/rust/issues/44580#issuecomment-544155666).
 * [Asynchronous destructors](https://boats.gitlab.io/blog/post/poll-drop/).
 * [A tiny, static, full-text search engine using Rust and WebAssembly](https://endler.dev/2019/tinysearch/).
-* [MicroRust: Discover the world of microcontrollers through Rust on the BBC micro:bit](https://droogmic.github.io/microrust/).
+* [MicroRust: discover the world of microcontrollers through Rust on the BBC micro:bit](https://droogmic.github.io/microrust/).
 * [Dealing with process termination in Linux](https://iximiuz.com/en/posts/dealing-with-processes-termination-in-Linux/).
 * [The embedded WG's operating system tutorials rewrite added support for the Raspberry Pi 4](https://github.com/rust-embedded/rust-raspi3-OS-tutorials/tree/rewrite_for_v2).
-* [Adventures in motion control: Simple Automation Sequences](http://adventures.michaelfbryan.com/posts/simple-automation-sequences/)
+* [Adventures in motion control: simple automation sequences](http://adventures.michaelfbryan.com/posts/simple-automation-sequences/)
 * [Programming Servo: shipping message-ports(via a detour into Spectre)](https://medium.com/programming-servo/programming-servo-shipping-message-ports-via-a-detour-into-spectre-c96683ac0b8).
 * [Rotary encoders in embedded Rust](https://leshow.github.io/post/rotary_encoder_hal/).
 
@@ -33,7 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 This week's crate is [grubbnet](https://github.com/dooskington/grubbnet), a TCP client/server library for networked applications and games.
 
-Thanks to [Dooskington](https://users.rust-lang.org/t/crate-of-the-week/2704/649), [zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/650) for the suggestion!
+Thanks to [Dooskington](https://users.rust-lang.org/t/crate-of-the-week/2704/650) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
