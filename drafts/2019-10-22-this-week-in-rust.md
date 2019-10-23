@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Programming Servo: shipping message-ports(via a detour into Spectre)](https://medium.com/programming-servo/programming-servo-shipping-message-ports-via-a-detour-into-spectre-c96683ac0b8).
 * [The embedded WG's Operating System Tutorials rewrite added support for the Raspberry Pi 4](https://github.com/rust-embedded/rust-raspi3-OS-tutorials/tree/rewrite_for_v2).
 - [Adventures in motion control: Simple Automation Sequences](http://adventures.michaelfbryan.com/posts/simple-automation-sequences/)
 
