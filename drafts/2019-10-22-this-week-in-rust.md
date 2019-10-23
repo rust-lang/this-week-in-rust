@@ -17,12 +17,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Programming Servo: shipping message-ports(via a detour into Spectre)](https://medium.com/programming-servo/programming-servo-shipping-message-ports-via-a-detour-into-spectre-c96683ac0b8).
+* [The embedded WG's Operating System Tutorials rewrite added support for the Raspberry Pi 4](https://github.com/rust-embedded/rust-raspi3-OS-tutorials/tree/rewrite_for_v2).
+- [Adventures in motion control: Simple Automation Sequences](http://adventures.michaelfbryan.com/posts/simple-automation-sequences/)
 
 # Crate of the Week
 
-This week, we don't have one, nor two, but *three* crates of the week! There's [Watt](https://github.com/dtolnay/watt), a fast WASM-based proc-macro runtime, [Anyhow](https://github.com/dtolnay/anyhow), yet another error handling crate and [spotify-tui](https://github.com/Rigellute/spotify-tui), a console user interface for Spotify.
+This week's crate is [grubbnet](https://github.com/dooskington/grubbnet), a TCP client/server library for networked applications and games.
 
-Thanks to [Aloso](https://users.rust-lang.org/t/crate-of-the-week/2704/649), [zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/645) and [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/644) for the suggestion!
+Thanks to [Dooskington](https://users.rust-lang.org/t/crate-of-the-week/2704/649), [zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/650) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -47,30 +49,40 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-302 pull requests were [merged in the last week][merged]
+353 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-10-07..2019-10-14
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-10-14..2019-10-21
 
-* [Add support for `const unsafe? extern fn`](https://github.com/rust-lang/rust/pull/64906)
-* [Split non-CAS atomic support off into `target_has_atomic_load_store`](https://github.com/rust-lang/rust/pull/65214)
-* [deriving: Avoid dummy Span on an artificial `type_ident` path](https://github.com/rust-lang/rust/pull/65310)
-* [Print lifetimes with backticks](https://github.com/rust-lang/rust/pull/65292)
-* [Fix suggested bound addition diagnostic](https://github.com/rust-lang/rust/pull/65289)
-* [Note when a mutable trait object is needed](https://github.com/rust-lang/rust/pull/65077)
-* [Use structured suggestion for removal of `as_str()` call](https://github.com/rust-lang/rust/pull/65194)
-* [Fix const generic arguments not displaying in types mismatch diagnostic](https://github.com/rust-lang/rust/pull/65154)
-* [Improve message when attempting to instantiate tuple structs with private fields](https://github.com/rust-lang/rust/pull/65153)
-* [Suggest dereferencing boolean reference when used in `if` or `while`](https://github.com/rust-lang/rust/pull/65150)
-* [When suggesting assoc function with type params, include turbofish](https://github.com/rust-lang/rust/pull/65145)
-* [self-profiling: Add events for everything except trait selection](https://github.com/rust-lang/rust/pull/65208)
-* [Avoid `SmallVec::collect`](https://github.com/rust-lang/rust/pull/64949)
-* [Speed up `TokenStream` concatenation](https://github.com/rust-lang/rust/pull/65198)
-* [Implement `Clone::clone_from` for `VecDeque`](https://github.com/rust-lang/rust/pull/65069)
-* [Stabilize `slice::repeat`](https://github.com/rust-lang/rust/pull/64877)
-* [Stabilize `mem::take`](https://github.com/rust-lang/rust/pull/64716)
-* [Implement (`HashMap`) `Entry::insert`](https://github.com/rust-lang/rust/pull/64656)
-* [improve performance of signed `saturating_mul`](https://github.com/rust-lang/rust/pull/65312)
-* [dist: minimize the `rust-std` component](https://github.com/rust-lang/rust/pull/64823)
+* [Stabilize proc macros generating `macro_rules` items](https://github.com/rust-lang/rust/pull/64035)
+* [Return `false` from `needs_drop` for all zero-sized arrays](https://github.com/rust-lang/rust/pull/65389)
+* [Optimize `LexicalResolve::expansion`](https://github.com/rust-lang/rust/pull/65260)
+* [Remove custom `PartialEq` impls for `LocalInternedString`](https://github.com/rust-lang/rust/pull/65426)
+* [Optimize `BitIter`](https://github.com/rust-lang/rust/pull/65425)
+* [Optimize dropck](https://github.com/rust-lang/rust/pull/64595)
+* [More symbol cleanups](https://github.com/rust-lang/rust/pull/65545)
+* [Avoid unnecessary arena allocations in `expand_pattern()`](https://github.com/rust-lang/rust/pull/65463)
+* [Avoid unnecessary `TokenTree` to `TokenStream` conversions](https://github.com/rust-lang/rust/pull/65455)
+* [expand: Simplify expansion of derives](https://github.com/rust-lang/rust/pull/65252)
+* [Fix suggestion to constrain trait for method to be found](https://github.com/rust-lang/rust/pull/65242)
+* [syntax: add parser recovery for intersection- / and-patterns `p1 @ p2`](https://github.com/rust-lang/rust/pull/65410)
+* [Reducing spurious unused lifetime warnings](https://github.com/rust-lang/rust/pull/64603)
+* [Bring attention to suggestions when the only difference is capitalization](https://github.com/rust-lang/rust/pull/65398)
+* [Use structured suggestion for restricting bounds](https://github.com/rust-lang/rust/pull/65192)
+* [Fix zero-size uninitialized boxes](https://github.com/rust-lang/rust/pull/65174)
+* [Add check for overlapping ranges to unreachable patterns lint](https://github.com/rust-lang/rust/pull/64007)
+* [Use more fine grained locks for the dep graph](https://github.com/rust-lang/rust/pull/63756)
+* [Fix `canonicalize_const_var` leaking inference variables](https://github.com/rust-lang/rust/pull/65652)
+* [mir-opt: Improve SimplifyLocals pass so it can remove unused consts](https://github.com/rust-lang/rust/pull/65624)
+* [Improve error message for APIT with explicit generic arguments](https://github.com/rust-lang/rust/pull/65614)
+* [Remove unreachable unit tuple compare binop codegen](https://github.com/rust-lang/rust/pull/65605)
+* [Avoid ICE when `include!` is used by stdin crate](https://github.com/rust-lang/rust/pull/65603)
+* [Implement `AsRef<[T]>` for `List<T>`](https://github.com/rust-lang/rust/pull/65444)
+* [hashbrown: Remove most `#[inline]` annotations](https://github.com/rust-lang/hashbrown/pull/119)
+* [Always inline `mem::`{`size_of`, `align_of`} in debug builds](https://github.com/rust-lang/rust/pull/65016)
+* [Avoid realloc in `CString::new`](https://github.com/rust-lang/rust/pull/65551)
+* [`BTreeSet` symmetric_difference & union optimized](https://github.com/rust-lang/rust/pull/65226)
+* [cargo: Allow `--all-features` in root of virtual workspace](https://github.com/rust-lang/cargo/pull/7525)
+* [rustup install: add `--profile` flag to override profile](https://github.com/rust-lang/rustup.rs/pull/2075)
 
 ## Approved RFCs
 
@@ -149,11 +161,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> If the Rust community has an ethos, it's that software should have strong static typing, but people should have soft dynamic typing.
+> Rust helped me grasp concepts I should have known when writing C++
 
-– [Kyle Strand on Twitter](https://twitter.com/BatmanAoD/status/1174799660134699008)
+– [Alexander Clarke on the Microsoft Security Response Center blog]()
 
-Thanks to [Kyle Strand](https://users.rust-lang.org/t/twir-quote-of-the-week/328/710) for the suggestion!
+Thanks to [mmmmib](https://users.rust-lang.org/t/twir-quote-of-the-week/328/712) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
