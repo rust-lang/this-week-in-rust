@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Adventures in motion control: Simple Automation Sequences](http://adventures.michaelfbryan.com/posts/simple-automation-sequences/)
+
 # Crate of the Week
 
 This week's crate is [grubbnet](https://github.com/dooskington/grubbnet), a TCP client/server library for networked applications and games.
