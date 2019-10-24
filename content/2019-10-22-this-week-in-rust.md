@@ -177,7 +177,7 @@ Email the [Rust Community Team][community] for access.
 
 > Rust helped me grasp concepts I should have known when writing C++
 
-– [Alexander Clarke on the Microsoft Security Response Center blog]()
+– [Alexander Clarke on the Microsoft Security Response Center blog](https://msrc-blog.microsoft.com/2019/10/16/an-interns-experience-with-rust/).
 
 Thanks to [mmmmib](https://users.rust-lang.org/t/twir-quote-of-the-week/328/712) for the suggestion!
 
