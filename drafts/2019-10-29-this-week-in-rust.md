@@ -132,6 +132,7 @@ decision. Express your opinions now.
 * [Oct 30. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryznbnc/).
 * [Oct 30. Copenhagen, DK - Copenhagen Rust Hack Night #19](https://cph.rs/).
 * **[Nov 9 & 10. Barcelona, ES - RustFest Barcelona 2019](https://barcelona.rustfest.eu/).**
+* [Nov 15. Barcelona, ES - Rust GTK/GStreamer Workshop at Linux Application Summit 2019](https://www.meetup.com/Barcelona-Free-Software/events/265596417/).
 
 ### North America
 
