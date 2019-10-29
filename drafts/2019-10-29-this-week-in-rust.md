@@ -131,6 +131,8 @@ decision. Express your opinions now.
 * [Oct 28. London, GB - Rust London User Group - LDN Talks October 2019](https://www.meetup.com/Rust-London-User-Group/events/265590044/).
 * [Oct 30. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryznbnc/).
 * [Oct 30. Copenhagen, DK - Copenhagen Rust Hack Night #19](https://cph.rs/).
+* [Nov 2. Lviv, UA - Peer Lab Lviv #Rust: Introduction](https://t.me/peerlab_lviv_rust/135).
+* [Nov 2. Kharkiv, UA - Peer Lab Kharkiv #Rust: Command-Line Applications in Rust](https://www.facebook.com/events/689432161466405/).
 * **[Nov 9 & 10. Barcelona, ES - RustFest Barcelona 2019](https://barcelona.rustfest.eu/).**
 * [Nov 15. Barcelona, ES - Rust GTK/GStreamer Workshop at Linux Application Summit 2019](https://www.meetup.com/Barcelona-Free-Software/events/265596417/).
 
