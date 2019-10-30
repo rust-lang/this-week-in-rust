@@ -18,9 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [grubbnet](https://github.com/dooskington/grubbnet), a TCP client/server library for networked applications and games.
-
-Thanks to [Dooskington](https://users.rust-lang.org/t/crate-of-the-week/2704/650) for the suggestion!
+Sadly, there was no nomination for crate of the week.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -43,9 +41,35 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-353 pull requests were [merged in the last week][merged]
+347 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-10-14..2019-10-21
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-10-21..2019-10-28
+
+* [Don't ICE for completely unexpandable `impl Trait` types](https://github.com/rust-lang/rust/pull/65777)
+* [Eliminate `intersect_opt`](https://github.com/rust-lang/rust/pull/65648)
+* [Derive `Rustc{En,De}codable` for `TokenStream`](https://github.com/rust-lang/rust/pull/65641)
+* [Forbid non-`structural_match` types in const generics](https://github.com/rust-lang/rust/pull/65627)
+* [Turn crate store into a resolver output](https://github.com/rust-lang/rust/pull/65625)
+* [Simplify chalk-engine a bit](https://github.com/rust-lang/chalk/pull/264)
+* [Use heuristics to suggest assignment](https://github.com/rust-lang/rust/pull/65566)
+* [Point at associated type for some obligations](https://github.com/rust-lang/rust/pull/65288)
+* [Lockless `LintStore`](https://github.com/rust-lang/rust/pull/65193)
+* [Remove unnecessary trait bounds and derivations](https://github.com/rust-lang/rust/pull/65647)
+* [Change untagged_unions to not allow union fields with drop](https://github.com/rust-lang/rust/pull/62330)
+* [miri: Add `write_bytes` method to Memory doing bounds-checks and supporting iterators](https://github.com/rust-lang/rust/pull/65621)
+* [Object safe for dispatch](https://github.com/rust-lang/rust/pull/57545)
+* [Fix WASI sleep impl](https://github.com/rust-lang/rust/pull/65617)
+* [Stabilize `const_constructor`](https://github.com/rust-lang/rust/pull/65188)
+* [Stabilize `Option::flatten`](https://github.com/rust-lang/rust/pull/64747)
+* [Stabilize `#[non_exhaustive]`](https://github.com/rust-lang/rust/pull/64639) (RFC 2008)
+* [Make `is_power_of_two` a const function](https://github.com/rust-lang/rust/pull/65092)
+* [Add by-value iterator for arrays](https://github.com/rust-lang/rust/pull/62959)
+* [Add `Cow::`{`is_borrowed`, `is_owned`}`()`](https://github.com/rust-lang/rust/pull/65144)
+* [Add `[_]::`{`as_ptr_range`, `as_mut_ptr_range`}`()`](https://github.com/rust-lang/rust/pull/65806)
+* [Add {`String`, `Vec`}`::into_raw_parts()`](https://github.com/rust-lang/rust/pull/65705)
+* [Add the `matches!( $expr, $pat ) -> bool` macro](https://github.com/rust-lang/rust/pull/65479)
+* [Relax `ExactSizeIterator` bound on `write_bytes`](https://github.com/rust-lang/rust/pull/65704)
+* [rustdoc: Forward `-Z` options to rustc](https://github.com/rust-lang/rust/pull/65314)
 
 * [Stabilize proc macros generating `macro_rules` items](https://github.com/rust-lang/rust/pull/64035)
 * [Return `false` from `needs_drop` for all zero-sized arrays](https://github.com/rust-lang/rust/pull/65389)
@@ -163,11 +187,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Rust helped me grasp concepts I should have known when writing C++
+> …man, starting to dig through the source code of a really large open source program is so weird. It’s like wandering around a giant cathedral that’s being constantly renovated and repaired and maintained over the course of years by a giant team of invisible crafters and architects, who mostly communicate via notes and designs pinned to the walls in various places.
 
-– [Alexander Clarke on the Microsoft Security Response Center blog]()
+– [icefoxen on their wiki](https://wiki.alopex.li/WhereRustcSpendsItsTime)
 
-Thanks to [mmmmib](https://users.rust-lang.org/t/twir-quote-of-the-week/328/712) for the suggestion!
+Thanks to [Ralf Jung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/717) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
