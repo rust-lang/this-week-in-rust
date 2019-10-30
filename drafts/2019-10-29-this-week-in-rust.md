@@ -15,9 +15,22 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-* [Programming Servo: the incredibly shrinking timer](https://medium.com/programming-servo/programming-servo-the-incredibly-shrinking-timer-7283ae2a2669).
 
-[Adventures in Motion Control: Initial Motion System](http://adventures.michaelfbryan.com/posts/initial-motion-system/)
+* [A call for blogs 2020](https://blog.rust-lang.org/2019/10/29/A-call-for-blogs-2020.html).
+* [Why async fn in traits are hard](https://smallcultfollowing.com/babysteps/blog/2019/10/26/async-fn-in-traits-are-hard/).
+* [Spark implemented in Rust with promising results](https://medium.com/@rajasekar3eg/fastspark-a-new-fast-native-implementation-of-spark-from-scratch-368373a29a5c).
+* [Nannou awarded Mozilla grant for foundational audio development in Rust](https://nannou.cc/posts/moss_grant_announce).
+* [Rust and C++ on floating-point intensive code](https://www.reidatcheson.com/hpc/architecture/performance/rust/c++/2019/10/19/measure-cache.html).
+* [docs.rs outage postmortem](https://blog.rust-lang.org/inside-rust/2019/10/24/docsrs-outage-postmortem.html).
+* [Cost of rust-analyzer](https://rust-analyzer.github.io/2019/10/16/finance.html).
+* [Building a widget for Druid (a WIP native Rust GUI toolkit)](https://pauljmiller.com/posts/druid-widget-tutorial.html).
+* [Ferris Fencing - a Rust game built on a RISC-V VM](http://www.ferrisfencing.org/).
+* [Technique for doing specialization on a stable compiler safely](https://github.com/dtolnay/case-studies/blob/master/autoref-specialization/README.md).
+* [A closer look at Ownership in Rust](https://blog.thoughtram.io/ownership-in-rust/).
+* [Programming Servo: the incredibly shrinking timer](https://medium.com/programming-servo/programming-servo-the-incredibly-shrinking-timer-7283ae2a2669).
+* [Making good On momo's compile-time promise](https://llogiq.github.io/2019/10/28/momo-fast.html).
+* [Adventures in motion control: initial motion system](http://adventures.michaelfbryan.com/posts/initial-motion-system/).
+* [Please welcome pnkfelix as compiler team co-lead](https://blog.rust-lang.org/inside-rust/2019/10/24/pnkfelix-compiler-team-co-lead.html).
 
 # Crate of the Week
 
@@ -34,9 +47,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Clippy: Passing mutable references](https://github.com/rust-lang/rust-clippy/issues/353).
-* [rust-bindgen: Add --symbol-prefix flag](https://github.com/rust-lang/rust-bindgen/issues/1375).
-* [good first issue] [Spirit: Write a tutorial for Spirit](https://github.com/vorner/spirit/issues/42). Spirit is a helper to make creating and configuring unix daemons easier.
+* [good first issue] [async-std: use once_cell instead of lazy_static](https://github.com/async-rs/async-std/issues/406).
+* [good first issue] [async-std: Add Future::flatten](https://github.com/async-rs/async-std/issues/404).
+* [good first issue] [async-std: Add stream::from_iter](https://github.com/async-rs/async-std/issues/400).
+* [good first issue] [async-std: TCP smoke testing](https://github.com/async-rs/async-std/issues/407).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -74,37 +88,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [Relax `ExactSizeIterator` bound on `write_bytes`](https://github.com/rust-lang/rust/pull/65704)
 * [rustdoc: Forward `-Z` options to rustc](https://github.com/rust-lang/rust/pull/65314)
 
-* [Stabilize proc macros generating `macro_rules` items](https://github.com/rust-lang/rust/pull/64035)
-* [Return `false` from `needs_drop` for all zero-sized arrays](https://github.com/rust-lang/rust/pull/65389)
-* [Optimize `LexicalResolve::expansion`](https://github.com/rust-lang/rust/pull/65260)
-* [Remove custom `PartialEq` impls for `LocalInternedString`](https://github.com/rust-lang/rust/pull/65426)
-* [Optimize `BitIter`](https://github.com/rust-lang/rust/pull/65425)
-* [Optimize dropck](https://github.com/rust-lang/rust/pull/64595)
-* [More symbol cleanups](https://github.com/rust-lang/rust/pull/65545)
-* [Avoid unnecessary arena allocations in `expand_pattern()`](https://github.com/rust-lang/rust/pull/65463)
-* [Avoid unnecessary `TokenTree` to `TokenStream` conversions](https://github.com/rust-lang/rust/pull/65455)
-* [expand: Simplify expansion of derives](https://github.com/rust-lang/rust/pull/65252)
-* [Fix suggestion to constrain trait for method to be found](https://github.com/rust-lang/rust/pull/65242)
-* [syntax: add parser recovery for intersection- / and-patterns `p1 @ p2`](https://github.com/rust-lang/rust/pull/65410)
-* [Reducing spurious unused lifetime warnings](https://github.com/rust-lang/rust/pull/64603)
-* [Bring attention to suggestions when the only difference is capitalization](https://github.com/rust-lang/rust/pull/65398)
-* [Use structured suggestion for restricting bounds](https://github.com/rust-lang/rust/pull/65192)
-* [Fix zero-size uninitialized boxes](https://github.com/rust-lang/rust/pull/65174)
-* [Add check for overlapping ranges to unreachable patterns lint](https://github.com/rust-lang/rust/pull/64007)
-* [Use more fine grained locks for the dep graph](https://github.com/rust-lang/rust/pull/63756)
-* [Fix `canonicalize_const_var` leaking inference variables](https://github.com/rust-lang/rust/pull/65652)
-* [mir-opt: Improve SimplifyLocals pass so it can remove unused consts](https://github.com/rust-lang/rust/pull/65624)
-* [Improve error message for APIT with explicit generic arguments](https://github.com/rust-lang/rust/pull/65614)
-* [Remove unreachable unit tuple compare binop codegen](https://github.com/rust-lang/rust/pull/65605)
-* [Avoid ICE when `include!` is used by stdin crate](https://github.com/rust-lang/rust/pull/65603)
-* [Implement `AsRef<[T]>` for `List<T>`](https://github.com/rust-lang/rust/pull/65444)
-* [hashbrown: Remove most `#[inline]` annotations](https://github.com/rust-lang/hashbrown/pull/119)
-* [Always inline `mem::`{`size_of`, `align_of`} in debug builds](https://github.com/rust-lang/rust/pull/65016)
-* [Avoid realloc in `CString::new`](https://github.com/rust-lang/rust/pull/65551)
-* [`BTreeSet` symmetric_difference & union optimized](https://github.com/rust-lang/rust/pull/65226)
-* [cargo: Allow `--all-features` in root of virtual workspace](https://github.com/rust-lang/cargo/pull/7525)
-* [rustup install: add `--profile` flag to override profile](https://github.com/rust-lang/rustup.rs/pull/2075)
-
 ## Approved RFCs
 
 Changes to Rust follow the Rust [RFC (request for comments)
@@ -121,22 +104,25 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: postpone] [Signing registry index commits](https://github.com/rust-lang/rfcs/pull/2474).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Stabilize --extern flag without a path](https://github.com/rust-lang/rust/pull/64882).
+* [disposition: merge] [Stabilize cfg(doctest)](https://github.com/rust-lang/rust/pull/63803).
+* [disposition: merge] [Fix accidental stabilization in feature-detection macros](https://github.com/rust-lang/rust/pull/64534).
+* [disposition: merge] [Implement @argsfile to read arguments from command line](https://github.com/rust-lang/rust/issues/63576).
 * [disposition: merge] [Tracking issue for todo! macro](https://github.com/rust-lang/rust/issues/59277).
 * [disposition: merge] [Tracking issue for floats ↔ bytes conversions](https://github.com/rust-lang/rust/issues/60446).
-* [disposition: merge] [Stabilize RFC 2451, re-rebalance coherence](https://github.com/rust-lang/rust/issues/63599).
-* [disposition: merge] [[rustdoc] stabilize cfg(doctest)](https://github.com/rust-lang/rust/pull/63803).
-* [disposition: merge] [Stabilize nested self receivers in 1.40.0](https://github.com/rust-lang/rust/pull/64325).
-* [disposition: merge] [Stabilize `Option::flatten`](https://github.com/rust-lang/rust/pull/64747).
-* [disposition: merge] [Stabilize `const_constructor`](https://github.com/rust-lang/rust/pull/65188).
+* [disposition: merge] [Under what conditions can you implement Copy for a union](https://github.com/rust-lang/rust/issues/65748)?
 
 ## New RFCs
 
-* [Standard lazy types](https://github.com/rust-lang/rfcs/pull/2788).
-* [Serve crates-io registry over HTTP as static files](https://github.com/rust-lang/rfcs/pull/2789).
+* [Propose implicit named arguments for formatting macros](https://github.com/rust-lang/rfcs/pull/2795).
+* [Announcing the FFI-unwinding Project Group](https://github.com/rust-lang/rfcs/pull/2797).
+* [Environment variable sandboxing](https://github.com/rust-lang/rfcs/pull/2794).
+* [Add `[T]::as_ptr_range()`](https://github.com/rust-lang/rfcs/pull/2791).
+* [Subslice-offset - Get the offset of references into a slice](https://github.com/rust-lang/rfcs/pull/2796).
 
 # Upcoming Events
 
@@ -146,33 +132,29 @@ decision. Express your opinions now.
 
 ### Asia Pacific
 
-* [Oct 26. Tokyo, JP - Rust.Tokyo 2019](https://rust.tokyo/).
-* [Oct 26. Taipei, TW - Rust Taiwan Meetup](https://www.facebook.com/events/495062051340992/).
-* [Oct 29. Sydney, AU - Rust Sydney - Meetup 18](https://www.meetup.com/Rust-Sydney/events/265708002/).
 * [Nov  4. Auckland, NZ - Rust AKL - Introduction to Rust (part 2 of 3)](https://www.meetup.com/rust-akl/events/259481269/).
+* [Nov 13. TBD, MY - Rust Malaysia Meetup November 2019](https://docs.google.com/forms/d/e/1FAIpQLSfZM9XYmBXq9tjqRziR-O3vBmm4rt1Ltnc9bGcleVrLmZHrSg/viewform).
 
 ### Europe
 
-* [Oct 28. Zurich, CH - Rust Zurich - October Meetup: Claudia Saxer – 66 hours of Rust](https://www.meetup.com/Rust-Zurich/events/265507413/).
-* [Oct 28. Gouda, NL - Rust Nederland - Rust - Talks & Demos](https://www.meetup.com/Rust-Nederland/events/265656966).
-* [Oct 28. London, GB - Rust London User Group - LDN Talks October 2019](https://www.meetup.com/Rust-London-User-Group/events/265590044/).
-* [Oct 30. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryznbnc/).
-* [Oct 30. Copenhagen, DK - Copenhagen Rust Hack Night #19](https://cph.rs/).
 * [Nov 2. Lviv, UA - Peer Lab Lviv #Rust: Introduction](https://t.me/peerlab_lviv_rust/135).
 * [Nov 2. Kharkiv, UA - Peer Lab Kharkiv #Rust: Command-Line Applications in Rust](https://www.facebook.com/events/689432161466405/).
 * **[Nov 9 & 10. Barcelona, ES - RustFest Barcelona 2019](https://barcelona.rustfest.eu/).**
+* [Nov 12. Hamburg, DE - Rust Hack & Learn November 2019](https://www.meetup.com/Rust-Meetup-Hamburg/events/265899865/).
 * [Nov 13. Wrocław, PL - Rust Wrocław Meetup #14](https://www.meetup.com/Rust-Wroclaw/events/265813648/).
+* [Nov 13. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzpbrb/).
+* [Nov 14. Zurich, CH - Rust Zurich - RustFest Decompression Zürich](https://www.meetup.com/Rust-Zurich/events/265593126/).
 * [Nov 15. Barcelona, ES - Rust GTK/GStreamer Workshop at Linux Application Summit 2019](https://www.meetup.com/Barcelona-Free-Software/events/265596417/).
 
 ### North America
 
-* [Oct 28. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyznblc/).
-* [Oct 29. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyznbmc/).
-* [Oct 29. Chicago, IL, US - Chicago Rust Meetup - Entity Component Systems: An Intro To The Specs Crate Using Roguelikes](https://www.meetup.com/Chicago-Rust-Meetup/events/265283294).
-* [Oct 30. San Francisco, CA, US - Rust in Blockchain Workshop Day (SFBW)](https://www.meetup.com/Rust-in-Blockchain-San-Francisco/events/265362152/)
-* [Oct 30. Santa Clara, CA, US - Rust Bay Area - [@ Intel Santa Clara] Security with Rust & SGX + Life of an Async fn](https://www.meetup.com/Rust-Bay-Area/events/265478102).
-* [Oct 30. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryznbnc/).
 * [Nov  6. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyzpbjb/).
+* [Nov 13. Atlanta, GA, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgryzpbrb/).
+* [Nov 12. Seattle, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/prbtdryzpbqb/).
+* [Nov 13. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryzpbrb/).
+* [Nov 14. San Diego, CA, US - San Diego Rust November Meetup](https://www.meetup.com/San-Diego-Rust/events/265981542/).
+* [Nov 14. Lehi, UT, US - Utah Rust - November 2019 Regular Meetup](https://www.meetup.com/utah-rust/events/265905259/).
+* [Nov 14. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgryzpbsb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -183,13 +165,8 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Embedded Software Engineer at Sense, Cambridge, MA (Rust/Python/C)](https://apply.workable.com/sense/j/ADDB5A7717/).
-* [Rust Engineer at Provable, London, GB (Remote available)](https://www.reddit.com/r/rust/comments/d9l79d/official_rrust_whos_hiring_thread_for_jobseekers/f4r63ms/).
-* [Rust Senior Developer at Token, Palo Alto, CA, US](https://drive.google.com/file/d/1Rnc8HQLfiy4mvzZP--1ww1vTAX5FCagD/view).
-* [Software Manager at Georg Fischer Signet, El Monte, CA, US](https://www.indeed.com/m/viewjob?jk=e82dad5c02d490a2).
-* [Associate Software Engineer at Georg Fischer Signet, El Monte, CA, US](https://www.indeed.com/m/viewjob?jk=6d5ae77b64b16f72).
-* [Rust/Core Developer at Parity, Berlin, DE (Remote available)](https://www.parity.io/jobs/#berlin-rust-core-developer).
-* [Rust Intern at RUDDER, Paris, FR](https://taleez.com/apply/74t9em)
+* [Embedded Software Engineer at Sense, Cambridge, MA, US](https://apply.workable.com/sense/j/ADDB5A7717/).
+* [Rust Intern at RUDDER, Paris, FR](https://taleez.com/apply/74t9em).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
