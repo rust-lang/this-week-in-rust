@@ -167,6 +167,7 @@ Email the [Rust Community Team][community] for access.
 
 * [Embedded Software Engineer at Sense, Cambridge, MA, US](https://apply.workable.com/sense/j/ADDB5A7717/).
 * [Rust Intern at RUDDER, Paris, FR](https://taleez.com/apply/74t9em).
+* [Software Engineer at Oso Security, New York, NY, US](https://www.osohq.com/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
