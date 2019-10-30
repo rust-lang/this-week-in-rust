@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Programming Servo: the incredibly shrinking timer](https://medium.com/programming-servo/programming-servo-the-incredibly-shrinking-timer-7283ae2a2669).
 
 # Crate of the Week
 
