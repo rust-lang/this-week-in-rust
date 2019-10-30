@@ -183,6 +183,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Embedded Software Engineer at Sense, Cambridge, MA (Rust/Python/C)](https://apply.workable.com/sense/j/ADDB5A7717/).
 * [Rust Engineer at Provable, London, GB (Remote available)](https://www.reddit.com/r/rust/comments/d9l79d/official_rrust_whos_hiring_thread_for_jobseekers/f4r63ms/).
 * [Rust Senior Developer at Token, Palo Alto, CA, US](https://drive.google.com/file/d/1Rnc8HQLfiy4mvzZP--1ww1vTAX5FCagD/view).
 * [Software Manager at Georg Fischer Signet, El Monte, CA, US](https://www.indeed.com/m/viewjob?jk=e82dad5c02d490a2).
