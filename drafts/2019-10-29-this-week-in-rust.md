@@ -17,6 +17,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 * [Programming Servo: the incredibly shrinking timer](https://medium.com/programming-servo/programming-servo-the-incredibly-shrinking-timer-7283ae2a2669).
 
+[Adventures in Motion Control: Initial Motion System](http://adventures.michaelfbryan.com/posts/initial-motion-system/)
+
 # Crate of the Week
 
 Sadly, there was no nomination for crate of the week.
