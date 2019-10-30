@@ -188,6 +188,7 @@ Email the [Rust Community Team][community] for access.
 * [Software Manager at Georg Fischer Signet, El Monte, CA, US](https://www.indeed.com/m/viewjob?jk=e82dad5c02d490a2).
 * [Associate Software Engineer at Georg Fischer Signet, El Monte, CA, US](https://www.indeed.com/m/viewjob?jk=6d5ae77b64b16f72).
 * [Rust/Core Developer at Parity, Berlin, DE (Remote available)](https://www.parity.io/jobs/#berlin-rust-core-developer).
+* [Rust Intern at RUDDER, Paris, FR](https://taleez.com/apply/74t9em)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
