@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Adventures in Motion Control: Initial Motion System](http://adventures.michaelfbryan.com/posts/initial-motion-system/)
+
 # Crate of the Week
 
 Sadly, there was no nomination for crate of the week.
