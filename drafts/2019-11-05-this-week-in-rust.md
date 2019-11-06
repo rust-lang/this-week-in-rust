@@ -17,10 +17,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 - [Adventures in Motion Control: Initial Motion System](http://adventures.michaelfbryan.com/posts/initial-motion-system/)
+* [Rust concurrency patterns: condvars and locks](https://medium.com/@polyglot_factotum/rust-concurrency-patterns-condvars-and-locks-e278f18db74f).
 
 # Crate of the Week
 
-Sadly, there was no nomination for crate of the week.
+This week's crate is [displaydoc](https://github.com/yaahc/displaydoc), a procedural derive macro to implement `Display` by string-interpolating the doc comment.
+
+Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/652) for the suggesion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -44,35 +47,35 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-347 pull requests were [merged in the last week][merged]
+217 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-10-21..2019-10-28
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-10-28..2019-11-04
 
-* [Don't ICE for completely unexpandable `impl Trait` types](https://github.com/rust-lang/rust/pull/65777)
-* [Eliminate `intersect_opt`](https://github.com/rust-lang/rust/pull/65648)
-* [Derive `Rustc{En,De}codable` for `TokenStream`](https://github.com/rust-lang/rust/pull/65641)
-* [Forbid non-`structural_match` types in const generics](https://github.com/rust-lang/rust/pull/65627)
-* [Turn crate store into a resolver output](https://github.com/rust-lang/rust/pull/65625)
-* [Simplify chalk-engine a bit](https://github.com/rust-lang/chalk/pull/264)
-* [Use heuristics to suggest assignment](https://github.com/rust-lang/rust/pull/65566)
-* [Point at associated type for some obligations](https://github.com/rust-lang/rust/pull/65288)
-* [Lockless `LintStore`](https://github.com/rust-lang/rust/pull/65193)
-* [Remove unnecessary trait bounds and derivations](https://github.com/rust-lang/rust/pull/65647)
-* [Change untagged_unions to not allow union fields with drop](https://github.com/rust-lang/rust/pull/62330)
-* [miri: Add `write_bytes` method to Memory doing bounds-checks and supporting iterators](https://github.com/rust-lang/rust/pull/65621)
-* [Object safe for dispatch](https://github.com/rust-lang/rust/pull/57545)
-* [Fix WASI sleep impl](https://github.com/rust-lang/rust/pull/65617)
-* [Stabilize `const_constructor`](https://github.com/rust-lang/rust/pull/65188)
-* [Stabilize `Option::flatten`](https://github.com/rust-lang/rust/pull/64747)
-* [Stabilize `#[non_exhaustive]`](https://github.com/rust-lang/rust/pull/64639) (RFC 2008)
-* [Make `is_power_of_two` a const function](https://github.com/rust-lang/rust/pull/65092)
-* [Add by-value iterator for arrays](https://github.com/rust-lang/rust/pull/62959)
-* [Add `Cow::`{`is_borrowed`, `is_owned`}`()`](https://github.com/rust-lang/rust/pull/65144)
-* [Add `[_]::`{`as_ptr_range`, `as_mut_ptr_range`}`()`](https://github.com/rust-lang/rust/pull/65806)
-* [Add {`String`, `Vec`}`::into_raw_parts()`](https://github.com/rust-lang/rust/pull/65705)
-* [Add the `matches!( $expr, $pat ) -> bool` macro](https://github.com/rust-lang/rust/pull/65479)
-* [Relax `ExactSizeIterator` bound on `write_bytes`](https://github.com/rust-lang/rust/pull/65704)
-* [rustdoc: Forward `-Z` options to rustc](https://github.com/rust-lang/rust/pull/65314)
+* [Allow foreign exceptions to unwind through Rust code and Rust panics to unwind through FFI](https://github.com/rust-lang/rust/pull/65646)
+* [expand: Feature gate out-of-line modules in proc macro input](https://github.com/rust-lang/rust/pull/66078)
+* [Lint ignored `#[inline]` on function prototypes](https://github.com/rust-lang/rust/pull/65294)
+* [Improve the "try using a variant of the expected type" hint](https://github.com/rust-lang/rust/pull/65562)
+* [Use heuristics to recover parsing of missing `;`](https://github.com/rust-lang/rust/pull/65640)
+* [Point at local similarly named element and tweak references to variants](https://github.com/rust-lang/rust/pull/65421)
+* [Custom lifetime error for `impl` item doesn't conform to `trait`](https://github.com/rust-lang/rust/pull/65068)
+* [Add lint and tests for unnecessary parens around types](https://github.com/rust-lang/rust/pull/65112)
+* [Correct handling of type flags with `ConstValue::Placeholder`](https://github.com/rust-lang/rust/pull/65643)
+* [Use structured suggestion for unnecessary bounds in type aliases](https://github.com/rust-lang/rust/pull/65914)
+* [save-analysis: Account for async desugaring in async fn return types](https://github.com/rust-lang/rust/pull/65936)
+* [Switch CrateMetadata's source_map_import_info from RwLock to Once](https://github.com/rust-lang/rust/pull/65979)
+* [Don't use `eval_always` for miri queries used from codegen](https://github.com/rust-lang/rust/pull/65927)
+* [rustc: use IndexVec<DefIndex, T> instead of Vec<T>](https://github.com/rust-lang/rust/pull/65825)
+* [Make `promote_consts` emit the errors when required promotion fails](https://github.com/rust-lang/rust/pull/65946)
+* [Implement ordered/sorted iterators on `BinaryHeap`](https://github.com/rust-lang/rust/pull/65091)
+* [Make `*`{`const`, `mut`} `T>::offset_from` const fn](https://github.com/rust-lang/rust/pull/63810)
+* [Stabilize `float_to_from_bytes` feature](https://github.com/rust-lang/rust/pull/66002)
+* [hashbrown: Introduce `ahash-compile-time-rng` feature](https://github.com/rust-lang/hashbrown/pull/125)
+* [cargo: Add --filter-platform to `cargo metadata`](https://github.com/rust-lang/cargo/pull/7376)
+* [cargo: Fix `cargo fix` not showing colors](https://github.com/rust-lang/cargo/pull/7550)
+* [chalk: Remove delayed literals](https://github.com/rust-lang/chalk/pull/270)
+* [chalk: Add TypeName::Error variant](https://github.com/rust-lang/chalk/pull/269)
+* [chalk: Output multiple solutions](https://github.com/rust-lang/chalk/pull/263)
+* [rustdoc: Stabilize `cfg(doctest)`](https://github.com/rust-lang/rust/pull/63803)
 
 ## Approved RFCs
 
@@ -130,6 +133,7 @@ decision. Express your opinions now.
 * [Nov 13. Wrocław, PL - Rust Wrocław Meetup #14](https://www.meetup.com/Rust-Wroclaw/events/265813648/).
 * [Nov 13. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzpbrb/).
 * [Nov 14. Zurich, CH - Rust Zurich - RustFest Decompression Zürich](https://www.meetup.com/Rust-Zurich/events/265593126/).
+* [Nov 14. Moscow, RU - Rust Moscow November 2019 Meetup](https://www.meetup.com/ru-RU/Rust-%D0%B2-%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5/events/266184946/).
 * [Nov 15. Barcelona, ES - Rust GTK/GStreamer Workshop at Linux Application Summit 2019](https://www.meetup.com/Barcelona-Free-Software/events/265596417/).
 
 ### North America
@@ -141,6 +145,7 @@ decision. Express your opinions now.
 * [Nov 14. San Diego, CA, US - San Diego Rust November Meetup](https://www.meetup.com/San-Diego-Rust/events/265981542/).
 * [Nov 14. Lehi, UT, US - Utah Rust - November 2019 Regular Meetup](https://www.meetup.com/utah-rust/events/265905259/).
 * [Nov 14. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgryzpbsb/).
+* [Nov 14. Montreal, QC, CA - Montreal Rust Meetup - November 2019 RustMTL: November Common Traits & Causal Profiling](https://www.meetup.com/Rust-Montreal/events/prvrjryzpbqb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -155,11 +160,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> …man, starting to dig through the source code of a really large open source program is so weird. It’s like wandering around a giant cathedral that’s being constantly renovated and repaired and maintained over the course of years by a giant team of invisible crafters and architects, who mostly communicate via notes and designs pinned to the walls in various places.
+> I did manage to get this compile in the end - does anyone else find that the process of asking the question well on a public forum organizes their thoughts well enough to solve the problem?
 
-– [icefoxen on their wiki](https://wiki.alopex.li/WhereRustcSpendsItsTime)
+– [David Mason on rust-users](https://users.rust-lang.org/t/std-phantomdata-and-unused-fields-in-structs/34271/3)
 
-Thanks to [Ralf Jung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/717) for the suggestion!
+Thanks to [Daniel H-M](https://users.rust-lang.org/t/twir-quote-of-the-week/328/725) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
