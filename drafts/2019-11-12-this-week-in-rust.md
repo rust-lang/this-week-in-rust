@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Boa 0.5.0 released with more JS language support](https://github.com/jasonwilliams/boa/releases/tag/v0.5.0). Boa is an embeddable and experimental Javascript engine written in Rust. Currently, it has support for some of the language.
+
 ### #Rust2020
 
 Find all #Rust2020 posts at [Read Rust](https://readrust.net/rust-2020/).
