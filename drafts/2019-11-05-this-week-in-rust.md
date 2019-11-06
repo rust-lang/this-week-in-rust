@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Adventures in Motion Control: Initial Motion System](http://adventures.michaelfbryan.com/posts/initial-motion-system/)
 * [Rust concurrency patterns: condvars and locks](https://medium.com/@polyglot_factotum/rust-concurrency-patterns-condvars-and-locks-e278f18db74f).
 
 # Crate of the Week
