@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Rust concurrency patterns: condvars and locks](https://medium.com/@polyglot_factotum/rust-concurrency-patterns-condvars-and-locks-e278f18db74f).
+
 # Crate of the Week
 
 This week's crate is [displaydoc](https://github.com/yaahc/displaydoc), a procedural derive macro to implement `Display` by string-interpolating the doc comment.
