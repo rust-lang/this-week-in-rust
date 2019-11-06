@@ -164,6 +164,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Rust Engineer at Commure, Inc. (San Francisco, Boston, Montreal)](https://www.commure.com/#jobSection).
 * [Data Analysis Software Engineer at Swift Navigation, San Francisco, US](https://www.swiftnav.com/join-us/jobs-listing?gh_jid=4369805002).
 * [Rust/Core Developer at Parity, Berlin, DE (Remote available)](https://www.parity.io/jobs/#undefined-rust-core-developer).
 
