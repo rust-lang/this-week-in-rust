@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Generalizing Coroutines in Rust](https://samsartor.com/coroutines-1/)
+
 ### #Rust2020
 
 Find all #Rust2020 posts at [Read Rust](https://readrust.net/rust-2020/).
