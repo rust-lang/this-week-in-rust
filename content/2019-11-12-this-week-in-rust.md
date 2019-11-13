@@ -40,7 +40,7 @@ Find all #Rust2020 posts at [Read Rust](https://readrust.net/rust-2020/).
 
 This week has multiple crates:
 
-* [accurate](https://crates.io/crates/accurate), accumulator types for more accurate (or even provably correct) sum and dot product of floatting-point numbers
+* [accurate](https://crates.io/crates/accurate), accumulator types for more accurate (or even provably correct) sum and dot product of floating-point numbers
 * [transfer](https://github.com/dureuill/transfer), a crate to transfer values between pinned instances.
 * [genawaiter](https://github.com/whatisaphone/genawaiter), a crate to allow generators on stable Rust.
 
