@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Adventures in Motion Control: Working With G-Code](http://adventures.michaelfbryan.com/posts/working-with-gcode/)
 * [Generalizing Coroutines in Rust](https://samsartor.com/coroutines-1/)
 
 ### #Rust2020
