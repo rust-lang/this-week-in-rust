@@ -31,7 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Notes on type layouts and ABIs in Rust](https://gankra.github.io/blah/rust-layouts-and-abis/).
 * [Putting Rust in the kernel with eBPF](https://blog.redsift.com/labs/putting-rust-in-the-kernel-with-ebpf/).
 * [Adventures in Motion Control: Working With G-Code](http://adventures.michaelfbryan.com/posts/working-with-gcode/).
-* [Search for Rust crates with Meili](https://blog.meilisearch.com/search-rust-crates-meili/)
+* [Search for Rust crates with Meili](https://blog.meilisearch.com/search-rust-crates-meili/).
 
 ### #Rust2020
 
