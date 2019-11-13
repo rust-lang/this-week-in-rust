@@ -57,6 +57,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [crates.io: carols10cents will be mentoring multiple issues for the month of November & December](https://github.com/rust-lang/crates.io/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3AE-mentor).
 * [simdeez: Create SIMD sin/cos/log etc functions as in agner fog's vector libraries](https://github.com/jackmott/simdeez/issues/17).
 * [Spirit: Tokio 0.2 and hyper 0.13 support](https://github.com/vorner/spirit/issues/45).
 * [Spirit: Support for slog](https://github.com/vorner/spirit/issues/46).
