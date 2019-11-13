@@ -16,8 +16,21 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-- [Adventures in Motion Control: Working With G-Code](http://adventures.michaelfbryan.com/posts/working-with-gcode/)
-* [Generalizing Coroutines in Rust](https://samsartor.com/coroutines-1/)
+* 🎈🎉 [Announcing Rust 1.39.0](https://blog.rust-lang.org/2019/11/07/Rust-1.39.0.html). 🎉🎈
+* [Async-await on stable Rust](https://blog.rust-lang.org/2019/11/07/Async-await-stable.html).
+* [Announcing async-std 1.0](https://async.rs/blog/announcing-async-std-1-0/).
+* [Futures 0.3 released (with async/await support)](https://github.com/rust-lang-nursery/futures-rs/releases/tag/0.3.0).
+* [Comparing parallel Rust and C++](https://parallel-rust-cpp.github.io/).
+* [Using type-level programming in Rust to make safer hardware abstractions](https://blog.auxon.io/2019/10/25/type-level-registers/).
+* [Demystifying asynchronous Rust](https://github.com/teh-cmc/rust-async/blob/master/README.md).
+* [CSS in librsvg is now in Rust, courtesy of Mozilla Servo](https://people.gnome.org/~federico/blog/css-in-librsvg-is-now-in-rust.html).
+* [How Swift achieved dynamic linking where Rust couldn't](https://gankra.github.io/blah/swift-abi/).
+* [Experimental rewrite of a low-level system component of the Windows codebase](https://msrc-blog.microsoft.com/2019/11/07/using-rust-in-windows/).
+* [iou: Rust bindings for liburing](https://boats.gitlab.io/blog/post/iou/).
+* [Generalizing coroutines in Rust](https://samsartor.com/coroutines-1/).
+* [Notes on type layouts and ABIs in Rust](https://gankra.github.io/blah/rust-layouts-and-abis/).
+* [Putting Rust in the kernel with eBPF](https://blog.redsift.com/labs/putting-rust-in-the-kernel-with-ebpf/).
+* [Adventures in Motion Control: Working With G-Code](http://adventures.michaelfbryan.com/posts/working-with-gcode/).
 
 ### #Rust2020
 
@@ -31,7 +44,7 @@ This week has multiple crates:
 * [transfer](https://github.com/dureuill/transfer), a crate to transfer values between pinned instances.
 * [genawaiter](https://github.com/whatisaphone/genawaiter), a crate to allow generators on stable Rust.
 
-Thanks to [Nestor Demeure](https://users.rust-lang.org/t/crate-of-the-week/2704/666) and [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/669) for the suggesion!
+Thanks to [Nestor Demeure](https://users.rust-lang.org/t/crate-of-the-week/2704/666) and [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/669) for the suggestions!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -44,15 +57,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Announcing safety-dance: removing unnecessary unsafe code from popular crates](https://github.com/rust-secure-code/safety-dance).
-* [RFC: make Cargo embed dependency versions in the compiled binary](https://github.com/rust-lang/rfcs/pull/2801).
-* [good first issue] [cargo-sweep: Could cargo-sweep work without rustup](https://github.com/holmgr/cargo-sweep/issues/26)?
-* [good first issue] [Rubble: Add a function for reading the device address to rubble-nrf52](https://github.com/jonas-schievink/rubble/issues/89).
-* [good first issue] [Rubble: Don't give up when missing the initial transmit window](https://github.com/jonas-schievink/rubble/issues/77).
-* [good first issue] [Rubble: LLCP updates are not applied when the event is missed](https://github.com/jonas-schievink/rubble/issues/74).
-* [good first issue] [Rubble: Log buffer overflow on nrf52832](https://github.com/jonas-schievink/rubble/issues/69).
-* [good first issue] [Rubble: Try out `scroll` or `zerocopy` for de/encoding of PDUs](https://github.com/jonas-schievink/rubble/issues/53).
-* [good first issue] [Rubble: Only reply to LL_VERSION_IND once](https://github.com/jonas-schievink/rubble/issues/49).
+* [simdeez: Create SIMD sin/cos/log etc functions as in agner fog's vector libraries](https://github.com/jackmott/simdeez/issues/17).
+* [Spirit: Tokio 0.2 and hyper 0.13 support](https://github.com/vorner/spirit/issues/45).
+* [Spirit: Support for slog](https://github.com/vorner/spirit/issues/46).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -94,52 +101,43 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Announcing the FFI-unwinding Project Group](https://github.com/rust-lang/rfcs/pull/2797).
-* [disposition: postpone] [Signing registry index commits](https://github.com/rust-lang/rfcs/pull/2474).
+*No RFCs are currently in final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize --extern flag without a path](https://github.com/rust-lang/rust/pull/64882).
-* [disposition: merge] [Fully integrate derive helpers into name resolution](https://github.com/rust-lang/rust/pull/64694).
-* [disposition: merge] [Make the semantics of Vec::truncate(N) consistent with slices](https://github.com/rust-lang/rust/pull/64432).
-* [disposition: merge] [Use ptr::drop_in_place for VecDeque::truncate and VecDeque::clear](https://github.com/rust-lang/rust/pull/65933).
+* [disposition: merge] [Stabilize `!` in Rust 1.41.0](https://github.com/rust-lang/rust/pull/65355).
+* [disposition: merge] [Stabilize Result::map_or_else](https://github.com/rust-lang/rust/pull/66322).
 
 ## New RFCs
 
-* [Add method Result::into_ok](https://github.com/rust-lang/rfcs/pull/2799).
-* [Make Cargo embed dependency versions in the compiled binary](https://github.com/rust-lang/rfcs/pull/2801).
-* [Vec::recycle](https://github.com/rust-lang/rfcs/pull/2802).
-* [Target tier policy](https://github.com/rust-lang/rfcs/pull/2803).
-* [[T]::rejoin](https://github.com/rust-lang/rfcs/pull/2806).
+* [Generic parameters in derive](https://github.com/rust-lang/rfcs/pull/2811).
+* [Adding is_zero() to core::time::Duration](https://github.com/rust-lang/rfcs/pull/2814).
 
 # Upcoming Events
 
-### Asia Pacific
-
-* [Nov 13. Selangor, MY - Rust Malaysia Meetup November 2019](https://docs.google.com/forms/d/e/1FAIpQLSfZM9XYmBXq9tjqRziR-O3vBmm4rt1Ltnc9bGcleVrLmZHrSg/viewform).
-
 ### Europe
 
-* **[Nov 9 & 10. Barcelona, ES - RustFest Barcelona 2019](https://barcelona.rustfest.eu/).**
-* [Nov 12. Hamburg, DE - Rust Hack & Learn November 2019](https://www.meetup.com/Rust-Meetup-Hamburg/events/265899865/).
-* [Nov 13. Wrocław, PL - Rust Wrocław Meetup #14](https://www.meetup.com/Rust-Wroclaw/events/265813648/).
-* [Nov 13. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzpbrb/).
 * [Nov 14. Zurich, CH - Rust Zurich - RustFest Decompression Zürich](https://www.meetup.com/Rust-Zurich/events/265593126/).
 * [Nov 14. Moscow, RU - Rust Moscow November 2019 Meetup](https://www.meetup.com/ru-RU/Rust-%D0%B2-%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5/events/266184946/).
+* [Nov 14. Zagreb, HR - impl Zagreb for Rust - Rust Meetup 201911: Proceduralni makroi](https://www.meetup.com/Zagreb-Rust-Meetup/events/266226748).
 * [Nov 15. Barcelona, ES - Rust GTK/GStreamer Workshop at Linux Application Summit 2019](https://www.meetup.com/Barcelona-Free-Software/events/265596417/).
 * [Nov 19-21, Rome, Italy - Weekly Rust course at "La Sapienza" University](https://lugsapienza.altervista.org/corsorust-nov2019).
 * [Nov 21. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/265961100).
+* [Nov 27. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzpbkc/).
 
 ### North America
 
-* [Nov 12. Seattle, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/prbtdryzpbqb/).
-* [Nov 13. Atlanta, GA, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgryzpbrb/).
-* [Nov 13. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryzpbrb/).
 * [Nov 14. San Diego, CA, US - San Diego Rust November Meetup](https://www.meetup.com/San-Diego-Rust/events/265981542/).
 * [Nov 14. Lehi, UT, US - Utah Rust - November 2019 Regular Meetup](https://www.meetup.com/utah-rust/events/265905259/).
 * [Nov 14. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgryzpbsb/).
 * [Nov 14. Montreal, QC, CA - Montreal Rust Meetup - November 2019 RustMTL: November Common Traits & Causal Profiling](https://www.meetup.com/Rust-Montreal/events/prvrjryzpbqb/).
+* [Nov 14. Arlington, VA, US - Rust DC — Mid-month Rustful](https://www.meetup.com/RustDC/events/265769078).
 * [Nov 20. Portland, OR, US - PDXRust - Hack Night](https://www.meetup.com/PDXRust/events/265998640/).
+* [Nov 20. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscryzpbkc/).
+* [Nov 20. Chicago, IL, US - Chicago Rust Meetup - Constructing a Repl(like) from scratch](https://www.meetup.com/Chicago-Rust-Meetup/events/266237535/).
+* [Nov 25. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzpbhc/).
+* [Nov 26. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyzpbjc/).
+* [Nov 27. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryzpbkc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -149,6 +147,9 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Rust Team Engineer at Mozilla, multiple locations & remote](https://careers.mozilla.org/position/gh/1948149/).
+* [Rust/Core Developer at Parity, Berlin, DE (Remote available)](https://www.parity.io/jobs/#undefined-rust-core-developer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
