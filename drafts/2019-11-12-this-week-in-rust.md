@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 - [Adventures in Motion Control: Working With G-Code](http://adventures.michaelfbryan.com/posts/working-with-gcode/)
+* [Generalizing Coroutines in Rust](https://samsartor.com/coroutines-1/)
 
 ### #Rust2020
 
@@ -24,9 +25,13 @@ Find all #Rust2020 posts at [Read Rust](https://readrust.net/rust-2020/).
 
 # Crate of the Week
 
-This week's crate is [displaydoc](https://github.com/yaahc/displaydoc), a procedural derive macro to implement `Display` by string-interpolating the doc comment.
+This week has multiple crates:
 
-Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/652) for the suggesion!
+* [accurate](https://crates.io/crates/accurate), accumulator types for more accurate (or even provably correct) sum and dot product of floatting-point numbers
+* [transfer](https://github.com/dureuill/transfer), a crate to transfer values between pinned instances.
+* [genawaiter](https://github.com/whatisaphone/genawaiter), a crate to allow generators on stable Rust.
+
+Thanks to [Nestor Demeure](https://users.rust-lang.org/t/crate-of-the-week/2704/666) and [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/669) for the suggesion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -55,35 +60,23 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-217 pull requests were [merged in the last week][merged]
+310 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-10-28..2019-11-04
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-11-04..2019-11-11
 
-* [Allow foreign exceptions to unwind through Rust code and Rust panics to unwind through FFI](https://github.com/rust-lang/rust/pull/65646)
-* [expand: Feature gate out-of-line modules in proc macro input](https://github.com/rust-lang/rust/pull/66078)
-* [Lint ignored `#[inline]` on function prototypes](https://github.com/rust-lang/rust/pull/65294)
-* [Improve the "try using a variant of the expected type" hint](https://github.com/rust-lang/rust/pull/65562)
-* [Use heuristics to recover parsing of missing `;`](https://github.com/rust-lang/rust/pull/65640)
-* [Point at local similarly named element and tweak references to variants](https://github.com/rust-lang/rust/pull/65421)
-* [Custom lifetime error for `impl` item doesn't conform to `trait`](https://github.com/rust-lang/rust/pull/65068)
-* [Add lint and tests for unnecessary parens around types](https://github.com/rust-lang/rust/pull/65112)
-* [Correct handling of type flags with `ConstValue::Placeholder`](https://github.com/rust-lang/rust/pull/65643)
-* [Use structured suggestion for unnecessary bounds in type aliases](https://github.com/rust-lang/rust/pull/65914)
-* [save-analysis: Account for async desugaring in async fn return types](https://github.com/rust-lang/rust/pull/65936)
-* [Switch CrateMetadata's source_map_import_info from RwLock to Once](https://github.com/rust-lang/rust/pull/65979)
-* [Don't use `eval_always` for miri queries used from codegen](https://github.com/rust-lang/rust/pull/65927)
-* [rustc: use IndexVec<DefIndex, T> instead of Vec<T>](https://github.com/rust-lang/rust/pull/65825)
-* [Make `promote_consts` emit the errors when required promotion fails](https://github.com/rust-lang/rust/pull/65946)
-* [Implement ordered/sorted iterators on `BinaryHeap`](https://github.com/rust-lang/rust/pull/65091)
-* [Make `*`{`const`, `mut`} `T>::offset_from` const fn](https://github.com/rust-lang/rust/pull/63810)
-* [Stabilize `float_to_from_bytes` feature](https://github.com/rust-lang/rust/pull/66002)
-* [hashbrown: Introduce `ahash-compile-time-rng` feature](https://github.com/rust-lang/hashbrown/pull/125)
-* [cargo: Add --filter-platform to `cargo metadata`](https://github.com/rust-lang/cargo/pull/7376)
-* [cargo: Fix `cargo fix` not showing colors](https://github.com/rust-lang/cargo/pull/7550)
-* [chalk: Remove delayed literals](https://github.com/rust-lang/chalk/pull/270)
-* [chalk: Add TypeName::Error variant](https://github.com/rust-lang/chalk/pull/269)
-* [chalk: Output multiple solutions](https://github.com/rust-lang/chalk/pull/263)
-* [rustdoc: Stabilize `cfg(doctest)`](https://github.com/rust-lang/rust/pull/63803)
+* [compiler-builtins: Gate atomic intrinsics on presence of instructions](https://github.com/rust-lang/compiler-builtins/pull/324)
+* [Fix C aggregate-passing ABI on powerpc](https://github.com/rust-lang/rust/pull/66050)
+* [Reduce amount of errors given unclosed delimiter](https://github.com/rust-lang/rust/pull/65838)
+* [Remove LintBuffer from Session](https://github.com/rust-lang/rust/pull/65835)
+* [Rename `MethodSig` → `FnSig` and use it in `ItemKind::Fn`](https://github.com/rust-lang/rust/pull/66188)
+* [Cheaper doc comments](https://github.com/rust-lang/rust/pull/65750)
+* [Chalk: Implement lowering errors manually](https://github.com/rust-lang/chalk/pull/276)
+* [Use `ptr::drop_in_place` for `VecDeque::`{`truncate`, `clear`}](https://github.com/rust-lang/rust/pull/65933)
+* [Stabilize the `re_rebalance_coherence` feature](https://github.com/rust-lang/rust/pull/65879)
+* [Add `MaybeUninit` methods `uninit_array`, `slice_get_ref`, `slice_get_mut`](https://github.com/rust-lang/rust/pull/65580)
+* [hashbrown: Remove BuildHasher requirement from raw entry APIs](https://github.com/rust-lang/hashbrown/pull/123)
+* [hashbrown: Optimize set union and intersection](https://github.com/rust-lang/hashbrown/pull/130)
+* [clippy: Remove plugin interface](https://github.com/rust-lang/rust-clippy/pull/4714)
 
 ## Approved RFCs
 
@@ -160,11 +153,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I did manage to get this compile in the end - does anyone else find that the process of asking the question well on a public forum organizes their thoughts well enough to solve the problem?
+> In my experience, prayers are not a very effective concurrency primitive.
 
-– [David Mason on rust-users](https://users.rust-lang.org/t/std-phantomdata-and-unused-fields-in-structs/34271/3)
+– [Robert Lord on his blog](https://lord.io/blog/2019/text-editing-hates-you-too/)
 
-Thanks to [Daniel H-M](https://users.rust-lang.org/t/twir-quote-of-the-week/328/725) for the suggestion!
+Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/727) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
