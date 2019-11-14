@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+- [Conf-Count: Conference Monitoring System based on Image Recognition in Rust](https://blog.knoldus.com/conf-count-conference-monitoring-system-based-on-image-recognition-in-rust/)
 
 ### #Rust2020
 
