@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 Find all #Rust2020 posts at [Read Rust](https://readrust.net/rust-2020/).
 
+[Sneak Peek of PineTime Smart Watch… And why it’s perfect for teaching IoT](https://medium.com/swlh/sneak-peek-of-pinetime-smart-watch-and-why-its-perfect-for-teaching-iot-81b74161c159?source=friends_link&sk=d9301466f5499bece3e7b638e99ec20d).
+
 # Crate of the Week
 
 This week has multiple crates:
