@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[RustFest 2019 - A retrospective](https://www.lpalmieri.com/posts/2019-11-14-rustfest-2019-a-retrospective/)
+
 ### #Rust2020
 
 Find all #Rust2020 posts at [Read Rust](https://readrust.net/rust-2020/).
