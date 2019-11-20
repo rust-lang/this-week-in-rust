@@ -24,7 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Global executors](https://boats.gitlab.io/blog/post/global-executors/).
 * [Rust Infrastructure team: Evaluating GitHub Actions](https://blog.rust-lang.org/inside-rust/2019/11/14/evaluating-github-actions.html).
 * [Rust bug minimization patterns](http://blog.pnkfx.org/blog/2019/11/18/rust-bug-minimization-patterns/).
-* [Rust on PineTime smart watch](https://medium.com/swlh/sneak-peek-of-pinetime-smart-watch-and-why-its-perfect-for-teaching-iot-81b74161c159).
+* [Teaching Rust in IoT with PineTime smart watch](https://medium.com/swlh/sneak-peek-of-pinetime-smart-watch-and-why-its-perfect-for-teaching-iot-81b74161c159).
 
 ### #Rust2020
 
@@ -130,7 +130,7 @@ decision. Express your opinions now.
 
 ### Online
 
-* [Dec  1. Upcoming "Advent of Code" livestreams in German](https://github.com/scy/advent-of-code).
+* [Dec  1. "Advent of Code" livestream in German](https://github.com/scy/advent-of-code).
 
 ### Africa
 
