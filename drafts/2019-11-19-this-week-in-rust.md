@@ -16,8 +16,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Upcoming "Advent of Code" livestreams in German](https://github.com/scy/advent-of-code)
-
 ### #Rust2020
 
 Find all #Rust2020 posts at [Read Rust](https://readrust.net/rust-2020/).
@@ -101,6 +99,10 @@ decision. Express your opinions now.
 * [Adding is_zero() to core::time::Duration](https://github.com/rust-lang/rfcs/pull/2814).
 
 # Upcoming Events
+
+### Online
+
+* [Dec  1. Upcoming "Advent of Code" livestreams in German](https://github.com/scy/advent-of-code).
 
 ### Europe
 
