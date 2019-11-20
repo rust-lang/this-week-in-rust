@@ -123,6 +123,10 @@ decision. Express your opinions now.
 
 # Upcoming Events
 
+### Online
+
+* [Dec  1. Upcoming "Advent of Code" livestreams in German](https://github.com/scy/advent-of-code).
+
 ### Europe
 
 * [Nov 14. Zurich, CH - Rust Zurich - RustFest Decompression Zürich](https://www.meetup.com/Rust-Zurich/events/265593126/).
