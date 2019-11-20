@@ -16,13 +16,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-- [Implementing ArrayVec Using Const Generics](http://adventures.michaelfbryan.com/posts/const-arrayvec/)
+* [Stacked borrows: An aliasing model for Rust](https://www.ralfj.de/blog/2019/11/18/stacked-borrows-paper.html).
+* [Implementing ArrayVec using const generics](http://adventures.michaelfbryan.com/posts/const-arrayvec/).
+* [Thoughts on error handling in Rust](https://lukaskalbertodt.github.io/2019/11/14/thoughts-on-error-handling-in-rust.html).
+* [Understanding Serde](https://www.joshmcguigan.com/blog/understanding-serde/).
+* [rust-analyzer: Find usages](https://rust-analyzer.github.io/2019/11/13/find-usages.html).
+* [Global executors](https://boats.gitlab.io/blog/post/global-executors/).
+* [Rust Infrastructure team: Evaluating GitHub Actions](https://blog.rust-lang.org/inside-rust/2019/11/14/evaluating-github-actions.html).
+* [Rust bug minimization patterns](http://blog.pnkfx.org/blog/2019/11/18/rust-bug-minimization-patterns/).
+* [Rust on PineTime smart watch](https://medium.com/swlh/sneak-peek-of-pinetime-smart-watch-and-why-its-perfect-for-teaching-iot-81b74161c159).
 
 ### #Rust2020
 
 Find all #Rust2020 posts at [Read Rust](https://readrust.net/rust-2020/).
-
-[Sneak Peek of PineTime Smart Watch… And why it’s perfect for teaching IoT](https://medium.com/swlh/sneak-peek-of-pinetime-smart-watch-and-why-its-perfect-for-teaching-iot-81b74161c159?source=friends_link&sk=d9301466f5499bece3e7b638e99ec20d).
 
 # Crate of the Week
 
@@ -41,10 +47,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Governance WG call for participation](https://blog.rust-lang.org/inside-rust/2019/11/13/goverance-wg-cfp.html).
+* [good first issue] [async-std: Add Future::timeout](https://github.com/async-rs/async-std/issues/564).
 * [crates.io: carols10cents will be mentoring multiple issues for the month of November & December](https://github.com/rust-lang/crates.io/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3AE-mentor).
-* [simdeez: Create SIMD sin/cos/log etc functions as in agner fog's vector libraries](https://github.com/jackmott/simdeez/issues/17).
-* [Spirit: Tokio 0.2 and hyper 0.13 support](https://github.com/vorner/spirit/issues/45).
-* [Spirit: Support for slog](https://github.com/vorner/spirit/issues/46).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -113,13 +118,13 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize `!` in Rust 1.41.0](https://github.com/rust-lang/rust/pull/65355).
 * [disposition: merge] [Stabilize Result::map_or_else](https://github.com/rust-lang/rust/pull/66322).
+* [disposition: merge] [Scope format! temporaries](https://github.com/rust-lang/rust/pull/64856).
+* [disposition: merge] [Stabilize cfg(doc)](https://github.com/rust-lang/rust/pull/61351).
 
 ## New RFCs
 
-* [Generic parameters in derive](https://github.com/rust-lang/rfcs/pull/2811).
-* [Adding is_zero() to core::time::Duration](https://github.com/rust-lang/rfcs/pull/2814).
+* [A macro to get the current function name](https://github.com/rust-lang/rfcs/pull/2818).
 
 # Upcoming Events
 
@@ -127,30 +132,30 @@ decision. Express your opinions now.
 
 * [Dec  1. Upcoming "Advent of Code" livestreams in German](https://github.com/scy/advent-of-code).
 
+### Africa
+
+* [Dec  4. Johannesburg, ZA - Johannesburg Rust Meetup - Time for Some Highbrow FP in Rust](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpdtkryzqbgb/).
+
+### Asia Pacific
+
+* [Dec  2. Auckland, NZ - Rust AKL - Introduction to Rust (part 3)](https://www.meetup.com/rust-akl/events/259481456/).
+
 ### Europe
 
-* [Nov 14. Zurich, CH - Rust Zurich - RustFest Decompression Zürich](https://www.meetup.com/Rust-Zurich/events/265593126/).
-* [Nov 14. Moscow, RU - Rust Moscow November 2019 Meetup](https://www.meetup.com/ru-RU/Rust-%D0%B2-%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5/events/266184946/).
-* [Nov 14. Zagreb, HR - impl Zagreb for Rust - Rust Meetup 201911: Proceduralni makroi](https://www.meetup.com/Zagreb-Rust-Meetup/events/266226748).
-* [Nov 15. Barcelona, ES - Rust GTK/GStreamer Workshop at Linux Application Summit 2019](https://www.meetup.com/Barcelona-Free-Software/events/265596417/).
-* [Nov 19-21, Rome, Italy - Weekly Rust course at "La Sapienza" University](https://lugsapienza.altervista.org/corsorust-nov2019).
 * [Nov 21. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/265961100).
 * [Nov 26. Vienna, AT - Rust Vienna - El rust de vienna](https://www.meetup.com/Rust-Vienna/events/266365092/).
 * [Nov 27. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzpbkc/).
+* [Nov 27. Copenhagen, DK - Copenhagen Rust Hack Night #20](https://cph.rs/).
 
 ### North America
 
-* [Nov 14. San Diego, CA, US - San Diego Rust November Meetup](https://www.meetup.com/San-Diego-Rust/events/265981542/).
-* [Nov 14. Lehi, UT, US - Utah Rust - November 2019 Regular Meetup](https://www.meetup.com/utah-rust/events/265905259/).
-* [Nov 14. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgryzpbsb/).
-* [Nov 14. Montreal, QC, CA - Montreal Rust Meetup - November 2019 RustMTL: November Common Traits & Causal Profiling](https://www.meetup.com/Rust-Montreal/events/prvrjryzpbqb/).
-* [Nov 14. Arlington, VA, US - Rust DC — Mid-month Rustful](https://www.meetup.com/RustDC/events/265769078).
-* [Nov 20. Portland, OR, US - PDXRust - Hack Night](https://www.meetup.com/PDXRust/events/265998640/).
-* [Nov 20. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscryzpbkc/).
-* [Nov 20. Chicago, IL, US - Chicago Rust Meetup - Constructing a Repl(like) from scratch](https://www.meetup.com/Chicago-Rust-Meetup/events/266237535/).
 * [Nov 25. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzpbhc/).
 * [Nov 26. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyzpbjc/).
 * [Nov 27. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryzpbkc/).
+* [Nov 27. Mesa, AZ, US - Desert Rust - Rust: Crates and Organization](https://www.meetup.com/Desert-Rustaceans/events/wmmphryzpbkc/).
+* [Dec  3. San Francisco, CA, US - Rust Bay Area - [@ Cloudflare] Declarative UIs in Rust and Real-world production CLIs](https://www.meetup.com/Rust-Bay-Area/events/266571982).
+* [Dec  4. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyzqbgb/).
+* [Dec  4. Portland, OR, US - PDXRust - macros_rule!](https://www.meetup.com/PDXRust/events/264733991/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -161,8 +166,11 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Official /r/rust "Who's Hiring" thread for job-seekers and job-offerers [Rust 1.39]](https://www.reddit.com/r/rust/comments/dvxw6u/official_rrust_whos_hiring_thread_for_jobseekers/).
 * [Senior Software Engineer at ConsenSys R&D, Remote](https://consensys.net/open-roles/1792013/).
 * [Embedded Software Engineer at Sense (Rust/C/Python), Cambridge, MA, US](https://apply.workable.com/sense/j/ADDB5A7717/).
+* [Rust/Core Developer at Parity, Berlin, DE (Remote available)](https://www.parity.io/jobs/).
+* [Senior Rust WebGL Developer at Luna, Kraków, PL (Remote available)](https://stackoverflow.com/jobs/296070/senior-rust-webgl-developer-luna).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
