@@ -134,6 +134,7 @@ decision. Express your opinions now.
 
 * [Nov 21. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/265961100).
 * [Nov 26. Vienna, AT - Rust Vienna - El rust de vienna](https://www.meetup.com/Rust-Vienna/events/266365092/).
+* [Nov 26+28, Rome, Italy - Weekly Rust course at "La Sapienza" University: 2nd lesson!](https://lugsapienza.altervista.org/corsorust-nov2019).
 * [Nov 27. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzpbkc/).
 * [Nov 27. Copenhagen, DK - Copenhagen Rust Hack Night #20](https://cph.rs/).
 
