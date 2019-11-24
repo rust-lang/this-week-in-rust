@@ -169,7 +169,7 @@ This week, we have two quotes:
 
 > Well a Museum purpose is also memory safety, I guess.
 
-– [/u/xav_19 on /r/rust](https://www.reddit.com/r/rust/comments/dxh6pg/why_is_trpl_sold_in_the_gift_shop_at_the_spy/f7r8d3k?utm_source=share&utm_medium=web2x) commenting on a post asking why "The Rust Programming Language" is sold in Washington D.C.'s spy museum's gift shop
+– [/u/xav_19 on /r/rust](https://www.reddit.com/r/rust/comments/dxh6pg/why_is_trpl_sold_in_the_gift_shop_at_the_spy/f7r8d3k) commenting on a post asking why "The Rust Programming Language" is sold in Washington D.C.'s spy museum's gift shop
 
 Thanks to [Matthieu M.](https://users.rust-lang.org/t/twir-quote-of-the-week/328/737) and [ZiCog](https://users.rust-lang.org/t/twir-quote-of-the-week/328/739) for the suggestion!
 
