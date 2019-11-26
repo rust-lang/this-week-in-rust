@@ -136,6 +136,7 @@ decision. Express your opinions now.
 * [Nov 26. Vienna, AT - Rust Vienna - El rust de vienna](https://www.meetup.com/Rust-Vienna/events/266365092/).
 * [Nov 27. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzpbkc/).
 * [Nov 27. Copenhagen, DK - Copenhagen Rust Hack Night #20](https://cph.rs/).
+* [Dec  2. Karlsruhe, DE - Rust Meet-up](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/266554688/).
 
 ### North America
 
