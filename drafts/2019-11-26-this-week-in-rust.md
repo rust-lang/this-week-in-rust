@@ -136,6 +136,7 @@ decision. Express your opinions now.
 * [Nov 26+28, Rome, Italy - Weekly Rust course at "La Sapienza" University: 2nd lesson!](https://lugsapienza.altervista.org/corsorust-nov2019).
 * [Nov 27. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzpbkc/).
 * [Nov 27. Copenhagen, DK - Copenhagen Rust Hack Night #20](https://cph.rs/).
+* [Dec  2. Karlsruhe, DE - Rust Meet-up](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/266554688/).
 * [Dec  4. Wroclaw, PL - Rust Wroclaw Meetup #15](https://www.meetup.com/Rust-Wroclaw/events/266756721/).
 
 ### North America
