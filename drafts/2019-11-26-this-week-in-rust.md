@@ -20,11 +20,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 Find all #Rust2020 posts at [Read Rust](https://readrust.net/rust-2020/).
 
+[Building a Rust Driver for PineTime’s Touch Controller](https://medium.com/@ly.lee/building-a-rust-driver-for-pinetimes-touch-controller-cbc1a5d5d3e9?source=friends_link&sk=d8cf73fc943d9c0e960627d768f309cb).
+
 # Crate of the Week
 
-This week's crate is [wasmtime](https://github.com/bytecodealliance/wasmtime), a standalone JIT-style runtime for WebAssembly.
+This week's crate is [rerast](https://github.com/google/rerast), a rule-based Rust code transformation tool.
 
-Thanks to [Josh Triplett](https://users.rust-lang.org/t/crate-of-the-week/2704/671) for the suggestions!
+Thanks to [Jan Riemer](https://users.rust-lang.org/t/crate-of-the-week/2704/674) for the suggestions!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -47,46 +49,43 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-252 pull requests were [merged in the last week][merged]
+260 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-11-11..2019-11-18
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-11-18..2019-11-25
 
-* [add a callback that allows compiler consumers to override queries](https://github.com/rust-lang/rust/pull/66297)
-* [update LLVM submodule](https://github.com/rust-lang/rust/pull/66318)
-* [expand source_util macros with def-site context](https://github.com/rust-lang/rust/pull/66349)
-* [improve errors after re rebalance coherence](https://github.com/rust-lang/rust/pull/66253)
-* [move `Session` fields to `CrateStore`](https://github.com/rust-lang/rust/pull/66334)
-* [improve non-exhaustiveness handling in usefulness checking](https://github.com/rust-lang/rust/pull/66330)
-* [refactor integer range handling in the usefulness algorithm](https://github.com/rust-lang/rust/pull/66326)
-* [remove some stack frames from `.async` calls](https://github.com/rust-lang/rust/pull/66398)
-* [avoid hashing the key twice in `get_query()`](https://github.com/rust-lang/rust/pull/66013)
-* [don't warn labels beginning with `_` on unused_labels lint](https://github.com/rust-lang/rust/pull/66419)
-* [only include "already existing ..." comment in gitignore on conflict](https://github.com/rust-lang/cargo/pull/7570)
-* [suggest borrowing when it would satisfy an unmet trait bound](https://github.com/rust-lang/rust/pull/65456)
-* [fully integrate derive helpers into name resolution](https://github.com/rust-lang/rust/pull/64694)
-* [push `ast::{ItemKind, ImplItemKind}::OpaqueTy` hack down into lowering](https://github.com/rust-lang/rust/pull/66197)
-* [add a HIR pass to check consts for `if`, `loop`, etc.](https://github.com/rust-lang/rust/pull/66170)
-* [fix MIR lowering evaluation order and soundness bug](https://github.com/rust-lang/rust/pull/65608)
-* [split `ConstValue` into two enums](https://github.com/rust-lang/rust/pull/66233)
-* [fix two OOM issues related to `ConstProp`](https://github.com/rust-lang/rust/pull/66394)
-* [make dataflow-based const qualification the canonical one](https://github.com/rust-lang/rust/pull/66385)
-* [miri: use new isize_max method in FS accesses](https://github.com/rust-lang/miri/pull/1056)
-* [miri panic_unwind: fix hack for SEH platforms](https://github.com/rust-lang/rust/pull/66466)
-* [make chalk-rust-ir generic over type-family](https://github.com/rust-lang/chalk/pull/284)
-* [chalk: refactor fold](https://github.com/rust-lang/chalk/pull/283)
-* [chalk: implement `zip_binders` and add some `dyn Trait`/`impl Trait` tests](https://github.com/rust-lang/chalk/pull/282)
-* [add `Result::map_or`](https://github.com/rust-lang/rust/pull/66292)
-* [fix `HashSet::union` performance](https://github.com/rust-lang/rust/pull/66280)
-* [add raw ptr variant of `UnsafeCell::get`](https://github.com/rust-lang/rust/pull/66248)
-* [proposal for `BTree`{`Map`, `Set`}`::`{`min`, `max`}](https://github.com/rust-lang/rust/pull/65637)
-* [make the semantics of `Vec::truncate(_)` consistent with slices](https://github.com/rust-lang/rust/pull/64432)
-* [libc: add support for making functions `const`](https://github.com/rust-lang/libc/pull/1536)
-* [cargo: Don't panic when parsing `/proc/stat`](https://github.com/rust-lang/cargo/pull/7580)
-* [stabilize rustdoc theme options](https://github.com/rust-lang/rust/pull/54733)
-* [rustup build: make clippy faster by using checking before that operation](https://github.com/rust-lang/rustup/pull/2122)
-* [rustup: retry downloads](https://github.com/rust-lang/rustup/pull/2121)
-* [rustup: fix/improve human-readable units](https://github.com/rust-lang/rustup/pull/2043)
-* [measureme: only use 48 bits for encoding timestamps and 32 bits for encoding thread IDs in `RawEvent` in order to make it smaller](https://github.com/rust-lang/measureme/pull/86)
+* [stabilize `!`](https://github.com/rust-lang/rust/pull/65355)
+* [stabilize `cfg(doc)`](https://github.com/rust-lang/rust/pull/61351)
+* [debuginfo: support for `std::collections::Hash*` in windows debuggers](https://github.com/rust-lang/rust/pull/66597)
+* [make gdb pretty-printing more robust when printing uninitialized `Vec`](https://github.com/rust-lang/rust/pull/66576)
+* [generate DWARF address ranges for faster lookups](https://github.com/rust-lang/rust/pull/66532)
+* [fix cycle when debug-printing opaque types](https://github.com/rust-lang/rust/pull/66594)
+* [resolve: give derive helpers highest priority during resolution](https://github.com/rust-lang/rust/pull/66529)
+* [remove pretty printing of specific nodes in AST](https://github.com/rust-lang/rust/pull/66575)
+* [point at type in `let` assignment on type errors](https://github.com/rust-lang/rust/pull/66539)
+* [suggest calling async closure when needed](https://github.com/rust-lang/rust/pull/66239)
+* [suggest `#[repr(C)]` instead of `#[repr(C, packed, ...)]`](https://github.com/rust-lang/rust/pull/66206)
+* [add outlives suggestions for some lifetime errors](https://github.com/rust-lang/rust/pull/58281)
+* [use a `SmallVec` for `Candidate::match_pairs`](https://github.com/rust-lang/rust/pull/66540)
+* [miri: add `acos`, `asin`, and `atan` foreign functions](https://github.com/rust-lang/miri/pull/1067)
+* [mir-opt: asking `?`s in a more optimized fashion](https://github.com/rust-lang/rust/pull/66282)
+* [mir-opt: turn on the `ConstProp` pass by default](https://github.com/rust-lang/rust/pull/66074)
+* [miri: support unwinding after a panic](https://github.com/rust-lang/miri/pull/693)
+* [handle statics in MIR as const pointers](https://github.com/rust-lang/rust/pull/66587)
+* [delay an `is_local_ever_initialized` call](https://github.com/rust-lang/rust/pull/66537)
+* [reduce size of `hir::Expr` by boxing more of `hir::InlineAsm`](https://github.com/rust-lang/rust/pull/66515) 
+* [use proc-macro to derive HashStable everywhere](https://github.com/rust-lang/rust/pull/66279)
+* [remove `compiler_builtins_lib` feature from libstd](https://github.com/rust-lang/rust/pull/66538)
+* [std::error::Chain: remove `Copy`](https://github.com/rust-lang/rust/pull/66511)
+* [use `drop_in_place` in `array::IntoIter::drop`](https://github.com/rust-lang/rust/pull/65821)
+* [stabilize `Result::map_or_else`](https://github.com/rust-lang/rust/pull/66322)
+* [libc: deprecate vfork](https://github.com/rust-lang/libc/pull/1574)
+* [libc: add initial support for sparc-unknown-linux-gnu](https://github.com/rust-lang/libc/pull/1567)
+* [cargo: extend documentation on security concerns of crate names in a registry](https://github.com/rust-lang/cargo/pull/7616)
+* [cargo: turn the new lock file format on by default](https://github.com/rust-lang/cargo/pull/7579)
+* [cargo: stabilize install-upgrade](https://github.com/rust-lang/cargo/pull/7560)
+* [rustdoc: stabilize `edition` annotation](https://github.com/rust-lang/rust/pull/66238)
+* [rustdoc: preserve whitespace inside one-backtick codeblocks](https://github.com/rust-lang/rust/pull/65613)
+* [measureme: optimize FileSerializationSink by using parking_lot::Mutex and avoiding heap allocations in write_atomic](https://github.com/rust-lang/measureme/pull/88)
 
 ## Approved RFCs
 
@@ -134,9 +133,11 @@ decision. Express your opinions now.
 
 * [Nov 21. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/265961100).
 * [Nov 26. Vienna, AT - Rust Vienna - El rust de vienna](https://www.meetup.com/Rust-Vienna/events/266365092/).
+* [Nov 26+28, Rome, Italy - Weekly Rust course at "La Sapienza" University: 2nd lesson!](https://lugsapienza.altervista.org/corsorust-nov2019).
 * [Nov 27. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzpbkc/).
 * [Nov 27. Copenhagen, DK - Copenhagen Rust Hack Night #20](https://cph.rs/).
 * [Dec  2. Karlsruhe, DE - Rust Meet-up](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/266554688/).
+* [Dec  4. Wroclaw, PL - Rust Wroclaw Meetup #15](https://www.meetup.com/Rust-Wroclaw/events/266756721/).
 
 ### North America
 
@@ -157,21 +158,17 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [PhD, postdoc & intern positions in RustBelt and Iris projects at Max Planck](https://users.rust-lang.org/t/jobs-phd-postdoc-intern-positions-in-rustbelt-and-iris-projects-at-max-planck/35016)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-This week, we have two quotes:
+> I said it before, and I'll say it again: If one views Rust as a critique on C++, one should view it as a constructive critique.
 
-> Telling a programmer there's already a library to do X is like telling a songwriter there's already a song about love.
+– [llogiq on /r/rust](https://www.reddit.com/r/rust/comments/dyr8ps/rust_from_a_cc_point_of_view_viceversa/f835w7h)
 
-– [PeteCordell on twitter](https://twitter.com/petecordell/status/428542622844477441), as [quoted in a recent Rust Gamedev meetup](https://www.youtube.com/watch?v=lpOg2nl3kr0)
-
-> Well a Museum purpose is also memory safety, I guess.
-
-– [/u/xav_19 on /r/rust](https://www.reddit.com/r/rust/comments/dxh6pg/why_is_trpl_sold_in_the_gift_shop_at_the_spy/f7r8d3k?utm_source=share&utm_medium=web2x) commenting on a post asking why "The Rust Programming Language" is sold in Washington D.C.'s spy museum's gift shop
-
-Thanks to [Matthieu M.](https://users.rust-lang.org/t/twir-quote-of-the-week/328/737) and [ZiCog](https://users.rust-lang.org/t/twir-quote-of-the-week/328/739) for the suggestion!
+Thanks to [Dmitry Kashitsyn](https://users.rust-lang.org/t/twir-quote-of-the-week/328/741) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
