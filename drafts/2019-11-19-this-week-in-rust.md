@@ -79,7 +79,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [stabilize `Result::map_or_else`](https://github.com/rust-lang/rust/pull/66322)
 * [libc: deprecate vfork](https://github.com/rust-lang/libc/pull/1574)
 * [libc: add initial support for sparc-unknown-linux-gnu](https://github.com/rust-lang/libc/pull/1567)
-* [cargo: extend documentation on security concerns of crate names in a registry](xtend documentation on security concerns of crate names in a registry)
+* [cargo: extend documentation on security concerns of crate names in a registry](https://github.com/rust-lang/cargo/pull/7616)
 * [cargo: turn the new lock file format on by default](https://github.com/rust-lang/cargo/pull/7579)
 * [cargo: stabilize install-upgrade](https://github.com/rust-lang/cargo/pull/7560)
 * [rustdoc: stabilize `edition` annotation](https://github.com/rust-lang/rust/pull/66238)
