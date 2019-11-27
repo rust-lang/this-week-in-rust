@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 Find all #Rust2020 posts at [Read Rust](https://readrust.net/rust-2020/).
 
+[Building a Rust Driver for PineTime’s Touch Controller](https://medium.com/@ly.lee/building-a-rust-driver-for-pinetimes-touch-controller-cbc1a5d5d3e9?source=friends_link&sk=d8cf73fc943d9c0e960627d768f309cb).
+
 # Crate of the Week
 
 This week's crate is [rerast](https://github.com/google/rerast), a rule-based Rust code transformation tool.
