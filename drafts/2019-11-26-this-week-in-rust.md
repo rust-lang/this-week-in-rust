@@ -1,5 +1,5 @@
-Title: This Week in Rust 313
-Number: 313
+Title: This Week in Rust 314
+Number: 314
 Date: 2019-11-26
 Category: This Week in Rust
 
@@ -16,11 +16,24 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Tokio roadmap to 1.0](https://tokio.rs/blog/2019-11-tokio-0-2/).
+* [Shipping a compiler every six weeks](https://www.pietroalbini.org/blog/shipping-a-compiler-every-six-weeks/).
+* [`if` and `match` in constants on nightly rust](https://blog.rust-lang.org/inside-rust/2019/11/25/const-if-match.html).
+* [Towards a unified theory of reactive UI](https://raphlinus.github.io/ui/druid/2019/11/22/reactive-ui.html).
+* [Surveying error handling libraries](https://blog.yoshuawuyts.com/error-handling-survey/).
+* [Porting librsvg to Rust: Refactoring the Length type](https://people.gnome.org/~federico/blog/refactoring-the-length-type.html).
+* [Lessons learned by transpiling C to Rust](https://immunant.com/blog/2019/11/rust2020/).
+* [How to panic in Rust](https://www.ralfj.de/blog/2019/11/25/how-to-panic-in-rust.html).
+* [Neat Rust tricks: Passing Rust closures to C](https://blog.seantheprogrammer.com/neat-rust-tricks-passing-rust-closures-to-c).
+* [Moving gnome-shell's styles to Rust](https://people.gnome.org/~federico/blog/moving-gnome-shell-styles-to-rust.html).
+* [Async-awaitifying a Rust CLI App](https://zupzup.org/async-awaitify-rust-cli/).
+* [Building a Rust driver for PineTime’s touch controller](https://medium.com/@ly.lee/building-a-rust-driver-for-pinetimes-touch-controller-cbc1a5d5d3e9).
+* [RustFest Barcelona talk recordings are now available](https://blog.rustfest.eu/this-week-in-rustfest-barcelona-videos).
+* [Cryptowatch is sponsoring development of Rust GUI library iced](https://blog.cryptowat.ch/2019/11/25/sponsoring-rust-gui-library-iced/).
+
 ### #Rust2020
 
 Find all #Rust2020 posts at [Read Rust](https://readrust.net/rust-2020/).
-
-[Building a Rust Driver for PineTime’s Touch Controller](https://medium.com/@ly.lee/building-a-rust-driver-for-pinetimes-touch-controller-cbc1a5d5d3e9?source=friends_link&sk=d8cf73fc943d9c0e960627d768f309cb).
 
 # Crate of the Week
 
@@ -39,8 +52,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Governance WG call for participation](https://blog.rust-lang.org/inside-rust/2019/11/13/goverance-wg-cfp.html).
-* [good first issue] [async-std: Add Future::timeout](https://github.com/async-rs/async-std/issues/564).
+* [seeking input] [Time v0.2 pre-release feedback](https://github.com/time-rs/time/issues/190).
+* [good first issue] [what: Shared os behaviour](https://github.com/imsnif/what/issues/17).
+* [what: Listen on all interfaces](https://github.com/imsnif/what/issues/16).
 * [crates.io: carols10cents will be mentoring multiple issues for the month of November & December](https://github.com/rust-lang/crates.io/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3AE-mentor).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -72,7 +86,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [miri: support unwinding after a panic](https://github.com/rust-lang/miri/pull/693)
 * [handle statics in MIR as const pointers](https://github.com/rust-lang/rust/pull/66587)
 * [delay an `is_local_ever_initialized` call](https://github.com/rust-lang/rust/pull/66537)
-* [reduce size of `hir::Expr` by boxing more of `hir::InlineAsm`](https://github.com/rust-lang/rust/pull/66515) 
+* [reduce size of `hir::Expr` by boxing more of `hir::InlineAsm`](https://github.com/rust-lang/rust/pull/66515)
 * [use proc-macro to derive HashStable everywhere](https://github.com/rust-lang/rust/pull/66279)
 * [remove `compiler_builtins_lib` feature from libstd](https://github.com/rust-lang/rust/pull/66538)
 * [std::error::Chain: remove `Copy`](https://github.com/rust-lang/rust/pull/66511)
@@ -107,13 +121,14 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize Result::map_or_else](https://github.com/rust-lang/rust/pull/66322).
-* [disposition: merge] [Scope format! temporaries](https://github.com/rust-lang/rust/pull/64856).
-* [disposition: merge] [Stabilize cfg(doc)](https://github.com/rust-lang/rust/pull/61351).
+* [disposition: merge] [Stabilize `std::{rc,sync}::Weak::{weak_count, strong_count}`](https://github.com/rust-lang/rust/pull/65778).
+* [disposition: merge] [Tracking issue for extra floating-point logarithm constants](https://github.com/rust-lang/rust/issues/50540).
+* [disposition: merge] [Implement Debug for MaybeUninit](https://github.com/rust-lang/rust/pull/65013).
+* [disposition: close] [Fixes soundness bug 18510 by aborting on unwind from safe extern "C" functions only](https://github.com/rust-lang/rust/pull/64315).
 
 ## New RFCs
 
-* [A macro to get the current function name](https://github.com/rust-lang/rfcs/pull/2818).
+* [Box error alias](https://github.com/rust-lang/rfcs/pull/2820).
 
 # Upcoming Events
 
@@ -131,23 +146,27 @@ decision. Express your opinions now.
 
 ### Europe
 
-* [Nov 21. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/265961100).
-* [Nov 26. Vienna, AT - Rust Vienna - El rust de vienna](https://www.meetup.com/Rust-Vienna/events/266365092/).
-* [Nov 26+28, Rome, Italy - Weekly Rust course at "La Sapienza" University: 2nd lesson!](https://lugsapienza.altervista.org/corsorust-nov2019).
-* [Nov 27. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzpbkc/).
+* [Nov 26+28, Rome, Italy - Weekly Rust course at "La Sapienza" University: 2nd lesson](https://lugsapienza.altervista.org/corsorust-nov2019).
 * [Nov 27. Copenhagen, DK - Copenhagen Rust Hack Night #20](https://cph.rs/).
-* [Dec  2. Karlsruhe, DE - Rust Meet-up](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/266554688/).
+* [Nov 30. Kharkiv, UA - Peer Lab Kharkiv #Rust: Algorithmic problems solving](https://www.facebook.com/events/571415073420154/).
+* [Dec  2. Karlsruhe, DE - Rust Hack & Learn Karlsruhe - Rust Meet-up](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/266554688/).
 * [Dec  4. Wroclaw, PL - Rust Wroclaw Meetup #15](https://www.meetup.com/Rust-Wroclaw/events/266756721/).
+* [Dec  4. Cologne, DE - Rust Cologne - Advent of .await](https://www.meetup.com/RustCologne/events/tnrnbryzqbgb/).
+* [Dec 11. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzqbpb/).
+* [Dec 12. Kyiv, UA - Rails Reactor - Rust Ukraine Meetup](https://www.facebook.com/events/1173477969528421/).
+* [Dec 12. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/266750624).
 
 ### North America
 
-* [Nov 25. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzpbhc/).
-* [Nov 26. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyzpbjc/).
-* [Nov 27. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryzpbkc/).
-* [Nov 27. Mesa, AZ, US - Desert Rust - Rust: Crates and Organization](https://www.meetup.com/Desert-Rustaceans/events/wmmphryzpbkc/).
 * [Dec  3. San Francisco, CA, US - Rust Bay Area - [@ Cloudflare] Declarative UIs in Rust and Real-world production CLIs](https://www.meetup.com/Rust-Bay-Area/events/266571982).
 * [Dec  4. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyzqbgb/).
 * [Dec  4. Portland, OR, US - PDXRust - macros_rule!](https://www.meetup.com/PDXRust/events/264733991/).
+* [Dec 10. Seattle, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/prbtdryzqbnb/).
+* [Dec 11. Mesa, AZ, US - Desert Rust - Rust: Crates and Organization](https://www.meetup.com/Desert-Rustaceans/events/wmmphryzpbkc/).
+* [Dec 11. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryzqbpb/).
+* [Dec 12. San Diego, CA, US - San Diego Rust December Meetup](https://www.meetup.com/San-Diego-Rust/events/266502136/).
+* [Dec 12. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgryzqbqb/).
+* [Dec 12. Lehi, UT, US - Utah Rust - December 2019 Regular Meetup](https://www.meetup.com/utah-rust/events/265905262/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -158,7 +177,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [PhD, postdoc & intern positions in RustBelt and Iris projects at Max Planck](https://users.rust-lang.org/t/jobs-phd-postdoc-intern-positions-in-rustbelt-and-iris-projects-at-max-planck/35016)
+* [PhD, postdoc & intern positions in RustBelt and Iris projects at Max Planck](https://users.rust-lang.org/t/jobs-phd-postdoc-intern-positions-in-rustbelt-and-iris-projects-at-max-planck/35016).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
