@@ -1,6 +1,6 @@
 Title: This Week in Rust 313
 Number: 313
-Date: 2019-11-19
+Date: 2019-11-26
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
