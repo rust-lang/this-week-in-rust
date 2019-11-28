@@ -32,7 +32,10 @@ except ImportError:
 def add_jinja2_ext(pelican):
     """Add Webassets to Jinja2 extensions in Pelican settings."""
 
-    pelican.settings['JINJA_EXTENSIONS'].append(AssetsExtension)
+    if 'JINJA_ENVIRONMENT' in pelican.settings:
+        pelican.settings['JINJA_ENVIRONMENT']['extensions'].append(AssetsExtension)
+    else:
+        pelican.settings['JINJA_EXTENSIONS'].append(AssetsExtension)
 
 
 def create_assets_env(generator):
@@ -67,6 +70,15 @@ def register():
     if webassets:
         signals.initialized.connect(add_jinja2_ext)
         signals.generator_init.connect(create_assets_env)
+        
+        try:
+            import cssmin
+        except ImportError:
+            @webassets.filter.register_filter
+            class _CssminDummy(webassets.filter.Filter):
+                name = 'cssmin'
+                def output(self, _in, out, **kw):
+                    out.write(_in.read())
     else:
         logger.warning('`assets` failed to load dependency `webassets`.'
                        '`assets` plugin not loaded.')

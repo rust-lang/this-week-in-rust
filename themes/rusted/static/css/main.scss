@@ -11,18 +11,42 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #444;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-colour:       #828282;
-$grey-colour-light: lighten($grey-colour, 40%);
-$grey-colour-dark:  darken($grey-colour, 25%);
-
 $on-palm:          600px;
 $on-laptop:        800px;
 
+// Fixed colors
+$brand-color:       var(--brand);
+$grey-colour:       #828282;
+$text-color:        var(--fg);
+$grey-colour-dark:  var(--grey-fg);
+$grey-colour-light: var(--grey-bg);
+$background-color:  var(--bg);
 
+// Theme-dependent colors
+$gray-light:   lighten($grey-colour, 40%);
+$gray-dark:    darken($grey-colour, 25%);
+$gray-lighter: #fdfdfd;
+$gray-darker:  #444;
+$brand-dark:    #2a7ae2;
+$brand-light:   lighten($blue-dark, 25%);
+
+:root {
+    --brand:   #{$brand-dark};
+    --fg:      #{$gray-darker};
+    --grey-fg: #{$gray-dark};
+    --grey-bg: #{$gray-light};
+    --bg:      #{$gray-lighter};
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --brand:   #{$brand-light};
+        --fg:      #{$gray-lighter};
+        --grey-fg: #{$gray-light};
+        --grey-bg: #{$gray-dark};
+        --bg:      #{$gray-darker};
+    }
+}
 
 // Using media queries with like this:
 // @include media-query($palm) {
