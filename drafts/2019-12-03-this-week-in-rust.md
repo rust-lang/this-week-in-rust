@@ -16,8 +16,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-[Taking ML to production with Rust: a 25x speedup](https://lpalmieri.com/posts/2019-12-01-taking-ml-to-production-with-rust-a-25x-speedup/).
-- [How to RiiR](http://adventures.michaelfbryan.com/posts/how-to-riir/)
+* [Constant propagation is now on by default in nightly](https://blog.rust-lang.org/inside-rust/2019/12/02/const-prop-on-by-default.html).
+* [Redox OS: Real hardware breakthroughs, and focusing on rustc](https://www.redox-os.org/news/focusing-on-rustc/).
+* [Taking ML to production with Rust: a 25x speedup](https://www.lpalmieri.com/posts/2019-12-01-taking-ml-to-production-with-rust-a-25x-speedup/).
+* [How to RiiR](http://adventures.michaelfbryan.com/posts/how-to-riir/index.html).
+* [Launching the 2019 State of Rust Survey](https://blog.rust-lang.org/2019/12/03/survey-launch.html).
+* [Announcing http v0.2](https://seanmonstar.com/post/189439210962/http-v02).
+* [Implementing pid1 with Rust and async/await](https://tech.fpcomplete.com/rust/pid1).
+* [Tide: the present and future](https://blog.yoshuawuyts.com/tide/).
+* [Tide (the present and future of)](https://blog.yoshuawuyts.com/tide/).
+* [Let's make a simple authentication server in Rust with Warp](https://blog.joco.dev/posts/warp_auth_server_tutorial).
+* [Down and dirty with Future - Rust Crash Course lesson 8](https://www.snoyman.com/blog/2019/12/rust-crash-course-08-down-dirty-future).
+* [The embedded WG newsletter 21](https://rust-embedded.github.io/blog/newsletter-21/).
 
 ### #Rust2020
 
@@ -25,7 +35,7 @@ Find all #Rust2020 posts at [Read Rust](https://readrust.net/rust-2020/).
 
 # Crate of the Week
 
-This week's crate is [joinery](https://docs.rs/joinery), a library for generic string joining. 
+This week's crate is [joinery](https://docs.rs/joinery), a library for generic string joining.
 
 Thanks to [Nathan West](https://users.rust-lang.org/t/crate-of-the-week/2704/677) for the suggestions!
 
@@ -40,9 +50,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [seeking input] [Time v0.2 pre-release feedback](https://github.com/time-rs/time/issues/190).
-* [good first issue] [what: Shared os behaviour](https://github.com/imsnif/what/issues/17).
-* [what: Listen on all interfaces](https://github.com/imsnif/what/issues/16).
+* [heed: Support windows and make the tests pass](https://github.com/Kerollmops/heed/pull/25). Heed is a fully typed LMDB wrapper with minimum overhead.
 * [crates.io: carols10cents will be mentoring multiple issues for the month of November & December](https://github.com/rust-lang/crates.io/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3AE-mentor).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -101,46 +109,26 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize `std::{rc,sync}::Weak::{weak_count, strong_count}`](https://github.com/rust-lang/rust/pull/65778).
-* [disposition: merge] [Tracking issue for extra floating-point logarithm constants](https://github.com/rust-lang/rust/issues/50540).
-* [disposition: merge] [Implement Debug for MaybeUninit](https://github.com/rust-lang/rust/pull/65013).
-* [disposition: close] [Fixes soundness bug 18510 by aborting on unwind from safe extern "C" functions only](https://github.com/rust-lang/rust/pull/64315).
+* [disposition: merge] [Add method Result::into_ok](https://github.com/rust-lang/rust/pull/66045).
+* [disposition: merge] [From<NonZero*> impls for wider NonZero types](https://github.com/rust-lang/rust/pull/66277).
+* [disposition: merge] [Change unused_labels from allow to warn](https://github.com/rust-lang/rust/pull/66325).
 
 ## New RFCs
 
-* [Box error alias](https://github.com/rust-lang/rfcs/pull/2820).
+* [process-handle-for-async](https://github.com/rust-lang/rfcs/pull/2823).
 
 # Upcoming Events
 
-### Online
-
-* [Dec  1. "Advent of Code" livestream in German](https://github.com/scy/advent-of-code).
-
-### Africa
-
-* [Dec  4. Johannesburg, ZA - Johannesburg Rust Meetup - Time for Some Highbrow FP in Rust](https://www.meetup.com/Johannesburg-Rust-Meetup/events/cpdtkryzqbgb/).
-
-### Asia Pacific
-
-* [Dec  2. Auckland, NZ - Rust AKL - Introduction to Rust (part 3)](https://www.meetup.com/rust-akl/events/259481456/).
-
 ### Europe
 
-* [Nov 26+28, Rome, Italy - Weekly Rust course at "La Sapienza" University: 2nd lesson](https://lugsapienza.altervista.org/corsorust-nov2019).
-* [Nov 27. Copenhagen, DK - Copenhagen Rust Hack Night #20](https://cph.rs/).
-* [Nov 30. Kharkiv, UA - Peer Lab Kharkiv #Rust: Algorithmic problems solving](https://www.facebook.com/events/571415073420154/).
-* [Dec  2. Karlsruhe, DE - Rust Hack & Learn Karlsruhe - Rust Meet-up](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/266554688/).
-* [Dec  4. Wroclaw, PL - Rust Wroclaw Meetup #15](https://www.meetup.com/Rust-Wroclaw/events/266756721/).
-* [Dec  4. Cologne, DE - Rust Cologne - Advent of .await](https://www.meetup.com/RustCologne/events/tnrnbryzqbgb/).
+* [Dec 11. Hamburg, DE - Rust Hack & Learn December 2019](https://www.meetup.com/Rust-Meetup-Hamburg/events/266610252/).
 * [Dec 11. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzqbpb/).
 * [Dec 12. Kyiv, UA - Rails Reactor - Rust Ukraine Meetup](https://www.facebook.com/events/1173477969528421/).
 * [Dec 12. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/266750624).
+* [Dec 16. Amsterdam, NL - Rust Nederland - Rust - Talks & Demos](https://www.meetup.com/Rust-Nederland/events/266888452/).
 
 ### North America
 
-* [Dec  3. San Francisco, CA, US - Rust Bay Area - [@ Cloudflare] Declarative UIs in Rust and Real-world production CLIs](https://www.meetup.com/Rust-Bay-Area/events/266571982).
-* [Dec  4. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpyzqbgb/).
-* [Dec  4. Portland, OR, US - PDXRust - macros_rule!](https://www.meetup.com/PDXRust/events/264733991/).
 * [Dec 10. Seattle, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/prbtdryzqbnb/).
 * [Dec 11. Mesa, AZ, US - Desert Rust - Rust: Crates and Organization](https://www.meetup.com/Desert-Rustaceans/events/wmmphryzpbkc/).
 * [Dec 11. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryzqbpb/).
@@ -156,6 +144,11 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Senior Security Software Engineer at Microsoft, Redmond, US](https://careers.microsoft.com/us/en/job/750306/Security-Software-Engineer).
+* [Senior Software Engineer at ConsenSys R&D, Remote](https://consensys.net/open-roles/1792013/).
+* [Rust/Blockchain Developer at Polymath, Remote](https://polymath.bamboohr.com/jobs/view.php?id=85).
+* [Rust/Core Developer at Parity, Berlin, DE (Remote available)](https://www.parity.io/jobs/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
