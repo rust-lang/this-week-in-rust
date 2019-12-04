@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 [Taking ML to production with Rust: a 25x speedup](https://lpalmieri.com/posts/2019-12-01-taking-ml-to-production-with-rust-a-25x-speedup/).
+- [How to RiiR](http://adventures.michaelfbryan.com/posts/how-to-riir/)
 
 ### #Rust2020
 
@@ -24,9 +25,9 @@ Find all #Rust2020 posts at [Read Rust](https://readrust.net/rust-2020/).
 
 # Crate of the Week
 
-This week's crate is [rerast](https://github.com/google/rerast), a rule-based Rust code transformation tool.
+This week's crate is [joinery](https://docs.rs/joinery), a library for generic string joining. 
 
-Thanks to [Jan Riemer](https://users.rust-lang.org/t/crate-of-the-week/2704/674) for the suggestions!
+Thanks to [Nathan West](https://users.rust-lang.org/t/crate-of-the-week/2704/677) for the suggestions!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -50,43 +51,35 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-260 pull requests were [merged in the last week][merged]
+264 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-11-18..2019-11-25
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-11-25..2019-12-02
 
-* [stabilize `!`](https://github.com/rust-lang/rust/pull/65355)
-* [stabilize `cfg(doc)`](https://github.com/rust-lang/rust/pull/61351)
-* [debuginfo: support for `std::collections::Hash*` in windows debuggers](https://github.com/rust-lang/rust/pull/66597)
-* [make gdb pretty-printing more robust when printing uninitialized `Vec`](https://github.com/rust-lang/rust/pull/66576)
-* [generate DWARF address ranges for faster lookups](https://github.com/rust-lang/rust/pull/66532)
-* [fix cycle when debug-printing opaque types](https://github.com/rust-lang/rust/pull/66594)
-* [resolve: give derive helpers highest priority during resolution](https://github.com/rust-lang/rust/pull/66529)
-* [remove pretty printing of specific nodes in AST](https://github.com/rust-lang/rust/pull/66575)
-* [point at type in `let` assignment on type errors](https://github.com/rust-lang/rust/pull/66539)
-* [suggest calling async closure when needed](https://github.com/rust-lang/rust/pull/66239)
-* [suggest `#[repr(C)]` instead of `#[repr(C, packed, ...)]`](https://github.com/rust-lang/rust/pull/66206)
-* [add outlives suggestions for some lifetime errors](https://github.com/rust-lang/rust/pull/58281)
-* [use a `SmallVec` for `Candidate::match_pairs`](https://github.com/rust-lang/rust/pull/66540)
-* [miri: add `acos`, `asin`, and `atan` foreign functions](https://github.com/rust-lang/miri/pull/1067)
-* [mir-opt: asking `?`s in a more optimized fashion](https://github.com/rust-lang/rust/pull/66282)
-* [mir-opt: turn on the `ConstProp` pass by default](https://github.com/rust-lang/rust/pull/66074)
-* [miri: support unwinding after a panic](https://github.com/rust-lang/miri/pull/693)
-* [handle statics in MIR as const pointers](https://github.com/rust-lang/rust/pull/66587)
-* [delay an `is_local_ever_initialized` call](https://github.com/rust-lang/rust/pull/66537)
-* [reduce size of `hir::Expr` by boxing more of `hir::InlineAsm`](https://github.com/rust-lang/rust/pull/66515)
-* [use proc-macro to derive HashStable everywhere](https://github.com/rust-lang/rust/pull/66279)
-* [remove `compiler_builtins_lib` feature from libstd](https://github.com/rust-lang/rust/pull/66538)
-* [std::error::Chain: remove `Copy`](https://github.com/rust-lang/rust/pull/66511)
-* [use `drop_in_place` in `array::IntoIter::drop`](https://github.com/rust-lang/rust/pull/65821)
-* [stabilize `Result::map_or_else`](https://github.com/rust-lang/rust/pull/66322)
-* [libc: deprecate vfork](https://github.com/rust-lang/libc/pull/1574)
-* [libc: add initial support for sparc-unknown-linux-gnu](https://github.com/rust-lang/libc/pull/1567)
-* [cargo: extend documentation on security concerns of crate names in a registry](https://github.com/rust-lang/cargo/pull/7616)
-* [cargo: turn the new lock file format on by default](https://github.com/rust-lang/cargo/pull/7579)
-* [cargo: stabilize install-upgrade](https://github.com/rust-lang/cargo/pull/7560)
-* [rustdoc: stabilize `edition` annotation](https://github.com/rust-lang/rust/pull/66238)
-* [rustdoc: preserve whitespace inside one-backtick codeblocks](https://github.com/rust-lang/rust/pull/65613)
-* [measureme: optimize FileSerializationSink by using parking_lot::Mutex and avoiding heap allocations in write_atomic](https://github.com/rust-lang/measureme/pull/88)
+* [stabilize nested self receivers in 1.41.0](https://github.com/rust-lang/rust/pull/64325)
+* [add memoization for const function evaluations](https://github.com/rust-lang/rust/pull/66294)
+* [add crc and crypto to target feature whitelist on arm](https://github.com/rust-lang/rust/pull/66918)
+* [conditional compilation for sanitizers](https://github.com/rust-lang/rust/pull/66245)
+* [add support for sanitizer recover and tracking origins of uninitialized memory](https://github.com/rust-lang/rust/pull/66522)
+* [async fn resume after completion](https://github.com/rust-lang/rust/pull/66321)
+* [use structured suggestion when requiring `Copy` constraint in type param](https://github.com/rust-lang/rust/pull/66567)
+* [various tweaks to diagnostic output](https://github.com/rust-lang/rust/pull/66754)
+* [add version mismatch help message for unimplemented trait](https://github.com/rust-lang/rust/pull/66561)
+* [AST address-of](https://github.com/rust-lang/rust/pull/66671)
+* [initial implementation of or-pattern usefulness checking](https://github.com/rust-lang/rust/pull/66612)
+* [polonius: illegal subset relation errors using placeholder loans](https://github.com/rust-lang/polonius/pull/137)
+* [fix opaque types resulting from projections in function signature](https://github.com/rust-lang/rust/pull/66178)
+* [simplify memory categorization](https://github.com/rust-lang/rust/pull/66246)
+* [remove interior mutability in mir predecessors cache](https://github.com/rust-lang/rust/pull/64736)
+* [rustc: move debug info from LocalDecl and UpvarDecl into a dedicated VarDebugInfo](https://github.com/rust-lang/rust/pull/56231)
+* [create promoted MIR fragments for `const` and `static`s](https://github.com/rust-lang/rust/pull/66642)
+* [alloc: add new_zeroed() versions like new_uninit()](https://github.com/rust-lang/rust/pull/66128)
+* [impl TrustedLen for vec::Drain](https://github.com/rust-lang/rust/pull/66759)
+* [atomic as_mut_ptr](https://github.com/rust-lang/rust/pull/66705)
+* [implement Debug for MaybeUninit](https://github.com/rust-lang/rust/pull/65013)
+* [libc: add support for shared memory operations for solaris/illumos](https://github.com/rust-lang/libc/pull/1584)
+* [cargo: stabilize profile-overrides](https://github.com/rust-lang/cargo/pull/7591)
+* [rustup: add toolchain install --allow-downgrade option](https://github.com/rust-lang/rustup/pull/2126)
+* [docs.rs: match library properly if multiple crate-types are in use](https://github.com/rust-lang/docs.rs/pull/499)
 
 ## Approved RFCs
 
@@ -168,11 +161,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I said it before, and I'll say it again: If one views Rust as a critique on C++, one should view it as a constructive critique.
+> > Heard recently creative coding experience which rust gives. What about unconscious coding experience - do whatever you can to make your code compile as late as you can, then go sleep and find your code correct and working in the morning
+>
+> Woah, I know people say the Rust compiler is slow but I never had a Rust program that took all night to compile☺
 
-– [llogiq on /r/rust](https://www.reddit.com/r/rust/comments/dyr8ps/rust_from_a_cc_point_of_view_viceversa/f835w7h)
+– [Maxim Vorobjov and ZiCog in our Quote of the Week Thread](https://users.rust-lang.org/t/twir-quote-of-the-week/328/749)
 
-Thanks to [Dmitry Kashitsyn](https://users.rust-lang.org/t/twir-quote-of-the-week/328/741) for the suggestion!
+Thanks to [both of them and mmmmib](https://users.rust-lang.org/t/twir-quote-of-the-week/328/752) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
