@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Taking ML to production with Rust: a 25x speedup](https://lpalmieri.com/posts/2019-12-01-taking-ml-to-production-with-rust-a-25x-speedup/).
 - [How to RiiR](http://adventures.michaelfbryan.com/posts/how-to-riir/)
 
 ### #Rust2020
