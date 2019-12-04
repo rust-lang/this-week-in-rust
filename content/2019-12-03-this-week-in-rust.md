@@ -24,10 +24,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Announcing http v0.2](https://seanmonstar.com/post/189439210962/http-v02).
 * [Implementing pid1 with Rust and async/await](https://tech.fpcomplete.com/rust/pid1).
 * [Tide: the present and future](https://blog.yoshuawuyts.com/tide/).
-* [Tide (the present and future of)](https://blog.yoshuawuyts.com/tide/).
 * [Let's make a simple authentication server in Rust with Warp](https://blog.joco.dev/posts/warp_auth_server_tutorial).
-* [Down and dirty with Future - Rust Crash Course lesson 8](https://www.snoyman.com/blog/2019/12/rust-crash-course-08-down-dirty-future).
-* [The embedded WG newsletter 21](https://rust-embedded.github.io/blog/newsletter-21/).
+* [Down and dirty with Future - Rust crash course lesson 8](https://www.snoyman.com/blog/2019/12/rust-crash-course-08-down-dirty-future).
+* [The Embedded WG newsletter 21](https://rust-embedded.github.io/blog/newsletter-21/).
 
 ### #Rust2020
 
