@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [A rusty radio: Si4703 FM radio receiver driver](https://blog.eldruin.com/si4703-fm-radio-receiver-driver-in-rust/)
+
 ### #Rust2020
 
 Find all #Rust2020 posts at [Read Rust](https://readrust.net/rust-2020/).
