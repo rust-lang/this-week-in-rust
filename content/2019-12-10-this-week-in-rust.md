@@ -168,11 +168,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> So, in this regard and IMO, C++ has a saner model here. And if C++ is saner than you, that's not a good sign ☺
+> When I'm writing in Rust, it feels as though I'm actually able to think about the program, rather than wasting half of my effort going through the necessary rituals to stop the language from having a panic attack.
 
-– [Boris Kolpackov on rust internals](https://internals.rust-lang.org/t/crate-dependency-discovery/11418/4)
+– [/u/rime-frost on reddit](https://www.reddit.com/r/rust/comments/e8tms0/rust_is_fun/faei257/)
 
-Thanks to [UtherII](https://users.rust-lang.org/t/twir-quote-of-the-week/328/753) for the suggestion!
+Thanks to [ssokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/755) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
