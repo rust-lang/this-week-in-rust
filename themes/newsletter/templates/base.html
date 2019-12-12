@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <style type="text/css">
      body {
-       width: 100% !important;
+       width: 100%;
        min-width: 100%;
        -webkit-text-size-adjust: 100%;
        -ms-text-size-adjust: 100%;
@@ -100,33 +100,32 @@
      }
 
      td.wrapper {
-       padding-left: 24px !important;
-       padding-right: 24px !important;
+       padding-left: 24px;
+       padding-right: 24px;
      }
 
      p {
-       margin: 0px !important;
-       margin-bottom: 15px !important;
-       font-size: 16px !important;
+       margin: 0 0 15px;
+       font-size: 16px;
        color: #444444;
        line-height: 24px;
      }
 
      li {
-       font-size: 16px !important;
+       font-size: 16px;
      }
 
      a, a:visited {
-       color: #2a7ae2 !important;
+       color: #2a7ae2;
        text-decoration: none;
      }
 
      code {
-       color: #c7254e !important;
+       color: #c7254e;
        border: 1px solid #e8e8e8;
        border-radius: 3px;
        background-color: #eeeeff;
-       font-weight::600 !important;
+       font-weight:600;
        font-family: monospace;
      }
 
@@ -177,6 +176,51 @@
 
      blockquote p {
        white-space: pre-line;
+     }
+
+     @media (prefers-color-scheme: dark) {
+       body {
+         background: #111 !important;
+         color: white !important;
+       }
+
+       a, a:visited {
+         color: #409df2 !important;
+       }
+
+       p {
+         color: white !important;
+       }
+
+       td .row-header-01 {
+         color: white !important;
+       }
+
+       code {
+         color: #eb7f98 !important;
+         border: 1px solid #333 !important;
+         background-color: #222 !important;
+       }
+
+       h1,
+       h2 {
+         color: white !important;
+       }
+
+       table .container {
+         border-color: #222 !important;
+       }
+
+       blockquote {
+         background-color: #3c3c3c !important;
+         color: white !important;
+       }
+
+       tr .footer {
+         border-color: #222 !important;
+         background-color: #111 !important;
+         color: white !important;
+       }
      }
     </style>
   </head>
