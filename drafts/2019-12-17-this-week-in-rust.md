@@ -157,6 +157,6 @@ Thanks to [ssokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/75
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
-*This Week in Rust is edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [Flavsditz](https://github.com/Flavsditz).*
+*This Week in Rust is edited by: [nasa42](https://github.com/nasa42) and [llogiq](https://github.com/llogiq).*
 
 <small>[Discuss on r/rust]().</small>
