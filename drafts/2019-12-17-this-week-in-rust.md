@@ -61,7 +61,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [include a span in more `expected...found` notes](https://github.com/rust-lang/rust/pull/67011)
 * [do not ICE on async fn with non-Copy inferred type arg](https://github.com/rust-lang/rust/pull/67004)
 * [make try_mark_previous_green aware of cycles](https://github.com/rust-lang/rust/pull/66846)
-* [add feature gate for mut refs in const fn](Add feature gate for mut refs in const fn)
+* [add feature gate for mut refs in const fn](https://github.com/rust-lang/rust/pull/66606)
 * [change unused_labels from allow to warn](https://github.com/rust-lang/rust/pull/66325)
 * [show the sign for signed ops on `exact_div`](https://github.com/rust-lang/rust/pull/66148)
 * [chalk: convert ensure_answer_recursively to be iterative instead of recursive](https://github.com/rust-lang/chalk/pull/281)
