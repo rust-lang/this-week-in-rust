@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [PCA9685 16-channel PWM LED/servo motor controller driver](https://blog.eldruin.com/pca9685-pwm-led-servo-controller-driver-in-rust/).
 
 # Crate of the Week
 
