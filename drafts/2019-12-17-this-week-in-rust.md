@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Solving The Burger Problem with Rust](https://rust-malaysia.github.io/code/2019/12/15/the-burger-problem.html)
 
 # Crate of the Week
 
