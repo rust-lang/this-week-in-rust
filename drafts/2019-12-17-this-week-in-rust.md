@@ -17,12 +17,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 [Stop worrying about blocking: the new async-std runtime, inspired by Go](https://async.rs/blog/stop-worrying-about-blocking-the-new-async-std-runtime/)
+- [WASM as a Platform for Abstraction](http://adventures.michaelfbryan.com/posts/wasm-as-a-platform-for-abstraction/)
 
 # Crate of the Week
 
-This week's crate is [StaticVec](https://github.com/slightlyoutofphase/staticvec), a nightly-only const-generics-backed fixed size vec crate.
+This week's crate is [bstr](https://github.com/BurntSushi/bstr), a string type for Rust that is not required to be valid UTF-8.
 
-Thanks to [ABagOfChips](https://users.rust-lang.org/t/crate-of-the-week/2704/682) for the suggestions!
+Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/603) for the suggestions!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -46,49 +47,44 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-247 pull requests were [merged in the last week][merged]
+223 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-12-02..2019-12-09
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-12-09..2019-12-16
 
-* [implement `#[track_caller]` attribute](https://github.com/rust-lang/rust/pull/65881) (RFC #[2091](https://rust-lang.github.io/rfcs/2091-inline-semantic.html))
-* [syntax: unify macro and attribute arguments in AST](https://github.com/rust-lang/rust/pull/66935)
-* [stdarch: add CRC32 detection to arm32](https://github.com/rust-lang/stdarch/pull/830)
-* [fix `TypedArena` returning wrong pointers for recursive allocations](https://github.com/rust-lang/rust/pull/67003)
-* [make `ForeignItem` an alias of `Item`](https://github.com/rust-lang/rust/pull/67114)
-* [remove boxed closures in address parser](https://github.com/rust-lang/rust/pull/67085)
-* [rustc: hide HirId's fmt::Debug output from -Z span_free_formats](https://github.com/rust-lang/rust/pull/66850)
-* [make `process_obligations()` greedier](https://github.com/rust-lang/rust/pull/66408)
-* [check break target availability when checking breaks with values](https://github.com/rust-lang/rust/pull/66863)
-* [include a span in more `expected...found` notes](https://github.com/rust-lang/rust/pull/67011)
-* [do not ICE on async fn with non-Copy inferred type arg](https://github.com/rust-lang/rust/pull/67004)
-* [make try_mark_previous_green aware of cycles](https://github.com/rust-lang/rust/pull/66846)
-* [add feature gate for mut refs in const fn](https://github.com/rust-lang/rust/pull/66606)
-* [change unused_labels from allow to warn](https://github.com/rust-lang/rust/pull/66325)
-* [show the sign for signed ops on `exact_div`](https://github.com/rust-lang/rust/pull/66148)
-* [chalk: convert ensure_answer_recursively to be iterative instead of recursive](https://github.com/rust-lang/chalk/pull/281)
-* [handle diverging functions forwarding their return place](https://github.com/rust-lang/rust/pull/66827)
-* [cleanup `BodyCache`](https://github.com/rust-lang/rust/pull/66991)
-* [remove hack for top-level or-patterns in match checking](https://github.com/rust-lang/rust/pull/66967)
-* [const-prop: fix ICE calculating enum discriminant](https://github.com/rust-lang/rust/pull/66960)
-* [miri: tweak and use `OsStr` interfaces](https://github.com/rust-lang/miri/pull/1099)
-* [only memoize const fn calls during const eval](https://github.com/rust-lang/rust/pull/66866)
-* [miri: add flag to ignore memory leaks](https://github.com/rust-lang/miri/pull/1106)
-* [better way to ignore tests in miri](https://github.com/rust-lang/miri/pull/1105)
-* [codegen "unreachable" for invalid `SetDiscriminant`](https://github.com/rust-lang/rust/pull/67054)
-* [codegen: Migrate to `LLVM`{`Get`, `Set`}`ValueName2`](https://github.com/rust-lang/rust/pull/67033)
-* [update the minimum external LLVM to 7](https://github.com/rust-lang/rust/pull/66973)
-* [implement illegal subset relations errors using Polonius](https://github.com/rust-lang/rust/pull/67016)
-* [add `ExitStatusExt` into prelude](https://github.com/rust-lang/rust/pull/67041)
-* [rename `bool::then_*` to `bool::to_option_*` and use where appropriate](https://github.com/rust-lang/rust/pull/65195)
-* [add `{f32,f64}::approx_unchecked_to<Int>` unsafe methods](https://github.com/rust-lang/rust/pull/66841)
-* [add test for `NAME` environment variable when `cargo new`](https://github.com/rust-lang/cargo/pull/7667)
-* [cargo: remove `--offline` empty index error](https://github.com/rust-lang/cargo/pull/7655)
-* [cargo: add a `--offline` hint](https://github.com/rust-lang/cargo/pull/7654)
-* [rustdoc: less minification](https://github.com/rust-lang/rust/pull/66828)
-* [rustfmt: switch to non-recursive mode by default](https://github.com/rust-lang/rustfmt/pull/3938)
-* [rustup: output the previous version of a toolchain when it is updated](https://github.com/rust-lang/rustup/pull/2143)
-* [rustup: resolve potential future shock (x.yyy.zz)](https://github.com/rust-lang/rustup/pull/2132)
-* [crates.io: add audit trail to the publish, yank and unyank transactions](https://github.com/rust-lang/crates.io/pull/1700)
+* [revert stabilization of never type](https://github.com/rust-lang/rust/pull/67224) (sorry – llogiq)
+* [enable `loop` and `while` in constants behind a feature flag](https://github.com/rust-lang/rust/pull/67216)
+* [make transparent enums more ordinary](https://github.com/rust-lang/rust/pull/67323)
+* [ensure a hard error on generic ZST constants whose body causes an eval error](https://github.com/rust-lang/rust/pull/67134)
+* [improve diagnostics and code for exhaustiveness of empty matches](https://github.com/rust-lang/rust/pull/67026)
+* [do not ICE on unnamed future](https://github.com/rust-lang/rust/pull/67289)
+* [remove the `DelimSpan` from `NamedMatch::MatchedSeq`](https://github.com/rust-lang/rust/pull/67250)
+* [optimize `shallow_resolve_changed`](https://github.com/rust-lang/rust/pull/67079)
+* [add ExactSizeIterator bound to return types](https://github.com/rust-lang/rust/pull/67125)
+* [fix `-Z print-type-sizes`'s handling of zero-sized fields](https://github.com/rust-lang/rust/pull/67215)
+* [track polonius in `-Z self-profile`](https://github.com/rust-lang/rust/pull/67193)
+* [fix constant propagation for scalar pairs](https://github.com/rust-lang/rust/pull/67015)
+* [fix `unused_parens` triggers on macro by example code](https://github.com/rust-lang/rust/pull/66983)
+* [rustc: allow non-empty ParamEnv's in global trait select/eval caches](https://github.com/rust-lang/rust/pull/66821)
+* [remove uniform array move MIR passes](https://github.com/rust-lang/rust/pull/66650)
+* [chalk: remove depth getting passed around](https://github.com/rust-lang/chalk/pull/308)
+* [chalk: when truncating a goal, don't truncate the environment](https://github.com/rust-lang/chalk/pull/294)
+* [use first nonempty buffer in vectored I/O](https://github.com/rust-lang/futures-rs/pull/1998)
+* [use deref target in Pin trait implementations](https://github.com/rust-lang/rust/pull/67039)
+* [improve code generated for `starts_with('<literal char>')`](https://github.com/rust-lang/rust/pull/67249)
+* [optimize `Ord` trait implementation for bool](https://github.com/rust-lang/rust/pull/66881)
+* [inline some common methods on `OsStr`](https://github.com/rust-lang/rust/pull/67169)
+* [`LinkedList`: drop remaining items when drop panics](https://github.com/rust-lang/rust/pull/67243)
+* [`VecDeque`: drop remaining items on destructor panic](https://github.com/rust-lang/rust/pull/67235)
+* [stabilize `Result::map_or`](https://github.com/rust-lang/rust/pull/66570)
+* [add a separate path for messages with no format arguments](https://github.com/rust-lang/log/pull/366)
+* [remove `NodeState::{Waiting,Done}`](https://github.com/rust-lang/rust/pull/66405)
+* [match `VecDeque::extend` to `Vec::extend_desugared`](https://github.com/rust-lang/rust/pull/66341)
+* [stabilize the `core::panic` module](https://github.com/rust-lang/rust/pull/66771)
+* [`From<NonZero*>` impls for wider `NonZero` types](https://github.com/rust-lang/rust/pull/66277)
+* [add str::strip_prefix and str::strip_suffix](https://github.com/rust-lang/rust/pull/66735)
+* [cargo: emit error on `[target.'cfg(debug_assertions)'.dependencies]` and similar](https://github.com/rust-lang/cargo/pull/7660)
+* [rustup: improve preinstalled rust message](https://github.com/rust-lang/rustup/pull/2155)
+* [docs.rs: fix panic viewing source if crate failed to build](https://github.com/rust-lang/docs.rs/pull/519)
 
 ## Approved RFCs
 
@@ -150,11 +146,15 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> When I'm writing in Rust, it feels as though I'm actually able to think about the program, rather than wasting half of my effort going through the necessary rituals to stop the language from having a panic attack.
+> Hey @rustlang folks, is there a comprehensive writeup/reference anywhere of how the formatting machinery (format!(), write!(), etc.) work? Specifically from an implementation perspective (wrt trait objects, recursion)?
 
-– [/u/rime-frost on reddit](https://www.reddit.com/r/rust/comments/e8tms0/rust_is_fun/faei257/)
+– [James Munns](https://jamesmunns.com/blog/fmt-unreasonably-expensive/)
 
-Thanks to [ssokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/755) for the suggestion!
+> It’s dark and ancient magic. I don’t think anyone knows it very well, never mind documentation
+
+– [Nick R. Cameron](https://twitter.com/nick_r_cameron/status/1203753952329650176?ref_src=twsrc%5Etfw)
+
+Thanks to [mmmmib](https://users.rust-lang.org/t/twir-quote-of-the-week/328/756) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
