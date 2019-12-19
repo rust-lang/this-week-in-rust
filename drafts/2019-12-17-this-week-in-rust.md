@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [WASM as a Platform for Abstraction](http://adventures.michaelfbryan.com/posts/wasm-as-a-platform-for-abstraction/)
 
 # Crate of the Week
 
