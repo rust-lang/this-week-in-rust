@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Stop worrying about blocking: the new async-std runtime, inspired by Go](https://async.rs/blog/stop-worrying-about-blocking-the-new-async-std-runtime/)
 - [WASM as a Platform for Abstraction](http://adventures.michaelfbryan.com/posts/wasm-as-a-platform-for-abstraction/)
 
 # Crate of the Week
