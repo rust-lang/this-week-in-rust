@@ -16,10 +16,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-[Porting druid Rust Widgets to PineTime Smart Watch](https://medium.com/@ly.lee/porting-druid-rust-widgets-to-pinetime-smart-watch-7e1d5a5d977a?source=friends_link&sk=09b153c68483f7fa9e63350efd167b07).
-[Solving The Burger Problem with Rust](https://rust-malaysia.github.io/code/2019/12/15/the-burger-problem.html)
-[Stop worrying about blocking: the new async-std runtime, inspired by Go](https://async.rs/blog/stop-worrying-about-blocking-the-new-async-std-runtime/)
-- [WASM as a Platform for Abstraction](http://adventures.michaelfbryan.com/posts/wasm-as-a-platform-for-abstraction/)
+* [Bisecting Rust compiler regressions with cargo-bisect-rustc](https://blog.rust-lang.org/inside-rust/2019/12/18/bisecting-rust-compiler.html).
+* [Stop worrying about blocking: the new async-std runtime, inspired by Go](https://async.rs/blog/stop-worrying-about-blocking-the-new-async-std-runtime/).
+* [From zero to main(): Bare metal Rust](https://interrupt.memfault.com/blog/zero-to-main-rust-1).
+* [WASM as a platform for abstraction](http://adventures.michaelfbryan.com/posts/wasm-as-a-platform-for-abstraction/)
+* [New gtk-rs release: Simplification and more of everything](https://gtk-rs.org/blog/2019/12/15/new-release.html).
+* [Announcing Mio 0.7-alpha.1](https://tokio.rs/blog/2019-12-mio-v0.7-alpha.1/).
+* [Introduction to Rendology: A Glium-based rendering pipeline](https://leod.github.io/rust/gamedev/rendology/2019/12/13/introduction-to-rendology.html).
+* [The common Rust traits](https://stevedonovan.github.io/rustifications/2018/09/08/common-rust-traits.html).
+* [Solving the Burger problem with Rust](https://rust-malaysia.github.io/code/2019/12/15/the-burger-problem.html).
+* [Porting druid Rust widgets to PineTime smart watch](https://medium.com/@ly.lee/porting-druid-rust-widgets-to-pinetime-smart-watch-7e1d5a5d977a?source=friends_link&sk=09b153c68483f7fa9e63350efd167b07).
+* [Relm tutorial](https://relm.antoyo.xyz/documentation/tutorial/).
+* [Why does rust seem to inspire people](https://www.reddit.com/r/rust/comments/eaay3c/why_does_rust_seem_to_inspire_people/)?
 
 # Crate of the Week
 
@@ -38,10 +46,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [We need your help before `rustup` 1.21.0 can be released](https://www.reddit.com/r/rust/comments/e7rer9/we_need_your_help_before_rustup_1210_can_be/).
-* [smallvec: Implement Clone for IntoIter<A: Array> where A: Clone](https://github.com/servo/rust-smallvec/issues/178).
-* [mundane: Document items behind feature flags](https://github.com/google/mundane/issues/22).
-* [crates.io: carols10cents will be mentoring multiple issues for the month of November & December](https://github.com/rust-lang/crates.io/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3AE-mentor).
+*No issues were proposed for CfP*.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -94,7 +99,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2797: Announcing the FFI-unwinding Project Group](https://github.com/rust-lang/rfcs/pull/2797).
 
 ## Final Comment Period
 
@@ -104,36 +109,32 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Propose implicit named arguments for formatting macros](https://github.com/rust-lang/rfcs/pull/2795).
+*No RFCs are currently in final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Deprecate Error::description for real](https://github.com/rust-lang/rust/pull/66919).
-* [disposition: merge] [Stabilize the `core::panic` module](https://github.com/rust-lang/rust/pull/66771).
-* [disposition: merge] [stabilize Result::map_or](https://github.com/rust-lang/rust/pull/66570).
-* [disposition: merge] [Make Layout::new const](https://github.com/rust-lang/rust/pull/66254).
-* [disposition: merge] [Stabilize attribute macros on inline modules](https://github.com/rust-lang/rust/pull/64273).
+* [disposition: merge] [Add IntoFuture trait and support for await](https://github.com/rust-lang/rust/pull/65244).
+* [disposition: merge] [Add PartialEq and Eq to Cursor](https://github.com/rust-lang/rust/pull/67233).
+* [disposition: merge] [Tracking issue for the `matches!` macro](https://github.com/rust-lang/rust/issues/65721).
 
 ## New RFCs
 
-* [Demote Apple 32bit targets to Tier 3](https://github.com/rust-lang/rfcs/pull/2837).
-* [Move `std::net` types into `core:.net`](https://github.com/rust-lang/rfcs/pull/2832).
-* [Cargo report future-incompat](https://github.com/rust-lang/rfcs/pull/2834).
-* [Announcing the safe-transmute project group](https://github.com/rust-lang/rfcs/pull/2835).
-* [Introduce the ASM project group](https://github.com/rust-lang/rfcs/pull/2836).
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
 ### Europe
 
-* [Dec 16. Amsterdam, NL - Rust Nederland - Rust - Talks & Demos](https://www.meetup.com/Rust-Nederland/events/266888452/).
-* [Dec 20. Stuttgart, DE - Meetup Stuttgart - Rust Hack and Learn](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/267063341/).
+* [Dec 20. Stuttgart, DE - Meetup Stuttgart - Rust Hack and Learn](https://www.meetup.com/Rust-Community-Stuttgart/events/267063341/).
+* [Jan  8. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgrybccblb/).
 
 ### North America
 
-* [Dec 18. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscryzqbhc/).
 * [Dec 23. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzqbfc/).
 * [Dec 31. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyzqbpc/).
+* [Jan  1. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpybccbcb/).
+* [Jan  8. Atlanta, GA, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybccblb/).
+* [Jan  8. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/qgvxlrybccblb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -143,6 +144,10 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Rust Developer for open-source work at Sigma Prime, Sydney, AU (Remote available)](https://lighthouse.sigmaprime.io/hiring-dec-2019.html).
+* [WebAssembly and Compiler Engineer at NEAR, multiple locations (Remote available)](https://boards.greenhouse.io/near/jobs/4563917002).
+* [Rust Developer at WarnerMedia, US](https://www.reddit.com/r/rust/comments/ebkyzc/need_a_rust_developer_on_a_6_month_contract/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
