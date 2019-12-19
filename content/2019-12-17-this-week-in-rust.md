@@ -19,13 +19,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Bisecting Rust compiler regressions with cargo-bisect-rustc](https://blog.rust-lang.org/inside-rust/2019/12/18/bisecting-rust-compiler.html).
 * [Stop worrying about blocking: the new async-std runtime, inspired by Go](https://async.rs/blog/stop-worrying-about-blocking-the-new-async-std-runtime/).
 * [From zero to main(): Bare metal Rust](https://interrupt.memfault.com/blog/zero-to-main-rust-1).
-* [WASM as a platform for abstraction](http://adventures.michaelfbryan.com/posts/wasm-as-a-platform-for-abstraction/)
+* [WASM as a platform for abstraction](http://adventures.michaelfbryan.com/posts/wasm-as-a-platform-for-abstraction/).
 * [New gtk-rs release: Simplification and more of everything](https://gtk-rs.org/blog/2019/12/15/new-release.html).
 * [Announcing Mio 0.7-alpha.1](https://tokio.rs/blog/2019-12-mio-v0.7-alpha.1/).
 * [Introduction to Rendology: A Glium-based rendering pipeline](https://leod.github.io/rust/gamedev/rendology/2019/12/13/introduction-to-rendology.html).
 * [The common Rust traits](https://stevedonovan.github.io/rustifications/2018/09/08/common-rust-traits.html).
 * [Solving the Burger problem with Rust](https://rust-malaysia.github.io/code/2019/12/15/the-burger-problem.html).
-* [Porting druid Rust widgets to PineTime smart watch](https://medium.com/@ly.lee/porting-druid-rust-widgets-to-pinetime-smart-watch-7e1d5a5d977a?source=friends_link&sk=09b153c68483f7fa9e63350efd167b07).
+* [Porting druid Rust widgets to PineTime smart watch](https://medium.com/@ly.lee/porting-druid-rust-widgets-to-pinetime-smart-watch-7e1d5a5d977a).
 * [Relm tutorial](https://relm.antoyo.xyz/documentation/tutorial/).
 * [Why does rust seem to inspire people](https://www.reddit.com/r/rust/comments/eaay3c/why_does_rust_seem_to_inspire_people/)?
 
