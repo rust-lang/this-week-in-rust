@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [WASM as a Platform for Abstraction](http://adventures.michaelfbryan.com/posts/wasm-as-a-platform-for-abstraction/)
+
 # Crate of the Week
 
 This week's crate is [bstr](https://github.com/BurntSushi/bstr), a string type for Rust that is not required to be valid UTF-8.
