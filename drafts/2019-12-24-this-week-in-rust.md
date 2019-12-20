@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Platform agnostic driver for Vishay's VEML6030 ambient light sensor](https://blog.eldruin.com/veml6030-ambient-light-sensor-driver-in-rust/).
+
 # Crate of the Week
 
 This week's crate is [bstr](https://github.com/BurntSushi/bstr), a string type for Rust that is not required to be valid UTF-8.
