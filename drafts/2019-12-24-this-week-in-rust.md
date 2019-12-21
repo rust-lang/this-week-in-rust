@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Platform agnostic driver for Vishay's VEML6030 ambient light sensor](https://blog.eldruin.com/veml6030-ambient-light-sensor-driver-in-rust/).
+* [Platform agnostic driver for Vishay's VEML6030 and VEML7700 ambient light sensors](https://blog.eldruin.com/veml6030-ambient-light-sensor-driver-in-rust/).
 
 # Crate of the Week
 
