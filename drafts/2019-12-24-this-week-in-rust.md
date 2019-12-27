@@ -18,9 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [bstr](https://github.com/BurntSushi/bstr), a string type for Rust that is not required to be valid UTF-8.
+This week's crate is [cargo-scout](https://github.com/o0Ignition0o/cargo-scout), a cargo subcommand to run clippy on only the changed code in your crate (following git diff).
 
-Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/603) for the suggestions!
+Thanks to [Philipp Krones](https://users.rust-lang.org/t/crate-of-the-week/2704/694) for the suggestions!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -41,44 +41,34 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-223 pull requests were [merged in the last week][merged]
+334 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-12-09..2019-12-16
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-12-16..2019-12-23
 
-* [revert stabilization of never type](https://github.com/rust-lang/rust/pull/67224) (sorry – llogiq)
-* [enable `loop` and `while` in constants behind a feature flag](https://github.com/rust-lang/rust/pull/67216)
-* [make transparent enums more ordinary](https://github.com/rust-lang/rust/pull/67323)
-* [ensure a hard error on generic ZST constants whose body causes an eval error](https://github.com/rust-lang/rust/pull/67134)
-* [improve diagnostics and code for exhaustiveness of empty matches](https://github.com/rust-lang/rust/pull/67026)
-* [do not ICE on unnamed future](https://github.com/rust-lang/rust/pull/67289)
-* [remove the `DelimSpan` from `NamedMatch::MatchedSeq`](https://github.com/rust-lang/rust/pull/67250)
-* [optimize `shallow_resolve_changed`](https://github.com/rust-lang/rust/pull/67079)
-* [add ExactSizeIterator bound to return types](https://github.com/rust-lang/rust/pull/67125)
-* [fix `-Z print-type-sizes`'s handling of zero-sized fields](https://github.com/rust-lang/rust/pull/67215)
-* [track polonius in `-Z self-profile`](https://github.com/rust-lang/rust/pull/67193)
-* [fix constant propagation for scalar pairs](https://github.com/rust-lang/rust/pull/67015)
-* [fix `unused_parens` triggers on macro by example code](https://github.com/rust-lang/rust/pull/66983)
-* [rustc: allow non-empty ParamEnv's in global trait select/eval caches](https://github.com/rust-lang/rust/pull/66821)
-* [remove uniform array move MIR passes](https://github.com/rust-lang/rust/pull/66650)
-* [chalk: remove depth getting passed around](https://github.com/rust-lang/chalk/pull/308)
-* [chalk: when truncating a goal, don't truncate the environment](https://github.com/rust-lang/chalk/pull/294)
-* [use first nonempty buffer in vectored I/O](https://github.com/rust-lang/futures-rs/pull/1998)
-* [use deref target in Pin trait implementations](https://github.com/rust-lang/rust/pull/67039)
-* [improve code generated for `starts_with('<literal char>')`](https://github.com/rust-lang/rust/pull/67249)
-* [optimize `Ord` trait implementation for bool](https://github.com/rust-lang/rust/pull/66881)
-* [inline some common methods on `OsStr`](https://github.com/rust-lang/rust/pull/67169)
-* [`LinkedList`: drop remaining items when drop panics](https://github.com/rust-lang/rust/pull/67243)
-* [`VecDeque`: drop remaining items on destructor panic](https://github.com/rust-lang/rust/pull/67235)
-* [stabilize `Result::map_or`](https://github.com/rust-lang/rust/pull/66570)
-* [add a separate path for messages with no format arguments](https://github.com/rust-lang/log/pull/366)
-* [remove `NodeState::{Waiting,Done}`](https://github.com/rust-lang/rust/pull/66405)
-* [match `VecDeque::extend` to `Vec::extend_desugared`](https://github.com/rust-lang/rust/pull/66341)
-* [stabilize the `core::panic` module](https://github.com/rust-lang/rust/pull/66771)
-* [`From<NonZero*>` impls for wider `NonZero` types](https://github.com/rust-lang/rust/pull/66277)
-* [add str::strip_prefix and str::strip_suffix](https://github.com/rust-lang/rust/pull/66735)
-* [cargo: emit error on `[target.'cfg(debug_assertions)'.dependencies]` and similar](https://github.com/rust-lang/cargo/pull/7660)
-* [rustup: improve preinstalled rust message](https://github.com/rust-lang/rustup/pull/2155)
-* [docs.rs: fix panic viewing source if crate failed to build](https://github.com/rust-lang/docs.rs/pull/519)
+* [format the world](https://github.com/rust-lang/rust/pull/67540)
+* [refactor expr & stmt parsing + improve recovery](https://github.com/rust-lang/rust/pull/66994)
+* [add a raw "address of" operator](https://github.com/rust-lang/rust/pull/64588)
+* [improve diagnostics for invalid assignment](https://github.com/rust-lang/rust/pull/67538)
+* [use structured suggestion for disambiguating method calls](https://github.com/rust-lang/rust/pull/67127)
+* [fix too restrictive checks on Drop impls](https://github.com/rust-lang/rust/pull/67059)
+* [save LTO import info and check it when trying to reuse build products](https://github.com/rust-lang/rust/pull/67020)
+* [merge `ast::Mutability` and `mir::Mutability`](https://github.com/rust-lang/rust/pull/67355)
+* [merge `TraitItem` & `ImplItem into `AssocItem`](https://github.com/rust-lang/rust/pull/67131)
+* [indicate origin of where type parameter for uninferred types](https://github.com/rust-lang/rust/pull/67285)
+* [allocate HIR on an arena 1/4](https://github.com/rust-lang/rust/pull/66931)
+* [add simpler entry points to const eval for common usages](https://github.com/rust-lang/rust/pull/66877)
+* [chalk: fix coinductive unsoundness](https://github.com/rust-lang/chalk/pull/272)
+* [chalk: move ids to type family](https://github.com/rust-lang/chalk/pull/309)
+* [const prop should finish propagation into user defined variables](https://github.com/rust-lang/rust/pull/67130)
+* [miri: support main functions with Result return type](https://github.com/rust-lang/miri/pull/1125)
+* [implement `LineWriter::write_vectored`](https://github.com/rust-lang/rust/pull/67270)
+* [add `PartialEq` and `Eq` to `Cursor`](https://github.com/rust-lang/rust/pull/67233)
+* [make `ptr::slice_from_raw_parts` a const fn (behind feature flag)](https://github.com/rust-lang/rust/pull/67462)
+* [stabilize `std::{rc,sync}::Weak::{weak_count, strong_count}`](https://github.com/rust-lang/rust/pull/65778)
+* [stdarch: use more simd_* intrinsics](https://github.com/rust-lang/stdarch/pull/790)
+* [futures.rs: make `AtomicWaker::new()` a const fn](https://github.com/rust-lang/futures-rs/pull/2007)
+* [cargo: fix overwriting alternate registry token](https://github.com/rust-lang/cargo/pull/7708)
+* [rustup: support local toolchain names in the override file](https://github.com/rust-lang/rustup/pull/2141)
 
 ## Approved RFCs
 
@@ -136,15 +126,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Hey @rustlang folks, is there a comprehensive writeup/reference anywhere of how the formatting machinery (format!(), write!(), etc.) work? Specifically from an implementation perspective (wrt trait objects, recursion)?
+> Unsoundness is what happens when unsafety goes wrong.
 
-– [James Munns](https://jamesmunns.com/blog/fmt-unreasonably-expensive/)
+– [Alice Ryhl on rust-users](https://users.rust-lang.org/t/learn-rust-the-dangerous-way-the-unsafe-first-tutorial/35806/39)
 
-> It’s dark and ancient magic. I don’t think anyone knows it very well, never mind documentation
-
-– [Nick R. Cameron](https://twitter.com/nick_r_cameron/status/1203753952329650176?ref_src=twsrc%5Etfw)
-
-Thanks to [mmmmib](https://users.rust-lang.org/t/twir-quote-of-the-week/328/756) for the suggestion!
+Thanks to [Daniel H-M](https://users.rust-lang.org/t/twir-quote-of-the-week/328/764) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
