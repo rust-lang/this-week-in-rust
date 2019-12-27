@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Platform agnostic driver for Vishay's VEML6030 and VEML7700 ambient light sensors](https://blog.eldruin.com/veml6030-ambient-light-sensor-driver-in-rust/).
+
 # Crate of the Week
 
 This week's crate is [cargo-scout](https://github.com/o0Ignition0o/cargo-scout), a cargo subcommand to run clippy on only the changed code in your crate (following git diff).
