@@ -16,7 +16,25 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* 🎈🎉 [Announcing Rust 1.40.0](https://blog.rust-lang.org/2019/12/19/Rust-1.40.0.html). 🎉🎈
+* [Learn Rust the dangerous way](http://cliffle.com/p/dangerust/).
+* [Announcing Tokio-Compat](https://tokio.rs/blog/2019-12-compat/).
+* [Async exceptions in Haskell, and Rust](https://tech.fpcomplete.com/blog/async-exceptions-haskell-rust).
+* [actix-web v2.0 released](https://github.com/actix/actix-web/releases/tag/web-v2.0.0).
+* [Announcing the official MongoDB Rust driver](https://www.mongodb.com/blog/post/announcing-the-official-mongodb-rust-driver).
+* [JetBrains - Rustlings course adaptation](https://blog.jetbrains.com/blog/2019/12/19/rustlings-course-adaptation/).
+* [Writing BPF code in Rust](https://blog.redsift.com/labs/writing-bpf-code-in-rust/).
+* [Testing for no_std compatibility in Rust crates](https://blog.dbrgn.ch/2019/12/24/testing-for-no-std-compatibility/).
+* [Source code linking: Merging C headers into Rust modules](https://immunant.com/blog/2019/12/header_merging/).
+* [Serverless Rust using WASM and Cloudflare](https://tech.fpcomplete.com/blog/serverless-rust-wasm-cloudflare).
+* [Porting a JavaScript app to WebAssembly with Rust (part 1)](https://slowtec.de/posts/2019-12-20-porting-javascript-to-rust-part-1.html).
+* [Down the stack: Compiled Rust part 1](https://blog.ryanlevick.com/down-the-stack-part-1/).
+* [Formatting the compiler tree](https://blog.rust-lang.org/inside-rust/2019/12/23/formatting-the-compiler.html).
+* [Streams concurrency](https://blog.yoshuawuyts.com/streams-concurrency/).
+* [Writing a seqlock in Rust](https://pitdicker.github.io/Writing-a-seqlock-in-Rust/).
 * [Platform agnostic driver for Vishay's VEML6030 and VEML7700 ambient light sensors](https://blog.eldruin.com/veml6030-ambient-light-sensor-driver-in-rust/).
+* [PCA9685 16-channel PWM LED/servo motor controller driver](https://blog.eldruin.com/pca9685-pwm-led-servo-controller-driver-in-rust/).
+* [Congrats to compiler team members matthewjasper and wesleywiser](https://blog.rust-lang.org/inside-rust/2019/12/19/jasper-and-wiser-full-members-of-compiler-team.html).
 
 # Crate of the Week
 
@@ -35,7 +53,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-*No issues were proposed for CfP*.
+* [good first issue] [simdjson: flattend json access for the tape](https://github.com/simd-lite/simdjson-rs/issues/91).
+* [good first issue] [rsynth: Add support for System Exclusive events with the jack back-end](https://github.com/PieterPenninckx/rsynth/issues/50).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -78,7 +97,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2797: Announcing the FFI-unwinding Project Group](https://github.com/rust-lang/rfcs/pull/2797).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -88,13 +107,12 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Demote Apple 32bit targets to Tier 3](https://github.com/rust-lang/rfcs/pull/2837).
+* [disposition: merge] [Announcing the Safe-Transmute Project Group](https://github.com/rust-lang/rfcs/pull/2835).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Add IntoFuture trait and support for await](https://github.com/rust-lang/rust/pull/65244).
-* [disposition: merge] [Add PartialEq and Eq to Cursor](https://github.com/rust-lang/rust/pull/67233).
-* [disposition: merge] [Tracking issue for the `matches!` macro](https://github.com/rust-lang/rust/issues/65721).
+*No RFCs are currently in final comment period.*
 
 ## New RFCs
 
@@ -102,18 +120,29 @@ decision. Express your opinions now.
 
 # Upcoming Events
 
+### Asia Pacific
+
+* [Jan  8. Kuala Lumpur, MY - Rust Meetup January 2019](https://docs.google.com/forms/d/e/1FAIpQLScb1MoYvLE4hfUlUKzg4LJHNI6Abw41hRIQGyBVVIAcwvdGfQ/viewform).
+
 ### Europe
 
 * [Dec 20. Stuttgart, DE - Meetup Stuttgart - Rust Hack and Learn](https://www.meetup.com/Rust-Community-Stuttgart/events/267063341/).
 * [Jan  8. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgrybccblb/).
+* [Jan  9. Lisbon, PT - Rust Lisbon - Live Jan 2020](https://www.meetup.com/Rust-Lisbon/events/266629066/).
+* [Jan 10. Darmstadt, DE - Rust Rhein-Main - 1st 2020 Rhein-Main Rust Meetup](https://www.meetup.com/Rust-Rhein-Main/events/267158461/).
 
 ### North America
 
 * [Dec 23. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzqbfc/).
 * [Dec 31. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyzqbpc/).
 * [Jan  1. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpybccbcb/).
+* [Jan  7. Denver, CO, US - Rust Boulder/Denver - Rust Meetup: January](https://www.meetup.com/Rust-Boulder-Denver/events/267240914/).
 * [Jan  8. Atlanta, GA, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybccblb/).
 * [Jan  8. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/qgvxlrybccblb/).
+* [Jan  8. Portland, OR, US - PDXRust - C-Side Tourism: Using C libraries from Rust](https://www.meetup.com/PDXRust/events/266938349/).
+* [Jan  9. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybccbmb/).
+* [Jan  9. San Diego, CA, US - San Diego Rust January 2020 Meetup](https://www.meetup.com/San-Diego-Rust/events/267242856/).
+* [Jan  9. Lehi, UT, US - Utah Rust - January 2020 Regular Meetup](https://www.meetup.com/utah-rust/events/265905282/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -123,6 +152,9 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Official /r/rust "Who's Hiring" thread for job-seekers and job-offerers [Rust 1.40]](https://www.reddit.com/r/rust/comments/ecxd62/official_rrust_whos_hiring_thread_for_jobseekers/).
+* [Systems software engineer at OctoML, Seattle, US (Remote available)](https://octoml.ai/#op-354907-systems-software-engineer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
