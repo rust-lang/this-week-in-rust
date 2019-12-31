@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [The embedded WG's Raspberry Pi OS dev tutorials: Tutorial 13 - Kernel Unit, Integration and Console tests using QEMU](https://github.com/rust-embedded/rust-raspi3-OS-tutorials/tree/master/13_integrated_testing)
+
 # Crate of the Week
 
 This week's crate is [cargo-scout](https://github.com/o0Ignition0o/cargo-scout), a cargo subcommand to run clippy on only the changed code in your crate (following git diff).
