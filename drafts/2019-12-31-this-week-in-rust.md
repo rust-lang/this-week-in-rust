@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Optimising PineTime’s Display Driver with Rust and Mynewt](https://medium.com/@ly.lee/optimising-pinetimes-display-driver-with-rust-and-mynewt-3ba269ea2f5c?source=friends_link&sk=4d2cbd2e6cd2343eed62d214814f7b81).
+
 # Crate of the Week
 
 This week's crate is [cargo-scout](https://github.com/o0Ignition0o/cargo-scout), a cargo subcommand to run clippy on only the changed code in your crate (following git diff).
