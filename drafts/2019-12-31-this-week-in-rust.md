@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Rust in Blockchain #7 – December 2019](https://rustinblockchain.org/2020/01/02/rust-in-blockchain-7-december-2019/). In blockchain and across the Rust ecosystem, of projects quickly picking up stable async/await support and migrating to tokio 0.2.
 - [The embedded WG's Raspberry Pi OS dev tutorials: Tutorial 13 - Kernel Unit, Integration and Console tests using QEMU](https://github.com/rust-embedded/rust-raspi3-OS-tutorials/tree/master/13_integrated_testing)
 - [A Thought Experiment: Using the ECS Pattern Outside of Game Engines](http://adventures.michaelfbryan.com/posts/ecs-outside-of-games/?utm_source=this-week-in-rust&utm_medium=social&utm_campaign=ecs-architecture)
 
