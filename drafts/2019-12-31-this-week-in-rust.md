@@ -21,9 +21,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [cargo-scout](https://github.com/o0Ignition0o/cargo-scout), a cargo subcommand to run clippy on only the changed code in your crate (following git diff).
+This week's crate is [attohttpc](https://crates.io/crates/attohttpc), a tiny synchronous HTTP client library.
 
-Thanks to [Philipp Krones](https://users.rust-lang.org/t/crate-of-the-week/2704/694) for the suggestions!
+Thanks to [Matěj Laitl](https://users.rust-lang.org/t/crate-of-the-week/2704/696) for the suggestions!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -45,34 +45,37 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-334 pull requests were [merged in the last week][merged]
+184 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-12-16..2019-12-23
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-12-23..2019-12-30
 
-* [format the world](https://github.com/rust-lang/rust/pull/67540)
-* [refactor expr & stmt parsing + improve recovery](https://github.com/rust-lang/rust/pull/66994)
-* [add a raw "address of" operator](https://github.com/rust-lang/rust/pull/64588)
-* [improve diagnostics for invalid assignment](https://github.com/rust-lang/rust/pull/67538)
-* [use structured suggestion for disambiguating method calls](https://github.com/rust-lang/rust/pull/67127)
-* [fix too restrictive checks on Drop impls](https://github.com/rust-lang/rust/pull/67059)
-* [save LTO import info and check it when trying to reuse build products](https://github.com/rust-lang/rust/pull/67020)
-* [merge `ast::Mutability` and `mir::Mutability`](https://github.com/rust-lang/rust/pull/67355)
-* [merge `TraitItem` & `ImplItem into `AssocItem`](https://github.com/rust-lang/rust/pull/67131)
-* [indicate origin of where type parameter for uninferred types](https://github.com/rust-lang/rust/pull/67285)
-* [allocate HIR on an arena 1/4](https://github.com/rust-lang/rust/pull/66931)
-* [add simpler entry points to const eval for common usages](https://github.com/rust-lang/rust/pull/66877)
-* [chalk: fix coinductive unsoundness](https://github.com/rust-lang/chalk/pull/272)
-* [chalk: move ids to type family](https://github.com/rust-lang/chalk/pull/309)
-* [const prop should finish propagation into user defined variables](https://github.com/rust-lang/rust/pull/67130)
-* [miri: support main functions with Result return type](https://github.com/rust-lang/miri/pull/1125)
-* [implement `LineWriter::write_vectored`](https://github.com/rust-lang/rust/pull/67270)
-* [add `PartialEq` and `Eq` to `Cursor`](https://github.com/rust-lang/rust/pull/67233)
-* [make `ptr::slice_from_raw_parts` a const fn (behind feature flag)](https://github.com/rust-lang/rust/pull/67462)
-* [stabilize `std::{rc,sync}::Weak::{weak_count, strong_count}`](https://github.com/rust-lang/rust/pull/65778)
-* [stdarch: use more simd_* intrinsics](https://github.com/rust-lang/stdarch/pull/790)
-* [futures.rs: make `AtomicWaker::new()` a const fn](https://github.com/rust-lang/futures-rs/pull/2007)
-* [cargo: fix overwriting alternate registry token](https://github.com/rust-lang/cargo/pull/7708)
-* [rustup: support local toolchain names in the override file](https://github.com/rust-lang/rustup/pull/2141)
+* [doc comments: less attribute mimicking](https://github.com/rust-lang/rust/pull/67151)
+* [require const stability attributes on intrinsics to be able to use them in constant contexts](https://github.com/rust-lang/rust/pull/67466)
+* [stabilize attribute macros on inline modules](https://github.com/rust-lang/rust/pull/64273)
+* [normalize `ident`](https://github.com/rust-lang/rust/pull/66670)
+* [resolve long compile times when evaluating always valid constants](https://github.com/rust-lang/rust/pull/67667)
+* [avoid memory copy logic for zero-size types](https://github.com/rust-lang/rust/pull/67658)
+* [ensure that evaluating or validating a constant never reads from a static](https://github.com/rust-lang/rust/pull/67337)
+* [tweak errors for missing associated types and type parameters](https://github.com/rust-lang/rust/pull/67268)
+* [typeck: note other end-point when checking range pats](https://github.com/rust-lang/rust/pull/67287)
+* [refactorings to borrowck region diagnostic reporting](https://github.com/rust-lang/rust/pull/67241)
+* [various const eval and pattern matching ICE fixes](https://github.com/rust-lang/rust/pull/67192)
+* [fix ICE in mir interpretation](https://github.com/rust-lang/rust/pull/67546)
+* [allocate HIR on an arena 2/4 -- Expr & Pat](https://github.com/rust-lang/rust/pull/66936)
+* [allocate HIR on an arena 3/4 -- Ty](https://github.com/rust-lang/rust/pull/66942)
+* [initial implementation of `#![feature(bindings_after_at)]`](https://github.com/rust-lang/rust/pull/66296)
+* [deprecate `Error::description` for real](https://github.com/rust-lang/rust/pull/66919)
+* [add `IntoFuture` trait and support for await](https://github.com/rust-lang/rust/pull/65244)
+* [do not ICE on lifetime error involving closures](https://github.com/rust-lang/rust/pull/67687)
+* [use `NonNull` in `slice::`{`Iter`, `IterMut`}](https://github.com/rust-lang/rust/pull/67588)
+* [implement padding for `IpAddr` without heap alloc](https://github.com/rust-lang/rust/pull/67035)
+* [stabilize the `matches!` macro](https://github.com/rust-lang/rust/pull/67659)
+* [differentiate `todo!` and `unimplemented!`](https://github.com/rust-lang/rust/pull/67445)
+* [fix `Instance::resolve()` incorrectly returning specialized instances](https://github.com/rust-lang/rust/pull/67662)
+* [prune ill-conceived `BTreeMap::iter_mut` assertion and test its mutability](https://github.com/rust-lang/rust/pull/67459)
+* [clean up const-hack PRs now that const if / match exist](https://github.com/rust-lang/rust/pull/67657)
+* [hashbrown: implement `drain_filter` for `HashMap`](https://github.com/rust-lang/hashbrown/pull/135)
+* [rustdoc: show the actual value of constant values in the documentation](https://github.com/rust-lang/rust/pull/66221)
 
 ## Approved RFCs
 
@@ -139,11 +142,15 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Unsoundness is what happens when unsafety goes wrong.
+> Rust has multiple *unique* paradigms that don't even exist in other languages, such as lifetimes and compile-time-tracked "exclusive access". But instead of endorsing them from the beginning, as @mbrubeck's [ *Rust: a unique perspective* ](https://limpet.net/mbrubeck/2019/02/07/rust-a-unique-perspective.html) does, the Rust book tries to show a language that is "like other languages, but with (magical) compile-time checks". When the truth is that Rust's strength lies in non-`unsafe` Rust being **less expressive** than languages like C or C++.
+>
+> I think that Rust should start with the statement: "Welcome to a language that by being less expressive forces you to use constructs that are **guaranteed at compile-time to be sound**. But don't worry; after some time you will get used to the coding patterns that are allowed, and will then almost not notice the hindered expressiveness, only the enhanced zero-cost safety that will let you **hack without fear**."
+>
+> * It doesn't sound bad imho, and is at least honest *w.r.t.* the struggles that someone refusing to shift their way of coding / mental coding patterns may encounter.
 
-– [Alice Ryhl on rust-users](https://users.rust-lang.org/t/learn-rust-the-dangerous-way-the-unsafe-first-tutorial/35806/39)
+– [Daniel H-M on rust-users](https://users.rust-lang.org/t/after-a-week-with-rust/35829/27)
 
-Thanks to [Daniel H-M](https://users.rust-lang.org/t/twir-quote-of-the-week/328/764) for the suggestion!
+Thanks to [Tom Phinney](https://users.rust-lang.org/t/twir-quote-of-the-week/328/768) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
