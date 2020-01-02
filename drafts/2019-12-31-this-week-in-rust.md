@@ -16,10 +16,21 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-[Optimising PineTime’s Display Driver with Rust and Mynewt](https://medium.com/@ly.lee/optimising-pinetimes-display-driver-with-rust-and-mynewt-3ba269ea2f5c?source=friends_link&sk=4d2cbd2e6cd2343eed62d214814f7b81).
-[Rust in Blockchain #7 – December 2019](https://rustinblockchain.org/2020/01/02/rust-in-blockchain-7-december-2019/). In blockchain and across the Rust ecosystem, of projects quickly picking up stable async/await support and migrating to tokio 0.2.
-- [The embedded WG's Raspberry Pi OS dev tutorials: Tutorial 13 - Kernel Unit, Integration and Console tests using QEMU](https://github.com/rust-embedded/rust-raspi3-OS-tutorials/tree/master/13_integrated_testing)
-- [A Thought Experiment: Using the ECS Pattern Outside of Game Engines](http://adventures.michaelfbryan.com/posts/ecs-outside-of-games/?utm_source=this-week-in-rust&utm_medium=social&utm_campaign=ecs-architecture)
+* [Rewriting m4vgalib in Rust](http://cliffle.com/blog/m4vga-in-rust/).
+* [A thought experiment: Using the ECS pattern outside of game engines](http://adventures.michaelfbryan.com/posts/ecs-outside-of-games/).
+* [Spinlocks considered harmful](https://matklad.github.io//2020/01/02/spinlocks-considered-harmful.html).
+* [The state Of ggez, 2020](https://wiki.alopex.li/TheStateOfGGEZ2020).
+* [Interior mutability patterns](https://pitdicker.github.io/Interior-mutability-patterns/).
+* [Should Clippy care from whence they came](https://llogiq.github.io/2020/01/01/clippy.html)?
+* [Writing AWS Lambda functions in Rust](https://silentbyte.com/writing-aws-lambda-functions-in-rust).
+* [Rust lifetimes and iterators](https://blog.katona.me/2019/12/29/Rust-Lifetimes-and-Iterators/).
+* [Rocket and multipart forms](https://blog.krruzic.xyz/rocket-multipart/).
+* [Lyon 0.15.0 - a new tessellator](https://nical.github.io/posts/new-tessellator.html).
+* [The embedded WG's Raspberry Pi OS dev tutorials: Tutorial 13 - Kernel unit, integration, and console tests using QEMU](https://github.com/rust-embedded/rust-raspi3-OS-tutorials/tree/master/13_integrated_testing).
+* [Optimising PineTime’s display driver with Rust and Mynewt](https://medium.com/@ly.lee/optimising-pinetimes-display-driver-with-rust-and-mynewt-3ba269ea2f5c).
+* [The embedded WG newsletter 22](https://rust-embedded.github.io/blog/newsletter-22/).
+* [rust-analyzer changelog 5](https://rust-analyzer.github.io/thisweek/2019/12/30/changelog-5.html).
+* [Rust in blockchain 7 – December 2019](https://rustinblockchain.org/2020/01/02/rust-in-blockchain-7-december-2019/).
 
 # Crate of the Week
 
@@ -38,8 +49,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [good first issue] [simdjson: flattend json access for the tape](https://github.com/simd-lite/simdjson-rs/issues/91).
-* [good first issue] [rsynth: Add support for System Exclusive events with the jack back-end](https://github.com/PieterPenninckx/rsynth/issues/50).
+*No issues were proposed for CfP*.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -95,8 +105,7 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Demote Apple 32bit targets to Tier 3](https://github.com/rust-lang/rfcs/pull/2837).
-* [disposition: merge] [Announcing the Safe-Transmute Project Group](https://github.com/rust-lang/rfcs/pull/2835).
+*No RFCs are currently in final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
@@ -104,7 +113,7 @@ decision. Express your opinions now.
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [-C export-executable-symbols](https://github.com/rust-lang/rfcs/pull/2841).
 
 # Upcoming Events
 
@@ -117,12 +126,13 @@ decision. Express your opinions now.
 * [Jan  8. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgrybccblb/).
 * [Jan  9. Lisbon, PT - Rust Lisbon - Live Jan 2020](https://www.meetup.com/Rust-Lisbon/events/266629066/).
 * [Jan 10. Darmstadt, DE - Rust Rhein-Main - 1st 2020 Rhein-Main Rust Meetup](https://www.meetup.com/Rust-Rhein-Main/events/267158461/).
+* [Jan 16. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/267292439).
 * [Jan 22. Wrocław, PL - Rust Wrocław Meetup #16](https://www.meetup.com/Rust-Wroclaw/events/267514337/).
+* [Jan 23. Warsaw, PL - Rust Warsaw 3](https://www.meetup.com/Rust-Warsaw/events/267525144/).
 
 ### North America
 
-* [Dec 31. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyzqbpc/).
-* [Jan  1. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpybccbcb/).
+* [Jan  6. Houston, TX, US - Houston Linux Users Group - Rust Study Group](https://www.facebook.com/events/469382520642102).
 * [Jan  7. Denver, CO, US - Rust Boulder/Denver - Rust Meetup: January](https://www.meetup.com/Rust-Boulder-Denver/events/267240914/).
 * [Jan  8. Atlanta, GA, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybccblb/).
 * [Jan  8. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/qgvxlrybccblb/).
@@ -130,6 +140,12 @@ decision. Express your opinions now.
 * [Jan  9. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybccbmb/).
 * [Jan  9. San Diego, CA, US - San Diego Rust January 2020 Meetup](https://www.meetup.com/San-Diego-Rust/events/267242856/).
 * [Jan  9. Lehi, UT, US - Utah Rust - January 2020 Regular Meetup](https://www.meetup.com/utah-rust/events/265905282/).
+* [Jan  9. Arlington, VA, US - Rust DC — Mid-month Rustful](https://www.meetup.com/RustDC/events/266235306).
+* [Jan 14. Seattle, WA, US - Seattle Rust Meetup - Physical Computing Workshop](https://www.meetup.com/Seattle-Rust-Meetup/events/267538087/).
+
+### South America
+
+* [Jan 18. Sao Paulo, BR - Rust SP - Encontro Janeiro 2020](https://www.meetup.com/Rust-Sao-Paulo-Meetup/events/266858154/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -139,6 +155,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Rust Engineer at Reddit](https://www.reddit.com/r/rust/comments/ehup6r/reddit_on_rust/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
