@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 - [The embedded WG's Raspberry Pi OS dev tutorials: Tutorial 13 - Kernel Unit, Integration and Console tests using QEMU](https://github.com/rust-embedded/rust-raspi3-OS-tutorials/tree/master/13_integrated_testing)
+- [A Thought Experiment: Using the ECS Pattern Outside of Game Engines](http://adventures.michaelfbryan.com/posts/ecs-outside-of-games/?utm_source=this-week-in-rust&utm_medium=social&utm_campaign=ecs-architecture)
 
 # Crate of the Week
 
@@ -111,6 +112,7 @@ decision. Express your opinions now.
 * [Jan  8. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgrybccblb/).
 * [Jan  9. Lisbon, PT - Rust Lisbon - Live Jan 2020](https://www.meetup.com/Rust-Lisbon/events/266629066/).
 * [Jan 10. Darmstadt, DE - Rust Rhein-Main - 1st 2020 Rhein-Main Rust Meetup](https://www.meetup.com/Rust-Rhein-Main/events/267158461/).
+* [Jan 22. Wrocław, PL - Rust Wrocław Meetup #16](https://www.meetup.com/Rust-Wroclaw/events/267514337/).
 
 ### North America
 
