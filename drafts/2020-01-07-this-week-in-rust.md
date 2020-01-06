@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [🎉 The creation of the ÄroRust (Unofficial) Rust 🦀 + Aerospace 🚀 Working Group 🎉](https://github.com/AeroRust)
+
 # Crate of the Week
 
 This week's crate is [attohttpc](https://crates.io/crates/attohttpc), a tiny synchronous HTTP client library.
