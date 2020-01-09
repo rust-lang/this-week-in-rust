@@ -16,7 +16,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-- [🎉 The creation of the ÄroRust (Unofficial) Rust 🦀 + Aerospace 🚀 Working Group 🎉](https://github.com/AeroRust)
+* [Translating Quake 3 into Rust](https://immunant.com/blog/2020/01/quake3/).
+* [Reducing support for 32-bit Apple targets](https://blog.rust-lang.org/2020/01/03/reducing-support-for-32-bit-apple-targets.html).
+* [Learn Rust the dangerous way: Let the compiler do the work](http://cliffle.com/p/dangerust/6/).
+* [Mutexes are faster than spinlocks](https://matklad.github.io/2020/01/04/mutexes-are-faster-than-spinlocks.html).
+* [Writing an OS in Rust: Updates in December 2019](https://os.phil-opp.com/status-update/2020-01-07/).
+* [Update on const generics progress](https://github.com/rust-lang/rust/issues/44580#issuecomment-570191702).
+* [Elastic releases official Elasticsearch Rust client](https://github.com/elastic/elasticsearch-rs).
+* [Backpressure in async ecosystems](https://lucumr.pocoo.org/2020/1/1/async-pressure/).
+* [Explaining atomics in Rust](https://cfsamsonbooks.gitbook.io/explaining-atomics-in-rust/).
+* [Announcing ÄroRust - an unofficial Rust + Aerospace Working Group](https://github.com/AeroRust).
+* [Videos from Rust Belt Rust 2019 are now available](https://www.youtube.com/playlist?list=PLgC1L0fKd7UkVwjVlOySfMnn80Qs5TOLb).
+* [A primer on Rust’s Result type](https://medium.com/@JoeKreydt/a-primer-on-rusts-result-type-66363cf18e6a).
 
 # Crate of the Week
 
@@ -35,7 +46,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-*No issues were proposed for CfP*.
+* [good first issue] [bandwhich: Better error handling when accessing network interface](https://github.com/imsnif/bandwhich/issues/73).
+* [bandwhich: In the UI, calculate bandwidth for the past N seconds rather than just 1](https://github.com/imsnif/bandwhich/issues/14).
+* [bandwhich: Pause display with space](https://github.com/imsnif/bandwhich/issues/74).
+* [Register your interest in Rust training with Carol Nichols and Jake Goulding in May 2020](https://docs.google.com/forms/d/e/1FAIpQLSdIJy7JbftA27qJlxEgR9Q5o1MB3kXqnH3bthTJbg7KS-P0YQ/viewform).
+* [Rust LATAM Mexico 2020 CFP](https://cfp.rustlatam.org/events/rust-latam-mexico-2020).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -71,7 +86,8 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2795: Propose implicit named arguments for formatting macros](https://github.com/rust-lang/rfcs/pull/2795).
+* [RFC 2835: Announcing the Safe-Transmute Project Group](https://github.com/rust-lang/rfcs/pull/2835).
 
 ## Final Comment Period
 
@@ -81,46 +97,40 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Deprecate stdlib modules dedicated to numeric constants and move those constants to associated consts](https://github.com/rust-lang/rfcs/pull/2700).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Stabilize `#![feature(slice_patterns)]` in 1.42.0](https://github.com/rust-lang/rust/pull/67712).
+* [disposition: merge] [Stabilize Condvar::wait_while and wait_timeout_while (previously wait_until, wait_timeout_until)](https://github.com/rust-lang/rust/pull/67076).
 
 ## New RFCs
 
-* [-C export-executable-symbols](https://github.com/rust-lang/rfcs/pull/2841).
+* [Add llvm_asm! and deprecate asm!](https://github.com/rust-lang/rfcs/pull/2843).
+* [Supertrait item shadowing](https://github.com/rust-lang/rfcs/pull/2845).
 
 # Upcoming Events
 
-### Asia Pacific
-
-* [Jan  8. Kuala Lumpur, MY - Rust Meetup January 2019](https://docs.google.com/forms/d/e/1FAIpQLScb1MoYvLE4hfUlUKzg4LJHNI6Abw41hRIQGyBVVIAcwvdGfQ/viewform).
-
 ### Europe
 
-* [Jan  8. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgrybccblb/).
-* [Jan  9. Lisbon, PT - Rust Lisbon - Live Jan 2020](https://www.meetup.com/Rust-Lisbon/events/266629066/).
 * [Jan 10. Darmstadt, DE - Rust Rhein-Main - 1st 2020 Rhein-Main Rust Meetup](https://www.meetup.com/Rust-Rhein-Main/events/267158461/).
 * [Jan 16. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/267292439).
+* [Jan 16. Helsinki, FI - Finland Rust-lang Group - January meetup](https://www.meetup.com/Finland-Rust-Meetup/events/267607507/).
 * [Jan 17. Stuttgart, DE - Rust Hack and Learn](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/267764516).
 * [Jan 22. Wrocław, PL - Rust Wrocław Meetup #16](https://www.meetup.com/Rust-Wroclaw/events/267514337/).
+* [Jan 23. Paris, FR - Rust Paris meetup #49](https://www.meetup.com/Rust-Paris/events/267250053/).
 * [Jan 23. Warsaw, PL - Rust Warsaw 3](https://www.meetup.com/Rust-Warsaw/events/267525144/).
-* [Feb 2. Brussels, BE - Rust devroom @ FOSDEM](https://fosdem.org/2020/schedule/track/rust/).
+* [Feb  2. Brussels, BE - Rust devroom @ FOSDEM](https://fosdem.org/2020/schedule/track/rust/).
+* [Jan 22. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgrybccbdc/).
+* [Jan 22. Hamburg, DE - Rust Hack & Learn January 2020](https://www.meetup.com/Rust-Meetup-Hamburg/events/267692684/).
 
 
 ### North America
 
-* [Jan  6. Houston, TX, US - Houston Linux Users Group - Rust Study Group](https://www.facebook.com/events/469382520642102).
-* [Jan  7. Denver, CO, US - Rust Boulder/Denver - Rust Meetup: January](https://www.meetup.com/Rust-Boulder-Denver/events/267240914/).
-* [Jan  8. Atlanta, GA, US - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybccblb/).
-* [Jan  8. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/qgvxlrybccblb/).
-* [Jan  8. Portland, OR, US - PDXRust - C-Side Tourism: Using C libraries from Rust](https://www.meetup.com/PDXRust/events/266938349/).
-* [Jan  9. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybccbmb/).
-* [Jan  9. San Diego, CA, US - San Diego Rust January 2020 Meetup](https://www.meetup.com/San-Diego-Rust/events/267242856/).
-* [Jan  9. Lehi, UT, US - Utah Rust - January 2020 Regular Meetup](https://www.meetup.com/utah-rust/events/265905282/).
-* [Jan  9. Arlington, VA, US - Rust DC — Mid-month Rustful](https://www.meetup.com/RustDC/events/266235306).
 * [Jan 14. Seattle, WA, US - Seattle Rust Meetup - Physical Computing Workshop](https://www.meetup.com/Seattle-Rust-Meetup/events/267538087/).
+* [Jan 20. Houston, TX, US - Houston Linux Users Group - Rust Study Group](https://www.facebook.com/events/469382520642102).
+* [Jan 22. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscrybccbdc/).
+* [Jan 22. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/qgvxlrybccbdc/).
 
 ### South America
 
@@ -134,6 +144,9 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Windows Software Engineer at Astro HQMinneapolis, MN, US or Remote](https://hire.withgoogle.com/public/jobs/astrohqcom/view/P_AAAAAAHAADlK9Jmzxc2Sc6).
+* [Senior Rust Software Engineer at CrowdStrike, US Remote](https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/USA-Remote/Senior-Rust-Software-Engineer_R224).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
