@@ -119,7 +119,7 @@ decision. Express your opinions now.
 
 ### Asia Pacific
 
-* [Jan  8. Kuala Lumpur, MY - Rust Meetup January 2019](https://docs.google.com/forms/d/e/1FAIpQLScb1MoYvLE4hfUlUKzg4LJHNI6Abw41hRIQGyBVVIAcwvdGfQ/viewform).
+* [Jan  8. Kuala Lumpur, MY - Rust Meetup January 2020](https://docs.google.com/forms/d/e/1FAIpQLScb1MoYvLE4hfUlUKzg4LJHNI6Abw41hRIQGyBVVIAcwvdGfQ/viewform).
 
 ### Europe
 
