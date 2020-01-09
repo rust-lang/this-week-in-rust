@@ -18,9 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [attohttpc](https://crates.io/crates/attohttpc), a tiny synchronous HTTP client library.
+This week's crate is [sqlx](https://crates.io/crates/sqlx), a modern SQL client library.
 
-Thanks to [Matěj Laitl](https://users.rust-lang.org/t/crate-of-the-week/2704/696) for the suggestions!
+Thanks to [Jan Riemer](https://users.rust-lang.org/t/crate-of-the-week/2704/698) for the suggestions!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -41,37 +41,27 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-184 pull requests were [merged in the last week][merged]
+207 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-12-23..2019-12-30
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-12-30..2019-01-06
 
-* [doc comments: less attribute mimicking](https://github.com/rust-lang/rust/pull/67151)
-* [require const stability attributes on intrinsics to be able to use them in constant contexts](https://github.com/rust-lang/rust/pull/67466)
-* [stabilize attribute macros on inline modules](https://github.com/rust-lang/rust/pull/64273)
-* [normalize `ident`](https://github.com/rust-lang/rust/pull/66670)
-* [resolve long compile times when evaluating always valid constants](https://github.com/rust-lang/rust/pull/67667)
-* [avoid memory copy logic for zero-size types](https://github.com/rust-lang/rust/pull/67658)
-* [ensure that evaluating or validating a constant never reads from a static](https://github.com/rust-lang/rust/pull/67337)
-* [tweak errors for missing associated types and type parameters](https://github.com/rust-lang/rust/pull/67268)
-* [typeck: note other end-point when checking range pats](https://github.com/rust-lang/rust/pull/67287)
-* [refactorings to borrowck region diagnostic reporting](https://github.com/rust-lang/rust/pull/67241)
-* [various const eval and pattern matching ICE fixes](https://github.com/rust-lang/rust/pull/67192)
-* [fix ICE in mir interpretation](https://github.com/rust-lang/rust/pull/67546)
-* [allocate HIR on an arena 2/4 -- Expr & Pat](https://github.com/rust-lang/rust/pull/66936)
-* [allocate HIR on an arena 3/4 -- Ty](https://github.com/rust-lang/rust/pull/66942)
-* [initial implementation of `#![feature(bindings_after_at)]`](https://github.com/rust-lang/rust/pull/66296)
-* [deprecate `Error::description` for real](https://github.com/rust-lang/rust/pull/66919)
-* [add `IntoFuture` trait and support for await](https://github.com/rust-lang/rust/pull/65244)
-* [do not ICE on lifetime error involving closures](https://github.com/rust-lang/rust/pull/67687)
-* [use `NonNull` in `slice::`{`Iter`, `IterMut`}](https://github.com/rust-lang/rust/pull/67588)
-* [implement padding for `IpAddr` without heap alloc](https://github.com/rust-lang/rust/pull/67035)
-* [stabilize the `matches!` macro](https://github.com/rust-lang/rust/pull/67659)
-* [differentiate `todo!` and `unimplemented!`](https://github.com/rust-lang/rust/pull/67445)
-* [fix `Instance::resolve()` incorrectly returning specialized instances](https://github.com/rust-lang/rust/pull/67662)
-* [prune ill-conceived `BTreeMap::iter_mut` assertion and test its mutability](https://github.com/rust-lang/rust/pull/67459)
-* [clean up const-hack PRs now that const if / match exist](https://github.com/rust-lang/rust/pull/67657)
-* [hashbrown: implement `drain_filter` for `HashMap`](https://github.com/rust-lang/hashbrown/pull/135)
-* [rustdoc: show the actual value of constant values in the documentation](https://github.com/rust-lang/rust/pull/66221)
+* [use function attribute "frame-pointer" instead of "no-frame-pointer-elim"](https://github.com/rust-lang/rust/pull/67748)
+* [parser: reduce diversity in error handling mechanisms](https://github.com/rust-lang/rust/pull/67744)
+* [allocate HIR on an arena 4/4](https://github.com/rust-lang/rust/pull/67032)
+* [improve some `Drop`-related error messages](https://github.com/rust-lang/rust/pull/67823)
+* [add symbol normalization for `proc_macro_server`](https://github.com/rust-lang/rust/pull/67702)
+* [suggest calling method when first argument is `self`](https://github.com/rust-lang/rust/pull/66913)
+* [implement uncommon_codepoints lint](https://github.com/rust-lang/rust/pull/67810)
+* [perf: don't recurse into types that do not need normalizing](https://github.com/rust-lang/rust/pull/67808)
+* [revert "Add IntoFuture trait and await support" for performance reasons](https://github.com/rust-lang/rust/pull/67768)
+* [ensure that we process projections during MIR inlining](https://github.com/rust-lang/rust/pull/67796)
+* [miri: update panic machinery to match `#[track_caller]` changes](https://github.com/rust-lang/miri/pull/1137)
+* [fix ICE involving calling `Instance.ty` during const evaluation](https://github.com/rust-lang/rust/pull/67800)
+* [no longer promote non-pattern const functions](https://github.com/rust-lang/rust/pull/67531)
+* [update the barrier cache during ARM EHABI unwinding](https://github.com/rust-lang/rust/pull/67779)
+* [add `Iterator::try_find`](https://github.com/rust-lang/rust/pull/63177)
+* [cargo: fix CARGO_TARGET_triple_LINKER environment variable](https://github.com/rust-lang/cargo/pull/7763)
+* [crates.io: allow multiple keywords in crate search](https://github.com/rust-lang/crates.io/pull/1543)
 
 ## Approved RFCs
 
@@ -144,15 +134,15 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Rust has multiple *unique* paradigms that don't even exist in other languages, such as lifetimes and compile-time-tracked "exclusive access". But instead of endorsing them from the beginning, as @mbrubeck's [ *Rust: a unique perspective* ](https://limpet.net/mbrubeck/2019/02/07/rust-a-unique-perspective.html) does, the Rust book tries to show a language that is "like other languages, but with (magical) compile-time checks". When the truth is that Rust's strength lies in non-`unsafe` Rust being **less expressive** than languages like C or C++.
+> *relatively speaking*, my rust programs are like Leonardo DiCaprio in the Revenant, killing grizzly bears with their bare hands, dying and being frozen into a giant ice cubes then, surprise!, they're actually alive.
 >
-> I think that Rust should start with the statement: "Welcome to a language that by being less expressive forces you to use constructs that are **guaranteed at compile-time to be sound**. But don't worry; after some time you will get used to the coding patterns that are allowed, and will then almost not notice the hindered expressiveness, only the enhanced zero-cost safety that will let you **hack without fear**."
+> they can handle a lot, they tend to experience far fewer bugs that come around days or weeks after going into production.
 >
-> * It doesn't sound bad imho, and is at least honest *w.r.t.* the struggles that someone refusing to shift their way of coding / mental coding patterns may encounter.
+> my python programs, otoh, are like William Henry Harrison. Inauguration day! exciting! kind of chilly out here. uh oh -- pneumonia ... dang it!
 
-– [Daniel H-M on rust-users](https://users.rust-lang.org/t/after-a-week-with-rust/35829/27)
+– [Jonathan Strong on reddit](https://www.reddit.com/r/rust/comments/ehup6r/reddit_on_rust/fcma8y2/,,,)
 
-Thanks to [Tom Phinney](https://users.rust-lang.org/t/twir-quote-of-the-week/328/768) for the suggestion!
+Thanks to [Jan Riemer](https://users.rust-lang.org/t/twir-quote-of-the-week/328/769) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
