@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [🎉 The creation of the ÄroRust (Unofficial) Rust 🦀 + Aerospace 🚀 Working Group 🎉](https://github.com/AeroRust)
+
 # Crate of the Week
 
 This week's crate is [sqlx](https://crates.io/crates/sqlx), a modern SQL client library.
