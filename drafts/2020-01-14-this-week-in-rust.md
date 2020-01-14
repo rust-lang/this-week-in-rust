@@ -18,9 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [sqlx](https://crates.io/crates/sqlx), a modern SQL client library.
+This week's crate is [cxx](https://github.com/dtolnay/cxx), a library to build a C++ FFI safely by taking care of both sides.
 
-Thanks to [Jan Riemer](https://users.rust-lang.org/t/crate-of-the-week/2704/698) for the suggestions!
+Thanks to [Ehsan M. Kermani](https://users.rust-lang.org/t/crate-of-the-week/2704/702) for the suggestions!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -45,27 +45,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-207 pull requests were [merged in the last week][merged]
+311 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2019-12-30..2019-01-06
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-01-06..2020-01-13
 
-* [use function attribute "frame-pointer" instead of "no-frame-pointer-elim"](https://github.com/rust-lang/rust/pull/67748)
-* [parser: reduce diversity in error handling mechanisms](https://github.com/rust-lang/rust/pull/67744)
-* [allocate HIR on an arena 4/4](https://github.com/rust-lang/rust/pull/67032)
-* [improve some `Drop`-related error messages](https://github.com/rust-lang/rust/pull/67823)
-* [add symbol normalization for `proc_macro_server`](https://github.com/rust-lang/rust/pull/67702)
-* [suggest calling method when first argument is `self`](https://github.com/rust-lang/rust/pull/66913)
-* [implement uncommon_codepoints lint](https://github.com/rust-lang/rust/pull/67810)
-* [perf: don't recurse into types that do not need normalizing](https://github.com/rust-lang/rust/pull/67808)
-* [revert "Add IntoFuture trait and await support" for performance reasons](https://github.com/rust-lang/rust/pull/67768)
-* [ensure that we process projections during MIR inlining](https://github.com/rust-lang/rust/pull/67796)
-* [miri: update panic machinery to match `#[track_caller]` changes](https://github.com/rust-lang/miri/pull/1137)
-* [fix ICE involving calling `Instance.ty` during const evaluation](https://github.com/rust-lang/rust/pull/67800)
-* [no longer promote non-pattern const functions](https://github.com/rust-lang/rust/pull/67531)
-* [update the barrier cache during ARM EHABI unwinding](https://github.com/rust-lang/rust/pull/67779)
-* [add `Iterator::try_find`](https://github.com/rust-lang/rust/pull/63177)
-* [cargo: fix CARGO_TARGET_triple_LINKER environment variable](https://github.com/rust-lang/cargo/pull/7763)
-* [crates.io: allow multiple keywords in crate search](https://github.com/rust-lang/crates.io/pull/1543)
+* [prepare for LLVM 10 upgrade](https://github.com/rust-lang/rust/pull/67900)
+* [allow specifying LLVM args in target specifications](https://github.com/rust-lang/rust/pull/68059)
+* [don't require `allow_internal_unstable` unless `staged_api` is enabled](https://github.com/rust-lang/rust/pull/68114)
+* [more reductions in error handling diversity](https://github.com/rust-lang/rust/pull/67770)
+* [introduce `X..`, `..X`, and `..=X` range patterns](https://github.com/rust-lang/rust/pull/67258)
+* [ban `...X` pats, harden tests, and improve diagnostics](https://github.com/rust-lang/rust/pull/68120)
+* [add suggestions when encountering chained comparisons](https://github.com/rust-lang/rust/pull/68108)
+* [handle multiple error fix suggestions carefully](https://github.com/rust-lang/rust/pull/67880)
+* [simplify `into_key_slice_mut`](https://github.com/rust-lang/rust/pull/67725)
+* [`Option::{expect,unwrap}` and `Result::{expect, expect_err, unwrap, unwrap_err}` have `#[track_caller]`](https://github.com/rust-lang/rust/pull/67887)
+* [add `HashSet::get_or_insert_owned`](https://github.com/rust-lang/rust/pull/67358)
+* [make `Layout::new` const](https://github.com/rust-lang/rust/pull/66254)
+* [constify more of `alloc::Layout`](https://github.com/rust-lang/rust/pull/67494)
+* [futures mpsc: split bounded and unbounded implementations](https://github.com/rust-lang/futures-rs/pull/1326)
+* [distinguish between private items and hidden items in rustdoc](https://github.com/rust-lang/rust/pull/67875)
+* [rustbuild: add `llvm-skip-rebuild` flag to `x.py`](https://github.com/rust-lang/rust/pull/68074)
 
 ## Approved RFCs
 
@@ -136,13 +135,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> *relatively speaking*, my rust programs are like Leonardo DiCaprio in the Revenant, killing grizzly bears with their bare hands, dying and being frozen into a giant ice cubes then, surprise!, they're actually alive.
+> @ZiCog: Does anyone have a 'no holds barred, unsafe or not' solution to the problem in Rust that can match C?
 >
-> they can handle a lot, they tend to experience far fewer bugs that come around days or weeks after going into production.
+> @kornel: Pipe the C version through c2rust :slight_smile:
 >
-> my python programs, otoh, are like William Henry Harrison. Inauguration day! exciting! kind of chilly out here. uh oh -- pneumonia ... dang it!
+> @ZiCog: Yay! Rust now beats both Clang and GCC!
 
-– [Jonathan Strong on reddit](https://www.reddit.com/r/rust/comments/ehup6r/reddit_on_rust/fcma8y2/,,,)
+– [ZiCog and Kornel on rust-users](https://users.rust-lang.org/t/clippy-driving-me-to-insanity-insisting-on-iterators/36796/19)
 
 Thanks to [Jan Riemer](https://users.rust-lang.org/t/twir-quote-of-the-week/328/769) for the suggestion!
 
