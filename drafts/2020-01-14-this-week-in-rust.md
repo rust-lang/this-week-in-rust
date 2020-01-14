@@ -136,13 +136,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> *relatively speaking*, my rust programs are like Leonardo DiCaprio in the Revenant, killing grizzly bears with their bare hands, dying and being frozen into a giant ice cubes then, surprise!, they're actually alive.
->
-> they can handle a lot, they tend to experience far fewer bugs that come around days or weeks after going into production.
->
-> my python programs, otoh, are like William Henry Harrison. Inauguration day! exciting! kind of chilly out here. uh oh -- pneumonia ... dang it!
+> Rust is a problem for the Navy, cruise ships and more"
+> What? They can't handle the borrow checker? Is it the strong type system? Are they using `unwrap()` everywhere?
+> Oooohhh, the _other_ rust. Ok, carry on.
 
-– [Jonathan Strong on reddit](https://www.reddit.com/r/rust/comments/ehup6r/reddit_on_rust/fcma8y2/,,,)
+– [Biason::Julio::new(); on mastodon](https://functional.cafe/@juliobiason/103482125390370617)
 
 Thanks to [Jan Riemer](https://users.rust-lang.org/t/twir-quote-of-the-week/328/769) for the suggestion!
 
