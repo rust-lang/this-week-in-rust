@@ -16,6 +16,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Rust code in Unreal Engine](https://ejmahler.github.io/rust_in_unreal/).
+* [Introduction - Roguelike tutorial](http://bfnightly.bracketproductions.com/rustbook/chapter_0.html).
+* [Towards a Rust foundation](https://smallcultfollowing.com/babysteps/blog/2020/01/09/towards-a-rust-foundation/).
+* [Way Cooler postmortem](http://way-cooler.org/blog/2020/01/09/way-cooler-post-mortem.html).
+* [Why Rust? I have a GC](https://llogiq.github.io/2020/01/10/rustvsgc.html)!
+* [rust-analyzer changelog 7](https://rust-analyzer.github.io/thisweek/2020/01/13/changelog-7.html).
+* [This month in Rust gamedev 5 - December 2019](https://rust-gamedev.github.io/posts/newsletter-005/).
+* [RDBC is moving to Tokio](https://andygrove.io/2020/01/rust-database-connectivity-rdbc/).
+* [Synthesizing loop-free programs with Rust and Z3](https://fitzgeraldnick.com/2020/01/13/synthesizing-loop-free-programs.html).
+* [Containerized builds for Rust on the ESP32](https://dev.to/mtnmts/containerized-builds-for-rust-on-the-esp32-e8m).
+* [Implementing a cooperative scheduler in a Rust kernel](https://ryan-jacobs1.github.io/2020/01/06/scheduler.html).
+
 # Crate of the Week
 
 This week's crate is [cxx](https://github.com/dtolnay/cxx), a library to build a C++ FFI safely by taking care of both sides.
@@ -33,11 +45,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [good first issue] [bandwhich: Better error handling when accessing network interface](https://github.com/imsnif/bandwhich/issues/73).
-* [bandwhich: In the UI, calculate bandwidth for the past N seconds rather than just 1](https://github.com/imsnif/bandwhich/issues/14).
-* [bandwhich: Pause display with space](https://github.com/imsnif/bandwhich/issues/74).
-* [Register your interest in Rust training with Carol Nichols and Jake Goulding in May 2020](https://docs.google.com/forms/d/e/1FAIpQLSdIJy7JbftA27qJlxEgR9Q5o1MB3kXqnH3bthTJbg7KS-P0YQ/viewform).
-* [Rust LATAM Mexico 2020 CFP](https://cfp.rustlatam.org/events/rust-latam-mexico-2020).
+* [good first issue] [sqlx: Add a proc macro derive for Encode and Decode supporting _only_ 1-arity tuple structs](https://github.com/launchbadge/sqlx/issues/34) with a mentor.
+* [Help port hyper and body-image-futio to async-std](https://users.rust-lang.org/t/twir-call-for-participation/4821/288).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -72,8 +81,7 @@ Changes to Rust follow the Rust [RFC (request for comments)
 process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2795: Propose implicit named arguments for formatting macros](https://github.com/rust-lang/rfcs/pull/2795).
-* [RFC 2835: Announcing the Safe-Transmute Project Group](https://github.com/rust-lang/rfcs/pull/2835).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -83,25 +91,27 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
+* [disposition: merge] [Introduce the ASM project group](https://github.com/rust-lang/rfcs/pull/2836).
 * [disposition: merge] [Deprecate stdlib modules dedicated to numeric constants and move those constants to associated consts](https://github.com/rust-lang/rfcs/pull/2700).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [Stabilize `#![feature(slice_patterns)]` in 1.42.0](https://github.com/rust-lang/rust/pull/67712).
-* [disposition: merge] [Stabilize Condvar::wait_while and wait_timeout_while (previously wait_until, wait_timeout_until)](https://github.com/rust-lang/rust/pull/67076).
+* [disposition: merge] [Added From<Vec<NonZeroU8>> for CString](https://github.com/rust-lang/rust/pull/64069).
+* [disposition: merge] [Relax bounds on HashMap/HashSet](https://github.com/rust-lang/rust/pull/67642).
+* [disposition: merge] [Stabilize `ptr::slice_from_raw_parts[_mut]`](https://github.com/rust-lang/rust/pull/68234).
+* [disposition: merge] [Stabilize the debug_map_key_value feature](https://github.com/rust-lang/rust/pull/68200).
+* [disposition: merge] [Tracking issue for core::iter::once_with()](https://github.com/rust-lang/rust/issues/57581).
+* [disposition: merge] [Tracking issue for `ManuallyDrop::take`](https://github.com/rust-lang/rust/issues/55422).
 
 ## New RFCs
 
-* [Add llvm_asm! and deprecate asm!](https://github.com/rust-lang/rfcs/pull/2843).
-* [Supertrait item shadowing](https://github.com/rust-lang/rfcs/pull/2845).
+* [Inline assembly](https://github.com/rust-lang/rfcs/pull/2850).
 
 # Upcoming Events
 
 ### Europe
 
-* [Jan 10. Darmstadt, DE - Rust Rhein-Main - 1st 2020 Rhein-Main Rust Meetup](https://www.meetup.com/Rust-Rhein-Main/events/267158461/).
-* [Jan 16. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/267292439).
-* [Jan 16. Helsinki, FI - Finland Rust-lang Group - January meetup](https://www.meetup.com/Finland-Rust-Meetup/events/267607507/).
 * [Jan 17. Stuttgart, DE - Rust Hack and Learn](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/267764516).
 * [Jan 22. Wrocław, PL - Rust Wrocław Meetup #16](https://www.meetup.com/Rust-Wroclaw/events/267514337/).
 * [Jan 23. Paris, FR - Rust Paris meetup #49](https://www.meetup.com/Rust-Paris/events/267250053/).
@@ -109,14 +119,18 @@ decision. Express your opinions now.
 * [Feb  2. Brussels, BE - Rust devroom @ FOSDEM](https://fosdem.org/2020/schedule/track/rust/).
 * [Jan 22. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgrybccbdc/).
 * [Jan 22. Hamburg, DE - Rust Hack & Learn January 2020](https://www.meetup.com/Rust-Meetup-Hamburg/events/267692684/).
-
+* [Jan 23. Zagreb, HR - impl Zagreb for Rust - Rust Meetup 2020/01: Uvod u lock-free Rust](https://www.meetup.com/Zagreb-Rust-Meetup/events/267742601).
+* [Jan 29. Copenhagen, DK - Copenhagen Rust Hack Night #21](https://cph.rs/).
 
 ### North America
 
-* [Jan 14. Seattle, WA, US - Seattle Rust Meetup - Physical Computing Workshop](https://www.meetup.com/Seattle-Rust-Meetup/events/267538087/).
-* [Jan 20. Houston, TX, US - Houston Linux Users Group - Rust Study Group](https://www.facebook.com/events/469382520642102).
 * [Jan 22. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscrybccbdc/).
 * [Jan 22. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/qgvxlrybccbdc/).
+* [Jan 22. Portland, OR, US - PDXRust - PDX Rust Hack Night](https://www.meetup.com/PDXRust/events/267797263/).
+* [Jan 27. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybccbkc/).
+* [Jan 28. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmybccblc/).
+* [Jan 29. Chicago, IL, US - Chicago Rust Meetup - Byte Sized Rust - AWS Lambdas & Rust](https://www.meetup.com/Chicago-Rust-Meetup/events/267616019/).
+* [Jan 29. Houston, TX, US - Houston Linux Users Group - Rust Study Group](https://www.facebook.com/events/469382520642102).
 
 ### South America
 
