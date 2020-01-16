@@ -1,6 +1,6 @@
-Title: This Week in Rust 321
-Number: 321
-Date: 2020-01-14
+Title: This Week in Rust 322
+Number: 322
+Date: 2020-01-21
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -15,18 +15,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-
-* [Rust code in Unreal Engine](https://ejmahler.github.io/rust_in_unreal/).
-* [Introduction - Roguelike tutorial](http://bfnightly.bracketproductions.com/rustbook/chapter_0.html).
-* [Towards a Rust foundation](https://smallcultfollowing.com/babysteps/blog/2020/01/09/towards-a-rust-foundation/).
-* [Way Cooler postmortem](http://way-cooler.org/blog/2020/01/09/way-cooler-post-mortem.html).
-* [Why Rust? I have a GC](https://llogiq.github.io/2020/01/10/rustvsgc.html)!
-* [rust-analyzer changelog 7](https://rust-analyzer.github.io/thisweek/2020/01/13/changelog-7.html).
-* [This month in Rust gamedev 5 - December 2019](https://rust-gamedev.github.io/posts/newsletter-005/).
-* [RDBC is moving to Tokio](https://andygrove.io/2020/01/rust-database-connectivity-rdbc/).
-* [Synthesizing loop-free programs with Rust and Z3](https://fitzgeraldnick.com/2020/01/13/synthesizing-loop-free-programs.html).
-* [Containerized builds for Rust on the ESP32](https://dev.to/mtnmts/containerized-builds-for-rust-on-the-esp32-e8m).
-* [Implementing a cooperative scheduler in a Rust kernel](https://ryan-jacobs1.github.io/2020/01/06/scheduler.html).
 
 # Crate of the Week
 
