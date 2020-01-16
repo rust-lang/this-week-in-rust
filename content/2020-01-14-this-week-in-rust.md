@@ -97,7 +97,7 @@ decision. Express your opinions now.
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [Stabilize `#![feature(slice_patterns)]` in 1.42.0](https://github.com/rust-lang/rust/pull/67712).
-* [disposition: merge] [Added From<Vec<NonZeroU8>> for CString](https://github.com/rust-lang/rust/pull/64069).
+* [disposition: merge] [Added `From<Vec<NonZeroU8>>` for CString](https://github.com/rust-lang/rust/pull/64069).
 * [disposition: merge] [Relax bounds on HashMap/HashSet](https://github.com/rust-lang/rust/pull/67642).
 * [disposition: merge] [Stabilize `ptr::slice_from_raw_parts[_mut]`](https://github.com/rust-lang/rust/pull/68234).
 * [disposition: merge] [Stabilize the debug_map_key_value feature](https://github.com/rust-lang/rust/pull/68200).
