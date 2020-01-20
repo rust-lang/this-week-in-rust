@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Programming Servo: three years, 100 commits.](https://medium.com/programming-servo/programming-servo-three-years-100-commits-a3cbfb06ff23).
+
 # Crate of the Week
 
 This week's crate is [cxx](https://github.com/dtolnay/cxx), a library to build a C++ FFI safely by taking care of both sides.
