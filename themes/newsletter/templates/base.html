@@ -1,14 +1,15 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style type="text/css">
      body {
-       width: 100% !important;
-       min-width: 100%;
+       width: 100%;
+       max-width: 660px;
        -webkit-text-size-adjust: 100%;
        -ms-text-size-adjust: 100%;
-       margin: 0;
+       margin: 0 auto;
        padding: 0;
        color: #444444;
      }
@@ -24,7 +25,6 @@
 
      table .row {
        border-collapse: collapse;
-       width: 660px;
        border: none;
      }
      td .row-header-01 {
@@ -58,6 +58,13 @@
      table .wrapper-container-02{
        text-align:right;
        width:50%;
+     }
+
+     @media (max-width: 800px) {
+       table .wrapper-container-01,
+       table .wrapper-container-02{
+         width: 100%;
+       }
      }
 
      .wrapper-header-01{
