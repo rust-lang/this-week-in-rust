@@ -35,6 +35,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Call for Papers: Rust LATAM Mexico 2020](https://www.reddit.com/r/rust/comments/em0ru8/rust_2020_a_conference_in_latin_america).
 * [good first issue] [sqlx: Add a proc macro derive for Encode and Decode supporting _only_ 1-arity tuple structs](https://github.com/launchbadge/sqlx/issues/34) with a mentor.
 * [Help port hyper and body-image-futio to async-std](https://users.rust-lang.org/t/twir-call-for-participation/4821/288).
 
