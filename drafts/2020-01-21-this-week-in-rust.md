@@ -20,9 +20,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [cxx](https://github.com/dtolnay/cxx), a library to build a C++ FFI safely by taking care of both sides.
+This week's crate is [fasteval](https://crates.io/crates/fasteval), a crate for fast and safe evaluation of algebraic expressions.
 
-Thanks to [Ehsan M. Kermani](https://users.rust-lang.org/t/crate-of-the-week/2704/702) for the suggestions!
+Thanks to [Christopher Sebastian](https://users.rust-lang.org/t/crate-of-the-week/2704/705) for the suggestions!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -44,26 +44,31 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-311 pull requests were [merged in the last week][merged]
+270 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-01-06..2020-01-13
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-01-13..2020-01-20
 
-* [prepare for LLVM 10 upgrade](https://github.com/rust-lang/rust/pull/67900)
-* [allow specifying LLVM args in target specifications](https://github.com/rust-lang/rust/pull/68059)
-* [don't require `allow_internal_unstable` unless `staged_api` is enabled](https://github.com/rust-lang/rust/pull/68114)
-* [more reductions in error handling diversity](https://github.com/rust-lang/rust/pull/67770)
-* [introduce `X..`, `..X`, and `..=X` range patterns](https://github.com/rust-lang/rust/pull/67258)
-* [ban `...X` pats, harden tests, and improve diagnostics](https://github.com/rust-lang/rust/pull/68120)
-* [add suggestions when encountering chained comparisons](https://github.com/rust-lang/rust/pull/68108)
-* [handle multiple error fix suggestions carefully](https://github.com/rust-lang/rust/pull/67880)
-* [simplify `into_key_slice_mut`](https://github.com/rust-lang/rust/pull/67725)
-* [`Option::{expect,unwrap}` and `Result::{expect, expect_err, unwrap, unwrap_err}` have `#[track_caller]`](https://github.com/rust-lang/rust/pull/67887)
-* [add `HashSet::get_or_insert_owned`](https://github.com/rust-lang/rust/pull/67358)
-* [make `Layout::new` const](https://github.com/rust-lang/rust/pull/66254)
-* [constify more of `alloc::Layout`](https://github.com/rust-lang/rust/pull/67494)
-* [futures mpsc: split bounded and unbounded implementations](https://github.com/rust-lang/futures-rs/pull/1326)
-* [distinguish between private items and hidden items in rustdoc](https://github.com/rust-lang/rust/pull/67875)
-* [rustbuild: add `llvm-skip-rebuild` flag to `x.py`](https://github.com/rust-lang/rust/pull/68074)
+* [array repeat expression lengths must be monomorphic at MIR building time](https://github.com/rust-lang/rust/pull/68285)
+* [make sure that all upstream generics get re-exported from Rust dylibs](https://github.com/rust-lang/rust/pull/68277)
+* [forbid elided lifetimes within const generic parameter types](https://github.com/rust-lang/rust/pull/68143)
+* [do not ICE on malformed suggestion spans](https://github.com/rust-lang/rust/pull/68256)
+* [untangle ZST validation from integer validation and generalize it to all zsts](https://github.com/rust-lang/rust/pull/68219)
+* [don't try to `force_ptr` pointers to zsts](https://github.com/rust-lang/rust/pull/68088)
+* [perf: eagerly convert literals to consts](https://github.com/rust-lang/rust/pull/68118)
+* [update compiler_builtins with changes to fix 128 bit integer remainder for aarch64 windows](https://github.com/rust-lang/rust/pull/68233)
+* [handle recursive instantiation of drop shims](https://github.com/rust-lang/rust/pull/67731)
+* [add unreachable propagation mir optimization pass](https://github.com/rust-lang/rust/pull/66329)
+* [rebase LLVM onto 9.0.1](https://github.com/rust-lang/rust/pull/68030)
+* [don't run const propagation on items with inconsistent bounds](https://github.com/rust-lang/rust/pull/67914)
+* [don't use f64 shims for f32 cmath functions on non 32-bit x86 MSVC](https://github.com/rust-lang/rust/pull/68033)
+* [stabilize slice patterns](https://github.com/rust-lang/rust/pull/67712)
+* [reset Formatter flags on exit from pad_integral](https://github.com/rust-lang/rust/pull/67784)
+* [optimize size/speed of Unicode datasets](https://github.com/rust-lang/rust/pull/68232)
+* [stabilize `Condvar::`{`wait_while`, `wait_timeout_while`}](https://github.com/rust-lang/rust/pull/67076)
+* [stabilize `ManuallyDrop::take`](https://github.com/rust-lang/rust/pull/68066)
+* [make `iter::Empty<T>` `Send` and `Sync` for any `T`](https://github.com/rust-lang/rust/pull/68348)
+* [implement `DebugStruct::non_exhaustive`](https://github.com/rust-lang/rust/pull/66716)
+* [implement `Cursor` for linked lists](https://github.com/rust-lang/rust/pull/68123) (RFC #[2570](https://rust-lang.github.io/rfcs/2570-linked-list-cursors.html))
 
 ## Approved RFCs
 
@@ -141,15 +146,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> @ZiCog: Does anyone have a 'no holds barred, unsafe or not' solution to the problem in Rust that can match C?
+> `Rc<RefCell>` is like duct tape.
 >
-> @kornel: Pipe the C version through c2rust :slight_smile:
->
-> @ZiCog: Yay! Rust now beats both Clang and GCC!
+> It's very versatile, and can fix a multitude of problems in a pinch. For some problems, it's even the best thing to use. But if the thing you're building is more than about 10% wrapped in duct tape, you might want to reconsider your design process!
 
-– [ZiCog and Kornel on rust-users](https://users.rust-lang.org/t/clippy-driving-me-to-insanity-insisting-on-iterators/36796/19)
+– [trentj on rust-users](https://users.rust-lang.org/t/why-do-all-docs-say-refcell-is-bad/37086/22)
 
-Thanks to [Jan Riemer](https://users.rust-lang.org/t/twir-quote-of-the-week/328/769) for the suggestion!
+Thanks to [Tom Phinney](https://users.rust-lang.org/t/twir-quote-of-the-week/328/798) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
