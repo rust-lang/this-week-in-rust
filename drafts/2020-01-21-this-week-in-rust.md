@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Rust 2020: a conference in Latin America](https://www.reddit.com/r/rust/comments/em0ru8/rust_2020_a_conference_in_latin_america) - call for papers still open!
+
 # Crate of the Week
 
 This week's crate is [cxx](https://github.com/dtolnay/cxx), a library to build a C++ FFI safely by taking care of both sides.
