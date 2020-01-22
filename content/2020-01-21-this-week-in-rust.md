@@ -19,7 +19,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Smoke-testing Rust HTTP clients](https://medium.com/@shnatsel/smoke-testing-rust-http-clients-b8f2ee5db4e6).
 * [A sad day for Rust](https://words.steveklabnik.com/a-sad-day-for-rust).
 * [What is Rust and why is it so popular](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/) - from official StackOverflow blog.
-* [Project Verona: Microsoft's Rust inspired research language has been released](https://github.com/microsoft/verona).
 * [Writing an OS in Rust: Allocator designs](https://os.phil-opp.com/allocator-designs/).
 * [How refactoring a macro reduced my Rust project compilation time from 4 hours to 40 seconds](https://users.rust-lang.org/t/5-hours-to-compile-macro-what-can-i-do/36508).
 * [Why the stabilization of advanced slice patterns is a big deal to me](https://thomashartmann.dev/blog/feature(slice_patterns)/).
@@ -28,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust on the ESP32 - SVD's, PAC's and USB flashing](https://mabez.dev/blog/posts/esp32-rust-svd-pac/).
 * [Epoll, Kqueue and IOCP explained with Rust](https://cfsamsonbooks.gitbook.io/epoll-kqueue-iocp-explained/).
 * [Programming Servo: three years, 100 commits](https://medium.com/programming-servo/programming-servo-three-years-100-commits-a3cbfb06ff23).
+* [Project Verona: Microsoft's Rust inspired research language has been released](https://github.com/microsoft/verona).
 
 # Crate of the Week
 
