@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Debug Rust+Mynewt Firmware for PineTime on Raspberry Pi](https://medium.com/@ly.lee/debug-rust-mynewt-firmware-for-pinetime-on-raspberry-pi-4b9ac2d093a9?source=friends_link&sk=edb508c31e43d3ec40ecd8554f3405f6).
+
 # Crate of the Week
 
 This week's crate is [fasteval](https://crates.io/crates/fasteval), a crate for fast and safe evaluation of algebraic expressions.
