@@ -18,9 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [fasteval](https://crates.io/crates/fasteval), a crate for fast and safe evaluation of algebraic expressions.
+This week's crate is [test-case](https://crates.io/crates/test-case), a framework for parameterized testing.
 
-Thanks to [Christopher Sebastian](https://users.rust-lang.org/t/crate-of-the-week/2704/705) for the suggestions!
+Thanks to [Synek317](https://users.rust-lang.org/t/crate-of-the-week/2704/712) for the suggestions!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -43,31 +43,37 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-270 pull requests were [merged in the last week][merged]
+261 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-01-13..2020-01-20
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-01-20..2020-01-27
 
-* [array repeat expression lengths must be monomorphic at MIR building time](https://github.com/rust-lang/rust/pull/68285)
-* [make sure that all upstream generics get re-exported from Rust dylibs](https://github.com/rust-lang/rust/pull/68277)
-* [forbid elided lifetimes within const generic parameter types](https://github.com/rust-lang/rust/pull/68143)
-* [do not ICE on malformed suggestion spans](https://github.com/rust-lang/rust/pull/68256)
-* [untangle ZST validation from integer validation and generalize it to all zsts](https://github.com/rust-lang/rust/pull/68219)
-* [don't try to `force_ptr` pointers to zsts](https://github.com/rust-lang/rust/pull/68088)
-* [perf: eagerly convert literals to consts](https://github.com/rust-lang/rust/pull/68118)
-* [update compiler_builtins with changes to fix 128 bit integer remainder for aarch64 windows](https://github.com/rust-lang/rust/pull/68233)
-* [handle recursive instantiation of drop shims](https://github.com/rust-lang/rust/pull/67731)
-* [add unreachable propagation mir optimization pass](https://github.com/rust-lang/rust/pull/66329)
-* [rebase LLVM onto 9.0.1](https://github.com/rust-lang/rust/pull/68030)
-* [don't run const propagation on items with inconsistent bounds](https://github.com/rust-lang/rust/pull/67914)
-* [don't use f64 shims for f32 cmath functions on non 32-bit x86 MSVC](https://github.com/rust-lang/rust/pull/68033)
-* [stabilize slice patterns](https://github.com/rust-lang/rust/pull/67712)
-* [reset Formatter flags on exit from pad_integral](https://github.com/rust-lang/rust/pull/67784)
-* [optimize size/speed of Unicode datasets](https://github.com/rust-lang/rust/pull/68232)
-* [stabilize `Condvar::`{`wait_while`, `wait_timeout_while`}](https://github.com/rust-lang/rust/pull/67076)
-* [stabilize `ManuallyDrop::take`](https://github.com/rust-lang/rust/pull/68066)
-* [make `iter::Empty<T>` `Send` and `Sync` for any `T`](https://github.com/rust-lang/rust/pull/68348)
-* [implement `DebugStruct::non_exhaustive`](https://github.com/rust-lang/rust/pull/66716)
-* [implement `Cursor` for linked lists](https://github.com/rust-lang/rust/pull/68123) (RFC #[2570](https://rust-lang.github.io/rfcs/2570-linked-list-cursors.html))
+* [implement `?const` opt-out for trait bounds](https://github.com/rust-lang/rust/pull/68140)
+* [unbreak linking with lld 9 on FreeBSD 13.0-CURRENT i386](https://github.com/rust-lang/rust/pull/68361)
+* [export weak symbols used by MemorySanitizer](https://github.com/rust-lang/rust/pull/68410)
+* [stabilize `#[repr(transparent)]` on `enum`s](https://github.com/rust-lang/rust/pull/68122)
+* [fix `#[track_caller]` and function pointers](https://github.com/rust-lang/rust/pull/68302)
+* [micro-optimize OutputFilenames](https://github.com/rust-lang/rust/pull/68409)
+* [perf: avoid creating a SmallVec if nothing changes during a fold](https://github.com/rust-lang/rust/pull/68031)
+* [suggest borrowing `Vec<NonCopy>` in for loop](https://github.com/rust-lang/rust/pull/68424)
+* [further improve `impl Trait`/`dyn Trait` suggestions](https://github.com/rust-lang/rust/pull/68522)
+* [typeck: simplify the handling of `diverges`](https://github.com/rust-lang/rust/pull/68422)
+* [don't discard marker trait impls when inference variables are present](https://github.com/rust-lang/rust/pull/68057)
+* [account for non-types in substs for opaque type error messages](https://github.com/rust-lang/rust/pull/68438)
+* [avoid declaring a fake dependency edge](https://github.com/rust-lang/rust/pull/68298)
+* [render const pointers in MIR more compactly](https://github.com/rust-lang/rust/pull/68516)
+* [filter and test predicates using `normalize_and_test_predicates` for const-prop](https://github.com/rust-lang/rust/pull/68297)
+* [make pointers to statics internal](https://github.com/rust-lang/rust/pull/68494)
+* [avoid overflow in `std::iter::Skip::count`](https://github.com/rust-lang/rust/pull/68469)
+* [simplify NodeHeader by avoiding slices in BTreeMaps with shared roots](https://github.com/rust-lang/rust/pull/67686)
+* [add leading_ones and trailing_ones methods to the primitive integer types](https://github.com/rust-lang/rust/pull/68165)
+* [futures: avoid starvation from FuturesUnordered::poll_next](https://github.com/rust-lang/futures-rs/pull/2049)
+* [futures: add StreamExt::scan](https://github.com/rust-lang/futures-rs/pull/2044)
+* [stdarch: add Icelake avx512 features](https://github.com/rust-lang/stdarch/pull/838)
+* [cargo: store maximum queue length](https://github.com/rust-lang/cargo/pull/7829)
+* [cargo: search for root manifest with ephemeral workspaces](https://github.com/rust-lang/cargo/pull/7768)
+* [rustdoc: fix handling of compile errors when running `rustdoc --test`](https://github.com/rust-lang/rust/pull/68357)
+* [docs.rs: fix various bugs in match_version](https://github.com/rust-lang/docs.rs/pull/565)
+* [compiletest: simplify multi-debugger support](https://github.com/rust-lang/rust/pull/68391)
 
 ## Approved RFCs
 
@@ -138,13 +144,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> `Rc<RefCell>` is like duct tape.
->
-> It's very versatile, and can fix a multitude of problems in a pinch. For some problems, it's even the best thing to use. But if the thing you're building is more than about 10% wrapped in duct tape, you might want to reconsider your design process!
+> Rust is basically Haskell's athletic younger brother. Not as intellectual, but still smart and lifts weights.
 
-– [trentj on rust-users](https://users.rust-lang.org/t/why-do-all-docs-say-refcell-is-bad/37086/22)
+– [icefox, Jan 22 in community-Discord #games-and-graphics](https://discordapp.com/channels/273534239310479360/335502453371961344/669636317277192222)
 
-Thanks to [Tom Phinney](https://users.rust-lang.org/t/twir-quote-of-the-week/328/798) for the suggestion!
+Thanks to [Duane](https://users.rust-lang.org/t/twir-quote-of-the-week/328/801) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
