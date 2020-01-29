@@ -134,7 +134,7 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
-* [Rust Developer for privacy software at Cosmian, Paris (Remote available)](https://cosmian.com/were-hiring-developer-rust-cryptography-m-w-x/)
+* [Rust Developer for privacy software at Cosmian, Paris (EU Remote available)](https://cosmian.com/were-hiring-developer-rust-cryptography-m-w-x/)
 
 # Quote of the Week
 
