@@ -16,7 +16,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-[Debug Rust+Mynewt Firmware for PineTime on Raspberry Pi](https://medium.com/@ly.lee/debug-rust-mynewt-firmware-for-pinetime-on-raspberry-pi-4b9ac2d093a9?source=friends_link&sk=edb508c31e43d3ec40ecd8554f3405f6).
+* [cargo-audit v0.11: Introducing the `fix` feature, yanked crate detection, and more](https://blog.rust-lang.org/inside-rust/2020/01/23/Introducing-cargo-audit-fix-and-more.html).
+* [Bitfields forever: Why we need a C-compatible Rust crate](https://immunant.com/blog/2020/01/bitfields/).
+* [Units of measure in Rust with refinement types](https://yoric.github.io/post/uom.rs/).
+* [std.rs: go directly to stable rust docs](https://std.rs/).
+* [A stack-less Rust coroutine library under 100 LoC](https://blog.aloni.org/posts/a-stack-less-rust-coroutine-100-loc/).
+* [How Zebra used Tower to replace Zcash's legacy Bitcoin C++ networking code with modern, async Rust](https://www.zfnd.org/blog/a-new-network-stack-for-zcash/).
+* [Build your own `block_on()`](https://stjepang.github.io/2020/01/25/build-your-own-block-on.html).
+* [Packaging a Rust project for Debian](https://blog.hackeriet.no/packaging-a-rust-project-for-debian/).
+* [Byte ordered streams](https://yoshuawuyts-blog.netlify.com/byte-ordered-stream-parsing/).
+* [Tide channels](https://blog.yoshuawuyts.com/tide-channels/).
+* [Lessons learnt updating a library to std::future](https://cetra3.github.io/blog/mpart-async-0-3-0/).
+* [Returning trait objects](https://bryce.fisher-fleig.org/blog/returning-trait-objects/).
+* [Debug Rust+Mynewt firmware for PineTime on Raspberry Pi](https://medium.com/@ly.lee/debug-rust-mynewt-firmware-for-pinetime-on-raspberry-pi-4b9ac2d093a9).
+* [rust-analyzer changelog 9](https://rust-analyzer.github.io/thisweek/2020/01/27/changelog-9.html).
 
 # Crate of the Week
 
@@ -35,9 +48,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Call for Papers: Rust LATAM Mexico 2020](https://www.reddit.com/r/rust/comments/em0ru8/rust_2020_a_conference_in_latin_america).
-* [time: Implement function returning the local UTC offset](https://github.com/time-rs/time/issues/203).
-* [rusty-celery: Multiple issues marked "Status: Help Wanted", good place to start for newcomers](https://github.com/rusty-celery/rusty-celery/issues?q=is%3Aissue+is%3Aopen+label%3A%22Status%3A+Help+Wanted%22).
+* [rust: fs::remove_dir_all rarely succeeds for large directories on windows](https://github.com/rust-lang/rust/issues/29497#issuecomment-573353391).
+* [arcs: Interactive tools for drawing geometric items](https://github.com/Michael-F-Bryan/arcs/issues/9). Arcs is a Rust CAD System.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -93,43 +105,39 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Introduce the ASM project group](https://github.com/rust-lang/rfcs/pull/2836).
+* [disposition: merge] [target_feature 1.1](https://github.com/rust-lang/rfcs/pull/2396).
+* [disposition: close] [Crate changelogs](https://github.com/rust-lang/rfcs/pull/2129).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize `ptr::slice_from_raw_parts[_mut]`](https://github.com/rust-lang/rust/pull/68234).
-* [disposition: merge] [Stabilize `#[repr(transparent)]` on `enum`s in Rust 1.42.0](https://github.com/rust-lang/rust/pull/68122).
-* [disposition: merge] [Stabilize the debug_map_key_value feature](https://github.com/rust-lang/rust/pull/68200).
+* [disposition: merge] [Correct inference of primitive operand type behind binary operation](https://github.com/rust-lang/rust/pull/68129).
+* [disposition: merge] [Mutex and RwLock are unsound in presence of discriminant elision](https://github.com/rust-lang/rust/issues/68206).
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [Rust 2020 roadmap](https://github.com/rust-lang/rfcs/pull/2857).
+* [Secret Types](https://github.com/rust-lang/rfcs/pull/2859).
+* [Project Groups](https://github.com/rust-lang/rfcs/pull/2856).
 
 # Upcoming Events
 
 ### Europe
 
-* [Jan 23. Paris, FR - Rust Paris meetup #49](https://www.meetup.com/Rust-Paris/events/267250053/).
-* [Jan 23. Warsaw, PL - Rust Warsaw 3](https://www.meetup.com/Rust-Warsaw/events/267525144/).
 * [Feb  2. Brussels, BE - Rust devroom @ FOSDEM](https://fosdem.org/2020/schedule/track/rust/).
-* [Jan 22. Hamburg, DE - Rust Hack & Learn January 2020](https://www.meetup.com/Rust-Meetup-Hamburg/events/267692684/).
-* [Jan 23. Zagreb, HR - impl Zagreb for Rust - Rust Meetup 2020/01: Uvod u lock-free Rust](https://www.meetup.com/Zagreb-Rust-Meetup/events/267742601).
-* [Jan 29. Copenhagen, DK - Copenhagen Rust Hack Night #21](https://cph.rs/).
 * [Feb  5. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgrybcdbhb/).
+* [Feb  7. Darmstadt, DE - Rust Rhein-Main - Rust Meetup – Show Your Project](https://www.meetup.com/Rust-Rhein-Main/events/268145620/).
+* [Feb 11. Zurich, CH - Rust Zurich - From cargo to kubernetes and back-up - February Meetup](https://www.meetup.com/Rust-Zurich/events/267790109/).
 
 ### North America
 
-* [Jan 27. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybccbkc/).
-* [Jan 28. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmybccblc/).
-* [Jan 29. Chicago, IL, US - Chicago Rust Meetup - Byte Sized Rust - AWS Lambdas & Rust](https://www.meetup.com/Chicago-Rust-Meetup/events/267616019/).
-* [Jan 29. Houston, TX, US - Houston Linux Users Group - Rust Study Group](https://www.facebook.com/events/469382520642102).
 * [Feb  5. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/qgvxlrybcdbhb/).
 * [Feb  5. Atlanta, GA, US - Rust Atlanta - Static Assertions Internals](https://www.meetup.com/Rust-ATL/events/qxqdgrybcdbqb/).
 * [Feb  5. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpybcdbhb/).
-
-### South America
-
-* [Jan 23. Buenos Aires, AR - Rust Argentina - Encuentro de Enero](https://www.meetup.com/Rust-Argentina/events/267904544/).
+* [Feb 12. Houston, TX, US - Houston Linux Users Group - Rust Study Group](https://www.facebook.com/events/469382520642102).
+* [Feb 12. Portland, OR, US - PDXRust - WASM: Run Rust in the browser](https://www.meetup.com/PDXRust/events/267797263/).
+* [Feb 13. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybcdbrb/).
+* [Feb 13. San Diego, CA, US - San Diego Rust February 2020 Meetup](https://www.meetup.com/San-Diego-Rust/events/268129845/).
+* [Feb 18. Redmond, WA, US - Seattle Rust Meetup - Monthly meetup in Redmond](https://www.meetup.com/Seattle-Rust-Meetup/events/prbtdrybcdbpb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -140,9 +148,12 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
-
+* [Windows App Developer at 1Password, Toronto, ON, CA](https://1password.com/jobs/windows-developer/).
 * [Rust Developer for privacy software at Cosmian, Paris (EU Remote available)](https://cosmian.com/were-hiring-developer-rust-cryptography-m-w-x/)
+* [Systems Engineer (Rust) at Consensys, Remote](https://consensys.net/open-roles/1792013/).
+* [Software Engineer at Open Analytics, Antwerp, BE](https://openanalytics.eu/jobs/OpenAnalytics_SoftwareEngineer.pdf).
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
