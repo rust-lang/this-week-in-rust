@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[RiB Newsletter #8 – Looking Forward to 2020](https://rustinblockchain.org/2020/02/05/rib-newsletter-8-looking-forward-to-2020/)
+
 # Crate of the Week
 
 This week's crate is [test-case](https://crates.io/crates/test-case), a framework for parameterized testing.
