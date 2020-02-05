@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Announcing rust-search-extension v0.7! Search std docs, crates, error codes, and attributes in your address bar instantly!](https://www.reddit.com/r/rust/comments/eymfxu/announcing_rustsearchextension_v07_search_std/)
+
 # Crate of the Week
 
 This week's crate is [test-case](https://crates.io/crates/test-case), a framework for parameterized testing.
