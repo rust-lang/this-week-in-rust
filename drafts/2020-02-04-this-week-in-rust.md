@@ -112,6 +112,7 @@ decision. Express your opinions now.
 * [Feb  5. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgrybcdbhb/).
 * [Feb  7. Darmstadt, DE - Rust Rhein-Main - Rust Meetup – Show Your Project](https://www.meetup.com/Rust-Rhein-Main/events/268145620/).
 * [Feb 11. Zurich, CH - Rust Zurich - From cargo to kubernetes and back-up - February Meetup](https://www.meetup.com/Rust-Zurich/events/267790109/).
+* [Feb 13. Munich, DE - Rust Munich - Lightning~ish Talks - First Edition](https://www.meetup.com/rust-munich/events/266865499/).
 * [Feb 21. Stuttgart, DE - Rust Community Stuttgart - Rust Hack and Learn](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/268416708/).
 
 ### North America
