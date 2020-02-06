@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [Creating Interactive Applications While Maintaining Your Sanity](http://adventures.michaelfbryan.com/posts/implementing-interactive-applications/?utm_source=user-forums&utm_medium=social&utm_campaign=interactive-applications)
+
 # Crate of the Week
 
 This week's crate is [faux](https://github.com/nrxus/faux), a trait-less mocking library for Rust.
