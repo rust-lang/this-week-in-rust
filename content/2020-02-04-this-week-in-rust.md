@@ -172,4 +172,4 @@ Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week
 
 *This Week in Rust is edited by: [nasa42](https://github.com/nasa42) and [llogiq](https://github.com/llogiq).*
 
-<small>[Discuss on r/rust]().</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/ezqkbg/this_week_in_rust_324/).</small>
