@@ -17,12 +17,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 [RiB Newsletter #8 – Looking Forward to 2020](https://rustinblockchain.org/2020/02/05/rib-newsletter-8-looking-forward-to-2020/)
+- [Announcing rust-search-extension v0.7! Search std docs, crates, error codes, and attributes in your address bar instantly!](https://www.reddit.com/r/rust/comments/eymfxu/announcing_rustsearchextension_v07_search_std/)
 
 # Crate of the Week
 
-This week's crate is [test-case](https://crates.io/crates/test-case), a framework for parameterized testing.
+This week's crate is [faux](https://github.com/nrxus/faux), a trait-less mocking library for Rust.
 
-Thanks to [Synek317](https://users.rust-lang.org/t/crate-of-the-week/2704/712) for the suggestions!
+Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/715) for the suggestions!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -44,37 +45,36 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-261 pull requests were [merged in the last week][merged]
+291 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-01-20..2020-01-27
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-01-27..2020-02-03
 
-* [implement `?const` opt-out for trait bounds](https://github.com/rust-lang/rust/pull/68140)
-* [unbreak linking with lld 9 on FreeBSD 13.0-CURRENT i386](https://github.com/rust-lang/rust/pull/68361)
-* [export weak symbols used by MemorySanitizer](https://github.com/rust-lang/rust/pull/68410)
-* [stabilize `#[repr(transparent)]` on `enum`s](https://github.com/rust-lang/rust/pull/68122)
-* [fix `#[track_caller]` and function pointers](https://github.com/rust-lang/rust/pull/68302)
-* [micro-optimize OutputFilenames](https://github.com/rust-lang/rust/pull/68409)
-* [perf: avoid creating a SmallVec if nothing changes during a fold](https://github.com/rust-lang/rust/pull/68031)
-* [suggest borrowing `Vec<NonCopy>` in for loop](https://github.com/rust-lang/rust/pull/68424)
-* [further improve `impl Trait`/`dyn Trait` suggestions](https://github.com/rust-lang/rust/pull/68522)
-* [typeck: simplify the handling of `diverges`](https://github.com/rust-lang/rust/pull/68422)
-* [don't discard marker trait impls when inference variables are present](https://github.com/rust-lang/rust/pull/68057)
-* [account for non-types in substs for opaque type error messages](https://github.com/rust-lang/rust/pull/68438)
-* [avoid declaring a fake dependency edge](https://github.com/rust-lang/rust/pull/68298)
-* [render const pointers in MIR more compactly](https://github.com/rust-lang/rust/pull/68516)
-* [filter and test predicates using `normalize_and_test_predicates` for const-prop](https://github.com/rust-lang/rust/pull/68297)
-* [make pointers to statics internal](https://github.com/rust-lang/rust/pull/68494)
-* [avoid overflow in `std::iter::Skip::count`](https://github.com/rust-lang/rust/pull/68469)
-* [simplify NodeHeader by avoiding slices in BTreeMaps with shared roots](https://github.com/rust-lang/rust/pull/67686)
-* [add leading_ones and trailing_ones methods to the primitive integer types](https://github.com/rust-lang/rust/pull/68165)
-* [futures: avoid starvation from FuturesUnordered::poll_next](https://github.com/rust-lang/futures-rs/pull/2049)
-* [futures: add StreamExt::scan](https://github.com/rust-lang/futures-rs/pull/2044)
-* [stdarch: add Icelake avx512 features](https://github.com/rust-lang/stdarch/pull/838)
-* [cargo: store maximum queue length](https://github.com/rust-lang/cargo/pull/7829)
-* [cargo: search for root manifest with ephemeral workspaces](https://github.com/rust-lang/cargo/pull/7768)
-* [rustdoc: fix handling of compile errors when running `rustdoc --test`](https://github.com/rust-lang/rust/pull/68357)
-* [docs.rs: fix various bugs in match_version](https://github.com/rust-lang/docs.rs/pull/565)
-* [compiletest: simplify multi-debugger support](https://github.com/rust-lang/rust/pull/68391)
+* [detect use-after-scope bugs with AddressSanitizer](https://github.com/rust-lang/rust/pull/68572)
+* [add support for Control Flow Guard on Windows](https://github.com/rust-lang/rust/pull/68180)
+* [add support for enabling the LLVM time-trace feature](https://github.com/rust-lang/rust/pull/68720)
+* [suggest defining type parameter when appropriate](https://github.com/rust-lang/rust/pull/68447)
+* [do not suggest duplicate bounds](https://github.com/rust-lang/rust/pull/68763)
+* [parser: avoid re-wrapping NtItem](https://github.com/rust-lang/rust/pull/68769)
+* [parser: syntactically allow `self` in all `fn` contexts](https://github.com/rust-lang/rust/pull/68764)
+* [check_match: extract common logic](https://github.com/rust-lang/rust/pull/68571)
+* [rustc_span: return an `impl Iterator` instead of a `Vec` from `macro_backtrace`](https://github.com/rust-lang/rust/pull/68407)
+* [use `BufWriter` for emitting MIR](https://github.com/rust-lang/rust/pull/68460)
+* [change opt-level from 2 back to 3](https://github.com/rust-lang/rust/pull/67878)
+* [shrink `Nonterminal`](https://github.com/rust-lang/rust/pull/67340)
+* [avoid exponential behaviour when relating types](https://github.com/rust-lang/rust/pull/68772)
+* [deduplicate types in the generator witness](https://github.com/rust-lang/rust/pull/68672)
+* [add an early-exit to `QueryNormalizer::fold_ty`](https://github.com/rust-lang/rust/pull/68606)
+* [add `raw-addr-of` variant to `mir_raw_fat_ptr`](https://github.com/rust-lang/rust/pull/68778)
+* [optimize `core::ptr::align_offset`](https://github.com/rust-lang/rust/pull/68787)
+* [move numeric consts to associated consts (step 1)](https://github.com/rust-lang/rust/pull/68325)
+* [add `Iterator::map_while`](https://github.com/rust-lang/rust/pull/66577)
+* [add `BTreeMap::remove_entry`](https://github.com/rust-lang/rust/pull/68378)
+* [stabilize `debug_map_key_value`](https://github.com/rust-lang/rust/pull/68200)
+* [stabilize `ptr::slice_from_raw_parts`(`_mut`)](https://github.com/rust-lang/rust/pull/68234)
+* [stabilize `core::iter::once_with()`](https://github.com/rust-lang/rust/pull/68800)
+* [futures: allow async-await macros to be used without std](https://github.com/rust-lang/futures-rs/pull/1891)
+* [cargo: swap std::sync::mpsc channel with crossbeam_channel](https://github.com/rust-lang/cargo/pull/7844)
+* [cargo: stabilize config-profile](https://github.com/rust-lang/cargo/pull/7823)
 
 ## Approved RFCs
 
@@ -114,6 +114,8 @@ decision. Express your opinions now.
 * [Feb  5. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgrybcdbhb/).
 * [Feb  7. Darmstadt, DE - Rust Rhein-Main - Rust Meetup – Show Your Project](https://www.meetup.com/Rust-Rhein-Main/events/268145620/).
 * [Feb 11. Zurich, CH - Rust Zurich - From cargo to kubernetes and back-up - February Meetup](https://www.meetup.com/Rust-Zurich/events/267790109/).
+* [Feb 12. Moscow, RU - Rust Moscow February 2019 Meetup](https://www.meetup.com/Rust-%D0%B2-%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5/events/268190420/).
+* [Feb 13. Munich, DE - Rust Munich - Lightning~ish Talks - First Edition](https://www.meetup.com/rust-munich/events/266865499/).
 * [Feb 21. Stuttgart, DE - Rust Community Stuttgart - Rust Hack and Learn](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/268416708/).
 
 ### North America
@@ -140,11 +142,17 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Rust is basically Haskell's athletic younger brother. Not as intellectual, but still smart and lifts weights.
+> People argue about the color of a bike shed because even though it's a meaningless decision - it's still a decision that has to be made. The null choice is a very bad choice - if you don't paint the shed it'll rust. And there is no "default color" so you can't just say "just color it" - you have to pick a color.
+>
+> Even seen someone argue about the **pattern** of the shed's paint? No. The pattern is not any more meaningful than the color, but unlike the color - there is a null choice. There is a default. Solid paint. And because there is a default, no one even thinks about using something else because why are you wasting company time and money on a pattern for a bike shed?
+>
+> From my personal experience, when there is a default and the default is good enough, nobody bikesheds how to derive from the default. They only discuss it when there is a concrete problem with the default, where is doesn't fit your needs for whatever reason. And when you do have a concrete reason to derive from the default - you will derive from the default. Because you have to. And if the library does not support it - you'll switch the library.
+>
+> Because you have to.
 
-– [icefox, Jan 22 in community-Discord #games-and-graphics](https://discordapp.com/channels/273534239310479360/335502453371961344/669636317277192222)
+– [/u/someboddy on /r/rust](https://www.reddit.com/r/rust/comments/exbbes/argh_is_googles_opinionated_derivebased_argument/fgdxvt7)
 
-Thanks to [Duane](https://users.rust-lang.org/t/twir-quote-of-the-week/328/801) for the suggestion!
+Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/804) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
