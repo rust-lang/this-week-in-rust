@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[RiB Newsletter #8 – Looking Forward to 2020](https://rustinblockchain.org/2020/02/05/rib-newsletter-8-looking-forward-to-2020/)
 - [Announcing rust-search-extension v0.7! Search std docs, crates, error codes, and attributes in your address bar instantly!](https://www.reddit.com/r/rust/comments/eymfxu/announcing_rustsearchextension_v07_search_std/)
 
 # Crate of the Week
