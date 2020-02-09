@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Debugging Rust in VSCode (in 2020)](https://jason-williams.co.uk/debugging-rust-in-vscode).
+
 # Crate of the Week
 
 This week's crate is [faux](https://github.com/nrxus/faux), a trait-less mocking library for Rust.
