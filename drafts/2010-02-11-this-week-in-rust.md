@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Further thoughts on async/await.](https://medium.com/@polyglot_factotum/further-thoughts-on-async-await-7767f924cb7e).
+
 # Crate of the Week
 
 This week's crate is [faux](https://github.com/nrxus/faux), a trait-less mocking library for Rust.
