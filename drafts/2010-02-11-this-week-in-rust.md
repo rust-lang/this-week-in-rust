@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [I Made A Thing: Markedit](http://adventures.michaelfbryan.com/posts/markedit/)
+
 # Crate of the Week
 
 This week's crate is [faux](https://github.com/nrxus/faux), a trait-less mocking library for Rust.
