@@ -31,6 +31,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust in Blockchain newsletter 8: Looking forward to 2020](https://rustinblockchain.org/2020/02/05/rib-newsletter-8-looking-forward-to-2020/).
 * [Announcing async-std v1.5.0](https://github.com/async-rs/async-std/releases/tag/v1.5.0).
 * [Announcing Tide 0.6.0](https://github.com/http-rs/tide/releases/tag/v0.6.0).
+* [Ferrous Systems and TrueLayer: Rust Training in London, March 2020](https://www.ferrous-systems.com/blog/training-in-london/)
+
 
 # Crate of the Week
 
