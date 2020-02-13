@@ -22,9 +22,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [faux](https://github.com/nrxus/faux), a trait-less mocking library for Rust.
+This week's crate is [argh](https://github.com/google/argh), a small opinionated argument parsing library for Rust.
 
-Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/715) for the suggestions!
+Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/718) for the suggestions!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -47,41 +47,39 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-291 pull requests were [merged in the last week][merged]
+261 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-01-27..2020-02-03
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-02-03..2020-02-10
 
-* [detect use-after-scope bugs with AddressSanitizer](https://github.com/rust-lang/rust/pull/68572)
-* [add support for Control Flow Guard on Windows](https://github.com/rust-lang/rust/pull/68180)
-* [add support for enabling the LLVM time-trace feature](https://github.com/rust-lang/rust/pull/68720)
-* [suggest defining type parameter when appropriate](https://github.com/rust-lang/rust/pull/68447)
-* [do not suggest duplicate bounds](https://github.com/rust-lang/rust/pull/68763)
-* [parser: avoid re-wrapping NtItem](https://github.com/rust-lang/rust/pull/68769)
-* [parser: syntactically allow `self` in all `fn` contexts](https://github.com/rust-lang/rust/pull/68764)
-* [check_match: extract common logic](https://github.com/rust-lang/rust/pull/68571)
-* [rustc_span: return an `impl Iterator` instead of a `Vec` from `macro_backtrace`](https://github.com/rust-lang/rust/pull/68407)
-* [use `BufWriter` for emitting MIR](https://github.com/rust-lang/rust/pull/68460)
-* [change opt-level from 2 back to 3](https://github.com/rust-lang/rust/pull/67878)
-* [shrink `Nonterminal`](https://github.com/rust-lang/rust/pull/67340)
-* [avoid exponential behaviour when relating types](https://github.com/rust-lang/rust/pull/68772)
-* [deduplicate types in the generator witness](https://github.com/rust-lang/rust/pull/68672)
-* [add an early-exit to `QueryNormalizer::fold_ty`](https://github.com/rust-lang/rust/pull/68606)
-* [add `raw-addr-of` variant to `mir_raw_fat_ptr`](https://github.com/rust-lang/rust/pull/68778)
-* [optimize `core::ptr::align_offset`](https://github.com/rust-lang/rust/pull/68787)
-* [move numeric consts to associated consts (step 1)](https://github.com/rust-lang/rust/pull/68325)
-* [add `Iterator::map_while`](https://github.com/rust-lang/rust/pull/66577)
-* [add `BTreeMap::remove_entry`](https://github.com/rust-lang/rust/pull/68378)
-* [stabilize `debug_map_key_value`](https://github.com/rust-lang/rust/pull/68200)
-* [stabilize `ptr::slice_from_raw_parts`(`_mut`)](https://github.com/rust-lang/rust/pull/68234)
-* [stabilize `core::iter::once_with()`](https://github.com/rust-lang/rust/pull/68800)
-* [futures: allow async-await macros to be used without std](https://github.com/rust-lang/futures-rs/pull/1891)
-* [cargo: swap std::sync::mpsc channel with crossbeam_channel](https://github.com/rust-lang/cargo/pull/7844)
-* [cargo: stabilize config-profile](https://github.com/rust-lang/cargo/pull/7823)
+* [implement proper C ABI lowering for RISC-V](https://github.com/rust-lang/rust/pull/68452)
+* [initial implementation of `#![feature(move_ref_pattern)]`](https://github.com/rust-lang/rust/pull/68376)
+* [parser: stop using `BytePos` for computing spans](https://github.com/rust-lang/rust/pull/68845)
+* [remove `HashStable` impl for `ast::Lifetime`](https://github.com/rust-lang/rust/pull/68919)
+* [replace the leak check with universes, take 2](https://github.com/rust-lang/rust/pull/65232)
+* [tweak obligation error output](https://github.com/rust-lang/rust/pull/68377)
+* [improve reporting errors and suggestions for trait bounds](https://github.com/rust-lang/rust/pull/67665)
+* [implement MIR lowering for or-patterns](https://github.com/rust-lang/rust/pull/67668)
+* [improve `merge_from_succ` perf](https://github.com/rust-lang/rust/pull/68790)
+* [reduce the number of `RefCell`s in `InferCtxt`](https://github.com/rust-lang/rust/pull/68694)
+* [improve performance of coherence checks](https://github.com/rust-lang/rust/pull/68966)
+* [speed up the inherent impl overlap check](https://github.com/rust-lang/rust/pull/68911)
+* [generator resume arguments](https://github.com/rust-lang/rust/pull/68524)
+* [remove some unsound specializations](https://github.com/rust-lang/rust/pull/68358)
+* [remove problematic specialization from `RangeInclusive`](https://github.com/rust-lang/rust/pull/68835)
+* [mark several functions and methods in `core::cmp` as `#[must_use]`](https://github.com/rust-lang/rust/pull/68946)
+* [implement `AsMut<str>` for `String`](https://github.com/rust-lang/rust/pull/68742)
+* [fix and test implementation of `BTreeMap::`{`first_entry`, `last_entry`, `pop_first`, `pop_last`}](https://github.com/rust-lang/rust/pull/68834)
+* [`BtreeMap::range_search` spruced up](https://github.com/rust-lang/rust/pull/68499)
+* [make `num::NonZeroX::new` an unstable const fn](https://github.com/rust-lang/rust/pull/68976)
+* [make more arithmetic functions unstably const](https://github.com/rust-lang/rust/pull/68809)
+* [remove `Copy` impl from `OnceWith`](https://github.com/rust-lang/rust/pull/68810)
+* [derive `Clone + Eq` for `std::string::FromUtf8Error`](https://github.com/rust-lang/rust/pull/68738)
+* [futures: add `TryFutureExt::map_ok_or_else` method](https://github.com/rust-lang/futures-rs/pull/2058)
+* [cargo: fix `BuildScriptOutput` when a build script is run multiple times](https://github.com/rust-lang/cargo/pull/7857)
 
 ## Approved RFCs
 
-Changes to Rust follow the Rust [RFC (request for comments)
-process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
 *No RFCs were approved this week.*
@@ -135,22 +133,28 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Infrastructure Engineer at Aleph Alpha, Heidelberg, Germany](https://aleph-alpha.de/sw_engineer.html?language=de)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 * [Senior Rust Developer at Luxoft, Wrocław, Poland](https://www.linkedin.com/jobs/view/1689801033/)
 
 # Quote of the Week
 
-> People argue about the color of a bike shed because even though it's a meaningless decision - it's still a decision that has to be made. The null choice is a very bad choice - if you don't paint the shed it'll rust. And there is no "default color" so you can't just say "just color it" - you have to pick a color.
->
-> Even seen someone argue about the **pattern** of the shed's paint? No. The pattern is not any more meaningful than the color, but unlike the color - there is a null choice. There is a default. Solid paint. And because there is a default, no one even thinks about using something else because why are you wasting company time and money on a pattern for a bike shed?
->
-> From my personal experience, when there is a default and the default is good enough, nobody bikesheds how to derive from the default. They only discuss it when there is a concrete problem with the default, where is doesn't fit your needs for whatever reason. And when you do have a concrete reason to derive from the default - you will derive from the default. Because you have to. And if the library does not support it - you'll switch the library.
->
-> Because you have to.
+This week we have two (related) quotes:
 
-– [/u/someboddy on /r/rust](https://www.reddit.com/r/rust/comments/exbbes/argh_is_googles_opinionated_derivebased_argument/fgdxvt7)
+> **Even with just basic optimization, Rust was able to outperform the hyper hand-tuned Go version.** This is a huge testament to how easy it is to write efficient programs with Rust compared to the deep dive we had to do with Go.
+>
+> [..] After a bit of profiling and performance optimizations, **we were able to beat Go on every single performance metric** . Latency, CPU, and memory were all better in the Rust version.
 
-Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/804) for the suggestion!
+– [Jesse Howard on the discord blog](https://blog.discordapp.com/why-discord-is-switching-from-go-to-rust-a190bbca2b1f)
+
+> The consistency angle really shouldn’t be overlooked. Performance is nice, but slow and consistent can still be planned for much more easily than inconsistent.
+>
+> That was the big aha moment about Rust for me when I pushed out my first project using the language. Being nervous about it I had added way too much instrumentation so that I could know how every bit of it was responding to real traffic. But as soon as I started seeing the data, I was convinced that my instrumentation code was broken. The graphs I was seeing were just so...boring. Straight lines everywhere, no variation...after 24hrs, the slowest response (not P99...literally P100) was within 75ms of the fastest response.
+
+– [/u/tablair commenting on /r/rust](https://www.reddit.com/r/rust/comments/eytyug/why_discord_is_switching_from_go_to_rust/fgjjpiv/)
+
+Thanks to [Jules Kerssemakers](https://users.rust-lang.org/t/twir-quote-of-the-week/328/811) and [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/809) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
