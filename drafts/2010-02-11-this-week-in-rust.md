@@ -40,6 +40,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [serde_cbor crate is looking for maintainers](https://github.com/pyfisch/cbor/issues/179).
 * [Diesel: Looking for persons willing to do some code review on submitted PRs](https://github.com/diesel-rs/diesel/issues/1186).
 * [time: Implement function returning the local UTC offset](https://github.com/time-rs/time/issues/203#issuecomment-581175875). Looking for a code review of linked gist.
+* [libc crate is looking for maintainers](https://github.com/rust-lang/libc/issues/1657)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
