@@ -26,7 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [A primer to Rust Async](https://omarabid.com/async-rust).
 * [Solving sparse matrix systems in Rust](https://medium.com/swlh/solving-sparse-matrix-systems-in-rust-5e978ed07bc3).
 * [I made a thing: Markedit](http://adventures.michaelfbryan.com/posts/markedit/).
-* [Creating interactive applications](adventures.michaelfbryan.com/posts/implementing-interactive-applications/).
+* [Creating interactive applications](http://adventures.michaelfbryan.com/posts/implementing-interactive-applications/).
 * [Async interview 6: Eliza Weisman](https://smallcultfollowing.com/babysteps/blog/2020/02/11/async-interview-6-eliza-weisman/).
 * [rust-analyzer changelog 11](https://rust-analyzer.github.io/thisweek/2020/02/10/changelog-11.html).
 
