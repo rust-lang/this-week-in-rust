@@ -49,6 +49,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [image: Tracking issue: Converting error representations](https://github.com/image-rs/image/issues/1134).
 * [Ferrous Systems and TrueLayer: Rust Training in London, March 2020](https://ferrous-systems.com/blog/training-in-london/).
+* [libc crate is looking for maintainers](https://github.com/rust-lang/libc/issues/1657)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
