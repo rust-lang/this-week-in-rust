@@ -16,9 +16,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-- [I Made A Thing: Markedit](http://adventures.michaelfbryan.com/posts/markedit/)
+* [Alex Crichton: Scaling back my involvement in Rust](https://internals.rust-lang.org/t/scaling-back-my-involvement-in-rust/11754).
+* [Bringing async/await to embedded Rust](https://ferrous-systems.com/blog/embedded-async-await/).
+* [Announcing the Cleanup Crew ICE-breaker group](https://blog.rust-lang.org/inside-rust/2020/02/06/Cleanup-Crew-ICE-breakers.html).
+* [Results from Rust game development ecosystem survey](https://rust-gamedev.github.io/posts/survey-01/).
+* [The `std::future::Future` of Rusoto](https://linuxwit.ch/blog/2020/02/the-future-of-rusoto/).
 * [Debugging Rust in VSCode (in 2020)](https://jason-williams.co.uk/debugging-rust-in-vscode).
-- [The `std::future::Future` of Rusoto](https://linuxwit.ch/blog/2020/02/the-future-of-rusoto/)
+* [Rust and GTK from a React perspective](https://savanni.luminescent-dreams.com/2020/01/15/rust-react-gtk/).
+* [A primer to Rust Async](https://omarabid.com/async-rust).
+* [Solving sparse matrix systems in Rust](https://medium.com/swlh/solving-sparse-matrix-systems-in-rust-5e978ed07bc3).
+* [I made a thing: Markedit](http://adventures.michaelfbryan.com/posts/markedit/).
+* [Creating interactive applications](adventures.michaelfbryan.com/posts/implementing-interactive-applications/).
+* [Async interview 6: Eliza Weisman](https://smallcultfollowing.com/babysteps/blog/2020/02/11/async-interview-6-eliza-weisman/).
+* [rust-analyzer changelog 11](https://rust-analyzer.github.io/thisweek/2020/02/10/changelog-11.html).
 
 # Crate of the Week
 
@@ -37,9 +47,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [serde_cbor crate is looking for maintainers](https://github.com/pyfisch/cbor/issues/179).
-* [Diesel: Looking for persons willing to do some code review on submitted PRs](https://github.com/diesel-rs/diesel/issues/1186).
-* [time: Implement function returning the local UTC offset](https://github.com/time-rs/time/issues/203#issuecomment-581175875). Looking for a code review of linked gist.
+* [image: Tracking issue: Converting error representations](https://github.com/image-rs/image/issues/1134).
+* [Ferrous Systems and TrueLayer: Rust Training in London, March 2020](https://ferrous-systems.com/blog/training-in-london/).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -82,7 +91,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2396: target_feature 1.1](https://github.com/rust-lang/rfcs/pull/2396).
 
 ## Final Comment Period
 
@@ -92,11 +101,16 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Rust 2020 roadmap](https://github.com/rust-lang/rfcs/pull/2857).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-*No issues are currently in final comment period.*
+* [disposition: merge] [Add primitive module to libcore](https://github.com/rust-lang/rust/pull/67637).
+* [disposition: merge] [rustc_session: allow overriding lint level of individual lints from a group](https://github.com/rust-lang/rust/pull/67885).
+* [disposition: merge] [Add Wake trait for safe construction of Wakers](https://github.com/rust-lang/rust/pull/68700).
+* [disposition: merge] [Add Display and Error impls for proc_macro::LexError](https://github.com/rust-lang/rust/pull/68899).
+* [disposition: merge] [Stabilize Once::is_completed](https://github.com/rust-lang/rust/pull/68945).
+* [disposition: close] [Fix an inconsistency in Linux version of TcpListener::accept](https://github.com/rust-lang/rust/pull/67028).
 
 ## New RFCs
 
@@ -104,25 +118,27 @@ decision. Express your opinions now.
 
 # Upcoming Events
 
+### Asia Pacific
+
+* [Feb 15. Chennai, IN - Rust Chennai - Monthly meetup](https://www.meetup.com/mad-rs/events/268597652).
+* [Feb 18. Seoul, KR - Seoul Rust Meetup - Learning Rust #2 - Control flow and pattern matching](https://www.meetup.com/Rust-Seoul-Meetup/events/djkzlrybcdbxb/).
+* [Feb 24. Sydney, AU - Rust Sydney - Meetup 19](https://www.meetup.com/Rust-Sydney/events/268525192/).
+
 ### Europe
 
-* [Feb  7. Darmstadt, DE - Rust Rhein-Main - Rust Meetup – Show Your Project](https://www.meetup.com/Rust-Rhein-Main/events/268145620/).
-* [Feb 11. Zurich, CH - Rust Zurich - From cargo to kubernetes and back-up - February Meetup](https://www.meetup.com/Rust-Zurich/events/267790109/).
-* [Feb 12. Moscow, RU - Rust Moscow February 2019 Meetup](https://www.meetup.com/Rust-%D0%B2-%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5/events/268190420/).
-* [Feb 13. Munich, DE - Rust Munich - Lightning~ish Talks - First Edition](https://www.meetup.com/rust-munich/events/266865499/).
 * [Feb 19. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgrybcdbzb/).
 * [Feb 20. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/268060855).
 * [Feb 21. Stuttgart, DE - Rust Community Stuttgart - Rust Hack and Learn](https://www.meetup.com/Rust-Community-Stuttgart/events/268416708/).
 
 ### North America
 
-* [Feb 12. Houston, TX, US - Houston Linux Users Group - Rust Study Group](https://www.facebook.com/events/469382520642102).
-* [Feb 12. Portland, OR, US - PDXRust - WASM: Run Rust in the browser](https://www.meetup.com/PDXRust/events/267797263/).
-* [Feb 13. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybcdbrb/).
-* [Feb 13. San Diego, CA, US - San Diego Rust February 2020 Meetup](https://www.meetup.com/San-Diego-Rust/events/268129845/).
-* [Feb 13. Arlington, VA, US - Rust DC — Mid-month Rustful](https://www.meetup.com/RustDC/events/268293591).
 * [Feb 18. Redmond, WA, US - Seattle Rust Meetup - Monthly meetup in Redmond](https://www.meetup.com/Seattle-Rust-Meetup/events/prbtdrybcdbpb/).
 * [Feb 19. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybcdbzb/).
+* [Feb 24. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybcdbgc/).
+* [Feb 25. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmybcdbhc/).
+* [Feb 26. Portland, OR, US - PDXRust - Hack Night](https://www.meetup.com/PDXRust/events/268266020/).
+* [Feb 26. Houston, TX, US - Houston Linux Users Group - Rust Study Group](https://www.facebook.com/events/469382520642102).
+* [Feb 26. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscrybcdbjc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -133,10 +149,11 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Infrastructure Engineer at Aleph Alpha, Heidelberg, Germany](https://aleph-alpha.de/sw_engineer.html?language=de)
+* [Infrastructure Engineer at Aleph Alpha, Heidelberg, Germany](https://aleph-alpha.de/sw_engineer.html?language=de).
+* [Senior Rust Developer at Luxoft, Wrocław, Poland](https://www.linkedin.com/jobs/view/1689801033/).
+* [Associate Embedded Software Engineer at Georg Fischer Signet, El Monte, CA, US](https://www.indeed.com/viewjob?cmp=Georg-Fischer-Signet&t=Associate+Software+Engineer&jk=279804b2f5c06e2b).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
-* [Senior Rust Developer at Luxoft, Wrocław, Poland](https://www.linkedin.com/jobs/view/1689801033/)
 
 # Quote of the Week
 
