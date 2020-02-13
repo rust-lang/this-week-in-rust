@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [The `std::future::Future` of Rusoto](https://linuxwit.ch/blog/2020/02/the-future-of-rusoto/)
+
 # Crate of the Week
 
 This week's crate is [faux](https://github.com/nrxus/faux), a trait-less mocking library for Rust.
