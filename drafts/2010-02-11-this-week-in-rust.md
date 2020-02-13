@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [I Made A Thing: Markedit](http://adventures.michaelfbryan.com/posts/markedit/)
 * [Debugging Rust in VSCode (in 2020)](https://jason-williams.co.uk/debugging-rust-in-vscode).
 - [The `std::future::Future` of Rusoto](https://linuxwit.ch/blog/2020/02/the-future-of-rusoto/)
 
