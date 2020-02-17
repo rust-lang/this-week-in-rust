@@ -116,6 +116,7 @@ decision. Express your opinions now.
 * [Feb 19. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgrybcdbzb/).
 * [Feb 20. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/268060855).
 * [Feb 21. Stuttgart, DE - Rust Community Stuttgart - Rust Hack and Learn](https://www.meetup.com/Rust-Community-Stuttgart/events/268416708/).
+* [Feb 27. Wroclaw, PL - Rust Wrocław Meetup #17](https://www.meetup.com/Rust-Wroclaw/events/268683403).
 
 ### North America
 
