@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [faux - an inside look](https://nrxus.github.io/faux/blog/how-it-works.html)
 - [A Pragmatic Approach To Global State](http://adventures.michaelfbryan.com/posts/pragmatic-global-state/)
 
 # Crate of the Week
