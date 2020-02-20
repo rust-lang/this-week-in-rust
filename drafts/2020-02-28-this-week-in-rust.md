@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [A Pragmatic Approach To Global State](http://adventures.michaelfbryan.com/posts/pragmatic-global-state/)
+
 # Crate of the Week
 
 This week's crate is [argh](https://github.com/google/argh), a small opinionated argument parsing library for Rust.
