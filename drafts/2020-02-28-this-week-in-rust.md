@@ -16,8 +16,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-- [faux - an inside look](https://nrxus.github.io/faux/blog/how-it-works.html)
-- [A Pragmatic Approach To Global State](http://adventures.michaelfbryan.com/posts/pragmatic-global-state/)
+* [Sealed Rust update: The plan for safety critical Rust](https://ferrous-systems.com/blog/sealed-rust-the-plan/).
+* [Why is Rust the most loved programming language](https://matklad.github.io/2020/02/14/why-rust-is-loved.html)?
+* [Rust ghost, signing off](https://quietmisdreavus.net/self/2020/02/17/rust-ghost-signing-off/).
+* [I audited 3 different implementation of async RwLock](https://www.reddit.com/r/rust/comments/f4zldz/i_audited_3_different_implementation_of_async/).
+* [`deny(warnings)` is actively harmful](https://www.reddit.com/r/rust/comments/f5xpib/psa_denywarnings_is_actively_harmful/).
+* [Rust for Java devs](https://leshow.github.io/post/rust_for_java_devs/).
+* [Some nuances of undefined behavior in Rust](https://typr124.github.io/UB1).
+* [A pragmatic approach to global state](http://adventures.michaelfbryan.com/posts/pragmatic-global-state/)
+* [Graphs in Rust: Introducing GraphCore](https://depth-first.com/articles/2020/02/17/graphs-in-rust-introducting-graphcore/).
+* [faux - an inside look](https://nrxus.github.io/faux/blog/how-it-works.html)
+* [rust-analyzer changelog 12](https://rust-analyzer.github.io/thisweek/2020/02/17/changelog-12.html).
+* [IntelliJ Rust Changelog 116](https://intellij-rust.github.io/2020/02/18/changelog-116.html).
+* [This month in Rust GameDev 6 - January 2020](https://rust-gamedev.github.io/posts/newsletter-006/).
 
 # Crate of the Week
 
@@ -36,9 +47,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [image: Tracking issue: Converting error representations](https://github.com/image-rs/image/issues/1134).
-* [Ferrous Systems and TrueLayer: Rust Training in London, March 2020](https://ferrous-systems.com/blog/training-in-london/).
-* [libc crate is looking for maintainers](https://github.com/rust-lang/libc/issues/1657)
+* [puzzle] [The battle for Rust knowledge supremacy](https://rustbattle.net/battle/straight-finch-8-e4f4).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -89,7 +98,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2396: target_feature 1.1](https://github.com/rust-lang/rfcs/pull/2396).
+* [RFC 2857: Rust 2020 roadmap](https://github.com/rust-lang/rfcs/pull/2857).
 
 ## Final Comment Period
 
@@ -99,46 +108,44 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Rust 2020 roadmap](https://github.com/rust-lang/rfcs/pull/2857).
+*No RFCs are currently in final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Make `u8::is_ascii` a stable `const fn`](https://github.com/rust-lang/rust/pull/68984).
+* [disposition: merge] [Stabilize assoc_int_consts associated int/float constants](https://github.com/rust-lang/rust/pull/68952).
 * [disposition: merge] [Add primitive module to libcore](https://github.com/rust-lang/rust/pull/67637).
-* [disposition: merge] [rustc_session: allow overriding lint level of individual lints from a group](https://github.com/rust-lang/rust/pull/67885).
-* [disposition: merge] [Add Wake trait for safe construction of Wakers](https://github.com/rust-lang/rust/pull/68700).
-* [disposition: merge] [Add Display and Error impls for proc_macro::LexError](https://github.com/rust-lang/rust/pull/68899).
-* [disposition: merge] [Stabilize Once::is_completed](https://github.com/rust-lang/rust/pull/68945).
-* [disposition: close] [Fix an inconsistency in Linux version of TcpListener::accept](https://github.com/rust-lang/rust/pull/67028).
+* [disposition: merge] [Tracking issue for `#![feature(maybe_uninit_ref)]`](https://github.com/rust-lang/rust/issues/63568).
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [Add a new attribute, `#[isa]`](https://github.com/rust-lang/rfcs/pull/2867).
 
 # Upcoming Events
 
 ### Asia Pacific
 
-* [Feb 15. Chennai, IN - Rust Chennai - Monthly meetup](https://www.meetup.com/mad-rs/events/268597652).
-* [Feb 18. Seoul, KR - Seoul Rust Meetup - Learning Rust #2 - Control flow and pattern matching](https://www.meetup.com/Rust-Seoul-Meetup/events/djkzlrybcdbxb/).
 * [Feb 24. Sydney, AU - Rust Sydney - Meetup 19](https://www.meetup.com/Rust-Sydney/events/268525192/).
+* [Mar  5. Melbourne, AU - Rust Melbourne - Hack Night, Talks, and Networking](https://www.meetup.com/Rust-Melbourne/events/268002615/).
 
 ### Europe
 
-* [Feb 19. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgrybcdbzb/).
-* [Feb 20. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/268060855).
 * [Feb 21. Stuttgart, DE - Rust Community Stuttgart - Rust Hack and Learn](https://www.meetup.com/Rust-Community-Stuttgart/events/268416708/).
 * [Feb 25. London, GB - Rust LDN Talks @ TrueLayer](https://www.meetup.com/Rust-London-User-Group/events/268354799).
+* [Feb 25. Göteborg, SE - Rust Gbg — "Beginner Friendly" February 2020](https://www.meetup.com/rustgbg/events/268653522/).
 * [Feb 27. Wroclaw, PL - Rust Wrocław Meetup #17](https://www.meetup.com/Rust-Wroclaw/events/268683403).
+* [Mar 4. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gztznrybcfbgb/).
 
 ### North America
 
-* [Feb 18. Redmond, WA, US - Seattle Rust Meetup - Monthly meetup in Redmond](https://www.meetup.com/Seattle-Rust-Meetup/events/prbtdrybcdbpb/).
-* [Feb 19. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybcdbzb/).
 * [Feb 24. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybcdbgc/).
 * [Feb 25. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmybcdbhc/).
 * [Feb 26. Portland, OR, US - PDXRust - Hack Night](https://www.meetup.com/PDXRust/events/268266020/).
 * [Feb 26. Houston, TX, US - Houston Linux Users Group - Rust Study Group](https://www.facebook.com/events/469382520642102).
 * [Feb 26. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscrybcdbjc/).
+* [Feb 26. Mesa, AZ, US - Desert Rust - Rust: lightning talks](https://www.meetup.com/Desert-Rustaceans/events/268793593/).
+* [Mar 11. Atlanta, GA, US - Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybcfbpb/).
+* [Mar  4. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpybcfbgb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -148,6 +155,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Senior Software Engineer, Rust & Linux (Remote) at Red Canary, Denver, CO, US](https://jobs.lever.co/redcanary/d7729b7d-e18d-4fe9-b3f5-fd5f8b947f22).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
