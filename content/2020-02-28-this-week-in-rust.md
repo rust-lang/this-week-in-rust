@@ -162,8 +162,6 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-This week we have two (related) quotes:
-
 > `Option` is null in different clothes, but the clothes that nulls wear are important.
 
 – [skysch on rust-users](https://users.rust-lang.org/t/how-would-you-do-that-in-rust-versus-java/38187/6)
