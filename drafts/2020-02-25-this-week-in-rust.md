@@ -29,6 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [rust-analyzer changelog 12](https://rust-analyzer.github.io/thisweek/2020/02/17/changelog-12.html).
 * [IntelliJ Rust changelog 116](https://intellij-rust.github.io/2020/02/18/changelog-116.html).
 * [This month in Rust GameDev 6 - January 2020](https://rust-gamedev.github.io/posts/newsletter-006/).
+* [Line Simplification with Ramer–Douglas–Peucker](http://adventures.michaelfbryan.com/posts/line-simplification/)
 
 # Crate of the Week
 
