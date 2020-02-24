@@ -157,6 +157,8 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Senior Software Engineer, Rust & Linux (Remote) at Red Canary, Denver, CO, US](https://jobs.lever.co/redcanary/d7729b7d-e18d-4fe9-b3f5-fd5f8b947f22).
+* [Backend Engineer, Rust at LayerTwo, London, UK](https://angel.co/company/layertwo/jobs/687465-senior-backend-engineer).
+* [Junior Backend Engineer, Rust at LayerTwo, London, UK](https://angel.co/company/layertwo/jobs/702600-junior-full-stack-engineer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
