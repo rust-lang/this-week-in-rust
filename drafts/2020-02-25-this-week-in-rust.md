@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Further thoughts on async/await](https://medium.com/@polyglot_factotum/further-thoughts-on-async-await-7767f924cb7e).
 * [Sealed Rust update: The plan for safety critical Rust](https://ferrous-systems.com/blog/sealed-rust-the-plan/).
 * [Why is Rust the most loved programming language](https://matklad.github.io/2020/02/14/why-rust-is-loved.html)?
 * [Rust ghost, signing off](https://quietmisdreavus.net/self/2020/02/17/rust-ghost-signing-off/).
