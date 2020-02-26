@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Sealed Rust update: The plan for safety critical Rust](https://ferrous-systems.com/blog/sealed-rust-the-plan/).
+* [Programming Servo: implementing BroadcastChannel](https://medium.com/programming-servo/programming-servo-implementing-broadcastchannel-94516289ecd4).
 * [Why is Rust the most loved programming language](https://matklad.github.io/2020/02/14/why-rust-is-loved.html)?
 * [Rust ghost, signing off](https://quietmisdreavus.net/self/2020/02/17/rust-ghost-signing-off/).
 * [I audited 3 different implementation of async RwLock](https://www.reddit.com/r/rust/comments/f4zldz/i_audited_3_different_implementation_of_async/).
