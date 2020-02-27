@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Programming Servo: implementing BroadcastChannel](https://medium.com/programming-servo/programming-servo-implementing-broadcastchannel-94516289ecd4).
 * [Further thoughts on async/await](https://medium.com/@polyglot_factotum/further-thoughts-on-async-await-7767f924cb7e).
 * [Line Simplification with Ramer–Douglas–Peucker](http://adventures.michaelfbryan.com/posts/line-simplification/)
 
