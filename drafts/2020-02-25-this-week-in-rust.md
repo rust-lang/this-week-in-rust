@@ -16,20 +16,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Sealed Rust update: The plan for safety critical Rust](https://ferrous-systems.com/blog/sealed-rust-the-plan/).
-* [Why is Rust the most loved programming language](https://matklad.github.io/2020/02/14/why-rust-is-loved.html)?
-* [Rust ghost, signing off](https://quietmisdreavus.net/self/2020/02/17/rust-ghost-signing-off/).
-* [I audited 3 different implementation of async RwLock](https://www.reddit.com/r/rust/comments/f4zldz/i_audited_3_different_implementation_of_async/).
-* [`deny(warnings)` is actively harmful](https://www.reddit.com/r/rust/comments/f5xpib/psa_denywarnings_is_actively_harmful/).
-* [Rust for Java devs](https://leshow.github.io/post/rust_for_java_devs/).
-* [Some nuances of undefined behavior in Rust](https://typr124.github.io/UB1).
-* [A pragmatic approach to global state](http://adventures.michaelfbryan.com/posts/pragmatic-global-state/)
-* [Graphs in Rust: Introducing GraphCore](https://depth-first.com/articles/2020/02/17/graphs-in-rust-introducting-graphcore/).
-* [faux - an inside look](https://nrxus.github.io/faux/blog/how-it-works.html)
-* [rust-analyzer changelog 12](https://rust-analyzer.github.io/thisweek/2020/02/17/changelog-12.html).
-* [IntelliJ Rust changelog 116](https://intellij-rust.github.io/2020/02/18/changelog-116.html).
-* [This month in Rust GameDev 6 - January 2020](https://rust-gamedev.github.io/posts/newsletter-006/).
-
 # Crate of the Week
 
 This week's crates are [pointer-utils](https://github.com/CAD97/pointer-utils), a small library for working with pointers, and [jlrs](https://github.com/Taaitaaiger/jlrs), a crate to call [Julia](https://julialang.org) from Rust.
@@ -155,8 +141,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
-* [Senior Software Engineer, Rust & Linux (Remote) at Red Canary, Denver, CO, US](https://jobs.lever.co/redcanary/d7729b7d-e18d-4fe9-b3f5-fd5f8b947f22).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
