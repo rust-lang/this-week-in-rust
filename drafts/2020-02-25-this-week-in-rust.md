@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Line Simplification with Ramer–Douglas–Peucker](http://adventures.michaelfbryan.com/posts/line-simplification/)
+
 # Crate of the Week
 
 This week's crates are [pointer-utils](https://github.com/CAD97/pointer-utils), a small library for working with pointers, and [jlrs](https://github.com/Taaitaaiger/jlrs), a crate to call [Julia](https://julialang.org) from Rust.
