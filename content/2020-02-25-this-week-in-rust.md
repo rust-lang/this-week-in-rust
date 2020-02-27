@@ -177,4 +177,4 @@ Thanks to [Kornel](https://users.rust-lang.org/t/twir-quote-of-the-week/328/821)
 
 *This Week in Rust is edited by: [nasa42](https://github.com/nasa42) and [llogiq](https://github.com/llogiq).*
 
-<small>[Discuss on r/rust]().</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/fabtwg/this_week_in_rust_327/).</small>
