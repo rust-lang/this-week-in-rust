@@ -20,7 +20,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust/WinRT coming soon](https://kennykerr.ca/2020/02/22/rust-winrt-coming-soon/).
 * [Intro to rustc's self profiler](https://blog.rust-lang.org/inside-rust/2020/02/25/intro-rustc-self-profile.html).
 * [crates.io incident report for 2020-02-20](https://blog.rust-lang.org/inside-rust/2020/02/26/crates-io-incident-report.html).
-* [Fuchsia programming language policy](https://fuchsia.googlesource.com/fuchsia/+/refs/heads/master/docs/project/policy/programming_languages.md).
 * [Filtering duplicates on the command line: 30x faster than sort|uniq](https://medium.com/adobetech/filtering-duplicates-on-the-command-line-30x-faster-than-sort-uniq-96ca5f7b4277).
 * [Making our own executable packer](https://fasterthanli.me/blog/2020/whats-in-a-linux-executable/).
 * [Line simplification with Ramer–Douglas–Peucker](http://adventures.michaelfbryan.com/posts/line-simplification/).
@@ -32,6 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Building TodoMVC With vgtk](https://bodil.lol/vgtk/).
 * [Host Rust+Wasm projects on github pages or other](https://github.com/sn99/wasm-template-rust).
 * [Programming Servo: implementing BroadcastChannel](https://medium.com/programming-servo/programming-servo-implementing-broadcastchannel-94516289ecd4).
+* [Fuchsia programming language policy](https://fuchsia.googlesource.com/fuchsia/+/refs/heads/master/docs/project/policy/programming_languages.md).
 * [rust-analyzer changelog 113](https://rust-analyzer.github.io/thisweek/2020/02/24/changelog-13.html).
 
 # Crate of the Week
