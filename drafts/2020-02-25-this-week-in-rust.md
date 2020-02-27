@@ -22,9 +22,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crates are [pointer-utils](https://github.com/CAD97/pointer-utils), a small library for working with pointers, and [jlrs](https://github.com/Taaitaaiger/jlrs), a crate to call [Julia](https://julialang.org) from Rust.
+This week's crates are [wundergraph](https://crates.io/crates/wundergraph), a GraphQL interface library, and [kibi](https://github.com/ilai-deutel/kibi), a text editor in thousand lines of Rust.
 
-Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/729) for the suggestions!
+Thanks to [Georg Semmler](https://users.rust-lang.org/t/crate-of-the-week/2704/732) and [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/734) for the suggestions!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -45,43 +45,42 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-276 pull requests were [merged in the last week][merged]
+307 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-02-10..2020-02-17
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-02-17..2020-02-24
 
-* [enable Control Flow Guard in rustbuild](https://github.com/rust-lang/rust/pull/68824)
-* [transition macro_legacy_warnings into a hard error](https://github.com/rust-lang/rust/pull/69129)
-* [parse: unify function front matter parsing](https://github.com/rust-lang/rust/pull/69023)
-* [fix extra subslice lowering](https://github.com/rust-lang/rust/pull/69128)
-* [fix lifetime shadowing check in GATs](https://github.com/rust-lang/rust/pull/68938)
-* [record proc macro harness order for use during metadata deserialization](https://github.com/rust-lang/rust/pull/68814)
-* [tweak borrow error on `FnMut` when `Fn` is expected](https://github.com/rust-lang/rust/pull/68816)
-* [when expecting `BoxFuture` and using `async {}`, suggest `Box::pin`](https://github.com/rust-lang/rust/pull/69082)
-* [micro-optimize the heck out of LEB128 reading and writing](https://github.com/rust-lang/rust/pull/69050)
-* [traits: preallocate 2 Vecs of known initial size](https://github.com/rust-lang/rust/pull/69022)
-* [don't run coherence twice for future-compat lints](https://github.com/rust-lang/rust/pull/69044)
-* [correct inference of primitive operand type behind binary operation](https://github.com/rust-lang/rust/pull/68129)
-* [support new LLVM pass manager](https://github.com/rust-lang/rust/pull/67954)
-* [rustc_session: allow overriding lint level of individual lints from a group](https://github.com/rust-lang/rust/pull/67885)
-* [migrate borrowck dataflow impls to new framework](https://github.com/rust-lang/rust/pull/68241)
-* [infer regions for opaque types in borrowck](https://github.com/rust-lang/rust/pull/67681)
-* [use a `ParamEnvAnd<Predicate>` for caching in `ObligationForest`](https://github.com/rust-lang/rust/pull/68475)
-* [add missing `_zeroed` varants to `AllocRef`](https://github.com/rust-lang/rust/pull/69027)
-* [make ASCII ctype functions unstably const](https://github.com/rust-lang/rust/pull/68986)
-* [speed up `SipHasher128`](https://github.com/rust-lang/rust/pull/68914)
-* [miri: fix exact_div](https://github.com/rust-lang/rust/pull/69126)
-* [miri: add shim for rename](https://github.com/rust-lang/miri/pull/1158)
-* [BTree: lighten the load on Miri](https://github.com/rust-lang/rust/pull/68781)
-* [improve `ty.needs_drop`](https://github.com/rust-lang/rust/pull/68679)
-* [preparation for allocator aware `Box`](https://github.com/rust-lang/rust/pull/69058)
-* [hide niches under `UnsafeCell`](https://github.com/rust-lang/rust/pull/68491)
-* [relax bounds on `HashMap`/`HashSet`](https://github.com/rust-lang/rust/pull/67642)
-* [improve `char::is_ascii_*` codegen](https://github.com/rust-lang/rust/pull/67585)
-* [implement `LowerExp` and `UpperExp` for integers](https://github.com/rust-lang/rust/pull/66721)
-* [add `From<Vec<NonZeroU8>>` for `CString`](https://github.com/rust-lang/rust/pull/64069)
-* [fix `std::fs::copy` on WASI target](https://github.com/rust-lang/rust/pull/69106)
-* [futures: implement fast-path for already-completed shared futures](https://github.com/rust-lang/futures-rs/pull/2074)
-* [rustdoc: struct variant field search](https://github.com/rust-lang/rust/pull/68668)
+* [configure: set LLVM flags with a value](https://github.com/rust-lang/rust/pull/69244)
+* [parse: unify item parsing & filter illegal item kinds](https://github.com/rust-lang/rust/pull/69366)
+* [parse: allow `type Foo: Ord` syntactically](https://github.com/rust-lang/rust/pull/69361)
+* [parse: fuse associated and extern items up to defaultness](https://github.com/rust-lang/rust/pull/69194)
+* [`recursion_limit` parsing handles overflows](https://github.com/rust-lang/rust/pull/67272)
+* [fix generator miscompilations](https://github.com/rust-lang/rust/pull/69302)
+* [don't eliminate frame pointers on thumb targets](https://github.com/rust-lang/rust/pull/69248)
+* [tweak binding lifetime suggestion text](https://github.com/rust-lang/rust/pull/69305)
+* [on mismatched argument count point at arguments](https://github.com/rust-lang/rust/pull/68877)
+* [do not emit note suggesting to implement operation trait to foreign type](https://github.com/rust-lang/rust/pull/69217)
+* [split non macro portion of `unused_doc_comment` from macro part into two passes/lints](https://github.com/rust-lang/rust/pull/69084)
+* [combine `HaveBeenBorrowedLocals` and `IndirectlyMutableLocals` into one dataflow analysis](https://github.com/rust-lang/rust/pull/69113)
+* [fix printing of `Yield` terminator](https://github.com/rust-lang/rust/pull/69200)
+* [querify `object_safety_violations`](https://github.com/rust-lang/rust/pull/69242)
+* [change const eval to just return the value](https://github.com/rust-lang/rust/pull/69181)
+* [allow trait methods to be called on concrete types in a const context](https://github.com/rust-lang/rust/pull/68847)
+* [perf: miscellaneous inlining improvements](https://github.com/rust-lang/rust/pull/69256)
+* [perf: O(log n) lookup of associated items by name](https://github.com/rust-lang/rust/pull/69072)
+* [add `LinkedList::remove`](https://github.com/rust-lang/rust/pull/68705)
+* [change `FromStr` for `String` to use `Infallible` directly](https://github.com/rust-lang/rust/pull/67925)
+* [make `u8::is_ascii` a stable `const fn`](https://github.com/rust-lang/rust/pull/68984)
+* [make integer exponentiation methods unstably const](https://github.com/rust-lang/rust/pull/68978)
+* [simplify `Skip::nth` and `Skip::last` implementations](https://github.com/rust-lang/rust/pull/68597)
+* [stabilize `Once::is_completed`](https://github.com/rust-lang/rust/pull/68945)
+* [stabilize {`f32`, `f64`}::{`LOG2_10`, `LOG10_2`}](https://github.com/rust-lang/rust/pull/69249)
+* [git2: add `Branch::get_mut`](https://github.com/rust-lang/git2-rs/pull/522)
+* [futures: relax bounds for `FuturesUnordered`](https://github.com/rust-lang/futures-rs/pull/2085)
+* [futures: add `StreamExt::flat_map`](https://github.com/rust-lang/futures-rs/pull/2068)
+* [cargo: add new feature resolver](https://github.com/rust-lang/cargo/pull/7820)
+* [cargo: add an option to include crate versions to the generated docs](https://github.com/rust-lang/cargo/pull/7903)
+* [cargo: improvements to `StringList` config handling](https://github.com/rust-lang/cargo/pull/7891)
+* [rustfmt: support formatting half open ranges](https://github.com/rust-lang/rustfmt/pull/4044)
 
 ## Approved RFCs
 
@@ -146,17 +145,19 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Infrastructure Engineer at Aleph Alpha, Heidelberg, Germany](https://aleph-alpha.de/sw_engineer.html?language=de).
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
 This week we have two (related) quotes:
 
-> `Option` is null in different clothes, but the clothes that nulls wear are important.
+> Yoda must have hit his head, though. `if let 42 = x {}` "if let forty-two equals x"
 
-– [skysch on rust-users](https://users.rust-lang.org/t/how-would-you-do-that-in-rust-versus-java/38187/6)
+– [Hutch on rust-internals](https://internals.rust-lang.org/t/using-if-let-to-check-for-equality/11750/19)
 
-Thanks to [Cerberuser](https://users.rust-lang.org/t/twir-quote-of-the-week/328/815) for the suggestions!
+Thanks to [Kornel](https://users.rust-lang.org/t/twir-quote-of-the-week/328/821) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
