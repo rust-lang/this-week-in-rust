@@ -16,9 +16,23 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Programming Servo: implementing BroadcastChannel](https://medium.com/programming-servo/programming-servo-implementing-broadcastchannel-94516289ecd4).
+* [Working with strings in Rust](https://fasterthanli.me/blog/2020/working-with-strings-in-rust/).
+* [Rust/WinRT coming soon](https://kennykerr.ca/2020/02/22/rust-winrt-coming-soon/).
+* [Intro to rustc's self profiler](https://blog.rust-lang.org/inside-rust/2020/02/25/intro-rustc-self-profile.html).
+* [crates.io incident report for 2020-02-20](https://blog.rust-lang.org/inside-rust/2020/02/26/crates-io-incident-report.html).
+* [Fuchsia programming language policy](https://fuchsia.googlesource.com/fuchsia/+/refs/heads/master/docs/project/policy/programming_languages.md).
+* [Filtering duplicates on the command line: 30x faster than sort|uniq](https://medium.com/adobetech/filtering-duplicates-on-the-command-line-30x-faster-than-sort-uniq-96ca5f7b4277).
+* [Making our own executable packer](https://fasterthanli.me/blog/2020/whats-in-a-linux-executable/).
+* [Line simplification with Ramer–Douglas–Peucker](http://adventures.michaelfbryan.com/posts/line-simplification/).
+* [Async HTTP](https://blog.yoshuawuyts.com/async-http/).
 * [Further thoughts on async/await](https://medium.com/@polyglot_factotum/further-thoughts-on-async-await-7767f924cb7e).
-* [Line Simplification with Ramer–Douglas–Peucker](http://adventures.michaelfbryan.com/posts/line-simplification/)
+* [Triage at scale for the Rust team](https://docs.rs/dtolnay/0.0.8/dtolnay/macro._04__triage_scale.html).
+* [Presenting Dali, an image processor service](https://tech.olx.com/presenting-dali-an-image-processor-service-514e6be00de8).
+* [Anouncing async_executors, a building block for executor agnostic libraries](https://blog.wnut.pw/2020/02/25/anouncing-async_executors-a-building-block-for-executor-agnostic-libraries/).
+* [Building TodoMVC With vgtk](https://bodil.lol/vgtk/).
+* [Host Rust+Wasm projects on github pages or other](https://github.com/sn99/wasm-template-rust).
+* [Programming Servo: implementing BroadcastChannel](https://medium.com/programming-servo/programming-servo-implementing-broadcastchannel-94516289ecd4).
+* [rust-analyzer changelog 113](https://rust-analyzer.github.io/thisweek/2020/02/24/changelog-13.html).
 
 # Crate of the Week
 
@@ -37,7 +51,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [puzzle] [The battle for Rust knowledge supremacy](https://rustbattle.net/battle/straight-finch-8-e4f4).
+* [good first issue] [sqlx: Implement support for time-rs 0.2](https://github.com/launchbadge/sqlx/issues/115).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -87,7 +101,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2857: Rust 2020 roadmap](https://github.com/rust-lang/rfcs/pull/2857).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -97,44 +111,44 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Cargo report future-incompat](https://github.com/rust-lang/rfcs/pull/2834).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Make `u8::is_ascii` a stable `const fn`](https://github.com/rust-lang/rust/pull/68984).
-* [disposition: merge] [Stabilize assoc_int_consts associated int/float constants](https://github.com/rust-lang/rust/pull/68952).
-* [disposition: merge] [Add primitive module to libcore](https://github.com/rust-lang/rust/pull/67637).
-* [disposition: merge] [Tracking issue for `#![feature(maybe_uninit_ref)]`](https://github.com/rust-lang/rust/issues/63568).
+* [disposition: merge] [Permit negative impls for non-auto traits](https://github.com/rust-lang/rust/pull/68004).
+* [disposition: merge] [Stabilize const for integer {to,from}_{be,le,ne}_bytes methods](https://github.com/rust-lang/rust/pull/69373).
 
 ## New RFCs
 
-* [Add a new attribute, `#[isa]`](https://github.com/rust-lang/rfcs/pull/2867).
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
+### Africa
+
+* [Mar  4. Johannesburg, ZA - Johannesburg Rust Meetup - Coffee and a chat about Rust](https://www.meetup.com/Johannesburg-Rust-Meetup/events/268960482/).
+
 ### Asia Pacific
 
-* [Feb 24. Sydney, AU - Rust Sydney - Meetup 19](https://www.meetup.com/Rust-Sydney/events/268525192/).
 * [Mar  5. Melbourne, AU - Rust Melbourne - Hack Night, Talks, and Networking](https://www.meetup.com/Rust-Melbourne/events/268002615/).
 
 ### Europe
 
-* [Feb 21. Stuttgart, DE - Rust Community Stuttgart - Rust Hack and Learn](https://www.meetup.com/Rust-Community-Stuttgart/events/268416708/).
-* [Feb 25. London, GB - Rust LDN Talks @ TrueLayer](https://www.meetup.com/Rust-London-User-Group/events/268354799).
-* [Feb 25. Göteborg, SE - Rust Gbg — "Beginner Friendly" February 2020](https://www.meetup.com/rustgbg/events/268653522/).
-* [Feb 27. Wroclaw, PL - Rust Wrocław Meetup #17](https://www.meetup.com/Rust-Wroclaw/events/268683403).
-* [Mar 4. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gztznrybcfbgb/).
+* [Mar  4. Dublin, IE - Rust Dublin - Reboot pub meetup: The Duke](https://www.meetup.com/Rust-Dublin/events/237883717/).
+* [Mar  4. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gztznrybcfbgb/).
+* [Mar 11. Oslo, NO - Rust Oslo - Lightning talks](https://www.meetup.com/Rust-Oslo/events/268738879).
+* [Mar 12. Turin, IT - Mozilla Torino - Gruppo di studio Rust alla Torino hacknight](https://www.meetup.com/Mozilla-Torino/events/268822794).
 
 ### North America
 
-* [Feb 24. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybcdbgc/).
-* [Feb 25. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmybcdbhc/).
-* [Feb 26. Portland, OR, US - PDXRust - Hack Night](https://www.meetup.com/PDXRust/events/268266020/).
-* [Feb 26. Houston, TX, US - Houston Linux Users Group - Rust Study Group](https://www.facebook.com/events/469382520642102).
-* [Feb 26. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscrybcdbjc/).
-* [Feb 26. Mesa, AZ, US - Desert Rust - Rust: lightning talks](https://www.meetup.com/Desert-Rustaceans/events/268793593/).
-* [Mar 11. Atlanta, GA, US - Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybcfbpb/).
 * [Mar  4. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpybcfbgb/).
+* [Mar 10. Denver, CO, US - Rust Boulder/Denver - March Meetup](https://www.meetup.com/Rust-Boulder-Denver/events/267834799/).
+* [Mar 10. Redmond, WA, US - Seattle Rust Meetup - Monthly meetup in Redmond](https://www.meetup.com/Seattle-Rust-Meetup/events/prbtdrybcfbnb/).
+* [Mar 11. Atlanta, GA, US - Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybcfbpb/).
+* [Mar 11. Houston, TX, US - Houston Linux Users Group - Rust Study Group](https://www.facebook.com/events/469382520642102).
+* [Mar 12. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybcfbqb/).
+* [Mar 12. Lehi, UT, US - Utah Rust - The Blue Pill: Rust on Microcontrollers](https://www.meetup.com/utah-rust/events/268567961/).
+* [Mar 18. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybcfbxb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -146,12 +160,12 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Infrastructure Engineer at Aleph Alpha, Heidelberg, Germany](https://aleph-alpha.de/sw_engineer.html?language=de).
+* [Backend Engineer, Rust at LayerTwo, London, UK](https://angel.co/company/layertwo/jobs/687465-senior-backend-engineer).
+* [Junior Backend Engineer, Rust at LayerTwo, London, UK](https://angel.co/company/layertwo/jobs/702600-junior-full-stack-engineer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
-
-This week we have two (related) quotes:
 
 > Yoda must have hit his head, though. `if let 42 = x {}` "if let forty-two equals x"
 
