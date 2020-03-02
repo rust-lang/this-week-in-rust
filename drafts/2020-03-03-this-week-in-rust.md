@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[The RustConf 2020 CFP is now open!](https://cfp.rustconf.com/events/rustconf-2020) We'd love to hear from you at RustConf!
+
 # Crate of the Week
 
 This week's crates are [wundergraph](https://crates.io/crates/wundergraph), a GraphQL interface library, and [kibi](https://github.com/ilai-deutel/kibi), a text editor in thousand lines of Rust.
