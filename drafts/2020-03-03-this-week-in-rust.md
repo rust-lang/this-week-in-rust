@@ -118,6 +118,7 @@ decision. Express your opinions now.
 
 * [Mar  4. Dublin, IE - Rust Dublin - Reboot pub meetup: The Duke](https://www.meetup.com/Rust-Dublin/events/237883717/).
 * [Mar  4. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gztznrybcfbgb/).
+* [Mar  9. Karlsruhe, DE - Rust Meetup](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/268299172/)
 * [Mar 11. Oslo, NO - Rust Oslo - Lightning talks](https://www.meetup.com/Rust-Oslo/events/268738879).
 * [Mar 12. Turin, IT - Mozilla Torino - Gruppo di studio Rust alla Torino hacknight](https://www.meetup.com/Mozilla-Torino/events/268822794).
 
