@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Rust in Blockchain Newsletter #9: The Month of Working from Home](https://rustinblockchain.org/2020/03/04/rib-newsletter-9-the-month-of-working-from-home/)
+
 # Crate of the Week
 
 This week's crates are [wundergraph](https://crates.io/crates/wundergraph), a GraphQL interface library, and [kibi](https://github.com/ilai-deutel/kibi), a text editor in thousand lines of Rust.
