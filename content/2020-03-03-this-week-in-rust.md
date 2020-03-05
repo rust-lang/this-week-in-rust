@@ -36,6 +36,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This month in rustsim 9](https://www.rustsim.org/blog/2020/03/01/this-month-in-rustsim/).
 * [Rust in Blockchain newsletter 9: The month of working from home](https://rustinblockchain.org/2020/03/04/rib-newsletter-9-the-month-of-working-from-home/).
 * [Tokio v0.2.12, includes `Notify`, an async/await synchronization primitive, and `StreamMap` for dynamic merging of streams](https://github.com/tokio-rs/tokio/releases/tag/tokio-0.2.12).
+* [ExpressJS vs Actix-Web: performance and running cost comparison](https://medium.com/@maxsparr0w/performance-of-node-js-compared-to-actix-web-37f20810fb1a).
 
 # Crate of the Week
 
