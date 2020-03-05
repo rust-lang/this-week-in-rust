@@ -16,9 +16,26 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-[Rust in Blockchain Newsletter #9: The Month of Working from Home](https://rustinblockchain.org/2020/03/04/rib-newsletter-9-the-month-of-working-from-home/)
-[The RustConf 2020 CFP is now open!](https://cfp.rustconf.com/events/rustconf-2020) We'd love to hear from you at RustConf!
-- [Porting a JavaScript App to WebAssembly with Rust (Part 3)](https://www.slowtec.de/posts/2020-02-28-porting-javascript-to-rust-part-3.html)
+* [Announcing Rust 1.41.1](https://blog.rust-lang.org/2020/02/27/Rust-1.41.1.html).
+* [A half-hour to learn Rust](https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/).
+* [Recent and future pattern matching improvements](https://blog.rust-lang.org/inside-rust/2020/03/04/recent-future-pattern-matching-improvements.html).
+* [Cheap tricks for high-performance Rust](https://deterministic.space/high-performance-rust.html).
+* [Understanding String and &str in Rust](https://blog.thoughtram.io/string-vs-str-in-rust/).
+* [caniuse.rs - Rust feature search](https://caniuse.rs/).
+* [Async/await on embedded Rust](https://ferrous-systems.com/blog/async-on-embedded/).
+* [Audit of the RustCrypto `aes-gcm` and `chacha20poly1305` crates by NCC group](https://research.nccgroup.com/2020/02/26/public-report-rustcrypto-aes-gcm-and-chacha20poly1305-implementation-review/).
+* [FFI patterns #1 - Complex Rust data structures exposed seamlessly to C++](https://crisal.io/words/2020/02/28/C++-rust-ffi-patterns-1-complex-data-structures.html).
+* [Multidimensional arrays and operations with NDArray](https://shahinrostami.com/posts/programming/rust-notebooks/multidimensional-arrays-and-operations-with-ndarray/).
+* [A look into ways to implement and share data with interrupt handlers in Rust](https://therealprof.github.io/blog/interrupt-comparison/).
+* [Porting a JavaScript App to WebAssembly with Rust (Part 3)](https://www.slowtec.de/posts/2020-02-28-porting-javascript-to-rust-part-3.html).
+* [Pietro Albini has joined the core team](https://blog.rust-lang.org/inside-rust/2020/02/27/pietro-joins-core-team.html).
+* [Announcing the first FFI-unwind project design meeting](https://blog.rust-lang.org/inside-rust/2020/02/27/ffi-unwind-design-meeting.html).
+* [Writing an OS in Rust: Updates in February 2020](https://os.phil-opp.com/status-update/2020-03-02/).
+* [rust-analyzer Changelog 14](https://rust-analyzer.github.io/thisweek/2020/03/02/changelog-14.html).
+* [IntelliJ Rust Changelog 117](https://intellij-rust.github.io/2020/03/02/changelog-117.html).
+* [This month in rustsim 9](https://www.rustsim.org/blog/2020/03/01/this-month-in-rustsim/).
+* [Rust in Blockchain newsletter 9: The month of working from home](https://rustinblockchain.org/2020/03/04/rib-newsletter-9-the-month-of-working-from-home/)
+* [Tokio v0.2.12, includes `Notify`, an async/await synchronization primitive, and `StreamMap` for dynamic merging of streams](https://github.com/tokio-rs/tokio/releases/tag/tokio-0.2.12).
 
 # Crate of the Week
 
@@ -37,7 +54,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [good first issue] [sqlx: Implement support for time-rs 0.2](https://github.com/launchbadge/sqlx/issues/115).
+* [The RustConf 2020 CFP is now open](https://cfp.rustconf.com/events/rustconf-2020). We'd love to hear from you at RustConf!
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -88,43 +105,43 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [disposition: merge] [Cargo report future-incompat](https://github.com/rust-lang/rfcs/pull/2834).
+* [disposition: merge] [Add llvm_asm! and deprecate asm!](https://github.com/rust-lang/rfcs/pull/2843).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Permit negative impls for non-auto traits](https://github.com/rust-lang/rust/pull/68004).
-* [disposition: merge] [Stabilize const for integer {to,from}_{be,le,ne}_bytes methods](https://github.com/rust-lang/rust/pull/69373).
+* [disposition: merge] [Permit attributes on 'if' expressions](https://github.com/rust-lang/rust/pull/69201).
+* [disposition: merge] [mem::zeroed/uninit: panic on types that do not permit zero-initialization](https://github.com/rust-lang/rust/pull/66059).
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [Inline assembly](https://github.com/rust-lang/rfcs/pull/2873).
+* [Rust-lang org GitHub access policy](https://github.com/rust-lang/rfcs/pull/2872).
+* [Clarifying UnwindSafe](https://github.com/rust-lang/rfcs/pull/2871).
 
 # Upcoming Events
 
-### Africa
-
-* [Mar  4. Johannesburg, ZA - Johannesburg Rust Meetup - Coffee and a chat about Rust](https://www.meetup.com/Johannesburg-Rust-Meetup/events/268960482/).
-
 ### Asia Pacific
 
-* [Mar  5. Melbourne, AU - Rust Melbourne - Hack Night, Talks, and Networking](https://www.meetup.com/Rust-Melbourne/events/268002615/).
+* [Mar 21-22. Kuala Lumpur, MY - Rust Workshop + Mini-Hackathon](https://docs.google.com/forms/d/e/1FAIpQLScSe4xQycs5i3PtEtR9GAj4vdkWUhwW3v0BiTQFpps4l7PgIA/viewform).
 
 ### Europe
 
-* [Mar  4. Dublin, IE - Rust Dublin - Reboot pub meetup: The Duke](https://www.meetup.com/Rust-Dublin/events/237883717/).
-* [Mar  4. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gztznrybcfbgb/).
 * [Mar  9. Karlsruhe, DE - Rust Meetup](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/268299172/)
 * [Mar 11. Oslo, NO - Rust Oslo - Lightning talks](https://www.meetup.com/Rust-Oslo/events/268738879).
 * [Mar 12. Turin, IT - Mozilla Torino - Gruppo di studio Rust alla Torino hacknight](https://www.meetup.com/Mozilla-Torino/events/268822794).
+* [Mar 19. Warsaw, PL - Rust Warsaw 4](https://www.meetup.com/Rust-Warsaw/events/269164365/).
+* [Mar 19. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gztznrybcfbzb/).
 
 ### North America
 
-* [Mar  4. Indianapolis, IN, US - Indy.rs](https://www.meetup.com/indyrs/events/mffbtpybcfbgb/).
 * [Mar 10. Denver, CO, US - Rust Boulder/Denver - March Meetup](https://www.meetup.com/Rust-Boulder-Denver/events/267834799/).
 * [Mar 10. Redmond, WA, US - Seattle Rust Meetup - Monthly meetup in Redmond](https://www.meetup.com/Seattle-Rust-Meetup/events/prbtdrybcfbnb/).
 * [Mar 11. Atlanta, GA, US - Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybcfbpb/).
 * [Mar 11. Houston, TX, US - Houston Linux Users Group - Rust Study Group](https://www.facebook.com/events/469382520642102).
+* [Mar 11. Portland, OR, US - PDXRust - Rust Lightning Talks! By You](https://www.meetup.com/PDXRust/events/269055813/).
 * [Mar 12. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybcfbqb/).
 * [Mar 12. Lehi, UT, US - Utah Rust - The Blue Pill: Rust on Microcontrollers](https://www.meetup.com/utah-rust/events/268567961/).
+* [Mar 12. San Diego, CA, US - San Diego Rust - March Meetup](https://www.meetup.com/San-Diego-Rust/events/269191953/).
 * [Mar 18. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybcfbxb/).
 
 If you are running a Rust event please add it to the [calendar] to get
