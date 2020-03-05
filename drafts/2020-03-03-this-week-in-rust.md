@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[The RustConf 2020 CFP is now open!](https://cfp.rustconf.com/events/rustconf-2020) We'd love to hear from you at RustConf!
 - [Porting a JavaScript App to WebAssembly with Rust (Part 3)](https://www.slowtec.de/posts/2020-02-28-porting-javascript-to-rust-part-3.html)
 
 # Crate of the Week
