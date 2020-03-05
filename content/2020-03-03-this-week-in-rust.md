@@ -34,7 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [rust-analyzer Changelog 14](https://rust-analyzer.github.io/thisweek/2020/03/02/changelog-14.html).
 * [IntelliJ Rust Changelog 117](https://intellij-rust.github.io/2020/03/02/changelog-117.html).
 * [This month in rustsim 9](https://www.rustsim.org/blog/2020/03/01/this-month-in-rustsim/).
-* [Rust in Blockchain newsletter 9: The month of working from home](https://rustinblockchain.org/2020/03/04/rib-newsletter-9-the-month-of-working-from-home/)
+* [Rust in Blockchain newsletter 9: The month of working from home](https://rustinblockchain.org/2020/03/04/rib-newsletter-9-the-month-of-working-from-home/).
 * [Tokio v0.2.12, includes `Notify`, an async/await synchronization primitive, and `StreamMap` for dynamic merging of streams](https://github.com/tokio-rs/tokio/releases/tag/tokio-0.2.12).
 
 # Crate of the Week
