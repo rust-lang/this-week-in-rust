@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Rust in Blockchain Newsletter #9: The Month of Working from Home](https://rustinblockchain.org/2020/03/04/rib-newsletter-9-the-month-of-working-from-home/)
 [The RustConf 2020 CFP is now open!](https://cfp.rustconf.com/events/rustconf-2020) We'd love to hear from you at RustConf!
 - [Porting a JavaScript App to WebAssembly with Rust (Part 3)](https://www.slowtec.de/posts/2020-02-28-porting-javascript-to-rust-part-3.html)
 
