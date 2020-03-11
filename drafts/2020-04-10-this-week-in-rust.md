@@ -18,9 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crates is [tokenizers](https://github.com/huggingface/tokenizers), a Rust crate with python & nodejs bindings for fast text tokenization for machine learning.
+This week's crates is [plotly](https://github.com/igiagkiozis/plotly), a plotly.js-backed plotting library.
 
-llogiq (who singlehandedly selected the crate) is pretty self-congratulatory.
+Thanks to [Ioannis Giagkiozis](https://users.rust-lang.org/t/crate-of-the-week/2704/736) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -41,32 +41,21 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-304 pull requests were [merged in the last week][merged]
+302 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-02-24..2020-03-02
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-03-02..2020-03-09
 
-* [implement Associated Type Defaults](https://github.com/rust-lang/rust/pull/61812) (RFC #[2532](https://rust-lang.github.io/rfcs/2532-associated-type-defaults.html))
-* [don't `bug` when taking discriminant of generator during dataflow](https://github.com/rust-lang/rust/pull/69562)
-* [perf: buffer stderr when writing json errors/warnings](https://github.com/rust-lang/rust/pull/69227)
-* [mark attributes consumed by `check_mod_attrs` as normal](https://github.com/rust-lang/rust/pull/69412)
-* [stash API: remove panic to fix ICE](https://github.com/rust-lang/rust/pull/69623)
-* [chalk: changes needed to build in rustc](https://github.com/rust-lang/chalk/pull/332)
-* [adjust Miri value visitor, and doc-comment layout components](https://github.com/rust-lang/rust/pull/69257)
-* [miri: let machine canonicalize AllocIDs](https://github.com/rust-lang/rust/pull/69408)
-* [fail on multiple declarations of `main`](https://github.com/rust-lang/rust/pull/69379)
-* [don't instantiate so many copies of `drop_in_place`](https://github.com/rust-lang/rust/pull/67332)
-* [mark other variants as uninitialized after switch on discriminant](https://github.com/rust-lang/rust/pull/68528)
-* [skip `Drop` terminators for enum variants without drop glue](https://github.com/rust-lang/rust/pull/68943)
-* [audit liballoc for leaks in `Drop` impls when user destructor panics](https://github.com/rust-lang/rust/pull/67290)
-* [add primitive module to libcore](https://github.com/rust-lang/rust/pull/67637)
-* [relax str::get_unchecked precondition to permit empty slicing](https://github.com/rust-lang/rust/pull/69385)
-* [fix aliasing violation in `align_to_mut`](https://github.com/rust-lang/rust/pull/69581)
-* [add methods to 'leak' RefCell borrows as references with the lifetime of the original reference](https://github.com/rust-lang/rust/pull/68712)
-* [stabilize `boxed_slice_try_from`](https://github.com/rust-lang/rust/pull/69538)
-* [`BTreeMap` navigation done safer & faster](https://github.com/rust-lang/rust/pull/68827)
-* [constify mem::forget](https://github.com/rust-lang/rust/pull/69617)
-* [crates.io: enable sorting crates by most recently added](https://github.com/rust-lang/crates.io/pull/2214)
-* [rustlings: add clippy lints](https://github.com/rust-lang/rustlings/pull/269)
+* [permit attributes on 'if' expressions](https://github.com/rust-lang/rust/pull/69201)
+* [const limit for CTFE](https://github.com/rust-lang/rust/pull/67260)
+* [invoke `OptimizerLastEPCallbacks` in `PreLinkThinLTO`](https://github.com/rust-lang/rust/pull/69665)
+* [fix a leak in `DiagnosticBuilder::into_diagnostic`](https://github.com/rust-lang/rust/pull/69628)
+* [when encountering an Item in a pat context, point at the item def](https://github.com/rust-lang/rust/pull/67741)
+* [improve linking of crates with circular dependencies](https://github.com/rust-lang/rust/pull/69371)
+* [mir-interpret: add method to read wide strings from memory](https://github.com/rust-lang/rust/pull/69326)
+* [stabilize `assoc_int_consts` associated int/float constants](https://github.com/rust-lang/rust/pull/68952)
+* [add `Layout::dangling()` to return a well-aligned `NonNull<u8>`](https://github.com/rust-lang/rust/pull/69794)
+* [fix & test leak of some `BTreeMap` nodes on panic during `into_iter`](https://github.com/rust-lang/rust/pull/69776)
+* [hashbrown: add `HashMap::get_key_value_mut`](https://github.com/rust-lang/hashbrown/pull/145)
 
 ## Approved RFCs
 
@@ -132,16 +121,17 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Infrastructure Engineer at Aleph Alpha, Heidelberg, Germany](https://aleph-alpha.de/sw_engineer.html?language=de).
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> Hi, fellow Crustaceans!
-> I am a newbie of Rust programming language. A nauplius.
+> I have no idea how to debug Rust, because in 2 years of Rust, I haven't had that type of low level bug.
 
-– [GhostProc on rust-users](https://users.rust-lang.org/t/how-can-i-improve-this/38711)
+– [papaf on hacker news](https://news.ycombinator.com/item?id=22514233)
 
-Thanks to [Tom Phinney](https://users.rust-lang.org/t/twir-quote-of-the-week/328/822) for the suggestions!
+Thanks to [zrk](https://users.rust-lang.org/t/twir-quote-of-the-week/328/826) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
