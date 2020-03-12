@@ -132,6 +132,8 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+[Kopernikus Automotive GmbH](http://kopernikusauto.com) is [searching for Rust Developers.](https://www.reddit.com/r/rust/comments/eyw94s/official_rrust_whos_hiring_thread_for_jobseekers/fk08z9g?utm_source=share&utm_medium=web2x)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
