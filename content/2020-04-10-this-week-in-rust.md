@@ -26,6 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [My exploration of Rust and .NET](https://ericsink.com/entries/dotnet_rust.html).
 * [cfg(doctest) is stable and you should use it](https://blog.guillaume-gomez.fr/articles/2020-03-07+cfg%28doctest%29+is+stable+and+you+should+use+it).
 * [ExpressJS vs Actix-Web: performance and running cost comparison](https://medium.com/@maxsparr0w/performance-of-node-js-compared-to-actix-web-37f20810fb1a).
+* [Announcing Rust Search Extension v0.8](https://www.reddit.com/r/rust/comments/fg5wo1/announcing_rustsearchextension_v08_the_ultimate/)
 * [rust-analyzer changelog 15](https://rust-analyzer.github.io/thisweek/2020/03/09/changelog-15.html).
 * [This month in Rust gamedev 7 - February 2020](https://rust-gamedev.github.io/posts/newsletter-007/).
 * [The 2020 RustConf CFP is Now Open](https://blog.rust-lang.org/2020/03/10/rustconf-cfp.html).
