@@ -16,8 +16,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [An alternative to the builder pattern, init struct pattern](https://xaeroxe.github.io/init-struct-pattern/).
+* [Bottlerocket, a new Linux-based OS, uses Rust for almost all new components](https://aws.amazon.com/blogs/aws/bottlerocket-open-source-os-for-container-hosting/).
+* [Parsing Library in Rust pt. 1](https://blog.frondeus.pl/parser-1/).
+* [Yes, I am still learning Rust](https://llogiq.github.io/2020/03/07/learning.html).
+* [I have just made my first open source contribution to rust-analyzer](https://avishay.dev/2020/03/04/oss-contribution/).
+* [Nannou update - WebGPU, capturing frames and more](https://nannou.cc/posts/nannou_v0.13).
+* [A C# programmer examines Rust - Part 1](https://treit.github.io/programming,/rust,/c%23/2020/03/06/StartingRust.html).
 * [My exploration of Rust and .NET](https://ericsink.com/entries/dotnet_rust.html).
-
+* [cfg(doctest) is stable and you should use it](https://blog.guillaume-gomez.fr/articles/2020-03-07+cfg%28doctest%29+is+stable+and+you+should+use+it).
+* [ExpressJS vs Actix-Web: performance and running cost comparison](https://medium.com/@maxsparr0w/performance-of-node-js-compared-to-actix-web-37f20810fb1a).
+* [rust-analyzer changelog 15](https://rust-analyzer.github.io/thisweek/2020/03/09/changelog-15.html).
+* [This month in Rust gamedev 7 - February 2020](https://rust-gamedev.github.io/posts/newsletter-007/).
+* [The 2020 RustConf CFP is Now Open](https://blog.rust-lang.org/2020/03/10/rustconf-cfp.html).
 
 # Crate of the Week
 
@@ -36,7 +47,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [The RustConf 2020 CFP is now open](https://cfp.rustconf.com/events/rustconf-2020). We'd love to hear from you at RustConf!
+* [offst: Add Android builds to CI](https://github.com/freedomlayer/offst/issues/271). Offst is a decentralized payment system.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -75,19 +86,17 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Cargo report future-incompat](https://github.com/rust-lang/rfcs/pull/2834).
-* [disposition: merge] [Add llvm_asm! and deprecate asm!](https://github.com/rust-lang/rfcs/pull/2843).
+*No RFCs are currently in final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Permit attributes on 'if' expressions](https://github.com/rust-lang/rust/pull/69201).
-* [disposition: merge] [mem::zeroed/uninit: panic on types that do not permit zero-initialization](https://github.com/rust-lang/rust/pull/66059).
+* [disposition: merge] [Amend Rc/Arc::from_raw() docs regarding unsafety](https://github.com/rust-lang/rust/pull/68099).
+* [disposition: merge] [`is_x86_feature_detected!("avx512f")` fails to build on nightly](https://github.com/rust-lang/rust/issues/68905).
+* [disposition: merge] [Implement `Copy` for `IoSlice`](https://github.com/rust-lang/rust/pull/69403).
 
 ## New RFCs
 
-* [Inline assembly](https://github.com/rust-lang/rfcs/pull/2873).
-* [Rust-lang org GitHub access policy](https://github.com/rust-lang/rfcs/pull/2872).
-* [Clarifying UnwindSafe](https://github.com/rust-lang/rfcs/pull/2871).
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
@@ -97,23 +106,19 @@ decision. Express your opinions now.
 
 ### Europe
 
-* [Mar  9. Karlsruhe, DE - Rust Meetup](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/268299172/)
-* [Mar 11. Oslo, NO - Rust Oslo - Lightning talks](https://www.meetup.com/Rust-Oslo/events/268738879).
-* [Mar 12. Turin, IT - Mozilla Torino - Gruppo di studio Rust alla Torino hacknight](https://www.meetup.com/Mozilla-Torino/events/268822794).
 * [Mar 19. Warsaw, PL - Rust Warsaw 4](https://www.meetup.com/Rust-Warsaw/events/269164365/).
 * [Mar 19. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gztznrybcfbzb/).
+* [Mar 26. Edinburgh, GB - Rust Edinburgh - Rust Meetup Short Talk Night](https://www.meetup.com/rust-edi/events/267810816).
 
 ### North America
 
-* [Mar 10. Denver, CO, US - Rust Boulder/Denver - March Meetup](https://www.meetup.com/Rust-Boulder-Denver/events/267834799/).
-* [Mar 10. Redmond, WA, US - Seattle Rust Meetup - Monthly meetup in Redmond](https://www.meetup.com/Seattle-Rust-Meetup/events/prbtdrybcfbnb/).
-* [Mar 11. Atlanta, GA, US - Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybcfbpb/).
-* [Mar 11. Houston, TX, US - Houston Linux Users Group - Rust Study Group](https://www.facebook.com/events/469382520642102).
-* [Mar 11. Portland, OR, US - PDXRust - Rust Lightning Talks! By You](https://www.meetup.com/PDXRust/events/269055813/).
-* [Mar 12. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybcfbqb/).
-* [Mar 12. Lehi, UT, US - Utah Rust - The Blue Pill: Rust on Microcontrollers](https://www.meetup.com/utah-rust/events/268567961/).
-* [Mar 12. San Diego, CA, US - San Diego Rust - March Meetup](https://www.meetup.com/San-Diego-Rust/events/269191953/).
 * [Mar 18. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybcfbxb/).
+* [Mar 19. Montreal, QC, CA - Rust Montréal - RustMTL March 2020](https://www.meetup.com/Rust-Montreal/events/269117625/).
+* [Mar 23. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybcfbfc/).
+* [Mar 25. Portland, OR, US - PDXRust - PDX Rust Hack Night](https://www.meetup.com/PDXRust/events/269072568/).
+* [Mar 25. Houston, TX, US - Houston Linux Users Group - Rust Study Group](https://www.facebook.com/events/469382520642102).
+* [Mar 25. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscrybcfbhc/).
+* [Mar 31. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmybcfbpc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -125,7 +130,7 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Infrastructure Engineer at Aleph Alpha, Heidelberg, Germany](https://aleph-alpha.de/sw_engineer.html?language=de).
-* [Kopernikus Automotive GmbH](http://kopernikusauto.com) is [searching for Rust Developers.](https://www.reddit.com/r/rust/comments/eyw94s/official_rrust_whos_hiring_thread_for_jobseekers/fk08z9g?utm_source=share&utm_medium=web2x)
+* [Kopernikus Automotive GmbH](http://kopernikusauto.com) is [looking for Rust Developers](https://www.reddit.com/r/rust/comments/eyw94s/official_rrust_whos_hiring_thread_for_jobseekers/fk08z9g).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
