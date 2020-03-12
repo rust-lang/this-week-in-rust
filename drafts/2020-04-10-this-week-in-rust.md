@@ -17,7 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [My exploration of Rust and .NET](https://ericsink.com/entries/dotnet_rust.html).
-
+* [Announcing Rust Search Extension v0.8](https://www.reddit.com/r/rust/comments/fg5wo1/announcing_rustsearchextension_v08_the_ultimate/)
 
 # Crate of the Week
 
