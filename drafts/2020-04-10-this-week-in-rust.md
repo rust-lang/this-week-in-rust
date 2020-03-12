@@ -16,6 +16,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [My exploration of Rust and .NET](https://ericsink.com/entries/dotnet_rust.html).
+
+
 # Crate of the Week
 
 This week's crates is [plotly](https://github.com/igiagkiozis/plotly), a plotly.js-backed plotting library.
