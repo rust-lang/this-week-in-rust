@@ -117,6 +117,8 @@ Email the [Rust Community Team][community] for access.
 
 * [Infrastructure Engineer at Aleph Alpha, Heidelberg, Germany](https://aleph-alpha.de/sw_engineer.html?language=de).
 * [Kopernikus Automotive GmbH](http://kopernikusauto.com) is [looking for Rust Developers](https://www.reddit.com/r/rust/comments/eyw94s/official_rrust_whos_hiring_thread_for_jobseekers/fk08z9g).
+* [Backend Engineer, Rust at LayerTwo, London, UK](https://angel.co/company/layertwo/jobs/687465-senior-backend-engineer).
+* [Junior Backend Engineer, Rust at LayerTwo, London, UK](https://angel.co/company/layertwo/jobs/702600-junior-full-stack-engineer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
