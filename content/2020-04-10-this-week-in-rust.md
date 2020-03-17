@@ -102,7 +102,7 @@ decision. Express your opinions now.
 
 ### Asia Pacific
 
-* [Mar 21-22. Kuala Lumpur, MY - Rust Workshop + Mini-Hackathon](https://docs.google.com/forms/d/e/1FAIpQLScSe4xQycs5i3PtEtR9GAj4vdkWUhwW3v0BiTQFpps4l7PgIA/viewform).
+* [Mar 21-22. Kuala Lumpur, MY - Rust Workshop + Mini-Hackathon](https://docs.google.com/forms/d/e/1FAIpQLScSe4xQycs5i3PtEtR9GAj4vdkWUhwW3v0BiTQFpps4l7PgIA/viewform) [Postponed].
 
 ### Europe
 
