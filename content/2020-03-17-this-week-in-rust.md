@@ -181,4 +181,4 @@ Thanks to [Jules Kerssemakers](https://users.rust-lang.org/t/twir-quote-of-the-w
 
 *This Week in Rust is edited by: [nasa42](https://github.com/nasa42) and [llogiq](https://github.com/llogiq).*
 
-<small>[Discuss on r/rust]().</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/flb5tn/this_week_in_rust_330/).</small>
