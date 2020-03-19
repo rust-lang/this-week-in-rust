@@ -18,9 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crates is [plotly](https://github.com/igiagkiozis/plotly), a plotly.js-backed plotting library.
+This week's crates is [beef](https://github.com/maciejhirsz/beef), an alternative memory-compact Clone on Write (CoW) implementation.
 
-Thanks to [Ioannis Giagkiozis](https://users.rust-lang.org/t/crate-of-the-week/2704/736) for the suggestion!
+Thanks to [Vlad Frolov](https://users.rust-lang.org/t/crate-of-the-week/2704/740) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -41,21 +41,41 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-302 pull requests were [merged in the last week][merged]
+309 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-03-02..2020-03-09
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-03-09..2020-03-16
 
-* [permit attributes on 'if' expressions](https://github.com/rust-lang/rust/pull/69201)
-* [const limit for CTFE](https://github.com/rust-lang/rust/pull/67260)
-* [invoke `OptimizerLastEPCallbacks` in `PreLinkThinLTO`](https://github.com/rust-lang/rust/pull/69665)
-* [fix a leak in `DiagnosticBuilder::into_diagnostic`](https://github.com/rust-lang/rust/pull/69628)
-* [when encountering an Item in a pat context, point at the item def](https://github.com/rust-lang/rust/pull/67741)
-* [improve linking of crates with circular dependencies](https://github.com/rust-lang/rust/pull/69371)
-* [mir-interpret: add method to read wide strings from memory](https://github.com/rust-lang/rust/pull/69326)
-* [stabilize `assoc_int_consts` associated int/float constants](https://github.com/rust-lang/rust/pull/68952)
-* [add `Layout::dangling()` to return a well-aligned `NonNull<u8>`](https://github.com/rust-lang/rust/pull/69794)
-* [fix & test leak of some `BTreeMap` nodes on panic during `into_iter`](https://github.com/rust-lang/rust/pull/69776)
-* [hashbrown: add `HashMap::get_key_value_mut`](https://github.com/rust-lang/hashbrown/pull/145)
+* [change `DIBuilderCreateEnumerator` signature to match LLVM 9](https://github.com/rust-lang/rust/pull/69734)
+* [add support for LLVM globals corresponding to miri allocations should be named `alloc123`](https://github.com/rust-lang/rust/pull/69155)
+* [emit 1-based column numbers in debuginfo](https://github.com/rust-lang/rust/pull/69357)
+* [improve expression & attribute parsing](https://github.com/rust-lang/rust/pull/69760)
+* [resolve: fix two issues in fresh binding disambiguation](https://github.com/rust-lang/rust/pull/70006)
+* [don't store locals in generators that are immediately overwritten with the resume argument](https://github.com/rust-lang/rust/pull/69716)
+* [make `PlaceRef` take just one lifetime](https://github.com/rust-lang/rust/pull/69714)
+* [use `TypeRelating` for instantiating query responses](https://github.com/rust-lang/rust/pull/69591)
+* [perf: reuse a `Vec` in mir simplification](https://github.com/rust-lang/rust/pull/68551)
+* [exhaustiveness checking, `Matrix::push`: recursively expand or-patterns](https://github.com/rust-lang/rust/pull/69891)
+* [miri: use a session variable instead of checking for an env var always](https://github.com/rust-lang/rust/pull/69888)
+* [`panic_bounds_check`: use caller_location, like `PanicFnLangItem`](https://github.com/rust-lang/rust/pull/69850)
+* [check if output is immediate value](https://github.com/rust-lang/rust/pull/69836)
+* [fix memory leak when `vec::IntoIter` panics during drop](https://github.com/rust-lang/rust/pull/69828)
+* [optimize `catch_unwind` to match C++ try/catch](https://github.com/rust-lang/rust/pull/67502)
+* [make `mem::discriminant` const](https://github.com/rust-lang/rust/pull/69825)
+* [allow zero-sized types in `AllocRef`](https://github.com/rust-lang/rust/pull/69799)
+* [`mem::zeroed`/`uninit`: panic on types that do not permit zero-initialization](https://github.com/rust-lang/rust/pull/66059)
+* [add `Display` and `Error` impls for `proc_macro::LexError`](https://github.com/rust-lang/rust/pull/68899)
+* [implement `Error` for `TryReserveError`](https://github.com/rust-lang/rust/pull/69792)
+* [implement `nth`, `last`, and `count` for `iter::Copied`](https://github.com/rust-lang/rust/pull/69625)
+* [add undo_leak to reset `RefCell` borrow state](https://github.com/rust-lang/rust/pull/69528)
+* [implement `Copy` for `IoSlice`](https://github.com/rust-lang/rust/pull/69403)
+* [stabilize const for `integer `{`to`, `from`}`_`{`be`, `le`, `ne`}`_bytes` methods](https://github.com/rust-lang/rust/pull/69373)
+* [implement `From<&mut str>` for `String`](https://github.com/rust-lang/rust/pull/69661)
+* [hashbrown: optimize `Clone` implementation](https://github.com/rust-lang/hashbrown/pull/146)
+* [futures: use `once_cell` for sound `&'static Waker` instances](https://github.com/rust-lang/futures-rs/pull/2095)
+* [cargo: avoid buffering large amounts of rustc output](https://github.com/rust-lang/cargo/pull/7838)
+* [cargo: clippy integration changes](https://github.com/rust-lang/cargo/pull/7533)
+* [cargo: add "Updating" status for git submodules](https://github.com/rust-lang/cargo/pull/7989)
+* [docs.rs: allow crates to opt-in to building a single target](https://github.com/rust-lang/docs.rs/pull/632)
 
 ## Approved RFCs
 
@@ -122,11 +142,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I have no idea how to debug Rust, because in 2 years of Rust, I haven't had that type of low level bug.
+> I thought up a clever qotw bait one liner to stick in here that prompted me to actually write it then forgot it while writing the post in favor of being genuine... whoops
 
-– [papaf on hacker news](https://news.ycombinator.com/item?id=22514233)
+– [Christopher Durham confessing to rust-users](https://users.rust-lang.org/t/the-confessional-thread-parts-of-rust-that-i-still-dont-get-after-all-this-time/39022/14)
 
-Thanks to [zrk](https://users.rust-lang.org/t/twir-quote-of-the-week/328/826) for the suggestions!
+Thanks to [Jules Kerssemakers](https://users.rust-lang.org/t/twir-quote-of-the-week/328/835) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
