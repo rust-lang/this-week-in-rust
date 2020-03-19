@@ -35,6 +35,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [This Week in Rust is looking for a new maintainer](https://blog.rust-lang.org/inside-rust/2020/03/13/twir-new-lead.html).
 * [The swc project needs some help from community](https://swc-project.github.io/blog/2020/03/16/roadmap-and-call-for-help).
+* [The RustConf 2020 CFP is now open](https://cfp.rustconf.com/events/rustconf-2020). We'd love to hear from you at RustConf!
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
