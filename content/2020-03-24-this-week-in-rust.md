@@ -162,4 +162,4 @@ Thanks to [pitdicker](https://users.rust-lang.org/t/twir-quote-of-the-week/328/8
 
 *This Week in Rust is edited by: [nasa42](https://github.com/nasa42) and [llogiq](https://github.com/llogiq).*
 
-<small>[Discuss on r/rust]().</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/fp9z5t/this_week_in_rust_331/).</small>
