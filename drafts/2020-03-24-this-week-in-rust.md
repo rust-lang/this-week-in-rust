@@ -16,6 +16,24 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Plans for the regex crate](https://github.com/rust-lang/regex/issues/656).
+* [Tokio's new internal semaphore based on intrusive lists](https://github.com/tokio-rs/tokio/commit/acf8a7da7a64bf08d578db9a9836a8e061765314).
+* [Rust async and the terrible, horrible, no good, very bad day](https://medium.com/@KevinHoffman/rust-async-and-the-terrible-horrible-no-good-very-bad-day-348ebc836274).
+* [C++20 & Rust on static vs dynamic generics](https://www.youtube.com/watch?v=olM7o_oYML0).
+* [Fast and simple Rust interner](https://matklad.github.io/2020/03/22/fast-simple-rust-interner.html).
+* [Secure Rust guidelines](https://anssi-fr.github.io/rust-guide/).
+* [How I structure my apps (in Rust and other languages)](https://dpc.pw/how-i-structure-my-apps-in-rust-and-other-languages).
+* [Cheatsheet: Option (in Rust) vs Maybe (in Haskell)](https://notes.iveselov.info/programming/cheatsheet-rust-option-vs-haskell-maybe).
+* [Two years with Rust](http://brooker.co.za/blog/2020/03/22/rust.html).
+* [Reducing memory consumption in librsvg, part 3: slack space in Bézier paths](https://people.gnome.org/~federico/blog/reducing-memory-consumption-in-librsvg-3.html).
+* [Inviting God's wrath with cursed Rust](http://troubles.md/abusing-rustc/).
+* [Let’s write a Web Assembly interpreter (part 1)](https://medium.com/@richardanaya/lets-write-a-web-assembly-interpreter-part-1-287298201d75).
+* [Descriptive statistics with NDArray](https://shahinrostami.com/posts/programming/rust-notebooks/descriptive-statistics-with-ndarray/).
+* [rust-analyzer changelog #17](https://rust-analyzer.github.io/thisweek/2020/03/23/changelog-17.html).
+* [Announcing Tokei 11: Now over 40–60% faster](https://github.com/XAMPPRocky/tokei/releases/tag/v11.0.0).
+* [Learn Rust building a toy JIRA clone](https://github.com/LukeMathWalker/build-your-own-jira-with-rust).
+* [The original concept for the Rust logo](https://twitter.com/mart3ll/status/1240705442839277569).
+
 # Crate of the Week
 
 This week's crates is [flume](https://github.com/zesterer/flume), a fast multi-producer single-consumer channel.
@@ -33,9 +51,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [This Week in Rust is looking for a new maintainer](https://blog.rust-lang.org/inside-rust/2020/03/13/twir-new-lead.html).
-* [The swc project needs some help from community](https://swc-project.github.io/blog/2020/03/16/roadmap-and-call-for-help).
+* [Announcing Rust IPFS, and a call for contributors](https://blog.ipfs.io/2020-03-18-announcing-rust-ipfs/).
 * [The RustConf 2020 CFP is now open](https://cfp.rustconf.com/events/rustconf-2020). We'd love to hear from you at RustConf!
+* [This Week in Rust is looking for a new maintainer](https://blog.rust-lang.org/inside-rust/2020/03/13/twir-new-lead.html).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -77,7 +95,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2843: Add llvm_asm! and deprecate asm!](https://github.com/rust-lang/rfcs/pull/2843).
 
 ## Final Comment Period
 
@@ -91,36 +109,31 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Tracking issue for `{f32,f64}::approx_unchecked_to` methods](https://github.com/rust-lang/rust/issues/67058).
 * [disposition: merge] [Allow obtaining &mut OsStr](https://github.com/rust-lang/rust/pull/70048).
-* [disposition: merge] [`is_x86_feature_detected!("avx512f")` fails to build on beta and nightly](https://github.com/rust-lang/rust/issues/68905).
 * [disposition: merge] [impl From<[T; N]> for Vec<T>](https://github.com/rust-lang/rust/pull/68692).
-* [disposition: merge] [Amend Rc/Arc::from_raw() docs regarding unsafety](https://github.com/rust-lang/rust/pull/68099).
+* [disposition: merge] [Implement Hash for Infallible](https://github.com/rust-lang/rust/pull/70281).
 
 ## New RFCs
 
-* [Placement by return](https://github.com/rust-lang/rfcs/pull/2884).
+* [Access to traits' associated functions and constants from trait objects](https://github.com/rust-lang/rfcs/pull/2886).
+* [Allow specifying dependencies for individual artifacts](https://github.com/rust-lang/rfcs/pull/2887).
+* [`ForbiddenValue` trait to enable more optimizations](https://github.com/rust-lang/rfcs/pull/2888).
 
 # Upcoming Events
 
 ### Online
 
-* [Mar 20. Berlin, DE - Oxidize 1K: A Remote Conference](https://oxidizeconf.com/oxidize-1k/).
-* [Mar 25. Portland, OR, US - PDXRust - Lightning Talks - Remote Event](https://www.meetup.com/PDXRust/events/269447550/).
-* [Mar 23. Durham, NC, US - Triangle Rustaceans - Online gathering](https://www.meetup.com/triangle-rustaceans/events/mfglwpybcfbfc/).
-
-### Europe
-
-* [Mar 26. Edinburgh, GB - Rust Edinburgh - Rust Meetup Short Talk Night](https://www.meetup.com/rust-edi/events/267810816).
-* [Apr  2. Stockholm, SE - Stockholm Rust Meetup](https://www.goto10.se/evenemang/stockholm-rust-meetup/).
-* [Apr  2. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gztznrybcgbdb/).
+* [Mar 28. Stockholm, SE - Stockholm Rust - Rust Discord Hangout - Social Social Distancing](https://www.meetup.com/Stockholm-Rust/events/269572409/).
+* [Apr  1. Johannesburg, ZA - Johannesburg Rust Meetup - Remote coffee and chat about Rust](https://www.meetup.com/Johannesburg-Rust-Meetup/events/269648606/).
+* [Apr  6. Auckland, NZ - Rust AKL - Using C Libraries in Rust](https://www.meetup.com/rust-akl/events/266876539/).
+* [Apr  9. San Diego, CA, US - San Diego Rust - April 2020 Meetup](https://www.meetup.com/San-Diego-Rust/events/269639205/).
 
 ### North America
 
-* [Mar 25. Houston, TX, US - Houston Linux Users Group - Rust Study Group](https://www.facebook.com/events/469382520642102).
-* [Mar 25. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscrybcfbhc/).
 * [Mar 31. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmybcfbpc/).
 * [Apr  1. Indianapolis, IN, US - Indy.rs - WebAssembly 101](https://www.meetup.com/indyrs/events/dtqwprybcgbcb/).
-* [Apr  8. Atlanta, GA, US - Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybcgblb/).
+* [Apr  9. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybcgbmb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
