@@ -127,6 +127,7 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Infrastructure Engineer at Aleph Alpha, Heidelberg, Germany](https://aleph-alpha.de/sw_engineer.html?language=de).
+* [Backend Engineer at Kraken Bitcoin Exchange, remote or in Oregon](https://www.glassdoor.com/job-listing/backend-engineer-rust-kraken-bitcoin-exchange-JV_KO0,21_KE22,45.htm?jl=2913415229&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
