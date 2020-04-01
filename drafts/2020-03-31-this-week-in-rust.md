@@ -18,9 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crates is [flume](https://github.com/zesterer/flume), a fast multi-producer single-consumer channel.
+This week's crates is [async-recursion](https://github.com/dcchut/async-recursion), a macro to allow recursion in async functions.
 
-Thanks to [Vikrant](https://users.rust-lang.org/t/crate-of-the-week/2704/741) for the suggestion!
+Thanks to [Zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/744) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -43,34 +43,33 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-380 pull requests were [merged in the last week][merged]
+468 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-03-16..2020-03-23
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-03-23..2020-03-30
 
-* [use generator resume arguments in the async/await lowering](https://github.com/rust-lang/rust/pull/69033) (async on core!)
-* [async: smaller and more correct generator codegen](https://github.com/rust-lang/rust/pull/69814)
-* [implement a feature for a sound specialization subset](https://github.com/rust-lang/rust/pull/68970)
-* [`#[track_caller]` in traits](https://github.com/rust-lang/rust/pull/69251)
-* [add `#[rustc_layout(debug)]`](https://github.com/rust-lang/rust/pull/69901)
-* [parser: recover on `for<'a> |...| body` closures](https://github.com/rust-lang/rust/pull/70209)
-* [resolve: print import chains on privacy errors](https://github.com/rust-lang/rust/pull/69811)
-* [resolve: do not resolve visibilities on proc macro definitions twice](https://github.com/rust-lang/rust/pull/70233)
-* [ast: compress `AttrId` from `usize` to `u32`](https://github.com/rust-lang/rust/pull/70215)
-* [fix type of const params in associated types](https://github.com/rust-lang/rust/pull/70223)
-* [revised span-to-lines conversion to produce an empty vec on `DUMMY_SP`](https://github.com/rust-lang/rust/pull/70199)
-* [rustc: use `LocalDefId` instead of `DefId` in `TypeckTables`](https://github.com/rust-lang/rust/pull/70119)
-* [update the mir inline costs](https://github.com/rust-lang/rust/pull/69934)
-* [handle `ConstKind::Unresolved` after monomorphizing](https://github.com/rust-lang/rust/pull/70249)
-* [perf(dep_graph): avoid allocating a set on when the number reads are small](https://github.com/rust-lang/rust/pull/69778)
-* [don't unwind when hitting the macro expansion recursion limit](https://github.com/rust-lang/rust/pull/69497)
-* [miri: detect UB: overflow in `copy`/`write_bytes`](https://github.com/rust-lang/miri/pull/1248)
-* [allow calculating the layout behind a pointer](https://github.com/rust-lang/rust/pull/69079)
-* [make `std::sync::Arc` compatible with ThreadSanitizer](https://github.com/rust-lang/rust/pull/65097)
-* [proc_macro_harness: use item header spans for errors](https://github.com/rust-lang/rust/pull/70266)
-* [implement `zeroed` and `uninitialized` with `MaybeUninit`](https://github.com/rust-lang/rust/pull/69922)
-* [return `NonZeroU64` from `ThreadId::as_u64`](https://github.com/rust-lang/rust/pull/70240)
-* [`BTreeMap`: remove shared root](https://github.com/rust-lang/rust/pull/70111)
-* [hashbrown: use `NonNull` for the Bucket pointer](https://github.com/rust-lang/hashbrown/pull/148)
+* [permit negative impls for non-auto traits](https://github.com/rust-lang/rust/pull/68004)
+* [parser: recover on `...` as a pattern, suggesting `..`](https://github.com/rust-lang/rust/pull/70417)
+* [clean up debugging options](https://github.com/rust-lang/rust/pull/70297)
+* [evaluate repeat expression lengths as late as possible](https://github.com/rust-lang/rust/pull/69981)
+* [fix cycle error when emitting suggestion for mismatched `fn` type](https://github.com/rust-lang/rust/pull/69936)
+* [fix smaller issues with invalid placeholder type errors](https://github.com/rust-lang/rust/pull/70369)
+* [fix incorrect pattern warning "unreachable pattern"](https://github.com/rust-lang/rust/pull/70413)
+* [account for bad placeholder types in where clauses](https://github.com/rust-lang/rust/pull/70294)
+* [tweak chained operators diagnostic](https://github.com/rust-lang/rust/pull/69878)
+* [remove const eval loop detector](https://github.com/rust-lang/rust/pull/70087)
+* [correctly normalize constants](https://github.com/rust-lang/rust/pull/70319)
+* [perf: avoid allocating a set on dep graph when the number reads are small](https://github.com/rust-lang/rust/pull/69778)
+* [refactor object file handling](https://github.com/rust-lang/rust/pull/70384)
+* [`#[track_caller]` on `core::ops::`{`Index`, `IndexMut`}](https://github.com/rust-lang/rust/pull/70234)
+* [add `Result<Result<T, E>, E>::flatten -> Result<T, E>`](https://github.com/rust-lang/rust/pull/70140)
+* [add copy bound to atomic & numeric intrinsics](https://github.com/rust-lang/rust/pull/70101)
+* [ASCII methods on `OsStr`](https://github.com/rust-lang/rust/pull/69937)
+* [add `Wake` trait for safe construction of `Waker`s](https://github.com/rust-lang/rust/pull/68700)
+* [`impl From<[T; N]> for Vec<T>`](https://github.com/rust-lang/rust/pull/68692)
+* [`fold_self` and `try_fold_self` for Iterators](https://github.com/rust-lang/rust/pull/65222)
+* [fix `TryEnterCriticalSection` return type](https://github.com/rust-lang/rust/pull/70510)
+* [regex: add fast path for `c_char`](https://github.com/rust-lang/regex/pull/658)
+* [regex: improve allocation of `escape_into`](https://github.com/rust-lang/regex/pull/655)
 
 ## Approved RFCs
 
@@ -132,13 +131,12 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Rust is funny because in one sense it's hard and clunky. However, it's only ever *precisely as hard and clunky as it needs to be*. Everywhere something can be made more concise, or readable, or convenient, without sacrificing any control, it has been. Anytime something is hard or inconvenient, it's because the underlying domain really is exactly that hard or inconvenient.
->
-> Contrast this with other languages, which are often clunky when they don't need to be and/or "easy" when they shouldn't be.
+> Meta-Comment: I started this topic as someone completely uninvolved in the rust project. It's very reassuring seeing the nature of the response. Even knowing how fantastic the Rust community is, I was still prepared to be met with at least a small element of condescension given the nature of this issue. I haven't felt any sense of it. It's amazing. Anyone that has impact on the community culture deserves credit: This sort of experience doesn't come from nowhere. It comes from a long history of many people nudging things in the right direction.
+> Thank you.
 
-– [brundolf on Hacker News](https://news.ycombinator.com/item?id=22609082)
+– [Ben on Zulip](https://rust-lang.zulipchat.com/#narrow/stream/122653-zulip/topic/new-user.20friction.20from.20stream.20naming.20conventions/near/191422121)
 
-Thanks to [pitdicker](https://users.rust-lang.org/t/twir-quote-of-the-week/328/837) for the suggestions!
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/842) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
