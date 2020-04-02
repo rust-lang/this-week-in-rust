@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Rust in Blockchain #10 - Keep Calm and Hack More](https://rustinblockchain.org/newsletters/2020-04-01-keep-calm-and-hack-more/)
+
 # Crate of the Week
 
 This week's crates is [flume](https://github.com/zesterer/flume), a fast multi-producer single-consumer channel.
