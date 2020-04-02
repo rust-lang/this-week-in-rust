@@ -16,7 +16,22 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-[Rust in Blockchain #10 - Keep Calm and Hack More](https://rustinblockchain.org/newsletters/2020-04-01-keep-calm-and-hack-more/)
+* [Writing an OS in Rust: async/await](https://os.phil-opp.com/async-await/).
+* [rustc-dev-guide overview](https://blog.rust-lang.org/inside-rust/2020/03/26/rustc-dev-guide-overview.html).
+* [Tokio: Reducing tail latencies with automatic cooperative task yielding](https://tokio.rs/blog/2020-04-preemption/).
+* [Introducing R2, a Router in Rust](https://r2.rs/blog/).
+* [Goodbye, docs team](https://blog.rust-lang.org/inside-rust/2020/03/27/goodbye-docs-team.html).
+* [Traits working group 2020 sprint 1 summary](https://blog.rust-lang.org/inside-rust/2020/03/28/traits-sprint-1.html).
+* [Specs and Legion, two very different approaches to ECS](https://csherratt.github.io/blog/posts/specs-and-legion/).
+* [Reducing memory consumption in librsvg, part 4: compact representation for Bézier paths](https://people.gnome.org/~federico/blog/reducing-memory-consumption-in-librsvg-4.html).
+* [State machines in Rust](https://blog.yoshuawuyts.com/state-machines/).
+* [Macros vs rename](https://rust-analyzer.github.io/blog/2020/03/30/macros-vs-rename.html).
+* [More advanced aspects of pattern matching in Rust](https://notes.iveselov.info/programming/refs-and-pattern-matching-in-rust).
+* [What constitutes a vulnerability](https://boats.gitlab.io/blog/post/vulnerabilities/)?
+* [On generics and associated types](https://thomashartmann.dev/blog/on-generics-and-associated-types/).
+* [rust-analyzer changelog 18](https://rust-analyzer.github.io/thisweek/2020/03/30/changelog-18.html).
+* [IntelliJ Rust changelog 119](https://intellij-rust.github.io/2020/03/30/changelog-119.html).
+* [Rust in blockchain 10](https://rustinblockchain.org/newsletters/2020-04-01-keep-calm-and-hack-more/)
 
 # Crate of the Week
 
@@ -35,9 +50,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Announcing Rust IPFS, and a call for contributors](https://blog.ipfs.io/2020-03-18-announcing-rust-ipfs/).
+* [rust: Implement conversion traits for usize/isize together with a portability lint](https://github.com/rust-lang/rust/issues/70460).
+* [This Week in Rust is looking for a new maintainer](https://blog.rust-lang.org/inside-rust/2020/03/13/twir-new-lead.html). (If you're interested, please [fill this form](https://docs.google.com/forms/d/e/1FAIpQLScJUYdkpLwQc_4zn3oxpVLdT3IHtKlYEBAzd6lgSgE3vsTOtA/viewform)).
 * [The RustConf 2020 CFP is now open](https://cfp.rustconf.com/events/rustconf-2020). We'd love to hear from you at RustConf!
-* [This Week in Rust is looking for a new maintainer](https://blog.rust-lang.org/inside-rust/2020/03/13/twir-new-lead.html).
+* [dotenv-linter is looking for contributors](https://twitter.com/mgrachev/status/1241700876244434951).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -78,7 +94,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2843: Add llvm_asm! and deprecate asm!](https://github.com/rust-lang/rfcs/pull/2843).
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -92,31 +108,26 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Tracking issue for `{f32,f64}::approx_unchecked_to` methods](https://github.com/rust-lang/rust/issues/67058).
-* [disposition: merge] [Allow obtaining &mut OsStr](https://github.com/rust-lang/rust/pull/70048).
-* [disposition: merge] [impl From<[T; N]> for Vec<T>](https://github.com/rust-lang/rust/pull/68692).
-* [disposition: merge] [Implement Hash for Infallible](https://github.com/rust-lang/rust/pull/70281).
+* [disposition: merge] [Tracking issue for `{f32,f64}::to_int_unchecked` methods](https://github.com/rust-lang/rust/issues/67058).
 
 ## New RFCs
 
-* [Access to traits' associated functions and constants from trait objects](https://github.com/rust-lang/rfcs/pull/2886).
-* [Allow specifying dependencies for individual artifacts](https://github.com/rust-lang/rfcs/pull/2887).
-* [`ForbiddenValue` trait to enable more optimizations](https://github.com/rust-lang/rfcs/pull/2888).
+* [Add a `trustme` keyword to define unsafe code blocks](https://github.com/rust-lang/rfcs/pull/2893).
+* [documentation-in-code-block-in-documentation](https://github.com/rust-lang/rfcs/pull/2894).
+* [YieldSafe auto trait](https://github.com/rust-lang/rfcs/pull/2890).
 
 # Upcoming Events
 
 ### Online
 
-* [Mar 28. Stockholm, SE - Stockholm Rust - Rust Discord Hangout - Social Social Distancing](https://www.meetup.com/Stockholm-Rust/events/269572409/).
-* [Apr  1. Johannesburg, ZA - Johannesburg Rust Meetup - Remote coffee and chat about Rust](https://www.meetup.com/Johannesburg-Rust-Meetup/events/269648606/).
 * [Apr  6. Auckland, NZ - Rust AKL - Using C Libraries in Rust](https://www.meetup.com/rust-akl/events/266876539/).
 * [Apr  9. San Diego, CA, US - San Diego Rust - April 2020 Meetup](https://www.meetup.com/San-Diego-Rust/events/269639205/).
+* [Apr  8. Zurich, CH - Rust Zurich - PyO3 and Rust - an experimental online meetup](https://www.meetup.com/Rust-Zurich/events/269771239/).
 
 ### North America
 
-* [Mar 31. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmybcfbpc/).
-* [Apr  1. Indianapolis, IN, US - Indy.rs - WebAssembly 101](https://www.meetup.com/indyrs/events/dtqwprybcgbcb/).
 * [Apr  9. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybcgbmb/).
+* [Apr 15. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybcgbtb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -128,7 +139,7 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Infrastructure Engineer at Aleph Alpha, Heidelberg, Germany](https://aleph-alpha.de/sw_engineer.html?language=de).
-* [Backend Engineer at Kraken Bitcoin Exchange, remote or in Oregon](https://www.glassdoor.com/job-listing/backend-engineer-rust-kraken-bitcoin-exchange-JV_KO0,21_KE22,45.htm?jl=2913415229&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic).
+* [Backend Engineer at Kraken Bitcoin Exchange, remote or in Oregon](https://www.glassdoor.com/job-listing/backend-engineer-rust-kraken-bitcoin-exchange-JV_KO0,21_KE22,45.htm?jl=2913415229).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
