@@ -19,7 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Writing an OS in Rust: async/await](https://os.phil-opp.com/async-await/).
 * [rustc-dev-guide overview](https://blog.rust-lang.org/inside-rust/2020/03/26/rustc-dev-guide-overview.html).
 * [Tokio: Reducing tail latencies with automatic cooperative task yielding](https://tokio.rs/blog/2020-04-preemption/).
-* [Introducing R2, a Router in Rust](https://r2.rs/blog/).
+* [Introducing R2, a router in Rust](https://r2.rs/blog/).
 * [Goodbye, docs team](https://blog.rust-lang.org/inside-rust/2020/03/27/goodbye-docs-team.html).
 * [Traits working group 2020 sprint 1 summary](https://blog.rust-lang.org/inside-rust/2020/03/28/traits-sprint-1.html).
 * [Specs and Legion, two very different approaches to ECS](https://csherratt.github.io/blog/posts/specs-and-legion/).
@@ -31,7 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [On generics and associated types](https://thomashartmann.dev/blog/on-generics-and-associated-types/).
 * [rust-analyzer changelog 18](https://rust-analyzer.github.io/thisweek/2020/03/30/changelog-18.html).
 * [IntelliJ Rust changelog 119](https://intellij-rust.github.io/2020/03/30/changelog-119.html).
-* [Rust in blockchain 10](https://rustinblockchain.org/newsletters/2020-04-01-keep-calm-and-hack-more/)
+* [Rust in blockchain 10](https://rustinblockchain.org/newsletters/2020-04-01-keep-calm-and-hack-more/).
 
 # Crate of the Week
 
