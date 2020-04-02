@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+[Rust in Blockchain #10 - Keep Calm and Hack More](https://rustinblockchain.org/newsletters/2020-04-01-keep-calm-and-hack-more/)
+
 # Crate of the Week
 
 This week's crates is [async-recursion](https://github.com/dcchut/async-recursion), a macro to allow recursion in async functions.
