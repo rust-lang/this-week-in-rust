@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Paris, simple, customisable logger for your shell programs](https://github.com/0x20F/logger)
 
 # Crate of the Week
 
