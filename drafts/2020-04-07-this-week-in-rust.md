@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Programming Servo: Workers at your Service](https://medium.com/programming-servo/programming-servo-workers-at-your-service-db71e5943511).
+
 # Crate of the Week
 
 This week's crates is [async-recursion](https://github.com/dcchut/async-recursion), a macro to allow recursion in async functions.
