@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [explaine.rs, a Rust syntax playground](https://reddit.com/r/rust/comments/ftme7o/explainers_rust_syntax_playground/)
 
 # Crate of the Week
 
