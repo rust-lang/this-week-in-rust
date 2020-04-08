@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [The embedded WG's Raspberry Pi OS dev tutorials: Tutorial 14 - Exceptions Part 2: Peripheral IRQs](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/14_exceptions_part2_peripheral_IRQs)
+
 # Crate of the Week
 
 This week's crates is [explaine.rs](https://github.com/jrvidal/explaine.rs), an interactive Rust syntax playground.
