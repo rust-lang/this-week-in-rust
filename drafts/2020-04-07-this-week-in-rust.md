@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+- [A Quick Rundown of Async/Await in Rust](https://blog.knoldus.com/a-quick-rundown-of-async-await-in-rust/)
 
 # Crate of the Week
 
