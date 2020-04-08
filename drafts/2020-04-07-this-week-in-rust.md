@@ -17,12 +17,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Programming Servo: Workers at your Service](https://medium.com/programming-servo/programming-servo-workers-at-your-service-db71e5943511).
+- [The embedded WG's Raspberry Pi OS dev tutorials: Tutorial 14 - Exceptions Part 2: Peripheral IRQs](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/14_exceptions_part2_peripheral_IRQs)
 
 # Crate of the Week
 
-This week's crates is [async-recursion](https://github.com/dcchut/async-recursion), a macro to allow recursion in async functions.
+This week's crates is [explaine.rs](https://github.com/jrvidal/explaine.rs), an interactive Rust syntax playground.
 
-Thanks to [Zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/744) for the suggestion!
+Thanks to [Vlad Frolov](https://users.rust-lang.org/t/crate-of-the-week/2704/747) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -46,33 +47,48 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-468 pull requests were [merged in the last week][merged]
+443 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-03-23..2020-03-30
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-03-30..2020-04-06
 
-* [permit negative impls for non-auto traits](https://github.com/rust-lang/rust/pull/68004)
-* [parser: recover on `...` as a pattern, suggesting `..`](https://github.com/rust-lang/rust/pull/70417)
-* [clean up debugging options](https://github.com/rust-lang/rust/pull/70297)
-* [evaluate repeat expression lengths as late as possible](https://github.com/rust-lang/rust/pull/69981)
-* [fix cycle error when emitting suggestion for mismatched `fn` type](https://github.com/rust-lang/rust/pull/69936)
-* [fix smaller issues with invalid placeholder type errors](https://github.com/rust-lang/rust/pull/70369)
-* [fix incorrect pattern warning "unreachable pattern"](https://github.com/rust-lang/rust/pull/70413)
-* [account for bad placeholder types in where clauses](https://github.com/rust-lang/rust/pull/70294)
-* [tweak chained operators diagnostic](https://github.com/rust-lang/rust/pull/69878)
-* [remove const eval loop detector](https://github.com/rust-lang/rust/pull/70087)
-* [correctly normalize constants](https://github.com/rust-lang/rust/pull/70319)
-* [perf: avoid allocating a set on dep graph when the number reads are small](https://github.com/rust-lang/rust/pull/69778)
-* [refactor object file handling](https://github.com/rust-lang/rust/pull/70384)
-* [`#[track_caller]` on `core::ops::`{`Index`, `IndexMut`}](https://github.com/rust-lang/rust/pull/70234)
-* [add `Result<Result<T, E>, E>::flatten -> Result<T, E>`](https://github.com/rust-lang/rust/pull/70140)
-* [add copy bound to atomic & numeric intrinsics](https://github.com/rust-lang/rust/pull/70101)
-* [ASCII methods on `OsStr`](https://github.com/rust-lang/rust/pull/69937)
-* [add `Wake` trait for safe construction of `Waker`s](https://github.com/rust-lang/rust/pull/68700)
-* [`impl From<[T; N]> for Vec<T>`](https://github.com/rust-lang/rust/pull/68692)
-* [`fold_self` and `try_fold_self` for Iterators](https://github.com/rust-lang/rust/pull/65222)
-* [fix `TryEnterCriticalSection` return type](https://github.com/rust-lang/rust/pull/70510)
-* [regex: add fast path for `c_char`](https://github.com/rust-lang/regex/pull/658)
-* [regex: improve allocation of `escape_into`](https://github.com/rust-lang/regex/pull/655)
+* [handle unterminated raw strings with no `#`s properly](https://github.com/rust-lang/rust/pull/70681)
+* [parse: recover on `const fn()` / `async fn()`](https://github.com/rust-lang/rust/pull/70421)
+* [improve error messages for raw strings](https://github.com/rust-lang/rust/pull/70522)
+* [remove unused discriminant reads from MIR bodies](https://github.com/rust-lang/rust/pull/70595)
+* [track the finalizing node in the specialization graph](https://github.com/rust-lang/rust/pull/70535)
+* [use smaller span for suggestion restricting lifetime](https://github.com/rust-lang/rust/pull/70827)
+* [fix performance regression in debuginfo `file_metadata`](https://github.com/rust-lang/rust/pull/70803)
+* [enable layout debugging for `impl Trait` type aliases](https://github.com/rust-lang/rust/pull/70815)
+* [polonius: update facts to remove the rest (🤞) of the move errors false positives](https://github.com/rust-lang/polonius/pull/147)
+* [chalk: use fallback debug impls instead of `unimplemented`](https://github.com/rust-lang/chalk/pull/366)
+* [chalk: goal builder](https://github.com/rust-lang/chalk/pull/361)
+* [chalk: intern `Vec<ProgramClause<I>>`](https://github.com/rust-lang/chalk/pull/370)
+* [typeck/type_of: let wfcheck handle generics in opaque types' substs](https://github.com/rust-lang/rust/pull/70272)
+* [miri: make backtrace function names and spans match up](https://github.com/rust-lang/rust/pull/70590)
+* [miri terminator handling: only do progress sanity check for 'Call' terminator](https://github.com/rust-lang/rust/pull/70771)
+* [fix double-free and undefined behaviour in `libstd::syn::unix::Thread::new`](https://github.com/rust-lang/rust/pull/70597)
+* [std: fix over-aligned allocations on wasm32-wasi](https://github.com/rust-lang/rust/pull/70585)
+* [add `-Z dump-mir-dataflow` flag for dumping dataflow results visualization](https://github.com/rust-lang/rust/pull/70511)
+* [stabilize `float::to_int_unchecked`](https://github.com/rust-lang/rust/pull/70487)
+* [avoid creating unnecessary reference in Windows `Env` iterator](https://github.com/rust-lang/rust/pull/70479)
+* [implement `Hash` for `Infallible`](https://github.com/rust-lang/rust/pull/70281)
+* [optimize `strip_prefix` and `strip_suffix` with `str` patterns](https://github.com/rust-lang/rust/pull/69784)
+* [add shims for `RwLock::`{`try_read`, `try_write`}](https://github.com/rust-lang/miri/pull/1157)
+* [query-ify `Instance::resolve`](https://github.com/rust-lang/rust/pull/67797)
+* [stdarch: support `crc32` even if on arm32](https://github.com/rust-lang/stdarch/pull/834)
+* [add `slice::fill`](https://github.com/rust-lang/rust/pull/70752)
+* [expand `vec![]` to `Vec::new()`](https://github.com/rust-lang/rust/pull/70632)
+* [detailed panic messages for `Vec` functions](https://github.com/rust-lang/rust/pull/70573)
+* [fix some aliasing issues in `Vec`](https://github.com/rust-lang/rust/pull/70558)
+* [add `fn make_contiguous` to `VecDeque`](https://github.com/rust-lang/rust/pull/69425)
+* [`BTreeMap`/`BTreeSet`: implement `drain_filter`](https://github.com/rust-lang/rust/pull/68770)
+* [keep track of position when deleting from a `BTreeMap`](https://github.com/rust-lang/rust/pull/70795)
+* [use `ManuallyDrop` instead of `forget` inside collections](https://github.com/rust-lang/rust/pull/70766)
+* [match options directly in the `Fuse` implementation](https://github.com/rust-lang/rust/pull/70750)
+* [place TLS initializers with relocations in .tdata](https://github.com/rust-lang/rust/pull/70720)
+* [futures: reduce box allocation in bilock](https://github.com/rust-lang/futures-rs/pull/2104)
+* [futures: impl `Extend` for `SelectAll`](https://github.com/rust-lang/futures-rs/pull/2107)
+* [hashbrown: micro optimize `repeat` function](https://github.com/rust-lang/hashbrown/pull/150)
 
 ## Approved RFCs
 
@@ -130,12 +146,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Meta-Comment: I started this topic as someone completely uninvolved in the rust project. It's very reassuring seeing the nature of the response. Even knowing how fantastic the Rust community is, I was still prepared to be met with at least a small element of condescension given the nature of this issue. I haven't felt any sense of it. It's amazing. Anyone that has impact on the community culture deserves credit: This sort of experience doesn't come from nowhere. It comes from a long history of many people nudging things in the right direction.
-> Thank you.
+> In many cases, it is possible to completely rearchitect the underlying code while leaving the public API as-is, and without introducing new bugs. I've literally never had such a liberating experience with refactoring until Rust.
+>
+> In other words, I have never been so productive in any other language. Dynamic languages like JavaScript and Python are the least productive *by far*. Code runs, tests pass, put it into production and... uncaught exception! Time to rollback and redo that whole dance **AGAIN**. With Rust, we take care of all of that crap while actually writing the code the first time. No more surprise 3am wake up calls. *That* is productivity.
 
-– [Ben on Zulip](https://rust-lang.zulipchat.com/#narrow/stream/122653-zulip/topic/new-user.20friction.20from.20stream.20naming.20conventions/near/191422121)
+– [Jay Oster on rust-users](https://users.rust-lang.org/t/rust-language-efficacy-and-productivity/39352/10)
 
-Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/842) for the suggestions!
+Thanks to [Louis Cloete](https://users.rust-lang.org/t/twir-quote-of-the-week/328/846) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
