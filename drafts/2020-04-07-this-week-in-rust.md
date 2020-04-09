@@ -15,10 +15,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-* [explaine.rs, a Rust syntax playground](https://reddit.com/r/rust/comments/ftme7o/explainers_rust_syntax_playground/)
 
 * [Programming Servo: Workers at your Service](https://medium.com/programming-servo/programming-servo-workers-at-your-service-db71e5943511).
-- [The embedded WG's Raspberry Pi OS dev tutorials: Tutorial 14 - Exceptions Part 2: Peripheral IRQs](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/14_exceptions_part2_peripheral_IRQs)
+* [The embedded WG's Raspberry Pi OS dev tutorials: Tutorial 14 - Exceptions Part 2: Peripheral IRQs](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/14_exceptions_part2_peripheral_IRQs)
 
 # Crate of the Week
 
