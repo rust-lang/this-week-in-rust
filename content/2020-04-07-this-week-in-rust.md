@@ -22,9 +22,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Most commonly ignored lints](https://github.com/rust-lang/rust-clippy/issues/5418).
 * [A brief apology of Ok-Wrapping](https://boats.gitlab.io/blog/post/why-ok-wrapping/).
 * [From failure to Fehler](https://boats.gitlab.io/blog/post/failure-to-fehler/).
+* [The embedded WG's Raspberry Pi OS dev tutorials: Tutorial 14 - exceptions part 2: peripheral IRQs](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/14_exceptions_part2_peripheral_IRQs).
 * [Contributing to Rust: Nine patches](https://blog.yoshuawuyts.com/nine-patches/).
 * [Inside Rust: Update on the GitHub Actions evaluation](https://blog.rust-lang.org/inside-rust/2020/04/07/update-on-the-github-actions-evaluation.html).
-* [The embedded WG's Raspberry Pi OS dev tutorials: Tutorial 14 - exceptions part 2: peripheral IRQs](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/14_exceptions_part2_peripheral_IRQs)
 * [Programming Servo: Workers at your service](https://medium.com/programming-servo/programming-servo-workers-at-your-service-db71e5943511).
 * [Iced, a cross-platform GUI library: New release featuring custom styling, event subscriptions, additional widgets, new examples, and more](https://github.com/hecrj/iced/pull/253).
 * [rust-analyzer changelog 19](https://rust-analyzer.github.io/thisweek/2020/04/06/changelog-19.html).
