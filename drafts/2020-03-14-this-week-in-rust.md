@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Programming Servo: My own private runtime](https://medium.com/programming-servo/programming-servo-my-own-private-runtime-8a5ba74c63c8).
+
 # Crate of the Week
 
 This week's crate is [explaine.rs](https://github.com/jrvidal/explaine.rs), an interactive Rust syntax playground.
