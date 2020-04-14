@@ -34,7 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [rust-analyzer changelog 20](https://rust-analyzer.github.io/thisweek/2020/04/13/changelog-20.html).
 * [IntelliJ Rust changelog 120](https://intellij-rust.github.io/2020/04/13/changelog-120.html).
 * [New sysinfo release: processes disk usage](https://blog.guillaume-gomez.fr/articles/2020-04-09+New+sysinfo+release%3A+processes+disk+usage).
-* [April Lang team design meetings](https://blog.rust-lang.org/inside-rust/2020/04/10/lang-team-design-meetings.html).
+* [April lang team design meetings](https://blog.rust-lang.org/inside-rust/2020/04/10/lang-team-design-meetings.html).
 
 # Crate of the Week
 
