@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [LLHD: Rust is used to drive research in Hardware Design Languages](https://arxiv.org/pdf/2004.03494) (scientific paper)
 * [Programming Servo: My own private runtime](https://medium.com/programming-servo/programming-servo-my-own-private-runtime-8a5ba74c63c8).
 * [How often does rust change](https://words.steveklabnik.com/how-often-does-rust-change).
 * [Swift: Google's bet on differentiable programming](https://tryolabs.com/blog/2020/04/02/swift-googles-bet-on-differentiable-programming/).
