@@ -16,15 +16,25 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-- [LLHD: Rust is used to drive research in Hardware Design Languages](https://arxiv.org/pdf/2004.03494) (scientific paper)
-* [Programming Servo: My own private runtime](https://medium.com/programming-servo/programming-servo-my-own-private-runtime-8a5ba74c63c8).
-* [How often does rust change](https://words.steveklabnik.com/how-often-does-rust-change).
-* [Swift: Google's bet on differentiable programming](https://tryolabs.com/blog/2020/04/02/swift-googles-bet-on-differentiable-programming/).
+* [How often does Rust change](https://words.steveklabnik.com/how-often-does-rust-change)?
 * [The differences between Ok-wrapping, try blocks, and function level try](https://yaah.dev/try-blocks).
+* [Mental models around Ok-wrapping](https://vorner.github.io/2020/04/09/wrapping-mental-models.html).
+* [The problem of effects in Rust](https://boats.gitlab.io/blog/post/the-problem-of-effects/).
 * [Library-ification and analyzing Rust](https://smallcultfollowing.com/babysteps/blog/2020/04/09/libraryification/).
-* [April Lang Team Design Meetings](https://blog.rust-lang.org/inside-rust/2020/04/10/lang-team-design-meetings.html)
+* [A possible new backend for Rust](https://jason-williams.co.uk/a-possible-new-backend-for-rust).
+* [Simple but powerful Pratt parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html).
+* [Ruma is dead, long live Ruma](https://www.ruma.io/news/ruma-is-dead-long-live-ruma-2020-04-10/).
+* [Programming Servo: My own private runtime](https://medium.com/programming-servo/programming-servo-my-own-private-runtime-8a5ba74c63c8).
+* [Hyper traps](https://vorner.github.io/2020/04/13/hyper-traps.html).
 * [Downloading all the crates on crates.io](https://www.pietroalbini.org/blog/downloading-crates-io/).
+* [Kubernetes: A Rusty Friendship](https://deislabs.io/posts/kubernetes-a-rusty-friendship/).
+* [Fallible Iterator Adapters](https://blog.yoshuawuyts.com/fallible-iterator-adapters/).
+* [Types over strings: Extensible architectures in Rust](http://willcrichton.net/notes/types-over-strings/).
+* [pdf] [LLHD: Rust is used to drive research in Hardware Design Languages](https://arxiv.org/pdf/2004.03494).
+* [rust-analyzer changelog 20](https://rust-analyzer.github.io/thisweek/2020/04/13/changelog-20.html).
+* [IntelliJ Rust changelog 120](https://intellij-rust.github.io/2020/04/13/changelog-120.html).
 * [New sysinfo release: processes disk usage](https://blog.guillaume-gomez.fr/articles/2020-04-09+New+sysinfo+release%3A+processes+disk+usage).
+* [April Lang team design meetings](https://blog.rust-lang.org/inside-rust/2020/04/10/lang-team-design-meetings.html).
 
 # Crate of the Week
 
@@ -43,7 +53,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-*No issues were proposed for CfP*.
+* [tree-buf: Floating point compression](https://github.com/That3Percent/tree-buf/issues/1). Tree-buf is an experimental serialization system written in Rust.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -96,30 +106,35 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Resolving `Ok`-wrapping for `try` blocks](https://github.com/rust-lang/rust/issues/70941).
+* [disposition: merge] [Stabilize `Span::mixed_site`](https://github.com/rust-lang/rust/pull/68716).
+* [disposition: merge] [Stabilize most common subset of alloc_layout_extras](https://github.com/rust-lang/rust/pull/69362).
 * [disposition: merge] [Tracking issue for PathBuf capacity methods](https://github.com/rust-lang/rust/issues/58234).
-* [disposition: merge] [Remove -Z no-landing-pads flag](https://github.com/rust-lang/rust/pull/70175).
+* [disposition: merge] [Add Option to Force Unwind Tables](https://github.com/rust-lang/rust/pull/69984).
 * [disposition: merge] [Move LLVM bitcode destination](https://github.com/rust-lang/rust/pull/70458).
+* [disposition: merge] [A big options clean-up](https://github.com/rust-lang/rust/pull/70729).
+* [disposition: merge] [Stabilize UNICODE_VERSION (feature unicode_version)](https://github.com/rust-lang/rust/pull/71068).
 
 ## New RFCs
 
-* [result-missing-methods-for-err](https://github.com/rust-lang/rfcs/pull/2897).
+* [Deduplicate Cargo workspace information](https://github.com/rust-lang/rfcs/pull/2906).
+* [Major change proposal process for compiler team](https://github.com/rust-lang/rfcs/pull/2904).
 
 # Upcoming Events
 
 ### Online
 
-* [Apr 10. Samara, RU - Rust Users Team Samara - Online meetup](https://samara-it-community.timepad.ru/event/1293744/).
-* [Apr 14. Seattle, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/prbtdrybcgbsb/).
 * [Apr 23. Turin, IT - Rust Turin online meetup](http://www.toolboxoffice.it/eventi/rust-meetup-15/).
 
 ### Europe
 
-* [Apr 15. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gztznrybcgbvb/).
+* [Apr 30. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gztznrybcgbnc/).
 
 ### North America
 
-* [Apr 15. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybcgbtb/).
 * [Apr 22. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscrybcgbdc/).
+* [Apr 27. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybcgbkc/).
+* [Apr 28. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmybcgblc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -130,6 +145,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Backend Engineer, Data Processing – Rust (Remote) at Kraken](https://jobs.lever.co/kraken/246f7fd2-000a-4f61-8f53-b1cc783d51cb).
 * [Rust Developer (US & Canada) at 1Password](https://1password.com/jobs/rust-developer/).
 * [Infrastructure Engineer at Aleph Alpha, Heidelberg, Germany](https://aleph-alpha.de/sw_engineer.html?language=de).
 
