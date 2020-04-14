@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [LLHD: Rust is used to drive research in Hardware Design Languages](https://arxiv.org/pdf/2004.03494) (scientific paper)
+
 # Crate of the Week
 
 This week's crate is [explaine.rs](https://github.com/jrvidal/explaine.rs), an interactive Rust syntax playground.
