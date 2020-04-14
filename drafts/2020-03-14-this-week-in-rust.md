@@ -27,9 +27,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [explaine.rs](https://github.com/jrvidal/explaine.rs), an interactive Rust syntax playground.
+This week's crate is [sudo](https://crates.io/crates/sudo), a library to let your program run as root.
 
-Thanks to [Vlad Frolov](https://users.rust-lang.org/t/crate-of-the-week/2704/747) for the suggestion!
+Thanks to [Stefan Schindler](https://users.rust-lang.org/t/crate-of-the-week/2704/751) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -50,48 +50,31 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-443 pull requests were [merged in the last week][merged]
+367 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-03-30..2020-04-06
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-04-06..2020-04-13
 
-* [handle unterminated raw strings with no `#`s properly](https://github.com/rust-lang/rust/pull/70681)
-* [parse: recover on `const fn()` / `async fn()`](https://github.com/rust-lang/rust/pull/70421)
-* [improve error messages for raw strings](https://github.com/rust-lang/rust/pull/70522)
-* [remove unused discriminant reads from MIR bodies](https://github.com/rust-lang/rust/pull/70595)
-* [track the finalizing node in the specialization graph](https://github.com/rust-lang/rust/pull/70535)
-* [use smaller span for suggestion restricting lifetime](https://github.com/rust-lang/rust/pull/70827)
-* [fix performance regression in debuginfo `file_metadata`](https://github.com/rust-lang/rust/pull/70803)
-* [enable layout debugging for `impl Trait` type aliases](https://github.com/rust-lang/rust/pull/70815)
-* [polonius: update facts to remove the rest (🤞) of the move errors false positives](https://github.com/rust-lang/polonius/pull/147)
-* [chalk: use fallback debug impls instead of `unimplemented`](https://github.com/rust-lang/chalk/pull/366)
-* [chalk: goal builder](https://github.com/rust-lang/chalk/pull/361)
-* [chalk: intern `Vec<ProgramClause<I>>`](https://github.com/rust-lang/chalk/pull/370)
-* [typeck/type_of: let wfcheck handle generics in opaque types' substs](https://github.com/rust-lang/rust/pull/70272)
-* [miri: make backtrace function names and spans match up](https://github.com/rust-lang/rust/pull/70590)
-* [miri terminator handling: only do progress sanity check for 'Call' terminator](https://github.com/rust-lang/rust/pull/70771)
-* [fix double-free and undefined behaviour in `libstd::syn::unix::Thread::new`](https://github.com/rust-lang/rust/pull/70597)
-* [std: fix over-aligned allocations on wasm32-wasi](https://github.com/rust-lang/rust/pull/70585)
-* [add `-Z dump-mir-dataflow` flag for dumping dataflow results visualization](https://github.com/rust-lang/rust/pull/70511)
-* [stabilize `float::to_int_unchecked`](https://github.com/rust-lang/rust/pull/70487)
-* [avoid creating unnecessary reference in Windows `Env` iterator](https://github.com/rust-lang/rust/pull/70479)
-* [implement `Hash` for `Infallible`](https://github.com/rust-lang/rust/pull/70281)
-* [optimize `strip_prefix` and `strip_suffix` with `str` patterns](https://github.com/rust-lang/rust/pull/69784)
-* [add shims for `RwLock::`{`try_read`, `try_write`}](https://github.com/rust-lang/miri/pull/1157)
-* [query-ify `Instance::resolve`](https://github.com/rust-lang/rust/pull/67797)
-* [stdarch: support `crc32` even if on arm32](https://github.com/rust-lang/stdarch/pull/834)
-* [add `slice::fill`](https://github.com/rust-lang/rust/pull/70752)
-* [expand `vec![]` to `Vec::new()`](https://github.com/rust-lang/rust/pull/70632)
+* [support `#[track_caller]` on functions in `extern "Rust" { ... }`](https://github.com/rust-lang/rust/pull/70916)
+* [handle `impl Trait` where `Trait` has an assoc type with missing bounds](https://github.com/rust-lang/rust/pull/69707)
+* [normalize function signature in function casting check procedure](https://github.com/rust-lang/rust/pull/70982)
+* [do not lose or reorder user-provided linker arguments](https://github.com/rust-lang/rust/pull/70665)
+* [suggest move for closures and async blocks in more cases](https://github.com/rust-lang/rust/pull/70906)
+* [remove false positives of `unused_braces`](https://github.com/rust-lang/rust/pull/70789)
+* [use a `SmallVec` for `Cache::predecessors`](https://github.com/rust-lang/rust/pull/70876)
+* [speed up path searching with `find_library_crate`](https://github.com/rust-lang/rust/pull/70837)
+* [allocate some query results on an arena](https://github.com/rust-lang/rust/pull/70161)
+* [add `io::Write::write_all_vectored`](https://github.com/rust-lang/rust/pull/70612)
 * [detailed panic messages for `Vec` functions](https://github.com/rust-lang/rust/pull/70573)
-* [fix some aliasing issues in `Vec`](https://github.com/rust-lang/rust/pull/70558)
-* [add `fn make_contiguous` to `VecDeque`](https://github.com/rust-lang/rust/pull/69425)
-* [`BTreeMap`/`BTreeSet`: implement `drain_filter`](https://github.com/rust-lang/rust/pull/68770)
-* [keep track of position when deleting from a `BTreeMap`](https://github.com/rust-lang/rust/pull/70795)
-* [use `ManuallyDrop` instead of `forget` inside collections](https://github.com/rust-lang/rust/pull/70766)
+* [small tweaks in `ToOwned::clone_into`](https://github.com/rust-lang/rust/pull/70201)
+* [remove the `Ord` bound that was plaguing `drain_filter`](https://github.com/rust-lang/rust/pull/70843)
 * [match options directly in the `Fuse` implementation](https://github.com/rust-lang/rust/pull/70750)
-* [place TLS initializers with relocations in .tdata](https://github.com/rust-lang/rust/pull/70720)
-* [futures: reduce box allocation in bilock](https://github.com/rust-lang/futures-rs/pull/2104)
-* [futures: impl `Extend` for `SelectAll`](https://github.com/rust-lang/futures-rs/pull/2107)
-* [hashbrown: micro optimize `repeat` function](https://github.com/rust-lang/hashbrown/pull/150)
+* [implement `Chain` with `Option` fuses](https://github.com/rust-lang/rust/pull/70896)
+* [rearrange `BTreeMap::into_iter` to match `range_mut`](https://github.com/rust-lang/rust/pull/70981)
+* [`BTreeMap` first last proposal tweaks](https://github.com/rust-lang/rust/pull/70850)
+* [add `or_insert_with_key` to `Entry` of `HashMap`/`BTreeMap`](https://github.com/rust-lang/rust/pull/70996)
+* [hashbrown: add or_insert_with_key to Entry of HashMap](https://github.com/rust-lang/hashbrown/pull/152)
+* [arch: add more ARM SIMD intrinsics](https://github.com/rust-lang/stdarch/pull/792)
+* [cargo: add `cargo tree` command](https://github.com/rust-lang/cargo/pull/8062)
 
 ## Approved RFCs
 
@@ -153,13 +136,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> In many cases, it is possible to completely rearchitect the underlying code while leaving the public API as-is, and without introducing new bugs. I've literally never had such a liberating experience with refactoring until Rust.
->
-> In other words, I have never been so productive in any other language. Dynamic languages like JavaScript and Python are the least productive *by far*. Code runs, tests pass, put it into production and... uncaught exception! Time to rollback and redo that whole dance **AGAIN**. With Rust, we take care of all of that crap while actually writing the code the first time. No more surprise 3am wake up calls. *That* is productivity.
+> This viewpoint is very controversial, and I have no capacity to debate it with anyone who disagrees with me. But Rust has a very powerful macro system, so I don’t have to.
 
-– [Jay Oster on rust-users](https://users.rust-lang.org/t/rust-language-efficacy-and-productivity/39352/10)
+– [withoutboats blogging about failure/fehler](https://boats.gitlab.io/blog/post/failure-to-fehler)
 
-Thanks to [Louis Cloete](https://users.rust-lang.org/t/twir-quote-of-the-week/328/846) for the suggestions!
+Thanks to [lxrec](https://users.rust-lang.org/t/twir-quote-of-the-week/328/849) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
