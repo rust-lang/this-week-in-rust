@@ -15,7 +15,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
-
+* [How often does rust change](https://words.steveklabnik.com/how-often-does-rust-change).
+* [Swift: Google's bet on differentiable programming](https://tryolabs.com/blog/2020/04/02/swift-googles-bet-on-differentiable-programming/).
+* [The differences between Ok-wrapping, try blocks, and function level try](https://yaah.dev/try-blocks).
+* [Library-ification and analyzing Rust](https://smallcultfollowing.com/babysteps/blog/2020/04/09/libraryification/).
+* [April Lang Team Design Meetings](https://blog.rust-lang.org/inside-rust/2020/04/10/lang-team-design-meetings.html)
+* [Downloading all the crates on crates.io](https://www.pietroalbini.org/blog/downloading-crates-io/).
+* [New sysinfo release: processes disk usage](https://blog.guillaume-gomez.fr/articles/2020-04-09+New+sysinfo+release%3A+processes+disk+usage).
 # Crate of the Week
 
 This week's crate is [explaine.rs](https://github.com/jrvidal/explaine.rs), an interactive Rust syntax playground.
