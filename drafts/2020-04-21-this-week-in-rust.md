@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [A Possible New Backend for Rust](https://jason-williams.co.uk/a-possible-new-backend-for-rust).
+
 # Crate of the Week
 
 This week's crate is [sudo](https://crates.io/crates/sudo), a library to let your program run as root.
