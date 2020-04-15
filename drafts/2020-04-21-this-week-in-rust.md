@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+- [How I Reverse Engineered the LastPass CLI Tool](http://adventures.michaelfbryan.com/posts/lastpass/)
+
 # Crate of the Week
 
 This week's crate is [sudo](https://crates.io/crates/sudo), a library to let your program run as root.
