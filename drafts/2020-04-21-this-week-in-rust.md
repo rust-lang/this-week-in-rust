@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Open-sourcing dotenv-linter: lightning-fast tool to lint your .env files](https://evrone.com/dotenv-linter)?
+
 # Crate of the Week
 
 This week's crate is [sudo](https://crates.io/crates/sudo), a library to let your program run as root.
