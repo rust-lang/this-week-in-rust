@@ -134,6 +134,8 @@ Email the [Rust Community Team][community] for access.
 * [Backend Engineer, Data Processing – Rust (Remote) at Kraken](https://jobs.lever.co/kraken/246f7fd2-000a-4f61-8f53-b1cc783d51cb).
 * [Rust Developer (US & Canada) at 1Password](https://1password.com/jobs/rust-developer/).
 * [Infrastructure Engineer at Aleph Alpha, Heidelberg, Germany](https://aleph-alpha.de/sw_engineer.html?language=de).
+* [Rust Developer at Dusk](https://dusk.network/pages/Rust-developer-Vacancy)
+* [Part-time Rust Developer at Junto Foundation](https://twitter.com/juntofoundation/status/1251600911312576512)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
