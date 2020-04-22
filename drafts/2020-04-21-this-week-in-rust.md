@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [wgpu-rs on the web](https://gfx-rs.github.io/2020/04/21/wgpu-web.html)
+
 # Crate of the Week
 
 This week's crate is [regex2fat](https://github.com/8051Enthusiast/regex2fat), a program to convert a regular expression into a decidedly nonstandard FAT32 file system.
