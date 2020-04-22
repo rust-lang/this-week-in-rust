@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [wgpu-rs on the web](https://gfx-rs.github.io/2020/04/21/wgpu-web.html)
+
 # Crate of the Week
 
 This week's crate is [sudo](https://crates.io/crates/sudo), a library to let your program run as root.
