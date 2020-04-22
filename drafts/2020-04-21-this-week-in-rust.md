@@ -16,7 +16,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [How I Reverse Engineered the LastPass CLI Tool](http://adventures.michaelfbryan.com/posts/lastpass/)
 * [wgpu-rs on the web](https://gfx-rs.github.io/2020/04/21/wgpu-web.html)
+
 
 # Crate of the Week
 
