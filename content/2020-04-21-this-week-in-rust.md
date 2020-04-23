@@ -101,8 +101,8 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [Major change proposal process for compiler team](https://github.com/rust-lang/rfcs/pull/2904).
-* [Project Groups](https://github.com/rust-lang/rfcs/pull/2856).
+* [disposition: merge] [Major change proposal process for compiler team](https://github.com/rust-lang/rfcs/pull/2904).
+* [disposition: merge] [Project Groups](https://github.com/rust-lang/rfcs/pull/2856).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
