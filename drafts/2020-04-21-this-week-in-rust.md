@@ -16,9 +16,22 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Open-sourcing dotenv-linter: lightning-fast tool to lint your .env files](https://evrone.com/dotenv-linter)
-* [How I Reverse Engineered the LastPass CLI Tool](http://adventures.michaelfbryan.com/posts/lastpass/)
-* [wgpu-rs on the web](https://gfx-rs.github.io/2020/04/21/wgpu-web.html)
+* [Rust Survey 2019 results](https://blog.rust-lang.org/2020/04/17/Rust-survey-2019.html).
+* [Testing sync at Dropbox](https://dropbox.tech/infrastructure/-testing-our-new-sync-engine).
+* [Write an OS for the Raspberry Pi in Rust](https://tc.gts3.org/cs3210/2020/spring/lab.html).
+* [Wired Logic - a pixel-based digital circuit simulator running in a browser (Rust compiled into WASM)](https://iostapyshyn.github.io/wired-logic/).
+* [Better stack fixing for Firefox](https://blog.mozilla.org/nnethercote/2020/04/15/better-stack-fixing-for-firefox/).
+* [Writing Python inside your Rust code — part 1](https://blog.m-ou.se/writing-python-inside-rust-1/).
+* [wgpu-rs on the web](https://gfx-rs.github.io/2020/04/21/wgpu-web.html).
+* [Building a Rust web browser from scratch](https://joshondesign.com/2020/03/10/rust_minibrowser).
+* [From Pratt to Dijkstra](https://matklad.github.io/2020/04/15/from-pratt-to-dijkstra.html).
+* [Rust lang tips and tricks](https://mudit.blog/rust-tips-and-tricks/).
+* [An experiment with type-erased data structures](https://vgatherps.github.io/2020-04-14-erasure/).
+* [How to write CRaP Rust code](https://blog.logrocket.com/how-to-write-crap-rust-code/).
+* [Intro to gfx-hal - part 3: Vertex buffers](https://www.falseidolfactory.com/2020/04/16/intro-to-gfx-hal-part-3-vertex-buffers.html).
+* [How I reverse engineered the LastPass CLI tool](http://adventures.michaelfbryan.com/posts/lastpass/).
+* [Open-sourcing dotenv-linter: lightning-fast tool to lint your .env files](https://evrone.com/dotenv-linter).
+* [rust-analyzer changelog 21](https://rust-analyzer.github.io/thisweek/2020/04/20/changelog-21.html).
 
 # Crate of the Week
 
@@ -37,7 +50,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [tree-buf: Floating point compression](https://github.com/That3Percent/tree-buf/issues/1). Tree-buf is an experimental serialization system written in Rust.
+* [Compiler Explorer: Bytes support for Rust](https://github.com/mattgodbolt/compiler-explorer/issues/1925).
+* [rlua is looking for maintainers](https://github.com/kyren/rlua/issues/172).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -77,7 +91,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC 2834: Cargo report future-incompat](https://github.com/rust-lang/rfcs/pull/2834).
 
 ## Final Comment Period
 
@@ -87,40 +101,46 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Unsafe blocks in unsafe fn](https://github.com/rust-lang/rfcs/pull/2585).
+* [Major change proposal process for compiler team](https://github.com/rust-lang/rfcs/pull/2904).
+* [Project Groups](https://github.com/rust-lang/rfcs/pull/2856).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Resolving `Ok`-wrapping for `try` blocks](https://github.com/rust-lang/rust/issues/70941).
-* [disposition: merge] [Stabilize `Span::mixed_site`](https://github.com/rust-lang/rust/pull/68716).
-* [disposition: merge] [Stabilize most common subset of alloc_layout_extras](https://github.com/rust-lang/rust/pull/69362).
-* [disposition: merge] [Tracking issue for PathBuf capacity methods](https://github.com/rust-lang/rust/issues/58234).
-* [disposition: merge] [Add Option to Force Unwind Tables](https://github.com/rust-lang/rust/pull/69984).
-* [disposition: merge] [Move LLVM bitcode destination](https://github.com/rust-lang/rust/pull/70458).
-* [disposition: merge] [A big options clean-up](https://github.com/rust-lang/rust/pull/70729).
+* [disposition: close] [Tracking issue for Vec::remove_item](https://github.com/rust-lang/rust/issues/40062).
+* [disposition: close] [Tracking issue for Box::into_raw_non_null](https://github.com/rust-lang/rust/issues/47336).
+* [disposition: merge] [Stabilize the `#[alloc_error_handler]` attribute (for no_std + liballoc)](https://github.com/rust-lang/rust/issues/66740).
+* [disposition: merge] [Make `handle_alloc_error` default to panic (for no_std + liballoc)](https://github.com/rust-lang/rust/issues/66741).
+* [disposition: merge] [proc_macro: Stabilize `Span::resolved_at` and `Span::located_at`](https://github.com/rust-lang/rust/pull/69041).
+* [disposition: close] [Return error for current_exe on nonexistent file](https://github.com/rust-lang/rust/pull/69557).
+* [disposition: merge] [Implement BitOr and BitOrAssign for the NonZero integer types](https://github.com/rust-lang/rust/pull/69813).
+* [disposition: merge] [Should enum discriminants have generics in scope](https://github.com/rust-lang/rust/issues/70453).
+* [disposition: merge] [stabilize BTreeMap::remove_entry](https://github.com/rust-lang/rust/pull/70712).
+* [disposition: merge] [Remove language-level UB for non-UTF-8 str](https://github.com/rust-lang/rust/issues/71033).
 * [disposition: merge] [Stabilize UNICODE_VERSION (feature unicode_version)](https://github.com/rust-lang/rust/pull/71068).
+* [disposition: merge] [Define UB in float-to-int casts to saturate](https://github.com/rust-lang/rust/pull/71269).
 
 ## New RFCs
 
-* [Deduplicate Cargo workspace information](https://github.com/rust-lang/rfcs/pull/2906).
-* [Major change proposal process for compiler team](https://github.com/rust-lang/rfcs/pull/2904).
+* [Transition to rust-analyzer as our official LSP (Language Server Protocol) implementation](https://github.com/rust-lang/rfcs/pull/2912).
+* [Destructuring assignment](https://github.com/rust-lang/rfcs/pull/2909).
 
 # Upcoming Events
 
 ### Online
 
-* [Apr 23. Turin, IT - Rust Turin online meetup](http://www.toolboxoffice.it/eventi/rust-meetup-15/).
 * [Apr 24. Russia - Rust online meetup](https://www.meetup.com/Rust-%D0%B2-%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5/events/269992161/) ([translation](https://youtu.be/NCE4w42hb7o))
-
-### Europe
-
 * [Apr 30. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gztznrybcgbnc/).
+* [Apr 30. Zurich, CH - Rust Zurich - Security in Rust: cargo-crev and cargo-audit](https://www.meetup.com/Rust-Zurich/events/270169298/).
+
+### Asia Pacific
+
+* [May  4. Auckland, NZ - Rust AKL - Rust Meetup](https://www.meetup.com/rust-akl/events/266876545/).
 
 ### North America
 
-* [Apr 22. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscrybcgbdc/).
 * [Apr 27. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybcgbkc/).
 * [Apr 28. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmybcgblc/).
+* [May  6. Portland, OR, US - PDXRust - NES Emulation in Rust](https://www.meetup.com/PDXRust/events/269165311/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -131,11 +151,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Backend Engineer, Data Processing – Rust (Remote) at Kraken](https://jobs.lever.co/kraken/246f7fd2-000a-4f61-8f53-b1cc783d51cb).
-* [Rust Developer (US & Canada) at 1Password](https://1password.com/jobs/rust-developer/).
-* [Infrastructure Engineer at Aleph Alpha, Heidelberg, Germany](https://aleph-alpha.de/sw_engineer.html?language=de).
-* [Rust Developer at Dusk](https://dusk.network/pages/Rust-developer-Vacancy)
-* [Part-time Rust Developer at Junto Foundation](https://twitter.com/juntofoundation/status/1251600911312576512)
+* [Rust Community Engineer at Mozilla, multiple locations](https://careers.mozilla.org/position/gh/2158474/).
+* [Rust Developer at Dusk, Amsterdam, NL & remote](https://dusk.network/pages/Rust-developer-Vacancy).
+* [Part-time Rust Developer at Junto Foundation](https://twitter.com/juntofoundation/status/1251600911312576512).
+* [Rust Developer at MyEmma, NL](https://www.reddit.com/r/rust/comments/g1r7ik/looking_for_freelance_rust_developer/).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
