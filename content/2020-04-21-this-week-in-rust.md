@@ -168,6 +168,6 @@ Thanks to [Louis Cloete](https://users.rust-lang.org/t/twir-quote-of-the-week/32
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
-*This Week in Rust is edited by: [nasa42](https://github.com/nasa42) and [llogiq](https://github.com/llogiq).*
+*This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [nasa42](https://github.com/nasa42).*
 
 <small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/g6d0ac/this_week_in_rust_335/).</small>
