@@ -16,8 +16,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 * [How to speed up the Rust compiler in 2020](https://blog.mozilla.org/nnethercote/2020/04/24/how-to-speed-up-the-rust-compiler-in-2020/)
-
 * [A Taste of WebGPU in Firefox](https://hacks.mozilla.org/2020/04/experimental-webgpu-in-firefox/)
+* [Data Ingestion with Rust and AWS Lambda](http://jamesmcm.github.io/blog/2020/04/19/data-engineering-with-rust-and-aws-lambda/#en)
+* 🎈🎉 [Announcing Rust 1.43.0](https://blog.rust-lang.org/2020/04/23/Rust-1.43.0.html). 🎉🎈
+
+
 # Crate of the Week
 
 This week's crate is [regex2fat](https://github.com/8051Enthusiast/regex2fat), a program to convert a regular expression into a decidedly nonstandard FAT32 file system.
@@ -37,6 +40,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [Compiler Explorer: Bytes support for Rust](https://github.com/mattgodbolt/compiler-explorer/issues/1925).
 * [rlua is looking for maintainers](https://github.com/kyren/rlua/issues/172).
+* [ALMA: Add flag to install to partition instead of formatting disk](https://github.com/r-darwish/alma/issues/46).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
