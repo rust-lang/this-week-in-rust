@@ -39,6 +39,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [Compiler Explorer: Bytes support for Rust](https://github.com/mattgodbolt/compiler-explorer/issues/1925).
 * [rlua is looking for maintainers](https://github.com/kyren/rlua/issues/172).
+* [ALMA: Add flag to install to partition instead of formatting disk](https://github.com/r-darwish/alma/issues/46).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
