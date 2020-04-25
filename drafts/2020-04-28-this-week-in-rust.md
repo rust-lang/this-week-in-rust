@@ -19,7 +19,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [A Taste of WebGPU in Firefox](https://hacks.mozilla.org/2020/04/experimental-webgpu-in-firefox/)
 * [Data Ingestion with Rust and AWS Lambda](http://jamesmcm.github.io/blog/2020/04/19/data-engineering-with-rust-and-aws-lambda/#en)
 * 🎈🎉 [Announcing Rust 1.43.0](https://blog.rust-lang.org/2020/04/23/Rust-1.43.0.html). 🎉🎈
-
+* [Embedded Rust pattern - Zero Sized References](https://ferrous-systems.com/blog/zero-sized-references/)
+* [Implementing a linear Quadtree in Rust](https://snorrwe.onrender.com/posts/morton-table/)
+* [Data Ingestion with Rust and AWS Lambda](https://jamesmcm.github.io/blog/2020/04/19/data-engineering-with-rust-and-aws-lambda/#en)
+* [Memory efficient serialization of tagged union](https://robinmoussu.gitlab.io/blog/post/binary_serialisation_of_enum/)
+* [Unpacking Serde](https://www.reddit.com/r/rust/comments/g6ubuv/unpacking_serde_a_series_of_presentations_i_made/)
+* [Rust Stream: Ownership, Closures, and Threads - Oh My!](https://www.youtube.com/watch?v=2mwwYbBRJSo)
+* [Crust of Rust: Lifetime Annotations](https://docs.google.com/spreadsheets/d/15pqsOlwc2eBXNRV0GJP7Taa3NnFi5kMFpmyVerONsf8/edit#gid=853276561)
+* [Arch Linux announces independent verification of binary packages with rebuilderd (a rust application!)](https://lists.reproducible-builds.org/pipermail/rb-general/2020-April/001905.html)
+* [Comfy web services in Rust.](https://meh.schizofreni.co/2020-04-18/comfy-web-services-in-rust)
+* [First impressions on Rust and Webassembly](https://deedone.github.io/posts/rust-wasm/)
 
 # Crate of the Week
 
@@ -139,6 +148,17 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Systems Engineer - Findora](https://jobs.lever.co/findora/88501a0d-a86d-4cd2-b0b7-8625a107b02b)
+* [Software Engineer, SDK - DFINITY](https://boards.greenhouse.io/dfinity/jobs/4286745002?gh_src=0f9148372us)
+* [2D Graphics Programmer - DUNGEONFOG](https://www.dungeonfog.com/about/job-offers/)
+* [Senior Backend Engineer - OneSignal](https://onesignal.com/careers/9a60a245-06d9-4e2a-82fb-da5e1e9d22d8)
+* [Backend Software Engineer - OneSignal](https://onesignal.com/careers/c3760d91-4320-474f-bde5-676962ecf4e7)
+* [Site Reliability Engineer - OneSignal](https://onesignal.com/careers/b070a1df-d888-4af6-b8aa-2d5a55d568a1)
+* [Software Engineer in Test - OneSignal](https://onesignal.com/careers/9dba316a-407f-4fd3-a084-3f2c4d232a2b)
+* [IT CYBER SECURITY ENGINEER - ALEPH ALPHA GMBH](https://aleph-alpha.de/itsec_engineer.html?language=de)
+* [MACHINE LEARNING ENGINEER - ALEPH ALPHA GMBH](https://aleph-alpha.de/ml_engineer.html?language=de)
+* [SOFTWARE & INFRASTRUCTURE ENGINEER - ALEPH ALPHA GMBH](https://aleph-alpha.de/sw_engineer.html?language=de)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
