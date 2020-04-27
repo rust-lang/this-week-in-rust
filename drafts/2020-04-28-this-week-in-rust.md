@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Data Ingestion with Rust and AWS Lambda](http://jamesmcm.github.io/blog/2020/04/19/data-engineering-with-rust-and-aws-lambda/#en)
 * 🎈🎉 [Announcing Rust 1.43.0](https://blog.rust-lang.org/2020/04/23/Rust-1.43.0.html). 🎉🎈
 * [Rust’s Future: Internal Execution](https://blog.knoldus.com/rusts-future-internal-execution/)
+* [Rust concurrency: five easy pieces.](https://medium.com/@polyglot_factotum/rust-concurrency-five-easy-pieces-871f1c62906a).
 
 
 # Crate of the Week
@@ -140,6 +141,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Rust Developer at Fusion Engineering, Delft, NL](https://fusion.engineering/job-opening-sw.pdf).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
