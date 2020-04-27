@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [A Taste of WebGPU in Firefox](https://hacks.mozilla.org/2020/04/experimental-webgpu-in-firefox/)
 * [Data Ingestion with Rust and AWS Lambda](http://jamesmcm.github.io/blog/2020/04/19/data-engineering-with-rust-and-aws-lambda/#en)
 * 🎈🎉 [Announcing Rust 1.43.0](https://blog.rust-lang.org/2020/04/23/Rust-1.43.0.html). 🎉🎈
+* [Rust’s Future: Internal Execution](https://blog.knoldus.com/rusts-future-internal-execution/)
 * [Rust concurrency: five easy pieces.](https://medium.com/@polyglot_factotum/rust-concurrency-five-easy-pieces-871f1c62906a).
 
 
