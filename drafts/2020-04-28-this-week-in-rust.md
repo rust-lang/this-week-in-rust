@@ -20,8 +20,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [A Taste of WebGPU in Firefox](https://hacks.mozilla.org/2020/04/experimental-webgpu-in-firefox/)
 * [Data Ingestion with Rust and AWS Lambda](http://jamesmcm.github.io/blog/2020/04/19/data-engineering-with-rust-and-aws-lambda/#en)
 * [From Rust to WebAssembly: Building an Interactive Note-Taking WebApp with Actix & Yew](https://blog.mozilla.org/nnethercote/2020/04/15/better-stack-fixing-for-firefox/)
-* [Library-ification and Analyzing Rust](https://smallcultfollowing.com/babysteps/blog/2020/04/09/libraryification/)
-* [Testing Sync at Dropbox](https://dropbox.tech/infrastructure/-testing-our-new-sync-engine)
 
 
 # Crate of the Week
