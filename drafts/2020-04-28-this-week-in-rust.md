@@ -15,19 +15,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* 🎈🎉 [Announcing Rust 1.43.0](https://blog.rust-lang.org/2020/04/23/Rust-1.43.0.html). 🎉🎈
 * [How to speed up the Rust compiler in 2020](https://blog.mozilla.org/nnethercote/2020/04/24/how-to-speed-up-the-rust-compiler-in-2020/)
 * [A Taste of WebGPU in Firefox](https://hacks.mozilla.org/2020/04/experimental-webgpu-in-firefox/)
 * [Data Ingestion with Rust and AWS Lambda](http://jamesmcm.github.io/blog/2020/04/19/data-engineering-with-rust-and-aws-lambda/#en)
-* 🎈🎉 [Announcing Rust 1.43.0](https://blog.rust-lang.org/2020/04/23/Rust-1.43.0.html). 🎉🎈
 * [Embedded Rust pattern - Zero Sized References](https://ferrous-systems.com/blog/zero-sized-references/)
 * [Implementing a linear Quadtree in Rust](https://snorrwe.onrender.com/posts/morton-table/)
-* [Data Ingestion with Rust and AWS Lambda](https://jamesmcm.github.io/blog/2020/04/19/data-engineering-with-rust-and-aws-lambda/#en)
 * [Memory efficient serialization of tagged union](https://robinmoussu.gitlab.io/blog/post/binary_serialisation_of_enum/)
 * [Unpacking Serde](https://www.reddit.com/r/rust/comments/g6ubuv/unpacking_serde_a_series_of_presentations_i_made/)
 * [Rust Stream: Ownership, Closures, and Threads - Oh My!](https://www.youtube.com/watch?v=2mwwYbBRJSo)
 * [Crust of Rust: Lifetime Annotations](https://docs.google.com/spreadsheets/d/15pqsOlwc2eBXNRV0GJP7Taa3NnFi5kMFpmyVerONsf8/edit#gid=853276561)
-* [Arch Linux announces independent verification of binary packages with rebuilderd (a rust application!)](https://lists.reproducible-builds.org/pipermail/rb-general/2020-April/001905.html)
 * [First impressions on Rust and Webassembly](https://deedone.github.io/posts/rust-wasm/)
+* [From Rust to WebAssembly: Building an Interactive Note-Taking WebApp with Actix & Yew](https://blog.mozilla.org/nnethercote/2020/04/15/better-stack-fixing-for-firefox/)
+* [Rust’s Future: Internal Execution](https://blog.knoldus.com/rusts-future-internal-execution/)
+* [Rust concurrency: five easy pieces.](https://medium.com/@polyglot_factotum/rust-concurrency-five-easy-pieces-871f1c62906a).
 
 # Crate of the Week
 
@@ -158,6 +159,7 @@ Email the [Rust Community Team][community] for access.
 * [IT CYBER SECURITY ENGINEER - ALEPH ALPHA GMBH](https://aleph-alpha.de/itsec_engineer.html?language=de)
 * [MACHINE LEARNING ENGINEER - ALEPH ALPHA GMBH](https://aleph-alpha.de/ml_engineer.html?language=de)
 * [SOFTWARE & INFRASTRUCTURE ENGINEER - ALEPH ALPHA GMBH](https://aleph-alpha.de/sw_engineer.html?language=de)
+* [Rust Developer at Fusion Engineering, Delft, NL](https://fusion.engineering/job-opening-sw.pdf).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
