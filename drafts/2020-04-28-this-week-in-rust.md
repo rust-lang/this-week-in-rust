@@ -27,7 +27,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust Stream: Ownership, Closures, and Threads - Oh My!](https://www.youtube.com/watch?v=2mwwYbBRJSo)
 * [Crust of Rust: Lifetime Annotations](https://docs.google.com/spreadsheets/d/15pqsOlwc2eBXNRV0GJP7Taa3NnFi5kMFpmyVerONsf8/edit#gid=853276561)
 * [Arch Linux announces independent verification of binary packages with rebuilderd (a rust application!)](https://lists.reproducible-builds.org/pipermail/rb-general/2020-April/001905.html)
-* [Comfy web services in Rust.](https://meh.schizofreni.co/2020-04-18/comfy-web-services-in-rust)
 * [First impressions on Rust and Webassembly](https://deedone.github.io/posts/rust-wasm/)
 
 # Crate of the Week
