@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [A Taste of WebGPU in Firefox](https://hacks.mozilla.org/2020/04/experimental-webgpu-in-firefox/)
 * [Data Ingestion with Rust and AWS Lambda](http://jamesmcm.github.io/blog/2020/04/19/data-engineering-with-rust-and-aws-lambda/#en)
 * [From Rust to WebAssembly: Building an Interactive Note-Taking WebApp with Actix & Yew](https://blog.mozilla.org/nnethercote/2020/04/15/better-stack-fixing-for-firefox/)
+* [Rust’s Future: Internal Execution](https://blog.knoldus.com/rusts-future-internal-execution/)
+* [Rust concurrency: five easy pieces.](https://medium.com/@polyglot_factotum/rust-concurrency-five-easy-pieces-871f1c62906a).
 
 
 # Crate of the Week
@@ -142,6 +144,7 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [wgpu-rs Developer for 2D Graphics Programming at Dungeon Fog](https://www.dungeonfog.com/about/job-offers/)
+* [Rust Developer at Fusion Engineering, Delft, NL](https://fusion.engineering/job-opening-sw.pdf).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
