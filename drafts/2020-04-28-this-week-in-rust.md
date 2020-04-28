@@ -21,7 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * 🎈🎉 [Announcing Rust 1.43.0](https://blog.rust-lang.org/2020/04/23/Rust-1.43.0.html). 🎉🎈
 * [Rust’s Future: Internal Execution](https://blog.knoldus.com/rusts-future-internal-execution/)
 * [Rust concurrency: five easy pieces.](https://medium.com/@polyglot_factotum/rust-concurrency-five-easy-pieces-871f1c62906a).
-
+* [(Almost) Lockless Stream Buffering](https://mcfelix.me/blog/shared-buffers/)
 
 # Crate of the Week
 
