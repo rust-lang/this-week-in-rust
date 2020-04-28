@@ -15,13 +15,22 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* 🎈🎉 [Announcing Rust 1.43.0](https://blog.rust-lang.org/2020/04/23/Rust-1.43.0.html). 🎉🎈
 * [How to speed up the Rust compiler in 2020](https://blog.mozilla.org/nnethercote/2020/04/24/how-to-speed-up-the-rust-compiler-in-2020/)
 * [A Taste of WebGPU in Firefox](https://hacks.mozilla.org/2020/04/experimental-webgpu-in-firefox/)
 * [Data Ingestion with Rust and AWS Lambda](http://jamesmcm.github.io/blog/2020/04/19/data-engineering-with-rust-and-aws-lambda/#en)
-* 🎈🎉 [Announcing Rust 1.43.0](https://blog.rust-lang.org/2020/04/23/Rust-1.43.0.html). 🎉🎈
+* [Embedded Rust pattern - Zero Sized References](https://ferrous-systems.com/blog/zero-sized-references/)
+* [Implementing a linear Quadtree in Rust](https://snorrwe.onrender.com/posts/morton-table/)
+* [Memory efficient serialization of tagged union](https://robinmoussu.gitlab.io/blog/post/binary_serialisation_of_enum/)
+* [Unpacking Serde](https://www.reddit.com/r/rust/comments/g6ubuv/unpacking_serde_a_series_of_presentations_i_made/)
+* [Rust Stream: Ownership, Closures, and Threads - Oh My!](https://www.youtube.com/watch?v=2mwwYbBRJSo)
+* [Crust of Rust: Lifetime Annotations](https://docs.google.com/spreadsheets/d/15pqsOlwc2eBXNRV0GJP7Taa3NnFi5kMFpmyVerONsf8/edit#gid=853276561)
+* [First impressions on Rust and Webassembly](https://deedone.github.io/posts/rust-wasm/)
+* [From Rust to WebAssembly: Building an Interactive Note-Taking WebApp with Actix & Yew](https://blog.mozilla.org/nnethercote/2020/04/15/better-stack-fixing-for-firefox/)
 * [Rust’s Future: Internal Execution](https://blog.knoldus.com/rusts-future-internal-execution/)
 * [Rust concurrency: five easy pieces.](https://medium.com/@polyglot_factotum/rust-concurrency-five-easy-pieces-871f1c62906a).
 * [(Almost) Lockless Stream Buffering](https://mcfelix.me/blog/shared-buffers/)
+* [Rust and Node.js: A match made in heaven](https://blog.logrocket.com/rust-and-node-js-a-match-made-in-heaven/)
 
 # Crate of the Week
 
@@ -142,6 +151,16 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Systems Engineer - Findora](https://jobs.lever.co/findora/88501a0d-a86d-4cd2-b0b7-8625a107b02b)
+* [Software Engineer, SDK - DFINITY](https://boards.greenhouse.io/dfinity/jobs/4286745002?gh_src=0f9148372us)
+* [2D Graphics Programmer - DUNGEONFOG](https://www.dungeonfog.com/about/job-offers/)
+* [Senior Backend Engineer - OneSignal](https://onesignal.com/careers/9a60a245-06d9-4e2a-82fb-da5e1e9d22d8)
+* [Backend Software Engineer - OneSignal](https://onesignal.com/careers/c3760d91-4320-474f-bde5-676962ecf4e7)
+* [Site Reliability Engineer - OneSignal](https://onesignal.com/careers/b070a1df-d888-4af6-b8aa-2d5a55d568a1)
+* [Software Engineer in Test - OneSignal](https://onesignal.com/careers/9dba316a-407f-4fd3-a084-3f2c4d232a2b)
+* [IT CYBER SECURITY ENGINEER - ALEPH ALPHA GMBH](https://aleph-alpha.de/itsec_engineer.html?language=de)
+* [MACHINE LEARNING ENGINEER - ALEPH ALPHA GMBH](https://aleph-alpha.de/ml_engineer.html?language=de)
+* [SOFTWARE & INFRASTRUCTURE ENGINEER - ALEPH ALPHA GMBH](https://aleph-alpha.de/sw_engineer.html?language=de)
 * [Rust Developer at Fusion Engineering, Delft, NL](https://fusion.engineering/job-opening-sw.pdf).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
