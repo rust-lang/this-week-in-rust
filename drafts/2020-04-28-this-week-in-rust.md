@@ -34,9 +34,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [regex2fat](https://github.com/8051Enthusiast/regex2fat), a program to convert a regular expression into a decidedly nonstandard FAT32 file system.
+This week's crate is [coercible_errors](https://crates.io/crates/coercible_errors), a library that allows generic trait implementations to omit the size cost of `Result::Err` if errors never happen.
 
-Thanks to [Josh Triplett](https://users.rust-lang.org/t/crate-of-the-week/2704/757) for the suggestion!
+Thanks to [Zac Burns](https://users.rust-lang.org/t/crate-of-the-week/2704/763) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -59,32 +59,36 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-408 pull requests were [merged in the last week][merged]
+367 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-04-13..2020-04-20
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-04-20..2020-04-27
 
-* [remove a stack frame from `.await` calls](https://github.com/rust-lang/rust/pull/70831)
-* [improve async-await/generator obligation errors in some cases](https://github.com/rust-lang/rust/pull/70679)
-* [make `needs_drop` less pessimistic on generators](https://github.com/rust-lang/rust/pull/70015)
-* [provide better compiler output when using `?` on `Option` in fn returning `Result` and vice-versa](https://github.com/rust-lang/rust/pull/71141)
-* [suggest `.into()` over `try_into()` when it would work](https://github.com/rust-lang/rust/pull/71051)
-* [maintain chain of derived obligations](https://github.com/rust-lang/rust/pull/69793)
-* [chalk: recursive solver](https://github.com/rust-lang/chalk/pull/372)
-* [chalk: recursive solver: Exit early on ambiguity](https://github.com/rust-lang/chalk/pull/404)
-* [chalk:  make it possible to cache the result of env elaboration](https://github.com/rust-lang/chalk/pull/403)
-* [use query to determine whether function needs const checking](https://github.com/rust-lang/rust/pull/69642)
-* [mir-opt: run `SimplifyLocals` to a fixedpoint and handle most rvalue](https://github.com/rust-lang/rust/pull/70755)
-* [miri: add option to disable alignment check](https://github.com/rust-lang/miri/pull/1332)
-* [miri: let machine hook dynamically decide about alignment checks](https://github.com/rust-lang/rust/pull/71101)
-* [miri: expand frame hooks](https://github.com/rust-lang/rust/pull/71100)
-* [miri: handle `std::sync::atomic::spin_loop_hint()`](https://github.com/rust-lang/miri/pull/1342)
-* [ptr: introduce `len()` method on raw slices](https://github.com/rust-lang/rust/pull/71082)
-* [miri: use pre-computed layouts some more](https://github.com/rust-lang/miri/pull/1349)
-* [miri-unleashed: test that we detect heap allocations](https://github.com/rust-lang/rust/pull/71276)
-* [deprecate the `asm!` macro in favor of `llvm_asm!`](https://github.com/rust-lang/rust/pull/71007)
-* [backtrace: remove memmap dependency](https://github.com/rust-lang/backtrace-rs/pull/311)
-* [cargo: several updates to token/index handling](https://github.com/rust-lang/cargo/pull/7973)
-* [cargo: try to avoid panics on buggy (?) clocks](https://github.com/rust-lang/cargo/pull/8114)
+* [don't run various MIR optimizations at mir-opt-level=0](https://github.com/rust-lang/rust/pull/70073)
+* [replace thread_local with generator resume arguments in `box_region`](https://github.com/rust-lang/rust/pull/71554)
+* [fix `-Zast-json` to output correct JSON form](https://github.com/rust-lang/rust/pull/71284)
+* [allow wasm32 compilation of `librustc_data_structures/profiling.rs`](https://github.com/rust-lang/rust/pull/71369)
+* [`proc_macro::is_available()`](https://github.com/rust-lang/rust/pull/71400)
+* [proc_macro: stabilize `Span::resolved_at` and `Span::located_at`](https://github.com/rust-lang/rust/pull/69041)
+* [attempt to recover perf by removing `exports_all_green`](https://github.com/rust-lang/rust/pull/71267)
+* [chalk: use `FxHashMap`/`FxHashSet` and add well-formed clause for tuples](https://github.com/rust-lang/chalk/pull/411)
+* [ConstProp: use a `BitSet<Local>` instead of `IndexVec<Local, bool>`](https://github.com/rust-lang/rust/pull/71312)
+* [fix span of `while` (`let`) expressions after lowering](https://github.com/rust-lang/rust/pull/71494)
+* [Miri Frame: use `mir::Location` to represent position in function](https://github.com/rust-lang/rust/pull/71475)
+* [add `BinaryHeap::retain`](https://github.com/rust-lang/rust/pull/71485)
+* [add a function to turn `Box<T>` into `Box<[T]>`](https://github.com/rust-lang/rust/pull/71421)
+* [add missing `Send` and `Sync` impls for linked list `Cursor` and `CursorMut`](https://github.com/rust-lang/rust/pull/71548)
+* [implement `BitOr` and `BitOrAssign` for the `NonZero` integer types](https://github.com/rust-lang/rust/pull/69813)
+* [stabilize most common subset of `alloc_layout_extras`](https://github.com/rust-lang/rust/pull/69362)
+* [stabilize `Span::mixed_site`](https://github.com/rust-lang/rust/pull/68716)
+* [stabilize `BTreeMap::remove_entry`](https://github.com/rust-lang/rust/pull/70712)
+* [futures: introduce `ready_chunks` adaptor](https://github.com/rust-lang/futures-rs/pull/2123)
+* [backport to 0.1: Avoid starvation from `FuturesUnordered::poll_next`](https://github.com/rust-lang/futures-rs/pull/2122)
+* [futures: add `AsyncWriteExt::write_all_vectored` utility](https://github.com/rust-lang/futures-rs/pull/1741)
+* [hashbrown: future-proof specialization code](https://github.com/rust-lang/hashbrown/pull/147)
+* [hashbrown: remove unsound use of specialization](https://github.com/rust-lang/hashbrown/pull/154)
+* [cargo: fix warning for `resolve` mismatch in workspace](https://github.com/rust-lang/cargo/pull/8169)
+* [cargo: add `resolver` opt-in for new feature resolver](https://github.com/rust-lang/cargo/pull/8129)
+* [rustdoc: replace big JS dict with JSON parsing](https://github.com/rust-lang/rust/pull/71250)
 
 ## Approved RFCs
 
@@ -167,11 +171,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> What's special about UB is that it attacks your ability to find bugs, like a disease that attacks the immune system. Undefined behavior can have arbitrary, non-local and even non-causal effects that undermine the deterministic nature of programs. That's intolerable, and that's why it's so important that safe Rust rules out undefined behavior even if there are still classes of bugs that it doesn't eliminate.
+> Vecs in Rust in general, are crazy fast; faster than I can replicate in C. Amazing.
 
-– [@trentj on rust-users](https://users.rust-lang.org/t/newbie-learning-how-to-deal-with-the-borrow-checker/40972/11)
+– [Jonathan Eisenzopf on rust-users](https://users.rust-lang.org/t/very-fast-initialization-of-a-vec-of-vecs/41301/17)
 
-Thanks to [Louis Cloete](https://users.rust-lang.org/t/twir-quote-of-the-week/328/854) for the suggestions!
+Thanks to [Louis Cloete](https://users.rust-lang.org/t/twir-quote-of-the-week/328/857) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
