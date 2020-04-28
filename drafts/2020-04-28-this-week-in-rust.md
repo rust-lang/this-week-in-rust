@@ -29,6 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [From Rust to WebAssembly: Building an Interactive Note-Taking WebApp with Actix & Yew](https://blog.mozilla.org/nnethercote/2020/04/15/better-stack-fixing-for-firefox/)
 * [Rust’s Future: Internal Execution](https://blog.knoldus.com/rusts-future-internal-execution/)
 * [Rust concurrency: five easy pieces.](https://medium.com/@polyglot_factotum/rust-concurrency-five-easy-pieces-871f1c62906a).
+* [(Almost) Lockless Stream Buffering](https://mcfelix.me/blog/shared-buffers/)
 * [Rust and Node.js: A match made in heaven](https://blog.logrocket.com/rust-and-node-js-a-match-made-in-heaven/)
 
 # Crate of the Week
