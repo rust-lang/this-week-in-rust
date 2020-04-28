@@ -26,7 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust Stream: Ownership, Closures, and Threads - Oh My!](https://www.youtube.com/watch?v=2mwwYbBRJSo)
 * [Crust of Rust: Lifetime Annotations](https://docs.google.com/spreadsheets/d/15pqsOlwc2eBXNRV0GJP7Taa3NnFi5kMFpmyVerONsf8/edit#gid=853276561)
 * [First impressions on Rust and Webassembly](https://deedone.github.io/posts/rust-wasm/)
-* [From Rust to WebAssembly: Building an Interactive Note-Taking WebApp with Actix & Yew](https://blog.mozilla.org/nnethercote/2020/04/15/better-stack-fixing-for-firefox/)
+* [From Rust to WebAssembly: Building an Interactive Note-Taking WebApp with Actix & Yew](https://www.luu.io/posts/lenote)
 * [Rust’s Future: Internal Execution](https://blog.knoldus.com/rusts-future-internal-execution/)
 * [Rust concurrency: five easy pieces.](https://medium.com/@polyglot_factotum/rust-concurrency-five-easy-pieces-871f1c62906a).
 * [(Almost) Lockless Stream Buffering](https://mcfelix.me/blog/shared-buffers/)
