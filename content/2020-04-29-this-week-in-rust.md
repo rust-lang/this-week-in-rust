@@ -1,6 +1,6 @@
 Title: This Week in Rust 336
 Number: 336
-Date: 2020-04-28
+Date: 2020-04-29
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
