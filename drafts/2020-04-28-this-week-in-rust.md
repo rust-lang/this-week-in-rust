@@ -32,6 +32,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust concurrency: five easy pieces](https://medium.com/@polyglot_factotum/rust-concurrency-five-easy-pieces-871f1c62906a).
 * [(Almost) lockless stream buffering](https://mcfelix.me/blog/shared-buffers/).
 * [Rust and Node.js: a match made in heaven](https://blog.logrocket.com/rust-and-node-js-a-match-made-in-heaven/).
+* [Reducing the size of a Rust GStreamer plugin](https://www.collabora.com/news-and-blog/blog/2020/04/28/reducing-size-rust-gstreamer-plugin/).
+* [Writing Python inside your Rust code — Part 2](https://blog.m-ou.se/writing-python-inside-rust-2/).
 
 # Crate of the Week
 
