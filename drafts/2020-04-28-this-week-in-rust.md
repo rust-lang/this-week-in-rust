@@ -15,22 +15,23 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+
 * 🎈🎉 [Announcing Rust 1.43.0](https://blog.rust-lang.org/2020/04/23/Rust-1.43.0.html). 🎉🎈
-* [How to speed up the Rust compiler in 2020](https://blog.mozilla.org/nnethercote/2020/04/24/how-to-speed-up-the-rust-compiler-in-2020/)
-* [A Taste of WebGPU in Firefox](https://hacks.mozilla.org/2020/04/experimental-webgpu-in-firefox/)
-* [Data Ingestion with Rust and AWS Lambda](http://jamesmcm.github.io/blog/2020/04/19/data-engineering-with-rust-and-aws-lambda/#en)
-* [Embedded Rust pattern - Zero Sized References](https://ferrous-systems.com/blog/zero-sized-references/)
-* [Implementing a linear Quadtree in Rust](https://snorrwe.onrender.com/posts/morton-table/)
-* [Memory efficient serialization of tagged union](https://robinmoussu.gitlab.io/blog/post/binary_serialisation_of_enum/)
-* [Unpacking Serde](https://www.reddit.com/r/rust/comments/g6ubuv/unpacking_serde_a_series_of_presentations_i_made/)
-* [Rust Stream: Ownership, Closures, and Threads - Oh My!](https://www.youtube.com/watch?v=2mwwYbBRJSo)
-* [Crust of Rust: Lifetime Annotations](https://docs.google.com/spreadsheets/d/15pqsOlwc2eBXNRV0GJP7Taa3NnFi5kMFpmyVerONsf8/edit#gid=853276561)
-* [First impressions on Rust and Webassembly](https://deedone.github.io/posts/rust-wasm/)
-* [From Rust to WebAssembly: Building an Interactive Note-Taking WebApp with Actix & Yew](https://www.luu.io/posts/lenote)
-* [Rust’s Future: Internal Execution](https://blog.knoldus.com/rusts-future-internal-execution/)
-* [Rust concurrency: five easy pieces.](https://medium.com/@polyglot_factotum/rust-concurrency-five-easy-pieces-871f1c62906a).
-* [(Almost) Lockless Stream Buffering](https://mcfelix.me/blog/shared-buffers/)
-* [Rust and Node.js: A match made in heaven](https://blog.logrocket.com/rust-and-node-js-a-match-made-in-heaven/)
+* [How to speed up the Rust compiler in 2020](https://blog.mozilla.org/nnethercote/2020/04/24/how-to-speed-up-the-rust-compiler-in-2020/).
+* [A taste of WebGPU in Firefox](https://hacks.mozilla.org/2020/04/experimental-webgpu-in-firefox/).
+* [Data ingestion with Rust and AWS Lambda](http://jamesmcm.github.io/blog/2020/04/19/data-engineering-with-rust-and-aws-lambda/#en).
+* [Embedded Rust pattern - zero sized references](https://ferrous-systems.com/blog/zero-sized-references/).
+* [Implementing a linear quadtree in Rust](https://snorrwe.onrender.com/posts/morton-table/).
+* [Memory efficient serialization of tagged union](https://robinmoussu.gitlab.io/blog/post/binary_serialisation_of_enum/).
+* [Unpacking Serde](https://www.reddit.com/r/rust/comments/g6ubuv/unpacking_serde_a_series_of_presentations_i_made/).
+* [video] [Rust stream: ownership, closures, and threads - oh my](https://www.youtube.com/watch?v=2mwwYbBRJSo).
+* [Crust of Rust: lifetime annotations](https://docs.google.com/spreadsheets/d/15pqsOlwc2eBXNRV0GJP7Taa3NnFi5kMFpmyVerONsf8/edit#gid=853276561).
+* [First impressions on Rust and WebAssembly](https://deedone.github.io/posts/rust-wasm/).
+* [From Rust to WebAssembly: Building an interactive note-taking web app with Actix & Yew](https://www.luu.io/posts/lenote).
+* [Rust’s future: internal execution](https://blog.knoldus.com/rusts-future-internal-execution/).
+* [Rust concurrency: five easy pieces](https://medium.com/@polyglot_factotum/rust-concurrency-five-easy-pieces-871f1c62906a).
+* [(Almost) lockless stream buffering](https://mcfelix.me/blog/shared-buffers/).
+* [Rust and Node.js: a match made in heaven](https://blog.logrocket.com/rust-and-node-js-a-match-made-in-heaven/).
 
 # Crate of the Week
 
@@ -49,8 +50,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Compiler Explorer: Bytes support for Rust](https://github.com/mattgodbolt/compiler-explorer/issues/1925).
-* [rlua is looking for maintainers](https://github.com/kyren/rlua/issues/172).
 * [ALMA: Add flag to install to partition instead of formatting disk](https://github.com/r-darwish/alma/issues/46).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -95,7 +94,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2834: Cargo report future-incompat](https://github.com/rust-lang/rfcs/pull/2834).
+* [RFC 2836: Introduce the ASM project group](https://github.com/rust-lang/rfcs/pull/2836).
 
 ## Final Comment Period
 
@@ -105,46 +104,32 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Major change proposal process for compiler team](https://github.com/rust-lang/rfcs/pull/2904).
 * [disposition: merge] [Project Groups](https://github.com/rust-lang/rfcs/pull/2856).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: close] [Tracking issue for Vec::remove_item](https://github.com/rust-lang/rust/issues/40062).
-* [disposition: close] [Tracking issue for Box::into_raw_non_null](https://github.com/rust-lang/rust/issues/47336).
 * [disposition: merge] [Stabilize the `#[alloc_error_handler]` attribute (for no_std + liballoc)](https://github.com/rust-lang/rust/issues/66740).
 * [disposition: merge] [Make `handle_alloc_error` default to panic (for no_std + liballoc)](https://github.com/rust-lang/rust/issues/66741).
-* [disposition: merge] [proc_macro: Stabilize `Span::resolved_at` and `Span::located_at`](https://github.com/rust-lang/rust/pull/69041).
-* [disposition: close] [Return error for current_exe on nonexistent file](https://github.com/rust-lang/rust/pull/69557).
-* [disposition: merge] [Implement BitOr and BitOrAssign for the NonZero integer types](https://github.com/rust-lang/rust/pull/69813).
-* [disposition: merge] [Should enum discriminants have generics in scope](https://github.com/rust-lang/rust/issues/70453).
-* [disposition: merge] [stabilize BTreeMap::remove_entry](https://github.com/rust-lang/rust/pull/70712).
 * [disposition: merge] [Remove language-level UB for non-UTF-8 str](https://github.com/rust-lang/rust/issues/71033).
-* [disposition: merge] [Stabilize UNICODE_VERSION (feature unicode_version)](https://github.com/rust-lang/rust/pull/71068).
 * [disposition: merge] [Define UB in float-to-int casts to saturate](https://github.com/rust-lang/rust/pull/71269).
 
 ## New RFCs
 
-* [Transition to rust-analyzer as our official LSP (Language Server Protocol) implementation](https://github.com/rust-lang/rfcs/pull/2912).
-* [Destructuring assignment](https://github.com/rust-lang/rfcs/pull/2909).
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
 ### Online
 
-* [Apr 24. Russia - Rust online meetup](https://www.meetup.com/Rust-%D0%B2-%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5/events/269992161/) ([translation](https://youtu.be/NCE4w42hb7o))
-* [Apr 30. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/gztznrybcgbnc/).
 * [Apr 30. Zurich, CH - Rust Zurich - Security in Rust: cargo-crev and cargo-audit](https://www.meetup.com/Rust-Zurich/events/270169298/).
-
-### Asia Pacific
-
-* [May  4. Auckland, NZ - Rust AKL - Rust Meetup](https://www.meetup.com/rust-akl/events/266876545/).
+* [May  4. Auckland, NZ - Rust AKL - Rust Implementation of Ethereum2.0 + Adding WASM Support to a Native Application](https://www.meetup.com/rust-akl/events/266876545/).
+* [May 20. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybchbbc/).
 
 ### North America
 
-* [Apr 27. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybcgbkc/).
-* [Apr 28. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmybcgblc/).
 * [May  6. Portland, OR, US - PDXRust - NES Emulation in Rust](https://www.meetup.com/PDXRust/events/269165311/).
+* [May  6. Indianapolis, IN, US - Indy.rs - Rust Meetup](https://www.meetup.com/indyrs/events/dtqwprybchbjb/).
+* [May 15. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybchbsb/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -155,16 +140,16 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Systems Engineer - Findora](https://jobs.lever.co/findora/88501a0d-a86d-4cd2-b0b7-8625a107b02b)
-* [Software Engineer, SDK - DFINITY](https://boards.greenhouse.io/dfinity/jobs/4286745002?gh_src=0f9148372us)
-* [2D Graphics Programmer - DUNGEONFOG](https://www.dungeonfog.com/about/job-offers/)
-* [Senior Backend Engineer - OneSignal](https://onesignal.com/careers/9a60a245-06d9-4e2a-82fb-da5e1e9d22d8)
-* [Backend Software Engineer - OneSignal](https://onesignal.com/careers/c3760d91-4320-474f-bde5-676962ecf4e7)
-* [Site Reliability Engineer - OneSignal](https://onesignal.com/careers/b070a1df-d888-4af6-b8aa-2d5a55d568a1)
-* [Software Engineer in Test - OneSignal](https://onesignal.com/careers/9dba316a-407f-4fd3-a084-3f2c4d232a2b)
-* [IT CYBER SECURITY ENGINEER - ALEPH ALPHA GMBH](https://aleph-alpha.de/itsec_engineer.html?language=de)
-* [MACHINE LEARNING ENGINEER - ALEPH ALPHA GMBH](https://aleph-alpha.de/ml_engineer.html?language=de)
-* [SOFTWARE & INFRASTRUCTURE ENGINEER - ALEPH ALPHA GMBH](https://aleph-alpha.de/sw_engineer.html?language=de)
+* [Systems Engineer - Findora, Menlo Park, CA, US](https://jobs.lever.co/findora/88501a0d-a86d-4cd2-b0b7-8625a107b02b).
+* [Software Engineer, SDK - DFINITY, Palo Alto & San Francisco CA, US](https://boards.greenhouse.io/dfinity/jobs/4286745002?gh_src=0f9148372us).
+* [2D Graphics Programmer - DUNGEONFOG, Vienna, AT](https://www.dungeonfog.com/about/job-offers/).
+* [Senior Backend Engineer - OneSignal, San Mateo, CA, US](https://onesignal.com/careers/9a60a245-06d9-4e2a-82fb-da5e1e9d22d8).
+* [Backend Software Engineer - OneSignal, San Mateo, CA, US](https://onesignal.com/careers/c3760d91-4320-474f-bde5-676962ecf4e7).
+* [Site Reliability Engineer - OneSignal, San Mateo, CA, US](https://onesignal.com/careers/b070a1df-d888-4af6-b8aa-2d5a55d568a1).
+* [Software Engineer in Test - OneSignal, San Mateo, CA, US](https://onesignal.com/careers/9dba316a-407f-4fd3-a084-3f2c4d232a2b).
+* [IT Cyber Security Engineer - ALEPH ALPHA GmbH, Heidelberg, DE](https://aleph-alpha.de/itsec_engineer.html?language=de).
+* [Machine Learning Engineer - ALEPH ALPHA GmbH, Heidelberg, DE](https://aleph-alpha.de/ml_engineer.html?language=de).
+* [Software Infrastructure Engineer - ALEPH ALPHA GmbH, Heidelberg, DE](https://aleph-alpha.de/sw_engineer.html?language=de).
 * [Rust Developer at Fusion Engineering, Delft, NL](https://fusion.engineering/job-opening-sw.pdf).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
@@ -179,6 +164,6 @@ Thanks to [Louis Cloete](https://users.rust-lang.org/t/twir-quote-of-the-week/32
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
-*This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [nasa42](https://github.com/nasa42).*
+*This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), [srikwit](https://github.com/srikwit), and [nasa42](https://github.com/nasa42).*
 
 <small>[Discuss on r/rust]().</small>
