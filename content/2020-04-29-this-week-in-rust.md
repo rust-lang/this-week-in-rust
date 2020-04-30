@@ -25,7 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Memory efficient serialization of tagged union](https://robinmoussu.gitlab.io/blog/post/binary_serialisation_of_enum/).
 * [Unpacking Serde](https://www.reddit.com/r/rust/comments/g6ubuv/unpacking_serde_a_series_of_presentations_i_made/).
 * [video] [Rust stream: ownership, closures, and threads - oh my](https://www.youtube.com/watch?v=2mwwYbBRJSo).
-* [Crust of Rust: lifetime annotations](https://www.youtube.com/watch?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa&time_continue=2&v=rAl-9HwD858&feature=emb_logo).
+* [video] [Crust of Rust: lifetime annotations](https://www.youtube.com/watch?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa&time_continue=2&v=rAl-9HwD858&feature=emb_logo).
 * [First impressions on Rust and WebAssembly](https://deedone.github.io/posts/rust-wasm/).
 * [From Rust to WebAssembly: Building an interactive note-taking web app with Actix & Yew](https://www.luu.io/posts/lenote).
 * [Rust’s future: internal execution](https://blog.knoldus.com/rusts-future-internal-execution/).
