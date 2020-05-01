@@ -18,6 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Multi-threaded HTTP/WebSocket server in Rust](https://sergey-melnychuk.github.io/2020/04/27/multi-threaded-http-websocket-server-in-rust/).
 * [Cheating Rank-n with Traits](https://leshow.github.io/post/cheat_rank_n/)
+* [Rust at FullStory, Part 2: A Look Inside Our Mobile SDK](https://bionic.fullstory.com/rust-at-fullstory-part-2/)
 
 # Crate of the Week
 
@@ -123,6 +124,15 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+* [Backend Engineer, Data Processing - Kraken - Remote](https://jobs.lever.co/kraken/246f7fd2-000a-4f61-8f53-b1cc783d51cb)
+* [Backend Engineer, Futures - Kraken - Remote](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Sr. Software Engineer - Distributed Systems - Palo Alto, CA or San Francisco, CA](https://boards.greenhouse.io/dfinity/jobs/4408999002)
+* [Sr. Software Engineer - Distributed Systems - Zurich, CH](https://boards.greenhouse.io/dfinity/jobs/4409033002)
+* [Sr. Software Engineer - Infrastructure and Tools - Palo Alto, CA or San Francisco, CA](https://boards.greenhouse.io/dfinity/jobs/4473085002)
+* [Sr. Software Engineer - Networking - Palo Alto, CA or San Francisco, CA](https://boards.greenhouse.io/dfinity/jobs/4408980002)
+* [Sr. Software Engineer - Systems - Palo Alto, CA or San Francisco, CA](https://boards.greenhouse.io/dfinity/jobs/4408974002)
+* [Sr. Software Engineer - Systems - Zurich, CH](https://boards.greenhouse.io/dfinity/jobs/4408981002)
+* [Software Engineer - SDK - Palo Alto, CA or San Francisco, CA](https://boards.greenhouse.io/dfinity/jobs/4286745002)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
