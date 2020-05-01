@@ -16,7 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-[Cheating Rank-n with Traits](https://leshow.github.io/post/cheat_rank_n/)
+* [Multi-threaded HTTP/WebSocket server in Rust](https://sergey-melnychuk.github.io/2020/04/27/multi-threaded-http-websocket-server-in-rust/).
+* [Cheating Rank-n with Traits](https://leshow.github.io/post/cheat_rank_n/)
 
 # Crate of the Week
 
