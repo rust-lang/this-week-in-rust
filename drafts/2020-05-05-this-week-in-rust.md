@@ -16,9 +16,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Async interviews: my take thus far](https://smallcultfollowing.com/babysteps/blog/2020/04/30/async-interviews-my-take-thus-far/)
 * [Multi-threaded HTTP/WebSocket server in Rust](https://sergey-melnychuk.github.io/2020/04/27/multi-threaded-http-websocket-server-in-rust/).
 * [Cheating Rank-n with Traits](https://leshow.github.io/post/cheat_rank_n/)
 * [Rust at FullStory, Part 2: A Look Inside Our Mobile SDK](https://bionic.fullstory.com/rust-at-fullstory-part-2/)
+* [Type-level Programming in Rust](http://willcrichton.net/notes/type-level-programming/)
+* [Notes on Parsing in Rust](https://blog.wesleyac.com/posts/rust-parsing)
+* [Create a blazingly fast REST API in Rust (Part 1/2)](https://docs.qovery.com/guides/tutorial/create-a-blazingly-fast-api-in-rust-part-1/)
+* [The Safety Boat: Kubernetes and Rust](https://msrc-blog.microsoft.com/2020/04/29/the-safety-boat-kubernetes-and-rust/)
+* [From Pratt to Dijkstra](https://matklad.github.io//2020/04/15/from-pratt-to-dijkstra.html)
+* [Learning embedded Rust by building RISC-V-powered robot - Part 4](https://matklad.github.io//2020/04/15/from-pratt-to-dijkstra.html)
+* [How to write CRaP Rust Code](https://blog.logrocket.com/how-to-write-crap-rust-code/)
 
 # Crate of the Week
 
@@ -126,13 +134,16 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 * [Backend Engineer, Data Processing - Kraken - Remote](https://jobs.lever.co/kraken/246f7fd2-000a-4f61-8f53-b1cc783d51cb)
 * [Backend Engineer, Futures - Kraken - Remote](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
-* [Sr. Software Engineer - Distributed Systems - Palo Alto, CA or San Francisco, CA](https://boards.greenhouse.io/dfinity/jobs/4408999002)
-* [Sr. Software Engineer - Distributed Systems - Zurich, CH](https://boards.greenhouse.io/dfinity/jobs/4409033002)
-* [Sr. Software Engineer - Infrastructure and Tools - Palo Alto, CA or San Francisco, CA](https://boards.greenhouse.io/dfinity/jobs/4473085002)
-* [Sr. Software Engineer - Networking - Palo Alto, CA or San Francisco, CA](https://boards.greenhouse.io/dfinity/jobs/4408980002)
-* [Sr. Software Engineer - Systems - Palo Alto, CA or San Francisco, CA](https://boards.greenhouse.io/dfinity/jobs/4408974002)
-* [Sr. Software Engineer - Systems - Zurich, CH](https://boards.greenhouse.io/dfinity/jobs/4408981002)
-* [Software Engineer - SDK - Palo Alto, CA or San Francisco, CA](https://boards.greenhouse.io/dfinity/jobs/4286745002)
+* [Sr. Software Engineer - Distributed Systems - DFINITY - Palo Alto, CA or San Francisco, CA](https://boards.greenhouse.io/dfinity/jobs/4408999002)
+* [Sr. Software Engineer - Distributed Systems - DFINITY - Zurich, CH](https://boards.greenhouse.io/dfinity/jobs/4409033002)
+* [Sr. Software Engineer - Infrastructure and Tools - DFINITY - Palo Alto, CA or San Francisco, CA](https://boards.greenhouse.io/dfinity/jobs/4473085002)
+* [Sr. Software Engineer - Networking - DFINITY - Palo Alto, CA or San Francisco, CA](https://boards.greenhouse.io/dfinity/jobs/4408980002)
+* [Sr. Software Engineer - Systems - DFINITY - Palo Alto, CA or San Francisco, CA](https://boards.greenhouse.io/dfinity/jobs/4408974002)
+* [Sr. Software Engineer - Systems - DFINITY - Zurich, CH](https://boards.greenhouse.io/dfinity/jobs/4408981002)
+* [Software Engineer - SDK - DFINITY - Palo Alto, CA or San Francisco, CA](https://boards.greenhouse.io/dfinity/jobs/4286745002)
+* [Software Architect - Applied Crytography - Ockam - Remote or San Francisco](https://www.ockam.io/team/Software-Architect-Applied-Cryptography-in-Rust/61e07e82-0589-51de-b250-42dbceb31c3c)
+* [Senior Software Development Engineer - AWS Rust SDK - Amazon - Remote USA](https://www.amazon.jobs/en/jobs/1124901/senior-software-development-engineer-aws-rust-sdk)
+* [Sr. Software Engineer Rust/Go - Equilibrium](https://www.notion.so/Hiring-Senior-Software-Engineer-Rust-Go-e6c94ccc261f426c80a483c7fc642412)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
