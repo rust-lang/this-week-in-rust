@@ -143,6 +143,7 @@ Email the [Rust Community Team][community] for access.
 * [Software Engineer - SDK - DFINITY - Palo Alto, CA or San Francisco, CA](https://boards.greenhouse.io/dfinity/jobs/4286745002)
 * [Software Architect - Applied Crytography - Ockam - Remote or San Francisco](https://www.ockam.io/team/Software-Architect-Applied-Cryptography-in-Rust/61e07e82-0589-51de-b250-42dbceb31c3c)
 * [Senior Software Development Engineer - AWS Rust SDK - Amazon - Remote USA](https://www.amazon.jobs/en/jobs/1124901/senior-software-development-engineer-aws-rust-sdk)
+* [Software Development Engineer - AWS Lambda - Amazon - Seattle](https://amazon.jobs/en/jobs/1104420/software-development-engineer-aws-lambda)
 * [Sr. Software Engineer Rust/Go - Equilibrium](https://www.notion.so/Hiring-Senior-Software-Engineer-Rust-Go-e6c94ccc261f426c80a483c7fc642412)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
