@@ -18,6 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Multi-threaded HTTP/WebSocket server in Rust](https://sergey-melnychuk.github.io/2020/04/27/multi-threaded-http-websocket-server-in-rust/).
 * [Cheating Rank-n with Traits](https://leshow.github.io/post/cheat_rank_n/)
+* [From Pratt to Dijkstra](https://matklad.github.io//2020/04/15/from-pratt-to-dijkstra.html)
+* [Type-level programming in Rust](http://willcrichton.net/notes/type-level-programming/)
+* [Rust, Haskell, FFI, and a whole lot of linking](https://blog.mgattozzi.dev/rust-haskell-ffi-and-a-whole-lot-of-linking/)
 
 # Crate of the Week
 
