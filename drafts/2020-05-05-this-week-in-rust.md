@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [From Pratt to Dijkstra](https://matklad.github.io//2020/04/15/from-pratt-to-dijkstra.html)
 * [Learning embedded Rust by building RISC-V-powered robot - Part 4](https://matklad.github.io//2020/04/15/from-pratt-to-dijkstra.html)
 * [How to write CRaP Rust Code](https://blog.logrocket.com/how-to-write-crap-rust-code/)
+* [Rust concurrency: a streaming workflow, served with a side of back-pressure.](https://medium.com/@polyglot_factotum/rust-concurrency-a-streaming-workflow-served-with-a-side-of-back-pressure-955bdf0266b5)
 
 # Crate of the Week
 
