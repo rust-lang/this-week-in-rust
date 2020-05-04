@@ -28,7 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Learning embedded Rust by building RISC-V-powered robot - Part 4](https://matklad.github.io//2020/04/15/from-pratt-to-dijkstra.html)
 * [How to write CRaP Rust Code](https://blog.logrocket.com/how-to-write-crap-rust-code/)
 * [Rust concurrency: a streaming workflow, served with a side of back-pressure.](https://medium.com/@polyglot_factotum/rust-concurrency-a-streaming-workflow-served-with-a-side-of-back-pressure-955bdf0266b5)
-* [Wrigin a Python module in Rust using PyO3](https://kushaldas.in/posts/writing-python-module-in-rust-using-pyo3.html)
+* [Writing a Python module in Rust using PyO3](https://kushaldas.in/posts/writing-python-module-in-rust-using-pyo3.html)
 * [video] [Crust of Rust: Declarative Macros](https://www.youtube.com/watch?v=q6paRBbLgNw)
 * [video] [Rust Stream: String it All Together!](https://www.youtube.com/watch?v=7I11degAElQ)
 * [video] [Educational Rust live coding - Building a git CLI](https://www.youtube.com/watch?v=YFzF1AHYjes)
