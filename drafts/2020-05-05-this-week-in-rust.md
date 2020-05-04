@@ -19,8 +19,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Async interviews: my take thus far](https://smallcultfollowing.com/babysteps/blog/2020/04/30/async-interviews-my-take-thus-far/)
 * [Multi-threaded HTTP/WebSocket server in Rust](https://sergey-melnychuk.github.io/2020/04/27/multi-threaded-http-websocket-server-in-rust/).
 * [Cheating Rank-n with Traits](https://leshow.github.io/post/cheat_rank_n/)
+* [Type-level programming in Rust](http://willcrichton.net/notes/type-level-programming/)
 * [Rust at FullStory, Part 2: A Look Inside Our Mobile SDK](https://bionic.fullstory.com/rust-at-fullstory-part-2/)
-* [Type-level Programming in Rust](http://willcrichton.net/notes/type-level-programming/)
 * [Notes on Parsing in Rust](https://blog.wesleyac.com/posts/rust-parsing)
 * [Create a blazingly fast REST API in Rust (Part 1/2)](https://docs.qovery.com/guides/tutorial/create-a-blazingly-fast-api-in-rust-part-1/)
 * [The Safety Boat: Kubernetes and Rust](https://msrc-blog.microsoft.com/2020/04/29/the-safety-boat-kubernetes-and-rust/)
