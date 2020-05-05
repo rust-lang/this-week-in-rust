@@ -31,6 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Crust of Rust: Declarative Macros](https://www.youtube.com/watch?v=q6paRBbLgNw)
 * [video] [Rust Stream: String it All Together!](https://www.youtube.com/watch?v=7I11degAElQ)
 * [video] [Educational Rust live coding - Building a git CLI](https://www.youtube.com/watch?v=YFzF1AHYjes)
+* [Creating a Robust, Reusable Link-Checker](http://adventures.michaelfbryan.com/posts/linkchecker/)
 
 # Crate of the Week
 
