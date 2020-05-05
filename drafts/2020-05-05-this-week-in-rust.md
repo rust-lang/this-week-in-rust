@@ -52,6 +52,14 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
+* [clap-rs: Implement and Derive common traits](https://github.com/clap-rs/clap/issues/952)
+* [Boa has several issues marked "easy", "good first issues", and "help wanted"](https://github.com/jasonwilliams/boa/issues)
+* [Tokio: Non-consume method to wait for new messages on watch channel](https://github.com/tokio-rs/tokio/issues/2404)
+* [Tokio: Add is_closed to mpsc channels](https://github.com/tokio-rs/tokio/issues/2469)
+* [Tokio: Unicode characters are split when writing to windows terminal](https://github.com/tokio-rs/tokio/issues/2380)
+* [Tokio: select! with one branch causes a clippy error](https://github.com/tokio-rs/tokio/issues/2251)
+* [Stick: Call for Participation - Test More Joysticks On Linux](https://github.com/libcala/stick/issues/5)
+
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
 # Updates from Rust Core
