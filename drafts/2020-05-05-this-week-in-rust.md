@@ -34,9 +34,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [coercible_errors](https://crates.io/crates/coercible_errors), a library that allows generic trait implementations to omit the size cost of `Result::Err` if errors never happen.
+This week's crate is [WinRT-rs](https://github.com/microsoft/winrt-rs), Microsoft™'s official WinRT API for Rust.
 
-Thanks to [Zac Burns](https://users.rust-lang.org/t/crate-of-the-week/2704/763) for the suggestion!
+Thanks to [JLalu](https://users.rust-lang.org/t/crate-of-the-week/2704/767) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -55,36 +55,33 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-367 pull requests were [merged in the last week][merged]
+372 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-04-20..2020-04-27
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-04-27..2020-05-04
 
-* [don't run various MIR optimizations at mir-opt-level=0](https://github.com/rust-lang/rust/pull/70073)
-* [replace thread_local with generator resume arguments in `box_region`](https://github.com/rust-lang/rust/pull/71554)
-* [fix `-Zast-json` to output correct JSON form](https://github.com/rust-lang/rust/pull/71284)
-* [allow wasm32 compilation of `librustc_data_structures/profiling.rs`](https://github.com/rust-lang/rust/pull/71369)
-* [`proc_macro::is_available()`](https://github.com/rust-lang/rust/pull/71400)
-* [proc_macro: stabilize `Span::resolved_at` and `Span::located_at`](https://github.com/rust-lang/rust/pull/69041)
-* [attempt to recover perf by removing `exports_all_green`](https://github.com/rust-lang/rust/pull/71267)
-* [chalk: use `FxHashMap`/`FxHashSet` and add well-formed clause for tuples](https://github.com/rust-lang/chalk/pull/411)
-* [ConstProp: use a `BitSet<Local>` instead of `IndexVec<Local, bool>`](https://github.com/rust-lang/rust/pull/71312)
-* [fix span of `while` (`let`) expressions after lowering](https://github.com/rust-lang/rust/pull/71494)
-* [Miri Frame: use `mir::Location` to represent position in function](https://github.com/rust-lang/rust/pull/71475)
-* [add `BinaryHeap::retain`](https://github.com/rust-lang/rust/pull/71485)
-* [add a function to turn `Box<T>` into `Box<[T]>`](https://github.com/rust-lang/rust/pull/71421)
-* [add missing `Send` and `Sync` impls for linked list `Cursor` and `CursorMut`](https://github.com/rust-lang/rust/pull/71548)
-* [implement `BitOr` and `BitOrAssign` for the `NonZero` integer types](https://github.com/rust-lang/rust/pull/69813)
-* [stabilize most common subset of `alloc_layout_extras`](https://github.com/rust-lang/rust/pull/69362)
-* [stabilize `Span::mixed_site`](https://github.com/rust-lang/rust/pull/68716)
-* [stabilize `BTreeMap::remove_entry`](https://github.com/rust-lang/rust/pull/70712)
-* [futures: introduce `ready_chunks` adaptor](https://github.com/rust-lang/futures-rs/pull/2123)
-* [backport to 0.1: Avoid starvation from `FuturesUnordered::poll_next`](https://github.com/rust-lang/futures-rs/pull/2122)
-* [futures: add `AsyncWriteExt::write_all_vectored` utility](https://github.com/rust-lang/futures-rs/pull/1741)
-* [hashbrown: future-proof specialization code](https://github.com/rust-lang/hashbrown/pull/147)
-* [hashbrown: remove unsound use of specialization](https://github.com/rust-lang/hashbrown/pull/154)
-* [cargo: fix warning for `resolve` mismatch in workspace](https://github.com/rust-lang/cargo/pull/8169)
-* [cargo: add `resolver` opt-in for new feature resolver](https://github.com/rust-lang/cargo/pull/8129)
-* [rustdoc: replace big JS dict with JSON parsing](https://github.com/rust-lang/rust/pull/71250)
+* implement RFC [#2523](https://rust-lang.github.io/rfcs/2523-cfg-path-version.html), [`#[cfg(version(..))]`](https://github.com/rust-lang/rust/pull/71314)
+* [have the per-query caches store the results on arenas](https://github.com/rust-lang/rust/pull/70674)
+* [avoid duplicating code for each query](https://github.com/rust-lang/rust/pull/69808)
+* [forbid `dyn Trait` in patterns](https://github.com/rust-lang/rust/pull/71038)
+* [fix wrong argument in autoderef process](https://github.com/rust-lang/rust/pull/71627)
+* [suggest `into` instead of `try_into` if possible with int types](https://github.com/rust-lang/rust/pull/71617)
+* [tweak some suggestions in `rustc_resolve`](https://github.com/rust-lang/rust/pull/71438)
+* [add message for resolution failure because wrong namespace](https://github.com/rust-lang/rust/pull/71419)
+* [point at the return type on `.into()` failure caused by `?`](https://github.com/rust-lang/rust/pull/71409)
+* [suggest `;` or assignment to drop borrows in tail exprs](https://github.com/rust-lang/rust/pull/71217)
+* [on type mismatch involving associated type, suggest constraint](https://github.com/rust-lang/rust/pull/71108)
+* [minimize parameter of `coerce_borrowed_pointer`](https://github.com/rust-lang/rust/pull/71524)
+* [remove some `Vec` allocations to improve performance](https://github.com/rust-lang/rust/pull/71268)
+* [allow `Unreachable` terminators unconditionally in const-checking](https://github.com/rust-lang/rust/pull/71691)
+* [allow `Downcast` projections unconditionally in const-checking](https://github.com/rust-lang/rust/pull/71688)
+* [added MIR constant propagation of Scalars into function call arguments](https://github.com/rust-lang/rust/pull/71697)
+* [Miri: unleash all feature gates](https://github.com/rust-lang/rust/pull/71631)
+* [use existing framework for backward dataflow analyses](https://github.com/rust-lang/rust/pull/71006)
+* [add Read/Write::can_read/write_vectored](https://github.com/rust-lang/rust/pull/67841)
+* [add `RefCell::take`](https://github.com/rust-lang/rust/pull/71398)
+* [`slice::fill`: use `T` instead of generic arg](https://github.com/rust-lang/rust/pull/71165)
+* [`Vec` `drop` and `truncate`: drop using raw slice `*mut [T]`](https://github.com/rust-lang/rust/pull/71148)
+* [hashbrown: mark `RawTable::par_iter` `unsafe`](https://github.com/rust-lang/hashbrown/pull/157)
 
 ## Approved RFCs
 
@@ -154,11 +151,12 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Vecs in Rust in general, are crazy fast; faster than I can replicate in C. Amazing.
+> I love Rust like I love Dark Souls.  
+> It's difficult, but fair. I can not praise enough the software developers that realize proper errors are vastly superior to extensive docs.
 
-– [Jonathan Eisenzopf on rust-users](https://users.rust-lang.org/t/very-fast-initialization-of-a-vec-of-vecs/41301/17)
+– [seph-reed on Hacker News](https://news.ycombinator.com/item?id=23032636)
 
-Thanks to [Louis Cloete](https://users.rust-lang.org/t/twir-quote-of-the-week/328/857) for the suggestions!
+Thanks to [Armando Pérez Marqués](https://users.rust-lang.org/t/twir-quote-of-the-week/328/864) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
