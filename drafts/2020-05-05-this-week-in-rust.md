@@ -19,6 +19,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Async interviews: my take thus far](https://smallcultfollowing.com/babysteps/blog/2020/04/30/async-interviews-my-take-thus-far/)
 * [Multi-threaded HTTP/WebSocket server in Rust](https://sergey-melnychuk.github.io/2020/04/27/multi-threaded-http-websocket-server-in-rust/).
 * [Cheating Rank-n with Traits](https://leshow.github.io/post/cheat_rank_n/)
+* [Understanding Memory and Thread Safety Practices
+and Issues in Real-World Rust Programs](https://cseweb.ucsd.edu/~yiying/RustStudy-PLDI20.pdf)
+* [A beginners guide to gRPC with Rust](https://dev.to/anshulgoyal15/a-beginners-guide-to-grpc-with-rust-3c7o)
+* [Setup Anaconda, Jupyter, and Rust](https://shahinrostami.com/posts/programming/rust-notebooks/setup-anaconda-jupyter-and-rust/)
+* [Teleforking a process onto a different computer!](https://thume.ca/2020/04/18/telefork-forking-a-process-onto-a-different-computer/)
+* [Stubbing out WASI manually in Rust](http://www.jakubkonka.com/2020/04/28/rust-wasi-from-scratch.html)
+* [Rust Analyzer - Changelog #22](https://rust-analyzer.github.io/thisweek/2020/04/27/changelog-22.html)
+* [IntelliJ Rust changelog #121](https://intellij-rust.github.io/2020/04/27/changelog-121.html)
 * [Type-level programming in Rust](http://willcrichton.net/notes/type-level-programming/)
 * [Rust at FullStory, Part 2: A Look Inside Our Mobile SDK](https://bionic.fullstory.com/rust-at-fullstory-part-2/)
 * [Notes on Parsing in Rust](https://blog.wesleyac.com/posts/rust-parsing)
@@ -31,6 +39,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Crust of Rust: Declarative Macros](https://www.youtube.com/watch?v=q6paRBbLgNw)
 * [video] [Rust Stream: String it All Together!](https://www.youtube.com/watch?v=7I11degAElQ)
 * [video] [Educational Rust live coding - Building a git CLI](https://www.youtube.com/watch?v=YFzF1AHYjes)
+* [video] [Maximum Sum of Subarrays (Leetcode) in Rust](https://www.youtube.com/watch?v=G1deF4Rehlw)
+* [video] [WASM + Rust](https://www.youtube.com/watch?list=PLDWmoWFf46gj7htqRU1yNwM3SeaqfLKhH&v=gpaNGlka7FY&feature=emb_logo)
+* [video] [Concurrency in Rust with Async/Await](https://www.youtube.com/watch?v=hrNoTZMG2MU)
+* [video] [Rust and Tell Berlin Meetup - April 2020 [video]](https://www.youtube.com/watch?v=yGuxtodWYDs)
+* [video] [Rust Zürisee, April: cargo crev and cargo audit](https://www.youtube.com/watch?v=_xS40wqO8GA)
 
 # Crate of the Week
 
@@ -118,8 +131,6 @@ decision. Express your opinions now.
 
 ### Online
 
-* [Apr 30. Zurich, CH - Rust Zurich - Security in Rust: cargo-crev and cargo-audit](https://www.meetup.com/Rust-Zurich/events/270169298/).
-* [May  4. Auckland, NZ - Rust AKL - Rust Implementation of Ethereum2.0 + Adding WASM Support to a Native Application](https://www.meetup.com/rust-akl/events/266876545/).
 * [May 20. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybchbbc/).
 
 ### North America
