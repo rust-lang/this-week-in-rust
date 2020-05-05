@@ -23,16 +23,13 @@ and Issues in Real-World Rust Programs](https://cseweb.ucsd.edu/~yiying/RustStud
 * [A beginners guide to gRPC with Rust](https://dev.to/anshulgoyal15/a-beginners-guide-to-grpc-with-rust-3c7o)
 * [Setup Anaconda, Jupyter, and Rust](https://shahinrostami.com/posts/programming/rust-notebooks/setup-anaconda-jupyter-and-rust/)
 * [Teleforking a process onto a different computer!](https://thume.ca/2020/04/18/telefork-forking-a-process-onto-a-different-computer/)
-* [Rust at FullStory, Part 2: A Look Inside Our Mobile SDK](https://bionic.fullstory.com/rust-at-fullstory-part-2/)
 * [Stubbing out WASI manually in Rust](http://www.jakubkonka.com/2020/04/28/rust-wasi-from-scratch.html)
-* [Recon the Hydra Cave: a development note of Rust on GCC](https://nalaginrut.com/archives/2020/04/28/recon%20the%20hydra%20cave%3a%20a%20development%20note%20of%20rust%20on%20gcc%20%28part%201%29)
-* [Educational Rust live coding - Building a git CLI](https://www.youtube.com/watch?v=YFzF1AHYjes)
-* [Maximum Sum of Subarrays (Leetcode) in Rust](https://www.youtube.com/watch?v=G1deF4Rehlw)
-* [WASM + Rust](https://www.youtube.com/watch?list=PLDWmoWFf46gj7htqRU1yNwM3SeaqfLKhH&v=gpaNGlka7FY&feature=emb_logo)
-* [Concurrency in Rust with Async/Await](https://www.youtube.com/watch?v=hrNoTZMG2MU)
-* [Rust and Tell Berlin Meetup - April 2020 [video]](https://www.youtube.com/watch?v=yGuxtodWYDs)
-* [Rust Zürisee, April: cargo crev and cargo audit](https://www.youtube.com/watch?v=_xS40wqO8GA)
-* [Updates to our Rust Cargo.toml Scanner](https://blog.firosolutions.com/2020/04/cargo-scanner-updates/)
+* [video][Educational Rust live coding - Building a git CLI](https://www.youtube.com/watch?v=YFzF1AHYjes)
+* [video][Maximum Sum of Subarrays (Leetcode) in Rust](https://www.youtube.com/watch?v=G1deF4Rehlw)
+* [video][WASM + Rust](https://www.youtube.com/watch?list=PLDWmoWFf46gj7htqRU1yNwM3SeaqfLKhH&v=gpaNGlka7FY&feature=emb_logo)
+* [video][Concurrency in Rust with Async/Await](https://www.youtube.com/watch?v=hrNoTZMG2MU)
+* [video][Rust and Tell Berlin Meetup - April 2020 [video]](https://www.youtube.com/watch?v=yGuxtodWYDs)
+* [video][Rust Zürisee, April: cargo crev and cargo audit](https://www.youtube.com/watch?v=_xS40wqO8GA)
 * [Rust Analyzer - Changelog #22](https://rust-analyzer.github.io/thisweek/2020/04/27/changelog-22.html)
 * [IntelliJ Rust changelog #121](https://intellij-rust.github.io/2020/04/27/changelog-121.html)
 
@@ -122,7 +119,6 @@ decision. Express your opinions now.
 
 ### Online
 
-* [May  4. Auckland, NZ - Rust AKL - Rust Implementation of Ethereum2.0 + Adding WASM Support to a Native Application](https://www.meetup.com/rust-akl/events/266876545/).
 * [May 20. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybchbbc/).
 
 ### North America
