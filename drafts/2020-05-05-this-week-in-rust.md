@@ -24,7 +24,6 @@ and Issues in Real-World Rust Programs](https://cseweb.ucsd.edu/~yiying/RustStud
 * [Setup Anaconda, Jupyter, and Rust](https://shahinrostami.com/posts/programming/rust-notebooks/setup-anaconda-jupyter-and-rust/)
 * [Teleforking a process onto a different computer!](https://thume.ca/2020/04/18/telefork-forking-a-process-onto-a-different-computer/)
 * [Stubbing out WASI manually in Rust](http://www.jakubkonka.com/2020/04/28/rust-wasi-from-scratch.html)
-* [video][Educational Rust live coding - Building a git CLI](https://www.youtube.com/watch?v=YFzF1AHYjes)
 * [video][Maximum Sum of Subarrays (Leetcode) in Rust](https://www.youtube.com/watch?v=G1deF4Rehlw)
 * [video][WASM + Rust](https://www.youtube.com/watch?list=PLDWmoWFf46gj7htqRU1yNwM3SeaqfLKhH&v=gpaNGlka7FY&feature=emb_logo)
 * [video][Concurrency in Rust with Async/Await](https://www.youtube.com/watch?v=hrNoTZMG2MU)
