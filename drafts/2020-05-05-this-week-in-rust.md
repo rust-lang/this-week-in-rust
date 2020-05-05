@@ -116,7 +116,6 @@ are the RFCs that were approved for implementation this week:
 
 * [RFC 2585: FC for unsafe blocks in unsafe fn](https://github.com/rust-lang/rfcs/pull/2585)
 
-
 ## Final Comment Period
 
 Every week [the team](https://www.rust-lang.org/team.html) announces the
