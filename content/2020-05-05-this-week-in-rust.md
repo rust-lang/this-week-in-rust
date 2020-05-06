@@ -33,7 +33,7 @@ and Issues in Real-World Rust Programs](https://cseweb.ucsd.edu/~yiying/RustStud
 * [Create a blazingly fast REST API in Rust (Part 1/2)](https://docs.qovery.com/guides/tutorial/create-a-blazingly-fast-api-in-rust-part-1/)
 * [The Safety Boat: Kubernetes and Rust](https://msrc-blog.microsoft.com/2020/04/29/the-safety-boat-kubernetes-and-rust/)
 * [From Pratt to Dijkstra](https://matklad.github.io//2020/04/15/from-pratt-to-dijkstra.html)
-* [Learning embedded Rust by building RISC-V-powered robot - Part 4](https://matklad.github.io//2020/04/15/from-pratt-to-dijkstra.html)
+* [Learning embedded Rust by building RISC-V-powered robot - Part 4](https://k155la3.blog/2020/04/19/learning-embedded-rust-by-building-riscv-powered-robot-part-4/)
 * [How to write CRaP Rust Code](https://blog.logrocket.com/how-to-write-crap-rust-code/)
 * [Rust concurrency: a streaming workflow, served with a side of back-pressure.](https://medium.com/@polyglot_factotum/rust-concurrency-a-streaming-workflow-served-with-a-side-of-back-pressure-955bdf0266b5)
 * [Writing a Python module in Rust using PyO3](https://kushaldas.in/posts/writing-python-module-in-rust-using-pyo3.html)
