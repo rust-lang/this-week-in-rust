@@ -143,11 +143,13 @@ decision. Express your opinions now.
 * [May 6. Johannesburg, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup)
 * [May 12. Seattle, WA, US - Seattle Rust Meetup](http://www.meetup.com/Seattle-Rust-Meetup/)
 * [May 14. San Diego, CA, US - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/270394980/)
+* [May 14, Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybchbsb/)
 * [May 20. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybchbbc/).
 
 ### North America
 * [May 13. Vancouver, BC, CA - Vancouver Rust Meetup](https://www.meetup.com/Vancouver-Rust/events/)
 * [May 14. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybchbsb/).
+
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
