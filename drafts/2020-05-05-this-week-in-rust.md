@@ -66,6 +66,14 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
+* [clap-rs: Implement and Derive common traits](https://github.com/clap-rs/clap/issues/952)
+* [Boa has several issues marked "easy", "good first issues", and "help wanted"](https://github.com/jasonwilliams/boa/issues)
+* [Tokio: Non-consume method to wait for new messages on watch channel](https://github.com/tokio-rs/tokio/issues/2404)
+* [Tokio: Add is_closed to mpsc channels](https://github.com/tokio-rs/tokio/issues/2469)
+* [Tokio: Unicode characters are split when writing to windows terminal](https://github.com/tokio-rs/tokio/issues/2380)
+* [Tokio: select! with one branch causes a clippy error](https://github.com/tokio-rs/tokio/issues/2251)
+* [Stick: Call for Participation - Test More Joysticks On Linux](https://github.com/libcala/stick/issues/5)
+
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
 # Updates from Rust Core
@@ -103,7 +111,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2836: Introduce the ASM project group](https://github.com/rust-lang/rfcs/pull/2836).
+* [RFC 2585: FC for unsafe blocks in unsafe fn](https://github.com/rust-lang/rfcs/pull/2585)
 
 ## Final Comment Period
 
@@ -111,20 +119,21 @@ Every week [the team](https://www.rust-lang.org/team.html) announces the
 'final comment period' for RFCs and key PRs which are reaching a
 decision. Express your opinions now.
 
+
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Project Groups](https://github.com/rust-lang/rfcs/pull/2856).
+*No RFCs are in final comment period this week*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize the `#[alloc_error_handler]` attribute (for no_std + liballoc)](https://github.com/rust-lang/rust/issues/66740).
-* [disposition: merge] [Make `handle_alloc_error` default to panic (for no_std + liballoc)](https://github.com/rust-lang/rust/issues/66741).
-* [disposition: merge] [Remove language-level UB for non-UTF-8 str](https://github.com/rust-lang/rust/issues/71033).
-* [disposition: merge] [Define UB in float-to-int casts to saturate](https://github.com/rust-lang/rust/pull/71269).
+* [disposition: merge] [Tracking issue for RFC 2432, "Allow `if` and `match` in constants"](https://github.com/rust-lang/rust/issues/49146)
+* [disposition: merge] [Tracking issue for std::sync::Once poisoning](https://github.com/rust-lang/rust/issues/33577)
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [Inline `const` expressions and patterns](https://github.com/rust-lang/rfcs/pull/2920)
+* [Add the `experimental_keywords` ability](https://github.com/rust-lang/rfcs/pull/2919)
+* [sigil-option-notation](https://github.com/rust-lang/rfcs/pull/2918)
 
 # Upcoming Events
 
@@ -134,9 +143,18 @@ decision. Express your opinions now.
 
 ### North America
 
+* [May 6. Johannesburg, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup)
 * [May  6. Portland, OR, US - PDXRust - NES Emulation in Rust](https://www.meetup.com/PDXRust/events/269165311/).
 * [May  6. Indianapolis, IN, US - Indy.rs - Rust Meetup](https://www.meetup.com/indyrs/events/dtqwprybchbjb/).
-* [May 15. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybchbsb/).
+* [May 6. Atlanta, GA, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/)
+* [May 11. Seattle, WA, US - Seattle Rust Meetup](http://www.meetup.com/Seattle-Rust-Meetup/)
+* [May 13. Denver, CO, US Rust Boulder/Denver Monthly Meeting](https://www.meetup.com/Rust-Boulder-Denver/)
+* [May 13. Vancouver, BC, CA - Vancouver Rust Meetup](https://www.meetup.com/Vancouver-Rust/events/)
+* [May 14. Berlin, DE - Berlin Rust Hack and Learn](https://berline.rs/)
+* [May 14. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybchbsb/).
+* [May 14. Lehi, UT, US - Utah Rust Monthly Meetup](https://www.meetup.com/utahrust)
+* [May 14. San Diego, CA, US - San Diego Rust](http://meetu.ps/c/2vF0G/4DXV4/a)
+* [May 19. Paris, FR - Rust Paris](https://www.meetup.com/Rust-Paris)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
