@@ -193,4 +193,4 @@ Thanks to [Armando Pérez Marqués](https://users.rust-lang.org/t/twir-quote-of-
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), [srikwit](https://github.com/srikwit), and [nasa42](https://github.com/nasa42).*
 
-<small>[Discuss on r/rust]().</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/geagy0/this_week_in_rust_337/).</small>
