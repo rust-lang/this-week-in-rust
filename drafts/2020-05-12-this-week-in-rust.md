@@ -139,6 +139,6 @@ Thanks to [Armando Pérez Marqués](https://users.rust-lang.org/t/twir-quote-of-
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
-*This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), [srikwit](https://github.com/srikwit), and [nasa42](https://github.com/nasa42).*
+*This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [srikwit](https://github.com/srikwit).*
 
 <small>[Discuss on r/rust]().</small>
