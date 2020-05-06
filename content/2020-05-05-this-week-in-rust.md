@@ -49,7 +49,7 @@ and Issues in Real-World Rust Programs](https://cseweb.ucsd.edu/~yiying/RustStud
 
 # Crate of the Week
 
-This week's crate is [WinRT-rs](https://github.com/microsoft/winrt-rs), Microsoft™'s official WinRT API for Rust.
+This week's crate is [winrt](https://github.com/microsoft/winrt-rs), Microsoft's Rust/WinRT language projection.
 
 Thanks to [JLalu](https://users.rust-lang.org/t/crate-of-the-week/2704/767) for the suggestion!
 
