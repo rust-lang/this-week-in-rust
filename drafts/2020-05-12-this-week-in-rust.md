@@ -15,6 +15,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [This Month in Rust OSDev (April 2020)](https://rust-osdev.com/this-month/2020-04/)
+* [A no_std Rust binary](https://fasterthanli.me/blog/2020/a-no-std-rust-binary/)
+* [Notes on io_uring](https://boats.gitlab.io/blog/post/io-uring/)
+* [no_std async/await - soon on stable](https://ferrous-systems.com/blog/stable-async-on-embedded/)
+* ["try fn" without special-casing Result ](https://dev.to/cad97/try-fn-without-special-casing-result-4m5b)
+* [time_it: A case study in Rust macros](https://notes.iveselov.info/programming/time_it-a-case-study-in-rust-macros)
+* [Dynamic stylesheets and Yew](https://conradludgate.com/posts/yew-css/)
 
 # Crate of the Week
 
