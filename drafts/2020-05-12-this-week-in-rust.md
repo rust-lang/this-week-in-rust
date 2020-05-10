@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Romt - Rust Offline Mirror Tool](https://github.com/drmikehenry/romt)
+
 # Crate of the Week
 
 This week's crate is [WinRT-rs](https://github.com/microsoft/winrt-rs), Microsoft™'s official WinRT API for Rust.
