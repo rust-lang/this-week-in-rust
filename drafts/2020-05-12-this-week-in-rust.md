@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [Romt - Rust Offline Mirror Tool](https://github.com/drmikehenry/romt)
+* [Romt "Rust Offline Mirror Tool" Released](https://github.com/drmikehenry/romt)
 
 # Crate of the Week
 
