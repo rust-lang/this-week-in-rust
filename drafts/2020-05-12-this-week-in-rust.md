@@ -16,6 +16,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 * [Rust concurrency: the single-writer principle.](https://medium.com/@polyglot_factotum/rust-concurrency-the-single-writer-principle-applied-aada2cdc6fb0?source=friends_link&sk=cafc8dcf8babf4ec95b1b62ccde7e54b)
+* [This Month in Rust OSDev (April 2020)](https://rust-osdev.com/this-month/2020-04/)
+* [A no_std Rust binary](https://fasterthanli.me/blog/2020/a-no-std-rust-binary/)
+* [Notes on io_uring](https://boats.gitlab.io/blog/post/io-uring/)
+* [no_std async/await - soon on stable](https://ferrous-systems.com/blog/stable-async-on-embedded/)
+* ["try fn" without special-casing Result ](https://dev.to/cad97/try-fn-without-special-casing-result-4m5b)
+* [time_it: A case study in Rust macros](https://notes.iveselov.info/programming/time_it-a-case-study-in-rust-macros)
+* [Dynamic stylesheets and Yew](https://conradludgate.com/posts/yew-css/)
+* [A practical introduction to async programming in Rust](http://jamesmcm.github.io/blog/2020/05/06/a-practical-introduction-to-async-programming-in-rust/#en)
 
 # Crate of the Week
 
@@ -33,6 +41,9 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [s3rename: Atomic renames and asynchronous destructors](https://github.com/jamesmcm/s3rename/issues/16)
+* [sedregex: Add support for translation commands y/ and tr/](https://gitlab.com/mexus/sedregex/-/issues/4)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
