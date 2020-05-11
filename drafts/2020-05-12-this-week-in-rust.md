@@ -15,6 +15,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+
+* [Announcing Rust 1.43.1](https://blog.rust-lang.org/2020/05/07/Rust.1.43.1.html)
 * [Rust concurrency: the single-writer principle.](https://medium.com/@polyglot_factotum/rust-concurrency-the-single-writer-principle-applied-aada2cdc6fb0?source=friends_link&sk=cafc8dcf8babf4ec95b1b62ccde7e54b)
 * [This Month in Rust OSDev (April 2020)](https://rust-osdev.com/this-month/2020-04/)
 * [A no_std Rust binary](https://fasterthanli.me/blog/2020/a-no-std-rust-binary/)
@@ -24,8 +26,28 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [time_it: A case study in Rust macros](https://notes.iveselov.info/programming/time_it-a-case-study-in-rust-macros)
 * [Dynamic stylesheets and Yew](https://conradludgate.com/posts/yew-css/)
 * [A practical introduction to async programming in Rust](http://jamesmcm.github.io/blog/2020/05/06/a-practical-introduction-to-async-programming-in-rust/#en)
-
-+ [Collecting many errors from an iterator of Results](https://tarquin-the-brave.github.io/blog/posts/collecting-all-the-errors/).
+* [Collecting many errors from an iterator of Results](https://tarquin-the-brave.github.io/blog/posts/collecting-all-the-errors/).
+* [AssemblyLift: a Framework for running WebAssembly on AWS Lambda](https://dev.to/akkoro/assemblylift-a-framework-for-running-webassembly-on-aws-lambda-2m96)
+* [Auto-currying Rust Functions](https://peppe.rs/posts/auto-currying_rust_functions/)
+* [Converting bits to integers in Rust using generics](https://dev.to/citizen_stig/converting-bits-to-integers-in-rust-using-generics-2nfg)
+* [Magnifying Glasses for Rust Assembly](https://www.justanotherdot.com/posts/magnifying-glasses-for-rust-assembly.html)
+* [More Rust and Load Balancer Adventures](https://medium.com/@bparli/more-rust-and-load-balancer-adventures-fad07f4fb095) 
+* [Porting North Korean Dictionaries with Rust](https://digitalnk.com/blog/2020/05/08/porting-north-korean-dictionaries-with-rust/)
+* [Restart accel project, GPGPU Framework for Rust: 0.3.0 Release](https://users.rust-lang.org/t/restart-accel-project-gpgpu-framework-for-rust-0-3-0-release/42087)
+* [Rust Compile Times Are Not Slow](https://wiki.alopex.li/RustCompileTimesAreNotSlow)
+* [Rust Performance Is Getting Hurt On LLVM 10 With Noticeably Longer Build Times](https://www.phoronix.com/scan.php?page=news_item&px=Rust-Hurt-On-LLVM-10)
+* [Rust verification tools](https://alastairreid.github.io/rust-verification-tools/)
+* [Series Announcement - Zero to Production in Rust](https://www.lpalmieri.com/posts/2020-05-10-announcement-zero-to-production-in-rust/)
+* [Super Simple Disk Benchmark written in rust](https://www.d34dl0ck.me/super-simple-disk-benchmark-written-in-rust.html#super-simple-disk-benchmark-written-in-rust)
+* [TERMINAL UI FOR GIT WRITTEN IN RUST](https://blog.extrawurst.org/general/2020/05/08/gitui-release.html)
+* [Using Rust to Power Python Importing With oxidized_importer](https://gregoryszorc.com/blog/2020/05/10/using-rust-to-power-python-importing-with-oxidized_importer/)
+* [What I Learned Contributing to Rust-Analyzer](https://dev.to/bnjjj/what-i-learned-contributing-to-rust-analyzer-4c7e)
+* [What’s the difference between a Rust char and a Go rune?](https://www.christianfscott.com/rust-chars-vs-go-runes/)
+* [Writing A Wayland Compositor In Rust](https://wiki.alopex.li/WritingAWaylandCompositorInRust)
+* [Yak shaving conditional compilation in Rust](https://bitshifter.github.io/2020/05/07/conditional-compilation-in-rust/)
+* [YEW Tutorial: 03 Services and all](https://dev.to/davidedelpapa/yew-tutorial-03-services-and-all-28ef)
+* [video] [Building a simple GraphQL API with Actix and Juniper](https://youtu.be/7v7ERnrC4fo)
+* [video] [Named Field Init in C, C++20, Zig, Rust, & D](https://www.youtube.com/watch?v=c-NyXKbqmQc)
 
 # Crate of the Week
 
@@ -153,6 +175,6 @@ Thanks to [Armando Pérez Marqués](https://users.rust-lang.org/t/twir-quote-of-
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
-*This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [srikwit](https://github.com/srikwit).*
+*This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), [srikwit](https://github.com/srikwit), and [cdmistman](https://github.com/cdmistman).*
 
 <small>[Discuss on r/rust]().</small>
