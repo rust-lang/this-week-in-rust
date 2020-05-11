@@ -24,8 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [time_it: A case study in Rust macros](https://notes.iveselov.info/programming/time_it-a-case-study-in-rust-macros)
 * [Dynamic stylesheets and Yew](https://conradludgate.com/posts/yew-css/)
 * [A practical introduction to async programming in Rust](http://jamesmcm.github.io/blog/2020/05/06/a-practical-introduction-to-async-programming-in-rust/#en)
-
-+ [Collecting many errors from an iterator of Results](https://tarquin-the-brave.github.io/blog/posts/collecting-all-the-errors/).
+* [Collecting many errors from an iterator of Results](https://tarquin-the-brave.github.io/blog/posts/collecting-all-the-errors/).
 
 # Crate of the Week
 
