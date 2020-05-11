@@ -25,6 +25,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Dynamic stylesheets and Yew](https://conradludgate.com/posts/yew-css/)
 * [A practical introduction to async programming in Rust](http://jamesmcm.github.io/blog/2020/05/06/a-practical-introduction-to-async-programming-in-rust/#en)
 
++ [Collecting many errors from an iterator of Results](https://tarquin-the-brave.github.io/blog/posts/collecting-all-the-errors/).
+
 # Crate of the Week
 
 This week's crate is [WinRT-rs](https://github.com/microsoft/winrt-rs), Microsoft™'s official WinRT API for Rust.
