@@ -27,13 +27,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Dynamic stylesheets and Yew](https://conradludgate.com/posts/yew-css/)
 * [A practical introduction to async programming in Rust](http://jamesmcm.github.io/blog/2020/05/06/a-practical-introduction-to-async-programming-in-rust/#en)
 * [Collecting many errors from an iterator of Results](https://tarquin-the-brave.github.io/blog/posts/collecting-all-the-errors/).
-* [AssemblyLift: a Framework for running WebAssembly on AWS Lambda](https://dev.to/akkoro/assemblylift-a-framework-for-running-webassembly-on-aws-lambda-2m96)
 * [Auto-currying Rust Functions](https://peppe.rs/posts/auto-currying_rust_functions/)
 * [Converting bits to integers in Rust using generics](https://dev.to/citizen_stig/converting-bits-to-integers-in-rust-using-generics-2nfg)
 * [Magnifying Glasses for Rust Assembly](https://www.justanotherdot.com/posts/magnifying-glasses-for-rust-assembly.html)
 * [More Rust and Load Balancer Adventures](https://medium.com/@bparli/more-rust-and-load-balancer-adventures-fad07f4fb095) 
 * [Porting North Korean Dictionaries with Rust](https://digitalnk.com/blog/2020/05/08/porting-north-korean-dictionaries-with-rust/)
-* [Restart accel project, GPGPU Framework for Rust: 0.3.0 Release](https://users.rust-lang.org/t/restart-accel-project-gpgpu-framework-for-rust-0-3-0-release/42087)
 * [Rust Compile Times Are Not Slow](https://wiki.alopex.li/RustCompileTimesAreNotSlow)
 * [Rust Performance Is Getting Hurt On LLVM 10 With Noticeably Longer Build Times](https://www.phoronix.com/scan.php?page=news_item&px=Rust-Hurt-On-LLVM-10)
 * [Rust verification tools](https://alastairreid.github.io/rust-verification-tools/)
