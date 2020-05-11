@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Rust concurrency: the single-writer principle.](https://medium.com/@polyglot_factotum/rust-concurrency-the-single-writer-principle-applied-aada2cdc6fb0?source=friends_link&sk=cafc8dcf8babf4ec95b1b62ccde7e54b)
 * [This Month in Rust OSDev (April 2020)](https://rust-osdev.com/this-month/2020-04/)
 * [A no_std Rust binary](https://fasterthanli.me/blog/2020/a-no-std-rust-binary/)
 * [Notes on io_uring](https://boats.gitlab.io/blog/post/io-uring/)
@@ -22,7 +23,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * ["try fn" without special-casing Result ](https://dev.to/cad97/try-fn-without-special-casing-result-4m5b)
 * [time_it: A case study in Rust macros](https://notes.iveselov.info/programming/time_it-a-case-study-in-rust-macros)
 * [Dynamic stylesheets and Yew](https://conradludgate.com/posts/yew-css/)
-
 * [A practical introduction to async programming in Rust](http://jamesmcm.github.io/blog/2020/05/06/a-practical-introduction-to-async-programming-in-rust/#en)
 
 # Crate of the Week
