@@ -23,6 +23,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [time_it: A case study in Rust macros](https://notes.iveselov.info/programming/time_it-a-case-study-in-rust-macros)
 * [Dynamic stylesheets and Yew](https://conradludgate.com/posts/yew-css/)
 
+* [A practical introduction to async programming in Rust](http://jamesmcm.github.io/blog/2020/05/06/a-practical-introduction-to-async-programming-in-rust/#en)
+
 # Crate of the Week
 
 This week's crate is [WinRT-rs](https://github.com/microsoft/winrt-rs), Microsoft™'s official WinRT API for Rust.
