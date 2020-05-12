@@ -65,6 +65,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [s3rename: Atomic renames and asynchronous destructors](https://github.com/jamesmcm/s3rename/issues/16)
 * [sedregex: Add support for translation commands y/ and tr/](https://gitlab.com/mexus/sedregex/-/issues/4)
+* [clap: Usage suggests help subcommand when using DisableHelpSubcommand](https://github.com/clap-rs/clap/issues/1463)
+* [displaydoc](https://github.com/yaahc/displaydoc/issues/15)
+* [GitUI is looking for contributors](https://github.com/extrawurst/gitui/issues)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -107,6 +110,7 @@ Changes to Rust follow the Rust [RFC (request for comments) process](https://git
 are the RFCs that were approved for implementation this week:
 
 * [RFC 2585: FC for unsafe blocks in unsafe fn](https://github.com/rust-lang/rfcs/pull/2585)
+* [RFC 2904: Major Change Proposal](https://github.com/rust-lang/rfcs/pull/2904)
 
 ## Final Comment Period
 
@@ -117,39 +121,37 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are in final comment period this week*
+* [RFC: Deduplicate Cargo workspace information](https://github.com/rust-lang/rfcs/pull/2906)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Tracking issue for RFC 2432, "Allow `if` and `match` in constants"](https://github.com/rust-lang/rust/issues/49146)
-* [disposition: merge] [Tracking issue for std::sync::Once poisoning](https://github.com/rust-lang/rust/issues/33577)
+* [disposition: merge] [Stablilize saturating_abs and saturating_neg](https://github.com/rust-lang/rust/pull/71886)
+* [disposition: merge] [Tweak and stabilize AtomicN::fetch_update](https://github.com/rust-lang/rust/pull/71843)
+* [disposition: merge] [impl From<Cow> for Box, Rc, and Arc](https://github.com/rust-lang/rust/pull/71447)
+* [disposition: merge] [Stabilize fn-like proc macros in expression, pattern and statement positions](https://github.com/rust-lang/rust/pull/68717)
+* [disposition: merge] [Tracking issue for Weak::into_raw/from_raw & similar](https://github.com/rust-lang/rust/issues/60728)
+* [disposition: clone] [Tracking issue for non_static_type_id](https://github.com/rust-lang/rust/issues/41875)
 
 ## New RFCs
-
-* [Inline `const` expressions and patterns](https://github.com/rust-lang/rfcs/pull/2920)
-* [Add the `experimental_keywords` ability](https://github.com/rust-lang/rfcs/pull/2919)
-* [sigil-option-notation](https://github.com/rust-lang/rfcs/pull/2918)
+* [Do not warn about similar ASCII-only idents](https://github.com/rust-lang/rfcs/pull/2923)
+* [RFC - cargo templates](https://github.com/rust-lang/rfcs/pull/2922)
 
 # Upcoming Events
 
 ### Online
-
+* [May 12. Seattle, WA, US - Seattle Rust Meetup](http://www.meetup.com/Seattle-Rust-Meetup/)
+* [May 14. San Diego, CA, US - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/270394980/)
+* [May 14, Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybchbsb/)
 * [May 20. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybchbbc/).
+* [May 21. Turin, IT - Rust Turin Meetup](https://community.mozilla.org/events/gruppo-di-studio-di-rust/)
+* [May 26. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybchbjc/)
+
 
 ### North America
-
-* [May 6. Johannesburg, ZA - Johannesburg meetup](https://www.meetup.com/Johannesburg-Rust-Meetup)
-* [May  6. Portland, OR, US - PDXRust - NES Emulation in Rust](https://www.meetup.com/PDXRust/events/269165311/).
-* [May  6. Indianapolis, IN, US - Indy.rs - Rust Meetup](https://www.meetup.com/indyrs/events/dtqwprybchbjb/).
-* [May 6. Atlanta, GA, US - Rust Atlanta Meetup](https://www.meetup.com/Rust-ATL/)
-* [May 11. Seattle, WA, US - Seattle Rust Meetup](http://www.meetup.com/Seattle-Rust-Meetup/)
-* [May 13. Denver, CO, US Rust Boulder/Denver Monthly Meeting](https://www.meetup.com/Rust-Boulder-Denver/)
 * [May 13. Vancouver, BC, CA - Vancouver Rust Meetup](https://www.meetup.com/Vancouver-Rust/events/)
-* [May 14. Berlin, DE - Berlin Rust Hack and Learn](https://berline.rs/)
 * [May 14. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybchbsb/).
-* [May 14. Lehi, UT, US - Utah Rust Monthly Meetup](https://www.meetup.com/utahrust)
-* [May 14. San Diego, CA, US - San Diego Rust](http://meetu.ps/c/2vF0G/4DXV4/a)
-* [May 19. Paris, FR - Rust Paris](https://www.meetup.com/Rust-Paris)
+* [May 25. Durham, NC, US - Triangle Rustaceans - Project Night and Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybchbhc/)
+
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
