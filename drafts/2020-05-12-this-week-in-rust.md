@@ -15,6 +15,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ## News & Blog Posts
+
+* [Announcing Rust 1.43.1](https://blog.rust-lang.org/2020/05/07/Rust.1.43.1.html)
 * [Rust concurrency: the single-writer principle.](https://medium.com/@polyglot_factotum/rust-concurrency-the-single-writer-principle-applied-aada2cdc6fb0?source=friends_link&sk=cafc8dcf8babf4ec95b1b62ccde7e54b)
 * [This Month in Rust OSDev (April 2020)](https://rust-osdev.com/this-month/2020-04/)
 * [A no_std Rust binary](https://fasterthanli.me/blog/2020/a-no-std-rust-binary/)
@@ -25,8 +27,24 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Dynamic stylesheets and Yew](https://conradludgate.com/posts/yew-css/)
 * [A practical introduction to async programming in Rust](http://jamesmcm.github.io/blog/2020/05/06/a-practical-introduction-to-async-programming-in-rust/#en)
 * [Rust Closures in FFI](http://adventures.michaelfbryan.com/posts/rust-closures-in-ffi/)
-
-+ [Collecting many errors from an iterator of Results](https://tarquin-the-brave.github.io/blog/posts/collecting-all-the-errors/).
+* [Collecting many errors from an iterator of Results](https://tarquin-the-brave.github.io/blog/posts/collecting-all-the-errors/).
+* [Auto-currying Rust Functions](https://peppe.rs/posts/auto-currying_rust_functions/)
+* [Converting bits to integers in Rust using generics](https://dev.to/citizen_stig/converting-bits-to-integers-in-rust-using-generics-2nfg)
+* [Magnifying Glasses for Rust Assembly](https://www.justanotherdot.com/posts/magnifying-glasses-for-rust-assembly.html)
+* [More Rust and Load Balancer Adventures](https://medium.com/@bparli/more-rust-and-load-balancer-adventures-fad07f4fb095) 
+* [Porting North Korean Dictionaries with Rust](https://digitalnk.com/blog/2020/05/08/porting-north-korean-dictionaries-with-rust/)
+* [Rust verification tools](https://alastairreid.github.io/rust-verification-tools/)
+* [Series Announcement - Zero to Production in Rust](https://www.lpalmieri.com/posts/2020-05-10-announcement-zero-to-production-in-rust/)
+* [What I Learned Contributing to Rust-Analyzer](https://dev.to/bnjjj/what-i-learned-contributing-to-rust-analyzer-4c7e)
+* [What’s the difference between a Rust char and a Go rune?](https://www.christianfscott.com/rust-chars-vs-go-runes/)
+* [Writing A Wayland Compositor In Rust](https://wiki.alopex.li/WritingAWaylandCompositorInRust)
+* [Yak shaving conditional compilation in Rust](https://bitshifter.github.io/2020/05/07/conditional-compilation-in-rust/)
+* [Oxidize Global Workshop and CfP announcement](https://ferrous-systems.com/blog/oxidize-global-workshop-and-cfp-announcement/)
+* [Collecting many errors from an iterator of Results](https://tarquin-the-brave.github.io/blog/posts/collecting-all-the-errors/).
+* [Writing Python inside your Rust code - Part 3](https://blog.m-ou.se/writing-python-inside-rust-3/)
+* [Rust FFI - Building an ASN1 codec](https://sjames.github.io/articles/2020-04-26-rust-ffi-asn1-codec/)
+* [video] [Building a simple GraphQL API with Actix and Juniper](https://youtu.be/7v7ERnrC4fo)
+* [video] [Named Field Init in C, C++20, Zig, Rust, & D](https://www.youtube.com/watch?v=c-NyXKbqmQc)
 
 # Crate of the Week
 
@@ -140,6 +158,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+* [Backend Engineer, Data Processing - Kraken - Remote](https://jobs.lever.co/kraken/246f7fd2-000a-4f61-8f53-b1cc783d51cb)
+* [Backend Engineer, Futures - Kraken - Remote](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
@@ -154,6 +174,6 @@ Thanks to [Armando Pérez Marqués](https://users.rust-lang.org/t/twir-quote-of-
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
-*This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [srikwit](https://github.com/srikwit).*
+*This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), [srikwit](https://github.com/srikwit), and [cdmistman](https://github.com/cdmistman).*
 
 <small>[Discuss on r/rust]().</small>
