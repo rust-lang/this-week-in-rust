@@ -24,9 +24,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [time_it: A case study in Rust macros](https://notes.iveselov.info/programming/time_it-a-case-study-in-rust-macros)
 * [Dynamic stylesheets and Yew](https://conradludgate.com/posts/yew-css/)
 * [A practical introduction to async programming in Rust](http://jamesmcm.github.io/blog/2020/05/06/a-practical-introduction-to-async-programming-in-rust/#en)
-
-+ [Collecting many errors from an iterator of Results](https://tarquin-the-brave.github.io/blog/posts/collecting-all-the-errors/)
 * [Oxidize Global Workshop and CfP announcement](https://ferrous-systems.com/blog/oxidize-global-workshop-and-cfp-announcement/)
+* [Collecting many errors from an iterator of Results](https://tarquin-the-brave.github.io/blog/posts/collecting-all-the-errors/).
+* [Writing Python inside your Rust code - Part 3](https://blog.m-ou.se/writing-python-inside-rust-3/)
+* [Rust FFI - Building an ASN1 codec](https://sjames.github.io/articles/2020-04-26-rust-ffi-asn1-codec/)
 
 # Crate of the Week
 
@@ -140,6 +141,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+* [Backend Engineer, Data Processing - Kraken - Remote](https://jobs.lever.co/kraken/246f7fd2-000a-4f61-8f53-b1cc783d51cb)
+* [Backend Engineer, Futures - Kraken - Remote](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
