@@ -29,9 +29,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [WinRT-rs](https://github.com/microsoft/winrt-rs), Microsoft™'s official WinRT API for Rust.
+This week's crate is [cargo-workspaces](https://github.com/pksunkara/cargo-workspaces), a cargo subcommand to manage your cargo workspace.
 
-Thanks to [JLalu](https://users.rust-lang.org/t/crate-of-the-week/2704/767) for the suggestion!
+Thanks to [Pavan Kumar Sunkara](https://users.rust-lang.org/t/crate-of-the-week/2704/768) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -53,33 +53,34 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-372 pull requests were [merged in the last week][merged]
+375 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-04-27..2020-05-04
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-05-04..2020-05-11
 
-* implement RFC [#2523](https://rust-lang.github.io/rfcs/2523-cfg-path-version.html), [`#[cfg(version(..))]`](https://github.com/rust-lang/rust/pull/71314)
-* [have the per-query caches store the results on arenas](https://github.com/rust-lang/rust/pull/70674)
-* [avoid duplicating code for each query](https://github.com/rust-lang/rust/pull/69808)
-* [forbid `dyn Trait` in patterns](https://github.com/rust-lang/rust/pull/71038)
-* [fix wrong argument in autoderef process](https://github.com/rust-lang/rust/pull/71627)
-* [suggest `into` instead of `try_into` if possible with int types](https://github.com/rust-lang/rust/pull/71617)
-* [tweak some suggestions in `rustc_resolve`](https://github.com/rust-lang/rust/pull/71438)
-* [add message for resolution failure because wrong namespace](https://github.com/rust-lang/rust/pull/71419)
-* [point at the return type on `.into()` failure caused by `?`](https://github.com/rust-lang/rust/pull/71409)
-* [suggest `;` or assignment to drop borrows in tail exprs](https://github.com/rust-lang/rust/pull/71217)
-* [on type mismatch involving associated type, suggest constraint](https://github.com/rust-lang/rust/pull/71108)
-* [minimize parameter of `coerce_borrowed_pointer`](https://github.com/rust-lang/rust/pull/71524)
-* [remove some `Vec` allocations to improve performance](https://github.com/rust-lang/rust/pull/71268)
-* [allow `Unreachable` terminators unconditionally in const-checking](https://github.com/rust-lang/rust/pull/71691)
-* [allow `Downcast` projections unconditionally in const-checking](https://github.com/rust-lang/rust/pull/71688)
-* [added MIR constant propagation of Scalars into function call arguments](https://github.com/rust-lang/rust/pull/71697)
-* [Miri: unleash all feature gates](https://github.com/rust-lang/rust/pull/71631)
-* [use existing framework for backward dataflow analyses](https://github.com/rust-lang/rust/pull/71006)
-* [add Read/Write::can_read/write_vectored](https://github.com/rust-lang/rust/pull/67841)
-* [add `RefCell::take`](https://github.com/rust-lang/rust/pull/71398)
-* [`slice::fill`: use `T` instead of generic arg](https://github.com/rust-lang/rust/pull/71165)
-* [`Vec` `drop` and `truncate`: drop using raw slice `*mut [T]`](https://github.com/rust-lang/rust/pull/71148)
-* [hashbrown: mark `RawTable::par_iter` `unsafe`](https://github.com/rust-lang/hashbrown/pull/157)
+* [Define UB in float-to-int casts to saturate](https://github.com/rust-lang/rust/pull/71269)
+* [Improve bitcode generation for Apple platforms](https://github.com/rust-lang/rust/pull/71970)
+* [Don't force rustc to do codegen for LTO builds](https://github.com/rust-lang/cargo/pull/8192)
+* [Correctly handle UEFI targets as Windows-like when emitting sections for LLVM bitcode](https://github.com/rust-lang/rust/pull/71881)
+* [Prevent compiler stack overflow for deeply recursive code](https://github.com/rust-lang/rust/pull/55617)
+* [resolve: Relax fresh binding disambiguation slightly to fix regression](https://github.com/rust-lang/rust/pull/71846)
+* [upgrade chalk and use chalk-solve/chalk-ir/chalk-rust-ir](https://github.com/rust-lang/rust/pull/69406)
+* [Report cannot move errors in promoted MIR](https://github.com/rust-lang/rust/pull/71587)
+* [Simplify the `tcx.alloc_map` API](https://github.com/rust-lang/rust/pull/71508)
+* [Suggest removing semicolon in last expression only if it's type is known](https://github.com/rust-lang/rust/pull/71894)
+* [Skip attempting to run `coerce_unsized` on an inference variable](https://github.com/rust-lang/rust/pull/69530)
+* [Unify the undo log of all snapshot types](https://github.com/rust-lang/rust/pull/69464)
+* [Reduce `TypedArena` creations in `check_match`](https://github.com/rust-lang/rust/pull/71975)
+* [Shrink `LocalDecl`](https://github.com/rust-lang/rust/pull/71942)
+* [Add `remove_current_as_list` to `LinkedList`'s `CursorMut`](https://github.com/rust-lang/rust/pull/71878)
+* [Add `Arc::`{`incr`, `decr`}`_strong_count`](https://github.com/rust-lang/rust/pull/70733)
+* [Add Option to Force Unwind Tables](https://github.com/rust-lang/rust/pull/69984)
+* [Make `BTreeMap::new` and `BTreeSet::new` const](https://github.com/rust-lang/rust/pull/71839)
+* [`Btreemap` iter intertwined](https://github.com/rust-lang/rust/pull/71510)
+* [Add `core::future::`{`pending`, `ready`}](https://github.com/rust-lang/rust/pull/70834)
+* [futures: Refactor to reduce the amount of unsafe and duplicated code](https://github.com/rust-lang/futures-rs/pull/2128)
+* [cargo: Update assertions in LTO calculations](https://github.com/rust-lang/cargo/pull/8226)
+* [cargo: Try to remove secrets from http.debug](https://github.com/rust-lang/cargo/pull/8222)
+* [cargo features: allow activated_features_unverified to communicate not-present](https://github.com/rust-lang/cargo/pull/8194)
 
 ## Approved RFCs
 
@@ -144,12 +145,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I love Rust like I love Dark Souls.  
-> It's difficult, but fair. I can not praise enough the software developers that realize proper errors are vastly superior to extensive docs.
+> Ownership is purely conceptual: it is not something you can see in a disassembler.
 
-– [seph-reed on Hacker News](https://news.ycombinator.com/item?id=23032636)
+– [Jay Oster on rust-users](https://users.rust-lang.org/t/what-is-the-formal-definition-of-ownership/41984/7)
 
-Thanks to [Armando Pérez Marqués](https://users.rust-lang.org/t/twir-quote-of-the-week/328/864) for the suggestions!
+Thanks to [Daniel H-M](https://users.rust-lang.org/t/twir-quote-of-the-week/328/868) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
