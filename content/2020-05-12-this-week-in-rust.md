@@ -178,4 +178,4 @@ Thanks to [Daniel H-M](https://users.rust-lang.org/t/twir-quote-of-the-week/328/
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), [srikwit](https://github.com/srikwit), and [cdmistman](https://github.com/cdmistman).*
 
-<small>[Discuss on r/rust]().</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/gikfuy/this_week_in_rust_338/).</small>
