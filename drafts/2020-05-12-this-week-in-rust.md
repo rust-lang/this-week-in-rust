@@ -38,6 +38,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [What’s the difference between a Rust char and a Go rune?](https://www.christianfscott.com/rust-chars-vs-go-runes/)
 * [Writing A Wayland Compositor In Rust](https://wiki.alopex.li/WritingAWaylandCompositorInRust)
 * [Yak shaving conditional compilation in Rust](https://bitshifter.github.io/2020/05/07/conditional-compilation-in-rust/)
+* [Oxidize Global Workshop and CfP announcement](https://ferrous-systems.com/blog/oxidize-global-workshop-and-cfp-announcement/)
+* [Collecting many errors from an iterator of Results](https://tarquin-the-brave.github.io/blog/posts/collecting-all-the-errors/).
+* [Writing Python inside your Rust code - Part 3](https://blog.m-ou.se/writing-python-inside-rust-3/)
+* [Rust FFI - Building an ASN1 codec](https://sjames.github.io/articles/2020-04-26-rust-ffi-asn1-codec/)
 * [video] [Building a simple GraphQL API with Actix and Juniper](https://youtu.be/7v7ERnrC4fo)
 * [video] [Named Field Init in C, C++20, Zig, Rust, & D](https://www.youtube.com/watch?v=c-NyXKbqmQc)
 
@@ -153,6 +157,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+* [Backend Engineer, Data Processing - Kraken - Remote](https://jobs.lever.co/kraken/246f7fd2-000a-4f61-8f53-b1cc783d51cb)
+* [Backend Engineer, Futures - Kraken - Remote](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
