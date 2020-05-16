@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Structuring and handling errors in 2020](https://nick.groenen.me/posts/rust-error-handling/)
+
 # Crate of the Week
 
 This week's crate is [cargo-workspaces](https://github.com/pksunkara/cargo-workspaces), a cargo subcommand to manage your cargo workspace.
