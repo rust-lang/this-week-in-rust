@@ -66,7 +66,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [s3rename: Atomic renames and asynchronous destructors](https://github.com/jamesmcm/s3rename/issues/16)
 * [sedregex: Add support for translation commands y/ and tr/](https://gitlab.com/mexus/sedregex/-/issues/4)
 * [clap: Usage suggests help subcommand when using DisableHelpSubcommand](https://github.com/clap-rs/clap/issues/1463)
-* [displaydoc](https://github.com/yaahc/displaydoc/issues/15)
+* [displaydoc: Add support for `thiserror` attributes](https://github.com/yaahc/displaydoc/issues/15)
 * [GitUI is looking for contributors](https://github.com/extrawurst/gitui/issues)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
