@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Structuring and handling errors in 2020](https://nick.groenen.me/posts/rust-error-handling/)
+* [Taking Advantage of Auto-Vectorization in Rust](https://nickwilcox.github.io/blog/autovec/)
 
 # Crate of the Week
 
