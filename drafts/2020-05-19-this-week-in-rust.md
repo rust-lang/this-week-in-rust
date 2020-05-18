@@ -16,10 +16,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Five Years of Rust](https://blog.rust-lang.org/2020/05/15/five-years-of-rust.html)
 * [Structuring and handling errors in 2020](https://nick.groenen.me/posts/rust-error-handling/)
 * [Taking Advantage of Auto-Vectorization in Rust](https://nickwilcox.github.io/blog/autovec/)
 * [State of Web Routing in Rust](https://pksunkara.com/posts/state-of-routing-in-rust/)
 * [Rust releases for single and multiple targets with GitHub Actions](https://mateuscosta.me/rust-releases-with-github-actions)
+* [The case for using Rust for Automotive Software](https://medium.com/@sojan.james/the-case-for-using-rust-for-automotive-software-19400779f126)
+* [Gamedev #4: Benefits of full-stack Rust](https://www.jakobmeier.ch/blogging/Paddlers_4.html)
+* [RISC-V OS using Rust Chapter 9: Block IO](http://osblog.stephenmarz.com/ch9.html)
+* [A Guide to Global Data in Rust](https://github.com/paulkernfeld/global-data-in-rust)
+* [audio] [What's New in Rust 1.42 and 1.43](https://rustacean-station.org/episode/014-rust-1.42-1.43/)
+* [video] [Jonathan Teaches Jason Rust!](https://www.youtube.com/watch?v=EzQ7YIIo1rY&feature=youtu.be)
+* [video] [Educational Rust coding - Building a web app](https://www.twitch.tv/videos/623988324)
+* [video] [Rust and C++ Cardiff Virtual Meetup](https://www.youtube.com/watch?v=s8WMaVU3EBs&feature=youtu.be)
 
 # Crate of the Week
 
