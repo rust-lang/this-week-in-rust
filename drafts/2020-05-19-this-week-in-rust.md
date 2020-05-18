@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## News & Blog Posts
 
 * [Structuring and handling errors in 2020](https://nick.groenen.me/posts/rust-error-handling/)
+* [State of Web Routing in Rust](https://pksunkara.com/posts/state-of-routing-in-rust/)
 * [Rust releases for single and multiple targets with GitHub Actions](https://mateuscosta.me/rust-releases-with-github-actions)
 
 # Crate of the Week
