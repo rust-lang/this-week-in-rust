@@ -16,10 +16,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
+* [Five Years of Rust](https://blog.rust-lang.org/2020/05/15/five-years-of-rust.html)
 * [Structuring and handling errors in 2020](https://nick.groenen.me/posts/rust-error-handling/)
 * [Taking Advantage of Auto-Vectorization in Rust](https://nickwilcox.github.io/blog/autovec/)
 * [State of Web Routing in Rust](https://pksunkara.com/posts/state-of-routing-in-rust/)
 * [Rust releases for single and multiple targets with GitHub Actions](https://mateuscosta.me/rust-releases-with-github-actions)
+* [Getting Started With Rust By Building A Tiny Markdown Compiler](https://jesselawson.org/rust/getting-started-with-rust-by-building-a-tiny-markdown-compiler/)
+* [Parcel and Rust: A WASM Romcom](https://dev.to/potatostudios_/parcel-and-rust-a-wasm-romcom-545e)
+* [Reading temperature sensor in Rust using Raspberry Pi GPIO](https://dev.to/citizen_stig/reading-temperature-sensor-in-rust-using-raspberry-pi-gpio-bhf)
+* [Rust Analyzer - Next Few Years](https://rust-analyzer.github.io/blog/2020/05/18/next-few-years.html)
+* [Rust Closures in FFI](http://adventures.michaelfbryan.com/posts/rust-closures-in-ffi/)
+* [Taking Advantage of Auto-Vectorization in Rust](https://nickwilcox.github.io/blog/autovec/)
 
 # Crate of the Week
 
