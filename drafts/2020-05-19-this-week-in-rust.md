@@ -47,6 +47,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [clap-rs:Subcommand bin_name on Windows contains ".exe" in the middle instead of at the end (or not at all)](https://github.com/clap-rs/clap/issues/992)
+* [keikan: Update Rendering Code to be PBR Compliant](https://github.com/Tloru/keikan/issues/1)
+* [keikan: Implementing Different Objects](https://github.com/Tloru/keikan/issues/2)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -87,8 +91,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC 2585: FC for unsafe blocks in unsafe fn](https://github.com/rust-lang/rfcs/pull/2585)
-* [RFC 2904: Major Change Proposal](https://github.com/rust-lang/rfcs/pull/2904)
+*No RFCs were approved last week.*
 
 ## Final Comment Period
 
@@ -96,38 +99,31 @@ Every week [the team](https://www.rust-lang.org/team.html) announces the
 'final comment period' for RFCs and key PRs which are reaching a
 decision. Express your opinions now.
 
-
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [RFC: Deduplicate Cargo workspace information](https://github.com/rust-lang/rfcs/pull/2906)
+* [Transition to rust-analyzer as our official LSP (Language Server Protocol) implementation](https://github.com/rust-lang/rfcs/pull/2912)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Stabilize process_set_argv0 feature for Unix](https://github.com/rust-lang/rust/pull/72123)
 * [disposition: merge] [Stablilize saturating_abs and saturating_neg](https://github.com/rust-lang/rust/pull/71886)
-* [disposition: merge] [Tweak and stabilize AtomicN::fetch_update](https://github.com/rust-lang/rust/pull/71843)
-* [disposition: merge] [impl From<Cow> for Box, Rc, and Arc](https://github.com/rust-lang/rust/pull/71447)
-* [disposition: merge] [Stabilize fn-like proc macros in expression, pattern and statement positions](https://github.com/rust-lang/rust/pull/68717)
-* [disposition: merge] [Tracking issue for Weak::into_raw/from_raw & similar](https://github.com/rust-lang/rust/issues/60728)
-* [disposition: clone] [Tracking issue for non_static_type_id](https://github.com/rust-lang/rust/issues/41875)
+* [disposition: merge] [impl From \<Cow\> for Box, Rc, and Arc](https://github.com/rust-lang/rust/pull/71447)
+* [disposition: close] [Tracking issue for non_static_type_id](https://github.com/rust-lang/rust/issues/41875)
 
 ## New RFCs
-* [Do not warn about similar ASCII-only idents](https://github.com/rust-lang/rfcs/pull/2923)
-* [RFC - cargo templates](https://github.com/rust-lang/rfcs/pull/2922)
+* [RFC: Reading into uninitialized buffers](https://github.com/rust-lang/rfcs/pull/2930)
 
 # Upcoming Events
 
 ### Online
-* [May 12. Seattle, WA, US - Seattle Rust Meetup](http://www.meetup.com/Seattle-Rust-Meetup/)
-* [May 14. San Diego, CA, US - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/270394980/)
-* [May 14, Berlin, DE - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybchbsb/)
 * [May 20. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybchbbc/).
 * [May 21. Turin, IT - Rust Turin Meetup](https://community.mozilla.org/events/gruppo-di-studio-di-rust/)
 * [May 26. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybchbjc/)
+* [May 26. Berlin, DE - Rust and Tell](https://www.meetup.com/Rust-Berlin/events/270319545/)
+* [May 27. Montréal, QC, CA - Remote - RustMTL May 2020](https://www.meetup.com/Rust-Montreal/events/270635425)
 
 
 ### North America
-* [May 13. Vancouver, BC, CA - Vancouver Rust Meetup](https://www.meetup.com/Vancouver-Rust/events/)
-* [May 14. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybchbsb/).
 * [May 25. Durham, NC, US - Triangle Rustaceans - Project Night and Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybchbhc/)
 
 
