@@ -1,6 +1,6 @@
-Title: This Week in Rust 338
-Number: 338
-Date: 2020-05-12
+Title: This Week in Rust 339
+Number: 339
+Date: 2020-05-19
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
