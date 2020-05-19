@@ -12,7 +12,7 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-Starting with this issue, there is now also a weekly This Week in Rust podcast highlighting a few of the stories from each issue. You can check out the very first episode on [The Rustacean Station](https://rustacean-station.org/episode/015-twir-339/).
+Starting with this issue, there is now also a weekly *This Week in Rust Podcast* highlighting a few of the stories from each issue. You can check out the very first episode on [The Rustacean Station](https://rustacean-station.org/episode/015-twir-339/).
 
 # Updates from Rust Community
 
