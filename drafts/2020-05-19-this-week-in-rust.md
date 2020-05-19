@@ -101,8 +101,8 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Stabilize AtomicN::fetch_min and AtomicN::fetch_max](https://github.com/rust-lang/rust/pull/72324)
 * [disposition: merge] [Stabilize process_set_argv0 feature for Unix](https://github.com/rust-lang/rust/pull/72123)
-* [disposition: merge] [Stablilize saturating_abs and saturating_neg](https://github.com/rust-lang/rust/pull/71886)
 * [disposition: merge] [impl From \<Cow\> for Box, Rc, and Arc](https://github.com/rust-lang/rust/pull/71447)
 * [disposition: close] [Tracking issue for non_static_type_id](https://github.com/rust-lang/rust/issues/41875)
 
@@ -146,6 +146,6 @@ Thanks to [Lzutao](https://users.rust-lang.org/t/twir-quote-of-the-week/328/872)
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
-*This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), [srikwit](https://github.com/srikwit), and [cdmistman](https://github.com/cdmistman).*
+*This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
 
 <small>[Discuss on r/rust]().</small>
