@@ -53,7 +53,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [clap-rs:Subcommand bin_name on Windows contains ".exe" in the middle instead of at the end (or not at all)](https://github.com/clap-rs/clap/issues/992)
+* [clap-rs: Subcommand bin_name on Windows contains ".exe" in the middle instead of at the end (or not at all)](https://github.com/clap-rs/clap/issues/992)
 * [keikan: Update Rendering Code to be PBR Compliant](https://github.com/Tloru/keikan/issues/1)
 * [keikan: Implementing Different Objects](https://github.com/Tloru/keikan/issues/2)
 
@@ -103,7 +103,7 @@ decision. Express your opinions now.
 
 * [disposition: merge] [Stabilize AtomicN::fetch_min and AtomicN::fetch_max](https://github.com/rust-lang/rust/pull/72324)
 * [disposition: merge] [Stabilize process_set_argv0 feature for Unix](https://github.com/rust-lang/rust/pull/72123)
-* [disposition: merge] [impl From \<Cow\> for Box, Rc, and Arc](https://github.com/rust-lang/rust/pull/71447)
+* [disposition: merge] [impl From <Cow\> for Box, Rc, and Arc](https://github.com/rust-lang/rust/pull/71447)
 * [disposition: close] [Tracking issue for non_static_type_id](https://github.com/rust-lang/rust/issues/41875)
 
 ## New RFCs
