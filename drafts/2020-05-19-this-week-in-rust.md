@@ -38,9 +38,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [cargo-workspaces](https://github.com/pksunkara/cargo-workspaces), a cargo subcommand to manage your cargo workspace.
+This week's crate is [apply](https://crates.io/crates/apply), a tiny library for chaining free functions into method call chains.
 
-Thanks to [Pavan Kumar Sunkara](https://users.rust-lang.org/t/crate-of-the-week/2704/768) for the suggestion!
+Thanks to [Trevor Spiteri](https://users.rust-lang.org/t/crate-of-the-week/2704/769) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -63,34 +63,24 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-375 pull requests were [merged in the last week][merged]
+359 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-05-04..2020-05-11
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-05-11..2020-05-18
 
-* [Define UB in float-to-int casts to saturate](https://github.com/rust-lang/rust/pull/71269)
-* [Improve bitcode generation for Apple platforms](https://github.com/rust-lang/rust/pull/71970)
-* [Don't force rustc to do codegen for LTO builds](https://github.com/rust-lang/cargo/pull/8192)
-* [Correctly handle UEFI targets as Windows-like when emitting sections for LLVM bitcode](https://github.com/rust-lang/rust/pull/71881)
-* [Prevent compiler stack overflow for deeply recursive code](https://github.com/rust-lang/rust/pull/55617)
-* [resolve: Relax fresh binding disambiguation slightly to fix regression](https://github.com/rust-lang/rust/pull/71846)
-* [upgrade chalk and use chalk-solve/chalk-ir/chalk-rust-ir](https://github.com/rust-lang/rust/pull/69406)
-* [Report cannot move errors in promoted MIR](https://github.com/rust-lang/rust/pull/71587)
-* [Simplify the `tcx.alloc_map` API](https://github.com/rust-lang/rust/pull/71508)
-* [Suggest removing semicolon in last expression only if it's type is known](https://github.com/rust-lang/rust/pull/71894)
-* [Skip attempting to run `coerce_unsized` on an inference variable](https://github.com/rust-lang/rust/pull/69530)
-* [Unify the undo log of all snapshot types](https://github.com/rust-lang/rust/pull/69464)
-* [Reduce `TypedArena` creations in `check_match`](https://github.com/rust-lang/rust/pull/71975)
-* [Shrink `LocalDecl`](https://github.com/rust-lang/rust/pull/71942)
-* [Add `remove_current_as_list` to `LinkedList`'s `CursorMut`](https://github.com/rust-lang/rust/pull/71878)
-* [Add `Arc::`{`incr`, `decr`}`_strong_count`](https://github.com/rust-lang/rust/pull/70733)
-* [Add Option to Force Unwind Tables](https://github.com/rust-lang/rust/pull/69984)
-* [Make `BTreeMap::new` and `BTreeSet::new` const](https://github.com/rust-lang/rust/pull/71839)
-* [`Btreemap` iter intertwined](https://github.com/rust-lang/rust/pull/71510)
-* [Add `core::future::`{`pending`, `ready`}](https://github.com/rust-lang/rust/pull/70834)
-* [futures: Refactor to reduce the amount of unsafe and duplicated code](https://github.com/rust-lang/futures-rs/pull/2128)
-* [cargo: Update assertions in LTO calculations](https://github.com/rust-lang/cargo/pull/8226)
-* [cargo: Try to remove secrets from http.debug](https://github.com/rust-lang/cargo/pull/8222)
-* [cargo features: allow activated_features_unverified to communicate not-present](https://github.com/rust-lang/cargo/pull/8194)
+* [add built in PSP target](https://github.com/rust-lang/rust/pull/72062)
+* [emit a warning when optimization fuel runs out](https://github.com/rust-lang/rust/pull/72067)
+* [literal error reporting cleanup](https://github.com/rust-lang/rust/pull/72047)
+* [incomplete features can also be unsound](https://github.com/rust-lang/rust/pull/72045)
+* [be less aggressive with `DroplessArena`/`TypedArena` growth](https://github.com/rust-lang/rust/pull/71872)
+* [provide separate option for std debug asserts](https://github.com/rust-lang/rust/pull/72146)
+* [rework the `std::iter::Step` trait](https://github.com/rust-lang/rust/pull/69659)
+* [simpler slice `Iterator` methods](https://github.com/rust-lang/rust/pull/72166)
+* [make `RawVec::grow` mostly non-generic](https://github.com/rust-lang/rust/pull/72013)
+* [implement `FromStr` for `OsString`](https://github.com/rust-lang/rust/pull/71662)
+* [make `offset` `must_use`](https://github.com/rust-lang/rust/pull/72143)
+* [cargo: ignore broken console output in some situations](https://github.com/rust-lang/cargo/pull/8236)
+* [cargo: handle LTO with an rlib/cdylib crate type](https://github.com/rust-lang/cargo/pull/8254)
+* [cargo: gracefully handle errors during a build](https://github.com/rust-lang/cargo/pull/8247)
 
 ## Approved RFCs
 
@@ -146,11 +136,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Ownership is purely conceptual: it is not something you can see in a disassembler.
+> The whole motivation behind exceptions is to allow one to write ones business logic, concentrate on what one likes to think ones program will do, without having lots of fiddly error checking and handling code obscuring that logic. Error situations are therefore swept under the carpet with "try" and kept out of sight with "catch".
+>
+> However in my world view failure is not exceptional, it is a common happening, it's too important to be hidden away. Therefor failure handling should be in ones face in the code you write. Certainly in the face of those that read it.
 
-– [Jay Oster on rust-users](https://users.rust-lang.org/t/what-is-the-formal-definition-of-ownership/41984/7)
+– [ZiCog on rust-users](https://users.rust-lang.org/t/did-rust-make-the-right-choice-about-error-handling/41736/29)
 
-Thanks to [Daniel H-M](https://users.rust-lang.org/t/twir-quote-of-the-week/328/868) for the suggestions!
+Thanks to [Lzutao](https://users.rust-lang.org/t/twir-quote-of-the-week/328/872) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
