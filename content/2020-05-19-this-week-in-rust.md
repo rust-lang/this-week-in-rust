@@ -28,7 +28,6 @@ Starting with this issue, there is now also a weekly *This Week in Rust Podcast*
 * [Reading temperature sensor in Rust using Raspberry Pi GPIO](https://dev.to/citizen_stig/reading-temperature-sensor-in-rust-using-raspberry-pi-gpio-bhf)
 * [Rust Analyzer - Next Few Years](https://rust-analyzer.github.io/blog/2020/05/18/next-few-years.html)
 * [Rust Closures in FFI](http://adventures.michaelfbryan.com/posts/rust-closures-in-ffi/)
-* [Taking Advantage of Auto-Vectorization in Rust](https://nickwilcox.github.io/blog/autovec/)
 * [The case for using Rust for Automotive Software](https://medium.com/@sojan.james/the-case-for-using-rust-for-automotive-software-19400779f126)
 * [Gamedev #4: Benefits of full-stack Rust](https://www.jakobmeier.ch/blogging/Paddlers_4.html)
 * [RISC-V OS using Rust Chapter 9: Block IO](http://osblog.stephenmarz.com/ch9.html)
@@ -150,4 +149,4 @@ Thanks to [Lzutao](https://users.rust-lang.org/t/twir-quote-of-the-week/328/872)
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
 
-<small>[Discuss on r/rust]().</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/gmyv8h/this_week_in_rust_339/).</small>
