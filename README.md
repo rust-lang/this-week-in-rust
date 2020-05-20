@@ -3,7 +3,7 @@ This Week in Rust
 
 Content for [this-week-in-rust.org](http://this-week-in-rust.org). Made available under CC-BY-SA.
 
-All code Copyright 2014 Corey Richardson, made available under [the MIT
+All code Copyright 2014 Ember Arlynx, made available under [the MIT
 license](http://mit-license.org/).
 
 ## PRs for next issue are now being accepted

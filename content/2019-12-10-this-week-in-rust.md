@@ -16,7 +16,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* [A rusty radio: Si4703 FM radio receiver driver](https://blog.eldruin.com/si4703-fm-radio-receiver-driver-in-rust/)
+* [How to speed up the Rust compiler one last time in 2019](https://blog.mozilla.org/nnethercote/2019/12/11/how-to-speed-up-the-rust-compiler-one-last-time-in-2019/).
+* [Formatting is unreasonably expensive for embedded Rust](https://jamesmunns.com/blog/fmt-unreasonably-expensive/).
+* [Some parts 1Password X Manager are rewritten in Rust](https://blog.1password.com/1passwordx-december-2019-release/).
+* [Announcing hyper v0.13 with full async/await support](https://seanmonstar.com/post/189594157852/hyper-v013).
+* [Blocking inside async code](https://stjepang.github.io/2019/12/04/blocking-inside-async-code.html).
+* [Announcing the docs.rs team](https://blog.rust-lang.org/inside-rust/2019/12/09/announcing-the-docsrs-team.html).
+* [Writing the slowest quicksort](https://chasewilson.dev/blog/slowest-quicksort/).
+* [Soundness bugs in Rust libraries: can't live with 'em, can't live without 'em](https://docs.rs/dtolnay/0.0.7/dtolnay/macro._03__soundness_bugs.html).
+* [Tiny Windows executable in Rust in 3.5 kbytes](https://www.codeslow.com/2019/12/tiny-windows-executable-in-rust.html).
+* [Inside Rust at Embark](https://medium.com/embarkstudios/inside-rust-at-embark-b82c06d1d9f4).
+* [Tokio 0.2 - Rust crash course](https://www.snoyman.com/blog/2019/12/rust-crash-course-09-tokio-0-2).
+* [Generalized autoref-based specialization](https://lukaskalbertodt.github.io/2019/12/05/generalized-autoref-based-specialization.html).
+* [A rusty radio: Si4703 FM radio receiver driver](https://blog.eldruin.com/si4703-fm-radio-receiver-driver-in-rust/).
 
 ### #Rust2020
 
@@ -39,7 +51,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [heed: Support windows and make the tests pass](https://github.com/Kerollmops/heed/pull/25). Heed is a fully typed LMDB wrapper with minimum overhead.
+* [We need your help before `rustup` 1.21.0 can be released](https://www.reddit.com/r/rust/comments/e7rer9/we_need_your_help_before_rustup_1210_can_be/).
+* [smallvec: Implement Clone for IntoIter<A: Array> where A: Clone](https://github.com/servo/rust-smallvec/issues/178).
+* [mundane: Document items behind feature flags](https://github.com/google/mundane/issues/22).
 * [crates.io: carols10cents will be mentoring multiple issues for the month of November & December](https://github.com/rust-lang/crates.io/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3AE-mentor).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -64,7 +78,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [include a span in more `expected...found` notes](https://github.com/rust-lang/rust/pull/67011)
 * [do not ICE on async fn with non-Copy inferred type arg](https://github.com/rust-lang/rust/pull/67004)
 * [make try_mark_previous_green aware of cycles](https://github.com/rust-lang/rust/pull/66846)
-* [add feature gate for mut refs in const fn](Add feature gate for mut refs in const fn)
+* [add feature gate for mut refs in const fn](https://github.com/rust-lang/rust/pull/66606)
 * [change unused_labels from allow to warn](https://github.com/rust-lang/rust/pull/66325)
 * [show the sign for signed ops on `exact_div`](https://github.com/rust-lang/rust/pull/66148)
 * [chalk: convert ensure_answer_recursively to be iterative instead of recursive](https://github.com/rust-lang/chalk/pull/281)
@@ -108,37 +122,36 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in final comment period.*
+* [disposition: merge] [Propose implicit named arguments for formatting macros](https://github.com/rust-lang/rfcs/pull/2795).
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Add method Result::into_ok](https://github.com/rust-lang/rust/pull/66045).
-* [disposition: merge] [From<NonZero*> impls for wider NonZero types](https://github.com/rust-lang/rust/pull/66277).
-* [disposition: merge] [Change unused_labels from allow to warn](https://github.com/rust-lang/rust/pull/66325).
+* [disposition: merge] [Deprecate Error::description for real](https://github.com/rust-lang/rust/pull/66919).
+* [disposition: merge] [Stabilize the `core::panic` module](https://github.com/rust-lang/rust/pull/66771).
+* [disposition: merge] [stabilize Result::map_or](https://github.com/rust-lang/rust/pull/66570).
+* [disposition: merge] [Make Layout::new const](https://github.com/rust-lang/rust/pull/66254).
+* [disposition: merge] [Stabilize attribute macros on inline modules](https://github.com/rust-lang/rust/pull/64273).
 
 ## New RFCs
 
-* [process-handle-for-async](https://github.com/rust-lang/rfcs/pull/2823).
+* [Demote Apple 32bit targets to Tier 3](https://github.com/rust-lang/rfcs/pull/2837).
+* [Move `std::net` types into `core:.net`](https://github.com/rust-lang/rfcs/pull/2832).
+* [Cargo report future-incompat](https://github.com/rust-lang/rfcs/pull/2834).
+* [Announcing the safe-transmute project group](https://github.com/rust-lang/rfcs/pull/2835).
+* [Introduce the ASM project group](https://github.com/rust-lang/rfcs/pull/2836).
 
 # Upcoming Events
 
 ### Europe
 
-* [Dec 11. Hamburg, DE - Rust Hack & Learn December 2019](https://www.meetup.com/Rust-Meetup-Hamburg/events/266610252/).
-* [Dec 11. Berlin, DE - OpenTechSchool Berlin - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzqbpb/).
-* [Dec 12. Kyiv, UA - Rails Reactor - Rust Ukraine Meetup](https://www.facebook.com/events/1173477969528421/).
-* [Dec 12. Turin, IT - Mozilla Torino - Gruppo di studio Rust](https://www.meetup.com/Mozilla-Torino/events/266750624).
 * [Dec 16. Amsterdam, NL - Rust Nederland - Rust - Talks & Demos](https://www.meetup.com/Rust-Nederland/events/266888452/).
 * [Dec 20. Stuttgart, DE - Meetup Stuttgart - Rust Hack and Learn](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/267063341/).
 
 ### North America
 
-* [Dec 10. Seattle, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/prbtdryzqbnb/).
-* [Dec 11. Mesa, AZ, US - Desert Rust - Rust: Crates and Organization](https://www.meetup.com/Desert-Rustaceans/events/wmmphryzpbkc/).
-* [Dec 11. Vancouver, BC, CA - Vancouver Rust meetup](https://www.meetup.com/Vancouver-Rust/events/rwcpfryzqbpb/).
-* [Dec 12. San Diego, CA, US - San Diego Rust December Meetup](https://www.meetup.com/San-Diego-Rust/events/266502136/).
-* [Dec 12. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgryzqbqb/).
-* [Dec 12. Lehi, UT, US - Utah Rust - December 2019 Regular Meetup](https://www.meetup.com/utah-rust/events/265905262/).
+* [Dec 18. Ann Arbor, MI, US - Ann Arbor Rust Meetup - Monthly Gathering](https://www.meetup.com/Ann-Arbor-Rust-Meetup/events/zdfscryzqbhc/).
+* [Dec 23. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpyzqbfc/).
+* [Dec 31. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/zfgwzmyzqbpc/).
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -149,18 +162,20 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+*No jobs listed for this week.*
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> So, in this regard and IMO, C++ has a saner model here. And if C++ is saner than you, that's not a good sign ☺
+> When I'm writing in Rust, it feels as though I'm actually able to think about the program, rather than wasting half of my effort going through the necessary rituals to stop the language from having a panic attack.
 
-– [Boris Kolpackov on rust internals](https://internals.rust-lang.org/t/crate-dependency-discovery/11418/4)
+– [/u/rime-frost on reddit](https://www.reddit.com/r/rust/comments/e8tms0/rust_is_fun/faei257/)
 
-Thanks to [UtherII](https://users.rust-lang.org/t/twir-quote-of-the-week/328/753) for the suggestion!
+Thanks to [ssokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/755) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
-*This Week in Rust is edited by: [nasa42](https://github.com/nasa42), [llogiq](https://github.com/llogiq), and [Flavsditz](https://github.com/Flavsditz).*
+*This Week in Rust is edited by: [nasa42](https://github.com/nasa42) and [llogiq](https://github.com/llogiq).*
 
-<small>[Discuss on r/rust]().</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/e9t7cl/this_week_in_rust_316/).</small>
