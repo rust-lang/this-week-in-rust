@@ -32,10 +32,7 @@ except ImportError:
 def add_jinja2_ext(pelican):
     """Add Webassets to Jinja2 extensions in Pelican settings."""
 
-    if 'JINJA_EXTENSIONS' in pelican.settings:
-        pelican.settings['JINJA_EXTENSIONS'].append(AssetsExtension)
-    else:
-        pelican.settings['JINJA_EXTENSIONS'] = [AssetsExtension]
+    pelican.settings.setdefault('JINJA_EXTENSIONS', []).append(AssetsExtension)
 
 
 def create_assets_env(generator):
