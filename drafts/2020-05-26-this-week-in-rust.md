@@ -18,6 +18,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [video] [Rust: Not as hard as you think / Meta/conf: Backend Meetup 2020](https://www.youtube.com/watch?v=n3kyvMVck_M) (In Russian)
+
 # Crate of the Week
 
 This week's crate is [apply](https://crates.io/crates/apply), a tiny library for chaining free functions into method call chains.
