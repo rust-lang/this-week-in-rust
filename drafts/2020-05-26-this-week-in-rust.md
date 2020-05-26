@@ -29,7 +29,7 @@ Check out [this week's *This Week in Rust Podcast*]()
 * [Rust's Runtime](https://blog.mgattozzi.dev/rusts-runtime/)
 * [video] [Bringing WebAssembly outside the web with WASI by Lin Clark](https://www.youtube.com/watch?v=fh9WXPu0hw8)
 * [video] [Microsoft's Safe Systems Programming Languages Effort](https://mybuild.microsoft.com/sessions/61de34c5-b111-4ece-928f-541854875862?source=sessions)
-* [video] [Rust, WebAssembly, and the future of Serverless by Steve Klabnik](https://www.youtube.com/watch?v=fh9WXPu0hw8)
+* [video] [Rust, WebAssembly, and the future of Serverless by Steve Klabnik](https://www.youtube.com/watch?v=CMB6AlE1QuI)
 
 # Crate of the Week
 
