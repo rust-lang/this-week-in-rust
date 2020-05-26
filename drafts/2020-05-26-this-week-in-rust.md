@@ -19,6 +19,7 @@ Check out [this week's *This Week in Rust Podcast*]()
 ## News & Blog Posts
 
 * [Zero To Production #0: Foreword](https://www.lpalmieri.com/posts/2020-05-24-zero-to-production-0-foreword/)
+* [video] [Rust: Not as hard as you think / Meta/conf: Backend Meetup 2020](https://www.youtube.com/watch?v=n3kyvMVck_M) (In Russian)
 
 # Crate of the Week
 
