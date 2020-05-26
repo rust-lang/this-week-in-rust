@@ -98,17 +98,23 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [Transition to rust-analyzer as our official LSP (Language Server Protocol) implementation](https://github.com/rust-lang/rfcs/pull/2912)
+*No RFCs are currently in the final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Tracking issue for `std::io::{BufReader, BufWriter}::capacity`](https://github.com/rust-lang/rust/issues/68833)
+* [disposition: merge] [impl From<[T; N]\> for Box<[T]\>](https://github.com/rust-lang/rust/pull/71095)
+* [disposition: merge] [Implement PartialOrd and Ord for SocketAddr*](https://github.com/rust-lang/rust/pull/72239)
 * [disposition: merge] [Stabilize AtomicN::fetch_min and AtomicN::fetch_max](https://github.com/rust-lang/rust/pull/72324)
-* [disposition: merge] [Stabilize process_set_argv0 feature for Unix](https://github.com/rust-lang/rust/pull/72123)
-* [disposition: merge] [impl From <Cow\> for Box, Rc, and Arc](https://github.com/rust-lang/rust/pull/71447)
-* [disposition: close] [Tracking issue for non_static_type_id](https://github.com/rust-lang/rust/issues/41875)
+* [disposition: merge] [Resolve overflow behavior for RangeFrom](https://github.com/rust-lang/rust/pull/72368)
+* [disposition: merge] [impl Step for char (make Range*<char\> iterable)](https://github.com/rust-lang/rust/pull/72413)
+* [disposition: merge] [Stabilize core::panic::Location::caller](https://github.com/rust-lang/rust/issues/72448)
+* [disposition: merge] [Stabilize str_strip feature](https://github.com/rust-lang/rust/pull/72466)
+
 
 ## New RFCs
-* [RFC: Reading into uninitialized buffers](https://github.com/rust-lang/rfcs/pull/2930)
+
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
