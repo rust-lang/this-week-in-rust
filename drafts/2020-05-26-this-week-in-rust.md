@@ -18,8 +18,19 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Compiling Rust binaries for Windows 98 SE and more: a journey](https://seri.tools/blog/compiling-rust-for-legacy-windows/)
 * [Zero To Production #0: Foreword](https://www.lpalmieri.com/posts/2020-05-24-zero-to-production-0-foreword/)
-* [video] [Rust: Not as hard as you think / Meta/conf: Backend Meetup 2020](https://www.youtube.com/watch?v=n3kyvMVck_M) (In Russian)
+* [Some Extensive Projects Working with Rust](https://blog.knoldus.com/some-extensive-projects-working-with-rust/)
+* [Writing Python inside your Rust code — Part 4](https://blog.m-ou.se/writing-python-inside-rust-4/)
+* [Drawing SVG Graphics with Rust](https://cetra3.github.io/blog/drawing-svg-graphs-rust/)
+* [Designing the Rust Unleash API Client](https://medium.com/cognite/designing-the-rust-unleash-api-client-6809c95aa568)
+* [Conway's Game of Life on the NES in Rust](https://gridbugs.org/conways-game-of-life-on-the-nes-in-rust/)
+* [How to organize your Rust tests](https://blog.logrocket.com/how-to-organize-your-rust-tests/)
+* [Just: How I Organize Large Rust Programs](https://rodarmor.com/blog/tour-de-just)
+* [Integrating Qt events into Actix and Rust](https://www.rubdos.be/corona/qt/rust/tokio/actix/2020/05/23/actix-qt.html)
+* [audio] [Tech Except!ons: What Microsoft has to do with Rust? With Ryan Levick](https://anchor.fm/tech-exceptions/episodes/What-Microsoft-has-to-do-with-Rust--on-this-episode-with-Ryan-Levick-eec75h)
+* [video] [Russian] [Rust: Not as hard as you think  - Meta/conf: Backend Meetup 2020](https://www.youtube.com/watch?v=n3kyvMVck_M)
+* [video] [3 Part Video for Beginners to Rust Porgramming on Iteration](https://tim.mcnamara.nz/post/618982870485172224/rust-iteration)
 
 # Crate of the Week
 
@@ -118,6 +129,9 @@ Email the [Rust Community Team][community] for access.
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 * [Rust Back End Engineer, Core Banking - TrueLayer - Milan, Italy](https://apply.workable.com/truelayer/j/37748BA121/)
+* [Sr. SW Engineer (TW or Remote) - NZXT - Taipei, Taiwan](https://nzxt.bamboohr.com/jobs/view.php?id=233)
+* [Rust Graphics Engineer - Elektron - Gotheburg, Sweden](https://www.elektron.se/rust-graphics-engineer/)
+
 
 # Quote of the Week
 
