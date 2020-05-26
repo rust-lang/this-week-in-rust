@@ -20,7 +20,7 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 # Crate of the Week
 
-This week's crate is [apply](https://crates.io/crates/apply), a tiny library for chaining free functions into method call chains.
+This week's crate is [cargo-asm](https://github.com/gnzlbg/cargo-asm), a cargo subcommand to show the resulting assembly of a function. Useful for performance work.
 
 Thanks to [Trevor Spiteri](https://users.rust-lang.org/t/crate-of-the-week/2704/769) for the suggestion!
 
@@ -43,22 +43,43 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 359 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-05-11..2020-05-18
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-05-18..2020-05-25
 
-* [add built in PSP target](https://github.com/rust-lang/rust/pull/72062)
-* [emit a warning when optimization fuel runs out](https://github.com/rust-lang/rust/pull/72067)
-* [literal error reporting cleanup](https://github.com/rust-lang/rust/pull/72047)
-* [incomplete features can also be unsound](https://github.com/rust-lang/rust/pull/72045)
-* [be less aggressive with `DroplessArena`/`TypedArena` growth](https://github.com/rust-lang/rust/pull/71872)
-* [provide separate option for std debug asserts](https://github.com/rust-lang/rust/pull/72146)
-* [rework the `std::iter::Step` trait](https://github.com/rust-lang/rust/pull/69659)
-* [simpler slice `Iterator` methods](https://github.com/rust-lang/rust/pull/72166)
-* [make `RawVec::grow` mostly non-generic](https://github.com/rust-lang/rust/pull/72013)
-* [implement `FromStr` for `OsString`](https://github.com/rust-lang/rust/pull/71662)
-* [make `offset` `must_use`](https://github.com/rust-lang/rust/pull/72143)
-* [cargo: ignore broken console output in some situations](https://github.com/rust-lang/cargo/pull/8236)
-* [cargo: handle LTO with an rlib/cdylib crate type](https://github.com/rust-lang/cargo/pull/8254)
-* [cargo: gracefully handle errors during a build](https://github.com/rust-lang/cargo/pull/8247)
+* [update to LLVM 10](https://github.com/rust-lang/rust/pull/67759)
+* [llvm: expose tiny code model to users](https://github.com/rust-lang/rust/pull/72397)
+* [enable ARM TME (Transactional Memory Extensions)](https://github.com/rust-lang/rust/pull/72438)
+* [implement new `asm!` syntax](https://github.com/rust-lang/rust/pull/69171) from [RFC #2850](TODO)
+* [always generated object code for `#![no_builtins]`](https://github.com/rust-lang/rust/pull/72325)
+* [break tokens before checking if they are 'probably equal'](https://github.com/rust-lang/rust/pull/72306)
+* [emit a better diagnostic when function actually has a 'self' parameter](https://github.com/rust-lang/rust/pull/72308)
+* [stabilize fn-like proc macros in expression, pattern and statement positions](https://github.com/rust-lang/rust/pull/68717)
+* [use `once_cell` crate instead of custom data structure](https://github.com/rust-lang/rust/pull/72256)
+* [simple NRVO](https://github.com/rust-lang/rust/pull/72205)
+* [remove ReScope](https://github.com/rust-lang/rust/pull/72362)
+* [exhaustively check `ty::Kind` during structural match checking](https://github.com/rust-lang/rust/pull/72153)
+* [move borrow-of-packed-field unsafety check out of loop](https://github.com/rust-lang/rust/pull/72269)
+* [fix `InlineAsmOperand` expresions being visited twice during liveness checking](https://github.com/rust-lang/rust/pull/72537)
+* [chalk: cleanup crate structure and add features for SLG/recursive solvers](https://github.com/rust-lang/chalk/pull/459)
+* [check non-`Send`/`Sync` upvars captured by generator](https://github.com/rust-lang/rust/pull/71923)
+* [support coercion between `FnDef` and arg-less closure and vice versa](https://github.com/rust-lang/rust/pull/71599)
+* [more lazy normalization of constants](https://github.com/rust-lang/rust/pull/71973)
+* [miri: prepare Dlsym system for dynamic symbols on Windows](https://github.com/rust-lang/miri/pull/1424)
+* [use `T`'s discriminant type in `mem::Discriminant<T>` instead of `u64`](https://github.com/rust-lang/rust/pull/70705)
+* [fix discriminant type in generator transform](https://github.com/rust-lang/rust/pull/72502)
+* [`impl From<Cow>` for `Box`, `Rc`, and `Arc`](https://github.com/rust-lang/rust/pull/71447)
+* [another attempt to reduce `size_of<HashMap>`](https://github.com/rust-lang/hashbrown/pull/159)
+* [set initial non-empty `Vec` size to 4 instead of 1](https://github.com/rust-lang/rust/pull/72227)
+* [make `std::char` functions and constants associated to `char`](https://github.com/rust-lang/rust/pull/71854)
+* [stabilize `saturating_abs` and `saturating_neg`](https://github.com/rust-lang/rust/pull/71886)
+* [add `len` and `slice_from_raw_parts` to `NonNull<[T]>`](https://github.com/rust-lang/rust/pull/71940)
+* [add fast-path optimization for `Ipv4Addr::fmt`](https://github.com/rust-lang/rust/pull/72399)
+* [`impl Ord for proc_macro::LineColumn`](https://github.com/rust-lang/rust/pull/72446)
+* [cargo: try installing exact versions before updating](https://github.com/rust-lang/cargo/pull/8022)
+* [cargo: automatically update `patch`, and provide better errors if an update is not possible](https://github.com/rust-lang/cargo/pull/8248)
+* [cargo: add option to strip binaries](https://github.com/rust-lang/cargo/pull/8246)
+* [rustfmt: merge configs from parent directories](https://github.com/rust-lang/rustfmt/pull/4179)
+* [rustfmt: umprove error message when module resolution failed](https://github.com/rust-lang/rustfmt/pull/4198)
+* [rustfmt: parse comma-separated branches in macro definitions](https://github.com/rust-lang/rustfmt/pull/4173)
 
 ## Approved RFCs
 
@@ -114,13 +135,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> The whole motivation behind exceptions is to allow one to write ones business logic, concentrate on what one likes to think ones program will do, without having lots of fiddly error checking and handling code obscuring that logic. Error situations are therefore swept under the carpet with "try" and kept out of sight with "catch".
->
-> However in my world view failure is not exceptional, it is a common happening, it's too important to be hidden away. Therefor failure handling should be in ones face in the code you write. Certainly in the face of those that read it.
+> Things that are programming patterns in C are types in Rust.
 
-– [ZiCog on rust-users](https://users.rust-lang.org/t/did-rust-make-the-right-choice-about-error-handling/41736/29)
+– [Kornel Lesiński on rust-users](https://users.rust-lang.org/t/how-has-learning-and-working-in-rust-influenced-how-you-think-about-writing-software/42836/3)
 
-Thanks to [Lzutao](https://users.rust-lang.org/t/twir-quote-of-the-week/328/872) for the suggestions!
+Thanks to [trentj](https://users.rust-lang.org/t/twir-quote-of-the-week/328/876) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
