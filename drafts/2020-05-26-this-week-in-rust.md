@@ -18,6 +18,17 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+
+* [Compiling Rust binaries for Windows 98 SE and more: a journey](https://seri.tools/blog/compiling-rust-for-legacy-windows/)
+* [Zero To Production #0: Foreword](https://www.lpalmieri.com/posts/2020-05-24-zero-to-production-0-foreword/)
+* [Some Extensive Projects Working with Rust](https://blog.knoldus.com/some-extensive-projects-working-with-rust/)
+* [Writing Python inside your Rust code — Part 4](https://blog.m-ou.se/writing-python-inside-rust-4/)
+* [Drawing SVG Graphics with Rust](https://cetra3.github.io/blog/drawing-svg-graphs-rust/)
+* [Designing the Rust Unleash API Client](https://medium.com/cognite/designing-the-rust-unleash-api-client-6809c95aa568)
+* [Conway's Game of Life on the NES in Rust](https://gridbugs.org/conways-game-of-life-on-the-nes-in-rust/)
+* [How to organize your Rust tests](https://blog.logrocket.com/how-to-organize-your-rust-tests/)
+* [Just: How I Organize Large Rust Programs](https://rodarmor.com/blog/tour-de-just)
+* [Integrating Qt events into Actix and Rust](https://www.rubdos.be/corona/qt/rust/tokio/actix/2020/05/23/actix-qt.html)
 * [Actix-Web in Docker: How to build small and secure images](https://dev.to/sergeyzenchenko/actix-web-in-docker-how-to-build-small-and-secure-images-2mjd)
 * [Angular, Rust, WebAssembly, Node.js, Serverless, and... the NEW Azure Static Web Apps!](https://dev.to/azure/angular-rust-webassembly-node-js-serverless-and-the-new-azure-static-web-apps-cnb)
 * [The Chromium project finds that around 70% of our serious security bugs are memory safety problems](https://www.chromium.org/Home/chromium-security/memory-safety)
@@ -28,6 +39,9 @@ Check out [this week's *This Week in Rust Podcast*]()
 * [Rust: Dropping heavy things in another thread can make your code 10000 times faster](https://abramov.io/rust-dropping-things-in-another-thread)
 * [Rust's Runtime](https://blog.mgattozzi.dev/rusts-runtime/)
 * [Zero To Production #0: Foreword](https://www.lpalmieri.com/posts/2020-05-24-zero-to-production-0-foreword/)
+* [audio] [Tech Except!ons: What Microsoft has to do with Rust? With Ryan Levick](https://anchor.fm/tech-exceptions/episodes/What-Microsoft-has-to-do-with-Rust--on-this-episode-with-Ryan-Levick-eec75h)
+* [video] [Russian] [Rust: Not as hard as you think  - Meta/conf: Backend Meetup 2020](https://www.youtube.com/watch?v=n3kyvMVck_M)
+* [video] [3 Part Video for Beginners to Rust Porgramming on Iteration](https://tim.mcnamara.nz/post/618982870485172224/rust-iteration)
 * [video] [Bringing WebAssembly outside the web with WASI by Lin Clark](https://www.youtube.com/watch?v=fh9WXPu0hw8)
 * [video] [Microsoft's Safe Systems Programming Languages Effort](https://mybuild.microsoft.com/sessions/61de34c5-b111-4ece-928f-541854875862?source=sessions)
 * [video] [Rust, WebAssembly, and the future of Serverless by Steve Klabnik](https://www.youtube.com/watch?v=CMB6AlE1QuI)
@@ -49,6 +63,15 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [pijama: easy issues](https://github.com/christianpoveda/pijama/issues?q=is%3Aissue+is%3Aopen+label%3AE-easy)
+* [mdbx-rs: Add support for more compile time options](https://github.com/Kerollmops/mdbx-rs/issues/1)
+* [ruma: Replace impl_enum! with strum derives](https://github.com/ruma/ruma-events/issues/90)
+* [time-rs: Revamped parsing/formatting](https://github.com/time-rs/time/issues/236)
+* [http-types: Request::query should match Tide's behavior](https://github.com/http-rs/http-types/issues/154)
+* [http-types: Status should take TryInto<StatusCode/>](https://github.com/http-rs/http-types/issues/155)
+* [http-types: Expose method shorthands for Request constructor](https://github.com/http-rs/http-types/issues/156)
+
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -90,33 +113,39 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [Transition to rust-analyzer as our official LSP (Language Server Protocol) implementation](https://github.com/rust-lang/rfcs/pull/2912)
+*No RFCs are currently in the final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Tracking issue for `std::io::{BufReader, BufWriter}::capacity`](https://github.com/rust-lang/rust/issues/68833)
+* [disposition: merge] [impl From<[T; N]\> for Box<[T]\>](https://github.com/rust-lang/rust/pull/71095)
+* [disposition: merge] [Implement PartialOrd and Ord for SocketAddr*](https://github.com/rust-lang/rust/pull/72239)
 * [disposition: merge] [Stabilize AtomicN::fetch_min and AtomicN::fetch_max](https://github.com/rust-lang/rust/pull/72324)
-* [disposition: merge] [Stabilize process_set_argv0 feature for Unix](https://github.com/rust-lang/rust/pull/72123)
-* [disposition: merge] [impl From <Cow\> for Box, Rc, and Arc](https://github.com/rust-lang/rust/pull/71447)
-* [disposition: close] [Tracking issue for non_static_type_id](https://github.com/rust-lang/rust/issues/41875)
+* [disposition: merge] [Resolve overflow behavior for RangeFrom](https://github.com/rust-lang/rust/pull/72368)
+* [disposition: merge] [impl Step for char (make Range*<char\> iterable)](https://github.com/rust-lang/rust/pull/72413)
+* [disposition: merge] [Stabilize core::panic::Location::caller](https://github.com/rust-lang/rust/issues/72448)
+* [disposition: merge] [Stabilize str_strip feature](https://github.com/rust-lang/rust/pull/72466)
+
 
 ## New RFCs
-* [RFC: Reading into uninitialized buffers](https://github.com/rust-lang/rfcs/pull/2930)
+
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
 ### Online
-* [May 20. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybchbbc/).
-* [May 21. Turin, IT - Rust Turin Meetup](https://community.mozilla.org/events/gruppo-di-studio-di-rust/)
-* [May 26. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybchbjc/)
-* [May 26. Berlin, DE - Rust and Tell](https://www.meetup.com/Rust-Berlin/events/270319545/)
-* [May 27. Montréal, QC, CA - Remote - RustMTL May 2020](https://www.meetup.com/Rust-Montreal/events/270635425)
-* [May 27. Wrocław, PL - Rust Wrocław Meetup #20](https://www.meetup.com/Rust-Wroclaw/events/270771184/)
-* [May 27. London, UK - Remote - LDN Talks May 2020](https://www.meetup.com/Rust-London-User-Group/events/270526235/)
 
+* [May 27. Montréal, QC, CA - Remote - RustMTL May 2020](https://www.meetup.com/Rust-Montreal/events/270635425)
+* [May 27. Wrocław, PL - Remote - Rust Wrocław Meetup #20](https://www.meetup.com/Rust-Wroclaw/events/270771184/)
+* [May 27. London, UK - Remote - LDN Talks May 2020](https://www.meetup.com/Rust-London-User-Group/events/270526235/)
+* [May 28. Berlin, DE - Remote - Rust Hack and Learn](https://www.meetup.com/Rust-London-User-Group/events/270526235/)
+* [June 3. Johannesburg, ZA - Remote - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/270827463/)
+* [June 8. Auckland, NZ - Remote - Rust AKL](https://www.meetup.com/rust-akl/events/266876685/)
+* [June 9. Seattle, WA - Remote - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybcjbmb/)
 
 ### North America
-* [May 25. Durham, NC, US - Triangle Rustaceans - Project Night and Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybchbhc/)
 
+* [June 3. Indianapolis, IN, US - Indy.rs Meetup](https://www.meetup.com/indyrs/events/dtqwprybcjbfb/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -130,6 +159,9 @@ Email the [Rust Community Team][community] for access.
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 * [Rust Back End Engineer, Core Banking - TrueLayer - Milan, Italy](https://apply.workable.com/truelayer/j/37748BA121/)
+* [Sr. SW Engineer (TW or Remote) - NZXT - Taipei, Taiwan](https://nzxt.bamboohr.com/jobs/view.php?id=233)
+* [Rust Graphics Engineer - Elektron - Gotheburg, Sweden](https://www.elektron.se/rust-graphics-engineer/)
+
 
 # Quote of the Week
 
