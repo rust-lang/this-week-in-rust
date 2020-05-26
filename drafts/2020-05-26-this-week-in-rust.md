@@ -18,6 +18,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Zero To Production #0: Foreword](https://www.lpalmieri.com/posts/2020-05-24-zero-to-production-0-foreword/)
+
 # Crate of the Week
 
 This week's crate is [apply](https://crates.io/crates/apply), a tiny library for chaining free functions into method call chains.
