@@ -18,6 +18,9 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Zero To Production #0: Foreword](https://www.lpalmieri.com/posts/2020-05-24-zero-to-production-0-foreword/)
+* [video] [Rust: Not as hard as you think / Meta/conf: Backend Meetup 2020](https://www.youtube.com/watch?v=n3kyvMVck_M) (In Russian)
+
 # Crate of the Week
 
 This week's crate is [apply](https://crates.io/crates/apply), a tiny library for chaining free functions into method call chains.
@@ -96,6 +99,7 @@ decision. Express your opinions now.
 * [May 26. Berlin, DE - Rust and Tell](https://www.meetup.com/Rust-Berlin/events/270319545/)
 * [May 27. Montréal, QC, CA - Remote - RustMTL May 2020](https://www.meetup.com/Rust-Montreal/events/270635425)
 * [May 27. Wrocław, PL - Rust Wrocław Meetup #20](https://www.meetup.com/Rust-Wroclaw/events/270771184/)
+* [May 27. London, UK - Remote - LDN Talks May 2020](https://www.meetup.com/Rust-London-User-Group/events/270526235/)
 
 
 ### North America
@@ -112,6 +116,8 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
+* [Rust Back End Engineer, Core Banking - TrueLayer - Milan, Italy](https://apply.workable.com/truelayer/j/37748BA121/)
 
 # Quote of the Week
 
