@@ -98,6 +98,7 @@ decision. Express your opinions now.
 * [May 26. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybchbjc/)
 * [May 26. Berlin, DE - Rust and Tell](https://www.meetup.com/Rust-Berlin/events/270319545/)
 * [May 27. Montréal, QC, CA - Remote - RustMTL May 2020](https://www.meetup.com/Rust-Montreal/events/270635425)
+* [May 27. London, UK - Remote - LDN Talks May 2020](https://www.meetup.com/Rust-London-User-Group/events/270526235/)
 
 
 ### North America
