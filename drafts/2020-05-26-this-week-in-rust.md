@@ -18,7 +18,19 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Actix-Web in Docker: How to build small and secure images](https://dev.to/sergeyzenchenko/actix-web-in-docker-how-to-build-small-and-secure-images-2mjd)
+* [Angular, Rust, WebAssembly, Node.js, Serverless, and... the NEW Azure Static Web Apps!](https://dev.to/azure/angular-rust-webassembly-node-js-serverless-and-the-new-azure-static-web-apps-cnb)
+* [The Chromium project finds that around 70% of our serious security bugs are memory safety problems](https://www.chromium.org/Home/chromium-security/memory-safety)
+* [Integration of AV-Metrics Into rav1e, the AV1 Encoder](https://dev.to/vibhoothi/integration-of-av-metrics-into-rav1e-the-av1-encoder-5h8h)
+* [Oxidizing the technical interview](https://blog.mgattozzi.dev/oxidizing-the-technical-interview/)
+* [Porting K-D Forests to Rust](https://tavianator.com/porting-k-d-forests-to-rust/)
+* [Rust Macro Rules in Practice](https://dev.to/sassman/rust-macro-rules-in-practice-40ne)
+* [Rust: Dropping heavy things in another thread can make your code 10000 times faster](https://abramov.io/rust-dropping-things-in-another-thread)
+* [Rust's Runtime](https://blog.mgattozzi.dev/rusts-runtime/)
 * [Zero To Production #0: Foreword](https://www.lpalmieri.com/posts/2020-05-24-zero-to-production-0-foreword/)
+* [video] [Bringing WebAssembly outside the web with WASI by Lin Clark](https://www.youtube.com/watch?v=fh9WXPu0hw8)
+* [video] [Microsoft's Safe Systems Programming Languages Effort](https://mybuild.microsoft.com/sessions/61de34c5-b111-4ece-928f-541854875862?source=sessions)
+* [video] [Rust, WebAssembly, and the future of Serverless by Steve Klabnik](https://www.youtube.com/watch?v=CMB6AlE1QuI)
 * [video] [Rust: Not as hard as you think / Meta/conf: Backend Meetup 2020](https://www.youtube.com/watch?v=n3kyvMVck_M) (In Russian)
 
 # Crate of the Week
