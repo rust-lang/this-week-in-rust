@@ -49,6 +49,15 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [pijama: easy issues](https://github.com/christianpoveda/pijama/issues?q=is%3Aissue+is%3Aopen+label%3AE-easy)
+* [mdbx-rs: Add support for more compile time options](https://github.com/Kerollmops/mdbx-rs/issues/1)
+* [ruma: Replace impl_enum! with strum derives](https://github.com/ruma/ruma-events/issues/90)
+* [time-rs: Revamped parsing/formatting](https://github.com/time-rs/time/issues/236)
+* [http-types: Request::query should match Tide's behavior](https://github.com/http-rs/http-types/issues/154)
+* [http-types: Status should take TryInto<StatusCode/>](https://github.com/http-rs/http-types/issues/155)
+* [http-types: Expose method shorthands for Request constructor](https://github.com/http-rs/http-types/issues/156)
+
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
