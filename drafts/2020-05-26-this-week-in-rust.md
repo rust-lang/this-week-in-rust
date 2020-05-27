@@ -145,7 +145,6 @@ decision. Express your opinions now.
 * [disposition: merge] [Stabilize core::panic::Location::caller](https://github.com/rust-lang/rust/issues/72448)
 * [disposition: merge] [Stabilize str_strip feature](https://github.com/rust-lang/rust/pull/72466)
 
-
 ## New RFCs
 
 *No new RFCs were proposed this week.*
@@ -180,7 +179,6 @@ Email the [Rust Community Team][community] for access.
 * [Rust Back End Engineer, Core Banking - TrueLayer - Milan, Italy](https://apply.workable.com/truelayer/j/37748BA121/)
 * [Sr. SW Engineer (TW or Remote) - NZXT - Taipei, Taiwan](https://nzxt.bamboohr.com/jobs/view.php?id=233)
 * [Rust Graphics Engineer - Elektron - Gotheburg, Sweden](https://www.elektron.se/rust-graphics-engineer/)
-
 
 # Quote of the Week
 
