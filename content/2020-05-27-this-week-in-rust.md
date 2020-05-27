@@ -40,7 +40,7 @@ Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-stat
 * [Rust's Runtime](https://blog.mgattozzi.dev/rusts-runtime/)
 * [audio] [Tech Except!ons: What Microsoft has to do with Rust? With Ryan Levick](https://anchor.fm/tech-exceptions/episodes/What-Microsoft-has-to-do-with-Rust--on-this-episode-with-Ryan-Levick-eec75h)
 * [video] [Russian] [Rust: Not as hard as you think - Meta/conf: Backend Meetup 2020](https://www.youtube.com/watch?v=n3kyvMVck_M)
-* [video] [3 Part Video for Beginners to Rust Porgramming on Iteration](https://tim.mcnamara.nz/post/618982870485172224/rust-iteration)
+* [video] [3 Part Video for Beginners to Rust Programming on Iteration](https://tim.mcnamara.nz/post/618982870485172224/rust-iteration)
 * [video] [Bringing WebAssembly outside the web with WASI by Lin Clark](https://www.youtube.com/watch?v=fh9WXPu0hw8)
 * [video] [Microsoft's Safe Systems Programming Languages Effort](https://mybuild.microsoft.com/sessions/61de34c5-b111-4ece-928f-541854875862?source=sessions)
 * [video] [Rust, WebAssembly, and the future of Serverless by Steve Klabnik](https://www.youtube.com/watch?v=CMB6AlE1QuI)
@@ -137,11 +137,11 @@ decision. Express your opinions now.
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [Tracking issue for `std::io::{BufReader, BufWriter}::capacity`](https://github.com/rust-lang/rust/issues/68833)
-* [disposition: merge] [impl From<[T; N]\> for Box<[T]\>](https://github.com/rust-lang/rust/pull/71095)
+* [disposition: merge] [impl `From<[T; N]>` for `Box<[T]>`](https://github.com/rust-lang/rust/pull/71095)
 * [disposition: merge] [Implement PartialOrd and Ord for SocketAddr*](https://github.com/rust-lang/rust/pull/72239)
 * [disposition: merge] [Stabilize AtomicN::fetch_min and AtomicN::fetch_max](https://github.com/rust-lang/rust/pull/72324)
 * [disposition: merge] [Resolve overflow behavior for RangeFrom](https://github.com/rust-lang/rust/pull/72368)
-* [disposition: merge] [impl Step for char (make Range*<char\> iterable)](https://github.com/rust-lang/rust/pull/72413)
+* [disposition: merge] [impl Step for char (make `Range*<char>` iterable)](https://github.com/rust-lang/rust/pull/72413)
 * [disposition: merge] [Stabilize core::panic::Location::caller](https://github.com/rust-lang/rust/issues/72448)
 * [disposition: merge] [Stabilize str_strip feature](https://github.com/rust-lang/rust/pull/72466)
 
