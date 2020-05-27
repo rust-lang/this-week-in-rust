@@ -1,6 +1,6 @@
 Title: This Week in Rust 340
 Number: 340
-Date: 2020-05-26
+Date: 2020-05-27
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -12,7 +12,7 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-Check out [this week's *This Week in Rust Podcast*]()
+Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-station.org/file/rustacean-station/twir-2020-05-26.mp3)
 
 # Updates from Rust Community
 
@@ -38,10 +38,9 @@ Check out [this week's *This Week in Rust Podcast*]()
 * [Rust Macro Rules in Practice](https://dev.to/sassman/rust-macro-rules-in-practice-40ne)
 * [Rust: Dropping heavy things in another thread can make your code 10000 times faster](https://abramov.io/rust-dropping-things-in-another-thread)
 * [Rust's Runtime](https://blog.mgattozzi.dev/rusts-runtime/)
-* [Zero To Production #0: Foreword](https://www.lpalmieri.com/posts/2020-05-24-zero-to-production-0-foreword/)
 * [audio] [Tech Except!ons: What Microsoft has to do with Rust? With Ryan Levick](https://anchor.fm/tech-exceptions/episodes/What-Microsoft-has-to-do-with-Rust--on-this-episode-with-Ryan-Levick-eec75h)
 * [video] [Russian] [Rust: Not as hard as you think - Meta/conf: Backend Meetup 2020](https://www.youtube.com/watch?v=n3kyvMVck_M)
-* [video] [3 Part Video for Beginners to Rust Porgramming on Iteration](https://tim.mcnamara.nz/post/618982870485172224/rust-iteration)
+* [video] [3 Part Video for Beginners to Rust Programming on Iteration](https://tim.mcnamara.nz/post/618982870485172224/rust-iteration)
 * [video] [Bringing WebAssembly outside the web with WASI by Lin Clark](https://www.youtube.com/watch?v=fh9WXPu0hw8)
 * [video] [Microsoft's Safe Systems Programming Languages Effort](https://mybuild.microsoft.com/sessions/61de34c5-b111-4ece-928f-541854875862?source=sessions)
 * [video] [Rust, WebAssembly, and the future of Serverless by Steve Klabnik](https://www.youtube.com/watch?v=CMB6AlE1QuI)
@@ -138,14 +137,13 @@ decision. Express your opinions now.
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [Tracking issue for `std::io::{BufReader, BufWriter}::capacity`](https://github.com/rust-lang/rust/issues/68833)
-* [disposition: merge] [impl From<[T; N]\> for Box<[T]\>](https://github.com/rust-lang/rust/pull/71095)
+* [disposition: merge] [impl `From<[T; N]>` for `Box<[T]>`](https://github.com/rust-lang/rust/pull/71095)
 * [disposition: merge] [Implement PartialOrd and Ord for SocketAddr*](https://github.com/rust-lang/rust/pull/72239)
 * [disposition: merge] [Stabilize AtomicN::fetch_min and AtomicN::fetch_max](https://github.com/rust-lang/rust/pull/72324)
 * [disposition: merge] [Resolve overflow behavior for RangeFrom](https://github.com/rust-lang/rust/pull/72368)
-* [disposition: merge] [impl Step for char (make Range*<char\> iterable)](https://github.com/rust-lang/rust/pull/72413)
+* [disposition: merge] [impl Step for char (make `Range*<char>` iterable)](https://github.com/rust-lang/rust/pull/72413)
 * [disposition: merge] [Stabilize core::panic::Location::caller](https://github.com/rust-lang/rust/issues/72448)
 * [disposition: merge] [Stabilize str_strip feature](https://github.com/rust-lang/rust/pull/72466)
-
 
 ## New RFCs
 
@@ -182,7 +180,6 @@ Email the [Rust Community Team][community] for access.
 * [Sr. SW Engineer (TW or Remote) - NZXT - Taipei, Taiwan](https://nzxt.bamboohr.com/jobs/view.php?id=233)
 * [Rust Graphics Engineer - Elektron - Gotheburg, Sweden](https://www.elektron.se/rust-graphics-engineer/)
 
-
 # Quote of the Week
 
 > Things that are programming patterns in C are types in Rust.
@@ -195,4 +192,4 @@ Thanks to [trentj](https://users.rust-lang.org/t/twir-quote-of-the-week/328/876)
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/gmyv8h/this_week_in_rust_339/).</small>
+<small>[Discuss on r/rust]().</small>
