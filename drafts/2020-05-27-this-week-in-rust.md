@@ -1,6 +1,6 @@
 Title: This Week in Rust 340
 Number: 340
-Date: 2020-05-26
+Date: 2020-05-27
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
