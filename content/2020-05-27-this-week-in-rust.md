@@ -18,7 +18,6 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ## News & Blog Posts
 
-
 * [Compiling Rust binaries for Windows 98 SE and more: a journey](https://seri.tools/blog/compiling-rust-for-legacy-windows/)
 * [Zero To Production #0: Foreword](https://www.lpalmieri.com/posts/2020-05-24-zero-to-production-0-foreword/)
 * [Some Extensive Projects Working with Rust](https://blog.knoldus.com/some-extensive-projects-working-with-rust/)
@@ -49,7 +48,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 This week's crate is [cargo-asm](https://github.com/gnzlbg/cargo-asm), a cargo subcommand to show the resulting assembly of a function. Useful for performance work.
 
-Thanks to [Trevor Spiteri](https://users.rust-lang.org/t/crate-of-the-week/2704/769) for the suggestion!
+Thanks to [Jay Oster](https://users.rust-lang.org/t/crate-of-the-week/2704/772) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
