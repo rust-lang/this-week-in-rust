@@ -84,7 +84,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [update to LLVM 10](https://github.com/rust-lang/rust/pull/67759)
 * [llvm: expose tiny code model to users](https://github.com/rust-lang/rust/pull/72397)
 * [enable ARM TME (Transactional Memory Extensions)](https://github.com/rust-lang/rust/pull/72438)
-* [implement new `asm!` syntax](https://github.com/rust-lang/rust/pull/69171) from [RFC #2850](TODO)
+* [implement new `asm!` syntax](https://github.com/rust-lang/rust/pull/69171) from [RFC #2873](https://github.com/rust-lang/rfcs/pull/2873)
 * [always generated object code for `#![no_builtins]`](https://github.com/rust-lang/rust/pull/72325)
 * [break tokens before checking if they are 'probably equal'](https://github.com/rust-lang/rust/pull/72306)
 * [emit a better diagnostic when function actually has a 'self' parameter](https://github.com/rust-lang/rust/pull/72308)
