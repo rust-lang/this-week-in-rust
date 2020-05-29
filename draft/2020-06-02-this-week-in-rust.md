@@ -18,6 +18,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [video] [A Rust & Wasm tutorial on building Bitcoin infrastructure. Rust beginner-friendly!](https://www.youtube.com/watch?v=qaykNPHJcyw)
+
 # Crate of the Week
 
 This week's crate is [cargo-asm](https://github.com/gnzlbg/cargo-asm), a cargo subcommand to show the resulting assembly of a function. Useful for performance work.
