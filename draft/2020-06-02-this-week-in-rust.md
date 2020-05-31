@@ -18,6 +18,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+[Rust Bindings for LittlevGL Open-Source Embedded GUI Library](https://github.com/rafaelcaricio/lvgl-rs).
+
 # Crate of the Week
 
 This week's crate is [cargo-asm](https://github.com/gnzlbg/cargo-asm), a cargo subcommand to show the resulting assembly of a function. Useful for performance work.
