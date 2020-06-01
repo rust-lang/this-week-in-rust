@@ -19,6 +19,7 @@ Check out [this week's *This Week in Rust Podcast*]()
 ## News & Blog Posts
 
 * [Auto-Vectorization for Newer Instruction Sets in Rust](https://www.nickwilcox.com/blog/autovec2/)
+* [video] [A Rust & Wasm tutorial on building Bitcoin infrastructure. Rust beginner-friendly!](https://www.youtube.com/watch?v=qaykNPHJcyw)
 
 # Crate of the Week
 
