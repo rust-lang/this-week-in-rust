@@ -18,8 +18,23 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [RustConf 2020 Registration is Open](https://rustconf.com/)
+* [2020 Contributor Survey](https://blog.rust-lang.org/inside-rust/2020/05/27/contributor-survey.html)
+* [A retrospective on the 2018 rust-lang.org redesign](https://blog.rust-lang.org/inside-rust/2020/05/26/website-retrospective.html)
+* [Rust Disassembly: Part 1](https://giordi91.github.io/post/disassemlbyrust1/)
+* [Fuzzing Sequoia-PGP](https://blog.hackeriet.no/fuzzing-sequoia/)
 * [Auto-Vectorization for Newer Instruction Sets in Rust](https://www.nickwilcox.com/blog/autovec2/)
+* [Current State of Embedded Rust for Flight Controllers](https://gist.github.com/tstellanova/81c963f556522447dd007a0c3a84ebc3)
+* [3D boids swimming along in perfect harmony; Implementing the boids flocking algorithm in Rust](https://www.reddit.com/r/rust/comments/gsldbi/3d_boids_swimming_along_in_perfect_harmony/)
+* [Coverage Marks](https://ferrous-systems.com/blog/coverage-marks/)
+* [Ringbahn: a safe, ergonomic API for io-uring in Rust](https://boats.gitlab.io/blog/post/ringbahn/)
+* [rust-analyzer changelog #26](https://rust-analyzer.github.io/thisweek/2020/05/25/changelog-26.html)
+* [Why I'm enjoying learning Rust as a Java programmer](https://opensource.com/article/20/5/rust-java)
+* [Contributing to Rust](https://blog.elinvynia.com/posts/2020-05-26-contributing-to-rust.html)
+* [Get a Look on Key Rust Crates for WebAssembly](https://blog.knoldus.com/get-a-look-on-key-rust-crates-for-webassembly/)
 * [video] [A Rust & Wasm tutorial on building Bitcoin infrastructure. Rust beginner-friendly!](https://www.youtube.com/watch?v=qaykNPHJcyw)
+* [video] [Crust of Rust: Iterators](https://www.youtube.com/watch?v=yozQ9C69pNs&feature=emb_logo)
+* [video] [Rust and Tell Berlin - May 2020](https://www.youtube.com/watch?v=rpilJV-eIVw&feature=emb_logo)
 
 # Crate of the Week
 
@@ -140,6 +155,9 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Software Engineer - Rust - IOTA Foundation - Remote](https://iota.bamboohr.com/jobs/view.php?id=105)
+* [Senior Rust Engineer - Polymath - Remote](https://polymath.bamboohr.com/jobs/view.php?id=96)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
