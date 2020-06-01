@@ -18,11 +18,14 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+
 * [RustConf 2020 Registration is Open](https://rustconf.com/)
 * [2020 Contributor Survey](https://blog.rust-lang.org/inside-rust/2020/05/27/contributor-survey.html)
 * [A retrospective on the 2018 rust-lang.org redesign](https://blog.rust-lang.org/inside-rust/2020/05/26/website-retrospective.html)
 * [Rust Disassembly: Part 1](https://giordi91.github.io/post/disassemlbyrust1/)
 * [Fuzzing Sequoia-PGP](https://blog.hackeriet.no/fuzzing-sequoia/)
+* [Mutex in async world](https://kitsu.me/posts/2020_06_01_mutex_in_async_world)
+* [Custom types in Diesel](https://kitsu.me/posts/2020_05_24_custom_types_in_diesel)
 * [Auto-Vectorization for Newer Instruction Sets in Rust](https://www.nickwilcox.com/blog/autovec2/)
 * [Current State of Embedded Rust for Flight Controllers](https://gist.github.com/tstellanova/81c963f556522447dd007a0c3a84ebc3)
 * [3D boids swimming along in perfect harmony; Implementing the boids flocking algorithm in Rust](https://www.reddit.com/r/rust/comments/gsldbi/3d_boids_swimming_along_in_perfect_harmony/)
