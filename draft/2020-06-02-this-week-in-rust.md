@@ -48,10 +48,16 @@ Thanks to [Jay Oster](https://users.rust-lang.org/t/crate-of-the-week/2704/772) 
 
 # Call for Participation
 
+
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [ruma-events: Add predefined push notification rules](https://github.com/ruma/ruma-events/issues/105)
+* [ruma-events: Add helpers to construct the fallback for rich replies](https://github.com/ruma/ruma-events/issues/81)
+* [ruma-events: Create a distinct type for PushCondition::RoomMemberCount::is](https://github.com/ruma/ruma-events/issues/104)
+
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -104,7 +110,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved last week.*
+* [Transition to rust-analyzer as our official LSP (Language Server Protocol) implementation](https://github.com/rust-lang/rfcs/pull/2912)
 
 ## Final Comment Period
 
@@ -118,34 +124,28 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [impl `AsRef<[T]` for `vec::IntoIter<T>`](https://github.com/rust-lang/rust/pull/72583)
+* [disposition: merge] [Add raw_ref macros](https://github.com/rust-lang/rust/pull/72279)
 * [disposition: merge] [Tracking issue for `std::io::{BufReader, BufWriter}::capacity`](https://github.com/rust-lang/rust/issues/68833)
-* [disposition: merge] [impl `From<[T; N]>` for `Box<[T]>`](https://github.com/rust-lang/rust/pull/71095)
-* [disposition: merge] [Implement PartialOrd and Ord for SocketAddr*](https://github.com/rust-lang/rust/pull/72239)
-* [disposition: merge] [Stabilize AtomicN::fetch_min and AtomicN::fetch_max](https://github.com/rust-lang/rust/pull/72324)
-* [disposition: merge] [Resolve overflow behavior for RangeFrom](https://github.com/rust-lang/rust/pull/72368)
-* [disposition: merge] [impl Step for char (make `Range*<char>` iterable)](https://github.com/rust-lang/rust/pull/72413)
-* [disposition: merge] [Stabilize core::panic::Location::caller](https://github.com/rust-lang/rust/issues/72448)
-* [disposition: merge] [Stabilize str_strip feature](https://github.com/rust-lang/rust/pull/72466)
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [add lang-team Major Change Proposals as a "pre-RFC" step](https://github.com/rust-lang/rfcs/pull/2936)
+* [Unsafe statics](https://github.com/rust-lang/rfcs/pull/2937)
+* [Request for creating pipes with fd other than 0,1,2](https://github.com/rust-lang/rfcs/pull/2939)
 
 # Upcoming Events
 
 ### Online
-
-* [May 27. Montréal, QC, CA - Remote - RustMTL May 2020](https://www.meetup.com/Rust-Montreal/events/270635425)
-* [May 27. Wrocław, PL - Remote - Rust Wrocław Meetup #20](https://www.meetup.com/Rust-Wroclaw/events/270771184/)
-* [May 27. London, UK - Remote - LDN Talks May 2020](https://www.meetup.com/Rust-London-User-Group/events/270526235/)
-* [May 28. Berlin, DE - Remote - Rust Hack and Learn](https://www.meetup.com/Rust-London-User-Group/events/270526235/)
 * [June 3. Johannesburg, ZA - Remote - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/270827463/)
 * [June 8. Auckland, NZ - Remote - Rust AKL](https://www.meetup.com/rust-akl/events/266876685/)
 * [June 9. Seattle, WA - Remote - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybcjbmb/)
+* [June 11. San Diego, CA - Remote - San Diego Rust Meetup](https://www.meetup.com/San-Diego-Rust/events/270938860/)
 
 ### North America
-
 * [June 3. Indianapolis, IN, US - Indy.rs Meetup](https://www.meetup.com/indyrs/events/dtqwprybcjbfb/)
+* [June 11. Columbus, OH, US - Columbus Rust Society Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybcjbpb/)
+* [June 11. Lehi, UT, US - Utah Rust - Lightning Talks](https://www.meetup.com/utah-rust/events/269263282/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
