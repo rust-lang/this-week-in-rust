@@ -108,6 +108,13 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [rustfmt: umprove error message when module resolution failed](https://github.com/rust-lang/rustfmt/pull/4198)
 * [rustfmt: parse comma-separated branches in macro definitions](https://github.com/rust-lang/rustfmt/pull/4173)
 
+## Rust Compiler Performance Triage
+
+This is a new section containing the results of a weekly check on how rustc's
+perf has changed.
+
+* [2020-06-02](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020.md#2020-06-02)
+
 ## Approved RFCs
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
