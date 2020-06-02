@@ -15,10 +15,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # We Stand With You
 
 Since our previous issue, there has been a lot of news about the civil
-rights discourse in the United States, spawned by the killing of an innocent
-member of the African American community. The Black Lives Matter movement has
-gained a lot of traction in bringing to attention the social injustices that
-haunt all people of color.
+rights discourse in the United States, spawned by the murder of George Floyd
+by a member of the Minneapolis Police Department. We stand with Black Lives
+Matter and our black siblings now and always.
 
 We believe that Rustaceans have a duty to our community and to the rest of
 the world to ensure that people feel comfortable and welcome wherever they
@@ -27,8 +26,9 @@ we intend to make everybody feel safe, but this does not just apply to us.
 
 Just as we support Rustaceans, we also support humanity as a whole. It is time
 for social progress to be made. We support those risking their own well-being
-to show support for marginalized people. We stand with the protesters hoping
-to make the world better.
+to show support for George Floyd, Breonna Taylor, Ahmaud Aubery, and everyone
+else who has faced injustice at the hands of members of the police. We stand
+with the protesters hoping to make the world better.
 
 If you want to show your support,
 [here is a website of curated resources](https://blacklivesmatters.carrd.co/).
