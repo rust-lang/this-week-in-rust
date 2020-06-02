@@ -39,7 +39,6 @@ better world.
 
 ## News & Blog Posts
 
-
 * [RustConf 2020 Registration is Open](https://rustconf.com/)
 * [2020 Contributor Survey](https://blog.rust-lang.org/inside-rust/2020/05/27/contributor-survey.html)
 * [A retrospective on the 2018 rust-lang.org redesign](https://blog.rust-lang.org/inside-rust/2020/05/26/website-retrospective.html)
@@ -56,6 +55,15 @@ better world.
 * [Why I'm enjoying learning Rust as a Java programmer](https://opensource.com/article/20/5/rust-java)
 * [Contributing to Rust](https://blog.elinvynia.com/posts/2020-05-26-contributing-to-rust.html)
 * [Get a Look on Key Rust Crates for WebAssembly](https://blog.knoldus.com/get-a-look-on-key-rust-crates-for-webassembly/)
+* [10 Most Loved Programming Languages: Rust, TypeScript, and More](https://insights.dice.com/2020/05/29/10-most-loved-programming-languages-rust-typescript-more/)
+* [Creating a Ruby Gem with Rust](https://richardpatching.com/2020/05/22/creating-a-ruby-gem-with-rust.html)
+* [Designing the Rust Unleash API client](https://medium.com/cognite/designing-the-rust-unleash-api-client-6809c95aa568)
+* [How to build a WebSocket server with Rust](https://blog.logrocket.com/how-to-build-a-websocket-server-with-rust/)
+* [Invoking Functions on Distributed Game Objects](https://dev.to/autodidaddict/invoking-functions-on-distributed-game-objects-37b1)
+* [IPv6 and Rust](https://blog.apnic.net/2020/06/02/ipv6-and-rust/)
+* [Rust as a High Level Language](https://llogiq.github.io/2020/05/30/hi.html)
+* [Sorting algorithms in Rust](https://dev.to/jlkiri/sorting-algorithms-in-rust-1386)
+* [Spanish] [Aprende Rust en español](https://dev.to/robertohuertasm/aprende-rust-en-espanol-1pea)
 * [video] [A Rust & Wasm tutorial on building Bitcoin infrastructure. Rust beginner-friendly!](https://www.youtube.com/watch?v=qaykNPHJcyw)
 * [video] [Crust of Rust: Iterators](https://www.youtube.com/watch?v=yozQ9C69pNs&feature=emb_logo)
 * [video] [Rust and Tell Berlin - May 2020](https://www.youtube.com/watch?v=rpilJV-eIVw&feature=emb_logo)
@@ -81,6 +89,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [ruma-events: Add predefined push notification rules](https://github.com/ruma/ruma-events/issues/105)
 * [ruma-events: Add helpers to construct the fallback for rich replies](https://github.com/ruma/ruma-events/issues/81)
 * [ruma-events: Create a distinct type for PushCondition::RoomMemberCount::is](https://github.com/ruma/ruma-events/issues/104)
+* [Writing database management system in Rust. When the flame is born from the ashes](https://alex-dukhno.github.io/2020-05-30-Writing-database-management-system-in-Rust.-When-the-flame-is-born-from-the-ashes/)
 
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -128,6 +137,13 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [rustfmt: merge configs from parent directories](https://github.com/rust-lang/rustfmt/pull/4179)
 * [rustfmt: umprove error message when module resolution failed](https://github.com/rust-lang/rustfmt/pull/4198)
 * [rustfmt: parse comma-separated branches in macro definitions](https://github.com/rust-lang/rustfmt/pull/4173)
+
+## Rust Compiler Performance Triage
+
+This is a new section containing the results of a weekly check on how rustc's
+perf has changed.
+
+* [2020-06-02](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020.md#2020-06-02)
 
 ## Approved RFCs
 
@@ -182,6 +198,7 @@ Email the [Rust Community Team][community] for access.
 
 * [Software Engineer - Rust - IOTA Foundation - Remote](https://iota.bamboohr.com/jobs/view.php?id=105)
 * [Senior Rust Engineer - Polymath - Remote](https://polymath.bamboohr.com/jobs/view.php?id=96)
+* [Rust Back End Engineer, Core Banking - TrueLayer - Milan, Italy](https://apply.workable.com/truelayer/j/37748BA121/)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
