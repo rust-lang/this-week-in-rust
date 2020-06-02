@@ -12,7 +12,28 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-Check out [this week's *This Week in Rust Podcast*]()
+# We Stand With You
+
+Since our previous issue, there has been a lot of news about the civil
+rights discourse in the United States, spawned by the killing of an innocent
+member of the African American community. The Black Lives Matter movement has
+gained a lot of traction in bringing to attention the social injustices that
+haunt all people of color.
+
+We believe that Rustaceans have a duty to our community and to the rest of
+the world to ensure that people feel comfortable and welcome wherever they
+may be. In our own community, the Rust Code of Conduct explicitly states that
+we intend to make everybody feel safe, but this does not just apply to us.
+
+Just as we support Rustaceans, we also support humanity as a whole. It is time
+for social progress to be made. We support those risking their own well-being
+to show support for marginalized people. We stand with the protesters hoping
+to make the world better.
+
+If you want to show your support,
+[here is a website of curated resources](https://blacklivesmatters.carrd.co/).
+We encourage you to speak out, as one more voice is one step closer to a
+better world.
 
 # Updates from Rust Community
 
