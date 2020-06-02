@@ -18,7 +18,6 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
-
 * [RustConf 2020 Registration is Open](https://rustconf.com/)
 * [2020 Contributor Survey](https://blog.rust-lang.org/inside-rust/2020/05/27/contributor-survey.html)
 * [A retrospective on the 2018 rust-lang.org redesign](https://blog.rust-lang.org/inside-rust/2020/05/26/website-retrospective.html)
@@ -60,6 +59,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [ruma-events: Add predefined push notification rules](https://github.com/ruma/ruma-events/issues/105)
 * [ruma-events: Add helpers to construct the fallback for rich replies](https://github.com/ruma/ruma-events/issues/81)
 * [ruma-events: Create a distinct type for PushCondition::RoomMemberCount::is](https://github.com/ruma/ruma-events/issues/104)
+* [Writing database management system in Rust. When the flame is born from the ashes](https://alex-dukhno.github.io/2020-05-30-Writing-database-management-system-in-Rust.-When-the-flame-is-born-from-the-ashes/)
 
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
