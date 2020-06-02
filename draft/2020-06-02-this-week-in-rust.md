@@ -70,9 +70,9 @@ better world.
 
 # Crate of the Week
 
-This week's crate is [cargo-asm](https://github.com/gnzlbg/cargo-asm), a cargo subcommand to show the resulting assembly of a function. Useful for performance work.
+This week's crate is [jql](https://github.com/yamafaktory/jql), a JSON Query Language CLI tool.
 
-Thanks to [Jay Oster](https://users.rust-lang.org/t/crate-of-the-week/2704/772) for the suggestion!
+Thanks to [Davy Duperron](https://users.rust-lang.org/t/crate-of-the-week/2704/775) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -98,45 +98,38 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-359 pull requests were [merged in the last week][merged]
+442 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-05-18..2020-05-25
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-05-25..2020-06-01
 
-* [update to LLVM 10](https://github.com/rust-lang/rust/pull/67759)
-* [llvm: expose tiny code model to users](https://github.com/rust-lang/rust/pull/72397)
-* [enable ARM TME (Transactional Memory Extensions)](https://github.com/rust-lang/rust/pull/72438)
-* [implement new `asm!` syntax](https://github.com/rust-lang/rust/pull/69171) from [RFC #2873](https://github.com/rust-lang/rfcs/pull/2873)
-* [always generated object code for `#![no_builtins]`](https://github.com/rust-lang/rust/pull/72325)
-* [break tokens before checking if they are 'probably equal'](https://github.com/rust-lang/rust/pull/72306)
-* [emit a better diagnostic when function actually has a 'self' parameter](https://github.com/rust-lang/rust/pull/72308)
-* [stabilize fn-like proc macros in expression, pattern and statement positions](https://github.com/rust-lang/rust/pull/68717)
-* [use `once_cell` crate instead of custom data structure](https://github.com/rust-lang/rust/pull/72256)
-* [simple NRVO](https://github.com/rust-lang/rust/pull/72205)
-* [remove ReScope](https://github.com/rust-lang/rust/pull/72362)
-* [exhaustively check `ty::Kind` during structural match checking](https://github.com/rust-lang/rust/pull/72153)
-* [move borrow-of-packed-field unsafety check out of loop](https://github.com/rust-lang/rust/pull/72269)
-* [fix `InlineAsmOperand` expresions being visited twice during liveness checking](https://github.com/rust-lang/rust/pull/72537)
-* [chalk: cleanup crate structure and add features for SLG/recursive solvers](https://github.com/rust-lang/chalk/pull/459)
-* [check non-`Send`/`Sync` upvars captured by generator](https://github.com/rust-lang/rust/pull/71923)
-* [support coercion between `FnDef` and arg-less closure and vice versa](https://github.com/rust-lang/rust/pull/71599)
-* [more lazy normalization of constants](https://github.com/rust-lang/rust/pull/71973)
-* [miri: prepare Dlsym system for dynamic symbols on Windows](https://github.com/rust-lang/miri/pull/1424)
-* [use `T`'s discriminant type in `mem::Discriminant<T>` instead of `u64`](https://github.com/rust-lang/rust/pull/70705)
-* [fix discriminant type in generator transform](https://github.com/rust-lang/rust/pull/72502)
-* [`impl From<Cow>` for `Box`, `Rc`, and `Arc`](https://github.com/rust-lang/rust/pull/71447)
-* [another attempt to reduce `size_of<HashMap>`](https://github.com/rust-lang/hashbrown/pull/159)
-* [set initial non-empty `Vec` size to 4 instead of 1](https://github.com/rust-lang/rust/pull/72227)
-* [make `std::char` functions and constants associated to `char`](https://github.com/rust-lang/rust/pull/71854)
-* [stabilize `saturating_abs` and `saturating_neg`](https://github.com/rust-lang/rust/pull/71886)
-* [add `len` and `slice_from_raw_parts` to `NonNull<[T]>`](https://github.com/rust-lang/rust/pull/71940)
-* [add fast-path optimization for `Ipv4Addr::fmt`](https://github.com/rust-lang/rust/pull/72399)
-* [`impl Ord for proc_macro::LineColumn`](https://github.com/rust-lang/rust/pull/72446)
-* [cargo: try installing exact versions before updating](https://github.com/rust-lang/cargo/pull/8022)
-* [cargo: automatically update `patch`, and provide better errors if an update is not possible](https://github.com/rust-lang/cargo/pull/8248)
-* [cargo: add option to strip binaries](https://github.com/rust-lang/cargo/pull/8246)
-* [rustfmt: merge configs from parent directories](https://github.com/rust-lang/rustfmt/pull/4179)
-* [rustfmt: umprove error message when module resolution failed](https://github.com/rust-lang/rustfmt/pull/4198)
-* [rustfmt: parse comma-separated branches in macro definitions](https://github.com/rust-lang/rustfmt/pull/4173)
+* [implement unsafe blocks in unsafe fn](https://github.com/rust-lang/rust/pull/71862) (RFC [#2585](https://rust-lang.github.io/rfcs/2585-unsafe-block-in-unsafe-fn.html))
+* [exhaustiveness checking: work around type normalization issues](https://github.com/rust-lang/rust/pull/72506)
+* [suggest using `std::mem::drop` function instead of explicit destructor call](https://github.com/rust-lang/rust/pull/72383)
+* [add a lint against references to packed fields](https://github.com/rust-lang/rust/pull/72270)
+* [avoid setting wrong obligation cause span of associated type mismatch](https://github.com/rust-lang/rust/pull/72807)
+* [account for trailing comma when suggesting `where` clauses](https://github.com/rust-lang/rust/pull/72715)
+* [fix diagnostics for `@ ..` binding pattern in tuples and tuple structs](https://github.com/rust-lang/rust/pull/72677)
+* [chalk: request hidden opaque types lazily](https://github.com/rust-lang/chalk/pull/478)
+* [miri: synchronization primitive cleanup](https://github.com/rust-lang/miri/pull/1441)
+* [`from_u32_unchecked`: check validity, and fix UB in Wtf8](https://github.com/rust-lang/rust/pull/72683)
+* [implement `total_cmp` for `f32`, `f64`](https://github.com/rust-lang/rust/pull/72568)
+* [override `Box::<[T]>::clone_from`](https://github.com/rust-lang/rust/pull/72499)
+* [add `Extend::`{`extend_one`, `extend_reserve`}](https://github.com/rust-lang/rust/pull/72162)
+* [make pointer offset methods/intrinsics const](https://github.com/rust-lang/rust/pull/71500)
+* [`impl From<[T; N]> for Box<[T]>`](https://github.com/rust-lang/rust/pull/71095)
+* [stabilization of `weak-into-raw`](https://github.com/rust-lang/rust/pull/72288)
+* [resolve UB in Arc/Weak interaction, part 2](https://github.com/rust-lang/rust/pull/72533)
+* [stabilize `str_strip` feature](https://github.com/rust-lang/rust/pull/72466)
+* [`impl Step for char` (make `Range*<char>` iterable)](https://github.com/rust-lang/rust/pull/72413)
+* [add `Peekable::next_if`](https://github.com/rust-lang/rust/pull/72310)
+* [various minor improvements to `Ipv6Addr::Display`](https://github.com/rust-lang/rust/pull/72407)
+* [`SocketAddr` and friends now correctly pad its content](https://github.com/rust-lang/rust/pull/72398)
+* [implement PartialOrd and Ord for SocketAddr*](https://github.com/rust-lang/rust/pull/72239)
+* [tweak and stabilize `Atomic`N`::fetch_update`](https://github.com/rust-lang/rust/pull/71843)
+* [stabilize `Atomic`N`::fetch_`{`min`, `max`}](https://github.com/rust-lang/rust/pull/72324)
+* [stdarch: add 64 bit integer AVX512f comparisons and the intrinsics needed to test them](https://github.com/rust-lang/stdarch/pull/856)
+* [stdarch: add 64 bit AVX512f le and ge comparisons](https://github.com/rust-lang/stdarch/pull/861)
+* [libm: use macros for more division/array checks](https://github.com/rust-lang/libm/pull/244)
 
 ## Rust Compiler Performance Triage
 
@@ -204,11 +197,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Things that are programming patterns in C are types in Rust.
+> Rust enables belligerent refactoring – making dramatic changes and then working with the compiler to bring the project back to a working state.
 
-– [Kornel Lesiński on rust-users](https://users.rust-lang.org/t/how-has-learning-and-working-in-rust-influenced-how-you-think-about-writing-software/42836/3)
+– [Pankaj Chaudhary on Knoldus Blog](https://blog.knoldus.com/some-extensive-projects-working-with-rust)
 
-Thanks to [trentj](https://users.rust-lang.org/t/twir-quote-of-the-week/328/876) for the suggestions!
+Thanks to [Maxim Vorobjov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/880) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
