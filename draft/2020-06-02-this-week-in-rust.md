@@ -161,6 +161,7 @@ Email the [Rust Community Team][community] for access.
 
 * [Software Engineer - Rust - IOTA Foundation - Remote](https://iota.bamboohr.com/jobs/view.php?id=105)
 * [Senior Rust Engineer - Polymath - Remote](https://polymath.bamboohr.com/jobs/view.php?id=96)
+* [Rust Back End Engineer, Core Banking - TrueLayer - Milan, Italy](https://apply.workable.com/truelayer/j/37748BA121/)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
