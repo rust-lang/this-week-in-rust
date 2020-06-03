@@ -64,6 +64,7 @@ better world.
 * [Rust as a High Level Language](https://llogiq.github.io/2020/05/30/hi.html)
 * [Sorting algorithms in Rust](https://dev.to/jlkiri/sorting-algorithms-in-rust-1386)
 * [Programming Servo: integrating streams](https://medium.com/@polyglot_factotum/programming-servo-integrating-readablestream-1a7faebeeed7?source=friends_link&sk=e297efa0a9e9d59d59233f3ec7038b1c)
+* [To Rust or not to Rust](https://oldmill.cz/2020-05-31-to-rust-or-not.html)
 * [Spanish] [Aprende Rust en español](https://dev.to/robertohuertasm/aprende-rust-en-espanol-1pea)
 * [video] [A Rust & Wasm tutorial on building Bitcoin infrastructure. Rust beginner-friendly!](https://www.youtube.com/watch?v=qaykNPHJcyw)
 * [video] [Crust of Rust: Iterators](https://www.youtube.com/watch?v=yozQ9C69pNs&feature=emb_logo)
