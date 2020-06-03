@@ -17,7 +17,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 Since our previous issue, there has been a lot of news about the civil
 rights discourse in the United States, spawned by the murder of George Floyd
 by a member of the Minneapolis Police Department. We stand with Black Lives
-Matter and our black siblings now and always.
+Matter and our Black siblings now and always.
+
+We believe this is not a matter of taking a political stance, but a matter
+of supporting basic human rights and equality.
 
 We believe that Rustaceans have a duty to our community and to the rest of
 the world to ensure that people feel comfortable and welcome wherever they
@@ -28,7 +31,7 @@ Just as we support Rustaceans, we also support humanity as a whole. It is time
 for social progress to be made. We support those risking their own well-being
 to show support for George Floyd, Breonna Taylor, Ahmaud Aubery, and everyone
 else who has faced injustice at the hands of members of the police. We stand
-with the protesters hoping to make the world better.
+with the protesters hoping to make the world better. 
 
 If you want to show your support,
 [here is a website of curated resources](https://blacklivesmatters.carrd.co/).
