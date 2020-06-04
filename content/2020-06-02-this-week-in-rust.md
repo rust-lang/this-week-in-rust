@@ -12,6 +12,8 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
+There is no *This Week in Rust* podcast this week, next week's episode will cover both this week and next week.
+
 # We Stand With You
 
 Since our previous issue, there has been a lot of news about the civil
@@ -162,7 +164,7 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [impl `AsRef<[T]` for `vec::IntoIter<T>`](https://github.com/rust-lang/rust/pull/72583)
+* [disposition: merge] [`impl AsRef<[T]>` for `vec::IntoIter<T>`](https://github.com/rust-lang/rust/pull/72583)
 * [disposition: merge] [Add raw_ref macros](https://github.com/rust-lang/rust/pull/72279)
 * [disposition: merge] [Tracking issue for `std::io::{BufReader, BufWriter}::capacity`](https://github.com/rust-lang/rust/issues/68833)
 
@@ -212,4 +214,4 @@ Thanks to [Maxim Vorobjov](https://users.rust-lang.org/t/twir-quote-of-the-week/
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/grs1ql/this_week_in_rust_340/).</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/gvwvep/this_week_in_rust_341/)small>
