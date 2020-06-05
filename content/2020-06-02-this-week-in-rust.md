@@ -71,7 +71,7 @@ better world.
 * [Programming Servo: integrating streams](https://medium.com/@polyglot_factotum/programming-servo-integrating-readablestream-1a7faebeeed7?source=friends_link&sk=e297efa0a9e9d59d59233f3ec7038b1c)
 * [To Rust or not to Rust](https://oldmill.cz/2020-05-31-to-rust-or-not.html)
 * [Spanish] [Aprende Rust en español](https://dev.to/robertohuertasm/aprende-rust-en-espanol-1pea)
-* [Chinese] [Simple sorting algorithms](https://www.bilibili.com/read/cv4991161)
+* [Chinese] [Simple sorting algorithms in Rust](https://www.bilibili.com/read/cv4991161)
 * [video] [A Rust & Wasm tutorial on building Bitcoin infrastructure. Rust beginner-friendly!](https://www.youtube.com/watch?v=qaykNPHJcyw)
 * [video] [Crust of Rust: Iterators](https://www.youtube.com/watch?v=yozQ9C69pNs&feature=emb_logo)
 * [video] [Rust and Tell Berlin - May 2020](https://www.youtube.com/watch?v=rpilJV-eIVw&feature=emb_logo)
