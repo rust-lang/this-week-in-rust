@@ -20,6 +20,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Hack week: miniCouchDB in Rust](https://www.garrensmith.com/blogs/mini-couch-hack-week)
+
 # Crate of the Week
 
 This week's crate is [jql](https://github.com/yamafaktory/jql), a JSON Query Language CLI tool.
