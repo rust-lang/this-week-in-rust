@@ -20,6 +20,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Zero To Production #1: toolchains, IDEs, CI](https://www.lpalmieri.com/posts/2020-06-06-zero-to-production-1-setup-toolchain-ides-ci/)
+
 # Crate of the Week
 
 This week's crate is [jql](https://github.com/yamafaktory/jql), a JSON Query Language CLI tool.
