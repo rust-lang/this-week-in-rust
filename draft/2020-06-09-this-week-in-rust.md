@@ -160,6 +160,7 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+* [Pop! OS Software Engineer at System76, Remote US-based](https://system76.com/careers#software-engineer-pop-os)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
