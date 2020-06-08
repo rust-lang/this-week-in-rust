@@ -21,6 +21,10 @@ Check out [this week's *This Week in Rust Podcast*]()
 ## News & Blog Posts
 
 * [Enumerating monitors in Rust using Win32 API](https://patriksvensson.se/2020/06/enumerating-monitors-in-rust-using-win32-api/)
+* [Rust cli app integrated with slack](https://bprog.github.io/rust_slack_bot/)
+* [Hack week: miniCouchDB in Rust](https://www.garrensmith.com/blogs/mini-couch-hack-week)
+* [Zero To Production #1: toolchains, IDEs, CI](https://www.lpalmieri.com/posts/2020-06-06-zero-to-production-1-setup-toolchain-ides-ci/)
+* [Chinese] [Simple sorting algorithms in Rust](https://www.bilibili.com/read/cv4991161)
 
 # Crate of the Week
 
