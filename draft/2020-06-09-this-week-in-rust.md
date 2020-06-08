@@ -54,9 +54,9 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 # Crate of the Week
 
-This week's crate is [jql](https://github.com/yamafaktory/jql), a JSON Query Language CLI tool.
+This week's crate is [cargo-spellcheck](https://github.com/drahnr/cargo-spellcheck), a cargo subcommand to spell-check your docs.
 
-Thanks to [Davy Duperron](https://users.rust-lang.org/t/crate-of-the-week/2704/775) for the suggestion!
+Thanks to [Bernhard Schuster](https://users.rust-lang.org/t/crate-of-the-week/2704/777) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -81,38 +81,35 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-442 pull requests were [merged in the last week][merged]
+350 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-05-25..2020-06-01
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-06-01..2020-06-08
 
-* [implement unsafe blocks in unsafe fn](https://github.com/rust-lang/rust/pull/71862) (RFC [#2585](https://rust-lang.github.io/rfcs/2585-unsafe-block-in-unsafe-fn.html))
-* [exhaustiveness checking: work around type normalization issues](https://github.com/rust-lang/rust/pull/72506)
-* [suggest using `std::mem::drop` function instead of explicit destructor call](https://github.com/rust-lang/rust/pull/72383)
-* [add a lint against references to packed fields](https://github.com/rust-lang/rust/pull/72270)
+* [InstCombine: don't optimize `&mut *x` into `x`](https://github.com/rust-lang/rust/pull/72820)
+* [add `-Z span-debug` to allow for easier debugging of proc macros](https://github.com/rust-lang/rust/pull/72799)
 * [avoid setting wrong obligation cause span of associated type mismatch](https://github.com/rust-lang/rust/pull/72807)
-* [account for trailing comma when suggesting `where` clauses](https://github.com/rust-lang/rust/pull/72715)
-* [fix diagnostics for `@ ..` binding pattern in tuples and tuple structs](https://github.com/rust-lang/rust/pull/72677)
-* [chalk: request hidden opaque types lazily](https://github.com/rust-lang/chalk/pull/478)
-* [miri: synchronization primitive cleanup](https://github.com/rust-lang/miri/pull/1441)
-* [`from_u32_unchecked`: check validity, and fix UB in Wtf8](https://github.com/rust-lang/rust/pull/72683)
-* [implement `total_cmp` for `f32`, `f64`](https://github.com/rust-lang/rust/pull/72568)
-* [override `Box::<[T]>::clone_from`](https://github.com/rust-lang/rust/pull/72499)
-* [add `Extend::`{`extend_one`, `extend_reserve`}](https://github.com/rust-lang/rust/pull/72162)
-* [make pointer offset methods/intrinsics const](https://github.com/rust-lang/rust/pull/71500)
-* [`impl From<[T; N]> for Box<[T]>`](https://github.com/rust-lang/rust/pull/71095)
-* [stabilization of `weak-into-raw`](https://github.com/rust-lang/rust/pull/72288)
-* [resolve UB in Arc/Weak interaction, part 2](https://github.com/rust-lang/rust/pull/72533)
-* [stabilize `str_strip` feature](https://github.com/rust-lang/rust/pull/72466)
-* [`impl Step for char` (make `Range*<char>` iterable)](https://github.com/rust-lang/rust/pull/72413)
-* [add `Peekable::next_if`](https://github.com/rust-lang/rust/pull/72310)
-* [various minor improvements to `Ipv6Addr::Display`](https://github.com/rust-lang/rust/pull/72407)
-* [`SocketAddr` and friends now correctly pad its content](https://github.com/rust-lang/rust/pull/72398)
-* [implement PartialOrd and Ord for SocketAddr*](https://github.com/rust-lang/rust/pull/72239)
-* [tweak and stabilize `Atomic`N`::fetch_update`](https://github.com/rust-lang/rust/pull/71843)
-* [stabilize `Atomic`N`::fetch_`{`min`, `max`}](https://github.com/rust-lang/rust/pull/72324)
-* [stdarch: add 64 bit integer AVX512f comparisons and the intrinsics needed to test them](https://github.com/rust-lang/stdarch/pull/856)
-* [stdarch: add 64 bit AVX512f le and ge comparisons](https://github.com/rust-lang/stdarch/pull/861)
-* [libm: use macros for more division/array checks](https://github.com/rust-lang/libm/pull/244)
+* [be more careful around `ty::Error` in generators](https://github.com/rust-lang/rust/pull/72764)
+* [fulfill: try using `SmallVec` or `Box` for `stalled_on`](https://github.com/rust-lang/rust/pull/72776)
+* [`impl AsRef<[T]> for vec::IntoIter<T>`](https://github.com/rust-lang/rust/pull/72583)
+* [chalk: get ready for the first publish](https://github.com/rust-lang/chalk/pull/483)
+* [free `default()` forwarding to `Default::default()`](https://github.com/rust-lang/rust/pull/73001)
+* [stabilize `std::io::Buf{Reader, Writer}::capacity`](https://github.com/rust-lang/rust/pull/72924)
+* [add associated consts `MIN`/`MAX` for `Wrapping<Int>`](https://github.com/rust-lang/rust/pull/72891)
+* [de-promote Duration::from_secs](https://github.com/rust-lang/rust/pull/71796)
+* [compiler-builtins: manually patch ret instruction for LVI](https://github.com/rust-lang/compiler-builtins/pull/359)
+* [cargo: add environment variables to identify the binary and crate name](https://github.com/rust-lang/cargo/pull/8270)
+* [cargo: allow Windows dylibs without dll suffix](https://github.com/rust-lang/cargo/pull/8310)
+* [cargo: better error message when passing in relative path to `Workspace::new`](https://github.com/rust-lang/cargo/pull/8321)
+* [cargo: don't hash executable filenames on apple platforms](https://github.com/rust-lang/cargo/pull/8329)
+* [cargo: support `{prefix}` and `{lowerprefix}` markers in `config.json` `dl` key](https://github.com/rust-lang/cargo/pull/8267)
+* [cargo: warn if using hash in git URL](https://github.com/rust-lang/cargo/pull/8297)
+* [cargo: reset lockfile information between resolutions](https://github.com/rust-lang/cargo/pull/8274)
+* [crates.io: fix issue where crates.io allowed the plus sign in crate names](https://github.com/rust-lang/crates.io/pull/2551)
+* [docs.rs: print a backtrace for crates which fail to build](https://github.com/rust-lang/docs.rs/pull/823)
+* [rustfmt: pick up comments between visibility modifier and item name](https://github.com/rust-lang/rustfmt/pull/4239)
+* [rustfmt: preserve Markdown line breaks in inner and outer block doc comments](https://github.com/rust-lang/rustfmt/pull/4233)
+* [rustfmt: use rewrite buffer to determine if comment should be on a newline](https://github.com/rust-lang/rustfmt/pull/4229)
+* [rustfmt: feat: conditionally allow unstable opts on stable/beta](https://github.com/rust-lang/rustfmt/pull/4228)
 
 ## Rust Compiler Performance Triage
 
@@ -179,11 +176,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Rust enables belligerent refactoring – making dramatic changes and then working with the compiler to bring the project back to a working state.
+> You don't declare lifetimes. Lifetimes come from the shape of your code, so to change what the lifetimes are, you must change the shape of the code.
 
-– [Pankaj Chaudhary on Knoldus Blog](https://blog.knoldus.com/some-extensive-projects-working-with-rust)
+– [Alice Ryhl on rust-users](https://users.rust-lang.org/t/lifetime-of-a-returned-iterator/43732/2)
 
-Thanks to [Maxim Vorobjov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/880) for the suggestions!
+Thanks to [RustyYato](https://users.rust-lang.org/t/twir-quote-of-the-week/328/883) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
