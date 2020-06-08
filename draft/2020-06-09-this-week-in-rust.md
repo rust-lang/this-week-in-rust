@@ -20,6 +20,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Rust cli app integrated with slack](https://bprog.github.io/rust_slack_bot/)
+
 # Crate of the Week
 
 This week's crate is [jql](https://github.com/yamafaktory/jql), a JSON Query Language CLI tool.
