@@ -20,6 +20,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Chinese] [Simple sorting algorithms in Rust](https://www.bilibili.com/read/cv4991161)
+
 # Crate of the Week
 
 This week's crate is [jql](https://github.com/yamafaktory/jql), a JSON Query Language CLI tool.
