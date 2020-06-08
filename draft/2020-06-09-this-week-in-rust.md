@@ -20,6 +20,7 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Zero To Production #1: toolchains, IDEs, CI](https://www.lpalmieri.com/posts/2020-06-06-zero-to-production-1-setup-toolchain-ides-ci/)
 * [Chinese] [Simple sorting algorithms in Rust](https://www.bilibili.com/read/cv4991161)
 
 # Crate of the Week
