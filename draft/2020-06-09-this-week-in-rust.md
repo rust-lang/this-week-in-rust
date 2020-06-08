@@ -24,7 +24,25 @@ Check out [this week's *This Week in Rust Podcast*]()
 * [Rust cli app integrated with slack](https://bprog.github.io/rust_slack_bot/)
 * [Hack week: miniCouchDB in Rust](https://www.garrensmith.com/blogs/mini-couch-hack-week)
 * [Zero To Production #1: toolchains, IDEs, CI](https://www.lpalmieri.com/posts/2020-06-06-zero-to-production-1-setup-toolchain-ides-ci/)
+* [Announcing Rust 1.44.0](https://blog.rust-lang.org/2020/06/04/Rust-1.44.0.html)
+* [From Rust to Svelte, what tech stack will I use](https://hugodaniel.pt/posts/browser-tech-stack-2020/)
+* [Graph & Tree Traversals in Rust](https://sachanganesh.com/programming/graph-tree-traversals-in-rust/)
+* [Programming languages: Rust enters top 20 popularity rankings for the first time](https://www.zdnet.com/article/programming-languages-rust-enters-top-20-popularity-rankings-for-the-first-time/)
+* [A Rust SentencePiece implementation](https://guillaume-be.github.io/2020-05-30/sentence_piece)
+* [Rust Things I Miss in C](https://people.gnome.org/~federico/blog/rust-things-i-miss-in-c.html)
+* [RiB Newsletter #12 - ZK-Rustups](https://rustinblockchain.org/newsletters/2020-06-03-zk-rustups/)
+* [So What's Up with Microsoft's (and Everyone Else's) Love of Rust?](https://visualstudiomagazine.com/articles/2020/06/02/rust-love.aspx?m=1)
+* [The Story of Tail Call Optimizations in Rust](https://dev.to/seanchen1991/the-story-of-tail-call-optimizations-in-rust-35hf)
+* [Taking the Unhappy Path with Result, Option, unwrap and ? operator in Rust](https://dev.to/codeprototype/taking-the-unhappy-path-with-result-option-unwrap-and-operator-in-rust-482b)
+* [This Month in Rust OSDev (May 2020)](https://rust-osdev.com/this-month/2020-05/)
+* [This month in rustsim #11 (April - May 2020)](https://www.rustsim.org/blog/2020/06/01/this-month-in-rustsim/)
+* [Why the developers who use Rust love it so much](https://stackoverflow.blog/2020/06/05/why-the-developers-who-use-rust-love-it-so-much/?cb=1)
+* [Zero To Production #1: Setup - Toolchain, IDEs, CI](https://www.lpalmieri.com/posts/2020-06-06-zero-to-production-1-setup-toolchain-ides-ci/)
+* [Memory-Safety Challenge Considered Solved? An Empirical Study with All Rust CVEs](https://arxiv.org/abs/2003.03296)
 * [Chinese] [Simple sorting algorithms in Rust](https://www.bilibili.com/read/cv4991161)
+* [Indonesian] [Berbagai alasan melakukan Programming dalam Rust](https://dev.to/rizki96/berbagai-alasan-melakukan-programming-dalam-rust-p67)
+* [slides] [Rust in 15 Minutes](https://geigerkind.github.io/training_presentations/rust_in_15_minutes/presentation.html)
+* [video] [Rust Web development | Boilerplate free with Rocket](https://youtu.be/tjH0Mye8U_A)
 
 # Crate of the Week
 
@@ -141,6 +159,7 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+* [Pop! OS Software Engineer at System76, Remote US-based](https://system76.com/careers#software-engineer-pop-os)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
