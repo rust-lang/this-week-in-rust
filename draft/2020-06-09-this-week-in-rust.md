@@ -20,6 +20,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Enumerating monitors in Rust using Win32 API](https://patriksvensson.se/2020/06/enumerating-monitors-in-rust-using-win32-api/)
+
 # Crate of the Week
 
 This week's crate is [jql](https://github.com/yamafaktory/jql), a JSON Query Language CLI tool.
