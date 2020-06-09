@@ -116,8 +116,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-This is a new section containing the results of a weekly check on how rustc's
-perf has changed.
+* [2020-06-09](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020.md#2020-06-09)
 
 ## Approved RFCs
 
