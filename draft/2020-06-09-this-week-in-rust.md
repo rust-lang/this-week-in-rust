@@ -14,7 +14,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 There is no *This Week in Rust* podcast this week, next week's episode will cover both this week and next week.
 
-Check out [this week's *This Week in Rust Podcast*]()
+Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.org/episode/017-twir-341-342/)
 
 # Updates from Rust Community
 
