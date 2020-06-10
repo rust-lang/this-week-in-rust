@@ -1,6 +1,6 @@
 Title: This Week in Rust 342
 Number: 342
-Date: 2020-06-09
+Date: 2020-06-10
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -147,7 +147,6 @@ decision. Express your opinions now.
 # Upcoming Events
 
 ### Online
-* [June 9. Dallas, TX, US - Remote - Dallas Rust Second Tuesday](https://www.meetup.com/Dallas-Rust/events/mzzfsrybcjbmb/)
 * [June 10. Wroclaw, PL - Remote - Rust Wroclaw Meetup #20](https://www.meetup.com/Rust-Wroclaw/events/271034483/)
 * [June 11. Berlin, DE - Remote - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybcjbpb/)
 * [June 11. San Diego, CA, US - Remote - San Diego Rust Meetup](https://www.meetup.com/San-Diego-Rust/events/270938860/)
