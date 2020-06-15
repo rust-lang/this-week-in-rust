@@ -20,9 +20,17 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ## News & Blog Posts
 
+* [RustConf 2020 Registration is Open](https://rustconf.com/)
 * [You Want to Learn Rust but You Don’t Know Where to Start](https://towardsdatascience.com/you-want-to-learn-rust-but-you-dont-know-where-to-start-fc826402d5ba)
 * [7 Awesome Rust-powered Command-line Utilities](https://towardsdatascience.com/awesome-rust-powered-command-line-utilities-b5359c38692)
 * [Rust-Powered Command-Line Utilities to Increase Your Productivity](https://towardsdatascience.com/rust-powered-command-line-utilities-to-increase-your-productivity-eea03a4cf83a)
+* [Microsoft: Rust is the Industry's 'Best Chance' at Safe Systems Programming](https://thenewstack.io/microsoft-rust-is-the-industrys-best-chance-at-safe-systems-programming/)
+* [Tour of Rust: Chapter 7 - Object Oriented Programming](https://tourofrust.com/chapter_7_en.html)
+* [Rust Analyzer Changelog #29](https://rust-analyzer.github.io/thisweek/2020/06/15/changelog-29.html)
+* [Rustls Security Review & Audit Report](https://github.com/ctz/rustls/blob/master/audit/TLS-01-report.pdf)
+* [NDArray Index Arrays and Mask Index Arrays](https://shahinrostami.com/posts/programming/rust-notebooks/ndarray-index-arrays-and-mask-index-arrays/)
+* [audio] [AreWePodcastYet - Interview with Tim McNamara, author of Rust in Action](https://soundcloud.com/arewepodcastyet/awpy-05-tim-mcnamara-timclicks)
+* [video] [Rust Notebooks (Jupyter and Evcxr) - Getting Started](https://www.youtube.com/watch?v=SZKEzNL9als)
 
 # Crate of the Week
 
@@ -41,6 +49,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [gooseberry: Add related tags to each page](https://github.com/out-of-cheese-error/gooseberry/issues/3)
+* [gooseberry: General contributing](https://github.com/out-of-cheese-error/gooseberry/blob/master/CONTRIBUTING.md)
+* [rust: `fs::remove_dir_all` rarely succeeds for large directories on windows](https://github.com/rust-lang/rust/issues/29497#issuecomment-573353391)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -101,30 +112,25 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [`impl ToSocketAddrs for (String, u16)`](https://github.com/rust-lang/rust/pull/73007)
-* [disposition: merge] [Stabilize `Option::zip`](https://github.com/rust-lang/rust/pull/72938)
-* [disposition: merge] [Stabilize `vec::Drain::as_slice`](https://github.com/rust-lang/rust/pull/72584)
-* [disposition: merge] [Add raw_ref macros](https://github.com/rust-lang/rust/pull/72279)
-* [disposition: merge] [Print environment variables accessed by rustc as special comments into depinfo files](https://github.com/rust-lang/rust/pull/71858)
+* [disposition: merge] [add Windows system error codes that should map to `io::ErrorKind::TimedOut`](https://github.com/rust-lang/rust/pull/71756)
+* [disposition: merge] [impl `PartialEq<Vec<B>> for &[A], &mut [A]`](https://github.com/rust-lang/rust/pull/71660)
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+[RFC: add the Freeze trait to libcore/libstd](https://github.com/rust-lang/rfcs/pull/2944)
 
 # Upcoming Events
 
 ### Online
-* [June 10. Wroclaw, PL - Remote - Rust Wroclaw Meetup #20](https://www.meetup.com/Rust-Wroclaw/events/271034483/)
-* [June 11. Berlin, DE - Remote - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybcjbpb/)
-* [June 11. San Diego, CA, US - Remote - San Diego Rust Meetup](https://www.meetup.com/San-Diego-Rust/events/270938860/)
 * [June 18. Zurich, CH - Remote - Embedded Rust Update: probe.rs](https://www.meetup.com/Rust-Zurich/events/271020472/)
 * [June 18. Turin, IT - Remote - Rust Turin Study Group](https://community.mozilla.org/events/gruppo-di-studio-di-rust-2/)
+* [June 25. Edinburgh, UK - Remote - Pirrigator - Growing Tomatoes Free From Memory Errors and Race Conditions](https://www.meetup.com/rust-edi/events/271129693/)
+* [June 25. Berlin, DE - Remote - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybcjbhc/)
 
 ### North America
-* [June 11. Columbus, OH, US - Columbus Rust Society Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybcjbpb/)
-* [June 11. Lehi, UT, US - Utah Rust - Lightning Talks](https://www.meetup.com/utah-rust/events/269263282/)
 * [June 17. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybcjbwb/)
 * [June 18. Durham, NC - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybcjbdc/)
+* [June 30. Dallas, TX - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybcjbnc/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
