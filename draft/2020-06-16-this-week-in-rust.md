@@ -20,6 +20,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ## News & Blog Posts
 
+* [Announcing RustFest Global 2020 🎉](https://blog.rustfest.eu/announcing-rustfest-2020)
 * [RustConf 2020 Registration is Open](https://rustconf.com/)
 * [You Want to Learn Rust but You Don’t Know Where to Start](https://towardsdatascience.com/you-want-to-learn-rust-but-you-dont-know-where-to-start-fc826402d5ba)
 * [7 Awesome Rust-powered Command-line Utilities](https://towardsdatascience.com/awesome-rust-powered-command-line-utilities-b5359c38692)
