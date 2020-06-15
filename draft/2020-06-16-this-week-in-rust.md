@@ -36,9 +36,9 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 # Crate of the Week
 
-This week's crate is [cargo-spellcheck](https://github.com/drahnr/cargo-spellcheck), a cargo subcommand to spell-check your docs.
+This week's crate is [safer_ffi](https://github.com/getditto/safer_ffi), a library to help write safe FFI code.
 
-Thanks to [Bernhard Schuster](https://users.rust-lang.org/t/crate-of-the-week/2704/777) for the suggestion!
+Thanks to [Vlad Frolov](https://users.rust-lang.org/t/crate-of-the-week/2704/780) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -61,35 +61,64 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-350 pull requests were [merged in the last week][merged]
+354 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-06-01..2020-06-08
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-06-08..2020-06-15
 
-* [InstCombine: don't optimize `&mut *x` into `x`](https://github.com/rust-lang/rust/pull/72820)
+* [enable AVR as a Tier 3 target upstream](https://github.com/rust-lang/rust/pull/69478)
+* [enable LVI hardening for x86_64-fortanix-unknown-sgx](https://github.com/rust-lang/rust/pull/72655)
 * [add `-Z span-debug` to allow for easier debugging of proc macros](https://github.com/rust-lang/rust/pull/72799)
-* [avoid setting wrong obligation cause span of associated type mismatch](https://github.com/rust-lang/rust/pull/72807)
-* [be more careful around `ty::Error` in generators](https://github.com/rust-lang/rust/pull/72764)
-* [fulfill: try using `SmallVec` or `Box` for `stalled_on`](https://github.com/rust-lang/rust/pull/72776)
-* [`impl AsRef<[T]> for vec::IntoIter<T>`](https://github.com/rust-lang/rust/pull/72583)
-* [chalk: get ready for the first publish](https://github.com/rust-lang/chalk/pull/483)
+* [add methods to go from a null-terminated `Vec<u8>` to a `CString`](https://github.com/rust-lang/rust/pull/73139)
+* [check for live drops in constants after drop elaboration](https://github.com/rust-lang/rust/pull/71824)
+* [display information about captured variable in `FnMut` error](https://github.com/rust-lang/rust/pull/72598)
+* [don't create impl candidates when obligation contains errors](https://github.com/rust-lang/rust/pull/73005)
+* [enforce unwind invariants](https://github.com/rust-lang/rust/pull/73133)
+* [explain move errors that occur due to method calls involving `self`](https://github.com/rust-lang/rust/pull/72389)
+* [fix `#[thread_local]` statics as `asm!` sym operands](https://github.com/rust-lang/rust/pull/73033)
+* [fix trait alias inherent impl resolution](https://github.com/rust-lang/rust/pull/72556)
 * [free `default()` forwarding to `Default::default()`](https://github.com/rust-lang/rust/pull/73001)
-* [stabilize `std::io::Buf{Reader, Writer}::capacity`](https://github.com/rust-lang/rust/pull/72924)
-* [add associated consts `MIN`/`MAX` for `Wrapping<Int>`](https://github.com/rust-lang/rust/pull/72891)
-* [de-promote Duration::from_secs](https://github.com/rust-lang/rust/pull/71796)
-* [compiler-builtins: manually patch ret instruction for LVI](https://github.com/rust-lang/compiler-builtins/pull/359)
+* [handle assembler warnings properly](https://github.com/rust-lang/rust/pull/73169)
+* [on recursive ADT, provide indirection structured suggestion](https://github.com/rust-lang/rust/pull/72740)
+* [provide suggestion to convert numeric op LHS rather than unwrapping RHS](https://github.com/rust-lang/rust/pull/73195)
+* [querify whether a type has structural equality](https://github.com/rust-lang/rust/pull/73066)
+* [relate existential associated types with variance Invariant](https://github.com/rust-lang/rust/pull/71896)
+* [suggest including unused asm arguments in a comment to avoid error](https://github.com/rust-lang/rust/pull/73230)
+* [support proc macros in intra doc link resolution](https://github.com/rust-lang/rust/pull/73183)
+* [track span of function in method calls, and use this in `#[track_caller]`](https://github.com/rust-lang/rust/pull/73182)
+* [use `min_specialization` in the remaining rustc crates](https://github.com/rust-lang/rust/pull/72707)
+* [use shorthand linker strip arguments in order to support MacOS](https://github.com/rust-lang/rust/pull/73138)
+* [expand: more precise locations for expansion-time lints](https://github.com/rust-lang/rust/pull/73178)
+* [extend network support for HermitCore](https://github.com/rust-lang/rust/pull/73331)
+* [fix caller_location intrinsic for Miri](https://github.com/rust-lang/rust/pull/73277)
+* [improper ctypes: normalize return types and transparent structs](https://github.com/rust-lang/rust/pull/72890)
+* [normalize adt fields during structural match checking](https://github.com/rust-lang/rust/pull/72897)
+* [resolve: do not suggest imports from the same module in which we are resolving](https://github.com/rust-lang/rust/pull/72789)
+* [structural_match: non-structural-match ty closures](https://github.com/rust-lang/rust/pull/73353)
+* [chalk: add FnOnce trait, and provide impl for Function type](https://github.com/rust-lang/chalk/pull/494)
+* [chalk: model function ABI in the Rust IR](https://github.com/rust-lang/chalk/pull/481)
+* [chalk: recursive solver factoring and privacy](https://github.com/rust-lang/chalk/pull/513)
+* [chalk: refactor ProgramClauseData to remove Implies variant](https://github.com/rust-lang/chalk/pull/514)
+* [chalk: add `Unsize` trait implementation](https://github.com/rust-lang/chalk/pull/427)
+* [miri: avoid tracking current location three times](https://github.com/rust-lang/rust/pull/72879)
+* [remove `RawVec::reserve_in_place`](https://github.com/rust-lang/rust/pull/72417)
+* [stabilize `Option::zip`](https://github.com/rust-lang/rust/pull/72938)
+* [stabilize `vec::Drain::as_slice`](https://github.com/rust-lang/rust/pull/72584)
+* [impl `AsRef<[T]>` for `vec::IntoIter<T>`](https://github.com/rust-lang/rust/pull/72583)
+* [std: enable atomic.fence emission on wasm32](https://github.com/rust-lang/rust/pull/73036)
+* [stdarch: fix x86 extract_epi{8,16} functions](https://github.com/rust-lang/stdarch/pull/868)
+* [implement new gdb/lldb pretty-printers](https://github.com/rust-lang/rust/pull/72357)
 * [cargo: add environment variables to identify the binary and crate name](https://github.com/rust-lang/cargo/pull/8270)
-* [cargo: allow Windows dylibs without dll suffix](https://github.com/rust-lang/cargo/pull/8310)
-* [cargo: better error message when passing in relative path to `Workspace::new`](https://github.com/rust-lang/cargo/pull/8321)
-* [cargo: don't hash executable filenames on apple platforms](https://github.com/rust-lang/cargo/pull/8329)
+* [cargo: allow passing a registry index url directly to `cargo install`](https://github.com/rust-lang/cargo/pull/8344)
+* [cargo: fix doctests not running with `--target=HOST`](https://github.com/rust-lang/cargo/pull/8358)
 * [cargo: support `{prefix}` and `{lowerprefix}` markers in `config.json` `dl` key](https://github.com/rust-lang/cargo/pull/8267)
-* [cargo: warn if using hash in git URL](https://github.com/rust-lang/cargo/pull/8297)
-* [cargo: reset lockfile information between resolutions](https://github.com/rust-lang/cargo/pull/8274)
-* [crates.io: fix issue where crates.io allowed the plus sign in crate names](https://github.com/rust-lang/crates.io/pull/2551)
-* [docs.rs: print a backtrace for crates which fail to build](https://github.com/rust-lang/docs.rs/pull/823)
+* [crates.io: allow configuring the application's domain name](https://github.com/rust-lang/crates.io/pull/2543)
+* [crates.io: modifiers/highlight-syntax: Disable aggressive whitespace stripping](https://github.com/rust-lang/crates.io/pull/2564)
+* [doc: make impl block collapsible if it has an associated constant](https://github.com/rust-lang/rust/pull/71842)
+* [docs.rs: add compression for uploaded documentation](https://github.com/rust-lang/docs.rs/pull/780)
+* [docs.rs: limit the size of served files](https://github.com/rust-lang/docs.rs/pull/834)
+* [clippy: macro use suggestion](https://github.com/rust-lang/rust-clippy/pull/5279)
+* [clippy: let_and_return: avoid "does not live long enough" errors](https://github.com/rust-lang/rust-clippy/pull/5680)
 * [rustfmt: pick up comments between visibility modifier and item name](https://github.com/rust-lang/rustfmt/pull/4239)
-* [rustfmt: preserve Markdown line breaks in inner and outer block doc comments](https://github.com/rust-lang/rustfmt/pull/4233)
-* [rustfmt: use rewrite buffer to determine if comment should be on a newline](https://github.com/rust-lang/rustfmt/pull/4229)
-* [rustfmt: feat: conditionally allow unstable opts on stable/beta](https://github.com/rust-lang/rustfmt/pull/4228)
 
 ## Rust Compiler Performance Triage
 
@@ -147,11 +176,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> You don't declare lifetimes. Lifetimes come from the shape of your code, so to change what the lifetimes are, you must change the shape of the code.
+> It feels like being part of a village that learns to love the dragon it battles.
 
-– [Alice Ryhl on rust-users](https://users.rust-lang.org/t/lifetime-of-a-returned-iterator/43732/2)
+– [turbinerneiter on Hacker News](https://news.ycombinator.com/item?id=23437950)
 
-Thanks to [RustyYato](https://users.rust-lang.org/t/twir-quote-of-the-week/328/883) for the suggestions!
+Thanks to [blonk](https://users.rust-lang.org/t/twir-quote-of-the-week/328/892) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
