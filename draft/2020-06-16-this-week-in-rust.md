@@ -20,19 +20,25 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ## News & Blog Posts
 
+* [2020 Event Lineup - Update](https://blog.rust-lang.org/2020/06/10/event-lineup-update.html)
 * [Announcing RustFest Global 2020 🎉](https://blog.rustfest.eu/announcing-rustfest-2020)
 * [RustConf 2020 Registration is Open](https://rustconf.com/)
+* [Understanding the Rust Ecosystem](https://joeprevite.com/rust-lang-ecosystem)
 * [You Want to Learn Rust but You Don’t Know Where to Start](https://towardsdatascience.com/you-want-to-learn-rust-but-you-dont-know-where-to-start-fc826402d5ba)
 * [7 Awesome Rust-powered Command-line Utilities](https://towardsdatascience.com/awesome-rust-powered-command-line-utilities-b5359c38692)
 * [Rust-Powered Command-Line Utilities to Increase Your Productivity](https://towardsdatascience.com/rust-powered-command-line-utilities-to-increase-your-productivity-eea03a4cf83a)
+* [Errors in Rust: A Deep Dive](https://www.halcyon.hr/posts/error-handling-in-rust/)
+* [Hyper Traps](https://vorner.github.io/2020/04/13/hyper-traps.html)
+* [Getting Started With The STM32 Nucleo-F302R8 and Rust](https://blue42.net/code/rust/examples/embedded/nucleo-f30248/getting-started/post/)
 * [Microsoft: Rust is the Industry's 'Best Chance' at Safe Systems Programming](https://thenewstack.io/microsoft-rust-is-the-industrys-best-chance-at-safe-systems-programming/)
 * [Tour of Rust: Chapter 7 - Object Oriented Programming](https://tourofrust.com/chapter_7_en.html)
 * [Rust Analyzer Changelog #29](https://rust-analyzer.github.io/thisweek/2020/06/15/changelog-29.html)
 * [Rustls Security Review & Audit Report](https://github.com/ctz/rustls/blob/master/audit/TLS-01-report.pdf)
 * [NDArray Index Arrays and Mask Index Arrays](https://shahinrostami.com/posts/programming/rust-notebooks/ndarray-index-arrays-and-mask-index-arrays/)
+* [Two Memory Bugs From Ringbahn](https://without.boats/blog/two-memory-bugs-from-ringbahn/)
+* [Dart Meets Rust: a match made in heaven](https://dev.to/sunshine-chain/dart-meets-rust-a-match-made-in-heaven-9f5)
 * [audio] [AreWePodcastYet - Interview with Tim McNamara, author of Rust in Action](https://soundcloud.com/arewepodcastyet/awpy-05-tim-mcnamara-timclicks)
 * [video] [Rust Notebooks (Jupyter and Evcxr) - Getting Started](https://www.youtube.com/watch?v=SZKEzNL9als)
-* [Understanding the Rust Ecosystem](https://joeprevite.com/rust-lang-ecosystem)
 
 # Crate of the Week
 
