@@ -31,6 +31,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [NDArray Index Arrays and Mask Index Arrays](https://shahinrostami.com/posts/programming/rust-notebooks/ndarray-index-arrays-and-mask-index-arrays/)
 * [audio] [AreWePodcastYet - Interview with Tim McNamara, author of Rust in Action](https://soundcloud.com/arewepodcastyet/awpy-05-tim-mcnamara-timclicks)
 * [video] [Rust Notebooks (Jupyter and Evcxr) - Getting Started](https://www.youtube.com/watch?v=SZKEzNL9als)
+* [Understanding the Rust Ecosystem](https://joeprevite.com/rust-lang-ecosystem)
 
 # Crate of the Week
 
