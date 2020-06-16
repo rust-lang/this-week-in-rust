@@ -12,8 +12,6 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-There is no *This Week in Rust* podcast this week, next week's episode will cover both this week and next week.
-
 Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.org/episode/017-twir-341-342/)
 
 # Updates from Rust Community
@@ -21,6 +19,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 ## News & Blog Posts
 
 * [2020 Event Lineup - Update](https://blog.rust-lang.org/2020/06/10/event-lineup-update.html)
+* [New inline assembly syntax available in nightly](https://blog.rust-lang.org/inside-rust/2020/06/08/new-inline-asm.html)
 * [Announcing RustFest Global 2020 🎉](https://blog.rustfest.eu/announcing-rustfest-2020)
 * [RustConf 2020 Registration is Open](https://rustconf.com/)
 * [Understanding the Rust Ecosystem](https://joeprevite.com/rust-lang-ecosystem)
@@ -37,6 +36,16 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [NDArray Index Arrays and Mask Index Arrays](https://shahinrostami.com/posts/programming/rust-notebooks/ndarray-index-arrays-and-mask-index-arrays/)
 * [Two Memory Bugs From Ringbahn](https://without.boats/blog/two-memory-bugs-from-ringbahn/)
 * [Dart Meets Rust: a match made in heaven](https://dev.to/sunshine-chain/dart-meets-rust-a-match-made-in-heaven-9f5)
+* [C++ Developer Learning Rust!](https://dev.to/rhymu8354/c-developer-learning-rust-2oal)
+* [Container with Most Water](https://dev.to/steadbytes/container-with-most-water-3ige)
+* [Generics and Compile-Time in Rust](https://pingcap.com/blog/generics-and-compile-time-in-rust/)
+* [Improve the performances of your Phoenix app with Rust: in both back and front](https://dev.to/scorsi/improve-the-performances-of-our-phoenix-app-with-rust-4d7a)
+* [Improving the IDE for Rust/WinRT](https://kennykerr.ca/2020/06/09/improving-the-ide-for-rust-winrt/)
+* [My Experiences with Rust Open Source Projects](https://javednissar.ca/getting-involved-in-rust-open-source/)
+* [Playing Codenames with Rust](https://rolisz.ro/2020/06/10/playing-codenames-with-rust/)
+* [Spend your novelty budget on Rust](https://tim.mcnamara.nz/post/621040767010504704/spend-your-novelty-budget-on-rust)
+* [The Rust compiler isn't slow; we are.](https://blog.kodewerx.org/2020/06/the-rust-compiler-isnt-slow-we-are.html)
+* [The Story of Tail Call Optimizations in Rust](https://dev.to/seanchen1991/the-story-of-tail-call-optimizations-in-rust-35hf)
 * [audio] [AreWePodcastYet - Interview with Tim McNamara, author of Rust in Action](https://soundcloud.com/arewepodcastyet/awpy-05-tim-mcnamara-timclicks)
 * [video] [Rust Notebooks (Jupyter and Evcxr) - Getting Started](https://www.youtube.com/watch?v=SZKEzNL9als)
 
@@ -179,6 +188,8 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
+* [Software Engineer at Cloudflare, London, UK or Lisbon, PT](https://boards.greenhouse.io/cloudflare/jobs/2209495?gh_jid=2209495)
 
 # Quote of the Week
 
