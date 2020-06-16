@@ -128,7 +128,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-* [2020-06-09](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020.md#2020-06-09)
+* [2020-06-16](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020.md#2020-06-16)
 
 ## Approved RFCs
 
