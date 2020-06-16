@@ -37,6 +37,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [NDArray Index Arrays and Mask Index Arrays](https://shahinrostami.com/posts/programming/rust-notebooks/ndarray-index-arrays-and-mask-index-arrays/)
 * [Two Memory Bugs From Ringbahn](https://without.boats/blog/two-memory-bugs-from-ringbahn/)
 * [Dart Meets Rust: a match made in heaven](https://dev.to/sunshine-chain/dart-meets-rust-a-match-made-in-heaven-9f5)
+* [Announcing rust-search-extension v0.10! Search docs, crates, error codes, and attributes, etc in your address bar instantly!](https://www.reddit.com/r/rust/comments/h0yqcl/announcing_rustsearchextension_v010_search_docs/)
 * [audio] [AreWePodcastYet - Interview with Tim McNamara, author of Rust in Action](https://soundcloud.com/arewepodcastyet/awpy-05-tim-mcnamara-timclicks)
 * [video] [Rust Notebooks (Jupyter and Evcxr) - Getting Started](https://www.youtube.com/watch?v=SZKEzNL9als)
 
