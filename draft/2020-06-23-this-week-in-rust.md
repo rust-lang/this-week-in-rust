@@ -1,6 +1,6 @@
-Title: This Week in Rust 343
-Number: 343
-Date: 2020-06-16
+Title: This Week in Rust 344
+Number: 344
+Date: 2020-06-23
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -12,42 +12,11 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.org/episode/017-twir-341-342/)
+Check out [this week's *This Week in Rust Podcast*]()
 
 # Updates from Rust Community
 
 ## News & Blog Posts
-
-* [2020 Event Lineup - Update](https://blog.rust-lang.org/2020/06/10/event-lineup-update.html)
-* [New inline assembly syntax available in nightly](https://blog.rust-lang.org/inside-rust/2020/06/08/new-inline-asm.html)
-* [Announcing RustFest Global 2020 🎉](https://blog.rustfest.eu/announcing-rustfest-2020)
-* [RustConf 2020 Registration is Open](https://rustconf.com/)
-* [Understanding the Rust Ecosystem](https://joeprevite.com/rust-lang-ecosystem)
-* [You Want to Learn Rust but You Don’t Know Where to Start](https://towardsdatascience.com/you-want-to-learn-rust-but-you-dont-know-where-to-start-fc826402d5ba)
-* [7 Awesome Rust-powered Command-line Utilities](https://towardsdatascience.com/awesome-rust-powered-command-line-utilities-b5359c38692)
-* [Rust-Powered Command-Line Utilities to Increase Your Productivity](https://towardsdatascience.com/rust-powered-command-line-utilities-to-increase-your-productivity-eea03a4cf83a)
-* [Errors in Rust: A Deep Dive](https://www.halcyon.hr/posts/error-handling-in-rust/)
-* [Hyper Traps](https://vorner.github.io/2020/04/13/hyper-traps.html)
-* [Getting Started With The STM32 Nucleo-F302R8 and Rust](https://blue42.net/code/rust/examples/embedded/nucleo-f30248/getting-started/post/)
-* [Microsoft: Rust is the Industry's 'Best Chance' at Safe Systems Programming](https://thenewstack.io/microsoft-rust-is-the-industrys-best-chance-at-safe-systems-programming/)
-* [Tour of Rust: Chapter 7 - Object Oriented Programming](https://tourofrust.com/chapter_7_en.html)
-* [Rust Analyzer Changelog #29](https://rust-analyzer.github.io/thisweek/2020/06/15/changelog-29.html)
-* [Rustls Security Review & Audit Report](https://github.com/ctz/rustls/blob/master/audit/TLS-01-report.pdf)
-* [NDArray Index Arrays and Mask Index Arrays](https://shahinrostami.com/posts/programming/rust-notebooks/ndarray-index-arrays-and-mask-index-arrays/)
-* [Two Memory Bugs From Ringbahn](https://without.boats/blog/two-memory-bugs-from-ringbahn/)
-* [Dart Meets Rust: a match made in heaven](https://dev.to/sunshine-chain/dart-meets-rust-a-match-made-in-heaven-9f5)
-* [C++ Developer Learning Rust!](https://dev.to/rhymu8354/c-developer-learning-rust-2oal)
-* [Container with Most Water](https://dev.to/steadbytes/container-with-most-water-3ige)
-* [Generics and Compile-Time in Rust](https://pingcap.com/blog/generics-and-compile-time-in-rust/)
-* [Improve the performances of your Phoenix app with Rust: in both back and front](https://dev.to/scorsi/improve-the-performances-of-our-phoenix-app-with-rust-4d7a)
-* [Improving the IDE for Rust/WinRT](https://kennykerr.ca/2020/06/09/improving-the-ide-for-rust-winrt/)
-* [My Experiences with Rust Open Source Projects](https://javednissar.ca/getting-involved-in-rust-open-source/)
-* [Playing Codenames with Rust](https://rolisz.ro/2020/06/10/playing-codenames-with-rust/)
-* [Spend your novelty budget on Rust](https://tim.mcnamara.nz/post/621040767010504704/spend-your-novelty-budget-on-rust)
-* [The Rust compiler isn't slow; we are.](https://blog.kodewerx.org/2020/06/the-rust-compiler-isnt-slow-we-are.html)
-* [The Story of Tail Call Optimizations in Rust](https://dev.to/seanchen1991/the-story-of-tail-call-optimizations-in-rust-35hf)
-* [audio] [AreWePodcastYet - Interview with Tim McNamara, author of Rust in Action](https://soundcloud.com/arewepodcastyet/awpy-05-tim-mcnamara-timclicks)
-* [video] [Rust Notebooks (Jupyter and Evcxr) - Getting Started](https://www.youtube.com/watch?v=SZKEzNL9als)
 
 # Crate of the Week
 
@@ -65,10 +34,6 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
-
-* [gooseberry: Add related tags to each page](https://github.com/out-of-cheese-error/gooseberry/issues/3)
-* [gooseberry: General contributing](https://github.com/out-of-cheese-error/gooseberry/blob/master/CONTRIBUTING.md)
-* [rust: `fs::remove_dir_all` rarely succeeds for large directories on windows](https://github.com/rust-lang/rust/issues/29497#issuecomment-573353391)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -189,8 +154,6 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
-* [Software Engineer at Cloudflare, London, UK or Lisbon, PT](https://boards.greenhouse.io/cloudflare/jobs/2209495?gh_jid=2209495)
-
 # Quote of the Week
 
 > It feels like being part of a village that learns to love the dragon it battles.
@@ -203,4 +166,4 @@ Thanks to [blonk](https://users.rust-lang.org/t/twir-quote-of-the-week/328/892) 
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/gvwvep/this_week_in_rust_341/)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/hactqu/this_week_in_rust_343/)</small>
