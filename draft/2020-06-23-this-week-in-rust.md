@@ -18,6 +18,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Introducing GameLisp, a scripting language for Rust game development](https://www.reddit.com/r/rust/comments/h13657/)
+
 # Crate of the Week
 
 This week's crate is [safer_ffi](https://github.com/getditto/safer_ffi), a library to help write safe FFI code.
