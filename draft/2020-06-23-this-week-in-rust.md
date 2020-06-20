@@ -18,6 +18,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+- [Writing Non-Trivial Macros in Rust](http://adventures.michaelfbryan.com/posts/non-trivial-macros/)
+
 # Crate of the Week
 
 This week's crate is [safer_ffi](https://github.com/getditto/safer_ffi), a library to help write safe FFI code.
