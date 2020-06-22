@@ -18,6 +18,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+ - [Rust for Data-Intensive Computation](https://materialize.io/rust-for-data-intensive-computation/)
+
 # Crate of the Week
 
 This week's crate is [safer_ffi](https://github.com/getditto/safer_ffi), a library to help write safe FFI code.
