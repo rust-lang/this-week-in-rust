@@ -18,6 +18,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Zero To Production #2: Learn By Building An Email Newsletter](https://www.lpalmieri.com/posts/2020-06-21-zero-to-production-2-learn-by-building-an-email-newsletter/)
+
 # Crate of the Week
 
 This week's crate is [safer_ffi](https://github.com/getditto/safer_ffi), a library to help write safe FFI code.
