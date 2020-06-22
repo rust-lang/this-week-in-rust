@@ -18,10 +18,21 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
-* [Rust for Data-Intensive Computation](https://materialize.io/rust-for-data-intensive-computation/)
-* [Zero To Production #2: Learn By Building An Email Newsletter](https://www.lpalmieri.com/posts/2020-06-21-zero-to-production-2-learn-by-building-an-email-newsletter/)
+* [Announcing Rust 1.44.1](https://blog.rust-lang.org/2020/06/18/Rust.1.44.1.html)
 * [Writing Non-Trivial Macros in Rust](http://adventures.michaelfbryan.com/posts/non-trivial-macros/)
+* [Diving into Rust with a CLI](https://kbknapp.dev/rust-cli/)
+* [Rust for Data-Intensive Computation](https://materialize.io/rust-for-data-intensive-computation/)
+* [3K, 60fps, 130ms: achieving it with Rust](https://blog.tonari.no/why-we-love-rust?ref=twtr)
+* [Zero To Production #2: Learn By Building An Email Newsletter](https://www.lpalmieri.com/posts/2020-06-21-zero-to-production-2-learn-by-building-an-email-newsletter/)
 * [Rust concurrency: the archetype of a message-passing bug.](https://medium.com/@polyglot_factotum/rust-concurrency-the-archetype-of-a-message-passing-bug-817b60efd8f8?source=friends_link&sk=ad32b77d42eda3dd28a26671282271df)
+* [How to Design For Panic Resilience in Rust](https://towardsdatascience.com/how-to-design-for-panic-resilience-in-rust-55d5fd2478b9)
+* [GitHub Action for binary crates installation](https://svartalf.info/posts/2020-04-10-github-action-for-binary-crates-installation/)
+* [Managing Rust bloat with Github Actions](https://tomforb.es/managing-rust-bloat-with-github-actions/)
+* [A multiplayer board game in Rust and WebAssembly](http://www.mattkeeter.com/projects/pont/)
+* [Im bad at unsafe {}](https://djugei.github.io/bad-at-unsafe/)
+* [Thread-local Storage - Part 13 of Making our own executable packer](https://fasterthanli.me/blog/2020/thread-local-storage/)
+* [RISC-V OS using Rust - Chapter 11](http://osblog.stephenmarz.com/ch11.html)
+* [SIMD library plans](https://vorner.github.io/2020/05/08/simd-library-plans.html)
 
 # Crate of the Week
 
@@ -158,6 +169,9 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+
+* [Senior Back-End Rust Developer at Jewish Interactive (Ji)](https://www.jewishinteractive.org/senior-developer/?utm_campaign=Available%20Jobs%20-%202020&utm_content=132060591&utm_medium=social&utm_source=twitter&hss_channel=tw-449734543)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
