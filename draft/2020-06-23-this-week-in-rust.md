@@ -31,8 +31,15 @@ Check out [this week's *This Week in Rust Podcast*]()
 * [A multiplayer board game in Rust and WebAssembly](http://www.mattkeeter.com/projects/pont/)
 * [Im bad at unsafe {}](https://djugei.github.io/bad-at-unsafe/)
 * [Thread-local Storage - Part 13 of Making our own executable packer](https://fasterthanli.me/blog/2020/thread-local-storage/)
+* [Tour of Rust - Chapter 8 - Smart Pointers](https://tourofrust.com/chapter_8_en.html)
 * [RISC-V OS using Rust - Chapter 11](http://osblog.stephenmarz.com/ch11.html)
 * [SIMD library plans](https://vorner.github.io/2020/05/08/simd-library-plans.html)
+* [Tips for Faster Rust Compile Times](https://endler.dev/2020/rust-compile-times/)
+* [Rust Analyzer Changelog #30](https://rust-analyzer.github.io/thisweek/2020/06/22/changelog-30.html)
+* [video] [Crust of Rust: Smart Pointers and Interior Mutability](https://www.youtube.com/watch?v=8O0Nt9qY_vo)
+* [video] [CS 196 at Illinois](https://www.youtube.com/channel/UCRA18QWPzB7FYVyg0WFKC6g/videos)
+* [video] [Ask Me Anything with Felix Klock](https://www.youtube.com/watch?v=jGgQmnPH0dQ&feature=youtu.be&t=28792)
+* [video] [Rust Stream: The Guard Pattern and Interior Mutability](https://www.youtube.com/watch?v=lmEKIvLh9D4&feature=youtu.be)
 
 # Crate of the Week
 
@@ -50,6 +57,7 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 * [GitUI is looking for contributors](https://github.com/extrawurst/gitui/issues)
+* [Ruma: /account/whoami should use UserId](https://github.com/ruma/ruma/issues/54)
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
@@ -141,25 +149,32 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [impl `From<char>` for String](https://github.com/rust-lang/rust/pull/73466)
+* [disposition: merge] [stabilize leading_trailing_ones](https://github.com/rust-lang/rust/pull/73032)
+* [disposition: merge] [Add `TryFrom<{int}>` for `NonZero{int}`](https://github.com/rust-lang/rust/pull/72717)
+* [disposition: merge] [Stabilize `#[track_caller]`](https://github.com/rust-lang/rust/pull/72445)
 * [disposition: merge] [add Windows system error codes that should map to `io::ErrorKind::TimedOut`](https://github.com/rust-lang/rust/pull/71756)
-* [disposition: merge] [impl `PartialEq<Vec<B>> for &[A], &mut [A]`](https://github.com/rust-lang/rust/pull/71660)
+* [disposition: merge] [Tracking issue for RFC 2344, "Allow `loop` in constant evaluation"](https://github.com/rust-lang/rust/issues/52000)
+* [disposition: merge] [Tracking issue for `Option::deref`, `Result::deref`, `Result::deref_ok`, and `Result::deref_err`](https://github.com/rust-lang/rust/issues/50264)
 
 ## New RFCs
 
-[RFC: add the Freeze trait to libcore/libstd](https://github.com/rust-lang/rfcs/pull/2944)
+* [RFC: 'C unwind' ABI](https://github.com/rust-lang/rfcs/pull/2945)
 
 # Upcoming Events
 
 ### Online
-* [June 18. Zurich, CH - Remote - Embedded Rust Update: probe.rs](https://www.meetup.com/Rust-Zurich/events/271020472/)
-* [June 18. Turin, IT - Remote - Rust Turin Study Group](https://community.mozilla.org/events/gruppo-di-studio-di-rust-2/)
+* [June 24. Wroclaw, PL - Remote - Rust Wroclaw Meetup #22](https://www.meetup.com/Rust-Wroclaw/events/271319037/)
 * [June 25. Edinburgh, UK - Remote - Pirrigator - Growing Tomatoes Free From Memory Errors and Race Conditions](https://www.meetup.com/rust-edi/events/271129693/)
 * [June 25. Berlin, DE - Remote - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybcjbhc/)
+* [July 1. Johannesburg, ZA - Remote - Monthly Joburg Rust Chat!](https://www.meetup.com/Johannesburg-Rust-Meetup/events/271286846/)
 
 ### North America
-* [June 17. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybcjbwb/)
-* [June 18. Durham, NC - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybcjbdc/)
-* [June 30. Dallas, TX - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybcjbnc/)
+* [June 30. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybcjbnc/)
+* [July 1. Indianapolis, IN, US - Indy Rust - Indy.rs](https://www.meetup.com/indyrs/events/dtqwprybckbcb/)
+
+### Asia Pacific
+* [July 6. Auckland, NZ - Rust AKL](https://www.meetup.com/rust-akl/events/266876691/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
