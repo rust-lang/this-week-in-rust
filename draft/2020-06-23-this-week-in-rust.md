@@ -18,7 +18,9 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
-- [Writing Non-Trivial Macros in Rust](http://adventures.michaelfbryan.com/posts/non-trivial-macros/)
+* [Writing Non-Trivial Macros in Rust](http://adventures.michaelfbryan.com/posts/non-trivial-macros/)
+* [Rust concurrency: the archetype of a message-passing bug.](https://medium.com/@polyglot_factotum/rust-concurrency-the-archetype-of-a-message-passing-bug-817b60efd8f8?source=friends_link&sk=ad32b77d42eda3dd28a26671282271df)
+
 
 # Crate of the Week
 
@@ -34,6 +36,8 @@ Thanks to [Vlad Frolov](https://users.rust-lang.org/t/crate-of-the-week/2704/780
 
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
+
+* [GitUI is looking for contributors](https://github.com/extrawurst/gitui/issues)
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
