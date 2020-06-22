@@ -35,6 +35,8 @@ Thanks to [Vlad Frolov](https://users.rust-lang.org/t/crate-of-the-week/2704/780
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
+* [GitUI is looking for contributors](https://github.com/extrawurst/gitui/issues)
+
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
