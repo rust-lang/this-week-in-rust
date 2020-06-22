@@ -18,9 +18,9 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Zero To Production #2: Learn By Building An Email Newsletter](https://www.lpalmieri.com/posts/2020-06-21-zero-to-production-2-learn-by-building-an-email-newsletter/)
 * [Writing Non-Trivial Macros in Rust](http://adventures.michaelfbryan.com/posts/non-trivial-macros/)
 * [Rust concurrency: the archetype of a message-passing bug.](https://medium.com/@polyglot_factotum/rust-concurrency-the-archetype-of-a-message-passing-bug-817b60efd8f8?source=friends_link&sk=ad32b77d42eda3dd28a26671282271df)
-
 
 # Crate of the Week
 
