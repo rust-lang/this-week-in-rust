@@ -12,7 +12,7 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-Check out [this week's *This Week in Rust Podcast*]()
+Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.org/episode/019-twir-344/)
 
 # Updates from Rust Community
 
@@ -23,16 +23,12 @@ Check out [this week's *This Week in Rust Podcast*]()
 * [Diving into Rust with a CLI](https://kbknapp.dev/rust-cli/)
 * [Rust for Data-Intensive Computation](https://materialize.io/rust-for-data-intensive-computation/)
 * [3K, 60fps, 130ms: achieving it with Rust](https://blog.tonari.no/why-we-love-rust?ref=twtr)
-* [Zero To Production #2: Learn By Building An Email Newsletter](https://www.lpalmieri.com/posts/2020-06-21-zero-to-production-2-learn-by-building-an-email-newsletter/)
 * [Rust concurrency: the archetype of a message-passing bug.](https://medium.com/@polyglot_factotum/rust-concurrency-the-archetype-of-a-message-passing-bug-817b60efd8f8?source=friends_link&sk=ad32b77d42eda3dd28a26671282271df)
 * [How to Design For Panic Resilience in Rust](https://towardsdatascience.com/how-to-design-for-panic-resilience-in-rust-55d5fd2478b9)
 * [GitHub Action for binary crates installation](https://svartalf.info/posts/2020-04-10-github-action-for-binary-crates-installation/)
 * [Managing Rust bloat with Github Actions](https://tomforb.es/managing-rust-bloat-with-github-actions/)
 * [A multiplayer board game in Rust and WebAssembly](http://www.mattkeeter.com/projects/pont/)
 * [Im bad at unsafe {}](https://djugei.github.io/bad-at-unsafe/)
-* [Thread-local Storage - Part 13 of Making our own executable packer](https://fasterthanli.me/blog/2020/thread-local-storage/)
-* [Tour of Rust - Chapter 8 - Smart Pointers](https://tourofrust.com/chapter_8_en.html)
-* [RISC-V OS using Rust - Chapter 11](http://osblog.stephenmarz.com/ch11.html)
 * [SIMD library plans](https://vorner.github.io/2020/05/08/simd-library-plans.html)
 * [Tips for Faster Rust Compile Times](https://endler.dev/2020/rust-compile-times/)
 * [Rust Analyzer Changelog #30](https://rust-analyzer.github.io/thisweek/2020/06/22/changelog-30.html)
@@ -54,6 +50,10 @@ Check out [this week's *This Week in Rust Podcast*]()
 * [Static PIE and ASLR for the x86_64-unknown-linux-musl Target](https://harald.hoyer.xyz/rust-static-pie/)
 * [Three bytes to an integer](https://dev.to/wayofthepie/three-bytes-to-an-integer-13g5)
 * [Using Rust to Delete Gitignored Cruft](https://www.forrestthewoods.com/blog/using-rust-to-delete-gitignored-cruft/)
+* [Tour of Rust - Chapter 8 - Smart Pointers](https://tourofrust.com/chapter_8_en.html)
+* [Thread-local Storage - Part 13 of Making our own executable packer](https://fasterthanli.me/blog/2020/thread-local-storage/)
+* [RISC-V OS using Rust - Chapter 11](http://osblog.stephenmarz.com/ch11.html)
+* [Zero To Production #2: Learn By Building An Email Newsletter](https://www.lpalmieri.com/posts/2020-06-21-zero-to-production-2-learn-by-building-an-email-newsletter/)
 * [video] [Crust of Rust: Smart Pointers and Interior Mutability](https://www.youtube.com/watch?v=8O0Nt9qY_vo)
 * [video] [CS 196 at Illinois](https://www.youtube.com/channel/UCRA18QWPzB7FYVyg0WFKC6g/videos)
 * [video] [Ask Me Anything with Felix Klock](https://www.youtube.com/watch?v=jGgQmnPH0dQ&feature=youtu.be&t=28792)
@@ -223,4 +223,4 @@ Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/896)
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/hactqu/this_week_in_rust_343/)</small>
+<small>[Discuss on r/rust]()</small>
