@@ -18,6 +18,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ## News & Blog Posts
 
+* [A Future is a Suspending Scheduler](https://nikhilism.com/post/2020/futures-suspending-scheduler/)
+
 # Crate of the Week
 
 This week's crate is [diskonaut](https://github.com/imsnif/diskonaut), a disk usage explorer.
