@@ -134,7 +134,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [use `Ipv4Addr::from<[u8; 4]>` when possible](https://github.com/rust-lang/rust/pull/73389)
 * [core/time: Add Duration methods for zero](https://github.com/rust-lang/rust/pull/72790)
 * [deprecate wrapping_offset_from](https://github.com/rust-lang/rust/pull/73580)
-* [impl PartialEq<Vec<B>> for &[A], &mut [A]](https://github.com/rust-lang/rust/pull/71660)
+* [`impl PartialEq<Vec<B>>` for `&[A]`, `&mut [A]`](https://github.com/rust-lang/rust/pull/71660)
 * [hashbrown: avoid creating small tables with a capacity of 1](https://github.com/rust-lang/hashbrown/pull/162)
 * [stdarch: add AVX 512f gather, scatter and compare intrinsics](https://github.com/rust-lang/stdarch/pull/866)
 * [cargo: adding environment variable CARGO_PKG_LICENSE](https://github.com/rust-lang/cargo/pull/8325)
