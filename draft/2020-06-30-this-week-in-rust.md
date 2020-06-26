@@ -15,8 +15,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.org/episode/019-twir-344/)
 
 # Updates from Rust Community
+ 
 
 ## News & Blog Posts
+
+* [Build a Smart Bookmarking Tool with Rust and Rocket](https://developers.facebook.com/blog/post/2020/06/03/build-smart-bookmarking-tool-rust-rocket/)
 
 # Crate of the Week
 
