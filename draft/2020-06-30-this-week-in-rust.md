@@ -15,7 +15,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.org/episode/019-twir-344/)
 
 # Updates from Rust Community
- 
 
 ## News & Blog Posts
 
