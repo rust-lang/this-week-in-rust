@@ -18,6 +18,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ## News & Blog Posts
 
+* [Building a faster CouchDB View Server in Rust](https://www.garrensmith.com/blogs/fortuna-rs-couchdb-view-server)
+
 # Crate of the Week
 
 This week's crate is [diskonaut](https://github.com/imsnif/diskonaut), a disk usage explorer.
