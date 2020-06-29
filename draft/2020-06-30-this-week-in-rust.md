@@ -17,6 +17,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Examining ARM vs X86 Memory Models with Rust](https://www.nickwilcox.com/blog/arm_vs_x86_memory_model/)
 
 # Crate of the Week
 
