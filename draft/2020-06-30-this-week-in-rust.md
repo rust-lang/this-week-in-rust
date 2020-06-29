@@ -18,6 +18,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ## News & Blog Posts
 
+* [Build a Smart Bookmarking Tool with Rust and Rocket](https://developers.facebook.com/blog/post/2020/06/03/build-smart-bookmarking-tool-rust-rocket/)
 * [A Future is a Suspending Scheduler](https://nikhilism.com/post/2020/futures-suspending-scheduler/)
 
 # Crate of the Week
