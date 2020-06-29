@@ -35,7 +35,7 @@ Thanks to [Aram Drevekenin](https://users.rust-lang.org/t/crate-of-the-week/2704
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
-* [Database in Rust is looking for contributros](https://github.com/alex-dukhno/database/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+* [Database in Rust is looking for contributors](https://github.com/alex-dukhno/database/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
