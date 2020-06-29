@@ -18,7 +18,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ## News & Blog Posts
 
-Regina Hebig and Jacob Krüger are conducting a research survey on developers' knowledge needs and program comprehension. If you are interested in the topic and want to support them, feel free [to participate in the survey](https://sunet.artologik.net/gu/Survey/8598) and/or share the survey with other developers that may be interested.
+Regina Hebig and Jacob Krüger are conducting a research survey on developers' knowledge needs and program comprehension. If you are interested in the topic and want to support them, feel free [to participate in the survey](https://sunet.artologik.net/gu/Survey/8598) and/or share the survey with other developers who may be interested.
 
 # Crate of the Week
 
