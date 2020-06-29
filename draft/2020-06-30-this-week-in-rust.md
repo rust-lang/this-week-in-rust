@@ -188,7 +188,6 @@ Email the [Rust Community Team][community] for access.
 * [Senior Software Engineer - Backend at LogDNA, Remote, US](https://boards.greenhouse.io/logdna/jobs/4703358002)
 * [Senior Software Engineer - Protocols in Rust at Ockam, Remote](https://www.ockam.io/team/Senior-Software-Engineer-Protocols-in-Rust/1d3e2e2d-e538-5847-874f-6bec1b63af97)
 
-
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
