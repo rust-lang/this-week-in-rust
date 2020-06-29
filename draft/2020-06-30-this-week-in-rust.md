@@ -38,9 +38,9 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 # Crate of the Week
 
-This week's crate is [diskonaut](https://github.com/imsnif/diskonaut), a disk usage explorer.
+This week's crate is [print_bytes](https://crates.io/crates/print_bytes), a library to print arbitrary bytes to a stream as losslessly as possible.
 
-Thanks to [Aram Drevekenin](https://users.rust-lang.org/t/crate-of-the-week/2704/781) for the suggestion!
+Thanks to [dylni](https://users.rust-lang.org/t/crate-of-the-week/2704/784) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -64,66 +64,69 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-325 pull requests were [merged in the last week][merged]
+339 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-06-15..2020-06-22
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-06-22..2020-06-29
 
-* [add `asm!()` support for hexagon](https://github.com/rust-lang/rust/pull/73214)
-* [enable LLVM zlib](https://github.com/rust-lang/rust/pull/72696)
-* [add methods to go from a nul-terminated `Vec<u8>` to a `CString`](https://github.com/rust-lang/rust/pull/73139)
-* [allow multiple `asm!` options groups and report an error on duplicate options](https://github.com/rust-lang/rust/pull/73227)
-* [diagnose use of incompatible sanitizers](https://github.com/rust-lang/rust/pull/73347)
-* [disallow loading crates with non-ascii identifier name](https://github.com/rust-lang/rust/pull/73305)
-* [export `#[inline]` fns with extern indicators](https://github.com/rust-lang/rust/pull/73034)
-* [fix up autoderef when reborrowing](https://github.com/rust-lang/rust/pull/72280)
-* [further tweak lifetime errors involving `dyn Trait` and `impl Trait` in return position](https://github.com/rust-lang/rust/pull/72804)
-* [implement crate-level-only lints checking.](https://github.com/rust-lang/rust/pull/73300)
-* [implement new gdb/lldb pretty-printers](https://github.com/rust-lang/rust/pull/72357)
-* [improve diagnostics for `let x += 1`](https://github.com/rust-lang/rust/pull/71976)
-* [make `need_type_info_err` more conservative](https://github.com/rust-lang/rust/pull/73027)
-* [make all uses of ty::Error delay a span bug](https://github.com/rust-lang/rust/pull/70551)
-* [make new type param suggestion more targetted](https://github.com/rust-lang/rust/pull/73320)
-* [make novel structural match violations not a `bug`](https://github.com/rust-lang/rust/pull/73446)
-* [only display other method receiver candidates if they actually apply](https://github.com/rust-lang/rust/pull/73382)
-* [prefer accessible paths in 'use' suggestions](https://github.com/rust-lang/rust/pull/72623)
-* [prevent attacker from manipulating FPU tag word used in SGX enclave](https://github.com/rust-lang/rust/pull/73471)
-* [projection bound validation](https://github.com/rust-lang/rust/pull/72788)
-* [report error when casting an C-like enum implementing Drop](https://github.com/rust-lang/rust/pull/72331)
-* [specialization is unsound](https://github.com/rust-lang/rust/pull/71420)
-* [use min_specialization in the remaining rustc crates](https://github.com/rust-lang/rust/pull/72707)
-* [add specialization of `ToString for char`](https://github.com/rust-lang/rust/pull/73465)
-* [suggest `?Sized` when applicable for ADTs](https://github.com/rust-lang/rust/pull/73261)
-* [support sanitizers on aarch64-unknown-linux-gnu](https://github.com/rust-lang/rust/pull/73058)
-* [test that bounds checks are elided when slice len is checked up-front](https://github.com/rust-lang/rust/pull/73362)
-* [try to suggest dereferences on trait selection failed](https://github.com/rust-lang/rust/pull/72456)
-* [use track caller for bug! macro](https://github.com/rust-lang/rust/pull/73373)
-* [forbid mutable references in all constant contexts except for const-fns](https://github.com/rust-lang/rust/pull/72934)
-* [linker: MSVC supports linking static libraries as a whole archive](https://github.com/rust-lang/rust/pull/72785)
-* [linker: never pass `-no-pie` to non-gnu linkers](https://github.com/rust-lang/rust/pull/73384)
-* [lint: normalize projections using opaque types](https://github.com/rust-lang/rust/pull/73287)
-* [add a lint to catch clashing `extern` fn declarations.](https://github.com/rust-lang/rust/pull/70946)
-* [memory access sanity checks: abort instead of panic](https://github.com/rust-lang/rust/pull/73054)
-* [pretty/mir: const value enums with no variants](https://github.com/rust-lang/rust/pull/73442)
-* [store `ObligationCause` on the heap](https://github.com/rust-lang/rust/pull/72962)
-* [chalk: add closures](https://github.com/rust-lang/chalk/pull/519)
-* [chalk: ignore auto traits order](https://github.com/rust-lang/chalk/pull/531)
-* [fix asinh of negative values](https://github.com/rust-lang/rust/pull/72486)
-* [stabilize Option::zip](https://github.com/rust-lang/rust/pull/72938)
-* [stabilize vec::Drain::as_slice](https://github.com/rust-lang/rust/pull/72584)
-* [use `Ipv4Addr::from<[u8; 4]>` when possible](https://github.com/rust-lang/rust/pull/73389)
-* [core/time: Add Duration methods for zero](https://github.com/rust-lang/rust/pull/72790)
-* [deprecate wrapping_offset_from](https://github.com/rust-lang/rust/pull/73580)
-* [impl PartialEq<Vec<B>> for &[A], &mut [A]](https://github.com/rust-lang/rust/pull/71660)
-* [hashbrown: avoid creating small tables with a capacity of 1](https://github.com/rust-lang/hashbrown/pull/162)
-* [stdarch: add AVX 512f gather, scatter and compare intrinsics](https://github.com/rust-lang/stdarch/pull/866)
-* [cargo: adding environment variable CARGO_PKG_LICENSE](https://github.com/rust-lang/cargo/pull/8325)
-* [cargo: cut down on data fetch from git dependencies](https://github.com/rust-lang/cargo/pull/8363)
-* [cargo: fix doctests not running with --target=HOST](https://github.com/rust-lang/cargo/pull/8358)
-* [cargo: fix order-dependent feature resolution.](https://github.com/rust-lang/cargo/pull/8395)
-* [cargo: fix overzealous `clean -p` for reserved names](https://github.com/rust-lang/cargo/pull/8398)
-* [cargo: support linker with -Zdoctest-xcompile.](https://github.com/rust-lang/cargo/pull/8359)
-* [rustfmt: avoid using Symbol::intern](https://github.com/rust-lang/rustfmt/pull/4268)
-* [rustfmt: ensure idempotency on empty match blocks](https://github.com/rust-lang/rustfmt/pull/4271)
+* [move leak-check to during coherence, candidate eval](https://github.com/rust-lang/rust/pull/72493)
+* [account for multiple impl/dyn Trait in return type when suggesting `'_`](https://github.com/rust-lang/rust/pull/73496)
+* [tweak binop errors](https://github.com/rust-lang/rust/pull/73674)
+* [adds a clearer message for when the async keyword is missing from a function](https://github.com/rust-lang/rust/pull/73672)
+* [allow dynamic linking for iOS/tvOS targets](https://github.com/rust-lang/rust/pull/73516)
+* [always capture tokens for `macro_rules!` arguments](https://github.com/rust-lang/rust/pull/73293)
+* [change heuristic for determining range literal](https://github.com/rust-lang/rust/pull/73639)
+* [check for assignments between non-conflicting generator saved locals](https://github.com/rust-lang/rust/pull/73244)
+* [const prop: erase all block-only locals at the end of every block](https://github.com/rust-lang/rust/pull/73757)
+* [emit line info for generator variants](https://github.com/rust-lang/rust/pull/73460)
+* [explain move errors that occur due to method calls involving `self`](https://github.com/rust-lang/rust/pull/73708)
+* [fix handling of reserved registers for ARM inline asm](https://github.com/rust-lang/rust/pull/73588)
+* [improve compiler error message for wrong generic parameter order](https://github.com/rust-lang/rust/pull/72271)
+* [point at the call span when overflow occurs during monomorphization](https://github.com/rust-lang/rust/pull/73601)
+* [provide suggestions for some moved value errors](https://github.com/rust-lang/rust/pull/73534)
+* [self contained linking option](https://github.com/rust-lang/rust/pull/72738)
+* [perform obligation deduplication to avoid buggy `ExistentialMismatch`](https://github.com/rust-lang/rust/pull/73485)
+* [show the values and computation that would overflow a const evaluation or propagation](https://github.com/rust-lang/rust/pull/73513)
+* [stabilize `#![feature(const_if_match)]` and `#![feature(const_loop)]`](https://github.com/rust-lang/rust/pull/72437)
+* [A way forward for pointer equality in const eval](https://github.com/rust-lang/rust/pull/73398)
+* [the const propagator cannot trace references](https://github.com/rust-lang/rust/pull/73613)
+* [warn if linking to a private item](https://github.com/rust-lang/rust/pull/72771)
+* [`improper_ctypes_definitions` lint](https://github.com/rust-lang/rust/pull/72700)
+* [add Windows system error codes that should map to io::ErrorKind::TimedOut](https://github.com/rust-lang/rust/pull/71756)
+* [errors: use `-Z terminal-width` in JSON emitter](https://github.com/rust-lang/rust/pull/73763)
+* [proc_macro: stop flattening groups with dummy spans](https://github.com/rust-lang/rust/pull/73102)
+* [rustc_lint: only query `typeck_tables_of` when a lint needs it](https://github.com/rust-lang/rust/pull/73743)
+* [rustdoc: fix doc aliases with crate filtering](https://github.com/rust-lang/rust/pull/73644)
+* [chalk: .chalk file syntax writer](https://github.com/rust-lang/chalk/pull/430)
+* [chalk: add method to get repr data of an ADT to ChalkDatabase](https://github.com/rust-lang/chalk/pull/523)
+* [chalk: fix built-in `Fn` impls when generics are involved](https://github.com/rust-lang/chalk/pull/541)
+* [chalk: fix coherence issue with associated types in generic bound](https://github.com/rust-lang/chalk/pull/538)
+* [miri: implement rwlocks on Windows](https://github.com/rust-lang/miri/pull/1461)
+* [miri: supply our own implementation of the CTFE pointer comparison intrinsics](https://github.com/rust-lang/miri/pull/1459)
+* [shortcuts for min/max on ordinary BTreeMap/BTreeSet iterators](https://github.com/rust-lang/rust/pull/73627)
+* [add `TryFrom<{int}>` for `NonZero{int}`](https://github.com/rust-lang/rust/pull/72717)
+* [add a fast path for `std::thread::panicking`.](https://github.com/rust-lang/rust/pull/72617)
+* [add `[T]::partition_point`](https://github.com/rust-lang/rust/pull/73577)
+* [add unstable `core::mem::variant_count` intrinsic](https://github.com/rust-lang/rust/pull/73418)
+* [added io forwarding methods to the stdio structs](https://github.com/rust-lang/rust/pull/72705)
+* [stabilize `leading_trailing_ones`](https://github.com/rust-lang/rust/pull/73032)
+* [`impl PartialEq<Vec<B>> for &[A], &mut [A]`](https://github.com/rust-lang/rust/pull/71660)
+* [forward `Hash::write_iN` to `Hash::write_uN`](https://github.com/rust-lang/rust/pull/73800)
+* [libc: add ancillary socket data accessor functions for solarish OSes](https://github.com/rust-lang/libc/pull/1792)
+* [libc: FreeBSD: machine register structs](https://github.com/rust-lang/libc/pull/1791)
+* [libc: add wexecv, wexecve, wexecvp, wexecvpe](https://github.com/rust-lang/libc/pull/1796)
+* [cargo: add support for `workspace.metadata` table](https://github.com/rust-lang/cargo/pull/8323)
+* [cargo: adding environment variable CARGO_PKG_LICENSE_FILE](https://github.com/rust-lang/cargo/pull/8387)
+* [cargo: enable "--target-dir" in "cargo install"](https://github.com/rust-lang/cargo/pull/8391)
+* [cargo: expose built cdylib artifacts in the Compilation structure](https://github.com/rust-lang/cargo/pull/8418)
+* [cargo: improve support for non-`master` main branches ](https://github.com/rust-lang/cargo/pull/8364)
+* [docs.rs: don't panic when a crate doesn't exist for target-redirect](https://github.com/rust-lang/docs.rs/pull/859)
+* [docs.rs: improve executing tests](https://github.com/rust-lang/docs.rs/pull/861)
+* [clippy: lint iterator.map(|x| x)](https://github.com/rust-lang/rust-clippy/pull/5694)
+* [clippy: new lint: suggest `ptr::read` instead of `mem::replace(..., uninitialized())`](https://github.com/rust-lang/rust-clippy/pull/5695)
+* [clippy: clippy-driver: pass all args to rustc if --rustc is present](https://github.com/rust-lang/rust-clippy/pull/5178)
+* [clippy: cmp_owned: handle when PartialEq is not implemented symmetrically](https://github.com/rust-lang/rust-clippy/pull/5701)
+* [rustfmt: do not reorder module declaration with #![macro_use]](https://github.com/rust-lang/rustfmt/pull/4284)
+* [rustfmt: don't reformat with errors unless --force flag supplied](https://github.com/rust-lang/rustfmt/pull/4256)
 
 
 ## Rust Compiler Performance Triage
@@ -196,11 +199,19 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Rust's beauty lies in the countless decisions made by the development community that constantly make you feel like you can have ten cakes and eat all of them too.
+> References are a sharp tool and there are roughly three different approaches to sharp tools.
+>
+> 1. Don't give programmers sharp tools. They may make mistakes and cut their fingers off. *This is the Java/Python/Perl/Ruby/PHP... approach.*
+> 2. Give programmers all the sharp tools they want. They are professionals and if they cut their fingers off it's their own fault. *This is the C/C++ approach.*
+> 3. Give programmers sharp tools, but put guards on them so they can't accidentally cut their fingers off. *This is Rust's approach.*
+>
+> Lifetime annotations are a safety guard on references. Rust's references have no sychronization and no reference counting -- that's what makes them sharp. References in category-1 languages (which typically *do* have synchronization and reference counting) are "blunted": they're not really *quite* as effective as category-2 and -3 references, but they don't cut you, and they still work; they might just slow you down a bit.
+>
+> So, frankly, I like lifetime annotations because they prevent me from cutting my fingers off.
 
-– [Jake McGinty et al on the tonari blog](https://blog.tonari.no/why-we-love-rust)
+– [trentj on rust-users](https://users.rust-lang.org/t/when-do-you-find-lifetime-annotations-helpful/44434/6)
 
-Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/896) for the suggestions!
+Thanks to [Ivan Tham](https://users.rust-lang.org/t/twir-quote-of-the-week/328/897) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
