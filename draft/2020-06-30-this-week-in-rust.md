@@ -17,11 +17,22 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [A practical guide to async in Rust](https://blog.logrocket.com/a-practical-guide-to-async-in-rust/)
+* [Secure Rust Guidelines - ANSSI (National Cybersecurity Agency of France)](https://anssi-fr.github.io/rust-guide/)
+* [Faster Rust development on AWS EC2 with VSCode](https://dev.to/rimutaka/faster-rust-development-on-aws-ec2-with-vscode-4hno)
+* [Rust verification tools](https://alastairreid.github.io/rust-verification-tools/)
 * [Examining ARM vs X86 Memory Models with Rust](https://www.nickwilcox.com/blog/arm_vs_x86_memory_model/)
-
 * [Building a faster CouchDB View Server in Rust](https://www.garrensmith.com/blogs/fortuna-rs-couchdb-view-server)
+* [Extremely Simple Rust Rocket Framework Tutorial](https://frogtok.com/extremely-simple-rust-rocket-framework-tutorial/)
 * [Build a Smart Bookmarking Tool with Rust and Rocket](https://developers.facebook.com/blog/post/2020/06/03/build-smart-bookmarking-tool-rust-rocket/)
 * [A Future is a Suspending Scheduler](https://nikhilism.com/post/2020/futures-suspending-scheduler/)
+* [Implementing a Job queue with SQLx and Postgres](https://cetra3.github.io/blog/implementing-a-jobq-sqlx/)
+* [Cross building Rust GStreamer plugins for the Raspberry Pi](https://www.collabora.com/news-and-blog/blog/2020/06/23/cross-building-rust-gstreamer-plugins-for-the-raspberry-pi/)
+* [xi-editor retrospective](https://raphlinus.github.io/xi/2020/06/27/xi-retrospective.html)
+* [rust-analyzer changelog #31](https://rust-analyzer.github.io/thisweek/2020/06/29/changelog-31.html)
+* [IntelliJ Rust Changelog #125](https://intellij-rust.github.io/2020/06/29/changelog-125.html)
+* [video] [Manipulating ports, virtual ports and pseudo terminals - Rust Wrocław Webinar](https://www.youtube.com/watch?v=_cYz03jS7tk&feature=youtu.be)
+* [video] [Rust Stream: Iterators](https://www.youtube.com/watch?v=lQt0adYPdfQ&feature=youtu.be)
 
 # Crate of the Week
 
@@ -39,6 +50,9 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [Gooseberry: Set the kb_dir somewhere more accessible to the user](https://github.com/out-of-cheese-error/gooseberry/issues/8)
+* [Ruma: Add directory and profile query endpoints](https://github.com/ruma/ruma/issues/79)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -117,7 +131,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC: Deduplicate Cargo workspace information](https://github.com/rust-lang/rfcs/pull/2906)
 
 ## Final Comment Period
 
@@ -127,33 +141,37 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in the final comment period.*
+* [Inline `const` expressions and patterns](https://github.com/rust-lang/rfcs/pull/2920)
+* [Inline assembly](https://github.com/rust-lang/rfcs/pull/2873)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [impl `From<char>` for String](https://github.com/rust-lang/rust/pull/73466)
-* [disposition: merge] [stabilize leading_trailing_ones](https://github.com/rust-lang/rust/pull/73032)
-* [disposition: merge] [Add `TryFrom<{int}>` for `NonZero{int}`](https://github.com/rust-lang/rust/pull/72717)
-* [disposition: merge] [Stabilize `#[track_caller]`](https://github.com/rust-lang/rust/pull/72445)
-* [disposition: merge] [add Windows system error codes that should map to `io::ErrorKind::TimedOut`](https://github.com/rust-lang/rust/pull/71756)
-* [disposition: merge] [Tracking issue for RFC 2344, "Allow `loop` in constant evaluation"](https://github.com/rust-lang/rust/issues/52000)
-* [disposition: merge] [Tracking issue for `Option::deref`, `Result::deref`, `Result::deref_ok`, and `Result::deref_err`](https://github.com/rust-lang/rust/issues/50264)
+* [disposition: merge] [mv std libs to std/](https://github.com/rust-lang/rust/pull/73265)
+* [disposition: merge] [Stabilize `transmute` in constants and statics but not const fn](https://github.com/rust-lang/rust/pull/72920)
+* [disposition: merge] [added `.collect()` into String from `Box<str>`](https://github.com/rust-lang/rust/pull/72688)
+* [disposition: merge] [Stabilize const_type_id feature](https://github.com/rust-lang/rust/pull/72488)
 
 ## New RFCs
 
-* [RFC: 'C unwind' ABI](https://github.com/rust-lang/rfcs/pull/2945)
+* [Linking modifiers for native libraries](https://github.com/rust-lang/rfcs/pull/2951)
+* [Hierarchic anonymous life-time](https://github.com/rust-lang/rfcs/pull/2949)
+* [Portable packed SIMD vector type](https://github.com/rust-lang/rfcs/pull/2948)
+* [crates.io token scopes](https://github.com/rust-lang/rfcs/pull/2947)
 
 # Upcoming Events
 
 ### Online
-* [June 24. Wroclaw, PL - Remote - Rust Wroclaw Meetup #22](https://www.meetup.com/Rust-Wroclaw/events/271319037/)
-* [June 25. Edinburgh, UK - Remote - Pirrigator - Growing Tomatoes Free From Memory Errors and Race Conditions](https://www.meetup.com/rust-edi/events/271129693/)
-* [June 25. Berlin, DE - Remote - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybcjbhc/)
+* [June 30. Berlin, DE - Remote - Berlin Rust - Rust and Tell](https://berline.rs/)
 * [July 1. Johannesburg, ZA - Remote - Monthly Joburg Rust Chat!](https://www.meetup.com/Johannesburg-Rust-Meetup/events/271286846/)
+* [July 1. Dublin, IE - Remote - Rust Dublin - July Remote Meetup](https://www.meetup.com/Rust-Dublin/events/271417290/)
+* [July 1. Indianapolis, IN, US - Indy Rust - Indy.rs - with Social Distancing](https://www.meetup.com/indyrs/events/jhfstrybckbcb/)
+* [July 13. Seattle, WA, US - Seattle Rust Meetup - Monthly Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybckbsb/)
 
 ### North America
 * [June 30. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybcjbnc/)
-* [July 1. Indianapolis, IN, US - Indy Rust - Indy.rs](https://www.meetup.com/indyrs/events/dtqwprybckbcb/)
+* [July 8. Atlanta, GA, US - Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybckblb/)
+* [July 9. Lehi, UT, US - Utah Rust - The Blue Pill: Rust on Microcontrollers](https://www.meetup.com/utah-rust/events/268567961/)
 
 ### Asia Pacific
 * [July 6. Auckland, NZ - Rust AKL](https://www.meetup.com/rust-akl/events/266876691/)
@@ -167,6 +185,8 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Senior Software Engineer - Backend at LogDNA, Remote, US](https://boards.greenhouse.io/logdna/jobs/4703358002)
+* [Senior Software Engineer - Protocols in Rust at Ockam, Remote](https://www.ockam.io/team/Senior-Software-Engineer-Protocols-in-Rust/1d3e2e2d-e538-5847-874f-6bec1b63af97)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
