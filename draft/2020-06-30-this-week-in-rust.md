@@ -17,6 +17,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 # Updates from Rust Community
 
 ## News & Blog Posts
+
+* [Disk space and LTO improvements](https://blog.rust-lang.org/inside-rust/2020/06/29/lto-improvements.html)
 * [A practical guide to async in Rust](https://blog.logrocket.com/a-practical-guide-to-async-in-rust/)
 * [Secure Rust Guidelines - ANSSI (National Cybersecurity Agency of France)](https://anssi-fr.github.io/rust-guide/)
 * [Faster Rust development on AWS EC2 with VSCode](https://dev.to/rimutaka/faster-rust-development-on-aws-ec2-with-vscode-4hno)
@@ -32,6 +34,12 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [rust-analyzer changelog #31](https://rust-analyzer.github.io/thisweek/2020/06/29/changelog-31.html)
 * [IntelliJ Rust Changelog #125](https://intellij-rust.github.io/2020/06/29/changelog-125.html)
 * [This month in my Database project written in Rust](https://alex-dukhno.github.io/2020-06-27-This-June-in-my-Database-project-written-in-rust/)
+* [A Few More Reasons Rust Compiles Slowly](https://pingcap.com/blog/reasons-rust-compiles-slowly)
+* [Fixing Rust's test suite on RISC-V](https://www.codethink.co.uk/articles/2020/fixing-rusts-test-suite-on-risc-v/)
+* [Protobuf code generation in Rust](https://dev.to/elshize/protobuf-code-generation-in-rust-1e35)
+* [Rust + Actix + CosmosDB (MongoDB) tutorial api](https://dev.to/jbarszczewski/rust-actix-cosmosdb-mongodb-tutorial-api-17i5)
+* [Tracking eye centers location with Rust & OpenCV](https://www.blog.nodrama.io/rust-opencv-eye-center-localisation/)
+* [Using rust, blurz to read from a BLE device](https://dev.to/lcsfelix/using-rust-blurz-to-read-from-a-ble-device-gmb)
 * [video] [Manipulating ports, virtual ports and pseudo terminals - Rust Wrocław Webinar](https://www.youtube.com/watch?v=_cYz03jS7tk&feature=youtu.be)
 * [video] [Rust Stream: Iterators](https://www.youtube.com/watch?v=lQt0adYPdfQ&feature=youtu.be)
 
