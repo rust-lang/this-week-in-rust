@@ -12,7 +12,7 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-station.org/file/rustacean-station/twir-2020-06-29.mp3)
+Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.org/episode/020-twir-345/)
 
 # Updates from Rust Community
 
@@ -223,4 +223,4 @@ Thanks to [Ivan Tham](https://users.rust-lang.org/t/twir-quote-of-the-week/328/8
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
 
-<small>[Discuss on r/rust]()</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/hisn3e/this_week_in_rust_345/)</small>
