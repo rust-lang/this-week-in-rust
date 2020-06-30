@@ -31,10 +31,9 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [xi-editor retrospective](https://raphlinus.github.io/xi/2020/06/27/xi-retrospective.html)
 * [rust-analyzer changelog #31](https://rust-analyzer.github.io/thisweek/2020/06/29/changelog-31.html)
 * [IntelliJ Rust Changelog #125](https://intellij-rust.github.io/2020/06/29/changelog-125.html)
+* [This month in my Database project written in Rust](https://alex-dukhno.github.io/2020-06-27-This-June-in-my-Database-project-written-in-rust/)
 * [video] [Manipulating ports, virtual ports and pseudo terminals - Rust Wrocław Webinar](https://www.youtube.com/watch?v=_cYz03jS7tk&feature=youtu.be)
 * [video] [Rust Stream: Iterators](https://www.youtube.com/watch?v=lQt0adYPdfQ&feature=youtu.be)
-
-* [This month in my Database project written in Rust](https://alex-dukhno.github.io/2020-06-27-This-June-in-my-Database-project-written-in-rust/)
 
 # Crate of the Week
 
