@@ -128,10 +128,9 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [rustfmt: do not reorder module declaration with #![macro_use]](https://github.com/rust-lang/rustfmt/pull/4284)
 * [rustfmt: don't reformat with errors unless --force flag supplied](https://github.com/rust-lang/rustfmt/pull/4256)
 
-
 ## Rust Compiler Performance Triage
 
-* [2020-06-23](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020.md#2020-06-23). Lots of improvements this week, and no regressions, which is good. But we regularly see significant performance effects on rollups, which is a concern.
+* [2020-06-30](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020.md#2020-06-30). Three regressions, two of them on rollups; two improvements, one on a rollup.
 
 ## Approved RFCs
 
