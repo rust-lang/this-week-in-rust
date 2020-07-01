@@ -18,6 +18,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Bad Apple!! and how I wrote a Rust video player for Task Manager!!](https://www.azabani.com/2020/06/29/bad-apple-for-taskmgr.html)
+
 # Crate of the Week
 
 This week's crate is [print_bytes](https://crates.io/crates/print_bytes), a library to print arbitrary bytes to a stream as losslessly as possible.
