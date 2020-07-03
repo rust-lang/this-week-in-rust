@@ -18,6 +18,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Boa release v0.9 and make use of Rust's measureme](https://boa-dev.github.io/2020/07/03/boa-release-09.html)
+
 # Crate of the Week
 
 This week's crate is [print_bytes](https://crates.io/crates/print_bytes), a library to print arbitrary bytes to a stream as losslessly as possible.
