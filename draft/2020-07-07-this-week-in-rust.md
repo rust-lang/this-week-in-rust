@@ -18,6 +18,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Writing Interpreters in Rust: a Guide](https://pliniker.github.io/post/rust-hosted-langs/)
+
 # Crate of the Week
 
 This week's crate is [print_bytes](https://crates.io/crates/print_bytes), a library to print arbitrary bytes to a stream as losslessly as possible.
