@@ -18,7 +18,7 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
-* [About a new WIP online book - "Writing Interpreters in Rust: a Guide"](https://pliniker.github.io/post/rust-hosted-langs/)
+* [Writing Interpreters in Rust: a Guide](https://pliniker.github.io/post/rust-hosted-langs/)
 
 # Crate of the Week
 
