@@ -40,6 +40,7 @@ Check out [this week's *This Week in Rust Podcast*]()
 * [Rendering in Rust](https://www.zerotoga.me/dev/renderinginrust)
 * [Super hero Rust fuzzing](https://blog.firosolutions.com/2020/07/superhero-rust-fuzzing/)
 * [What Is a Dangling Pointer?](https://medium.com/swlh/what-is-a-dangling-pointer-2773d49cf86c)
+* [Simple Rocket Web Framework Tutorial | POST Request](https://frogtok.com/simple-rocket-web-framework-tutorial-part-2in/)
 
 # Crate of the Week
 
