@@ -18,9 +18,28 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Ownership of the standard library implementation](https://blog.rust-lang.org/inside-rust/2020/07/02/Ownership-Std-Implementation.html)
+* [Announcing Rustup 1.22.0](https://blog.rust-lang.org/2020/07/06/Rustup-1.22.0.html)
+* [Back to old tricks ..(or, baby steps in Rust)](https://donsbot.wordpress.com/2020/07/04/back-to-old-tricks-or-baby-steps-in-rust/)
+* [Small strings in Rust](https://fasterthanli.me/articles/small-strings-in-rust)
+* [Choosing a Rust web framework, 2020 edition](https://www.lpalmieri.com/posts/2020-07-04-choosing-a-rust-web-framework-2020-edition/)
 * [Writing Interpreters in Rust: a Guide](https://pliniker.github.io/post/rust-hosted-langs/)
+* [Transpiling A Kernel Module to Rust: The Good, the Bad and the Ugly](https://immunant.com/blog/2020/06/kernel_modules/)
 * [Bad Apple!! and how I wrote a Rust video player for Task Manager!!](https://www.azabani.com/2020/06/29/bad-apple-for-taskmgr.html)
 * [Boa release v0.9 and make use of Rust's measureme](https://boa-dev.github.io/2020/07/03/boa-release-09.html)
+* [RiB (Rust in Blockchain) Newsletter #13](https://rustinblockchain.org/newsletters/2020-07-01-stuck-inside-hacking-away/)
+* [7 Things I learned from Porting a C Crypto Library to Rust](https://sharpend.io/7-things-I-learned-from-porting-a-c-crypto-library-to-rust/)
+* [AWS Lambda with Rust](https://blog.knoldus.com/aws-lambda-with-rust/)
+* [Writing a winning 4K intro in Rust](https://www.codeslow.com/2020/07/writing-winning-4k-intro-in-rust.html)
+* [Ringbahn II: the central state machine](https://without.boats/blog/ringbahn-ii/)
+* [Bastion floating on Tide - Part 2](https://blog.bastion.rs/2020/06/14/bastion-floating-on-tide-part-2.html)
+* [Porting Godot Games To Rust (Part 1)](https://paytonrules.com/post/games-in-rust-with-godot-part-one/)
+* [Image decay as a service](https://fasterthanli.me/articles/image-decay-as-a-service)
+* [IntelliJ Rust Changelog #125](https://intellij-rust.github.io/2020/06/29/changelog-125.html)
+* [Abstracting away correctness](https://fasterthanli.me/articles/abstracting-away-correctness)
+* [Rendering in Rust](https://www.zerotoga.me/dev/renderinginrust)
+* [Super hero Rust fuzzing](https://blog.firosolutions.com/2020/07/superhero-rust-fuzzing/)
+* [What Is a Dangling Pointer?](https://medium.com/swlh/what-is-a-dangling-pointer-2773d49cf86c)
 
 # Crate of the Week
 
@@ -38,6 +57,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+*No issues were proposed for CfP*.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -128,40 +149,35 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
+* [RFC: Add a new `#[instruction_set(...)]` attribute for supporting per-function instruction set changes](https://github.com/rust-lang/rfcs/pull/2867)
 * [Inline `const` expressions and patterns](https://github.com/rust-lang/rfcs/pull/2920)
 * [Inline assembly](https://github.com/rust-lang/rfcs/pull/2873)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [impl `From<char>` for String](https://github.com/rust-lang/rust/pull/73466)
+* [disposition: merge] [stabilize const mem::forget](https://github.com/rust-lang/rust/pull/73887)
+* [disposition: merge] [Stabilize casts and coercions to `&[T]` in const fn](https://github.com/rust-lang/rust/pull/73862)
 * [disposition: merge] [mv std libs to std/](https://github.com/rust-lang/rust/pull/73265)
 * [disposition: merge] [Stabilize `transmute` in constants and statics but not const fn](https://github.com/rust-lang/rust/pull/72920)
-* [disposition: merge] [added `.collect()` into String from `Box<str>`](https://github.com/rust-lang/rust/pull/72688)
 * [disposition: merge] [Stabilize const_type_id feature](https://github.com/rust-lang/rust/pull/72488)
+* [disposition: merge] [Accept tuple.0.0 as tuple indexing (take 2)](https://github.com/rust-lang/rust/pull/71322)
 
 ## New RFCs
 
-* [Linking modifiers for native libraries](https://github.com/rust-lang/rfcs/pull/2951)
-* [Hierarchic anonymous life-time](https://github.com/rust-lang/rfcs/pull/2949)
-* [Portable packed SIMD vector type](https://github.com/rust-lang/rfcs/pull/2948)
-* [crates.io token scopes](https://github.com/rust-lang/rfcs/pull/2947)
+* [RFC: IndexGet and IndexSet](https://github.com/rust-lang/rfcs/pull/2953)
 
 # Upcoming Events
 
 ### Online
-* [June 30. Berlin, DE - Remote - Berlin Rust - Rust and Tell](https://berline.rs/)
-* [July 1. Johannesburg, ZA - Remote - Monthly Joburg Rust Chat!](https://www.meetup.com/Johannesburg-Rust-Meetup/events/271286846/)
-* [July 1. Dublin, IE - Remote - Rust Dublin - July Remote Meetup](https://www.meetup.com/Rust-Dublin/events/271417290/)
-* [July 1. Indianapolis, IN, US - Indy Rust - Indy.rs - with Social Distancing](https://www.meetup.com/indyrs/events/jhfstrybckbcb/)
+* [July 9. Berlin, DE - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybckbmb/)
+* [July 9. San Diego, CA, US - July 2020 Tele-Meetup](https://www.meetup.com/San-Diego-Rust/events/271680644/)
 * [July 13. Seattle, WA, US - Seattle Rust Meetup - Monthly Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybckbsb/)
+* [July 16. Turin, IT - Rust Italia - Gruppo di studio di Rust](https://community.mozilla.org/events/gruppo-di-studio-di-rust-3/)
 
 ### North America
-* [June 30. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybcjbnc/)
 * [July 8. Atlanta, GA, US - Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybckblb/)
 * [July 9. Lehi, UT, US - Utah Rust - The Blue Pill: Rust on Microcontrollers](https://www.meetup.com/utah-rust/events/268567961/)
-
-### Asia Pacific
-* [July 6. Auckland, NZ - Rust AKL](https://www.meetup.com/rust-akl/events/266876691/)
+* [July 15. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybckbtb/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -171,6 +187,9 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Rust Developer at 1Password, Remote (US or Canada)](https://jobs.lever.co/1password/0623888f-0125-41b9-9902-eae8cfeae0c3)
+* [Security Engineer at 1Password, Remote (US or Canada)](https://jobs.lever.co/1password/23444f56-c83b-4c75-85cf-64305c335e78)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
