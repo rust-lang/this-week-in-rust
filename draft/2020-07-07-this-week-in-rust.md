@@ -18,9 +18,28 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Ownership of the standard library implementation](https://blog.rust-lang.org/inside-rust/2020/07/02/Ownership-Std-Implementation.html)
+* [Announcing Rustup 1.22.0](https://blog.rust-lang.org/2020/07/06/Rustup-1.22.0.html)
+* [Back to old tricks ..(or, baby steps in Rust)](https://donsbot.wordpress.com/2020/07/04/back-to-old-tricks-or-baby-steps-in-rust/)
+* [Small strings in Rust](https://fasterthanli.me/articles/small-strings-in-rust)
+* [Choosing a Rust web framework, 2020 edition](https://www.lpalmieri.com/posts/2020-07-04-choosing-a-rust-web-framework-2020-edition/)
 * [Writing Interpreters in Rust: a Guide](https://pliniker.github.io/post/rust-hosted-langs/)
+* [Transpiling A Kernel Module to Rust: The Good, the Bad and the Ugly](https://immunant.com/blog/2020/06/kernel_modules/)
 * [Bad Apple!! and how I wrote a Rust video player for Task Manager!!](https://www.azabani.com/2020/06/29/bad-apple-for-taskmgr.html)
 * [Boa release v0.9 and make use of Rust's measureme](https://boa-dev.github.io/2020/07/03/boa-release-09.html)
+* [RiB (Rust in Blockchain) Newsletter #13](https://rustinblockchain.org/newsletters/2020-07-01-stuck-inside-hacking-away/)
+* [7 Things I learned from Porting a C Crypto Library to Rust](https://sharpend.io/7-things-I-learned-from-porting-a-c-crypto-library-to-rust/)
+* [AWS Lambda with Rust](https://blog.knoldus.com/aws-lambda-with-rust/)
+* [Writing a winning 4K intro in Rust](https://www.codeslow.com/2020/07/writing-winning-4k-intro-in-rust.html)
+* [Ringbahn II: the central state machine](https://without.boats/blog/ringbahn-ii/)
+* [Bastion floating on Tide - Part 2](https://blog.bastion.rs/2020/06/14/bastion-floating-on-tide-part-2.html)
+* [Porting Godot Games To Rust (Part 1)](https://paytonrules.com/post/games-in-rust-with-godot-part-one/)
+* [Image decay as a service](https://fasterthanli.me/articles/image-decay-as-a-service)
+* [IntelliJ Rust Changelog #125](https://intellij-rust.github.io/2020/06/29/changelog-125.html)
+* [Abstracting away correctness](https://fasterthanli.me/articles/abstracting-away-correctness)
+* [Rendering in Rust](https://www.zerotoga.me/dev/renderinginrust)
+* [Super hero Rust fuzzing](https://blog.firosolutions.com/2020/07/superhero-rust-fuzzing/)
+* [What Is a Dangling Pointer?](https://medium.com/swlh/what-is-a-dangling-pointer-2773d49cf86c)
 
 # Crate of the Week
 
@@ -171,6 +190,9 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Rust Developer at 1Password, Remote (US or Canada)](https://jobs.lever.co/1password/0623888f-0125-41b9-9902-eae8cfeae0c3)
+* [Security Engineer at 1Password, Remote (US or Canada)](https://jobs.lever.co/1password/23444f56-c83b-4c75-85cf-64305c335e78)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
