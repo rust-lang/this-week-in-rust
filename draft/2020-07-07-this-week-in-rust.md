@@ -18,6 +18,7 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Simple Rocket Web Framework Tutorial | POST Request](https://frogtok.com/simple-rocket-web-framework-tutorial-part-2in/)
 * [Writing Interpreters in Rust: a Guide](https://pliniker.github.io/post/rust-hosted-langs/)
 * [Bad Apple!! and how I wrote a Rust video player for Task Manager!!](https://www.azabani.com/2020/06/29/bad-apple-for-taskmgr.html)
 * [Boa release v0.9 and make use of Rust's measureme](https://boa-dev.github.io/2020/07/03/boa-release-09.html)
