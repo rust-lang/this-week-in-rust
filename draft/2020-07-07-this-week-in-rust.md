@@ -58,6 +58,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+*No issues were proposed for CfP*.
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -147,40 +149,35 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
+* [RFC: Add a new `#[instruction_set(...)]` attribute for supporting per-function instruction set changes](https://github.com/rust-lang/rfcs/pull/2867)
 * [Inline `const` expressions and patterns](https://github.com/rust-lang/rfcs/pull/2920)
 * [Inline assembly](https://github.com/rust-lang/rfcs/pull/2873)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [impl `From<char>` for String](https://github.com/rust-lang/rust/pull/73466)
+* [disposition: merge] [stabilize const mem::forget](https://github.com/rust-lang/rust/pull/73887)
+* [disposition: merge] [Stabilize casts and coercions to `&[T]` in const fn](https://github.com/rust-lang/rust/pull/73862)
 * [disposition: merge] [mv std libs to std/](https://github.com/rust-lang/rust/pull/73265)
 * [disposition: merge] [Stabilize `transmute` in constants and statics but not const fn](https://github.com/rust-lang/rust/pull/72920)
-* [disposition: merge] [added `.collect()` into String from `Box<str>`](https://github.com/rust-lang/rust/pull/72688)
 * [disposition: merge] [Stabilize const_type_id feature](https://github.com/rust-lang/rust/pull/72488)
+* [disposition: merge] [Accept tuple.0.0 as tuple indexing (take 2)](https://github.com/rust-lang/rust/pull/71322)
 
 ## New RFCs
 
-* [Linking modifiers for native libraries](https://github.com/rust-lang/rfcs/pull/2951)
-* [Hierarchic anonymous life-time](https://github.com/rust-lang/rfcs/pull/2949)
-* [Portable packed SIMD vector type](https://github.com/rust-lang/rfcs/pull/2948)
-* [crates.io token scopes](https://github.com/rust-lang/rfcs/pull/2947)
+* [RFC: IndexGet and IndexSet](https://github.com/rust-lang/rfcs/pull/2953)
 
 # Upcoming Events
 
 ### Online
-* [June 30. Berlin, DE - Remote - Berlin Rust - Rust and Tell](https://berline.rs/)
-* [July 1. Johannesburg, ZA - Remote - Monthly Joburg Rust Chat!](https://www.meetup.com/Johannesburg-Rust-Meetup/events/271286846/)
-* [July 1. Dublin, IE - Remote - Rust Dublin - July Remote Meetup](https://www.meetup.com/Rust-Dublin/events/271417290/)
-* [July 1. Indianapolis, IN, US - Indy Rust - Indy.rs - with Social Distancing](https://www.meetup.com/indyrs/events/jhfstrybckbcb/)
+* [July 9. Berlin, DE - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybckbmb/)
+* [July 9. San Diego, CA, US - July 2020 Tele-Meetup](https://www.meetup.com/San-Diego-Rust/events/271680644/)
 * [July 13. Seattle, WA, US - Seattle Rust Meetup - Monthly Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybckbsb/)
+* [July 16. Turin, IT - Rust Italia - Gruppo di studio di Rust](https://community.mozilla.org/events/gruppo-di-studio-di-rust-3/)
 
 ### North America
-* [June 30. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybcjbnc/)
 * [July 8. Atlanta, GA, US - Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybckblb/)
 * [July 9. Lehi, UT, US - Utah Rust - The Blue Pill: Rust on Microcontrollers](https://www.meetup.com/utah-rust/events/268567961/)
-
-### Asia Pacific
-* [July 6. Auckland, NZ - Rust AKL](https://www.meetup.com/rust-akl/events/266876691/)
+* [July 15. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybckbtb/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
