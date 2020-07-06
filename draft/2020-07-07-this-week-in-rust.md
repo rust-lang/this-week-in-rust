@@ -18,7 +18,9 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
+* [Writing Interpreters in Rust: a Guide](https://pliniker.github.io/post/rust-hosted-langs/)
 * [Bad Apple!! and how I wrote a Rust video player for Task Manager!!](https://www.azabani.com/2020/06/29/bad-apple-for-taskmgr.html)
+
 
 # Crate of the Week
 
