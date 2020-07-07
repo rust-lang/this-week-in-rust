@@ -20,6 +20,7 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 * [Ownership of the standard library implementation](https://blog.rust-lang.org/inside-rust/2020/07/02/Ownership-Std-Implementation.html)
 * [Announcing Rustup 1.22.0](https://blog.rust-lang.org/2020/07/06/Rustup-1.22.0.html)
+* [Compiler Team 2020-2021 Roadmap Meeting Minutes](https://rust-lang.github.io/compiler-team/minutes/design-meeting/2020-05-29-Roadmap-2020-2021/)
 * [Back to old tricks ..(or, baby steps in Rust)](https://donsbot.wordpress.com/2020/07/04/back-to-old-tricks-or-baby-steps-in-rust/)
 * [Small strings in Rust](https://fasterthanli.me/articles/small-strings-in-rust)
 * [Choosing a Rust web framework, 2020 edition](https://www.lpalmieri.com/posts/2020-07-04-choosing-a-rust-web-framework-2020-edition/)
@@ -41,6 +42,24 @@ Check out [this week's *This Week in Rust Podcast*]()
 * [Super hero Rust fuzzing](https://blog.firosolutions.com/2020/07/superhero-rust-fuzzing/)
 * [What Is a Dangling Pointer?](https://medium.com/swlh/what-is-a-dangling-pointer-2773d49cf86c)
 * [Simple Rocket Web Framework Tutorial | POST Request](https://frogtok.com/simple-rocket-web-framework-tutorial-part-2in/)
+* [Adventures of OS - System Calls](http://osblog.stephenmarz.com/ch7.html)
+* [Allocation API, Allocators and Virtual Memory](https://notes.iveselov.info/programming/allocation-api-and-allocators)
+* [Cargo [features] explained with examples](https://dev.to/rimutaka/cargo-features-explained-with-examples-194g)
+* [Concurrency Patterns in Embedded Rust](https://ferrous-systems.com/blog/embedded-concurrency-patterns/)
+* [Getting started with WebAssembly and Rust](https://blog.logrocket.com/getting-started-with-webassembly-and-rust/)
+* [How to Write a Stack in Rust](https://dev.to/virtualkirill/how-to-write-a-stack-in-rust-3d4o)
+* [Implementing WebSockets in Rust](http://subhojit777.in/implementing-websockets-in-rust/)
+* [RiB Newsletter #13 – Stuck inside, hacking away](https://www.reddit.com/r/rust/comments/hjorzv/rib_newsletter_13_stuck_inside_hacking_away/)
+* [rust-analyzer changelog 32](https://rust-analyzer.github.io/thisweek/2020/07/06/changelog-32.html)
+* [Rust for JavaScript Developers - Functions and Control Flow](http://www.sheshbabu.com/posts/rust-for-javascript-developers-functions-and-control-flow/)
+* [Rust: The New LLVM](https://willcrichton.net/notes/rust-the-new-llvm/)
+* [Using Rust and WebAssembly to Process Pixels from a Video Feed](https://dev.to/fallenstedt/using-rust-and-webassembly-to-process-pixels-from-a-video-feed-4hhg)
+* [WebAssembly with Rust and React (Using create-react-app)](https://dev.to/lokesh007/webassembly-with-rust-and-react-using-create-react-app-67)
+* [Portuguese] [Aprendendo Rust: 01 - Hello World](https://dev.to/pehdepano/aprendendo-rust-01-hello-world-35p4)
+* [audio] [Mun](https://rustacean-station.org/episode/020-mun/)
+* [audio] [Rust and machine learning #3 with Alec Mocatta (Ep. 109)](https://datascienceathome.com/rust-and-machine-learning-3-with-alec-mocatta-ep-109/)
+* [video] [Authentication Service in Actix - Part 1: Configuration](https://www.youtube.com/watch?v=AH2P7Vc0N9s)
+* [video] [Rust FLTK gui tutorial](https://www.youtube.com/watch?v=ygP4egJtmzw)
 
 # Crate of the Week
 
@@ -191,6 +210,7 @@ Email the [Rust Community Team][community] for access.
 
 * [Rust Developer at 1Password, Remote (US or Canada)](https://jobs.lever.co/1password/0623888f-0125-41b9-9902-eae8cfeae0c3)
 * [Security Engineer at 1Password, Remote (US or Canada)](https://jobs.lever.co/1password/23444f56-c83b-4c75-85cf-64305c335e78)
+* [Part-time Backend Engineer at Tagnifi, Remote (North America)](https://github.com/tagnifi/job-descriptions/issues/1)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
