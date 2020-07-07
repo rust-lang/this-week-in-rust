@@ -18,8 +18,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 ## News & Blog Posts
 
-* [Ownership of the standard library implementation](https://blog.rust-lang.org/inside-rust/2020/07/02/Ownership-Std-Implementation.html)
 * [Announcing Rustup 1.22.0](https://blog.rust-lang.org/2020/07/06/Rustup-1.22.0.html)
+* [Ownership of the standard library implementation](https://blog.rust-lang.org/inside-rust/2020/07/02/Ownership-Std-Implementation.html)
 * [Compiler Team 2020-2021 Roadmap Meeting Minutes](https://rust-lang.github.io/compiler-team/minutes/design-meeting/2020-05-29-Roadmap-2020-2021/)
 * [Back to old tricks ..(or, baby steps in Rust)](https://donsbot.wordpress.com/2020/07/04/back-to-old-tricks-or-baby-steps-in-rust/)
 * [Small strings in Rust](https://fasterthanli.me/articles/small-strings-in-rust)
@@ -49,7 +49,6 @@ Check out [this week's *This Week in Rust Podcast*]()
 * [Getting started with WebAssembly and Rust](https://blog.logrocket.com/getting-started-with-webassembly-and-rust/)
 * [How to Write a Stack in Rust](https://dev.to/virtualkirill/how-to-write-a-stack-in-rust-3d4o)
 * [Implementing WebSockets in Rust](http://subhojit777.in/implementing-websockets-in-rust/)
-* [RiB Newsletter #13 – Stuck inside, hacking away](https://www.reddit.com/r/rust/comments/hjorzv/rib_newsletter_13_stuck_inside_hacking_away/)
 * [rust-analyzer changelog 32](https://rust-analyzer.github.io/thisweek/2020/07/06/changelog-32.html)
 * [Rust for JavaScript Developers - Functions and Control Flow](http://www.sheshbabu.com/posts/rust-for-javascript-developers-functions-and-control-flow/)
 * [Rust: The New LLVM](https://willcrichton.net/notes/rust-the-new-llvm/)
