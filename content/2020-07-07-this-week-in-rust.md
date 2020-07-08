@@ -1,6 +1,6 @@
 Title: This Week in Rust 346
 Number: 346
-Date: 2020-07-07
+Date: 2020-07-08
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -12,7 +12,7 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-Check out [this week's *This Week in Rust Podcast*]()
+Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.org/episode/021-twir-346/)
 
 # Updates from Rust Community
 
