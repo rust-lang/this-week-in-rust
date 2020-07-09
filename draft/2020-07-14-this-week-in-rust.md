@@ -17,6 +17,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 # Updates from Rust Community
 
 ## News & Blog Posts
+- [Perspective on Moderation](https://www.reddit.com/r/rust/comments/hnfnti/where_is_the_rust_community_allowed_to_talk_about/fxf65nf/)
+
 
 # Crate of the Week
 
