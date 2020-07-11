@@ -17,6 +17,7 @@ Check out [this week's *This Week in Rust Podcast*]()
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Programming Servo: the bird’s-eyes view](https://medium.com/programming-servo/programming-servo-the-birds-eyes-view-201d28220b9a?source=friends_link&sk=b8610f254bf6faf8b81c81729c1b3498)
 
 # Crate of the Week
 
