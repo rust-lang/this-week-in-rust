@@ -43,7 +43,6 @@ Check out [this week's *This Week in Rust Podcast*]()
 * [video] [Two Sum Problem - Leet Code + Rust](https://www.youtube.com/watch?v=CMlHbAGkXjA&list=PLK_g1a_cAfaZuTXzDoQUAFEHCalKSCv9G&index=2)
 * [video] [Rust + WebAssembly - EdgeXR @ Netlight](https://www.youtube.com/watch?v=dmbqpg5BuBY)
 
-
 # Crate of the Week
 
 This week's crate is [suckit](https://github.com/skallwar/suckit), a tool to recursively download a website.
