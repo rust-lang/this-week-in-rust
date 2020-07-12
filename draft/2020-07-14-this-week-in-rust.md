@@ -60,7 +60,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-*No issues were proposed for CfP*.
+* [rust_gpiozero is looking for contributors](https://github.com/rahul-thakoor/rust_gpiozero/issues/11)
+
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -130,35 +131,30 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [RFC: Add a new `#[instruction_set(...)]` attribute for supporting per-function instruction set changes](https://github.com/rust-lang/rfcs/pull/2867)
-* [Inline `const` expressions and patterns](https://github.com/rust-lang/rfcs/pull/2920)
-* [Inline assembly](https://github.com/rust-lang/rfcs/pull/2873)
+*No RFCs are currently in the final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [stabilize const mem::forget](https://github.com/rust-lang/rust/pull/73887)
-* [disposition: merge] [Stabilize casts and coercions to `&[T]` in const fn](https://github.com/rust-lang/rust/pull/73862)
-* [disposition: merge] [mv std libs to std/](https://github.com/rust-lang/rust/pull/73265)
-* [disposition: merge] [Stabilize `transmute` in constants and statics but not const fn](https://github.com/rust-lang/rust/pull/72920)
-* [disposition: merge] [Stabilize const_type_id feature](https://github.com/rust-lang/rust/pull/72488)
-* [disposition: merge] [Accept tuple.0.0 as tuple indexing (take 2)](https://github.com/rust-lang/rust/pull/71322)
+* [disposition: merge] [Remove trait `LengthAtMost32`](https://github.com/rust-lang/rust/pull/74060)
+* [disposition: merge] [Stabilize control-flow-guard codegen option](https://github.com/rust-lang/rust/pull/73893)
+* [disposition: merge] [Impl Default for ranges](https://github.com/rust-lang/rust/pull/73197)
+* [disposition: merge] [Tracking issue for `core::{f32,f64}::consts::TAU` ](https://github.com/rust-lang/rust/issues/66770)
+
 
 ## New RFCs
 
-* [RFC: IndexGet and IndexSet](https://github.com/rust-lang/rfcs/pull/2953)
+* [Opt-in Stable Trait VTables](https://github.com/rust-lang/rfcs/pull/2955)
 
 # Upcoming Events
 
 ### Online
-* [July 9. Berlin, DE - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybckbmb/)
-* [July 9. San Diego, CA, US - July 2020 Tele-Meetup](https://www.meetup.com/San-Diego-Rust/events/271680644/)
-* [July 13. Seattle, WA, US - Seattle Rust Meetup - Monthly Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybckbsb/)
+* [July 14. Dallas, TX, US - Dallas Rust - Second Tuesday](https://www.meetup.com/Dallas-Rust/events/mzzfsrybckbsb/)
 * [July 16. Turin, IT - Rust Italia - Gruppo di studio di Rust](https://community.mozilla.org/events/gruppo-di-studio-di-rust-3/)
+* [July 27 - August 8. Rusty Days Virtual Rust Conference](https://rusty-days.org/)
 
 ### North America
-* [July 8. Atlanta, GA, US - Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybckblb/)
-* [July 9. Lehi, UT, US - Utah Rust - The Blue Pill: Rust on Microcontrollers](https://www.meetup.com/utah-rust/events/268567961/)
 * [July 15. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybckbtb/)
+* [July 27. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybckbkc/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
