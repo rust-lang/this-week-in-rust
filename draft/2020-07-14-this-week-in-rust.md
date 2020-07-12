@@ -62,7 +62,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [rust_gpiozero is looking for contributors](https://github.com/rahul-thakoor/rust_gpiozero/issues/11)
 
-
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -139,7 +138,6 @@ decision. Express your opinions now.
 * [disposition: merge] [Stabilize control-flow-guard codegen option](https://github.com/rust-lang/rust/pull/73893)
 * [disposition: merge] [Impl Default for ranges](https://github.com/rust-lang/rust/pull/73197)
 * [disposition: merge] [Tracking issue for `core::{f32,f64}::consts::TAU` ](https://github.com/rust-lang/rust/issues/66770)
-
 
 ## New RFCs
 
