@@ -21,6 +21,8 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 - [Faster Integer Parsing (Rust port)](https://rust-malaysia.github.io/code/2020/07/11/faster-integer-parsing.html)
 
+[Learning Rust: Let's Build a Parser](https://codeandbitters.com/lets-build-a-parser/)
+
 # Crate of the Week
 
 This week's crate is [suckit](https://github.com/skallwar/suckit), a tool to recursively download a website.
