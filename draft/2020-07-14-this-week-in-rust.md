@@ -17,8 +17,10 @@ Check out [this week's *This Week in Rust Podcast*]()
 # Updates from Rust Community
 
 ## News & Blog Posts
-- [Perspective on Moderation](https://www.reddit.com/r/rust/comments/hnfnti/where_is_the_rust_community_allowed_to_talk_about/fxf65nf/)
-
+* [Perspective on Rust Community Moderation](https://www.reddit.com/r/rust/comments/hnfnti/where_is_the_rust_community_allowed_to_talk_about/fxf65nf/)
+* [Programming Servo: the bird’s-eyes view](https://medium.com/programming-servo/programming-servo-the-birds-eyes-view-201d28220b9a?source=friends_link&sk=b8610f254bf6faf8b81c81729c1b3498)
+* [Faster Integer Parsing (Rust port)](https://rust-malaysia.github.io/code/2020/07/11/faster-integer-parsing.html)
+* [Learning Rust: Let's Build a Parser](https://codeandbitters.com/lets-build-a-parser/)
 
 # Crate of the Week
 
