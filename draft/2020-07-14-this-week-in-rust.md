@@ -17,10 +17,31 @@ Check out [this week's *This Week in Rust Podcast*]()
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Announcing Rustup 1.22.1](https://blog.rust-lang.org/2020/07/08/Rustup-1.22.1.html)
+* [Lang team design meeting: path to membership](https://blog.rust-lang.org/inside-rust/2020/07/09/lang-team-path-to-membership.html)
 * [Perspective on Rust Community Moderation](https://www.reddit.com/r/rust/comments/hnfnti/where_is_the_rust_community_allowed_to_talk_about/fxf65nf/)
 * [Programming Servo: the bird’s-eyes view](https://medium.com/programming-servo/programming-servo-the-birds-eyes-view-201d28220b9a?source=friends_link&sk=b8610f254bf6faf8b81c81729c1b3498)
 * [Faster Integer Parsing (Rust port)](https://rust-malaysia.github.io/code/2020/07/11/faster-integer-parsing.html)
 * [Learning Rust: Let's Build a Parser](https://codeandbitters.com/lets-build-a-parser/)
+* [nnnoiseless: porting audio code from C to rust](https://jneem.github.io/nnnoiseless/)
+* [The Soul of a New Debugger](https://nbaksalyar.github.io/2020/07/12/soul-of-a-new-debugger.html)
+* [String interners in Rust](https://dev.to/cad97/string-interners-in-rust-797)
+* [Target Feature vs Target CPU for Rust](https://www.nickwilcox.com/blog/target_cpu_vs_target_feature/)
+* [Rust and it's Orphan Rules](https://blog.mgattozzi.dev/orphan-rules/)
+* [Async Interview #8: Stjepan Glavina](https://smallcultfollowing.com/babysteps/blog/2020/07/09/async-interview-8-stjepan-glavina/)
+* [Using RabbitMQ in Rust](https://www.zupzup.org/rmq-in-rust/)
+* [Creating a custom target](https://rust-embedded.github.io/embedonomicon/custom-target.html)
+* [Statically Sized Higher-kinded Polymorphism](http://blog.ielliott.io/sized-hkts/)
+* [Getting in and out of trouble with Rust futures](https://fasterthanli.me/articles/getting-in-and-out-of-trouble-with-rust-futures)
+* [Rust Analyzer Changelog #33](https://rust-analyzer.github.io/thisweek/2020/07/13/changelog-33.html)
+* [IntelliJ Rust Changelog #126](https://intellij-rust.github.io/2020/07/13/changelog-126.html)
+* [This Month in Rust OSDev (June 2020)](https://rust-osdev.com/this-month/2020-06/)
+* [spanish] [Rust es orientado a objeto?](https://emanuelpeg.blogspot.com/2020/07/rust-es-orientado-objeto.html#.XwsegbMr_EQ.reddit)
+* [audio] [Fuzzing Rust with Shnatsel Podcast](https://medium.com/@social_62682/fuzzing-rust-with-shnatsel-podcast-e1fa0dbc28a)
+* [video] [Rust Loops Part 1: loop, break, continue](https://www.youtube.com/watch?v=zVX2qJFHDXA&feature=youtu.be)
+* [video] [Hitting A Bug in the Rust Compiler - While Writing A Boring Link Checker](https://www.youtube.com/watch?time_continue=4&v=DArJCR0HDL8&feature=emb_logo)
+* [video] [Two Sum Problem - Leet Code + Rust](https://www.youtube.com/watch?v=CMlHbAGkXjA&list=PLK_g1a_cAfaZuTXzDoQUAFEHCalKSCv9G&index=2)
+* [video] [Rust + WebAssembly - EdgeXR @ Netlight](https://www.youtube.com/watch?v=dmbqpg5BuBY)
 
 # Crate of the Week
 
@@ -147,6 +168,10 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Senior Software Engineer - Backend at LogDNA (Remote, US)](https://boards.greenhouse.io/logdna/jobs/4703358002)
+* [Senior Security Engineer (Remote, US)](https://boards.greenhouse.io/logdna/jobs/4702074002)
+* [dutch] [Vacature software engineer (Rust / Python) at Dreamsolution (Netherlands)](https://www.dreamsolution.nl/2020-07-03-vacature-rust-python-software-engineer.html)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
