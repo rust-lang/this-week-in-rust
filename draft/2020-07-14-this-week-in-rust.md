@@ -37,13 +37,13 @@ Check out [this week's *This Week in Rust Podcast*]()
 * [IntelliJ Rust Changelog #126](https://intellij-rust.github.io/2020/07/13/changelog-126.html)
 * [This Month in Rust OSDev (June 2020)](https://rust-osdev.com/this-month/2020-06/)
 * [Cross-compiling Rust from ARM to x86-64](https://burgers.io/cross-compile-rust-from-arm-to-x86-64)
+* [Geometric Constraint Solvers Part 1: Algebraic Expressions](http://adventures.michaelfbryan.com/posts/constraints-part-1-expressions/)
 * [spanish] [Rust es orientado a objeto?](https://emanuelpeg.blogspot.com/2020/07/rust-es-orientado-objeto.html#.XwsegbMr_EQ.reddit)
 * [audio] [Fuzzing Rust with Shnatsel Podcast](https://medium.com/@social_62682/fuzzing-rust-with-shnatsel-podcast-e1fa0dbc28a)
 * [video] [Rust Loops Part 1: loop, break, continue](https://www.youtube.com/watch?v=zVX2qJFHDXA&feature=youtu.be)
 * [video] [Hitting A Bug in the Rust Compiler - While Writing A Boring Link Checker](https://www.youtube.com/watch?time_continue=4&v=DArJCR0HDL8&feature=emb_logo)
 * [video] [Two Sum Problem - Leet Code + Rust](https://www.youtube.com/watch?v=CMlHbAGkXjA&list=PLK_g1a_cAfaZuTXzDoQUAFEHCalKSCv9G&index=2)
 * [video] [Rust + WebAssembly - EdgeXR @ Netlight](https://www.youtube.com/watch?v=dmbqpg5BuBY)
-* [Geometric Constraint Solvers Part 1: Algebraic Expressions](http://adventures.michaelfbryan.com/posts/constraints-part-1-expressions/)
 
 # Crate of the Week
 
