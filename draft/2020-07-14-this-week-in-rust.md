@@ -43,6 +43,7 @@ Check out [this week's *This Week in Rust Podcast*]()
 * [video] [Hitting A Bug in the Rust Compiler - While Writing A Boring Link Checker](https://www.youtube.com/watch?time_continue=4&v=DArJCR0HDL8&feature=emb_logo)
 * [video] [Two Sum Problem - Leet Code + Rust](https://www.youtube.com/watch?v=CMlHbAGkXjA&list=PLK_g1a_cAfaZuTXzDoQUAFEHCalKSCv9G&index=2)
 * [video] [Rust + WebAssembly - EdgeXR @ Netlight](https://www.youtube.com/watch?v=dmbqpg5BuBY)
+* [Geometric Constraint Solvers Part 1: Algebraic Expressions](http://adventures.michaelfbryan.com/posts/constraints-part-1-expressions/)
 
 # Crate of the Week
 
