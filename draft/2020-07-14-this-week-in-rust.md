@@ -63,9 +63,9 @@ Check out [this week's *This Week in Rust Podcast*]()
 
 # Crate of the Week
 
-This week's crate is [suckit](https://github.com/skallwar/suckit), a tool to recursively download a website.
+This week's crate is [nnnoiseless](https://jneem.github.io/nnnoiseless), a filter for audio noise removal ported from C.
 
-Thanks to [Martin Schmidt](https://users.rust-lang.org/t/crate-of-the-week/2704/786) for the suggestion!
+Thanks to [mmmmib](https://users.rust-lang.org/t/crate-of-the-week/2704/790) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -86,48 +86,24 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-308 pull requests were [merged in the last week][merged]
+273 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-06-29..2020-07-06
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-07-06..2020-07-13
 
-* [add `format_args_capture` feature](https://github.com/rust-lang/rust/pull/73670)
-* [don't implement Fn* traits for `#[target_feature]` functions](https://github.com/rust-lang/rust/pull/73306)
-* [fix wasm32 being broken due to a NodeJS version bump](https://github.com/rust-lang/rust/pull/73885)
-* [handle `macro_rules!` tokens consistently across crates](https://github.com/rust-lang/rust/pull/73569)
-* [implement `slice_strip` feature](https://github.com/rust-lang/rust/pull/73414)
-* [make `likely` and `unlikely` const, gated by feature `const_unlikely`](https://github.com/rust-lang/rust/pull/73778)
-* [optimise fast path of checked_ops with `unlikely`](https://github.com/rust-lang/rust/pull/73938)
-* [provide more information on duplicate lang item error.](https://github.com/rust-lang/rust/pull/73449)
-* [remove `TypeckTables::empty(None)` and make hir_owner non-optional.](https://github.com/rust-lang/rust/pull/73751)
-* [remove unnecessary release from Arc::try_unwrap](https://github.com/rust-lang/rust/pull/74025)
-* [serialize all foreign `SourceFile`s into proc-macro crate metadata](https://github.com/rust-lang/rust/pull/73706)
-* [stabilize `#[track_caller]`.](https://github.com/rust-lang/rust/pull/72445)
-* [use WASM's saturating casts if they are available](https://github.com/rust-lang/rust/pull/73724)
-* [use `Span`s to identify unreachable subpatterns in or-patterns](https://github.com/rust-lang/rust/pull/73973)
-* [Update the rust-lang/llvm-project submodule to include AVR fixes recently merged](https://github.com/rust-lang/rust/pull/73658)
-* [mir-opt: Fix mis-optimization and other issues with the SimplifyArmIdentity pass](https://github.com/rust-lang/rust/pull/73949)
-* [added `.collect()` into `String` from `Box<str>`](https://github.com/rust-lang/rust/pull/72688)
-* [impl `From<char>` for `String`](https://github.com/rust-lang/rust/pull/73466)
-* [linker: create `GNU_EH_FRAME` header by default when producing ELFs](https://github.com/rust-lang/rust/pull/73564)
-* [resolve: disallow labelled breaks/continues through closures/async blocks](https://github.com/rust-lang/rust/pull/73726)
-* [ship rust analyzer](https://github.com/rust-lang/rust/pull/72978)
-* [chalk: add type outlives goal](https://github.com/rust-lang/chalk/pull/551)
-* [chalk: allow printing lifetime placeholders](https://github.com/rust-lang/chalk/pull/557)
-* [chalk: support for ADTs](https://github.com/rust-lang/chalk/pull/524)
-* [hashbrown: add RawTable::erase and remove](https://github.com/rust-lang/hashbrown/pull/171)
-* [hashbrown: expose RawTable::try_with_capacity](https://github.com/rust-lang/hashbrown/pull/174)
-* [hashbrown: improve RawIter re-usability](https://github.com/rust-lang/hashbrown/pull/175)
-* [libc: add a bunch of constants and functions which were missing on Android](https://github.com/rust-lang/libc/pull/1795)
-* [libc: add more WASI libc definitions.](https://github.com/rust-lang/libc/pull/1811)
-* [libc: declare `seekdir` and `telldir` for WASI.](https://github.com/rust-lang/libc/pull/1804)
-* [stdarch: fix or equals integer comparisons](https://github.com/rust-lang/stdarch/pull/872)
-* [cargo: write GNU tar files, supporting long names.](https://github.com/rust-lang/cargo/pull/8453)
-* [crates.io: use default branch alias instead of "master"](https://github.com/rust-lang/crates.io/pull/2601)
-* [clippy: added restriction lint: pattern-type-mismatch](https://github.com/rust-lang/rust-clippy/pull/4841)
-* [clippy: suggest `Option::map_or`(`_else`) for `if let Some { y } else { x }`](https://github.com/rust-lang/rust-clippy/pull/5301)
-* [rustfmt: do not duplicate const keyword on parameters](https://github.com/rust-lang/rustfmt/pull/4294)
-* [rustfmt: do not remove fn headers (e.g., async) on extern fn items](https://github.com/rust-lang/rustfmt/pull/4291)
-* [rustfmt: pick up comments between trait where clause and open block](https://github.com/rust-lang/rustfmt/pull/4292)
+* [shrink `ParamEnv` to 16 bytes](https://github.com/rust-lang/rust/pull/73978)
+* [stabilize const `mem::forget`](https://github.com/rust-lang/rust/pull/73887)
+* [typeck: adding type information to projection](https://github.com/rust-lang/rust/pull/73870)
+* [clippy: some accuracy lints for floating point operations](https://github.com/rust-lang/rust-clippy/pull/5443)
+* [correctly mark the ending span of a match arm](https://github.com/rust-lang/rust/pull/74125)
+* [only allow `repr(i128/u128)` on enum](https://github.com/rust-lang/rust/pull/74109)
+* [hide `&mut self` methods from Deref in sidebar if there are no `DerefMut` impl for the type](https://github.com/rust-lang/rust/pull/74107)
+* [only add CFGuard on `windows-msvc` targets](https://github.com/rust-lang/rust/pull/74103)
+* [add `VecDeque::range*` methods](https://github.com/rust-lang/rust/pull/74099)
+* [add `read_exact_at` and `write_all_at` to WASI's `FileExt`](https://github.com/rust-lang/rust/pull/74076)
+* [clippy: new lint: `match_like_matches_macro`](https://github.com/rust-lang/rust-clippy/pull/5769)
+* [Optimize `is_ascii` for `str` and `[u8]`](https://github.com/rust-lang/rust/pull/74066)
+* [arch: added `f32` and `f64` unaligned stores and loads from avx512f set](https://github.com/rust-lang/stdarch/pull/873)
+* [hashbrown: add `HashSet::drain_filter` method](https://github.com/rust-lang/hashbrown/pull/179)
 
 ## Rust Compiler Performance Triage
 
@@ -192,11 +168,15 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Rust is like a futuristic laser gun with an almost AI-like foot detector that turns the safety on when it recognises your foot.
+> Ownership in Rust is entirely a type system fiction.
 
-– [u/goofbe on reddit](https://www.reddit.com/r/rust/comments/hiyfhq/linus_torvalds_the_kernel_team_is_looking_at/fwk12r6/)
+— dodomorandi
 
-Thanks to [Synek317](https://users.rust-lang.org/t/twir-quote-of-the-week/328/898) for the suggestions!
+> I'm not sure what is meant there. "ownership" in many languages is a very real thing to me.
+
+– and [ZiCog on rust-users](https://users.rust-lang.org/t/twir-quote-of-the-week/328/900)
+
+Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/903) for the suggestions!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
