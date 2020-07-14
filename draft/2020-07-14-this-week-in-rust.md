@@ -60,7 +60,6 @@ Check out [this week's *This Week in Rust Podcast*]()
 * [video] [Two Sum Problem - Leet Code + Rust](https://www.youtube.com/watch?v=CMlHbAGkXjA&list=PLK_g1a_cAfaZuTXzDoQUAFEHCalKSCv9G&index=2)
 * [video] [Rust + WebAssembly - EdgeXR @ Netlight](https://www.youtube.com/watch?v=dmbqpg5BuBY)
 * [video] [Rust Meetup - Adding WASM Support to a Native Application (GameDev Edition)](https://www.youtube.com/watch?v=7YQGwb4_AvA)
-* [video] [Async Interview #8: Stjepan Glavina](http://smallcultfollowing.com/babysteps/blog/2020/07/09/async-interview-8-stjepan-glavina/)
 
 # Crate of the Week
 
