@@ -37,6 +37,7 @@ Check out [this week's *This Week in Rust Podcast*]()
 * [IntelliJ Rust Changelog #126](https://intellij-rust.github.io/2020/07/13/changelog-126.html)
 * [This Month in Rust OSDev (June 2020)](https://rust-osdev.com/this-month/2020-06/)
 * [Cross-compiling Rust from ARM to x86-64](https://burgers.io/cross-compile-rust-from-arm-to-x86-64)
+* [Writing Rust NIFs for Elixir With Rustler](https://simplabs.com/blog/2020/06/25/writing-rust-nifs-for-elixir-with-rustler/)
 * [spanish] [Rust es orientado a objeto?](https://emanuelpeg.blogspot.com/2020/07/rust-es-orientado-objeto.html#.XwsegbMr_EQ.reddit)
 * [audio] [Fuzzing Rust with Shnatsel Podcast](https://medium.com/@social_62682/fuzzing-rust-with-shnatsel-podcast-e1fa0dbc28a)
 * [video] [Rust Loops Part 1: loop, break, continue](https://www.youtube.com/watch?v=zVX2qJFHDXA&feature=youtu.be)
@@ -165,7 +166,8 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Senior Software Engineer - Backend at LogDNA (Remote, US)](https://boards.greenhouse.io/logdna/jobs/4703358002)
-* [Senior Security Engineer (Remote, US)](https://boards.greenhouse.io/logdna/jobs/4702074002)
+* [Senior Security Engineer at LogDNA (Remote, US)](https://boards.greenhouse.io/logdna/jobs/4702074002)
+* [Rust Engineer at Elektron (Gothenburg, Sweden)](https://www.elektron.se/rust-engineer/)
 * [dutch] [Vacature software engineer (Rust / Python) at Dreamsolution (Netherlands)](https://www.dreamsolution.nl/2020-07-03-vacature-rust-python-software-engineer.html)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
