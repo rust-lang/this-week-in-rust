@@ -170,7 +170,7 @@ Email the [Rust Community Team][community] for access.
 
 > Ownership in Rust is entirely a type system fiction.
 
-— dodomorandi
+— RalfJung
 
 > I'm not sure what is meant there. "ownership" in many languages is a very real thing to me.
 
