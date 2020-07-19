@@ -18,6 +18,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ## News & Blog Posts
 
+* [Porting MJML to Rust](https://github.com/jdrouet/mrml)
+
 # Crate of the Week
 
 This week's crate is [nnnoiseless](https://jneem.github.io/nnnoiseless), a filter for audio noise removal ported from C.
