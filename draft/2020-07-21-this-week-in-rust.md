@@ -107,29 +107,34 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in the final comment period.*
+* [RFC: 'C unwind' ABI](https://github.com/rust-lang/rfcs/pull/2945)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Remove trait `LengthAtMost32`](https://github.com/rust-lang/rust/pull/74060)
-* [disposition: merge] [Stabilize control-flow-guard codegen option](https://github.com/rust-lang/rust/pull/73893)
-* [disposition: merge] [Impl Default for ranges](https://github.com/rust-lang/rust/pull/73197)
-* [disposition: merge] [Tracking issue for `core::{f32,f64}::consts::TAU` ](https://github.com/rust-lang/rust/issues/66770)
+* [disposition: merge] [Stabilize core::future::{pending,ready}](https://github.com/rust-lang/rust/pull/74328)
+* [disposition: merge] [Make more primitive integer methods const](https://github.com/rust-lang/rust/pull/73858)
+* [disposition: merge] [Derive common traits for panic::Location](https://github.com/rust-lang/rust/pull/73583)
 
 ## New RFCs
 
-* [Opt-in Stable Trait VTables](https://github.com/rust-lang/rfcs/pull/2955)
+* [Add `oneof` configuration predicate to support exclusive features](https://github.com/rust-lang/rfcs/pull/2962)
+* [RFC: Promote aarch64-unknown-linux-gnu to a Tier-1 Rust target](https://github.com/rust-lang/rfcs/pull/2959)
+* [Add Drop::poll_drop_ready for asynchronous destructors](https://github.com/rust-lang/rfcs/pull/2958)
+* [Stabilize Cargo's new feature resolver](https://github.com/rust-lang/rfcs/pull/2957)
+* [Add the partial-closure-args RFC](https://github.com/rust-lang/rfcs/pull/2956)
 
 # Upcoming Events
 
 ### Online
-* [July 14. Dallas, TX, US - Dallas Rust - Second Tuesday](https://www.meetup.com/Dallas-Rust/events/mzzfsrybckbsb/)
-* [July 16. Turin, IT - Rust Italia - Gruppo di studio di Rust](https://community.mozilla.org/events/gruppo-di-studio-di-rust-3/)
+* [July 23. Berlin, DE - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybckbfc/) 
 * [July 27 - August 8. Rusty Days Virtual Rust Conference](https://rusty-days.org/)
 
 ### North America
-* [July 15. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/qnrgnrybckbtb/)
 * [July 27. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybckbkc/)
+* [July 28. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybckblc/)
+
+### Asia Pacific
+* [August 3. Auckland, NZ - Rust ALK - Rust Meetup](https://www.meetup.com/rust-akl/events/266876693/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
