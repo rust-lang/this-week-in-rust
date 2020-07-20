@@ -59,7 +59,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [zbus is looking for contributors](https://gitlab.freedesktop.org/zeenix/zbus/-/issues)
 * [just: Add extensible recipe and justfile attributes](https://github.com/casey/just/issues/604)
-* [libnet: Segfault in icmp send](https://github.com/libpnet/libpnet/issues/449)
+* [libpnet: Segfault in icmp send](https://github.com/libpnet/libpnet/issues/449)
 * [rust: fs::remove_dir_all rarely succeeds for large directories on window](https://github.com/rust-lang/rust/issues/29497)
 
 
