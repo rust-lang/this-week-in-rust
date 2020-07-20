@@ -19,6 +19,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 ## News & Blog Posts
 * [Programming Servo: just hanging around](https://medium.com/programming-servo/programming-servo-just-hanging-around-d8f660c33df2?source=friends_link&sk=6efbf13743aec335bd11834c2df71783)
 
+* [Efficient representation of Ultimate Tic Tac Toe using Rust](https://www.minimax.dev/docs/ultimate/efficient-representation/)
+
 # Crate of the Week
 
 This week's crate is [nnnoiseless](https://jneem.github.io/nnnoiseless), a filter for audio noise removal ported from C.
