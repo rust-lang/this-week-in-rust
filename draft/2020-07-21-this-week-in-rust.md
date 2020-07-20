@@ -17,6 +17,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 # Updates from Rust Community
 
 ## News & Blog Posts
+* [Programming Servo: just hanging around](https://medium.com/programming-servo/programming-servo-just-hanging-around-d8f660c33df2?source=friends_link&sk=6efbf13743aec335bd11834c2df71783)
 
 # Crate of the Week
 
