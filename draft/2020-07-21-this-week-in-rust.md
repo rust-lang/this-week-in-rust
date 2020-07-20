@@ -18,7 +18,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ## News & Blog Posts
 
-* [Efficient representation of Ultimate Tic Tac Toe](https://www.minimax.dev/docs/ultimate/efficient-representation/) (using Rust)
+* [Efficient representation of Ultimate Tic Tac Toe using Rust](https://www.minimax.dev/docs/ultimate/efficient-representation/)
 
 # Crate of the Week
 
