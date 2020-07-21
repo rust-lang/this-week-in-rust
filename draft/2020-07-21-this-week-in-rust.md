@@ -36,6 +36,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [Packaging & Vending Production Rust Software - Windows](https://ebbflow.io/blog/vending-win)
 * [Async Rust, but less intimidating](https://dev.to/dotxlem/async-rust-but-less-intimidating-2c13)
 * [Rust Analyzer Changelog #34](https://rust-analyzer.github.io/thisweek/2020/07/20/changelog-34.html)
+* [Packaging & Vending Production Rust Software - Windows](https://ebbflow.io/blog/vending-win)
 * [portuguese] [video] [Curso Rust 🦀 - Aula 4 - strings, match, sorteio, quizz](https://www.twitch.tv/videos/681897847)
 * [video] [Boiled Down Crate 🦀: OnceCell](https://www.youtube.com/watch?v=YBG8QTO8fNI&feature=youtu.be)
 * [video] [Rust: What is Ownership and Borrowing](https://www.youtube.com/watch?v=79phqVpE7cU)
