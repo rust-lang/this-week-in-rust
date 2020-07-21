@@ -17,6 +17,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 # Updates from Rust Community
 
 ## News & Blog Posts
+
+* [crates.io security advisory](https://blog.rust-lang.org/2020/07/14/crates-io-security-advisory.html)
 * [Announcing Rust 1.45.0](https://blog.rust-lang.org/2020/07/16/Rust-1.45.0.html)
 * [Traits working group 2020 sprint 3 summary](https://blog.rust-lang.org/inside-rust/2020/07/17/traits-sprint-3.html)
 * [Learn how to make a Sokoban game in Rust!](https://sokoban.iolivia.me/c01-00-intro.html)
@@ -36,7 +38,26 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [Packaging & Vending Production Rust Software - Windows](https://ebbflow.io/blog/vending-win)
 * [Async Rust, but less intimidating](https://dev.to/dotxlem/async-rust-but-less-intimidating-2c13)
 * [Rust Analyzer Changelog #34](https://rust-analyzer.github.io/thisweek/2020/07/20/changelog-34.html)
-* [portuguese] [video] [Curso Rust 🦀 - Aula 4 - strings, match, sorteio, quizz](https://www.twitch.tv/videos/681897847)
+* [Benchmarking gRPC in Rust & Go](https://medium.com/@Rustling_gopher/benchmarking-grpc-in-rust-go-184545e7688a)
+* [Efficient Parsing of JSON Record Sets in Rust](https://dev.to/virtualkirill/how-to-write-a-queue-in-rust-12m9)
+* [Function Overloading in Rust](https://medium.com/swlh/function-overloading-in-rust-d591aff64a03)
+* [Geometric Constraint Solvers Part 1: Algebraic Expressions](http://adventures.michaelfbryan.com/posts/constraints-part-1-expressions/?utm_source=reddit&utm_medium=social&utm_campaign=constraint-solver-1-expression-trees)
+* [Haskell::From(Rust) I: Infix Notation and Currying](https://seanchen1991.github.io/posts/haskell-from-rust-i/)
+* [How to Write a Queue in Rust](https://dev.to/virtualkirill/how-to-write-a-queue-in-rust-12m9)
+* [Implementing a Workflow Graph](https://www.eltonpinto.me/blog/posts/implementing_flatmap_in_rust/)
+* [Implementing `flat_map` in Rust](https://www.eltonpinto.me/blog/posts/implementing_flatmap_in_rust/)
+* [IntelliJ Rust 0.3: New Macro Expansion Engine](https://blog.jetbrains.com/clion/2020/07/intellij-rust-0-3-new-macro-expansion-engine/)
+* [Low Level Stuff pt. 1 - Booting to 'Hello Rust!'](https://micouy.github.io/posts/low-level-pt-1/)
+* [My Bet on Rust has been Vindicated](https://nbsoftsolutions.com/blog/my-bet-on-rust-has-been-vindicated.html)
+* [The Next Steps for Single Ownership and RAII](https://vale.dev/blog/raii-next-steps)
+* [Popol: Minimal Non-Blocking I/O with Rust](https://cloudhead.io/popol/)
+* [Rust vs Go in Backend Web Development](https://qvault.io/2020/07/17/rust-vs-go-in-backend-web-development/)
+* [Shipping Const Generics in 2020](https://without.boats/blog/shipping-const-generics/)
+* [Two Beautiful Rust Programs](https://matklad.github.io//2020/07/15/two-beautiful-programs.html)
+* [Japanese] [TCPが遅すぎる？QUICを使おう！](https://medium.com/nttlabs/quic-with-rust-9cf9b44596ad)
+* [Spanish] [Rust para embebidos](https://dev.to/iddar/rust-para-embebidos-4agn)
+* [Portuguese] [Aprendendo Rust: 03 - Variáveis](https://dev.to/pehdepano/aprendendo-rust-03-variaveis-57a8)
+* [Portuguese] [video] [Curso Rust 🦀 - Aula 4 - strings, match, sorteio, quizz](https://www.twitch.tv/videos/681897847)
 * [video] [Boiled Down Crate 🦀: OnceCell](https://www.youtube.com/watch?v=YBG8QTO8fNI&feature=youtu.be)
 * [video] [Rust: What is Ownership and Borrowing](https://www.youtube.com/watch?v=79phqVpE7cU)
 
