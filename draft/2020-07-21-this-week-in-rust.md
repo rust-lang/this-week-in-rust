@@ -19,6 +19,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 ## News & Blog Posts
 * [Announcing Rust 1.45.0](https://blog.rust-lang.org/2020/07/16/Rust-1.45.0.html)
 * [Traits working group 2020 sprint 3 summary](https://blog.rust-lang.org/inside-rust/2020/07/17/traits-sprint-3.html)
+* [Best Programming Languages to Learn in 2020(Rust Lang)](https://frogtok.com/useful-and-best-programming-languages-to-learn-in-2020/)
 * [Learn how to make a Sokoban game in Rust!](https://sokoban.iolivia.me/c01-00-intro.html)
 * [Clear explanation of Rust’s module system](http://www.sheshbabu.com/posts/rust-module-system/)
 * [Checking status of Rust features](https://notes.iveselov.info/programming/checking-status-of-rust-features)
