@@ -45,7 +45,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [Geometric Constraint Solvers Part 1: Algebraic Expressions](http://adventures.michaelfbryan.com/posts/constraints-part-1-expressions/?utm_source=reddit&utm_medium=social&utm_campaign=constraint-solver-1-expression-trees)
 * [Haskell::From(Rust) I: Infix Notation and Currying](https://seanchen1991.github.io/posts/haskell-from-rust-i/)
 * [How to Write a Queue in Rust](https://dev.to/virtualkirill/how-to-write-a-queue-in-rust-12m9)
-* [Implementing a Workflow Graph](https://www.eltonpinto.me/blog/posts/implementing_flatmap_in_rust/)
+* [Implementing a Workflow Graph](https://milchdealer.github.io/2020/07/19/Implementing-a-workflow-graph.html)
 * [Implementing `flat_map` in Rust](https://www.eltonpinto.me/blog/posts/implementing_flatmap_in_rust/)
 * [IntelliJ Rust 0.3: New Macro Expansion Engine](https://blog.jetbrains.com/clion/2020/07/intellij-rust-0-3-new-macro-expansion-engine/)
 * [Low Level Stuff pt. 1 - Booting to 'Hello Rust!'](https://micouy.github.io/posts/low-level-pt-1/)
