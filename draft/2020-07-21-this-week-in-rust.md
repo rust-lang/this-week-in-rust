@@ -64,9 +64,9 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 # Crate of the Week
 
-This week's crate is [nnnoiseless](https://jneem.github.io/nnnoiseless), a filter for audio noise removal ported from C.
+This week's crate is [pre](https://github.com/aticu/pre), a library for declaring and checking the assurance of precondition, useful for unsafe functions.
 
-Thanks to [mmmmib](https://users.rust-lang.org/t/crate-of-the-week/2704/790) for the suggestion!
+Thanks to [Zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/792) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -91,24 +91,33 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-273 pull requests were [merged in the last week][merged]
+394 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-07-06..2020-07-13
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-07-13..2020-07-20
 
-* [shrink `ParamEnv` to 16 bytes](https://github.com/rust-lang/rust/pull/73978)
-* [stabilize const `mem::forget`](https://github.com/rust-lang/rust/pull/73887)
-* [typeck: adding type information to projection](https://github.com/rust-lang/rust/pull/73870)
-* [clippy: some accuracy lints for floating point operations](https://github.com/rust-lang/rust-clippy/pull/5443)
-* [correctly mark the ending span of a match arm](https://github.com/rust-lang/rust/pull/74125)
-* [only allow `repr(i128/u128)` on enum](https://github.com/rust-lang/rust/pull/74109)
-* [hide `&mut self` methods from Deref in sidebar if there are no `DerefMut` impl for the type](https://github.com/rust-lang/rust/pull/74107)
-* [only add CFGuard on `windows-msvc` targets](https://github.com/rust-lang/rust/pull/74103)
-* [add `VecDeque::range*` methods](https://github.com/rust-lang/rust/pull/74099)
-* [add `read_exact_at` and `write_all_at` to WASI's `FileExt`](https://github.com/rust-lang/rust/pull/74076)
-* [clippy: new lint: `match_like_matches_macro`](https://github.com/rust-lang/rust-clippy/pull/5769)
-* [Optimize `is_ascii` for `str` and `[u8]`](https://github.com/rust-lang/rust/pull/74066)
-* [arch: added `f32` and `f64` unaligned stores and loads from avx512f set](https://github.com/rust-lang/stdarch/pull/873)
-* [hashbrown: add `HashSet::drain_filter` method](https://github.com/rust-lang/hashbrown/pull/179)
+* [do not try fetching the ancestors of errored trait impls](https://github.com/rust-lang/rust/pull/74516)
+* [only skip impls of foreign unstable traits](https://github.com/rust-lang/rust/pull/74534)
+* [don't assign `()` to `!` MIR locals](https://github.com/rust-lang/rust/pull/74411)
+* [some `Symbol` related improvements](https://github.com/rust-lang/rust/pull/74357)
+* [use `ArrayVec` in `SparseBitSet`](https://github.com/rust-lang/rust/pull/74310)
+* [change `SymbolName::name` to a `&str`](https://github.com/rust-lang/rust/pull/74214)
+* [enforce the static symbol order](https://github.com/rust-lang/rust/pull/74203)
+* [reduce the amount of interning and `layout_of` calls in const eval](https://github.com/rust-lang/rust/pull/74202)
+* [add `Arguments::as_str()`](https://github.com/rust-lang/rust/pull/74056)
+* [`impl Index<RangeFrom> for CStr`](https://github.com/rust-lang/rust/pull/74021)
+* [add (unchecked) indexing methods to raw (and NonNull) slices](https://github.com/rust-lang/rust/pull/73986)
+* [make some `Option` methods const](https://github.com/rust-lang/rust/pull/73930)
+* [use `step_unchecked` more liberally in range iter impls](https://github.com/rust-lang/rust/pull/73490)
+* [add `core::task::ready!` macro](https://github.com/rust-lang/rust/pull/70817)
+* [backtrace: use noop backends on Miri](https://github.com/rust-lang/backtrace-rs/pull/360)
+* [stdarch: update and revamp wasm32 SIMD intrinsics](https://github.com/rust-lang/stdarch/pull/874)
+* [stdarch: implement AVX512f floating point comparisons](https://github.com/rust-lang/stdarch/pull/869)
+* [stdarch: constify all x86 `rustc_args_required_const` intrinsics](https://github.com/rust-lang/stdarch/pull/876)
+* [make `unreachable_unchecked` a const fn](https://github.com/rust-lang/rust/pull/74459)
+* [cargo: fix freshness checks for build scripts on renamed dirs](https://github.com/rust-lang/cargo/pull/8497)
+* [crates.io: generate API tokens with a secure RNG, store hashed](https://github.com/rust-lang/crates.io/pull/2637)
+* [add Ayu theme to rustdoc](https://github.com/rust-lang/rust/pull/71237)
+* [clippy: `unnecessary_sort_by`: avoid linting if key borrows](https://github.com/rust-lang/rust-clippy/pull/5756)
 
 ## Rust Compiler Performance Triage
 
@@ -183,13 +192,9 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Ownership in Rust is entirely a type system fiction.
+> `unsafe` Rust is all about flirting with UB but never giving in.
 
-— dodomorandi
-
-> I'm not sure what is meant there. "ownership" in many languages is a very real thing to me.
-
-– and [ZiCog on rust-users](https://users.rust-lang.org/t/twir-quote-of-the-week/328/900)
+– [Ralf Jung on Zulip](https://rust-lang.zulipchat.com/#narrow/stream/136281-t-lang.2Fwg-unsafe-code-guidelines/topic/Language.20UB.20vs.20library.20UB/near/204212193)
 
 Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/903) for the suggestions!
 
