@@ -111,6 +111,7 @@ decision. Express your opinions now.
 ### Online
 * [July 23. Berlin, DE - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybckbfc/) 
 * [July 27 - August 2. Rusty Days Virtual Rust Conference](https://rusty-days.org/)
+* [August 6, Rust Meetup Linz](https://www.meetup.com/de-DE/Rust-Linz/events/271857182/)
 
 ### North America
 * [July 27. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybckbkc/)
