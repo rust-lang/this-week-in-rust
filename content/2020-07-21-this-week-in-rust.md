@@ -39,7 +39,6 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [Packaging & Vending Production Rust Software - Windows](https://ebbflow.io/blog/vending-win)
 * [Async Rust, but less intimidating](https://dev.to/dotxlem/async-rust-but-less-intimidating-2c13)
 * [Rust Analyzer Changelog #34](https://rust-analyzer.github.io/thisweek/2020/07/20/changelog-34.html)
-* [Benchmarking gRPC in Rust & Go](https://medium.com/@Rustling_gopher/benchmarking-grpc-in-rust-go-184545e7688a)
 * [How to write a Queue in Rust](https://dev.to/virtualkirill/how-to-write-a-queue-in-rust-12m9)
 * [Function Overloading in Rust](https://medium.com/swlh/function-overloading-in-rust-d591aff64a03)
 * [Geometric Constraint Solvers Part 1: Algebraic Expressions](http://adventures.michaelfbryan.com/posts/constraints-part-1-expressions/?utm_source=reddit&utm_medium=social&utm_campaign=constraint-solver-1-expression-trees)
