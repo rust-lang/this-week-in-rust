@@ -18,6 +18,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ## News & Blog Posts
 
+* [This July in my Database project written in Rust](https://alex-dukhno.github.io/2020-07-26-This-July-in-my-Database-project-written-in-rust/)
+
 # Crate of the Week
 
 This week's crate is [pre](https://github.com/aticu/pre), a library for declaring and checking the assurance of precondition, useful for unsafe functions.
