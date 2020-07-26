@@ -29,7 +29,7 @@ Thanks to [Zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/792) fo
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
 # Call for Participation
-
+[Rust Hashmaps]:(https://frogtok.com/very-simple-guide-to-rust-hashmaps/)
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
