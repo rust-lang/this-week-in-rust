@@ -17,15 +17,15 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 # Updates from Rust Community
 
 ## News & Blog Posts
+
+* [Tutorial for Tokio and async Rust](https://tokio.rs/tokio/tutorial)
 * [An introduction to Data-Oriented Design in Rust](http://jamesmcm.github.io/blog/2020/07/25/intro-dod/#en)
 * [Sizedness in Rust](https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md)
 * [Async/Await for AVR with Rust](https://lights0123.com/blog/2020/07/25/async-await-for-avr-with-rust/)
 * [Learning Rust by Converting Python to Rust](https://towardsdatascience.com/learning-rust-by-converting-python-to-rust-259e735591c6)
-* [French] [Video] [Développement Web Rust & Rocket](https://www.youtube.com/playlist?list=PLMWEEzYqZ0ekOG6_G4q_GXPpVHWrIH--x)
-
 * [This July in my Database project written in Rust](https://alex-dukhno.github.io/2020-07-26-This-July-in-my-Database-project-written-in-rust/)
-
 * [Writing a file system from scratch in Rust](https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html)
+* [French] [Video] [Développement Web Rust & Rocket](https://www.youtube.com/playlist?list=PLMWEEzYqZ0ekOG6_G4q_GXPpVHWrIH--x)
 
 # Crate of the Week
 
