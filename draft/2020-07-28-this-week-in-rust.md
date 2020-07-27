@@ -23,7 +23,6 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [Opening up the Core Team agenda](https://blog.rust-lang.org/inside-rust/2020/07/27/opening-up-the-core-team-agenda.html)
 * [Rust's CI is moving to GitHub Actions](https://blog.rust-lang.org/inside-rust/2020/07/23/rust-ci-is-moving-to-github-actions.html)
 
-
 ### Tutorials
 
 * [Tutorial for Tokio and async Rust](https://tokio.rs/tokio/tutorial)
@@ -189,7 +188,6 @@ Email the [Rust Community Team][community] for access.
 * [Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
 * [Backend Engineer - Data Processing - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/246f7fd2-000a-4f61-8f53-b1cc783d51cb)
 * [Senior Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
-
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
