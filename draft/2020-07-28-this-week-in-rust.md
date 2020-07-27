@@ -18,6 +18,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ## News & Blog Posts
 
+* [Learning Rust by Converting Python to Rust](https://towardsdatascience.com/learning-rust-by-converting-python-to-rust-259e735591c6)
 * [French] [Video] [Développement Web Rust & Rocket](https://www.youtube.com/playlist?list=PLMWEEzYqZ0ekOG6_G4q_GXPpVHWrIH--x)
 
 # Crate of the Week
@@ -113,6 +114,7 @@ decision. Express your opinions now.
 ### Online
 * [July 23. Berlin, DE - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybckbfc/) 
 * [July 27 - August 2. Rusty Days Virtual Rust Conference](https://rusty-days.org/)
+* [August 6, Rust Meetup Linz](https://www.meetup.com/de-DE/Rust-Linz/events/271857182/)
 
 ### North America
 * [July 27. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybckbkc/)
