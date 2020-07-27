@@ -40,7 +40,6 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [Async Rust, but less intimidating](https://dev.to/dotxlem/async-rust-but-less-intimidating-2c13)
 * [Rust Analyzer Changelog #34](https://rust-analyzer.github.io/thisweek/2020/07/20/changelog-34.html)
 * [Benchmarking gRPC in Rust & Go](https://medium.com/@Rustling_gopher/benchmarking-grpc-in-rust-go-184545e7688a)
-* [How to write a Queue in Rust](https://dev.to/virtualkirill/how-to-write-a-queue-in-rust-12m9)
 * [Function Overloading in Rust](https://medium.com/swlh/function-overloading-in-rust-d591aff64a03)
 * [Geometric Constraint Solvers Part 1: Algebraic Expressions](http://adventures.michaelfbryan.com/posts/constraints-part-1-expressions/?utm_source=reddit&utm_medium=social&utm_campaign=constraint-solver-1-expression-trees)
 * [Haskell::From(Rust) I: Infix Notation and Currying](https://seanchen1991.github.io/posts/haskell-from-rust-i/)
@@ -202,4 +201,4 @@ Thanks to [HeroicKatora](https://users.rust-lang.org/t/twir-quote-of-the-week/32
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/hvjf4i/this_week_in_rust_348/)small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/hvjf4i/this_week_in_rust_348/)</small>
