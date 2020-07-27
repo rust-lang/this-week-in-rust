@@ -18,14 +18,59 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ## News & Blog Posts
 
+### Offical Rust Announcements
+
+* [Opening up the Core Team agenda](https://blog.rust-lang.org/inside-rust/2020/07/27/opening-up-the-core-team-agenda.html)
+* [Rust's CI is moving to GitHub Actions](https://blog.rust-lang.org/inside-rust/2020/07/23/rust-ci-is-moving-to-github-actions.html)
+
+
+### Tutorials
+
 * [Tutorial for Tokio and async Rust](https://tokio.rs/tokio/tutorial)
 * [An introduction to Data-Oriented Design in Rust](http://jamesmcm.github.io/blog/2020/07/25/intro-dod/#en)
-* [Sizedness in Rust](https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md)
-* [Async/Await for AVR with Rust](https://lights0123.com/blog/2020/07/25/async-await-for-avr-with-rust/)
-* [Learning Rust by Converting Python to Rust](https://towardsdatascience.com/learning-rust-by-converting-python-to-rust-259e735591c6)
-* [This July in my Database project written in Rust](https://alex-dukhno.github.io/2020-07-26-This-July-in-my-Database-project-written-in-rust/)
 * [Writing a file system from scratch in Rust](https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html)
-* [French] [Video] [Développement Web Rust & Rocket](https://www.youtube.com/playlist?list=PLMWEEzYqZ0ekOG6_G4q_GXPpVHWrIH--x)
+* [(A Few) Advanced Variable Types in Rust](https://rust.graystorm.com/2020/07/20/a-few-advanced-variable-types-in-rust/)
+* [Sizedness in Rust](https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md)
+* [Rust Explained using Easy English](https://github.com/Dhghomon/easy_rust)
+
+### Rust and Other Programming Languages
+
+* [Performance Comparison: Rust vs PyO3 vs Python](https://medium.com/the-innovation/performance-comparison-rust-vs-pyo3-vs-python-6480709be8d)
+* [Learning Rust by Converting Python to Rust](https://towardsdatascience.com/learning-rust-by-converting-python-to-rust-259e735591c6)
+* [Optimising Rust: Clockwise Triangles](https://wapl.es/rust/2020/07/25/optimising-with-cmp-and-ordering.html)
+
+### Embedded
+
+* [Async/Await for AVR with Rust](https://lights0123.com/blog/2020/07/25/async-await-for-avr-with-rust/)
+
+### Game Dev
+
+* [Making a Game in 48 hours with Rust and WebAssembly](https://ianjk.com/rust-gamejam/)
+
+### Project Updates
+
+* [This July in my Database project written in Rust](https://alex-dukhno.github.io/2020-07-26-This-July-in-my-Database-project-written-in-rust/)
+* [Rust Analyzer Changelog #35](https://rust-analyzer.github.io/thisweek/2020/07/27/changelog-35.html)
+* [IntelliJ Rust Changelog #127](https://intellij-rust.github.io/2020/07/27/changelog-127.html)
+
+### Distributed Computing
+
+* [Compile time CUDA device checking in Rust](https://m-decoster.github.io/2020/07/24/compile-time-cuda/)
+* [Under the hood of Linkerd's state-of-the-art Rust proxy, Linkerd2-proxy](https://linkerd.io/2020/07/23/under-the-hood-of-linkerds-state-of-the-art-rust-proxy-linkerd2-proxy/)
+
+### Rust Journeys and Reflections
+* [Giving Rust Another Shot in 2020](https://sharpend.io/giving-rust-another-shot-in-2020/)
+
+### Videos
+
+* [video] [Utility AI (with Rust example) - How-To](https://www.youtube.com/watch?v=M0Sx_M61ILU&feature=youtu.be)
+* [video] [Writing A Guide to Slice Data in Rust](https://www.twitch.tv/videos/691303613)
+* [video] [Learning Rust GameDev Patterns](https://www.twitch.tv/videos/691311447)
+* [video] [Run any web container for free on Google CloudRun (example in rust/warp)](https://www.youtube.com/watch?v=SMTVwISbQtE)
+* [video] [Technologieplauscherl: Memory Ownership in C# and Rust](https://www.youtube.com/watch?v=20GNFE0462w)
+* [video] [FLTK Rust Tutorial: Create a media player using the vlc crate](https://www.youtube.com/watch?time_continue=289&v=enxqU3bhCEs&feature=emb_logo)
+* [french] [video] [Développement Web Rust & Rocket](https://www.youtube.com/playlist?list=PLMWEEzYqZ0ekOG6_G4q_GXPpVHWrIH--x)
+* [portuguese] [video] [Hoje sai o data tables em RUST](https://www.twitch.tv/videos/688423082)
 
 # Crate of the Week
 
@@ -120,6 +165,7 @@ decision. Express your opinions now.
 ### Online
 * [July 23. Berlin, DE - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybckbfc/)
 * [July 27 - August 2. Rusty Days Virtual Rust Conference](https://rusty-days.org/)
+* [July 30. Dat Conference - "Hypercore Protocol in Rust"](https://events.dat.foundation/2020/talk/ax9xwj/)
 * [August 6, Rust Meetup Linz](https://www.meetup.com/de-DE/Rust-Linz/events/271857182/)
 
 ### North America
@@ -137,6 +183,13 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Software Engineer Backend (m/f/d) Rust at Snapview GmbH ( München, DE)](https://stackoverflow.com/jobs/415671/software-engineer-backend-m-f-d-rust-snapview-gmbh)
+* [Backend Engineer at Spruce (Remote)](https://docs.google.com/document/d/1ZrvfGtgVGh63ezpiaerc95SFR64cGU4ftBJENczdvAs)
+* [Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer - Data Processing - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/246f7fd2-000a-4f61-8f53-b1cc783d51cb)
+* [Senior Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
+
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
