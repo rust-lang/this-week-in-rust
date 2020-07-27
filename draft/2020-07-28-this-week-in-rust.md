@@ -19,6 +19,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 ## News & Blog Posts
 
 * [Tutorial for Tokio and async Rust](https://tokio.rs/tokio/tutorial)
+* [Learning Rust by Converting Python to Rust](https://towardsdatascience.com/learning-rust-by-converting-python-to-rust-259e735591c6)
 
 # Crate of the Week
 
