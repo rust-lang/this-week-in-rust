@@ -26,6 +26,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [This July in my Database project written in Rust](https://alex-dukhno.github.io/2020-07-26-This-July-in-my-Database-project-written-in-rust/)
 * [Writing a file system from scratch in Rust](https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html)
 * [French] [Video] [Développement Web Rust & Rocket](https://www.youtube.com/playlist?list=PLMWEEzYqZ0ekOG6_G4q_GXPpVHWrIH--x)
+* [Analyzing terabytes of GitHub Archive data with Rusoto and Serde](https://matthewkmayer.github.io/blag/public/post/rusty-von-humboldt/)
 
 # Crate of the Week
 
