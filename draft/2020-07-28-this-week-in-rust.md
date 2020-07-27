@@ -25,6 +25,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 * [This July in my Database project written in Rust](https://alex-dukhno.github.io/2020-07-26-This-July-in-my-Database-project-written-in-rust/)
 
+* [Writing a file system from scratch in Rust](https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html)
+
 # Crate of the Week
 
 This week's crate is [pre](https://github.com/aticu/pre), a library for declaring and checking the assurance of precondition, useful for unsafe functions.
@@ -116,7 +118,7 @@ decision. Express your opinions now.
 # Upcoming Events
 
 ### Online
-* [July 23. Berlin, DE - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybckbfc/) 
+* [July 23. Berlin, DE - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybckbfc/)
 * [July 27 - August 2. Rusty Days Virtual Rust Conference](https://rusty-days.org/)
 * [August 6, Rust Meetup Linz](https://www.meetup.com/de-DE/Rust-Linz/events/271857182/)
 
