@@ -192,7 +192,6 @@ decision. Express your opinions now.
 ### Asia Pacific
 * [August 3. Auckland, NZ - Rust ALK - Rust Meetup](https://www.meetup.com/rust-akl/events/266876693/)
 
-
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
 Email the [Rust Community Team][community] for access.
