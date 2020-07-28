@@ -42,6 +42,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [An introduction to Data-Oriented Design in Rust](http://jamesmcm.github.io/blog/2020/07/25/intro-dod/#en)
 * [Learning Rust by Converting Python to Rust](https://towardsdatascience.com/learning-rust-by-converting-python-to-rust-259e735591c6)
 * [Writing a file system from scratch in Rust](https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html)
+* [Analyzing terabytes of GitHub Archive data with Rusoto and Serde](https://matthewkmayer.github.io/blag/public/post/rusty-von-humboldt/)
 * [Sizedness in Rust](https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md)
 * [This July in my Database project written in Rust](https://alex-dukhno.github.io/2020-07-26-This-July-in-my-Database-project-written-in-rust/)
 * [Cell, RefCell, and Interior Mutability in Rust](https://badboi.dev/rust/2020/07/17/cell-refcell.html)
