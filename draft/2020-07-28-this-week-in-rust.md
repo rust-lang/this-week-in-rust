@@ -16,17 +16,17 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 # Updates from Rust Community
 
-## Official
+### Official
 
 * [Opening up the Core Team agenda](https://blog.rust-lang.org/inside-rust/2020/07/27/opening-up-the-core-team-agenda.html)
 * [Rust's CI is Moving to GitHub Actions](https://blog.rust-lang.org/inside-rust/2020/07/23/rust-ci-is-moving-to-github-actions.html)
 
-## Tooling
+### Tooling
 
 * [IntelliJ Rust Changelog #127](https://intellij-rust.github.io/2020/07/27/changelog-127.html)
 * [Rust Analyzer Changelog #35](https://rust-analyzer.github.io/thisweek/2020/07/27/changelog-35.html)
 
-## Observations/Thoughts
+### Observations/Thoughts
 
 * [An Inside Look at the Rust Programming Language](https://about.gitlab.com/blog/2020/07/21/rust-programming-language/)
 * [Notes on A Smaller Rust](https://without.boats/blog/notes-on-a-smaller-rust/)
@@ -34,7 +34,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [Why the Rust Module System Might Be Hard to Understand](https://dev.to/dotxlem/why-the-rust-module-system-might-be-hard-to-understand-2l)
 * [Giving Rust Another Shot in 2020](https://sharpend.io/giving-rust-another-shot-in-2020/)
 
-## Learn
+### Learn
 
 * [(A Few) Advanced Variable Types in Rust](https://rust.graystorm.com/2020/07/20/a-few-advanced-variable-types-in-rust/)
 * [Tutorial for Tokio and async Rust](https://tokio.rs/tokio/tutorial)
@@ -61,14 +61,14 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [video] [Rust at Speed - Building A Fast Concurrent Database](https://youtu.be/s19G6n0UjsM)
 * [FR] [video] [Développement Web Rust & Rocket](https://www.youtube.com/playlist?list=PLMWEEzYqZ0ekOG6_G4q_GXPpVHWrIH--x)
 
-## Project Updates
+### Project Updates
 
 * [Ballista Distributed Compute: One Year Later](https://andygrove.io/2020/07/ballista-one-year-on/)
 * [Cross-compiling to Redox using Nix](https://www.redox-os.org/news/redox-plus-nix-0/)
 * [Public Announcement: You Can Now Debug Programs Using GDB on Redox OS](https://www.redox-os.org/news/public-announcement-gdb/)
 * [Rocket Can Now Compile on Stable Rust](https://www.reddit.com/r/rust/comments/hviz2q/rocket_can_now_compile_on_stable_rust/)
 
-## Miscallaneous
+### Miscallaneous
 
 * [ANSSI - Programming Rules to Develop Secure Applications with Rust](https://www.ssi.gouv.fr/uploads/2020/06/anssi-guide-programming_rules_to_develop_secure_applications_with_rust-v1.0.pdf)
 * [Rust is now a top 20 language in all of the 5 most major language popularity listings](https://www.reddit.com/r/rust/comments/hz7dfp/rust_is_now_a_top_20_language_in_all_of_the_5/)
