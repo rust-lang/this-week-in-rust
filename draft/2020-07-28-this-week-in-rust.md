@@ -104,6 +104,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+*No issues were proposed for CfP*.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -149,7 +150,8 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [Inline assembly](https://github.com/rust-lang/rfcs/pull/2873)
+* [Add a new `#[instruction_set(...)]` attribute for supporting per-function instruction set changes](https://github.com/rust-lang/rfcs/pull/2867)
 
 ## Final Comment Period
 
@@ -163,31 +165,33 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize core::future::{pending,ready}](https://github.com/rust-lang/rust/pull/74328)
-* [disposition: merge] [Make more primitive integer methods const](https://github.com/rust-lang/rust/pull/73858)
-* [disposition: merge] [Derive common traits for panic::Location](https://github.com/rust-lang/rust/pull/73583)
+* [disposition: merge] [Stabilize Vec::leak as a method](https://github.com/rust-lang/rust/pull/74605)
+* [disposition: merge] [add `slice::array_chunks` to std](https://github.com/rust-lang/rust/pull/74373)
 
 ## New RFCs
 
-* [Add `oneof` configuration predicate to support exclusive features](https://github.com/rust-lang/rfcs/pull/2962)
-* [RFC: Promote aarch64-unknown-linux-gnu to a Tier-1 Rust target](https://github.com/rust-lang/rfcs/pull/2959)
-* [Add Drop::poll_drop_ready for asynchronous destructors](https://github.com/rust-lang/rfcs/pull/2958)
-* [Stabilize Cargo's new feature resolver](https://github.com/rust-lang/rfcs/pull/2957)
-* [Add the partial-closure-args RFC](https://github.com/rust-lang/rfcs/pull/2956)
+* [RFC: Add JSON backend to Rustdoc](https://github.com/rust-lang/rfcs/pull/2963)
+* [RFC: Named arguments](https://github.com/rust-lang/rfcs/pull/2964)
+* [Establish a new error handling project group](https://github.com/rust-lang/rfcs/pull/2965)
 
 # Upcoming Events
 
 ### Online
-* [July 23. Berlin, DE - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybckbfc/)
 * [July 27 - August 2. Rusty Days Virtual Rust Conference](https://rusty-days.org/)
-* [August 6, Rust Meetup Linz](https://www.meetup.com/de-DE/Rust-Linz/events/271857182/)
+* [August 5. Johannesburg, ZA - Johannesburg Rust Meetup - Monthly Joburg Rust Chat](https://www.meetup.com/Johannesburg-Rust-Meetup/events/271875886/)
+* [August 5. Dublin, IE - Rust Dublin - August Remote Meetup](https://www.meetup.com/Rust-Dublin/events/272162980/)
+* [August 5. Buffalo, NY, US - Buffalo Rust Meetup - Rust User Group](https://www.meetup.com/Buffalo-Rust-Meetup/events/271511557/)
+* [August 5. Indianapolis, IN, US - Indy Rust - Indy.rs with Social Distancing](https://www.meetup.com/indyrs/events/jhfstrybclbhb/)
+* [August 6. Linz, AT - Rust Meetup Linz - Kick Off](https://www.meetup.com/de-DE/Rust-Linz/events/271857182/)
+* [August 6. Berlin, DE - Berline.rs - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybclbjb/)
+* [August 11. Seattle, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybclbpb/)
 
 ### North America
-* [July 27. Durham, NC, US - Triangle Rustaceans - Project Night & Lightning Talks](https://www.meetup.com/triangle-rustaceans/events/mfglwpybckbkc/)
 * [July 28. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybckblc/)
 
 ### Asia Pacific
 * [August 3. Auckland, NZ - Rust ALK - Rust Meetup](https://www.meetup.com/rust-akl/events/266876693/)
+
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
