@@ -68,7 +68,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [Public Announcement: You Can Now Debug Programs Using GDB on Redox OS](https://www.redox-os.org/news/public-announcement-gdb/)
 * [Rocket Can Now Compile on Stable Rust](https://www.reddit.com/r/rust/comments/hviz2q/rocket_can_now_compile_on_stable_rust/)
 
-### Miscallaneous
+### Miscellaneous
 
 * [ANSSI - Programming Rules to Develop Secure Applications with Rust](https://www.ssi.gouv.fr/uploads/2020/06/anssi-guide-programming_rules_to_develop_secure_applications_with_rust-v1.0.pdf)
 * [Rust is now a top 20 language in all of the 5 most major language popularity listings](https://www.reddit.com/r/rust/comments/hz7dfp/rust_is_now_a_top_20_language_in_all_of_the_5/)
