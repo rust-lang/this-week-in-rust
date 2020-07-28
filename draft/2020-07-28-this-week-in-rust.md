@@ -36,6 +36,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Learn
 
+* [Rust Explained using Easy English](https://github.com/Dhghomon/easy_rust)
 * [(A Few) Advanced Variable Types in Rust](https://rust.graystorm.com/2020/07/20/a-few-advanced-variable-types-in-rust/)
 * [Tutorial for Tokio and async Rust](https://tokio.rs/tokio/tutorial)
 * [An introduction to Data-Oriented Design in Rust](http://jamesmcm.github.io/blog/2020/07/25/intro-dod/#en)
@@ -56,10 +57,18 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [Parallel Stream Processing with Rayon](https://morestina.net/blog/1432/parallel-stream-processing-with-rayon)
 * [Compile Time CUDA Device Checking in Rust](https://m-decoster.github.io/2020/07/24/compile-time-cuda/)
 * [Async/Await for AVR with Rust](https://lights0123.com/blog/2020/07/25/async-await-for-avr-with-rust/)
+* [Making a Game in 48 hours with Rust and WebAssembly](https://ianjk.com/rust-gamejam/)
 * [PT] [Aprendendo Rust: 04 - Comentários, documentação e tipos de variáveis primitivas](https://dev.to/pehdepano/aprendendo-rust-04-comentarios-documentacao-e-tipos-de-variaveis-primitivas-1jb6)
 * [UK] [Пошук в глибину на прикладі задачі Ханойської вежі](https://dev.to/yaroslavpodorvanov/-3n3b)
+* [video] [Utility AI (with Rust example) - How-To](https://www.youtube.com/watch?v=M0Sx_M61ILU&feature=youtu.be)
+* [video] [Writing A Guide to Slice Data in Rust](https://www.twitch.tv/videos/691303613)
+* [video] [Learning Rust GameDev Patterns](https://www.twitch.tv/videos/691311447)
+* [video] [Run any web container for free on Google CloudRun (example in rust/warp)](https://www.youtube.com/watch?v=SMTVwISbQtE)
+* [video] [Technologieplauscherl: Memory Ownership in C# and Rust](https://www.youtube.com/watch?v=20GNFE0462w)
+* [video] [FLTK Rust Tutorial: Create a media player using the vlc crate](https://www.youtube.com/watch?time_continue=289&v=enxqU3bhCEs&feature=emb_logo)
 * [video] [Rust at Speed - Building A Fast Concurrent Database](https://youtu.be/s19G6n0UjsM)
 * [FR] [video] [Développement Web Rust & Rocket](https://www.youtube.com/playlist?list=PLMWEEzYqZ0ekOG6_G4q_GXPpVHWrIH--x)
+* [PT] [video] [Hoje sai o data tables em RUST](https://www.twitch.tv/videos/688423082)
 
 ### Project Updates
 
@@ -73,6 +82,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [ANSSI - Programming Rules to Develop Secure Applications with Rust](https://www.ssi.gouv.fr/uploads/2020/06/anssi-guide-programming_rules_to_develop_secure_applications_with_rust-v1.0.pdf)
 * [Rust is now a top 20 language in all of the 5 most major language popularity listings](https://www.reddit.com/r/rust/comments/hz7dfp/rust_is_now_a_top_20_language_in_all_of_the_5/)
 * [Under the Hood of Linkerd's State of the Art Rust Proxy, Linkerd2-proxy](https://linkerd.io/2020/07/23/under-the-hood-of-linkerds-state-of-the-art-rust-proxy-linkerd2-proxy/)
+* [Performance Comparison: Rust vs PyO3 vs Python](https://medium.com/the-innovation/performance-comparison-rust-vs-pyo3-vs-python-6480709be8d)
+* [Optimising Rust: Clockwise Triangles](https://wapl.es/rust/2020/07/25/optimising-with-cmp-and-ordering.html)
 
 # Crate of the Week
 
@@ -185,6 +196,12 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Software Engineer Backend (m/f/d) Rust at Snapview GmbH ( München, DE)](https://stackoverflow.com/jobs/415671/software-engineer-backend-m-f-d-rust-snapview-gmbh)
+* [Backend Engineer at Spruce (Remote)](https://docs.google.com/document/d/1ZrvfGtgVGh63ezpiaerc95SFR64cGU4ftBJENczdvAs)
+* [Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer - Data Processing - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/246f7fd2-000a-4f61-8f53-b1cc783d51cb)
+* [Senior Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
@@ -199,4 +216,4 @@ Thanks to [HeroicKatora](https://users.rust-lang.org/t/twir-quote-of-the-week/32
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/hvjf4i/this_week_in_rust_348/)small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/hvjf4i/this_week_in_rust_348/)</small>
