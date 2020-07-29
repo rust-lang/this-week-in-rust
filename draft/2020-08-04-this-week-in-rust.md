@@ -24,6 +24,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Learn
 
+* [How to use the Rust compiler as your integration testing framework](https://blog.logrocket.com/using-the-rust-compiler-as-your-integration-testing-framework/)
+
 ### Project Updates
 
 ### Miscellaneous
