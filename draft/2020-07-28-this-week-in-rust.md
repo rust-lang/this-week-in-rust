@@ -89,9 +89,9 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 # Crate of the Week
 
-This week's crate is [pre](https://github.com/aticu/pre), a library for declaring and checking the assurance of precondition, useful for unsafe functions.
+This week's crate is [polyfuse](https://github.com/ubnt-intrepid/polyfuse), a library for writing FUSE file systems using async code.
 
-Thanks to [Zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/792) for the suggestion!
+Thanks to [Ivan Kozik](https://users.rust-lang.org/t/crate-of-the-week/2704/795) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -112,33 +112,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-394 pull requests were [merged in the last week][merged]
+347 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-07-13..2020-07-20
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-07-20..2020-07-27
 
-* [do not try fetching the ancestors of errored trait impls](https://github.com/rust-lang/rust/pull/74516)
-* [only skip impls of foreign unstable traits](https://github.com/rust-lang/rust/pull/74534)
-* [don't assign `()` to `!` MIR locals](https://github.com/rust-lang/rust/pull/74411)
-* [some `Symbol` related improvements](https://github.com/rust-lang/rust/pull/74357)
-* [use `ArrayVec` in `SparseBitSet`](https://github.com/rust-lang/rust/pull/74310)
-* [change `SymbolName::name` to a `&str`](https://github.com/rust-lang/rust/pull/74214)
-* [enforce the static symbol order](https://github.com/rust-lang/rust/pull/74203)
-* [reduce the amount of interning and `layout_of` calls in const eval](https://github.com/rust-lang/rust/pull/74202)
-* [add `Arguments::as_str()`](https://github.com/rust-lang/rust/pull/74056)
-* [`impl Index<RangeFrom> for CStr`](https://github.com/rust-lang/rust/pull/74021)
-* [add (unchecked) indexing methods to raw (and NonNull) slices](https://github.com/rust-lang/rust/pull/73986)
-* [make some `Option` methods const](https://github.com/rust-lang/rust/pull/73930)
-* [use `step_unchecked` more liberally in range iter impls](https://github.com/rust-lang/rust/pull/73490)
-* [add `core::task::ready!` macro](https://github.com/rust-lang/rust/pull/70817)
-* [backtrace: use noop backends on Miri](https://github.com/rust-lang/backtrace-rs/pull/360)
-* [stdarch: update and revamp wasm32 SIMD intrinsics](https://github.com/rust-lang/stdarch/pull/874)
-* [stdarch: implement AVX512f floating point comparisons](https://github.com/rust-lang/stdarch/pull/869)
-* [stdarch: constify all x86 `rustc_args_required_const` intrinsics](https://github.com/rust-lang/stdarch/pull/876)
-* [make `unreachable_unchecked` a const fn](https://github.com/rust-lang/rust/pull/74459)
-* [cargo: fix freshness checks for build scripts on renamed dirs](https://github.com/rust-lang/cargo/pull/8497)
-* [crates.io: generate API tokens with a secure RNG, store hashed](https://github.com/rust-lang/crates.io/pull/2637)
-* [add Ayu theme to rustdoc](https://github.com/rust-lang/rust/pull/71237)
-* [clippy: `unnecessary_sort_by`: avoid linting if key borrows](https://github.com/rust-lang/rust-clippy/pull/5756)
+* [AVR: correctly set the pointer address space when constructing pointers to functions](https://github.com/rust-lang/rust/pull/73270)
+* [detect turbofish missing surrounding angle brackets](https://github.com/rust-lang/rust/pull/74687)
+* [serialize span hygiene data](https://github.com/rust-lang/rust/pull/72121)
+* [proc_macro: add API for tracked access to environment variables](https://github.com/rust-lang/rust/pull/74653)
+* [correctly deal with unsorted generic parameters](https://github.com/rust-lang/rust/pull/74676)
+* [normalize bounds fully when checking defaulted types](https://github.com/rust-lang/rust/pull/74670)
+* [disallow non-static lifetimes in const generics](https://github.com/rust-lang/rust/pull/74051)
+* [forbid generic parameters in anon consts inside of type defaults](https://github.com/rust-lang/rust/pull/74487)
+* [add a system for creating diffs across multiple mir optimizations](https://github.com/rust-lang/rust/pull/74715)
+* [optimize away `BitAnd` and `BitOr` when possible](https://github.com/rust-lang/rust/pull/74491)
+* [make more primitive integer methods const](https://github.com/rust-lang/rust/pull/73858)
+* [impl Default for ranges](https://github.com/rust-lang/rust/pull/73197)
+* [remove needless unsafety from `BTreeMap::drain_filter`](https://github.com/rust-lang/rust/pull/74677)
+* [hashbrown: refactor probing logic into an external iterator](https://github.com/rust-lang/hashbrown/pull/181)
+* [rustlings: add ability to run rustlings on repl.it](https://github.com/rust-lang/rustlings/pull/471)
 
 ## Rust Compiler Performance Triage
 
@@ -211,11 +203,7 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> `unsafe` Rust is all about flirting with UB but never giving in.
-
-– [Ralf Jung on Zulip](https://rust-lang.zulipchat.com/#narrow/stream/136281-t-lang.2Fwg-unsafe-code-guidelines/topic/Language.20UB.20vs.20library.20UB/near/204212193)
-
-Thanks to [HeroicKatora](https://users.rust-lang.org/t/twir-quote-of-the-week/328/913) for the suggestions!
+Sadly, we had no quote suggestions this week.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
