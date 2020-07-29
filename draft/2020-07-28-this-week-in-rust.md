@@ -12,7 +12,7 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.org/episode/023-twir-348/)
+Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-station.org/file/rustacean-station/twir-2020-07-28.mp3)
 
 # Updates from Rust Community
 
@@ -198,6 +198,7 @@ Email the [Rust Community Team][community] for access.
 * [Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
 * [Backend Engineer - Data Processing - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/246f7fd2-000a-4f61-8f53-b1cc783d51cb)
 * [Senior Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
+* [Front End Engineer at Solana](https://solana.com/frontend-eng-jd.pdf)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
