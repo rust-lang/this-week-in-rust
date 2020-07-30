@@ -36,6 +36,7 @@ Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-stat
 
 ### Learn
 
+* [Very Simple Guide to Rust Hashmaps | 2020](https://frogtok.com/very-simple-guide-to-rust-hashmaps/)
 * [Rust Explained using Easy English](https://github.com/Dhghomon/easy_rust)
 * [(A Few) Advanced Variable Types in Rust](https://rust.graystorm.com/2020/07/20/a-few-advanced-variable-types-in-rust/)
 * [Tutorial for Tokio and async Rust](https://tokio.rs/tokio/tutorial)
