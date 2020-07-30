@@ -24,6 +24,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Learn
 
+* [Blue Team Rust: What is "Memory Safety", really?](https://tiemoko.com/blog/blue-team-rust/)
+
 ### Project Updates
 
 ### Miscellaneous
