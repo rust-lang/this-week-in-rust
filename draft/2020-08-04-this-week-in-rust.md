@@ -27,6 +27,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 ### Project Updates
 
 ### Miscellaneous
+* [Cute tricks for SIMD vectorized binary encoding and decoding of nucleotides in Rust](https://github.com/Daniel-Liu-c0deb0t/cute-nucleotides)
 
 # Crate of the Week
 
