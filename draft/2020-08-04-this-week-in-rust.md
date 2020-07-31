@@ -24,6 +24,9 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Learn
 
+* [A Comprehensive Tutorial to Rust Operators for Beginners](https://towardsdatascience.com/a-comprehensive-tutorial-to-rust-operators-for-beginners-11554b2c64d4)
+* [What You Should Know About Unsigned, Signed Integers and Casting in Rust](https://towardsdatascience.com/unsinged-signed-integers-and-casting-in-rust-9a847bfc398f)
+
 ### Project Updates
 
 ### Miscellaneous
