@@ -23,6 +23,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 ### Observations/Thoughts
 
 ### Learn
+* [Rust Hashmaps Tutorial](https://frogtok.com/very-simple-guide-to-rust-hashmaps/)
 
 ### Project Updates
 
