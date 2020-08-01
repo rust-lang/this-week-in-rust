@@ -26,6 +26,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Project Updates
 
+* [meli terminal mail client v0.6.0 alpha release](https://meli.delivery/posts/2020-07-29-v0.6-alpha-release.html)
+
 ### Miscellaneous
 
 # Crate of the Week
