@@ -26,6 +26,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Project Updates
 
+* [FUI - A new Rust MVVM GUI Framework](https://github.com/marek-g/rust-fui)
+
 ### Miscellaneous
 
 # Crate of the Week
