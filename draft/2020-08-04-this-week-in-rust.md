@@ -26,6 +26,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Project Updates
 
+- [Rust Language Cheat Sheet 2019 -> 2020](https://github.com/ralfbiedert/cheats.rs/issues/100)
+
 ### Miscellaneous
 
 # Crate of the Week
