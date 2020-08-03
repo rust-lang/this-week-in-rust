@@ -24,6 +24,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Learn
 
+* [Memory safety in Rust - part 2](https://hashrust.com/blog/memory-safety-in-rust-part-2/)
+
 ### Project Updates
 
 ### Miscellaneous
