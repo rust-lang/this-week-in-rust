@@ -32,6 +32,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Miscellaneous
 
+* [Video recording technology at RustFest](https://estada.ch/2020/7/30/video-recording-technology-at-rustfest/)
+
 # Crate of the Week
 
 This week's crate is [polyfuse](https://github.com/ubnt-intrepid/polyfuse), a library for writing FUSE file systems using async code.
