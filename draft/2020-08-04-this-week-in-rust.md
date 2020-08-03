@@ -17,12 +17,23 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 # Updates from Rust Community
 
 ### Official
+* [Announcing Rust 1.45.1](https://blog.rust-lang.org/2020/07/30/Rust-1.45.1.html)
+* [Announcing Rust 1.45.2](https://blog.rust-lang.org/2020/08/03/Rust-1.45.2.html)
 
 ### Tooling
+* [Rust Analyzer Changelog #36](https://www.reddit.com/r/rust/comments/i2wic3/rustanalyzer_changelog_36/)
+* [IntelliJ Rust: Updates for the 2020.2 Release](https://blog.jetbrains.com/clion/2020/08/intellij-rust-updates-for-the-2020-2-release/)
+* [Headcrab: July 2020 progress report](https://headcrab.rs/2020/07/31/july-update.html)
+
+### Newsletters
+* [This Month in Rust OSDev (July 2020)](https://rust-osdev.com/this-month/2020-07/)
 
 ### Observations/Thoughts
 
 ### Learn
+* [Learning Rust: Mindsets and Expectations](https://ferrous-systems.com/blog/mindsets-and-expectations/)
+* [Understanding the Rust borrow checker](https://blog.logrocket.com/introducing-the-rust-borrow-checker/)
+* [Beginner's guide to Error Handling in Rust](http://www.sheshbabu.com/posts/rust-error-handling/)
 * [Rust Hashmaps Tutorial](https://frogtok.com/very-simple-guide-to-rust-hashmaps/)
 * [Blue Team Rust: What is "Memory Safety", really?](https://tiemoko.com/blog/blue-team-rust/)
 * [How to use the Rust compiler as your integration testing framework](https://blog.logrocket.com/using-the-rust-compiler-as-your-integration-testing-framework/)
@@ -31,6 +42,17 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [Memory safety in Rust - part 2](https://hashrust.com/blog/memory-safety-in-rust-part-2/)
 * [A gentle introduction to assembly with rust](https://lfn3.net/2020/08/03/a-gentle-intro-to-assembly-with-rust/)
 * [Creating Linux Packages for Rust Projects (1/2)](https://ebbflow.io/blog/vending-linux-1)
+* [Prevent Breaking Code Changes in Future Releases using `non exhaustive` enums in Rust](https://blog.knoldus.com/prevent-breaking-code-changes-in-future-releases-using-non-exhaustive-enums-in-rust/)
+* [Operating System development tutorials in Rust on the Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials#operating-system-development-tutorials-in-rust-on-the-raspberry-pi)
+* [Reverse Engineering a USB Device with Rust](https://gill.net.in/posts/reverse-engineering-a-usb-device-with-rust/)
+* [A Heaping Helping of Stacks](https://deislabs.io/posts/a-heaping-helping-of-stacks/)
+* [A Simple Crud on Rust (With Rocket.rs and Diesel.rs)](https://medium.com/swlh/a-simple-crud-on-rust-with-rocket-rs-and-diesel-rs-e885672cb23d)
+* [Some Learnings from Implementing a Normalizing Rust Representer](https://seanchen1991.github.io/posts/rust-representer/)
+* [Countdown problem in Rust](https://amitdev.github.io/posts/2020-07-27-countdown-rust/)
+* [video][Learning Rust by Working Through the Rustlings Exercises](https://egghead.io/playlists/learning-rust-by-solving-the-rustlings-exercises-a722)
+* [video][Hypercore Protocol in Rust](https://www.youtube.com/watch?v=2JCblJf9hFg&list=PL7sG5SCUNyeYx8wnfMOUpsh7rM_g0w_cu)
+* [video][Reasonable Coding 030 - HotStuff, a composable, no-nonsense document compiler (part 1)](https://www.youtube.com/watch?v=kURv5ZbkEss)
+* [video][Rusty Days 2020 - all videos](https://www.youtube.com/playlist?list=PLf3u8NhoEikhTC5radGrmmqdkOK-xMDoZ)
 
 ### Project Updates
 
@@ -39,6 +61,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 ### Miscellaneous
 
 * [Video recording technology at RustFest](https://estada.ch/2020/7/30/video-recording-technology-at-rustfest/)
+* [audio][The State of Rust 2 with Alex Chrichton](https://anchor.fm/the-virtual-world/episodes/Ep-7--The-State-of-Rust-2-with-Alex-Crichton-ehjpsq)
+* [audio][The State of Rust with Steve Klabnik](https://anchor.fm/the-virtual-world/episodes/Ep-6--The-State-of-Rust-with-Steve-Klabnik-ehf8mk)
 
 # Crate of the Week
 
