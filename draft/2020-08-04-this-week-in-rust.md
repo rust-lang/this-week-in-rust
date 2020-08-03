@@ -81,6 +81,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+*No issues were proposed for CfP*.
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -117,8 +119,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Inline assembly](https://github.com/rust-lang/rfcs/pull/2873)
-* [Add a new `#[instruction_set(...)]` attribute for supporting per-function instruction set changes](https://github.com/rust-lang/rfcs/pull/2867)
+* [RFC: 'C unwind' ABI](https://github.com/rust-lang/rfcs/pull/2945)
 
 ## Final Comment Period
 
@@ -128,23 +129,20 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [RFC: 'C unwind' ABI](https://github.com/rust-lang/rfcs/pull/2945)
+*No RFCs are currently in the final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize Vec::leak as a method](https://github.com/rust-lang/rust/pull/74605)
-* [disposition: merge] [add `slice::array_chunks` to std](https://github.com/rust-lang/rust/pull/74373)
+*No Tracking Issues or PRs are currently in the final comment period.*
 
 ## New RFCs
 
-* [RFC: Add JSON backend to Rustdoc](https://github.com/rust-lang/rfcs/pull/2963)
-* [RFC: Named arguments](https://github.com/rust-lang/rfcs/pull/2964)
-* [Establish a new error handling project group](https://github.com/rust-lang/rfcs/pull/2965)
+* [Procedural vtables and wide ptr metadata](https://github.com/rust-lang/rfcs/pull/2967)
+* [Edition 2021 and beyond](https://github.com/rust-lang/rfcs/pull/2966)
 
 # Upcoming Events
 
 ### Online
-* [July 27 - August 2. Rusty Days Virtual Rust Conference](https://rusty-days.org/)
 * [August 5. Johannesburg, ZA - Johannesburg Rust Meetup - Monthly Joburg Rust Chat](https://www.meetup.com/Johannesburg-Rust-Meetup/events/271875886/)
 * [August 5. Dublin, IE - Rust Dublin - August Remote Meetup](https://www.meetup.com/Rust-Dublin/events/272162980/)
 * [August 5. Buffalo, NY, US - Buffalo Rust Meetup - Rust User Group](https://www.meetup.com/Buffalo-Rust-Meetup/events/271511557/)
@@ -153,12 +151,12 @@ decision. Express your opinions now.
 * [August 6. Berlin, DE - Berline.rs - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybclbjb/)
 * [August 11. Seattle, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybclbpb/)
 * [August 11. Saarbrücken, DE - Rust-Saar Meetup `3u16`](https://www.meetup.com/Rust-Saar/events/272044845/)
+* [August 13. San Diego, CA, US - San Diego Rust - August 2020 Tele-Meetup](https://www.meetup.com/San-Diego-Rust/events/272060817/)
 
 ### North America
-* [July 28. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybckblc/)
+* [August 13. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybclbrb/)
 
 ### Asia Pacific
-* [August 3. Auckland, NZ - Rust ALK - Rust Meetup](https://www.meetup.com/rust-akl/events/266876693/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
