@@ -24,6 +24,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Learn
 
+* [A gentle introduction to assembly with rust](https://lfn3.net/2020/08/03/a-gentle-intro-to-assembly-with-rust/)
+
 ### Project Updates
 
 ### Miscellaneous
