@@ -35,6 +35,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 * [A gentle introduction to assembly with rust](https://lfn3.net/2020/08/03/a-gentle-intro-to-assembly-with-rust/)
 
+* [Creating Linux Packages for Rust Projects (1/2)](https://ebbflow.io/blog/vending-linux-1)
+
 ### Project Updates
 
 - [Rust Language Cheat Sheet 2019 -> 2020](https://github.com/ralfbiedert/cheats.rs/issues/100)
