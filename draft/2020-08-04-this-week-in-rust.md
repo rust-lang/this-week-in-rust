@@ -28,6 +28,9 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [Blue Team Rust: What is "Memory Safety", really?](https://tiemoko.com/blog/blue-team-rust/)
 * [How to use the Rust compiler as your integration testing framework](https://blog.logrocket.com/using-the-rust-compiler-as-your-integration-testing-framework/)
 
+* [A Comprehensive Tutorial to Rust Operators for Beginners](https://towardsdatascience.com/a-comprehensive-tutorial-to-rust-operators-for-beginners-11554b2c64d4)
+* [What You Should Know About Unsigned, Signed Integers and Casting in Rust](https://towardsdatascience.com/unsinged-signed-integers-and-casting-in-rust-9a847bfc398f)
+
 ### Project Updates
 
 ### Miscellaneous
