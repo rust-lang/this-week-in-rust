@@ -24,6 +24,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Learn
 
+* [Blue Team Rust: What is "Memory Safety", really?](https://tiemoko.com/blog/blue-team-rust/)
 * [How to use the Rust compiler as your integration testing framework](https://blog.logrocket.com/using-the-rust-compiler-as-your-integration-testing-framework/)
 
 ### Project Updates
