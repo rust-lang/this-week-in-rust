@@ -33,6 +33,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Project Updates
 
+- [Rust Language Cheat Sheet 2019 -> 2020](https://github.com/ralfbiedert/cheats.rs/issues/100)
+
 ### Miscellaneous
 
 * [Video recording technology at RustFest](https://estada.ch/2020/7/30/video-recording-technology-at-rustfest/)
