@@ -54,6 +54,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [video][Hypercore Protocol in Rust](https://www.youtube.com/watch?v=2JCblJf9hFg&list=PL7sG5SCUNyeYx8wnfMOUpsh7rM_g0w_cu)
 * [video][Reasonable Coding 030 - HotStuff, a composable, no-nonsense document compiler (part 1)](https://www.youtube.com/watch?v=kURv5ZbkEss)
 * [video][Rusty Days 2020 - all videos](https://www.youtube.com/playlist?list=PLf3u8NhoEikhTC5radGrmmqdkOK-xMDoZ)
+* [video][Learn Rust Today](https://learnrust.today)
 
 ### Project Updates
 
