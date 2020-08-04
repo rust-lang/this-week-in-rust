@@ -66,9 +66,9 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 # Crate of the Week
 
-This week's crate is [polyfuse](https://github.com/ubnt-intrepid/polyfuse), a library for writing FUSE file systems using async code.
+This week's crate is [partial-io](https://lib.rs/crates/partial-io), a set of helpers to test partial, interrupted and would-block I/O operations.
 
-Thanks to [Ivan Kozik](https://users.rust-lang.org/t/crate-of-the-week/2704/795) for the suggestion!
+Thanks to [Kornel](https://users.rust-lang.org/t/crate-of-the-week/2704/796) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -89,25 +89,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-347 pull requests were [merged in the last week][merged]
+326 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-07-20..2020-07-27
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-07-27..2020-08-03
 
-* [AVR: correctly set the pointer address space when constructing pointers to functions](https://github.com/rust-lang/rust/pull/73270)
-* [detect turbofish missing surrounding angle brackets](https://github.com/rust-lang/rust/pull/74687)
-* [serialize span hygiene data](https://github.com/rust-lang/rust/pull/72121)
-* [proc_macro: add API for tracked access to environment variables](https://github.com/rust-lang/rust/pull/74653)
-* [correctly deal with unsorted generic parameters](https://github.com/rust-lang/rust/pull/74676)
-* [normalize bounds fully when checking defaulted types](https://github.com/rust-lang/rust/pull/74670)
-* [disallow non-static lifetimes in const generics](https://github.com/rust-lang/rust/pull/74051)
-* [forbid generic parameters in anon consts inside of type defaults](https://github.com/rust-lang/rust/pull/74487)
-* [add a system for creating diffs across multiple mir optimizations](https://github.com/rust-lang/rust/pull/74715)
-* [optimize away `BitAnd` and `BitOr` when possible](https://github.com/rust-lang/rust/pull/74491)
-* [make more primitive integer methods const](https://github.com/rust-lang/rust/pull/73858)
-* [impl Default for ranges](https://github.com/rust-lang/rust/pull/73197)
-* [remove needless unsafety from `BTreeMap::drain_filter`](https://github.com/rust-lang/rust/pull/74677)
-* [hashbrown: refactor probing logic into an external iterator](https://github.com/rust-lang/hashbrown/pull/181)
-* [rustlings: add ability to run rustlings on repl.it](https://github.com/rust-lang/rustlings/pull/471)
+* [suppress debuginfo on naked function arguments](https://github.com/rust-lang/rust/pull/74105)
+* [normalize all opaque types when converting `ParamEnv` to `Reveal::All`](https://github.com/rust-lang/rust/pull/65989)
+* [ensure stack when type checking and building MIR for large if expressions](https://github.com/rust-lang/rust/pull/74708)
+* [replace a recursive algorithm with an iterative one](https://github.com/rust-lang/rust/pull/74983)
+* [fix `#[track_caller]` shims for trait objects](https://github.com/rust-lang/rust/pull/74784)
+* [make closures and generators `must_use` types](https://github.com/rust-lang/rust/pull/74869)
+* [`BTreeMap::drain_filter` should not touch the root during iteration](https://github.com/rust-lang/rust/pull/74762)
+* [add `str::`(`r`)`split_once`](https://github.com/rust-lang/rust/pull/74707)
+* [add `Vec::spare_capacity_mut`](https://github.com/rust-lang/rust/pull/75015)
+* [add `slice::array_chunks`](https://github.com/rust-lang/rust/pull/74373)
+* [stabilize `const_type_id`](https://github.com/rust-lang/rust/pull/72488)
+* [stabilize `Vec::leak` as a method](https://github.com/rust-lang/rust/pull/74605)
+* [stabilize `Result::as_deref` and `as_deref_mut`](https://github.com/rust-lang/rust/pull/74948)
+* [make `Option::unwrap` unstably const](https://github.com/rust-lang/rust/pull/74956)
+* [make `mem::size_of_val` and `mem::align_of_val` unstably const](https://github.com/rust-lang/rust/pull/74930)
+* [backtrace-rs: include source column numbers, where available](https://github.com/rust-lang/backtrace-rs/pull/367)
 
 ## Rust Compiler Performance Triage
 
@@ -171,7 +172,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-Sadly, we had no quote suggestions this week.
+> *Empowering* is the perfect word to describe Rust in 2020. What used to be a rough adventure with many pitfalls has turned into something beautiful, something that can lift your spirit. At least, that’s what it did for me.
+
+- [Mathias Lafeldt on his blog](https://sharpend.io/giving-rust-another-shot-in-2020/)
+
+Thanks to [Henrik Tougaard](https://users.rust-lang.org/t/twir-quote-of-the-week/328/915) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
