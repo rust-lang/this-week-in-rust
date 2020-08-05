@@ -17,20 +17,28 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 # Updates from Rust Community
 
 ### Official
+
 * [Announcing Rust 1.45.1](https://blog.rust-lang.org/2020/07/30/Rust-1.45.1.html)
 * [Announcing Rust 1.45.2](https://blog.rust-lang.org/2020/08/03/Rust-1.45.2.html)
 
 ### Tooling
+
 * [Rust Analyzer Changelog #36](https://www.reddit.com/r/rust/comments/i2wic3/rustanalyzer_changelog_36/)
 * [IntelliJ Rust: Updates for the 2020.2 Release](https://blog.jetbrains.com/clion/2020/08/intellij-rust-updates-for-the-2020-2-release/)
 * [Headcrab: July 2020 progress report](https://headcrab.rs/2020/07/31/july-update.html)
 
 ### Newsletters
+
 * [This Month in Rust OSDev (July 2020)](https://rust-osdev.com/this-month/2020-07/)
 
 ### Observations/Thoughts
 
-### Learn
+* [Go vs Rust: Writing a CLI tool](https://cuchi.me/posts/go-vs-rust)
+* [How to speed up the Rust compiler some more in 2020](https://blog.mozilla.org/nnethercote/2020/08/05/how-to-speed-up-the-rust-compiler-some-more-in-2020/)
+* [A Curious Tale of Rust TLS and Postgres in the Cloud](https://dev.to/pnehrer/a-curious-tale-of-rust-tls-and-postgres-in-the-cloud-434k)
+
+### Learn Standard Rust
+
 * [Learning Rust: Mindsets and Expectations](https://ferrous-systems.com/blog/mindsets-and-expectations/)
 * [Understanding the Rust borrow checker](https://blog.logrocket.com/introducing-the-rust-borrow-checker/)
 * [Beginner's guide to Error Handling in Rust](http://www.sheshbabu.com/posts/rust-error-handling/)
@@ -41,19 +49,30 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [What You Should Know About Unsigned, Signed Integers and Casting in Rust](https://towardsdatascience.com/unsinged-signed-integers-and-casting-in-rust-9a847bfc398f)
 * [Memory safety in Rust - part 2](https://hashrust.com/blog/memory-safety-in-rust-part-2/)
 * [A gentle introduction to assembly with rust](https://lfn3.net/2020/08/03/a-gentle-intro-to-assembly-with-rust/)
-* [Creating Linux Packages for Rust Projects (1/2)](https://ebbflow.io/blog/vending-linux-1)
 * [Prevent Breaking Code Changes in Future Releases using `non exhaustive` enums in Rust](https://blog.knoldus.com/prevent-breaking-code-changes-in-future-releases-using-non-exhaustive-enums-in-rust/)
+* [A Heaping Helping of Stacks](https://deislabs.io/posts/a-heaping-helping-of-stacks/)
+* [Prevent Breaking Code Changes in Future Releases using `non exhaustive` enums in Rust](https://medium.com/@knoldus/prevent-breaking-code-changes-in-future-releases-using-non-exhaustive-enums-in-rust-ace1ac4650d9)
+* [Rust for a Pythonista #1: Why and When?](https://dygalo.dev/blog/rust-for-a-pythonista-1/)
+* [PT] [Aprendendo Rust: 05 - Funções](https://dev.to/pehdepano/aprendendo-rust-05-funcoes-3j72)
+* [RU] [Rust: работа с потоками](https://medium.com/nuances-of-programming/%D0%B8%D0%B7%D1%83%D1%87%D0%B0%D0%B5%D0%BC-rust-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B0%D0%BC%D0%B8-56b2a31d2846)
+* [video] [Learning Rust by Working Through the Rustlings Exercises](https://egghead.io/playlists/learning-rust-by-solving-the-rustlings-exercises-a722)
+
+### Learn More Rust
+
+* [Creating Linux Packages for Rust Projects (1/2)](https://ebbflow.io/blog/vending-linux-1)
 * [Operating System development tutorials in Rust on the Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials#operating-system-development-tutorials-in-rust-on-the-raspberry-pi)
 * [Reverse Engineering a USB Device with Rust](https://gill.net.in/posts/reverse-engineering-a-usb-device-with-rust/)
-* [A Heaping Helping of Stacks](https://deislabs.io/posts/a-heaping-helping-of-stacks/)
 * [A Simple Crud on Rust (With Rocket.rs and Diesel.rs)](https://medium.com/swlh/a-simple-crud-on-rust-with-rocket-rs-and-diesel-rs-e885672cb23d)
 * [Some Learnings from Implementing a Normalizing Rust Representer](https://seanchen1991.github.io/posts/rust-representer/)
 * [Countdown problem in Rust](https://amitdev.github.io/posts/2020-07-27-countdown-rust/)
-* [A Curious Tale of Rust TLS and Postgres in the Cloud](https://dev.to/pnehrer/a-curious-tale-of-rust-tls-and-postgres-in-the-cloud-434k)
-* [video][Learning Rust by Working Through the Rustlings Exercises](https://egghead.io/playlists/learning-rust-by-solving-the-rustlings-exercises-a722)
-* [video][Hypercore Protocol in Rust](https://www.youtube.com/watch?v=2JCblJf9hFg&list=PL7sG5SCUNyeYx8wnfMOUpsh7rM_g0w_cu)
-* [video][Reasonable Coding 030 - HotStuff, a composable, no-nonsense document compiler (part 1)](https://www.youtube.com/watch?v=kURv5ZbkEss)
-* [video][Rusty Days 2020 - all videos](https://www.youtube.com/playlist?list=PLf3u8NhoEikhTC5radGrmmqdkOK-xMDoZ)
+* [Exploring Azure CosmosDB with Rust - Part 1](https://dev.to/mindflavor/exploring-azure-cosmosdb-with-rust-part-1-1ki7)
+* [Building Rust Web API with Warp and Diesel](https://dev.to/szymongib/building-rust-web-api-with-warp-and-diesel-1d7c)
+* [Microservices in Rust with Kafka](https://medium.com/digitalfrontiers/microservices-in-rust-with-kafka-2b671295b24e)
+* [Risc-V OS using Rust: Graphics](https://blog.stephenmarz.com/2020/07/24/risc-v-os-using-rust-graphics/)
+* [Rust Traits: Defining Behavior](https://youtu.be/rAl-9HwD858)
+* [Writing and publishing a Python module in Rust](https://dygalo.dev/blog/rust-for-a-pythonista-1/)
+* [video] [Hypercore Protocol in Rust](https://www.youtube.com/watch?v=2JCblJf9hFg&list=PL7sG5SCUNyeYx8wnfMOUpsh7rM_g0w_cu)
+* [video] [Reasonable Coding 030 - HotStuff, a composable, no-nonsense document compiler (part 1)](https://www.youtube.com/watch?v=kURv5ZbkEss)
 
 ### Project Updates
 
@@ -62,8 +81,9 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 ### Miscellaneous
 
 * [Video recording technology at RustFest](https://estada.ch/2020/7/30/video-recording-technology-at-rustfest/)
-* [audio][The State of Rust 2 with Alex Chrichton](https://anchor.fm/the-virtual-world/episodes/Ep-7--The-State-of-Rust-2-with-Alex-Crichton-ehjpsq)
-* [audio][The State of Rust with Steve Klabnik](https://anchor.fm/the-virtual-world/episodes/Ep-6--The-State-of-Rust-with-Steve-Klabnik-ehf8mk)
+* [audio] [The State of Rust 2 with Alex Chrichton](https://anchor.fm/the-virtual-world/episodes/Ep-7--The-State-of-Rust-2-with-Alex-Crichton-ehjpsq)
+* [audio] [The State of Rust with Steve Klabnik](https://anchor.fm/the-virtual-world/episodes/Ep-6--The-State-of-Rust-with-Steve-Klabnik-ehf8mk)
+* [video] [Rusty Days 2020 - all videos](https://www.youtube.com/playlist?list=PLf3u8NhoEikhTC5radGrmmqdkOK-xMDoZ)
 
 # Crate of the Week
 
