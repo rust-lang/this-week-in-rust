@@ -57,7 +57,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-*No issues were proposed for CfP*.
+* cargo: [Deduplicate Cargo workspace
+  information](https://github.com/rust-lang/cargo/issues/8415) (implement [RFC
+  2906](https://github.com/rust-lang/rfcs/pull/2906).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
