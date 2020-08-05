@@ -50,6 +50,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [Some Learnings from Implementing a Normalizing Rust Representer](https://seanchen1991.github.io/posts/rust-representer/)
 * [Countdown problem in Rust](https://amitdev.github.io/posts/2020-07-27-countdown-rust/)
 * [A Curious Tale of Rust TLS and Postgres in the Cloud](https://dev.to/pnehrer/a-curious-tale-of-rust-tls-and-postgres-in-the-cloud-434k)
+* [Rust Lang Book - Chapter 4 Notes](https://joeprevite.com/rust-lang-book-chapter-4-notes)
 * [video][Learning Rust by Working Through the Rustlings Exercises](https://egghead.io/playlists/learning-rust-by-solving-the-rustlings-exercises-a722)
 * [video][Hypercore Protocol in Rust](https://www.youtube.com/watch?v=2JCblJf9hFg&list=PL7sG5SCUNyeYx8wnfMOUpsh7rM_g0w_cu)
 * [video][Reasonable Coding 030 - HotStuff, a composable, no-nonsense document compiler (part 1)](https://www.youtube.com/watch?v=kURv5ZbkEss)
