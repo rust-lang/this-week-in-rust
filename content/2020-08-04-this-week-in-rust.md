@@ -203,4 +203,4 @@ Thanks to [Henrik Tougaard](https://users.rust-lang.org/t/twir-quote-of-the-week
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/i094wo/this_week_in_rust_349/)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/i4a3e0/this_week_in_rust_350/)</small>
