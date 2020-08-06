@@ -4042,17 +4042,6 @@ Number: 348  Date: 2020-07-21
 
 Number: 349  Date: 2020-07-28 
 
-Number: 349
-Date: 2020-07-28
-Category: This Week in Rust
-Hello and welcome to another issue of *This Week in Rust*!
-[Rust](http://rust-lang.org) is a systems language pursuing the trifecta: safety, concurrency, and speed.
-This is a weekly summary of its progress and community.
-Want something mentioned? Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) or [send us a pull request](https://github.com/cmr/this-week-in-rust).
-Want to get involved? [We love contributions](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md).
-*This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
-If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
-Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.org/episode/024-twir-349/)
 # Updates from Rust Community
 ### Official
 * [Opening up the Core Team agenda](https://blog.rust-lang.org/inside-rust/2020/07/27/opening-up-the-core-team-agenda.html)
