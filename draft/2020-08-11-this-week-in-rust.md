@@ -85,6 +85,11 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [make `Option::unwrap` unstably const](https://github.com/rust-lang/rust/pull/74956)
 * [make `mem::size_of_val` and `mem::align_of_val` unstably const](https://github.com/rust-lang/rust/pull/74930)
 * [backtrace-rs: include source column numbers, where available](https://github.com/rust-lang/backtrace-rs/pull/367)
+* [docs.rs: Allow copying title and version from rustdoc pages](https://github.com/rust-lang/docs.rs/pull/938)
+* [docs.rs: Switch from kuchiki to LOL_HTML](https://github.com/rust-lang/docs.rs/pull/930)
+* [docs.rs: Upload sources even for binaries and failed builds](https://github.com/rust-lang/docs.rs/pull/928)
+* [docs.rs: Split up the about page](https://github.com/rust-lang/docs.rs/pull/924)
+
 
 ## Rust Compiler Performance Triage
 
