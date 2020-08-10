@@ -29,10 +29,10 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 
 ### Learn Standard Rust
-*[video][Using Linux libc in Rust - with the file-locker Crate](https://youtu.be/UgNrDb6hQQ0)
 
 
 ### Learn More Rust
+*[video][Using Linux libc in Rust - with the file-locker Crate](https://youtu.be/UgNrDb6hQQ0)
 
 
 ### Project Updates
