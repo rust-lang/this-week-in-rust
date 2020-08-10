@@ -23,22 +23,45 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 
 ### Newsletters
+* [Rust in Blockchain #14 - Are We Smart (Contract) Yet?](https://rustinblockchain.org/newsletters/2020-08-05-are-we-smart-contract-yet/)
+* [This Month in Rust GameDev #12 - July 2020](https://rust-gamedev.github.io/posts/newsletter-012/)
 
 
 ### Observations/Thoughts
-- [ES] [¿Por qué me gusta tanto Rust?](https://blog.categulario.tk/por-que-me-gusta-tanto-rust.html)
+* [Steve Klabnik Interview](https://evrone.com/steve-klabnik-interview)
+* [Why learning Rust is great... As a second language](https://beyondtheloop.dev/rust-second-language/)
+* [Why QEMU should move from C to Rust](http://blog.vmsplice.net/2020/08/why-qemu-should-move-from-c-to-rust.html?m=1)
+* [First Impressions of Rust](https://john-millikin.com/first-impressions-of-rust)
+* [ES] [¿Por qué me gusta tanto Rust?](https://blog.categulario.tk/por-que-me-gusta-tanto-rust.html)
+
 
 ### Learn Standard Rust
+* [Rust for a Pythonista #2: Building a Rust crate for CSS inlining](https://dygalo.dev/blog/rust-for-a-pythonista-2/)
+* [Surviving Rust async interfaces](https://fasterthanli.me/articles/surviving-rust-async-interfaces)
+* [Two Easy Ways to Test Async Functions in Rust](https://blog.x5ff.xyz/blog/async-tests-tokio-rust/)
+* [Cloning yourself - a refactoring for thread-spawning Rust types](https://www.philipdaniels.com/blog/2020/self-cloning-for-multiple-threads-in-rust/)
+* [Allocation API, allocators and virtual memory](https://notes.iveselov.info/programming/allocation-api-and-allocators)
+* [PT] [Meia hora aprendendo Rust - Parte 1](https://rodolfoghi.github.io/posts/meia-hora-aprendendo-rust-parte1/)
 
 
 ### Learn More Rust
-*[video][Using Linux libc in Rust - with the file-locker Crate](https://youtu.be/UgNrDb6hQQ0)
+* [Zero To Production #3: How To Bootstrap A Rust Web API From Scratch](https://www.lpalmieri.com/posts/2020-08-09-zero-to-production-3-how-to-bootstrap-a-new-rust-web-api-from-scratch/)
+* [Using Rust Lambdas in Production](https://www.cvpartner.com/blog/using-rust-lambdas-in-production)
+* [Incorporate Postgres with Rust](https://blog.knoldus.com/incorporate-postgres-with-rust/)
+* [Let's implement a Bloom Filter](https://onatm.dev/2020/08/10/let-s-implement-a-bloom-filter/)
+* [A Guide to Contiguous Data in Rust](https://github.com/paulkernfeld/contiguous-data-in-rust)
+* [Inbound & Outbound FFI](https://www.possiblerust.com/guide/inbound-outbound-ffi)
+* [Tutorial: Deno Apps with WebAssembly, Rust, and WASI](https://www.secondstate.io/articles/deno-webassembly-rust-wasi/)
+* [video] [Using Linux libc in Rust - with the file-locker Crate](https://youtu.be/UgNrDb6hQQ0)
+* [video] [Embedded Rust Mob Programming](https://www.youtube.com/watch?v=BZqt187RWTw&feature=youtu.be)
 
 
 ### Project Updates
-
+* [Knurling-rs Announcement](https://ferrous-systems.com/blog/knurling-rs/)
 
 ### Miscellaneous
+* [Building a faster CouchDB View Server in Rust](https://www.garrensmith.com/blogs/fortuna-rs-couchdb-view-server)
+* [The promise of Rust async-await for embedded](https://tweedegolf.nl/blog/41/the-promise-of-rust-async-await-for-embedded)
 
 
 # Crate of the Week
@@ -58,9 +81,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* cargo: [Deduplicate Cargo workspace
+*[cargo: Deduplicate Cargo workspace
   information](https://github.com/rust-lang/cargo/issues/8415) (implement [RFC
   2906](https://github.com/rust-lang/rfcs/pull/2906).
+* [dotenv-linter has several good first issues](https://github.com/dotenv-linter/dotenv-linter/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -146,6 +170,9 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Senior Rust Engineer at equilibrium (Remote)](https://www.notion.so/Hiring-Senior-Rust-Engineer-e6c94ccc261f426c80a483c7fc642412)
+* [Software Developer at DerivaDEX](https://angel.co/company/derivadex/jobs/917157-software-developer)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
