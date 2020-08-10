@@ -20,6 +20,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 
 ### Tooling
+* [Rust Analyzer Changelog #37](https://rust-analyzer.github.io/thisweek/2020/08/10/changelog-37.html)
+* [IntelliJ Rust Changelog #128](https://intellij-rust.github.io/2020/08/10/changelog-128.html)
 
 
 ### Newsletters
@@ -42,6 +44,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [Cloning yourself - a refactoring for thread-spawning Rust types](https://www.philipdaniels.com/blog/2020/self-cloning-for-multiple-threads-in-rust/)
 * [Allocation API, allocators and virtual memory](https://notes.iveselov.info/programming/allocation-api-and-allocators)
 * [PT] [Meia hora aprendendo Rust - Parte 1](https://rodolfoghi.github.io/posts/meia-hora-aprendendo-rust-parte1/)
+* [video] [Crust of Rust: Channels](https://www.youtube.com/watch?v=b4mS5UPHh20)
 
 
 ### Learn More Rust
@@ -172,7 +175,8 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Senior Rust Engineer at equilibrium (Remote)](https://www.notion.so/Hiring-Senior-Rust-Engineer-e6c94ccc261f426c80a483c7fc642412)
-* [Software Developer at DerivaDEX](https://angel.co/company/derivadex/jobs/917157-software-developer)
+* [Software Developer at DerivaDEX (Remote)](https://angel.co/company/derivadex/jobs/917157-software-developer)
+* [Rust Core Engineer at CasperLabs (Remote)](https://apply.workable.com/casperlabs/j/85A300F063/)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
