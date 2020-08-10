@@ -26,7 +26,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 
 ### Observations/Thoughts
-
+- [ES] [¿Por qué me gusta tanto Rust?](https://blog.categulario.tk/por-que-me-gusta-tanto-rust.html)
 
 ### Learn Standard Rust
 
