@@ -70,7 +70,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [Microservices in Rust with Kafka](https://medium.com/digitalfrontiers/microservices-in-rust-with-kafka-2b671295b24e)
 * [Risc-V OS using Rust: Graphics](https://blog.stephenmarz.com/2020/07/24/risc-v-os-using-rust-graphics/)
 * [Rust Traits: Defining Behavior](https://youtu.be/rAl-9HwD858)
-* [Writing and publishing a Python module in Rust](https://dygalo.dev/blog/rust-for-a-pythonista-1/)
+* [Writing and publishing a Python module in Rust](https://blog.yossarian.net/2020/08/02/Writing-and-publishing-a-python-module-in-rust)
 * [video] [Hypercore Protocol in Rust](https://www.youtube.com/watch?v=2JCblJf9hFg&list=PL7sG5SCUNyeYx8wnfMOUpsh7rM_g0w_cu)
 * [video] [Reasonable Coding 030 - HotStuff, a composable, no-nonsense document compiler (part 1)](https://www.youtube.com/watch?v=kURv5ZbkEss)
 
