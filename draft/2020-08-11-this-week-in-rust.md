@@ -84,9 +84,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-*[cargo: Deduplicate Cargo workspace
-  information](https://github.com/rust-lang/cargo/issues/8415) (implement [RFC
-  2906](https://github.com/rust-lang/rfcs/pull/2906).
+* [cargo: Deduplicate Cargo workspace
+  information](https://github.com/rust-lang/cargo/issues/8415)
 * [dotenv-linter: several good first issues](https://github.com/dotenv-linter/dotenv-linter/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
 * [ruma: several help wanted issues](https://github.com/ruma/ruma/labels/help%20wanted)
 * [tensorbase: several good first issues](https://github.com/tensorbase/tensorbase/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
