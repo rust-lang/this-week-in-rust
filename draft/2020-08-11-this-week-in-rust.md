@@ -90,7 +90,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [ruma: several help wanted issues](https://github.com/ruma/ruma/labels/help%20wanted)
 * [tensorbase: several good first issues](https://github.com/tensorbase/tensorbase/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 * [kanidm: several good first issues](https://github.com/kanidm/kanidm/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-* [Libra SOC: Libre-SOC's first SoC: Add PowerPC64 to Rust's new inline assembly implementation](https://bugs.libre-soc.org/show_bug.cgi?id=451)
+* [Libre-SOC's first SoC: Add PowerPC64 to Rust's new inline assembly implementation](https://bugs.libre-soc.org/show_bug.cgi?id=451)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
