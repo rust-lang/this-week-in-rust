@@ -25,8 +25,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 
 ### Newsletters
-* [Rust in Blockchain #14 - Are We Smart (Contract) Yet?](https://rustinblockchain.org/newsletters/2020-08-05-are-we-smart-contract-yet/)
 * [This Month in Rust GameDev #12 - July 2020](https://rust-gamedev.github.io/posts/newsletter-012/)
+* [Rust in Blockchain #14 - Are We Smart (Contract) Yet?](https://rustinblockchain.org/newsletters/2020-08-05-are-we-smart-contract-yet/)
 
 
 ### Observations/Thoughts
@@ -84,10 +84,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-*[cargo: Deduplicate Cargo workspace
-  information](https://github.com/rust-lang/cargo/issues/8415) (implement [RFC
-  2906](https://github.com/rust-lang/rfcs/pull/2906).
-* [dotenv-linter has several good first issues](https://github.com/dotenv-linter/dotenv-linter/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
+* [cargo: Deduplicate Cargo workspace
+  information](https://github.com/rust-lang/cargo/issues/8415)
+* [dotenv-linter: several good first issues](https://github.com/dotenv-linter/dotenv-linter/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
+* [ruma: several help wanted issues](https://github.com/ruma/ruma/labels/help%20wanted)
+* [tensorbase: several good first issues](https://github.com/tensorbase/tensorbase/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+* [kanidm: several good first issues](https://github.com/kanidm/kanidm/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+* [Libre-SOC's first SoC: Add PowerPC64 to Rust's new inline assembly implementation](https://bugs.libre-soc.org/show_bug.cgi?id=451)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -126,7 +129,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC: 'C unwind' ABI](https://github.com/rust-lang/rfcs/pull/2945)
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -144,26 +147,25 @@ decision. Express your opinions now.
 
 ## New RFCs
 
-* [Procedural vtables and wide ptr metadata](https://github.com/rust-lang/rfcs/pull/2967)
-* [Edition 2021 and beyond](https://github.com/rust-lang/rfcs/pull/2966)
+* [Proposal for POSIX error numbers in `std::os::unix`](https://github.com/rust-lang/rfcs/pull/2973)
+* [Standardize methods for leaking containers](https://github.com/rust-lang/rfcs/pull/2969)
+* [Introduce '$self' macro metavar for hygienic macro items](https://github.com/rust-lang/rfcs/pull/2968)
 
 # Upcoming Events
 
 ### Online
-* [August 5. Johannesburg, ZA - Johannesburg Rust Meetup - Monthly Joburg Rust Chat](https://www.meetup.com/Johannesburg-Rust-Meetup/events/271875886/)
-* [August 5. Dublin, IE - Rust Dublin - August Remote Meetup](https://www.meetup.com/Rust-Dublin/events/272162980/)
-* [August 5. Buffalo, NY, US - Buffalo Rust Meetup - Rust User Group](https://www.meetup.com/Buffalo-Rust-Meetup/events/271511557/)
-* [August 5. Indianapolis, IN, US - Indy Rust - Indy.rs with Social Distancing](https://www.meetup.com/indyrs/events/jhfstrybclbhb/)
-* [August 6. Linz, AT - Rust Meetup Linz - Kick Off](https://www.meetup.com/de-DE/Rust-Linz/events/271857182/)
-* [August 6. Berlin, DE - Berline.rs - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybclbjb/)
-* [August 11. Seattle, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybclbpb/)
 * [August 11. Saarbrücken, DE - Rust-Saar Meetup `3u16`](https://www.meetup.com/Rust-Saar/events/272044845/)
+* [August 11. Dallas, TX, US - Dallas Rust - Second Tuesday](https://www.meetup.com/Dallas-Rust/events/mzzfsrybclbpb/)
 * [August 13. San Diego, CA, US - San Diego Rust - August 2020 Tele-Meetup](https://www.meetup.com/San-Diego-Rust/events/272060817/)
+* [August 19. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out Night](https://www.meetup.com/Vancouver-Rust/events/vcgsvrybclbzb/)
+* [August 20. RustConf](https://rustconf.com/)
 
 ### North America
 * [August 13. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybclbrb/)
+* [August 25. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybclbhc/)
 
 ### Asia Pacific
+* [August 18. Seoul, KR - Rust Meetup - Rust last 6 months review (also available on Zoom)](https://www.meetup.com/Rust-Seoul-Meetup/events/qfkdvrybclbxb/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
