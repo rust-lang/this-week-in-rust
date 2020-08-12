@@ -68,6 +68,7 @@ No official Rust announcements this week! :)
 * [video] [Using Linux libc in Rust - with the file-locker Crate](https://youtu.be/UgNrDb6hQQ0)
 * [video] [Embedded Rust Mob Programming](https://youtu.be/BZqt187RWTw)
 * [video] [Implementing TCP in Rust (part 1)](https://youtu.be/bzja9fQWzdA)
+* [video] [Define a function with parameters in Rust](https://vimeo.com/446618910)
 
 ### Project Updates
 * [Knurling-rs Announcement](https://ferrous-systems.com/blog/knurling-rs/)
