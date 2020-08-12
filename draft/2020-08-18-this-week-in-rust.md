@@ -1,6 +1,6 @@
-Title: This Week in Rust 351
-Number: 351
-Date: 2020-08-11
+Title: This Week in Rust 352
+Number: 352
+Date: 2020-08-18
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -12,77 +12,28 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/cmr/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/cmr/this-week-in-rust/pulls).
 
-Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.org/episode/026-twir-350/)
+Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-station.org/file/rustacean-station/twir-2020-08-11.mp3)
 
 # Updates from Rust Community
 
-No official Rust announcements this week! :)
 
 ### Tooling
-* [Rust Analyzer Changelog #37](https://rust-analyzer.github.io/thisweek/2020/08/10/changelog-37.html)
-* [IntelliJ Rust Changelog #128](https://intellij-rust.github.io/2020/08/10/changelog-128.html)
+
 
 ### Newsletters
-* [This Month in Rust GameDev #12 - July 2020](https://rust-gamedev.github.io/posts/newsletter-012/)
-* [Rust in Blockchain #14 - Are We Smart (Contract) Yet?](https://rustinblockchain.org/newsletters/2020-08-05-are-we-smart-contract-yet/)
+
 
 ### Observations/Thoughts
-* [Steve Klabnik Interview](https://evrone.com/steve-klabnik-interview)
-* [Why learning Rust is great... As a second language](https://beyondtheloop.dev/rust-second-language/)
-* [Why QEMU should move from C to Rust](http://blog.vmsplice.net/2020/08/why-qemu-should-move-from-c-to-rust.html?m=1)
-* [First Impressions of Rust](https://john-millikin.com/first-impressions-of-rust)
-* [How to Stick with Rust](https://dev.to/pieohpah/how-to-stick-with-rust-1gpf)
-* [Why learning Rust is great...As a second language](https://dev.to/blorente/why-learning-rust-is-great-as-a-second-language-5583)
-* [What Is The Minimal Set Of Optimizations Needed For Zero-Cost Abstraction?](https://robert.ocallahan.org/2020/08/what-is-minimal-set-of-optimizations.html)
-* [Propane: an experimental generator syntax for Rust](https://without.boats/blog/propane/)
-* [ES] [¿Por qué me gusta tanto Rust?](https://blog.categulario.tk/por-que-me-gusta-tanto-rust.html)
+
 
 ### Learn Standard Rust
-* [Moves, copies and clones in Rust](https://hashrust.com/blog/moves-copies-and-clones-in-rust/)
-* [Rust for a Pythonista #2: Building a Rust crate for CSS inlining](https://dygalo.dev/blog/rust-for-a-pythonista-2/)
-* [Surviving Rust async interfaces](https://fasterthanli.me/articles/surviving-rust-async-interfaces)
-* [Two Easy Ways to Test Async Functions in Rust](https://blog.x5ff.xyz/blog/async-tests-tokio-rust/)
-* [Cloning yourself - a refactoring for thread-spawning Rust types](https://www.philipdaniels.com/blog/2020/self-cloning-for-multiple-threads-in-rust/)
-* [Allocation API, allocators and virtual memory](https://notes.iveselov.info/programming/allocation-api-and-allocators)
-* [Variables and memory management in Rust](https://willcrichton.net/notes/type-safe-printf/)
-* [ES] [Polimorfismo con traits en Rust](https://emanuelpeg.blogspot.com/2020/08/polimorfismo-con-traits-en-rust.html#.Xy7c6ukK2fc.reddit)
-* [PT] [Aprendendo Rust: 06 - Controles de fluxo](https://dev.to/pehdepano/aprendendo-rust-06-controles-de-fluxo-4mff)
-* [PT] [Meia hora aprendendo Rust - Parte 1](https://rodolfoghi.github.io/posts/meia-hora-aprendendo-rust-parte1/)
-* [video] [Crust of Rust: Channels](https://www.youtube.com/watch?v=b4mS5UPHh20)
+
 
 ### Learn More Rust
-* [Zero To Production #3: How To Bootstrap A Rust Web API From Scratch](https://www.lpalmieri.com/posts/2020-08-09-zero-to-production-3-how-to-bootstrap-a-new-rust-web-api-from-scratch/)
-* [Using Rust Lambdas in Production](https://www.cvpartner.com/blog/using-rust-lambdas-in-production)
-* [Incorporate Postgres with Rust](https://blog.knoldus.com/incorporate-postgres-with-rust/)
-* [Let's implement a Bloom Filter](https://onatm.dev/2020/08/10/let-s-implement-a-bloom-filter/)
-* [A Guide to Contiguous Data in Rust](https://github.com/paulkernfeld/contiguous-data-in-rust)
-* [Inbound & Outbound FFI](https://www.possiblerust.com/guide/inbound-outbound-ffi)
-* [Tutorial: Deno Apps with WebAssembly, Rust, and WASI](https://www.secondstate.io/articles/deno-webassembly-rust-wasi/)
-* [Single Page Applications using Rust](http://www.sheshbabu.com/posts/rust-wasm-yew-single-page-application/)
-* [Implementing a Type-safe printf in Rust](https://willcrichton.net/notes/type-safe-printf/)
-* [Building a Brainf*ck Compiler with Rust and LLVM](https://benkonz.github.io/building-a-brainfuck-compiler-with-rust-and-llvm/)
-* [Modernize network function development with this Rust-based framework](https://opensource.com/article/20/8/capsule-networking)
-* [Let's build a RedditBot to curate playlist links - I](https://dev.to/delta_maniac/lets-build-a-redditbot-to-curate-playlist-links-1k4o)
-* [Let's build a RedditBot to curate playlist links - II](https://dev.to/delta_maniac/lets-build-a-redditbot-to-curate-playlist-links-ii-48kf)
-* [Rust on iOS with SDL2](https://blog.aclysma.com/rust-on-ios-with-sdl2/)
-* [video] [Using Linux libc in Rust - with the file-locker Crate](https://youtu.be/UgNrDb6hQQ0)
-* [video] [Embedded Rust Mob Programming](https://youtu.be/BZqt187RWTw)
-* [video] [Implementing TCP in Rust (part 1)](https://youtu.be/bzja9fQWzdA)
-* [video] [Define a function with parameters in Rust](https://vimeo.com/446618910)
 
 ### Project Updates
-* [Knurling-rs Announcement](https://ferrous-systems.com/blog/knurling-rs/)
-* [Meili raises 1.5M€ for open source search in Rust](https://blog.meilisearch.com/meili-fundraise/)
-* [hors - instant coding answers via the command line have released v0.6.4, with pretty colorized output by default](https://www.reddit.com/r/rust/comments/i55s5z/hors_instant_coding_answers_via_the_command_line/)
 
 ### Miscellaneous
-* [Building a faster CouchDB View Server in Rust](https://www.garrensmith.com/blogs/fortuna-rs-couchdb-view-server)
-* [The promise of Rust async-await for embedded](https://tweedegolf.nl/blog/41/the-promise-of-rust-async-await-for-embedded)
-* [Implementing the .NET Profiling API in Rust](https://code.camdenreslink.com/dev/implementing-the-dot-net-profiling-api-in-rust/)
-* [Possibly one step towards named arguments in Rust](https://yoric.github.io/post/rust-named-arguments/)
-* [Embedded Rust tooling for the 21st century](https://ferrous-systems.com/blog/21st-century-embedded-tooling/)
-* [rustc 1.44.1 is reproducible in Debian](https://www.reddit.com/r/rust/comments/i4ij47/rustc_1441_is_reproducible_in_debian/)
-* [Google engineers just submitted a new LLVM optimizer for consideration which gains an average of 2.33% perf.](https://www.reddit.com/r/rust/comments/i44ahg/google_engineers_just_submitted_a_new_llvm/)
 
 # Crate of the Week
 
@@ -100,14 +51,6 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
-
-* [cargo: Deduplicate Cargo workspace
-  information](https://github.com/rust-lang/cargo/issues/8415)
-* [dotenv-linter: several good first issues](https://github.com/dotenv-linter/dotenv-linter/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
-* [ruma: several help wanted issues](https://github.com/ruma/ruma/labels/help%20wanted)
-* [tensorbase: several good first issues](https://github.com/tensorbase/tensorbase/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-* [kanidm: several good first issues](https://github.com/kanidm/kanidm/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-* [Libre-SOC's first SoC: Add PowerPC64 to Rust's new inline assembly implementation](https://bugs.libre-soc.org/show_bug.cgi?id=451)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -206,10 +149,6 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Senior Rust Engineer at equilibrium (Remote)](https://www.notion.so/Hiring-Senior-Rust-Engineer-e6c94ccc261f426c80a483c7fc642412)
-* [Software Developer at DerivaDEX (Remote)](https://angel.co/company/derivadex/jobs/917157-software-developer)
-* [Rust Core Engineer at CasperLabs (Remote)](https://apply.workable.com/casperlabs/j/85A300F063/)
-
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
@@ -224,4 +163,4 @@ Thanks to [Tom Phinney](https://users.rust-lang.org/t/twir-quote-of-the-week/328
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/i094wo/this_week_in_rust_349/)</small>
+<small>[Discuss on r/rust]()</small>
