@@ -38,6 +38,7 @@ No official Rust announcements this week! :)
 * [ES] [¿Por qué me gusta tanto Rust?](https://blog.categulario.tk/por-que-me-gusta-tanto-rust.html)
 
 ### Learn Standard Rust
+* [Moves, copies and clones in Rust](https://hashrust.com/blog/moves-copies-and-clones-in-rust/)
 * [Rust for a Pythonista #2: Building a Rust crate for CSS inlining](https://dygalo.dev/blog/rust-for-a-pythonista-2/)
 * [Surviving Rust async interfaces](https://fasterthanli.me/articles/surviving-rust-async-interfaces)
 * [Two Easy Ways to Test Async Functions in Rust](https://blog.x5ff.xyz/blog/async-tests-tokio-rust/)
