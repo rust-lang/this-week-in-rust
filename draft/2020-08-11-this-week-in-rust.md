@@ -84,9 +84,9 @@ No official Rust announcements this week! :)
 
 # Crate of the Week
 
-This week's crate is [partial-io](https://lib.rs/crates/partial-io), a set of helpers to test partial, interrupted and would-block I/O operations.
+This week's crate is [bevy](https://crates.io/crates/bevy), a very capable yet simple game engine.
 
-Thanks to [Kornel](https://users.rust-lang.org/t/crate-of-the-week/2704/796) for the suggestion!
+Thanks to [mmmmib](https://users.rust-lang.org/t/crate-of-the-week/2704/798) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -113,26 +113,39 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-326 pull requests were [merged in the last week][merged]
+307 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-07-27..2020-08-03
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-08-03..2020-08-10
 
-* [suppress debuginfo on naked function arguments](https://github.com/rust-lang/rust/pull/74105)
-* [normalize all opaque types when converting `ParamEnv` to `Reveal::All`](https://github.com/rust-lang/rust/pull/65989)
-* [ensure stack when type checking and building MIR for large if expressions](https://github.com/rust-lang/rust/pull/74708)
-* [replace a recursive algorithm with an iterative one](https://github.com/rust-lang/rust/pull/74983)
-* [fix `#[track_caller]` shims for trait objects](https://github.com/rust-lang/rust/pull/74784)
-* [make closures and generators `must_use` types](https://github.com/rust-lang/rust/pull/74869)
-* [`BTreeMap::drain_filter` should not touch the root during iteration](https://github.com/rust-lang/rust/pull/74762)
-* [add `str::`(`r`)`split_once`](https://github.com/rust-lang/rust/pull/74707)
-* [add `Vec::spare_capacity_mut`](https://github.com/rust-lang/rust/pull/75015)
-* [add `slice::array_chunks`](https://github.com/rust-lang/rust/pull/74373)
-* [stabilize `const_type_id`](https://github.com/rust-lang/rust/pull/72488)
-* [stabilize `Vec::leak` as a method](https://github.com/rust-lang/rust/pull/74605)
-* [stabilize `Result::as_deref` and `as_deref_mut`](https://github.com/rust-lang/rust/pull/74948)
-* [make `Option::unwrap` unstably const](https://github.com/rust-lang/rust/pull/74956)
-* [make `mem::size_of_val` and `mem::align_of_val` unstably const](https://github.com/rust-lang/rust/pull/74930)
-* [backtrace-rs: include source column numbers, where available](https://github.com/rust-lang/backtrace-rs/pull/367)
+* [add back unwinding support for Sony PSP](https://github.com/rust-lang/rust/pull/75280)
+* [fix ICE when using asm! on an unsupported architecture](https://github.com/rust-lang/rust/pull/75227)
+* [handle well known traits for more types](https://github.com/rust-lang/chalk/pull/591)
+* [resolve `char` as a primitive even if there is a module in scope](https://github.com/rust-lang/rust/pull/75318)
+* [forbid `#[track_caller]` on main](https://github.com/rust-lang/rust/pull/75130)
+* [remove restriction on type parameters preceding consts w/ feature const-generics](https://github.com/rust-lang/rust/pull/74953)
+* [implement the `min_const_generics` feature gate](https://github.com/rust-lang/rust/pull/74877)
+* [tweak confusable idents checking](https://github.com/rust-lang/rust/pull/75349)
+* [miri: accept some post-monomorphization errors](https://github.com/rust-lang/miri/pull/1503)
+* [bubble up errors from `FileDescriptor::as_file_handle`](https://github.com/rust-lang/miri/pull/1501)
+* [simplify `array::IntoIter`](https://github.com/rust-lang/rust/pull/75271)
+* [polymorphize: unevaluated constants](https://github.com/rust-lang/rust/pull/75260)
+* [instance: polymorphize upvar closures/generators](https://github.com/rust-lang/rust/pull/75255)
+* [clean up const-hacks in int endianess conversion functions](https://github.com/rust-lang/rust/pull/75253)
+* [add `as_mut_ptr` to `NonNull<[T]>`](https://github.com/rust-lang/rust/pull/75248)
+* [make `MaybeUninit::as_`(`mut_`)`ptr` const](https://github.com/rust-lang/rust/pull/75250)
+* [make `IntoIterator` lifetime bounds of `&BTreeMap` match with `&HashMap`](https://github.com/rust-lang/rust/pull/75203)
+* [implement `into_keys` and `into_values` for associative maps](https://github.com/rust-lang/rust/pull/75163)
+* [stabilize `Ident::new_raw`](https://github.com/rust-lang/rust/pull/75084)
+* [limit I/O vector count on Unix](https://github.com/rust-lang/rust/pull/75005)
+* [add `unsigned_abs` to signed integers](https://github.com/rust-lang/rust/pull/74759)
+* [BTreeMap: better way to postpone root access in DrainFilter](https://github.com/rust-lang/rust/pull/75257)
+* [hashbrown: do not iterate to drop if empty](https://github.com/rust-lang/hashbrown/pull/182)
+* [hashbrown: relax bounds on HashSet constructors](https://github.com/rust-lang/hashbrown/pull/185)
+* [hashbrown: avoid closures to improve compile times](https://github.com/rust-lang/hashbrown/pull/183)
+* [stdarch: add more things that do adds](https://github.com/rust-lang/stdarch/pull/881)
+* [futures: avoid writes without any data in write_all_vectored](https://github.com/rust-lang/futures-rs/pull/2187)
+* [clean up rustdoc's `main()`](https://github.com/rust-lang/rust/pull/75124)
+* [rustdoc: display elided lifetime for non-reference type in doc](https://github.com/rust-lang/rust/pull/75237)
 
 ## Rust Compiler Performance Triage
 
@@ -199,11 +212,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> *Empowering* is the perfect word to describe Rust in 2020. What used to be a rough adventure with many pitfalls has turned into something beautiful, something that can lift your spirit. At least, that’s what it did for me.
+> You're not allowed to use references in structs until you think Rust is easy. They're the evil-hardmode of Rust that will ruin your day.
 
-- [Mathias Lafeldt on his blog](https://sharpend.io/giving-rust-another-shot-in-2020/)
+- [Kornel on rust-users](https://users.rust-lang.org/t/perpetual-n00b-struggling-with-ownership-again/46920/4)
 
-Thanks to [Henrik Tougaard](https://users.rust-lang.org/t/twir-quote-of-the-week/328/915) for the suggestion!
+Thanks to [Tom Phinney](https://users.rust-lang.org/t/twir-quote-of-the-week/328/918) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
