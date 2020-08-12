@@ -149,8 +149,8 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-* [2020-08-03](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-08-03.md).
-  8 regressions, 2 improvements, 1 of them on rollups. 1 outstanding nag from last week.
+* [2020-08-11](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-08-11.md).
+  1 regression, 1 improvements, 1 of them on rollups. No outstanding nags from last week.
 
 ## Approved RFCs
 
