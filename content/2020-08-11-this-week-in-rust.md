@@ -28,7 +28,6 @@ No official Rust announcements this week! :)
 
 ### Observations/Thoughts
 * [Steve Klabnik Interview](https://evrone.com/steve-klabnik-interview)
-* [Why learning Rust is great... As a second language](https://beyondtheloop.dev/rust-second-language/)
 * [Why QEMU should move from C to Rust](http://blog.vmsplice.net/2020/08/why-qemu-should-move-from-c-to-rust.html?m=1)
 * [First Impressions of Rust](https://john-millikin.com/first-impressions-of-rust)
 * [How to Stick with Rust](https://dev.to/pieohpah/how-to-stick-with-rust-1gpf)
