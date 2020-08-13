@@ -4131,7 +4131,6 @@ Number: 350  Date: 2020-08-04
 * [A gentle introduction to assembly with rust](https://lfn3.net/2020/08/03/a-gentle-intro-to-assembly-with-rust/)
 * [Prevent Breaking Code Changes in Future Releases using `non exhaustive` enums in Rust](https://blog.knoldus.com/prevent-breaking-code-changes-in-future-releases-using-non-exhaustive-enums-in-rust/)
 * [A Heaping Helping of Stacks](https://deislabs.io/posts/a-heaping-helping-of-stacks/)
-* [Prevent Breaking Code Changes in Future Releases using `non exhaustive` enums in Rust](https://medium.com/@knoldus/prevent-breaking-code-changes-in-future-releases-using-non-exhaustive-enums-in-rust-ace1ac4650d9)
 * [Rust for a Pythonista #1: Why and When?](https://dygalo.dev/blog/rust-for-a-pythonista-1/)
 * [PT] [Aprendendo Rust: 05 - Funções](https://dev.to/pehdepano/aprendendo-rust-05-funcoes-3j72)
 * [RU] [Rust: работа с потоками](https://medium.com/nuances-of-programming/%D0%B8%D0%B7%D1%83%D1%87%D0%B0%D0%B5%D0%BC-rust-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B0%D0%BC%D0%B8-56b2a31d2846)
