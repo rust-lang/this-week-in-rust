@@ -30,6 +30,7 @@ Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-stat
 
 
 ### Learn More Rust
+[Linux Packages For Rust (2/3) - Building with GitHub Actions using Custom Actions and Docker Container Images](https://ebbflow.io/blog/vending-linux-2)
 
 ### Project Updates
 
