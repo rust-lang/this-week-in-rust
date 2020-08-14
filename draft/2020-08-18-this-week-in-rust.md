@@ -24,7 +24,7 @@ Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-stat
 
 
 ### Observations/Thoughts
-
+[Why Rust is a great fit for embedded software](https://tweedegolf.nl/blog/39/why-rust-is-a-great-fit-for-embedded-software)
 
 ### Learn Standard Rust
 
