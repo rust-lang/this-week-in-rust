@@ -29,12 +29,15 @@ Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-stat
 * [Why Rust's Unsafe Works](https://jam1.re/blog/why-rusts-unsafe-works)
 
 ### Learn Standard Rust
+* [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust)
+* [Async Unicorns love Rust](https://blog.kdubovikov.ml/articles/rust/async-unicorns-love-rust)
+* [Who Builds the Builder?](https://matklad.github.io//2020/08/12/who-builds-the-builder.html)
 
 
 ### Learn More Rust
-[Linux Packages For Rust (2/3) - Building with GitHub Actions using Custom Actions and Docker Container Images](https://ebbflow.io/blog/vending-linux-2)
-
+* [Linux Packages For Rust (2/3) - Building with GitHub Actions using Custom Actions and Docker Container Images](https://ebbflow.io/blog/vending-linux-2)
 * [Temporarily opt-in to shared mutation](https://ryhl.io/blog/temporary-shared-mutation/)
+* [Embedded Rust tooling for the 21st century](https://ferrous-systems.com/blog/21st-century-embedded-tooling/)
 
 ### Project Updates
 
