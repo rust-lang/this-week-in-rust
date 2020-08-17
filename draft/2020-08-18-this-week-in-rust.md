@@ -25,6 +25,7 @@ Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-stat
 
 ### Observations/Thoughts
 
+* [Why Rust's Unsafe Works](https://jam1.re/blog/why-rusts-unsafe-works)
 
 ### Learn Standard Rust
 
