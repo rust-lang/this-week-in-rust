@@ -32,6 +32,8 @@ Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-stat
 
 ### Learn More Rust
 
+* [Temporarily opt-in to shared mutation](https://ryhl.io/blog/temporary-shared-mutation/)
+
 ### Project Updates
 
 ### Miscellaneous
