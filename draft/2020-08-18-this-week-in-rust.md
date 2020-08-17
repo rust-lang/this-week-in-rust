@@ -24,12 +24,16 @@ Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-stat
 
 
 ### Observations/Thoughts
-[Why Rust is a great fit for embedded software](https://tweedegolf.nl/blog/39/why-rust-is-a-great-fit-for-embedded-software)
+
+* [Why Rust is a great fit for embedded software](https://tweedegolf.nl/blog/39/why-rust-is-a-great-fit-for-embedded-software)
+* [Why Rust's Unsafe Works](https://jam1.re/blog/why-rusts-unsafe-works)
 
 ### Learn Standard Rust
 
 
 ### Learn More Rust
+
+* [Temporarily opt-in to shared mutation](https://ryhl.io/blog/temporary-shared-mutation/)
 
 ### Project Updates
 
