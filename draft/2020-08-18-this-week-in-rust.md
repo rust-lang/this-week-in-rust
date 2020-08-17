@@ -29,12 +29,15 @@ Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-stat
 * [Why Rust's Unsafe Works](https://jam1.re/blog/why-rusts-unsafe-works)
 
 ### Learn Standard Rust
+* [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust)
+* [Async Unicorns love Rust](https://blog.kdubovikov.ml/articles/rust/async-unicorns-love-rust)
+* [Who Builds the Builder?](https://matklad.github.io//2020/08/12/who-builds-the-builder.html)
 
 
 ### Learn More Rust
-[Linux Packages For Rust (2/3) - Building with GitHub Actions using Custom Actions and Docker Container Images](https://ebbflow.io/blog/vending-linux-2)
-
+* [Linux Packages For Rust (2/3) - Building with GitHub Actions using Custom Actions and Docker Container Images](https://ebbflow.io/blog/vending-linux-2)
 * [Temporarily opt-in to shared mutation](https://ryhl.io/blog/temporary-shared-mutation/)
+* [Embedded Rust tooling for the 21st century](https://ferrous-systems.com/blog/21st-century-embedded-tooling/)
 
 ### Project Updates
 
@@ -56,6 +59,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+*No issues were proposed for CfP*.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -121,25 +126,20 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-*No Tracking Issues or PRs are currently in the final comment period.*
+* [disposition: merge][Stabilize Range[Inclusive]::is_empty](https://github.com/rust-lang/rust/pull/75132)
+* [disposition: merge][ stabilize ptr_offset_from](https://github.com/rust-lang/rust/pull/74238)
 
 ## New RFCs
 
-* [Proposal for POSIX error numbers in `std::os::unix`](https://github.com/rust-lang/rfcs/pull/2973)
-* [Standardize methods for leaking containers](https://github.com/rust-lang/rfcs/pull/2969)
-* [Introduce '$self' macro metavar for hygienic macro items](https://github.com/rust-lang/rfcs/pull/2968)
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
 ### Online
-* [August 11. Saarbrücken, DE - Rust-Saar Meetup `3u16`](https://www.meetup.com/Rust-Saar/events/272044845/)
-* [August 11. Dallas, TX, US - Dallas Rust - Second Tuesday](https://www.meetup.com/Dallas-Rust/events/mzzfsrybclbpb/)
-* [August 13. San Diego, CA, US - San Diego Rust - August 2020 Tele-Meetup](https://www.meetup.com/San-Diego-Rust/events/272060817/)
 * [August 19. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out Night](https://www.meetup.com/Vancouver-Rust/events/vcgsvrybclbzb/)
 * [August 20. RustConf](https://rustconf.com/)
 
 ### North America
-* [August 13. Columbus, OH, US - Columbus Rust Society - Monthly Meeting](https://www.meetup.com/columbus-rs/events/dpkhgrybclbrb/)
 * [August 25. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybclbhc/)
 
 ### Asia Pacific
@@ -153,6 +153,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+*No jobs listed for this week.*
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
