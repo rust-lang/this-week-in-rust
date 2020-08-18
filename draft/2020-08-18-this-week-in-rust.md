@@ -16,6 +16,8 @@ Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-stat
 
 # Updates from Rust Community
 
+### Official
+* [Laying the foundation for Rust's future](https://blog.rust-lang.org/2020/08/18/laying-the-foundation-for-rusts-future.html)
 
 ### Tooling
 
@@ -24,11 +26,11 @@ Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-stat
 
 
 ### Observations/Thoughts
-
 * [Why Rust is a great fit for embedded software](https://tweedegolf.nl/blog/39/why-rust-is-a-great-fit-for-embedded-software)
 * [Why Rust's Unsafe Works](https://jam1.re/blog/why-rusts-unsafe-works)
 
 ### Learn Standard Rust
+* [Learning Rust: The Compiler is your Friend](https://ferrous-systems.com/blog/the-compiler-is-your-friend/)
 * [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust)
 * [Async Unicorns love Rust](https://blog.kdubovikov.ml/articles/rust/async-unicorns-love-rust)
 * [Who Builds the Builder?](https://matklad.github.io//2020/08/12/who-builds-the-builder.html)
