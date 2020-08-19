@@ -30,6 +30,7 @@ Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-stat
 * [Why Rust's Unsafe Works](https://jam1.re/blog/why-rusts-unsafe-works)
 
 ### Learn Standard Rust
+* [Lifetimes in Rust](https://hashrust.com/blog/lifetimes-in-rust/)
 * [Learning Rust: The Compiler is your Friend](https://ferrous-systems.com/blog/the-compiler-is-your-friend/)
 * [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust)
 * [Async Unicorns love Rust](https://blog.kdubovikov.ml/articles/rust/async-unicorns-love-rust)
