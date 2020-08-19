@@ -47,9 +47,9 @@ Check out [this week's *This Week in Rust Podcast*](https://audio.rustacean-stat
 
 # Crate of the Week
 
-This week's crate is [bevy](https://crates.io/crates/bevy), a very capable yet simple game engine.
+This week's crate is [cargo-c](https://github.com/lu-zero/cargo-c), a cargo subcommand to build and install C-ABI compatibile dynamic and static libraries.
 
-Thanks to [mmmmib](https://users.rust-lang.org/t/crate-of-the-week/2704/798) for the suggestion!
+Thanks to [Zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/799) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -70,39 +70,21 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-307 pull requests were [merged in the last week][merged]
+345 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-08-03..2020-08-10
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-08-10..2020-08-17
 
-* [add back unwinding support for Sony PSP](https://github.com/rust-lang/rust/pull/75280)
-* [fix ICE when using asm! on an unsupported architecture](https://github.com/rust-lang/rust/pull/75227)
-* [handle well known traits for more types](https://github.com/rust-lang/chalk/pull/591)
-* [resolve `char` as a primitive even if there is a module in scope](https://github.com/rust-lang/rust/pull/75318)
-* [forbid `#[track_caller]` on main](https://github.com/rust-lang/rust/pull/75130)
-* [remove restriction on type parameters preceding consts w/ feature const-generics](https://github.com/rust-lang/rust/pull/74953)
-* [implement the `min_const_generics` feature gate](https://github.com/rust-lang/rust/pull/74877)
-* [tweak confusable idents checking](https://github.com/rust-lang/rust/pull/75349)
-* [miri: accept some post-monomorphization errors](https://github.com/rust-lang/miri/pull/1503)
-* [bubble up errors from `FileDescriptor::as_file_handle`](https://github.com/rust-lang/miri/pull/1501)
-* [simplify `array::IntoIter`](https://github.com/rust-lang/rust/pull/75271)
-* [polymorphize: unevaluated constants](https://github.com/rust-lang/rust/pull/75260)
-* [instance: polymorphize upvar closures/generators](https://github.com/rust-lang/rust/pull/75255)
-* [clean up const-hacks in int endianess conversion functions](https://github.com/rust-lang/rust/pull/75253)
-* [add `as_mut_ptr` to `NonNull<[T]>`](https://github.com/rust-lang/rust/pull/75248)
-* [make `MaybeUninit::as_`(`mut_`)`ptr` const](https://github.com/rust-lang/rust/pull/75250)
-* [make `IntoIterator` lifetime bounds of `&BTreeMap` match with `&HashMap`](https://github.com/rust-lang/rust/pull/75203)
-* [implement `into_keys` and `into_values` for associative maps](https://github.com/rust-lang/rust/pull/75163)
-* [stabilize `Ident::new_raw`](https://github.com/rust-lang/rust/pull/75084)
-* [limit I/O vector count on Unix](https://github.com/rust-lang/rust/pull/75005)
-* [add `unsigned_abs` to signed integers](https://github.com/rust-lang/rust/pull/74759)
-* [BTreeMap: better way to postpone root access in DrainFilter](https://github.com/rust-lang/rust/pull/75257)
-* [hashbrown: do not iterate to drop if empty](https://github.com/rust-lang/hashbrown/pull/182)
-* [hashbrown: relax bounds on HashSet constructors](https://github.com/rust-lang/hashbrown/pull/185)
-* [hashbrown: avoid closures to improve compile times](https://github.com/rust-lang/hashbrown/pull/183)
-* [stdarch: add more things that do adds](https://github.com/rust-lang/stdarch/pull/881)
-* [futures: avoid writes without any data in write_all_vectored](https://github.com/rust-lang/futures-rs/pull/2187)
-* [clean up rustdoc's `main()`](https://github.com/rust-lang/rust/pull/75124)
-* [rustdoc: display elided lifetime for non-reference type in doc](https://github.com/rust-lang/rust/pull/75237)
+* [use existing `infcx` when emitting trait impl diagnostic](https://github.com/rust-lang/rust/pull/75363)
+* [detect JS-style `===` and `!==` and recover](https://github.com/rust-lang/rust/pull/75321)
+* [detect likely `for foo of bar` JS syntax](https://github.com/rust-lang/rust/pull/75320)
+* [move stack size check to `const_eval` machine](https://github.com/rust-lang/rust/pull/75338)
+* [add `array` lang item and `[T; N]::map(f: FnMut(T) -> S)`](https://github.com/rust-lang/rust/pull/75212)
+* [remove branch in optimized `is_ascii`](https://github.com/rust-lang/rust/pull/74562)
+* [constified `str::from_utf8_unchecked`](https://github.com/rust-lang/rust/pull/75157)
+* [hard way to respect `BTreeMap`'s minimum node length](https://github.com/rust-lang/rust/pull/75105)
+* [BTreeMap: purge innocent use of `into_kv_mut`](https://github.com/rust-lang/rust/pull/75195)
+* [hashbrown: implement `FusedIterator` and `size_hint` for `DrainFilter`](https://github.com/rust-lang/hashbrown/pull/188)
+* [rustdoc: don't print "const" keyword on non-nightly build if `rustc_const_unstable` is used on the item](https://github.com/rust-lang/rust/pull/74936)
 
 ## Rust Compiler Performance Triage
 
@@ -162,11 +144,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> You're not allowed to use references in structs until you think Rust is easy. They're the evil-hardmode of Rust that will ruin your day.
+> As Dave Herman always told me, “macros are for when you run out of language”. If you still have language left—and Rust gives you a lot of language—use the language first.
 
-- [Kornel on rust-users](https://users.rust-lang.org/t/perpetual-n00b-struggling-with-ownership-again/46920/4)
+- [Patrick Walton on twitter](https://twitter.com/pcwalton/status/1294676975575896064)
 
-Thanks to [Tom Phinney](https://users.rust-lang.org/t/twir-quote-of-the-week/328/918) for the suggestion!
+Thanks to [Nixon Enraght-Moony](https://users.rust-lang.org/t/twir-quote-of-the-week/328/926) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
