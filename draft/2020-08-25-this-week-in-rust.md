@@ -28,6 +28,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Learn More Rust
 
+* [PL] [CrabbyBird #0 Pierwsza przygoda z Rustem i Godotem](https://postacnormalna.pl/pierwsza-przygoda-z-rustem-i-godotem/)
+
 ### Project Updates
 
 ### Miscellaneous
