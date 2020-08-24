@@ -24,6 +24,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Observations/Thoughts
 
+* [As above, so below: Bare metal Rust generics](https://www.ecorax.net/as-above-so-below-1/)
+
 ### Learn Standard Rust
 
 ### Learn More Rust
