@@ -36,7 +36,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [Profiling Doesn't Always Have To Be Fancy](https://www.justanotherdot.com/posts/profiling-doesnt-always-have-to-be-fancy.html)
 * [Why I like Piston, A Rust game engine](https://kai.coding.blog/why-i-like-piston)
 * [The CXX Debate](https://steveklabnik.com/writing/the-cxx-debate)
-* [video] [Beiding the curve: A personal tutor at your fingertips](https://youtu.be/Z6X7Ada0ugE)
+* [video] [Bending the curve: A personal tutor at your fingertips](https://youtu.be/Z6X7Ada0ugE)
 
 ### Learn Standard Rust
 * [Why can't I early return in an if statement in Rust?](https://www.christopherbiscardi.com/why-can-t-i-early-return-in-an-if-statement-in-rust)
