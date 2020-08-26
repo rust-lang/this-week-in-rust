@@ -1,6 +1,6 @@
 Title: This Week in Rust 353
 Number: 353
-Date: 2020-08-25
+Date: 2020-08-26
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -40,6 +40,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Learn Standard Rust
 * [Why can't I early return in an if statement in Rust?](https://www.christopherbiscardi.com/why-can-t-i-early-return-in-an-if-statement-in-rust)
+* [Bleed Less during Runtime with Rust's Lifetime](https://blog.knoldus.com/bleed-less-during-runtime-with-rusts-lifetime/)
+* [A Javascript Developer's Cheatsheet for Rust](https://tndl.me/blog/2020/rust-javascript-cheatsheet/)
 * [video] [RustConf 2020 - Macros for a More Productive Rust](https://youtu.be/dZiWkbnaQe8)
 * [video] [RustConf 2020 - Rust for Non-Systems Programmers](https://youtu.be/BBvcK_nXUEg)
 
@@ -51,6 +53,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [Writing a Test Case Generator for a Programming Language](https://fitzgeraldnick.com/2020/08/24/writing-a-test-case-generator.html)
 * [Day 12: Write web app with actix-web - 100DaysOfRust](https://dev.to/0xbf/day11-write-web-app-with-actix-web-100dayofrust-1lkn)
 * [Kernel printing with Rust](https://not-matthias.github.io/kernel-printing-with-rust/)
+* [Running Animation in Amethyst](https://mtigley.dev/posts/running-animation/)
 * [PL] [CrabbyBird #0 Pierwsza przygoda z Rustem i Godotem](https://postacnormalna.pl/pierwsza-przygoda-z-rustem-i-godotem/)
 * [video] [Build a Smart Bookmarking Tool with Rust and Rocket Video Series](https://www.youtube.com/playlist?list=PLzIwronG0sE56c6hDYOKW3-rPxmIyttoe)
 * [video] [RustConf 2020 - Error Handling Isn't All About Errors](https://youtu.be/rAF8mLI0naQ)
@@ -68,6 +71,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 ### Miscellaneous
 * [Rust-style futures in C](https://axelforsman.tk/2020/08/24/rust-style-futures-in-c.html)
 * [Porting a Golang and Rust CLI tool to D](https://blog.pingfrommorocco.com/2020/08/porting-golang-and-rust-cli-tool-to-d.html)
+* [How to Read First Impression Posts](https://www.possiblerust.com/community/how-to-read-first-impression-posts)
 * [audio] [The Virtual World - Embedded Rust & Ferrous Systems - James Munns](https://anchor.fm/the-virtual-world/episodes/Embedded-Rust--Ferrous-Systems---James-Munns-eidv76)
 * [audio] [Rust GameDev Podcast - Interview with Herbert Wolverson (Bracket-Lib)](https://rustgamedev.com/episodes/interview-with-herbert-wolverson-bracket-lib)
 * [video] [Before Main: How Executables Work on Linux](https://youtu.be/jR2hUhjcAXI)
@@ -93,6 +97,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
+
+* [Rusty Celery has several issues tagged with "Help Wanted"](https://github.com/rusty-celery/rusty-celery/issues?q=label%3A%22Status%3A+Help+Wanted%22)
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
@@ -142,14 +148,15 @@ Every week [the team](https://www.rust-lang.org/team.html) announces the
 'final comment period' for RFCs and key PRs which are reaching a
 decision. Express your opinions now.
 
+
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in the final comment period.*
+* [Update the intra-doc link RFC to match the implementation](https://github.com/rust-lang/rfcs/pull/2975)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge][Stabilize Range[Inclusive]::is_empty](https://github.com/rust-lang/rust/pull/75132)
-* [disposition: merge][ stabilize ptr_offset_from](https://github.com/rust-lang/rust/pull/74238)
+* [disposition: merge][Stabilize deque_make_contiguous](https://github.com/rust-lang/rust/pull/74559)
+* [disposition: merge][Tracking issue for hint::spin_loop (renamed sync::atomic::spin_loop_hint)](https://github.com/rust-lang/rust/issues/55002)
 
 ## New RFCs
 
@@ -158,15 +165,17 @@ decision. Express your opinions now.
 # Upcoming Events
 
 ### Online
-* [August 19. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out Night](https://www.meetup.com/Vancouver-Rust/events/vcgsvrybclbzb/)
-* [August 20. RustConf](https://rustconf.com/)
-* [September 08. Saarbrücken, DE - Rust-Saar Meetup `3u16.map_err(...)`](https://www.meetup.com/Rust-Saar/events/272522454/)
+* [September 2. Johannesburg, ZA - Monthly Joburg Rust Chat! - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/272786420/)
+* [September 2. Dublin, IE - Rust Dublin September Remote Meetup](https://www.meetup.com/Rust-Dublin/events/272781420/?action=rsvp&response=yes)
+* [September 2. Indianapolis, IN, US - Indy Rust - Indy.rs - with Social Distancing](https://www.meetup.com/indyrs)
+* [September 3. Berlin, DE - Berlin.rs - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybcmbfb/)
+* [September 8. Saarbrücken, DE - Rust-Saar Meetup - `3u16.map_err(...)`](https://www.meetup.com/Rust-Saar/events/272522454/)
 
 ### North America
-* [August 25. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybclbhc/)
+* [September 9. Atlanta, GA, US - Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybcmbmb/)
 
 ### Asia Pacific
-* [August 18. Seoul, KR - Rust Meetup - Rust last 6 months review (also available on Zoom)](https://www.meetup.com/Rust-Seoul-Meetup/events/qfkdvrybclbxb/)
+* [September 7. Auckland, NZ - Rust AKL - Finally, good Rust IDE support in VSCode: rust-analyzer](https://www.meetup.com/rust-akl/events/266876702/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -176,6 +185,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Senior Engineer - Embedded Rust at Ockam (Remote)](https://www.ockam.io/team/Senior-Engineer-Embedded-Rust/31b8be44-ca35-5e12-8777-ab16d7b08033)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
