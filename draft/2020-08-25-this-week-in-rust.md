@@ -25,10 +25,14 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 ### Observations/Thoughts
 
 * [A Story of Rusty Containers, Queues, and the Role of Assumed Identity](https://dev.to/pnehrer/a-story-of-rusty-containers-queues-and-the-role-of-assumed-identity-kl2)
+* [As above, so below: Bare metal Rust generics](https://www.ecorax.net/as-above-so-below-1/)
 
 ### Learn Standard Rust
 
 ### Learn More Rust
+
+* [PL] [CrabbyBird #0 Pierwsza przygoda z Rustem i Godotem](https://postacnormalna.pl/pierwsza-przygoda-z-rustem-i-godotem/)
+* [video][Build a Smart Bookmarking Tool with Rust and Rocket Video Series](https://www.youtube.com/playlist?list=PLzIwronG0sE56c6hDYOKW3-rPxmIyttoe)
 
 ### Project Updates
 
@@ -36,9 +40,9 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 # Crate of the Week
 
-This week's crate is [cargo-c](https://github.com/lu-zero/cargo-c), a cargo subcommand to build and install C-ABI compatibile dynamic and static libraries.
+This week's crate is [pdf](https://github.com/pdf-rs/pdf), a crate for reading PDF files.
 
-Thanks to [Zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/799) for the suggestion!
+Thanks to [S3bk](https://users.rust-lang.org/t/crate-of-the-week/2704/806) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -57,26 +61,36 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-345 pull requests were [merged in the last week][merged]
+292 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-08-10..2020-08-17
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-08-17..2020-08-24
 
-* [use existing `infcx` when emitting trait impl diagnostic](https://github.com/rust-lang/rust/pull/75363)
-* [detect JS-style `===` and `!==` and recover](https://github.com/rust-lang/rust/pull/75321)
-* [detect likely `for foo of bar` JS syntax](https://github.com/rust-lang/rust/pull/75320)
-* [move stack size check to `const_eval` machine](https://github.com/rust-lang/rust/pull/75338)
-* [add `array` lang item and `[T; N]::map(f: FnMut(T) -> S)`](https://github.com/rust-lang/rust/pull/75212)
-* [remove branch in optimized `is_ascii`](https://github.com/rust-lang/rust/pull/74562)
-* [constified `str::from_utf8_unchecked`](https://github.com/rust-lang/rust/pull/75157)
-* [hard way to respect `BTreeMap`'s minimum node length](https://github.com/rust-lang/rust/pull/75105)
-* [BTreeMap: purge innocent use of `into_kv_mut`](https://github.com/rust-lang/rust/pull/75195)
-* [hashbrown: implement `FusedIterator` and `size_hint` for `DrainFilter`](https://github.com/rust-lang/hashbrown/pull/188)
-* [rustdoc: don't print "const" keyword on non-nightly build if `rustc_const_unstable` is used on the item](https://github.com/rust-lang/rust/pull/74936)
+* [remove fast path in reallocation for same layout sizes](https://github.com/rust-lang/rust/pull/75621)
+* [missing doc examples lint improvements](https://github.com/rust-lang/rust/pull/75776)
+* [promote missing_fragment_specifier to hard error](https://github.com/rust-lang/rust/pull/75516)
+* [polymorphize: if any param in a predicate is used, then all are used](https://github.com/rust-lang/rust/pull/75595)
+* [make `OnceCell<T>` transparent to dropck](https://github.com/rust-lang/rust/pull/75648)
+* [don't panic in `Vec::shrink_to_fit`](https://github.com/rust-lang/rust/pull/75677)
+* [improve codegen for `align_offset`](https://github.com/rust-lang/rust/pull/75600)
+* [add `Arc::new_cyclic`](https://github.com/rust-lang/rust/pull/75505)
+* [new zeroed slice](https://github.com/rust-lang/rust/pull/75171)
+* [make `<*const T>::is_null` const fn](https://github.com/rust-lang/rust/pull/74940)
+* [stabilize `ptr_offset_from`](https://github.com/rust-lang/rust/pull/74238)
+* [use `min_specialization` in libcore](https://github.com/rust-lang/rust/pull/73565)
+* [const floating point bitcasts and classification](https://github.com/rust-lang/rust/pull/72449)
+* [compiler-builtins: add mips/mips64 compiler-rt fallbacks so that libgcc is not required](https://github.com/rust-lang/compiler-builtins/pull/341)
++ [pin-utils: deprecate unsafe pin projection macros](https://github.com/rust-lang/pin-utils/pull/33)
+* [git2: fix dangling pointer in format_email](https://github.com/rust-lang/git2-rs/pull/614)
+* [git2: add support for zlib-ng](https://github.com/rust-lang/git2-rs/pull/612)
+* [cargo: remove unnecessary allocations](https://github.com/rust-lang/cargo/pull/8641)
+* [rust-bindgen: do generate unnamed enums, as they can be referred to by members and others](https://github.com/rust-lang/rust-bindgen/pull/1882)
 
 ## Rust Compiler Performance Triage
 
-* [2020-08-17](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-08-17.md).
-  4 regressions, 3 improvements, 4 mixed bags.
+* [2020-08-24](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-08-24.md):
+  1 regression, 4 improvements.
+  
+  This week included a major speedup on optimized builds of real-world crates (up to 5%) as a result of the [upgrade to LLVM 11](https://github.com/rust-lang/rust/pull/73526#issuecomment-679374070).
 
 ## Approved RFCs
 
@@ -109,6 +123,7 @@ decision. Express your opinions now.
 ### Online
 * [August 19. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out Night](https://www.meetup.com/Vancouver-Rust/events/vcgsvrybclbzb/)
 * [August 20. RustConf](https://rustconf.com/)
+* [September 08. Saarbrücken, DE - Rust-Saar Meetup `3u16.map_err(...)`](https://www.meetup.com/Rust-Saar/events/272522454/)
 
 ### North America
 * [August 25. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybclbhc/)
@@ -129,11 +144,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> As Dave Herman always told me, “macros are for when you run out of language”. If you still have language left—and Rust gives you a lot of language—use the language first.
+> Rust is a very different beast for me. It is a *much* bigger and *much* more capable language. However, I've found that it is, in many ways, a lot more restrictive in how you can approach problems. I frequently find myself being perplexed at how to eloquently solve a problem. When I discover the idiomatic way of doing it I'm usually both blown away by the brilliance of it and a bit disheartened by how difficult it would be to come up with that solution by myself :-).
 
-- [Patrick Walton on twitter](https://twitter.com/pcwalton/status/1294676975575896064)
+- [mikekchar on /r/rust](https://reddit.com/r/rust/comments/id8n8d/are_some_of_you_coming_from_javascript_ts/g27d3ni/)
 
-Thanks to [Nixon Enraght-Moony](https://users.rust-lang.org/t/twir-quote-of-the-week/328/926) for the suggestion!
+Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/931) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
