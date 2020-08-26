@@ -107,6 +107,7 @@ decision. Express your opinions now.
 ### Online
 * [August 19. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out Night](https://www.meetup.com/Vancouver-Rust/events/vcgsvrybclbzb/)
 * [August 20. RustConf](https://rustconf.com/)
+* [September 08. Saarbrücken, DE - Rust-Saar Meetup `3u16.map_err(...)`](https://www.meetup.com/Rust-Saar/events/272522454/)
 
 ### North America
 * [August 25. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/nppvrrybclbhc/)
