@@ -28,7 +28,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Learn More Rust
 
-[video][Build a Smart Bookmarking Tool with Rust and Rocket Video Series](https://www.youtube.com/playlist?list=PLzIwronG0sE56c6hDYOKW3-rPxmIyttoe)
+* [PL] [CrabbyBird #0 Pierwsza przygoda z Rustem i Godotem](https://postacnormalna.pl/pierwsza-przygoda-z-rustem-i-godotem/)
+* [video][Build a Smart Bookmarking Tool with Rust and Rocket Video Series](https://www.youtube.com/playlist?list=PLzIwronG0sE56c6hDYOKW3-rPxmIyttoe)
 
 ### Project Updates
 
