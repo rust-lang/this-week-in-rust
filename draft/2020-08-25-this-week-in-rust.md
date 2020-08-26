@@ -40,6 +40,8 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Learn Standard Rust
 * [Why can't I early return in an if statement in Rust?](https://www.christopherbiscardi.com/why-can-t-i-early-return-in-an-if-statement-in-rust)
+* [Bleed Less during Runtime with Rust's Lifetime](https://blog.knoldus.com/bleed-less-during-runtime-with-rusts-lifetime/)
+* [A Javascript Developer's Cheatsheet for Rust](https://tndl.me/blog/2020/rust-javascript-cheatsheet/)
 * [video] [RustConf 2020 - Macros for a More Productive Rust](https://youtu.be/dZiWkbnaQe8)
 * [video] [RustConf 2020 - Rust for Non-Systems Programmers](https://youtu.be/BBvcK_nXUEg)
 
@@ -68,6 +70,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 ### Miscellaneous
 * [Rust-style futures in C](https://axelforsman.tk/2020/08/24/rust-style-futures-in-c.html)
 * [Porting a Golang and Rust CLI tool to D](https://blog.pingfrommorocco.com/2020/08/porting-golang-and-rust-cli-tool-to-d.html)
+* [How to Read First Impression Posts](https://www.possiblerust.com/community/how-to-read-first-impression-posts)
 * [audio] [The Virtual World - Embedded Rust & Ferrous Systems - James Munns](https://anchor.fm/the-virtual-world/episodes/Embedded-Rust--Ferrous-Systems---James-Munns-eidv76)
 * [audio] [Rust GameDev Podcast - Interview with Herbert Wolverson (Bracket-Lib)](https://rustgamedev.com/episodes/interview-with-herbert-wolverson-bracket-lib)
 * [video] [Before Main: How Executables Work on Linux](https://youtu.be/jR2hUhjcAXI)
@@ -176,6 +179,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Senior Engineer - Embedded Rust at Ockam (Remote)](https://www.ockam.io/team/Senior-Engineer-Embedded-Rust/31b8be44-ca35-5e12-8777-ab16d7b08033)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
