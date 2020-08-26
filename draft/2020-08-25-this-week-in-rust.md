@@ -19,6 +19,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 ### Official
 
 ### Tooling
+* [Contributing to the IntelliJ Rust plugin](https://kobzol.github.io/rust/intellij/2020/07/31/contributing-0-setup.html)
 
 ### Newsletters
 
