@@ -1,6 +1,6 @@
 Title: This Week in Rust 353
 Number: 353
-Date: 2020-08-25
+Date: 2020-08-26
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
