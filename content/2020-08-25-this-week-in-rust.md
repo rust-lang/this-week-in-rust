@@ -200,4 +200,4 @@ Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
 
-<small>[Discuss on r/rust]()</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/ih8uai/this_week_in_rust_353/)</small>
