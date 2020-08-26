@@ -25,6 +25,7 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 ### Observations/Thoughts
 
+* [A Story of Rusty Containers, Queues, and the Role of Assumed Identity](https://dev.to/pnehrer/a-story-of-rusty-containers-queues-and-the-role-of-assumed-identity-kl2)
 * [As above, so below: Bare metal Rust generics](https://www.ecorax.net/as-above-so-below-1/)
 
 ### Learn Standard Rust
