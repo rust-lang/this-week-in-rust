@@ -1,0 +1,58 @@
+Number: 353  Date: 2020-08-26 
+
+### Official
+### Tooling
+* [Contributing to the IntelliJ Rust plugin](https://kobzol.github.io/rust/intellij/2020/07/31/contributing-0-setup.html)
+* [IntelliJ Rust Changelog #129](https://intellij-rust.github.io/2020/08/24/changelog-129.html)
+* [Rust Analyzer Changelog #39](https://rust-analyzer.github.io/thisweek/2020/08/24/changelog-39.html)
+### Newsletters
+* [This Week in Veloren 81](https://veloren.net/devblog-81/)
+* [The Embedded Working Group Newsletter - 25](https://rust-embedded.github.io/blog/newsletter-25/)
+### Observations/Thoughts
+* [A Story of Rusty Containers, Queues, and the Role of Assumed Identity](https://dev.to/pnehrer/a-story-of-rusty-containers-queues-and-the-role-of-assumed-identity-kl2)
+* [As above, so below: Bare metal Rust generics](https://www.ecorax.net/as-above-so-below-1/)
+* [First thoughts on Rust vs OCaml](https://blog.darklang.com/first-thoughts-on-rust-vs-ocaml/)
+* [The problem of safe FFI bindings in Rust](https://www.abubalay.com/blog/2020/08/22/safe-bindings-in-rust)
+* [That's so Rusty!](https://dev.to/imaculate3/that-s-so-rusty-3akm)
+* [Profiling Doesn't Always Have To Be Fancy](https://www.justanotherdot.com/posts/profiling-doesnt-always-have-to-be-fancy.html)
+* [Why I like Piston, A Rust game engine](https://kai.coding.blog/why-i-like-piston)
+* [The CXX Debate](https://steveklabnik.com/writing/the-cxx-debate)
+* [video] [Bending the curve: A personal tutor at your fingertips](https://youtu.be/Z6X7Ada0ugE)
+### Learn Standard Rust
+* [Why can't I early return in an if statement in Rust?](https://www.christopherbiscardi.com/why-can-t-i-early-return-in-an-if-statement-in-rust)
+* [Bleed Less during Runtime with Rust's Lifetime](https://blog.knoldus.com/bleed-less-during-runtime-with-rusts-lifetime/)
+* [A Javascript Developer's Cheatsheet for Rust](https://tndl.me/blog/2020/rust-javascript-cheatsheet/)
+* [video] [RustConf 2020 - Macros for a More Productive Rust](https://youtu.be/dZiWkbnaQe8)
+* [video] [RustConf 2020 - Rust for Non-Systems Programmers](https://youtu.be/BBvcK_nXUEg)
+### Learn More Rust
+* [Different levels of Async in Rust](https://www.fpcomplete.com/blog/different-levels-async-rust/)
+* [As above, so blow: Bare metal Rust generics 1/2](https://www.ecorax.net/as-above-so-below-1/)
+* [How to run Rust on Arduino Uno](https://dev.to/creativcoder/how-to-run-rust-on-arduino-uno-40c0)
+* [Let's build a single binary gRPC server-client with Rust in 2020 - Part 1](https://dev.to/tjtelan/let-s-build-a-single-binary-grpc-server-client-with-rust-in-2020-part-1-3cnk)
+* [Writing a Test Case Generator for a Programming Language](https://fitzgeraldnick.com/2020/08/24/writing-a-test-case-generator.html)
+* [Day 12: Write web app with actix-web - 100DaysOfRust](https://dev.to/0xbf/day11-write-web-app-with-actix-web-100dayofrust-1lkn)
+* [Kernel printing with Rust](https://not-matthias.github.io/kernel-printing-with-rust/)
+* [Running Animation in Amethyst](https://mtigley.dev/posts/running-animation/)
+* [PL] [CrabbyBird #0 Pierwsza przygoda z Rustem i Godotem](https://postacnormalna.pl/pierwsza-przygoda-z-rustem-i-godotem/)
+* [video] [Build a Smart Bookmarking Tool with Rust and Rocket Video Series](https://www.youtube.com/playlist?list=PLzIwronG0sE56c6hDYOKW3-rPxmIyttoe)
+* [video] [RustConf 2020 - Error Handling Isn't All About Errors](https://youtu.be/rAF8mLI0naQ)
+* [video] [RustConf 2020 - Under a Microscope: Exploring Fast and Safe Rust for Biology](https://youtu.be/2b8InauuRqw)
+* [video] [RustConf 2020 - My First Rust Project: Starting a 2D game with Amethyst](https://youtu.be/GFi_EdS_s_c)
+* [video] [RustConf 2020 - Controlling Telescope Hardware with Rust](https://youtu.be/xlVnp7VOxRE)
+### Project Updates
+* [Rustsim becomes Dimforge](https://www.dimforge.com/blog/2020/08/18/rustsim-becomes-dimforge/)
+* [Announcing the Rapier physics enginge](https://www.dimforge.com/blog/2020/08/25/announcing-the-rapier-physics-engine/)
+* [defmt, a highly efficient Rust logging framework for embedded devices](https://ferrous-systems.com/blog/defmt/)
+* [Scaling Bevy](https://bevyengine.org/news/scaling-bevy/)
+* [One year of Nushell](http://www.nushell.sh/blog/2020/08/23/year_of_nushell.html)
+### Miscellaneous
+* [Rust-style futures in C](https://axelforsman.tk/2020/08/24/rust-style-futures-in-c.html)
+* [Porting a Golang and Rust CLI tool to D](https://blog.pingfrommorocco.com/2020/08/porting-golang-and-rust-cli-tool-to-d.html)
+* [How to Read First Impression Posts](https://www.possiblerust.com/community/how-to-read-first-impression-posts)
+* [audio] [The Virtual World - Embedded Rust & Ferrous Systems - James Munns](https://anchor.fm/the-virtual-world/episodes/Embedded-Rust--Ferrous-Systems---James-Munns-eidv76)
+* [audio] [Rust GameDev Podcast - Interview with Herbert Wolverson (Bracket-Lib)](https://rustgamedev.com/episodes/interview-with-herbert-wolverson-bracket-lib)
+* [video] [Before Main: How Executables Work on Linux](https://youtu.be/jR2hUhjcAXI)
+* [video] [RustConf 2020 - Opening Keynote](https://youtu.be/IwPRu5FhfIQ)
+* [video] [RustConf 2020 - How to Start a Solo Project that You'll Stick With](https://youtu.be/yv6L_xmjw5I)
+* [video] [RustConf 2020 - Closing Keynote](https://youtu.be/RNsEsZbXE-4)
+
