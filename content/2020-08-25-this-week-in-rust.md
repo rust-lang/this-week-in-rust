@@ -45,7 +45,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Learn More Rust
 * [Different levels of Async in Rust](https://www.fpcomplete.com/blog/different-levels-async-rust/)
-* [As above, so blow: Bare metal Rust generics 1/2](https://www.ecorax.net/as-above-so-below-1/)
 * [How to run Rust on Arduino Uno](https://dev.to/creativcoder/how-to-run-rust-on-arduino-uno-40c0)
 * [Let's build a single binary gRPC server-client with Rust in 2020 - Part 1](https://dev.to/tjtelan/let-s-build-a-single-binary-grpc-server-client-with-rust-in-2020-part-1-3cnk)
 * [Writing a Test Case Generator for a Programming Language](https://fitzgeraldnick.com/2020/08/24/writing-a-test-case-generator.html)
