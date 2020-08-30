@@ -30,6 +30,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [Serverless Data Ingestion with Rust and AWS SES](http://jamesmcm.github.io/blog/2020/08/29/rust-ses/#en)
+
 # Crate of the Week
 
 This week's crate is [pdf](https://github.com/pdf-rs/pdf), a crate for reading PDF files.
