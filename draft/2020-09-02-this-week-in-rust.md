@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+[rust vs scripted languages; a short case study](https://www.linkedin.com/pulse/rust-goodness-case-study-matthew-sherborne)
+
 ### Learn Standard Rust
 
 ### Learn More Rust
