@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Tooling
 
 ### Newsletters
+[This August in my database project written in Rust](https://alex-dukhno.github.io/2020-08-29-This-August-in-my-Database-project-written-in-rust-copy/)
 
 ### Observations/Thoughts
 
@@ -46,6 +47,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+[Database in Rust is looking for contributors](https://github.com/alex-dukhno/database/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
