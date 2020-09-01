@@ -30,6 +30,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [Refactoring Rust Transpiled from C](https://immunant.com/blog/2020/09/transpiled_c_safety/)
+
 # Crate of the Week
 
 This week's crate is [pdf](https://github.com/pdf-rs/pdf), a crate for reading PDF files.
