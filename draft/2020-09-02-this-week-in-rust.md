@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Learn More Rust
 
+[Generating static arrays during compile time in Rust](https://dev.to/rustyoctopus/generating-static-arrays-during-compile-time-in-rust-10d8)
+
 ### Project Updates
 
 ### Miscellaneous
