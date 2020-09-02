@@ -28,6 +28,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project Updates
 
+* [This August in my database project written in Rust](https://alex-dukhno.github.io/2020-08-29-This-August-in-my-Database-project-written-in-rust-copy/)
+
 ### Miscellaneous
 
 # Crate of the Week
@@ -47,7 +49,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-- [Docs.rs is looking for help adding a changelog](https://github.com/rust-lang/docs.rs/issues/1013)
+* [Database in Rust is looking for contributors](https://github.com/alex-dukhno/database/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
+* [Docs.rs is looking for help adding a changelog](https://github.com/rust-lang/docs.rs/issues/1013)
+
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
