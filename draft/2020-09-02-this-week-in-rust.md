@@ -121,6 +121,7 @@ decision. Express your opinions now.
 * [September 2. Indianapolis, IN, US - Indy Rust - Indy.rs - with Social Distancing](https://www.meetup.com/indyrs)
 * [September 3. Berlin, DE - Berlin.rs - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybcmbfb/)
 * [September 8. Saarbrücken, DE - Rust-Saar Meetup - `3u16.map_err(...)`](https://www.meetup.com/Rust-Saar/events/272522454/)
+* [September 9. East Coast, US - Rust East Coast Virtual Talks + Q&A](https://www.meetup.com/Rust-NYC/events/272982073/)
 
 ### North America
 * [September 9. Atlanta, GA, US - Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybcmbmb/)
