@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Tooling
 * [Rust Analyzer Changelog #40](https://rust-analyzer.github.io/thisweek/2020/08/31/changelog-40.html)
+* Contributing to the IntelliJ Rust plugin: Writing an intention](https://kobzol.github.io/rust/intellij/2020/08/25/contributing-2-subst-assoc-type-int.html)
 
 ### Newsletters
 
