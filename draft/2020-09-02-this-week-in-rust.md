@@ -19,9 +19,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Tooling
 * [Rust Analyzer Changelog #40](https://rust-analyzer.github.io/thisweek/2020/08/31/changelog-40.html)
-* Contributing to the IntelliJ Rust plugin: Writing an intention](https://kobzol.github.io/rust/intellij/2020/08/25/contributing-2-subst-assoc-type-int.html)
+* [Contributing to the IntelliJ Rust plugin: Writing an intention](https://kobzol.github.io/rust/intellij/2020/08/25/contributing-2-subst-assoc-type-int.html)
 
 ### Newsletters
+* [Rust in Blockchain Newsletter #15 - Turbofish in the Blocksea](https://rustinblockchain.org/newsletters/2020-09-02-turbofish-in-the-blocksea/)
 
 ### Observations/Thoughts
 * [Should we trust Rust with the future of systems programming?](https://edfloreshz.blog/should-we-trust-rust-with-the-future-of-systems-programming)
@@ -31,9 +32,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Starframe devlog: Architecture](https://moletrooper.github.io/blog/2020/08/starframe-1-architecture/)
 * [Event Chaining as a Decoupling Method in Entity-Component-System](https://www.jojolepro.com/blog/2020-08-20_event_chaining/)
 * [Rust serialization: What's ready for production today?](https://blog.logrocket.com/rust-serialization-whats-ready-for-production-today/)
+* [rust vs scripted languages; a short case study](https://www.linkedin.com/pulse/rust-goodness-case-study-matthew-sherborne)
+* [DE] [Entwicklung: Warum Rust die Antwort auf miese Software und Programmierfehler ist](https://www.heise.de/hintergrund/Entwicklung-Warum-Rust-die-Antwort-auf-miese-Software-und-Programmierfehler-ist-4879795.html)
 * [video] [Is Rust Used Safely by Software Developers?](https://youtu.be/iOBXVOAbpdY)
-
-[rust vs scripted languages; a short case study](https://www.linkedin.com/pulse/rust-goodness-case-study-matthew-sherborne)
 
 ### Learn Standard Rust
 * [Ownership in Rust, Part 1](https://www.thomascountz.com/2018/07/09/ownership-in-rust-part-1)
@@ -58,11 +59,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Serverless Data Ingestion with Rust and AWS SES](http://jamesmcm.github.io/blog/2020/08/29/rust-ses/#en)
 * [Box Plots at the Olympics](https://datacrayon.com/posts/programming/rust-notebooks/box-plots-at-the-olympics/)
 * [Fixing include_bytes!](https://jack.wrenn.fyi/blog/include-transmute/)
+* [Generating static arrays during compile time in Rust](https://dev.to/rustyoctopus/generating-static-arrays-during-compile-time-in-rust-10d8)
+* [PL] [CrabbyBird #1 O tym, jak animować postać gracza](https://postacnormalna.pl/animacja-kraboptaka/)
 * [video] [FLTK Rust: Creating a music player with customized widgets](https://youtu.be/okdFx6tv7ds)
-
-[PL] [CrabbyBird #1 O tym, jak animować postać gracza](https://postacnormalna.pl/animacja-kraboptaka/)
-
-[Generating static arrays during compile time in Rust](https://dev.to/rustyoctopus/generating-static-arrays-during-compile-time-in-rust-10d8)
 
 ### Project Updates
 * [This August in my database project written in Rust](https://alex-dukhno.github.io/2020-08-29-This-August-in-my-Database-project-written-in-rust-copy/)
@@ -102,6 +101,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [Database in Rust is looking for contributors](https://github.com/alex-dukhno/database/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
 * [Docs.rs is looking for help adding a changelog](https://github.com/rust-lang/docs.rs/issues/1013)
+* [Gooseberry has several good first issues with mentoring available](https://github.com/out-of-cheese-error/gooseberry/labels/good%20first%20issue)
+* [Diskonaut - Option to delete without confirmation?](https://github.com/imsnif/diskonaut/issues/68)
+* [Diskonaut - Feature: only show "(x = Small files)" legend when there are small files on the screen](https://github.com/imsnif/diskonaut/issues/15)
+* [Diskonaut - Feature: error reporting with clean stacktraces](https://github.com/imsnif/diskonaut/issues/18)
 
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -154,32 +157,35 @@ Every week [the team](https://www.rust-lang.org/team.html) announces the
 'final comment period' for RFCs and key PRs which are reaching a
 decision. Express your opinions now.
 
-
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [Update the intra-doc link RFC to match the implementation](https://github.com/rust-lang/rfcs/pull/2975)
+* [RFC: Named arguments](https://github.com/rust-lang/rfcs/pull/2964)
+* [eRFC: Add JSON backend to Rustdoc](https://github.com/rust-lang/rfcs/pull/2963)
+* [RFC: Reading into uninitialized buffers](https://github.com/rust-lang/rfcs/pull/2930)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge][Stabilize deque_make_contiguous](https://github.com/rust-lang/rust/pull/74559)
-* [disposition: merge][Tracking issue for hint::spin_loop (renamed sync::atomic::spin_loop_hint)](https://github.com/rust-lang/rust/issues/55002)
+* [disposition: merge][Add `#[cfg(panic = '...')]`](https://github.com/rust-lang/rust/pull/74754)
+* [disposition: merge][Allow Weak::as_ptr and friends for unsized T](https://github.com/rust-lang/rust/pull/74160)
+* [disposition: merge][Update stdarch](https://github.com/rust-lang/rust/pull/73166)
+* [disposition: merge][Tracking issue for #[doc(alias = "...")]](https://github.com/rust-lang/rust/issues/50146)
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [Safer Transmute](https://github.com/rust-lang/rfcs/pull/2981)
+* [[RFC]: Libs Team Governance](https://github.com/rust-lang/rfcs/pull/2979)
+* [[RFC]: Portable SIMD Libs Project Group](https://github.com/rust-lang/rfcs/pull/2977)
 
 # Upcoming Events
 
 ### Online
-* [September 2. Johannesburg, ZA - Monthly Joburg Rust Chat! - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/272786420/)
-* [September 2. Dublin, IE - Rust Dublin September Remote Meetup](https://www.meetup.com/Rust-Dublin/events/272781420/?action=rsvp&response=yes)
-* [September 2. Indianapolis, IN, US - Indy Rust - Indy.rs - with Social Distancing](https://www.meetup.com/indyrs)
-* [September 3. Berlin, DE - Berlin.rs - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybcmbfb/)
 * [September 8. Saarbrücken, DE - Rust-Saar Meetup - `3u16.map_err(...)`](https://www.meetup.com/Rust-Saar/events/272522454/)
+* [September 8. Seattle, WA, US - Seattle Rust Meetup - Monthly meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybcmblb/)
 * [September 9. East Coast, US - Rust East Coast Virtual Talks + Q&A](https://www.meetup.com/Rust-NYC/events/272982073/)
 
 ### North America
 * [September 9. Atlanta, GA, US - Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybcmbmb/)
+* [September 10. Lehi, UT, US - Utah Rust - The Blue Pill: Rust on Microcontrollers (Sept / Second Round)](https://www.meetup.com/utah-rust/events/268567961/)
 
 ### Asia Pacific
 * [September 7. Auckland, NZ - Rust AKL - Finally, good Rust IDE support in VSCode: rust-analyzer](https://www.meetup.com/rust-akl/events/266876702/)
@@ -192,6 +198,10 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Senior Backend Engineer - Rust at Kraken (Remote US, Remote EMEA)](https://payward.wd1.myworkdayjobs.com/en-US/Kraken_Careers/job/EMEA---Remote/Senior-Backend-Engineer---Rust--Remote-_R-17)
+* [Backend Engineer, Data Processing – Rust at Kraken (Remote US, Remote EMEA)](https://payward.wd1.myworkdayjobs.com/en-US/Kraken_Careers/job/AMER---Remote/Backend-Engineer--Data-Processing---Rust_L-43)
+* [Backend Engineer - Rust at Kraken (Remote US, Remote EMEA)](https://payward.wd1.myworkdayjobs.com/en-US/Kraken_Careers/job/EMEA---Remote/Backend-Engineer---Rust_L-42)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
