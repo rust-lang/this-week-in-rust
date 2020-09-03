@@ -25,7 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 * [Should we trust Rust with the future of systems programming?](https://edfloreshz.blog/should-we-trust-rust-with-the-future-of-systems-programming)
 * [Optionality in the type systems of Julia and Rust](https://andreaskroepelin.de/blog/sum_types/)
-* [Micrating from quick-error to SNAFU: a story on revamped error handling in Rust](https://dev.to/e_net4/migrating-from-quick-error-to-snafu-a-story-on-revamped-error-handling-in-rust-58h9)
+* [Migrating from quick-error to SNAFU: a story on revamped error handling in Rust](https://dev.to/e_net4/migrating-from-quick-error-to-snafu-a-story-on-revamped-error-handling-in-rust-58h9)
 * [Go use those Traits](https://prateeknischal.github.io/go-use-those-traits/)
 * [Starframe devlog: Architecture](https://moletrooper.github.io/blog/2020/08/starframe-1-architecture/)
 * [Event Chaining as a Decoupling Method in Entity-Component-System](https://www.jojolepro.com/blog/2020-08-20_event_chaining/)
