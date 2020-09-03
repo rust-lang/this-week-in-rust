@@ -61,6 +61,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 [PL] [CrabbyBird #1 O tym, jak animować postać gracza](https://postacnormalna.pl/animacja-kraboptaka/)
 
+[Generating static arrays during compile time in Rust](https://dev.to/rustyoctopus/generating-static-arrays-during-compile-time-in-rust-10d8)
+
 ### Project Updates
 * [This August in my database project written in Rust](https://alex-dukhno.github.io/2020-08-29-This-August-in-my-Database-project-written-in-rust-copy/)
 * [Using Rust for Kentik's New Synthetic Monitoring Agent](https://www.kentik.com/blog/using-rust-for-kentiks-new-synthetic-network-monitoring-agent/)
