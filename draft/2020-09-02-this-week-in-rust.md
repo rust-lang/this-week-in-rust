@@ -59,8 +59,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Serverless Data Ingestion with Rust and AWS SES](http://jamesmcm.github.io/blog/2020/08/29/rust-ses/#en)
 * [Box Plots at the Olympics](https://datacrayon.com/posts/programming/rust-notebooks/box-plots-at-the-olympics/)
 * [Fixing include_bytes!](https://jack.wrenn.fyi/blog/include-transmute/)
-* [PL] [CrabbyBird #1 O tym, jak animować postać gracza](https://postacnormalna.pl/animacja-kraboptaka/)
 * [Generating static arrays during compile time in Rust](https://dev.to/rustyoctopus/generating-static-arrays-during-compile-time-in-rust-10d8)
+* [PL] [CrabbyBird #1 O tym, jak animować postać gracza](https://postacnormalna.pl/animacja-kraboptaka/)
 * [video] [FLTK Rust: Creating a music player with customized widgets](https://youtu.be/okdFx6tv7ds)
 
 ### Project Updates
@@ -102,7 +102,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Database in Rust is looking for contributors](https://github.com/alex-dukhno/database/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
 * [Docs.rs is looking for help adding a changelog](https://github.com/rust-lang/docs.rs/issues/1013)
 * [Gooseberry has several good first issues with mentoring available](https://github.com/out-of-cheese-error/gooseberry/labels/good%20first%20issue)
-* [Diskonaut - Option to delete without confiration?](https://github.com/imsnif/diskonaut/issues/68)
+* [Diskonaut - Option to delete without confirmation?](https://github.com/imsnif/diskonaut/issues/68)
 * [Diskonaut - Feature: only show "(x = Small files)" legend when there are small files on the screen](https://github.com/imsnif/diskonaut/issues/15)
 * [Diskonaut - Feature: error reporting with clean stacktraces](https://github.com/imsnif/diskonaut/issues/18)
 
