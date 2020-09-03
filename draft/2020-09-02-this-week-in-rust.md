@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Tooling
+[Contributing to the IntelliJ Rust plugin: Writing an intention](https://kobzol.github.io/rust/intellij/2020/08/25/contributing-2-subst-assoc-type-int.html)
 
 ### Newsletters
 
