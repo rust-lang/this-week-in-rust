@@ -84,9 +84,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [pdf](https://github.com/pdf-rs/pdf), a crate for reading PDF files.
+This week's crate is [GlueSQL](https://github.com/gluesql/gluesql), a SQL database engine written in Rust with WebAssembly support.
 
-Thanks to [S3bk](https://users.rust-lang.org/t/crate-of-the-week/2704/806) for the suggestion!
+Thanks to [Taehoon Moon](https://users.rust-lang.org/t/crate-of-the-week/2704/807) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -113,29 +113,28 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-292 pull requests were [merged in the last week][merged]
+326 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-08-17..2020-08-24
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-08-24..2020-08-31
 
-* [remove fast path in reallocation for same layout sizes](https://github.com/rust-lang/rust/pull/75621)
-* [missing doc examples lint improvements](https://github.com/rust-lang/rust/pull/75776)
-* [promote missing_fragment_specifier to hard error](https://github.com/rust-lang/rust/pull/75516)
-* [polymorphize: if any param in a predicate is used, then all are used](https://github.com/rust-lang/rust/pull/75595)
-* [make `OnceCell<T>` transparent to dropck](https://github.com/rust-lang/rust/pull/75648)
-* [don't panic in `Vec::shrink_to_fit`](https://github.com/rust-lang/rust/pull/75677)
-* [improve codegen for `align_offset`](https://github.com/rust-lang/rust/pull/75600)
-* [add `Arc::new_cyclic`](https://github.com/rust-lang/rust/pull/75505)
-* [new zeroed slice](https://github.com/rust-lang/rust/pull/75171)
-* [make `<*const T>::is_null` const fn](https://github.com/rust-lang/rust/pull/74940)
-* [stabilize `ptr_offset_from`](https://github.com/rust-lang/rust/pull/74238)
-* [use `min_specialization` in libcore](https://github.com/rust-lang/rust/pull/73565)
-* [const floating point bitcasts and classification](https://github.com/rust-lang/rust/pull/72449)
-* [compiler-builtins: add mips/mips64 compiler-rt fallbacks so that libgcc is not required](https://github.com/rust-lang/compiler-builtins/pull/341)
-+ [pin-utils: deprecate unsafe pin projection macros](https://github.com/rust-lang/pin-utils/pull/33)
-* [git2: fix dangling pointer in format_email](https://github.com/rust-lang/git2-rs/pull/614)
-* [git2: add support for zlib-ng](https://github.com/rust-lang/git2-rs/pull/612)
-* [cargo: remove unnecessary allocations](https://github.com/rust-lang/cargo/pull/8641)
-* [rust-bindgen: do generate unnamed enums, as they can be referred to by members and others](https://github.com/rust-lang/rust-bindgen/pull/1882)
+* [point to a move-related span when pointing to closure upvars](https://github.com/rust-lang/rust/pull/75933)
+* [abort when foreign exceptions are caught by `catch_unwind`](https://github.com/rust-lang/rust/pull/70212)
+* [new pass to optimize `if` conditions on integrals to switches on the integer](https://github.com/rust-lang/rust/pull/75370)
+* [suggest `mem::forget` if `mem::ManuallyDrop::new` isn't used](https://github.com/rust-lang/rust/pull/75912)
+* [improve error message when typo is made in `format!`](https://github.com/rust-lang/rust/pull/75779)
+* [allow reallocation to different alignment in `AllocRef`](https://github.com/rust-lang/rust/pull/75687)
+* [add some avx512f intrinsics for mask, rotation, shift](https://github.com/rust-lang/stdarch/pull/884)
+* [make some `Ordering` methods const](https://github.com/rust-lang/rust/pull/75463)
+* [stabilize {`Range`, `RangeInclusive`}`::is_empty`](https://github.com/rust-lang/rust/pull/75132)
+* [get rid of bounds check in `slice::chunks_exact()` and related functions](https://github.com/rust-lang/rust/pull/75936)
+* [stdarch: avx512](https://github.com/rust-lang/stdarch/pull/887)
+* [hashbrown: make `with_hasher` functions const fn](https://github.com/rust-lang/hashbrown/pull/195)
+* [hashbrown: implement `replace_entry_with`](https://github.com/rust-lang/hashbrown/pull/190)
+* [clippy: add a lint for an async block/closure that yields a type that is itself awaitable](https://github.com/rust-lang/rust-clippy/pull/5909)
+* [use `rustc_lexer` for rustdoc syntax highlighting](https://github.com/rust-lang/rust/pull/75775)
+* [report an ambiguity if both modules and primitives are in scope for intra-doc links](https://github.com/rust-lang/rust/pull/75815)
+* [rustdoc: improve rendering of crate features via `doc(cfg)`](https://github.com/rust-lang/rust/pull/75330)
+* [docs.rs: separate metadata parsing into a library](https://github.com/rust-lang/docs.rs/pull/1000)
 
 ## Rust Compiler Performance Triage
 
@@ -207,11 +206,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Rust is a very different beast for me. It is a *much* bigger and *much* more capable language. However, I've found that it is, in many ways, a lot more restrictive in how you can approach problems. I frequently find myself being perplexed at how to eloquently solve a problem. When I discover the idiomatic way of doing it I'm usually both blown away by the brilliance of it and a bit disheartened by how difficult it would be to come up with that solution by myself :-).
+> When the answer to your question contains the word "variance" you're probably going to have a bad time.
 
-- [mikekchar on /r/rust](https://reddit.com/r/rust/comments/id8n8d/are_some_of_you_coming_from_javascript_ts/g27d3ni/)
+- [trentj on rust-users](https://users.rust-lang.org/t/in-this-mesh-class-whats-wrong-with-my-use-of-lifetimes/47946/4)
 
-Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/931) for the suggestion!
+Thanks to [Michael Bryan](https://users.rust-lang.org/t/twir-quote-of-the-week/328/937) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
