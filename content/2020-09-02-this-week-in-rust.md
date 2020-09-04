@@ -1,6 +1,6 @@
 Title: This Week in Rust 354
 Number: 354
-Date: 2020-09-02
+Date: 2020-09-04
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
