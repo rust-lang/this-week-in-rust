@@ -141,8 +141,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [2020-08-31](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-08-31.md):
   1 regression, 2 improvements.
   
-  This week included a major speedup on patched incremental builds by [assigning empty names to structs](https://github.com/rust-lang/rust/pull/76030) instead of letting LLVM generate them.
-
 ## Approved RFCs
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
