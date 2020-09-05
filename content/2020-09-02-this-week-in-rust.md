@@ -138,10 +138,10 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-* [2020-08-24](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-08-24.md):
-  1 regression, 4 improvements.
+* [2020-08-31](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-08-31.md):
+  1 regression, 2 improvements.
   
-  This week included a major speedup on optimized builds of real-world crates (up to 5%) as a result of the [upgrade to LLVM 11](https://github.com/rust-lang/rust/pull/73526#issuecomment-679374070).
+  This week included a major speedup on patched incremental builds by [assigning empty names to structs](https://github.com/rust-lang/rust/pull/76030) instead of letting LLVM generate them.
 
 ## Approved RFCs
 
