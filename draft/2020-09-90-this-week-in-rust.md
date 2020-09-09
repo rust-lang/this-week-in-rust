@@ -32,9 +32,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [GlueSQL](https://github.com/gluesql/gluesql), a SQL database engine written in Rust with WebAssembly support.
+This week's crate is [serde-query](https://github.com/pandaman64/serde-query/), an efficient query language for Serde.
 
-Thanks to [Taehoon Moon](https://users.rust-lang.org/t/crate-of-the-week/2704/807) for the suggestion!
+Thanks to [Vlad Frolov](https://users.rust-lang.org/t/crate-of-the-week/2704/810) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -53,28 +53,33 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-326 pull requests were [merged in the last week][merged]
+332 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-08-24..2020-08-31
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-08-31..2020-09-07
 
-* [point to a move-related span when pointing to closure upvars](https://github.com/rust-lang/rust/pull/75933)
-* [abort when foreign exceptions are caught by `catch_unwind`](https://github.com/rust-lang/rust/pull/70212)
-* [new pass to optimize `if` conditions on integrals to switches on the integer](https://github.com/rust-lang/rust/pull/75370)
-* [suggest `mem::forget` if `mem::ManuallyDrop::new` isn't used](https://github.com/rust-lang/rust/pull/75912)
-* [improve error message when typo is made in `format!`](https://github.com/rust-lang/rust/pull/75779)
-* [allow reallocation to different alignment in `AllocRef`](https://github.com/rust-lang/rust/pull/75687)
-* [add some avx512f intrinsics for mask, rotation, shift](https://github.com/rust-lang/stdarch/pull/884)
-* [make some `Ordering` methods const](https://github.com/rust-lang/rust/pull/75463)
-* [stabilize {`Range`, `RangeInclusive`}`::is_empty`](https://github.com/rust-lang/rust/pull/75132)
-* [get rid of bounds check in `slice::chunks_exact()` and related functions](https://github.com/rust-lang/rust/pull/75936)
-* [stdarch: avx512](https://github.com/rust-lang/stdarch/pull/887)
-* [hashbrown: make `with_hasher` functions const fn](https://github.com/rust-lang/hashbrown/pull/195)
-* [hashbrown: implement `replace_entry_with`](https://github.com/rust-lang/hashbrown/pull/190)
-* [clippy: add a lint for an async block/closure that yields a type that is itself awaitable](https://github.com/rust-lang/rust-clippy/pull/5909)
-* [use `rustc_lexer` for rustdoc syntax highlighting](https://github.com/rust-lang/rust/pull/75775)
-* [report an ambiguity if both modules and primitives are in scope for intra-doc links](https://github.com/rust-lang/rust/pull/75815)
-* [rustdoc: improve rendering of crate features via `doc(cfg)`](https://github.com/rust-lang/rust/pull/75330)
-* [docs.rs: separate metadata parsing into a library](https://github.com/rust-lang/docs.rs/pull/1000)
+* [inliner: avoid query cycles when optimizing generators](https://github.com/rust-lang/rust/pull/76245)
+* [diagnostics: shorten paths of unique symbols](https://github.com/rust-lang/rust/pull/73996)
+* [add `-Z proc-macro-backtrace` to allow showing proc-macro panics](https://github.com/rust-lang/rust/pull/75082)
+* [suggest `if let x = y` when encountering `if x = y`](https://github.com/rust-lang/rust/pull/75931)
+* [MIR peephole optimize {Ne, Eq}(_1, false) into _1](https://github.com/rust-lang/rust/pull/76067)
+* [miri: move panic payload state from Machine to Thread](https://github.com/rust-lang/miri/pull/1532)
+* [eliminate some other bound checks when index comes from an enum](https://github.com/rust-lang/rust/pull/75529)
+* [improve recovery on malformed `format!` call](https://github.com/rust-lang/rust/pull/76160)
+* [specialize some collection and iterator operations to run in-place](https://github.com/rust-lang/rust/pull/70793)
+* [stabilize `deque_make_contiguous`](https://github.com/rust-lang/rust/pull/74559)
+* [add `slice::check_range`](https://github.com/rust-lang/rust/pull/75207)
+* [BTreeMap: introduce marker::ValMut and reserve Mut for unique access](https://github.com/rust-lang/rust/pull/75200)
+* [add `[T; N]::as_[mut_]slice`](https://github.com/rust-lang/rust/pull/76120)
+* [implement `Seek::stream_position()` for `BufReader`](https://github.com/rust-lang/rust/pull/74366)
+* [`impl Rc::new_cyclic`](https://github.com/rust-lang/rust/pull/75994)
+* [make `cow_is_borrowed` methods const](https://github.com/rust-lang/rust/pull/76139)
+* [compiler-builtins: greatly improve division performance for u128 and other cases](https://github.com/rust-lang/compiler-builtins/pull/332)
+* [stdarch: bye bye MMX!](https://github.com/rust-lang/stdarch/pull/890)
+* [stdarch: AVX512](https://github.com/rust-lang/stdarch/pull/891)
+* [futures-rs: implement `FusedStream` for `FuturesOrdered`](https://github.com/rust-lang/futures-rs/pull/2205)
+* [futures-rs: fix UB due to missing `'static` on `task::waker`](https://github.com/rust-lang/futures-rs/pull/2206)
+* [hashbrown: use the alloc crate on stable Rust](https://github.com/rust-lang/hashbrown/pull/197)
+* [hashbrown: remove `from_key_hashed_nocheck`'s `Q: Hash`](https://github.com/rust-lang/hashbrown/pull/200)
 
 ## Rust Compiler Performance Triage
 
@@ -143,11 +148,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> When the answer to your question contains the word "variance" you're probably going to have a bad time.
+> It's amazing how frequent such "rare edge cases" can be. Especially when there are millions of people using billions of files originating from God know what operating systems. Far better things are checked properly if one want robust code. As Rust uses do.
 
-- [trentj on rust-users](https://users.rust-lang.org/t/in-this-mesh-class-whats-wrong-with-my-use-of-lifetimes/47946/4)
+- [ZiCog on rust-users](https://users.rust-lang.org/t/disappointed-with-path/48148/5)
 
-Thanks to [Michael Bryan](https://users.rust-lang.org/t/twir-quote-of-the-week/328/937) for the suggestion!
+Thanks to [Edoardo Morandi](https://users.rust-lang.org/t/twir-quote-of-the-week/328/938) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
