@@ -84,10 +84,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-* [2020-08-24](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-08-24.md):
-  1 regression, 4 improvements.
+* [2020-09-08](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-08.md):
+  3 regressions, 0 improvements.
   
-  This week included a major speedup on optimized builds of real-world crates (up to 5%) as a result of the [upgrade to LLVM 11](https://github.com/rust-lang/rust/pull/73526#issuecomment-679374070).
+A few small compile-time regressions this week. The first was
+[#70793](https://github.com/rust-lang/rust/pull/70793), which added some
+specializations to the standard library in order to increase runtime
+performance. The second was
+[#73996](https://github.com/rust-lang/rust/pull/73996), which adds an option to
+the diagnostics code to print only the names of types and traits when they are
+unique instead of the whole path. The third was
+[#75200](https://github.com/rust-lang/rust/pull/75200), which refactored part
+of `BTreeMap` to avoid aliasing mutable references.
 
 ## Approved RFCs
 
