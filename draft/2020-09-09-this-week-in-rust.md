@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Retrospective of my first useful Rust project](http://jamesmcm.github.io/blog/2020/09/05/vopono/#en)
 
 ### Learn Standard Rust
+* [video] [Choosing Rust - Intro to Rust and Ownership](https://www.youtube.com/watch?v=DMAnfOlhSpU&t=206s)
 
 ### Learn More Rust
 
