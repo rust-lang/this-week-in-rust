@@ -15,27 +15,64 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ### Official
+* [Planning the 2021 Roadmap](https://blog.rust-lang.org/2020/09/03/Planning-2021-Roadmap.html)
 
 ### Tooling
+* [Rust Analyzer Changelog #41](https://rust-analyzer.github.io/thisweek/2020/09/07/changelog-41.html)
+* [IntelliJ Rust Changelog #130](https://intellij-rust.github.io/2020/09/07/changelog-130.html)
 
 ### Newsletters
+* [This Month in Rust GameDev #13 - August 2020](https://rust-gamedev.github.io/posts/newsletter-013/)
+* [This Month in Rust OSDev (August 2020)](https://rust-osdev.com/this-month/2020-08/)
 
 ### Observations/Thoughts
+* [Peeking inside a Rust enum](https://fasterthanli.me/articles/peeking-inside-a-rust-enum)
+* [How to speed up the Rust compiler one last time](https://blog.mozilla.org/nnethercote/2020/09/08/how-to-speed-up-the-rust-compiler-one-last-time/)
+* [Rust on Haiku: the Case of the Disappearing Deceased Threads](https://www.haiku-os.org/blog/nielx/2020-09-06_rust_on_haiku_the_case_of_the_disappearing_deceased_threads/)
+* [C++ vs Rust: an async Thread-per-Core story](https://medium.com/@glaubercosta_11125/c-vs-rust-an-async-thread-per-core-story-28c4b43c410c)
+* [Twistrs - Domain name enumeration library in Rust](https://blog.digital-horror.com/twistrs/)
+* [Retrospective of my first useful Rust project](http://jamesmcm.github.io/blog/2020/09/05/vopono/#en)
+* [If you want performance, cheat!](https://vorner.github.io/2020/09/03/performance-cheating.html)
+* [Deserializing JSON really fast](https://blog.datalust.co/deserializing-json-really-fast/)
+* [Intercepting Zoom's encrypted data with BPF](https://confused.ai/posts/intercepting-zoom-tls-encryption-bpf-uprobes)
+  - **DISCLAIMER**: This article uses methods that could be used illegally in many areas worldwide. Please do not use such methods illegally. The This Week in Rust team and the Rust project leadership are not responsible for any illegal activity by readers.
 
 * [Retrospective of my first useful Rust project](http://jamesmcm.github.io/blog/2020/09/05/vopono/#en)
 
 ### Learn Standard Rust
+* [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
+* [Rust - understanding traits 1](https://dev.to/brunooliveira/rust-understanding-traits-1-45md)
+* [That's so Rusty: Mutables](https://dev.to/imaculate3/that-s-so-rusty-mutables-5b40)
 * [video] [Choosing Rust - Intro to Rust and Ownership](https://www.youtube.com/watch?v=DMAnfOlhSpU)
 
 ### Learn More Rust
-
+* [Make A Language - Part Zero: Getting set up](https://arzg.github.io/lang/0)
+* [Make A Language - Part One: A basic parser](https://arzg.github.io/lang/1)
+* [Make A Language - Part Two: Whitespace support](https://arzg.github.io/lang/2)
+* [Let's build a singl binary gRPC server-client with Rust in 2020 - Part 3](https://dev.to/tjtelan/let-s-build-a-single-binary-grpc-server-client-with-rust-in-2020-part-3-3fo8)
+* [My Adventures in MMIO Abstraction](https://gist.github.com/Measter/2108508ba25ebe3978a6c10a1e01b9ad)
+* [I C and .so does Rust](https://prateeknischal.github.io/i-c-and-so-does-rust/)
+* [HTTP Status Codes With Rust](https://www.fpcomplete.com/blog/http-status-codes-async-rust/)
 * [PL] [CrabbyBird #2 Poruszanie kamerą](https://postacnormalna.pl/ruch-kamery/)
+* [video] [Using rust jni to call an external rust library in java](https://youtu.be/VIZK14pnGcw)
+* [video] [1 - Basic Actix Web Server](https://youtu.be/HO-KMVXvXdA)
+* [video] [2 - Creating the Tables](https://youtu.be/p22KFotfMYg)
+* [video] [3 - Working with the Database](https://youtu.be/tK7qt0igtZA)
+* [video] [4 - Getting the links](https://youtu.be/lxBxeKOZu3w)
 
 ### Project Updates
+* [Rust testing or verifying: Why not both?](https://alastairreid.github.io/why-not-both/)
+* [Learning Embedded Rust with Knurling-rs](https://ferrous-systems.com/blog/knurling-sessions-introduction/)
 
 ### Miscellaneous
-
 * [Create an amazing Rust GitHub project in no time](https://www.marcoieni.com/2020/09/create-an-amazing-rust-github-project-in-no-time/)
+* [Leaving the Rust core team](https://www.ncameron.org/blog/leaving-the-rust-core-team/)
+* [Threadripper meets rustc](https://bobweb.co/article/threadripper-meets-rustc)
+* [Understanding and Evolving the Rust Programming Language](https://people.mpi-sws.org/~jung/thesis.html)
+* [Path Trimming in Nightly Rust](https://blog.aloni.org/posts/path-trimming-in-rust-nightly/)
+* [Steve Klabnik Interview - "Rust isn't afraid to be imperfect as long as we ship something useful"](https://evrone.com/steve-klabnik-interview)
+* [On finally learning to program at the age of 40](https://github.com/Dhghomon/programming_at_40/blob/master/README.md)
+* [video] [Iota Identity-Diff Macro - Live Stream](https://youtu.be/1r094Uzz7A0)
 
 # Crate of the Week
 
