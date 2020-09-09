@@ -53,6 +53,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+*No issues were proposed for CfP*.
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -117,22 +119,22 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [RFC: Named arguments](https://github.com/rust-lang/rfcs/pull/2964)
-* [eRFC: Add JSON backend to Rustdoc](https://github.com/rust-lang/rfcs/pull/2963)
-* [RFC: Reading into uninitialized buffers](https://github.com/rust-lang/rfcs/pull/2930)
+* [[RFC]: Portable SIMD Libs Project Group](https://github.com/rust-lang/rfcs/pull/2977)
+* [Establish a new error handling project group](https://github.com/rust-lang/rfcs/pull/2965)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge][Add `#[cfg(panic = '...')]`](https://github.com/rust-lang/rust/pull/74754)
-* [disposition: merge][Allow Weak::as_ptr and friends for unsized T](https://github.com/rust-lang/rust/pull/74160)
-* [disposition: merge][Update stdarch](https://github.com/rust-lang/rust/pull/73166)
-* [disposition: merge][Tracking issue for #[doc(alias = "...")]](https://github.com/rust-lang/rust/issues/50146)
+* [disposition: merge][Add `[T; N]: TryFrom<Vec<T>>` (insta-stable)](https://github.com/rust-lang/rust/pull/76310)
+* [disposition: merge][Make some Ordering methods const](https://github.com/rust-lang/rust/pull/76198)
+* [disposition: merge][Stabilize some Result methods as const](https://github.com/rust-lang/rust/pull/76136)
+* [disposition: merge][Stabilize some Option methods as const](https://github.com/rust-lang/rust/pull/76135)
+* [disposition: merge][Use implicit (not explicit) rules for promotability by default in `const fn`](https://github.com/rust-lang/rust/pull/75502)
+* [disposition: merge][Implement `Index` and `IndexMut` for arrays](https://github.com/rust-lang/rust/pull/74989)
+* [disposition: merge][Tracking issue for `#[doc(alias = "...")]`](https://github.com/rust-lang/rust/issues/50146)
 
 ## New RFCs
 
-* [Safer Transmute](https://github.com/rust-lang/rfcs/pull/2981)
-* [[RFC]: Libs Team Governance](https://github.com/rust-lang/rfcs/pull/2979)
-* [[RFC]: Portable SIMD Libs Project Group](https://github.com/rust-lang/rfcs/pull/2977)
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
