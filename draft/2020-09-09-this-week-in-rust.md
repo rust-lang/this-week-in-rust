@@ -21,20 +21,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Observations/Thoughts
-
 * [Retrospective of my first useful Rust project](http://jamesmcm.github.io/blog/2020/09/05/vopono/#en)
 
 ### Learn Standard Rust
+* [TR] [Rust Turu](https://tourofrust.com/00_tr.html)
 * [video] [Choosing Rust - Intro to Rust and Ownership](https://www.youtube.com/watch?v=DMAnfOlhSpU)
 
 ### Learn More Rust
-
+* [Linux System Call `fork()` in Rust ](https://blog.knoldus.com/linux-system-call-fork-in-rust/)
 * [PL] [CrabbyBird #2 Poruszanie kamerą](https://postacnormalna.pl/ruch-kamery/)
 
 ### Project Updates
 
 ### Miscellaneous
-
 * [Create an amazing Rust GitHub project in no time](https://www.marcoieni.com/2020/09/create-an-amazing-rust-github-project-in-no-time/)
 
 # Crate of the Week
