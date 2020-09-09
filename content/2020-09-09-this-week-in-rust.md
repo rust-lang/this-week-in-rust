@@ -39,13 +39,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust on Haiku: the Case of the Disappearing Deceased Threads](https://www.haiku-os.org/blog/nielx/2020-09-06_rust_on_haiku_the_case_of_the_disappearing_deceased_threads/)
 * [C++ vs Rust: an async Thread-per-Core story](https://medium.com/@glaubercosta_11125/c-vs-rust-an-async-thread-per-core-story-28c4b43c410c)
 * [Twistrs - Domain name enumeration library in Rust](https://blog.digital-horror.com/twistrs/)
-* [Retrospective of my first useful Rust project](http://jamesmcm.github.io/blog/2020/09/05/vopono/#en)
 * [If you want performance, cheat!](https://vorner.github.io/2020/09/03/performance-cheating.html)
 * [Deserializing JSON really fast](https://blog.datalust.co/deserializing-json-really-fast/)
 * [Intercepting Zoom's encrypted data with BPF](https://confused.ai/posts/intercepting-zoom-tls-encryption-bpf-uprobes)
   - **DISCLAIMER**: This article uses methods that could be used illegally in many areas worldwide. Please do not use such methods illegally. The This Week in Rust team and the Rust project leadership are not responsible for any illegal activity by readers.
-
-* [Retrospective of my first useful Rust project](http://jamesmcm.github.io/blog/2020/09/05/vopono/#en)
 
 ### Learn Standard Rust
 * [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
