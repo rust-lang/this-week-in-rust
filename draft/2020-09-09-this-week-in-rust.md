@@ -26,7 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Learn More Rust
 
-[PL] [CrabbyBird #2 Poruszanie kamerą](https://postacnormalna.pl/ruch-kamery/)
+* [PL] [CrabbyBird #2 Poruszanie kamerą](https://postacnormalna.pl/ruch-kamery/)
 
 ### Project Updates
 
