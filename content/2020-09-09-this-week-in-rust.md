@@ -31,6 +31,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Learn Standard Rust
 * [TR] [Rust Turu](https://tourofrust.com/00_tr.html)
 * [video] [Choosing Rust - Intro to Rust and Ownership](https://www.youtube.com/watch?v=DMAnfOlhSpU)
+* [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
+* [Rust - understanding traits 1](https://dev.to/brunooliveira/rust-understanding-traits-1-45md)
+* [That's so Rusty: Mutables](https://dev.to/imaculate3/that-s-so-rusty-mutables-5b40)
+* [video] [Choosing Rust - Intro to Rust and Ownership](https://www.youtube.com/watch?v=DMAnfOlhSpU)
 
 ### Learn More Rust
 * [Linux System Call `fork()` in Rust ](https://blog.knoldus.com/linux-system-call-fork-in-rust/)
@@ -43,14 +47,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Deserializing JSON really fast](https://blog.datalust.co/deserializing-json-really-fast/)
 * [Intercepting Zoom's encrypted data with BPF](https://confused.ai/posts/intercepting-zoom-tls-encryption-bpf-uprobes)
   - **DISCLAIMER**: This article uses methods that could be used illegally in many areas worldwide. Please do not use such methods illegally. The This Week in Rust team and the Rust project leadership are not responsible for any illegal activity by readers.
-
-### Learn Standard Rust
-* [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
-* [Rust - understanding traits 1](https://dev.to/brunooliveira/rust-understanding-traits-1-45md)
-* [That's so Rusty: Mutables](https://dev.to/imaculate3/that-s-so-rusty-mutables-5b40)
-* [video] [Choosing Rust - Intro to Rust and Ownership](https://www.youtube.com/watch?v=DMAnfOlhSpU)
-
-### Learn More Rust
 * [Make A Language - Part Zero: Getting set up](https://arzg.github.io/lang/0)
 * [Make A Language - Part One: A basic parser](https://arzg.github.io/lang/1)
 * [Make A Language - Part Two: Whitespace support](https://arzg.github.io/lang/2)
@@ -136,7 +132,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 * [2020-09-08](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-08.md):
   3 regressions, 0 improvements.
-  
+
 A few small compile-time regressions this week. The first was
 [#70793](https://github.com/rust-lang/rust/pull/70793), which added some
 specializations to the standard library in order to increase runtime
