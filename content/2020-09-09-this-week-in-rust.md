@@ -30,7 +30,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Learn Standard Rust
 * [TR] [Rust Turu](https://tourofrust.com/00_tr.html)
-* [video] [Choosing Rust - Intro to Rust and Ownership](https://www.youtube.com/watch?v=DMAnfOlhSpU)
 * [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
 * [Rust - understanding traits 1](https://dev.to/brunooliveira/rust-understanding-traits-1-45md)
 * [That's so Rusty: Mutables](https://dev.to/imaculate3/that-s-so-rusty-mutables-5b40)
