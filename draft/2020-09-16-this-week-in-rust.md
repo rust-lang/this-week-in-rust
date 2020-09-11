@@ -32,6 +32,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project Updates
 
+* [Announcing the CCS811 indoor air quality sensor driver](https://blog.eldruin.com/ccs811-indoor-air-quality-sensor-driver-in-rust/).
+
 ### Miscellaneous
 
 # Crate of the Week
@@ -89,7 +91,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 * [2020-09-08](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-08.md):
   3 regressions, 0 improvements.
-  
+
 A few small compile-time regressions this week. The first was
 [#70793](https://github.com/rust-lang/rust/pull/70793), which added some
 specializations to the standard library in order to increase runtime
