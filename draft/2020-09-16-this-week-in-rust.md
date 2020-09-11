@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Learn Standard Rust
 
+[SQLite File Parser Pt. 1: The Header](https://wiredforge.com/blog/sqlite-parser-pt-1/index.html)
+
 ### Learn More Rust
 
 ### Learn Standard Rust
