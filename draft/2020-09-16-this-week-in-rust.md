@@ -34,6 +34,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [rudiments: A drum machine written in Rust](https://github.com/jonasrmichel/rudiments)
+
 # Crate of the Week
 
 This week's crate is [serde-query](https://github.com/pandaman64/serde-query/), an efficient query language for Serde.
