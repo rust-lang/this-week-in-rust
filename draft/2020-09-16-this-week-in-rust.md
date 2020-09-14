@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
+- [Launching the 2020 State of Rust Survey](https://blog.rust-lang.org/2020/09/10/survey-launch.html)
+
 ### Tooling
 
 ### Newsletters
