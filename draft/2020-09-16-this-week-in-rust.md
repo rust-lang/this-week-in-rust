@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+- [Rust in Science and ever-changing requirements](https://amanjeev.com/blog/rust-in-science-and-ever-changing-requirements)
+
 ### Learn Standard Rust
 * [Collecting Data from an API](https://davidmaceachern.com/posts/collecting-data-from-an-api)
 
