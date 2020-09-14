@@ -32,9 +32,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project Updates
 
-### Miscellaneous
-
 * [rudiments: A drum machine written in Rust](https://github.com/jonasrmichel/rudiments)
+
+### Miscellaneous
 
 # Crate of the Week
 
