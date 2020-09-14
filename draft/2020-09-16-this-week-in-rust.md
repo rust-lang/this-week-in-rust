@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Learn Standard Rust
+* [Collecting Data from an API](https://davidmaceachern.com/posts/collecting-data-from-an-api)
 
 ### Learn More Rust
 
