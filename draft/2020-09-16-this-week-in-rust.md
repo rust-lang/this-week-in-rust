@@ -139,6 +139,8 @@ of `BTreeMap` to avoid aliasing mutable references.
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
+* [eRFC: Add JSON backend to Rustdoc](https://github.com/rust-lang/rfcs/pull/2963)
+
 *No RFCs were approved this week.*
 
 ## Final Comment Period
@@ -149,20 +151,24 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 * [[RFC]: Portable SIMD Libs Project Group](https://github.com/rust-lang/rfcs/pull/2977)
-* [Establish a new error handling project group](https://github.com/rust-lang/rfcs/pull/2965)
+* [Get type of an arbitrary expression](https://github.com/rust-lang/rfcs/pull/2706)
+* [Add generalized arity tuples](https://github.com/rust-lang/rfcs/pull/2702)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 * [disposition: merge][Add `[T; N]: TryFrom<Vec<T>>` (insta-stable)](https://github.com/rust-lang/rust/pull/76310)
-* [disposition: merge][Make some Ordering methods const](https://github.com/rust-lang/rust/pull/76198)
+* [disposition: merge][Implementation of Write for some immutable ref structs](https://github.com/rust-lang/rust/pull/76275)
+* [disposition: merge][Permit uninhabited enums to cast into ints](https://github.com/rust-lang/rust/pull/76199)
 * [disposition: merge][Stabilize some Result methods as const](https://github.com/rust-lang/rust/pull/76136)
 * [disposition: merge][Stabilize some Option methods as const](https://github.com/rust-lang/rust/pull/76135)
-* [disposition: merge][Use implicit (not explicit) rules for promotability by default in `const fn`](https://github.com/rust-lang/rust/pull/75502)
-* [disposition: merge][Implement `Index` and `IndexMut` for arrays](https://github.com/rust-lang/rust/pull/74989)
-* [disposition: merge][Tracking issue for `#[doc(alias = "...")]`](https://github.com/rust-lang/rust/issues/50146)
+* [disposition: merge][Stabilize move_ref_pattern](https://github.com/rust-lang/rust/pull/76119)
+* [disposition: merge][Explicitly document the size guarantees that Option makes.](https://github.com/rust-lang/rust/pull/75454)
+* [disposition: merge][Stabilize intra-doc links](https://github.com/rust-lang/rust/pull/74430)
+* [disposition: merge][target-feature 1.1: should closures inherit target-feature annotations?](https://github.com/rust-lang/rust/issues/73631)
+* [disposition: merge][might_permit_raw_init: also check aggregate fields](https://github.com/rust-lang/rust/pull/71274)
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [rustdoc edit links](https://github.com/rust-lang/rfcs/pull/2985)
 
 # Upcoming Events
 
