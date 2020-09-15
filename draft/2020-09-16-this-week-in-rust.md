@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [What I Learnt from Benchmarking Http4k, Ktor (Kotlin) and Actix v2, v3 (Rust) Microservices](https://matej.laitl.cz/bench-rust-kotlin-microservices/)
+
 ### Learn Standard Rust
 * [Collecting Data from an API](https://davidmaceachern.com/posts/collecting-data-from-an-api)
 
