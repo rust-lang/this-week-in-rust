@@ -186,6 +186,14 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Backend Engineer - Rust at Kraken (Remote AMER or EMEA)](https://payward.wd1.myworkdayjobs.com/en-US/Kraken_Careers/job/EMEA---Remote/Backend-Engineer---Rust_L-42)
+* [Senior Backend Engineer - Rust at Kraken (Remote AMER or EMEA)](https://payward.wd1.myworkdayjobs.com/en-US/Kraken_Careers/job/EMEA---Remote/Senior-Backend-Engineer---Rust--Remote-_R-17)
+* [Backend / Quant Developer at Kraken (Remote EMEA)](https://payward.wd1.myworkdayjobs.com/en-US/Kraken_Careers/job/EMEA---Remote/Backend---Quant-Developer_L-3)
+* [Backend Engineer - Crypto/Payments at Kraken (Remote AMER, APAC, EMEA)](https://payward.wd1.myworkdayjobs.com/en-US/Kraken_Careers/job/AMER---Remote/Backend-Engineer---Crypto-Payments_L-41)
+* [Rust Software Engineer - Backend at ANIXE (Wrocław, PL)](https://anixe.bamboohr.com/jobs/view.php?id=130)
+* [Senior Blockchain Engineer at PureStake (Boston, MA, US or Madrid, ES, or Remote)](https://www.purestake.com/about/careers/openings/?jobId=d2VA-4HA7Iw6&utm_content=138834881&utm_medium=social&utm_source=twitter&hss_channel=tw-1214659473123487744)
+* [Senior Embedded Software Engineer at Georg Fischer (El Monte, CA, US)](https://www.indeed.com/viewjob?cmp=Georg-Fischer-Signet&t=Senior+Embedded+Software+Engineer&jk=8757fb7de3b1c160&q=georg+fischer&vjs=3)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
