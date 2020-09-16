@@ -57,6 +57,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Writing an x86 bootloader in Rust that can launch vmlinux](https://vmm.dev/en/rust/krabs.md)
 * [video] [GOTO 2020 - Next-Generation Programming: Rust & Elm - Richard Feldman](https://youtu.be/ukVqQGbxM9A)
 
+# Call for Blog Posts
+
+The Rust Core Team wants input from the community!
+If you haven't already, [read the official blog](https://blog.rust-lang.org/2020/09/03/Planning-2021-Roadmap.html) and submit a blog post - it will show up here!
+Here are the wonderful submissions since the call for blog posts:
+
+* [Rust in 2021](https://matklad.github.io/2020/09/12/rust-in-2021.html)
+* [Rust 2021](https://hsivonen.fi/rust2021/)
+
 # Crate of the Week
 
 This week's crate is [serde-query](https://github.com/pandaman64/serde-query/), an efficient query language for Serde.
