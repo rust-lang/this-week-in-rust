@@ -31,6 +31,8 @@ No newsletters this week.
 * [Building devserver: An Ultra-Tiny Rust Server](https://ianjk.com/devserver/)
 * [Taming nalgebra's Rustdoc](https://jack.wrenn.fyi/blog/rustdocing-nalgebra/)
 
+* [From @Test to #[test]: an essay about testing between Java and Rust](https://mateuscosta.me/testing-between-java-and-rust)
+
 ### Learn Standard Rust
 * [Collecting Data from an API](https://davidmaceachern.com/posts/collecting-data-from-an-api)
 * [SQLite File Parser Pt. 1: The Header](https://wiredforge.com/blog/sqlite-parser-pt-1/index.html)
