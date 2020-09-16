@@ -46,6 +46,7 @@ No newsletters this week.
 * [Let's build a single binary gRPC server-client with Rust in 2020 - Part 4](https://dev.to/tjtelan/let-s-build-a-single-binary-grpc-server-client-with-rust-in-2020-part-4-3k9f)
 * [Make A Language - Part Three: Defining variables](https://arzg.github.io/lang/3/)
 * [Rust HTTP Testing with httpmock](https://alexliesenfeld.com/posts/2020/rust-http-testing-with-httpmock/)
+* [Rust For Beginner Workshop Track](https://rustlabs.kubedaily.com/Beginners/README.html)
 
 ### Project Updates
 * [Announcing the CCS811 indoor air quality sensor driver](https://blog.eldruin.com/ccs811-indoor-air-quality-sensor-driver-in-rust/).
