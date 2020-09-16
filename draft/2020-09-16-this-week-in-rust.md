@@ -43,9 +43,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [serde-query](https://github.com/pandaman64/serde-query/), an efficient query language for Serde.
+This week's crate is [gitoxide](https://github.com/Byron/gitoxide), an idiomatic, modern, lean, fast, safe & pure Rust implementation of git.
 
-Thanks to [Vlad Frolov](https://users.rust-lang.org/t/crate-of-the-week/2704/810) for the suggestion!
+Thanks again to [Vlad Frolov](https://users.rust-lang.org/t/crate-of-the-week/2704/812) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -64,33 +64,31 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-332 pull requests were [merged in the last week][merged]
+336 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-08-31..2020-09-07
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-09-07..2020-09-14
 
-* [inliner: avoid query cycles when optimizing generators](https://github.com/rust-lang/rust/pull/76245)
-* [diagnostics: shorten paths of unique symbols](https://github.com/rust-lang/rust/pull/73996)
-* [add `-Z proc-macro-backtrace` to allow showing proc-macro panics](https://github.com/rust-lang/rust/pull/75082)
-* [suggest `if let x = y` when encountering `if x = y`](https://github.com/rust-lang/rust/pull/75931)
-* [MIR peephole optimize {Ne, Eq}(_1, false) into _1](https://github.com/rust-lang/rust/pull/76067)
-* [miri: move panic payload state from Machine to Thread](https://github.com/rust-lang/miri/pull/1532)
-* [eliminate some other bound checks when index comes from an enum](https://github.com/rust-lang/rust/pull/75529)
-* [improve recovery on malformed `format!` call](https://github.com/rust-lang/rust/pull/76160)
-* [specialize some collection and iterator operations to run in-place](https://github.com/rust-lang/rust/pull/70793)
-* [stabilize `deque_make_contiguous`](https://github.com/rust-lang/rust/pull/74559)
-* [add `slice::check_range`](https://github.com/rust-lang/rust/pull/75207)
-* [BTreeMap: introduce marker::ValMut and reserve Mut for unique access](https://github.com/rust-lang/rust/pull/75200)
-* [add `[T; N]::as_[mut_]slice`](https://github.com/rust-lang/rust/pull/76120)
-* [implement `Seek::stream_position()` for `BufReader`](https://github.com/rust-lang/rust/pull/74366)
-* [`impl Rc::new_cyclic`](https://github.com/rust-lang/rust/pull/75994)
-* [make `cow_is_borrowed` methods const](https://github.com/rust-lang/rust/pull/76139)
-* [compiler-builtins: greatly improve division performance for u128 and other cases](https://github.com/rust-lang/compiler-builtins/pull/332)
-* [stdarch: bye bye MMX!](https://github.com/rust-lang/stdarch/pull/890)
-* [stdarch: AVX512](https://github.com/rust-lang/stdarch/pull/891)
-* [futures-rs: implement `FusedStream` for `FuturesOrdered`](https://github.com/rust-lang/futures-rs/pull/2205)
-* [futures-rs: fix UB due to missing `'static` on `task::waker`](https://github.com/rust-lang/futures-rs/pull/2206)
-* [hashbrown: use the alloc crate on stable Rust](https://github.com/rust-lang/hashbrown/pull/197)
-* [hashbrown: remove `from_key_hashed_nocheck`'s `Q: Hash`](https://github.com/rust-lang/hashbrown/pull/200)
+* [add rust-dev component to support rustc development](https://github.com/rust-lang/rust/pull/76332)
+* [properly encode spans with a dummy location and non-root `SyntaxContext`](https://github.com/rust-lang/rust/pull/76658)
+* [add `const_item_mutation` lint](https://github.com/rust-lang/rust/pull/75573)
+* [more structured suggestions for boxed trait objects instead of impl Trait on non-coerceable tail expressions](https://github.com/rust-lang/rust/pull/75608)
+* [add help note when using type in place of const](https://github.com/rust-lang/rust/pull/75611)
+* [do not promote `&mut` of a non-ZST ever](https://github.com/rust-lang/rust/pull/75585)
+* [chalk: simplify lowering](https://github.com/rust-lang/chalk/pull/602)
+* [inliner: emit storage markers for introduced arg temporaries](https://github.com/rust-lang/rust/pull/76123)
+* [enable the `SimplifyArmIdentity` MIR optimization at `mir-opt-level=1`](https://github.com/rust-lang/rust/pull/76308)
+* [stabilize `doc_alias`](https://github.com/rust-lang/rust/pull/75740)
+* [stabilize `core::future::`{`pending`,`ready`}](https://github.com/rust-lang/rust/pull/74328)
+* [add saturating methods for `Duration`](https://github.com/rust-lang/rust/pull/76114)
+* [add `slice::array_chunks_mut`](https://github.com/rust-lang/rust/pull/75021)
+* [eliminate mut reference UB in `Drop` impl for `Rc<T>`](https://github.com/rust-lang/rust/pull/76530)
+* [`BTreeMap` mutable iterators should not take any reference to visited nodes during iteration](https://github.com/rust-lang/rust/pull/73971)
+* [`BTreeMap`: move up reference to map's root from `NodeRef`](https://github.com/rust-lang/rust/pull/74437)
+* [add `drain_filter` method to `HashMap` and `HashSet`](https://github.com/rust-lang/rust/pull/76458)
+* [arch: AVX512F](https://github.com/rust-lang/stdarch/pull/896)
+* [add `MaybeUninit::assume_init_drop`](https://github.com/rust-lang/rust/pull/76484)
+* [remove internal and unstable `MaybeUninit::UNINIT`](https://github.com/rust-lang/rust/pull/76527)
+* [cargo: fix non-determinism with new feature resolver](https://github.com/rust-lang/cargo/pull/8701)
 
 ## Rust Compiler Performance Triage
 
@@ -163,11 +161,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> It's amazing how frequent such "rare edge cases" can be. Especially when there are millions of people using billions of files originating from God know what operating systems. Far better things are checked properly if one want robust code. As Rust uses do.
+> When you have a lifetime `<'a>` on a struct, that lifetime denotes references to values stored *outside* of the struct. If you try to store a reference that points inside the struct rather than outside, you will run into a compiler error when the compiler notices you **lied** to it.
 
-- [ZiCog on rust-users](https://users.rust-lang.org/t/disappointed-with-path/48148/5)
+- [Alice Ryhl on rust-users](https://users.rust-lang.org/t/how-to-resolve-error-e0499-cannot-borrow-as-mutable-more-than-once-at-a-time-in-this-case/48815/3)
 
-Thanks to [Edoardo Morandi](https://users.rust-lang.org/t/twir-quote-of-the-week/328/938) for the suggestion!
+Thanks to [Tom Phinney](https://users.rust-lang.org/t/twir-quote-of-the-week/328/939) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
