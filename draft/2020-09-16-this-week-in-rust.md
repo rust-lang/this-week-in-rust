@@ -14,40 +14,65 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-### Official
+No newsletters this week.
 
-- [Launching the 2020 State of Rust Survey](https://blog.rust-lang.org/2020/09/10/survey-launch.html)
+### Official
+* [Launching the 2020 State of Rust Survey](https://blog.rust-lang.org/2020/09/10/survey-launch.html)
+* [A call for contributors from the WG-prioritization team](https://blog.rust-lang.org/2020/09/14/wg-prio-call-for-contributors.html)
 
 ### Tooling
-
-### Newsletters
+* [Rust Analyzer Changelog #42](https://rust-analyzer.github.io/thisweek/2020/09/14/changelog-42.html)
 
 ### Observations/Thoughts
-
-- [Rust in Science and ever-changing requirements](https://amanjeev.com/blog/rust-in-science-and-ever-changing-requirements)
+* [Which Parsing Approach?](https://tratt.net/laurie/blog/entries/which_parsing_approach.html)
+* [Challenging LR Parsing](https://rust-analyzer.github.io//blog/2020/09/16/challeging-LR-parsing.html)
+* [What I Learnt from Benchmarking Http4k, Ktor (Kotlin) and Actix v2, v3 (Rust) Microservices](https://matej.laitl.cz/bench-rust-kotlin-microservices/)
+* [No Namespaces in Rust is a Feature](https://samsieber.tech/posts/2020/09/registry-structure-influence/)
+* [Building devserver: An Ultra-Tiny Rust Server](https://ianjk.com/devserver/)
+* [Taming nalgebra's Rustdoc](https://jack.wrenn.fyi/blog/rustdocing-nalgebra/)
+* [Rust in Science and ever-changing requirements](https://amanjeev.com/blog/rust-in-science-and-ever-changing-requirements)
+* [From @Test to #[test]: an essay about testing between Java and Rust](https://mateuscosta.me/testing-between-java-and-rust)
 
 ### Learn Standard Rust
 * [Collecting Data from an API](https://davidmaceachern.com/posts/collecting-data-from-an-api)
-
-[SQLite File Parser Pt. 1: The Header](https://wiredforge.com/blog/sqlite-parser-pt-1/index.html)
-
-### Learn More Rust
-
-### Learn Standard Rust
+* [SQLite File Parser Pt. 1: The Header](https://wiredforge.com/blog/sqlite-parser-pt-1/index.html)
+* [An introduction to Data Oriented Design with Rust](https://jamesmcm.github.io/blog/2020/07/25/intro-dod/)
+* [Rust for Java developers](https://blog.codecentric.de/en/2020/09/rust-for-java-developers/)
+* [Oxidizing portals with zbus](https://belmoussaoui.com/article/13-oxidizing-portals)
 
 ### Learn More Rust
+* [Implementing Records in x7](https://dpbriggs.ca/blog/Implementing-Method-Calls-In-x7)
+* [Let's build a single binary gRPC server-client with Rust in 2020 - Part 4](https://dev.to/tjtelan/let-s-build-a-single-binary-grpc-server-client-with-rust-in-2020-part-4-3k9f)
+* [Make A Language - Part Three: Defining variables](https://arzg.github.io/lang/3/)
+* [Rust HTTP Testing with httpmock](https://alexliesenfeld.com/posts/2020/rust-http-testing-with-httpmock/)
 
 ### Project Updates
-
 * [Announcing the CCS811 indoor air quality sensor driver](https://blog.eldruin.com/ccs811-indoor-air-quality-sensor-driver-in-rust/).
+* [OpenPGP in Rust: the Sequoia project](https://lwn.net/SubscriberLink/830902/b751810a99460a39/)
+* [AssemblyLift v0.2 preview: RPC-based IO modules](https://dev.to/dotxlem/assemblylift-v0-2-preview-rpc-based-io-modules-2d38)
+* [Announcing Actix Web v3.0](https://paper.dropbox.com/published/Announcing-Actix-Web-v3.0-QOXXb1lXgTubzXHzUq9ONY5)
 
 ### Miscellaneous
+* [Your Language Sucks, It Doesn't Matter](https://matklad.github.io//2020/09/13/your-language-sucks.html)
+* [Rust is #18 in the TIOBE Index for September 2020](https://www.tiobe.com/tiobe-index/)
+* [A Few Github Action "Recipes" for Rust](https://shift.click/blog/github-actions-rust/)
+* [Writing an x86 bootloader in Rust that can launch vmlinux](https://vmm.dev/en/rust/krabs.md)
+* [video] [GOTO 2020 - Next-Generation Programming: Rust & Elm - Richard Feldman](https://youtu.be/ukVqQGbxM9A)
+
+# Call for Blog Posts
+
+The Rust Core Team wants input from the community!
+If you haven't already, [read the official blog](https://blog.rust-lang.org/2020/09/03/Planning-2021-Roadmap.html) and submit a blog post - it will show up here!
+Here are the wonderful submissions since the call for blog posts:
+
+* [Rust in 2021](https://matklad.github.io/2020/09/12/rust-in-2021.html)
+* [Rust 2021](https://hsivonen.fi/rust2021/)
 
 # Crate of the Week
 
-This week's crate is [serde-query](https://github.com/pandaman64/serde-query/), an efficient query language for Serde.
+This week's crate is [gitoxide](https://github.com/Byron/gitoxide), an idiomatic, modern, lean, fast, safe & pure Rust implementation of git.
 
-Thanks to [Vlad Frolov](https://users.rust-lang.org/t/crate-of-the-week/2704/810) for the suggestion!
+Thanks again to [Vlad Frolov](https://users.rust-lang.org/t/crate-of-the-week/2704/812) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -66,38 +91,36 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-332 pull requests were [merged in the last week][merged]
+336 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-08-31..2020-09-07
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-09-07..2020-09-14
 
-* [inliner: avoid query cycles when optimizing generators](https://github.com/rust-lang/rust/pull/76245)
-* [diagnostics: shorten paths of unique symbols](https://github.com/rust-lang/rust/pull/73996)
-* [add `-Z proc-macro-backtrace` to allow showing proc-macro panics](https://github.com/rust-lang/rust/pull/75082)
-* [suggest `if let x = y` when encountering `if x = y`](https://github.com/rust-lang/rust/pull/75931)
-* [MIR peephole optimize {Ne, Eq}(_1, false) into _1](https://github.com/rust-lang/rust/pull/76067)
-* [miri: move panic payload state from Machine to Thread](https://github.com/rust-lang/miri/pull/1532)
-* [eliminate some other bound checks when index comes from an enum](https://github.com/rust-lang/rust/pull/75529)
-* [improve recovery on malformed `format!` call](https://github.com/rust-lang/rust/pull/76160)
-* [specialize some collection and iterator operations to run in-place](https://github.com/rust-lang/rust/pull/70793)
-* [stabilize `deque_make_contiguous`](https://github.com/rust-lang/rust/pull/74559)
-* [add `slice::check_range`](https://github.com/rust-lang/rust/pull/75207)
-* [BTreeMap: introduce marker::ValMut and reserve Mut for unique access](https://github.com/rust-lang/rust/pull/75200)
-* [add `[T; N]::as_[mut_]slice`](https://github.com/rust-lang/rust/pull/76120)
-* [implement `Seek::stream_position()` for `BufReader`](https://github.com/rust-lang/rust/pull/74366)
-* [`impl Rc::new_cyclic`](https://github.com/rust-lang/rust/pull/75994)
-* [make `cow_is_borrowed` methods const](https://github.com/rust-lang/rust/pull/76139)
-* [compiler-builtins: greatly improve division performance for u128 and other cases](https://github.com/rust-lang/compiler-builtins/pull/332)
-* [stdarch: bye bye MMX!](https://github.com/rust-lang/stdarch/pull/890)
-* [stdarch: AVX512](https://github.com/rust-lang/stdarch/pull/891)
-* [futures-rs: implement `FusedStream` for `FuturesOrdered`](https://github.com/rust-lang/futures-rs/pull/2205)
-* [futures-rs: fix UB due to missing `'static` on `task::waker`](https://github.com/rust-lang/futures-rs/pull/2206)
-* [hashbrown: use the alloc crate on stable Rust](https://github.com/rust-lang/hashbrown/pull/197)
-* [hashbrown: remove `from_key_hashed_nocheck`'s `Q: Hash`](https://github.com/rust-lang/hashbrown/pull/200)
+* [add rust-dev component to support rustc development](https://github.com/rust-lang/rust/pull/76332)
+* [properly encode spans with a dummy location and non-root `SyntaxContext`](https://github.com/rust-lang/rust/pull/76658)
+* [add `const_item_mutation` lint](https://github.com/rust-lang/rust/pull/75573)
+* [more structured suggestions for boxed trait objects instead of impl Trait on non-coerceable tail expressions](https://github.com/rust-lang/rust/pull/75608)
+* [add help note when using type in place of const](https://github.com/rust-lang/rust/pull/75611)
+* [do not promote `&mut` of a non-ZST ever](https://github.com/rust-lang/rust/pull/75585)
+* [chalk: simplify lowering](https://github.com/rust-lang/chalk/pull/602)
+* [inliner: emit storage markers for introduced arg temporaries](https://github.com/rust-lang/rust/pull/76123)
+* [enable the `SimplifyArmIdentity` MIR optimization at `mir-opt-level=1`](https://github.com/rust-lang/rust/pull/76308)
+* [stabilize `doc_alias`](https://github.com/rust-lang/rust/pull/75740)
+* [stabilize `core::future::`{`pending`,`ready`}](https://github.com/rust-lang/rust/pull/74328)
+* [add saturating methods for `Duration`](https://github.com/rust-lang/rust/pull/76114)
+* [add `slice::array_chunks_mut`](https://github.com/rust-lang/rust/pull/75021)
+* [eliminate mut reference UB in `Drop` impl for `Rc<T>`](https://github.com/rust-lang/rust/pull/76530)
+* [`BTreeMap` mutable iterators should not take any reference to visited nodes during iteration](https://github.com/rust-lang/rust/pull/73971)
+* [`BTreeMap`: move up reference to map's root from `NodeRef`](https://github.com/rust-lang/rust/pull/74437)
+* [add `drain_filter` method to `HashMap` and `HashSet`](https://github.com/rust-lang/rust/pull/76458)
+* [arch: AVX512F](https://github.com/rust-lang/stdarch/pull/896)
+* [add `MaybeUninit::assume_init_drop`](https://github.com/rust-lang/rust/pull/76484)
+* [remove internal and unstable `MaybeUninit::UNINIT`](https://github.com/rust-lang/rust/pull/76527)
+* [cargo: fix non-determinism with new feature resolver](https://github.com/rust-lang/cargo/pull/8701)
 
 ## Rust Compiler Performance Triage
 
-* [2020-09-08](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-08.md):
-  3 regressions, 0 improvements.
+* [2020-09-15](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-15.md):
+  0 regressions, 2 improvements.
 
 A few small compile-time regressions this week. The first was
 [#70793](https://github.com/rust-lang/rust/pull/70793), which added some
@@ -165,11 +188,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> It's amazing how frequent such "rare edge cases" can be. Especially when there are millions of people using billions of files originating from God know what operating systems. Far better things are checked properly if one want robust code. As Rust uses do.
+> When you have a lifetime `<'a>` on a struct, that lifetime denotes references to values stored *outside* of the struct. If you try to store a reference that points inside the struct rather than outside, you will run into a compiler error when the compiler notices you **lied** to it.
 
-- [ZiCog on rust-users](https://users.rust-lang.org/t/disappointed-with-path/48148/5)
+- [Alice Ryhl on rust-users](https://users.rust-lang.org/t/how-to-resolve-error-e0499-cannot-borrow-as-mutable-more-than-once-at-a-time-in-this-case/48815/3)
 
-Thanks to [Edoardo Morandi](https://users.rust-lang.org/t/twir-quote-of-the-week/328/938) for the suggestion!
+Thanks to [Tom Phinney](https://users.rust-lang.org/t/twir-quote-of-the-week/328/939) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
