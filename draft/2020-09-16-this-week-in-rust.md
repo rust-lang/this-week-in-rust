@@ -30,7 +30,7 @@ No newsletters this week.
 * [No Namespaces in Rust is a Feature](https://samsieber.tech/posts/2020/09/registry-structure-influence/)
 * [Building devserver: An Ultra-Tiny Rust Server](https://ianjk.com/devserver/)
 * [Taming nalgebra's Rustdoc](https://jack.wrenn.fyi/blog/rustdocing-nalgebra/)
-
+* [Rust in Science and ever-changing requirements](https://amanjeev.com/blog/rust-in-science-and-ever-changing-requirements)
 * [From @Test to #[test]: an essay about testing between Java and Rust](https://mateuscosta.me/testing-between-java-and-rust)
 
 ### Learn Standard Rust
