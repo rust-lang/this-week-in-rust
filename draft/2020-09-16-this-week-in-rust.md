@@ -14,32 +14,57 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-### Official
+No newsletters this week.
 
-- [Launching the 2020 State of Rust Survey](https://blog.rust-lang.org/2020/09/10/survey-launch.html)
+### Official
+* [Launching the 2020 State of Rust Survey](https://blog.rust-lang.org/2020/09/10/survey-launch.html)
+* [A call for contributors from the WG-prioritization team](https://blog.rust-lang.org/2020/09/14/wg-prio-call-for-contributors.html)
 
 ### Tooling
-
-### Newsletters
+* [Rust Analyzer Changelog #42](https://rust-analyzer.github.io/thisweek/2020/09/14/changelog-42.html)
 
 ### Observations/Thoughts
+* [Which Parsing Approach?](https://tratt.net/laurie/blog/entries/which_parsing_approach.html)
+* [Challenging LR Parsing](https://rust-analyzer.github.io//blog/2020/09/16/challeging-LR-parsing.html)
+* [What I Learnt from Benchmarking Http4k, Ktor (Kotlin) and Actix v2, v3 (Rust) Microservices](https://matej.laitl.cz/bench-rust-kotlin-microservices/)
+* [No Namespaces in Rust is a Feature](https://samsieber.tech/posts/2020/09/registry-structure-influence/)
+* [Building devserver: An Ultra-Tiny Rust Server](https://ianjk.com/devserver/)
+* [Taming nalgebra's Rustdoc](https://jack.wrenn.fyi/blog/rustdocing-nalgebra/)
 
 ### Learn Standard Rust
 * [Collecting Data from an API](https://davidmaceachern.com/posts/collecting-data-from-an-api)
-
-[SQLite File Parser Pt. 1: The Header](https://wiredforge.com/blog/sqlite-parser-pt-1/index.html)
-
-### Learn More Rust
-
-### Learn Standard Rust
+* [SQLite File Parser Pt. 1: The Header](https://wiredforge.com/blog/sqlite-parser-pt-1/index.html)
+* [An introduction to Data Oriented Design with Rust](https://jamesmcm.github.io/blog/2020/07/25/intro-dod/)
+* [Rust for Java developers](https://blog.codecentric.de/en/2020/09/rust-for-java-developers/)
+* [Oxidizing portals with zbus](https://belmoussaoui.com/article/13-oxidizing-portals)
 
 ### Learn More Rust
+* [Implementing Records in x7](https://dpbriggs.ca/blog/Implementing-Method-Calls-In-x7)
+* [Let's build a single binary gRPC server-client with Rust in 2020 - Part 4](https://dev.to/tjtelan/let-s-build-a-single-binary-grpc-server-client-with-rust-in-2020-part-4-3k9f)
+* [Make A Language - Part Three: Defining variables](https://arzg.github.io/lang/3/)
+* [Rust HTTP Testing with httpmock](https://alexliesenfeld.com/posts/2020/rust-http-testing-with-httpmock/)
 
 ### Project Updates
-
 * [Announcing the CCS811 indoor air quality sensor driver](https://blog.eldruin.com/ccs811-indoor-air-quality-sensor-driver-in-rust/).
+* [OpenPGP in Rust: the Sequoia project](https://lwn.net/SubscriberLink/830902/b751810a99460a39/)
+* [AssemblyLift v0.2 preview: RPC-based IO modules](https://dev.to/dotxlem/assemblylift-v0-2-preview-rpc-based-io-modules-2d38)
+* [Announcing Actix Web v3.0](https://paper.dropbox.com/published/Announcing-Actix-Web-v3.0-QOXXb1lXgTubzXHzUq9ONY5)
 
 ### Miscellaneous
+* [Your Language Sucks, It Doesn't Matter](https://matklad.github.io//2020/09/13/your-language-sucks.html)
+* [Rust is #18 in the TIOBE Index for September 2020](https://www.tiobe.com/tiobe-index/)
+* [A Few Github Action "Recipes" for Rust](https://shift.click/blog/github-actions-rust/)
+* [Writing an x86 bootloader in Rust that can launch vmlinux](https://vmm.dev/en/rust/krabs.md)
+* [video] [GOTO 2020 - Next-Generation Programming: Rust & Elm - Richard Feldman](https://youtu.be/ukVqQGbxM9A)
+
+# Call for Blog Posts
+
+The Rust Core Team wants input from the community!
+If you haven't already, [read the official blog](https://blog.rust-lang.org/2020/09/03/Planning-2021-Roadmap.html) and submit a blog post - it will show up here!
+Here are the wonderful submissions since the call for blog posts:
+
+* [Rust in 2021](https://matklad.github.io/2020/09/12/rust-in-2021.html)
+* [Rust 2021](https://hsivonen.fi/rust2021/)
 
 # Crate of the Week
 
