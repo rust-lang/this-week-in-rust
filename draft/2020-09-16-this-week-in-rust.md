@@ -14,14 +14,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
+No newsletters this week.
+
 ### Official
 * [Launching the 2020 State of Rust Survey](https://blog.rust-lang.org/2020/09/10/survey-launch.html)
 * [A call for contributors from the WG-prioritization team](https://blog.rust-lang.org/2020/09/14/wg-prio-call-for-contributors.html)
 
 ### Tooling
 * [Rust Analyzer Changelog #42](https://rust-analyzer.github.io/thisweek/2020/09/14/changelog-42.html)
-
-### Newsletters
 
 ### Observations/Thoughts
 * [Which Parsing Approach?](https://tratt.net/laurie/blog/entries/which_parsing_approach.html)
