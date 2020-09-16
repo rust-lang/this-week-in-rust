@@ -32,7 +32,6 @@ No newsletters this week.
 * [Taming nalgebra's Rustdoc](https://jack.wrenn.fyi/blog/rustdocing-nalgebra/)
 * [Rust in Science and ever-changing requirements](https://amanjeev.com/blog/rust-in-science-and-ever-changing-requirements)
 * [From @Test to #[test]: an essay about testing between Java and Rust](https://mateuscosta.me/testing-between-java-and-rust)
-
 * [What I Learnt from Benchmarking Http4k, Ktor (Kotlin) and Actix v2, v3 (Rust) Microservices](https://matej.laitl.cz/bench-rust-kotlin-microservices/)
 
 ### Learn Standard Rust
@@ -87,6 +86,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+*No issues were proposed for CfP*.
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -139,6 +140,8 @@ of `BTreeMap` to avoid aliasing mutable references.
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
+* [eRFC: Add JSON backend to Rustdoc](https://github.com/rust-lang/rfcs/pull/2963)
+
 *No RFCs were approved this week.*
 
 ## Final Comment Period
@@ -149,33 +152,32 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 * [[RFC]: Portable SIMD Libs Project Group](https://github.com/rust-lang/rfcs/pull/2977)
-* [Establish a new error handling project group](https://github.com/rust-lang/rfcs/pull/2965)
+* [Get type of an arbitrary expression](https://github.com/rust-lang/rfcs/pull/2706)
+* [Add generalized arity tuples](https://github.com/rust-lang/rfcs/pull/2702)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 * [disposition: merge][Add `[T; N]: TryFrom<Vec<T>>` (insta-stable)](https://github.com/rust-lang/rust/pull/76310)
-* [disposition: merge][Make some Ordering methods const](https://github.com/rust-lang/rust/pull/76198)
+* [disposition: merge][Implementation of Write for some immutable ref structs](https://github.com/rust-lang/rust/pull/76275)
+* [disposition: merge][Permit uninhabited enums to cast into ints](https://github.com/rust-lang/rust/pull/76199)
 * [disposition: merge][Stabilize some Result methods as const](https://github.com/rust-lang/rust/pull/76136)
 * [disposition: merge][Stabilize some Option methods as const](https://github.com/rust-lang/rust/pull/76135)
-* [disposition: merge][Use implicit (not explicit) rules for promotability by default in `const fn`](https://github.com/rust-lang/rust/pull/75502)
-* [disposition: merge][Implement `Index` and `IndexMut` for arrays](https://github.com/rust-lang/rust/pull/74989)
-* [disposition: merge][Tracking issue for `#[doc(alias = "...")]`](https://github.com/rust-lang/rust/issues/50146)
+* [disposition: merge][Stabilize move_ref_pattern](https://github.com/rust-lang/rust/pull/76119)
+* [disposition: merge][Explicitly document the size guarantees that Option makes.](https://github.com/rust-lang/rust/pull/75454)
+* [disposition: merge][Stabilize intra-doc links](https://github.com/rust-lang/rust/pull/74430)
+* [disposition: merge][target-feature 1.1: should closures inherit target-feature annotations?](https://github.com/rust-lang/rust/issues/73631)
+* [disposition: merge][might_permit_raw_init: also check aggregate fields](https://github.com/rust-lang/rust/pull/71274)
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [rustdoc edit links](https://github.com/rust-lang/rfcs/pull/2985)
 
 # Upcoming Events
 
 ### Online
-* [September 9. East Coast, US - Rust East Coast Virtual Talks + Q&A](https://www.meetup.com/Rust-NYC/events/272982073/)
-* [September 11. Russia - Russian Rust Online Meetup](https://www.meetup.com/Rust-%D0%B2-%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5/events/272798484/)
 * [September 16. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/gbzjxrybcmbvb/)
 * [September 17. Linz, AT - Rust Linz - Rust Meetup Linz - Meaghan Lewis on Rust, Embedded Rust with Roland Ruckerbauer](https://www.meetup.com/de-DE/Rust-Linz/events/271857244/)
 * [September 17. Berlin, DE - Berline.rs - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybcmbwb/)
-
-### North America
-* [September 9. Atlanta, GA, US - Rust Atlanta - Grab a beer with fellow Rustaceans](https://www.meetup.com/Rust-ATL/events/qxqdgrybcmbmb/)
-* [September 10. Lehi, UT, US - Utah Rust - The Blue Pill: Rust on Microcontrollers (Sept / Second Round)](https://www.meetup.com/utah-rust/events/268567961/)
+* [September 29. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcmbmc/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -185,6 +187,14 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Backend Engineer - Rust at Kraken (Remote AMER or EMEA)](https://payward.wd1.myworkdayjobs.com/en-US/Kraken_Careers/job/EMEA---Remote/Backend-Engineer---Rust_L-42)
+* [Senior Backend Engineer - Rust at Kraken (Remote AMER or EMEA)](https://payward.wd1.myworkdayjobs.com/en-US/Kraken_Careers/job/EMEA---Remote/Senior-Backend-Engineer---Rust--Remote-_R-17)
+* [Backend / Quant Developer at Kraken (Remote EMEA)](https://payward.wd1.myworkdayjobs.com/en-US/Kraken_Careers/job/EMEA---Remote/Backend---Quant-Developer_L-3)
+* [Backend Engineer - Crypto/Payments at Kraken (Remote AMER, APAC, EMEA)](https://payward.wd1.myworkdayjobs.com/en-US/Kraken_Careers/job/AMER---Remote/Backend-Engineer---Crypto-Payments_L-41)
+* [Rust Software Engineer - Backend at ANIXE (Wrocław, PL)](https://anixe.bamboohr.com/jobs/view.php?id=130)
+* [Senior Blockchain Engineer at PureStake (Boston, MA, US or Madrid, ES, or Remote)](https://www.purestake.com/about/careers/openings/?jobId=d2VA-4HA7Iw6&utm_content=138834881&utm_medium=social&utm_source=twitter&hss_channel=tw-1214659473123487744)
+* [Senior Embedded Software Engineer at Georg Fischer (El Monte, CA, US)](https://www.indeed.com/viewjob?cmp=Georg-Fischer-Signet&t=Senior+Embedded+Software+Engineer&jk=8757fb7de3b1c160&q=georg+fischer&vjs=3)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
@@ -200,4 +210,4 @@ Thanks to [Tom Phinney](https://users.rust-lang.org/t/twir-quote-of-the-week/328
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/imoogj/this_week_in_rust_354/)</small>
+<small>[Discuss on r/rust]</small>
