@@ -30,6 +30,8 @@ No newsletters this week.
 
 ### Miscellaneous
 
+* [Porting PineTime Watch Face from C to Rust On RIOT with LVGL](https://lupyuen.github.io/pinetime-rust-riot/articles/watch_face)
+
 # Call for Blog Posts
 
 The Rust Core Team wants input from the community!
