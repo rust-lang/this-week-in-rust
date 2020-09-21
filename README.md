@@ -20,7 +20,7 @@ for pr in $(xsel -ob); do firefox https://github.com/mozilla/rust/pull/$pr; slee
 # write TWIR
 ```
 
-Alternately use GitHub search:
+Alternatively use GitHub search:
 
 ```
 https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Amerged+updated%3A2014-11-03..2014-11-10
