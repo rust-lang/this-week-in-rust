@@ -25,6 +25,7 @@ No newsletters this week.
 ### Learn Standard Rust
 
 ### Learn More Rust
+ * [Dynamic Iterators](https://hole.tuziwo.info/dyn-iterator.html)
 
 ### Project Updates
 
