@@ -32,7 +32,6 @@ No newsletters this week.
 * [Taming nalgebra's Rustdoc](https://jack.wrenn.fyi/blog/rustdocing-nalgebra/)
 * [Rust in Science and ever-changing requirements](https://amanjeev.com/blog/rust-in-science-and-ever-changing-requirements)
 * [From @Test to #[test]: an essay about testing between Java and Rust](https://mateuscosta.me/testing-between-java-and-rust)
-* [What I Learnt from Benchmarking Http4k, Ktor (Kotlin) and Actix v2, v3 (Rust) Microservices](https://matej.laitl.cz/bench-rust-kotlin-microservices/)
 
 ### Learn Standard Rust
 * [Collecting Data from an API](https://davidmaceachern.com/posts/collecting-data-from-an-api)
