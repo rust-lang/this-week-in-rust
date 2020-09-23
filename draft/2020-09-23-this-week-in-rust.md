@@ -93,18 +93,21 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-* [2020-09-15](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-15.md):
-  0 regressions, 2 improvements.
+* [2020-09-21](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-21.md):
+  2 Regressions, 5 Improvements, 4 Mixed
 
-A few small compile-time regressions this week. The first was
-[#70793](https://github.com/rust-lang/rust/pull/70793), which added some
-specializations to the standard library in order to increase runtime
-performance. The second was
-[#73996](https://github.com/rust-lang/rust/pull/73996), which adds an option to
-the diagnostics code to print only the names of types and traits when they are
-unique instead of the whole path. The third was
-[#75200](https://github.com/rust-lang/rust/pull/75200), which refactored part
-of `BTreeMap` to avoid aliasing mutable references.
+This was the first week of semi-automated perf triage, and thank goodness:
+There was a lot going on. Most regressions are either quite small or already
+have a fix published.
+
+[#72412](https://github.com/rust-lang/rust/issues/72412) is probably the most
+interesting case. It fixes a pathological problem involving nested closures by
+adding cycle detection to what seems to be a relatively hot part of the code.
+As a result, most users will see a slight [compile-time
+regression](https://perf.rust-lang.org/compare.html?start=2c69266c0697b0c0b34abea62cba1a1d3c59c90c&end=fdc3405c20122fd0f077f5a77addabc873f20e4c&stat=task-clock)
+for their crates.
+
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-21.md) for more.
 
 ## Approved RFCs
 
