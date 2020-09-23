@@ -73,9 +73,9 @@ No newsletters this week.
 * [A Bazel Persistent Worker for Rust](https://nikhilism.com/post/2020/bazel-persistent-worker-rust/)
 * [ESXi Binaries with Rust](https://sbaronda.com/2020/09/20/esxi-binaries-with-rust/)
 * [j4rs: JavaFX support (WIP)](https://astonbitecode.github.io/blog/post/j4rs_javafx_support/)
+* [Porting PineTime Watch Face from C to Rust On RIOT with LVGL](https://lupyuen.github.io/pinetime-rust-riot/articles/watch_face)
 * [JP] [Rustのasyncでgoroutineの速度に勝つ](https://medium.com/nttlabs/rust-async-runtime-877b516d934d)
 
-* [Porting PineTime Watch Face from C to Rust On RIOT with LVGL](https://lupyuen.github.io/pinetime-rust-riot/articles/watch_face)
 
 # Call for Blog Posts
 
