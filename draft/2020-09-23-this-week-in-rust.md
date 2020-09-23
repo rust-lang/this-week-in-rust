@@ -38,9 +38,9 @@ Here are the wonderful submissions since the call for blog posts:
 
 # Crate of the Week
 
-This week's crate is [gitoxide](https://github.com/Byron/gitoxide), an idiomatic, modern, lean, fast, safe & pure Rust implementation of git.
+This week's crate is [cargo-about](https://crates.io/crates/cargo-about), a handy cargo subcommand to list the dependencies and their licenses!
 
-Thanks again to [Vlad Frolov](https://users.rust-lang.org/t/crate-of-the-week/2704/812) for the suggestion!
+Thanks to [Jimuazu](https://users.rust-lang.org/t/crate-of-the-week/2704/820) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -59,31 +59,28 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-336 pull requests were [merged in the last week][merged]
+373 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-09-07..2020-09-14
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-09-14..2020-09-21
 
-* [add rust-dev component to support rustc development](https://github.com/rust-lang/rust/pull/76332)
-* [properly encode spans with a dummy location and non-root `SyntaxContext`](https://github.com/rust-lang/rust/pull/76658)
-* [add `const_item_mutation` lint](https://github.com/rust-lang/rust/pull/75573)
-* [more structured suggestions for boxed trait objects instead of impl Trait on non-coerceable tail expressions](https://github.com/rust-lang/rust/pull/75608)
-* [add help note when using type in place of const](https://github.com/rust-lang/rust/pull/75611)
-* [do not promote `&mut` of a non-ZST ever](https://github.com/rust-lang/rust/pull/75585)
-* [chalk: simplify lowering](https://github.com/rust-lang/chalk/pull/602)
-* [inliner: emit storage markers for introduced arg temporaries](https://github.com/rust-lang/rust/pull/76123)
-* [enable the `SimplifyArmIdentity` MIR optimization at `mir-opt-level=1`](https://github.com/rust-lang/rust/pull/76308)
-* [stabilize `doc_alias`](https://github.com/rust-lang/rust/pull/75740)
-* [stabilize `core::future::`{`pending`,`ready`}](https://github.com/rust-lang/rust/pull/74328)
-* [add saturating methods for `Duration`](https://github.com/rust-lang/rust/pull/76114)
-* [add `slice::array_chunks_mut`](https://github.com/rust-lang/rust/pull/75021)
-* [eliminate mut reference UB in `Drop` impl for `Rc<T>`](https://github.com/rust-lang/rust/pull/76530)
-* [`BTreeMap` mutable iterators should not take any reference to visited nodes during iteration](https://github.com/rust-lang/rust/pull/73971)
-* [`BTreeMap`: move up reference to map's root from `NodeRef`](https://github.com/rust-lang/rust/pull/74437)
-* [add `drain_filter` method to `HashMap` and `HashSet`](https://github.com/rust-lang/rust/pull/76458)
-* [arch: AVX512F](https://github.com/rust-lang/stdarch/pull/896)
-* [add `MaybeUninit::assume_init_drop`](https://github.com/rust-lang/rust/pull/76484)
-* [remove internal and unstable `MaybeUninit::UNINIT`](https://github.com/rust-lang/rust/pull/76527)
-* [cargo: fix non-determinism with new feature resolver](https://github.com/rust-lang/cargo/pull/8701)
+* [let user see the full type of type-length limit error](https://github.com/rust-lang/rust/pull/76843)
+* [don't allow implementing trait directly on `type-alias-impl-trait`](https://github.com/rust-lang/rust/pull/76940)
+* [give *even better* suggestion when matching a const range](https://github.com/rust-lang/rust/pull/76749)
+* [introduce a `PartitioningCx` struct](https://github.com/rust-lang/rust/pull/76694)
+* [initial support for `riscv32gc_unknown_linux_gnu`](https://github.com/rust-lang/rust/pull/76048)
+* [note when a a move/borrow error is caused by a deref coercion](https://github.com/rust-lang/rust/pull/75304)
+* [new MIR optimization pass to reduce branches on match of tuples of enums](https://github.com/rust-lang/rust/pull/75119)
+* [improve diagnostics for lifetime after `&mut`](https://github.com/rust-lang/rust/pull/73595)
+* [implement a generic Destination Propagation optimization on MIR](https://github.com/rust-lang/rust/pull/72632)
+* [miri: support non-rlib extern files](https://github.com/rust-lang/miri/pull/1557)
+* [add `as_str()` to `string::Drain`](https://github.com/rust-lang/rust/pull/76525)
+* [make all methods of `Duration` unstably const](https://github.com/rust-lang/rust/pull/76335)
+* [add `[T; N]: TryFrom<Vec<T>>`](https://github.com/rust-lang/rust/pull/76310)
+* [stabilize some `Result` methods as const](https://github.com/rust-lang/rust/pull/76136)
+* [stabilize some `Option` methods as const](https://github.com/rust-lang/rust/pull/76135)
+* [avoid useless `sift_down` when `std::collections::binary_heap::PeekMut` is never mutably dereferenced](https://github.com/rust-lang/rust/pull/75974)
+* [futures: implement `try_take_while`](https://github.com/rust-lang/futures-rs/pull/2212)
+* [clippy: change the criteria of `interior_mutable_const`](https://github.com/rust-lang/rust-clippy/pull/6046)
 
 ## Rust Compiler Performance Triage
 
@@ -157,11 +154,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> When you have a lifetime `<'a>` on a struct, that lifetime denotes references to values stored *outside* of the struct. If you try to store a reference that points inside the struct rather than outside, you will run into a compiler error when the compiler notices you **lied** to it.
+> Sometimes you don't *want* the code to compile. The compiler's job is often to tell you that your code doesn't compile, rather than trying to find some meaning that allows compiling your code.
 
-- [Alice Ryhl on rust-users](https://users.rust-lang.org/t/how-to-resolve-error-e0499-cannot-borrow-as-mutable-more-than-once-at-a-time-in-this-case/48815/3)
+- [Josh Triplett on rust-internals](https://internals.rust-lang.org/t/pre-rfc-returning-automatically-generating-impl-trait/13090/11)
 
-Thanks to [Tom Phinney](https://users.rust-lang.org/t/twir-quote-of-the-week/328/939) for the suggestion!
+Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/943) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
