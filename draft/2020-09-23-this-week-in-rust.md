@@ -44,6 +44,7 @@ No newsletters this week.
 ### Learn Standard Rust
 * [TL;DR Rust](https://christine.website/blog/TLDR-rust-2020-09-19)
 * [Variables And Mutability In Rust](https://edfloreshz.blog/variables-and-mutability)
+* [Rust For Beginners Workshop Track](https://rustlabs.kubedaily.com/Beginners/README.html)
 * [Learning Rust: OMG WTF RS – resources to help you get started with Rust](https://ferrous-systems.com/blog/omg-wtf-rs-resources-to-help-you-get-started-with-rust/)
 * [Write your own Rust compiler plugin in only 10 lines!](https://dev.to/sam3d/write-your-own-rust-compiler-plugin-in-only-10-lines-4df4)
 * [Optional arguments in Rust](https://dev.to/virtualkirill/optional-arguments-in-rust-1e9g)
