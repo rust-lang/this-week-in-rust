@@ -122,9 +122,8 @@ See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [eRFC: Add JSON backend to Rustdoc](https://github.com/rust-lang/rfcs/pull/2963)
-
-*No RFCs were approved this week.*
+* [[RFC]: Portable SIMD Libs Project Group](https://github.com/rust-lang/rfcs/pull/2977)
+* [Establish a new error handling project group](https://github.com/rust-lang/rfcs/pull/2965)
 
 ## Final Comment Period
 
@@ -133,33 +132,34 @@ Every week [the team](https://www.rust-lang.org/team.html) announces the
 decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-* [[RFC]: Portable SIMD Libs Project Group](https://github.com/rust-lang/rfcs/pull/2977)
 * [Get type of an arbitrary expression](https://github.com/rust-lang/rfcs/pull/2706)
 * [Add generalized arity tuples](https://github.com/rust-lang/rfcs/pull/2702)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
-* [disposition: merge][Add `[T; N]: TryFrom<Vec<T>>` (insta-stable)](https://github.com/rust-lang/rust/pull/76310)
-* [disposition: merge][Implementation of Write for some immutable ref structs](https://github.com/rust-lang/rust/pull/76275)
+
+* [disposition: merge][Make RawFd implement the RawFd traits](https://github.com/rust-lang/rust/pull/76969)
 * [disposition: merge][Permit uninhabited enums to cast into ints](https://github.com/rust-lang/rust/pull/76199)
-* [disposition: merge][Stabilize some Result methods as const](https://github.com/rust-lang/rust/pull/76136)
-* [disposition: merge][Stabilize some Option methods as const](https://github.com/rust-lang/rust/pull/76135)
 * [disposition: merge][Stabilize move_ref_pattern](https://github.com/rust-lang/rust/pull/76119)
+* [disposition: merge][Write manifest for MAJOR.MINOR channel to enable rustup convenience](https://github.com/rust-lang/rust/pull/76107)
 * [disposition: merge][Explicitly document the size guarantees that Option makes.](https://github.com/rust-lang/rust/pull/75454)
 * [disposition: merge][Stabilize intra-doc links](https://github.com/rust-lang/rust/pull/74430)
+* [disposition: merge][Add PartialEq impls for Vec <-> slice](https://github.com/rust-lang/rust/pull/74194)
 * [disposition: merge][target-feature 1.1: should closures inherit target-feature annotations?](https://github.com/rust-lang/rust/issues/73631)
 * [disposition: merge][might_permit_raw_init: also check aggregate fields](https://github.com/rust-lang/rust/pull/71274)
 
 ## New RFCs
 
-* [rustdoc edit links](https://github.com/rust-lang/rfcs/pull/2985)
+* [RFC 2582: fix implicit auto-deref of raw pointers](https://github.com/rust-lang/rfcs/pull/2987)
+* [Stable Rustdoc URLs](https://github.com/rust-lang/rfcs/pull/2988)
 
 # Upcoming Events
 
 ### Online
-* [September 16. Vancouver, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/gbzjxrybcmbvb/)
-* [September 17. Linz, AT - Rust Linz - Rust Meetup Linz - Meaghan Lewis on Rust, Embedded Rust with Roland Ruckerbauer](https://www.meetup.com/de-DE/Rust-Linz/events/271857244/)
-* [September 17. Berlin, DE - Berline.rs - Berlin Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybcmbwb/)
 * [September 29. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcmbmc/)
+* [October 1. Berlin, DE - Berline.rs - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybcnbcb/)
+
+### Asia Pacific
+* [October 5. Auckland, NZ - Rust AKL - Rust meetup](https://www.meetup.com/rust-akl/events/266876708/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
