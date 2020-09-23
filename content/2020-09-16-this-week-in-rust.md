@@ -122,17 +122,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 ## Rust Compiler Performance Triage
 
 * [2020-09-15](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-15.md):
-  0 regressions, 2 improvements.
-
-A few small compile-time regressions this week. The first was
-[#70793](https://github.com/rust-lang/rust/pull/70793), which added some
-specializations to the standard library in order to increase runtime
-performance. The second was
-[#73996](https://github.com/rust-lang/rust/pull/73996), which adds an option to
-the diagnostics code to print only the names of types and traits when they are
-unique instead of the whole path. The third was
-[#75200](https://github.com/rust-lang/rust/pull/75200), which refactored part
-of `BTreeMap` to avoid aliasing mutable references.
+  1 regression, 2 improvements.
 
 ## Approved RFCs
 
