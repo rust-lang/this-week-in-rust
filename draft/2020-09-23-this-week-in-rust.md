@@ -22,6 +22,8 @@ No newsletters this week.
 
 ### Observations/Thoughts
 
+ * [Porting EBU-R128 audio loudness analysis from C to Rust](https://coaxion.net/blog/2020/09/porting-ebu-r128-audio-loudness-analysis-from-c-to-rust/)
+
 ### Learn Standard Rust
 
 ### Learn More Rust
