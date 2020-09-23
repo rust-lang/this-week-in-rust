@@ -22,14 +22,21 @@ No newsletters this week.
 
 ### Observations/Thoughts
 
- * [Porting EBU-R128 audio loudness analysis from C to Rust](https://coaxion.net/blog/2020/09/porting-ebu-r128-audio-loudness-analysis-from-c-to-rust/)
+* [Async Iteration Semantics](https://blog.yoshuawuyts.com/async-iteration/)
+* [Porting EBU-R128 audio loudness analysis from C to Rust](https://coaxion.net/blog/2020/09/porting-ebu-r128-audio-loudness-analysis-from-c-to-rust/)
+* [Potential improvements for Rust embedded abstractions](https://tweedegolf.nl/blog/42/potential-improvements-for-rust-embedded-abstractions)
+* [I started to learn Rust](https://jean.manguy.eu/post/i-started-to-learn-rust/)
+* [Rust in Science and ever-changing requirements](https://amanjeev.com/blog/rust-in-science-and-ever-changing-requirements)
 
 ### Learn Standard Rust
+* [TL;DR Rust](https://christine.website/blog/TLDR-rust-2020-09-19)
+* [Variables And Mutability In Rust](https://edfloreshz.blog/variables-and-mutability)
 
 ### Learn More Rust
- * [Dynamic Iterators](https://hole.tuziwo.info/dyn-iterator.html)
-
-[Writing an HTTP(S) Tunnel in Rust with tokio.](https://medium.com/@xnuter/writing-a-modern-http-s-tunnel-in-rust-56e70d898700)
+* [Dynamic Iterators](https://hole.tuziwo.info/dyn-iterator.html)
+* [Low-Level Academy](https://lowlvl.org/)
+* [Writing an HTTP(S) Tunnel in Rust with tokio.](https://medium.com/@xnuter/writing-a-modern-http-s-tunnel-in-rust-56e70d898700)
+* [Down the Yak Hole of TLS](https://blog.drogue.io/yak-hole-of-tls/)
 
 ### Project Updates
 
@@ -162,6 +169,11 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Backend Engineer, Kraken Futures - Rust at Kraken (London, UK, EU)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Backend / Quant Developer at Kraken (Remote EU)](https://jobs.lever.co/kraken/9d9cc4b5-ef5f-40bd-b785-9acf9164aa74)
+* [Senior Software Development Engineer - AWS EC2 at Amazon (Arlington, VA, US)](https://www.amazon.jobs/en/jobs/1273617/senior-software-development-engineer-aws-ec2)
+* [Wasm Compiler Engineer at Parity (Berlin, DE, London, UK, Remote)](https://www.parity.io/apply/?gh_jid=4170712003)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
