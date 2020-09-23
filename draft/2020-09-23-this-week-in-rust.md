@@ -27,6 +27,7 @@ No newsletters this week.
 ### Learn Standard Rust
 
 ### Learn More Rust
+ * [Dynamic Iterators](https://hole.tuziwo.info/dyn-iterator.html)
 
 [Writing an HTTP(S) Tunnel in Rust with tokio.](https://medium.com/@xnuter/writing-a-modern-http-s-tunnel-in-rust-56e70d898700)
 
