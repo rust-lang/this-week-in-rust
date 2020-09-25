@@ -25,8 +25,10 @@ No newsletters this week.
 ### Learn Standard Rust
 
 ### Learn More Rust
+* [Building a runtime reflection system for Rust 🦀️ (Part 1)](https://www.osohq.com/post/rust-reflection-pt-1)
 
 ### Project Updates
+* [oso, an open-source policy engine for authorization written in Rust](https://github.com/osohq/oso), added [a Rust library for implementing authorization for Rust projects!](https://docs.rs/oso/0.6.0-alpha/oso/)
 
 ### Miscellaneous
 
