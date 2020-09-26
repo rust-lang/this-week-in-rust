@@ -19,7 +19,6 @@ No newsletters this week.
 ### Official
 * [Inside] [Announcing the Portable SIMD Project Group](https://blog.rust-lang.org/inside-rust/2020/09/29/Portable-SIMD-PG.html)
 
-
 ### Tooling
 
 ### Observations/Thoughts
