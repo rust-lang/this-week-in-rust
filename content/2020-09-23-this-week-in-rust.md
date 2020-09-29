@@ -198,7 +198,6 @@ decision. Express your opinions now.
 
 ## New RFCs
 
-* [RFC 2582: fix implicit auto-deref of raw pointers](https://github.com/rust-lang/rfcs/pull/2987)
 * [Stable Rustdoc URLs](https://github.com/rust-lang/rfcs/pull/2988)
 
 # Upcoming Events
