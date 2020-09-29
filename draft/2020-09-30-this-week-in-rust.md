@@ -25,8 +25,10 @@ No newsletters this week.
 ### Learn Standard Rust
 
 ### Learn More Rust
+* [A Fistful of States: More State Machine Patterns in Rust](https://deislabs.io/posts/a-fistful-of-states/)
 
 ### Project Updates
+* [Krustlet v0.5.0 Release](https://github.com/deislabs/krustlet/releases/tag/v0.5.0)
 
 ### Miscellaneous
 
