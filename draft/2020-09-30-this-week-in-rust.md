@@ -25,6 +25,7 @@ No newsletters this week.
 ### Learn Standard Rust
 
 ### Learn More Rust
+* [Are we observable yet? An introduction to Rust telemetry - Zero To Production #4](https://www.lpalmieri.com/posts/2020-09-27-zero-to-production-4-are-we-observable-yet/)
 
 ### Project Updates
 
