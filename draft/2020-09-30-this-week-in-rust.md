@@ -21,6 +21,7 @@ No newsletters this week.
 ### Tooling
 
 ### Observations/Thoughts
+* [Benchmarking vol. 2: Pitting Actix against Rocket v0.4 and v0.5-dev](https://matej.laitl.cz/bench-actix-rocket/)
 
 ### Learn Standard Rust
 
