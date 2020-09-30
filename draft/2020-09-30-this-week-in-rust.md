@@ -89,21 +89,19 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-* [2020-09-21](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-21.md):
-  2 Regressions, 5 Improvements, 4 Mixed
+* [2020-09-28](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-28.md):
+0 Regressions, 1 Improvements, 3 Mixed
 
-This was the first week of semi-automated perf triage, and thank goodness:
-There was a lot going on. Most regressions are either quite small or already
-have a fix published.
 
-[#72412](https://github.com/rust-lang/rust/issues/72412) is probably the most
-interesting case. It fixes a pathological problem involving nested closures by
-adding cycle detection to what seems to be a relatively hot part of the code.
-As a result, most users will see a slight [compile-time
-regression](https://perf.rust-lang.org/compare.html?start=2c69266c0697b0c0b34abea62cba1a1d3c59c90c&end=fdc3405c20122fd0f077f5a77addabc873f20e4c&stat=task-clock)
-for their crates.
+Most significant changes this week came in response to regressions discussed in
+last week's triage report. Curious readers may be interested in
+[#77058](https://github.com/rust-lang/rust/issues/77058), in which the removal
+of a single field from a struct caused a 25% decrease in wall-times for one
+seemingly unrelated benchmark, or
+[#76986](https://github.com/rust-lang/rust/issues/76986), an ABI change that
+should be a pretty clear win but seems to have mixed results.
 
-See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-21.md) for more.
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-28.md) for more.
 
 ## Approved RFCs
 
