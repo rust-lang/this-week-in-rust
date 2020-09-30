@@ -40,6 +40,7 @@ If you haven't already, [read the official blog](https://blog.rust-lang.org/2020
 Here are the wonderful submissions since the call for blog posts:
 * [OS in Rust: An executable that runs on bare metal: Part-1](https://blog.knoldus.com/os-in-rust-an-executable-that-runs-on-bare-metal-part-1/)
 * [OS in Rust: An executable that runs on bare metal: Part-2](https://blog.knoldus.com/os-in-rust-an-executable-that-runs-on-bare-metal-part-2/)
+* [Build a Discord Bot with Rust and Serenity](https://developers.facebook.com/blog/post/2020/09/30/build-discord-bot-with-rust-and-serenity/)
 
 # Crate of the Week
 
