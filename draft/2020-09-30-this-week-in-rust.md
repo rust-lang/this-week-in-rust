@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 No newsletters this week.
 
 ### Official
+* [Inside] [Announcing the Portable SIMD Project Group](https://blog.rust-lang.org/inside-rust/2020/09/29/Portable-SIMD-PG.html)
 
 ### Tooling
 
@@ -24,6 +25,9 @@ No newsletters this week.
 * [Benchmarking vol. 2: Pitting Actix against Rocket v0.4 and v0.5-dev](https://matej.laitl.cz/bench-actix-rocket/)
 
 ### Learn Standard Rust
+* [What’s new in Rust 1.46.0 about const_fn?](https://blog.knoldus.com/whats-new-in-rust-1-46-0/)
+* [Rust: expression vs statement](https://dev.to/nickymeuleman/rust-expression-vs-statement-2h7g)
+* [video] [Rust 101](https://www.youtube.com/watch?v=wNzXj4eddDo&feature=youtu.be)
 
 ### Learn More Rust
 * [Are we observable yet? An introduction to Rust telemetry - Zero To Production #4](https://www.lpalmieri.com/posts/2020-09-27-zero-to-production-4-are-we-observable-yet/)
@@ -33,12 +37,16 @@ No newsletters this week.
 * [Build a Discord Bot with Rust and Serenity](https://developers.facebook.com/blog/post/2020/09/30/build-discord-bot-with-rust-and-serenity/)
 * [Porting EBU R128 audio loudness analysis from C to Rust – Porting Details](https://coaxion.net/blog/2020/09/porting-ebu-r128-audio-loudness-analysis-from-c-to-rust-porting-details/)
 * [Building a runtime reflection system for Rust 🦀️ (Part 1)](https://www.osohq.com/post/rust-reflection-pt-1)
+* [video] [RIOT Summit 2020 - Safer & Simpler Embedded Programs with Rust on RIOT](https://www.youtube.com/watch?v=LvfCSnOM1Hs&feature=youtu.be)
+* [video] [One Day Build - Anachro SPI pt 2](https://www.youtube.com/watch?time_continue=69&v=2vk9H9-O_pI&feature=emb_logo)
+* [video] [Rusty USB Gadgets Make Barking BeagleBones](https://www.youtube.com/watch?v=NgdWeR1CvI8&feature=emb_logo)
 
 ### Project Updates
 * [Krustlet v0.5.0 Release](https://github.com/deislabs/krustlet/releases/tag/v0.5.0)
 * [oso, an open-source policy engine for authorization written in Rust](https://github.com/osohq/oso), added [a Rust library for implementing authorization for Rust projects!](https://docs.rs/oso/0.6.0-alpha/oso/)
 
 ### Miscellaneous
+* [Supercharge your Electron apps with Rust](https://blog.logrocket.com/supercharge-your-electron-apps-with-rust/)
 
 # Call for Blog Posts
 
@@ -170,7 +178,12 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
-[3D Driver Development Engineer - Rust tooling for GPUs at AMD (Boxborough, MA, USA)](https://jobs.amd.com/job/Boxborough-3D-Driver-Development-Engineer-80489-Mass/677678000/)
+* [3D Driver Development Engineer - Rust tooling for GPUs at AMD (Boxborough, MA, USA)](https://jobs.amd.com/job/Boxborough-3D-Driver-Development-Engineer-80489-Mass/677678000/)
+* [Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Egineer, Kraken Futures - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Rust Engineer, Desktop GUI - Cryptowatch at Kraken (Remote)](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
+* [Senior Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
+* [Backend / Quant Developer at Kraken (Remote)](https://jobs.lever.co/kraken/9d9cc4b5-ef5f-40bd-b785-9acf9164aa74)
 
 # Quote of the Week
 
