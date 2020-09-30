@@ -27,6 +27,9 @@ No newsletters this week.
 ### Learn More Rust
 * [Are we observable yet? An introduction to Rust telemetry - Zero To Production #4](https://www.lpalmieri.com/posts/2020-09-27-zero-to-production-4-are-we-observable-yet/)
 * [A Fistful of States: More State Machine Patterns in Rust](https://deislabs.io/posts/a-fistful-of-states/)
+* [OS in Rust: An executable that runs on bare metal: Part-1](https://blog.knoldus.com/os-in-rust-an-executable-that-runs-on-bare-metal-part-1/)
+* [OS in Rust: An executable that runs on bare metal: Part-2](https://blog.knoldus.com/os-in-rust-an-executable-that-runs-on-bare-metal-part-2/)
+* [Build a Discord Bot with Rust and Serenity](https://developers.facebook.com/blog/post/2020/09/30/build-discord-bot-with-rust-and-serenity/)
 
 ### Project Updates
 * [Krustlet v0.5.0 Release](https://github.com/deislabs/krustlet/releases/tag/v0.5.0)
@@ -38,9 +41,6 @@ No newsletters this week.
 The Rust Core Team wants input from the community!
 If you haven't already, [read the official blog](https://blog.rust-lang.org/2020/09/03/Planning-2021-Roadmap.html) and submit a blog post - it will show up here!
 Here are the wonderful submissions since the call for blog posts:
-* [OS in Rust: An executable that runs on bare metal: Part-1](https://blog.knoldus.com/os-in-rust-an-executable-that-runs-on-bare-metal-part-1/)
-* [OS in Rust: An executable that runs on bare metal: Part-2](https://blog.knoldus.com/os-in-rust-an-executable-that-runs-on-bare-metal-part-2/)
-* [Build a Discord Bot with Rust and Serenity](https://developers.facebook.com/blog/post/2020/09/30/build-discord-bot-with-rust-and-serenity/)
 
 # Crate of the Week
 
