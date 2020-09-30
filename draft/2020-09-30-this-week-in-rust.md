@@ -69,6 +69,9 @@ Thanks to [Emerentius](https://users.rust-lang.org/t/crate-of-the-week/2704/821)
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
+* [time-rs: support #![no_std] targets without global allocation](https://github.com/time-rs/time/issues/249)
+* [time-rs: OffsetDateTime::replace_time?](https://github.com/time-rs/time/issues/256)
+
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -127,8 +130,7 @@ See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [[RFC]: Portable SIMD Libs Project Group](https://github.com/rust-lang/rfcs/pull/2977)
-* [Establish a new error handling project group](https://github.com/rust-lang/rfcs/pull/2965)
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -137,35 +139,42 @@ Every week [the team](https://www.rust-lang.org/team.html) announces the
 decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-* [Get type of an arbitrary expression](https://github.com/rust-lang/rfcs/pull/2706)
-* [Add generalized arity tuples](https://github.com/rust-lang/rfcs/pull/2702)
+* [Destructuring assignment](https://github.com/rust-lang/rfcs/pull/2909)
+* [RFC: impl-only glob imports](https://github.com/rust-lang/rfcs/pull/2782)
+* [Fetching cargo registry tokens from external processes](https://github.com/rust-lang/rfcs/pull/2730)
+* [RFC: Permit _ in type aliases](https://github.com/rust-lang/rfcs/pull/2524)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge][Stabilize slice_ptr_range.](https://github.com/rust-lang/rust/pull/77111)
 * [disposition: merge][Make RawFd implement the RawFd traits](https://github.com/rust-lang/rust/pull/76969)
-* [disposition: merge][Permit uninhabited enums to cast into ints](https://github.com/rust-lang/rust/pull/76199)
-* [disposition: merge][Stabilize move_ref_pattern](https://github.com/rust-lang/rust/pull/76119)
-* [disposition: merge][Write manifest for MAJOR.MINOR channel to enable rustup convenience](https://github.com/rust-lang/rust/pull/76107)
-* [disposition: merge][Explicitly document the size guarantees that Option makes.](https://github.com/rust-lang/rust/pull/75454)
-* [disposition: merge][Stabilize intra-doc links](https://github.com/rust-lang/rust/pull/74430)
-* [disposition: merge][Add PartialEq impls for Vec <-> slice](https://github.com/rust-lang/rust/pull/74194)
-* [disposition: merge][target-feature 1.1: should closures inherit target-feature annotations?](https://github.com/rust-lang/rust/issues/73631)
-* [disposition: merge][might_permit_raw_init: also check aggregate fields](https://github.com/rust-lang/rust/pull/71274)
+* [disposition: merge][Fix Debug implementations of some of the HashMap and BTreeMap iterator types](https://github.com/rust-lang/rust/pull/75377)
+* [disposition: merge][Tracking issue for slice_partition_at_index](https://github.com/rust-lang/rust/issues/55300)
 
 ## New RFCs
 
-* [RFC 2582: fix implicit auto-deref of raw pointers](https://github.com/rust-lang/rfcs/pull/2987)
-* [Stable Rustdoc URLs](https://github.com/rust-lang/rfcs/pull/2988)
+* [[RFC] A new stack-based vector](https://github.com/rust-lang/rfcs/pull/2990)
+* [RFC: Add `target` configuration](https://github.com/rust-lang/rfcs/pull/2991)
+* [RFC: Add `target_abi` configuration](https://github.com/rust-lang/rfcs/pull/2992)
+* [adds async stream rfc](https://github.com/rust-lang/rfcs/pull/2996)
 
 # Upcoming Events
 
 ### Online
-* [September 29. Dallas, TX, US - Dallas Rust - Last Tuesday](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcmbmc/)
 * [October 1. Berlin, DE - Berline.rs - Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/txcprrybcnbcb/)
-* [October 13. Saarbrücken, DE - Rust-Saar Meetup - `4u16`](https://www.meetup.com/Rust-Saar/events/273252813/)
+* [October 7. Johannesburg, ZA - Johannesburg Rust Meetup - Monthly Joburg Rust Chat!](https://www.meetup.com/Johannesburg-Rust-Meetup/events/273455489/)
+* [October 7. Dublin, IE - Rust Dublin - October Remote Meetup](https://www.meetup.com/Rust-Dublin/events/273014329/)
+* [October 7. Indianapolis, IN, US - Indy.rs - Indy.rs - with Social Distancing](https://www.meetup.com/indyrs/events/jhfstrybcnbkb/)
+* [October 8. Linz, AT - Rust Linz - Rust Meetup Linz](https://www.meetup.com/de-DE/Rust-Linz/events/271857253/)
+* [October 8. San Diego, CA, US - San Diego Rust - San Diego Rust October 2020 Tele-Meetup](https://www.meetup.com/San-Diego-Rust/events/273486967/)
+* [October 13. Saabrücken, DE - Rust-Saar Meetup - `4u16`](https://www.meetup.com/Rust-Saar/events/273252813/)
+* [October 12 - 18. RustLab](https://www.rustlab.it/agenda)
 
 ### Asia Pacific
-* [October 5. Auckland, NZ - Rust AKL - Rust meetup](https://www.meetup.com/rust-akl/events/266876708/)
+* [October 4. Auckland, NZ - Rust AKL - Rust meetup](https://www.meetup.com/rust-akl/events/266876708/)
+
+### North America
+* [October 8. Lehi, UT - Utah Rust - The Blue Pill: Rust on Microcontrollers](https://www.meetup.com/utah-rust/events/268567961/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
