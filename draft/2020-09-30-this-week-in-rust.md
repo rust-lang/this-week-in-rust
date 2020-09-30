@@ -21,6 +21,7 @@ No newsletters this week.
 ### Tooling
 
 ### Observations/Thoughts
+* [Benchmarking vol. 2: Pitting Actix against Rocket v0.4 and v0.5-dev](https://matej.laitl.cz/bench-actix-rocket/)
 
 ### Learn Standard Rust
 
@@ -30,6 +31,7 @@ No newsletters this week.
 * [OS in Rust: An executable that runs on bare metal: Part-1](https://blog.knoldus.com/os-in-rust-an-executable-that-runs-on-bare-metal-part-1/)
 * [OS in Rust: An executable that runs on bare metal: Part-2](https://blog.knoldus.com/os-in-rust-an-executable-that-runs-on-bare-metal-part-2/)
 * [Build a Discord Bot with Rust and Serenity](https://developers.facebook.com/blog/post/2020/09/30/build-discord-bot-with-rust-and-serenity/)
+* [Porting EBU R128 audio loudness analysis from C to Rust – Porting Details](https://coaxion.net/blog/2020/09/porting-ebu-r128-audio-loudness-analysis-from-c-to-rust-porting-details/)
 
 ### Project Updates
 * [Krustlet v0.5.0 Release](https://github.com/deislabs/krustlet/releases/tag/v0.5.0)
@@ -44,9 +46,9 @@ Here are the wonderful submissions since the call for blog posts:
 
 # Crate of the Week
 
-This week's crate is [cargo-about](https://crates.io/crates/cargo-about), a handy cargo subcommand to list the dependencies and their licenses!
+This week's crate is [fs-err](https://crates.io/crates/fs-err), a library to make filesystem errors usable.
 
-Thanks to [Jimuazu](https://users.rust-lang.org/t/crate-of-the-week/2704/820) for the suggestion!
+Thanks to [Emerentius](https://users.rust-lang.org/t/crate-of-the-week/2704/821) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -65,46 +67,50 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-373 pull requests were [merged in the last week][merged]
+370 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-09-14..2020-09-21
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-09-21..2020-09-28
 
-* [let user see the full type of type-length limit error](https://github.com/rust-lang/rust/pull/76843)
-* [don't allow implementing trait directly on `type-alias-impl-trait`](https://github.com/rust-lang/rust/pull/76940)
-* [give *even better* suggestion when matching a const range](https://github.com/rust-lang/rust/pull/76749)
-* [introduce a `PartitioningCx` struct](https://github.com/rust-lang/rust/pull/76694)
-* [initial support for `riscv32gc_unknown_linux_gnu`](https://github.com/rust-lang/rust/pull/76048)
-* [note when a a move/borrow error is caused by a deref coercion](https://github.com/rust-lang/rust/pull/75304)
-* [new MIR optimization pass to reduce branches on match of tuples of enums](https://github.com/rust-lang/rust/pull/75119)
-* [improve diagnostics for lifetime after `&mut`](https://github.com/rust-lang/rust/pull/73595)
-* [implement a generic Destination Propagation optimization on MIR](https://github.com/rust-lang/rust/pull/72632)
-* [miri: support non-rlib extern files](https://github.com/rust-lang/miri/pull/1557)
-* [add `as_str()` to `string::Drain`](https://github.com/rust-lang/rust/pull/76525)
-* [make all methods of `Duration` unstably const](https://github.com/rust-lang/rust/pull/76335)
-* [add `[T; N]: TryFrom<Vec<T>>`](https://github.com/rust-lang/rust/pull/76310)
-* [stabilize some `Result` methods as const](https://github.com/rust-lang/rust/pull/76136)
-* [stabilize some `Option` methods as const](https://github.com/rust-lang/rust/pull/76135)
-* [avoid useless `sift_down` when `std::collections::binary_heap::PeekMut` is never mutably dereferenced](https://github.com/rust-lang/rust/pull/75974)
-* [futures: implement `try_take_while`](https://github.com/rust-lang/futures-rs/pull/2212)
-* [clippy: change the criteria of `interior_mutable_const`](https://github.com/rust-lang/rust-clippy/pull/6046)
+* [return values up to 128 bits in registers](https://github.com/rust-lang/rust/pull/76986)
+* [add `asm!` support for MIPS](https://github.com/rust-lang/rust/pull/76839)
+* [diagnostics: improve closure/generic parameter mismatch](https://github.com/rust-lang/rust/pull/76711)
+* [avoiding unnecesary allocations at `rustc_errors`](https://github.com/rust-lang/rust/pull/76846)
+* [add fast path for match checking](https://github.com/rust-lang/rust/pull/76918)
+* [cache types during normalization](https://github.com/rust-lang/rust/pull/76928)
+* [fix the performance regression of #76244](https://github.com/rust-lang/rust/pull/76913)
+* [encode less metadata for proc-macro crates](https://github.com/rust-lang/rust/pull/76897)
+* [invalidate local LLVM cache less often](https://github.com/rust-lang/rust/pull/77126)
+* [introduce a new flag to enable experimental/unsound mir opts](https://github.com/rust-lang/rust/pull/76899)
+* [MIR pass to remove unneeded drops on types not needing drop](https://github.com/rust-lang/rust/pull/76673)
+* [add optimization to avoid load of address](https://github.com/rust-lang/rust/pull/76683)
+* [miri: more informative deallocation error messages](https://github.com/rust-lang/rust/pull/77047)
+* [miri: add API for capturing backtrace](https://github.com/rust-lang/miri/pull/1559)
+* [`DroplessArena`: allocate objects from the end of memory chunk](https://github.com/rust-lang/rust/pull/77014)
+* [unstably allow `assume` intrinsic in const contexts](https://github.com/rust-lang/rust/pull/76973)
+* [add `array::from_ref`](https://github.com/rust-lang/rust/pull/77074)
+* [add `#[track_caller]` to more panicking `Cell` functions](https://github.com/rust-lang/rust/pull/77055)
+* [make some methods of `Pin` unstably const](https://github.com/rust-lang/rust/pull/76655)
+* [revert `const_type_id` stabilization](https://github.com/rust-lang/rust/pull/77083)
+* [revert adding `Atomic::from_mut`](https://github.com/rust-lang/rust/pull/76967)
+* [add `cfg(target_has_atomic_equal_alignment)` and use it for `Atomic::from_mut`](https://github.com/rust-lang/rust/pull/76965)
+* [make `[].as_`[`mut_`]`ptr_range()` (unstably) const](https://github.com/rust-lang/rust/pull/77097)
+* [log: implement `Log` for `Box<Log>`](https://github.com/rust-lang/log/pull/414)
 
 ## Rust Compiler Performance Triage
 
-* [2020-09-21](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-21.md):
-  2 Regressions, 5 Improvements, 4 Mixed
+* [2020-09-28](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-28.md):
+0 Regressions, 1 Improvements, 3 Mixed
 
-This was the first week of semi-automated perf triage, and thank goodness:
-There was a lot going on. Most regressions are either quite small or already
-have a fix published.
 
-[#72412](https://github.com/rust-lang/rust/issues/72412) is probably the most
-interesting case. It fixes a pathological problem involving nested closures by
-adding cycle detection to what seems to be a relatively hot part of the code.
-As a result, most users will see a slight [compile-time
-regression](https://perf.rust-lang.org/compare.html?start=2c69266c0697b0c0b34abea62cba1a1d3c59c90c&end=fdc3405c20122fd0f077f5a77addabc873f20e4c&stat=task-clock)
-for their crates.
+Most significant changes this week came in response to regressions discussed in
+last week's triage report. Curious readers may be interested in
+[#77058](https://github.com/rust-lang/rust/issues/77058), in which the removal
+of a single field from a struct caused a 25% decrease in wall-times for one
+seemingly unrelated benchmark, or
+[#76986](https://github.com/rust-lang/rust/issues/76986), an ABI change that
+should be a pretty clear win but seems to have mixed results.
 
-See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-21.md) for more.
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-28.md) for more.
 
 ## Approved RFCs
 
@@ -166,11 +172,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Sometimes you don't *want* the code to compile. The compiler's job is often to tell you that your code doesn't compile, rather than trying to find some meaning that allows compiling your code.
+> Rust has a curse (it has many, but this one is critical): inefficient code is generally visible. Experienced developers hate to notice that their code is inefficient. They will recoil at seeing `Arc<RefCell<T>>` , but won't bat an eye at using Python.
 
-- [Josh Triplett on rust-internals](https://internals.rust-lang.org/t/pre-rfc-returning-automatically-generating-impl-trait/13090/11)
+- [Esteban Kuber on rust-users](https://users.rust-lang.org/t/failed-to-contribute-due-to-difficulty-in-understanding-rust/49148/6)
 
-Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/943) for the suggestion!
+Thanks to [Jon G Stødle](https://users.rust-lang.org/t/twir-quote-of-the-week/328/945) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
