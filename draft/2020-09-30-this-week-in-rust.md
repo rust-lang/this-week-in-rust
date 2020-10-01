@@ -189,10 +189,10 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge][Stabilize slice_ptr_range.](https://github.com/rust-lang/rust/pull/77111)
-* [disposition: merge][Make RawFd implement the RawFd traits](https://github.com/rust-lang/rust/pull/76969)
-* [disposition: merge][Fix Debug implementations of some of the HashMap and BTreeMap iterator types](https://github.com/rust-lang/rust/pull/75377)
-* [disposition: merge][Tracking issue for slice_partition_at_index](https://github.com/rust-lang/rust/issues/55300)
+* [disposition: merge] [Stabilize slice_ptr_range.](https://github.com/rust-lang/rust/pull/77111)
+* [disposition: merge] [Make RawFd implement the RawFd traits](https://github.com/rust-lang/rust/pull/76969)
+* [disposition: merge] [Fix Debug implementations of some of the HashMap and BTreeMap iterator types](https://github.com/rust-lang/rust/pull/75377)
+* [disposition: merge] [Tracking issue for slice_partition_at_index](https://github.com/rust-lang/rust/issues/55300)
 
 ## New RFCs
 
