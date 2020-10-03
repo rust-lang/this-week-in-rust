@@ -296,3 +296,78 @@ Here are the wonderful submissions since the call for blog posts:
 * [Pastebin submission](https://pastebin.com/d6jaxh7n)
 * [Hacker News submission](https://news.ycombinator.com/item?id=24368077)
 
+Number: 358  Date: 2020-09-30 
+
+No newsletters this week.
+### Official
+* [Inside] [Announcing the Portable SIMD Project Group](https://blog.rust-lang.org/inside-rust/2020/09/29/Portable-SIMD-PG.html)
+### Tooling
+* [Rust Analyzer Changelog #44](https://rust-analyzer.github.io/thisweek/2020/09/28/changelog-44.html)
+* [Knurling-rs Changelog #2](https://ferrous-systems.com/blog/knurling-changelog-2/)
+### Observations/Thoughts
+* [Benchmarking vol. 2: Pitting Actix against Rocket v0.4 and v0.5-dev](https://matej.laitl.cz/bench-actix-rocket/)
+* [Optimization - Making Rust Code Go Brrrr](https://aspenuwu.me/posts/rust-optimization.html)
+* [Revisiting a 'smaller Rust'](https://without.boats/blog/revisiting-a-smaller-rust/)
+* [A Future for Rust Debugging](https://nbaksalyar.github.io/2020/05/19/rust-debug.html)
+* [Learning Rust the Open Source Way](https://bitsbybrad.com/2020-09-29-learning-rust/)
+* [So you want to live-reload Rust](https://fasterthanli.me/articles/so-you-want-to-live-reload-rust)
+* [Drop order in Rust: It's tricky](https://vojtechkral.github.io/blag/rust-drop-order/)
+### Learn Simple Rust
+* [What’s new in Rust 1.46.0 about const_fn?](https://blog.knoldus.com/whats-new-in-rust-1-46-0/)
+* [Rust: expression vs statement](https://dev.to/nickymeuleman/rust-expression-vs-statement-2h7g)
+* [To Box or not to Box -- My First Real Rust Refactor](https://medium.com/@KevinHoffman/to-box-or-not-to-box-my-first-real-rust-refactor-db467119c4c7)
+* [Bevy #2: Space Shooter - The Player](https://dev.to/ethanyidong/bevy-2-space-shooter-the-player-3e7d)
+* [Cucumber in Rust - Beginner's Tutorial](https://www.florianreinhard.de/2020-08-16/cucumber-in-rust-beginners-tutorial/)
+* [Data Types in Rust](https://edfloreshz.blog/data-types-in-rust)
+* [video] [Rust 101](https://www.youtube.com/watch?v=wNzXj4eddDo&feature=youtu.be)
+### Learn More Rust
+* [Are we observable yet? An introduction to Rust telemetry - Zero To Production #4](https://www.lpalmieri.com/posts/2020-09-27-zero-to-production-4-are-we-observable-yet/)
+* [A Fistful of States: More State Machine Patterns in Rust](https://deislabs.io/posts/a-fistful-of-states/)
+* [OS in Rust: An executable that runs on bare metal: Part-1](https://blog.knoldus.com/os-in-rust-an-executable-that-runs-on-bare-metal-part-1/)
+* [OS in Rust: An executable that runs on bare metal: Part-2](https://blog.knoldus.com/os-in-rust-an-executable-that-runs-on-bare-metal-part-2/)
+* [Build a Discord Bot with Rust and Serenity](https://developers.facebook.com/blog/post/2020/09/30/build-discord-bot-with-rust-and-serenity/)
+* [Porting EBU R128 audio loudness analysis from C to Rust – Porting Details](https://coaxion.net/blog/2020/09/porting-ebu-r128-audio-loudness-analysis-from-c-to-rust-porting-details/)
+* [Building a runtime reflection system for Rust 🦀️ (Part 1)](https://www.osohq.com/post/rust-reflection-pt-1)
+* [Rusty-PID: Porting the TSic sensor from C to Rust](https://nitschinger.at/Rusty-PID-Porting-the-TSic-sensor-from-C-to-Rust/)
+* [Playing Codenames in Rust with word vectors](https://rolisz.ro/2020/09/26/playing-codenames-in-rust-with-word-vectors/)
+* [Type-level Programming in Rust](https://willcrichton.net/notes/type-level-programming/)
+* [Multi-threading with Wgpu and Rayon](https://sotrh.github.io/learn-wgpu/intermediate/tutorial13-threading/#threading-build-rs)
+* [Flicker free fireworks (or how I accidentally rediscovered the regen buffer)](https://blog.darrien.dev/posts/flicker-free-fireworks/)
+* [audio] [The Rustacean Station Podcast - WebAssembly on the Server with Krustlet](https://rustacean-station.org/episode/030-krustlet/)
+* [video] [RIOT Summit 2020 - Safer & Simpler Embedded Programs with Rust on RIOT](https://www.youtube.com/watch?v=LvfCSnOM1Hs&feature=youtu.be)
+* [video] [One Day Build - Anachro SPI pt 2](https://www.youtube.com/watch?time_continue=69&v=2vk9H9-O_pI&feature=emb_logo)
+* [video] [Rusty USB Gadgets Make Barking BeagleBones](https://www.youtube.com/watch?v=NgdWeR1CvI8&feature=emb_logo)
+### Project Updates
+* [Krustlet v0.5.0 Release](https://github.com/deislabs/krustlet/releases/tag/v0.5.0)
+* [oso, an open-source policy engine for authorization written in Rust](https://github.com/osohq/oso), added [a Rust library for implementing authorization for Rust projects!](https://docs.rs/oso/0.6.0-alpha/oso/)
+* [Rust on the ESP32 & ESP8266 - Building an ecosystem](https://mabez.dev/blog/posts/esp-rust-ecosystem/)
+* [What (not so) recently happened in Miri](https://www.ralfj.de/blog/2020/09/28/miri.html)
+* [Progress report on rustc_codegen_cranelift (Sep 2020)](https://bjorn3.github.io/2020/09/28/progress-report-sep-2020.html)
+### Miscellaneous
+* [Supercharge your Electron apps with Rust](https://blog.logrocket.com/supercharge-your-electron-apps-with-rust/)
+* [How to Make a 💡?](https://rust-analyzer.github.io/blog/2020/09/28/how-to-make-a-light-bulb.html)
+* [Towards principled reactive UI](https://raphlinus.github.io/rust/druid/2020/09/25/principled-reactive-ui.html)
+* [Building even faster interpreters in Rust](https://blog.cloudflare.com/building-even-faster-interpreters-in-rust/)
+* [AMD Is Hiring To Work On New Radeon Driver Tooling Written In Rust](https://www.phoronix.com/scan.php?page=news_item&px=AMD-Hiring-Radeon-Rust)
+* [Rust programming language exploit mitigations](https://rcvalle.blog/2020/09/16/rust-lang-exploit-mitigations/)
+* [Custom Literals in Rust](https://www.5snb.club/posts/2020/09/25/custom-literals-in-rust.html)
+# Call for Blog Posts
+The Rust Core Team wants input from the community!
+If you haven't already, [read the official blog](https://blog.rust-lang.org/2020/09/03/Planning-2021-Roadmap.html) and submit a blog post - it will show up here!
+Here are the wonderful submissions since the call for blog posts:
+* [Rust 2021: GUI](https://raphlinus.github.io/rust/druid/2020/09/28/rust-2021.html)
+* [Rust 2021: maintain dominance on the web, easy funding, easier learning](https://www.reddit.com/r/rust/comments/j1ihax/rust_2021_maintain_dominance_on_the_web_easy/)
+* [Rust 2021: Easier to integrate into existing codebases](https://www.reddit.com/r/rust/comments/j06zc9/rust_2021_easier_to_integrate_into_existing/)
+* [Rust 2021: Continue](https://www.reddit.com/r/rust/comments/izk75l/rust_2021_continue/)
+* [My Rust 2021 roadmap](https://raphlinus.github.io/rust/druid/2020/09/28/rust-2021.html)
+* [Rust 2021 | Features and Trait Bounds in Macros](https://blog.carminecrystal.com/rust-2021-features-and-trait-bounds-in-macros.html)
+* [Rust 2021: Quality, frictionless tooling](https://swatinem.de/blog/rust-2021/)
+* [My Rust 2021 roadmap: crates, concision, and community](http://jamesmcm.github.io/blog/2020/09/24/rust2021/#en)
+* [Rust 2021 Roadmap Wishlist](https://aldaronlau.com/rust-2021/)
+* [Rust in 2021: We've done a lot, more to be done](https://popzxc.github.io/rust-2021)
+* [Rust in 2021: Leveraging the Type System for Infallible Message Buffers](https://christian.amsuess.com/blog/website/2020-09-24_rust_2021/)
+* [Rust 2021](https://blog.coderspirit.xyz/blog/2020/09/26/rust-2021/)
+* [Rust 2021: Minor major improvements](https://blog.thomasheartman.com/posts/rust-2021)
+* [Rust 2021](https://beyermatthias.de/blog/2020/09/28/rust-2021/)
+* [My Rust 2021](https://blog-dry.com/entry/2020/09/29/135738)
+
