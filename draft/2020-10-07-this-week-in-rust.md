@@ -22,6 +22,8 @@ No newsletters this week.
 
 ### Observations/Thoughts
 
+- [Why I scatter `use` statements throughout Rust code](https://tarquin-the-brave.github.io/blog/posts/rust_use_statements/)
+
 ### Learn Simple Rust
 
 ### Learn More Rust
