@@ -25,6 +25,7 @@ No newsletters this week.
 ### Learn Simple Rust
 
 ### Learn More Rust
+- [video][Build a Discord Bot with Rust and Serenity](https://www.youtube.com/playlist?list=PLzIwronG0sE5lQCPFP69Ukgz4d9dngaSi)
 
 ### Project Updates
 
