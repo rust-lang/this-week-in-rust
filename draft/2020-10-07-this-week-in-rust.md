@@ -38,9 +38,9 @@ Here are the wonderful submissions since the call for blog posts:
 
 # Crate of the Week
 
-This week's crate is [fs-err](https://crates.io/crates/fs-err), a library to make filesystem errors usable.
+This week's crate is [uniffi](https://github.com/mozilla/uniffi-rs), a unified ffi binding generator for Rust.
 
-Thanks to [Emerentius](https://users.rust-lang.org/t/crate-of-the-week/2704/821) for the suggestion!
+Thanks to [mark-i-m](https://users.rust-lang.org/t/crate-of-the-week/2704/823) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -59,34 +59,60 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-370 pull requests were [merged in the last week][merged]
+427 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-09-21..2020-09-28
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-09-28..2020-10-05
 
-* [return values up to 128 bits in registers](https://github.com/rust-lang/rust/pull/76986)
-* [add `asm!` support for MIPS](https://github.com/rust-lang/rust/pull/76839)
-* [diagnostics: improve closure/generic parameter mismatch](https://github.com/rust-lang/rust/pull/76711)
-* [avoiding unnecesary allocations at `rustc_errors`](https://github.com/rust-lang/rust/pull/76846)
-* [add fast path for match checking](https://github.com/rust-lang/rust/pull/76918)
-* [cache types during normalization](https://github.com/rust-lang/rust/pull/76928)
-* [fix the performance regression of #76244](https://github.com/rust-lang/rust/pull/76913)
-* [encode less metadata for proc-macro crates](https://github.com/rust-lang/rust/pull/76897)
-* [invalidate local LLVM cache less often](https://github.com/rust-lang/rust/pull/77126)
-* [introduce a new flag to enable experimental/unsound mir opts](https://github.com/rust-lang/rust/pull/76899)
-* [MIR pass to remove unneeded drops on types not needing drop](https://github.com/rust-lang/rust/pull/76673)
-* [add optimization to avoid load of address](https://github.com/rust-lang/rust/pull/76683)
-* [miri: more informative deallocation error messages](https://github.com/rust-lang/rust/pull/77047)
-* [miri: add API for capturing backtrace](https://github.com/rust-lang/miri/pull/1559)
-* [`DroplessArena`: allocate objects from the end of memory chunk](https://github.com/rust-lang/rust/pull/77014)
-* [unstably allow `assume` intrinsic in const contexts](https://github.com/rust-lang/rust/pull/76973)
-* [add `array::from_ref`](https://github.com/rust-lang/rust/pull/77074)
-* [add `#[track_caller]` to more panicking `Cell` functions](https://github.com/rust-lang/rust/pull/77055)
-* [make some methods of `Pin` unstably const](https://github.com/rust-lang/rust/pull/76655)
-* [revert `const_type_id` stabilization](https://github.com/rust-lang/rust/pull/77083)
-* [revert adding `Atomic::from_mut`](https://github.com/rust-lang/rust/pull/76967)
-* [add `cfg(target_has_atomic_equal_alignment)` and use it for `Atomic::from_mut`](https://github.com/rust-lang/rust/pull/76965)
-* [make `[].as_`[`mut_`]`ptr_range()` (unstably) const](https://github.com/rust-lang/rust/pull/77097)
-* [log: implement `Log` for `Box<Log>`](https://github.com/rust-lang/log/pull/414)
+* [LLVM: handle rtcGPR64RegClassID in AArch64RegisterBankInfo::getRegBankFromRegClass()](https://github.com/rust-lang/llvm-project/pull/77)
+* [fix AVR stack corruption bug](https://github.com/rust-lang/rust/pull/77441)
+* [add `aarch64-unknown-linux-musl` support](https://github.com/rust-lang/rustup/pull/2493)
+* [defer Apple SDKROOT detection to link time](https://github.com/rust-lang/rust/pull/77202)
+* [force posix-style quoting on lld, independent of host platform](https://github.com/rust-lang/rust/pull/77543)
+* [add option to pass a custom codegen backend from a driver](https://github.com/rust-lang/rust/pull/76474)
+* [bypass const_item_mutation if const's type has Drop impl](https://github.com/rust-lang/rust/pull/77251)
+* [clean up diagnostics for arithmetic operation errors](https://github.com/rust-lang/rust/pull/76754)
+* [deduplicate and generalize some (de/)serializer impls](https://github.com/rust-lang/rust/pull/77261)
+* [expand: stop normalizing `NtIdent`s before passing them to built-in macros](https://github.com/rust-lang/rust/pull/77275)
+* [fix missing diagnostic span for `impl Trait` with const generics, and add various tests for `min_const_generics` and `const_generics`](https://github.com/rust-lang/rust/pull/77439)
+* [improve rustdoc error for failed intra-doc link resolution](https://github.com/rust-lang/rust/pull/77469)
+* [include scope id in SocketAddrV6::Display](https://github.com/rust-lang/rust/pull/77426)
+* [library: forward compiler-builtins "mem" feature](https://github.com/rust-lang/rust/pull/77284)
+* [liveness analysis for everybody](https://github.com/rust-lang/rust/pull/77281)
+* [optimize `IntRange::from_pat`, then shrink `ParamEnv`](https://github.com/rust-lang/rust/pull/77257)
+* [overhaul const-checking diagnostics](https://github.com/rust-lang/rust/pull/77354)
+* [references to ZSTs may be at arbitrary aligned addresses](https://github.com/rust-lang/rust/pull/77360)
+* [remove `#[rustc_allow_const_fn_ptr]` and add `#![feature(const_fn_fn_ptr_basics)]`](https://github.com/rust-lang/rust/pull/77170)
+* [resolve: prohibit anon const non-static lifetimes](https://github.com/rust-lang/rust/pull/76739)
+* [chalk: add static lifetime](https://github.com/rust-lang/chalk/pull/617)
+* [chalk: implement generators](https://github.com/rust-lang/chalk/pull/593)
+* [chalk: parse opaque types without bounds](https://github.com/rust-lang/chalk/pull/619)
+* [chalk: fix assertion failure during recursive solving](https://github.com/rust-lang/chalk/pull/613)
+* [chalk: support fundamental types with multiple type parameters](https://github.com/rust-lang/chalk/pull/616)
+* [don't fire `const_item_mutation` lint on writes through a pointer](https://github.com/rust-lang/rust/pull/77324)
+* [miri: check that all syscall arguments are scalars](https://github.com/rust-lang/miri/pull/1570)
+* [add support for Miri backtraces](https://github.com/rust-lang/backtrace-rs/pull/372)
+* [better error message for `async` blocks in a const-context](https://github.com/rust-lang/rust/pull/77415)
+* [allow `Abort` terminators in all const-contexts](https://github.com/rust-lang/rust/pull/77512)
+* [const evaluatable: improve `TooGeneric` handling](https://github.com/rust-lang/rust/pull/77303)
+* [implement multiple return terminator optimization](https://github.com/rust-lang/rust/pull/74839)
+* [disable the SimplifyArmIdentity mir-opt](https://github.com/rust-lang/rust/pull/77396)
+* [implement Make `handle_alloc_error` default to panic (for no_std + liballoc)](https://github.com/rust-lang/rust/pull/76448)
+* [change `AllocRef::by_ref` to take `&self` instead of `&mut self`](https://github.com/rust-lang/rust/pull/77289)
+* [implement as_ne_bytes() for integers and floats](https://github.com/rust-lang/rust/pull/76610)
+* [stabilize `slice_ptr_range`](https://github.com/rust-lang/rust/pull/77111)
+* [add missing definitions required by the sparc-unknown-linux-gnu target](https://github.com/rust-lang/rust/pull/77282)
+* [support vectors with fewer than 8 elements for `simd_select_bitmask`](https://github.com/rust-lang/rust/pull/77504)
+* [unbox mutexes and condvars on some platforms](https://github.com/rust-lang/rust/pull/77380)
+* [use futex-based `thread::park`/`unpark` on Linux](https://github.com/rust-lang/rust/pull/76919)
+* [use less divisions in display u128/i128](https://github.com/rust-lang/rust/pull/76017)
+* [fix `Debug` implementations of some of the `HashMap` and `BTreeMap` iterator types](https://github.com/rust-lang/rust/pull/75377)
+* [add `Iterator::advancie_by` and `DoubleEndedIterator::advance_back_by`](https://github.com/rust-lang/rust/pull/76909)
+* [backport LLVM apfloat commit to rustc_apfloat](https://github.com/rust-lang/rust/pull/77368)
+* [cargo: fix dylib+rlib with LTO.](https://github.com/rust-lang/cargo/pull/8754)
+* [uplift drop-bounds lint from clippy](https://github.com/rust-lang/rust/pull/75699)
+* [clippy: add lint for inline assembly syntax style preference](https://github.com/rust-lang/rust-clippy/pull/6092)
+* [clippy: lint for invisible Unicode characters other than ZWSP](https://github.com/rust-lang/rust-clippy/pull/6105)
+
 
 ## Rust Compiler Performance Triage
 
@@ -168,11 +194,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Rust has a curse (it has many, but this one is critical): inefficient code is generally visible. Experienced developers hate to notice that their code is inefficient. They will recoil at seeing `Arc<RefCell<T>>` , but won't bat an eye at using Python.
+> [...] clippy is for people who find a certain emptiness inside when they finally get code through the compiler.😉
 
-- [Esteban Kuber on rust-users](https://users.rust-lang.org/t/failed-to-contribute-due-to-difficulty-in-understanding-rust/49148/6)
+- Unknown person answering the Rust survey
 
-Thanks to [Jon G Stødle](https://users.rust-lang.org/t/twir-quote-of-the-week/328/945) for the suggestion!
+Thanks to [blonk](https://users.rust-lang.org/t/twir-quote-of-the-week/328/947) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
