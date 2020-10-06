@@ -116,19 +116,22 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-* [2020-09-28](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-28.md):
-0 Regressions, 1 Improvements, 3 Mixed
+* [2020-10-05](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-10-05.md):
+1 Regressions, 2 Improvements, 1 Mixed
 
+A quiet week. One rather large regression on a synthetic benchmark and a few
+small improvements.
 
-Most significant changes this week came in response to regressions discussed in
-last week's triage report. Curious readers may be interested in
-[#77058](https://github.com/rust-lang/rust/issues/77058), in which the removal
-of a single field from a struct caused a 25% decrease in wall-times for one
-seemingly unrelated benchmark, or
-[#76986](https://github.com/rust-lang/rust/issues/76986), an ABI change that
-should be a pretty clear win but seems to have mixed results.
+[#77023](https://github.com/rust-lang/rust/issues/77023) is an interesting
+case. It encoded an invariant about slice lengths as an `assume` intrinsic
+inside `len` function. It seems to have caused a small compile-time slowdown,
+but there was no improvement in `check` build performance (a proxy for generated
+code quality). In fact, the LLVM documentation [specifically advises
+against](https://llvm.org/docs/LangRef.html#llvm-assume-intrinsic) overuse of
+the `assume` intrinsic in cases where the invariant is unlikely to be of much
+help to the optimizer. That seems to be the case here.
 
-See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-09-28.md) for more.
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-10-05.md) for more.
 
 ## Approved RFCs
 
