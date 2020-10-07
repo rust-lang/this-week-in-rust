@@ -31,8 +31,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Benchmarking Apache Cassandra with Rust](https://pkolaczk.github.io/benchmarking-cassandra/)
 * [Operating System development tutorials in Rust on the Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)
 * [Learning Embedded Rust with Knurling-rs](https://ferrous-systems.com/blog/knurling-sessions-introduction/)
-* [audio] [What we've learned porting our apps to Windows - Astropad](https://astropad.com/what-weve-learned-porting-our-apps-to-windows/)
-* [video] [Build a Discord Bot with Rust and Serenity](https://www.youtube.com/playlist?list=PLzIwronG0sE5lQCPFP69Ukgz4d9dngaSi)
+* [audio][What we've learned porting our apps to Windows - Astropad](https://astropad.com/what-weve-learned-porting-our-apps-to-windows/)
+* [video][Build a Discord Bot with Rust and Serenity](https://www.youtube.com/playlist?list=PLzIwronG0sE5lQCPFP69Ukgz4d9dngaSi)
 
 ### Project Updates
 
@@ -164,10 +164,10 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [stabilize union with 'ManuallyDrop' fields and 'impl Drop for Union'](https://github.com/rust-lang/rust/pull/77547)
-* [disposition: merge] [Set up CI for aarch64-apple-darwin](https://github.com/rust-lang/rust/pull/75991)
-* [disposition: merge] [Promote aarch64-pc-windows-msvc to Tier 2 Development Platform](https://github.com/rust-lang/rust/pull/75914)
-* [disposition: merge] [resolve: Do not put nonexistent crate `meta` into prelude](https://github.com/rust-lang/rust/pull/75802)
+* [disposition: merge][stabilize union with 'ManuallyDrop' fields and 'impl Drop for Union'](https://github.com/rust-lang/rust/pull/77547)
+* [disposition: merge][Set up CI for aarch64-apple-darwin](https://github.com/rust-lang/rust/pull/75991)
+* [disposition: merge][Promote aarch64-pc-windows-msvc to Tier 2 Development Platform](https://github.com/rust-lang/rust/pull/75914)
+* [disposition: merge][resolve: Do not put nonexistent crate `meta` into prelude](https://github.com/rust-lang/rust/pull/75802)
 * [disposition: merge] [Tracking issue for slice_partition_at_index](https://github.com/rust-lang/rust/issues/55300)
 
 ## New RFCs
