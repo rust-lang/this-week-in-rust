@@ -14,20 +14,25 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-No newsletters this week.
+* [Rust in Blockchain Newsletter #16 - Secure Enclaves à la Crab](https://rustinblockchain.org/newsletters/2020-09-30-secure-enclaves-a-la-crab/)
 
 ### Official
 
 ### Tooling
 
 ### Observations/Thoughts
-
-- [Why I scatter `use` statements throughout Rust code](https://tarquin-the-brave.github.io/blog/posts/rust_use_statements/)
+* [Why I scatter `use` statements throughout Rust code](https://tarquin-the-brave.github.io/blog/posts/rust_use_statements/)
 
 ### Learn Simple Rust
 
 ### Learn More Rust
-- [video][Build a Discord Bot with Rust and Serenity](https://www.youtube.com/playlist?list=PLzIwronG0sE5lQCPFP69Ukgz4d9dngaSi)
+* [8 Solutions for Troubleshooting Your Rust Build Times](https://medium.com/@jondot/8-steps-for-troubleshooting-your-rust-build-times-2ffc965fd13e)
+* [Text-Based and Graphical User Interfaces | Rust Project](https://www.youtube.com/watch?v=dK9-oXptFcM&feature=emb_logo)
+* [Benchmarking Apache Cassandra with Rust](https://pkolaczk.github.io/benchmarking-cassandra/)
+* [Operating System development tutorials in Rust on the Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)
+* [Learning Embedded Rust with Knurling-rs](https://ferrous-systems.com/blog/knurling-sessions-introduction/)
+* [audio][What we've learned porting our apps to Windows - Astropad](https://astropad.com/what-weve-learned-porting-our-apps-to-windows/)
+* [video][Build a Discord Bot with Rust and Serenity](https://www.youtube.com/playlist?list=PLzIwronG0sE5lQCPFP69Ukgz4d9dngaSi)
 
 ### Project Updates
 
@@ -55,6 +60,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [dotenv-linter: Hacktoberfest Issues](https://github.com/dotenv-linter/dotenv-linter/issues?q=is%3Aopen+is%3Aissue+label%3Ahacktoberfest)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -197,6 +204,8 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Embedded Software Engineer](https://apply.workable.com/sense/j/ADDB5A7717/) at [Sense](https://sense.com) (Rust/C/Python, Remote or Cambridge, MA)
+* [Software Engineer - Rust - IOHK (Remote)](https://iohk.io/en/careers/fk0qe6q/software-engineer-rust/)
+* [Senior Software Engineer, Rust/Go & Linux - Red Canary (Remote)](https://jobs.lever.co/redcanary/51159c79-56ec-4335-8175-bf9cd72621a6)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
