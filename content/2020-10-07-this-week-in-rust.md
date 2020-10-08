@@ -157,7 +157,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [use futex-based `thread::park`/`unpark` on Linux](https://github.com/rust-lang/rust/pull/76919)
 * [use less divisions in display u128/i128](https://github.com/rust-lang/rust/pull/76017)
 * [fix `Debug` implementations of some of the `HashMap` and `BTreeMap` iterator types](https://github.com/rust-lang/rust/pull/75377)
-* [add `Iterator::advancie_by` and `DoubleEndedIterator::advance_back_by`](https://github.com/rust-lang/rust/pull/76909)
+* [add `Iterator::advance_by` and `DoubleEndedIterator::advance_back_by`](https://github.com/rust-lang/rust/pull/76909)
 * [backport LLVM apfloat commit to rustc_apfloat](https://github.com/rust-lang/rust/pull/77368)
 * [cargo: fix dylib+rlib with LTO.](https://github.com/rust-lang/cargo/pull/8754)
 * [uplift drop-bounds lint from clippy](https://github.com/rust-lang/rust/pull/75699)
