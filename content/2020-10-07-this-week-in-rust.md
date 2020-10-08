@@ -16,7 +16,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 * [Inside] [1.47.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2020/10/06/1.47.0-prerelease.html)
-* [Inside] [1.47.0 second pre-release testing](https://blog.rust-lang.org/inside-rust/2020/10/06/1.47.0-prerelease.html)
 
 ### Newsletters
 * [This Month in Rust OSDev (September 2020)](https://rust-osdev.com/this-month/2020-09/)
