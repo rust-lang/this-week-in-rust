@@ -359,7 +359,6 @@ Here are the wonderful submissions since the call for blog posts:
 * [Rust 2021: maintain dominance on the web, easy funding, easier learning](https://www.reddit.com/r/rust/comments/j1ihax/rust_2021_maintain_dominance_on_the_web_easy/)
 * [Rust 2021: Easier to integrate into existing codebases](https://www.reddit.com/r/rust/comments/j06zc9/rust_2021_easier_to_integrate_into_existing/)
 * [Rust 2021: Continue](https://www.reddit.com/r/rust/comments/izk75l/rust_2021_continue/)
-* [My Rust 2021 roadmap](https://raphlinus.github.io/rust/druid/2020/09/28/rust-2021.html)
 * [Rust 2021 | Features and Trait Bounds in Macros](https://blog.carminecrystal.com/rust-2021-features-and-trait-bounds-in-macros.html)
 * [Rust 2021: Quality, frictionless tooling](https://swatinem.de/blog/rust-2021/)
 * [My Rust 2021 roadmap: crates, concision, and community](http://jamesmcm.github.io/blog/2020/09/24/rust2021/#en)
