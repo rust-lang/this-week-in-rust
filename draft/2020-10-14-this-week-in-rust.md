@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Learn Simple Rust
 
 ### Learn More Rust
+[Build a Shoot 'em up game with framework Amethyst](https://yodalee.me/2020/06/introduction/)
 
 ### Project Updates
 
