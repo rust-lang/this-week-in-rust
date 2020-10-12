@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Learn Simple Rust
 
+* [Learn Rust by building the game Snake](https://blog.scottlogic.com/2020/10/08/lets-build-snake-with-rust.html)
+
 ### Learn More Rust
 
 ### Project Updates
