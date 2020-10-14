@@ -15,17 +15,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ### Official
+* [Inside] [Announcing Rust 1.47.0](https://blog.rust-lang.org/2020/10/08/Rust-1.47.html)
 
 ### Newsletters
+* [This Month in Rust GameDev #14](https://rust-gamedev.github.io/posts/newsletter-014/)
 
 ### Tooling
-
 * [Two videos about rust code coverage in VSCode](https://www.marcoieni.com/2020/10/2-videos-about-rust-code-coverage-in-vscode/)
 
 ### Observations/Thoughts
+* [Rust after the honeymoon](http://dtrace.org/blogs/bmc/2020/10/11/rust-after-the-honeymoon/)
 
 ### Learn Simple Rust
-
+* [Iterators in Rust](https://blog.thoughtram.io/iterators-in-rust/)
+* [Learn Rust Together Part 5: Structs and Enums!](https://www.youtube.com/watch?v=Iy5pvVPZT50)
 * [Learn Rust by building the game Snake](https://blog.scottlogic.com/2020/10/08/lets-build-snake-with-rust.html)
 
 ### Learn More Rust
@@ -56,6 +59,8 @@ Thanks to [mark-i-m](https://users.rust-lang.org/t/crate-of-the-week/2704/825) f
 
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
+
+* [Create a Rust-Client for SirixDB](https://dev.to/sirixdb/create-a-rust-client-during-hacktoberfest-5al4)
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
@@ -139,6 +144,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+* [Lead Software Engineer at Stake Technologies (SG, Remote)](https://angel.co/company/stake-technologies/jobs/1005201-lead-software-engineer)
+* [Software Engineer at Stake Technologies (SG, Remote)](https://angel.co/company/stake-technologies/jobs/1005914-software-engineer)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
