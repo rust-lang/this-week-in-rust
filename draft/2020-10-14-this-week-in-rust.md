@@ -62,7 +62,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 * [Create a Rust-Client for SirixDB](https://dev.to/sirixdb/create-a-rust-client-during-hacktoberfest-5al4)
 * [the-way: Highlight parameters in shell snippet when copying](https://github.com/out-of-cheese-error/the-way/issues/75)
-* [they-way: Replace copy_to_clipboard code with arboard](https://github.com/out-of-cheese-error/the-way/issues/76)
+* [the-way: Replace copy_to_clipboard code with arboard](https://github.com/out-of-cheese-error/the-way/issues/76)
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
