@@ -34,6 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Learn More Rust
 * [Deploying a Rust HTTP server to DigitalOcean App Platform](https://pretired.dazwilkin.com/posts/201008/)
 * [ZH] [Build a Shoot 'em up game with framework Amethyst](https://yodalee.me/2020/06/introduction/)
+* [Supercharge your Electron apps with Rust](https://blog.logrocket.com/supercharge-your-electron-apps-with-rust/)
 
 ### Project Updates
 
