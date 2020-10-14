@@ -49,7 +49,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Benchmarking Apache Cassandra with Rust](https://pkolaczk.github.io/benchmarking-cassandra/)
 * [Operating System development tutorials in Rust on the Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)
 * [Learning Embedded Rust with Knurling-rs](https://ferrous-systems.com/blog/knurling-sessions-introduction/)
-* [Building a Weater Station Bot](https://blog.kdubovikov.ml/articles/rust/building-a-weather-station-bot)
+* [Building a Weather Station Bot](https://blog.kdubovikov.ml/articles/rust/building-a-weather-station-bot)
 * [Next-Gen Rust Web Apps: Towards a Svelte Fulcro in Rust](https://blog.shortepic.com/blog/first/)
 * [Next-Gen Rust Web Apps: TicTacToe in Valerie](https://blog.shortepic.com/blog/second/)
 * [Next-Gen Rust Web Apps: Borrowing From Fulcro for your Rust WASM Spa](https://blog.shortepic.com/blog/third/)
