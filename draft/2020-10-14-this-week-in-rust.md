@@ -21,7 +21,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This Month in Rust GameDev #14](https://rust-gamedev.github.io/posts/newsletter-014/)
 
 ### Tooling
-
 * [Two videos about rust code coverage in VSCode](https://www.marcoieni.com/2020/10/2-videos-about-rust-code-coverage-in-vscode/)
 
 ### Observations/Thoughts
@@ -145,7 +144,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
 * [Lead Software Engineer at Stake Technologies (SG, Remote)](https://angel.co/company/stake-technologies/jobs/1005201-lead-software-engineer)
 * [Software Engineer at Stake Technologies (SG, Remote)](https://angel.co/company/stake-technologies/jobs/1005914-software-engineer)
 
