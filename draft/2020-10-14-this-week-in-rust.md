@@ -122,22 +122,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-* [2020-10-05](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-10-05.md):
-1 Regressions, 2 Improvements, 1 Mixed
+* [2020-10-13](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-10-13.md):
+0 Regressions, 3 Improvements, 3 Mixed
 
-A quiet week. One rather large regression on a synthetic benchmark and a few
-small improvements.
+Overall, fairly busy week, but without major regressions that need to be addressed.
 
-[#77023](https://github.com/rust-lang/rust/issues/77023) is an interesting
-case. It encoded an invariant about slice lengths as an `assume` intrinsic
-inside `len` function. It seems to have caused a small compile-time slowdown,
-but there was no improvement in `check` build performance (a proxy for generated
-code quality). In fact, the LLVM documentation [specifically advises
-against](https://llvm.org/docs/LangRef.html#llvm-assume-intrinsic) overuse of
-the `assume` intrinsic in cases where the invariant is unlikely to be of much
-help to the optimizer. That seems to be the case here.
-
-See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-10-05.md) for more.
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-10-13.md) for more.
 
 ## Approved RFCs
 
