@@ -15,29 +15,51 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ### Official
-* [Inside] [Announcing Rust 1.47.0](https://blog.rust-lang.org/2020/10/08/Rust-1.47.html)
+* [Announcing Rust 1.47.0](https://blog.rust-lang.org/2020/10/08/Rust-1.47.html)
 
 ### Newsletters
 * [This Month in Rust GameDev #14](https://rust-gamedev.github.io/posts/newsletter-014/)
 
 ### Tooling
+* [Rust Analyzer Changelog #46](https://rust-analyzer.github.io/thisweek/2020/10/12/changelog-46.html)
 * [Two videos about rust code coverage in VSCode](https://www.marcoieni.com/2020/10/2-videos-about-rust-code-coverage-in-vscode/)
 
 ### Observations/Thoughts
 * [Rust after the honeymoon](http://dtrace.org/blogs/bmc/2020/10/11/rust-after-the-honeymoon/)
+* [Building the Fastest RaptorQ (RFC6330) Codec in Rust](https://www.cberner.com/2020/10/12/building-fastest-raptorq-rfc6330-codec-rust/)
+* [Learning Rust through open source and live code reviews](https://loige.co/learning-rust-through-open-source-and-live-code-reviews/)
+* [My Mistakes Making a Canvas Based Game with Rust and WebAssembly](https://dev.to/fallenstedt/making-a-canvas-based-game-with-rust-and-webassembly-2l46)
+* [A New Backend for Cranelift, Part 1: Instruction Selection](https://hacks.mozilla.org/2020/10/a-new-backend-for-cranelift-part-1-instruction-selection/)
+* [Optional parameters in Rust](https://vidify.org/blog/rust-parameters/)
+* [Building an async-compatible actor system](https://github.com/Diggsey/posts/blob/master/actor-systems/README.md)
+* [video] [Contract as Code as Contract: Using Rust to Unify Specification and Implementation](https://youtu.be/EmSjZbSzA3A)
 
 ### Learn Simple Rust
 * [Iterators in Rust](https://blog.thoughtram.io/iterators-in-rust/)
 * [Learn Rust Together Part 5: Structs and Enums!](https://www.youtube.com/watch?v=Iy5pvVPZT50)
 * [Learn Rust by building the game Snake](https://blog.scottlogic.com/2020/10/08/lets-build-snake-with-rust.html)
+* [That's so Rusty! Fearless concurrency](https://dev.to/imaculate3/fearless-concurrency-5fk8)
+* [Making a Simple Calculator in Rust](https://dev.to/yjdoc2/making-a-simple-calculator-in-rust-d65)
+* [Patterns of fallible iteration](https://morestina.net/blog/1607/fallible-iteration)
+* [video] [3. #everyonecancontribute cafe: Gitpod & learning Rust](https://youtu.be/ewDAOLTto-A)
 
 ### Learn More Rust
 * [Deploying a Rust HTTP server to DigitalOcean App Platform](https://pretired.dazwilkin.com/posts/201008/)
+* [Make A Language - Part Eight: Function Definitions](https://arzg.github.io/lang/8/)
 * [ZH] [Build a Shoot 'em up game with framework Amethyst](https://yodalee.me/2020/06/introduction/)
+* [video] [Rust FFI: Microsoft Flight Simulator SDK Part 1](https://youtu.be/jNNz4h3iIlw)
+* [video] [Fuzz Testing popular Rust library in 5 min using cargo-fuzz / libfuzzer](https://youtu.be/W0ZRZyljKjo)
 
 ### Project Updates
+* [Rust in Curl with Hyper](https://daniel.haxx.se/blog/2020/10/09/rust-in-curl-with-hyper/)
+* [Memory Safe 'curl' for a More Secure Internet](https://www.abetterinternet.org/post/memory-safe-curl/)
+* [Version 0.7 of calloop](https://smithay.github.io/calloop-v-0-7.html)
 
 ### Miscellaneous
+* [Collect in Rust, Traverse in Haskell and Scala](https://www.fpcomplete.com/blog/collect-rust-traverse-haskell-scala/)
+* [Proving that 1 + 1 = 2 in Rust](https://gist.github.com/gretingz/bc194c20a2de2c7bcc0f457282ba2662)
+* [What should I program?](http://jamesmcm.github.io/blog/2020/10/11/programming-projects/#en)
+* [Getting back to C++ after Rust is a pain.](https://www.reddit.com/r/rust/comments/ja5aoe/getting_back_to_c_after_rust_is_a_pain/)
 
 # Call for Blog Posts
 
@@ -146,6 +168,7 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 * [Lead Software Engineer at Stake Technologies (SG, Remote)](https://angel.co/company/stake-technologies/jobs/1005201-lead-software-engineer)
 * [Software Engineer at Stake Technologies (SG, Remote)](https://angel.co/company/stake-technologies/jobs/1005914-software-engineer)
+* [Service Engineer [Rust] at Narrative (Auckland, NZ - Remote within New Zealand)](https://narrative.so/job/service-engineer-rust)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
