@@ -20,11 +20,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Tooling
 
+* [Two videos about rust code coverage in VSCode](https://www.marcoieni.com/2020/10/2-videos-about-rust-code-coverage-in-vscode/)
+
 ### Observations/Thoughts
 
 ### Learn Simple Rust
 
 ### Learn More Rust
+* [Deploying a Rust HTTP server to DigitalOcean App Platform](https://pretired.dazwilkin.com/posts/201008/)
 * [ZH] [Build a Shoot 'em up game with framework Amethyst](https://yodalee.me/2020/06/introduction/)
 
 ### Project Updates

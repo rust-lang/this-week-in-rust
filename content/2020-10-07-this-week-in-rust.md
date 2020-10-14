@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 * [Inside] [1.47.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2020/10/06/1.47.0-prerelease.html)
-* [Inside] [1.47.0 second pre-release testing](https://blog.rust-lang.org/inside-rust/2020/10/06/1.47.0-prerelease.html)
+* [Inside] [1.47.0 second pre-release testing](https://blog.rust-lang.org/inside-rust/2020/10/06/1.47.0-prerelease-2.html)
 
 ### Newsletters
 * [This Month in Rust OSDev (September 2020)](https://rust-osdev.com/this-month/2020-09/)
@@ -49,7 +49,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Benchmarking Apache Cassandra with Rust](https://pkolaczk.github.io/benchmarking-cassandra/)
 * [Operating System development tutorials in Rust on the Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)
 * [Learning Embedded Rust with Knurling-rs](https://ferrous-systems.com/blog/knurling-sessions-introduction/)
-* [Building a Weater Station Bot](https://blog.kdubovikov.ml/articles/rust/building-a-weather-station-bot)
+* [Building a Weather Station Bot](https://blog.kdubovikov.ml/articles/rust/building-a-weather-station-bot)
 * [Next-Gen Rust Web Apps: Towards a Svelte Fulcro in Rust](https://blog.shortepic.com/blog/first/)
 * [Next-Gen Rust Web Apps: TicTacToe in Valerie](https://blog.shortepic.com/blog/second/)
 * [Next-Gen Rust Web Apps: Borrowing From Fulcro for your Rust WASM Spa](https://blog.shortepic.com/blog/third/)
@@ -157,7 +157,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [use futex-based `thread::park`/`unpark` on Linux](https://github.com/rust-lang/rust/pull/76919)
 * [use less divisions in display u128/i128](https://github.com/rust-lang/rust/pull/76017)
 * [fix `Debug` implementations of some of the `HashMap` and `BTreeMap` iterator types](https://github.com/rust-lang/rust/pull/75377)
-* [add `Iterator::advancie_by` and `DoubleEndedIterator::advance_back_by`](https://github.com/rust-lang/rust/pull/76909)
+* [add `Iterator::advance_by` and `DoubleEndedIterator::advance_back_by`](https://github.com/rust-lang/rust/pull/76909)
 * [backport LLVM apfloat commit to rustc_apfloat](https://github.com/rust-lang/rust/pull/77368)
 * [cargo: fix dylib+rlib with LTO.](https://github.com/rust-lang/cargo/pull/8754)
 * [uplift drop-bounds lint from clippy](https://github.com/rust-lang/rust/pull/75699)
