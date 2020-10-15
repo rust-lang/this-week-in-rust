@@ -84,6 +84,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 * [Create a Rust-Client for SirixDB](https://dev.to/sirixdb/create-a-rust-client-during-hacktoberfest-5al4)
+* [the-way: Highlight parameters in shell snippet when copying](https://github.com/out-of-cheese-error/the-way/issues/75)
+* [the-way: Replace copy_to_clipboard code with arboard](https://github.com/out-of-cheese-error/the-way/issues/76)
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
@@ -129,35 +131,29 @@ Every week [the team](https://www.rust-lang.org/team.html) announces the
 decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-* [Destructuring assignment](https://github.com/rust-lang/rfcs/pull/2909)
-* [RFC: impl-only glob imports](https://github.com/rust-lang/rfcs/pull/2782)
-* [RFC: Permit _ in type aliases](https://github.com/rust-lang/rfcs/pull/2524)
+* [RFC: Promote aarch64-unknown-linux-gnu to a Tier-1 Rust target](https://github.com/rust-lang/rfcs/pull/2959)
+* [Access to traits' associated functions and constants from trait objects](https://github.com/rust-lang/rfcs/pull/2886)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [stabilize union with 'ManuallyDrop' fields and 'impl Drop for Union'](https://github.com/rust-lang/rust/pull/77547)
-* [disposition: merge] [Set up CI for aarch64-apple-darwin](https://github.com/rust-lang/rust/pull/75991)
-* [disposition: merge] [Promote aarch64-pc-windows-msvc to Tier 2 Development Platform](https://github.com/rust-lang/rust/pull/75914)
+* [disposition: merge] [stop promoting union field accesses in 'const'](https://github.com/rust-lang/rust/pull/77526)
+* [disposition: merge] [passes: `check_attr` on more targets](https://github.com/rust-lang/rust/pull/77015)
 * [disposition: merge] [resolve: Do not put nonexistent crate `meta` into prelude](https://github.com/rust-lang/rust/pull/75802)
-* [disposition: merge] [Tracking issue for slice_partition_at_index](https://github.com/rust-lang/rust/issues/55300)
+* [disposition: postpone][Tracking issue for experiments around coercions, generics, and Copy type ergonomics](https://github.com/rust-lang/rust/issues/44619)
 
 ## New RFCs
 
-* [Add 0000-vecdeque-binary-search.md: Binary search fns for VecDeque](https://github.com/rust-lang/rfcs/pull/2997)
 
 # Upcoming Events
 
 ### Online
-* [October 7. Johannesburg, ZA - Johannesburg Rust Meetup - Monthly Joburg Rust Chat!](https://www.meetup.com/Johannesburg-Rust-Meetup/events/273455489/)
-* [October 7. Dublin, IE - Rust Dublin - October Remote Meetup](https://www.meetup.com/Rust-Dublin/events/273014329/)
-* [October 7. Indianapolis, IN, US - Indy.rs - Indy.rs - with Social Distancing](https://www.meetup.com/indyrs/events/jhfstrybcnbkb/)
-* [October 8. Linz, AT - Rust Linz - Rust Meetup Linz](https://www.meetup.com/de-DE/Rust-Linz/events/271857253/)
-* [October 8. San Diego, CA, US - San Diego Rust - San Diego Rust October 2020 Tele-Meetup](https://www.meetup.com/San-Diego-Rust/events/273486967/)
-* [October 12 - 18. RustLab](https://www.rustlab.it/agenda)
-* [October 13. Saabrücken, DE - Rust-Saar Meetup - `4u16`](https://www.meetup.com/Rust-Saar/events/273252813/)
 * [Octover 15. Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrybcnbtb/)
 * [October 20. Denver, CO, US - Rust Denver - Data Science with Rust](https://www.meetup.com/Rust-Boulder-Denver/events/272996842/)
-* [October 21. Vancover, BC, CA - Vancouver Rust - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/cxrtxrybcnbcc/)
+* [October 21. New York, NY, US - A Journey into the Nucleus at Dropbox with Parker Timmerman - Rust NYC](https://www.meetup.com/Rust-NYC/events/273887563)
+* [October 21. Vancover, BC, CA - Rust Study/Hack/Hang-out night - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/cxrtxrybcnbcc/)
+* [October 22. Edinburgh, UK - Fluence: interface-types for server-side WebAssembly modules - Rust Edinburgh](https://www.meetup.com/rust-edi/events/273685985)
+* [October 27. Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcnbkc/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
