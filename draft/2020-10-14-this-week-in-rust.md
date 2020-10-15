@@ -46,6 +46,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Learn More Rust
 * [Deploying a Rust HTTP server to DigitalOcean App Platform](https://pretired.dazwilkin.com/posts/201008/)
 * [Make A Language - Part Eight: Function Definitions](https://arzg.github.io/lang/8/)
+* [Supercharge your Electron apps with Rust](https://blog.logrocket.com/supercharge-your-electron-apps-with-rust/)
 * [ZH] [Build a Shoot 'em up game with framework Amethyst](https://yodalee.me/2020/06/introduction/)
 * [video] [Rust FFI: Microsoft Flight Simulator SDK Part 1](https://youtu.be/jNNz4h3iIlw)
 * [video] [Fuzz Testing popular Rust library in 5 min using cargo-fuzz / libfuzzer](https://youtu.be/W0ZRZyljKjo)
