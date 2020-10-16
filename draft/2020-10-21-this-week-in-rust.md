@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Learn More Rust
 
 ### Project Updates
+* [Version 0.2 of async-hsm](https://crates.io/crates/async-hsm)
 
 ### Miscellaneous
 
