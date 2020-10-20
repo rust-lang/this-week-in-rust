@@ -38,9 +38,9 @@ Here are the wonderful submissions since the call for blog posts:
 
 # Crate of the Week
 
-This week's crate is [paste](https://crates.io/crates/paste), a macro to concatenate identifiers (which would otherwise be nightly only).
+This week's crate is [icu4x](https://github.com/unicode-org/icu4x), the Unicode Consortium's official crate for dealing with i18n in resource constrained environments.
 
-Thanks to [mark-i-m](https://users.rust-lang.org/t/crate-of-the-week/2704/825) for the suggestion!
+Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/828) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -59,18 +59,21 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-409 pull requests were [merged in the last week][merged]
+398 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-10-05..2020-10-12
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-10-12..2020-10-19
 
-* [resolve: improve "try using the enum's variant"](https://github.com/rust-lang/rust/pull/77341)
-* [Fix `LitKind`'s byte buffer to use refcounted slice](https://github.com/rust-lang/rust/pull/77560)
-* [Replace `(Body, DefId)` with `Body` where possible](https://github.com/rust-lang/rust/pull/77552)
-* [perf: `UninhabitedEnumBranching` avoid n²](https://github.com/rust-lang/rust/pull/77597)
-* [Fix span for unicode escape suggestion](https://github.com/rust-lang/rust/pull/77587)
-* [Implement `advance_by`, `advance_back_by` for `iter::Chain`](https://github.com/rust-lang/rust/pull/77594)
-* [Add `PartialEq` impls for `Vec` ↔ `slice`](https://github.com/rust-lang/rust/pull/74194)
-* [stdsimd: Use xor to implement `Neg::neg` for floats](https://github.com/rust-lang/stdsimd/pull/31)
+* [make set_span take `mut self`](https://github.com/rust-lang/rust/pull/78047)
+* [resolve: further improvements to "try using the enum's variant" diagnostic](https://github.com/rust-lang/rust/pull/77855)
+* [`min_const_generics` diagnostics improvements](https://github.com/rust-lang/rust/pull/77825)
+* [make sure arenas don't allocate bigger than `HUGE_PAGE`](https://github.com/rust-lang/rust/pull/78058)
+* [make `ObligationForest` more efficient](https://github.com/rust-lang/rust/pull/77908)
+* [add `std::thread::available_concurrency`](https://github.com/rust-lang/rust/pull/74480)
+* [remove `shrink_to_fit` from default `ToString::to_string` implementation](https://github.com/rust-lang/rust/pull/77997)
+* [add `str::`{`Split`, `RSplit`, `SplitN`, `RSplitN`, `SplitTerminator`, `RSplitTerminator`, `SplitInclusive`}`::as_str` methods](https://github.com/rust-lang/rust/pull/75265)
+* [liballoc: `VecDeque`: Add binary search functions](https://github.com/rust-lang/rust/pull/77751)
+* [BTreeMap: fix gdb provider on `BTreeMap` with ZST keys or values](https://github.com/rust-lang/rust/pull/77788)
+* [hashbrown: remove the need for unwrap when using `ProbeSeq`](https://github.com/rust-lang/hashbrown/pull/208)
 
 ## Rust Compiler Performance Triage
 
@@ -132,11 +135,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Just because Rust allows you to write super cool non-allocating zero-copy algorithms safely, doesn’t mean every algorithm you write should be super cool, zero-copy and non-allocating.
+> And it's true that a lot of stuff requires a "sufficiently smart compiler" but really it's 2020, if your compiler isn't serving you breakfast in bed you need to be upping your expectations.
 
-- [trentj on rust-users](https://users.rust-lang.org/t/feeling-rust-is-so-difficult/29962/15)
+- [Jubilee on the Rust Zulip](https://rust-lang.zulipchat.com/#narrow/stream/257879-project-portable-simd/topic/The.20movemasquerade/near/212794818)
 
-Thanks to [Nixon Enraght-Moony](https://users.rust-lang.org/t/twir-quote-of-the-week/328/948) for the suggestion!
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/949) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
