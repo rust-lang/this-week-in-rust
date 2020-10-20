@@ -25,8 +25,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Learn Simple Rust
 
 ### Learn More Rust
+* [Building a runtime reflection system for Rust 🦀️ Part 2](https://www.osohq.com/post/runtime-reflection-pt-2)
 
 ### Project Updates
+* [oso, an open-source policy engine for authorization written in Rust](https://github.com/osohq/oso), released [version 0.7.0 of their authorization library for Rust projects!](https://docs.rs/oso/0.7.0/oso/)
 
 ### Miscellaneous
 
