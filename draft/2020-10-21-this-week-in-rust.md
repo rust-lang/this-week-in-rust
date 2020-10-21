@@ -31,6 +31,7 @@ No newsletters this week.
 * [No, C++ still isn't cutting it.](https://da-data.blogspot.com/2020/10/no-c-still-isnt-cutting-it.html)
 * [A pitfall of Rust's move/copy/drop semantics and zeroing data](https://benma.github.io/2020/10/16/rust-zeroize-move.html)
 * [Proving that 1 + 1 = 10 in Rust](https://tavianator.com/2020/one_plus_one.html)
+* [Study of std::io::Error](https://matklad.github.io/2020/10/15/study-of-std-io-error.html)
 
 ### Learn Simple Rust
 * [Building Your Own Error Type: Part 1](https://yaah.dev/building-your-own-error-type)
