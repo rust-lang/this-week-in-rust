@@ -26,10 +26,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 [Arrays, vectors and slices in Rust](https://hashrust.com/blog/arrays-vectors-and-slices-in-rust/)
 
 ### Learn More Rust
+* [Building a runtime reflection system for Rust 🦀️ Part 2](https://www.osohq.com/post/runtime-reflection-pt-2)
 
 * [video] [(Live Coding) Audio adventures in Rust: Spotify integration](https://youtu.be/5q4NB9WdYIo)
 
 ### Project Updates
+* [oso, an open-source policy engine for authorization written in Rust](https://github.com/osohq/oso), released [version 0.7.0 of their authorization library for Rust projects!](https://docs.rs/oso/0.7.0/oso/)
 * ⚡️ [Dotenv-linter v2.2.0: find and fix problems in .env files](https://evrone.com/dotenv-linter-v220)
 
 ### Miscellaneous
