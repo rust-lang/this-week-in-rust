@@ -30,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [(Live Coding) Audio adventures in Rust: Spotify integration](https://youtu.be/5q4NB9WdYIo)
 
 ### Project Updates
+* ⚡️ [Dotenv-linter v2.2.0: find and fix problems in .env files](https://evrone.com/dotenv-linter-v220)
 
 ### Miscellaneous
 * [Create Your Own PineTime Watch Face in Rust... And Publish on crates.io](https://lupyuen.github.io/pinetime-rust-mynewt/articles/watchface)
