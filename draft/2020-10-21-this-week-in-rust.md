@@ -54,6 +54,7 @@ No newsletters this week.
 * [Building a runtime reflection system for Rust 🦀️ (Part 2)](https://www.osohq.com/post/runtime-reflection-pt-2)
 * [Compile Rust for Raspberry Pi ARM](https://medium.com/swlh/compiling-rust-for-raspberry-pi-arm-922b55dbb050)
 * [Basic non-blocking IO using epoll in Rust](https://zupzup.org/epoll-with-rust/)
+* [Debugging async generator errors in Rust](https://meltware.com/2020/10/21/rust-async-nonsense.html)
 * [video] [(Live Coding) Audio adventures in Rust: Spotify integration](https://youtu.be/5q4NB9WdYIo)
 * [video] [Rust Linz, October 2020 - Matthias Heiden - Writing a Kernel Driver with Rust](https://youtu.be/wREGR7QQHco)
 
