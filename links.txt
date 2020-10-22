@@ -359,7 +359,6 @@ Here are the wonderful submissions since the call for blog posts:
 * [Rust 2021: maintain dominance on the web, easy funding, easier learning](https://www.reddit.com/r/rust/comments/j1ihax/rust_2021_maintain_dominance_on_the_web_easy/)
 * [Rust 2021: Easier to integrate into existing codebases](https://www.reddit.com/r/rust/comments/j06zc9/rust_2021_easier_to_integrate_into_existing/)
 * [Rust 2021: Continue](https://www.reddit.com/r/rust/comments/izk75l/rust_2021_continue/)
-* [My Rust 2021 roadmap](https://raphlinus.github.io/rust/druid/2020/09/28/rust-2021.html)
 * [Rust 2021 | Features and Trait Bounds in Macros](https://blog.carminecrystal.com/rust-2021-features-and-trait-bounds-in-macros.html)
 * [Rust 2021: Quality, frictionless tooling](https://swatinem.de/blog/rust-2021/)
 * [My Rust 2021 roadmap: crates, concision, and community](http://jamesmcm.github.io/blog/2020/09/24/rust2021/#en)
@@ -370,4 +369,113 @@ Here are the wonderful submissions since the call for blog posts:
 * [Rust 2021: Minor major improvements](https://blog.thomasheartman.com/posts/rust-2021)
 * [Rust 2021](https://beyermatthias.de/blog/2020/09/28/rust-2021/)
 * [My Rust 2021](https://blog-dry.com/entry/2020/09/29/135738)
+
+Number: 359  Date: 2020-10-07 
+
+### Official
+* [Inside] [1.47.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2020/10/06/1.47.0-prerelease.html)
+* [Inside] [1.47.0 second pre-release testing](https://blog.rust-lang.org/inside-rust/2020/10/06/1.47.0-prerelease.html)
+### Newsletters
+* [This Month in Rust OSDev (September 2020)](https://rust-osdev.com/this-month/2020-09/)
+* [Rust in Blockchain Newsletter #16 - Secure Enclaves à la Crab](https://rustinblockchain.org/newsletters/2020-09-30-secure-enclaves-a-la-crab/)
+* [This Month in Dimforge #1 (October 2020)](https://www.dimforge.com/blog/2020/10/01/this-month-in-dimforge/)
+### Tooling
+* [Rust Analyzer Changelog #45](https://rust-analyzer.github.io/thisweek/2020/10/05/changelog-45.html)
+* [IntelliJ Rust Changelog #132](https://intellij-rust.github.io/2020/10/05/changelog-132.html)
+### Observations/Thoughts
+* [Why I scatter `use` statements throughout Rust code](https://tarquin-the-brave.github.io/blog/posts/rust_use_statements/)
+* [Rust + Raspberry Pi Tide Clock](https://thefuntastic.com/blog/rust-tide-clock)
+* [You're Allowed To Write Slow Rust Code](https://blog.jonstodle.com/youre-allowed-to-write-slow-rust-code/)
+* [Rust meets the web - a clash of programming paradigms](https://www.jakobmeier.ch/blogging/Rust_on_the_Web.html)
+* [Dynamic widget sketches](https://www.cmyr.net/blog/druid-dynamism.html)
+* [Results of Authoring a JS Library with Rust and Wasm](https://nickb.dev/blog/results-of-authoring-a-js-library-with-rust-and-wasm)
+* [Ringbahn III: A deeper dive into drivers](https://without.boats/blog/ringbahn-iii/)
+* [Fast Thread Locals In Rust](https://matklad.github.io/2020/10/03/fast-thread-locals-in-rust.html)
+* [Formicarium](https://gliderkite.github.io/posts/formicarium/)
+### Learn Simple Rust
+* [Dancing Links In Rust](https://ferrous-systems.com/blog/dlx-in-rust/)
+* [Getting Started with the nRF52840 in Rust](https://nitschinger.at/Getting-Started-with-the-nRF52840-in-Rust/)
+* [That's so Rust!: Smart pointers](https://dev.to/imaculate3/that-s-so-rusty-smart-pointers-245l)
+* [video] [Test-Based and Graphical User Interfaces | Rust Project](https://youtu.be/dK9-oXptFcM)
+### Learn More Rust
+* [8 Solutions for Troubleshooting Your Rust Build Times](https://medium.com/@jondot/8-steps-for-troubleshooting-your-rust-build-times-2ffc965fd13e)
+* [Benchmarking Apache Cassandra with Rust](https://pkolaczk.github.io/benchmarking-cassandra/)
+* [Operating System development tutorials in Rust on the Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)
+* [Learning Embedded Rust with Knurling-rs](https://ferrous-systems.com/blog/knurling-sessions-introduction/)
+* [Building a Weater Station Bot](https://blog.kdubovikov.ml/articles/rust/building-a-weather-station-bot)
+* [Next-Gen Rust Web Apps: Towards a Svelte Fulcro in Rust](https://blog.shortepic.com/blog/first/)
+* [Next-Gen Rust Web Apps: TicTacToe in Valerie](https://blog.shortepic.com/blog/second/)
+* [Next-Gen Rust Web Apps: Borrowing From Fulcro for your Rust WASM Spa](https://blog.shortepic.com/blog/third/)
+* [Make A Language - Part Four: Backtracking](https://arzg.github.io/lang/4/)
+* [Make A Language - Part Five: Binding Usages](https://arzg.github.io/lang/5/)
+* [Make A Language - Part Six: Blocks](https://arzg.github.io/lang/6/)
+* [Make A Language - Part Seven: A REPL](https://arzg.github.io/lang/7/)
+* [audio] [What we've learned porting our apps to Windows - Astropad](https://astropad.com/what-weve-learned-porting-our-apps-to-windows/)
+* [video] [Build a Discord Bot with Rust and Serenity](https://www.youtube.com/playlist?list=PLzIwronG0sE5lQCPFP69Ukgz4d9dngaSi)
+### Project Updates
+* [Headcrab: September 2020 progress report](https://headcrab.rs/2020/10/01/september-update.html)
+### Miscellaneous
+* [/r/rust is partnering with the Rust communities on Discord, Mozilla's Matrix, and Stack Overflow as venues for "IRC-like" real-time chat](https://www.reddit.com/r/rust/comments/j6b03y/rrust_is_partnering_with_the_rust_communities_on/)
+* [[Mesa-dev] Rust drivers in Mesa](https://lists.freedesktop.org/archives/mesa-dev/2020-October/224639.html)
+* [Designing a New Rust Class at Stanford: Safety in Systems Programming](https://reberhardt.com/blog/2020/10/05/designing-a-new-class-at-stanford-safety-in-systems-programming.html)
+* [Memory Safety Alternative](https://github.com/finegeometer/articles/blob/master/memory-safety-alternative.md)
+# Call for Blog Posts
+The Rust Core Team wants input from the community!
+If you haven't already, [read the official blog](https://blog.rust-lang.org/2020/09/03/Planning-2021-Roadmap.html) and submit a blog post - it will show up here!
+Here are the wonderful submissions since the call for blog posts:
+* [Rust 2021: APIs, ORMS and standards](https://medium.com/@v.mishra/rust-2021-apis-orms-and-standards-bfdf3ddc15a0)
+* [Rust 2021 - Stability](https://jackh726.github.io/rust/2020/10/01/rust-2021.html)
+* [The Rust Organization in 2021](https://tmandry.gitlab.io/blog/posts/rust-2021-organization/)
+* [Rust 2021](https://nikhilism.com/post/2020/rust-2021/)
+* [Rust 2021: lowering barriers](https://gist.github.com/samsieber/e976664ba333fd8a0b5f3b0ba167cb76#file-rust-2021-md)
+* [Rust 2021](https://markentier.tech/posts/2020/10/rust-2021/)
+* [The Rust 2021 Experience - Year of the Macro](https://casualhacks.net/blog/2020-10-05/the-rust-2021-experience-macros/)
+* [The Rust Project in 2021](https://tmandry.gitlab.io/blog/posts/rust-2021-project/)
+
+Number: 360  Date: 2020-10-14 
+
+### Official
+* [Announcing Rust 1.47.0](https://blog.rust-lang.org/2020/10/08/Rust-1.47.html)
+### Newsletters
+* [This Month in Rust GameDev #14](https://rust-gamedev.github.io/posts/newsletter-014/)
+### Tooling
+* [Rust Analyzer Changelog #46](https://rust-analyzer.github.io/thisweek/2020/10/12/changelog-46.html)
+* [Two videos about rust code coverage in VSCode](https://www.marcoieni.com/2020/10/2-videos-about-rust-code-coverage-in-vscode/)
+### Observations/Thoughts
+* [Rust after the honeymoon](http://dtrace.org/blogs/bmc/2020/10/11/rust-after-the-honeymoon/)
+* [Building the Fastest RaptorQ (RFC6330) Codec in Rust](https://www.cberner.com/2020/10/12/building-fastest-raptorq-rfc6330-codec-rust/)
+* [Learning Rust through open source and live code reviews](https://loige.co/learning-rust-through-open-source-and-live-code-reviews/)
+* [My Mistakes Making a Canvas Based Game with Rust and WebAssembly](https://dev.to/fallenstedt/making-a-canvas-based-game-with-rust-and-webassembly-2l46)
+* [A New Backend for Cranelift, Part 1: Instruction Selection](https://hacks.mozilla.org/2020/10/a-new-backend-for-cranelift-part-1-instruction-selection/)
+* [Optional parameters in Rust](https://vidify.org/blog/rust-parameters/)
+* [Building an async-compatible actor system](https://github.com/Diggsey/posts/blob/master/actor-systems/README.md)
+* [video] [Contract as Code as Contract: Using Rust to Unify Specification and Implementation](https://youtu.be/EmSjZbSzA3A)
+### Learn Simple Rust
+* [Iterators in Rust](https://blog.thoughtram.io/iterators-in-rust/)
+* [Learn Rust by building the game Snake](https://blog.scottlogic.com/2020/10/08/lets-build-snake-with-rust.html)
+* [That's so Rusty! Fearless concurrency](https://dev.to/imaculate3/fearless-concurrency-5fk8)
+* [Making a Simple Calculator in Rust](https://dev.to/yjdoc2/making-a-simple-calculator-in-rust-d65)
+* [Patterns of fallible iteration](https://morestina.net/blog/1607/fallible-iteration)
+* [video] [Learn Rust Together Part 5: Structs and Enums!](https://www.youtube.com/watch?v=Iy5pvVPZT50)
+* [video] [3. #everyonecancontribute cafe: Gitpod & learning Rust](https://youtu.be/ewDAOLTto-A)
+### Learn More Rust
+* [Deploying a Rust HTTP server to DigitalOcean App Platform](https://pretired.dazwilkin.com/posts/201008/)
+* [Make A Language - Part Eight: Function Definitions](https://arzg.github.io/lang/8/)
+* [Supercharge your Electron apps with Rust](https://blog.logrocket.com/supercharge-your-electron-apps-with-rust/)
+* [ZH] [Build a Shoot 'em up game with framework Amethyst](https://yodalee.me/2020/06/introduction/)
+* [video] [Rust FFI: Microsoft Flight Simulator SDK Part 1](https://youtu.be/jNNz4h3iIlw)
+* [video] [Fuzz Testing popular Rust library in 5 min using cargo-fuzz / libfuzzer](https://youtu.be/W0ZRZyljKjo)
+### Project Updates
+* [Rust in Curl with Hyper](https://daniel.haxx.se/blog/2020/10/09/rust-in-curl-with-hyper/)
+* [Memory Safe 'curl' for a More Secure Internet](https://www.abetterinternet.org/post/memory-safe-curl/)
+* [Version 0.7 of calloop](https://smithay.github.io/calloop-v-0-7.html)
+### Miscellaneous
+* [Collect in Rust, Traverse in Haskell and Scala](https://www.fpcomplete.com/blog/collect-rust-traverse-haskell-scala/)
+* [Proving that 1 + 1 = 2 in Rust](https://gist.github.com/gretingz/bc194c20a2de2c7bcc0f457282ba2662)
+* [What should I program?](http://jamesmcm.github.io/blog/2020/10/11/programming-projects/#en)
+* [Getting back to C++ after Rust is a pain.](https://www.reddit.com/r/rust/comments/ja5aoe/getting_back_to_c_after_rust_is_a_pain/)
+# Call for Blog Posts
+The Rust Core Team wants input from the community!
+If you haven't already, [read the official blog](https://blog.rust-lang.org/2020/09/03/Planning-2021-Roadmap.html) and submit a blog post - it will show up here!
+Here are the wonderful submissions since the call for blog posts:
 
