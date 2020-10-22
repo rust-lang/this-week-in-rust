@@ -23,14 +23,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Learn Simple Rust
+[Arrays, vectors and slices in Rust](https://hashrust.com/blog/arrays-vectors-and-slices-in-rust/)
 
 ### Learn More Rust
 * [Building a runtime reflection system for Rust 🦀️ Part 2](https://www.osohq.com/post/runtime-reflection-pt-2)
 
+* [video] [(Live Coding) Audio adventures in Rust: Spotify integration](https://youtu.be/5q4NB9WdYIo)
+
 ### Project Updates
 * [oso, an open-source policy engine for authorization written in Rust](https://github.com/osohq/oso), released [version 0.7.0 of their authorization library for Rust projects!](https://docs.rs/oso/0.7.0/oso/)
+* ⚡️ [Dotenv-linter v2.2.0: find and fix problems in .env files](https://evrone.com/dotenv-linter-v220)
 
 ### Miscellaneous
+* [Create Your Own PineTime Watch Face in Rust... And Publish on crates.io](https://lupyuen.github.io/pinetime-rust-mynewt/articles/watchface)
+* [Getting started with Datalog & Rust for program analysis](https://hexgolems.com/2020/10/getting-started-with-ddlog/)
 
 # Call for Blog Posts
 
@@ -53,7 +59,11 @@ Thanks to [mark-i-m](https://users.rust-lang.org/t/crate-of-the-week/2704/825) f
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
+* [GitUI: Good First Issue](https://github.com/extrawurst/gitui/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [this-week-in-rust: Very light font can be difficult to read](https://github.com/rust-lang/this-week-in-rust/issues/708)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
