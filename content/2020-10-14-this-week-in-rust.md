@@ -36,11 +36,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Learn Simple Rust
 * [Iterators in Rust](https://blog.thoughtram.io/iterators-in-rust/)
-* [Learn Rust Together Part 5: Structs and Enums!](https://www.youtube.com/watch?v=Iy5pvVPZT50)
 * [Learn Rust by building the game Snake](https://blog.scottlogic.com/2020/10/08/lets-build-snake-with-rust.html)
 * [That's so Rusty! Fearless concurrency](https://dev.to/imaculate3/fearless-concurrency-5fk8)
 * [Making a Simple Calculator in Rust](https://dev.to/yjdoc2/making-a-simple-calculator-in-rust-d65)
 * [Patterns of fallible iteration](https://morestina.net/blog/1607/fallible-iteration)
+* [video] [Learn Rust Together Part 5: Structs and Enums!](https://www.youtube.com/watch?v=Iy5pvVPZT50)
 * [video] [3. #everyonecancontribute cafe: Gitpod & learning Rust](https://youtu.be/ewDAOLTto-A)
 
 ### Learn More Rust
