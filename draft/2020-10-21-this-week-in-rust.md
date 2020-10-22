@@ -32,6 +32,7 @@ No newsletters this week.
 * [A pitfall of Rust's move/copy/drop semantics and zeroing data](https://benma.github.io/2020/10/16/rust-zeroize-move.html)
 * [Proving that 1 + 1 = 10 in Rust](https://tavianator.com/2020/one_plus_one.html)
 * [Study of std::io::Error](https://matklad.github.io/2020/10/15/study-of-std-io-error.html)
+* [Fun With Rust's Traits](https://samwho.dev/blog/fun-with-rust-traits/)
 
 ### Learn Simple Rust
 * [Arrays, vectors and slices in Rust](https://hashrust.com/blog/arrays-vectors-and-slices-in-rust/)
@@ -60,6 +61,7 @@ No newsletters this week.
 * [Announcing Tokio 0.3 and the path to 1.0](https://tokio.rs/blog/2020-10-tokio-0-3)
 * [oso, an open-source policy engine for authorization written in Rust](https://github.com/osohq/oso), released [version 0.7.0 of their authorization library for Rust projects!](https://docs.rs/oso/0.7.0/oso/)
 * ⚡️ [Dotenv-linter v2.2.0: find and fix problems in .env files](https://evrone.com/dotenv-linter-v220)
+* [Version 0.3.0 of cargo-wipe has been released](https://github.com/mihai-dinculescu/cargo-wipe)
 
 ### Miscellaneous
 * [A new look, tickets and what's to come](https://blog.rustfest.eu/a-new-look)
@@ -174,6 +176,14 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Senior Back End Engineer at Hopin (Remote)](https://hopin.to/careers/902859)
+* [Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Senior Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
+* [Senior Full Stack Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
+* [Software Engineer - Trading Technology (Rust) at Kraken (Remote)](https://jobs.lever.co/kraken/4485f672-dc5f-4e49-a10b-2b0399e28a8d)
+* [Rust Engineer, Desktop GUI - Cryptowatch](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
