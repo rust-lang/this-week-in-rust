@@ -62,6 +62,7 @@ No newsletters this week.
 * [oso, an open-source policy engine for authorization written in Rust](https://github.com/osohq/oso), released [version 0.7.0 of their authorization library for Rust projects!](https://docs.rs/oso/0.7.0/oso/)
 * ⚡️ [Dotenv-linter v2.2.0: find and fix problems in .env files](https://evrone.com/dotenv-linter-v220)
 * [Version 0.3.0 of cargo-wipe has been released](https://github.com/mihai-dinculescu/cargo-wipe)
+* [actix-cors v0.5.0 has been released](https://github.com/actix/actix-extras/releases/tag/cors-0.5.0)
 
 ### Miscellaneous
 * [A new look, tickets and what's to come](https://blog.rustfest.eu/a-new-look)
