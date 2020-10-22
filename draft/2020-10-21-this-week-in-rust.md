@@ -73,6 +73,7 @@ No newsletters this week.
 * [Sailfish OS 3.4 Released with Experimental Rust Support, Finally Eyeing 64-bit ARM](https://www.phoronix.com/scan.php?page=news_item&px=Sailfish-OS-3.4-Released)
 * [Create Your Own PineTime Watch Face in Rust... And Publish on crates.io](https://lupyuen.github.io/pinetime-rust-mynewt/articles/watchface)
 * [Getting started with Datalog & Rust for program analysis](https://hexgolems.com/2020/10/getting-started-with-ddlog/)
+* [Three open source Sonos projects: efficient embedded development in Rust](https://tech-blog.sonos.com/posts/three-open-source-sonos-projects-in-rust/)
 
 # Call for Blog Posts
 
@@ -184,6 +185,7 @@ Email the [Rust Community Team][community] for access.
 * [Software Engineer - Trading Technology (Rust) at Kraken (Remote)](https://jobs.lever.co/kraken/4485f672-dc5f-4e49-a10b-2b0399e28a8d)
 * [Rust Engineer, Desktop GUI - Cryptowatch](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
 * [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Full remote Rust developer, long-term contract (French CDI) at Massa Labs (Remote)](https://massa.network/#jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
