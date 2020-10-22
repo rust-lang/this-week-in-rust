@@ -14,27 +14,61 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-### Official
+No newsletters this week.
 
-### Newsletters
+### Official
+* [Marking issues as regressions](https://blog.rust-lang.org/2020/10/20/regression-labels.html)
+* [Inside] [Lang team Backlog Bonanza and Project Proposals](https://blog.rust-lang.org/inside-rust/2020/10/16/Backlog-Bonanza.html)
 
 ### Tooling
+* [Rust-Analyzer Changelog #47](https://rust-analyzer.github.io/thisweek/2020/10/19/changelog-47.html)
+* [IntelliJ Rust Changelog #133](https://intellij-rust.github.io/2020/10/19/changelog-133.html)
 
 ### Observations/Thoughts
+* [Fearless concurrency: how Clojure, Rust, Pony, Erlang and Dart let you achieve that.](https://sites.google.com/a/athaydes.com/renato-athaydes/posts/fearlessconcurrencyhowclojurerustponyerlanganddartletyouachievethat)
+* [Shock Result<>?: Rust faster than Python in one test of file parsing](http://www.coralbark.net/blog/technology/2020/10/shock-result-rust-faster-than-python-in-one-test-of-file-parsing/)
+* [Building a Recipe Manager - Part 2 - Druid Experience Report](https://bheisler.github.io/post/recipe-manager-part-2-druid-experience-report/)
+* [No, C++ still isn't cutting it.](https://da-data.blogspot.com/2020/10/no-c-still-isnt-cutting-it.html)
+* [A pitfall of Rust's move/copy/drop semantics and zeroing data](https://benma.github.io/2020/10/16/rust-zeroize-move.html)
+* [Proving that 1 + 1 = 10 in Rust](https://tavianator.com/2020/one_plus_one.html)
+* [Study of std::io::Error](https://matklad.github.io/2020/10/15/study-of-std-io-error.html)
 
 ### Learn Simple Rust
-[Arrays, vectors and slices in Rust](https://hashrust.com/blog/arrays-vectors-and-slices-in-rust/)
+* [Arrays, vectors and slices in Rust](https://hashrust.com/blog/arrays-vectors-and-slices-in-rust/)
+* [Building Your Own Error Type: Part 1](https://yaah.dev/building-your-own-error-type)
+* [Lifetimes in Rust](https://blog.thoughtram.io/lifetimes-in-rust/)
+* [Piece by Piece: Write Readable Rust Code](https://impl.dev/posts/write-readable-rust-code/)
+* [Are out paramters idiomatic in Rust?](https://steveklabnik.com/writing/are-out-parameters-idiomatic-in-rust)
+* [Non-Generic Inner Functions](https://www.possiblerust.com/pattern/non-generic-inner-functions)
+* [Creating a Snake Clone in Rust, with Bevy](https://mbuffett.com/posts/bevy-snake-tutorial/)
+* [Create Your Own PineTime Watch Face in Rust... And Publish on crates.io](https://lupyuen.github.io/pinetime-rust-mynewt/articles/watchface)
+* [Either Types for Rust](https://dev.to/sirech/either-types-for-rust-46k4)
+* [Rust syntax: What is the questionmark?](https://dev.to/nickymeuleman/rust-syntax-what-the-questionmark-2n58)
+* [Private Methods on a Public Trait](https://jack.wrenn.fyi/blog/private-trait-methods/)
+* [Learn Rust with Benford's Law](https://gliderkite.github.io/posts/learn-rust-with-benford/)
+* [How to Write Hygienic Rust Macros](https://gist.github.com/Koxiaet/8c05ebd4e0e9347eb05f265dfb7252e1)
+* [video] [Rust Linz, October 2020 - Valentin Tolmer - How not to rely on inheritance](https://youtu.be/m6Gee5kNe7U)
 
 ### Learn More Rust
-* [Building a runtime reflection system for Rust 🦀️ Part 2](https://www.osohq.com/post/runtime-reflection-pt-2)
-
+* [Building a runtime reflection system for Rust 🦀️ (Part 2)](https://www.osohq.com/post/runtime-reflection-pt-2)
+* [Compile Rust for Raspberry Pi ARM](https://medium.com/swlh/compiling-rust-for-raspberry-pi-arm-922b55dbb050)
+* [Basic non-blocking IO using epoll in Rust](https://zupzup.org/epoll-with-rust/)
 * [video] [(Live Coding) Audio adventures in Rust: Spotify integration](https://youtu.be/5q4NB9WdYIo)
+* [video] [Rust Linz, October 2020 - Matthias Heiden - Writing a Kernel Driver with Rust](https://youtu.be/wREGR7QQHco)
 
 ### Project Updates
+* [Announcing Tokio 0.3 and the path to 1.0](https://tokio.rs/blog/2020-10-tokio-0-3)
 * [oso, an open-source policy engine for authorization written in Rust](https://github.com/osohq/oso), released [version 0.7.0 of their authorization library for Rust projects!](https://docs.rs/oso/0.7.0/oso/)
 * ⚡️ [Dotenv-linter v2.2.0: find and fix problems in .env files](https://evrone.com/dotenv-linter-v220)
 
 ### Miscellaneous
+* [A new look, tickets and what's to come](https://blog.rustfest.eu/a-new-look)
+* [ICU4X Project Announcement](https://github.com/unicode-org/icu4x/wiki/ICU4X-Project-Announcement)
+* [Kata Containers rewritten in Rust gets a major speed boost](https://www.zdnet.com/article/kata-containers-rewritten-in-rust-and-gets-a-major-speed-boost/)
+* [Assorted thoughts on zig (and rust)](https://scattered-thoughts.net/writing/assorted-thoughts-on-zig-and-rust/)
+* [Flask Creator Armin Ronacher Interview](https://evrone.com/armin-ronacher-interview)
+* [A recipe for start using Rust actix-web and launch chrome 🚀](https://itnext.io/a-recipe-for-starting-actix-web-server-and-launch-chrome-b792987935a)
+* [Sailfish OS 3.4 Released with Experimental Rust Support, Finally Eyeing 64-bit ARM](https://www.phoronix.com/scan.php?page=news_item&px=Sailfish-OS-3.4-Released)
 * [Create Your Own PineTime Watch Face in Rust... And Publish on crates.io](https://lupyuen.github.io/pinetime-rust-mynewt/articles/watchface)
 * [Getting started with Datalog & Rust for program analysis](https://hexgolems.com/2020/10/getting-started-with-ddlog/)
 
