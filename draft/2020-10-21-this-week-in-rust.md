@@ -30,7 +30,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project Updates
 
 ### Miscellaneous
+* [Create Your Own PineTime Watch Face in Rust... And Publish on crates.io](https://lupyuen.github.io/pinetime-rust-mynewt/articles/watchface)
 * [Getting started with Datalog & Rust for program analysis](https://hexgolems.com/2020/10/getting-started-with-ddlog/)
+
 # Call for Blog Posts
 
 The Rust Core Team wants input from the community!
