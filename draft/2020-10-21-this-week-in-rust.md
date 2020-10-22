@@ -171,7 +171,6 @@ decision. Express your opinions now.
  # Asia Pacific
 * [November 1. Auckland, NZ - Rust meetup - Introduction to Rust - Rust AKL](https://www.meetup.com/rust-akl/events/266876718/)
 
-
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
 Email the [Rust Community Team][community] for access.
