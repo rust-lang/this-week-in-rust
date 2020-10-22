@@ -97,10 +97,9 @@ Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/8
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
-* [GitUI: Good First Issue](https://github.com/extrawurst/gitui/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [GitUI: Good First Issue](https://github.com/extrawurst/gitui/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 * [this-week-in-rust: Very light font can be difficult to read](https://github.com/rust-lang/this-week-in-rust/issues/708)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -186,8 +185,8 @@ Email the [Rust Community Team][community] for access.
 * [Senior Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
 * [Senior Full Stack Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 * [Software Engineer - Trading Technology (Rust) at Kraken (Remote)](https://jobs.lever.co/kraken/4485f672-dc5f-4e49-a10b-2b0399e28a8d)
-* [Rust Engineer, Desktop GUI - Cryptowatch](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
-* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Rust Engineer, Desktop GUI - Cryptowatch at Kraken (Remote)](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
+* [Backend Engineer, Kraken Futures - Rust at Kraken(Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
 * [Full remote Rust developer, long-term contract (French CDI) at Massa Labs (Remote)](https://massa.network/#jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
