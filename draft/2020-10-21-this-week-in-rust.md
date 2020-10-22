@@ -32,6 +32,7 @@ No newsletters this week.
 * [A pitfall of Rust's move/copy/drop semantics and zeroing data](https://benma.github.io/2020/10/16/rust-zeroize-move.html)
 * [Proving that 1 + 1 = 10 in Rust](https://tavianator.com/2020/one_plus_one.html)
 * [Study of std::io::Error](https://matklad.github.io/2020/10/15/study-of-std-io-error.html)
+* [Fun With Rust's Traits](https://samwho.dev/blog/fun-with-rust-traits/)
 
 ### Learn Simple Rust
 * [Arrays, vectors and slices in Rust](https://hashrust.com/blog/arrays-vectors-and-slices-in-rust/)
@@ -60,6 +61,7 @@ No newsletters this week.
 * [Announcing Tokio 0.3 and the path to 1.0](https://tokio.rs/blog/2020-10-tokio-0-3)
 * [oso, an open-source policy engine for authorization written in Rust](https://github.com/osohq/oso), released [version 0.7.0 of their authorization library for Rust projects!](https://docs.rs/oso/0.7.0/oso/)
 * ⚡️ [Dotenv-linter v2.2.0: find and fix problems in .env files](https://evrone.com/dotenv-linter-v220)
+* [Version 0.3.0 of cargo-wipe has been released](https://github.com/mihai-dinculescu/cargo-wipe)
 
 ### Miscellaneous
 * [A new look, tickets and what's to come](https://blog.rustfest.eu/a-new-look)
@@ -71,6 +73,7 @@ No newsletters this week.
 * [Sailfish OS 3.4 Released with Experimental Rust Support, Finally Eyeing 64-bit ARM](https://www.phoronix.com/scan.php?page=news_item&px=Sailfish-OS-3.4-Released)
 * [Create Your Own PineTime Watch Face in Rust... And Publish on crates.io](https://lupyuen.github.io/pinetime-rust-mynewt/articles/watchface)
 * [Getting started with Datalog & Rust for program analysis](https://hexgolems.com/2020/10/getting-started-with-ddlog/)
+* [Three open source Sonos projects: efficient embedded development in Rust](https://tech-blog.sonos.com/posts/three-open-source-sonos-projects-in-rust/)
 
 # Call for Blog Posts
 
@@ -143,28 +146,30 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 * [RFC: Promote aarch64-unknown-linux-gnu to a Tier-1 Rust target](https://github.com/rust-lang/rfcs/pull/2959)
+* [YieldSafe auto trait](https://github.com/rust-lang/rfcs/pull/2890)
 * [Access to traits' associated functions and constants from trait objects](https://github.com/rust-lang/rfcs/pull/2886)
+* [Variadic tuples](https://github.com/rust-lang/rfcs/pull/2775)
+* [RFC for a match based surface syntax to get pointer-to-field](https://github.com/rust-lang/rfcs/pull/2666)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
-
-* [disposition: merge] [stabilize union with 'ManuallyDrop' fields and 'impl Drop for Union'](https://github.com/rust-lang/rust/pull/77547)
+* [disposition: merge] [Allow making `RUSTC_BOOTSTRAP` conditional on the crate name](https://github.com/rust-lang/rust/pull/77802)
 * [disposition: merge] [stop promoting union field accesses in 'const'](https://github.com/rust-lang/rust/pull/77526)
 * [disposition: merge] [passes: `check_attr` on more targets](https://github.com/rust-lang/rust/pull/77015)
-* [disposition: merge] [resolve: Do not put nonexistent crate `meta` into prelude](https://github.com/rust-lang/rust/pull/75802)
-* [disposition: postpone][Tracking issue for experiments around coercions, generics, and Copy type ergonomics](https://github.com/rust-lang/rust/issues/44619)
+* [disposition: merge] [Stabilize `Poll::is_ready` and `is_pending` as const](https://github.com/rust-lang/rust/pull/76227)
 
 ## New RFCs
 
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
 ### Online
-* [Octover 15. Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrybcnbtb/)
-* [October 20. Denver, CO, US - Rust Denver - Data Science with Rust](https://www.meetup.com/Rust-Boulder-Denver/events/272996842/)
-* [October 21. New York, NY, US - A Journey into the Nucleus at Dropbox with Parker Timmerman - Rust NYC](https://www.meetup.com/Rust-NYC/events/273887563)
-* [October 21. Vancover, BC, CA - Rust Study/Hack/Hang-out night - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/cxrtxrybcnbcc/)
 * [October 22. Edinburgh, UK - Fluence: interface-types for server-side WebAssembly modules - Rust Edinburgh](https://www.meetup.com/rust-edi/events/273685985)
 * [October 27. Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcnbkc/)
+* [October 29. Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrybcnbmc/)
+
+ # Asia Pacific
+* [November 1. Auckland, NZ - Rust meetup - Introduction to Rust - Rust AKL](https://www.meetup.com/rust-akl/events/266876718/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -174,6 +179,15 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Senior Back End Engineer at Hopin (Remote)](https://hopin.to/careers/902859)
+* [Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Senior Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
+* [Senior Full Stack Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
+* [Software Engineer - Trading Technology (Rust) at Kraken (Remote)](https://jobs.lever.co/kraken/4485f672-dc5f-4e49-a10b-2b0399e28a8d)
+* [Rust Engineer, Desktop GUI - Cryptowatch](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Full remote Rust developer, long-term contract (French CDI) at Massa Labs (Remote)](https://massa.network/#jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
