@@ -76,12 +76,6 @@ No newsletters this week.
 * [Getting started with Datalog & Rust for program analysis](https://hexgolems.com/2020/10/getting-started-with-ddlog/)
 * [Three open source Sonos projects: efficient embedded development in Rust](https://tech-blog.sonos.com/posts/three-open-source-sonos-projects-in-rust/)
 
-# Call for Blog Posts
-
-The Rust Core Team wants input from the community!
-If you haven't already, [read the official blog](https://blog.rust-lang.org/2020/09/03/Planning-2021-Roadmap.html) and submit a blog post - it will show up here!
-Here are the wonderful submissions since the call for blog posts:
-
 # Crate of the Week
 
 This week's crate is [icu4x](https://github.com/unicode-org/icu4x), the Unicode Consortium's official crate for dealing with i18n in resource constrained environments.
