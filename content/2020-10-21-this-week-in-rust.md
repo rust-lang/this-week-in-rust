@@ -39,7 +39,7 @@ No newsletters this week.
 * [Building Your Own Error Type: Part 1](https://yaah.dev/building-your-own-error-type)
 * [Lifetimes in Rust](https://blog.thoughtram.io/lifetimes-in-rust/)
 * [Piece by Piece: Write Readable Rust Code](https://impl.dev/posts/write-readable-rust-code/)
-* [Are out paramters idiomatic in Rust?](https://steveklabnik.com/writing/are-out-parameters-idiomatic-in-rust)
+* [Are out parameters idiomatic in Rust?](https://steveklabnik.com/writing/are-out-parameters-idiomatic-in-rust)
 * [Non-Generic Inner Functions](https://www.possiblerust.com/pattern/non-generic-inner-functions)
 * [Creating a Snake Clone in Rust, with Bevy](https://mbuffett.com/posts/bevy-snake-tutorial/)
 * [Create Your Own PineTime Watch Face in Rust... And Publish on crates.io](https://lupyuen.github.io/pinetime-rust-mynewt/articles/watchface)
@@ -162,7 +162,7 @@ decision. Express your opinions now.
 * [October 27. Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcnbkc/)
 * [October 29. Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrybcnbmc/)
 
- # Asia Pacific
+### Asia Pacific
 * [November 1. Auckland, NZ - Rust meetup - Introduction to Rust - Rust AKL](https://www.meetup.com/rust-akl/events/266876718/)
 
 If you are running a Rust event please add it to the [calendar] to get
