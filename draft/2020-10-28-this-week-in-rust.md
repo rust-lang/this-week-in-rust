@@ -28,6 +28,8 @@ No newsletters this week.
 
 ### Project Updates
 
+* A new group of maintainers has taken ownership of the [deps.rs project](https://github.com/deps-rs/deps.rs) and revived the [deps.rs page](https://deps.rs), making the page and generated badges for READMEs usable again.
+
 ### Miscellaneous
 
 # Call for Blog Posts
