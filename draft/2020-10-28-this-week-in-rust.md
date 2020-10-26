@@ -12,6 +12,10 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/emberian/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/emberian/this-week-in-rust/pulls).
 
+# RustFest Global
+
+The [RustFest schedule](https://rustfest.global/schedule) is now online! RustFest offers [_free tickets until November 1st_](https://rustfest.global/tickets). It happens across all timezones and is accessible to everyone!
+
 # Updates from Rust Community
 
 No newsletters this week.
@@ -118,6 +122,7 @@ decision. Express your opinions now.
 * [October 22. Edinburgh, UK - Fluence: interface-types for server-side WebAssembly modules - Rust Edinburgh](https://www.meetup.com/rust-edi/events/273685985)
 * [October 27. Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcnbkc/)
 * [October 29. Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrybcnbmc/)
+* [November 7 & 8, Global, RustFest Global](https://rustfest.global/)
 
  # Asia Pacific
 * [November 1. Auckland, NZ - Rust meetup - Introduction to Rust - Rust AKL](https://www.meetup.com/rust-akl/events/266876718/)
