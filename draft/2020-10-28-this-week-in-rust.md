@@ -23,6 +23,7 @@ No newsletters this week.
 ### Observations/Thoughts
 
 ### Learn Simple Rust
+- [Minimal setup of JS code invoking Rust/Wasm code](https://simon-void.github.io/minimal_js_rust_setup/)
 
 ### Learn More Rust
 
