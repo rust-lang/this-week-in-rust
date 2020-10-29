@@ -32,6 +32,7 @@ No newsletters this week.
 ### Learn Simple Rust
 
 ### Learn More Rust
+* [video] [(Live Coding) Audio adventures in Rust: Local files playback & library interface](https://youtu.be/-tj7ODHX93o)
 
 ### Project Updates
 
