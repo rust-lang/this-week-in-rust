@@ -21,31 +21,40 @@ The [RustFest schedule](https://rustfest.global/schedule) is now online! RustFes
 No newsletters this week.
 
 ### Official
+* [Inside] [Core team membership changes](https://blog.rust-lang.org/inside-rust/2020/10/23/Core-team-membership.html)
 
 ### Tooling
-* [Contributing to the IntelliJ Rust plugin: Implementing a refactoring](https://kobzol.github.io/rust/intellij/2020/10/19/contributing-4-introduce-constant-refactoring.html)
+* [Rust Analyzer Changelog #48](https://rust-analyzer.github.io/thisweek/2020/10/26/changelog-48.html)
+* [Knurling-rs Changelog #3](https://ferrous-systems.com/blog/knurling-changelog-3/)
 
+### Observations/Thoughts
+* [Fighting Rust's Expressive Type System](https://thefuntastic.com/blog/fighting-rusts-type-system)
+* [XMHell: Handling 38GB of UTF-16 XML with Rust](http://usethe.computer/posts/14-xmhell.html)
+* [LudumDare 47 - The Island](https://blog.kuviman.com/2020/10/18/ludumdare47.html)
+* [Building a Recipe Manager - Part 3 - Parsing and more Druid](https://bheisler.github.io/post/recipe-manager-part-3-parsing-and-more-druid/)
+* [Imitating specialization with OIBITs](https://pwychowaniec.com/en/posts/imitating-specialization-with-oibits/)
+* [Writing a simple AWS Lambda Custom Runtime in Rust](http://jamesmcm.github.io/blog/2020/10/24/lambda-runtime/#en)
+
+### Learn Rust
+* [Rust for a Gopher Lesson 1](https://levpaul.com/posts/rust-lesson-1/)
+* [Rust for a Gopher Lesson 2](https://levpaul.com/posts/rust-lesson-2/)
+* [Build a "todo list" backend with AssemblyLift 🚀🔒](https://dev.to/dotxlem/build-a-todo-list-backend-with-assemblylift-1ak3)
+* [So you want to write object oriented Rust](https://blog.darrien.dev/posts/so-you-want-to-object/)
+* [series] [A Web App in Rust](https://dev.to/krowemoh/series/9410)
+* [Contributing to the IntelliJ Rust plugin: Implementing a refactoring](https://kobzol.github.io/rust/intellij/2020/10/19/contributing-4-introduce-constant-refactoring.html)
+* [video] [(Live Coding) Audio adventures in Rust: Local files playback & library interface](https://youtu.be/-tj7ODHX93o)
 * [5x Faster Rust Docker Builds with cargo-chef](https://www.lpalmieri.com/posts/fast-rust-docker-builds)
 
 ### Observations/Thoughts
 * [Is Rust Web Yet? Yes, and it's freaking fast!](http://www.arewewebyet.org/)
 
-### Learn Simple Rust
-
-### Learn More Rust
-* [video] [(Live Coding) Audio adventures in Rust: Local files playback & library interface](https://youtu.be/-tj7ODHX93o)
-
 ### Project Updates
-
+* [Introducing Ungrammar](https://rust-analyzer.github.io//blog/2020/10/24/introducing-ungrammar.html)
 * A new group of maintainers has taken ownership of the [deps.rs project](https://github.com/deps-rs/deps.rs) and revived the [deps.rs page](https://deps.rs), making the page and generated badges for READMEs usable again.
 
 ### Miscellaneous
-
-# Call for Blog Posts
-
-The Rust Core Team wants input from the community!
-If you haven't already, [read the official blog](https://blog.rust-lang.org/2020/09/03/Planning-2021-Roadmap.html) and submit a blog post - it will show up here!
-Here are the wonderful submissions since the call for blog posts:
+* [Sandbox Rust Development with Rust Analyzer](https://www.grepular.com/Sandbox_Rust_Development_with_Rust_Analyzer)
+* [audio] [Security Headlines: Tokio special with Carl Lerche](https://blog.firosolutions.com/2020/10/tokio_special_with_carl_lerche/)
 
 # Crate of the Week
 
