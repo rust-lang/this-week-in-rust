@@ -19,6 +19,7 @@ No newsletters this week.
 ### Official
 
 ### Tooling
+* [Contributing to the IntelliJ Rust plugin: Implementing a refactoring](https://kobzol.github.io/rust/intellij/2020/10/19/contributing-4-introduce-constant-refactoring.html)
 
 * [5x Faster Rust Docker Builds with cargo-chef](https://www.lpalmieri.com/posts/fast-rust-docker-builds)
 
