@@ -34,6 +34,7 @@ No newsletters this week.
 * [Building a Recipe Manager - Part 3 - Parsing and more Druid](https://bheisler.github.io/post/recipe-manager-part-3-parsing-and-more-druid/)
 * [Imitating specialization with OIBITs](https://pwychowaniec.com/en/posts/imitating-specialization-with-oibits/)
 * [Flask Creator Armin Ronacher Interview](https://evrone.com/armin-ronacher-interview)
+* [clue solver now in Rust with more accurate simulations!](https://gregstoll.wordpress.com/2020/10/22/clue-solver-now-in-rust-with-more-accurate-simulations/)
 
 ### Learn Rust
 * [Rust for a Gopher Lesson 1](https://levpaul.com/posts/rust-lesson-1/)
@@ -71,6 +72,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [heed - Create two different libraries: heed and heedx](https://github.com/Kerollmops/heed/issues/51)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -116,7 +119,9 @@ See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [Destructuring assignment](https://github.com/rust-lang/rfcs/pull/2909)
+* [RFC: Reading into uninitialized buffers](https://github.com/rust-lang/rfcs/pull/2930)
+* [RFC: Promote aarch64-unknown-linux-gnu to a Tier-1 Rust target](https://github.com/rust-lang/rfcs/pull/2959)
 
 ## Final Comment Period
 
@@ -125,29 +130,30 @@ Every week [the team](https://www.rust-lang.org/team.html) announces the
 decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-* [RFC: Promote aarch64-unknown-linux-gnu to a Tier-1 Rust target](https://github.com/rust-lang/rfcs/pull/2959)
 * [YieldSafe auto trait](https://github.com/rust-lang/rfcs/pull/2890)
-* [Access to traits' associated functions and constants from trait objects](https://github.com/rust-lang/rfcs/pull/2886)
 * [Variadic tuples](https://github.com/rust-lang/rfcs/pull/2775)
 * [RFC for a match based surface syntax to get pointer-to-field](https://github.com/rust-lang/rfcs/pull/2666)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 * [disposition: merge] [Allow making `RUSTC_BOOTSTRAP` conditional on the crate name](https://github.com/rust-lang/rust/pull/77802)
-* [disposition: merge] [stop promoting union field accesses in 'const'](https://github.com/rust-lang/rust/pull/77526)
-* [disposition: merge] [passes: `check_attr` on more targets](https://github.com/rust-lang/rust/pull/77015)
-* [disposition: merge] [Stabilize `Poll::is_ready` and `is_pending` as const](https://github.com/rust-lang/rust/pull/76227)
+* [disposition: merge] [consider assignments of union field of ManuallyDrop type safe](https://github.com/rust-lang/rust/pull/78068)
+* [disposition: merge] [Define `fs::hard_link` to not follow symlinks.](https://github.com/rust-lang/rust/pull/78026)
+* [disposition: merge] [repr(transparent) on generic type skips "exactly one non-zero-sized field" check](https://github.com/rust-lang/rust/issues/77841)
+* [disposition: merge] [Rename/Deprecate LayoutErr in favor of LayoutError](https://github.com/rust-lang/rust/pull/77691)
+* [disposition: merge] [Tracking Issue for raw_ref_macros](https://github.com/rust-lang/rust/issues/73394)
 
 ## New RFCs
-
-*No new RFCs were proposed this week.*
+* [RFC: Plan to make core and std's panic identical.](https://github.com/rust-lang/rfcs/pull/3007)
 
 # Upcoming Events
 
 ### Online
-* [October 22. Edinburgh, UK - Fluence: interface-types for server-side WebAssembly modules - Rust Edinburgh](https://www.meetup.com/rust-edi/events/273685985)
-* [October 27. Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcnbkc/)
 * [October 29. Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrybcnbmc/)
+* [November 4. Johannesburg, ZA - Monthly Joburg Rust Chat! - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/274142374/)
+* [November 4. Dublin, IE - Rust Dublin November - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/274202454/)
+* [November 4. Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy.rs](https://www.meetup.com/indyrs/events/jhfstrybcpbgb/)
 * [November 7 & 8, Global, RustFest Global](https://rustfest.global/)
+* [November 10, Seattle, WA, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybcpbnb/)
 
  # Asia Pacific
 * [November 1. Auckland, NZ - Rust meetup - Introduction to Rust - Rust AKL](https://www.meetup.com/rust-akl/events/266876718/)
@@ -160,6 +166,9 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Software Engineer - Rust at IOHK (Remote - EU Time Zone)](https://iohk.io/en/careers/fk0qe6q/software-engineer-rust/#main-content)
+* [Senior Software Engineer - Data Access](https://corp.roblox.com/careers/listing/?gh_jid=2036153)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
