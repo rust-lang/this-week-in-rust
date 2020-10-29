@@ -28,6 +28,7 @@ No newsletters this week.
 * [5x Faster Rust Docker Builds with cargo-chef](https://www.lpalmieri.com/posts/fast-rust-docker-builds)
 
 ### Observations/Thoughts
+* [Is Rust Web Yet? Yes, and it's freaking fast!](http://www.arewewebyet.org/)
 
 ### Learn Simple Rust
 
