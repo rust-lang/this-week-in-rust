@@ -184,4 +184,4 @@ llogiq is pretty pleased with his own suggestion and unanimously voted for it.
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/iu3ge0/this_week_in_rust_356/)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/jk35ha/this_week_in_rust_362/)</small>
