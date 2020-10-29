@@ -21,7 +21,7 @@ No newsletters this week.
 ### Tooling
 
 ### Observations/Thoughts
-* [Is Rust Web Yet? Yes, and it's freaking fast!](http://www.arewewebyet.org/) + [Hackernews Discussion](https://news.ycombinator.com/item?id=24911782)
+* [Is Rust Web Yet? Yes, and it's freaking fast!](http://www.arewewebyet.org/)
 
 ### Learn Simple Rust
 
