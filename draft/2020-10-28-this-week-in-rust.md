@@ -48,9 +48,9 @@ Here are the wonderful submissions since the call for blog posts:
 
 # Crate of the Week
 
-This week's crate is [icu4x](https://github.com/unicode-org/icu4x), the Unicode Consortium's official crate for dealing with i18n in resource constrained environments.
+This week's crate is [rust-gpu](https://github.com/EmbarkStudios/rust-gpu) from Embark Studios, a system to compile Rust code into Vulkan graphics shaders (with other shader types to follow).
 
-Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/828) for the suggestion!
+Thanks to [Vlad Frolov](https://users.rust-lang.org/t/crate-of-the-week/2704/831) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -69,21 +69,31 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-398 pull requests were [merged in the last week][merged]
+400 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-10-12..2020-10-19
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-10-19..2020-10-26
 
-* [make set_span take `mut self`](https://github.com/rust-lang/rust/pull/78047)
-* [resolve: further improvements to "try using the enum's variant" diagnostic](https://github.com/rust-lang/rust/pull/77855)
-* [`min_const_generics` diagnostics improvements](https://github.com/rust-lang/rust/pull/77825)
-* [make sure arenas don't allocate bigger than `HUGE_PAGE`](https://github.com/rust-lang/rust/pull/78058)
-* [make `ObligationForest` more efficient](https://github.com/rust-lang/rust/pull/77908)
-* [add `std::thread::available_concurrency`](https://github.com/rust-lang/rust/pull/74480)
-* [remove `shrink_to_fit` from default `ToString::to_string` implementation](https://github.com/rust-lang/rust/pull/77997)
-* [add `str::`{`Split`, `RSplit`, `SplitN`, `RSplitN`, `SplitTerminator`, `RSplitTerminator`, `SplitInclusive`}`::as_str` methods](https://github.com/rust-lang/rust/pull/75265)
-* [liballoc: `VecDeque`: Add binary search functions](https://github.com/rust-lang/rust/pull/77751)
-* [BTreeMap: fix gdb provider on `BTreeMap` with ZST keys or values](https://github.com/rust-lang/rust/pull/77788)
-* [hashbrown: remove the need for unwrap when using `ProbeSeq`](https://github.com/rust-lang/hashbrown/pull/208)
+* [tweak `if let` suggestion to be more liberal with suggestion and to not ICE](https://github.com/rust-lang/rust/pull/77283)
+* [reduce diagram mess in 'match arms have incompatible types' error](https://github.com/rust-lang/rust/pull/78255)
+* [tweak match arm semicolon removal suggestion to account for futures](https://github.com/rust-lang/rust/pull/78214)
+* [explain where the closure return type was inferred](https://github.com/rust-lang/rust/pull/78235)
+* [rewrite `collect_tokens` implementations to use a flattened buffer](https://github.com/rust-lang/rust/pull/77250)
+* [fix trait solving ICEs](https://github.com/rust-lang/rust/pull/77720)
+* [stop promoting union field accesses in 'const'](https://github.com/rust-lang/rust/pull/77526)
+* [ensure that statics are inhabited](https://github.com/rust-lang/rust/pull/78324)
+* [rustc_mir: track inlined callees in `SourceScopeData`](https://github.com/rust-lang/rust/pull/68965)
+* [optimize const value interning for ZST types](https://github.com/rust-lang/rust/pull/78061)
+* [calculate visibilities once in resolve](https://github.com/rust-lang/rust/pull/78077)
+* [mir-opt: disable MatchBranchSimplification](https://github.com/rust-lang/rust/pull/78151)
+* [implement `TryFrom` between `NonZero` types](https://github.com/rust-lang/rust/pull/77339)
+* [add `Pin::static_ref`, `static_mut`](https://github.com/rust-lang/rust/pull/77726)
+* [support custom allocators in `Box`](https://github.com/rust-lang/rust/pull/77187)
+* [hashbrown: parametrize RawTable, HashSet and HashMap over an allocator](https://github.com/rust-lang/hashbrown/pull/133)
+* [rustdoc: greatly improve display for small mobile devices screens](https://github.com/rust-lang/rust/pull/78084)
+* [clippy: add linter for a single element for loop](https://github.com/rust-lang/rust-clippy/pull/6109)
+* [clippy: add lint for `&mut Mutex::lock`](https://github.com/rust-lang/rust-clippy/pull/6103)
+* [clippy: add new lint for undropped `ManuallyDrop` values](https://github.com/rust-lang/rust-clippy/pull/6181)
+* [clippy: lint unnecessary int-to-int and float-to-float casts](https://github.com/rust-lang/rust-clippy/pull/6187)
 
 ## Rust Compiler Performance Triage
 
@@ -146,11 +156,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> And it's true that a lot of stuff requires a "sufficiently smart compiler" but really it's 2020, if your compiler isn't serving you breakfast in bed you need to be upping your expectations.
+> what many devs often miss initially when talking about Rust is that it isn't just about the design & details of the language (which is great), Rust's super power is that in combination with its fantastic community & ecosystem, and the amazing friendly people that create & form it
 
-- [Jubilee on the Rust Zulip](https://rust-lang.zulipchat.com/#narrow/stream/257879-project-portable-simd/topic/The.20movemasquerade/near/212794818)
+– [Johann Andersson on twitter](https://mobile.twitter.com/repi)
 
-Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/949) for the suggestion!
+llogiq is pretty pleased with his own suggestion and unanimously voted for it.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
