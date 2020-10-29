@@ -33,7 +33,7 @@ No newsletters this week.
 * [LudumDare 47 - The Island](https://blog.kuviman.com/2020/10/18/ludumdare47.html)
 * [Building a Recipe Manager - Part 3 - Parsing and more Druid](https://bheisler.github.io/post/recipe-manager-part-3-parsing-and-more-druid/)
 * [Imitating specialization with OIBITs](https://pwychowaniec.com/en/posts/imitating-specialization-with-oibits/)
-* [Writing a simple AWS Lambda Custom Runtime in Rust](http://jamesmcm.github.io/blog/2020/10/24/lambda-runtime/#en)
+* [Flask Creator Armin Ronacher Interview](https://evrone.com/armin-ronacher-interview)
 
 ### Learn Rust
 * [Rust for a Gopher Lesson 1](https://levpaul.com/posts/rust-lesson-1/)
@@ -42,11 +42,10 @@ No newsletters this week.
 * [So you want to write object oriented Rust](https://blog.darrien.dev/posts/so-you-want-to-object/)
 * [series] [A Web App in Rust](https://dev.to/krowemoh/series/9410)
 * [Contributing to the IntelliJ Rust plugin: Implementing a refactoring](https://kobzol.github.io/rust/intellij/2020/10/19/contributing-4-introduce-constant-refactoring.html)
-* [video] [(Live Coding) Audio adventures in Rust: Local files playback & library interface](https://youtu.be/-tj7ODHX93o)
 * [5x Faster Rust Docker Builds with cargo-chef](https://www.lpalmieri.com/posts/fast-rust-docker-builds)
-
-### Observations/Thoughts
+* [Writing a simple AWS Lambda Custom Runtime in Rust](http://jamesmcm.github.io/blog/2020/10/24/lambda-runtime/#en)
 * [Is Rust Web Yet? Yes, and it's freaking fast!](http://www.arewewebyet.org/)
+* [video] [(Live Coding) Audio adventures in Rust: Local files playback & library interface](https://youtu.be/-tj7ODHX93o)
 
 ### Project Updates
 * [Introducing Ungrammar](https://rust-analyzer.github.io//blog/2020/10/24/introducing-ungrammar.html)
