@@ -155,7 +155,7 @@ decision. Express your opinions now.
 * [November 7 & 8, Global, RustFest Global](https://rustfest.global/)
 * [November 10, Seattle, WA, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybcpbnb/)
 
- # Asia Pacific
+## Asia Pacific
 * [November 1. Auckland, NZ - Rust meetup - Introduction to Rust - Rust AKL](https://www.meetup.com/rust-akl/events/266876718/)
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -168,7 +168,7 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Software Engineer - Rust at IOHK (Remote - EU Time Zone)](https://iohk.io/en/careers/fk0qe6q/software-engineer-rust/#main-content)
-* [Senior Software Engineer - Data Access](https://corp.roblox.com/careers/listing/?gh_jid=2036153)
+* [Senior Software Engineer - Data Access at Roblox (San Mateo, CA)](https://corp.roblox.com/careers/listing/?gh_jid=2036153)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
