@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Tooling
+* [Blogpost on Cargo features in IntelliJ Rust](https://blog.jetbrains.com/clion/2020/10/intellij-rust-new-functionality-for-cargo-features/)
 
 ### Observations/Thoughts
 
