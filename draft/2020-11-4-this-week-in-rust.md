@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Learn Rust
+* [video] [(Live Coding) Audio adventures in Rust: UI with WASM, Yew, and WebView](https://youtu.be/FaSoPcyOqPE)
 
 ### Project Updates
 
