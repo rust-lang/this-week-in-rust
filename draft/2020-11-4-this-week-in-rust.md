@@ -77,10 +77,17 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-* [2020-10-27](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-10-27.md):
-0 Regressions, 2 Improvements, 3 Mixed
+* [2020-11-03](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-11-03.md):
+0 Regressions, 5 Improvements, 0 mixed
 
-See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-10-27.md) for more.
+A number of improvements on various benchmarks. The most notable news this week
+in compiler performance is the progress on instruction metric collection on a
+per-query level; see [measureme#143](https://github.com/rust-lang/measureme/pull/143) for the latest.
+
+Otherwise, this week was an excellent one for performance (though mostly on
+stress tests and auto-generated test cases rather than commonly seen code).
+
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-11-03.md) for more.
 
 ## Approved RFCs
 
