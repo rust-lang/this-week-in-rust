@@ -34,9 +34,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [rust-gpu](https://github.com/EmbarkStudios/rust-gpu) from Embark Studios, a system to compile Rust code into Vulkan graphics shaders (with other shader types to follow).
+This week's crate is [tract](https://github.com/sonos/tract) from Sonos, a neural network inference library, written purely in Rust for models in ONNX, NNEF and TF formats.
 
-Thanks to [Vlad Frolov](https://users.rust-lang.org/t/crate-of-the-week/2704/831) for the suggestion!
+Thanks to [Benjamin Minixhofer](https://users.rust-lang.org/t/crate-of-the-week/2704/837) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -55,31 +55,32 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-400 pull requests were [merged in the last week][merged]
+374 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-10-19..2020-10-26
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-10-26..2020-11-02
 
-* [tweak `if let` suggestion to be more liberal with suggestion and to not ICE](https://github.com/rust-lang/rust/pull/77283)
-* [reduce diagram mess in 'match arms have incompatible types' error](https://github.com/rust-lang/rust/pull/78255)
-* [tweak match arm semicolon removal suggestion to account for futures](https://github.com/rust-lang/rust/pull/78214)
-* [explain where the closure return type was inferred](https://github.com/rust-lang/rust/pull/78235)
-* [rewrite `collect_tokens` implementations to use a flattened buffer](https://github.com/rust-lang/rust/pull/77250)
-* [fix trait solving ICEs](https://github.com/rust-lang/rust/pull/77720)
-* [stop promoting union field accesses in 'const'](https://github.com/rust-lang/rust/pull/77526)
-* [ensure that statics are inhabited](https://github.com/rust-lang/rust/pull/78324)
-* [rustc_mir: track inlined callees in `SourceScopeData`](https://github.com/rust-lang/rust/pull/68965)
-* [optimize const value interning for ZST types](https://github.com/rust-lang/rust/pull/78061)
-* [calculate visibilities once in resolve](https://github.com/rust-lang/rust/pull/78077)
-* [mir-opt: disable MatchBranchSimplification](https://github.com/rust-lang/rust/pull/78151)
-* [implement `TryFrom` between `NonZero` types](https://github.com/rust-lang/rust/pull/77339)
-* [add `Pin::static_ref`, `static_mut`](https://github.com/rust-lang/rust/pull/77726)
-* [support custom allocators in `Box`](https://github.com/rust-lang/rust/pull/77187)
-* [hashbrown: parametrize RawTable, HashSet and HashMap over an allocator](https://github.com/rust-lang/hashbrown/pull/133)
-* [rustdoc: greatly improve display for small mobile devices screens](https://github.com/rust-lang/rust/pull/78084)
-* [clippy: add linter for a single element for loop](https://github.com/rust-lang/rust-clippy/pull/6109)
-* [clippy: add lint for `&mut Mutex::lock`](https://github.com/rust-lang/rust-clippy/pull/6103)
-* [clippy: add new lint for undropped `ManuallyDrop` values](https://github.com/rust-lang/rust-clippy/pull/6181)
-* [clippy: lint unnecessary int-to-int and float-to-float casts](https://github.com/rust-lang/rust-clippy/pull/6187)
+* [add cg_clif as optional codegen backend](https://github.com/rust-lang/rust/pull/77975) (Woohoo!)
+* [rustc_span: improve bounds checks in byte_pos_to_line_and_col](https://github.com/rust-lang/rust/pull/78423)
+* [adjust turbofish help message for const generics](https://github.com/rust-lang/rust/pull/78460)
+* [avoid complex diagnostics in snippets which contain newlines](https://github.com/rust-lang/rust/pull/75020)
+* [suggest calling await on method call and field access](https://github.com/rust-lang/rust/pull/78297)
+* [fix control flow check for breaking with diverging values](https://github.com/rust-lang/rust/pull/77317)
+* [uplift `temporary-cstring-as-ptr` lint from clippy into rustc](https://github.com/rust-lang/rust/pull/75671)
+* [check object safety of generic constants](https://github.com/rust-lang/rust/pull/78365)
+* [chalk: make max goal size for recursive solver configurable](https://github.com/rust-lang/chalk/pull/647)
+* [coherence check perf: iterate over the smaller list](https://github.com/rust-lang/rust/pull/78323)
+* [optimise align_offset for stride=1 further](https://github.com/rust-lang/rust/pull/75728)
+* [inline `NonZeroN::from(n)`](https://github.com/rust-lang/rust/pull/78491)
+* [inline Default::default() for atomics](https://github.com/rust-lang/rust/pull/78621)
+* [inline some functions in core::str](https://github.com/rust-lang/rust/pull/78073)
+* [prevent `String::retain` from creating non-utf8 strings when abusing panic](https://github.com/rust-lang/rust/pull/78499)
+* [add `fetch_update` methods to `AtomicBool` and `AtomicPtr`](https://github.com/rust-lang/rust/pull/78637)
+* [add `[T]::as_chunks`(`_mut`)](https://github.com/rust-lang/rust/pull/76635)
+* [fix `Box::into_unique`](https://github.com/rust-lang/rust/pull/78446)
+* [hashbrown: better branch likelyness on stable](https://github.com/rust-lang/hashbrown/pull/209)
+* [futures: add `WeakShared`](https://github.com/rust-lang/futures-rs/pull/2169)
+* [cargo: add a future-compatibility warning on allowed feature name characters](https://github.com/rust-lang/cargo/pull/8814)
+* [cargo: new namespaced features implementation](https://github.com/rust-lang/cargo/pull/8799)
 
 ## Rust Compiler Performance Triage
 
@@ -156,11 +157,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> what many devs often miss initially when talking about Rust is that it isn't just about the design & details of the language (which is great), Rust's super power is that in combination with its fantastic community & ecosystem, and the amazing friendly people that create & form it
+> Like other languages Rust does have footguns. The difference is that we keep ours locked up in the unsafe.
 
-– [Johann Andersson on twitter](https://mobile.twitter.com/repi)
+– [Ted Mielczarek on twitter](https://twitter.com/TedMielczarek/status/1322618223980892161)
 
-llogiq is pretty pleased with his own suggestion and unanimously voted for it.
+Thanks to [Nikolai Vazquez](https://users.rust-lang.org/t/twir-quote-of-the-week/328/956) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
