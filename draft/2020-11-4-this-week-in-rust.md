@@ -17,21 +17,26 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Tooling
+* [Blogpost on Cargo features in IntelliJ Rust](https://blog.jetbrains.com/clion/2020/10/intellij-rust-new-functionality-for-cargo-features/)
 
 ### Observations/Thoughts
+* [Semantic FFI Bindings in Rust - Reactivating the Borrow Checker](https://blog.schichler.dev/semantic-ffi-bindings-in-rust-reactivating-the-borrow-checker-ckgxtoxo8057pwrs174dqhcsi)
 
 ### Learn Rust
+* [DE] [The Rust Programming Language (translated in German)](https://rust-lang-de.github.io/rustbook-de/)
+* [Continuous Deployment For Rust Applications (Zero To Production In Rust #5)](https://www.lpalmieri.com/posts/2020-11-01-zero-to-production-5-how-to-deploy-a-rust-application/)
 * [video] [(Live Coding) Audio adventures in Rust: UI with WASM, Yew, and WebView](https://youtu.be/FaSoPcyOqPE)
 
 ### Project Updates
+* [oso, an open-source policy engine for authorization written in Rust](https://github.com/osohq/oso), released [version 0.7.1 of their authorization library for Rust projects!](https://docs.rs/oso/0.7.1/oso/)
 
 ### Miscellaneous
 
 # Crate of the Week
 
-This week's crate is [rust-gpu](https://github.com/EmbarkStudios/rust-gpu) from Embark Studios, a system to compile Rust code into Vulkan graphics shaders (with other shader types to follow).
+This week's crate is [tract](https://github.com/sonos/tract) from Sonos, a neural network inference library, written purely in Rust for models in ONNX, NNEF and TF formats.
 
-Thanks to [Vlad Frolov](https://users.rust-lang.org/t/crate-of-the-week/2704/831) for the suggestion!
+Thanks to [Benjamin Minixhofer](https://users.rust-lang.org/t/crate-of-the-week/2704/837) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -50,47 +55,53 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-400 pull requests were [merged in the last week][merged]
+374 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-10-19..2020-10-26
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-10-26..2020-11-02
 
-* [tweak `if let` suggestion to be more liberal with suggestion and to not ICE](https://github.com/rust-lang/rust/pull/77283)
-* [reduce diagram mess in 'match arms have incompatible types' error](https://github.com/rust-lang/rust/pull/78255)
-* [tweak match arm semicolon removal suggestion to account for futures](https://github.com/rust-lang/rust/pull/78214)
-* [explain where the closure return type was inferred](https://github.com/rust-lang/rust/pull/78235)
-* [rewrite `collect_tokens` implementations to use a flattened buffer](https://github.com/rust-lang/rust/pull/77250)
-* [fix trait solving ICEs](https://github.com/rust-lang/rust/pull/77720)
-* [stop promoting union field accesses in 'const'](https://github.com/rust-lang/rust/pull/77526)
-* [ensure that statics are inhabited](https://github.com/rust-lang/rust/pull/78324)
-* [rustc_mir: track inlined callees in `SourceScopeData`](https://github.com/rust-lang/rust/pull/68965)
-* [optimize const value interning for ZST types](https://github.com/rust-lang/rust/pull/78061)
-* [calculate visibilities once in resolve](https://github.com/rust-lang/rust/pull/78077)
-* [mir-opt: disable MatchBranchSimplification](https://github.com/rust-lang/rust/pull/78151)
-* [implement `TryFrom` between `NonZero` types](https://github.com/rust-lang/rust/pull/77339)
-* [add `Pin::static_ref`, `static_mut`](https://github.com/rust-lang/rust/pull/77726)
-* [support custom allocators in `Box`](https://github.com/rust-lang/rust/pull/77187)
-* [hashbrown: parametrize RawTable, HashSet and HashMap over an allocator](https://github.com/rust-lang/hashbrown/pull/133)
-* [rustdoc: greatly improve display for small mobile devices screens](https://github.com/rust-lang/rust/pull/78084)
-* [clippy: add linter for a single element for loop](https://github.com/rust-lang/rust-clippy/pull/6109)
-* [clippy: add lint for `&mut Mutex::lock`](https://github.com/rust-lang/rust-clippy/pull/6103)
-* [clippy: add new lint for undropped `ManuallyDrop` values](https://github.com/rust-lang/rust-clippy/pull/6181)
-* [clippy: lint unnecessary int-to-int and float-to-float casts](https://github.com/rust-lang/rust-clippy/pull/6187)
+* [add cg_clif as optional codegen backend](https://github.com/rust-lang/rust/pull/77975) (Woohoo!)
+* [rustc_span: improve bounds checks in byte_pos_to_line_and_col](https://github.com/rust-lang/rust/pull/78423)
+* [adjust turbofish help message for const generics](https://github.com/rust-lang/rust/pull/78460)
+* [avoid complex diagnostics in snippets which contain newlines](https://github.com/rust-lang/rust/pull/75020)
+* [suggest calling await on method call and field access](https://github.com/rust-lang/rust/pull/78297)
+* [fix control flow check for breaking with diverging values](https://github.com/rust-lang/rust/pull/77317)
+* [uplift `temporary-cstring-as-ptr` lint from clippy into rustc](https://github.com/rust-lang/rust/pull/75671)
+* [check object safety of generic constants](https://github.com/rust-lang/rust/pull/78365)
+* [chalk: make max goal size for recursive solver configurable](https://github.com/rust-lang/chalk/pull/647)
+* [coherence check perf: iterate over the smaller list](https://github.com/rust-lang/rust/pull/78323)
+* [optimise align_offset for stride=1 further](https://github.com/rust-lang/rust/pull/75728)
+* [inline `NonZeroN::from(n)`](https://github.com/rust-lang/rust/pull/78491)
+* [inline Default::default() for atomics](https://github.com/rust-lang/rust/pull/78621)
+* [inline some functions in core::str](https://github.com/rust-lang/rust/pull/78073)
+* [prevent `String::retain` from creating non-utf8 strings when abusing panic](https://github.com/rust-lang/rust/pull/78499)
+* [add `fetch_update` methods to `AtomicBool` and `AtomicPtr`](https://github.com/rust-lang/rust/pull/78637)
+* [add `[T]::as_chunks`(`_mut`)](https://github.com/rust-lang/rust/pull/76635)
+* [fix `Box::into_unique`](https://github.com/rust-lang/rust/pull/78446)
+* [hashbrown: better branch likelyness on stable](https://github.com/rust-lang/hashbrown/pull/209)
+* [futures: add `WeakShared`](https://github.com/rust-lang/futures-rs/pull/2169)
+* [cargo: add a future-compatibility warning on allowed feature name characters](https://github.com/rust-lang/cargo/pull/8814)
+* [cargo: new namespaced features implementation](https://github.com/rust-lang/cargo/pull/8799)
 
 ## Rust Compiler Performance Triage
 
-* [2020-10-27](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-10-27.md):
-0 Regressions, 2 Improvements, 3 Mixed
+* [2020-11-03](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-11-03.md):
+0 Regressions, 5 Improvements, 0 mixed
 
-See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-10-27.md) for more.
+A number of improvements on various benchmarks. The most notable news this week
+in compiler performance is the progress on instruction metric collection on a
+per-query level; see [measureme#143](https://github.com/rust-lang/measureme/pull/143) for the latest.
+
+Otherwise, this week was an excellent one for performance (though mostly on
+stress tests and auto-generated test cases rather than commonly seen code).
+
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-11-03.md) for more.
 
 ## Approved RFCs
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Destructuring assignment](https://github.com/rust-lang/rfcs/pull/2909)
-* [RFC: Reading into uninitialized buffers](https://github.com/rust-lang/rfcs/pull/2930)
-* [RFC: Promote aarch64-unknown-linux-gnu to a Tier-1 Rust target](https://github.com/rust-lang/rfcs/pull/2959)
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -99,33 +110,30 @@ Every week [the team](https://www.rust-lang.org/team.html) announces the
 decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-* [YieldSafe auto trait](https://github.com/rust-lang/rfcs/pull/2890)
-* [Variadic tuples](https://github.com/rust-lang/rfcs/pull/2775)
-* [RFC for a match based surface syntax to get pointer-to-field](https://github.com/rust-lang/rfcs/pull/2666)
+* [RFC: Target extension](https://github.com/rust-lang/rfcs/pull/2048)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
-* [disposition: merge] [Allow making `RUSTC_BOOTSTRAP` conditional on the crate name](https://github.com/rust-lang/rust/pull/77802)
 * [disposition: merge] [consider assignments of union field of ManuallyDrop type safe](https://github.com/rust-lang/rust/pull/78068)
-* [disposition: merge] [Define `fs::hard_link` to not follow symlinks.](https://github.com/rust-lang/rust/pull/78026)
 * [disposition: merge] [repr(transparent) on generic type skips "exactly one non-zero-sized field" check](https://github.com/rust-lang/rust/issues/77841)
 * [disposition: merge] [Rename/Deprecate LayoutErr in favor of LayoutError](https://github.com/rust-lang/rust/pull/77691)
 * [disposition: merge] [Tracking Issue for raw_ref_macros](https://github.com/rust-lang/rust/issues/73394)
+* [disposition: merge] [Add checking for no_mangle to unsafe_code lint](https://github.com/rust-lang/rust/pull/72209)
 
 ## New RFCs
-* [RFC: Plan to make core and std's panic identical.](https://github.com/rust-lang/rfcs/pull/3007)
+* [Checking conditional compilation at compile time](https://github.com/rust-lang/rfcs/pull/3013)
 
 # Upcoming Events
 
 ### Online
-* [October 29. Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrybcnbmc/)
 * [November 4. Johannesburg, ZA - Monthly Joburg Rust Chat! - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/274142374/)
 * [November 4. Dublin, IE - Rust Dublin November - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/274202454/)
 * [November 4. Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy.rs](https://www.meetup.com/indyrs/events/jhfstrybcpbgb/)
 * [November 7 & 8, Global, RustFest Global](https://rustfest.global/)
 * [November 10, Seattle, WA, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybcpbnb/)
-
-## Asia Pacific
-* [November 1. Auckland, NZ - Rust meetup - Introduction to Rust - Rust AKL](https://www.meetup.com/rust-akl/events/266876718/)
+* [November 10, Saarbücken, Saarland, DE - Meetup: 5u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/273949461/)
+* [November 12, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrybcpbqb/)
+* [November 12, Washington, DC, US - Mid-month Rustful—How oso built a runtime reflection system for Rust - Rust DC](https://www.meetup.com/RustDC/events/273813659)
+* [November 12, Lehi, UT, US - WASM, Rust, and the State of Async/Await - Utah Rust](https://www.meetup.com/utah-rust/events/273757338/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -136,15 +144,25 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Software Engineer (IoT/Robotics) at Wayve (London, UK)](https://boards.greenhouse.io/wayve/jobs/4881949002)
+* [Software Engineer at ChainSafe Systems (Toronto, Remote)](https://www.notion.so/chainsafe/Blockchain-Developer-Rust-0d577a2636b84511a5d4efc69454585d)
+* [Senior Software Engineer - Rust at Immunant (Remote US)](https://immunant.com/jobs)
+* [Backend Engineer - Rust at Kraken (Remote NA, SA, EMEA)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Rust Engineer, Desktop GUI - Cryptowatch at Kraken (Remote)](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
+* [Senior Backend Engineer - Rust at Kraken (Remote NA, SA, EMEA)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
+* [Senior Full Stack Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
+* [Software Engineer - Trading Technology (Rust) at Kraken (Remote NA, SA, EMEA)](https://jobs.lever.co/kraken/4485f672-dc5f-4e49-a10b-2b0399e28a8d)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> what many devs often miss initially when talking about Rust is that it isn't just about the design & details of the language (which is great), Rust's super power is that in combination with its fantastic community & ecosystem, and the amazing friendly people that create & form it
+> Like other languages Rust does have footguns. The difference is that we keep ours locked up in the unsafe.
 
-– [Johann Andersson on twitter](https://mobile.twitter.com/repi)
+– [Ted Mielczarek on twitter](https://twitter.com/TedMielczarek/status/1322618223980892161)
 
-llogiq is pretty pleased with his own suggestion and unanimously voted for it.
+Thanks to [Nikolai Vazquez](https://users.rust-lang.org/t/twir-quote-of-the-week/328/956) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
