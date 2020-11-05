@@ -17,10 +17,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Tooling
+* [Blogpost on Cargo features in IntelliJ Rust](https://blog.jetbrains.com/clion/2020/10/intellij-rust-new-functionality-for-cargo-features/)
 
 ### Observations/Thoughts
+* [Semantic FFI Bindings in Rust - Reactivating the Borrow Checker](https://blog.schichler.dev/semantic-ffi-bindings-in-rust-reactivating-the-borrow-checker-ckgxtoxo8057pwrs174dqhcsi)
 
 ### Learn Rust
+* [DE] [The Rust Programming Language (translated in German)](https://rust-lang-de.github.io/rustbook-de/)
+
+* [Continuous Deployment For Rust Applications (Zero To Production In Rust #5)](https://www.lpalmieri.com/posts/2020-11-01-zero-to-production-5-how-to-deploy-a-rust-application/)
 
 ### Project Updates
 
@@ -122,6 +127,7 @@ decision. Express your opinions now.
 * [November 4. Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy.rs](https://www.meetup.com/indyrs/events/jhfstrybcpbgb/)
 * [November 7 & 8, Global, RustFest Global](https://rustfest.global/)
 * [November 10, Seattle, WA, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybcpbnb/)
+* [November 10, Saarbücken, Saarland, DE - Meetup: 5u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/273949461/)
 
 ## Asia Pacific
 * [November 1. Auckland, NZ - Rust meetup - Introduction to Rust - Rust AKL](https://www.meetup.com/rust-akl/events/266876718/)
@@ -135,7 +141,8 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-[Software Engineer at ChainSafe Systems (Toronto, Remote)](https://www.notion.so/chainsafe/Blockchain-Developer-Rust-0d577a2636b84511a5d4efc69454585d)
+* [Software Engineer at ChainSafe Systems (Toronto, Remote)](https://www.notion.so/chainsafe/Blockchain-Developer-Rust-0d577a2636b84511a5d4efc69454585d)
+* [Senior Software Engineer - Rust at Immunant (Remote within United States)](https://immunant.com/jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
