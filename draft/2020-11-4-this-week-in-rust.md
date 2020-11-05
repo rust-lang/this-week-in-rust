@@ -21,7 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Learn Rust
-* [The Rust Programming Language (translated in German)](https://rust-lang-de.github.io/rustbook-de/)
+* [DE] [The Rust Programming Language (translated in German)](https://rust-lang-de.github.io/rustbook-de/)
 
 ### Project Updates
 
