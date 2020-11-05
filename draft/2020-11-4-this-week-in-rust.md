@@ -31,6 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [oso, an open-source policy engine for authorization written in Rust](https://github.com/osohq/oso), released [version 0.7.1 of their authorization library for Rust projects!](https://docs.rs/oso/0.7.1/oso/)
 
 ### Miscellaneous
+* [Creating a Tetris Clone in Rust, with Bevy](https://github.com/corbamico/bevy-tetris)
 
 # Crate of the Week
 
