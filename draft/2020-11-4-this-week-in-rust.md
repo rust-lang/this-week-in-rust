@@ -38,7 +38,7 @@ No Rust Blog posts this week.
 * [Fixing bootstrap of rustc using cg_clif](https://bjorn3.github.io/2020/11/01/fixing-rustc-bootstrap-with-cg_clif.html)
 * [Advanced Cargo [features] Usage](https://blog.turbo.fish/cargo-features/)
 
-### Learn Rust/Project Series
+### Rust Walkthroughs
 * [Rust Design-for-Testability: a survey](https://alastairreid.github.io/rust-testability/)
 * [Rust from a Gopher - Lessons 3 & 4](https://levpaul.com/posts/rust-lesson-3-and-4/)
 * [Rocket Tutorial 01: Basics](https://dev.to/davidedelpapa/rocket-tutorial-01-basics-4ph9)
