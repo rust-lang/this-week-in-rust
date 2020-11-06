@@ -6,11 +6,11 @@ Category: This Week in Rust
 Hello and welcome to another issue of *This Week in Rust*!
 [Rust](http://rust-lang.org) is a systems language pursuing the trifecta: safety, concurrency, and speed.
 This is a weekly summary of its progress and community.
-Want something mentioned? Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) or [send us a pull request](https://github.com/emberian/this-week-in-rust).
+Want something mentioned? Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) or [send us a pull request](https://github.com/rust-lang/this-week-in-rust).
 Want to get involved? [We love contributions](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md).
 
-*This Week in Rust* is openly developed [on GitHub](https://github.com/emberian/this-week-in-rust).
-If you find any errors in this week's issue, [please submit a PR](https://github.com/emberian/this-week-in-rust/pulls).
+*This Week in Rust* is openly developed [on GitHub](https://github.com/rust-lang/this-week-in-rust).
+If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
 # Updates from Rust Community
 
@@ -24,9 +24,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Learn Rust
 * [DE] [The Rust Programming Language (translated in German)](https://rust-lang-de.github.io/rustbook-de/)
-
-* [How to build a multiplayer game - RustFest.Global Pre-Event (Video)](https://www.youtube.com/watch?v=Yb-QR3Vm3sk)
 * [Continuous Deployment For Rust Applications (Zero To Production In Rust #5)](https://www.lpalmieri.com/posts/2020-11-01-zero-to-production-5-how-to-deploy-a-rust-application/)
+* [video] [(Live Coding) Audio adventures in Rust: UI with WASM, Yew, and WebView](https://youtu.be/FaSoPcyOqPE)
+* [video] [How to build a multiplayer game - RustFest.Global Pre-Event (Video)](https://www.youtube.com/watch?v=Yb-QR3Vm3sk)
 
 ### Project Updates
 * [oso, an open-source policy engine for authorization written in Rust](https://github.com/osohq/oso), released [version 0.7.1 of their authorization library for Rust projects!](https://docs.rs/oso/0.7.1/oso/)
