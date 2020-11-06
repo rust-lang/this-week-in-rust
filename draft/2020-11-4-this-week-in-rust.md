@@ -6,11 +6,11 @@ Category: This Week in Rust
 Hello and welcome to another issue of *This Week in Rust*!
 [Rust](http://rust-lang.org) is a systems language pursuing the trifecta: safety, concurrency, and speed.
 This is a weekly summary of its progress and community.
-Want something mentioned? Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) or [send us a pull request](https://github.com/emberian/this-week-in-rust).
+Want something mentioned? Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) or [send us a pull request](https://github.com/rust-lang/this-week-in-rust).
 Want to get involved? [We love contributions](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md).
 
-*This Week in Rust* is openly developed [on GitHub](https://github.com/emberian/this-week-in-rust).
-If you find any errors in this week's issue, [please submit a PR](https://github.com/emberian/this-week-in-rust/pulls).
+*This Week in Rust* is openly developed [on GitHub](https://github.com/rust-lang/this-week-in-rust).
+If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
 # Updates from Rust Community
 
