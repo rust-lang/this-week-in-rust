@@ -14,24 +14,56 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-### Official
+No Rust Blog posts this week.
+
+### Newsletters
+* [RiB Newsletter #17 - Trick? Or Trait?](https://www.reddit.com/r/rust/comments/job17k/rib_newsletter_17_trick_or_trait/)
+* [This month in Dimforge #2 (October 2020)](https://www.dimforge.com/blog/2020/11/01/this-month-in-dimforge/)
+* [These Weeks in Actix | Sep-Oct '20](https://www.reddit.com/r/rust/comments/jkv5xu/these_weeks_in_actix_sepoct_20/)
 
 ### Tooling
-* [Blogpost on Cargo features in IntelliJ Rust](https://blog.jetbrains.com/clion/2020/10/intellij-rust-new-functionality-for-cargo-features/)
+* [Rust-Analyzer Changelog #49](https://rust-analyzer.github.io/thisweek/2020/11/02/changelog-49.html)
+* [IntelliJ Rust Changelog #134](https://intellij-rust.github.io/2020/11/02/changelog-134.html)
+* [IntelliJ Rust: New Functionality for Cargo Features](https://blog.jetbrains.com/clion/2020/10/intellij-rust-new-functionality-for-cargo-features/)
 
 ### Observations/Thoughts
 * [Semantic FFI Bindings in Rust - Reactivating the Borrow Checker](https://blog.schichler.dev/semantic-ffi-bindings-in-rust-reactivating-the-borrow-checker-ckgxtoxo8057pwrs174dqhcsi)
+* [Exception safety in Rust: using transient droppers to prevent memory leaks](http://ngr.yt/blog/2020-11-03-exception-safety-in-rust-using-transient-droppers-to-prevent-memory-leaks.html)
+* [Wasmcloud Progress](https://christine.website/blog/wasmcloud-progress-domains-2020-10-31)
+* [Fast programming languages: C, C++, Rust, and Assembly](http://tempesta-tech.com/blog/fast-programming-languages-c-c++-rust-assembly)
+* [For Complex Applications, Rust is as Productive as Kotlin](https://ferrous-systems.com/blog/rust-as-productive-as-kotlin/)
+* [Rust for Data-Intensive Computation](https://github.com/frankmcsherry/blog/blob/master/posts/2020-06-09.md)
+* [Using Rust for a simple hardware project](https://blog.tonari.no/rust-simple-hardware-project)
+* [The Fatal Flaw of Ownership Semantics](http://www.gingerbill.org/article/2020/06/21/the-ownership-semantics-flaw/)
+* [Fixing bootstrap of rustc using cg_clif](https://bjorn3.github.io/2020/11/01/fixing-rustc-bootstrap-with-cg_clif.html)
+* [Advanced Cargo [features] Usage](https://blog.turbo.fish/cargo-features/)
 
-### Learn Rust
-* [DE] [The Rust Programming Language (translated in German)](https://rust-lang-de.github.io/rustbook-de/)
+### Rust Walkthroughs
+* [Rust Design-for-Testability: a survey](https://alastairreid.github.io/rust-testability/)
+* [Rust from a Gopher - Lessons 3 & 4](https://levpaul.com/posts/rust-lesson-3-and-4/)
+* [Rocket Tutorial 01: Basics](https://dev.to/davidedelpapa/rocket-tutorial-01-basics-4ph9)
+* [Building an AWS Lambda extension with Rust](https://dev.to/davidedelpapa/rocket-tutorial-01-basics-4ph9)
+* [A Gopher Client in Rust - 02 Core Client](https://dev.to/krowemoh/gopher-client-in-rust-02-core-client-anh)
+* [A Gopher Client in Rust - 03 Bookmarks and Full Code](https://dev.to/krowemoh/gopher-client-in-rust-03-extras-4o4d)
+* [Rust HTTP Testing with httpmock](https://dev.to/alexliesenfeld/rust-http-testing-with-httpmock-2mi0)
+* [The Newtype Pattern in Rust](https://www.worthe-it.co.za/blog/2020-10-31-newtype-pattern-in-rust.html)
+* [How to: Rust + SDL2 + OpenGL on the web](https://blog.therocode.net/2020/10/a-guide-to-rust-sdl2-emscripten)
+* [Minicompiler: Lexing](https://christine.website/blog/minicompiler-lexing-2020-10-29)
 * [Continuous Deployment For Rust Applications (Zero To Production In Rust #5)](https://www.lpalmieri.com/posts/2020-11-01-zero-to-production-5-how-to-deploy-a-rust-application/)
+* [DE] [The Rust Programming Language (translated in German)](https://rust-lang-de.github.io/rustbook-de/)
 * [video] [(Live Coding) Audio adventures in Rust: UI with WASM, Yew, and WebView](https://youtu.be/FaSoPcyOqPE)
 * [video] [How to build a multiplayer game - RustFest.Global Pre-Event (Video)](https://www.youtube.com/watch?v=Yb-QR3Vm3sk)
+* [video] [Current state of wasm with rust using an example](https://youtu.be/DxzIH1RrIxE)
+* [video] [Understanding Rust Lifetimes](https://youtu.be/MSi3E5Z8oRw)
 
 ### Project Updates
 * [oso, an open-source policy engine for authorization written in Rust](https://github.com/osohq/oso), released [version 0.7.1 of their authorization library for Rust projects!](https://docs.rs/oso/0.7.1/oso/)
+* [Apache Arrow 2.0.0 Rust Highlights](https://arrow.apache.org/blog/2020/10/27/rust-2.0.0-release/)
 
 ### Miscellaneous
+* [One Hundred Rust Binaries](https://www.wezm.net/v2/posts/2020/100-rust-binaries/)
+* [Why Dark didn't choose Rust](https://blog.darklang.com/why-dark-didnt-choose-rust/)
+* [Rust GameDev Ecosystem Survey](https://www.reddit.com/r/rust/comments/joj5e0/rust_gamedev_ecosystem_survey/)
 
 # Crate of the Week
 
