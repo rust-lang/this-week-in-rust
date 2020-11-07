@@ -14,6 +14,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
+* [Postfix macros in Rust](https://gist.github.com/est31/8d0465997ea920c5ba917cbbf80a822d)
+
 ### Newsletters
 
 ### Tooling
