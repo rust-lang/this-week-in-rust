@@ -137,6 +137,8 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+- [2 Backend engineers, Core Banking - Truelayer (Milan, Italy, on site)](https://apply.workable.com/truelayer/j/BD023B950B) [also contact](https://twitter.com/algo_luca/status/1324763252560191490)
+
 # Quote of the Week
 
 > Like other languages Rust does have footguns. The difference is that we keep ours locked up in the unsafe.
