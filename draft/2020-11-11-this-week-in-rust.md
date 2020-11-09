@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Why Developers Love Rust](https://ibraheem.ca/posts/why-devs-love-rust)
+
 ### Rust Walkthroughs
 
 ### Project Updates
