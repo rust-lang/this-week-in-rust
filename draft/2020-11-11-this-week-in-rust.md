@@ -49,6 +49,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Type-Safe Discrete Simulation in Rust](https://dev.to/elshize/type-safe-discrete-simulation-in-rust-3n7d)
 * [series] [A Gemini Client in Rust](https://dev.to/krowemoh/series/9524)
 * [Postfix macros in Rust](https://gist.github.com/est31/8d0465997ea920c5ba917cbbf80a822d)
+* [Processing a Series of Items with Iterators in Rust](https://blog.knoldus.com/processing-a-series-of-items-with-iterators-in-rust/)
+* [Compilation of Active Directory Logs Using Rust](https://blog.knoldus.com/compilation-of-active-directory-logs-using-rust/)
 * [FR] [The Rust Programming Language (translated in French)](https://jimskapt.github.io/rust-book-fr/)
 
 ### Project Updates
@@ -74,6 +76,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [time-rs: The call to `localtime_r` may be unsound](https://github.com/time-rs/time/issues/293)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -121,27 +125,29 @@ Every week [the team](https://www.rust-lang.org/team.html) announces the
 decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-* [RFC: Target extension](https://github.com/rust-lang/rfcs/pull/2048)
+
+*No RFCs are currently in the final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
-* [disposition: merge] [consider assignments of union field of ManuallyDrop type safe](https://github.com/rust-lang/rust/pull/78068)
-* [disposition: merge] [repr(transparent) on generic type skips "exactly one non-zero-sized field" check](https://github.com/rust-lang/rust/issues/77841)
-* [disposition: merge] [Rename/Deprecate LayoutErr in favor of LayoutError](https://github.com/rust-lang/rust/pull/77691)
-* [disposition: merge] [Tracking Issue for raw_ref_macros](https://github.com/rust-lang/rust/issues/73394)
+* [disposition: merge] [Stabilize clamp](https://github.com/rust-lang/rust/pull/77872)
+* [disposition: merge] [[android] Add support for android's file descriptor ownership tagging to libstd.](https://github.com/rust-lang/rust/pull/74860)
+* [disposition: merge] [Implement Error for &(impl Error)](https://github.com/rust-lang/rust/pull/75180)
 * [disposition: merge] [Add checking for no_mangle to unsafe_code lint](https://github.com/rust-lang/rust/pull/72209)
+* [disposition: merge] [Tracking issue for methods converting `bool` to `Option<T>`](https://github.com/rust-lang/rust/issues/64260)
 
 ## New RFCs
-* [Checking conditional compilation at compile time](https://github.com/rust-lang/rfcs/pull/3013)
+* [User/ardavis/checked cfg](https://github.com/rust-lang/rfcs/pull/3013)
+* [add const-ub RFC](https://github.com/rust-lang/rfcs/pull/3016)
+* [Adds `must_not_await_lint` RFC](https://github.com/rust-lang/rfcs/pull/3014)
 
 # Upcoming Events
 
 ### Online
-* [November 7 & 8, Global, RustFest Global](https://rustfest.global/)
-* [November 10, Seattle, WA, US - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybcpbnb/)
-* [November 10, Saarbücken, Saarland, DE - Meetup: 5u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/273949461/)
 * [November 12, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrybcpbqb/)
 * [November 12, Washington, DC, US - Mid-month Rustful—How oso built a runtime reflection system for Rust - Rust DC](https://www.meetup.com/RustDC/events/273813659)
 * [November 12, Lehi, UT, US - WASM, Rust, and the State of Async/Await - Utah Rust](https://www.meetup.com/utah-rust/events/273757338/)
+* [November 18, Vancouver, BC, CA - Rust Study/Hack/Hang-out night - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/npqfbsybcpbxb/)
+* [November 24, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcpbgc/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -152,10 +158,9 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [2 Backend engineers, Core Banking at Truelayer (Milan, IT)](https://apply.workable.com/truelayer/j/BD023B950B) [also contact](https://twitter.com/algo_luca/status/1324763252560191490)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
-
-- [2 Backend engineers, Core Banking - Truelayer (Milan, Italy, on site)](https://apply.workable.com/truelayer/j/BD023B950B) [also contact](https://twitter.com/algo_luca/status/1324763252560191490)
-
 # Quote of the Week
 
 > There are no bad programmers, only insufficiently advanced compilers
