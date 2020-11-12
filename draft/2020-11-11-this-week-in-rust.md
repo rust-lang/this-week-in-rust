@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Tooling
 
+- [Develop & Debug Your Rust Application Top Of Kubernetes With OKteto](https://okteto.com/blog/getting-started-with-okteto-and-rust/)
+
 ### Observations/Thoughts
 
 * [Why Developers Love Rust](https://ibraheem.ca/posts/why-devs-love-rust)
