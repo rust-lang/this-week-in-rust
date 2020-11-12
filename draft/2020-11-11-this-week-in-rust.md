@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [FR] [The Rust Programming Language (translated in French)](https://jimskapt.github.io/rust-book-fr/)
+
 ### Project Updates
 
 ### Miscellaneous
