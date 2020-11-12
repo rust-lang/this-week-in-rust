@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Tooling
 * [Rust-Analyzer Changelog #50](https://rust-analyzer.github.io/thisweek/2020/11/09/changelog-50.html)
+* [Develop & Debug Your Rust Application Top Of Kubernetes With OKteto](https://okteto.com/blog/getting-started-with-okteto-and-rust/)
 
 ### Observations/Thoughts
 * [Rust Ray Tracer, an Update (and SIMD)](https://siliconsprawl.com/2020/11/06/simd-ray-tracer.html)
@@ -33,6 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [40 millisecond bug](https://vorner.github.io/2020/11/06/40-ms-bug.html)
 * [Postfix macros in Rust](https://gist.github.com/est31/8d0465997ea920c5ba917cbbf80a822d)
 * [A Quick Tour of Trade-offs Embedding Data in Rust](https://nickb.dev/blog/a-quick-tour-of-trade-offs-embedding-data-in-rust)
+* [Why Developers Love Rust](https://ibraheem.ca/posts/why-devs-love-rust)
 
 ### Rust Walkthroughs
 * [Make a Language - Part Nine: Function Calls](https://arzg.github.io/lang/9/)
@@ -46,20 +48,21 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Get simple IO stats using Rust (throughput, ...)](https://dev.to/martichou/get-simple-io-stats-using-rust-throughput-47m4)
 * [Type-Safe Discrete Simulation in Rust](https://dev.to/elshize/type-safe-discrete-simulation-in-rust-3n7d)
 * [series] [A Gemini Client in Rust](https://dev.to/krowemoh/series/9524)
+* [Postfix macros in Rust](https://gist.github.com/est31/8d0465997ea920c5ba917cbbf80a822d)
+* [FR] [The Rust Programming Language (translated in French)](https://jimskapt.github.io/rust-book-fr/)
 
 ### Project Updates
 * [New doc comment handling in rustdoc](https://blog.guillaume-gomez.fr/articles/2020-11-11+New+doc+comment+handling+in+rustdoc)
 
 ### Miscellaneous
 * [Rust vs Go](https://bitfieldconsulting.com/golang/rust-vs-go)
-* [Why Developers Love Rust](https://ibraheem.ca/posts/why-devs-love-rust)
 * [Learn Assembly by Writing Entirely Too Many Brainf*ck Compilers in Rust](https://github.com/pretzelhammer/rust-blog/blob/master/posts/too-many-brainfuck-compilers.md)
 
 # Crate of the Week
 
-This week's crate is [tract](https://github.com/sonos/tract) from Sonos, a neural network inference library, written purely in Rust for models in ONNX, NNEF and TF formats.
+This week's crate is [postfix-macros](https://github.com/est31/postfix-macros), a clever hack to allow postfix macros in stable Rust.
 
-Thanks to [Benjamin Minixhofer](https://users.rust-lang.org/t/crate-of-the-week/2704/837) for the suggestion!
+Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/841) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -78,46 +81,31 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-374 pull requests were [merged in the last week][merged]
+333 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-10-26..2020-11-02
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-11-02..2020-11-09
 
-* [add cg_clif as optional codegen backend](https://github.com/rust-lang/rust/pull/77975) (Woohoo!)
-* [rustc_span: improve bounds checks in byte_pos_to_line_and_col](https://github.com/rust-lang/rust/pull/78423)
-* [adjust turbofish help message for const generics](https://github.com/rust-lang/rust/pull/78460)
-* [avoid complex diagnostics in snippets which contain newlines](https://github.com/rust-lang/rust/pull/75020)
-* [suggest calling await on method call and field access](https://github.com/rust-lang/rust/pull/78297)
-* [fix control flow check for breaking with diverging values](https://github.com/rust-lang/rust/pull/77317)
-* [uplift `temporary-cstring-as-ptr` lint from clippy into rustc](https://github.com/rust-lang/rust/pull/75671)
-* [check object safety of generic constants](https://github.com/rust-lang/rust/pull/78365)
-* [chalk: make max goal size for recursive solver configurable](https://github.com/rust-lang/chalk/pull/647)
-* [coherence check perf: iterate over the smaller list](https://github.com/rust-lang/rust/pull/78323)
-* [optimise align_offset for stride=1 further](https://github.com/rust-lang/rust/pull/75728)
-* [inline `NonZeroN::from(n)`](https://github.com/rust-lang/rust/pull/78491)
-* [inline Default::default() for atomics](https://github.com/rust-lang/rust/pull/78621)
-* [inline some functions in core::str](https://github.com/rust-lang/rust/pull/78073)
-* [prevent `String::retain` from creating non-utf8 strings when abusing panic](https://github.com/rust-lang/rust/pull/78499)
-* [add `fetch_update` methods to `AtomicBool` and `AtomicPtr`](https://github.com/rust-lang/rust/pull/78637)
-* [add `[T]::as_chunks`(`_mut`)](https://github.com/rust-lang/rust/pull/76635)
-* [fix `Box::into_unique`](https://github.com/rust-lang/rust/pull/78446)
-* [hashbrown: better branch likelyness on stable](https://github.com/rust-lang/hashbrown/pull/209)
-* [futures: add `WeakShared`](https://github.com/rust-lang/futures-rs/pull/2169)
-* [cargo: add a future-compatibility warning on allowed feature name characters](https://github.com/rust-lang/cargo/pull/8814)
-* [cargo: new namespaced features implementation](https://github.com/rust-lang/cargo/pull/8799)
+* [Implement destructuring assignment for tuples](https://github.com/rust-lang/rust/pull/78748)
+* [reverse binding order in matches to allow the subbinding of copyable fields in bindings after `@`](https://github.com/rust-lang/rust/pull/78638)
+* [Fix unreachable sub-branch detection in or-patterns](https://github.com/rust-lang/rust/pull/78167)
+* [Transform post order walk to an iterative approach](https://github.com/rust-lang/rust/pull/78607)
+* [Compile rustc crates with the initial-exec TLS model](https://github.com/rust-lang/rust/pull/78201)
+* [Make some `std::io` functions `const`](https://github.com/rust-lang/rust/pull/78811)
+* [Stabilize `Poll::is_ready` and `is_pending` as const](https://github.com/rust-lang/rust/pull/76227)
+* [Stabilize `hint::spin_loop`](https://github.com/rust-lang/rust/pull/76097)
+* [Simplify the implementation of `Cell::get_mut`](https://github.com/rust-lang/rust/pull/78735)
+* [futures: Add `StreamExt::cycle`](https://github.com/rust-lang/futures-rs/pull/2252)
+* [futures: Add `TryStreamExt::try_buffered`](https://github.com/rust-lang/futures-rs/pull/2245)
+* [cargo: Avoid some extra downloads with new feature resolver](https://github.com/rust-lang/cargo/pull/8823)
 
 ## Rust Compiler Performance Triage
 
-* [2020-11-03](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-11-03.md):
-0 Regressions, 5 Improvements, 0 mixed
+* [2020-11-10](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-11-10.md):
+1 Regression, 2 Improvements, 2 mixed
 
-A number of improvements on various benchmarks. The most notable news this week
-in compiler performance is the progress on instruction metric collection on a
-per-query level; see [measureme#143](https://github.com/rust-lang/measureme/pull/143) for the latest.
+A mixed week with improvements still outweighing regressions. Perhaps the biggest highlight was the move to compiling rustc crates [with the initial-exec TLS model](https://github.com/rust-lang/rust/pull/78201) which results in fewer calls to `_tls_get_addr` and thus faster compile times.
 
-Otherwise, this week was an excellent one for performance (though mostly on
-stress tests and auto-generated test cases rather than commonly seen code).
-
-See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-11-03.md) for more.
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-11-10.md) for more.
 
 ## Approved RFCs
 
@@ -166,13 +154,15 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+- [2 Backend engineers, Core Banking - Truelayer (Milan, Italy, on site)](https://apply.workable.com/truelayer/j/BD023B950B) [also contact](https://twitter.com/algo_luca/status/1324763252560191490)
+
 # Quote of the Week
 
-> Like other languages Rust does have footguns. The difference is that we keep ours locked up in the unsafe.
+> There are no bad programmers, only insufficiently advanced compilers
 
-– [Ted Mielczarek on twitter](https://twitter.com/TedMielczarek/status/1322618223980892161)
+– [Esteban Kuber on twitter](https://twitter.com/ekuber/status/1319476290395664384)
 
-Thanks to [Nikolai Vazquez](https://users.rust-lang.org/t/twir-quote-of-the-week/328/956) for the suggestion.
+Thanks to [Nixon Enraght-Moony](https://users.rust-lang.org/t/twir-quote-of-the-week/328/957) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
