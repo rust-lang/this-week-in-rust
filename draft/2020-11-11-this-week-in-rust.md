@@ -74,17 +74,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-* [2020-11-03](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-11-03.md):
-0 Regressions, 5 Improvements, 0 mixed
+* [2020-11-10](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-11-10.md):
+1 Regression, 2 Improvements, 2 mixed
 
-A number of improvements on various benchmarks. The most notable news this week
-in compiler performance is the progress on instruction metric collection on a
-per-query level; see [measureme#143](https://github.com/rust-lang/measureme/pull/143) for the latest.
+A mixed week with improvements still outweighing regressions. Perhaps the biggest highlight was the move to compiling rustc crates [with the initial-exec TLS model](https://github.com/rust-lang/rust/pull/78201) which results in fewer calls to `_tls_get_addr` and thus faster compile times.
 
-Otherwise, this week was an excellent one for performance (though mostly on
-stress tests and auto-generated test cases rather than commonly seen code).
-
-See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-11-03.md) for more.
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-11-10.md) for more.
 
 ## Approved RFCs
 
