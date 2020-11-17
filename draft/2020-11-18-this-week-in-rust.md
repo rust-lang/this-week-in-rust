@@ -26,7 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project Updates
 
-* [The Big Picture of gfx/wgpu ecosystem](https://gfx-rs.github.io/2020/11/16/big-picture.html).
+* [The Big Picture of gfx/wgpu ecosystem](https://gfx-rs.github.io/2020/11/16/big-picture.html). Discussion on [/r/rust](https://www.reddit.com/r/rust/comments/jvfgog/the_big_picture_of_gfxwgpu_ecosystem/).
 
 ### Miscellaneous
 
