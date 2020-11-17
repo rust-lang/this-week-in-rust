@@ -617,3 +617,45 @@ No Rust Blog posts this week.
 * [Why Dark didn't choose Rust](https://blog.darklang.com/why-dark-didnt-choose-rust/)
 * [Rust GameDev Ecosystem Survey](https://www.reddit.com/r/rust/comments/joj5e0/rust_gamedev_ecosystem_survey/)
 
+Number: 364  Date: 2020-11-11 
+
+### Official
+* [Inside] [Exploring PGO for the Rust compiler](https://blog.rust-lang.org/inside-rust/2020/11/11/exploring-pgo-for-the-rust-compiler)
+### Newsletters
+* [This Month in Rust OSDev (October 2020)](https://rust-osdev.com/this-month/2020-10/)
+* [This Month in Rust GameDev #15 - October 2020](https://rust-gamedev.github.io/posts/newsletter-015/)
+### Tooling
+* [Rust-Analyzer Changelog #50](https://rust-analyzer.github.io/thisweek/2020/11/09/changelog-50.html)
+* [Develop & Debug Your Rust Application Top Of Kubernetes With OKteto](https://okteto.com/blog/getting-started-with-okteto-and-rust/)
+### Observations/Thoughts
+* [Rust Ray Tracer, an Update (and SIMD)](https://siliconsprawl.com/2020/11/06/simd-ray-tracer.html)
+* [Rust emit=asm Can Be Misleading](https://siliconsprawl.com/2020/11/09/rust-emit-asm.html)
+* [A survey into static analyzers configurations: Clippy for Rust, part 1](https://medium.com/monocodus/a-survey-into-static-analyzers-configurations-clippy-for-rust-part-1-5de50fd9326)
+* [Why Rust is the Future of Game Development](https://thefuntastic.com/blog/why-rust-is-the-future-game-dev?)
+* [Rust as a productive high-level language](https://omarabid.com/rust-high-level-language)
+* [40 millisecond bug](https://vorner.github.io/2020/11/06/40-ms-bug.html)
+* [Postfix macros in Rust](https://gist.github.com/est31/8d0465997ea920c5ba917cbbf80a822d)
+* [A Quick Tour of Trade-offs Embedding Data in Rust](https://nickb.dev/blog/a-quick-tour-of-trade-offs-embedding-data-in-rust)
+* [Why Developers Love Rust](https://ibraheem.ca/posts/why-devs-love-rust)
+### Rust Walkthroughs
+* [Make a Language - Part Nine: Function Calls](https://arzg.github.io/lang/9/)
+* [Building a Weather Station UI](https://blog.kdubovikov.ml/articles/rust/ui/weather-station-ui)
+* [Getting Graphical Output from our Custom RISC-V Operating System in Rust](https://blog.stephenmarz.com/2020/11/11/risc-v-os-using-rust-graphics/)
+* [Build your own: GPG](https://andrewhalle.github.io/build-your-own/gpg)
+* [Rpi 4 meets Flutter and Rust](https://dev.to/charliefoxtrot/rpi-4-meets-flutter-and-rust-23ma)
+* [AWS Lambda + Rust](https://dev.to/rad_val_/aws-lambda-rust-292g)
+* [Orchestration in Rust](https://dev.to/elasticrash/orchestration-in-rust-549b)
+* [Rocket Tutorial 02: Minimalist API](https://dev.to/davidedelpapa/rocket-tutorial-02-minimalist-api-2kl6)
+* [Get simple IO stats using Rust (throughput, ...)](https://dev.to/martichou/get-simple-io-stats-using-rust-throughput-47m4)
+* [Type-Safe Discrete Simulation in Rust](https://dev.to/elshize/type-safe-discrete-simulation-in-rust-3n7d)
+* [series] [A Gemini Client in Rust](https://dev.to/krowemoh/series/9524)
+* [Postfix macros in Rust](https://gist.github.com/est31/8d0465997ea920c5ba917cbbf80a822d)
+* [Processing a Series of Items with Iterators in Rust](https://blog.knoldus.com/processing-a-series-of-items-with-iterators-in-rust/)
+* [Compilation of Active Directory Logs Using Rust](https://blog.knoldus.com/compilation-of-active-directory-logs-using-rust/)
+* [FR] [The Rust Programming Language (translated in French)](https://jimskapt.github.io/rust-book-fr/)
+### Project Updates
+* [New doc comment handling in rustdoc](https://blog.guillaume-gomez.fr/articles/2020-11-11+New+doc+comment+handling+in+rustdoc)
+### Miscellaneous
+* [Rust vs Go](https://bitfieldconsulting.com/golang/rust-vs-go)
+* [Learn Assembly by Writing Entirely Too Many Brainf*ck Compilers in Rust](https://github.com/pretzelhammer/rust-blog/blob/master/posts/too-many-brainfuck-compilers.md)
+
