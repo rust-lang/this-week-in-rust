@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project Updates
 
+* [Release: Fwumious Wabbit: really fast logistic regression (+more) in Rust](https://github.com/outbrain/fwumious_wabbit/). Discussion on [/r/rust](https://www.reddit.com/r/rust/comments/jwf95q/announcing_fwumious_wabbit_really_really_fast/).
+
 ### Miscellaneous
 
 # Crate of the Week
