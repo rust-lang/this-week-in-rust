@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project Updates
 
+* [Release: Fwumious Wabbit: really fast logistic regression (+more) in Rust](https://github.com/outbrain/fwumious_wabbit/). Discussion on [/r/rust](https://www.reddit.com/r/rust/comments/jwf95q/announcing_fwumious_wabbit_really_really_fast/).
+
 ### Miscellaneous
 
 # Crate of the Week
@@ -114,6 +116,8 @@ decision. Express your opinions now.
 * [November 12, Lehi, UT, US - WASM, Rust, and the State of Async/Await - Utah Rust](https://www.meetup.com/utah-rust/events/273757338/)
 * [November 18, Vancouver, BC, CA - Rust Study/Hack/Hang-out night - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/npqfbsybcpbxb/)
 * [November 24, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcpbgc/)
+* [November 26, Rust Machine Learning On-line Meetup](https://www.meetup.com/Tel-Aviv-Data-Science-ODSC/events/274650041/)
+
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
