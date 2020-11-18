@@ -28,6 +28,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [reacty_yew: Generating Yew components from React components via Typescript type definitions](https://www.hobofan.com/blog/2020-11-10-reacty_yew/)
+
 # Crate of the Week
 
 This week's crate is [postfix-macros](https://github.com/est31/postfix-macros), a clever hack to allow postfix macros in stable Rust.
