@@ -57,6 +57,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [gfx-rs/naga - DirectX IR](https://github.com/gfx-rs/naga/issues/5)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -110,31 +112,31 @@ Every week [the team](https://www.rust-lang.org/team.html) announces the
 decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-
-*No RFCs are currently in the final comment period.*
+* [disposition: merge] [RFC: -C export-executable-symbols](https://github.com/rust-lang/rfcs/pull/2841)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
-* [disposition: merge] [Stabilize clamp](https://github.com/rust-lang/rust/pull/77872)
-* [disposition: merge] [[android] Add support for android's file descriptor ownership tagging to libstd.](https://github.com/rust-lang/rust/pull/74860)
-* [disposition: merge] [Implement Error for &(impl Error)](https://github.com/rust-lang/rust/pull/75180)
-* [disposition: merge] [Add checking for no_mangle to unsafe_code lint](https://github.com/rust-lang/rust/pull/72209)
+* [disposition: merge] [Add `PartialEq<char>` for proc_macro::Punct](https://github.com/rust-lang/rust/pull/78636)
+* [disposition: merge] [Implement PartialEq for proc_macro::Ident == strings](https://github.com/rust-lang/rust/pull/78634)
+* [disposition: merge] [Stabilize refcell_take](https://github.com/rust-lang/rust/pull/78608)
+* [disposition: merge] [Stabilize alloc::Layout const functions](https://github.com/rust-lang/rust/pull/78305)
+* [disposition: merge] [Impl Default for PhantomPinned](https://github.com/rust-lang/rust/pull/77893)
+* [disposition: merge] [stabilize const_int_pow](https://github.com/rust-lang/rust/pull/76829)
+* [disposition: merge] [Stabilize `IpAddr::is_ipv4` and `is_ipv6` as const](https://github.com/rust-lang/rust/pull/76226)
+* [disposition: merge] [Stabilize the backtrace feature.](https://github.com/rust-lang/rust/pull/72981)
 * [disposition: merge] [Tracking issue for methods converting `bool` to `Option<T>`](https://github.com/rust-lang/rust/issues/64260)
 
 ## New RFCs
-* [User/ardavis/checked cfg](https://github.com/rust-lang/rfcs/pull/3013)
-* [add const-ub RFC](https://github.com/rust-lang/rfcs/pull/3016)
-* [Adds `must_not_await_lint` RFC](https://github.com/rust-lang/rfcs/pull/3014)
+* [Allow specifying features of the implicit lib dependency](https://github.com/rust-lang/rfcs/pull/3020)
 
 # Upcoming Events
 
 ### Online
-* [November 12, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrybcpbqb/)
-* [November 12, Washington, DC, US - Mid-month Rustful—How oso built a runtime reflection system for Rust - Rust DC](https://www.meetup.com/RustDC/events/273813659)
-* [November 12, Lehi, UT, US - WASM, Rust, and the State of Async/Await - Utah Rust](https://www.meetup.com/utah-rust/events/273757338/)
 * [November 18, Vancouver, BC, CA - Rust Study/Hack/Hang-out night - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/npqfbsybcpbxb/)
 * [November 24, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcpbgc/)
+* [November 26, Edinburgh, UK - Rust in the Polymesh Project - Rust Edinburgh](https://www.meetup.com/rust-edi/events/273101770)
+* [November 26, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrybcpbjc/)
 * [November 26, Tel Aviv-Yafo, IL - Rust Machine Learning On-line Meetup - ODSC Tel Aviv Data Science](https://www.meetup.com/Tel-Aviv-Data-Science-ODSC/events/274650041/)
-
+* [December 1, Buffalo, NY, US - Buffalo Rust User Group - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/274623141/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
