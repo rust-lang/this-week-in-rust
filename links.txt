@@ -570,3 +570,92 @@ No newsletters this week.
 * [Sandbox Rust Development with Rust Analyzer](https://www.grepular.com/Sandbox_Rust_Development_with_Rust_Analyzer)
 * [audio] [Security Headlines: Tokio special with Carl Lerche](https://blog.firosolutions.com/2020/10/tokio_special_with_carl_lerche/)
 
+Number: 363  Date: 2020-11-04 
+
+No Rust Blog posts this week.
+### Newsletters
+* [RiB Newsletter #17 - Trick? Or Trait?](https://www.reddit.com/r/rust/comments/job17k/rib_newsletter_17_trick_or_trait/)
+* [This month in Dimforge #2 (October 2020)](https://www.dimforge.com/blog/2020/11/01/this-month-in-dimforge/)
+* [These Weeks in Actix | Sep-Oct '20](https://www.reddit.com/r/rust/comments/jkv5xu/these_weeks_in_actix_sepoct_20/)
+### Tooling
+* [Rust-Analyzer Changelog #49](https://rust-analyzer.github.io/thisweek/2020/11/02/changelog-49.html)
+* [IntelliJ Rust Changelog #134](https://intellij-rust.github.io/2020/11/02/changelog-134.html)
+* [IntelliJ Rust: New Functionality for Cargo Features](https://blog.jetbrains.com/clion/2020/10/intellij-rust-new-functionality-for-cargo-features/)
+### Observations/Thoughts
+* [Semantic FFI Bindings in Rust - Reactivating the Borrow Checker](https://blog.schichler.dev/semantic-ffi-bindings-in-rust-reactivating-the-borrow-checker-ckgxtoxo8057pwrs174dqhcsi)
+* [Exception safety in Rust: using transient droppers to prevent memory leaks](http://ngr.yt/blog/2020-11-03-exception-safety-in-rust-using-transient-droppers-to-prevent-memory-leaks.html)
+* [Wasmcloud Progress](https://christine.website/blog/wasmcloud-progress-domains-2020-10-31)
+* [Fast programming languages: C, C++, Rust, and Assembly](http://tempesta-tech.com/blog/fast-programming-languages-c-c++-rust-assembly)
+* [For Complex Applications, Rust is as Productive as Kotlin](https://ferrous-systems.com/blog/rust-as-productive-as-kotlin/)
+* [Rust for Data-Intensive Computation](https://github.com/frankmcsherry/blog/blob/master/posts/2020-06-09.md)
+* [Using Rust for a simple hardware project](https://blog.tonari.no/rust-simple-hardware-project)
+* [The Fatal Flaw of Ownership Semantics](http://www.gingerbill.org/article/2020/06/21/the-ownership-semantics-flaw/)
+* [Fixing bootstrap of rustc using cg_clif](https://bjorn3.github.io/2020/11/01/fixing-rustc-bootstrap-with-cg_clif.html)
+* [Advanced Cargo [features] Usage](https://blog.turbo.fish/cargo-features/)
+### Rust Walkthroughs
+* [Rust Design-for-Testability: a survey](https://alastairreid.github.io/rust-testability/)
+* [Rust from a Gopher - Lessons 3 & 4](https://levpaul.com/posts/rust-lesson-3-and-4/)
+* [Rocket Tutorial 01: Basics](https://dev.to/davidedelpapa/rocket-tutorial-01-basics-4ph9)
+* [Building an AWS Lambda extension with Rust](https://dev.to/davidedelpapa/rocket-tutorial-01-basics-4ph9)
+* [A Gopher Client in Rust - 02 Core Client](https://dev.to/krowemoh/gopher-client-in-rust-02-core-client-anh)
+* [A Gopher Client in Rust - 03 Bookmarks and Full Code](https://dev.to/krowemoh/gopher-client-in-rust-03-extras-4o4d)
+* [Rust HTTP Testing with httpmock](https://dev.to/alexliesenfeld/rust-http-testing-with-httpmock-2mi0)
+* [The Newtype Pattern in Rust](https://www.worthe-it.co.za/blog/2020-10-31-newtype-pattern-in-rust.html)
+* [How to: Rust + SDL2 + OpenGL on the web](https://blog.therocode.net/2020/10/a-guide-to-rust-sdl2-emscripten)
+* [Minicompiler: Lexing](https://christine.website/blog/minicompiler-lexing-2020-10-29)
+* [Continuous Deployment For Rust Applications (Zero To Production In Rust #5)](https://www.lpalmieri.com/posts/2020-11-01-zero-to-production-5-how-to-deploy-a-rust-application/)
+* [DE] [The Rust Programming Language (translated in German)](https://rust-lang-de.github.io/rustbook-de/)
+* [video] [(Live Coding) Audio adventures in Rust: UI with WASM, Yew, and WebView](https://youtu.be/FaSoPcyOqPE)
+* [video] [How to build a multiplayer game - RustFest.Global Pre-Event (Video)](https://www.youtube.com/watch?v=Yb-QR3Vm3sk)
+* [video] [Current state of wasm with rust using an example](https://youtu.be/DxzIH1RrIxE)
+* [video] [Understanding Rust Lifetimes](https://youtu.be/MSi3E5Z8oRw)
+### Project Updates
+* [oso, an open-source policy engine for authorization written in Rust](https://github.com/osohq/oso), released [version 0.7.1 of their authorization library for Rust projects!](https://docs.rs/oso/0.7.1/oso/)
+* [Apache Arrow 2.0.0 Rust Highlights](https://arrow.apache.org/blog/2020/10/27/rust-2.0.0-release/)
+### Miscellaneous
+* [One Hundred Rust Binaries](https://www.wezm.net/v2/posts/2020/100-rust-binaries/)
+* [Why Dark didn't choose Rust](https://blog.darklang.com/why-dark-didnt-choose-rust/)
+* [Rust GameDev Ecosystem Survey](https://www.reddit.com/r/rust/comments/joj5e0/rust_gamedev_ecosystem_survey/)
+
+Number: 364  Date: 2020-11-11 
+
+### Official
+* [Inside] [Exploring PGO for the Rust compiler](https://blog.rust-lang.org/inside-rust/2020/11/11/exploring-pgo-for-the-rust-compiler)
+### Newsletters
+* [This Month in Rust OSDev (October 2020)](https://rust-osdev.com/this-month/2020-10/)
+* [This Month in Rust GameDev #15 - October 2020](https://rust-gamedev.github.io/posts/newsletter-015/)
+### Tooling
+* [Rust-Analyzer Changelog #50](https://rust-analyzer.github.io/thisweek/2020/11/09/changelog-50.html)
+* [Develop & Debug Your Rust Application Top Of Kubernetes With OKteto](https://okteto.com/blog/getting-started-with-okteto-and-rust/)
+### Observations/Thoughts
+* [Rust Ray Tracer, an Update (and SIMD)](https://siliconsprawl.com/2020/11/06/simd-ray-tracer.html)
+* [Rust emit=asm Can Be Misleading](https://siliconsprawl.com/2020/11/09/rust-emit-asm.html)
+* [A survey into static analyzers configurations: Clippy for Rust, part 1](https://medium.com/monocodus/a-survey-into-static-analyzers-configurations-clippy-for-rust-part-1-5de50fd9326)
+* [Why Rust is the Future of Game Development](https://thefuntastic.com/blog/why-rust-is-the-future-game-dev?)
+* [Rust as a productive high-level language](https://omarabid.com/rust-high-level-language)
+* [40 millisecond bug](https://vorner.github.io/2020/11/06/40-ms-bug.html)
+* [Postfix macros in Rust](https://gist.github.com/est31/8d0465997ea920c5ba917cbbf80a822d)
+* [A Quick Tour of Trade-offs Embedding Data in Rust](https://nickb.dev/blog/a-quick-tour-of-trade-offs-embedding-data-in-rust)
+* [Why Developers Love Rust](https://ibraheem.ca/posts/why-devs-love-rust)
+### Rust Walkthroughs
+* [Make a Language - Part Nine: Function Calls](https://arzg.github.io/lang/9/)
+* [Building a Weather Station UI](https://blog.kdubovikov.ml/articles/rust/ui/weather-station-ui)
+* [Getting Graphical Output from our Custom RISC-V Operating System in Rust](https://blog.stephenmarz.com/2020/11/11/risc-v-os-using-rust-graphics/)
+* [Build your own: GPG](https://andrewhalle.github.io/build-your-own/gpg)
+* [Rpi 4 meets Flutter and Rust](https://dev.to/charliefoxtrot/rpi-4-meets-flutter-and-rust-23ma)
+* [AWS Lambda + Rust](https://dev.to/rad_val_/aws-lambda-rust-292g)
+* [Orchestration in Rust](https://dev.to/elasticrash/orchestration-in-rust-549b)
+* [Rocket Tutorial 02: Minimalist API](https://dev.to/davidedelpapa/rocket-tutorial-02-minimalist-api-2kl6)
+* [Get simple IO stats using Rust (throughput, ...)](https://dev.to/martichou/get-simple-io-stats-using-rust-throughput-47m4)
+* [Type-Safe Discrete Simulation in Rust](https://dev.to/elshize/type-safe-discrete-simulation-in-rust-3n7d)
+* [series] [A Gemini Client in Rust](https://dev.to/krowemoh/series/9524)
+* [Postfix macros in Rust](https://gist.github.com/est31/8d0465997ea920c5ba917cbbf80a822d)
+* [Processing a Series of Items with Iterators in Rust](https://blog.knoldus.com/processing-a-series-of-items-with-iterators-in-rust/)
+* [Compilation of Active Directory Logs Using Rust](https://blog.knoldus.com/compilation-of-active-directory-logs-using-rust/)
+* [FR] [The Rust Programming Language (translated in French)](https://jimskapt.github.io/rust-book-fr/)
+### Project Updates
+* [New doc comment handling in rustdoc](https://blog.guillaume-gomez.fr/articles/2020-11-11+New+doc+comment+handling+in+rustdoc)
+### Miscellaneous
+* [Rust vs Go](https://bitfieldconsulting.com/golang/rust-vs-go)
+* [Learn Assembly by Writing Entirely Too Many Brainf*ck Compilers in Rust](https://github.com/pretzelhammer/rust-blog/blob/master/posts/too-many-brainfuck-compilers.md)
+
