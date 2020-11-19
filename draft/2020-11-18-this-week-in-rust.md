@@ -25,6 +25,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 * [video] [(Live Coding) Audio adventures in Rust: UI with Actix, WebView, and React](https://youtu.be/vmvq9jKBlGc)
 
+[SQLite File Parser Pt. 2: The Header... continues](https://freemasen.com//blog/sqlite-parser-pt-2/index.html)
+
 ### Project Updates
 
 ### Miscellaneous
