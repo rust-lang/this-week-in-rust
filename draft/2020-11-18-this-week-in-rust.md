@@ -23,12 +23,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [(Live Coding) Audio adventures in Rust: UI with Actix, WebView, and React](https://youtu.be/vmvq9jKBlGc)
+
+[SQLite File Parser Pt. 2: The Header... continues](https://freemasen.com//blog/sqlite-parser-pt-2/index.html)
+
+[PL] [CrabbyBird #3 Generowanie świata gry – cześć I](https://postacnormalna.pl/crabbybird-3-generowanie-swiata-gry-czesc-i/)
 
 ### Project Updates
 
 * [The Big Picture of gfx/wgpu ecosystem](https://gfx-rs.github.io/2020/11/16/big-picture.html)
+* [xd(1): hex-dumping tool with a ♥♪ code page 437 twist ♫♥](https://www.azabani.com/2020/11/15/xd.html)
 
 ### Miscellaneous
+* [OS in Rust: Custom target to build kernel for a bare metal: Part-3](https://blog.knoldus.com/os-in-rust-custom-target-to-build-kernel-for-a-bare-metal-part-3/)
+* [Creating a Tetris Clone in Rust, with Bevy (Part 1)](https://corbamico.github.io/2020/11/12/tetris-1/)
 
 # Crate of the Week
 
