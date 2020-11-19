@@ -15,30 +15,51 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ### Official
+* [Announcing Rust 1.48.0](https://blog.rust-lang.org/2020/11/19/Rust-1.48.html)
+* [Inside] [Source-based code coverage in nightly](https://blog.rust-lang.org/inside-rust/2020/11/12/source-based-code-coverage.html)
 
 ### Newsletters
 
 ### Tooling
-* [reacty_yew: Generating Yew components from React components via Typescript type definitions](https://www.hobofan.com/blog/2020-11-10-reacty_yew/)
+* [IntelliJ Rust Changelog #135](https://intellij-rust.github.io/2020/11/16/changelog-135.html)
+* [Rust-Analyzer Changelog #51](https://rust-analyzer.github.io/thisweek/2020/11/16/changelog-51.html)
+* [Knurling-rs Changelog #6](https://ferrous-systems.com/blog/knurling-changelog-6/)
 
 ### Observations/Thoughts
 * [ECS Scheduler Throughs, Part 1](https://ratysz.github.io/article/scheduling-1/)
+* [Rust in 2021](https://dev.to/tjtelan/rust-in-2021-5p6)
+* [Anonymous Sum Types for Rust Error Handling](https://jam1.re/blog/anonymous-sum-types-for-rust-errors)
+* [The C Standard Library Is Not Dependency Free](https://prilik.com/blog/post/c-is-not-dependency-free/)
+* [Scoped Trait Implementation](https://jack.wrenn.fyi/blog/private-trait-impls/)
 
 ### Rust Walkthroughs
 * [SQLite File Parser Pt. 2: The Header... continues](https://freemasen.com//blog/sqlite-parser-pt-2/index.html)
-* [video] [(Live Coding) Audio adventures in Rust: UI with Actix, WebView, and React](https://youtu.be/vmvq9jKBlGc)
+* [Rust from a Gopher - Lessons 7, 8 & 9](https://levpaul.com/posts/rust-lesson-7-8-9/)
+* [Writing an embedded display driver in Rust](https://nitschinger.at/Writing-an-embedded-display-driver-in-Rust/)
+* [Rocket Tutorial 03: Proper routing](https://dev.to/davidedelpapa/rocket-tutorial-03-proper-routing-4ch3)
+* [Intro to Yew, a Rust Frontend Framework](https://dev.to/fllstck/intro-to-yew-a-rust-frontend-framework-20hb)
+* [An Ownership Puzzle with Rust, Async, and Hyper](https://www.fpcomplete.com/blog/ownership-puzzle-rust-async-hyper/)
+* [Make A Language - Part Ten: Starting Again](https://arzg.github.io/lang/10/)
+* [Make A Language - Part Eleven: Refinements](https://arzg.github.io/lang/11/)
+* [OS in Rust: Custom target to build kernel for a bare metal: Part-3](https://blog.knoldus.com/os-in-rust-custom-target-to-build-kernel-for-a-bare-metal-part-3/)
+* [Creating a Tetris Clone in Rust, with Bevy (Part 1)](https://corbamico.github.io/2020/11/12/tetris-1/)
 * [PL] [CrabbyBird #3 Generowanie świata gry – cześć I](https://postacnormalna.pl/crabbybird-3-generowanie-swiata-gry-czesc-i/)
+* [video] [Crust of Rust: Sorting Algorithms](https://youtu.be/h4RkCyJyXmM)
+* [video] [(Live Coding) Audio adventures in Rust: UI with Actix, WebView, and React](https://youtu.be/vmvq9jKBlGc)
 
 ### Project Updates
 * [The Big Picture of gfx/wgpu ecosystem](https://gfx-rs.github.io/2020/11/16/big-picture.html)
 * [xd(1): hex-dumping tool with a ♥♪ code page 437 twist ♫♥](https://www.azabani.com/2020/11/15/xd.html)
+* [Rust for Modding Smash Ultimate](https://jam1.re/blog/rust-for-game-modding)
+* [reacty_yew: Generating Yew components from React components via Typescript type definitions](https://www.hobofan.com/blog/2020-11-10-reacty_yew/)
+* [Servo's New Home](https://blog.servo.org/2020/11/17/servo-home/)
 
 ### Miscellaneous
-* [OS in Rust: Custom target to build kernel for a bare metal: Part-3](https://blog.knoldus.com/os-in-rust-custom-target-to-build-kernel-for-a-bare-metal-part-3/)
-* [Creating a Tetris Clone in Rust, with Bevy (Part 1)](https://corbamico.github.io/2020/11/12/tetris-1/)
 * [Dog Fight — Python VS Golang VS Rust for JSON Processing](https://medium.com/swlh/dog-fight-python-vs-golang-vs-rust-for-json-processing-33c1ffe15ab9)
 * [Build an SMS Alert System over the weekend with Rust and Zero-Cost](https://towardsdatascience.com/build-an-sms-alert-system-for-canada-covid-19-cases-over-the-weekend-with-rust-and-zero-cost-235bb59ec5d)
 * [Build a Scalable Trading Bot With Rust Over the Weekend](https://medium.com/swlh/build-a-scalable-trading-bot-with-rust-over-the-weekend-9fd781940360)
+* [Oh No! My Data Science Is Getting Rust-y](https://www.crowdstrike.com/blog/data-science-test-drive-of-rust-programming-language/)
+* [The Usability of Ownership](https://arxiv.org/abs/2011.06171)
 
 # Crate of the Week
 
