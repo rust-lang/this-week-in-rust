@@ -42,7 +42,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [postfix-macros](https://github.com/est31/postfix-macros), a clever hack to allow postfix macros in stable Rust.
+This week's crate is [lingua](https://github.com/pemistahl/lingua-rs), a ngrams-based natural language detector.
 
 Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/841) for the suggestion!
 
@@ -63,22 +63,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-333 pull requests were [merged in the last week][merged]
+299 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-11-02..2020-11-09
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-11-09..2020-11-16
 
-* [Implement destructuring assignment for tuples](https://github.com/rust-lang/rust/pull/78748)
-* [reverse binding order in matches to allow the subbinding of copyable fields in bindings after `@`](https://github.com/rust-lang/rust/pull/78638)
-* [Fix unreachable sub-branch detection in or-patterns](https://github.com/rust-lang/rust/pull/78167)
-* [Transform post order walk to an iterative approach](https://github.com/rust-lang/rust/pull/78607)
-* [Compile rustc crates with the initial-exec TLS model](https://github.com/rust-lang/rust/pull/78201)
-* [Make some `std::io` functions `const`](https://github.com/rust-lang/rust/pull/78811)
-* [Stabilize `Poll::is_ready` and `is_pending` as const](https://github.com/rust-lang/rust/pull/76227)
-* [Stabilize `hint::spin_loop`](https://github.com/rust-lang/rust/pull/76097)
-* [Simplify the implementation of `Cell::get_mut`](https://github.com/rust-lang/rust/pull/78735)
-* [futures: Add `StreamExt::cycle`](https://github.com/rust-lang/futures-rs/pull/2252)
-* [futures: Add `TryStreamExt::try_buffered`](https://github.com/rust-lang/futures-rs/pull/2245)
-* [cargo: Avoid some extra downloads with new feature resolver](https://github.com/rust-lang/cargo/pull/8823)
+* [enable LLVM Polly via llvm-args](https://github.com/rust-lang/rust/pull/78566)
+* [implement destructuring assignment for structs and slices](https://github.com/rust-lang/rust/pull/78836)
+* [make `_` an expression, to discard values in destructuring assignments](https://github.com/rust-lang/rust/pull/79016)
+* [add asm register information for SPIR-V](https://github.com/rust-lang/rust/pull/78950)
+* [add `#[cfg(panic = '...')]`](https://github.com/rust-lang/rust/pull/74754)
+* [resolve: collapse `macro_rules` scope chains on the fly](https://github.com/rust-lang/rust/pull/78826)
+* [never inline C variadics, cold functions, functions with incompatible attributes](https://github.com/rust-lang/rust/pull/78966)
+* [normalize function type during validation](https://github.com/rust-lang/rust/pull/78969)
+* [eliminate some temporary vectors](https://github.com/rust-lang/rust/pull/77990)
+* [do not collect tokens for doc comments](https://github.com/rust-lang/rust/pull/78782)
+* [chalk: variance](https://github.com/rust-lang/chalk/pull/609)
+* [lower intrinsics calls: forget, size_of, unreachable, wrapping_*](https://github.com/rust-lang/rust/pull/79049)
+* [move likely/unlikely argument outside of invisible unsafe block](https://github.com/rust-lang/rust/pull/79058)
+* [specialize `io::copy` to use `copy_file_range`, `splice` or `sendfile`](https://github.com/rust-lang/rust/pull/75272)
+* [improve `BinaryHeap` performance](https://github.com/rust-lang/rust/pull/78857)
+* [BTreeMap: fix pointer provenance rules in underfullness](https://github.com/rust-lang/rust/pull/78631)
+* [implement BTreeMap::retain and BTreeSet::retain](https://github.com/rust-lang/rust/pull/79026)
+* [cargo: improve performance of almost fresh builds](https://github.com/rust-lang/cargo/pull/8837)
+* [rustfmt: option to create groups for std, external crates, and other imports](https://github.com/rust-lang/rustfmt/pull/4445)
 
 ## Rust Compiler Performance Triage
 
@@ -141,13 +148,22 @@ Email the [Rust Community Team][community] for access.
 * [Software Engineer at ChainSafe Systems (Toronto, Remote)](https://www.notion.so/chainsafe/Blockchain-Developer-Rust-0d577a2636b84511a5d4efc69454585d)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
 # Quote of the Week
 
-> There are no bad programmers, only insufficiently advanced compilers
+This time we have two quotes of the week:
 
-– [Esteban Kuber on twitter](https://twitter.com/ekuber/status/1319476290395664384)
+> i just spent 8h finding a mutability bug and now i wanna be a catgirl
 
-Thanks to [Nixon Enraght-Moony](https://users.rust-lang.org/t/twir-quote-of-the-week/328/957) for the suggestion.
+– [@castle_vanity on twitter](https://twitter.com/castle_vanity/status/1327352639303135239) reacting to a post depicting C++ programmers as muscle-laden bodybuilders and Rust programmers as catgirls
+
+Thanks to [Maximilian Goisser](https://users.rust-lang.org/t/twir-quote-of-the-week/328/966) for the suggestion.
+
+> The code people write is first a question to the compiler, and later a story for people changing that code.
+
+– [Esteban Kuber on /r/rust](https://www.reddit.com/r/rust/comments/jslo80/this_week_in_rust_364/gc2iuyo)
+
+[llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/967) is mightily pleased with his suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
