@@ -22,6 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [reacty_yew: Generating Yew components from React components via Typescript type definitions](https://www.hobofan.com/blog/2020-11-10-reacty_yew/)
 
 ### Observations/Thoughts
+* [ECS Scheduler Throughs, Part 1](https://ratysz.github.io/article/scheduling-1/)
 
 ### Rust Walkthroughs
 * [SQLite File Parser Pt. 2: The Header... continues](https://freemasen.com//blog/sqlite-parser-pt-2/index.html)
@@ -35,6 +36,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Miscellaneous
 * [OS in Rust: Custom target to build kernel for a bare metal: Part-3](https://blog.knoldus.com/os-in-rust-custom-target-to-build-kernel-for-a-bare-metal-part-3/)
 * [Creating a Tetris Clone in Rust, with Bevy (Part 1)](https://corbamico.github.io/2020/11/12/tetris-1/)
+* [Dog Fight — Python VS Golang VS Rust for JSON Processing](https://medium.com/swlh/dog-fight-python-vs-golang-vs-rust-for-json-processing-33c1ffe15ab9)
+* [Build an SMS Alert System over the weekend with Rust and Zero-Cost](https://towardsdatascience.com/build-an-sms-alert-system-for-canada-covid-19-cases-over-the-weekend-with-rust-and-zero-cost-235bb59ec5d)
+* [Build a Scalable Trading Bot With Rust Over the Weekend](https://medium.com/swlh/build-a-scalable-trading-bot-with-rust-over-the-weekend-9fd781940360)
 
 # Crate of the Week
 
@@ -141,6 +145,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 * [Software Engineer at ChainSafe Systems (Toronto, Remote)](https://www.notion.so/chainsafe/Blockchain-Developer-Rust-0d577a2636b84511a5d4efc69454585d)
+* [Software Developer (Rust) at MeiliSearch (Paris, FR)]()
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
