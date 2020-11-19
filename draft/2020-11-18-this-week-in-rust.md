@@ -27,6 +27,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 [SQLite File Parser Pt. 2: The Header... continues](https://freemasen.com//blog/sqlite-parser-pt-2/index.html)
 
+[PL] [CrabbyBird #3 Generowanie świata gry – cześć I](https://postacnormalna.pl/crabbybird-3-generowanie-swiata-gry-czesc-i/)
+
 ### Project Updates
 
 ### Miscellaneous
