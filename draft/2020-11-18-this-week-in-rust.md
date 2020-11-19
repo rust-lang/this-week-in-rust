@@ -19,26 +19,26 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Tooling
+* [reacty_yew: Generating Yew components from React components via Typescript type definitions](https://www.hobofan.com/blog/2020-11-10-reacty_yew/)
 
 ### Observations/Thoughts
+* [ECS Scheduler Throughs, Part 1](https://ratysz.github.io/article/scheduling-1/)
 
 ### Rust Walkthroughs
+* [SQLite File Parser Pt. 2: The Header... continues](https://freemasen.com//blog/sqlite-parser-pt-2/index.html)
 * [video] [(Live Coding) Audio adventures in Rust: UI with Actix, WebView, and React](https://youtu.be/vmvq9jKBlGc)
-
-[SQLite File Parser Pt. 2: The Header... continues](https://freemasen.com//blog/sqlite-parser-pt-2/index.html)
-
-[PL] [CrabbyBird #3 Generowanie świata gry – cześć I](https://postacnormalna.pl/crabbybird-3-generowanie-swiata-gry-czesc-i/)
+* [PL] [CrabbyBird #3 Generowanie świata gry – cześć I](https://postacnormalna.pl/crabbybird-3-generowanie-swiata-gry-czesc-i/)
 
 ### Project Updates
-
 * [The Big Picture of gfx/wgpu ecosystem](https://gfx-rs.github.io/2020/11/16/big-picture.html)
 * [xd(1): hex-dumping tool with a ♥♪ code page 437 twist ♫♥](https://www.azabani.com/2020/11/15/xd.html)
 
 ### Miscellaneous
 * [OS in Rust: Custom target to build kernel for a bare metal: Part-3](https://blog.knoldus.com/os-in-rust-custom-target-to-build-kernel-for-a-bare-metal-part-3/)
 * [Creating a Tetris Clone in Rust, with Bevy (Part 1)](https://corbamico.github.io/2020/11/12/tetris-1/)
-
-* [reacty_yew: Generating Yew components from React components via Typescript type definitions](https://www.hobofan.com/blog/2020-11-10-reacty_yew/)
+* [Dog Fight — Python VS Golang VS Rust for JSON Processing](https://medium.com/swlh/dog-fight-python-vs-golang-vs-rust-for-json-processing-33c1ffe15ab9)
+* [Build an SMS Alert System over the weekend with Rust and Zero-Cost](https://towardsdatascience.com/build-an-sms-alert-system-for-canada-covid-19-cases-over-the-weekend-with-rust-and-zero-cost-235bb59ec5d)
+* [Build a Scalable Trading Bot With Rust Over the Weekend](https://medium.com/swlh/build-a-scalable-trading-bot-with-rust-over-the-weekend-9fd781940360)
 
 # Crate of the Week
 
@@ -56,6 +56,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [gfx-rs/naga - DirectX IR](https://github.com/gfx-rs/naga/issues/5)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -110,31 +112,31 @@ Every week [the team](https://www.rust-lang.org/team.html) announces the
 decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-
-*No RFCs are currently in the final comment period.*
+* [disposition: merge] [RFC: -C export-executable-symbols](https://github.com/rust-lang/rfcs/pull/2841)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
-* [disposition: merge] [Stabilize clamp](https://github.com/rust-lang/rust/pull/77872)
-* [disposition: merge] [[android] Add support for android's file descriptor ownership tagging to libstd.](https://github.com/rust-lang/rust/pull/74860)
-* [disposition: merge] [Implement Error for &(impl Error)](https://github.com/rust-lang/rust/pull/75180)
-* [disposition: merge] [Add checking for no_mangle to unsafe_code lint](https://github.com/rust-lang/rust/pull/72209)
+* [disposition: merge] [Add `PartialEq<char>` for proc_macro::Punct](https://github.com/rust-lang/rust/pull/78636)
+* [disposition: merge] [Implement PartialEq for proc_macro::Ident == strings](https://github.com/rust-lang/rust/pull/78634)
+* [disposition: merge] [Stabilize refcell_take](https://github.com/rust-lang/rust/pull/78608)
+* [disposition: merge] [Stabilize alloc::Layout const functions](https://github.com/rust-lang/rust/pull/78305)
+* [disposition: merge] [Impl Default for PhantomPinned](https://github.com/rust-lang/rust/pull/77893)
+* [disposition: merge] [stabilize const_int_pow](https://github.com/rust-lang/rust/pull/76829)
+* [disposition: merge] [Stabilize `IpAddr::is_ipv4` and `is_ipv6` as const](https://github.com/rust-lang/rust/pull/76226)
+* [disposition: merge] [Stabilize the backtrace feature.](https://github.com/rust-lang/rust/pull/72981)
 * [disposition: merge] [Tracking issue for methods converting `bool` to `Option<T>`](https://github.com/rust-lang/rust/issues/64260)
 
 ## New RFCs
-* [User/ardavis/checked cfg](https://github.com/rust-lang/rfcs/pull/3013)
-* [add const-ub RFC](https://github.com/rust-lang/rfcs/pull/3016)
-* [Adds `must_not_await_lint` RFC](https://github.com/rust-lang/rfcs/pull/3014)
+* [Allow specifying features of the implicit lib dependency](https://github.com/rust-lang/rfcs/pull/3020)
 
 # Upcoming Events
 
 ### Online
-* [November 12, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrybcpbqb/)
-* [November 12, Washington, DC, US - Mid-month Rustful—How oso built a runtime reflection system for Rust - Rust DC](https://www.meetup.com/RustDC/events/273813659)
-* [November 12, Lehi, UT, US - WASM, Rust, and the State of Async/Await - Utah Rust](https://www.meetup.com/utah-rust/events/273757338/)
 * [November 18, Vancouver, BC, CA - Rust Study/Hack/Hang-out night - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/npqfbsybcpbxb/)
 * [November 24, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcpbgc/)
-* [November 26, Rust Machine Learning On-line Meetup](https://www.meetup.com/Tel-Aviv-Data-Science-ODSC/events/274650041/)
-
+* [November 26, Edinburgh, UK - Rust in the Polymesh Project - Rust Edinburgh](https://www.meetup.com/rust-edi/events/273101770)
+* [November 26, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrybcpbjc/)
+* [November 26, Tel Aviv-Yafo, IL - Rust Machine Learning On-line Meetup - ODSC Tel Aviv Data Science](https://www.meetup.com/Tel-Aviv-Data-Science-ODSC/events/274650041/)
+* [December 1, Buffalo, NY, US - Buffalo Rust User Group - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/274623141/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -144,8 +146,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
 * [Software Engineer at ChainSafe Systems (Toronto, Remote)](https://www.notion.so/chainsafe/Blockchain-Developer-Rust-0d577a2636b84511a5d4efc69454585d)
+* [Software Developer (Rust) at MeiliSearch (Paris, FR)]()
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
