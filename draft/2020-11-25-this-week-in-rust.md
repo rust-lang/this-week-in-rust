@@ -1,6 +1,6 @@
-Title: This Week in Rust 365
-Number: 365
-Date: 2020-11-18
+Title: This Week in Rust 366
+Number: 366
+Date: 2020-11-25
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -15,53 +15,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ### Official
-* [Announcing Rust 1.48.0](https://blog.rust-lang.org/2020/11/19/Rust-1.48.html)
-* [Inside] [Source-based code coverage in nightly](https://blog.rust-lang.org/inside-rust/2020/11/12/source-based-code-coverage.html)
 
 ### Newsletters
 
 ### Tooling
-* [IntelliJ Rust Changelog #135](https://intellij-rust.github.io/2020/11/16/changelog-135.html)
-* [Rust-Analyzer Changelog #51](https://rust-analyzer.github.io/thisweek/2020/11/16/changelog-51.html)
-* [Knurling-rs Changelog #6](https://ferrous-systems.com/blog/knurling-changelog-6/)
 
 ### Observations/Thoughts
-* [ECS Scheduler Throughs, Part 1](https://ratysz.github.io/article/scheduling-1/)
-* [Generating a config file reference for CLI tools in Rust](https://tarquin-the-brave.github.io/blog/posts/generating-config-reference-rust-cli/)
-* [Rust in 2021](https://dev.to/tjtelan/rust-in-2021-5p6)
-* [Anonymous Sum Types for Rust Error Handling](https://jam1.re/blog/anonymous-sum-types-for-rust-errors)
-* [The C Standard Library Is Not Dependency Free](https://prilik.com/blog/post/c-is-not-dependency-free/)
-* [Scoped Trait Implementation](https://jack.wrenn.fyi/blog/private-trait-impls/)
 
 ### Rust Walkthroughs
-* [SQLite File Parser Pt. 2: The Header... continues](https://freemasen.com//blog/sqlite-parser-pt-2/index.html)
-* [Rust from a Gopher - Lessons 7, 8 & 9](https://levpaul.com/posts/rust-lesson-7-8-9/)
-* [Writing an embedded display driver in Rust](https://nitschinger.at/Writing-an-embedded-display-driver-in-Rust/)
-* [Rocket Tutorial 03: Proper routing](https://dev.to/davidedelpapa/rocket-tutorial-03-proper-routing-4ch3)
-* [Intro to Yew, a Rust Frontend Framework](https://dev.to/fllstck/intro-to-yew-a-rust-frontend-framework-20hb)
-* [An Ownership Puzzle with Rust, Async, and Hyper](https://www.fpcomplete.com/blog/ownership-puzzle-rust-async-hyper/)
-* [Make A Language - Part Ten: Starting Again](https://arzg.github.io/lang/10/)
-* [Make A Language - Part Eleven: Refinements](https://arzg.github.io/lang/11/)
-* [OS in Rust: Custom target to build kernel for a bare metal: Part-3](https://blog.knoldus.com/os-in-rust-custom-target-to-build-kernel-for-a-bare-metal-part-3/)
-* [Creating a Tetris Clone in Rust, with Bevy (Part 1)](https://corbamico.github.io/2020/11/12/tetris-1/)
-* [PL] [CrabbyBird #3 Generowanie świata gry – cześć I](https://postacnormalna.pl/crabbybird-3-generowanie-swiata-gry-czesc-i/)
-* [video] [Crust of Rust: Sorting Algorithms](https://youtu.be/h4RkCyJyXmM)
-* [video] [(Live Coding) Audio adventures in Rust: UI with Actix, WebView, and React](https://youtu.be/vmvq9jKBlGc)
 
 ### Project Updates
-* [The Big Picture of gfx/wgpu ecosystem](https://gfx-rs.github.io/2020/11/16/big-picture.html)
-* [xd(1): hex-dumping tool with a ♥♪ code page 437 twist ♫♥](https://www.azabani.com/2020/11/15/xd.html)
-* [Fwumious Wabbit: really fast logistic regression (+more) in Rust](https://andraztori.medium.com/speed-is-a-feature-introducing-fwumious-wabbit-1cc9573ea7be)
-* [Rust for Modding Smash Ultimate](https://jam1.re/blog/rust-for-game-modding)
-* [reacty_yew: Generating Yew components from React components via Typescript type definitions](https://www.hobofan.com/blog/2020-11-10-reacty_yew/)
-* [Servo's New Home](https://blog.servo.org/2020/11/17/servo-home/)
 
 ### Miscellaneous
-* [Dog Fight — Python VS Golang VS Rust for JSON Processing](https://medium.com/swlh/dog-fight-python-vs-golang-vs-rust-for-json-processing-33c1ffe15ab9)
-* [Build an SMS Alert System over the weekend with Rust and Zero-Cost](https://towardsdatascience.com/build-an-sms-alert-system-for-canada-covid-19-cases-over-the-weekend-with-rust-and-zero-cost-235bb59ec5d)
-* [Build a Scalable Trading Bot With Rust Over the Weekend](https://medium.com/swlh/build-a-scalable-trading-bot-with-rust-over-the-weekend-9fd781940360)
-* [Oh No! My Data Science Is Getting Rust-y](https://www.crowdstrike.com/blog/data-science-test-drive-of-rust-programming-language/)
-* [The Usability of Ownership](https://arxiv.org/abs/2011.06171)
 
 # Crate of the Week
 
@@ -79,8 +44,6 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
-
-* [gfx-rs/naga - DirectX IR](https://github.com/gfx-rs/naga/issues/5)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -170,8 +133,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-* [Software Engineer at ChainSafe Systems (Toronto, Remote)](https://www.notion.so/chainsafe/Blockchain-Developer-Rust-0d577a2636b84511a5d4efc69454585d)
-* [Software Developer (Rust) at MeiliSearch (Paris, FR)]()
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
