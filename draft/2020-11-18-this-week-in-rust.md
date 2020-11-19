@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [ECS Scheduler Throughs, Part 1](https://ratysz.github.io/article/scheduling-1/)
+* [Generating a config file reference for CLI tools in Rust](https://tarquin-the-brave.github.io/blog/posts/generating-config-reference-rust-cli/)
 * [Rust in 2021](https://dev.to/tjtelan/rust-in-2021-5p6)
 * [Anonymous Sum Types for Rust Error Handling](https://jam1.re/blog/anonymous-sum-types-for-rust-errors)
 * [The C Standard Library Is Not Dependency Free](https://prilik.com/blog/post/c-is-not-dependency-free/)
