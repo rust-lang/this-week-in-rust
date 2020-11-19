@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [ECS Scheduler Throughs, Part 1](https://ratysz.github.io/article/scheduling-1/)
+* [Generating a config file reference for CLI tools in Rust](https://tarquin-the-brave.github.io/blog/posts/generating-config-reference-rust-cli/)
 
 ### Rust Walkthroughs
 * [SQLite File Parser Pt. 2: The Header... continues](https://freemasen.com//blog/sqlite-parser-pt-2/index.html)
