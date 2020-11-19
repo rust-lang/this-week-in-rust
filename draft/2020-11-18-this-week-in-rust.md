@@ -32,6 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project Updates
 
 ### Miscellaneous
+* [OS in Rust: Custom target to build kernel for a bare metal: Part-3](https://blog.knoldus.com/os-in-rust-custom-target-to-build-kernel-for-a-bare-metal-part-3/)
 * [Creating a Tetris Clone in Rust, with Bevy (Part 1)](https://corbamico.github.io/2020/11/12/tetris-1/)
 
 # Crate of the Week
