@@ -19,26 +19,22 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Tooling
+* [reacty_yew: Generating Yew components from React components via Typescript type definitions](https://www.hobofan.com/blog/2020-11-10-reacty_yew/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [SQLite File Parser Pt. 2: The Header... continues](https://freemasen.com//blog/sqlite-parser-pt-2/index.html)
 * [video] [(Live Coding) Audio adventures in Rust: UI with Actix, WebView, and React](https://youtu.be/vmvq9jKBlGc)
-
-[SQLite File Parser Pt. 2: The Header... continues](https://freemasen.com//blog/sqlite-parser-pt-2/index.html)
-
-[PL] [CrabbyBird #3 Generowanie świata gry – cześć I](https://postacnormalna.pl/crabbybird-3-generowanie-swiata-gry-czesc-i/)
+* [PL] [CrabbyBird #3 Generowanie świata gry – cześć I](https://postacnormalna.pl/crabbybird-3-generowanie-swiata-gry-czesc-i/)
 
 ### Project Updates
-
 * [The Big Picture of gfx/wgpu ecosystem](https://gfx-rs.github.io/2020/11/16/big-picture.html)
 * [xd(1): hex-dumping tool with a ♥♪ code page 437 twist ♫♥](https://www.azabani.com/2020/11/15/xd.html)
 
 ### Miscellaneous
 * [OS in Rust: Custom target to build kernel for a bare metal: Part-3](https://blog.knoldus.com/os-in-rust-custom-target-to-build-kernel-for-a-bare-metal-part-3/)
 * [Creating a Tetris Clone in Rust, with Bevy (Part 1)](https://corbamico.github.io/2020/11/12/tetris-1/)
-
-* [reacty_yew: Generating Yew components from React components via Typescript type definitions](https://www.hobofan.com/blog/2020-11-10-reacty_yew/)
 
 # Crate of the Week
 
@@ -133,7 +129,7 @@ decision. Express your opinions now.
 * [November 12, Lehi, UT, US - WASM, Rust, and the State of Async/Await - Utah Rust](https://www.meetup.com/utah-rust/events/273757338/)
 * [November 18, Vancouver, BC, CA - Rust Study/Hack/Hang-out night - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/npqfbsybcpbxb/)
 * [November 24, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcpbgc/)
-* [November 26, Rust Machine Learning On-line Meetup](https://www.meetup.com/Tel-Aviv-Data-Science-ODSC/events/274650041/)
+* [November 26, Tel Aviv-Yafo, IL - Rust Machine Learning On-line Meetup - ODSC Tel Aviv Data Science](https://www.meetup.com/Tel-Aviv-Data-Science-ODSC/events/274650041/)
 
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -144,7 +140,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
 * [Software Engineer at ChainSafe Systems (Toronto, Remote)](https://www.notion.so/chainsafe/Blockchain-Developer-Rust-0d577a2636b84511a5d4efc69454585d)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
