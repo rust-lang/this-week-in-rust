@@ -51,6 +51,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project Updates
 * [The Big Picture of gfx/wgpu ecosystem](https://gfx-rs.github.io/2020/11/16/big-picture.html)
 * [xd(1): hex-dumping tool with a ♥♪ code page 437 twist ♫♥](https://www.azabani.com/2020/11/15/xd.html)
+* [Fwumious Wabbit: really fast logistic regression (+more) in Rust](https://andraztori.medium.com/speed-is-a-feature-introducing-fwumious-wabbit-1cc9573ea7be)
 * [Rust for Modding Smash Ultimate](https://jam1.re/blog/rust-for-game-modding)
 * [reacty_yew: Generating Yew components from React components via Typescript type definitions](https://www.hobofan.com/blog/2020-11-10-reacty_yew/)
 * [Servo's New Home](https://blog.servo.org/2020/11/17/servo-home/)
