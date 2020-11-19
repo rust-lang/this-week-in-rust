@@ -32,6 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project Updates
 * [The Big Picture of gfx/wgpu ecosystem](https://gfx-rs.github.io/2020/11/16/big-picture.html)
 * [xd(1): hex-dumping tool with a ♥♪ code page 437 twist ♫♥](https://www.azabani.com/2020/11/15/xd.html)
+* [Fwumious Wabbit: really fast logistic regression (+more) in Rust](https://andraztori.medium.com/speed-is-a-feature-introducing-fwumious-wabbit-1cc9573ea7be)
 
 ### Miscellaneous
 * [OS in Rust: Custom target to build kernel for a bare metal: Part-3](https://blog.knoldus.com/os-in-rust-custom-target-to-build-kernel-for-a-bare-metal-part-3/)
