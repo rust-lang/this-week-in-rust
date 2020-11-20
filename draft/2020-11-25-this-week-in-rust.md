@@ -28,6 +28,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+[video] [How to create an awesome Rust GitHub project](https://www.youtube.com/watch?v=meAz2RQMHvM)
+
 # Crate of the Week
 
 This week's crate is [lingua](https://github.com/pemistahl/lingua-rs), a ngrams-based natural language detector.
