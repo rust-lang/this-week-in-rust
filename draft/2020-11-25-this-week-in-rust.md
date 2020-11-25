@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [(Live Coding) Audio adventures in Rust: Packaging Actix + React app as macOS bundle](https://youtu.be/2u362vR167c)
 
 ### Project Updates
 
