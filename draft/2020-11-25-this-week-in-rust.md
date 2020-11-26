@@ -44,6 +44,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [A Cool Generic Concurrency Primitive in Rust](https://youtu.be/eLNAMEoKAAc)
 * [video] [Creative coding in Rust: re-creating a retro screensaver](https://youtu.be/d9lsT4kJo44)
 * [video] [(Live Coding) Audio adventures in Rust: Packaging Actix + React app as macOS bundle](https://youtu.be/2u362vR167c)
+* [video] [Prototype (Rust tutorial) - Design Patterns](https://www.youtube.com/watch?v=lL0PmeYWqiU&feature=youtu.be)
 
 ### Project Updates
 * [cargo-mobile: Rust on mobile made easy!](https://dev.brainiumstudios.com/2020/11/24/cargo-mobile.html)
@@ -55,8 +56,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Why AWS loves Rust, and how we'd like to help](https://aws.amazon.com/blogs/opensource/why-aws-loves-rust-and-how-wed-like-to-help/#)
 * [Why Work in Blockchain? - Journey from C++ to Rust Developer](https://medium.com/centrality/why-work-in-blockchain-journey-from-c-to-rust-developer-eddbc9ccdc3d)
 * [Flash Animations Live Forever at the Internet Archive [via ruffle.rs, a Flash emulator written in Rust compiled to WASM]](https://www.reddit.com/r/rust/comments/jxfhnp/flash_animations_live_forever_at_the_internet/)
-
-[video] [How to create an awesome Rust GitHub project](https://www.youtube.com/watch?v=meAz2RQMHvM)
+* [video] [How to create an awesome Rust GitHub project](https://www.youtube.com/watch?v=meAz2RQMHvM)
 
 # Crate of the Week
 
@@ -174,6 +174,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Senior Software Engineer, IOx at InfluxData (Remote)](https://boards.greenhouse.io/influxdb/jobs/2447843?gh_src=da842a8d1us)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
