@@ -31,9 +31,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [pwintln uwu and other fun with elves and dynamic linkers](https://lfcode.ca/blog/pwintln-uwu)
 
 ### Rust Walkthroughs
-<<<<<<< Updated upstream
-* [video] [(Live Coding) Audio adventures in Rust: Packaging Actix + React app as macOS bundle](https://youtu.be/2u362vR167c)
-=======
 * [Hands-on Rust: Effective Learning through 2D Game Development and Play](https://pragprog.com/titles/hwrust/hands-on-rust/)
 * [CBOR IoT Data Serialization for Embedded C and Rust](https://www.jaredwolff.com/cbor-for-embedded-c-and-rust/)
 * [Basic Interactions with Yew](https://dev.to/fllstck/basic-interactions-with-yew-3pa3)
@@ -46,7 +43,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Recipe for Calling Swift Closures from Asynchronous Rust Code](https://www.nickwilcox.com/blog/recipe_swift_rust_callback/)
 * [video] [A Cool Generic Concurrency Primitive in Rust](https://youtu.be/eLNAMEoKAAc)
 * [video] [Creative coding in Rust: re-creating a retro screensaver](https://youtu.be/d9lsT4kJo44)
->>>>>>> Stashed changes
+* [video] [(Live Coding) Audio adventures in Rust: Packaging Actix + React app as macOS bundle](https://youtu.be/2u362vR167c)
 
 ### Project Updates
 * [cargo-mobile: Rust on mobile made easy!](https://dev.brainiumstudios.com/2020/11/24/cargo-mobile.html)
