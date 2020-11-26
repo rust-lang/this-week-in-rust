@@ -15,19 +15,46 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ### Official
+* [Inside] [What the Error Handling Project Group is Working On](https://blog.rust-lang.org/inside-rust/2020/11/23/What-the-error-handling-project-group-is-working-on.html)
 
 ### Newsletters
 
 ### Tooling
+* [Rust Analyzer Changelog #52](https://rust-analyzer.github.io/thisweek/2020/11/23/changelog-52.html)
+* [Knurling-rs Changelog #7](https://ferrous-systems.com/blog/knurling-changelog-7/)
 
 ### Observations/Thoughts
+* [FlatBuffer as serialization agnostic IDL](https://adsharma.github.io/flattools-11222020.html)
+* [WTF is Rust? The Illustrated Notes](https://dev.to/egghead/wtf-is-rust-the-illustrated-notes-564p)
+* [First Lines of Rust](https://dev.to/arschles/first-lines-of-rust-ofe)
+* [Optimizing Benchpress](https://blog.nodebb.org/optimizing-benchpress/)
+* [pwintln uwu and other fun with elves and dynamic linkers](https://lfcode.ca/blog/pwintln-uwu)
 
 ### Rust Walkthroughs
+* [Hands-on Rust: Effective Learning through 2D Game Development and Play](https://pragprog.com/titles/hwrust/hands-on-rust/)
+* [CBOR IoT Data Serialization for Embedded C and Rust](https://www.jaredwolff.com/cbor-for-embedded-c-and-rust/)
+* [Basic Interactions with Yew](https://dev.to/fllstck/basic-interactions-with-yew-3pa3)
+* [Testing your crate C-API](https://dev.to/luzero/testing-your-crate-c-api-19nc)
+* [Rocket Tutorial 03 part II: Proper Testing](https://dev.to/davidedelpapa/rocket-tutorial-03-part-ii-proper-testing-6h)
+* [Select Syscall in Rust](https://dev.to/pjam/select-syscall-in-rust-mm)
+* [FBSim: football-playing AI agents in Rust](https://iantayler.com/2020/11/22/fbsim-football-playing-ai-agents-in-rust/)
+* [Building a Recipe Manager - Part 5 - Data Integrity](https://bheisler.github.io/post/recipe-manager-part-5-data-integrity/)
+* [Bootstrapping support for the STM32WLE with the Embedded Rust ecosystem](https://jitter.company/blog/2020/11/23/bootstrapping-support-for-the-stm32wle-with-the-embedded-rust-ecosystem/)
+* [Recipe for Calling Swift Closures from Asynchronous Rust Code](https://www.nickwilcox.com/blog/recipe_swift_rust_callback/)
+* [video] [A Cool Generic Concurrency Primitive in Rust](https://youtu.be/eLNAMEoKAAc)
+* [video] [Creative coding in Rust: re-creating a retro screensaver](https://youtu.be/d9lsT4kJo44)
 * [video] [(Live Coding) Audio adventures in Rust: Packaging Actix + React app as macOS bundle](https://youtu.be/2u362vR167c)
 
 ### Project Updates
+* [cargo-mobile: Rust on mobile made easy!](https://dev.brainiumstudios.com/2020/11/24/cargo-mobile.html)
+* [Welcoming the RustFest Project](https://blog.rustfest.eu/rustfest-project-announcement)
+* [Levenshtein Heuristic in Poi](https://advancedresearch.github.io/blog/2020-11-21-levenshtein-heuristic-in-poi)
 
 ### Miscellaneous
+* [Strengthening memory safety in Rust: exploring CHERI capabilities for a safe language](https://nw0.github.io/cheri-rust.pdf)
+* [Why AWS loves Rust, and how we'd like to help](https://aws.amazon.com/blogs/opensource/why-aws-loves-rust-and-how-wed-like-to-help/#)
+* [Why Work in Blockchain? - Journey from C++ to Rust Developer](https://medium.com/centrality/why-work-in-blockchain-journey-from-c-to-rust-developer-eddbc9ccdc3d)
+* [Flash Animations Live Forever at the Internet Archive [via ruffle.rs, a Flash emulator written in Rust compiled to WASM]](https://www.reddit.com/r/rust/comments/jxfhnp/flash_animations_live_forever_at_the_internet/)
 
 [video] [How to create an awesome Rust GitHub project](https://www.youtube.com/watch?v=meAz2RQMHvM)
 
