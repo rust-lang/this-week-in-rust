@@ -75,6 +75,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [oapth - Meta issue for `clean` method](https://github.com/c410-f3r/oapth/issues/5)
+* [uom - Fix issues with uom CI process](https://github.com/iliekturtles/uom/issues/223)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -137,34 +140,36 @@ Every week [the team](https://www.rust-lang.org/team.html) announces the
 'final comment period' for RFCs and key PRs which are reaching a
 decision. Express your opinions now.
 
+
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-* [disposition: merge] [RFC: -C export-executable-symbols](https://github.com/rust-lang/rfcs/pull/2841)
+
+*No RFCs are currently in the final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
-* [disposition: merge] [Add `PartialEq<char>` for proc_macro::Punct](https://github.com/rust-lang/rust/pull/78636)
-* [disposition: merge] [Implement PartialEq for proc_macro::Ident == strings](https://github.com/rust-lang/rust/pull/78634)
-* [disposition: merge] [Stabilize refcell_take](https://github.com/rust-lang/rust/pull/78608)
-* [disposition: merge] [Stabilize alloc::Layout const functions](https://github.com/rust-lang/rust/pull/78305)
-* [disposition: merge] [Impl Default for PhantomPinned](https://github.com/rust-lang/rust/pull/77893)
-* [disposition: merge] [stabilize const_int_pow](https://github.com/rust-lang/rust/pull/76829)
-* [disposition: merge] [Stabilize `IpAddr::is_ipv4` and `is_ipv6` as const](https://github.com/rust-lang/rust/pull/76226)
-* [disposition: merge] [Stabilize the backtrace feature.](https://github.com/rust-lang/rust/pull/72981)
-* [disposition: merge] [Tracking issue for methods converting `bool` to `Option<T>`](https://github.com/rust-lang/rust/issues/64260)
+
+*No Tracking Issues or PRs are currently in the final comment period.*
 
 ## New RFCs
-* [Allow specifying features of the implicit lib dependency](https://github.com/rust-lang/rfcs/pull/3020)
+
+* [Add a new syntax to declare that a trait must always be object-safe](https://github.com/rust-lang/rfcs/pull/3022)
 
 # Upcoming Events
 
 ### Online
-* [November 18, Vancouver, BC, CA - Rust Study/Hack/Hang-out night - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/npqfbsybcpbxb/)
-* [November 24, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcpbgc/)
 * [November 26, Edinburgh, UK - Rust in the Polymesh Project - Rust Edinburgh](https://www.meetup.com/rust-edi/events/273101770)
 * [November 26, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrybcpbjc/)
 * [November 26, Tel Aviv-Yafo, IL - Rust Machine Learning On-line Meetup - ODSC Tel Aviv Data Science](https://www.meetup.com/Tel-Aviv-Data-Science-ODSC/events/274650041/)
 * [December 1, Buffalo, NY, US - Buffalo Rust User Group - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/274623141/)
-* [December 1, Munich, DE - Rust Munich Meetup - Rust Remote #4 (CEST)](https://www.meetup.com/rust-munich/events/273529335)
+* [December 1, Munich, DE - Rust Remote #4 (CEST) - Rust Munich Meetup](https://www.meetup.com/rust-munich/events/273529335)
+* [December 2, Johannesburg, ZA - Monthly Joburg Rust Chat - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/274734310/)
+* [December 2, Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy Rust](https://www.meetup.com/indyrs/events/jhfstrybcqbdb/)
 * [December 8, Saarbücken, Saarland, DE - Meetup: 6u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/274592167)
+
+### North America
+* [December 9, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgrybcqbmb/)
+
+### Asia Pacific
+* [December 7, Auckland, NZ - Rust AKL - Show and Tell + Introduction to RUst II](https://www.meetup.com/rust-akl/events/266876724/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
