@@ -152,9 +152,9 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I know noting about the compiler internals but it looks to me as if 90% of the time is spent pretty-printing LayoutError.
+> Me, explaining std::fs and std::path: "there's so much to unwrap here".
 
-– [Vadzim Dambrouski on github](https://github.com/rust-lang/rust/issues/75992#issuecomment-716622473)
+– [Florian Gilcher on twitter](https://twitter.com/Argorak/status/1332340277646909440)
 
 Thanks to [mmmmib](https://users.rust-lang.org/t/twir-quote-of-the-week/328/968) for the suggestion.
 
