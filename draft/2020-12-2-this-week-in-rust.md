@@ -31,7 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [cargo-intraconv](https://crates.io/crates/cargo-intraconv), a cargo subcommand to convert links in rust documentation to the newly stable intra-doc-links format.
+This week's crate is [kira](https://github.com/tesselode/kira), a library for expressive game audio with many bells and whistles (pardon the pun).
 
 Thanks to [Alexis Bourget](https://users.rust-lang.org/t/crate-of-the-week/2704/849) for the suggestion!
 
@@ -52,34 +52,24 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-345 pull requests were [merged in the last week][merged]
+289 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-11-16..2020-11-23
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-11-23..2020-11-30
 
-* [never inline naked functions](https://github.com/rust-lang/rust/pull/79192)
-* [fix exhaustiveness in case a byte string literal is used at slice type](https://github.com/rust-lang/rust/pull/79072)
-* [Arena: use specialization to avoid copying data](https://github.com/rust-lang/rust/pull/78569)
-* [add column number support to Backtrace](https://github.com/rust-lang/rust/pull/79002)
-* [add support for custom allocators in `Vec`](https://github.com/rust-lang/rust/pull/78461)
-* [change `slice::to_vec` to not use `extend_from_slice`](https://github.com/rust-lang/rust/pull/79186)
-* [tighten the bounds on atomic Ordering in `std::sys::unix::weak::Weak`](https://github.com/rust-lang/rust/pull/79039)
-* [Add `#[cold]` attribute to `std::process::abort` and `alloc::alloc::handle_alloc_error`](https://github.com/rust-lang/rust/pull/79172)
-* [impl `Default` for `PhantomPinned`](https://github.com/rust-lang/rust/pull/77893)
-* [add `trailing_zeros` and `leading_zeros` to non zero types](https://github.com/rust-lang/rust/pull/79114)
-* [add `f`{`32`, `64`}`::is_subnormal`](https://github.com/rust-lang/rust/pull/76941)
-* [add `core::slice::fill_with`](https://github.com/rust-lang/rust/pull/79222)
-* [implement `Index` and `IndexMut` for arrays](https://github.com/rust-lang/rust/pull/74989)
-* [make `as`{`_mut`,}`_slice` on `array::IntoIter` public](https://github.com/rust-lang/rust/pull/79194)
-* [stabilize `refcell_take`](https://github.com/rust-lang/rust/pull/78608)
-* [stabilize `clamp`](https://github.com/rust-lang/rust/pull/77872)
-* [stabilise `then`](https://github.com/rust-lang/rust/pull/79299)
-* [stabilize `IpAddr::is_ipv4` and `is_ipv6` as const](https://github.com/rust-lang/rust/pull/76226)
-* [stabilize `alloc::Layout` const functions](https://github.com/rust-lang/rust/pull/78305)
-* [futures: stream: unzip operator](https://github.com/rust-lang/futures-rs/pull/2263)
-* [cargo: allow resolver="1" to explicitly use the old resolver behavior](https://github.com/rust-lang/cargo/pull/8857)
-* [rustdoc: give a better error when rustdoc tests fail](https://github.com/rust-lang/rust/pull/78752)
-* [semverver: speed compilation by using .rmeta over .rlib files](https://github.com/rust-lang/rust-semverver/pull/138)
-* [measureme: hardware performance counter support (via `rdpmc`)](https://github.com/rust-lang/measureme/pull/143)
+* [upgrade the coverage map to Version 4](https://github.com/rust-lang/rust/pull/79365)
+* [allow using generic trait methods in `const fn`](https://github.com/rust-lang/rust/pull/79287)
+* [allow Trait inheritance with cycles on associated types](https://github.com/rust-lang/rust/pull/79209)
+* [do not visit `ForeignItemRef` for HIR indexing and validation](https://github.com/rust-lang/rust/pull/79511)
+* [only create `OnDiskCache` in incremental compilation mode](https://github.com/rust-lang/rust/pull/79216)
+* [cache pretty-print/retokenize result to avoid compile time blowup](https://github.com/rust-lang/rust/pull/79338)
+* [stabilize `const_int_pow`](https://github.com/rust-lang/rust/pull/76829)
+* [compiler-builtins: fix division on SPARC](https://github.com/rust-lang/compiler-builtins/pull/393)
+* [libtest: print the total time taken to execute a test suite](https://github.com/rust-lang/rust/pull/75752)
+* [accept '!' in intra-doc links](https://github.com/rust-lang/rust/pull/79321)
+* [cleanup more of rustdoc](https://github.com/rust-lang/rust/pull/79372)
+* [bindgen: struct_layout: fix field offset computation for packed(n) structs](https://github.com/rust-lang/rust-bindgen/pull/1935)
+* [miri: add simple data-race detector](https://github.com/rust-lang/miri/pull/1617)
+* [clippy: add `suspicious_operation_groupings` lint](https://github.com/rust-lang/rust-clippy/pull/6086)
 
 ## Rust Compiler Performance Triage
 
@@ -152,11 +142,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I know noting about the compiler internals but it looks to me as if 90% of the time is spent pretty-printing LayoutError.
+> Let’s be clear: We understand that we are net beneficiaries of the exceptional work that others have done to make Rust thrive. AWS didn’t start Rust or make it the success that it is today, but we’d like to contribute to its future success.
 
-– [Vadzim Dambrouski on github](https://github.com/rust-lang/rust/issues/75992#issuecomment-716622473)
+– [Matt Asay on the AWS Open Source blog](https://aws.amazon.com/blogs/opensource/why-aws-loves-rust-and-how-wed-like-to-help/)
 
-Thanks to [mmmmib](https://users.rust-lang.org/t/twir-quote-of-the-week/328/968) for the suggestion.
+Thanks to [Alice Ryhl](https://users.rust-lang.org/t/twir-quote-of-the-week/328/969) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
