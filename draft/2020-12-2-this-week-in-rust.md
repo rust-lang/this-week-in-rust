@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Demo: 🦀️ Building a runtime reflection system for Rust](https://www.osohq.com/post/demo-building-runtime-reflection-system-for-rust)
 
 ### Project Updates
 
