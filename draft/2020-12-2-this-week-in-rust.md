@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 * [OS in Rust: Building kernel for custom target: Part-4](https://blog.knoldus.com/os-in-rust-building-kernel-for-custom-target-part-4/)
+* [Video] [Demo: 🦀️ Building a runtime reflection system for Rust](https://www.osohq.com/post/demo-building-runtime-reflection-system-for-rust)
 
 ### Project Updates
 
