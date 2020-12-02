@@ -42,7 +42,7 @@ No Rust Blog posts this week.
 * [Rust Design-for-Testability: a survey](https://alastairreid.github.io/rust-testability/)
 * [Rust from a Gopher - Lessons 3 & 4](https://levpaul.com/posts/rust-lesson-3-and-4/)
 * [Rocket Tutorial 01: Basics](https://dev.to/davidedelpapa/rocket-tutorial-01-basics-4ph9)
-* [Building an AWS Lambda extension with Rust](https://dev.to/davidedelpapa/rocket-tutorial-01-basics-4ph9)
+* [Building an AWS Lambda extension with Rust](https://dev.to/aws-builders/building-an-aws-lambda-extension-with-rust-3p81)
 * [A Gopher Client in Rust - 02 Core Client](https://dev.to/krowemoh/gopher-client-in-rust-02-core-client-anh)
 * [A Gopher Client in Rust - 03 Bookmarks and Full Code](https://dev.to/krowemoh/gopher-client-in-rust-03-extras-4o4d)
 * [Rust HTTP Testing with httpmock](https://dev.to/alexliesenfeld/rust-http-testing-with-httpmock-2mi0)
