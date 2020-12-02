@@ -105,32 +105,34 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in the final comment period.*
+* [RFC: Plan to make core and std's panic identical](https://github.com/rust-lang/rfcs/pull/3007)
+* [Stabilize Cargo's new feature resolver](https://github.com/rust-lang/rfcs/pull/2957)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-*No Tracking Issues or PRs are currently in the final comment period.*
+* [Use true previous lint level when detecting overriden forbids](https://github.com/rust-lang/rust/pull/78864)
+* [Apply `unused_doc_comments` lint to inner items](https://github.com/rust-lang/rust/pull/78367)
+* [remove this weird special case from promotion](https://github.com/rust-lang/rust/pull/78363)
 
 ## New RFCs
 
-* [Add a new syntax to declare that a trait must always be object-safe](https://github.com/rust-lang/rfcs/pull/3022)
+* [Allow "artifact dependencies" on bin, cdylib, and staticlib crates](https://github.com/rust-lang/rfcs/pull/3028)
+* [Infallible promotion](https://github.com/rust-lang/rfcs/pull/3027)
 
 # Upcoming Events
 
 ### Online
-* [November 26, Edinburgh, UK - Rust in the Polymesh Project - Rust Edinburgh](https://www.meetup.com/rust-edi/events/273101770)
-* [November 26, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrybcpbjc/)
-* [November 26, Tel Aviv-Yafo, IL - Rust Machine Learning On-line Meetup - ODSC Tel Aviv Data Science](https://www.meetup.com/Tel-Aviv-Data-Science-ODSC/events/274650041/)
-* [December 1, Buffalo, NY, US - Buffalo Rust User Group - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/274623141/)
-* [December 1, Munich, DE - Rust Remote #4 (CEST) - Rust Munich Meetup](https://www.meetup.com/rust-munich/events/273529335)
 * [December 2, Johannesburg, ZA - Monthly Joburg Rust Chat - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/274734310/)
 * [December 2, Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy Rust](https://www.meetup.com/indyrs/events/jhfstrybcqbdb/)
 * [December 8, Saarbücken, Saarland, DE - Meetup: 6u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/274592167)
 * [December 8, Stuttgart, DE - TALK: Running Multi-Module Heterogenous WASM Assemblies - Rust Community Stuttgart](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/274921745/)
+* [December 8, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybcqblb/)
 * [December 10, Stuttgart, DE - Hack & Learn - Directions for 2021 - Rust Community Stuttgart](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/274892215/)
+* [December 10, San Diego, CA, US - San Diego Rust December 2020 Tele-Meetup - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/274757235/)
 
 ### North America
 * [December 9, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgrybcqbmb/)
+* [December 10, Provo, UT, US - Mob Programming: Add `--tree -d` to `lsd`](https://www.meetup.com/utah-rust/events/273530244/)
 
 ### Asia Pacific
 * [December 7, Auckland, NZ - Rust AKL - Show and Tell + Introduction to RUst II](https://www.meetup.com/rust-akl/events/266876724/)
@@ -143,6 +145,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+[Several Engineering Positions - Dfinity - (San Francisco, Palo Alto, Zurich)](https://dfinity.org/careers/)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
