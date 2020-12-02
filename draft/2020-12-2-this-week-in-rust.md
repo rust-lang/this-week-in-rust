@@ -14,24 +14,44 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
+No project updates this week.
+
 ### Official
-* [Inside] [What the Error Handling Project Group is Working On](https://blog.rust-lang.org/inside-rust/2020/11/23/What-the-error-handling-project-group-is-working-on.html)
+* [Announcing Rustup 1.23.0](https://blog.rust-lang.org/2020/11/27/Rustup-1.23.0.html)
 
 ### Newsletters
+* [This Month in Rust Dimforge #3](https://www.dimforge.com/blog/2020/12/01/this-month-in-dimforge/)
 
 ### Tooling
+* [IntelliJ Rust Changelog #136](https://intellij-rust.github.io/2020/11/30/changelog-136.html)
+* [Rust Analyzer Changelog #53](https://rust-analyzer.github.io/thisweek/2020/11/30/changelog-53.html)
+* [Knurling-rs Changelog #8](https://ferrous-systems.com/blog/knurling-changelog-8/)
 
 ### Observations/Thoughts
-
 * [Rust Continuous Delivery](https://kflansburg.com/posts/rust-continuous-delivery/)
+* [Why doesn't Rust's BTreeMap have a with_capacity() method?](https://www.nicolas-hahn.com/2020/11/30/btreemap-with-capacity/)
+* [Why using WebAssembly and Rust together improves Node.js performance](https://developer.ibm.com/technologies/web-development/articles/why-webassembly-and-rust-together-improve-nodejs-performance/)
+* [lib-ruby-parser](https://ilyabylich.svbtle.com/lib-ruby-parser)
+* [Understanding Partial Moves in Rust](https://whileydave.com/2020/11/30/understanding-partial-moves-in-rust/)
+* [Error Handling is Hard](https://www.fpcomplete.com/blog/error-handling-is-hard/)
+* [Scalable Benchmarking with Rust Streams](https://pkolaczk.github.io/benchmarking-cassandra-with-rust-streams/)
+* [I rewrote 10k lines of JS into Rust over the last month. Here's a write up about it](https://www.reddit.com/r/rust/comments/k3jy5g/i_rewrote_10k_lines_of_js_into_rust_over_the_last/)
 
 ### Rust Walkthroughs
 * [OS in Rust: Building kernel for custom target: Part-4](https://blog.knoldus.com/os-in-rust-building-kernel-for-custom-target-part-4/)
-* [Video] [Demo: 🦀️ Building a runtime reflection system for Rust](https://www.osohq.com/post/demo-building-runtime-reflection-system-for-rust)
-
-### Project Updates
+* [Writing Rust the Elixer way](https://dev.to/bkolobara/writing-rust-the-elixir-way-2lm8)
+* [Risp (in (Rust) (Lisp))](https://stopa.io/post/222)
+* [Props and Nested Components with Yes](https://dev.to/fllstck/props-and-nested-components-with-yew-2l0d)
+* [Using Selenium with Rust](https://dev.to/stevepryde/using-selenium-with-rust-aca)
+* [Rocket Tutorial 04: Data Persistency and Rocket (with MongoDB)](https://dev.to/davidedelpapa/rocket-tutorial-04-data-persistency-and-rocket-with-mongodb-e5j)
+* [series] [Futures Explained in 200 Lines of Rust](https://cfsamson.github.io/books-futures-explained/introduction.html)
+* [video] [Demo: 🦀️ Building a runtime reflection system for Rust](https://www.osohq.com/post/demo-building-runtime-reflection-system-for-rust)
+* [video] [Sapling livestream 5 - Deleting Code](https://youtu.be/oc8DWXsodzE)
 
 ### Miscellaneous
+* [Why scientists are turning to Rust](https://www.nature.com/articles/d41586-020-03382-2)
+* [Pijul - The Mathematically Sound Version Control System Written In Rust](https://initialcommit.com/blog/pijul-version-control-system)
+* [Amazon: We're hiring software engineers who know programming language Rust](https://www.zdnet.com/article/amazon-were-hiring-software-engineers-who-know-programming-language-rust/)
 
 # Crate of the Week
 
