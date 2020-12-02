@@ -44,6 +44,7 @@ No project updates this week.
 * [Props and Nested Components with Yes](https://dev.to/fllstck/props-and-nested-components-with-yew-2l0d)
 * [Using Selenium with Rust](https://dev.to/stevepryde/using-selenium-with-rust-aca)
 * [Rocket Tutorial 04: Data Persistency and Rocket (with MongoDB)](https://dev.to/davidedelpapa/rocket-tutorial-04-data-persistency-and-rocket-with-mongodb-e5j)
+* [The Little Book of Rust Macros](https://veykril.github.io/tlborm/)
 * [series] [Futures Explained in 200 Lines of Rust](https://cfsamson.github.io/books-futures-explained/introduction.html)
 * [video] [Demo: 🦀️ Building a runtime reflection system for Rust](https://www.osohq.com/post/demo-building-runtime-reflection-system-for-rust)
 * [video] [Sapling livestream 5 - Deleting Code](https://youtu.be/oc8DWXsodzE)
