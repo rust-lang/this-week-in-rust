@@ -23,6 +23,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Rust Continuous Delivery](https://kflansburg.com/posts/rust-continuous-delivery/)
+
 ### Rust Walkthroughs
 
 ### Project Updates
