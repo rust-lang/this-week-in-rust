@@ -7,7 +7,7 @@ AUTHOR = u'TWiR Contributors'
 SITENAME = u"This Week in Rust"
 SITEURL = 'https://this-week-in-rust.org'
 
-SOURCE_URL = 'https://github.com/emberian/this-week-in-rust'
+SOURCE_URL = 'https://github.com/rust-lang/this-week-in-rust'
 
 if '1' == os.environ.get('TWIR_NEWSLETTER_THEME'):
     THEME = 'themes/newsletter'
