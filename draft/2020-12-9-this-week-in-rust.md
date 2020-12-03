@@ -21,6 +21,7 @@ No project updates this week.
 ### Newsletters
 
 ### Tooling
+[Recent updates in IntelliJ Rust](https://blog.jetbrains.com/clion/2020/12/intellij-rust-updates-for-2020-3/)
 
 ### Observations/Thoughts
 
