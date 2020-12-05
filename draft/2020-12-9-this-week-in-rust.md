@@ -21,6 +21,7 @@ No project updates this week.
 ### Newsletters
 
 ### Tooling
+* [Rust makes cross compilation child's play](https://www.marcoieni.com/2020/12/rust-makes-cross-compilation-childs-play/)
 
 ### Observations/Thoughts
 
