@@ -26,6 +26,8 @@ No project updates this week.
 
 ### Rust Walkthroughs
 
+* [Interior Mutability in Rust: Understanding The Cell Type](https://ibraheem.ca/posts/rust-interior-mutability-understanding-cell)
+
 ### Miscellaneous
 
 # Crate of the Week
