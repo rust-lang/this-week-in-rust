@@ -72,17 +72,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-* [2020-11-24](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-11-24.md):
-1 Regression, 2 Improvements, 2 mixed
+* [2020-12-08](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-12-08.md):
+0 Regressions, 2 Improvements, 1 Mixed
 
-This week saw landing of [#79237](https://github.com/rust-lang/rust/pull/79237) which by itself provides no wins but opens the door to support for split debuginfo on macOS. This'll eventually show huge wins as we can likely avoid re-collecting debuginfo while retaining support for lldb and Rust backtraces. [#79361](https://github.com/rust-lang/rust/issues/79361) tracks the stabilization of the rustc flag, but the precise rollout to stable users is not yet 100% clear.
+Triage done by @simulacrum.
 
-Triage done by @jyn514 and @simulacrum.
-
-4 regressions, 4 improvements, 2 mixed results.
-5 of them in rollups.
-
-See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-11-24.md) for more.
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-12-08.md) for more.
 
 ## Approved RFCs
 
