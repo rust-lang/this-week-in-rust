@@ -21,6 +21,7 @@ No project updates this week.
 ### Newsletters
 
 ### Tooling
+* [Recent updates in IntelliJ Rust](https://blog.jetbrains.com/clion/2020/12/intellij-rust-updates-for-2020-3/)
 * [Rust makes cross compilation child's play](https://www.marcoieni.com/2020/12/rust-makes-cross-compilation-childs-play/)
 
 ### Observations/Thoughts
@@ -143,6 +144,8 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
+[Software Engineer, Systems at PathAI (Boston, MA, US)](https://www.pathai.com/careers/?gh_jid=4983568002)
 
 # Quote of the Week
 
