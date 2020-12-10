@@ -21,7 +21,8 @@ No project updates this week.
 ### Newsletters
 
 ### Tooling
-[Recent updates in IntelliJ Rust](https://blog.jetbrains.com/clion/2020/12/intellij-rust-updates-for-2020-3/)
+* [Recent updates in IntelliJ Rust](https://blog.jetbrains.com/clion/2020/12/intellij-rust-updates-for-2020-3/)
+* [Rust makes cross compilation child's play](https://www.marcoieni.com/2020/12/rust-makes-cross-compilation-childs-play/)
 
 ### Observations/Thoughts
 
