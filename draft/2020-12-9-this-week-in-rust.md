@@ -34,9 +34,9 @@ No project updates this week.
 
 # Crate of the Week
 
-This week's crate is [kira](https://github.com/tesselode/kira), a library for expressive game audio with many bells and whistles (pardon the pun).
+This week's crate is [breadx](https://github.com/not-a-seagull/breadx), a X-windows protocol implementation in 100% safe and mutex-free Rust.
 
-Thanks to [Alexis Bourget](https://users.rust-lang.org/t/crate-of-the-week/2704/849) for the suggestion!
+Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/851) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -55,24 +55,22 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-289 pull requests were [merged in the last week][merged]
+279 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-11-23..2020-11-30
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-11-30..2020-12-07
 
-* [upgrade the coverage map to Version 4](https://github.com/rust-lang/rust/pull/79365)
-* [allow using generic trait methods in `const fn`](https://github.com/rust-lang/rust/pull/79287)
-* [allow Trait inheritance with cycles on associated types](https://github.com/rust-lang/rust/pull/79209)
-* [do not visit `ForeignItemRef` for HIR indexing and validation](https://github.com/rust-lang/rust/pull/79511)
-* [only create `OnDiskCache` in incremental compilation mode](https://github.com/rust-lang/rust/pull/79216)
-* [cache pretty-print/retokenize result to avoid compile time blowup](https://github.com/rust-lang/rust/pull/79338)
-* [stabilize `const_int_pow`](https://github.com/rust-lang/rust/pull/76829)
-* [compiler-builtins: fix division on SPARC](https://github.com/rust-lang/compiler-builtins/pull/393)
-* [libtest: print the total time taken to execute a test suite](https://github.com/rust-lang/rust/pull/75752)
-* [accept '!' in intra-doc links](https://github.com/rust-lang/rust/pull/79321)
-* [cleanup more of rustdoc](https://github.com/rust-lang/rust/pull/79372)
-* [bindgen: struct_layout: fix field offset computation for packed(n) structs](https://github.com/rust-lang/rust-bindgen/pull/1935)
-* [miri: add simple data-race detector](https://github.com/rust-lang/miri/pull/1617)
-* [clippy: add `suspicious_operation_groupings` lint](https://github.com/rust-lang/rust-clippy/pull/6086)
+* [add wasm32 support to inline asm](https://github.com/rust-lang/rust/pull/78684)
+* [improve attribute message error spans](https://github.com/rust-lang/rust/pull/79509)
+* [chalk: always relate with Invariant to non-General inference vars](https://github.com/rust-lang/chalk/pull/659)
+* [fix perf regression caused by match exhaustiveness split](https://github.com/rust-lang/rust/pull/79680)
+* [pass around Symbols instead of Idents in doctree](https://github.com/rust-lang/rust/pull/79623)
+* [tweak diagnostics on shadowing lifetimes/labels](https://github.com/rust-lang/rust/pull/79620)
+* [avoid panic_bounds_check in `fmt::write`](https://github.com/rust-lang/rust/pull/78122)
+* [fix incorrect `io::Take`'s limit resulting from `io::copy` specialization](https://github.com/rust-lang/rust/pull/79650)
+* [`std::io`: use sendfile for UnixStream](https://github.com/rust-lang/rust/pull/79600)
+* [cargo: slightly optimize `cargo vendor](https://github.com/rust-lang/cargo/pull/8937)
+* [cargo: add "--workspace" to update command](https://github.com/rust-lang/cargo/pull/8725)
+* [rustdoc: JSON backend experimental impl](https://github.com/rust-lang/rust/pull/79539)
 
 ## Rust Compiler Performance Triage
 
@@ -148,11 +146,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Let’s be clear: We understand that we are net beneficiaries of the exceptional work that others have done to make Rust thrive. AWS didn’t start Rust or make it the success that it is today, but we’d like to contribute to its future success.
+> Writing rust for me is a gradual process of the compiler patiently guiding me towards the program I should have written in the first place, and at the end I take all the credit.
 
-– [Matt Asay on the AWS Open Source blog](https://aws.amazon.com/blogs/opensource/why-aws-loves-rust-and-how-wed-like-to-help/)
+– [@felixwatts on Discord](https://discord.com/channels/442252698964721669/448238009733742612/783395725991084074)
 
-Thanks to [Alice Ryhl](https://users.rust-lang.org/t/twir-quote-of-the-week/328/969) for the suggestion.
+Thanks to [Joshua Nelson](https://users.rust-lang.org/t/twir-quote-of-the-week/328/972) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
