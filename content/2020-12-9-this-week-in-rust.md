@@ -185,7 +185,7 @@ Email the [Rust Community Team][community] for access.
 * [Rust Engineer, Desktop GUI - Cryptowatch at Kraken (Remote)](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
 * [Senior Backend Engineer - Rust at Kraken (Remote NA, SA, EMEA)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
 * [Senior Banking Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
-* [Software Engineer - Trading Technology (Rust) at Kraken (Remote NA, SA, EMEA](https://jobs.lever.co/kraken/4485f672-dc5f-4e49-a10b-2b0399e28a8d)
+* [Software Engineer - Trading Technology (Rust) at Kraken (Remote NA, SA, EMEA)](https://jobs.lever.co/kraken/4485f672-dc5f-4e49-a10b-2b0399e28a8d)
 * [Rust for Embedded Environments at Ockam (Remote)](https://stackoverflow.com/jobs/294502/rust-for-embedded-environments-ockam)
 * [Messaging protocol architect in Elixir (and Rust) at Ockam (Remote)](https://stackoverflow.com/jobs/400828/messaging-protocol-architect-in-elixir-and-rust-ockam)
 * [Senior Software Engineer (Rust & C++) at NZXT (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
