@@ -781,3 +781,43 @@ No project updates this week.
 * [Pijul - The Mathematically Sound Version Control System Written In Rust](https://initialcommit.com/blog/pijul-version-control-system)
 * [Amazon: We're hiring software engineers who know programming language Rust](https://www.zdnet.com/article/amazon-were-hiring-software-engineers-who-know-programming-language-rust/)
 
+Number: 368  Date: 2020-12-9 
+
+### Official
+* [The Foundation Conversation](https://blog.rust-lang.org/2020/12/07/the-foundation-conversation.html)
+### Newsletters
+* [This Month in Rust GameDev #16 - November 2020](https://rust-gamedev.github.io/posts/newsletter-016/)
+* [RiB Newsletter #18 - On to the Ribbles](https://www.reddit.com/r/rust/comments/k6cka7/rib_newsletter_18_on_to_the_ribbles/)
+### Tooling
+* [Rust Analyzer Changelog #54](https://rust-analyzer.github.io/thisweek/2020/12/07/changelog-54.html)
+* [Knurling-rs Changelog #9](https://ferrous-systems.com/blog/knurling-changelog-9/)
+* [IntelliJ Rust: Updates for 2020.3](https://blog.jetbrains.com/clion/2020/12/intellij-rust-updates-for-2020-3/)
+### Observations/Thoughts
+* [Monads and GATs in Nightly Rust](https://www.fpcomplete.com/blog/monads-gats-nightly-rust/)
+* [Vanishing zeroes for geometric algebra in Rust](https://fanf.dreamwidth.org/134024.html)
+* [On Generics and Associated Types](https://blog.thomasheartman.com/posts/on-generics-and-associated-types)
+* [Adaptive Request Concurrency. Resilient observability at scale.](https://vector.dev/blog/adaptive-request-concurrency/)
+* [Rust compression libraries](https://blog.logrocket.com/rust-compression-libraries/)
+* [Rust makes cross compilation child's play](https://www.marcoieni.com/2020/12/rust-makes-cross-compilation-childs-play/)
+* [Using the builder pattern to define test scenarios](https://jmmv.dev/2020/12/builder-pattern-for-tests.html)
+* [Measuring Memory Usage in Rust](https://rust-analyzer.github.io/blog/2020/12/04/measuring-memory-usage-in-rust.html)
+* [Saving time by switching users: Async support in Goose](https://www.tag1consulting.com/blog/saving-time-switching-users-async-support-goose)
+* [Why Rust is meant to replace C](https://evrone.com/rust-vs-c)
+### Rust Walkthroughs
+* [Real-time video processing with Rust, FFmpeg and OpenCV](https://subvisual.com/blog/posts/real-time-video-processing-with-rust-ffmpeg-opencv/)
+* [Merge k sorted arrays in Rust](https://dev.to/creativcoder/merge-k-sorted-arrays-in-rust-1b2f)
+* [Make A Language - Part Thirteen: Whitespace & Events](https://arzg.github.io/lang/13/)
+* [Unit-testing a console app (a text editor)](https://jmmv.dev/2020/12/unit-testing-a-console-app.html)
+* [Rust and Async (on embedded devices)](https://blog.drogue.io/rust-and-async/)
+* [Avoiding Duplicating Strings in Rust](https://www.fpcomplete.com/blog/avoiding-duplicating-strings-rust/)
+* [OS in Rust: Custom target to build kernel for bare metal: Part-3](https://blog.knoldus.com/os-in-rust-custom-target-to-build-kernel-for-a-bare-metal-part-3/)
+* [OS in Rust: Building kernel for custom target: Part-4](https://blog.knoldus.com/os-in-rust-building-kernel-for-custom-target-part-4/)
+* [video] [Introduction to Rust Part 2](https://youtu.be/lLWchWTUFOQ)
+### Project Updates
+* [rust-gpu v0.2](https://github.com/EmbarkStudios/rust-gpu/releases/tag/v0.2)
+* [Interior Mutability in Rust: Understanding The Cell Type](https://ibraheem.ca/posts/rust-interior-mutability-understanding-cell)
+### Miscellaneous
+* [Safe Interoperability between Rust and C++ with CXX](https://www.infoq.com/news/2020/12/cpp-rust-interop-cxx/)
+* [Expanding Fuchsia's open source model](https://opensource.googleblog.com/2020/12/expanding-fuchsias-open-source-model.html)
+* [Miri can now detect data races](https://www.reddit.com/r/rust/comments/k75tez/miri_can_now_detect_data_races/)
+
