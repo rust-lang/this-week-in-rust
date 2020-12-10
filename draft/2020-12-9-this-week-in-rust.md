@@ -143,7 +143,7 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
-[Software Engineer, Systems at PathAI in Boston](https://www.pathai.com/careers/?gh_jid=4983568002)
+[Software Engineer, Systems at PathAI (Boston, MA, US)](https://www.pathai.com/careers/?gh_jid=4983568002)
 
 # Quote of the Week
 
