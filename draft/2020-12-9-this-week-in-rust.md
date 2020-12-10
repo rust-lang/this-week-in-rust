@@ -21,6 +21,8 @@ No project updates this week.
 ### Newsletters
 
 ### Tooling
+* [Recent updates in IntelliJ Rust](https://blog.jetbrains.com/clion/2020/12/intellij-rust-updates-for-2020-3/)
+* [Rust makes cross compilation child's play](https://www.marcoieni.com/2020/12/rust-makes-cross-compilation-childs-play/)
 
 ### Observations/Thoughts
 
@@ -124,8 +126,9 @@ decision. Express your opinions now.
 * [December 8, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybcqblb/)
 * [December 10, Stuttgart, DE - Hack & Learn - Directions for 2021 - Rust Community Stuttgart](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/274892215/)
 * [December 10, San Diego, CA, US - San Diego Rust December 2020 Tele-Meetup - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/274757235/)
+* [December 10, Washington, DC, US - How oso built a runtime reflection system for Rust—Rust DC](https://www.meetup.com/RustDC/events/274460587)
 * [December 15, Russia - Russian Rust Online Meetup](https://www.meetup.com/Rust-%D0%B2-%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5/events/274924961/)
- 
+
 ### North America
 * [December 9, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgrybcqbmb/)
 * [December 10, Provo, UT, US - Mob Programming: Add `--tree -d` to `lsd`](https://www.meetup.com/utah-rust/events/273530244/)
@@ -143,6 +146,8 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
+[Software Engineer, Systems at PathAI (Boston, MA, US)](https://www.pathai.com/careers/?gh_jid=4983568002)
 
 # Quote of the Week
 
