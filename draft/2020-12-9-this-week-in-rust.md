@@ -51,6 +51,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
+* [Triox - Good First Issues](https://github.com/AaronErhardt/Triox/labels/good%20first%20issue)
+* [libssh2 - Pull Request Needs Windows Reviewer](https://github.com/libssh2/libssh2/pull/517)
+
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
 # Updates from Rust Core
@@ -98,38 +101,45 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [RFC: Plan to make core and std's panic identical](https://github.com/rust-lang/rfcs/pull/3007)
-* [Stabilize Cargo's new feature resolver](https://github.com/rust-lang/rfcs/pull/2957)
+* [RFC: Add `target_abi` configuration](https://github.com/rust-lang/rfcs/pull/2992)
+* [added secret types rfc](https://github.com/rust-lang/rfcs/pull/2859)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [Use true previous lint level when detecting overriden forbids](https://github.com/rust-lang/rust/pull/78864)
-* [Apply `unused_doc_comments` lint to inner items](https://github.com/rust-lang/rust/pull/78367)
-* [remove this weird special case from promotion](https://github.com/rust-lang/rust/pull/78363)
+* [disposition: merge] [rustdoc: stabilise --default-theme command line option](https://github.com/rust-lang/rust/pull/79642)
+* [disposition: merge] [Implement `From<char>` for u64 and u128.](https://github.com/rust-lang/rust/pull/79502)
+* [disposition: merge] [Stabilize `unsafe_cell_get_mut`](https://github.com/rust-lang/rust/pull/79485)
+* [disposition: merge] [Move `{f32,f64}::clamp` to core](https://github.com/rust-lang/rust/pull/79473)
+* [disposition: merge] [Stabilize all stable methods of `Ipv4Addr`, `Ipv6Addr` and `IpAddr` as const](https://github.com/rust-lang/rust/pull/79342)
+* [disposition: merge] [Acknowledge that `[CONST; N]` is stable](https://github.com/rust-lang/rust/pull/79270)
+* [disposition: merge] [Deprecate atomic compare_and_swap method](https://github.com/rust-lang/rust/pull/79261)
+* [disposition: merge] [Stabilize `core::slice::fill`](https://github.com/rust-lang/rust/pull/79213)
+* [disposition: close] [Made matches! more useful by adding mapping support](https://github.com/rust-lang/rust/pull/79188)
+* [disposition: merge] [passes: prohibit invalid attrs on generic params](https://github.com/rust-lang/rust/pull/79073)
+* [disposition: merge] [stabilize deque_range](https://github.com/rust-lang/rust/pull/79022)
+* [disposition: close] [Apply `unused_doc_comments` lint to inner items](https://github.com/rust-lang/rust/pull/78367)
+* [disposition: merge] [Rename `overlapping_patterns` lint](https://github.com/rust-lang/rust/pull/78242)
+* [disposition: merge] [Stabilize or_insert_with_key](https://github.com/rust-lang/rust/pull/78083)
+* [disposition: close] [Add built-in implementations of `Default` for function definition and… ](https://github.com/rust-lang/rust/pull/77688)
+* [disposition: merge] [Mark `-1` as an available niche for file descriptors](https://github.com/rust-lang/rust/pull/74699)
+* [disposition: merge] [Stabilize the Wake trait](https://github.com/rust-lang/rust/pull/74304)
+* [disposition: merge] [Tracking issue for map_ok and map_err method for `Poll<Option<Result<T, E>>>`](https://github.com/rust-lang/rust/issues/63514)
 
 ## New RFCs
 
-* [Allow "artifact dependencies" on bin, cdylib, and staticlib crates](https://github.com/rust-lang/rfcs/pull/3028)
-* [Infallible promotion](https://github.com/rust-lang/rfcs/pull/3027)
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
 ### Online
-* [December 2, Johannesburg, ZA - Monthly Joburg Rust Chat - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/274734310/)
-* [December 2, Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy Rust](https://www.meetup.com/indyrs/events/jhfstrybcqbdb/)
-* [December 8, Saarbücken, Saarland, DE - Meetup: 6u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/274592167)
-* [December 8, Stuttgart, DE - TALK: Running Multi-Module Heterogenous WASM Assemblies - Rust Community Stuttgart](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/274921745/)
-* [December 8, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrybcqblb/)
 * [December 10, Stuttgart, DE - Hack & Learn - Directions for 2021 - Rust Community Stuttgart](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/274892215/)
 * [December 10, San Diego, CA, US - San Diego Rust December 2020 Tele-Meetup - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/274757235/)
 * [December 10, Washington, DC, US - How oso built a runtime reflection system for Rust—Rust DC](https://www.meetup.com/RustDC/events/274460587)
 * [December 15, Russia - Russian Rust Online Meetup](https://www.meetup.com/Rust-%D0%B2-%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5/events/274924961/)
+* [December 16, Vancouver, BC, US - Are Results just Checked Exceptions? - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/npqfbsybcqbvb/)
 
 ### North America
-* [December 9, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgrybcqbmb/)
 * [December 10, Provo, UT, US - Mob Programming: Add `--tree -d` to `lsd`](https://www.meetup.com/utah-rust/events/273530244/)
-
-### Asia Pacific
-* [December 7, Auckland, NZ - Rust AKL - Show and Tell + Introduction to RUst II](https://www.meetup.com/rust-akl/events/266876724/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -142,7 +152,19 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
-[Software Engineer, Systems at PathAI (Boston, MA, US)](https://www.pathai.com/careers/?gh_jid=4983568002)
+* [Software Engineer, Systems at PathAI (Boston, MA, US)](https://www.pathai.com/careers/?gh_jid=4983568002)
+* [Software Developer (Rust) at MeiliSearch (Remote)](https://www.welcometothejungle.com/fr/companies/meilisearch/jobs/software-developer-rust_paris)
+* [Backend Engineer - Rust at Kraken (Remote NA, SA, EMEA)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Rust Engineer, Desktop GUI - Cryptowatch at Kraken (Remote)](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
+* [Senior Backend Engineer - Rust at Kraken (Remote NA, SA, EMEA)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
+* [Senior Banking Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
+* [Software Engineer - Trading Technology (Rust)](https://jobs.lever.co/kraken/4485f672-dc5f-4e49-a10b-2b0399e28a8d)
+* [Rust for Embedded Environments at Ockam (Remote)](https://stackoverflow.com/jobs/294502/rust-for-embedded-environments-ockam)
+* [Messaging protocol architect in Elixir (and Rust) at Ockam (Remote)](https://stackoverflow.com/jobs/400828/messaging-protocol-architect-in-elixir-and-rust-ockam)
+* [Senior Software Engineer (Rust & C++) at NZXT (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
+* [Embedded Firmware Engineer in C & Rust at Astropad (Remote, US)](https://www.notion.so/Embedded-Firmware-Engineer-in-C-Rust-a9c741c539454ee7b8bbb969d8e90da2)
+
 
 # Quote of the Week
 
