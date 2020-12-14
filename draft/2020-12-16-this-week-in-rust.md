@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+[Distributing Rust Analyzer with Nix and Cargo2nix](https://github.com/cargo2nix/cargo2nix/tree/master/examples/4-independent-packaging)
+
 ### Project Updates
 
 ### Miscellaneous
