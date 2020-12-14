@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Tooling
 
+[Cargo2nix 0.9.0 release notes](https://github.com/cargo2nix/cargo2nix/releases/tag/v0.9.0)
+
 ### Observations/Thoughts
 
 * [6 Principles for Building Robust Flexible Shared Data Apps with Rust & MongoDB](https://developer.mongodb.com/article/six-principles-building-robust-flexible-shared-data-applications)
