@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+- [FFI-Safe Polymorphism: Thin Trait Objects](https://adventures.michaelfbryan.com/posts/ffi-safe-polymorphism-in-rust/)
+
 ### Project Updates
 
 ### Miscellaneous
