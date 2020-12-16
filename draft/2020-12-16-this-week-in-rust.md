@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project Updates
 
+* [Sequoia PGP](https://www.sequoia-pgp.org/) released [version 1.0](https://sequoia-pgp.org/blog/2020/12/16/202012-1.0/)
+
 ### Miscellaneous
 
 # Crate of the Week
