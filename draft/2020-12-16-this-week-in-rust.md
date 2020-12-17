@@ -30,6 +30,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [Debug Rust on PineCone BL602 with VSCode and GDB](https://lupyuen.github.io/articles/debug)
+
 # Crate of the Week
 
 This week's crate is [breadx](https://github.com/not-a-seagull/breadx), a X-windows protocol implementation in 100% safe and mutex-free Rust.
