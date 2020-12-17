@@ -43,9 +43,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Notes On Lock Poisoning](https://matklad.github.io/2020/12/12/notes-on-lock-poisoning.html)
 * [I tried to make the fastest sorting algorithm I could think of... in Rust](https://danielvz.cl/blog/fast-rust.html)
 * [Still Rusting - One Year Later](https://deislabs.io/posts/still-rusting-one-year-later/)
-* [video] [The Unsafe Chronicles: Exhibit A: Aliasing Boxes](https://youtu.be/EY7Wi9fV5bk)
-
 * [6 Principles for Building Robust Flexible Shared Data Apps with Rust & MongoDB](https://developer.mongodb.com/article/six-principles-building-robust-flexible-shared-data-applications)
+* [video] [The Unsafe Chronicles: Exhibit A: Aliasing Boxes](https://youtu.be/EY7Wi9fV5bk)
 
 ### Rust Walkthroughs
 * [Make A Language - Part Fourteen: Comments](https://arzg.github.io/lang/14/)
@@ -94,6 +93,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [scaphandre: several help wanted issues](https://github.com/hubblo-org/scaphandre/issues)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -144,16 +145,13 @@ Every week [the team](https://www.rust-lang.org/team.html) announces the
 'final comment period' for RFCs and key PRs which are reaching a
 decision. Express your opinions now.
 
-
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [RFC: Plan to make core and std's panic identical](https://github.com/rust-lang/rfcs/pull/3007)
 * [RFC: Add `target_abi` configuration](https://github.com/rust-lang/rfcs/pull/2992)
 * [added secret types rfc](https://github.com/rust-lang/rfcs/pull/2859)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [rustdoc: stabilise --default-theme command line option](https://github.com/rust-lang/rust/pull/79642)
 * [disposition: merge] [Implement `From<char>` for u64 and u128.](https://github.com/rust-lang/rust/pull/79502)
 * [disposition: merge] [Stabilize `unsafe_cell_get_mut`](https://github.com/rust-lang/rust/pull/79485)
 * [disposition: merge] [Move `{f32,f64}::clamp` to core](https://github.com/rust-lang/rust/pull/79473)
@@ -162,9 +160,10 @@ decision. Express your opinions now.
 * [disposition: merge] [Deprecate atomic compare_and_swap method](https://github.com/rust-lang/rust/pull/79261)
 * [disposition: merge] [Stabilize `core::slice::fill`](https://github.com/rust-lang/rust/pull/79213)
 * [disposition: close] [Made matches! more useful by adding mapping support](https://github.com/rust-lang/rust/pull/79188)
+* [disposition:merge] [stabilize `#![feature(min_const_generics)]`](https://github.com/rust-lang/rust/pull/79135)
+* [disposition:merge] [Add `impl Div<NonZeroU{0}> for u{0}` which cannot panic](https://github.com/rust-lang/rust/pull/79134)
 * [disposition: merge] [passes: prohibit invalid attrs on generic params](https://github.com/rust-lang/rust/pull/79073)
 * [disposition: merge] [stabilize deque_range](https://github.com/rust-lang/rust/pull/79022)
-* [disposition: close] [Apply `unused_doc_comments` lint to inner items](https://github.com/rust-lang/rust/pull/78367)
 * [disposition: merge] [Rename `overlapping_patterns` lint](https://github.com/rust-lang/rust/pull/78242)
 * [disposition: merge] [Stabilize or_insert_with_key](https://github.com/rust-lang/rust/pull/78083)
 * [disposition: close] [Add built-in implementations of `Default` for function definition and… ](https://github.com/rust-lang/rust/pull/77688)
@@ -174,19 +173,14 @@ decision. Express your opinions now.
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [Add min_target_api_version cfg predicate](https://github.com/rust-lang/rfcs/pull/3036)
+* [Cargo: providing artifacts (for artifact dependencies) via build.rs](https://github.com/rust-lang/rfcs/pull/3035)
 
 # Upcoming Events
 
 ### Online
-* [December 10, Stuttgart, DE - Hack & Learn - Directions for 2021 - Rust Community Stuttgart](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/274892215/)
-* [December 10, San Diego, CA, US - San Diego Rust December 2020 Tele-Meetup - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/274757235/)
-* [December 10, Washington, DC, US - How oso built a runtime reflection system for Rust—Rust DC](https://www.meetup.com/RustDC/events/274460587)
-* [December 15, Russia - Russian Rust Online Meetup](https://www.meetup.com/Rust-%D0%B2-%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5/events/274924961/)
 * [December 16, Vancouver, BC, US - Are Results just Checked Exceptions? - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/npqfbsybcqbvb/)
-
-### North America
-* [December 10, Provo, UT, US - Mob Programming: Add `--tree -d` to `lsd`](https://www.meetup.com/utah-rust/events/273530244/)
+* [December 29, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcqbmc/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -196,7 +190,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
 * [Senior Software Engineer (Rust & C++) at NZXT (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
 * [Software Development Engineer at Amazon Web Services (Seattle, WA, US)](https://www.amazon.jobs/en/jobs/1321570/software-development-engineer)
 * [Full remote Rust developer, long-term contract (French CDI) at Massa Labs (Remote)](https://massa.network/#jobs)
