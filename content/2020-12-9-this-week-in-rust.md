@@ -39,6 +39,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Why Rust is meant to replace C](https://evrone.com/rust-vs-c)
 
 ### Rust Walkthroughs
+* [Interior Mutability in Rust: Understanding The Cell Type](https://ibraheem.ca/posts/rust-interior-mutability-understanding-cell)
 * [Real-time video processing with Rust, FFmpeg and OpenCV](https://subvisual.com/blog/posts/real-time-video-processing-with-rust-ffmpeg-opencv/)
 * [Merge k sorted arrays in Rust](https://dev.to/creativcoder/merge-k-sorted-arrays-in-rust-1b2f)
 * [Make A Language - Part Thirteen: Whitespace & Events](https://arzg.github.io/lang/13/)
@@ -51,7 +52,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project Updates
 * [rust-gpu v0.2](https://github.com/EmbarkStudios/rust-gpu/releases/tag/v0.2)
-* [Interior Mutability in Rust: Understanding The Cell Type](https://ibraheem.ca/posts/rust-interior-mutability-understanding-cell)
 
 ### Miscellaneous
 * [Safe Interoperability between Rust and C++ with CXX](https://www.infoq.com/news/2020/12/cpp-rust-interop-cxx/)

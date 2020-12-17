@@ -19,16 +19,25 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Tooling
+* [These Months in explaine.rs](https://jrvidal.github.io/explaine.rs/blog/these-months-in-explainers.html)
+
+[Cargo2nix 0.9.0 release notes](https://github.com/cargo2nix/cargo2nix/releases/tag/v0.9.0)
 
 ### Observations/Thoughts
 
+* [6 Principles for Building Robust Flexible Shared Data Apps with Rust & MongoDB](https://developer.mongodb.com/article/six-principles-building-robust-flexible-shared-data-applications)
+
 ### Rust Walkthroughs
 
+* [Distributing Rust Analyzer with Nix and Cargo2nix](https://github.com/cargo2nix/cargo2nix/tree/master/examples/4-independent-packaging)
+* [PL] [CrabbyBird #4 Generowanie świata gry – cześć II](https://postacnormalna.pl/crabbybird-4-generowanie-swiata-gry-czesc-ii/)
 * [RU] [video] [Rust: Not as hard as you think / Russian Rust Online Meetup](https://www.youtube.com/watch?v=yCrc5BwZrtw)
 
 ### Project Updates
 
 ### Miscellaneous
+
+* [Debug Rust on PineCone BL602 with VSCode and GDB](https://lupyuen.github.io/articles/debug)
 
 # Crate of the Week
 
@@ -72,12 +81,14 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-* [2020-12-08](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-12-08.md):
-0 Regressions, 2 Improvements, 1 Mixed
+* [2020-12-15](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-12-15.md):
+6 Regressions, 1 Improvements, 2 Mixed
 
-Triage done by @simulacrum.
+This week was fairly quite with lots of small regressions. Most of the regressions were either for fixes to changes that yielded large performance wins in previous weeks or small performance losses where there is already a plan for how to gain those losses back.
 
-See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-12-08.md) for more.
+Triage done by @rylev.
+
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-12-15.md) for more.
 
 ## Approved RFCs
 
