@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Tooling
 
 ### Observations/Thoughts
+* [Learning Rust: static trait bounds](https://codeandbitters.com/static-trait-bound/)
 
 ### Rust Walkthroughs
 
