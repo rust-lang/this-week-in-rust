@@ -27,6 +27,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [IntelliJ Rust Changelog #137](https://intellij-rust.github.io/2020/12/14/changelog-137.html)
 * [Rust Analyzer Changelog #55](https://rust-analyzer.github.io/thisweek/2020/12/14/changelog-55.html)
 * [Knurling-rs Changelog #10](https://ferrous-systems.com/blog/knurling-changelog-10/)
+* [These Months in explaine.rs](https://jrvidal.github.io/explaine.rs/blog/these-months-in-explainers.html)
+* [Cargo2nix 0.9.0 release notes](https://github.com/cargo2nix/cargo2nix/releases/tag/v0.9.0)
 
 ### Observations/Thoughts
 * [FFI-Safe Polymorphism: Thin Trait Objects](https://adventures.michaelfbryan.com/posts/ffi-safe-polymorphism-in-rust/)
@@ -43,6 +45,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Still Rusting - One Year Later](https://deislabs.io/posts/still-rusting-one-year-later/)
 * [video] [The Unsafe Chronicles: Exhibit A: Aliasing Boxes](https://youtu.be/EY7Wi9fV5bk)
 
+* [6 Principles for Building Robust Flexible Shared Data Apps with Rust & MongoDB](https://developer.mongodb.com/article/six-principles-building-robust-flexible-shared-data-applications)
+
 ### Rust Walkthroughs
 * [Make A Language - Part Fourteen: Comments](https://arzg.github.io/lang/14/)
 * [Make A Language - Part Fifteen: Markers](https://arzg.github.io/lang/15/)
@@ -53,23 +57,29 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Learn SixtyFPS: Memory Game Tutorial (Rust)](https://sixtyfps.io/blog/memory-game-tutorial.html)
 * [Aiming for correctness with types](https://fasterthanli.me/articles/aiming-for-correctness-with-types)
 * [Zero to Production in Rust #6: Using Types To Guarantee Domain Invariants](https://www.lpalmieri.com/posts/2020-12-11-zero-to-production-6-domain-modelling/)
+* [FFI-Safe Polymorphism: Thin Trait Objects](https://adventures.michaelfbryan.com/posts/ffi-safe-polymorphism-in-rust/)
+* [Distributing Rust Analyzer with Nix and Cargo2nix](https://github.com/cargo2nix/cargo2nix/tree/master/examples/4-independent-packaging)
+* [PL] [CrabbyBird #4 Generowanie świata gry – cześć II](https://postacnormalna.pl/crabbybird-4-generowanie-swiata-gry-czesc-ii/)
 * [video] [How oso built a runtime reflection library for Rust](https://youtu.be/J7Aosp1Uauo)
 * [video] [Implementing Rust's Vec From Scratch](https://youtu.be/3OL95gZgPWA)
+* [RU] [video] [Rust: Not as hard as you think / Russian Rust Online Meetup](https://www.youtube.com/watch?v=yCrc5BwZrtw)
 
 ### Project Updates
 * [These Months in explaine.rs](https://jrvidal.github.io/explaine.rs/blog/these-months-in-explainers.html)
+* [Sequoia PGP](https://www.sequoia-pgp.org/) released [version 1.0](https://sequoia-pgp.org/blog/2020/12/16/202012-1.0/)
 
 ### Miscellaneous
 * [Signal Group Calls are powered by Rust](https://www.reddit.com/r/rust/comments/kdo06l/signal_group_calls_are_powered_by_rust/)
 * [Rust's Option in One Figure](https://www.reddit.com/r/rust/comments/kdfb9k/rusts_option_in_one_figure/)
 * [Authors of "Programming Rust 2nd Edition" have a sense of humor](https://www.reddit.com/r/rust/comments/kcou9c/authors_of_programming_rust_2nd_edition_have_a/)
 * [Rotating the compiler team leads](https://smallcultfollowing.com/babysteps/blog/2020/12/11/rotating-the-compiler-team-leads/)
+* [Debug Rust on PineCone BL602 with VSCode and GDB](https://lupyuen.github.io/articles/debug)
 
 # Crate of the Week
 
-This week's crate is [breadx](https://github.com/not-a-seagull/breadx), a X-windows protocol implementation in 100% safe and mutex-free Rust.
+This week's crate is [thermite](https://github.com/raygon-renderer/thermite), a SIMD struct-of-arrays-algorithms library.
 
-Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/851) for the suggestion!
+Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/857) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -88,31 +98,35 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-279 pull requests were [merged in the last week][merged]
+300 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-11-30..2020-12-07
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-12-07..2020-12-14
 
-* [add wasm32 support to inline asm](https://github.com/rust-lang/rust/pull/78684)
-* [improve attribute message error spans](https://github.com/rust-lang/rust/pull/79509)
-* [chalk: always relate with Invariant to non-General inference vars](https://github.com/rust-lang/chalk/pull/659)
-* [fix perf regression caused by match exhaustiveness split](https://github.com/rust-lang/rust/pull/79680)
-* [pass around Symbols instead of Idents in doctree](https://github.com/rust-lang/rust/pull/79623)
-* [tweak diagnostics on shadowing lifetimes/labels](https://github.com/rust-lang/rust/pull/79620)
-* [avoid panic_bounds_check in `fmt::write`](https://github.com/rust-lang/rust/pull/78122)
-* [fix incorrect `io::Take`'s limit resulting from `io::copy` specialization](https://github.com/rust-lang/rust/pull/79650)
-* [`std::io`: use sendfile for UnixStream](https://github.com/rust-lang/rust/pull/79600)
-* [cargo: slightly optimize `cargo vendor](https://github.com/rust-lang/cargo/pull/8937)
-* [cargo: add "--workspace" to update command](https://github.com/rust-lang/cargo/pull/8725)
-* [rustdoc: JSON backend experimental impl](https://github.com/rust-lang/rust/pull/79539)
+* [fixes to Rust coverage](https://github.com/rust-lang/rust/pull/79818)
+* [properly re-use def path hash in incremental mode](https://github.com/rust-lang/rust/pull/79721)
+* [add some `core::cmp::Ordering` helpers](https://github.com/rust-lang/rust/pull/79656)
+* [constify some `MaybeUninit` methods](https://github.com/rust-lang/rust/pull/79621)
+* [Windows TLS: `ManuallyDrop` instead of `mem::forget`](https://github.com/rust-lang/rust/pull/79893)
+* [use `is_write_vectored` to optimize the `write_vectored` implementation for `BufWriter`](https://github.com/rust-lang/rust/pull/78768)
+* [enforce no-move rule of `ReentrantMutex` using `Pin` and fix UB in stdio](https://github.com/rust-lang/rust/pull/77801)
+* [hashbrown: enable specialization with aHash](https://github.com/rust-lang/hashbrown/pull/207)
+* [future: `SinkExt::feed`](https://github.com/rust-lang/futures-rs/pull/2155)
+* [futures-util: migrate from pin-project to pin-project-lite](https://github.com/rust-lang/futures-rs/pull/2273)
+* [cargo: check if rerun-if-changed points to a directory](https://github.com/rust-lang/cargo/pull/8973)
+* [cargo: workaround fs issue in `cargo publish`](https://github.com/rust-lang/cargo/pull/8950)
+* [clippy: add MSRV to more lints](https://github.com/rust-lang/rust-clippy/pull/6424)
+* [rustfmt: don't force a newline after an empty where clause](https://github.com/rust-lang/rustfmt/pull/4557)
 
 ## Rust Compiler Performance Triage
 
-* [2020-12-08](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-12-08.md):
-0 Regressions, 2 Improvements, 1 Mixed
+* [2020-12-15](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-12-15.md):
+6 Regressions, 1 Improvements, 2 Mixed
 
-Triage done by @simulacrum.
+This week was fairly quite with lots of small regressions. Most of the regressions were either for fixes to changes that yielded large performance wins in previous weeks or small performance losses where there is already a plan for how to gain those losses back.
 
-See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-12-08.md) for more.
+Triage done by @rylev.
+
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-12-15.md) for more.
 
 ## Approved RFCs
 
@@ -184,9 +198,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Writing rust for me is a gradual process of the compiler patiently guiding me towards the program I should have written in the first place, and at the end I take all the credit.
+> Engineering is not about "not doing mistakes". Engineering is about designing systems that ensure fewer mistakes occur.
+>
+> Rust is such a system.
 
-– [@felixwatts on Discord](https://discord.com/channels/442252698964721669/448238009733742612/783395725991084074)
+– [amos on his blog](https://fasterthanli.me/articles/aiming-for-correctness-with-types)
 
 Thanks to [Joshua Nelson](https://users.rust-lang.org/t/twir-quote-of-the-week/328/972) for the suggestion.
 
