@@ -23,6 +23,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 [Cargo2nix 0.9.0 release notes](https://github.com/cargo2nix/cargo2nix/releases/tag/v0.9.0)
 
+[Cargo2nix 0.9.0 release notes](https://github.com/cargo2nix/cargo2nix/releases/tag/v0.9.0)
+
 ### Observations/Thoughts
 
 * [6 Principles for Building Robust Flexible Shared Data Apps with Rust & MongoDB](https://developer.mongodb.com/article/six-principles-building-robust-flexible-shared-data-applications)
@@ -32,6 +34,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Distributing Rust Analyzer with Nix and Cargo2nix](https://github.com/cargo2nix/cargo2nix/tree/master/examples/4-independent-packaging)
 * [PL] [CrabbyBird #4 Generowanie świata gry – cześć II](https://postacnormalna.pl/crabbybird-4-generowanie-swiata-gry-czesc-ii/)
 * [RU] [video] [Rust: Not as hard as you think / Russian Rust Online Meetup](https://www.youtube.com/watch?v=yCrc5BwZrtw)
+
+[Distributing Rust Analyzer with Nix and Cargo2nix](https://github.com/cargo2nix/cargo2nix/tree/master/examples/4-independent-packaging)
 
 ### Project Updates
 
