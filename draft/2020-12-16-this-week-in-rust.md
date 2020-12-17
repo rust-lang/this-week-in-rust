@@ -67,6 +67,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project Updates
 * [These Months in explaine.rs](https://jrvidal.github.io/explaine.rs/blog/these-months-in-explainers.html)
 * [Sequoia PGP](https://www.sequoia-pgp.org/) released [version 1.0](https://sequoia-pgp.org/blog/2020/12/16/202012-1.0/)
+* [Connect devices to blockchains with Léger](http://www.cyrilfougeray.com/2020/12/14/leger-rust-wallet-1.html)
 
 ### Miscellaneous
 * [Signal Group Calls are powered by Rust](https://www.reddit.com/r/rust/comments/kdo06l/signal_group_calls_are_powered_by_rust/)
@@ -74,6 +75,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Authors of "Programming Rust 2nd Edition" have a sense of humor](https://www.reddit.com/r/rust/comments/kcou9c/authors_of_programming_rust_2nd_edition_have_a/)
 * [Rotating the compiler team leads](https://smallcultfollowing.com/babysteps/blog/2020/12/11/rotating-the-compiler-team-leads/)
 * [Debug Rust on PineCone BL602 with VSCode and GDB](https://lupyuen.github.io/articles/debug)
+* [Why Rust Has a Bright Future in the Cloud](https://www.qovery.com/blog/why-rust-has-a-bright-future-in-the-cloud)
+* [RU] [audio] [SitCast#32 - Эх, Rust, да ещё Rust…](https://www.youtube.com/watch?v=w99C9heBWHE&feature=youtu.be)
 
 # Crate of the Week
 
@@ -193,6 +196,10 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Senior Software Engineer (Rust & C++) at NZXT (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
+* [Software Development Engineer at Amazon Web Services (Seattle, WA, US)](https://www.amazon.jobs/en/jobs/1321570/software-development-engineer)
+* [Full remote Rust developer, long-term contract (French CDI) at Massa Labs (Remote)](https://massa.network/#jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
