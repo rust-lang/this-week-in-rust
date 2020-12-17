@@ -142,6 +142,8 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+* [Distributed Systems (Rust) Developer at Signal (Remote)](https://jobs.lever.co/signal/7aa1ff1f-bd43-4359-82c7-8703d8b842d9)
+
 # Quote of the Week
 
 > Engineering is not about "not doing mistakes". Engineering is about designing systems that ensure fewer mistakes occur.
