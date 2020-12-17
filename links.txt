@@ -821,3 +821,62 @@ Number: 368  Date: 2020-12-9
 * [Expanding Fuchsia's open source model](https://opensource.googleblog.com/2020/12/expanding-fuchsias-open-source-model.html)
 * [Miri can now detect data races](https://www.reddit.com/r/rust/comments/k75tez/miri_can_now_detect_data_races/)
 
+Number: 369  Date: 2020-12-16 
+
+### Official
+* [Launching the Lock Poisoning Survey](https://blog.rust-lang.org/2020/12/11/lock-poisoning-survey.html)
+* [Next steps for the Foundation Conversation](https://blog.rust-lang.org/2020/12/14/Next-steps-for-the-foundation-conversation.html)
+* [Rust Survey 2020 Results](https://blog.rust-lang.org/2020/12/16/rust-survey-2020.html)
+* [Inside] [Changes to Rust Compiler Team](https://blog.rust-lang.org/inside-rust/2020/12/14/changes-to-compiler-team.html)
+### Newsletters
+* [This Month in Rust OSDev (November 2020)](https://rust-osdev.com/this-month/2020-11/)
+### Tooling
+* [IntelliJ Rust Changelog #137](https://intellij-rust.github.io/2020/12/14/changelog-137.html)
+* [Rust Analyzer Changelog #55](https://rust-analyzer.github.io/thisweek/2020/12/14/changelog-55.html)
+* [Knurling-rs Changelog #10](https://ferrous-systems.com/blog/knurling-changelog-10/)
+* [These Months in explaine.rs](https://jrvidal.github.io/explaine.rs/blog/these-months-in-explainers.html)
+* [Cargo2nix 0.9.0 release notes](https://github.com/cargo2nix/cargo2nix/releases/tag/v0.9.0)
+### Observations/Thoughts
+* [FFI-Safe Polymorphism: Thin Trait Objects](https://adventures.michaelfbryan.com/posts/ffi-safe-polymorphism-in-rust/)
+* [Adding BPF target support to the Rust compiler](https://confused.ai/posts/rust-bpf-target)
+* [Why Rust Has a Bright Future in the Cloud](https://www.qovery.com/blog/why-rust-has-a-bright-future-in-the-cloud)
+* [Closures: Magic Functions](https://rustyyato.github.io/rust/syntactic/sugar/2019/01/17/Closures-Magic-Functions.html)
+* [Notes on cross-compiling Rust](https://john-millikin.com/notes-on-cross-compiling-rust)
+* [Polymorphism in Rust: Enums vs Traits](https://www.mattkennedy.io/blog/rust_polymorphism/)
+* [Beyond R and Python: Rust for Science](https://scie.nz/rust/)
+* [Pointers Are Complicated II, or: We need better language specs](https://www.ralfj.de/blog/2020/12/14/provenance.html)
+* [Serde tricks: The lesson learnt from refactoring rspotify](https://0x709394.me/Serde-tricks)
+* [Notes On Lock Poisoning](https://matklad.github.io/2020/12/12/notes-on-lock-poisoning.html)
+* [I tried to make the fastest sorting algorithm I could think of... in Rust](https://danielvz.cl/blog/fast-rust.html)
+* [Still Rusting - One Year Later](https://deislabs.io/posts/still-rusting-one-year-later/)
+* [6 Principles for Building Robust Flexible Shared Data Apps with Rust & MongoDB](https://developer.mongodb.com/article/six-principles-building-robust-flexible-shared-data-applications)
+* [video] [The Unsafe Chronicles: Exhibit A: Aliasing Boxes](https://youtu.be/EY7Wi9fV5bk)
+### Rust Walkthroughs
+* [Make A Language - Part Fourteen: Comments](https://arzg.github.io/lang/14/)
+* [Make A Language - Part Fifteen: Markers](https://arzg.github.io/lang/15/)
+* [Rust, Python and Fish](https://benjamin.computer/posts/2020-12-12-rust-python.html)
+* [Chess game in Rust using Bevy](https://caballerocoll.com/blog/bevy-chess-tutorial/)
+* [Rust on the BBC micro:bit](https://blog.drogue.io/rust-and-microbit/)
+* [Developing smart contracts with ink!](https://dev.to/yangwao/developing-smart-contracts-with-ink-4g72)
+* [Learn SixtyFPS: Memory Game Tutorial (Rust)](https://sixtyfps.io/blog/memory-game-tutorial.html)
+* [Aiming for correctness with types](https://fasterthanli.me/articles/aiming-for-correctness-with-types)
+* [Zero to Production in Rust #6: Using Types To Guarantee Domain Invariants](https://www.lpalmieri.com/posts/2020-12-11-zero-to-production-6-domain-modelling/)
+* [FFI-Safe Polymorphism: Thin Trait Objects](https://adventures.michaelfbryan.com/posts/ffi-safe-polymorphism-in-rust/)
+* [Distributing Rust Analyzer with Nix and Cargo2nix](https://github.com/cargo2nix/cargo2nix/tree/master/examples/4-independent-packaging)
+* [PL] [CrabbyBird #4 Generowanie świata gry – cześć II](https://postacnormalna.pl/crabbybird-4-generowanie-swiata-gry-czesc-ii/)
+* [video] [How oso built a runtime reflection library for Rust](https://youtu.be/J7Aosp1Uauo)
+* [video] [Implementing Rust's Vec From Scratch](https://youtu.be/3OL95gZgPWA)
+* [RU] [video] [Rust: Not as hard as you think / Russian Rust Online Meetup](https://www.youtube.com/watch?v=yCrc5BwZrtw)
+### Project Updates
+* [These Months in explaine.rs](https://jrvidal.github.io/explaine.rs/blog/these-months-in-explainers.html)
+* [Sequoia PGP](https://www.sequoia-pgp.org/) released [version 1.0](https://sequoia-pgp.org/blog/2020/12/16/202012-1.0/)
+* [Connect devices to blockchains with Léger](http://www.cyrilfougeray.com/2020/12/14/leger-rust-wallet-1.html)
+### Miscellaneous
+* [Signal Group Calls are powered by Rust](https://www.reddit.com/r/rust/comments/kdo06l/signal_group_calls_are_powered_by_rust/)
+* [Rust's Option in One Figure](https://www.reddit.com/r/rust/comments/kdfb9k/rusts_option_in_one_figure/)
+* [Authors of "Programming Rust 2nd Edition" have a sense of humor](https://www.reddit.com/r/rust/comments/kcou9c/authors_of_programming_rust_2nd_edition_have_a/)
+* [Rotating the compiler team leads](https://smallcultfollowing.com/babysteps/blog/2020/12/11/rotating-the-compiler-team-leads/)
+* [Debug Rust on PineCone BL602 with VSCode and GDB](https://lupyuen.github.io/articles/debug)
+* [Why Rust Has a Bright Future in the Cloud](https://www.qovery.com/blog/why-rust-has-a-bright-future-in-the-cloud)
+* [RU] [audio] [SitCast#32 - Эх, Rust, да ещё Rust…](https://www.youtube.com/watch?v=w99C9heBWHE&feature=youtu.be)
+
