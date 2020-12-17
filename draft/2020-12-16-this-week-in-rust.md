@@ -45,9 +45,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [breadx](https://github.com/not-a-seagull/breadx), a X-windows protocol implementation in 100% safe and mutex-free Rust.
+This week's crate is [thermite](https://github.com/raygon-renderer/thermite), a SIMD struct-of-arrays-algorithms library.
 
-Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/851) for the suggestion!
+Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/857) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -66,22 +66,24 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-279 pull requests were [merged in the last week][merged]
+300 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-11-30..2020-12-07
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-12-07..2020-12-14
 
-* [add wasm32 support to inline asm](https://github.com/rust-lang/rust/pull/78684)
-* [improve attribute message error spans](https://github.com/rust-lang/rust/pull/79509)
-* [chalk: always relate with Invariant to non-General inference vars](https://github.com/rust-lang/chalk/pull/659)
-* [fix perf regression caused by match exhaustiveness split](https://github.com/rust-lang/rust/pull/79680)
-* [pass around Symbols instead of Idents in doctree](https://github.com/rust-lang/rust/pull/79623)
-* [tweak diagnostics on shadowing lifetimes/labels](https://github.com/rust-lang/rust/pull/79620)
-* [avoid panic_bounds_check in `fmt::write`](https://github.com/rust-lang/rust/pull/78122)
-* [fix incorrect `io::Take`'s limit resulting from `io::copy` specialization](https://github.com/rust-lang/rust/pull/79650)
-* [`std::io`: use sendfile for UnixStream](https://github.com/rust-lang/rust/pull/79600)
-* [cargo: slightly optimize `cargo vendor](https://github.com/rust-lang/cargo/pull/8937)
-* [cargo: add "--workspace" to update command](https://github.com/rust-lang/cargo/pull/8725)
-* [rustdoc: JSON backend experimental impl](https://github.com/rust-lang/rust/pull/79539)
+* [fixes to Rust coverage](https://github.com/rust-lang/rust/pull/79818)
+* [properly re-use def path hash in incremental mode](https://github.com/rust-lang/rust/pull/79721)
+* [add some `core::cmp::Ordering` helpers](https://github.com/rust-lang/rust/pull/79656)
+* [constify some `MaybeUninit` methods](https://github.com/rust-lang/rust/pull/79621)
+* [Windows TLS: `ManuallyDrop` instead of `mem::forget`](https://github.com/rust-lang/rust/pull/79893)
+* [use `is_write_vectored` to optimize the `write_vectored` implementation for `BufWriter`](https://github.com/rust-lang/rust/pull/78768)
+* [enforce no-move rule of `ReentrantMutex` using `Pin` and fix UB in stdio](https://github.com/rust-lang/rust/pull/77801)
+* [hashbrown: enable specialization with aHash](https://github.com/rust-lang/hashbrown/pull/207)
+* [future: `SinkExt::feed`](https://github.com/rust-lang/futures-rs/pull/2155)
+* [futures-util: migrate from pin-project to pin-project-lite](https://github.com/rust-lang/futures-rs/pull/2273)
+* [cargo: check if rerun-if-changed points to a directory](https://github.com/rust-lang/cargo/pull/8973)
+* [cargo: workaround fs issue in `cargo publish`](https://github.com/rust-lang/cargo/pull/8950)
+* [clippy: add MSRV to more lints](https://github.com/rust-lang/rust-clippy/pull/6424)
+* [rustfmt: don't force a newline after an empty where clause](https://github.com/rust-lang/rustfmt/pull/4557)
 
 ## Rust Compiler Performance Triage
 
@@ -164,9 +166,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Writing rust for me is a gradual process of the compiler patiently guiding me towards the program I should have written in the first place, and at the end I take all the credit.
+> Engineering is not about "not doing mistakes". Engineering is about designing systems that ensure fewer mistakes occur.
+>
+> Rust is such a system.
 
-– [@felixwatts on Discord](https://discord.com/channels/442252698964721669/448238009733742612/783395725991084074)
+– [amos on his blog](https://fasterthanli.me/articles/aiming-for-correctness-with-types)
 
 Thanks to [Joshua Nelson](https://users.rust-lang.org/t/twir-quote-of-the-week/328/972) for the suggestion.
 
