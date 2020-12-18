@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project Updates
 
+* [Whole-System Emulation and Analysis with Rust and PANDA](https://panda-re.mit.edu/blog/panda-rs)
+
 ### Miscellaneous
 
 # Crate of the Week
