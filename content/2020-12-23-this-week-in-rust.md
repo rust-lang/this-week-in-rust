@@ -75,7 +75,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [The CCC Rustaceans are looking artwork for badges](https://users.rust-lang.org/t/rc3-assembly-ccc-congress/50283/3)
+* [The CCC Rustaceans are looking for artwork for badges](https://users.rust-lang.org/t/rc3-assembly-ccc-congress/50283/3)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
