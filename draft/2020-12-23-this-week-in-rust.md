@@ -44,10 +44,12 @@ No official blog posts or newsletters this week.
 * [Make A Language - Part Eighteen: Errors](https://arzg.github.io/lang/18/)
 * [A Simple Neural Network (<200LoC, Rust)](https://explog.in/notes/funnn.html)
 * [Rocket Tutorial 05: Enforcing uniqueness of emails](https://dev.to/davidedelpapa/rocket-tutorial-05-enforcing-uniqueness-of-emails-136j)
-* [video] [series] [Rust Tutorial](https://youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5)
 * [How to write a Terminal Multiplexer with Rust, Async, and Actors - Part 2](https://implaustin.hashnode.dev/how-to-write-a-terminal-multiplexer-with-rust-async-and-actors-part-2)
 * [Learning Rust: static trait bounds](https://codeandbitters.com/static-trait-bound/)
 * [Async: What is blocking?](https://ryhl.io/blog/async-what-is-blocking/)
+* [Schedule the program in Rust](https://blog.knoldus.com/schedule-the-program-in-rust/)
+* [video] [Generic Associated Types - Learn Rust](https://www.youtube.com/watch?v=JwG-Wa7dOBU&feature=youtu.be)
+* [video] [series] [Rust Tutorial](https://youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5)
 
 ### Miscellaneous
 * [A Potential Rust Learning Project Group](https://internals.rust-lang.org/t/a-potential-rust-learning-project-group/13620)
@@ -178,6 +180,9 @@ Email the [Rust Community Team][community] for access.
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 * [Distributed Systems (Rust) Developer at Signal (Remote)](https://jobs.lever.co/signal/7aa1ff1f-bd43-4359-82c7-8703d8b842d9)
+* [Architect - Rust Library Design at Ockam (Remote)](https://www.ockam.io/team/Architect-Rust-Library-Design/53838c2d-1e48-5cec-8bb4-8fa8420e6171)
+* [Senior Software Engineer (Rust & C++) at NZXT (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
+* [Lead Backend Engineer - Rust or C/C++ at Signavio (Berlin, DE)]
 
 # Quote of the Week
 
