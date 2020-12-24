@@ -14,19 +14,44 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-### Official
+No official blog posts or newsletters this week.
 
-### Newsletters
-
-### Tooling
+### Project/Tooling Updates
+* [Rust Analyzer Changelog #56](https://rust-analyzer.github.io/thisweek/2020/12/21/changelog-56.html)
+* [Knurling-rs Changelog #11](https://ferrous-systems.com/blog/knurling-changelog-11/)
+* [Bevy 0.4](https://bevyengine.org/news/bevy-0-4/)
+* [Announcing Tokio 1.0](https://tokio.rs/blog/2020-12-tokio-1-0)
+* [hyper 0.14](https://seanmonstar.com/post/638320652536922112/hyper-v014)
+* [RustFFT 5.0.0.experimental-1: Now faster than FFTW!](https://users.rust-lang.org/t/rustfft-5-0-0-experimental-1-now-faster-than-fftw/53049)
+* [Allsorts Font Shaping Engine Year in Review](https://yeslogic.com/blog/allsorts-rust-font-shaping-engine-2020-review/)
+* [Build your own async primitive](https://tweedegolf.nl/blog/50/build-your-own-async-primitive)
 
 ### Observations/Thoughts
+* [Looking back on 2020](http://smallcultfollowing.com/babysteps/blog/2020/12/18/looking-back-on-2020/)
+* [I rewrote a Closure tool in Rust](https://timofreiberg.github.io/clojure-vs-rust/)
+* [🦀 Rust Reviewed: Is the hype justified? 🦀](https://dev.to/somedood/rust-reviewed-is-the-hype-justified-1pa1)
+* [Three things I wish I'd known learning Rust](https://www.darkcoding.net/software/three-things-i-wish-id-known-learning-rust/)
+* [Rust in a KDE Project](https://jbbgameich.github.io/misc/2020/12/21/rust-in-a-kde-project.html)
+* [First 3 Months of Rust](https://www.reddit.com/r/rust/comments/khrt69/first_3_months_of_rust/)
+* [How rust changed and saved my life](https://www.reddit.com/r/rust/comments/khlln4/how_rust_changed_and_saved_my_life/)
+* [Problems with building backend app in Rust in 2020](https://blog.0xfa.be/building-a-backend-app-in-rust/)
+* [Reaching the (current) limits of Rust's type system with asynchronous programming](https://gendignoux.com/blog/2020/12/17/rust-async-type-system-limits.html)
+* [audio] [Rust GameDev Podcast - Interview with Fedor Logachev](https://rustgamedev.com/episodes/interview-with-fedor-logachev)
 
 ### Rust Walkthroughs
-
-### Project Updates
+* [Make A Language - Part Sixteen: Refactoring](https://arzg.github.io/lang/16/)
+* [Make A Language - Part Seventeen: Crates](https://arzg.github.io/lang/17/)
+* [Make A Language - Part Eighteen: Errors](https://arzg.github.io/lang/18/)
+* [A Simple Neural Network (<200LoC, Rust)](https://explog.in/notes/funnn.html)
+* [Rocket Tutorial 05: Enforcing uniqueness of emails](https://dev.to/davidedelpapa/rocket-tutorial-05-enforcing-uniqueness-of-emails-136j)
+* [video] [series] [Rust Tutorial](https://youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5)
 
 ### Miscellaneous
+* [A Potential Rust Learning Project Group](https://internals.rust-lang.org/t/a-potential-rust-learning-project-group/13620)
+* [Watch all of RustFest Global](https://blog.rustfest.eu/watch-all-of-rustfest)
+* [When to use Rust?](https://www.reddit.com/r/rust/comments/kgw8bz/when_to_use_rust/)
+* [Hyper support is merged to curl master](https://www.reddit.com/r/rust/comments/kgcye2/hyper_support_is_merged_to_curl_master/)
+* [Just wanted to say thanks to the Rust community!](https://www.reddit.com/r/rust/comments/kfiaqn/just_wanted_to_say_thanks_to_the_rust_community/)
 
 # Crate of the Week
 
