@@ -44,10 +44,12 @@ No official blog posts or newsletters this week.
 * [Make A Language - Part Eighteen: Errors](https://arzg.github.io/lang/18/)
 * [A Simple Neural Network (<200LoC, Rust)](https://explog.in/notes/funnn.html)
 * [Rocket Tutorial 05: Enforcing uniqueness of emails](https://dev.to/davidedelpapa/rocket-tutorial-05-enforcing-uniqueness-of-emails-136j)
-* [video] [series] [Rust Tutorial](https://youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5)
 * [How to write a Terminal Multiplexer with Rust, Async, and Actors - Part 2](https://implaustin.hashnode.dev/how-to-write-a-terminal-multiplexer-with-rust-async-and-actors-part-2)
 * [Learning Rust: static trait bounds](https://codeandbitters.com/static-trait-bound/)
 * [Async: What is blocking?](https://ryhl.io/blog/async-what-is-blocking/)
+* [Schedule the program in Rust](https://blog.knoldus.com/schedule-the-program-in-rust/)
+* [video] [Generic Associated Types - Learn Rust](https://www.youtube.com/watch?v=JwG-Wa7dOBU&feature=youtu.be)
+* [video] [series] [Rust Tutorial](https://youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5)
 
 ### Miscellaneous
 * [A Potential Rust Learning Project Group](https://internals.rust-lang.org/t/a-potential-rust-learning-project-group/13620)
@@ -72,6 +74,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [The CCC Rustaceans are looking artwork for badges](https://users.rust-lang.org/t/rc3-assembly-ccc-congress/50283/3)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -121,7 +125,7 @@ See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [Stabilize Cargo's new feature resolver](https://github.com/rust-lang/rfcs/pull/2957)
 
 ## Final Comment Period
 
@@ -131,40 +135,26 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [RFC: Add `target_abi` configuration](https://github.com/rust-lang/rfcs/pull/2992)
-* [added secret types rfc](https://github.com/rust-lang/rfcs/pull/2859)
+* [disposition: merge] [Infallible promotion](https://github.com/rust-lang/rfcs/pull/3027)
+* [disposition: postpone] [Opt-in Stable Trait VTables](https://github.com/rust-lang/rfcs/pull/2955)
+* [disposition: merge] [RFC: Serve crates-io registry over HTTP as static files](https://github.com/rust-lang/rfcs/pull/2789)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Implement `From<char>` for u64 and u128.](https://github.com/rust-lang/rust/pull/79502)
-* [disposition: merge] [Stabilize `unsafe_cell_get_mut`](https://github.com/rust-lang/rust/pull/79485)
-* [disposition: merge] [Move `{f32,f64}::clamp` to core](https://github.com/rust-lang/rust/pull/79473)
-* [disposition: merge] [Stabilize all stable methods of `Ipv4Addr`, `Ipv6Addr` and `IpAddr` as const](https://github.com/rust-lang/rust/pull/79342)
-* [disposition: merge] [Acknowledge that `[CONST; N]` is stable](https://github.com/rust-lang/rust/pull/79270)
-* [disposition: merge] [Deprecate atomic compare_and_swap method](https://github.com/rust-lang/rust/pull/79261)
-* [disposition: merge] [Stabilize `core::slice::fill`](https://github.com/rust-lang/rust/pull/79213)
-* [disposition: close] [Made matches! more useful by adding mapping support](https://github.com/rust-lang/rust/pull/79188)
+* [disposition:merge] [Stabilize Arc::{increment,decrement}_strong_count](https://github.com/rust-lang/rust/pull/79285)
 * [disposition:merge] [stabilize `#![feature(min_const_generics)]`](https://github.com/rust-lang/rust/pull/79135)
 * [disposition:merge] [Add `impl Div<NonZeroU{0}> for u{0}` which cannot panic](https://github.com/rust-lang/rust/pull/79134)
-* [disposition: merge] [passes: prohibit invalid attrs on generic params](https://github.com/rust-lang/rust/pull/79073)
-* [disposition: merge] [stabilize deque_range](https://github.com/rust-lang/rust/pull/79022)
-* [disposition: merge] [Rename `overlapping_patterns` lint](https://github.com/rust-lang/rust/pull/78242)
-* [disposition: merge] [Stabilize or_insert_with_key](https://github.com/rust-lang/rust/pull/78083)
-* [disposition: close] [Add built-in implementations of `Default` for function definition and… ](https://github.com/rust-lang/rust/pull/77688)
-* [disposition: merge] [Mark `-1` as an available niche for file descriptors](https://github.com/rust-lang/rust/pull/74699)
-* [disposition: merge] [Stabilize the Wake trait](https://github.com/rust-lang/rust/pull/74304)
-* [disposition: merge] [Tracking issue for map_ok and map_err method for `Poll<Option<Result<T, E>>>`](https://github.com/rust-lang/rust/issues/63514)
 
 ## New RFCs
 
-* [Add min_target_api_version cfg predicate](https://github.com/rust-lang/rfcs/pull/3036)
-* [Cargo: providing artifacts (for artifact dependencies) via build.rs](https://github.com/rust-lang/rfcs/pull/3035)
+* [Primitive enum conversion reform](https://github.com/rust-lang/rfcs/pull/3040)
+* [Rust 2021 Roadmap](https://github.com/rust-lang/rfcs/pull/3037)
 
 # Upcoming Events
 
 ### Online
-* [December 16, Vancouver, BC, US - Are Results just Checked Exceptions? - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/npqfbsybcqbvb/)
 * [December 29, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcqbmc/)
+* [January 5, Buffalo, NY, US - Buffalo Rust User Group](https://www.meetup.com/Buffalo-Rust-Meetup/events/274936687/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -178,6 +168,9 @@ Email the [Rust Community Team][community] for access.
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 * [Distributed Systems (Rust) Developer at Signal (Remote)](https://jobs.lever.co/signal/7aa1ff1f-bd43-4359-82c7-8703d8b842d9)
+* [Architect - Rust Library Design at Ockam (Remote)](https://www.ockam.io/team/Architect-Rust-Library-Design/53838c2d-1e48-5cec-8bb4-8fa8420e6171)
+* [Senior Software Engineer (Rust & C++) at NZXT (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
+* [Lead Backend Engineer - Rust or C/C++ at Signavio (Berlin, DE)](https://boards.greenhouse.io/signavio/jobs/4167572003?gh_src=e31399983us)
 
 # Quote of the Week
 
