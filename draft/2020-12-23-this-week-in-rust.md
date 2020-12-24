@@ -170,7 +170,7 @@ Email the [Rust Community Team][community] for access.
 * [Distributed Systems (Rust) Developer at Signal (Remote)](https://jobs.lever.co/signal/7aa1ff1f-bd43-4359-82c7-8703d8b842d9)
 * [Architect - Rust Library Design at Ockam (Remote)](https://www.ockam.io/team/Architect-Rust-Library-Design/53838c2d-1e48-5cec-8bb4-8fa8420e6171)
 * [Senior Software Engineer (Rust & C++) at NZXT (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
-* [Lead Backend Engineer - Rust or C/C++ at Signavio (Berlin, DE)]
+* [Lead Backend Engineer - Rust or C/C++ at Signavio (Berlin, DE)](https://boards.greenhouse.io/signavio/jobs/4167572003?gh_src=e31399983us)
 
 # Quote of the Week
 
