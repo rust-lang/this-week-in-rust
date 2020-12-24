@@ -22,10 +22,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [How to write a Terminal Multiplexer with Rust, Async, and Actors - Part 2](https://implaustin.hashnode.dev/how-to-write-a-terminal-multiplexer-with-rust-async-and-actors-part-2)
+* [Learning Rust: static trait bounds](https://codeandbitters.com/static-trait-bound/)
 
 ### Rust Walkthroughs
 
 ### Project Updates
+
+* [Allsorts Font Shaping Engine Year in Review](https://yeslogic.com/blog/allsorts-rust-font-shaping-engine-2020-review/)
 
 ### Miscellaneous
 
@@ -142,6 +145,8 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
+* [Distributed Systems (Rust) Developer at Signal (Remote)](https://jobs.lever.co/signal/7aa1ff1f-bd43-4359-82c7-8703d8b842d9)
 
 # Quote of the Week
 
