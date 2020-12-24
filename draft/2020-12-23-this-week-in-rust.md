@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+ * [Async: What is blocking?](https://ryhl.io/blog/async-what-is-blocking/)
+
 ### Project Updates
 
 * [Allsorts Font Shaping Engine Year in Review](https://yeslogic.com/blog/allsorts-rust-font-shaping-engine-2020-review/)
