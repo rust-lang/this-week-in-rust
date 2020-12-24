@@ -1,6 +1,6 @@
-Title: This Week in Rust 370
-Number: 370
-Date: 2020-12-23
+Title: This Week in Rust 371
+Number: 371
+Date: 2020-12-30
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -17,46 +17,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 No official blog posts or newsletters this week.
 
 ### Project/Tooling Updates
-* [Rust Analyzer Changelog #56](https://rust-analyzer.github.io/thisweek/2020/12/21/changelog-56.html)
-* [Knurling-rs Changelog #11](https://ferrous-systems.com/blog/knurling-changelog-11/)
-* [Bevy 0.4](https://bevyengine.org/news/bevy-0-4/)
-* [Announcing Tokio 1.0](https://tokio.rs/blog/2020-12-tokio-1-0)
-* [hyper 0.14](https://seanmonstar.com/post/638320652536922112/hyper-v014)
-* [RustFFT 5.0.0.experimental-1: Now faster than FFTW!](https://users.rust-lang.org/t/rustfft-5-0-0-experimental-1-now-faster-than-fftw/53049)
-* [Allsorts Font Shaping Engine Year in Review](https://yeslogic.com/blog/allsorts-rust-font-shaping-engine-2020-review/)
 
 ### Observations/Thoughts
-* [Looking back on 2020](http://smallcultfollowing.com/babysteps/blog/2020/12/18/looking-back-on-2020/)
-* [I rewrote a Closure tool in Rust](https://timofreiberg.github.io/clojure-vs-rust/)
-* [🦀 Rust Reviewed: Is the hype justified? 🦀](https://dev.to/somedood/rust-reviewed-is-the-hype-justified-1pa1)
-* [Three things I wish I'd known learning Rust](https://www.darkcoding.net/software/three-things-i-wish-id-known-learning-rust/)
-* [Rust in a KDE Project](https://jbbgameich.github.io/misc/2020/12/21/rust-in-a-kde-project.html)
-* [First 3 Months of Rust](https://www.reddit.com/r/rust/comments/khrt69/first_3_months_of_rust/)
-* [How rust changed and saved my life](https://www.reddit.com/r/rust/comments/khlln4/how_rust_changed_and_saved_my_life/)
-* [Problems with building backend app in Rust in 2020](https://blog.0xfa.be/building-a-backend-app-in-rust/)
-* [Reaching the (current) limits of Rust's type system with asynchronous programming](https://gendignoux.com/blog/2020/12/17/rust-async-type-system-limits.html)
-* [audio] [Rust GameDev Podcast - Interview with Fedor Logachev](https://rustgamedev.com/episodes/interview-with-fedor-logachev)
 
 ### Rust Walkthroughs
-* [Build your own async primitive](https://tweedegolf.nl/blog/50/build-your-own-async-primitive)
-* [Make A Language - Part Sixteen: Refactoring](https://arzg.github.io/lang/16/)
-* [Make A Language - Part Seventeen: Crates](https://arzg.github.io/lang/17/)
-* [Make A Language - Part Eighteen: Errors](https://arzg.github.io/lang/18/)
-* [A Simple Neural Network (<200LoC, Rust)](https://explog.in/notes/funnn.html)
-* [Rocket Tutorial 05: Enforcing uniqueness of emails](https://dev.to/davidedelpapa/rocket-tutorial-05-enforcing-uniqueness-of-emails-136j)
-* [How to write a Terminal Multiplexer with Rust, Async, and Actors - Part 2](https://implaustin.hashnode.dev/how-to-write-a-terminal-multiplexer-with-rust-async-and-actors-part-2)
-* [Learning Rust: static trait bounds](https://codeandbitters.com/static-trait-bound/)
-* [Async: What is blocking?](https://ryhl.io/blog/async-what-is-blocking/)
-* [Schedule the program in Rust](https://blog.knoldus.com/schedule-the-program-in-rust/)
-* [video] [Generic Associated Types - Learn Rust](https://www.youtube.com/watch?v=JwG-Wa7dOBU&feature=youtu.be)
-* [video] [series] [Rust Tutorial](https://youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5)
 
 ### Miscellaneous
-* [A Potential Rust Learning Project Group](https://internals.rust-lang.org/t/a-potential-rust-learning-project-group/13620)
-* [Watch all of RustFest Global](https://blog.rustfest.eu/watch-all-of-rustfest)
-* [When to use Rust?](https://www.reddit.com/r/rust/comments/kgw8bz/when_to_use_rust/)
-* [Hyper support is merged to curl master](https://www.reddit.com/r/rust/comments/kgcye2/hyper_support_is_merged_to_curl_master/)
-* [Just wanted to say thanks to the Rust community!](https://www.reddit.com/r/rust/comments/kfiaqn/just_wanted_to_say_thanks_to_the_rust_community/)
 
 # Crate of the Week
 
@@ -75,7 +41,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [The CCC Rustaceans are looking artwork for badges](https://users.rust-lang.org/t/rc3-assembly-ccc-congress/50283/3)
+* [The CCC Rustaceans are looking for artwork for badges](https://users.rust-lang.org/t/rc3-assembly-ccc-congress/50283/3)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -166,11 +132,6 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
-
-* [Distributed Systems (Rust) Developer at Signal (Remote)](https://jobs.lever.co/signal/7aa1ff1f-bd43-4359-82c7-8703d8b842d9)
-* [Architect - Rust Library Design at Ockam (Remote)](https://www.ockam.io/team/Architect-Rust-Library-Design/53838c2d-1e48-5cec-8bb4-8fa8420e6171)
-* [Senior Software Engineer (Rust & C++) at NZXT (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
-* [Lead Backend Engineer - Rust or C/C++ at Signavio (Berlin, DE)](https://boards.greenhouse.io/signavio/jobs/4167572003?gh_src=e31399983us)
 
 # Quote of the Week
 
