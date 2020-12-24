@@ -27,7 +27,7 @@ No official blog posts or newsletters this week.
 
 ### Observations/Thoughts
 * [Looking back on 2020](http://smallcultfollowing.com/babysteps/blog/2020/12/18/looking-back-on-2020/)
-* [I rewrote a Closure tool in Rust](https://timofreiberg.github.io/clojure-vs-rust/)
+* [I rewrote a Clojure tool in Rust](https://timofreiberg.github.io/clojure-vs-rust/)
 * [🦀 Rust Reviewed: Is the hype justified? 🦀](https://dev.to/somedood/rust-reviewed-is-the-hype-justified-1pa1)
 * [Three things I wish I'd known learning Rust](https://www.darkcoding.net/software/three-things-i-wish-id-known-learning-rust/)
 * [Rust in a KDE Project](https://jbbgameich.github.io/misc/2020/12/21/rust-in-a-kde-project.html)
