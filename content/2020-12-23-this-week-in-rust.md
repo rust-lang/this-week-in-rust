@@ -24,7 +24,6 @@ No official blog posts or newsletters this week.
 * [hyper 0.14](https://seanmonstar.com/post/638320652536922112/hyper-v014)
 * [RustFFT 5.0.0.experimental-1: Now faster than FFTW!](https://users.rust-lang.org/t/rustfft-5-0-0-experimental-1-now-faster-than-fftw/53049)
 * [Allsorts Font Shaping Engine Year in Review](https://yeslogic.com/blog/allsorts-rust-font-shaping-engine-2020-review/)
-* [Build your own async primitive](https://tweedegolf.nl/blog/50/build-your-own-async-primitive)
 
 ### Observations/Thoughts
 * [Looking back on 2020](http://smallcultfollowing.com/babysteps/blog/2020/12/18/looking-back-on-2020/)
@@ -39,6 +38,7 @@ No official blog posts or newsletters this week.
 * [audio] [Rust GameDev Podcast - Interview with Fedor Logachev](https://rustgamedev.com/episodes/interview-with-fedor-logachev)
 
 ### Rust Walkthroughs
+* [Build your own async primitive](https://tweedegolf.nl/blog/50/build-your-own-async-primitive)
 * [Make A Language - Part Sixteen: Refactoring](https://arzg.github.io/lang/16/)
 * [Make A Language - Part Seventeen: Crates](https://arzg.github.io/lang/17/)
 * [Make A Language - Part Eighteen: Errors](https://arzg.github.io/lang/18/)
