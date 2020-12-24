@@ -75,7 +75,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-[The CCC Rustaceans are looking artwork for badges](https://users.rust-lang.org/t/rc3-assembly-ccc-congress/50283/3)
+* [The CCC Rustaceans are looking artwork for badges](https://users.rust-lang.org/t/rc3-assembly-ccc-congress/50283/3)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -149,8 +149,6 @@ decision. Express your opinions now.
 
 * [Primitive enum conversion reform](https://github.com/rust-lang/rfcs/pull/3040)
 * [Rust 2021 Roadmap](https://github.com/rust-lang/rfcs/pull/3037)
-* [Add min_target_api_version cfg predicate](https://github.com/rust-lang/rfcs/pull/3036)
-* [Cargo: providing artifacts (for artifact dependencies) via build.rs](https://github.com/rust-lang/rfcs/pull/3035)
 
 # Upcoming Events
 
