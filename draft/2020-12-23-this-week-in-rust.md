@@ -45,6 +45,9 @@ No official blog posts or newsletters this week.
 * [A Simple Neural Network (<200LoC, Rust)](https://explog.in/notes/funnn.html)
 * [Rocket Tutorial 05: Enforcing uniqueness of emails](https://dev.to/davidedelpapa/rocket-tutorial-05-enforcing-uniqueness-of-emails-136j)
 * [video] [series] [Rust Tutorial](https://youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5)
+* [How to write a Terminal Multiplexer with Rust, Async, and Actors - Part 2](https://implaustin.hashnode.dev/how-to-write-a-terminal-multiplexer-with-rust-async-and-actors-part-2)
+* [Learning Rust: static trait bounds](https://codeandbitters.com/static-trait-bound/)
+* [Async: What is blocking?](https://ryhl.io/blog/async-what-is-blocking/)
 
 ### Miscellaneous
 * [A Potential Rust Learning Project Group](https://internals.rust-lang.org/t/a-potential-rust-learning-project-group/13620)
@@ -55,9 +58,9 @@ No official blog posts or newsletters this week.
 
 # Crate of the Week
 
-This week's crate is [thermite](https://github.com/raygon-renderer/thermite), a SIMD struct-of-arrays-algorithms library.
+This week's crate is [RustFFT](https://github.com/ejmahler/RustFFT), a *Fast* Fourier transformation library that lives up to the name.
 
-Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/857) for the suggestion!
+Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/863) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -76,24 +79,31 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-300 pull requests were [merged in the last week][merged]
+292 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-12-07..2020-12-14
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-12-14..2020-12-21
 
-* [fixes to Rust coverage](https://github.com/rust-lang/rust/pull/79818)
-* [properly re-use def path hash in incremental mode](https://github.com/rust-lang/rust/pull/79721)
-* [add some `core::cmp::Ordering` helpers](https://github.com/rust-lang/rust/pull/79656)
-* [constify some `MaybeUninit` methods](https://github.com/rust-lang/rust/pull/79621)
-* [Windows TLS: `ManuallyDrop` instead of `mem::forget`](https://github.com/rust-lang/rust/pull/79893)
-* [use `is_write_vectored` to optimize the `write_vectored` implementation for `BufWriter`](https://github.com/rust-lang/rust/pull/78768)
-* [enforce no-move rule of `ReentrantMutex` using `Pin` and fix UB in stdio](https://github.com/rust-lang/rust/pull/77801)
-* [hashbrown: enable specialization with aHash](https://github.com/rust-lang/hashbrown/pull/207)
-* [future: `SinkExt::feed`](https://github.com/rust-lang/futures-rs/pull/2155)
-* [futures-util: migrate from pin-project to pin-project-lite](https://github.com/rust-lang/futures-rs/pull/2273)
-* [cargo: check if rerun-if-changed points to a directory](https://github.com/rust-lang/cargo/pull/8973)
-* [cargo: workaround fs issue in `cargo publish`](https://github.com/rust-lang/cargo/pull/8950)
-* [clippy: add MSRV to more lints](https://github.com/rust-lang/rust-clippy/pull/6424)
-* [rustfmt: don't force a newline after an empty where clause](https://github.com/rust-lang/rustfmt/pull/4557)
+* [skip `dsymutil` by default for compiler bootstrap](https://github.com/rust-lang/rust/pull/80213)
+* [implement if-let match guards](https://github.com/rust-lang/rust/pull/79051)
+* [or\_patterns: implement `:pat` edition-specific behavior](https://github.com/rust-lang/rust/pull/80100)
+* [improve and fix diagnostics of exhaustiveness checking](https://github.com/rust-lang/rust/pull/80104)
+* [gracefully handle mistyping `->` as `=>` in function return type](https://github.com/rust-lang/rust/pull/77035)
+* [handle desugaring in impl trait bound suggestion](https://github.com/rust-lang/rust/pull/80211)
+* [enhance error message when misspelled label to value in break expression](https://github.com/rust-lang/rust/pull/80023)
+* [always run intrinsics lowering pass](https://github.com/rust-lang/rust/pull/80040)
+* [mir-opt: allow debuginfo to be generated for a constant or a Place](https://github.com/rust-lang/rust/pull/73210)
+* [turn quadratic time on number of impl blocks into linear time](https://github.com/rust-lang/rust/pull/78317)
+* [`MaybeUninit::copy`/`clone_from_slice`](https://github.com/rust-lang/rust/pull/79607)
+* [stabilize `unsafe_cell_get_mut`](https://github.com/rust-lang/rust/pull/79485)
+* [move {`f32`, `f64`}`::clamp` to `core`](https://github.com/rust-lang/rust/pull/79473)
+* [stabilize all stable methods of `Ipv4Addr`, `Ipv6Addr` and `IpAddr` as const](https://github.com/rust-lang/rust/pull/79342)
+* [stabilize `or_insert_with_key`](https://github.com/rust-lang/rust/pull/78083)
+* [add fast futex-based thread parker for Windows](https://github.com/rust-lang/rust/pull/77618)
+* [optimization for `bool`'s `PartialOrd` impl](https://github.com/rust-lang/rust/pull/80035)
+* [fix overflow when converting ZST `Vec` to `VecDeque`](https://github.com/rust-lang/rust/pull/80003)
+* [use pointer type in `AtomicPtr::swap` implementation](https://github.com/rust-lang/rust/pull/80236)
+* [stdarch: move code out of constify macros](https://github.com/rust-lang/stdarch/pull/973)
+* [stabilize cargo's new feature resolver](https://github.com/rust-lang/rfcs/pull/2957)
 
 ## Rust Compiler Performance Triage
 
@@ -167,15 +177,15 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+* [Distributed Systems (Rust) Developer at Signal (Remote)](https://jobs.lever.co/signal/7aa1ff1f-bd43-4359-82c7-8703d8b842d9)
+
 # Quote of the Week
 
-> Engineering is not about "not doing mistakes". Engineering is about designing systems that ensure fewer mistakes occur.
->
-> Rust is such a system.
+> It took me sometime to let go and embrace getting things working before optimizing. It was a major breakthrough on that journey when I realized that ALL my python variables are `Rc<RefCell<_>>` , so any chance I had to make a variable that was less complicated than that was already a big optimization. If 1/10 Rust variables had to be that complicated it would not feel good, but it would already be 90% better. So if 1/50 make the code ezere to read and maintain then do it!
 
-– [amos on his blog](https://fasterthanli.me/articles/aiming-for-correctness-with-types)
+– [Eh2406 on /r/rust](https://www.reddit.com/r/rust/comments/kdayix/i_need_some_advice_about_heap_usage_with_rust/gfvtcwx)
 
-Thanks to [Joshua Nelson](https://users.rust-lang.org/t/twir-quote-of-the-week/328/972) for the suggestion.
+Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/977) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
