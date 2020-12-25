@@ -77,14 +77,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-* [2020-12-15](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-12-15.md):
-6 Regressions, 1 Improvements, 2 Mixed
+* [2020-12-24](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-12-24.md):
+3 Regressions, 5 Improvements
+Major event this week is landing PGO for rustc (on x86_64-unknown-linux-gnu). We
+expect other platforms to follow but further investigation will be needed,
+especially for cross-compiled platforms. We expect to add LLVM PGO as well.
 
-This week was fairly quite with lots of small regressions. Most of the regressions were either for fixes to changes that yielded large performance wins in previous weeks or small performance losses where there is already a plan for how to gain those losses back.
+Triage done by @simulacrum.
 
-Triage done by @rylev.
-
-See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-12-15.md) for more.
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-12-24.md) for more.
 
 ## Approved RFCs
 
