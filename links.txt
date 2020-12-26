@@ -877,7 +877,6 @@ Number: 369  Date: 2020-12-16
 * [Authors of "Programming Rust 2nd Edition" have a sense of humor](https://www.reddit.com/r/rust/comments/kcou9c/authors_of_programming_rust_2nd_edition_have_a/)
 * [Rotating the compiler team leads](https://smallcultfollowing.com/babysteps/blog/2020/12/11/rotating-the-compiler-team-leads/)
 * [Debug Rust on PineCone BL602 with VSCode and GDB](https://lupyuen.github.io/articles/debug)
-* [Why Rust Has a Bright Future in the Cloud](https://www.qovery.com/blog/why-rust-has-a-bright-future-in-the-cloud)
 * [RU] [audio] [SitCast#32 - Эх, Rust, да ещё Rust…](https://www.youtube.com/watch?v=w99C9heBWHE&feature=youtu.be)
 
 Number: 370  Date: 2020-12-23 
