@@ -21,6 +21,7 @@ No official blog posts or newsletters this week.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [series] [(Live Coding) Advent of Code 2020 in Rust](https://youtube.com/playlist?list=PLoSY6azqHO7BpQo8jWKi4cFIobJo-TCzU)
 
 ### Miscellaneous
 
