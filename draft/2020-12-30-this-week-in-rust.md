@@ -21,7 +21,7 @@ No official blog posts or newsletters this week.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+* [Enhance code quality using `matches` macro! in Rust](https://blog.knoldus.com/enhance-code-quality-using-matches-macro-in-rust/)
 ### Miscellaneous
 
 # Crate of the Week
