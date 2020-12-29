@@ -26,9 +26,9 @@ No official blog posts or newsletters this week.
 
 # Crate of the Week
 
-This week's crate is [RustFFT](https://github.com/ejmahler/RustFFT), a *Fast* Fourier transformation library that lives up to the name.
+This week's crate is [autograd](https://github.com/raskr/rust-autograd), a library of differentiable operations and tensors for machine learning applications.
 
-Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/863) for the suggestion!
+Thanks to [Zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/864) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -49,31 +49,27 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-292 pull requests were [merged in the last week][merged]
+275 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-12-14..2020-12-21
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-12-21..2020-12-28
 
-* [skip `dsymutil` by default for compiler bootstrap](https://github.com/rust-lang/rust/pull/80213)
-* [implement if-let match guards](https://github.com/rust-lang/rust/pull/79051)
-* [or\_patterns: implement `:pat` edition-specific behavior](https://github.com/rust-lang/rust/pull/80100)
-* [improve and fix diagnostics of exhaustiveness checking](https://github.com/rust-lang/rust/pull/80104)
-* [gracefully handle mistyping `->` as `=>` in function return type](https://github.com/rust-lang/rust/pull/77035)
-* [handle desugaring in impl trait bound suggestion](https://github.com/rust-lang/rust/pull/80211)
-* [enhance error message when misspelled label to value in break expression](https://github.com/rust-lang/rust/pull/80023)
-* [always run intrinsics lowering pass](https://github.com/rust-lang/rust/pull/80040)
-* [mir-opt: allow debuginfo to be generated for a constant or a Place](https://github.com/rust-lang/rust/pull/73210)
-* [turn quadratic time on number of impl blocks into linear time](https://github.com/rust-lang/rust/pull/78317)
-* [`MaybeUninit::copy`/`clone_from_slice`](https://github.com/rust-lang/rust/pull/79607)
-* [stabilize `unsafe_cell_get_mut`](https://github.com/rust-lang/rust/pull/79485)
-* [move {`f32`, `f64`}`::clamp` to `core`](https://github.com/rust-lang/rust/pull/79473)
-* [stabilize all stable methods of `Ipv4Addr`, `Ipv6Addr` and `IpAddr` as const](https://github.com/rust-lang/rust/pull/79342)
-* [stabilize `or_insert_with_key`](https://github.com/rust-lang/rust/pull/78083)
-* [add fast futex-based thread parker for Windows](https://github.com/rust-lang/rust/pull/77618)
-* [optimization for `bool`'s `PartialOrd` impl](https://github.com/rust-lang/rust/pull/80035)
-* [fix overflow when converting ZST `Vec` to `VecDeque`](https://github.com/rust-lang/rust/pull/80003)
-* [use pointer type in `AtomicPtr::swap` implementation](https://github.com/rust-lang/rust/pull/80236)
-* [stdarch: move code out of constify macros](https://github.com/rust-lang/stdarch/pull/973)
-* [stabilize cargo's new feature resolver](https://github.com/rust-lang/rfcs/pull/2957)
+* [stabilize `min_const_generics`](https://github.com/rust-lang/rust/pull/79135) (Huzzah!)
+* [utilize PGO for rustc linux dist builds](https://github.com/rust-lang/rust/pull/80262)
+* [suggest fn ptr rather than fn item and suggest to use `Fn` trait bounds rather than the unique closure type](https://github.com/rust-lang/rust/pull/80284)
+* [implement a compiler diagnostic for move async mistake](https://github.com/rust-lang/rust/pull/80160)
+* [highlight edition-specific keywords correctly in code blocks, accounting for code block edition modifiers](https://github.com/rust-lang/rust/pull/80226)
+* [prevent caching normalization results with a cycle](https://github.com/rust-lang/rust/pull/80246)
+* [fix ICE when lookup method in trait for type that have bound vars](https://github.com/rust-lang/rust/pull/80170)
+* [remove `DefPath` from `Visibility` and calculate it on demand](https://github.com/rust-lang/rust/pull/80099)
+* [`rustc_query_system : reduce dependency graph memory usage](https://github.com/rust-lang/rust/pull/79589)
+* [add `impl Div<NonZeroU'*`> for u`* which cannot panic](https://github.com/rust-lang/rust/pull/79134)
+* [deprecate atomic `compare_and_swap` method](https://github.com/rust-lang/rust/pull/79261)
+* [stabilize `core::slice::fill`](https://github.com/rust-lang/rust/pull/79213)
+* [stabilize `deque_range`](https://github.com/rust-lang/rust/pull/79022)
+* [use `clone_from` from `hashbrown::`{`HashMap`, `HashSet`}](https://github.com/rust-lang/rust/pull/80400)
+* [futures: perf: pack the state and future of unfolds in the same memory](https://github.com/rust-lang/futures-rs/pull/2283)
+* [cargo: stabilize `RUSTC_WORKSPACE_WRAPPER`](https://github.com/rust-lang/cargo/pull/8976)
+* [rustdoc: stabilise `--default-theme` command line option](https://github.com/rust-lang/rust/pull/79642)
 
 ## Rust Compiler Performance Triage
 
@@ -136,11 +132,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> It took me sometime to let go and embrace getting things working before optimizing. It was a major breakthrough on that journey when I realized that ALL my python variables are `Rc<RefCell<_>>` , so any chance I had to make a variable that was less complicated than that was already a big optimization. If 1/10 Rust variables had to be that complicated it would not feel good, but it would already be 90% better. So if 1/50 make the code ezere to read and maintain then do it!
+> This is a common theme in Rust’s design: To reduce breakage as code evolves, you’re only allowed to rely on features that have been intentionally declared by the author.
 
-– [Eh2406 on /r/rust](https://www.reddit.com/r/rust/comments/kdayix/i_need_some_advice_about_heap_usage_with_rust/gfvtcwx)
+– [2e71828 on rust-users](https://users.rust-lang.org/t/why-explicit-const-fn-token-needed/53006/2)
 
-Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/977) for the suggestion.
+Thanks to [Kornel](https://users.rust-lang.org/t/twir-quote-of-the-week/328/980) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
