@@ -33,15 +33,16 @@ No newsletters this week.
 * [Cloning A Reference and Method Call Syntax in Rust](https://www.fpcomplete.com/blog/cloning-reference-method-calls/)
 * [Executable PNGs](https://djharper.dev/post/2020/12/26/executable-pngs/)
 * [Why mongodump is fast](https://windsoilder.github.io/why_mongodump_is_fast.html)
-
 * [A look at tokio 1.0 API Changes](https://leshow.github.io/post/udp_tokio_1_0/)
 
 ### Rust Walkthroughs
 * [Concurrency in modern programming languages: Rust](https://dev.to/deepu105/concurrency-in-modern-programming-languages-rust-19co)
 * [Building distributed GraphQL backend using Rust and Apollo Federation](https://dev.to/rkudryashov/building-distributed-graphql-backend-using-rust-and-apollo-federation-50bm)
-
 * [Enhance code quality using `matches` macro! in Rust](https://blog.knoldus.com/enhance-code-quality-using-matches-macro-in-rust/)
 * [ClickOnce for Rust Apps](https://taggartsoftware.medium.com/clickonce-for-rust-apps-f96873feb8f1)
+* [Closures in Rust](https://zhauniarovich.com/post/2020/2020-12-closures-in-rust/)
+* [Don't let failures spread over your suite with process-based tests isolation](https://blog.cyplo.dev/posts/2020/12/fail-and-fork/)
+* [Triangle From Scratch](https://rust-tutorials.github.io/triangle-from-scratch/opening_a_window/win32.html)
 * [video] [series] [(Live Coding) Advent of Code 2020 in Rust](https://youtube.com/playlist?list=PLoSY6azqHO7BpQo8jWKi4cFIobJo-TCzU)
 
 ### Miscellaneous
@@ -153,6 +154,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Rust Software Engineer at CEMS (Amsterdam, NL and Delft, NL)](https://cemsbv.nl/jobs/rust-software-engineer)
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
