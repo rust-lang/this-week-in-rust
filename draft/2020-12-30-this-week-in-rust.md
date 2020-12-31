@@ -14,21 +14,40 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-No official blog posts or newsletters this week.
+No newsletters this week.
+
+### Official
+* [Inside] [Please welcome cjgillot and Nadrieril to compiler-contributors](https://blog.rust-lang.org/inside-rust/2020/12/28/cjgillot-and-nadrieril-for-compiler-contributors.html)
+* [Inside] [1.49.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2020/12/29/1.49.0-prerelease.html)
 
 ### Project/Tooling Updates
+* [IntelliJ Rust Changelog #138](https://intellij-rust.github.io/2020/12/28/changelog-138.html)
+* [Rust Analyzer Changelog #57](https://rust-analyzer.github.io/thisweek/2020/12/28/changelog-57.html)
+* [Redox OS 0.6.0](https://www.redox-os.org/news/release-0.6.0/)
 
 ### Observations/Thoughts
+* [Call Site Dependency Injection](https://matklad.github.io/2020/12/28/csdi.html)
+* [A look at tokio 1.0 API Changes](https://leshow.github.io/post/udp_tokio_1_0/)
+* [Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs](https://arxiv.org/abs/2003.03296)
+* [45,000+ lines of Rust code later: An update on the Record & Debug Tool (rd)](https://github.com/sidkshatriya/me/blob/master/003-Rd-makes-significant-advances.md)
+* [Cloning A Reference and Method Call Syntax in Rust](https://www.fpcomplete.com/blog/cloning-reference-method-calls/)
+* [Executable PNGs](https://djharper.dev/post/2020/12/26/executable-pngs/)
+* [Why mongodump is fast](https://windsoilder.github.io/why_mongodump_is_fast.html)
 
 * [A look at tokio 1.0 API Changes](https://leshow.github.io/post/udp_tokio_1_0/)
 
 ### Rust Walkthroughs
+* [Concurrency in modern programming languages: Rust](https://dev.to/deepu105/concurrency-in-modern-programming-languages-rust-19co)
+* [Building distributed GraphQL backend using Rust and Apollo Federation](https://dev.to/rkudryashov/building-distributed-graphql-backend-using-rust-and-apollo-federation-50bm)
 
 * [Enhance code quality using `matches` macro! in Rust](https://blog.knoldus.com/enhance-code-quality-using-matches-macro-in-rust/)
 * [ClickOnce for Rust Apps](https://taggartsoftware.medium.com/clickonce-for-rust-apps-f96873feb8f1)
 * [video] [series] [(Live Coding) Advent of Code 2020 in Rust](https://youtube.com/playlist?list=PLoSY6azqHO7BpQo8jWKi4cFIobJo-TCzU)
 
 ### Miscellaneous
+* [Redox OS 0.6 Released With Many Fixes, Rewritten Kernel Memory Manager](https://www.phoronix.com/scan.php?page=news_item&px=Redox-OS-0.6-Released)
+* [The more things change...](https://smallcultfollowing.com/babysteps/blog/2020/12/30/the-more-things-change/)
+* [Min const generics stabilization has been merged into master! It will reach stable on March 25, 2021 as part of Rust 1.51](https://www.reddit.com/r/rust/comments/kl1e24/min_const_generics_stabilization_has_been_merged/)
 
 # Crate of the Week
 
