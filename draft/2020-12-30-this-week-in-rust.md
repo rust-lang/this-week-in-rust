@@ -14,7 +14,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-No official blog posts or newsletters this week.
+No newsletters this week.
 
 ### Official
 * [Inside] [Please welcome cjgillot and Nadrieril to compiler-contributors](https://blog.rust-lang.org/inside-rust/2020/12/28/cjgillot-and-nadrieril-for-compiler-contributors.html)
