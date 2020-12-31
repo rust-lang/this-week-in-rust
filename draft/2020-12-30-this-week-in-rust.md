@@ -23,6 +23,7 @@ No official blog posts or newsletters this week.
 * [A look at tokio 1.0 API Changes](https://leshow.github.io/post/udp_tokio_1_0/)
 
 ### Rust Walkthroughs
+* [Enhance code quality using `matches` macro! in Rust](https://blog.knoldus.com/enhance-code-quality-using-matches-macro-in-rust/)
 * [ClickOnce for Rust Apps](https://taggartsoftware.medium.com/clickonce-for-rust-apps-f96873feb8f1)
 
 ### Miscellaneous
