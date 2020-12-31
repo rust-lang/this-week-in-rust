@@ -67,7 +67,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [The CCC Rustaceans are looking for artwork for badges](https://users.rust-lang.org/t/rc3-assembly-ccc-congress/50283/3)
+* [withoutboats/heck - kebab case doesn't treat numbers as separate word?](https://github.com/withoutboats/heck/issues/18)
+* [jplatte/js_int has several good first issues](https://github.com/jplatte/js_int/issues?q=is:issue+is:open+label:%22good+first+issue%22)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -114,7 +115,7 @@ See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Stabilize Cargo's new feature resolver](https://github.com/rust-lang/rfcs/pull/2957)
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -124,26 +125,26 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Infallible promotion](https://github.com/rust-lang/rfcs/pull/3027)
-* [disposition: postpone] [Opt-in Stable Trait VTables](https://github.com/rust-lang/rfcs/pull/2955)
-* [disposition: merge] [RFC: Serve crates-io registry over HTTP as static files](https://github.com/rust-lang/rfcs/pull/2789)
+*No RFCs are currently in the final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition:merge] [Stabilize Arc::{increment,decrement}_strong_count](https://github.com/rust-lang/rust/pull/79285)
-* [disposition:merge] [stabilize `#![feature(min_const_generics)]`](https://github.com/rust-lang/rust/pull/79135)
-* [disposition:merge] [Add `impl Div<NonZeroU{0}> for u{0}` which cannot panic](https://github.com/rust-lang/rust/pull/79134)
+* [Stabilize slice::strip_prefix and slice::strip_suffix](https://github.com/rust-lang/rust/pull/77853)
+* [Tracking issue for stable SIMD in Rust](https://github.com/rust-lang/rust/issues/48556)
 
 ## New RFCs
 
-* [Primitive enum conversion reform](https://github.com/rust-lang/rfcs/pull/3040)
-* [Rust 2021 Roadmap](https://github.com/rust-lang/rfcs/pull/3037)
+* [New trait: core::convert::IntoUnderlying](https://github.com/rust-lang/rfcs/pull/3046)
+* [#[target_feature(..)] In Trait Methods](https://github.com/rust-lang/rfcs/pull/3042)
 
 # Upcoming Events
 
 ### Online
-* [December 29, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrybcqbmc/)
 * [January 5, Buffalo, NY, US - Buffalo Rust User Group](https://www.meetup.com/Buffalo-Rust-Meetup/events/274936687/)
+* [January 6, Johannesburg, ZA - Monthly Joburg Rust Chat - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/275424876/)
+* [January 6, Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy Rust](https://www.meetup.com/indyrs/events/jhfstrycccbjb/)
+* [January 7, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrycccbkb/)
+* [January 12, Seattle, WA, US - Monthly Meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycccbqb/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
