@@ -24,6 +24,7 @@ No official blog posts or newsletters this week.
 
 ### Rust Walkthroughs
 
+* [Enhance code quality using `matches` macro! in Rust](https://blog.knoldus.com/enhance-code-quality-using-matches-macro-in-rust/)
 * [ClickOnce for Rust Apps](https://taggartsoftware.medium.com/clickonce-for-rust-apps-f96873feb8f1)
 * [video] [series] [(Live Coding) Advent of Code 2020 in Rust](https://youtube.com/playlist?list=PLoSY6azqHO7BpQo8jWKi4cFIobJo-TCzU)
 
