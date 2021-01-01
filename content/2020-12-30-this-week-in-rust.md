@@ -33,7 +33,6 @@ No newsletters this week.
 * [Cloning A Reference and Method Call Syntax in Rust](https://www.fpcomplete.com/blog/cloning-reference-method-calls/)
 * [Executable PNGs](https://djharper.dev/post/2020/12/26/executable-pngs/)
 * [Why mongodump is fast](https://windsoilder.github.io/why_mongodump_is_fast.html)
-* [A look at tokio 1.0 API Changes](https://leshow.github.io/post/udp_tokio_1_0/)
 
 ### Rust Walkthroughs
 * [Concurrency in modern programming languages: Rust](https://dev.to/deepu105/concurrency-in-modern-programming-languages-rust-19co)
