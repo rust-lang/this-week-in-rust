@@ -23,6 +23,7 @@ No newsletters this week.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+*[Building a runtime reflection system for Rust 🦀️ (Part 3)] (https://www.osohq.com/post/runtime-reflection-pt-3)
 
 ### Miscellaneous
 
