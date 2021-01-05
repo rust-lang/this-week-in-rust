@@ -20,6 +20,8 @@ No newsletters this week.
 
 ### Project/Tooling Updates
 
+* [Insta got a new website with docs](https://insta.rs/) and a [Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=mitsuhiko.insta)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
