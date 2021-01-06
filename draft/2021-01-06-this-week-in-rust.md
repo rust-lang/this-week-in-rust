@@ -19,13 +19,11 @@ No newsletters this week.
 ### Official
 
 ### Project/Tooling Updates
-[napi 1.0 released](https://napi.rs)
-
+* [napi 1.0 released](https://napi.rs)
 * [Insta got a new website with docs](https://insta.rs/) and a [Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=mitsuhiko.insta)
 
 ### Observations/Thoughts
  * [Reflecting on developing a database (2020 edition)](https://alex-dukhno.github.io/2020-12-31-Reflecting-on-developing-a-database-(2020-edition)/)
-
 * [bore(1) + nonymous: lessons learned writing a DNS query tool and `#![no_std]` DNS library](https://www.azabani.com/2021/01/03/nonymous-bore.html)
 
 ### Rust Walkthroughs
@@ -109,23 +107,27 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [Stabilize slice::strip_prefix and slice::strip_suffix](https://github.com/rust-lang/rust/pull/77853)
+* [Stabilize split_inclusive](https://github.com/rust-lang/rust/pull/77858)
 * [Tracking issue for stable SIMD in Rust](https://github.com/rust-lang/rust/issues/48556)
 
 ## New RFCs
 
-* [New trait: core::convert::IntoUnderlying](https://github.com/rust-lang/rfcs/pull/3046)
-* [#[target_feature(..)] In Trait Methods](https://github.com/rust-lang/rfcs/pull/3042)
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
 ### Online
-* [January 5, Buffalo, NY, US - Buffalo Rust User Group](https://www.meetup.com/Buffalo-Rust-Meetup/events/274936687/)
 * [January 6, Johannesburg, ZA - Monthly Joburg Rust Chat - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/275424876/)
 * [January 6, Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy Rust](https://www.meetup.com/indyrs/events/jhfstrycccbjb/)
+* [January 6, Denver, CO, US - Building Malware in Rust TBG by Stu Small - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/275094422/)
 * [January 7, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrycccbkb/)
-* [January 12, Seattle, WA, US - Monthly Meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycccbqb/)
+* [January 11, Seattle, WA, US - Monthly Meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycccbqb/)
 * [January 12, Saarbücken, Saarland, DE - Meetup: 7u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/275077213/)
+* [January 14, San Diego, CA, US - San Diego Rust January 2021 Tele-Meetup - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/275547915/)
+
+### North America
+* [January 14, Columbus, OH, US - Monthly Meeting - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dpkhgrycccbsb/)
+* [January 14, Provo, UT, US - The Blue Pill: Rust on Microcontrollers (Jan / Third Round) - Utah Rust](https://www.meetup.com/utah-rust/events/268567961/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
