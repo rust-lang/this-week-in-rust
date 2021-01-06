@@ -19,6 +19,7 @@ No newsletters this week.
 ### Official
 
 ### Project/Tooling Updates
+[napi 1.0 released](https://napi.rs)
 
 ### Observations/Thoughts
  * [Reflecting on developing a database (2020 edition)](https://alex-dukhno.github.io/2020-12-31-Reflecting-on-developing-a-database-(2020-edition)/)
