@@ -21,6 +21,7 @@ No newsletters this week.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+ * [Reflecting on developing a database (2020 edition)](https://alex-dukhno.github.io/2020-12-31-Reflecting-on-developing-a-database-(2020-edition)/)
 
 ### Rust Walkthroughs
 
