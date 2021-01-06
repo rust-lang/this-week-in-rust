@@ -21,6 +21,8 @@ No newsletters this week.
 ### Project/Tooling Updates
 [napi 1.0 released](https://napi.rs)
 
+* [Insta got a new website with docs](https://insta.rs/) and a [Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=mitsuhiko.insta)
+
 ### Observations/Thoughts
  * [Reflecting on developing a database (2020 edition)](https://alex-dukhno.github.io/2020-12-31-Reflecting-on-developing-a-database-(2020-edition)/)
 
