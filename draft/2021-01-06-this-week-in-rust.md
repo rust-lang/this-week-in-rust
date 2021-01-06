@@ -23,11 +23,11 @@ No newsletters this week.
 * [Insta got a new website with docs](https://insta.rs/) and a [Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=mitsuhiko.insta)
 
 ### Observations/Thoughts
- * [Reflecting on developing a database (2020 edition)](https://alex-dukhno.github.io/2020-12-31-Reflecting-on-developing-a-database-(2020-edition)/)
+* [Reflecting on developing a database (2020 edition)](https://alex-dukhno.github.io/2020-12-31-Reflecting-on-developing-a-database-(2020-edition)/)
 * [bore(1) + nonymous: lessons learned writing a DNS query tool and `#![no_std]` DNS library](https://www.azabani.com/2021/01/03/nonymous-bore.html)
 
 ### Rust Walkthroughs
-*[Building a runtime reflection system for Rust 🦀️ (Part 3)] (https://www.osohq.com/post/runtime-reflection-pt-3)
+* [Building a runtime reflection system for Rust 🦀️ (Part 3)](https://www.osohq.com/post/runtime-reflection-pt-3)
 
 ### Miscellaneous
 
