@@ -23,6 +23,8 @@ No newsletters this week.
 ### Observations/Thoughts
  * [Reflecting on developing a database (2020 edition)](https://alex-dukhno.github.io/2020-12-31-Reflecting-on-developing-a-database-(2020-edition)/)
 
+* [bore(1) + nonymous: lessons learned writing a DNS query tool and `#![no_std]` DNS library](https://www.azabani.com/2021/01/03/nonymous-bore.html)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
