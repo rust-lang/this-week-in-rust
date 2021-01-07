@@ -14,22 +14,59 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-No newsletters this week.
-
 ### Official
+* [Announcing Rust 1.49.0](https://blog.rust-lang.org/2020/12/31/Rust-1.49.0.html)
+* [mdBook security advisory](https://blog.rust-lang.org/2021/01/04/mdbook-security-advisory.html)
+
+### Newsletters
+* [RiB Newsletter #19 - Rust and smart contracts](https://www.reddit.com/r/rust/comments/ks5ivd/rib_newsletter_19_rust_and_smart_contracts/)
 
 ### Project/Tooling Updates
+* [Rust Analyzer Changelog #58](https://rust-analyzer.github.io/thisweek/2021/01/04/changelog-58.html)
+* [Rust Search Extension Changelog v1.1](https://rust.extension.sh/changelog/#v1-1-2021-01-07)
+* [Rust Design Patterns now also as a book](https://www.reddit.com/r/rust/comments/kowtqn/rust_design_patterns_now_also_as_a_book/)
+* [Pijul - How to survive?](https://pijul.org/posts/2021-01-05-how-to-survive/)
+* [RustFFT 5.0 has been released!](https://users.rust-lang.org/t/rustfft-5-0-has-been-released/53709)
 * [napi 1.0 released](https://napi.rs)
 * [Insta got a new website with docs](https://insta.rs/) and a [Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=mitsuhiko.insta)
+* [Isahc 1.0 and Retrospective](https://stephencoakley.com/2020/12/29/isahc-1.0-and-retrospective)
+* [slotmap 1.0 has been released! Copy restriction removed, no_std support, and more](https://www.reddit.com/r/rust/comments/kq6lt2/slotmap_10_has_been_released_copy_restriction/)
 
 ### Observations/Thoughts
- * [Reflecting on developing a database (2020 edition)](https://alex-dukhno.github.io/2020-12-31-Reflecting-on-developing-a-database-(2020-edition)/)
+* [Reflecting on developing a database (2020 edition)](https://alex-dukhno.github.io/2020-12-31-Reflecting-on-developing-a-database-(2020-edition)/)
 * [bore(1) + nonymous: lessons learned writing a DNS query tool and `#![no_std]` DNS library](https://www.azabani.com/2021/01/03/nonymous-bore.html)
+* [Exploring RustFFT's SIMD Architecture](https://users.rust-lang.org/t/exploring-rustffts-simd-architecture/53780)
+* [Understanding Yew Part 1](https://dev.to/rusty_sys_dev/understanding-yew-part-1-3cfn)
+* [Transposing options/results with iterators](https://dev.to/elshize/transposing-options-results-with-iterators-aj3)
+* [Dark side of POSIX APIs](https://vorner.github.io/2021/01/03/dark-side-of-posix-apis.html)
+* [Redesigning coca's Storage Abstraction](https://gist.github.com/teryror/7b9a23fd0cd8dcfbcb6ebd34ee2639f8)
+* [Generic associated types encode higher-order functions on types](https://willcrichton.net/notes/gats-are-hofs/)
+* [Rust's SemVer Snares: Sizedness and Size](https://jack.wrenn.fyi/blog/semver-snares-size/)
+* [Why using WebAssembly and Rust together improves Node.js performance](https://developer.ibm.com/articles/why-webassembly-and-rust-together-improve-nodejs-performance/)
 
 ### Rust Walkthroughs
-*[Building a runtime reflection system for Rust 🦀️ (Part 3)] (https://www.osohq.com/post/runtime-reflection-pt-3)
+* [Building a runtime reflection system for Rust 🦀️ (Part 3)](https://www.osohq.com/post/runtime-reflection-pt-3)
+* [Writing a Kubernetes CRD Controller in Rust](http://technosophos.com/2019/08/07/writing-a-kubernetes-controller-in-rust.html)
+* [Adding FFI Support in x7](https://dpbriggs.ca/blog/Adding-FFI-Support-In-x7)
+* [Recursive Iterators in Rust](https://fasterthanli.me/articles/recursive-iterators-rust)
+* [Writing a Prometheus MPD Exporter](https://beyermatthias.de/blog/2021/01/03/writing-a-prometheus-mpd-exporter/)
+* [Rust Programming Language Tutorial - How to Build a To-Do List App](https://www.freecodecamp.org/news/how-to-build-a-to-do-app-with-rust/)
+* [Diving into Rust with a CLI](https://dev.to/kbknapp/diving-into-rust-with-a-cli-4gap)
+* [Creating a GUI for a Rust application](https://dev.to/henrybarreto/creating-a-gui-for-a-rust-application-2h1g)
+* [Zero to Production #6.5: An Introduction To Property-Based Testing In Rust](https://www.lpalmieri.com/posts/an-introduction-to-property-based-testing-in-rust/)
+* [Holiday Hacking - Tracking my heart rate while playing Call of Duty](https://jcdav.is/2021/01/04/Holiday-Hacking-COD-HR/)
+* [Introducing Rustybot (part 1 of n)](https://objectdisoriented.evokewonder.com/posts/introducing-rustybot-part-1/)
+* [Introducing Rustybot (part 2 of n)](https://objectdisoriented.evokewonder.com/posts/introducing-rustybot-part-2/)
+* [Extracting Files From an Archive Format I Understand Way Too Much](https://jam1.re/blog/extracting-files-from-an-archive-format-i-understand-way-too-much)
+* [series] [eBPF Networking in Rust](https://dev.to/kbknapp/series/10570)
+* [video] [FLTK Rust: use FLUID (RAD tool) with Rust](https://youtu.be/k_P0wG3-dNk)
 
 ### Miscellaneous
+* [Rust 1.49.0 Released With 64-bit ARM Linux Support Rated Tier-1](https://www.phoronix.com/scan.php?page=news_item&px=Rust-1.49-Released)
+* [Rust will drop official support for Windows XP](https://www.reddit.com/r/rust/comments/knpvv9/rust_will_drop_official_support_for_windows_xp/)
+* [Rust is the second most used language for Advent of Code, after Python](https://www.reddit.com/r/rust/comments/knyoej/rust_is_the_second_most_used_language_for_advent/)
+* [Rust grew 94% on O'Reilly online learning this year](https://www.reddit.com/r/rust/comments/kp1piy/rust_grew_94_on_oreilly_online_learning_this_year/)
+* [Rust is now overall faster than C in benchmarks](https://www.reddit.com/r/rust/comments/kpqmrh/rust_is_now_overall_faster_than_c_in_benchmarks/)
 
 # Crate of the Week
 
