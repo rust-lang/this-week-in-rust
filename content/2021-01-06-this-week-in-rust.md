@@ -86,6 +86,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [rust-unofficial/patterns has a few good first issues](https://github.com/rust-unofficial/patterns/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -147,7 +149,7 @@ decision. Express your opinions now.
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [Deprecate the authors field](https://github.com/rust-lang/rfcs/pull/3052)
 
 # Upcoming Events
 
