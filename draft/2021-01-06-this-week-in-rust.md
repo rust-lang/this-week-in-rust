@@ -27,13 +27,13 @@ No newsletters this week.
 * [bore(1) + nonymous: lessons learned writing a DNS query tool and `#![no_std]` DNS library](https://www.azabani.com/2021/01/03/nonymous-bore.html)
 
 ### Rust Walkthroughs
-*[Building a runtime reflection system for Rust 🦀️ (Part 3)] (https://www.osohq.com/post/runtime-reflection-pt-3)
+* [Building a runtime reflection system for Rust 🦀️ (Part 3)](https://www.osohq.com/post/runtime-reflection-pt-3)
 
 ### Miscellaneous
 
 # Crate of the Week
 
-This week's crate is [autograd](https://github.com/raskr/rust-autograd), a library of differentiable operations and tensors for machine learning applications.
+This week's crate is [nom-supreme](https://crates.io/crates/nom-supreme), a crate of utilities for nom parsers, especially for great parse error handling.
 
 Thanks to [Zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/864) for the suggestion!
 
@@ -54,27 +54,24 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-275 pull requests were [merged in the last week][merged]
+322 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-12-21..2020-12-28
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-12-28..2021-01-04
 
-* [stabilize `min_const_generics`](https://github.com/rust-lang/rust/pull/79135) (Huzzah!)
-* [utilize PGO for rustc linux dist builds](https://github.com/rust-lang/rust/pull/80262)
-* [suggest fn ptr rather than fn item and suggest to use `Fn` trait bounds rather than the unique closure type](https://github.com/rust-lang/rust/pull/80284)
-* [implement a compiler diagnostic for move async mistake](https://github.com/rust-lang/rust/pull/80160)
-* [highlight edition-specific keywords correctly in code blocks, accounting for code block edition modifiers](https://github.com/rust-lang/rust/pull/80226)
-* [prevent caching normalization results with a cycle](https://github.com/rust-lang/rust/pull/80246)
-* [fix ICE when lookup method in trait for type that have bound vars](https://github.com/rust-lang/rust/pull/80170)
-* [remove `DefPath` from `Visibility` and calculate it on demand](https://github.com/rust-lang/rust/pull/80099)
-* [`rustc_query_system : reduce dependency graph memory usage](https://github.com/rust-lang/rust/pull/79589)
-* [add `impl Div<NonZeroU'*`> for u`* which cannot panic](https://github.com/rust-lang/rust/pull/79134)
-* [deprecate atomic `compare_and_swap` method](https://github.com/rust-lang/rust/pull/79261)
-* [stabilize `core::slice::fill`](https://github.com/rust-lang/rust/pull/79213)
-* [stabilize `deque_range`](https://github.com/rust-lang/rust/pull/79022)
-* [use `clone_from` from `hashbrown::`{`HashMap`, `HashSet`}](https://github.com/rust-lang/rust/pull/80400)
-* [futures: perf: pack the state and future of unfolds in the same memory](https://github.com/rust-lang/futures-rs/pull/2283)
-* [cargo: stabilize `RUSTC_WORKSPACE_WRAPPER`](https://github.com/rust-lang/cargo/pull/8976)
-* [rustdoc: stabilise `--default-theme` command line option](https://github.com/rust-lang/rust/pull/79642)
+* [add edition 2021](https://github.com/rust-lang/rust/pull/79576)
+* [sync `rustc_codegen_cranelift`](https://github.com/rust-lang/rust/pull/80408)
+* [diag: print enum variant instead of enum type](https://github.com/rust-lang/rust/pull/80613)
+* [suggest renaming or escaping when fixing non-snake-case identifiers which would conflict with keywords](https://github.com/rust-lang/rust/pull/80592)
+* [support pattern as const parents in `type_of`](https://github.com/rust-lang/rust/pull/80551)
+* [parse const generics defaults](https://github.com/rust-lang/rust/pull/80547)
+* [miri: make size/align_of_val work for dangling raw ptrs](https://github.com/rust-lang/rust/pull/80491)
+* [slightly more typed interface to panic implementation](https://github.com/rust-lang/rust/pull/80260)
+* [remove all `doc_comment!{}` hacks by using `#[doc = expr]` where needed](https://github.com/rust-lang/rust/pull/79150)
+* [make `copy`(`_nonoverlapping`) const](https://github.com/rust-lang/rust/pull/79684)
+* [add `Iterator::intersperse`](https://github.com/rust-lang/rust/pull/79479)
+* [add fallible `Box`, `Arc`, and `Rc` allocator APIs](https://github.com/rust-lang/rust/pull/80310)
+* [do not create dangling `&T` in `Weak<T>::drop`](https://github.com/rust-lang/rust/pull/80488)
+* [de-stabilize unsized raw ptr methods for `Weak`](https://github.com/rust-lang/rust/pull/80422)
 
 ## Rust Compiler Performance Triage
 
@@ -142,11 +139,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> This is a common theme in Rust’s design: To reduce breakage as code evolves, you’re only allowed to rely on features that have been intentionally declared by the author.
+> Think of "it works" when you have UB like this: You've flipped a coin 1 time and it's come up heads and you've concluded it's never tails.
 
-– [2e71828 on rust-users](https://users.rust-lang.org/t/why-explicit-const-fn-token-needed/53006/2)
+– @mirashii on the community discord
 
-Thanks to [Kornel](https://users.rust-lang.org/t/twir-quote-of-the-week/328/980) for the suggestion.
+Thanks to [Michael Bryan](https://users.rust-lang.org/t/twir-quote-of-the-week/328/981) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
