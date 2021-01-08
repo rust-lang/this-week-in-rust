@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [video] [Learning Rust by following the "Too Many Linked Lists" tutorial (Episode 1)](https://www.youtube.com/watch?v=aNv_oqveuCE)
+
 ### Miscellaneous
 
 # Crate of the Week
