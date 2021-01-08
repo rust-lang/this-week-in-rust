@@ -1,6 +1,6 @@
 Title: This Week in Rust 372
 Number: 372
-Date: 2020-01-06
+Date: 2021-01-06
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -152,9 +152,6 @@ decision. Express your opinions now.
 # Upcoming Events
 
 ### Online
-* [January 6, Johannesburg, ZA - Monthly Joburg Rust Chat - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/275424876/)
-* [January 6, Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy Rust](https://www.meetup.com/indyrs/events/jhfstrycccbjb/)
-* [January 6, Denver, CO, US - Building Malware in Rust TBG by Stu Small - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/275094422/)
 * [January 7, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrycccbkb/)
 * [January 11, Seattle, WA, US - Monthly Meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycccbqb/)
 * [January 12, Saarbücken, Saarland, DE - Meetup: 7u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/275077213/)
