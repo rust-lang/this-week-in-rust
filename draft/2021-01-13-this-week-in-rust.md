@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+- [XML parsing in Rust](https://simplabs.com/blog/2020/12/31/xml-and-rust/)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
