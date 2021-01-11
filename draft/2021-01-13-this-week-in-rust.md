@@ -25,10 +25,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
-- [XML parsing in Rust](https://simplabs.com/blog/2020/12/31/xml-and-rust/)
+* [XML parsing in Rust](https://simplabs.com/blog/2020/12/31/xml-and-rust/)
+* [parsing baseball files in Rust instead of Python for an 8x speedup!](https://gregstoll.wordpress.com/2021/01/10/parsing-baseball-files-in-rust-instead-of-python-for-an-8x-speedup/)
 
 ### Rust Walkthroughs
 
+* [Setting a Rust Executable's Icon in Windows](https://www.anthropicstudios.com/2021/01/05/setting-a-rust-windows-exe-icon/)
+* [The Little Book of Rust Books](https://lborb.github.io/book/title-page.html)
+* [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
 * [video] [Learning Rust by following the "Too Many Linked Lists" tutorial (Episode 1)](https://www.youtube.com/watch?v=aNv_oqveuCE)
 
 ### Miscellaneous
