@@ -70,15 +70,13 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-* [2020-01-05](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-01-05.md):
-0 Regressions, 2 Improvements, 2 Mixed
-This was a somewhat quiet week with the exception of large gains to the `ctfe` 
-(const function) stress test benchmark caused by changes to how rustc serializes
-and deserializes cache from disk.
+* [2020-01-12](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-01-12.md):
+1 Regressions, 2 Improvements, 3 Mixed
+Overall, a positive albeit quiet week. The largest change came from the incremental compilation working group which delivered large gains in performance caused by [changes](https://github.com/rust-lang/rust/issues/76896) in how inlining is handled in debug mode. Unfortunately, these changes may be reversed due to concerns
 
 Triage done by @rylev.
 
-See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-01-05.md) for more.
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-01-12.md) for more.
 
 ## Approved RFCs
 
