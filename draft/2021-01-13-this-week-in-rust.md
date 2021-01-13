@@ -20,6 +20,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [GCC Rust – How it can be achieved](https://www.embecosm.com/2021/01/12/gcc-rust-how-it-can-be-achieved/)
+* [Open Source Security, Inc. Announces Funding of GCC Front-End for Rust](https://opensrcsec.com/open_source_security_announces_rust_gcc_funding)
+
 ### Observations/Thoughts
 
 - [XML parsing in Rust](https://simplabs.com/blog/2020/12/31/xml-and-rust/)
