@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+- [XML parsing in Rust](https://simplabs.com/blog/2020/12/31/xml-and-rust/)
+
 ### Rust Walkthroughs
 
 * [video] [Learning Rust by following the "Too Many Linked Lists" tutorial (Episode 1)](https://www.youtube.com/watch?v=aNv_oqveuCE)
