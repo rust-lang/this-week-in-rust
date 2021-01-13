@@ -32,9 +32,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [nom-supreme](https://crates.io/crates/nom-supreme), a crate of utilities for nom parsers, especially for great parse error handling.
+This week's crate is [fast-float](https://github.com/aldanor/fast-float-rust), a crate providing methods to parse floats *really* fast.
 
-Thanks to [Zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/864) for the suggestion!
+Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/868) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -53,24 +53,32 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-322 pull requests were [merged in the last week][merged]
+320 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-12-28..2021-01-04
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-01-04..2021-01-11
 
-* [add edition 2021](https://github.com/rust-lang/rust/pull/79576)
-* [sync `rustc_codegen_cranelift`](https://github.com/rust-lang/rust/pull/80408)
-* [diag: print enum variant instead of enum type](https://github.com/rust-lang/rust/pull/80613)
-* [suggest renaming or escaping when fixing non-snake-case identifiers which would conflict with keywords](https://github.com/rust-lang/rust/pull/80592)
-* [support pattern as const parents in `type_of`](https://github.com/rust-lang/rust/pull/80551)
-* [parse const generics defaults](https://github.com/rust-lang/rust/pull/80547)
-* [miri: make size/align_of_val work for dangling raw ptrs](https://github.com/rust-lang/rust/pull/80491)
-* [slightly more typed interface to panic implementation](https://github.com/rust-lang/rust/pull/80260)
-* [remove all `doc_comment!{}` hacks by using `#[doc = expr]` where needed](https://github.com/rust-lang/rust/pull/79150)
-* [make `copy`(`_nonoverlapping`) const](https://github.com/rust-lang/rust/pull/79684)
-* [add `Iterator::intersperse`](https://github.com/rust-lang/rust/pull/79479)
-* [add fallible `Box`, `Arc`, and `Rc` allocator APIs](https://github.com/rust-lang/rust/pull/80310)
-* [do not create dangling `&T` in `Weak<T>::drop`](https://github.com/rust-lang/rust/pull/80488)
-* [de-stabilize unsized raw ptr methods for `Weak`](https://github.com/rust-lang/rust/pull/80422)
+* [use correct span for structured suggestion](https://github.com/rust-lang/rust/pull/80801)
+* [rustc_parse: better spans for synthesized token streams](https://github.com/rust-lang/rust/pull/80784)
+* [ast: remove some indirection layers from values in key-value attributes](https://github.com/rust-lang/rust/pull/80441)
+* [resolve: scope visiting doesn't need an `Ident`](https://github.com/rust-lang/rust/pull/80782)
+* [resolve/expand: improve attribute expansion on macro definitions and calls](https://github.com/rust-lang/rust/pull/80563)
+* [optimize DST field access](https://github.com/rust-lang/rust/pull/80200)
+* [allow references to interior mutable data behind a feature gate](https://github.com/rust-lang/rust/pull/80418)
+* [fixed const_generics error help](https://github.com/rust-lang/rust/pull/80714)
+* [use an empty `TokenCursorFrame` stack when capturing tokens](https://github.com/rust-lang/rust/pull/80830)
+* [deduplicate solution enum in chalk-recursive](https://github.com/rust-lang/chalk/pull/674)
+* [optimize away some `fs::metadata` calls](https://github.com/rust-lang/rust/pull/80756)
+* [optimize away some path lookups in the generic `fs::copy` implementation](https://github.com/rust-lang/rust/pull/80755)
+* [implement `From<char>` for `u64` and `u128`](https://github.com/rust-lang/rust/pull/79502)
+* [stabilize `slice::strip_prefix` and `slice::strip_suffix`](https://github.com/rust-lang/rust/pull/77853)
+* [add `[T; N]::each_ref` and `[T; N]::each_mut`](https://github.com/rust-lang/rust/pull/75490)
+* [futures: perf: avoid an Option in the `Map*` futures](https://github.com/rust-lang/futures-rs/pull/2306)
+* [backtrace: use the symbol table if the DWARF only has line numbers](https://github.com/rust-lang/backtrace-rs/pull/401)
+* [cargo: stabilize -Zfeatures and -Zpackage-features](https://github.com/rust-lang/cargo/pull/8997)
+* [rustdoc: fix macros 2.0 and built-in derives being shown at the wrong path](https://github.com/rust-lang/rust/pull/77862)
+* [docs.rs: fix N+1 queries when fetching crate details](https://github.com/rust-lang/docs.rs/pull/1239)
+* [docs.rs: fix performance regression in all releases-views](https://github.com/rust-lang/docs.rs/pull/1237)
+* [clippy: new lint: vec_init_then_push](https://github.com/rust-lang/rust-clippy/pull/6538)
 
 ## Rust Compiler Performance Triage
 
@@ -138,11 +146,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Think of "it works" when you have UB like this: You've flipped a coin 1 time and it's come up heads and you've concluded it's never tails.
+> Rust favours security over convenience. Rust does not want you to make silly little mistakes than can waste so much of your time debugging, which in the end makes it more convenient.
 
-– @mirashii on the community discord
+– [@Joe232 on rust-users](https://users.rust-lang.org/t/rust-does-not-support-and-operator/53851/7)
 
-Thanks to [Michael Bryan](https://users.rust-lang.org/t/twir-quote-of-the-week/328/981) for the suggestion.
+Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/986) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
