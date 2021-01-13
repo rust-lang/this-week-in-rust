@@ -25,10 +25,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
-- [XML parsing in Rust](https://simplabs.com/blog/2020/12/31/xml-and-rust/)
+* [XML parsing in Rust](https://simplabs.com/blog/2020/12/31/xml-and-rust/)
+* [parsing baseball files in Rust instead of Python for an 8x speedup!](https://gregstoll.wordpress.com/2021/01/10/parsing-baseball-files-in-rust-instead-of-python-for-an-8x-speedup/)
 
 ### Rust Walkthroughs
 
+* [Setting a Rust Executable's Icon in Windows](https://www.anthropicstudios.com/2021/01/05/setting-a-rust-windows-exe-icon/)
+* [The Little Book of Rust Books](https://lborb.github.io/book/title-page.html)
+* [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
 * [video] [Learning Rust by following the "Too Many Linked Lists" tutorial (Episode 1)](https://www.youtube.com/watch?v=aNv_oqveuCE)
 
 ### Miscellaneous
@@ -49,6 +53,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [ZcashFoundation/zebra - Create test to catch duplicate dependencies](https://github.com/ZcashFoundation/zebra/issues/1582)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -98,7 +104,10 @@ See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC: Serve crates-io registry over HTTP as static files](https://github.com/rust-lang/rfcs/pull/2789)
+* [Infallible promotion](https://github.com/rust-lang/rfcs/pull/3027)
+* [RFC: Add `target_abi` configuration](https://github.com/rust-lang/rfcs/pull/2992)
+* [RFC: Plan to make core and std's panic identical](https://github.com/rust-lang/rfcs/pull/3007)
 
 ## Final Comment Period
 
@@ -108,27 +117,27 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in the final comment period.*
+* [Allow "artifact dependencies" on bin, cdylib, and staticlib crates](https://github.com/rust-lang/rfcs/pull/3028)
+* [RFC: Pointer metadata & VTable](https://github.com/rust-lang/rfcs/pull/2580)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [Stabilize split_inclusive](https://github.com/rust-lang/rust/pull/77858)
+* [disposition: merge] [Tracking Issue for `panic_any`](https://github.com/rust-lang/rust/issues/78500)
 * [Tracking issue for stable SIMD in Rust](https://github.com/rust-lang/rust/issues/48556)
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [Add the boxed!() macro to "de-magic" box syntax](https://github.com/rust-lang/rfcs/pull/3057)
+* [try_trait_v2: A new design for the ? desugaring](https://github.com/rust-lang/rfcs/pull/3058)
+* [Add language support for C-compatible bit-fields](https://github.com/rust-lang/rfcs/pull/3064)
 
 # Upcoming Events
 
 ### Online
-* [January 6, Johannesburg, ZA - Monthly Joburg Rust Chat - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/275424876/)
-* [January 6, Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy Rust](https://www.meetup.com/indyrs/events/jhfstrycccbjb/)
-* [January 6, Denver, CO, US - Building Malware in Rust TBG by Stu Small - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/275094422/)
-* [January 7, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrycccbkb/)
-* [January 11, Seattle, WA, US - Monthly Meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycccbqb/)
-* [January 12, Saarbücken, Saarland, DE - Meetup: 7u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/275077213/)
 * [January 14, San Diego, CA, US - San Diego Rust January 2021 Tele-Meetup - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/275547915/)
+* [January 20, Vancouver, BC, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/npqfbsycccbbc/)
+* [January 21, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrycccbcc/)
+* [January 26, Dallas, TX, US - Last Tuesay - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrycccbjc/)
 
 ### North America
 * [January 14, Columbus, OH, US - Monthly Meeting - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dpkhgrycccbsb/)
