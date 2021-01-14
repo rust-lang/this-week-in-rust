@@ -1,6 +1,6 @@
-Title: This Week in Rust 373
-Number: 373
-Date: 2020-01-13
+Title: This Week in Rust 374
+Number: 374
+Date: 2021-01-20
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -17,47 +17,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Newsletters
-* [This Month in Rust GameDev #17 - December 2020](https://rust-gamedev.github.io/posts/newsletter-017/)
-* [This Month in Rust OSDev (December 2020)](https://rust-osdev.com/this-month/2020-12/)
 
 ### Project/Tooling Updates
-* [rust-analyzer Changelog #59](https://rust-analyzer.github.io/thisweek/2021/01/11/changelog-59.html)
-* [Knurling-rs Changelog #12](https://ferrous-systems.com/blog/knurling-changelog-12/)
-* [GCC Rust – How it can be achieved](https://www.embecosm.com/2021/01/12/gcc-rust-how-it-can-be-achieved/)
-* [Open Source Security, Inc. Announces Funding of GCC Front-End for Rust](https://opensrcsec.com/open_source_security_announces_rust_gcc_funding)
-* [Progress report on rustc_codegen_cranelift (Dec 2020)](https://bjorn3.github.io/2021/01/07/progress-report-dec-2020.html)
 
 ### Observations/Thoughts
 
-* [XML parsing in Rust](https://simplabs.com/blog/2020/12/31/xml-and-rust/)
-* [parsing baseball files in Rust instead of Python for an 8x speedup!](https://gregstoll.wordpress.com/2021/01/10/parsing-baseball-files-in-rust-instead-of-python-for-an-8x-speedup/)
-* [Philosophies of Rust and Haskell](https://www.fpcomplete.com/blog/philosophies-rust-haskell/)
-* [Maybe you don't need Rust and WASM to speed up your JS](https://mrale.ph/blog/2018/02/03/maybe-you-dont-need-rust-to-speed-up-your-js.html)
-* [Simplifying Endian-Specific file parsers in Rust with Omnom and type inference](https://www.parsed.uk/articles/Simplifying_EndianSpecific_file_parsers_in_Rust_with_Omnom_and_type_inference)
-* [Rust's SemVer Snares: repr(transparent) Super-Cut](https://jack.wrenn.fyi/blog/semver-snares-transparent/)
-* [Exploiting Mixed Binaries](https://www.cs.ucy.ac.cy/~eliasathan/papers/tops20.pdf)
-* [audio] [The Virtual World: Embedded Rust part 2 - James Munns](https://anchor.fm/the-virtual-world/episodes/Embedded-Rust-part-2---James-Munns-eooog5)
-
 ### Rust Walkthroughs
 
-* [Setting a Rust Executable's Icon in Windows](https://www.anthropicstudios.com/2021/01/05/setting-a-rust-windows-exe-icon/)
-* [The Little Book of Rust Books](https://lborb.github.io/book/title-page.html)
-* [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
-* [Hecto: Build your own text editor in Rust](https://www.philippflenker.com/hecto/)
-* [CLI Shell Completions in Rust](https://dev.to/kbknapp/cli-shell-completions-in-rust-37g1)
-* [Dynamically Aligned Types?](https://dev.to/cad97/dynamically-aligned-types-360i)
-* [Polishing Rust - Temporary Value Dropped While Borrowed](https://mrtact.medium.com/polishing-rust-42d9131d1c3)
-* [Testing Hardware Using Rust Firmware and Rust Based CLI](https://www.jaredwolff.com/testing-hardware-using-rust/)
-* [Exposing a Rust Library to Other Languages](https://sixtyfps.io/blog/expose-rust-library-to-other-languages.html)
-* [Replacing FastAPI with Rust: Part 3 - Trying Actix](https://dev.to/dbanty/replacing-fastapi-with-rust-part-3-trying-actix-32lp)
-* [video] [Learning Rust by following the "Too Many Linked Lists" tutorial (Episode 1)](https://youtu.be/aNv_oqveuCE)
-* [video] [Rust Parser and State Machine](https://youtu.be/2aI6bJk76xM)
-
 ### Miscellaneous
-* [Rust Language Cheat Sheet](https://cheats.rs/)
-* [Another Rust-y OS: Theseus joins Redox in pursuit of safer, more resilient systems](https://www.theregister.com/2021/01/14/rust_os_theseus/)
-* [video] [OSDI '20 - Redleaf: Isolation and Communication in a Safe Operating System](https://youtu.be/MKjliJWzs6w)
-* [video] [Read a paper: Theseus--An OS written in Rust](https://youtu.be/NzmbDU13Ki8)
 
 # Crate of the Week
 
@@ -173,8 +140,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
-- [Rust Engineer at The Graph (Remote)](https://thegraph.com/jobs/rust-engineer).
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
