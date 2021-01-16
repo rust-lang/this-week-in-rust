@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+- [serial_int](https://crates.io/crates/serial_int): Safe, easy-to-use auto-increment integers
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
