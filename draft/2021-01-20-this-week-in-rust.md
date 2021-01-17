@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 ### Miscellaneous
+* [video] [(Live Coding) Zola, a Static Site Generator. Migrating my blog & reviewing Zola's source code.](https://youtu.be/vezfR5ggEkc)
 
 # Crate of the Week
 
