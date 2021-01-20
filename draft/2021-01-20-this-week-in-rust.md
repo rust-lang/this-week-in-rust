@@ -20,17 +20,22 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [video] [Penrose 0.2.0 Overview](https://www.youtube.com/watch?v=opLOzofmawI&feature=youtu.be)
+
 ### Observations/Thoughts
 
+* [Cryptoxide perf (SHA2 / Blake2)](https://vincenthz.github.io/cryptoxide-performance/)
+
 ### Rust Walkthroughs
+
 * [OS in Rust: Running our custom kernel on an emulator: Part-5](https://blog.knoldus.com/os-in-rust-running-our-custom-kernel-on-an-emulator-part-5/)
+* [Polishing Rust: Boxing and Unboxing Results](https://mrtact.medium.com/polishing-rust-30eeac3c4bf3)
 
 ### Miscellaneous
-* [video] [(Live Coding) Zola, a Static Site Generator. Migrating my blog & reviewing Zola's source code.](https://youtu.be/vezfR5ggEkc)
-
-* [video] [std::process::exit is evil - a Rust bug fixing story](https://youtu.be/zQC8T71Y8e4)
 
 * [Rust/WebAssembly on AWS Lambda@Edge](https://markentier.tech/posts/2021/01/rust-wasm-on-aws-lambda-edge/)
+* [video] [(Live Coding) Zola, a Static Site Generator. Migrating my blog & reviewing Zola's source code.](https://youtu.be/vezfR5ggEkc)
+* [video] [std::process::exit is evil - a Rust bug fixing story](https://youtu.be/zQC8T71Y8e4)
 
 # Crate of the Week
 
@@ -160,6 +165,11 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Rust Developer - Full Stack at HUM Systems (Berlin, DE)](https://hum-systems.com/en/jobs/rust-developer-full-stack/?job=1298)
+* [Multiple Roles at Ockam (Remote)](https://www.ockam.io/team#open-roles)
+* [Lead Developer Embedded Rust at Tweede Golf (Nijmegen, NL)](https://tweedegolf.nl/vacatures/2/lead-developer-embedded-rust)
+* 
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
