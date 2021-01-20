@@ -40,7 +40,7 @@ What we are generally NOT looking for includes:
 * Duplicates of recent posts (even with the wording changed slightly)
 * Links to crates or GitHub repos without some sort of context. We would much rather you submit a blog post introducing your project and how a Rust user might use it (and what it would help them do) and/or what you learned about Rust in the process of writing the project.
 * Anything behind a paywall
-* Anything that requires information to be shared/captured (like email address) in order to access
+* Anything that requires information to be shared/captured (like an email address) in order to access
 
 ## How I get PR lists:
 
