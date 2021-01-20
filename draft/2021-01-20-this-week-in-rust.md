@@ -169,7 +169,6 @@ Email the [Rust Community Team][community] for access.
 * [Rust Developer - Full Stack at HUM Systems (Berlin, DE)](https://hum-systems.com/en/jobs/rust-developer-full-stack/?job=1298)
 * [Multiple Roles at Ockam (Remote)](https://www.ockam.io/team#open-roles)
 * [Lead Developer Embedded Rust at Tweede Golf (Nijmegen, NL)](https://tweedegolf.nl/vacatures/2/lead-developer-embedded-rust)
-* 
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
