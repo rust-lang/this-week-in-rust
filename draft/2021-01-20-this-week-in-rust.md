@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+- [Xaynet](https://crates.io/crates/xaynet): A masked federated learning framework to build privacy-preserving mobile edge-AI applications
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
