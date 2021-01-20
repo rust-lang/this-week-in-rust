@@ -8,7 +8,39 @@ license](http://mit-license.org/).
 
 ## PRs for next issue are now being accepted
 
-Check the `drafts` directory for more details.
+To propose content for inclusion in the next newsletter (found in the `drafts/`
+folder), create a new [Pull Request][pr] updating the relevant section in the 
+draft.
+
+Alternately, tweet us [@thisweekinrust](https://twitter.com/thisweekinrust).
+
+### What do we look for when considering whether to include something in This Week in Rust?
+
+This Week in Rust is intended to highlight the incredible work of the Rust Community. 
+
+What we are generally looking for includes:
+
+* how-to intros (and advanced deep dives) into Rust concepts and areas
+* Rust walkthroughs
+* updates on tooling when in long form or framed as a tutorial (see what we are not looking for for more details)
+* Rust-related podcast episodes
+* Rust-related screenshots and videos
+* Rust meetup recordings
+* Rust meetup announcements
+* Presenter slide decks on Rust
+* Observations and throughts on Rust and the Rust community
+* Calls for participation in Rust open source projeccts
+* Rust job announcements
+* and more!
+
+What we are generally NOT looking for includes:
+
+* Anything that violates the [Rust Community Code of Conduct](https://www.rust-lang.org/policies/code-of-conduct)
+* Rants or anything degrading to any part or member of the Community. Rather than submitting an article about what is wrong with something, we would much rather you write something that explains how you made it better.
+* Duplicates of recent posts (even with the wording changed slightly)
+* Links to crates or GitHub repos without some sort of context. We would much rather you submit a blog post introducing your project and how a Rust user might use it (and what it would help them do) and/or what you learned about Rust in the process of writing the project.
+* Anything behind a paywall
+* Anything that requires information to be shared/captured (like email address) in order to access
 
 ## How I get PR lists:
 
