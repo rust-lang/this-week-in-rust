@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [OS in Rust: Running our custom kernel on an emulator: Part-5](https://blog.knoldus.com/os-in-rust-running-our-custom-kernel-on-an-emulator-part-5/)
 
 ### Miscellaneous
 * [video] [(Live Coding) Zola, a Static Site Generator. Migrating my blog & reviewing Zola's source code.](https://youtu.be/vezfR5ggEkc)
