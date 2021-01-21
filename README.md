@@ -21,7 +21,7 @@ This Week in Rust is intended to highlight the incredible work of the Rust Commu
 What we are generally looking for includes:
 
 * how-to intros (and advanced deep dives) into Rust concepts and areas
-* Rust walkthroughs
+* Rust walkthroughs that explain concepts in different ways than well known resources like [the Rust book](https://doc.rust-lang.org/stable/book/), [Rustlings](https://github.com/rust-lang/rustlings), and [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
 * updates on tooling when in long form or framed as a tutorial (for more details, see what we are not looking for below)
 * Rust-related podcast episodes
 * Rust-related screenshots and videos
@@ -29,7 +29,7 @@ What we are generally looking for includes:
 * Rust meetup announcements
 * Presenter slide decks on Rust
 * Observations and thoughts on Rust and the Rust community
-* Calls for participation in Rust open source projeccts
+* Calls for participation in Rust open source projects
 * Rust job announcements
 * and more!
 
@@ -39,8 +39,12 @@ What we are generally NOT looking for includes:
 * Rants or anything degrading to any part or member of the Community. Rather than submitting an article about what is wrong with something, we would much rather you write something that explains how you'd make it better.
 * Duplicates of recent posts (even with the wording changed slightly)
 * Links to crates or GitHub repos without some sort of context. We would much rather you submit a blog post introducing your project and how a Rust user might use it (and what it would help them do) and/or what you learned about Rust in the process of writing the project.
-* Anything behind a paywall
+* Anything behind a paywall (this includes includes Medium's paid article mechanism)
 * Anything that requires information to be shared/captured (like an email address) in order to access
+
+These are meant to be guidelines, if you are ever not sure about whether something should be included please feel free to open a pull request anyway and we can discuss it!
+
+The editors of This Week in Rust do reserve the right to make the decision about whether to include something or not, but we intend to do so in a way that is as transparent as possible.
 
 ## How I get PR lists:
 
