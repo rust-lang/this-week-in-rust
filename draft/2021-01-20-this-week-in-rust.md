@@ -28,6 +28,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Miscellaneous
 * [video] [(Live Coding) Zola, a Static Site Generator. Migrating my blog & reviewing Zola's source code.](https://youtu.be/vezfR5ggEkc)
 
+* [video] [std::process::exit is evil - a Rust bug fixing story](https://youtu.be/zQC8T71Y8e4)
+
 # Crate of the Week
 
 This week's crate is [fast-float](https://github.com/aldanor/fast-float-rust), a crate providing methods to parse floats *really* fast.
