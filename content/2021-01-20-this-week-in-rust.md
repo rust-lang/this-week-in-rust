@@ -76,7 +76,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [magic-wormhole/magic-wormhold.rs](https://github.com/magic-wormhole/magic-wormhole.rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+* [magic-wormhole/magic-wormhole.rs](https://github.com/magic-wormhole/magic-wormhole.rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
