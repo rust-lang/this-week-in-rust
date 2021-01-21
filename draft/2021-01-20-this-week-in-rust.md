@@ -34,9 +34,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [fast-float](https://github.com/aldanor/fast-float-rust), a crate providing methods to parse floats *really* fast.
+This week's crate is [dotenv-linter](https://github.com/dotenv-linter/dotenv-linter), a lightning fast linter for `.env` files.
 
-Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/868) for the suggestion!
+Thanks to [Grachev Mikhail](https://users.rust-lang.org/t/crate-of-the-week/2704/869) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -57,32 +57,46 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-320 pull requests were [merged in the last week][merged]
+391 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-01-04..2021-01-11
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-01-11..2021-01-18
 
-* [use correct span for structured suggestion](https://github.com/rust-lang/rust/pull/80801)
-* [rustc_parse: better spans for synthesized token streams](https://github.com/rust-lang/rust/pull/80784)
-* [ast: remove some indirection layers from values in key-value attributes](https://github.com/rust-lang/rust/pull/80441)
-* [resolve: scope visiting doesn't need an `Ident`](https://github.com/rust-lang/rust/pull/80782)
-* [resolve/expand: improve attribute expansion on macro definitions and calls](https://github.com/rust-lang/rust/pull/80563)
-* [optimize DST field access](https://github.com/rust-lang/rust/pull/80200)
-* [allow references to interior mutable data behind a feature gate](https://github.com/rust-lang/rust/pull/80418)
-* [fixed const_generics error help](https://github.com/rust-lang/rust/pull/80714)
-* [use an empty `TokenCursorFrame` stack when capturing tokens](https://github.com/rust-lang/rust/pull/80830)
-* [deduplicate solution enum in chalk-recursive](https://github.com/rust-lang/chalk/pull/674)
-* [optimize away some `fs::metadata` calls](https://github.com/rust-lang/rust/pull/80756)
-* [optimize away some path lookups in the generic `fs::copy` implementation](https://github.com/rust-lang/rust/pull/80755)
-* [implement `From<char>` for `u64` and `u128`](https://github.com/rust-lang/rust/pull/79502)
-* [stabilize `slice::strip_prefix` and `slice::strip_suffix`](https://github.com/rust-lang/rust/pull/77853)
-* [add `[T; N]::each_ref` and `[T; N]::each_mut`](https://github.com/rust-lang/rust/pull/75490)
-* [futures: perf: avoid an Option in the `Map*` futures](https://github.com/rust-lang/futures-rs/pull/2306)
-* [backtrace: use the symbol table if the DWARF only has line numbers](https://github.com/rust-lang/backtrace-rs/pull/401)
-* [cargo: stabilize -Zfeatures and -Zpackage-features](https://github.com/rust-lang/cargo/pull/8997)
-* [rustdoc: fix macros 2.0 and built-in derives being shown at the wrong path](https://github.com/rust-lang/rust/pull/77862)
-* [docs.rs: fix N+1 queries when fetching crate details](https://github.com/rust-lang/docs.rs/pull/1239)
-* [docs.rs: fix performance regression in all releases-views](https://github.com/rust-lang/docs.rs/pull/1237)
-* [clippy: new lint: vec_init_then_push](https://github.com/rust-lang/rust-clippy/pull/6538)
+* [use correct ABI for wasm32 by default](https://github.com/rust-lang/rust/pull/79998)
+* [improve diagnostics when closure doesn't meet trait bound](https://github.com/rust-lang/rust/pull/80635)
+* [enhance type inference errors involving the `?` operator](https://github.com/rust-lang/rust/pull/80517)
+* [explain method-call move errors in loops](https://github.com/rust-lang/rust/pull/80324)
+* [make CTFE able to check for undefined behavior](https://github.com/rust-lang/rust/pull/78407)
+* [split a func into cold/hot parts, reducing rustc binary size](https://github.com/rust-lang/rust/pull/80042)
+* [suggest `_` and `..` if a pattern has too few fields](https://github.com/rust-lang/rust/pull/80017)
+* [suggest `async {}` for `async || {}`](https://github.com/rust-lang/rust/pull/76580)
+* [do not suggest invalid code in pattern with loop](https://github.com/rust-lang/rust/pull/80941)
+* [add allow-by-default lint on implicit ABI in extern function pointers and items](https://github.com/rust-lang/rust/pull/76219)
+* [reintroduce `hir::ExprKind::If`](https://github.com/rust-lang/rust/pull/79328)
+* [remove redundant `def_id` lookups](https://github.com/rust-lang/rust/pull/80232)
+* [serialize incr comp structures to file via fixed-size buffer](https://github.com/rust-lang/rust/pull/80463)
+* [turn type inhabitedness into a query to fix `exhaustive_patterns` perf](https://github.com/rust-lang/rust/pull/79670)
+* [box `Item::Attributes`](https://github.com/rust-lang/rust/pull/80802)
+* [resolve: simplify collection of traits in scope](https://github.com/rust-lang/rust/pull/80765)
+* [use `Once` instead of `Mutex` to manage capture resolution](https://github.com/rust-lang/rust/pull/80736)
+* [consistently avoid constructing optimized MIR when not doing codegen](https://github.com/rust-lang/rust/pull/80718)
+* [add benchmark and fast path for `BufReader::read_exact`](https://github.com/rust-lang/rust/pull/80201)
+* [add `MaybeUninit` method `array_assume_init`](https://github.com/rust-lang/rust/pull/80600)
+* [change `BinaryHeap::append` rebuild heuristic](https://github.com/rust-lang/rust/pull/77435)
+* [implement `ptr::write` without dedicated intrinsic](https://github.com/rust-lang/rust/pull/80290)
+* [introduce {`Ref`, `RefMut`}`::try_map' for optional projections in `RefCell`](https://github.com/rust-lang/rust/pull/78455)
+* [re-stabilize `Weak::as_ptr` and friends for unsized T](https://github.com/rust-lang/rust/pull/80764)
+* [add `Iterator::intersperse_with`](https://github.com/rust-lang/rust/pull/80567)
+* [`TrustedRandomAaccess` specialization composes incorrectly for nested `iter::Zips`](https://github.com/rust-lang/rust/pull/80670)
+* [remove unreachable panics from `VecDeque::`{`front`/`back`}(`_mut`)]](https://github.com/rust-lang/rust/pull/80834)
+* [add `NonZeroU`n`::is_power_of_two`](https://github.com/rust-lang/rust/pull/81107)
+* [stabilize `split_inclusive`](https://github.com/rust-lang/rust/pull/77858)
+* [stabilize the `poll_map` feature](https://github.com/rust-lang/rust/pull/80968)
+* [add `as_rchunks` (and friends) to slices](https://github.com/rust-lang/rust/pull/78818)
+* [hashbrown: hide allocator details and default to `Global`](https://github.com/rust-lang/hashbrown/pull/227)
+* [hashbrown: export `AllocError` as well as `Allocator`](https://github.com/rust-lang/hashbrown/pull/223)
+* [regex: implement `regex::Replacer` for `String`, `&String`, `Cow<'a, str>`, `&Cow<'a, str>`](https://github.com/rust-lang/regex/pull/728)
+* [futures: fix type-inference in `sink::unfold()` by specifying more of its types](https://github.com/rust-lang/futures-rs/pull/2311)
+* [clippy: roadmap for 2021](https://github.com/rust-lang/rust-clippy/pull/6462)
 
 ## Rust Compiler Performance Triage
 
@@ -151,11 +165,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Rust favours security over convenience. Rust does not want you to make silly little mistakes than can waste so much of your time debugging, which in the end makes it more convenient.
+> Why do I use the letter ‘o’ for my generic closure param name? [...] I recently realized that since Rust uses pipes to enclose a param block, using ‘o’ makes the block look like a TIE fighter. I am not a terribly serious person.
 
-– [@Joe232 on rust-users](https://users.rust-lang.org/t/rust-does-not-support-and-operator/53851/7)
+– [Tim Keating on medium](https://mrtact.medium.com/polishing-rust-30eeac3c4bf3)
 
-Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/986) for the suggestion.
+Thanks to [Edoardo Morandi](https://users.rust-lang.org/t/twir-quote-of-the-week/328/990) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
