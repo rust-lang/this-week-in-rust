@@ -20,17 +20,22 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [video] [Penrose 0.2.0 Overview](https://www.youtube.com/watch?v=opLOzofmawI&feature=youtu.be)
+
 ### Observations/Thoughts
 
+* [Cryptoxide perf (SHA2 / Blake2)](https://vincenthz.github.io/cryptoxide-performance/)
+
 ### Rust Walkthroughs
+
 * [OS in Rust: Running our custom kernel on an emulator: Part-5](https://blog.knoldus.com/os-in-rust-running-our-custom-kernel-on-an-emulator-part-5/)
+* [Polishing Rust: Boxing and Unboxing Results](https://mrtact.medium.com/polishing-rust-30eeac3c4bf3)
 
 ### Miscellaneous
-* [video] [(Live Coding) Zola, a Static Site Generator. Migrating my blog & reviewing Zola's source code.](https://youtu.be/vezfR5ggEkc)
-
-* [video] [std::process::exit is evil - a Rust bug fixing story](https://youtu.be/zQC8T71Y8e4)
 
 * [Rust/WebAssembly on AWS Lambda@Edge](https://markentier.tech/posts/2021/01/rust-wasm-on-aws-lambda-edge/)
+* [video] [(Live Coding) Zola, a Static Site Generator. Migrating my blog & reviewing Zola's source code.](https://youtu.be/vezfR5ggEkc)
+* [video] [std::process::exit is evil - a Rust bug fixing story](https://youtu.be/zQC8T71Y8e4)
 
 # Crate of the Week
 
@@ -49,7 +54,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [ZcashFoundation/zebra - Create test to catch duplicate dependencies](https://github.com/ZcashFoundation/zebra/issues/1582)
+* [magic-wormhole/magic-wormhold.rs](https://github.com/magic-wormhole/magic-wormhole.rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -113,10 +118,7 @@ See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC: Serve crates-io registry over HTTP as static files](https://github.com/rust-lang/rfcs/pull/2789)
-* [Infallible promotion](https://github.com/rust-lang/rfcs/pull/3027)
-* [RFC: Add `target_abi` configuration](https://github.com/rust-lang/rfcs/pull/2992)
-* [RFC: Plan to make core and std's panic identical](https://github.com/rust-lang/rfcs/pull/3007)
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -131,26 +133,29 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Tracking Issue for `panic_any`](https://github.com/rust-lang/rust/issues/78500)
-* [Tracking issue for stable SIMD in Rust](https://github.com/rust-lang/rust/issues/48556)
+* [disposition: merge] [Remove requirement that forces symmetric and transitive PartialEq impls to exist](https://github.com/rust-lang/rust/pull/81198)
+* [disposition: merge] [Stabilize `core::slice::fill_with`](https://github.com/rust-lang/rust/pull/81048)
+* [disposition: merge] [Stabilize `unsigned_abs`](https://github.com/rust-lang/rust/pull/80959)
+* [disposition: merge] [Add Box::downcast() for dyn Any + Send + Sync](https://github.com/rust-lang/rust/pull/80945)
+* [disposition: merge] [Stabilize by-value `[T; N]` iterator `core::array::IntoIter`](https://github.com/rust-lang/rust/pull/80470)
+* [disposition: merge] [Implement missing `AsMut<str>` for `str`](https://github.com/rust-lang/rust/pull/80279)
+* [disposition: merge] [stabilise `cargo test -- --include-ignored`](https://github.com/rust-lang/rust/pull/80053)
+* [disposition: merge] [rustc: Stabilize `-Zrun-dsymutil` as `-Csplit-debuginfo`](https://github.com/rust-lang/rust/pull/79570)
+* [disposition: merge] [Stabilize Arc::{increment,decrement}_strong_count](https://github.com/rust-lang/rust/pull/79285)
+* [disposition: merge] [Implement io::Seek for io::Empty](https://github.com/rust-lang/rust/pull/78044)
+* [disposition: merge] [Stabilize `Seek::stream_position` (feature `seek_convenience`)](https://github.com/rust-lang/rust/pull/70904)
 
 ## New RFCs
 
-* [Add the boxed!() macro to "de-magic" box syntax](https://github.com/rust-lang/rfcs/pull/3057)
-* [try_trait_v2: A new design for the ? desugaring](https://github.com/rust-lang/rfcs/pull/3058)
-* [Add language support for C-compatible bit-fields](https://github.com/rust-lang/rfcs/pull/3064)
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
 ### Online
-* [January 14, San Diego, CA, US - San Diego Rust January 2021 Tele-Meetup - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/275547915/)
-* [January 20, Vancouver, BC, CA - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/npqfbsycccbbc/)
 * [January 21, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrycccbcc/)
 * [January 26, Dallas, TX, US - Last Tuesay - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrycccbjc/)
-
-### North America
-* [January 14, Columbus, OH, US - Monthly Meeting - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dpkhgrycccbsb/)
-* [January 14, Provo, UT, US - The Blue Pill: Rust on Microcontrollers (Jan / Third Round) - Utah Rust](https://www.meetup.com/utah-rust/events/268567961/)
+* [January 27, New York, NY, US - Snapshot testing in Rust with K9 with Aaron Abramov - Rust NYC](https://www.meetup.com/Rust-NYC/events/275690090/)
+* [February 2, Buffalo, NY, US - Buffalo Rust User Group - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/275593411/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -160,6 +165,10 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Rust Developer - Full Stack at HUM Systems (Berlin, DE)](https://hum-systems.com/en/jobs/rust-developer-full-stack/?job=1298)
+* [Multiple Roles at Ockam (Remote)](https://www.ockam.io/team#open-roles)
+* [Lead Developer Embedded Rust at Tweede Golf (Nijmegen, NL)](https://tweedegolf.nl/vacatures/2/lead-developer-embedded-rust)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
