@@ -22,7 +22,7 @@ What we are generally looking for includes:
 
 * how-to intros (and advanced deep dives) into Rust concepts and areas
 * Rust walkthroughs
-* updates on tooling when in long form or framed as a tutorial (see what we are not looking for for more details)
+* updates on tooling when in long form or framed as a tutorial (for more details, see what we are not looking for below)
 * Rust-related podcast episodes
 * Rust-related screenshots and videos
 * Rust meetup recordings
