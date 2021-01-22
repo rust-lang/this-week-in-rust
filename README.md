@@ -36,7 +36,7 @@ What we are generally looking for includes:
 What we are generally NOT looking for includes:
 
 * Anything that violates the [Rust Community Code of Conduct](https://www.rust-lang.org/policies/code-of-conduct)
-* Rants or anything degrading to any part or member of the Community. Rather than submitting an article about what is wrong with something, we would much rather you write something that explains how you made it better.
+* Rants or anything degrading to any part or member of the Community. Rather than submitting an article about what is wrong with something, we would much rather you write something that explains how you'd make it better.
 * Duplicates of recent posts (even with the wording changed slightly)
 * Links to crates or GitHub repos without some sort of context. We would much rather you submit a blog post introducing your project and how a Rust user might use it (and what it would help them do) and/or what you learned about Rust in the process of writing the project.
 * Anything behind a paywall
