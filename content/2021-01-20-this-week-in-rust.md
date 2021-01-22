@@ -114,7 +114,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [re-stabilize `Weak::as_ptr` and friends for unsized T](https://github.com/rust-lang/rust/pull/80764)
 * [add `Iterator::intersperse_with`](https://github.com/rust-lang/rust/pull/80567)
 * [`TrustedRandomAaccess` specialization composes incorrectly for nested `iter::Zips`](https://github.com/rust-lang/rust/pull/80670)
-* [remove unreachable panics from `VecDeque::`{`front`/`back`}(`_mut`)]](https://github.com/rust-lang/rust/pull/80834)
+* [remove unreachable panics from `VecDeque::`{`front`/`back`}(`_mut`)](https://github.com/rust-lang/rust/pull/80834)
 * [add `NonZeroU`n`::is_power_of_two`](https://github.com/rust-lang/rust/pull/81107)
 * [stabilize `split_inclusive`](https://github.com/rust-lang/rust/pull/77858)
 * [stabilize the `poll_map` feature](https://github.com/rust-lang/rust/pull/80968)
