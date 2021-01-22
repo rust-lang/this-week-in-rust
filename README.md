@@ -28,7 +28,7 @@ What we are generally looking for includes:
 * Rust meetup recordings
 * Rust meetup announcements
 * Presenter slide decks on Rust
-* Observations and throughts on Rust and the Rust community
+* Observations and thoughts on Rust and the Rust community
 * Calls for participation in Rust open source projeccts
 * Rust job announcements
 * and more!
