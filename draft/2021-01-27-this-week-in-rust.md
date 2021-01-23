@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [First time using Yew: A Go game board in just a few lines of Rust.](https://radim.xyz/project/yewban/)
+
 ### Miscellaneous
 
 # Crate of the Week
