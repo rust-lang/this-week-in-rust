@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+[Implementing Raft's Leader Election in Rust](http://laurocaetano.com/programming/2021/01/23/raft-leader-election-rust/)
 
 ### Miscellaneous
 
