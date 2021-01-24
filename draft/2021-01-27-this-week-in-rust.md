@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Similar, a diffing library to replace the unmaintained difference crate](https://github.com/mitsuhiko/similar)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
