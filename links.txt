@@ -1046,3 +1046,45 @@ Number: 373  Date: 2021-01-13
 * [video] [OSDI '20 - Redleaf: Isolation and Communication in a Safe Operating System](https://youtu.be/MKjliJWzs6w)
 * [video] [Read a paper: Theseus--An OS written in Rust](https://youtu.be/NzmbDU13Ki8)
 
+Number: 374  Date: 2021-01-20 
+
+### Official
+* [Inside] [Rustdoc performance improvements](https://blog.rust-lang.org/inside-rust/2021/01/15/rustdoc-performance-improvements.html)
+* [Inside] [Changes to the Rustdoc team](https://blog.rust-lang.org/inside-rust/2021/01/19/changes-to-rustdoc-team.html)
+### Newsletters
+* [This Month in Rust GameDev #17 - December 2020](https://rust-gamedev.github.io/posts/newsletter-017/)
+### Project/Tooling Updates
+* [IntelliJ Rust Changelog #139](https://intellij-rust.github.io/2021/01/18/changelog-139.html)
+* [rust-analyzer Changelog #60](https://rust-analyzer.github.io/thisweek/2021/01/18/changelog-60.html)
+* [Knurling-rs Changelog #13](https://ferrous-systems.com/blog/knurling-changelog-13/)
+* [This week in Ballista #1](https://ballistacompute.org/thisweek/2021/01/17/this-week-in-ballista-1/)
+* [Deno in 2020](https://deno.land/posts/deno-in-2020)
+* [async-std v1.9.0](https://github.com/async-rs/async-std/releases/tag/v1.9.0)
+* [video] [Penrose 0.2.0 Overview](https://www.youtube.com/watch?v=opLOzofmawI&feature=youtu.be)
+### Observations/Thoughts
+* [Cryptoxide perf (SHA2 / Blake2)](https://vincenthz.github.io/cryptoxide-performance/)
+* [About variadics in Rust](https://gist.github.com/PoignardAzur/aea33f28e2c58ffe1a93b8f8d3c58667)
+* [Rust in Production: 1Password](https://serokell.io/blog/rust-in-production-1password)
+* [Unconditional loops are unconditionally awesome](https://brson.github.io/2021/01/17/rust-unconditional-loops)
+* [Rust is a hard way to make a web API](https://macwright.com/2021/01/15/rust.html)
+* [Writing a better Line Iterator in Rust](https://dev.to/mineichen/writing-a-better-line-iterator-in-rust-443m)
+* [Implementing cross-process Sanakirja locks](https://pijul.org/posts/2021-01-15-sanakirja-locks/)
+* [future::join and const-eval](https://blog.yoshuawuyts.com/future-join-and-const-eval/)
+* [I used Rust in production for 6 months! Here's my feedback](https://www.qovery.com/blog/i-use-rust-in-production-for-6-months-heres-my-feedback)
+* [video] [Learning Rust with "Too Many Linked Lists" (Episode 2) - Pop & Drop](https://youtu.be/LX9GeWWJRNU)
+* [video] [std::process::exit is evil - a Rust bug fixing story](https://youtu.be/zQC8T71Y8e4)
+### Rust Walkthroughs
+* [OS in Rust: Running our custom kernel on an emulator: Part-5](https://blog.knoldus.com/os-in-rust-running-our-custom-kernel-on-an-emulator-part-5/)
+* [Polishing Rust: Boxing and Unboxing Results](https://mrtact.medium.com/polishing-rust-30eeac3c4bf3)
+* [Efficient custom shapes in QtQuick with Rust](https://carlschwan.eu/2021/01/20/efficient-custom-shapes-in-qtquick-with-rust/)
+* [Scientific Computing in Rust](https://aftix.xyz/home/bacon/)
+* [Rust GUI: Introduction a.k.a. the state of Rust GUI libraries (as of January 2021)](https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl)
+* [How to Fetch a Web API with Rust 🦀](https://dev.to/hb/how-to-fetch-a-web-api-with-rust-1390)
+* [Replacing FastAPI with Rust: Part 4 - A Solution](https://dev.to/dbanty/replacing-fastapi-with-rust-part-4-a-solution-2kf9)
+* [Getting started with Rust and Redis](https://dev.to/itnext/getting-started-with-rust-and-redis-4h79)
+* [How To Write A REST Client In Rust](https://www.lpalmieri.com/posts/how-to-write-a-rest-client-in-rust-with-reqwest-and-wiremock/)
+* [video] [Rust live coding - Tower deep dive](https://youtu.be/16sU1q8OeeI)
+### Miscellaneous
+* [Rust/WebAssembly on AWS Lambda@Edge](https://markentier.tech/posts/2021/01/rust-wasm-on-aws-lambda-edge/)
+* [video] [(Live Coding) Zola, a Static Site Generator. Migrating my blog & reviewing Zola's source code.](https://youtu.be/vezfR5ggEkc)
+
