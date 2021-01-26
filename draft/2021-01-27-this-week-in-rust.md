@@ -153,6 +153,8 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Moxie/Taste/Discernment Provider - Rust in Vermont (and Boston area)](https://gist.github.com/seamusabshere/8022bd7c964570b105402dd4dddfcde4)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
