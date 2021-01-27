@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [How to optimise compilation times with Rust](https://lemmy.ml/post/50089)
 
 ### Miscellaneous
 
