@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Porting a serverless chatbot from Python to Rust](https://blog.console.dev/porting-a-python-azure-serverless-function-to-rust/)
+
 ### Miscellaneous
 
 # Crate of the Week
