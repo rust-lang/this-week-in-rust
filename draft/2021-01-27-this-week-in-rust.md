@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+- 🧮 [An Auto-Increment Crate for Rust][https://jeffa.io/an_auto-increment_crate_for_rust]
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
