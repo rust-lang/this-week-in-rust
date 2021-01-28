@@ -46,6 +46,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Automatic flamegraphs for benchmarks with Criterion](https://www.jibbow.com/posts/criterion-flamegraphs/)
 * [Implementing Raft's Leader Election in Rust](http://laurocaetano.com/programming/2021/01/23/raft-leader-election-rust/)
 * [First time using Yew: A Go game board in just a few lines of Rust.](https://radim.xyz/project/yewban/)
+* [ES] [El juego de la vida usando Rust y Iced](https://github.com/irvingfisica/iced_examples/blob/master/Life.md)
 
 ### Miscellaneous
 * [Are we learning yet?](https://www.arewelearningyet.com/)
@@ -71,6 +72,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [Fuschia has several open issues](https://users.rust-lang.org/t/twir-call-for-participation/4821/350)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -126,7 +129,7 @@ See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [Allow "artifact dependencies" on bin, cdylib, and staticlib crates](https://github.com/rust-lang/rfcs/pull/3028)
 
 ## Final Comment Period
 
@@ -136,34 +139,43 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [Allow "artifact dependencies" on bin, cdylib, and staticlib crates](https://github.com/rust-lang/rfcs/pull/3028)
-* [RFC: Pointer metadata & VTable](https://github.com/rust-lang/rfcs/pull/2580)
+* [Rust 2021 Roadmap](https://github.com/rust-lang/rfcs/pull/3037)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [Remove requirement that forces symmetric and transitive PartialEq impls to exist](https://github.com/rust-lang/rust/pull/81198)
 * [disposition: merge] [Stabilize `core::slice::fill_with`](https://github.com/rust-lang/rust/pull/81048)
-* [disposition: merge] [Stabilize `unsigned_abs`](https://github.com/rust-lang/rust/pull/80959)
 * [disposition: merge] [Add Box::downcast() for dyn Any + Send + Sync](https://github.com/rust-lang/rust/pull/80945)
 * [disposition: merge] [Stabilize by-value `[T; N]` iterator `core::array::IntoIter`](https://github.com/rust-lang/rust/pull/80470)
 * [disposition: merge] [Implement missing `AsMut<str>` for `str`](https://github.com/rust-lang/rust/pull/80279)
 * [disposition: merge] [stabilise `cargo test -- --include-ignored`](https://github.com/rust-lang/rust/pull/80053)
+* [disposition: merge] [Stabilize `peekable_next_if`](https://github.com/rust-lang/rust/pull/80011)
 * [disposition: merge] [rustc: Stabilize `-Zrun-dsymutil` as `-Csplit-debuginfo`](https://github.com/rust-lang/rust/pull/79570)
 * [disposition: merge] [Stabilize Arc::{increment,decrement}_strong_count](https://github.com/rust-lang/rust/pull/79285)
+* [disposition: merge] [expand/resolve: Turn `#[derive]` into a regular macro attribute](https://github.com/rust-lang/rust/pull/79078)
 * [disposition: merge] [Implement io::Seek for io::Empty](https://github.com/rust-lang/rust/pull/78044)
-* [disposition: merge] [Stabilize `Seek::stream_position` (feature `seek_convenience`)](https://github.com/rust-lang/rust/pull/70904)
+* [disposition: merge] [Tracking Issue for `feature(int_bits_const): <integer>::BITS`](https://github.com/rust-lang/rust/issues/76904)
+* [disposition: merge] [Tracking Issue for `fmt::Arguments::as_str()`](https://github.com/rust-lang/rust/issues/74442)
+
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [Change visibility scoping rules for macro_rules macros](https://github.com/rust-lang/rfcs/pull/3067)
 
 # Upcoming Events
 
 ### Online
-* [January 21, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprrycccbcc/)
-* [January 26, Dallas, TX, US - Last Tuesay - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrycccbjc/)
-* [January 27, New York, NY, US - Snapshot testing in Rust with K9 with Aaron Abramov - Rust NYC](https://www.meetup.com/Rust-NYC/events/275690090/)
+* [Februar 2, Dublin, IE - Rust Dublin Remote February Meetup - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/275827557/)
 * [February 2, Buffalo, NY, US - Buffalo Rust User Group - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/275593411/)
+* [February 2, Denver, CO, US - ML in Rust, implementing logistic and linear regression from scratch - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/275352662/)
+* [February 3, Johannesburg, ZA - Monthly Joburg Rust Chat! - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/275986420/)
+* [February 4, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccdbgb/)
+* [February 4, Budapest, HU - Rust meetup S03! - Rust Hungary Meetup](https://www.meetup.com/Rust-Hungary-Meetup/events/275579644/)
+* [February 7, Indianapolis, IN, US - Monthly Meetup - Indy.rs](https://www.meetup.com/indyrs/events/246726699/)
+* [February 9, Seattle, WA, US - Monthly Meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccdbmb/)
+
+### North America
+* [February 10, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgryccdbnb/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -174,8 +186,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Engineer or Manager - Rust at Faraday (Burlington, VT, US (and Boston, MA, US area))](https://gist.github.com/seamusabshere/8022bd7c964570b105402dd4dddfcde4)
+* [Engineer or Manager - Rust at Faraday (Burlington, VT, US (and Boston, MA, US))](https://gist.github.com/seamusabshere/8022bd7c964570b105402dd4dddfcde4)
 * [Rust Engineer at The Graph (Remote)](https://thegraph.com/jobs/rust-engineer)
+* [Rust Expert - Senior Software Engineer at Wasmer (San Francisco, CA, US or Remote)](https://www.workatastartup.com/jobs/41643)
+* [Ethereum Core Developer (m/w/d) at Gnosis (Berlin, DE or A Coruña, ES, or Remote)](https://boards.greenhouse.io/gnosis/jobs/4497327002?gh_src=addc4e802)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
