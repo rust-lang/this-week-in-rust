@@ -20,10 +20,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+- 🧮 [An Auto-Increment Crate for Rust][https://jeffa.io/an_auto-increment_crate_for_rust]
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
 * [Automatic flamegraphs for benchmarks with Criterion](https://www.jibbow.com/posts/criterion-flamegraphs/)
+* [Implementing Raft's Leader Election in Rust](http://laurocaetano.com/programming/2021/01/23/raft-leader-election-rust/)
+* [First time using Yew: A Go game board in just a few lines of Rust.](https://radim.xyz/project/yewban/)
 
 ### Miscellaneous
 
