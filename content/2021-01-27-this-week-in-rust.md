@@ -44,7 +44,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Make A Language - Part Twenty: Testing](https://arzg.github.io/lang/20/)
 * [How to optimise compilation times with Rust](https://lemmy.ml/post/50089)
 * [Automatic flamegraphs for benchmarks with Criterion](https://www.jibbow.com/posts/criterion-flamegraphs/)
-* [Implementing Raft's Leader Election in Rust](http://laurocaetano.com/programming/2021/01/23/raft-leader-election-rust/)
 * [First time using Yew: A Go game board in just a few lines of Rust.](https://radim.xyz/project/yewban/)
 * [ES] [El juego de la vida usando Rust y Iced](https://github.com/irvingfisica/iced_examples/blob/master/Life.md)
 
