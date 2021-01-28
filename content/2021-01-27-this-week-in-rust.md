@@ -26,7 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [The RustyHermit Unikernel](https://rust-osdev.com/showcase/rusty-hermit/)
 * [Introducing usb-ids.rs](https://blog.yossarian.net/2021/01/21/Introducing-usb-ids-rs)
 * ⚡️ [Dotenv-linter v3.0.0: Overview](https://evrone.com/dotenv-linter-v300) 🦀
-* 🧮 [An Auto-Increment Crate for Rust][https://jeffa.io/an_auto-increment_crate_for_rust]
+* 🧮 [An Auto-Increment Crate for Rust](https://jeffa.io/an_auto-increment_crate_for_rust)
 
 ### Observations/Thoughts
 * [Porting a serverless chatbot from Python to Rust](https://blog.console.dev/porting-a-python-azure-serverless-function-to-rust/)
