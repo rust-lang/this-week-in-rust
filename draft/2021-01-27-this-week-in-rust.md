@@ -25,6 +25,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Criterion.rs v0.3.4 and Iai 0.1.0](https://bheisler.github.io/post/criterion-rs-0-3-4/)
 * [The RustyHermit Unikernel](https://rust-osdev.com/showcase/rusty-hermit/)
 * [Introducing usb-ids.rs](https://blog.yossarian.net/2021/01/21/Introducing-usb-ids-rs)
+* ⚡️ [Dotenv-linter v3.0.0: Overview](https://evrone.com/dotenv-linter-v300) 🦀
+* 🧮 [An Auto-Increment Crate for Rust][https://jeffa.io/an_auto-increment_crate_for_rust]
 
 ### Observations/Thoughts
 * [Porting a serverless chatbot from Python to Rust](https://blog.console.dev/porting-a-python-azure-serverless-function-to-rust/)
@@ -40,6 +42,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [JSON input validation in Warp](https://dev.to/buinauskas/json-input-validation-in-warp-i5n)
 * [Make A Language - Part Nineteen: Code Representations](https://arzg.github.io/lang/19/)
 * [Make A Language - Part Twenty: Testing](https://arzg.github.io/lang/20/)
+* [How to optimise compilation times with Rust](https://lemmy.ml/post/50089)
+* [Automatic flamegraphs for benchmarks with Criterion](https://www.jibbow.com/posts/criterion-flamegraphs/)
+* [Implementing Raft's Leader Election in Rust](http://laurocaetano.com/programming/2021/01/23/raft-leader-election-rust/)
+* [First time using Yew: A Go game board in just a few lines of Rust.](https://radim.xyz/project/yewban/)
 
 ### Miscellaneous
 * [Are we learning yet?](https://www.arewelearningyet.com/)
@@ -51,9 +57,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [dotenv-linter](https://github.com/dotenv-linter/dotenv-linter), a lightning fast linter for `.env` files.
+This week's crate is [aquamarine](https://github.com/mersinvald/aquamarine) bringing you inline diagrams for your rustdocs.
 
-Thanks to [Grachev Mikhail](https://users.rust-lang.org/t/crate-of-the-week/2704/869) for the suggestion!
+Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/874) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -72,56 +78,48 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-391 pull requests were [merged in the last week][merged]
+299 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-01-11..2021-01-18
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-01-18..2021-01-25
 
-* [use correct ABI for wasm32 by default](https://github.com/rust-lang/rust/pull/79998)
-* [improve diagnostics when closure doesn't meet trait bound](https://github.com/rust-lang/rust/pull/80635)
-* [enhance type inference errors involving the `?` operator](https://github.com/rust-lang/rust/pull/80517)
-* [explain method-call move errors in loops](https://github.com/rust-lang/rust/pull/80324)
-* [make CTFE able to check for undefined behavior](https://github.com/rust-lang/rust/pull/78407)
-* [split a func into cold/hot parts, reducing rustc binary size](https://github.com/rust-lang/rust/pull/80042)
-* [suggest `_` and `..` if a pattern has too few fields](https://github.com/rust-lang/rust/pull/80017)
-* [suggest `async {}` for `async || {}`](https://github.com/rust-lang/rust/pull/76580)
-* [do not suggest invalid code in pattern with loop](https://github.com/rust-lang/rust/pull/80941)
-* [add allow-by-default lint on implicit ABI in extern function pointers and items](https://github.com/rust-lang/rust/pull/76219)
-* [reintroduce `hir::ExprKind::If`](https://github.com/rust-lang/rust/pull/79328)
-* [remove redundant `def_id` lookups](https://github.com/rust-lang/rust/pull/80232)
-* [serialize incr comp structures to file via fixed-size buffer](https://github.com/rust-lang/rust/pull/80463)
-* [turn type inhabitedness into a query to fix `exhaustive_patterns` perf](https://github.com/rust-lang/rust/pull/79670)
-* [box `Item::Attributes`](https://github.com/rust-lang/rust/pull/80802)
-* [resolve: simplify collection of traits in scope](https://github.com/rust-lang/rust/pull/80765)
-* [use `Once` instead of `Mutex` to manage capture resolution](https://github.com/rust-lang/rust/pull/80736)
-* [consistently avoid constructing optimized MIR when not doing codegen](https://github.com/rust-lang/rust/pull/80718)
-* [add benchmark and fast path for `BufReader::read_exact`](https://github.com/rust-lang/rust/pull/80201)
-* [add `MaybeUninit` method `array_assume_init`](https://github.com/rust-lang/rust/pull/80600)
-* [change `BinaryHeap::append` rebuild heuristic](https://github.com/rust-lang/rust/pull/77435)
-* [implement `ptr::write` without dedicated intrinsic](https://github.com/rust-lang/rust/pull/80290)
-* [introduce {`Ref`, `RefMut`}`::try_map' for optional projections in `RefCell`](https://github.com/rust-lang/rust/pull/78455)
-* [re-stabilize `Weak::as_ptr` and friends for unsized T](https://github.com/rust-lang/rust/pull/80764)
-* [add `Iterator::intersperse_with`](https://github.com/rust-lang/rust/pull/80567)
-* [`TrustedRandomAaccess` specialization composes incorrectly for nested `iter::Zips`](https://github.com/rust-lang/rust/pull/80670)
-* [remove unreachable panics from `VecDeque::`{`front`/`back`}(`_mut`)]](https://github.com/rust-lang/rust/pull/80834)
-* [add `NonZeroU`n`::is_power_of_two`](https://github.com/rust-lang/rust/pull/81107)
-* [stabilize `split_inclusive`](https://github.com/rust-lang/rust/pull/77858)
-* [stabilize the `poll_map` feature](https://github.com/rust-lang/rust/pull/80968)
-* [add `as_rchunks` (and friends) to slices](https://github.com/rust-lang/rust/pull/78818)
-* [hashbrown: hide allocator details and default to `Global`](https://github.com/rust-lang/hashbrown/pull/227)
-* [hashbrown: export `AllocError` as well as `Allocator`](https://github.com/rust-lang/hashbrown/pull/223)
-* [regex: implement `regex::Replacer` for `String`, `&String`, `Cow<'a, str>`, `&Cow<'a, str>`](https://github.com/rust-lang/regex/pull/728)
-* [futures: fix type-inference in `sink::unfold()` by specifying more of its types](https://github.com/rust-lang/futures-rs/pull/2311)
-* [clippy: roadmap for 2021](https://github.com/rust-lang/rust-clippy/pull/6462)
+* [improve unknown external crate error](https://github.com/rust-lang/rust/pull/81046)
+* [gracefully handle loop labels missing leading `'` in different positions](https://github.com/rust-lang/rust/pull/81236)
+* [improve diagnostics when parsing angle args](https://github.com/rust-lang/rust/pull/80065)
+* [permit mutable references in all const contexts](https://github.com/rust-lang/rust/pull/78578)
+* [prevent query cycles in the MIR inliner](https://github.com/rust-lang/rust/pull/68828)
+* [mir: improve `size_of` handling when arg is unsized](https://github.com/rust-lang/rust/pull/81243)
+* [implement `Error` for `&(impl Error)`](https://github.com/rust-lang/rust/pull/75180)
+* [change branching in `iter.skip()`](https://github.com/rust-lang/rust/pull/80715)
+* [`BufWriter`: Provide `into_raw_parts`](https://github.com/rust-lang/rust/pull/79705)
+* [fix soundness issue for `replace_range` and `range`](https://github.com/rust-lang/rust/pull/81169)
+* [avoid `hash_slice` in `VecDeque`'s `Hash` implementation](https://github.com/rust-lang/rust/pull/81170)
+* [turn alloc's force_expr macro into a regular macro_rules](https://github.com/rust-lang/rust/pull/81241)
+* [hashbrown: add `try_insert_no_grow` method on `RawTable`](https://github.com/rust-lang/hashbrown/pull/229)
+* [fix a bug in Cargo's cyclic dep graph detection](https://github.com/rust-lang/cargo/pull/9075)
+* [cargo: add some extra help to `cargo new` and invalid package names](https://github.com/rust-lang/cargo/pull/9098)
+* [rustdoc: fix rendering of stabilization version for trait implementors](https://github.com/rust-lang/rust/pull/81302)
+* [clippy: `manual_filter_map` and `manual_find_map`](https://github.com/rust-lang/rust-clippy/pull/6591)
+* [clippy: new lint: `exhaustive_enums`, `exhaustive_structs`](https://github.com/rust-lang/rust-clippy/pull/6617)
 
 ## Rust Compiler Performance Triage
 
-* [2020-01-12](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-01-12.md):
-1 Regressions, 2 Improvements, 3 Mixed
-Overall, a positive albeit quiet week. The largest change came from the incremental compilation working group which delivered large gains in performance caused by [changes](https://github.com/rust-lang/rust/issues/76896) in how inlining is handled in debug mode. Unfortunately, these changes may be reversed due to concerns
+This week continues a trend of relatively large rollups, which often contain
+perf-sensitive PRs. We need to get better at marking PRs as rollup=never or
+otherwise not including them, but it is unclear how precisely to go about doing
+so. The tooling for testing individual PRs merged in rollups should also be
+improved to work better in the next few days, though.
 
-Triage done by @rylev.
+Other than that, this week saw several regressions, most of which were not
+easily explained. We are seeking feedback from PR authors and reviewers on
+whether the results are expected and if anything can be done.
 
-See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-01-12.md) for more.
+Triage done by **@rylevick** and **@simulacrum**.
+Revision range: [e05409a02c6e73a3dea6da98798468db2910ca59..1483e67addd37d9bd20ba3b4613b678ee9ad4d68](https://perf.rust-lang.org/?start=e05409a02c6e73a3dea6da98798468db2910ca59&end=1483e67addd37d9bd20ba3b4613b678ee9ad4d68&absolute=false&stat=instructions%3Au)
+
+5 Regressions, 2 Improvements, 1 Mixed;
+3 of them in rollups
+
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-01-26.md) for more.
 
 ## Approved RFCs
 
@@ -176,15 +174,18 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Engineer or Manager - Rust at Faraday (Burlington, VT, US (and Boston, MA, US area))](https://gist.github.com/seamusabshere/8022bd7c964570b105402dd4dddfcde4)
+* [Rust Engineer at The Graph (Remote)](https://thegraph.com/jobs/rust-engineer)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> Why do I use the letter ‘o’ for my generic closure param name? [...] I recently realized that since Rust uses pipes to enclose a param block, using ‘o’ makes the block look like a TIE fighter. I am not a terribly serious person.
+> Describing Rust as a systems programming language in 2021 is like describing Microsoft as Windows or Google as search. Yes, Rust is equipped for systems programming, but its applicability is much wider.
 
-– [Tim Keating on medium](https://mrtact.medium.com/polishing-rust-30eeac3c4bf3)
+– [Tim McNamara on twitter](https://twitter.com/timClicks/status/1351247765851017216)
 
-Thanks to [Edoardo Morandi](https://users.rust-lang.org/t/twir-quote-of-the-week/328/990) for the suggestion.
+Thanks to [Nixon Enraght-Moony](https://users.rust-lang.org/t/twir-quote-of-the-week/328/993) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
