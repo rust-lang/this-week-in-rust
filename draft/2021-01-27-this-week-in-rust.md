@@ -20,9 +20,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+- 🧮 [An Auto-Increment Crate for Rust][https://jeffa.io/an_auto-increment_crate_for_rust]
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Automatic flamegraphs for benchmarks with Criterion](https://www.jibbow.com/posts/criterion-flamegraphs/)
+* [Implementing Raft's Leader Election in Rust](http://laurocaetano.com/programming/2021/01/23/raft-leader-election-rust/)
+* [First time using Yew: A Go game board in just a few lines of Rust.](https://radim.xyz/project/yewban/)
 
 ### Miscellaneous
 
@@ -154,6 +159,7 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Engineer or Manager - Rust at Faraday (Burlington, VT, US (and Boston, MA, US area))](https://gist.github.com/seamusabshere/8022bd7c964570b105402dd4dddfcde4)
+* [Rust Engineer at The Graph (Remote)](https://thegraph.com/jobs/rust-engineer)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
