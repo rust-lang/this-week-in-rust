@@ -46,6 +46,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Automatic flamegraphs for benchmarks with Criterion](https://www.jibbow.com/posts/criterion-flamegraphs/)
 * [Implementing Raft's Leader Election in Rust](http://laurocaetano.com/programming/2021/01/23/raft-leader-election-rust/)
 * [First time using Yew: A Go game board in just a few lines of Rust.](https://radim.xyz/project/yewban/)
+* [ES] [El juego de la vida usando Rust y Iced](https://github.com/irvingfisica/iced_examples/blob/master/Life.md)
 
 ### Miscellaneous
 * [Are we learning yet?](https://www.arewelearningyet.com/)
@@ -174,8 +175,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Engineer or Manager - Rust at Faraday (Burlington, VT, US (and Boston, MA, US area))](https://gist.github.com/seamusabshere/8022bd7c964570b105402dd4dddfcde4)
+* [Engineer or Manager - Rust at Faraday (Burlington, VT, US (and Boston, MA, US))](https://gist.github.com/seamusabshere/8022bd7c964570b105402dd4dddfcde4)
 * [Rust Engineer at The Graph (Remote)](https://thegraph.com/jobs/rust-engineer)
+* [Rust Expert - Senior Software Engineer at Wasmer (San Francisco, CA, US or Remote)](https://www.workatastartup.com/jobs/41643)
+* [Ethereum Core Developer (m/w/d) at Gnosis (Berlin, DE or A Coruña, ES, or Remote)](https://boards.greenhouse.io/gnosis/jobs/4497327002?gh_src=addc4e802)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
