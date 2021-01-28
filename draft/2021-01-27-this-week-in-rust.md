@@ -26,10 +26,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [How to optimise compilation times with Rust](https://lemmy.ml/post/50089)
 * [Automatic flamegraphs for benchmarks with Criterion](https://www.jibbow.com/posts/criterion-flamegraphs/)
 * [Implementing Raft's Leader Election in Rust](http://laurocaetano.com/programming/2021/01/23/raft-leader-election-rust/)
 * [First time using Yew: A Go game board in just a few lines of Rust.](https://radim.xyz/project/yewban/)
-
 * [Porting a serverless chatbot from Python to Rust](https://blog.console.dev/porting-a-python-azure-serverless-function-to-rust/)
 
 ### Miscellaneous
