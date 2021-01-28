@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
+* ⚡️ [Dotenv-linter v3.0.0: Overview](https://evrone.com/dotenv-linter-v300) 🦀
 
 - 🧮 [An Auto-Increment Crate for Rust][https://jeffa.io/an_auto-increment_crate_for_rust]
 
