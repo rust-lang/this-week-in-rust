@@ -141,6 +141,7 @@ decision. Express your opinions now.
 * [February 4, Budapest, HU - Rust meetup S03! - Rust Hungary Meetup](https://www.meetup.com/Rust-Hungary-Meetup/events/275579644/)
 * [February 7, Indianapolis, IN, US - Monthly Meetup - Indy.rs](https://www.meetup.com/indyrs/events/246726699/)
 * [February 9, Seattle, WA, US - Monthly Meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccdbmb/)
+* [February 9, Saarbücken, Saarland, DE - Meetup: 8u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/275720207/)
 
 ### North America
 * [February 10, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgryccdbnb/)
