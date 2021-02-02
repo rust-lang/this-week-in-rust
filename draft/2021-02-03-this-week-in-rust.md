@@ -20,7 +20,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Krustlet v0.6.0](https://github.com/deislabs/krustlet/releases/tag/v0.6.0)
+
 ### Observations/Thoughts
+
+* [Announcing Krator: Build Kubernetes Operators with state machines.](https://deislabs.io/posts/introducing-krator/)
 
 ### Rust Walkthroughs
 
