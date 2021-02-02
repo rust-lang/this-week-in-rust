@@ -74,23 +74,17 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-This week continues a trend of relatively large rollups, which often contain
-perf-sensitive PRs. We need to get better at marking PRs as rollup=never or
-otherwise not including them, but it is unclear how precisely to go about doing
-so. The tooling for testing individual PRs merged in rollups should also be
-improved to work better in the next few days, though.
+Another week dominated by rollups, most of which had relatively small changes
+with unclear causes embedded. Overall no major changes in performance this week.
 
-Other than that, this week saw several regressions, most of which were not
-easily explained. We are seeking feedback from PR authors and reviewers on
-whether the results are expected and if anything can be done.
+Triage done by **@simulacrum**.
+Revision range: [1483e67addd37d9bd20ba3b4613b678ee9ad4d68..f6cb45ad01a4518f615926f39801996622f46179](https://perf.rust-lang.org/?start=1483e67addd37d9bd20ba3b4613b678ee9ad4d68&end=f6cb45ad01a4518f615926f39801996622f46179&absolute=false&stat=instructions%3Au)
 
-Triage done by **@rylevick** and **@simulacrum**.
-Revision range: [e05409a02c6e73a3dea6da98798468db2910ca59..1483e67addd37d9bd20ba3b4613b678ee9ad4d68](https://perf.rust-lang.org/?start=e05409a02c6e73a3dea6da98798468db2910ca59&end=1483e67addd37d9bd20ba3b4613b678ee9ad4d68&absolute=false&stat=instructions%3Au)
+2 Regressions, 1 Improvements, 1 Mixed
 
-5 Regressions, 2 Improvements, 1 Mixed;
 3 of them in rollups
 
-See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-01-26.md) for more.
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-02-02.md) for more.
 
 ## Approved RFCs
 
