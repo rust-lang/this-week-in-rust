@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+[gfx-rs ecosystem releases v0.7](https://gfx-rs.github.io/2021/02/02/release-0.7.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
