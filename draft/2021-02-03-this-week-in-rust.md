@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Open-sourcing Datanymizer: in-flight template-driven data anonymization](https://evrone.com/datanymizer)
 
 ### Observations/Thoughts
 
