@@ -21,6 +21,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 * [Open-sourcing Datanymizer: in-flight template-driven data anonymization](https://evrone.com/datanymizer)
 
+* [Announcing Step/Dir - Universal Stepper Motor Interface](https://flott-motion.org/news/announcing-step-dir/)
+* [Announcing RampMaker - Stepper Motor Acceleration Ramp Generator](https://flott-motion.org/news/announcing-ramp-maker/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
