@@ -40,6 +40,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 [PL] [CrabbyBird #5 Obsługa kolizji](https://postacnormalna.pl/crabbybird-5-obsluga-kolizji/)
 
 ### Miscellaneous
+[Long range networking with LoRa: an overview featuring a Rust modem driver](https://tweedegolf.nl/blog/51/long-range-networking-with-lora-an-overview)
 
 # Crate of the Week
 
