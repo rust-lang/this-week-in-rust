@@ -24,7 +24,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Announcing Step/Dir - Universal Stepper Motor Interface](https://flott-motion.org/news/announcing-step-dir/)
 * [Announcing RampMaker - Stepper Motor Acceleration Ramp Generator](https://flott-motion.org/news/announcing-ramp-maker/)
 
+* [Krustlet v0.6.0](https://github.com/deislabs/krustlet/releases/tag/v0.6.0)
+
 ### Observations/Thoughts
+
+* [Announcing Krator: Build Kubernetes Operators with state machines.](https://deislabs.io/posts/introducing-krator/)
 
 ### Rust Walkthroughs
 * [Exploring WebSocket with Rust and Tide](https://javierviola.com/post/exploring-websocket-with-rust-and-tide/)
