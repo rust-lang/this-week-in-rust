@@ -31,6 +31,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 - [Parsing PDF Documents in Rust](https://adventures.michaelfbryan.com/posts/parsing-pdfs-in-rust/)
 
+[PL] [CrabbyBird #5 Obsługa kolizji](https://postacnormalna.pl/crabbybird-5-obsluga-kolizji/)
+
 ### Miscellaneous
 
 # Crate of the Week
