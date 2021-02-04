@@ -17,14 +17,36 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Newsletters
+* [RiB Newsletter #20 - Old fashioned chill](https://www.reddit.com/r/rust/comments/lc3tir/rib_newsletter_20_old_fashioned_chill/)
 
 ### Project/Tooling Updates
+* [rust-analyzer Changelog #62](https://rust-analyzer.github.io/thisweek/2021/02/01/changelog-62.html)
+* [IntelliJ Rust Changelog #140](https://intellij-rust.github.io/2021/02/01/changelog-140.html)
+* [Llama Rust SDK preview 0.1.3](https://ericsink.com/entries/llama_rust_013.html)
+* [Gfx-rs Release of v0.7](https://gfx-rs.github.io/2021/02/02/release-0.7.html)
 
 ### Observations/Thoughts
+* [Is Rust a Functional Programming Language?](https://robert.kra.hn/posts/2021-02-03_is-rust-fp/)
+* [Rust Collections Case Study: BTreeMap](https://cglab.ca/~abeinges/blah/rust-btree-case/)
+* [Saving some allocations](https://vorner.github.io/2021/01/31/saving-some-allocations.html)
+* [Bringing Stack Clash Protection to Clang/X86 - the Open Source Way](https://blog.llvm.org/posts/2021-01-05-stack-clash-protection/)
 
 ### Rust Walkthroughs
+* [Returning Rust Iterators](https://depth-first.com/articles/2020/06/22/returning-rust-iterators/)
+* [How to Read Rust Functions, Part 1](https://www.possiblerust.com/guide/how-to-read-rust-functions-part-1)
+* [Parsing PDF Documents in Rust](https://adventures.michaelfbryan.com/posts/parsing-pdfs-in-rust/?utm_source=reddit&utm_medium=social&utm_campaign=parsing-pdf-documents)
+* [Building and deploying Rust utilities](https://robert.kra.hn/posts/2021-02-01_cross-compile-rust/)
+* [Learning to Fly: Let's create a simulation in Rust! (pt 2)](https://pwy.io/en/posts/learning-to-fly-pt2/)
+* [Rust made my open source project 1000x faster](https://www.reddit.com/r/rust/comments/lazq0i/rust_made_my_open_source_project_1000x_faster/)
+* [Introducing Drogue Device](https://blog.drogue.io/introducing-drogue-device/)
+* [3 Things to Try When You Can't Make A Trait Object](https://www.possiblerust.com/pattern/3-things-to-try-when-you-can-t-make-a-trait-object)
+* [Making concurrency fearless with Rust (for C++ developers)](https://radekvit.medium.com/making-concurrency-fearless-with-rust-for-c-developers-d5d8da50a452)
 
 ### Miscellaneous
+* [RustBelt: Securing the Foundations of the Rust Programming Language](https://people.mpi-sws.org/~dreyer/papers/rustbelt/paper.pdf)
+* [Polymorphisation: Improving Rust compilation times through intelligent monomorphisation](https://davidtw.co/media/masters_dissertation.pdf)
+* [A Memory Safe TLS Module for the Apache HTTP Server](https://www.abetterinternet.org/post/memory-safe-tls-apache/)
+* [Chats with James: 006 - Bryan Cantrill](https://jamesmunns.com/podcast/006-bryan/)
 
 # Crate of the Week
 
@@ -155,6 +177,8 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
+* [Distributed Systems (Rust) Developer at Signal (Remote US Timezone)](https://jobs.lever.co/signal/7aa1ff1f-bd43-4359-82c7-8703d8b842d9)
 
 # Quote of the Week
 
