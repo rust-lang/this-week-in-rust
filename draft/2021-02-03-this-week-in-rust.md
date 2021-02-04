@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Krustlet v0.6.0](https://github.com/deislabs/krustlet/releases/tag/v0.6.0)
 
+[gfx-rs ecosystem releases v0.7](https://gfx-rs.github.io/2021/02/02/release-0.7.html)
+
 ### Observations/Thoughts
 
 * [Announcing Krator: Build Kubernetes Operators with state machines.](https://deislabs.io/posts/introducing-krator/)
