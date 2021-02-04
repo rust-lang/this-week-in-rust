@@ -182,6 +182,8 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+[3D Driver Development Engineer - Rust tooling for GPUs at AMD (Boxborough, MA, USA)](https://jobs.amd.com/job/Boxborough-3D-Driver-Development-Engineer-Tools-82766-Mass/709592800/)
+
 # Quote of the Week
 
 This time we had two very good quotes, I could not decide, so here are both:
