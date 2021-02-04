@@ -14,7 +14,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-### Official
+No official blog posts this week.
 
 ### Newsletters
 * [RiB Newsletter #20 - Old fashioned chill](https://www.reddit.com/r/rust/comments/lc3tir/rib_newsletter_20_old_fashioned_chill/)
