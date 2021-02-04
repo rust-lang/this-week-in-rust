@@ -48,6 +48,7 @@ No official blog posts this week.
 * [3 Things to Try When You Can't Make A Trait Object](https://www.possiblerust.com/pattern/3-things-to-try-when-you-can-t-make-a-trait-object)
 * [Making concurrency fearless with Rust (for C++ developers)](https://radekvit.medium.com/making-concurrency-fearless-with-rust-for-c-developers-d5d8da50a452)
 * [Exploring WebSocket with Rust and Tide](https://javierviola.com/post/exploring-websocket-with-rust-and-tide/)
+* [Macros in Rust: A tutorial with examples](https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/)
 * [PL] [CrabbyBird #5 Obsługa kolizji](https://postacnormalna.pl/crabbybird-5-obsluga-kolizji/)
 
 
@@ -74,6 +75,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [dotenv-linter has several good first issues](https://github.com/dotenv-linter/dotenv-linter/issues)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -195,11 +198,16 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 * [Rust Software Engineer at Aleph Alpha (Heidelberg, Germany)](https://aleph-alpha.de/career/software-engineer-rust)
-
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
-
 * [Distributed Systems (Rust) Developer at Signal (Remote US Timezone)](https://jobs.lever.co/signal/7aa1ff1f-bd43-4359-82c7-8703d8b842d9)
 * [3D Driver Development Engineer - Rust tooling for GPUs at AMD (Boxborough, MA, USA)](https://jobs.amd.com/job/Boxborough-3D-Driver-Development-Engineer-Tools-82766-Mass/709592800/)
+* [Senior Software Engineer (Rust & C++) at NZXT (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
+* [Senior Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
+* [Core Backend - Developer Experience Engineer at Kraken (Remote)](https://jobs.lever.co/kraken/1c6b290f-e430-430d-9b40-a258d07686b0)
+* [Rust API SDET at Kraken (Remote)](https://jobs.lever.co/kraken/5ec9958a-529c-4bae-89b3-0d1a104cbd81)
+* [Software Engineer - Trading Technology (Rust) at Kraken (Remote)](https://jobs.lever.co/kraken/4485f672-dc5f-4e49-a10b-2b0399e28a8d)
+* [Several Positions at Fluence Labs (Remote)](https://fluence.network/join.html)
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
