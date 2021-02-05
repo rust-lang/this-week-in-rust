@@ -76,7 +76,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [dotenv-linter has several good first issues](https://github.com/dotenv-linter/dotenv-linter/issues)
-* [Rust Berlin is searching for co-organizers](https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/)
+* [Rust Berlin is searching for co-organizers](https://berline.rs/call-for-organisers/)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
