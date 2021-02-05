@@ -126,7 +126,8 @@ Another week dominated by rollups, most of which had relatively small changes
 with unclear causes embedded. Overall no major changes in performance this week.
 
 Triage done by **@simulacrum**.
-Revision range: 1483e67addd37d9bd20ba3b4613b678ee9ad4d68..f6cb45ad01a4518f615926f39801996622f46179
+Revision range: 1483e67addd37d9bd20ba3b4613b678ee9ad4d68..
+f6cb45ad01a4518f615926f39801996622f46179
 [Link](https://perf.rust-lang.org/?start=1483e67addd37d9bd20ba3b4613b678ee9ad4d68&end=f6cb45ad01a4518f615926f39801996622f46179&absolute=false&stat=instructions%3Au)
 
 2 Regressions, 1 Improvements, 1 Mixed
