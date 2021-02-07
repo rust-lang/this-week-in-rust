@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Async Rust: Futures, Tasks, Wakers, Oh My!](https://msarmi9.github.io/posts/async-rust/)
 
 ### Miscellaneous
 
