@@ -186,7 +186,7 @@ Email the [Rust Community Team][community] for access.
 * [Rust Technical Lead at TrueLayer (London, UK)](https://apply.workable.com/truelayer/j/3B78A6F6F4/)
 * [Rust Technical Lead at TrueLayer (Milan, Italy)](https://apply.workable.com/truelayer/j/8D8D56C09E/)
 * [Senior Software Engineer (Rust & C++) at NZXT (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
-* [Rust Software Engineer at JetASAP (Remote US or CA)[https://angel.co/company/jetasap/jobs/1178965-rust-software-engineer)
+* [Rust Software Engineer at JetASAP (Remote US or CA)](https://angel.co/company/jetasap/jobs/1178965-rust-software-engineer)
 * [Backend Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
 * [Backend Engineer, Kraken Futures - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
 * [Rust API SDET at Kraken (Remote)](https://jobs.lever.co/kraken/5ec9958a-529c-4bae-89b3-0d1a104cbd81)
