@@ -24,6 +24,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+- [Artichoke Ruby's ARCHITECTURE.md][artichoke-ruby-arch]
+
+[artichoke-ruby-arch]: https://github.com/artichoke/artichoke/blob/21045d8f1086c669dd428a3b5bdcc4a58e13acec/ARCHITECTURE.md
+
 # Crate of the Week
 
 This week's crate is [fancy-regex](https://github.com/fancy-regex/fancy-regex) a regex implementation using regex for speed and backtracking for fancy features.
