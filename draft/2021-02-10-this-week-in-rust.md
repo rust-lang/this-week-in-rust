@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Launching wasm.rs: a collection of crates, a community](https://yrashk.medium.com/launching-wasm-rs-a-collection-of-crates-a-community-4344d2ba75b3)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
