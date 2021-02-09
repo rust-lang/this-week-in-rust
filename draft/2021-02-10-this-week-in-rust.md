@@ -26,9 +26,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [fancy-regex](https://github.com/fancy-regex/fancy-regex) a regex implementation using regex for speed and backtracking for fancy features.
+This week's crate is [threadIO](https://crates.io/crates/thread_io), a crate that makes disk IO in a background thread easy and elegant.
 
-Thanks to [Benjamin Minixhofer](https://users.rust-lang.org/t/crate-of-the-week/2704/877) for the suggestion!
+Thanks to [David Andersen](https://users.rust-lang.org/t/crate-of-the-week/2704/881) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -47,41 +47,41 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-323 pull requests were [merged in the last week][merged]
+384 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-01-25..2021-02-01
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-02-01..2021-02-08
 
-* [rustc: stabilize `-Zrun-dsymutil` as `-Csplit-debuginfo`](https://github.com/rust-lang/rust/pull/79570)
-* [point only at generic arguments when they are unexpected](https://github.com/rust-lang/rust/pull/79591)
-* [improve diagnostics for Precise Capture](https://github.com/rust-lang/rust/pull/81062)
-* [account for existing `_` field pattern when suggesting `..`](https://github.com/rust-lang/rust/pull/81422)
-* [tweak suggestion for missing field in patterns](https://github.com/rust-lang/rust/pull/81416)
-* [visit only statements in always live locals](https://github.com/rust-lang/rust/pull/81440)
-* [avoid memory allocation when removing dead blocks](https://github.com/rust-lang/rust/pull/81470)
-* [make hitting the recursion limit in projection non-fatal](https://github.com/rust-lang/rust/pull/81055)
-* [`clashing_extern_declarations`: use symbol interning to avoid string alloc](https://github.com/rust-lang/rust/pull/81453)
-* [miri: add random failures to `compare_exchange_weak`](https://github.com/rust-lang/miri/pull/1686)
-* [trying to `Vec::shrink_to` greater than capacity should be no-op](https://github.com/rust-lang/rust/pull/81335)
-* [implement Rust 2021 panic](https://github.com/rust-lang/rust/pull/80851)
-* [implement missing `AsMut<str>` for `str`](https://github.com/rust-lang/rust/pull/80279)
-* [implement `io::Seek` for `io::Empty`](https://github.com/rust-lang/rust/pull/78044)
-* [let `io::copy` reuse `BufWriter` buffers](https://github.com/rust-lang/rust/pull/78641)
-* [add 'Box::downcast()` for `dyn Any + Send + Sync`](https://github.com/rust-lang/rust/pull/80945)
-* [add `unwrap_unchecked()` methods for `Option` and `Result`](https://github.com/rust-lang/rust/pull/80876)
-* [add `core::stream::Stream`](https://github.com/rust-lang/rust/pull/79023)
-* [stabilize `core::slice::fill_with`](https://github.com/rust-lang/rust/pull/81048)
-* [stabilize `unsigned_abs`](https://github.com/rust-lang/rust/pull/80959)
-* [stabilize raw ref macros](https://github.com/rust-lang/rust/pull/80886)
-* [stabilize by-value `[T; N]` iterator `core::array::IntoIter`](https://github.com/rust-lang/rust/pull/80470)
-* [stabilise `cargo test -- --include-ignored`](https://github.com/rust-lang/rust/pull/80053)
-* [stabilize `Arc::`{`increment`, `decrement`}`_strong_count`](https://github.com/rust-lang/rust/pull/79285)
-* [stabilize `Seek::stream_position` (feature `seek_convenience`)](https://github.com/rust-lang/rust/pull/70904)
-* [optimize decimal formatting of 128-bit integers](https://github.com/rust-lang/rust/pull/81484)
-* [stabilize int_bits_const](https://github.com/rust-lang/rust/pull/81590)
-* [hashbrown: reduce the amount of llvm IR instantiated](https://github.com/rust-lang/hashbrown/pull/205)
-* [libtest: wait for test threads to exit after they report completion](https://github.com/rust-lang/rust/pull/81367)
-* [cargo: impl warn for locked install without Cargo.lock](https://github.com/rust-lang/cargo/pull/9108)
-* [rustdoc: improve docblock readability on small screen](https://github.com/rust-lang/rust/pull/81563)
+* [add AArch64 big-endian and ILP32 targets](https://github.com/rust-lang/rust/pull/81455)
+* [improve handling of spans around macro result parse errors](https://github.com/rust-lang/rust/pull/81608)
+* [identify unreachable subpatterns more reliably](https://github.com/rust-lang/rust/pull/80632)
+* [fix issues with move closures and mutability](https://github.com/rust-lang/rust/pull/80092)
+* [const_evaluatable: consider sub-expressions to be evaluatable](https://github.com/rust-lang/rust/pull/81577)
+* [introduce future-compatibility warning for forbidden lint groups](https://github.com/rust-lang/rust/pull/81556)
+* [`Box` the biggest `ast::ItemKind` variants](https://github.com/rust-lang/rust/pull/81405)
+* [improve error message for disallowed ptr-to-int casts in const eval](https://github.com/rust-lang/rust/pull/81779)
+* [typeck: emit structured suggestions for tuple struct syntax](https://github.com/rust-lang/rust/pull/81737)
+* [faster few span methods](https://github.com/rust-lang/rust/pull/81735)
+* [fix bug with `assert!()` calling the wrong edition of `panic!()`](https://github.com/rust-lang/rust/pull/81647)
+* [make `Allocator` object-safe](https://github.com/rust-lang/rust/pull/81730)
+* [add Frames Iterator for Backtrace](https://github.com/rust-lang/rust/pull/81022)
+* [add `Vec::extend_from_within` method under `vec_extend_from_within` feature gate](https://github.com/rust-lang/rust/pull/79015)
+* [`BTreeMap`: make `Ord` bound explicit, compile-test its absence](https://github.com/rust-lang/rust/pull/81610)
+* [implement `TrustedLen` for `Fuse<I: TrustedLen>`](https://github.com/rust-lang/rust/pull/81599)
+* [rename `Iterator::fold_first` to `reduce` and stabilize it](https://github.com/rust-lang/rust/pull/79805)
+* [stabilize the `Wake` trait](https://github.com/rust-lang/rust/pull/74304)
+* [stabilize `peekable_next_if`](https://github.com/rust-lang/rust/pull/80011)
+* [stabilize poison API of `Once`, rename `poisoned()`](https://github.com/rust-lang/rust/pull/81745)
+* [stabilize remaining integer methods as `const fn`](https://github.com/rust-lang/rust/pull/80962)
+* [futures-rs: avoid `once_cell` in static wakers](https://github.com/rust-lang/futures-rs/pull/2332)
+* [hashbrown: implement `From<HashMap<T, ()>>` for `HashSet<T>`](https://github.com/rust-lang/hashbrown/pull/235)
+* [cargo: fix panic with doc collision orphan](https://github.com/rust-lang/cargo/pull/9142)
+* [cargo: fix env/cfg set for `cargo test` and `cargo run`](https://github.com/rust-lang/cargo/pull/9122)
+* [make rustdoc respect `--error-format short` in doctests](https://github.com/rust-lang/rust/pull/81675)
+* [clippy: fix `let_underscore_drop` false positive](https://github.com/rust-lang/rust-clippy/pull/6682)
+* [clippy: fix `let_and_return` false positive](https://github.com/rust-lang/rust-clippy/pull/6659)
+* [clippy: don't trigger `exhaustive_structs` for structs with private fields](https://github.com/rust-lang/rust-clippy/pull/6661)
+* [clippy: add new lint `missing_panics_doc`](https://github.com/rust-lang/rust-clippy/pull/6523)
+* [compiletest: Add option to emit compiler stderr per bitwidth](https://github.com/rust-lang/rust/pull/81817)
 
 ## Rust Compiler Performance Triage
 
@@ -159,27 +159,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-This time we had two very good quotes, I could not decide, so here are both:
+> The main theme of Rust *is not* systems programming, speed, or memory safety - it's moving runtime problems to compile time. Everything else is incidental. This is an invaluable quality of any language, and is something Rust greatly excels at.
 
-> What I have been learning ... was not Rust in particular, but how to write sound software in general, and that in my opinion is the largest asset that the rust community tough me, through the language and tools that you developed.
->
-> Under this prism, it was really easy for me to justify the step learning curve that Rust offers: I wanted to learn how to write sound software, writing sound software is really hard , and the Rust compiler is a really good teacher.
->
-> \[...\]
->
-> This ability to identify unsound code transcends Rust's language, and in my opinion is heavily under-represented in most cost-benefit analysis over learning Rust or not.
+– [/u/OS6aDohpegavod4 on /r/rust](https://www.reddit.com/r/rust/comments/leki5o/advantages_of_building_a_crud_web_application_in/gmfq2w9/)
 
-– [Jorge Leitao on rust-users](https://users.rust-lang.org/t/thank-you-for-the-teaching-on-how-to-write-sound-software/54714)
-
-and
-
-> Having a fast language is not enough (ASM), and having a language with strong type guarantees neither (Haskell), and having a language with ease of use and portability also neither (Python/Java). Combine all of them together, and you get the best of all these worlds.
->
-> Rust is not the best option for any coding philosophy, it’s the option that is currently the best at combining all these philosophies.
-
-– [/u/CalligrapherMinute77 on /r/rust](https://www.reddit.com/r/rust/comments/l7vvo9/writing_a_proposal_to_use_rust_at_work/gl9lfk8)
-
-Thanks to [2e71828](https://users.rust-lang.org/t/twir-quote-of-the-week/328/996) and [Rusty Shell](https://users.rust-lang.org/t/twir-quote-of-the-week/328/998) for their respective suggestions.
+Thanks to [Chris](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1001) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
