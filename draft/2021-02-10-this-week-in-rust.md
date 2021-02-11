@@ -14,15 +14,42 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
+### Official
+
+* [Foundation] [Hello World!](https://foundation.rust-lang.org/posts/2021-02-08-hello-world/)
+* [Inside] [1.50.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2021/02/09/1.50.0-prerelease.html)
+
 ### Newsletters
+* [This Month in Rust GameDev #18 - January 2021](https://rust-gamedev.github.io/posts/newsletter-018/)
+* [This Month in Rust OSDev (January 2021)](https://rust-osdev.com/this-month/2021-01/)
 
 ### Project/Tooling Updates
+* [rust-analyzer Changelog #63](https://rust-analyzer.github.io/thisweek/2021/02/08/changelog-63.html)
 
 ### Observations/Thoughts
+* [Benchmarking Tokio Tasks and Goroutines](https://www.reddit.com/r/rust/comments/lg0a7b/benchmarking_tokio_tasks_and_goroutines/)
+* [A Better Rust Profiler](https://matklad.github.io/2021/02/10/a-better-profiler.html)
+* [An unsafe tour of Rust's Send and Sync](https://nyanpasu64.github.io/blog/an-unsafe-tour-of-rust-s-send-and-sync/)
+* [Improving texture atlas allocation in WebRender](https://nical.github.io/posts/etagere.html)
 
 ### Rust Walkthroughs
+* [Async Rust: Futures, Tasks, Wakers; Oh My!](https://msarmi9.github.io/posts/async-rust/)
+* [Rust for Haskell Programmers!](https://mmhaskell.com/rust)
+* [Rust CLI Game of Life tutorial - Part 1](https://dev.to/jbarszczewski/rust-cli-game-of-life-tutorial-part-1-57pp)
+* [Where everything went wrong...](https://msirringhaus.github.io/Where-everything-went-wrong/)
+* [Rust for Clojurists](https://gist.github.com/oakes/4af1023b6c5162c6f8f0)
+* [video] [1Password Developer Fireside Chat: Introduction to Rust Macros](https://youtu.be/Lh262L63asA)
+* [video] [Dynamic vs Static Dispatch in Rust](https://youtu.be/tM2r9HD4ivQ)
 
 ### Miscellaneous
+* [Congratulations, Rustaceans, on the creation of the Rust Foundation!](https://aws.amazon.com/blogs/opensource/congratulations-rustaceans-on-the-creation-of-the-rust-foundation/)
+* [Microsoft joins Rust Foundation](https://cloudblogs.microsoft.com/opensource/2021/02/08/microsoft-joins-rust-foundation/)
+* [Google joins the Rust Foundation](https://opensource.googleblog.com/2021/02/google-joins-rust-foundation.html)
+* [Mozilla Welcomes the Rust Foundation](https://blog.mozilla.org/blog/2021/02/08/mozilla-welcomes-the-rust-foundation/)
+* [Trusted Programming - Our Rust Mission at Huawei](https://trusted-programming.github.io/2021-02-07/index.html)
+* [YSK: VSCode's most recent update fixed a quirk in Rust workflows](https://www.reddit.com/r/rust/comments/lgccv5/ysk_vscodes_most_recent_update_fixed_a_quirk_in/)
+* [curl supports rustls](https://daniel.haxx.se/blog/2021/02/09/curl-supports-rustls/)
+* [video] [Interview with Ashley Williams, Rust Foundation Interim Executive Director (Part 1)](https://youtu.be/h-LoPr5553o)
 
 # Crate of the Week
 
