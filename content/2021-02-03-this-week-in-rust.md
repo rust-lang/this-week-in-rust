@@ -103,7 +103,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [implement missing `AsMut<str>` for `str`](https://github.com/rust-lang/rust/pull/80279)
 * [implement `io::Seek` for `io::Empty`](https://github.com/rust-lang/rust/pull/78044)
 * [let `io::copy` reuse `BufWriter` buffers](https://github.com/rust-lang/rust/pull/78641)
-* [add 'Box::downcast()` for `dyn Any + Send + Sync`](https://github.com/rust-lang/rust/pull/80945)
+* [add `Box::downcast()` for `dyn Any + Send + Sync`](https://github.com/rust-lang/rust/pull/80945)
 * [add `unwrap_unchecked()` methods for `Option` and `Result`](https://github.com/rust-lang/rust/pull/80876)
 * [add `core::stream::Stream`](https://github.com/rust-lang/rust/pull/79023)
 * [stabilize `core::slice::fill_with`](https://github.com/rust-lang/rust/pull/81048)
