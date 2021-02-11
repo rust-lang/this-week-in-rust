@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Async Rust: Futures, Tasks, Wakers, Oh My!](https://msarmi9.github.io/posts/async-rust/)
 
 ### Miscellaneous
+* [Introducing Artichoke Ruby: A Modular Ruby implementation written in Rust](https://github.com/artichoke/artichoke/blob/21045d8f1086c669dd428a3b5bdcc4a58e13acec/ARCHITECTURE.md)
 
 # Crate of the Week
 
