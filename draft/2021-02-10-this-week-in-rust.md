@@ -23,10 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 ### Miscellaneous
-
-- [Artichoke Ruby's ARCHITECTURE.md][artichoke-ruby-arch]
-
-[artichoke-ruby-arch]: https://github.com/artichoke/artichoke/blob/21045d8f1086c669dd428a3b5bdcc4a58e13acec/ARCHITECTURE.md
+* [Introducing Artichoke Ruby: A Modular Ruby implementation written in Rust](https://github.com/artichoke/artichoke/blob/21045d8f1086c669dd428a3b5bdcc4a58e13acec/ARCHITECTURE.md)
 
 # Crate of the Week
 
