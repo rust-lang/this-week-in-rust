@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+ - [Actors with Tokio](https://ryhl.io/blog/actors-with-tokio/)
+
 ### Miscellaneous
 
 # Crate of the Week
