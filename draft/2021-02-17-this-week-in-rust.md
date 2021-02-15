@@ -28,6 +28,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+- [Cleora - an ultra fast graph embedding tool written in Rust](https://github.com/Synerise/cleora)
+
 # Crate of the Week
 
 This week's crate is [threadIO](https://crates.io/crates/thread_io), a crate that makes disk IO in a background thread easy and elegant.
