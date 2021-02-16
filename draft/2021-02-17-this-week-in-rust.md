@@ -32,9 +32,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [threadIO](https://crates.io/crates/thread_io), a crate that makes disk IO in a background thread easy and elegant.
+Despite having no nominations, this week's crate is [firestorm](https://crates.io/crates/firestorm), a fast intrusive flamegraph profiling library.
 
-Thanks to [David Andersen](https://users.rust-lang.org/t/crate-of-the-week/2704/881) for the suggestion!
+llogiq is pretty pleased anyway with the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -63,41 +63,36 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-384 pull requests were [merged in the last week][merged]
+340 pull requests were [merged in the last week][merged]
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-02-01..2021-02-08
 
-* [add AArch64 big-endian and ILP32 targets](https://github.com/rust-lang/rust/pull/81455)
-* [improve handling of spans around macro result parse errors](https://github.com/rust-lang/rust/pull/81608)
-* [identify unreachable subpatterns more reliably](https://github.com/rust-lang/rust/pull/80632)
-* [fix issues with move closures and mutability](https://github.com/rust-lang/rust/pull/80092)
-* [const_evaluatable: consider sub-expressions to be evaluatable](https://github.com/rust-lang/rust/pull/81577)
-* [introduce future-compatibility warning for forbidden lint groups](https://github.com/rust-lang/rust/pull/81556)
-* [`Box` the biggest `ast::ItemKind` variants](https://github.com/rust-lang/rust/pull/81405)
-* [improve error message for disallowed ptr-to-int casts in const eval](https://github.com/rust-lang/rust/pull/81779)
-* [typeck: emit structured suggestions for tuple struct syntax](https://github.com/rust-lang/rust/pull/81737)
-* [faster few span methods](https://github.com/rust-lang/rust/pull/81735)
-* [fix bug with `assert!()` calling the wrong edition of `panic!()`](https://github.com/rust-lang/rust/pull/81647)
-* [make `Allocator` object-safe](https://github.com/rust-lang/rust/pull/81730)
-* [add Frames Iterator for Backtrace](https://github.com/rust-lang/rust/pull/81022)
-* [add `Vec::extend_from_within` method under `vec_extend_from_within` feature gate](https://github.com/rust-lang/rust/pull/79015)
-* [`BTreeMap`: make `Ord` bound explicit, compile-test its absence](https://github.com/rust-lang/rust/pull/81610)
-* [implement `TrustedLen` for `Fuse<I: TrustedLen>`](https://github.com/rust-lang/rust/pull/81599)
-* [rename `Iterator::fold_first` to `reduce` and stabilize it](https://github.com/rust-lang/rust/pull/79805)
-* [stabilize the `Wake` trait](https://github.com/rust-lang/rust/pull/74304)
-* [stabilize `peekable_next_if`](https://github.com/rust-lang/rust/pull/80011)
-* [stabilize poison API of `Once`, rename `poisoned()`](https://github.com/rust-lang/rust/pull/81745)
-* [stabilize remaining integer methods as `const fn`](https://github.com/rust-lang/rust/pull/80962)
-* [futures-rs: avoid `once_cell` in static wakers](https://github.com/rust-lang/futures-rs/pull/2332)
-* [hashbrown: implement `From<HashMap<T, ()>>` for `HashSet<T>`](https://github.com/rust-lang/hashbrown/pull/235)
-* [cargo: fix panic with doc collision orphan](https://github.com/rust-lang/cargo/pull/9142)
-* [cargo: fix env/cfg set for `cargo test` and `cargo run`](https://github.com/rust-lang/cargo/pull/9122)
-* [make rustdoc respect `--error-format short` in doctests](https://github.com/rust-lang/rust/pull/81675)
-* [clippy: fix `let_underscore_drop` false positive](https://github.com/rust-lang/rust-clippy/pull/6682)
-* [clippy: fix `let_and_return` false positive](https://github.com/rust-lang/rust-clippy/pull/6659)
-* [clippy: don't trigger `exhaustive_structs` for structs with private fields](https://github.com/rust-lang/rust-clippy/pull/6661)
-* [clippy: add new lint `missing_panics_doc`](https://github.com/rust-lang/rust-clippy/pull/6523)
-* [compiletest: Add option to emit compiler stderr per bitwidth](https://github.com/rust-lang/rust/pull/81817)
+* [parser: fix panic in 'const impl' recovery](https://github.com/rust-lang/rust/pull/81876)
+* [fix derived `PartialOrd` operators](https://github.com/rust-lang/rust/pull/81384)
+* [borrowck: refactor visited map to a bitset](https://github.com/rust-lang/rust/pull/81132)
+* [add suggest `mut` method for loop](https://github.com/rust-lang/rust/pull/81466)
+* [miri: Remove non-power-of-two SIMD vectors](https://github.com/rust-lang/miri/pull/1703)
+* [chalk: add Movability to Generator](https://github.com/rust-lang/chalk/pull/685)
+* [try `fast_reject::simplify_type` in coherence before doing full check](https://github.com/rust-lang/rust/pull/81744)
+* [fix suggestion to introduce explicit lifetime](https://github.com/rust-lang/rust/pull/81995)
+* [make suggestion of changing mutability of arguments broader](https://github.com/rust-lang/rust/pull/81990)
+* [optimize `Vec::retain`](https://github.com/rust-lang/rust/pull/81126)
+* [make `Vec::split_at_spare_mut` public](https://github.com/rust-lang/rust/pull/81687)
+* [`BTreeMap`: disentangle `Drop` implementation from `IntoIter`](https://github.com/rust-lang/rust/pull/81486)
+* [initialize `BTree` nodes directly in the heap](https://github.com/rust-lang/rust/pull/81494)
+* [stabilize the `partition_point` feature](https://github.com/rust-lang/rust/pull/81012)
+* [add `Box::into_inner`](https://github.com/rust-lang/rust/pull/80438)
+* [stdsimd: add SIMD shuffles for `SimdType`{`2`, `4`, `8`, `16`, `32`, `64`}](https://github.com/rust-lang/stdsimd/pull/62)
+* [stdsimd: add bitmasks and simplify mask API](https://github.com/rust-lang/stdsimd/pull/61)
+* [libtest: allow multiple filters](https://github.com/rust-lang/rust/pull/81356)
+* [cargo: change git dependencies to use `HEAD` by default ](https://github.com/rust-lang/cargo/pull/9133)
+* [cargo: emit warning on env variable case mismatch](https://github.com/rust-lang/cargo/pull/9169)
+* [crates.io: add `COM0` and `LPT0` to the list of reserved crate names](https://github.com/rust-lang/crates.io/pull/3271) (Windows users rejoice)
+* [clippy: fix suggestions that need parens in `from_iter_instead_of_collect` lint](https://github.com/rust-lang/rust-clippy/pull/6657)
+* [clippy: fix `missing_panics_doc` warning on `unreachable!`](https://github.com/rust-lang/rust-clippy/pull/6700)
+* [clippy: fix `vec_init_then_push` false positives](https://github.com/rust-lang/rust-clippy/pull/6697)
+* [clippy: downgrade `trivial_regex` to nursery](https://github.com/rust-lang/rust-clippy/pull/6696)
+* [clippy: new lint: `bytes_nth`](https://github.com/rust-lang/rust-clippy/pull/6695)
 
 ## Rust Compiler Performance Triage
 
@@ -160,11 +155,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> The main theme of Rust *is not* systems programming, speed, or memory safety - it's moving runtime problems to compile time. Everything else is incidental. This is an invaluable quality of any language, and is something Rust greatly excels at.
+> Have you seen someone juggle several items with one hand? That's the point of async. Blocking (non-async) it like writing - it requires constant work from each hand. If you want to write twice as fast you'll need two hands and write with both at the same time. That's multithreading. If you juggle, the moment the item leaves your hand and is in the air, you have it left with nothing to do. That's similar to network IO - you make a request and are just waiting for the server to respond. You could be doing something in the meantime, like catching another item and throwing it back up again. That's what "await" does - it says I threw and item into the air, so I want my current thread / hand to switch over to catch something else now.
 
-– [/u/OS6aDohpegavod4 on /r/rust](https://www.reddit.com/r/rust/comments/leki5o/advantages_of_building_a_crud_web_application_in/gmfq2w9/)
+– [/u/OS6aDohpegavod4 on /r/rust](https://www.reddit.com/r/rust/comments/lia5fu/why_async_rust/gn2q25e/)
 
-Thanks to [Chris](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1001) for the suggestion.
+Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1002) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
