@@ -101,7 +101,11 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-*No triage report this week*
+A mostly quiet week, though with an excellent improvement in bootstrap times, shaving off a couple percent off the total and 10% off of rustc_middle due to changes in the code being compiled.
+
+Triage done by @simulacrum. Revision range: [ea09825..f1c47c7](https://perf.rust-lang.org/?start=ea098255f74923d69ea234ee526df6b9cecc3b9b&end=f1c47c79fe8438ed241630f885797eebef3a6cab&absolute=false&stat=instructions%3Au)
+
+1 Regressions, 2 Improvements, 1 Mixed
 
 ## Approved RFCs
 
