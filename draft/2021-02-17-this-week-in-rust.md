@@ -142,6 +142,7 @@ decision. Express your opinions now.
 * [February 17, Vancouver, BC, CA - Rust Study/Hack/Hang-out night - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/npqfbsyccdbwb/)
 * [February 18, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccdbxb/)
 * [February 23, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccdbfc/)
+* [March 13th, Chemnitzer Linux Tage - Talk on Rust and its ecosystem (in Germany but includes Fuchsia and AOSP :-) ] (https://chemnitzer.linux-tage.de/2021/en/programm/beitrag/135)
 
 
 ### North America
