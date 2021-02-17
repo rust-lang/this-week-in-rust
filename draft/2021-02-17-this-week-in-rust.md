@@ -156,6 +156,9 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+* [Rust Core Engineer at The Zcash Foundation (Remote)](https://www.zfnd.org/blog/opening-core-engineer/)
+* [Rust Cryptography Engineer at The Zcash Foundation (Remote)](https://www.zfnd.org/blog/open-position-cryptography-engineer/)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
