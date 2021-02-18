@@ -21,17 +21,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [video] [Rust 1.50 Patch Review](https://www.youtube.com/watch?v=C7BTIdkWreI&feature=youtu.be)
 
 ### Rust Walkthroughs
-
- - [Actors with Tokio](https://ryhl.io/blog/actors-with-tokio/)
+* [Actors with Tokio](https://ryhl.io/blog/actors-with-tokio/)
 * [video] [Graphs in Rust: Let's Build a Maze!](https://youtu.be/UEAg4qCALb8)
 
 ### Miscellaneous
-
-- [Cleora - an ultra fast graph embedding tool written in Rust](https://github.com/Synerise/cleora)
-- [Cost-based query optimizations in multithreaded environments](https://vertexclique.com/cost-based-query-optimizations/)
-- [Writing our own Cheat Engine: Exact Value scanning](https://lonami.dev/blog/woce-2/)
+* [Cleora - an ultra fast graph embedding tool written in Rust](https://github.com/Synerise/cleora)
+* [Cost-based query optimizations in multithreaded environments](https://vertexclique.com/cost-based-query-optimizations/)
+* [Writing our own Cheat Engine: Exact Value scanning](https://lonami.dev/blog/woce-2/)
+* [What would SQLite look like if written in Rust? — Part 1](https://medium.com/the-polyglot-programmer/what-would-sqlite-look-like-if-written-in-rust-part-1-4a84196c217d)
 
 # Crate of the Week
 
@@ -50,15 +50,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-Fuchsia has several issues available:
-
-* [[netstack3] ARP: Add tests for ARP on a broadcast medium](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=34979)
-* [[netstack3] Migrate all transport protocols to trait associated types](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=48364)
-* [[netstack3] Split IpProto into Ipv4Proto and Ipv6NextHeader](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=47454)
-* [[net-types] Add common prefix length calculation for IP addresses](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=47008)
-* [[netstack3] Make sure ICMP messages are not sent in response to non-initial fragment packets](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=21432)
-* [[internet-checksum] Clarify documentation around odd byte lengths](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=69355)
-* [[netstack3] IP fragment reassembly vulnerable to FragmentSmack](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=50830)
+* [Fuchsia - netstack3: Support stable interface IDs](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=69644)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -110,7 +102,7 @@ Triage done by @simulacrum. Revision range: [ea09825..f1c47c7](https://perf.rust
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Rust 2021 Roadmap](https://github.com/rust-lang/rfcs/pull/3037)
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -120,16 +112,23 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [adds async stream rfc](https://github.com/rust-lang/rfcs/pull/2996)
+* [Adds `must_not_suspend_lint` RFC](https://github.com/rust-lang/rfcs/pull/3014)
+* [RFC: Checking conditional compilation at compile time](https://github.com/rust-lang/rfcs/pull/3013)
 * [RFC: add the Freeze trait to libcore/libstd](https://github.com/rust-lang/rfcs/pull/2944)
 * [Generic Pointer to Field](https://github.com/rust-lang/rfcs/pull/2708)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Allow leading | anywhere we allow or-patterns](https://github.com/rust-lang/rust/issues/81415)
+* [disposition: merge] [Make char and u8 methods const](https://github.com/rust-lang/rust/pull/82078)
+* [disposition: merge] [Demote x86_64-rumprun-netbsd target](https://github.com/rust-lang/rust/issues/81514)
 * [disposition: merge] [`impl PartialEq<Punct> for char`; symmetry for #78636](https://github.com/rust-lang/rust/pull/80595)
-* [disposition: merge] [Add an impl of Error on `Arc<impl Error>`.](https://github.com/rust-lang/rust/pull/80553)
+* [disposition: merge] [Make rustdoc lints a tool lint instead of built-in](https://github.com/rust-lang/rust/pull/80527)
+* [disposition: merge] [Stabilize `unsafe_op_in_unsafe_fn` lint](https://github.com/rust-lang/rust/pull/79208)
 * [disposition: merge] [Add `NotSupported` to `std::io::ErrorKind`](https://github.com/rust-lang/rust/pull/78880)
+* [disposition: merge] [[librustdoc] Only split lang string on `,`, ` `, and `\t`](https://github.com/rust-lang/rust/pull/78429)
+* [disposition: merge] [Lint for unused borrows as part of `UNUSED_MUST_USE` ](https://github.com/rust-lang/rust/pull/76894)
+* [disposition: merge] [Tracking Issue for str_split_once](https://github.com/rust-lang/rust/issues/74773)
+* [disposition: merge] [Tracking Issue for ASCII methods on OsStr](https://github.com/rust-lang/rust/issues/70516)
 * [disposition: close] [Tracking issue for `Option::expect_none(msg)` and `unwrap_none()`](https://github.com/rust-lang/rust/issues/62633)
 
 ## New RFCs
@@ -139,15 +138,9 @@ decision. Express your opinions now.
 # Upcoming Events
 
 ### Online
-* [February 11, Washington, DC, US - Let's learn to Rust nice with others - Rust DC](https://www.meetup.com/RustDC/events/275569653)
-* [February 11, San Diego, CA, US - February 2021 Tele-Meetup - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/276272745/)
-* [February 17, Vancouver, BC, CA - Rust Study/Hack/Hang-out night - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/npqfbsyccdbwb/)
 * [February 18, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccdbxb/)
 * [February 23, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccdbfc/)
-
-
-### North America
-* [February 11, Columbus, OH, US - Monthly Meeting - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dpkhgryccdbpb/)
+* [March 2, Dublin, IE - March Remote Meetup - Luca Palmieri - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/276334977/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -160,6 +153,17 @@ Email the [Rust Community Team][community] for access.
 
 * [Rust Core Engineer at The Zcash Foundation (Remote)](https://www.zfnd.org/blog/opening-core-engineer/)
 * [Rust Cryptography Engineer at The Zcash Foundation (Remote)](https://www.zfnd.org/blog/open-position-cryptography-engineer/)
+* [Senior Software Engineer [Rust] at Fuel (Toronto, ON, CA or Remote)](https://jobs.lever.co/fuellabs/13b01903-490a-4497-b778-35434f4188cf)
+* [Backend Engineer - Rust - Core Backend at Kraken (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote) at Kraken (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Rust API SDET at Kraken (Remote)](https://jobs.lever.co/kraken/5ec9958a-529c-4bae-89b3-0d1a104cbd81)
+* [Rust Engineer, Desktop GUI - Cryptowatch at Kraken (Remote)](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
+* [Senior Backend Engineer - Rust - Core Backend at Kraken (Remote)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
+* [Senior Banking Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
+* [Site Reliability Engineer - Rust Core Backend at Kraken (Remote)](https://jobs.lever.co/kraken/1c6b290f-e430-430d-9b40-a258d07686b0)
+* [Software Engineer - Trading Technology (Rust) at Kraken (Remote)](https://jobs.lever.co/kraken/4485f672-dc5f-4e49-a10b-2b0399e28a8d)
+* [Head of Developer Relations at Ockam (US, Mountain or Pacific Timezones)](https://www.ockam.io/team/Head-of-Developer-Relations/1e365b6a-9df0-5eec-9762-a4b25f913d23)
+* [Lead Software Developer, Rust at BlockGen Corp (US & Canada remote only)](https://loanpass.io/careerPage.html)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
