@@ -14,10 +14,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
+No newsletters this week.
+
 ### Official
 * [Announcing Rust 1.50.0](https://blog.rust-lang.org/2021/02/11/Rust-1.50.0.html)
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [IntelliJ Rust changelog #141](https://intellij-rust.github.io/2021/02/15/changelog-141.html)
