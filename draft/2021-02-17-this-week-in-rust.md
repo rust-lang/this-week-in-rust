@@ -14,17 +14,44 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-### Official
+No newsletters this week.
 
-### Newsletters
+### Official
+* [Announcing Rust 1.50.0](https://blog.rust-lang.org/2021/02/11/Rust-1.50.0.html)
 
 ### Project/Tooling Updates
+* [IntelliJ Rust changelog #141](https://intellij-rust.github.io/2021/02/15/changelog-141.html)
+* [rust-analyzer changelog #64](https://rust-analyzer.github.io/thisweek/2021/02/15/changelog-64.html)
+* [A big release for relm](https://relm.antoyo.xyz/big-release/)
 
 ### Observations/Thoughts
+* [The XDG base directory specification and Rust](https://blog.liw.fi/posts/2021/02/14/xdg-base-dirs-rust/)
+* [Zero dependency images (of chaos) in Rust](https://state.smerity.com/smerity/state/01EYB6YQ5T2KFSC1PF55A3B8DG)
+* [Examples of declarative style in Rust](https://radekvit.medium.com/examples-of-declarative-style-in-rust-9fae89c0fea)
+* [Rust 2030 Christmas list: Better cfg](https://gist.github.com/PoignardAzur/8038f5ed7dc8d00e3e9472aca57fb35c)
+* [For the Love of Macros](https://matklad.github.io/2021/02/14/for-the-love-of-macros.html)
+* [The Tokio Upgrade from 0.2 to 1.x](https://fly.io/blog/the-tokio-1-x-upgrade/)
+* [Cranelift, Part 2: Compiler Efficiency, CFGs, and a Branch Peephole Optimizer](https://cfallin.org/blog/2021/01/22/cranelift-isel-2/)
+* [audio] [Building with Rust: Luca Palmieri on TrueLayer and Zero to Production](https://anchor.fm/building-with-rust/episodes/Building-with-Rust-Luca-Palmieri-on-TrueLayer-and-Zero-to-Production-eq9rqs)
+* [audio] [Chats with James 008 - Yoshua Wuyts](https://jamesmunns.com/podcast/008-yosh/)
 * [video] [Rust 1.50 Patch Review](https://www.youtube.com/watch?v=C7BTIdkWreI&feature=youtu.be)
 
 ### Rust Walkthroughs
 * [Actors with Tokio](https://ryhl.io/blog/actors-with-tokio/)
+* [Building a microservice with Rust](https://medium.com/tenable-techblog/building-a-microservice-with-rust-23a4de6e5e14)
+* [Rust is cool - Enums](https://thatgeoguy.ca/blog/2021/02/15/rust-is-cool-enums/)
+* [Rust CLI Game of Life tutorial - Part 2](https://dev.to/jbarszczewski/rust-cli-game-of-life-tutorial-part-2-16j3)
+* [Calling Rust from a Cloudflare Worker](https://dev.to/jldec/calling-rust-from-a-cloudflare-worker-17b4)
+* [Validating JSON input with Rust web services](https://dev.to/vinted/validating-json-input-in-rust-web-services-5gp0)
+* [What would SQLite look like if written in Rust? -- Part 1](https://dev.to/joaoh82/what-would-sqlite-look-like-if-written-in-rust-part-1-2np4)
+* [Generalizing over Generics in Rust (Part 1) - AKA Higher Kinded Types in Rust](https://rustyyato.github.io/type/system,type/families/2021/02/15/Type-Families-1.html)
+* [Procedural Macros: The Basics](https://blog.turbo.fish/proc-macro-basics/)
+* [Building an OpenStreetMap app in Rust, Part II](https://blogg.bekk.no/building-an-openstreetmap-app-in-rust-part-ii-933ca8d0c48a)
+* [Look, Ma! No JS! - Compiling Rust to WebAssembly](https://www.novatec-gmbh.de/en/blog/look-ma-no-js-compiling-rust-to-webassembly/)
+* [Simple ray tracer written in Rust from scratch](https://github.com/dranikpg/simple-rays)
+* [Short Circuit Sum in Rust](https://www.fpcomplete.com/blog/short-circuit-sum-rust/)
+* [Zero to Production in Rust, Part 7.1 - Skeleton And Principles For A Maintainable Test Suite](https://www.lpalmieri.com/posts/skeleton-and-principles-for-a-maintainable-test-suite/)
+* [CCSS Devclub Rust Workshop](https://www.notion.so/CCSS-Devclub-Rust-Workshop-dccad2c1119d4af7bf78f3d3b4797603)
 * [video] [Graphs in Rust: Let's Build a Maze!](https://youtu.be/UEAg4qCALb8)
 
 ### Miscellaneous
