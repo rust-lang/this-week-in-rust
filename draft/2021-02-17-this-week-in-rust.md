@@ -29,6 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Miscellaneous
 
 - [Cleora - an ultra fast graph embedding tool written in Rust](https://github.com/Synerise/cleora)
+- [Cost-based query optimizations in multithreaded environments](https://vertexclique.com/cost-based-query-optimizations/)
 - [Writing our own Cheat Engine: Exact Value scanning](https://lonami.dev/blog/woce-2/)
 
 # Crate of the Week
