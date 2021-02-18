@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
  - [Actors with Tokio](https://ryhl.io/blog/actors-with-tokio/)
+* [video] [Graphs in Rust: Let's Build a Maze!](https://youtu.be/UEAg4qCALb8)
 
 ### Miscellaneous
 
