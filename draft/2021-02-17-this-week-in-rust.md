@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [video] [Rust 1.50 Patch Review](https://www.youtube.com/watch?v=C7BTIdkWreI&feature=youtu.be)
 
 ### Rust Walkthroughs
 
@@ -32,6 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Cleora - an ultra fast graph embedding tool written in Rust](https://github.com/Synerise/cleora)
 * [Cost-based query optimizations in multithreaded environments](https://vertexclique.com/cost-based-query-optimizations/)
 * [Writing our own Cheat Engine: Exact Value scanning](https://lonami.dev/blog/woce-2/)
+* [What would SQLite look like if written in Rust? — Part 1](https://medium.com/the-polyglot-programmer/what-would-sqlite-look-like-if-written-in-rust-part-1-4a84196c217d)
 
 # Crate of the Week
 
@@ -160,6 +162,17 @@ Email the [Rust Community Team][community] for access.
 
 * [Rust Core Engineer at The Zcash Foundation (Remote)](https://www.zfnd.org/blog/opening-core-engineer/)
 * [Rust Cryptography Engineer at The Zcash Foundation (Remote)](https://www.zfnd.org/blog/open-position-cryptography-engineer/)
+* [Senior Software Engineer [Rust] at Fuel (Toronto, ON, CA or Remote)](https://jobs.lever.co/fuellabs/13b01903-490a-4497-b778-35434f4188cf)
+* [Backend Engineer - Rust - Core Backend at Kraken (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote) at Kraken (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Rust API SDET at Kraken (Remote)](https://jobs.lever.co/kraken/5ec9958a-529c-4bae-89b3-0d1a104cbd81)
+* [Rust Engineer, Desktop GUI - Cryptowatch at Kraken (Remote)](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
+* [Senior Backend Engineer - Rust - Core Backend at Kraken (Remote)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
+* [Senior Banking Engineer - Rust at Kraken (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
+* [Site Reliability Engineer - Rust Core Backend at Kraken (Remote)](https://jobs.lever.co/kraken/1c6b290f-e430-430d-9b40-a258d07686b0)
+* [Software Engineer - Trading Technology (Rust) at Kraken (Remote)](https://jobs.lever.co/kraken/4485f672-dc5f-4e49-a10b-2b0399e28a8d)
+* [Head of Developer Relations at Ockam (US, Mountain or Pacific Timezones)](https://www.ockam.io/team/Head-of-Developer-Relations/1e365b6a-9df0-5eec-9762-a4b25f913d23)
+* [Lead Software Developer, Rust at BlockGen Corp (US & Canada remote only)](https://loanpass.io/careerPage.html)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
