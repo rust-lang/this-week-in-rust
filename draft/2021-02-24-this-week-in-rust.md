@@ -19,6 +19,7 @@ No newsletters this week.
 ### Official
 
 ### Project/Tooling Updates
+* [MoonZoon - New Rust fullstack framework](https://moonzoon.rs)
 
 ### Observations/Thoughts
 
