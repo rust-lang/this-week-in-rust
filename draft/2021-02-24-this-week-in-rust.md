@@ -25,6 +25,7 @@ No newsletters this week.
 ### Rust Walkthroughs
 
 ### Miscellaneous
+* [Application-wide panic handling](https://domwillia.ms/panik/)
 
 # Crate of the Week
 
