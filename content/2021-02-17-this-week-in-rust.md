@@ -58,7 +58,6 @@ No newsletters this week.
 * [Cleora - an ultra fast graph embedding tool written in Rust](https://github.com/Synerise/cleora)
 * [Cost-based query optimizations in multithreaded environments](https://vertexclique.com/cost-based-query-optimizations/)
 * [Writing our own Cheat Engine: Exact Value scanning](https://lonami.dev/blog/woce-2/)
-* [What would SQLite look like if written in Rust? — Part 1](https://medium.com/the-polyglot-programmer/what-would-sqlite-look-like-if-written-in-rust-part-1-4a84196c217d)
 
 # Crate of the Week
 
