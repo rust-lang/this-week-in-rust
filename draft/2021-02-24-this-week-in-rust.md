@@ -26,7 +26,7 @@ No newsletters this week.
 
 ### Miscellaneous
 
-[Benchmarking low-level I/O: C, C++, Rust, Golang, Java, Python](https://medium.com/star-gazers/benchmarking-low-level-i-o-c-c-rust-golang-java-python-9a0d505f85f7) - Comparing how different languages handle network I/O and checking if Rust maintains its high-performance promise
+[Benchmarking low-level I/O: C, C++, Rust, Golang, Java, Python](https://medium.com/star-gazers/benchmarking-low-level-i-o-c-c-rust-golang-java-python-9a0d505f85f7)
 
 # Crate of the Week
 
