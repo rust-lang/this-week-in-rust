@@ -26,6 +26,8 @@ No newsletters this week.
 
 ### Miscellaneous
 
+[Benchmarking low-level I/O: C, C++, Rust, Golang, Java, Python](https://medium.com/star-gazers/benchmarking-low-level-i-o-c-c-rust-golang-java-python-9a0d505f85f7) - Comparing how different languages handle network I/O and checking if Rust maintains its high-performance promise
+
 # Crate of the Week
 
 Despite having no nominations, this week's crate is [firestorm](https://crates.io/crates/firestorm), a fast intrusive flamegraph profiling library.
