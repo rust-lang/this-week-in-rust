@@ -26,6 +26,8 @@ No newsletters this week.
 
 ### Miscellaneous
 
+[Spanish] [Pipelines en Rust(II)](https://yorodm.is-a.dev/blog/rust-pipeline-pattern-ii/)
+
 # Crate of the Week
 
 Despite having no nominations, this week's crate is [firestorm](https://crates.io/crates/firestorm), a fast intrusive flamegraph profiling library.
