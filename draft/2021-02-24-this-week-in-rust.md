@@ -85,7 +85,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Overall, a positive week for compiler performance with only one moderate regression. The change that introduced the regression leads to significantly improved [bootstrap speed](https://github.com/rust-lang/rust/pull/70951#issuecomment-766292996) of the compiler as well as easier maintainability.
 
 Triage done by **@rylev**.
-Revision range: [f1c47c79fe8438ed241630f885797eebef3a6cab..301ad8a4fa3ea56fb980443b7997c8f9d72dd717](https://perf.rust-lang.org/?start=f1c47c79fe8438ed241630f885797eebef3a6cab&end=301ad8a4fa3ea56fb980443b7997c8f9d72dd717&absolute=false&stat=instructions%3Au)
+Revision range: [f1c47c..301ad8a](https://perf.rust-lang.org/?start=f1c47c79fe8438ed241630f885797eebef3a6cab&end=301ad8a4fa3ea56fb980443b7997c8f9d72dd717&absolute=false&stat=instructions%3Au)
 
 1 Regression, 5 Improvements, 0 Mixed
 0 of them in rollups
