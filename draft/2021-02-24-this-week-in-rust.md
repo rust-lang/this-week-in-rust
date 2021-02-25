@@ -24,14 +24,13 @@ No newsletters this week.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Macros in Rust: A tutorial with examples](https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/)
+* [Spanish] [Pipelines en Rust(II)](https://yorodm.is-a.dev/blog/rust-pipeline-pattern-ii/)
 
 ### Miscellaneous
 * [Application-wide panic handling](https://domwillia.ms/panik/)
-* [Macros in Rust: A tutorial with examples](https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/)
+* [Benchmarking low-level I/O: C, C++, Rust, Golang, Java, Python](https://medium.com/star-gazers/benchmarking-low-level-i-o-c-c-rust-golang-java-python-9a0d505f85f7)
 
-[Benchmarking low-level I/O: C, C++, Rust, Golang, Java, Python](https://medium.com/star-gazers/benchmarking-low-level-i-o-c-c-rust-golang-java-python-9a0d505f85f7)
-
-[Spanish] [Pipelines en Rust(II)](https://yorodm.is-a.dev/blog/rust-pipeline-pattern-ii/)
 
 # Crate of the Week
 
@@ -49,6 +48,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+[starlight - Support for "unsafe" cases of `finally`](https://github.com/Starlight-JS/starlight/issues/7)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -92,7 +93,7 @@ Revision range: [f1c47c..301ad8a](https://perf.rust-lang.org/?start=f1c47c79fe84
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC: Checking conditional compilation at compile time](https://github.com/rust-lang/rfcs/pull/3013)
 
 ## Final Comment Period
 
@@ -102,36 +103,41 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [Adds `must_not_suspend_lint` RFC](https://github.com/rust-lang/rfcs/pull/3014)
-* [RFC: Checking conditional compilation at compile time](https://github.com/rust-lang/rfcs/pull/3013)
-* [RFC: add the Freeze trait to libcore/libstd](https://github.com/rust-lang/rfcs/pull/2944)
-* [Generic Pointer to Field](https://github.com/rust-lang/rfcs/pull/2708)
+
+* [RFC - cargo templates](https://github.com/rust-lang/rfcs/pull/2922)
+* [rfc: make cargo install extensible](https://github.com/rust-lang/rfcs/pull/2376)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Make char and u8 methods const](https://github.com/rust-lang/rust/pull/82078)
-* [disposition: merge] [Demote x86_64-rumprun-netbsd target](https://github.com/rust-lang/rust/issues/81514)
-* [disposition: merge] [`impl PartialEq<Punct> for char`; symmetry for #78636](https://github.com/rust-lang/rust/pull/80595)
+* [disposition: merge][Allow specifying alignment for functions]
 * [disposition: merge] [Make rustdoc lints a tool lint instead of built-in](https://github.com/rust-lang/rust/pull/80527)
 * [disposition: merge] [Stabilize `unsafe_op_in_unsafe_fn` lint](https://github.com/rust-lang/rust/pull/79208)
-* [disposition: merge] [Add `NotSupported` to `std::io::ErrorKind`](https://github.com/rust-lang/rust/pull/78880)
 * [disposition: merge] [[librustdoc] Only split lang string on `,`, ` `, and `\t`](https://github.com/rust-lang/rust/pull/78429)
 * [disposition: merge] [Lint for unused borrows as part of `UNUSED_MUST_USE` ](https://github.com/rust-lang/rust/pull/76894)
 * [disposition: merge] [Tracking Issue for str_split_once](https://github.com/rust-lang/rust/issues/74773)
 * [disposition: merge] [Tracking Issue for ASCII methods on OsStr](https://github.com/rust-lang/rust/issues/70516)
-* [disposition: close] [Tracking issue for `Option::expect_none(msg)` and `unwrap_none()`](https://github.com/rust-lang/rust/issues/62633)
 
 ## New RFCs
 
-* [Add named path bases to cargo](https://github.com/rust-lang/rfcs/pull/3074)
+* [RFC: An edition-compatible system for "removing" deprecated items from the standard library](https://github.com/rust-lang/rfcs/pull/3088)
+* [RFC: Declarative macro metavariable expressions](https://github.com/rust-lang/rfcs/pull/3086/files)
+* [RFC: 2021 Edition](https://github.com/rust-lang/rfcs/pull/3085)
+* [Add filename information to `std::io::Error` to improve `std::io` error messages ](https://github.com/rust-lang/rfcs/pull/3084)
+* [Multi-part examples in rustdoc](https://github.com/rust-lang/rfcs/pull/3081)
 
 # Upcoming Events
 
 ### Online
-* [February 18, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccdbxb/)
-* [February 23, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccdbfc/)
+* [February 27, London, UK - Rust (Remote) Hack & Learn - Rust London](https://github.com/rust-ldn/rust-hack-and-learn)
 * [March 2, Dublin, IE - March Remote Meetup - Luca Palmieri - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/276334977/)
+* [March 3, Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy Rust](https://www.meetup.com/indyrs/events/jhfstryccfbfb/)
+* [March 3, Denver, CO, US - Building a Runtime Reflection System for Rust by Sam Scott - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/275738407/)
+* [March 4, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccfbgb/)
 * [March 9, Saarbücken, Saarland, DE - Meetup: 9u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/276401469/)
+* [March 9, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccfbmb/)
+
+### North America
+* [March 10, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgryccfbnb/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -141,6 +147,15 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**ForAllSecure**
+* [Senior/Staff Engineer, Backend - RUST](https://boards.greenhouse.io/forallsecure/jobs/5086295002)
+
+**NZXT**
+* [Senior Software Engineer (Rust & C++) (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
+
+**Parity**
+* [Several Rust Engineering Positions (Berlin, DE)](https://www.parity.io/jobs/#jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
