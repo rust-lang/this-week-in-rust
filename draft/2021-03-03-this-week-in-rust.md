@@ -20,6 +20,8 @@ No newsletters or official blog posts this week.
 
 ### Observations/Thoughts
 
+* [Why we built the core auth library in Rust (interview with CTO of Oso)](https://console.dev/qa/oso-sam-scott/)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
