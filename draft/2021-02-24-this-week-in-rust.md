@@ -29,6 +29,8 @@ No newsletters this week.
 * [Application-wide panic handling](https://domwillia.ms/panik/)
 * [Macros in Rust: A tutorial with examples](https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/)
 
+[Benchmarking low-level I/O: C, C++, Rust, Golang, Java, Python](https://medium.com/star-gazers/benchmarking-low-level-i-o-c-c-rust-golang-java-python-9a0d505f85f7)
+
 # Crate of the Week
 
 Despite having no nominations, this week's crate is [firestorm](https://crates.io/crates/firestorm), a fast intrusive flamegraph profiling library.
