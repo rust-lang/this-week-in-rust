@@ -1,6 +1,6 @@
-Title: This Week in Rust 379
-Number: 379
-Date: 2021-02-24
+Title: This Week in Rust 380
+Number: 380
+Date: 2021-03-03
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -17,50 +17,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 No newsletters or official blog posts this week.
 
 ### Project/Tooling Updates
-* [MoonZoon - New Rust fullstack framework](https://moonzoon.rs)
-* [rust-analyzer Changelog #65](https://rust-analyzer.github.io/thisweek/2021/02/22/changelog-65.html)
-* [Knurling-rs changelog #17](https://ferrous-systems.com/blog/knurling-changelog-17/)
 
 ### Observations/Thoughts
-* [Rust for web development: 2 years later](https://kerkour.com/blog/rust-for-web-development-2-years-later/)
-* [Integrating Rust and C++ in Firefox](https://manishearth.github.io/blog/2021/02/22/integrating-rust-and-c-plus-plus-in-firefox/)
-* [Building a telnet chat server with Rust and Lunatic](https://dev.to/bkolobara/how-i-built-a-telnet-chat-server-in-2021-with-webassembly-2711)
-* [Against Packaging Rust Crates](https://fy.blackhats.net.au/blog/html/2021/02/16/against_packaging_rust_crates.html)
-* [Why building a front-end framework in Rust is hard](https://lik.ai/blog/why-building-a-front-end-framework-in-rust-is-hard)
-* [Oxidizing Kraken](https://blog.kraken.com/post/7964/oxidizing-kraken/?)
-* [Maybe We Can Have Nice Things](https://noncombatant.org/2021/02/16/maybe-we-can-have-nice-things/)
-* [Three Things I Miss About Rust](https://bennett.dev/)
-* [Storages: an alternative to allocators](https://www.reddit.com/r/rust/comments/lp0i5r/storages_an_alternative_to_allocators/)
 
 ### Rust Walkthroughs
-* [Rust ownership, the hard way](https://chrismorgan.info/blog/rust-ownership-the-hard-way/)
-* [Handling Unix Kill Signals in Rust](https://dev.to/talzvon/handling-unix-kill-signals-in-rust-55g6)
-* [Replacing FastAPI with Rust: Part 5 - Rocket 0.5](https://dev.to/dbanty/replacing-fastapi-with-rust-part-5-rocket-0-5-3kb3)
-* [Running ML models in a game (and in Wasm!)](https://dev.to/mockersf/running-ml-models-in-a-game-and-in-wasm-12i2)
-* [What would SQLite look like if written in Rust? - Part 2](https://dev.to/joaoh82/what-would-sqlite-look-like-if-written-in-rust-part-2-4g66)
-* [A primer on code generation in Cranelift](https://blog.benj.me/2021/02/17/cranelift-codegen-primer/)
-* [Testing a Hardware Abstraction Layer (HAL)](https://ferrous-systems.com/blog/defmt-test-hal/)
-* [Cross Compiling Rust GTK Projects for Windows](https://nivethan.dev/devlog/cross-compiling-rust-gtk-projects-for-windows.html)
-* [Procedural Macros: A simple derive macro](https://blog.turbo.fish/proc-macro-simple-derive/)
-* [Building an OpenStreetMap app in Rust, Part III](https://blogg.bekk.no/building-an-openstreetmap-app-in-rust-part-iii-ab9ad4b83bd8)
-* [Generalizing over Generics in Rust (Part 1.5): Mechanisms](https://rustyyato.github.io/type/system,type/families/2021/02/22/Type-Families-1_5.html)
-* [Macros in Rust: A tutorial with examples](https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/)
-* [ES] [Pipelines en Rust(II)](https://yorodm.is-a.dev/blog/rust-pipeline-pattern-ii/)
-* [video] [Rust for Windows](https://youtu.be/LajquCjHXK4)
-* [video] [Crust of Rust: Subtyping and Variance](https://youtu.be/iVYWDIW71jk)
-* [video] [Learning Rust: Web Server with Actix Web](https://youtu.be/PMa2m0Fe-Q4)
-* [video] [series] [Rust For Beginners - Watch me code the Rustlings Tutorial](https://youtube.com/playlist?list=PLauX9TuJ8sfyaLPZ1udS3zS_V9YXdsbtc)
-* [video] [series] [Easy Rust - learn to program in Rust with simple English](https://youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk)
 
 ### Miscellaneous
-* [Python cryptography, Rust, and Gentoo](https://lwn.net/Articles/845535/)
-* [Mitigating Memory Safety Issues in Open Source Software](https://security.googleblog.com/2021/02/mitigating-memory-safety-issues-in-open.html)
-* [matklad @ NEAR](https://matklad.github.io/2021/02/15/NEAR.html)
-* [Application-wide panic handling](https://domwillia.ms/panik/)
-* [Benchmarking low-level I/O: C, C++, Rust, Golang, Java, Python](https://medium.com/star-gazers/benchmarking-low-level-i-o-c-c-rust-golang-java-python-9a0d505f85f7)
-* [video] [Ask the Expert: Rust at Microsoft](https://youtu.be/1uAsA1hm52I)
-* [video] [AWS re:Invent 2020: Next-gen networking infrastructure with Rust and Tokio](https://youtu.be/MZyleK8elPk)
-* [video] [Interview Part 2/2 with Ashley Williams, Rust Foundation Interim Executive Director](https://youtu.be/eFQVxQsYcJ8)
 
 # Crate of the Week
 
@@ -177,15 +139,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
-**ForAllSecure**
-* [Senior/Staff Engineer, Backend - RUST](https://boards.greenhouse.io/forallsecure/jobs/5086295002)
-
-**NZXT**
-* [Senior Software Engineer (Rust & C++) (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
-
-**Parity**
-* [Several Rust Engineering Positions (Berlin, DE)](https://www.parity.io/jobs/#jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
