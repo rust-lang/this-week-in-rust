@@ -33,9 +33,9 @@ No newsletters this week.
 
 # Crate of the Week
 
-Despite having no nominations, this week's crate is [firestorm](https://crates.io/crates/firestorm), a fast intrusive flamegraph profiling library.
+This week's crate is [lever](https://crates.io/crates/lever), a library for writing transactional systems.
 
-llogiq is pretty pleased anyway with the suggestion.
+Thanks to [Mahmud Bulut](https://users.rust-lang.org/t/crate-of-the-week/2704/882) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -54,36 +54,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-340 pull requests were [merged in the last week][merged]
+329 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-02-01..2021-02-08
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-02-15..2021-02-22
 
-* [parser: fix panic in 'const impl' recovery](https://github.com/rust-lang/rust/pull/81876)
-* [fix derived `PartialOrd` operators](https://github.com/rust-lang/rust/pull/81384)
-* [borrowck: refactor visited map to a bitset](https://github.com/rust-lang/rust/pull/81132)
-* [add suggest `mut` method for loop](https://github.com/rust-lang/rust/pull/81466)
-* [miri: Remove non-power-of-two SIMD vectors](https://github.com/rust-lang/miri/pull/1703)
-* [chalk: add Movability to Generator](https://github.com/rust-lang/chalk/pull/685)
-* [try `fast_reject::simplify_type` in coherence before doing full check](https://github.com/rust-lang/rust/pull/81744)
-* [fix suggestion to introduce explicit lifetime](https://github.com/rust-lang/rust/pull/81995)
-* [make suggestion of changing mutability of arguments broader](https://github.com/rust-lang/rust/pull/81990)
-* [optimize `Vec::retain`](https://github.com/rust-lang/rust/pull/81126)
-* [make `Vec::split_at_spare_mut` public](https://github.com/rust-lang/rust/pull/81687)
-* [`BTreeMap`: disentangle `Drop` implementation from `IntoIter`](https://github.com/rust-lang/rust/pull/81486)
-* [initialize `BTree` nodes directly in the heap](https://github.com/rust-lang/rust/pull/81494)
-* [stabilize the `partition_point` feature](https://github.com/rust-lang/rust/pull/81012)
-* [add `Box::into_inner`](https://github.com/rust-lang/rust/pull/80438)
-* [stdsimd: add SIMD shuffles for `SimdType`{`2`, `4`, `8`, `16`, `32`, `64`}](https://github.com/rust-lang/stdsimd/pull/62)
-* [stdsimd: add bitmasks and simplify mask API](https://github.com/rust-lang/stdsimd/pull/61)
-* [libtest: allow multiple filters](https://github.com/rust-lang/rust/pull/81356)
-* [cargo: change git dependencies to use `HEAD` by default ](https://github.com/rust-lang/cargo/pull/9133)
-* [cargo: emit warning on env variable case mismatch](https://github.com/rust-lang/cargo/pull/9169)
-* [crates.io: add `COM0` and `LPT0` to the list of reserved crate names](https://github.com/rust-lang/crates.io/pull/3271) (Windows users rejoice)
-* [clippy: fix suggestions that need parens in `from_iter_instead_of_collect` lint](https://github.com/rust-lang/rust-clippy/pull/6657)
-* [clippy: fix `missing_panics_doc` warning on `unreachable!`](https://github.com/rust-lang/rust-clippy/pull/6700)
-* [clippy: fix `vec_init_then_push` false positives](https://github.com/rust-lang/rust-clippy/pull/6697)
-* [clippy: downgrade `trivial_regex` to nursery](https://github.com/rust-lang/rust-clippy/pull/6696)
-* [clippy: new lint: `bytes_nth`](https://github.com/rust-lang/rust-clippy/pull/6695)
+* [suggest to create a new `const` item if the `fn` in the array is a `const fn`](https://github.com/rust-lang/rust/pull/81503)
+* [fixing bad suggestion for `_` in `const` type when a function](https://github.com/rust-lang/rust/pull/81914)
+* [simplify `eat_digits`](https://github.com/rust-lang/rust/pull/81427)
+* [precompute ancestors when checking privacy](https://github.com/rust-lang/rust/pull/81574)
+* [optimize counting digits in line numbers during error reporting](https://github.com/rust-lang/rust/pull/82248)
+* [only store a `LocalDefId` in some HIR nodes](https://github.com/rust-lang/rust/pull/81611)
+* [to digit simplification](https://github.com/rust-lang/rust/pull/82094)
+* [reduce size of `InterpErrorInfo` to 8 bytes](https://github.com/rust-lang/rust/pull/82116)
+* [pass large interpreter types by reference, not value](https://github.com/rust-lang/rust/pull/82124)
+* [improve `assert_eq!` and `assert_ne!`](https://github.com/rust-lang/rust/pull/79100)
+* [add `Mutex::unlock`](https://github.com/rust-lang/rust/pull/81873)
+* [stabilize `Arguments::as_str`](https://github.com/rust-lang/rust/pull/82120)
+* [futures: `FuturesUnordered`: do not poll the same future twice per iteration](https://github.com/rust-lang/futures-rs/pull/2333)
+* [remove `unsafe impl Send for CompletedTest` & `TestResult`](https://github.com/rust-lang/rust/pull/82302)
+* [test: print test name only once on timeout](https://github.com/rust-lang/rust/pull/82349)
+* [cargo: propagate `lto=off` harder](https://github.com/rust-lang/cargo/pull/9182)
 
 ## Rust Compiler Performance Triage
 
@@ -152,11 +142,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Have you seen someone juggle several items with one hand? That's the point of async. Blocking (non-async) it like writing - it requires constant work from each hand. If you want to write twice as fast you'll need two hands and write with both at the same time. That's multithreading. If you juggle, the moment the item leaves your hand and is in the air, you have it left with nothing to do. That's similar to network IO - you make a request and are just waiting for the server to respond. You could be doing something in the meantime, like catching another item and throwing it back up again. That's what "await" does - it says I threw and item into the air, so I want my current thread / hand to switch over to catch something else now.
+> Finally, I feel it is necessary to debunk the “*fighting the borrow checker*” legend, a story depicting the Rust compiler as a boogeyman: in my experience, it happens mostly to beginners and the 1% trying to micro-optimize code or push the boundaries. Most experienced Rust developers know exactly how to model their code in a way that no time is wasted fighting the compiler on design issues, and can spot anti-patterns at a glance, just like most people know how to drive their car on the correct side of the road to avoid accidents, and notice those who don’t!
 
-– [/u/OS6aDohpegavod4 on /r/rust](https://www.reddit.com/r/rust/comments/lia5fu/why_async_rust/gn2q25e/)
+– [Simon Chemouil on the Kraken blog](https://blog.kraken.com/post/7964/oxidizing-kraken/)
 
-Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1002) for the suggestion.
+Thanks to [scottmcm](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1004) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
