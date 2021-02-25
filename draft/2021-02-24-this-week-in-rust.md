@@ -26,6 +26,7 @@ No newsletters this week.
 
 ### Miscellaneous
 * [Application-wide panic handling](https://domwillia.ms/panik/)
+* [Macros in Rust: A tutorial with examples](https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/)
 
 # Crate of the Week
 
