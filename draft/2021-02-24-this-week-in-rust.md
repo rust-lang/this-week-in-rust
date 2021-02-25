@@ -31,6 +31,8 @@ No newsletters this week.
 
 [Benchmarking low-level I/O: C, C++, Rust, Golang, Java, Python](https://medium.com/star-gazers/benchmarking-low-level-i-o-c-c-rust-golang-java-python-9a0d505f85f7)
 
+[Spanish] [Pipelines en Rust(II)](https://yorodm.is-a.dev/blog/rust-pipeline-pattern-ii/)
+
 # Crate of the Week
 
 This week's crate is [lever](https://crates.io/crates/lever), a library for writing transactional systems.
