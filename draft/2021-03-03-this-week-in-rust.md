@@ -24,6 +24,8 @@ No newsletters or official blog posts this week.
 
 ### Miscellaneous
 
+[Weniger Frust mit Rust (German)](https://www.golem.de/news/programmiersprachen-weniger-frust-mit-rust-2102-154243.html)
+
 # Crate of the Week
 
 This week's crate is [lever](https://crates.io/crates/lever), a library for writing transactional systems.
