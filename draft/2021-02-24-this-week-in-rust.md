@@ -128,9 +128,9 @@ decision. Express your opinions now.
 # Upcoming Events
 
 ### Online
-* [February 18, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccdbxb/)
-* [February 23, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccdbfc/)
+* [February 27, London, UK - Rust (Remote) Hack & Learn - Rust London](https://github.com/rust-ldn/rust-hack-and-learn)
 * [March 2, Dublin, IE - March Remote Meetup - Luca Palmieri - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/276334977/)
+* [March 3, Denver, CO, US - Building a Runtime Reflection System for Rust by Sam Scott - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/275738407/)
 * [March 9, Saarbücken, Saarland, DE - Meetup: 9u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/276401469/)
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -141,6 +141,15 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**ForAllSecure**
+* [Senior/Staff Engineer, Backend - RUST](https://boards.greenhouse.io/forallsecure/jobs/5086295002)
+
+**NZXT**
+* [Senior Software Engineer (Rust & C++) (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
+
+**Parity**
+* [Several Rust Engineering Positions (Berlin, DE)](https://www.parity.io/jobs/#jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
