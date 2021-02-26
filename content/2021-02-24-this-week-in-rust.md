@@ -159,6 +159,7 @@ decision. Express your opinions now.
 
 ### Online
 * [February 27, London, UK - Rust (Remote) Hack & Learn - Rust London](https://github.com/rust-ldn/rust-hack-and-learn)
+* [March 1, Cardiff, UK - Rust and Cpp Cardiff :: v1.9 - Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff)
 * [March 2, Dublin, IE - March Remote Meetup - Luca Palmieri - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/276334977/)
 * [March 3, Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy Rust](https://www.meetup.com/indyrs/events/jhfstryccfbfb/)
 * [March 3, Denver, CO, US - Building a Runtime Reflection System for Rust by Sam Scott - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/275738407/)
