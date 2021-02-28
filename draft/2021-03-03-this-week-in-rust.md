@@ -129,6 +129,7 @@ decision. Express your opinions now.
 * [March 4, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccfbgb/)
 * [March 9, Saarbücken, Saarland, DE - Meetup: 9u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/276401469/)
 * [March 9, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccfbmb/)
+* [March 13th, Chemnitzer Linux Tage - Talk on Rust and its ecosystem (in Germany but includes Fuchsia and AOSP :-) ] (https://chemnitzer.linux-tage.de/2021/en/programm/beitrag/135)
 
 ### North America
 * [March 10, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgryccfbnb/)
