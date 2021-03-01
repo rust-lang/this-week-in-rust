@@ -18,6 +18,8 @@ No newsletters or official blog posts this week.
 
 ### Project/Tooling Updates
 
+* [Last Month in Flott - March 2021](https://flott-motion.org/news/last-month-in-flott-march-2021/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
