@@ -18,6 +18,7 @@ No newsletters or official blog posts this week.
 
 ### Project/Tooling Updates
 
+* [Last Month in Flott - March 2021](https://flott-motion.org/news/last-month-in-flott-march-2021/)
 - [RampMaker 0.2 - Stepper Motor Acceleration Ramp Generator](https://flott-motion.org/news/ramp-maker-0-2/)
 
 ### Observations/Thoughts
