@@ -19,14 +19,19 @@ No newsletters or official blog posts this week.
 ### Project/Tooling Updates
 
 * [Last Month in Flott - March 2021](https://flott-motion.org/news/last-month-in-flott-march-2021/)
+- [RampMaker 0.2 - Stepper Motor Acceleration Ramp Generator](https://flott-motion.org/news/ramp-maker-0-2/)
 
 ### Observations/Thoughts
+
+* [Why we built the core auth library in Rust (interview with CTO of Oso)](https://console.dev/qa/oso-sam-scott/)
 
 ### Rust Walkthroughs
 
 ### Miscellaneous
 
 [Weniger Frust mit Rust (German)](https://www.golem.de/news/programmiersprachen-weniger-frust-mit-rust-2102-154243.html)
+[Ferrocene Part 3: The Road to Rust in mission- and safety-critical](https://ferrous-systems.com/blog/ferrocene-update-three-the-road/)
+[Knurling-rs changelog #18](https://ferrous-systems.com/blog/knurling-changelog-18/)
 
 # Crate of the Week
 
@@ -131,6 +136,8 @@ decision. Express your opinions now.
 * [March 4, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccfbgb/)
 * [March 9, Saarbücken, Saarland, DE - Meetup: 9u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/276401469/)
 * [March 9, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccfbmb/)
+* [March 13th, DE - Chemnitzer Linux Tage - Talk on Rust and its ecosystem](https://chemnitzer.linux-tage.de/2021/en/programm/beitrag/135)
+* [March 16, Washington, DC, US - Rust and Tell Lightning Talks - Rust DC](https://www.meetup.com/RustDC/events/kcfpzryccfbpb/)
 
 ### North America
 * [March 10, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgryccfbnb/)
@@ -143,6 +150,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+* [Rust Software Engineer at Crown Software GmbH](https://www.crown.de/lang/en/company/career/software-developer-rust.html)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
