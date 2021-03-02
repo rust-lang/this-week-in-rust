@@ -135,6 +135,6 @@ complete. If you want to, give it a spin, and let us know how it goes!
 
 .. _Zinc: http://zinc.rs/
 .. _Piston: http://www.piston.rs/
-.. _Iron: http://ironframework.io/
+.. _Iron: https://github.com/iron/iron
 .. _Cargo: http://crates.io/
 .. _Rust CI: http://rust-ci.org/
