@@ -18,6 +18,8 @@ No newsletters or official blog posts this week.
 
 ### Project/Tooling Updates
 
+- [RampMaker 0.2 - Stepper Motor Acceleration Ramp Generator](https://flott-motion.org/news/ramp-maker-0-2/)
+
 ### Observations/Thoughts
 
 * [Why we built the core auth library in Rust (interview with CTO of Oso)](https://console.dev/qa/oso-sam-scott/)
