@@ -29,6 +29,8 @@ No newsletters or official blog posts this week.
 ### Miscellaneous
 
 [Weniger Frust mit Rust (German)](https://www.golem.de/news/programmiersprachen-weniger-frust-mit-rust-2102-154243.html)
+[Ferrocene Part 3: The Road to Rust in mission- and safety-critical](https://ferrous-systems.com/blog/ferrocene-update-three-the-road/)
+[Knurling-rs changelog #18](https://ferrous-systems.com/blog/knurling-changelog-18/)
 
 # Crate of the Week
 
