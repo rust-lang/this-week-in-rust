@@ -187,7 +187,7 @@ Now you can follow breaking changes *[as they happen][BitRust]*!
 [dimensioned]: https://www.reddit.com/r/rust/comments/2uuwsx/introducing_dimensioned_a_library_for_compiletime/
 [byteorder]: https://github.com/BurntSushi/byteorder
 [rustless]: https://github.com/rustless/rustless
-[Iron]: http://ironframework.io/
+[Iron]: https://github.com/iron/iron
 [Hyper]: https://github.com/hyperium/hyper
 [colonize]: https://www.reddit.com/r/rust_gamedev/comments/2ue5re/announcing_colonize/
 [tcod]: https://github.com/tomassedovic/tcod-rs
