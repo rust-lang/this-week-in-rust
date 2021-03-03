@@ -51,7 +51,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-[starlight - Support for "unsafe" cases of `finally`](https://github.com/Starlight-JS/starlight/issues/7)
+*No calls for participation this week*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -103,7 +103,7 @@ Revision range: [301ad8..edeee](https://perf.rust-lang.org/?start=301ad8a4fa3ea5
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC: Checking conditional compilation at compile time](https://github.com/rust-lang/rfcs/pull/3013)
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -119,34 +119,27 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge][Allow specifying alignment for functions]
-* [disposition: merge] [Make rustdoc lints a tool lint instead of built-in](https://github.com/rust-lang/rust/pull/80527)
-* [disposition: merge] [Stabilize `unsafe_op_in_unsafe_fn` lint](https://github.com/rust-lang/rust/pull/79208)
-* [disposition: merge] [[librustdoc] Only split lang string on `,`, ` `, and `\t`](https://github.com/rust-lang/rust/pull/78429)
-* [disposition: merge] [Lint for unused borrows as part of `UNUSED_MUST_USE` ](https://github.com/rust-lang/rust/pull/76894)
-* [disposition: merge] [Tracking Issue for str_split_once](https://github.com/rust-lang/rust/issues/74773)
-* [disposition: merge] [Tracking Issue for ASCII methods on OsStr](https://github.com/rust-lang/rust/issues/70516)
+* [disposition: merge] [Deprecate `doc(include)`](https://github.com/rust-lang/rust/pull/82539)
+* [disposition: merge] [Implement Extend and FromIterator for OsString](https://github.com/rust-lang/rust/pull/82121)
+* [disposition: merge] [Allow specifying alignment for functions](https://github.com/rust-lang/rust/pull/81234)
+* [disposition: close] [resolve: allow super in module in block to refer to block items](https://github.com/rust-lang/rust/pull/79309)
 
 ## New RFCs
 
-* [RFC: An edition-compatible system for "removing" deprecated items from the standard library](https://github.com/rust-lang/rfcs/pull/3088)
-* [RFC: Declarative macro metavariable expressions](https://github.com/rust-lang/rfcs/pull/3086/files)
-* [RFC: 2021 Edition](https://github.com/rust-lang/rfcs/pull/3085)
-* [Add filename information to `std::io::Error` to improve `std::io` error messages ](https://github.com/rust-lang/rfcs/pull/3084)
-* [Multi-part examples in rustdoc](https://github.com/rust-lang/rfcs/pull/3081)
+* [A new prelude for the 2021 edition](https://github.com/rust-lang/rfcs/pull/3090)
 
 # Upcoming Events
 
 ### Online
-* [February 27, London, UK - Rust (Remote) Hack & Learn - Rust London](https://github.com/rust-ldn/rust-hack-and-learn)
-* [March 2, Dublin, IE - March Remote Meetup - Luca Palmieri - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/276334977/)
-* [March 3, Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy Rust](https://www.meetup.com/indyrs/events/jhfstryccfbfb/)
-* [March 3, Denver, CO, US - Building a Runtime Reflection System for Rust by Sam Scott - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/275738407/)
 * [March 4, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccfbgb/)
 * [March 9, Saarbücken, Saarland, DE - Meetup: 9u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/276401469/)
+* [March 9, Buffalo, NY, US - Buffalo Rust User Group - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/276717842/)
 * [March 9, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccfbmb/)
+* [March 10, New York, NY, US - Seemingly Dark Magic with Rust Types with Nikolai Vazquez - Rust NYC](https://www.meetup.com/Rust-NYC/events/276666844/)
+* [March 11, Columbus, OH, US - Monthly Meeting - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dpkhgryccfbpb/)
 * [March 13th, DE - Chemnitzer Linux Tage - Talk on Rust and its ecosystem](https://chemnitzer.linux-tage.de/2021/en/programm/beitrag/135)
 * [March 16, Washington, DC, US - Rust and Tell Lightning Talks - Rust DC](https://www.meetup.com/RustDC/events/kcfpzryccfbpb/)
+* [March 17, Vancouver, BC, US - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/npqfbsyccfbwb/)
 
 ### North America
 * [March 10, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgryccfbnb/)
