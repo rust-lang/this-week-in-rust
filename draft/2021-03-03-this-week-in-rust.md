@@ -19,7 +19,7 @@ No newsletters or official blog posts this week.
 ### Project/Tooling Updates
 
 * [Last Month in Flott - March 2021](https://flott-motion.org/news/last-month-in-flott-march-2021/)
-- [RampMaker 0.2 - Stepper Motor Acceleration Ramp Generator](https://flott-motion.org/news/ramp-maker-0-2/)
+* [RampMaker 0.2 - Stepper Motor Acceleration Ramp Generator](https://flott-motion.org/news/ramp-maker-0-2/)
 
 ### Observations/Thoughts
 
@@ -29,9 +29,9 @@ No newsletters or official blog posts this week.
 
 ### Miscellaneous
 
-[Weniger Frust mit Rust (German)](https://www.golem.de/news/programmiersprachen-weniger-frust-mit-rust-2102-154243.html)
-[Ferrocene Part 3: The Road to Rust in mission- and safety-critical](https://ferrous-systems.com/blog/ferrocene-update-three-the-road/)
-[Knurling-rs changelog #18](https://ferrous-systems.com/blog/knurling-changelog-18/)
+* [Ferrocene Part 3: The Road to Rust in mission- and safety-critical](https://ferrous-systems.com/blog/ferrocene-update-three-the-road/)
+* [Knurling-rs changelog #18](https://ferrous-systems.com/blog/knurling-changelog-18/)
+* [DE] [Weniger Frust mit Rust](https://www.golem.de/news/programmiersprachen-weniger-frust-mit-rust-2102-154243.html)
 
 # Crate of the Week
 
@@ -159,12 +159,14 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Rust Software Engineer at Crown Software GmbH](https://www.crown.de/lang/en/company/career/software-developer-rust.html)
+**Crown**
+
+* [Rust Software Engineer (Karlsruhe, DE)](https://www.crown.de/lang/en/company/career/software-developer-rust.html)
 
 **Tweede golf**
 
-* [Lead Developer Embedded Rust (The Netherlands)](https://tweedegolf.nl/vacatures/2/lead-developer-embedded-rust)
-* [Embedded Rust Engineer (The Netherlands)](https://tweedegolf.nl/vacatures/11/medior-embedded-engineer)
+* [Lead Developer Embedded Rust (Nijmegen, NL)](https://tweedegolf.nl/vacatures/2/lead-developer-embedded-rust)
+* [Embedded Rust Engineer (Nijmegen, NL)](https://tweedegolf.nl/vacatures/11/medior-embedded-engineer)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
