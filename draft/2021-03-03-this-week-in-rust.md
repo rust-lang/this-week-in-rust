@@ -81,12 +81,13 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-Overall, a positive week for compiler performance with only one moderate regression. The change that introduced the regression leads to significantly improved [bootstrap speed](https://github.com/rust-lang/rust/pull/70951#issuecomment-766292996) of the compiler as well as easier maintainability.
+Quiet week, a couple regressions and several nice improvements.
 
-Triage done by **@rylev**.
-Revision range: [f1c47c..301ad8a](https://perf.rust-lang.org/?start=f1c47c79fe8438ed241630f885797eebef3a6cab&end=301ad8a4fa3ea56fb980443b7997c8f9d72dd717&absolute=false&stat=instructions%3Au)
+Triage done by **@simulacrum**.
+Revision range: [301ad8..edeee](https://perf.rust-lang.org/?start=301ad8a4fa3ea56fb980443b7997c8f9d72dd717&end=edeee915b1c52f97411e57ef6b1a8bd46548a37a&absolute=false&stat=instructions%3Au)
 
-1 Regression, 5 Improvements, 0 Mixed
+2 Regressions, 3 Improvements, 0 Mixed
+
 0 of them in rollups
 
 ## Approved RFCs
