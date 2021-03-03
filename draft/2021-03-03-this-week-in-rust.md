@@ -20,6 +20,7 @@ No newsletters or official blog posts this week.
 
 * [Last Month in Flott - March 2021](https://flott-motion.org/news/last-month-in-flott-march-2021/)
 * [RampMaker 0.2 - Stepper Motor Acceleration Ramp Generator](https://flott-motion.org/news/ramp-maker-0-2/)
+* [Knurling-rs changelog #18](https://ferrous-systems.com/blog/knurling-changelog-18/)
 
 ### Observations/Thoughts
 
@@ -29,8 +30,8 @@ No newsletters or official blog posts this week.
 
 ### Miscellaneous
 
+* [Always-On Benchmarking In Rust](https://medium.com/edge-node-engineering/always-on-benchmarking-in-rust-d23f2bac1c1d)
 * [Ferrocene Part 3: The Road to Rust in mission- and safety-critical](https://ferrous-systems.com/blog/ferrocene-update-three-the-road/)
-* [Knurling-rs changelog #18](https://ferrous-systems.com/blog/knurling-changelog-18/)
 * [DE] [Weniger Frust mit Rust](https://www.golem.de/news/programmiersprachen-weniger-frust-mit-rust-2102-154243.html)
 
 # Crate of the Week
@@ -160,11 +161,13 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 **Crown**
-
 * [Rust Software Engineer (Karlsruhe, DE)](https://www.crown.de/lang/en/company/career/software-developer-rust.html)
 
-**Tweede golf**
 
+**Polymath**
+* [Sr. Back End Developer (Remote)](https://polymath.bamboohr.com/jobs/view.php?id=80&source=aWQ9NQ%3D%3D)
+
+**Tweede golf**
 * [Lead Developer Embedded Rust (Nijmegen, NL)](https://tweedegolf.nl/vacatures/2/lead-developer-embedded-rust)
 * [Embedded Rust Engineer (Nijmegen, NL)](https://tweedegolf.nl/vacatures/11/medior-embedded-engineer)
 
