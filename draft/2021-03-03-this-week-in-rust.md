@@ -35,9 +35,9 @@ No newsletters or official blog posts this week.
 
 # Crate of the Week
 
-This week's crate is [lever](https://crates.io/crates/lever), a library for writing transactional systems.
+This week's crate is [camino](https://crates.io/crates/camino), a library with UTF-8 coded paths mimicking `std::os::Path`'s API.
 
-Thanks to [Mahmud Bulut](https://users.rust-lang.org/t/crate-of-the-week/2704/882) for the suggestion!
+Thanks to [piegames](https://users.rust-lang.org/t/crate-of-the-week/2704/886) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -58,26 +58,33 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-329 pull requests were [merged in the last week][merged]
+402 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-02-15..2021-02-22
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-02-22..2021-03-01
 
-* [suggest to create a new `const` item if the `fn` in the array is a `const fn`](https://github.com/rust-lang/rust/pull/81503)
-* [fixing bad suggestion for `_` in `const` type when a function](https://github.com/rust-lang/rust/pull/81914)
-* [simplify `eat_digits`](https://github.com/rust-lang/rust/pull/81427)
-* [precompute ancestors when checking privacy](https://github.com/rust-lang/rust/pull/81574)
-* [optimize counting digits in line numbers during error reporting](https://github.com/rust-lang/rust/pull/82248)
-* [only store a `LocalDefId` in some HIR nodes](https://github.com/rust-lang/rust/pull/81611)
-* [to digit simplification](https://github.com/rust-lang/rust/pull/82094)
-* [reduce size of `InterpErrorInfo` to 8 bytes](https://github.com/rust-lang/rust/pull/82116)
-* [pass large interpreter types by reference, not value](https://github.com/rust-lang/rust/pull/82124)
-* [improve `assert_eq!` and `assert_ne!`](https://github.com/rust-lang/rust/pull/79100)
-* [add `Mutex::unlock`](https://github.com/rust-lang/rust/pull/81873)
-* [stabilize `Arguments::as_str`](https://github.com/rust-lang/rust/pull/82120)
-* [futures: `FuturesUnordered`: do not poll the same future twice per iteration](https://github.com/rust-lang/futures-rs/pull/2333)
-* [remove `unsafe impl Send for CompletedTest` & `TestResult`](https://github.com/rust-lang/rust/pull/82302)
-* [test: print test name only once on timeout](https://github.com/rust-lang/rust/pull/82349)
-* [cargo: propagate `lto=off` harder](https://github.com/rust-lang/cargo/pull/9182)
+* [implement -Z hir-stats for nested foreign items](https://github.com/rust-lang/rust/pull/82258)
+* [suggest character encoding is incorrect when encountering random null bytes](https://github.com/rust-lang/rust/pull/81856)
+* [suggest `return`ing tail expressions that match return type](https://github.com/rust-lang/rust/pull/81769)
+* [improve suggestion for tuple struct pattern matching errors](https://github.com/rust-lang/rust/pull/81235)
+* [improve error message when found type is deref of expected](https://github.com/rust-lang/rust/pull/82364)
+* [AST: remove some unnecessary boxes](https://github.com/rust-lang/rust/pull/82321)
+* [apply lint restrictions from renamed lints](https://github.com/rust-lang/rust/pull/82620)
+* [remove storage markers if they won't be used during code generation](https://github.com/rust-lang/rust/pull/78360)
+* [remove many `RefCell`s from `DocContext`](https://github.com/rust-lang/rust/pull/82305)
+* [prevent computing Item attributes twice](https://github.com/rust-lang/rust/pull/82265)
+* [new mir-opt pass to simplify gotos with const values](https://github.com/rust-lang/rust/pull/80475)
+* [add an impl of `Error` on `Arc<impl Error>`](https://github.com/rust-lang/rust/pull/80553)
+* [make `ptr::write` const](https://github.com/rust-lang/rust/pull/81167)
+* [make `char` and `u8` methods const](https://github.com/rust-lang/rust/pull/82078)
+* [slight perf improvement on `char::to_ascii_lowercase`](https://github.com/rust-lang/rust/pull/81837)
+* [stabilize `str_split_once`](https://github.com/rust-lang/rust/pull/81940)
+* [specialize `slice::fill` with `Copy` type and `u8`/`i8`/`bool`](https://github.com/rust-lang/rust/pull/81874)
+* [futures: `future::SelectAll::into_inner`](https://github.com/rust-lang/futures-rs/pull/2363)
+* [futures: `futures_util::stream::SelectAll::push` should use `&self`](https://github.com/rust-lang/futures-rs/pull/2293)
+* [cargo: run rustdoc doctests relative to the workspace](https://github.com/rust-lang/cargo/pull/9105)
+* [cargo: throw error if `CARGO_TARGET_DIR` is an empty string](https://github.com/rust-lang/cargo/pull/8939)
+* [cargo: add support for `[env]` section in .cargo/config.toml](https://github.com/rust-lang/cargo/pull/9175)
+* [cargo: make it more clear which module is being tested when running cargo test](https://github.com/rust-lang/cargo/pull/9195)
 
 ## Rust Compiler Performance Triage
 
@@ -158,11 +165,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Finally, I feel it is necessary to debunk the “*fighting the borrow checker*” legend, a story depicting the Rust compiler as a boogeyman: in my experience, it happens mostly to beginners and the 1% trying to micro-optimize code or push the boundaries. Most experienced Rust developers know exactly how to model their code in a way that no time is wasted fighting the compiler on design issues, and can spot anti-patterns at a glance, just like most people know how to drive their car on the correct side of the road to avoid accidents, and notice those who don’t!
+> It's a great example of the different attitudes of C/C++ and Rust: In C/C++ something is correct when someone can use it correctly, but in Rust something is correct when someone can't use it incorrectly.
 
-– [Simon Chemouil on the Kraken blog](https://blog.kraken.com/post/7964/oxidizing-kraken/)
+– [/u/Janohard on /r/rust](https://www.reddit.com/r/rust/comments/lt4u85/const_generics_mvp_hits_beta/goyg3v4/)
 
-Thanks to [scottmcm](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1004) for the suggestion.
+Thanks to [Vlad Frolov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1007) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
