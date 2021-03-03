@@ -30,7 +30,6 @@ No newsletters this week.
 ### Observations/Thoughts
 * [Why we built the core auth library in Rust (interview with CTO of Oso)](https://console.dev/qa/oso-sam-scott/)
 * [Data Manipulation: Pandas vs Rust](https://able.bio/haixuanTao/data-manipulation-pandas-vs-rust--1d70e7fc)
-* [Achieving warp speed with Rust](https://gist.github.com/little-dude/674de61df7f48547bdcc5bbe2860563d)
 * [Evolution of Kube](https://clux.github.io/probes/post/2021-02-28-kube-evolution/)
 * [Temporal RDO update optimization](https://dev.to/luzero/temporal-rdo-update-optimization-2pf1)
 * [Introducing The Calypso Chronicles](https://dev.to/thepuzzlemaker/introducing-the-calypso-chronicles-1ff8)
