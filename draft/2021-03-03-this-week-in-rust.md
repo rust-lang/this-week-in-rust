@@ -161,6 +161,11 @@ Email the [Rust Community Team][community] for access.
 
 * [Rust Software Engineer at Crown Software GmbH](https://www.crown.de/lang/en/company/career/software-developer-rust.html)
 
+**Tweede golf**
+
+* [Lead Developer Embedded Rust (The Netherlands)](https://tweedegolf.nl/vacatures/2/lead-developer-embedded-rust)
+* [Embedded Rust Engineer (The Netherlands)](https://tweedegolf.nl/vacatures/11/medior-embedded-engineer)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
