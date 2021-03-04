@@ -57,8 +57,7 @@ No newsletters this week.
 * [Ferrocene Part 3: The Road to Rust in mission- and safety-critical](https://ferrous-systems.com/blog/ferrocene-update-three-the-road/)
 * [How our AWS Rust team will contribute to Rust's future successes](https://aws.amazon.com/blogs/opensource/how-our-aws-rust-team-will-contribute-to-rusts-future-successes/)
 * [Librsvg, Rust, and non-mainstream architectures](https://people.gnome.org/~federico/blog/librsvg-rust-and-non-mainstream-architectures.html)
-* [Always-On Benchmarking In Rust](https://medium.com/edge-node-engineering/always-on-benchmarking-in-rust-d23f2bac1c1d)
-* [DE] [Weniger Frust mit Rust](https://www.golem.de/news/programmiersprachen-weniger-frust-mit-rust-2102-154243.html)
+
 
 # Crate of the Week
 
