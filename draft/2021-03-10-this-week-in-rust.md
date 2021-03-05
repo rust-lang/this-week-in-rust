@@ -147,6 +147,13 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+
+**Parity**
+
+* [Rust Performance Engineer](https://www.parity.io/apply/?gh_jid=4385365003)
+* [Rust P2P Network Engineer](https://www.parity.io/apply/?gh_jid=4347843003)
+* [and several other Rust Positions](https://www.parity.io/jobs/#jobs)
+
 # Quote of the Week
 
 > It's a great example of the different attitudes of C/C++ and Rust: In C/C++ something is correct when someone can use it correctly, but in Rust something is correct when someone can't use it incorrectly.
