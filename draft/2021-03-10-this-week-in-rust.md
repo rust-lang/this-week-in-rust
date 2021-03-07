@@ -22,6 +22,8 @@ No newsletters this week.
 
 ### Observations/Thoughts
 
+* [Serverless Rust Testing](https://www.peakscale.com/serverless-rust/)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
