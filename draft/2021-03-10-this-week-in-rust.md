@@ -20,6 +20,8 @@ No newsletters this week.
 
 ### Project/Tooling Updates
 
+* [Automatically generate APIs for datasets using Rust, Arrow and Datafusion](https://roapi.github.io/docs/index.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
