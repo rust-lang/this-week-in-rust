@@ -147,6 +147,9 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Launchbadge, LLC.**
+* [Rust software engineer (Citrus Heights, CA, US)](https://www.ziprecruiter.com/jobs/launchbadge-5e5a2369/rust-software-engineer-72eb7f1b)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 
