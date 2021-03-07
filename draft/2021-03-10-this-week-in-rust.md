@@ -150,8 +150,8 @@ Email the [Rust Community Team][community] for access.
 
 **Parity**
 
-* [Rust Performance Engineer](https://www.parity.io/apply/?gh_jid=4385365003)
-* [Rust P2P Network Engineer](https://www.parity.io/apply/?gh_jid=4347843003)
+* [Rust Performance Engineer (Remote)](https://www.parity.io/apply/?gh_jid=4385365003)
+* [Rust P2P Network Engineer (Remote)](https://www.parity.io/apply/?gh_jid=4347843003)
 * [and several other Rust Positions](https://www.parity.io/jobs/#jobs)
 
 # Quote of the Week
