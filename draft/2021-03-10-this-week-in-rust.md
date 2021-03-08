@@ -25,6 +25,7 @@ No newsletters this week.
 * [Serverless Rust Testing](https://www.peakscale.com/serverless-rust/)
 
 ### Rust Walkthroughs
+* [OS in Rust: Incorporate VGA buffer: Part-6](https://blog.knoldus.com/os-in-rust-incorporate-vga-buffer-part-6/)
 
 ### Miscellaneous
 
