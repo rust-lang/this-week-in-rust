@@ -150,7 +150,7 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 **e.ventures**
-* [Rust software engineer (Remote, the Americas)](https://old.reddit.com/r/rust/comments/lhvipu/official_rrust_whos_hiring_thread_for_jobseekers/)
+* [Rust software engineer (Remote, the Americas)](https://old.reddit.com/r/rust/comments/lhvipu/official_rrust_whos_hiring_thread_for_jobseekers/gn3p99j/)
 
 **Launchbadge, LLC.**
 * [Rust software engineer (Citrus Heights, CA, US)](https://www.ziprecruiter.com/jobs/launchbadge-5e5a2369/rust-software-engineer-72eb7f1b)
