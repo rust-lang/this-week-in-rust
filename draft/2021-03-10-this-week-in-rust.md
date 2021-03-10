@@ -26,6 +26,9 @@ No newsletters this week.
 
 ### Papers and Research Projects
 
+* [Creusot is a tool for deductive verification of Rust code](https://github.com/xldenis/creusot)
+* [egg, a Rust library for e-graphs and equality saturation](https://egraphs-good.github.io/)
+
 ### Miscellaneous
 
 # Crate of the Week
