@@ -155,14 +155,13 @@ Email the [Rust Community Team][community] for access.
 **Launchbadge, LLC.**
 * [Rust software engineer (Citrus Heights, CA, US)](https://www.ziprecruiter.com/jobs/launchbadge-5e5a2369/rust-software-engineer-72eb7f1b)
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
-
-
 **Parity**
 
 * [Rust Performance Engineer (Remote)](https://www.parity.io/apply/?gh_jid=4385365003)
 * [Rust P2P Network Engineer (Remote)](https://www.parity.io/apply/?gh_jid=4347843003)
 * [and several other Rust Positions](https://www.parity.io/jobs/#jobs)
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
