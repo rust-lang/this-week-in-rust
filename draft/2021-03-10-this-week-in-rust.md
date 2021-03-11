@@ -27,6 +27,11 @@ No newsletters this week.
 ### Rust Walkthroughs
 * [OS in Rust: Incorporate VGA buffer: Part-6](https://blog.knoldus.com/os-in-rust-incorporate-vga-buffer-part-6/)
 
+### Papers and Research Projects
+
+* [Creusot is a tool for deductive verification of Rust code](https://github.com/xldenis/creusot)
+* [egg, a Rust library for e-graphs and equality saturation](https://egraphs-good.github.io/)
+
 ### Miscellaneous
 
 # Crate of the Week
@@ -46,7 +51,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-*No calls for participation this week*
+[Our own "Papers and Research Projects" section needs filling!](https://github.com/rust-lang/this-week-in-rust/)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
