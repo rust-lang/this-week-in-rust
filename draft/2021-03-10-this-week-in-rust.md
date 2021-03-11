@@ -25,7 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 * [rust-analyzer Changelog #67](https://rust-analyzer.github.io/thisweek/2021/03/08/changelog-67.html)
 * [rust-gpu v0.3](https://github.com/EmbarkStudios/rust-gpu/releases/tag/v0.3.0)
-
+* [cargo-generate 0.6.0](https://github.com/cargo-generate/cargo-generate/releases/tag/v0.6.0)
 * [Automatically generate APIs for datasets using Rust, Arrow and Datafusion](https://roapi.github.io/docs/index.html)
 
 ### Observations/Thoughts
@@ -50,6 +50,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Learning Rust: Structs and Traits](https://youtu.be/tYfA5rjrhqk)
 * [video] [Answers to StackOverflow's top Rust programming questions explained](https://youtu.be/Flf4ezLWw1E)
 * [video] [(Live Coding) Learning Timely Dataflow](https://youtu.be/z2m1Y4nj7s8)
+* [FA] [video] [Rust in Farsi ツ](https://www.youtube.com/channel/UCIXThmX_uAp2cJTR-hTjdcA)
 
 ### Papers and Research Projects
 
@@ -79,7 +80,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-[Our own "Papers and Research Projects" section needs filling!](https://github.com/rust-lang/this-week-in-rust/)
+* [rust-analyzer - Optimize MBE (macro by example) performance](https://github.com/rust-analyzer/rust-analyzer/issues/7857)
+* [Our own "Papers and Research Projects" section needs filling!](https://github.com/rust-lang/this-week-in-rust/)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -122,7 +124,7 @@ Revision range: [edeee..86187](https://perf.rust-lang.org/?start=edeee915b1c52f9
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [Linking modifiers for native libraries](https://github.com/rust-lang/rfcs/pull/2951)
 
 ## Final Comment Period
 
@@ -132,38 +134,35 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-
-* [RFC - cargo templates](https://github.com/rust-lang/rfcs/pull/2922)
-* [rfc: make cargo install extensible](https://github.com/rust-lang/rfcs/pull/2376)
+* [Change visibility scoping rules for macro_rules macros](https://github.com/rust-lang/rfcs/pull/3067)
+* [Make the authors field optional](https://github.com/rust-lang/rfcs/pull/3052)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Deprecate `doc(include)`](https://github.com/rust-lang/rust/pull/82539)
+* [disposition: merge] [rustdoc: allow list syntax for `#[doc(alias)]` attributes](https://github.com/rust-lang/rust/pull/82846)
+* [disposition: merge] [slice: Stabilize `IterMut::as_slice`.](https://github.com/rust-lang/rust/pull/82771)
 * [disposition: merge] [Implement Extend and FromIterator for OsString](https://github.com/rust-lang/rust/pull/82121)
-* [disposition: merge] [Allow specifying alignment for functions](https://github.com/rust-lang/rust/pull/81234)
+* [disposition: merge] [Emit errors/warns on some wrong uses of rustdoc attributes](https://github.com/rust-lang/rust/pull/80300)
 * [disposition: close] [resolve: allow super in module in block to refer to block items](https://github.com/rust-lang/rust/pull/79309)
+* [disposition: close] [[Edition vNext] Consider deprecating weird nesting of items](https://github.com/rust-lang/rust/issues/65516)
 
 ## New RFCs
 
-* [A new prelude for the 2021 edition](https://github.com/rust-lang/rfcs/pull/3090)
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
 ### Online
-* [March 4, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccfbgb/)
-* [March 9, Saarbücken, Saarland, DE - Meetup: 9u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/276401469/)
-* [March 9, Buffalo, NY, US - Buffalo Rust User Group - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/276717842/)
-* [March 9, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccfbmb/)
-* [March 10, New York, NY, US - Seemingly Dark Magic with Rust Types with Nikolai Vazquez - Rust NYC](https://www.meetup.com/Rust-NYC/events/276666844/)
 * [March 11, Columbus, OH, US - Monthly Meeting - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dpkhgryccfbpb/)
+* [March 11, Lehi, UT, US - Show and Tell: `rustdoc` - Utah Rust](https://www.meetup.com/utah-rust/events/276845098/)
+* [March 11, San Diego, CA, US - March 2021 Tele-Meetup - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/276759349/)
 * [March 13th, DE - Chemnitzer Linux Tage - Talk on Rust and its ecosystem](https://chemnitzer.linux-tage.de/2021/en/programm/beitrag/135)
 * [March 16, Washington, DC, US - Rust and Tell Lightning Talks - Rust DC](https://www.meetup.com/RustDC/events/kcfpzryccfbpb/)
 * [March 17, Vancouver, BC, US - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/npqfbsyccfbwb/)
 * [March 18, Manchester, UK - Rust Manchester Opening Night - Rust Manchester](https://www.meetup.com/rust-manchester/events/276567843/)
+* [March 18, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccfbxb/)
+* [March 23, Berlin, DE - Rust and Tell - 2021 Kickoff - Berline.rs](https://berline.rs/2021/03/23/rust-and-tell.html)
 * [March 25. Barcelona, ES - BcnRust Meetup](https://www.meetup.com/es-ES/BcnRust/events/276796209/).
-
-### North America
-* [March 10, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgryccfbnb/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -175,10 +174,16 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 **e.ventures**
+
 * [Rust software engineer (Remote, the Americas)](https://old.reddit.com/r/rust/comments/lhvipu/official_rrust_whos_hiring_thread_for_jobseekers/gn3p99j/)
 
 **Launchbadge, LLC.**
+
 * [Rust software engineer (Citrus Heights, CA, US)](https://www.ziprecruiter.com/jobs/launchbadge-5e5a2369/rust-software-engineer-72eb7f1b)
+
+**Manta Network**
+
+* [Backend/Distributed Systems Engineer (Rust) (Remote)](https://angel.co/company/manta-network/jobs/1182625-backend-distributed-systems-engineer-rust)
 
 **Tweede golf**
 
