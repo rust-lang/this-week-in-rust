@@ -25,7 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 * [rust-analyzer Changelog #67](https://rust-analyzer.github.io/thisweek/2021/03/08/changelog-67.html)
 * [rust-gpu v0.3](https://github.com/EmbarkStudios/rust-gpu/releases/tag/v0.3.0)
-
+* [cargo-generate 0.6.0](https://github.com/cargo-generate/cargo-generate/releases/tag/v0.6.0)
 * [Automatically generate APIs for datasets using Rust, Arrow and Datafusion](https://roapi.github.io/docs/index.html)
 
 ### Observations/Thoughts
@@ -50,6 +50,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Learning Rust: Structs and Traits](https://youtu.be/tYfA5rjrhqk)
 * [video] [Answers to StackOverflow's top Rust programming questions explained](https://youtu.be/Flf4ezLWw1E)
 * [video] [(Live Coding) Learning Timely Dataflow](https://youtu.be/z2m1Y4nj7s8)
+* [FA] [video] [Rust in Farsi ツ](https://www.youtube.com/channel/UCIXThmX_uAp2cJTR-hTjdcA)
 
 ### Papers and Research Projects
 
@@ -175,10 +176,16 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 **e.ventures**
+
 * [Rust software engineer (Remote, the Americas)](https://old.reddit.com/r/rust/comments/lhvipu/official_rrust_whos_hiring_thread_for_jobseekers/gn3p99j/)
 
 **Launchbadge, LLC.**
+
 * [Rust software engineer (Citrus Heights, CA, US)](https://www.ziprecruiter.com/jobs/launchbadge-5e5a2369/rust-software-engineer-72eb7f1b)
+
+**Manta Network**
+
+* [Backend/Distributed Systems Engineer (Rust) (Remote)](https://angel.co/company/manta-network/jobs/1182625-backend-distributed-systems-engineer-rust)
 
 **Tweede golf**
 
