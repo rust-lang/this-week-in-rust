@@ -138,7 +138,7 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [rustdoc: allow list syntax for `#[doc(alias)]` attributes](https://github.com/rust-lang/rust/pull/82846)
+* [disposition: merge] [rustdoc: allow list syntax for #[doc(alias)] attributes](https://github.com/rust-lang/rust/pull/82846)
 * [disposition: merge] [slice: Stabilize `IterMut::as_slice`.](https://github.com/rust-lang/rust/pull/82771)
 * [disposition: merge] [Implement Extend and FromIterator for OsString](https://github.com/rust-lang/rust/pull/82121)
 * [disposition: merge] [Emit errors/warns on some wrong uses of rustdoc attributes](https://github.com/rust-lang/rust/pull/80300)
