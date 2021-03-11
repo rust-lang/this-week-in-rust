@@ -47,6 +47,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Building an OpenStreetMap app in Rust, Part V](https://blogg.bekk.no/building-an-openstreetmap-app-in-rust-part-v-f14831e13e61)
 * [video] [Learning Rust: Structs and Traits](https://youtu.be/tYfA5rjrhqk)
 * [video] [Answers to StackOverflow's top Rust programming questions explained](https://youtu.be/Flf4ezLWw1E)
+* [video] [(Live Coding) Learning Timely Dataflow](https://youtu.be/z2m1Y4nj7s8)
+
+### Papers and Research Projects
+
+* [Creusot is a tool for deductive verification of Rust code](https://github.com/xldenis/creusot)
+* [egg, a Rust library for e-graphs and equality saturation](https://egraphs-good.github.io/)
 
 ### Miscellaneous
 * [Debian running on Rust coreutils](https://sylvestre.ledru.info/blog/2021/03/09/debian-running-on-rust-coreutils)
@@ -56,9 +62,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [camino](https://crates.io/crates/camino), a library with UTF-8 coded paths mimicking `std::os::Path`'s API.
+This week's crate is [Sorceress](https://crates.io/crates/sorceress), a Rust environment for sound synthesis and algorithmic composition.
 
-Thanks to [piegames](https://users.rust-lang.org/t/crate-of-the-week/2704/886) for the suggestion!
+Thanks to [Zelda Hessler](https://users.rust-lang.org/t/crate-of-the-week/2704/887) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -71,7 +77,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-*No calls for participation this week*
+[Our own "Papers and Research Projects" section needs filling!](https://github.com/rust-lang/this-week-in-rust/)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -79,44 +85,35 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-402 pull requests were [merged in the last week][merged]
+369 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-02-22..2021-03-01
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-03-01..2021-03-08
 
-* [implement -Z hir-stats for nested foreign items](https://github.com/rust-lang/rust/pull/82258)
-* [suggest character encoding is incorrect when encountering random null bytes](https://github.com/rust-lang/rust/pull/81856)
-* [suggest `return`ing tail expressions that match return type](https://github.com/rust-lang/rust/pull/81769)
-* [improve suggestion for tuple struct pattern matching errors](https://github.com/rust-lang/rust/pull/81235)
-* [improve error message when found type is deref of expected](https://github.com/rust-lang/rust/pull/82364)
-* [AST: remove some unnecessary boxes](https://github.com/rust-lang/rust/pull/82321)
-* [apply lint restrictions from renamed lints](https://github.com/rust-lang/rust/pull/82620)
-* [remove storage markers if they won't be used during code generation](https://github.com/rust-lang/rust/pull/78360)
-* [remove many `RefCell`s from `DocContext`](https://github.com/rust-lang/rust/pull/82305)
-* [prevent computing Item attributes twice](https://github.com/rust-lang/rust/pull/82265)
-* [new mir-opt pass to simplify gotos with const values](https://github.com/rust-lang/rust/pull/80475)
-* [add an impl of `Error` on `Arc<impl Error>`](https://github.com/rust-lang/rust/pull/80553)
-* [make `ptr::write` const](https://github.com/rust-lang/rust/pull/81167)
-* [make `char` and `u8` methods const](https://github.com/rust-lang/rust/pull/82078)
-* [slight perf improvement on `char::to_ascii_lowercase`](https://github.com/rust-lang/rust/pull/81837)
-* [stabilize `str_split_once`](https://github.com/rust-lang/rust/pull/81940)
-* [specialize `slice::fill` with `Copy` type and `u8`/`i8`/`bool`](https://github.com/rust-lang/rust/pull/81874)
-* [futures: `future::SelectAll::into_inner`](https://github.com/rust-lang/futures-rs/pull/2363)
-* [futures: `futures_util::stream::SelectAll::push` should use `&self`](https://github.com/rust-lang/futures-rs/pull/2293)
-* [cargo: run rustdoc doctests relative to the workspace](https://github.com/rust-lang/cargo/pull/9105)
-* [cargo: throw error if `CARGO_TARGET_DIR` is an empty string](https://github.com/rust-lang/cargo/pull/8939)
-* [cargo: add support for `[env]` section in .cargo/config.toml](https://github.com/rust-lang/cargo/pull/9175)
-* [cargo: make it more clear which module is being tested when running cargo test](https://github.com/rust-lang/cargo/pull/9195)
+* [upgrade to LLVM 12](https://github.com/rust-lang/rust/pull/81451)
+* [backport some LLVM compile-time improvements](https://github.com/rust-lang/rust/pull/82783)
+* [add natvis for `Result`, `NonNull`, `CString`, `CStr`, and `Cow`](https://github.com/rust-lang/rust/pull/82557)
+* [change error about unknown attributes to a warning](https://github.com/rust-lang/rust/pull/82702)
+* [shrink the size of Rvalue by 16 bytes](https://github.com/rust-lang/rust/pull/82727)
+* [move check only relevant in error case out of critical path](https://github.com/rust-lang/rust/pull/82738)
+* [add `assert_matches!` macro](https://github.com/rust-lang/rust/pull/82770)
+* [generalize `Write` impl for `Vec<u8>` to `Vec<u8, A>`](https://github.com/rust-lang/rust/pull/82862)
+* [avoid unnecessary `Vec` construction in `BufReader`](https://github.com/rust-lang/rust/pull/82728)
+* [improve `slice.binary_search_by()`'s best-case performance to O(1)](https://github.com/rust-lang/rust/pull/74024)
+* [add {`BTreeMap`, `HashMap`}`::try_insert`](https://github.com/rust-lang/rust/pull/82764)
+* [hashbrown: add `try_insert`](https://github.com/rust-lang/hashbrown/pull/247)
+* [cargo: fix `filter_platform` to run on targets other than x86](https://github.com/rust-lang/cargo/pull/9246)
+* [make rustdoc lints a tool lint instead of built-in](https://github.com/rust-lang/rust/pull/80527)
 
 ## Rust Compiler Performance Triage
 
-Quiet week, a couple regressions and several nice improvements.
+A generally positive albeit quiet week though many of the perf improvements were gaining performance back from previous regressions. We'll need to continue to keep an eye on rollups as there were two that caused small performance changes.
 
-Triage done by **@simulacrum**.
-Revision range: [301ad8..edeee](https://perf.rust-lang.org/?start=301ad8a4fa3ea56fb980443b7997c8f9d72dd717&end=edeee915b1c52f97411e57ef6b1a8bd46548a37a&absolute=false&stat=instructions%3Au)
+Triage done by **@rylev**.
+Revision range: [edeee..86187](https://perf.rust-lang.org/?start=edeee915b1c52f97411e57ef6b1a8bd46548a37a&end=861872bc453bde79b83ff99d443d035225f10e87&absolute=false&stat=instructions%3Au)
 
-2 Regressions, 3 Improvements, 0 Mixed
+1 Regression, 4 Improvements, 1 Mixed
 
-0 of them in rollups
+2 of them in rollups
 
 ## Approved RFCs
 
@@ -160,6 +157,7 @@ decision. Express your opinions now.
 * [March 13th, DE - Chemnitzer Linux Tage - Talk on Rust and its ecosystem](https://chemnitzer.linux-tage.de/2021/en/programm/beitrag/135)
 * [March 16, Washington, DC, US - Rust and Tell Lightning Talks - Rust DC](https://www.meetup.com/RustDC/events/kcfpzryccfbpb/)
 * [March 17, Vancouver, BC, US - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/npqfbsyccfbwb/)
+* [March 18, Manchester, UK - Rust Manchester Opening Night - Rust Manchester](https://www.meetup.com/rust-manchester/events/276567843/)
 * [March 25. Barcelona, ES - BcnRust Meetup](https://www.meetup.com/es-ES/BcnRust/events/276796209/).
 
 ### North America
@@ -174,11 +172,16 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**e.ventures**
+* [Rust software engineer (Remote, the Americas)](https://old.reddit.com/r/rust/comments/lhvipu/official_rrust_whos_hiring_thread_for_jobseekers/gn3p99j/)
+
 **Launchbadge, LLC.**
 * [Rust software engineer (Citrus Heights, CA, US)](https://www.ziprecruiter.com/jobs/launchbadge-5e5a2369/rust-software-engineer-72eb7f1b)
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+**Tweede golf**
 
+* [Lead Developer Embedded Rust (Nijmegen, NL)](https://tweedegolf.nl/vacatures/2/lead-developer-embedded-rust)
+* [Embedded Rust Engineer (Nijmegen, NL)](https://tweedegolf.nl/vacatures/11/medior-embedded-engineer)
 
 **Parity**
 
@@ -186,13 +189,19 @@ Email the [Rust Community Team][community] for access.
 * [Rust P2P Network Engineer (Remote)](https://www.parity.io/apply/?gh_jid=4347843003)
 * [and several other Rust Positions](https://www.parity.io/jobs/#jobs)
 
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
 # Quote of the Week
 
-> It's a great example of the different attitudes of C/C++ and Rust: In C/C++ something is correct when someone can use it correctly, but in Rust something is correct when someone can't use it incorrectly.
+> it's funny, every time I run into a baffling borrow error, it's preventing me from committing a real, serious mistake
+>
+> but it can take some thinking to figure out what exactly that mistake is..
+>
+> sometimes the borrow checker feels like a wise sage on a mountain giving advice in riddles lol
 
-– [/u/Janohard on /r/rust](https://www.reddit.com/r/rust/comments/lt4u85/const_generics_mvp_hits_beta/goyg3v4/)
+– [Jarrett on discord](https://discord.com/channels/442252698964721669/443150878111694848/817890654779605009)
 
-Thanks to [Vlad Frolov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1007) for the suggestion.
+Thanks to [Daniel H-M](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1012) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
