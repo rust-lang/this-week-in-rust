@@ -1,5 +1,5 @@
-Title: This Week in Rust 381
-Number: 381
+Title: This Week in Rust 382
+Number: 382
 Date: 2021-03-10
 Category: This Week in Rust
 
@@ -15,53 +15,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ### Official
-* [Planning the Rust 2021 Edition](https://blog.rust-lang.org/inside-rust/2021/03/04/planning-rust-2021.html)
 
 ### Newsletters
-* [This Month in Rust GameDev #19 - February 2021](https://rust-gamedev.github.io/posts/newsletter-019/)
-* [This Month in Rust OSDev (February 2021)](https://rust-osdev.com/this-month/2021-02/)
-* [RiB Newsletter #21 - More Rust and blockchains](https://www.reddit.com/r/rust/comments/lxdw8j/rib_newsletter_21_more_rust_and_blockchains/)
 
 ### Project/Tooling Updates
-* [rust-analyzer Changelog #67](https://rust-analyzer.github.io/thisweek/2021/03/08/changelog-67.html)
-* [rust-gpu v0.3](https://github.com/EmbarkStudios/rust-gpu/releases/tag/v0.3.0)
-* [cargo-generate 0.6.0](https://github.com/cargo-generate/cargo-generate/releases/tag/v0.6.0)
-* [Automatically generate APIs for datasets using Rust, Arrow and Datafusion](https://roapi.github.io/docs/index.html)
 
 ### Observations/Thoughts
-* [Serverless Rust Testing](https://www.peakscale.com/serverless-rust/)
-* [Rust's Type System is Turing-Complete](https://sdleffler.github.io/RustTypeSystemTuringComplete/)
-* [Why I rewrote my Rust keyboard firmware in Zig: consistency, mastery, and fun](https://kevinlynagh.com/rust-zig/)
-* [Calling a private Rust function from outside of its module](https://tim.mcnamara.nz/post/644942576528523264/calling-a-private-rust-function-from-outside)
-* [Safe, Flexible Aliasing with Deferred Borrows](https://cfallin.org/pubs/ecoop2020_defborrow.pdf)
-* [Evaluating Memory Models for Graph-Like Data Structures in the Rust Programming Language: Performance and Usability](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1463648&dswid=1332)
-* [Rust's async isn't f#@king colored!](https://www.hobofan.com/blog/2021-03-10-rust-async-colored/)
-* [Rusts Universes](https://aloso.github.io/2021/03/10/rusts-universes.html)
-* [How I significantly improved Giganotes app performance using Rust](https://www.reddit.com/r/rust/comments/m14agf/how_i_significantly_improved_giganotes_app/)
 
 ### Rust Walkthroughs
-* [OS in Rust: Incorporate VGA buffer: Part-6](https://blog.knoldus.com/os-in-rust-incorporate-vga-buffer-part-6/)
-* [Writing a 3D Shooter using rg3d - #1 - Character Controller](https://rg3d.rs/tutorials/2021/03/05/tutorial1.html)
-* [Writing a 3D Shooter using rg3d - #2 - Weapons](https://rg3d.rs/tutorials/2021/03/09/tutorial2.html)
-* [Writing Pong in Rust for my OS Written in Rust](https://blog.stephenmarz.com/2021/02/22/writing-pong-in-rust/)
-* [Replacing FastAPI with Rust: Part 6 - AWS Lambda](https://dev.to/dbanty/replacing-fastapi-with-rust-part-6-aws-lambda-inm)
-* [Creating an Iterator in Rust](https://aloso.github.io/2021/03/09/creating-an-iterator)
-* [Building an OpenStreetMap app in Rust, Part V](https://blogg.bekk.no/building-an-openstreetmap-app-in-rust-part-v-f14831e13e61)
-* [video] [Learning Rust: Structs and Traits](https://youtu.be/tYfA5rjrhqk)
-* [video] [Answers to StackOverflow's top Rust programming questions explained](https://youtu.be/Flf4ezLWw1E)
-* [video] [(Live Coding) Learning Timely Dataflow](https://youtu.be/z2m1Y4nj7s8)
-* [FA] [video] [Rust in Farsi ツ](https://www.youtube.com/channel/UCIXThmX_uAp2cJTR-hTjdcA)
 
 ### Papers and Research Projects
 
-* [Creusot is a tool for deductive verification of Rust code](https://github.com/xldenis/creusot)
-* [egg, a Rust library for e-graphs and equality saturation](https://egraphs-good.github.io/)
-
 ### Miscellaneous
-* [Debian running on Rust coreutils](https://sylvestre.ledru.info/blog/2021/03/09/debian-running-on-rust-coreutils)
-* [A friend and I made pipes-rs, a Rust clone of pipes.sh](https://www.reddit.com/r/rust/comments/lxil6d/a_friend_and_i_made_pipesrs_a_rust_clone_of/)
-* [Half of curl's vulnerabilities are C mistakes](https://daniel.haxx.se/blog/2021/03/09/half-of-curls-vulnerabilities-are-c-mistakes/)
-* [video] [USENIX Enigma 2021 - Quantifying Memory Unsafety and Reactions to It](https://youtu.be/drfXNB6p6nI)
 
 # Crate of the Week
 
@@ -139,7 +104,7 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [rustdoc: allow list syntax for `#[doc(alias)]` attributes](https://github.com/rust-lang/rust/pull/82846)
+* [disposition: merge] [rustdoc: allow list syntax for `#[doc(alias)`] attributes](https://github.com/rust-lang/rust/pull/82846)
 * [disposition: merge] [slice: Stabilize `IterMut::as_slice`.](https://github.com/rust-lang/rust/pull/82771)
 * [disposition: merge] [Implement Extend and FromIterator for OsString](https://github.com/rust-lang/rust/pull/82121)
 * [disposition: merge] [Emit errors/warns on some wrong uses of rustdoc attributes](https://github.com/rust-lang/rust/pull/80300)
@@ -172,29 +137,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
-**e.ventures**
-
-* [Rust software engineer (Remote, the Americas)](https://old.reddit.com/r/rust/comments/lhvipu/official_rrust_whos_hiring_thread_for_jobseekers/gn3p99j/)
-
-**Launchbadge, LLC.**
-
-* [Rust software engineer (Citrus Heights, CA, US)](https://www.ziprecruiter.com/jobs/launchbadge-5e5a2369/rust-software-engineer-72eb7f1b)
-
-**Manta Network**
-
-* [Backend/Distributed Systems Engineer (Rust) (Remote)](https://angel.co/company/manta-network/jobs/1182625-backend-distributed-systems-engineer-rust)
-
-**Tweede golf**
-
-* [Lead Developer Embedded Rust (Nijmegen, NL)](https://tweedegolf.nl/vacatures/2/lead-developer-embedded-rust)
-* [Embedded Rust Engineer (Nijmegen, NL)](https://tweedegolf.nl/vacatures/11/medior-embedded-engineer)
-
-**Parity**
-
-* [Rust Performance Engineer (Remote)](https://www.parity.io/apply/?gh_jid=4385365003)
-* [Rust P2P Network Engineer (Remote)](https://www.parity.io/apply/?gh_jid=4347843003)
-* [and several other Rust Positions](https://www.parity.io/jobs/#jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
