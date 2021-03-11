@@ -26,6 +26,7 @@ No newsletters this week.
 
 ### Rust Walkthroughs
 * [OS in Rust: Incorporate VGA buffer: Part-6](https://blog.knoldus.com/os-in-rust-incorporate-vga-buffer-part-6/)
+* [video] [(Live Coding) Learning Timely Dataflow](https://youtu.be/z2m1Y4nj7s8)
 
 ### Papers and Research Projects
 
