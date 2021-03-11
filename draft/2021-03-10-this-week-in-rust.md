@@ -30,7 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Serverless Rust Testing](https://www.peakscale.com/serverless-rust/)
 * [Rust's Type System is Turing-Complete](https://sdleffler.github.io/RustTypeSystemTuringComplete/)
 * [Why I rewrote my Rust keyboard firmware in Zig: consistency, mastery, and fun](https://kevinlynagh.com/rust-zig/)
-* [Calling a private Rust function from outside of its module](https://dev.to/timclicks/calling-a-private-rust-function-from-outside-of-its-module-5e0n)
+* [Calling a private Rust function from outside of its module](https://tim.mcnamara.nz/post/644942576528523264/calling-a-private-rust-function-from-outside)
 * [Safe, Flexible Aliasing with Deferred Borrows](https://cfallin.org/pubs/ecoop2020_defborrow.pdf)
 * [Evaluating Memory Models for Graph-Like Data Structures in the Rust Programming Language: Performance and Usability](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1463648&dswid=1332)
 * [Rust's async isn't f#@king colored!](https://www.hobofan.com/blog/2021-03-10-rust-async-colored/)
