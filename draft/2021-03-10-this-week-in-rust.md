@@ -147,6 +147,9 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**e.ventures**
+* [Rust software engineer (Remote, the Americas)](https://old.reddit.com/r/rust/comments/lhvipu/official_rrust_whos_hiring_thread_for_jobseekers/gn3p99j/)
+
 **Launchbadge, LLC.**
 * [Rust software engineer (Citrus Heights, CA, US)](https://www.ziprecruiter.com/jobs/launchbadge-5e5a2369/rust-software-engineer-72eb7f1b)
 
@@ -155,14 +158,13 @@ Email the [Rust Community Team][community] for access.
 * [Lead Developer Embedded Rust (Nijmegen, NL)](https://tweedegolf.nl/vacatures/2/lead-developer-embedded-rust)
 * [Embedded Rust Engineer (Nijmegen, NL)](https://tweedegolf.nl/vacatures/11/medior-embedded-engineer)
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
-
-
 **Parity**
 
 * [Rust Performance Engineer (Remote)](https://www.parity.io/apply/?gh_jid=4385365003)
 * [Rust P2P Network Engineer (Remote)](https://www.parity.io/apply/?gh_jid=4347843003)
 * [and several other Rust Positions](https://www.parity.io/jobs/#jobs)
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
