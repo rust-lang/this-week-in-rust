@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [rust-analyzer Changelog #67](https://rust-analyzer.github.io/thisweek/2021/03/08/changelog-67.html)
 * [rust-gpu v0.3](https://github.com/EmbarkStudios/rust-gpu/releases/tag/v0.3.0)
 
+* [Automatically generate APIs for datasets using Rust, Arrow and Datafusion](https://roapi.github.io/docs/index.html)
+
 ### Observations/Thoughts
 * [Serverless Rust Testing](https://www.peakscale.com/serverless-rust/)
 * [Rust's Type System is Turing-Complete](https://sdleffler.github.io/RustTypeSystemTuringComplete/)
