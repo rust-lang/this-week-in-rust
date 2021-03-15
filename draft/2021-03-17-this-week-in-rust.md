@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Why the Starship shell prompt is built in Rust (interview with project creator)](https://console.dev/qa/starship-matan-kushner/)
+
 ### Rust Walkthroughs
 
 ### Papers and Research Projects
