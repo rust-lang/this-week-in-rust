@@ -28,6 +28,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+[rkyv is faster than {bincode, capnp, cbor, flatbuffers, postcard, prost, serde_json}](https://davidkoloski.me/blog/rkyv-is-faster-than/)
+
 # Crate of the Week
 
 This week's crate is [Sorceress](https://crates.io/crates/sorceress), a Rust environment for sound synthesis and algorithmic composition.
