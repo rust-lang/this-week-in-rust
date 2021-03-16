@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [How to send emails with Rust](https://kerkour.com/blog/rust-send-email/)
+
 ### Papers and Research Projects
 
 ### Miscellaneous
