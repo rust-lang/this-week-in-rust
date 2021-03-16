@@ -47,6 +47,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [rust-analyzer - Optimize MBE (macro by example) performance](https://github.com/rust-analyzer/rust-analyzer/issues/7857)
 * [Our own "Papers and Research Projects" section needs filling!](https://github.com/rust-lang/this-week-in-rust/)
+* [delta-rs has many good first issues for those who want to learn Delta Lake or Rust](https://github.com/delta-io/delta-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
