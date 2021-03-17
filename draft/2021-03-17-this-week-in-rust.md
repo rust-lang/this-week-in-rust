@@ -106,7 +106,7 @@ Revision range: [edeee..86187](https://perf.rust-lang.org/?start=edeee915b1c52f9
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Linking modifiers for native libraries](https://github.com/rust-lang/rfcs/pull/2951)
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -116,16 +116,17 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
+* [RFC: Declarative macro metavariable expressions](https://github.com/rust-lang/rfcs/pull/3086)
 * [Change visibility scoping rules for macro_rules macros](https://github.com/rust-lang/rfcs/pull/3067)
-* [Make the authors field optional](https://github.com/rust-lang/rfcs/pull/3052)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [rustdoc: allow list syntax for `#[doc(alias)`] attributes](https://github.com/rust-lang/rust/pull/82846)
-* [disposition: merge] [slice: Stabilize `IterMut::as_slice`.](https://github.com/rust-lang/rust/pull/82771)
-* [disposition: merge] [Implement Extend and FromIterator for OsString](https://github.com/rust-lang/rust/pull/82121)
-* [disposition: merge] [Emit errors/warns on some wrong uses of rustdoc attributes](https://github.com/rust-lang/rust/pull/80300)
-* [disposition: close] [resolve: allow super in module in block to refer to block items](https://github.com/rust-lang/rust/pull/79309)
+* [disposition: merge] [Deprecate `doc(include)`](https://github.com/rust-lang/rust/pull/82539)
+* [disposition: merge] [Stabilize or_patterns (RFC 2535, 2530, 2175)](https://github.com/rust-lang/rust/pull/79278)
+* [disposition: merge] [Add IEEE 754 compliant fmt/parse of -0, infinity, NaN](https://github.com/rust-lang/rust/pull/78618)
+* [disposition: close] [`impl<A, B>` IntoIterator for (A, B) as Zip](https://github.com/rust-lang/rust/pull/78204)
+* [disposition: merge] [tracking issue for `debug_non_exhaustive` feature](https://github.com/rust-lang/rust/issues/67364)
 * [disposition: close] [[Edition vNext] Consider deprecating weird nesting of items](https://github.com/rust-lang/rust/issues/65516)
 
 ## New RFCs
@@ -135,16 +136,12 @@ decision. Express your opinions now.
 # Upcoming Events
 
 ### Online
-* [March 11, Columbus, OH, US - Monthly Meeting - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dpkhgryccfbpb/)
-* [March 11, Lehi, UT, US - Show and Tell: `rustdoc` - Utah Rust](https://www.meetup.com/utah-rust/events/276845098/)
-* [March 11, San Diego, CA, US - March 2021 Tele-Meetup - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/276759349/)
-* [March 13th, DE - Chemnitzer Linux Tage - Talk on Rust and its ecosystem](https://chemnitzer.linux-tage.de/2021/en/programm/beitrag/135)
-* [March 16, Washington, DC, US - Rust and Tell Lightning Talks - Rust DC](https://www.meetup.com/RustDC/events/kcfpzryccfbpb/)
-* [March 17, Vancouver, BC, US - Rust Study/Hack/Hang-out night](https://www.meetup.com/Vancouver-Rust/events/npqfbsyccfbwb/)
 * [March 18, Manchester, UK - Rust Manchester Opening Night - Rust Manchester](https://www.meetup.com/rust-manchester/events/276567843/)
+* [March 18, Linz, AT - Rust Meetup Linz - 8th Edition - Rust Linz](https://www.meetup.com/Rust-Linz/events/276520435)
 * [March 18, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccfbxb/)
 * [March 23, Berlin, DE - Rust and Tell - 2021 Kickoff - Berline.rs](https://berline.rs/2021/03/23/rust-and-tell.html)
 * [March 25. Barcelona, ES - BcnRust Meetup](https://www.meetup.com/es-ES/BcnRust/events/276796209/).
+* [March 30, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccfbnc/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
