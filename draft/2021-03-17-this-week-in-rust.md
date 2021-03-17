@@ -36,6 +36,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+[100ms delays with Rust on Lambda](https://www.peakscale.com/100ms-gotcha/)
+
 # Crate of the Week
 
 This week's crate is [Sorceress](https://crates.io/crates/sorceress), a Rust environment for sound synthesis and algorithmic composition.
