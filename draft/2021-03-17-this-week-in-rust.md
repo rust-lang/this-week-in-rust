@@ -20,15 +20,23 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [MiniWASM - A minimalist Rust WebAssembly project template](https://github.com/thedjinn/MiniWASM)
+* [Stepper 0.5 (formerly Step/Dir) - Universal Stepper Motor Interface](https://flott-motion.org/news/stepper-0-5/)
+
 ### Observations/Thoughts
 
+* [Why the Starship shell prompt is built in Rust (interview with project creator)](https://console.dev/qa/starship-matan-kushner/)
+
 ### Rust Walkthroughs
+* [OS in Rust: Incorporate VGA buffer: Part-7](https://blog.knoldus.com/os-in-rust-incorporate-vga-buffer-part-7/)
+
+* [How to send emails with Rust](https://kerkour.com/blog/rust-send-email/)
 
 ### Papers and Research Projects
 
 ### Miscellaneous
-
-[rkyv is faster than {bincode, capnp, cbor, flatbuffers, postcard, prost, serde_json}](https://davidkoloski.me/blog/rkyv-is-faster-than/)
+* [rkyv is faster than {bincode, capnp, cbor, flatbuffers, postcard, prost, serde_json}](https://davidkoloski.me/blog/rkyv-is-faster-than/)
+* [100ms delays with Rust on Lambda](https://www.peakscale.com/100ms-gotcha/)
 
 # Crate of the Week
 
@@ -139,6 +147,12 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Oso**
+
+*[Software Engineer (New York, NY, US or Remote)](https://www.osohq.com/jobs/eng)
+*[Engineering Manager (New York, NY, US or Remote](https://www.osohq.com/jobs/eng-mgr)
+*[Developer Advocate (New York, NY, US or Remote](https://www.osohq.com/jobs/dev-advocate)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
