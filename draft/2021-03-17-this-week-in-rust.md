@@ -166,6 +166,10 @@ Email the [Rust Community Team][community] for access.
 * [Engineering Manager (New York, NY, US or Remote](https://www.osohq.com/jobs/eng-mgr)
 * [Developer Advocate (New York, NY, US or Remote](https://www.osohq.com/jobs/dev-advocate)
 
+**e.ventures**
+
+* [Rust backend engineer (Remote, the Americas)](https://old.reddit.com/r/rust/comments/lhvipu/official_rrust_whos_hiring_thread_for_jobseekers/)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
