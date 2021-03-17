@@ -137,10 +137,12 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-Oso
-*[Software Engineer](https://www.osohq.com/jobs/eng)
-*[Engineering Manager](https://www.osohq.com/jobs/eng-mgr)
-*[Developer Advocate](https://www.osohq.com/jobs/dev-advocate)
+
+**Oso**
+
+*[Software Engineer (New York, NY, US or Remote)](https://www.osohq.com/jobs/eng)
+*[Engineering Manager (New York, NY, US or Remote](https://www.osohq.com/jobs/eng-mgr)
+*[Developer Advocate (New York, NY, US or Remote](https://www.osohq.com/jobs/dev-advocate)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
