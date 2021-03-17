@@ -35,8 +35,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Papers and Research Projects
 
 ### Miscellaneous
-
-[100ms delays with Rust on Lambda](https://www.peakscale.com/100ms-gotcha/)
+* [rkyv is faster than {bincode, capnp, cbor, flatbuffers, postcard, prost, serde_json}](https://davidkoloski.me/blog/rkyv-is-faster-than/)
+* [100ms delays with Rust on Lambda](https://www.peakscale.com/100ms-gotcha/)
 
 # Crate of the Week
 
