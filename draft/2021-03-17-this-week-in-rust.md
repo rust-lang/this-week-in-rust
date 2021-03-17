@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [MiniWASM - A minimalist Rust WebAssembly project template](https://github.com/thedjinn/MiniWASM)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
@@ -27,8 +29,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Papers and Research Projects
 
 ### Miscellaneous
-
-* [MiniWASM - A minimalist Rust WebAssembly project template](https://github.com/thedjinn/MiniWASM)
 
 # Crate of the Week
 
