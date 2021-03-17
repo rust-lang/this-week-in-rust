@@ -29,14 +29,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 * [OS in Rust: Incorporate VGA buffer: Part-7](https://blog.knoldus.com/os-in-rust-incorporate-vga-buffer-part-7/)
-
 * [How to send emails with Rust](https://kerkour.com/blog/rust-send-email/)
+* [video] [Rust for Beginners - Watch me code the Rustlings Tutorial](https://www.youtube.com/playlist?list=PLauX9TuJ8sfyaLPZ1udS3zS_V9YXdsbtc)
 
 ### Papers and Research Projects
 
 ### Miscellaneous
 * [rkyv is faster than {bincode, capnp, cbor, flatbuffers, postcard, prost, serde_json}](https://davidkoloski.me/blog/rkyv-is-faster-than/)
 * [100ms delays with Rust on Lambda](https://www.peakscale.com/100ms-gotcha/)
+* [Rust Playground At Your Fingertips](https://www.greyblake.com/blog/2021-03-12-rust-playground-at-your-fingertips/)
 
 # Crate of the Week
 
@@ -56,6 +57,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [delta-rs has many good first issues for those who want to learn Delta Lake or Rust](https://github.com/delta-io/delta-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+* [dotenv-linter has many good first issues](https://github.com/dotenv-linter/dotenv-linter/issues/390)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -152,6 +154,14 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Protocol Labs**
+
+* [Research Engineer, CryptoCompute Lab (Remote)](https://jobs.lever.co/protocol/c9de15d5-4098-45f9-8a0e-2b1113dc6983)
+
+**Manta Network**
+
+* [Backend/Distributed Systems Engineer (Rust) (Remote)](https://angel.co/company/manta-network/jobs/1182625-backend-distributed-systems-engineer-rust)
 
 **Oso**
 
