@@ -40,9 +40,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [Sorceress](https://crates.io/crates/sorceress), a Rust environment for sound synthesis and algorithmic composition.
+This week's crate is [ibig](https://github.com/tczajka/ibig-rs), a crate of fast big integers.
 
-Thanks to [Zelda Hessler](https://users.rust-lang.org/t/crate-of-the-week/2704/887) for the suggestion!
+Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/889) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -64,24 +64,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-369 pull requests were [merged in the last week][merged]
+365 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-03-01..2021-03-08
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-03-08..2021-03-15
 
-* [upgrade to LLVM 12](https://github.com/rust-lang/rust/pull/81451)
-* [backport some LLVM compile-time improvements](https://github.com/rust-lang/rust/pull/82783)
-* [add natvis for `Result`, `NonNull`, `CString`, `CStr`, and `Cow`](https://github.com/rust-lang/rust/pull/82557)
-* [change error about unknown attributes to a warning](https://github.com/rust-lang/rust/pull/82702)
-* [shrink the size of Rvalue by 16 bytes](https://github.com/rust-lang/rust/pull/82727)
-* [move check only relevant in error case out of critical path](https://github.com/rust-lang/rust/pull/82738)
-* [add `assert_matches!` macro](https://github.com/rust-lang/rust/pull/82770)
-* [generalize `Write` impl for `Vec<u8>` to `Vec<u8, A>`](https://github.com/rust-lang/rust/pull/82862)
-* [avoid unnecessary `Vec` construction in `BufReader`](https://github.com/rust-lang/rust/pull/82728)
-* [improve `slice.binary_search_by()`'s best-case performance to O(1)](https://github.com/rust-lang/rust/pull/74024)
-* [add {`BTreeMap`, `HashMap`}`::try_insert`](https://github.com/rust-lang/rust/pull/82764)
-* [hashbrown: add `try_insert`](https://github.com/rust-lang/hashbrown/pull/247)
-* [cargo: fix `filter_platform` to run on targets other than x86](https://github.com/rust-lang/cargo/pull/9246)
-* [make rustdoc lints a tool lint instead of built-in](https://github.com/rust-lang/rust/pull/80527)
+* [expand: do not allocate `Lrc` for `allow_internal_unstable` list unless necessary](https://github.com/rust-lang/rust/pull/82422)
+* [account for `if (let pat = expr) {}`](https://github.com/rust-lang/rust/pull/82854)
+* [introduce `proc_macro_back_compat` lint, and emit for `time-macros-impl`](https://github.com/rust-lang/rust/pull/83127)
+* [eagerly construct bodies of THIR](https://github.com/rust-lang/rust/pull/82495)
+* [store HIR attributes in a side table](https://github.com/rust-lang/rust/pull/79519)
+* [add `StatementKind::CopyNonOverlapping`](https://github.com/rust-lang/rust/pull/77511)
+* [tweaks to stable hashing](https://github.com/rust-lang/rust/pull/83064)
+* [`rustc_query_system`: simplify `QueryCache::iter`](https://github.com/rust-lang/rust/pull/83069)
+* [mir-opt-level 4 is the new 3](https://github.com/rust-lang/miri/pull/1737)
+* [miri: ensure we catch incorrectly unwinding calls](https://github.com/rust-lang/miri/pull/1744)
+* [miri: check callee ABI when Miri calls closures](https://github.com/rust-lang/miri/pull/1743)
+* [don't implement `mem::replace` with `mem::swap`](https://github.com/rust-lang/rust/pull/83022)
+* [fix `io::copy` specialization using `copy_file_range` when writer was opened with `O_APPEND`](https://github.com/rust-lang/rust/pull/82417)
+* [added `#[repr(transparent)]` to `core::cmp::Reverse`](https://github.com/rust-lang/rust/pull/81879)
+* [add `Option::get_or_default`](https://github.com/rust-lang/rust/pull/82849)
+* [implement `Extend` and `FromIterator` for `OsString`](https://github.com/rust-lang/rust/pull/82121)
+* [improve `sift_down` performance in `BinaryHeap`](https://github.com/rust-lang/rust/pull/81127)
+* [fix leak in `Vec::extend_from_within`](https://github.com/rust-lang/rust/pull/82760)
+* [regex: substantially reduce regex stack size](https://github.com/rust-lang/regex/pull/752)
+* [clippy: implement new lint: `if_then_some_else_none`](https://github.com/rust-lang/rust-clippy/pull/6859)
 
 ## Rust Compiler Performance Triage
 
@@ -158,15 +164,15 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> it's funny, every time I run into a baffling borrow error, it's preventing me from committing a real, serious mistake
+> I think the security of the internet is incredibly important obviously and I want it to be secure and I think bringing rust there is absolutely going to help it. Just by default it eliminates some of the most classic types of vulnerabilities.
 >
-> but it can take some thinking to figure out what exactly that mistake is..
+> But I don't think that's the most exciting part. I think the most exciting part is that the set of people for whom it is possible to implement these types of things, like who writes coreutils, who writes curl, who does those things. That used to be a really small pool of people. That had to be people who knew the dark arts, and only them and only their buddies or something.
 >
-> sometimes the borrow checker feels like a wise sage on a mountain giving advice in riddles lol
+> **And it's the goal of rust to empower that to be a larger group of people** and ultimately I think that that is what is going to happen which means the sheer number of people will be larger, and also the diversity of that set of people is going to grow. And I that that that will probably actually do more for the security and usefulness of these tools than eliminating underfined behaviour.
 
-– [Jarrett on discord](https://discord.com/channels/442252698964721669/443150878111694848/817890654779605009)
+– [Ashley Williams on twitch](https://www.twitch.tv/videos/946905598) (quote starts at 46:48)
 
-Thanks to [Daniel H-M](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1012) for the suggestion.
+Thanks to [Nixon Enraght-Moony](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1014) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
