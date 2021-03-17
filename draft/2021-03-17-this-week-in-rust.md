@@ -28,6 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Why the Starship shell prompt is built in Rust (interview with project creator)](https://console.dev/qa/starship-matan-kushner/)
 
 ### Rust Walkthroughs
+* [OS in Rust: Incorporate VGA buffer: Part-7](https://blog.knoldus.com/os-in-rust-incorporate-vga-buffer-part-7/)
 
 * [How to send emails with Rust](https://kerkour.com/blog/rust-send-email/)
 
