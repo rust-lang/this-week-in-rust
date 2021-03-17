@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [MiniWASM - A minimalist Rust WebAssembly project template](https://github.com/thedjinn/MiniWASM)
 * [Stepper 0.5 (formerly Step/Dir) - Universal Stepper Motor Interface](https://flott-motion.org/news/stepper-0-5/)
 
 ### Observations/Thoughts
