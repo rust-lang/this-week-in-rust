@@ -16,28 +16,59 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
+**No Official Blog Posts this week**
+
 ### Newsletters
+
+**No Newsletters this week**
 
 ### Project/Tooling Updates
 
 * [MiniWASM - A minimalist Rust WebAssembly project template](https://github.com/thedjinn/MiniWASM)
 * [Stepper 0.5 (formerly Step/Dir) - Universal Stepper Motor Interface](https://flott-motion.org/news/stepper-0-5/)
+* [Rust Analyzer Changelog #68](https://rust-analyzer.github.io/thisweek/2021/03/15/changelog-68.html)
+* [IntelliJ Rust Changelog #143](https://intellij-rust.github.io/2021/03/16/changelog-143.html)
 
 ### Observations/Thoughts
 
 * [Why the Starship shell prompt is built in Rust (interview with project creator)](https://console.dev/qa/starship-matan-kushner/)
+* [Rust vs. Go: Why They’re Better Together](https://thenewstack.io/rust-vs-go-why-theyre-better-together/?s=09)
+* [Cranelift, Part 3: Correctness in Register Allocation](https://cfallin.org/blog/2021/03/15/cranelift-isel-3/)
+* [Making Great Docs with Rustdoc](https://www.tangramvision.com/blog/making-great-docs-with-rustdoc)
+* [Writing a Postgres SQL Pretty Printer in Rust: Part 1](https://blog.urth.org/2021/03/14/writing-a-postgres-sql-pretty-printer-in-rust-part-1/)
+* [Data Manipulation: Polars vs Rust](https://able.bio/haixuanTao/data-manipulation-polars-vs-rust--3def44c8)
 
 ### Rust Walkthroughs
+
 * [OS in Rust: Incorporate VGA buffer: Part-7](https://blog.knoldus.com/os-in-rust-incorporate-vga-buffer-part-7/)
+* [Rust Koans](https://github.com/crazymykl/rust-koans)
 * [How to send emails with Rust](https://kerkour.com/blog/rust-send-email/)
+* [Writing Pong in Rust for my OS Written in Rust](https://blog.stephenmarz.com/2021/02/22/writing-pong-in-rust/)
+* [Arenas in Rust](https://manishearth.github.io/blog/2021/03/15/arenas-in-rust/)
+* [Zero Downtime Deployments](https://www.lpalmieri.com/posts/zero-downtime-deployments/)
+* [Deploy A Rust Website on Heroku](https://dev.to/xinnks/deploy-a-rust-website-on-heroku-1l45)
+* [One enum to rule them all](https://www.jakobmeier.ch/blogging/Enums.html)
+* [Writing a 3D Shooter using rg3d - #3 - Bots, AI](https://rg3d.rs/tutorials/2021/03/11/tutorial3.html)
+* [Developing High Performance Apache Cassandra™ Applications in Rust (Part 1)](https://www.datastax.com/blog/2021/03/developing-high-performance-apache-cassandra-applications-rust-part-1)
+* [Strings in Rust](https://bes.github.io/blog/rust-strings/)
+* [Rust - Reqwest examples](https://dev.to/pintuch/rust-reqwest-examples-10ff)
+* [libp2p tutorial: Build a peer-to-peer app in Rust](https://blog.logrocket.com/libp2p-tutorial-build-a-peer-to-peer-app-in-rust/)
 * [video] [Rust for Beginners - Watch me code the Rustlings Tutorial](https://www.youtube.com/playlist?list=PLauX9TuJ8sfyaLPZ1udS3zS_V9YXdsbtc)
+* [video] [Crust of Rust: The Drop Check (live edition)](https://www.youtube.com/watch?v=Das3XSWo1GU)
 
 ### Papers and Research Projects
 
+**No Papers and Research Projects This Week*
+
 ### Miscellaneous
+
 * [rkyv is faster than {bincode, capnp, cbor, flatbuffers, postcard, prost, serde_json}](https://davidkoloski.me/blog/rkyv-is-faster-than/)
 * [100ms delays with Rust on Lambda](https://www.peakscale.com/100ms-gotcha/)
+* [Speed of Rust vs C](https://kornel.ski/rust-c-speed)
 * [Rust Playground At Your Fingertips](https://www.greyblake.com/blog/2021-03-12-rust-playground-at-your-fingertips/)
+* [totally_safe_transmute, line-by-line](https://kornel.ski/rust-c-speed)
+* [Rust Graphics Crates](https://github.com/ocboogie/rust-graphics-crates)
+* [C++ to Rust - or how to render your mindset](https://jduchniewicz.com/posts/2021/02/c-to-rust-or-how-to-render-your-mindset/#introduction)
 * [Paid Online Research: Rust Programmers’ Experience and Challenges](https://www.personal.psu.edu/suz305/recruitment-twir.html)
 
 # Crate of the Week
