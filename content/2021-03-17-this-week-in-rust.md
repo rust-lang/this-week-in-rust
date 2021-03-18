@@ -66,7 +66,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [100ms delays with Rust on Lambda](https://www.peakscale.com/100ms-gotcha/)
 * [Speed of Rust vs C](https://kornel.ski/rust-c-speed)
 * [Rust Playground At Your Fingertips](https://www.greyblake.com/blog/2021-03-12-rust-playground-at-your-fingertips/)
-* [totally_safe_transmute, line-by-line](https://kornel.ski/rust-c-speed)
+* [totally_safe_transmute, line-by-line](https://blog.yossarian.net/2021/03/16/totally_safe_transmute-line-by-line)
 * [Rust Graphics Crates](https://github.com/ocboogie/rust-graphics-crates)
 * [C++ to Rust - or how to render your mindset](https://jduchniewicz.com/posts/2021/02/c-to-rust-or-how-to-render-your-mindset/#introduction)
 * [Paid Online Research: Rust Programmers’ Experience and Challenges](https://www.personal.psu.edu/suz305/recruitment-twir.html)
