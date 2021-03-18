@@ -1,6 +1,6 @@
 Title: This Week in Rust 382
 Number: 382
-Date: 2021-03-10
+Date: 2021-03-17
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -16,11 +16,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
-**No Official Blog Posts this week**
+*No Official Blog Posts this week*
 
 ### Newsletters
 
-**No Newsletters this week**
+*No Newsletters this week*
 
 ### Project/Tooling Updates
 
@@ -153,7 +153,7 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [rustdoc: allow list syntax for `#[doc(alias)`] attributes](https://github.com/rust-lang/rust/pull/82846)
+* [disposition: merge] [rustdoc: allow list syntax for #[doc(alias)] attributes](https://github.com/rust-lang/rust/pull/82846)
 * [disposition: merge] [Deprecate `doc(include)`](https://github.com/rust-lang/rust/pull/82539)
 * [disposition: merge] [Stabilize or_patterns (RFC 2535, 2530, 2175)](https://github.com/rust-lang/rust/pull/79278)
 * [disposition: merge] [Add IEEE 754 compliant fmt/parse of -0, infinity, NaN](https://github.com/rust-lang/rust/pull/78618)
