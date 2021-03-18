@@ -38,6 +38,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [rkyv is faster than {bincode, capnp, cbor, flatbuffers, postcard, prost, serde_json}](https://davidkoloski.me/blog/rkyv-is-faster-than/)
 * [100ms delays with Rust on Lambda](https://www.peakscale.com/100ms-gotcha/)
 * [Rust Playground At Your Fingertips](https://www.greyblake.com/blog/2021-03-12-rust-playground-at-your-fingertips/)
+* [Paid Online Research: Rust Programmers’ Experience and Challenges](https://www.personal.psu.edu/suz305/recruitment-twir.html)
 
 # Crate of the Week
 
