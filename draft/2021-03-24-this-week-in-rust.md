@@ -81,14 +81,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-A generally positive albeit quiet week though many of the perf improvements were gaining performance back from previous regressions. We'll need to continue to keep an eye on rollups as there were two that caused small performance changes.
+Added two benchmarks over the past week to the perf suite - diesel and stm32f4,
+which are intended to add to the level of tracking for rustdoc and, for both, a
+focus on compiler trait machinery.
 
-Triage done by **@rylev**.
-Revision range: [edeee..86187](https://perf.rust-lang.org/?start=edeee915b1c52f97411e57ef6b1a8bd46548a37a&end=861872bc453bde79b83ff99d443d035225f10e87&absolute=false&stat=instructions%3Au)
+Performance results for this week are mixed, but overall largely positive.
 
-1 Regression, 4 Improvements, 1 Mixed
+Triage done by **@simulacrum**.
+Revision range: [861872b..f24ce9b0](https://perf.rust-lang.org/?start=861872bc453bde79b83ff99d443d035225f10e87&end=f24ce9b0140d9be5a336954e878d0c1522966bb8&absolute=false&stat=instructions%3Au)
 
-2 of them in rollups
+3 Regressions, 3 Improvements, 4 Mixed
+
+0 of them in rollups
 
 ## Approved RFCs
 
