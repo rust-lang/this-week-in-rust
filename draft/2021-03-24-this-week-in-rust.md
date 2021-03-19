@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Introduction to Apache Arrow with Rust](https://bit.ly/apache-arrow-with-rust)
+
 ### Papers and Research Projects
 
 ### Miscellaneous
