@@ -3,4 +3,4 @@ pelican==3.5
 feedgenerator==1.7
 webassets==0.11.1
 cssmin==0.2.0
-jinja2==2.8
+jinja2==2.11.3
