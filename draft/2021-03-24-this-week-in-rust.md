@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Papers and Research Projects
 
 ### Miscellaneous
+* [Streaming using Bastion & Kafka - near consumer native correlation](https://vertexclique.com/streaming-with-bastion-and-kafka/)
 
 # Crate of the Week
 
