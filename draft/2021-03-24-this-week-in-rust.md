@@ -34,6 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Papers and Research Projects
 
 ### Miscellaneous
+
 * [Streaming using Bastion & Kafka - near consumer native correlation](https://vertexclique.com/streaming-with-bastion-and-kafka/)
 * [Performance comparison: counting words in Python, Go, C++, C, AWK, Forth, and Rust](https://benhoyt.com/writings/count-words/)
 
@@ -109,7 +110,9 @@ Revision range: [861872b..f24ce9b0](https://perf.rust-lang.org/?start=861872bc45
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [Adds must_not_suspend_lint RFC](https://github.com/rust-lang/rfcs/pull/3014)
+* [adds async stream rfc](https://github.com/rust-lang/rfcs/pull/2996)
+* [Make the authors field optional](https://github.com/rust-lang/rfcs/pull/3052)
 
 ## Final Comment Period
 
@@ -120,17 +123,13 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [RFC: Declarative macro metavariable expressions](https://github.com/rust-lang/rfcs/pull/3086)
-* [Change visibility scoping rules for macro_rules macros](https://github.com/rust-lang/rfcs/pull/3067)
+* [RFC: Hidden trait implementations](https://github.com/rust-lang/rfcs/pull/2529)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [rustdoc: allow list syntax for #[doc(alias)] attributes](https://github.com/rust-lang/rust/pull/82846)
-* [disposition: merge] [Deprecate `doc(include)`](https://github.com/rust-lang/rust/pull/82539)
-* [disposition: merge] [Stabilize or_patterns (RFC 2535, 2530, 2175)](https://github.com/rust-lang/rust/pull/79278)
+* [disposition: merge] [Stabilize bufreader_seek_relative](https://github.com/rust-lang/rust/pull/82992)
 * [disposition: merge] [Add IEEE 754 compliant fmt/parse of -0, infinity, NaN](https://github.com/rust-lang/rust/pull/78618)
-* [disposition: close] [`impl<A, B>` IntoIterator for (A, B) as Zip](https://github.com/rust-lang/rust/pull/78204)
-* [disposition: merge] [tracking issue for `debug_non_exhaustive` feature](https://github.com/rust-lang/rust/issues/67364)
-* [disposition: close] [[Edition vNext] Consider deprecating weird nesting of items](https://github.com/rust-lang/rust/issues/65516)
+* [disposition: merge] [Implement indexing slices with pairs of `core::ops::Bound<usize>`](https://github.com/rust-lang/rust/pull/77704)
 
 ## New RFCs
 
@@ -139,12 +138,15 @@ decision. Express your opinions now.
 # Upcoming Events
 
 ### Online
-* [March 18, Manchester, UK - Rust Manchester Opening Night - Rust Manchester](https://www.meetup.com/rust-manchester/events/276567843/)
-* [March 18, Linz, AT - Rust Meetup Linz - 8th Edition - Rust Linz](https://www.meetup.com/Rust-Linz/events/276520435)
-* [March 18, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccfbxb/)
-* [March 23, Berlin, DE - Rust and Tell - 2021 Kickoff - Berline.rs](https://berline.rs/2021/03/23/rust-and-tell.html)
-* [March 25. Barcelona, ES - BcnRust Meetup](https://www.meetup.com/es-ES/BcnRust/events/276796209/).
+* [March 25, Barcelona, ES - BcnRust Meetup](https://www.meetup.com/es-ES/BcnRust/events/276796209/).
+* [March 30, Munich, DE - Rust Remote #6 - Rust Munich](https://www.meetup.com/rust-munich/events/276424952)
 * [March 30, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccfbnc/)
+* [April 1, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccgbcb/)
+* [April 6, Buffalo, NY, US - Buffalo Rust User Group - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/276717867/)
+
+### Asia Pacific
+
+* [March 31, Wellington, NZ - Coffee - Rust Wellington](https://www.meetup.com/Rust-Wellington/events/277104604/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
