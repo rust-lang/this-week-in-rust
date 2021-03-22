@@ -22,7 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
-[ZH] [Rust in Embedded World](https://zhuanlan.zhihu.com/p/352945545)
+* [The biggest threat to Rust's sustainability](https://kerkour.com/blog/the-biggest-threat-to-rust-sustainability/)
+* [ZH] [Rust in Embedded World](https://zhuanlan.zhihu.com/p/352945545)
 
 ### Rust Walkthroughs
 
@@ -53,7 +54,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [delta-rs has many good first issues for those who want to learn Delta Lake or Rust](https://github.com/delta-io/delta-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 * [dotenv-linter has many good first issues](https://github.com/dotenv-linter/dotenv-linter/issues/390)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -154,6 +154,18 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**MongoDB**
+
+* [Senior Rust Engineer, Database Experience (Remote, North America)](https://www.mongodb.com/careers/jobs/3005375)
+
+**IONQ**
+
+* [Senior Software Engineer, Quantum Operating Systems (Remote)](https://ionq.bamboohr.com/jobs/view.php?id=44)
+
+**Pondurance**
+
+* [Software Data Engineer - National (Remote)](https://pondurance-llc.prismhr-hire.com/job/216824/software-data-engineer-national)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
