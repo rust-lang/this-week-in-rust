@@ -30,9 +30,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [ibig](https://github.com/tczajka/ibig-rs), a crate of fast big integers.
+This week's crate is [egg](https://egraphs-good.github.io), a project using e-graphs to provide a new way to build program optimizers and synthesizers.
 
-Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/889) for the suggestion!
+Thanks to [Daniel Nugent](https://users.rust-lang.org/t/crate-of-the-week/2704/891) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -54,30 +54,32 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-365 pull requests were [merged in the last week][merged]
+389 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-03-08..2021-03-15
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-03-15..2021-03-22
 
-* [expand: do not allocate `Lrc` for `allow_internal_unstable` list unless necessary](https://github.com/rust-lang/rust/pull/82422)
-* [account for `if (let pat = expr) {}`](https://github.com/rust-lang/rust/pull/82854)
-* [introduce `proc_macro_back_compat` lint, and emit for `time-macros-impl`](https://github.com/rust-lang/rust/pull/83127)
-* [eagerly construct bodies of THIR](https://github.com/rust-lang/rust/pull/82495)
-* [store HIR attributes in a side table](https://github.com/rust-lang/rust/pull/79519)
-* [add `StatementKind::CopyNonOverlapping`](https://github.com/rust-lang/rust/pull/77511)
-* [tweaks to stable hashing](https://github.com/rust-lang/rust/pull/83064)
-* [`rustc_query_system`: simplify `QueryCache::iter`](https://github.com/rust-lang/rust/pull/83069)
-* [mir-opt-level 4 is the new 3](https://github.com/rust-lang/miri/pull/1737)
-* [miri: ensure we catch incorrectly unwinding calls](https://github.com/rust-lang/miri/pull/1744)
-* [miri: check callee ABI when Miri calls closures](https://github.com/rust-lang/miri/pull/1743)
-* [don't implement `mem::replace` with `mem::swap`](https://github.com/rust-lang/rust/pull/83022)
-* [fix `io::copy` specialization using `copy_file_range` when writer was opened with `O_APPEND`](https://github.com/rust-lang/rust/pull/82417)
-* [added `#[repr(transparent)]` to `core::cmp::Reverse`](https://github.com/rust-lang/rust/pull/81879)
-* [add `Option::get_or_default`](https://github.com/rust-lang/rust/pull/82849)
-* [implement `Extend` and `FromIterator` for `OsString`](https://github.com/rust-lang/rust/pull/82121)
-* [improve `sift_down` performance in `BinaryHeap`](https://github.com/rust-lang/rust/pull/81127)
-* [fix leak in `Vec::extend_from_within`](https://github.com/rust-lang/rust/pull/82760)
-* [regex: substantially reduce regex stack size](https://github.com/rust-lang/regex/pull/752)
-* [clippy: implement new lint: `if_then_some_else_none`](https://github.com/rust-lang/rust-clippy/pull/6859)
+* [enable mutable noalias for LLVM >= 12](https://github.com/rust-lang/rust/pull/82834) (Fingers crossed)
+* [allow registering tool lints with `register_tool`](https://github.com/rust-lang/rust/pull/83216)
+* [more precise spans for HIR paths](https://github.com/rust-lang/rust/pull/83092)
+* [`const_evaluatable_checked`: stop eagerly erroring in `is_const_evaluatable`](https://github.com/rust-lang/rust/pull/82707)
+* [miri: improve error message of calling unsupported non-"C"/"system"-ABI foreign function](https://github.com/rust-lang/miri/pull/1745)
+* [make source-based code coverage compatible with MIR inlining](https://github.com/rust-lang/rust/pull/83080)
+* [stabilize `or_patterns` (RFC 2535, 2530, 2175)](https://github.com/rust-lang/rust/pull/79278)
+* [stabilize `feature(osstring_ascii)`](https://github.com/rust-lang/rust/pull/80193)
+* [stabilize `slice::IterMut::as_slice`](https://github.com/rust-lang/rust/pull/82771)
+* [stabilize `assoc_char_funcs` and `assoc_char_consts`](https://github.com/rust-lang/rust/pull/82919)
+* [implement `String::remove_matches`](https://github.com/rust-lang/rust/pull/71780)
+* [add a check for ASCII characters in `to_upper` and `to_lower`](https://github.com/rust-lang/rust/pull/81358)
+* [fix invalid slice access in `String::retain`](https://github.com/rust-lang/rust/pull/82554)
+* [constify copy related functions](https://github.com/rust-lang/rust/pull/83091)
+* [add `as_str` method for split whitespace str iterators](https://github.com/rust-lang/rust/pull/82570)
+* [`Vec::dedup_by` optimization](https://github.com/rust-lang/rust/pull/82191)
+* [fix overflowing length in `Vec<ZST>` to `VecDeque`](https://github.com/rust-lang/rust/pull/83244)
+* [implement `TrustedLen` and `TrustedRandomAccess` for `Range<integer>`, `array::IntoIter`, `VecDequeue`'s iterators](https://github.com/rust-lang/rust/pull/81607)
+* [cargo: allow cargo update to operate with the `--offline` flag](https://github.com/rust-lang/cargo/pull/9279)
+* [cargo: refactor feature handling, and improve error messages](https://github.com/rust-lang/cargo/pull/9290)
+* [rustdoc: reduce GC work during search](https://github.com/rust-lang/rust/pull/83077)
+* [rustfmt: fix issue 'double spaces between struct field prefix and identity when using long attributes](https://github.com/rust-lang/rustfmt/pull/4747)
 
 ## Rust Compiler Performance Triage
 
@@ -149,15 +151,25 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I think the security of the internet is incredibly important obviously and I want it to be secure and I think bringing rust there is absolutely going to help it. Just by default it eliminates some of the most classic types of vulnerabilities.
->
-> But I don't think that's the most exciting part. I think the most exciting part is that the set of people for whom it is possible to implement these types of things, like who writes coreutils, who writes curl, who does those things. That used to be a really small pool of people. That had to be people who knew the dark arts, and only them and only their buddies or something.
->
-> **And it's the goal of rust to empower that to be a larger group of people** and ultimately I think that that is what is going to happen which means the sheer number of people will be larger, and also the diversity of that set of people is going to grow. And I that that that will probably actually do more for the security and usefulness of these tools than eliminating underfined behaviour.
+> This is just to say,  
+> I have rebased  
+> the feature branch  
+> opened against  
+> master
+> 
+> and which  
+> you might have been  
+> already working  
+> on fixing
+> 
+> Forgive me,  
+> the diff was so trivial  
+> so minor  
+> so smol
 
-– [Ashley Williams on twitch](https://www.twitch.tv/videos/946905598) (quote starts at 46:48)
+– [Jubilee on rust-lang zulip](https://rust-lang.zulipchat.com/#narrow/stream/257879-project-portable-simd/topic/2021-03-08.20Meeting/near/231384678)
 
-Thanks to [Nixon Enraght-Moony](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1014) for the suggestion.
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1020) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
