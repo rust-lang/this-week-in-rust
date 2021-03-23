@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [How to execute shellcodes from memory in Rust](https://kerkour.com/blog/rust-execute-from-memory/)
+
 ### Papers and Research Projects
 
 ### Miscellaneous
