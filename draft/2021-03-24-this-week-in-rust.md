@@ -22,7 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
-[Chinese] [Rust in Embedded World](https://zhuanlan.zhihu.com/p/352945545)
+[ZH] [Rust in Embedded World](https://zhuanlan.zhihu.com/p/352945545)
 
 ### Rust Walkthroughs
 
