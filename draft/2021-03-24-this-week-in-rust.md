@@ -32,6 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Papers and Research Projects
 
 ### Miscellaneous
+* [Streaming using Bastion & Kafka - near consumer native correlation](https://vertexclique.com/streaming-with-bastion-and-kafka/)
 * [Performance comparison: counting words in Python, Go, C++, C, AWK, Forth, and Rust](https://benhoyt.com/writings/count-words/)
 
 # Crate of the Week
