@@ -22,19 +22,28 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [The biggest threat to Rust's sustainability](https://kerkour.com/blog/the-biggest-threat-to-rust-sustainability/)
+* [ZH] [Rust in Embedded World](https://zhuanlan.zhihu.com/p/352945545)
+
 ### Rust Walkthroughs
 
 * [Introduction to Apache Arrow with Rust](https://bit.ly/apache-arrow-with-rust)
+* [How to execute shellcodes from memory in Rust](https://kerkour.com/blog/rust-execute-from-memory/)
+* [Beginner's Guide to Rust Pattern Matching](https://doma-dev.medium.com/pattern-matching-in-rust-and-other-imperative-languages-7cf1c6abf4a1)
+* [video] [The four-part "Overview of the Rust Programming Language" for beginners is now complete](https://www.youtube.com/watch?v=gesNaLkUJeA&list=PLP2yfE2-FXdQmXLvrQ5QN64enbF_KCYQW)
 
 ### Papers and Research Projects
 
 ### Miscellaneous
 
+* [Streaming using Bastion & Kafka - near consumer native correlation](https://vertexclique.com/streaming-with-bastion-and-kafka/)
+* [Performance comparison: counting words in Python, Go, C++, C, AWK, Forth, and Rust](https://benhoyt.com/writings/count-words/)
+
 # Crate of the Week
 
-This week's crate is [ibig](https://github.com/tczajka/ibig-rs), a crate of fast big integers.
+This week's crate is [egg](https://egraphs-good.github.io), a project using e-graphs to provide a new way to build program optimizers and synthesizers.
 
-Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/889) for the suggestion!
+Thanks to [Daniel Nugent](https://users.rust-lang.org/t/crate-of-the-week/2704/891) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -47,7 +56,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [delta-rs has many good first issues for those who want to learn Delta Lake or Rust](https://github.com/delta-io/delta-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 * [dotenv-linter has many good first issues](https://github.com/dotenv-linter/dotenv-linter/issues/390)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -56,30 +64,32 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-365 pull requests were [merged in the last week][merged]
+389 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-03-08..2021-03-15
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-03-15..2021-03-22
 
-* [expand: do not allocate `Lrc` for `allow_internal_unstable` list unless necessary](https://github.com/rust-lang/rust/pull/82422)
-* [account for `if (let pat = expr) {}`](https://github.com/rust-lang/rust/pull/82854)
-* [introduce `proc_macro_back_compat` lint, and emit for `time-macros-impl`](https://github.com/rust-lang/rust/pull/83127)
-* [eagerly construct bodies of THIR](https://github.com/rust-lang/rust/pull/82495)
-* [store HIR attributes in a side table](https://github.com/rust-lang/rust/pull/79519)
-* [add `StatementKind::CopyNonOverlapping`](https://github.com/rust-lang/rust/pull/77511)
-* [tweaks to stable hashing](https://github.com/rust-lang/rust/pull/83064)
-* [`rustc_query_system`: simplify `QueryCache::iter`](https://github.com/rust-lang/rust/pull/83069)
-* [mir-opt-level 4 is the new 3](https://github.com/rust-lang/miri/pull/1737)
-* [miri: ensure we catch incorrectly unwinding calls](https://github.com/rust-lang/miri/pull/1744)
-* [miri: check callee ABI when Miri calls closures](https://github.com/rust-lang/miri/pull/1743)
-* [don't implement `mem::replace` with `mem::swap`](https://github.com/rust-lang/rust/pull/83022)
-* [fix `io::copy` specialization using `copy_file_range` when writer was opened with `O_APPEND`](https://github.com/rust-lang/rust/pull/82417)
-* [added `#[repr(transparent)]` to `core::cmp::Reverse`](https://github.com/rust-lang/rust/pull/81879)
-* [add `Option::get_or_default`](https://github.com/rust-lang/rust/pull/82849)
-* [implement `Extend` and `FromIterator` for `OsString`](https://github.com/rust-lang/rust/pull/82121)
-* [improve `sift_down` performance in `BinaryHeap`](https://github.com/rust-lang/rust/pull/81127)
-* [fix leak in `Vec::extend_from_within`](https://github.com/rust-lang/rust/pull/82760)
-* [regex: substantially reduce regex stack size](https://github.com/rust-lang/regex/pull/752)
-* [clippy: implement new lint: `if_then_some_else_none`](https://github.com/rust-lang/rust-clippy/pull/6859)
+* [enable mutable noalias for LLVM >= 12](https://github.com/rust-lang/rust/pull/82834) (Fingers crossed)
+* [allow registering tool lints with `register_tool`](https://github.com/rust-lang/rust/pull/83216)
+* [more precise spans for HIR paths](https://github.com/rust-lang/rust/pull/83092)
+* [`const_evaluatable_checked`: stop eagerly erroring in `is_const_evaluatable`](https://github.com/rust-lang/rust/pull/82707)
+* [miri: improve error message of calling unsupported non-"C"/"system"-ABI foreign function](https://github.com/rust-lang/miri/pull/1745)
+* [make source-based code coverage compatible with MIR inlining](https://github.com/rust-lang/rust/pull/83080)
+* [stabilize `or_patterns` (RFC 2535, 2530, 2175)](https://github.com/rust-lang/rust/pull/79278)
+* [stabilize `feature(osstring_ascii)`](https://github.com/rust-lang/rust/pull/80193)
+* [stabilize `slice::IterMut::as_slice`](https://github.com/rust-lang/rust/pull/82771)
+* [stabilize `assoc_char_funcs` and `assoc_char_consts`](https://github.com/rust-lang/rust/pull/82919)
+* [implement `String::remove_matches`](https://github.com/rust-lang/rust/pull/71780)
+* [add a check for ASCII characters in `to_upper` and `to_lower`](https://github.com/rust-lang/rust/pull/81358)
+* [fix invalid slice access in `String::retain`](https://github.com/rust-lang/rust/pull/82554)
+* [constify copy related functions](https://github.com/rust-lang/rust/pull/83091)
+* [add `as_str` method for split whitespace str iterators](https://github.com/rust-lang/rust/pull/82570)
+* [`Vec::dedup_by` optimization](https://github.com/rust-lang/rust/pull/82191)
+* [fix overflowing length in `Vec<ZST>` to `VecDeque`](https://github.com/rust-lang/rust/pull/83244)
+* [implement `TrustedLen` and `TrustedRandomAccess` for `Range<integer>`, `array::IntoIter`, `VecDequeue`'s iterators](https://github.com/rust-lang/rust/pull/81607)
+* [cargo: allow cargo update to operate with the `--offline` flag](https://github.com/rust-lang/cargo/pull/9279)
+* [cargo: refactor feature handling, and improve error messages](https://github.com/rust-lang/cargo/pull/9290)
+* [rustdoc: reduce GC work during search](https://github.com/rust-lang/rust/pull/83077)
+* [rustfmt: fix issue 'double spaces between struct field prefix and identity when using long attributes](https://github.com/rust-lang/rustfmt/pull/4747)
 
 ## Rust Compiler Performance Triage
 
@@ -101,7 +111,9 @@ Revision range: [861872b..f24ce9b0](https://perf.rust-lang.org/?start=861872bc45
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [Adds must_not_suspend_lint RFC](https://github.com/rust-lang/rfcs/pull/3014)
+* [adds async stream rfc](https://github.com/rust-lang/rfcs/pull/2996)
+* [Make the authors field optional](https://github.com/rust-lang/rfcs/pull/3052)
 
 ## Final Comment Period
 
@@ -112,17 +124,13 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [RFC: Declarative macro metavariable expressions](https://github.com/rust-lang/rfcs/pull/3086)
-* [Change visibility scoping rules for macro_rules macros](https://github.com/rust-lang/rfcs/pull/3067)
+* [RFC: Hidden trait implementations](https://github.com/rust-lang/rfcs/pull/2529)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [rustdoc: allow list syntax for #[doc(alias)] attributes](https://github.com/rust-lang/rust/pull/82846)
-* [disposition: merge] [Deprecate `doc(include)`](https://github.com/rust-lang/rust/pull/82539)
-* [disposition: merge] [Stabilize or_patterns (RFC 2535, 2530, 2175)](https://github.com/rust-lang/rust/pull/79278)
+* [disposition: merge] [Stabilize bufreader_seek_relative](https://github.com/rust-lang/rust/pull/82992)
 * [disposition: merge] [Add IEEE 754 compliant fmt/parse of -0, infinity, NaN](https://github.com/rust-lang/rust/pull/78618)
-* [disposition: close] [`impl<A, B>` IntoIterator for (A, B) as Zip](https://github.com/rust-lang/rust/pull/78204)
-* [disposition: merge] [tracking issue for `debug_non_exhaustive` feature](https://github.com/rust-lang/rust/issues/67364)
-* [disposition: close] [[Edition vNext] Consider deprecating weird nesting of items](https://github.com/rust-lang/rust/issues/65516)
+* [disposition: merge] [Implement indexing slices with pairs of `core::ops::Bound<usize>`](https://github.com/rust-lang/rust/pull/77704)
 
 ## New RFCs
 
@@ -131,12 +139,15 @@ decision. Express your opinions now.
 # Upcoming Events
 
 ### Online
-* [March 18, Manchester, UK - Rust Manchester Opening Night - Rust Manchester](https://www.meetup.com/rust-manchester/events/276567843/)
-* [March 18, Linz, AT - Rust Meetup Linz - 8th Edition - Rust Linz](https://www.meetup.com/Rust-Linz/events/276520435)
-* [March 18, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccfbxb/)
-* [March 23, Berlin, DE - Rust and Tell - 2021 Kickoff - Berline.rs](https://berline.rs/2021/03/23/rust-and-tell.html)
-* [March 25. Barcelona, ES - BcnRust Meetup](https://www.meetup.com/es-ES/BcnRust/events/276796209/).
+* [March 25, Barcelona, ES - BcnRust Meetup](https://www.meetup.com/es-ES/BcnRust/events/276796209/).
+* [March 30, Munich, DE - Rust Remote #6 - Rust Munich](https://www.meetup.com/rust-munich/events/276424952)
 * [March 30, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccfbnc/)
+* [April 1, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccgbcb/)
+* [April 6, Buffalo, NY, US - Buffalo Rust User Group - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/276717867/)
+
+### Asia Pacific
+
+* [March 31, Wellington, NZ - Coffee - Rust Wellington](https://www.meetup.com/Rust-Wellington/events/277104604/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -147,19 +158,41 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**MongoDB**
+
+* [Senior Rust Engineer, Database Experience (Remote, North America)](https://www.mongodb.com/careers/jobs/3005375)
+
+**IONQ**
+
+* [Senior Software Engineer, Quantum Operating Systems (Remote)](https://ionq.bamboohr.com/jobs/view.php?id=44)
+
+**Pondurance**
+
+* [Software Data Engineer - National (Remote)](https://pondurance-llc.prismhr-hire.com/job/216824/software-data-engineer-national)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> I think the security of the internet is incredibly important obviously and I want it to be secure and I think bringing rust there is absolutely going to help it. Just by default it eliminates some of the most classic types of vulnerabilities.
->
-> But I don't think that's the most exciting part. I think the most exciting part is that the set of people for whom it is possible to implement these types of things, like who writes coreutils, who writes curl, who does those things. That used to be a really small pool of people. That had to be people who knew the dark arts, and only them and only their buddies or something.
->
-> **And it's the goal of rust to empower that to be a larger group of people** and ultimately I think that that is what is going to happen which means the sheer number of people will be larger, and also the diversity of that set of people is going to grow. And I that that that will probably actually do more for the security and usefulness of these tools than eliminating underfined behaviour.
+> This is just to say,  
+> I have rebased  
+> the feature branch  
+> opened against  
+> master
+> 
+> and which  
+> you might have been  
+> already working  
+> on fixing
+> 
+> Forgive me,  
+> the diff was so trivial  
+> so minor  
+> so smol
 
-– [Ashley Williams on twitch](https://www.twitch.tv/videos/946905598) (quote starts at 46:48)
+– [Jubilee on rust-lang zulip](https://rust-lang.zulipchat.com/#narrow/stream/257879-project-portable-simd/topic/2021-03-08.20Meeting/near/231384678)
 
-Thanks to [Nixon Enraght-Moony](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1014) for the suggestion.
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1020) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
