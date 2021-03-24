@@ -92,18 +92,14 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-Added two benchmarks over the past week to the perf suite - diesel and stm32f4,
-which are intended to add to the level of tracking for rustdoc and, for both, a
-focus on compiler trait machinery.
+An overall busy but decent week for performance. While there were some performance regressions they were mostly small, and they were outnumbered by performance gains. Perhaps the most interesting news is not a compiler performance improvement but rather the introduction of no-alias optimizations at the LLVM level. This slightly hurts optimized build time performance in some cases, but it should make some workloads run faster after compilation.
 
-Performance results for this week are mixed, but overall largely positive.
+Triage done by **@rylev**.
+Revision range: [f24ce9b0..9b6339e4](https://perf.rust-lang.org/?start=f24ce9b0140d9be5a336954e878d0c1522966bb8&end=9b6339e4b9747d473270baa42e77e1d2fff39bf4&absolute=false&stat=instructions%3Au)
 
-Triage done by **@simulacrum**.
-Revision range: [861872b..f24ce9b0](https://perf.rust-lang.org/?start=861872bc453bde79b83ff99d443d035225f10e87&end=f24ce9b0140d9be5a336954e878d0c1522966bb8&absolute=false&stat=instructions%3Au)
+2 Regressions, 5 Improvements, 3 Mixed
 
-3 Regressions, 3 Improvements, 4 Mixed
-
-0 of them in rollups
+1 of them in rollups
 
 ## Approved RFCs
 
