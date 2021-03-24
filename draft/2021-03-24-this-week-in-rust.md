@@ -22,13 +22,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+[ZH] [Rust in Embedded World](https://zhuanlan.zhihu.com/p/352945545)
+
 ### Rust Walkthroughs
 
 * [How to execute shellcodes from memory in Rust](https://kerkour.com/blog/rust-execute-from-memory/)
+* [Beginner's Guide to Rust Pattern Matching](https://doma-dev.medium.com/pattern-matching-in-rust-and-other-imperative-languages-7cf1c6abf4a1)
+* [video] [The four-part "Overview of the Rust Programming Language" for beginners is now complete](https://www.youtube.com/watch?v=gesNaLkUJeA&list=PLP2yfE2-FXdQmXLvrQ5QN64enbF_KCYQW)
 
 ### Papers and Research Projects
 
 ### Miscellaneous
+* [Streaming using Bastion & Kafka - near consumer native correlation](https://vertexclique.com/streaming-with-bastion-and-kafka/)
+* [Performance comparison: counting words in Python, Go, C++, C, AWK, Forth, and Rust](https://benhoyt.com/writings/count-words/)
 
 # Crate of the Week
 
