@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+[ZH] [Rust in Embedded World](https://zhuanlan.zhihu.com/p/352945545)
+
 ### Rust Walkthroughs
 
 * [Beginner's Guide to Rust Pattern Matching](https://doma-dev.medium.com/pattern-matching-in-rust-and-other-imperative-languages-7cf1c6abf4a1)
