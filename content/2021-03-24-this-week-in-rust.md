@@ -53,6 +53,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [The four-part "Overview of the Rust Programming Language" for beginners is now complete](https://www.youtube.com/watch?v=gesNaLkUJeA&list=PLP2yfE2-FXdQmXLvrQ5QN64enbF_KCYQW)
 
 ### Papers and Research Projects
+_No Papers or Research Projects this week_
 
 ### Miscellaneous
 * [Streaming using Bastion & Kafka - near consumer native correlation](https://vertexclique.com/streaming-with-bastion-and-kafka/)
