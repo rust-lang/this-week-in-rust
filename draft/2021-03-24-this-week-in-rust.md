@@ -15,28 +15,48 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ### Official
+* [Building a shared vision for Async Rust](https://blog.rust-lang.org/2021/03/18/async-vision-doc.html)
+* [Inside] [1.51.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2021/03/23/1.51.0-prerelease.html)
+* [Foundation] [Introducing Bobby Holley](https://foundation.rust-lang.org/posts/2021-03-18-introducing-bobby-holley/)
+* [Foundation] [Introducing Tyler Mandry](https://foundation.rust-lang.org/posts/2021-03-18-introducing-tyler-mandry/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer Changelog #69](https://rust-analyzer.github.io/thisweek/2021/03/22/changelog-69.html)
 
 ### Observations/Thoughts
-
 * [The biggest threat to Rust's sustainability](https://kerkour.com/blog/the-biggest-threat-to-rust-sustainability/)
+* [Safe Systems Programming in Rust](https://cacm.acm.org/magazines/2021/4/251364-safe-systems-programming-in-rust/fulltext)
+* [The GPIO war: macro bunkers for typestate explosions](https://www.ecorax.net/macro-bunker-1/)
+* [A look back at asynchronous Rust](https://tomaka.medium.com/a-look-back-at-asynchronous-rust-d54d63934a1c)
+* [Rust as an App Language](https://www.ikiapps.com/programming/2019/07/26/is-rust-good-for-apps)
+* [How often does Rust change?](https://steveklabnik.com/writing/how-often-does-rust-change)
+* [Serving a single file over HTTP with Rust and Go](https://vadosware.io/post/serving-a-single-file-over-http-with-rust-and-go/)
+* [The Case for the Typestate Pattern - The Typestate Pattern itself](https://www.novatec-gmbh.de/en/blog/the-case-for-the-typestate-pattern-the-typestate-pattern-itself/)
 * [ZH] [Rust in Embedded World](https://zhuanlan.zhihu.com/p/352945545)
+* [video] [Cheaply writing a fast interpreter - Neil Mitchell](https://youtu.be/V8dnIw3amLA)
 
 ### Rust Walkthroughs
-
 * [How to execute shellcodes from memory in Rust](https://kerkour.com/blog/rust-execute-from-memory/)
 * [Beginner's Guide to Rust Pattern Matching](https://doma-dev.medium.com/pattern-matching-in-rust-and-other-imperative-languages-7cf1c6abf4a1)
+* [Writing a PostgreSQL Pretty Printer in Rust: Part 1.5](https://blog.urth.org/2021/03/21/writing-a-postgres-sql-pretty-printer-in-rust-part-1-5/)
+* [Calling .NET APIs from Rust](https://ericsink.com/entries/lousygrep.html)
+* [The magical applications of Zero-Sized Types in Rust](https://www.hardmo.de/article/2021-03-14-zst-proof-types.md)
+* [Rust and Rocket - Zero to Deploy](https://dev.to/alexmercedcoder/rust-rocket-zero-to-deploy-578o)
+* [Learning to Fly: Let's simulate evolution in Rust! (pt 3)](https://pwy.io/en/posts/learning-to-fly-pt3/)
+* [Building an OpenStreetMap app in Rust, Part VI](https://blogg.bekk.no/building-an-openstreetmap-app-in-rust-part-vi-8cfc8c3f7798)
+* [Tutorial: Writing a tiny Entity Component System in Rust](https://ianjk.com/ecs-in-rust/)
+* [Implementing RAII guards in Rust](https://aloso.github.io/2021/03/18/raii-guards.html)
+* [JP] [[TECH] Actix web で HttpOnly な Cookie を設定する 🍪](https://dev.to/nikaera/tech-actix-web-httponly-cookie-182)
 * [video] [The four-part "Overview of the Rust Programming Language" for beginners is now complete](https://www.youtube.com/watch?v=gesNaLkUJeA&list=PLP2yfE2-FXdQmXLvrQ5QN64enbF_KCYQW)
 
 ### Papers and Research Projects
 
 ### Miscellaneous
-
 * [Streaming using Bastion & Kafka - near consumer native correlation](https://vertexclique.com/streaming-with-bastion-and-kafka/)
 * [Performance comparison: counting words in Python, Go, C++, C, AWK, Forth, and Rust](https://benhoyt.com/writings/count-words/)
+* [Linus Torvalds on where Rust will fit into Linux](https://www.zdnet.com/article/linus-torvalds-on-where-rust-will-fit-into-linux/)
 
 # Crate of the Week
 
