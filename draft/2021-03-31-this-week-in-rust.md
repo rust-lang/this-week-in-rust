@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 ### Papers and Research Projects
+* [Video] [Safer Rust: Program Verification with Creusot](https://www.youtube.com/watch?v=BPt987BRdDw)
 
 ### Miscellaneous
 
@@ -147,20 +148,20 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> This is just to say,  
-> I have rebased  
-> the feature branch  
-> opened against  
+> This is just to say,
+> I have rebased
+> the feature branch
+> opened against
 > master
-> 
-> and which  
-> you might have been  
-> already working  
+>
+> and which
+> you might have been
+> already working
 > on fixing
-> 
-> Forgive me,  
-> the diff was so trivial  
-> so minor  
+>
+> Forgive me,
+> the diff was so trivial
+> so minor
 > so smol
 
 – [Jubilee on rust-lang zulip](https://rust-lang.zulipchat.com/#narrow/stream/257879-project-portable-simd/topic/2021-03-08.20Meeting/near/231384678)
