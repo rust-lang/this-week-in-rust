@@ -30,9 +30,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [egg](https://egraphs-good.github.io), a project using e-graphs to provide a new way to build program optimizers and synthesizers.
+This week's crate is [tide-acme](https://github.com/http-rs/tide-acme), a crate for automatic HTTPS certificaion using Let's Encrypt for Tide.
 
-Thanks to [Daniel Nugent](https://users.rust-lang.org/t/crate-of-the-week/2704/891) for the suggestion!
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/crate-of-the-week/2704/894) for the suggestion!
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -53,32 +53,32 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-389 pull requests were [merged in the last week][merged]
+327 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-03-15..2021-03-22
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-03-22..2021-03-29
 
-* [enable mutable noalias for LLVM >= 12](https://github.com/rust-lang/rust/pull/82834) (Fingers crossed)
-* [allow registering tool lints with `register_tool`](https://github.com/rust-lang/rust/pull/83216)
-* [more precise spans for HIR paths](https://github.com/rust-lang/rust/pull/83092)
-* [`const_evaluatable_checked`: stop eagerly erroring in `is_const_evaluatable`](https://github.com/rust-lang/rust/pull/82707)
-* [miri: improve error message of calling unsupported non-"C"/"system"-ABI foreign function](https://github.com/rust-lang/miri/pull/1745)
-* [make source-based code coverage compatible with MIR inlining](https://github.com/rust-lang/rust/pull/83080)
-* [stabilize `or_patterns` (RFC 2535, 2530, 2175)](https://github.com/rust-lang/rust/pull/79278)
-* [stabilize `feature(osstring_ascii)`](https://github.com/rust-lang/rust/pull/80193)
-* [stabilize `slice::IterMut::as_slice`](https://github.com/rust-lang/rust/pull/82771)
-* [stabilize `assoc_char_funcs` and `assoc_char_consts`](https://github.com/rust-lang/rust/pull/82919)
-* [implement `String::remove_matches`](https://github.com/rust-lang/rust/pull/71780)
-* [add a check for ASCII characters in `to_upper` and `to_lower`](https://github.com/rust-lang/rust/pull/81358)
-* [fix invalid slice access in `String::retain`](https://github.com/rust-lang/rust/pull/82554)
-* [constify copy related functions](https://github.com/rust-lang/rust/pull/83091)
-* [add `as_str` method for split whitespace str iterators](https://github.com/rust-lang/rust/pull/82570)
-* [`Vec::dedup_by` optimization](https://github.com/rust-lang/rust/pull/82191)
-* [fix overflowing length in `Vec<ZST>` to `VecDeque`](https://github.com/rust-lang/rust/pull/83244)
-* [implement `TrustedLen` and `TrustedRandomAccess` for `Range<integer>`, `array::IntoIter`, `VecDequeue`'s iterators](https://github.com/rust-lang/rust/pull/81607)
-* [cargo: allow cargo update to operate with the `--offline` flag](https://github.com/rust-lang/cargo/pull/9279)
-* [cargo: refactor feature handling, and improve error messages](https://github.com/rust-lang/cargo/pull/9290)
-* [rustdoc: reduce GC work during search](https://github.com/rust-lang/rust/pull/83077)
-* [rustfmt: fix issue 'double spaces between struct field prefix and identity when using long attributes](https://github.com/rust-lang/rustfmt/pull/4747)
+* [coverage bug fixes and optimization support](https://github.com/rust-lang/rust/pull/83307)
+* [ban custom inner attributes in expressions and statements](https://github.com/rust-lang/rust/pull/83488)
+* [`GenericParam` does not need to be a HIR owner](https://github.com/rust-lang/rust/pull/83424)
+* [remove assignments to ZST places instead of marking ZST return place as unused](https://github.com/rust-lang/rust/pull/83177)
+* [run analyses before thir-tree dumps](https://github.com/rust-lang/rust/pull/83050)
+* [import small cold functions](https://github.com/rust-lang/rust/pull/82980)
+* [implement `feature(const_generics_defaults)`](https://github.com/rust-lang/rust/pull/75384)
+* [stabilize `debug_non_exhaustive`](https://github.com/rust-lang/rust/pull/83041)
+* [simplify encoder and decoder](https://github.com/rust-lang/rust/pull/83273)
+* [remove (lots of) dead code](https://github.com/rust-lang/rust/pull/83185)
+* [use `TrustedRandomAccess` for in-place iterators where possible](https://github.com/rust-lang/rust/pull/79846)
+* [instruct LLVM that `binary_search` returns a valid index](https://github.com/rust-lang/rust/pull/81354)
+* [make `NonNull::as_ref` (and friends) return refs with unbound lifetimes](https://github.com/rust-lang/rust/pull/80771)
+* [add function `core::iter::zip`](https://github.com/rust-lang/rust/pull/82917)
+* [revert reverting of stabilizing `integer::BITS`](https://github.com/rust-lang/rust/pull/82565)
+* [generalize and inline `slice::fill` specializations](https://github.com/rust-lang/rust/pull/83245)
+* [add `Result::into_err` where the Ok variant is the never type](https://github.com/rust-lang/rust/pull/83421)
+* [remove `Option::`{`unwrap_none`, `expect_none`}](https://github.com/rust-lang/rust/pull/83349)
+* [futures: add `AsyncSeekExt::stream_position`](https://github.com/rust-lang/futures-rs/pull/2380)
+* [cargo: default macOS targets to unpacked debuginfo](https://github.com/rust-lang/cargo/pull/9298)
+* [rustdoc: sidebar trait items order](https://github.com/rust-lang/rust/pull/83051)
+* [docs.rs: stop displaying and serving authorship information](https://github.com/rust-lang/docs.rs/pull/1322)
 
 ## Rust Compiler Performance Triage
 
@@ -147,25 +147,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> This is just to say,  
-> I have rebased  
-> the feature branch  
-> opened against  
-> master
-> 
-> and which  
-> you might have been  
-> already working  
-> on fixing
-> 
-> Forgive me,  
-> the diff was so trivial  
-> so minor  
-> so smol
+> Despite all the negative aspects, I must say that I do generally really like the poll-based approach that Rust is taking. Most of the problems encountered are encountered not because of mistakes, but because no other language really has pushed this principle this far. Programming language design is first and foremost an “artistic” activity, not a technical one, and anticipating the consequences of design choices is almost impossible.
 
-– [Jubilee on rust-lang zulip](https://rust-lang.zulipchat.com/#narrow/stream/257879-project-portable-simd/topic/2021-03-08.20Meeting/near/231384678)
+– [tomaka on medium](https://tomaka.medium.com/a-look-back-at-asynchronous-rust-d54d63934a1c)
 
-Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1020) for the suggestion.
+Thanks to [Michael Howell](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1028) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
