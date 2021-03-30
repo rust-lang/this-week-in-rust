@@ -19,7 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
-- [Knurling-rs Financial Update and Call for Funding](https://ferrous-systems.com/blog/knurling-financial-update/) ([r/rust](https://www.reddit.com/r/rust/comments/mftoey/knurlingrs_financial_update_and_call_for_funding/))
+- [Knurling-rs Financial Update and Call for Funding](https://ferrous-systems.com/blog/knurling-financial-update/)
 
 ### Observations/Thoughts
 
