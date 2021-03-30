@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Pin and suffering](https://fasterthanli.me/articles/pin-and-suffering)
 
 ### Papers and Research Projects
 * [Video] [Safer Rust: Program Verification with Creusot](https://www.youtube.com/watch?v=BPt987BRdDw)
