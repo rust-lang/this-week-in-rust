@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Ockam | End-to-end encrypted messaging and mutual authentication between distributed applications](https://github.com/ockam-network/ockam)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
