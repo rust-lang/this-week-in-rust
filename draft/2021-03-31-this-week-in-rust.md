@@ -146,6 +146,11 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**e.ventures**
+
+* [Rust backend engineer (Remote, the Americas)](https://old.reddit.com/r/rust/comments/mfstaz/official_rrust_whos_hiring_thread_for_jobseekers/gspq9v1/)
+
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
