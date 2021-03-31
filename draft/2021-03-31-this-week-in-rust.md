@@ -50,8 +50,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [dotenv-linter has many good first issues](https://github.com/dotenv-linter/dotenv-linter/issues/390)
 * [AWS Rust lambdas and Bioinformatics](https://umccr.org/blog/aws-bioinformatics-rust/)
+* [darpi-rs/darpi is looking for users and contributors](https://github.com/darpi-rs/darpi)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -130,15 +130,8 @@ decision. Express your opinions now.
 # Upcoming Events
 
 ### Online
-* [March 25, Barcelona, ES - BcnRust Meetup](https://www.meetup.com/es-ES/BcnRust/events/276796209/).
-* [March 30, Munich, DE - Rust Remote #6 - Rust Munich](https://www.meetup.com/rust-munich/events/276424952)
-* [March 30, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccfbnc/)
 * [April 1, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccgbcb/)
 * [April 6, Buffalo, NY, US - Buffalo Rust User Group - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/276717867/)
-
-### Asia Pacific
-
-* [March 31, Wellington, NZ - Coffee - Rust Wellington](https://www.meetup.com/Rust-Wellington/events/277104604/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -152,6 +145,14 @@ Email the [Rust Community Team][community] for access.
 **e.ventures**
 
 * [Rust backend engineer (Remote, the Americas)](https://old.reddit.com/r/rust/comments/mfstaz/official_rrust_whos_hiring_thread_for_jobseekers/gspq9v1/)
+
+**Wallaroo**
+
+* [Software Engineer (Remote)](https://wallaroo.breezy.hr/p/30939dc4e5c7-software-engineer)
+
+**Ockam**
+
+* [Hiring for several Rust positions](https://www.ockam.io/team#open-roles)
 
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
