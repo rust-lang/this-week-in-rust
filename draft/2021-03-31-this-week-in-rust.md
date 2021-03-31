@@ -19,8 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
-- [Knurling-rs Financial Update and Call for Funding](https://ferrous-systems.com/blog/knurling-financial-update/)
-
+* [Knurling-rs Financial Update and Call for Funding](https://ferrous-systems.com/blog/knurling-financial-update/)
 * [Ockam | End-to-end encrypted messaging and mutual authentication between distributed applications](https://github.com/ockam-network/ockam)
 
 ### Observations/Thoughts
@@ -52,6 +51,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [AWS Rust lambdas and Bioinformatics](https://umccr.org/blog/aws-bioinformatics-rust/)
 * [darpi-rs/darpi is looking for users and contributors](https://github.com/darpi-rs/darpi)
+* [RoaringBitmap/roaring-rs seeks a review of this Pull Request](https://github.com/RoaringBitmap/roaring-rs/pull/92)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -102,9 +102,7 @@ Revision range: [f24ce9b0..9b6339e4](https://perf.rust-lang.org/?start=f24ce9b01
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Adds must_not_suspend_lint RFC](https://github.com/rust-lang/rfcs/pull/3014)
-* [adds async stream rfc](https://github.com/rust-lang/rfcs/pull/2996)
-* [Make the authors field optional](https://github.com/rust-lang/rfcs/pull/3052)
+* [RFC: Declarative macro metavariable expressions](https://github.com/rust-lang/rfcs/pull/3086)
 
 ## Final Comment Period
 
@@ -114,24 +112,40 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [RFC: Declarative macro metavariable expressions](https://github.com/rust-lang/rfcs/pull/3086)
-* [RFC: Hidden trait implementations](https://github.com/rust-lang/rfcs/pull/2529)
+* [Raw Keywords](https://github.com/rust-lang/rfcs/pull/3098)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize bufreader_seek_relative](https://github.com/rust-lang/rust/pull/82992)
-* [disposition: merge] [Add IEEE 754 compliant fmt/parse of -0, infinity, NaN](https://github.com/rust-lang/rust/pull/78618)
-* [disposition: merge] [Implement indexing slices with pairs of `core::ops::Bound<usize>`](https://github.com/rust-lang/rust/pull/77704)
+* [disposition: merge] [Add strong_count mutation methods to Rc](https://github.com/rust-lang/rust/pull/83476)
+* [disposition: merge] [Turn old edition lint (anonymous-parameters) into warn-by-default on 2015](https://github.com/rust-lang/rust/pull/82918)
+* [disposition: merge] [reduce threads spawned by ui-tests](https://github.com/rust-lang/rust/pull/81942)
+* [disposition: merge] [Stabilize `peekable_peek_mut`](https://github.com/rust-lang/rust/pull/81938)
+* [disposition: merge] [Stabilize `rustdoc::bare_urls` lint](https://github.com/rust-lang/rust/pull/81764)
+* [disposition: merge] [Adding diesel to the cargotest suite](https://github.com/rust-lang/rust/pull/81507)
+* [disposition: merge] [Stabilize `cmp_min_max_by`](https://github.com/rust-lang/rust/pull/81047)
+* [disposition: merge] [Allow qualified paths in struct construction (both expressions and patterns)](https://github.com/rust-lang/rust/pull/80080)
+* [disposition: merge] [Tracking issue for RFC 2457, "Allow non-ASCII identifiers"](https://github.com/rust-lang/rust/issues/55467)
 
 ## New RFCs
 
-*No new RFCs were proposed this week.*
+* [RFC: Add a standard trait for getting many &mut to places](https://github.com/rust-lang/rfcs/pull/3100)
+* [RFC: `cargo`-`miri` integration](https://github.com/rust-lang/rfcs/pull/3099)
+* [Raw Keywords](https://github.com/rust-lang/rfcs/pull/3098)
+* [rustdoc URL conflict resolution](https://github.com/rust-lang/rfcs/pull/3097)
 
 # Upcoming Events
 
 ### Online
 * [April 1, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccgbcb/)
 * [April 6, Buffalo, NY, US - Buffalo Rust User Group - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/276717867/)
+* [April 7, Johannesburg, ZA - Monthly Joburg Rust Chat! - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/277133126/)
+* [April 7, Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy Rust](https://www.meetup.com/indyrs/events/jhfstryccgbkb/)
+* [April 13, Seattle, WA, US - Monthly Meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccgbrb/)
+
+### North America
+
+* [April 8, Columbus, OH, US - Monthly Meetup - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dpkhgryccgblb/)
+* [April 14, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgryccgbsb/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
