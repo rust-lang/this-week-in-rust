@@ -21,6 +21,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 - [Knurling-rs Financial Update and Call for Funding](https://ferrous-systems.com/blog/knurling-financial-update/)
 
+* [Ockam | End-to-end encrypted messaging and mutual authentication between distributed applications](https://github.com/ockam-network/ockam)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
