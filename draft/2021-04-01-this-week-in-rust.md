@@ -23,6 +23,7 @@ No newsletters this week.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [How we built our Python Client that's mostly Rust](https://www.fluvio.io/blog/2021/03/python-client/)
 
 ### Papers and Research Projects
 
