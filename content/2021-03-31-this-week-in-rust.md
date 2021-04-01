@@ -49,9 +49,6 @@ No newsletters this week.
 * [series] [Working with the trust-dns-resolver crate](https://dev.to/basman/series/11934)
 * [video] [Safer Rust: Program Verification with Creusot](https://youtu.be/BPt987BRdDw)
 
-### Papers and Research Projects
-* [Video] [Safer Rust: Program Verification with Creusot](https://www.youtube.com/watch?v=BPt987BRdDw)
-
 ### Miscellaneous
 * [Linus Torvalds weighs in on Rust language in the Linux kernel](https://arstechnica.com/gadgets/2021/03/linus-torvalds-weighs-in-on-rust-language-in-the-linux-kernel/)
 * [Ownership Concept Diagram](https://www.reddit.com/r/rust/comments/mgh9n9/ownership_concept_diagram/)
