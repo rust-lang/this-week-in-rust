@@ -109,14 +109,14 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-An overall busy but decent week for performance. While there were some performance regressions they were mostly small, and they were outnumbered by performance gains. Perhaps the most interesting news is not a compiler performance improvement but rather the introduction of no-alias optimizations at the LLVM level. This slightly hurts optimized build time performance in some cases, but it should make some workloads run faster after compilation.
+A somewhat negative weak for performance where regressions outweigh improvements. Sadly, a lot of the regressions don't seem very straight-forward to understand, and so more investigation will be necessary.
 
 Triage done by **@rylev**.
-Revision range: [f24ce9b0..9b6339e4](https://perf.rust-lang.org/?start=f24ce9b0140d9be5a336954e878d0c1522966bb8&end=9b6339e4b9747d473270baa42e77e1d2fff39bf4&absolute=false&stat=instructions%3Au)
+Revision range: [9b6339e4..4896450](https://perf.rust-lang.org/?start=9b6339e4b9747d473270baa42e77e1d2fff39bf4&end=4896450e7e0a522486b4d3a8d360ac4e1d2072a0&absolute=false&stat=instructions%3Au)
 
-2 Regressions, 5 Improvements, 3 Mixed
+2 Regressions, 2 Improvements, 3 Mixed
 
-1 of them in rollups
+2 of them in rollups
 
 ## Approved RFCs
 
