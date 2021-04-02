@@ -55,7 +55,7 @@ No newsletters this week.
 
 # Crate of the Week
 
-This week's crate is [tide-acme](https://github.com/http-rs/tide-acme), a crate for automatic HTTPS certificaion using Let's Encrypt for Tide.
+This week's crate is [tide-acme](https://github.com/http-rs/tide-acme), a crate for automatic HTTPS certification using Let's Encrypt for Tide.
 
 Thanks to [Josh Triplett](https://users.rust-lang.org/t/crate-of-the-week/2704/894) for the suggestion!
 
