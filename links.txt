@@ -1463,3 +1463,39 @@ _No Papers or Research Projects this week_
 * [Linus Torvalds on where Rust will fit into Linux](https://www.zdnet.com/article/linus-torvalds-on-where-rust-will-fit-into-linux/)
 * [Rust: integrating LLVM source-base code coverage with GitLab](https://www.collabora.com/news-and-blog/blog/2021/03/24/rust-integrating-llvm-source-base-code-coverage-with-gitlab/)
 
+Number: 384  Date: 2021-03-31 
+
+No newsletters this week.
+### Official
+* [Announcing Rust 1.51.0](https://blog.rust-lang.org/2021/03/25/Rust-1.51.0.html)
+* [Foundation] [Introducing Mark Rousskov](https://foundation.rust-lang.org/posts/2021-03-25-introducing-mark-rousskov/)
+* [Foundation] [Introducing Nell Shamrell-Harrington](https://foundation.rust-lang.org/posts/2021-03-25-introducing-nell-shamrell-harrington/)
+### Project/Tooling Updates
+* [rust-analyzer changelog #70](https://rust-analyzer.github.io/thisweek/2021/03/29/changelog-70.html)
+* [IntelliJ Rust Changelog #144](https://intellij-rust.github.io/2021/03/29/changelog-144.html)
+* [Knurling-rs Financial Update and Call for Funding](https://ferrous-systems.com/blog/knurling-financial-update/)
+* [Ockam | End-to-end encrypted messaging and mutual authentication between distributed applications](https://github.com/ockam-network/ockam)
+* [Announcing the Deno Company](https://deno.com/blog/the-deno-company)
+### Observations/Thoughts
+* [Using Rust to corrode insane Python run-times](https://www.vortexa.com/insight/using-rust-to-corrode-insane-python-run-times)
+* [The current state of Rust web frameworks](https://blog.logrocket.com/the-current-state-of-rust-web-frameworks/)
+* [GhostCell: Separating Permissions from Data in Rust](http://plv.mpi-sws.org/rustbelt/ghostcell/)
+* [Using const generics in slipstream](https://vorner.github.io/2021/03/28/const-generic-slipstreem.html)
+* [Rust iterators tips and tricks](https://robinmoussu.gitlab.io/blog/post/2021-03-25_rust_iterators_tips_and_tricks/)
+### Rust Walkthroughs
+* [Pin and suffering](https://fasterthanli.me/articles/pin-and-suffering)
+* [Embedding Rust Into Zephyr Firmware using C-bindgen](https://www.jaredwolff.com/embedding-rust-into-zephyr-using-cbindgen/)
+* [Parser combinators in Rust](https://doma.dev/blog/parsing-stuff-in-rust/)
+* [Grids in Rust, part 2: const generics](https://blog.adamchalmers.com/grids-2/)
+* [Ergonomic error handling with Rust](https://dev.to/senyeezus/ergonomic-error-handling-with-rust-13bj)
+* [Implementing SHA2 (256/512) algorithm with Rust const generics](https://dev.to/dandyvica/implementing-sha2-256-512-algorithm-with-rust-const-generics-5ap)
+* [Analisando alocações de memória em Rust utilizando GNU Debugger](https://dev.to/ignaciojvig/analisando-alocacoes-de-memoria-em-rust-utilizando-gnu-debugger-34kb)
+* [Testing an embedded application](https://ferrous-systems.com/blog/test-embedded-app/)
+* [Using Const Generics To Model An Electronics Graph](https://mkhan45.github.io/2021/03/28/Using-const-generics-to-model-an-electronics-graph.html)
+* [Rust's Module System Explained](https://aloso.github.io/2021/03/28/module-system.html)
+* [series] [Working with the trust-dns-resolver crate](https://dev.to/basman/series/11934)
+* [video] [Safer Rust: Program Verification with Creusot](https://youtu.be/BPt987BRdDw)
+### Miscellaneous
+* [Linus Torvalds weighs in on Rust language in the Linux kernel](https://arstechnica.com/gadgets/2021/03/linus-torvalds-weighs-in-on-rust-language-in-the-linux-kernel/)
+* [Ownership Concept Diagram](https://www.reddit.com/r/rust/comments/mgh9n9/ownership_concept_diagram/)
+
