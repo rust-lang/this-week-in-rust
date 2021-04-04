@@ -19,6 +19,7 @@ No newsletters this week.
 ### Official
 
 ### Project/Tooling Updates
+* [A new Left Recursive PEG Parser Generator for rust](https://www.mess.org/2021/03/26/Left-Recursive-PEG-Parser-Generator/)
 
 ### Observations/Thoughts
 
