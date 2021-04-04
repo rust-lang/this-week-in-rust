@@ -24,6 +24,7 @@ No newsletters this week.
 
 ### Rust Walkthroughs
 * [How we built our Python Client that's mostly Rust](https://www.fluvio.io/blog/2021/03/python-client/)
+* [Hello world with KAS GUI](https://kas-gui.github.io/tutorials/hello.html)
 
 ### Papers and Research Projects
 
