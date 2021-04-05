@@ -29,6 +29,7 @@ No newsletters this week.
 * [How we built our Python Client that's mostly Rust](https://www.fluvio.io/blog/2021/03/python-client/)
 * [Hello world with KAS GUI](https://kas-gui.github.io/tutorials/hello.html)
 * [How to create small Docker images for Rust](https://kerkour.com/blog/rust-small-docker-image/)
+* [video] [Return a value from a function in Rust](https://www.youtube.com/watch?v=YNSg7g46Hso)
 
 ### Papers and Research Projects
 
@@ -51,6 +52,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [dotenv-linter has several good first issues](https://github.com/dotenv-linter/dotenv-linter/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -129,34 +132,37 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [Raw Keywords](https://github.com/rust-lang/rfcs/pull/3098)
+* [disposition: close] [RFC: Structural Records](https://github.com/rust-lang/rfcs/pull/2584)
+* [disposition: postpone] [Hygiene opt-out (escaping) for declarative macros 2.0](https://github.com/rust-lang/rfcs/pull/2498)
+* [disposition: postpone] [RFC: Delegation](https://github.com/rust-lang/rfcs/pull/2393)
+* [disposition: close] [RFC: `#[derive_no_bound(..)]` and `#[derive_field_bound(..)]`](https://github.com/rust-lang/rfcs/pull/2353)
+* [disposition: postpone] [RFC: Eager Macro Expansion](https://github.com/rust-lang/rfcs/pull/2320)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Add strong_count mutation methods to Rc](https://github.com/rust-lang/rust/pull/83476)
+* [disposition: merge] [Remove `T: Debug` bound on UnsafeCell Debug impl](https://github.com/rust-lang/rust/pull/83707)
 * [disposition: merge] [Turn old edition lint (anonymous-parameters) into warn-by-default on 2015](https://github.com/rust-lang/rust/pull/82918)
-* [disposition: merge] [reduce threads spawned by ui-tests](https://github.com/rust-lang/rust/pull/81942)
-* [disposition: merge] [Stabilize `peekable_peek_mut`](https://github.com/rust-lang/rust/pull/81938)
 * [disposition: merge] [Stabilize `rustdoc::bare_urls` lint](https://github.com/rust-lang/rust/pull/81764)
-* [disposition: merge] [Adding diesel to the cargotest suite](https://github.com/rust-lang/rust/pull/81507)
-* [disposition: merge] [Stabilize `cmp_min_max_by`](https://github.com/rust-lang/rust/pull/81047)
-* [disposition: merge] [Allow qualified paths in struct construction (both expressions and patterns)](https://github.com/rust-lang/rust/pull/80080)
-* [disposition: merge] [Tracking issue for RFC 2457, "Allow non-ASCII identifiers"](https://github.com/rust-lang/rust/issues/55467)
+* [disposition: merge] [Tracking issue: fNN::is_subnormal](https://github.com/rust-lang/rust/issues/79288)
+* [disposition: merge] [Tracking Issue for feature(nonzero_leading_trailing_zeros)](https://github.com/rust-lang/rust/issues/79143)
+* [disposition: merge] [Tracking Issue for `{BTreeMap,BTreeSet}::retain`](https://github.com/rust-lang/rust/issues/79025)
+* [disposition: merge] [Tracking Issue for `#![feature(const_cell_into_inner)]`](https://github.com/rust-lang/rust/issues/78729)
+* [disposition: merge] [Tracking Issue for `atomic_fetch_update`](https://github.com/rust-lang/rust/issues/78639)
+* [disposition: merge] [Tracking Issue for feature: "option_insert"](https://github.com/rust-lang/rust/issues/78271)
+* [disposition: merge] [Tracking Issue for `Duration` saturating operations](https://github.com/rust-lang/rust/issues/76416)
+* [disposition: merge] [Tracking Issue for `Duration::{zero, is_zero} (#![feature(duration_zero)])`](https://github.com/rust-lang/rust/issues/73544)
+* [disposition: close] [Tracking issue for FixedSizeArray trait](https://github.com/rust-lang/rust/issues/27778)
 
 ## New RFCs
 
-* [RFC: Add a standard trait for getting many &mut to places](https://github.com/rust-lang/rfcs/pull/3100)
-* [RFC: `cargo`-`miri` integration](https://github.com/rust-lang/rfcs/pull/3099)
-* [Raw Keywords](https://github.com/rust-lang/rfcs/pull/3098)
-* [rustdoc URL conflict resolution](https://github.com/rust-lang/rfcs/pull/3097)
+* [RFC: Reserved prefixes in the 2021 edition](https://github.com/rust-lang/rfcs/pull/3101)
 
 # Upcoming Events
 
 ### Online
-* [April 1, Berlin, DE - Rust Hack and Learn - Berline.rs](https://www.meetup.com/opentechschool-berlin/events/txcprryccgbcb/)
-* [April 6, Buffalo, NY, US - Buffalo Rust User Group - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/276717867/)
 * [April 7, Johannesburg, ZA - Monthly Joburg Rust Chat! - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/277133126/)
 * [April 7, Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy Rust](https://www.meetup.com/indyrs/events/jhfstryccgbkb/)
+* [April 12, Denver, CO, US - Building Delightful CLI Tools in Rust by Chuck Pierce - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/276801410/)
 * [April 13, Seattle, WA, US - Monthly Meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccgbrb/)
 * [April 13, Saarbrücken, Saarland, DE - **Rust Saar** 10u16](https://www.meetup.com/de-DE/Rust-Saar/events/276873622/)
 * [April 20, Washington, DC, US - The Rust Borrow Checker—A Deep Dive - Rust DC](https://www.meetup.com/RustDC/events/ntvrgsyccgblb)
@@ -166,6 +172,9 @@ decision. Express your opinions now.
 * [April 8, Columbus, OH, US - Monthly Meetup - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dpkhgryccgblb/)
 * [April 14, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgryccgbsb/)
 
+### Asia Pacific
+* [April 19, Wellington, NZ - IGNITION: What is Rust and why should I care? Rust at work & at play - Rust Wellington](https://www.meetup.com/Rust-Wellington/events/277270667)
+
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
 Email the [Rust Community Team][community] for access.
@@ -174,6 +183,10 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**IOTA Foundation**
+
+* [IOTA Identity Software Engineer - Rust (Remote)](https://iota.bamboohr.com/jobs/view.php?id=143&source=other)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
