@@ -29,6 +29,7 @@ No newsletters this week.
 ### Papers and Research Projects
 
 ### Miscellaneous
+* [best-of-ml-rust: A ranked list of awesome machine learning Rust libraries](https://github.com/e-tony/best-of-ml-rust)
 
 # Crate of the Week
 
