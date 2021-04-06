@@ -18,6 +18,8 @@ No papers/research projects this week.
 
 ### Official
 * [Inside] [Core Team updates](https://blog.rust-lang.org/inside-rust/2021/04/03/core-team-updates.html)
+* [Foundation] [Introducing Peixin Hou](https://foundation.rust-lang.org/posts/2021-04-08-introducing-peixin-hou/)
+* [Foundation] [Introducing Florian Gilcher](https://foundation.rust-lang.org/posts/2021-04-08-introducing-florian-gilcher/)
 
 ### Newsletters
 * [This Month in Rust OSDev (March 2021)](https://rust-osdev.com/this-month/2021-03/)
@@ -54,7 +56,7 @@ No papers/research projects this week.
 * [A Beginner's Guide to Handling Errors in Rust](https://dev.to/seanchen1991/a-beginner-s-guide-to-handling-errors-in-rust-40k2)
 * [Using Seahorn](https://project-oak.github.io/rust-verification-tools/using-seahorn/)
 * [Asynchronous streams in Rust (part 1) - Futures, buffering and mysterious compilation error messages](https://gendignoux.com/blog/2021/04/01/rust-async-streams-futures-part1.html)
-* [series] [What would SQLite look like if written in Rust?](https://dev.to/joaoh82/what-would-sqlite-look-like-if-written-in-rust-part-0-4f4k)
+* [series] [What would SQLite look like if written in Rust? — Part 3](https://medium.com/the-polyglot-programmer/what-would-sqlite-look-like-if-written-in-rust-part-3-edd2eefda473)
 * [video] [Return a value from a function in Rust](https://www.youtube.com/watch?v=YNSg7g46Hso)
 * [video] [Crust of Rust: Atomics and Memory Ordering](https://youtu.be/rMGWeSjctlY)
 * [video] [Async/Await in Rust: Introduction](https://youtu.be/FNcXf-4CLH0)
@@ -229,6 +231,10 @@ Email the [Rust Community Team][community] for access.
 
 * [Azure IoT Senior Software Engineer (remote possible within U.S.)](https://careers.microsoft.com/us/en/job/960784/Senior-Software-Engineer)
     * Junior developers should also apply but relocation to Redmond is necessary in that case.
+
+**Wallaroo**
+
+* [Software Engineer (Remote)](https://wallaroo.breezy.hr/p/30939dc4e5c7-software-engineer)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
