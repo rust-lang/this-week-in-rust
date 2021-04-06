@@ -22,6 +22,7 @@ No newsletters this week.
 * [A new Left Recursive PEG Parser Generator for rust](https://www.mess.org/2021/03/26/Left-Recursive-PEG-Parser-Generator/)
 
 ### Observations/Thoughts
+* [Interfacing a low-level actor system to Rust async/await, part 1](https://uazu.github.io/blog/20210406.html)
 
 ### Rust Walkthroughs
 * [How we built our Python Client that's mostly Rust](https://www.fluvio.io/blog/2021/03/python-client/)
