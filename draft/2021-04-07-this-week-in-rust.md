@@ -20,6 +20,7 @@ No newsletters this week.
 
 ### Project/Tooling Updates
 * [A new Left Recursive PEG Parser Generator for rust](https://www.mess.org/2021/03/26/Left-Recursive-PEG-Parser-Generator/)
+* [Last Month in Flott (Motion Control Toolkit in Rust) - April 2021](https://flott-motion.org/news/last-month-in-flott-april-2021/)
 
 ### Observations/Thoughts
 
