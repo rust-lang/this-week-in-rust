@@ -193,6 +193,11 @@ Email the [Rust Community Team][community] for access.
 * [Blockchain Developer - Cross Chain Messaging (Remote)](https://grnh.se/9aec49883us)
 * [Numerous other Rust engineering openings](https://www.parity.io/jobs/)
 
+**Microsoft**
+
+* [Azure IoT Senior Software Engineer (remote possible within U.S.)](https://careers.microsoft.com/us/en/job/960784/Senior-Software-Engineer)
+    * Junior developers should also apply but relocation to Redmond is necessary in that case.
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
