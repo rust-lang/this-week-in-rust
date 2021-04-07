@@ -102,14 +102,16 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-An overall busy but decent week for performance. While there were some performance regressions they were mostly small, and they were outnumbered by performance gains. Perhaps the most interesting news is not a compiler performance improvement but rather the introduction of no-alias optimizations at the LLVM level. This slightly hurts optimized build time performance in some cases, but it should make some workloads run faster after compilation.
+A pretty major week for [memory usage improvements] with an average of ~20% gains on memory usage for
+release builds, and 5% on check builds, due to an update in the default allocator
+used (to a more recent jemalloc). Wall time performance remained largely unchanged over this week.
 
-Triage done by **@rylev**.
-Revision range: [f24ce9b0..9b6339e4](https://perf.rust-lang.org/?start=f24ce9b0140d9be5a336954e878d0c1522966bb8&end=9b6339e4b9747d473270baa42e77e1d2fff39bf4&absolute=false&stat=instructions%3Au)
+Triage done by **@simulacrum**.
+Revision range: [4896450e..d32238](https://perf.rust-lang.org/?start=4896450e7e0a522486b4d3a8d360ac4e1d2072a0&end=d32238532138485c80db4f2cd596372bce214e00&absolute=false&stat=instructions%3Au)
 
-2 Regressions, 5 Improvements, 3 Mixed
+[memory usage improvements]: https://perf.rust-lang.org/?start=4896450e7e0a522486b4d3a8d360ac4e1d2072a0&end=d32238532138485c80db4f2cd596372bce214e00&absolute=false&stat=max-rss
 
-1 of them in rollups
+1 Regressions, 4 Improvements, 0 Mixed
 
 ## Approved RFCs
 
