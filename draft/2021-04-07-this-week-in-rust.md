@@ -188,6 +188,11 @@ Email the [Rust Community Team][community] for access.
 
 * [IOTA Identity Software Engineer - Rust (Remote)](https://iota.bamboohr.com/jobs/view.php?id=143&source=other)
 
+**Microsoft**
+
+* [Azure IoT Senior Software Engineer (remote possible within U.S.)](https://careers.microsoft.com/us/en/job/960784/Senior-Software-Engineer)
+    * Junior developers should also apply but relocation to Redmond is necessary in that case.
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
