@@ -188,6 +188,11 @@ Email the [Rust Community Team][community] for access.
 
 * [IOTA Identity Software Engineer - Rust (Remote)](https://iota.bamboohr.com/jobs/view.php?id=143&source=other)
 
+**Parity Technologies**
+
+* [Blockchain Developer - Cross Chain Messaging (Remote)](https://grnh.se/9aec49883us)
+* [Numerous other Rust engineering openings](https://www.parity.io/jobs/)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
