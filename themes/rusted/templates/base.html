@@ -33,7 +33,12 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     {% assets filters="scss,cssmin", output="css/web-min.css", "css/main.scss" %}
+
     <link rel="stylesheet" href="/{{ ASSET_URL }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.rust-lang.org/static/images/favicon-32x32.png">
+    <link rel="icon" type="image/svg+xml" href="https://www.rust-lang.org/static/images/favicon.svg">
+    <link rel="mask-icon" href="https://www.rust-lang.org/static/images/safari-pinned-tab.svg" color="#000">
+
     {% endassets %}
   </head>
   <body>
