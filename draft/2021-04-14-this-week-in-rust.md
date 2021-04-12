@@ -47,6 +47,7 @@ No papers/research projects this week.
 * [video] [I tried learning OpenGL in 7 days - using Rust](https://youtu.be/KEQIWqSq42k)
 
 ### Rust Walkthroughs
+* [Introducing easy-cast](https://kas-gui.github.io/blog/easy-cast.html)
 * [How we built our Python Client that's mostly Rust](https://www.fluvio.io/blog/2021/03/python-client/)
 * [Hello world with KAS GUI](https://kas-gui.github.io/tutorials/hello.html)
 * [How to create small Docker images for Rust](https://kerkour.com/blog/rust-small-docker-image/)
