@@ -56,6 +56,7 @@ No papers/research projects this week.
 * [A Beginner's Guide to Handling Errors in Rust](https://dev.to/seanchen1991/a-beginner-s-guide-to-handling-errors-in-rust-40k2)
 * [Using Seahorn](https://project-oak.github.io/rust-verification-tools/using-seahorn/)
 * [Asynchronous streams in Rust (part 1) - Futures, buffering and mysterious compilation error messages](https://gendignoux.com/blog/2021/04/01/rust-async-streams-futures-part1.html)
+* [series] [Build GraphQL services based on Async Rust using tide + async-graphql + mongodb (基于 Async Rust 构建 GraphQL 服务，使用 tide + async-graphql + mongodb) - Part 1](https://blog.budshome.com/budshome/gou-jian-rust-yi-bu-graphql-fu-wu-:ji-yu-tide-+-async-graphql-+-mongodb(1)--qi-bu-ji-crate-xuan-ze)
 * [series] [What would SQLite look like if written in Rust? — Part 3](https://medium.com/the-polyglot-programmer/what-would-sqlite-look-like-if-written-in-rust-part-3-edd2eefda473)
 * [video] [Return a value from a function in Rust](https://www.youtube.com/watch?v=YNSg7g46Hso)
 * [video] [Crust of Rust: Atomics and Memory Ordering](https://youtu.be/rMGWeSjctlY)
