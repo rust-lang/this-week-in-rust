@@ -142,7 +142,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 A very quiet week overall.
 
 Triage done by **@simulacrum**.
-Revision range: [d32238532138485c80db4f2cd596372bce214e00..5258a74c887f8ae14717e1f98b652b470877ce4e](https://perf.rust-lang.org/?start=d32238532138485c80db4f2cd596372bce214e00&end=5258a74c887f8ae14717e1f98b652b470877ce4e&absolute=false&stat=instructions%3Au)
+Revision range: [d322385..5258a74](https://perf.rust-lang.org/?start=d32238532138485c80db4f2cd596372bce214e00&end=5258a74c887f8ae14717e1f98b652b470877ce4e&absolute=false&stat=instructions%3Au)
 
 1 Regressions, 0 Improvements, 0 Mixed
 
