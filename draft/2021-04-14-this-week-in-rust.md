@@ -139,16 +139,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-A pretty major week for [memory usage improvements] with an average of ~20% gains on memory usage for
-release builds, and 5% on check builds, due to an update in the default allocator
-used (to a more recent jemalloc). Wall time performance remained largely unchanged over this week.
+A very quiet week overall.
 
 Triage done by **@simulacrum**.
-Revision range: [4896450e..d32238](https://perf.rust-lang.org/?start=4896450e7e0a522486b4d3a8d360ac4e1d2072a0&end=d32238532138485c80db4f2cd596372bce214e00&absolute=false&stat=instructions%3Au)
+Revision range: [d32238532138485c80db4f2cd596372bce214e00..5258a74c887f8ae14717e1f98b652b470877ce4e](https://perf.rust-lang.org/?start=d32238532138485c80db4f2cd596372bce214e00&end=5258a74c887f8ae14717e1f98b652b470877ce4e&absolute=false&stat=instructions%3Au)
 
-[memory usage improvements]: https://perf.rust-lang.org/?start=4896450e7e0a522486b4d3a8d360ac4e1d2072a0&end=d32238532138485c80db4f2cd596372bce214e00&absolute=false&stat=max-rss
-
-1 Regressions, 4 Improvements, 0 Mixed
+1 Regressions, 0 Improvements, 0 Mixed
 
 ## Approved RFCs
 
