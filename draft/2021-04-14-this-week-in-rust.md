@@ -71,9 +71,9 @@ No papers/research projects this week.
 
 # Crate of the Week
 
-This week's crate is [rs-pbrt](https://crates.io/crates/rs_pbrt), a counterpart to the PBRT book's (3rd edition) C++ code.
+This week's crate is [dipa](https://docs.rs/dipa), a crate to derive delta-encoding for Rust data structures.
 
-Thanks to [Jan Walter](https://users.rust-lang.org/t/crate-of-the-week/2704/900) for the suggestion!
+Despite a lack of nominations, llogiq is very pleased with his choice.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -94,48 +94,42 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-313 pull requests were [merged in the last week][merged]
+329 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-03-29..2021-04-05
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-04-05..2021-04-12
 
-* [fix stack overflow detection on FreeBSD 11.1+](https://github.com/rust-lang/rust/pull/83771)
-* [disallow the use of high byte registes as operands on `x86_64`](https://github.com/rust-lang/rust/pull/83853)
-* [resolve/expand: cache intermediate results of `#[derive]` expansion](https://github.com/rust-lang/rust/pull/82907)
-* [panic early when `TrustedLen` indicates a `length > usize::MAX`](https://github.com/rust-lang/rust/pull/83726)
-* [suggest `box`/`pin`/`arc`ing receiver on method calls](https://github.com/rust-lang/rust/pull/83667)
-* [run LLVM coverage instrumentation passes before optimization passes](https://github.com/rust-lang/rust/pull/83666)
-* [simplify logical operations CFG](https://github.com/rust-lang/rust/pull/83663)
-* [remove unneeded type resolving](https://github.com/rust-lang/rust/pull/83839)
-* [unaligned_references: `align(N)` fields in `packed(N)` structs are fine](https://github.com/rust-lang/rust/pull/83605)
-* [prevent very long compilation runtimes in `LateBoundRegionNameCollector`](https://github.com/rust-lang/rust/pull/83406)
-* [reduce the impact of `Vec::reserve` calls that do not cause any allocation](https://github.com/rust-lang/rust/pull/83357)
-* [BTree: no longer search arrays twice to check `Ord`](https://github.com/rust-lang/rust/pull/83267)
-* [stream the dep-graph to a file instead of storing it in-memory](https://github.com/rust-lang/rust/pull/82780)
-* [implement `SourceIterator` and `InPlaceIterable` for `ResultShunt`](https://github.com/rust-lang/rust/pull/81619)
-* [optimize jumps in `PartialOrd::le`](https://github.com/rust-lang/rust/pull/83819)
-* [`ffi::c_str` removed bound checks on `as_bytes`, `to_bytes`](https://github.com/rust-lang/rust/pull/83609)
-* [added `as_slice` method to `BinaryHeap` collection](https://github.com/rust-lang/rust/pull/82331)
-* [use `#[inline(always)]` on trivial `UnsafeCell` methods](https://github.com/rust-lang/rust/pull/83858)
-* [add `#[inline]` to `IpAddr` methods](https://github.com/rust-lang/rust/pull/83831)
-* [disallow octal format in Ipv4 string](https://github.com/rust-lang/rust/pull/83652)
-* [constify methods of `std::net::SocketAddr`, `SocketAddrV4` and `SocketAddrV6`](https://github.com/rust-lang/rust/pull/82487)
-* [constify some slice methods](https://github.com/rust-lang/rust/pull/83571)
-* [stdsimd: add saturating abs/neg](https://github.com/rust-lang/stdsimd/pull/87)
-* [hashbrown: make `RawTable::insert_no_grow` unsafe](https://github.com/rust-lang/hashbrown/pull/254)
-* [cargo: add cargo config subcommand](https://github.com/rust-lang/cargo/pull/9302)
-* [rustdoc: only look at blanket impls in `get_blanket_impls`](https://github.com/rust-lang/rust/pull/83681)
-* [rustdoc: add unstable option to only emit shared/crate-specific files](https://github.com/rust-lang/rust/pull/83478)
-* [rustdoc: don't enter an `infer_ctxt` in `get_blanket_impls` for impls that aren't blanket impls](https://github.com/rust-lang/rust/pull/82864)
-* [rustdoc: highlight macros more efficiently](https://github.com/rust-lang/rust/pull/83793)
-* [clippy: add `non_octal_unix_permissions` lint](https://github.com/rust-lang/rust-clippy/pull/7001)
-* [clippy: don't lint `manual_map` in const functions](https://github.com/rust-lang/rust-clippy/pull/6976)
-* [clippy: new Lint: `needless_for_each`](https://github.com/rust-lang/rust-clippy/pull/6706)
-* [clippy: new Lint: `branches_sharing_code`](https://github.com/rust-lang/rust-clippy/pull/6463)
-* [clippy: lint: `filter(Option::is_some).map(Option::unwrap)`](https://github.com/rust-lang/rust-clippy/pull/6342)
-* [clippy: remove author requirement for `cargo_common_metadata`](https://github.com/rust-lang/rust-clippy/pull/7026)
-* [Clippy going dark: adding a dark theme to Clippy's lint list](https://github.com/rust-lang/rust-clippy/pull/7030)
-* [crates.io: topologically sort `db-dump.tar.gz`](https://github.com/rust-lang/crates.io/pull/3409)
-* [parallelize tidy](https://github.com/rust-lang/rust/pull/82347)
+* [allow specifying alignment for functions](https://github.com/rust-lang/rust/pull/81234)
+* [fix handling of `--output-format json` flag](https://github.com/rust-lang/rust/pull/82497)
+* [don't tell users to use a nightly flag on the stable channel](https://github.com/rust-lang/rust/pull/84055)
+* [improve trait/impl method discrepancy errors](https://github.com/rust-lang/rust/pull/84014)
+* [account for `ExprKind::Block` when suggesting .into() and deref](https://github.com/rust-lang/rust/pull/83952)
+* [let `#[allow(unstable_name_collisions)]` work for things other than function](https://github.com/rust-lang/rust/pull/81922)
+* [add `bad_asm_style` to `HardwiredLints`](https://github.com/rust-lang/rust/pull/84068)
+* [improve debuginfo for closures and async functions on Windows MSVC](https://github.com/rust-lang/rust/pull/83941)
+* [use `AnonConst` for `asm!` constants](https://github.com/rust-lang/rust/pull/83916)
+* [add `FromIterator` and `IntoIterator` impls for `ThinVec`](https://github.com/rust-lang/rust/pull/83821)
+* [add `strong_count` mutation methods to `Rc`](https://github.com/rust-lang/rust/pull/83476)
+* [use a `SmallVec` in `impl_or_trait_item`](https://github.com/rust-lang/rust/pull/83932)
+* [use `FromStr` trait for number option parsing](https://github.com/rust-lang/rust/pull/82483)
+* [reduce threads spawned by ui-tests](https://github.com/rust-lang/rust/pull/81942)
+* [core: disable `ptr::swap_nonoverlapping_one`'s block optimization on SPIR-V](https://github.com/rust-lang/rust/pull/83019)
+* [stabilize `cmp_min_max_by`](https://github.com/rust-lang/rust/pull/81047)
+* [stabilize `peekable_peek_mut`](https://github.com/rust-lang/rust/pull/81938)
+* [stabilize `duration_saturating_ops`](https://github.com/rust-lang/rust/pull/84090)
+* [stabilize `atomic_fetch_update` methods on `AtomicBool` and `AtomicPtr`](https://github.com/rust-lang/rust/pull/84085)
+* [fix `HashMap`/`HashSet` LLDB pretty-printer after hashbrown](https://github.com/rust-lang/rust/pull/83920)
+* [futures: move `try_fold`, `try_for_each`, and `try_for_each_concurrent` to `StreamExt`](https://github.com/rust-lang/futures-rs/pull/2342)
+* [futures: add `stream::Peekable::`{`next_if`, `next_if_eq`}](https://github.com/rust-lang/futures-rs/pull/2379)
+* [fix perf regression in `rustdoc::bare_urls`](https://github.com/rust-lang/rust/pull/84034)
+* [rustdoc: cleanup handling of associated items for intra-doc links](https://github.com/rust-lang/rust/pull/83849)
+* [rustdoc: sort search index items for compression](https://github.com/rust-lang/rust/pull/83835)
+* [rustdoc: store intra-doc links in Cache instead of on items directly](https://github.com/rust-lang/rust/pull/83833)
+* [rustdoc: use `ThinVec` in a few places](https://github.com/rust-lang/rust/pull/83828)
+* [rustdoc: merge idents when generating source content](https://github.com/rust-lang/rust/pull/83992)
+* [clippy: fix false positive in `single_component_path_imports` lint](https://github.com/rust-lang/rust-clippy/pull/6905)
+* [clippy: fix `explicit_into_iter_loop`](https://github.com/rust-lang/rust-clippy/pull/6982)
+* [clippy: consider mutability on `useless_vec` suggestions](https://github.com/rust-lang/rust-clippy/pull/7036)
+* [clippy: fix `missing_panics_doc` not detecting `assert_eq!` and `assert_ne!`](https://github.com/rust-lang/rust-clippy/pull/7029)
 
 ## Rust Compiler Performance Triage
 
@@ -240,7 +234,23 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-Sadly there was no quote nominated for this week.
+> What I actually value on a daily basis in \[rust is\]
+> I can call code written by other people without unpleasant surprises.
+>
+> ```
+> async fn verify_signature(token: &Jwt) -> Result<Claims, VerificationError>
+> ```
+>
+> Looking at a code snippet:
+> 
+> * I know my JWT token won't be mutated, just accessed ( `&` );
+> * I know the function will probably perform some kind of I/O ( `async` );
+> * I know that the function might fail ( `Result` );
+> * I know its failure modes ( `VerificationError` ).
+
+– [Luca Palmieri on Twitter](https://twitter.com/algo_luca/status/1380928103019597827)
+
+Thanks to [Nixon Enraght-Moony](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1031) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
