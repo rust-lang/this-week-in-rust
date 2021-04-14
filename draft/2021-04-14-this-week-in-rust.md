@@ -45,6 +45,7 @@ No papers/research projects this week.
 * [An essay of checked exceptions in Rust](https://users.rust-lang.org/t/an-essay-of-checked-exceptions-in-rust/57769)
 * [Weird architectures weren't supported to begin with](https://blog.yossarian.net/2021/02/28/Weird-architectures-werent-supported-to-begin-with)
 * [video] [I tried learning OpenGL in 7 days - using Rust](https://youtu.be/KEQIWqSq42k)
+* [podcast] [Building with Rust: Tim McNamara on Rust in Action](https://anchor.fm/building-with-rust/episodes/Building-with-Rust-Tim-McNamara-on-Rust-in-Action-eugoal/a-a1ptlh) [[transcript]](https://github.com/seanchen1991/building-with-rust/blob/main/transcripts/002.md)
 
 ### Rust Walkthroughs
 * [How we built our Python Client that's mostly Rust](https://www.fluvio.io/blog/2021/03/python-client/)
