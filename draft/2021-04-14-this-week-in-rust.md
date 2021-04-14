@@ -26,6 +26,7 @@ No papers/research projects this week.
 * [podcast] [Building with Rust: Tim McNamara on Rust in Action](https://anchor.fm/building-with-rust/episodes/Building-with-Rust-Tim-McNamara-on-Rust-in-Action-eugoal/a-a1ptlh) [[transcript]](https://github.com/seanchen1991/building-with-rust/blob/main/transcripts/002.md)
 
 ### Rust Walkthroughs
+* [Build an End-to-End Encrypted messaging app in rust, with the Ockam crate, in this step by step guide.](https://github.com/ockam-network/ockam/tree/develop/documentation/guides/rust/get-started#readme)
 * [Introducing easy-cast](https://kas-gui.github.io/blog/easy-cast.html)
 * [ZH] [series] [Build GraphQL services based on Async Rust using tide + async-graphql + mongodb (基于 Async Rust 构建 GraphQL 服务，使用 tide + async-graphql + mongodb) - Part 1](https://blog.budshome.com/budshome/gou-jian-rust-yi-bu-graphql-fu-wu-:ji-yu-tide-+-async-graphql-+-mongodb(1)--qi-bu-ji-crate-xuan-ze)
 
@@ -183,7 +184,7 @@ Email the [Rust Community Team][community] for access.
 > ```
 >
 > Looking at a code snippet:
-> 
+>
 > * I know my JWT token won't be mutated, just accessed ( `&` );
 > * I know the function will probably perform some kind of I/O ( `async` );
 > * I know that the function might fail ( `Result` );
