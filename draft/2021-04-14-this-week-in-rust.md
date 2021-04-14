@@ -1,6 +1,6 @@
-Title: This Week in Rust 385
-Number: 385
-Date: 2021-04-07
+Title: This Week in Rust 386
+Number: 386
+Date: 2021-04-14
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -29,7 +29,6 @@ No papers/research projects this week.
 * [IntelliJ Rust: Updates for 2021.1](https://blog.jetbrains.com/rust/2021/04/08/intellij-rust-updates-for-2021-1/)
 * [IntelliJ Rust Changelog #145](https://intellij-rust.github.io/2021/04/12/changelog-145.html)
 * [rust-analyzer Changelog #72](https://rust-analyzer.github.io/thisweek/2021/04/12/changelog-72.html)
-* [Buttplug Rust v3.0 Released: Less is Less](https://nonpolynomial.com/2021/04/11/buttplug-rust-v3-0-released-less-is-less/)
 * [Ballista has been donated to the Apache Arrow project](https://www.reddit.com/r/rust/comments/mo63t3/ballista_has_been_donated_to_the_apache_arrow/)
 
 ### Observations/Thoughts
@@ -209,6 +208,10 @@ Email the [Rust Community Team][community] for access.
 **Slight**
 
 * [Software Engineer - Core Team, Rust (Remote)](https://www.slight.co/jobs/software-engineer-core)
+
+**Kracken**
+
+* [Several Rust Engineering Positions are Available (Remote)](https://jobs.lever.co/kraken?team=Engineering)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
