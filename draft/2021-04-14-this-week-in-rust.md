@@ -27,6 +27,7 @@ No papers/research projects this week.
 
 ### Rust Walkthroughs
 * [Introducing easy-cast](https://kas-gui.github.io/blog/easy-cast.html)
+* [ZH] [series] [Build GraphQL services based on Async Rust using tide + async-graphql + mongodb (基于 Async Rust 构建 GraphQL 服务，使用 tide + async-graphql + mongodb) - Part 1](https://blog.budshome.com/budshome/gou-jian-rust-yi-bu-graphql-fu-wu-:ji-yu-tide-+-async-graphql-+-mongodb(1)--qi-bu-ji-crate-xuan-ze)
 
 ### Miscellaneous
 
