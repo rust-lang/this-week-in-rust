@@ -140,7 +140,7 @@ Revision range: [d322385..5258a74](https://perf.rust-lang.org/?start=d3223853213
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC: Declarative macro metavariable expressions](https://github.com/rust-lang/rfcs/pull/3086)
+* [RFC: -C export-executable-symbols](https://github.com/rust-lang/rfcs/pull/2841)
 
 ## Final Comment Period
 
@@ -150,45 +150,38 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: close] [RFC: Structural Records](https://github.com/rust-lang/rfcs/pull/2584)
-* [disposition: postpone] [Hygiene opt-out (escaping) for declarative macros 2.0](https://github.com/rust-lang/rfcs/pull/2498)
-* [disposition: postpone] [RFC: Delegation](https://github.com/rust-lang/rfcs/pull/2393)
-* [disposition: close] [RFC: `#[derive_no_bound(..)]` and `#[derive_field_bound(..)]`](https://github.com/rust-lang/rfcs/pull/2353)
-* [disposition: postpone] [RFC: Eager Macro Expansion](https://github.com/rust-lang/rfcs/pull/2320)
-* [disposition: merge] [try_trait_v2: A new design for the `?` desugaring](https://github.com/rust-lang/rfcs/pull/3058)
+* [disposition: merge] [RFC: Reserved prefixes in the 2021 edition](https://github.com/rust-lang/rfcs/pull/3101)
+* [disposition: merge] [try_trait_v2: A new design for the ? desugaring](https://github.com/rust-lang/rfcs/pull/3058)
+* [disposition: merge] [add const-ub RFC](https://github.com/rust-lang/rfcs/pull/3016)
+* [disposition: merge] [Target tier policy](https://github.com/rust-lang/rfcs/pull/2803)
+* [disposition: postpone] [RFC: Custom DSTs](https://github.com/rust-lang/rfcs/pull/2594)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Remove `T: Debug` bound on UnsafeCell Debug impl](https://github.com/rust-lang/rust/pull/83707)
-* [disposition: merge] [Turn old edition lint (anonymous-parameters) into warn-by-default on 2015](https://github.com/rust-lang/rust/pull/82918)
-* [disposition: merge] [Stabilize `rustdoc::bare_urls` lint](https://github.com/rust-lang/rust/pull/81764)
-* [disposition: merge] [Tracking issue: fNN::is_subnormal](https://github.com/rust-lang/rust/issues/79288)
-* [disposition: merge] [Tracking Issue for feature(nonzero_leading_trailing_zeros)](https://github.com/rust-lang/rust/issues/79143)
-* [disposition: merge] [Tracking Issue for `{BTreeMap,BTreeSet}::retain`](https://github.com/rust-lang/rust/issues/79025)
-* [disposition: merge] [Tracking Issue for `#![feature(const_cell_into_inner)]`](https://github.com/rust-lang/rust/issues/78729)
-* [disposition: merge] [Tracking Issue for `atomic_fetch_update`](https://github.com/rust-lang/rust/issues/78639)
-* [disposition: merge] [Tracking Issue for feature: "option_insert"](https://github.com/rust-lang/rust/issues/78271)
-* [disposition: merge] [Tracking Issue for `Duration` saturating operations](https://github.com/rust-lang/rust/issues/76416)
-* [disposition: merge] [Tracking Issue for `Duration::{zero, is_zero} (#![feature(duration_zero)])`](https://github.com/rust-lang/rust/issues/73544)
-* [disposition: close] [Tracking issue for FixedSizeArray trait](https://github.com/rust-lang/rust/issues/27778)
+* [disposition: merge] [Cautiously add IntoIterator for arrays by value](https://github.com/rust-lang/rust/pull/84147)
+* [disposition: merge] [Stabilize Duration::MAX](https://github.com/rust-lang/rust/pull/84120)
+* [disposition: merge] [Stabilize `impl From<[(K, V); N]> for HashMap`](https://github.com/rust-lang/rust/pull/84111)
+* [disposition: merge] [Allow setting `target_family` to multiple values, and implement `target_family="wasm"`](https://github.com/rust-lang/rust/pull/84072)
+* [disposition: merge] [Stabilize pat2015 but leave :pat2021 gated](https://github.com/rust-lang/rust/pull/83386)
+* [disposition: merge] [Update BARE_TRAIT_OBJECT and ELLIPSIS_INCLUSIVE_RANGE_PATTERNS to errors in Rust 2021](https://github.com/rust-lang/rust/pull/83213)
+* [disposition: merge] [Tracking Issue for 'ordering helpers'](https://github.com/rust-lang/rust/issues/79885)
+* [disposition: merge] [Tracking issue for array::from_ref and array::from_mut](https://github.com/rust-lang/rust/issues/77101)
+* [disposition: merge] [Tracking issue for x86 bittest intrinsics](https://github.com/rust-lang/rust/issues/59414)
+* [disposition: merge] [Tracking issue for RFC 2457, "Allow non-ASCII identifiers"](https://github.com/rust-lang/rust/issues/55467)
 
 ## New RFCs
 
-* [RFC: Reserved prefixes in the 2021 edition](https://github.com/rust-lang/rfcs/pull/3101)
+* [`#[derive(Default)]` on enums with a `#[default]` attribute #3107](https://github.com/rust-lang/rfcs/pull/3107)
+* [Add :value macro capture designator](https://github.com/rust-lang/rfcs/pull/3106)
 
 # Upcoming Events
 
 ### Online
-* [April 7, Johannesburg, ZA - Monthly Joburg Rust Chat! - Johannesburg Rust Meetup](https://www.meetup.com/Johannesburg-Rust-Meetup/events/277133126/)
-* [April 7, Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy Rust](https://www.meetup.com/indyrs/events/jhfstryccgbkb/)
-* [April 12, Denver, CO, US - Building Delightful CLI Tools in Rust by Chuck Pierce - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/276801410/)
-* [April 13, Seattle, WA, US - Monthly Meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccgbrb/)
-* [April 13, Saarbrücken, Saarland, DE - **Rust Saar** 10u16](https://www.meetup.com/de-DE/Rust-Saar/events/276873622/)
 * [April 20, Washington, DC, US - The Rust Borrow Checker—A Deep Dive - Rust DC](https://www.meetup.com/RustDC/events/ntvrgsyccgblb)
+* [April 21, Vancouver, BC, CA - Rust Study/Hack/Hang-out night - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/npqfbsyccgbcc/)
+* [April 27, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccgbkc/)
 
 ### North America
-
-* [April 8, Columbus, OH, US - Monthly Meetup - Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dpkhgryccgblb/)
 * [April 14, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgryccgbsb/)
 
 ### Asia Pacific
@@ -210,7 +203,7 @@ Email the [Rust Community Team][community] for access.
 
 * [Software Engineer - Core Team, Rust (Remote)](https://www.slight.co/jobs/software-engineer-core)
 
-**Kracken**
+**Kraken**
 
 * [Several Rust Engineering Positions are Available (Remote)](https://jobs.lever.co/kraken?team=Engineering)
 
