@@ -64,6 +64,7 @@ No papers/research projects this week.
 * [A look at LLVM - comparing clamp implementations](https://secret.club/2021/04/09/std-clamp.html)
 * [Tokio-uring design proposal](https://www.reddit.com/r/rust/comments/mmz1sg/tokiouring_design_proposal/)
 * [Google is now writing low-level Android code in Rust](https://arstechnica.com/gadgets/2021/04/google-is-now-writing-low-level-android-code-in-rust/)
+* [Rust in the Linux kernel](https://security.googleblog.com/2021/04/rust-in-linux-kernel.html)
 
 # Crate of the Week
 
