@@ -26,6 +26,7 @@ No papers/research projects this week.
 * [podcast] [Building with Rust: Tim McNamara on Rust in Action](https://anchor.fm/building-with-rust/episodes/Building-with-Rust-Tim-McNamara-on-Rust-in-Action-eugoal/a-a1ptlh) [[transcript]](https://github.com/seanchen1991/building-with-rust/blob/main/transcripts/002.md)
 
 ### Rust Walkthroughs
+* [Introducing easy-cast](https://kas-gui.github.io/blog/easy-cast.html)
 
 ### Miscellaneous
 
