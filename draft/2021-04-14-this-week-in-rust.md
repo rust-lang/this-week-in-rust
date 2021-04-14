@@ -171,6 +171,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Slight**
+
+* [Software Engineer - Core Team, Rust (Remote)](https://www.slight.co/jobs/software-engineer-core)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
