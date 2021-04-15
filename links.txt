@@ -1499,3 +1499,54 @@ No newsletters this week.
 * [Linus Torvalds weighs in on Rust language in the Linux kernel](https://arstechnica.com/gadgets/2021/03/linus-torvalds-weighs-in-on-rust-language-in-the-linux-kernel/)
 * [Ownership Concept Diagram](https://www.reddit.com/r/rust/comments/mgh9n9/ownership_concept_diagram/)
 
+Number: 385  Date: 2021-04-07 
+
+No papers/research projects this week.
+### Official
+* [Inside] [Core Team updates](https://blog.rust-lang.org/inside-rust/2021/04/03/core-team-updates.html)
+* [Foundation] [Introducing Peixin Hou](https://foundation.rust-lang.org/posts/2021-04-08-introducing-peixin-hou/)
+* [Foundation] [Introducing Florian Gilcher](https://foundation.rust-lang.org/posts/2021-04-08-introducing-florian-gilcher/)
+### Newsletters
+* [This Month in Rust OSDev (March 2021)](https://rust-osdev.com/this-month/2021-03/)
+* [RiB Newsletter #22 - A few tweaks](https://www.reddit.com/r/rust/comments/mhmfu9/rib_newsletter_22_a_few_tweaks/)
+### Project/Tooling Updates
+* [GCC Rust Monthly Report #4 March 2021](https://thephilbert.io/2021/04/02/gcc-rust-monthly-report-4-march-2021/)
+* [mrustc upgrade: rustc 1.39.0](https://www.reddit.com/r/rust/comments/mjxbaz/mrustc_upgrade_rustc_1390/)
+* [rust-analyzer Changelog #71](https://rust-analyzer.github.io/thisweek/2021/04/05/changelog-71.html)
+* [A new Left Recursive PEG Parser Generator for rust](https://www.mess.org/2021/03/26/Left-Recursive-PEG-Parser-Generator/)
+* [Last Month in Flott (Motion Control Toolkit in Rust) - April 2021](https://flott-motion.org/news/last-month-in-flott-april-2021/)
+* [Recent updates in IntelliJ Rust](https://blog.jetbrains.com/rust/2021/04/08/intellij-rust-updates-for-2021-1/)
+* [Bevy 0.5](https://bevyengine.org/news/bevy-0-5/)
+### Observations/Thoughts
+* [Interfacing a low-level actor system to Rust async/await, part 1](https://uazu.github.io/blog/20210406.html)
+* [A Tour of Safe Tracing GC Designs in Rust](https://manishearth.github.io/blog/2021/04/05/a-tour-of-safe-tracing-gc-designs-in-rust/)
+* [How I Used Rust + Lunatic to Build a TelNet Chat Server with WebAssembly](https://www.hackernoon.com/how-i-used-rust-lunatic-to-build-a-telnet-chat-server-with-webassembly-rb3l33cg)
+* [Eliminating Data Races in Firefox - A Technical Report](https://hacks.mozilla.org/2021/04/eliminating-data-races-in-firefox-a-technical-report/)
+* [First-class IO](https://blog.sunfishcode.online/first-class-io/)
+* [The modern packager's security nightmare](https://blogs.gentoo.org/mgorny/2021/02/19/the-modern-packagers-security-nightmare/)
+* [Ordering Requests to Accelerate I/O](https://pkolaczk.github.io/disk-access-ordering/)
+* [An essay of checked exceptions in Rust](https://users.rust-lang.org/t/an-essay-of-checked-exceptions-in-rust/57769)
+* [Weird architectures weren't supported to begin with](https://blog.yossarian.net/2021/02/28/Weird-architectures-werent-supported-to-begin-with)
+* [video] [I tried learning OpenGL in 7 days - using Rust](https://youtu.be/KEQIWqSq42k)
+### Rust Walkthroughs
+* [How we built our Python Client that's mostly Rust](https://www.fluvio.io/blog/2021/03/python-client/)
+* [Hello world with KAS GUI](https://kas-gui.github.io/tutorials/hello.html)
+* [How to create small Docker images for Rust](https://kerkour.com/blog/rust-small-docker-image/)
+* [Oxidizing the Kubernetes Operator](https://www.pavel.cool/rust/rust-kubernetes-operators/)
+* [Sending tuples from Node to Rust and back](https://www.fluvio.io/blog/2021/04/node-bindgen-tuples/)
+* [Getting started with Kafka and Rust: Part 1](https://dev.to/abhirockzz/getting-started-with-kafka-and-rust-part-1-4hkb)
+* [A Beginner's Guide to Handling Errors in Rust](https://dev.to/seanchen1991/a-beginner-s-guide-to-handling-errors-in-rust-40k2)
+* [Using Seahorn](https://project-oak.github.io/rust-verification-tools/using-seahorn/)
+* [Asynchronous streams in Rust (part 1) - Futures, buffering and mysterious compilation error messages](https://gendignoux.com/blog/2021/04/01/rust-async-streams-futures-part1.html)
+* [series] [What would SQLite look like if written in Rust? — Part 3](https://medium.com/the-polyglot-programmer/what-would-sqlite-look-like-if-written-in-rust-part-3-edd2eefda473)
+* [video] [Return a value from a function in Rust](https://www.youtube.com/watch?v=YNSg7g46Hso)
+* [video] [Crust of Rust: Atomics and Memory Ordering](https://youtu.be/rMGWeSjctlY)
+* [video] [Async/Await in Rust: Introduction](https://youtu.be/FNcXf-4CLH0)
+* [video] [OpenVehicleDiag Rust live coding with Macchina's A0!!](https://youtu.be/zjAe-uvKMJ4)
+* [video] [series] [Easy Rust - learn to program in Rust with simple English](https://youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk)
+### Miscellaneous
+* [best-of-ml-rust: A ranked list of awesome machine learning Rust libraries](https://github.com/e-tony/best-of-ml-rust)
+* [Rust in the Android platform](https://security.googleblog.com/2021/04/rust-in-android-platform.html)
+* [David Tolnay - thank you](https://www.reddit.com/r/rust/comments/mify2o/david_tolnay_thank_you/)
+* [My "shiny future"](https://smallcultfollowing.com/babysteps/blog/2021/04/02/my-shiny-future/)
+
