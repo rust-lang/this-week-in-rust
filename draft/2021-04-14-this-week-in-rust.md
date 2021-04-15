@@ -54,6 +54,7 @@ No papers/research projects this week.
 * [Getting started with Kafka and Rust: Part 2](https://dev.to/abhirockzz/getting-started-with-kafka-and-rust-part-2-354f)
 * [Rust lib error management, multiple enum approach](http://www.tglman.com/posts/rust_lib_error_management.html)
 * [Asynchronous streams in Rust (part 2) - Cancelling expired requests](https://gendignoux.com/blog/2021/04/08/rust-async-streams-futures-part2.html)
+* [Late Night Confessions — Building a Website Using Rust, Rocket, Diesel, and Askama - Part 1](https://medium.com/perimeterx/late-night-confessions-building-a-website-using-rust-rocket-diesel-and-askama-part-1-aeccade43252)
 * [series] [Engaging Warp: REST API with Rust](https://dev.to/rogertorres/series/12179)
 * [ZH] [series] [Build GraphQL services based on Async Rust using tide + async-graphql + mongodb (基于 Async Rust 构建 GraphQL 服务，使用 tide + async-graphql + mongodb) - Part 1](https://blog.budshome.com/budshome/gou-jian-rust-yi-bu-graphql-fu-wu-:ji-yu-tide-+-async-graphql-+-mongodb(1)--qi-bu-ji-crate-xuan-ze)
 * [video] [Flocking Boids in Rust: With Piston vs Tetra vs Amethyst vs Bevy](https://youtu.be/e0n9v565HR4)
