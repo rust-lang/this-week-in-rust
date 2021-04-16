@@ -28,6 +28,8 @@ No papers/research projects this week.
 
 ### Miscellaneous
 
+* [rustc, iOS and an M1](https://fnordig.de/2021/04/16/rustc-ios-and-an-m1/)
+
 # Crate of the Week
 
 This week's crate is [dipa](https://docs.rs/dipa), a crate to derive delta-encoding for Rust data structures.
