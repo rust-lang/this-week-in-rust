@@ -25,6 +25,7 @@ No papers/research projects this week.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Late Night Confessions — Building a Website Using Rust, Rocket, Diesel, and Askama - Part 1](https://medium.com/perimeterx/late-night-confessions-building-a-website-using-rust-rocket-diesel-and-askama-part-1-aeccade43252)
 
 ### Miscellaneous
 
