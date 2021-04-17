@@ -25,6 +25,7 @@ No papers/research projects this week.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Tour of Rust's Standard Library Traits](https://github.com/pretzelhammer/rust-blog/blob/master/posts/tour-of-rusts-standard-library-traits.md)
 
 ### Miscellaneous
 
