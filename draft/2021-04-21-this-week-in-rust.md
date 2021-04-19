@@ -24,6 +24,8 @@ No papers/research projects this week.
 
 ### Observations/Thoughts
 
+- [Red & blue functions are actually a good thing](https://blainehansen.me/post/red-blue-functions-are-actually-good/)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
