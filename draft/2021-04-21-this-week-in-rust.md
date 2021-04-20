@@ -22,6 +22,8 @@ No papers/research projects this week.
 
 ### Project/Tooling Updates
 
+[Otter - a game server for arbitrary board games, written in Rust.  First public release.](https://diziet.dreamwidth.org/8121.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
