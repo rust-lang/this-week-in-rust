@@ -21,6 +21,7 @@ No papers/research projects this week.
 ### Newsletters
 
 ### Project/Tooling Updates
+[Zellij: a Rusty terminal multiplexer releases a beta version](https://zellij.dev/news/beta/)
 
 ### Observations/Thoughts
 
