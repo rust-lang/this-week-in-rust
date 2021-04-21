@@ -23,15 +23,17 @@ No papers/research projects this week.
 ### Project/Tooling Updates
 [Zellij: a Rusty terminal multiplexer releases a beta version](https://zellij.dev/news/beta/)
 
-- [faux: a struct mocking library - landing v0.1](https://nrxus.github.io/faux/blog/landing-v-0-1.html)
+* [faux: a struct mocking library - landing v0.1](https://nrxus.github.io/faux/blog/landing-v-0-1.html)
 
 ### Observations/Thoughts
 
-- [Red & blue functions are actually a good thing](https://blainehansen.me/post/red-blue-functions-are-actually-good/)
+* [Red & blue functions are actually a good thing](https://blainehansen.me/post/red-blue-functions-are-actually-good/)
 
 ### Rust Walkthroughs
+
 * [Late Night Confessions — Building a Website Using Rust, Rocket, Diesel, and Askama - Part 1](https://medium.com/perimeterx/late-night-confessions-building-a-website-using-rust-rocket-diesel-and-askama-part-1-aeccade43252)
 * [Tour of Rust's Standard Library Traits](https://github.com/pretzelhammer/rust-blog/blob/master/posts/tour-of-rusts-standard-library-traits.md)
+* [Learning Rust #3: crates.io & publishing your package](https://hamatti.org/posts/learning-rust-3-crates-io-publishing-your-package/)
 
 ### Miscellaneous
 
@@ -163,7 +165,20 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 **Grover GmbH**
-* [Software Engineer - Risk & Data, Rust & Python](https://grnh.se/15fcbda73us)
+
+* [Software Engineer - Risk & Data, Rust & Python (Berlin or Remote)](https://grnh.se/15fcbda73us)
+
+**Massa Labs**
+
+* [Rust Blockchain Developer (Remote) [https://massa.network/#jobs)
+
+**Instaclustr**
+
+* [Software Engineer (Canberra, AU)](https://www.seek.com.au/job/52021829)
+
+**Subspace Labs**
+
+* [Core Protocol Engineer (Remote)](https://jobs.lever.co/subspacelabs/7f6a654b-60a8-4740-aa19-36b9f7a9e624?lever-origin=applied&lever-source%5B%5D=Twitter)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
