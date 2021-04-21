@@ -169,6 +169,9 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Grover GmbH**
+* [Software Engineer - Risk & Data, Rust & Python](https://grnh.se/15fcbda73us)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
