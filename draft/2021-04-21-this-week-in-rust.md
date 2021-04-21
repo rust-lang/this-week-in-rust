@@ -21,6 +21,7 @@ No papers/research projects this week.
 ### Newsletters
 
 ### Project/Tooling Updates
+[Zellij: a Rusty terminal multiplexer releases a beta version](https://zellij.dev/news/beta/)
 
 - [faux: a struct mocking library - landing v0.1](https://nrxus.github.io/faux/blog/landing-v-0-1.html)
 
