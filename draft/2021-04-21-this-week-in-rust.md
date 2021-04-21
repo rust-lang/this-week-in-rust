@@ -38,6 +38,7 @@ No papers/research projects this week.
 ### Miscellaneous
 
 * [rustc, iOS and an M1](https://fnordig.de/2021/04/16/rustc-ios-and-an-m1/)
+* [Run Rust RISC-V Firmware with BL602 IoT SDK](https://lupyuen.github.io/articles/rust)
 
 # Crate of the Week
 
