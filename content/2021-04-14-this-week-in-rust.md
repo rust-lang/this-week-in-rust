@@ -45,7 +45,7 @@ No papers/research projects this week.
 * [Build an End-to-End Encrypted messaging app in rust, with the Ockam crate, in this step by step guide.](https://github.com/ockam-network/ockam/tree/develop/documentation/guides/rust/get-started#readme)
 * [Introducing easy-cast](https://kas-gui.github.io/blog/easy-cast.html)
 * [Why Rust strings seem hard](https://www.brandons.me/blog/why-rust-strings-seem-hard)
-* [Rust shenanigans: return type polymporphism](https://loige.co/rust-shenanigans-return-type-polymorphism/)
+* [Rust shenanigans: return type polymorphism](https://loige.co/rust-shenanigans-return-type-polymorphism/)
 * [Writing Neovim plugins in Rust](https://blog.usejournal.com/a-detailed-guide-to-writing-your-first-neovim-plugin-in-rust-a81604c606b1)
 * [A zero-overhead linked list in Rust](https://aloso.github.io/2021/04/12/linked-list.html)
 * [Integrating Rust into Python](https://www.vortexa.com/insight/integrating-rust-into-python)
