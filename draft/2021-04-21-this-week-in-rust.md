@@ -56,6 +56,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+*No calls for participation this week*
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -105,7 +107,8 @@ Revision range: [d322385..5258a74](https://perf.rust-lang.org/?start=d3223853213
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC: -C export-executable-symbols](https://github.com/rust-lang/rfcs/pull/2841)
+* [try_trait_v2: A new design for the ? desugaring](https://github.com/rust-lang/rfcs/pull/3058)
+
 
 ## Final Comment Period
 
@@ -116,41 +119,39 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [disposition: merge] [RFC: Reserved prefixes in the 2021 edition](https://github.com/rust-lang/rfcs/pull/3101)
-* [disposition: merge] [try_trait_v2: A new design for the ? desugaring](https://github.com/rust-lang/rfcs/pull/3058)
 * [disposition: merge] [add const-ub RFC](https://github.com/rust-lang/rfcs/pull/3016)
 * [disposition: merge] [Target tier policy](https://github.com/rust-lang/rfcs/pull/2803)
 * [disposition: postpone] [RFC: Custom DSTs](https://github.com/rust-lang/rfcs/pull/2594)
+* [disposition: postpone] [Enum variant types](https://github.com/rust-lang/rfcs/pull/2593)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [Cautiously add IntoIterator for arrays by value](https://github.com/rust-lang/rust/pull/84147)
 * [disposition: merge] [Stabilize Duration::MAX](https://github.com/rust-lang/rust/pull/84120)
-* [disposition: merge] [Stabilize `impl From<[(K, V); N]> for HashMap`](https://github.com/rust-lang/rust/pull/84111)
+* [disposition: merge] [Stabilize `impl From<[(K, V); N]`> for HashMap`](https://github.com/rust-lang/rust/pull/84111)
 * [disposition: merge] [Allow setting `target_family` to multiple values, and implement `target_family="wasm"`](https://github.com/rust-lang/rust/pull/84072)
-* [disposition: merge] [Stabilize pat2015 but leave :pat2021 gated](https://github.com/rust-lang/rust/pull/83386)
+* [disposition: close] [Exiting a process calls exit() which isn’t thread-safe](https://github.com/rust-lang/rust/issues/83994)
+* [disposition: merge] [Stabilize `:pat_param` but leave :pat2021 gated](https://github.com/rust-lang/rust/pull/83386)
+* [disposition: merge] [parser: Remove support for inner attributes on non-block expressions](https://github.com/rust-lang/rust/pull/83312)
 * [disposition: merge] [Update BARE_TRAIT_OBJECT and ELLIPSIS_INCLUSIVE_RANGE_PATTERNS to errors in Rust 2021](https://github.com/rust-lang/rust/pull/83213)
+* [disposition: merge] [Tracking Issue for vec_extend_from_within](https://github.com/rust-lang/rust/issues/81656)
 * [disposition: merge] [Tracking Issue for 'ordering helpers'](https://github.com/rust-lang/rust/issues/79885)
 * [disposition: merge] [Tracking issue for array::from_ref and array::from_mut](https://github.com/rust-lang/rust/issues/77101)
+* [disposition: merge] [Tracking Issue for {HashMap,BTreeMap}::into_{keys,values]](https://github.com/rust-lang/rust/issues/75294)
 * [disposition: merge] [Tracking issue for x86 bittest intrinsics](https://github.com/rust-lang/rust/issues/59414)
-* [disposition: merge] [Tracking issue for RFC 2457, "Allow non-ASCII identifiers"](https://github.com/rust-lang/rust/issues/55467)
 
 ## New RFCs
 
-* [`#[derive(Default)]` on enums with a `#[default]` attribute #3107](https://github.com/rust-lang/rfcs/pull/3107)
-* [Add :value macro capture designator](https://github.com/rust-lang/rfcs/pull/3106)
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
 ### Online
-* [April 20, Washington, DC, US - The Rust Borrow Checker—A Deep Dive - Rust DC](https://www.meetup.com/RustDC/events/ntvrgsyccgblb)
 * [April 21, Vancouver, BC, CA - Rust Study/Hack/Hang-out night - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/npqfbsyccgbcc/)
+* [April 27, Berlin, DE - Rust and Tell - Rust Berlin](https://www.meetup.com/Rust-Berlin/events/277590271)
+* [April 27, London, UK - LDN Virtual Talks Apr 2021 - Red Badger Takeover - Rust London User Group](https://www.meetup.com/Rust-London-User-Group/events/277520645/)
 * [April 27, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccgbkc/)
-
-### North America
-* [April 14, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgryccgbsb/)
-
-### Asia Pacific
-* [April 19, Wellington, NZ - IGNITION: What is Rust and why should I care? Rust at work & at play - Rust Wellington](https://www.meetup.com/Rust-Wellington/events/277270667)
+* [May 4, Buffalo, NY, US - Buffalo Rust User Group, Tues May 4th - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/277402612/)
 
 ### Europe
 * [April 21, Moscow, RU - Monthly Meetup - Rust Moscow](https://www.meetup.com/ru-RU/Rust-%D0%B2-%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5/events/277259838/)
