@@ -22,6 +22,8 @@ No papers/research projects this week.
 
 ### Project/Tooling Updates
 
+- [faux: a struct mocking library - landing v0.1](https://nrxus.github.io/faux/blog/landing-v-0-1.html)
+
 ### Observations/Thoughts
 
 - [Red & blue functions are actually a good thing](https://blainehansen.me/post/red-blue-functions-are-actually-good/)
