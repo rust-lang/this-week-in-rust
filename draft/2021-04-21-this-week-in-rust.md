@@ -39,9 +39,9 @@ No papers/research projects this week.
 
 # Crate of the Week
 
-This week's crate is [dipa](https://docs.rs/dipa), a crate to derive delta-encoding for Rust data structures.
+This week's crate is [deltoid](https://github.com/jjpe/deltoid), another crate for delta-compressing Rust data structures.
 
-Despite a lack of nominations, llogiq is very pleased with his choice.
+Thanks to [Joey Ezechiëls](https://users.rust-lang.org/t/crate-of-the-week/2704/904) for the nomination
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -60,42 +60,34 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-329 pull requests were [merged in the last week][merged]
+292 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-04-05..2021-04-12
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-04-12..2021-04-19
 
-* [allow specifying alignment for functions](https://github.com/rust-lang/rust/pull/81234)
-* [fix handling of `--output-format json` flag](https://github.com/rust-lang/rust/pull/82497)
-* [don't tell users to use a nightly flag on the stable channel](https://github.com/rust-lang/rust/pull/84055)
-* [improve trait/impl method discrepancy errors](https://github.com/rust-lang/rust/pull/84014)
-* [account for `ExprKind::Block` when suggesting .into() and deref](https://github.com/rust-lang/rust/pull/83952)
-* [let `#[allow(unstable_name_collisions)]` work for things other than function](https://github.com/rust-lang/rust/pull/81922)
-* [add `bad_asm_style` to `HardwiredLints`](https://github.com/rust-lang/rust/pull/84068)
-* [improve debuginfo for closures and async functions on Windows MSVC](https://github.com/rust-lang/rust/pull/83941)
-* [use `AnonConst` for `asm!` constants](https://github.com/rust-lang/rust/pull/83916)
-* [add `FromIterator` and `IntoIterator` impls for `ThinVec`](https://github.com/rust-lang/rust/pull/83821)
-* [add `strong_count` mutation methods to `Rc`](https://github.com/rust-lang/rust/pull/83476)
-* [use a `SmallVec` in `impl_or_trait_item`](https://github.com/rust-lang/rust/pull/83932)
-* [use `FromStr` trait for number option parsing](https://github.com/rust-lang/rust/pull/82483)
-* [reduce threads spawned by ui-tests](https://github.com/rust-lang/rust/pull/81942)
-* [core: disable `ptr::swap_nonoverlapping_one`'s block optimization on SPIR-V](https://github.com/rust-lang/rust/pull/83019)
-* [stabilize `cmp_min_max_by`](https://github.com/rust-lang/rust/pull/81047)
-* [stabilize `peekable_peek_mut`](https://github.com/rust-lang/rust/pull/81938)
-* [stabilize `duration_saturating_ops`](https://github.com/rust-lang/rust/pull/84090)
-* [stabilize `atomic_fetch_update` methods on `AtomicBool` and `AtomicPtr`](https://github.com/rust-lang/rust/pull/84085)
-* [fix `HashMap`/`HashSet` LLDB pretty-printer after hashbrown](https://github.com/rust-lang/rust/pull/83920)
-* [futures: move `try_fold`, `try_for_each`, and `try_for_each_concurrent` to `StreamExt`](https://github.com/rust-lang/futures-rs/pull/2342)
-* [futures: add `stream::Peekable::`{`next_if`, `next_if_eq`}](https://github.com/rust-lang/futures-rs/pull/2379)
-* [fix perf regression in `rustdoc::bare_urls`](https://github.com/rust-lang/rust/pull/84034)
-* [rustdoc: cleanup handling of associated items for intra-doc links](https://github.com/rust-lang/rust/pull/83849)
-* [rustdoc: sort search index items for compression](https://github.com/rust-lang/rust/pull/83835)
-* [rustdoc: store intra-doc links in Cache instead of on items directly](https://github.com/rust-lang/rust/pull/83833)
-* [rustdoc: use `ThinVec` in a few places](https://github.com/rust-lang/rust/pull/83828)
-* [rustdoc: merge idents when generating source content](https://github.com/rust-lang/rust/pull/83992)
-* [clippy: fix false positive in `single_component_path_imports` lint](https://github.com/rust-lang/rust-clippy/pull/6905)
-* [clippy: fix `explicit_into_iter_loop`](https://github.com/rust-lang/rust-clippy/pull/6982)
-* [clippy: consider mutability on `useless_vec` suggestions](https://github.com/rust-lang/rust-clippy/pull/7036)
-* [clippy: fix `missing_panics_doc` not detecting `assert_eq!` and `assert_ne!`](https://github.com/rust-lang/rust-clippy/pull/7029)
+* [detect when suggested paths enter extern crates more rigorously](https://github.com/rust-lang/rust/pull/84113)
+* [don't set fast-math for the SIMD operations we set it for previously](https://github.com/rust-lang/rust/pull/84274)
+* [add lint `deref_nullptr` detecting when a null ptr is dereferenced](https://github.com/rust-lang/rust/pull/83948)
+* [fix suggestion for unsized function parameters](https://github.com/rust-lang/rust/pull/84313)
+* [suggest to borrow after failing to cast from `T` to `*const/mut T`](https://github.com/rust-lang/rust/pull/84228)
+* [stabilize `non-ascii-idents`](https://github.com/rust-lang/rust/pull/83799)
+* [stabilize `is_subnormal`](https://github.com/rust-lang/rust/pull/84086)
+* [stabilize `duration_zero`](https://github.com/rust-lang/rust/pull/84084)
+* [stabilize `nonzero_leading_trailing_zeros`](https://github.com/rust-lang/rust/pull/84082)
+* [stabilize `bufreader_seek_relative`](https://github.com/rust-lang/rust/pull/82992)
+* [stabilize `BTree`{`Map`, `Set`}`::retain`](https://github.com/rust-lang/rust/pull/84121)
+* [fix aliasing violations in `thread_local_const_init`](https://github.com/rust-lang/rust/pull/84291)
+* [fix `join_paths` error display](https://github.com/rust-lang/rust/pull/84177)
+* [merge same condition branch in vec `spec_extend`](https://github.com/rust-lang/rust/pull/84209)
+* [improve `vecdeque_binary_search`](https://github.com/rust-lang/rust/pull/84145/files)
+* [regex: shrink size of `Inst`](https://github.com/rust-lang/regex/pull/760)
+* [cargo: don't re-use rustc cache when `RUSTC_WRAPPER` changes](https://github.com/rust-lang/cargo/pull/9348)
+* [clippy: split `is_diagnostic_assoc_item`](https://github.com/rust-lang/rust-clippy/pull/7074)
+* [clippy: fix `single_match`](https://github.com/rust-lang/rust-clippy/pull/7093)
+* [clippy: fix a false negative on `needless_return`](https://github.com/rust-lang/rust-clippy/pull/7067)
+* [clippy: fix a false positive in `missing_const_for_fn`](https://github.com/rust-lang/rust-clippy/pull/7076)
+* [clippy: fix false positive in `wrong_self_convention` lint](https://github.com/rust-lang/rust-clippy/pull/7064)
+* [clippy: fix `redundant_pattern_matching` drop order](https://github.com/rust-lang/rust-clippy/pull/6568)
+* [clippy: un-double `return` on `try_err`](https://github.com/rust-lang/rust-clippy/pull/7108)
 
 ## Rust Compiler Performance Triage
 
@@ -177,23 +169,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> What I actually value on a daily basis in \[rust is\]
-> I can call code written by other people without unpleasant surprises.
->
-> ```
-> async fn verify_signature(token: &Jwt) -> Result<Claims, VerificationError>
-> ```
->
-> Looking at a code snippet:
->
-> * I know my JWT token won't be mutated, just accessed ( `&` );
-> * I know the function will probably perform some kind of I/O ( `async` );
-> * I know that the function might fail ( `Result` );
-> * I know its failure modes ( `VerificationError` ).
+> We feel that Rust is now ready to join C as a practical language for implementing the \[Linux\] kernel. It can help us reduce the number of potential bugs and security vulnerabilities in privileged code while playing nicely with the core kernel and preserving its performance characteristics.
 
-– [Luca Palmieri on Twitter](https://twitter.com/algo_luca/status/1380928103019597827)
+– [Wedson Almeida Filho on the Google Security Blog](https://security.googleblog.com/2021/04/rust-in-linux-kernel.html)
 
-Thanks to [Nixon Enraght-Moony](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1031) for the suggestion!
+Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1040) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
