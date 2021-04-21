@@ -26,6 +26,7 @@ No papers/research projects this week.
 
 ### Rust Walkthroughs
 * [Late Night Confessions — Building a Website Using Rust, Rocket, Diesel, and Askama - Part 1](https://medium.com/perimeterx/late-night-confessions-building-a-website-using-rust-rocket-diesel-and-askama-part-1-aeccade43252)
+* [Tour of Rust's Standard Library Traits](https://github.com/pretzelhammer/rust-blog/blob/master/posts/tour-of-rusts-standard-library-traits.md)
 
 ### Miscellaneous
 
