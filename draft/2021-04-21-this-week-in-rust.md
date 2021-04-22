@@ -52,8 +52,6 @@ No papers/research projects this week.
 * [Learning Rust #3: crates.io & publishing your package](https://hamatti.org/posts/learning-rust-3-crates-io-publishing-your-package/)
 * [Making an online multiplayer game in Rust with Nakama](https://heroiclabs.com/blog/tutorials/rust-fishgame/)
 * [Creating a Sleek Masonry Gallery with React and WebAssembly](https://dev.to/rvanderlaan/creating-a-sleek-masonry-gallery-with-react-and-webassembly-17p2)
-* [Late Night Confessions - Building a Website Using Rust, Rocket, Diesel, and Askama - Part 1](https://dev.to/pxjohnny/late-night-confessions-building-a-website-using-rust-rocket-diesel-and-askama-part-1-127j)
-* [How To Write a Crash Reporter](https://www.anthropicstudios.com/2021/03/05/crash-reporter/)
 * [The GPIO war: macro bunkers for typestate explosions (2)](https://www.ecorax.net/macro-bunker-2/)
 * [Using `std` in embedded Rust](https://timmmm.github.io/std-embedded-rust/index.html)
 * [Rust and TUI: Building a command-line interface in Rust](https://blog.logrocket.com/rust-and-tui-building-a-command-line-interface-in-rust/)
@@ -65,6 +63,7 @@ No papers/research projects this week.
 * [Microsoft Previews Rust For Windows](https://www.tectalk.co/microsoft-previews-rust-for-windows/)
 * [Preparing Rustls for Wider Adoption](https://www.abetterinternet.org/post/preparing-rustls-for-wider-adoption/)
 * [Are We Yeet Yet?](https://areweyeetyet.rs/)
+* [Run Rust RISC-V Firmware with BL602 IoT SDK](https://lupyuen.github.io/articles/rust)
 * [video] [Stanford Seminar - The Soul of a New Machine: Rethinking the Computer](https://youtu.be/vvZA9n3e5pc)
 
 # Crate of the Week
@@ -123,12 +122,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-A very quiet week overall.
+Another quiet week with very small changes to compiler performance.
 
-Triage done by **@simulacrum**.
-Revision range: [d322385..5258a74](https://perf.rust-lang.org/?start=d32238532138485c80db4f2cd596372bce214e00&end=5258a74c887f8ae14717e1f98b652b470877ce4e&absolute=false&stat=instructions%3Au)
+Triage done by **@rylev**.
+Revision range: [5258a74..6df26f](https://perf.rust-lang.org/?start=5258a74c887f8ae14717e1f98b652b470877ce4e&end=6df26f897cffb2d86880544bb451c6b5f8509b2d&absolute=false&stat=instructions%3Au)
 
-1 Regressions, 0 Improvements, 0 Mixed
+1 Regressions, 0 Improvements, 1 Mixed
 
 ## Approved RFCs
 
@@ -179,6 +178,7 @@ decision. Express your opinions now.
 * [April 27, Berlin, DE - Rust and Tell - Rust Berlin](https://www.meetup.com/Rust-Berlin/events/277590271)
 * [April 27, London, UK - LDN Virtual Talks Apr 2021 - Red Badger Takeover - Rust London User Group](https://www.meetup.com/Rust-London-User-Group/events/277520645/)
 * [April 27, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccgbkc/)
+* [April 28, Online - Ockam Open Source Community Call - Live coding walkthrough of building end-to-end encrypted communication in Rust](https://github.com/ockam-network/ockam/discussions/1303)
 * [May 4, Buffalo, NY, US - Buffalo Rust User Group, Tues May 4th - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/277402612/)
 
 ### Europe
