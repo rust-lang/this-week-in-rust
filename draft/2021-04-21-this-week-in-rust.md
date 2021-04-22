@@ -211,6 +211,14 @@ Email the [Rust Community Team][community] for access.
 
 * [Core Protocol Engineer (Remote)](https://jobs.lever.co/subspacelabs/7f6a654b-60a8-4740-aa19-36b9f7a9e624?lever-origin=applied&lever-source%5B%5D=Twitter)
 
+**Senior Software Engineer, Visualization**
+
+* [Senior Software Engineer, Visualization (Remote, DE)](https://boards.greenhouse.io/paige/jobs/5217029002)
+
+**Luminovo**
+
+[(Senior) Software Engineer - Rust (Remote, CEST timezone)](https://luminovo.jobs.personio.de/job/357453)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
