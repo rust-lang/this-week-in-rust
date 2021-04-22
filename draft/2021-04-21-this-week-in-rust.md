@@ -17,27 +17,55 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 No papers/research projects this week.
 
 ### Official
+* [Inside] [Rust Compiler April Steering Cycle](https://blog.rust-lang.org/inside-rust/2021/04/15/compiler-team-april-steering-cycle.html)
+* [Inside] [Lang team April update](https://blog.rust-lang.org/inside-rust/2021/04/17/lang-team-apr-update.html)
+* [Inside] [Jacob Hoffman-Andrews joins the Rustdoc team](https://blog.rust-lang.org/inside-rust/2021/04/20/jsha-rustdoc-member.html)
+* [Foundation] [Introducing Jane Lusby](https://foundation.rust-lang.org/posts/2021-04-15-introducing-jane-lusby/)
+* [Foundation] [Introducing Shane Miller](https://foundation.rust-lang.org/posts/2021-04-15-introducing-shane-miller/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
-[Zellij: a Rusty terminal multiplexer releases a beta version](https://zellij.dev/news/beta/)
-
+* [rust-analyzer Changelog #73](https://rust-analyzer.github.io/thisweek/2021/04/19/changelog-73.html)
+* [Knurling-rs changelog #23](https://ferrous-systems.com/blog/knurling-changelog-23/)
+* [This Week in Ballista #11](https://ballistacompute.org/thisweek/2021/04/18/this-week-in-ballista-11/)
+* [Welcoming Alice Ryhl as the first paid Tokio contributor](https://tokio.rs/blog/2021-04-welcome-alice)
+* [Zellij: a Rusty terminal multiplexer releases a beta version](https://zellij.dev/news/beta/)
 * [faux: a struct mocking library - landing v0.1](https://nrxus.github.io/faux/blog/landing-v-0-1.html)
+* [audio] [What's New in Rust 1.50 and 1.51](https://rustacean-station.org/episode/033-rust-1.50-1.51/)
 
 ### Observations/Thoughts
-
 * [Red & blue functions are actually a good thing](https://blainehansen.me/post/red-blue-functions-are-actually-good/)
+* [Why Rust powers Temporal's new Core SDK](https://docs.temporal.io/blog/why-rust-powers-core-sdk/)
+* [Optimizing a sudoku solver in Rust](https://www.simonclark.dev/2020/08/10/optimizing-sudoku-solver.html)
+* [My journey to understand rust-lang](https://daveshawley.medium.com/my-journey-to-understand-rust-lang-28e4cf808b12)
+* [How I Implemented /dev/printerfact in Rust](https://christine.website/blog/dev-printerfact-2021-04-17)
+* [Why fnm was rewritten in Rust](https://gal.hagever.com/posts/why-fnm-was-rewritten-in-rust/)
+* [Running GraphQL on Lambda with Rust](https://dev.to/dbanty/running-graphql-on-lambda-with-rust-1lak)
+* [Runtime Alias Detection](https://myrrlyn.net/blog/bitvec/alias-detection)
+* [What's in the box?](https://fasterthanli.me/articles/whats-in-the-box)
+* [video] [An Overview of the Embedded Rust Ecosystem](https://youtu.be/vLYit_HHPaY)
 
 ### Rust Walkthroughs
-
 * [Late Night Confessions — Building a Website Using Rust, Rocket, Diesel, and Askama - Part 1](https://medium.com/perimeterx/late-night-confessions-building-a-website-using-rust-rocket-diesel-and-askama-part-1-aeccade43252)
 * [Tour of Rust's Standard Library Traits](https://github.com/pretzelhammer/rust-blog/blob/master/posts/tour-of-rusts-standard-library-traits.md)
 * [Learning Rust #3: crates.io & publishing your package](https://hamatti.org/posts/learning-rust-3-crates-io-publishing-your-package/)
+* [Making an online multiplayer game in Rust with Nakama](https://heroiclabs.com/blog/tutorials/rust-fishgame/)
+* [Creating a Sleek Masonry Gallery with React and WebAssembly](https://dev.to/rvanderlaan/creating-a-sleek-masonry-gallery-with-react-and-webassembly-17p2)
+* [Late Night Confessions - Building a Website Using Rust, Rocket, Diesel, and Askama - Part 1](https://dev.to/pxjohnny/late-night-confessions-building-a-website-using-rust-rocket-diesel-and-askama-part-1-127j)
+* [How To Write a Crash Reporter](https://www.anthropicstudios.com/2021/03/05/crash-reporter/)
+* [The GPIO war: macro bunkers for typestate explosions (2)](https://www.ecorax.net/macro-bunker-2/)
+* [Using `std` in embedded Rust](https://timmmm.github.io/std-embedded-rust/index.html)
+* [Rust and TUI: Building a command-line interface in Rust](https://blog.logrocket.com/rust-and-tui-building-a-command-line-interface-in-rust/)
+* [Rust: Serde: Working with untyped JSON values](https://youtu.be/NwYY00paiH0)
+* [series] [Writing NES Emulator in Rust](https://bugzmanov.github.io/nes_ebook/index.html)
 
 ### Miscellaneous
-
 * [rustc, iOS and an M1](https://fnordig.de/2021/04/16/rustc-ios-and-an-m1/)
+* [Microsoft Previews Rust For Windows](https://www.tectalk.co/microsoft-previews-rust-for-windows/)
+* [Preparing Rustls for Wider Adoption](https://www.abetterinternet.org/post/preparing-rustls-for-wider-adoption/)
+* [Are We Yeet Yet?](https://areweyeetyet.rs/)
+* [video] [Stanford Seminar - The Soul of a New Machine: Rethinking the Computer](https://youtu.be/vvZA9n3e5pc)
 
 # Crate of the Week
 
