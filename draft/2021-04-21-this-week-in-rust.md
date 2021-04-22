@@ -34,6 +34,8 @@ No papers/research projects this week.
 * [faux: a struct mocking library - landing v0.1](https://nrxus.github.io/faux/blog/landing-v-0-1.html)
 * [audio] [What's New in Rust 1.50 and 1.51](https://rustacean-station.org/episode/033-rust-1.50-1.51/)
 
+[Otter - a game server for arbitrary board games](https://diziet.dreamwidth.org/8121.html).  It is mainly [written in Rust](https://www.chiark.greenend.org.uk/~ianmdlvl/otter/docs/build.html).  First public release.
+
 ### Observations/Thoughts
 * [Red & blue functions are actually a good thing](https://blainehansen.me/post/red-blue-functions-are-actually-good/)
 * [Why Rust powers Temporal's new Core SDK](https://docs.temporal.io/blog/why-rust-powers-core-sdk/)
