@@ -32,9 +32,8 @@ No papers/research projects this week.
 * [Welcoming Alice Ryhl as the first paid Tokio contributor](https://tokio.rs/blog/2021-04-welcome-alice)
 * [Zellij: a Rusty terminal multiplexer releases a beta version](https://zellij.dev/news/beta/)
 * [faux: a struct mocking library - landing v0.1](https://nrxus.github.io/faux/blog/landing-v-0-1.html)
+* [Otter - a game server for arbitrary board games](https://diziet.dreamwidth.org/8121.html).  It is mainly [written in Rust](https://www.chiark.greenend.org.uk/~ianmdlvl/otter/docs/build.html)
 * [audio] [What's New in Rust 1.50 and 1.51](https://rustacean-station.org/episode/033-rust-1.50-1.51/)
-
-[Otter - a game server for arbitrary board games](https://diziet.dreamwidth.org/8121.html).  It is mainly [written in Rust](https://www.chiark.greenend.org.uk/~ianmdlvl/otter/docs/build.html).  First public release.
 
 ### Observations/Thoughts
 * [Red & blue functions are actually a good thing](https://blainehansen.me/post/red-blue-functions-are-actually-good/)
@@ -166,7 +165,7 @@ decision. Express your opinions now.
 * [disposition: merge] [Tracking Issue for vec_extend_from_within](https://github.com/rust-lang/rust/issues/81656)
 * [disposition: merge] [Tracking Issue for 'ordering helpers'](https://github.com/rust-lang/rust/issues/79885)
 * [disposition: merge] [Tracking issue for array::from_ref and array::from_mut](https://github.com/rust-lang/rust/issues/77101)
-* [disposition: merge] [Tracking Issue for {HashMap,BTreeMap}::into_{keys,values]](https://github.com/rust-lang/rust/issues/75294)
+* [disposition: merge] [Tracking Issue for {HashMap,BTreeMap}::into_{keys,values}](https://github.com/rust-lang/rust/issues/75294)
 * [disposition: merge] [Tracking issue for x86 bittest intrinsics](https://github.com/rust-lang/rust/issues/59414)
 
 ## New RFCs
@@ -201,7 +200,7 @@ Email the [Rust Community Team][community] for access.
 
 **Massa Labs**
 
-* [Rust Blockchain Developer (Remote) [https://massa.network/#jobs)
+* [Rust Blockchain Developer (Remote)](https://massa.network/#jobs)
 
 **Instaclustr**
 
@@ -217,7 +216,7 @@ Email the [Rust Community Team][community] for access.
 
 **Luminovo**
 
-[(Senior) Software Engineer - Rust (Remote, CEST timezone)](https://luminovo.jobs.personio.de/job/357453)
+* [(Senior) Software Engineer - Rust (Remote, CEST timezone)](https://luminovo.jobs.personio.de/job/357453)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
