@@ -23,6 +23,7 @@ No papers/research projects this week.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+[Rust Notebooks with Evcxr: Interview with David Lattimore](https://blog.abor.dev/p/evcxr)
 
 ### Rust Walkthroughs
 
