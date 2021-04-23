@@ -210,9 +210,9 @@ Email the [Rust Community Team][community] for access.
 
 * [Core Protocol Engineer (Remote)](https://jobs.lever.co/subspacelabs/7f6a654b-60a8-4740-aa19-36b9f7a9e624?lever-origin=applied&lever-source%5B%5D=Twitter)
 
-**Senior Software Engineer, Visualization**
+**Paige**
 
-* [Senior Software Engineer, Visualization (Remote, DE)](https://boards.greenhouse.io/paige/jobs/5217029002)
+* [Senior Software Engineer, Visualization (Remote, Europe)](https://boards.greenhouse.io/paige/jobs/5217029002)
 
 **Luminovo**
 
