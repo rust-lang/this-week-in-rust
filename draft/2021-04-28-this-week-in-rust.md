@@ -24,6 +24,8 @@ No papers/research projects this week.
 
 ### Observations/Thoughts
 
+- [Costs of iterators and Zero Cost Abstractions in Rust](https://github.com/mike-barber/rust-zero-cost-abstractions/blob/main/README.md) (with video)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
