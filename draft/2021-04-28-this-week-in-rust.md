@@ -25,6 +25,7 @@ No papers/research projects this week.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [ZH] [series] [Build GraphQL services based on Async Rust using tide + async-graphql + mongodb (基于 Async Rust 构建 GraphQL 服务，使用 tide + async-graphql + mongodb) - Part 2](https://blog.budshome.com/budshome/gou-jian-rust-yi-bu-graphql-fu-wu-:ji-yu-tide-+-async-graphql-+-mongodb(2)--cha-xun-fu-wu)
 
 ### Miscellaneous
 
