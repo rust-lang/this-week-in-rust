@@ -30,9 +30,9 @@ No papers/research projects this week.
 
 # Crate of the Week
 
-This week's crate is [deltoid](https://github.com/jjpe/deltoid), another crate for delta-compressing Rust data structures.
+This week's crate is [cargo-rr](https://github.com/danielzfranklin/cargo-rr), a cargo subcommand to use the time-traveling rr debugger on our code.
 
-Thanks to [Joey Ezechiëls](https://users.rust-lang.org/t/crate-of-the-week/2704/904) for the nomination
+Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/905) for the nomination
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -53,34 +53,40 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-292 pull requests were [merged in the last week][merged]
+350 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-04-12..2021-04-19
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-04-19..2021-04-26
 
-* [detect when suggested paths enter extern crates more rigorously](https://github.com/rust-lang/rust/pull/84113)
-* [don't set fast-math for the SIMD operations we set it for previously](https://github.com/rust-lang/rust/pull/84274)
-* [add lint `deref_nullptr` detecting when a null ptr is dereferenced](https://github.com/rust-lang/rust/pull/83948)
-* [fix suggestion for unsized function parameters](https://github.com/rust-lang/rust/pull/84313)
-* [suggest to borrow after failing to cast from `T` to `*const/mut T`](https://github.com/rust-lang/rust/pull/84228)
-* [stabilize `non-ascii-idents`](https://github.com/rust-lang/rust/pull/83799)
-* [stabilize `is_subnormal`](https://github.com/rust-lang/rust/pull/84086)
-* [stabilize `duration_zero`](https://github.com/rust-lang/rust/pull/84084)
-* [stabilize `nonzero_leading_trailing_zeros`](https://github.com/rust-lang/rust/pull/84082)
-* [stabilize `bufreader_seek_relative`](https://github.com/rust-lang/rust/pull/82992)
-* [stabilize `BTree`{`Map`, `Set`}`::retain`](https://github.com/rust-lang/rust/pull/84121)
-* [fix aliasing violations in `thread_local_const_init`](https://github.com/rust-lang/rust/pull/84291)
-* [fix `join_paths` error display](https://github.com/rust-lang/rust/pull/84177)
-* [merge same condition branch in vec `spec_extend`](https://github.com/rust-lang/rust/pull/84209)
-* [improve `vecdeque_binary_search`](https://github.com/rust-lang/rust/pull/84145/files)
-* [regex: shrink size of `Inst`](https://github.com/rust-lang/regex/pull/760)
-* [cargo: don't re-use rustc cache when `RUSTC_WRAPPER` changes](https://github.com/rust-lang/cargo/pull/9348)
-* [clippy: split `is_diagnostic_assoc_item`](https://github.com/rust-lang/rust-clippy/pull/7074)
-* [clippy: fix `single_match`](https://github.com/rust-lang/rust-clippy/pull/7093)
-* [clippy: fix a false negative on `needless_return`](https://github.com/rust-lang/rust-clippy/pull/7067)
-* [clippy: fix a false positive in `missing_const_for_fn`](https://github.com/rust-lang/rust-clippy/pull/7076)
-* [clippy: fix false positive in `wrong_self_convention` lint](https://github.com/rust-lang/rust-clippy/pull/7064)
-* [clippy: fix `redundant_pattern_matching` drop order](https://github.com/rust-lang/rust-clippy/pull/6568)
-* [clippy: un-double `return` on `try_err`](https://github.com/rust-lang/rust-clippy/pull/7108)
+* [use LLVM's new saturating float-to-int intrinsics](https://github.com/rust-lang/rust/pull/84339)
+* [enable sanitizers for `x86_64-unknown-linux-musl`](https://github.com/rust-lang/rust/pull/84126)
+* [add coverage to `continue` statements](https://github.com/rust-lang/rust/pull/84295)
+* [further split up `const_fn` feature flag](https://github.com/rust-lang/rust/pull/84310)
+* [various const parameter defaults improvements](https://github.com/rust-lang/rust/pull/84299)
+* [tweak trait not `use d suggestion](https://github.com/rust-lang/rust/pull/84499)
+* [on stable, suggest removing `#![feature]` for features that have been stabilized](https://github.com/rust-lang/rust/pull/83722)
+* [improve diagnostics for function passed when a type was expected](https://github.com/rust-lang/rust/pull/84520)
+* [add suggestion to "use break" when attempting to implicit-break a loop](https://github.com/rust-lang/rust/pull/84516)
+* [suggest `.as_ref()` on borrow error involving `Option`/`Result`](https://github.com/rust-lang/rust/pull/84353)
+* [implement a lint that highlights all moves larger than a configured limit](https://github.com/rust-lang/rust/pull/83519)
+* [introduce `CompileMonoItem` `DepNode`](https://github.com/rust-lang/rust/pull/84123)
+* [cautiously add `IntoIterator` for arrays by value](https://github.com/rust-lang/rust/pull/84147)
+* [stabilize `Duration::MAX`](https://github.com/rust-lang/rust/pull/84120)
+* [stabilize `core::array::`{`from_ref`, `from_mut`} in 1.53.0](https://github.com/rust-lang/rust/pull/84105)
+* [implement `TrustedRandomAccess` for `Take` iterator adapter](https://github.com/rust-lang/rust/pull/83990)
+* [format `Struct { .. }` on one line even with `{:#?}`](https://github.com/rust-lang/rust/pull/84390)
+* [added `CharIndices::offset` function](https://github.com/rust-lang/rust/pull/82585)
+* [improve rebuilding behaviour of `BinaryHeap::retain`](https://github.com/rust-lang/rust/pull/78681)
+* [hashbrown: add an `allocator()` getter to `HashMap` and `HashSet`](https://github.com/rust-lang/hashbrown/pull/257)
+* [libz: disable forced zlib vendoring on musl](https://github.com/rust-lang/libz-sys/pull/78)
+* [cargo: some changes to rustdoc fingerprint checking](https://github.com/rust-lang/cargo/pull/9404)
+* [rustdoc: remove most fields from `ExternalCrate`](https://github.com/rust-lang/rust/pull/84457)
+* [clippy: refactor MSRV aliases](https://github.com/rust-lang/rust-clippy/pull/7137)
+* [clippy: finish MSRV for `cloned_instead_of_copied`](https://github.com/rust-lang/rust-clippy/pull/7134)
+* [clippy: `manual_unwrap_or`: fix invalid code suggestion due to macro expansion](https://github.com/rust-lang/rust-clippy/pull/7136)
+* [clippy: `cloned_instead_of_copied` MSRV](https://github.com/rust-lang/rust-clippy/pull/7129)
+* [clippy: add `flat_map_option` lint](https://github.com/rust-lang/rust-clippy/pull/7101)
+* [clippy: `unused_io_amount` detects `.read().ok()?`](https://github.com/rust-lang/rust-clippy/pull/7100)
+* [clippy: add lint to check for boolean comparison in assert macro calls](https://github.com/rust-lang/rust-clippy/pull/7083)
 
 ## Rust Compiler Performance Triage
 
@@ -159,11 +165,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> We feel that Rust is now ready to join C as a practical language for implementing the \[Linux\] kernel. It can help us reduce the number of potential bugs and security vulnerabilities in privileged code while playing nicely with the core kernel and preserving its performance characteristics.
+> this error message is UNREAL
 
-– [Wedson Almeida Filho on the Google Security Blog](https://security.googleblog.com/2021/04/rust-in-linux-kernel.html)
+– [Ash 2X3 on Twitter](https://twitter.com/ash2x3/status/1384986537167892483)
 
-Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1040) for the suggestion!
+Thanks to [Nixon Enraght-Moony](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1046) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
