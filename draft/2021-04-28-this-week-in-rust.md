@@ -155,6 +155,12 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Parity Technologies**
+
+* [Blockchain Developer - Consensus](https://grnh.se/2dd887b13us)
+* [Numerous other Rust engineering openings](https://www.parity.io/jobs/)
+
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
