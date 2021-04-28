@@ -25,6 +25,7 @@ No papers/research projects this week.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [Creating privacy-preserving signatures in Rust with BBS+](https://github.com/ockam-network/ockam/blob/develop/implementations/rust/ockam/signature_bbs_plus/GUIDE.md)
 
 ### Miscellaneous
 
