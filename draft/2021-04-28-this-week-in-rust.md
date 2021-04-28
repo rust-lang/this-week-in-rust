@@ -84,12 +84,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-Another quiet week with very small changes to compiler performance.
+It's always nice to have a week without any regressions and 2 small improvements 🎉🎉.
 
 Triage done by **@rylev**.
-Revision range: [5258a74..6df26f](https://perf.rust-lang.org/?start=5258a74c887f8ae14717e1f98b652b470877ce4e&end=6df26f897cffb2d86880544bb451c6b5f8509b2d&absolute=false&stat=instructions%3Au)
+Revision range: [6df26f8..537544](https://perf.rust-lang.org/?start=6df26f897cffb2d86880544bb451c6b5f8509b2d&end=537544b1061467ee4b74ef7f552fab3d513e5caf&absolute=false&stat=instructions%3Au)
 
-1 Regressions, 0 Improvements, 1 Mixed
+0 Regressions, 2 Improvements, 0 Mixed
 
 ## Approved RFCs
 
