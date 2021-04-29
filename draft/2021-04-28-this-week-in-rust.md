@@ -29,6 +29,8 @@ No papers/research projects this week.
 
 ### Miscellaneous
 
+- [GitHub Actions best practices for Rust projects](https://www.fluvio.io/blog/2021/04/github-actions-best-practices/)
+
 # Crate of the Week
 
 This week's crate is [deltoid](https://github.com/jjpe/deltoid), another crate for delta-compressing Rust data structures.
