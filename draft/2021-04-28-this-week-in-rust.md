@@ -14,19 +14,49 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-No papers/research projects this week.
-
 ### Official
+* [Announcing Rustup 1.24.0](https://blog.rust-lang.org/2021/04/27/Rustup-1.24.0.html)
+* [Inside] [Congrats to compiler team member Aaron Hill](https://blog.rust-lang.org/inside-rust/2021/04/26/aaron-hill-compiler-team.html)
+* [Foundation] [Introducing Josh Stone](https://foundation.rust-lang.org/posts/2021-04-22-introducing-josh-stone/)
+* [Foundation] [Introducing Lars Bergstrom](https://foundation.rust-lang.org/posts/2021-04-22-introducing-lars-bergstrom/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer Changelog #74](https://rust-analyzer.github.io/thisweek/2021/04/26/changelog-74.html)
+* [IntelliJ Rust Changelog #146](https://intellij-rust.github.io/2021/04/26/changelog-146.html)
+* [Lemmy Release v0.11.0](https://lemmy.ml/post/61856)
+* [simdutf v0.1.1 - A small step for semver, one giant leap for performance](https://www.reddit.com/r/rust/comments/mz44xi/simdutf_v011_a_small_step_for_semver_one_giant/)
+* [The playable demo of Outer Wonders, our cute, colorful and Rust-powered puzzle game, is live on itch.io for Windows and Linux! Thank you Rust community for creating such awesome tools!](https://www.reddit.com/r/rust/comments/mx3enm/the_playable_demo_of_outer_wonders_our_cute/)
 
 ### Observations/Thoughts
+* [Move Constructors in Rust: Is it possible?](https://mcyoung.xyz/2021/04/26/move-ctors/)
+* [basedrop: a garbage collector for real-time audio in rust](https://glowcoil.com/posts/basedrop/)
+* [Road to TurboWish; Part 1: Goals](http://blog.pnkfx.org/blog/2021/04/26/road-to-turbowish-part-1-goals/)
+* [Road to TurboWish; Part 2: Stories](http://blog.pnkfx.org/blog/2021/04/27/road-to-turbowish-part-2-stories/)
+* [The Pains of Path Parsing](https://www.fpcomplete.com/blog/pains-path-parsing/)
+* [If you could re-design Rust from scratch today, what would you change?](https://www.reddit.com/r/rust/comments/my3ipa/if_you_could_redesign_rust_from_scratch_today/)
+* [Red & blue functions are actually a good thing](https://blainehansen.me/post/red-blue-functions-are-actually-good/)
 
 ### Rust Walkthroughs
+* [How to Build a Custom Test Harness in Rust](https://www.fluvio.io/blog/2021/04/rust-custom-test-harness/)
+* [Late Night Confessions - Building a Website Using Rust, Rocket, Diesel, and Askama - Part 2](https://dev.to/pxjohnny/late-night-confessions-building-a-website-using-rust-rocket-diesel-and-askama-part-2-31dh)
+* [Introduction to gRPC in Rust](https://romankudryashov.com/blog/2021/04/grpc-rust/)
+* [Writing a Postgres SQL Pretty Printer in Rust: Part 2](v)
+* [series] [A journey into Rust](https://dev.to/basman/series/12170)
+* [video] [Using Iterator::colect in Rust](https://youtu.be/ECwy6s_h7T8)
+* [video] [RustConf 2020 - Macros for a More Productive Rust by jam1garner](https://youtu.be/HN6EUcnGN1s)
+
+### Papers/Research Projects
+* [A DSL embedded in Rust](https://dl.acm.org/doi/10.1145/3310232.3310241)
+* [Energy Efficiency across Programming Languages](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf)
 
 ### Miscellaneous
+* [Rust Notebooks with Evcxr](https://blog.abor.dev/p/evcxr)
+* [An Interview With Linus Torvalds: Linux and Git](https://www.tag1consulting.com/blog/interview-linus-torvalds-linux-and-git)
+* [Programming languages: JavaScript has most developers but Rust is the fastest growing](https://www.zdnet.com/google-amp/article/programming-languages-javascript-has-most-developers-but-rust-is-the-fastest-growing/)
+* [Parts of Tensorboard are being rewritten in Rust for a 100x to 400x speedup](https://www.reddit.com/r/rust/comments/mzlg5s/parts_of_tensorboard_are_being_rewritten_in_rust/)
+* [Are we finally about to gain guaranteed Tail Calls in Rust?](https://www.reddit.com/r/rust/comments/my6k5i/are_we_finally_about_to_gain_guaranteed_tail/)
 
 # Crate of the Week
 
