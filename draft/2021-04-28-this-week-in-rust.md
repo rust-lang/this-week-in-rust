@@ -26,7 +26,7 @@ No papers/research projects this week.
 
 ### Rust Walkthroughs
 
-- [video] [What is Rust and why is it important?](https://youtu.be/kdv1EBk6Xgc) by Tim McNamara ([@timClicks](https://twitter.com/timClicks))
+- [video] [What is Rust and why is it important?](https://youtu.be/kdv1EBk6Xgc)
 
 ### Miscellaneous
 
