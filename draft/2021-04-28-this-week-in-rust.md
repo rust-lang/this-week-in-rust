@@ -172,6 +172,11 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+**Kollider**
+
+* [Junior Backend Engineer - (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
+* [Senior Backend Engineer - (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
+* [DevOps Engineer - (Remote)](https://kollider.homerun.co/devops-engineer/en)
 
 **Parity Technologies**
 
