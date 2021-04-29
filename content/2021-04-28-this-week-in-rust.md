@@ -50,7 +50,7 @@ No newsletters this week.
 * [ZH] [series] [Build GraphQL services based on Async Rust using tide + async-graphql + mongodb (基于 Async Rust 构建 GraphQL 服务，使用 tide + async-graphql + mongodb) - Part 2](https://blog.budshome.com/budshome/gou-jian-rust-yi-bu-graphql-fu-wu-:ji-yu-tide-+-async-graphql-+-mongodb(2)--cha-xun-fu-wu)
 * [ZH] [series] [Build GraphQL services based on Async Rust using actix-web + async-graphql + rbatis + postgresql / mysql (基于 actix-web + async-graphql + rbatis + postgresql / mysql 构建异步 Rust GraphQL 服务) - Part 1](https://blog.budshome.com/budshome/ji-yu-actix-web-+-async-graphql-+-rbatis-+-postgresql---mysql-gou-jian-yi-bu-rust-graphql-fu-wu---qi-bu-ji-crate-xuan-ze)
 * [video] [What is Rust and why is it important?](https://youtu.be/kdv1EBk6Xgc)
-* [video] [Using Iterator::colect in Rust](https://youtu.be/ECwy6s_h7T8)
+* [video] [Using Iterator::collect in Rust](https://youtu.be/ECwy6s_h7T8)
 * [video] [RustConf 2020 - Macros for a More Productive Rust by jam1garner](https://youtu.be/HN6EUcnGN1s)
 
 ### Papers/Research Projects
