@@ -167,6 +167,11 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Parity Technologies**
+
+* [Blockchain Developer - Consensus (Remote)](https://grnh.se/2dd887b13us)
+* [Numerous other Rust engineering openings](https://www.parity.io/jobs/)
+
 **Paige**
 
 * [Senior Software Engineer, Visualization (Remote, Europe)](https://boards.greenhouse.io/paige/jobs/5210311002)
