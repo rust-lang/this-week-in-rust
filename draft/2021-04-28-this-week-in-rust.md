@@ -157,7 +157,7 @@ Email the [Rust Community Team][community] for access.
 
 **Parity Technologies**
 
-* [Blockchain Developer - Consensus](https://grnh.se/2dd887b13us)
+* [Blockchain Developer - Consensus (Remote)](https://grnh.se/2dd887b13us)
 * [Numerous other Rust engineering openings](https://www.parity.io/jobs/)
 
 
