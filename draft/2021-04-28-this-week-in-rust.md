@@ -172,9 +172,29 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Collabora**
+
+* [Rust developer/promoter (Remote)](https://arbeitnow.com/view/rust-developerpromoter-collabora-36866)
+
 **Paige**
 
 * [Senior Software Engineer, Visualization (Remote, Europe)](https://boards.greenhouse.io/paige/jobs/5210311002)
+
+**Confio GmbH**
+
+* [Rust Engineer at Confio GmbH (Remote)](https://jobs.gohire.io/confio-gmbh-ggtjivjy/rust-engineer-39453/)
+
+**CoBloX**
+
+* [Software Engineer (Remote)](https://comit.network/blog/2021/03/01/we-are-hiring/)
+
+**Gattaca**
+
+* [Software Engineer - Rust & Python](https://gattaca.com/jobspec.html)
+
+**Wallaroo**
+
+* [Senior Client Solutions Engineer (Remote)](https://wallaroo.breezy.hr/p/47862ae31c91-senior-client-solutions-engineer-remote-even-after-covid)
 
 **Parity Technologies**
 
@@ -186,6 +206,16 @@ Email the [Rust Community Team][community] for access.
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 * [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 * [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
+
+**Chainflip**
+
+* [Rust / C++ Backend Engineer (Berlin, DE)](https://angel.co/company/chainflip/jobs/1162345-rust-c-backend-engineer)
+* [Security Engineer (Berlin, DE)](https://angel.co/company/chainflip/jobs/1293957-security-engineer)
+* [Junior/Mid Backend Rust/C++ Developer (Melbourne, AU)](https://angel.co/company/chainflip/jobs/1305439-junior-mid-backend-rust-c-developer)
+
+**Kraken**
+
+* [Several Rust Engineering Positions](https://jobs.lever.co/kraken?team=Engineering)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
