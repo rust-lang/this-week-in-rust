@@ -23,20 +23,19 @@ No papers/research projects this week.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
-[Rust Notebooks with Evcxr: Interview with David Lattimore](https://blog.abor.dev/p/evcxr)
-
-- [Costs of iterators and Zero Cost Abstractions in Rust](https://github.com/mike-barber/rust-zero-cost-abstractions/blob/main/README.md) (with video)
+* [Rust Notebooks with Evcxr: Interview with David Lattimore](https://blog.abor.dev/p/evcxr)
+* [Costs of iterators and Zero Cost Abstractions in Rust](https://github.com/mike-barber/rust-zero-cost-abstractions/blob/main/README.md) (with video)
 
 ### Rust Walkthroughs
-- [Creating privacy-preserving signatures in Rust with BBS+](https://github.com/ockam-network/ockam/blob/develop/implementations/rust/ockam/signature_bbs_plus/GUIDE.md)
+* [Creating privacy-preserving signatures in Rust with BBS+](https://github.com/ockam-network/ockam/blob/develop/implementations/rust/ockam/signature_bbs_plus/GUIDE.md)
 * [Late Night Confessions — Building a Website Using Rust, Rocket, Diesel, and Askama - Part 2](https://medium.com/perimeterx/late-night-confessions-building-a-website-using-rust-rocket-diesel-and-askama-part-2-fc87c463e8f3)
 * [ZH] [series] [Build GraphQL services based on Async Rust using tide + async-graphql + mongodb (基于 Async Rust 构建 GraphQL 服务，使用 tide + async-graphql + mongodb) - Part 2](https://blog.budshome.com/budshome/gou-jian-rust-yi-bu-graphql-fu-wu-:ji-yu-tide-+-async-graphql-+-mongodb(2)--cha-xun-fu-wu)
 * [ZH] [series] [Build GraphQL services based on Async Rust using actix-web + async-graphql + rbatis + postgresql / mysql (基于 actix-web + async-graphql + rbatis + postgresql / mysql 构建异步 Rust GraphQL 服务) - Part 1](https://blog.budshome.com/budshome/ji-yu-actix-web-+-async-graphql-+-rbatis-+-postgresql---mysql-gou-jian-yi-bu-rust-graphql-fu-wu---qi-bu-ji-crate-xuan-ze)
-- [video] [What is Rust and why is it important?](https://youtu.be/kdv1EBk6Xgc)
+* [video] [What is Rust and why is it important?](https://youtu.be/kdv1EBk6Xgc)
 
 ### Miscellaneous
 
-- [GitHub Actions best practices for Rust projects](https://www.fluvio.io/blog/2021/04/github-actions-best-practices/)
+* [GitHub Actions best practices for Rust projects](https://www.fluvio.io/blog/2021/04/github-actions-best-practices/)
 
 # Crate of the Week
 
@@ -172,20 +171,21 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-**Kollider**
 
-* [Junior Backend Engineer - (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
-* [Senior Backend Engineer - (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
-* [DevOps Engineer - (Remote)](https://kollider.homerun.co/devops-engineer/en)
+**Paige**
+
+* [Senior Software Engineer, Visualization (Remote, Europe)](https://boards.greenhouse.io/paige/jobs/5210311002)
 
 **Parity Technologies**
 
 * [Blockchain Developer - Consensus (Remote)](https://grnh.se/2dd887b13us)
 * [Numerous other Rust engineering openings](https://www.parity.io/jobs/)
 
-**Paige**
+**Kollider**
 
-* [Senior Software Engineer, Visualization (Remote, Europe)](https://boards.greenhouse.io/paige/jobs/5210311002)
+* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
+* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
+* [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
