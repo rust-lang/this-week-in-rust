@@ -23,10 +23,20 @@ No papers/research projects this week.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+[Rust Notebooks with Evcxr: Interview with David Lattimore](https://blog.abor.dev/p/evcxr)
+
+- [Costs of iterators and Zero Cost Abstractions in Rust](https://github.com/mike-barber/rust-zero-cost-abstractions/blob/main/README.md) (with video)
 
 ### Rust Walkthroughs
+* [Late Night Confessions — Building a Website Using Rust, Rocket, Diesel, and Askama - Part 2](https://medium.com/perimeterx/late-night-confessions-building-a-website-using-rust-rocket-diesel-and-askama-part-2-fc87c463e8f3)
+* [ZH] [series] [Build GraphQL services based on Async Rust using tide + async-graphql + mongodb (基于 Async Rust 构建 GraphQL 服务，使用 tide + async-graphql + mongodb) - Part 2](https://blog.budshome.com/budshome/gou-jian-rust-yi-bu-graphql-fu-wu-:ji-yu-tide-+-async-graphql-+-mongodb(2)--cha-xun-fu-wu)
+* [ZH] [series] [Build GraphQL services based on Async Rust using actix-web + async-graphql + rbatis + postgresql / mysql (基于 actix-web + async-graphql + rbatis + postgresql / mysql 构建异步 Rust GraphQL 服务) - Part 1](https://blog.budshome.com/budshome/ji-yu-actix-web-+-async-graphql-+-rbatis-+-postgresql---mysql-gou-jian-yi-bu-rust-graphql-fu-wu---qi-bu-ji-crate-xuan-ze)
+
+- [video] [What is Rust and why is it important?](https://youtu.be/kdv1EBk6Xgc)
 
 ### Miscellaneous
+
+- [GitHub Actions best practices for Rust projects](https://www.fluvio.io/blog/2021/04/github-actions-best-practices/)
 
 # Crate of the Week
 
@@ -141,6 +151,8 @@ decision. Express your opinions now.
 * [April 27, London, UK - LDN Virtual Talks Apr 2021 - Red Badger Takeover - Rust London User Group](https://www.meetup.com/Rust-London-User-Group/events/277520645/)
 * [April 27, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccgbkc/)
 * [April 28, Online - Ockam Open Source Community Call - Live coding walkthrough of building end-to-end encrypted communication in Rust](https://github.com/ockam-network/ockam/discussions/1303)
+* [May 3, 2021, Online - Cloud Native Rust Day](https://events.linuxfoundation.org/cloud-native-rust-day/)
+* [May 4, 2021, Online - Cloud Native WASM Day](https://events.linuxfoundation.org/cloud-native-wasm-day/)
 * [May 4, Buffalo, NY, US - Buffalo Rust User Group, Tues May 4th - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/277402612/)
 
 ### Europe
@@ -160,6 +172,9 @@ Email the [Rust Community Team][community] for access.
 * [Blockchain Developer - Consensus (Remote)](https://grnh.se/2dd887b13us)
 * [Numerous other Rust engineering openings](https://www.parity.io/jobs/)
 
+**Paige**
+
+* [Senior Software Engineer, Visualization (Remote, Europe)](https://boards.greenhouse.io/paige/jobs/5210311002)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
