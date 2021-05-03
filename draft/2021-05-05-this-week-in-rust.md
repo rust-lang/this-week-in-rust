@@ -23,6 +23,7 @@ No newsletters this week.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Late Night Confessions — Building a Website Using Rust, Rocket, Diesel, and Askama - Part 3](https://medium.com/perimeterx/late-night-confessions-building-a-website-using-rust-rocket-diesel-and-askama-part-3-3f9b7d511bde)
 
 ### Papers/Research Projects
 
