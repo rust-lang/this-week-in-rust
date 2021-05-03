@@ -20,6 +20,8 @@ No newsletters this week.
 
 ### Project/Tooling Updates
 
+* [Last Month in Flott (Motion Control Toolkit in Rust) - May 2021](https://flott-motion.org/news/last-month-in-flott-may-2021/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
