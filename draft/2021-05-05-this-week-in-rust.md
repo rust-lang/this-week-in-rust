@@ -22,6 +22,8 @@ No newsletters this week.
 
 ### Observations/Thoughts
 
+[Compilers as Teachers](https://ferrous-systems.com/blog/compilers-as-teachers/)
+
 ### Rust Walkthroughs
 
 ### Papers/Research Projects
