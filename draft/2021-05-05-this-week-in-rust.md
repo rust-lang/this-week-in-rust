@@ -20,6 +20,8 @@ No newsletters this week.
 
 ### Project/Tooling Updates
 
+* [This Week In TensorBase 1](https://tensorbase.io/thisweek/2021-05-01-tw_1/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
