@@ -25,7 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 - [Futures in Rust](http://www.ishbir.com/post/2016-08-14-futures-in-rust/). Writing an Async Web API Wrapper - An excercise in learning Rust.
 - [Rust compiler walk-through: Introduction](https://gchp.ie/2016/08/09/rust-compiler-walkthrough-introduction/).
 - [Asynchronous servers in Rust](https://gkbrk.com/2016/08/asynchronous-servers-in-rust/). Using tokio-rs to build an asynchronous server.
-- [Parsing strategies in Rust](http://notes.willcrichton.net/parsing-strategies-in-rust/). Comparing two competing parsing frameworks in Rust: nom, a parser combinator, and LALRPOP, an LR(1) parser generator.
+- [Parsing strategies in Rust](https://willcrichton.net/notes/parsing-strategies-in-rust/). Comparing two competing parsing frameworks in Rust: nom, a parser combinator, and LALRPOP, an LR(1) parser generator.
 - [Xero and Sandstorm.io have been added to the Friends of Rust page](https://www.rust-lang.org/en-US/friends.html). Xero is using Rust for infrastructure, and Sandstorm.io has a [collections application](https://sandstorm.io/news/2016-08-09-collections-app) in Rust.
 
 ## New Crates & Project Updates
