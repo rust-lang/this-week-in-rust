@@ -19,6 +19,7 @@ No newsletters this week.
 ### Official
 
 ### Project/Tooling Updates
+* [One Third Of 2021](https://isomorphicdb.io/blog/2021/05/05/One-Third-of-2021/)
 
 ### Observations/Thoughts
 
