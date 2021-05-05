@@ -28,6 +28,8 @@ No newsletters this week.
 
 ### Miscellaneous
 
+[Using GDB and `defmt` to debug embedded programs](https://ferrous-systems.com/blog/gdb-and-defmt/)
+
 # Crate of the Week
 
 This week's crate is [cargo-rr](https://github.com/danielzfranklin/cargo-rr), a cargo subcommand to use the time-traveling rr debugger on our code.
