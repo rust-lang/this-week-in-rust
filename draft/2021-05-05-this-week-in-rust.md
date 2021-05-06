@@ -62,6 +62,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [ZH] [series] [Build GraphQL services based on Async Rust using tide + async-graphql + mongodb (基于 Async Rust 构建 GraphQL 服务，使用 tide + async-graphql + mongodb) - Part 3](https://blog.budshome.com/budshome/gou-jian-rust-yi-bu-graphql-fu-wu-:ji-yu-tide-+-async-graphql-+-mongodb(3)--zhong-gou)
 * [ZH] [series] [Build GraphQL services based on Async Rust using actix-web + async-graphql + rbatis + postgresql / mysql (基于 actix-web + async-graphql + rbatis + postgresql / mysql 构建异步 Rust GraphQL 服务) - Part 2](https://blog.budshome.com/budshome/ji-yu-actix-web-+-async-graphql-+-rbatis-+-postgresql---mysql-gou-jian-yi-bu-rust-graphql-fu-wu-(2)---cha-xun-fu-wu)
 * [video] [Crust of Rust: Dispatch and Fat Pointers](https://youtu.be/xcygqF5LVmM)
+* [video] [Ockam | OSS Community Call | April 2021](https://www.youtube.com/watch?v=ndujK8lTTVY)
 
 ### Papers/Research Projects
 * [New Variant of Buer Loader Written in Rust](https://www.proofpoint.com/us/blog/threat-insight/new-variant-buer-loader-written-rust)
@@ -184,6 +185,7 @@ decision. Express your opinions now.
 * [May 11, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycchbpb/)
 * [May 11, Saarbücken, Saarland, DE - Meetup: 11u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/277607432/)
 * [May 15 - June 7, Online - Solana Season Hackathon - Registration open now](https://twitter.com/solana/status/1387411221717176323?s=20)
+* [May 17, 2021, Cardiff, UK - Rust and Cpp Cardiff :: v2.0 - Rust and C++ Cardiff](https://secure.meetup.com/register/?referrer_n=event&referrer_i=278002832&ctx=ref)
 * [May 20, 2021, Online - Go vs Rust | Round table discussion](https://rustlab.it/en/rust-vs-go/)
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -194,6 +196,10 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Fiberplane**
+
+* [Rust Engineer (Remote)](https://fiberplane.dev/careers/rust-engineer/)
 
 **Paige**
 
@@ -207,11 +213,31 @@ Email the [Rust Community Team][community] for access.
 
 * [Rust backend engineer (Remote, the Americas)](https://old.reddit.com/r/rust/comments/mfstaz/official_rrust_whos_hiring_thread_for_jobseekers/gspq9v1/)
 
+**ConsenSys**
+
+* [Rust Software Engineer (Protocol Engineering)](https://arbeitnow.com/view/rust-software-engineer-protocol-engineering-consensys-459183)
+
+**Spacemesh**
+
+* [Rust Developer (Remote)](https://spacemesh.io/rust-developer/)
+
+**DEX Labs**
+
+* [Senior Software Engineer – Full-Stack (Remote)](https://dex-labs.breezy.hr/p/49c5370a8473)
+
 **Kollider**
 
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 * [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 * [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
+
+**Ockam**
+
+* [Multiple Rust Engineering Positions](https://www.ockam.io/team#open-roles)
+
+**Kraken**
+
+* [Several Rust Engineering Positions](https://jobs.lever.co/kraken?team=Engineering)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
