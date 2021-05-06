@@ -62,6 +62,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [ZH] [series] [Build GraphQL services based on Async Rust using tide + async-graphql + mongodb (基于 Async Rust 构建 GraphQL 服务，使用 tide + async-graphql + mongodb) - Part 3](https://blog.budshome.com/budshome/gou-jian-rust-yi-bu-graphql-fu-wu-:ji-yu-tide-+-async-graphql-+-mongodb(3)--zhong-gou)
 * [ZH] [series] [Build GraphQL services based on Async Rust using actix-web + async-graphql + rbatis + postgresql / mysql (基于 actix-web + async-graphql + rbatis + postgresql / mysql 构建异步 Rust GraphQL 服务) - Part 2](https://blog.budshome.com/budshome/ji-yu-actix-web-+-async-graphql-+-rbatis-+-postgresql---mysql-gou-jian-yi-bu-rust-graphql-fu-wu-(2)---cha-xun-fu-wu)
 * [video] [Crust of Rust: Dispatch and Fat Pointers](https://youtu.be/xcygqF5LVmM)
+* [video] [Ockam | OSS Community Call | April 2021](https://www.youtube.com/watch?v=ndujK8lTTVY)
 
 ### Papers/Research Projects
 * [New Variant of Buer Loader Written in Rust](https://www.proofpoint.com/us/blog/threat-insight/new-variant-buer-loader-written-rust)
@@ -73,8 +74,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [A brief history of Rust at Facebook](https://engineering.fb.com/2021/04/29/developer-tools/rust/)
 * [rustc performance improvement from rust 1.46 to 1.51](https://www.reddit.com/r/rust/comments/n2lh7z/rustc_performance_improvement_from_rust_146_to_151/)
 * [Microsoft joins Bytecode Alliance to advance WebAssembly - aka the thing that lets you run compiled C/C++/Rust code in browsers](https://www.theregister.com/2021/04/28/microsoft_bytecode_alliance/)
+* [Using GDB and `defmt` to debug embedded programs](https://ferrous-systems.com/blog/gdb-and-defmt/)
 
-[Using GDB and `defmt` to debug embedded programs](https://ferrous-systems.com/blog/gdb-and-defmt/)
 
 # Crate of the Week
 
@@ -94,6 +95,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
+
+* [paru - Add -P --stats](https://github.com/Morganamilo/paru/issues/357)
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
@@ -149,7 +152,8 @@ Revision range: [537544..7a0f178](https://perf.rust-lang.org/?start=537544b10614
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [Target tier policy](https://github.com/rust-lang/rfcs/pull/2803)
+* [add const-ub RFC](https://github.com/rust-lang/rfcs/pull/3016)
 
 ## Final Comment Period
 
@@ -159,31 +163,31 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [RFC: Reserved prefixes in the 2021 edition](https://github.com/rust-lang/rfcs/pull/3101)
-* [disposition: postpone] [Enum variant types](https://github.com/rust-lang/rfcs/pull/2593)
+* [disposition: merge] [A new prelude for the 2021 edition (trait-only edition)](https://github.com/rust-lang/rfcs/pull/3114)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Add default search path to `Target::search()`](https://github.com/rust-lang/rust/pull/83800)
-* [disposition: merge] [parser: Remove support for inner attributes on non-block expressions](https://github.com/rust-lang/rust/pull/83312)
-* [disposition: merge] [Tracking Issue for {HashMap,BTreeMap}::into_{keys,values}](https://github.com/rust-lang/rust/issues/75294)
+* [disposition: merge] [FCP poll for ErrorKind::OutOfMemory](https://github.com/rust-lang/rust/issues/84916)
+* [disposition: merge] [impl FromStr for proc_macro::Literal](https://github.com/rust-lang/rust/pull/84717)
+* [disposition: merge] [rustdoc: Make "rust code block is empty" and "could not parse code block" warnings a lint (`INVALID_RUST_CODEBLOCKS`)](https://github.com/rust-lang/rust/pull/84587)
+* [disposition: merge] [Uplift the invalid_atomic_ordering lint from clippy to rustc](https://github.com/rust-lang/rust/pull/84039)
+* [disposition: merge] [Stabilize "RangeFrom" patterns](https://github.com/rust-lang/rust/pull/83918)
+* [disposition: merge] [Stabilize extended_key_value_attributes](https://github.com/rust-lang/rust/pull/83366)
 
 ## New RFCs
 
-* [Add bitfields support](https://github.com/rust-lang/rfcs/pull/3113)
-* [A new prelude for the 2021 edition (trait-only edition)](https://github.com/rust-lang/rfcs/pull/3114)
+* [RFC: Preview for Unstable Features](https://github.com/rust-lang/rfcs/pull/3120)
+* [Rust-lang crate ownership policy](https://github.com/rust-lang/rfcs/pull/3119)
 
 # Upcoming Events
 
 ### Online
-* [April 28, Online - Ockam Open Source Community Call - Live coding walkthrough of building end-to-end encrypted communication in Rust](https://github.com/ockam-network/ockam/discussions/1303)
-* [May 3, 2021, Online - Cloud Native Rust Day](https://events.linuxfoundation.org/cloud-native-rust-day/)
-* [May 4, 2021, Online - Cloud Native WASM Day](https://events.linuxfoundation.org/cloud-native-wasm-day/)
-* [May 4, 2021, Dublin, IE - Rust Dublin May Remote Meetup - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/277860218/)
-* [May 4, Buffalo, NY, US - Buffalo Rust User Group, Tues May 4th - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/277402612/)
+* [May 6, New York, NY, US - Rust Lightning Talks - Rust NYC](https://www.meetup.com/Rust-NYC/events/277822386)
 * [May 11, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycchbpb/)
 * [May 11, Saarbücken, Saarland, DE - Meetup: 11u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/277607432/)
+* [May 12, Online - Rust Meetup May 2021 - Rust Malaysia](https://docs.google.com/forms/d/e/1FAIpQLSf_hz-ZDwYEhVmIH0uzJ0uH41aXWZ_zRDsI0XENpfkKHvh_Jg/viewform)
 * [May 15 - June 7, Online - Solana Season Hackathon - Registration open now](https://twitter.com/solana/status/1387411221717176323?s=20)
+* [May 17, 2021, Cardiff, UK - Rust and Cpp Cardiff :: v2.0 - Rust and C++ Cardiff](https://secure.meetup.com/register/?referrer_n=event&referrer_i=278002832&ctx=ref)
 * [May 20, 2021, Online - Go vs Rust | Round table discussion](https://rustlab.it/en/rust-vs-go/)
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -194,6 +198,10 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Fiberplane**
+
+* [Rust Engineer (Remote)](https://fiberplane.dev/careers/rust-engineer/)
 
 **Paige**
 
@@ -207,11 +215,31 @@ Email the [Rust Community Team][community] for access.
 
 * [Rust backend engineer (Remote, the Americas)](https://old.reddit.com/r/rust/comments/mfstaz/official_rrust_whos_hiring_thread_for_jobseekers/gspq9v1/)
 
+**ConsenSys**
+
+* [Rust Software Engineer (Protocol Engineering)](https://arbeitnow.com/view/rust-software-engineer-protocol-engineering-consensys-459183)
+
+**Spacemesh**
+
+* [Rust Developer (Remote)](https://spacemesh.io/rust-developer/)
+
+**DEX Labs**
+
+* [Senior Software Engineer – Full-Stack (Remote)](https://dex-labs.breezy.hr/p/49c5370a8473)
+
 **Kollider**
 
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 * [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 * [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
+
+**Ockam**
+
+* [Multiple Rust Engineering Positions](https://www.ockam.io/team#open-roles)
+
+**Kraken**
+
+* [Several Rust Engineering Positions](https://jobs.lever.co/kraken?team=Engineering)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
