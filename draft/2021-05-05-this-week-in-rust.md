@@ -21,6 +21,7 @@ No newsletters this week.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+[Making Generative Art with Rust: interview with Alexis André](https://blog.abor.dev/p/making-generative-art-with-rust)
 
 ### Rust Walkthroughs
 
