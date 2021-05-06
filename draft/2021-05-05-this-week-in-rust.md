@@ -35,6 +35,8 @@ No newsletters this week.
 * [ZH] [series] [Build GraphQL services based on Async Rust using actix-web + async-graphql + rbatis + postgresql / mysql (基于 actix-web + async-graphql + rbatis + postgresql / mysql 构建异步 Rust GraphQL 服务) - Part 2](https://blog.budshome.com/budshome/ji-yu-actix-web-+-async-graphql-+-rbatis-+-postgresql---mysql-gou-jian-yi-bu-rust-graphql-fu-wu-(2)---cha-xun-fu-wu)
 
 
+* Make a [Counter](https://kas-gui.github.io/tutorials/counter.html) and [Calculator](https://kas-gui.github.io/tutorials/calculator.html) with KAS GUI
+
 ### Papers/Research Projects
 
 ### Miscellaneous
