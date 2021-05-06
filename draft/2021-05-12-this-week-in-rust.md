@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Pallets in Substrate and using them in runtime.](https://blog.knoldus.com/pallets-in-substrate-and-using-them-in-runtime/)
+
 ### Papers/Research Projects
 
 ### Miscellaneous
