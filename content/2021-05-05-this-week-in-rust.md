@@ -35,7 +35,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [How Rust makes Rayon's data parallelism magical](https://developers.redhat.com/blog/2021/04/30/how-rust-makes-rayons-data-parallelism-magical/)
-* [Making Generative Art with Rust](https://blog.abor.dev/p/making-generative-art-with-rust)
 * [An Incomplete Explanation of the Proc Macro That Saved Me 4000 Lines of Rust](https://mbuffett.com/posts/incomplete-macro-walkthrough/)
 * [The most underrated but useful Rust standard library type](https://dev.to/thepuzzlemaker/the-most-underrated-but-useful-rust-standard-library-type-59b1)
 * [Guaranteed unique; Or, why dogfooding can be taxing.](https://dev.to/ecton/guaranteed-unique-or-why-dogfooding-can-be-taxing-2gcn)
