@@ -96,6 +96,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
+* [paru - Add -P --stats](https://github.com/Morganamilo/paru/issues/357)
+
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
 # Updates from Rust Core
@@ -150,7 +152,8 @@ Revision range: [537544..7a0f178](https://perf.rust-lang.org/?start=537544b10614
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [Target tier policy](https://github.com/rust-lang/rfcs/pull/2803)
+* [add const-ub RFC](https://github.com/rust-lang/rfcs/pull/3016)
 
 ## Final Comment Period
 
@@ -160,30 +163,29 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [RFC: Reserved prefixes in the 2021 edition](https://github.com/rust-lang/rfcs/pull/3101)
-* [disposition: postpone] [Enum variant types](https://github.com/rust-lang/rfcs/pull/2593)
+* [disposition: merge] [A new prelude for the 2021 edition (trait-only edition)](https://github.com/rust-lang/rfcs/pull/3114)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Add default search path to `Target::search()`](https://github.com/rust-lang/rust/pull/83800)
-* [disposition: merge] [parser: Remove support for inner attributes on non-block expressions](https://github.com/rust-lang/rust/pull/83312)
-* [disposition: merge] [Tracking Issue for {HashMap,BTreeMap}::into_{keys,values}](https://github.com/rust-lang/rust/issues/75294)
+* [disposition: merge] [FCP poll for ErrorKind::OutOfMemory](https://github.com/rust-lang/rust/issues/84916)
+* [disposition: merge] [impl FromStr for proc_macro::Literal](https://github.com/rust-lang/rust/pull/84717)
+* [disposition: merge] [rustdoc: Make "rust code block is empty" and "could not parse code block" warnings a lint (`INVALID_RUST_CODEBLOCKS`)](https://github.com/rust-lang/rust/pull/84587)
+* [disposition: merge] [Uplift the invalid_atomic_ordering lint from clippy to rustc](https://github.com/rust-lang/rust/pull/84039)
+* [disposition: merge] [Stabilize "RangeFrom" patterns](https://github.com/rust-lang/rust/pull/83918)
+* [disposition: merge] [Stabilize extended_key_value_attributes](https://github.com/rust-lang/rust/pull/83366)
 
 ## New RFCs
 
-* [Add bitfields support](https://github.com/rust-lang/rfcs/pull/3113)
-* [A new prelude for the 2021 edition (trait-only edition)](https://github.com/rust-lang/rfcs/pull/3114)
+* [RFC: Preview for Unstable Features](https://github.com/rust-lang/rfcs/pull/3120)
+* [Rust-lang crate ownership policy](https://github.com/rust-lang/rfcs/pull/3119)
 
 # Upcoming Events
 
 ### Online
-* [April 28, Online - Ockam Open Source Community Call - Live coding walkthrough of building end-to-end encrypted communication in Rust](https://github.com/ockam-network/ockam/discussions/1303)
-* [May 3, 2021, Online - Cloud Native Rust Day](https://events.linuxfoundation.org/cloud-native-rust-day/)
-* [May 4, 2021, Online - Cloud Native WASM Day](https://events.linuxfoundation.org/cloud-native-wasm-day/)
-* [May 4, 2021, Dublin, IE - Rust Dublin May Remote Meetup - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/277860218/)
-* [May 4, Buffalo, NY, US - Buffalo Rust User Group, Tues May 4th - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/277402612/)
+* [May 6, New York, NY, US - Rust Lightning Talks - Rust NYC](https://www.meetup.com/Rust-NYC/events/277822386)
 * [May 11, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycchbpb/)
 * [May 11, Saarbücken, Saarland, DE - Meetup: 11u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/277607432/)
+* [May 12, Online - Rust Meetup May 2021 - Rust Malaysia](https://docs.google.com/forms/d/e/1FAIpQLSf_hz-ZDwYEhVmIH0uzJ0uH41aXWZ_zRDsI0XENpfkKHvh_Jg/viewform)
 * [May 15 - June 7, Online - Solana Season Hackathon - Registration open now](https://twitter.com/solana/status/1387411221717176323?s=20)
 * [May 17, 2021, Cardiff, UK - Rust and Cpp Cardiff :: v2.0 - Rust and C++ Cardiff](https://secure.meetup.com/register/?referrer_n=event&referrer_i=278002832&ctx=ref)
 * [May 20, 2021, Online - Go vs Rust | Round table discussion](https://rustlab.it/en/rust-vs-go/)
