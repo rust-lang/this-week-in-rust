@@ -73,8 +73,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [A brief history of Rust at Facebook](https://engineering.fb.com/2021/04/29/developer-tools/rust/)
 * [rustc performance improvement from rust 1.46 to 1.51](https://www.reddit.com/r/rust/comments/n2lh7z/rustc_performance_improvement_from_rust_146_to_151/)
 * [Microsoft joins Bytecode Alliance to advance WebAssembly - aka the thing that lets you run compiled C/C++/Rust code in browsers](https://www.theregister.com/2021/04/28/microsoft_bytecode_alliance/)
+* [Using GDB and `defmt` to debug embedded programs](https://ferrous-systems.com/blog/gdb-and-defmt/)
 
-[Using GDB and `defmt` to debug embedded programs](https://ferrous-systems.com/blog/gdb-and-defmt/)
 
 # Crate of the Week
 
