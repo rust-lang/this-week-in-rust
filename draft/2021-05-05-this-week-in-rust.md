@@ -19,6 +19,7 @@ No newsletters this week.
 ### Official
 
 ### Project/Tooling Updates
+* [One Third Of 2021](https://isomorphicdb.io/blog/2021/05/05/One-Third-of-2021/)
 
 * [This Week In TensorBase 1](https://tensorbase.io/thisweek/2021-05-01-tw_1/)
 * [gfx/wgpu releases 0.8](https://gfx-rs.github.io/2021/04/30/release-0.8.html)
