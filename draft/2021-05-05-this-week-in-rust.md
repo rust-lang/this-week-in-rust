@@ -20,9 +20,23 @@ No newsletters this week.
 
 ### Project/Tooling Updates
 
+* [This Week In TensorBase 1](https://tensorbase.io/thisweek/2021-05-01-tw_1/)
+* [gfx/wgpu releases 0.8](https://gfx-rs.github.io/2021/04/30/release-0.8.html)
+* [Last Month in Flott (Motion Control Toolkit in Rust) - May 2021](https://flott-motion.org/news/last-month-in-flott-may-2021/)
+
 ### Observations/Thoughts
+[Making Generative Art with Rust: interview with Alexis André](https://blog.abor.dev/p/making-generative-art-with-rust)
+
+[Compilers as Teachers](https://ferrous-systems.com/blog/compilers-as-teachers/)
 
 ### Rust Walkthroughs
+* [Late Night Confessions — Building a Website Using Rust, Rocket, Diesel, and Askama - Part 3](https://medium.com/perimeterx/late-night-confessions-building-a-website-using-rust-rocket-diesel-and-askama-part-3-3f9b7d511bde)
+
+* [ZH] [series] [Build GraphQL services based on Async Rust using tide + async-graphql + mongodb (基于 Async Rust 构建 GraphQL 服务，使用 tide + async-graphql + mongodb) - Part 3](https://blog.budshome.com/budshome/gou-jian-rust-yi-bu-graphql-fu-wu-:ji-yu-tide-+-async-graphql-+-mongodb(3)--zhong-gou)
+* [ZH] [series] [Build GraphQL services based on Async Rust using actix-web + async-graphql + rbatis + postgresql / mysql (基于 actix-web + async-graphql + rbatis + postgresql / mysql 构建异步 Rust GraphQL 服务) - Part 2](https://blog.budshome.com/budshome/ji-yu-actix-web-+-async-graphql-+-rbatis-+-postgresql---mysql-gou-jian-yi-bu-rust-graphql-fu-wu-(2)---cha-xun-fu-wu)
+
+
+* Make a [Counter](https://kas-gui.github.io/tutorials/counter.html) and [Calculator](https://kas-gui.github.io/tutorials/calculator.html) with KAS GUI
 
 ### Papers/Research Projects
 
@@ -30,9 +44,9 @@ No newsletters this week.
 
 # Crate of the Week
 
-This week's crate is [cargo-rr](https://github.com/danielzfranklin/cargo-rr), a cargo subcommand to use the time-traveling rr debugger on our code.
+This week's crate is [display_utils](https://docs.rs/display_utils), a library with `Display`able structs to make string manipulation easier.
 
-Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/905) for the nomination
+Thanks to [kangalioo](https://users.rust-lang.org/t/crate-of-the-week/2704/908) for the nomination
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -51,49 +65,50 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-350 pull requests were [merged in the last week][merged]
+322 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-04-19..2021-04-26
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-04-26..2021-05-03
 
-* [use LLVM's new saturating float-to-int intrinsics](https://github.com/rust-lang/rust/pull/84339)
-* [enable sanitizers for `x86_64-unknown-linux-musl`](https://github.com/rust-lang/rust/pull/84126)
-* [add coverage to `continue` statements](https://github.com/rust-lang/rust/pull/84295)
-* [further split up `const_fn` feature flag](https://github.com/rust-lang/rust/pull/84310)
-* [various const parameter defaults improvements](https://github.com/rust-lang/rust/pull/84299)
-* [tweak trait not `use d suggestion](https://github.com/rust-lang/rust/pull/84499)
-* [on stable, suggest removing `#![feature]` for features that have been stabilized](https://github.com/rust-lang/rust/pull/83722)
-* [improve diagnostics for function passed when a type was expected](https://github.com/rust-lang/rust/pull/84520)
-* [add suggestion to "use break" when attempting to implicit-break a loop](https://github.com/rust-lang/rust/pull/84516)
-* [suggest `.as_ref()` on borrow error involving `Option`/`Result`](https://github.com/rust-lang/rust/pull/84353)
-* [implement a lint that highlights all moves larger than a configured limit](https://github.com/rust-lang/rust/pull/83519)
-* [introduce `CompileMonoItem` `DepNode`](https://github.com/rust-lang/rust/pull/84123)
-* [cautiously add `IntoIterator` for arrays by value](https://github.com/rust-lang/rust/pull/84147)
-* [stabilize `Duration::MAX`](https://github.com/rust-lang/rust/pull/84120)
-* [stabilize `core::array::`{`from_ref`, `from_mut`} in 1.53.0](https://github.com/rust-lang/rust/pull/84105)
-* [implement `TrustedRandomAccess` for `Take` iterator adapter](https://github.com/rust-lang/rust/pull/83990)
-* [format `Struct { .. }` on one line even with `{:#?}`](https://github.com/rust-lang/rust/pull/84390)
-* [added `CharIndices::offset` function](https://github.com/rust-lang/rust/pull/82585)
-* [improve rebuilding behaviour of `BinaryHeap::retain`](https://github.com/rust-lang/rust/pull/78681)
-* [hashbrown: add an `allocator()` getter to `HashMap` and `HashSet`](https://github.com/rust-lang/hashbrown/pull/257)
-* [libz: disable forced zlib vendoring on musl](https://github.com/rust-lang/libz-sys/pull/78)
-* [cargo: some changes to rustdoc fingerprint checking](https://github.com/rust-lang/cargo/pull/9404)
-* [rustdoc: remove most fields from `ExternalCrate`](https://github.com/rust-lang/rust/pull/84457)
-* [clippy: refactor MSRV aliases](https://github.com/rust-lang/rust-clippy/pull/7137)
-* [clippy: finish MSRV for `cloned_instead_of_copied`](https://github.com/rust-lang/rust-clippy/pull/7134)
-* [clippy: `manual_unwrap_or`: fix invalid code suggestion due to macro expansion](https://github.com/rust-lang/rust-clippy/pull/7136)
-* [clippy: `cloned_instead_of_copied` MSRV](https://github.com/rust-lang/rust-clippy/pull/7129)
-* [clippy: add `flat_map_option` lint](https://github.com/rust-lang/rust-clippy/pull/7101)
-* [clippy: `unused_io_amount` detects `.read().ok()?`](https://github.com/rust-lang/rust-clippy/pull/7100)
-* [clippy: add lint to check for boolean comparison in assert macro calls](https://github.com/rust-lang/rust-clippy/pull/7083)
+* [adds feature-gated `#[no_coverage]` function attribute, to fix derived Eq `0` coverage](https://github.com/rust-lang/rust/pull/84562)
+* [give a better error when `std` or `core` are missing](https://github.com/rust-lang/rust/pull/84450)
+* [suggestion for unit enum variant when matched with a pattern](https://github.com/rust-lang/rust/pull/84818)
+* [avoid generating `QueryMap::extend` for each key type](https://github.com/rust-lang/rust/pull/84805)
+* [remove dead code in `rustc_session::Options`](https://github.com/rust-lang/rust/pull/84802)
+* [move `iter_results` to `dyn FnMut` rather than a generic](https://github.com/rust-lang/rust/pull/84719)
+* [miri: throw UB if f*_fast intrinsic called with non-finite value](https://github.com/rust-lang/miri/pull/1785)
+* [miri: use `harness = false` instead of `#![feature(custom_test_frameworks)]`](https://github.com/rust-lang/miri/pull/1784)
+* [LLVM: don't merge thread_local constants with non-thread_local constants](https://github.com/rust-lang/llvm-project/pull/105)
+* [be stricter about rejecting LLVM reserved registers in asm!](https://github.com/rust-lang/rust/pull/84658)
+* [stabilize `vec_extend_from_within`](https://github.com/rust-lang/rust/pull/84642)
+* [stabilize `ordering_helpers`](https://github.com/rust-lang/rust/pull/84523)
+* [override `clone_from` method for `PathBuf` and `OsString`](https://github.com/rust-lang/rust/pull/84615)
+* [simplify `Mutex::into_inner`](https://github.com/rust-lang/rust/pull/84650)
+* [`i8` and `u8::to_string()` specialisation](https://github.com/rust-lang/rust/pull/82576)
+* [reuse `sys::unix::cmath` on other platforms](https://github.com/rust-lang/rust/pull/84522)
+* [add `ErrorKind::OutOfMemory`](https://github.com/rust-lang/rust/pull/84744)
+* [add `std::os::unix::fs::chroot` to change the root directory of the current process](https://github.com/rust-lang/rust/pull/84716)
+* [inline most raw socket, fd and handle conversions](https://github.com/rust-lang/rust/pull/84541)
+* [socket2: allow for niche optimization on Unix platforms](https://github.com/rust-lang/socket2/pull/222)
+* [regex: fix lazy DFA false quits on ASCII text](https://github.com/rust-lang/regex/pull/768)
+* [regex: update to latest memchr + upgrade to Rust 2018 + bump MSRV to Rust 1.41](https://github.com/rust-lang/regex/pull/767)
+* [cargo: add report subcommand](https://github.com/rust-lang/cargo/pull/9438)
+* [cargo: show transfer rate when fetching/updating registry index](https://github.com/rust-lang/cargo/pull/9395)
+* [rustdoc: remove unnecessary `provided_trait_methods` field from Impl](https://github.com/rust-lang/rust/pull/84463)
+* [rustdoc: shrink `doctree::Module`](https://github.com/rust-lang/rust/pull/84763)
+* [datafrog: micro-optimize `binary_search`](https://github.com/rust-lang/datafrog/pull/30)
+* [clippy: fix a false-positive inside const fn in `comparison_chain`](https://github.com/rust-lang/rust-clippy/pull/7118)
+* [clippy: `implicit_return` improvements](https://github.com/rust-lang/rust-clippy/pull/6951)
+* [clippy: `while_immutable_cond`: check condition for mutation](https://github.com/rust-lang/rust-clippy/pull/7144)
+* [clippy: fix false negative in `iter_cloned_collect` with a large array](https://github.com/rust-lang/rust-clippy/pull/7138)
 
 ## Rust Compiler Performance Triage
 
-It's always nice to have a week without any regressions and 2 small improvements 🎉🎉.
+Quiet week, no significant changes.
 
-Triage done by **@rylev**.
-Revision range: [6df26f8..537544](https://perf.rust-lang.org/?start=6df26f897cffb2d86880544bb451c6b5f8509b2d&end=537544b1061467ee4b74ef7f552fab3d513e5caf&absolute=false&stat=instructions%3Au)
+Triage done by **@simulacrum**.
+Revision range: [537544..7a0f178](https://perf.rust-lang.org/?start=537544b1061467ee4b74ef7f552fab3d513e5caf&end=7a0f1781d04662041db5deaef89598a8edd53717&absolute=false&stat=instructions%3Au)
 
-0 Regressions, 2 Improvements, 0 Mixed
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-05-04.md).
 
 ## Approved RFCs
 
@@ -133,6 +148,8 @@ decision. Express your opinions now.
 * [May 4, 2021, Dublin, IE - Rust Dublin May Remote Meetup - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/277860218/)
 * [May 4, Buffalo, NY, US - Buffalo Rust User Group, Tues May 4th - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/277402612/)
 * [May 11, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycchbpb/)
+* [May 11, Saarbücken, Saarland, DE - Meetup: 11u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/277607432/)
+* [May 15 - June 7, Online - Solana Season Hackathon - Registration open now](https://twitter.com/solana/status/1387411221717176323?s=20)
 * [May 20, 2021, Online - Go vs Rust | Round table discussion](https://rustlab.it/en/rust-vs-go/)
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -144,15 +161,27 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Paige**
+
+* [Senior Software Engineer, Visualization (Remote, Europe)](https://boards.greenhouse.io/paige/jobs/5210311002)
+
+**Netlify**
+
+* [Senior Backend Engineer (Go/Rust) (Remote or San Francisco, CA, US)](https://boards.greenhouse.io/netlify/jobs/5054144002)
+
+**e.ventures**
+
+* [Rust backend engineer (Remote, the Americas)](https://old.reddit.com/r/rust/comments/mfstaz/official_rrust_whos_hiring_thread_for_jobseekers/gspq9v1/)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> this error message is UNREAL
+> Using R or Numpy is like driving around in a sports car. You just turn the wheel, press the pedals, and burn rubber. Rust (and other systems languages) are like getting a spaceship. You can go places and do things that you never dreamt of in a car. They are harder to pilot, but the possibilities seem unlimited! With the Rust ecosystem still in development, it feels like parts of your spaceship come in boxes of parts labeled "some assembly required".
 
-– [Ash 2X3 on Twitter](https://twitter.com/ash2x3/status/1384986537167892483)
+– [Erik Rose on rust-users](https://users.rust-lang.org/t/rust-for-data-first-problems/58887/16)
 
-Thanks to [Nixon Enraght-Moony](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1046) for the suggestion!
+Thanks to [Phlopsi](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1047) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
