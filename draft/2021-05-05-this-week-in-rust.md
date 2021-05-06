@@ -145,7 +145,7 @@ Email the [Rust Community Team][community] for access.
 
 **Netlify**
 
-  * [Senior Backend Engineer (Go/Rust)](https://boards.greenhouse.io/netlify/jobs/5054144002)
+  * [Senior Backend Engineer (Go/Rust) (Remote or San Francisco, CA, US)](https://boards.greenhouse.io/netlify/jobs/5054144002)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
