@@ -43,6 +43,8 @@ No newsletters this week.
 
 ### Miscellaneous
 
+[Using GDB and `defmt` to debug embedded programs](https://ferrous-systems.com/blog/gdb-and-defmt/)
+
 # Crate of the Week
 
 This week's crate is [display_utils](https://docs.rs/display_utils), a library with `Display`able structs to make string manipulation easier.
