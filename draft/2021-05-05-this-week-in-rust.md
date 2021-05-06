@@ -25,6 +25,8 @@ No newsletters this week.
 ### Observations/Thoughts
 [Making Generative Art with Rust: interview with Alexis André](https://blog.abor.dev/p/making-generative-art-with-rust)
 
+[Compilers as Teachers](https://ferrous-systems.com/blog/compilers-as-teachers/)
+
 ### Rust Walkthroughs
 * [Late Night Confessions — Building a Website Using Rust, Rocket, Diesel, and Askama - Part 3](https://medium.com/perimeterx/late-night-confessions-building-a-website-using-rust-rocket-diesel-and-askama-part-3-3f9b7d511bde)
 
