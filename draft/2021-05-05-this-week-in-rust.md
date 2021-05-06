@@ -157,9 +157,13 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Paige**
+
+* [Senior Software Engineer, Visualization (Remote, Europe)](https://boards.greenhouse.io/paige/jobs/5210311002)
+
 **Netlify**
 
-  * [Senior Backend Engineer (Go/Rust) (Remote or San Francisco, CA, US)](https://boards.greenhouse.io/netlify/jobs/5054144002)
+* [Senior Backend Engineer (Go/Rust) (Remote or San Francisco, CA, US)](https://boards.greenhouse.io/netlify/jobs/5054144002)
 
 **e.ventures**
 
