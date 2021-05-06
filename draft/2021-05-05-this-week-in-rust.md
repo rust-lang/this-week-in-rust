@@ -24,9 +24,7 @@ No newsletters this week.
 
 ### Rust Walkthroughs
 
-Make a [Counter](https://kas-gui.github.io/tutorials/counter.html) and a
-[Calculator](https://kas-gui.github.io/tutorials/calculator.html) with
-KAS GUI: introduction to custom widgets, layout and event handling.
+* Make a [Counter](https://kas-gui.github.io/tutorials/counter.html) and [Calculator](https://kas-gui.github.io/tutorials/calculator.html) with KAS GUI
 
 ### Papers/Research Projects
 
