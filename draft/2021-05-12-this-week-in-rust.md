@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+[Rust on the Frontend and Backend](https://blog.abor.dev/p/moonzoon)
 
 ### Rust Walkthroughs
 
