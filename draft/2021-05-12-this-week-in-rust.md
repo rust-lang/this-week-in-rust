@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [What is Embedded System? Why RUST for Embedded ??](https://blog.knoldus.com/embedded-with-rust/)
 
 ### Papers/Research Projects
 
