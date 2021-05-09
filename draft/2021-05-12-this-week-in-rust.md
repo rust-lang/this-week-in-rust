@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [Graphs in Rust: What is a Graph? Representing them in Rust](https://youtu.be/3DLrUNbKhjQ)
 
 ### Papers/Research Projects
 
