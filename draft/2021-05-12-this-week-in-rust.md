@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Why we should consider Rust for Embedded Developement?](https://blog.knoldus.com/why-rust-for-embedded-development/)
 
 ### Rust Walkthroughs
+* [BABE – Consensus Algorithm and How to Implement it](https://blog.knoldus.com/babe-consensus-algorithm-and-how-to-implement-it-in-our-runtime/)
 
 ### Papers/Research Projects
 
