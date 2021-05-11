@@ -38,7 +38,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Papers/Research Projects
 
 ### Miscellaneous
-[Building Rust binaries in CI that work with older GLIBC](https://kobzol.github.io/rust/ci/2021/05/07/building-rust-binaries-in-ci-that-work-with-older-glibc.html)
+* [Building Rust binaries in CI that work with older GLIBC](https://kobzol.github.io/rust/ci/2021/05/07/building-rust-binaries-in-ci-that-work-with-older-glibc.html)
+* [video] [The Rust Borrow Checker—A Deep Dive @ Rust DC, April 20, 2021 w/ Nell Shamrell-Harrington](https://youtu.be/Ys7ma3au5m0)
 
 # Crate of the Week
 
