@@ -38,6 +38,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Papers/Research Projects
 
 ### Miscellaneous
+[Building Rust binaries in CI that work with older GLIBC](https://kobzol.github.io/rust/ci/2021/05/07/building-rust-binaries-in-ci-that-work-with-older-glibc.html)
 
 # Crate of the Week
 
