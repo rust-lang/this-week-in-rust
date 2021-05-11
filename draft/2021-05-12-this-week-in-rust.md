@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 * [BABE – Consensus Algorithm and How to Implement it](https://blog.knoldus.com/babe-consensus-algorithm-and-how-to-implement-it-in-our-runtime/)
 
+* [Pallets in Substrate and using them in runtime.](https://blog.knoldus.com/pallets-in-substrate-and-using-them-in-runtime/)
+
 ### Papers/Research Projects
 
 ### Miscellaneous
