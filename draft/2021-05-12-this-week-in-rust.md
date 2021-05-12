@@ -169,6 +169,11 @@ Email the [Rust Community Team][community] for access.
 * [Rust Engineering Lead at TrueLayer (London, UK)](https://apply.workable.com/truelayer/j/3B78A6F6F4/)
 * [Rust Engineering Lead at TrueLayer (Milan, Italy)](https://apply.workable.com/truelayer/j/8D8D56C09E/)
 
+**Impero**
+
+* [Full Stack Developer at Impero (Denmark + Remote)](https://www.linkedin.com/jobs/view/2493233249/)
+
+
 # Quote of the Week
 
 > Using R or Numpy is like driving around in a sports car. You just turn the wheel, press the pedals, and burn rubber. Rust (and other systems languages) are like getting a spaceship. You can go places and do things that you never dreamt of in a car. They are harder to pilot, but the possibilities seem unlimited! With the Rust ecosystem still in development, it feels like parts of your spaceship come in boxes of parts labeled "some assembly required".
