@@ -15,33 +15,68 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 # Updates from Rust Community
 
 ### Official
+* [The Plan for the Rust 2021 Edition](https://blog.rust-lang.org/2021/05/11/edition-2021.html)
+* [Announcing Rust 1.52.1](https://blog.rust-lang.org/2021/05/10/Rust-1.52.1.html)
+* [Announcing Rust 1.52.0](https://blog.rust-lang.org/2021/05/06/Rust-1.52.0.html)
 
 ### Newsletters
+* [This Month in Rust GameDev #21 - April 2021](https://gamedev.rs/news/021/)
+* [RiB Newsletter #23 - Rewriting in Rust?](https://www.reddit.com/r/rust/comments/n5xhku/rib_newsletter_23_rewriting_in_rust/)
 
 ### Project/Tooling Updates
+* [rust-analyzer Changelog #76](https://rust-analyzer.github.io/thisweek/2021/05/10/changelog-76.html)
 * [Knurling-rs changelog #24: three releases, `defmt-test` supports more items and a nasty issue 🦬](https://ferrous-systems.com/blog/knurling-changelog-24/)
-
 * [This Week In TensorBase 2](https://tensorbase.io/thisweek/2021-05-10-tw_2/)
-
 * [Naga shader translation benchmark](https://gfx-rs.github.io/2021/05/09/dota2-msl-compilation.html)
-
+* [Announcing egui 0.12 - the simple GUI library](https://www.reddit.com/r/rust/comments/n9f6vt/announcing_egui_012_the_simple_gui_library/)
+* [GCC Rust Weekly Status Report 14](https://thephilbert.io/2021/05/10/gcc-rust-weekly-status-report-14/)
+* [Integrating Rust Into the Android Open Source Project](https://security.googleblog.com/2021/05/integrating-rust-into-android-open.html)
+* [A New AWS SDK for Rust - Alpha Launch](https://aws.amazon.com/blogs/developer/a-new-aws-sdk-for-rust-alpha-launch/)
+* [Gleam v0.15 released!](https://gleam.run/news/gleam-v0.15-released/)
 * [IsomorphicDB. The Road ahead](https://isomorphicdb.io/blog/2021/05/11/IsomorphicDB-The-Road-ahead/)
 
 ### Observations/Thoughts
 * [Rust on the Frontend and Backend](https://blog.abor.dev/p/moonzoon)
 * [Why we should consider Rust for Embedded Developement?](https://blog.knoldus.com/why-rust-for-embedded-development/)
+* [Rust on the Frontend and Backend](https://blog.abor.dev/p/moonzoon)
+* [Optimizing 7000 CPUs Away with Rust](https://medium.com/tenable-techblog/optimizing-700-cpus-away-with-rust-dc7a000dbdb2)
+* [Improving our development confidence and productivity with Bors](https://www.fluvio.io/blog/2021/05/bors-confident-merges/)
+* [Increasing the level of parallelism in DataFusion 4.0](https://medium.com/@danilheres/increasing-the-level-of-parallelism-in-datafusion-4-0-d2a15b5a2093)
+* [My second impression of Rust and why I think it's the best general-purpose language!](https://deepu.tech/my-second-impression-of-rust/)
+* [Incrementally porting a small Python project to Rust](https://blog.waleedkhan.name/port-python-to-rust/)
+* [video] [Rust Verification Workshop 2021 - Ferrite: A Rust EDSL for Message-passing Protocol Verification](https://youtu.be/6dcf3tOPOwo)
+* [video] [Rust Verification Workshop 2021 - RustBelt: A Quick Dive into the Abyss](https://youtu.be/iAs0gZ8o0oQ)
+* [video] [Rust Verification Workshop 2021 - Polonius](https://youtu.be/H54VDCuT0J0)
+* [video] [Rust Verification Workshop 2021 - Rust Interest in safety- and mission-critical environments](https://youtu.be/_DM36e2A9dg)
+* [video] [Rust Verification Workshop 2021 - Leveraging Compiler Intermediate Representation for Multi- and Cross-Language Verification](https://youtu.be/0DcIn7kiNxM)
 
 ### Rust Walkthroughs
 * [BABE – Consensus Algorithm and How to Implement it](https://blog.knoldus.com/babe-consensus-algorithm-and-how-to-implement-it-in-our-runtime/)
 * [Pallets in Substrate and using them in runtime.](https://blog.knoldus.com/pallets-in-substrate-and-using-them-in-runtime/)
+* [How to deploy Rust web app with DigitalOcean](https://dev.to/steadylearner/how-to-deploy-rust-web-app-with-digitalocean-h2o)
+* [Learning Rust #4: Parsing JSON with strong types](https://dev.to/hamatti/learning-rust-4-parsing-json-with-strong-types-575m)
+* [How to use Rust web framework Warp](https://dev.to/steadylearner/how-to-use-rust-warp-web-framework-2b4e)
+* [Ray Tracing in One Weekend](https://misterdanb.github.io/raytracinginrust/)
+* [Procedural Macros: Error handling](https://blog.turbo.fish/proc-macro-error-handling/)
+* [Speeding up algorithms with arena allocators](https://mnwa.medium.com/speeding-up-algorithms-with-arena-allocators-d72d06f23607)
+* [Building a REST and Web Socket API with Actix and Rust](https://agmprojects.com/blog/building-a-rest-and-web-socket-api-with-actix.html)
+* [Building Rust binaries in CI that work with older GLIBC](https://kobzol.github.io/rust/ci/2021/05/07/building-rust-binaries-in-ci-that-work-with-older-glibc.html)
 * [ZH] [series] [Build GraphQL services based on Async Rust using tide + async-graphql + mongodb (基于 Async Rust 构建 GraphQL 服务，使用 tide + async-graphql + mongodb) - Part 4](https://blog.budshome.com/budshome/gou-jian-rust-yi-bu-graphql-fu-wu-:ji-yu-tide-+-async-graphql-+-mongodb(4)--bian-geng-fu-wu-,yi-ji-di-er-ci-zhong-gou)
 * [ZH] [series] [Build GraphQL services based on Async Rust using actix-web + async-graphql + rbatis + postgresql / mysql (基于 actix-web + async-graphql + rbatis + postgresql / mysql 构建异步 Rust GraphQL 服务) - Part 3](https://blog.budshome.com/budshome/ji-yu-actix-web-+-async-graphql-+-rbatis-+-postgresql---mysql-gou-jian-yi-bu-rust-graphql-fu-wu-(3)---zhong-gou)
 * [video] [Graphs in Rust: What is a Graph? Representing them in Rust](https://youtu.be/3DLrUNbKhjQ)
-
-### Papers/Research Projects
+* [video] [Rust Verification Workshop 2021 - Peeking at compiler-internal data (for fun and profit)](https://youtu.be/SKmd5A-1cSE)
+* [video] [Rust Verification Workshop 2021 - Verifying that Rust programs don't crash](https://youtu.be/vMGilPbIotw)
+* [video] [Rust Verification Workshop 2021 - crux-mir: Symbolic testing for Rust](https://youtu.be/0mocaSR9f_M)
+* [video] [Rust Verification Workshop 2021 - Rustv: Semi-automatic Verification of Unsafe Rust Programs](https://youtu.be/bikmlNlwAYo)
+* [video] [Rust Verification Workshop 2021 - Towards Automatic Verification of Unsafe Rust with Constrained Horn Solvers](https://youtu.be/yJQZ7sG8xSM)
+* [video] [Rust Verification Workshop 2021 - Prusti - Deductive Verification for Rust](https://youtu.be/C9TTioH5JUg)
+* [video] [Rust Verification Workshop 2021 - Creusot: A prototype tool for verification of Rust software](https://youtu.be/b8sBtmzq0FM)
+* [video] [Rust Verification Workshop 2021 - hacspec: succinct, executable, verifiable specifications for high-assurance cryptography](https://youtu.be/k7_BcWwvz7k)
 
 ### Miscellaneous
 * [Building Rust binaries in CI that work with older GLIBC](https://kobzol.github.io/rust/ci/2021/05/07/building-rust-binaries-in-ci-that-work-with-older-glibc.html)
+* [Innovating with Rust](https://aws.amazon.com/blogs/opensource/innovating-with-rust/)
+* [What can C++ do that Rust can't? (2021 edition)](https://www.reddit.com/r/rust/comments/n7rjfk/what_can_c_do_that_rust_cant_2021_edition/)
 * [video] [The Rust Borrow Checker—A Deep Dive @ Rust DC, April 20, 2021 w/ Nell Shamrell-Harrington](https://youtu.be/Ys7ma3au5m0)
 
 # Crate of the Week
