@@ -25,7 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 * [rust-analyzer Changelog #76](https://rust-analyzer.github.io/thisweek/2021/05/10/changelog-76.html)
-* [Knurling-rs changelog #24: three releases, `defmt-test` supports more items and a nasty issue 🦬](https://ferrous-systems.com/blog/knurling-changelog-24/)
+* [Knurling-rs changelog #24: three releases, `defmt-test` supports more items and a nasty issue](https://ferrous-systems.com/blog/knurling-changelog-24/)
 * [This Week In TensorBase 2](https://tensorbase.io/thisweek/2021-05-10-tw_2/)
 * [Naga shader translation benchmark](https://gfx-rs.github.io/2021/05/09/dota2-msl-compilation.html)
 * [Announcing egui 0.12 - the simple GUI library](https://www.reddit.com/r/rust/comments/n9f6vt/announcing_egui_012_the_simple_gui_library/)
@@ -50,7 +50,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Rust Verification Workshop 2021 - RustBelt: A Quick Dive into the Abyss](https://youtu.be/iAs0gZ8o0oQ)
 * [video] [Rust Verification Workshop 2021 - Polonius](https://youtu.be/H54VDCuT0J0)
 * [video] [Rust Verification Workshop 2021 - Rust Interest in safety- and mission-critical environments](https://youtu.be/_DM36e2A9dg)
-* [video] [Rust Verification Workshop 2021 - Leveraging Compiler Intermediate Representation for Multi- and Cross-Language Verification](https://youtu.be/0DcIn7kiNxM
+* [video] [Rust Verification Workshop 2021 - Leveraging Compiler Intermediate Representation for Multi- and Cross-Language Verification](https://youtu.be/0DcIn7kiNxM)
 
 ### Rust Walkthroughs
 * [BABE – Consensus Algorithm and How to Implement it](https://blog.knoldus.com/babe-consensus-algorithm-and-how-to-implement-it-in-our-runtime/)
