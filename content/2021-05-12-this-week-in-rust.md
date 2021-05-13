@@ -75,7 +75,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Rust Verification Workshop 2021 - hacspec: succinct, executable, verifiable specifications for high-assurance cryptography](https://youtu.be/k7_BcWwvz7k)
 
 ### Miscellaneous
-* [Building Rust binaries in CI that work with older GLIBC](https://kobzol.github.io/rust/ci/2021/05/07/building-rust-binaries-in-ci-that-work-with-older-glibc.html)
 * [Innovating with Rust](https://aws.amazon.com/blogs/opensource/innovating-with-rust/)
 * [What can C++ do that Rust can't? (2021 edition)](https://www.reddit.com/r/rust/comments/n7rjfk/what_can_c_do_that_rust_cant_2021_edition/)
 * [video] [The Rust Borrow Checker—A Deep Dive @ Rust DC, April 20, 2021 w/ Nell Shamrell-Harrington](https://youtu.be/Ys7ma3au5m0)
