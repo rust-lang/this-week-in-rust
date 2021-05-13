@@ -167,6 +167,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Paige**
+
+* [Senior Software Engineer, Visualization (Remote, Europe)](https://boards.greenhouse.io/paige/jobs/5210311002)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 **Kollider**
