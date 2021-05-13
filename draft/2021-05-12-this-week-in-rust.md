@@ -45,9 +45,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Crate of the Week
 
-This week's crate is [display_utils](https://docs.rs/display_utils), a library with `Display`able structs to make string manipulation easier.
+This week's crate is [tokio-console](https://github.com/tokio-rs/console), a "top"-like utility to view your tasks run.
 
-Thanks to [kangalioo](https://users.rust-lang.org/t/crate-of-the-week/2704/908) for the nomination
+Thanks to [Simon Farnsworth](https://users.rust-lang.org/t/crate-of-the-week/2704/910) for the nomination
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -66,41 +66,36 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-322 pull requests were [merged in the last week][merged]
+324 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-04-26..2021-05-03
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-05-03..2021-05-10
 
-* [adds feature-gated `#[no_coverage]` function attribute, to fix derived Eq `0` coverage](https://github.com/rust-lang/rust/pull/84562)
-* [give a better error when `std` or `core` are missing](https://github.com/rust-lang/rust/pull/84450)
-* [suggestion for unit enum variant when matched with a pattern](https://github.com/rust-lang/rust/pull/84818)
-* [avoid generating `QueryMap::extend` for each key type](https://github.com/rust-lang/rust/pull/84805)
-* [remove dead code in `rustc_session::Options`](https://github.com/rust-lang/rust/pull/84802)
-* [move `iter_results` to `dyn FnMut` rather than a generic](https://github.com/rust-lang/rust/pull/84719)
-* [miri: throw UB if f*_fast intrinsic called with non-finite value](https://github.com/rust-lang/miri/pull/1785)
-* [miri: use `harness = false` instead of `#![feature(custom_test_frameworks)]`](https://github.com/rust-lang/miri/pull/1784)
-* [LLVM: don't merge thread_local constants with non-thread_local constants](https://github.com/rust-lang/llvm-project/pull/105)
-* [be stricter about rejecting LLVM reserved registers in asm!](https://github.com/rust-lang/rust/pull/84658)
-* [stabilize `vec_extend_from_within`](https://github.com/rust-lang/rust/pull/84642)
-* [stabilize `ordering_helpers`](https://github.com/rust-lang/rust/pull/84523)
-* [override `clone_from` method for `PathBuf` and `OsString`](https://github.com/rust-lang/rust/pull/84615)
-* [simplify `Mutex::into_inner`](https://github.com/rust-lang/rust/pull/84650)
-* [`i8` and `u8::to_string()` specialisation](https://github.com/rust-lang/rust/pull/82576)
-* [reuse `sys::unix::cmath` on other platforms](https://github.com/rust-lang/rust/pull/84522)
-* [add `ErrorKind::OutOfMemory`](https://github.com/rust-lang/rust/pull/84744)
-* [add `std::os::unix::fs::chroot` to change the root directory of the current process](https://github.com/rust-lang/rust/pull/84716)
-* [inline most raw socket, fd and handle conversions](https://github.com/rust-lang/rust/pull/84541)
-* [socket2: allow for niche optimization on Unix platforms](https://github.com/rust-lang/socket2/pull/222)
-* [regex: fix lazy DFA false quits on ASCII text](https://github.com/rust-lang/regex/pull/768)
-* [regex: update to latest memchr + upgrade to Rust 2018 + bump MSRV to Rust 1.41](https://github.com/rust-lang/regex/pull/767)
-* [cargo: add report subcommand](https://github.com/rust-lang/cargo/pull/9438)
-* [cargo: show transfer rate when fetching/updating registry index](https://github.com/rust-lang/cargo/pull/9395)
-* [rustdoc: remove unnecessary `provided_trait_methods` field from Impl](https://github.com/rust-lang/rust/pull/84463)
-* [rustdoc: shrink `doctree::Module`](https://github.com/rust-lang/rust/pull/84763)
-* [datafrog: micro-optimize `binary_search`](https://github.com/rust-lang/datafrog/pull/30)
-* [clippy: fix a false-positive inside const fn in `comparison_chain`](https://github.com/rust-lang/rust-clippy/pull/7118)
-* [clippy: `implicit_return` improvements](https://github.com/rust-lang/rust-clippy/pull/6951)
-* [clippy: `while_immutable_cond`: check condition for mutation](https://github.com/rust-lang/rust-clippy/pull/7144)
-* [clippy: fix false negative in `iter_cloned_collect` with a large array](https://github.com/rust-lang/rust-clippy/pull/7138)
+* [fix duplicate unknown lint errors](https://github.com/rust-lang/rust/pull/85053)
+* [improve diagnostics for functions in `struct` definitions](https://github.com/rust-lang/rust/pull/76808)
+* [ensure failing promoteds in const/static bodies are handled correctly](https://github.com/rust-lang/rust/pull/85112)
+* [implement Native link modifiers](https://github.com/rust-lang/rust/pull/83507) (RFC [#2951](https://rust-lang.github.io/rfcs/2951-native-link-modifiers.html))
+* [deduplicate native libs before they are passed to the linker](https://github.com/rust-lang/rust/pull/84794)
+* [retain data in vectorized registers for longer](https://github.com/rust-lang/rust/pull/84915)
+* [only compute Obligation `cache_key` once in register_obligation_at](https://github.com/rust-lang/rust/pull/84923)
+* ["const" initialized thread locals in rustc](https://github.com/rust-lang/rust/pull/84833)
+* [streamline `try_start` code](https://github.com/rust-lang/rust/pull/84806)
+* [simplify `chdir` implementation and minimize unsafe block](https://github.com/rust-lang/rust/pull/84712)
+* [optimize `BufWriter`](https://github.com/rust-lang/rust/pull/79930)
+* [provide `io::Seek::rewind`](https://github.com/rust-lang/rust/pull/85146)
+* [stablize {`HashMap`, `BTreeMap`}`::into_`{`keys`, `values`}](https://github.com/rust-lang/rust/pull/84328)
+* [futures: add FuturesUnordered::into_iter, make iter_pin_ref public](https://github.com/rust-lang/futures-rs/pull/2423)
+* [regex: fix compilation with pattern feature](https://github.com/rust-lang/regex/pull/772)
+* [datafrog: speed up Relation::merge](https://github.com/rust-lang/datafrog/pull/29)
+* [cargo: improve two error messages](https://github.com/rust-lang/cargo/pull/9472)
+* [rustdoc: fix source code line number display and make it clickable again](https://github.com/rust-lang/rust/pull/85148)
+* [compiletest: add `needs-unwind` and beginning of support for testing `panic=abort` std](https://github.com/rust-lang/rust/pull/84734)
+* [clippy: fix stack overflow issue in `redundant_pattern_matching`](https://github.com/rust-lang/rust-clippy/pull/7170)
+* [clippy: fix `eval_order_dependence` async false positive](https://github.com/rust-lang/rust-clippy/pull/7174)
+* [clippy: fix `unused_unit` macro false positive](https://github.com/rust-lang/rust-clippy/pull/7167)
+* [clippy: fix `needless_quesiton_mark` false positive](https://github.com/rust-lang/rust-clippy/pull/7165)
+* [clippy: for `to_*` variant don't lint in trait impl taking `self` when non-`Copy` type](https://github.com/rust-lang/rust-clippy/pull/7182)
+* [clippy: fix `unnecessary_filter_map` false positive](https://github.com/rust-lang/rust-clippy/pull/7175)
+* [clippy needless_collect: Lint cases with type annotations for indirect usage and recognize `BinaryHeap`](https://github.com/rust-lang/rust-clippy/pull/7163)
 
 ## Rust Compiler Performance Triage
 
@@ -188,9 +183,9 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Using R or Numpy is like driving around in a sports car. You just turn the wheel, press the pedals, and burn rubber. Rust (and other systems languages) are like getting a spaceship. You can go places and do things that you never dreamt of in a car. They are harder to pilot, but the possibilities seem unlimited! With the Rust ecosystem still in development, it feels like parts of your spaceship come in boxes of parts labeled "some assembly required".
+> You won’t appreciate Rust unless you spend few weeks building something in it. The initial steep learning curve could be frustrating or challenging depending on how you see it, but once past that it’s hard not to love it. It’s a toddler with superpowers after all 💗
 
-– [Erik Rose on rust-users](https://users.rust-lang.org/t/rust-for-data-first-problems/58887/16)
+– [Deepu K Sasidharan on their blog](https://deepu.tech/my-second-impression-of-rust)
 
 Thanks to [Phlopsi](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1047) for the suggestion!
 
