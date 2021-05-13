@@ -34,10 +34,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [A New AWS SDK for Rust - Alpha Launch](https://aws.amazon.com/blogs/developer/a-new-aws-sdk-for-rust-alpha-launch/)
 * [Gleam v0.15 released!](https://gleam.run/news/gleam-v0.15-released/)
 * [IsomorphicDB. The Road ahead](https://isomorphicdb.io/blog/2021/05/11/IsomorphicDB-The-Road-ahead/)
+* [My first Rust crate, pretend](https://sfietkonstantin.github.io/2021/05/10/First-Crate-Pretend.html)
 
 ### Observations/Thoughts
 * [Rust on the Frontend and Backend](https://blog.abor.dev/p/moonzoon)
 * [Why we should consider Rust for Embedded Developement?](https://blog.knoldus.com/why-rust-for-embedded-development/)
+* [Aiming for idiomatic Rust](https://shane-o.dev/blog/aiming-for-idiomatic-rust)
 * [Rust on the Frontend and Backend](https://blog.abor.dev/p/moonzoon)
 * [Optimizing 7000 CPUs Away with Rust](https://medium.com/tenable-techblog/optimizing-700-cpus-away-with-rust-dc7a000dbdb2)
 * [Improving our development confidence and productivity with Bors](https://www.fluvio.io/blog/2021/05/bors-confident-merges/)
@@ -48,7 +50,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Rust Verification Workshop 2021 - RustBelt: A Quick Dive into the Abyss](https://youtu.be/iAs0gZ8o0oQ)
 * [video] [Rust Verification Workshop 2021 - Polonius](https://youtu.be/H54VDCuT0J0)
 * [video] [Rust Verification Workshop 2021 - Rust Interest in safety- and mission-critical environments](https://youtu.be/_DM36e2A9dg)
-* [video] [Rust Verification Workshop 2021 - Leveraging Compiler Intermediate Representation for Multi- and Cross-Language Verification](https://youtu.be/0DcIn7kiNxM)
+* [video] [Rust Verification Workshop 2021 - Leveraging Compiler Intermediate Representation for Multi- and Cross-Language Verification](https://youtu.be/0DcIn7kiNxM
 
 ### Rust Walkthroughs
 * [BABE – Consensus Algorithm and How to Implement it](https://blog.knoldus.com/babe-consensus-algorithm-and-how-to-implement-it-in-our-runtime/)
@@ -95,6 +97,9 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [advent_of_code_traits - Improve the efficiency of the default `run` method](https://github.com/drmason13/advent_of_code_traits/issues/3)
+* [compress-tools-rs - Cannot statically compile on Windows due to linking failure, exit code 1120](https://github.com/OSSystems/compress-tools-rs/issues/57)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -150,8 +155,7 @@ Revision range: [7a0f..382f](https://perf.rust-lang.org/?start=7a0f1781d04662041
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Target tier policy](https://github.com/rust-lang/rfcs/pull/2803)
-* [add const-ub RFC](https://github.com/rust-lang/rfcs/pull/3016)
+* [RFC: Reserved prefixes in the 2021 edition](https://github.com/rust-lang/rfcs/pull/3101)
 
 ## Final Comment Period
 
@@ -162,32 +166,34 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [disposition: merge] [A new prelude for the 2021 edition (trait-only edition)](https://github.com/rust-lang/rfcs/pull/3114)
+* [disposition: postpone] [Allow Overloading || and &&](https://github.com/rust-lang/rfcs/pull/2722)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [stabilize const_fn_unsize](https://github.com/rust-lang/rust/pull/85078)
 * [disposition: merge] [FCP poll for ErrorKind::OutOfMemory](https://github.com/rust-lang/rust/issues/84916)
 * [disposition: merge] [impl FromStr for proc_macro::Literal](https://github.com/rust-lang/rust/pull/84717)
-* [disposition: merge] [rustdoc: Make "rust code block is empty" and "could not parse code block" warnings a lint (`INVALID_RUST_CODEBLOCKS`)](https://github.com/rust-lang/rust/pull/84587)
+* [disposition: merge] [stabilize member constraints](https://github.com/rust-lang/rust/pull/84701)
 * [disposition: merge] [Uplift the invalid_atomic_ordering lint from clippy to rustc](https://github.com/rust-lang/rust/pull/84039)
 * [disposition: merge] [Stabilize "RangeFrom" patterns](https://github.com/rust-lang/rust/pull/83918)
 * [disposition: merge] [Stabilize extended_key_value_attributes](https://github.com/rust-lang/rust/pull/83366)
+* [disposition: merge] [Add functions `Duration::try_from_secs_{f32, f64}`](https://github.com/rust-lang/rust/pull/82179)
 
 ## New RFCs
 
-* [RFC: Preview for Unstable Features](https://github.com/rust-lang/rfcs/pull/3120)
-* [Rust-lang crate ownership policy](https://github.com/rust-lang/rfcs/pull/3119)
+* [Scrape code examples from examples/ directory for Rustdoc](https://github.com/rust-lang/rfcs/pull/3123)
 
 # Upcoming Events
 
 ### Online
-* [May 6, New York, NY, US - Rust Lightning Talks - Rust NYC](https://www.meetup.com/Rust-NYC/events/277822386)
-* [May 11, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycchbpb/)
-* [May 11, Saarbücken, Saarland, DE - Meetup: 11u16 (virtual) - Rust Saar](https://www.meetup.com/de-DE/Rust-Saar/events/277607432/)
 * [May 12, Online - Rust Meetup May 2021 - Rust Malaysia](https://docs.google.com/forms/d/e/1FAIpQLSf_hz-ZDwYEhVmIH0uzJ0uH41aXWZ_zRDsI0XENpfkKHvh_Jg/viewform)
+* [May 13, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/2021/05/13/rust-hack-and-learn.html)
 * [May 15 - June 7, Online - Solana Season Hackathon - Registration open now](https://twitter.com/solana/status/1387411221717176323?s=20)
 * [May 17, 2021, Cardiff, UK - Rust and Cpp Cardiff :: v2.0 - Rust and C++ Cardiff](https://secure.meetup.com/register/?referrer_n=event&referrer_i=278002832&ctx=ref)
 * [May 18, 2021, Washington, DC, US - Mid-month Rustful: rust4ml - Rust DC](https://www.meetup.com/RustDC/events/ntvrgsycchbxb)
+* [May 19, 2021, Vancouver, BC - Rust Study/Hack/Hang-out night - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zppkjsycchbzb/)
 * [May 20, 2021, Online - Go vs Rust | Round table discussion](https://rustlab.it/en/rust-vs-go/)
+* [May 20, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrycchbhc/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -202,7 +208,17 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Software Engineer, Visualization (Remote, Europe)](https://boards.greenhouse.io/paige/jobs/5210311002)
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+**Impero**
+
+* [Full Stack Developer (Denmark + Remote)](https://www.linkedin.com/jobs/view/2493233249/)
+
+**Zimpler**
+
+* [Rust Developer (Gothenburg, SE)](https://careers.zimpler.com/jobs/1170476-rust-developer-to-zimpler)
+
+**Yat Labs**
+
+* [Senior Rust Developer (Remote)](https://www.arbeitnow.com/view/senior-rust-developer-tari-71761)
 
 **Kollider**
 
@@ -212,15 +228,24 @@ Email the [Rust Community Team][community] for access.
 
 **TrueLayer**
 
-* [Rust Backend Engineer at TrueLayer (London, UK)](https://apply.workable.com/truelayer/j/D07759DAF6/)
-* [Rust Backend Engineer at TrueLayer (Milan, Italy)](https://apply.workable.com/truelayer/j/F13E839E3B/)
-* [Rust Engineering Lead at TrueLayer (London, UK)](https://apply.workable.com/truelayer/j/3B78A6F6F4/)
-* [Rust Engineering Lead at TrueLayer (Milan, Italy)](https://apply.workable.com/truelayer/j/8D8D56C09E/)
+* [Rust Backend Engineer (London, UK)](https://apply.workable.com/truelayer/j/D07759DAF6/)
+* [Rust Backend Engineer (Milan, Italy)](https://apply.workable.com/truelayer/j/F13E839E3B/)
+* [Rust Engineering Lead (London, UK)](https://apply.workable.com/truelayer/j/3B78A6F6F4/)
+* [Rust Engineering Lead (Milan, Italy)](https://apply.workable.com/truelayer/j/8D8D56C09E/)
 
-**Impero**
+**Aleph Alpha**
 
-* [Full Stack Developer at Impero (Denmark + Remote)](https://www.linkedin.com/jobs/view/2493233249/)
+* [Several Rust Engineering Positions (Heidelberg, DE)](https://aleph-alpha.de/career)
 
+**Kraken**
+
+* [Several Rust Engineering Positions (Remote)](https://jobs.lever.co/kraken?team=Engineering)
+
+**ChainSafe**
+
+* [Several Rust Engineering Positions (Remote)](https://chainsafe.io/careers)
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
