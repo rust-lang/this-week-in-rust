@@ -40,7 +40,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust on the Frontend and Backend](https://blog.abor.dev/p/moonzoon)
 * [Why we should consider Rust for Embedded Developement?](https://blog.knoldus.com/why-rust-for-embedded-development/)
 * [Aiming for idiomatic Rust](https://shane-o.dev/blog/aiming-for-idiomatic-rust)
-* [Rust on the Frontend and Backend](https://blog.abor.dev/p/moonzoon)
 * [Optimizing 7000 CPUs Away with Rust](https://medium.com/tenable-techblog/optimizing-700-cpus-away-with-rust-dc7a000dbdb2)
 * [Improving our development confidence and productivity with Bors](https://www.fluvio.io/blog/2021/05/bors-confident-merges/)
 * [Increasing the level of parallelism in DataFusion 4.0](https://medium.com/@danilheres/increasing-the-level-of-parallelism-in-datafusion-4-0-d2a15b5a2093)
@@ -253,7 +252,7 @@ Email the [Rust Community Team][community] for access.
 
 – [Deepu K Sasidharan on their blog](https://deepu.tech/my-second-impression-of-rust)
 
-Thanks to [Phlopsi](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1047) for the suggestion!
+Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1049) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
