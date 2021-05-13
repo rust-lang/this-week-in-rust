@@ -102,12 +102,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-Quiet week, no significant changes.
+Not much change overall - both regressions and improvements were all minor, apart from the 2x compile-time improvement for libcore from PR [#83278](https://github.com/rust-lang/rust/issues/83278).
 
-Triage done by **@simulacrum**.
-Revision range: [537544..7a0f178](https://perf.rust-lang.org/?start=537544b1061467ee4b74ef7f552fab3d513e5caf&end=7a0f1781d04662041db5deaef89598a8edd53717&absolute=false&stat=instructions%3Au)
+Triage done by **@pnkfelix**.
+Revision range: [7a0f..382f](https://perf.rust-lang.org/?start=7a0f1781d04662041db5deaef89598a8edd53717&end=382f748f23979e37e3e012b090e5a0313463f182&absolute=false&stat=instructions%3Au)
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-05-04.md).
+2 Regressions, 3 Improvements, 0 Mixed
+0 of them in rollups
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-05-11.md).
 
 ## Approved RFCs
 
