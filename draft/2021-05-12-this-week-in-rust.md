@@ -182,6 +182,11 @@ Email the [Rust Community Team][community] for access.
 * [Rust Engineering Lead at TrueLayer (London, UK)](https://apply.workable.com/truelayer/j/3B78A6F6F4/)
 * [Rust Engineering Lead at TrueLayer (Milan, Italy)](https://apply.workable.com/truelayer/j/8D8D56C09E/)
 
+**Impero**
+
+* [Full Stack Developer at Impero (Denmark + Remote)](https://www.linkedin.com/jobs/view/2493233249/)
+
+
 # Quote of the Week
 
 > You won’t appreciate Rust unless you spend few weeks building something in it. The initial steep learning curve could be frustrating or challenging depending on how you see it, but once past that it’s hard not to love it. It’s a toddler with superpowers after all 💗
