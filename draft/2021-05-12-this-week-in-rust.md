@@ -20,16 +20,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 * [Knurling-rs changelog #24: three releases, `defmt-test` supports more items and a nasty issue 🦬](https://ferrous-systems.com/blog/knurling-changelog-24/)
-
 * [This Week In TensorBase 2](https://tensorbase.io/thisweek/2021-05-10-tw_2/)
-
 * [Naga shader translation benchmark](https://gfx-rs.github.io/2021/05/09/dota2-msl-compilation.html)
-
 * [IsomorphicDB. The Road ahead](https://isomorphicdb.io/blog/2021/05/11/IsomorphicDB-The-Road-ahead/)
+* [My first Rust crate, pretend](https://sfietkonstantin.github.io/2021/05/10/First-Crate-Pretend.html)
 
 ### Observations/Thoughts
 * [Rust on the Frontend and Backend](https://blog.abor.dev/p/moonzoon)
 * [Why we should consider Rust for Embedded Developement?](https://blog.knoldus.com/why-rust-for-embedded-development/)
+* [Aiming for idiomatic Rust](https://shane-o.dev/blog/aiming-for-idiomatic-rust)
 
 ### Rust Walkthroughs
 * [BABE – Consensus Algorithm and How to Implement it](https://blog.knoldus.com/babe-consensus-algorithm-and-how-to-implement-it-in-our-runtime/)
@@ -167,7 +166,17 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Software Engineer, Visualization (Remote, Europe)](https://boards.greenhouse.io/paige/jobs/5210311002)
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+**Impero**
+
+* [Full Stack Developer (Denmark + Remote)](https://www.linkedin.com/jobs/view/2493233249/)
+
+**Zimpler**
+
+* [Rust Developer (Gothenburg, SE)](https://careers.zimpler.com/jobs/1170476-rust-developer-to-zimpler)
+
+**Yat Labs**
+
+* [Senior Rust Developer (Remote)](https://www.arbeitnow.com/view/senior-rust-developer-tari-71761)
 
 **Kollider**
 
@@ -177,15 +186,24 @@ Email the [Rust Community Team][community] for access.
 
 **TrueLayer**
 
-* [Rust Backend Engineer at TrueLayer (London, UK)](https://apply.workable.com/truelayer/j/D07759DAF6/)
-* [Rust Backend Engineer at TrueLayer (Milan, Italy)](https://apply.workable.com/truelayer/j/F13E839E3B/)
-* [Rust Engineering Lead at TrueLayer (London, UK)](https://apply.workable.com/truelayer/j/3B78A6F6F4/)
-* [Rust Engineering Lead at TrueLayer (Milan, Italy)](https://apply.workable.com/truelayer/j/8D8D56C09E/)
+* [Rust Backend Engineer (London, UK)](https://apply.workable.com/truelayer/j/D07759DAF6/)
+* [Rust Backend Engineer (Milan, Italy)](https://apply.workable.com/truelayer/j/F13E839E3B/)
+* [Rust Engineering Lead (London, UK)](https://apply.workable.com/truelayer/j/3B78A6F6F4/)
+* [Rust Engineering Lead (Milan, Italy)](https://apply.workable.com/truelayer/j/8D8D56C09E/)
 
-**Impero**
+**Aleph Alpha**
 
-* [Full Stack Developer at Impero (Denmark + Remote)](https://www.linkedin.com/jobs/view/2493233249/)
+* [Several Rust Engineering Positions (Heidelberg, DE)](https://aleph-alpha.de/career)
 
+**Kraken**
+
+* [Several Rust Engineering Positions (Remote)](https://jobs.lever.co/kraken?team=Engineering)
+
+**ChainSafe**
+
+* [Several Rust Engineering Positions (Remote)](https://chainsafe.io/careers)
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
