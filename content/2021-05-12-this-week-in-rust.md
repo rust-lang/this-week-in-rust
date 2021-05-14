@@ -40,7 +40,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust on the Frontend and Backend](https://blog.abor.dev/p/moonzoon)
 * [Why we should consider Rust for Embedded Developement?](https://blog.knoldus.com/why-rust-for-embedded-development/)
 * [Aiming for idiomatic Rust](https://shane-o.dev/blog/aiming-for-idiomatic-rust)
-* [Rust on the Frontend and Backend](https://blog.abor.dev/p/moonzoon)
 * [Optimizing 7000 CPUs Away with Rust](https://medium.com/tenable-techblog/optimizing-700-cpus-away-with-rust-dc7a000dbdb2)
 * [Improving our development confidence and productivity with Bors](https://www.fluvio.io/blog/2021/05/bors-confident-merges/)
 * [Increasing the level of parallelism in DataFusion 4.0](https://medium.com/@danilheres/increasing-the-level-of-parallelism-in-datafusion-4-0-d2a15b5a2093)
@@ -76,7 +75,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Rust Verification Workshop 2021 - hacspec: succinct, executable, verifiable specifications for high-assurance cryptography](https://youtu.be/k7_BcWwvz7k)
 
 ### Miscellaneous
-* [Building Rust binaries in CI that work with older GLIBC](https://kobzol.github.io/rust/ci/2021/05/07/building-rust-binaries-in-ci-that-work-with-older-glibc.html)
 * [Innovating with Rust](https://aws.amazon.com/blogs/opensource/innovating-with-rust/)
 * [What can C++ do that Rust can't? (2021 edition)](https://www.reddit.com/r/rust/comments/n7rjfk/what_can_c_do_that_rust_cant_2021_edition/)
 * [video] [The Rust Borrow Checker—A Deep Dive @ Rust DC, April 20, 2021 w/ Nell Shamrell-Harrington](https://youtu.be/Ys7ma3au5m0)
