@@ -251,7 +251,7 @@ Email the [Rust Community Team][community] for access.
 
 – [Deepu K Sasidharan on their blog](https://deepu.tech/my-second-impression-of-rust)
 
-Thanks to [Phlopsi](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1047) for the suggestion!
+Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1049) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
