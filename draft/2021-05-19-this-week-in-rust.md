@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+[James Munns on the state and the future of embedded & safety-critical Rust | Emergence Podcast](https://www.youtube.com/watch?v=SNUklwUi_M4)
+
 # Crate of the Week
 
 This week's crate is [tokio-console](https://github.com/tokio-rs/console), a "top"-like utility to view your tasks run.
