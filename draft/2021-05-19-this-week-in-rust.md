@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Authorization mechanisms in Rust web applications](https://ddtkey.com/blog/authz-mechanisms-in-Rust/)
 
 ### Rust Walkthroughs
 
