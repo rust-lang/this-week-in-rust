@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [This Week In TensorBase 3](https://tensorbase.io/thisweek/2021-05-19-tw_3/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
