@@ -87,7 +87,7 @@ A lot of noise in the benchmark results this week. We are discussing ([zulip arc
 The memory usage ([max-rss](https://perf.rust-lang.org/?start=2021-05-11&end=2021-05-18&absolute=true&stat=max-rss)) seemed largely flat. Except for a upward trend on `tuple-stess` that indicates 4% more memory from a week ago.
 
 Triage done by **@pnkfelix**.
-Revision range: [382f748f23979e37e3e012b090e5a0313463f182..25a277f03df7e44643ddfcc240d034409cb2f505](https://perf.rust-lang.org/?start=382f748f23979e37e3e012b090e5a0313463f182&end=25a277f03df7e44643ddfcc240d034409cb2f505&absolute=false&stat=instructions%3Au)
+Revision range: [382f..25a2](https://perf.rust-lang.org/?start=382f748f23979e37e3e012b090e5a0313463f182&end=25a277f03df7e44643ddfcc240d034409cb2f505&absolute=false&stat=instructions%3Au)
 
 5 Regressions, 7 Improvements, 2 Mixed
 1 of them in rollups
