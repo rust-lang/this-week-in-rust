@@ -23,7 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-* \[DE] [Speicherverwaltung in Rust](https://jo-so.de/2021-01/Speicher-Rust.html)
+* [DE] [Speicherverwaltung in Rust](https://jo-so.de/2021-01/Speicher-Rust.html)
 
 ### Miscellaneous
 
