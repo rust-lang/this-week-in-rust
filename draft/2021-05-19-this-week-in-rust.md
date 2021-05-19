@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Authorization mechanisms in Rust web applications](https://ddtkey.com/blog/authz-mechanisms-in-Rust/)
 
 ### Rust Walkthroughs
+* [ZH] [series] [Build GraphQL services based on Async Rust using actix-web + async-graphql + rbatis + postgresql / mysql (基于 actix-web + async-graphql + rbatis + postgresql / mysql 构建异步 Rust GraphQL 服务) - Part 4](https://blog.budshome.com/budshome/ji-yu-actix-web-+-async-graphql-+-rbatis-+-postgresql---mysql-gou-jian-yi-bu-rust-graphql-fu-wu-(4)---bian-geng-fu-wu-,yi-ji-xiao-zhong-gou)
+* [ZH] [Practice of rendering markdown to HTML in Rust (Rust web 开发中，将 markdown 渲染为 HTML 的实践)](https://blog.budshome.com/budshome/rust-zhong-jiang-markdown-xuan-ran-wei-html)
 * [DE] [Speicherverwaltung in Rust](https://jo-so.de/2021-01/Speicher-Rust.html)
 
 ### Miscellaneous
