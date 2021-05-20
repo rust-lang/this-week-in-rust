@@ -56,6 +56,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
+*No issues were proposed for CfP*.
+
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
 # Updates from Rust Core
