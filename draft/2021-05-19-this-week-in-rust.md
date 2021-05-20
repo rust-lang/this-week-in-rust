@@ -27,7 +27,6 @@ No newsletters or research papers this week.
 * [MoonZoon Dev News (3): Signals, React-like Hooks, Optimizations](https://dev.to/martinkavik/moonzoon-dev-news-3-signals-react-like-hooks-optimizations-39lp)
 * [Alacritty Version 0.8.0](https://github.com/alacritty/alacritty/releases/tag/v0.8.0)
 * [Micromath 2.0.0: approximation-based embedded arithmetic, 2D/3D vector, quarternion, and statistics library](https://www.reddit.com/r/rust/comments/nekdbc/ann_micromath_200_approximationbased_embedded/)
-
 * [This Week In TensorBase 3](https://tensorbase.io/thisweek/2021-05-19-tw_3/)
 
 ### Observations/Thoughts
@@ -46,6 +45,7 @@ No newsletters or research papers this week.
 * [Why Rust for Embedded Development?](https://blog.knoldus.com/why-rust-for-embedded-development/)
 
 ### Rust Walkthroughs
+* [Authorization mechanisms in Rust web applications](https://dev.to/ddtkey/authorization-mechanisms-in-rust-web-applications-27ag)
 * [Understanding Rust Privacy and Visibility Model](https://iximiuz.com/en/posts/rust-privacy-and-visibility/)
 * [Things you can't do in Rust (and what to do instead)](https://blog.logrocket.com/what-you-cant-do-in-rust-and-what-to-do-instead/)
 * [State Management With WebAssembly and Rust](https://dev.to/seanwatters/state-management-with-webassembly-rust-5a1g)
@@ -89,6 +89,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
+
+*No issues were proposed for CfP*.
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
@@ -166,7 +168,7 @@ Revision range: [382f..25a2](https://perf.rust-lang.org/?start=382f748f23979e37e
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC: Reserved prefixes in the 2021 edition](https://github.com/rust-lang/rfcs/pull/3101)
+*No RFCs were approved this week.*
 
 ## Final Comment Period
 
@@ -176,35 +178,34 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [A new prelude for the 2021 edition (trait-only edition)](https://github.com/rust-lang/rfcs/pull/3114)
+* [disposition: merge] [RFC: 2021 Edition](https://github.com/rust-lang/rfcs/pull/3085)
 * [disposition: postpone] [Allow Overloading || and &&](https://github.com/rust-lang/rfcs/pull/2722)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [stabilize const_fn_unsize](https://github.com/rust-lang/rust/pull/85078)
-* [disposition: merge] [FCP poll for ErrorKind::OutOfMemory](https://github.com/rust-lang/rust/issues/84916)
-* [disposition: merge] [impl FromStr for proc_macro::Literal](https://github.com/rust-lang/rust/pull/84717)
+* [disposition: merge] [rustc: Allow safe #[target_feature] on wasm](https://github.com/rust-lang/rust/pull/84988)
+* [disposition: merge] [stabilize int_error_matching](https://github.com/rust-lang/rust/pull/84910)
+* [disposition: merge] [Show test type during prints](https://github.com/rust-lang/rust/pull/84863)
 * [disposition: merge] [stabilize member constraints](https://github.com/rust-lang/rust/pull/84701)
-* [disposition: merge] [Uplift the invalid_atomic_ordering lint from clippy to rustc](https://github.com/rust-lang/rust/pull/84039)
-* [disposition: merge] [Stabilize "RangeFrom" patterns](https://github.com/rust-lang/rust/pull/83918)
-* [disposition: merge] [Stabilize extended_key_value_attributes](https://github.com/rust-lang/rust/pull/83366)
+* [disposition: merge] [Move UnwindSafe, RefUnwindSafe, AssertUnwindSafe to core](https://github.com/rust-lang/rust/pull/84662)
+* [disposition: merge] [Use try_reserve in Vec's io::Write](https://github.com/rust-lang/rust/pull/84612)
 * [disposition: merge] [Add functions `Duration::try_from_secs_{f32, f64}`](https://github.com/rust-lang/rust/pull/82179)
+* [disposition: close] [Allow unused variables with todo!](https://github.com/rust-lang/rust/pull/79850)
 
 ## New RFCs
 
-* [Scrape code examples from examples/ directory for Rustdoc](https://github.com/rust-lang/rfcs/pull/3123)
+* [Pinned synchronization primitives](https://github.com/rust-lang/rfcs/pull/3124)
 
 # Upcoming Events
 
 ### Online
-* [May 12, Online - Rust Meetup May 2021 - Rust Malaysia](https://docs.google.com/forms/d/e/1FAIpQLSf_hz-ZDwYEhVmIH0uzJ0uH41aXWZ_zRDsI0XENpfkKHvh_Jg/viewform)
-* [May 13, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/2021/05/13/rust-hack-and-learn.html)
-* [May 15 - June 7, Online - Solana Season Hackathon - Registration open now](https://twitter.com/solana/status/1387411221717176323?s=20)
-* [May 17, 2021, Cardiff, UK - Rust and Cpp Cardiff :: v2.0 - Rust and C++ Cardiff](https://secure.meetup.com/register/?referrer_n=event&referrer_i=278002832&ctx=ref)
-* [May 18, 2021, Washington, DC, US - Mid-month Rustful: rust4ml - Rust DC](https://www.meetup.com/RustDC/events/ntvrgsycchbxb)
 * [May 19, 2021, Vancouver, BC - Rust Study/Hack/Hang-out night - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zppkjsycchbzb/)
 * [May 20, 2021, Online - Go vs Rust | Round table discussion](https://rustlab.it/en/rust-vs-go/)
 * [May 20, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrycchbhc/)
+* [May 25, 2021, Berlin, DE - Rust and Tell - Berline.rs](https://berline.rs/)
+* [May 27, 2021, Montréal, QC, CN - Rust MTL: Building a Scrabble AI with the fst crate - Rust Montréal](https://www.meetup.com/Rust-Montreal/events/278011978/)
+* [June 1, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/jxfdjsyccjbcb/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -215,6 +216,15 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+
+**Protocol Labs**
+
+* [Research Engineer, CryptoCompute Lab (Remote)](https://www.arbeitnow.com/view/research-engineer-cryptocompute-lab-protocol-labs-444987)
+
+**Amazon Web Services**
+
+* [Applied Scientist (Boston/Cambridge Area, MA, US)](https://www.amazon.jobs/en/jobs/1555897/applied-scientist)
+
 **Techno Creatives**
 
 * [Senior Rust Full Stack Developer (Gothenburg, Sweden)](https://technocreatives.homerun.co/senior-rust-full-stack-developer/en)
@@ -223,10 +233,23 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Software Engineer, Visualization (Remote, Europe)](https://boards.greenhouse.io/paige/jobs/5210311002)
 
+**ANIXE**
+
+* [Rust Software Engineer (Wrocław, PL)](https://anixe.bamboohr.com/jobs/view.php?id=72)
+
 **NZXT**
 
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
 * [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
+
+**Zondax**
+
+* [Embedded Systems Engineer (C/C++ & Rust)(Remote)](https://zondax.ch/news/embedded-systems-engineer)
+* [Software Engineer (Golang / Rust) (Remote)](https://zondax.ch/news/engineers-golang-rust)
+
+**Ockam**
+
+* [Several Rust related positions available](https://www.ockam.io/team#open-roles)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
