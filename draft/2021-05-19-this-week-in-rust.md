@@ -28,6 +28,8 @@ No newsletters or research papers this week.
 * [Alacritty Version 0.8.0](https://github.com/alacritty/alacritty/releases/tag/v0.8.0)
 * [Micromath 2.0.0: approximation-based embedded arithmetic, 2D/3D vector, quarternion, and statistics library](https://www.reddit.com/r/rust/comments/nekdbc/ann_micromath_200_approximationbased_embedded/)
 
+* [This Week In TensorBase 3](https://tensorbase.io/thisweek/2021-05-19-tw_3/)
+
 ### Observations/Thoughts
 * [Authorization mechanisms in Rust web applications](https://ddtkey.com/blog/authz-mechanisms-in-Rust/)
 * [Scylla Developer Hackathon: Rust Driver](https://www.scylladb.com/2021/02/17/scylla-developer-hackathon-rust-driver/)
@@ -60,6 +62,8 @@ No newsletters or research papers this week.
 * [DE] [Speicherverwaltung in Rust](https://jo-so.de/2021-01/Speicher-Rust.html)
 * [ES] [Cómo utilizar Rust web framework Warp](https://dev.to/steadylearner/como-utilizar-rust-web-framework-warp-n3c)
 * [PT] [O que é dyn no Rust?](https://dev.to/henrybarreto/o-que-e-dyn-no-rust-4ol9)
+* [ZH] [Practice of rendering markdown to HTML in Rust (Rust web 开发中，将 markdown 渲染为 HTML 的实践)](https://blog.budshome.com/budshome/rust-zhong-jiang-markdown-xuan-ran-wei-html)
+* [ZH] [series] [Build GraphQL services based on Async Rust using actix-web + async-graphql + rbatis + postgresql / mysql (基于 actix-web + async-graphql + rbatis + postgresql / mysql 构建异步 Rust GraphQL 服务) - Part 4](https://blog.budshome.com/budshome/ji-yu-actix-web-+-async-graphql-+-rbatis-+-postgresql---mysql-gou-jian-yi-bu-rust-graphql-fu-wu-(4)---bian-geng-fu-wu-,yi-ji-xiao-zhong-gou)
 * [video] [The Rust Borrow Checker - A Deep Dive @ Rust DC, April 20 2021 w/ Nell Shamrell-Harrington](https://youtu.be/Ys7ma3au5m0)
 
 ### Miscellaneous
@@ -69,9 +73,9 @@ No newsletters or research papers this week.
 
 # Crate of the Week
 
-This week's crate is [tokio-console](https://github.com/tokio-rs/console), a "top"-like utility to view your tasks run.
+This week's crate is [arraygen](https://docs.rs/arraygen), a derive proc macro to generate arrays from structs.
 
-Thanks to [Simon Farnsworth](https://users.rust-lang.org/t/crate-of-the-week/2704/910) for the nomination
+Thanks to [José Manuel Barroso Galindo](https://users.rust-lang.org/t/crate-of-the-week/2704/911) for the nomination
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -90,48 +94,72 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-324 pull requests were [merged in the last week][merged]
+333 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-05-03..2021-05-10
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-05-10..2021-05-17
 
-* [fix duplicate unknown lint errors](https://github.com/rust-lang/rust/pull/85053)
-* [improve diagnostics for functions in `struct` definitions](https://github.com/rust-lang/rust/pull/76808)
-* [ensure failing promoteds in const/static bodies are handled correctly](https://github.com/rust-lang/rust/pull/85112)
-* [implement Native link modifiers](https://github.com/rust-lang/rust/pull/83507) (RFC [#2951](https://rust-lang.github.io/rfcs/2951-native-link-modifiers.html))
-* [deduplicate native libs before they are passed to the linker](https://github.com/rust-lang/rust/pull/84794)
-* [retain data in vectorized registers for longer](https://github.com/rust-lang/rust/pull/84915)
-* [only compute Obligation `cache_key` once in register_obligation_at](https://github.com/rust-lang/rust/pull/84923)
-* ["const" initialized thread locals in rustc](https://github.com/rust-lang/rust/pull/84833)
-* [streamline `try_start` code](https://github.com/rust-lang/rust/pull/84806)
-* [simplify `chdir` implementation and minimize unsafe block](https://github.com/rust-lang/rust/pull/84712)
-* [optimize `BufWriter`](https://github.com/rust-lang/rust/pull/79930)
-* [provide `io::Seek::rewind`](https://github.com/rust-lang/rust/pull/85146)
-* [stablize {`HashMap`, `BTreeMap`}`::into_`{`keys`, `values`}](https://github.com/rust-lang/rust/pull/84328)
-* [futures: add FuturesUnordered::into_iter, make iter_pin_ref public](https://github.com/rust-lang/futures-rs/pull/2423)
-* [regex: fix compilation with pattern feature](https://github.com/rust-lang/regex/pull/772)
-* [datafrog: speed up Relation::merge](https://github.com/rust-lang/datafrog/pull/29)
-* [cargo: improve two error messages](https://github.com/rust-lang/cargo/pull/9472)
-* [rustdoc: fix source code line number display and make it clickable again](https://github.com/rust-lang/rust/pull/85148)
-* [compiletest: add `needs-unwind` and beginning of support for testing `panic=abort` std](https://github.com/rust-lang/rust/pull/84734)
-* [clippy: fix stack overflow issue in `redundant_pattern_matching`](https://github.com/rust-lang/rust-clippy/pull/7170)
-* [clippy: fix `eval_order_dependence` async false positive](https://github.com/rust-lang/rust-clippy/pull/7174)
-* [clippy: fix `unused_unit` macro false positive](https://github.com/rust-lang/rust-clippy/pull/7167)
-* [clippy: fix `needless_quesiton_mark` false positive](https://github.com/rust-lang/rust-clippy/pull/7165)
-* [clippy: for `to_*` variant don't lint in trait impl taking `self` when non-`Copy` type](https://github.com/rust-lang/rust-clippy/pull/7182)
-* [clippy: fix `unnecessary_filter_map` false positive](https://github.com/rust-lang/rust-clippy/pull/7175)
-* [clippy needless_collect: Lint cases with type annotations for indirect usage and recognize `BinaryHeap`](https://github.com/rust-lang/rust-clippy/pull/7163)
+* [add auto traits and clone trait migrations for](https://github.com/rust-lang/rust/pull/84730) (RFC [#2229](https://rust-lang.github.io/rfcs/2229-capture-disjoint-fields.html))
+* [insignificant destructors for RFC #2229](https://github.com/rust-lang/rust/pull/84152)
+* [add `asm!()` support for PowerPC](https://github.com/rust-lang/rust/pull/84732)
+* [add `asm!()` support for PowerPC64](https://github.com/rust-lang/rust/pull/85279)
+* [add support for const operands and options to `global_asm!`](https://github.com/rust-lang/rust/pull/84107)
+* [recover from invalid struct item syntax](https://github.com/rust-lang/rust/pull/84793)
+* [fix diagnostic for cross crate private tuple struct constructors](https://github.com/rust-lang/rust/pull/85068)
+* [fix suggestions for missing return type lifetime specifiers](https://github.com/rust-lang/rust/pull/85050)
+* [suggest adding a type parameter for impls](https://github.com/rust-lang/rust/pull/85041)
+* [fix stack overflow when checking for structural recursion](https://github.com/rust-lang/rust/pull/85012)
+* [implement span quoting for proc-macros](https://github.com/rust-lang/rust/pull/84278)
+* [handle more span edge cases in generics diagnostics](https://github.com/rust-lang/rust/pull/83759)
+* [improve diagnostics for GATs](https://github.com/rust-lang/rust/pull/82272)
+* [show macro name in 'this error originates in macro' message](https://github.com/rust-lang/rust/pull/82069)
+* [store `VariantIdx` to distinguish enum variants](https://github.com/rust-lang/rust/pull/85195)
+* [remove `CrateNum` parameter for queries that only work on local crate](https://github.com/rust-lang/rust/pull/85178)
+* [adjust target search algorithm for rustlib path](https://github.com/rust-lang/rust/pull/85152)
+* [don't suggest adding `'static` lifetime to arguments](https://github.com/rust-lang/rust/pull/85240)
+* [improve error message for non-exhaustive matches on non-exhaustive enums](https://github.com/rust-lang/rust/pull/85233)
+* [allow `async {}` expressions in const contexts](https://github.com/rust-lang/rust/pull/85353)
+* [warn about unused pub fields in non-pub structs](https://github.com/rust-lang/rust/pull/85324)
+* [fix unused attributes on `macro_rules`](https://github.com/rust-lang/rust/pull/85312)
+* [box `Impl.blanket_impl` to reduce size](https://github.com/rust-lang/rust/pull/85311)
+* [`#[inline(always)]` on basic pointer methods](https://github.com/rust-lang/rust/pull/85218)
+* [make `unchecked_`{`add`, `sub`, `mul`} inherent methods unstably const](https://github.com/rust-lang/rust/pull/85096)
+* [BTree: no longer copy keys and values before dropping them](https://github.com/rust-lang/rust/pull/84904)
+* [`str::is_char_boundary` - slight optimization](https://github.com/rust-lang/rust/pull/84751)
+* [futures-macro: improve diagnostics on type mismatch](https://github.com/rust-lang/futures-rs/pull/2433)
+* [futures: implement `try_chunks`](https://github.com/rust-lang/futures-rs/pull/2438)
+* [futures: change `SelectAll` iterators to return stream instead of `StreamFuture`](https://github.com/rust-lang/futures-rs/pull/2431)
+* [futures: expose iterators from `SelectAll`](https://github.com/rust-lang/futures-rs/pull/2428)
+* [futures: `SelectAll::clear`](https://github.com/rust-lang/futures-rs/pull/2430)
+* [futures: `FuturesUnordered::clear`](https://github.com/rust-lang/futures-rs/pull/2415)
+* [futures: change `StreamExt::scan` to pass state to closure by value](https://github.com/rust-lang/futures-rs/pull/2427)
+* [futures: abortable streams](https://github.com/rust-lang/futures-rs/pull/2410)
+* [cargo: improve performance of git status check in `cargo package`](https://github.com/rust-lang/cargo/pull/9478)
+* [rustdoc: minimize amount of fake DefIds used in rustdoc](https://github.com/rust-lang/rust/pull/85067)
+* [clippy: add `needless_bitwise_bool` lint](https://github.com/rust-lang/rust-clippy/pull/7133)
+* [clippy: new lint: `unused_async`](https://github.com/rust-lang/rust-clippy/pull/7225)
+* [clippy: move `inconsistent_struct_constructor` to `pedantic`](https://github.com/rust-lang/rust-clippy/pull/7193)
+* [clippy: `needless_collect` enhancements](https://github.com/rust-lang/rust-clippy/pull/7188)
+* [clippy: `while_let_on_iterator` improvements](https://github.com/rust-lang/rust-clippy/pull/6966)
+* [clippy: add `Sized` trait for `wrong_self_convention` lint test](https://github.com/rust-lang/rust-clippy/pull/7222)
+* [clippy: `match_single_binding`: fix invalid suggestion when match scrutinee has side effects](https://github.com/rust-lang/rust-clippy/pull/7095)
+* [clippy: trigger `wrong_self_convention` only if it has implicit self](https://github.com/rust-lang/rust-clippy/pull/7215)
+* [clippy: stop linting else if let pattern in `option_if_let_else` lint](https://github.com/rust-lang/rust-clippy/pull/7216)
+* [clippy: fix false positives about generic args](https://github.com/rust-lang/rust-clippy/pull/7223)
+* [clippy: fix a `manual_unwrap_or` false positive with deref coercion](https://github.com/rust-lang/rust-clippy/pull/7233)
 
 ## Rust Compiler Performance Triage
 
-Not much change overall - both regressions and improvements were all minor, apart from the 2x compile-time improvement for libcore from PR [#83278](https://github.com/rust-lang/rust/issues/83278).
+A lot of noise in the benchmark results this week. We are discussing ([zulip archive](https://zulip-archive.rust-lang.org/247081tcompilerperformance/06104coercionsdebugnoise.html), [live zulip](https://rust-lang.zulipchat.com/#narrow/stream/247081-t-compiler.2Fperformance/topic/coercions-debug.20noise)) how best to update the benchmark set to eliminate the noisy cases that are bouncing around. Beyond that, some large improvements to a few individual benchmarks.
+
+The memory usage ([max-rss](https://perf.rust-lang.org/?start=2021-05-11&end=2021-05-18&absolute=true&stat=max-rss)) seemed largely flat. Except for an upward trend on `tuple-stess` that indicates 4% more memory from a week ago.
 
 Triage done by **@pnkfelix**.
-Revision range: [7a0f..382f](https://perf.rust-lang.org/?start=7a0f1781d04662041db5deaef89598a8edd53717&end=382f748f23979e37e3e012b090e5a0313463f182&absolute=false&stat=instructions%3Au)
+Revision range: [382f..25a2](https://perf.rust-lang.org/?start=382f748f23979e37e3e012b090e5a0313463f182&end=25a277f03df7e44643ddfcc240d034409cb2f505&absolute=false&stat=instructions%3Au)
 
-2 Regressions, 3 Improvements, 0 Mixed
-0 of them in rollups
+5 Regressions, 7 Improvements, 2 Mixed
+1 of them in rollups
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-05-11.md).
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-05-18.md).
 
 ## Approved RFCs
 
@@ -188,17 +216,27 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 **Techno Creatives**
+
 * [Senior Rust Full Stack Developer (Gothenburg, Sweden)](https://technocreatives.homerun.co/senior-rust-full-stack-developer/en)
+
+**Paige**
+
+* [Senior Software Engineer, Visualization (Remote, Europe)](https://boards.greenhouse.io/paige/jobs/5210311002)
+
+**NZXT**
+
+* [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
+* [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> You won’t appreciate Rust unless you spend few weeks building something in it. The initial steep learning curve could be frustrating or challenging depending on how you see it, but once past that it’s hard not to love it. It’s a toddler with superpowers after all 💗
+> I often think about Rust as a process and community for developing a programming language, rather than as a programming language itself.
 
-– [Deepu K Sasidharan on their blog](https://deepu.tech/my-second-impression-of-rust)
+– [throwaway894345 on hacker news](https://news.ycombinator.com/item?id=27120691)
 
-Thanks to [Phlopsi](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1047) for the suggestion!
+Thanks to [Krishna Sundarram](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1050) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
