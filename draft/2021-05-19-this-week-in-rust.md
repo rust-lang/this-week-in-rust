@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [This Week In TensorBase 3](https://tensorbase.io/thisweek/2021-05-19-tw_3/)
+
 ### Observations/Thoughts
 * [Authorization mechanisms in Rust web applications](https://ddtkey.com/blog/authz-mechanisms-in-Rust/)
 
