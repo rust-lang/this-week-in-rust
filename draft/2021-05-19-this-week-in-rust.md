@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Authorization mechanisms in Rust web applications](https://ddtkey.com/blog/authz-mechanisms-in-Rust/)
 
 ### Rust Walkthroughs
+* [How to make a cryptocurrency Telegram bot with Rust and Teloxide](https://dev.to/steadylearner/how-to-make-a-telegram-bot-with-rust-teloxide-m60)
+* [Authorization mechanisms in Rust web applications](https://dev.to/ddtkey/authorization-mechanisms-in-rust-web-applications-27ag)
 * [ZH] [series] [Build GraphQL services based on Async Rust using actix-web + async-graphql + rbatis + postgresql / mysql (基于 actix-web + async-graphql + rbatis + postgresql / mysql 构建异步 Rust GraphQL 服务) - Part 4](https://blog.budshome.com/budshome/ji-yu-actix-web-+-async-graphql-+-rbatis-+-postgresql---mysql-gou-jian-yi-bu-rust-graphql-fu-wu-(4)---bian-geng-fu-wu-,yi-ji-xiao-zhong-gou)
 * [ZH] [Practice of rendering markdown to HTML in Rust (Rust web 开发中，将 markdown 渲染为 HTML 的实践)](https://blog.budshome.com/budshome/rust-zhong-jiang-markdown-xuan-ran-wei-html)
 * [DE] [Speicherverwaltung in Rust](https://jo-so.de/2021-01/Speicher-Rust.html)
@@ -179,14 +181,36 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Protocol Labs**
+
+* [Research Engineer, CryptoCompute Lab (Remote)](https://www.arbeitnow.com/view/research-engineer-cryptocompute-lab-protocol-labs-444987)
+
+**Amazon Web Services**
+
+* [Applied Scientist (Boston/Cambridge Area, MA, US)](https://www.amazon.jobs/en/jobs/1555897/applied-scientist)
+
 **Paige**
 
 * [Senior Software Engineer, Visualization (Remote, Europe)](https://boards.greenhouse.io/paige/jobs/5210311002)
+
+**ANIXE**
+
+* [Rust Software Engineer (Wrocław, PL)](https://anixe.bamboohr.com/jobs/view.php?id=72)
 
 **NZXT**
 
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
 * [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
+
+**Zondax**
+
+* [Embedded Systems Engineer (C/C++ & Rust)(Remote)](https://zondax.ch/news/embedded-systems-engineer)
+* [Software Engineer (Golang / Rust) (Remote)](https://zondax.ch/news/engineers-golang-rust)
+
+
+**Ockam**
+
+* [Several Rust related positions available](https://www.ockam.io/team#open-roles)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
