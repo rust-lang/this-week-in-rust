@@ -54,7 +54,7 @@ No newsletters this week.
 * [video] [RustConf 2020 - Macros for a More Productive Rust by jam1garner](https://youtu.be/HN6EUcnGN1s)
 
 ### Papers/Research Projects
-* [A DSL embedded in Rust](https://dl.acm.org/doi/10.1145/3310232.3310241)
+* [A DSL embedded in Rust](https://kyleheadley.github.io/PHDWebsite/traitlang-IFL18-camready.pdf)
 * [Energy Efficiency across Programming Languages](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf)
 
 ### Miscellaneous

@@ -40,7 +40,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust on the Frontend and Backend](https://blog.abor.dev/p/moonzoon)
 * [Why we should consider Rust for Embedded Developement?](https://blog.knoldus.com/why-rust-for-embedded-development/)
 * [Aiming for idiomatic Rust](https://shane-o.dev/blog/aiming-for-idiomatic-rust)
-* [Optimizing 7000 CPUs Away with Rust](https://medium.com/tenable-techblog/optimizing-700-cpus-away-with-rust-dc7a000dbdb2)
+* [Optimizing 700 CPUs Away with Rust](https://medium.com/tenable-techblog/optimizing-700-cpus-away-with-rust-dc7a000dbdb2)
 * [Improving our development confidence and productivity with Bors](https://www.fluvio.io/blog/2021/05/bors-confident-merges/)
 * [Increasing the level of parallelism in DataFusion 4.0](https://medium.com/@danilheres/increasing-the-level-of-parallelism-in-datafusion-4-0-d2a15b5a2093)
 * [My second impression of Rust and why I think it's the best general-purpose language!](https://deepu.tech/my-second-impression-of-rust/)
