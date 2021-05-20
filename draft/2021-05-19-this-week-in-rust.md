@@ -31,6 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Miscellaneous
 
 * [James Munns on the state and the future of embedded & safety-critical Rust | Emergence Podcast](https://www.youtube.com/watch?v=SNUklwUi_M4)
+* [Behind the scenes of 1Password for Linux [using Rust]](https://dteare.medium.com/behind-the-scenes-of-1password-for-linux-d59b19143a23)
 
 # Crate of the Week
 
