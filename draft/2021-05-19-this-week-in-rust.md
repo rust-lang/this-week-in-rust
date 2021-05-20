@@ -14,21 +14,58 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-### Official
+No newsletters or research papers this week.
 
-### Newsletters
+### Official
+* [Announcing Rustup 1.24.2](https://blog.rust-lang.org/2021/05/17/Rustup-1.24.2.html)
+* [Six Years of Rust](https://blog.rust-lang.org/2021/05/15/six-years-of-rust.html)
 
 ### Project/Tooling Updates
+* [rust-analyzer Changelog #77](https://rust-analyzer.github.io/thisweek/2021/05/17/changelog-77.html)
+* [IntelliJ Rust Changelog #147](https://intellij-rust.github.io/2021/05/18/changelog-147.html)
+* [GCC Rust Weekly Status Report 15](https://thephilbert.io/2021/05/14/gcc-rust-weekly-status-report-15/)
+* [MoonZoon Dev News (3): Signals, React-like Hooks, Optimizations](https://dev.to/martinkavik/moonzoon-dev-news-3-signals-react-like-hooks-optimizations-39lp)
+* [Alacritty Version 0.8.0](https://github.com/alacritty/alacritty/releases/tag/v0.8.0)
+* [Micromath 2.0.0: approximation-based embedded arithmetic, 2D/3D vector, quarternion, and statistics library](https://www.reddit.com/r/rust/comments/nekdbc/ann_micromath_200_approximationbased_embedded/)
 
 ### Observations/Thoughts
 * [Authorization mechanisms in Rust web applications](https://ddtkey.com/blog/authz-mechanisms-in-Rust/)
+* [Scylla Developer Hackathon: Rust Driver](https://www.scylladb.com/2021/02/17/scylla-developer-hackathon-rust-driver/)
+* [Plugins in Rust: The Technologies](https://nullderef.com/blog/plugin-tech/)
+* [gRPC load-balancing in Rust](https://truelayer.com/blog/grpc-load-balancing-in-rust)
+* [Verifying vectorized Rust revisited](https://project-oak.github.io/rust-verification-tools/2021/05/15/verifying-vectorized-code2.html)
+* [Routes to Discovering Rust](https://blog.abor.dev/p/timclicks)
+* [How we utilized fuzzing to improve security in the TezEdge node and created an open-source CI tool for Rust code fuzzing](https://medium.com/tezedge/how-we-utilized-fuzzing-to-improve-security-in-the-tezedge-node-and-created-an-open-source-ci-tool-92ffbd804db1)
+* [Boost productivity with Rust](https://dev.to/pancy/boost-productivity-with-rust-anf)
+* [Building Outer Wonders for Linux](https://utopixel.games/en/blog/building-outer-wonders-for-linux/)
+* [Behind the scenes of 1Password for Linux](https://dteare.medium.com/behind-the-scenes-of-1password-for-linux-d59b19143a23)
+* [Writing Pythonic Rust](http://www.cmyr.net/blog/rust-python-learnings.html)
+* [Upgradable parking_lot::RwLock might not be what you expect](https://morestina.net/blog/1739/upgradable-parking_lotrwlock-might-not-be-what-you-expect)
+* [Why Rust for Embedded Development?](https://blog.knoldus.com/why-rust-for-embedded-development/)
 
 ### Rust Walkthroughs
+* [Understanding Rust Privacy and Visibility Model](https://iximiuz.com/en/posts/rust-privacy-and-visibility/)
+* [Things you can't do in Rust (and what to do instead)](https://blog.logrocket.com/what-you-cant-do-in-rust-and-what-to-do-instead/)
+* [State Management With WebAssembly and Rust](https://dev.to/seanwatters/state-management-with-webassembly-rust-5a1g)
+* [Implementing Linked List in Rust](https://dev.to/felixfaisal/implementing-linked-list-in-rust-3and)
+* [How to use gRPC with Rust Tonic and Postgres database with examples](https://dev.to/steadylearner/how-to-use-grpc-with-rust-tonic-and-postgres-database-with-examples-3dl7)
+* [Generating pre-signed S3 URLs in Rust](https://dev.to/rtyler/generating-pre-signed-s3-urls-in-rust-27gd)
+* [A simple user input collection, validation, and conversion library in Rust](https://dev.to/jahwi/a-simple-user-input-collection-validation-and-conversion-library-in-rust-34cj)
+* [How to make a cryptocurrency Telegram bot with Rust and Teloxide](https://dev.to/steadylearner/how-to-make-a-telegram-bot-with-rust-teloxide-m60)
+* [Infinite Mixture Model in Rust with RV 0.12](https://redpoll.ai/blog/imm-with-rv-12/)
+* [Optimizing HashMaps even more](https://blog.yoshuawuyts.com/optimizing-hashmaps-even-more/)
+* [Inventing the Service trait](https://tokio.rs/blog/2021-05-14-inventing-the-service-trait)
+* [Rust Macros Rule: DRY warp Routes](https://shivjm.blog/rust-macros-rule-dry-warp-routes/)
+* [Error Handling in Rust - A Deep Dive](https://www.lpalmieri.com/posts/error-handling-rust/)
 * [DE] [Speicherverwaltung in Rust](https://jo-so.de/2021-01/Speicher-Rust.html)
+* [ES] [Cómo utilizar Rust web framework Warp](https://dev.to/steadylearner/como-utilizar-rust-web-framework-warp-n3c)
+* [PT] [O que é dyn no Rust?](https://dev.to/henrybarreto/o-que-e-dyn-no-rust-4ol9)
+* [video] [The Rust Borrow Checker - A Deep Dive @ Rust DC, April 20 2021 w/ Nell Shamrell-Harrington](https://youtu.be/Ys7ma3au5m0)
 
 ### Miscellaneous
-
 * [James Munns on the state and the future of embedded & safety-critical Rust | Emergence Podcast](https://www.youtube.com/watch?v=SNUklwUi_M4)
+* [Rust 2021 edition to arrive in October with 'more consistent panic' and other new features](https://www.theregister.com/2021/05/13/rust_2021_edition/)
+* [SpaceX about the Rust Programming Language!](https://www.reddit.com/r/rust/comments/ndm4ne/spacex_about_the_rust_programming_language/)
 
 # Crate of the Week
 
@@ -149,6 +186,9 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Techno Creatives**
+* [Senior Rust Full Stack Developer (Gothenburg, Sweden)](https://technocreatives.homerun.co/senior-rust-full-stack-developer/en)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
