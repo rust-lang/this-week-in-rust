@@ -23,7 +23,7 @@ No newsletters or research papers this week.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+- [Debug rust application inside container](https://blog.erebe.dev/blog/debug-rust-aplication-inside-container/index.html)
 ### Miscellaneous
 
 # Crate of the Week
