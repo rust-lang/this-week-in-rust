@@ -25,7 +25,7 @@ No newsletters or research papers this week.
 + [Why and how we wrote a compiler in Rust (blog post series 1/X): the context](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-1-x-the-context-e2f83b10edb9)
 
 ### Rust Walkthroughs
-
+- [Debug rust application inside container](https://blog.erebe.dev/blog/debug-rust-aplication-inside-container/index.html)
 ### Miscellaneous
 
 # Crate of the Week
