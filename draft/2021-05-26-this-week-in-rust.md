@@ -22,6 +22,8 @@ No newsletters or research papers this week.
 
 ### Observations/Thoughts
 
++ [Why and how we wrote a compiler in Rust (blog post series 1/X): the context](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-1-x-the-context-e2f83b10edb9)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
