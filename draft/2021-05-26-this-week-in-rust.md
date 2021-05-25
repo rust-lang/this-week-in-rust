@@ -28,6 +28,8 @@ No newsletters or research papers this week.
 - [Debug rust application inside container](https://blog.erebe.dev/blog/debug-rust-aplication-inside-container/index.html)
 ### Miscellaneous
 
+- [Rust Web Development - MEAP](https://www.manning.com/books/rust-web-development)
+
 # Crate of the Week
 
 This week's crate is [typed-index-collections](https://github.com/zheland/typed-index-collections), a crate that lets you make Vecs with custom-typed indices.
