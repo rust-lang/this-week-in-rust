@@ -45,7 +45,6 @@ No newsletters or research papers this week.
 * [Why Rust for Embedded Development?](https://blog.knoldus.com/why-rust-for-embedded-development/)
 
 ### Rust Walkthroughs
-* [Authorization mechanisms in Rust web applications](https://dev.to/ddtkey/authorization-mechanisms-in-rust-web-applications-27ag)
 * [Understanding Rust Privacy and Visibility Model](https://iximiuz.com/en/posts/rust-privacy-and-visibility/)
 * [Things you can't do in Rust (and what to do instead)](https://blog.logrocket.com/what-you-cant-do-in-rust-and-what-to-do-instead/)
 * [State Management With WebAssembly and Rust](https://dev.to/seanwatters/state-management-with-webassembly-rust-5a1g)
