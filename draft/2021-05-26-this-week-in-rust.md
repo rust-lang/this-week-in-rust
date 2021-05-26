@@ -26,6 +26,7 @@ No newsletters or research papers this week.
 
 ### Rust Walkthroughs
 - [Debug rust application inside container](https://blog.erebe.dev/blog/debug-rust-aplication-inside-container/index.html)
+- [ZH] [Practice of web crawling with async Rust (使用 Rust 做异步数据采集的实践)](https://blog.budshome.com/budshome/shi-yong-rust-zuo-yi-bu-shu-ju-cai-ji-de-shi-jian)
 ### Miscellaneous
 
 - [Rust Web Development - MEAP](https://www.manning.com/books/rust-web-development)
