@@ -27,7 +27,6 @@ No newsletters or research papers this week.
 ### Rust Walkthroughs
 - [Creating an Infinite Mixture Model in Rust with the rv crate](https://redpoll.ai/blog/imm-with-rv-12/)
 - [Debug rust application inside container](https://blog.erebe.dev/blog/debug-rust-aplication-inside-container/index.html)
-
 ### Miscellaneous
 
 # Crate of the Week
