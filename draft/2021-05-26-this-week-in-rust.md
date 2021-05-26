@@ -20,6 +20,8 @@ No newsletters or research papers this week.
 
 ### Project/Tooling Updates
 
+* [This Week In TensorBase 4](https://tensorbase.io/thisweek/2021-05-26-tw_4/)
+
 ### Observations/Thoughts
 
 + [Why and how we wrote a compiler in Rust (blog post series 1/X): the context](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-1-x-the-context-e2f83b10edb9)
