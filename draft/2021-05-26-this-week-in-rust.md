@@ -154,7 +154,6 @@ decision. Express your opinions now.
 * [RFC: I/O Safety](https://github.com/rust-lang/rfcs/pull/3128)
 * [A Cargo profile option trim-path to sanitise absolute paths](https://github.com/rust-lang/rfcs/pull/3127)
 
-
 # Upcoming Events
 
 ### Online
