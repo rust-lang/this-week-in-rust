@@ -30,7 +30,6 @@ No official blog posts, newsletters, or research papers this week.
 * [2D Web Rendering with Rust](https://medium.com/lagierandlagier/2d-web-rendering-with-rust-4401cf133f31)
 * [A fast-to-sync/search and space-optimized replication algorithm written in Rust, the gun-db data replication model](https://mateusfreira.github.io/@mateusfreira-a-fast-to-sync-search-and-space-optimized-replication-algorithm-written-in-rust-the-Nun-db-data-replication-model/)
 * [Adventures in rustc Forking](https://jam1.re/blog/adventures-in-rustc-forking)
-* [Why and how we wrote a compiler in Rust (blog post series 1/X): the context](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-1-x-the-context-e2f83b10edb9)
 * [Baseline implementations should be predictable](https://pvk.ca/Blog/2021/05/14/baseline-implementations-should-be-predictable/)
 * [Naming Your Lifetimes](https://www.possiblerust.com/pattern/naming-your-lifetimes)
 * [Rucredstash release & Rust experience from a Haskeller](https://psibi.in/posts/2021-05-22-credstash.html)
