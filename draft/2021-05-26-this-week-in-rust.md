@@ -44,6 +44,8 @@ No official blog posts, newsletters, or research papers this week.
 * [How to to_string in Rust](https://loige.co/how-to-to-string-in-rust/)
 * [Building small desktop apps with Ember.js and Tauri](https://dev.to/mitchartemis/building-small-desktop-apps-with-ember-js-and-tauri-3o28)
 * [Coming to Rust from Django](https://meesha.blog/2021/coming-to-rust-from-django.html)
+* [Structural Typing in Rust](https://beachape.com/blog/2021/05/25/structural-typing-in-rust/)
+* [Idiomatic Rust? Implementing binary search](https://shane-o.dev/blog/binary-search-rust)
 * [ZH] [Practice of web crawling with async Rust (使用 Rust 做异步数据采集的实践)](https://blog.budshome.com/budshome/shi-yong-rust-zuo-yi-bu-shu-ju-cai-ji-de-shi-jian)
 * [video] [Lock-Free to Wait-Free Simulation in Rust](https://youtu.be/Bw8-vvtA-E8)
 
@@ -174,6 +176,18 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Ockam**
+
+* [Architect - Rust Library Design (Remote)](https://www.ockam.io/team/Architect-Rust-Library-Design/53838c2d-1e48-5cec-8bb4-8fa8420e6171)
+
+**Red Hat**
+
+* [Senior Software Engineer - Virtualization & Storage (Remote Europe)](https://global-redhat.icims.com/jobs/82606/senior-software-engineer---virtualization-&-storage/job?mobile=false&width=708&height=500&bga=true&needsRedirect=false&jan1offset=60&jun1offset=120)
+
+**Starry**
+
+* [Rust Software Engineer (Boston, MA, US)](https://www.arbeitnow.com/view/rust-software-engineer-starry-293692)
+
 **NZXT**
 
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
@@ -184,6 +198,10 @@ Email the [Rust Community Team][community] for access.
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 * [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 * [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
+
+**Kraken**
+
+* [Several Rust Engineering Postions Available](https://jobs.lever.co/kraken?team=Engineering)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
