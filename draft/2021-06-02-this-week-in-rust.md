@@ -21,6 +21,7 @@ No official blog posts, newsletters, or research papers this week.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Rust Closures will make your life easy.](https://blog.knoldus.com/rust-closures-will-make-your-life-easy/)
 
 ### Miscellaneous
 
