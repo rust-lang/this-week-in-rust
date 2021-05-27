@@ -14,25 +14,42 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-No newsletters or research papers this week.
-
-### Official
+No official blog posts, newsletters, or research papers this week.
 
 ### Project/Tooling Updates
-
+* [rust-analyzer Changelog #78](https://rust-analyzer.github.io/thisweek/2021/05/24/changelog-78.html)
 * [This Week In TensorBase 4](https://tensorbase.io/thisweek/2021-05-26-tw_4/)
+* [rustc_codegen_gcc can now run libcore’s tests and pass most of them!](https://blog.antoyo.xyz/rustc_codegen_gcc-run-core-tests)
+* [Parcel 2 beta 3](https://v2.parceljs.org/blog/beta3/)
+* [Announcing lettre 0.10.0-rc.1](https://lettre.rs/post/lettre-0-10-0-rc-1/)
+* [Announcing typed-sql beta! Zero-cost ORM with fast compile times](https://www.reddit.com/r/rust/comments/njbt9s/announcing_typedsql_beta_zerocost_orm_with_fast/)
+* [Announcing Valuable, a library for object-safe value inspection](https://tokio.rs/blog/2021-05-valuable)
 
 ### Observations/Thoughts
-
-+ [Why and how we wrote a compiler in Rust (blog post series 1/X): the context](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-1-x-the-context-e2f83b10edb9)
+* [Why and how we wrote a compiler in Rust (blog post series 1/X): the context](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-1-x-the-context-e2f83b10edb9)
+* [2D Web Rendering with Rust](https://medium.com/lagierandlagier/2d-web-rendering-with-rust-4401cf133f31)
+* [A fast-to-sync/search and space-optimized replication algorithm written in Rust, the gun-db data replication model](https://mateusfreira.github.io/@mateusfreira-a-fast-to-sync-search-and-space-optimized-replication-algorithm-written-in-rust-the-Nun-db-data-replication-model/)
+* [Adventures in rustc Forking](https://jam1.re/blog/adventures-in-rustc-forking)
+* [Why and how we wrote a compiler in Rust (blog post series 1/X): the context](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-1-x-the-context-e2f83b10edb9)
+* [Baseline implementations should be predictable](https://pvk.ca/Blog/2021/05/14/baseline-implementations-should-be-predictable/)
+* [Naming Your Lifetimes](https://www.possiblerust.com/pattern/naming-your-lifetimes)
+* [Rucredstash release & Rust experience from a Haskeller](https://psibi.in/posts/2021-05-22-credstash.html)
 
 ### Rust Walkthroughs
-- [Creating an Infinite Mixture Model in Rust with the rv crate](https://redpoll.ai/blog/imm-with-rv-12/)
-- [Debug rust application inside container](https://blog.erebe.dev/blog/debug-rust-aplication-inside-container/index.html)
-- [ZH] [Practice of web crawling with async Rust (使用 Rust 做异步数据采集的实践)](https://blog.budshome.com/budshome/shi-yong-rust-zuo-yi-bu-shu-ju-cai-ji-de-shi-jian)
-### Miscellaneous
+* [Creating an Infinite Mixture Model in Rust with the rv crate](https://redpoll.ai/blog/imm-with-rv-12/)
+* [Debug rust application inside container](https://blog.erebe.dev/blog/debug-rust-aplication-inside-container/index.html)
+* [Write Rust lints without forking Clippy](https://www.trailofbits.com/post/write-rust-lints-without-forking-clippy)
+* [Zig Makes Rust Cross-Compilation Just Work](https://actually.fyi/posts/zig-makes-rust-cross-compilation-just-work/)
+* [Routing traffic in Rust using eBPF](https://www.infinyon.com/blog/2021/05/ebpf-routing-rust/)
+* [How to to_string in Rust](https://loige.co/how-to-to-string-in-rust/)
+* [Building small desktop apps with Ember.js and Tauri](https://dev.to/mitchartemis/building-small-desktop-apps-with-ember-js-and-tauri-3o28)
+* [Coming to Rust from Django](https://meesha.blog/2021/coming-to-rust-from-django.html)
+* [ZH] [Practice of web crawling with async Rust (使用 Rust 做异步数据采集的实践)](https://blog.budshome.com/budshome/shi-yong-rust-zuo-yi-bu-shu-ju-cai-ji-de-shi-jian)
+* [video] [Lock-Free to Wait-Free Simulation in Rust](https://youtu.be/Bw8-vvtA-E8)
 
-- [Rust Web Development - MEAP](https://www.manning.com/books/rust-web-development)
+### Miscellaneous
+* [Rust Web Development - MEAP](https://www.manning.com/books/rust-web-development)
+* [Fuchsia OS partially written in Rust has shipped](https://www.reddit.com/r/rust/comments/nldg5c/fuchsia_os_partially_written_in_rust_has_shipped/)
 
 # Crate of the Week
 
