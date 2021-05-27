@@ -99,7 +99,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [fix missing lifetimes diagnostics](https://github.com/rust-lang/rust/pull/85375)
 * [suggest borrowing if a trait implementation is found for `&`/`&mut T`](https://github.com/rust-lang/rust/pull/85369)
 * [remove `InPlaceIterable` marker from `Peekable` due to unsoundness](https://github.com/rust-lang/rust/pull/85340)
-* [extend `rustc_on_implemented` to improve more `?` error messages](https://github.com/rust-lang/rust/pull/85596)ippy/pull/7264)
+* [extend `rustc_on_implemented` to improve more `?` error messages](https://github.com/rust-lang/rust/pull/85596)
 * [cargo: add `cargo:rustc-link-arg-bin` flag](https://github.com/rust-lang/cargo/pull/9486)
 * [rustdoc: don't hide inherent implementations by default](https://github.com/rust-lang/rust/pull/85602)
 * [clippy: fix ICE in `implicit_return`](https://github.com/rust-lang/rust-clippy/pull/7242)
