@@ -23,7 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-* [Know About STM32F303VCT6 DISCOVERY Board..!](https://blog.knoldus.com/discovery-board/)
+* [The Relation between “Rust and Safe Programming” !!](https://blog.knoldus.com/lets-know-about-the-relation-between-rust-and-safe-programming/)
 
 ### Papers/Research Projects
 
