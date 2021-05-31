@@ -22,6 +22,8 @@ No official blog posts, newsletters, or research papers this week.
 
 ### Rust Walkthroughs
 
+* [Idiomatic Rust Binary Search Extended](https://c-hirsch.de/2020-05-30-idiomatic-rust-binary-search-extended)
+
 ### Miscellaneous
 
 # Crate of the Week
