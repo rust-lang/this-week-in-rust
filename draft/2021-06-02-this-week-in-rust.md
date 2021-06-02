@@ -168,14 +168,38 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**TrueLayer**
+
+* [Rust Backend Engineer (London, UK)](https://apply.workable.com/truelayer/j/262DB83659/)
+
+**Ockam**
+
+* [Architect - Rust Library Design (Remote)](https://www.ockam.io/team/Architect-Rust-Library-Design/53838c2d-1e48-5cec-8bb4-8fa8420e6171)
+
 **Tweede golf**
 
 * [Lead Developer Embedded Rust (Nijmegen, NL)](https://tweedegolf.nl/vacatures/2/lead-developer-embedded-rust)
+
+**Dedalus Healthcare**
+
+* [Medical Visualization Software Engineer (Remote, EU timezone)](https://www.karriere.at/jobs/5820070)
+
+**Yat Labs**
+
+* [Senior Rust Developer (Remote, EU timezone)](https://www.arbeitnow.com/view/senior-rust-developer-tari-71761)
+
+**Ubisoft**
+
+* [Software Engineer - Machine Learning (Remote)](https://jobs.smartrecruiters.com/Ubisoft2/743999750187882-software-engineer-machine-learning-f-h-nb)
 
 **NZXT**
 
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
 * [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
+
+**Kraken**
+
+* [Several Rust Engineering Positions Available](https://jobs.lever.co/kraken?team=Engineering)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
