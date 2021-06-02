@@ -19,6 +19,7 @@ No official blog posts, newsletters, or research papers this week.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Object Oriented Programming Concepts in Rust](https://blog.knoldus.com/object-oriented-programming-concepts-in-rust/)
 
 ### Rust Walkthroughs
 
