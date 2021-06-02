@@ -33,9 +33,9 @@ No official blog posts, newsletters, or research papers this week.
 
 # Crate of the Week
 
-This week's crate is [typed-index-collections](https://github.com/zheland/typed-index-collections), a crate that lets you make Vecs with custom-typed indices.
+This week's crate is [rust-codegen-gcc](https://github.com/antoyo/rustc_codegen_gcc), a drop-in replacement for the LLVM-based rust compiler backend targetting GCC.
 
-Thanks to [Tim](https://users.rust-lang.org/t/crate-of-the-week/2704/913) for the nomination
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/crate-of-the-week/2704/920) for the nomination
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -56,37 +56,51 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 # Updates from Rust Core
 
-280 pull requests were [merged in the last week][merged]
+255 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-05-17..2021-05-24
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-05-24..2021-05-31
 
-* [implement more `Iterator` methods on `core::iter::Repeat`](https://github.com/rust-lang/rust/pull/85338)
-* [override `clone_from` for some types](https://github.com/rust-lang/rust/pull/85176)
-* [stabilize `const_fn_unsize`](https://github.com/rust-lang/rust/pull/85078)
-* [implement the new desugaring from `try_trait_v2`](https://github.com/rust-lang/rust/pull/84767)
-* [impl `FromStr` for `proc_macro::Literal`](https://github.com/rust-lang/rust/pull/84717)
-* [stabilize `extended_key_value_attributes`](https://github.com/rust-lang/rust/pull/83366)
-* [fix auto-hide for implementations and implementors](https://github.com/rust-lang/rust/pull/85575)
-* [add `rustc_mir::interpret::Machine::enforce_abi()`](https://github.com/rust-lang/rust/pull/85557)
-* [check for more things in THIR unsafeck](https://github.com/rust-lang/rust/pull/85555)
-* [suppress spurious errors inside `async fn`](https://github.com/rust-lang/rust/pull/85393)
-* [avoid zero-length `memcpy` in formatting](https://github.com/rust-lang/rust/pull/85391)
-* [always produce sub-obligations when using cached projection result](https://github.com/rust-lang/rust/pull/85382)
-* [CTFE core engine allocation & memory API improvemenets](https://github.com/rust-lang/rust/pull/85376)
-* [CTFE `get_alloc_extra_mut`: also provide ref to `MemoryExtra`](https://github.com/rust-lang/rust/pull/85578)
-* [fix missing lifetimes diagnostics](https://github.com/rust-lang/rust/pull/85375)
-* [suggest borrowing if a trait implementation is found for `&`/`&mut T`](https://github.com/rust-lang/rust/pull/85369)
-* [remove `InPlaceIterable` marker from `Peekable` due to unsoundness](https://github.com/rust-lang/rust/pull/85340)
-* [extend `rustc_on_implemented` to improve more `?` error messages](https://github.com/rust-lang/rust/pull/85596)ippy/pull/7264)
-* [cargo: add `cargo:rustc-link-arg-bin` flag](https://github.com/rust-lang/cargo/pull/9486)
-* [rustdoc: don't hide inherent implementations by default](https://github.com/rust-lang/rust/pull/85602)
-* [clippy: fix ICE in `implicit_return`](https://github.com/rust-lang/rust-clippy/pull/7242)
-* [clippy: fix invalid syntax in `from_iter_instead_of_collect` suggestion](https://github.com/rust-lang/rust-cl
-* [clippy: fix `needless_borrow` suggestion](https://github.com/rust-lang/rust-clippy/pull/7105)
-* [clippy: fix `redundant_closure` for `vec![]` macro in a closure with arguments](https://github.com/rust-lang/rust-clippy/pull/7263)
-* [clippy: don't lint `multiple_inherent_impl` with generic arguments](https://github.com/rust-lang/rust-clippy/pull/7089)
-* [clippy: early return from `LintPass` registration when collecting metadata](https://github.com/rust-lang/rust-clippy/pull/7253)
-* [clippy: adding the default lint level to the metadata collection](https://github.com/rust-lang/rust-clippy/pull/7246)
+* [post-monomorphization errors traces MVP](https://github.com/rust-lang/rust/pull/85633)
+* [make closures inherit their parent's "safety context"](https://github.com/rust-lang/rust/pull/85607)
+* [fix low-memory issue and lower tier platforms with no sysinfo](https://github.com/rust-lang/rustup/pull/2779)
+* [fix bootstrap using host exe suffix for cargo](https://github.com/rust-lang/rust/pull/85590)
+* [const-eval: disallow unwinding across functions that !fn_can_unwind()](https://github.com/rust-lang/rust/pull/85546)
+* [deal with const_evaluatable_checked in ConstEquate](https://github.com/rust-lang/rust/pull/85481)
+* [disallow shadowing const parameters](https://github.com/rust-lang/rust/pull/85478)
+* [optimize proc macro bridge](https://github.com/rust-lang/rust/pull/85390)
+* [fix incorrect suggestions for E0605](https://github.com/rust-lang/rust/pull/84968)
+* [stabilize member constraints](https://github.com/rust-lang/rust/pull/84701)
+* [E0599 suggestions and elision of generic argument if no canditate is found](https://github.com/rust-lang/rust/pull/84221)
+* [a bit more polish on const eval errors](https://github.com/rust-lang/rust/pull/85767)
+* [merge CrateDisambiguator into StableCrateId](https://github.com/rust-lang/rust/pull/85804)
+* [do not try to build LLVM with Zlib on Windows](https://github.com/rust-lang/rust/pull/85762)
+* [use u64 for the GroupWord on WebAssembly](https://github.com/rust-lang/hashbrown/pull/271)
+* [don't hash `thir_body`](https://github.com/rust-lang/rust/pull/85729)
+* [emit a hard error when a panic occurs during const-eval](https://github.com/rust-lang/rust/pull/85704)
+* [don't sort a Vec before computing its DepTrackingHash](https://github.com/rust-lang/rust/pull/85702)
+* [demote `ControlFlow::`{`from`, `into`}`_try` to `pub(crate)`](https://github.com/rust-lang/rust/pull/85645)
+* [remove `Ipv6Addr::is_unicast_link_local_strict`](https://github.com/rust-lang/rust/pull/85819)
+* [make `Step` trait safe to implement](https://github.com/rust-lang/rust/pull/83772)
+* [fix unsoundness of `Debug` implementation for `linked_list::IterMut`](https://github.com/rust-lang/rust/pull/85814)
+* [`Weak`'s type parameter may dangle on `drop`](https://github.com/rust-lang/rust/pull/85535)
+* [add `TrustedRandomAccess` specialization for `Vec::extend()`](https://github.com/rust-lang/rust/pull/83770)
+* [enable `Vec`'s calloc optimization for `Option<NonZero>`](https://github.com/rust-lang/rust/pull/85737)
+* [prevent double `drop` in `Vec::dedup_by` if a destructor panics](https://github.com/rust-lang/rust/pull/85625)
+* [fix pointer provenance in `<[T]>::copy_within`](https://github.com/rust-lang/rust/pull/85610)
+* [add `String::extend_from_within`](https://github.com/rust-lang/rust/pull/85801)
+* [add `inline` attr to `CString::into_inner` so it can optimize out `NonNull` checks](https://github.com/rust-lang/rust/pull/85719)
+* [hashbrown: guard against allocations exceeding `isize::MAX`](https://github.com/rust-lang/hashbrown/pull/268)
+* [futures: allow no limit for buffered stream combinators](https://github.com/rust-lang/futures-rs/pull/2429)
+* [cargo: `cargo tree -e no-proc-macro` to hide procedural macro dependencies](https://github.com/rust-lang/cargo/pull/9488)
+* [rustup: bring back `x86_64-sun-solaris` target to rustup](https://github.com/rust-lang/rust/pull/85252)
+* [clippy: add `avoid_breaking_exported_api` config option](https://github.com/rust-lang/rust-clippy/pull/7187)
+* [clippy: add lint `suspicious_splitn`](https://github.com/rust-lang/rust-clippy/pull/7292)
+* [clippy: move `semicolon_if_nothing_returned` to `pedantic`](https://github.com/rust-lang/rust-clippy/pull/7268)
+* [clippy: improve message for `not_unsafe_ptr_arg_deref` lint](https://github.com/rust-lang/rust-clippy/pull/7294)
+* [clippy: fix ICE in `too_many_lines`](https://github.com/rust-lang/rust-clippy/pull/7287)
+* [clippy: fix `allow` on some statement lints](https://github.com/rust-lang/rust-clippy/pull/7282)
+* [clippy: fix `missing_docs_in_private_items` false negative](https://github.com/rust-lang/rust-clippy/pull/7281)
+* [clippy: add the ability to invalidate caches to force metadata collection](https://github.com/rust-lang/rust-clippy/pull/7256)
 
 ## Rust Compiler Performance Triage
 
@@ -134,12 +148,14 @@ decision. Express your opinions now.
 # Upcoming Events
 
 ### Online
+
 * [May 27, 2021, London/Remote, UK - Runtime reflection, gRPC at scale, and more](https://www.meetup.com/Rust-London-User-Group/events/278045628/)
 * [May 27, 2021, Montréal, QC, CN - Rust MTL: Building a Scrabble AI with the fst crate - Rust Montréal](https://www.meetup.com/Rust-Montreal/events/278011978/)
 * [June 1, 2021, Dublin, IE - June Remote Meetup - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/278409501/)
 * [June 1, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/jxfdjsyccjbcb/)
 
 ### North America
+
 * [June 9, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgryccjbmb/)
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -166,11 +182,11 @@ Email the [Rust Community Team][community] for access.
 
 Ok, you wanted it. Let's go full meta:
 
-> This time, there were two crates and one quote, which is not much, but ok. Keep it up, folks!
+> I recently graduated with my Ph.D., after having worked on 5 different versions of my simulator, written in 4 different languages. The last version, written in pure, safe rust, worked correctly in part because of rust's strong guarantees about what 'safety' means, which I was able to leverage to turn what would normally be runtime errors into compile time errors. That let me catch errors that would normally be days or weeks of debugging into relatively simple corrections. \[...\] So, once again, thank you to everyone!
 
-– [llogiq on reddit](https://www.reddit.com/r/rust/comments/ngp41e/this_week_in_rust_391/gysis5e)
+– [Cem Karan on rust-internals](https://internals.rust-lang.org/t/ot-thank-you-to-everyone-that-has-made-rust-possible/14777)
 
-Thanks to [Patrice Peterson](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1051) for the suggestion!
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1053) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
