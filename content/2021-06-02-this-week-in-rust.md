@@ -247,4 +247,4 @@ Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/3
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/k5nsab/this_week_in_rust_367/)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/nr1mf8/this_week_in_rust_393/)</small>
