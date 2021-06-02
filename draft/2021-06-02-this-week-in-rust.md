@@ -17,7 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 No official blog posts, newsletters, or research papers this week.
 
 ### Project/Tooling Updates
-
+* [This Week In TensorBase 5](https://tensorbase.io/thisweek/2021-06-02-tw_5/)
 * [Turning rusty tech into Rust ~ When you need to FTP but don’t want to](https://blog.abstractinvoke.com/05-07-unftp.html)
 
 ### Observations/Thoughts
@@ -26,7 +26,6 @@ No official blog posts, newsletters, or research papers this week.
 ### Rust Walkthroughs
 * [RESTful API in Sync & Async Rust](https://github.com/pretzelhammer/rust-blog/blob/master/posts/restful-api-in-sync-and-async-rust.md)
 * [Rust Closures will make your life easy.](https://blog.knoldus.com/rust-closures-will-make-your-life-easy/)
-
 * [Idiomatic Rust Binary Search Extended](https://c-hirsch.de/2020-05-30-idiomatic-rust-binary-search-extended)
 
 ### Miscellaneous
