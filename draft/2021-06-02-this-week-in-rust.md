@@ -203,6 +203,7 @@ Email the [Rust Community Team][community] for access.
 **Ockam**
 
 * [Architect - Rust Library Design (Remote)](https://www.ockam.io/team/Architect-Rust-Library-Design/53838c2d-1e48-5cec-8bb4-8fa8420e6171)
+* [Applied Cryptographer - Rust (Remote)](https://www.ockam.io/team/Applied-Cryptographer-Rust/61e07e82-0589-51de-b250-42dbceb31c3c)
 
 **Tweede golf**
 
