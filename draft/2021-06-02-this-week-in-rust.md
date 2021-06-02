@@ -197,6 +197,11 @@ Email the [Rust Community Team][community] for access.
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
 * [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
 
+**Parity**
+
+* [Junior/Senior Rust Solution Engineer - Substrate (Remote)](https://grnh.se/b61620583us)
+* [Multiple Rust / Blockchain Engineering Positions Available](parity.io/jobs)
+
 **Kraken**
 
 * [Several Rust Engineering Positions Available](https://jobs.lever.co/kraken?team=Engineering)
