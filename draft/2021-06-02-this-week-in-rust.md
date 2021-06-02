@@ -200,7 +200,7 @@ Email the [Rust Community Team][community] for access.
 **Parity**
 
 * [Junior/Senior Rust Solution Engineer - Substrate (Remote)](https://grnh.se/b61620583us)
-* [Multiple Rust / Blockchain Engineering Positions Available](parity.io/jobs)
+* [Multiple Rust / Blockchain Engineering Positions Available](https://parity.io/jobs)
 
 **Kraken**
 
