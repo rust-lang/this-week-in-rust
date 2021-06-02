@@ -24,6 +24,7 @@ No official blog posts, newsletters, or research papers this week.
 * [Object Oriented Programming Concepts in Rust](https://blog.knoldus.com/object-oriented-programming-concepts-in-rust/)
 
 ### Rust Walkthroughs
+* [RESTful API in Sync & Async Rust](https://github.com/pretzelhammer/rust-blog/blob/master/posts/restful-api-in-sync-and-async-rust.md)
 * [Rust Closures will make your life easy.](https://blog.knoldus.com/rust-closures-will-make-your-life-easy/)
 
 ### Miscellaneous
