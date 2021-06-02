@@ -18,6 +18,8 @@ No official blog posts, newsletters, or research papers this week.
 
 ### Project/Tooling Updates
 
+* [Turning rusty tech into Rust ~ When you need to FTP but don’t want to](https://blog.abstractinvoke.com/05-07-unftp.html)
+
 ### Observations/Thoughts
 * [Object Oriented Programming Concepts in Rust](https://blog.knoldus.com/object-oriented-programming-concepts-in-rust/)
 
