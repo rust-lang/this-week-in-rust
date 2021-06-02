@@ -79,7 +79,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
-*No issues were proposed for CfP*.
+* [Backroll-rs is looking for contributors](https://www.reddit.com/r/rust/comments/npnl1p/help_wanted_with_backrollrs_new_networking_library/)
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
@@ -147,7 +147,7 @@ Revision range: [cdbe288..1160cf8](https://perf.rust-lang.org/?start=cdbe2888979
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [A new prelude for the 2021 edition (trait-only edition)](https://github.com/rust-lang/rfcs/pull/3114)
+* [RFC: 2021 Edition](https://github.com/rust-lang/rfcs/pull/3085)
 
 ## Final Comment Period
 
@@ -157,31 +157,27 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [RFC: 2021 Edition](https://github.com/rust-lang/rfcs/pull/3085)
+* [disposition: merge] [RFC: Supertrait item shadowing](https://github.com/rust-lang/rfcs/pull/2845)
+* [disposition: merge] [Type-changing struct update syntax](https://github.com/rust-lang/rfcs/pull/2528)
+* [disposition: merge] [RFC: Introduce concat_bytes!() to join [u8] and byte str analogous to concat! for str](https://github.com/rust-lang/rfcs/pull/2509)
 * [disposition: merge] [RFC: Overconstraining and omitting unsafe in impls of unsafe trait methods](https://github.com/rust-lang/rfcs/pull/2316)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [rustc: Allow safe #[target_feature] on wasm](https://github.com/rust-lang/rust/pull/84988)
-* [disposition: merge] [Show test type during prints](https://github.com/rust-lang/rust/pull/84863)
-* [disposition: merge] [Tracking Issue for VecDeque binary search functions](https://github.com/rust-lang/rust/issues/78021)
-* [disposition: merge] [Tracking issue for WebAssembly SIMD support](https://github.com/rust-lang/rust/issues/74372)
-* [disposition: merge] [Use try_reserve in Vec's io::Write](https://github.com/rust-lang/rust/pull/84612)
+* [disposition: merge] [Re-add support for parsing (and pretty-printing) inner-attributes in match body](https://github.com/rust-lang/rust/pull/85193)
 
 ## New RFCs
 
-* [ArrayBuilder struct for safe/efficient dynamic array initialisation](https://github.com/rust-lang/rfcs/pull/3131)
-* [RFC: I/O Safety](https://github.com/rust-lang/rfcs/pull/3128)
-* [A Cargo profile option trim-path to sanitise absolute paths](https://github.com/rust-lang/rfcs/pull/3127)
+* [Switch from travis to github actions.](https://github.com/rust-lang/rfcs/pull/3136)
 
 # Upcoming Events
 
 ### Online
 
-* [May 27, 2021, London/Remote, UK - Runtime reflection, gRPC at scale, and more](https://www.meetup.com/Rust-London-User-Group/events/278045628/)
-* [May 27, 2021, Montréal, QC, CN - Rust MTL: Building a Scrabble AI with the fst crate - Rust Montréal](https://www.meetup.com/Rust-Montreal/events/278011978/)
-* [June 1, 2021, Dublin, IE - June Remote Meetup - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/278409501/)
-* [June 1, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/jxfdjsyccjbcb/)
+* [June 8, 2021, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccjblb/)
+* [June 10, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
+* [June 16, 2021, Vancouver, BC, US - Rust in Mozilla's Data Platform - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/fqpkjsyccjbvb/)
+* [June 17, 2021, Denver, CO, US - Learning Rust as a Python/Javascript developer by Juhis - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/277575285/)
 
 ### North America
 
