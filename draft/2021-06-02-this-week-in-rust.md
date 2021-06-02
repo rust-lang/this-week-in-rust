@@ -21,6 +21,7 @@ No official blog posts, newsletters, or research papers this week.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [ZH] [Take Web Screenshot & Make Watermark in Rust (Rust 中，对网址进行异步快照，并添加水印效果的实践)](https://blog.budshome.com/budshome/rust-zhong-,dui-wang-zhi-jin-xing-yi-bu-kuai-zhao-,bing-qie-tian-jia-shui-yin-xiao-guo-de-shi-jian)
 
 ### Miscellaneous
 
