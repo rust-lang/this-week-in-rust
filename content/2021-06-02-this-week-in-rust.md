@@ -235,8 +235,6 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-Ok, you wanted it. Let's go full meta:
-
 > I recently graduated with my Ph.D., after having worked on 5 different versions of my simulator, written in 4 different languages. The last version, written in pure, safe rust, worked correctly in part because of rust's strong guarantees about what 'safety' means, which I was able to leverage to turn what would normally be runtime errors into compile time errors. That let me catch errors that would normally be days or weeks of debugging into relatively simple corrections. \[...\] So, once again, thank you to everyone!
 
 – [Cem Karan on rust-internals](https://internals.rust-lang.org/t/ot-thank-you-to-everyone-that-has-made-rust-possible/14777)
