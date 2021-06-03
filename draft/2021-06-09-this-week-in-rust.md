@@ -14,7 +14,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-No official blog posts or research papers this week.
+[Tim](https://twitter.com/haochizzle) from [ChainSafe](https://chainsafe.io) here. We're a blockchain protocol and infrastructure development firm working in major ecosystems like Ethereum, Polkadot, Filecoin, Cosmos, Mina, and many more. We currently have two project teams building Rust implementations. One for the Filecoin specification, called #[Forest](https://github.com/ChainSafe/forest); and the other for the Mina specification, for now unnamed. We recently added two new blog posts to update our communities on our progress! First, a little progress update on 🌲 #[Forest](https://medium.com/chainsafe-systems/back-into-the-forest-983a4344ffe9), and then a post announcing our official work on building the 〽 [Mina Protocol](https://medium.com/chainsafe-systems/realizing-the-mina-vision-in-rust-453f6f522205)! That's about it for now. If you're interested, we invite you to join the conversation on our [Discord](https://discord.gg/CprJHjrWG6) to learn more! I hope I did this right! I am a Github n00b 😬
 
 ### Newsletters
 
