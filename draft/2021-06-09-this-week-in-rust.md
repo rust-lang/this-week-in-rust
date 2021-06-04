@@ -24,6 +24,8 @@ No official blog posts or research papers this week.
 
 ### Rust Walkthroughs
 
+[Creating an NPM package written in Rust](https://popcornpaws.medium.com/creating-an-npm-package-written-in-rust-ce02f7c55458)
+
 ### Miscellaneous
 
 ## Crate of the Week
