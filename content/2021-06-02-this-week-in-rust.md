@@ -168,7 +168,7 @@ decision. Express your opinions now.
 
 ## New RFCs
 
-* [Switch from travis to github actions.](https://github.com/rust-lang/rfcs/pull/3136)
+*No new RFCs were proposed this week.*
 
 # Upcoming Events
 
