@@ -183,7 +183,7 @@ Email the [Rust Community Team][community] for access.
 
 * [Lead Developer Embedded Rust (Nijmegen, NL)](https://tweedegolf.nl/vacatures/2/lead-developer-embedded-rust)
 
-**Eniride**
+**Einride**
 
 * [Rust Developer Tech, Autonomous Transport(Stockholm/Gothenburg, SE)](https://www.einride.tech/careers/1186875-rust-developer)
 
