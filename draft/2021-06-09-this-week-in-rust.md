@@ -49,7 +49,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Calibration From Scratch Using Rust: Part 1 of 3](https://www.tangramvision.com/blog/calibration-from-scratch-using-rust-part-1-of-3)
 * [Calibration From Scratch Using Rust: Part 2 of 3](https://www.tangramvision.com/blog/calibration-from-scratch-using-rust-part-2-of-3)
 * [Calibration From Scratch Using Rust: Part 3 of 3](https://www.tangramvision.com/blog/calibration-from-scratch-using-rust-part-3-of-3)
-* [From Julia to Rust](https://miguelraz.github.io/blog/juliatorust/)
 * [Rust from a JavaScript perspective](https://blogs.harvard.edu/kapolos/rust-from-a-javascript-perspective/)
 * [!#[no_std] with WASI is more complicated than I thought it would be](https://dev.to/thepuzzlemaker/nostd-with-wasi-is-more-complicated-than-i-thought-it-would-be-14j7)
 * [Rust - What made it "click" for me (Ownership and memory models)](https://deavid.wordpress.com/2021/06/06/rust-what-made-it-click-for-me-ownership-memory-internals/)
