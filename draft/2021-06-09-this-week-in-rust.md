@@ -91,7 +91,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
-* [Backroll-rs is looking for contributors](https://www.reddit.com/r/rust/comments/npnl1p/help_wanted_with_backrollrs_new_networking_library/)
+* [Ruma has several "help wanted" issues](https://github.com/ruma/ruma/labels/help%20wanted)
+* [Cargo has several "help wanted" issues](https://github.com/rust-lang/cargo/labels/E-help-wanted)
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
@@ -133,7 +134,7 @@ Revision range: [1160cf..a50d721](https://perf.rust-lang.org/?start=1160cf864f2a
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC: 2021 Edition](https://github.com/rust-lang/rfcs/pull/3085)
+*No new RFCs were proposed this week.*
 
 ### Final Comment Period
 
@@ -143,33 +144,31 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
+* [disposition: close] [Add the boxed!() macro to "de-magic" box syntax](https://github.com/rust-lang/rfcs/pull/3057)
 * [disposition: merge] [RFC: Supertrait item shadowing](https://github.com/rust-lang/rfcs/pull/2845)
 * [disposition: merge] [Type-changing struct update syntax](https://github.com/rust-lang/rfcs/pull/2528)
-* [disposition: merge] [RFC: Introduce concat_bytes!() to join [u8] and byte str analogous to concat! for str](https://github.com/rust-lang/rfcs/pull/2509)
-* [disposition: merge] [RFC: Overconstraining and omitting unsafe in impls of unsafe trait methods](https://github.com/rust-lang/rfcs/pull/2316)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Stabilize span_open() and span_close().](https://github.com/rust-lang/rust/pull/86136)
+* [disposition: merge] [Stabilize ops::ControlFlow (just the type)](https://github.com/rust-lang/rust/pull/85608)
 * [disposition: merge] [Re-add support for parsing (and pretty-printing) inner-attributes in match body](https://github.com/rust-lang/rust/pull/85193)
+* [disposition: merge] [Ignore derived Clone and Debug implementations during dead code analysis](https://github.com/rust-lang/rust/pull/85200)
+* [disposition: merge] [Tracking Issue for const core::str::from_utf8_unchecked](https://github.com/rust-lang/rust/issues/75196)
 
 ### New RFCs
 
-* [Switch from travis to github actions.](https://github.com/rust-lang/rfcs/pull/3136)
+* [RFC: let-else statements](https://github.com/rust-lang/rfcs/pull/3137)
 
 ## Upcoming Events
 
 ### Online
 
-* [June 8, 2021, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccjblb/)
-* [June 10, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 * [June 15, 2021, Washington, DC, US - In-kernel, fast-path packet processing with AF_XDP - Rust DC](https://www.meetup.com/RustDC/events/vdhxgsyccjbtb)
 * [June 16, 2021, Vancouver, BC, CA - Rust in Mozilla's Data Platform - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/fqpkjsyccjbvb/)
 * [June 17, 2021, Denver, CO, US - Learning Rust as a Python/Javascript developer by Juhis - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/277575285/)
 * [June 18, 2021, Online - Learn Rust Fundamentals | Rust 101 - KubeDaily](https://www.youtube.com/watch?v=DIxjk0HTx5U)
-
-### North America
-
-* [June 9, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgryccjbmb/)
+* [June 29. 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccjbmc/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
