@@ -26,6 +26,8 @@ No official blog posts or research papers this week.
 
 ### Miscellaneous
 
+This is a blog post called [From Julia to Rust](https://miguelraz.github.io/blog/juliatorust/) by Miguel Raz Guzmán Macedo, and it's about a Julia coder's first steps into the Rust world, the differing philosophies and trade offs of the respective languages, and what each community can learn from the other. Raz has begun contributing to `stdsimd` and mostly hangs out on twitter and the Julia Slack.
+
 ## Crate of the Week
 
 This week's crate is [rust-codegen-gcc](https://github.com/antoyo/rustc_codegen_gcc), a drop-in replacement for the LLVM-based rust compiler backend targetting GCC.
