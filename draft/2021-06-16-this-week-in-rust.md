@@ -19,6 +19,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
+* [AWS-SDK-Rust: CloudFormation, SageMaker, EC2, and SES](https://github.com/awslabs/aws-sdk-rust/releases/tag/v0.0.8-alpha)
+* [Announcing Aya](https://confused.ai/posts/announcing-aya)
 
 ### Observations/Thoughts
 * [ A few thoughts on Fuchsia security](https://blog.cr0.org/2021/06/a-few-thoughts-on-fuchsia-security.html)
@@ -153,6 +155,18 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**ChainSafe Systems**
+
+* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
+**Gnosis**
+
+* [Ethereum Core Developer (Remote)](https://arbeitnow.com/view/ethereum-core-developer-mwd-gnosis-126355)
+
+**Braiins**
+
+* [Rust Developer (Prague, CZ)](https://braiins.com/careers/rust-developer)
+
 **NZXT**
 
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
@@ -166,7 +180,6 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 ChainSafe Systems 
-- [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
 
 # Quote of the Week
 
