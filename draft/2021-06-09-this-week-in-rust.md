@@ -20,6 +20,8 @@ No official blog posts or research papers this week.
 
 ### Project/Tooling Updates
 
+* [This Week In TensorBase 6](https://tensorbase.io/thisweek/2021-06-09-tw_6/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
