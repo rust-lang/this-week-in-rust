@@ -19,6 +19,7 @@ No official blog posts or research papers this week.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rocket v0.5 Release Candidate](https://rocket.rs/v0.5-rc/news/2021-06-09-version-0.5-rc.1/)
 
 ### Observations/Thoughts
 
