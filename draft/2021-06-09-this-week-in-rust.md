@@ -20,6 +20,8 @@ No official blog posts or research papers this week.
 
 ### Project/Tooling Updates
 
+* ⚡️ [Dotenv-linter v3.1.0: Overview of key changes](https://dotenv-linter.github.io/#/whats_new/v310) 🦀
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
