@@ -23,6 +23,7 @@ No official blog posts or research papers this week.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [ZH] [series] [Build front-end web apps with Yew and WebAssembly in Rust -part 1 (Rust 和 Wasm 的融合，使用 yew 构建 WebAssembly 标准的 web 前端（1）)](https://blog.budshome.com/budshome/rust-he-wasm-de-rong-he-,shi-yong-yew-gou-jian-webassembly-biao-zhun-de-web-qian-duan-(1)--qi-bu-ji-crate-xuan-ze)
 
 ### Miscellaneous
 
