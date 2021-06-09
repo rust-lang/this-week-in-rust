@@ -24,6 +24,8 @@ No official blog posts or research papers this week.
 
 ### Rust Walkthroughs
 
+* [Rise and Shine: Putting the nRF52840 to sleep, and waking it back up](https://tweedegolf.nl/blog/57/rise-and-shine-putting-the-nrf52840-to-sleep-and-waking-back-up)
+
 ### Miscellaneous
 
 ## Crate of the Week
