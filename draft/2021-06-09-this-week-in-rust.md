@@ -24,6 +24,8 @@ No official blog posts or research papers this week.
 
 ### Rust Walkthroughs
 
+[Speed up your Rust CI with cache image and Buildkit](https://blog.erebe.dev/blog/speed-up-your-ci-with-buildkit/)
+
 ### Miscellaneous
 
 ## Crate of the Week
