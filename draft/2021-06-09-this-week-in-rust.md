@@ -14,34 +14,61 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-* [Filecoin Forest update](https://medium.com/chainsafe-systems/back-into-the-forest-983a4344ffe9)
-* [Mina Protocol update](https://medium.com/chainsafe-systems/realizing-the-mina-vision-in-rust-453f6f522205)
+### Official
+* [Announcing Rustup 1.24.3](https://blog.rust-lang.org/2021/06/08/Rustup-1.24.3.html)
 
 ### Newsletters
+* [This Month in Rust OSDev (May 2021)](https://rust-osdev.com/this-month/2021-05/)
 
 ### Project/Tooling Updates
+* [Filecoin Forest update](https://medium.com/chainsafe-systems/back-into-the-forest-983a4344ffe9)
+* [Mina Protocol update](https://medium.com/chainsafe-systems/realizing-the-mina-vision-in-rust-453f6f522205)
+* [rust-analyzer Changelog #80](https://rust-analyzer.github.io/thisweek/2021/06/07/changelog-80.html)
+* [IntelliJ Rust Changelog #148](https://intellij-rust.github.io/2021/06/07/changelog-148.html)
+* [Rust/C++ Interop in the Android Platform](https://security.googleblog.com/2021/06/rustc-interop-in-android-platform.html)
 * [Rocket v0.5 Release Candidate](https://rocket.rs/v0.5-rc/news/2021-06-09-version-0.5-rc.1/)
 * [This Week In TensorBase 6](https://tensorbase.io/thisweek/2021-06-09-tw_6/)
 * [Dotenv-linter v3.1.0: Overview of key changes](https://dotenv-linter.github.io/#/whats_new/v310)
 
 ### Observations/Thoughts
+* [Untapped potential in Rust's type system](https://www.jakobmeier.ch/blogging/Untapped-Rust.html)
+* [Idiomatic Rust - Binary Search Extended](https://c-hirsch.de/2020-05-30-idiomatic-rust-binary-search-extended/)
+* [Designing Rust bindings for REST APIs](https://plume.benboeckel.net/~/JustAnotherBlog/designing-rust-bindings-for-rest-ap-is)
+* [Rust zero-cost abstractions in action](https://medium.com/ingeniouslysimple/rust-zero-cost-abstraction-in-action-9e4e2f8bf5a)
+* [Translating Quake 3 into Rust](https://immunant.com/blog/2020/01/quake3/)
+* [First impressions of Rust programming on Solana](https://brson.github.io/2021/06/08/rust-on-solana)
+* [Optimizing Pairing-Based Cryptography: Montgomery Arithmetic in Rust](https://research.nccgroup.com/2021/06/09/optimizing-pairing-based-cryptography-montgomery-arithmetic-in-rust/)
+* [My second cup of Rust](https://blog.frankel.ch/start-rust/2/)
+* [A Goose In The Clouds: Load Testing At Scale](https://www.tag1consulting.com/blog/goose-clouds-load-testing-scale)
 * [Walking through "The Java Tutorials" with Rust](https://rust-java-tutorials.netlify.app/blog/)
 * [Behavior inheritance in Rust](https://abadcafe.wordpress.com/2021/01/08/behavior-inheritance-in-rust/)
+* [audio] [Building with Rust: Ralf Jung on GhostCell and working as a PL researcher](https://anchor.fm/building-with-rust/episodes/Building-with-Rust-Ralf-Jung-on-GhostCell-and-Working-as-a-PL-Researcher-e12auje)
 
 ### Rust Walkthroughs
+* [Rust Derive Macro Guide](https://github.com/imbolc/rust-derive-macro-guide)
+* [Calibration From Scratch Using Rust: Part 1 of 3](https://www.tangramvision.com/blog/calibration-from-scratch-using-rust-part-1-of-3)
+* [Calibration From Scratch Using Rust: Part 2 of 3](https://www.tangramvision.com/blog/calibration-from-scratch-using-rust-part-2-of-3)
+* [Calibration From Scratch Using Rust: Part 3 of 3](https://www.tangramvision.com/blog/calibration-from-scratch-using-rust-part-3-of-3)
+* [From Julia to Rust](https://miguelraz.github.io/blog/juliatorust/)
+* [Rust from a JavaScript perspective](https://blogs.harvard.edu/kapolos/rust-from-a-javascript-perspective/)
+* [!#[no_std] with WASI is more complicated than I thought it would be](https://dev.to/thepuzzlemaker/nostd-with-wasi-is-more-complicated-than-i-thought-it-would-be-14j7)
+* [Rust - What made it "click" for me (Ownership and memory models)](https://deavid.wordpress.com/2021/06/06/rust-what-made-it-click-for-me-ownership-memory-internals/)
 * [Creating an NPM package written in Rust](https://popcornpaws.medium.com/creating-an-npm-package-written-in-rust-ce02f7c55458)
+* [Rise and Shine: Putting the nRF52840 to sleep, and waking it back up](https://tweedegolf.nl/blog/57/rise-and-shine-putting-the-nrf52840-to-sleep-and-waking-back-up)
+* [Iterator producing iterator in Rust is really helpful.](https://blog.knoldus.com/iterator-producing-iterator-in-rust-is-really-helpful/)
+* [Speed up your Rust CI with cache image and Buildkit](https://blog.erebe.dev/blog/speed-up-your-ci-with-buildkit/)
 * [ZH] [series] [Build front-end web apps with Yew and WebAssembly in Rust -part 1: crates (Rust 和 Wasm 的融合，使用 yew 构建 WebAssembly 标准的 web 前端（1）- 起步及 crate 选择)](https://blog.budshome.com/budshome/rust-he-wasm-de-rong-he-,shi-yong-yew-gou-jian-webassembly-biao-zhun-de-web-qian-duan-(1)--qi-bu-ji-crate-xuan-ze)
 * [ZH] [series] [Build front-end web apps with Yew and WebAssembly in Rust -part 2: Components & Routers (Rust 和 Wasm 的融合，使用 yew 构建 WebAssembly 标准的 web 前端（2）- 组件和路由)](https://blog.budshome.com/budshome/rust-he-wasm-de-rong-he-,shi-yong-yew-gou-jian-webassembly-biao-zhun-de-web-qian-duan-(2)--zu-jian-he-lu-you)
+* [video] [Rust Beginners 5 - Tuples](https://youtu.be/gZMet9Vi7_A)
 
-* [Rise and Shine: Putting the nRF52840 to sleep, and waking it back up](https://tweedegolf.nl/blog/57/rise-and-shine-putting-the-nrf52840-to-sleep-and-waking-back-up)
-
-* [Iterator producing iterator in Rust is really helpful.](https://blog.knoldus.com/iterator-producing-iterator-in-rust-is-really-helpful/)
-
-
-[Speed up your Rust CI with cache image and Buildkit](https://blog.erebe.dev/blog/speed-up-your-ci-with-buildkit/)
+### Research
+* [collection] [Automatic Rust verification tools (2021)](https://alastairreid.github.io/automatic-rust-verification-tools-2021/)
 
 ### Miscellaneous
-
+* [QUIC Version 1 is live on Cloudflare](https://blog.cloudflare.com/quic-version-1-is-live-on-cloudflare/)
+* [What are the most "professional" crates?](https://www.reddit.com/r/rust/comments/nsvyxq/what_are_the_most_professional_crates/)
+* [What's your favourite under-rated Rust crate and why?](https://www.reddit.com/r/rust/comments/nuq1ix/whats_your_favourite_underrated_rust_crate_and_why/)
+* [It's not much, but I graduated from middle-school today with Rust as my language of choice](https://www.reddit.com/r/rust/comments/nrin1u/its_not_much_but_i_graduated_from_middleschool/)
 * [From Julia to Rust](https://miguelraz.github.io/blog/juliatorust/) 
 
 ## Crate of the Week
