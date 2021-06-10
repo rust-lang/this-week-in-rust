@@ -29,6 +29,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [From Julia to Rust](https://miguelraz.github.io/blog/juliatorust/) 
+
 ## Crate of the Week
 
 This week's crate is [rust-codegen-gcc](https://github.com/antoyo/rustc_codegen_gcc), a drop-in replacement for the LLVM-based rust compiler backend targetting GCC.
