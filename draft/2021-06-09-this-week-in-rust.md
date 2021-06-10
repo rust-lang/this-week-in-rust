@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [This Week In TensorBase 6](https://tensorbase.io/thisweek/2021-06-09-tw_6/)
 * [Dotenv-linter v3.1.0: Overview of key changes](https://dotenv-linter.github.io/#/whats_new/v310)
 
 ### Observations/Thoughts
