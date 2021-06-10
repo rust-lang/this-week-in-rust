@@ -34,6 +34,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Rise and Shine: Putting the nRF52840 to sleep, and waking it back up](https://tweedegolf.nl/blog/57/rise-and-shine-putting-the-nrf52840-to-sleep-and-waking-back-up)
 
+* [Iterator producing iterator in Rust is really helpful.](https://blog.knoldus.com/iterator-producing-iterator-in-rust-is-really-helpful/)
+
+
 ### Miscellaneous
 
 * [From Julia to Rust](https://miguelraz.github.io/blog/juliatorust/) 
