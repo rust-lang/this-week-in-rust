@@ -14,17 +14,22 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-No official blog posts or research papers this week.
+* [Filecoin Forest update](https://medium.com/chainsafe-systems/back-into-the-forest-983a4344ffe9)
+* [Mina Protocol update](https://medium.com/chainsafe-systems/realizing-the-mina-vision-in-rust-453f6f522205)
 
 ### Newsletters
 
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Behavior inheritance in Rust](https://abadcafe.wordpress.com/2021/01/08/behavior-inheritance-in-rust/)
 
 ### Rust Walkthroughs
+* [Creating an NPM package written in Rust](https://popcornpaws.medium.com/creating-an-npm-package-written-in-rust-ce02f7c55458)
 
 ### Miscellaneous
+
+* [From Julia to Rust](https://miguelraz.github.io/blog/juliatorust/) 
 
 ## Crate of the Week
 
@@ -142,7 +147,7 @@ decision. Express your opinions now.
 
 * [June 8, 2021, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccjblb/)
 * [June 10, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
-* [June 16, 2021, Vancouver, BC, US - Rust in Mozilla's Data Platform - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/fqpkjsyccjbvb/)
+* [June 16, 2021, Vancouver, BC, CA - Rust in Mozilla's Data Platform - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/fqpkjsyccjbvb/)
 * [June 17, 2021, Denver, CO, US - Learning Rust as a Python/Javascript developer by Juhis - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/277575285/)
 
 ### North America
@@ -162,6 +167,10 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
 * [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
+
+**Tweede golf**
+
+* [Lead Developer Embedded Rust (Nijmegen, NL)](https://tweedegolf.nl/vacatures/2/lead-developer-embedded-rust)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
