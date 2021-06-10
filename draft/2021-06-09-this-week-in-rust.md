@@ -24,7 +24,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [rust-analyzer Changelog #80](https://rust-analyzer.github.io/thisweek/2021/06/07/changelog-80.html)
 * [IntelliJ Rust Changelog #148](https://intellij-rust.github.io/2021/06/07/changelog-148.html)
 * [Rust/C++ Interop in the Android Platform](https://security.googleblog.com/2021/06/rustc-interop-in-android-platform.html)
-* [Rocket v0.5 Release Candidate](https://rocket.rs/v0.5-rc/news/2021-06-09-version-0.5-rc.1/)
 
 ### Observations/Thoughts
 * [Untapped potential in Rust's type system](https://www.jakobmeier.ch/blogging/Untapped-Rust.html)
@@ -46,9 +45,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [From Julia to Rust](https://miguelraz.github.io/blog/juliatorust/)
 * [Rust from a JavaScript perspective](https://blogs.harvard.edu/kapolos/rust-from-a-javascript-perspective/)
 * [!#[no_std] with WASI is more complicated than I thought it would be](https://dev.to/thepuzzlemaker/nostd-with-wasi-is-more-complicated-than-i-thought-it-would-be-14j7)
-* [Creating an NPM package written in Rust](https://popcornpaws.medium.com/creating-an-npm-package-written-in-rust-ce02f7c55458)
 * [Rust - What made it "click" for me (Ownership and memory models)](https://deavid.wordpress.com/2021/06/06/rust-what-made-it-click-for-me-ownership-memory-internals/)
-* [Buildkit: Speed up your (Rust) CI build by using image cache stage](https://blog.erebe.dev/blog/speed-up-your-ci-with-buildkit/)
 * [video] [Rust Beginners 5 - Tuples](https://youtu.be/gZMet9Vi7_A)
 
 ### Research
