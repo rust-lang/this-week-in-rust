@@ -21,6 +21,7 @@ No official blog posts or research papers this week.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+- [Walking through "The Java Tutorials" with Rust](https://rust-java-tutorials.netlify.app/blog/)
 
 ### Rust Walkthroughs
 
