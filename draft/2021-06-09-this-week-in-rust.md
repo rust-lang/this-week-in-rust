@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Behavior inheritance in Rust](https://abadcafe.wordpress.com/2021/01/08/behavior-inheritance-in-rust/)
 
 ### Rust Walkthroughs
+* [Creating an NPM package written in Rust](https://popcornpaws.medium.com/creating-an-npm-package-written-in-rust-ce02f7c55458)
 
 ### Miscellaneous
 
