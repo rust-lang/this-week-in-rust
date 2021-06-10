@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Dotenv-linter v3.1.0: Overview of key changes](https://dotenv-linter.github.io/#/whats_new/v310)
 
 ### Observations/Thoughts
+* [Walking through "The Java Tutorials" with Rust](https://rust-java-tutorials.netlify.app/blog/)
 * [Behavior inheritance in Rust](https://abadcafe.wordpress.com/2021/01/08/behavior-inheritance-in-rust/)
 
 ### Rust Walkthroughs
