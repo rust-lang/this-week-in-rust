@@ -24,6 +24,9 @@ No official blog posts or research papers this week.
 
 ### Rust Walkthroughs
 
+* [Iterator producing iterator in Rust is really helpful.](https://blog.knoldus.com/iterator-producing-iterator-in-rust-is-really-helpful/)
+
+
 ### Miscellaneous
 
 ## Crate of the Week
