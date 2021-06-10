@@ -21,6 +21,7 @@ No official blog posts or research papers this week.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Behavior inheritance in Rust](https://abadcafe.wordpress.com/2021/01/08/behavior-inheritance-in-rust/)
 
 ### Rust Walkthroughs
 
