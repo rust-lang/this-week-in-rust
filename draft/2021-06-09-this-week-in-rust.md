@@ -38,6 +38,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Iterator producing iterator in Rust is really helpful.](https://blog.knoldus.com/iterator-producing-iterator-in-rust-is-really-helpful/)
 
 
+[Speed up your Rust CI with cache image and Buildkit](https://blog.erebe.dev/blog/speed-up-your-ci-with-buildkit/)
+
 ### Miscellaneous
 
 * [From Julia to Rust](https://miguelraz.github.io/blog/juliatorust/) 
