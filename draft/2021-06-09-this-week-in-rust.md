@@ -14,7 +14,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-No official blog posts or research papers this week.
+* [Filecoin Forest update](https://medium.com/chainsafe-systems/back-into-the-forest-983a4344ffe9)
+* [Mina Protocol update](https://medium.com/chainsafe-systems/realizing-the-mina-vision-in-rust-453f6f522205)
 
 ### Newsletters
 
