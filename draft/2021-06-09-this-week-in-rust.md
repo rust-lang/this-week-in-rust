@@ -29,10 +29,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rocket v0.5 Release Candidate](https://rocket.rs/v0.5-rc/news/2021-06-09-version-0.5-rc.1/)
 * [This Week In TensorBase 6](https://tensorbase.io/thisweek/2021-06-09-tw_6/)
 * [Dotenv-linter v3.1.0: Overview of key changes](https://dotenv-linter.github.io/#/whats_new/v310)
+* [AWS SDK Rust: 9 New Services Added](https://github.com/awslabs/aws-sdk-rust/releases/tag/v0.0.7-alpha)
 
 ### Observations/Thoughts
 * [Untapped potential in Rust's type system](https://www.jakobmeier.ch/blogging/Untapped-Rust.html)
-* [Idiomatic Rust - Binary Search Extended](https://c-hirsch.de/2020-05-30-idiomatic-rust-binary-search-extended/)
+* [Idiomatic Rust? Implementing binary search (part 2)](https://shane-o.dev/blog/binary-search-rust-part-2)
 * [Designing Rust bindings for REST APIs](https://plume.benboeckel.net/~/JustAnotherBlog/designing-rust-bindings-for-rest-ap-is)
 * [Rust zero-cost abstractions in action](https://medium.com/ingeniouslysimple/rust-zero-cost-abstraction-in-action-9e4e2f8bf5a)
 * [Translating Quake 3 into Rust](https://immunant.com/blog/2020/01/quake3/)
@@ -49,7 +50,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Calibration From Scratch Using Rust: Part 1 of 3](https://www.tangramvision.com/blog/calibration-from-scratch-using-rust-part-1-of-3)
 * [Calibration From Scratch Using Rust: Part 2 of 3](https://www.tangramvision.com/blog/calibration-from-scratch-using-rust-part-2-of-3)
 * [Calibration From Scratch Using Rust: Part 3 of 3](https://www.tangramvision.com/blog/calibration-from-scratch-using-rust-part-3-of-3)
-* [From Julia to Rust](https://miguelraz.github.io/blog/juliatorust/)
 * [Rust from a JavaScript perspective](https://blogs.harvard.edu/kapolos/rust-from-a-javascript-perspective/)
 * [!#[no_std] with WASI is more complicated than I thought it would be](https://dev.to/thepuzzlemaker/nostd-with-wasi-is-more-complicated-than-i-thought-it-would-be-14j7)
 * [Rust - What made it "click" for me (Ownership and memory models)](https://deavid.wordpress.com/2021/06/06/rust-what-made-it-click-for-me-ownership-memory-internals/)
@@ -91,7 +91,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
-* [Backroll-rs is looking for contributors](https://www.reddit.com/r/rust/comments/npnl1p/help_wanted_with_backrollrs_new_networking_library/)
+* [Ruma has several "help wanted" issues](https://github.com/ruma/ruma/labels/help%20wanted)
+* [Cargo has several "help wanted" issues](https://github.com/rust-lang/cargo/labels/E-help-wanted)
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
@@ -133,7 +134,7 @@ Revision range: [1160cf..a50d721](https://perf.rust-lang.org/?start=1160cf864f2a
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC: 2021 Edition](https://github.com/rust-lang/rfcs/pull/3085)
+*No new RFCs were proposed this week.*
 
 ### Final Comment Period
 
@@ -143,32 +144,31 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
+* [disposition: close] [Add the boxed!() macro to "de-magic" box syntax](https://github.com/rust-lang/rfcs/pull/3057)
 * [disposition: merge] [RFC: Supertrait item shadowing](https://github.com/rust-lang/rfcs/pull/2845)
 * [disposition: merge] [Type-changing struct update syntax](https://github.com/rust-lang/rfcs/pull/2528)
-* [disposition: merge] [RFC: Introduce concat_bytes!() to join [u8] and byte str analogous to concat! for str](https://github.com/rust-lang/rfcs/pull/2509)
-* [disposition: merge] [RFC: Overconstraining and omitting unsafe in impls of unsafe trait methods](https://github.com/rust-lang/rfcs/pull/2316)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Stabilize span_open() and span_close().](https://github.com/rust-lang/rust/pull/86136)
+* [disposition: merge] [Stabilize ops::ControlFlow (just the type)](https://github.com/rust-lang/rust/pull/85608)
 * [disposition: merge] [Re-add support for parsing (and pretty-printing) inner-attributes in match body](https://github.com/rust-lang/rust/pull/85193)
+* [disposition: merge] [Ignore derived Clone and Debug implementations during dead code analysis](https://github.com/rust-lang/rust/pull/85200)
+* [disposition: merge] [Tracking Issue for const core::str::from_utf8_unchecked](https://github.com/rust-lang/rust/issues/75196)
 
 ### New RFCs
 
-* [Switch from travis to github actions.](https://github.com/rust-lang/rfcs/pull/3136)
+* [RFC: let-else statements](https://github.com/rust-lang/rfcs/pull/3137)
 
 ## Upcoming Events
 
 ### Online
 
-* [June 8, 2021, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccjblb/)
-* [June 10, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 * [June 15, 2021, Washington, DC, US - In-kernel, fast-path packet processing with AF_XDP - Rust DC](https://www.meetup.com/RustDC/events/vdhxgsyccjbtb)
 * [June 16, 2021, Vancouver, BC, CA - Rust in Mozilla's Data Platform - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/fqpkjsyccjbvb/)
 * [June 17, 2021, Denver, CO, US - Learning Rust as a Python/Javascript developer by Juhis - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/277575285/)
-
-### North America
-
-* [June 9, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgryccjbmb/)
+* [June 18, 2021, Online - Learn Rust Fundamentals | Rust 101 - KubeDaily](https://www.youtube.com/watch?v=DIxjk0HTx5U)
+* [June 29. 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccjbmc/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -183,6 +183,22 @@ Email the [Rust Community Team][community] for access.
 
 * [Lead Developer Embedded Rust (Nijmegen, NL)](https://tweedegolf.nl/vacatures/2/lead-developer-embedded-rust)
 
+**Eniride**
+
+* [Rust Developer Tech, Autonomous Transport(Stockholm/Gothenburg, SE)](https://www.einride.tech/careers/1186875-rust-developer)
+
+**Field33**
+
+* [Senior Software Engineer - Backend (Java/Rust)(Berlin, DE)](https://arbeitnow.com/view/senior-software-engineer-backend-javarust-fxm-atlanticlabs-154911)
+
+**Snapview**
+
+* [(Senior) Rust Backend Engineer (Remote)](https://snapview.jobs.personio.de/job/381815)
+
+**Apollo**
+
+* [Infrastructure Systems Engineer - Rust (Remote)](https://jobs.lever.co/apollographql/d7c1d4f1-f2ad-41b0-a43b-b9f70d934ec3)
+
 **NZXT**
 
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
@@ -193,6 +209,14 @@ Email the [Rust Community Team][community] for access.
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 * [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 * [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
+
+**Estuary**
+
+* [Multiple Rust Positions Available](https://estuary.dev/careers)
+
+**Kraken**
+
+* [Several Rust Engineering Positions Available](https://jobs.lever.co/kraken?team=Engineering)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
