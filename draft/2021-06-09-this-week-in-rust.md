@@ -70,6 +70,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [What's your favourite under-rated Rust crate and why?](https://www.reddit.com/r/rust/comments/nuq1ix/whats_your_favourite_underrated_rust_crate_and_why/)
 * [It's not much, but I graduated from middle-school today with Rust as my language of choice](https://www.reddit.com/r/rust/comments/nrin1u/its_not_much_but_i_graduated_from_middleschool/)
 * [From Julia to Rust](https://miguelraz.github.io/blog/juliatorust/) 
+* [How To Use fastText and Rust For Instant Translations](https://instantdomainsearch.com/engineering/how-to-use-fasttext-for-instant-translations)
 
 ## Crate of the Week
 
