@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Embedded-Rust: Build & Flash binary to STM32F3DISCOVERY](https://blog.knoldus.com/embedded-rust-build-flash-binary-to-stm32f3discovery/)
 
 ### Research
 
