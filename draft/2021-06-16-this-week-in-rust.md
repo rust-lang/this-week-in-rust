@@ -30,9 +30,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [cargo-sort](https://github.com/DevinR528/cargo-sort), a cargo subcommand to sort your `Cargo.toml`'s dependencies and workspace members.
+This week has two crates: [nativeshell](https://github.com/nativeshell/nativeshell) gets you a Flutter app in Rust, while [static-rc](https://github.com/matthieu-m/static-rc) is a compile-time reference-counted smart pointer.
 
-Thanks to [jplatte](https://users.rust-lang.org/t/crate-of-the-week/2704/921) for the nomination
+Thanks to [Zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/922) for both nominations
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -51,9 +51,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from Rust Core
 
-267 pull requests were [merged in the last week][merged]
+289 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-05-31..2021-06-07
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-06-07..2021-06-14
+
+* [fix force-warns to allow dashes](https://github.com/rust-lang/rust/pull/86117)
+* [suggest a trailing comma if a 1-tuple is expected and a parenthesized expression is found](https://github.com/rust-lang/rust/pull/86116)
+* [do not suggest to add type annotations for unnameable types](https://github.com/rust-lang/rust/pull/86215)
+* [`to_digit` simplification (less jumps)](https://github.com/rust-lang/rust/pull/85630)
+* [multiple improvements to `RwLock`s](https://github.com/rust-lang/rust/pull/84687)
+* [add `Ipv6Addr::is_unicast`](https://github.com/rust-lang/rust/pull/85791)
+* [stabilize `wasm simd intrinsics`](https://github.com/rust-lang/rust/pull/86204)
+* [stabilize `maybe_uninit_ref`](https://github.com/rust-lang/rust/pull/86273)
+* [stabilize `simd_x86_bittest`](https://github.com/rust-lang/rust/pull/86233)
+* [cargo: implement warning for ignored trailing arguments](https://github.com/rust-lang/cargo/pull/9561)
+* [clippy: fix `while_let_on_iterator` suggestion in a closure](https://github.com/rust-lang/rust-clippy/pull/7262)
+* [clippy: remove requirement of fully qualified path for `disallowed_method`/`type`](https://github.com/rust-lang/rust-clippy/pull/7345)
+* [clippy: fix false positive on `semicolon_if_nothing_returned`](https://github.com/rust-lang/rust-clippy/pull/7326)
+* [clippy: fix false positive in `default_numeric_fallback` with external macro expansion](https://github.com/rust-lang/rust-clippy/pull/7325)
+* [clippy: `Vec` `extend` to `append`](https://github.com/rust-lang/rust-clippy/pull/7270)
 
 * [BPF target support](https://github.com/rust-lang/rust/pull/79608)
 * [support for force-warns](https://github.com/rust-lang/rust/pull/85788)
@@ -136,11 +152,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> As the tradeoffs in software engineering change over time, so does the ideal solution. Some 40 years ago when the first C standards were written down, by people no less competent than those that work on Rust today, the design of the language and the list of behaviours not defined likely made much more sense in context of back then than they do right now. It is not all that unlikely that some years down the line the choices made by Rust won't make all that much of sense as they do today, too.
+> If manually managing memory is like wielding a gun, the borrow checker is an automatic safety that prevents you from pulling the trigger when you're roughly pointing it at yourself. But it's coarse-grained and errs on the side of caution; it simulates your foot as as the rectangular box that would contain it, not as a detailed 3D mesh. If you *really* think you can aim it between your toes and avoid hitting yourself (for example, "the value returned by this function must remain alive for no more than 15 successive invocations of this function"), unsafe will let you try, but the borrow checker's built-in rules isn't granular enough to help you, though it will still stop you if you accidentally put your hand in front without declaring it.
 
-– [Simonas on rust-internals](https://users.rust-lang.org/t/why-deference-maybeuninit-unint-as-mut-ptr-is-safe/60344/19)
+– [infogulch on Hacker News](https://news.ycombinator.com/item?id=27468885)
 
-Thanks to [Kill The Mule](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1055) for the suggestion!
+Thanks to [StyMaar](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1056) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
