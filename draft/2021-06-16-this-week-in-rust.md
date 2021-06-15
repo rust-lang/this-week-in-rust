@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+[On using Rust to implement shell history search/sync (interview with Ellie Huxtable)](https://console.dev/interviews/atuin-ellie-huxtable/)
+
 ### Rust Walkthroughs
 
 ### Research
