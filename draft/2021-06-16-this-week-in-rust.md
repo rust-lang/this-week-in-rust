@@ -23,6 +23,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [ZH] [series] [Build front-end web apps with Yew and WebAssembly in Rust -part 3: Assets & Refactor (Rust 和 Wasm 的融合，使用 yew 构建 web 前端（3）- 资源文件及小重构)](https://blog.budshome.com/budshome/rust-he-wasm-de-rong-he-,shi-yong-yew-gou-jian-web-qian-duan-(3)--zi-yuan-wen-jian-ji-xiao-zhong-gou)
+* [ZH] [series] [Build front-end web apps with Yew and WebAssembly in Rust -part 4: GraphQL data & Parsing (Rust 和 Wasm 的融合，使用 yew 构建 web 前端（4）- 获取 GraphQL 数据并解析)](https://blog.budshome.com/budshome/rust-he-wasm-de-rong-he-,shi-yong-yew-gou-jian-web-qian-duan-(4)--huo-qu-graphql-shu-ju-bing-jie-xi)
 
 ### Research
 
