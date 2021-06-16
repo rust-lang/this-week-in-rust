@@ -14,6 +14,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
+**Highlight**
+CW: Suicide, Mental Health
+
+The following post mourns the death of somebody in the Rust community.
+This is a very sensitive topic, and it's hard to truly do justice to the loss of human life.
+The most important thing we can do is to raise awareness surrounding mental health.
+
+If you or somebody you know is in need of a suicide prevention hotline,
+please visit <https://www.opencounseling.com/suicide-hotlines> for emergency and suicide prevention hotline phone numbers in your country.
+
+[Open Source and Mental Health](https://www.redox-os.org/news/open-source-mental-health/)
+
 ### Official
 * [Inside] [1.53.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2021/06/15/1.53.0-prelease.html)
 * [Inside] [Please welcome Boxy, Léo Lanteri Thauvin and the8472 to compiler-contributors](https://blog.rust-lang.org/inside-rust/2021/06/15/boxyuwu-leseulartichaut-the8472-compiler-contributors.html)
