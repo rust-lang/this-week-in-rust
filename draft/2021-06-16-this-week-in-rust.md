@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 * [AWS-SDK-Rust: CloudFormation, SageMaker, EC2, and SES](https://github.com/awslabs/aws-sdk-rust/releases/tag/v0.0.8-alpha)
 * [Announcing Aya](https://confused.ai/posts/announcing-aya)
+* [This Week In TensorBase 7](https://tensorbase.io/thisweek/2021-06-16-tw_7/)
 
 ### Observations/Thoughts
 * [ A few thoughts on Fuchsia security](https://blog.cr0.org/2021/06/a-few-thoughts-on-fuchsia-security.html)
