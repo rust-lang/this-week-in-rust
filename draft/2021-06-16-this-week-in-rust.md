@@ -165,6 +165,8 @@ Email the [Rust Community Team][community] for access.
 * [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+ChainSafe Systems 
+- [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
 
 # Quote of the Week
 
