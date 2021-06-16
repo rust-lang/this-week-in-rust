@@ -23,6 +23,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 * [ A few thoughts on Fuchsia security](https://blog.cr0.org/2021/06/a-few-thoughts-on-fuchsia-security.html)
 
+[On using Rust to implement shell history search/sync (interview with Ellie Huxtable)](https://console.dev/interviews/atuin-ellie-huxtable/)
+
 ### Rust Walkthroughs
 * [Embedded-Rust: Build & Flash binary to STM32F3DISCOVERY](https://blog.knoldus.com/embedded-rust-build-flash-binary-to-stm32f3discovery/)
 
