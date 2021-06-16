@@ -155,6 +155,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Paige**
+
+* [Senior Software Engineer, Visualization (Remote, Europe)](https://boards.greenhouse.io/paige/jobs/5210311002)
+
 **ChainSafe Systems**
 
 * [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
