@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [ A few thoughts on Fuchsia security](https://blog.cr0.org/2021/06/a-few-thoughts-on-fuchsia-security.html)
 
 ### Rust Walkthroughs
+* [Embedded-Rust: Build & Flash binary to STM32F3DISCOVERY](https://blog.knoldus.com/embedded-rust-build-flash-binary-to-stm32f3discovery/)
 
 ### Research
 
