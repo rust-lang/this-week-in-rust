@@ -1,6 +1,6 @@
 Title: This Week in Rust 395
 Number: 395
-Date: 2021-06-17
+Date: 2021-06-16
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -122,7 +122,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [clippy: fix false positive on `semicolon_if_nothing_returned`](https://github.com/rust-lang/rust-clippy/pull/7326)
 * [clippy: fix false positive in `default_numeric_fallback` with external macro expansion](https://github.com/rust-lang/rust-clippy/pull/7325)
 * [clippy: `Vec` `extend` to `append`](https://github.com/rust-lang/rust-clippy/pull/7270)
-
 * [BPF target support](https://github.com/rust-lang/rust/pull/79608)
 * [support for force-warns](https://github.com/rust-lang/rust/pull/85788)
 * [improve debugging experience for enums on windows-msvc](https://github.com/rust-lang/rust/pull/85292)
@@ -198,6 +197,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Tweede golf**
+
+* [Lead Developer Embedded Rust (Nijmegen, NL)](https://tweedegolf.nl/vacatures/2/lead-developer-embedded-rust)
+
 **Paige**
 
 * [Senior Software Engineer, Visualization (Remote, Europe)](https://boards.greenhouse.io/paige/jobs/5210311002)
@@ -224,10 +227,6 @@ Email the [Rust Community Team][community] for access.
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 * [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 * [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
-
-**Tweede golf**
-
-* [Lead Developer Embedded Rust (Nijmegen, NL)](https://tweedegolf.nl/vacatures/2/lead-developer-embedded-rust)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 ChainSafe Systems 
