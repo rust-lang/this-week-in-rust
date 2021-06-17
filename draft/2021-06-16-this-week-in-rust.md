@@ -14,30 +14,68 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
+**Highlight**
+CW: Suicide, Mental Health
+
+The following post mourns the death of somebody in the Rust community.
+This is a very sensitive topic, and it's hard to truly do justice to the loss of human life.
+The most important thing we can do is to raise awareness surrounding mental health.
+
+If you or somebody you know is in need of a suicide prevention hotline,
+please visit <https://www.opencounseling.com/suicide-hotlines> for emergency and suicide prevention hotline phone numbers in your country.
+
+[Open Source and Mental Health](https://www.redox-os.org/news/open-source-mental-health/)
+
 ### Official
+* [Inside] [1.53.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2021/06/15/1.53.0-prelease.html)
+* [Inside] [Please welcome Boxy, Léo Lanteri Thauvin and the8472 to compiler-contributors](https://blog.rust-lang.org/inside-rust/2021/06/15/boxyuwu-leseulartichaut-the8472-compiler-contributors.html)
 
 ### Newsletters
+* [This Month in Rust GameDev #22 - May 2021](https://gamedev.rs/news/022/)
 
 ### Project/Tooling Updates
+* [rust-analyzer Changelog #81](https://rust-analyzer.github.io/thisweek/2021/06/14/changelog-81.html)
 * [AWS-SDK-Rust: CloudFormation, SageMaker, EC2, and SES](https://github.com/awslabs/aws-sdk-rust/releases/tag/v0.0.8-alpha)
 * [Announcing Aya](https://confused.ai/posts/announcing-aya)
+* [Introducing cap-std, a capability-based version of the Rust standard library](https://blog.sunfishcode.online/introducing-cap-std/)
+* [Wasmer 2.0, it's a big deal!](https://wasmer.io/posts/wasmer-2.0)
+* [New crate announcement, `iterate`](https://www.reddit.com/r/rust/comments/nwdyip/new_create_announcement_iterate/)
+* [ripgrep 13.0.0 release](https://github.com/BurntSushi/ripgrep/releases/tag/13.0.0)
 
 ### Observations/Thoughts
-* [ A few thoughts on Fuchsia security](https://blog.cr0.org/2021/06/a-few-thoughts-on-fuchsia-security.html)
-
-[On using Rust to implement shell history search/sync (interview with Ellie Huxtable)](https://console.dev/interviews/atuin-ellie-huxtable/)
+* [A few thoughts on Fuchsia security](https://blog.cr0.org/2021/06/a-few-thoughts-on-fuchsia-security.html)
+* [On using Rust to implement shell history search/sync (interview with Ellie Huxtable)](https://console.dev/interviews/atuin-ellie-huxtable/)
+* [Visualizing memory management in Rust](https://deepu.tech/memory-management-in-rust/)
+* [audio] [Using Rust with Flutter](https://youtu.be/iQer8hUu0Es)
 
 ### Rust Walkthroughs
 
 * [ZH] [series] [Build front-end web apps with Yew and WebAssembly in Rust -part 3: Assets & Refactor (Rust 和 Wasm 的融合，使用 yew 构建 web 前端（3）- 资源文件及小重构)](https://blog.budshome.com/budshome/rust-he-wasm-de-rong-he-,shi-yong-yew-gou-jian-web-qian-duan-(3)--zi-yuan-wen-jian-ji-xiao-zhong-gou)
 * [ZH] [series] [Build front-end web apps with Yew and WebAssembly in Rust -part 4: GraphQL data & Parsing (Rust 和 Wasm 的融合，使用 yew 构建 web 前端（4）- 获取 GraphQL 数据并解析)](https://blog.budshome.com/budshome/rust-he-wasm-de-rong-he-,shi-yong-yew-gou-jian-web-qian-duan-(4)--huo-qu-graphql-shu-ju-bing-jie-xi)
 * [Embedded-Rust: Build & Flash binary to STM32F3DISCOVERY](https://blog.knoldus.com/embedded-rust-build-flash-binary-to-stm32f3discovery/)
+* [Learning to Fly: Let's simulate evolution in Rust! (pt 4)](https://pwy.io/en/posts/learning-to-fly-pt4/)
+* [Baby's first Rust with extra steps (XPC, launchd, and FFI)!](https://dstancu.net/macos/rust/ffi/xpc/ncurses/2021/06/15/rust-xpc-ffi.html)
+* [Speeding Up the WebCola Graph Viz Library with Rust + WebAssembly](https://cprimozic.net/blog/speeding-up-webcola-with-webassembly/)
+* [From NAND to Raytracer: Raytracing on the Hack computer (feat. Rust)](https://blog.alexqua.ch/posts/from-nand-to-raytracer/)
+* [Cacao: Building macOS (and iOS) Apps in Rust](https://rymc.io/blog/2021/cacao-rs-macos-ios-rust/)
+* [Build an API in Rust (Part 1)](https://dev.to/naruhodo/build-an-api-in-rust-part-1-5c4g)
+* [Learn to Build a Parser in Rust for Fun and Profit](https://dev.to/pancy/learn-to-build-a-parser-in-rust-for-fun-and-profit-2id5)
+* [Beginner's Guide to Running Rust on AWS Lambda](https://dev.to/nicholaschiasson/beginner-s-guide-to-running-rust-on-aws-lambda-277n)
+* [A Command Line Key-Value Data Store using the Rust Programming Language.](https://dev.to/sirneij/a-command-line-key-value-data-store-using-the-rust-programming-language-33b6)
+* [How to use casbin authorization in your rust web-app (part 3)](https://dev.to/smrpn/how-to-use-casbin-authorization-in-your-rust-web-app-part-3-4g2f)
+* [Speeding up incoming message parsing by 3- to 10-times by switching from serde to the nom library](https://medium.com/tezedge/speeding-up-incoming-message-parsing-by-3-to-10-times-by-switching-from-serde-to-the-nom-library-a74b04391bb4)
+* [video] [Building a Web Application with Rust - Part 1 - Configuration](https://youtu.be/Wmq3etdwCbM)
+* [video] [Building a Web Application with Rust - Part 2 - Database Setup](https://youtu.be/c9qSGUHgE1c)
+* [video] [Lock-Free to Wait-Free Simulation in Rust (part 2)](https://youtu.be/tNzCj8691LE)
 
 
 ### Research
 
 ### Miscellaneous
-* [Meet the Rustaceans : A series of interviews with Facebook Rust engineers](https://developers.facebook.com/blog/post/2021/06/03/meet-rustaceans-neil-mitchell/)
+* [Meet the Rustaceans: A series of interviews with Facebook Rust engineers](https://developers.facebook.com/blog/post/2021/06/03/meet-rustaceans-neil-mitchell/)
+* [Pop!_OS uses a lot of Rust](https://www.reddit.com/r/rust/comments/nyd1qw/pop_os_uses_a_lot_of_rust/)
+* [A few thoughts on Fuchsia security](https://blog.cr0.org/2021/06/a-few-thoughts-on-fuchsia-security.html?m=1)
+* [video] [Keynote: Bryan Cantrill - Hardware/Software Co-design: The Coming Golden Age](https://youtu.be/nY07zWzhyn4)
 
 ## Crate of the Week
 
