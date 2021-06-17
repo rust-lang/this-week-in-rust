@@ -15,7 +15,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 **Highlight**
-CW: Suicide, Mental Health
+
+*Content warning: Suicide, Mental Health*
 
 The following post mourns the death of somebody in the Rust community.
 This is a very sensitive topic, and it's hard to truly do justice to the loss of human life.
