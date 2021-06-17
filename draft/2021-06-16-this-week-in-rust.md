@@ -37,6 +37,7 @@ please visit <https://www.opencounseling.com/suicide-hotlines> for emergency and
 * [rust-analyzer Changelog #81](https://rust-analyzer.github.io/thisweek/2021/06/14/changelog-81.html)
 * [AWS-SDK-Rust: CloudFormation, SageMaker, EC2, and SES](https://github.com/awslabs/aws-sdk-rust/releases/tag/v0.0.8-alpha)
 * [Announcing Aya](https://confused.ai/posts/announcing-aya)
+* [This Week In TensorBase 7](https://tensorbase.io/thisweek/2021-06-16-tw_7/)
 * [Introducing cap-std, a capability-based version of the Rust standard library](https://blog.sunfishcode.online/introducing-cap-std/)
 * [Wasmer 2.0, it's a big deal!](https://wasmer.io/posts/wasmer-2.0)
 * [New crate announcement, `iterate`](https://www.reddit.com/r/rust/comments/nwdyip/new_create_announcement_iterate/)
@@ -49,9 +50,6 @@ please visit <https://www.opencounseling.com/suicide-hotlines> for emergency and
 * [audio] [Using Rust with Flutter](https://youtu.be/iQer8hUu0Es)
 
 ### Rust Walkthroughs
-
-* [ZH] [series] [Build front-end web apps with Yew and WebAssembly in Rust -part 3: Assets & Refactor (Rust 和 Wasm 的融合，使用 yew 构建 web 前端（3）- 资源文件及小重构)](https://blog.budshome.com/budshome/rust-he-wasm-de-rong-he-,shi-yong-yew-gou-jian-web-qian-duan-(3)--zi-yuan-wen-jian-ji-xiao-zhong-gou)
-* [ZH] [series] [Build front-end web apps with Yew and WebAssembly in Rust -part 4: GraphQL data & Parsing (Rust 和 Wasm 的融合，使用 yew 构建 web 前端（4）- 获取 GraphQL 数据并解析)](https://blog.budshome.com/budshome/rust-he-wasm-de-rong-he-,shi-yong-yew-gou-jian-web-qian-duan-(4)--huo-qu-graphql-shu-ju-bing-jie-xi)
 * [Embedded-Rust: Build & Flash binary to STM32F3DISCOVERY](https://blog.knoldus.com/embedded-rust-build-flash-binary-to-stm32f3discovery/)
 * [Learning to Fly: Let's simulate evolution in Rust! (pt 4)](https://pwy.io/en/posts/learning-to-fly-pt4/)
 * [Baby's first Rust with extra steps (XPC, launchd, and FFI)!](https://dstancu.net/macos/rust/ffi/xpc/ncurses/2021/06/15/rust-xpc-ffi.html)
@@ -64,6 +62,8 @@ please visit <https://www.opencounseling.com/suicide-hotlines> for emergency and
 * [A Command Line Key-Value Data Store using the Rust Programming Language.](https://dev.to/sirneij/a-command-line-key-value-data-store-using-the-rust-programming-language-33b6)
 * [How to use casbin authorization in your rust web-app (part 3)](https://dev.to/smrpn/how-to-use-casbin-authorization-in-your-rust-web-app-part-3-4g2f)
 * [Speeding up incoming message parsing by 3- to 10-times by switching from serde to the nom library](https://medium.com/tezedge/speeding-up-incoming-message-parsing-by-3-to-10-times-by-switching-from-serde-to-the-nom-library-a74b04391bb4)
+* [ZH] [series] [Build front-end web apps with Yew and WebAssembly in Rust -part 3: Assets & Refactor (Rust 和 Wasm 的融合，使用 yew 构建 web 前端（3）- 资源文件及小重构)](https://blog.budshome.com/budshome/rust-he-wasm-de-rong-he-,shi-yong-yew-gou-jian-web-qian-duan-(3)--zi-yuan-wen-jian-ji-xiao-zhong-gou)
+* [ZH] [series] [Build front-end web apps with Yew and WebAssembly in Rust -part 4: GraphQL data & Parsing (Rust 和 Wasm 的融合，使用 yew 构建 web 前端（4）- 获取 GraphQL 数据并解析)](https://blog.budshome.com/budshome/rust-he-wasm-de-rong-he-,shi-yong-yew-gou-jian-web-qian-duan-(4)--huo-qu-graphql-shu-ju-bing-jie-xi)
 * [video] [Building a Web Application with Rust - Part 1 - Configuration](https://youtu.be/Wmq3etdwCbM)
 * [video] [Building a Web Application with Rust - Part 2 - Database Setup](https://youtu.be/c9qSGUHgE1c)
 * [video] [Lock-Free to Wait-Free Simulation in Rust (part 2)](https://youtu.be/tNzCj8691LE)
