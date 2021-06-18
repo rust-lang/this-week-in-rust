@@ -75,7 +75,6 @@ please visit <https://www.opencounseling.com/suicide-hotlines> for emergency and
 ### Miscellaneous
 * [Meet the Rustaceans: A series of interviews with Facebook Rust engineers](https://developers.facebook.com/blog/post/2021/06/03/meet-rustaceans-neil-mitchell/)
 * [Pop!_OS uses a lot of Rust](https://www.reddit.com/r/rust/comments/nyd1qw/pop_os_uses_a_lot_of_rust/)
-* [A few thoughts on Fuchsia security](https://blog.cr0.org/2021/06/a-few-thoughts-on-fuchsia-security.html?m=1)
 * [video] [Keynote: Bryan Cantrill - Hardware/Software Co-design: The Coming Golden Age](https://youtu.be/nY07zWzhyn4)
 
 ## Crate of the Week
