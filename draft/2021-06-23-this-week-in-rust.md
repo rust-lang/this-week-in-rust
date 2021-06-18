@@ -19,10 +19,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
+* [ZH] [Build a Gameboy emulator in Rust](https://yodalee.me/2020/12/2020_rust_gameboy/)
+  [Github repository](https://github.com/yodalee/ruGameboy)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [ZH] [Develop WebAssembly Program in Rust](https://yodalee.me/2021/05/1helloworld/)
 
 ### Research
 
