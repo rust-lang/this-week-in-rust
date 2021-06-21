@@ -1900,3 +1900,46 @@ No official blog posts, newsletters, or research papers this week.
 * [Rust Web Development - MEAP](https://www.manning.com/books/rust-web-development)
 * [Fuchsia OS partially written in Rust has shipped](https://www.reddit.com/r/rust/comments/nldg5c/fuchsia_os_partially_written_in_rust_has_shipped/)
 
+Number: 393  Date: 2021-06-02 
+
+No official blog posts or research papers this week.
+### Newsletters
+* [RiB Newsletter #24 - Bridges](https://www.reddit.com/r/rust/comments/nqt4ul/rib_newsletter_24_bridges/)
+### Project/Tooling Updates
+* [rust-analyzer Changelog #79](https://rust-analyzer.github.io/thisweek/2021/05/31/changelog-79.html)
+* [GCC Rust Monthly Report #6 May 2021](https://thephilbert.io/2021/05/31/gcc-rust-monthly-report-6-may-2021/)
+* [This Week In TensorBase 5](https://tensorbase.io/thisweek/2021-06-02-tw_5/)
+* [Announcing tower-http](https://tokio.rs/blog/2021-05-announcing-tower-http)
+* [Turning rusty tech into Rust ~ When you need to FTP but don’t want to](https://blog.abstractinvoke.com/05-07-unftp.html)
+### Observations/Thoughts
+* [Object Oriented Programming Concepts in Rust](https://blog.knoldus.com/object-oriented-programming-concepts-in-rust/)
+* [My first cup of Rust](https://blog.frankel.ch/start-rust/1/)
+* [Demystifying Mutability and References in Rust](https://dev.to/arunanshub/demystifying-mutability-and-references-in-rust-caf)
+* [The simpler alternative to GCC-RS](https://shnatsel.medium.com/the-simpler-alternative-to-gcc-rs-90da2b3685d3)
+* [Why I support GCC-rs](https://chorman64.medium.com/why-i-support-gcc-rs-dc69ebfffd60)
+* [Taking Rust for a Test Drive](https://ferrous-systems.com/blog/rust-test-drive/)
+* [A Polkadot Postmortem - 24.05.2021](https://polkadot.network/a-polkadot-postmortem-24-05-2021/)
+* [The Most Annoying Bug I've Had To Track Down](https://www.reddit.com/r/rust/comments/nqjyb7/the_most_annoying_bug_ive_had_to_track_down/)
+* [video] [There and back again - Our Rust adoption journey [Open Source North 2021 / Luca Palmieri]](https://youtu.be/1nKC505_uTU)
+### Rust Walkthroughs
+* [RESTful API in Sync & Async Rust](https://github.com/pretzelhammer/rust-blog/blob/master/posts/restful-api-in-sync-and-async-rust.md)
+* [Rust Closures will make your life easy.](https://blog.knoldus.com/rust-closures-will-make-your-life-easy/)
+* [Idiomatic Rust Binary Search Extended](https://c-hirsch.de/2020-05-30-idiomatic-rust-binary-search-extended)
+* [The Relation between “Rust and Safe Programming” !!](https://blog.knoldus.com/lets-know-about-the-relation-between-rust-and-safe-programming/)
+* [Tightness Driven Development in Rust](https://www.ecorax.net/tightness/)
+* [Writing a "hello world" Riscv Kernel with Nix in Rust](https://justin.restivo.me/posts/2021-05-30-nix-rust-riscv-toy-kernel.html)
+* [Rust for Fsharpers and F# for Rustaceans](https://github.com/Dhghomon/rust-fsharp)
+* [Creating a Deno plugin with Rust](https://alexandrempsantos.com/deno/creating-a-deno-plugin/)
+* [How to use the Firebird database with Rust language](https://itnext.io/firebird-rust-92e9043261cc)
+* [Reactive UI components in Rust](https://dev.to/seanwatters/reactive-ui-components-in-rust-290b)
+* [Redis Streams in Action - Part 2 (Rust app to consume from the Twitter Streaming API)](https://dev.to/azure/redis-streams-in-action-part-2-rust-app-to-consume-from-the-twitter-streaming-api-1ji4)
+* [How to make plugins system with Rust and WebAssembly](https://devblog.arcana.rs/how-to-make-plugins-system-with-rust-and-webassembly)
+* [Getting started with ECS using Planck ECS](https://jojolepro.com/blog/2021-06-01_getting_started_with_ecs/)
+* [Designing Rust bindings for REST APIs](https://plume.benboeckel.net/~/JustAnotherBlog/designing-rust-bindings-for-rest-ap-is)
+* [WebRTC Video chat tutorial using Rust+WASM](https://charles-schleich.medium.com/webrtc-video-chat-tutorial-using-rust-wasm-fa340f7aeef9)
+* [ZH] [Take Web Screenshot & Make Watermark in Rust (Rust 中，对网址进行异步快照，并添加水印效果的实践)](https://blog.budshome.com/budshome/rust-zhong-,dui-wang-zhi-jin-xing-yi-bu-kuai-zhao-,bing-qie-tian-jia-shui-yin-xiao-guo-de-shi-jian)
+* [video] [A Firehose of Rust, for busy people who know some C++](https://youtu.be/IPmRDS0OSxM)
+### Miscellaneous
+* [New Rust book: Rust for Rustaceans by Jon Gjengset](https://www.reddit.com/r/rust/comments/nq3pxh/new_rust_book_rust_for_rustaceans_by_jon_gjengset/)
+* [Just to say, thank you](https://www.reddit.com/r/rust/comments/nnioxj/just_to_say_thank_you/)
+
