@@ -87,15 +87,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-
-Some good improvements, and a few regressions. No large changes.
+A few small regressions on smaller benchmarks (e.g., helloworld), likely
+centered around more IR being generated in a few cases.
 
 Triage done by **@simulacrum**.
-Revision range: [1160cf..a50d721](https://perf.rust-lang.org/?start=1160cf864f2a0014e3442367e1b96496bfbeadf4&end=a50d72158e08e02cfc051b863017bdbd2c45b637&absolute=false&stat=instructions%3Au)
+Revision range: [d192c80..3912083](https://perf.rust-lang.org/?start=d192c80d2284ba6b5146bb3da586354c3762c72b&end=3912083821c5072f700a75589c8af6a9d3e20a21&absolute=false&stat=instructions%3Au)
 
-3 Regressions, 3 Improvements, 1 Mixed; 1 of them in rollups
+2 Regressions, 1 Improvements, 0 Mixed; 1 of them in rollups
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-06-08.md).
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-06-22.md).
 
 ### Approved RFCs
 
