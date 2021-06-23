@@ -1647,3 +1647,407 @@ No papers/research projects this week.
 * [Run Rust RISC-V Firmware with BL602 IoT SDK](https://lupyuen.github.io/articles/rust)
 * [video] [Stanford Seminar - The Soul of a New Machine: Rethinking the Computer](https://youtu.be/vvZA9n3e5pc)
 
+Number: 388  Date: 2021-04-28 
+
+No newsletters this week.
+### Official
+* [Announcing Rustup 1.24.0](https://blog.rust-lang.org/2021/04/27/Rustup-1.24.0.html)
+* [Inside] [Congrats to compiler team member Aaron Hill](https://blog.rust-lang.org/inside-rust/2021/04/26/aaron-hill-compiler-team.html)
+* [Foundation] [Introducing Josh Stone](https://foundation.rust-lang.org/posts/2021-04-22-introducing-josh-stone/)
+* [Foundation] [Introducing Lars Bergstrom](https://foundation.rust-lang.org/posts/2021-04-22-introducing-lars-bergstrom/)
+### Project/Tooling Updates
+* [rust-analyzer Changelog #74](https://rust-analyzer.github.io/thisweek/2021/04/26/changelog-74.html)
+* [IntelliJ Rust Changelog #146](https://intellij-rust.github.io/2021/04/26/changelog-146.html)
+* [Lemmy Release v0.11.0](https://lemmy.ml/post/61856)
+* [simdutf v0.1.1 - A small step for semver, one giant leap for performance](https://www.reddit.com/r/rust/comments/mz44xi/simdutf_v011_a_small_step_for_semver_one_giant/)
+* [The playable demo of Outer Wonders, our cute, colorful and Rust-powered puzzle game, is live on itch.io for Windows and Linux! Thank you Rust community for creating such awesome tools!](https://www.reddit.com/r/rust/comments/mx3enm/the_playable_demo_of_outer_wonders_our_cute/)
+### Observations/Thoughts
+* [Rust Notebooks with Evcxr: Interview with David Lattimore](https://blog.abor.dev/p/evcxr)
+* [Costs of iterators and Zero Cost Abstractions in Rust](https://github.com/mike-barber/rust-zero-cost-abstractions/blob/main/README.md) (with video)
+* [Move Constructors in Rust: Is it possible?](https://mcyoung.xyz/2021/04/26/move-ctors/)
+* [basedrop: a garbage collector for real-time audio in rust](https://glowcoil.com/posts/basedrop/)
+* [Road to TurboWish; Part 1: Goals](http://blog.pnkfx.org/blog/2021/04/26/road-to-turbowish-part-1-goals/)
+* [Road to TurboWish; Part 2: Stories](http://blog.pnkfx.org/blog/2021/04/27/road-to-turbowish-part-2-stories/)
+* [The Pains of Path Parsing](https://www.fpcomplete.com/blog/pains-path-parsing/)
+* [If you could re-design Rust from scratch today, what would you change?](https://www.reddit.com/r/rust/comments/my3ipa/if_you_could_redesign_rust_from_scratch_today/)
+* [Red & blue functions are actually a good thing](https://blainehansen.me/post/red-blue-functions-are-actually-good/)
+### Rust Walkthroughs
+* [Creating privacy-preserving signatures in Rust with BBS+](https://github.com/ockam-network/ockam/blob/develop/implementations/rust/ockam/signature_bbs_plus/GUIDE.md)
+* [Late Night Confessions — Building a Website Using Rust, Rocket, Diesel, and Askama - Part 2](https://medium.com/perimeterx/late-night-confessions-building-a-website-using-rust-rocket-diesel-and-askama-part-2-fc87c463e8f3)
+* [How to Build a Custom Test Harness in Rust](https://www.fluvio.io/blog/2021/04/rust-custom-test-harness/)
+* [Introduction to gRPC in Rust](https://romankudryashov.com/blog/2021/04/grpc-rust/)
+* [Writing a Postgres SQL Pretty Printer in Rust: Part 2](https://blog.urth.org/2021/04/24/writing-a-postgres-sql-pretty-printer-in-rust-part-2/)
+* [series] [A journey into Rust](https://dev.to/basman/series/12170)
+* [ZH] [series] [Build GraphQL services based on Async Rust using tide + async-graphql + mongodb (基于 Async Rust 构建 GraphQL 服务，使用 tide + async-graphql + mongodb) - Part 2](https://blog.budshome.com/budshome/gou-jian-rust-yi-bu-graphql-fu-wu-:ji-yu-tide-+-async-graphql-+-mongodb(2)--cha-xun-fu-wu)
+* [ZH] [series] [Build GraphQL services based on Async Rust using actix-web + async-graphql + rbatis + postgresql / mysql (基于 actix-web + async-graphql + rbatis + postgresql / mysql 构建异步 Rust GraphQL 服务) - Part 1](https://blog.budshome.com/budshome/ji-yu-actix-web-+-async-graphql-+-rbatis-+-postgresql---mysql-gou-jian-yi-bu-rust-graphql-fu-wu---qi-bu-ji-crate-xuan-ze)
+* [video] [What is Rust and why is it important?](https://youtu.be/kdv1EBk6Xgc)
+* [video] [Using Iterator::collect in Rust](https://youtu.be/ECwy6s_h7T8)
+* [video] [RustConf 2020 - Macros for a More Productive Rust by jam1garner](https://youtu.be/HN6EUcnGN1s)
+### Papers/Research Projects
+* [A DSL embedded in Rust](https://kyleheadley.github.io/PHDWebsite/traitlang-IFL18-camready.pdf)
+* [Energy Efficiency across Programming Languages](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf)
+### Miscellaneous
+* [An Interview With Linus Torvalds: Linux and Git](https://www.tag1consulting.com/blog/interview-linus-torvalds-linux-and-git)
+* [Programming languages: JavaScript has most developers but Rust is the fastest growing](https://www.zdnet.com/google-amp/article/programming-languages-javascript-has-most-developers-but-rust-is-the-fastest-growing/)
+* [Parts of Tensorboard are being rewritten in Rust for a 100x to 400x speedup](https://www.reddit.com/r/rust/comments/mzlg5s/parts_of_tensorboard_are_being_rewritten_in_rust/)
+* [Are we finally about to gain guaranteed Tail Calls in Rust?](https://www.reddit.com/r/rust/comments/my6k5i/are_we_finally_about_to_gain_guaranteed_tail/)
+* [GitHub Actions best practices for Rust projects](https://www.fluvio.io/blog/2021/04/github-actions-best-practices/)
+
+Number: 389  Date: 2021-05-05 
+
+### Official
+* [Announcing Rustup 1.24.1](https://blog.rust-lang.org/2021/04/29/Rustup-1.24.1.html)
+* [Inside] [Rustup 1.24.0 release incident report for 2021-04-27](https://blog.rust-lang.org/inside-rust/2021/04/28/rustup-1.24.0-incident-report.html)
+* [Inside] [1.52.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2021/05/04/1.52.0-prerelease.html)
+* [Inside] [Core Team Update: May 2021](https://blog.rust-lang.org/inside-rust/2021/05/04/core-team-update.html)
+* [Foundation] [Q12021 Membership Update](https://foundation.rust-lang.org/posts/2021-04-29-membership-update/)
+### Newsletters
+* [This Month in Rust OSDev (April 2021)](https://rust-osdev.com/this-month/2021-04/)
+### Project/Tooling Updates
+* [One Third Of 2021](https://isomorphicdb.io/blog/2021/05/05/One-Third-of-2021/)
+* [This Week In TensorBase 1](https://tensorbase.io/thisweek/2021-05-01-tw_1/)
+* [gfx/wgpu releases 0.8](https://gfx-rs.github.io/2021/04/30/release-0.8.html)
+* [Last Month in Flott (Motion Control Toolkit in Rust) - May 2021](https://flott-motion.org/news/last-month-in-flott-may-2021/)
+* [rust-analyzer Changelog #75](https://rust-analyzer.github.io/thisweek/2021/05/03/changelog-75.html)
+* [GCC Rust Monthly Report #5 April 2021](https://thephilbert.io/2021/05/03/gcc-rust-monthly-report-5-april-2021/)
+* [RustCrypto Release Announcements (`aead`, `cipher`, `crypto`, `elliptic-curve`, `ecdsa`, and more)](https://users.rust-lang.org/t/rustcrypto-release-announcements/59149)
+### Observations/Thoughts
+* [How Rust makes Rayon's data parallelism magical](https://developers.redhat.com/blog/2021/04/30/how-rust-makes-rayons-data-parallelism-magical/)
+* [An Incomplete Explanation of the Proc Macro That Saved Me 4000 Lines of Rust](https://mbuffett.com/posts/incomplete-macro-walkthrough/)
+* [The most underrated but useful Rust standard library type](https://dev.to/thepuzzlemaker/the-most-underrated-but-useful-rust-standard-library-type-59b1)
+* [Guaranteed unique; Or, why dogfooding can be taxing.](https://dev.to/ecton/guaranteed-unique-or-why-dogfooding-can-be-taxing-2gcn)
+* [The Great Rewriting in Rust](https://deprogrammaticaipsum.com/the-great-rewriting-in-rust/)
+* [A story about async Rust and using !Send types](https://procmarco.netlify.app/blog/2021-05-04-a-story-about-async-rust-and-using-send-types/)
+* [Compilers as Teachers](https://ferrous-systems.com/blog/compilers-as-teachers/)
+* [Making Generative Art with Rust: interview with Alexis André](https://blog.abor.dev/p/making-generative-art-with-rust)
+* [Building on the Shoulders of Giants: Combining TensorFlow and Rust](https://www.crowdstrike.com/blog/how-crowdstrike-combines-tensorflow-and-rust-for-performance/)
+* [Let's make everything iterable - Iterate over pagination result in the Rest API](https://0x709394.me/Let's-make%20everything%20iterable)
+* [video] [Interview with Niko Matsakis, Co-lead of the Rust language team](https://youtu.be/alD0l_8W9Sc)
+### Rust Walkthroughs
+* [Introduction to gRPC in Rust](https://dev.to/rkudryashov/introduction-to-grpc-in-rust-4dgg)
+* [I2C on the Pinephone](https://dev.to/pcvonz/i-c-on-the-pinephone-5090)
+* [Late Night Confessions - Building a Website Using Rust, Rocket, Diesel, and Askama - Part 3](https://dev.to/pxjohnny/late-night-confessions-building-a-website-using-rust-rocket-diesel-and-askama-part-3-46i9)
+* [Rust ownership and borrows - Fighting the borrow-checker](https://dev.to/daaitch/rust-ownership-and-borrows-fighting-the-borrow-checker-4ea3)
+* [Running Rust on Android](https://blog.svgames.pl/article/running-rust-on-android)
+* [Using GDB and defmt to debug embedded programs](https://ferrous-systems.com/blog/gdb-and-defmt/)
+* [Data Modelling in Rust](https://phazer99.blogspot.com/2021/05/data-modelling-in-rust.html)
+* [Data Modelling in Rust Continued](https://phazer99.blogspot.com/2021/05/data-modelling-in-rust-continued.html)
+* [Embedding Rust code in Java Jar for distribution](https://www.fluvio.io/blog/2021/05/java-client/)
+* Make a [Counter](https://kas-gui.github.io/tutorials/counter.html) and [Calculator](https://kas-gui.github.io/tutorials/calculator.html) with KAS GUI
+* [ZH] [series] [Build GraphQL services based on Async Rust using tide + async-graphql + mongodb (基于 Async Rust 构建 GraphQL 服务，使用 tide + async-graphql + mongodb) - Part 3](https://blog.budshome.com/budshome/gou-jian-rust-yi-bu-graphql-fu-wu-:ji-yu-tide-+-async-graphql-+-mongodb(3)--zhong-gou)
+* [ZH] [series] [Build GraphQL services based on Async Rust using actix-web + async-graphql + rbatis + postgresql / mysql (基于 actix-web + async-graphql + rbatis + postgresql / mysql 构建异步 Rust GraphQL 服务) - Part 2](https://blog.budshome.com/budshome/ji-yu-actix-web-+-async-graphql-+-rbatis-+-postgresql---mysql-gou-jian-yi-bu-rust-graphql-fu-wu-(2)---cha-xun-fu-wu)
+* [video] [Crust of Rust: Dispatch and Fat Pointers](https://youtu.be/xcygqF5LVmM)
+* [video] [Ockam | OSS Community Call | April 2021](https://www.youtube.com/watch?v=ndujK8lTTVY)
+### Papers/Research Projects
+* [New Variant of Buer Loader Written in Rust](https://www.proofpoint.com/us/blog/threat-insight/new-variant-buer-loader-written-rust)
+* [Is it possible to write overhead-free cyclic data-structures in safe, stable Rust?](https://www.reddit.com/r/rust/comments/n420cg/is_it_possible_to_write_overheadfree_cyclic/)
+### Miscellaneous
+* [Rust's Most Unrecognized Contributor](https://brson.github.io/2021/05/02/rusts-most-unrecognized-contributor)
+* [Facebook Joins the Rust Foundation](https://developers.facebook.com/blog/post/2021/04/29/facebook-joins-rust-foundation/)
+* [A brief history of Rust at Facebook](https://engineering.fb.com/2021/04/29/developer-tools/rust/)
+* [rustc performance improvement from rust 1.46 to 1.51](https://www.reddit.com/r/rust/comments/n2lh7z/rustc_performance_improvement_from_rust_146_to_151/)
+* [Microsoft joins Bytecode Alliance to advance WebAssembly - aka the thing that lets you run compiled C/C++/Rust code in browsers](https://www.theregister.com/2021/04/28/microsoft_bytecode_alliance/)
+* [Using GDB and `defmt` to debug embedded programs](https://ferrous-systems.com/blog/gdb-and-defmt/)
+
+Number: 390  Date: 2021-05-12 
+
+### Official
+* [The Plan for the Rust 2021 Edition](https://blog.rust-lang.org/2021/05/11/edition-2021.html)
+* [Announcing Rust 1.52.1](https://blog.rust-lang.org/2021/05/10/Rust-1.52.1.html)
+* [Announcing Rust 1.52.0](https://blog.rust-lang.org/2021/05/06/Rust-1.52.0.html)
+### Newsletters
+* [This Month in Rust GameDev #21 - April 2021](https://gamedev.rs/news/021/)
+* [RiB Newsletter #23 - Rewriting in Rust?](https://www.reddit.com/r/rust/comments/n5xhku/rib_newsletter_23_rewriting_in_rust/)
+### Project/Tooling Updates
+* [rust-analyzer Changelog #76](https://rust-analyzer.github.io/thisweek/2021/05/10/changelog-76.html)
+* [Knurling-rs changelog #24: three releases, `defmt-test` supports more items and a nasty issue](https://ferrous-systems.com/blog/knurling-changelog-24/)
+* [This Week In TensorBase 2](https://tensorbase.io/thisweek/2021-05-10-tw_2/)
+* [Naga shader translation benchmark](https://gfx-rs.github.io/2021/05/09/dota2-msl-compilation.html)
+* [Announcing egui 0.12 - the simple GUI library](https://www.reddit.com/r/rust/comments/n9f6vt/announcing_egui_012_the_simple_gui_library/)
+* [GCC Rust Weekly Status Report 14](https://thephilbert.io/2021/05/10/gcc-rust-weekly-status-report-14/)
+* [Integrating Rust Into the Android Open Source Project](https://security.googleblog.com/2021/05/integrating-rust-into-android-open.html)
+* [A New AWS SDK for Rust - Alpha Launch](https://aws.amazon.com/blogs/developer/a-new-aws-sdk-for-rust-alpha-launch/)
+* [Gleam v0.15 released!](https://gleam.run/news/gleam-v0.15-released/)
+* [IsomorphicDB. The Road ahead](https://isomorphicdb.io/blog/2021/05/11/IsomorphicDB-The-Road-ahead/)
+* [My first Rust crate, pretend](https://sfietkonstantin.github.io/2021/05/10/First-Crate-Pretend.html)
+### Observations/Thoughts
+* [Rust on the Frontend and Backend](https://blog.abor.dev/p/moonzoon)
+* [Why we should consider Rust for Embedded Developement?](https://blog.knoldus.com/why-rust-for-embedded-development/)
+* [Aiming for idiomatic Rust](https://shane-o.dev/blog/aiming-for-idiomatic-rust)
+* [Optimizing 700 CPUs Away with Rust](https://medium.com/tenable-techblog/optimizing-700-cpus-away-with-rust-dc7a000dbdb2)
+* [Improving our development confidence and productivity with Bors](https://www.fluvio.io/blog/2021/05/bors-confident-merges/)
+* [Increasing the level of parallelism in DataFusion 4.0](https://medium.com/@danilheres/increasing-the-level-of-parallelism-in-datafusion-4-0-d2a15b5a2093)
+* [My second impression of Rust and why I think it's the best general-purpose language!](https://deepu.tech/my-second-impression-of-rust/)
+* [Incrementally porting a small Python project to Rust](https://blog.waleedkhan.name/port-python-to-rust/)
+* [video] [Rust Verification Workshop 2021 - Ferrite: A Rust EDSL for Message-passing Protocol Verification](https://youtu.be/6dcf3tOPOwo)
+* [video] [Rust Verification Workshop 2021 - RustBelt: A Quick Dive into the Abyss](https://youtu.be/iAs0gZ8o0oQ)
+* [video] [Rust Verification Workshop 2021 - Polonius](https://youtu.be/H54VDCuT0J0)
+* [video] [Rust Verification Workshop 2021 - Rust Interest in safety- and mission-critical environments](https://youtu.be/_DM36e2A9dg)
+* [video] [Rust Verification Workshop 2021 - Leveraging Compiler Intermediate Representation for Multi- and Cross-Language Verification](https://youtu.be/0DcIn7kiNxM)
+### Rust Walkthroughs
+* [BABE – Consensus Algorithm and How to Implement it](https://blog.knoldus.com/babe-consensus-algorithm-and-how-to-implement-it-in-our-runtime/)
+* [Pallets in Substrate and using them in runtime.](https://blog.knoldus.com/pallets-in-substrate-and-using-them-in-runtime/)
+* [How to deploy Rust web app with DigitalOcean](https://dev.to/steadylearner/how-to-deploy-rust-web-app-with-digitalocean-h2o)
+* [Learning Rust #4: Parsing JSON with strong types](https://dev.to/hamatti/learning-rust-4-parsing-json-with-strong-types-575m)
+* [How to use Rust web framework Warp](https://dev.to/steadylearner/how-to-use-rust-warp-web-framework-2b4e)
+* [Ray Tracing in One Weekend](https://misterdanb.github.io/raytracinginrust/)
+* [Procedural Macros: Error handling](https://blog.turbo.fish/proc-macro-error-handling/)
+* [Speeding up algorithms with arena allocators](https://mnwa.medium.com/speeding-up-algorithms-with-arena-allocators-d72d06f23607)
+* [Building a REST and Web Socket API with Actix and Rust](https://agmprojects.com/blog/building-a-rest-and-web-socket-api-with-actix.html)
+* [Building Rust binaries in CI that work with older GLIBC](https://kobzol.github.io/rust/ci/2021/05/07/building-rust-binaries-in-ci-that-work-with-older-glibc.html)
+* [ZH] [series] [Build GraphQL services based on Async Rust using tide + async-graphql + mongodb (基于 Async Rust 构建 GraphQL 服务，使用 tide + async-graphql + mongodb) - Part 4](https://blog.budshome.com/budshome/gou-jian-rust-yi-bu-graphql-fu-wu-:ji-yu-tide-+-async-graphql-+-mongodb(4)--bian-geng-fu-wu-,yi-ji-di-er-ci-zhong-gou)
+* [ZH] [series] [Build GraphQL services based on Async Rust using actix-web + async-graphql + rbatis + postgresql / mysql (基于 actix-web + async-graphql + rbatis + postgresql / mysql 构建异步 Rust GraphQL 服务) - Part 3](https://blog.budshome.com/budshome/ji-yu-actix-web-+-async-graphql-+-rbatis-+-postgresql---mysql-gou-jian-yi-bu-rust-graphql-fu-wu-(3)---zhong-gou)
+* [video] [Graphs in Rust: What is a Graph? Representing them in Rust](https://youtu.be/3DLrUNbKhjQ)
+* [video] [Rust Verification Workshop 2021 - Peeking at compiler-internal data (for fun and profit)](https://youtu.be/SKmd5A-1cSE)
+* [video] [Rust Verification Workshop 2021 - Verifying that Rust programs don't crash](https://youtu.be/vMGilPbIotw)
+* [video] [Rust Verification Workshop 2021 - crux-mir: Symbolic testing for Rust](https://youtu.be/0mocaSR9f_M)
+* [video] [Rust Verification Workshop 2021 - Rustv: Semi-automatic Verification of Unsafe Rust Programs](https://youtu.be/bikmlNlwAYo)
+* [video] [Rust Verification Workshop 2021 - Towards Automatic Verification of Unsafe Rust with Constrained Horn Solvers](https://youtu.be/yJQZ7sG8xSM)
+* [video] [Rust Verification Workshop 2021 - Prusti - Deductive Verification for Rust](https://youtu.be/C9TTioH5JUg)
+* [video] [Rust Verification Workshop 2021 - Creusot: A prototype tool for verification of Rust software](https://youtu.be/b8sBtmzq0FM)
+* [video] [Rust Verification Workshop 2021 - hacspec: succinct, executable, verifiable specifications for high-assurance cryptography](https://youtu.be/k7_BcWwvz7k)
+### Miscellaneous
+* [Innovating with Rust](https://aws.amazon.com/blogs/opensource/innovating-with-rust/)
+* [What can C++ do that Rust can't? (2021 edition)](https://www.reddit.com/r/rust/comments/n7rjfk/what_can_c_do_that_rust_cant_2021_edition/)
+* [video] [The Rust Borrow Checker—A Deep Dive @ Rust DC, April 20, 2021 w/ Nell Shamrell-Harrington](https://youtu.be/Ys7ma3au5m0)
+
+Number: 391  Date: 2021-05-19 
+
+No newsletters or research papers this week.
+### Official
+* [Announcing Rustup 1.24.2](https://blog.rust-lang.org/2021/05/17/Rustup-1.24.2.html)
+* [Six Years of Rust](https://blog.rust-lang.org/2021/05/15/six-years-of-rust.html)
+### Project/Tooling Updates
+* [rust-analyzer Changelog #77](https://rust-analyzer.github.io/thisweek/2021/05/17/changelog-77.html)
+* [IntelliJ Rust Changelog #147](https://intellij-rust.github.io/2021/05/18/changelog-147.html)
+* [GCC Rust Weekly Status Report 15](https://thephilbert.io/2021/05/14/gcc-rust-weekly-status-report-15/)
+* [MoonZoon Dev News (3): Signals, React-like Hooks, Optimizations](https://dev.to/martinkavik/moonzoon-dev-news-3-signals-react-like-hooks-optimizations-39lp)
+* [Alacritty Version 0.8.0](https://github.com/alacritty/alacritty/releases/tag/v0.8.0)
+* [Micromath 2.0.0: approximation-based embedded arithmetic, 2D/3D vector, quarternion, and statistics library](https://www.reddit.com/r/rust/comments/nekdbc/ann_micromath_200_approximationbased_embedded/)
+* [This Week In TensorBase 3](https://tensorbase.io/thisweek/2021-05-19-tw_3/)
+### Observations/Thoughts
+* [Authorization mechanisms in Rust web applications](https://ddtkey.com/blog/authz-mechanisms-in-Rust/)
+* [Scylla Developer Hackathon: Rust Driver](https://www.scylladb.com/2021/02/17/scylla-developer-hackathon-rust-driver/)
+* [Plugins in Rust: The Technologies](https://nullderef.com/blog/plugin-tech/)
+* [gRPC load-balancing in Rust](https://truelayer.com/blog/grpc-load-balancing-in-rust)
+* [Verifying vectorized Rust revisited](https://project-oak.github.io/rust-verification-tools/2021/05/15/verifying-vectorized-code2.html)
+* [Routes to Discovering Rust](https://blog.abor.dev/p/timclicks)
+* [How we utilized fuzzing to improve security in the TezEdge node and created an open-source CI tool for Rust code fuzzing](https://medium.com/tezedge/how-we-utilized-fuzzing-to-improve-security-in-the-tezedge-node-and-created-an-open-source-ci-tool-92ffbd804db1)
+* [Boost productivity with Rust](https://dev.to/pancy/boost-productivity-with-rust-anf)
+* [Building Outer Wonders for Linux](https://utopixel.games/en/blog/building-outer-wonders-for-linux/)
+* [Behind the scenes of 1Password for Linux](https://dteare.medium.com/behind-the-scenes-of-1password-for-linux-d59b19143a23)
+* [Writing Pythonic Rust](http://www.cmyr.net/blog/rust-python-learnings.html)
+* [Upgradable parking_lot::RwLock might not be what you expect](https://morestina.net/blog/1739/upgradable-parking_lotrwlock-might-not-be-what-you-expect)
+* [Why Rust for Embedded Development?](https://blog.knoldus.com/why-rust-for-embedded-development/)
+### Rust Walkthroughs
+* [Understanding Rust Privacy and Visibility Model](https://iximiuz.com/en/posts/rust-privacy-and-visibility/)
+* [Things you can't do in Rust (and what to do instead)](https://blog.logrocket.com/what-you-cant-do-in-rust-and-what-to-do-instead/)
+* [State Management With WebAssembly and Rust](https://dev.to/seanwatters/state-management-with-webassembly-rust-5a1g)
+* [Implementing Linked List in Rust](https://dev.to/felixfaisal/implementing-linked-list-in-rust-3and)
+* [How to use gRPC with Rust Tonic and Postgres database with examples](https://dev.to/steadylearner/how-to-use-grpc-with-rust-tonic-and-postgres-database-with-examples-3dl7)
+* [Generating pre-signed S3 URLs in Rust](https://dev.to/rtyler/generating-pre-signed-s3-urls-in-rust-27gd)
+* [A simple user input collection, validation, and conversion library in Rust](https://dev.to/jahwi/a-simple-user-input-collection-validation-and-conversion-library-in-rust-34cj)
+* [How to make a cryptocurrency Telegram bot with Rust and Teloxide](https://dev.to/steadylearner/how-to-make-a-telegram-bot-with-rust-teloxide-m60)
+* [Infinite Mixture Model in Rust with RV 0.12](https://redpoll.ai/blog/imm-with-rv-12/)
+* [Optimizing HashMaps even more](https://blog.yoshuawuyts.com/optimizing-hashmaps-even-more/)
+* [Inventing the Service trait](https://tokio.rs/blog/2021-05-14-inventing-the-service-trait)
+* [Rust Macros Rule: DRY warp Routes](https://shivjm.blog/rust-macros-rule-dry-warp-routes/)
+* [Error Handling in Rust - A Deep Dive](https://www.lpalmieri.com/posts/error-handling-rust/)
+* [DE] [Speicherverwaltung in Rust](https://jo-so.de/2021-01/Speicher-Rust.html)
+* [ES] [Cómo utilizar Rust web framework Warp](https://dev.to/steadylearner/como-utilizar-rust-web-framework-warp-n3c)
+* [PT] [O que é dyn no Rust?](https://dev.to/henrybarreto/o-que-e-dyn-no-rust-4ol9)
+* [ZH] [Practice of rendering markdown to HTML in Rust (Rust web 开发中，将 markdown 渲染为 HTML 的实践)](https://blog.budshome.com/budshome/rust-zhong-jiang-markdown-xuan-ran-wei-html)
+* [ZH] [series] [Build GraphQL services based on Async Rust using actix-web + async-graphql + rbatis + postgresql / mysql (基于 actix-web + async-graphql + rbatis + postgresql / mysql 构建异步 Rust GraphQL 服务) - Part 4](https://blog.budshome.com/budshome/ji-yu-actix-web-+-async-graphql-+-rbatis-+-postgresql---mysql-gou-jian-yi-bu-rust-graphql-fu-wu-(4)---bian-geng-fu-wu-,yi-ji-xiao-zhong-gou)
+* [video] [The Rust Borrow Checker - A Deep Dive @ Rust DC, April 20 2021 w/ Nell Shamrell-Harrington](https://youtu.be/Ys7ma3au5m0)
+### Miscellaneous
+* [James Munns on the state and the future of embedded & safety-critical Rust | Emergence Podcast](https://www.youtube.com/watch?v=SNUklwUi_M4)
+* [Rust 2021 edition to arrive in October with 'more consistent panic' and other new features](https://www.theregister.com/2021/05/13/rust_2021_edition/)
+* [SpaceX about the Rust Programming Language!](https://www.reddit.com/r/rust/comments/ndm4ne/spacex_about_the_rust_programming_language/)
+
+Number: 392  Date: 2021-05-26 
+
+No official blog posts, newsletters, or research papers this week.
+### Project/Tooling Updates
+* [rust-analyzer Changelog #78](https://rust-analyzer.github.io/thisweek/2021/05/24/changelog-78.html)
+* [This Week In TensorBase 4](https://tensorbase.io/thisweek/2021-05-26-tw_4/)
+* [rustc_codegen_gcc can now run libcore’s tests and pass most of them!](https://blog.antoyo.xyz/rustc_codegen_gcc-run-core-tests)
+* [Parcel 2 beta 3](https://v2.parceljs.org/blog/beta3/)
+* [Announcing lettre 0.10.0-rc.1](https://lettre.rs/post/lettre-0-10-0-rc-1/)
+* [Announcing typed-sql beta! Zero-cost ORM with fast compile times](https://www.reddit.com/r/rust/comments/njbt9s/announcing_typedsql_beta_zerocost_orm_with_fast/)
+* [Announcing Valuable, a library for object-safe value inspection](https://tokio.rs/blog/2021-05-valuable)
+### Observations/Thoughts
+* [Why and how we wrote a compiler in Rust (blog post series 1/X): the context](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-1-x-the-context-e2f83b10edb9)
+* [2D Web Rendering with Rust](https://medium.com/lagierandlagier/2d-web-rendering-with-rust-4401cf133f31)
+* [A fast-to-sync/search and space-optimized replication algorithm written in Rust, the gun-db data replication model](https://mateusfreira.github.io/@mateusfreira-a-fast-to-sync-search-and-space-optimized-replication-algorithm-written-in-rust-the-Nun-db-data-replication-model/)
+* [Adventures in rustc Forking](https://jam1.re/blog/adventures-in-rustc-forking)
+* [Baseline implementations should be predictable](https://pvk.ca/Blog/2021/05/14/baseline-implementations-should-be-predictable/)
+* [Naming Your Lifetimes](https://www.possiblerust.com/pattern/naming-your-lifetimes)
+* [Rucredstash release & Rust experience from a Haskeller](https://psibi.in/posts/2021-05-22-credstash.html)
+### Rust Walkthroughs
+* [Creating an Infinite Mixture Model in Rust with the rv crate](https://redpoll.ai/blog/imm-with-rv-12/)
+* [Debug rust application inside container](https://blog.erebe.dev/blog/debug-rust-aplication-inside-container/index.html)
+* [Write Rust lints without forking Clippy](https://www.trailofbits.com/post/write-rust-lints-without-forking-clippy)
+* [Zig Makes Rust Cross-Compilation Just Work](https://actually.fyi/posts/zig-makes-rust-cross-compilation-just-work/)
+* [Routing traffic in Rust using eBPF](https://www.infinyon.com/blog/2021/05/ebpf-routing-rust/)
+* [How to to_string in Rust](https://loige.co/how-to-to-string-in-rust/)
+* [Building small desktop apps with Ember.js and Tauri](https://dev.to/mitchartemis/building-small-desktop-apps-with-ember-js-and-tauri-3o28)
+* [Coming to Rust from Django](https://meesha.blog/2021/coming-to-rust-from-django.html)
+* [Structural Typing in Rust](https://beachape.com/blog/2021/05/25/structural-typing-in-rust/)
+* [Idiomatic Rust? Implementing binary search](https://shane-o.dev/blog/binary-search-rust)
+* [ZH] [Practice of web crawling with async Rust (使用 Rust 做异步数据采集的实践)](https://blog.budshome.com/budshome/shi-yong-rust-zuo-yi-bu-shu-ju-cai-ji-de-shi-jian)
+* [video] [Lock-Free to Wait-Free Simulation in Rust](https://youtu.be/Bw8-vvtA-E8)
+### Miscellaneous
+* [Rust Web Development - MEAP](https://www.manning.com/books/rust-web-development)
+* [Fuchsia OS partially written in Rust has shipped](https://www.reddit.com/r/rust/comments/nldg5c/fuchsia_os_partially_written_in_rust_has_shipped/)
+
+Number: 393  Date: 2021-06-02 
+
+No official blog posts or research papers this week.
+### Newsletters
+* [RiB Newsletter #24 - Bridges](https://www.reddit.com/r/rust/comments/nqt4ul/rib_newsletter_24_bridges/)
+### Project/Tooling Updates
+* [rust-analyzer Changelog #79](https://rust-analyzer.github.io/thisweek/2021/05/31/changelog-79.html)
+* [GCC Rust Monthly Report #6 May 2021](https://thephilbert.io/2021/05/31/gcc-rust-monthly-report-6-may-2021/)
+* [This Week In TensorBase 5](https://tensorbase.io/thisweek/2021-06-02-tw_5/)
+* [Announcing tower-http](https://tokio.rs/blog/2021-05-announcing-tower-http)
+* [Turning rusty tech into Rust ~ When you need to FTP but don’t want to](https://blog.abstractinvoke.com/05-07-unftp.html)
+### Observations/Thoughts
+* [Object Oriented Programming Concepts in Rust](https://blog.knoldus.com/object-oriented-programming-concepts-in-rust/)
+* [My first cup of Rust](https://blog.frankel.ch/start-rust/1/)
+* [Demystifying Mutability and References in Rust](https://dev.to/arunanshub/demystifying-mutability-and-references-in-rust-caf)
+* [The simpler alternative to GCC-RS](https://shnatsel.medium.com/the-simpler-alternative-to-gcc-rs-90da2b3685d3)
+* [Why I support GCC-rs](https://chorman64.medium.com/why-i-support-gcc-rs-dc69ebfffd60)
+* [Taking Rust for a Test Drive](https://ferrous-systems.com/blog/rust-test-drive/)
+* [A Polkadot Postmortem - 24.05.2021](https://polkadot.network/a-polkadot-postmortem-24-05-2021/)
+* [The Most Annoying Bug I've Had To Track Down](https://www.reddit.com/r/rust/comments/nqjyb7/the_most_annoying_bug_ive_had_to_track_down/)
+* [video] [There and back again - Our Rust adoption journey [Open Source North 2021 / Luca Palmieri]](https://youtu.be/1nKC505_uTU)
+### Rust Walkthroughs
+* [RESTful API in Sync & Async Rust](https://github.com/pretzelhammer/rust-blog/blob/master/posts/restful-api-in-sync-and-async-rust.md)
+* [Rust Closures will make your life easy.](https://blog.knoldus.com/rust-closures-will-make-your-life-easy/)
+* [Idiomatic Rust Binary Search Extended](https://c-hirsch.de/2020-05-30-idiomatic-rust-binary-search-extended)
+* [The Relation between “Rust and Safe Programming” !!](https://blog.knoldus.com/lets-know-about-the-relation-between-rust-and-safe-programming/)
+* [Tightness Driven Development in Rust](https://www.ecorax.net/tightness/)
+* [Writing a "hello world" Riscv Kernel with Nix in Rust](https://justin.restivo.me/posts/2021-05-30-nix-rust-riscv-toy-kernel.html)
+* [Rust for Fsharpers and F# for Rustaceans](https://github.com/Dhghomon/rust-fsharp)
+* [Creating a Deno plugin with Rust](https://alexandrempsantos.com/deno/creating-a-deno-plugin/)
+* [How to use the Firebird database with Rust language](https://itnext.io/firebird-rust-92e9043261cc)
+* [Reactive UI components in Rust](https://dev.to/seanwatters/reactive-ui-components-in-rust-290b)
+* [Redis Streams in Action - Part 2 (Rust app to consume from the Twitter Streaming API)](https://dev.to/azure/redis-streams-in-action-part-2-rust-app-to-consume-from-the-twitter-streaming-api-1ji4)
+* [How to make plugins system with Rust and WebAssembly](https://devblog.arcana.rs/how-to-make-plugins-system-with-rust-and-webassembly)
+* [Getting started with ECS using Planck ECS](https://jojolepro.com/blog/2021-06-01_getting_started_with_ecs/)
+* [Designing Rust bindings for REST APIs](https://plume.benboeckel.net/~/JustAnotherBlog/designing-rust-bindings-for-rest-ap-is)
+* [WebRTC Video chat tutorial using Rust+WASM](https://charles-schleich.medium.com/webrtc-video-chat-tutorial-using-rust-wasm-fa340f7aeef9)
+* [ZH] [Take Web Screenshot & Make Watermark in Rust (Rust 中，对网址进行异步快照，并添加水印效果的实践)](https://blog.budshome.com/budshome/rust-zhong-,dui-wang-zhi-jin-xing-yi-bu-kuai-zhao-,bing-qie-tian-jia-shui-yin-xiao-guo-de-shi-jian)
+* [video] [A Firehose of Rust, for busy people who know some C++](https://youtu.be/IPmRDS0OSxM)
+### Miscellaneous
+* [New Rust book: Rust for Rustaceans by Jon Gjengset](https://www.reddit.com/r/rust/comments/nq3pxh/new_rust_book_rust_for_rustaceans_by_jon_gjengset/)
+* [Just to say, thank you](https://www.reddit.com/r/rust/comments/nnioxj/just_to_say_thank_you/)
+
+Number: 394  Date: 2021-06-09 
+
+### Official
+* [Announcing Rustup 1.24.3](https://blog.rust-lang.org/2021/06/08/Rustup-1.24.3.html)
+### Newsletters
+* [This Month in Rust OSDev (May 2021)](https://rust-osdev.com/this-month/2021-05/)
+### Project/Tooling Updates
+* [Filecoin Forest update](https://medium.com/chainsafe-systems/back-into-the-forest-983a4344ffe9)
+* [Mina Protocol update](https://medium.com/chainsafe-systems/realizing-the-mina-vision-in-rust-453f6f522205)
+* [rust-analyzer Changelog #80](https://rust-analyzer.github.io/thisweek/2021/06/07/changelog-80.html)
+* [IntelliJ Rust Changelog #148](https://intellij-rust.github.io/2021/06/07/changelog-148.html)
+* [Rust/C++ Interop in the Android Platform](https://security.googleblog.com/2021/06/rustc-interop-in-android-platform.html)
+* [Rocket v0.5 Release Candidate](https://rocket.rs/v0.5-rc/news/2021-06-09-version-0.5-rc.1/)
+* [This Week In TensorBase 6](https://tensorbase.io/thisweek/2021-06-09-tw_6/)
+* [Dotenv-linter v3.1.0: Overview of key changes](https://dotenv-linter.github.io/#/whats_new/v310)
+* [AWS SDK Rust: 9 New Services Added](https://github.com/awslabs/aws-sdk-rust/releases/tag/v0.0.7-alpha)
+### Observations/Thoughts
+* [Untapped potential in Rust's type system](https://www.jakobmeier.ch/blogging/Untapped-Rust.html)
+* [Idiomatic Rust? Implementing binary search (part 2)](https://shane-o.dev/blog/binary-search-rust-part-2)
+* [Designing Rust bindings for REST APIs](https://plume.benboeckel.net/~/JustAnotherBlog/designing-rust-bindings-for-rest-ap-is)
+* [Rust zero-cost abstractions in action](https://medium.com/ingeniouslysimple/rust-zero-cost-abstraction-in-action-9e4e2f8bf5a)
+* [Translating Quake 3 into Rust](https://immunant.com/blog/2020/01/quake3/)
+* [First impressions of Rust programming on Solana](https://brson.github.io/2021/06/08/rust-on-solana)
+* [Optimizing Pairing-Based Cryptography: Montgomery Arithmetic in Rust](https://research.nccgroup.com/2021/06/09/optimizing-pairing-based-cryptography-montgomery-arithmetic-in-rust/)
+* [My second cup of Rust](https://blog.frankel.ch/start-rust/2/)
+* [A Goose In The Clouds: Load Testing At Scale](https://www.tag1consulting.com/blog/goose-clouds-load-testing-scale)
+* [Walking through "The Java Tutorials" with Rust](https://rust-java-tutorials.netlify.app/blog/)
+* [Behavior inheritance in Rust](https://abadcafe.wordpress.com/2021/01/08/behavior-inheritance-in-rust/)
+* [audio] [Building with Rust: Ralf Jung on GhostCell and working as a PL researcher](https://anchor.fm/building-with-rust/episodes/Building-with-Rust-Ralf-Jung-on-GhostCell-and-Working-as-a-PL-Researcher-e12auje)
+### Rust Walkthroughs
+* [Rust Derive Macro Guide](https://github.com/imbolc/rust-derive-macro-guide)
+* [Calibration From Scratch Using Rust: Part 1 of 3](https://www.tangramvision.com/blog/calibration-from-scratch-using-rust-part-1-of-3)
+* [Calibration From Scratch Using Rust: Part 2 of 3](https://www.tangramvision.com/blog/calibration-from-scratch-using-rust-part-2-of-3)
+* [Calibration From Scratch Using Rust: Part 3 of 3](https://www.tangramvision.com/blog/calibration-from-scratch-using-rust-part-3-of-3)
+* [Rust from a JavaScript perspective](https://blogs.harvard.edu/kapolos/rust-from-a-javascript-perspective/)
+* [!#[no_std] with WASI is more complicated than I thought it would be](https://dev.to/thepuzzlemaker/nostd-with-wasi-is-more-complicated-than-i-thought-it-would-be-14j7)
+* [Rust - What made it "click" for me (Ownership and memory models)](https://deavid.wordpress.com/2021/06/06/rust-what-made-it-click-for-me-ownership-memory-internals/)
+* [Creating an NPM package written in Rust](https://popcornpaws.medium.com/creating-an-npm-package-written-in-rust-ce02f7c55458)
+* [Rise and Shine: Putting the nRF52840 to sleep, and waking it back up](https://tweedegolf.nl/blog/57/rise-and-shine-putting-the-nrf52840-to-sleep-and-waking-back-up)
+* [Iterator producing iterator in Rust is really helpful.](https://blog.knoldus.com/iterator-producing-iterator-in-rust-is-really-helpful/)
+* [Speed up your Rust CI with cache image and Buildkit](https://blog.erebe.dev/blog/speed-up-your-ci-with-buildkit/)
+* [ZH] [series] [Build front-end web apps with Yew and WebAssembly in Rust -part 1: crates (Rust 和 Wasm 的融合，使用 yew 构建 WebAssembly 标准的 web 前端（1）- 起步及 crate 选择)](https://blog.budshome.com/budshome/rust-he-wasm-de-rong-he-,shi-yong-yew-gou-jian-webassembly-biao-zhun-de-web-qian-duan-(1)--qi-bu-ji-crate-xuan-ze)
+* [ZH] [series] [Build front-end web apps with Yew and WebAssembly in Rust -part 2: Components & Routers (Rust 和 Wasm 的融合，使用 yew 构建 WebAssembly 标准的 web 前端（2）- 组件和路由)](https://blog.budshome.com/budshome/rust-he-wasm-de-rong-he-,shi-yong-yew-gou-jian-webassembly-biao-zhun-de-web-qian-duan-(2)--zu-jian-he-lu-you)
+* [video] [Rust Beginners 5 - Tuples](https://youtu.be/gZMet9Vi7_A)
+### Research
+* [collection] [Automatic Rust verification tools (2021)](https://alastairreid.github.io/automatic-rust-verification-tools-2021/)
+### Miscellaneous
+* [QUIC Version 1 is live on Cloudflare](https://blog.cloudflare.com/quic-version-1-is-live-on-cloudflare/)
+* [What are the most "professional" crates?](https://www.reddit.com/r/rust/comments/nsvyxq/what_are_the_most_professional_crates/)
+* [What's your favourite under-rated Rust crate and why?](https://www.reddit.com/r/rust/comments/nuq1ix/whats_your_favourite_underrated_rust_crate_and_why/)
+* [It's not much, but I graduated from middle-school today with Rust as my language of choice](https://www.reddit.com/r/rust/comments/nrin1u/its_not_much_but_i_graduated_from_middleschool/)
+* [From Julia to Rust](https://miguelraz.github.io/blog/juliatorust/) 
+* [How To Use fastText and Rust For Instant Translations](https://instantdomainsearch.com/engineering/how-to-use-fasttext-for-instant-translations)
+
+Number: 395  Date: 2021-06-16 
+
+**Highlight**
+*Content warning: Suicide, Mental Health*
+The following post mourns the death of somebody in the Rust community.
+This is a very sensitive topic, and it's hard to truly do justice to the loss of human life.
+The most important thing we can do is to raise awareness surrounding mental health.
+If you or somebody you know is in need of a suicide prevention hotline,
+please visit <https://www.opencounseling.com/suicide-hotlines> for emergency and suicide prevention hotline phone numbers in your country.
+[Open Source and Mental Health](https://www.redox-os.org/news/open-source-mental-health/)
+### Official
+* [Inside] [1.53.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2021/06/15/1.53.0-prelease.html)
+* [Inside] [Please welcome Boxy, Léo Lanteri Thauvin and the8472 to compiler-contributors](https://blog.rust-lang.org/inside-rust/2021/06/15/boxyuwu-leseulartichaut-the8472-compiler-contributors.html)
+### Newsletters
+* [This Month in Rust GameDev #22 - May 2021](https://gamedev.rs/news/022/)
+### Project/Tooling Updates
+* [rust-analyzer Changelog #81](https://rust-analyzer.github.io/thisweek/2021/06/14/changelog-81.html)
+* [AWS-SDK-Rust: CloudFormation, SageMaker, EC2, and SES](https://github.com/awslabs/aws-sdk-rust/releases/tag/v0.0.8-alpha)
+* [Announcing Aya](https://confused.ai/posts/announcing-aya)
+* [This Week In TensorBase 7](https://tensorbase.io/thisweek/2021-06-16-tw_7/)
+* [Introducing cap-std, a capability-based version of the Rust standard library](https://blog.sunfishcode.online/introducing-cap-std/)
+* [Wasmer 2.0, it's a big deal!](https://wasmer.io/posts/wasmer-2.0)
+* [New crate announcement, `iterate`](https://www.reddit.com/r/rust/comments/nwdyip/new_create_announcement_iterate/)
+* [ripgrep 13.0.0 release](https://github.com/BurntSushi/ripgrep/releases/tag/13.0.0)
+### Observations/Thoughts
+* [A few thoughts on Fuchsia security](https://blog.cr0.org/2021/06/a-few-thoughts-on-fuchsia-security.html)
+* [On using Rust to implement shell history search/sync (interview with Ellie Huxtable)](https://console.dev/interviews/atuin-ellie-huxtable/)
+* [Visualizing memory management in Rust](https://deepu.tech/memory-management-in-rust/)
+* [audio] [Using Rust with Flutter](https://youtu.be/iQer8hUu0Es)
+### Rust Walkthroughs
+* [Embedded-Rust: Build & Flash binary to STM32F3DISCOVERY](https://blog.knoldus.com/embedded-rust-build-flash-binary-to-stm32f3discovery/)
+* [Learning to Fly: Let's simulate evolution in Rust! (pt 4)](https://pwy.io/en/posts/learning-to-fly-pt4/)
+* [Baby's first Rust with extra steps (XPC, launchd, and FFI)!](https://dstancu.net/macos/rust/ffi/xpc/ncurses/2021/06/15/rust-xpc-ffi.html)
+* [Speeding Up the WebCola Graph Viz Library with Rust + WebAssembly](https://cprimozic.net/blog/speeding-up-webcola-with-webassembly/)
+* [From NAND to Raytracer: Raytracing on the Hack computer (feat. Rust)](https://blog.alexqua.ch/posts/from-nand-to-raytracer/)
+* [Cacao: Building macOS (and iOS) Apps in Rust](https://rymc.io/blog/2021/cacao-rs-macos-ios-rust/)
+* [Build an API in Rust (Part 1)](https://dev.to/naruhodo/build-an-api-in-rust-part-1-5c43)
+* [Learn to Build a Parser in Rust for Fun and Profit](https://dev.to/pancy/learn-to-build-a-parser-in-rust-for-fun-and-profit-2id5)
+* [Beginner's Guide to Running Rust on AWS Lambda](https://dev.to/nicholaschiasson/beginner-s-guide-to-running-rust-on-aws-lambda-277n)
+* [A Command Line Key-Value Data Store using the Rust Programming Language.](https://dev.to/sirneij/a-command-line-key-value-data-store-using-the-rust-programming-language-33b6)
+* [How to use casbin authorization in your rust web-app (part 3)](https://dev.to/smrpn/how-to-use-casbin-authorization-in-your-rust-web-app-part-3-4g2f)
+* [Speeding up incoming message parsing by 3- to 10-times by switching from serde to the nom library](https://medium.com/tezedge/speeding-up-incoming-message-parsing-by-3-to-10-times-by-switching-from-serde-to-the-nom-library-a74b04391bb4)
+* [ZH] [series] [Build front-end web apps with Yew and WebAssembly in Rust -part 3: Assets & Refactor (Rust 和 Wasm 的融合，使用 yew 构建 web 前端（3）- 资源文件及小重构)](https://blog.budshome.com/budshome/rust-he-wasm-de-rong-he-,shi-yong-yew-gou-jian-web-qian-duan-(3)--zi-yuan-wen-jian-ji-xiao-zhong-gou)
+* [ZH] [series] [Build front-end web apps with Yew and WebAssembly in Rust -part 4: GraphQL data & Parsing (Rust 和 Wasm 的融合，使用 yew 构建 web 前端（4）- 获取 GraphQL 数据并解析)](https://blog.budshome.com/budshome/rust-he-wasm-de-rong-he-,shi-yong-yew-gou-jian-web-qian-duan-(4)--huo-qu-graphql-shu-ju-bing-jie-xi)
+* [video] [Building a Web Application with Rust - Part 1 - Configuration](https://youtu.be/Wmq3etdwCbM)
+* [video] [Building a Web Application with Rust - Part 2 - Database Setup](https://youtu.be/c9qSGUHgE1c)
+* [video] [Lock-Free to Wait-Free Simulation in Rust (part 2)](https://youtu.be/tNzCj8691LE)
+### Research
+### Miscellaneous
+* [Meet the Rustaceans: A series of interviews with Facebook Rust engineers](https://developers.facebook.com/blog/post/2021/06/03/meet-rustaceans-neil-mitchell/)
+* [Pop!_OS uses a lot of Rust](https://www.reddit.com/r/rust/comments/nyd1qw/pop_os_uses_a_lot_of_rust/)
+* [A few thoughts on Fuchsia security](https://blog.cr0.org/2021/06/a-few-thoughts-on-fuchsia-security.html?m=1)
+* [video] [Keynote: Bryan Cantrill - Hardware/Software Co-design: The Coming Golden Age](https://youtu.be/nY07zWzhyn4)
+
