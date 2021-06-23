@@ -22,6 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [rustymind - Parse and visualize brainwaves with Rust](https://github.com/junjunjd/rustymind)
 
 ### Observations/Thoughts
+- [Walking through "The Java Tutorials" with Rust - boxed trait objects and the search for inheritance](https://rust-java-tutorials.netlify.app/blog/5-trait-objects-2/)
 
 * [WABT: A wonderful CLI for manipulating Wasm](https://blog.knoldus.com/wabt-a-wonderful-cli-for-manipulating-wasm/)
 
