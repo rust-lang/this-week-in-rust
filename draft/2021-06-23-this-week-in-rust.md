@@ -35,9 +35,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week has two crates: [nativeshell](https://github.com/nativeshell/nativeshell) gets you a Flutter app in Rust, while [static-rc](https://github.com/matthieu-m/static-rc) is a compile-time reference-counted smart pointer.
+This week's crate is [serde-encrypt](https://github.com/laysakura/serde-encrypt), a library that adds encryption to all `Serialize` impls.
 
-Thanks to [Zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/922) for both nominations
+Thanks to [Sho Nakatani](https://users.rust-lang.org/t/crate-of-the-week/2704/926) for the nomination.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -61,39 +61,32 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from Rust Core
 
-289 pull requests were [merged in the last week][merged]
+301 pull requests were [merged in the last week][merged]
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-06-07..2021-06-14
 
-* [fix force-warns to allow dashes](https://github.com/rust-lang/rust/pull/86117)
-* [suggest a trailing comma if a 1-tuple is expected and a parenthesized expression is found](https://github.com/rust-lang/rust/pull/86116)
-* [do not suggest to add type annotations for unnameable types](https://github.com/rust-lang/rust/pull/86215)
-* [`to_digit` simplification (less jumps)](https://github.com/rust-lang/rust/pull/85630)
-* [multiple improvements to `RwLock`s](https://github.com/rust-lang/rust/pull/84687)
-* [add `Ipv6Addr::is_unicast`](https://github.com/rust-lang/rust/pull/85791)
-* [stabilize `wasm simd intrinsics`](https://github.com/rust-lang/rust/pull/86204)
-* [stabilize `maybe_uninit_ref`](https://github.com/rust-lang/rust/pull/86273)
-* [stabilize `simd_x86_bittest`](https://github.com/rust-lang/rust/pull/86233)
-* [cargo: implement warning for ignored trailing arguments](https://github.com/rust-lang/cargo/pull/9561)
-* [clippy: fix `while_let_on_iterator` suggestion in a closure](https://github.com/rust-lang/rust-clippy/pull/7262)
-* [clippy: remove requirement of fully qualified path for `disallowed_method`/`type`](https://github.com/rust-lang/rust-clippy/pull/7345)
-* [clippy: fix false positive on `semicolon_if_nothing_returned`](https://github.com/rust-lang/rust-clippy/pull/7326)
-* [clippy: fix false positive in `default_numeric_fallback` with external macro expansion](https://github.com/rust-lang/rust-clippy/pull/7325)
-* [clippy: `Vec` `extend` to `append`](https://github.com/rust-lang/rust-clippy/pull/7270)
-* [BPF target support](https://github.com/rust-lang/rust/pull/79608)
-* [support for force-warns](https://github.com/rust-lang/rust/pull/85788)
-* [improve debugging experience for enums on windows-msvc](https://github.com/rust-lang/rust/pull/85292)
-* [parser: ensure that all nonterminals have tokens after parsing](https://github.com/rust-lang/rust/pull/84995)
-* [don't suggest unsized indirection in where-clauses](https://github.com/rust-lang/rust/pull/85979)
-* [rustc: allow safe `#[target_feature]` on wasm](https://github.com/rust-lang/rust/pull/84988)
-* [always go through the `expn_that_defined` query](https://github.com/rust-lang/rust/pull/86002)
-* [perf: miscellaneous inlining improvements](https://github.com/rust-lang/rust/pull/85892)
-* [perf: only compute the trait map once](https://github.com/rust-lang/rust/pull/85905)
-* [stabilize `vecdeque_binary_search`](https://github.com/rust-lang/rust/pull/83362)
-* [update standard library for `IntoIterator` implementation of arrays](https://github.com/rust-lang/rust/pull/85930)
-* [clippy: don't warn about `cfg!(..)` as a constant in assertions](https://github.com/rust-lang/rust-clippy/pull/7319)
-* [clippy: fix `needless_collect` with binding shadowing](https://github.com/rust-lang/rust-clippy/pull/7289)
-* [clippy: add lint `manual_str_repeat`](https://github.com/rust-lang/rust-clippy/pull/7265)
+* [use `AttrVec` for `Arm`, `FieldDef`, and `Variant`](https://github.com/rust-lang/rust/pull/86385)
+* [prefer `partition_point` to look up assoc items](https://github.com/rust-lang/rust/pull/86392)
+* [lint for unused borrows as part of `UNUSED_MUST_USE`](https://github.com/rust-lang/rust/pull/86426)
+* [miri: report an error if a `#[no_mangle]`/`#[export_name = ...]` function has the same symbol name as a built-in shim](https://github.com/rust-lang/miri/pull/1832)
+* [fix span calculation in format strings](https://github.com/rust-lang/rust/pull/86104)
+* [stabilize `span_open()` and `span_close()`](https://github.com/rust-lang/rust/pull/86136)
+* [stabilize `ops::ControlFlow` (just the type)](https://github.com/rust-lang/rust/pull/85608)
+* [linear interpolation](https://github.com/rust-lang/rust/pull/85925)
+* [add functions `Duration::try_from_secs_`{`f32`, `f64'}](https://github.com/rust-lang/rust/pull/82179)
+* [specialize `io::Bytes::size_hint` for more types](https://github.com/rust-lang/rust/pull/86202)
+* [optimize `Eq` implementation for paths](https://github.com/rust-lang/rust/pull/86179)
+* [integrate binary search codes of `binary_search_by` and `partition_point`](https://github.com/rust-lang/rust/pull/85406)
+* [futures: introduce `stream::select_with_strategy`](https://github.com/rust-lang/futures-rs/pull/2450)
+* [cargo: don't allow config env to modify vars set by cargo](https://github.com/rust-lang/cargo/pull/9579)
+* [cargo: avoid quadratic complexity when splitting output into lines](https://github.com/rust-lang/cargo/pull/9586)
+* [rustdoc: fix ICE when using `#[doc(keyword = "...")]` on non-items](https://github.com/rust-lang/rust/pull/86401)
+* [rustdoc: account for const-unstable functions](https://github.com/rust-lang/rust/pull/86473)
+* [clippy: fix wrong config option being suggested for deprecated `wrong_pub_self_convention` lint](https://github.com/rust-lang/rust-clippy/pull/7382)
+* [clippy: improve panic message on "Found multiple rlibs" error in compile-test](https://github.com/rust-lang/rust-clippy/pull/7380)
+* [clippy: add `macro_braces` lint to check for irregular brace use in certain macros](https://github.com/rust-lang/rust-clippy/pull/7299)
+* [clippy: check for unbalanced tick pairs in `doc_markdown` lint](https://github.com/rust-lang/rust-clippy/pull/7357)
+* [clippy: move `from-iter-instead-of-collect` to pedantic](https://github.com/rust-lang/rust-clippy/pull/7375)
 
 ### Rust Compiler Performance Triage
 
@@ -167,11 +160,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> If manually managing memory is like wielding a gun, the borrow checker is an automatic safety that prevents you from pulling the trigger when you're roughly pointing it at yourself. But it's coarse-grained and errs on the side of caution; it simulates your foot as as the rectangular box that would contain it, not as a detailed 3D mesh. If you *really* think you can aim it between your toes and avoid hitting yourself (for example, "the value returned by this function must remain alive for no more than 15 successive invocations of this function"), unsafe will let you try, but the borrow checker's built-in rules isn't granular enough to help you, though it will still stop you if you accidentally put your hand in front without declaring it.
+> At last, I can name my unsafe functions appropriately.
+>
+> `unsafe fn e͙̤͎̪͒x̲͓̞̤͍̻̺̂͗͛͆͡t̜̣͊̓ͩ̍̑e̩͖͙͎̼̖͉ͮṇ̨͖̎̓ͅd̗̼͕ͫ̅_̲̦̥̙̙͍͂́l͙͙̦̞̠̃͌͒i̹̘͍̳̊ͪͦͤ͒̊͋f̨ͥ̄̌ḛ̜͗̉̃̎̂̔̐t̩̲̘͕͉̺̫̓͗́i̹̤̭ͭ͆̔ͪͤ͢m̹̤̜̗̫̩͍ͨe̝͒ͣ<'b>(r: R<'b>) -> R<'static>`
 
-– [infogulch on Hacker News](https://news.ycombinator.com/item?id=27468885)
+– [Freeky on r/rust](https://www.reddit.com/r/rust/comments/o1yy1p/announcing_rust_1530/h2488f5)
 
-Thanks to [StyMaar](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1056) for the suggestion!
+Thanks to [Vincent de Phily](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1063) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
