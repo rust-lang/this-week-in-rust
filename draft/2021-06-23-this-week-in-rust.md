@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 * [rustymind - Parse and visualize brainwaves with Rust](https://github.com/junjunjd/rustymind)
+* [This Week In TensorBase 8](https://tensorbase.io/thisweek/2021-06-23-tw_8/)
 
 ### Observations/Thoughts
 - [Walking through "The Java Tutorials" with Rust - boxed trait objects and the search for inheritance](https://rust-java-tutorials.netlify.app/blog/5-trait-objects-2/)
