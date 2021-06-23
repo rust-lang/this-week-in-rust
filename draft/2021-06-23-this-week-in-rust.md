@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [WABT: A wonderful CLI for manipulating Wasm](https://blog.knoldus.com/wabt-a-wonderful-cli-for-manipulating-wasm/)
 
 ### Rust Walkthroughs
+* [Rust and AWS Lambda](https://mitchgollub.com/rust-and-aws-lambda/)
 
 ### Research
 
