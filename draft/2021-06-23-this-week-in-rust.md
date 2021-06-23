@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rustymind - Parse and visualize brainwaves with Rust](https://github.com/junjunjd/rustymind)
 
 ### Observations/Thoughts
 
