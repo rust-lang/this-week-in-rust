@@ -19,10 +19,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rustymind - Parse and visualize brainwaves with Rust](https://github.com/junjunjd/rustymind)
 
 ### Observations/Thoughts
+- [Walking through "The Java Tutorials" with Rust - boxed trait objects and the search for inheritance](https://rust-java-tutorials.netlify.app/blog/5-trait-objects-2/)
+
+* [WABT: A wonderful CLI for manipulating Wasm](https://blog.knoldus.com/wabt-a-wonderful-cli-for-manipulating-wasm/)
 
 ### Rust Walkthroughs
+* [Rust and AWS Lambda](https://mitchgollub.com/rust-and-aws-lambda/)
 
 ### Research
 
@@ -148,6 +153,12 @@ Email the [Rust Community Team][community] for access.
 **ChainSafe Systems**
 
 * [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
+**Kollider**
+
+* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
+* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
+* [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
