@@ -20,14 +20,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 * [rustymind - Parse and visualize brainwaves with Rust](https://github.com/junjunjd/rustymind)
+* [ZH] [Build a Gameboy emulator in Rust](https://yodalee.me/2020/12/2020_rust_gameboy/)
 
 ### Observations/Thoughts
 - [Walking through "The Java Tutorials" with Rust - boxed trait objects and the search for inheritance](https://rust-java-tutorials.netlify.app/blog/5-trait-objects-2/)
-
 * [WABT: A wonderful CLI for manipulating Wasm](https://blog.knoldus.com/wabt-a-wonderful-cli-for-manipulating-wasm/)
 
 ### Rust Walkthroughs
 * [Rust and AWS Lambda](https://mitchgollub.com/rust-and-aws-lambda/)
+* [ZH] [Develop WebAssembly Program in Rust](https://yodalee.me/2021/05/1helloworld/)
 
 ### Research
 
