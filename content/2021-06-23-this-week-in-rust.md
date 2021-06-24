@@ -99,7 +99,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [stabilize `span_open()` and `span_close()`](https://github.com/rust-lang/rust/pull/86136)
 * [stabilize `ops::ControlFlow` (just the type)](https://github.com/rust-lang/rust/pull/85608)
 * [linear interpolation](https://github.com/rust-lang/rust/pull/85925)
-* [add functions `Duration::try_from_secs_`{`f32`, `f64'}](https://github.com/rust-lang/rust/pull/82179)
+* [add functions `Duration::try_from_secs_`{`f32`, `f64`}](https://github.com/rust-lang/rust/pull/82179)
 * [specialize `io::Bytes::size_hint` for more types](https://github.com/rust-lang/rust/pull/86202)
 * [optimize `Eq` implementation for paths](https://github.com/rust-lang/rust/pull/86179)
 * [integrate binary search codes of `binary_search_by` and `partition_point`](https://github.com/rust-lang/rust/pull/85406)
