@@ -160,7 +160,7 @@ decision. Express your opinions now.
 ### Online
 
 * [June 24, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
-* [June 29. 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccjbmc/)
+* [June 29, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccjbmc/)
 * [July 6, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/jxfdjsycckbjb/)
 
 If you are running a Rust event please add it to the [calendar] to get
