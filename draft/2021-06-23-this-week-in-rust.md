@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 - [Walking through "The Java Tutorials" with Rust - boxed trait objects and the search for inheritance](https://rust-java-tutorials.netlify.app/blog/5-trait-objects-2/)
 * [WABT: A wonderful CLI for manipulating Wasm](https://blog.knoldus.com/wabt-a-wonderful-cli-for-manipulating-wasm/)
+* [wasm-bindgen making Rust and JavaScript interoperability easy](https://blog.knoldus.com/wasm-bindgen-making-rust-and-javascript-interoperability-easy/)
 
 ### Rust Walkthroughs
 * [Rust and AWS Lambda](https://mitchgollub.com/rust-and-aws-lambda/)
