@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 * [rustymind - Parse and visualize brainwaves with Rust](https://github.com/junjunjd/rustymind)
+* [This Week In TensorBase 8](https://tensorbase.io/thisweek/2021-06-23-tw_8/)
 * [ZH] [Build a Gameboy emulator in Rust](https://yodalee.me/2020/12/2020_rust_gameboy/)
 
 ### Observations/Thoughts
