@@ -28,9 +28,9 @@ No newsletters or research articles this week.
 
 ## Crate of the Week
 
-This week's crate is [serde-encrypt](https://github.com/laysakura/serde-encrypt), a library that adds encryption to all `Serialize` impls.
+This week's crate is [hypergraph](https://github.com/yamafaktory/hypergraph), graph data structure implementation where edges can join arbitrary numbers of vertices.
 
-Thanks to [Sho Nakatani](https://users.rust-lang.org/t/crate-of-the-week/2704/926) for the nomination.
+Thanks to [Davy Duperron](https://users.rust-lang.org/t/crate-of-the-week/2704/929) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -49,32 +49,22 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from Rust Core
 
-301 pull requests were [merged in the last week][merged]
+284 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-06-07..2021-06-14
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-06-21..2021-06-28
 
-* [use `AttrVec` for `Arm`, `FieldDef`, and `Variant`](https://github.com/rust-lang/rust/pull/86385)
-* [prefer `partition_point` to look up assoc items](https://github.com/rust-lang/rust/pull/86392)
-* [lint for unused borrows as part of `UNUSED_MUST_USE`](https://github.com/rust-lang/rust/pull/86426)
-* [miri: report an error if a `#[no_mangle]`/`#[export_name = ...]` function has the same symbol name as a built-in shim](https://github.com/rust-lang/miri/pull/1832)
-* [fix span calculation in format strings](https://github.com/rust-lang/rust/pull/86104)
-* [stabilize `span_open()` and `span_close()`](https://github.com/rust-lang/rust/pull/86136)
-* [stabilize `ops::ControlFlow` (just the type)](https://github.com/rust-lang/rust/pull/85608)
-* [linear interpolation](https://github.com/rust-lang/rust/pull/85925)
-* [add functions `Duration::try_from_secs_`{`f32`, `f64'}](https://github.com/rust-lang/rust/pull/82179)
-* [specialize `io::Bytes::size_hint` for more types](https://github.com/rust-lang/rust/pull/86202)
-* [optimize `Eq` implementation for paths](https://github.com/rust-lang/rust/pull/86179)
-* [integrate binary search codes of `binary_search_by` and `partition_point`](https://github.com/rust-lang/rust/pull/85406)
-* [futures: introduce `stream::select_with_strategy`](https://github.com/rust-lang/futures-rs/pull/2450)
-* [cargo: don't allow config env to modify vars set by cargo](https://github.com/rust-lang/cargo/pull/9579)
-* [cargo: avoid quadratic complexity when splitting output into lines](https://github.com/rust-lang/cargo/pull/9586)
-* [rustdoc: fix ICE when using `#[doc(keyword = "...")]` on non-items](https://github.com/rust-lang/rust/pull/86401)
-* [rustdoc: account for const-unstable functions](https://github.com/rust-lang/rust/pull/86473)
-* [clippy: fix wrong config option being suggested for deprecated `wrong_pub_self_convention` lint](https://github.com/rust-lang/rust-clippy/pull/7382)
-* [clippy: improve panic message on "Found multiple rlibs" error in compile-test](https://github.com/rust-lang/rust-clippy/pull/7380)
-* [clippy: add `macro_braces` lint to check for irregular brace use in certain macros](https://github.com/rust-lang/rust-clippy/pull/7299)
-* [clippy: check for unbalanced tick pairs in `doc_markdown` lint](https://github.com/rust-lang/rust-clippy/pull/7357)
-* [clippy: move `from-iter-instead-of-collect` to pedantic](https://github.com/rust-lang/rust-clippy/pull/7375)
+* [fix type checking of return expressions outside of function bodies](https://github.com/rust-lang/rust/pull/86206)
+* [add `future_prelude_collision` lint](https://github.com/rust-lang/rust/pull/85707)
+* [do not emit alloca for ZST locals with multiple assignments](https://github.com/rust-lang/rust/pull/86166)
+* [fix panic-safety in specialized `Zip::next_back`](https://github.com/rust-lang/rust/pull/86452)
+* [add `io::Cursor::`{`remaining`, `remaining_slice`, `is_empty`}](https://github.com/rust-lang/rust/pull/86037)
+* [make `fmt::Arguments::as_str` unstably const](https://github.com/rust-lang/rust/pull/86655)
+* [cargo: unify weak and namespaced features](https://github.com/rust-lang/cargo/pull/9574)
+* [rustdoc: properly render higher-ranked trait bounds](https://github.com/rust-lang/rust/pull/84814)
+* [rustdoc: do not list impl when trait has doc(hidden)](https://github.com/rust-lang/rust/pull/86513)
+* [rustdoc: render `<Self as X>::Y` type casts properly across crate bounds](https://github.com/rust-lang/rust/pull/86449)
+* [rustdoc: staggered layout for module contents on mobile](https://github.com/rust-lang/rust/pull/85651)
+* [clippy: add suspicious group](https://github.com/rust-lang/rust-clippy/pull/7350)
 
 ### Rust Compiler Performance Triage
 
@@ -138,13 +128,14 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> At last, I can name my unsafe functions appropriately.
->
-> `unsafe fn e͙̤͎̪͒x̲͓̞̤͍̻̺̂͗͛͆͡t̜̣͊̓ͩ̍̑e̩͖͙͎̼̖͉ͮṇ̨͖̎̓ͅd̗̼͕ͫ̅_̲̦̥̙̙͍͂́l͙͙̦̞̠̃͌͒i̹̘͍̳̊ͪͦͤ͒̊͋f̨ͥ̄̌ḛ̜͗̉̃̎̂̔̐t̩̲̘͕͉̺̫̓͗́i̹̤̭ͭ͆̔ͪͤ͢m̹̤̜̗̫̩͍ͨe̝͒ͣ<'b>(r: R<'b>) -> R<'static>`
+> When a panic has a payload that's an object which needs Drops,  
+> And the panic hits a catch_unwind for unexpected stops  
+> Before if its Drop panicked we'd just crash to your desktops,  
+> Now the payload gets forgotten, and you'd better grab some mops!
 
-– [Freeky on r/rust](https://www.reddit.com/r/rust/comments/o1yy1p/announcing_rust_1530/h2488f5)
+– [Josh Triplett on twitter](https://twitter.com/josh_triplett/status/1407776002973986819)
 
-Thanks to [Vincent de Phily](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1063) for the suggestion!
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1069) for the self-suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
