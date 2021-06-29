@@ -14,11 +14,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-No newsletters or research articles this week.
+* [ChainSafe's Polkadot Index Network Token update #2](https://medium.com/chainsafe-systems/pint-community-update-2-b337ece3f031)
 
 ### Official
 
 ### Project/Tooling Updates
+
+* [ChainSafe's update on Rust for the Mina Community Update (video)](https://www.crowdcast.io/e/mina-community-spotlight-Q2-2021/2)
 
 ### Observations/Thoughts
 
@@ -133,6 +135,9 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+ChainSafe Systems 
+* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
