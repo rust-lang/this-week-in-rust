@@ -91,15 +91,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-A few small regressions on smaller benchmarks (e.g., helloworld), likely
-centered around more IR being generated in a few cases.
+We only have partial results this week (more details in full report). From the results we have collected, we have one small regression and several improvements.
+Also, there was a broad [max-rss regression](https://perf.rust-lang.org/compare.html?start=29cd70d40722930e66a8b726fe58a7bd1d64a22b&end=6b354a13820a444f834a33365ae4a8d97d7d27ce&stat=max-rss) from 11 days ago.
+and narrower [max-rss regression](https://perf.rust-lang.org/compare.html?start=406d4a9cc3b9601cf98a07c6c83e0227d64f5d48&end=4573a4a879a8e1f773944a8859e4dcd136138af8&stat=max-rss) from 9 days ago.
 
-Triage done by **@simulacrum**.
-Revision range: [d192c80..3912083](https://perf.rust-lang.org/?start=d192c80d2284ba6b5146bb3da586354c3762c72b&end=3912083821c5072f700a75589c8af6a9d3e20a21&absolute=false&stat=instructions%3Au)
+Triage done by **@pnkfelix**.
+Revision range: [406d4a9cc3b9601cf98a07c6c83e0227d64f5d48..5a7834050f3a0ebcd117b4ddf0bc1e8459594309](https://perf.rust-lang.org/?start=406d4a9cc3b9601cf98a07c6c83e0227d64f5d48&end=5a7834050f3a0ebcd117b4ddf0bc1e8459594309&absolute=false&stat=instructions%3Au)
+Revision range: [7c3872e6bfd555d2ad753ac1f871db3bd7f2a547..7ede6e2a2359c1bb9032baffa4fdafe5633749e3](https://perf.rust-lang.org/?start=7c3872e6bfd555d2ad753ac1f871db3bd7f2a547&end=7ede6e2a2359c1bb9032baffa4fdafe5633749e3&absolute=false&stat=instructions%3Au)
 
-2 Regressions, 1 Improvements, 0 Mixed; 1 of them in rollups
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-06-22.md).
+1 Regressions, 5 Improvements, 0 Mixed; 1 of them in rollups
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-06-30.md).
 
 ### Approved RFCs
 
