@@ -2051,3 +2051,45 @@ please visit <https://www.opencounseling.com/suicide-hotlines> for emergency and
 * [A few thoughts on Fuchsia security](https://blog.cr0.org/2021/06/a-few-thoughts-on-fuchsia-security.html?m=1)
 * [video] [Keynote: Bryan Cantrill - Hardware/Software Co-design: The Coming Golden Age](https://youtu.be/nY07zWzhyn4)
 
+Number: 396  Date: 2021-06-23 
+
+No newsletters or research articles this week.
+### Official
+* [Announcing Rust 1.53.0](https://blog.rust-lang.org/2021/06/17/Rust-1.53.0.html)
+* [Inside] [Rust Compiler June Steering Cycle](https://blog.rust-lang.org/inside-rust/2021/06/23/compiler-team-june-steering-cycle.html)
+### Project/Tooling Updates
+* [rust-analyzer Changelog #82](https://rust-analyzer.github.io/thisweek/2021/06/21/changelog-82.html)
+* [IntelliJ Rust Changelog #149](https://intellij-rust.github.io/2021/06/21/changelog-149.html)
+* [rustymind - Parse and visualize brainwaves with Rust](https://github.com/junjunjd/rustymind)
+* [This Week In TensorBase 8](https://tensorbase.io/thisweek/2021-06-23-tw_8/)
+* [Supporting Miguel Ojeda's Work on Rust in the Linux Kernel](https://www.memorysafety.org/blog/supporting-miguel-ojeda-rust-in-linux/)
+* [rustc_codegen_gcc: Progress Report #1](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-1)
+### Observations/Thoughts
+* [Walking through "The Java Tutorials" with Rust - boxed trait objects and the search for inheritance](https://rust-java-tutorials.netlify.app/blog/5-trait-objects-2/)
+* [WABT: A wonderful CLI for manipulating Wasm](https://blog.knoldus.com/wabt-a-wonderful-cli-for-manipulating-wasm/)
+* [wasm-bindgen making Rust and JavaScript interoperability easy](https://blog.knoldus.com/wasm-bindgen-making-rust-and-javascript-interoperability-easy/)
+* [Type-checked keypaths in Rust](https://www.cmyr.net/blog/keypaths.html)
+* [Exploring ways to make async Rust easier](https://carllerche.com/2021/06/17/six-ways-to-make-async-rust-easier/)
+* [Reading Back What You Wrote in Rust](https://www.morsecodist.io/blog/rust-writer-ownership)
+* [First Rust Project: A Chess Engine](https://www.reddit.com/r/rust/comments/o3k6yu/first_rust_project_a_chess_engine/)
+* [Rust vs C++ for game development](https://blog.logrocket.com/rust-vs-c-for-game-development/)
+* [Skipping Tests in Rust](https://plume.benboeckel.net/~/JustAnotherBlog/skipping-tests-in-rust)
+* [ZH] [Build a Gameboy emulator in Rust](https://yodalee.me/2020/12/2020_rust_gameboy/)
+* [video] [Why the future of the cloud will be built on Rust - Oliver Gould, Buoyant](https://youtu.be/BWL4889RKhU)
+### Rust Walkthroughs
+* [Rust and AWS Lambda](https://mitchgollub.com/rust-and-aws-lambda/)
+* [Deserializing Binary Data Files in Rust](https://adventures.michaelfbryan.com/posts/deserializing-binary-data-files/)
+* [Yet Another Snazzy Rust CLI](https://dev.to/jeikabu/yet-another-snazzy-rust-cli-k4i)
+* [Build an API in Rust (Part 2)](https://dev.to/naruhodo/build-an-api-in-rust-part-2-f11)
+* [Polymorphism in Rust](https://oswalt.dev/2021/06/polymorphism-in-rust/)
+* [Getting started with MongoDB and Redis in Rust](https://romankudryashov.com/blog/2021/06/mongodb-redis-rust/)
+* [Making My Website Part 1: Monitoring On A Raspberry Pi](https://www.rotoclone.zone/blog/posts/raspberry-pi-monitoring)
+* [ZH] [Develop WebAssembly Program in Rust](https://yodalee.me/2021/05/1helloworld/)
+* [video] [Rust Fuzzing #3: How to write (better) Rust fuzz targets?](https://youtu.be/MiDFvrqjM2E)
+* [video] [Building a Web Application with Rust - Part III - Database Manager](https://youtu.be/u-bjMHQ22TI)
+* [video] [Building a Web Application with Rust - Part IV - HTTP Server](https://youtu.be/rJB0PLwipRI)
+### Miscellaneous
+* [Rust is not a Company](https://blog.m-ou.se/rust-is-not-a-company/)
+* [Google Wants To See Rust Code In The Linux Kernel, Contracts The Main Developer](https://www.phoronix.com/scan.php?page=news_item&px=Google-Wants-Rust-In-Kernel)
+* [Rust is the most wanted language by Godot Engine users](https://www.reddit.com/r/rust/comments/o5p267/rust_is_the_most_wanted_language_by_godot_engine/)
+
