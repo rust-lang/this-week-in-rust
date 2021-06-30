@@ -14,8 +14,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-
-
 ### Official
 
 ### Project/Tooling Updates
