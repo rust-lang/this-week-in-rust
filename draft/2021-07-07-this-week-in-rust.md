@@ -1,6 +1,6 @@
-Title: This Week in Rust 397
-Number: 397
-Date: 2021-06-30
+Title: This Week in Rust 398
+Number: 398
+Date: 2021-07-07
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -16,40 +16,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
-* [Foundation] [Announcing our Executive Search](https://foundation.rust-lang.org/posts/2021-06-25-announcing-executive-search/)
-
 ### Project/Tooling Updates
-
-* [ChainSafe's Polkadot Index Network Token update #2](https://medium.com/chainsafe-systems/pint-community-update-2-b337ece3f031)
-* [Rust Analyzer Changelog #83](https://rust-analyzer.github.io/thisweek/2021/06/28/changelog-83.html)
-* [Fang](https://www.badykov.com/rust/2021/06/27/fang/)
-* [This Week In Veloren 125](https://veloren.net/devblog-125/)
-* [This Week In TensorBase 9](https://tensorbase.io/thisweek/2021-06-30-tw_9/)
 
 ### Observations/Thoughts
 
-* [video] [Why the future of the cloud will be built on Rust](https://www.youtube.com/watch?v=BWL4889RKhU&t=5s)
-* [Hosting wasm modules in Rust easily using ‘wasmi’](https://blog.knoldus.com/hosting-wasm-modules-in-rust-easily-using-wasmi/)
-
 ### Rust Walkthroughs
 
-* [Deserializing Binary Data Files in Rust](https://adventures.michaelfbryan.com/posts/deserializing-binary-data-files/)
-* [Type-checked keypaths in Rust](http://www.cmyr.net/blog/keypaths.html)
-* [Polymorphism in Rust](https://oswalt.dev/2021/06/polymorphism-in-rust/)
-* [Cross Compiling Rust Binaries With GitHub Actions](https://www.rohanjain.in/cargo-cross/)
-* [Rust #2: Lifetimes, Owners and Borrowers, OH MY!](https://dev.to/cthutu/rust-2-lifetimes-owners-and-borrowers-oh-my-3fem)
-* [series] [Build an API in Rust (Part 3)](https://dev.to/naruhodo/build-an-api-in-rust-part-3-11j1)
-* [video] [Beginner's Series to Rust](https://www.youtube.com/playlist?list=PLlrxD0HtieHjbTjrchBwOVks_sr8EVW1x)
-* [video] [Building a multithreaded Flutter + Rust App integrating both with Bloc/Cubit and Rid](https://www.youtube.com/watch?v=PGKBdxOA6Xs&t=1s)
-* [video] [Implementing Hazard Pointers in Rust](https://www.youtube.com/watch?v=fvcbyCYdR10)
-* [video] [Rust Linz; June 2021 - Tim McNamara - How to learn Rust](https://www.youtube.com/watch?v=sDtQaO5_SOw)
-* [series] [Building a Web Application with Rust - Part V - HTTP Server with Database Manager](https://www.youtube.com/watch?v=TCUnZVLgNps)
-* [series] [video] [Building a Web Application with Rust - Part VI - CRUD API](https://www.youtube.com/watch?v=v7y_Ngn_-AY)
-
 ### Miscellaneous
-
-* [Programming Rust, 2nd Edition is Available](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
-* [Rust in Action is Available](https://www.manning.com/books/rust-in-action)
 
 ## Crate of the Week
 
@@ -131,7 +104,7 @@ decision. Express your opinions now.
 
 * [disposition: merge] [Stabilize bindings_after_at](https://github.com/rust-lang/rust/pull/85305)
 * [disposition: merge] [Tracking Issue for std::io::Seek::rewind()](https://github.com/rust-lang/rust/issues/85149)
-* [disposition: merge] [Stabilize impl From<[(K, V); N]> for HashMap (and friends)](https://github.com/rust-lang/rust/pull/84111)
+* [disposition: merge] [Stabilize `impl From<[(K, V); N]>` for HashMap (and friends)](https://github.com/rust-lang/rust/pull/84111)
 * [disposition: merge] [Stabilize "RangeFrom" patterns in 1.55](https://github.com/rust-lang/rust/pull/83918)
 * [disposition: merge] [Tracking Issue for feature(string_drain_as_str) - string::Drain::as_str()](https://github.com/rust-lang/rust/issues/76905)
 
@@ -161,45 +134,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
-**Field 33**
-
-* [Senior Software Engineer Backend - Java/Rust (Berlin, DE)](https://arbeitnow.com/view/senior-software-engineer-backend-javarust-fxm-field-33-55295)
-
-**Georg Fischer**
-
-* [Software Engineer (Remote)](https://www.indeed.com/viewjob?cmp=Georg-Fischer-Signet-LLC&t=Software+Engineer&jk=c5a6c3823ac77bd4)
-
-**Rhebo**
-
-* [Softwareentwickler Rust - Schwerpunkt Netzwerk (Remote)](https://rhebo.com/de/unternehmen/karriere/job/senior-software-entwickler-rust-m-w/)
-
-**ChainSafe Systems**
-
-* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
-
-**Mimo**
-
-* [Full-time senior Rust developer (Remote)](https://github.com/mimo-capital/jobs/blob/main/Full-time%20senior%20Rust%20developer.md)
-
-**Anixe**
-
-* [Rust Software Engineer (Wrocław, PL)]()
-
-**NZXT**
-
-* [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
-* [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
-
-**Kollider**
-
-* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
-* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
-* [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
-
-**Ockam**
-
-* [Multiple Rust Engineering Positions Available (Remote)](https://www.ockam.io/team#open-roles)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
