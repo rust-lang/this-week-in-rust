@@ -96,8 +96,8 @@ Also, there was a broad [max-rss regression](https://perf.rust-lang.org/compare.
 and narrower [max-rss regression](https://perf.rust-lang.org/compare.html?start=406d4a9cc3b9601cf98a07c6c83e0227d64f5d48&end=4573a4a879a8e1f773944a8859e4dcd136138af8&stat=max-rss) from 9 days ago.
 
 Triage done by **@pnkfelix**.
-Revision range: [406d4a9cc3b9601cf98a07c6c83e0227d64f5d48..5a7834050f3a0ebcd117b4ddf0bc1e8459594309](https://perf.rust-lang.org/?start=406d4a9cc3b9601cf98a07c6c83e0227d64f5d48&end=5a7834050f3a0ebcd117b4ddf0bc1e8459594309&absolute=false&stat=instructions%3Au)
-Revision range: [7c3872e6bfd555d2ad753ac1f871db3bd7f2a547..7ede6e2a2359c1bb9032baffa4fdafe5633749e3](https://perf.rust-lang.org/?start=7c3872e6bfd555d2ad753ac1f871db3bd7f2a547&end=7ede6e2a2359c1bb9032baffa4fdafe5633749e3&absolute=false&stat=instructions%3Au)
+Revision range: [406d4a9..5a78340](https://perf.rust-lang.org/?start=406d4a9cc3b9601cf98a07c6c83e0227d64f5d48&end=5a7834050f3a0ebcd117b4ddf0bc1e8459594309&absolute=false&stat=instructions%3Au)
+Revision range: [7c3872e..7ede6e2](https://perf.rust-lang.org/?start=7c3872e6bfd555d2ad753ac1f871db3bd7f2a547&end=7ede6e2a2359c1bb9032baffa4fdafe5633749e3&absolute=false&stat=instructions%3Au)
 
 
 1 Regressions, 5 Improvements, 0 Mixed; 1 of them in rollups
