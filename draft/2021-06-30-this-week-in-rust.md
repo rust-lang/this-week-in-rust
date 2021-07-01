@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust Analyzer Changelog #83](https://rust-analyzer.github.io/thisweek/2021/06/28/changelog-83.html)
 * [Fang](https://www.badykov.com/rust/2021/06/27/fang/)
 * [This Week In Veloren 125](https://veloren.net/devblog-125/)
+* [This Week In TensorBase 9](https://tensorbase.io/thisweek/2021-06-30-tw_9/)
 
 ### Observations/Thoughts
 
