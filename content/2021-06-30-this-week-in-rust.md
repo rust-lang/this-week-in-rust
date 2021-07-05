@@ -25,7 +25,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Fang](https://www.badykov.com/rust/2021/06/27/fang/)
 * [This Week In Veloren 125](https://veloren.net/devblog-125/)
 * [This Week In TensorBase 9](https://tensorbase.io/thisweek/2021-06-30-tw_9/)
-* [Fluvio: The Programmable Data Platform](https://www.infinyon.com/blog/2021/06/introducing-fluvio/)
 
 ### Observations/Thoughts
 
