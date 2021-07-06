@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [butido - a Linux Package Building Tool in Rust](https://beyermatthias.de/butido-a-linux-package-building-tool-in-rust)
 
 ### Observations/Thoughts
+- [Walking through "The Java Tutorials" with Rust - 'What Is an Interface?' and specialization](https://rust-java-tutorials.netlify.app/blog/6-interfaces/)
 
 - [Rust and Tinyverse](https://tinyverse.substack.com/p/rust-and-tinyverse)
 
