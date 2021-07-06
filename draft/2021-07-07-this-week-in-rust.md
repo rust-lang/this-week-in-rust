@@ -25,6 +25,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+- [Rust and Tinyverse](https://tinyverse.substack.com/p/rust-and-tinyverse)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
@@ -152,9 +154,9 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> When a panic has a payload that's an object which needs Drops,  
-> And the panic hits a catch_unwind for unexpected stops  
-> Before if its Drop panicked we'd just crash to your desktops,  
+> When a panic has a payload that's an object which needs Drops,
+> And the panic hits a catch_unwind for unexpected stops
+> Before if its Drop panicked we'd just crash to your desktops,
 > Now the payload gets forgotten, and you'd better grab some mops!
 
 – [Josh Triplett on twitter](https://twitter.com/josh_triplett/status/1407776002973986819)
