@@ -159,20 +159,44 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**StructionSite**
+
+* [Backend Engineer - AI Pipeline (Remote)](https://jobs.lever.co/structionsite/3eecbb4d-427b-4e99-87fd-89533b9e7510)
+
 **ChainSafe Systems**
+
 * [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
+**InfinyOn**
+
+* [Senior Rust Engineer(Remote))](https://infinyon.zohorecruit.com/jobs/Careers/619885000000428015/Senior-Rust-Software-Engineer?source=CareerSite)
+
+**Merantix**
+
+* [Senior Software Engineer (Data Infrastructure) (Berlin, DE)](https://arbeitnow.com/view/senior-software-engineer-data-infrastructure-merantix-125225)
+
+**NORICS GmbH**
+
+* [Softwareentwickler (m/w/d) (Norden, DE)](https://www.norics.de/job)
 
 **NZXT**
 
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
 * [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
 
+**Esturary**
+
+* [Several positions available (New York, NY, US and Columbus, OH, US)](https://estuary.dev/careers)
+
+**Kraken**
+
+* [Several positions available (Remote)](https://jobs.lever.co/kraken?team=Engineering)
+
+**Subspace Network**
+
+* [Several positions available (Remote)](https://jobs.lever.co/subspacelabs)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
-
-**InfinyOn**
-
-* [Senior Rust Engineer(Remote))](https://infinyon.zohorecruit.com/jobs/Careers/619885000000428015/Senior-Rust-Software-Engineer?source=CareerSite)
-
 
 # Quote of the Week
 
