@@ -51,9 +51,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [hypergraph](https://github.com/yamafaktory/hypergraph), graph data structure implementation where edges can join arbitrary numbers of vertices.
+This week's crate is [css-inline](https://github.com/Stranger6667/css-inline), a crate to inline CSS into `style` tags.
 
-Thanks to [Davy Duperron](https://users.rust-lang.org/t/crate-of-the-week/2704/929) for the suggestion.
+Thanks to [Dmitry Dygalo](https://users.rust-lang.org/t/crate-of-the-week/2704/931) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -80,22 +80,41 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from Rust Core
 
-284 pull requests were [merged in the last week][merged]
+297 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-06-21..2021-06-28
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-06-28..2021-07-05
 
-* [fix type checking of return expressions outside of function bodies](https://github.com/rust-lang/rust/pull/86206)
-* [add `future_prelude_collision` lint](https://github.com/rust-lang/rust/pull/85707)
-* [do not emit alloca for ZST locals with multiple assignments](https://github.com/rust-lang/rust/pull/86166)
-* [fix panic-safety in specialized `Zip::next_back`](https://github.com/rust-lang/rust/pull/86452)
-* [add `io::Cursor::`{`remaining`, `remaining_slice`, `is_empty`}](https://github.com/rust-lang/rust/pull/86037)
-* [make `fmt::Arguments::as_str` unstably const](https://github.com/rust-lang/rust/pull/86655)
-* [cargo: unify weak and namespaced features](https://github.com/rust-lang/cargo/pull/9574)
-* [rustdoc: properly render higher-ranked trait bounds](https://github.com/rust-lang/rust/pull/84814)
-* [rustdoc: do not list impl when trait has doc(hidden)](https://github.com/rust-lang/rust/pull/86513)
-* [rustdoc: render `<Self as X>::Y` type casts properly across crate bounds](https://github.com/rust-lang/rust/pull/86449)
-* [rustdoc: staggered layout for module contents on mobile](https://github.com/rust-lang/rust/pull/85651)
-* [clippy: add suspicious group](https://github.com/rust-lang/rust-clippy/pull/7350)
+* [make `ForceWarn` a lint level](https://github.com/rust-lang/rust/pull/86009)
+* [change vtable memory representation to use `tcx` allocated allocations](https://github.com/rust-lang/rust/pull/86475)
+* [support allocation failures when interpreting MIR](https://github.com/rust-lang/rust/pull/86255)
+* [avoid byte to char position conversions in `is_multiline`](https://github.com/rust-lang/rust/pull/86778)
+* [fix pretty print for `loop`](https://github.com/rust-lang/rust/pull/86358)
+* [pretty-print macro matchers instead of using source code](https://github.com/rust-lang/rust/pull/86282)
+* [fix ICE when main is declared in an extern block](https://github.com/rust-lang/rust/pull/86190)
+* [ignore inference variables in certain queries](https://github.com/rust-lang/rust/pull/86866)
+* [check the number of generic lifetime and const parameters of intrinsics](https://github.com/rust-lang/rust/pull/86148)
+* [check node kind to avoid ICE in `check_expr_return()`](https://github.com/rust-lang/rust/pull/86728)
+* [deny using default function in impl const Trait](https://github.com/rust-lang/rust/pull/86571)
+* [fix garbled suggestion for missing lifetime specifier](https://github.com/rust-lang/rust/pull/86678)
+* [fix misleading "impl Trait" error](https://github.com/rust-lang/rust/pull/86666)
+* [alloc: `no_global_oom_handling`: disable `new()`s, `pin()`s, etc.](https://github.com/rust-lang/rust/pull/86810)
+* [add linked list cursor end methods](https://github.com/rust-lang/rust/pull/86714)
+* [stabilize `str::from_utf8_unchecked` as const](https://github.com/rust-lang/rust/pull/86213)
+* [stabilize `string_drain_as_str`](https://github.com/rust-lang/rust/pull/86858)
+* [stabilize `Bound::cloned()`](https://github.com/rust-lang/rust/pull/86797)
+* [stabilize `Seek::rewind()`](https://github.com/rust-lang/rust/pull/86794)
+* [when using `process::Command` on Windows, environment variable names must be case-preserving but case-insensitive](https://github.com/rust-lang/rust/pull/85270)
+* [add `track_path::path` fn for usage in `proc_macro`s](https://github.com/rust-lang/rust/pull/84029)
+* [libm: optimize `round` and `roundf`](https://github.com/rust-lang/libm/pull/253)
+* [cargo: adjust error message with `offline` and `frozen`](https://github.com/rust-lang/cargo/pull/9644)
+* [clippy: stabilize `cargo clippy --fix`](https://github.com/rust-lang/rust-clippy/pull/7405)
+* [clippy: downgrade `nonstandard_macro_braces` to nursery](https://github.com/rust-lang/rust-clippy/pull/7424)
+* [clippy: don't suggest `doc(hidden)` or unstable variants in wildcard lint](https://github.com/rust-lang/rust-clippy/pull/7407)
+* [clippy: fix emitting in nested (`proc_`)`macro`s for `nonstandard_macro_braces` lint](https://github.com/rust-lang/rust-clippy/pull/7431)
+* [clippy: fix `doc_markdown` false positive](https://github.com/rust-lang/rust-clippy/pull/7426)
+* [clippy: new lint: `rc_mutex`](https://github.com/rust-lang/rust-clippy/pull/7316)
+* [clippy: new lint: `strlen_on_c_strings`](https://github.com/rust-lang/rust-clippy/pull/7243)
+* [clippy: new lint: `disallowed_script_idents`](https://github.com/rust-lang/rust-clippy/pull/7400)
 
 ### Rust Compiler Performance Triage
 
@@ -211,14 +230,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> When a panic has a payload that's an object which needs Drops,
-> And the panic hits a catch_unwind for unexpected stops
-> Before if its Drop panicked we'd just crash to your desktops,
-> Now the payload gets forgotten, and you'd better grab some mops!
+> One thing I like about Rust is that it filters out lazy/sloppy thinkers. Even when I disagree with another Rust programmer, there is a certain level of respect that comes from knowing that they thought about the problem deeply enough to pass the borrow checker.
 
-– [Josh Triplett on twitter](https://twitter.com/josh_triplett/status/1407776002973986819)
+– [Zeroexcuses on rust-users](https://users.rust-lang.org/t/what-is-you-elevator-pitch-for-rust/61713/7?u=llogiq)
 
-Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1069) for the self-suggestion!
+Thanks to [Jonah](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1070) for the self-suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
