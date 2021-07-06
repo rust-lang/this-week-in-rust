@@ -18,9 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 * [ChainSafe's Rust implementation of Mina spec Community Spotlight (video)](https://youtu.be/NaxZR-LDc_g)
-
+* [MoonZoon Dev News (5): Chat example, MoonZoon Cloud](https://dev.to/martinkavik/moonzoon-dev-news-5-chat-example-moonzoon-cloud-5de4)
 * [Fluvio: The Programmable Data Platform](https://www.infinyon.com/blog/2021/06/introducing-fluvio/)
-  
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
