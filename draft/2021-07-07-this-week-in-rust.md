@@ -66,6 +66,14 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+**Synth**
+
+* [Feature: Scheduler / Topological sorting namespaces](https://github.com/getsynth/synth/issues/29)
+* [Use parameterized Statements for Postgres export](https://github.com/getsynth/synth/issues/30)
+* [Feature: Doc template generator](https://github.com/getsynth/synth/issues/31)
+* [XML export / import](https://github.com/getsynth/synth/issues/32)
+* [Feature: CSV import/export](https://github.com/getsynth/synth/issues/33)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -121,30 +129,33 @@ decision. Express your opinions now.
 * [disposition: merge] [RFC: let-else statements](https://github.com/rust-lang/rfcs/pull/3137)
 * [disposition: merge] [RFC: I/O Safety](https://github.com/rust-lang/rfcs/pull/3128)
 * [disposition: merge] [`#[derive(Default)]` on enums with a `#[default]` attribute](https://github.com/rust-lang/rfcs/pull/3107)
-* [disposition: close] [New RFC: Collection Transmute](https://github.com/rust-lang/rfcs/pull/2756)
-* [disposition: close] [RFC: Add delete and delete_by methods to Iterator](https://github.com/rust-lang/rfcs/pull/2475)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Stabilize const_fn_transmute, const_fn_union](https://github.com/rust-lang/rust/pull/85769)
 * [disposition: merge] [Stabilize bindings_after_at](https://github.com/rust-lang/rust/pull/85305)
-* [disposition: merge] [Tracking Issue for std::io::Seek::rewind()](https://github.com/rust-lang/rust/issues/85149)
+* [disposition: close] [Add expr202x macro pattern](https://github.com/rust-lang/rust/pull/84364)
 * [disposition: merge] [Stabilize `impl From<[(K, V); N]>` for HashMap (and friends)](https://github.com/rust-lang/rust/pull/84111)
 * [disposition: merge] [Stabilize "RangeFrom" patterns in 1.55](https://github.com/rust-lang/rust/pull/83918)
-* [disposition: merge] [Tracking Issue for feature(string_drain_as_str) - string::Drain::as_str()](https://github.com/rust-lang/rust/issues/76905)
+* [disposition: merge] [Remove P: Unpin bound on impl Future for Pin](https://github.com/rust-lang/rust/pull/81363)
+* [disposition: merge] [Tracking Issue for IntoInnerError::into_parts etc. (io_into_inner_error_parts)](https://github.com/rust-lang/rust/issues/79704)
+* [disposition: merge] [Tracking Issue for array_map](https://github.com/rust-lang/rust/issues/75243)
+* [disposition: merge] [Tracking issue for #![feature(maybe_uninit_extra)] ](https://github.com/rust-lang/rust/issues/63567)
 
 ### New RFCs
 
-* [Candidate Target Policy](https://github.com/rust-lang/rfcs/pull/3145)
+*No new RFCs were proposed this week.*
 
 ## Upcoming Events
 
 ### Online
 
-* [July 6, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/jxfdjsycckbjb/)
 * [July 7, 2021, Denver, CO, US - End-to-end Encrypted Messaging in Rust, with Ockam by Mrinal Wadhwa - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/277633525/)
+* [July 8, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 * [July 13, 2021, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycckbrb/)
 * [July 14, 2021, Malaysia - Rust Meetup July 2021 - Golang Malaysia, feat Rustlang, Erlang, Haskelllang and `.*-?(lang|script)\`](https://docs.google.com/forms/d/e/1FAIpQLSdoVbexvU3TZox1D9yLKPUggeTuih7TEDR6eaFQGTEgJtXZ5g/viewform)
 * [July 14, 2021, Dublin, IE - Rust Dublin July Remote Meetup - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/278698763/)
+* [July 21, 2021, Vancouver, BC, CA - Rust Adoption at Huawei - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsycckbcc/)
 
 ### North America
 
