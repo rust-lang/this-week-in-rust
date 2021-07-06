@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+- [Rust closures: How a closure can implement more than one trait](https://diaries.vercel.app/posts/clmt""sure-traits-rust/)
 
 ### Rust Walkthroughs
 
