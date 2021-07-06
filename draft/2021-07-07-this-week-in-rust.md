@@ -15,20 +15,37 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [Inside] [What the Error Handling Project Group is Working Towards](https://blog.rust-lang.org/inside-rust/2021/07/01/What-the-error-handling-project-group-is-working-towards.html)
 
 ### Project/Tooling Updates
+* [Linux Rust Support Patches](https://lore.kernel.org/lkml/20210704202756.29107-1-ojeda@kernel.org/)
+* [Intellij Rust Changelog #150](https://intellij-rust.github.io/2021/07/05/changelog-150.html)
+* [Rust Analyzer Changelog #84](https://rust-analyzer.github.io/thisweek/2021/07/05/changelog-84.html)
+* [GCC Rust Monthly Report #7 June 2021](https://thephilbert.io/2021/07/05/gcc-rust-monthly-report-7-june-2021/)
+* [The future of Buck](https://developers.facebook.com/blog/post/2021/07/01/future-of-buck)
 * [ChainSafe's Rust implementation of Mina spec Community Spotlight (video)](https://youtu.be/NaxZR-LDc_g)
 * [MoonZoon Dev News (5): Chat example, MoonZoon Cloud](https://dev.to/martinkavik/moonzoon-dev-news-5-chat-example-moonzoon-cloud-5de4)
 * [Fluvio: The Programmable Data Platform](https://www.infinyon.com/blog/2021/06/introducing-fluvio/)
-
 * [butido - a Linux Package Building Tool in Rust](https://beyermatthias.de/butido-a-linux-package-building-tool-in-rust)
 
 ### Observations/Thoughts
-- [Walking through "The Java Tutorials" with Rust - 'What Is an Interface?' and specialization](https://rust-java-tutorials.netlify.app/blog/6-interfaces/)
-
-- [Rust and Tinyverse](https://tinyverse.substack.com/p/rust-and-tinyverse)
+* [Walking through "The Java Tutorials" with Rust - 'What Is an Interface?' and specialization](https://rust-java-tutorials.netlify.app/blog/6-interfaces/)
+* [Rust and Tinyverse](https://tinyverse.substack.com/p/rust-and-tinyverse)
+* [Speeding Up the Webcola Graph Viz Library with Rust + WebAssembly](https://cprimozic.net/blog/speeding-up-webcola-with-webassembly/)
 
 ### Rust Walkthroughs
+* [Rust on the front-end](https://blog.frankel.ch/start-rust/5/)
+* [Deploy a Rust Web App With Rocket](https://www.koyeb.com/tutorials/deploy-a-rust-web-app-with-rocket)
+* [A TCP Proxy in 30 lines of Rust](https://zmedley.com/tcp-proxy.html)
+* [Manage WebAssembly Apps in WasmEdge Using Docker Tools](https://www.secondstate.io/articles/manage-webassembly-apps-in-wasmedge-using-docker-tools/)
+* [Rust Concept Clarification: Deref vs AsRef vs Borrow vs Cow](https://dev.to/zhanghandong/rust-concept-clarification-deref-vs-asref-vs-borrow-vs-cow-13g6)
+* [Thread safety and Learning in Rust](https://dev.to/onesignal/thread-safety-and-learning-in-rust-1p83)
+* [REST API Wrapper with Rust](https://dev.to/rogertorres/rest-api-wrapper-with-rust-mk4)
+* [video] [Building a Web Application with Rust - Part VII - Auth Middleware](https://www.youtube.com/watch?v=NEyUq5AVF2U)
+* [video] [Building a Web Application with Rust - Part VIII - Containerization](https://www.youtube.com/watch?v=iEZAnmVX7yk)
+* [video] [Rust & Bevy Tutorial - Building a Game From Scratch (Part 1)](https://www.youtube.com/watch?v=Yb3vInxzKGE)
+* [video] [Creating a Chat Server with async Rust and Tokio](https://www.youtube.com/watch?v=4DqP57BHaXI)
+* [video] [1Password Developer Fireside Chat: Dive into Async & Futures in Rust](https://www.youtube.com/watch?v=HrxwOUVzyDU)
 
 ### Miscellaneous
 
