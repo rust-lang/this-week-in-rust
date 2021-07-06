@@ -17,8 +17,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Project/Tooling Updates
+* [ChainSafe's Rust implementation of Mina spec Community Spotlight (video)](https://youtu.be/NaxZR-LDc_g)
+* [MoonZoon Dev News (5): Chat example, MoonZoon Cloud](https://dev.to/martinkavik/moonzoon-dev-news-5-chat-example-moonzoon-cloud-5de4)
+* [Fluvio: The Programmable Data Platform](https://www.infinyon.com/blog/2021/06/introducing-fluvio/)
+
+* [butido - a Linux Package Building Tool in Rust](https://beyermatthias.de/butido-a-linux-package-building-tool-in-rust)
 
 ### Observations/Thoughts
+- [Walking through "The Java Tutorials" with Rust - 'What Is an Interface?' and specialization](https://rust-java-tutorials.netlify.app/blog/6-interfaces/)
+
+- [Rust and Tinyverse](https://tinyverse.substack.com/p/rust-and-tinyverse)
 
 ### Rust Walkthroughs
 
@@ -135,6 +143,9 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**ChainSafe Systems**
+* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
 **NZXT**
 
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
@@ -142,11 +153,16 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+**InfinyOn**
+
+* [Senior Rust Engineer(Remote))](https://infinyon.zohorecruit.com/jobs/Careers/619885000000428015/Senior-Rust-Software-Engineer?source=CareerSite)
+
+
 # Quote of the Week
 
-> When a panic has a payload that's an object which needs Drops,  
-> And the panic hits a catch_unwind for unexpected stops  
-> Before if its Drop panicked we'd just crash to your desktops,  
+> When a panic has a payload that's an object which needs Drops,
+> And the panic hits a catch_unwind for unexpected stops
+> Before if its Drop panicked we'd just crash to your desktops,
 > Now the payload gets forgotten, and you'd better grab some mops!
 
 – [Josh Triplett on twitter](https://twitter.com/josh_triplett/status/1407776002973986819)
