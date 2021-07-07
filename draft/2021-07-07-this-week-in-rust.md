@@ -214,6 +214,10 @@ Email the [Rust Community Team][community] for access.
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
 * [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
 
+**Parity Technologies**
+
+* [10+ Rust engineering positions available - Blockchain, Consensus, Rust Tooling](https://www.parity.io/jobs/)
+
 **Esturary**
 
 * [Several positions available (New York, NY, US and Columbus, OH, US)](https://estuary.dev/careers)
