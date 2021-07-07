@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [MoonZoon Dev News (5): Chat example, MoonZoon Cloud](https://dev.to/martinkavik/moonzoon-dev-news-5-chat-example-moonzoon-cloud-5de4)
 * [Fluvio: The Programmable Data Platform](https://www.infinyon.com/blog/2021/06/introducing-fluvio/)
 * [butido - a Linux Package Building Tool in Rust](https://beyermatthias.de/butido-a-linux-package-building-tool-in-rust)
+* [Announcing Sycamore v0.5.0 - SSR + Routing](https://sycamore-rs.netlify.app/news/announcing-v0.5.0)
 
 ### Observations/Thoughts
 * [Walking through "The Java Tutorials" with Rust - 'What Is an Interface?' and specialization](https://rust-java-tutorials.netlify.app/blog/6-interfaces/)
@@ -73,6 +74,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Feature: Doc template generator](https://github.com/getsynth/synth/issues/31)
 * [XML export / import](https://github.com/getsynth/synth/issues/32)
 * [Feature: CSV import/export](https://github.com/getsynth/synth/issues/33)
+
+**Sycamore**
+
+* [Sycamore has some good first issues](https://github.com/sycamore-rs/sycamore/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
