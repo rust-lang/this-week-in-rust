@@ -216,7 +216,7 @@ Email the [Rust Community Team][community] for access.
 
 **Parity Technologies**
 
-* [10+ Rust engineering positions available - Blockchain, Consensus, Rust Tooling](https://www.parity.io/jobs/)
+* [Several positions available (Berlin, DE and Remote)](https://www.parity.io/jobs/)
 
 **Esturary**
 
