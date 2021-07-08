@@ -28,6 +28,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Fluvio: The Programmable Data Platform](https://www.infinyon.com/blog/2021/06/introducing-fluvio/)
 * [butido - a Linux Package Building Tool in Rust](https://beyermatthias.de/butido-a-linux-package-building-tool-in-rust)
 * [Knurling-rs changelog #28](https://ferrous-systems.com/blog/knurling-changelog-28/)
+* [`fcp` 0.2.0 released - A significantly faster alternative to `cp`](https://github.com/Svetlitski/fcp)
+* [Announcing Sycamore v0.5.0 - SSR + Routing](https://sycamore-rs.netlify.app/news/announcing-v0.5.0)
 * [This Week In TensorBase 10](https://tensorbase.io/thisweek/2021-07-07-tw_10/)
 
 ### Observations/Thoughts
@@ -76,6 +78,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Feature: Doc template generator](https://github.com/getsynth/synth/issues/31)
 * [XML export / import](https://github.com/getsynth/synth/issues/32)
 * [Feature: CSV import/export](https://github.com/getsynth/synth/issues/33)
+
+**Sycamore**
+
+* [Sycamore has some good first issues](https://github.com/sycamore-rs/sycamore/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -216,6 +222,10 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
 * [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
+
+**Parity Technologies**
+
+* [Several positions available (Berlin, DE and Remote)](https://www.parity.io/jobs/)
 
 **Esturary**
 
