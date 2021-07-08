@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [MoonZoon Dev News (5): Chat example, MoonZoon Cloud](https://dev.to/martinkavik/moonzoon-dev-news-5-chat-example-moonzoon-cloud-5de4)
 * [Fluvio: The Programmable Data Platform](https://www.infinyon.com/blog/2021/06/introducing-fluvio/)
 * [butido - a Linux Package Building Tool in Rust](https://beyermatthias.de/butido-a-linux-package-building-tool-in-rust)
+* [Knurling-rs changelog #28](https://ferrous-systems.com/blog/knurling-changelog-28/)
 * [`fcp` 0.2.0 released - A significantly faster alternative to `cp`](https://github.com/Svetlitski/fcp)
 * [Announcing Sycamore v0.5.0 - SSR + Routing](https://sycamore-rs.netlify.app/news/announcing-v0.5.0)
 * [This Week In TensorBase 10](https://tensorbase.io/thisweek/2021-07-07-tw_10/)
