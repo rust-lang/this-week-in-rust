@@ -28,11 +28,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Fluvio: The Programmable Data Platform](https://www.infinyon.com/blog/2021/06/introducing-fluvio/)
 * [butido - a Linux Package Building Tool in Rust](https://beyermatthias.de/butido-a-linux-package-building-tool-in-rust)
 * [Knurling-rs changelog #28](https://ferrous-systems.com/blog/knurling-changelog-28/)
+* [This Week In TensorBase 10](https://tensorbase.io/thisweek/2021-07-07-tw_10/)
 
 ### Observations/Thoughts
 * [Walking through "The Java Tutorials" with Rust - 'What Is an Interface?' and specialization](https://rust-java-tutorials.netlify.app/blog/6-interfaces/)
 * [Rust and Tinyverse](https://tinyverse.substack.com/p/rust-and-tinyverse)
 * [Speeding Up the Webcola Graph Viz Library with Rust + WebAssembly](https://cprimozic.net/blog/speeding-up-webcola-with-webassembly/)
+* [Rust closures: How a closure can implement more than one trait](https://diaries.vercel.app/posts/closure-traits-rust/)
 
 ### Rust Walkthroughs
 * [Rust on the front-end](https://blog.frankel.ch/start-rust/5/)
