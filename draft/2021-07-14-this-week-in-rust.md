@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
++ [Why and how we wrote a compiler in Rust (blog post series 2/X): the stack](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-2-x-the-stack-548dad1919d0)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
