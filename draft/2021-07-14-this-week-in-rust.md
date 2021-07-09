@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+- [Announcing Arti, a pure-Rust Tor implementation](https://blog.torproject.org/announcing-arti)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
