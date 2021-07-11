@@ -32,6 +32,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Hello, Video Codec! - Demystify video codecs by writing one in ~100 lines of Rust](https://medium.com/tempus-ex/hello-video-codec-9937f64835bd)
 
+* [Learning Idiomatic Rust with FizzBuzz](https://www.fotonixx.com/posts/rust-fizzbuzz/)
+
 ### Miscellaneous
 
 ## Crate of the Week
