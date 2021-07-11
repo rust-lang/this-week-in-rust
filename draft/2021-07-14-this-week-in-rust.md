@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [series] [Why and how we wrote a compiler in Rust: Part 2](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-2-x-the-stack-548dad1919d0)
 
 ### Rust Walkthroughs
+* [Rust Nibbles : Gazebo - An introduction to the Gazebo library](https://developers.facebook.com/blog/post/2021/07/06/rust-nibbles-gazebo-dupe/)
 
 * [Host a wasm module on Raspberry Pi easily Part 1](https://blog.knoldus.com/host-a-wasm-module-on-raspberry-pi-easily-part-1/)
 
