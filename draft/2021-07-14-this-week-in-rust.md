@@ -18,11 +18,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
-- [Announcing Arti, a pure-Rust Tor implementation](https://blog.torproject.org/announcing-arti)
+* [Announcing Arti, a pure-Rust Tor implementation](https://blog.torproject.org/announcing-arti)
+* [Programmatic stream filtering using WebAssembly](https://www.infinyon.com/blog/2021/06/smartstream-filters/)
 
 ### Observations/Thoughts
 
+* [series] [Why and how we wrote a compiler in Rust: Part 2](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-2-x-the-stack-548dad1919d0)
+
 ### Rust Walkthroughs
+* [Rust Nibbles : Gazebo - An introduction to the Gazebo library](https://developers.facebook.com/blog/post/2021/07/06/rust-nibbles-gazebo-dupe/)
+
+* [Host a wasm module on Raspberry Pi easily Part 1](https://blog.knoldus.com/host-a-wasm-module-on-raspberry-pi-easily-part-1/)
 
 ### Miscellaneous
 
