@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Announcing Arti, a pure-Rust Tor implementation](https://blog.torproject.org/announcing-arti)
 * [Programmatic stream filtering using WebAssembly](https://www.infinyon.com/blog/2021/06/smartstream-filters/)
+* [This Week In TensorBase 11](https://tensorbase.io/thisweek/2021-07-14-tw_11/)
 
 ### Observations/Thoughts
 
