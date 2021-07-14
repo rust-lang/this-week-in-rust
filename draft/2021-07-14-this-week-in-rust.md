@@ -4,7 +4,7 @@ Date: 2021-07-14
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
-[Rust](http://rust-lang.org) is a systems language pursuing the trifecta: safety, concurrency, and speed.
+[Rust](http://rust-lang.org) is a programming language empowering everyone to build reliable and efficient software.
 This is a weekly summary of its progress and community.
 Want something mentioned? Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) or [send us a pull request](https://github.com/rust-lang/this-week-in-rust).
 Want to get involved? [We love contributions](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md).
@@ -20,25 +20,27 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Announcing Arti, a pure-Rust Tor implementation](https://blog.torproject.org/announcing-arti)
 * [Programmatic stream filtering using WebAssembly](https://www.infinyon.com/blog/2021/06/smartstream-filters/)
+* [This Week In TensorBase 11](https://tensorbase.io/thisweek/2021-07-14-tw_11/)
 
 ### Observations/Thoughts
 
 * [series] [Why and how we wrote a compiler in Rust: Part 2](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-2-x-the-stack-548dad1919d0)
 
 ### Rust Walkthroughs
+
 * [Rust Nibbles : Gazebo - An introduction to the Gazebo library](https://developers.facebook.com/blog/post/2021/07/06/rust-nibbles-gazebo-dupe/)
-
 * [Host a wasm module on Raspberry Pi easily Part 1](https://blog.knoldus.com/host-a-wasm-module-on-raspberry-pi-easily-part-1/)
-
 * [Hello, Video Codec! - Demystify video codecs by writing one in ~100 lines of Rust](https://medium.com/tempus-ex/hello-video-codec-9937f64835bd)
+
+* [Learning Idiomatic Rust with FizzBuzz](https://www.fotonixx.com/posts/rust-fizzbuzz/)
 
 ### Miscellaneous
 
 ## Crate of the Week
 
-This week's crate is [css-inline](https://github.com/Stranger6667/css-inline), a crate to inline CSS into `style` tags.
+This week's crate is [endbasic](https://www.endbasic.dev), an emulator friendly DOS / BASIC environment running on small hardware and the web.
 
-Thanks to [Dmitry Dygalo](https://users.rust-lang.org/t/crate-of-the-week/2704/931) for the suggestion.
+Thanks to [Julio Merino](https://users.rust-lang.org/t/crate-of-the-week/2704/935) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -57,55 +59,39 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from Rust Core
 
-297 pull requests were [merged in the last week][merged]
+254 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-06-28..2021-07-05
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-07-05..2021-07-12
 
-* [make `ForceWarn` a lint level](https://github.com/rust-lang/rust/pull/86009)
-* [change vtable memory representation to use `tcx` allocated allocations](https://github.com/rust-lang/rust/pull/86475)
-* [support allocation failures when interpreting MIR](https://github.com/rust-lang/rust/pull/86255)
-* [avoid byte to char position conversions in `is_multiline`](https://github.com/rust-lang/rust/pull/86778)
-* [fix pretty print for `loop`](https://github.com/rust-lang/rust/pull/86358)
-* [pretty-print macro matchers instead of using source code](https://github.com/rust-lang/rust/pull/86282)
-* [fix ICE when main is declared in an extern block](https://github.com/rust-lang/rust/pull/86190)
-* [ignore inference variables in certain queries](https://github.com/rust-lang/rust/pull/86866)
-* [check the number of generic lifetime and const parameters of intrinsics](https://github.com/rust-lang/rust/pull/86148)
-* [check node kind to avoid ICE in `check_expr_return()`](https://github.com/rust-lang/rust/pull/86728)
-* [deny using default function in impl const Trait](https://github.com/rust-lang/rust/pull/86571)
-* [fix garbled suggestion for missing lifetime specifier](https://github.com/rust-lang/rust/pull/86678)
-* [fix misleading "impl Trait" error](https://github.com/rust-lang/rust/pull/86666)
-* [alloc: `no_global_oom_handling`: disable `new()`s, `pin()`s, etc.](https://github.com/rust-lang/rust/pull/86810)
-* [add linked list cursor end methods](https://github.com/rust-lang/rust/pull/86714)
-* [stabilize `str::from_utf8_unchecked` as const](https://github.com/rust-lang/rust/pull/86213)
-* [stabilize `string_drain_as_str`](https://github.com/rust-lang/rust/pull/86858)
-* [stabilize `Bound::cloned()`](https://github.com/rust-lang/rust/pull/86797)
-* [stabilize `Seek::rewind()`](https://github.com/rust-lang/rust/pull/86794)
-* [when using `process::Command` on Windows, environment variable names must be case-preserving but case-insensitive](https://github.com/rust-lang/rust/pull/85270)
-* [add `track_path::path` fn for usage in `proc_macro`s](https://github.com/rust-lang/rust/pull/84029)
-* [libm: optimize `round` and `roundf`](https://github.com/rust-lang/libm/pull/253)
-* [cargo: adjust error message with `offline` and `frozen`](https://github.com/rust-lang/cargo/pull/9644)
-* [clippy: stabilize `cargo clippy --fix`](https://github.com/rust-lang/rust-clippy/pull/7405)
-* [clippy: downgrade `nonstandard_macro_braces` to nursery](https://github.com/rust-lang/rust-clippy/pull/7424)
-* [clippy: don't suggest `doc(hidden)` or unstable variants in wildcard lint](https://github.com/rust-lang/rust-clippy/pull/7407)
-* [clippy: fix emitting in nested (`proc_`)`macro`s for `nonstandard_macro_braces` lint](https://github.com/rust-lang/rust-clippy/pull/7431)
-* [clippy: fix `doc_markdown` false positive](https://github.com/rust-lang/rust-clippy/pull/7426)
-* [clippy: new lint: `rc_mutex`](https://github.com/rust-lang/rust-clippy/pull/7316)
-* [clippy: new lint: `strlen_on_c_strings`](https://github.com/rust-lang/rust-clippy/pull/7243)
-* [clippy: new lint: `disallowed_script_idents`](https://github.com/rust-lang/rust-clippy/pull/7400)
+* [improve opaque pointers support](https://github.com/rust-lang/rust/pull/86873)
+* [recover from `&dyn mut` ... parse errors](https://github.com/rust-lang/rust/pull/86812)
+* [improve error reporting for modifications behind `&` references](https://github.com/rust-lang/rust/pull/86815)
+* [do not suggest adding a semicolon after ?](https://github.com/rust-lang/rust/pull/87061)
+* [use `#[track_caller]` in const panic diagnostics](https://github.com/rust-lang/rust/pull/87000)
+* [query-ify global limit attribute handling](https://github.com/rust-lang/rust/pull/86674)
+* [support forwarding caller location through trait object method call](https://github.com/rust-lang/rust/pull/81360)
+* [shrink the deprecated span](https://github.com/rust-lang/rust/pull/86320)
+* [report an error if resolution of closure call functions failed](https://github.com/rust-lang/rust/pull/86249)
+* [stabilize `RangeFrom` patterns in 1.55](https://github.com/rust-lang/rust/pull/83918)
+* [account for capture kind in auto traits migration](https://github.com/rust-lang/rust/pull/86869)
+* [stop generating `alloca`s & `memcmp` for simple short array equality](https://github.com/rust-lang/rust/pull/85828)
+* [inline `Iterator as IntoIterator`](https://github.com/rust-lang/rust/pull/84560)
+* [optimize unchecked indexing into `chunks` and 'chunks_mut`](https://github.com/rust-lang/rust/pull/86823)
+* [add `Integer::log` variants](https://github.com/rust-lang/rust/pull/80918)
+* [special case for integer log10](https://github.com/rust-lang/rust/pull/869309)
+* [cargo: unify cargo and rustc's error reporting](https://github.com/rust-lang/cargo/pull/9655)
+* [rustdoc: fix rendering of reexported macros 2.0 and fix visibility of reexported items](https://github.com/rust-lang/rust/pull/86841)
 
 ### Rust Compiler Performance Triage
 
-A fairly mixed week with improvements and regressions mostly balancing themselves out. The highlight of this week is we have now started to adopt a new performance triage process which will label PRs that introduce performance regressions with the `perf-regression` label. Authors and/or reviewers are expected to justify their performance regression either by a short summary of why the change is worth it despite the regression or by creating an issue to follow-up on the regression.
+Mostly quiet week; improvements outweighed regressions.
 
-We hope this process will lead to better compiler performance in the long term.
+Triage done by **@simulacrum**.
+Revision range: [9a27044f4..5aff6dd](https://perf.rust-lang.org/?start=9a27044f42ace9eb652781b53f598e25d4e7e918&end=5aff6dd07a562a2cba3c57fc3460a72acb6bef46&absolute=false&stat=instructions%3Au)
 
-Triage done by **@rylev**.
-Revision range: [5a78340..9a27044](https://perf.rust-lang.org/?start=5a7834050f3a0ebcd117b4ddf0bc1e8459594309&end=9a27044f42ace9eb652781b53f598e25d4e7e918&absolute=false&stat=instructions%3Au)
+1 Regressions, 4 Improvements, 0 Mixed; 0 of them in rollups
 
-2 Regressions, 3 Improvements, 2 Mixed
-1 of them in rollups
-
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-07-06.md).
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-07-13.md).
 
 ### Approved RFCs
 
@@ -136,7 +122,7 @@ decision. Express your opinions now.
 * [disposition: merge] [Remove P: Unpin bound on impl Future for Pin](https://github.com/rust-lang/rust/pull/81363)
 * [disposition: merge] [Tracking Issue for IntoInnerError::into_parts etc. (io_into_inner_error_parts)](https://github.com/rust-lang/rust/issues/79704)
 * [disposition: merge] [Tracking Issue for array_map](https://github.com/rust-lang/rust/issues/75243)
-* [disposition: merge] [Tracking issue for #![feature(maybe_uninit_extra)] ](https://github.com/rust-lang/rust/issues/63567)
+* [disposition: merge] [Tracking issue for #![feature(maybe_uninit_extra)](https://github.com/rust-lang/rust/issues/63567)
 
 ### New RFCs
 
@@ -171,6 +157,12 @@ Email the [Rust Community Team][community] for access.
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
 * [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
 
+**Kollider**
+
+* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
+* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
+* [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
+
 **Tempus Ex**
 
 * [Several positions available (San Francisco, Atlanta, and Remote)](https://tempus-ex.com/careers)
@@ -179,11 +171,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> One thing I like about Rust is that it filters out lazy/sloppy thinkers. Even when I disagree with another Rust programmer, there is a certain level of respect that comes from knowing that they thought about the problem deeply enough to pass the borrow checker.
+> Beginning Rust: Uh why does the compiler stop me from doing things this is horrible
+>
+> Advanced Rust: Ugh why doesn't the compiler stop me from doing things this is horrible
 
-– [Zeroexcuses on rust-users](https://users.rust-lang.org/t/what-is-you-elevator-pitch-for-rust/61713/7?u=llogiq)
+– [qDot on twitter](https://twitter.com/qDot/status/1412536312150716416)
 
-Thanks to [Jonah](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1070) for the self-suggestion!
+Thanks to [Nixon Enraght-Moony](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1074) for the self-suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
