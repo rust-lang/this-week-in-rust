@@ -26,6 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [series] [Learning Rust #6: Understanding ownership in Rust](https://hamatti.org/posts/learning-rust-6-ownership/)
 * [series] [Why and how we wrote a compiler in Rust: Part 2](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-2-x-the-stack-548dad1919d0)
 
 ### Rust Walkthroughs
@@ -155,6 +156,18 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**GraphCDN**
+
+* [Senior Rust Engineer (Remote)](https://jobs.lever.co/GraphCDN/93b9a4fc-cf56-46c4-9fad-d7b254bd20df)
+
+**Netlify**
+
+* [Senior Backend Engineer (Go/Rust) (Remote or San Francisco, CA, US)](https://arbeitnow.com/view/senior-backend-engineer-gorust-netlify-181900)
+
+**ChainSafe Systems**
+
+* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
 **NZXT**
 
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
@@ -170,9 +183,10 @@ Email the [Rust Community Team][community] for access.
 
 * [Several positions available (San Francisco, Atlanta, and Remote)](https://tempus-ex.com/careers)
 
-**ChainSafe Systems**
+**Estuary**
 
-* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+* [Several positions available (New York, NY, US or Columbus, OH, US)](https://www.estuary.dev/careers)
+
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
