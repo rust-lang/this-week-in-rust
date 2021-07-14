@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Announcing Arti, a pure-Rust Tor implementation](https://blog.torproject.org/announcing-arti)
 * [Programmatic stream filtering using WebAssembly](https://www.infinyon.com/blog/2021/06/smartstream-filters/)
 * [ChainSafe's Filecoin Rust implementation "Forest" project update](https://medium.com/chainsafe-systems/forest-growth-d26998a3da61)
+* [ChainSafe's Mina Rust implementation update: Web 3.0 with Rust x Wasm](https://bit.ly/2TaFTF3)
 
 ### Observations/Thoughts
 
