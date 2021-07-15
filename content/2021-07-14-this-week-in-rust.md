@@ -115,7 +115,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [inline `Iterator as IntoIterator`](https://github.com/rust-lang/rust/pull/84560)
 * [optimize unchecked indexing into `chunks` and 'chunks_mut`](https://github.com/rust-lang/rust/pull/86823)
 * [add `Integer::log` variants](https://github.com/rust-lang/rust/pull/80918)
-* [special case for integer log10](https://github.com/rust-lang/rust/pull/869309)
+* [special case for integer log10](https://github.com/rust-lang/rust/pull/86930)
 * [cargo: unify cargo and rustc's error reporting](https://github.com/rust-lang/cargo/pull/9655)
 * [rustdoc: fix rendering of reexported macros 2.0 and fix visibility of reexported items](https://github.com/rust-lang/rust/pull/86841)
 
