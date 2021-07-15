@@ -78,6 +78,18 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+**Synth**
+
+* [Specify collections on import](https://github.com/getsynth/synth/issues/45)
+* [Add tests for examples (i.e. bank_db)](https://github.com/getsynth/synth/issues/44)
+* [Implemented a converter for timestamptz](https://github.com/getsynth/synth/issues/35)
+* [Feature: Doc template generator](https://github.com/getsynth/synth/issues/31)
+
+**Forest**
+
+* [Cleanup net peers output](https://github.com/ChainSafe/forest/issues/1184)
+* [FOREST_CONFIG_PATH env var](https://github.com/ChainSafe/forest/issues/1191)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -123,7 +135,7 @@ Revision range: [9a27044f4..5aff6dd](https://perf.rust-lang.org/?start=9a27044f4
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [RFC: I/O Safety](https://github.com/rust-lang/rfcs/pull/3128)
 
 ### Final Comment Period
 
@@ -133,41 +145,44 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [RFC: let-else statements](https://github.com/rust-lang/rfcs/pull/3137)
-* [disposition: merge] [RFC: I/O Safety](https://github.com/rust-lang/rfcs/pull/3128)
-* [disposition: merge] [`#[derive(Default)]` on enums with a `#[default]` attribute](https://github.com/rust-lang/rfcs/pull/3107)
+*No RFCs are currently in the final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Move assert_matches to an inner module](https://github.com/rust-lang/rust/pull/86947)
+* [disposition: merge] [Stabilize arbitrary_enum_discriminant](https://github.com/rust-lang/rust/pull/86860)
+* [disposition: close] [regression: infallible residual could not convert error](https://github.com/rust-lang/rust/issues/86831)
+* [disposition: merge] [Document iteration order of retain functions](https://github.com/rust-lang/rust/pull/86790)
+* [disposition: merge] [Partially stabilize const_slice_first_last](https://github.com/rust-lang/rust/pull/86593)
 * [disposition: merge] [Stabilize const_fn_transmute, const_fn_union](https://github.com/rust-lang/rust/pull/85769)
-* [disposition: merge] [Stabilize bindings_after_at](https://github.com/rust-lang/rust/pull/85305)
+* [disposition: merge] [Allow leading pipe in matches!() patterns.](https://github.com/rust-lang/rust/pull/85272)
 * [disposition: close] [Add expr202x macro pattern](https://github.com/rust-lang/rust/pull/84364)
-* [disposition: merge] [Stabilize `impl From<[(K, V); N]>` for HashMap (and friends)](https://github.com/rust-lang/rust/pull/84111)
-* [disposition: merge] [Stabilize "RangeFrom" patterns in 1.55](https://github.com/rust-lang/rust/pull/83918)
 * [disposition: merge] [Remove P: Unpin bound on impl Future for Pin](https://github.com/rust-lang/rust/pull/81363)
+* [disposition: merge] [Stabilize core::task::if_ready!](https://github.com/rust-lang/rust/pull/81050)
 * [disposition: merge] [Tracking Issue for IntoInnerError::into_parts etc. (io_into_inner_error_parts)](https://github.com/rust-lang/rust/issues/79704)
-* [disposition: merge] [Tracking Issue for array_map](https://github.com/rust-lang/rust/issues/75243)
-* [disposition: merge] [Tracking issue for #![feature(maybe_uninit_extra)](https://github.com/rust-lang/rust/issues/63567)
+* [disposition: close] [Implement RFC 2500 Needle API (Part 1)](https://github.com/rust-lang/rust/pull/76901)
 
 ### New RFCs
 
-*No new RFCs were proposed this week.*
+* [RFC: map_or_default in Option and Result](https://github.com/rust-lang/rfcs/pull/3148)
+* [Cargo feature migrations](https://github.com/rust-lang/rfcs/pull/3146)
 
 ## Upcoming Events
 
 ### Online
 
-* [July 7, 2021, Denver, CO, US - End-to-end Encrypted Messaging in Rust, with Ockam by Mrinal Wadhwa - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/277633525/)
-* [July 8, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
-* [July 13, 2021, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycckbrb/)
 * [July 14, 2021, Malaysia - Rust Meetup July 2021 - Golang Malaysia, feat Rustlang, Erlang, Haskelllang and `.*-?(lang|script)\`](https://docs.google.com/forms/d/e/1FAIpQLSdoVbexvU3TZox1D9yLKPUggeTuih7TEDR6eaFQGTEgJtXZ5g/viewform)
 * [July 14, 2021, Dublin, IE - Rust Dublin July Remote Meetup - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/278698763/)
 * [July 20, 2021, Washington, DC, US - Mid-month Rustful - Rust DC](https://www.meetup.com/RustDC/events/vdhxgsycckbbc/)
 * [July 21, 2021, Vancouver, BC, CA - Rust Adoption at Huawei - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsycckbcc/)
+* [July 22, 2021, Tokyo, JP - Rust LT Online#4 - Rust JP](https://www.youtube.com/watch?v=oK0iJz7XF3Y)
+* [July 22, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
+* [July 27, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrycckbkc/)
 
 ### North America
 
 * [July 14, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgrycckbsb/)
+* [July 27, 2021, Chicago, IL, US - Rust in production at Tempus - Chicago Rust Meetup](https://www.meetup.com/Chicago-Rust-Meetup/events/279131036)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
