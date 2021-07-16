@@ -2161,3 +2161,43 @@ Number: 398  Date: 2021-07-07
 * [video] [1Password Developer Fireside Chat: Dive into Async & Futures in Rust](https://www.youtube.com/watch?v=HrxwOUVzyDU)
 ### Miscellaneous
 
+Number: 399  Date: 2021-07-14 
+
+### Official
+### Newsletters
+* [This Month in Rust GameDev #23 - June 2021](https://gamedev.rs/news/023/)
+* [This Month in Rust OSDev (June 2021)](https://rust-osdev.com/this-month/2021-06/)
+### Project/Tooling Updates
+* [Announcing Arti, a pure-Rust Tor implementation](https://blog.torproject.org/announcing-arti)
+* [Programmatic stream filtering using WebAssembly](https://www.infinyon.com/blog/2021/06/smartstream-filters/)
+* [Filecoin Rust implementation "Forest" project update](https://medium.com/chainsafe-systems/forest-growth-d26998a3da61)
+* [Mina Rust implementation update: Web 3.0 with Rust x Wasm](https://medium.com/chainsafe-systems/mina-wasm-benefits-for-web-3-0-3d25991c3b75)
+* [This Week In TensorBase 11](https://tensorbase.io/thisweek/2021-07-14-tw_11/)
+* [Rust Analyzer Changelog #85](https://rust-analyzer.github.io/thisweek/2021/07/12/changelog-85.html)
+### Observations/Thoughts
+* [(Risp (in (Rust) (Lisp)))](https://stopachka.essay.dev/post/5/risp-in-rust-lisp)
+* [series] [Learning Rust #6: Understanding ownership in Rust](https://hamatti.org/posts/learning-rust-6-ownership/)
+* [series] [Why and how we wrote a compiler in Rust: Part 2](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-2-x-the-stack-548dad1919d0)
+* [audio] [What's New in Rust 1.52 and 1.53](https://rustacean-station.org/episode/034-rust-1.52-1.53/)
+### Rust Walkthroughs
+* [Inline In Rust](https://matklad.github.io//2021/07/09/inline-in-rust.html)
+* [Using WebAssembly threads from C, C++ and Rust](https://web.dev/webassembly-threads/)
+* [Host a wasm module on Raspberry Pi easily Part 1](https://blog.knoldus.com/host-a-wasm-module-on-raspberry-pi-easily-part-1/)
+* [Hello, Video Codec! - Demystify video codecs by writing one in ~100 lines of Rust](https://medium.com/tempus-ex/hello-video-codec-9937f64835bd)
+* [Learning Idiomatic Rust with FizzBuzz](https://www.fotonixx.com/posts/rust-fizzbuzz/)
+* [Rust + Tauri + Svelte Tutorial](https://jbarszczewski.com/rust-tauri-svelte-tutorial)
+* [Rust Nibbles : Gazebo - An introduction to the Gazebo library](https://developers.facebook.com/blog/post/2021/07/06/rust-nibbles-gazebo-dupe/)
+* [A Rust controller for Kubernetes](https://blog.frankel.ch/start-rust/6/)
+* [First steps with Docker + Rust](https://dev.to/rogertorres/first-steps-with-docker-rust-30oi)
+* [series] [Writing an RPG using rg3d - #1 - Character Controller](https://rg3d.rs/tutorials/2021/07/09/rpg-tutorial1.html)
+* [series] [Rust #4: Options and Results (Part 2)](https://dev.to/cthutu/rust-4-options-and-results-part-2-5aca)
+* [series] [Basic CRUD with rust using tide - refactoring](https://dev.to/pepoviola/basic-crud-with-rust-using-tide-refactoring-2meb)
+* [video] [End-to-end Encrypted Messaging in Rust, with Ockam by Mrinal Wadhwa](https://www.youtube.com/watch?v=jKvIeQFZKLc)
+* [video] [series] [Building a Web Application with Rust - Part IX - Deploying on Kubernetes](https://www.youtube.com/watch?v=bK542nqn8I0)
+* [video] [series] [ULTIMATE Rust Lang Tutorial! - Smart Pointers Part 1](https://www.youtube.com/watch?v=m76sRj2VgGo)
+* [video] [series] [Implementing Hazard Pointers in Rust (part 2)](https://www.youtube.com/watch?v=_LK7qvBWNYo)
+### Papers
+* [Is Rust Used Safely by Software Developers?](https://arxiv.org/abs/2007.00752)
+### Miscellaneous
+* [Introducing hyperfunctions: new SQL functions to simplify working with time-series data in PostgreSQL](https://blog.timescale.com/blog/introducing-hyperfunctions-new-sql-functions-to-simplify-working-with-time-series-data-in-postgresql/?utm_source=timescaledb&utm_medium=social&utm_campaign=hyperfunctions-1-0-release&utm_content=blog-introducing-hyperfunctions)
+
