@@ -33,6 +33,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+- [Knurling-rs user survey](https://forms.office.com/r/aMfHG79N9K)
+
 ## Crate of the Week
 
 This week's crate is [endbasic](https://www.endbasic.dev), an emulator friendly DOS / BASIC environment running on small hardware and the web.
