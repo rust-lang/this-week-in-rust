@@ -156,6 +156,9 @@ Email the [Rust Community Team][community] for access.
 **PolarFox Network**
 * [Senior Rust Engineer (Remote)](https://jro-ventures.breezy.hr/p/0c1d3630d39d)
 
+**CNRS**
+* [Rust Software Engineer in AI research applied to Robotics (Toulouse, France)](https://emploi.cnrs.fr/Offres/CDD/UPR8001-ARTBIT-004/Default.aspx?lang=EN)
+
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
