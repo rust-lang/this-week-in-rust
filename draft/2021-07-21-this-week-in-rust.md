@@ -156,6 +156,8 @@ Email the [Rust Community Team][community] for access.
 **PolarFox Network**
 * [Senior Rust Engineer (Remote)](https://jro-ventures.breezy.hr/p/0c1d3630d39d)
 
+**Immunant**
+* [Systems Programmer/Rustacean (Optionally Remote)](https://immunant.com/jobs/)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
