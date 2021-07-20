@@ -159,6 +159,8 @@ Email the [Rust Community Team][community] for access.
 **CNRS**
 * [Rust Software Engineer in AI research applied to Robotics (Toulouse, France)](https://emploi.cnrs.fr/Offres/CDD/UPR8001-ARTBIT-004/Default.aspx?lang=EN)
 
+**The Mobility House GmbH**
+* [Senior Software Engineer - Rust m/f/d (Remote / Germany)](https://germantechjobs.de/jobs/The-Mobility-House-GmbH-Senior-Software-Engineer-mfd)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
