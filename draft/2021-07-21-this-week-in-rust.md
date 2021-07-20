@@ -30,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [How to implement worker pools in Rust](https://kerkour.com/blog/rust-worker-pool/)
 * [Host a Wasm module easily on Raspberry Pi Part 2](https://blog.knoldus.com/host-a-wasm-module-easily-on-raspberry-pi-part-2/)
 
 ### Papers
