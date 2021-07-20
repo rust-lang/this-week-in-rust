@@ -176,6 +176,10 @@ Email the [Rust Community Team][community] for access.
 **Immunant**
 * [Systems Programmer/Rustacean (Optionally Remote)](https://immunant.com/jobs/)
 
+**Tempus Ex**
+
+* [Several positions available (San Francisco, Atlanta, and Remote)](https://tempus-ex.com/careers?r=twir)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
