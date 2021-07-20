@@ -26,6 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
  - [Compiling Rust is NP-hard](https://niedzejkob.p4.team/rust-np/)
+ - [How we improved the performance of our Rust app](https://www.poor.dev/blog/performance/)
 
 ### Rust Walkthroughs
 
