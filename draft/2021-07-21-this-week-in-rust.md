@@ -159,6 +159,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Modeldrive**
+* [Tech Lead (London / Remote)](https://www.modeldrive.com/jobs)
+* [Senior Backend Engineer (London / Remote)](https://www.modeldrive.com/jobs)
+
 **NZXT**
 
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
