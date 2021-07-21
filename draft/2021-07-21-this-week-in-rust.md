@@ -114,9 +114,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Knurling-rs user survey](https://forms.office.com/r/aMfHG79N9K)
+* [Rust.Tokyo 2021](https://www.papercall.io/rusttokyo2021)
 * [Helix editor icon/logo brainstorm](https://github.com/helix-editor/helix/issues/283)
 * [Ockam welcomes new contributors!](https://github.com/ockam-network/ockam/discussions/1081)
-* [Rust.Tokyo 2021](https://www.papercall.io/rusttokyo2021)
+* [Forest - Cleanup net peers output](https://github.com/ChainSafe/forest/issues/1184)
+* [Forest - FOREST_CONFIG_PATH env var](https://github.com/ChainSafe/forest/issues/1191)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -171,7 +173,7 @@ Revision range: [9a27044f4..5aff6dd](https://perf.rust-lang.org/?start=9a27044f4
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC: I/O Safety](https://github.com/rust-lang/rfcs/pull/3128)
+* [RFC: let-else statements](https://github.com/rust-lang/rfcs/pull/3137)
 
 ### Final Comment Period
 
@@ -181,43 +183,33 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in the final comment period.*
+* [Stabilize Cargo's weak-dep-features and namespaced-features.](https://github.com/rust-lang/rfcs/pull/3143)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Move assert_matches to an inner module](https://github.com/rust-lang/rust/pull/86947)
 * [disposition: merge] [Stabilize arbitrary_enum_discriminant](https://github.com/rust-lang/rust/pull/86860)
 * [disposition: close] [regression: infallible residual could not convert error](https://github.com/rust-lang/rust/issues/86831)
-* [disposition: merge] [Document iteration order of retain functions](https://github.com/rust-lang/rust/pull/86790)
-* [disposition: merge] [Partially stabilize const_slice_first_last](https://github.com/rust-lang/rust/pull/86593)
-* [disposition: merge] [Stabilize const_fn_transmute, const_fn_union](https://github.com/rust-lang/rust/pull/85769)
-* [disposition: merge] [Allow leading pipe in matches!() patterns.](https://github.com/rust-lang/rust/pull/85272)
-* [disposition: close] [Add expr202x macro pattern](https://github.com/rust-lang/rust/pull/84364)
-* [disposition: merge] [Remove P: Unpin bound on impl Future for Pin](https://github.com/rust-lang/rust/pull/81363)
+* [disposition: merge] [Allow reifying intrinsics to fn pointers.](https://github.com/rust-lang/rust/pull/86699)
+* [disposition: merge] [Commit to not supporting IPv4-in-IPv6 addresses](https://github.com/rust-lang/rust/pull/86335)
 * [disposition: merge] [Stabilize core::task::if_ready!](https://github.com/rust-lang/rust/pull/81050)
-* [disposition: merge] [Tracking Issue for IntoInnerError::into_parts etc. (io_into_inner_error_parts)](https://github.com/rust-lang/rust/issues/79704)
 * [disposition: close] [Implement RFC 2500 Needle API (Part 1)](https://github.com/rust-lang/rust/pull/76901)
 
 ### New RFCs
 
-* [RFC: map_or_default in Option and Result](https://github.com/rust-lang/rfcs/pull/3148)
-* [Cargo feature migrations](https://github.com/rust-lang/rfcs/pull/3146)
+* [Scoped threads in the standard library, take 2](https://github.com/rust-lang/rfcs/pull/3151)
 
 ## Upcoming Events
 
 ### Online
 
-* [July 14, 2021, Malaysia - Rust Meetup July 2021 - Golang Malaysia, feat Rustlang, Erlang, Haskelllang and `.*-?(lang|script)\`](https://docs.google.com/forms/d/e/1FAIpQLSdoVbexvU3TZox1D9yLKPUggeTuih7TEDR6eaFQGTEgJtXZ5g/viewform)
-* [July 14, 2021, Dublin, IE - Rust Dublin July Remote Meetup - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/278698763/)
-* [July 20, 2021, Washington, DC, US - Mid-month Rustful - Rust DC](https://www.meetup.com/RustDC/events/vdhxgsycckbbc/)
 * [July 21, 2021, Vancouver, BC, CA - Rust Adoption at Huawei - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsycckbcc/)
 * [July 22, 2021, Tokyo, JP - Rust LT Online#4 - Rust JP](https://www.youtube.com/watch?v=oK0iJz7XF3Y)
 * [July 22, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 * [July 27, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrycckbkc/)
+* [August 3, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/jxfdjsycclbfb/)
 
 ### North America
 
-* [July 14, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgrycckbsb/)
 * [July 27, 2021, Chicago, IL, US - Rust in production at Tempus - Chicago Rust Meetup](https://www.meetup.com/Chicago-Rust-Meetup/events/279131036)
 
 If you are running a Rust event please add it to the [calendar] to get
