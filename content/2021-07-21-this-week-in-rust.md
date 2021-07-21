@@ -222,54 +222,69 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 **The Tor Project**
+
 * [Software Developer, Rust](https://www.torproject.org/about/jobs/rust-dev/)
 
 **Anixe**
+
 * [Architect/Senior Rust Software Engineer (Wrocław, PL)](https://anixe.bamboohr.com/jobs/view.php?id=154)
 * [Junior Rust Software Engineer (Wrocław, PL)](https://anixe.bamboohr.com/jobs/view.php?id=152)
 
 **Snapview**
+
 * [(Senior) Rust Backend Engineer (m/f/d) (Remote)](https://snapview.jobs.personio.de/job/381815)
 
 **Luminovo**
+
 * [(Senior) Software Engineer - Rust (m/f/d) (Munich, DE / Remote)](https://arbeitnow.com/view/senior-software-engineer-rust-mfd-luminovo-gmbh-55556)
 
 **Clear**
+
 * [Rust Engineer (Remote)](https://docs.google.com/document/d/1OuG5Ts_6s4eWO6CXGzcbklOweD7qGnOgADnSoPjEa10/edit)
 
+**ChainSafe**
+
+* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
+**PolarFox Network**
+
+* [Senior Rust Engineer (Remote)](https://jro-ventures.breezy.hr/p/0c1d3630d39d)
+
+**CNRS**
+
+* [Rust Software Engineer in AI research applied to Robotics (Toulouse, FR)](https://emploi.cnrs.fr/Offres/CDD/UPR8001-ARTBIT-004/Default.aspx?lang=EN)
+
+**The Mobility House GmbH**
+
+* [Senior Software Engineer - Rust m/f/d (Remote / Germany)](https://germantechjobs.de/jobs/The-Mobility-House-GmbH-Senior-Software-Engineer-mfd)
+
+**Immunant**
+
+* [Systems Programmer/Rustacean (Optionally Remote)](https://immunant.com/jobs/)
+
+**Wingback**
+
+* [Senior Backend Developer - Rust 🦀 (Fully Remote)](https://careers.wingback.app/o/senior-backend-developer-rust-remote)
+
 **Modeldrive**
+
 * [Tech Lead (London / Remote)](https://www.modeldrive.com/jobs)
 * [Senior Backend Engineer (London / Remote)](https://www.modeldrive.com/jobs)
 
+**NZXT**
+
+* [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
+* [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
+
 **Kollider**
+
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 * [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 * [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
 
-**NZXT**
-* [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
-* [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
-
-**PolarFox Network**
-* [Senior Rust Engineer (Remote)](https://jro-ventures.breezy.hr/p/0c1d3630d39d)
-
-**CNRS**
-* [Rust Software Engineer in AI research applied to Robotics (Toulouse, FR)](https://emploi.cnrs.fr/Offres/CDD/UPR8001-ARTBIT-004/Default.aspx?lang=EN)
-
-**The Mobility House GmbH**
-* [Senior Software Engineer - Rust m/f/d (Remote / Germany)](https://germantechjobs.de/jobs/The-Mobility-House-GmbH-Senior-Software-Engineer-mfd)
-
-**Immunant**
-* [Systems Programmer/Rustacean (Optionally Remote)](https://immunant.com/jobs/)
-
-**Wingback**
-* [Senior Backend Developer - Rust 🦀 (Fully Remote)](https://careers.wingback.app/o/senior-backend-developer-rust-remote)
-
 **Tempus Ex**
-* [Several positions available (San Francisco, Atlanta, Austin, and Remote)](https://tempus-ex.com/careers?r=twir)
 
-**ChainSafe**
-* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+* [Several positions available (San Francisco, Atlanta, Austin, and Remote)](https://tempus-ex.com/careers?r=twir)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
