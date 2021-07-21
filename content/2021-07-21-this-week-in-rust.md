@@ -225,11 +225,6 @@ Email the [Rust Community Team][community] for access.
 
 * [Software Developer, Rust](https://www.torproject.org/about/jobs/rust-dev/)
 
-**Anixe**
-
-* [Architect/Senior Rust Software Engineer (Wrocław, PL)](https://anixe.bamboohr.com/jobs/view.php?id=154)
-* [Junior Rust Software Engineer (Wrocław, PL)](https://anixe.bamboohr.com/jobs/view.php?id=152)
-
 **Snapview**
 
 * [(Senior) Rust Backend Engineer (m/f/d) (Remote)](https://snapview.jobs.personio.de/job/381815)
@@ -265,6 +260,11 @@ Email the [Rust Community Team][community] for access.
 **Wingback**
 
 * [Senior Backend Developer - Rust 🦀 (Fully Remote)](https://careers.wingback.app/o/senior-backend-developer-rust-remote)
+
+**Anixe**
+
+* [Architect/Senior Rust Software Engineer (Wrocław, PL)](https://anixe.bamboohr.com/jobs/view.php?id=154)
+* [Junior Rust Software Engineer (Wrocław, PL)](https://anixe.bamboohr.com/jobs/view.php?id=152)
 
 **Modeldrive**
 
