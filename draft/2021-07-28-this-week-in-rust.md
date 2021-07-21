@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Project/Tooling Updates
+* [`fcp` 0.2.1 released - A significantly faster alternative to `cp`](https://github.com/Svetlitski/fcp/releases/tag/v0.2.1)
 
 ### Observations/Thoughts
 
