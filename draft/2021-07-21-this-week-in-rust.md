@@ -12,6 +12,40 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/rust-lang/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
+## Issue 400!
+
+We are so happy to have reached issue 400 of *This Week in Rust*! To mark this occasion, we would like to introduce you to your editors who put these issues together for you every week!
+
+### Current Editors
+
+**Nell Shamrell-Harrington**
+
+Hello everyone! I'm Nell Shamrell-Harrington ([nellshamrell](https://github.com/nellshamrell/) on GitHub). I've served as lead editor of This Week in Rust for a little over a year now. Currently, I work as a Principal Engineer at Microsoft, prior to that I was on the Rust team at Mozilla. I also am a member of the Rust Foundation Board of Directors. My greatest joy in editing This Week in Rust is seeing how dedicated Rustaceans are to teaching and passing on what they have learned. We are a community where personal maturity and empathy are as important as technical excellence. When I'm not working, I'm often caring for and playing with my three pet bunnies - Lucy, Leia, and Noah!
+
+**Andre Bogus**
+
+Greetings, Rustaceans! I'm Andre 'llogiq' Bogus, and I've been editing TWiR since 2016. I currently work with [synth](https://getsynth.com), my third Job using Rust. I am one of the first clippy maintainers, a mod team member, a [Rust bard](https://twitter.com/llogiq) and I have several crates to my name. I'm always amused with the quotes you folks suggest, and like being on top of the merged PRs, so I know what's coming in the next Rust versions. Besides Rust, I like making music, biking, skateboarding and spending time with my wife, three kids and cat.
+
+**Colton Donnelly**
+
+Good morning to all of you fellow Rustaceans! I'm Colton Donnelly (usually under the screen name cdmistman), and I've been editing TWiR since May 2020. I'm currently a co-op working on the [Alan](https://alan-lang.org) programming language, which uses Rust in the runtime - this is the second time I've had an internship using Rust! I've really enjoyed reading all of your Rust blog posts and articles over the past year (and practicing my speed-reading while I'm at it), it's been awesome seeing how much knowledge y'all like to share. When I'm not coding, I'm usually playing games with friends or binge-watching shows.
+
+### Past Editors
+
+Thank you so much to all who have edited This Week in Rust over the years!
+
+* [emberian](https://github.com/emberian)
+* [brson](https://github.com/brson)
+* [nasa42](https://github.com/nasa42)
+* [Flavsditz](https://github.com/Flavsditz)
+* [srikwit](https://github.com/srikwit)
+* [mdinger](https://github.com/mdinger)
+* [BurntSushi](https://github.com/BurntSushi)
+
+### Thank YOU
+
+And a special thank you to all who have contributed to This Week in Rust and every single one of our subscribers and readers! Here is to many more issues!
+
 ## Updates from Rust Community
 
 No newsletters or papers this week.
