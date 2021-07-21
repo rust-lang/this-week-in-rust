@@ -178,7 +178,7 @@ Email the [Rust Community Team][community] for access.
 
 **Tempus Ex**
 
-* [Several positions available (San Francisco, Atlanta, and Remote)](https://tempus-ex.com/careers?r=twir)
+* [Several positions available (San Francisco, Atlanta, Austin, and Remote)](https://tempus-ex.com/careers?r=twir)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
