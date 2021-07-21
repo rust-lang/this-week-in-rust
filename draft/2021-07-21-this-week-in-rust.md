@@ -22,6 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Franzplot: a teaching software (re)written in Rust](https://gfx-rs.github.io/stories/franzplot.html)
 * [wgpu: release of v0.9 and the future](https://gfx-rs.github.io/2021/07/16/release-0.9-future.html)
+* [Allsorts: Font Shaping Engine 0.6 Release](https://yeslogic.com/blog/allsorts-rust-font-shaping-engine-0-6/)
 
 ### Observations/Thoughts
 
