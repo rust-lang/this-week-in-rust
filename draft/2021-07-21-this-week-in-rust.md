@@ -14,12 +14,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-### Official
+No newsletters or papers this week.
 
-### Newsletters
+### Official
+* [Rust 2021 public testing period](https://blog.rust-lang.org/2021/07/21/Rust-2021-public-testing.html)
 
 ### Project/Tooling Updates
-
+* [IntelliJ Rust Changelog #151](https://intellij-rust.github.io/2021/07/19/changelog-151.html)
+* [rust-analyzer Changelog #86](https://rust-analyzer.github.io/thisweek/2021/07/19/changelog-86.html)
+* [Announcing tokio-uring: io-uring support for Tokio](https://tokio.rs/blog/2021-07-tokio-uring)
 * [Franzplot: a teaching software (re)written in Rust](https://gfx-rs.github.io/stories/franzplot.html)
 * [wgpu: release of v0.9 and the future](https://gfx-rs.github.io/2021/07/16/release-0.9-future.html)
 * [Allsorts: Font Shaping Engine 0.6 Release](https://yeslogic.com/blog/allsorts-rust-font-shaping-engine-0-6/)
@@ -28,20 +31,36 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Quickwit: A highly cost-efficient search engine in Rust](https://quickwit.io/blog/quickwit-first-release/)
 
 ### Observations/Thoughts
-
 * [Compiling Rust is NP-hard](https://niedzejkob.p4.team/rust-np/)
 * [How we improved the performance of our Rust app](https://www.poor.dev/blog/performance/)
+* [Making Rust Float Parsing Fast: libcore Edition](https://www.reddit.com/r/rust/comments/omelz4/making_rust_float_parsing_fast_libcore_edition/)
+* [Adventures in Rust and Load Balancers](https://bparli.medium.com/adventures-in-rust-and-load-balancers-73a0bc61a192)
+* [Faster (and smaller) uploads in Discourse with Rust, WebAssembly and MozJPEG](https://blog.discourse.org/2021/07/faster-user-uploads-on-discourse-with-rust-webassembly-and-mozjpeg)
 
 ### Rust Walkthroughs
-
 * [How to implement worker pools in Rust](https://kerkour.com/blog/rust-worker-pool/)
-* [Host a Wasm module easily on Raspberry Pi Part 2](https://blog.knoldus.com/host-a-wasm-module-easily-on-raspberry-pi-part-2/)
 * [Run rust wasm in electron app](https://domtac.github.io/rust/webassembly/electron/2021/07/20/Run-rust-in-electron.html)
-
-### Papers
+* [Host a Wasm module easily on Raspberry Pi Part 2](https://blog.knoldus.com/host-a-wasm-module-easily-on-raspberry-pi-part-2/)
+* [Rust and the JVM](https://blog.frankel.ch/start-rust/7/)
+* [Smart Pointers in Rust: What, why and how?](https://dev.to/rogertorres/smart-pointers-in-rust-what-why-and-how-oma)
+* [Lazy async operations in Rust](https://joshchoo.com/writing/rust-lazy-async-operations)
+* [05 - Basic CRUD with rust using tide - front-end with tera](https://javierviola.com/post/05-basic-crud-with-rust-using-tide-front-end-with-tera/)
+* [Rust #5: Naming conventions](https://dev.to/cthutu/rust-5-naming-conventions-3cjf)
+* [Leader election in rust the journey towards implementing nun-db leader election](https://mateusfreira.github.io/@mateusfreira-leader-election-rust-the-journey-towards-nun-db-leader-election-implementation/)
+* [Novel way to Develop, Test, and Document C libraries from Rust](https://wasmer.io/posts/novel-way-to-develop--test-and-document-c-libraries-from-rust)
+* [Rust + Tauri + Svelte Tutorial](https://jbarszczewski.com/rust-tauri-svelte-tutorial)
+* [Static Integer Types](https://tratt.net/laurie/blog/entries/static_integer_types.html)
+* [Serializing data faster](https://devblog.arcana.rs/serializing-data-faster)
+* [series] [Basic CRUD api with Rust and Tide](https://dev.to/pepoviola/series/13592)
+* [series] Implementing ICMP in Rust
+  * [I. Implementing ICMP in Rust](https://dev.to/xphoniex/i-implementing-icmp-in-rust-296o)
+  * [II. Implementing ICMP in Rust](https://dev.to/xphoniex/ii-implementing-icmp-in-rust-3bk5)
+* [series] [video] [Explaining rust-analyzer](https://youtube.com/playlist?list=PLhb66M_x9UmrqXhQuIpWC5VgTdrGxMx3y)
 
 ### Miscellaneous
-
+* [A GPIO driver in Rust](https://lwn.net/Articles/863459/)
+* [Computer Scientist proves safety claims of the programming language Rust](https://www.eurekalert.org/pub_releases/2021-07/su-cs071521.php)
+* [JetBrains The State of Developer Ecosystem 2021: Rust](https://www.reddit.com/r/rust/comments/olqarw/jetbrains_the_state_of_developer_ecosystem_2021/)
 
 ## Crate of the Week
 
@@ -63,6 +82,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Knurling-rs user survey](https://forms.office.com/r/aMfHG79N9K)
 * [Helix editor icon/logo brainstorm](https://github.com/helix-editor/helix/issues/283)
 * [Ockam welcomes new contributors!](https://github.com/ockam-network/ockam/discussions/1081)
+* [Rust.Tokyo 2021](https://www.papercall.io/rusttokyo2021)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
