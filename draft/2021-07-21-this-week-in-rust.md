@@ -199,6 +199,9 @@ Email the [Rust Community Team][community] for access.
 **Immunant**
 * [Systems Programmer/Rustacean (Optionally Remote)](https://immunant.com/jobs/)
 
+**Wingback**
+* [Senior Backend Developer - Rust 🦀 (Fully Remote)](https://careers.wingback.app/o/senior-backend-developer-rust-remote)
+
 **Tempus Ex**
 * [Several positions available (San Francisco, Atlanta, Austin, and Remote)](https://tempus-ex.com/careers?r=twir)
 
