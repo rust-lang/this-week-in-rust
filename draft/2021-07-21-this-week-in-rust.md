@@ -22,6 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Franzplot: a teaching software (re)written in Rust](https://gfx-rs.github.io/stories/franzplot.html)
 * [wgpu: release of v0.9 and the future](https://gfx-rs.github.io/2021/07/16/release-0.9-future.html)
+* [This Week In TensorBase 12](https://tensorbase.io/thisweek/2021-07-21-tw_12/)
 * [cargo-ui: Introducing cargo-ui, a GUI for cargo](https://sixtyfps.io/blog/introducing-cargo-ui.html)
 
 ### Observations/Thoughts
