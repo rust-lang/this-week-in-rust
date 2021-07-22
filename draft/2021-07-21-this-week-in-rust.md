@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Allsorts: Font Shaping Engine 0.6 Release](https://yeslogic.com/blog/allsorts-rust-font-shaping-engine-0-6/)
 * [This Week In TensorBase 12](https://tensorbase.io/thisweek/2021-07-21-tw_12/)
 * [cargo-ui: Introducing cargo-ui, a GUI for cargo](https://sixtyfps.io/blog/introducing-cargo-ui.html)
+* [Quickwit: A highly cost-efficient search engine in Rust](https://quickwit.io/blog/quickwit-first-release/)
 
 ### Observations/Thoughts
 
@@ -61,6 +62,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [Knurling-rs user survey](https://forms.office.com/r/aMfHG79N9K)
 * [Helix editor icon/logo brainstorm](https://github.com/helix-editor/helix/issues/283)
+* [Ockam welcomes new contributors!](https://github.com/ockam-network/ockam/discussions/1081)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -173,18 +175,32 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**The Tor Project**
+* [Software Developer, Rust](https://www.torproject.org/about/jobs/rust-dev/)
+
+**Anixe**
+* [Architect/Senior Rust Software Engineer (Wrocław, PL)](https://anixe.bamboohr.com/jobs/view.php?id=154)
+* [Junior Rust Software Engineer (Wrocław, PL)](https://anixe.bamboohr.com/jobs/view.php?id=152)
+
+**Snapview**
+* [(Senior) Rust Backend Engineer (m/f/d) (Remote)](https://snapview.jobs.personio.de/job/381815)
+
+**Luminovo**
+* [(Senior) Software Engineer - Rust (m/f/d) (Munich, DE / Remote)](https://arbeitnow.com/view/senior-software-engineer-rust-mfd-luminovo-gmbh-55556)
+
+**Clear**
+* [Rust Engineer (Remote)](https://docs.google.com/document/d/1OuG5Ts_6s4eWO6CXGzcbklOweD7qGnOgADnSoPjEa10/edit)
+
 **Modeldrive**
 * [Tech Lead (London / Remote)](https://www.modeldrive.com/jobs)
 * [Senior Backend Engineer (London / Remote)](https://www.modeldrive.com/jobs)
 
 **Kollider**
-
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 * [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 * [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
 
 **NZXT**
-
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
 * [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
 
@@ -192,7 +208,7 @@ Email the [Rust Community Team][community] for access.
 * [Senior Rust Engineer (Remote)](https://jro-ventures.breezy.hr/p/0c1d3630d39d)
 
 **CNRS**
-* [Rust Software Engineer in AI research applied to Robotics (Toulouse, France)](https://emploi.cnrs.fr/Offres/CDD/UPR8001-ARTBIT-004/Default.aspx?lang=EN)
+* [Rust Software Engineer in AI research applied to Robotics (Toulouse, FR)](https://emploi.cnrs.fr/Offres/CDD/UPR8001-ARTBIT-004/Default.aspx?lang=EN)
 
 **The Mobility House GmbH**
 * [Senior Software Engineer - Rust m/f/d (Remote / Germany)](https://germantechjobs.de/jobs/The-Mobility-House-GmbH-Senior-Software-Engineer-mfd)
