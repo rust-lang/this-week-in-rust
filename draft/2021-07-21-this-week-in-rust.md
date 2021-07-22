@@ -12,6 +12,40 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/rust-lang/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
+## Issue 400!
+
+We are so happy to have reached issue 400 of *This Week in Rust*! To mark this occasion, we would like to introduce you to your editors who put these issues together for you every week!
+
+### Current Editors
+
+**Nell Shamrell-Harrington**
+
+Hello everyone! I'm Nell Shamrell-Harrington ([nellshamrell](https://github.com/nellshamrell/) on GitHub). I've served as lead editor of This Week in Rust for a little over a year now. Currently, I work as a Principal Engineer at Microsoft, prior to that I was on the Rust team at Mozilla. I also am a member of the Rust Foundation Board of Directors. My greatest joy in editing This Week in Rust is seeing how dedicated Rustaceans are to teaching and passing on what they have learned. We are a community where personal maturity and empathy are as important as technical excellence. When I'm not working, I'm often caring for and playing with my three pet bunnies - Lucy, Leia, and Noah!
+
+**Andre Bogus**
+
+Greetings, Rustaceans! I'm Andre 'llogiq' Bogus, and I've been editing TWiR since 2016. I currently work with [synth](https://getsynth.com), my third Job using Rust. I am one of the first clippy maintainers, a mod team member, a [Rust bard](https://twitter.com/llogiq) and I have several crates to my name. I'm always amused with the quotes you folks suggest, and like being on top of the merged PRs, so I know what's coming in the next Rust versions. Besides Rust, I like making music, biking, skateboarding and spending time with my wife, three kids and cat.
+
+**Colton Donnelly**
+
+Good morning to all of you fellow Rustaceans! I'm Colton Donnelly (usually under the screen name cdmistman), and I've been editing TWiR since May 2020. I'm currently a co-op working on the [Alan](https://alan-lang.org) programming language, which uses Rust in the runtime - this is the second time I've had an internship using Rust! I've really enjoyed reading all of your Rust blog posts and articles over the past year (and practicing my speed-reading while I'm at it), it's been awesome seeing how much knowledge y'all like to share. When I'm not coding, I'm usually playing games with friends or binge-watching shows.
+
+### Past Editors
+
+Thank you so much to all who have edited This Week in Rust over the years!
+
+* [emberian](https://github.com/emberian)
+* [brson](https://github.com/brson)
+* [nasa42](https://github.com/nasa42)
+* [Flavsditz](https://github.com/Flavsditz)
+* [srikwit](https://github.com/srikwit)
+* [mdinger](https://github.com/mdinger)
+* [BurntSushi](https://github.com/BurntSushi)
+
+### Thank YOU
+
+And a special thank you to all who have contributed to This Week in Rust and every single one of our subscribers and readers! Here is to many more issues!
+
 ## Updates from Rust Community
 
 No newsletters or papers this week.
@@ -80,9 +114,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Knurling-rs user survey](https://forms.office.com/r/aMfHG79N9K)
+* [Rust.Tokyo 2021](https://www.papercall.io/rusttokyo2021)
 * [Helix editor icon/logo brainstorm](https://github.com/helix-editor/helix/issues/283)
 * [Ockam welcomes new contributors!](https://github.com/ockam-network/ockam/discussions/1081)
-* [Rust.Tokyo 2021](https://www.papercall.io/rusttokyo2021)
+* [Forest - Cleanup net peers output](https://github.com/ChainSafe/forest/issues/1184)
+* [Forest - FOREST_CONFIG_PATH env var](https://github.com/ChainSafe/forest/issues/1191)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -137,7 +173,7 @@ Revision range: [9a27044f4..5aff6dd](https://perf.rust-lang.org/?start=9a27044f4
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC: I/O Safety](https://github.com/rust-lang/rfcs/pull/3128)
+* [RFC: let-else statements](https://github.com/rust-lang/rfcs/pull/3137)
 
 ### Final Comment Period
 
@@ -147,43 +183,33 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in the final comment period.*
+* [Stabilize Cargo's weak-dep-features and namespaced-features.](https://github.com/rust-lang/rfcs/pull/3143)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Move assert_matches to an inner module](https://github.com/rust-lang/rust/pull/86947)
 * [disposition: merge] [Stabilize arbitrary_enum_discriminant](https://github.com/rust-lang/rust/pull/86860)
 * [disposition: close] [regression: infallible residual could not convert error](https://github.com/rust-lang/rust/issues/86831)
-* [disposition: merge] [Document iteration order of retain functions](https://github.com/rust-lang/rust/pull/86790)
-* [disposition: merge] [Partially stabilize const_slice_first_last](https://github.com/rust-lang/rust/pull/86593)
-* [disposition: merge] [Stabilize const_fn_transmute, const_fn_union](https://github.com/rust-lang/rust/pull/85769)
-* [disposition: merge] [Allow leading pipe in matches!() patterns.](https://github.com/rust-lang/rust/pull/85272)
-* [disposition: close] [Add expr202x macro pattern](https://github.com/rust-lang/rust/pull/84364)
-* [disposition: merge] [Remove P: Unpin bound on impl Future for Pin](https://github.com/rust-lang/rust/pull/81363)
+* [disposition: merge] [Allow reifying intrinsics to fn pointers.](https://github.com/rust-lang/rust/pull/86699)
+* [disposition: merge] [Commit to not supporting IPv4-in-IPv6 addresses](https://github.com/rust-lang/rust/pull/86335)
 * [disposition: merge] [Stabilize core::task::if_ready!](https://github.com/rust-lang/rust/pull/81050)
-* [disposition: merge] [Tracking Issue for IntoInnerError::into_parts etc. (io_into_inner_error_parts)](https://github.com/rust-lang/rust/issues/79704)
 * [disposition: close] [Implement RFC 2500 Needle API (Part 1)](https://github.com/rust-lang/rust/pull/76901)
 
 ### New RFCs
 
-* [RFC: map_or_default in Option and Result](https://github.com/rust-lang/rfcs/pull/3148)
-* [Cargo feature migrations](https://github.com/rust-lang/rfcs/pull/3146)
+* [Scoped threads in the standard library, take 2](https://github.com/rust-lang/rfcs/pull/3151)
 
 ## Upcoming Events
 
 ### Online
 
-* [July 14, 2021, Malaysia - Rust Meetup July 2021 - Golang Malaysia, feat Rustlang, Erlang, Haskelllang and `.*-?(lang|script)\`](https://docs.google.com/forms/d/e/1FAIpQLSdoVbexvU3TZox1D9yLKPUggeTuih7TEDR6eaFQGTEgJtXZ5g/viewform)
-* [July 14, 2021, Dublin, IE - Rust Dublin July Remote Meetup - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/278698763/)
-* [July 20, 2021, Washington, DC, US - Mid-month Rustful - Rust DC](https://www.meetup.com/RustDC/events/vdhxgsycckbbc/)
 * [July 21, 2021, Vancouver, BC, CA - Rust Adoption at Huawei - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsycckbcc/)
 * [July 22, 2021, Tokyo, JP - Rust LT Online#4 - Rust JP](https://www.youtube.com/watch?v=oK0iJz7XF3Y)
 * [July 22, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 * [July 27, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrycckbkc/)
+* [August 3, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/jxfdjsycclbfb/)
 
 ### North America
 
-* [July 14, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgrycckbsb/)
 * [July 27, 2021, Chicago, IL, US - Rust in production at Tempus - Chicago Rust Meetup](https://www.meetup.com/Chicago-Rust-Meetup/events/279131036)
 
 If you are running a Rust event please add it to the [calendar] to get
