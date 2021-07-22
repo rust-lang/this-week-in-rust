@@ -22,6 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Franzplot: a teaching software (re)written in Rust](https://gfx-rs.github.io/stories/franzplot.html)
 * [wgpu: release of v0.9 and the future](https://gfx-rs.github.io/2021/07/16/release-0.9-future.html)
+* [cargo-ui: Introducing cargo-ui, a GUI for cargo](https://sixtyfps.io/blog/introducing-cargo-ui.html)
 
 ### Observations/Thoughts
 
@@ -30,6 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [How to implement worker pools in Rust](https://kerkour.com/blog/rust-worker-pool/)
 * [Host a Wasm module easily on Raspberry Pi Part 2](https://blog.knoldus.com/host-a-wasm-module-easily-on-raspberry-pi-part-2/)
 
 ### Papers
@@ -159,6 +161,16 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Modeldrive**
+* [Tech Lead (London / Remote)](https://www.modeldrive.com/jobs)
+* [Senior Backend Engineer (London / Remote)](https://www.modeldrive.com/jobs)
+
+**Kollider**
+
+* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
+* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
+* [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
+
 **NZXT**
 
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
@@ -177,8 +189,10 @@ Email the [Rust Community Team][community] for access.
 * [Systems Programmer/Rustacean (Optionally Remote)](https://immunant.com/jobs/)
 
 **Tempus Ex**
-
 * [Several positions available (San Francisco, Atlanta, Austin, and Remote)](https://tempus-ex.com/careers?r=twir)
+
+**ChainSafe**
+* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
