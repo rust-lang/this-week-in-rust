@@ -188,6 +188,9 @@ Email the [Rust Community Team][community] for access.
 **Immunant**
 * [Systems Programmer/Rustacean (Optionally Remote)](https://immunant.com/jobs/)
 
+**Tempus Ex**
+* [Several positions available (San Francisco, Atlanta, Austin, and Remote)](https://tempus-ex.com/careers?r=twir)
+
 **ChainSafe**
 * [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
 
