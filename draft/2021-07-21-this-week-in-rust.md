@@ -30,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [How to implement worker pools in Rust](https://kerkour.com/blog/rust-worker-pool/)
 * [Host a Wasm module easily on Raspberry Pi Part 2](https://blog.knoldus.com/host-a-wasm-module-easily-on-raspberry-pi-part-2/)
 
 ### Papers
@@ -162,6 +163,12 @@ Email the [Rust Community Team][community] for access.
 **Modeldrive**
 * [Tech Lead (London / Remote)](https://www.modeldrive.com/jobs)
 * [Senior Backend Engineer (London / Remote)](https://www.modeldrive.com/jobs)
+
+**Kollider**
+
+* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
+* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
+* [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
 
 **NZXT**
 
