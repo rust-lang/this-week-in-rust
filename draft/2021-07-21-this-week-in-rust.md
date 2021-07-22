@@ -61,6 +61,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Knurling-rs user survey](https://forms.office.com/r/aMfHG79N9K)
+* [Helix editor icon/logo brainstorm](https://github.com/helix-editor/helix/issues/283)
 * [Ockam welcomes new contributors!](https://github.com/ockam-network/ockam/discussions/1081)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
