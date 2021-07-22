@@ -160,6 +160,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Modeldrive**
+* [Tech Lead (London / Remote)](https://www.modeldrive.com/jobs)
+* [Senior Backend Engineer (London / Remote)](https://www.modeldrive.com/jobs)
+
 **Kollider**
 
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
