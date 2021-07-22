@@ -26,8 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
- - [Compiling Rust is NP-hard](https://niedzejkob.p4.team/rust-np/)
- - [How we improved the performance of our Rust app](https://www.poor.dev/blog/performance/)
+* [Compiling Rust is NP-hard](https://niedzejkob.p4.team/rust-np/)
+* [How we improved the performance of our Rust app](https://www.poor.dev/blog/performance/)
 
 ### Rust Walkthroughs
 
@@ -42,9 +42,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [endbasic](https://www.endbasic.dev), an emulator friendly DOS / BASIC environment running on small hardware and the web.
+This week's crate is [dylint](https://github.com/trailofbits/dylint), a tool for running Rust lints from dynamic libraries.
 
-Thanks to [Julio Merino](https://users.rust-lang.org/t/crate-of-the-week/2704/935) for the suggestion.
+Thanks to [George Hahn](https://users.rust-lang.org/t/crate-of-the-week/2704/938) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -65,28 +65,36 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from Rust Core
 
-254 pull requests were [merged in the last week][merged]
+280 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-07-05..2021-07-12
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-07-12..2021-07-19
 
-* [improve opaque pointers support](https://github.com/rust-lang/rust/pull/86873)
-* [recover from `&dyn mut` ... parse errors](https://github.com/rust-lang/rust/pull/86812)
-* [improve error reporting for modifications behind `&` references](https://github.com/rust-lang/rust/pull/86815)
-* [do not suggest adding a semicolon after ?](https://github.com/rust-lang/rust/pull/87061)
-* [use `#[track_caller]` in const panic diagnostics](https://github.com/rust-lang/rust/pull/87000)
-* [query-ify global limit attribute handling](https://github.com/rust-lang/rust/pull/86674)
-* [support forwarding caller location through trait object method call](https://github.com/rust-lang/rust/pull/81360)
-* [shrink the deprecated span](https://github.com/rust-lang/rust/pull/86320)
-* [report an error if resolution of closure call functions failed](https://github.com/rust-lang/rust/pull/86249)
-* [stabilize `RangeFrom` patterns in 1.55](https://github.com/rust-lang/rust/pull/83918)
-* [account for capture kind in auto traits migration](https://github.com/rust-lang/rust/pull/86869)
-* [stop generating `alloca`s & `memcmp` for simple short array equality](https://github.com/rust-lang/rust/pull/85828)
-* [inline `Iterator as IntoIterator`](https://github.com/rust-lang/rust/pull/84560)
-* [optimize unchecked indexing into `chunks` and 'chunks_mut`](https://github.com/rust-lang/rust/pull/86823)
-* [add `Integer::log` variants](https://github.com/rust-lang/rust/pull/80918)
-* [special case for integer log10](https://github.com/rust-lang/rust/pull/869309)
-* [cargo: unify cargo and rustc's error reporting](https://github.com/rust-lang/cargo/pull/9655)
-* [rustdoc: fix rendering of reexported macros 2.0 and fix visibility of reexported items](https://github.com/rust-lang/rust/pull/86841)
+* [handle non-integer const generic parameters in debuginfo type names](https://github.com/rust-lang/rust/pull/87082)
+* [warn about useless assignments of variables/fields to themselves](https://github.com/rust-lang/rust/pull/87129)
+* [suggest a path separator if a stray colon is found in a match arm](https://github.com/rust-lang/rust/pull/87101)
+* [add diagnostics for mistyped inclusive range](https://github.com/rust-lang/rust/pull/87071)
+* [various diagnostics clean ups/tweaks](https://github.com/rust-lang/rust/pull/87225)
+* [compute a better `lint_node_id` during expansion](https://github.com/rust-lang/rust/pull/87146)
+* [TAIT: infer all inference variables in opaque type substitutions via `InferCx`](https://github.com/rust-lang/rust/pull/87200)
+* [remove refs from `Pat` slices](https://github.com/rust-lang/rust/pull/87140)
+* [shrink the `CrateStore` dynamic interface](https://github.com/rust-lang/rust/pull/87117)
+* [loop over all opaque types instead of looking at just the first one with the same DefId](https://github.com/rust-lang/rust/pull/87107)
+* [cache expansion hash globally](https://github.com/rust-lang/rust/pull/87044)
+* [perf: noise and variance](https://github.com/rust-lang/rustc-perf/pull/902)
+* [some perf optimizations and logging](https://github.com/rust-lang/rust/pull/87203)
+* [update Rust Float-Parsing to use the Eisel-Lemire algorithm](https://github.com/rust-lang/rust/pull/86761)
+* [stabilize `[T; N]::map(_)`](https://github.com/rust-lang/rust/pull/87174)
+* [split `MaybeUninit::write' into new feature gate and stabilize it](https://github.com/rust-lang/rust/pull/86344)
+* [mark Option::insert as `must_use`](https://github.com/rust-lang/rust/pull/87196)
+* [added `Arc::try_pin`](https://github.com/rust-lang/rust/pull/85579)
+* [hashbrown: replace some custom unsafe code with `array::map`](https://github.com/rust-lang/hashbrown/pull/281)
+* [hashbrown: optimize `find`](https://github.com/rust-lang/hashbrown/pull/279)
+* [cargo: deduplicate compiler diagnostics](https://github.com/rust-lang/cargo/pull/9675)
+* [cargo: add `d` as an alias for doc](https://github.com/rust-lang/cargo/pull/9680)
+* [clippy: fix false positives and document `branches_sharing_code` lint](https://github.com/rust-lang/rust-clippy/pull/7462)
+* [clippy: new lint: `self_named_constructor`](https://github.com/rust-lang/rust-clippy/pull/7403)
+* [clippy: add `Arc` to `redundant_allocation`](https://github.com/rust-lang/rust-clippy/pull/7308)
+* [clippy: fix ICE in `is_integer_const`](https://github.com/rust-lang/rust-clippy/pull/7473)
 
 ### Rust Compiler Performance Triage
 
@@ -199,13 +207,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Beginning Rust: Uh why does the compiler stop me from doing things this is horrible
->
-> Advanced Rust: Ugh why doesn't the compiler stop me from doing things this is horrible
+> Tip: whenever you wonder if Pin could be the solution, it isn't
 
-– [qDot on twitter](https://twitter.com/qDot/status/1412536312150716416)
+– [@SkiFire13 on the official Rust Discord](https://discord.com/channels/442252698964721669/448238009733742612/866312170890330122)
 
-Thanks to [Nixon Enraght-Moony](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1074) for the self-suggestion!
+Thanks to [Kestrer](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1071) for the self-suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
