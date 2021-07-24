@@ -17,6 +17,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Project/Tooling Updates
+- [Towards Inserting One Billion Rows in SQLite Under A Minute](https://avi.im/blag/2021/fast-sqlite-inserts/)
+
 
 ### Observations/Thoughts
 
