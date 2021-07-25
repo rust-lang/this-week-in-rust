@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+[How to create an AWS Lambda in rust (Youtube video)](https://www.youtube.com/watch?v=PmtwtK6jyLc)
+
 ### Miscellaneous
 
 ## Crate of the Week
