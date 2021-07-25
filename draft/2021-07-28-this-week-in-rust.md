@@ -19,12 +19,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 * [CGlue Today And The Road Ahead](https://blaz.is/blog/post/cglue-012-and-the-road-ahead/)
-- [Black Hat Rust: July Update](https://kerkour.com/blog/black-hat-rust-july-update/)
-- [Updates from the Tinyverse - July 2021](https://tinyverse.substack.com/p/updates-from-the-tinyverse-july-2021)
+* [Black Hat Rust: July Update](https://kerkour.com/blog/black-hat-rust-july-update/)
+* [Updates from the Tinyverse - July 2021](https://tinyverse.substack.com/p/updates-from-the-tinyverse-july-2021)
 
 ### Observations/Thoughts
-- [Towards Inserting One Billion Rows in SQLite Under A Minute](https://avi.im/blag/2021/fast-sqlite-inserts/)
 
+* [Towards Inserting One Billion Rows in SQLite Under A Minute](https://avi.im/blag/2021/fast-sqlite-inserts/)
 * [Async and asleep: designing our future embedded applications](https://tweedegolf.nl/blog/58/async-and-asleep-designing-our-future-embedded-applications)
 * [My Rust development workflow (after 2+ years full-time)](https://kerkour.com/blog/rust-development-workflow/)
 
@@ -161,6 +161,7 @@ Email the [Rust Community Team][community] for access.
 * [Back-end developer - TechOps team (Rust, GRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-rust-grpc-postgresql_paris)
 
 **Rhebo GmbH**
+
 * [Rust Software Engineer - Focus Networks (DE)](https://germantechjobs.de/en/jobs/Rhebo-GmbH-Softwareentwickler-Rust---Schwerpunkt-Netzwerk-wmd)
 
 **Kraken**
