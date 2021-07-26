@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Will WebAssembly replace JavaScript?](https://blog.knoldus.com/will-webassembly-replace-javascript/)
+
 ### Rust Walkthroughs
 
 * [video] [How to create an AWS Lambda in rust](https://www.youtube.com/watch?v=PmtwtK6jyLc)
