@@ -29,6 +29,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [The RTIC Monkeys](https://twitter.com/tweedegolfbv/status/1418184573964390408)
+
 ## Crate of the Week
 
 This week's crate is [dylint](https://github.com/trailofbits/dylint), a tool for running Rust lints from dynamic libraries.
