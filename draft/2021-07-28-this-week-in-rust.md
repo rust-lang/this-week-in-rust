@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Async and asleep: designing our future embedded applications](https://tweedegolf.nl/blog/58/async-and-asleep-designing-our-future-embedded-applications)
+
 ### Rust Walkthroughs
 
 * [Awesome Unstable Rust Features](https://lazy.codes/posts/awesome-unstable-rust-features/)
