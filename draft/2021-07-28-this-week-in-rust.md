@@ -22,6 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Awesome Unstable Rust Features](https://lazy.codes/posts/awesome-unstable-rust-features/)
 * [video] [How to create an AWS Lambda in rust](https://www.youtube.com/watch?v=PmtwtK6jyLc)
 
 ### Miscellaneous
