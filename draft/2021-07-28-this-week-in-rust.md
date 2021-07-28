@@ -18,9 +18,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+- [Black Hat Rust: July Update](https://kerkour.com/blog/black-hat-rust-july-update/)
 - [Updates from the Tinyverse - July 2021](https://tinyverse.substack.com/p/updates-from-the-tinyverse-july-2021)
 
 ### Observations/Thoughts
+
+* [My Rust development workflow (after 2+ years full-time)](https://kerkour.com/blog/rust-development-workflow/)
 
 ### Rust Walkthroughs
 
