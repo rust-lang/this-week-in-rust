@@ -18,11 +18,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+- [Black Hat Rust: July Update](https://kerkour.com/blog/black-hat-rust-july-update/)
 - [Updates from the Tinyverse - July 2021](https://tinyverse.substack.com/p/updates-from-the-tinyverse-july-2021)
 
 ### Observations/Thoughts
 
 * [Async and asleep: designing our future embedded applications](https://tweedegolf.nl/blog/58/async-and-asleep-designing-our-future-embedded-applications)
+* [My Rust development workflow (after 2+ years full-time)](https://kerkour.com/blog/rust-development-workflow/)
 
 ### Rust Walkthroughs
 
@@ -148,6 +150,12 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Kollider**
+
+* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
+* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
+* [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
 
 **Rhebo GmbH**
 * [Rust Software Engineer - Focus Networks (DE)](https://germantechjobs.de/en/jobs/Rhebo-GmbH-Softwareentwickler-Rust---Schwerpunkt-Netzwerk-wmd)
