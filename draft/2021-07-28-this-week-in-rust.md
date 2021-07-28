@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [CGlue Today And The Road Ahead](https://blaz.is/blog/post/cglue-012-and-the-road-ahead/)
 * [Black Hat Rust: July Update](https://kerkour.com/blog/black-hat-rust-july-update/)
 * [Updates from the Tinyverse - July 2021](https://tinyverse.substack.com/p/updates-from-the-tinyverse-july-2021)
+* [Gloo v0.3.0 release](https://gloo-rs.web.app/blog/release-0.3.0)
 
 ### Observations/Thoughts
 
