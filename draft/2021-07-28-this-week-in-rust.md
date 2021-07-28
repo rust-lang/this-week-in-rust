@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Raw Pointers in Unsafe Rust are quite powerful](https://blog.knoldus.com/raw-pointers-in-unsafe-rust-are-quite-powerful/)
 * [Towards Inserting One Billion Rows in SQLite Under A Minute](https://avi.im/blag/2021/fast-sqlite-inserts/)
 * [Async and asleep: designing our future embedded applications](https://tweedegolf.nl/blog/58/async-and-asleep-designing-our-future-embedded-applications)
 * [My Rust development workflow (after 2+ years full-time)](https://kerkour.com/blog/rust-development-workflow/)
