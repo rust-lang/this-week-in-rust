@@ -46,4 +46,9 @@ scattered about.
 """
 }
 
-MD_EXTENSIONS = ['headerid']
+MD_EXTENSIONS = ['headerid',
+    'codehilite(css_class=highlight)',
+    'extra', 
+    'markdown.extensions.fenced_code',
+    'markdown.extensions.admonition',
+    ]

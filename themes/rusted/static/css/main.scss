@@ -41,6 +41,8 @@ $on-laptop:        800px;
 
 // Import partials
 @import
+        "pygments",
+        "admonitions",
         "bootstrap-overrides",
         "base",
         "layout",
