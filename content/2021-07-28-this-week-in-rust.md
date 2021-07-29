@@ -12,6 +12,10 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/rust-lang/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
+## What does This Week in Rust mean to you?
+
+This Week in Rust will be the focus of [nellshamrell](https://github.com/nellshamrell)'s RustConf keynote in September. She would love if you would help inform the talk by sharing what This Week in Rust means to you [on this Reddit post](https://www.reddit.com/r/rust/comments/oqifdk/what_does_this_week_in_rust_mean_to_you/) or [in the Discourse forums](https://users.rust-lang.org/t/what-does-this-week-in-rust-mean-to-you/62698). Thank you!
+
 ## Updates from Rust Community
 
 ### Official
@@ -91,7 +95,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [What does This Week in Rust mean to you?](https://www.reddit.com/r/rust/comments/oqifdk/what_does_this_week_in_rust_mean_to_you/)
 * [rust-embedded/cross - Call for help: more maintainers wanted](https://github.com/rust-embedded/cross/issues/574)
+* [ChainSafe/forest has several help wanted issues](https://users.rust-lang.org/t/what-does-this-week-in-rust-mean-to-you/62698)
+* [getsynth/synth - Support postgres json and jsonb types](https://github.com/getsynth/synth/issues/67)
+* [getsynth/synth - Feature: Doc template generator](https://github.com/getsynth/synth/issues/31)
+* [ockam-network/ockam - Rust - UDP Transport](https://github.com/ockam-network/ockam/issues/1623)
+* [ockam-networking/ockam - File Transfer over end-to-end encrypted secure channels](https://github.com/ockam-network/ockam/issues/1624)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -139,7 +149,8 @@ Revision range: [5c0ca08..998cfe5](https://perf.rust-lang.org/?start=5c0ca08c662
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [#[derive(Default)] on enums with a #[default] attribute](https://github.com/rust-lang/rfcs/pull/3107)
+* [`#[derive(Default)]` on enums with a `#[default]` attribute](https://github.com/rust-lang/rfcs/pull/3107)
+* [RFC: Introduce concat_bytes!() to join [u8] and byte str analogous to concat! for str](https://github.com/rust-lang/rfcs/pull/2509)
 
 ### Final Comment Period
 
@@ -153,10 +164,12 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [impl Default, Copy, Clone for std::io::Sink and Empty](https://github.com/rust-lang/rust/pull/86744)
 * [disposition: merge] [Allow reifying intrinsics to fn pointers.](https://github.com/rust-lang/rust/pull/86699)
 * [disposition: merge] [Associated functions that contain extern indicator or have #[rustc_std_internal_symbol] are reachable](https://github.com/rust-lang/rust/pull/86492)
+* [disposition: merge] [impl Pattern for char array](https://github.com/rust-lang/rust/pull/86336)
 * [disposition: merge] [Commit to not supporting IPv4-in-IPv6 addresses](https://github.com/rust-lang/rust/pull/86335)
-* [disposition: merge] [Implement Extend<(A, B)> for (Extend<A>, Extend<B>)](https://github.com/rust-lang/rust/pull/85835)
+* [disposition: merge] [Implement `Extend<(A, B)>` for `(Extend<A>, Extend<B>)`](https://github.com/rust-lang/rust/pull/85835)
 
 ### New RFCs
 
@@ -166,13 +179,11 @@ decision. Express your opinions now.
 
 ### Online
 
-* [July 27, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrycckbkc/)
 * [August 3, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/jxfdjsycclbfb/)
-* [August 10, 2021, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycclbnb/)
+* [August 9, 2021, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycclbnb/)
 
 ### North America
 
-* [July 27, 2021, Chicago, IL, US - Rust in production at Tempus - Chicago Rust Meetup](https://www.meetup.com/Chicago-Rust-Meetup/events/279131036)
 * [August 11, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/lhpkmsycclbpb/)
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -196,6 +207,10 @@ Email the [Rust Community Team][community] for access.
 
 * [Rust Software Engineer - Focus Networks (DE)](https://germantechjobs.de/en/jobs/Rhebo-GmbH-Softwareentwickler-Rust---Schwerpunkt-Netzwerk-wmd)
 
+**ChainSafe**
+
+* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
 **Kraken**
 
 * [Senior Banking Engineer - Rust (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
@@ -216,11 +231,6 @@ Email the [Rust Community Team][community] for access.
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 * [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 * [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
-
-**ChainSafe**
-
-* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
-
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
