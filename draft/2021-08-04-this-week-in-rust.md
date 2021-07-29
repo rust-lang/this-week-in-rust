@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+[Implementing a BLT parser by hand in Rust (vs pest and combine): OpenTally dev log](https://yingtongli.me/blog/2021/07/30/blt-parser.html)
+
 ## Crate of the Week
 
 This week's crate is [loadstone](https://crates.io/crates/loadstone), a bare-metal bootloader for embedded systems.
