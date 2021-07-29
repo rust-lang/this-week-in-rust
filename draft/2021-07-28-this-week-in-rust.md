@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [CGlue Today And The Road Ahead](https://blaz.is/blog/post/cglue-012-and-the-road-ahead/)
 * [Black Hat Rust: July Update](https://kerkour.com/blog/black-hat-rust-july-update/)
 * [Updates from the Tinyverse - July 2021](https://tinyverse.substack.com/p/updates-from-the-tinyverse-july-2021)
+* [This Week In TensorBase 13](https://tensorbase.io/thisweek/2021-07-28-tw_13/)
 
 ### Observations/Thoughts
 
