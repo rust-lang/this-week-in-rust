@@ -16,8 +16,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
+* [Inside] [1.54.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2021/07/26/1.54.0-prerelease.html)
+
 ### Project/Tooling Updates
 
+* [rust-analyzer Changelog #87](https://rust-analyzer.github.io/thisweek/2021/07/26/changelog-87.html)
 * [CGlue Today And The Road Ahead](https://blaz.is/blog/post/cglue-012-and-the-road-ahead/)
 * [Black Hat Rust: July Update](https://kerkour.com/blog/black-hat-rust-july-update/)
 * [Updates from the Tinyverse - July 2021](https://tinyverse.substack.com/p/updates-from-the-tinyverse-july-2021)
@@ -27,13 +30,46 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Towards Inserting One Billion Rows in SQLite Under A Minute](https://avi.im/blag/2021/fast-sqlite-inserts/)
 * [Async and asleep: designing our future embedded applications](https://tweedegolf.nl/blog/58/async-and-asleep-designing-our-future-embedded-applications)
 * [My Rust development workflow (after 2+ years full-time)](https://kerkour.com/blog/rust-development-workflow/)
+* [Dealing with Out-of-memory Conditions in Rust](https://www.crowdstrike.com/blog/dealing-with-out-of-memory-conditions-in-rust/)
+* [Rust for Linux redux](https://lwn.net/Articles/862018/)
+* [My experience crafting an interpreter with Rust](https://ceronman.com/2021/07/22/my-experience-crafting-an-interpreter-with-rust/)
+* [Rust: First Thoughts](https://dev.to/mapoulos/rust-first-thoughts-7l0)
+* [Mutable statics have scary superpowers! Do not use them](https://blog.kodewerx.org/2021/07/mutable-statics-have-scary-superpowers.html)
+* [9 advantages of programming in Rust](https://tim.mcnamara.nz/post/657832047640985600/nine-advantages-of-programming-in-rust)
+* [audio] [AreWePodcastYet - 07 Georg Semmler on Diesel!](https://soundcloud.com/arewepodcastyet/awpy-07-georg-semmler-on-diesel)
 
 ### Rust Walkthroughs
 
 * [Awesome Unstable Rust Features](https://lazy.codes/posts/awesome-unstable-rust-features/)
+* [How I Built a Cross-Platform Desktop Application with Svelte, Redis, and Rust](https://css-tricks.com/how-i-built-a-cross-platform-desktop-application-with-svelte-redis-and-rust/)
+* [Understanding Rust futures by going way too deep](https://fasterthanli.me/articles/understanding-rust-futures-by-going-way-too-deep)
+* [Understanding Rust's 'serde' using macro expansion](https://owengage.com/writing/#understanding-serde-macro-expansion)
+* [Rust - Writing Parsers With nom Parser Combinator Framework](https://iximiuz.com/en/posts/rust-writing-parsers-with-nom/)
+* [✨🥞 Rust Visualized: The Stack, the Heap, and Pointers](https://dev.to/ender_minyard/rust-visualized-the-stack-the-heap-and-pointers-a5c)
+* [First steps with Rust declarative macros!](https://dev.to/rogertorres/first-steps-with-rust-declarative-macros-1f8m)
+* [diceroller, a sample Rust project](https://blog.frankel.ch/start-rust/8/)
+* [Ditching `try..catch` and `null` checks with Rust](https://blog.logrocket.com/ditching-try-catch-and-null-checks-in-rust/)
+* [Implementing Merge Sort in Rust](https://dev.to/felixfaisal/implementing-merge-sort-in-rust-4ko8)
+* [Emulating abstract base classes in Rust](https://dev.to/mdoerner/emulating-abstract-base-classes-in-rust-3ai6)
+* [Rust #6: Exploring crates](https://dev.to/cthutu/rust-6-exploring-crates-3p6i)
+* [Rust and WebAssembly Serverless Functions in Vercel](https://thenewstack.io/rust-and-webassembly-serverless-functions-in-vercel/)
+* [28 Days of Rust -- Part 1: Ownership and the Borrow Checker](https://medium.com/comsystoreply/28-days-of-rust-part-1-ownership-and-the-borrow-checker-977a17e5b733)
+* [The Rust dbg! macro](https://edgarluque.com/blog/rust-dbg-macro)
+* [video] [Building a Web Application with Rust - Part X - VanillaJS FrontEnd](https://youtu.be/mgGPD6IVUbI)
+* [video] [Rust Bevy Tutorial - Enemy Formation & Attack (part 3/3)](https://youtu.be/4nEUX2hf2ZI)
 * [video] [How to create an AWS Lambda in rust](https://www.youtube.com/watch?v=PmtwtK6jyLc)
 
+### Research
+
+* [Performance vs Programming Effort between Rust and C on Multicore Architectures: Case Study in N-Body](https://arxiv.org/abs/2107.11912)
+* [Revisiting Prechelt's paper and follow-ups comparing Java, Lisp, C/C++ and scripting languages](https://renato.athaydes.com/posts/revisiting-prechelt-paper-comparing-languages.html)
+* [Programming Rules to Develop Secure Applications with Rust](https://www.ssi.gouv.fr/en/guide/programming-rules-to-develop-secure-applications-with-rust/)
+
 ### Miscellaneous
+
+* [This finally happened: rust made more sense](https://www.reddit.com/r/rust/comments/or9r1h/this_finally_happened_rust_made_more_sense/)
+* [Edward Snowden endorses Rust for more secure computing](https://www.reddit.com/r/rust/comments/os94ur/edward_snowden_endorses_rust_for_more_secure/)
+* [I bet I can do that in rust!!. Generic types are more powerful than most of us thought](https://www.reddit.com/r/rust/comments/opkcuh/i_bet_i_can_do_that_in_rust_generic_types_are/)
 
 ## Crate of the Week
 
