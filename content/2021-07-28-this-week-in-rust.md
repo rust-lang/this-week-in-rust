@@ -97,7 +97,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [What does This Week in Rust mean to you?](https://www.reddit.com/r/rust/comments/oqifdk/what_does_this_week_in_rust_mean_to_you/)
 * [rust-embedded/cross - Call for help: more maintainers wanted](https://github.com/rust-embedded/cross/issues/574)
-* [ChainSafe/forest has several help wanted issues](https://users.rust-lang.org/t/what-does-this-week-in-rust-mean-to-you/62698)
+* [ChainSafe/forest has several help wanted issues](https://github.com/ChainSafe/forest/labels/help%20wanted)
 * [getsynth/synth - Support postgres json and jsonb types](https://github.com/getsynth/synth/issues/67)
 * [getsynth/synth - Feature: Doc template generator](https://github.com/getsynth/synth/issues/31)
 * [ockam-network/ockam - Rust - UDP Transport](https://github.com/ockam-network/ockam/issues/1623)
