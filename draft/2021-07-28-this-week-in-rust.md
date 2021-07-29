@@ -73,9 +73,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [dylint](https://github.com/trailofbits/dylint), a tool for running Rust lints from dynamic libraries.
+This week's crate is [loadstone](https://crates.io/crates/loadstone), a bare-metal bootloader for embedded systems.
 
-Thanks to [George Hahn](https://users.rust-lang.org/t/crate-of-the-week/2704/938) for the suggestion.
+Thanks to [Andres O. Vela](https://users.rust-lang.org/t/crate-of-the-week/2704/940) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -96,36 +96,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from Rust Core
 
-280 pull requests were [merged in the last week][merged]
+287 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-07-12..2021-07-19
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-07-19..2021-07-26
 
-* [handle non-integer const generic parameters in debuginfo type names](https://github.com/rust-lang/rust/pull/87082)
-* [warn about useless assignments of variables/fields to themselves](https://github.com/rust-lang/rust/pull/87129)
-* [suggest a path separator if a stray colon is found in a match arm](https://github.com/rust-lang/rust/pull/87101)
-* [add diagnostics for mistyped inclusive range](https://github.com/rust-lang/rust/pull/87071)
-* [various diagnostics clean ups/tweaks](https://github.com/rust-lang/rust/pull/87225)
-* [compute a better `lint_node_id` during expansion](https://github.com/rust-lang/rust/pull/87146)
-* [TAIT: infer all inference variables in opaque type substitutions via `InferCx`](https://github.com/rust-lang/rust/pull/87200)
-* [remove refs from `Pat` slices](https://github.com/rust-lang/rust/pull/87140)
-* [shrink the `CrateStore` dynamic interface](https://github.com/rust-lang/rust/pull/87117)
-* [loop over all opaque types instead of looking at just the first one with the same DefId](https://github.com/rust-lang/rust/pull/87107)
-* [cache expansion hash globally](https://github.com/rust-lang/rust/pull/87044)
-* [perf: noise and variance](https://github.com/rust-lang/rustc-perf/pull/902)
-* [some perf optimizations and logging](https://github.com/rust-lang/rust/pull/87203)
-* [update Rust Float-Parsing to use the Eisel-Lemire algorithm](https://github.com/rust-lang/rust/pull/86761)
-* [stabilize `[T; N]::map(_)`](https://github.com/rust-lang/rust/pull/87174)
-* [split `MaybeUninit::write' into new feature gate and stabilize it](https://github.com/rust-lang/rust/pull/86344)
-* [mark Option::insert as `must_use`](https://github.com/rust-lang/rust/pull/87196)
-* [added `Arc::try_pin`](https://github.com/rust-lang/rust/pull/85579)
-* [hashbrown: replace some custom unsafe code with `array::map`](https://github.com/rust-lang/hashbrown/pull/281)
-* [hashbrown: optimize `find`](https://github.com/rust-lang/hashbrown/pull/279)
-* [cargo: deduplicate compiler diagnostics](https://github.com/rust-lang/cargo/pull/9675)
-* [cargo: add `d` as an alias for doc](https://github.com/rust-lang/cargo/pull/9680)
-* [clippy: fix false positives and document `branches_sharing_code` lint](https://github.com/rust-lang/rust-clippy/pull/7462)
-* [clippy: new lint: `self_named_constructor`](https://github.com/rust-lang/rust-clippy/pull/7403)
-* [clippy: add `Arc` to `redundant_allocation`](https://github.com/rust-lang/rust-clippy/pull/7308)
-* [clippy: fix ICE in `is_integer_const`](https://github.com/rust-lang/rust-clippy/pull/7473)
+* [recognize bounds on impls as const bounds](https://github.com/rust-lang/rust/pull/87273)
+* [warn on inert attributes used on bang macro invocation](https://github.com/rust-lang/rust/pull/87296)
+* [better diagnostics with mismatched types due to implicit static lifetime](https://github.com/rust-lang/rust/pull/87244)
+* [improve `SortedMap::get_by_key_enumerated` more](https://github.com/rust-lang/rust/pull/86429)
+* [`VecMap::get_value_matching` should return just one element](https://github.com/rust-lang/rust/pull/86410)
+* [don't create references to uninitialized data in `List::from_arena`](https://github.com/rust-lang/rust/pull/87268)
+* [miri: better errors for negative out-of-bounds offsets](https://github.com/rust-lang/miri/pull/1853)
+* [miri: better ptr-out-of-bounds errors](https://github.com/rust-lang/rust/pull/87224)
+* [MIR opt: separate constant predecessors of a switch](https://github.com/rust-lang/rust/pull/85646)
+* [stabilize `into_parts()` and `into_error()`](https://github.com/rust-lang/rust/pull/87175)
+* [stabilize `impl From<[(K, V); N]> for HashMap` (and friends)](https://github.com/rust-lang/rust/pull/84111)
+* [remove `Option` from `BufWriter`](https://github.com/rust-lang/rust/pull/87171)
+* [implement `TrustedLen` for `Flatten`/`FlatMap` if the `U: IntoIterator == [T; N]`](https://github.com/rust-lang/rust/pull/87168)
+* [add `Stdin::lines`, `Stdin::split` forwarder methods](https://github.com/rust-lang/rust/pull/86847)
+* [add support for custom allocator in `VecDeque`](https://github.com/rust-lang/rust/pull/86595)
+* [hashbrown: make rehashing and resizing less generic](https://github.com/rust-lang/hashbrown/pull/282)
+* [hashbrown: inline small functions](https://github.com/rust-lang/hashbrown/pull/283)
+* [clippy: add check if ty `has_escaping_bound_vars` in `zero_sized_map_values` lint](https://github.com/rust-lang/rust-clippy/pull/7470)
+* [clippy: improve conflicting rlibs error again](https://github.com/rust-lang/rust-clippy/pull/7495)
 
 ### Rust Compiler Performance Triage
 
@@ -226,11 +219,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Tip: whenever you wonder if Pin could be the solution, it isn't
+> We were able to verify the safety of Rust's type system and thus show how Rust automatically and reliably prevents entire classes of programming errors
 
-– [@SkiFire13 on the official Rust Discord](https://discord.com/channels/442252698964721669/448238009733742612/866312170890330122)
+– [Ralf Jung on Eureka Alert Science News](https://www.eurekalert.org/pub_releases/2021-07/su-cs071521.php)
 
-Thanks to [Kestrer](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1071) for the self-suggestion!
+Thanks to [Henrik Tougaard](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1084) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
