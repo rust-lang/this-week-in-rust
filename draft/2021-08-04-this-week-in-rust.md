@@ -139,7 +139,7 @@ Email the [Rust Community Team][community] for access.
 
 **Parity Technologies**
 
-* [10+ Rust engineering positions available - Blockchain, Consensus, Messaging, Rust Tooling](https://www.parity.io/jobs/)
+* [Multiple Rust engineering positions available](https://www.parity.io/jobs/)
 
 
 # Quote of the Week
