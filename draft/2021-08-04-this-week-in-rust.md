@@ -139,6 +139,11 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+**Parity Technologies**
+
+* [Multiple Rust engineering positions available](https://www.parity.io/jobs/)
+
+
 # Quote of the Week
 
 > We were able to verify the safety of Rust's type system and thus show how Rust automatically and reliably prevents entire classes of programming errors
