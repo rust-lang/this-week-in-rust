@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Deep Learning in Rust with GPU using onnxruntime-rs](https://able.bio/haixuanTao/deep-learning-in-rust-with-gpu--26c53a7f)
 
 ### Rust Walkthroughs
+* [Implementing Base64 from scratch with Rust](https://dev.to/tiemen/implementing-base64-from-scratch-in-rust-kb1)
 
 ### Research
 
