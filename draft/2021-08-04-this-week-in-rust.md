@@ -35,9 +35,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [loadstone](https://crates.io/crates/loadstone), a bare-metal bootloader for embedded systems.
+This week's crate is [sycamore](https://crates.io/crates/sycamore), a crate for making web applications using WebAssembly..
 
-Thanks to [Andres O. Vela](https://users.rust-lang.org/t/crate-of-the-week/2704/940) for the suggestion.
+Thanks to [Luke Chu](https://users.rust-lang.org/t/crate-of-the-week/2704/941) for the self-suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -56,33 +56,37 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from Rust Core
 
-287 pull requests were [merged in the last week][merged]
+324 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-07-19..2021-07-26
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-07-26..2021-08-02
 
-* [recognize bounds on impls as const bounds](https://github.com/rust-lang/rust/pull/87273)
-* [warn on inert attributes used on bang macro invocation](https://github.com/rust-lang/rust/pull/87296)
-* [better diagnostics with mismatched types due to implicit static lifetime](https://github.com/rust-lang/rust/pull/87244)
-* [improve `SortedMap::get_by_key_enumerated` more](https://github.com/rust-lang/rust/pull/86429)
-* [`VecMap::get_value_matching` should return just one element](https://github.com/rust-lang/rust/pull/86410)
-* [don't create references to uninitialized data in `List::from_arena`](https://github.com/rust-lang/rust/pull/87268)
-* [miri: better errors for negative out-of-bounds offsets](https://github.com/rust-lang/miri/pull/1853)
-* [miri: better ptr-out-of-bounds errors](https://github.com/rust-lang/rust/pull/87224)
-* [MIR opt: separate constant predecessors of a switch](https://github.com/rust-lang/rust/pull/85646)
-* [stabilize `into_parts()` and `into_error()`](https://github.com/rust-lang/rust/pull/87175)
-* [stabilize `impl From<[(K, V); N]> for HashMap` (and friends)](https://github.com/rust-lang/rust/pull/84111)
-* [remove `Option` from `BufWriter`](https://github.com/rust-lang/rust/pull/87171)
-* [implement `TrustedLen` for `Flatten`/`FlatMap` if the `U: IntoIterator == [T; N]`](https://github.com/rust-lang/rust/pull/87168)
-* [add `Stdin::lines`, `Stdin::split` forwarder methods](https://github.com/rust-lang/rust/pull/86847)
-* [add support for custom allocator in `VecDeque`](https://github.com/rust-lang/rust/pull/86595)
-* [hashbrown: make rehashing and resizing less generic](https://github.com/rust-lang/hashbrown/pull/282)
-* [hashbrown: inline small functions](https://github.com/rust-lang/hashbrown/pull/283)
-* [clippy: add check if ty `has_escaping_bound_vars` in `zero_sized_map_values` lint](https://github.com/rust-lang/rust-clippy/pull/7470)
-* [clippy: improve conflicting rlibs error again](https://github.com/rust-lang/rust-clippy/pull/7495)
+* [`#[derive(Default)]` on enums with a `#[default]` attribute](https://github.com/rust-lang/rust/pull/86735) (RFC [#3107](https://rust-lang.github.io/rfcs/3107-derive-enum-default.html))
+* [fix issue with autofix for ambiguous associated function from Rust 2021 prelude when struct is generic](https://github.com/rust-lang/rust/pull/87557)
+* [add flag to configure `large_assignments` lint](https://github.com/rust-lang/rust/pull/86450)
+* [make const `panic!("..")` work in Rust 2021](https://github.com/rust-lang/rust/pull/86998)
+* [suggest removing unnecessary `&mut` as help message](https://github.com/rust-lang/rust/pull/87453)
+* [suggest `;` on parse error where applicable](https://github.com/rust-lang/rust/pull/87436)
+* [fix invalid suggestions for non-ASCII characters in byte constants](https://github.com/rust-lang/rust/pull/87659)
+* [tweak opaque type mismatch error](https://github.com/rust-lang/rust/pull/87673)
+* [bail on any found recursion when expanding opaque types](https://github.com/rust-lang/rust/pull/87546)
+* [polonius: compute subset errors everywhere](https://github.com/rust-lang/polonius/pull/156)
+* [MIR borrowck does not generate lifetime variables for `'static` lifetimes during opaque type resolution](https://github.com/rust-lang/rust/pull/87483)
+* [tweak borrowing suggestion in `for` loop](https://github.com/rust-lang/rust/pull/87559)
+* [remove unsound `TrustedRandomAccess` implementations](https://github.com/rust-lang/rust/pull/85874)
+* [BTree: lazily locate leaves in rangeless iterators](https://github.com/rust-lang/rust/pull/86031)
+* [partially stabilize `const_slice_first_last`](https://github.com/rust-lang/rust/pull/86593)
+* [stabilize `core::task::ready!`](https://github.com/rust-lang/rust/pull/81050)
+* [stabilize `const_fn_transmute`, `const_fn_union`](https://github.com/rust-lang/rust/pull/85769)
+* [implement `fold()` on `array::IntoIter` to improve `flatten().collect()` perf](https://github.com/rust-lang/rust/pull/87431)
+* [optimize `fmt::PadAdapter::wrap`](https://github.com/rust-lang/rust/pull/87052)
+* [remove `P: Unpin` bound on `impl Future for Pin`](https://github.com/rust-lang/rust/pull/81363)
+* [futures: use `futuresordered` in `join_all`](https://github.com/rust-lang/futures-rs/pull/2412)
+* [clippy: cover `Result` on `map_flatten` lint](https://github.com/rust-lang/rust-clippy/pull/7522)
+* [clippy: fix `while_let_on_iterator`](https://github.com/rust-lang/rust-clippy/pull/7520)
 
 ### Rust Compiler Performance Triage
 
-A very quiet week with only improvements. There was one possible regression, but it was removed from consideration due to only barely impacting a somewhat noisy stress-test benchmark. Untriaged pull requests continue to pile up, but there is still not a good process for dealing with them. 
+A very quiet week with only improvements. There was one possible regression, but it was removed from consideration due to only barely impacting a somewhat noisy stress-test benchmark. Untriaged pull requests continue to pile up, but there is still not a good process for dealing with them.
 
 Triage done by **@rylev**.
 Revision range: [5c0ca08..998cfe5](https://perf.rust-lang.org/?start=5c0ca08c662399c1c864310d1a20867d3ab68027&end=998cfe5aad7c21eb19a4bca50f05a13354706970&absolute=false&stat=instructions%3Au)
@@ -151,11 +155,7 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> We were able to verify the safety of Rust's type system and thus show how Rust automatically and reliably prevents entire classes of programming errors
-
-– [Ralf Jung on Eureka Alert Science News](https://www.eurekalert.org/pub_releases/2021-07/su-cs071521.php)
-
-Thanks to [Henrik Tougaard](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1084) for the suggestion!
+Sadly, this week saw no quote of the week nominations.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
