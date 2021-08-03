@@ -17,7 +17,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Project/Tooling Updates
-[ConnectorX: accelerate data loading from databases to dataframes](https://github.com/sfu-db/connector-x)
+* [ConnectorX: accelerate data loading from databases to dataframes](https://github.com/sfu-db/connector-x)
+* [This week in SixtyFPS](https://sixtyfps.io/thisweek/2021-08-02.html), a Rust GUI toolkit
 
 ### Observations/Thoughts
 
