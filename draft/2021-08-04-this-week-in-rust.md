@@ -32,6 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Implementing a BLT parser by hand in Rust (vs pest and combine): OpenTally dev log](https://yingtongli.me/blog/2021/07/30/blt-parser.html)
 * [Rust on RISC-V BL602: Is It Sunny?](https://lupyuen.github.io/articles/adc)
+* [Rust Design FAQ for C++ Programmers](https://cppfaq.rs)
 
 ## Crate of the Week
 
