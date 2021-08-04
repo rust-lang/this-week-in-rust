@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 * [ConnectorX: accelerate data loading from databases to dataframes](https://github.com/sfu-db/connector-x)
 * [This week in SixtyFPS (a Rust GUI toolkit)](https://sixtyfps.io/thisweek/2021-08-02.html)
+* [This week in Fluvio 1: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0001/)
 
 ### Observations/Thoughts
 
