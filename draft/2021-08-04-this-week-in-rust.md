@@ -17,7 +17,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Project/Tooling Updates
-[ConnectorX: accelerate data loading from databases to dataframes](https://github.com/sfu-db/connector-x)
+* [ConnectorX: accelerate data loading from databases to dataframes](https://github.com/sfu-db/connector-x)
+* [This week in SixtyFPS (a Rust GUI toolkit)](https://sixtyfps.io/thisweek/2021-08-02.html)
 
 ### Observations/Thoughts
 
@@ -25,6 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 * [Implementing Base64 from scratch with Rust](https://dev.to/tiemen/implementing-base64-from-scratch-in-rust-kb1)
+* [How I built End-to-End Encrypted Messaging in 51 lines of Rust, using the Ockam crate](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/end-to-end-encryption-with-rust#readme)
 
 ### Research
 
@@ -32,6 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Implementing a BLT parser by hand in Rust (vs pest and combine): OpenTally dev log](https://yingtongli.me/blog/2021/07/30/blt-parser.html)
 * [Rust on RISC-V BL602: Is It Sunny?](https://lupyuen.github.io/articles/adc)
+* [Rust Design FAQ for C++ Programmers](https://cppfaq.rs)
 
 ## Crate of the Week
 
@@ -42,6 +45,10 @@ Thanks to [Luke Chu](https://users.rust-lang.org/t/crate-of-the-week/2704/941) f
 [Submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
+
+## Module of the Week
+
+Launching this week is [Rust Module of the Week](https://motw.rs) with [std::fs Part 1](https://motw.rs/blog/2021/08/01/stdfs-part-1/). Contribution and feedback welcome [here](https://github.com/slyons/rust-module-of-the-week).
 
 ## Call for Participation
 
@@ -86,14 +93,14 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-A very quiet week with only improvements. There was one possible regression, but it was removed from consideration due to only barely impacting a somewhat noisy stress-test benchmark. Untriaged pull requests continue to pile up, but there is still not a good process for dealing with them.
+Quiet week for performance, with no large changes. Regressions are limited to just a few benchmarks.
 
-Triage done by **@rylev**.
-Revision range: [5c0ca08..998cfe5](https://perf.rust-lang.org/?start=5c0ca08c662399c1c864310d1a20867d3ab68027&end=998cfe5aad7c21eb19a4bca50f05a13354706970&absolute=false&stat=instructions%3Au)
+Triage done by **@simulacrum**.
+Revision range: [998cfe5..3354a44](https://perf.rust-lang.org/?start=998cfe5aad7c21eb19a4bca50f05a13354706970&end=3354a44d2fa8d5ba6b8d6b40d2596de2c8292ec1&absolute=false&stat=instructions%3Au)
 
-0 Regressions, 3 Improvements, 0 Mixed; 0 of them in rollups
+2 Regressions, 0 Improvements, 0 Mixed; 1 of them in rollups
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-07-27.md).
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-08-03.md).
 
 ### Approved RFCs
 
@@ -132,6 +139,7 @@ decision. Express your opinions now.
 
 * [August 3, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/jxfdjsycclbfb/)
 * [August 9, 2021, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycclbnb/)
+* [August 19, 2021, Manchester, UK - Rust Manchester - Speeding Up the Snake: Extending Python with Rust](https://www.meetup.com/rust-manchester/events/279730616/)
 
 ### North America
 
@@ -147,6 +155,11 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
+**Kollider**
+
+* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
+* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 
 **Parity Technologies**
 
