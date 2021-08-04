@@ -15,23 +15,47 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [Announcing Rust 1.54.0](https://blog.rust-lang.org/2021/07/29/Rust-1.54.0.html)
+* [The push for GATs stabilization](https://blog.rust-lang.org/2021/08/03/GATs-stabilization-push.html)
+* [Inside] [Rust Compile August Steering Cycle](https://blog.rust-lang.org/inside-rust/2021/07/30/compiler-team-august-steering-cycle.html)
 
 ### Project/Tooling Updates
+* [IntelliJ Rust Changelog #152](https://intellij-rust.github.io/2021/08/02/changelog-152.html)
+* [rust-analyzer Changelog #88](https://rust-analyzer.github.io/thisweek/2021/08/02/changelog-88.html)
+* [GCC Rust Monthly Report #8 July 2021](https://thephilbert.io/2021/08/02/gcc-rust-monthly-report-8-july-2021/)
+* [rustc_codegen_gcc: Progress Report #2](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-2)
+* [Rust on Espressif chips](https://mabez.dev/blog/posts/esp-rust-espressif/)
+* [ConnectorX: accelerate data loading from databases to dataframes](https://github.com/sfu-db/connector-x)
 * [ConnectorX: accelerate data loading from databases to dataframes](https://github.com/sfu-db/connector-x)
 * [This week in SixtyFPS (a Rust GUI toolkit)](https://sixtyfps.io/thisweek/2021-08-02.html)
 
 ### Observations/Thoughts
-
 * [Deep Learning in Rust with GPU using onnxruntime-rs](https://able.bio/haixuanTao/deep-learning-in-rust-with-gpu--26c53a7f)
+* [Rewriting my mobile game in Rust targeting WASM](https://itnext.io/rewriting-my-mobile-game-in-rust-targeting-wasm-1f9f82751830)
+* [How to write really slow Rust code](https://renato.athaydes.com/posts/how-to-write-slow-rust-code.html)
+* [Rust: First Thoughts](https://dev.to/mapoulos/rust-first-thoughts-7l0)
+* [5 Reasons Why You Should Start Using Rust for Personal Projects](https://www.bexxmodd.com/post/6/)
+* [A Borrowck Battle to Remember](https://jstrong.dev/posts/2021/borrowck-battle-to-remember/)
+* [audio] [Open Source Security Episode 282 - The security of Rust: who left all this awesome in here?](https://opensourcesecurity.io/2021/08/01/episode-282-the-security-of-rust-who-left-all-this-awesome-in-here/)
 
 ### Rust Walkthroughs
 * [Implementing Base64 from scratch with Rust](https://dev.to/tiemen/implementing-base64-from-scratch-in-rust-kb1)
+* [Improvements for #[doc] attributes in Rust](https://blog.guillaume-gomez.fr/articles/2021-08-03+Improvements+for+%23%5Bdoc%5D+attributes+in+Rust)
+* [How to deploy Rust on Heroku (with Docker)](https://kerkour.com/blog/deploy-rust-on-heroku-with-docker/)
+* [Rust #7: Command-Line interfaces](https://dev.to/cthutu/rust-7-command-line-interfaces-4084)
+* [Adding our own custom statement to Rust language](https://dev.to/xphoniex/adding-our-own-custom-statement-to-rust-language-30lc)
+* [Core dump for Rust](https://dev.to/jcarlosv/core-dump-for-rust-10nm)
+* [Zero to Production in Rust #9: Naive Newsletter Delivery](https://www.lpalmieri.com/posts/naive-newsletter-delivery/)
+* [Interacting with data from FFI in Rust](https://blog.guillaume-gomez.fr/articles/2021-07-29+Interacting+with+data+from+FFI+in+Rust)
 * [How I built End-to-End Encrypted Messaging in 51 lines of Rust, using the Ockam crate](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/end-to-end-encryption-with-rust#readme)
+* [PT] [Resumo: Closure no Rust](https://dev.to/henrybarreto/resumo-closure-no-rust-4gal)
 
 ### Research
 
 ### Miscellaneous
-
+* [Rust is the most loved language, SIX YEARS IN A ROW. StackOverflow Survey 2021 is out!](https://www.reddit.com/r/rust/comments/owll2j/rust_is_the_most_loved_language_six_years_in_a/)
+* [Rust Module of the Week!](https://www.reddit.com/r/rust/comments/owtiuf/rust_module_of_the_week/)
+* [University of Illinois at Urbana-Champaign Graduate (Ralf Jung) receives ACM Doctoral Dissertation Award](https://www.acm.org/media-center/2021/july/dissertation-award-2020)
 * [Implementing a BLT parser by hand in Rust (vs pest and combine): OpenTally dev log](https://yingtongli.me/blog/2021/07/30/blt-parser.html)
 * [Rust on RISC-V BL602: Is It Sunny?](https://lupyuen.github.io/articles/adc)
 * [Rust Design FAQ for C++ Programmers](https://cppfaq.rs)
