@@ -57,6 +57,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [vandenheuvel/relp - A faster implementation of Markowitz' pivot rule in LU factorization](https://github.com/vandenheuvel/relp/issues/15)
+* [vandenheuvel/relp - Parsing the LP file format](https://github.com/vandenheuvel/relp/issues/30)
+* [ockam-network/ockam - Make Rust Errors more idiomatic](https://github.com/ockam-network/ockam/issues/1655)
+* [ockam-network/ockam - File Transfer over end-to-end encrypted secure channels](https://github.com/ockam-network/ockam/issues/1624)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -107,7 +112,7 @@ Revision range: [998cfe5..3354a44](https://perf.rust-lang.org/?start=998cfe5aad7
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [`#[derive(Default)]` on enums with a `#[default]` attribute](https://github.com/rust-lang/rfcs/pull/3107)
+* [Stabilize Cargo's weak-dep-features and namespaced-features.](https://github.com/rust-lang/rfcs/pull/3143)
 * [RFC: Introduce concat_bytes!() to join [u8] and byte str analogous to concat! for str](https://github.com/rust-lang/rfcs/pull/2509)
 
 ### Final Comment Period
@@ -118,27 +123,28 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [Stabilize Cargo's weak-dep-features and namespaced-features.](https://github.com/rust-lang/rfcs/pull/3143)
+*No RFCs are currently in the final comment period.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Stabilize `Vec<T>::shrink_to`](https://github.com/rust-lang/rust/pull/86879)
 * [disposition: merge] [impl Default, Copy, Clone for std::io::Sink and Empty](https://github.com/rust-lang/rust/pull/86744)
-* [disposition: merge] [Allow reifying intrinsics to fn pointers.](https://github.com/rust-lang/rust/pull/86699)
-* [disposition: merge] [Associated functions that contain extern indicator or have #[rustc_std_internal_symbol] are reachable](https://github.com/rust-lang/rust/pull/86492)
 * [disposition: merge] [impl Pattern for char array](https://github.com/rust-lang/rust/pull/86336)
-* [disposition: merge] [Commit to not supporting IPv4-in-IPv6 addresses](https://github.com/rust-lang/rust/pull/86335)
-* [disposition: merge] [Implement `Extend<(A, B)>` for `(Extend<A>, Extend<B>)`](https://github.com/rust-lang/rust/pull/85835)
+* [disposiiton: merge] [Weaken guarantee around advancing underlying iterators in zip](https://github.com/rust-lang/rust/pull/83791)
 
 ### New RFCs
 
-*No new RFCs were proposed this week.*
+* [RFC: Backtrace in core](https://github.com/rust-lang/rfcs/pull/3156)
 
 ## Upcoming Events
 
 ### Online
 
-* [August 3, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/jxfdjsycclbfb/)
+* [August 5, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 * [August 9, 2021, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycclbnb/)
+* [August 10, 2021, Dublin, IE - Rust Dublin August Remote Meetup - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/279788945)
+* [August 18, 2021, Denver, CO, US - Level up our Rust skills by building an ECS by Brooks Patton - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/278909353/)
+* [August 18, 2021, Vancouver, BC, CA - Solving LeetCode Problems with Rust - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsycclbxb/)
 * [August 19, 2021, Manchester, UK - Rust Manchester - Speeding Up the Snake: Extending Python with Rust](https://www.meetup.com/rust-manchester/events/279730616/)
 
 ### North America
@@ -156,15 +162,18 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
-**Kollider**
-
-* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
-* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
-
 **Parity Technologies**
 
 * [Multiple Rust engineering positions available](https://www.parity.io/jobs/)
 
+**Travala**
+
+* [Senior Blockchain Engineer](https://arbeitnow.com/view/senior-blockchain-engineer-travala-359033)
+
+**Kollider**
+
+* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
+* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 
 # Quote of the Week
 
