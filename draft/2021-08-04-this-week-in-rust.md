@@ -27,7 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 * [Implementing Base64 from scratch with Rust](https://dev.to/tiemen/implementing-base64-from-scratch-in-rust-kb1)
 * [How I built End-to-End Encrypted Messaging in 51 lines of Rust, using the Ockam crate](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/end-to-end-encryption-with-rust#readme)
-* [[zh-cn] Tokio Internals - 源码解读和设计分析](https://tony612.github.io/tokio-internals)
+* [ZH] [Tokio Internals - 源码解读和设计分析](https://tony612.github.io/tokio-internals)
 
 ### Research
 
