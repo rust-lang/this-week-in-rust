@@ -15,6 +15,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [Announcing Rust 1.54.0](https://blog.rust-lang.org/2021/07/29/Rust-1.54.0.html)
+* [The push for GATs stabilization](https://blog.rust-lang.org/2021/08/03/GATs-stabilization-push.html)
 
 ### Project/Tooling Updates
 * [ConnectorX: accelerate data loading from databases to dataframes](https://github.com/sfu-db/connector-x)
