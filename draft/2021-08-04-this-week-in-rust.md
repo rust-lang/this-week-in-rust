@@ -21,15 +21,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 * [IntelliJ Rust Changelog #152](https://intellij-rust.github.io/2021/08/02/changelog-152.html)
+* [What's new in IntelliJ Rust](https://blog.jetbrains.com/rust/2021/08/04/what-s-new-in-intellij-rust-for-the-2021-2-release-cycle/)
 * [rust-analyzer Changelog #88](https://rust-analyzer.github.io/thisweek/2021/08/02/changelog-88.html)
 * [GCC Rust Monthly Report #8 July 2021](https://thephilbert.io/2021/08/02/gcc-rust-monthly-report-8-july-2021/)
 * [rustc_codegen_gcc: Progress Report #2](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-2)
 * [Rust on Espressif chips](https://mabez.dev/blog/posts/esp-rust-espressif/)
 * [ConnectorX: accelerate data loading from databases to dataframes](https://github.com/sfu-db/connector-x)
-* [ConnectorX: accelerate data loading from databases to dataframes](https://github.com/sfu-db/connector-x)
 * [This week in SixtyFPS (a Rust GUI toolkit)](https://sixtyfps.io/thisweek/2021-08-02.html)
 * [This week in Fluvio 1: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0001/)
-* [What's new in IntelliJ Rust](https://blog.jetbrains.com/rust/2021/08/04/what-s-new-in-intellij-rust-for-the-2021-2-release-cycle/)
 * [This week in Datafuse #1](https://datafuselabs.github.io/weekly/2021-08-04-datafuse-weekly/)
 * [This Week In TensorBase 14](https://tensorbase.io/thisweek/2021-08-04-tw_14/)
 
@@ -45,7 +44,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 * [Async Rust From The Ground Up: A Simple Web Server](https://ibraheem.ca/writings/a-simple-web-server/)
-* [How to deploy Rust on Heroku (with Docker)](https://kerkour.com/blog/deploy-rust-on-heroku-with-docker/)
 * [Implementing Base64 from scratch with Rust](https://dev.to/tiemen/implementing-base64-from-scratch-in-rust-kb1)
 * [Improvements for #[doc] attributes in Rust](https://blog.guillaume-gomez.fr/articles/2021-08-03+Improvements+for+%23%5Bdoc%5D+attributes+in+Rust)
 * [How to deploy Rust on Heroku (with Docker)](https://kerkour.com/blog/deploy-rust-on-heroku-with-docker/)
