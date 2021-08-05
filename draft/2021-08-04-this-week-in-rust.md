@@ -182,14 +182,23 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Blockchain Engineer](https://arbeitnow.com/view/senior-blockchain-engineer-travala-359033)
 
+**ChainSafe**
+
+* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
 **Kollider**
 
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 * [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 
-**ChainSafe**
+**Kraken**
 
-* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+* [Senior Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
+* [Senior Banking Engineer - Rust (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
+
+**Subspace Labs**
+
+* [Several Rust positions available](https://jobs.lever.co/subspacelabs)
 
 # Quote of the Week
 
