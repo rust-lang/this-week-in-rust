@@ -56,8 +56,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [PT] [Resumo: Closure no Rust](https://dev.to/henrybarreto/resumo-closure-no-rust-4gal)
 * [ZH] [Tokio Internals - 源码解读和设计分析](https://tony612.github.io/tokio-internals)
 
-### Research
-
 ### Miscellaneous
 * [Rust is the most loved language, SIX YEARS IN A ROW. StackOverflow Survey 2021 is out!](https://www.reddit.com/r/rust/comments/owll2j/rust_is_the_most_loved_language_six_years_in_a/)
 * [Rust Module of the Week!](https://www.reddit.com/r/rust/comments/owtiuf/rust_module_of_the_week/)
