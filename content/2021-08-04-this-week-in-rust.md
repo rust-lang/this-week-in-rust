@@ -160,7 +160,7 @@ decision. Express your opinions now.
 * [disposition: merge] [Stabilize `Vec<T>::shrink_to`](https://github.com/rust-lang/rust/pull/86879)
 * [disposition: merge] [impl Default, Copy, Clone for std::io::Sink and Empty](https://github.com/rust-lang/rust/pull/86744)
 * [disposition: merge] [impl Pattern for char array](https://github.com/rust-lang/rust/pull/86336)
-* [disposiiton: merge] [Weaken guarantee around advancing underlying iterators in zip](https://github.com/rust-lang/rust/pull/83791)
+* [disposition: merge] [Weaken guarantee around advancing underlying iterators in zip](https://github.com/rust-lang/rust/pull/83791)
 
 ### New RFCs
 
