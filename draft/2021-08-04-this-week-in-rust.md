@@ -15,18 +15,28 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [Announcing Rust 1.54.0](https://blog.rust-lang.org/2021/07/29/Rust-1.54.0.html)
+* [The push for GATs stabilization](https://blog.rust-lang.org/2021/08/03/GATs-stabilization-push.html)
 
 ### Project/Tooling Updates
 * [ConnectorX: accelerate data loading from databases to dataframes](https://github.com/sfu-db/connector-x)
 * [This week in SixtyFPS (a Rust GUI toolkit)](https://sixtyfps.io/thisweek/2021-08-02.html)
+* [This week in Fluvio 1: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0001/)
+* [What's new in IntelliJ Rust](https://blog.jetbrains.com/rust/2021/08/04/what-s-new-in-intellij-rust-for-the-2021-2-release-cycle/)
+* [This week in Datafuse #1](https://datafuselabs.github.io/weekly/2021-08-04-datafuse-weekly/)
+* [This Week In TensorBase 14](https://tensorbase.io/thisweek/2021-08-04-tw_14/)
 
 ### Observations/Thoughts
 
+* [15k inserts/s with Rust and SQLite](https://kerkour.com/blog/high-performance-rust-with-sqlite/)
 * [Deep Learning in Rust with GPU using onnxruntime-rs](https://able.bio/haixuanTao/deep-learning-in-rust-with-gpu--26c53a7f)
 
 ### Rust Walkthroughs
+
+* [How to deploy Rust on Heroku (with Docker)](https://kerkour.com/blog/deploy-rust-on-heroku-with-docker/)
 * [Implementing Base64 from scratch with Rust](https://dev.to/tiemen/implementing-base64-from-scratch-in-rust-kb1)
 * [How I built End-to-End Encrypted Messaging in 51 lines of Rust, using the Ockam crate](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/end-to-end-encryption-with-rust#readme)
+* [ZH] [Tokio Internals - 源码解读和设计分析](https://tony612.github.io/tokio-internals)
 
 ### Research
 
@@ -36,6 +46,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust on RISC-V BL602: Is It Sunny?](https://lupyuen.github.io/articles/adc)
 * [Rust Design FAQ for C++ Programmers](https://cppfaq.rs)
 * [🦀 Role-Based Access Control (RBAC) Guide in Rust](https://docs.osohq.com/rust/guides/roles/getting-started.html)
+* [betterCode Rust Conference announced (October 13)](https://rust.bettercode.eu/)
 
 ## Crate of the Week
 
@@ -175,6 +186,10 @@ Email the [Rust Community Team][community] for access.
 
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 * [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
+
+**ChainSafe**
+
+* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
 
 # Quote of the Week
 
