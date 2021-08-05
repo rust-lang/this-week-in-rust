@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 * [ConnectorX: accelerate data loading from databases to dataframes](https://github.com/sfu-db/connector-x)
 * [This week in SixtyFPS (a Rust GUI toolkit)](https://sixtyfps.io/thisweek/2021-08-02.html)
+* [What's new in IntelliJ Rust](https://blog.jetbrains.com/rust/2021/08/04/what-s-new-in-intellij-rust-for-the-2021-2-release-cycle/)
 * [This week in Datafuse #1](https://datafuselabs.github.io/weekly/2021-08-04-datafuse-weekly/)
 * [This Week In TensorBase 14](https://tensorbase.io/thisweek/2021-08-04-tw_14/)
 
