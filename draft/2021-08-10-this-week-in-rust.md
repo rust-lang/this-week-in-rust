@@ -147,6 +147,10 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+**Xayn**
+
+* [(Senior) Rust Engineer (Berlin, Germany)](https://xayn.jobs.personio.de/job/288899)
+
 # Quote of the Week
 
 Sadly, this week saw no quote of the week nominations.
