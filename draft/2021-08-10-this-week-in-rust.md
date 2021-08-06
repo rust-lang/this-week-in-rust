@@ -20,16 +20,23 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [SixtyFPS weekly report for 8th of August 2021](https://sixtyfps.io/thisweek/2021-08-09.html)
 * [How do Mina nodes communicate? Implementing bin_prot in Rust](https://medium.com/chainsafe-systems/how-do-mina-nodes-communicate-5a10b80fa253)
+* [Trunk v0.10 – v0.13](https://trunkrs.dev/blog/v10-v13/)
 
 ### Observations/Thoughts
+
 * [On Collecting Result Types in Rust](https://diaries.vercel.app/posts/collecting-result/)
 
 ### Rust Walkthroughs
+
+* [Rust cli example: Ferris fetches Go gopher postcards](https://dev.to/uggla/rust-cli-example-ferris-fetches-go-gopher-postcards-3gb5)
+* [A Little Bit About PRNG Stuff](https://lokathor.github.io/prng/)
 * [JP] [Rust で Web バックエンド開発をはじめる](https://developers.cyberagent.co.jp/blog/archives/31110/)
 
 ### Research
 
 ### Miscellaneous
+
+* [SIMD usage in C++, C# and RUST](https://vksegfault.github.io/posts/simd-usage-cpp-csharp-rust/)
 
 ## Crate of the Week
 
@@ -147,6 +154,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**TrueLayer**
+
+* [Associate Software Engineer - PayDirect (Milan, IT)](https://apply.workable.com/truelayer/j/42914EDDEC/)
+
 **Kollider**
 
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
@@ -168,6 +179,12 @@ Email the [Rust Community Team][community] for access.
 **ChainSafe**
 
 * [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
+**Kraken**
+
+* [Senior Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
+* [Senior Banking Engineer - Rust (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
+
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
