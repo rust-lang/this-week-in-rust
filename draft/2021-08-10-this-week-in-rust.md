@@ -58,6 +58,9 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 * [rust-lang/this-week-in-rust - Feature request: Dark theme for the website](https://github.com/rust-lang/this-week-in-rust/issues/2274)
+* [Stranger6667/jsonschema-rs - Implement the uuid format validator](https://github.com/Stranger6667/jsonschema-rs/issues/266)
+* [Stranger6667/jsonschema-rs - Implement the duration format validator](https://github.com/Stranger6667/jsonschema-rs/issues/265)
+* [Stranger6667/jsonschema-rs - Option to turn off processing of the format keyword](https://github.com/Stranger6667/jsonschema-rs/issues/261)
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
@@ -106,8 +109,7 @@ Revision range: [998cfe5..3354a44](https://perf.rust-lang.org/?start=998cfe5aad7
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Stabilize Cargo's weak-dep-features and namespaced-features.](https://github.com/rust-lang/rfcs/pull/3143)
-* [RFC: Introduce concat_bytes!() to join [u8] and byte str analogous to concat! for str](https://github.com/rust-lang/rfcs/pull/2509)
+* [RFC: Overconstraining and omitting unsafe in impls of unsafe trait methods](https://github.com/rust-lang/rfcs/pull/2316)
 
 ### Final Comment Period
 
@@ -121,22 +123,17 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize `Vec<T>::shrink_to`](https://github.com/rust-lang/rust/pull/86879)
-* [disposition: merge] [impl Default, Copy, Clone for std::io::Sink and Empty](https://github.com/rust-lang/rust/pull/86744)
-* [disposition: merge] [impl Pattern for char array](https://github.com/rust-lang/rust/pull/86336)
-* [disposiiton: merge] [Weaken guarantee around advancing underlying iterators in zip](https://github.com/rust-lang/rust/pull/83791)
+* [disposition: merge] [Tracking issue for UnsafeCell::raw_get](https://github.com/rust-lang/rust/issues/66358)
 
 ### New RFCs
 
-* [RFC: Backtrace in core](https://github.com/rust-lang/rfcs/pull/3156)
+* [RFC: let-expression](https://github.com/rust-lang/rfcs/pull/3159)
 
 ## Upcoming Events
 
 ### Online
 
-* [August 5, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
-* [August 9, 2021, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrycclbnb/)
-* [August 10, 2021, Dublin, IE - Rust Dublin August Remote Meetup - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/279788945)
+* [August 10, 2021, Dallas, TX, US - Second Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/vqtjcsycclbnb/)
 * [August 18, 2021, Denver, CO, US - Level up our Rust skills by building an ECS by Brooks Patton - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/278909353/)
 * [August 18, 2021, Vancouver, BC, CA - Solving LeetCode Problems with Rust - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsycclbxb/)
 * [August 19, 2021, Manchester, UK - Rust Manchester - Speeding Up the Snake: Extending Python with Rust](https://www.meetup.com/rust-manchester/events/279730616/)
