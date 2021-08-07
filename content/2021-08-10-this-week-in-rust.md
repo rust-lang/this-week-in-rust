@@ -185,33 +185,32 @@ Email the [Rust Community Team][community] for access.
 
 * [Associate Software Engineer - PayDirect (Milan, IT)](https://apply.workable.com/truelayer/j/42914EDDEC/)
 
+**Xayn**
+
+* [(Senior) Rust Engineer (Berlin, Germany)](https://xayn.jobs.personio.de/job/288899)
+
+**ChainSafe**
+
+* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
 **Kollider**
 
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 * [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
-
-**Tempus Ex**
-
-* [Several positions available (San Francisco, Atlanta, Austin, and Remote)](https://tempus-ex.com/careers?r=twir)
-
-**Xayn**
-
-* [(Senior) Rust Engineer (Berlin, Germany)](https://xayn.jobs.personio.de/job/288899)
 
 **NZXT**
 
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
 * [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
 
-**ChainSafe**
-
-* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
-
 **Kraken**
 
 * [Senior Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4c864c8f-bde6-443d-b521-dd90df0e9105)
 * [Senior Banking Engineer - Rust (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
+**Tempus Ex**
+
+* [Several positions available (San Francisco, CA, US, Atlanta, GA, US, Austin, TX, US and Remote)](https://tempus-ex.com/careers?r=twir)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
