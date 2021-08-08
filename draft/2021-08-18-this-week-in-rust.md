@@ -33,18 +33,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [A fast port scanner in 100 lines of Rust](https://kerkour.com/blog/rust-fast-port-scanner)
 * [RPC to call a Runtime API easily in Substrate](https://blog.knoldus.com/rpc-to-call-a-runtime-api-easily-in-substrate/)
-
-### Rust Walkthroughs
-- [Writing a lambda in Rust using lambda-runtime and aws-sdk-rust](https://dev.to/aviillouz/writing-a-lambda-with-rust-using-aws-lambda-rust-runtime-and-aws-sdk-rust-1aln)
-
+* [Writing a lambda in Rust using lambda-runtime and aws-sdk-rust](https://dev.to/aviillouz/writing-a-lambda-with-rust-using-aws-lambda-rust-runtime-and-aws-sdk-rust-1aln)
 * [Daily Rust: Slice Patterns](https://adventures.michaelfbryan.com/posts/daily/slice-patterns/)
 * [Learning Rust by building an SSH cli tool](https://saidvandeklundert.net/learn/2021-08-06-rust-ssh-cli-tool/)
+* [Getting started with Rust programming language 🦀 2021: 4. Building a CLI app in Rust](https://www.youtube.com/watch?v=4km2UijVC3M)
 
 ### Research
 
 ### Miscellaneous
 
 * [Rust on RISC-V BL602: Simulated with WebAssembly](https://lupyuen.github.io/articles/rustsim)
+* [Calling WebAssembly from Rust](https://paulbutler.org/2021/calling-webassembly-from-rust/)
 
 ## Crate of the Week
 
@@ -160,6 +159,10 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Rust Engineer (Seattle)](https://jobs.apple.com/en-us/details/200256576/ai-ml-software-engineer-information-intelligence?team=MLAI) 
 
+**Nymi**
+
+* [Senior Software Developer](https://www.nymi.com/careers)
+
 **Dialectic AG**
 
 * [Software Development Intern - Rust (EU / CH)](https://swissdevjobs.ch/de/jobs/Dialectic-AG-Software-Development-Intern)
@@ -181,6 +184,14 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
 * [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
+
+**Stader**
+
+* [Senior & Junior Rust Developer (Remote)](https://www.notion.so/Job-Openings-at-Stader-a0faadf6454c4f29a68f23851d901619?p=519b05172ea04263ae09a2d54b004c15)
+
+**Subspace Labs**
+
+* [Several positions available (Remote)](https://jobs.lever.co/subspacelabs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
