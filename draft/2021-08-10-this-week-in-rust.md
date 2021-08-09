@@ -28,9 +28,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [sycamore](https://crates.io/crates/sycamore), a crate for making web applications using WebAssembly..
+This week's crate is [ockam](https://crates.io/crates/ockam), a crate to implement transport-agnostic end-to-end encryption for the rest of us.
 
-Thanks to [Luke Chu](https://users.rust-lang.org/t/crate-of-the-week/2704/941) for the self-suggestion.
+Thanks to [staticassert](https://users.rust-lang.org/t/crate-of-the-week/2704/943) for the self-suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
@@ -55,31 +55,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 324 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-07-26..2021-08-02
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-08-02..2021-08-09
 
-* [`#[derive(Default)]` on enums with a `#[default]` attribute](https://github.com/rust-lang/rust/pull/86735) (RFC [#3107](https://rust-lang.github.io/rfcs/3107-derive-enum-default.html))
-* [fix issue with autofix for ambiguous associated function from Rust 2021 prelude when struct is generic](https://github.com/rust-lang/rust/pull/87557)
-* [add flag to configure `large_assignments` lint](https://github.com/rust-lang/rust/pull/86450)
-* [make const `panic!("..")` work in Rust 2021](https://github.com/rust-lang/rust/pull/86998)
-* [suggest removing unnecessary `&mut` as help message](https://github.com/rust-lang/rust/pull/87453)
-* [suggest `;` on parse error where applicable](https://github.com/rust-lang/rust/pull/87436)
-* [fix invalid suggestions for non-ASCII characters in byte constants](https://github.com/rust-lang/rust/pull/87659)
-* [tweak opaque type mismatch error](https://github.com/rust-lang/rust/pull/87673)
-* [bail on any found recursion when expanding opaque types](https://github.com/rust-lang/rust/pull/87546)
-* [polonius: compute subset errors everywhere](https://github.com/rust-lang/polonius/pull/156)
-* [MIR borrowck does not generate lifetime variables for `'static` lifetimes during opaque type resolution](https://github.com/rust-lang/rust/pull/87483)
-* [tweak borrowing suggestion in `for` loop](https://github.com/rust-lang/rust/pull/87559)
-* [remove unsound `TrustedRandomAccess` implementations](https://github.com/rust-lang/rust/pull/85874)
-* [BTree: lazily locate leaves in rangeless iterators](https://github.com/rust-lang/rust/pull/86031)
-* [partially stabilize `const_slice_first_last`](https://github.com/rust-lang/rust/pull/86593)
-* [stabilize `core::task::ready!`](https://github.com/rust-lang/rust/pull/81050)
-* [stabilize `const_fn_transmute`, `const_fn_union`](https://github.com/rust-lang/rust/pull/85769)
-* [implement `fold()` on `array::IntoIter` to improve `flatten().collect()` perf](https://github.com/rust-lang/rust/pull/87431)
-* [optimize `fmt::PadAdapter::wrap`](https://github.com/rust-lang/rust/pull/87052)
-* [remove `P: Unpin` bound on `impl Future for Pin`](https://github.com/rust-lang/rust/pull/81363)
-* [futures: use `futuresordered` in `join_all`](https://github.com/rust-lang/futures-rs/pull/2412)
-* [clippy: cover `Result` on `map_flatten` lint](https://github.com/rust-lang/rust-clippy/pull/7522)
-* [clippy: fix `while_let_on_iterator`](https://github.com/rust-lang/rust-clippy/pull/7520)
+* [fill out remaining parts of C-unwind ABI](https://github.com/rust-lang/rust/pull/86155)
+* [CTFE: throw unsupported error when partially overwriting a pointer](https://github.com/rust-lang/rust/pull/87248)
+* [proc macro spans: make columns 1 based](https://github.com/rust-lang/rust/pull/87712)
+* [improve diagnostics for wrongly ordered keywords in function declaration](https://github.com/rust-lang/rust/pull/87235)
+* [replace `HirId`s with `LocalDefId`s in `AccessLevels` tables](https://github.com/rust-lang/rust/pull/87568)
+* [add `config.toml` options for enabling overflow checks in rustc and std](https://github.com/rust-lang/rust/pull/87784)
+* [use zeroed allocations in the mir interpreter instead eagerly touching the memory](https://github.com/rust-lang/rust/pull/87777)
+* [only compute `is_freeze` for layout-constrained ADTs](https://github.com/rust-lang/rust/pull/87737)
+* [allow generic SIMD array element type](https://github.com/rust-lang/rust/pull/87716)
+* [properly find owner of closure in THIR unsafeck](https://github.com/rust-lang/rust/pull/87645)
+* [make `wrapping_neg()` use `wrapping_sub()`, `#[inline(always)]`](https://github.com/rust-lang/rust/pull/87150)
+* [stabilize `Vec<T>::shrink_to`](https://github.com/rust-lang/rust/pull/86879)
+* [`impl Default, Copy, Clone for std::io::Sink` and `Empty`](https://github.com/rust-lang/rust/pull/86744)
+* [change environment variable getters to error recoverably](https://github.com/rust-lang/rust/pull/86183)
+* [add `core::stream::from_iter`](https://github.com/rust-lang/rust/pull/81797)
+* [futures: implement `Default` for `OptionFuture`](https://github.com/rust-lang/futures-rs/pull/2471)
+* [clippy: don't emit `too_many_lines` for closures](https://github.com/rust-lang/rust-clippy/pull/7534)
+* [clippy: add xor case to manual swap lint](https://github.com/rust-lang/rust-clippy/pull/7506)
 
 ### Rust Compiler Performance Triage
 
@@ -149,7 +144,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-Sadly, this week saw no quote of the week nominations.
+We regrettably lack nominations,  
+so as I can't choose fresh quotations,  
+at last nor this time,  
+I'll offer this rhyme  
+to quell all discombombulations.
+
+– a very sorry llogiq
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
