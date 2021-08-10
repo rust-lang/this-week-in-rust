@@ -17,7 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 * [Announcing Rust 1.54.0](https://blog.rust-lang.org/2021/07/29/Rust-1.54.0.html)
 * [The push for GATs stabilization](https://blog.rust-lang.org/2021/08/03/GATs-stabilization-push.html)
-* [Inside] [Rust Compile August Steering Cycle](https://blog.rust-lang.org/inside-rust/2021/07/30/compiler-team-august-steering-cycle.html)
+* [Inside] [Rust Compiler August Steering Cycle](https://blog.rust-lang.org/inside-rust/2021/07/30/compiler-team-august-steering-cycle.html)
 
 ### Project/Tooling Updates
 * [IntelliJ Rust Changelog #152](https://intellij-rust.github.io/2021/08/02/changelog-152.html)
