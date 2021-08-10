@@ -42,7 +42,7 @@ Thanks to [staticassert](https://users.rust-lang.org/t/crate-of-the-week/2704/94
 
 ## Module of the Week
 
-Launching this week is [Rust Module of the Week](https://motw.rs) with [std::fs Part 1](https://motw.rs/blog/2021/08/01/stdfs-part-1/). Contribution and feedback welcome [here](https://github.com/slyons/rust-module-of-the-week).
+Continuing [Rust Module of the Week](https://motw.rs) this week is [std::fs Part 2: Dirs, Dirs, Dirs](https://motw.rs/blog/2021/08/08/stdfs-part-2-dirs-dirs-dirs/). Contribution and feedback welcome [here](https://github.com/slyons/rust-module-of-the-week).
 
 ## Call for Participation
 
