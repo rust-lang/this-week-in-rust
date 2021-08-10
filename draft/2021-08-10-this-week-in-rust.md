@@ -49,6 +49,8 @@ Launching this week is [Rust Module of the Week](https://motw.rs) with [std::fs 
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
+* [rust-lang/this-week-in-rust - Feature request: Dark theme for the website](https://github.com/rust-lang/this-week-in-rust/issues/2274)
+
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
