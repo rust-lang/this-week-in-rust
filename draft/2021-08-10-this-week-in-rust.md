@@ -153,11 +153,16 @@ Email the [Rust Community Team][community] for access.
 
 * [Several positions available (San Francisco, Atlanta, Austin, and Remote)](https://tempus-ex.com/careers?r=twir)
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
-
 **Xayn**
 
 * [(Senior) Rust Engineer (Berlin, Germany)](https://xayn.jobs.personio.de/job/288899)
+
+**NZXT**
+
+* [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
+* [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
