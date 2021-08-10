@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [SixtyFPS weekly report for 8th of August 2021](https://sixtyfps.io/thisweek/2021-08-09.html)
+
 ### Observations/Thoughts
 * [On Collecting Result Types in Rust](https://diaries.vercel.app/posts/collecting-result/)
 
