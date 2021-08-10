@@ -146,6 +146,11 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Kollider**
+
+* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
+* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
+
 **Tempus Ex**
 
 * [Several positions available (San Francisco, Atlanta, Austin, and Remote)](https://tempus-ex.com/careers?r=twir)
