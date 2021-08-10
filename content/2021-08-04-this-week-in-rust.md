@@ -17,7 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 * [Announcing Rust 1.54.0](https://blog.rust-lang.org/2021/07/29/Rust-1.54.0.html)
 * [The push for GATs stabilization](https://blog.rust-lang.org/2021/08/03/GATs-stabilization-push.html)
-* [Inside] [Rust Compile August Steering Cycle](https://blog.rust-lang.org/inside-rust/2021/07/30/compiler-team-august-steering-cycle.html)
+* [Inside] [Rust Compiler August Steering Cycle](https://blog.rust-lang.org/inside-rust/2021/07/30/compiler-team-august-steering-cycle.html)
 
 ### Project/Tooling Updates
 * [IntelliJ Rust Changelog #152](https://intellij-rust.github.io/2021/08/02/changelog-152.html)
@@ -54,7 +54,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Interacting with data from FFI in Rust](https://blog.guillaume-gomez.fr/articles/2021-07-29+Interacting+with+data+from+FFI+in+Rust)
 * [How I built End-to-End Encrypted Messaging in 51 lines of Rust, using the Ockam crate](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/end-to-end-encryption-with-rust#readme)
 * [PT] [Resumo: Closure no Rust](https://dev.to/henrybarreto/resumo-closure-no-rust-4gal)
-* [ZH] [Tokio Internals - 源码解读和设计分析](https://tony612.github.io/tokio-internals)
+* [ZH-CN] [Tokio Internals - 源码解读和设计分析](https://tony612.github.io/tokio-internals)
 
 ### Miscellaneous
 * [Rust is the most loved language, SIX YEARS IN A ROW. StackOverflow Survey 2021 is out!](https://www.reddit.com/r/rust/comments/owll2j/rust_is_the_most_loved_language_six_years_in_a/)

@@ -18,9 +18,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [SixtyFPS weekly report for 8th of August 2021](https://sixtyfps.io/thisweek/2021-08-09.html)
+
 ### Observations/Thoughts
+* [On Collecting Result Types in Rust](https://diaries.vercel.app/posts/collecting-result/)
 
 ### Rust Walkthroughs
+* [JP] [Rust で Web バックエンド開発をはじめる](https://developers.cyberagent.co.jp/blog/archives/31110/)
 
 ### Research
 
@@ -144,6 +148,14 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Tempus Ex**
+
+* [Several positions available (San Francisco, Atlanta, Austin, and Remote)](https://tempus-ex.com/careers?r=twir)
+
+**Xayn**
+
+* [(Senior) Rust Engineer (Berlin, Germany)](https://xayn.jobs.personio.de/job/288899)
 
 **NZXT**
 
