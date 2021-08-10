@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [On Collecting Result Types in Rust](https://diaries.vercel.app/posts/collecting-result/)
 
 ### Rust Walkthroughs
 * [JP] [Rust で Web バックエンド開発をはじめる](https://developers.cyberagent.co.jp/blog/archives/31110/)
