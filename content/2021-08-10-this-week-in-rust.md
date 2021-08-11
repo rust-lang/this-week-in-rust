@@ -35,6 +35,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Bevy's First Birthday](https://bevyengine.org/news/bevys-first-birthday/)
 * [Progress report on rustc_codegen_cranelift (July 2021)](https://bjorn3.github.io/2021/08/05/progress-report-july-2021.html)
 * [[upcoming] Volt - A rust-based package manager that's up to 12x faster than Yarn](https://www.reddit.com/r/rust/comments/oymdoj/upcoming_volt_a_rustbased_package_manager_thats/)
+* [This week in Datafuse #2](https://datafuselabs.github.io/weekly/2021-08-11-datafuse-weekly/)
 
 ### Observations/Thoughts
 * [On Collecting Result Types in Rust](https://diaries.vercel.app/posts/collecting-result/)
