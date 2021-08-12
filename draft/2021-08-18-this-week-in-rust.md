@@ -136,6 +136,8 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Apple**
+* [Senior Rust Engineer (Seattle)](https://jobs.apple.com/en-us/details/200256576/ai-ml-software-engineer-information-intelligence?team=MLAI) 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
