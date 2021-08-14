@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+- [Daily Rust: Slice Patterns](https://adventures.michaelfbryan.com/posts/daily/slice-patterns/)
+
 ### Research
 
 ### Miscellaneous
