@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+[Relm4 beta released 🎉](https://aaronerhardt.github.io/blog/posts/relm_beta/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
