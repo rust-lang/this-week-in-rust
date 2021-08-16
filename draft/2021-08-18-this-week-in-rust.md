@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Sixtyfps weekly report for 16th of August 2021](https://sixtyfps.io/thisweek/2021-08-16.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
