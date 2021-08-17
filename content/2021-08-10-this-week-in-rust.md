@@ -72,7 +72,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 This week's crate is [ockam](https://crates.io/crates/ockam), a crate to implement transport-agnostic end-to-end encryption for the rest of us.
 
-Thanks to [staticassert](https://users.rust-lang.org/t/crate-of-the-week/2704/943) for the self-suggestion.
+Thanks to [staticassert](https://users.rust-lang.org/t/crate-of-the-week/2704/943) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
