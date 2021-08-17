@@ -159,6 +159,7 @@ Email the [Rust Community Team][community] for access.
 **Apple**
 
 * [Senior Rust Engineer (Seattle)](https://jobs.apple.com/en-us/details/200256576/ai-ml-software-engineer-information-intelligence?team=MLAI) 
+* [Software Engineer, Distributed Block Storage (Seattle, WA, USA)](https://jobs.apple.com/en-us/details/200275619/software-engineer?team=SFTWR)
 
 **Dialectic AG**
 
