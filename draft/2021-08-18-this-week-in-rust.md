@@ -12,6 +12,8 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/rust-lang/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
+In the case of this newsletter, 404 is indeed found!
+
 ## Updates from Rust Community
 
 ### Official
@@ -33,18 +35,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [A fast port scanner in 100 lines of Rust](https://kerkour.com/blog/rust-fast-port-scanner)
 * [RPC to call a Runtime API easily in Substrate](https://blog.knoldus.com/rpc-to-call-a-runtime-api-easily-in-substrate/)
-
-### Rust Walkthroughs
-- [Writing a lambda in Rust using lambda-runtime and aws-sdk-rust](https://dev.to/aviillouz/writing-a-lambda-with-rust-using-aws-lambda-rust-runtime-and-aws-sdk-rust-1aln)
-
+* [Writing a lambda in Rust using lambda-runtime and aws-sdk-rust](https://dev.to/aviillouz/writing-a-lambda-with-rust-using-aws-lambda-rust-runtime-and-aws-sdk-rust-1aln)
 * [Daily Rust: Slice Patterns](https://adventures.michaelfbryan.com/posts/daily/slice-patterns/)
 * [Learning Rust by building an SSH cli tool](https://saidvandeklundert.net/learn/2021-08-06-rust-ssh-cli-tool/)
+* [Getting started with Rust programming language 🦀 2021: 4. Building a CLI app in Rust](https://www.youtube.com/watch?v=4km2UijVC3M)
 
 ### Research
 
 ### Miscellaneous
 
 * [Rust on RISC-V BL602: Simulated with WebAssembly](https://lupyuen.github.io/articles/rustsim)
+* [Calling WebAssembly from Rust](https://paulbutler.org/2021/calling-webassembly-from-rust/)
 
 ## Crate of the Week
 
@@ -68,6 +69,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * GitUI has an easy to get started code base, mentoring and [good-first-issues waiting](https://github.com/extrawurst/gitui/labels/good%20first%20issue)
+* [getsynth/synth - Support postgres json and jsonb types](https://github.com/getsynth/synth/issues/67)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -114,7 +116,7 @@ Revision range: [998cfe5..3354a44](https://perf.rust-lang.org/?start=998cfe5aad7
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC: Overconstraining and omitting unsafe in impls of unsafe trait methods](https://github.com/rust-lang/rfcs/pull/2316)
+*No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -128,7 +130,7 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Tracking issue for UnsafeCell::raw_get](https://github.com/rust-lang/rust/issues/66358)
+* [disposition: merge] [Stabilize "force warn" option](https://github.com/rust-lang/rust/issues/86516)
 
 ### New RFCs
 
@@ -138,14 +140,11 @@ decision. Express your opinions now.
 
 ### Online
 
-* [August 10, 2021, Dallas, TX, US - Second Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/vqtjcsycclbnb/)
 * [August 18, 2021, Denver, CO, US - Level up our Rust skills by building an ECS by Brooks Patton - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/278909353/)
 * [August 18, 2021, Vancouver, BC, CA - Solving LeetCode Problems with Rust - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsycclbxb/)
 * [August 19, 2021, Manchester, UK - Rust Manchester - Speeding Up the Snake: Extending Python with Rust](https://www.meetup.com/rust-manchester/events/279730616/)
-
-### North America
-
-* [August 11, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/lhpkmsycclbpb/)
+* [August 19, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
+* [August 31, 2021, Dallas, TX - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -160,6 +159,10 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Rust Engineer (Seattle)](https://jobs.apple.com/en-us/details/200256576/ai-ml-software-engineer-information-intelligence?team=MLAI) 
 * [Software Engineer, Distributed Block Storage (Seattle, WA, USA)](https://jobs.apple.com/en-us/details/200275619/software-engineer?team=SFTWR)
+
+**Nymi**
+
+* [Senior Software Developer](https://www.nymi.com/careers)
 
 **Dialectic AG**
 
@@ -182,6 +185,14 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
 * [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
+
+**Stader**
+
+* [Senior & Junior Rust Developer (Remote)](https://www.notion.so/Job-Openings-at-Stader-a0faadf6454c4f29a68f23851d901619?p=519b05172ea04263ae09a2d54b004c15)
+
+**Subspace Labs**
+
+* [Several positions available (Remote)](https://jobs.lever.co/subspacelabs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
