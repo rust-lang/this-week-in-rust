@@ -38,7 +38,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rewriting my mobile game in Rust targeting WASM](https://itnext.io/rewriting-my-mobile-game-in-rust-targeting-wasm-1f9f82751830)
 * [How to write really slow Rust code](https://renato.athaydes.com/posts/how-to-write-slow-rust-code.html)
 * [Rust: First Thoughts](https://dev.to/mapoulos/rust-first-thoughts-7l0)
-* [5 Reasons Why You Should Start Using Rust for Personal Projects](https://www.bexxmodd.com/post/6/)
+* [5 Reasons Why You Should Start Using Rust for Personal Projects](https://www.bexxmodd.com/post/5-reasons-why-use-rust)
 * [A Borrowck Battle to Remember](https://jstrong.dev/posts/2021/borrowck-battle-to-remember/)
 * [audio] [Open Source Security Episode 282 - The security of Rust: who left all this awesome in here?](https://opensourcesecurity.io/2021/08/01/episode-282-the-security-of-rust-who-left-all-this-awesome-in-here/)
 
