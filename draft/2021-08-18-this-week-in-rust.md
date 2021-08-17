@@ -26,6 +26,7 @@ In the case of this newsletter, 404 is indeed found!
 * [Relm4 beta released 🎉](https://aaronerhardt.github.io/blog/posts/relm_beta/)
 * [This week in Fluvio #2: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0002/)
 * [This Week In TensorBase 15](https://tensorbase.io/thisweek/2021-08-11-tw_15/)
+* [nailing-cargo 1.0.0 - cargo wrapper for privsep, and for unpublished dependencies](https://diziet.dreamwidth.org/)
 
 ### Observations/Thoughts
 
