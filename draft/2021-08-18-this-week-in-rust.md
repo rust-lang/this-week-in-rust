@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [RPC to call a Runtime API easily in Substrate](https://blog.knoldus.com/rpc-to-call-a-runtime-api-easily-in-substrate/)
+
 ### Rust Walkthroughs
 
 [Learning Rust by building an SSH cli tool](https://saidvandeklundert.net/learn/2021-08-06-rust-ssh-cli-tool/)
