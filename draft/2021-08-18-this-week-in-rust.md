@@ -20,9 +20,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Relm4 beta released 🎉](https://aaronerhardt.github.io/blog/posts/relm_beta/)
+* [This week in Fluvio #2: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0002/)
+* [This Week In TensorBase 15](https://tensorbase.io/thisweek/2021-08-11-tw_15/)
+
 ### Observations/Thoughts
 
+* [RPC to call a Runtime API easily in Substrate](https://blog.knoldus.com/rpc-to-call-a-runtime-api-easily-in-substrate/)
+
 ### Rust Walkthroughs
+
+* [Daily Rust: Slice Patterns](https://adventures.michaelfbryan.com/posts/daily/slice-patterns/)
+* [Learning Rust by building an SSH cli tool](https://saidvandeklundert.net/learn/2021-08-06-rust-ssh-cli-tool/)
 
 ### Research
 
@@ -48,6 +57,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* GitUI has an easy to get started code base, mentoring and [good-first-issues waiting](https://github.com/extrawurst/gitui/labels/good%20first%20issue)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -136,8 +147,14 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Apple**
+* [Senior Rust Engineer (Seattle)](https://jobs.apple.com/en-us/details/200256576/ai-ml-software-engineer-information-intelligence?team=MLAI) 
+
 **Dialectic AG**
 * [Software Development Intern - Rust (EU / CH)](https://swissdevjobs.ch/de/jobs/Dialectic-AG-Software-Development-Intern)
+
+**PolarFox Network**
+* [Senior Rust Engineer (Remote)](https://jro-ventures.breezy.hr/p/0c1d3630d39d)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
