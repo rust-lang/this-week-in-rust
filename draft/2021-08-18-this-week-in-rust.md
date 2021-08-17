@@ -147,9 +147,11 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-
 **Apple**
 * [Senior Rust Engineer (Seattle)](https://jobs.apple.com/en-us/details/200256576/ai-ml-software-engineer-information-intelligence?team=MLAI) 
+
+**Dialectic AG**
+* [Software Development Intern - Rust (EU / CH)](https://swissdevjobs.ch/de/jobs/Dialectic-AG-Software-Development-Intern)
 
 **PolarFox Network**
 * [Senior Rust Engineer (Remote)](https://jro-ventures.breezy.hr/p/0c1d3630d39d)
