@@ -20,9 +20,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [This Week In TensorBase 15](https://tensorbase.io/thisweek/2021-08-11-tw_15/)
+
 ### Observations/Thoughts
 
+* [RPC to call a Runtime API easily in Substrate](https://blog.knoldus.com/rpc-to-call-a-runtime-api-easily-in-substrate/)
+
 ### Rust Walkthroughs
+
+[Learning Rust by building an SSH cli tool](https://saidvandeklundert.net/learn/2021-08-06-rust-ssh-cli-tool/)
 
 ### Research
 
@@ -136,8 +142,13 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+
 **Apple**
 * [Senior Rust Engineer (Seattle)](https://jobs.apple.com/en-us/details/200256576/ai-ml-software-engineer-information-intelligence?team=MLAI) 
+
+**PolarFox Network**
+* [Senior Rust Engineer (Remote)](https://jro-ventures.breezy.hr/p/0c1d3630d39d)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
