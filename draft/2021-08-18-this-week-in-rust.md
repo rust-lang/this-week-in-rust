@@ -27,6 +27,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [How to deal with large Cargo workspaces](https://kerkour.com/blog/rust-large-cargo-workspace)
+
+### Rust Walkthroughs
+
+* [A fast port scanner in 100 lines of Rust](https://kerkour.com/blog/rust-fast-port-scanner)
 * [RPC to call a Runtime API easily in Substrate](https://blog.knoldus.com/rpc-to-call-a-runtime-api-easily-in-substrate/)
 
 ### Rust Walkthroughs
