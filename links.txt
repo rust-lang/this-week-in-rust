@@ -2347,3 +2347,53 @@ Number: 402  Date: 2021-08-04
 * [🦀 Role-Based Access Control (RBAC) Guide in Rust](https://docs.osohq.com/rust/guides/roles/getting-started.html)
 * [betterCode Rust Conference announced (October 13)](https://rust.bettercode.eu/)
 
+Number: 403  Date: 2021-08-10 
+
+### Official
+* [The push for GATs stabilization](https://blog.rust-lang.org/2021/08/03/GATs-stabilization-push.html)
+* [Inside] [Lang team August update](https://blog.rust-lang.org/inside-rust/2021/08/04/lang-team-aug-update.html)
+### Newsletters
+* [This Month in Rust GameDev #24 - July 2021](https://gamedev.rs/news/024/)
+* [This Month in Rust OSDev (July 2021)](https://rust-osdev.com/this-month/2021-07/)
+* [The Monthly Oxide #5](https://mgattozzi.substack.com/p/the-monthly-oxide-5)
+* [Rust Module of the Week: std::fs (Part 2): Dirs, Dirs, Dirs](https://motw.rs/blog/2021/08/08/stdfs-part-2-dirs-dirs-dirs/)
+### Project/Tooling Updates
+* [Rustdoc will now add Jump to Definition links in source code pages!](https://www.reddit.com/r/rust/comments/oz50qk/rustdoc_will_now_add_jump_to_definition_links_in/)
+* [rust-analyzer Changelog #89](https://rust-analyzer.github.io/thisweek/2021/08/09/changelog-89.html)
+* [rust-analyzer Financial Report #3](https://rust-analyzer.github.io/blog/2021/08/03/financial-report-3.html)
+* [Whats New in IntelliJ Rust for the 2021.2 Release Cycle](https://blog.jetbrains.com/rust/2021/08/04/what-s-new-in-intellij-rust-for-the-2021-2-release-cycle/)
+* [SixtyFPS weekly report for 8th of August 2021](https://sixtyfps.io/thisweek/2021-08-09.html)
+* [How do Mina nodes communicate? Implementing bin_prot in Rust](https://medium.com/chainsafe-systems/how-do-mina-nodes-communicate-5a10b80fa253)
+* [Trunk v0.10 – v0.13](https://trunkrs.dev/blog/v10-v13/)
+* [Bevy's First Birthday](https://bevyengine.org/news/bevys-first-birthday/)
+* [Progress report on rustc_codegen_cranelift (July 2021)](https://bjorn3.github.io/2021/08/05/progress-report-july-2021.html)
+* [[upcoming] Volt - A rust-based package manager that's up to 12x faster than Yarn](https://www.reddit.com/r/rust/comments/oymdoj/upcoming_volt_a_rustbased_package_manager_thats/)
+### Observations/Thoughts
+* [On Collecting Result Types in Rust](https://diaries.vercel.app/posts/collecting-result/)
+* [Rust in Production: Qovery](https://serokell.io/blog/rust-in-production-qovery)
+* [How to write really slow Rust code - Part 2](https://renato.athaydes.com/posts/how-to-write-slow-rust-code-part-2.html)
+* [Slitter: a slab allocator that trusts but verifies (in Rust, for C)](https://engineering.backtrace.io/2021-08-04-slitter-a-slab-allocator-that-trusts-but-verifies/)
+* [When Zero Cost Abstractions Aren't Zero Cost](https://blog.polybdenum.com/2021/08/09/when-zero-cost-abstractions-aren-t-zero-cost.html)
+### Rust Walkthroughs
+* [Rust cli example: Ferris fetches Go gopher postcards](https://dev.to/uggla/rust-cli-example-ferris-fetches-go-gopher-postcards-3gb5)
+* [A Little Bit About PRNG Stuff](https://lokathor.github.io/prng/)
+* [Rust's Vector](https://blog.frankel.ch/start-rust/9/)
+* [Interacting with data from FFI in Rust](https://blog.guillaume-gomez.fr/articles/2021-07-29+Interacting+with+data+from+FFI+in+Rust)
+* [Loading a Rust library as a Lua module in Neovim](https://blog.kdheepak.com/loading-a-rust-library-as-a-lua-module-in-neovim.html)
+* [Adding Rust-Stable libstd Support for Xous](https://www.crowdsupply.com/sutajio-kosagi/precursor/updates/adding-rust-stable-libstd-support-for-xous)
+* [Rust BDD tests with Cucumber](https://dev.to/rogertorres/rust-bdd-with-cucumber-4p68)
+* [Rust cli example: Ferris fetches Go gopher postcards](https://dev.to/uggla/rust-cli-example-ferris-fetches-go-gopher-postcards-3gb5)
+* [So you want to write a GUI framework](https://www.cmyr.net/blog/gui-framework-ingredients.html)
+* [Tauri with Standard Svelte or SvelteKit](https://medium.com/@cazanator/tauri-with-standard-svelte-or-sveltekit-ad7f103c37e7)
+* [JP] [Rust で Web バックエンド開発をはじめる](https://developers.cyberagent.co.jp/blog/archives/31110/)
+* [video] [Explaining Rust Analyzer 08: Mini Rowan, Green and Red Trees](https://youtu.be/n5LDjWIAByM)
+### Research
+* [CVE-2021-29922 – rust standard library “net” – Improper Input Validation of octal literals in rust 1.52.0 std::net and below results in indeterminate SSRF & RFI vulnerabilities.](https://sick.codes/sick-2021-015)
+* [Retrofitting Typestates into Rust](https://github.com/rustype/typestate-rs/blob/main/paper/sblp21.pdf)
+### Miscellaneous
+* [SIMD usage in C++, C# and RUST](https://vksegfault.github.io/posts/simd-usage-cpp-csharp-rust/)
+* [RIP 16-bit crate IDs](https://www.reddit.com/r/rust/comments/p1t32e/media_rip_16bit_crate_ids/)
+* [Your favorite Rust CLI utility?](https://www.reddit.com/r/rust/comments/oygrp1/your_favorite_rust_cli_utility_i_have_my_top_10/)
+* [Go, Rust "net" library affected by critical IP address validation vulnerability](https://www.bleepingcomputer.com/news/security/go-rust-net-library-affected-by-critical-ip-address-validation-vulnerability/)
+* [Microsoft Rust intro says "Rust is known to leak memory"](https://www.reddit.com/r/rust/comments/p0bu4a/microsoft_rust_intro_says_rust_is_known_to_leak/)
+

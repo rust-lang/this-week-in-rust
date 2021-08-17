@@ -51,7 +51,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Loading a Rust library as a Lua module in Neovim](https://blog.kdheepak.com/loading-a-rust-library-as-a-lua-module-in-neovim.html)
 * [Adding Rust-Stable libstd Support for Xous](https://www.crowdsupply.com/sutajio-kosagi/precursor/updates/adding-rust-stable-libstd-support-for-xous)
 * [Rust BDD tests with Cucumber](https://dev.to/rogertorres/rust-bdd-with-cucumber-4p68)
-* [Rust cli example: Ferris fetches Go gopher postcards](https://dev.to/uggla/rust-cli-example-ferris-fetches-go-gopher-postcards-3gb5)
 * [So you want to write a GUI framework](https://www.cmyr.net/blog/gui-framework-ingredients.html)
 * [Tauri with Standard Svelte or SvelteKit](https://medium.com/@cazanator/tauri-with-standard-svelte-or-sveltekit-ad7f103c37e7)
 * [JP] [Rust で Web バックエンド開発をはじめる](https://developers.cyberagent.co.jp/blog/archives/31110/)
@@ -72,7 +71,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 This week's crate is [ockam](https://crates.io/crates/ockam), a crate to implement transport-agnostic end-to-end encryption for the rest of us.
 
-Thanks to [staticassert](https://users.rust-lang.org/t/crate-of-the-week/2704/943) for the self-suggestion.
+Thanks to [staticassert](https://users.rust-lang.org/t/crate-of-the-week/2704/943) for the suggestion.
 
 [Submit your suggestions and votes for next week][submit_crate]!
 
