@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Sixtyfps weekly report for 16th of August 2021](https://sixtyfps.io/thisweek/2021-08-16.html)
 * [Relm4 beta released 🎉](https://aaronerhardt.github.io/blog/posts/relm_beta/)
 * [This week in Fluvio #2: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0002/)
 * [This Week In TensorBase 15](https://tensorbase.io/thisweek/2021-08-11-tw_15/)
