@@ -194,6 +194,10 @@ Email the [Rust Community Team][community] for access.
 
 * [Several positions available (Remote)](https://jobs.lever.co/subspacelabs)
 
+**Headline**
+
+* [Rust Developer (Remote)](https://old.reddit.com/r/rust/comments/ou5szr/official_rrust_whos_hiring_thread_for_jobseekers/h9f4r52/)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
