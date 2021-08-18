@@ -48,6 +48,7 @@ In the case of this newsletter, 404 is indeed found!
 
 * [Rust on RISC-V BL602: Simulated with WebAssembly](https://lupyuen.github.io/articles/rustsim)
 * [Calling WebAssembly from Rust](https://paulbutler.org/2021/calling-webassembly-from-rust/)
+* [Transforming streaming data in real-time with WebAssembly](https://www.infinyon.com/blog/2021/08/smartstream-map-use-cases/)
 
 ## Crate of the Week
 
