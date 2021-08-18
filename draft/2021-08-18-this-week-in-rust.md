@@ -50,11 +50,11 @@ In the case of this newsletter, 404 is indeed found!
 
 ## Crate of the Week
 
-This week's crate is [ockam](https://crates.io/crates/ockam), a crate to implement transport-agnostic end-to-end encryption for the rest of us.
+This week's crate is [synth](https://github.com/getsynth/synth), a declarative test data generator written in Rust.
 
-Thanks to [staticassert](https://users.rust-lang.org/t/crate-of-the-week/2704/943) for the self-suggestion.
+[llogiq](https://users.rust-lang.org/t/crate-of-the-week/2704/942) shamelessly used his recent self-suggestion for lack of another nomination.
 
-[Submit your suggestions and votes for next week][submit_crate]!
+[Please submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
@@ -78,28 +78,39 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from Rust Core
 
-324 pull requests were [merged in the last week][merged]
+197 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-08-02..2021-08-09
+[merged]: https://github.com/search?p=20&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-08-09..2021-08-16&type=Issues
 
-* [fill out remaining parts of C-unwind ABI](https://github.com/rust-lang/rust/pull/86155)
-* [CTFE: throw unsupported error when partially overwriting a pointer](https://github.com/rust-lang/rust/pull/87248)
-* [proc macro spans: make columns 1 based](https://github.com/rust-lang/rust/pull/87712)
-* [improve diagnostics for wrongly ordered keywords in function declaration](https://github.com/rust-lang/rust/pull/87235)
-* [replace `HirId`s with `LocalDefId`s in `AccessLevels` tables](https://github.com/rust-lang/rust/pull/87568)
-* [add `config.toml` options for enabling overflow checks in rustc and std](https://github.com/rust-lang/rust/pull/87784)
-* [use zeroed allocations in the mir interpreter instead eagerly touching the memory](https://github.com/rust-lang/rust/pull/87777)
-* [only compute `is_freeze` for layout-constrained ADTs](https://github.com/rust-lang/rust/pull/87737)
-* [allow generic SIMD array element type](https://github.com/rust-lang/rust/pull/87716)
-* [properly find owner of closure in THIR unsafeck](https://github.com/rust-lang/rust/pull/87645)
-* [make `wrapping_neg()` use `wrapping_sub()`, `#[inline(always)]`](https://github.com/rust-lang/rust/pull/87150)
-* [stabilize `Vec<T>::shrink_to`](https://github.com/rust-lang/rust/pull/86879)
-* [`impl Default, Copy, Clone for std::io::Sink` and `Empty`](https://github.com/rust-lang/rust/pull/86744)
-* [change environment variable getters to error recoverably](https://github.com/rust-lang/rust/pull/86183)
-* [add `core::stream::from_iter`](https://github.com/rust-lang/rust/pull/81797)
-* [futures: implement `Default` for `OptionFuture`](https://github.com/rust-lang/futures-rs/pull/2471)
-* [clippy: don't emit `too_many_lines` for closures](https://github.com/rust-lang/rust-clippy/pull/7534)
-* [clippy: add xor case to manual swap lint](https://github.com/rust-lang/rust-clippy/pull/7506)
+* [make deleted code in a suggestion clearer](https://github.com/rust-lang/rust/pull/86532)
+* [point to where clause for GATs to add bound](https://github.com/rust-lang/rust/pull/87478)
+* [use smaller spans when suggesting method call disambiguation](https://github.com/rust-lang/rust/pull/87889)
+* [use a more accurate span on assoc types WF checks](https://github.com/rust-lang/rust/pull/87819)
+* [constify implementations of (`Try`)`From` for int types](https://github.com/rust-lang/rust/pull/86840)
+* [add automatic migration for `assert!(.., string)`](https://github.com/rust-lang/rust/pull/87982)
+* [fix closure migration suggestion when the body is a macro](https://github.com/rust-lang/rust/pull/87956)
+* [associated functions that contain `extern` indicator or have `#[rustc_std_internal_symbol]` are reachable](https://github.com/rust-lang/rust/pull/86492)
+* [LLVM codegen: don't emit zero-sized padding for fields](https://github.com/rust-lang/rust/pull/87254)
+* [uplift the invalid_atomic_ordering lint from clippy to rustc](https://github.com/rust-lang/rust/pull/84039)
+* [run `RemoveZsts` pass at `mir-opt-level=1`](https://github.com/rust-lang/rust/pull/83417)
+* [implement `black_box` using intrinsic](https://github.com/rust-lang/rust/pull/87916)
+* [specialize `Vec::clone_from` for `Copy` types](https://github.com/rust-lang/rust/pull/87913)
+* [add support for `clobber_abi` to `asm!`](https://github.com/rust-lang/rust/pull/87581)
+* [deprecate `llvm_asm!`](https://github.com/rust-lang/rust/pull/87590)
+* [add the Option::unzip() method](https://github.com/rust-lang/rust/pull/87636)
+* [test and fix `size_hint` for slice’s (`r`)`split`* iterators](https://github.com/rust-lang/rust/pull/87974)
+* [implement `Extend<(A, B)>` for `(Extend<A>, Extend<B>)`](https://github.com/rust-lang/rust/pull/85835)
+* [cargo: teach cargo to failfast on recursive/corecursive aliases](https://github.com/rust-lang/cargo/pull/9791)
+* [cargo: fix value-after-table error with profiles](https://github.com/rust-lang/cargo/pull/9789)
+* [cargo: ability to specify the output name for a bin target different from the crate name](https://github.com/rust-lang/cargo/pull/9627)
+* [clippy: `never_loop`: suggest using an if let instead of a for loop](https://github.com/rust-lang/rust-clippy/pull/7541)
+* [clippy: properly handle `Self` type for `trivially_copy_pass_by_ref`](https://github.com/rust-lang/rust-clippy/pull/7535)
+* [clippy: check expr usage for `manual_flatten`](https://github.com/rust-lang/rust-clippy/pull/7566)
+* [clippy: fix `manual_map` non-compiling suggestions](https://github.com/rust-lang/rust-clippy/pull/7531)
+* [clippy: fix false positive on `filter_next`](https://github.com/rust-lang/rust-clippy/pull/7562)
+* [clippy: fix `nonstandard_macro_braces` false positive](https://github.com/rust-lang/rust-clippy/pull/7478)
+* [clippy: use `avoid-breaking-exported-api` configuration in `types` module](https://github.com/rust-lang/rust-clippy/pull/7560)
+* [clippy: add `unwrap_or_else_default` lint](https://github.com/rust-lang/rust-clippy/pull/7516)
 
 ### Rust Compiler Performance Triage
 
@@ -199,13 +210,18 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-We regrettably lack nominations,  
-so as I can't choose fresh quotations,  
-at last nor this time,  
-I'll offer this rhyme  
-to quell all discombombulations.
+> **Rust** : You can't move your object and try to keep it, too.  
+> **Me** : Ok, I suppose I can clone it?  
+> **Rust** : Then implement a clone method.  
+> **Me** : Why am I getting a stack overflow?  
+> **Rust** : It is never a good idea for a clone method to call itself.  
+> **Me** : I just wanted to simplify the trivial cases.  
+> **Rust** : It is still not a good idea for a clone method to call itself.  
+> **Me** : I can't believe I have gotten myself into this.
 
-– a very sorry llogiq
+– [Oliver Ruebenacker on rust-users](https://users.rust-lang.org/t/writing-my-first-multi-threaded-app-with-rust-be-like/63481)
+
+Thanks to [MBartlett21](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1093) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
