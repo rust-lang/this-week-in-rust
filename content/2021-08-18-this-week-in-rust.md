@@ -49,7 +49,6 @@ In the case of this newsletter, 404 is indeed found!
 * [Getting started with Rust programming language 🦀 2021: 4. Building a CLI app in Rust](https://www.youtube.com/watch?v=4km2UijVC3M)
 * [Index 1,600,000,000 Keys with Automata and Rust](https://blog.burntsushi.net/transducers/)
 * [Complex Procedural Rust Macros](https://www.getsynth.com/docs/blog/2021/08/09/macro)
-* [A fast port scanner in 100 lines of Rust](https://kerkour.com/blog/rust-fast-port-scanner/)
 * [Getting Started with Systems Programming with Rust (Part 1)](https://dev.to/bexxmodd/getting-started-with-systems-programming-with-rust-part-1-2i13)
 * [Deploy a Jamstack site on AWS Lambda with API Gateway in 10 minutes or less](https://dev.to/akkoro/deploy-a-jamstack-site-on-aws-lambda-with-api-gateway-in-10-minutes-or-less-kb0)
 * [Rust Type Conversion (Part 1)](https://tim.mcnamara.nz/post/659305450250141696/rust-type-conversions)
