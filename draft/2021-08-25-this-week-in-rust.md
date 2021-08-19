@@ -15,6 +15,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 In the case of this newsletter, 404 is indeed found!
 
 ## Updates from Rust Community
+[Enzyme](https://enzyme.mit.edu) is now available for Rust! Enzyme is a SOTA Auto-diff tool which works on arbitray (Rust) types.
+It supports BLAS, GPUs, OpenMP and MPI (rayon next!). Usage might still be a little rough, but it should definetly work!
+More details are available at this blog post in the rust-ml Group [here](TODO).
 
 ### Project/Tooling Updates
 
