@@ -16,10 +16,6 @@ In the case of this newsletter, 404 is indeed found!
 
 ## Updates from Rust Community
 
-### Official
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer Changelog #90](https://rust-analyzer.github.io/thisweek/2021/08/16/changelog-90.html)
 * [IntelliJ Rust Changelog #153](https://intellij-rust.github.io/2021/08/16/changelog-153.html)
@@ -96,6 +92,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * GitUI has an easy to get started code base, mentoring and [good-first-issues waiting](https://github.com/extrawurst/gitui/labels/good%20first%20issue)
 * [getsynth/synth - Support postgres json and jsonb types](https://github.com/getsynth/synth/issues/67)
+* [ockam-network/ockam - Like ngrok, but using Ockam](https://github.com/ockam-network/ockam/issues/1762)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -193,10 +190,9 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-**Apple**
+**Etsy**
 
-* [Senior Rust Engineer (Seattle)](https://jobs.apple.com/en-us/details/200256576/ai-ml-software-engineer-information-intelligence?team=MLAI) 
-* [Software Engineer, Distributed Block Storage (Seattle, WA, USA)](https://jobs.apple.com/en-us/details/200275619/software-engineer?team=SFTWR)
+* [Senior Software Engineer, Search Indexing (Remote US)](https://careers.etsy.com/global/en/job/JR605/Senior-Software-Engineer-Search-Indexing)
 
 **Nymi**
 
@@ -214,6 +210,19 @@ Email the [Rust Community Team][community] for access.
 
 * [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
 
+**Stader**
+
+* [Senior & Junior Rust Developer (Remote)](https://www.notion.so/Job-Openings-at-Stader-a0faadf6454c4f29a68f23851d901619?p=519b05172ea04263ae09a2d54b004c15)
+
+**Headline**
+
+* [Rust Developer (Remote)](https://old.reddit.com/r/rust/comments/ou5szr/official_rrust_whos_hiring_thread_for_jobseekers/h9f4r52/)
+
+**Apple**
+
+* [Senior Rust Engineer (Seattle)](https://jobs.apple.com/en-us/details/200256576/ai-ml-software-engineer-information-intelligence?team=MLAI) 
+* [Software Engineer, Distributed Block Storage (Seattle, WA, USA)](https://jobs.apple.com/en-us/details/200275619/software-engineer?team=SFTWR)
+
 **Kollider**
 
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
@@ -224,17 +233,14 @@ Email the [Rust Community Team][community] for access.
 * [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
 * [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
 
-**Stader**
+**Kraken**
 
-* [Senior & Junior Rust Developer (Remote)](https://www.notion.so/Job-Openings-at-Stader-a0faadf6454c4f29a68f23851d901619?p=519b05172ea04263ae09a2d54b004c15)
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Senior Banking Engineer - Rust (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 **Subspace Labs**
 
 * [Several positions available (Remote)](https://jobs.lever.co/subspacelabs)
-
-**Headline**
-
-* [Rust Developer (Remote)](https://old.reddit.com/r/rust/comments/ou5szr/official_rrust_whos_hiring_thread_for_jobseekers/h9f4r52/)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
