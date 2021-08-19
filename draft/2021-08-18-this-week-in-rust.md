@@ -29,6 +29,7 @@ In the case of this newsletter, 404 is indeed found!
 * [This Week In TensorBase 15](https://tensorbase.io/thisweek/2021-08-11-tw_15/)
 * [This week in Datafuse #2](https://datafuselabs.github.io/weekly/2021-08-11-datafuse-weekly/) & [This week in Datafuse #3](https://datafuselabs.github.io/weekly/2021-08-18-datafuse-weekly/)
 * [nailing-cargo 1.0.0 - cargo wrapper for privsep, and for unpublished dependencies](https://diziet.dreamwidth.org/)
+* [wgpu: Release of a Pure-Rust v0.10 and a Call For Testing](https://gfx-rs.github.io/2021/08/18/release-0.10.html)
 * [video] [rg3d game engine v0.22 - feature highlights](https://www.reddit.com/r/rust/comments/p2x38x/media_rg3d_game_engine_v022_feature_highlights/)
 
 ### Observations/Thoughts
@@ -70,6 +71,7 @@ In the case of this newsletter, 404 is indeed found!
 * [Rust 2021 close to stabilization, currently testing all public crates (10,000 done so far)](https://www.reddit.com/r/rust/comments/p6o3ib/rust_2021_close_to_stabilization_currently/)
 * [Calling WebAssembly from Rust](https://paulbutler.org/2021/calling-webassembly-from-rust/)
 * [Upcoming error message formatting enhancements in Rust 1.56](https://www.reddit.com/r/rust/comments/p5j1lw/upcoming_error_message_formatting_enhancements_in/)
+* [Transforming streaming data in real-time with WebAssembly](https://www.infinyon.com/blog/2021/08/smartstream-map-use-cases/)
 
 ## Crate of the Week
 
