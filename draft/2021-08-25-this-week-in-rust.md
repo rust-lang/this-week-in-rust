@@ -22,6 +22,7 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Rust Walkthroughs
 
+[Rust vectors](https://saidvandeklundert.net/learn/2021-08-15-rust-vector/)
 ### Research
 
 ### Miscellaneous
