@@ -28,6 +28,7 @@ In the case of this newsletter, 404 is indeed found!
 * [This Week In TensorBase 15](https://tensorbase.io/thisweek/2021-08-11-tw_15/)
 * [This week in Datafuse #2](https://datafuselabs.github.io/weekly/2021-08-11-datafuse-weekly/) & [This week in Datafuse #3](https://datafuselabs.github.io/weekly/2021-08-18-datafuse-weekly/)
 * [nailing-cargo 1.0.0 - cargo wrapper for privsep, and for unpublished dependencies](https://diziet.dreamwidth.org/)
+* [wgpu: Release of a Pure-Rust v0.10 and a Call For Testing](https://gfx-rs.github.io/2021/08/18/release-0.10.html)
 
 ### Observations/Thoughts
 
