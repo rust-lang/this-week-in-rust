@@ -143,6 +143,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Stealth Startup**
+
+* [Senior Software Engineer](https://docs.google.com/document/d/1jOT6pDE3yNpUq3c9BvFJPy4XaqlIX7BiOqXiTU1Fpfk/edit?usp=sharing)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
