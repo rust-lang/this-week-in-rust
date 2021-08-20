@@ -25,6 +25,7 @@ In the case of this newsletter, 404 is indeed found!
 ### Research
 
 ### Miscellaneous
+- [video] [Rust Community Stuttgart - "Traits and trait objects - more than just interfaces"](https://www.youtube.com/watch?v=izXf9-CTAfc)
 
 ## Crate of the Week
 
