@@ -2397,3 +2397,53 @@ Number: 403  Date: 2021-08-10
 * [Go, Rust "net" library affected by critical IP address validation vulnerability](https://www.bleepingcomputer.com/news/security/go-rust-net-library-affected-by-critical-ip-address-validation-vulnerability/)
 * [Microsoft Rust intro says "Rust is known to leak memory"](https://www.reddit.com/r/rust/comments/p0bu4a/microsoft_rust_intro_says_rust_is_known_to_leak/)
 
+Number: 404  Date: 2021-08-18 
+
+### Project/Tooling Updates
+* [rust-analyzer Changelog #90](https://rust-analyzer.github.io/thisweek/2021/08/16/changelog-90.html)
+* [IntelliJ Rust Changelog #153](https://intellij-rust.github.io/2021/08/16/changelog-153.html)
+* [Sixtyfps weekly report for 16th of August 2021](https://sixtyfps.io/thisweek/2021-08-16.html)
+* [Relm4 beta released 🎉](https://aaronerhardt.github.io/blog/posts/relm_beta/)
+* [This week in Fluvio #2: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0002/)
+* [This Week In TensorBase 15](https://tensorbase.io/thisweek/2021-08-11-tw_15/)
+* [This week in Datafuse #2](https://datafuselabs.github.io/weekly/2021-08-11-datafuse-weekly/) & [This week in Datafuse #3](https://datafuselabs.github.io/weekly/2021-08-18-datafuse-weekly/)
+* [nailing-cargo 1.0.0 - cargo wrapper for privsep, and for unpublished dependencies](https://diziet.dreamwidth.org/)
+* [wgpu: Release of a Pure-Rust v0.10 and a Call For Testing](https://gfx-rs.github.io/2021/08/18/release-0.10.html)
+* [video] [rg3d game engine v0.22 - feature highlights](https://www.reddit.com/r/rust/comments/p2x38x/media_rg3d_game_engine_v022_feature_highlights/)
+### Observations/Thoughts
+* [How to deal with large Cargo workspaces](https://kerkour.com/blog/rust-large-cargo-workspace)
+* [Instant word segmentation with Rust](https://instantdomainsearch.com/engineering/instant-word-segmentation-with-rust)
+* [How to write fast Rust code](https://renato.athaydes.com/posts/how-to-write-fast-rust-code.html)
+* [Rust GUI Infrastructure](http://www.cmyr.net/blog/rust-gui-infra.html)
+* [Adding middleware support to Rust reqwest](https://truelayer.com/blog/adding-middleware-support-to-rust-reqwest)
+* [Understanding #[derive(Clone)] in Rust](https://stegosaurusdormant.com/understanding-derive-clone/)
+* [Going from Haskell to Rust](https://www.reddit.com/r/rust/comments/p45tw7/going_from_haskell_to_rust/)
+* [video] [Async engines in C++20, Rust, & Zig](https://youtu.be/Ws3jC6AJC_4)
+* [video] [Flutter/Rust Roundtable](https://youtu.be/Q9cIBg62Ktg)
+### Rust Walkthroughs
+* [An analogy that helped me understand the borrow checker](https://www.reddit.com/r/rust/comments/p4hil6/an_analogy_that_helped_me_understand_the_borrow/)
+* [A fast port scanner in 100 lines of Rust](https://kerkour.com/blog/rust-fast-port-scanner)
+* [RPC to call a Runtime API easily in Substrate](https://blog.knoldus.com/rpc-to-call-a-runtime-api-easily-in-substrate/)
+* [Writing a lambda in Rust using lambda-runtime and aws-sdk-rust](https://dev.to/aviillouz/writing-a-lambda-with-rust-using-aws-lambda-rust-runtime-and-aws-sdk-rust-1aln)
+* [Daily Rust: Slice Patterns](https://adventures.michaelfbryan.com/posts/daily/slice-patterns/)
+* [Learning Rust by building an SSH cli tool](https://saidvandeklundert.net/learn/2021-08-06-rust-ssh-cli-tool/)
+* [Getting started with Rust programming language 🦀 2021: 4. Building a CLI app in Rust](https://www.youtube.com/watch?v=4km2UijVC3M)
+* [Index 1,600,000,000 Keys with Automata and Rust](https://blog.burntsushi.net/transducers/)
+* [Complex Procedural Rust Macros](https://www.getsynth.com/docs/blog/2021/08/09/macro)
+* [Getting Started with Systems Programming with Rust (Part 1)](https://dev.to/bexxmodd/getting-started-with-systems-programming-with-rust-part-1-2i13)
+* [Deploy a Jamstack site on AWS Lambda with API Gateway in 10 minutes or less](https://dev.to/akkoro/deploy-a-jamstack-site-on-aws-lambda-with-api-gateway-in-10-minutes-or-less-kb0)
+* [Rust Type Conversion (Part 1)](https://tim.mcnamara.nz/post/659305450250141696/rust-type-conversions)
+* [Rust on RISC-V BL602: Simulated with WebAssembly](https://lupyuen.github.io/articles/rustsim)
+* [Rust Type Lists](https://tcmal.xyz/rust-type-lists/)
+* [Tag input assistant for \<select\> elements in Rust/wasm](https://nessuent.xyz/posts/2021-08-14_tag-wasm-rust.html)
+* [Exploring `serde`'s data model with a toy deserializer](https://owengage.com/writing/#exploring-serde-with-toy-deserializer)
+* [LLVM internals, part 1: the bitcode format](https://blog.yossarian.net/2021/07/19/LLVM-internals-part-1-bitcode-format)
+* [LLVM internals, part 2: parsing the bitstream](https://blog.yossarian.net/2021/08/10/LLVM-internals-part-2-parsing-the-bitstream)
+### Research
+* [video] [GhostCell: Separating Permissions from Data in Rust](https://youtu.be/jIbubw86p0M)
+### Miscellaneous
+* [Rust 2021 close to stabilization, currently testing all public crates (10,000 done so far)](https://www.reddit.com/r/rust/comments/p6o3ib/rust_2021_close_to_stabilization_currently/)
+* [Calling WebAssembly from Rust](https://paulbutler.org/2021/calling-webassembly-from-rust/)
+* [Upcoming error message formatting enhancements in Rust 1.56](https://www.reddit.com/r/rust/comments/p5j1lw/upcoming_error_message_formatting_enhancements_in/)
+* [Transforming streaming data in real-time with WebAssembly](https://www.infinyon.com/blog/2021/08/smartstream-map-use-cases/)
+
