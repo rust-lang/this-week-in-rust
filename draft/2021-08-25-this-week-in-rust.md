@@ -18,6 +18,8 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Project/Tooling Updates
 
+* [Apache Arrow Datafusion 5.0.0 release with major new features and performance improvements](https://arrow.apache.org/blog/2021/08/18/datafusion-5.0.0/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
