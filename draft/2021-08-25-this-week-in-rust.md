@@ -26,6 +26,8 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Miscellaneous
 
+- [nailgun: a DNS performance testing client](https://leshow.github.io/post/nailgun/)
+
 ## Crate of the Week
 
 This week's crate is [synth](https://github.com/getsynth/synth), a declarative test data generator written in Rust.
