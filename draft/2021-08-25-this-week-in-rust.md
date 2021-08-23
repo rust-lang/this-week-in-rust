@@ -153,6 +153,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Apple**
+
+* [Senior Software Engineer - Apple Media Products](https://jobs.apple.com/en-us/details/200278498/senior-software-engineer-apple-media-products?team=SFTWR)
+
 **Wingback**
 
 * [Senior Backend Developer - rust 🦀 (Remote))](https://careers.wingback.com/o/senior-backend-developer-rust-remote)
@@ -165,9 +169,17 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Software Engineer (Raleigh, NC, US, Possible Remote US)](https://docs.google.com/document/d/1jOT6pDE3yNpUq3c9BvFJPy4XaqlIX7BiOqXiTU1Fpfk/edit?usp=sharing)
 
+**Dusk Network**
+
+* [Rust Developer (Fulltime) (Remote)](https://dusk.network/pages/rust-developer-vacancy)
+
 **ChainSafe**
 
 * [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
+**Bitfury**
+
+* [Rust Developer (Kyiv, Kiev, UA)](https://arbeitnow.com/view/rust-developer-bitfury-393648)
 
 **Kollider**
 
@@ -182,6 +194,10 @@ Email the [Rust Community Team][community] for access.
 **Parity Technologies**
 
 * [Multiple Rust Engineering Positions Available](https://www.parity.io/jobs/)
+
+**Subspace Labs**
+
+* [Multiple Rust Engineering Positions Available](https://jobs.lever.co/subspacelabs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
