@@ -16,6 +16,8 @@ In the case of this newsletter, 404 is indeed found!
 
 ## Updates from Rust Community
 
+* SixtyFPS, a GUI crate, released [version 0.1](https://sixtyfps.io/blog/announcing-sixtyfps-0.1.html) and published its [weekly report](https://sixtyfps.io/thisweek/2021-08-23.html).
+
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
