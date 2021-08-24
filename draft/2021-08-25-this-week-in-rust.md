@@ -20,6 +20,8 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Observations/Thoughts
 
+* [Overview of the Rust cryptography ecosystem](https://kerkour.com/blog/rust-cryptography-ecosystem)
+
 ### Rust Walkthroughs
 
 ### Research
