@@ -21,7 +21,7 @@ In the case of this newsletter, 404 is indeed found!
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+- [Building a small Finite State Machine in Rust](https://youtu.be/whN36JVUd6A)
 ### Research
 
 ### Miscellaneous
