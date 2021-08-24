@@ -1,6 +1,6 @@
-Title: This Week in Rust 405
-Number: 405
-Date: 2021-08-25
+Title: This Week in Rust 406
+Number: 406
+Date: 2021-00-01
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -17,60 +17,12 @@ In the case of this newsletter, 404 is indeed found!
 ## Updates from Rust Community
 
 ### Project/Tooling Updates
-* [rust-analyzer Changelog #91](https://rust-analyzer.github.io/thisweek/2021/08/23/changelog-91.html)
-* [Apache Arrow Datafusion 5.0.0 release with major new features and performance improvements](https://arrow.apache.org/blog/2021/08/18/datafusion-5.0.0/)
-* [Apache Arrow Ballista 0.5.0 release](https://arrow.apache.org/blog/2021/08/18/ballista-0.5.0/)
-* [This week in Fluvio #3: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0003/)
-* [SixtyFPS 0.1 Release](https://sixtyfps.io/blog/announcing-sixtyfps-0.1.html) and [SixtyFPS Weekly Report](https://sixtyfps.io/thisweek/2021-08-23.html)
-* [nailgun: a DNS performance testing client](https://leshow.github.io/post/nailgun/)
-* [nom 7.0 release: fast parser combinators, now without macros! And the new nom-bufreader](https://www.reddit.com/r/rust/comments/p9usvq/nom_70_release_fast_parser_combinators_now/)
-* [Announcing egui 0.14](https://www.reddit.com/r/rust/comments/papqk1/announcing_egui_014/)
-* [miette: a fancy new diagnostics definition and reporting crate for apps and libraries!](https://www.reddit.com/r/rust/comments/p9t3jh/miette_a_fancy_new_diagnostics_definition_and/)
-* [Rudra: Rust Memory Safety & Undefined Behavior Detection](https://www.reddit.com/r/rust/comments/p8gcbe/rudra_rust_memory_safety_undefined_behavior/)
-* [SnakeOS v0.1.0 released!](https://www.reddit.com/r/rust/comments/p86a24/snakeos_v010_released/)
-* [Pueue v1.0.0 - Manage your shell commands. Reaching stable after 3.5 years](https://www.reddit.com/r/rust/comments/p84amc/release_pueue_v100_manage_your_shell_commands/)
-* [Announcing Persy 1.0: a simple transactional storage](https://persy.rs/posts/persy-1.0.html)
-* [This week in Datafuse #4](https://datafuselabs.github.io/weekly/2021-08-25-datafuse-weekly/)
 
 ### Observations/Thoughts
-* [Overview of the Rust cryptography ecosystem](https://kerkour.com/blog/rust-cryptography-ecosystem)
-* [Superpowers of Unsafe Rust](https://blog.knoldus.com/superpowers-of-unsafe-rust/)
-* [Using KLEE on Rust-for-Linux (part 1)](https://project-oak.github.io/rust-verification-tools/2021/08/22/rust-on-linux-1.html)
-* [Large Rust Workspaces](https://matklad.github.io/2021/08/22/large-rust-workspaces.html)
-* [Using Rust with Elixir for code reuse and performance](https://blog.doctave.com/2021/08/19/using-rust-with-elixir-for-code-reuse-and-performance.html)
-* [Models of Generics and Metaprogramming: Go, Rust, Swift, D and More](https://thume.ca/2019/07/14/a-tour-of-metaprogramming-models-for-generics/)
-* [Shaking Off the Rust 2: Ray Tracing in WebAssembly](https://clayto.com/2021/07/shaking-off-the-rust-2-ray-tracing-in-webassembly/)
-* [Async Overloading](https://blog.yoshuawuyts.com/async-overloading/)
-* [Scoped Arena Allocator](https://devblog.arcana.rs/scoped-arena-allocator)
-* [Concurrency in Rust is indeed fearless](https://blog.knoldus.com/concurrency-in-rust-is-indeed-fearless/)
 
 ### Rust Walkthroughs
-* [Building a small Finite State Machine in Rust](https://youtu.be/whN36JVUd6A)
-* [Rust vectors](https://saidvandeklundert.net/learn/2021-08-15-rust-vector/)
-* [Daily Rust: Iterators](adventures.michaelfbryan.com/posts/daily/iterators/)
-* [Getting Started with Systems Programming with Rust (Part 1)](https://www.bexxmodd.com/post/systems-programming-with-rust-1)
-* [Getting Started with Systems Programming with Rust (Part 2)](https://www.bexxmodd.com/post/systems-programming-with-rust-2)
-* [Optimizing Immutable Strings in Rust](https://dev.to/somedood/optimizing-immutable-strings-in-rust-2ahj)
-* [Rust for Data Science: Tutorial 1](https://dev.to/davidedelpapa/rust-for-data-science-tutorial-1-4g5j)
-* [Rust and WebAssembly Serverless functions in Vercel](https://dev.to/alabulei1/rust-and-webassembly-serverless-functions-in-vercel-47e4)
-* [Pin, Unpin, and why Rust needs them](https://blog.adamchalmers.com/pin-unpin/)
-* [Rust: How to Unwrap Multiple Required Options](https://blog.hendrikmaus.dev/rust-unwrap-options-in-a-function-that-returns-a-result-type/)
-* [Hexagonal architecture in Rust #1](https://alexis-lozano.com/hexagonal-architecture-in-rust-1/)
-* [Hexagonal architecture in Rust #2](https://alexis-lozano.com/hexagonal-architecture-in-rust-2/)
-* [Daily Rust: Iterators](https://adventures.michaelfbryan.com/posts/daily/iterators/?utm_source=reddit&utm_medium=social&utm_campaign=daily-rust-basic-iterators)
-* [Cross compiling Windows binaries from Linux](https://jake-shadle.github.io/xwin/)
-* [Rust Trait Objects Demystified](https://desilva.io/posts/rust-trait-objects-demystified)
-* [End-to-End Encryption through Kafka, with Rust](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/end-to-end-encryption-through-kafka)
-* [ZH] Formal Concept Analysis with Rust, [Part1](https://www.horsal.dev/formal-concept-analysis-with-rust-1-introduction), [Part2](https://www.horsal.dev/formal-concept-analysis-with-rust-2-basic-algorithm), [Part3](https://www.horsal.dev/formal-concept-analysis-with-rust-3-parallization)
-* [video] [Rust Community Stuttgart - "Traits and trait objects - more than just interfaces"](https://www.youtube.com/watch?v=izXf9-CTAfc)
 
 ### Miscellaneous
-* [An exhaustive list of all Rust resources regarding automated or semi-automated formalization efforts in any area, constructive mathematics, formal algorithms, and program verification.](https://github.com/newca12/awesome-rust-formalized-reasoning)
-* [Aggregate streaming data in real-time with WebAssembly](https://www.infinyon.com/blog/2021/08/smartstream-aggregates/)
-* [I re-implemented the legendary "Typing the technical interview" article using only Rust types!](https://www.reddit.com/r/rust/comments/pb97fa/i_reimplemented_the_legendary_typing_the/)
-* [Chromium adds a Rust toolchain as a potential dependency](https://www.reddit.com/r/rust/comments/paxowq/chromium_adds_a_rust_toolchain_as_a_potential/)
-* [New very promising Linux syscall for creating secret memory even the kernel can't read. I'll be working for creating a crate for using it out](https://www.reddit.com/r/rust/comments/p7qzdn/new_very_promising_linux_syscall_for_creating/)
-* [picture] [Field Init Shorthand in Rust](https://www.reddit.com/r/rust/comments/pai1o8/media_field_init_shorthand_in_rust/)
 
 ## Crate of the Week
 
@@ -88,11 +40,6 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
-
-* [rust-lang/cargo - "error: binary xxx already exists in destination" should print the full destination path](https://github.com/rust-lang/cargo/issues/9797)
-* [ockam-network/ockam - Like ngrok, but using Ockam](https://github.com/ockam-network/ockam/issues/1762)
-* [ockam-network/ockam - Forwarder in Rust](https://github.com/ockam-network/ockam/issues/1761)
-* [ andreev-io/little-raft - New Contributors Wanted](https://github.com/andreev-io/little-raft/issues)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -198,52 +145,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
-**Apple**
-
-* [Senior Software Engineer - Apple Media Products](https://jobs.apple.com/en-us/details/200278498/senior-software-engineer-apple-media-products?team=SFTWR)
-
-**Wingback**
-
-* [Senior Backend Developer - rust 🦀 (Remote))](https://careers.wingback.com/o/senior-backend-developer-rust-remote)
-
-**PolarFox Network**
-
-* [Senior Rust Engineer (Remote)](https://polarsync.breezy.hr/p/0c1d3630d39d)
-
-**Stealth Startup**
-
-* [Senior Software Engineer (Raleigh, NC, US, Possible Remote US)](https://docs.google.com/document/d/1jOT6pDE3yNpUq3c9BvFJPy4XaqlIX7BiOqXiTU1Fpfk/edit?usp=sharing)
-
-**Dusk Network**
-
-* [Rust Developer (Fulltime) (Remote)](https://dusk.network/pages/rust-developer-vacancy)
-
-**ChainSafe**
-
-* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
-
-**Bitfury**
-
-* [Rust Developer (Kyiv, Kiev, UA)](https://arbeitnow.com/view/rust-developer-bitfury-393648)
-
-**Kollider**
-
-* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
-* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
-
-**NZXT**
-
-* [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
-* [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
-
-**Parity Technologies**
-
-* [Multiple Rust Engineering Positions Available](https://www.parity.io/jobs/)
-
-**Subspace Labs**
-
-* [Multiple Rust Engineering Positions Available](https://jobs.lever.co/subspacelabs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
