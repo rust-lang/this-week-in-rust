@@ -143,6 +143,11 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Wingback**
+
+* [Senior Backend Developer - rust 🦀 (Remote))](https://careers.wingback.com/o/senior-backend-developer-rust-remote)
+
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
