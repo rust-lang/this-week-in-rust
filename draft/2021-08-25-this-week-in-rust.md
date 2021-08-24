@@ -22,6 +22,8 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Rust Walkthroughs
 
+- [Daily Rust: Iterators](adventures.michaelfbryan.com/posts/daily/iterators/)
+
 ### Research
 
 ### Miscellaneous
