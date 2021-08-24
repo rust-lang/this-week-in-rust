@@ -26,6 +26,8 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Miscellaneous
 
+- [Aggregate streaming data in real-time with WebAssembly](https://www.infinyon.com/blog/2021/08/smartstream-aggregates/)
+
 ## Crate of the Week
 
 This week's crate is [synth](https://github.com/getsynth/synth), a declarative test data generator written in Rust.
