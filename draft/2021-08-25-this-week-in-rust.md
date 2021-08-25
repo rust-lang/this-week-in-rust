@@ -18,6 +18,8 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Project/Tooling Updates
 
+- [This week in Fluvio #3: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0003/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
