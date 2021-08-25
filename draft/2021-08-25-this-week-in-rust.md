@@ -36,6 +36,7 @@ In the case of this newsletter, 404 is indeed found!
 * [Rust vectors](https://saidvandeklundert.net/learn/2021-08-15-rust-vector/)
 * [Daily Rust: Iterators](adventures.michaelfbryan.com/posts/daily/iterators/)
 * [video] [Rust Community Stuttgart - "Traits and trait objects - more than just interfaces"](https://www.youtube.com/watch?v=izXf9-CTAfc)
+* [End-to-End Encryption through Kafka, with Rust](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/end-to-end-encryption-through-kafka)
 
 ### Research
 
