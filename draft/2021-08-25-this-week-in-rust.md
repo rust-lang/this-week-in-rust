@@ -23,6 +23,8 @@ In the case of this newsletter, 404 is indeed found!
 
 * [SixtyFPS 0.1 Release](https://sixtyfps.io/blog/announcing-sixtyfps-0.1.html) and [SixtyFPS Weekly Report](https://sixtyfps.io/thisweek/2021-08-23.html)
 
+* [nailgun: a DNS performance testing client](https://leshow.github.io/post/nailgun/)
+
 ### Observations/Thoughts
 
 * [Superpowers of Unsafe Rust](https://blog.knoldus.com/superpowers-of-unsafe-rust/)
@@ -35,6 +37,8 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Miscellaneous
 * [An exhaustive list of all Rust resources regarding automated or semi-automated formalization efforts in any area, constructive mathematics, formal algorithms, and program verification.](https://github.com/newca12/awesome-rust-formalized-reasoning)
+
+- [nailgun: a DNS performance testing client](https://leshow.github.io/post/nailgun/)
 
 ## Crate of the Week
 
