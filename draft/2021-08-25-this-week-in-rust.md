@@ -24,6 +24,7 @@ In the case of this newsletter, 404 is indeed found!
 * [SixtyFPS 0.1 Release](https://sixtyfps.io/blog/announcing-sixtyfps-0.1.html) and [SixtyFPS Weekly Report](https://sixtyfps.io/thisweek/2021-08-23.html)
 
 * [nailgun: a DNS performance testing client](https://leshow.github.io/post/nailgun/)
+* [This week in Datafuse #4](https://datafuselabs.github.io/weekly/2021-08-25-datafuse-weekly/)
 
 ### Observations/Thoughts
 
