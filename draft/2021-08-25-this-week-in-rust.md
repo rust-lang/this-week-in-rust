@@ -157,15 +157,19 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**PolarFox Network**
+
+* [Senior Rust Engineer (Remote)](https://polarsync.breezy.hr/p/0c1d3630d39d)
+
 **Stealth Startup**
 
 * [Senior Software Engineer (Raleigh, NC, US, Possible Remote US)](https://docs.google.com/document/d/1jOT6pDE3yNpUq3c9BvFJPy4XaqlIX7BiOqXiTU1Fpfk/edit?usp=sharing)
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
-
 **Parity Technologies**
 
 * [Multiple Rust Engineering Positions Available](https://www.parity.io/jobs/)
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
