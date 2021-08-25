@@ -44,6 +44,8 @@ In the case of this newsletter, 404 is indeed found!
 
 - [nailgun: a DNS performance testing client](https://leshow.github.io/post/nailgun/)
 
+- [Aggregate streaming data in real-time with WebAssembly](https://www.infinyon.com/blog/2021/08/smartstream-aggregates/)
+
 ## Crate of the Week
 
 This week's crate is [synth](https://github.com/getsynth/synth), a declarative test data generator written in Rust.
