@@ -17,17 +17,20 @@ In the case of this newsletter, 404 is indeed found!
 ## Updates from Rust Community
 
 ### Project/Tooling Updates
-
 * [Apache Arrow Datafusion 5.0.0 release with major new features and performance improvements](https://arrow.apache.org/blog/2021/08/18/datafusion-5.0.0/)
 * [Apache Arrow Ballista 0.5.0 release](https://arrow.apache.org/blog/2021/08/18/ballista-0.5.0/)
+- [This week in Fluvio #3: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0003/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [video] [Rust Community Stuttgart - "Traits and trait objects - more than just interfaces"](https://www.youtube.com/watch?v=izXf9-CTAfc)
 
+[Rust vectors](https://saidvandeklundert.net/learn/2021-08-15-rust-vector/)
 ### Research
 
 ### Miscellaneous
+* [An exhaustive list of all Rust resources regarding automated or semi-automated formalization efforts in any area, constructive mathematics, formal algorithms, and program verification.](https://github.com/newca12/awesome-rust-formalized-reasoning)
 
 ## Crate of the Week
 
@@ -146,7 +149,15 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Stealth Startup**
+
+* [Senior Software Engineer (Raleigh, NC, US, Possible Remote US)](https://docs.google.com/document/d/1jOT6pDE3yNpUq3c9BvFJPy4XaqlIX7BiOqXiTU1Fpfk/edit?usp=sharing)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
+**Parity Technologies**
+
+* [Multiple Rust Engineering Positions Available](https://www.parity.io/jobs/)
 
 # Quote of the Week
 
