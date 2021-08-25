@@ -158,6 +158,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Wingback**
+
+* [Senior Backend Developer - rust 🦀 (Remote))](https://careers.wingback.com/o/senior-backend-developer-rust-remote)
+
 **PolarFox Network**
 
 * [Senior Rust Engineer (Remote)](https://polarsync.breezy.hr/p/0c1d3630d39d)
