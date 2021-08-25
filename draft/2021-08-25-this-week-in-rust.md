@@ -31,9 +31,11 @@ In the case of this newsletter, 404 is indeed found!
 * [Superpowers of Unsafe Rust](https://blog.knoldus.com/superpowers-of-unsafe-rust/)
 
 ### Rust Walkthroughs
-- [video] [Rust Community Stuttgart - "Traits and trait objects - more than just interfaces"](https://www.youtube.com/watch?v=izXf9-CTAfc)
 
-[Rust vectors](https://saidvandeklundert.net/learn/2021-08-15-rust-vector/)
+* [Rust vectors](https://saidvandeklundert.net/learn/2021-08-15-rust-vector/)
+* [Daily Rust: Iterators](adventures.michaelfbryan.com/posts/daily/iterators/)
+* [video] [Rust Community Stuttgart - "Traits and trait objects - more than just interfaces"](https://www.youtube.com/watch?v=izXf9-CTAfc)
+
 ### Research
 
 ### Miscellaneous
