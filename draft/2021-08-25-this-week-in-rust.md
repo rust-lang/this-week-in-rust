@@ -178,6 +178,10 @@ Email the [Rust Community Team][community] for access.
 
 * [Multiple Rust Engineering Positions Available](https://www.parity.io/jobs/)
 
+**ChainSafe**
+
+* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
