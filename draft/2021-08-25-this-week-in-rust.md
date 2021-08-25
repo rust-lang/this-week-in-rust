@@ -18,6 +18,8 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Project/Tooling Updates
 
+* [nailgun: a DNS performance testing client](https://leshow.github.io/post/nailgun/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
