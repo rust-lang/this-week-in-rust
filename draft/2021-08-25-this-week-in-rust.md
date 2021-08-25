@@ -25,6 +25,7 @@ In the case of this newsletter, 404 is indeed found!
 ### Rust Walkthroughs
 - [video] [Rust Community Stuttgart - "Traits and trait objects - more than just interfaces"](https://www.youtube.com/watch?v=izXf9-CTAfc)
 
+[Rust vectors](https://saidvandeklundert.net/learn/2021-08-15-rust-vector/)
 ### Research
 
 ### Miscellaneous
