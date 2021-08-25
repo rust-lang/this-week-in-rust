@@ -29,6 +29,7 @@ In the case of this newsletter, 404 is indeed found!
 ### Research
 
 ### Miscellaneous
+* [An exhaustive list of all Rust resources regarding automated or semi-automated formalization efforts in any area, constructive mathematics, formal algorithms, and program verification.](https://github.com/newca12/awesome-rust-formalized-reasoning)
 
 ## Crate of the Week
 
