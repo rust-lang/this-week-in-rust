@@ -165,6 +165,11 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Software Engineer (Raleigh, NC, US, Possible Remote US)](https://docs.google.com/document/d/1jOT6pDE3yNpUq3c9BvFJPy4XaqlIX7BiOqXiTU1Fpfk/edit?usp=sharing)
 
+**Kollider**
+
+* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
+* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
+
 **Parity Technologies**
 
 * [Multiple Rust Engineering Positions Available](https://www.parity.io/jobs/)
