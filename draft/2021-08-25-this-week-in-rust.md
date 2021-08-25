@@ -23,6 +23,8 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Observations/Thoughts
 
+* [Superpowers of Unsafe Rust](https://blog.knoldus.com/superpowers-of-unsafe-rust/)
+
 ### Rust Walkthroughs
 - [video] [Rust Community Stuttgart - "Traits and trait objects - more than just interfaces"](https://www.youtube.com/watch?v=izXf9-CTAfc)
 
