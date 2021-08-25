@@ -27,6 +27,7 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Observations/Thoughts
 
+* [Overview of the Rust cryptography ecosystem](https://kerkour.com/blog/rust-cryptography-ecosystem)
 * [Superpowers of Unsafe Rust](https://blog.knoldus.com/superpowers-of-unsafe-rust/)
 
 ### Rust Walkthroughs
