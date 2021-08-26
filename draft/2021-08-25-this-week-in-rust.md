@@ -29,6 +29,7 @@ In the case of this newsletter, 404 is indeed found!
 
 * [Overview of the Rust cryptography ecosystem](https://kerkour.com/blog/rust-cryptography-ecosystem)
 * [Superpowers of Unsafe Rust](https://blog.knoldus.com/superpowers-of-unsafe-rust/)
+* [Concurrency in Rust is indeed fearless](https://blog.knoldus.com/concurrency-in-rust-is-indeed-fearless/)
 
 ### Rust Walkthroughs
 
