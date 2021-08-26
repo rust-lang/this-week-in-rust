@@ -24,14 +24,17 @@ In the case of this newsletter, 404 is indeed found!
 * [SixtyFPS 0.1 Release](https://sixtyfps.io/blog/announcing-sixtyfps-0.1.html) and [SixtyFPS Weekly Report](https://sixtyfps.io/thisweek/2021-08-23.html)
 
 * [nailgun: a DNS performance testing client](https://leshow.github.io/post/nailgun/)
+* [This week in Datafuse #4](https://datafuselabs.github.io/weekly/2021-08-25-datafuse-weekly/)
 
 ### Observations/Thoughts
 
 * [Overview of the Rust cryptography ecosystem](https://kerkour.com/blog/rust-cryptography-ecosystem)
 * [Superpowers of Unsafe Rust](https://blog.knoldus.com/superpowers-of-unsafe-rust/)
+* [Concurrency in Rust is indeed fearless](https://blog.knoldus.com/concurrency-in-rust-is-indeed-fearless/)
 
 ### Rust Walkthroughs
 
+* [ZH] Formal Concept Analysis with Rust, [Part1](https://www.horsal.dev/formal-concept-analysis-with-rust-1-introduction), [Part2](https://www.horsal.dev/formal-concept-analysis-with-rust-2-basic-algorithm), [Part3](https://www.horsal.dev/formal-concept-analysis-with-rust-3-parallization)
 * [Building a small Finite State Machine in Rust](https://youtu.be/whN36JVUd6A)
 * [Rust vectors](https://saidvandeklundert.net/learn/2021-08-15-rust-vector/)
 * [Daily Rust: Iterators](adventures.michaelfbryan.com/posts/daily/iterators/)
@@ -103,15 +106,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-A fairly busy week which was to expected given that we've [adjusted our algorithm](https://github.com/rust-lang/rustc-perf/pull/956) for whether we label a change as a regression or not. Most regressions were relatively small, and only one has not yet been addressed in some way.
+A few regressions but largely an improvement this week, mostly due to the
+upgrade to LLVM 13.
 
-Triage done by **@rylev**.
-Revision range: [6b2050..aa8f27](https://perf.rust-lang.org/?start=6b20506d17f4e5e5bf5bcad7e94add4d754b0ae3&end=aa8f27bf4d980023a8b245ceb25a490a18041eb2&absolute=false&stat=instructions%3Au)
+Triage done by **@simulacrum**.
+Revision range: [aa8f27b..33fdb79](https://perf.rust-lang.org/?start=aa8f27bf4d980023a8b245ceb25a490a18041eb2&end=33fdb797f59421c7bbecaa4588ed5d7a31a9494a&absolute=false&stat=instructions%3Au)
 
-59 comparisons made in total
-3 Regressions, 2 Improvements, 2 Mixed; 0 of them in rollups
+2 Regressions, 1 Improvements, 2 Mixed; 0 of them in rollups
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-08-17.md).
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-08-24.md).
 
 ### Approved RFCs
 
@@ -169,18 +172,23 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Software Engineer (Raleigh, NC, US, Possible Remote US)](https://docs.google.com/document/d/1jOT6pDE3yNpUq3c9BvFJPy4XaqlIX7BiOqXiTU1Fpfk/edit?usp=sharing)
 
+**ChainSafe**
+
+* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
 **Kollider**
 
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 * [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 
+**NZXT**
+
+* [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
+* [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
+
 **Parity Technologies**
 
 * [Multiple Rust Engineering Positions Available](https://www.parity.io/jobs/)
-
-**ChainSafe**
-
-* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
