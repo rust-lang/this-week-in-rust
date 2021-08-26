@@ -17,22 +17,41 @@ In the case of this newsletter, 404 is indeed found!
 ## Updates from Rust Community
 
 ### Project/Tooling Updates
+* [Apache Arrow Datafusion 5.0.0 release with major new features and performance improvements](https://arrow.apache.org/blog/2021/08/18/datafusion-5.0.0/)
+* [Apache Arrow Ballista 0.5.0 release](https://arrow.apache.org/blog/2021/08/18/ballista-0.5.0/)
+- [This week in Fluvio #3: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0003/)
+
+* [SixtyFPS 0.1 Release](https://sixtyfps.io/blog/announcing-sixtyfps-0.1.html) and [SixtyFPS Weekly Report](https://sixtyfps.io/thisweek/2021-08-23.html)
+
+* [nailgun: a DNS performance testing client](https://leshow.github.io/post/nailgun/)
 
 ### Observations/Thoughts
 
+* [Overview of the Rust cryptography ecosystem](https://kerkour.com/blog/rust-cryptography-ecosystem)
+* [Superpowers of Unsafe Rust](https://blog.knoldus.com/superpowers-of-unsafe-rust/)
+
 ### Rust Walkthroughs
 
-- [ZH] Formal Concept Analysis with Rust, [Part1](https://www.horsal.dev/formal-concept-analysis-with-rust-1-introduction), [Part2](https://www.horsal.dev/formal-concept-analysis-with-rust-2-basic-algorithm), [Part3](https://www.horsal.dev/formal-concept-analysis-with-rust-3-parallization)
+* [ZH] Formal Concept Analysis with Rust, [Part1](https://www.horsal.dev/formal-concept-analysis-with-rust-1-introduction), [Part2](https://www.horsal.dev/formal-concept-analysis-with-rust-2-basic-algorithm), [Part3](https://www.horsal.dev/formal-concept-analysis-with-rust-3-parallization)
+* [Building a small Finite State Machine in Rust](https://youtu.be/whN36JVUd6A)
+* [Rust vectors](https://saidvandeklundert.net/learn/2021-08-15-rust-vector/)
+* [Daily Rust: Iterators](adventures.michaelfbryan.com/posts/daily/iterators/)
+* [video] [Rust Community Stuttgart - "Traits and trait objects - more than just interfaces"](https://www.youtube.com/watch?v=izXf9-CTAfc)
 
 ### Research
 
 ### Miscellaneous
+* [An exhaustive list of all Rust resources regarding automated or semi-automated formalization efforts in any area, constructive mathematics, formal algorithms, and program verification.](https://github.com/newca12/awesome-rust-formalized-reasoning)
+
+- [nailgun: a DNS performance testing client](https://leshow.github.io/post/nailgun/)
+
+- [Aggregate streaming data in real-time with WebAssembly](https://www.infinyon.com/blog/2021/08/smartstream-aggregates/)
 
 ## Crate of the Week
 
-This week's crate is [synth](https://github.com/getsynth/synth), a declarative test data generator written in Rust.
+This week's crate is [kube-leader-election](https://github.com/hendrikmaus/kube-leader-election), a crate to implement leader election for Kubernetes workloads.
 
-[llogiq](https://users.rust-lang.org/t/crate-of-the-week/2704/942) shamelessly used his recent self-suggestion for lack of another nomination.
+Thanks to [hendrikmaus](https://users.rust-lang.org/t/crate-of-the-week/2704/945) for the self-suggestion.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -55,39 +74,33 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from Rust Core
 
-197 pull requests were [merged in the last week][merged]
+293 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?p=20&q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-08-09..2021-08-16&type=Issues
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-08-16..2021-08-23
 
-* [make deleted code in a suggestion clearer](https://github.com/rust-lang/rust/pull/86532)
-* [point to where clause for GATs to add bound](https://github.com/rust-lang/rust/pull/87478)
-* [use smaller spans when suggesting method call disambiguation](https://github.com/rust-lang/rust/pull/87889)
-* [use a more accurate span on assoc types WF checks](https://github.com/rust-lang/rust/pull/87819)
-* [constify implementations of (`Try`)`From` for int types](https://github.com/rust-lang/rust/pull/86840)
-* [add automatic migration for `assert!(.., string)`](https://github.com/rust-lang/rust/pull/87982)
-* [fix closure migration suggestion when the body is a macro](https://github.com/rust-lang/rust/pull/87956)
-* [associated functions that contain `extern` indicator or have `#[rustc_std_internal_symbol]` are reachable](https://github.com/rust-lang/rust/pull/86492)
-* [LLVM codegen: don't emit zero-sized padding for fields](https://github.com/rust-lang/rust/pull/87254)
-* [uplift the invalid_atomic_ordering lint from clippy to rustc](https://github.com/rust-lang/rust/pull/84039)
-* [run `RemoveZsts` pass at `mir-opt-level=1`](https://github.com/rust-lang/rust/pull/83417)
-* [implement `black_box` using intrinsic](https://github.com/rust-lang/rust/pull/87916)
-* [specialize `Vec::clone_from` for `Copy` types](https://github.com/rust-lang/rust/pull/87913)
-* [add support for `clobber_abi` to `asm!`](https://github.com/rust-lang/rust/pull/87581)
-* [deprecate `llvm_asm!`](https://github.com/rust-lang/rust/pull/87590)
-* [add the Option::unzip() method](https://github.com/rust-lang/rust/pull/87636)
-* [test and fix `size_hint` for slice’s (`r`)`split`* iterators](https://github.com/rust-lang/rust/pull/87974)
-* [implement `Extend<(A, B)>` for `(Extend<A>, Extend<B>)`](https://github.com/rust-lang/rust/pull/85835)
-* [cargo: teach cargo to failfast on recursive/corecursive aliases](https://github.com/rust-lang/cargo/pull/9791)
-* [cargo: fix value-after-table error with profiles](https://github.com/rust-lang/cargo/pull/9789)
-* [cargo: ability to specify the output name for a bin target different from the crate name](https://github.com/rust-lang/cargo/pull/9627)
-* [clippy: `never_loop`: suggest using an if let instead of a for loop](https://github.com/rust-lang/rust-clippy/pull/7541)
-* [clippy: properly handle `Self` type for `trivially_copy_pass_by_ref`](https://github.com/rust-lang/rust-clippy/pull/7535)
-* [clippy: check expr usage for `manual_flatten`](https://github.com/rust-lang/rust-clippy/pull/7566)
-* [clippy: fix `manual_map` non-compiling suggestions](https://github.com/rust-lang/rust-clippy/pull/7531)
-* [clippy: fix false positive on `filter_next`](https://github.com/rust-lang/rust-clippy/pull/7562)
-* [clippy: fix `nonstandard_macro_braces` false positive](https://github.com/rust-lang/rust-clippy/pull/7478)
-* [clippy: use `avoid-breaking-exported-api` configuration in `types` module](https://github.com/rust-lang/rust-clippy/pull/7560)
-* [clippy: add `unwrap_or_else_default` lint](https://github.com/rust-lang/rust-clippy/pull/7516)
+* [upgrade to LLVM 13](https://github.com/rust-lang/rust/pull/87570)
+* [introduce `hir::ExprKind::Let` - Take 2](https://github.com/rust-lang/rust/pull/80357)
+* [enable compiler consumers to obtain `mir::Body` with Polonius facts](https://github.com/rust-lang/rust/pull/86977)
+* [force warn improvements](https://github.com/rust-lang/rust/pull/88134)
+* [account for tabs when highlighting multiline code suggestions](https://github.com/rust-lang/rust/pull/87976)
+* [use more accurate spans when proposing adding lifetime to item](https://github.com/rust-lang/rust/pull/87983)
+* [add notes to macro-not-found diagnostics to point out how things with the same name were not a match](https://github.com/rust-lang/rust/pull/88232)
+* [improve wording of the `drop_bounds` lint](https://github.com/rust-lang/rust/pull/86747)
+* [improve NLL's "higher-ranked subtype error"s](https://github.com/rust-lang/rust/pull/86700)
+* [suggest importing the right kind of macro](https://github.com/rust-lang/rust/pull/88229)
+* [improve error reporting for closure return type mismatches](https://github.com/rust-lang/rust/pull/87661)
+* [canonicalize consts before calling `try_unify_abstract_consts` query](https://github.com/rust-lang/rust/pull/88166)
+* [reenable `RemoveZsts`](https://github.com/rust-lang/rust/pull/88176)
+* [I/O safety](https://github.com/rust-lang/rust/pull/87329) (RFC [#3128](https://rust-lang.github.io/rfcs/3128-io-safety.html))
+* [stabilize `arbitrary_enum_discriminant`](https://github.com/rust-lang/rust/pull/86860)
+* [constified implementations of `Default`](https://github.com/rust-lang/rust/pull/86808)
+* [optimize unnecessary check in `VecDeque::retain`](https://github.com/rust-lang/rust/pull/88075)
+* [where available use `AtomicU`{`64`, `128`} instead of mutex for `Instant` backsliding protection](https://github.com/rust-lang/rust/pull/83093)
+* [add fast path for `Path::cmp` that skips over long shared prefixes](https://github.com/rust-lang/rust/pull/86898)
+* [cargo: fix panic with build-std of a proc-macro](https://github.com/rust-lang/cargo/pull/9834)
+* [clippy: add new lints `negative_feature_names` and `redundant_feature_names`](https://github.com/rust-lang/rust-clippy/pull/7539)
+* [clippy: move `branches_sharing_code` to nursery](https://github.com/rust-lang/rust-clippy/pull/7595)
+* [clippy: remove stderr limit](https://github.com/rust-lang/rust-clippy/pull/7593)
 
 ### Rust Compiler Performance Triage
 
@@ -145,22 +158,36 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Wingback**
+
+* [Senior Backend Developer - rust 🦀 (Remote))](https://careers.wingback.com/o/senior-backend-developer-rust-remote)
+
+**PolarFox Network**
+
+* [Senior Rust Engineer (Remote)](https://polarsync.breezy.hr/p/0c1d3630d39d)
+
+**Stealth Startup**
+
+* [Senior Software Engineer (Raleigh, NC, US, Possible Remote US)](https://docs.google.com/document/d/1jOT6pDE3yNpUq3c9BvFJPy4XaqlIX7BiOqXiTU1Fpfk/edit?usp=sharing)
+
+**Kollider**
+
+* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
+* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
+
+**Parity Technologies**
+
+* [Multiple Rust Engineering Positions Available](https://www.parity.io/jobs/)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> **Rust** : You can't move your object and try to keep it, too.  
-> **Me** : Ok, I suppose I can clone it?  
-> **Rust** : Then implement a clone method.  
-> **Me** : Why am I getting a stack overflow?  
-> **Rust** : It is never a good idea for a clone method to call itself.  
-> **Me** : I just wanted to simplify the trivial cases.  
-> **Rust** : It is still not a good idea for a clone method to call itself.  
-> **Me** : I can't believe I have gotten myself into this.
+> Code doesn't deal with resources until it does. Similarly with everything else that forces you to reason about control flow - you don't care about thread management until you do, you don't care about action logs until you do, you don't care about performance until you do... and from the other side, code doesn't need to be exception-safe until it does. The trouble with this kind of "magic" language feature is that correctness becomes non-compositional: you can take two working pieces of code and put them together and get something that doesn't work.
 
-– [Oliver Ruebenacker on rust-users](https://users.rust-lang.org/t/writing-my-first-multi-threaded-app-with-rust-be-like/63481)
+– [Mickey Donaghy on Hacker News](https://news.ycombinator.com/item?id=26536896)
 
-Thanks to [MBartlett21](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1093) for the suggestion!
+Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1096) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
