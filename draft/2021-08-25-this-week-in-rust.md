@@ -17,12 +17,11 @@ In the case of this newsletter, 404 is indeed found!
 ## Updates from Rust Community
 
 ### Project/Tooling Updates
+
 * [Apache Arrow Datafusion 5.0.0 release with major new features and performance improvements](https://arrow.apache.org/blog/2021/08/18/datafusion-5.0.0/)
 * [Apache Arrow Ballista 0.5.0 release](https://arrow.apache.org/blog/2021/08/18/ballista-0.5.0/)
-- [This week in Fluvio #3: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0003/)
-
+* [This week in Fluvio #3: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0003/)
 * [SixtyFPS 0.1 Release](https://sixtyfps.io/blog/announcing-sixtyfps-0.1.html) and [SixtyFPS Weekly Report](https://sixtyfps.io/thisweek/2021-08-23.html)
-
 * [nailgun: a DNS performance testing client](https://leshow.github.io/post/nailgun/)
 * [This week in Datafuse #4](https://datafuselabs.github.io/weekly/2021-08-25-datafuse-weekly/)
 
@@ -34,21 +33,18 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Rust Walkthroughs
 
-* [ZH] Formal Concept Analysis with Rust, [Part1](https://www.horsal.dev/formal-concept-analysis-with-rust-1-introduction), [Part2](https://www.horsal.dev/formal-concept-analysis-with-rust-2-basic-algorithm), [Part3](https://www.horsal.dev/formal-concept-analysis-with-rust-3-parallization)
 * [Building a small Finite State Machine in Rust](https://youtu.be/whN36JVUd6A)
 * [Rust vectors](https://saidvandeklundert.net/learn/2021-08-15-rust-vector/)
 * [Daily Rust: Iterators](adventures.michaelfbryan.com/posts/daily/iterators/)
-* [video] [Rust Community Stuttgart - "Traits and trait objects - more than just interfaces"](https://www.youtube.com/watch?v=izXf9-CTAfc)
 * [End-to-End Encryption through Kafka, with Rust](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/end-to-end-encryption-through-kafka)
-
-### Research
+* [ZH] Formal Concept Analysis with Rust, [Part1](https://www.horsal.dev/formal-concept-analysis-with-rust-1-introduction), [Part2](https://www.horsal.dev/formal-concept-analysis-with-rust-2-basic-algorithm), [Part3](https://www.horsal.dev/formal-concept-analysis-with-rust-3-parallization)
+* [video] [Rust Community Stuttgart - "Traits and trait objects - more than just interfaces"](https://www.youtube.com/watch?v=izXf9-CTAfc)
 
 ### Miscellaneous
+
 * [An exhaustive list of all Rust resources regarding automated or semi-automated formalization efforts in any area, constructive mathematics, formal algorithms, and program verification.](https://github.com/newca12/awesome-rust-formalized-reasoning)
-
-- [nailgun: a DNS performance testing client](https://leshow.github.io/post/nailgun/)
-
-- [Aggregate streaming data in real-time with WebAssembly](https://www.infinyon.com/blog/2021/08/smartstream-aggregates/)
+* [nailgun: a DNS performance testing client](https://leshow.github.io/post/nailgun/)
+* [Aggregate streaming data in real-time with WebAssembly](https://www.infinyon.com/blog/2021/08/smartstream-aggregates/)
 
 ## Crate of the Week
 
@@ -59,10 +55,6 @@ Thanks to [hendrikmaus](https://users.rust-lang.org/t/crate-of-the-week/2704/945
 [Please submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
-
-## Module of the Week
-
-Continuing [Rust Module of the Week](https://motw.rs) this week is [std::fs Part 2: Dirs, Dirs, Dirs](https://motw.rs/blog/2021/08/08/stdfs-part-2-dirs-dirs-dirs/). Contribution and feedback welcome [here](https://github.com/slyons/rust-module-of-the-week).
 
 ## Call for Participation
 
@@ -161,6 +153,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Apple**
+
+* [Senior Software Engineer - Apple Media Products](https://jobs.apple.com/en-us/details/200278498/senior-software-engineer-apple-media-products?team=SFTWR)
+
 **Wingback**
 
 * [Senior Backend Developer - rust 🦀 (Remote))](https://careers.wingback.com/o/senior-backend-developer-rust-remote)
@@ -173,9 +169,17 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Software Engineer (Raleigh, NC, US, Possible Remote US)](https://docs.google.com/document/d/1jOT6pDE3yNpUq3c9BvFJPy4XaqlIX7BiOqXiTU1Fpfk/edit?usp=sharing)
 
+**Dusk Network**
+
+* [Rust Developer (Fulltime) (Remote)](https://dusk.network/pages/rust-developer-vacancy)
+
 **ChainSafe**
 
 * [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
+**Bitfury**
+
+* [Rust Developer (Kyiv, Kiev, UA)](https://arbeitnow.com/view/rust-developer-bitfury-393648)
 
 **Kollider**
 
@@ -190,6 +194,10 @@ Email the [Rust Community Team][community] for access.
 **Parity Technologies**
 
 * [Multiple Rust Engineering Positions Available](https://www.parity.io/jobs/)
+
+**Subspace Labs**
+
+* [Multiple Rust Engineering Positions Available](https://jobs.lever.co/subspacelabs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
