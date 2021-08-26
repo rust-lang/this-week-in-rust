@@ -29,6 +29,7 @@ In the case of this newsletter, 404 is indeed found!
 * [Rudra: Rust Memory Safety & Undefined Behavior Detection](https://www.reddit.com/r/rust/comments/p8gcbe/rudra_rust_memory_safety_undefined_behavior/)
 * [SnakeOS v0.1.0 released!](https://www.reddit.com/r/rust/comments/p86a24/snakeos_v010_released/)
 * [Pueue v1.0.0 - Manage your shell commands. Reaching stable after 3.5 years](https://www.reddit.com/r/rust/comments/p84amc/release_pueue_v100_manage_your_shell_commands/)
+* [This week in Datafuse #4](https://datafuselabs.github.io/weekly/2021-08-25-datafuse-weekly/)
 
 ### Observations/Thoughts
 * [Overview of the Rust cryptography ecosystem](https://kerkour.com/blog/rust-cryptography-ecosystem)
@@ -40,6 +41,7 @@ In the case of this newsletter, 404 is indeed found!
 * [Shaking Off the Rust 2: Ray Tracing in WebAssembly](https://clayto.com/2021/07/shaking-off-the-rust-2-ray-tracing-in-webassembly/)
 * [Async Overloading](https://blog.yoshuawuyts.com/async-overloading/)
 * [Scoped Arena Allocator](https://devblog.arcana.rs/scoped-arena-allocator)
+* [Concurrency in Rust is indeed fearless](https://blog.knoldus.com/concurrency-in-rust-is-indeed-fearless/)
 
 ### Rust Walkthroughs
 * [Building a small Finite State Machine in Rust](https://youtu.be/whN36JVUd6A)
@@ -57,9 +59,9 @@ In the case of this newsletter, 404 is indeed found!
 * [Daily Rust: Iterators](https://adventures.michaelfbryan.com/posts/daily/iterators/?utm_source=reddit&utm_medium=social&utm_campaign=daily-rust-basic-iterators)
 * [Cross compiling Windows binaries from Linux](https://jake-shadle.github.io/xwin/)
 * [Rust Trait Objects Demystified](https://desilva.io/posts/rust-trait-objects-demystified)
+* [End-to-End Encryption through Kafka, with Rust](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/end-to-end-encryption-through-kafka)
+* [ZH] Formal Concept Analysis with Rust, [Part1](https://www.horsal.dev/formal-concept-analysis-with-rust-1-introduction), [Part2](https://www.horsal.dev/formal-concept-analysis-with-rust-2-basic-algorithm), [Part3](https://www.horsal.dev/formal-concept-analysis-with-rust-3-parallization)
 * [video] [Rust Community Stuttgart - "Traits and trait objects - more than just interfaces"](https://www.youtube.com/watch?v=izXf9-CTAfc)
-
-### Research
 
 ### Miscellaneous
 * [An exhaustive list of all Rust resources regarding automated or semi-automated formalization efforts in any area, constructive mathematics, formal algorithms, and program verification.](https://github.com/newca12/awesome-rust-formalized-reasoning)
@@ -79,16 +81,17 @@ Thanks to [hendrikmaus](https://users.rust-lang.org/t/crate-of-the-week/2704/945
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
-## Module of the Week
-
-Continuing [Rust Module of the Week](https://motw.rs) this week is [std::fs Part 2: Dirs, Dirs, Dirs](https://motw.rs/blog/2021/08/08/stdfs-part-2-dirs-dirs-dirs/). Contribution and feedback welcome [here](https://github.com/slyons/rust-module-of-the-week).
-
 ## Call for Participation
 
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [rust-lang/cargo - "error: binary xxx already exists in destination" should print the full destination path](https://github.com/rust-lang/cargo/issues/9797)
+* [ockam-network/ockam - Like ngrok, but using Ockam](https://github.com/ockam-network/ockam/issues/1762)
+* [ockam-network/ockam - Forwarder in Rust](https://github.com/ockam-network/ockam/issues/1761)
+* [ andreev-io/little-raft - New Contributors Wanted](https://github.com/andreev-io/little-raft/issues)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -126,15 +129,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-A fairly busy week which was to expected given that we've [adjusted our algorithm](https://github.com/rust-lang/rustc-perf/pull/956) for whether we label a change as a regression or not. Most regressions were relatively small, and only one has not yet been addressed in some way.
+A few regressions but largely an improvement this week, mostly due to the
+upgrade to LLVM 13.
 
-Triage done by **@rylev**.
-Revision range: [6b2050..aa8f27](https://perf.rust-lang.org/?start=6b20506d17f4e5e5bf5bcad7e94add4d754b0ae3&end=aa8f27bf4d980023a8b245ceb25a490a18041eb2&absolute=false&stat=instructions%3Au)
+Triage done by **@simulacrum**.
+Revision range: [aa8f27b..33fdb79](https://perf.rust-lang.org/?start=aa8f27bf4d980023a8b245ceb25a490a18041eb2&end=33fdb797f59421c7bbecaa4588ed5d7a31a9494a&absolute=false&stat=instructions%3Au)
 
-59 comparisons made in total
-3 Regressions, 2 Improvements, 2 Mixed; 0 of them in rollups
+2 Regressions, 1 Improvements, 2 Mixed; 0 of them in rollups
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-08-17.md).
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-08-24.md).
 
 ### Approved RFCs
 
@@ -151,25 +154,40 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in the final comment period.*
+* [RFC: let-expression](https://github.com/rust-lang/rfcs/pull/3159)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Stabilize std::os::unix::fs::chroot](https://github.com/rust-lang/rust/pull/88177)
+* [disposition: merge] [Stabilize reserved prefixes](https://github.com/rust-lang/rust/issues/88140)
+* [disposition: merge] [stabilize disjoint capture in closures (RFC 2229)](https://github.com/rust-lang/rust/issues/88126)
+* [disposition: merge] [BTree: remove Ord bound from new](https://github.com/rust-lang/rust/pull/88040)
+* [disposition: merge] [Update Windows Argument Parsing](https://github.com/rust-lang/rust/pull/87580)
+* [disposition: merge] [Support #[track_caller] on closures and generators](https://github.com/rust-lang/rust/pull/87064)
 * [disposition: merge] [Stabilize "force warn" option](https://github.com/rust-lang/rust/issues/86516)
+* [disposition: merge] [Extend -Cdebuginfo with new options and named aliases](https://github.com/rust-lang/rust/pull/83947)
+* [disposition: merge] [Allow writing of incomplete UTF-8 sequences to the Windows console via stdout/stderr](https://github.com/rust-lang/rust/pull/83342)
+* [disposition: merge] [Tracking Issue for Iterator::intersperse](https://github.com/rust-lang/rust/issues/79524)
+* [disposition: merge] [Provide an API to extract fields from Command builder](https://github.com/rust-lang/rust/issues/44434)
 
 ### New RFCs
 
-* [RFC: let-expression](https://github.com/rust-lang/rfcs/pull/3159)
+* [RFC: cargo-run-deps](https://github.com/rust-lang/rfcs/pull/3168)
+* [Proposal: Else clauses for for and while loops](https://github.com/rust-lang/rfcs/pull/3163)
 
 ## Upcoming Events
 
 ### Online
 
-* [August 18, 2021, Denver, CO, US - Level up our Rust skills by building an ECS by Brooks Patton - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/278909353/)
-* [August 18, 2021, Vancouver, BC, CA - Solving LeetCode Problems with Rust - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsycclbxb/)
-* [August 19, 2021, Manchester, UK - Rust Manchester - Speeding Up the Snake: Extending Python with Rust](https://www.meetup.com/rust-manchester/events/279730616/)
-* [August 19, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
-* [August 31, 2021, Dallas, TX - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/)
+* [August 31, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/)
+* [September 2, 2021, Zurich, CH - Exciting new Rustdoc features landing in 1.55.0 - Hybrid Meetup (Livestream!) - Rust Zurich](https://www.meetup.com/Rust-Zurich/events/280295950/)
+* [September 2, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
+* [September 8, 2021, Denver, CO, US - Rust Q&A - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/279407152/)
+
+### North America
+
+* [September 8, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/lhpkmsyccmblb/)
+
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -179,6 +197,10 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Apple**
+
+* [Senior Software Engineer - Apple Media Products](https://jobs.apple.com/en-us/details/200278498/senior-software-engineer-apple-media-products?team=SFTWR)
 
 **Wingback**
 
@@ -192,14 +214,35 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Software Engineer (Raleigh, NC, US, Possible Remote US)](https://docs.google.com/document/d/1jOT6pDE3yNpUq3c9BvFJPy4XaqlIX7BiOqXiTU1Fpfk/edit?usp=sharing)
 
+**Dusk Network**
+
+* [Rust Developer (Fulltime) (Remote)](https://dusk.network/pages/rust-developer-vacancy)
+
+**ChainSafe**
+
+* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
+**Bitfury**
+
+* [Rust Developer (Kyiv, Kiev, UA)](https://arbeitnow.com/view/rust-developer-bitfury-393648)
+
 **Kollider**
 
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 * [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 
+**NZXT**
+
+* [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
+* [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
+
 **Parity Technologies**
 
 * [Multiple Rust Engineering Positions Available](https://www.parity.io/jobs/)
+
+**Subspace Labs**
+
+* [Multiple Rust Engineering Positions Available](https://jobs.lever.co/subspacelabs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
