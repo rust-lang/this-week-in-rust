@@ -105,15 +105,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-A fairly busy week which was to expected given that we've [adjusted our algorithm](https://github.com/rust-lang/rustc-perf/pull/956) for whether we label a change as a regression or not. Most regressions were relatively small, and only one has not yet been addressed in some way.
+A few regressions but largely an improvement this week, mostly due to the
+upgrade to LLVM 13.
 
-Triage done by **@rylev**.
-Revision range: [6b2050..aa8f27](https://perf.rust-lang.org/?start=6b20506d17f4e5e5bf5bcad7e94add4d754b0ae3&end=aa8f27bf4d980023a8b245ceb25a490a18041eb2&absolute=false&stat=instructions%3Au)
+Triage done by **@simulacrum**.
+Revision range: [aa8f27b..33fdb79](https://perf.rust-lang.org/?start=aa8f27bf4d980023a8b245ceb25a490a18041eb2&end=33fdb797f59421c7bbecaa4588ed5d7a31a9494a&absolute=false&stat=instructions%3Au)
 
-59 comparisons made in total
-3 Regressions, 2 Improvements, 2 Mixed; 0 of them in rollups
+2 Regressions, 1 Improvements, 2 Mixed; 0 of them in rollups
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-08-17.md).
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-08-24.md).
 
 ### Approved RFCs
 
