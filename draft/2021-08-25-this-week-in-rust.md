@@ -17,34 +17,57 @@ In the case of this newsletter, 404 is indeed found!
 ## Updates from Rust Community
 
 ### Project/Tooling Updates
+* [rust-analyzer Changelog #91](https://rust-analyzer.github.io/thisweek/2021/08/23/changelog-91.html)
 * [Apache Arrow Datafusion 5.0.0 release with major new features and performance improvements](https://arrow.apache.org/blog/2021/08/18/datafusion-5.0.0/)
 * [Apache Arrow Ballista 0.5.0 release](https://arrow.apache.org/blog/2021/08/18/ballista-0.5.0/)
-- [This week in Fluvio #3: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0003/)
-
+* [This week in Fluvio #3: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0003/)
 * [SixtyFPS 0.1 Release](https://sixtyfps.io/blog/announcing-sixtyfps-0.1.html) and [SixtyFPS Weekly Report](https://sixtyfps.io/thisweek/2021-08-23.html)
-
 * [nailgun: a DNS performance testing client](https://leshow.github.io/post/nailgun/)
+* [nom 7.0 release: fast parser combinators, now without macros! And the new nom-bufreader](https://www.reddit.com/r/rust/comments/p9usvq/nom_70_release_fast_parser_combinators_now/)
+* [Announcing egui 0.14](https://www.reddit.com/r/rust/comments/papqk1/announcing_egui_014/)
+* [miette: a fancy new diagnostics definition and reporting crate for apps and libraries!](https://www.reddit.com/r/rust/comments/p9t3jh/miette_a_fancy_new_diagnostics_definition_and/)
+* [Rudra: Rust Memory Safety & Undefined Behavior Detection](https://www.reddit.com/r/rust/comments/p8gcbe/rudra_rust_memory_safety_undefined_behavior/)
+* [SnakeOS v0.1.0 released!](https://www.reddit.com/r/rust/comments/p86a24/snakeos_v010_released/)
+* [Pueue v1.0.0 - Manage your shell commands. Reaching stable after 3.5 years](https://www.reddit.com/r/rust/comments/p84amc/release_pueue_v100_manage_your_shell_commands/)
 
 ### Observations/Thoughts
-
 * [Overview of the Rust cryptography ecosystem](https://kerkour.com/blog/rust-cryptography-ecosystem)
 * [Superpowers of Unsafe Rust](https://blog.knoldus.com/superpowers-of-unsafe-rust/)
+* [Using KLEE on Rust-for-Linux (part 1)](https://project-oak.github.io/rust-verification-tools/2021/08/22/rust-on-linux-1.html)
+* [Large Rust Workspaces](https://matklad.github.io/2021/08/22/large-rust-workspaces.html)
+* [Using Rust with Elixir for code reuse and performance](https://blog.doctave.com/2021/08/19/using-rust-with-elixir-for-code-reuse-and-performance.html)
+* [Models of Generics and Metaprogramming: Go, Rust, Swift, D and More](https://thume.ca/2019/07/14/a-tour-of-metaprogramming-models-for-generics/)
+* [Shaking Off the Rust 2: Ray Tracing in WebAssembly](https://clayto.com/2021/07/shaking-off-the-rust-2-ray-tracing-in-webassembly/)
+* [Async Overloading](https://blog.yoshuawuyts.com/async-overloading/)
+* [Scoped Arena Allocator](https://devblog.arcana.rs/scoped-arena-allocator)
 
 ### Rust Walkthroughs
-
 * [Building a small Finite State Machine in Rust](https://youtu.be/whN36JVUd6A)
 * [Rust vectors](https://saidvandeklundert.net/learn/2021-08-15-rust-vector/)
 * [Daily Rust: Iterators](adventures.michaelfbryan.com/posts/daily/iterators/)
+* [Getting Started with Systems Programming with Rust (Part 1)](https://www.bexxmodd.com/post/systems-programming-with-rust-1)
+* [Getting Started with Systems Programming with Rust (Part 2)](https://www.bexxmodd.com/post/systems-programming-with-rust-2)
+* [Optimizing Immutable Strings in Rust](https://dev.to/somedood/optimizing-immutable-strings-in-rust-2ahj)
+* [Rust for Data Science: Tutorial 1](https://dev.to/davidedelpapa/rust-for-data-science-tutorial-1-4g5j)
+* [Rust and WebAssembly Serverless functions in Vercel](https://dev.to/alabulei1/rust-and-webassembly-serverless-functions-in-vercel-47e4)
+* [Pin, Unpin, and why Rust needs them](https://blog.adamchalmers.com/pin-unpin/)
+* [Rust: How to Unwrap Multiple Required Options](https://blog.hendrikmaus.dev/rust-unwrap-options-in-a-function-that-returns-a-result-type/)
+* [Hexagonal architecture in Rust #1](https://alexis-lozano.com/hexagonal-architecture-in-rust-1/)
+* [Hexagonal architecture in Rust #2](https://alexis-lozano.com/hexagonal-architecture-in-rust-2/)
+* [Daily Rust: Iterators](https://adventures.michaelfbryan.com/posts/daily/iterators/?utm_source=reddit&utm_medium=social&utm_campaign=daily-rust-basic-iterators)
+* [Cross compiling Windows binaries from Linux](https://jake-shadle.github.io/xwin/)
+* [Rust Trait Objects Demystified](https://desilva.io/posts/rust-trait-objects-demystified)
 * [video] [Rust Community Stuttgart - "Traits and trait objects - more than just interfaces"](https://www.youtube.com/watch?v=izXf9-CTAfc)
 
 ### Research
 
 ### Miscellaneous
 * [An exhaustive list of all Rust resources regarding automated or semi-automated formalization efforts in any area, constructive mathematics, formal algorithms, and program verification.](https://github.com/newca12/awesome-rust-formalized-reasoning)
-
-- [nailgun: a DNS performance testing client](https://leshow.github.io/post/nailgun/)
-
-- [Aggregate streaming data in real-time with WebAssembly](https://www.infinyon.com/blog/2021/08/smartstream-aggregates/)
+* [Aggregate streaming data in real-time with WebAssembly](https://www.infinyon.com/blog/2021/08/smartstream-aggregates/)
+* [I re-implemented the legendary "Typing the technical interview" article using only Rust types!](https://www.reddit.com/r/rust/comments/pb97fa/i_reimplemented_the_legendary_typing_the/)
+* [Chromium adds a Rust toolchain as a potential dependency](https://www.reddit.com/r/rust/comments/paxowq/chromium_adds_a_rust_toolchain_as_a_potential/)
+* [New very promising Linux syscall for creating secret memory even the kernel can't read. I'll be working for creating a crate for using it out](https://www.reddit.com/r/rust/comments/p7qzdn/new_very_promising_linux_syscall_for_creating/)
+* [picture] [Field Init Shorthand in Rust](https://www.reddit.com/r/rust/comments/pai1o8/media_field_init_shorthand_in_rust/)
 
 ## Crate of the Week
 
