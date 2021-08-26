@@ -29,6 +29,7 @@ In the case of this newsletter, 404 is indeed found!
 * [Rudra: Rust Memory Safety & Undefined Behavior Detection](https://www.reddit.com/r/rust/comments/p8gcbe/rudra_rust_memory_safety_undefined_behavior/)
 * [SnakeOS v0.1.0 released!](https://www.reddit.com/r/rust/comments/p86a24/snakeos_v010_released/)
 * [Pueue v1.0.0 - Manage your shell commands. Reaching stable after 3.5 years](https://www.reddit.com/r/rust/comments/p84amc/release_pueue_v100_manage_your_shell_commands/)
+* [Announcing Persy 1.0: a simple transactional storage](https://persy.rs/posts/persy-1.0.html)
 * [This week in Datafuse #4](https://datafuselabs.github.io/weekly/2021-08-25-datafuse-weekly/)
 
 ### Observations/Thoughts
