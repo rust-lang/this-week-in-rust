@@ -23,6 +23,7 @@ In the case of this newsletter, 404 is indeed found!
 * [This week in Fluvio #3: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0003/)
 * [SixtyFPS 0.1 Release](https://sixtyfps.io/blog/announcing-sixtyfps-0.1.html) and [SixtyFPS Weekly Report](https://sixtyfps.io/thisweek/2021-08-23.html)
 * [nailgun: a DNS performance testing client](https://leshow.github.io/post/nailgun/)
+- [Announcing Persy 1.0: a simple transactional storage](https://persy.rs/posts/persy-1.0.html)
 * [This week in Datafuse #4](https://datafuselabs.github.io/weekly/2021-08-25-datafuse-weekly/)
 
 ### Observations/Thoughts
