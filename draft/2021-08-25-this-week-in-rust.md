@@ -63,6 +63,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [rust-lang/cargo - "error: binary xxx already exists in destination" should print the full destination path](https://github.com/rust-lang/cargo/issues/9797)
+* [ockam-network/ockam - Like ngrok, but using Ockam](https://github.com/ockam-network/ockam/issues/1762)
+* [ockam-network/ockam - Forwarder in Rust](https://github.com/ockam-network/ockam/issues/1761)
+* [ andreev-io/little-raft - New Contributors Wanted](https://github.com/andreev-io/little-raft/issues)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -124,25 +129,40 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-*No RFCs are currently in the final comment period.*
+* [RFC: let-expression](https://github.com/rust-lang/rfcs/pull/3159)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Stabilize std::os::unix::fs::chroot](https://github.com/rust-lang/rust/pull/88177)
+* [disposition: merge] [Stabilize reserved prefixes](https://github.com/rust-lang/rust/issues/88140)
+* [disposition: merge] [stabilize disjoint capture in closures (RFC 2229)](https://github.com/rust-lang/rust/issues/88126)
+* [disposition: merge] [BTree: remove Ord bound from new](https://github.com/rust-lang/rust/pull/88040)
+* [disposition: merge] [Update Windows Argument Parsing](https://github.com/rust-lang/rust/pull/87580)
+* [disposition: merge] [Support #[track_caller] on closures and generators](https://github.com/rust-lang/rust/pull/87064)
 * [disposition: merge] [Stabilize "force warn" option](https://github.com/rust-lang/rust/issues/86516)
+* [disposition: merge] [Extend -Cdebuginfo with new options and named aliases](https://github.com/rust-lang/rust/pull/83947)
+* [disposition: merge] [Allow writing of incomplete UTF-8 sequences to the Windows console via stdout/stderr](https://github.com/rust-lang/rust/pull/83342)
+* [disposition: merge] [Tracking Issue for Iterator::intersperse](https://github.com/rust-lang/rust/issues/79524)
+* [disposition: merge] [Provide an API to extract fields from Command builder](https://github.com/rust-lang/rust/issues/44434)
 
 ### New RFCs
 
-* [RFC: let-expression](https://github.com/rust-lang/rfcs/pull/3159)
+* [RFC: cargo-run-deps](https://github.com/rust-lang/rfcs/pull/3168)
+* [Proposal: Else clauses for for and while loops](https://github.com/rust-lang/rfcs/pull/3163)
 
 ## Upcoming Events
 
 ### Online
 
-* [August 18, 2021, Denver, CO, US - Level up our Rust skills by building an ECS by Brooks Patton - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/278909353/)
-* [August 18, 2021, Vancouver, BC, CA - Solving LeetCode Problems with Rust - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsycclbxb/)
-* [August 19, 2021, Manchester, UK - Rust Manchester - Speeding Up the Snake: Extending Python with Rust](https://www.meetup.com/rust-manchester/events/279730616/)
-* [August 19, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
-* [August 31, 2021, Dallas, TX - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/)
+* [August 31, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/)
+* [September 2, 2021, Zurich, CH - Exciting new Rustdoc features landing in 1.55.0 - Hybrid Meetup (Livestream!) - Rust Zurich](https://www.meetup.com/Rust-Zurich/events/280295950/)
+* [September 2, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
+* [September 8, 2021, Denver, CO, US - Rust Q&A - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/279407152/)
+
+### North America
+
+* [September 8, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/lhpkmsyccmblb/)
+
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
