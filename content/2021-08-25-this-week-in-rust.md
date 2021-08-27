@@ -53,7 +53,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Pin, Unpin, and why Rust needs them](https://blog.adamchalmers.com/pin-unpin/)
 * [Rust: How to Unwrap Multiple Required Options](https://blog.hendrikmaus.dev/rust-unwrap-options-in-a-function-that-returns-a-result-type/)
 * [Hexagonal architecture in Rust #1](https://alexis-lozano.com/hexagonal-architecture-in-rust-1/)
-* [Hexagonal architecture in Rust #2](https://alexis-lozano.com/hexagonal-architecture-in-rust-2
+* [Hexagonal architecture in Rust #2](https://alexis-lozano.com/hexagonal-architecture-in-rust-2)
 * [Cross compiling Windows binaries from Linux](https://jake-shadle.github.io/xwin/)
 * [Rust Trait Objects Demystified](https://desilva.io/posts/rust-trait-objects-demystified)
 * [End-to-End Encryption through Kafka, with Rust](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/end-to-end-encryption-through-kafka)
