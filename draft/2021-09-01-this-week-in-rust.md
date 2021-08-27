@@ -17,6 +17,7 @@ In the case of this newsletter, 404 is indeed found!
 ## Updates from Rust Community
 
 ### Project/Tooling Updates
+- [Knurling-rs changelog #30](https://ferrous-systems.com/blog/knurling-changelog-30/)
 
 ### Observations/Thoughts
 
