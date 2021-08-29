@@ -44,7 +44,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 * [Rust vectors](https://saidvandeklundert.net/learn/2021-08-15-rust-vector/)
-* [Daily Rust: Iterators](adventures.michaelfbryan.com/posts/daily/iterators/)
+* [Daily Rust: Iterators](https://adventures.michaelfbryan.com/posts/daily/iterators/)
 * [Getting Started with Systems Programming with Rust (Part 1)](https://www.bexxmodd.com/post/systems-programming-with-rust-1)
 * [Getting Started with Systems Programming with Rust (Part 2)](https://www.bexxmodd.com/post/systems-programming-with-rust-2)
 * [Optimizing Immutable Strings in Rust](https://dev.to/somedood/optimizing-immutable-strings-in-rust-2ahj)
