@@ -18,6 +18,8 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Project/Tooling Updates
 
+* [SixtyFPS weekly update](https://sixtyfps.io/thisweek/2021-08-30.html) (GUI crate)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
