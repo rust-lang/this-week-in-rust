@@ -19,6 +19,7 @@ In the case of this newsletter, 404 is indeed found!
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Game engine beginner - First look at Bevy - What is ECS and why should you care?](https://radim.xyz/project/agent_tag_bevy/)
 
 ### Rust Walkthroughs
 
