@@ -20,6 +20,8 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Observations/Thoughts
 
+* [How to avoid lifetimes annotations in Rust (and write clean code)](https://kerkour.com/blog/rust-avoid-lifetimes-smart-pointers/)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
