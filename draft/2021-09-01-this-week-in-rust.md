@@ -24,6 +24,8 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Miscellaneous
 
+* [htsget-rs: Bioinformatic file formats accessible to the web, 100% Rust, a GSoC2021 project wrap-up](https://umccr.org/blog/htsget-rs/)
+
 ## Crate of the Week
 
 This week's crate is [kube-leader-election](https://github.com/hendrikmaus/kube-leader-election), a crate to implement leader election for Kubernetes workloads.
