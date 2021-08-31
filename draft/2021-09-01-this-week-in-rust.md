@@ -17,6 +17,7 @@ In the case of this newsletter, 404 is indeed found!
 ## Updates from Rust Community
 
 ### Project/Tooling Updates
+* [Zellij 0.16.0 released: new UI, many bugfixes and more!](https://zellij.dev/news/new-ui/)
 
 ### Observations/Thoughts
 
