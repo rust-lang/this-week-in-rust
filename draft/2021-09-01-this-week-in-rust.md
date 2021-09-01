@@ -20,6 +20,8 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Observations/Thoughts
 
+- [An Alternative Syntax for Async Functions](https://ibraheem.ca/writings/an-alternative-async-fn-syntax/)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
