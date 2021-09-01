@@ -17,6 +17,7 @@ In the case of this newsletter, 404 is indeed found!
 ## Updates from Rust Community
 
 ### Project/Tooling Updates
+ * [partial-borrow](https://diziet.dreamwidth.org/9019.html): derive macro for multiple (maybe mut) references to subsets/views of a struct
 
 ### Observations/Thoughts
 
