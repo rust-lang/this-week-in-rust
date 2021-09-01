@@ -22,6 +22,7 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Rust Walkthroughs
 
+[Rust Option and Result](https://saidvandeklundert.net/learn/2021-09-01-rust-option-and-result/)
 ### Miscellaneous
 
 ## Crate of the Week
