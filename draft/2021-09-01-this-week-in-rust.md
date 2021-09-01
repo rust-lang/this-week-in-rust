@@ -18,6 +18,8 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Project/Tooling Updates
 
+* [This week in Datafuse #5](https://datafuselabs.github.io/weekly/2021-09-01-datafuse-weekly/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
