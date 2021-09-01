@@ -77,15 +77,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-A few regressions but largely an improvement this week, mostly due to the
-upgrade to LLVM 13.
+A very busy week with relatively even amounts of regressions and improvements (albeit with improvements outweighing regressions). The largest win was the use of profile-guided optimization (PGO) builds on x86_64 linux builds which brings fairly large improvements in real-world crates. There were 2 regressions that caused fairly large (~3.5%) regressions in real-world crates which need to be investigated.
 
-Triage done by **@simulacrum**.
-Revision range: [aa8f27b..33fdb79](https://perf.rust-lang.org/?start=aa8f27bf4d980023a8b245ceb25a490a18041eb2&end=33fdb797f59421c7bbecaa4588ed5d7a31a9494a&absolute=false&stat=instructions%3Au)
+Triage done by **@rylev**.
+Revision range: [33fdb..fe379](https://perf.rust-lang.org/?start=33fdb797f59421c7bbecaa4588ed5d7a31a9494a&end=fe37929e4cba2c5c21e6805805769630c736bc3d&absolute=false&stat=instructions%3Au)
 
-2 Regressions, 1 Improvements, 2 Mixed; 0 of them in rollups
+5 Regressions, 4 Improvements, 5 Mixed; 0 of them in rollups
+56 comparisons made in total
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-08-24.md).
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-09-01.md).
 
 ### Approved RFCs
 
