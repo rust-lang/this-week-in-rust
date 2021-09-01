@@ -148,6 +148,13 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+**TrueLayer**
+
+* Senior Software Engineer, Engineering Ops ([UK](https://apply.workable.com/truelayer/j/0AAB4A80C1/), [Italy](https://apply.workable.com/truelayer/j/9C3654A7BF/))
+* Software Engineer, Engineering Ops ([UK](Rust Software Engineer), [Italy](https://apply.workable.com/truelayer/j/BD3F858CA7/))
+* Engineering Lead, PayDirect ([Italy](https://apply.workable.com/truelayer/j/9564797E78/))
+* Rust Software Engineer, PayDirect ([UK](https://apply.workable.com/truelayer/j/C554AC0559/), [Italy](https://apply.workable.com/truelayer/j/ED53901B8A/))
+
 # Quote of the Week
 
 > Code doesn't deal with resources until it does. Similarly with everything else that forces you to reason about control flow - you don't care about thread management until you do, you don't care about action logs until you do, you don't care about performance until you do... and from the other side, code doesn't need to be exception-safe until it does. The trouble with this kind of "magic" language feature is that correctness becomes non-compositional: you can take two working pieces of code and put them together and get something that doesn't work.
