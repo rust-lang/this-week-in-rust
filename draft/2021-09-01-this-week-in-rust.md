@@ -17,6 +17,7 @@ In the case of this newsletter, 404 is indeed found!
 ## Updates from Rust Community
 
 ### Project/Tooling Updates
+* [Bebop v2.3.0: Adding Rust support to Bebop serilization](https://rainway.com/blog/2021/08/30/bebop-rust/)
 
 ### Observations/Thoughts
 
