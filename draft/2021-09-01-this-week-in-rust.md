@@ -17,12 +17,13 @@ In the case of this newsletter, 404 is indeed found!
 ## Updates from Rust Community
 
 ### Project/Tooling Updates
+ * [partial-borrow: derive macro for multiple (maybe mut) references to subsets/views of a struct](https://diziet.dreamwidth.org/9019.html)
 * [Zellij 0.16.0 released: new UI, many bugfixes and more!](https://zellij.dev/news/new-ui/)
 - [Knurling-rs changelog #30](https://ferrous-systems.com/blog/knurling-changelog-30/)
 * [SixtyFPS weekly update](https://sixtyfps.io/thisweek/2021-08-30.html) (GUI crate)
 - [This week in Fluvio #4: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0004/)
-
 * [This week in Datafuse #5](https://datafuselabs.github.io/weekly/2021-09-01-datafuse-weekly/)
+
 
 ### Observations/Thoughts
 * [Game engine beginner - First look at Bevy - What is ECS and why should you care?](https://radim.xyz/project/agent_tag_bevy/)
