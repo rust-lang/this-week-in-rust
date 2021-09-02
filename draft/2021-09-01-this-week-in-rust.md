@@ -30,6 +30,8 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Miscellaneous
 
+* [htsget-rs: Bioinformatic file formats accessible to the web, 100% Rust, a GSoC2021 project wrap-up](https://umccr.org/blog/htsget-rs/)
+
 ## Crate of the Week
 
 This week's crate is [cargo-llvm-cov](https://github.com/taiki-e/cargo-llvm-cov), a cargo subcommand for LLVM-based code coverage.
