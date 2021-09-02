@@ -25,6 +25,7 @@ In the case of this newsletter, 404 is indeed found!
 * [SixtyFPS weekly update](https://sixtyfps.io/thisweek/2021-08-30.html) (GUI crate)
 * [This week in Fluvio #4: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0004/)
 * [This week in Datafuse #5](https://datafuselabs.github.io/weekly/2021-09-01-datafuse-weekly/)
+* [Tauri] [Feature Freeze](https://dev.to/tauri/tauri-feature-freeze-and-security-audit-1ml1), [Community Survey](https://tripetto.app/run/YV22XNAJBK)
 
 ### Observations/Thoughts
 
@@ -34,8 +35,12 @@ In the case of this newsletter, 404 is indeed found!
 ### Rust Walkthroughs
 
 * [Rust Option and Result](https://saidvandeklundert.net/learn/2021-09-01-rust-option-and-result/)
+* [video] [Getting started with Rust programming language 🦀 2021: 5. Refactoring the CLI app in Rust](https://www.youtube.com/watch?v=LHPV3z9OSic)
+
 ### Miscellaneous
+
 * [htsget-rs: Bioinformatic file formats accessible to the web, 100% Rust, a GSoC2021 project wrap-up](https://umccr.org/blog/htsget-rs/)
+* [cold_iron: A Brief Introduction to Nanothaumaturgy](https://static.stillinbeta.com/cold-iron/cold_iron/)
 
 ## Crate of the Week
 
@@ -51,6 +56,8 @@ Thanks to [Jacob Pratt](https://users.rust-lang.org/t/crate-of-the-week/2704/948
 
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
+
+* [cdrs-tokio road to performance and testing](https://www.reddit.com/r/rust/comments/pfuwhf/help_wanted_cdrstokio_road_to_performance_and/)
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
@@ -136,7 +143,6 @@ decision. Express your opinions now.
 
 ### Online
 
-* [August 31, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/)
 * [September 2, 2021, Zurich, CH - Exciting new Rustdoc features landing in 1.55.0 - Hybrid Meetup (Livestream!) - Rust Zurich](https://www.meetup.com/Rust-Zurich/events/280295950/)
 * [September 2, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 * [September 8, 2021, Denver, CO, US - Rust Q&A - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/279407152/)
@@ -160,14 +166,22 @@ Email the [Rust Community Team][community] for access.
 
 **Polar Sync**
 
-* [Principal/Senior Software Engineer - Rust/C++](https://polarsync.breezy.hr/p/0c1d3630d39d)
+* [Principal/Senior Software Engineer - Rust/C++ (Remote)](https://polarsync.breezy.hr/p/0c1d3630d39d)
+
+**Subspace Labs**
+
+* [Blockchain Consensus Engineer (Remote)](https://jobs.lever.co/subspacelabs/d5d62ccb-eaaf-43f4-83ad-11ebff2ce3a0)
 
 **Kollider**
 
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 * [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Senior Banking Engineer - Rust (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 **TrueLayer**
 
@@ -175,6 +189,8 @@ Email the [Rust Community Team][community] for access.
 * Software Engineer, Engineering Ops ([London, UK](https://apply.workable.com/truelayer/j/920145EAFA/), [Milan, IT](https://apply.workable.com/truelayer/j/BD3F858CA7/))
 * Engineering Lead, PayDirect ([Milan, IT](https://apply.workable.com/truelayer/j/9564797E78/))
 * Rust Software Engineer, PayDirect ([London, UK](https://apply.workable.com/truelayer/j/C554AC0559/), [Milan, IT](https://apply.workable.com/truelayer/j/ED53901B8A/))
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
