@@ -58,6 +58,9 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 * [cdrs-tokio road to performance and testing](https://www.reddit.com/r/rust/comments/pfuwhf/help_wanted_cdrstokio_road_to_performance_and/)
+* [RoaringBitmap/roaring-rs - The insert_range method does not properly handle boundary condition](https://github.com/RoaringBitmap/roaring-rs/issues/113)
+* [ockam-network/ockam - Ockam Vault for AWS (KMS/HSM) in Rust](https://github.com/ockam-network/ockam/issues/160)
+* [ockam-network/ockam - Ockam TCP Transport using smoltcp](https://github.com/ockam-network/ockam/issues/1804)
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
@@ -118,26 +121,23 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [RFC: let-expression](https://github.com/rust-lang/rfcs/pull/3159)
+* [disposition: close] [Proposal: Else clauses for for and while loops](https://github.com/rust-lang/rfcs/pull/3163)
+* [disposition: close] [RFC: let-expression](https://github.com/rust-lang/rfcs/pull/3159)
+* [disposition: merge] [Scrape code examples from examples/ directory for Rustdoc](https://github.com/rust-lang/rfcs/pull/3123)
+* [disposition: merge] [Rust-lang crate ownership policy](https://github.com/rust-lang/rfcs/pull/3119)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Partially stabilize array_methods](https://github.com/rust-lang/rust/pull/88353)
 * [disposition: merge] [Stabilize std::os::unix::fs::chroot](https://github.com/rust-lang/rust/pull/88177)
 * [disposition: merge] [Stabilize reserved prefixes](https://github.com/rust-lang/rust/issues/88140)
 * [disposition: merge] [stabilize disjoint capture in closures (RFC 2229)](https://github.com/rust-lang/rust/issues/88126)
-* [disposition: merge] [BTree: remove Ord bound from new](https://github.com/rust-lang/rust/pull/88040)
-* [disposition: merge] [Update Windows Argument Parsing](https://github.com/rust-lang/rust/pull/87580)
+* [disposition: merge] [Stabilize try_reserve](https://github.com/rust-lang/rust/pull/87993)
 * [disposition: merge] [Support #[track_caller] on closures and generators](https://github.com/rust-lang/rust/pull/87064)
-* [disposition: merge] [Stabilize "force warn" option](https://github.com/rust-lang/rust/issues/86516)
-* [disposition: merge] [Extend -Cdebuginfo with new options and named aliases](https://github.com/rust-lang/rust/pull/83947)
-* [disposition: merge] [Allow writing of incomplete UTF-8 sequences to the Windows console via stdout/stderr](https://github.com/rust-lang/rust/pull/83342)
-* [disposition: merge] [Tracking Issue for Iterator::intersperse](https://github.com/rust-lang/rust/issues/79524)
-* [disposition: merge] [Provide an API to extract fields from Command builder](https://github.com/rust-lang/rust/issues/44434)
 
 ### New RFCs
 
-* [RFC: cargo-run-deps](https://github.com/rust-lang/rfcs/pull/3168)
-* [Proposal: Else clauses for for and while loops](https://github.com/rust-lang/rfcs/pull/3163)
+*No new RFCs were proposed this week.*
 
 ## Upcoming Events
 
@@ -145,7 +145,10 @@ decision. Express your opinions now.
 
 * [September 2, 2021, Zurich, CH - Exciting new Rustdoc features landing in 1.55.0 - Hybrid Meetup (Livestream!) - Rust Zurich](https://www.meetup.com/Rust-Zurich/events/280295950/)
 * [September 2, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
+* [September 7, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/280433831/)
 * [September 8, 2021, Denver, CO, US - Rust Q&A - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/279407152/)
+* [September 14, 2021, Seattle, WA, US - Monthly Meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccmbsb/)
+* [September 15, 2021, Vancouver, BC, CA - Considering Rust - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsyccmbtb/)
 
 ### North America
 
