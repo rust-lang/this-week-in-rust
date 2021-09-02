@@ -21,6 +21,8 @@ In the case of this newsletter, 404 is indeed found!
 
 * [SixtyFPS weekly update](https://sixtyfps.io/thisweek/2021-08-30.html) (GUI crate)
 
+- [This week in Fluvio #4: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0004/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
