@@ -163,6 +163,13 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+**TrueLayer**
+
+* Senior Software Engineer, Engineering Ops ([London, UK](https://apply.workable.com/truelayer/j/0AAB4A80C1/), [Milan, IT](https://apply.workable.com/truelayer/j/9C3654A7BF/))
+* Software Engineer, Engineering Ops ([London, UK](https://apply.workable.com/truelayer/j/920145EAFA/), [Milan, IT](https://apply.workable.com/truelayer/j/BD3F858CA7/))
+* Engineering Lead, PayDirect ([Milan, IT](https://apply.workable.com/truelayer/j/9564797E78/))
+* Rust Software Engineer, PayDirect ([London, UK](https://apply.workable.com/truelayer/j/C554AC0559/), [Milan, IT](https://apply.workable.com/truelayer/j/ED53901B8A/))
+
 # Quote of the Week
 
 > Anyway: the standard library docs say "check the nomicon"  
