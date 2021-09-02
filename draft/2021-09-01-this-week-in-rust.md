@@ -148,6 +148,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**NZXT**
+
+* [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
+
 **Polar Sync**
 
 * [Principal/Senior Software Engineer - Rust/C++](https://polarsync.breezy.hr/p/0c1d3630d39d)
