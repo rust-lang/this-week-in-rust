@@ -32,9 +32,9 @@ In the case of this newsletter, 404 is indeed found!
 
 ## Crate of the Week
 
-This week's crate is [kube-leader-election](https://github.com/hendrikmaus/kube-leader-election), a crate to implement leader election for Kubernetes workloads.
+This week's crate is [cargo-llvm-cov](https://github.com/taiki-e/cargo-llvm-cov), a cargo subcommand for LLVM-based code coverage.
 
-Thanks to [hendrikmaus](https://users.rust-lang.org/t/crate-of-the-week/2704/945) for the self-suggestion.
+Thanks to [Jacob Pratt](https://users.rust-lang.org/t/crate-of-the-week/2704/948) for the suggestion.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -53,33 +53,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from Rust Core
 
-293 pull requests were [merged in the last week][merged]
+296 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-08-16..2021-08-23
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-08-23..2021-08-30
 
-* [upgrade to LLVM 13](https://github.com/rust-lang/rust/pull/87570)
-* [introduce `hir::ExprKind::Let` - Take 2](https://github.com/rust-lang/rust/pull/80357)
-* [enable compiler consumers to obtain `mir::Body` with Polonius facts](https://github.com/rust-lang/rust/pull/86977)
-* [force warn improvements](https://github.com/rust-lang/rust/pull/88134)
-* [account for tabs when highlighting multiline code suggestions](https://github.com/rust-lang/rust/pull/87976)
-* [use more accurate spans when proposing adding lifetime to item](https://github.com/rust-lang/rust/pull/87983)
-* [add notes to macro-not-found diagnostics to point out how things with the same name were not a match](https://github.com/rust-lang/rust/pull/88232)
-* [improve wording of the `drop_bounds` lint](https://github.com/rust-lang/rust/pull/86747)
-* [improve NLL's "higher-ranked subtype error"s](https://github.com/rust-lang/rust/pull/86700)
-* [suggest importing the right kind of macro](https://github.com/rust-lang/rust/pull/88229)
-* [improve error reporting for closure return type mismatches](https://github.com/rust-lang/rust/pull/87661)
-* [canonicalize consts before calling `try_unify_abstract_consts` query](https://github.com/rust-lang/rust/pull/88166)
-* [reenable `RemoveZsts`](https://github.com/rust-lang/rust/pull/88176)
-* [I/O safety](https://github.com/rust-lang/rust/pull/87329) (RFC [#3128](https://rust-lang.github.io/rfcs/3128-io-safety.html))
-* [stabilize `arbitrary_enum_discriminant`](https://github.com/rust-lang/rust/pull/86860)
-* [constified implementations of `Default`](https://github.com/rust-lang/rust/pull/86808)
-* [optimize unnecessary check in `VecDeque::retain`](https://github.com/rust-lang/rust/pull/88075)
-* [where available use `AtomicU`{`64`, `128`} instead of mutex for `Instant` backsliding protection](https://github.com/rust-lang/rust/pull/83093)
-* [add fast path for `Path::cmp` that skips over long shared prefixes](https://github.com/rust-lang/rust/pull/86898)
-* [cargo: fix panic with build-std of a proc-macro](https://github.com/rust-lang/cargo/pull/9834)
-* [clippy: add new lints `negative_feature_names` and `redundant_feature_names`](https://github.com/rust-lang/rust-clippy/pull/7539)
-* [clippy: move `branches_sharing_code` to nursery](https://github.com/rust-lang/rust-clippy/pull/7595)
-* [clippy: remove stderr limit](https://github.com/rust-lang/rust-clippy/pull/7593)
+* [fix debugger stepping behavior with match expressions](https://github.com/rust-lang/rust/pull/87832)
+* [improve liveness analysis for generators](https://github.com/rust-lang/rust/pull/84333)
+* [handle match statements with non exhaustive variants in closures](https://github.com/rust-lang/rust/pull/88280)
+* [`ast_lowering`: introduce `lower_span` for catching all spans entering HIR](https://github.com/rust-lang/rust/pull/88208)
+* [PGO for LLVM builds on `x86_64-unknown-linux-gnu` in CI](https://github.com/rust-lang/rust/pull/88069)
+* [`Cow`'ify some `pprust` methods](https://github.com/rust-lang/rust/pull/88262)
+* [polonius: move to a fully hand-written parser to improve compile / iteration times](https://github.com/rust-lang/polonius/pull/173)
+* [warn about unreachable code following an expression with an uninhabited type](https://github.com/rust-lang/rust/pull/85556)
+* [normalize projections under binders](https://github.com/rust-lang/rust/pull/85499)
+* [stabilize and document `--force-warn`](https://github.com/rust-lang/rust/pull/87472)
+* [stabilise `BufWriter::into_parts`](https://github.com/rust-lang/rust/pull/88299)
+* [add `Cell::as_array_of_cells`](https://github.com/rust-lang/rust/pull/87944)
+* [add `Saturating` type (based on `Wrapping` type)](https://github.com/rust-lang/rust/pull/87921)
+* [stdarch: update codegen for simd wasm intrinsics with LLVM 13](https://github.com/rust-lang/stdarch/pull/1203)
+* [futures: add `Peekable::`{`peek_mut`, `poll_peek_mut`}](https://github.com/rust-lang/futures-rs/pull/2488)
+* [cargo: show description of well known subcommands (fmt, clippy) in `cargo --list`](https://github.com/rust-lang/cargo/pull/9848)
+* [clippy: fix `option_if_let_else`](https://github.com/rust-lang/rust-clippy/pull/7573)
+* [clippy: add `module_style` lint to style](https://github.com/rust-lang/rust-clippy/pull/7543)
+* [clippy: don't report function calls as unnecessary operation if used in array index](https://github.com/rust-lang/rust-clippy/pull/7453)
 
 ### Rust Compiler Performance Triage
 
@@ -142,7 +138,6 @@ decision. Express your opinions now.
 
 * [September 8, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/lhpkmsyccmblb/)
 
-
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
 Email the [Rust Community Team][community] for access.
@@ -156,11 +151,14 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Code doesn't deal with resources until it does. Similarly with everything else that forces you to reason about control flow - you don't care about thread management until you do, you don't care about action logs until you do, you don't care about performance until you do... and from the other side, code doesn't need to be exception-safe until it does. The trouble with this kind of "magic" language feature is that correctness becomes non-compositional: you can take two working pieces of code and put them together and get something that doesn't work.
+> Anyway: the standard library docs say "check the nomicon"  
+> then the nomicon says "here is some advice and ultimately we don't know, maybe check UCG"  
+> then UCG says "ultimately we don't know it's probably like this but there's no RFC yet"  
+> then Ralf says "probably it should be allowed if the layout matches".
 
-– [Mickey Donaghy on Hacker News](https://news.ycombinator.com/item?id=26536896)
+– [Lokathor on the Rust Zulip](https://rust-lang.zulipchat.com/#narrow/stream/131828-t-compiler/topic/rustc.20warn.20against.20repr.20rust.20transmutes/near/250735818)
 
-Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1096) for the suggestion!
+Thanks to [Riccardo D'Ambrosio](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1097) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
