@@ -31,6 +31,7 @@ In the case of this newsletter, 404 is indeed found!
 
 ### Rust Walkthroughs
 
+[Rust Option and Result](https://saidvandeklundert.net/learn/2021-09-01-rust-option-and-result/)
 ### Miscellaneous
 
 * [htsget-rs: Bioinformatic file formats accessible to the web, 100% Rust, a GSoC2021 project wrap-up](https://umccr.org/blog/htsget-rs/)
