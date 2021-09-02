@@ -44,7 +44,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 * [Rust vectors](https://saidvandeklundert.net/learn/2021-08-15-rust-vector/)
-* [Daily Rust: Iterators](adventures.michaelfbryan.com/posts/daily/iterators/)
+* [Daily Rust: Iterators](https://adventures.michaelfbryan.com/posts/daily/iterators/)
 * [Getting Started with Systems Programming with Rust (Part 1)](https://www.bexxmodd.com/post/systems-programming-with-rust-1)
 * [Getting Started with Systems Programming with Rust (Part 2)](https://www.bexxmodd.com/post/systems-programming-with-rust-2)
 * [Optimizing Immutable Strings in Rust](https://dev.to/somedood/optimizing-immutable-strings-in-rust-2ahj)
@@ -54,7 +54,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust: How to Unwrap Multiple Required Options](https://blog.hendrikmaus.dev/rust-unwrap-options-in-a-function-that-returns-a-result-type/)
 * [Hexagonal architecture in Rust #1](https://alexis-lozano.com/hexagonal-architecture-in-rust-1/)
 * [Hexagonal architecture in Rust #2](https://alexis-lozano.com/hexagonal-architecture-in-rust-2/)
-* [Daily Rust: Iterators](https://adventures.michaelfbryan.com/posts/daily/iterators/?utm_source=reddit&utm_medium=social&utm_campaign=daily-rust-basic-iterators)
 * [Cross compiling Windows binaries from Linux](https://jake-shadle.github.io/xwin/)
 * [Rust Trait Objects Demystified](https://desilva.io/posts/rust-trait-objects-demystified)
 * [End-to-End Encryption through Kafka, with Rust](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/end-to-end-encryption-through-kafka)
