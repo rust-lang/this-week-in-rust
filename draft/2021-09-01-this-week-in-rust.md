@@ -148,6 +148,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Polar Sync**
+
+* [Principal/Senior Software Engineer - Rust/C++](https://polarsync.breezy.hr/p/0c1d3630d39d)
+
 **Kollider**
 
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
