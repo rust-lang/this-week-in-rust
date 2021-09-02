@@ -150,10 +150,10 @@ Email the [Rust Community Team][community] for access.
 
 **TrueLayer**
 
-* Senior Software Engineer, Engineering Ops ([UK](https://apply.workable.com/truelayer/j/0AAB4A80C1/), [Italy](https://apply.workable.com/truelayer/j/9C3654A7BF/))
-* Software Engineer, Engineering Ops ([UK](Rust Software Engineer), [Italy](https://apply.workable.com/truelayer/j/BD3F858CA7/))
-* Engineering Lead, PayDirect ([Italy](https://apply.workable.com/truelayer/j/9564797E78/))
-* Rust Software Engineer, PayDirect ([UK](https://apply.workable.com/truelayer/j/C554AC0559/), [Italy](https://apply.workable.com/truelayer/j/ED53901B8A/))
+* Senior Software Engineer, Engineering Ops ([London, UK](https://apply.workable.com/truelayer/j/0AAB4A80C1/), [Milan, IT](https://apply.workable.com/truelayer/j/9C3654A7BF/))
+* Software Engineer, Engineering Ops ([London, UK](https://apply.workable.com/truelayer/j/920145EAFA/), [Milan, IT](https://apply.workable.com/truelayer/j/BD3F858CA7/))
+* Engineering Lead, PayDirect ([Milan, IT](https://apply.workable.com/truelayer/j/9564797E78/))
+* Rust Software Engineer, PayDirect ([London, UK](https://apply.workable.com/truelayer/j/C554AC0559/), [Milan, IT](https://apply.workable.com/truelayer/j/ED53901B8A/))
 
 # Quote of the Week
 
