@@ -17,10 +17,9 @@ In the case of this newsletter, 404 is indeed found!
 ## Updates from Rust Community
 
 ### Project/Tooling Updates
+* [Zellij 0.16.0 released: new UI, many bugfixes and more!](https://zellij.dev/news/new-ui/)
 - [Knurling-rs changelog #30](https://ferrous-systems.com/blog/knurling-changelog-30/)
-
 * [SixtyFPS weekly update](https://sixtyfps.io/thisweek/2021-08-30.html) (GUI crate)
-
 - [This week in Fluvio #4: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0004/)
 
 ### Observations/Thoughts
