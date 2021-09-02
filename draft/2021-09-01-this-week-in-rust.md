@@ -27,6 +27,8 @@ In the case of this newsletter, 404 is indeed found!
 ### Observations/Thoughts
 * [Game engine beginner - First look at Bevy - What is ECS and why should you care?](https://radim.xyz/project/agent_tag_bevy/)
 
+- [An Alternative Syntax for Async Functions](https://ibraheem.ca/writings/an-alternative-async-fn-syntax/)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
