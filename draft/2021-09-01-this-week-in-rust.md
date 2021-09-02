@@ -19,6 +19,8 @@ In the case of this newsletter, 404 is indeed found!
 ### Project/Tooling Updates
 - [Knurling-rs changelog #30](https://ferrous-systems.com/blog/knurling-changelog-30/)
 
+* [SixtyFPS weekly update](https://sixtyfps.io/thisweek/2021-08-30.html) (GUI crate)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
