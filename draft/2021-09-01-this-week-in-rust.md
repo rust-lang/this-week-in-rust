@@ -36,6 +36,7 @@ In the case of this newsletter, 404 is indeed found!
 
 * [Rust Option and Result](https://saidvandeklundert.net/learn/2021-09-01-rust-option-and-result/)
 * [video] [Getting started with Rust programming language 🦀 2021: 5. Refactoring the CLI app in Rust](https://www.youtube.com/watch?v=LHPV3z9OSic)
+* [Building an LC-3 virtual machine in Rust](https://www.rodrigoaraujo.me/posts/lets-build-an-lc-3-virtual-machine/)
 
 ### Miscellaneous
 
