@@ -1,6 +1,6 @@
 Title: This Week in Rust 406
 Number: 406
-Date: 2021-00-01
+Date: 2021-09-01
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -16,8 +16,15 @@ In the case of this newsletter, 404 is indeed found!
 
 ## Updates from Rust Community
 
+### Newsletters
+
+* [RiB Newsletter #27](https://rustinblockchain.org/newsletters/rib-newsletter-27/)
+
 ### Project/Tooling Updates
 
+* [Rust Analyzer Changelog #92](https://rust-analyzer.github.io/thisweek/2021/08/30/changelog-92.html)
+* [IntelliJ Rust Changelog #154](https://intellij-rust.github.io/2021/08/30/changelog-154.html)
+* [GCC Rust Monthly Report #9 August 2021](https://thephilbert.io/2021/08/30/gcc-rust-monthly-report-9-august-2021/)
 * [Bebop v2.3.0: Adding Rust support to Bebop serialization](https://rainway.com/blog/2021/08/30/bebop-rust/)
 * [partial-borrow: derive macro for multiple (maybe mut) references to subsets/views of a struct](https://diziet.dreamwidth.org/9019.html)
 * [Zellij 0.16.0 released: new UI, many bugfixes and more!](https://zellij.dev/news/new-ui/)
@@ -31,15 +38,23 @@ In the case of this newsletter, 404 is indeed found!
 
 * [Game engine beginner - First look at Bevy - What is ECS and why should you care?](https://radim.xyz/project/agent_tag_bevy/)
 * [An Alternative Syntax for Async Functions](https://ibraheem.ca/writings/an-alternative-async-fn-syntax/)
+* [Development Cost of Porting TensorFlow Models to Pure Rust](https://www.crowdstrike.com/blog/development-cost-of-porting-tensorflow-models-to-pure-rust/)
 
 ### Rust Walkthroughs
 
 * [Rust Option and Result](https://saidvandeklundert.net/learn/2021-09-01-rust-option-and-result/)
-* [video] [Getting started with Rust programming language 🦀 2021: 5. Refactoring the CLI app in Rust](https://www.youtube.com/watch?v=LHPV3z9OSic)
+* [Asynchronous Rust: basic concepts](https://dev.to/rogertorres/asynchronous-rust-basic-concepts-44ed)
+* [Rust Visualized: Pointers as References](https://dev.to/ender_minyard/rust-visualized-pointers-as-references-23cg)
+* [Password auth in Rust, from scratch - Attacks and best practices](https://www.lpalmieri.com/posts/password-authentication-in-rust/)
 * [Building an LC-3 virtual machine in Rust](https://www.rodrigoaraujo.me/posts/lets-build-an-lc-3-virtual-machine/)
+* [Combining Axum, Hyper, Tonic, and Tower for hybrid web/gRPC apps: Part 1](https://www.fpcomplete.com/blog/axum-hyper-tonic-tower-part1/)
+* [video] [Getting started with Rust programming language 🦀 2021: 5. Refactoring the CLI app in Rust](https://www.youtube.com/watch?v=LHPV3z9OSic)
+* [video] [Crust of Rust: async/await](https://www.youtube.com/watch?v=ThjvMReOXYM)
+* [video] [Concurrency in Rust - Sharing State](https://www.youtube.com/watch?v=mupwF9jbVZ4)
 
 ### Miscellaneous
 
+* [Struct Update Syntax in Rust](https://www.reddit.com/r/rust/comments/pchp8h/media_struct_update_syntax_in_rust/)
 * [htsget-rs: Bioinformatic file formats accessible to the web, 100% Rust, a GSoC2021 project wrap-up](https://umccr.org/blog/htsget-rs/)
 * [cold_iron: A Brief Introduction to Nanothaumaturgy](https://static.stillinbeta.com/cold-iron/cold_iron/)
 
