@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [Rust on RISC-V BL602: Rhai Scripting](https://lupyuen.github.io/articles/rhai)
+
 ## Crate of the Week
 
 This week's crate is [cargo-llvm-cov](https://github.com/taiki-e/cargo-llvm-cov), a cargo subcommand for LLVM-based code coverage.
