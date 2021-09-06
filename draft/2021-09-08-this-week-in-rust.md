@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Submit Extrinsic from Custom Pallets using Polkadot Js API](https://blog.knoldus.com/submit-extrinsic-from-custom-pallets-using-polkadot-js-api/)
 
 ### Miscellaneous
 
