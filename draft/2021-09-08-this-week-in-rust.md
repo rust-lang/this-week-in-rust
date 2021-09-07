@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+[Announcing Relm4 v0.1](https://aaronerhardt.github.io/blog/posts/announcing_relm4/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
