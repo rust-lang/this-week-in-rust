@@ -21,6 +21,7 @@ LOG.setLevel(logging.INFO)
 
 class Warnings:
     """ A singleton object for gathering warnings to be printed later. """
+
     def __init__(self):
         self.warnings = []
 
@@ -37,14 +38,13 @@ warnings = Warnings()
 # A regex that matches filenames to inspect.
 RE_FILENAME = re.compile(r'\d\d\d\d-\d\d-\d\d-this-week-in-rust.md')
 
-# A list of URLs that require HTTP parameters for uniqueness.
-KEEP_PARAMETERS = [
-    'www.youtube.com/watch',
-    'youtube.com/watch',
-    'www.youtube.com/playlist',
-    'youtube.com/playlist',
-    'www.phoronix.com/scan.php',
-]
+# A block-list of tracking parameters
+TRACKING_PARAMETERS = set([
+    'utm_source',
+    'utm_campaign',
+    'utm_medium',
+    'utm_content',
+])
 
 # A list of section titles that will trigger duplicate-tag detection.
 STRICT_TITLES = [
@@ -94,6 +94,30 @@ def extract_links(html):
     return urls
 
 
+def scrub_parameters(url, query):
+    """ Strip tracking parameters from the URL """
+    query_dict = urllib.parse.parse_qs(query)
+
+    filtered_dict = {}
+    found_tracking = []
+    for k, v in query_dict.items():
+        if k in TRACKING_PARAMETERS:
+            found_tracking.append(k)
+        else:
+            filtered_dict[k] = v
+
+    # Store a warning if
+    if found_tracking:
+        warnings.warn(f'found tracking parameters on {url}: {found_tracking}')
+
+    # If there are no query parameters left, return the empty string.
+    if not filtered_dict:
+        return ''
+
+    # Re-encode remaining URL paramaters
+    return urllib.parse.urlencode(filtered_dict, doseq=True)
+
+
 def parse_url(link):
     """ Parse a URL and return it in a stripped-down form.
 
@@ -105,13 +129,26 @@ def parse_url(link):
     - If a link does not have a recognized protocol, we will
       record a warning.
     """
-    result = urllib.parse.urlparse(link)
-    if result.scheme not in ('mailto', 'http', 'https'):
-        warnings.warn(f"possibly malformed link: {link}")
-    simplified = f'{result.netloc}{result.path}'
-    if simplified in KEEP_PARAMETERS:
-        simplified += f'?{str(result.query)}'
-    return simplified
+    parsed_url = urllib.parse.urlsplit(link)
+    if parsed_url.scheme not in ('mailto', 'http', 'https'):
+        warnings.warn(f'possibly malformed link: {link}')
+
+    # If there are query parameters present, give them a cleanup pass to remove irrelevant ones.
+    query = parsed_url.query
+    if query:
+        LOG.debug(f'{parsed_url.geturl()} found query parameters: {query}')
+        query = scrub_parameters(link, query)
+        if query:
+            LOG.debug(
+                f'{parsed_url.geturl()} keeping query parameters: {query}')
+
+    # Re-constitute the URL with the reduced set of query parameters.
+    (sch, loc, path, _, frag) = parsed_url
+    reconstituted = urllib.parse.urlunsplit((sch, loc, path, query, frag))
+    if reconstituted != link:
+        LOG.debug(f'reconstituted: {reconstituted}')
+        warnings.warn(f'link can be simplified: {link} -> {reconstituted}')
+    return reconstituted
 
 
 def inspect_file(filename):
