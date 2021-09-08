@@ -21,9 +21,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 - [This week in Fluvio #5: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0005/)
 
 ### Observations/Thoughts
+
+* [Why Rust for offensive security](https://kerkour.com/blog/why-rust-for-offensive-security/)
 [Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
 
 ### Rust Walkthroughs
+
+* [How to build a job queue with Rust and PostgreSQL](https://kerkour.com/blog/rust-job-queue-with-postgresql/)
 
 ### Miscellaneous
 
