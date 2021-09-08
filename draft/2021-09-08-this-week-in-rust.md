@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 [Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
 
 ### Rust Walkthroughs
+- [The Why and How of Rust Declarative Macros](https://blog.lanesawyer.dev/27848/the-why-and-how-of-rust-declarative-macros)
 
 ### Miscellaneous
 
