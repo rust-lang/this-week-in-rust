@@ -28,6 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Miscellaneous
 
 * [Rust on RISC-V BL602: Rhai Scripting](https://lupyuen.github.io/articles/rhai)
+* [Wanted: Rust sync web framework](https://diziet.dreamwidth.org/9336.html)
 
 ## Crate of the Week
 
