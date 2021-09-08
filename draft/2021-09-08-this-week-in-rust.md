@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 - [This week in Fluvio #5: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0005/)
 
 ### Observations/Thoughts
+[Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
 
 ### Rust Walkthroughs
 
