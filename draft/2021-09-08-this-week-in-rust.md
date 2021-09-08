@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 - [This week in Fluvio #5: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0005/)
+- [This week in Datafuse #6](https://datafuselabs.github.io/weekly/2021-09-08-datafuse-weekly/)
 
 ### Observations/Thoughts
 [Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
