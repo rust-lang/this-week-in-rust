@@ -25,6 +25,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [How to avoid lifetime annotations in Rust (and write clean code)](https://kerkour.com/blog/rust-avoid-lifetimes/)
+
 ### Miscellaneous
 
 * [Rust on RISC-V BL602: Rhai Scripting](https://lupyuen.github.io/articles/rhai)
