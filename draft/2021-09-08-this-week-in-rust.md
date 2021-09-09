@@ -94,6 +94,7 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
  * [Rust for the Polyglot Programmer - a guide in need of review by and feedback from the Rust Community](https://www.chiark.greenend.org.uk/%7Eianmdlvl/rust-polyglot/)
+ * [Survey - How People Use Rust](https://t.co/gCj6NRNftT?amp=1)
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
@@ -161,37 +162,32 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [disposition: close] [Proposal: Else clauses for for and while loops](https://github.com/rust-lang/rfcs/pull/3163)
-* [disposition: close] [RFC: let-expression](https://github.com/rust-lang/rfcs/pull/3159)
 * [disposition: merge] [Scrape code examples from examples/ directory for Rustdoc](https://github.com/rust-lang/rfcs/pull/3123)
 * [disposition: merge] [Rust-lang crate ownership policy](https://github.com/rust-lang/rfcs/pull/3119)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Deprecate array::IntoIter::new](https://github.com/rust-lang/rust/pull/88611)
 * [disposition: merge] [Partially stabilize array_methods](https://github.com/rust-lang/rust/pull/88353)
-* [disposition: merge] [Stabilize std::os::unix::fs::chroot](https://github.com/rust-lang/rust/pull/88177)
-* [disposition: merge] [Stabilize reserved prefixes](https://github.com/rust-lang/rust/issues/88140)
-* [disposition: merge] [stabilize disjoint capture in closures (RFC 2229)](https://github.com/rust-lang/rust/issues/88126)
-* [disposition: merge] [Stabilize try_reserve](https://github.com/rust-lang/rust/pull/87993)
-* [disposition: merge] [Support #[track_caller] on closures and generators](https://github.com/rust-lang/rust/pull/87064)
+* [disposition: merge] [Tracking issue Iterator map_while](https://github.com/rust-lang/rust/issues/68537)
 
 ### New RFCs
 
-*No new RFCs were proposed this week.*
+* [Add RFC float-next-up-down](https://github.com/rust-lang/rfcs/pull/3173)
 
 ## Upcoming Events
 
 ### Online
 
-* [September 2, 2021, Zurich, CH - Exciting new Rustdoc features landing in 1.55.0 - Hybrid Meetup (Livestream!) - Rust Zurich](https://www.meetup.com/Rust-Zurich/events/280295950/)
-* [September 2, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
-* [September 7, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/280433831/)
 * [September 8, 2021, Denver, CO, US - Rust Q&A - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/279407152/)
 * [September 14, 2021, Seattle, WA, US - Monthly Meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccmbsb/)
 * [September 15, 2021, Vancouver, BC, CA - Considering Rust - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsyccmbtb/)
+* [September 16, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 
 ### North America
 
 * [September 8, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/lhpkmsyccmblb/)
+* [September 9, 2021, Pleasant Grove, UT, US - Rusty Engine: A 2D game engine for learning Rust with Nathan Stocks (and Pizza)](https://www.meetup.com/utah-rust/events/280470653/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -202,8 +198,29 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Formlogic**
+
+* [Software Engineer (Remote)](https://formlogic.breezy.hr/p/4fbae29d9d21-software-engineer)
+
+**OCR Labs**
+
+* [Senior Rust Developer (Remote)](https://weworkremotely.com/listings/ocr-labs-senior-rust-developer)
+
 **ChainSafe**
+
 * [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
+**Subspace**
+
+* [Core Protocol Engineer (Remote)](https://jobs.lever.co/subspacelabs/7f6a654b-60a8-4740-aa19-36b9f7a9e624)
+
+**dcSpark**
+
+* [Senior Rust Developer (Remote)](https://careers.dcspark.io/senior-rust-developer-47870/)
+
+**Kraken**
+
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://arbeitnow.com/view/backend-engineer-kraken-futures-rust-remote-kraken-74155)
 
 **Kollider**
 
