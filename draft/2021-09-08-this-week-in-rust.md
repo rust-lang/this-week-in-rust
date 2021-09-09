@@ -26,8 +26,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [rust-analyzer Changelog #93](https://rust-analyzer.github.io/thisweek/2021/09/06/changelog-93.html)
 * [This week in Fluvio #5: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0005/)
 * [rustc_codegen_gcc: Progress Report #3](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-3)
+* [This week in Datafuse #6](https://datafuselabs.github.io/weekly/2021-09-08-datafuse-weekly/)
+* [Announcing Relm4 v0.1](https://aaronerhardt.github.io/blog/posts/announcing_relm4/)
+* [SixtyFPS (GUI crate) weekly report for 6th of September 2021](https://sixtyfps.io/thisweek/2021-09-06.html)
 
 ### Observations/Thoughts
+* [Why Rust for offensive security](https://kerkour.com/blog/why-rust-for-offensive-security/)
+* [Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
+* [Had a blast porting one of my serverless applications from Go to Rust - some things I learned](https://twitter.com/mlafeldt/status/1433414474589954048)
 * [Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
 * [Faster Top Level Domain Name Extraction with Rust](https://tech.marksblogg.com/rdns-domain-name-tld-extract-rust.html)
 * [Rust programs written entirely in Rust](https://blog.sunfishcode.online/rust-programs-entirely-in-rust/)
@@ -45,6 +51,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [audio] [The Rustacean Station Podcast - Rust in cURL](https://rustacean-station.org/episode/035-daniel-stenberg/)
 
 ### Rust Walkthroughs
+* [The Why and How of Rust Declarative Macros](https://blog.lanesawyer.dev/27848/the-why-and-how-of-rust-declarative-macros)
+* [Build a secure access tunnel to a service inside of a Remote Private Network, using Rust](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/secure-remote-access-tunnels#readme)
 * [Rust on RISC-V BL602: Rhai Scripting](https://lupyuen.github.io/articles/rhai)
 * [Rudroid - Writing the World's worst Android Emulator in Rust](https://fuzzing.science/page/rudroid-worlds-worst-android-emulator/)
 * [Hexagonal architecture in Rust #3](https://alexis-lozano.com/hexagonal-architecture-in-rust-3/)
@@ -58,20 +66,23 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Let's build an LC-3 Virtual Machine](https://www.rodrigoaraujo.me/posts/lets-build-an-lc-3-virtual-machine/)
 * [How to think of unwrap](https://owengage.com/writing/2021-08-30-how-to-think-of-unwrap/)
 * [Learning Rust: Interfacing with C](https://piware.de/post/2021-08-27-rust-and-c/)
+* [How to build a job queue with Rust and PostgreSQL](https://kerkour.com/blog/rust-job-queue-with-postgresql/)
+* [How to avoid lifetime annotations in Rust (and write clean code)](https://kerkour.com/blog/rust-avoid-lifetimes/)
 * [ID] [Belajar Rust - 02: Instalasi Rust](https://dev.to/zimerasystems/belajar-rust-02-instalasi-rust-pf)
 * [video] [Crust of Rust: async/await](https://youtu.be/ThjvMReOXYM)
 * [video] [Concurrency in Rust - Sharing State](https://youtu.be/mupwF9jbVZ4)
+* [video] [Setting up an Arduino Project using Rust](https://www.youtube.com/watch?v=d9PxFlFFZuk)
 
 ### Miscellaneous
 * [Unity files patent for ECS in game engines that would probably affect many Rust ECS crates, including Bevy's](https://www.reddit.com/r/rust/comments/pjtpkj/unity_files_patent_for_ecs_in_game_engines_that/)
 * [Rust 2021 celebration and thanks](https://github.com/rust-lang/rust/issues/88623)
+* [Rust on RISC-V BL602: Rhai Scripting](https://lupyuen.github.io/articles/rhai)
+* [Wanted: Rust sync web framework](https://diziet.dreamwidth.org/9336.html)
 * [audio] [Rust 2021 Edition](https://youtu.be/q0aNduqb2Ro)
 
 ## Crate of the Week
 
-This week's crate is [cargo-llvm-cov](https://github.com/taiki-e/cargo-llvm-cov), a cargo subcommand for LLVM-based code coverage.
-
-Thanks to [Jacob Pratt](https://users.rust-lang.org/t/crate-of-the-week/2704/948) for the suggestion.
+Sadly, we had no nominations this week. Still, in the spirit of not leaving you without some neat rust code, I give you [gradient](https://github.com/mazznoer/gradient-rs), a command line tool to extract gradients from SVG, display and manipulate them.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -82,6 +93,8 @@ Thanks to [Jacob Pratt](https://users.rust-lang.org/t/crate-of-the-week/2704/948
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
+ * [Rust for the Polyglot Programmer - a guide in need of review by and feedback from the Rust Community](https://www.chiark.greenend.org.uk/%7Eianmdlvl/rust-polyglot/)
+
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
@@ -90,41 +103,47 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from Rust Core
 
-296 pull requests were [merged in the last week][merged]
+300 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-08-23..2021-08-30
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-08-30..2021-09-06
 
-* [fix debugger stepping behavior with match expressions](https://github.com/rust-lang/rust/pull/87832)
-* [improve liveness analysis for generators](https://github.com/rust-lang/rust/pull/84333)
-* [handle match statements with non exhaustive variants in closures](https://github.com/rust-lang/rust/pull/88280)
-* [`ast_lowering`: introduce `lower_span` for catching all spans entering HIR](https://github.com/rust-lang/rust/pull/88208)
-* [PGO for LLVM builds on `x86_64-unknown-linux-gnu` in CI](https://github.com/rust-lang/rust/pull/88069)
-* [`Cow`'ify some `pprust` methods](https://github.com/rust-lang/rust/pull/88262)
-* [polonius: move to a fully hand-written parser to improve compile / iteration times](https://github.com/rust-lang/polonius/pull/173)
-* [warn about unreachable code following an expression with an uninhabited type](https://github.com/rust-lang/rust/pull/85556)
-* [normalize projections under binders](https://github.com/rust-lang/rust/pull/85499)
-* [stabilize and document `--force-warn`](https://github.com/rust-lang/rust/pull/87472)
-* [stabilise `BufWriter::into_parts`](https://github.com/rust-lang/rust/pull/88299)
-* [add `Cell::as_array_of_cells`](https://github.com/rust-lang/rust/pull/87944)
-* [add `Saturating` type (based on `Wrapping` type)](https://github.com/rust-lang/rust/pull/87921)
-* [stdarch: update codegen for simd wasm intrinsics with LLVM 13](https://github.com/rust-lang/stdarch/pull/1203)
-* [futures: add `Peekable::`{`peek_mut`, `poll_peek_mut`}](https://github.com/rust-lang/futures-rs/pull/2488)
-* [cargo: show description of well known subcommands (fmt, clippy) in `cargo --list`](https://github.com/rust-lang/cargo/pull/9848)
-* [clippy: fix `option_if_let_else`](https://github.com/rust-lang/rust-clippy/pull/7573)
-* [clippy: add `module_style` lint to style](https://github.com/rust-lang/rust-clippy/pull/7543)
-* [clippy: don't report function calls as unnecessary operation if used in array index](https://github.com/rust-lang/rust-clippy/pull/7453)
+* [introduce `let...else`](https://github.com/rust-lang/rust/pull/87688) 
+* [update const generics feature gates](https://github.com/rust-lang/rust/pull/88369)
+* [allow `~const` bounds on trait assoc functions](https://github.com/rust-lang/rust/pull/88418)
+* [emit specific warning to clarify that `#[no_mangle]` should not be applied on foreign statics or functions](https://github.com/rust-lang/rust/pull/86376)
+* [fix 2021 dyn suggestion that used code as label](https://github.com/rust-lang/rust/pull/88657)
+* [warn when `[T; N].into_iter()` is ambiguous in the new edition](https://github.com/rust-lang/rust/pull/88503)
+* [detect bare blocks with type ascription that were meant to be a struct literal](https://github.com/rust-lang/rust/pull/88598)
+* [use right span in prelude collision suggestions with macros](https://github.com/rust-lang/rust/pull/88501)
+* [improve structured tuple struct suggestion](https://github.com/rust-lang/rust/pull/88631)
+* [move global analyses from lowering to resolution](https://github.com/rust-lang/rust/pull/88597)
+* [`fmt::Formatter::pad`: don't call `chars().count()` more than one time](https://github.com/rust-lang/rust/pull/88560)
+* [add `carrying_add`, `borrowing_sub`, `widening_mul`, `carrying_mul` methods to integers](https://github.com/rust-lang/rust/pull/85017)
+* [stabilize `UnsafeCell::raw_get`](https://github.com/rust-lang/rust/pull/88551)
+* [stabilize `Iterator::intersperse`](https://github.com/rust-lang/rust/pull/88548)
+* [stabilize `std::os::unix::fs::chroot`](https://github.com/rust-lang/rust/pull/88177)
+* [compiler-builtins: optimize `memcpy`, `memmove` and `memset`](https://github.com/rust-lang/compiler-builtins/pull/405)
+* [futures: add `TryStreamExt::try_forward`, remove `TryStream` bound from `StreamExt::forward`](https://github.com/rust-lang/futures-rs/pull/2469)
+* [futures: correcting overly restrictive lifetimes in vectored IO](https://github.com/rust-lang/futures-rs/pull/2484)
+* [cargo: stabilize 2021 edition](https://github.com/rust-lang/cargo/pull/9800)
+* [cargo: improve error message when unable to initialize git index repo](https://github.com/rust-lang/cargo/pull/9869)
+* [clippy: add the `derivable_impls` lint](https://github.com/rust-lang/rust-clippy/pull/7570)
+* [rustdoc: clean up handling of lifetime bounds](https://github.com/rust-lang/rust/pull/88604)
+* [rustdoc: don't panic on ambiguous inherent associated types](https://github.com/rust-lang/rust/pull/88573)
+* [rustdoc: box `GenericArg::Const` to reduce enum size](https://github.com/rust-lang/rust/pull/88574)
+* [rustdoc: display associated types of implementors](https://github.com/rust-lang/rust/pull/88490)
 
 ### Rust Compiler Performance Triage
 
-A very busy week with relatively even amounts of regressions and improvements (albeit with improvements outweighing regressions). The largest win was the use of profile-guided optimization (PGO) builds on x86_64 linux builds which brings fairly large improvements in real-world crates. There were 2 regressions that caused fairly large (~3.5%) regressions in real-world crates which need to be investigated.
+A busy week, with lots of mixed changes, though in the end only a few were deemed significant enough to report here.
 
-Triage done by **@rylev**.
-Revision range: [33fdb..fe379](https://perf.rust-lang.org/?start=33fdb797f59421c7bbecaa4588ed5d7a31a9494a&end=fe37929e4cba2c5c21e6805805769630c736bc3d&absolute=false&stat=instructions%3Au)
+Triage done by **@pnkfelix**.
+Revision range: [fe379..69c4a](https://perf.rust-lang.org/?start=fe37929e4cba2c5c21e6805805769630c736bc3d&end=69c4aa2901ffadf69deaf91b2f90604bcbc2eb36&absolute=false&stat=instructions%3Au)
 
-5 Regressions, 4 Improvements, 5 Mixed; 0 of them in rollups
-56 comparisons made in total
+3 Regressions, 1 Improvements, 3 Mixed; 0 of them in rollups
+57 comparisons made in total
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-09-01.md).
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-09-07.md).
 
 ### Approved RFCs
 
@@ -183,16 +202,21 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**ChainSafe**
+* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
+**Kollider**
+
+* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
+* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> Anyway: the standard library docs say "check the nomicon"  
-> then the nomicon says "here is some advice and ultimately we don't know, maybe check UCG"  
-> then UCG says "ultimately we don't know it's probably like this but there's no RFC yet"  
-> then Ralf says "probably it should be allowed if the layout matches".
+> In Rust, soundness is never just a convention.
 
-– [Lokathor on the Rust Zulip](https://rust-lang.zulipchat.com/#narrow/stream/131828-t-compiler/topic/rustc.20warn.20against.20repr.20rust.20transmutes/near/250735818)
+– [@H2CO3 on rust-users](https://users.rust-lang.org/t/rationale-behind-fn-fnmut-and-fnonce-design/64355/11)
 
 Thanks to [Riccardo D'Ambrosio](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1097) for the suggestion!
 
