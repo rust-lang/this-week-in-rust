@@ -18,17 +18,31 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
-- [This week in Fluvio #5: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0005/)
-- [This week in Datafuse #6](https://datafuselabs.github.io/weekly/2021-09-08-datafuse-weekly/)
+* [This week in Fluvio #5: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0005/)
+* [This week in Datafuse #6](https://datafuselabs.github.io/weekly/2021-09-08-datafuse-weekly/)
+* [Announcing Relm4 v0.1](https://aaronerhardt.github.io/blog/posts/announcing_relm4/)
+* [SixtyFPS (GUI crate) weekly report for 6th of September 2021](https://sixtyfps.io/thisweek/2021-09-06.html)
+* [This week in Fluvio #5: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0005/)
 
 ### Observations/Thoughts
-[Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
+
+* [Why Rust for offensive security](https://kerkour.com/blog/why-rust-for-offensive-security/)
+* [Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
+* [Had a blast porting one of my serverless applications from Go to Rust - some things I learned](https://twitter.com/mlafeldt/status/1433414474589954048)
 
 ### Rust Walkthroughs
+* [The Why and How of Rust Declarative Macros](https://blog.lanesawyer.dev/27848/the-why-and-how-of-rust-declarative-macros)
+* [Build a secure access tunnel to a service inside of a Remote Private Network, using Rust](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/secure-remote-access-tunnels#readme)
+* [video] [Setting up an Arduino Project using Rust](https://www.youtube.com/watch?v=d9PxFlFFZuk)
+
+* [How to build a job queue with Rust and PostgreSQL](https://kerkour.com/blog/rust-job-queue-with-postgresql/)
+
+* [How to avoid lifetime annotations in Rust (and write clean code)](https://kerkour.com/blog/rust-avoid-lifetimes/)
 
 ### Miscellaneous
 
 * [Rust on RISC-V BL602: Rhai Scripting](https://lupyuen.github.io/articles/rhai)
+* [Wanted: Rust sync web framework](https://diziet.dreamwidth.org/9336.html)
 
 ## Crate of the Week
 
@@ -44,6 +58,8 @@ Thanks to [Jacob Pratt](https://users.rust-lang.org/t/crate-of-the-week/2704/948
 
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
+
+ * [Rust for the Polyglot Programmer - a guide in need of review by and feedback from the Rust Community](https://www.chiark.greenend.org.uk/%7Eianmdlvl/rust-polyglot/)
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
@@ -79,15 +95,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-A very busy week with relatively even amounts of regressions and improvements (albeit with improvements outweighing regressions). The largest win was the use of profile-guided optimization (PGO) builds on x86_64 linux builds which brings fairly large improvements in real-world crates. There were 2 regressions that caused fairly large (~3.5%) regressions in real-world crates which need to be investigated.
+A busy week, with lots of mixed changes, though in the end only a few were deemed significant enough to report here.
 
-Triage done by **@rylev**.
-Revision range: [33fdb..fe379](https://perf.rust-lang.org/?start=33fdb797f59421c7bbecaa4588ed5d7a31a9494a&end=fe37929e4cba2c5c21e6805805769630c736bc3d&absolute=false&stat=instructions%3Au)
+Triage done by **@pnkfelix**.
+Revision range: [fe379..69c4a](https://perf.rust-lang.org/?start=fe37929e4cba2c5c21e6805805769630c736bc3d&end=69c4aa2901ffadf69deaf91b2f90604bcbc2eb36&absolute=false&stat=instructions%3Au)
 
-5 Regressions, 4 Improvements, 5 Mixed; 0 of them in rollups
-56 comparisons made in total
+3 Regressions, 1 Improvements, 3 Mixed; 0 of them in rollups
+57 comparisons made in total
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-09-01.md).
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-09-07.md).
 
 ### Approved RFCs
 
@@ -145,6 +161,14 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**ChainSafe**
+* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
+**Kollider**
+
+* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
+* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
