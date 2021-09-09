@@ -14,35 +14,71 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
+### Official
+* [Inside] [Splitting the const generics features](https://blog.rust-lang.org/inside-rust/2021/09/06/Splitting-const-generics.html)
+* [Inside] [1.55.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2021/09/07/1.55.0-prerelease.html)
+
 ### Newsletters
+* [This Month in Rust GameDev #25 - August 2021](https://gamedev.rs/news/025/)
+* [This Month in Rust OSDev (August 2021)](https://rust-osdev.com/this-month/2021-08/)
 
 ### Project/Tooling Updates
-
+* [rust-analyzer Changelog #93](https://rust-analyzer.github.io/thisweek/2021/09/06/changelog-93.html)
 * [This week in Fluvio #5: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0005/)
+* [rustc_codegen_gcc: Progress Report #3](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-3)
 * [This week in Datafuse #6](https://datafuselabs.github.io/weekly/2021-09-08-datafuse-weekly/)
 * [Announcing Relm4 v0.1](https://aaronerhardt.github.io/blog/posts/announcing_relm4/)
 * [SixtyFPS (GUI crate) weekly report for 6th of September 2021](https://sixtyfps.io/thisweek/2021-09-06.html)
-* [This week in Fluvio #5: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0005/)
 
 ### Observations/Thoughts
-
 * [Why Rust for offensive security](https://kerkour.com/blog/why-rust-for-offensive-security/)
 * [Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
 * [Had a blast porting one of my serverless applications from Go to Rust - some things I learned](https://twitter.com/mlafeldt/status/1433414474589954048)
+* [Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
+* [Faster Top Level Domain Name Extraction with Rust](https://tech.marksblogg.com/rdns-domain-name-tld-extract-rust.html)
+* [Rust programs written entirely in Rust](https://blog.sunfishcode.online/rust-programs-entirely-in-rust/)
+* [Fast Rust Builds](https://matklad.github.io/2021/09/04/fast-rust-builds.html)
+* [Virtual Machine Dispatch Experiments in Rust](https://pliniker.github.io/post/dispatchers/)
+* [Rust Verification Tools - Retrospective](https://project-oak.github.io/rust-verification-tools/2021/09/01/retrospective.html)
+* [How to avoid lifetime annotations in Rust (and write clean code)](https://kerkour.com/blog/rust-avoid-lifetimes/)
+* [Using SIMD acceleration in Rust to create the world's fastest `tac`](https://neosmart.net/blog/2021/using-simd-acceleration-in-rust-to-create-the-worlds-fastest-tac/)
+* [Overview of the Rust cryptography ecosystem](https://kerkour.com/blog/rust-cryptography-ecosystem/)
+* [Rustacean Principles](https://smallcultfollowing.com/babysteps//blog/2021/09/08/rustacean-principles/)
+* [Writing software that's reliable enough for production](https://pythonspeed.com/fil/docs/fil4prod/reliable.html)
+* [Plugins in Rust: Getting Started](https://nullderef.com/blog/plugin-start/)
+* [A Gopher's Foray into Rust](https://thespblog.net/a-gophers-foray-into-rust/)
+* [Building a reliable and tRUSTworthy web service](https://holmusk.dev/blog/2021-05-29-using-rust.html)
+* [audio] [The Rustacean Station Podcast - Rust in cURL](https://rustacean-station.org/episode/035-daniel-stenberg/)
 
 ### Rust Walkthroughs
 * [The Why and How of Rust Declarative Macros](https://blog.lanesawyer.dev/27848/the-why-and-how-of-rust-declarative-macros)
 * [Build a secure access tunnel to a service inside of a Remote Private Network, using Rust](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/secure-remote-access-tunnels#readme)
+* [Rust on RISC-V BL602: Rhai Scripting](https://lupyuen.github.io/articles/rhai)
+* [Rudroid - Writing the World's worst Android Emulator in Rust](https://fuzzing.science/page/rudroid-worlds-worst-android-emulator/)
+* [Hexagonal architecture in Rust #3](https://alexis-lozano.com/hexagonal-architecture-in-rust-3/)
+* [Hexagonal architecture in Rust #4](https://alexis-lozano.com/hexagonal-architecture-in-rust-4/)
+* [Explaining How Memory Management in Rust Works by Comparing with JavaScript](https://spin.atomicobject.com/2021/08/30/memory-management-in-rust/)
+* [Postgres Extensions in Rust](https://depth-first.com/articles/2021/08/25/postgres-extensions-in-rust/)
+* [Let's overtake go/fasthttp with rust/warp](https://medium.com/@glebpomykalov/lets-overtake-go-fasthttp-with-rust-hyper-b2d1004914f)
+* [How we built our Python Client that's mostly Rust](https://dev.to/infinyon/how-we-built-our-python-client-that-s-mostly-rust-3p63)
+* [Combining Rust and C++ code in your Bela project](https://eriknatanael.com/blog/combining-rust-and-cpp-code-in-your-bela-project)
+* [Data-oriented, clean&hexagonal architecture softwware in Rust - through an example project](https://dpc.pw/data-oriented-cleanandhexagonal-architecture-software-in-rust-through-an-example)
+* [Let's build an LC-3 Virtual Machine](https://www.rodrigoaraujo.me/posts/lets-build-an-lc-3-virtual-machine/)
+* [How to think of unwrap](https://owengage.com/writing/2021-08-30-how-to-think-of-unwrap/)
+* [Learning Rust: Interfacing with C](https://piware.de/post/2021-08-27-rust-and-c/)
+* [How to build a job queue with Rust and PostgreSQL](https://kerkour.com/blog/rust-job-queue-with-postgresql/)
+* [How to avoid lifetime annotations in Rust (and write clean code)](https://kerkour.com/blog/rust-avoid-lifetimes/)
+* [ID] [Belajar Rust - 02: Instalasi Rust](https://dev.to/zimerasystems/belajar-rust-02-instalasi-rust-pf)
+* [video] [Crust of Rust: async/await](https://youtu.be/ThjvMReOXYM)
+* [video] [Concurrency in Rust - Sharing State](https://youtu.be/mupwF9jbVZ4)
 * [video] [Setting up an Arduino Project using Rust](https://www.youtube.com/watch?v=d9PxFlFFZuk)
 
-* [How to build a job queue with Rust and PostgreSQL](https://kerkour.com/blog/rust-job-queue-with-postgresql/)
-
-* [How to avoid lifetime annotations in Rust (and write clean code)](https://kerkour.com/blog/rust-avoid-lifetimes/)
-
 ### Miscellaneous
-
+* [Unity files patent for ECS in game engines that would probably affect many Rust ECS crates, including Bevy's](https://www.reddit.com/r/rust/comments/pjtpkj/unity_files_patent_for_ecs_in_game_engines_that/)
+* [Rust 2021 celebration and thanks](https://github.com/rust-lang/rust/issues/88623)
 * [Rust on RISC-V BL602: Rhai Scripting](https://lupyuen.github.io/articles/rhai)
 * [Wanted: Rust sync web framework](https://diziet.dreamwidth.org/9336.html)
+* [audio] [Rust 2021 Edition](https://youtu.be/q0aNduqb2Ro)
 
 ## Crate of the Week
 
