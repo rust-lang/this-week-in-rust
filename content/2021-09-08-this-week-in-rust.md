@@ -181,6 +181,7 @@ decision. Express your opinions now.
 * [September 14, 2021, Seattle, WA, US - Monthly Meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccmbsb/)
 * [September 15, 2021, Vancouver, BC, CA - Considering Rust - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsyccmbtb/)
 * [September 16, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
+* [September 18, 2021, Tokyo, JP - Rust.Tokyo 2021](https://rust.tokyo/)
 
 ### North America
 
