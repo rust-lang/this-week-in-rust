@@ -30,6 +30,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 * [video] [Setting up an Arduino Project using Rust](https://www.youtube.com/watch?v=d9PxFlFFZuk)
 
+- [Build a secure access tunnel to a service inside of a Remote Private Network, using Rust](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/secure-remote-access-tunnels#readme)
+
 ### Miscellaneous
 
 * [Rust on RISC-V BL602: Rhai Scripting](https://lupyuen.github.io/articles/rhai)
