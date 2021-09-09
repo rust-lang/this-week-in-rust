@@ -19,12 +19,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 * [SixtyFPS (GUI crate) weekly report for 6th of September 2021](https://sixtyfps.io/thisweek/2021-09-06.html)
+- [This week in Fluvio #5: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0005/)
 
 ### Observations/Thoughts
+[Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
 
 ### Rust Walkthroughs
 
 ### Miscellaneous
+
+* [Rust on RISC-V BL602: Rhai Scripting](https://lupyuen.github.io/articles/rhai)
 
 ## Crate of the Week
 
