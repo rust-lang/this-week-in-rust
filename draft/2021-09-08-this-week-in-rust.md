@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [This week in Fluvio #5: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0005/)
+* [This week in Datafuse #6](https://datafuselabs.github.io/weekly/2021-09-08-datafuse-weekly/)
 * [Announcing Relm4 v0.1](https://aaronerhardt.github.io/blog/posts/announcing_relm4/)
 * [SixtyFPS (GUI crate) weekly report for 6th of September 2021](https://sixtyfps.io/thisweek/2021-09-06.html)
 * [This week in Fluvio #5: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0005/)
@@ -25,8 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 * [Why Rust for offensive security](https://kerkour.com/blog/why-rust-for-offensive-security/)
-[Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
-
+* [Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
 * [Had a blast porting one of my serverless applications from Go to Rust - some things I learned](https://twitter.com/mlafeldt/status/1433414474589954048)
 
 ### Rust Walkthroughs
