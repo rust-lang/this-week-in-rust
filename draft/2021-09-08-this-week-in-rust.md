@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 [Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
 
 ### Rust Walkthroughs
+* [video] [Setting up an Arduino Project using Rust](https://www.youtube.com/watch?v=d9PxFlFFZuk)
 
 ### Miscellaneous
 
