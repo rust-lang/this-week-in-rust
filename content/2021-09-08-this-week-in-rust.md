@@ -32,7 +32,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [Why Rust for offensive security](https://kerkour.com/blog/why-rust-for-offensive-security/)
-* [Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
 * [Had a blast porting one of my serverless applications from Go to Rust - some things I learned](https://twitter.com/mlafeldt/status/1433414474589954048)
 * [Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
 * [Faster Top Level Domain Name Extraction with Rust](https://tech.marksblogg.com/rdns-domain-name-tld-extract-rust.html)
@@ -67,7 +66,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [How to think of unwrap](https://owengage.com/writing/2021-08-30-how-to-think-of-unwrap/)
 * [Learning Rust: Interfacing with C](https://piware.de/post/2021-08-27-rust-and-c/)
 * [How to build a job queue with Rust and PostgreSQL](https://kerkour.com/blog/rust-job-queue-with-postgresql/)
-* [How to avoid lifetime annotations in Rust (and write clean code)](https://kerkour.com/blog/rust-avoid-lifetimes/)
 * [ID] [Belajar Rust - 02: Instalasi Rust](https://dev.to/zimerasystems/belajar-rust-02-instalasi-rust-pf)
 * [video] [Crust of Rust: async/await](https://youtu.be/ThjvMReOXYM)
 * [video] [Concurrency in Rust - Sharing State](https://youtu.be/mupwF9jbVZ4)
