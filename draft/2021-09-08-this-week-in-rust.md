@@ -21,7 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-[Setting up an Arduino Project using Rust](https://www.youtube.com/watch?v=d9PxFlFFZuk)
+* [video] [Setting up an Arduino Project using Rust](https://www.youtube.com/watch?v=d9PxFlFFZuk)
 
 ### Miscellaneous
 
