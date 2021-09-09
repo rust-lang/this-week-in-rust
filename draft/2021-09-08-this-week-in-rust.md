@@ -94,6 +94,7 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
  * [Rust for the Polyglot Programmer - a guide in need of review by and feedback from the Rust Community](https://www.chiark.greenend.org.uk/%7Eianmdlvl/rust-polyglot/)
+ * [Survey - How People Use Rust](https://t.co/gCj6NRNftT?amp=1)
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
@@ -202,8 +203,30 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Formlogic**
+
+* [Software Engineer (Remote)](https://formlogic.breezy.hr/p/4fbae29d9d21-software-engineer)
+
+**OCR Labs**
+
+* [Senior Rust Developer (Remote)](https://weworkremotely.com/listings/ocr-labs-senior-rust-developer)
+
 **ChainSafe**
+
 * [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
+**Subspace**
+
+* [Core Protocol Engineer (Remote)](https://jobs.lever.co/subspacelabs/7f6a654b-60a8-4740-aa19-36b9f7a9e624)
+
+**dcSpark**
+
+* [Senior Rust Developer (Remote)](https://careers.dcspark.io/senior-rust-developer-47870/)
+
+
+**Kraken**
+
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://arbeitnow.com/view/backend-engineer-kraken-futures-rust-remote-kraken-74155)
 
 **Kollider**
 
