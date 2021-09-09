@@ -18,13 +18,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
-- [This week in Fluvio #5: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0005/)
+* [Announcing Relm4 v0.1](https://aaronerhardt.github.io/blog/posts/announcing_relm4/)
+* [SixtyFPS (GUI crate) weekly report for 6th of September 2021](https://sixtyfps.io/thisweek/2021-09-06.html)
+* [This week in Fluvio #5: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0005/)
 
 ### Observations/Thoughts
 [Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
 
+* [Had a blast porting one of my serverless applications from Go to Rust - some things I learned](https://twitter.com/mlafeldt/status/1433414474589954048)
+
 ### Rust Walkthroughs
-- [The Why and How of Rust Declarative Macros](https://blog.lanesawyer.dev/27848/the-why-and-how-of-rust-declarative-macros)
+* [The Why and How of Rust Declarative Macros](https://blog.lanesawyer.dev/27848/the-why-and-how-of-rust-declarative-macros)
+* [Build a secure access tunnel to a service inside of a Remote Private Network, using Rust](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/secure-remote-access-tunnels#readme)
+* [video] [Setting up an Arduino Project using Rust](https://www.youtube.com/watch?v=d9PxFlFFZuk)
 
 ### Miscellaneous
 
@@ -44,6 +50,8 @@ Thanks to [Jacob Pratt](https://users.rust-lang.org/t/crate-of-the-week/2704/948
 
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
+
+ * [Rust for the Polyglot Programmer - a guide in need of review by and feedback from the Rust Community](https://www.chiark.greenend.org.uk/%7Eianmdlvl/rust-polyglot/)
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
@@ -145,6 +153,14 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**ChainSafe**
+* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
+
+**Kollider**
+
+* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
+* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
