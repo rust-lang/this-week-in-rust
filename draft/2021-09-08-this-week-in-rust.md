@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 [Broken Encapsulation](https://blog.sunfishcode.online/broken-encapsulation/)
 
+* [Had a blast porting one of my serverless applications from Go to Rust - some things I learned](https://twitter.com/mlafeldt/status/1433414474589954048)
+
 ### Rust Walkthroughs
 * [video] [Setting up an Arduino Project using Rust](https://www.youtube.com/watch?v=d9PxFlFFZuk)
 
