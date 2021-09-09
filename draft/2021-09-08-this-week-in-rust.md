@@ -46,6 +46,8 @@ Thanks to [Jacob Pratt](https://users.rust-lang.org/t/crate-of-the-week/2704/948
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
+ * [Rust for the Polyglot Programmer - a guide in need of review by and feedback from the Rust Community](https://www.chiark.greenend.org.uk/%7Eianmdlvl/rust-polyglot/)
+
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
