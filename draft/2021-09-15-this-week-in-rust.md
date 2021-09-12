@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
+* [Announcing Rust 1.55.0](https://blog.rust-lang.org/2021/09/09/Rust-1.55.0.html)
 * [video] [RustConf 2021 Video Stream](https://www.youtube.com/watch?v=pLdCcolQsxA)
 
 ### Newsletters
@@ -26,10 +27,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [SixtyFPS (GUI crate) weekly report 12th of September](https://sixtyfps.io/thisweek/2021-09-13.html)
 * [This week in Databend #7](https://datafuselabs.github.io/weekly/2021-09-15-databend-weekly/)
 * [Introducing DHCProto](https://leshow.github.io/post/dhcproto/)
+* [IntelliJ Rust Changelog #155](https://intellij-rust.github.io/2021/09/13/changelog-155.html)
+* [Rust Analyzer Changelog #94](https://rust-analyzer.github.io/thisweek/2021/09/13/changelog-94.html)
+* [Introducing Matchbox](https://johanhelsing.studio/posts/introducing-matchbox)
 
 ### Observations/Thoughts
 
+* [Building Cloudflare Images in Rust and Cloudflare Workers](https://blog.cloudflare.com/building-cloudflare-images-in-rust-and-cloudflare-workers/)
 * [Zenoh performance: a stroll in Rust async wonderland](https://zenoh.io/blog/2021-07-13-zenoh-performance-async/)
+* [audio] [Rust Game Dev Podcast - Interview with Remco and Basz](https://rustgamedev.com/episodes/interview-with-remco-and-basz)
 
 ### Rust Walkthroughs
 
@@ -38,12 +44,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [An experimental Diesel-based CRUD for Rocket](https://tweedegolf.nl/blog/61/an-experimental-diesel-based-crud-for-rocket)
 * [Rust cli example #2: Ferris hunts errors](https://dev.to/uggla/rust-cli-example-2-ferris-hunts-errors-116b)
 * [Test Cases in Rust are simple to write](https://blog.knoldus.com/test-cases-in-rust-are-simple-to-write/)
+* [Full-stack sum types with TypeScript, Rust and Postgres](https://vincepergolizzi.com/programming/2021/09/08/full-stack-sum-types-with-typescript-rust-and-postgres.html)
+* [video] [Rust for Java Developers - Introduction [Beginners]](https://www.youtube.com/watch?v=iFdh4sPC5Tg)
 * [video] [FLTK Rust: a new basics tutorial](https://www.youtube.com/watch?v=S1NSsHZs6hI)
+* [video] [Rust for Linux](https://www.youtube.com/watch?v=VlSkZYBeK8Q)
 
 ### Miscellaneous
 
 * [Native Rust support on Cloudflare Workers](https://blog.cloudflare.com/workers-rust-sdk/)
 * [Launching Porta Ecosystem Grants](https://portanetwork.medium.com/launching-porta-ecosystem-grants-to-grow-its-network-7f82262d4260)
+* [LLVM internals, part 3: from bitcode to IR](https://blog.yossarian.net/2021/09/14/LLVM-internals-part-3-from-bitcode-to-IR)
 
 ## Crate of the Week
 
@@ -63,6 +73,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [OpenSUSE Rust Usage Survey](https://survey.opensuse.org/)
+* [RustFest CFP is open](https://rustfest.world/say-hello-rustfest-global-2021)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
