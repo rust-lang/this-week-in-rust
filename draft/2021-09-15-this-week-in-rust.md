@@ -29,6 +29,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Zenoh performance: a stroll in Rust async wonderland](https://zenoh.io/blog/2021-07-13-zenoh-performance-async/)
+
 ### Rust Walkthroughs
 
 * [How to Write and Compile Shellcode in Rust](https://kerkour.com/blog/shellcode-in-rust/)
@@ -157,6 +159,10 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Gouach**
+
+* [Senior Embedded Rust Software Engineer (Bordeaux, FR)](https://gouach.welcomekit.co/jobs/senior-c-software-engineer_bordeaux)
 
 **Indeed**
 
