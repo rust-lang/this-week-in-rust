@@ -1,6 +1,6 @@
-Title: This Week in Rust 408
-Number: 408
-Date: 2021-09-15
+Title: This Week in Rust 409
+Number: 409
+Date: 2021-09-22
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -16,45 +16,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
-* [Announcing Rust 1.55.0](https://blog.rust-lang.org/2021/09/09/Rust-1.55.0.html)
-* [video] [RustConf 2021 Video Stream](https://www.youtube.com/watch?v=pLdCcolQsxA)
-
 ### Newsletters
 
 ### Project/Tooling Updates
 
-* [Announcing Sycamore v0.6.0: Faster and faster with plenty of fixes and features…](https://sycamore-rs.netlify.app/news/announcing-v0.6.0)
-* [SixtyFPS (GUI crate) weekly report 12th of September](https://sixtyfps.io/thisweek/2021-09-13.html)
-* [This week in Databend #7](https://datafuselabs.github.io/weekly/2021-09-15-databend-weekly/)
-* [Introducing DHCProto](https://leshow.github.io/post/dhcproto/)
-* [IntelliJ Rust Changelog #155](https://intellij-rust.github.io/2021/09/13/changelog-155.html)
-* [Rust Analyzer Changelog #94](https://rust-analyzer.github.io/thisweek/2021/09/13/changelog-94.html)
-* [Introducing Matchbox](https://johanhelsing.studio/posts/introducing-matchbox)
-
 ### Observations/Thoughts
-
-* [Building Cloudflare Images in Rust and Cloudflare Workers](https://blog.cloudflare.com/building-cloudflare-images-in-rust-and-cloudflare-workers/)
-* [Zenoh performance: a stroll in Rust async wonderland](https://zenoh.io/blog/2021-07-13-zenoh-performance-async/)
-* [audio] [Rust Game Dev Podcast - Interview with Remco and Basz](https://rustgamedev.com/episodes/interview-with-remco-and-basz)
 
 ### Rust Walkthroughs
 
-* [How to Write and Compile Shellcode in Rust](https://kerkour.com/blog/shellcode-in-rust/)
-* [How to implement HTTP Long Polling in Rust](https://kerkour.com/blog/rust-http-long-polling/)
-* [An experimental Diesel-based CRUD for Rocket](https://tweedegolf.nl/blog/61/an-experimental-diesel-based-crud-for-rocket)
-* [Rust cli example #2: Ferris hunts errors](https://dev.to/uggla/rust-cli-example-2-ferris-hunts-errors-116b)
-* [Test Cases in Rust are simple to write](https://blog.knoldus.com/test-cases-in-rust-are-simple-to-write/)
-* [Full-stack sum types with TypeScript, Rust and Postgres](https://vincepergolizzi.com/programming/2021/09/08/full-stack-sum-types-with-typescript-rust-and-postgres.html)
-* [Tokio stack overview: Runtime](https://dev.to/rogertorres/rust-tokio-stack-overview-runtime-9fh)
-* [video] [Rust for Java Developers - Introduction [Beginners]](https://www.youtube.com/watch?v=iFdh4sPC5Tg)
-* [video] [FLTK Rust: a new basics tutorial](https://www.youtube.com/watch?v=S1NSsHZs6hI)
-* [video] [Rust for Linux](https://www.youtube.com/watch?v=VlSkZYBeK8Q)
-
 ### Miscellaneous
-
-* [Native Rust support on Cloudflare Workers](https://blog.cloudflare.com/workers-rust-sdk/)
-* [Launching Porta Ecosystem Grants](https://portanetwork.medium.com/launching-porta-ecosystem-grants-to-grow-its-network-7f82262d4260)
-* [LLVM internals, part 3: from bitcode to IR](https://blog.yossarian.net/2021/09/14/LLVM-internals-part-3-from-bitcode-to-IR)
 
 ## Crate of the Week
 
@@ -72,10 +42,6 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
-
-* [getsynth/synth - Allow unbounded numbers](https://github.com/getsynth/synth/issues/145)
-* [OpenSUSE Rust Usage Survey](https://survey.opensuse.org/)
-* [RustFest CFP is open](https://rustfest.world/say-hello-rustfest-global-2021)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -142,7 +108,7 @@ decision. Express your opinions now.
 
 * [disposition: close] [Disable unused_must_use for statically known bools](https://github.com/rust-lang/rust/pull/88028)
 * [disposition: merge] [Make #[derive(A, B, ...)] cfg-eval its input only for A, B, ... and stabilize feature(macro_attributes_in_derive_output)](https://github.com/rust-lang/rust/pull/87220)
-* [disposition: merge] [Make *const (), *mut () okay for FFI](https://github.com/rust-lang/rust/pull/84267)
+* [disposition: merge] [Make `*const (), *mut ()` okay for FFI](https://github.com/rust-lang/rust/pull/84267)
 * [disposition: merge] [Tracking issue Iterator map_while](https://github.com/rust-lang/rust/issues/68537)
 
 ### New RFCs
@@ -168,52 +134,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-**Gouach**
-
-* [Senior Embedded Rust Software Engineer (Bordeaux, FR)](https://gouach.welcomekit.co/jobs/senior-c-software-engineer_bordeaux)
-
-**Indeed**
-
-* [Staff Backend Rust Engineer (Remote)](https://www.indeed.jobs/jobs/staff-backend-rust-engineer-27316/)
-
-**Enso**
-
-* [Senior Rust Developer (Remote)](https://github.com/enso-org/hiring/blob/main/people/senior-rust-developer.md)
-
-**SmartThings**
-
-* [Senior Software Engineer  (Minneapolis, MN, US)](https://smartthings.pinpointhq.com/jobs/22298?utm_medium=internal_referral&utm_source=pinpoint&utm_term=jkypj)
-
-**DEMV Systems**
-
-* [PHP / Rust Backend Entwickler in (Hamburg, DE or Remote) (m/w/d) ](https://arbeitnow.com/view/php-rust-backend-entwickler-in-hamburg-oder-remote-mwd-demv-systems-gmbh-480199)
-
-**Kollider**
-
-* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
-
-**Polar Sync**
-
-* [Principal/Senior Software Engineer - Rust/C++](https://polarsync.breezy.hr/p/0c1d3630d39d)
-
-**Kraken**
-
-* [Engineering Manager - Core Backend (Remote)](https://jobs.lever.co/kraken/53def500-b146-40da-89a8-98adfd7e84e4)
-* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
-* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
-* [Senior Banking Engineer - Rust (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
-
-
-**Parity Technologies**
-
-* [Multiple Rust Engineering Positions Available (Remote)](https://www.parity.io/jobs/)
-
-
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
-
-**SecureDNA**
-
-* [Software Development Manager, Rust & Python (Remote)](https://www.securedna.org/jobs)
 
 # Quote of the Week
 
