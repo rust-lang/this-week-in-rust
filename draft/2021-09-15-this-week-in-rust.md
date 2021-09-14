@@ -28,7 +28,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-Sadly, we had no nominations this week. Still, in the spirit of not leaving you without some neat rust code, I give you [gradient](https://github.com/mazznoer/gradient-rs), a command line tool to extract gradients from SVG, display and manipulate them.
+This week's crate is [qcell](https://github.com/uazu/qcell), with a type that works like a compile-time `RefCell`.
+
+Thanks to [Soni L.](https://users.rust-lang.org/t/crate-of-the-week/2704/952) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -47,35 +49,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from Rust Core
 
-300 pull requests were [merged in the last week][merged]
+278 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-08-30..2021-09-06
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-09-06..2021-09-13
 
-* [introduce `let...else`](https://github.com/rust-lang/rust/pull/87688) 
-* [update const generics feature gates](https://github.com/rust-lang/rust/pull/88369)
-* [allow `~const` bounds on trait assoc functions](https://github.com/rust-lang/rust/pull/88418)
-* [emit specific warning to clarify that `#[no_mangle]` should not be applied on foreign statics or functions](https://github.com/rust-lang/rust/pull/86376)
-* [fix 2021 dyn suggestion that used code as label](https://github.com/rust-lang/rust/pull/88657)
-* [warn when `[T; N].into_iter()` is ambiguous in the new edition](https://github.com/rust-lang/rust/pull/88503)
-* [detect bare blocks with type ascription that were meant to be a struct literal](https://github.com/rust-lang/rust/pull/88598)
-* [use right span in prelude collision suggestions with macros](https://github.com/rust-lang/rust/pull/88501)
-* [improve structured tuple struct suggestion](https://github.com/rust-lang/rust/pull/88631)
-* [move global analyses from lowering to resolution](https://github.com/rust-lang/rust/pull/88597)
-* [`fmt::Formatter::pad`: don't call `chars().count()` more than one time](https://github.com/rust-lang/rust/pull/88560)
-* [add `carrying_add`, `borrowing_sub`, `widening_mul`, `carrying_mul` methods to integers](https://github.com/rust-lang/rust/pull/85017)
-* [stabilize `UnsafeCell::raw_get`](https://github.com/rust-lang/rust/pull/88551)
-* [stabilize `Iterator::intersperse`](https://github.com/rust-lang/rust/pull/88548)
-* [stabilize `std::os::unix::fs::chroot`](https://github.com/rust-lang/rust/pull/88177)
-* [compiler-builtins: optimize `memcpy`, `memmove` and `memset`](https://github.com/rust-lang/compiler-builtins/pull/405)
-* [futures: add `TryStreamExt::try_forward`, remove `TryStream` bound from `StreamExt::forward`](https://github.com/rust-lang/futures-rs/pull/2469)
-* [futures: correcting overly restrictive lifetimes in vectored IO](https://github.com/rust-lang/futures-rs/pull/2484)
-* [cargo: stabilize 2021 edition](https://github.com/rust-lang/cargo/pull/9800)
-* [cargo: improve error message when unable to initialize git index repo](https://github.com/rust-lang/cargo/pull/9869)
-* [clippy: add the `derivable_impls` lint](https://github.com/rust-lang/rust-clippy/pull/7570)
-* [rustdoc: clean up handling of lifetime bounds](https://github.com/rust-lang/rust/pull/88604)
-* [rustdoc: don't panic on ambiguous inherent associated types](https://github.com/rust-lang/rust/pull/88573)
-* [rustdoc: box `GenericArg::Const` to reduce enum size](https://github.com/rust-lang/rust/pull/88574)
-* [rustdoc: display associated types of implementors](https://github.com/rust-lang/rust/pull/88490)
+* [fix ICE for functions with more than 65535 arguments](https://github.com/rust-lang/rust/pull/88733)
+* [detect stricter constraints on gats where clauses in impls vs trait](https://github.com/rust-lang/rust/pull/88336)
+* [ignore derived `Clone` and `Debug` implementations during dead code analysis](https://github.com/rust-lang/rust/pull/85200)
+* [fix non-capturing closure return type coercion](https://github.com/rust-lang/rust/pull/88147)
+* [suggest items be borrowed in `for i in items[x..]`](https://github.com/rust-lang/rust/pull/88578)
+* [suggest wrapping expr in parentheses on invalid unary negation](https://github.com/rust-lang/rust/pull/88757)
+* [improve error message when `_` is used for in/inout `asm` operands](https://github.com/rust-lang/rust/pull/88209)
+* [emit suggestion when passing byte literal to `format!` macro](https://github.com/rust-lang/rust/pull/87441)
+* [use smaller spans for some structured suggestions](https://github.com/rust-lang/rust/pull/87915)
+* [use more correct span data in `for` loop desugaring](https://github.com/rust-lang/rust/pull/88214)
+* [use `FxHashSet` instead of `Vec` for well formed tys](https://github.com/rust-lang/rust/pull/88771)
+* [`mmap` the incremental data instead of reading it](https://github.com/rust-lang/rust/pull/83214)
+* [`BTreeMap`/`BTreeSet::from_iter`: use bulk building to improve the performance](https://github.com/rust-lang/rust/pull/88448)
+* [add `proc_macro::Span::`{`before`, `after`}](https://github.com/rust-lang/rust/pull/86165)
+* [hashbrown: `insert_unique_unchecked` operation](https://github.com/rust-lang/hashbrown/pull/293)
+* [clippy: add new lint `iter_not_returning_iterator`](https://github.com/rust-lang/rust-clippy/pull/7610)
 
 ### Rust Compiler Performance Triage
 
@@ -146,11 +139,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> In Rust, soundness is never just a convention.
+> Edition!
 
-– [@H2CO3 on rust-users](https://users.rust-lang.org/t/rationale-behind-fn-fnmut-and-fnonce-design/64355/11)
+– [Niko and Daphne Matsakis on YouTube](https://www.youtube.com/watch?v=q0aNduqb2Ro)
 
-Thanks to [Riccardo D'Ambrosio](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1097) for the suggestion!
+Thanks to [mark-i-m](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1102) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
