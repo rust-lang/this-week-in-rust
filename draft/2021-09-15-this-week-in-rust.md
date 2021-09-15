@@ -182,6 +182,10 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+**SecureDNA**
+
+* [Software Development Manager, Rust & Python (Remote)](https://www.securedna.org/jobs)
+
 # Quote of the Week
 
 > Edition!
