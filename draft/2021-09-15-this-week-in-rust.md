@@ -180,6 +180,12 @@ Email the [Rust Community Team][community] for access.
 * [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
 * [Senior Banking Engineer - Rust (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
+
+**Parity Technologies**
+
+* [Multiple Rust Engineering Positions Available](https://www.parity.io/jobs/)
+
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
