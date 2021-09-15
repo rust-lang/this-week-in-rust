@@ -61,7 +61,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Let's overtake go/fasthttp with rust/warp](https://medium.com/@glebpomykalov/lets-overtake-go-fasthttp-with-rust-hyper-b2d1004914f)
 * [How we built our Python Client that's mostly Rust](https://dev.to/infinyon/how-we-built-our-python-client-that-s-mostly-rust-3p63)
 * [Combining Rust and C++ code in your Bela project](https://eriknatanael.com/blog/combining-rust-and-cpp-code-in-your-bela-project)
-* [Data-oriented, clean&hexagonal architecture softwware in Rust - through an example project](https://dpc.pw/data-oriented-cleanandhexagonal-architecture-software-in-rust-through-an-example)
+* [Data-oriented, clean&hexagonal architecture software in Rust - through an example project](https://dpc.pw/data-oriented-cleanandhexagonal-architecture-software-in-rust-through-an-example)
 * [Let's build an LC-3 Virtual Machine](https://www.rodrigoaraujo.me/posts/lets-build-an-lc-3-virtual-machine/)
 * [How to think of unwrap](https://owengage.com/writing/2021-08-30-how-to-think-of-unwrap/)
 * [Learning Rust: Interfacing with C](https://piware.de/post/2021-08-27-rust-and-c/)
