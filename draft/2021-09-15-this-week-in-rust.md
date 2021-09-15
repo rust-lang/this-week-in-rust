@@ -26,6 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [video] [FLTK Rust: a new basics tutorial](https://www.youtube.com/watch?v=S1NSsHZs6hI)
 
 ### Miscellaneous
 
