@@ -26,6 +26,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+
+* [How to Write and Compile Shellcode in Rust](https://kerkour.com/blog/shellcode-in-rust/)
+* [How to implement HTTP Long Polling in Rust](https://kerkour.com/blog/rust-http-long-polling/)
 * [An experimental Diesel-based CRUD for Rocket](https://tweedegolf.nl/blog/61/an-experimental-diesel-based-crud-for-rocket)
 * [Rust cli example #2: Ferris hunts errors](https://dev.to/uggla/rust-cli-example-2-ferris-hunts-errors-116b)
 * [video] [FLTK Rust: a new basics tutorial](https://www.youtube.com/watch?v=S1NSsHZs6hI)
