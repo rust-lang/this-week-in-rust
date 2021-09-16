@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Announcing Sycamore v0.6.0: Faster and faster with plenty of fixes and features…](https://sycamore-rs.netlify.app/news/announcing-v0.6.0)
 * [SixtyFPS (GUI crate) weekly report 12th of September](https://sixtyfps.io/thisweek/2021-09-13.html)
+* [This week in Databend #7](https://datafuselabs.github.io/weekly/2021-09-15-databend-weekly/)
 * [Introducing DHCProto](https://leshow.github.io/post/dhcproto/)
 
 ### Observations/Thoughts
