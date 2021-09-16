@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
-* [video] [RustConf 2021 Video Stream] (https://www.youtube.com/watch?v=pLdCcolQsxA)
+* [video] [RustConf 2021 Video Stream](https://www.youtube.com/watch?v=pLdCcolQsxA)
 
 ### Newsletters
 
