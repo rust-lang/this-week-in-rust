@@ -183,7 +183,7 @@ Email the [Rust Community Team][community] for access.
 
 **Parity Technologies**
 
-* [Multiple Rust Engineering Positions Available](https://www.parity.io/jobs/)
+* [Multiple Rust Engineering Positions Available (Remote)](https://www.parity.io/jobs/)
 
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
