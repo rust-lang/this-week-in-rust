@@ -9,7 +9,7 @@ license](http://mit-license.org/).
 ## PRs for next issue are now being accepted
 
 To propose content for inclusion in the next newsletter (found in the `drafts/`
-folder), create a new [Pull Request][pr] updating the relevant section in the 
+folder), create a new [Pull Request](https://github.com/rust-lang/this-week-in-rust/pulls) updating the relevant section in the 
 draft.
 
 Alternately, tweet us [@thisweekinrust](https://twitter.com/thisweekinrust).

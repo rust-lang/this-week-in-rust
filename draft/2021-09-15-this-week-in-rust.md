@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
+* [video] [RustConf 2021 Video Stream](https://www.youtube.com/watch?v=pLdCcolQsxA)
+
 ### Newsletters
 
 ### Project/Tooling Updates
@@ -23,12 +25,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Announcing Sycamore v0.6.0: Faster and faster with plenty of fixes and features…](https://sycamore-rs.netlify.app/news/announcing-v0.6.0)
 * [SixtyFPS (GUI crate) weekly report 12th of September](https://sixtyfps.io/thisweek/2021-09-13.html)
 * [This week in Databend #7](https://datafuselabs.github.io/weekly/2021-09-15-databend-weekly/)
+* [Introducing DHCProto](https://leshow.github.io/post/dhcproto/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+
+* [How to Write and Compile Shellcode in Rust](https://kerkour.com/blog/shellcode-in-rust/)
+* [How to implement HTTP Long Polling in Rust](https://kerkour.com/blog/rust-http-long-polling/)
 * [An experimental Diesel-based CRUD for Rocket](https://tweedegolf.nl/blog/61/an-experimental-diesel-based-crud-for-rocket)
 * [Rust cli example #2: Ferris hunts errors](https://dev.to/uggla/rust-cli-example-2-ferris-hunts-errors-116b)
+* [Test Cases in Rust are simple to write](https://blog.knoldus.com/test-cases-in-rust-are-simple-to-write/)
 * [video] [FLTK Rust: a new basics tutorial](https://www.youtube.com/watch?v=S1NSsHZs6hI)
 
 ### Miscellaneous
@@ -181,7 +188,17 @@ Email the [Rust Community Team][community] for access.
 * [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
 * [Senior Banking Engineer - Rust (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
+
+**Parity Technologies**
+
+* [Multiple Rust Engineering Positions Available (Remote)](https://www.parity.io/jobs/)
+
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
+**SecureDNA**
+
+* [Software Development Manager, Rust & Python (Remote)](https://www.securedna.org/jobs)
 
 # Quote of the Week
 
