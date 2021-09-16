@@ -30,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 * [An experimental Diesel-based CRUD for Rocket](https://tweedegolf.nl/blog/61/an-experimental-diesel-based-crud-for-rocket)
 * [Rust cli example #2: Ferris hunts errors](https://dev.to/uggla/rust-cli-example-2-ferris-hunts-errors-116b)
+* [Test Cases in Rust are simple to write](https://blog.knoldus.com/test-cases-in-rust-are-simple-to-write/)
 * [video] [FLTK Rust: a new basics tutorial](https://www.youtube.com/watch?v=S1NSsHZs6hI)
 
 ### Miscellaneous
