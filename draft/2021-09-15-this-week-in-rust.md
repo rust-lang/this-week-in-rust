@@ -35,8 +35,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 * [Rustacean Principles](https://smallcultfollowing.com/babysteps/blog/2021/09/08/rustacean-principles/)
 * [Full Stack Rust](https://www.justinm.one/blog/2021/09/11/fullstackrust/)
-* [audio] [Rust Game Dev Podcast: Interview with Remco and Basz](https://rustgamedev.com/episodes/interview-with-remco-and-basz)
-
 * [Building Cloudflare Images in Rust and Cloudflare Workers](https://blog.cloudflare.com/building-cloudflare-images-in-rust-and-cloudflare-workers/)
 * [Zenoh performance: a stroll in Rust async wonderland](https://zenoh.io/blog/2021-07-13-zenoh-performance-async/)
 * [audio] [Rust Game Dev Podcast - Interview with Remco and Basz](https://rustgamedev.com/episodes/interview-with-remco-and-basz)
