@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Optimize Rust binaries size with cargo and Semver](https://oknozor.github.io/blog/optimize-rust-binary-size/)
+
 ### Miscellaneous
 
 ## Crate of the Week
