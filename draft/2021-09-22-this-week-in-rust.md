@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [How to use Vectors in Rust?](https://blog.knoldus.com/how-to-use-vectors-in-rust/)
 
 ### Rust Walkthroughs
 
