@@ -22,6 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [How to use Vectors in Rust?](https://blog.knoldus.com/how-to-use-vectors-in-rust/)
+* [Message Passing in Rust Threads is very helpful](https://blog.knoldus.com/message-passing-in-rust-threads-is-very-helpful/)
 
 ### Rust Walkthroughs
 
