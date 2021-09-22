@@ -14,6 +14,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
+* [SixtyFPS (GUI crate) weekly report 19th of September](https://sixtyfps.io/thisweek/2021-09-20.html)
+
 ### Official
 
 ### Newsletters
