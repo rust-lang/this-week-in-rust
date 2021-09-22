@@ -14,19 +14,28 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
+* [SixtyFPS (GUI crate) weekly report 19th of September](https://sixtyfps.io/thisweek/2021-09-20.html)
+
 ### Official
 
 ### Newsletters
 
 ### Project/Tooling Updates
 
+* [Introducing SeaORM: An async & dynamic ORM for Rust](https://www.sea-ql.org/SeaORM/blog/2021-09-20-introducing-sea-orm)
+
 ### Observations/Thoughts
+
+* [New project: Wheel of Fortune solver! (and Rust is still faster than Python)](https://gregstoll.wordpress.com/2021/09/18/new-project-wheel-of-fortune-solver-and-rust-is-still-faster-than-python/)
 
 ### Rust Walkthroughs
 
 * [Optimize Rust binaries size with cargo and Semver](https://oknozor.github.io/blog/optimize-rust-binary-size/)
+* [video] [From Python to Rust - all episodes](https://www.youtube.com/watch?v=7odJDwhjCXQ&list=PLEIv4NBmh-GsWGE9mY3sF9c5lgh5Z_jLr&ab_channel=BedroomBuilds)
 
 ### Miscellaneous
+
+[Godbolt assembly exploring without crate limitations, in Visual Studio Code](https://saveriomiroddi.github.io/Rust-lulz-godbolt-assembly-exploring-without-crate-limitations-in-visual-studio-code)
 
 ## Crate of the Week
 
