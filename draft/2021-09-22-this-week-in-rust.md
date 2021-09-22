@@ -80,6 +80,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [From Python to Rust - all episodes](https://www.youtube.com/watch?v=7odJDwhjCXQ&list=PLEIv4NBmh-GsWGE9mY3sF9c5lgh5Z_jLr&ab_channel=BedroomBuilds)
 * [video] [1 Problem, 16 Programming Languages (C++ vs Rust vs Haskell vs Python vs APL...)](https://youtu.be/UVUjnzpQKUo)
 * [video] [Explaing Rust Analyzer 15: Error Resilient Parsing](https://youtu.be/0HlrqwLjCxA)
+* [video] [Getting started with Rust 🦀 2021: 6. Library API design overhaul, async and more](https://www.youtube.com/watch?v=J_yGWdgeGQM)
 * [video] [series] [Rust for Java Developers](https://youtube.com/playlist?list=PL7r-PXl6ZPcD63DS2djSiz4SlXkaTfobc)
 
 ### Miscellaneous
@@ -220,7 +221,17 @@ Email the [Rust Community Team][community] for access.
 
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 
+**Subspace Labs**
+
+* [EVM Execution Engineer (Remote)](https://jobs.lever.co/subspacelabs/9d8f9b6d-4141-4782-923a-2872a06c723e)
+
+**Oxford Ionics**
+
+* [Software Engineer: Embedded (Begbroke, UK)](https://www.oxionics.com/software-engineer-embedded)
+* [Software Engineer: Compiler (Begbroke, UK)](https://www.oxionics.com/software-engineer-compiler)
+
 **ChainSafe**
+
 * [Protocol Engineer - Forest (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999769790643-protocol-engineer-forest-rust-)
 * [Rust Engineer - Substrate (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999769885107-rust-engineer-substrate-)
 
