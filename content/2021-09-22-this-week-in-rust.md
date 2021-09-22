@@ -262,4 +262,4 @@ Thanks to [mmmmib](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1107
 
 *This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/k5nsab/this_week_in_rust_367/)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/ptjwmc/this_week_in_rust_409/)</small>
