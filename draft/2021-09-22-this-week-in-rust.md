@@ -32,6 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [How to end-to-end encrypt all application layer communication](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/end-to-end-encrypt-all-application-layer-communication)
 * [Optimize Rust binaries size with cargo and Semver](https://oknozor.github.io/blog/optimize-rust-binary-size/)
 * [video] [From Python to Rust - all episodes](https://www.youtube.com/watch?v=7odJDwhjCXQ&list=PLEIv4NBmh-GsWGE9mY3sF9c5lgh5Z_jLr&ab_channel=BedroomBuilds)
 
