@@ -15,54 +15,24 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
-* [Announcing Rust 1.55.0](https://blog.rust-lang.org/2021/09/09/Rust-1.55.0.html)
-
-### Conferences
-* [RustFest's back, alright!](https://rustfest.world/say-hello-rustfest-global-2021)
-* [video] [RustConf 2021 Video Stream](https://www.youtube.com/watch?v=pLdCcolQsxA)
 
 ### Project/Tooling Updates
-* [rust-analyzer Changelog #94](https://rust-analyzer.github.io/thisweek/2021/09/13/changelog-94.html)
-* [IntelliJ Rust Changelog #155](https://intellij-rust.github.io/2021/09/13/changelog-155.html)
-* [Announcing Sycamore v0.6.0: Faster and faster with plenty of fixes and features…](https://sycamore-rs.netlify.app/news/announcing-v0.6.0)
-* [SixtyFPS (GUI crate) weekly report 12th of September](https://sixtyfps.io/thisweek/2021-09-13.html)
-* [This week in Databend #7](https://datafuselabs.github.io/weekly/2021-09-15-databend-weekly/)
 * [Introducing DHCProto](https://leshow.github.io/post/dhcproto/)
 * [Introducing Matchbox](https://johanhelsing.studio/posts/introducing-matchbox)
 * [Veloren 0.11 Release](https://veloren.net/release-0-11/)
-* [video] [LVC21F-317 Rust for Linux](https://youtu.be/VlSkZYBeK8Q)
 
 ### Observations/Thoughts
 * [Rustacean Principles](https://smallcultfollowing.com/babysteps/blog/2021/09/08/rustacean-principles/)
 * [Full Stack Rust](https://www.justinm.one/blog/2021/09/11/fullstackrust/)
-* [Building Cloudflare Images in Rust and Cloudflare Workers](https://blog.cloudflare.com/building-cloudflare-images-in-rust-and-cloudflare-workers/)
-* [Zenoh performance: a stroll in Rust async wonderland](https://zenoh.io/blog/2021-07-13-zenoh-performance-async/)
-* [audio] [Rust Game Dev Podcast - Interview with Remco and Basz](https://rustgamedev.com/episodes/interview-with-remco-and-basz)
 
 ### Rust Walkthroughs
-* [How to Write and Compile Shellcode in Rust](https://kerkour.com/blog/shellcode-in-rust/)
-* [How to implement HTTP Long Polling in Rust](https://kerkour.com/blog/rust-http-long-polling/)
-* [An experimental Diesel-based CRUD for Rocket](https://tweedegolf.nl/blog/61/an-experimental-diesel-based-crud-for-rocket)
-* [Rust cli example #2: Ferris hunts errors](https://dev.to/uggla/rust-cli-example-2-ferris-hunts-errors-116b)
-* [Test Cases in Rust are simple to write](https://blog.knoldus.com/test-cases-in-rust-are-simple-to-write/)
-* [Full-stack sum types with typeScript, Rust, and Postgres](https://vincepergolizzi.com/programming/2021/09/08/full-stack-sum-types-with-typescript-rust-and-postgres.html)
-* [Tokio stack overview: Runtime](https://dev.to/rogertorres/rust-tokio-stack-overview-runtime-9fh)
-* [Rust cli example #2: Ferris hunts errors](https://dev.to/uggla/rust-cli-example-2-ferris-hunts-errors-116b)
 * [Combining Axum, Hyper, Tonic, and Tower for hybrid web/gRPC apps: Part 2](https://www.fpcomplete.com/blog/axum-hyper-tonic-tower-part2/)
-* [Combining Axum, Hyper, Tonic, and Tower for hybrid web/gRPC apps: Part 3](https://www.fpcomplete.com/blog/axum-hyper-tonic-tower-part3/)
 * [First steps with an Arduino board and Rust](https://hoj-senna.github.io/HShhss/texts/001arduino1.html)
-* [LLVM internals, part 3: from bitcode to IR](https://blog.yossarian.net/2021/09/14/LLVM-internals-part-3-from-bitcode-to-IR)
 * [video] [FLTK Rust: a new basics tutorial](https://www.youtube.com/watch?v=S1NSsHZs6hI)
 * [video] [1 Problem, 16 Programming Languages (C++ vs Rust vs Haskell vs Python vs APL...)](https://youtu.be/UVUjnzpQKUo)
-* [video] [Rust for Java Developers - Introduction [Beginners]](https://www.youtube.com/watch?v=iFdh4sPC5Tg)
-* [video] [Rust for Linux](https://www.youtube.com/watch?v=VlSkZYBeK8Q)
 
 ### Miscellaneous
-* [Native Rust support on Cloudflare Workers](https://blog.cloudflare.com/workers-rust-sdk/)
-* [Launching Porta Ecosystem Grants](https://portanetwork.medium.com/launching-porta-ecosystem-grants-to-grow-its-network-7f82262d4260)
 * [What libraries do you miss from other languages?](https://www.reddit.com/r/rust/comments/pm4xe9/what_libraries_do_you_miss_from_other_languages/)
-* [Tried to re-write a C++ NES Emulator in Rust, now it runs more than 5 times slower (Yes I'm compiling with --release)](https://www.reddit.com/r/rust/comments/pmo2l5/tried_to_rewrite_a_c_nes_emulator_in_rust_now_it/)
-* [I refuse to let Amazon define Rust](https://www.reddit.com/r/rust/comments/pnip0t/i_refuse_to_let_amazon_define_rust/)
 * [video] [Wrote a neat little maze solver. Largest solved so far is 125k x 125k. Here's a smaller 512x512](https://www.reddit.com/r/rust/comments/pl7n8a/media_wrote_a_neat_little_maze_solver_largest/?utm_source=share&utm_medium=web2x&context=3)
 
 ## Crate of the Week
