@@ -35,6 +35,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [How to end-to-end encrypt all application layer communication](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/end-to-end-encrypt-all-application-layer-communication)
 * [Rust on ESP32](https://kerkour.com/blog/rust-on-esp32)
 * [How to compile Rust and LLVM for ESP32 on a Raspberry Pi](https://kerkour.com/blog/compile-rust-for-esp32-xtensa-on-raspberry-pi-aarch64/)
 * [Optimize Rust binaries size with cargo and Semver](https://oknozor.github.io/blog/optimize-rust-binary-size/)
