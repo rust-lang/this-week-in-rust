@@ -40,6 +40,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Experimenting Is Underway For Rust Code Within Mesa](https://www.phoronix.com/scan.php?page=news_item&px=Mesa-Rust-2021-Experiment)
 * [Goscript is now language feature complete](https://www.reddit.com/r/rust/comments/pqiiw1/goscript_is_now_language_feature_complete/)
 * [An update on Memory Safety in Chrome](https://security.googleblog.com/2021/09/an-update-on-memory-safety-in-chrome.html?m=1)
+* [This week in Databend #8](https://datafuselabs.github.io/weekly/2021-09-22-databend-weekly/)
 
 ### Observations/Thoughts
 * [How to use Vectors in Rust?](https://blog.knoldus.com/how-to-use-vectors-in-rust/)
@@ -54,6 +55,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust on the MOS 6502: Beyond Fibonacci](https://gergo.erdi.hu/blog/2021-09-18-rust_on_the_mos_6502__beyond_fibonacci/)
 * [Rocket: A Web Framework for Rust](https://tech.marksblogg.com/rocket-rust-web-framework.html)
 * [Oxidizing Kraken: Improving Kraken Infrastructure Using Rust](https://blog.kraken.com/post/7964/oxidizing-kraken-improving-kraken-infrastructure-using-rust/)
+* [Tricky compatibility issue - recent changes to `std::io::ErrorKind`](https://diziet.dreamwidth.org/9894.html)
 * [audio] [Flutter/Rust Roundtable - Flying High with Flutter #24](https://youtu.be/SsZUicpnpVE)
 * [audio] [Rustacean Station: From Zero to Production with Luca Palmieri](https://rustacean-station.org/episode/036-luca-palmieri/)
 * [audio] [AreWePodcastYet 08 with Jon Ferdinand Ronge Gjenset](https://soundcloud.com/arewepodcastyet/awpy-08-jon-ferdinand-ronge-gjengset)
@@ -62,6 +64,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [In-kernel, fast-path packet processing with AF_XDP @ Rust DC w/ Collins Huff](https://youtu.be/Gv-nG6F_09I)
 
 ### Rust Walkthroughs
+* [How to end-to-end encrypt all application layer communication](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/end-to-end-encrypt-all-application-layer-communication)
+* [Rust on ESP32](https://kerkour.com/blog/rust-on-esp32)
+* [How to compile Rust and LLVM for ESP32 on a Raspberry Pi](https://kerkour.com/blog/compile-rust-for-esp32-xtensa-on-raspberry-pi-aarch64/)
 * [Optimize Rust binaries size with cargo and Semver](https://oknozor.github.io/blog/optimize-rust-binary-size/)
 * [Combining Axum, Hyper, Tonic, and Tower for hybrid web/gRPC apps: Part 2](https://www.fpcomplete.com/blog/axum-hyper-tonic-tower-part2)
 * [Combining Axum, Hyper, Tonic, and Tower for hybrid web/gRPC apps: Part 3](https://www.fpcomplete.com/blog/axum-hyper-tonic-tower-part3)
