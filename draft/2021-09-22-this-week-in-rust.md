@@ -80,6 +80,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [From Python to Rust - all episodes](https://www.youtube.com/watch?v=7odJDwhjCXQ&list=PLEIv4NBmh-GsWGE9mY3sF9c5lgh5Z_jLr&ab_channel=BedroomBuilds)
 * [video] [1 Problem, 16 Programming Languages (C++ vs Rust vs Haskell vs Python vs APL...)](https://youtu.be/UVUjnzpQKUo)
 * [video] [Explaing Rust Analyzer 15: Error Resilient Parsing](https://youtu.be/0HlrqwLjCxA)
+* [video] [Getting started with Rust 🦀 2021: 6. Library API design overhaul, async and more](https://www.youtube.com/watch?v=J_yGWdgeGQM)
 * [video] [series] [Rust for Java Developers](https://youtube.com/playlist?list=PL7r-PXl6ZPcD63DS2djSiz4SlXkaTfobc)
 
 ### Miscellaneous
@@ -111,6 +112,9 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [ockam-network/ockam - Ockam TCP Transport using smoltcp](https://github.com/ockam-network/ockam/issues/1804)
+* [ockam-network/ockam - File Transfer over end-to-end encrypted secure channels](https://github.com/ockam-network/ockam/issues/1624)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -173,8 +177,7 @@ Revision range: [9f85cd6f2..7743c9f](https://perf.rust-lang.org/?start=9f85cd6f2
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Rust-lang crate ownership policy](https://github.com/rust-lang/rfcs/pull/3119)
-* [Scrape code examples from examples/ directory for Rustdoc](https://github.com/rust-lang/rfcs/pull/3123)
+* [RFC: Supertrait item shadowing](https://github.com/rust-lang/rfcs/pull/2845)
 
 ### Final Comment Period
 
@@ -188,23 +191,34 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+
+* [disposition: merge] [Stabilize RFC 2345: Allow panicking in constants](https://github.com/rust-lang/rust/issues/89006)
+* [disposition: merge] [Perform type inference in range pattern](https://github.com/rust-lang/rust/pull/88090)
 * [disposition: close] [Disable unused_must_use for statically known bools](https://github.com/rust-lang/rust/pull/88028)
+* [disposition: merge] [Decide whether asm! and/or global_asm! should be exported from the prelude.](https://github.com/rust-lang/rust/issues/87228)
 * [disposition: merge] [Make #[derive(A, B, ...)] cfg-eval its input only for A, B, ... and stabilize feature(macro_attributes_in_derive_output)](https://github.com/rust-lang/rust/pull/87220)
 * [disposition: merge] [Make `*const (), *mut ()` okay for FFI](https://github.com/rust-lang/rust/pull/84267)
-* [disposition: merge] [Tracking issue Iterator map_while](https://github.com/rust-lang/rust/issues/68537)
 
 ### New RFCs
 
-*No new RFCs were proposed this week.*
+* [[Help wanted] First draft of patchfile RFC](https://github.com/rust-lang/rfcs/pull/3177)
+* [Multiple artifact deps on the same crate with different names, for different targets](https://github.com/rust-lang/rfcs/pull/3176)
 
 ## Upcoming Events
 
 ### Online
 
-* [September 15, 2021, Vancouver, BC, CA - Considering Rust - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsyccmbtb/)
-* [September 16, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
-* [September 18, 2021, Tokyo, JP - Rust.Tokyo 2021](https://rust.tokyo/)
 * [September 28, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccmblc/)
+* [October 2, 2021 - Rust Graphics meetup](https://github.com/gfx-rs/meetup)
+* [October 5, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/280628523/)
+
+### North America
+
+* [October 13, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/lhpkmsyccnbrb/)
+
+### Europe
+
+* [September 22, 2021, Berlin, DE - Rust and Tell - an onsite event - Berline.rs](https://berline.rs/)
 
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -220,7 +234,17 @@ Email the [Rust Community Team][community] for access.
 
 * [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
 
+**Subspace Labs**
+
+* [EVM Execution Engineer (Remote)](https://jobs.lever.co/subspacelabs/9d8f9b6d-4141-4782-923a-2872a06c723e)
+
+**Oxford Ionics**
+
+* [Software Engineer: Embedded (Begbroke, UK)](https://www.oxionics.com/software-engineer-embedded)
+* [Software Engineer: Compiler (Begbroke, UK)](https://www.oxionics.com/software-engineer-compiler)
+
 **ChainSafe**
+
 * [Protocol Engineer - Forest (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999769790643-protocol-engineer-forest-rust-)
 * [Rust Engineer - Substrate (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999769885107-rust-engineer-substrate-)
 
