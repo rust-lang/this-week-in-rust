@@ -97,9 +97,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [qcell](https://github.com/uazu/qcell), with a type that works like a compile-time `RefCell`.
+This week's crate is [flowistry](https://github.com/willcrichton/flowistry), a VS code extension to visualize data flow in Rust code.
 
-Thanks to [Soni L.](https://users.rust-lang.org/t/crate-of-the-week/2704/952) for the suggestion!
+Thanks to [Willi Kappler](https://users.rust-lang.org/t/crate-of-the-week/2704/963) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -118,26 +118,42 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from Rust Core
 
-278 pull requests were [merged in the last week][merged]
+256 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-09-06..2021-09-13
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-09-13..2021-09-20
 
-* [fix ICE for functions with more than 65535 arguments](https://github.com/rust-lang/rust/pull/88733)
-* [detect stricter constraints on gats where clauses in impls vs trait](https://github.com/rust-lang/rust/pull/88336)
-* [ignore derived `Clone` and `Debug` implementations during dead code analysis](https://github.com/rust-lang/rust/pull/85200)
-* [fix non-capturing closure return type coercion](https://github.com/rust-lang/rust/pull/88147)
-* [suggest items be borrowed in `for i in items[x..]`](https://github.com/rust-lang/rust/pull/88578)
-* [suggest wrapping expr in parentheses on invalid unary negation](https://github.com/rust-lang/rust/pull/88757)
-* [improve error message when `_` is used for in/inout `asm` operands](https://github.com/rust-lang/rust/pull/88209)
-* [emit suggestion when passing byte literal to `format!` macro](https://github.com/rust-lang/rust/pull/87441)
-* [use smaller spans for some structured suggestions](https://github.com/rust-lang/rust/pull/87915)
-* [use more correct span data in `for` loop desugaring](https://github.com/rust-lang/rust/pull/88214)
-* [use `FxHashSet` instead of `Vec` for well formed tys](https://github.com/rust-lang/rust/pull/88771)
-* [`mmap` the incremental data instead of reading it](https://github.com/rust-lang/rust/pull/83214)
-* [`BTreeMap`/`BTreeSet::from_iter`: use bulk building to improve the performance](https://github.com/rust-lang/rust/pull/88448)
-* [add `proc_macro::Span::`{`before`, `after`}](https://github.com/rust-lang/rust/pull/86165)
-* [hashbrown: `insert_unique_unchecked` operation](https://github.com/rust-lang/hashbrown/pull/293)
-* [clippy: add new lint `iter_not_returning_iterator`](https://github.com/rust-lang/rust-clippy/pull/7610)
+* [ARMv6K Nintendo 3DS Tier 3 target added](https://github.com/rust-lang/rust/pull/88529)
+* [add initial support for m68k](https://github.com/rust-lang/rust/pull/88321)
+* [disable the evaluation cache when in intercrate mode](https://github.com/rust-lang/rust/pull/88994)
+* [use a separate interner type for `UniqueTypeId`](https://github.com/rust-lang/rust/pull/87867)
+* [accept `m!{ .. }.method()` and `m!{ .. }?` statements](https://github.com/rust-lang/rust/pull/88690)
+* [recover from `Foo(a: 1, b: 2)`](https://github.com/rust-lang/rust/pull/88729)
+* [emit clearer diagnostics for parens around for loop heads](https://github.com/rust-lang/rust/pull/86422)
+* [make diagnostics clearer for `?` operators](https://github.com/rust-lang/rust/pull/86382)
+* [improve error message for type mismatch in generator arguments](https://github.com/rust-lang/rust/pull/88911)
+* [improve error message for missing trait in trait impl](https://github.com/rust-lang/rust/pull/88894)
+* [add a separate error for `dyn Trait` in `const fn`](https://github.com/rust-lang/rust/pull/89021)
+* [suggest replacing an inexisting field for an unmentioned field](https://github.com/rust-lang/rust/pull/87960)
+* [suggest better place to add call parentheses for method expressions wrapped in parentheses](https://github.com/rust-lang/rust/pull/89055)
+* [suggest removing bad parens in `(recv.method)()`](https://github.com/rust-lang/rust/pull/88841)
+* [suggest removing `#![feature]` for library features that have been stabilized](https://github.com/rust-lang/rust/pull/89012)
+* [don't lint about missing code examples in derived traits](https://github.com/rust-lang/rust/pull/88735)
+* [point at argument instead of call for their obligations](https://github.com/rust-lang/rust/pull/88719)
+* [reuse existing shared `Lrc` for `MatchImpl` parent](https://github.com/rust-lang/rust/pull/89000)
+* [fast reject for `NeedsNonConstDrop`](https://github.com/rust-lang/rust/pull/88965)
+* [simplify lazy `DefPathHash` decoding by using an on-disk hash table](https://github.com/rust-lang/rust/pull/82183)
+* [avoid codegen for `Result::into_ok` in `lang_start`](https://github.com/rust-lang/rust/pull/88988)
+* [use `<[T; N]>::map` in `Sharded` instead of `SmallVec` and unsafe code](https://github.com/rust-lang/rust/pull/89069)
+* [introduce a fast path that avoids the `debug_tuple` abstraction when deriving `Debug` for unit-like enum variants](https://github.com/rust-lang/rust/pull/88832)
+* [make `UnsafeCell::get_mut` const](https://github.com/rust-lang/rust/pull/88722)
+* [`const` `drop`](https://github.com/rust-lang/rust/pull/88558)
+* [don't inline `OnceCell` initialization closures](https://github.com/rust-lang/rust/pull/89031)
+* [allow `panic!("{}", computed_str)` in `const fn`](https://github.com/rust-lang/rust/pull/88954)
+* [fix potential race in `AtomicU64` time monotonizer](https://github.com/rust-lang/rust/pull/89017)
+* [futures: fix Unusable `Sink` implementation on `Scan`](https://github.com/rust-lang/futures-rs/pull/2499)
+* [clippy: change `while_let_on_iterator` suggestion to use `by_ref()`](https://github.com/rust-lang/rust-clippy/pull/7690)
+* [clippy: improve accuracy of `mut_key`](https://github.com/rust-lang/rust-clippy/pull/7640)
+* [clippy: new lint: `same_name_method`](https://github.com/rust-lang/rust-clippy/pull/7653)
 
 ### Rust Compiler Performance Triage
 
@@ -212,11 +228,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Edition!
+> the strains of the project have hurt a lot of people over the years and I think maybe the only path to recovery involves getting some distance from it.
 
-– [Niko and Daphne Matsakis on YouTube](https://www.youtube.com/watch?v=q0aNduqb2Ro)
+– [Graydon Hoare on twitter](https://twitter.com/graydon_pub/status/1437521319722029056)
 
-Thanks to [mark-i-m](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1102) for the suggestion!
+Thanks to [mmmmib](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1107) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
