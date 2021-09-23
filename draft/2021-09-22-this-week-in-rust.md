@@ -30,6 +30,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [New project: Wheel of Fortune solver! (and Rust is still faster than Python)](https://gregstoll.wordpress.com/2021/09/18/new-project-wheel-of-fortune-solver-and-rust-is-still-faster-than-python/)
 
+* [Tricky compatibility issue - recent changes to `std::io::ErrorKind`](https://diziet.dreamwidth.org/9894.html)
+
 ### Rust Walkthroughs
 
 * [Rust on ESP32](https://kerkour.com/blog/rust-on-esp32)
