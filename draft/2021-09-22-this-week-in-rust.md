@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 * [Introducing SeaORM: An async & dynamic ORM for Rust](https://www.sea-ql.org/SeaORM/blog/2021-09-20-introducing-sea-orm)
+* [This week in Databend #8](https://datafuselabs.github.io/weekly/2021-09-22-databend-weekly/)
 
 ### Observations/Thoughts
 * [How to use Vectors in Rust?](https://blog.knoldus.com/how-to-use-vectors-in-rust/)
@@ -30,9 +31,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [New project: Wheel of Fortune solver! (and Rust is still faster than Python)](https://gregstoll.wordpress.com/2021/09/18/new-project-wheel-of-fortune-solver-and-rust-is-still-faster-than-python/)
 
+* [Tricky compatibility issue - recent changes to `std::io::ErrorKind`](https://diziet.dreamwidth.org/9894.html)
+
 ### Rust Walkthroughs
 
 * [How to end-to-end encrypt all application layer communication](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/end-to-end-encrypt-all-application-layer-communication)
+* [Rust on ESP32](https://kerkour.com/blog/rust-on-esp32)
+* [How to compile Rust and LLVM for ESP32 on a Raspberry Pi](https://kerkour.com/blog/compile-rust-for-esp32-xtensa-on-raspberry-pi-aarch64/)
 * [Optimize Rust binaries size with cargo and Semver](https://oknozor.github.io/blog/optimize-rust-binary-size/)
 * [video] [From Python to Rust - all episodes](https://www.youtube.com/watch?v=7odJDwhjCXQ&list=PLEIv4NBmh-GsWGE9mY3sF9c5lgh5Z_jLr&ab_channel=BedroomBuilds)
 
