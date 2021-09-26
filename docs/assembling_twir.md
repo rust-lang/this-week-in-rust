@@ -58,6 +58,8 @@ These are collected using GitHub queries:
 
 These are collected from the [Rust Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=apd9vmbc22egenmtu5l6c5jbfc@group.calendar.google.com). We generally only feature events that are upcoming in the next 14 days.
 
+Most events include a meetup link, it's important to follow the link and check the date on the meetup page. If the date on the meetup page is different from the date on the calendar, the date on the meetup page should take precedence.
+
 ## Jobs
 
 This section is currently filled by requests on Twitter and incoming pull requests into this repo.
