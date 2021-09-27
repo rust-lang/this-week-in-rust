@@ -120,7 +120,7 @@ Revision range: [7743c9..83f147](https://perf.rust-lang.org/?start=7743c9fadd648
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC: Supertrait item shadowing](https://github.com/rust-lang/rfcs/pull/2845)
+*No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -134,33 +134,32 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-
+* [disposition: merge] [Tracking Issue for saturating_div](https://github.com/rust-lang/rust/issues/89381)
+* [disposition: merge] [Avoid allocations and copying in `Vec::leak`](https://github.com/rust-lang/rust/pull/89337)
 * [disposition: merge] [Stabilize RFC 2345: Allow panicking in constants](https://github.com/rust-lang/rust/issues/89006)
 * [disposition: merge] [Perform type inference in range pattern](https://github.com/rust-lang/rust/pull/88090)
-* [disposition: close] [Disable unused_must_use for statically known bools](https://github.com/rust-lang/rust/pull/88028)
-* [disposition: merge] [Decide whether asm! and/or global_asm! should be exported from the prelude.](https://github.com/rust-lang/rust/issues/87228)
-* [disposition: merge] [Make #[derive(A, B, ...)] cfg-eval its input only for A, B, ... and stabilize feature(macro_attributes_in_derive_output)](https://github.com/rust-lang/rust/pull/87220)
-* [disposition: merge] [Make `*const (), *mut ()` okay for FFI](https://github.com/rust-lang/rust/pull/84267)
+* [disposition: merge] [Tracking issue for `proc_macro::is_available()`](https://github.com/rust-lang/rust/issues/71436)
+* [disposition: close] [Tracking issue for `alloc::prelude`](https://github.com/rust-lang/rust/issues/58935)
 
 ### New RFCs
 
-* [[Help wanted] First draft of patchfile RFC](https://github.com/rust-lang/rfcs/pull/3177)
-* [Multiple artifact deps on the same crate with different names, for different targets](https://github.com/rust-lang/rfcs/pull/3176)
+*No new RFCs were proposed this week.*
 
 ## Upcoming Events
 
 ### Online
 
+* [September 30, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 * [October 2, 2021 - Rust Graphics meetup](https://github.com/gfx-rs/meetup)
 * [October 5, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/280628523/)
+* [October 7, 2021, Zürich, CH - Rust & GUI: egui - Rust Zürichsee](https://www.meetup.com/Rust-Zurich/events/280399418/)
+* [October 9, 2021 - Rust Gamedev Discord - Rust Gamedev Monthly Meetup](https://discord.gg/yNtPTb2)
+* [October 12, 2021, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccnbqb/)
+* [October 13, 2021 - betterCode Rust](https://rust.bettercode.eu/)
 
 ### North America
 
 * [October 13, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/lhpkmsyccnbrb/)
-
-### Europe
-
-* [September 22, 2021, Berlin, DE - Rust and Tell - an onsite event - Berline.rs](https://berline.rs/)
 
 
 If you are running a Rust event please add it to the [calendar] to get
