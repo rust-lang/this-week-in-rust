@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
+* [Core team membership updates](https://blog.rust-lang.org/2021/09/27/Core-team-membership-updates.html)
 * [Rust Foundation Member Spotlight: Open Source Security](https://foundation.rust-lang.org/posts/2021-09-21-member-spotlight-open-source-security-software/)
 
 ### Project/Tooling Updates
@@ -23,22 +24,33 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [SixtyFPS (GUI crate) weekly update for 27th of September 2021](https://sixtyfps.io/thisweek/2021-09-27.html)
 * [This week in Fluvio #6: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0006/)
 * [This week in Databend #9: an elastic and reliable cloud warehouse](https://datafuselabs.github.io/weekly/2021-09-29-databend-weekly/)
+* [IntelliJ Rust Changelog #156](https://intellij-rust.github.io/2021/09/27/changelog-156.html)
+* [Rust Analyzer #96](https://rust-analyzer.github.io/thisweek/2021/09/27/changelog-96.html)
 
 ### Observations/Thoughts
 
 - [Common Newbie Mistakes and Bad PRactices in Rust: Bad Habits](https://adventures.michaelfbryan.com/posts/rust-best-practices/bad-habits/)
 - [Why Rust in medical imaging? A reflection on modern technologies for next generation systems](https://www.bmd-software.com/news/why-rust-in-medical-imaging-a-reflection-on-modern-technologies-for-next-generation-systems)
+* [Why we built a custom Rust library for Capture](https://dropbox.tech/application/why-we-built-a-custom-rust-library-for-capture)
+* [audio] [Rust for Rustaceans by Jon Gjengset](https://rustacean-station.org/episode/038-jon-gjengset/)
+* [video] [Rust Talks at the Linux Plumbers Conference 2021](https://www.reddit.com/r/rust/comments/pxz7at/rustlinux_plumbers_conference_2021/)
 
 ### Rust Walkthroughs
 
 * [Building a static site generator in 100 lines of Rust](https://kerkour.com/blog/rust-static-site-generator/)
 * [STM32F3’s Magnetometer | Use-cases & Reading Extraction (Part-1)](https://blog.knoldus.com/stm32f3-magnetometer-use-cases-reading-extraction-part-1/)
 * [Reproducible cross-compilation for Rust (with Docker)](https://kerkour.com/blog/rust-reproducible-cross-compilation-with-docker/)
+* [Rust Brain Teasers](https://www.pragprog.com/titles/hwrustbrain/rust-brain-teasers/)
+* [Writing embedded firmware using Rust](https://www.anyleaf.org/blog/writing-embedded-firmware-using-rust)
+* [Using Rust Cloudflare Workers: Serverless hCaptcha](https://dev.to/askrodney/using-rust-cloudflare-workers-serverless-hcaptcha-358g)
+* [Deploy an ultra-fast blog in minutes with Eleventy and AssemblyLift (WebAssembly + Lambda + API Gateway + Rust)](https://dev.to/akkoro/deploy-an-ultra-fast-blog-in-minutes-with-eleventy-and-assemblylift-webassembly-lambda-api-gateway-rust-568l)
+* [PT] [Rust - Ownership ?](https://dev.to/higordiego/rust-ownership-1hka)
 * [video] [Hacking on rustc - Negative literals in indexing expressions](https://www.youtube.com/watch?v=OGihuce8rl8)
 * [video] [Getting started with Rust 🦀 2021: 6. Library API design overhaul, async and more](https://www.youtube.com/watch?v=J_yGWdgeGQM)
 
 ### Miscellaneous
 
+* [GitHub Advisory Database now supports Rust](https://github.blog/2021-09-23-github-advisory-database-now-supports-rust/)
 * [_Rust for the Polyglot Programmer_ - introducing a new guide to the language](https://www.chiark.greenend.org.uk/~ianmdlvl/rust-polyglot/index.html)
 * [DE] [Modernes Rust im Jahr 2021 @ Gesellschaft für Informatik](https://rg-rhein-main.gi.de/veranstaltung/modernes-rust-im-jahr-2021)
 
@@ -139,7 +151,6 @@ decision. Express your opinions now.
 
 ### Online
 
-* [September 28, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccmblc/)
 * [October 2, 2021 - Rust Graphics meetup](https://github.com/gfx-rs/meetup)
 * [October 5, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/280628523/)
 
