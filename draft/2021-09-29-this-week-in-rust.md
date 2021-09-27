@@ -34,6 +34,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Building a static site generator in 100 lines of Rust](https://kerkour.com/blog/rust-static-site-generator/)
 * [STM32F3’s Magnetometer | Use-cases & Reading Extraction (Part-1)](https://blog.knoldus.com/stm32f3-magnetometer-use-cases-reading-extraction-part-1/)
 * [Reproducible cross-compilation for Rust (with Docker)](https://kerkour.com/blog/rust-reproducible-cross-compilation-with-docker/)
+* [video] [Hacking on rustc - Negative literals in indexing expressions](https://www.youtube.com/watch?v=OGihuce8rl8)
+* [video] [Getting started with Rust 🦀 2021: 6. Library API design overhaul, async and more](https://www.youtube.com/watch?v=J_yGWdgeGQM)
 
 ### Miscellaneous
 
@@ -159,13 +161,28 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Enso**
+
+* [Senior Rust Developer (Remote)](https://github.com/enso-org/hiring/blob/main/people/senior-rust-developer.md)
+
+**Stockly**
+
+* [Back-end developer - Engine team (Rust, GRPC, PostgreSQL) (Remote)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
+
 **Timescale**
 
 * [Senior Toolkit Engineer - Database (Remote)](https://boards.greenhouse.io/timescale/jobs/5542785002)
 
 **ChainSafe**
+
 * [Protocol Engineer for Filecoin Forest (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999769790643-protocol-engineer-forest-rust-)
 * [Rust Engineer for Substrate (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999769885107-rust-engineer-substrate-)
+
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Senior Banking Engineer - Rust (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
