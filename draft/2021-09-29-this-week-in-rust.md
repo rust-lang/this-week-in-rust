@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+- [Common Newbie Mistakes and Bad PRactices in Rust: Bad Habits](https://adventures.michaelfbryan.com/posts/rust-best-practices/bad-habits/)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
