@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [SixtyFPS (GUI crate) weekly update for 27th of September 2021](https://sixtyfps.io/thisweek/2021-09-27.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
