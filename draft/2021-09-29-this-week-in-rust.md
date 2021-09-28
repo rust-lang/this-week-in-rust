@@ -22,6 +22,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Building a static site generator in 100 lines of Rust](https://kerkour.com/blog/rust-static-site-generator/)
+* [Reproductible cross-compilation for Rust (with Docker)](https://kerkour.com/blog/rust-reproductible-cross-compilation-with-docker/)
+
 ### Miscellaneous
 
 ## Crate of the Week
