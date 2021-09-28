@@ -144,6 +144,7 @@ decision. Express your opinions now.
 ### Europe
 
 * [September 22, 2021, Berlin, DE - Rust and Tell - an onsite event - Berline.rs](https://berline.rs/)
+* [October 26, 2021, DE - Modernes Rust im Jahr 2021 @ Gesellschaft für Informatik - online](https://rg-rhein-main.gi.de/veranstaltung/modernes-rust-im-jahr-2021)
 
 
 If you are running a Rust event please add it to the [calendar] to get
