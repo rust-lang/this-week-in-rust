@@ -155,6 +155,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**ChainSafe**
+* [Protocol Engineer for Filecoin Forest (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999769790643-protocol-engineer-forest-rust-)
+* [Rust Engineer for Substrate (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999769885107-rust-engineer-substrate-)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
