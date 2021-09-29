@@ -16,11 +16,21 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
+* [Rust Foundation Member Spotlight: Open Source Security](https://foundation.rust-lang.org/posts/2021-09-21-member-spotlight-open-source-security-software/)
+
 ### Project/Tooling Updates
+
+* [SixtyFPS (GUI crate) weekly update for 27th of September 2021](https://sixtyfps.io/thisweek/2021-09-27.html)
+* [This week in Fluvio #6: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0006/)
 
 ### Observations/Thoughts
 
+- [Common Newbie Mistakes and Bad PRactices in Rust: Bad Habits](https://adventures.michaelfbryan.com/posts/rust-best-practices/bad-habits/)
+
 ### Rust Walkthroughs
+
+* [Building a static site generator in 100 lines of Rust](https://kerkour.com/blog/rust-static-site-generator/)
+* [Reproductible cross-compilation for Rust (with Docker)](https://kerkour.com/blog/rust-reproductible-cross-compilation-with-docker/)
 
 ### Miscellaneous
 
@@ -154,6 +164,10 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Timescale**
+
+* [Senior Toolkit Engineer - Database (Remote)](https://boards.greenhouse.io/timescale/jobs/5542785002)
 
 **ChainSafe**
 * [Protocol Engineer for Filecoin Forest (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999769790643-protocol-engineer-forest-rust-)
