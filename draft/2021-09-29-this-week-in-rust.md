@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 * [SixtyFPS (GUI crate) weekly update for 27th of September 2021](https://sixtyfps.io/thisweek/2021-09-27.html)
+* [This week in Fluvio #6: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0006/)
 
 ### Observations/Thoughts
 
@@ -156,6 +157,10 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Timescale**
+
+* [Senior Toolkit Engineer - Database (Remote)](https://boards.greenhouse.io/timescale/jobs/5542785002)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
