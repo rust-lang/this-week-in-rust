@@ -34,6 +34,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [_Rust for the Polyglot Programmer_ - introducing a new guide to the language](https://diziet.dreamwidth.org/10210.html)
+
 ## Crate of the Week
 
 This week's crate is [flowistry](https://github.com/willcrichton/flowistry), a VS code extension to visualize data flow in Rust code.
