@@ -31,6 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Building a static site generator in 100 lines of Rust](https://kerkour.com/blog/rust-static-site-generator/)
 * [Reproductible cross-compilation for Rust (with Docker)](https://kerkour.com/blog/rust-reproductible-cross-compilation-with-docker/)
+* [STM32F3’s Magnetometer | Use-cases & Reading Extraction (Part-1)](https://blog.knoldus.com/stm32f3-magnetometer-use-cases-reading-extraction-part-1/)
 
 ### Miscellaneous
 
