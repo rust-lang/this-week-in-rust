@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
+* [Rust Foundation Member Spotlight: Open Source Security](https://foundation.rust-lang.org/posts/2021-09-21-member-spotlight-open-source-security-software/)
+
 ### Project/Tooling Updates
 
 * [SixtyFPS (GUI crate) weekly update for 27th of September 2021](https://sixtyfps.io/thisweek/2021-09-27.html)
