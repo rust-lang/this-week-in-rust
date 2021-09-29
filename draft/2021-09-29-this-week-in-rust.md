@@ -26,6 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 - [Common Newbie Mistakes and Bad PRactices in Rust: Bad Habits](https://adventures.michaelfbryan.com/posts/rust-best-practices/bad-habits/)
+- [Why Rust in medical imaging? A reflection on modern technologies for next generation systems](https://www.bmd-software.com/news/why-rust-in-medical-imaging-a-reflection-on-modern-technologies-for-next-generation-systems)
 
 ### Rust Walkthroughs
 
