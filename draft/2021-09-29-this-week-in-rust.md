@@ -34,7 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
-* [_Rust for the Polyglot Programmer_ - introducing a new guide to the language](https://diziet.dreamwidth.org/10210.html)
+* [_Rust for the Polyglot Programmer_ - introducing a new guide to the language](https://www.chiark.greenend.org.uk/~ianmdlvl/rust-polyglot/index.html)
 
 ## Crate of the Week
 
