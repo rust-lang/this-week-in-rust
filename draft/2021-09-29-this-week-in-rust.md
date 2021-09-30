@@ -55,7 +55,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
-## Updates from Rust Core
+## Updates from the Rust Project
 
 256 pull requests were [merged in the last week][merged]
 
