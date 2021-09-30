@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
+* [Core team membership updates](https://blog.rust-lang.org/2021/09/27/Core-team-membership-updates.html)
 * [Rust Foundation Member Spotlight: Open Source Security](https://foundation.rust-lang.org/posts/2021-09-21-member-spotlight-open-source-security-software/)
 
 ### Project/Tooling Updates
@@ -23,20 +24,33 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [SixtyFPS (GUI crate) weekly update for 27th of September 2021](https://sixtyfps.io/thisweek/2021-09-27.html)
 * [This week in Fluvio #6: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0006/)
 * [This week in Databend #9: an elastic and reliable cloud warehouse](https://datafuselabs.github.io/weekly/2021-09-29-databend-weekly/)
+* [IntelliJ Rust Changelog #156](https://intellij-rust.github.io/2021/09/27/changelog-156.html)
+* [Rust Analyzer #96](https://rust-analyzer.github.io/thisweek/2021/09/27/changelog-96.html)
 
 ### Observations/Thoughts
 
-- [Common Newbie Mistakes and Bad PRactices in Rust: Bad Habits](https://adventures.michaelfbryan.com/posts/rust-best-practices/bad-habits/)
-- [Why Rust in medical imaging? A reflection on modern technologies for next generation systems](https://www.bmd-software.com/news/why-rust-in-medical-imaging-a-reflection-on-modern-technologies-for-next-generation-systems)
+* [Common Newbie Mistakes and Bad Practices in Rust: Bad Habits](https://adventures.michaelfbryan.com/posts/rust-best-practices/bad-habits/)
+* [Why Rust in medical imaging? A reflection on modern technologies for next generation systems](https://www.bmd-software.com/news/why-rust-in-medical-imaging-a-reflection-on-modern-technologies-for-next-generation-systems)
+* [Why we built a custom Rust library for Capture](https://dropbox.tech/application/why-we-built-a-custom-rust-library-for-capture)
+* [audio] [Rust for Rustaceans by Jon Gjengset](https://rustacean-station.org/episode/038-jon-gjengset/)
+* [video] [Rust Talks at the Linux Plumbers Conference 2021](https://www.reddit.com/r/rust/comments/pxz7at/rustlinux_plumbers_conference_2021/)
 
 ### Rust Walkthroughs
 
 * [Building a static site generator in 100 lines of Rust](https://kerkour.com/blog/rust-static-site-generator/)
 * [STM32F3’s Magnetometer | Use-cases & Reading Extraction (Part-1)](https://blog.knoldus.com/stm32f3-magnetometer-use-cases-reading-extraction-part-1/)
 * [Reproducible cross-compilation for Rust (with Docker)](https://kerkour.com/blog/rust-reproducible-cross-compilation-with-docker/)
+* [Rust Brain Teasers](https://www.pragprog.com/titles/hwrustbrain/rust-brain-teasers/)
+* [Writing embedded firmware using Rust](https://www.anyleaf.org/blog/writing-embedded-firmware-using-rust)
+* [Using Rust Cloudflare Workers: Serverless hCaptcha](https://dev.to/askrodney/using-rust-cloudflare-workers-serverless-hcaptcha-358g)
+* [Deploy an ultra-fast blog in minutes with Eleventy and AssemblyLift (WebAssembly + Lambda + API Gateway + Rust)](https://dev.to/akkoro/deploy-an-ultra-fast-blog-in-minutes-with-eleventy-and-assemblylift-webassembly-lambda-api-gateway-rust-568l)
+* [PT] [Rust - Ownership ?](https://dev.to/higordiego/rust-ownership-1hka)
+* [video] [Hacking on rustc - Negative literals in indexing expressions](https://www.youtube.com/watch?v=OGihuce8rl8)
+* [video] [Getting started with Rust 🦀 2021: 6. Library API design overhaul, async and more](https://www.youtube.com/watch?v=J_yGWdgeGQM)
 
 ### Miscellaneous
 
+* [GitHub Advisory Database now supports Rust](https://github.blog/2021-09-23-github-advisory-database-now-supports-rust/)
 * [_Rust for the Polyglot Programmer_ - introducing a new guide to the language](https://www.chiark.greenend.org.uk/~ianmdlvl/rust-polyglot/index.html)
 * [DE] [Modernes Rust im Jahr 2021 @ Gesellschaft für Informatik](https://rg-rhein-main.gi.de/veranstaltung/modernes-rust-im-jahr-2021)
 
@@ -106,7 +120,7 @@ Revision range: [7743c9..83f147](https://perf.rust-lang.org/?start=7743c9fadd648
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [RFC: Supertrait item shadowing](https://github.com/rust-lang/rfcs/pull/2845)
+*No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -120,34 +134,32 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-
+* [disposition: merge] [Tracking Issue for saturating_div](https://github.com/rust-lang/rust/issues/89381)
+* [disposition: merge] [Avoid allocations and copying in `Vec::leak`](https://github.com/rust-lang/rust/pull/89337)
 * [disposition: merge] [Stabilize RFC 2345: Allow panicking in constants](https://github.com/rust-lang/rust/issues/89006)
 * [disposition: merge] [Perform type inference in range pattern](https://github.com/rust-lang/rust/pull/88090)
-* [disposition: close] [Disable unused_must_use for statically known bools](https://github.com/rust-lang/rust/pull/88028)
-* [disposition: merge] [Decide whether asm! and/or global_asm! should be exported from the prelude.](https://github.com/rust-lang/rust/issues/87228)
-* [disposition: merge] [Make #[derive(A, B, ...)] cfg-eval its input only for A, B, ... and stabilize feature(macro_attributes_in_derive_output)](https://github.com/rust-lang/rust/pull/87220)
-* [disposition: merge] [Make `*const (), *mut ()` okay for FFI](https://github.com/rust-lang/rust/pull/84267)
+* [disposition: merge] [Tracking issue for `proc_macro::is_available()`](https://github.com/rust-lang/rust/issues/71436)
+* [disposition: close] [Tracking issue for `alloc::prelude`](https://github.com/rust-lang/rust/issues/58935)
 
 ### New RFCs
 
-* [[Help wanted] First draft of patchfile RFC](https://github.com/rust-lang/rfcs/pull/3177)
-* [Multiple artifact deps on the same crate with different names, for different targets](https://github.com/rust-lang/rfcs/pull/3176)
+*No new RFCs were proposed this week.*
 
 ## Upcoming Events
 
 ### Online
 
-* [September 28, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccmblc/)
+* [September 30, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 * [October 2, 2021 - Rust Graphics meetup](https://github.com/gfx-rs/meetup)
 * [October 5, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/280628523/)
+* [October 7, 2021, Zürich, CH - Rust & GUI: egui - Rust Zürichsee](https://www.meetup.com/Rust-Zurich/events/280399418/)
+* [October 9, 2021 - Rust Gamedev Discord - Rust Gamedev Monthly Meetup](https://discord.gg/yNtPTb2)
+* [October 12, 2021, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccnbqb/)
+* [October 13, 2021 - betterCode Rust](https://rust.bettercode.eu/)
 
 ### North America
 
 * [October 13, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/lhpkmsyccnbrb/)
-
-### Europe
-
-* [September 22, 2021, Berlin, DE - Rust and Tell - an onsite event - Berline.rs](https://berline.rs/)
 
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -159,13 +171,28 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Enso**
+
+* [Senior Rust Developer (Remote)](https://github.com/enso-org/hiring/blob/main/people/senior-rust-developer.md)
+
+**Stockly**
+
+* [Back-end developer - Engine team (Rust, GRPC, PostgreSQL) (Remote)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
+
 **Timescale**
 
 * [Senior Toolkit Engineer - Database (Remote)](https://boards.greenhouse.io/timescale/jobs/5542785002)
 
 **ChainSafe**
+
 * [Protocol Engineer for Filecoin Forest (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999769790643-protocol-engineer-forest-rust-)
 * [Rust Engineer for Substrate (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999769885107-rust-engineer-substrate-)
+
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Senior Banking Engineer - Rust (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
