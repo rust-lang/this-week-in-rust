@@ -22,6 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [SixtyFPS (GUI crate) weekly update for 27th of September 2021](https://sixtyfps.io/thisweek/2021-09-27.html)
 * [This week in Fluvio #6: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0006/)
+* [This week in Databend #9: an elastic and reliable cloud warehouse](https://datafuselabs.github.io/weekly/2021-09-29-databend-weekly/)
 
 ### Observations/Thoughts
 
