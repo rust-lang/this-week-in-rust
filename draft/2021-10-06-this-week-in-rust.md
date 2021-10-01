@@ -143,6 +143,12 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+**Oso**
+
+* [Software Engineer (NY/Remote)](https://jobs.lever.co/oso/70ed08c0-521f-4089-a51c-422a73f64366)
+* [Developer Advocate (NY/Remote)](https://jobs.lever.co/oso/0b65731e-4cf4-4e42-96ed-5f985f08fa66)
+* [And more...](https://www.osohq.com/company/jobs)
+
 # Quote of the Week
 
 This week we have two great quotes!
