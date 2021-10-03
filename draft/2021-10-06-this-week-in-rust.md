@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+[Does the published crate match the upstream source?](https://codeandbitters.com/published-crate-analysis/)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
