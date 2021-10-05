@@ -26,9 +26,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [miette](https://crates.io/crates/miette), a library for error handling that is beautiful both in code and output.
+This week's crate is [pubgrub](https://crates.io/crates/pubgrub), a Rust implementation of the state of the art version solving algorithm.
 
-Thanks to [Kat Marchán](https://users.rust-lang.org/t/crate-of-the-week/2704/965) for the self-suggestion!
+Thanks to [Louis Pilfold](https://users.rust-lang.org/t/crate-of-the-week/2704/968) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -47,30 +47,48 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-265 pull requests were [merged in the last week][merged]
+266 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-09-20..2021-09-27
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-09-27..2021-10-04
 
-* [suggest both of immutable and mutable trait implementations](https://github.com/rust-lang/rust/pull/89263)
-* [give better error for `macro_rules! name!`](https://github.com/rust-lang/rust/pull/89221)
-* [validate builtin attributes for macro args](https://github.com/rust-lang/rust/pull/88680)
-* [implement `#[must_not_suspend]`](https://github.com/rust-lang/rust/pull/88865)
-* [support `#[track_caller]` on closures and generators](https://github.com/rust-lang/rust/pull/87064)
-* [make `#[track_caller]` actually do stuff in `Steal::borrow`](https://github.com/rust-lang/rust/pull/89237)
-* [revise never type fallback algorithm](https://github.com/rust-lang/rust/pull/88804)
-* [don't use projection cache or candidate cache in intercrate mode](https://github.com/rust-lang/rust/pull/89125)
-* [don't normalize opaque types with escaping late-bound regions](https://github.com/rust-lang/rust/pull/89285)
-* [disable visible path calculation for `PrettyPrinter` in `Ok` path of compiler](https://github.com/rust-lang/rust/pull/89120)
-* [enable new pass manager with LLVM 13](https://github.com/rust-lang/rust/pull/88243)
-* [simplify `scoped_thread`](https://github.com/rust-lang/rust/pull/89104)
-* [stabilize `Iterator::map_while`](https://github.com/rust-lang/rust/pull/89086)
-* [use ZST for `fmt` unsafety](https://github.com/rust-lang/rust/pull/89139)
-* [rustfmt: trailing comma on match block goes missing when guard is on its own line](https://github.com/rust-lang/rustfmt/pull/4998)
-* [rustfmt: simplify and speed up search for local path based deps with `cargo fmt --all`](https://github.com/rust-lang/rustfmt/pull/4997)
-* [clippy: demote `float_cmp` to pedantic](https://github.com/rust-lang/rust-clippy/pull/7692)
-* [clippy: new lint `if_then_panic`](https://github.com/rust-lang/rust-clippy/pull/7669)
-* [clippy: stop `excessive_precision` from suggesting a float truncation that is not shorter](https://github.com/rust-lang/rust-clippy/pull/7722)
-* [clippy: don't lint `suspicious_else_formatting` inside proc-macros](https://github.com/rust-lang/rust-clippy/pull/7707)
+* [make *const (), *mut () okay for FFI](https://github.com/rust-lang/rust/pull/84267)
+* [resolve: cache module loading for all foreign modules](https://github.com/rust-lang/rust/pull/89239)
+* [improve error message for missing angle brackets in `[_]::method`](https://github.com/rust-lang/rust/pull/89447)
+* [avoid nondeterminism in `trimmed_def_paths`](https://github.com/rust-lang/rust/pull/89408)
+* [improve error message for printf-style format strings](https://github.com/rust-lang/rust/pull/89340)
+* [pick one possible lifetime in case there are multiple choices](https://github.com/rust-lang/rust/pull/89327)
+* [suggest using the path separator for tuple struct](https://github.com/rust-lang/rust/pull/89293)
+* [suggest similarly named associated items in trait impls](https://github.com/rust-lang/rust/pull/89248)
+* [improve cause information for NLL higher-ranked errors](https://github.com/rust-lang/rust/pull/89249)
+* [hide `<...> defined here` note if the source is not available](https://github.com/rust-lang/rust/pull/89233)
+* [fix incorrect disambiguation suggestion for associated items](https://github.com/rust-lang/rust/pull/89255)
+* [fix unsound optimization with explicit variant discriminants](https://github.com/rust-lang/rust/pull/89489)
+* [don't anonymize bound region names during typeck](https://github.com/rust-lang/rust/pull/89250)
+* [pass real crate-level attributes to `pre_expansion_lint`](https://github.com/rust-lang/rust/pull/89214)
+* [use larger span for adjustment THIR expressions](https://github.com/rust-lang/rust/pull/89110)
+* [coerce const FnDefs to implement const Fn traits](https://github.com/rust-lang/rust/pull/88963)
+* [constify ?-operator for `Result` and `Option`](https://github.com/rust-lang/rust/pull/86853)
+* [partially stabilize `array_methods`](https://github.com/rust-lang/rust/pull/88353)
+* [avoid spurious "previous iteration of loop" errors](https://github.com/rust-lang/rust/pull/87998)
+* [include the length in `BTree` hashes](https://github.com/rust-lang/rust/pull/89443)
+* [optimize unnecessary check in `Vec::retain`](https://github.com/rust-lang/rust/pull/88060)
+* [`VecDeque`: improve performance for `From<[T; N]`>](https://github.com/rust-lang/rust/pull/88452)
+* [optimize `is_sorted` for `Range` and `RangeInclusive`](https://github.com/rust-lang/rust/pull/89335)
+* [optimize `str::from_utf8()` validation when slice contains multibyte chars and `str.chars().count()` in all * [Fix `read_to_end` to not grow an exact size buffer](https://github.com/rust-lang/rust/pull/89165)
+* [make `<[T]>::split_at_unchecked` and `<[T]>::split_at_mut_unchecked` public](https://github.com/rust-lang/rust/pull/87870)
+* [mark unsafe methods `NonZero*::unchecked_`{`add`, `mul`} as const](https://github.com/rust-lang/rust/pull/87910)
+* [const fn for `Option::`{`copied`, `take`, `replace`}](https://github.com/rust-lang/rust/pull/86828)
+cases](https://github.com/rust-lang/rust/pull/88834)
+* [hashbrown: relax the bounds on `HashSet`: `Debug`](https://github.com/rust-lang/hashbrown/pull/296)
+* [clippy: correctly handle signs in exponents in `numeric_literal::format()`](https://github.com/rust-lang/rust-clippy/pull/7747)
+* [clippy: make `if_then_panic` handle situation of `BinOpKind::And || BinOpKind::Or`](https://github.com/rust-lang/rust-clippy/pull/7741)
+* [clippy: re-write `shadow` lints](https://github.com/rust-lang/rust-clippy/pull/7338)
+* [clippy: make `doc_unsafe` warn on unsafe traits as well](https://github.com/rust-lang/rust-clippy/pull/7734)
+* [clippy: fix bug for `large_enum_variants`](https://github.com/rust-lang/rust-clippy/pull/7677)
+* [clippy: add new 'while_let_some_result' linting](https://github.com/rust-lang/rust-clippy/pull/7608)
+* [clippy: add lint `equatable_if_let`](https://github.com/rust-lang/rust-clippy/pull/7762)
+* [clippy: fix ICE in `implicit_hasher`](https://github.com/rust-lang/rust-clippy/pull/7761)
+* [clippy: exclude enum from derivable impls](https://github.com/rust-lang/rust-clippy/pull/7755)
 
 ### Rust Compiler Performance Triage
 
@@ -145,17 +163,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-This week we have two great quotes!
+> There's a common trope among people unfamiliar with rust where they assume that if you use unsafe at all, then it's just as unsafe as C and rust provided no benefit. Comparing C's approach to safety vs Rust's is like comparing an [open world assumption](https://en.wikipedia.org/wiki/Open-world_assumption) to a closed world assumption in formal logic systems. In C, you publish your api if it's possible to use correctly (open world). In Rust, you publish a safe api if it's **im** possible to use **in** correctly (closed world). Rust's key innovation here is that it enables you to build a 'bridge' from open world (unsafe) to a closed world (safe), a seemingly impossible feat that feels like somehow pairwise reducing an uncountable infinity with a countable infinity. Rust's decision to design an analogous closed-world assumption for safe code is extremely powerful, but it seems very hard for old school C programmers to wrap their head around it.
 
-> The signature of your function is your contract with not only the compiler, but also users of your function.
+– [/u/infogulch on /r/rust](https://www.reddit.com/r/rust/comments/pzo1v9/comment/hf2thv2/?utm_source=reddit&utm_medium=web2x&context=3)
 
-– [Quine Dot on rust-users](https://users.rust-lang.org/t/why-rust-lifetime-elision-cannot-inference-the-proper-lifetime-annotations-on-functions/65106/3)
-
-> Do you want to know what was harder than learning lifetimes? Learning the same lessons through twenty years of making preventable mistakes.
-
-– [Zac Burns in his RustConf talk](https://www.youtube.com/watch?v=4_Jg-rLDy-Y&t=1658s)
-
-Thanks to [Daniel H-M](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1116) and [Erik Zivkovic](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1117) for the suggestions!
+Thanks to [Alice Ryhl](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1122) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
