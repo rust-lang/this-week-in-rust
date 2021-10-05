@@ -23,7 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [SyRust: automatic testing of Rust libraries with semantic-aware program synthesis](https://dl.acm.org/doi/abs/10.1145/3453483.3454084)
 
 ### Observations/Thoughts
-
+* [Does the published crate match the upstream source?](https://codeandbitters.com/published-crate-analysis/)
 * [video] [Talks from Rust Computer Vision Meetup 2021-09-29 (YouTube playlist)](https://www.youtube.com/watch?v=k023OIxlzpA&list=PL85XCvVPmGQgWcpd230SUixObnBoL9cif)
 
 ### Rust Walkthroughs
