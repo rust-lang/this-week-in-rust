@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Project/Tooling Updates
+- [This week in Fluvio #7: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0007/)
 
 ### Research and Papers
 * [SyRust: automatic testing of Rust libraries with semantic-aware program synthesis](https://dl.acm.org/doi/abs/10.1145/3453483.3454084)
