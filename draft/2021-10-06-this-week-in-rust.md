@@ -17,12 +17,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Project/Tooling Updates
+- [This week in Fluvio #7: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0007/)
+
+### Research and Papers
+* [SyRust: automatic testing of Rust libraries with semantic-aware program synthesis](https://dl.acm.org/doi/abs/10.1145/3453483.3454084)
 
 ### Observations/Thoughts
-
-[Does the published crate match the upstream source?](https://codeandbitters.com/published-crate-analysis/)
+* [Does the published crate match the upstream source?](https://codeandbitters.com/published-crate-analysis/)
+* [video] [Talks from Rust Computer Vision Meetup 2021-09-29 (YouTube playlist)](https://www.youtube.com/watch?v=k023OIxlzpA&list=PL85XCvVPmGQgWcpd230SUixObnBoL9cif)
 
 ### Rust Walkthroughs
+* [Exporting Test Mocks Across Crates](https://nrxus.github.io/faux/guide/exporting-mocks.html)
 
 ### Miscellaneous
 
@@ -144,6 +149,12 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
+**Oso**
+
+* [Software Engineer (NY/Remote)](https://jobs.lever.co/oso/70ed08c0-521f-4089-a51c-422a73f64366)
+* [Developer Advocate (NY/Remote)](https://jobs.lever.co/oso/0b65731e-4cf4-4e42-96ed-5f985f08fa66)
+* [And more...](https://www.osohq.com/company/jobs)
 
 # Quote of the Week
 
