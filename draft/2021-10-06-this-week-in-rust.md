@@ -35,6 +35,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [Mosec: accelerate the machine learning model serving with Rust](https://github.com/mosecorg/mosec)
+
 ## Crate of the Week
 
 This week's crate is [pubgrub](https://crates.io/crates/pubgrub), a Rust implementation of the state of the art version solving algorithm.
