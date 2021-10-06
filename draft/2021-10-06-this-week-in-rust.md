@@ -30,7 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 * [Exporting Test Mocks Across Crates](https://nrxus.github.io/faux/guide/exporting-mocks.html)
-* [Build Your Text Editor With Rust!](https://medium.com/@otukof/build-your-text-editor-with-rust-678a463f968b)
+* [series] [Build Your Text Editor With Rust!](https://medium.com/@otukof/build-your-text-editor-with-rust-678a463f968b)
 
 ### Miscellaneous
 
