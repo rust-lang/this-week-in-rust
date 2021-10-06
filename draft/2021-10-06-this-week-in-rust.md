@@ -85,16 +85,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-The largest story for the week are the massive improvements that come from enabling the new pass manager in LLVM which leads to consistent 5% to 30% improvements across almost all test cases. The regressions were mostly minor with clear paths for addressing the ones that were not made with some specific trade off in mind.
+A fairly busy week, with a relatively high percentage of PRs landing with
+regressions and improvements. The overall trajectory is fairly neutral for this
+week though.
 
-Triage done by **@rylev**.
-Revision range: [7743c9..83f147](https://perf.rust-lang.org/?start=7743c9fadd64886d537966ba224b9c20e6014a59&end=83f147b3baf21acfc367a6da1045d212cd3957e4&absolute=false&stat=instructions%3Au)
+Triage done by **@simulacrum**.
+Revision range: [83f147b..25ec82](https://perf.rust-lang.org/?start=83f147b3baf21acfc367a6da1045d212cd3957e4&end=25ec8273855fde2d72ae877b397e054de5300e10&absolute=false&stat=instructions%3Au)
 
-4 Regressions, 4 Improvements, 3 Mixed; 0 of them in rollups
+5 Regressions, 5 Improvements, 5 Mixed; 1 of them in rollups
 
 43 comparisons made in total
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-09-28.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-10-05.md)
 
 ### Approved RFCs
 
