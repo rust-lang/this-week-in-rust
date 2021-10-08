@@ -159,6 +159,7 @@ decision. Express your opinions now.
 * [October 9, 2021 - Rust Gamedev Discord - Rust Gamedev Monthly Meetup](https://discord.gg/yNtPTb2)
 * [October 12, 2021, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccnbqb/)
 * [October 13, 2021 - betterCode Rust](https://rust.bettercode.eu/)
+* [October 13, 2021, Los Angeles, CA, US - Rust Los Angeles - Processing shaders in Rust with Dzmitry Malyshau](https://www.meetup.com/Rust-Los-Angeles/events/280981968/)
 
 ### North America
 
