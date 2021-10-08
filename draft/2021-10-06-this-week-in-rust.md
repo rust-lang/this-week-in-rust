@@ -19,22 +19,46 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 - [This week in Fluvio #7: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0007/)
 * [This week in Databend #10: an elastic and reliable cloud warehouse](https://datafuselabs.github.io/weekly/2021-10-06-databend-weekly/)
+* [SixtyFPS (GUI crate) weekly update for 3rd of October 2021](https://sixtyfps.io/thisweek/2021-10-04.html)
+* [GCC Rust Monthly Report #10 September 2021](https://thephilbert.io/2021/10/04/gcc-rust-monthly-report-10-september-2021/)
+* [Rust Analyzer Changelog #97](https://rust-analyzer.github.io/thisweek/2021/10/04/changelog-97.html)
+* [Amethyst – Starting fresh](https://amethyst.rs/posts/amethyst--starting-fresh)
 
 ### Research and Papers
 * [SyRust: automatic testing of Rust libraries with semantic-aware program synthesis](https://dl.acm.org/doi/abs/10.1145/3453483.3454084)
 * [Verification for dummies: SMT and Induction](https://ocamlpro.github.io/verification_for_dummies/) using the [mikino](https://github.com/OCamlPro/mikino_bin) model-checker
+* [Does the Bronze Garbage Collector Make Rust Easier to Use? A Controlled Experiment](https://arxiv.org/abs/2110.01098)
 
-* [SixtyFPS (GUI crate) weekly update for 3rd of October 2021](https://sixtyfps.io/thisweek/2021-10-04.html)
+### Newsletters
+* [This Month in Rust OSDev (September 2021)](https://rust-osdev.com/this-month/2021-09/)
+* [Rust in Blockchain #28](https://rustinblockchain.org/newsletters/rib-newsletter-28/)
 
 ### Observations/Thoughts
 * [Does the published crate match the upstream source?](https://codeandbitters.com/published-crate-analysis/)
-* [video] [Talks from Rust Computer Vision Meetup 2021-09-29 (YouTube playlist)](https://www.youtube.com/watch?v=k023OIxlzpA&list=PL85XCvVPmGQgWcpd230SUixObnBoL9cif)
+* [What Rust could learn from Kotlin](https://medium.com/@cedricbeust/what-rust-could-learn-from-kotlin-b32ebe2da28d)
+* [Plugins in Rust: Diving into Dynamic Loading](https://nullderef.com/blog/plugin-dynload/)
 * [Measuring power consumption: sync vs. async](https://tweedegolf.nl/blog/62/measuring-power-consumption-sync-vs-async)
+* [Using Rust for kernel development](https://lwn.net/Articles/870555/)
+* [Spark and Rust - How to Build Fast, Distributed and Flexible Analytics Pipelines with Side Effects](https://blog.phylum.io/spark-and-rust-how-to-build-fast-distributed-and-flexible-analytics-pipelines)
+* [So You Want to Rust the Linux Kernel?](https://paulmck.livejournal.com/62436.html)
+* [Tricky compatibility issue - Rust's io::ErrorKind](https://diziet.dreamwidth.org/9894.html)
 * [[ZH] Rust Web Eco Watch｜ SeaORM: To be the Rust version of ActiveRecord ](https://zhuanlan.zhihu.com/p/417431284)
+* [video] [Talks from Rust Computer Vision Meetup 2021-09-29 (YouTube playlist)](https://www.youtube.com/watch?v=k023OIxlzpA&list=PL85XCvVPmGQgWcpd230SUixObnBoL9cif)
+* [video] [Rust v.s Java 17 Pattern Matching](https://www.youtube.com/watch?v=VQdStWU2ewY)
+* [audio] [Gleam with Louis Pilfold](https://rustacean-station.org/episode/040-louis-pilford/)
 
 ### Rust Walkthroughs
+* [Giving Your JSON a Web API with Rust](https://dev.to/aero/giving-your-json-a-web-api-with-rust-290)
 * [Exporting Test Mocks Across Crates](https://nrxus.github.io/faux/guide/exporting-mocks.html)
+* [Writing dockerfile in rust project](https://windsoilder.github.io/writing_dockerfile_in_rust_project.html)
+* [Rust crimes: Enum ints](https://passcod.name/technical/rust-crimes-enum-ints.html)
+* [Scalable server design in Rust with Tokio](https://medium.com/@fujita.tomonori/scalable-server-design-in-rust-with-tokio-4c81a5f350a3)
+* [Running Rust on AWS Lambda on ARM64](https://dev.to/ballpointcarrot/running-rust-on-aws-lambda-on-arm64-4h28)
+* [How to deploy a Rust REST API application on AWS with ease](https://hub.qovery.com/guides/tutorial/how-to-deploy-a-rust-rest-api-application-on-aws-with-ease/?utm_source=twitter.com&utm_medium=social&utm_campaign=because-some-users-asked-how-to-deploy-r&utm_content=54750877)
+* [PT] [Rust - Borrowing?](https://dev.to/higordiego/rust-borrowing-1220)
 * [series] [Build Your Text Editor With Rust!](https://medium.com/@otukof/build-your-text-editor-with-rust-678a463f968b)
+* [video] [Building a Reddit Ticker with Rust and Flutter using Rid and Bloc/Cubit](https://www.youtube.com/watch?v=t6rlp0TXE2I&list=PL4k64WemroGkSMVCGvtksaYvzz4mvOzfK&index=2)
+* [video] [Pattern Syntax in Rust](https://www.youtube.com/watch?v=8_HPKGZGM5I)
 
 ### Miscellaneous
 
@@ -56,6 +80,23 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
+
+* [This Week in Rust is looking for additional editors](https://github.com/rust-lang/this-week-in-rust/issues/2469)
+* [Veloren will be participating in Hacktoberfest 2021!](https://veloren.net/hacktoberfest-2021/)
+* [RustFest - Introducing Rust in Arts](https://rustfest.world/news/introducing-rust-in-arts)
+* [caniuse.rs - Data to add](https://github.com/jplatte/caniuse.rs/issues/16)
+* [cargo - Help Wanted Issues](https://github.com/rust-lang/cargo/labels/E-help-wanted)
+
+**ockam**
+* [Implement IntoIterator/FromIterator for AddressSet](https://github.com/ockam-network/ockam/issues/1928)
+* [Split Context methods accepting `Into<T>` generics up to improve compile time and binary size](https://github.com/ockam-network/ockam/issues/1944)
+
+**jsonschema-rs**
+
+* [Implement unevaluatedProperties](https://github.com/Stranger6667/jsonschema-rs/issues/288)
+* [Implement unevaluatedItems](https://github.com/Stranger6667/jsonschema-rs/issues/287)
+* [Implement dependentRequired & dependentSchemas](https://github.com/Stranger6667/jsonschema-rs/issues/286)
+* [Python: Add an iterator over validation errors](https://github.com/Stranger6667/jsonschema-rs/issues/236)
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
@@ -138,29 +179,38 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Partially stabilize duration_consts_2](https://github.com/rust-lang/rust/pull/89542)
+* [disposition: merge] [Stabilize unreachable_unchecked as const fn](https://github.com/rust-lang/rust/pull/89509)
+* [disposition: merge] [Add `#[repr(i8)]` to Ordering](https://github.com/rust-lang/rust/pull/89507)
+* [disposition: merge] [Fix ctrl-c causing reads of stdin to return empty on Windows.](https://github.com/rust-lang/rust/pull/89433)
 * [disposition: merge] [Tracking Issue for saturating_div](https://github.com/rust-lang/rust/issues/89381)
 * [disposition: merge] [Avoid allocations and copying in `Vec::leak`](https://github.com/rust-lang/rust/pull/89337)
-* [disposition: merge] [Stabilize RFC 2345: Allow panicking in constants](https://github.com/rust-lang/rust/issues/89006)
-* [disposition: merge] [Perform type inference in range pattern](https://github.com/rust-lang/rust/pull/88090)
+* [disposition: merge] [linux/aarch64 Now() should be actually_monotonic()](https://github.com/rust-lang/rust/pull/88652)
+* [disposition: merge] [Stabilise unix_process_wait_more, extra ExitStatusExt methods](https://github.com/rust-lang/rust/pull/88300)
+* [disposition: merge] [Make all proc-macro back-compat lints deny-by-default](https://github.com/rust-lang/rust/pull/88041)
+* [disposition: merge] [Windows: Resolve process::Command program without using the current directory](https://github.com/rust-lang/rust/pull/87704)
+* [disposition: merge] [Implement RefUnwindSafe for `Rc<T>`](https://github.com/rust-lang/rust/pull/87467)
+* [disposition: merge] [Reject octal zeros in IPv4 addresses](https://github.com/rust-lang/rust/pull/86984)
+* [disposition: merge] [Tracking Issue for methods to go from nul-terminated `Vec<u8>` to CString ](https://github.com/rust-lang/rust/issues/73179)
 * [disposition: merge] [Tracking issue for `proc_macro::is_available()`](https://github.com/rust-lang/rust/issues/71436)
 * [disposition: close] [Tracking issue for `alloc::prelude`](https://github.com/rust-lang/rust/issues/58935)
 
 ### New RFCs
 
-*No new RFCs were proposed this week.*
+* [Cargo --crate-type CLI Argument](https://github.com/rust-lang/rfcs/pull/3180)
 
 ## Upcoming Events
 
 ### Online
 
-* [September 30, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
-* [October 2, 2021 - Rust Graphics meetup](https://github.com/gfx-rs/meetup)
-* [October 5, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/280628523/)
-* [October 7, 2021, Zürich, CH - Rust & GUI: egui - Rust Zürichsee](https://www.meetup.com/Rust-Zurich/events/280399418/)
 * [October 9, 2021 - Rust Gamedev Discord - Rust Gamedev Monthly Meetup](https://discord.gg/yNtPTb2)
+* [October 12, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 * [October 12, 2021, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccnbqb/)
 * [October 13, 2021 - betterCode Rust](https://rust.bettercode.eu/)
-* [October 13, 2021, Los Angeles, CA, US - Rust Los Angeles - Processing shaders in Rust with Dzmitry Malyshau](https://www.meetup.com/Rust-Los-Angeles/events/280981968/)
+* [October 13, 2021 - C++/Rust: Learning from Each Other - MUC++](https://www.meetup.com/MUCplusplus/events/281231257)
+* [October 13, 2021, Los Angeles, CA, US - Processing shaders in Rust with Dzmitry Malyshau - Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/280981968/)
+* [October 20, 2021, Buffalo, NY, US - Buffalo Rust User Group, Alternate Day - Buffalo Rust](https://www.meetup.com/Buffalo-Rust-Meetup/events/281236385/)
+* [October 20, 2021, Vancouver, BC, CA - WASM plugin for Istio - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsyccnbbc/)
 
 ### North America
 
@@ -176,10 +226,17 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-**pganalyze**
-* [Senior Backend Engineer - Rust (remote)](https://devitjobs.us/jobs/pganalyze-Senior-Backend-Engineer)
+**Grafbase**
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+* [Backend Engineer (Remote)](https://careers.grafbase.com/jobs/1345933-backend-engineer)
+
+**Jigzi**
+
+* [Software Engineer - WebAssembly, Frontend (remote)](https://angel.co/company/jewish-interactive/jobs/1682182-frontend-rust-developer)
+
+**pganalyze**
+
+* [Senior Backend Engineer - Rust (remote)](https://devitjobs.us/jobs/pganalyze-Senior-Backend-Engineer)
 
 **Oso**
 
@@ -187,8 +244,17 @@ Email the [Rust Community Team][community] for access.
 * [Developer Advocate (NY/Remote)](https://jobs.lever.co/oso/0b65731e-4cf4-4e42-96ed-5f985f08fa66)
 * [And more...](https://www.osohq.com/company/jobs)
 
-**Jigzi**
-[Software Engineer - WebAssembly, Frontend (remote)](https://angel.co/company/jewish-interactive/jobs/1682182-frontend-rust-developer)
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
+
+**Subspace Labs**
+
+* [Multiple Rust Engineering Positions Available](https://jobs.lever.co/subspacelabs)
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
