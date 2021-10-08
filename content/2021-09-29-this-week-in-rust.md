@@ -177,7 +177,7 @@ Email the [Rust Community Team][community] for access.
 
 **Stockly**
 
-* [Back-end developer - Engine team (Rust, GRPC, PostgreSQL) (Remote)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
+* [Back-end developer - Engine team (Rust, GRPC, PostgreSQL)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
 
 **Timescale**
 
