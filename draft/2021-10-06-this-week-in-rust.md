@@ -187,6 +187,9 @@ Email the [Rust Community Team][community] for access.
 * [Developer Advocate (NY/Remote)](https://jobs.lever.co/oso/0b65731e-4cf4-4e42-96ed-5f985f08fa66)
 * [And more...](https://www.osohq.com/company/jobs)
 
+**Jigzi**
+[Software Engineer - WebAssembly, Frontend (remote)](https://angel.co/company/jewish-interactive/jobs/1682182-frontend-rust-developer)
+
 # Quote of the Week
 
 > There's a common trope among people unfamiliar with rust where they assume that if you use unsafe at all, then it's just as unsafe as C and rust provided no benefit. Comparing C's approach to safety vs Rust's is like comparing an [open world assumption](https://en.wikipedia.org/wiki/Open-world_assumption) to a closed world assumption in formal logic systems. In C, you publish your api if it's possible to use correctly (open world). In Rust, you publish a safe api if it's **im** possible to use **in** correctly (closed world). Rust's key innovation here is that it enables you to build a 'bridge' from open world (unsafe) to a closed world (safe), a seemingly impossible feat that feels like somehow pairwise reducing an uncountable infinity with a countable infinity. Rust's decision to design an analogous closed-world assumption for safe code is extremely powerful, but it seems very hard for old school C programmers to wrap their head around it.
