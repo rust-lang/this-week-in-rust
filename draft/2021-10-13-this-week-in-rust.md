@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+- [This week in Fluvio #8: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0008/)
+
 ### Research and Papers
 
 ### Newsletters
