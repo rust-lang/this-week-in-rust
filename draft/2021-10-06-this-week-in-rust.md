@@ -34,6 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 * [Exporting Test Mocks Across Crates](https://nrxus.github.io/faux/guide/exporting-mocks.html)
+* [How to deploy a Rust REST API application on AWS with ease](https://hub.qovery.com/guides/tutorial/how-to-deploy-a-rust-rest-api-application-on-aws-with-ease/?utm_source=twitter.com&utm_medium=social&utm_campaign=because-some-users-asked-how-to-deploy-r&utm_content=54750877)
 * [series] [Build Your Text Editor With Rust!](https://medium.com/@otukof/build-your-text-editor-with-rust-678a463f968b)
 
 ### Miscellaneous
@@ -176,10 +177,17 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-**pganalyze**
-* [Senior Backend Engineer - Rust (remote)](https://devitjobs.us/jobs/pganalyze-Senior-Backend-Engineer)
+**Grafbase**
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+* [Backend Engineer (Remote)](https://careers.grafbase.com/jobs/1345933-backend-engineer)
+
+**Jigzi**
+
+* [Software Engineer - WebAssembly, Frontend (remote)](https://angel.co/company/jewish-interactive/jobs/1682182-frontend-rust-developer)
+
+**pganalyze**
+
+* [Senior Backend Engineer - Rust (remote)](https://devitjobs.us/jobs/pganalyze-Senior-Backend-Engineer)
 
 **Oso**
 
@@ -187,8 +195,17 @@ Email the [Rust Community Team][community] for access.
 * [Developer Advocate (NY/Remote)](https://jobs.lever.co/oso/0b65731e-4cf4-4e42-96ed-5f985f08fa66)
 * [And more...](https://www.osohq.com/company/jobs)
 
-**Jigzi**
-[Software Engineer - WebAssembly, Frontend (remote)](https://angel.co/company/jewish-interactive/jobs/1682182-frontend-rust-developer)
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
+
+**Subspace Labs**
+
+* [Multiple Rust Engineering Positions Available](https://jobs.lever.co/subspacelabs)
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
