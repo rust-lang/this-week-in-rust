@@ -41,7 +41,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Using Rust for kernel development](https://lwn.net/Articles/870555/)
 * [Spark and Rust - How to Build Fast, Distributed and Flexible Analytics Pipelines with Side Effects](https://blog.phylum.io/spark-and-rust-how-to-build-fast-distributed-and-flexible-analytics-pipelines)
 * [So You Want to Rust the Linux Kernel?](https://paulmck.livejournal.com/62436.html)
-* [Tricky compatibility issue - Rust's io::ErrorKind](https://diziet.dreamwidth.org/9894.html)
 * [[ZH] Rust Web Eco Watch｜ SeaORM: To be the Rust version of ActiveRecord ](https://zhuanlan.zhihu.com/p/417431284)
 * [video] [Talks from Rust Computer Vision Meetup 2021-09-29 (YouTube playlist)](https://www.youtube.com/watch?v=k023OIxlzpA&list=PL85XCvVPmGQgWcpd230SUixObnBoL9cif)
 * [video] [Rust v.s Java 17 Pattern Matching](https://www.youtube.com/watch?v=VQdStWU2ewY)
