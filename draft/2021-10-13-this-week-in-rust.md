@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+- [Knurling-rs changelog #32](https://ferrous-systems.com/blog/knurling-changelog-32/)
+
 ### Research and Papers
 
 ### Newsletters
