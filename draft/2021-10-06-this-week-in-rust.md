@@ -81,8 +81,22 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
+* [This Week in Rust is looking for additional editors](https://github.com/rust-lang/this-week-in-rust/issues/2469)
 * [Veloren will be participating in Hacktoberfest 2021!](https://veloren.net/hacktoberfest-2021/)
 * [RustFest - Introducing Rust in Arts](https://rustfest.world/news/introducing-rust-in-arts)
+* [caniuse.rs - Data to add](https://github.com/jplatte/caniuse.rs/issues/16)
+* [cargo - Help Wanted Issues](https://github.com/rust-lang/cargo/labels/E-help-wanted)
+
+**ockam**
+* [Implement IntoIterator/FromIterator for AddressSet](https://github.com/ockam-network/ockam/issues/1928)
+* [Split Context methods accepting `Into<T>` generics up to improve compile time and binary size](https://github.com/ockam-network/ockam/issues/1944)
+
+**jsonschema-rs**
+
+* [Implement unevaluatedProperties](https://github.com/Stranger6667/jsonschema-rs/issues/288)
+* [Implement unevaluatedItems](https://github.com/Stranger6667/jsonschema-rs/issues/287)
+* [Implement dependentRequired & dependentSchemas](https://github.com/Stranger6667/jsonschema-rs/issues/286)
+* [Python: Add an iterator over validation errors](https://github.com/Stranger6667/jsonschema-rs/issues/236)
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
@@ -165,29 +179,38 @@ decision. Express your opinions now.
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [Partially stabilize duration_consts_2](https://github.com/rust-lang/rust/pull/89542)
+* [disposition: merge] [Stabilize unreachable_unchecked as const fn](https://github.com/rust-lang/rust/pull/89509)
+* [disposition: merge] [Add `#[repr(i8)]` to Ordering](https://github.com/rust-lang/rust/pull/89507)
+* [disposition: merge] [Fix ctrl-c causing reads of stdin to return empty on Windows.](https://github.com/rust-lang/rust/pull/89433)
 * [disposition: merge] [Tracking Issue for saturating_div](https://github.com/rust-lang/rust/issues/89381)
 * [disposition: merge] [Avoid allocations and copying in `Vec::leak`](https://github.com/rust-lang/rust/pull/89337)
-* [disposition: merge] [Stabilize RFC 2345: Allow panicking in constants](https://github.com/rust-lang/rust/issues/89006)
-* [disposition: merge] [Perform type inference in range pattern](https://github.com/rust-lang/rust/pull/88090)
+* [disposition: merge] [linux/aarch64 Now() should be actually_monotonic()](https://github.com/rust-lang/rust/pull/88652)
+* [disposition: merge] [Stabilise unix_process_wait_more, extra ExitStatusExt methods](https://github.com/rust-lang/rust/pull/88300)
+* [disposition: merge] [Make all proc-macro back-compat lints deny-by-default](https://github.com/rust-lang/rust/pull/88041)
+* [disposition: merge] [Windows: Resolve process::Command program without using the current directory](https://github.com/rust-lang/rust/pull/87704)
+* [disposition: merge] [Implement RefUnwindSafe for `Rc<T>`](https://github.com/rust-lang/rust/pull/87467)
+* [disposition: merge] [Reject octal zeros in IPv4 addresses](https://github.com/rust-lang/rust/pull/86984)
+* [disposition: merge] [Tracking Issue for methods to go from nul-terminated `Vec<u8>` to CString ](https://github.com/rust-lang/rust/issues/73179)
 * [disposition: merge] [Tracking issue for `proc_macro::is_available()`](https://github.com/rust-lang/rust/issues/71436)
 * [disposition: close] [Tracking issue for `alloc::prelude`](https://github.com/rust-lang/rust/issues/58935)
 
 ### New RFCs
 
-*No new RFCs were proposed this week.*
+* [Cargo --crate-type CLI Argument](https://github.com/rust-lang/rfcs/pull/3180)
 
 ## Upcoming Events
 
 ### Online
 
-* [September 30, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
-* [October 2, 2021 - Rust Graphics meetup](https://github.com/gfx-rs/meetup)
-* [October 5, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/280628523/)
-* [October 7, 2021, Zürich, CH - Rust & GUI: egui - Rust Zürichsee](https://www.meetup.com/Rust-Zurich/events/280399418/)
 * [October 9, 2021 - Rust Gamedev Discord - Rust Gamedev Monthly Meetup](https://discord.gg/yNtPTb2)
+* [October 12, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 * [October 12, 2021, Seattle, WA, US - Monthly meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccnbqb/)
 * [October 13, 2021 - betterCode Rust](https://rust.bettercode.eu/)
-* [October 13, 2021, Los Angeles, CA, US - Rust Los Angeles - Processing shaders in Rust with Dzmitry Malyshau](https://www.meetup.com/Rust-Los-Angeles/events/280981968/)
+* [October 13, 2021 - C++/Rust: Learning from Each Other - MUC++](https://www.meetup.com/MUCplusplus/events/281231257)
+* [October 13, 2021, Los Angeles, CA, US - Processing shaders in Rust with Dzmitry Malyshau - Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/280981968/)
+* [October 20, 2021, Buffalo, NY, US - Buffalo Rust User Group, Alternate Day - Buffalo Rust](https://www.meetup.com/Buffalo-Rust-Meetup/events/281236385/)
+* [October 20, 2021, Vancouver, BC, CA - WASM plugin for Istio - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsyccnbbc/)
 
 ### North America
 
