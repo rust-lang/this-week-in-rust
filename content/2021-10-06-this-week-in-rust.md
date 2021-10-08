@@ -60,8 +60,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Building a Reddit Ticker with Rust and Flutter using Rid and Bloc/Cubit](https://www.youtube.com/watch?v=t6rlp0TXE2I&list=PL4k64WemroGkSMVCGvtksaYvzz4mvOzfK&index=2)
 * [video] [Pattern Syntax in Rust](https://www.youtube.com/watch?v=8_HPKGZGM5I)
 
-### Miscellaneous
-
 ## Crate of the Week
 
 This week's crate is [pubgrub](https://crates.io/crates/pubgrub), a Rust implementation of the state of the art version solving algorithm.
@@ -88,6 +86,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [cargo - Help Wanted Issues](https://github.com/rust-lang/cargo/labels/E-help-wanted)
 
 **ockam**
+
 * [Implement IntoIterator/FromIterator for AddressSet](https://github.com/ockam-network/ockam/issues/1928)
 * [Split Context methods accepting `Into<T>` generics up to improve compile time and binary size](https://github.com/ockam-network/ockam/issues/1944)
 
