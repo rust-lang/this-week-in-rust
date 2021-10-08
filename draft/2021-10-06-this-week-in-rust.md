@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Research and Papers
 * [SyRust: automatic testing of Rust libraries with semantic-aware program synthesis](https://dl.acm.org/doi/abs/10.1145/3453483.3454084)
 * [Verification for dummies: SMT and Induction](https://ocamlpro.github.io/verification_for_dummies/) using the [mikino](https://github.com/OCamlPro/mikino_bin) model-checker
+* [Does the Bronze Garbage Collector Make Rust Easier to Use? A Controlled Experiment](https://arxiv.org/abs/2110.01098)
 
 ### Newsletters
 * [This Month in Rust OSDev (September 2021)](https://rust-osdev.com/this-month/2021-09/)
@@ -35,21 +36,26 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 * [Does the published crate match the upstream source?](https://codeandbitters.com/published-crate-analysis/)
 * [What Rust could learn from Kotlin](https://medium.com/@cedricbeust/what-rust-could-learn-from-kotlin-b32ebe2da28d)
+* [Plugins in Rust: Diving into Dynamic Loading](https://nullderef.com/blog/plugin-dynload/)
 * [Measuring power consumption: sync vs. async](https://tweedegolf.nl/blog/62/measuring-power-consumption-sync-vs-async)
 * [Using Rust for kernel development](https://lwn.net/Articles/870555/)
 * [Spark and Rust - How to Build Fast, Distributed and Flexible Analytics Pipelines with Side Effects](https://blog.phylum.io/spark-and-rust-how-to-build-fast-distributed-and-flexible-analytics-pipelines)
 * [So You Want to Rust the Linux Kernel?](https://paulmck.livejournal.com/62436.html)
+* [Tricky compatibility issue - Rust's io::ErrorKind](https://diziet.dreamwidth.org/9894.html)
 * [[ZH] Rust Web Eco Watch｜ SeaORM: To be the Rust version of ActiveRecord ](https://zhuanlan.zhihu.com/p/417431284)
 * [video] [Talks from Rust Computer Vision Meetup 2021-09-29 (YouTube playlist)](https://www.youtube.com/watch?v=k023OIxlzpA&list=PL85XCvVPmGQgWcpd230SUixObnBoL9cif)
 * [video] [Rust v.s Java 17 Pattern Matching](https://www.youtube.com/watch?v=VQdStWU2ewY)
 * [audio] [Gleam with Louis Pilfold](https://rustacean-station.org/episode/040-louis-pilford/)
 
 ### Rust Walkthroughs
+* [Giving Your JSON a Web API with Rust](https://dev.to/aero/giving-your-json-a-web-api-with-rust-290)
 * [Exporting Test Mocks Across Crates](https://nrxus.github.io/faux/guide/exporting-mocks.html)
 * [Writing dockerfile in rust project](https://windsoilder.github.io/writing_dockerfile_in_rust_project.html)
 * [Rust crimes: Enum ints](https://passcod.name/technical/rust-crimes-enum-ints.html)
 * [Scalable server design in Rust with Tokio](https://medium.com/@fujita.tomonori/scalable-server-design-in-rust-with-tokio-4c81a5f350a3)
+* [Running Rust on AWS Lambda on ARM64](https://dev.to/ballpointcarrot/running-rust-on-aws-lambda-on-arm64-4h28)
 * [How to deploy a Rust REST API application on AWS with ease](https://hub.qovery.com/guides/tutorial/how-to-deploy-a-rust-rest-api-application-on-aws-with-ease/?utm_source=twitter.com&utm_medium=social&utm_campaign=because-some-users-asked-how-to-deploy-r&utm_content=54750877)
+* [PT] [Rust - Borrowing?](https://dev.to/higordiego/rust-borrowing-1220)
 * [series] [Build Your Text Editor With Rust!](https://medium.com/@otukof/build-your-text-editor-with-rust-678a463f968b)
 * [video] [Building a Reddit Ticker with Rust and Flutter using Rid and Bloc/Cubit](https://www.youtube.com/watch?v=t6rlp0TXE2I&list=PL4k64WemroGkSMVCGvtksaYvzz4mvOzfK&index=2)
 * [video] [Pattern Syntax in Rust](https://www.youtube.com/watch?v=8_HPKGZGM5I)
