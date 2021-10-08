@@ -22,6 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Research and Papers
 * [SyRust: automatic testing of Rust libraries with semantic-aware program synthesis](https://dl.acm.org/doi/abs/10.1145/3453483.3454084)
+* [Verification for dummies: SMT and Induction](https://ocamlpro.github.io/verification_for_dummies/) using the [mikino](https://github.com/OCamlPro/mikino_bin) model-checker
 
 * [SixtyFPS (GUI crate) weekly update for 3rd of October 2021](https://sixtyfps.io/thisweek/2021-10-04.html)
 
