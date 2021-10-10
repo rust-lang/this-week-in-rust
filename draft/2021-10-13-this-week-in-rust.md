@@ -31,9 +31,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [IntelliJ Rust Changelog #157](https://intellij-rust.github.io/2021/10/11/changelog-157.html)
 * [Convis - Open Source Container Visibility](https://kentiklabs.com/blog/container-visibility/)
 
-
-### Research and Papers
-
 ### Newsletters
 
 * [This Month in Rust GameDev #26 - September 2021](https://gamedev.rs/news/026/)
