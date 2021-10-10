@@ -26,7 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
-[Multithreading in Rust](https://nickymeuleman.netlify.app/blog/multithreading-rust)
+* [Multithreading in Rust](https://nickymeuleman.netlify.app/blog/multithreading-rust)
 
 ## Crate of the Week
 
