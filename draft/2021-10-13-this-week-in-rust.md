@@ -91,6 +91,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [ockam - Make TryAsyncClone trait derivable. Add TryAsyncClone impl for structs that implement Clone](https://github.com/ockam-network/ockam/issues/1998)
+* [ockam - Use async_trait through ockam_core](https://github.com/ockam-network/ockam/issues/1999)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 * [This Week in Rust is looking for additional editors](https://github.com/rust-lang/this-week-in-rust/issues/2469)
