@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [SixtyFPS (GUI crate) weekly update for 10th of October 2021](https://sixtyfps.io/thisweek/2021-10-11.html)
+
 ### Research and Papers
 
 ### Newsletters
