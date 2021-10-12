@@ -28,9 +28,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [pubgrub](https://crates.io/crates/pubgrub), a Rust implementation of the state of the art version solving algorithm.
+This week's crate is [flutter\_rust\_bridge](https://github.com/fzyzcjy/flutter_rust_bridge), a memory-safe binding generator for Flutter/Dart ↔ Rust.
 
-Thanks to [Louis Pilfold](https://users.rust-lang.org/t/crate-of-the-week/2704/968) for the suggestion!
+Thanks to [fzyzcjy](https://users.rust-lang.org/t/crate-of-the-week/2704/972) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -51,48 +51,56 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-266 pull requests were [merged in the last week][merged]
+353 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-09-27..2021-10-04
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-10-04..2021-10-11
 
-* [make *const (), *mut () okay for FFI](https://github.com/rust-lang/rust/pull/84267)
-* [resolve: cache module loading for all foreign modules](https://github.com/rust-lang/rust/pull/89239)
-* [improve error message for missing angle brackets in `[_]::method`](https://github.com/rust-lang/rust/pull/89447)
-* [avoid nondeterminism in `trimmed_def_paths`](https://github.com/rust-lang/rust/pull/89408)
-* [improve error message for printf-style format strings](https://github.com/rust-lang/rust/pull/89340)
-* [pick one possible lifetime in case there are multiple choices](https://github.com/rust-lang/rust/pull/89327)
-* [suggest using the path separator for tuple struct](https://github.com/rust-lang/rust/pull/89293)
-* [suggest similarly named associated items in trait impls](https://github.com/rust-lang/rust/pull/89248)
-* [improve cause information for NLL higher-ranked errors](https://github.com/rust-lang/rust/pull/89249)
-* [hide `<...> defined here` note if the source is not available](https://github.com/rust-lang/rust/pull/89233)
-* [fix incorrect disambiguation suggestion for associated items](https://github.com/rust-lang/rust/pull/89255)
-* [fix unsound optimization with explicit variant discriminants](https://github.com/rust-lang/rust/pull/89489)
-* [don't anonymize bound region names during typeck](https://github.com/rust-lang/rust/pull/89250)
-* [pass real crate-level attributes to `pre_expansion_lint`](https://github.com/rust-lang/rust/pull/89214)
-* [use larger span for adjustment THIR expressions](https://github.com/rust-lang/rust/pull/89110)
-* [coerce const FnDefs to implement const Fn traits](https://github.com/rust-lang/rust/pull/88963)
-* [constify ?-operator for `Result` and `Option`](https://github.com/rust-lang/rust/pull/86853)
-* [partially stabilize `array_methods`](https://github.com/rust-lang/rust/pull/88353)
-* [avoid spurious "previous iteration of loop" errors](https://github.com/rust-lang/rust/pull/87998)
-* [include the length in `BTree` hashes](https://github.com/rust-lang/rust/pull/89443)
-* [optimize unnecessary check in `Vec::retain`](https://github.com/rust-lang/rust/pull/88060)
-* [`VecDeque`: improve performance for `From<[T; N]`>](https://github.com/rust-lang/rust/pull/88452)
-* [optimize `is_sorted` for `Range` and `RangeInclusive`](https://github.com/rust-lang/rust/pull/89335)
-* [optimize `str::from_utf8()` validation when slice contains multibyte chars and `str.chars().count()` in all * [Fix `read_to_end` to not grow an exact size buffer](https://github.com/rust-lang/rust/pull/89165)
-* [make `<[T]>::split_at_unchecked` and `<[T]>::split_at_mut_unchecked` public](https://github.com/rust-lang/rust/pull/87870)
-* [mark unsafe methods `NonZero*::unchecked_`{`add`, `mul`} as const](https://github.com/rust-lang/rust/pull/87910)
-* [const fn for `Option::`{`copied`, `take`, `replace`}](https://github.com/rust-lang/rust/pull/86828)
-cases](https://github.com/rust-lang/rust/pull/88834)
-* [hashbrown: relax the bounds on `HashSet`: `Debug`](https://github.com/rust-lang/hashbrown/pull/296)
-* [clippy: correctly handle signs in exponents in `numeric_literal::format()`](https://github.com/rust-lang/rust-clippy/pull/7747)
-* [clippy: make `if_then_panic` handle situation of `BinOpKind::And || BinOpKind::Or`](https://github.com/rust-lang/rust-clippy/pull/7741)
-* [clippy: re-write `shadow` lints](https://github.com/rust-lang/rust-clippy/pull/7338)
-* [clippy: make `doc_unsafe` warn on unsafe traits as well](https://github.com/rust-lang/rust-clippy/pull/7734)
-* [clippy: fix bug for `large_enum_variants`](https://github.com/rust-lang/rust-clippy/pull/7677)
-* [clippy: add new 'while_let_some_result' linting](https://github.com/rust-lang/rust-clippy/pull/7608)
-* [clippy: add lint `equatable_if_let`](https://github.com/rust-lang/rust-clippy/pull/7762)
-* [clippy: fix ICE in `implicit_hasher`](https://github.com/rust-lang/rust-clippy/pull/7761)
-* [clippy: exclude enum from derivable impls](https://github.com/rust-lang/rust-clippy/pull/7755)
+* [add new tier-3 target: armv7-unknown-linux-uclibceabihf](https://github.com/rust-lang/rust/pull/88952)
+* [perform type inference in range pattern](https://github.com/rust-lang/rust/pull/88090)
+* [add abs_diff for integer types](https://github.com/rust-lang/rust/pull/88780)
+* [implement #85440 (Random test ordering)](https://github.com/rust-lang/rust/pull/89082)
+* [correctly handle supertraits for min_specialization](https://github.com/rust-lang/rust/pull/89413)
+* [consider unfulfilled obligations in binop errors](https://github.com/rust-lang/rust/pull/89323)
+* [add `deref_into_dyn_supertrait` lint](https://github.com/rust-lang/rust/pull/89461)
+* [note specific regions involved in 'borrowed data escapes' error](https://github.com/rust-lang/rust/pull/89501)
+* [fix suggestion to borrow when casting from pointer to reference](https://github.com/rust-lang/rust/pull/89528)
+* [feature gate the non_exhaustive_omitted_patterns lint](https://github.com/rust-lang/rust/pull/89428)
+* [fix ICE caused by non_exaustive_omitted_patterns struct lint](https://github.com/rust-lang/rust/pull/89423)
+* [perf: only check for `rustc_trivial_field_reads` attribute on traits, not items, impls, etc.](https://github.com/rust-lang/rust/pull/89454)
+* [perf: introduce `tcx.get_diagnostic_name`](https://github.com/rust-lang/rust/pull/89534)
+* [improved help message for `suspicious_map`](https://github.com/rust-lang/rust-clippy/pull/7770)
+* [emit item no type error even if type inference fails](https://github.com/rust-lang/rust/pull/89585)
+* [optimize File::read_to_end and read_to_string](https://github.com/rust-lang/rust/pull/89582)
+* [prevent error reporting from outputting a recursion error if it finds an ambiguous trait impl during suggestions](https://github.com/rust-lang/rust/pull/89576)
+* [create more accurate debuginfo for vtables.](https://github.com/rust-lang/rust/pull/89597)
+* [make cfg imply doc(cfg)](https://github.com/rust-lang/rust/pull/89596)
+* [show detailed expected/found types in error message when trait paths are the same](https://github.com/rust-lang/rust/pull/89633)
+* [fix docblock code display on mobile](https://github.com/rust-lang/rust/pull/89632)
+* [use correct edition for panic in (`debug_`)`assert!()`](https://github.com/rust-lang/rust/pull/89622)
+* [add `core::array::from_fn` and `core::array::try_from_fn`](https://github.com/rust-lang/rust/pull/75644)
+* [add `Ipv6Addr::is_benchmarking`](https://github.com/rust-lang/rust/pull/86434)
+* [add functions to add unsigned and signed integers](https://github.com/rust-lang/rust/pull/87601)
+* [implement advance_(back_)_by on more iterators](https://github.com/rust-lang/rust/pull/87091)
+* [array `.len()` MIR optimization pass](https://github.com/rust-lang/rust/pull/86525)
+* [`path.push()` should work as expected on windows verbatim paths](https://github.com/rust-lang/rust/pull/89270)
+* [use get_unchecked in `str::`(`r`)`split_once`](https://github.com/rust-lang/rust/pull/89219)
+* [stabilize `try_reserve`](https://github.com/rust-lang/rust/pull/87993)
+* [stabilize `proc_macro::is_available`](https://github.com/rust-lang/rust/pull/89735)
+* [stabilize `const_panic`](https://github.com/rust-lang/rust/pull/89508)
+* [stabilize `command_access`](https://github.com/rust-lang/rust/pull/88436)
+* [futures: make `futures::task::noop_waker_ref` available without `std`.](https://github.com/rust-lang/futures-rs/pull/2505)
+* [`rustc_codegen_gcc`: add missing cast and change some bitcasts to casts to avoid a gimple verification failure](https://github.com/rust-lang/rustc_codegen_gcc/pull/100)
+* [rustfmt: stabilize `match_block_trailing_comma`](https://github.com/rust-lang/rustfmt/pull/5020)
+* [rustfmt: wrap long array and slice patterns.](https://github.com/rust-lang/rustfmt/pull/4994)
+* [rustdoc: migrate to table so the gui can handle >2k constants](https://github.com/rust-lang/rust/pull/88816)
+* [clippy: add `undocumented_unsafe_blocks` lint](https://github.com/rust-lang/rust-clippy/pull/7748)
+* [clippy: fix false positive in external macros for `mut_mut` lint](https://github.com/rust-lang/rust-clippy/pull/7795)
+* [clippy: fix false positive when `Drop` and `Copy` involved in `field_reassign_with_default` lint](https://github.com/rust-lang/rust-clippy/pull/7794)
+* [clippy: handle intra-doc links in `doc_markdown`](https://github.com/rust-lang/rust-clippy/pull/7772)
+* [clippy: refactor `clippy::match_ref_pats` to check for multiple reference patterns](https://github.com/rust-lang/rust-clippy/pull/7800)
+* [clippy: make `shadow_reuse` suggestion less verbose](https://github.com/rust-lang/rust-clippy/pull/7782)
+* [clippy: add option to `new_lint` to generate MSRV enabled lint](https://github.com/rust-lang/rust-clippy/pull/7793)
+* [clippy: drop exponent on suggestion when exponent value is zero](https://github.com/rust-lang/rust-clippy/pull/7774)
 
 ### Rust Compiler Performance Triage
 
@@ -179,9 +187,9 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> There's a common trope among people unfamiliar with rust where they assume that if you use unsafe at all, then it's just as unsafe as C and rust provided no benefit. Comparing C's approach to safety vs Rust's is like comparing an [open world assumption](https://en.wikipedia.org/wiki/Open-world_assumption) to a closed world assumption in formal logic systems. In C, you publish your api if it's possible to use correctly (open world). In Rust, you publish a safe api if it's **im** possible to use **in** correctly (closed world). Rust's key innovation here is that it enables you to build a 'bridge' from open world (unsafe) to a closed world (safe), a seemingly impossible feat that feels like somehow pairwise reducing an uncountable infinity with a countable infinity. Rust's decision to design an analogous closed-world assumption for safe code is extremely powerful, but it seems very hard for old school C programmers to wrap their head around it.
+> Rust is the language where you get the hangover first.
 
-– [/u/infogulch on /r/rust](https://www.reddit.com/r/rust/comments/pzo1v9/comment/hf2thv2/?utm_source=reddit&utm_medium=web2x&context=3)
+– [unattributed via Niko Matsakis' RustConf keynote](https://www.youtube.com/watch?v=ylOpCXI2EMM&t=565s)
 
 Thanks to [Alice Ryhl](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1122) for the suggestion!
 
