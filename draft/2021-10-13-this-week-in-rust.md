@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [wgpu: Release of 0.11 with beta WebGL support](https://gfx-rs.github.io/2021/10/07/release-0.11.html)
+
 ### Research and Papers
 
 ### Newsletters
