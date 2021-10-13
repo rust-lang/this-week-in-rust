@@ -34,6 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 * [Multithreading in Rust](https://nickymeuleman.netlify.app/blog/multithreading-rust)
+* [series] [Build Your Text Editor With Rust! Part 6](https://medium.com/@otukof/build-your-text-editor-with-rust-part-6-3cff61dc2de5)
 * [video] [Getting started with Rust 🦀 2021: 7a. Building a GUI app in Rust [Part A]](https://www.youtube.com/watch?v=NtUkr_z7l84)
 
 ## Crate of the Week
