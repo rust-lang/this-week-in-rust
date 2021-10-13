@@ -33,6 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Rust Guide: Generics Demystified Part 1](https://jeffa.io/rust_guide_generics_demystified_part_1)
 * [Multithreading in Rust](https://nickymeuleman.netlify.app/blog/multithreading-rust)
 * [video] [Getting started with Rust 🦀 2021: 7a. Building a GUI app in Rust [Part A]](https://www.youtube.com/watch?v=NtUkr_z7l84)
 
