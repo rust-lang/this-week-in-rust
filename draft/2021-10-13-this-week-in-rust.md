@@ -30,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 * [Awesome Rust projects for Hacktoberfest](https://tevps.net/blog/2021/10/10/awesome-rust-projects-hacktoberfest/)
+* [Rust async can truly be zero-cost](https://swatinem.de/blog/zero-cost-async/)
 
 ### Rust Walkthroughs
 
