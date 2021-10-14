@@ -24,6 +24,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+### Miscellaneous
+* [Academy Software Foundation Announces Formation of Rust Working Group, Initial Release of OpenEXR Rust Binding](https://www.aswf.io/news/academy-software-foundation-announces-formation-of-rust-working-group-initial-release-of-openexr-rust-binding/)
+
 ## Crate of the Week
 
 This week's crate is [flutter\_rust\_bridge](https://github.com/fzyzcjy/flutter_rust_bridge), a memory-safe binding generator for Flutter/Dart ↔ Rust.
