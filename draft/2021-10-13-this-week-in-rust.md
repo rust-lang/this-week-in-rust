@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 - [This week in Fluvio #8: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0008/)
 - [Knurling-rs changelog #32](https://ferrous-systems.com/blog/knurling-changelog-32/)
 * [wgpu: Release of 0.11 with beta WebGL support](https://gfx-rs.github.io/2021/10/07/release-0.11.html)
+* [FutureSDR: An Async Software Defined Radio Framework Implemented in Rust](https://www.rtl-sdr.com/futuresdr-an-async-sdr-framework-implemented-in-rust/)
 
 ### Research and Papers
 
@@ -32,6 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Awesome Rust projects for Hacktoberfest](https://tevps.net/blog/2021/10/10/awesome-rust-projects-hacktoberfest/)
 * [Rust async can truly be zero-cost](https://swatinem.de/blog/zero-cost-async/)
+
 
 ### Rust Walkthroughs
 
