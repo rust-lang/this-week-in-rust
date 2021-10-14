@@ -18,6 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Announcing Relm4 v0.2](https://aaronerhardt.github.io/blog/posts/announcing_relm4_v0.2/)
 * [SixtyFPS (GUI crate) weekly update for 10th of October 2021](https://sixtyfps.io/thisweek/2021-10-11.html)
 - [This week in Fluvio #8: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0008/)
 - [Knurling-rs changelog #32](https://ferrous-systems.com/blog/knurling-changelog-32/)
