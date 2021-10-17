@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+- [Annoucing the ogma project v0.1: a shell-like scripting language for tabular data](https://users.rust-lang.org/t/ogma-project-0-1-release/65848)
+
 ### Newsletters
 
 ### Observations/Thoughts
