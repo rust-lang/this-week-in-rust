@@ -30,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust Analyzer Changelog #98](https://rust-analyzer.github.io/thisweek/2021/10/11/changelog-98.html)
 * [IntelliJ Rust Changelog #157](https://intellij-rust.github.io/2021/10/11/changelog-157.html)
 * [Convis - Open Source Container Visibility](https://kentiklabs.com/blog/container-visibility/)
+* [Debugging Rust in JetBrains IDEs: state of affairs](https://blog.jetbrains.com/rust/2021/10/19/debugging-rust-in-jetbrains-ides-state-of-affairs/)
 
 ### Newsletters
 
