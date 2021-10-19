@@ -185,12 +185,15 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+**Connected Cars**
+
+* [Software Engineering Lead (Denmark)](https://connectedcars.io/jobs/embedded-software-engineer)
 
 **Bytewax**
 
 * [Senior Software Engineer (Remote)](https://bytewax.notion.site/Senior-Software-Engineer-9d83531eb0704afd8f323e4080e0d620)
 
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
