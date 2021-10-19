@@ -195,6 +195,10 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+**Immunant**
+
+* [Systems Programmer/Rustacean (Optionally Remote)](https://immunant.com/jobs/)
+
 # Quote of the Week
 
 > Rust is the language where you get the hangover first.
