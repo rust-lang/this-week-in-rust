@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 * [Custom Logging in Rust using tracing and tracing-subscriber](https://burgers.io/custom-logging-in-rust-using-tracing)
+* [WSL2 and Embedded Rust](https://pfesenmeier.github.io/wsl2-and-embedded-development/)
 
 ### Miscellaneous
 
