@@ -18,6 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [SixtyFPS (GUI crate): Changelog for 17th of October 2021](https://sixtyfps.io/thisweek/2021-10-18.html)
 * [What's new in SeaORM 0.3.0](https://www.sea-ql.org/SeaORM/blog/2021-10-15-whats-new-in-0.3.0/)
 - [Annoucing the ogma project v0.1: a shell-like scripting language for tabular data](https://users.rust-lang.org/t/ogma-project-0-1-release/65848)
 
