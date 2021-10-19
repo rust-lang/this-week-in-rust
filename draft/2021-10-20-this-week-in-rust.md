@@ -18,6 +18,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [SixtyFPS (GUI crate): Changelog for 17th of October 2021](https://sixtyfps.io/thisweek/2021-10-18.html)
+* [What's new in SeaORM 0.3.0](https://www.sea-ql.org/SeaORM/blog/2021-10-15-whats-new-in-0.3.0/)
+- [Annoucing the ogma project v0.1: a shell-like scripting language for tabular data](https://users.rust-lang.org/t/ogma-project-0-1-release/65848)
+
 ### Newsletters
 
 ### Observations/Thoughts
@@ -26,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Custom Logging in Rust using tracing and tracing-subscriber](https://burgers.io/custom-logging-in-rust-using-tracing)
 * [Rust Guide: Generics Part 2](https://jeffa.io/rust_guide_generics_demystified_part_2)
+* [Making slow Rust code fast - performance tuning using Criterion.rs and flamegraphs](https://patrickfreed.github.io/rust/2021/10/15/making-slow-rust-code-fast.html)
 
 ### Miscellaneous
 
@@ -166,11 +171,11 @@ decision. Express your opinions now.
 * [October 13, 2021, Los Angeles, CA, US - Processing shaders in Rust with Dzmitry Malyshau - Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/280981968/)
 * [October 20, 2021, Buffalo, NY, US - Buffalo Rust User Group, Alternate Day - Buffalo Rust](https://www.meetup.com/Buffalo-Rust-Meetup/events/281236385/)
 * [October 20, 2021, Vancouver, BC, CA - WASM plugin for Istio - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsyccnbbc/)
+* [October 22, 2021, Iran - The First Rust Iran online meetup - Rust Iran Meetup](https://rust-meetup.ir/)
 
 ### North America
 
 * [October 13, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/lhpkmsyccnbrb/)
-* [October 22, 2021, IR - The First Rust Iran online meetup - Rust Iran Meetup](https://rust-meetup.ir/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -181,7 +186,19 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Connected Cars**
+
+* [Software Engineering Lead (Denmark)](https://connectedcars.io/jobs/embedded-software-engineer)
+
+**Bytewax**
+
+* [Senior Software Engineer (Remote)](https://bytewax.notion.site/Senior-Software-Engineer-9d83531eb0704afd8f323e4080e0d620)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
+**Immunant**
+
+* [Systems Programmer/Rustacean (Optionally Remote)](https://immunant.com/jobs/)
 
 # Quote of the Week
 
