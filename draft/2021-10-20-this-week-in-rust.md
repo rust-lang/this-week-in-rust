@@ -18,6 +18,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [SixtyFPS (GUI crate): Changelog for 17th of October 2021](https://sixtyfps.io/thisweek/2021-10-18.html)
+* [What's new in SeaORM 0.3.0](https://www.sea-ql.org/SeaORM/blog/2021-10-15-whats-new-in-0.3.0/)
+- [Annoucing the ogma project v0.1: a shell-like scripting language for tabular data](https://users.rust-lang.org/t/ogma-project-0-1-release/65848)
+
 ### Newsletters
 
 ### Observations/Thoughts
@@ -25,6 +29,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 * [Custom Logging in Rust using tracing and tracing-subscriber](https://burgers.io/custom-logging-in-rust-using-tracing)
+* [WSL2 and Embedded Rust](https://pfesenmeier.github.io/wsl2-and-embedded-development/)
+* [Rust Guide: Generics Part 2](https://jeffa.io/rust_guide_generics_demystified_part_2)
+* [Making slow Rust code fast - performance tuning using Criterion.rs and flamegraphs](https://patrickfreed.github.io/rust/2021/10/15/making-slow-rust-code-fast.html)
 
 ### Miscellaneous
 
@@ -161,11 +168,23 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+**Connected Cars**
+
+* [Software Engineering Lead (Denmark)](https://connectedcars.io/jobs/embedded-software-engineer)
 
 **Bytewax**
 
 * [Senior Software Engineer (Remote)](https://bytewax.notion.site/Senior-Software-Engineer-9d83531eb0704afd8f323e4080e0d620)
+
+**Timescale**
+
+* [Senior Rust Engineer (Remote: UTC-8 to UTC-5)](https://boards.greenhouse.io/timescale/jobs/5542785002)
+
+**Immunant**
+
+* [Systems Programmer/Rustacean (Optionally Remote)](https://immunant.com/jobs/)
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
