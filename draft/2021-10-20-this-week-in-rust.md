@@ -186,6 +186,9 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Software Engineer (Remote)](https://bytewax.notion.site/Senior-Software-Engineer-9d83531eb0704afd8f323e4080e0d620)
 
+**Timescale**
+
+* [Senior Rust Engineer (Remote: UTC-8 to UTC-5)](https://boards.greenhouse.io/timescale/jobs/5542785002)
 
 # Quote of the Week
 
