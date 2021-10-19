@@ -29,6 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 * [Custom Logging in Rust using tracing and tracing-subscriber](https://burgers.io/custom-logging-in-rust-using-tracing)
+* [Rust Guide: Generics Part 2](https://jeffa.io/rust_guide_generics_demystified_part_2)
 * [Making slow Rust code fast - performance tuning using Criterion.rs and flamegraphs](https://patrickfreed.github.io/rust/2021/10/15/making-slow-rust-code-fast.html)
 
 ### Miscellaneous
