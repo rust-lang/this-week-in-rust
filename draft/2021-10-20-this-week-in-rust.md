@@ -170,6 +170,7 @@ decision. Express your opinions now.
 * [October 22, 2021, Iran - The First Rust Iran online meetup - Rust Iran Meetup](https://rust-meetup.ir/)
 * [October 26, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 * [October 26, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccnbjc/)
+* [October 27, 2021, London, UK - Rust London Ockam Takeover - Rust London User Group](https://skillsmatter.com/meetups/13606-rust-london-october2021#community)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
