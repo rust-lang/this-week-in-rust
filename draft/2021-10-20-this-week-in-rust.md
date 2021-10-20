@@ -39,6 +39,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [WSL2 and Embedded Rust](https://pfesenmeier.github.io/wsl2-and-embedded-development/)
 * [Rust Guide: Generics Part 2](https://jeffa.io/rust_guide_generics_demystified_part_2)
 * [Making slow Rust code fast - performance tuning using Criterion.rs and flamegraphs](https://patrickfreed.github.io/rust/2021/10/15/making-slow-rust-code-fast.html)
+* [Solana: How to send custom instructions via instruction data](https://dev.to/cogoo/solana-how-to-send-custom-instructions-via-instruction-data-4g9g)
+* [JA] [Rust 関数オーバーロード、引数の数が異なる場合](https://dev.to/fmtweisszwerg/rust-guan-shu-obarodo-yin-shu-noshu-gayi-naruchang-he-22fb)
 * [video] [Getting started with Rust 🦀 2021: 7b. Building a GUI app in Rust [Part B]](https://www.youtube.com/watch?v=SvFPdgGwzTQ)
 * [video] [Processing Shaders with Rust](https://vimeo.com/632377558)
 * [video] ["Streaming video analysis in Rust using Pravega" by Tom Kaitchuck](https://www.youtube.com/watch?v=AI1M7Wr4_6w)
