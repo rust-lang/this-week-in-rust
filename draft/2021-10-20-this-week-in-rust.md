@@ -16,6 +16,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
+### Foundation
+
+* [Adios Pagers: New Developments on Crates.io](https://foundation.rust-lang.org/posts/2021-10-18-crates-io-oncall-ferrous-systems/)
+
 ### Project/Tooling Updates
 
 * [This week in Fluvio #9: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0009/)
@@ -36,9 +40,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust Guide: Generics Part 2](https://jeffa.io/rust_guide_generics_demystified_part_2)
 * [Making slow Rust code fast - performance tuning using Criterion.rs and flamegraphs](https://patrickfreed.github.io/rust/2021/10/15/making-slow-rust-code-fast.html)
 * [video] [Getting started with Rust 🦀 2021: 7b. Building a GUI app in Rust [Part B]](https://www.youtube.com/watch?v=SvFPdgGwzTQ)
+* [video] [Processing Shaders with Rust](https://vimeo.com/632377558)
+* [video] ["Streaming video analysis in Rust using Pravega" by Tom Kaitchuck](https://www.youtube.com/watch?v=AI1M7Wr4_6w)
 
 ### Miscellaneous
 
+* [Results from the OpenSUSE 2021 Rust Survey](https://fy.blackhats.net.au/blog/html/2021/10/08/results_from_the_opensuse_2021_rust_survey.html)
 * [Academy Software Foundation Announces Formation of Rust Working Group, Initial Release of OpenEXR Rust Binding](https://www.aswf.io/news/academy-software-foundation-announces-formation-of-rust-working-group-initial-release-of-openexr-rust-binding/)
 * [ROAPI: An API Server for Static Datasets](https://tech.marksblogg.com/roapi-rust-data-api.html)
 
