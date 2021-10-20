@@ -27,16 +27,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [How Rust developers are making the web safer](https://github.com/readme/featured/rust-programming)
+
 ### Rust Walkthroughs
 
 * [Custom Logging in Rust using tracing and tracing-subscriber](https://burgers.io/custom-logging-in-rust-using-tracing)
 * [WSL2 and Embedded Rust](https://pfesenmeier.github.io/wsl2-and-embedded-development/)
 * [Rust Guide: Generics Part 2](https://jeffa.io/rust_guide_generics_demystified_part_2)
 * [Making slow Rust code fast - performance tuning using Criterion.rs and flamegraphs](https://patrickfreed.github.io/rust/2021/10/15/making-slow-rust-code-fast.html)
+* [video] [Getting started with Rust 🦀 2021: 7b. Building a GUI app in Rust [Part B]](https://www.youtube.com/watch?v=SvFPdgGwzTQ)
 
 ### Miscellaneous
 
 * [Academy Software Foundation Announces Formation of Rust Working Group, Initial Release of OpenEXR Rust Binding](https://www.aswf.io/news/academy-software-foundation-announces-formation-of-rust-working-group-initial-release-of-openexr-rust-binding/)
+* [ROAPI: An API Server for Static Datasets](https://tech.marksblogg.com/roapi-rust-data-api.html)
 
 ## Crate of the Week
 
@@ -184,6 +188,16 @@ Email the [Rust Community Team][community] for access.
 **Immunant**
 
 * [Systems Programmer/Rustacean (Optionally Remote)](https://immunant.com/jobs/)
+
+**Nexthink**
+
+* [Site Reliability Engineer (Madrid, ES)](https://www.smartrecruiters.com/Nexthink/743999779427018)
+
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
