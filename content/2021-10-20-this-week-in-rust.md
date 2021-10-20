@@ -14,8 +14,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-### Official
-
 ### Foundation
 
 * [Adios Pagers: New Developments on Crates.io](https://foundation.rust-lang.org/posts/2021-10-18-crates-io-oncall-ferrous-systems/)
