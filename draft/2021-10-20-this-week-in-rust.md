@@ -180,6 +180,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Modeldrive**
+
+* [Senior Rust Engineer (London / Remote)](https://www.modeldrive.com/jobs)
+
 **Connected Cars**
 
 * [Software Engineering Lead (Denmark)](https://connectedcars.io/jobs/embedded-software-engineer)
