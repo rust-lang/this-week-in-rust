@@ -1,6 +1,6 @@
-Title: This Week in Rust 413
-Number: 413
-Date: 2021-10-20
+Title: This Week in Rust 414
+Number: 414
+Date: 2021-10-27
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -16,46 +16,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Foundation
 
-* [Adios Pagers: New Developments on Crates.io](https://foundation.rust-lang.org/posts/2021-10-18-crates-io-oncall-ferrous-systems/)
-
 ### Project/Tooling Updates
 
-* [This week in Fluvio #9: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0009/)
-* [SixtyFPS (GUI crate): Changelog for 17th of October 2021](https://sixtyfps.io/thisweek/2021-10-18.html)
-* [What's new in SeaORM 0.3.0](https://www.sea-ql.org/SeaORM/blog/2021-10-15-whats-new-in-0.3.0/)
-* [Annoucing the ogma project v0.1: a shell-like scripting language for tabular data](https://users.rust-lang.org/t/ogma-project-0-1-release/65848)
-* [Rust on Espressif chips - 18-10-2021](https://mabez.dev/blog/posts/esp-rust-18-10-2021/)
-* [Rust Analyzer Changelog #99](https://rust-analyzer.github.io/thisweek/2021/10/18/changelog-99.html)
-* [This week in Databend #12: an elastic and reliable cloud warehouse](https://datafuselabs.github.io/weekly/2021-10-20-databend-weekly/)
+### Newsletters
 
 ### Observations/Thoughts
 
-* [How Rust developers are making the web safer](https://github.com/readme/featured/rust-programming)
-* [Overhead of Returning Optional Values in Java and Rust](https://pkolaczk.github.io/overhead-of-optional/)
-* [Designing an API Client in Rust: New Rspotify Version a Year Later](https://nullderef.com/blog/web-api-client/)
-* [video] [[Rust Working Group] Rust for Visual Effects - Anders Langlands, Owen Nelson, Luke Titley](https://odysee.com/@Pipeliner:f/Rust-VFX:a?r=6Ac8ttKMEn1Airp7gL6QvZpi2tcV9DCX)
-
 ### Rust Walkthroughs
 
-* [Structuring, testing and debugging procedural macro crates](https://ferrous-systems.com/blog/testing-proc-macros/)
-* [Custom Logging in Rust using tracing and tracing-subscriber](https://burgers.io/custom-logging-in-rust-using-tracing)
-* [WSL2 and Embedded Rust](https://pfesenmeier.github.io/wsl2-and-embedded-development/)
-* [Rust Guide: Generics Part 2](https://jeffa.io/rust_guide_generics_demystified_part_2)
-* [Making slow Rust code fast - performance tuning using Criterion.rs and flamegraphs](https://patrickfreed.github.io/rust/2021/10/15/making-slow-rust-code-fast.html)
-* [Builder pattern in Rust](https://www.greyblake.com/blog/2021-10-19-builder-pattern-in-rust/)
-* [Solana: How to send custom instructions via instruction data](https://dev.to/cogoo/solana-how-to-send-custom-instructions-via-instruction-data-4g9g)
-* [Hexagonal architecture in Rust #7 - Long-lived repositories](https://alexis-lozano.com/hexagonal-architecture-in-rust-7/)
-* [JA] [Rust 関数オーバーロード、引数の数が異なる場合](https://dev.to/fmtweisszwerg/rust-guan-shu-obarodo-yin-shu-noshu-gayi-naruchang-he-22fb)
-* [video] [Getting started with Rust 🦀 2021: 7b. Building a GUI app in Rust [Part B]](https://www.youtube.com/watch?v=SvFPdgGwzTQ)
-* [video] [Processing Shaders with Rust](https://vimeo.com/632377558)
-* [video] ["Streaming video analysis in Rust using Pravega" by Tom Kaitchuck](https://www.youtube.com/watch?v=AI1M7Wr4_6w)
-* [video] [Rust for Java Developers 3/3 - Understanding Ownership](https://www.youtube.com/watch?v=Vg1LGHuAPP8)
-
 ### Miscellaneous
-
-* [Results from the OpenSUSE 2021 Rust Survey](https://fy.blackhats.net.au/blog/html/2021/10/08/results_from_the_opensuse_2021_rust_survey.html)
-* [Academy Software Foundation Announces Formation of Rust Working Group, Initial Release of OpenEXR Rust Binding](https://www.aswf.io/news/academy-software-foundation-announces-formation-of-rust-working-group-initial-release-of-openexr-rust-binding/)
-* [ROAPI: An API Server for Static Datasets](https://tech.marksblogg.com/roapi-rust-data-api.html)
 
 ## Crate of the Week
 
@@ -186,36 +155,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
-**Modeldrive**
-
-* [Senior Rust Engineer (London / Remote)](https://www.modeldrive.com/jobs)
-
-**Connected Cars**
-
-* [Software Engineering Lead (Denmark)](https://connectedcars.io/jobs/embedded-software-engineer)
-
-**Bytewax**
-
-* [Senior Software Engineer (Remote)](https://bytewax.notion.site/Senior-Software-Engineer-9d83531eb0704afd8f323e4080e0d620)
-
-**Timescale**
-
-* [Senior Rust Engineer (Remote: UTC-8 to UTC-5)](https://boards.greenhouse.io/timescale/jobs/5542785002)
-
-**Immunant**
-
-* [Systems Programmer/Rustacean (Optionally Remote)](https://immunant.com/jobs/)
-
-**Nexthink**
-
-* [Site Reliability Engineer (Madrid, ES)](https://www.smartrecruiters.com/Nexthink/743999779427018)
-
-**Kraken**
-
-* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
-* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
-* [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
