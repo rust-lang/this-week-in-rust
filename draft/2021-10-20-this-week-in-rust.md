@@ -28,6 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Annoucing the ogma project v0.1: a shell-like scripting language for tabular data](https://users.rust-lang.org/t/ogma-project-0-1-release/65848)
 * [Rust on Espressif chips - 18-10-2021](https://mabez.dev/blog/posts/esp-rust-18-10-2021/)
 * [Rust Analyzer Changelog #99](https://rust-analyzer.github.io/thisweek/2021/10/18/changelog-99.html)
+* [This week in Databend #12: an elastic and reliable cloud warehouse](https://datafuselabs.github.io/weekly/2021-10-20-databend-weekly/)
 
 ### Newsletters
 
