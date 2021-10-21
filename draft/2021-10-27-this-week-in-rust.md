@@ -24,8 +24,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Async on Embedded: Present & Future](https://tweedegolf.nl/blog/63/async-on-embedded-present-and-future)
+* [No Time for Chrono](https://passcod.name/technical/no-time-for-chrono.html)
+
 ### Rust Walkthroughs
-[series] [Build Your Text Editor With Rust! Final Part](https://medium.com/@otukof/build-your-text-editor-with-rust-final-part-4c841a649900)
+
+* [series] [Build Your Text Editor With Rust! Final Part](https://medium.com/@otukof/build-your-text-editor-with-rust-final-part-4c841a649900)
 
 * [Custom Logging in Rust using tracing and tracing-subscriber, part 2](https://burgers.io/custom-logging-in-rust-using-tracing-part-2)
 
@@ -161,9 +165,21 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Snapview**
+
+* [(Senior) Rust Backend Engineer (m/f/d (Remote)](https://snapview.jobs.personio.de/job/381815?display=en&language=en)
+
 **Quickwit**
 
 * [Senior Rust Engineer (Remote: UTC-1..=UTC+9)](https://quickwit.io/jobs/distributed-software-engineer)
+
+**Seaplane**
+
+* [Rust Software Engineer (Remote)](https://apply.workable.com/seaplane/j/CEFCB5F5B8/)
+
+**Kraken**
+
+* [Several Rust Engineering Positions Available](https://jobs.lever.co/kraken?team=Engineering)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
