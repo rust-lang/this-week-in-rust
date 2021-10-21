@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Custom Logging in Rust using tracing and tracing-subscriber, part 2](https://burgers.io/custom-logging-in-rust-using-tracing-part-2)
+
 ### Miscellaneous
 
 ## Crate of the Week
