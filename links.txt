@@ -2785,3 +2785,53 @@ Number: 411  Date: 2021-10-06
 * [video] [Building a Reddit Ticker with Rust and Flutter using Rid and Bloc/Cubit](https://www.youtube.com/watch?v=t6rlp0TXE2I&list=PL4k64WemroGkSMVCGvtksaYvzz4mvOzfK&index=2)
 * [video] [Pattern Syntax in Rust](https://www.youtube.com/watch?v=8_HPKGZGM5I)
 
+Number: 412  Date: 2021-10-13 
+
+### Official
+* [Lang team October update](https://blog.rust-lang.org/inside-rust/2021/10/08/Lang-team-Oct-update.html)
+### Project/Tooling Updates
+* [Announcing Relm4 v0.2](https://aaronerhardt.github.io/blog/posts/announcing_relm4_v0.2/)
+* [SixtyFPS (GUI crate) weekly update for 10th of October 2021](https://sixtyfps.io/thisweek/2021-10-11.html)
+- [This week in Fluvio #8: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0008/)
+- [Knurling-rs changelog #32](https://ferrous-systems.com/blog/knurling-changelog-32/)
+* [wgpu: Release of 0.11 with beta WebGL support](https://gfx-rs.github.io/2021/10/07/release-0.11.html)
+* [This week in Databend #11: an elastic and reliable cloud warehouse](https://datafuselabs.github.io/weekly/2021-10-13-databend-weekly/)
+* [FutureSDR: An Async Software Defined Radio Framework Implemented in Rust](https://www.rtl-sdr.com/futuresdr-an-async-sdr-framework-implemented-in-rust/)
+* [Rust Analyzer Changelog #98](https://rust-analyzer.github.io/thisweek/2021/10/11/changelog-98.html)
+* [IntelliJ Rust Changelog #157](https://intellij-rust.github.io/2021/10/11/changelog-157.html)
+* [Convis - Open Source Container Visibility](https://kentiklabs.com/blog/container-visibility/)
+* [Debugging Rust in JetBrains IDEs: state of affairs](https://blog.jetbrains.com/rust/2021/10/19/debugging-rust-in-jetbrains-ides-state-of-affairs/)
+### Newsletters
+* [This Month in Rust GameDev #26 - September 2021](https://gamedev.rs/news/026/)
+### Observations/Thoughts
+* [Awesome Rust projects for Hacktoberfest](https://tevps.net/blog/2021/10/10/awesome-rust-projects-hacktoberfest/)
+* [Rust async can truly be zero-cost](https://swatinem.de/blog/zero-cost-async/)
+* [Intelligent brute forcing](https://davidkoloski.me/blog/intelligent-brute-forcing/)
+* [Locks in asynchronous applications in Rust](https://acrimon.dev/blog/async-locks/)
+* [The nightly elephant in the room](https://www.getsynth.com/docs/blog/2021/10/11/nightly)
+* [Rust and GCC, two different ways](https://lwn.net/Articles/871283/)
+* [video] [Whoops! I Rewrote It in Rust](https://www.p99conf.io/session/whoops-i-rewrote-it-in-rust/)
+* [video] [Rust Is Safe. But Is It Fast?](https://www.p99conf.io/session/rust-is-safe-but-is-it-fast/)
+* [video] [Rust, Wright's Law, and the Future of Low-Latency Systems](https://www.youtube.com/watch?v=cuvp-e4ztC0)
+### Rust Walkthroughs
+* [Rust Guide: Generics Demystified Part 1](https://jeffa.io/rust_guide_generics_demystified_part_1)
+* [Multithreading in Rust](https://nickymeuleman.netlify.app/blog/multithreading-rust)
+* [Phantom Types in Rust 👻](https://www.greyblake.com/blog/2021-10-11-phantom-types-in-rust/)
+* [Programming PIC32 Microcontroller with Rust](https://gill.net.in/posts/pic32-blink-led-rust/)
+* [Testing with Spirit](https://vorner.github.io/2021/10/10/testing-with-spirit.html)
+* [Hexagonal architecture in Rust #6 - CLI](https://alexis-lozano.com/hexagonal-architecture-in-rust-6/)
+* [Incorporating JavaScript into a Rust app](https://www.secondstate.io/articles/embed-javascript-in-rust/)
+* [Rust Iterators](https://itnext.io/rust-iterators-2f0bb958aa08)
+* [Running Rust on AWS Lambda on ARM64](https://www.ballpointcarrot.net/posts/rust-arm-lambdas/)
+* [Android Rust Introduction](https://source.android.com/setup/build/rust/building-rust-modules/overview)
+* [Lambda function HTTP authorization with Auth0 and AssemblyLift (WebAssembly + Lambda + API Gateway + Rust) ](https://dev.to/akkoro/lambda-function-http-authorization-with-auth0-and-assemblylift-webassembly-lambda-api-gateway-rust-4fl8)
+* [Game of Life in Rust](https://dev.to/dineshgdk/game-of-life-in-rust-4mfc)
+* [series] [Build Your Text Editor With Rust! Part 6](https://medium.com/@otukof/build-your-text-editor-with-rust-part-6-3cff61dc2de5)
+* [series] [URL Shortener with Rust, Svelte, & AWS (6/): Deploying to AWS](https://dev.to/mileswatson/url-shortener-with-rust-svelte-aws-6-deploying-to-aws-2gi0)
+* [series][Container Runtime in Rust - Part II](https://dev.to/penumbra23/container-runtime-in-rust-part-ii-34em)
+* [video] [Getting started with Rust 🦀 2021: 7a. Building a GUI app in Rust [Part A]](https://www.youtube.com/watch?v=NtUkr_z7l84)
+* [video] [Type-Driven API Design in Rust](https://www.youtube.com/watch?v=bnnacleqg6k)
+* [video] [Visualizing memory layout of Rust's data types](https://www.youtube.com/watch?v=rDoqT-a6UFg)
+* [video] [Crust of Rust: functions, closures, and their traits](https://www.youtube.com/watch?v=dHkzSZnYXmk)
+* [video] [LRG-01: The essence of Rust](https://www.youtube.com/watch?v=LDlBTbO8oQ4)
+
