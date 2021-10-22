@@ -28,12 +28,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Async on Embedded: Present & Future](https://tweedegolf.nl/blog/63/async-on-embedded-present-and-future)
 * [No Time for Chrono](https://passcod.name/technical/no-time-for-chrono.html)
+* [Pointer Fu: An adventure in the Tokio code base](https://senyosimpson.com/short-forms/pointer-fu-tokio/)
+* [How actix-web's application state and Data extractor works internally](https://dev.to/joshchoo/how-actix-webs-application-state-and-data-extractor-works-internally-fm1)
 
 ### Rust Walkthroughs
 * [🦀 How We Built a Cross-Platform Library with Rust] (https://www.osohq.com/post/cross-platform-rust-libraries)
 * [series] [Build Your Text Editor With Rust! Final Part](https://medium.com/@otukof/build-your-text-editor-with-rust-final-part-4c841a649900)
 * [Custom Logging in Rust using tracing and tracing-subscriber, part 2](https://burgers.io/custom-logging-in-rust-using-tracing-part-2)
 * [Builder with typestate in Rust](https://www.greyblake.com/blog/2021-10-25-builder-with-typestate-in-rust/)
+* [Starting with Solana, Part 2](https://dev.to/dimfeld/starting-with-solana-part-2-17gc)
+* [Implementing the Health Check API Pattern with Rust](https://dev.to/tjmaynes/implementing-the-health-check-api-pattern-with-rust-29ll)
+* [Iced.rs tutorial: How to build a simple Rust frontend web app](https://dev.to/logrocket/icedrs-tutorial-how-to-build-a-simple-rust-frontend-web-app-2pg7)
+* [Writing a QML Application in Rust (Part 1)](https://dev.to/ayush1325/writing-a-qml-application-in-rust-part-1-3pgi)
 
 ### Miscellaneous
 
