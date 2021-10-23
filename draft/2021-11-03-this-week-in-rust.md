@@ -1,6 +1,6 @@
-Title: This Week in Rust 414
-Number: 414
-Date: 2021-10-27
+Title: This Week in Rust 415
+Number: 415
+Date: 2021-10-28
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -15,62 +15,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
-* [Announcing Rust 1.56.0 and Rust 2021](https://blog.rust-lang.org/2021/10/21/Rust-1.56.0.html)
 
 ### Foundation
-* [Member Spotlight: Tag1](https://foundation.rust-lang.org/posts/2021-10-26-member-spotlight-tag1/)
 
 ### Project/Tooling Updates
-* [Black Hat Rust October Update (now in Beta 🍾)](https://kerkour.com/blog/black-hat-rust-october-update/)
-* [SixtyFPS (GUI crate) weekly report for 24th of October 2021](https://sixtyfps.io/thisweek/2021-10-25.html)
-* [Releasing Gloo v0.4.0: Gloo is a modular toolkit for building fast, reliable Web applications and libraries with Rust and Wasm ](https://gloo-rs.web.app/blog/release-0.4.0/)
-* [This week in Fluvio #10: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0010/)
-* [This week in Databend #13: an elastic and reliable cloud warehouse](https://datafuselabs.github.io/weekly/2021-10-27-databend-weekly/)
-* [Rust Analyzer Changelog #100](https://rust-analyzer.github.io/thisweek/2021/10/25/changelog-100.html)
-* [IntelliJ Rust Changelog #158](https://intellij-rust.github.io/2021/10/25/changelog-158.html)
 
 ### Observations/Thoughts
-* [Async on Embedded: Present & Future](https://tweedegolf.nl/blog/63/async-on-embedded-present-and-future)
-* [No Time for Chrono](https://passcod.name/technical/no-time-for-chrono.html)
-* [Pointer Fu: An adventure in the Tokio code base](https://senyosimpson.com/short-forms/pointer-fu-tokio/)
-* [How actix-web's application state and Data extractor works internally](https://dev.to/joshchoo/how-actix-webs-application-state-and-data-extractor-works-internally-fm1)
-* [Building an Emacs lisp VM in Rust](https://coredumped.dev/2021/10/21/building-an-emacs-lisp-vm-in-rust/)
-* [Test-Driving the Rust Model Checker (RMC)](https://whileydave.com/2021/10/26/test-driving-the-rust-model-checker-rmc/)
-* [Sayonara, C++, and hello to Rust!](https://www.thecodedmessage.com/posts/hello-rust/)
-* [Writing a Linux-compatible kernel in Rust](https://seiya.me/writing-linux-clone-in-rust)
-* [Sustainable growth and visibility](https://estebank.github.io/sustainable-growth-and-visibility.html)
-* [audio] [What's New in Rust 1.54 and 1.55](https://rustacean-station.org/episode/039-rust-1.54-1.55/)
-* [audio] [Rust Web Development with Bastian Gruber](https://rustacean-station.org/episode/043-bastian-gruber/)
 
 ### Rust Walkthroughs
-* [🦀 How We Built a Cross-Platform Library with Rust] (https://www.osohq.com/post/cross-platform-rust-libraries)
-* [Custom Logging in Rust using tracing and tracing-subscriber, part 2](https://burgers.io/custom-logging-in-rust-using-tracing-part-2)
-* [Builder with typestate in Rust](https://www.greyblake.com/blog/2021-10-25-builder-with-typestate-in-rust/)
-* [Starting with Solana, Part 2](https://dev.to/dimfeld/starting-with-solana-part-2-17gc)
-* [Implementing the Health Check API Pattern with Rust](https://dev.to/tjmaynes/implementing-the-health-check-api-pattern-with-rust-29ll)
-* [Iced.rs tutorial: How to build a simple Rust frontend web app](https://dev.to/logrocket/icedrs-tutorial-how-to-build-a-simple-rust-frontend-web-app-2pg7)
-* [Writing a QML Application in Rust (Part 1)](https://dev.to/ayush1325/writing-a-qml-application-in-rust-part-1-3pgi)
-* [Use Rust for embedded development](https://opensource.com/article/21/10/rust-embedded-development)
-* [Supercharge Your NodeJS With Rust](https://yieldcode.blog/supercharge-nodejs-with-rust/)
-* [Implementing the Health Check API Pattern with Rust](https://itnext.io/implementing-the-health-check-api-pattern-with-rust-eaef04cb4d2d)
-* [My ideal Rust workflow](https://fasterthanli.me/articles/my-ideal-rust-workflow)
-* [Getting Started with Rust on a Raspberry Pi Pico](https://reltech.substack.com/p/getting-started-with-rust-on-a-raspberry)
-* [series] [Build Your Text Editor With Rust! Final Part](https://medium.com/@otukof/build-your-text-editor-with-rust-final-part-4c841a649900)
-* [video] [Writing a Programming Language (in Rust) 2: Branching, Literals and Addition](https://www.youtube.com/watch?v=rBGPAmfsVjo)
-* [video] [How to Build a Web Application using Rust — Part III](https://blog.tarkalabs.com/how-to-build-a-web-application-using-rust-part-iii-ed6511ebaa97)
-* [video] [FLTK Rust: intro into the fltk-evented crate](https://www.youtube.com/watch?v=rAVHBl3W9W8)
-* [video] [Rust Programming - Macros Quick Dev Tips](https://www.youtube.com/watch?v=5rwnWfMJflU)
-* [video] [Rewriting a C++ project in Rust to learn the language](https://www.youtube.com/watch?v=ePMbrtzZz9E)
-* [video] [rg3d - live coding session #1](https://www.youtube.com/watch?v=Yd6PvqNct-o)
-* [video] [Understand Rust's Borrow Checker in 5 Minutes](https://www.youtube.com/watch?v=Nuba5LNy5cY)
 
 ### Miscellaneous
-* [Rustc Code Reading Club](https://mojosd.medium.com/rust-code-reading-club-8fe356287049)
-* [Writing a Programming Language (in Rust): Weekly Stream, Saturdays at 15:00~17:00 GMT+1](https://www.twitch.tv/ezanmoto)
-* [A cool Rust optimization story](https://quickwit.io/blog/search-a-sorted-block/)
-* [Concordium’s DevX Initiative Launches Rust Maintainers Sponsorship Program](https://finance.yahoo.com/news/concordium-devx-initiative-launches-rust-131500585.html)
-* [How Linkerd retries HTTP requests with bodies](https://linkerd.io/2021/10/26/how-linkerd-retries-http-requests-with-bodies/)
-* [Build a Scalable Trading Bot With Rust Over the Weekend — Part 2](https://medium.com/coinmonks/build-a-scalable-trading-bot-with-rust-over-the-weekend-part-2-bb7d703eebe7)
 
 ## Crate of the Week
 
@@ -90,12 +44,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
-
-* [wahn/rs_pbrt - [parse_blend_file] Attic Close-up](https://github.com/wahn/rs_pbrt/issues/136)
-* [kdr-aus/ogma - Implement filter on Str input type](https://github.com/kdr-aus/ogma/issues/16)
-* [kdr-aus/ogma - Implement `From<char for Str`](https://github.com/kdr-aus/divvy/issues/2)
-* [ockam-network/ockam - Compile to WebAssembly](https://github.com/ockam-network/ockam/issues/2121)
-* [ockam-network/ockam - Ockam TCP Transport using smoltcp](https://github.com/ockam-network/ockam/issues/1804)
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
@@ -178,7 +126,7 @@ decision. Express your opinions now.
 * [disposition: merge] [Update `std::env::temp_dir` to use GetTempPath2 on Windows when available.](https://github.com/rust-lang/rust/pull/89999)
 * [disposition: merge] [Stabilize `const_raw_ptr_deref` for `*const T`](https://github.com/rust-lang/rust/pull/89551)
 * [disposition: merge] [Clarification of default socket flags](https://github.com/rust-lang/rust/pull/88805)
-* [use CLOCK_BOOTTIME in `Instant::now`](https://github.com/rust-lang/rust/pull/88714)
+* [disposition: merge] [use CLOCK_BOOTTIME in `Instant::now`](https://github.com/rust-lang/rust/pull/88714)
 * [disposition: merge] [Implement `Termination` for `Result<Infallible, E>`](https://github.com/rust-lang/rust/pull/88601)
 * [disposition: close] [Port clippy lint `redundant_field_names` to compiler](https://github.com/rust-lang/rust/pull/87512)
 * [disposition: merge] [GATs: Decide whether to have defaults for `where Self: 'a`](https://github.com/rust-lang/rust/issues/87479)
@@ -215,30 +163,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
-**Snapview**
-
-* [(Senior) Rust Backend Engineer (m/f/d (Remote)](https://snapview.jobs.personio.de/job/381815?display=en&language=en)
-
-**Quickwit**
-
-* [Senior Rust Engineer (Remote: UTC-1..=UTC+9)](https://quickwit.io/jobs/distributed-software-engineer)
-
-**Seaplane**
-
-* [Rust Software Engineer (Remote)](https://apply.workable.com/seaplane/j/CEFCB5F5B8/)
-
-**Little Bear Labs**
-
-* [Senior Backend Engineer](https://apply.workable.com/little-bear-labs/j/D88494543C/)
-
-**Kraken**
-
-* [Several Rust Engineering Positions Available](https://jobs.lever.co/kraken?team=Engineering)
-
-**Subspace Labs**
-
-* [Several Rust Engineering Positions Available](https://jobs.lever.co/subspacelabs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
