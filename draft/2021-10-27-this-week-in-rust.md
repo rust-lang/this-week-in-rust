@@ -31,7 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [Async on Embedded: Present & Future](https://tweedegolf.nl/blog/63/async-on-embedded-present-and-future)
-* [No Time forWriting a Linux-compatible kernel in Rust Chrono](https://passcod.name/technical/no-time-for-chrono.html)
+* [No Time for Chrono](https://passcod.name/technical/no-time-for-chrono.html)
 * [Pointer Fu: An adventure in the Tokio code base](https://senyosimpson.com/short-forms/pointer-fu-tokio/)
 * [How actix-web's application state and Data extractor works internally](https://dev.to/joshchoo/how-actix-webs-application-state-and-data-extractor-works-internally-fm1)
 * [Building an Emacs lisp VM in Rust](https://coredumped.dev/2021/10/21/building-an-emacs-lisp-vm-in-rust/)
