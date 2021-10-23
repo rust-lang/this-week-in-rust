@@ -92,6 +92,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 * [wahn/rs_pbrt - [parse_blend_file] Attic Close-up](https://github.com/wahn/rs_pbrt/issues/136)
+* [kdr-aus/ogma - Implement filter on Str input type](https://github.com/kdr-aus/ogma/issues/16)
+* [kdr-aus/ogma - Implement `From<char for Str`](https://github.com/kdr-aus/divvy/issues/2)
+* [ockam-network/ockam - Compile to WebAssembly](https://github.com/ockam-network/ockam/issues/2121)
+* [ockam-network/ockam - Ockam TCP Transport using smoltcp](https://github.com/ockam-network/ockam/issues/1804)
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
@@ -167,12 +171,17 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [disposition: merge] [Thread local Cell methods.](https://github.com/rust-lang/rfcs/pull/3184)
+* [disposition: merge] [Constrained Naked Functions](https://github.com/rust-lang/rfcs/pull/2972)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [Update `std::env::temp_dir` to use GetTempPath2 on Windows when available.](https://github.com/rust-lang/rust/pull/89999)
+* [disposition: merge] [Stabilize `const_raw_ptr_deref` for `*const T`](https://github.com/rust-lang/rust/pull/89551)
+* [disposition: merge] [Clarification of default socket flags](https://github.com/rust-lang/rust/pull/88805)
+* [use CLOCK_BOOTTIME in `Instant::now`](https://github.com/rust-lang/rust/pull/88714)
 * [disposition: merge] [Implement `Termination` for `Result<Infallible, E>`](https://github.com/rust-lang/rust/pull/88601)
 * [disposition: close] [Port clippy lint `redundant_field_names` to compiler](https://github.com/rust-lang/rust/pull/87512)
+* [disposition: merge] [GATs: Decide whether to have defaults for `where Self: 'a`](https://github.com/rust-lang/rust/issues/87479)
 * [disposition: merge] [Stabilize `File::options()`](https://github.com/rust-lang/rust/pull/85766)
 * [disposition: merge] [Tracking Issue for relaxed struct unsizing rules](https://github.com/rust-lang/rust/issues/81793)
 * [disposition: merge] [Tracking Issue for `option_result_unwrap_unchecked`](https://github.com/rust-lang/rust/issues/81383)
@@ -181,7 +190,7 @@ decision. Express your opinions now.
 
 ### New RFCs
 
-*No new RFCs were proposed this week.*
+* [Static async fn in traits](https://github.com/rust-lang/rfcs/pull/3185)
 
 ## Upcoming Events
 
