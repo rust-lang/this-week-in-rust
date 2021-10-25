@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [video] [Writing a Programming Language (in Rust) 2: Branching, Literals and Addition](https://www.youtube.com/watch?v=rBGPAmfsVjo)
+
 ### Newsletters
 
 ### Observations/Thoughts
@@ -25,6 +27,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 ### Miscellaneous
+
+* [Writing a Programming Language (in Rust): Weekly Stream, Saturdays at 15:00~17:00 GMT+1](https://www.twitch.tv/ezanmoto)
 
 ## Crate of the Week
 
