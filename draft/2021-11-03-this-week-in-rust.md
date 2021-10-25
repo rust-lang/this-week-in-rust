@@ -30,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Advanced Serde - Loose type deserialization for non-self-describing protocols](https://medium.com/chainsafe-systems/mina-rs-update-some-rust-serialization-tricks-with-serde-153518830f97)
 * [I'm learning Rust (video) - Setup & fundamentals](https://youtu.be/K2oHkucybNs)
 * [An Intro to the Rust Programming Language](https://acv.engineering/posts/an-intro-to-the-rust-programming-language/)
+* [Getting Started with Rust on a Raspberry Pi Pico (Part 2)](https://reltech.substack.com/p/getting-started-with-raspberry-pi)
 
 ### Miscellaneous
 
@@ -174,6 +175,19 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**System Initiative**
+
+* [Software Engineer III (Remote)](https://www.systeminit.com/jobs/software-engineer-iii)
+
+**AdInMo**
+
+* [Senior Back-End Engineer (UK, UA or Remote)](https://www.adinmo.com/project/senior-back-end-engineer/)
+
+**Metawork**
+
+* [Product Engineer (Remote US)](https://jobs.ashbyhq.com/metawork/05a36b82-22d4-48c6-b31d-93ea785a3cea)
+* [Platform Engineer (Remote US)](https://jobs.ashbyhq.com/metawork/90575f85-de36-461e-a540-fbee126ad186)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
