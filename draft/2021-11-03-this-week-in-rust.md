@@ -16,19 +16,30 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
+* [Announcing Rust 1.56.1](https://blog.rust-lang.org/2021/11/01/Rust-1.56.1.html)
+* [Security advisory for rustc (CVE-2021-42574)](https://blog.rust-lang.org/2021/11/01/cve-2021-42574.html)
+
 ### Foundation
+
+* [Member Spotlight: Tag1](https://foundation.rust-lang.org/posts/2021-10-26-member-spotlight-tag1/)
 
 ### Project/Tooling Updates
 
 * [SixtyFPS (GUI crate): Changelog for 31th of October 2021](https://sixtyfps.io/thisweek/2021-11-01.html)
 * [MirChecker: Detecting Bugs in Rust Programs via Static Analysis](https://mssun.me/research/ccs21mirchecker.html)
+* [apollo-rs: spec-compliant GraphQL tools in Rust](https://www.apollographql.com/blog/announcement/tooling/apollo-rs-graphql-tools-in-rust/?utm_campaign=2021-11-01_apollo-rs&utm_medium=social&utm_source=twitter)
+* [GCC Rust Monthly Report #11 October 2021](https://thephilbert.io/2021/11/01/gcc-rust-monthly-report-11-october-2021/)
+
+### Research Papers
+
+* [Rudra: Finding Memory Safety Bugs in Rust at the Ecosystem Scale](https://www.micahlerner.com/2021/10/31/rudra-finding-memory-safety-bugs-in-rust-at-the-ecosystem-scale.html)
 
 ### Observations/Thoughts
 
 * [The Tree Structure of File Systems](https://fkohlgrueber.github.io/blog/tree-structure-of-file-systems/)
-[[ZH] Rust Chinese Magazine Issue 10 has been released!](https://rustmagazine.github.io/rust_magazine_2021/chapter_10/toc.html)
-[[ZH] The first draft of the Rust Secure Coding Specification in Chinese has been released. Everyone is welcome to contribute!](https://rust-coding-guidelines.github.io/rust-coding-guidelines-zh/)
-[[ZH] Trojan Source｜ Hiding invisible vulnerabilities in Rust code](https://zhuanlan.zhihu.com/p/428305373)
+* [[ZH] Rust Chinese Magazine Issue 10 has been released!](https://rustmagazine.github.io/rust_magazine_2021/chapter_10/toc.html)
+* [[ZH] The first draft of the Rust Secure Coding Specification in Chinese has been released. Everyone is welcome to contribute!](https://rust-coding-guidelines.github.io/rust-coding-guidelines-zh/)
+* [[ZH] Trojan Source｜ Hiding invisible vulnerabilities in Rust code](https://zhuanlan.zhihu.com/p/428305373)
 
 ### Rust Walkthroughs
 
@@ -37,6 +48,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [An Intro to the Rust Programming Language](https://acv.engineering/posts/an-intro-to-the-rust-programming-language/)
 * [Getting Started with Rust on a Raspberry Pi Pico (Part 2)](https://reltech.substack.com/p/getting-started-with-raspberry-pi)
 * [Anatomy of a Terminal Emulator](https://www.poor.dev/blog/terminal-anatomy/)
+* [Working with signals in Rust - some things that signal handlers can't handle](https://www.jameselford.com/blog/working-with-signals-in-rust-pt1-whats-a-signal/)
+* [Beginning Rust: Writing a Small CLI Tool](https://www.shogan.co.uk/development/my-first-rust-app-initial-impressions-and-what-i-struggled-with/)
+* [Git Internals part 1: The git object model](https://dev.to/calebsander/git-internals-part-1-the-git-object-model-474m)
 * [video] [Writing a Programming Language (in Rust) 3: List destructuring](https://www.youtube.com/watch?v=1EU-uUwbRx8)
 * [video] [Writing a Programming Language (in Rust) 4: List unspread and list iteration](https://www.youtube.com/watch?v=w31vYT2UVXU)
 * [video] [Writing a Programming Language (in Rust) 5: Function calls (Part 1)](https://www.youtube.com/watch?v=NRf2v9eCzDg)
@@ -182,6 +196,10 @@ Email the [Rust Community Team][community] for access.
 **AdInMo**
 
 * [Senior Back-End Engineer (UK, UA or Remote)](https://www.adinmo.com/project/senior-back-end-engineer/)
+
+**Sigma Prime**
+
+* [Rust Network Developer (Remote)](https://github.com/sigp/positions-vacant/blob/master/rust-network-developer.md)
 
 **Metawork**
 
