@@ -159,6 +159,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Quickwit**
+
+* [Senior Rust Engineer (Remote: UTC-1..=UTC+9)](https://quickwit.io/jobs/distributed-software-engineer)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
