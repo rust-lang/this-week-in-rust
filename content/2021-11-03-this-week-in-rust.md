@@ -1,6 +1,6 @@
 Title: This Week in Rust 415
 Number: 415
-Date: 2021-10-28
+Date: 2021-11-03
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -227,7 +227,7 @@ Email the [Rust Community Team][community] for access.
 * [Product Engineer (Remote US)](https://jobs.ashbyhq.com/metawork/05a36b82-22d4-48c6-b31d-93ea785a3cea)
 * [Platform Engineer (Remote US)](https://jobs.ashbyhq.com/metawork/90575f85-de36-461e-a540-fbee126ad186)
 
-** Timescale
+**Timescale**
 
 * [Senior Rust Engineer (Remote: US Timezones)](https://boards.greenhouse.io/timescale/jobs/5542785002)
 
