@@ -18,13 +18,21 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [SixtyFPS (GUI crate) weekly report for 24th of October 2021](https://sixtyfps.io/thisweek/2021-10-25.html)
 * [video] [Writing a Programming Language (in Rust) 2: Branching, Literals and Addition](https://www.youtube.com/watch?v=rBGPAmfsVjo)
 
 ### Newsletters
 
 ### Observations/Thoughts
 
+* [Async on Embedded: Present & Future](https://tweedegolf.nl/blog/63/async-on-embedded-present-and-future)
+* [No Time for Chrono](https://passcod.name/technical/no-time-for-chrono.html)
+
 ### Rust Walkthroughs
+
+* [series] [Build Your Text Editor With Rust! Final Part](https://medium.com/@otukof/build-your-text-editor-with-rust-final-part-4c841a649900)
+
+* [Custom Logging in Rust using tracing and tracing-subscriber, part 2](https://burgers.io/custom-logging-in-rust-using-tracing-part-2)
 
 ### Miscellaneous
 
@@ -49,9 +57,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
-* [Paccat is looking for contributors](https://users.rust-lang.org/t/twir-call-for-participation/4821/395)
-* [ockam - Use Zeroize for temporary sensitive data](https://github.com/ockam-network/ockam/issues/2051)
-* [ockam - Remove None errors from our error enums](https://github.com/ockam-network/ockam/issues/2055)
+* [wahn/rs_pbrt - [parse_blend_file] Attic Close-up](https://github.com/wahn/rs_pbrt/issues/136)
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
@@ -116,40 +122,37 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Multiple artifact deps on the same crate with different names, for different targets](https://github.com/rust-lang/rfcs/pull/3176)
+* [disposition: merge] [Thread local Cell methods.](https://github.com/rust-lang/rfcs/pull/3184)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize is_symlink() for Metadata and Path](https://github.com/rust-lang/rust/pull/89677)
+* [disposition: merge] [Update `std::env::temp_dir` to use GetTempPath2 on Windows when available.](https://github.com/rust-lang/rust/pull/89999)
 * [disposition: merge] [Implement `Termination` for `Result<Infallible, E>`](https://github.com/rust-lang/rust/pull/88601)
 * [disposition: close] [Port clippy lint `redundant_field_names` to compiler](https://github.com/rust-lang/rust/pull/87512)
-* [disposition: merge] [Make two Paths unequal if they differ in trailing slash](https://github.com/rust-lang/rust/pull/87339)
 * [disposition: merge] [Stabilize `File::options()`](https://github.com/rust-lang/rust/pull/85766)
 * [disposition: merge] [Tracking Issue for relaxed struct unsizing rules](https://github.com/rust-lang/rust/issues/81793)
 * [disposition: merge] [Tracking Issue for `option_result_unwrap_unchecked`](https://github.com/rust-lang/rust/issues/81383)
-* [disposition: merge] [Tracking Issue for inherent_ascii_escape](https://github.com/rust-lang/rust/issues/77174)
 * [disposition: merge] [Tracking Issue for `destructuring_assignment`](https://github.com/rust-lang/rust/issues/71126)
 * [disposition: close] [Tracking issue for `slice_concat_ext` stabilization](https://github.com/rust-lang/rust/issues/27747)
 
 ### New RFCs
 
-* [Thread local Cell methods.](https://github.com/rust-lang/rfcs/pull/3184)
-* [RFC: Console Input Simplified](https://github.com/rust-lang/rfcs/pull/3183)
+*No new RFCs were proposed this week.*
 
 ## Upcoming Events
 
 ### Online
 
-* [October 20, 2021, Buffalo, NY, US - Buffalo Rust User Group, Alternate Day - Buffalo Rust](https://www.meetup.com/Buffalo-Rust-Meetup/events/281236385/)
-* [October 20, 2021, Vancouver, BC, CA - WASM plugin for Istio - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsyccnbbc/)
-* [October 22, 2021, Iran - The First Rust Iran online meetup - Rust Iran Meetup](https://rust-meetup.ir/)
-* [October 26, 2021, Dublin, IE - Rust Dublin October Remote Meetup 🎃 - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/281406298)
-* [October 26, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
-* [October 26, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccnbjc/)
 * [October 27, 2021, London, UK - Rust London Ockam Takeover - Rust London User Group](https://skillsmatter.com/meetups/13606-rust-london-october2021#community)
 * [October 27, 2021, Phoenix, AZ - Desert Rust Halloween - Desert Rust](https://www.meetup.com/Desert-Rustaceans/events/281215858/)
 * [October 28, 2021, Copenhagen, DK - Hack Night #22 - Copenhagen Rust Group](https://cph.rs/)
 * [November 2, 2021, Buffalo, NY, US - First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/281558952/)
+* [November 9, 2021, Seattle, WA, US - Monthly Meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccpbmb/)
+* [November 10, 2021, Malaysia - Rust Meetup - Rust Malaysia](https://discord.gg/9Xj8H2EXTD)
+
+### North America
+
+* [November 10, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/lhpkmsyccpbnb/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -159,6 +162,22 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Snapview**
+
+* [(Senior) Rust Backend Engineer (m/f/d (Remote)](https://snapview.jobs.personio.de/job/381815?display=en&language=en)
+
+**Quickwit**
+
+* [Senior Rust Engineer (Remote: UTC-1..=UTC+9)](https://quickwit.io/jobs/distributed-software-engineer)
+
+**Seaplane**
+
+* [Rust Software Engineer (Remote)](https://apply.workable.com/seaplane/j/CEFCB5F5B8/)
+
+**Kraken**
+
+* [Several Rust Engineering Positions Available](https://jobs.lever.co/kraken?team=Engineering)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
