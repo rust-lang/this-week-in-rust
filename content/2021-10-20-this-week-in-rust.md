@@ -90,7 +90,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 * [fix ICE with `let...else` and `ref mut`](https://github.com/rust-lang/rust/pull/89965)
 * [fix an ICE with TAITs and Future](https://github.com/rust-lang/rust/pull/89946)
-* [suggest  Box::pin` when `Pin::new` is used instead](https://github.com/rust-lang/rust/pull/89870)
+* [suggest `Box::pin` when `Pin::new` is used instead](https://github.com/rust-lang/rust/pull/89870)
 * [fix incorrect `Box::pin` suggestion](https://github.com/rust-lang/rust/pull/89390)
 * [nicer error message if the user attempts to do `let`...`else if`](https://github.com/rust-lang/rust/pull/89974)
 * [index and hash HIR as part of lowering](https://github.com/rust-lang/rust/pull/89124)
