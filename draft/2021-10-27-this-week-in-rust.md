@@ -28,9 +28,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [No Time for Chrono](https://passcod.name/technical/no-time-for-chrono.html)
 
 ### Rust Walkthroughs
-
+* [🦀 How We Built a Cross-Platform Library with Rust] (https://www.osohq.com/post/cross-platform-rust-libraries)
 * [series] [Build Your Text Editor With Rust! Final Part](https://medium.com/@otukof/build-your-text-editor-with-rust-final-part-4c841a649900)
-
 * [Custom Logging in Rust using tracing and tracing-subscriber, part 2](https://burgers.io/custom-logging-in-rust-using-tracing-part-2)
 
 ### Miscellaneous
