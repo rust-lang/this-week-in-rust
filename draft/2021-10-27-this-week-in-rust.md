@@ -25,7 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [SixtyFPS (GUI crate) weekly report for 24th of October 2021](https://sixtyfps.io/thisweek/2021-10-25.html)
 * [Releasing Gloo v0.4.0: Gloo is a modular toolkit for building fast, reliable Web applications and libraries with Rust and Wasm ](https://gloo-rs.web.app/blog/release-0.4.0/)
-* [video] [Writing a Programming Language (in Rust) 2: Branching, Literals and Addition](https://www.youtube.com/watch?v=rBGPAmfsVjo)
+* [This week in Fluvio #10: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0010/)
 
 ### Newsletters
 
@@ -49,6 +49,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Writing a QML Application in Rust (Part 1)](https://dev.to/ayush1325/writing-a-qml-application-in-rust-part-1-3pgi)
 * [Use Rust for embedded development](https://opensource.com/article/21/10/rust-embedded-development)
 * [Supercharge Your NodeJS With Rust](https://yieldcode.blog/supercharge-nodejs-with-rust/)
+* [video] [Writing a Programming Language (in Rust) 2: Branching, Literals and Addition](https://www.youtube.com/watch?v=rBGPAmfsVjo)
 
 ### Miscellaneous
 
