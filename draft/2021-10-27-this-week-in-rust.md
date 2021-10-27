@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [SixtyFPS (GUI crate) weekly report for 24th of October 2021](https://sixtyfps.io/thisweek/2021-10-25.html)
 * [Releasing Gloo v0.4.0: Gloo is a modular toolkit for building fast, reliable Web applications and libraries with Rust and Wasm ](https://gloo-rs.web.app/blog/release-0.4.0/)
+* [video] [Writing a Programming Language (in Rust) 2: Branching, Literals and Addition](https://www.youtube.com/watch?v=rBGPAmfsVjo)
 
 ### Newsletters
 
@@ -35,6 +36,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Builder with typestate in Rust](https://www.greyblake.com/blog/2021-10-25-builder-with-typestate-in-rust/)
 
 ### Miscellaneous
+
+* [Writing a Programming Language (in Rust): Weekly Stream, Saturdays at 15:00~17:00 GMT+1](https://www.twitch.tv/ezanmoto)
 
 ## Crate of the Week
 
