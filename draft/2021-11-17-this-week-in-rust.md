@@ -1,6 +1,6 @@
-Title: This Week in Rust 416
-Number: 416
-Date: 2021-11-10
+Title: This Week in Rust 417
+Number: 417
+Date: 2021-11-17
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -14,61 +14,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-### Official
-
 ### Foundation
-
-* [Launching the Rust Foundation Quarterly AMAs: Join the Conversation](https://foundation.rust-lang.org/posts/2021-11-04-rust-foundation-ama-launch/)
 
 ### Project/Tooling Updates
 
-* [SixtyFPS (GUI crate): Changelog for 7th of November 2021](https://sixtyfps.io/thisweek/2021-11-08.html)
-* [Rust Analyzer Changelog #102](https://rust-analyzer.github.io/thisweek/2021/11/08/changelog-102.html)
-* [Intellij Rust Changelog #159](https://intellij-rust.github.io/2021/11/08/changelog-159.html)
-* [This week in Fluvio #12: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0012/)
-* [This week in Databend #15: an elastic and reliable cloud warehouse](https://datafuselabs.github.io/weekly/2021-11-10-databend-weekly/)
-* [Knurling toolset v0.3.0 has been released!](https://ferrous-systems.com/blog/defmt-3/)
-
-### Research Papers
-
 ### Newsletter
-
-* [This Month in Rust OSDev (October 2021)](https://rust-osdev.com/this-month/2021-10/)
-* [This Month in Rust GameDev #27](https://gamedev.rs/news/027/)
 
 ### Observations/Thoughts
 
-* [Benchmarking symmetric encryption (AEAD) in Rust](https://kerkour.com/rust-symmetric-encryption-aead-benchmark/)
-* [View types for Rust](https://smallcultfollowing.com/babysteps//blog/2021/11/05/view-types/)
-* [What Memory Model Should the Rust Language Use?](https://paulmck.livejournal.com/66175.html)
-* [C++ Move Semantics Considered Harmful (Rust is better)](https://www.thecodedmessage.com/posts/cpp-move/)
-* [It's Time to Get Hyped About Const Generics in Rust](https://nora.codes/post/its-time-to-get-hyped-about-const-generics-in-rust/)
-* [Automating Ember releases with Rust](https://simplabs.com/blog/2021/11/09/automating-ember-learning-releases-with-rust/)
-* [Breakout: optimizing rust+WASM](https://pci.github.io/blog/2021/10/advent-of-code-rust-wasm-and-js/)
-* [How we extended Helm lifecycle with Rust](https://hub.qovery.com/guides/engineering/how_we_extended_helm_lifecycle_with_rust/)
-
 ### Rust Walkthroughs
 
-* [Run Your Rust Games in a Browser: Hands-on Rust Bonus Content](https://hands-on-rust.com/2021/11/06/run-your-rust-games-in-a-browser-hands-on-rust-bonus-content/)
-* [Building My First Command Line Interface (CLI) with Rust](https://devtails.medium.com/building-my-first-command-line-interface-cli-with-rust-b6beb9c284e0)
-* [Making My Website Part 2: The Webserver](https://www.rotoclone.zone/blog/posts/webserver)
-* [Debugging Rust application inside linux container](https://blog.erebe.dev/blog/debug-rust-aplication-inside-container/index.html)
-* [Plugins in Rust: Reducing the Pain with Dependencies](https://nullderef.com/blog/plugin-abi-stable/)
-* [Discover Hidden Secrets in Git Repos with Rust](https://blog.jonaylor.xyz/discover-hidden-secrets-in-git-repos-with-rust)
-* [Prepare your Rust API docs for Github Pages](https://dev.to/deciduously/prepare-your-rust-api-docs-for-github-pages-2n5i)
-* [Using KI18n with Rust and Qml](https://dev.to/ayush1325/using-ki18n-with-rust-and-qml-ja7)
-* [Self Referential Structs in Rust](https://dev.to/arunanshub/self-referential-structs-in-rust-33cm)
-* [series] [video] [Rust Book Club #5: Structs!](https://youtu.be/mBi_FsPKd9w)
-* [video] [Rust Programming - Full 59-Second Course for Beginners](https://youtu.be/rzZt0fEzUXQ)
-* [video] [Causing problems with Rust traits (then fixing them)](https://youtu.be/sNyEgAGkDN8)
-* [audio] [Hyper with Sean McArthur](https://rustacean-station.org/episode/045-sean-arthur/)
-* [series][video] [Writing a Programming Language (in Rust) 6: Function calls (Part 2)](https://www.youtube.com/watch?v=Qm1IM8SEvi8)
-* [series][video] [Writing a Programming Language (in Rust) Extra 6.1: Fixing Environment Lookups](https://www.youtube.com/watch?v=sLmervrw8Ow)
-
 ### Miscellaneous
-
-* [What does `&mut &[T]` mean?](https://ihatereality.space/04-what-mutref-to-slice-ref-means/)
-* [Write Rust lints without forking Clippy](https://blog.trailofbits.com/2021/11/09/write-rust-lints-without-forking-clippy/)
 
 ## Crate of the Week
 
@@ -86,9 +42,6 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
-
-* [ockam - Renumber WebSocket transport type from 2 to 3](https://github.com/ockam-network/ockam/issues/2194)
-* [ockam - Use Zeroize for temporary sensitive data](https://github.com/ockam-network/ockam/issues/2051)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -202,28 +155,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
-**CoScreen**
-
-* [Senior Desktop Application Developer (C++/Rust) (Remote)](https://jobs.lever.co/unusual/59a25c98-5d46-4ce5-8376-758e239bb356)
-
-**Polar Sync**
-
-* [Principal/Senior Software Engineer - Rust/C++ (Remote)](https://polarsync.breezy.hr/p/0c1d3630d39d)
-
-**Tangram**
-
-* [Senior Rust Developer](https://www.tangram.dev/jobs)
-
-**Toposware**
-
-* [Distributed Systems Engineer (Blockchain) (Remote)](https://toposware.bamboohr.com/jobs/view.php?id=23&source=toposware)
-
-**Kraken**
-
-* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
-* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
-* [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
