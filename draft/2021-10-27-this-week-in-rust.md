@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Black Hat Rust October Update (now in Beta 🍾)](https://kerkour.com/blog/black-hat-rust-october-update/)
 * [SixtyFPS (GUI crate) weekly report for 24th of October 2021](https://sixtyfps.io/thisweek/2021-10-25.html)
 * [Releasing Gloo v0.4.0: Gloo is a modular toolkit for building fast, reliable Web applications and libraries with Rust and Wasm ](https://gloo-rs.web.app/blog/release-0.4.0/)
 * [This week in Fluvio #10: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0010/)
