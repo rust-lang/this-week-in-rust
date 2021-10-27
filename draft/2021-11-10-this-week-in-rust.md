@@ -44,6 +44,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [C++ Move Semantics Considered Harmful (Rust is better)](https://www.thecodedmessage.com/posts/cpp-move/)
 * [It's Time to Get Hyped About Const Generics in Rust](https://nora.codes/post/its-time-to-get-hyped-about-const-generics-in-rust/)
 * [Automating Ember releases with Rust](https://simplabs.com/blog/2021/11/09/automating-ember-learning-releases-with-rust/)
+* [Breakout: optimizing rust+WASM](https://pci.github.io/blog/2021/10/advent-of-code-rust-wasm-and-js/)
+* [How we extended Helm lifecycle with Rust](https://hub.qovery.com/guides/engineering/how_we_extended_helm_lifecycle_with_rust/)
 
 ### Rust Walkthroughs
 
@@ -198,6 +200,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**CoScreen**
+
+* [Senior Desktop Application Developer (C++/Rust) (Remote)](https://jobs.lever.co/unusual/59a25c98-5d46-4ce5-8376-758e239bb356)
+
 **Polar Sync**
 
 * [Principal/Senior Software Engineer - Rust/C++ (Remote)](https://polarsync.breezy.hr/p/0c1d3630d39d)
@@ -205,6 +211,16 @@ Email the [Rust Community Team][community] for access.
 **Tangram**
 
 * [Senior Rust Developer](https://www.tangram.dev/jobs)
+
+**Toposware**
+
+* [Distributed Systems Engineer (Blockchain) (Remote)](https://toposware.bamboohr.com/jobs/view.php?id=23&source=toposware)
+
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
