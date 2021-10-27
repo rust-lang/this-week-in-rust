@@ -141,7 +141,7 @@ Revision range: [6384dc..eee8b](https://perf.rust-lang.org/?start=6384dca100f3ce
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Multiple artifact deps on the same crate with different names, for different targets](https://github.com/rust-lang/rfcs/pull/3176)
+*No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -151,23 +151,18 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
+* [disposition: merge] [Cargo --crate-type CLI Argument](https://github.com/rust-lang/rfcs/pull/3180)
 * [disposition: merge] [Static async fn in traits](https://github.com/rust-lang/rfcs/pull/3185)
-* [disposition: merge] [Constrained Naked Functions](https://github.com/rust-lang/rfcs/pull/2972)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [stabilize format args capture](https://github.com/rust-lang/rust/pull/90473)
 * [disposition: merge] [Stabilize -Z symbol-mangling-version=v0 as -C symbol-mangling-version=v0](https://github.com/rust-lang/rust/pull/90128)
 * [disposition: merge] [Stabilize -Z strip as -C strip](https://github.com/rust-lang/rust/pull/90058)
-* [disposition: merge] [Stabilize `const_raw_ptr_deref` for `*const T`](https://github.com/rust-lang/rust/pull/89551)
-* [disposition: merge] [Clarification of default socket flags](https://github.com/rust-lang/rust/pull/88805)
-* [disposition: merge] [use CLOCK_BOOTTIME in `Instant::now`](https://github.com/rust-lang/rust/pull/88714)
-* [disposition: merge] [GATs: Decide whether to have defaults for `where Self: 'a`](https://github.com/rust-lang/rust/issues/87479)
 
 ### New RFCs
 
-* [take on bool](https://github.com/rust-lang/rfcs/pull/3189)
-* [New Cargo and Rust options to support embedding Natvis into a PDB](https://github.com/rust-lang/rfcs/pull/3191)
+* [Add provide_any module to core](https://github.com/rust-lang/rfcs/pull/3192)
 
 ## Upcoming Events
 
