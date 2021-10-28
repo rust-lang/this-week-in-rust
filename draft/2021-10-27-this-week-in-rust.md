@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [SixtyFPS (GUI crate) weekly report for 24th of October 2021](https://sixtyfps.io/thisweek/2021-10-25.html)
 * [Releasing Gloo v0.4.0: Gloo is a modular toolkit for building fast, reliable Web applications and libraries with Rust and Wasm ](https://gloo-rs.web.app/blog/release-0.4.0/)
 * [This week in Fluvio #10: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0010/)
+* [This week in Databend #13: an elastic and reliable cloud warehouse](https://datafuselabs.github.io/weekly/2021-10-27-databend-weekly/)
 
 ### Newsletters
 
