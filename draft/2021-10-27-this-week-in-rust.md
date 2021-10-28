@@ -54,6 +54,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [Rustc Code Reading Club](https://mojosd.medium.com/rust-code-reading-club-8fe356287049)
 * [Writing a Programming Language (in Rust): Weekly Stream, Saturdays at 15:00~17:00 GMT+1](https://www.twitch.tv/ezanmoto)
 * [A cool Rust optimization story](https://quickwit.io/blog/search-a-sorted-block/)
 * [Concordium’s DevX Initiative Launches Rust Maintainers Sponsorship Program](https://finance.yahoo.com/news/concordium-devx-initiative-launches-rust-131500585.html)
