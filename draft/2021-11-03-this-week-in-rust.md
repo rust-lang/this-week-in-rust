@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 ### Miscellaneous
+* [Rust Editor Experience Survey](https://www.guidedtrack.com/programs/kfqw8vs/run)
 
 ## Crate of the Week
 
