@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+[A cool Rust optimization story](https://quickwit.io/blog/search-a-sorted-block/)
+
 ### Miscellaneous
 
 ## Crate of the Week
