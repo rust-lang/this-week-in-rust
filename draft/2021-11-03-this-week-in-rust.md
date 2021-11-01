@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+- [Advanced Serde - Loose type deserialization for non-self-describing protocols](https://medium.com/chainsafe-systems/mina-rs-update-some-rust-serialization-tricks-with-serde-153518830f97)
+
 ### Miscellaneous
 
 ## Crate of the Week
