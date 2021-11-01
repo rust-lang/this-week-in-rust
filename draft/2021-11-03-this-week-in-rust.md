@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+[I'm learning Rust (video) - Setup & fundamentals](https://youtu.be/K2oHkucybNs)
+
 ### Miscellaneous
 
 ## Crate of the Week
