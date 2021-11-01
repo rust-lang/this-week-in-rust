@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 ### Miscellaneous
+* [video] [IT] [Introduzione a Rust](https://video.linux.it/videos/watch/01b44259-e257-4bad-9685-8c91735aa08b)
 
 ## Crate of the Week
 
