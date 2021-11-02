@@ -31,9 +31,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [An Intro to the Rust Programming Language](https://acv.engineering/posts/an-intro-to-the-rust-programming-language/)
 
 ### Miscellaneous
-* [Rust Editor Experience Survey](https://www.guidedtrack.com/programs/kfqw8vs/run)
 
-- [Streaming the Reddit API using Fluvio's WASM ArrayMap](https://www.infinyon.com/blog/2021/10/smartstream-array-map-reddit/)
+* [Rust Editor Experience Survey](https://www.guidedtrack.com/programs/kfqw8vs/run)
+* [Streaming the Reddit API using Fluvio's WASM ArrayMap](https://www.infinyon.com/blog/2021/10/smartstream-array-map-reddit/)
+* [video] [IT] [Introduzione a Rust](https://video.linux.it/videos/watch/01b44259-e257-4bad-9685-8c91735aa08b)
 
 ## Crate of the Week
 
