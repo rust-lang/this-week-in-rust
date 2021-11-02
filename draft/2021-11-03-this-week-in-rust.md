@@ -28,6 +28,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+- [Streaming the Reddit API using Fluvio's WASM ArrayMap](https://www.infinyon.com/blog/2021/10/smartstream-array-map-reddit/)
+
 ## Crate of the Week
 
 This week's crate is [cargo-crev](https://web.crev.dev/rust-reviews/), a tool to distribute security review of the crates we all depend on.
