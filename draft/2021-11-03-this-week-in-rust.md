@@ -20,13 +20,22 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [SixtyFPS (GUI crate): Changelog for 31th of October 2021](https://sixtyfps.io/thisweek/2021-11-01.html)
+* [MirChecker: Detecting Bugs in Rust Programs via Static Analysis](https://mssun.me/research/ccs21mirchecker.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
 
-- [Advanced Serde - Loose type deserialization for non-self-describing protocols](https://medium.com/chainsafe-systems/mina-rs-update-some-rust-serialization-tricks-with-serde-153518830f97)
+* [Advanced Serde - Loose type deserialization for non-self-describing protocols](https://medium.com/chainsafe-systems/mina-rs-update-some-rust-serialization-tricks-with-serde-153518830f97)
+* [I'm learning Rust (video) - Setup & fundamentals](https://youtu.be/K2oHkucybNs)
+* [An Intro to the Rust Programming Language](https://acv.engineering/posts/an-intro-to-the-rust-programming-language/)
 
 ### Miscellaneous
+
+* [Rust Editor Experience Survey](https://www.guidedtrack.com/programs/kfqw8vs/run)
+* [Streaming the Reddit API using Fluvio's WASM ArrayMap](https://www.infinyon.com/blog/2021/10/smartstream-array-map-reddit/)
+* [video] [IT] [Introduzione a Rust](https://video.linux.it/videos/watch/01b44259-e257-4bad-9685-8c91735aa08b)
 
 ## Crate of the Week
 
