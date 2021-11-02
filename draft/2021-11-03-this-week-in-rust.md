@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [SixtyFPS (GUI crate): Changelog for 31th of October 2021](https://sixtyfps.io/thisweek/2021-11-01.html)
 * [MirChecker: Detecting Bugs in Rust Programs via Static Analysis](https://mssun.me/research/ccs21mirchecker.html)
 
 ### Observations/Thoughts
