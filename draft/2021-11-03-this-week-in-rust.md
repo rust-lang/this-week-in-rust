@@ -26,6 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [I'm learning Rust (video) - Setup & fundamentals](https://youtu.be/K2oHkucybNs)
 * [An Intro to the Rust Programming Language](https://acv.engineering/posts/an-intro-to-the-rust-programming-language/)
 
 ### Miscellaneous
