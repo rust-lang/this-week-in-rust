@@ -25,6 +25,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [The Tree Structure of File Systems](https://fkohlgrueber.github.io/blog/tree-structure-of-file-systems/)
+
 ### Rust Walkthroughs
 
 * [Advanced Serde - Loose type deserialization for non-self-describing protocols](https://medium.com/chainsafe-systems/mina-rs-update-some-rust-serialization-tricks-with-serde-153518830f97)
