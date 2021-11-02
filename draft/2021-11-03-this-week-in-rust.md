@@ -20,13 +20,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [MirChecker: Detecting Bugs in Rust Programs via Static Analysis](https://mssun.me/research/ccs21mirchecker.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
 
-[I'm learning Rust (video) - Setup & fundamentals](https://youtu.be/K2oHkucybNs)
+* [I'm learning Rust (video) - Setup & fundamentals](https://youtu.be/K2oHkucybNs)
+* [An Intro to the Rust Programming Language](https://acv.engineering/posts/an-intro-to-the-rust-programming-language/)
 
 ### Miscellaneous
+* [Rust Editor Experience Survey](https://www.guidedtrack.com/programs/kfqw8vs/run)
+
+- [Streaming the Reddit API using Fluvio's WASM ArrayMap](https://www.infinyon.com/blog/2021/10/smartstream-array-map-reddit/)
 
 ## Crate of the Week
 
