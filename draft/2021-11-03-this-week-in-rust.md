@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Advanced Serde - Loose type deserialization for non-self-describing protocols](https://medium.com/chainsafe-systems/mina-rs-update-some-rust-serialization-tricks-with-serde-153518830f97)
 * [I'm learning Rust (video) - Setup & fundamentals](https://youtu.be/K2oHkucybNs)
 * [An Intro to the Rust Programming Language](https://acv.engineering/posts/an-intro-to-the-rust-programming-language/)
 
