@@ -54,6 +54,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Writing a Programming Language (in Rust) 3: List destructuring](https://www.youtube.com/watch?v=1EU-uUwbRx8)
 * [video] [Writing a Programming Language (in Rust) 4: List unspread and list iteration](https://www.youtube.com/watch?v=w31vYT2UVXU)
 * [video] [Writing a Programming Language (in Rust) 5: Function calls (Part 1)](https://www.youtube.com/watch?v=NRf2v9eCzDg)
+* [video] [Rust London: Building the Internet Of (Trusted) Things with Ockam and Embedded Rust](https://skillsmatter.com/skillscasts/17292-rust-london-october2021)
+* [video] [Rust London: Actor Programming with Ockam Workers](https://skillsmatter.com/skillscasts/17294-actor-programming-with-ockam-workers)
+* [video] [Rust London: How to end-to-end encrypt all application layer communication - with Ockam](https://skillsmatter.com/skillscasts/17295-how-to-end-to-end-encrypt-all-application-layer-communication-with-ockam)
 
 ### Miscellaneous
 
