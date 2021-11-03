@@ -54,6 +54,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Writing a Programming Language (in Rust) 3: List destructuring](https://www.youtube.com/watch?v=1EU-uUwbRx8)
 * [video] [Writing a Programming Language (in Rust) 4: List unspread and list iteration](https://www.youtube.com/watch?v=w31vYT2UVXU)
 * [video] [Writing a Programming Language (in Rust) 5: Function calls (Part 1)](https://www.youtube.com/watch?v=NRf2v9eCzDg)
+* [Getting started with Rust on RISC-V Linux](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/run-ockam-on-riscv)
 
 ### Miscellaneous
 
