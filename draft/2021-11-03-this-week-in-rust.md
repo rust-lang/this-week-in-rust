@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [The Tree Structure of File Systems](https://fkohlgrueber.github.io/blog/tree-structure-of-file-systems/)
 [[ZH] Rust Chinese Magazine Issue 10 has been released!](https://rustmagazine.github.io/rust_magazine_2021/chapter_10/toc.html)
 [[ZH] The first draft of the Rust Secure Coding Specification in Chinese has been released. Everyone is welcome to contribute!](https://rust-coding-guidelines.github.io/rust-coding-guidelines-zh/)
 [[ZH] Trojan Source｜ Hiding invisible vulnerabilities in Rust code](https://zhuanlan.zhihu.com/p/428305373)
