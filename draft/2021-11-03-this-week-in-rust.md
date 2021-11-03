@@ -26,6 +26,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 * [The Tree Structure of File Systems](https://fkohlgrueber.github.io/blog/tree-structure-of-file-systems/)
+[[ZH] Rust Chinese Magazine Issue 10 has been released!](https://rustmagazine.github.io/rust_magazine_2021/chapter_10/toc.html)
+[[ZH] The first draft of the Rust Secure Coding Specification in Chinese has been released. Everyone is welcome to contribute!](https://rust-coding-guidelines.github.io/rust-coding-guidelines-zh/)
+[[ZH] Trojan Source｜ Hiding invisible vulnerabilities in Rust code](https://zhuanlan.zhihu.com/p/428305373)
 
 ### Rust Walkthroughs
 
@@ -33,6 +36,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [I'm learning Rust (video) - Setup & fundamentals](https://youtu.be/K2oHkucybNs)
 * [An Intro to the Rust Programming Language](https://acv.engineering/posts/an-intro-to-the-rust-programming-language/)
 * [Getting Started with Rust on a Raspberry Pi Pico (Part 2)](https://reltech.substack.com/p/getting-started-with-raspberry-pi)
+* [Anatomy of a Terminal Emulator](https://www.poor.dev/blog/terminal-anatomy/)
+* [video] [Writing a Programming Language (in Rust) 3: List destructuring](https://www.youtube.com/watch?v=1EU-uUwbRx8)
+* [video] [Writing a Programming Language (in Rust) 4: List unspread and list iteration](https://www.youtube.com/watch?v=w31vYT2UVXU)
+* [video] [Writing a Programming Language (in Rust) 5: Function calls (Part 1)](https://www.youtube.com/watch?v=NRf2v9eCzDg)
 
 ### Miscellaneous
 
@@ -42,9 +49,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [cargo-crev](https://web.crev.dev/rust-reviews/), a tool to distribute security review of the crates we all depend on.
+This week's crate is [roogle](https://github.com/hkmatsumoto/roogle), a type-based Rust API search engine inspired by Haskell's Hoogle.
 
-As there was no suggestion this week, llogiq is pretty thankful to himself for choosing this crate.
+Thanks to [Hirochika Matsumoto](https://users.rust-lang.org/t/crate-of-the-week/2704/978) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -63,46 +70,40 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-353 pull requests were [merged in the last week][merged]
+316 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-10-04..2021-10-11
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-10-25..2021-11-01
 
-* [implement `split_array` and `split_array_mut`](https://github.com/rust-lang/rust/pull/83233)
-* [normalize MIR with `RevealAll` before optimizations.](https://github.com/rust-lang/rust/pull/85254)
-* [automatic exponential formatting of `f`{`32`, `64`} in `Debug`](https://github.com/rust-lang/rust/pull/86479)
-* [reject octal zeros in `IPv4` addresses](https://github.com/rust-lang/rust/pull/86984)
-* [add support for artifact size profiling](https://github.com/rust-lang/rust/pull/87404)
-* [remove unnecessary condition in `Barrier::wait()`](https://github.com/rust-lang/rust/pull/87440)
-* [make all proc-macro back-compat lints deny-by-default](https://github.com/rust-lang/rust/pull/88041)
-* [stabilise `unix_process_wait_more`, extra `ExitStatusExt` methods](https://github.com/rust-lang/rust/pull/88300)
-* [stabilize feature `saturating_div` for rust 1.58.0](https://github.com/rust-lang/rust/pull/88624)
-* [remove unnecessary bound on `Zip' specialization impl](https://github.com/rust-lang/rust/pull/88789)
-* [deduplicate `panic_fmt`](https://github.com/rust-lang/rust/pull/88860)
-* [give better error for `macro_rules name`](https://github.com/rust-lang/rust/pull/89257)
-* [stabilize `CString::from_vec_with_nul`(`_unchecked`)](https://github.com/rust-lang/rust/pull/89292)
-* [point at overlapping impls when type annotations are needed](https://github.com/rust-lang/rust/pull/89427)
-* [add rustc lint, warning when iterating over hashmaps](https://github.com/rust-lang/rust/pull/89558)
-* [consider types appearing in const expressions to be invariant](https://github.com/rust-lang/rust/pull/89829)
-* [use the "nice E0277 errors" for `!Send` `impl Future` from foreign crate](https://github.com/rust-lang/rust/pull/89889)
-* [don't mark `for` loop iter expression as desugared](https://github.com/rust-lang/rust/pull/89895)
-* [change `Duration::`(`try_`)`from_secs_`{`f32`, `f64`} underflow error](https://github.com/rust-lang/rust/pull/89944)
-* [suggest a case insensitive match name regardless of levenshtein distance](https://github.com/rust-lang/rust/pull/89956)
-* [make `From` impls of `NonZero` integer const](https://github.com/rust-lang/rust/pull/90077)
-* [make more `From` impls `const` (libcore)](https://github.com/rust-lang/rust/pull/90009)
-* [mark {`array`, `slice`}`::`{`from_ref`, `from_mut`} as `const fn`](https://github.com/rust-lang/rust/pull/90162)
-* [avoid overflow in `VecDeque::with_capacity_in()`](https://github.com/rust-lang/rust/pull/90010)
-* [fix MIRI UB in `Vec::swap_remove`](https://github.com/rust-lang/rust/pull/90099)
-* [implement coherence checks for negative trait impls](https://github.com/rust-lang/rust/pull/90104)
-* [make `RSplit<T, P>: Clone  not require `T: Clone`](https://github.com/rust-lang/rust/pull/90117)
-* [codegen-gcc: disable strict aliasing](https://github.com/rust-lang/rustc_codegen_gcc/pull/104)
-* [clippy: warn on structs with a trailing zero-sized array but no `repr` attribute](https://github.com/rust-lang/rust-clippy/pull/7838)
-* [clippy: cover `Result` for `question_mark`](https://github.com/rust-lang/rust-clippy/pull/7840)
-* [clippy: make `useless_format` recognize `format!("")`](https://github.com/rust-lang/rust-clippy/pull/7801)
-* [clippy: avoid `eq_op` in test code](https://github.com/rust-lang/rust-clippy/pull/7811)
-* [clippy: fix FP in `missing_safety_doc` lint](https://github.com/rust-lang/rust-clippy/pull/7849)
-* [clippy: fix FP: no lint when cast is coming from `signum` method call for `cast_possible_truncation` lint](https://github.com/rust-lang/rust-clippy/pull/7850)
-* [clippy: `missing_safety_doc`: handle 'implementation safety' headers as well](https://github.com/rust-lang/rust-clippy/pull/7856)
-* [clippy: fix `match_str_case_mismatch` on uncased chars](https://github.com/rust-lang/rust-clippy/pull/7865)
+* [fix CVE-2021-42574](https://github.com/rust-lang/rust/pull/90462)
+* [add LLVM Control Flow Integrity support to the Rust compiler](https://github.com/rust-lang/rust/pull/89652)
+* [add `-Z no-unique-section-names` to reduce ELF header bloat](https://github.com/rust-lang/rust/pull/89581)
+* [fix: inner attribute followed by outer attribute causing ICE](https://github.com/rust-lang/rust/pull/90267)
+* [skipping verbose diagnostic suggestions when calling `.as_ref()` on type not implementing `AsRef`](https://github.com/rust-lang/rust/pull/90399)
+* [improve and test cross-crate hygiene](https://github.com/rust-lang/rust/pull/90202)
+* [use `SortedMap` in HIR](https://github.com/rust-lang/rust/pull/90145)
+* [stabilize `is_symlink()` for `Metadata` and `Path`](https://github.com/rust-lang/rust/pull/89677)
+* [stabilize `option_result_unwrap_unchecked`](https://github.com/rust-lang/rust/pull/89951)
+* [impl `Pattern` for `char` array](https://github.com/rust-lang/rust/pull/86336)
+* [make most `std::ops` traits `const` on numeric types](https://github.com/rust-lang/rust/pull/89876)
+* [codegen\_gcc: remove unused dependency on object](https://github.com/rust-lang/rustc_codegen_gcc/pull/102)
+* [codegen\_gcc: fix negation operation](https://github.com/rust-lang/rustc_codegen_gcc/pull/108)
+* [bindgen: don't generate 2^64 byte padding fields on unions](https://github.com/rust-lang/rust-bindgen/pull/2108)
+* [bindgen: avoid case of a self-referential type alias](https://github.com/rust-lang/rust-bindgen/pull/2109)
+* [cargo: change `--scrape-examples` flag to `-Z rustdoc-scrape-examples`](https://github.com/rust-lang/cargo/pull/10017)
+* [cargo: scrape code examples from `examples/` directory for rustdoc](https://github.com/rust-lang/cargo/pull/9525)
+* [rustdoc: fix generics generation in search index](https://github.com/rust-lang/rust/pull/88268)
+* [rustdoc: use better highlighting for `*const`, `*mut`, and `&mut`](https://github.com/rust-lang/rust/pull/90278)
+* [rustdoc: remove flicker during page load](https://github.com/rust-lang/rust/pull/90333)
+* [clippy: move `if_then_panic` to pedantic and rename to `manual_assert`](https://github.com/rust-lang/rust-clippy/pull/7810)
+* [clippy: fix false positive in `match_overlapping_arm`](https://github.com/rust-lang/rust-clippy/pull/7847)
+* [clippy: fix `question_mark` false positive on custom error type](https://github.com/rust-lang/rust-clippy/pull/7860)
+* [clippy: add `unit-hash  lint](https://github.com/rust-lang/rust-clippy/pull/7875)
+* [clippy: new lint: `string-slice`](https://github.com/rust-lang/rust-clippy/pull/7878)
+* [clippy: ignore references to type aliases in `ptr_arg`](https://github.com/rust-lang/rust-clippy/pull/7890)
+* [clippy: fix ICE in `undocumented_unsafe_blocks`](https://github.com/rust-lang/rust-clippy/pull/7891)
+* [clippy: disable `if_not_else` lints from firing on `else`-`if`s](https://github.com/rust-lang/rust-clippy/pull/7895)
+* [rustfmt: prevent trailing whitespace in where clause bound predicate](https://github.com/rust-lang/rustfmt/pull/5019)
+* [rustfmt: retain trailing comments in module when using `rustfmt::skip` attribute](https://github.com/rust-lang/rustfmt/pull/5035)
 
 ### Rust Compiler Performance Triage
 
@@ -191,11 +192,15 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I think in general "force the user to think about the extra cases, and be explicit about ignoring them" is definitely idiomatic rust.
+> I always tell myself that code quickly written just to compile looks like Order 66 executed on Christmas day 
+>
+> [...]
+>
+> Clones and unwrapping as far as the eye can see.
 
-– [Daniel Wagner Hall on rust-internals](https://internals.rust-lang.org/t/pre-rfc-add-a-chunk-iterator-to-libcore/15101/16)
+– [Dhghomon on /r/rust](https://www.reddit.com/r/rust/comments/qjgwhr/whats_your_vote_for_funniest_feature_of_rust/hiq37zq)
 
-Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1127) for the suggestion!
+Thanks to [UtherII](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1129) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
