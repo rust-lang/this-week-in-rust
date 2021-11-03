@@ -35,6 +35,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [I'm learning Rust (video) - Setup & fundamentals](https://youtu.be/K2oHkucybNs)
 * [An Intro to the Rust Programming Language](https://acv.engineering/posts/an-intro-to-the-rust-programming-language/)
 * [Getting Started with Rust on a Raspberry Pi Pico (Part 2)](https://reltech.substack.com/p/getting-started-with-raspberry-pi)
+* [Anatomy of a Terminal Emulator](https://www.poor.dev/blog/terminal-anatomy/)
 * [video] [Writing a Programming Language (in Rust) 3: List destructuring](https://www.youtube.com/watch?v=1EU-uUwbRx8)
 * [video] [Writing a Programming Language (in Rust) 4: List unspread and list iteration](https://www.youtube.com/watch?v=w31vYT2UVXU)
 * [video] [Writing a Programming Language (in Rust) 5: Function calls (Part 1)](https://www.youtube.com/watch?v=NRf2v9eCzDg)
