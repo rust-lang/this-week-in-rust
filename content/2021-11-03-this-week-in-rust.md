@@ -54,7 +54,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Beginning Rust: Writing a Small CLI Tool](https://www.shogan.co.uk/development/my-first-rust-app-initial-impressions-and-what-i-struggled-with/)
 * [Git Internals part 1: The git object model](https://dev.to/calebsander/git-internals-part-1-the-git-object-model-474m)
 * [Getting started with Rust on RISC-V Linux](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/run-ockam-on-riscv)
-* [Working with signals in Rust - some things that signal handlers can't handle](https://www.jameselford.com/blog/working-with-signals-in-rust-pt1-whats-a-signal/)
 * [Streaming the Reddit API using Fluvio's WASM ArrayMap](https://www.infinyon.com/blog/2021/10/smartstream-array-map-reddit/)
 * [video] [Rust London: Building the Internet Of (Trusted) Things with Ockam and Embedded Rust](https://skillsmatter.com/skillscasts/17292-rust-london-october2021)
 * [video] [Rust London: Actor Programming with Ockam Workers](https://skillsmatter.com/skillscasts/17294-actor-programming-with-ockam-workers)
