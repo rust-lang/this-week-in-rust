@@ -121,16 +121,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-Multiple regressions this week, several of which were in rollups, without much
-to balance them out on the improvements front.
+The only significant regressions were 1. two PRs that slowed down doc
+generation, and 2. some slowdown from the new lints to flag occurrences of
+Unicode bidirectional control characters. The doc generation regression is being
+investigated.
 
-Triage done by **@simulacrum**.
-Revision range: [d45ed7..3c8f001d](https://perf.rust-lang.org/?start=d45ed7502ad225739270a368528725930f54b7b6&end=3c8f001d454b1b495f7472d8430ef8fdf10aac11&absolute=false&stat=instructions%3Au)
+Triage done by **@pnkfelix**.
+Revision range: [3c8f00..6384dc](https://perf.rust-lang.org/?start=3c8f001d454b1b495f7472d8430ef8fdf10aac11&end=6384dca100f3cedfa031a9204586f94f8612eae5&absolute=false&stat=instructions%3Au)
 
-5 Regressions, 4 Improvements, 3 Mixed; 3 of them in rollups;
-35 comparisons made in total
+6 Regressions, 3 Improvements, 1 Mixed; 4 of them in rollups
+39 comparisons made in total
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-10-26.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-11-02.md)
 
 ### Approved RFCs
 
