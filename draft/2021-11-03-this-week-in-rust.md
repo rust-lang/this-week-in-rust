@@ -51,10 +51,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Working with signals in Rust - some things that signal handlers can't handle](https://www.jameselford.com/blog/working-with-signals-in-rust-pt1-whats-a-signal/)
 * [Beginning Rust: Writing a Small CLI Tool](https://www.shogan.co.uk/development/my-first-rust-app-initial-impressions-and-what-i-struggled-with/)
 * [Git Internals part 1: The git object model](https://dev.to/calebsander/git-internals-part-1-the-git-object-model-474m)
+* [Getting started with Rust on RISC-V Linux](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/run-ockam-on-riscv)
 * [video] [Writing a Programming Language (in Rust) 3: List destructuring](https://www.youtube.com/watch?v=1EU-uUwbRx8)
 * [video] [Writing a Programming Language (in Rust) 4: List unspread and list iteration](https://www.youtube.com/watch?v=w31vYT2UVXU)
 * [video] [Writing a Programming Language (in Rust) 5: Function calls (Part 1)](https://www.youtube.com/watch?v=NRf2v9eCzDg)
-* [Getting started with Rust on RISC-V Linux](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/run-ockam-on-riscv)
+* [video] [Rust London: Building the Internet Of (Trusted) Things with Ockam and Embedded Rust](https://skillsmatter.com/skillscasts/17292-rust-london-october2021)
+* [video] [Rust London: Actor Programming with Ockam Workers](https://skillsmatter.com/skillscasts/17294-actor-programming-with-ockam-workers)
+* [video] [Rust London: How to end-to-end encrypt all application layer communication - with Ockam](https://skillsmatter.com/skillscasts/17295-how-to-end-to-end-encrypt-all-application-layer-communication-with-ockam)
 
 ### Miscellaneous
 
@@ -122,16 +125,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-Multiple regressions this week, several of which were in rollups, without much
-to balance them out on the improvements front.
+The only significant regressions were 1. two PRs that slowed down doc
+generation, and 2. some slowdown from the new lints to flag occurrences of
+Unicode bidirectional control characters. The doc generation regression is being
+investigated.
 
-Triage done by **@simulacrum**.
-Revision range: [d45ed7..3c8f001d](https://perf.rust-lang.org/?start=d45ed7502ad225739270a368528725930f54b7b6&end=3c8f001d454b1b495f7472d8430ef8fdf10aac11&absolute=false&stat=instructions%3Au)
+Triage done by **@pnkfelix**.
+Revision range: [3c8f00..6384dc](https://perf.rust-lang.org/?start=3c8f001d454b1b495f7472d8430ef8fdf10aac11&end=6384dca100f3cedfa031a9204586f94f8612eae5&absolute=false&stat=instructions%3Au)
 
-5 Regressions, 4 Improvements, 3 Mixed; 3 of them in rollups;
-35 comparisons made in total
+6 Regressions, 3 Improvements, 1 Mixed; 4 of them in rollups
+39 comparisons made in total
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-10-26.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-11-02.md)
 
 ### Approved RFCs
 
@@ -167,9 +172,12 @@ decision. Express your opinions now.
 
 ### Online
 
+* [November 3, 2021, Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy Rust](https://www.meetup.com/indyrs/events/281258179)
+* [November 9, 2021, San Diego, CA, US - San Diego Rust November 2021 Tele-Meetup - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/281801412)
 * [November 9, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 * [November 9, 2021, Seattle, WA, US - Monthly Meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccpbmb/)
 * [November 10, 2021, Malaysia - Rust Meetup - Rust Malaysia](https://discord.gg/9Xj8H2EXTD)
+* [November 11, 2021 - Rust For Linux: Writing Safe Abstractions & Drivers - The Linux Foundation](https://linuxfoundation.org/webinars/rust-for-linux-writing-abstractions-and-drivers/)
 * [November 17, 2021, Vancouver, BC, CA - Borrowing and Lifetimes through Metaphors - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsyccpbwb/)
 
 ### North America
@@ -177,7 +185,7 @@ decision. Express your opinions now.
 * [November 10, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/lhpkmsyccpbnb/)
 * [November 10, 2021, Mesa, AZ, US - Booze.rs - Desert Rust](https://www.meetup.com/Desert-Rustaceans/events/281729697)
 
-## Europe
+### Europe
 
 * [November 11, 2021, Belgrade, RS - First! - Belgrade Rust Meetup Group](https://www.meetup.com/belgrade-rust-meetup-group/events/281523208/)
 
@@ -206,6 +214,10 @@ Email the [Rust Community Team][community] for access.
 
 * [Product Engineer (Remote US)](https://jobs.ashbyhq.com/metawork/05a36b82-22d4-48c6-b31d-93ea785a3cea)
 * [Platform Engineer (Remote US)](https://jobs.ashbyhq.com/metawork/90575f85-de36-461e-a540-fbee126ad186)
+
+** Timescale
+
+* [Senior Rust Engineer (Remote: US Timezones)](https://boards.greenhouse.io/timescale/jobs/5542785002)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
