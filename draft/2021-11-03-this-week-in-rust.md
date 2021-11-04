@@ -211,6 +211,10 @@ Email the [Rust Community Team][community] for access.
 * [Product Engineer (Remote US)](https://jobs.ashbyhq.com/metawork/05a36b82-22d4-48c6-b31d-93ea785a3cea)
 * [Platform Engineer (Remote US)](https://jobs.ashbyhq.com/metawork/90575f85-de36-461e-a540-fbee126ad186)
 
+** Timescale
+
+* [Senior Rust Engineer (Remote: US Timezones)](https://boards.greenhouse.io/timescale/jobs/5542785002)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
