@@ -54,12 +54,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Beginning Rust: Writing a Small CLI Tool](https://www.shogan.co.uk/development/my-first-rust-app-initial-impressions-and-what-i-struggled-with/)
 * [Git Internals part 1: The git object model](https://dev.to/calebsander/git-internals-part-1-the-git-object-model-474m)
 * [Getting started with Rust on RISC-V Linux](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/run-ockam-on-riscv)
-* [video] [Writing a Programming Language (in Rust) 3: List destructuring](https://www.youtube.com/watch?v=1EU-uUwbRx8)
-* [video] [Writing a Programming Language (in Rust) 4: List unspread and list iteration](https://www.youtube.com/watch?v=w31vYT2UVXU)
-* [video] [Writing a Programming Language (in Rust) 5: Function calls (Part 1)](https://www.youtube.com/watch?v=NRf2v9eCzDg)
+* [Working with signals in Rust - some things that signal handlers can't handle](https://www.jameselford.com/blog/working-with-signals-in-rust-pt1-whats-a-signal/)
+* [Streaming the Reddit API using Fluvio's WASM ArrayMap](https://www.infinyon.com/blog/2021/10/smartstream-array-map-reddit/)
 * [video] [Rust London: Building the Internet Of (Trusted) Things with Ockam and Embedded Rust](https://skillsmatter.com/skillscasts/17292-rust-london-october2021)
 * [video] [Rust London: Actor Programming with Ockam Workers](https://skillsmatter.com/skillscasts/17294-actor-programming-with-ockam-workers)
 * [video] [Rust London: How to end-to-end encrypt all application layer communication - with Ockam](https://skillsmatter.com/skillscasts/17295-how-to-end-to-end-encrypt-all-application-layer-communication-with-ockam)
+* [video] [Implementing Hazard Pointers in Rust (part 3)](https://www.youtube.com/watch?v=tGn0mQF0804)
+* [series] [video] [Writing a Programming Language (in Rust) 3: List destructuring](https://www.youtube.com/watch?v=1EU-uUwbRx8)
+* [series] [video] [Writing a Programming Language (in Rust) 4: List unspread and list iteration](https://www.youtube.com/watch?v=w31vYT2UVXU)
+* [series] [video] [Writing a Programming Language (in Rust) 5: Function calls (Part 1)](https://www.youtube.com/watch?v=NRf2v9eCzDg)
+* [series] [video] [Rust Book Club](https://www.youtube.com/watch?v=Ml8kwsq_PSo&list=PLv0rYYvcn-23cGZUATZdCN-mX4Yx_HFy4&index=1)
 
 ### Miscellaneous
 
@@ -83,6 +87,9 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [ockam - Remove/clean up pub extern crate in top level of ockam_core](https://github.com/ockam-network/ockam/issues/2161)
+* [ockam - Remove unnecessary core/heapless/hashbrown re-exports from signature_core::lib](https://github.com/ockam-network/ockam/issues/2162)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -145,7 +152,7 @@ Revision range: [3c8f00..6384dc](https://perf.rust-lang.org/?start=3c8f001d454b1
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [Multiple artifact deps on the same crate with different names, for different targets](https://github.com/rust-lang/rfcs/pull/3176)
 
 ### Final Comment Period
 
@@ -155,11 +162,13 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Thread local Cell methods.](https://github.com/rust-lang/rfcs/pull/3184)
+* [disposition: merge] [Static async fn in traits](https://github.com/rust-lang/rfcs/pull/3185)
 * [disposition: merge] [Constrained Naked Functions](https://github.com/rust-lang/rfcs/pull/2972)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
+* [disposition: merge] [stabilize format args capture](https://github.com/rust-lang/rust/pull/90473)
+* [disposition: merge] [Stabilize -Z symbol-mangling-version=v0 as -C symbol-mangling-version=v0](https://github.com/rust-lang/rust/pull/90128)
 * [disposition: merge] [Stabilize -Z strip as -C strip](https://github.com/rust-lang/rust/pull/90058)
 * [disposition: merge] [Stabilize `const_raw_ptr_deref` for `*const T`](https://github.com/rust-lang/rust/pull/89551)
 * [disposition: merge] [Clarification of default socket flags](https://github.com/rust-lang/rust/pull/88805)
@@ -169,6 +178,7 @@ decision. Express your opinions now.
 ### New RFCs
 
 * [take on bool](https://github.com/rust-lang/rfcs/pull/3189)
+* [New Cargo and Rust options to support embedding Natvis into a PDB](https://github.com/rust-lang/rfcs/pull/3191)
 
 ## Upcoming Events
 
