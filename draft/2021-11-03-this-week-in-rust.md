@@ -29,6 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [MirChecker: Detecting Bugs in Rust Programs via Static Analysis](https://mssun.me/research/ccs21mirchecker.html)
 * [apollo-rs: spec-compliant GraphQL tools in Rust](https://www.apollographql.com/blog/announcement/tooling/apollo-rs-graphql-tools-in-rust/?utm_campaign=2021-11-01_apollo-rs&utm_medium=social&utm_source=twitter)
 * [GCC Rust Monthly Report #11 October 2021](https://thephilbert.io/2021/11/01/gcc-rust-monthly-report-11-october-2021/)
+* [This week in Fluvio #11: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0011/)
 * [This week in Databend #14: an elastic and reliable cloud warehouse](https://datafuselabs.github.io/weekly/2021-11-03-databend-weekly/)
 
 ### Research Papers
