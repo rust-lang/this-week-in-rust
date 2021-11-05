@@ -136,7 +136,7 @@ decision. Express your opinions now.
 
 ## Upcoming Events
 
-Events between November 10th and November 24th
+Rusty Events between 11/10-11/24 🦀
 
 ### Online
 
