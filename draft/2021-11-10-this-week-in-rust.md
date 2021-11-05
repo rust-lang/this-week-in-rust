@@ -136,11 +136,16 @@ decision. Express your opinions now.
 
 ## Upcoming Events
 
+Events between November 10th and November 24th
+
 ### Online
 
 * [November 10, 2021, Malaysia - Rust Meetup - Rust Malaysia](https://discord.gg/9Xj8H2EXTD)
 * [November 11, 2021 - Rust For Linux: Writing Safe Abstractions & Drivers - The Linux Foundation](https://linuxfoundation.org/webinars/rust-for-linux-writing-abstractions-and-drivers/)
+* [November 16, 2021 - The Rust Foundation Ask Me Anything (AMA) - Rust Foundation](https://zoom.us/webinar/register/WN_BNOwcv_TS7aMpGNGEaTgEQ)
 * [November 17, 2021, Vancouver, BC, CA - Borrowing and Lifetimes through Metaphors - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsyccpbwb/)
+* [November 17, 2021, Houston, TX, US - A Functional Introduction to Rust - Houston Functional Programming User Group](https://www.meetup.com/houston-functional-programming-users-group/events/281526282)
+* [November 23, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 
 ### North America
 
