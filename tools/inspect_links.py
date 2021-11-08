@@ -48,10 +48,7 @@ TRACKING_PARAMETERS = set([
 
 # A list of section titles that will trigger duplicate-tag detection.
 STRICT_TITLES = [
-    'project/tooling updates',
-    'observations/thoughts',
-    'rust walkthroughs',
-    'miscellaneous',
+    'updates from rust community',
 ]
 
 
@@ -78,6 +75,11 @@ def extract_links(html):
     strict_mode = False
     tags = ['a', 'h1', 'h2', 'h3', 'h4']
     urls = []
+
+    # Remember the header level (h2, h3, etc) when we turned on
+    # strict_mode.
+    header_level = None
+
     for tag in bs4.BeautifulSoup(html, 'html.parser').find_all(tags):
         if tag.name == 'a':
             link = tag.get('href')
@@ -86,9 +88,19 @@ def extract_links(html):
                 trimmed_url = parse_url(link)
                 urls.append(trimmed_url)
         else:
+            level = tag.name
+            if header_level and level > header_level:
+                LOG.debug(f'skipping {tag}, overridden at {header_level}')
+                continue
+
             # This is the title of a section. If this title is "strict",
             # we will check for any duplicate links inside it.
+
             strict_mode = is_strict_title(tag.string)
+            if strict_mode:
+                header_level = level
+            else:
+                header_level = None
             LOG.debug(f'found heading tag: {tag} (strict={strict_mode})')
 
     return urls
