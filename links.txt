@@ -2926,3 +2926,48 @@ Number: 414  Date: 2021-10-27
 * [How Linkerd retries HTTP requests with bodies](https://linkerd.io/2021/10/26/how-linkerd-retries-http-requests-with-bodies/)
 * [Build a Scalable Trading Bot With Rust Over the Weekend — Part 2](https://medium.com/coinmonks/build-a-scalable-trading-bot-with-rust-over-the-weekend-part-2-bb7d703eebe7)
 
+Number: 415  Date: 2021-11-03 
+
+### Official
+* [Announcing Rust 1.56.1](https://blog.rust-lang.org/2021/11/01/Rust-1.56.1.html)
+* [Security advisory for rustc (CVE-2021-42574)](https://blog.rust-lang.org/2021/11/01/cve-2021-42574.html)
+### Foundation
+* [Member Spotlight: Tag1](https://foundation.rust-lang.org/posts/2021-10-26-member-spotlight-tag1/)
+### Project/Tooling Updates
+* [SixtyFPS (GUI crate): Changelog for 31th of October 2021](https://sixtyfps.io/thisweek/2021-11-01.html)
+* [MirChecker: Detecting Bugs in Rust Programs via Static Analysis](https://mssun.me/research/ccs21mirchecker.html)
+* [apollo-rs: spec-compliant GraphQL tools in Rust](https://www.apollographql.com/blog/announcement/tooling/apollo-rs-graphql-tools-in-rust/?utm_campaign=2021-11-01_apollo-rs&utm_medium=social&utm_source=twitter)
+* [GCC Rust Monthly Report #11 October 2021](https://thephilbert.io/2021/11/01/gcc-rust-monthly-report-11-october-2021/)
+* [This week in Fluvio #11: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0011/)
+* [This week in Databend #14: an elastic and reliable cloud warehouse](https://datafuselabs.github.io/weekly/2021-11-03-databend-weekly/)
+### Research Papers
+* [Rudra: Finding Memory Safety Bugs in Rust at the Ecosystem Scale](https://www.micahlerner.com/2021/10/31/rudra-finding-memory-safety-bugs-in-rust-at-the-ecosystem-scale.html)
+### Observations/Thoughts
+* [The Tree Structure of File Systems](https://fkohlgrueber.github.io/blog/tree-structure-of-file-systems/)
+* [[ZH] Rust Chinese Magazine Issue 10 has been released!](https://rustmagazine.github.io/rust_magazine_2021/chapter_10/toc.html)
+* [[ZH] The first draft of the Rust Secure Coding Specification in Chinese has been released. Everyone is welcome to contribute!](https://rust-coding-guidelines.github.io/rust-coding-guidelines-zh/)
+* [[ZH] Trojan Source｜ Hiding invisible vulnerabilities in Rust code](https://zhuanlan.zhihu.com/p/428305373)
+### Rust Walkthroughs
+* [Advanced Serde - Loose type deserialization for non-self-describing protocols](https://medium.com/chainsafe-systems/mina-rs-update-some-rust-serialization-tricks-with-serde-153518830f97)
+* [I'm learning Rust (video) - Setup & fundamentals](https://youtu.be/K2oHkucybNs)
+* [An Intro to the Rust Programming Language](https://acv.engineering/posts/an-intro-to-the-rust-programming-language/)
+* [Getting Started with Rust on a Raspberry Pi Pico (Part 2)](https://reltech.substack.com/p/getting-started-with-raspberry-pi)
+* [Anatomy of a Terminal Emulator](https://www.poor.dev/blog/terminal-anatomy/)
+* [Working with signals in Rust - some things that signal handlers can't handle](https://www.jameselford.com/blog/working-with-signals-in-rust-pt1-whats-a-signal/)
+* [Beginning Rust: Writing a Small CLI Tool](https://www.shogan.co.uk/development/my-first-rust-app-initial-impressions-and-what-i-struggled-with/)
+* [Git Internals part 1: The git object model](https://dev.to/calebsander/git-internals-part-1-the-git-object-model-474m)
+* [Getting started with Rust on RISC-V Linux](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/run-ockam-on-riscv)
+* [Streaming the Reddit API using Fluvio's WASM ArrayMap](https://www.infinyon.com/blog/2021/10/smartstream-array-map-reddit/)
+* [video] [Rust London: Building the Internet Of (Trusted) Things with Ockam and Embedded Rust](https://skillsmatter.com/skillscasts/17292-rust-london-october2021)
+* [video] [Rust London: Actor Programming with Ockam Workers](https://skillsmatter.com/skillscasts/17294-actor-programming-with-ockam-workers)
+* [video] [Rust London: How to end-to-end encrypt all application layer communication - with Ockam](https://skillsmatter.com/skillscasts/17295-how-to-end-to-end-encrypt-all-application-layer-communication-with-ockam)
+* [video] [Implementing Hazard Pointers in Rust (part 3)](https://www.youtube.com/watch?v=tGn0mQF0804)
+* [series] [video] [Writing a Programming Language (in Rust) 3: List destructuring](https://www.youtube.com/watch?v=1EU-uUwbRx8)
+* [series] [video] [Writing a Programming Language (in Rust) 4: List unspread and list iteration](https://www.youtube.com/watch?v=w31vYT2UVXU)
+* [series] [video] [Writing a Programming Language (in Rust) 5: Function calls (Part 1)](https://www.youtube.com/watch?v=NRf2v9eCzDg)
+* [series] [video] [Rust Book Club](https://www.youtube.com/watch?v=Ml8kwsq_PSo&list=PLv0rYYvcn-23cGZUATZdCN-mX4Yx_HFy4&index=1)
+### Miscellaneous
+* [Rust Editor Experience Survey](https://www.guidedtrack.com/programs/kfqw8vs/run)
+* [Streaming the Reddit API using Fluvio's WASM ArrayMap](https://www.infinyon.com/blog/2021/10/smartstream-array-map-reddit/)
+* [video] [IT] [Introduzione a Rust](https://video.linux.it/videos/watch/01b44259-e257-4bad-9685-8c91735aa08b)
+
