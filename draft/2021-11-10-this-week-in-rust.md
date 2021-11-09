@@ -52,10 +52,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Prepare your Rust API docs for Github Pages](https://dev.to/deciduously/prepare-your-rust-api-docs-for-github-pages-2n5i)
 * [Using KI18n with Rust and Qml](https://dev.to/ayush1325/using-ki18n-with-rust-and-qml-ja7)
 * [Self Referential Structs in Rust](https://dev.to/arunanshub/self-referential-structs-in-rust-33cm)
-
+* [series] [video] [Rust Book Club #5: Structs!](https://youtu.be/mBi_FsPKd9w)
 * [video] [Rust Programming - Full 59-Second Course for Beginners](https://youtu.be/rzZt0fEzUXQ)
-* [series] [video] [Rust Book Club #5: Structs!](https://www.youtube.com/watch?v=mBi_FsPKd9w)
-* [video] [Causing problems with Rust traits (then fixing them)](https://www.youtube.com/watch?v=sNyEgAGkDN8)
+* [video] [Causing problems with Rust traits (then fixing them)](https://youtu.be/sNyEgAGkDN8)
 * [audio] [Hyper with Sean McArthur](https://rustacean-station.org/episode/045-sean-arthur/)
 
 ### Miscellaneous
