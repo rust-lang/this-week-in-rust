@@ -172,22 +172,33 @@ def inspect_file(filename):
     return links
 
 
-def get_recent_files(dir, count):
+def get_recent_files(dirs, count):
     """ return a list of the N most recent markdown files in `dir`.
 
     We assume the files are named "YYYY-MM-DD-this-week-in-rust-md".
     """
-    LOG.debug(f'searching for {count} recent files in "{dir}"')
-    listing = os.listdir(path=dir)
-    if not listing:
-        raise Exception(f'No files found in {dir}')
-    listing = list(filter(RE_FILENAME.match, listing))
-    if not listing:
-        raise Exception(f'No matching files found in {dir}')
+    LOG.debug(f'searching for {count} recent files in "{dirs}"')
+
+    listing = []
+    for dir in dirs.split(':'):
+        files = os.listdir(path=dir)
+        if not files:
+            raise Exception(f'No files found in {dir}')
+        files = list(filter(RE_FILENAME.match, files))
+        if not files:
+            raise Exception(f'No matching files found in {dir}')
+
+        # create a tuple (file, file+path) so we can sort by filename
+        file_tuples = [(f, os.path.join(dir, f)) for f in files]
+        listing.extend(file_tuples)
+
     listing.sort()
     listing = listing[-count:]
+
+    # return the file+path.
+    listing = [tup[1] for tup in listing]
+
     LOG.info(f'recent files: {listing}')
-    listing = [os.path.join(dir, f) for f in listing]
     return listing
 
 
@@ -209,8 +220,8 @@ def inspect_files(file_list):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--path', default='content',
-                        help="Directory path to inspect")
+    parser.add_argument('--paths', default='content:draft',
+                        help="Directory paths to inspect (colon separated)")
     parser.add_argument('--num-recent', default=5, type=int,
                         help="Number of recent files to inspect")
     parser.add_argument('--debug', action='store_true')
@@ -218,7 +229,7 @@ def main():
     if args.debug:
         LOG.setLevel(logging.DEBUG)
     LOG.debug(f'command-line arguments: {args}')
-    file_list = get_recent_files(args.path, args.num_recent)
+    file_list = get_recent_files(args.paths, args.num_recent)
     inspect_files(file_list)
 
 
