@@ -30,6 +30,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [What does `&mut &[T]` mean?](https://ihatereality.space/04-what-mutref-to-slice-ref-means/)
+
 ## Crate of the Week
 
 This week's crate is [roogle](https://github.com/hkmatsumoto/roogle), a type-based Rust API search engine inspired by Haskell's Hoogle.
