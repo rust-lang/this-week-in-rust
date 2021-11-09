@@ -18,17 +18,45 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Foundation
 
+* [Launching the Rust Foundation Quarterly AMAs: Join the Conversation](https://foundation.rust-lang.org/posts/2021-11-04-rust-foundation-ama-launch/)
+
 ### Project/Tooling Updates
 
 * [SixtyFPS (GUI crate): Changelog for 7th of November 2021](https://sixtyfps.io/thisweek/2021-11-08.html)
+* [Rust Analyzer Changelog #102](https://rust-analyzer.github.io/thisweek/2021/11/08/changelog-102.html)
+* [Intellij Rust Changelog #159](https://intellij-rust.github.io/2021/11/08/changelog-159.html)
 
 ### Research Papers
 
+### Newsletter
+
+* [This Month in Rust OSDev (October 2021)](https://rust-osdev.com/this-month/2021-10/)
+* [This Month in Rust GameDev #27](https://gamedev.rs/news/027/)
+
 ### Observations/Thoughts
+
+* [View types for Rust](https://smallcultfollowing.com/babysteps//blog/2021/11/05/view-types/)
+* [What Memory Model Should the Rust Language Use?](https://paulmck.livejournal.com/66175.html)
+* [C++ Move Semantics Considered Harmful (Rust is better)](https://www.thecodedmessage.com/posts/cpp-move/)
+* [It's Time to Get Hyped About Const Generics in Rust](https://nora.codes/post/its-time-to-get-hyped-about-const-generics-in-rust/)
 
 ### Rust Walkthroughs
 
+* [Working with signals in Rust](https://www.jameselford.com/blog/working-with-signals-in-rust-pt1-whats-a-signal/)
+* [Run Your Rust Games in a Browser: Hands-on Rust Bonus Content](https://hands-on-rust.com/2021/11/06/run-your-rust-games-in-a-browser-hands-on-rust-bonus-content/)
+* [Building My First Command Line Interface (CLI) with Rust](https://devtails.medium.com/building-my-first-command-line-interface-cli-with-rust-b6beb9c284e0)
+* [Making My Website Part 2: The Webserver](https://www.rotoclone.zone/blog/posts/webserver)
+* [Debugging Rust application inside linux container](https://blog.erebe.dev/blog/debug-rust-aplication-inside-container/index.html)
+* [Plugins in Rust: Reducing the Pain with Dependencies](https://nullderef.com/blog/plugin-abi-stable/)
+* [Discover Hidden Secrets in Git Repos with Rust](https://blog.jonaylor.xyz/discover-hidden-secrets-in-git-repos-with-rust)
+* [Prepare your Rust API docs for Github Pages](https://dev.to/deciduously/prepare-your-rust-api-docs-for-github-pages-2n5i)
+* [Using KI18n with Rust and Qml](https://dev.to/ayush1325/using-ki18n-with-rust-and-qml-ja7)
+* [Self Referential Structs in Rust](https://dev.to/arunanshub/self-referential-structs-in-rust-33cm)
+
+* [video] [Rust Programming - Full 59-Second Course for Beginners](https://youtu.be/rzZt0fEzUXQ)
 * [series] [video] [Rust Book Club #5: Structs!](https://www.youtube.com/watch?v=mBi_FsPKd9w)
+* [video] [Causing problems with Rust traits (then fixing them)](https://www.youtube.com/watch?v=sNyEgAGkDN8)
+* [audio] [Hyper with Sean McArthur](https://rustacean-station.org/episode/045-sean-arthur/)
 
 ### Miscellaneous
 
