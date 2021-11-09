@@ -42,7 +42,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
-* [Working with signals in Rust](https://www.jameselford.com/blog/working-with-signals-in-rust-pt1-whats-a-signal/)
 * [Run Your Rust Games in a Browser: Hands-on Rust Bonus Content](https://hands-on-rust.com/2021/11/06/run-your-rust-games-in-a-browser-hands-on-rust-bonus-content/)
 * [Building My First Command Line Interface (CLI) with Rust](https://devtails.medium.com/building-my-first-command-line-interface-cli-with-rust-b6beb9c284e0)
 * [Making My Website Part 2: The Webserver](https://www.rotoclone.zone/blog/posts/webserver)
