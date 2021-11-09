@@ -146,6 +146,7 @@ Rusty Events between 11/10-11/24 🦀
 * [November 16, 2021 - The Rust Foundation Ask Me Anything (AMA) - Rust Foundation](https://zoom.us/webinar/register/WN_BNOwcv_TS7aMpGNGEaTgEQ)
 * [November 17, 2021, Vancouver, BC, CA - Borrowing and Lifetimes through Metaphors - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsyccpbwb/)
 * [November 17, 2021, Houston, TX, US - A Functional Introduction to Rust - Houston Functional Programming User Group](https://www.meetup.com/houston-functional-programming-users-group/events/281526282)
+* [November 17, 2021, Los Angeles, CA, US - Live Coding Session: Mob Programming a Rust Code Kata - Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/281944639)
 * [November 23, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 
 ### North America
