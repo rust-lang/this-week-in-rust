@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [series] [video] [Rust Book Club #5: Structs!](https://www.youtube.com/watch?v=mBi_FsPKd9w)
+
 ### Miscellaneous
 
 ## Crate of the Week
