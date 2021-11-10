@@ -30,9 +30,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [roogle](https://github.com/hkmatsumoto/roogle), a type-based Rust API search engine inspired by Haskell's Hoogle.
+This week's crate is [chumsky](https://github.com/zesterer/chumsky), a friendly parser combinator crate.
 
-Thanks to [Hirochika Matsumoto](https://users.rust-lang.org/t/crate-of-the-week/2704/978) for the suggestion!
+Thanks to [Jan Riemer](https://users.rust-lang.org/t/crate-of-the-week/2704/981) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -51,40 +51,38 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-316 pull requests were [merged in the last week][merged]
+296 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-10-25..2021-11-01
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-11-01..2021-11-08
 
-* [fix CVE-2021-42574](https://github.com/rust-lang/rust/pull/90462)
-* [add LLVM Control Flow Integrity support to the Rust compiler](https://github.com/rust-lang/rust/pull/89652)
-* [add `-Z no-unique-section-names` to reduce ELF header bloat](https://github.com/rust-lang/rust/pull/89581)
-* [fix: inner attribute followed by outer attribute causing ICE](https://github.com/rust-lang/rust/pull/90267)
-* [skipping verbose diagnostic suggestions when calling `.as_ref()` on type not implementing `AsRef`](https://github.com/rust-lang/rust/pull/90399)
-* [improve and test cross-crate hygiene](https://github.com/rust-lang/rust/pull/90202)
-* [use `SortedMap` in HIR](https://github.com/rust-lang/rust/pull/90145)
-* [stabilize `is_symlink()` for `Metadata` and `Path`](https://github.com/rust-lang/rust/pull/89677)
-* [stabilize `option_result_unwrap_unchecked`](https://github.com/rust-lang/rust/pull/89951)
-* [impl `Pattern` for `char` array](https://github.com/rust-lang/rust/pull/86336)
-* [make most `std::ops` traits `const` on numeric types](https://github.com/rust-lang/rust/pull/89876)
-* [codegen\_gcc: remove unused dependency on object](https://github.com/rust-lang/rustc_codegen_gcc/pull/102)
-* [codegen\_gcc: fix negation operation](https://github.com/rust-lang/rustc_codegen_gcc/pull/108)
-* [bindgen: don't generate 2^64 byte padding fields on unions](https://github.com/rust-lang/rust-bindgen/pull/2108)
-* [bindgen: avoid case of a self-referential type alias](https://github.com/rust-lang/rust-bindgen/pull/2109)
-* [cargo: change `--scrape-examples` flag to `-Z rustdoc-scrape-examples`](https://github.com/rust-lang/cargo/pull/10017)
-* [cargo: scrape code examples from `examples/` directory for rustdoc](https://github.com/rust-lang/cargo/pull/9525)
-* [rustdoc: fix generics generation in search index](https://github.com/rust-lang/rust/pull/88268)
-* [rustdoc: use better highlighting for `*const`, `*mut`, and `&mut`](https://github.com/rust-lang/rust/pull/90278)
-* [rustdoc: remove flicker during page load](https://github.com/rust-lang/rust/pull/90333)
-* [clippy: move `if_then_panic` to pedantic and rename to `manual_assert`](https://github.com/rust-lang/rust-clippy/pull/7810)
-* [clippy: fix false positive in `match_overlapping_arm`](https://github.com/rust-lang/rust-clippy/pull/7847)
-* [clippy: fix `question_mark` false positive on custom error type](https://github.com/rust-lang/rust-clippy/pull/7860)
-* [clippy: add `unit-hash  lint](https://github.com/rust-lang/rust-clippy/pull/7875)
-* [clippy: new lint: `string-slice`](https://github.com/rust-lang/rust-clippy/pull/7878)
-* [clippy: ignore references to type aliases in `ptr_arg`](https://github.com/rust-lang/rust-clippy/pull/7890)
-* [clippy: fix ICE in `undocumented_unsafe_blocks`](https://github.com/rust-lang/rust-clippy/pull/7891)
-* [clippy: disable `if_not_else` lints from firing on `else`-`if`s](https://github.com/rust-lang/rust-clippy/pull/7895)
-* [rustfmt: prevent trailing whitespace in where clause bound predicate](https://github.com/rust-lang/rustfmt/pull/5019)
-* [rustfmt: retain trailing comments in module when using `rustfmt::skip` attribute](https://github.com/rust-lang/rustfmt/pull/5035)
+* [improve error when an `.rlib` can't be parsed](https://github.com/rust-lang/rust/pull/88368)
+* [implementation of GATs outlives lint](https://github.com/rust-lang/rust/pull/89970)
+* [add beginner friendly lifetime elision hint to E0623](https://github.com/rust-lang/rust/pull/90179)
+* [add `JoinHandle::is_running`](https://github.com/rust-lang/rust/pull/90439)
+* [suggest `extern crate alloc` when using undeclared module `alloc`](https://github.com/rust-lang/rust/pull/90507)
+* [suggest dereference of `Box` when inner type is expected](https://github.com/rust-lang/rust/pull/90627)
+* [stabilize `relaxed_struct_unsize`](https://github.com/rust-lang/rust/pull/90417)
+* [optimize bidi character detection.](https://github.com/rust-lang/rust/pull/90559)
+* [implement `RefUnwindSafe` for `Rc<T>`](https://github.com/rust-lang/rust/pull/87467)
+* [make `std::thread::available_concurrency` support process-limited number of CPUs](https://github.com/rust-lang/rust/pull/89310)
+* [hashbrown: implement From<array> on HashSet and HashMap](https://github.com/rust-lang/hashbrown/pull/298)
+* [cargo: fix debug panic on download with redirect body.](https://github.com/rust-lang/cargo/pull/10048)
+* [clippy: add `cargo dev lint` to manually run clippy on a file](https://github.com/rust-lang/rust-clippy/pull/7917)
+* [clippy: add suggestion to missing backticks error](https://github.com/rust-lang/rust-clippy/pull/7904)
+* [clippy: advise to put a `::` prefix inside the ticks](https://github.com/rust-lang/rust-clippy/pull/7916)
+* [clippy: fix panics while parsing format string that uses named arg twice](https://github.com/rust-lang/rust-clippy/pull/7906)
+* [clippy: fix ICE in `undocumented_unsafe_blocks`](https://github.com/rust-lang/rust-clippy/pull/7945)
+* [clippy: fix false negative in `match_overlapping_arms`](https://github.com/rust-lang/rust-clippy/pull/7909)
+* [clippy: fix `manual_assert` and `match_wild_err_arm` for `#![no_std]` and Rust 2021](https://github.com/rust-lang/rust-clippy/pull/7851)
+* [clippy: move `non_ascii_literal` to restriction](https://github.com/rust-lang/rust-clippy/pull/7907)
+* [clippy: prevent `clippy::needless_lifetimes` false positive in async function definition](https://github.com/rust-lang/rust-clippy/pull/7901)
+* [clippy: unseparated literal suffix](https://github.com/rust-lang/rust-clippy/pull/7726)
+* [clippy: use .cargo/config.toml instead of .cargo/config](https://github.com/rust-lang/rust-clippy/pull/7918)
+* [clippy: avoid linting `possible_truncation` on bit-reducing operations](https://github.com/rust-lang/rust-clippy/pull/7819)
+* [rustfmt: put empty trait braces on same line if possible](https://github.com/rust-lang/rustfmt/pull/5060)
+* [rustfmt: dedupe and simplify type alias formatting](https://github.com/rust-lang/rustfmt/pull/5068)
+* [rustfmt: dedupe associated item visitation](https://github.com/rust-lang/rustfmt/pull/5069)
+* [rustfmt: handle external mods imported via external → inline load hierarchy](https://github.com/rust-lang/rustfmt/pull/5064)
 
 ### Rust Compiler Performance Triage
 
@@ -168,15 +166,19 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I always tell myself that code quickly written just to compile looks like Order 66 executed on Christmas day 
+> And even if you could fix all of rustc's soundness holes, or otherwise prevent user code from
+> exploiting them, a soundness bug in any third-party library can also make it possible for
+> malicious crates to trigger arbitrary behavior from safe code.
 >
 > [...]
 >
-> Clones and unwrapping as far as the eye can see.
+> This is why we need to emphasize that while Rust's static analyses are very good at limiting
+> accidental vulnerabilties in non-malicious code, they are not a sandbox system that can place
+> meaningful limits on malicious code.
 
-– [Dhghomon on /r/rust](https://www.reddit.com/r/rust/comments/qjgwhr/whats_your_vote_for_funniest_feature_of_rust/hiq37zq)
+– [Matt Brubeck on rust-users](https://users.rust-lang.org/t/regarding-the-security-safety-of-libraries-on-crates-io/66294/24)
 
-Thanks to [UtherII](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1129) for the suggestion!
+Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1132) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
