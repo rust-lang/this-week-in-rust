@@ -35,6 +35,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Miscellaneous
 
 * [What does `&mut &[T]` mean?](https://ihatereality.space/04-what-mutref-to-slice-ref-means/)
+* [Write Rust lints without forking Clippy](https://blog.trailofbits.com/2021/11/09/write-rust-lints-without-forking-clippy/)
 
 ## Crate of the Week
 
