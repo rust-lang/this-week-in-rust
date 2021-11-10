@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Automating Ember releases with Rust](https://simplabs.com/blog/2021/11/09/automating-ember-learning-releases-with-rust/)
+
 ### Rust Walkthroughs
 
 * [series] [video] [Rust Book Club #5: Structs!](https://www.youtube.com/watch?v=mBi_FsPKd9w)
