@@ -35,6 +35,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Benchmarking symmetric encryption (AEAD) in Rust](https://kerkour.com/rust-symmetric-encryption-aead-benchmark/)
 * [View types for Rust](https://smallcultfollowing.com/babysteps//blog/2021/11/05/view-types/)
 * [What Memory Model Should the Rust Language Use?](https://paulmck.livejournal.com/66175.html)
 * [C++ Move Semantics Considered Harmful (Rust is better)](https://www.thecodedmessage.com/posts/cpp-move/)
