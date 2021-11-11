@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [SixtyFPS (GUI crate): Changelog for 7th of November 2021](https://sixtyfps.io/thisweek/2021-11-08.html)
 * [Rust Analyzer Changelog #102](https://rust-analyzer.github.io/thisweek/2021/11/08/changelog-102.html)
 * [Intellij Rust Changelog #159](https://intellij-rust.github.io/2021/11/08/changelog-159.html)
+* [Knurling toolset v0.3.0 has been released!](https://ferrous-systems.com/blog/defmt-3/)
 
 ### Research Papers
 
@@ -35,6 +36,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Benchmarking symmetric encryption (AEAD) in Rust](https://kerkour.com/rust-symmetric-encryption-aead-benchmark/)
 * [View types for Rust](https://smallcultfollowing.com/babysteps//blog/2021/11/05/view-types/)
 * [What Memory Model Should the Rust Language Use?](https://paulmck.livejournal.com/66175.html)
 * [C++ Move Semantics Considered Harmful (Rust is better)](https://www.thecodedmessage.com/posts/cpp-move/)
@@ -56,6 +58,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Rust Programming - Full 59-Second Course for Beginners](https://youtu.be/rzZt0fEzUXQ)
 * [video] [Causing problems with Rust traits (then fixing them)](https://youtu.be/sNyEgAGkDN8)
 * [audio] [Hyper with Sean McArthur](https://rustacean-station.org/episode/045-sean-arthur/)
+* [series][video] [Writing a Programming Language (in Rust) 6: Function calls (Part 2)](https://www.youtube.com/watch?v=Qm1IM8SEvi8)
+* [series][video] [Writing a Programming Language (in Rust) Extra 6.1: Fixing Environment Lookups](https://www.youtube.com/watch?v=sLmervrw8Ow)
 
 ### Miscellaneous
 
@@ -64,9 +68,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [roogle](https://github.com/hkmatsumoto/roogle), a type-based Rust API search engine inspired by Haskell's Hoogle.
+This week's crate is [chumsky](https://github.com/zesterer/chumsky), a friendly parser combinator crate.
 
-Thanks to [Hirochika Matsumoto](https://users.rust-lang.org/t/crate-of-the-week/2704/978) for the suggestion!
+Thanks to [Jan Riemer](https://users.rust-lang.org/t/crate-of-the-week/2704/981) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -85,55 +89,50 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-316 pull requests were [merged in the last week][merged]
+296 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-10-25..2021-11-01
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-11-01..2021-11-08
 
-* [fix CVE-2021-42574](https://github.com/rust-lang/rust/pull/90462)
-* [add LLVM Control Flow Integrity support to the Rust compiler](https://github.com/rust-lang/rust/pull/89652)
-* [add `-Z no-unique-section-names` to reduce ELF header bloat](https://github.com/rust-lang/rust/pull/89581)
-* [fix: inner attribute followed by outer attribute causing ICE](https://github.com/rust-lang/rust/pull/90267)
-* [skipping verbose diagnostic suggestions when calling `.as_ref()` on type not implementing `AsRef`](https://github.com/rust-lang/rust/pull/90399)
-* [improve and test cross-crate hygiene](https://github.com/rust-lang/rust/pull/90202)
-* [use `SortedMap` in HIR](https://github.com/rust-lang/rust/pull/90145)
-* [stabilize `is_symlink()` for `Metadata` and `Path`](https://github.com/rust-lang/rust/pull/89677)
-* [stabilize `option_result_unwrap_unchecked`](https://github.com/rust-lang/rust/pull/89951)
-* [impl `Pattern` for `char` array](https://github.com/rust-lang/rust/pull/86336)
-* [make most `std::ops` traits `const` on numeric types](https://github.com/rust-lang/rust/pull/89876)
-* [codegen\_gcc: remove unused dependency on object](https://github.com/rust-lang/rustc_codegen_gcc/pull/102)
-* [codegen\_gcc: fix negation operation](https://github.com/rust-lang/rustc_codegen_gcc/pull/108)
-* [bindgen: don't generate 2^64 byte padding fields on unions](https://github.com/rust-lang/rust-bindgen/pull/2108)
-* [bindgen: avoid case of a self-referential type alias](https://github.com/rust-lang/rust-bindgen/pull/2109)
-* [cargo: change `--scrape-examples` flag to `-Z rustdoc-scrape-examples`](https://github.com/rust-lang/cargo/pull/10017)
-* [cargo: scrape code examples from `examples/` directory for rustdoc](https://github.com/rust-lang/cargo/pull/9525)
-* [rustdoc: fix generics generation in search index](https://github.com/rust-lang/rust/pull/88268)
-* [rustdoc: use better highlighting for `*const`, `*mut`, and `&mut`](https://github.com/rust-lang/rust/pull/90278)
-* [rustdoc: remove flicker during page load](https://github.com/rust-lang/rust/pull/90333)
-* [clippy: move `if_then_panic` to pedantic and rename to `manual_assert`](https://github.com/rust-lang/rust-clippy/pull/7810)
-* [clippy: fix false positive in `match_overlapping_arm`](https://github.com/rust-lang/rust-clippy/pull/7847)
-* [clippy: fix `question_mark` false positive on custom error type](https://github.com/rust-lang/rust-clippy/pull/7860)
-* [clippy: add `unit-hash  lint](https://github.com/rust-lang/rust-clippy/pull/7875)
-* [clippy: new lint: `string-slice`](https://github.com/rust-lang/rust-clippy/pull/7878)
-* [clippy: ignore references to type aliases in `ptr_arg`](https://github.com/rust-lang/rust-clippy/pull/7890)
-* [clippy: fix ICE in `undocumented_unsafe_blocks`](https://github.com/rust-lang/rust-clippy/pull/7891)
-* [clippy: disable `if_not_else` lints from firing on `else`-`if`s](https://github.com/rust-lang/rust-clippy/pull/7895)
-* [rustfmt: prevent trailing whitespace in where clause bound predicate](https://github.com/rust-lang/rustfmt/pull/5019)
-* [rustfmt: retain trailing comments in module when using `rustfmt::skip` attribute](https://github.com/rust-lang/rustfmt/pull/5035)
+* [improve error when an `.rlib` can't be parsed](https://github.com/rust-lang/rust/pull/88368)
+* [implementation of GATs outlives lint](https://github.com/rust-lang/rust/pull/89970)
+* [add beginner friendly lifetime elision hint to E0623](https://github.com/rust-lang/rust/pull/90179)
+* [add `JoinHandle::is_running`](https://github.com/rust-lang/rust/pull/90439)
+* [suggest `extern crate alloc` when using undeclared module `alloc`](https://github.com/rust-lang/rust/pull/90507)
+* [suggest dereference of `Box` when inner type is expected](https://github.com/rust-lang/rust/pull/90627)
+* [stabilize `relaxed_struct_unsize`](https://github.com/rust-lang/rust/pull/90417)
+* [optimize bidi character detection.](https://github.com/rust-lang/rust/pull/90559)
+* [implement `RefUnwindSafe` for `Rc<T>`](https://github.com/rust-lang/rust/pull/87467)
+* [make `std::thread::available_concurrency` support process-limited number of CPUs](https://github.com/rust-lang/rust/pull/89310)
+* [hashbrown: implement From<array> on HashSet and HashMap](https://github.com/rust-lang/hashbrown/pull/298)
+* [cargo: fix debug panic on download with redirect body.](https://github.com/rust-lang/cargo/pull/10048)
+* [clippy: add `cargo dev lint` to manually run clippy on a file](https://github.com/rust-lang/rust-clippy/pull/7917)
+* [clippy: add suggestion to missing backticks error](https://github.com/rust-lang/rust-clippy/pull/7904)
+* [clippy: advise to put a `::` prefix inside the ticks](https://github.com/rust-lang/rust-clippy/pull/7916)
+* [clippy: fix panics while parsing format string that uses named arg twice](https://github.com/rust-lang/rust-clippy/pull/7906)
+* [clippy: fix ICE in `undocumented_unsafe_blocks`](https://github.com/rust-lang/rust-clippy/pull/7945)
+* [clippy: fix false negative in `match_overlapping_arms`](https://github.com/rust-lang/rust-clippy/pull/7909)
+* [clippy: fix `manual_assert` and `match_wild_err_arm` for `#![no_std]` and Rust 2021](https://github.com/rust-lang/rust-clippy/pull/7851)
+* [clippy: move `non_ascii_literal` to restriction](https://github.com/rust-lang/rust-clippy/pull/7907)
+* [clippy: prevent `clippy::needless_lifetimes` false positive in async function definition](https://github.com/rust-lang/rust-clippy/pull/7901)
+* [clippy: unseparated literal suffix](https://github.com/rust-lang/rust-clippy/pull/7726)
+* [clippy: use .cargo/config.toml instead of .cargo/config](https://github.com/rust-lang/rust-clippy/pull/7918)
+* [clippy: avoid linting `possible_truncation` on bit-reducing operations](https://github.com/rust-lang/rust-clippy/pull/7819)
+* [rustfmt: put empty trait braces on same line if possible](https://github.com/rust-lang/rustfmt/pull/5060)
+* [rustfmt: dedupe and simplify type alias formatting](https://github.com/rust-lang/rustfmt/pull/5068)
+* [rustfmt: dedupe associated item visitation](https://github.com/rust-lang/rustfmt/pull/5069)
+* [rustfmt: handle external mods imported via external → inline load hierarchy](https://github.com/rust-lang/rustfmt/pull/5064)
 
 ### Rust Compiler Performance Triage
 
-The only significant regressions were 1. two PRs that slowed down doc
-generation, and 2. some slowdown from the new lints to flag occurrences of
-Unicode bidirectional control characters. The doc generation regression is being
-investigated.
+Largely a positive week despite taking a significant performance hit from turning on incremental compilation verification for a subsection of the total queries that the compiler does in order to more quickly catch bugs in incremental compilation. Luckily optimizations in bidi detection brought large performance improvements.
 
-Triage done by **@pnkfelix**.
-Revision range: [3c8f00..6384dc](https://perf.rust-lang.org/?start=3c8f001d454b1b495f7472d8430ef8fdf10aac11&end=6384dca100f3cedfa031a9204586f94f8612eae5&absolute=false&stat=instructions%3Au)
+Triage done by **@rylev**.
+Revision range: [6384dc..eee8b](https://perf.rust-lang.org/?start=6384dca100f3cedfa031a9204586f94f8612eae5&end=eee8b9c7bafade55981d155dae71657f1cc55a22&absolute=false&stat=instructions%3Au)
 
-6 Regressions, 3 Improvements, 1 Mixed; 4 of them in rollups
-39 comparisons made in total
+2 Regressions, 4 Improvements, 4 Mixed; 1 of them in rollups
+45 comparisons made in total
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-11-02.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-11-09.md)
 
 ### Approved RFCs
 
@@ -170,15 +169,19 @@ decision. Express your opinions now.
 
 ## Upcoming Events
 
+Rusty Events between 11/10-11/24 🦀
+
 ### Online
 
-* [November 3, 2021, Indianapolis, IN, US - Indy.rs - with Social Distancing - Indy Rust](https://www.meetup.com/indyrs/events/281258179)
-* [November 9, 2021, San Diego, CA, US - San Diego Rust November 2021 Tele-Meetup - San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/281801412)
-* [November 9, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
-* [November 9, 2021, Seattle, WA, US - Monthly Meetup - Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksryccpbmb/)
+* [November 10, 2021, Boulder, CO, US - Monthly Meetup - Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/events/281765483)
 * [November 10, 2021, Malaysia - Rust Meetup - Rust Malaysia](https://discord.gg/9Xj8H2EXTD)
+* [November 10, 2021, Los Angeles, CA, US - Rust Los Angeles: Live Coding Session - Mob Programming a Rust Code Kata](https://www.meetup.com/Rust-Los-Angeles/events/281944639/)
 * [November 11, 2021 - Rust For Linux: Writing Safe Abstractions & Drivers - The Linux Foundation](https://linuxfoundation.org/webinars/rust-for-linux-writing-abstractions-and-drivers/)
+* [November 16, 2021 - The Rust Foundation Ask Me Anything (AMA) - Rust Foundation](https://zoom.us/webinar/register/WN_BNOwcv_TS7aMpGNGEaTgEQ)
 * [November 17, 2021, Vancouver, BC, CA - Borrowing and Lifetimes through Metaphors - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsyccpbwb/)
+* [November 17, 2021, Houston, TX, US - A Functional Introduction to Rust - Houston Functional Programming User Group](https://www.meetup.com/houston-functional-programming-users-group/events/281526282)
+* [November 17, 2021, Los Angeles, CA, US - Live Coding Session: Mob Programming a Rust Code Kata - Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/281944639)
+* [November 23, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
 
 ### North America
 
@@ -202,19 +205,27 @@ Email the [Rust Community Team][community] for access.
 
 * [Principal/Senior Software Engineer - Rust/C++ (Remote)](https://polarsync.breezy.hr/p/0c1d3630d39d)
 
+**Tangram**
+
+* [Senior Rust Developer](https://www.tangram.dev/jobs)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> I always tell myself that code quickly written just to compile looks like Order 66 executed on Christmas day 
+> And even if you could fix all of rustc's soundness holes, or otherwise prevent user code from
+> exploiting them, a soundness bug in any third-party library can also make it possible for
+> malicious crates to trigger arbitrary behavior from safe code.
 >
 > [...]
 >
-> Clones and unwrapping as far as the eye can see.
+> This is why we need to emphasize that while Rust's static analyses are very good at limiting
+> accidental vulnerabilties in non-malicious code, they are not a sandbox system that can place
+> meaningful limits on malicious code.
 
-– [Dhghomon on /r/rust](https://www.reddit.com/r/rust/comments/qjgwhr/whats_your_vote_for_funniest_feature_of_rust/hiq37zq)
+– [Matt Brubeck on rust-users](https://users.rust-lang.org/t/regarding-the-security-safety-of-libraries-on-crates-io/66294/24)
 
-Thanks to [UtherII](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1129) for the suggestion!
+Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1132) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 

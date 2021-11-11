@@ -46,6 +46,18 @@ These are meant to be guidelines, if you are ever not sure about whether somethi
 
 The editors of This Week in Rust do reserve the right to make the decision about whether to include something or not, but we intend to do so in a way that is as transparent as possible.
 
+## Link style guidelines:
+
+Links should use the most canonical form. For example, if `example.tech` redirects to `www.example.com`, then the latter is preferred.
+
+Links should not contain unnecessary tracking parameters, e.g. `utm_source`, `utm_campaign`.
+
+Some prefixes are used, and should be placed to the left of the link.
+- `[video]` for videos
+- `[audio]` for podcasts or other audio.
+- `[series]` for articles that are one of a series.
+- 2-letter languages codes (e.g. `[ZH]`, `[ES]`, `[FR]`) for content in a language other than English.
+
 ## How I get PR lists:
 
 ```
