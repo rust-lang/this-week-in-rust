@@ -175,6 +175,7 @@ Rusty Events between 11/10-11/24 🦀
 
 * [November 10, 2021, Boulder, CO, US - Monthly Meetup - Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/events/281765483)
 * [November 10, 2021, Malaysia - Rust Meetup - Rust Malaysia](https://discord.gg/9Xj8H2EXTD)
+* [November 10, 2021, Los Angeles, CA, US - Rust Los Angeles: Live Coding Session - Mob Programming a Rust Code Kata](https://www.meetup.com/Rust-Los-Angeles/events/281944639/)
 * [November 11, 2021 - Rust For Linux: Writing Safe Abstractions & Drivers - The Linux Foundation](https://linuxfoundation.org/webinars/rust-for-linux-writing-abstractions-and-drivers/)
 * [November 16, 2021 - The Rust Foundation Ask Me Anything (AMA) - Rust Foundation](https://zoom.us/webinar/register/WN_BNOwcv_TS7aMpGNGEaTgEQ)
 * [November 17, 2021, Vancouver, BC, CA - Borrowing and Lifetimes through Metaphors - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsyccpbwb/)
