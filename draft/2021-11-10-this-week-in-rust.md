@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [SixtyFPS (GUI crate): Changelog for 7th of November 2021](https://sixtyfps.io/thisweek/2021-11-08.html)
 * [Rust Analyzer Changelog #102](https://rust-analyzer.github.io/thisweek/2021/11/08/changelog-102.html)
 * [Intellij Rust Changelog #159](https://intellij-rust.github.io/2021/11/08/changelog-159.html)
+* [This week in Fluvio #12: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0012/)
 * [This week in Databend #15: an elastic and reliable cloud warehouse](https://datafuselabs.github.io/weekly/2021-11-10-databend-weekly/)
 * [Knurling toolset v0.3.0 has been released!](https://ferrous-systems.com/blog/defmt-3/)
 
