@@ -44,6 +44,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [C++ Move Semantics Considered Harmful (Rust is better)](https://www.thecodedmessage.com/posts/cpp-move/)
 * [It's Time to Get Hyped About Const Generics in Rust](https://nora.codes/post/its-time-to-get-hyped-about-const-generics-in-rust/)
 * [Automating Ember releases with Rust](https://simplabs.com/blog/2021/11/09/automating-ember-learning-releases-with-rust/)
+* [Breakout: optimizing rust+WASM](https://pci.github.io/blog/2021/10/advent-of-code-rust-wasm-and-js/)
+* [How we extended Helm lifecycle with Rust](https://hub.qovery.com/guides/engineering/how_we_extended_helm_lifecycle_with_rust/)
 
 ### Rust Walkthroughs
 
@@ -84,6 +86,9 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [ockam - Renumber WebSocket transport type from 2 to 3](https://github.com/ockam-network/ockam/issues/2194)
+* [ockam - Use Zeroize for temporary sensitive data](https://github.com/ockam-network/ockam/issues/2051)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -141,7 +146,7 @@ Revision range: [6384dc..eee8b](https://perf.rust-lang.org/?start=6384dca100f3ce
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Multiple artifact deps on the same crate with different names, for different targets](https://github.com/rust-lang/rfcs/pull/3176)
+*No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -151,23 +156,18 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
+* [disposition: merge] [Cargo --crate-type CLI Argument](https://github.com/rust-lang/rfcs/pull/3180)
 * [disposition: merge] [Static async fn in traits](https://github.com/rust-lang/rfcs/pull/3185)
-* [disposition: merge] [Constrained Naked Functions](https://github.com/rust-lang/rfcs/pull/2972)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [stabilize format args capture](https://github.com/rust-lang/rust/pull/90473)
 * [disposition: merge] [Stabilize -Z symbol-mangling-version=v0 as -C symbol-mangling-version=v0](https://github.com/rust-lang/rust/pull/90128)
 * [disposition: merge] [Stabilize -Z strip as -C strip](https://github.com/rust-lang/rust/pull/90058)
-* [disposition: merge] [Stabilize `const_raw_ptr_deref` for `*const T`](https://github.com/rust-lang/rust/pull/89551)
-* [disposition: merge] [Clarification of default socket flags](https://github.com/rust-lang/rust/pull/88805)
-* [disposition: merge] [use CLOCK_BOOTTIME in `Instant::now`](https://github.com/rust-lang/rust/pull/88714)
-* [disposition: merge] [GATs: Decide whether to have defaults for `where Self: 'a`](https://github.com/rust-lang/rust/issues/87479)
 
 ### New RFCs
 
-* [take on bool](https://github.com/rust-lang/rfcs/pull/3189)
-* [New Cargo and Rust options to support embedding Natvis into a PDB](https://github.com/rust-lang/rfcs/pull/3191)
+* [Add provide_any module to core](https://github.com/rust-lang/rfcs/pull/3192)
 
 ## Upcoming Events
 
@@ -203,6 +203,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**CoScreen**
+
+* [Senior Desktop Application Developer (C++/Rust) (Remote)](https://jobs.lever.co/unusual/59a25c98-5d46-4ce5-8376-758e239bb356)
+
 **Polar Sync**
 
 * [Principal/Senior Software Engineer - Rust/C++ (Remote)](https://polarsync.breezy.hr/p/0c1d3630d39d)
@@ -210,6 +214,16 @@ Email the [Rust Community Team][community] for access.
 **Tangram**
 
 * [Senior Rust Developer](https://www.tangram.dev/jobs)
+
+**Toposware**
+
+* [Distributed Systems Engineer (Blockchain) (Remote)](https://toposware.bamboohr.com/jobs/view.php?id=23&source=toposware)
+
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
@@ -231,6 +245,8 @@ Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1132)
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
-*This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman).*
+*This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), [cdmistman](https://github.com/cdmistman), [ericseppan](https://github.com/ericseppan), [extrawurst](https://github.com/extrawurst), [andrewpollack](https://github.com/andrewpollack), [U007D](https://github.com/U007D), [kolharsam](https://github.com/kolharsam), [joelmarcy](https://github.com/kolharsam), [marriannegoldin](https://github.com/marriannegoldin).*
+
+*Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
 <small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/k5nsab/this_week_in_rust_367/)</small>
