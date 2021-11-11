@@ -56,8 +56,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Rust Programming - Full 59-Second Course for Beginners](https://youtu.be/rzZt0fEzUXQ)
 * [video] [Causing problems with Rust traits (then fixing them)](https://youtu.be/sNyEgAGkDN8)
 * [audio] [Hyper with Sean McArthur](https://rustacean-station.org/episode/045-sean-arthur/)
-* [series][video] [Writing a Programming Language (in Rust) 6: Function calls (Part 2)](https://youtu.be/Qm1IM8SEvi8)
-* [series][video] [Writing a Programming Language (in Rust) Extra 6.1: Fixing Environment Lookups](https://youtu.be/sLmervrw8Ow)
+* [series][video] [Writing a Programming Language (in Rust) 6: Function calls (Part 2)](https://www.youtube.com/watch?v=Qm1IM8SEvi8)
+* [series][video] [Writing a Programming Language (in Rust) Extra 6.1: Fixing Environment Lookups](https://www.youtube.com/watch?v=sLmervrw8Ow)
 
 ### Miscellaneous
 
