@@ -201,6 +201,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Polar Sync**
+
+* [Principal/Senior Software Engineer - Rust/C++ (Remote)](https://polarsync.breezy.hr/p/0c1d3630d39d)
+
 **Tangram**
 
 * [Senior Rust Developer](https://www.tangram.dev/jobs)
