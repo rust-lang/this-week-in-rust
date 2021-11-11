@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [SixtyFPS (GUI crate): Changelog for 7th of November 2021](https://sixtyfps.io/thisweek/2021-11-08.html)
 * [Rust Analyzer Changelog #102](https://rust-analyzer.github.io/thisweek/2021/11/08/changelog-102.html)
 * [Intellij Rust Changelog #159](https://intellij-rust.github.io/2021/11/08/changelog-159.html)
+* [This week in Fluvio #12: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0012/)
 
 ### Research Papers
 
