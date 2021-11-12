@@ -106,7 +106,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [optimize bidi character detection.](https://github.com/rust-lang/rust/pull/90559)
 * [implement `RefUnwindSafe` for `Rc<T>`](https://github.com/rust-lang/rust/pull/87467)
 * [make `std::thread::available_concurrency` support process-limited number of CPUs](https://github.com/rust-lang/rust/pull/89310)
-* [hashbrown: implement From<array> on HashSet and HashMap](https://github.com/rust-lang/hashbrown/pull/298)
+* [hashbrown: implement From\<array\> on HashSet and HashMap](https://github.com/rust-lang/hashbrown/pull/298)
 * [cargo: fix debug panic on download with redirect body.](https://github.com/rust-lang/cargo/pull/10048)
 * [clippy: add `cargo dev lint` to manually run clippy on a file](https://github.com/rust-lang/rust-clippy/pull/7917)
 * [clippy: add suggestion to missing backticks error](https://github.com/rust-lang/rust-clippy/pull/7904)
