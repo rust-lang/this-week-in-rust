@@ -2949,7 +2949,6 @@ Number: 415  Date: 2021-11-03
 * [[ZH] Trojan Source｜ Hiding invisible vulnerabilities in Rust code](https://zhuanlan.zhihu.com/p/428305373)
 ### Rust Walkthroughs
 * [Advanced Serde - Loose type deserialization for non-self-describing protocols](https://medium.com/chainsafe-systems/mina-rs-update-some-rust-serialization-tricks-with-serde-153518830f97)
-* [I'm learning Rust (video) - Setup & fundamentals](https://youtu.be/K2oHkucybNs)
 * [An Intro to the Rust Programming Language](https://acv.engineering/posts/an-intro-to-the-rust-programming-language/)
 * [Getting Started with Rust on a Raspberry Pi Pico (Part 2)](https://reltech.substack.com/p/getting-started-with-raspberry-pi)
 * [Anatomy of a Terminal Emulator](https://www.poor.dev/blog/terminal-anatomy/)
@@ -2958,6 +2957,7 @@ Number: 415  Date: 2021-11-03
 * [Git Internals part 1: The git object model](https://dev.to/calebsander/git-internals-part-1-the-git-object-model-474m)
 * [Getting started with Rust on RISC-V Linux](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/run-ockam-on-riscv)
 * [Streaming the Reddit API using Fluvio's WASM ArrayMap](https://www.infinyon.com/blog/2021/10/smartstream-array-map-reddit/)
+* [video] [I'm learning Rust - Setup & fundamentals](https://youtu.be/K2oHkucybNs)
 * [video] [Rust London: Building the Internet Of (Trusted) Things with Ockam and Embedded Rust](https://skillsmatter.com/skillscasts/17292-rust-london-october2021)
 * [video] [Rust London: Actor Programming with Ockam Workers](https://skillsmatter.com/skillscasts/17294-actor-programming-with-ockam-workers)
 * [video] [Rust London: How to end-to-end encrypt all application layer communication - with Ockam](https://skillsmatter.com/skillscasts/17295-how-to-end-to-end-encrypt-all-application-layer-communication-with-ockam)
