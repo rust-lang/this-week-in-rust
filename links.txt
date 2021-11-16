@@ -2949,7 +2949,6 @@ Number: 415  Date: 2021-11-03
 * [[ZH] Trojan Source｜ Hiding invisible vulnerabilities in Rust code](https://zhuanlan.zhihu.com/p/428305373)
 ### Rust Walkthroughs
 * [Advanced Serde - Loose type deserialization for non-self-describing protocols](https://medium.com/chainsafe-systems/mina-rs-update-some-rust-serialization-tricks-with-serde-153518830f97)
-* [I'm learning Rust (video) - Setup & fundamentals](https://youtu.be/K2oHkucybNs)
 * [An Intro to the Rust Programming Language](https://acv.engineering/posts/an-intro-to-the-rust-programming-language/)
 * [Getting Started with Rust on a Raspberry Pi Pico (Part 2)](https://reltech.substack.com/p/getting-started-with-raspberry-pi)
 * [Anatomy of a Terminal Emulator](https://www.poor.dev/blog/terminal-anatomy/)
@@ -2958,6 +2957,7 @@ Number: 415  Date: 2021-11-03
 * [Git Internals part 1: The git object model](https://dev.to/calebsander/git-internals-part-1-the-git-object-model-474m)
 * [Getting started with Rust on RISC-V Linux](https://github.com/ockam-network/ockam/tree/develop/documentation/use-cases/run-ockam-on-riscv)
 * [Streaming the Reddit API using Fluvio's WASM ArrayMap](https://www.infinyon.com/blog/2021/10/smartstream-array-map-reddit/)
+* [video] [I'm learning Rust - Setup & fundamentals](https://youtu.be/K2oHkucybNs)
 * [video] [Rust London: Building the Internet Of (Trusted) Things with Ockam and Embedded Rust](https://skillsmatter.com/skillscasts/17292-rust-london-october2021)
 * [video] [Rust London: Actor Programming with Ockam Workers](https://skillsmatter.com/skillscasts/17294-actor-programming-with-ockam-workers)
 * [video] [Rust London: How to end-to-end encrypt all application layer communication - with Ockam](https://skillsmatter.com/skillscasts/17295-how-to-end-to-end-encrypt-all-application-layer-communication-with-ockam)
@@ -2970,4 +2970,47 @@ Number: 415  Date: 2021-11-03
 * [Rust Editor Experience Survey](https://www.guidedtrack.com/programs/kfqw8vs/run)
 * [Streaming the Reddit API using Fluvio's WASM ArrayMap](https://www.infinyon.com/blog/2021/10/smartstream-array-map-reddit/)
 * [video] [IT] [Introduzione a Rust](https://video.linux.it/videos/watch/01b44259-e257-4bad-9685-8c91735aa08b)
+
+Number: 416  Date: 2021-11-10 
+
+### Foundation
+* [Launching the Rust Foundation Quarterly AMAs: Join the Conversation](https://foundation.rust-lang.org/posts/2021-11-04-rust-foundation-ama-launch/)
+### Project/Tooling Updates
+* [SixtyFPS (GUI crate): Changelog for 7th of November 2021](https://sixtyfps.io/thisweek/2021-11-08.html)
+* [Rust Analyzer Changelog #102](https://rust-analyzer.github.io/thisweek/2021/11/08/changelog-102.html)
+* [Intellij Rust Changelog #159](https://intellij-rust.github.io/2021/11/08/changelog-159.html)
+* [This week in Fluvio #12: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0012/)
+* [This week in Databend #15: an elastic and reliable cloud warehouse](https://datafuselabs.github.io/weekly/2021-11-10-databend-weekly/)
+* [Knurling toolset v0.3.0 has been released!](https://ferrous-systems.com/blog/defmt-3/)
+### Newsletter
+* [This Month in Rust OSDev (October 2021)](https://rust-osdev.com/this-month/2021-10/)
+* [This Month in Rust GameDev #27](https://gamedev.rs/news/027/)
+### Observations/Thoughts
+* [Benchmarking symmetric encryption (AEAD) in Rust](https://kerkour.com/rust-symmetric-encryption-aead-benchmark/)
+* [View types for Rust](https://smallcultfollowing.com/babysteps//blog/2021/11/05/view-types/)
+* [What Memory Model Should the Rust Language Use?](https://paulmck.livejournal.com/66175.html)
+* [C++ Move Semantics Considered Harmful (Rust is better)](https://www.thecodedmessage.com/posts/cpp-move/)
+* [It's Time to Get Hyped About Const Generics in Rust](https://nora.codes/post/its-time-to-get-hyped-about-const-generics-in-rust/)
+* [Automating Ember releases with Rust](https://simplabs.com/blog/2021/11/09/automating-ember-learning-releases-with-rust/)
+* [Breakout: optimizing rust+WASM](https://pci.github.io/blog/2021/10/advent-of-code-rust-wasm-and-js/)
+* [How we extended Helm lifecycle with Rust](https://hub.qovery.com/guides/engineering/how_we_extended_helm_lifecycle_with_rust/)
+### Rust Walkthroughs
+* [Run Your Rust Games in a Browser: Hands-on Rust Bonus Content](https://hands-on-rust.com/2021/11/06/run-your-rust-games-in-a-browser-hands-on-rust-bonus-content/)
+* [Building My First Command Line Interface (CLI) with Rust](https://devtails.medium.com/building-my-first-command-line-interface-cli-with-rust-b6beb9c284e0)
+* [Making My Website Part 2: The Webserver](https://www.rotoclone.zone/blog/posts/webserver)
+* [Debugging Rust application inside linux container](https://blog.erebe.dev/blog/debug-rust-aplication-inside-container/index.html)
+* [Plugins in Rust: Reducing the Pain with Dependencies](https://nullderef.com/blog/plugin-abi-stable/)
+* [Discover Hidden Secrets in Git Repos with Rust](https://blog.jonaylor.xyz/discover-hidden-secrets-in-git-repos-with-rust)
+* [Prepare your Rust API docs for Github Pages](https://dev.to/deciduously/prepare-your-rust-api-docs-for-github-pages-2n5i)
+* [Using KI18n with Rust and Qml](https://dev.to/ayush1325/using-ki18n-with-rust-and-qml-ja7)
+* [Self Referential Structs in Rust](https://dev.to/arunanshub/self-referential-structs-in-rust-33cm)
+* [series] [video] [Rust Book Club #5: Structs!](https://youtu.be/mBi_FsPKd9w)
+* [video] [Rust Programming - Full 59-Second Course for Beginners](https://youtu.be/rzZt0fEzUXQ)
+* [video] [Causing problems with Rust traits (then fixing them)](https://youtu.be/sNyEgAGkDN8)
+* [audio] [Hyper with Sean McArthur](https://rustacean-station.org/episode/045-sean-arthur/)
+* [series][video] [Writing a Programming Language (in Rust) 6: Function calls (Part 2)](https://www.youtube.com/watch?v=Qm1IM8SEvi8)
+* [series][video] [Writing a Programming Language (in Rust) Extra 6.1: Fixing Environment Lookups](https://www.youtube.com/watch?v=sLmervrw8Ow)
+### Miscellaneous
+* [What does `&mut &[T]` mean?](https://ihatereality.space/04-what-mutref-to-slice-ref-means/)
+* [Write Rust lints without forking Clippy](https://blog.trailofbits.com/2021/11/09/write-rust-lints-without-forking-clippy/)
 
