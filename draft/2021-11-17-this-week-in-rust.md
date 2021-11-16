@@ -24,9 +24,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletter
 
 ### Observations/Thoughts
-[Rust Adventures: Abusing Serde](https://lucumr.pocoo.org/2021/11/14/abusing-serde/)
+* [Rust Adventures: Abusing Serde](https://lucumr.pocoo.org/2021/11/14/abusing-serde/)
+* [Rust Iterator Items: An exploration of syntax](https://estebank.github.io/rust-iterator-item-syntax.html)
 
 ### Rust Walkthroughs
+
+* [Getting started with Rust 🦀 2021: 8. Building a web app with Rust](https://www.youtube.com/watch?v=4MKcqR9z8AU)
+* [A Data Pipeline for Go Trains Delay Analysis — Part 2](https://medium.com/geekculture/a-data-pipeline-for-go-trains-delay-analysis-part-2-e5b9ef0ea315)
 
 ### Miscellaneous
 
