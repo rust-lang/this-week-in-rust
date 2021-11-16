@@ -18,6 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [SixtyFPS (GUI crate): Changelog for 14th of November 2021](https://sixtyfps.io/thisweek/2021-11-15.html)
 * [Mononym: Type-Level Named Values in Rust](https://maybevoid.com/blog/mononym-part-1/)
 
 ### Newsletter
