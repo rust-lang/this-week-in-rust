@@ -24,7 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletter
 
 ### Observations/Thoughts
-[Rust Adventures: Abusing Serde](https://lucumr.pocoo.org/2021/11/14/abusing-serde/)
+* [Rust Adventures: Abusing Serde](https://lucumr.pocoo.org/2021/11/14/abusing-serde/)
 * [Rust Iterator Items: An exploration of syntax](https://estebank.github.io/rust-iterator-item-syntax.html)
 
 ### Rust Walkthroughs
