@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletter
 
 ### Observations/Thoughts
+[Rust Adventures: Abusing Serde](https://lucumr.pocoo.org/2021/11/14/abusing-serde/)
 
 ### Rust Walkthroughs
 
