@@ -31,7 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Getting started with Rust 🦀 2021: 8. Building a web app with Rust](https://www.youtube.com/watch?v=4MKcqR9z8AU)
 * [A Data Pipeline for Go Trains Delay Analysis — Part 2](https://medium.com/geekculture/a-data-pipeline-for-go-trains-delay-analysis-part-2-e5b9ef0ea315)
-* [series][video] [Writing a Programming Language (in Rust) 7: Function calls (Part 3)](https://www.youtube.com/watch?v=nyQLenFK4Xc)
+* [series] [video] [Writing a Programming Language (in Rust) 7: Function calls (Part 3)](https://www.youtube.com/watch?v=nyQLenFK4Xc)
 
 ### Miscellaneous
 
