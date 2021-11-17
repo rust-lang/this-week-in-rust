@@ -35,6 +35,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [Day0 Podcast - Rust in the Web? A Special Guest and some Bad Crypto](https://dayzerosec.com/podcast/rust-in-the-web-a-special-guest-and-some-bad-crypto.html)
+
 ## Crate of the Week
 
 This week's crate is [starship](https://github.com/starship/starship), a fast featureful customizable UNIX terminal prompt.
