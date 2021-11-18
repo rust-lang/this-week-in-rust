@@ -55,6 +55,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Rust Web Development - Warp Introduction (by example)](https://www.youtube.com/watch?v=HNnbIW2Kzbc)
 * [video] [Getting started with opencv on Rust](https://www.youtube.com/watch?v=zcfixnuJFXg)
 * [series] [video] [Getting started with Rust 🦀 2021: 8. Building a web app with Rust](https://www.youtube.com/watch?v=4MKcqR9z8AU)
+* [series] [video] [Writing a Programming Language (in Rust) 7: Function calls (Part 3)](https://www.youtube.com/watch?v=nyQLenFK4Xc)
 
 ### Miscellaneous
 
