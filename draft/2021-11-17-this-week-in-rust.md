@@ -54,6 +54,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Testing multiple implementations of a trait in Rust](https://eli.thegreenplace.net/2021/testing-multiple-implementations-of-a-trait-in-rust/)
 * [Introducing hRPC: a simple RPC system for user-facing APIs](https://dev.to/harmonydevelopment/introducing-hrpc-a-simple-rpc-system-for-user-facing-apis-16ge)
 * [Rust on MIPS64 Windows NT 4.0](https://gamozolabs.github.io/fuzzing/2021/11/16/rust_on_nt_mips.html)
+* [[ZH] Rust Reading Club Part 1](https://github.com/RustMagazine/rust_magazine_2021/blob/main/src/chapter_11/rust-reading-club-part1.md)
 * [video] [Rust Web Development - Warp Introduction (by example)](https://www.youtube.com/watch?v=HNnbIW2Kzbc)
 * [video] [Getting started with opencv on Rust](https://www.youtube.com/watch?v=zcfixnuJFXg)
 * [series] [video] [Getting started with Rust 🦀 2021: 8. Building a web app with Rust](https://www.youtube.com/watch?v=4MKcqR9z8AU)
