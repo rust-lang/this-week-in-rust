@@ -32,6 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Getting started with Rust 🦀 2021: 8. Building a web app with Rust](https://www.youtube.com/watch?v=4MKcqR9z8AU)
 * [A Data Pipeline for Go Trains Delay Analysis — Part 2](https://medium.com/geekculture/a-data-pipeline-for-go-trains-delay-analysis-part-2-e5b9ef0ea315)
+* [[ZH] Rust Reading Club Part 1](https://github.com/RustMagazine/rust_magazine_2021/blob/main/src/chapter_11/rust-reading-club-part1.md)
 
 ### Miscellaneous
 
