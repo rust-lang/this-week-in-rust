@@ -170,6 +170,9 @@ decision. Express your opinions now.
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [#![feature(maybe_uninit_extra,const_maybe_uninit_write)]](https://github.com/rust-lang/rust/issues/63567)
+* [disposition: merge] [Tracking Issue for const-initialized thread locals](https://github.com/rust-lang/rust/issues/84223)
+* [disposition: merge] [Tracking Issue for NonZeroUn::is_power_of_two (feature nonzero_is_power_of_two)](https://github.com/rust-lang/rust/issues/81106)
+* [disposition: merge] [Tracking issue for `#![feature(maybe_uninit_extra,const_maybe_uninit_write)]`](https://github.com/rust-lang/rust/issues/63567)
 
 ### [New RFCs](https://github.com/rust-lang/rfcs/pulls)
 
