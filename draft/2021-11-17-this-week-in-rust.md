@@ -152,7 +152,7 @@ Revision range: [eee8b9c7..934624f](https://perf.rust-lang.org/?start=eee8b9c7ba
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -162,18 +162,17 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Cargo --crate-type CLI Argument](https://github.com/rust-lang/rfcs/pull/3180)
-* [disposition: merge] [Static async fn in traits](https://github.com/rust-lang/rfcs/pull/3185)
+* [disposition: merge] [Add RFC float-next-up-down.](https://github.com/rust-lang/rfcs/pull/3173)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [stabilize format args capture](https://github.com/rust-lang/rust/pull/90473)
-* [disposition: merge] [Stabilize -Z symbol-mangling-version=v0 as -C symbol-mangling-version=v0](https://github.com/rust-lang/rust/pull/90128)
-* [disposition: merge] [Stabilize -Z strip as -C strip](https://github.com/rust-lang/rust/pull/90058)
+* [disposition: merge] [#![feature(maybe_uninit_extra,const_maybe_uninit_write)]](https://github.com/rust-lang/rust/issues/63567)
 
-### New RFCs
+### [New RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [Add provide_any module to core](https://github.com/rust-lang/rfcs/pull/3192)
+* [Add std::inputln()](https://github.com/rust-lang/rfcs/pull/3196)
+* [Fix link in RFC 2873](https://github.com/rust-lang/rfcs/pull/3195)
+* [return position impl trait in traits](https://github.com/rust-lang/rfcs/pull/3193)
 
 ## Upcoming Events
 
