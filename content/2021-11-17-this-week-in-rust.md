@@ -177,7 +177,6 @@ decision. Express your opinions now.
 ### [New RFCs](https://github.com/rust-lang/rfcs/pulls)
 
 * [Add std::inputln()](https://github.com/rust-lang/rfcs/pull/3196)
-* [Fix link in RFC 2873](https://github.com/rust-lang/rfcs/pull/3195)
 * [return position impl trait in traits](https://github.com/rust-lang/rfcs/pull/3193)
 
 ## Upcoming Events
