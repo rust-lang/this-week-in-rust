@@ -122,15 +122,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-Largely a positive week despite taking a significant performance hit from turning on incremental compilation verification for a subsection of the total queries that the compiler does in order to more quickly catch bugs in incremental compilation. Luckily optimizations in bidi detection brought large performance improvements.
+A large amount of noise in the comparisons this week, likely due to new
+probabilistic query hash verification increasing likelihood of changes in each
+benchmark; solutions are being tracked in [rustc-perf#1105].
 
-Triage done by **@rylev**.
-Revision range: [6384dc..eee8b](https://perf.rust-lang.org/?start=6384dca100f3cedfa031a9204586f94f8612eae5&end=eee8b9c7bafade55981d155dae71657f1cc55a22&absolute=false&stat=instructions%3Au)
+Otherwise, though, the week largely amounted to a neutral one for performance.
+There were some regressions, particularly in doc builds, as a result of the
+addition of portable SIMD. These are relatively speaking minor and primarily
+impact small crates.
 
-2 Regressions, 4 Improvements, 4 Mixed; 1 of them in rollups
-45 comparisons made in total
+[rustc-perf#1105]: https://github.com/rust-lang/rustc-perf/issues/1105
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-11-09.md)
+Triage done by **@simulacrum**.
+Revision range: [eee8b9c7..934624f](https://perf.rust-lang.org/?start=eee8b9c7bafade55981d155dae71657f1cc55a22&end=934624fe5f66ce3fb8abf0597a6deb079783335f&absolute=false&stat=instructions%3Au)
+
+5 Regressions, 2 Improvements, 6 Mixed; 2 of them in rollups
+
+41 comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-11-16.md)
 
 ### Approved RFCs
 
