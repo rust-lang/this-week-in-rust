@@ -65,8 +65,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
-* [Day0 Podcast - Rust in the Web? A Special Guest and some Bad Crypto](https://dayzerosec.com/podcast/rust-in-the-web-a-special-guest-and-some-bad-crypto.html)
 * [1Password 8 arrives on Windows with a new design and big performance improvements](https://www.theverge.com/2021/11/16/22784996/1password-version-8-windows-release-download-features)
+* [audio] [Day0 Podcast - Rust in the Web? A Special Guest and some Bad Crypto](https://dayzerosec.com/podcast/rust-in-the-web-a-special-guest-and-some-bad-crypto.html)
 
 ## Crate of the Week
 
