@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+[Rust Packages vs Crates](https://jeffa.io/rust_packages_vs_crates)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
