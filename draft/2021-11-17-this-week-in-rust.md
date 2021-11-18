@@ -14,27 +14,54 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
+### Official
+
+* [Please welcome The 8472 and Ashley Mannix to Library Contributors](https://blog.rust-lang.org/inside-rust/2021/11/15/libs-contributors-the8472-kodraus.html)
+
 ### Foundation
+
+* [Rust Foundation Announces Cloud Compute Program](https://foundation.rust-lang.org/news/2021-11-16-news-announcing-cloud-compute-initiative/)
+* [Tag1 Joins the Rust Foundation as the First Silver Member](https://www.tag1consulting.com/blog/tag1-joins-rust-foundation-first-silver-member)
 
 ### Project/Tooling Updates
 
+* [Rust Analyzer Changelog #103](https://rust-analyzer.github.io/thisweek/2021/11/15/changelog-103.html)
 * [SixtyFPS (GUI crate): Changelog for 14th of November 2021](https://sixtyfps.io/thisweek/2021-11-15.html)
 * [Mononym: Type-Level Named Values in Rust](https://maybevoid.com/blog/mononym-part-1/)
+* [Quinn 0.8.0](https://github.com/quinn-rs/quinn/releases/tag/0.8.0)
 * [BonsaiDb November update: Working towards alpha 1](https://community.khonsulabs.com/t/bonsaidb-november-update-working-towards-alpha-1/86)
 * [This week in Fluvio #13: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0013/)
-
-### Newsletter
+* [Announcing `cargo-sonar`](https://hole.tuziwo.info/cargo-sonar.html)
 
 ### Observations/Thoughts
+* [8 Ways to backdoor a crate in Rust for fun and profit](https://kerkour.com/rust-crate-backdoor/)
 * [Rust Adventures: Abusing Serde](https://lucumr.pocoo.org/2021/11/14/abusing-serde/)
 * [Rust Iterator Items: An exploration of syntax](https://estebank.github.io/rust-iterator-item-syntax.html)
+* [Async Cancellation I](https://blog.yoshuawuyts.com/async-cancellation-1/)
+* [The Rust compiler has gotten faster again](https://nnethercote.github.io/2021/11/12/the-rust-compiler-has-gotten-faster-again.html)
+* [Learning Rust For Embedded Systems](https://www.embeddedrelated.com/showarticle/1432.php)
+* [What is an async runtime?](https://ncameron.org/blog/what-is-an-async-runtime/)
+* [Top 10 Rust Cargo Commands](https://dev.to/davidadewoyin/top-rust-cargo-commands-2b70)
+* [audio] [Tokio Ecosystem with Alice Ryhl](https://rustacean-station.org/episode/046-alice-ryhl/)
+* [series] [video] [Flutter Backend using Rust - Flying High with Flutter #32](https://www.youtube.com/watch?v=JxFLD4R3WzE)
 
 ### Rust Walkthroughs
 
-* [Getting started with Rust 🦀 2021: 8. Building a web app with Rust](https://www.youtube.com/watch?v=4MKcqR9z8AU)
 * [A Data Pipeline for Go Trains Delay Analysis — Part 2](https://medium.com/geekculture/a-data-pipeline-for-go-trains-delay-analysis-part-2-e5b9ef0ea315)
+* [Monitoring Rust web application with Prometheus and Grafana](https://romankudryashov.com/blog/2021/11/monitoring-rust-web-application/)
+* [Rust data structures with circular references](https://eli.thegreenplace.net/2021/rust-data-structures-with-circular-references/)
+* [Testing multiple implementations of a trait in Rust](https://eli.thegreenplace.net/2021/testing-multiple-implementations-of-a-trait-in-rust/)
+* [Introducing hRPC: a simple RPC system for user-facing APIs](https://dev.to/harmonydevelopment/introducing-hrpc-a-simple-rpc-system-for-user-facing-apis-16ge)
+* [Rust on MIPS64 Windows NT 4.0](https://gamozolabs.github.io/fuzzing/2021/11/16/rust_on_nt_mips.html)
+* [video] [Rust Web Development - Warp Introduction (by example)](https://www.youtube.com/watch?v=HNnbIW2Kzbc)
+* [video] [Getting started with opencv on Rust](https://www.youtube.com/watch?v=zcfixnuJFXg)
+* [series] [video] [Getting started with Rust 🦀 2021: 8. Building a web app with Rust](https://www.youtube.com/watch?v=4MKcqR9z8AU)
+* [series] [video] [Writing a Programming Language (in Rust) 7: Function calls (Part 3)](https://www.youtube.com/watch?v=nyQLenFK4Xc)
 
 ### Miscellaneous
+
+* [Day0 Podcast - Rust in the Web? A Special Guest and some Bad Crypto](https://dayzerosec.com/podcast/rust-in-the-web-a-special-guest-and-some-bad-crypto.html)
+* [1Password 8 arrives on Windows with a new design and big performance improvements](https://www.theverge.com/2021/11/16/22784996/1password-version-8-windows-release-download-features)
 
 ## Crate of the Week
 
@@ -98,15 +125,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-Largely a positive week despite taking a significant performance hit from turning on incremental compilation verification for a subsection of the total queries that the compiler does in order to more quickly catch bugs in incremental compilation. Luckily optimizations in bidi detection brought large performance improvements.
+A large amount of noise in the comparisons this week, likely due to new
+probabilistic query hash verification increasing likelihood of changes in each
+benchmark; solutions are being tracked in [rustc-perf#1105].
 
-Triage done by **@rylev**.
-Revision range: [6384dc..eee8b](https://perf.rust-lang.org/?start=6384dca100f3cedfa031a9204586f94f8612eae5&end=eee8b9c7bafade55981d155dae71657f1cc55a22&absolute=false&stat=instructions%3Au)
+Otherwise, though, the week largely amounted to a neutral one for performance.
+There were some regressions, particularly in doc builds, as a result of the
+addition of portable SIMD. These are relatively speaking minor and primarily
+impact small crates.
 
-2 Regressions, 4 Improvements, 4 Mixed; 1 of them in rollups
-45 comparisons made in total
+[rustc-perf#1105]: https://github.com/rust-lang/rustc-perf/issues/1105
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-11-09.md)
+Triage done by **@simulacrum**.
+Revision range: [eee8b9c7..934624f](https://perf.rust-lang.org/?start=eee8b9c7bafade55981d155dae71657f1cc55a22&end=934624fe5f66ce3fb8abf0597a6deb079783335f&absolute=false&stat=instructions%3Au)
+
+5 Regressions, 2 Improvements, 6 Mixed; 2 of them in rollups
+
+41 comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-11-16.md)
 
 ### Approved RFCs
 
