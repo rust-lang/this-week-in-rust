@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [SixtyFPS (GUI crate): Changelog for 14th of November 2021](https://sixtyfps.io/thisweek/2021-11-15.html)
 * [Mononym: Type-Level Named Values in Rust](https://maybevoid.com/blog/mononym-part-1/)
 * [BonsaiDb November update: Working towards alpha 1](https://community.khonsulabs.com/t/bonsaidb-november-update-working-towards-alpha-1/86)
+* [This week in Databend #16: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-11-17-databend-weekly/)
 
 ### Newsletter
 
