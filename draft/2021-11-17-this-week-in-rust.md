@@ -32,6 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [BonsaiDb November update: Working towards alpha 1](https://community.khonsulabs.com/t/bonsaidb-november-update-working-towards-alpha-1/86)
 
 ### Observations/Thoughts
+* [8 Ways to backdoor a crate in Rust for fun and profit](https://kerkour.com/rust-crate-backdoor/)
 * [Rust Adventures: Abusing Serde](https://lucumr.pocoo.org/2021/11/14/abusing-serde/)
 * [Rust Iterator Items: An exploration of syntax](https://estebank.github.io/rust-iterator-item-syntax.html)
 * [Async Cancellation I](https://blog.yoshuawuyts.com/async-cancellation-1/)
