@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Rust Foundation Announces Cloud Compute Program](https://foundation.rust-lang.org/news/2021-11-16-news-announcing-cloud-compute-initiative/)
 * [Tag1 Joins the Rust Foundation as the First Silver Member](https://www.tag1consulting.com/blog/tag1-joins-rust-foundation-first-silver-member)
+* [Rust Foundation Taps Rebecca Rumbul as Executive Director & CEO](https://foundation.rust-lang.org/news/2021-11-17-news-announcing-rebecca-rumbul-executive-director-ceo/)
+* [Hello Everyone! How Can I Help?](https://foundation.rust-lang.org/posts/2021-11-17-introducing-rebecca-rumbul/)
 
 ### Project/Tooling Updates
 
@@ -54,6 +56,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Testing multiple implementations of a trait in Rust](https://eli.thegreenplace.net/2021/testing-multiple-implementations-of-a-trait-in-rust/)
 * [Introducing hRPC: a simple RPC system for user-facing APIs](https://dev.to/harmonydevelopment/introducing-hrpc-a-simple-rpc-system-for-user-facing-apis-16ge)
 * [Rust on MIPS64 Windows NT 4.0](https://gamozolabs.github.io/fuzzing/2021/11/16/rust_on_nt_mips.html)
+* [How to get started with Rust for RISC-V Linux](https://dev.to/jareds/how-to-get-started-with-rust-for-risc-v-linux-2fop)
 * [[ZH] Rust Reading Club Part 1](https://github.com/RustMagazine/rust_magazine_2021/blob/main/src/chapter_11/rust-reading-club-part1.md)
 * [video] [Rust Web Development - Warp Introduction (by example)](https://www.youtube.com/watch?v=HNnbIW2Kzbc)
 * [video] [Getting started with opencv on Rust](https://www.youtube.com/watch?v=zcfixnuJFXg)
@@ -152,7 +155,7 @@ Revision range: [eee8b9c7..934624f](https://perf.rust-lang.org/?start=eee8b9c7ba
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -162,18 +165,17 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Cargo --crate-type CLI Argument](https://github.com/rust-lang/rfcs/pull/3180)
-* [disposition: merge] [Static async fn in traits](https://github.com/rust-lang/rfcs/pull/3185)
+* [disposition: merge] [Add RFC float-next-up-down.](https://github.com/rust-lang/rfcs/pull/3173)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [stabilize format args capture](https://github.com/rust-lang/rust/pull/90473)
-* [disposition: merge] [Stabilize -Z symbol-mangling-version=v0 as -C symbol-mangling-version=v0](https://github.com/rust-lang/rust/pull/90128)
-* [disposition: merge] [Stabilize -Z strip as -C strip](https://github.com/rust-lang/rust/pull/90058)
+* [disposition: merge] [#![feature(maybe_uninit_extra,const_maybe_uninit_write)]](https://github.com/rust-lang/rust/issues/63567)
 
-### New RFCs
+### [New RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [Add provide_any module to core](https://github.com/rust-lang/rfcs/pull/3192)
+* [Add std::inputln()](https://github.com/rust-lang/rfcs/pull/3196)
+* [Fix link in RFC 2873](https://github.com/rust-lang/rfcs/pull/3195)
+* [return position impl trait in traits](https://github.com/rust-lang/rfcs/pull/3193)
 
 ## Upcoming Events
 
