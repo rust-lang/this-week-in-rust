@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Rust Foundation Announces Cloud Compute Program](https://foundation.rust-lang.org/news/2021-11-16-news-announcing-cloud-compute-initiative/)
 * [Tag1 Joins the Rust Foundation as the First Silver Member](https://www.tag1consulting.com/blog/tag1-joins-rust-foundation-first-silver-member)
+* [Rust Foundation Taps Rebecca Rumbul as Executive Director & CEO](https://foundation.rust-lang.org/news/2021-11-17-news-announcing-rebecca-rumbul-executive-director-ceo/)
+* [Hello Everyone! How Can I Help?](https://foundation.rust-lang.org/posts/2021-11-17-introducing-rebecca-rumbul/)
 
 ### Project/Tooling Updates
 
