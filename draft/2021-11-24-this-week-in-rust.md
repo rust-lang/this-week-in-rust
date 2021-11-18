@@ -22,9 +22,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
-### Rust Walkthroughs
-
 - [Merge Queues with Bors](https://kflansburg.com/posts/merge-queues/)
+
+### Rust Walkthroughs
 
 ### Miscellaneous
 
