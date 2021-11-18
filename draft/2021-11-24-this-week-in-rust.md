@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+- [Merge Queues with Bors](https://kflansburg.com/posts/merge-queues/)
+
 ### Miscellaneous
 
 ## Crate of the Week
