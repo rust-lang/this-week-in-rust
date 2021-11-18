@@ -30,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Mononym: Type-Level Named Values in Rust](https://maybevoid.com/blog/mononym-part-1/)
 * [Quinn 0.8.0](https://github.com/quinn-rs/quinn/releases/tag/0.8.0)
 * [BonsaiDb November update: Working towards alpha 1](https://community.khonsulabs.com/t/bonsaidb-november-update-working-towards-alpha-1/86)
+* [Announcing `cargo-sonar`](https://hole.tuziwo.info/cargo-sonar.html)
 
 ### Observations/Thoughts
 * [8 Ways to backdoor a crate in Rust for fun and profit](https://kerkour.com/rust-crate-backdoor/)
