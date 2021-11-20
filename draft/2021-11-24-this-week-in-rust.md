@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [What's new in SeaORM 0.4.0](https://www.sea-ql.org/SeaORM/blog/2021-11-19-whats-new-in-0.4.0/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
