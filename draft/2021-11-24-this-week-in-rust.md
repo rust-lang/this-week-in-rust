@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [SixtyFPS (GUI crate): Changelog for 21th of November 2021](https://sixtyfps.io/thisweek/2021-11-22.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
