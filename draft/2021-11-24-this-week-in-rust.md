@@ -22,6 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+- [Merge Queues with Bors](https://kflansburg.com/posts/merge-queues/)
 * [Stack-safety for free?](https://hurryabit.github.io/blog/stack-safety-for-free/)
 
 ### Rust Walkthroughs
