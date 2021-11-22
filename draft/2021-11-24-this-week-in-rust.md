@@ -21,8 +21,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 * [SixtyFPS (GUI crate): Changelog for 21th of November 2021](https://sixtyfps.io/thisweek/2021-11-22.html)
+* [What's new in SeaORM 0.4.0](https://www.sea-ql.org/SeaORM/blog/2021-11-19-whats-new-in-0.4.0/)
 
 ### Observations/Thoughts
+
+* [My Path to Magma: How I slowly became convinced we absolutely have to build a proof checker and bring formal verification to the mainstream.](https://blainehansen.me/post/my-path-to-magma/)
+* [Rust Packages vs Crates](https://jeffa.io/rust_packages_vs_crates)
+- [Merge Queues with Bors](https://kflansburg.com/posts/merge-queues/)
+* [Stack-safety for free?](https://hurryabit.github.io/blog/stack-safety-for-free/)
 
 ### Rust Walkthroughs
 
