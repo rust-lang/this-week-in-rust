@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Stack-safety for free?](https://hurryabit.github.io/blog/stack-safety-for-free/)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
