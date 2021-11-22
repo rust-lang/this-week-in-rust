@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [What's new in SeaORM 0.4.0](https://www.sea-ql.org/SeaORM/blog/2021-11-19-whats-new-in-0.4.0/)
+
 ### Observations/Thoughts
 
 * [My Path to Magma: How I slowly became convinced we absolutely have to build a proof checker and bring formal verification to the mainstream.](https://blainehansen.me/post/my-path-to-magma/)
