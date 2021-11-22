@@ -22,7 +22,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
-[Rust Packages vs Crates](https://jeffa.io/rust_packages_vs_crates)
+* [Rust Packages vs Crates](https://jeffa.io/rust_packages_vs_crates)
+- [Merge Queues with Bors](https://kflansburg.com/posts/merge-queues/)
+* [Stack-safety for free?](https://hurryabit.github.io/blog/stack-safety-for-free/)
 
 ### Rust Walkthroughs
 
