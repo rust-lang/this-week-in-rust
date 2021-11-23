@@ -37,9 +37,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [starship](https://github.com/starship/starship), a fast featureful customizable UNIX terminal prompt.
+This week's crate is [rustc\_codegen\_nvvm](https://crates.io/crates/rustc_codegen_nvvm), a rustc codegen backend that targets NVIDIA's libnvvm CUDA library.
 
-Thanks to [matchai](https://users.rust-lang.org/t/crate-of-the-week/2704/984) for the suggestion!
+Thanks to [troiganto](https://users.rust-lang.org/t/crate-of-the-week/2704/987) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -58,42 +58,58 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-273 pull requests were [merged in the last week][merged]
+284 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-11-08..2021-11-15
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-11-15..2021-11-22
 
-* [proc_macro: add an expand_expr method to TokenStream](https://github.com/rust-lang/rust/pull/87264) (literals only for now)
-* [type inference for inline consts](https://github.com/rust-lang/rust/pull/89561)
-* [add support for specifying multiple clobber_abi in `asm!`](https://github.com/rust-lang/rust/pull/89316)
-* [LLVM: fix nondeterminism in debuginfo generation](https://github.com/rust-lang/llvm-project/pull/118)
-* [don't abort compilation after giving a lint error](https://github.com/rust-lang/rust/pull/87337)
-* [do not emit overlap errors for impls failing the orphan check](https://github.com/rust-lang/rust/pull/89550)
-* [implement diagnostic for `String` conversion](https://github.com/rust-lang/rust/pull/90645)
-* [miri: detect uninitialized integers and floats](https://github.com/rust-lang/rust/pull/88670)
-* [re-enable `copy`(`_nonoverlapping`) debug-checks](https://github.com/rust-lang/rust/pull/90041)
-* [specialize array cloning for `Copy` types](https://github.com/rust-lang/rust/pull/90755)
-* [replace `Copy`/`Clone` compiler magic on arrays with library impls](https://github.com/rust-lang/rust/pull/86041)
-* [optimize `BinaryHeap::extend` from `Vec`](https://github.com/rust-lang/rust/pull/88282)
-* [optimize `Eq` and `Hash` for `Path`/`PathBuf`](https://github.com/rust-lang/rust/pull/90596)
-* [optimize pattern matching](https://github.com/rust-lang/rust/pull/90746)
-* [stabilize `const_raw_ptr_deref` for `*const T`](https://github.com/rust-lang/rust/pull/89551)
-* [stabilize format args capture](https://github.com/rust-lang/rust/pull/90473)
-* [extend the const swap feature](https://github.com/rust-lang/rust/pull/90644)
-* [don't destructure args tuple in `format_args!`](https://github.com/rust-lang/rust/pull/90485)
-* [portable-simd: use new bitmask intrinsics with byte arrays](https://github.com/rust-lang/portable-simd/pull/159)
-* [portable-simd: add `Simd::from_slice`](https://github.com/rust-lang/portable-simd/pull/177)
-* [portable-simd: rotate_{left,right} -> rotate_lanes_{left,right}](https://github.com/rust-lang/portable-simd/pull/181)
-* [clippy: add Clippy version to Clippy's lint list](https://github.com/rust-lang/rust-clippy/pull/7813)
-* [clippy: add minimum supported Rust version to `deprecated_cfg_attr`](https://github.com/rust-lang/rust-clippy/pull/7944)
-* [clippy: fix `explicit_counter_loop` suggestion for non-`usize` types](https://github.com/rust-lang/rust-clippy/pull/7950)
-* [clippy: fix `semicolon_if_nothing_returned` FP on `let-else` stmts](https://github.com/rust-lang/rust-clippy/pull/7955)
-* [clippy: fix suggestion for deref expressions in `redundant_pattern_matching`](https://github.com/rust-lang/rust-clippy/pull/7949)
-* [clippy: lint for bool to integer casts in `cast_lossless`](https://github.com/rust-lang/rust-clippy/pull/7948)
-* [clippy: make `let_underscore_lock` also detect `parking_lot` locks](https://github.com/rust-lang/rust-clippy/pull/7957)
-* [clippy: new lint `index_refutable_slice` to avoid slice indexing](https://github.com/rust-lang/rust-clippy/pull/7643)
-* [clippy: `swap` lints now check if there is `no_std` or `no_core` attribute](https://github.com/rust-lang/rust-clippy/pull/7877)
-* [clippy: `option_if_let_else`: don't expand macros in suggestion](https://github.com/rust-lang/rust-clippy/pull/7974)
-* [rustup: optimization: parse manifest only once](https://github.com/rust-lang/rustup/pull/2898)
+* [stabilize `-Z strip` as `-C strip`](https://github.com/rust-lang/rust/pull/90058)
+* [permit const panics in stable const contexts in stdlib](https://github.com/rust-lang/rust/pull/90687)
+* [simplify `for` loop desugar](https://github.com/rust-lang/rust/pull/90352)
+* [warn on `#[must_use]` use on async fn's](https://github.com/rust-lang/rust/pull/89610)
+* [suggest `&str.chars()` on attempt to `&str.iter()`](https://github.com/rust-lang/rust/pull/90803)
+* [suggest `await` in more situations where infer types are involved](https://github.com/rust-lang/rust/pull/91022)
+* [suggest removal of arguments for unit variant, not replacement](https://github.com/rust-lang/rust/pull/90961)
+* [try all stable method candidates first before trying unstable ones](https://github.com/rust-lang/rust/pull/90329)
+* [point at source of trait bound obligations in more places](https://github.com/rust-lang/rust/pull/89580)
+* [print escaped string if char literal has multiple characters, but only one printable character](https://github.com/rust-lang/rust/pull/90861)
+* [improve `ManuallyDrop` suggestion](https://github.com/rust-lang/rust/pull/90901)
+* [improve diagnostics when a static lifetime is expected](https://github.com/rust-lang/rust/pull/90667)
+* [improve suggestions for compatible variants on type mismatch](https://github.com/rust-lang/rust/pull/90575)
+* [fix float ICE](https://github.com/rust-lang/rust/pull/90927)
+* [fix await suggestion on non-future type](https://github.com/rust-lang/rust/pull/90933)
+* [fix incorrect handling of `TraitRef`s when emitting suggestions](https://github.com/rust-lang/rust/pull/90819)
+* [avoid suggesting literal formatting that turns into member access](https://github.com/rust-lang/rust/pull/90989)
+* [address performance regression introduced by recent ADT drop requirements fix](https://github.com/rust-lang/rust/pull/90845)
+* [optimize `impl Hash for ObligationCauseData` by not hashing `ObligationCauseCode` variant fields](https://github.com/rust-lang/rust/pull/90996)
+* [add IEEE 754-2019 minimun and maximum functions for `f32`/`f64`](https://github.com/rust-lang/rust/pull/91008)
+* [make char conversion functions unstably `const`](https://github.com/rust-lang/rust/pull/89258)
+* [make slice → `str` conversion and related functions `const`](https://github.com/rust-lang/rust/pull/90607)
+* [mark `<*const _>::align_offset` and `<*mut _>::align_offset` as `const fn`](https://github.com/rust-lang/rust/pull/90958)
+* [mark `Arc::from_inner` / `Rc::from_inner` as `unsafe`](https://github.com/rust-lang/rust/pull/89741)
+* [stabilize `File::options`](https://github.com/rust-lang/rust/pull/85766)
+* [add `Vec::retain_mut`](https://github.com/rust-lang/rust/pull/90772)
+* [implement `Termination` for `Result<Infallible, E>`](https://github.com/rust-lang/rust/pull/88601)
+* [implement `clone_from` for `State`](https://github.com/rust-lang/rust/pull/90535)
+* [miri: portable SIMD: basic binops](https://github.com/rust-lang/miri/pull/1918)
+* [arch: work-around buggy Intel chips erroneously reporting BMI1/BMI2 support](https://github.com/rust-lang/stdarch/pull/1249)
+* [arch: complete armv8 instructions](https://github.com/rust-lang/stdarch/pull/1256)
+* [log: add `Log` implementation for `&impl Log` and `Arc<impl Log>`](https://github.com/rust-lang/log/pull/471)
+* [cargo: add `--message-format` for `install` command](https://github.com/rust-lang/cargo/pull/10107)
+* [cargo: enhance error message for target auto-discovery](https://github.com/rust-lang/cargo/pull/10090)
+* [cargo: warn when alias shadows external subcommand](https://github.com/rust-lang/cargo/pull/10082)
+* [clippy: add new lint `octal_escapes`](https://github.com/rust-lang/rust-clippy/pull/8007)
+* [clippy: allow `suboptimal_flops` in `const` functions](https://github.com/rust-lang/rust-clippy/pull/8009)
+* [clippy: avoid inline hints with double backticks for `doc-markdown`](https://github.com/rust-lang/rust-clippy/pull/8011)
+* [clippy: don't show `no_effect` warning on unit structs implementing `fn_once`](https://github.com/rust-lang/rust-clippy/pull/7898)
+* [clippy: fix ICE on `undocumented_unsafe_blocks`](https://github.com/rust-lang/rust-clippy/pull/7988)
+* [clippy: fix `manual_map` with unsafe functions](https://github.com/rust-lang/rust-clippy/pull/7968)
+* [clippy: fix `needless_collect`'s tendency to suggest code requiring multiple mutable borrows of the same value.](https://github.com/rust-lang/rust-clippy/pull/7982)
+* [clippy: fix behavior-changing `manual_split_once` suggestion and add new lint `needless_splitn`](https://github.com/rust-lang/rust-clippy/pull/7896)
+* [clippy: fix `shadow_same` false positives for async function arguments](https://github.com/rust-lang/rust-clippy/pull/7997)
+* [clippy: improve `needless_borrow` lint](https://github.com/rust-lang/rust-clippy/pull/7977)
+* [clippy: improve heuristic for eagerness suggestion](https://github.com/rust-lang/rust-clippy/pull/7639)
+* [clippy: fix suggestion in `option_map_or_none`](https://github.com/rust-lang/rust-clippy/pull/7971)
+* [rustfmt: preserve normalized comments after last list item](https://github.com/rust-lang/rustfmt/pull/5091)
 
 ### Rust Compiler Performance Triage
 
@@ -172,19 +188,17 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> If a normal add is [a waffle iron ](https://en.wikipedia.org/wiki/Waffle_iron), SIMD add is a
-> double or quadruple waffle iron. You can make 2 or 4 or more waffles at the same time.
+> On the topic of reframing UB, I was reminded of an article about the [mechanics of oaths and vows in historical cultures](https://acoup.blog/2019/06/28/collections-oaths-how-do-they-work/).
 >
-> In case of waffles it would be called SIMW: **S** ingle **I** ron, **M** ultiple **W** affles.
+> When a programmer writes `get_unchecked` , we can imagine them wanting to promise the compiler that they uphold its preconditions. But since the compiler is normally not so trusting of unproven assertions, the programmer swears an *oath* that their argument is in bounds.
 >
-> It's not multithreading - because you open and close the waffle iron for all the waffles at the
-> same time.
+> The compiler, seeing such a solemn commitment, treats the programmer's word as true and optimizes accordingly. The compiler is so thoroughly convinced that it never even entertains the possibility of doubting the programmer's oath.
+>
+> But if the programmer has sworn falsely, then they might well suffer divine retribution in the form of nasal demons — or worse, subtly baffling program behaviour.
 
-– [/u/EarthyFeet on /r/rust](https://www.reddit.com/r/rust/comments/qucind/stdsimd_is_now_available_on_nightly/hkpy4y4/)
+– [/u/scook0 on /r/rust](https://reddit.com/r/rust/comments/qx168t/undefined_behavior_deserves_a_better_reputation/hl8koel/)
 
-Editors note: Do yourself a favor, click the link and read the whole thread, it's pure gold (*chef's kiss*).
-
-Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1137) for the suggestion!
+Thanks to [G. Thorondorsen](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1142) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
