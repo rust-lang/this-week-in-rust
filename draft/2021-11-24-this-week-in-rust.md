@@ -41,6 +41,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [How lnx does fuzzy searching over 5x faster with SymSpell](https://chillfish8.ghost.io/fuzzy-searching-5x-faster-with-symspell/)
 * [Endianness, API Design, and Polymorphism in Rust](https://www.thecodedmessage.com/posts/endian_polymorphism/)
 * [DE] [Programmiersprachen: Die Rust Foundation hat eine neue Geschäftsführerin](https://www.heise.de/news/Die-Rust-Foundation-hat-eine-neue-Geschaeftsfuehrerin-6270875.html)
+* [DE] [Rust: Moderatoren der Programmiersprache treten zurück](https://www.heise.de/news/Rust-Moderatoren-der-Programmiersprache-treten-zurueck-6275049.html)
 * [audio] [Error Handling in Rust with Jane Lusby](https://rustacean-station.org/episode/047-jane-lusby/)
 
 ### Rust Walkthroughs
@@ -48,6 +49,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Calling Rust from Python using PyO3](https://saidvandeklundert.net/learn/2021-11-18-calling-rust-from-python-using-pyo3/)
 * [Adventures in Drone Photogrammetry Using Rust and Machine Learning](http://cmoran.xyz/writing/adventures_in_photogrammetry)
 * [Async, refactoring and fewer bugs: Rust block expressions to the rescue](https://dev.to/igorpetruk/async-refactoring-and-fewer-bugs-rust-block-expressions-to-the-rescue-ef0)
+* [How to instrument a Rust application with OpenTelemetry](https://21-lessons.com/how-to-instrument-a-rust-application-with-opentelemetry/)
 * [series] [Rust from the beginning, your first program](https://dev.to/azure/rust-from-the-beginning-your-first-program-30cp)
 * [series] [Oops, I Did It Again...I Made A Rust Web API And It Was Not That Difficult](https://dev.to/deciduously/oops-i-did-it-againi-made-a-rust-web-api-and-it-was-not-that-difficult-3kk8)
 * [series] [Getting Started with Hippo - a WebAssembly PaaS (Part 1)](https://dev.to/smurawski/getting-started-with-hippo-a-webassembly-paas-part-1-5470)
