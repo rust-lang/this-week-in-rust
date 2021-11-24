@@ -61,6 +61,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Getting Started with WebAssembly (WASM) with Rust Lang](https://youtu.be/AlsIhnrQO9A)
 * [video] [What's Special About Rust](https://youtu.be/YxzGp33K088)
 * [video] [Web api benchmarking: NodeJS (Express) vs Rust (actix-web)](https://youtu.be/5ObNvCMIkPs)
+* [video] [Munich Rust Meetup Remote #9](https://youtu.be/Ejzi-56-nqc)
 * [series] [video] [LRG-16: Threads](https://youtu.be/U6Yg6-aW_Zg)
 
 ### Miscellaneous
