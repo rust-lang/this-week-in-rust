@@ -57,11 +57,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [series] [Getting Started with Hippo - a WebAssembly PaaS (Part 2)](https://dev.to/smurawski/getting-started-with-hippo-a-webassembly-paas-part-2-2ilo)
 * [series] [Getting Started with Hippo - a WebAssembly PaaS (Part 3)](https://dev.to/smurawski/getting-started-with-hippo-a-webassembly-paas-part-3-1h76)
 * [video] [Using Rust with Elixir for code reuse and performance by Niklas Begley](https://youtu.be/Sfb0DKD8e9A)
-* [video] [Rust Autocomplete and Debugging in VS Code](https://www.youtube.com/watch?v=2VPSzb7RNtY)
-* [video] [Getting Started with WebAssembly (WASM) with Rust Lang](https://www.youtube.com/watch?v=AlsIhnrQO9A)
-* [video] [What's Special About Rust](https://www.youtube.com/watch?v=YxzGp33K088)
+* [video] [Rust Autocomplete and Debugging in VS Code](https://youtu.be/2VPSzb7RNtY)
+* [video] [Getting Started with WebAssembly (WASM) with Rust Lang](https://youtu.be/AlsIhnrQO9A)
+* [video] [What's Special About Rust](https://youtu.be/YxzGp33K088)
 * [video] [Web api benchmarking: NodeJS (Express) vs Rust (actix-web)](https://youtu.be/5ObNvCMIkPs)
-* [series] [video] [LRG-16: Threads](https://www.youtube.com/watch?v=U6Yg6-aW_Zg)
+* [series] [video] [LRG-16: Threads](https://youtu.be/U6Yg6-aW_Zg)
 
 ### Miscellaneous
 
