@@ -33,6 +33,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 * [Calling Rust from Python using PyO3](https://saidvandeklundert.net/learn/2021-11-18-calling-rust-from-python-using-pyo3/)
+* [series] [video] [Writing a Programming Language (in Rust) 8: Function returns and list indexing](https://www.youtube.com/watch?v=EPdilVGovxE)
+
 ### Miscellaneous
 
 ## Crate of the Week
