@@ -40,6 +40,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Contributing to Artichoke in Rust](https://briankung.dev/2021/11/20/contributing-to-artichoke-in-rust/)
 * [How lnx does fuzzy searching over 5x faster with SymSpell](https://chillfish8.ghost.io/fuzzy-searching-5x-faster-with-symspell/)
 * [Endianness, API Design, and Polymorphism in Rust](https://www.thecodedmessage.com/posts/endian_polymorphism/)
+* [A Tale of Three Rust Codebases](https://blog.convex.dev/a-tale-of-three-codebases/)
 * [DE] [Programmiersprachen: Die Rust Foundation hat eine neue Geschäftsführerin](https://www.heise.de/news/Die-Rust-Foundation-hat-eine-neue-Geschaeftsfuehrerin-6270875.html)
 * [DE] [Rust: Moderatoren der Programmiersprache treten zurück](https://www.heise.de/news/Rust-Moderatoren-der-Programmiersprache-treten-zurueck-6275049.html)
 * [audio] [Error Handling in Rust with Jane Lusby](https://rustacean-station.org/episode/047-jane-lusby/)
@@ -59,6 +60,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Rust Autocomplete and Debugging in VS Code](https://www.youtube.com/watch?v=2VPSzb7RNtY)
 * [video] [Getting Started with WebAssembly (WASM) with Rust Lang](https://www.youtube.com/watch?v=AlsIhnrQO9A)
 * [video] [What's Special About Rust](https://www.youtube.com/watch?v=YxzGp33K088)
+* [video] [Web api benchmarking: NodeJS (Express) vs Rust (actix-web)](https://youtu.be/5ObNvCMIkPs)
 * [series] [video] [LRG-16: Threads](https://www.youtube.com/watch?v=U6Yg6-aW_Zg)
 
 ### Miscellaneous
