@@ -33,6 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 * [Calling Rust from Python using PyO3](https://saidvandeklundert.net/learn/2021-11-18-calling-rust-from-python-using-pyo3/)
+* [Let’s Build a Salesforce Commerce Cloud Product Search Component with OCAPI, Rust, and Yew — Part 1](https://medium.com/perimeterx/lets-build-a-salesforce-commerce-cloud-products-search-component-with-ocapi-rust-and-yew-part-98d7b3774f2f)
 ### Miscellaneous
 
 ## Crate of the Week
