@@ -14,9 +14,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-### Official
-
 ### Foundation
+
+* [The Rust Foundation Ask Me Anything (AMA) - November 2021](https://www.youtube.com/watch?v=Twb4u57kH5E)
 
 ### Project/Tooling Updates
 
@@ -29,6 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [mod team resignation](https://github.com/rust-lang/team/pull/671?utm_source=thenewstack&utm_medium=website&utm_campaign=platform)
 * [My Path to Magma: How I slowly became convinced we absolutely have to build a proof checker and bring formal verification to the mainstream.](https://blainehansen.me/post/my-path-to-magma/)
 * [Rust Packages vs Crates](https://jeffa.io/rust_packages_vs_crates)
 * [Merge Queues with Bors](https://kflansburg.com/posts/merge-queues/)
@@ -90,6 +91,20 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [rusty-celery is looking for contributors](https://github.com/rusty-celery/rusty-celery)
+
+**Artichoke**
+
+* [Implement `mezzaluna_feature_loader::LoadedFeatures::shrink_to`](https://github.com/artichoke/artichoke/issues/1501)
+* [Implement `artichoke_backend::module::Registry::shrink_to`](https://github.com/artichoke/artichoke/issues/1503)
+* [Implement `artichoke_backend::class::Registry::shrink_to`](https://github.com/artichoke/artichoke/issues/1502)
+
+**Ockam**
+
+* [Fix handling of larger messages in ockam_node](https://github.com/ockam-network/ockam/issues/2236)
+* [Replace TCP port 5000 in examples&guides](https://github.com/ockam-network/ockam/issues/2256)
+* [Update to Rust 2021](https://github.com/ockam-network/ockam/issues/2249)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -230,6 +245,28 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**StackBlitz**
+
+* [WebContainer Systems Engineer (Remote)](https://jobs.lever.co/stackblitz/7ccd2472-1416-4448-8642-e58e9b32e129)
+
+**Elektron**
+
+* [Rust Audio Developer (Gothenburg, SE)](https://www.elektron.se/rust-audio-developer/)
+
+**tangram**
+
+* [Rust Developer (Remote)](https://www.tangram.dev/jobs)
+
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
+
+**Maasa Labs**
+
+* [Several Rust Engineering Positions Available](https://massa.net/jobs.html)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
