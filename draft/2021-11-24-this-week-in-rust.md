@@ -100,7 +100,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 This week, there were a number of cases where the `incr-unchanged` variants of `inflate` went up or down by 5% to 6%; we believe these are instances of increased noise in benchmarks documented on [rustc-perf#1105](https://github.com/rust-lang/rustc-perf/issues/1105). I was tempted to remove these from the report, but its non-trivial to re-construct the report "as if" some benchmark were omitted.
 
-Otherwise, there were some nice wins for performance. For example, PR [#90996](https://github.com/rust-lang/rust/issues/90996) more than halved the compilation time for `full` builds of `diesel` by revising how we hash `ObligationCauseData`. If anyone is interested, it might be good to follow-up on the effects of PR [#90352](https://github.com/rust-lang/rust/issues/90352), "Simplify `for` loop desugar", where we have hypothesized that the increased compilation time is due to more LLVM optimizations being applied.
+Otherwise, there were some nice wins for performance. For example, PR [#90996](https://github.com/rust-lang/rust/issues/90996) more than halved the time to document builds of `diesel` by revising how we hash `ObligationCauseData`. If anyone is interested, it might be good to follow-up on the effects of PR [#90352](https://github.com/rust-lang/rust/issues/90352), "Simplify `for` loop desugar", where we have hypothesized that the increased compilation time is due to more LLVM optimizations being applied.
 
 Triage done by **@pnkfelix**.
 Revision range: [934624fe..22c2d9dd](https://perf.rust-lang.org/?start=934624fe5f66ce3fb8abf0597a6deb079783335f&end=22c2d9ddbf356bcdb718e88ca6ee3665e1e42690&absolute=false&stat=instructions%3Au)
