@@ -33,7 +33,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 * [Calling Rust from Python using PyO3](https://saidvandeklundert.net/learn/2021-11-18-calling-rust-from-python-using-pyo3/)
+
 ### Miscellaneous
+
+* [I Made a Star Wars Programming Language Called "The Force" in Rust!](https://codecaptured.com/blog/i-made-a-star-wars-programming-language-called-the-force/)
 
 ## Crate of the Week
 
