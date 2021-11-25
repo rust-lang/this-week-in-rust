@@ -146,18 +146,28 @@ decision. Express your opinions now.
 
 ## Upcoming Events
 
-Rusty Events between 11/17-12/01 🦀
+Rusty Events between 11/24-12/08 🦀
 
 ### Online
 
-* [November 17, 2021, Vancouver, BC, CA - Borrowing and Lifetimes through Metaphors - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zkqvjsyccpbwb/)
-* [November 17, 2021, Houston, TX, US - A Functional Introduction to Rust - Houston Functional Programming User Group](https://www.meetup.com/houston-functional-programming-users-group/events/281526282)
-* [November 17, 2021, Los Angeles, CA, US - Live Coding Session: Mob Programming a Rust Code Kata - Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/281944639)
-* [November 19, 2021, IR - The Second Rust Iran online meetup - Rust Iran Meetup](https://rust-meetup.ir/2021/11/19/second-meetup.html)
-* [November 20, 2021, RustFest Global 2021: Rust In Arts Edition - RustFest](https://rustfest.global/)
-* [November 23, 2021, Berlin, DE - Rust Hack and Learn - Berline.rs](https://berline.rs/)
-* [November 30, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccpbnc/)
+* [November 25, 2021 | Cardiff, WLS | **Rust Book Study Session - Packages, Crates and Modules & Common Collections** | Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/282025037)
+* [November 25, 2021 | Nuremberg, DE | **Rust Nürnberg online #7** | Rust Nuremberg](https://www.meetup.com/rust-noris/events/281829098)
+* [November 25, 2021 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/282000759)
+* [November 25, 2021 | Linz, AT | **Rust Meetup Linz - 16th Edition** | Rust Linz](https://www.meetup.com/Rust-Linz/events/282093961)
+* [November 30, 2021 | Dallas, TX, US | **Last Tuesday** | Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccpbnc/)
+* [November 30, 2021 | Graz, AT | **Rust and memory safety** | Rust Graz Meetup](https://www.meetup.com/Graz-Rust-Meetup/events/281955585)
+* [December 7, 2021 | Buffalo, NY, US | **First Tuesdays** | Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/281833990/)
+* [December 8, 2021 | Los Gatos, CA, US | **Book #24 - Rust for Rustaceans - Chapter 1** | Los Gatos Reading Group](https://www.meetup.com/Los-Gatos-Rust-Reading-Group/events/281966245)
+* [December 8, 2021 | Los Angeles, CA, US | **Rust Computer Vision Project with Geordon Worley** | Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/281944671/)
+* [December 8, 2021 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/282009864)
 
+### North America
+
+* [December 8, 2021 | Atlanta, GA, US | **Grab a beer with fellow Rustaceans** | Rust Atlanta](https://www.meetup.com/Rust-ATL/events/lhpkmsyccqblb/)
+
+### Europe
+
+* [December 3, 2021 | Moscow, RU | **Rust Con** | RustCon.ru](https://rustcon.ru)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
