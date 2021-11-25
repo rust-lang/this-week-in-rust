@@ -185,8 +185,8 @@ Revision range: [934624fe..22c2d9dd](https://perf.rust-lang.org/?start=934624fe5
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-[Constrained Naked Functions](https://github.com/rust-lang/rfcs/pull/2972)
-[Cargo --crate-type CLI Argument](https://github.com/rust-lang/rfcs/pull/3180)
+* [Constrained Naked Functions](https://github.com/rust-lang/rfcs/pull/2972)
+* [Cargo --crate-type CLI Argument](https://github.com/rust-lang/rfcs/pull/3180)
 
 ### Final Comment Period
 
