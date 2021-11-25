@@ -171,7 +171,8 @@ Revision range: [eee8b9c7..934624f](https://perf.rust-lang.org/?start=eee8b9c7ba
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* *No RFCs were approved this week.*
+[Constrained Naked Functions](https://github.com/rust-lang/rfcs/pull/2972)
+[Cargo --crate-type CLI Argument](https://github.com/rust-lang/rfcs/pull/3180)
 
 ### Final Comment Period
 
@@ -181,17 +182,21 @@ decision. Express your opinions now.
 
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Add RFC float-next-up-down.](https://github.com/rust-lang/rfcs/pull/3173)
+* *No RFCs entered final comment period this week.*
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [#![feature(maybe_uninit_extra,const_maybe_uninit_write)]](https://github.com/rust-lang/rust/issues/63567)
+* [disposition: merge] [Stabilize some MaybeUninit behavior as const](https://github.com/rust-lang/rust/pull/90896)
+* [disposition: merge] [Document setgroups call caused by std::os::unix::process::CommandExt.uid](https://github.com/rust-lang/rust/pull/90292)
+* [disposition: merge] [Tracking Issue for const-initialized thread locals](https://github.com/rust-lang/rust/issues/84223)
+* [disposition: merge] [Tracking Issue for NonZeroUn::is_power_of_two (feature nonzero_is_power_of_two)](https://github.com/rust-lang/rust/issues/81106)
+* [disposition: merge] [Tracking Issue for #![feature(available_parallelism)]](https://github.com/rust-lang/rust/issues/74479)
+* [disposition: merge] [Tracking Issue for inline assembly (asm!)](https://github.com/rust-lang/rust/issues/72016)
+* [disposition: merge] [Tracking Issue for cargo report future-incompat](https://github.com/rust-lang/rust/issues/71249)
 
 ### [New RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [Add std::inputln()](https://github.com/rust-lang/rfcs/pull/3196)
-* [Fix link in RFC 2873](https://github.com/rust-lang/rfcs/pull/3195)
-* [return position impl trait in traits](https://github.com/rust-lang/rfcs/pull/3193)
+* RFC Update: [Clarify that RFC1520 does not permit the compiler to replace calls to Clone::clone with a memcpy](https://github.com/rust-lang/rfcs/pull/3197)
 
 ## Upcoming Events
 
