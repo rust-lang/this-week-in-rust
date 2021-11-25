@@ -22,17 +22,47 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [SixtyFPS (GUI crate): Changelog for 21th of November 2021](https://sixtyfps.io/thisweek/2021-11-22.html)
 * [What's new in SeaORM 0.4.0](https://www.sea-ql.org/SeaORM/blog/2021-11-19-whats-new-in-0.4.0/)
+* [Rust Analyzer Changelog #104](https://rust-analyzer.github.io/thisweek/2021/11/22/changelog-104.html)
+* [IntelliJ Rust Changelog #160](https://intellij-rust.github.io/2021/11/22/changelog-160.html)
+* [Arti 0.0.1 is released: An embeddable Tor client in Rust](https://forum.torproject.net/t/arti-0-0-1-is-released-an-embeddable-tor-client-in-rust/281)
 
 ### Observations/Thoughts
 
 * [My Path to Magma: How I slowly became convinced we absolutely have to build a proof checker and bring formal verification to the mainstream.](https://blainehansen.me/post/my-path-to-magma/)
 * [Rust Packages vs Crates](https://jeffa.io/rust_packages_vs_crates)
-- [Merge Queues with Bors](https://kflansburg.com/posts/merge-queues/)
+* [Merge Queues with Bors](https://kflansburg.com/posts/merge-queues/)
 * [Stack-safety for free?](https://hurryabit.github.io/blog/stack-safety-for-free/)
+* [Rustc Reading Club, Take 2](http://smallcultfollowing.com/babysteps/blog/2021/11/18/rustc-reading-club-take-2/)
+* [Undefined Behavior deserves a better reputation](https://blog.sigplan.org/2021/11/18/undefined-behavior-deserves-a-better-reputation/)
+* [Improving overconstrained Rust library APIs](https://dev.to/logrocket/improving-overconstrained-rust-library-apis-47ok)
+* [I used Rust for the first time to bridge two softwares, here’s how it went](https://blog.scaleway.com/i-used-rust-for-the-first-time-to-bridge-two-softwares-heres-how-it-went/)
+* [IDEs and Macros](https://rust-analyzer.github.io//blog/2021/11/21/ides-and-macros.html)
+* [Contributing to Artichoke in Rust](https://briankung.dev/2021/11/20/contributing-to-artichoke-in-rust/)
+* [How lnx does fuzzy searching over 5x faster with SymSpell](https://chillfish8.ghost.io/fuzzy-searching-5x-faster-with-symspell/)
+* [Endianness, API Design, and Polymorphism in Rust](https://www.thecodedmessage.com/posts/endian_polymorphism/)
+* [A Tale of Three Rust Codebases](https://blog.convex.dev/a-tale-of-three-codebases/)
+* [DE] [Programmiersprachen: Die Rust Foundation hat eine neue Geschäftsführerin](https://www.heise.de/news/Die-Rust-Foundation-hat-eine-neue-Geschaeftsfuehrerin-6270875.html)
+* [DE] [Rust: Moderatoren der Programmiersprache treten zurück](https://www.heise.de/news/Rust-Moderatoren-der-Programmiersprache-treten-zurueck-6275049.html)
+* [audio] [Error Handling in Rust with Jane Lusby](https://rustacean-station.org/episode/047-jane-lusby/)
 
 ### Rust Walkthroughs
 
 * [Calling Rust from Python using PyO3](https://saidvandeklundert.net/learn/2021-11-18-calling-rust-from-python-using-pyo3/)
+* [Adventures in Drone Photogrammetry Using Rust and Machine Learning](http://cmoran.xyz/writing/adventures_in_photogrammetry)
+* [Async, refactoring and fewer bugs: Rust block expressions to the rescue](https://dev.to/igorpetruk/async-refactoring-and-fewer-bugs-rust-block-expressions-to-the-rescue-ef0)
+* [How to instrument a Rust application with OpenTelemetry](https://21-lessons.com/how-to-instrument-a-rust-application-with-opentelemetry/)
+* [series] [Rust from the beginning, your first program](https://dev.to/azure/rust-from-the-beginning-your-first-program-30cp)
+* [series] [Oops, I Did It Again...I Made A Rust Web API And It Was Not That Difficult](https://dev.to/deciduously/oops-i-did-it-againi-made-a-rust-web-api-and-it-was-not-that-difficult-3kk8)
+* [series] [Getting Started with Hippo - a WebAssembly PaaS (Part 1)](https://dev.to/smurawski/getting-started-with-hippo-a-webassembly-paas-part-1-5470)
+* [series] [Getting Started with Hippo - a WebAssembly PaaS (Part 2)](https://dev.to/smurawski/getting-started-with-hippo-a-webassembly-paas-part-2-2ilo)
+* [series] [Getting Started with Hippo - a WebAssembly PaaS (Part 3)](https://dev.to/smurawski/getting-started-with-hippo-a-webassembly-paas-part-3-1h76)
+* [video] [Using Rust with Elixir for code reuse and performance by Niklas Begley](https://youtu.be/Sfb0DKD8e9A)
+* [video] [Rust Autocomplete and Debugging in VS Code](https://youtu.be/2VPSzb7RNtY)
+* [video] [Getting Started with WebAssembly (WASM) with Rust Lang](https://youtu.be/AlsIhnrQO9A)
+* [video] [What's Special About Rust](https://youtu.be/YxzGp33K088)
+* [video] [Web api benchmarking: NodeJS (Express) vs Rust (actix-web)](https://youtu.be/5ObNvCMIkPs)
+* [video] [Munich Rust Meetup Remote #9](https://youtu.be/Ejzi-56-nqc)
+* [series] [video] [LRG-16: Threads](https://youtu.be/U6Yg6-aW_Zg)
 
 ### Miscellaneous
 
