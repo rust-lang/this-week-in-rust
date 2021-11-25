@@ -94,6 +94,18 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [rusty-celery is looking for contributors](https://github.com/rusty-celery/rusty-celery)
 
+**Artichoke**
+
+* [Implement `mezzaluna_feature_loader::LoadedFeatures::shrink_to`](https://github.com/artichoke/artichoke/issues/1501)
+* [Implement `artichoke_backend::module::Registry::shrink_to`](https://github.com/artichoke/artichoke/issues/1503)
+* [Implement `artichoke_backend::class::Registry::shrink_to`](https://github.com/artichoke/artichoke/issues/1502)
+
+**Ockam**
+
+* [Fix handling of larger messages in ockam_node](https://github.com/ockam-network/ockam/issues/2236)
+* [Replace TCP port 5000 in examples&guides](https://github.com/ockam-network/ockam/issues/2256)
+* [Update to Rust 2021](https://github.com/ockam-network/ockam/issues/2249)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
