@@ -232,7 +232,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--paths', default='content:draft',
                         help="Directory paths to inspect (colon separated)")
-    parser.add_argument('--num-recent', default=5, type=int,
+    parser.add_argument('--num-recent', default=25, type=int,
                         help="Number of recent files to inspect")
     parser.add_argument('--num-warn', default=1, type=int,
                         help="Number of recent files to warn about")
