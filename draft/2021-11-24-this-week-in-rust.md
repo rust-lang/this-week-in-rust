@@ -146,25 +146,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-A large amount of noise in the comparisons this week, likely due to new
-probabilistic query hash verification increasing likelihood of changes in each
-benchmark; solutions are being tracked in [rustc-perf#1105].
 
-Otherwise, though, the week largely amounted to a neutral one for performance.
-There were some regressions, particularly in doc builds, as a result of the
-addition of portable SIMD. These are relatively speaking minor and primarily
-impact small crates.
+This week, there were a number of cases where the `incr-unchanged` variants of `inflate` went up or down by 5% to 6%; we believe these are instances of increased noise in benchmarks documented on [rustc-perf#1105](https://github.com/rust-lang/rustc-perf/issues/1105). I was tempted to remove these from the report, but its non-trivial to re-construct the report "as if" some benchmark were omitted.
 
-[rustc-perf#1105]: https://github.com/rust-lang/rustc-perf/issues/1105
+Otherwise, there were some nice wins for performance. For example, PR [#90996](https://github.com/rust-lang/rust/issues/90996) more than halved the time to document builds of `diesel` by revising how we hash `ObligationCauseData`. If anyone is interested, it might be good to follow-up on the effects of PR [#90352](https://github.com/rust-lang/rust/issues/90352), "Simplify `for` loop desugar", where we have hypothesized that the increased compilation time is due to more LLVM optimizations being applied.
 
-Triage done by **@simulacrum**.
-Revision range: [eee8b9c7..934624f](https://perf.rust-lang.org/?start=eee8b9c7bafade55981d155dae71657f1cc55a22&end=934624fe5f66ce3fb8abf0597a6deb079783335f&absolute=false&stat=instructions%3Au)
+Triage done by **@pnkfelix**.
+Revision range: [934624fe..22c2d9dd](https://perf.rust-lang.org/?start=934624fe5f66ce3fb8abf0597a6deb079783335f&end=22c2d9ddbf356bcdb718e88ca6ee3665e1e42690&absolute=false&stat=instructions%3Au)
 
-5 Regressions, 2 Improvements, 6 Mixed; 2 of them in rollups
+1 Regressions, 3 Improvements, 8 Mixed; 3 of them in rollups
+34 comparisons made in total
 
-41 comparisons made in total
-
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-11-16.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-11-23.md)
 
 ### Approved RFCs
 
