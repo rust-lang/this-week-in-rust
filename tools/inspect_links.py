@@ -24,9 +24,14 @@ class Warnings:
 
     def __init__(self):
         self.warnings = []
+        self.silent = False
+
+    def silence(self, val):
+        self.silent = val
 
     def warn(self, msg):
-        self.warnings.append(msg)
+        if not self.silent:
+            self.warnings.append(msg)
 
     def get(self):
         return self.warnings
@@ -202,11 +207,16 @@ def get_recent_files(dirs, count):
     return listing
 
 
-def inspect_files(file_list):
+def inspect_files(file_list, num_warn):
     """ Inspect a set of files, storing warnings about duplicate links. """
     linkset = {}
 
-    for file in file_list:
+    # If we inspect 5 files (enumerated 0-4), and want to warn on 2,
+    # then the warnings start at N=3 (length - 1 - num_warn).
+    warn_index = len(file_list) - 1 - num_warn
+
+    for index, file in enumerate(file_list):
+        warnings.silence(index < warn_index)
         links = inspect_file(file)
         LOG.debug(f'found links: {links}')
         for link in links:
@@ -224,13 +234,15 @@ def main():
                         help="Directory paths to inspect (colon separated)")
     parser.add_argument('--num-recent', default=5, type=int,
                         help="Number of recent files to inspect")
+    parser.add_argument('--num-warn', default=1, type=int,
+                        help="Number of recent files to warn about")
     parser.add_argument('--debug', action='store_true')
     args = parser.parse_args()
     if args.debug:
         LOG.setLevel(logging.DEBUG)
     LOG.debug(f'command-line arguments: {args}')
     file_list = get_recent_files(args.paths, args.num_recent)
-    inspect_files(file_list)
+    inspect_files(file_list, args.num_warn)
 
 
 def setup_logging():
