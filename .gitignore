@@ -6,3 +6,4 @@ output
 *~
 cache
 .sass-cache
+**/.idea
