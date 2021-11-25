@@ -47,6 +47,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [I'm learning Rust - Ownership, lifetimes, and structs (video)](https://youtu.be/PHa9rGuDzQI)
 * [Calling Rust from Python using PyO3](https://saidvandeklundert.net/learn/2021-11-18-calling-rust-from-python-using-pyo3/)
 * [Adventures in Drone Photogrammetry Using Rust and Machine Learning](http://cmoran.xyz/writing/adventures_in_photogrammetry)
 * [Async, refactoring and fewer bugs: Rust block expressions to the rescue](https://dev.to/igorpetruk/async-refactoring-and-fewer-bugs-rust-block-expressions-to-the-rescue-ef0)
