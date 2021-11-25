@@ -49,6 +49,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [I'm learning Rust - Ownership, lifetimes, and structs (video)](https://youtu.be/PHa9rGuDzQI)
 * [Calling Rust from Python using PyO3](https://saidvandeklundert.net/learn/2021-11-18-calling-rust-from-python-using-pyo3/)
+* [Let’s Build a Salesforce Commerce Cloud Product Search Component with OCAPI, Rust, and Yew — Part 1](https://medium.com/perimeterx/lets-build-a-salesforce-commerce-cloud-products-search-component-with-ocapi-rust-and-yew-part-98d7b3774f2f)
 * [Adventures in Drone Photogrammetry Using Rust and Machine Learning](http://cmoran.xyz/writing/adventures_in_photogrammetry)
 * [Async, refactoring and fewer bugs: Rust block expressions to the rescue](https://dev.to/igorpetruk/async-refactoring-and-fewer-bugs-rust-block-expressions-to-the-rescue-ef0)
 * [How to instrument a Rust application with OpenTelemetry](https://21-lessons.com/how-to-instrument-a-rust-application-with-opentelemetry/)
