@@ -91,6 +91,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [rusty-celery is looking for contributors](https://github.com/rusty-celery/rusty-celery)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -230,6 +232,24 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**StackBlitz**
+
+* [WebContainer Systems Engineer (Remote)](https://jobs.lever.co/stackblitz/7ccd2472-1416-4448-8642-e58e9b32e129)
+
+**Elektron**
+
+* [Rust Audio Developer (Gothenburg, SE)](https://www.elektron.se/rust-audio-developer/)
+
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
+
+**Maasa Labs**
+
+* [Several Rust Engineering Positions Available](https://massa.net/jobs.html)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
