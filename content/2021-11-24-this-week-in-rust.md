@@ -26,6 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust Analyzer Changelog #104](https://rust-analyzer.github.io/thisweek/2021/11/22/changelog-104.html)
 * [IntelliJ Rust Changelog #160](https://intellij-rust.github.io/2021/11/22/changelog-160.html)
 * [Arti 0.0.1 is released: An embeddable Tor client in Rust](https://forum.torproject.net/t/arti-0-0-1-is-released-an-embeddable-tor-client-in-rust/281)
+* [This week in Databend #17: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-11-24-databend-weekly/)
 
 ### Observations/Thoughts
 
