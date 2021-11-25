@@ -29,7 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
-* [mod team resignation](https://github.com/rust-lang/team/pull/671?utm_source=thenewstack&utm_medium=website&utm_campaign=platform)
+* [mod team resignation](https://github.com/rust-lang/team/pull/671)
 * [My Path to Magma: How I slowly became convinced we absolutely have to build a proof checker and bring formal verification to the mainstream.](https://blainehansen.me/post/my-path-to-magma/)
 * [Rust Packages vs Crates](https://jeffa.io/rust_packages_vs_crates)
 * [Merge Queues with Bors](https://kflansburg.com/posts/merge-queues/)
