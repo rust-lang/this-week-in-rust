@@ -1,6 +1,6 @@
 Title: This Week in Rust 418
 Number: 418
-Date: 2021-11-18
+Date: 2021-11-24
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
