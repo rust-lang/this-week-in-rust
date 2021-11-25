@@ -32,6 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust Packages vs Crates](https://jeffa.io/rust_packages_vs_crates)
 * [Merge Queues with Bors](https://kflansburg.com/posts/merge-queues/)
 * [Stack-safety for free?](https://hurryabit.github.io/blog/stack-safety-for-free/)
+* [Intrusive Smart Pointers + Heap Only Types = 💞](https://blog.schichler.dev/intrusive-smart-pointers-heap-only-types-ckvzj2thw0caoz2s1gpmi1xm8)
 * [Rustc Reading Club, Take 2](http://smallcultfollowing.com/babysteps/blog/2021/11/18/rustc-reading-club-take-2/)
 * [Undefined Behavior deserves a better reputation](https://blog.sigplan.org/2021/11/18/undefined-behavior-deserves-a-better-reputation/)
 * [Improving overconstrained Rust library APIs](https://dev.to/logrocket/improving-overconstrained-rust-library-apis-47ok)
@@ -49,6 +50,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [I'm learning Rust - Ownership, lifetimes, and structs (video)](https://youtu.be/PHa9rGuDzQI)
 * [Calling Rust from Python using PyO3](https://saidvandeklundert.net/learn/2021-11-18-calling-rust-from-python-using-pyo3/)
+* [Pinning in plain English](https://blog.schichler.dev/pinning-in-plain-english-ckwdq3pd0065zwks10raohh85)
 * [Let’s Build a Salesforce Commerce Cloud Product Search Component with OCAPI, Rust, and Yew — Part 1](https://medium.com/perimeterx/lets-build-a-salesforce-commerce-cloud-products-search-component-with-ocapi-rust-and-yew-part-98d7b3774f2f)
 * [Adventures in Drone Photogrammetry Using Rust and Machine Learning](http://cmoran.xyz/writing/adventures_in_photogrammetry)
 * [Async, refactoring and fewer bugs: Rust block expressions to the rescue](https://dev.to/igorpetruk/async-refactoring-and-fewer-bugs-rust-block-expressions-to-the-rescue-ef0)
