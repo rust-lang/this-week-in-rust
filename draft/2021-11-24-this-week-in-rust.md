@@ -67,6 +67,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Web api benchmarking: NodeJS (Express) vs Rust (actix-web)](https://youtu.be/5ObNvCMIkPs)
 * [video] [Munich Rust Meetup Remote #9](https://youtu.be/Ejzi-56-nqc)
 * [series] [video] [LRG-16: Threads](https://youtu.be/U6Yg6-aW_Zg)
+* [series] [video] [Writing a Programming Language (in Rust) 8: Function returns and list indexing](https://www.youtube.com/watch?v=EPdilVGovxE)
 
 ### Miscellaneous
 
