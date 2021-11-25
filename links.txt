@@ -3014,3 +3014,49 @@ Number: 416  Date: 2021-11-10
 * [What does `&mut &[T]` mean?](https://ihatereality.space/04-what-mutref-to-slice-ref-means/)
 * [Write Rust lints without forking Clippy](https://blog.trailofbits.com/2021/11/09/write-rust-lints-without-forking-clippy/)
 
+Number: 417  Date: 2021-11-17 
+
+### Official
+* [Please welcome The 8472 and Ashley Mannix to Library Contributors](https://blog.rust-lang.org/inside-rust/2021/11/15/libs-contributors-the8472-kodraus.html)
+### Foundation
+* [Rust Foundation Announces Cloud Compute Program](https://foundation.rust-lang.org/news/2021-11-16-news-announcing-cloud-compute-initiative/)
+* [Tag1 Joins the Rust Foundation as the First Silver Member](https://www.tag1consulting.com/blog/tag1-joins-rust-foundation-first-silver-member)
+* [Rust Foundation Taps Rebecca Rumbul as Executive Director & CEO](https://foundation.rust-lang.org/news/2021-11-17-news-announcing-rebecca-rumbul-executive-director-ceo/)
+* [Hello Everyone! How Can I Help?](https://foundation.rust-lang.org/posts/2021-11-17-introducing-rebecca-rumbul/)
+### Project/Tooling Updates
+* [Rust Analyzer Changelog #103](https://rust-analyzer.github.io/thisweek/2021/11/15/changelog-103.html)
+* [SixtyFPS (GUI crate): Changelog for 14th of November 2021](https://sixtyfps.io/thisweek/2021-11-15.html)
+* [Mononym: Type-Level Named Values in Rust](https://maybevoid.com/blog/mononym-part-1/)
+* [Quinn 0.8.0](https://github.com/quinn-rs/quinn/releases/tag/0.8.0)
+* [BonsaiDb November update: Working towards alpha 1](https://community.khonsulabs.com/t/bonsaidb-november-update-working-towards-alpha-1/86)
+* [This week in Databend #16: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-11-17-databend-weekly/)
+* [This week in Fluvio #13: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0013/)
+* [Announcing `cargo-sonar`](https://hole.tuziwo.info/cargo-sonar.html)
+### Observations/Thoughts
+* [8 Ways to backdoor a crate in Rust for fun and profit](https://kerkour.com/rust-crate-backdoor/)
+* [Rust Adventures: Abusing Serde](https://lucumr.pocoo.org/2021/11/14/abusing-serde/)
+* [Rust Iterator Items: An exploration of syntax](https://estebank.github.io/rust-iterator-item-syntax.html)
+* [Async Cancellation I](https://blog.yoshuawuyts.com/async-cancellation-1/)
+* [The Rust compiler has gotten faster again](https://nnethercote.github.io/2021/11/12/the-rust-compiler-has-gotten-faster-again.html)
+* [Learning Rust For Embedded Systems](https://www.embeddedrelated.com/showarticle/1432.php)
+* [What is an async runtime?](https://ncameron.org/blog/what-is-an-async-runtime/)
+* [Top 10 Rust Cargo Commands](https://dev.to/davidadewoyin/top-rust-cargo-commands-2b70)
+* [audio] [Tokio Ecosystem with Alice Ryhl](https://rustacean-station.org/episode/046-alice-ryhl/)
+* [series] [video] [Flutter Backend using Rust - Flying High with Flutter #32](https://www.youtube.com/watch?v=JxFLD4R3WzE)
+### Rust Walkthroughs
+* [A Data Pipeline for Go Trains Delay Analysis — Part 2](https://medium.com/geekculture/a-data-pipeline-for-go-trains-delay-analysis-part-2-e5b9ef0ea315)
+* [Monitoring Rust web application with Prometheus and Grafana](https://romankudryashov.com/blog/2021/11/monitoring-rust-web-application/)
+* [Rust data structures with circular references](https://eli.thegreenplace.net/2021/rust-data-structures-with-circular-references/)
+* [Testing multiple implementations of a trait in Rust](https://eli.thegreenplace.net/2021/testing-multiple-implementations-of-a-trait-in-rust/)
+* [Introducing hRPC: a simple RPC system for user-facing APIs](https://dev.to/harmonydevelopment/introducing-hrpc-a-simple-rpc-system-for-user-facing-apis-16ge)
+* [Rust on MIPS64 Windows NT 4.0](https://gamozolabs.github.io/fuzzing/2021/11/16/rust_on_nt_mips.html)
+* [How to get started with Rust for RISC-V Linux](https://dev.to/jareds/how-to-get-started-with-rust-for-risc-v-linux-2fop)
+* [[ZH] Rust Reading Club Part 1](https://github.com/RustMagazine/rust_magazine_2021/blob/main/src/chapter_11/rust-reading-club-part1.md)
+* [video] [Rust Web Development - Warp Introduction (by example)](https://www.youtube.com/watch?v=HNnbIW2Kzbc)
+* [video] [Getting started with opencv on Rust](https://www.youtube.com/watch?v=zcfixnuJFXg)
+* [series] [video] [Getting started with Rust 🦀 2021: 8. Building a web app with Rust](https://www.youtube.com/watch?v=4MKcqR9z8AU)
+* [series] [video] [Writing a Programming Language (in Rust) 7: Function calls (Part 3)](https://www.youtube.com/watch?v=nyQLenFK4Xc)
+### Miscellaneous
+* [1Password 8 arrives on Windows with a new design and big performance improvements](https://www.theverge.com/2021/11/16/22784996/1password-version-8-windows-release-download-features)
+* [audio] [Day0 Podcast - Rust in the Web? A Special Guest and some Bad Crypto](https://dayzerosec.com/podcast/rust-in-the-web-a-special-guest-and-some-bad-crypto.html)
+
