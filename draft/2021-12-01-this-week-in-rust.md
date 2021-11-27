@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+- [Speed up Rust Builds with Cachepot](https://kflansburg.com/posts/rust-cachepot/)
+
 ### Miscellaneous
 
 ## Crate of the Week
