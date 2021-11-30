@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Using WebAssembly (created in Rust) for Fast React Components(https://www.joshfinnie.com/blog/using-webassembly-created-in-rust-for-fast-react-components/)
+
 ### Miscellaneous
 
 ## Crate of the Week
