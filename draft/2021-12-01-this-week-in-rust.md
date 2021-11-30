@@ -151,20 +151,17 @@ decision. Express your opinions now.
 
 ## Upcoming Events
 
-Rusty Events between 11/24-12/08 🦀
+Rusty Events between 12/01-12/15 🦀
 
 ### Online
 
-* [November 25, 2021 | Cardiff, WLS | **Rust Book Study Session - Packages, Crates and Modules & Common Collections** | Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/282025037)
-* [November 25, 2021 | Nuremberg, DE | **Rust Nürnberg online #7** | Rust Nuremberg](https://www.meetup.com/rust-noris/events/281829098)
-* [November 25, 2021 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/282000759)
-* [November 25, 2021 | Linz, AT | **Rust Meetup Linz - 16th Edition** | Rust Linz](https://www.meetup.com/Rust-Linz/events/282093961)
-* [November 30, 2021 | Dallas, TX, US | **Last Tuesday** | Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccpbnc/)
-* [November 30, 2021 | Graz, AT | **Rust and memory safety** | Rust Graz Meetup](https://www.meetup.com/Graz-Rust-Meetup/events/281955585)
+* [December 3, 2021 | New York City, NY, US | **Getting started in aerospace with Rust 🦀** | NewSpace NYC](https://www.meetup.com/NewSpace-NYC/events/282320805).
 * [December 7, 2021 | Buffalo, NY, US | **First Tuesdays** | Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/281833990/)
 * [December 8, 2021 | Los Gatos, CA, US | **Book #24 - Rust for Rustaceans - Chapter 1** | Los Gatos Reading Group](https://www.meetup.com/Los-Gatos-Rust-Reading-Group/events/281966245)
 * [December 8, 2021 | Los Angeles, CA, US | **Rust Computer Vision Project with Geordon Worley** | Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/281944671/)
 * [December 8, 2021 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/282009864)
+* [December 10, 2021 | Chicago, IL, US | **8LU Keynote by Eric Smith - Write Your Game in Rust!** | 8th Light University](https://www.meetup.com/8th-light-university/events/282381279)
+* [December 14, 2021 | Seattle, WA, US | **Monthly Meetup** | Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/281875277)
 
 ### North America
 
