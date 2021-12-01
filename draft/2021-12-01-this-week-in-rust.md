@@ -27,8 +27,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Box Pointers in Rust make recursive types possible](https://blog.knoldus.com/box-pointers-in-rust-make-recursive-types-possible/)
 
 ### Rust Walkthroughs
-
-- [Speed up Rust Builds with Cachepot](https://kflansburg.com/posts/rust-cachepot/)
+* [Using WebAssembly (created in Rust) for Fast React Components](https://www.joshfinnie.com/blog/using-webassembly-created-in-rust-for-fast-react-components/)
+* [Speed up Rust Builds with Cachepot](https://kflansburg.com/posts/rust-cachepot/)
 
 ### Miscellaneous
 
