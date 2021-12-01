@@ -20,17 +20,23 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [SixtyFPS (GUI crate): Changelog for 28th of November 2021 – 0.1.15 Release](https://sixtyfps.io/thisweek/2021-11-29.html)
+
 ### Observations/Thoughts
+* [Do we Really Need Undefined Behavior?](https://www.ralfj.de/blog/2021/11/24/ub-necessary.html)
+* [Box Pointers in Rust make recursive types possible](https://blog.knoldus.com/box-pointers-in-rust-make-recursive-types-possible/)
 
 ### Rust Walkthroughs
+* [Using WebAssembly (created in Rust) for Fast React Components](https://www.joshfinnie.com/blog/using-webassembly-created-in-rust-for-fast-react-components/)
+* [Speed up Rust Builds with Cachepot](https://kflansburg.com/posts/rust-cachepot/)
 
 ### Miscellaneous
 
 ## Crate of the Week
 
-This week's crate is [rustc\_codegen\_nvvm](https://crates.io/crates/rustc_codegen_nvvm), a rustc codegen backend that targets NVIDIA's libnvvm CUDA library.
+This week's crate is [poem-openapi](https://crates.io/crates/poem-openapi), a framework to implement OpenAPI services.
 
-Thanks to [troiganto](https://users.rust-lang.org/t/crate-of-the-week/2704/987) for the suggestion!
+llogiq is very pleased with his suggestion.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -49,58 +55,34 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-284 pull requests were [merged in the last week][merged]
+244 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-11-15..2021-11-22
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-11-22..2021-11-29
 
-* [stabilize `-Z strip` as `-C strip`](https://github.com/rust-lang/rust/pull/90058)
-* [permit const panics in stable const contexts in stdlib](https://github.com/rust-lang/rust/pull/90687)
-* [simplify `for` loop desugar](https://github.com/rust-lang/rust/pull/90352)
-* [warn on `#[must_use]` use on async fn's](https://github.com/rust-lang/rust/pull/89610)
-* [suggest `&str.chars()` on attempt to `&str.iter()`](https://github.com/rust-lang/rust/pull/90803)
-* [suggest `await` in more situations where infer types are involved](https://github.com/rust-lang/rust/pull/91022)
-* [suggest removal of arguments for unit variant, not replacement](https://github.com/rust-lang/rust/pull/90961)
-* [try all stable method candidates first before trying unstable ones](https://github.com/rust-lang/rust/pull/90329)
-* [point at source of trait bound obligations in more places](https://github.com/rust-lang/rust/pull/89580)
-* [print escaped string if char literal has multiple characters, but only one printable character](https://github.com/rust-lang/rust/pull/90861)
-* [improve `ManuallyDrop` suggestion](https://github.com/rust-lang/rust/pull/90901)
-* [improve diagnostics when a static lifetime is expected](https://github.com/rust-lang/rust/pull/90667)
-* [improve suggestions for compatible variants on type mismatch](https://github.com/rust-lang/rust/pull/90575)
-* [fix float ICE](https://github.com/rust-lang/rust/pull/90927)
-* [fix await suggestion on non-future type](https://github.com/rust-lang/rust/pull/90933)
-* [fix incorrect handling of `TraitRef`s when emitting suggestions](https://github.com/rust-lang/rust/pull/90819)
-* [avoid suggesting literal formatting that turns into member access](https://github.com/rust-lang/rust/pull/90989)
-* [address performance regression introduced by recent ADT drop requirements fix](https://github.com/rust-lang/rust/pull/90845)
-* [optimize `impl Hash for ObligationCauseData` by not hashing `ObligationCauseCode` variant fields](https://github.com/rust-lang/rust/pull/90996)
-* [add IEEE 754-2019 minimun and maximum functions for `f32`/`f64`](https://github.com/rust-lang/rust/pull/91008)
-* [make char conversion functions unstably `const`](https://github.com/rust-lang/rust/pull/89258)
-* [make slice → `str` conversion and related functions `const`](https://github.com/rust-lang/rust/pull/90607)
-* [mark `<*const _>::align_offset` and `<*mut _>::align_offset` as `const fn`](https://github.com/rust-lang/rust/pull/90958)
-* [mark `Arc::from_inner` / `Rc::from_inner` as `unsafe`](https://github.com/rust-lang/rust/pull/89741)
-* [stabilize `File::options`](https://github.com/rust-lang/rust/pull/85766)
-* [add `Vec::retain_mut`](https://github.com/rust-lang/rust/pull/90772)
-* [implement `Termination` for `Result<Infallible, E>`](https://github.com/rust-lang/rust/pull/88601)
-* [implement `clone_from` for `State`](https://github.com/rust-lang/rust/pull/90535)
-* [miri: portable SIMD: basic binops](https://github.com/rust-lang/miri/pull/1918)
-* [arch: work-around buggy Intel chips erroneously reporting BMI1/BMI2 support](https://github.com/rust-lang/stdarch/pull/1249)
-* [arch: complete armv8 instructions](https://github.com/rust-lang/stdarch/pull/1256)
-* [log: add `Log` implementation for `&impl Log` and `Arc<impl Log>`](https://github.com/rust-lang/log/pull/471)
-* [cargo: add `--message-format` for `install` command](https://github.com/rust-lang/cargo/pull/10107)
-* [cargo: enhance error message for target auto-discovery](https://github.com/rust-lang/cargo/pull/10090)
-* [cargo: warn when alias shadows external subcommand](https://github.com/rust-lang/cargo/pull/10082)
-* [clippy: add new lint `octal_escapes`](https://github.com/rust-lang/rust-clippy/pull/8007)
-* [clippy: allow `suboptimal_flops` in `const` functions](https://github.com/rust-lang/rust-clippy/pull/8009)
-* [clippy: avoid inline hints with double backticks for `doc-markdown`](https://github.com/rust-lang/rust-clippy/pull/8011)
-* [clippy: don't show `no_effect` warning on unit structs implementing `fn_once`](https://github.com/rust-lang/rust-clippy/pull/7898)
-* [clippy: fix ICE on `undocumented_unsafe_blocks`](https://github.com/rust-lang/rust-clippy/pull/7988)
-* [clippy: fix `manual_map` with unsafe functions](https://github.com/rust-lang/rust-clippy/pull/7968)
-* [clippy: fix `needless_collect`'s tendency to suggest code requiring multiple mutable borrows of the same value.](https://github.com/rust-lang/rust-clippy/pull/7982)
-* [clippy: fix behavior-changing `manual_split_once` suggestion and add new lint `needless_splitn`](https://github.com/rust-lang/rust-clippy/pull/7896)
-* [clippy: fix `shadow_same` false positives for async function arguments](https://github.com/rust-lang/rust-clippy/pull/7997)
-* [clippy: improve `needless_borrow` lint](https://github.com/rust-lang/rust-clippy/pull/7977)
-* [clippy: improve heuristic for eagerness suggestion](https://github.com/rust-lang/rust-clippy/pull/7639)
-* [clippy: fix suggestion in `option_map_or_none`](https://github.com/rust-lang/rust-clippy/pull/7971)
-* [rustfmt: preserve normalized comments after last list item](https://github.com/rust-lang/rustfmt/pull/5091)
+* [add codegen option for using LLVM stack smash protection](https://github.com/rust-lang/rust/pull/84197)
+* [do not use atomic reads on platforms without atomic support in LLVM](https://github.com/rust-lang/compiler-builtins/pull/442)
+* [diagnostic tweaks](https://github.com/rust-lang/rust/pull/85102)
+* [chalk: introduce `Folder::Error`](https://github.com/rust-lang/chalk/pull/709)
+* [miri: more portable SIMD: rem, shl, shr](https://github.com/rust-lang/miri/pull/1923)
+* [fix ICE due to out-of-bounds statement index when reporting borrowck error](https://github.com/rust-lang/rust/pull/91212)
+* [fix ICE when lowering `trait A where for<'a> Self: 'a`](https://github.com/rust-lang/rust/pull/91308)
+* [faster `Layout::array`](https://github.com/rust-lang/rust/pull/91246)
+* [make `TypeFolder::fold_*` return `Result`](https://github.com/rust-lang/rust/pull/91230)
+* [partially stabilize `duration_consts_2`](https://github.com/rust-lang/rust/pull/89542)
+* [stabilize `nonzero_is_power_of_two`](https://github.com/rust-lang/rust/pull/91301)
+* [stabilize some `MaybeUninit` behavior as const](https://github.com/rust-lang/rust/pull/90896)
+* [add fast path to `is_descendant_of`](https://github.com/rust-lang/rust/pull/91043)
+* [futures: remove dependency on proc-macro-hack](https://github.com/rust-lang/futures-rs/pull/2520)
+* [cargo: improve unused patch message when source URLs mismatched](https://github.com/rust-lang/cargo/pull/10130)
+* [clippy: add `needless_late_init` lint](https://github.com/rust-lang/rust-clippy/pull/7995)
+* [clippy: add more descriptive help info for `needless_question_mark`](https://github.com/rust-lang/rust-clippy/pull/8028)
+* [clippy: fix false positive on `if_then_some_else_none` with early return](https://github.com/rust-lang/rust-clippy/pull/7980)
+* [clippy: improve `strlen_on_c_string`](https://github.com/rust-lang/rust-clippy/pull/8001)
+* [clippy: extend `non_ascii_literal` to cover chars](https://github.com/rust-lang/rust-clippy/pull/8034)
+* [clippy: apply iter_cloned_collect to collect() using copied()](https://github.com/rust-lang/rust-clippy/pull/8006)
+* [rustdoc: avoid documenting top-level private imports](https://github.com/rust-lang/rust/pull/91094)
+* [rustfmt: fix: do not wrap reference-style doc links](https://github.com/rust-lang/rustfmt/pull/5096)
+* [rustfmt: maintain more AST info when formatting a RHS](https://github.com/rust-lang/rustfmt/pull/5113)
 
 ### Rust Compiler Performance Triage
 
@@ -118,13 +100,12 @@ Revision range: [22c2d9d..1c028783](https://perf.rust-lang.org/?start=22c2d9ddbf
 
 [Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-11-30.md)
 
-### Approved RFCs
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-[Constrained Naked Functions](https://github.com/rust-lang/rfcs/pull/2972)
-[Cargo --crate-type CLI Argument](https://github.com/rust-lang/rfcs/pull/3180)
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -132,40 +113,34 @@ Every week [the team](https://www.rust-lang.org/team.html) announces the
 'final comment period' for RFCs and key PRs which are reaching a
 decision. Express your opinions now.
 
-### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * *No RFCs entered final comment period this week.*
 
-### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [Stabilize some MaybeUninit behavior as const](https://github.com/rust-lang/rust/pull/90896)
-* [disposition: merge] [Document setgroups call caused by std::os::unix::process::CommandExt.uid](https://github.com/rust-lang/rust/pull/90292)
-* [disposition: merge] [Tracking Issue for const-initialized thread locals](https://github.com/rust-lang/rust/issues/84223)
-* [disposition: merge] [Tracking Issue for NonZeroUn::is_power_of_two (feature nonzero_is_power_of_two)](https://github.com/rust-lang/rust/issues/81106)
+* [disposition: merge] [rustdoc: accept --out-dir and soft-deprecate --output](https://github.com/rust-lang/rust/issues/91260)
 * [disposition: merge] [Tracking Issue for #![feature(available_parallelism)]](https://github.com/rust-lang/rust/issues/74479)
-* [disposition: merge] [Tracking Issue for inline assembly (asm!)](https://github.com/rust-lang/rust/issues/72016)
-* [disposition: merge] [Tracking Issue for cargo report future-incompat](https://github.com/rust-lang/rust/issues/71249)
 
 ### [New RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* RFC Update: [Clarify that RFC1520 does not permit the compiler to replace calls to Clone::clone with a memcpy](https://github.com/rust-lang/rfcs/pull/3197)
+* [RFC: Attributes in function return type position](https://github.com/rust-lang/rfcs/pull/3201)
+* [RFC: proc macro include!](https://github.com/rust-lang/rfcs/pull/3200)
+* [RFC: Unsafe Lifetime](https://github.com/rust-lang/rfcs/pull/3199)
 
 ## Upcoming Events
 
-Rusty Events between 11/24-12/08 🦀
+Rusty Events between 12/01-12/15 🦀
 
 ### Online
 
-* [November 25, 2021 | Cardiff, WLS | **Rust Book Study Session - Packages, Crates and Modules & Common Collections** | Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/282025037)
-* [November 25, 2021 | Nuremberg, DE | **Rust Nürnberg online #7** | Rust Nuremberg](https://www.meetup.com/rust-noris/events/281829098)
-* [November 25, 2021 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/282000759)
-* [November 25, 2021 | Linz, AT | **Rust Meetup Linz - 16th Edition** | Rust Linz](https://www.meetup.com/Rust-Linz/events/282093961)
-* [November 30, 2021 | Dallas, TX, US | **Last Tuesday** | Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccpbnc/)
-* [November 30, 2021 | Graz, AT | **Rust and memory safety** | Rust Graz Meetup](https://www.meetup.com/Graz-Rust-Meetup/events/281955585)
+* [December 3, 2021 | New York City, NY, US | **Getting started in aerospace with Rust 🦀** | NewSpace NYC](https://www.meetup.com/NewSpace-NYC/events/282320805).
 * [December 7, 2021 | Buffalo, NY, US | **First Tuesdays** | Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/281833990/)
 * [December 8, 2021 | Los Gatos, CA, US | **Book #24 - Rust for Rustaceans - Chapter 1** | Los Gatos Reading Group](https://www.meetup.com/Los-Gatos-Rust-Reading-Group/events/281966245)
 * [December 8, 2021 | Los Angeles, CA, US | **Rust Computer Vision Project with Geordon Worley** | Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/281944671/)
 * [December 8, 2021 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/282009864)
+* [December 10, 2021 | Chicago, IL, US | **8LU Keynote by Eric Smith - Write Your Game in Rust!** | 8th Light University](https://www.meetup.com/8th-light-university/events/282381279)
+* [December 14, 2021 | Seattle, WA, US | **Monthly Meetup** | Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/281875277)
 
 ### North America
 
@@ -188,17 +163,15 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> On the topic of reframing UB, I was reminded of an article about the [mechanics of oaths and vows in historical cultures](https://acoup.blog/2019/06/28/collections-oaths-how-do-they-work/).
+> The design of the safe/unsafe split means that there is an asymmetric trust relationship between Safe and Unsafe Rust. Safe Rust inherently has to trust that any Unsafe Rust it touches has been written correctly. On the other hand, Unsafe Rust cannot trust Safe Rust without care.
 >
-> When a programmer writes `get_unchecked` , we can imagine them wanting to promise the compiler that they uphold its preconditions. But since the compiler is normally not so trusting of unproven assertions, the programmer swears an *oath* that their argument is in bounds.
+> As an example, Rust has the [`PartialOrd`](https://doc.rust-lang.org/nightly/std/cmp/trait.PartialOrd.html) and [`Ord`](https://doc.rust-lang.org/nightly/std/cmp/trait.Ord.html) traits to differentiate between types which can "just" be compared, and those that provide a "total" ordering (which basically means that comparison behaves reasonably).
 >
-> The compiler, seeing such a solemn commitment, treats the programmer's word as true and optimizes accordingly. The compiler is so thoroughly convinced that it never even entertains the possibility of doubting the programmer's oath.
->
-> But if the programmer has sworn falsely, then they might well suffer divine retribution in the form of nasal demons — or worse, subtly baffling program behaviour.
+> [`BTreeMap`](https://doc.rust-lang.org/nightly/std/collections/struct.BTreeMap.html) doesn't really make sense for partially-ordered types, and so it requires that its keys implement `Ord` . However, `BTreeMap` has Unsafe Rust code inside of its implementation. Because it would be unacceptable for a sloppy `Ord` implementation (which is Safe to write) to cause Undefined Behavior, the Unsafe code in BTreeMap must be written to be robust against `Ord` implementations which aren't actually total — even though that's the whole point of requiring `Ord` .
 
-– [/u/scook0 on /r/rust](https://reddit.com/r/rust/comments/qx168t/undefined_behavior_deserves_a_better_reputation/hl8koel/)
+– [Gankra citing the Rustonomicon on github](https://github.com/rust-lang/rfcs/pull/3197#issuecomment-976032253)
 
-Thanks to [G. Thorondorsen](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1142) for the suggestion!
+Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1144) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
