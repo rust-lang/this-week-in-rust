@@ -14,6 +14,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
+* [Black Hat Week (Black Hat Rust is out 🍾)](https://kerkour.com/black-hat-rust-week-2021/)
+
 ### Official
 
 ### Foundation
@@ -27,6 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Box Pointers in Rust make recursive types possible](https://blog.knoldus.com/box-pointers-in-rust-make-recursive-types-possible/)
 
 ### Rust Walkthroughs
+* [Position Independent Shellcodes in Rust](https://kerkour.com/rust-position-independent-shellcode/)
 * [Using WebAssembly (created in Rust) for Fast React Components](https://www.joshfinnie.com/blog/using-webassembly-created-in-rust-for-fast-react-components/)
 * [Speed up Rust Builds with Cachepot](https://kflansburg.com/posts/rust-cachepot/)
 
