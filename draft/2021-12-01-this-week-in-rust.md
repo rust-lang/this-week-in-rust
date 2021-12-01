@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+[1.57.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2021/11/30/1.57.0-prerelease.html)
 
 ### Foundation
 
@@ -31,6 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Speed up Rust Builds with Cachepot](https://kflansburg.com/posts/rust-cachepot/)
 
 ### Miscellaneous
+* [Can Rust save the planet? Why, and why not](https://www.theregister.com/2021/11/30/aws_reinvent_rust/)
 
 ## Crate of the Week
 
