@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Black Hat Week (Black Hat Rust is out 🍾)](https://kerkour.com/black-hat-rust-week-2021/)
 * [SixtyFPS (GUI crate): Changelog for 28th of November 2021 – 0.1.15 Release](https://sixtyfps.io/thisweek/2021-11-29.html)
 
 ### Observations/Thoughts
