@@ -21,9 +21,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
-[Do we Really Need Undefined Behavior?](https://www.ralfj.de/blog/2021/11/24/ub-necessary.html)
+* [Do we Really Need Undefined Behavior?](https://www.ralfj.de/blog/2021/11/24/ub-necessary.html)
+* [Box Pointers in Rust make recursive types possible](https://blog.knoldus.com/box-pointers-in-rust-make-recursive-types-possible/)
 
 ### Rust Walkthroughs
+
+- [Speed up Rust Builds with Cachepot](https://kflansburg.com/posts/rust-cachepot/)
 
 ### Miscellaneous
 
