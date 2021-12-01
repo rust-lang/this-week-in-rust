@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Box Pointers in Rust make recursive types possible](https://blog.knoldus.com/box-pointers-in-rust-make-recursive-types-possible/)
 
 ### Rust Walkthroughs
 
