@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+[ZH] [Zero-Cost Abstractions in Rust](https://dev.to/daniel1in/zero-cost-abstractions-in-rust-5e41)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
