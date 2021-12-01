@@ -16,21 +16,49 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
-### Foundation
+* [In response to the moderation team resignation](https://blog.rust-lang.org/inside-rust/2021/11/25/in-response-to-the-moderation-team-resignation.html)
+* [1.57.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2021/11/30/1.57.0-prerelease.html)
 
 ### Project/Tooling Updates
 
+* [Rust Analyzer Changelog #105](https://rust-analyzer.github.io//thisweek/2021/11/29/changelog-105.html)
 * [SixtyFPS (GUI crate): Changelog for 28th of November 2021 – 0.1.15 Release](https://sixtyfps.io/thisweek/2021-11-29.html)
 
 ### Observations/Thoughts
 * [Do we Really Need Undefined Behavior?](https://www.ralfj.de/blog/2021/11/24/ub-necessary.html)
 * [Box Pointers in Rust make recursive types possible](https://blog.knoldus.com/box-pointers-in-rust-make-recursive-types-possible/)
+* [Notes On Module System](https://matklad.github.io//2021/11/27/notes-on-module-system.html)
+* [A prioritised micro-batch scheduler in rust](https://njk.onl/blog/gaffer.html)
+* [Go footguns: Go Defer and Rust Drop](https://dev.to/mark_saward/go-footguns-go-defer-and-rust-drop-17af)
+* [LLVM internals, part 4: attributes and attribute groups](https://blog.yossarian.net/2021/11/29/LLVM-internals-part-4-attributes-and-attribute-groups)
+* [Implementing Raft for Browsers with Rust and WebRTC](https://eevans.co/blog/wraft/)
+* [Hubris and Humility](https://oxide.computer/blog/hubris-and-humility)
+* [audio] [Game Development with Herbert Wolverson](https://rustacean-station.org/episode/048-herbert-wolverson/)
+* [video] [Rust Linz, November 2021 - Advent of Code by Rainer Stropek with Fred Morcos](https://www.youtube.com/watch?v=bejThbzAYOA)
+* [video] [Rust Linz, November 2021 - Serde Shenanigans by Armin Ronacher](https://www.youtube.com/watch?v=UhZGYS13twc)
+* [video] [Rust Linz, November 2021 - WebAssembly beyond the browser by Thorsten Hans](https://www.youtube.com/watch?v=o6qe4lw9-8c)
+* [video] [Rust 2021 Edition Explained](https://www.youtube.com/watch?v=uIeIBlB0JFw)
+* [video] [Mats Kindahl: A C++ programmer's view on Rust](https://www.youtube.com/watch?v=DGbsHENouy4)
 
 ### Rust Walkthroughs
+
 * [Using WebAssembly (created in Rust) for Fast React Components](https://www.joshfinnie.com/blog/using-webassembly-created-in-rust-for-fast-react-components/)
 * [Speed up Rust Builds with Cachepot](https://kflansburg.com/posts/rust-cachepot/)
+* [Rena’s Memory Model](https://veera.app/rena%27s_memory_model.html)
+* [How to Build a Note Taking Command Line Application With Rust: Part 1](https://levelup.gitconnected.com/how-to-build-a-note-taking-command-line-application-with-rust-part-1-34b9cd5be6b9)
+* [Rust Project: Ping Pong Game](https://phychic-owl.medium.com/rust-project-ping-pong-game-665766cc45ed)
+* [Learn Rust Programming Course – Interactive Rust Language Tutorial on Repl.it](https://www.freecodecamp.org/news/rust-in-replit/)
+* [Position Independent Shellcodes in Rust (PIC)](https://kerkour.com/rust-position-independent-shellcode/)
+* [Run Your Rust Games in a Browser](https://medium.com/pragmatic-programmers/run-your-rust-games-in-a-browser-ceea86b04616)
+* [Git Internals part 2: packfiles](https://dev.to/calebsander/git-internals-part-2-packfiles-1jg8)
+* [Building a simple on-chain point of sale with Solana, Anchor and React](https://dev.to/fndomendez/building-a-simple-on-chain-point-of-sale-with-solana-anchor-and-react-859)
+* [Checking Unused Dependencies in a Rust Project with Github Actions](https://erayerdin.com/checking-unused-dependencies-in-a-rust-project-with-github-actions-ckwm3yov901cwlvs1h48z54xi)
+* [video] [rg3d - live coding session #3](https://www.youtube.com/watch?v=U_XGkDZcV1k)
 
 ### Miscellaneous
+
+* [4x smaller, 50x faster](https://blog.asciinema.org/post/smaller-faster/)
+* [video] [RCIG Sync-up call #6](https://www.youtube.com/watch?v=pQmL71xAzIk)
 
 ## Crate of the Week
 
