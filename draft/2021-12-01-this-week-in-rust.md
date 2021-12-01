@@ -15,7 +15,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
-[1.57.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2021/11/30/1.57.0-prerelease.html)
 
 ### Foundation
 
