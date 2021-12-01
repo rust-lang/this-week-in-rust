@@ -86,17 +86,19 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-This week, there were a number of cases where the `incr-unchanged` variants of `inflate` went up or down by 5% to 6%; we believe these are instances of increased noise in benchmarks documented on [rustc-perf#1105](https://github.com/rust-lang/rustc-perf/issues/1105). I was tempted to remove these from the report, but its non-trivial to re-construct the report "as if" some benchmark were omitted.
+Overall, many changes this week, but overall an improvement on multiple benchmarks over
+the week from a number of pull requests dedicated to optimizations of certain
+patterns. We are still seeing a large number of spurious changes due to
+[rustc-perf#1105](https://github.com/rust-lang/rustc-perf/issues/1105), which
+has yet to be addressed.
 
-Otherwise, there were some nice wins for performance. For example, PR [#90996](https://github.com/rust-lang/rust/issues/90996) more than halved the time to document builds of `diesel` by revising how we hash `ObligationCauseData`. If anyone is interested, it might be good to follow-up on the effects of PR [#90352](https://github.com/rust-lang/rust/issues/90352), "Simplify `for` loop desugar", where we have hypothesized that the increased compilation time is due to more LLVM optimizations being applied.
+Triage done by **@simulacrum**.
+Revision range: [22c2d9d..1c028783](https://perf.rust-lang.org/?start=22c2d9ddbf356bcdb718e88ca6ee3665e1e42690&end=1c0287830e0fb3c4007afea2819ba03766da6e9c&absolute=false&stat=instructions%3Au)
 
-Triage done by **@pnkfelix**.
-Revision range: [934624fe..22c2d9dd](https://perf.rust-lang.org/?start=934624fe5f66ce3fb8abf0597a6deb079783335f&end=22c2d9ddbf356bcdb718e88ca6ee3665e1e42690&absolute=false&stat=instructions%3Au)
+4 Regressions, 4 Improvements, 9 Mixed; 5 of them in rollups
+41 comparisons made in total
 
-1 Regressions, 3 Improvements, 8 Mixed; 3 of them in rollups
-34 comparisons made in total
-
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-11-23.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-11-30.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
