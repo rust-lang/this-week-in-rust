@@ -15,7 +15,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
-
 * [In response to the moderation team resignation](https://blog.rust-lang.org/inside-rust/2021/11/25/in-response-to-the-moderation-team-resignation.html)
 * [1.57.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2021/11/30/1.57.0-prerelease.html)
 
@@ -84,6 +83,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [rusty-celery is looking for maintainers](https://github.com/rusty-celery/rusty-celery)
+
+**Ockam**
+
+* [Move the ockam_vault_core create into ockam_core](https://github.com/ockam-network/ockam/issues/2288)
+* [Move the ockam_key_exchange_core create into ockam_core](https://github.com/ockam-network/ockam/issues/2291)
+* [Delete the ockam_node_no_std crate](https://github.com/ockam-network/ockam/issues/2287)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
