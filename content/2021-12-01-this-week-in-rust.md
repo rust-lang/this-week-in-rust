@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Databend #18: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-01-databend-weekly/)
 * [Wasmer 2.1](https://wasmer.io/posts/wasmer-2.1)
 * [Wyrcan ~ The Container Bootloader](https://gitlab.com/wyrcan/wyrcan/-/tree/v1.0.0)
+* [This week in Fluvio #15: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0015/)
 
 ### Observations/Thoughts
 * [Do we Really Need Undefined Behavior?](https://www.ralfj.de/blog/2021/11/24/ub-necessary.html)
