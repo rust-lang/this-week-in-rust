@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 * [SixtyFPS (GUI crate): Changelog for 28th of November 2021 – 0.1.15 Release](https://sixtyfps.io/thisweek/2021-11-29.html)
+* [This week in Databend #18: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-01-databend-weekly/)
 
 ### Observations/Thoughts
 * [Do we Really Need Undefined Behavior?](https://www.ralfj.de/blog/2021/11/24/ub-necessary.html)
