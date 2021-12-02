@@ -20,7 +20,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 * [Rust Analyzer Changelog #105](https://rust-analyzer.github.io//thisweek/2021/11/29/changelog-105.html)
-* [Black Hat Week (Black Hat Rust is out 🍾)](https://kerkour.com/black-hat-rust-week-2021/)
 * [SixtyFPS (GUI crate): Changelog for 28th of November 2021 – 0.1.15 Release](https://sixtyfps.io/thisweek/2021-11-29.html)
 * [This week in Databend #18: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-01-databend-weekly/)
 * [Wasmer 2.1](https://wasmer.io/posts/wasmer-2.1)
@@ -44,6 +43,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Mats Kindahl: A C++ programmer's view on Rust](https://www.youtube.com/watch?v=DGbsHENouy4)
 
 ### Rust Walkthroughs
+* [Black Hat Week (Black Hat Rust is out 🍾)](https://kerkour.com/black-hat-rust-week-2021/)
 * [Using WebAssembly (created in Rust) for Fast React Components](https://www.joshfinnie.com/blog/using-webassembly-created-in-rust-for-fast-react-components/)
 * [Speed up Rust Builds with Cachepot](https://kflansburg.com/posts/rust-cachepot/)
 * [Rena’s Memory Model](https://veera.app/rena%27s_memory_model.html)
