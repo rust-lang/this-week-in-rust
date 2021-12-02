@@ -20,9 +20,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [1.57.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2021/11/30/1.57.0-prerelease.html)
 
 ### Project/Tooling Updates
-
 * [Rust Analyzer Changelog #105](https://rust-analyzer.github.io//thisweek/2021/11/29/changelog-105.html)
+* [Black Hat Week (Black Hat Rust is out 🍾)](https://kerkour.com/black-hat-rust-week-2021/)
 * [SixtyFPS (GUI crate): Changelog for 28th of November 2021 – 0.1.15 Release](https://sixtyfps.io/thisweek/2021-11-29.html)
+* [This week in Databend #18: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-01-databend-weekly/)
+* [Wasmer 2.1](https://wasmer.io/posts/wasmer-2.1)
 
 ### Observations/Thoughts
 * [Do we Really Need Undefined Behavior?](https://www.ralfj.de/blog/2021/11/24/ub-necessary.html)
@@ -33,6 +35,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [LLVM internals, part 4: attributes and attribute groups](https://blog.yossarian.net/2021/11/29/LLVM-internals-part-4-attributes-and-attribute-groups)
 * [Implementing Raft for Browsers with Rust and WebRTC](https://eevans.co/blog/wraft/)
 * [Hubris and Humility](https://oxide.computer/blog/hubris-and-humility)
+* [ZH] [Zero-Cost Abstractions in Rust](https://dev.to/daniel1in/zero-cost-abstractions-in-rust-5e41)
 * [audio] [Game Development with Herbert Wolverson](https://rustacean-station.org/episode/048-herbert-wolverson/)
 * [video] [Rust Linz, November 2021 - Advent of Code by Rainer Stropek with Fred Morcos](https://www.youtube.com/watch?v=bejThbzAYOA)
 * [video] [Rust Linz, November 2021 - Serde Shenanigans by Armin Ronacher](https://www.youtube.com/watch?v=UhZGYS13twc)
@@ -56,7 +59,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [rg3d - live coding session #3](https://www.youtube.com/watch?v=U_XGkDZcV1k)
 
 ### Miscellaneous
-
+* [Can Rust save the planet? Why, and why not](https://www.theregister.com/2021/11/30/aws_reinvent_rust/)
 * [4x smaller, 50x faster](https://blog.asciinema.org/post/smaller-faster/)
 * [video] [RCIG Sync-up call #6](https://www.youtube.com/watch?v=pQmL71xAzIk)
 
