@@ -19,8 +19,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Project/Tooling Updates
-
 * [SixtyFPS (GUI crate): Changelog for 28th of November 2021 – 0.1.15 Release](https://sixtyfps.io/thisweek/2021-11-29.html)
+* [Wasmer 2.1](https://wasmer.io/posts/wasmer-2.1)
 
 ### Observations/Thoughts
 * [Do we Really Need Undefined Behavior?](https://www.ralfj.de/blog/2021/11/24/ub-necessary.html)
@@ -33,6 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Speed up Rust Builds with Cachepot](https://kflansburg.com/posts/rust-cachepot/)
 
 ### Miscellaneous
+* [Can Rust save the planet? Why, and why not](https://www.theregister.com/2021/11/30/aws_reinvent_rust/)
 
 ## Crate of the Week
 
