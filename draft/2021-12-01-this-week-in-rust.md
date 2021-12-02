@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Do we Really Need Undefined Behavior?](https://www.ralfj.de/blog/2021/11/24/ub-necessary.html)
 * [Box Pointers in Rust make recursive types possible](https://blog.knoldus.com/box-pointers-in-rust-make-recursive-types-possible/)
 
+[ZH] [Zero-Cost Abstractions in Rust](https://dev.to/daniel1in/zero-cost-abstractions-in-rust-5e41)
+
 ### Rust Walkthroughs
 * [Using WebAssembly (created in Rust) for Fast React Components](https://www.joshfinnie.com/blog/using-webassembly-created-in-rust-for-fast-react-components/)
 * [Speed up Rust Builds with Cachepot](https://kflansburg.com/posts/rust-cachepot/)
