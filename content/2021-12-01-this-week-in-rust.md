@@ -245,4 +245,4 @@ Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1144)
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/k5nsab/this_week_in_rust_367/)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/r6wnr7/this_week_in_rust_419/)</small>
