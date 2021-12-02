@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [SixtyFPS (GUI crate): Changelog for 28th of November 2021 – 0.1.15 Release](https://sixtyfps.io/thisweek/2021-11-29.html)
 * [This week in Databend #18: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-01-databend-weekly/)
 * [Wasmer 2.1](https://wasmer.io/posts/wasmer-2.1)
+* [Wyrcan ~ The Container Bootloader](https://gitlab.com/wyrcan/wyrcan/-/tree/v1.0.0)
 
 ### Observations/Thoughts
 * [Do we Really Need Undefined Behavior?](https://www.ralfj.de/blog/2021/11/24/ub-necessary.html)
@@ -44,7 +45,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Mats Kindahl: A C++ programmer's view on Rust](https://www.youtube.com/watch?v=DGbsHENouy4)
 
 ### Rust Walkthroughs
-
 * [Using WebAssembly (created in Rust) for Fast React Components](https://www.joshfinnie.com/blog/using-webassembly-created-in-rust-for-fast-react-components/)
 * [Speed up Rust Builds with Cachepot](https://kflansburg.com/posts/rust-cachepot/)
 * [Rena’s Memory Model](https://veera.app/rena%27s_memory_model.html)
@@ -57,10 +57,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Building a simple on-chain point of sale with Solana, Anchor and React](https://dev.to/fndomendez/building-a-simple-on-chain-point-of-sale-with-solana-anchor-and-react-859)
 * [Checking Unused Dependencies in a Rust Project with Github Actions](https://erayerdin.com/checking-unused-dependencies-in-a-rust-project-with-github-actions-ckwm3yov901cwlvs1h48z54xi)
 * [video] [rg3d - live coding session #3](https://www.youtube.com/watch?v=U_XGkDZcV1k)
+* [video] [The Ray Tracer Challenge - 022 - Planes](https://www.youtube.com/watch?v=4y1aRPiH9Ko)
+* [PL] [video] [Rust na raz #2: Ugliest workaround for unsafe](https://www.youtube.com/watch?v=q2lWUmAKsVQ)
 
 ### Miscellaneous
 * [Can Rust save the planet? Why, and why not](https://www.theregister.com/2021/11/30/aws_reinvent_rust/)
 * [4x smaller, 50x faster](https://blog.asciinema.org/post/smaller-faster/)
+* [PT] [Esta-Semana-Em-Rust #418](https://github.com/luisvonmuller/Esta-Semana-Em-Rust/blob/main/%23418.md)
 * [video] [RCIG Sync-up call #6](https://www.youtube.com/watch?v=pQmL71xAzIk)
 
 ## Crate of the Week
@@ -79,6 +82,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [rusty-celery is looking for maintainers](https://github.com/rusty-celery/rusty-celery)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -189,6 +194,31 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Tangram**
+
+* [Rust Developer (Remote)](https://www.tangram.dev/jobs)
+
+**Flaps**
+
+* [Rust developer & distributed systems (Remote)](https://www.linkedin.com/jobs/view/2818309506/)
+
+**CoBloX**
+
+* [Software Engineer (Sydney, AU or Remote with 5h overlap with UTC+10 (AEST)](https://comit.network/blog/2021/03/01/we-are-hiring/)
+
+**Globelise**
+
+* [Backend Engineer (Remote)](https://www.techinasia.com/jobs/75de79c7-492d-4493-b247-1315979227bc)
+
+**Bionaut Labs**
+
+* [Embedded Software Engineer (Senior) (Los Angeles, CA, US)](https://www.indeed.com/viewjob?jk=9cda3e340d35e515)
+* [Embedded Software Engineer (Junior) (Los Angeles, CA)](https://www.indeed.com/viewjob?jk=5b14daa53cc356d2)
+
+**Massa Labs**
+
+* [Several Rust Engineering Positions Available](https://massa.net/jobs.html)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
