@@ -151,7 +151,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-** DeepSource
+**DeepSource**
 
 * [Software Engineer, Static Analysis - Rust (Bangalore, India)](https://careers.deepsource.io/o/software-engineer-static-analysis-rust)
 
