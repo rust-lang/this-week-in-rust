@@ -42,7 +42,6 @@ In the case of this newsletter, 404 is indeed found!
 ### Rust Walkthroughs
 * [An analogy that helped me understand the borrow checker](https://www.reddit.com/r/rust/comments/p4hil6/an_analogy_that_helped_me_understand_the_borrow/)
 * [A fast port scanner in 100 lines of Rust](https://kerkour.com/blog/rust-fast-port-scanner)
-* [RPC to call a Runtime API easily in Substrate](https://blog.knoldus.com/rpc-to-call-a-runtime-api-easily-in-substrate/)
 * [Writing a lambda in Rust using lambda-runtime and aws-sdk-rust](https://dev.to/aviillouz/writing-a-lambda-with-rust-using-aws-lambda-rust-runtime-and-aws-sdk-rust-1aln)
 * [Daily Rust: Slice Patterns](https://adventures.michaelfbryan.com/posts/daily/slice-patterns/)
 * [Learning Rust by building an SSH cli tool](https://saidvandeklundert.net/learn/2021-08-06-rust-ssh-cli-tool/)

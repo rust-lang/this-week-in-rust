@@ -44,7 +44,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [std::process::exit is evil - a Rust bug fixing story](https://youtu.be/zQC8T71Y8e4)
 
 ### Rust Walkthroughs
-* [OS in Rust: Running our custom kernel on an emulator: Part-5](https://blog.knoldus.com/os-in-rust-running-our-custom-kernel-on-an-emulator-part-5/)
 * [Polishing Rust: Boxing and Unboxing Results](https://mrtact.medium.com/polishing-rust-30eeac3c4bf3)
 * [Efficient custom shapes in QtQuick with Rust](https://carlschwan.eu/2021/01/20/efficient-custom-shapes-in-qtquick-with-rust/)
 * [Scientific Computing in Rust](https://aftix.xyz/home/bacon/)

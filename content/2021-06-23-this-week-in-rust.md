@@ -30,8 +30,6 @@ No newsletters or research articles this week.
 
 ### Observations/Thoughts
 * [Walking through "The Java Tutorials" with Rust - boxed trait objects and the search for inheritance](https://rust-java-tutorials.netlify.app/blog/5-trait-objects-2/)
-* [WABT: A wonderful CLI for manipulating Wasm](https://blog.knoldus.com/wabt-a-wonderful-cli-for-manipulating-wasm/)
-* [wasm-bindgen making Rust and JavaScript interoperability easy](https://blog.knoldus.com/wasm-bindgen-making-rust-and-javascript-interoperability-easy/)
 * [Type-checked keypaths in Rust](https://www.cmyr.net/blog/keypaths.html)
 * [Exploring ways to make async Rust easier](https://carllerche.com/2021/06/17/six-ways-to-make-async-rust-easier/)
 * [Reading Back What You Wrote in Rust](https://www.morsecodist.io/blog/rust-writer-ownership)

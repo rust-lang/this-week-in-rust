@@ -27,7 +27,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [Do we Really Need Undefined Behavior?](https://www.ralfj.de/blog/2021/11/24/ub-necessary.html)
-* [Box Pointers in Rust make recursive types possible](https://blog.knoldus.com/box-pointers-in-rust-make-recursive-types-possible/)
 * [Notes On Module System](https://matklad.github.io//2021/11/27/notes-on-module-system.html)
 * [A prioritised micro-batch scheduler in rust](https://njk.onl/blog/gaffer.html)
 * [Go footguns: Go Defer and Rust Drop](https://dev.to/mark_saward/go-footguns-go-defer-and-rust-drop-17af)

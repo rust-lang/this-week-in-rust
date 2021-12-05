@@ -40,7 +40,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Inline In Rust](https://matklad.github.io//2021/07/09/inline-in-rust.html)
 * [Using WebAssembly threads from C, C++ and Rust](https://web.dev/webassembly-threads/)
-* [Host a wasm module on Raspberry Pi easily Part 1](https://blog.knoldus.com/host-a-wasm-module-on-raspberry-pi-easily-part-1/)
 * [Hello, Video Codec! - Demystify video codecs by writing one in ~100 lines of Rust](https://medium.com/tempus-ex/hello-video-codec-9937f64835bd)
 * [Learning Idiomatic Rust with FizzBuzz](https://www.fotonixx.com/posts/rust-fizzbuzz/)
 * [Rust + Tauri + Svelte Tutorial](https://jbarszczewski.com/rust-tauri-svelte-tutorial)

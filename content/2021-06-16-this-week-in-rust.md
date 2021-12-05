@@ -51,7 +51,6 @@ please visit <https://www.opencounseling.com/suicide-hotlines> for emergency and
 * [audio] [Using Rust with Flutter](https://youtu.be/iQer8hUu0Es)
 
 ### Rust Walkthroughs
-* [Embedded-Rust: Build & Flash binary to STM32F3DISCOVERY](https://blog.knoldus.com/embedded-rust-build-flash-binary-to-stm32f3discovery/)
 * [Learning to Fly: Let's simulate evolution in Rust! (pt 4)](https://pwy.io/en/posts/learning-to-fly-pt4/)
 * [Baby's first Rust with extra steps (XPC, launchd, and FFI)!](https://dstancu.net/macos/rust/ffi/xpc/ncurses/2021/06/15/rust-xpc-ffi.html)
 * [Speeding Up the WebCola Graph Viz Library with Rust + WebAssembly](https://cprimozic.net/blog/speeding-up-webcola-with-webassembly/)

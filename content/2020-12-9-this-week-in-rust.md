@@ -46,8 +46,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Unit-testing a console app (a text editor)](https://jmmv.dev/2020/12/unit-testing-a-console-app.html)
 * [Rust and Async (on embedded devices)](https://blog.drogue.io/rust-and-async/)
 * [Avoiding Duplicating Strings in Rust](https://www.fpcomplete.com/blog/avoiding-duplicating-strings-rust/)
-* [OS in Rust: Custom target to build kernel for bare metal: Part-3](https://blog.knoldus.com/os-in-rust-custom-target-to-build-kernel-for-a-bare-metal-part-3/)
-* [OS in Rust: Building kernel for custom target: Part-4](https://blog.knoldus.com/os-in-rust-building-kernel-for-custom-target-part-4/)
 * [video] [Introduction to Rust Part 2](https://youtu.be/lLWchWTUFOQ)
 
 ### Project Updates

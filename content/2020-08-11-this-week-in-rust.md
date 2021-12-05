@@ -51,7 +51,6 @@ No official Rust announcements this week! :)
 ### Learn More Rust
 * [Zero To Production #3: How To Bootstrap A Rust Web API From Scratch](https://www.lpalmieri.com/posts/2020-08-09-zero-to-production-3-how-to-bootstrap-a-new-rust-web-api-from-scratch/)
 * [Using Rust Lambdas in Production](https://www.cvpartner.com/blog/using-rust-lambdas-in-production)
-* [Incorporate Postgres with Rust](https://blog.knoldus.com/incorporate-postgres-with-rust/)
 * [Let's implement a Bloom Filter](https://onatm.dev/2020/08/10/let-s-implement-a-bloom-filter/)
 * [A Guide to Contiguous Data in Rust](https://github.com/paulkernfeld/contiguous-data-in-rust)
 * [Inbound & Outbound FFI](https://www.possiblerust.com/guide/inbound-outbound-ffi)
