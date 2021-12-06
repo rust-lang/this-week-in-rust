@@ -24,7 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 ### Miscellaneous
-
+[BR-pt][Esta Semana em Rust #419](https://github.com/luisvonmuller/Esta-Semana-Em-Rust/blob/main/%23419.md)
 ## Crate of the Week
 
 This week's crate is [poem-openapi](https://crates.io/crates/poem-openapi), a framework to implement OpenAPI services.
