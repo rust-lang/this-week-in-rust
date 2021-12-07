@@ -23,7 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [SixtyFPS (GUI crate): Changelog for 28th of November 2021 – 0.1.15 Release](https://sixtyfps.io/thisweek/2021-11-29.html)
 * [This week in Databend #18: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-01-databend-weekly/)
 * [Wasmer 2.1](https://wasmer.io/posts/wasmer-2.1)
-* [Wyrcan ~ The Container Bootloader](https://gitlab.com/wyrcan/wyrcan/-/tree/v1.0.0)
+* [Wyrcan ~ The Container Bootloader](https://gitlab.com/wyrcan/wyrcan)
 * [This week in Fluvio #15: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0015/)
 
 ### Observations/Thoughts
