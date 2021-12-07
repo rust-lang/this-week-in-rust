@@ -38,7 +38,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [Rust on the Frontend and Backend](https://blog.abor.dev/p/moonzoon)
-* [Why we should consider Rust for Embedded Developement?](https://blog.knoldus.com/why-rust-for-embedded-development/)
 * [Aiming for idiomatic Rust](https://shane-o.dev/blog/aiming-for-idiomatic-rust)
 * [Optimizing 700 CPUs Away with Rust](https://medium.com/tenable-techblog/optimizing-700-cpus-away-with-rust-dc7a000dbdb2)
 * [Improving our development confidence and productivity with Bors](https://www.fluvio.io/blog/2021/05/bors-confident-merges/)
@@ -53,7 +52,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 * [BABE – Consensus Algorithm and How to Implement it](https://blog.knoldus.com/babe-consensus-algorithm-and-how-to-implement-it-in-our-runtime/)
-* [Pallets in Substrate and using them in runtime.](https://blog.knoldus.com/pallets-in-substrate-and-using-them-in-runtime/)
 * [How to deploy Rust web app with DigitalOcean](https://dev.to/steadylearner/how-to-deploy-rust-web-app-with-digitalocean-h2o)
 * [Learning Rust #4: Parsing JSON with strong types](https://dev.to/hamatti/learning-rust-4-parsing-json-with-strong-types-575m)
 * [How to use Rust web framework Warp](https://dev.to/steadylearner/how-to-use-rust-warp-web-framework-2b4e)

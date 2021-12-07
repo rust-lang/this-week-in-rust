@@ -40,7 +40,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
-* [OS in Rust: Incorporate VGA buffer: Part-7](https://blog.knoldus.com/os-in-rust-incorporate-vga-buffer-part-7/)
 * [Rust Koans](https://github.com/crazymykl/rust-koans)
 * [How to send emails with Rust](https://kerkour.com/blog/rust-send-email/)
 * [Writing Pong in Rust for my OS Written in Rust](https://blog.stephenmarz.com/2021/02/22/writing-pong-in-rust/)

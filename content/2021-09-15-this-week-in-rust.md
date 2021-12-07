@@ -43,7 +43,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [How to implement HTTP Long Polling in Rust](https://kerkour.com/blog/rust-http-long-polling/)
 * [An experimental Diesel-based CRUD for Rocket](https://tweedegolf.nl/blog/61/an-experimental-diesel-based-crud-for-rocket)
 * [Rust cli example #2: Ferris hunts errors](https://dev.to/uggla/rust-cli-example-2-ferris-hunts-errors-116b)
-* [Test Cases in Rust are simple to write](https://blog.knoldus.com/test-cases-in-rust-are-simple-to-write/)
 * [Full-stack sum types with TypeScript, Rust and Postgres](https://vincepergolizzi.com/programming/2021/09/08/full-stack-sum-types-with-typescript-rust-and-postgres.html)
 * [Tokio stack overview: Runtime](https://dev.to/rogertorres/rust-tokio-stack-overview-runtime-9fh)
 * [video] [Rust for Java Developers - Introduction [Beginners]](https://www.youtube.com/watch?v=iFdh4sPC5Tg)

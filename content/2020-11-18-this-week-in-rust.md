@@ -42,7 +42,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [An Ownership Puzzle with Rust, Async, and Hyper](https://www.fpcomplete.com/blog/ownership-puzzle-rust-async-hyper/)
 * [Make A Language - Part Ten: Starting Again](https://arzg.github.io/lang/10/)
 * [Make A Language - Part Eleven: Refinements](https://arzg.github.io/lang/11/)
-* [OS in Rust: Custom target to build kernel for a bare metal: Part-3](https://blog.knoldus.com/os-in-rust-custom-target-to-build-kernel-for-a-bare-metal-part-3/)
 * [Creating a Tetris Clone in Rust, with Bevy (Part 1)](https://corbamico.github.io/2020/11/12/tetris-1/)
 * [PL] [CrabbyBird #3 Generowanie świata gry – cześć I](https://postacnormalna.pl/crabbybird-3-generowanie-swiata-gry-czesc-i/)
 * [video] [Crust of Rust: Sorting Algorithms](https://youtu.be/h4RkCyJyXmM)

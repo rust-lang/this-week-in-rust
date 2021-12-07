@@ -42,7 +42,6 @@ No newsletters or research papers this week.
 * [Behind the scenes of 1Password for Linux](https://dteare.medium.com/behind-the-scenes-of-1password-for-linux-d59b19143a23)
 * [Writing Pythonic Rust](http://www.cmyr.net/blog/rust-python-learnings.html)
 * [Upgradable parking_lot::RwLock might not be what you expect](https://morestina.net/blog/1739/upgradable-parking_lotrwlock-might-not-be-what-you-expect)
-* [Why Rust for Embedded Development?](https://blog.knoldus.com/why-rust-for-embedded-development/)
 
 ### Rust Walkthroughs
 * [Understanding Rust Privacy and Visibility Model](https://iximiuz.com/en/posts/rust-privacy-and-visibility/)

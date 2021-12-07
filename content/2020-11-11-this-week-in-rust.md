@@ -49,7 +49,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Type-Safe Discrete Simulation in Rust](https://dev.to/elshize/type-safe-discrete-simulation-in-rust-3n7d)
 * [series] [A Gemini Client in Rust](https://dev.to/krowemoh/series/9524)
 * [Postfix macros in Rust](https://gist.github.com/est31/8d0465997ea920c5ba917cbbf80a822d)
-* [Processing a Series of Items with Iterators in Rust](https://blog.knoldus.com/processing-a-series-of-items-with-iterators-in-rust/)
 * [Compilation of Active Directory Logs Using Rust](https://blog.knoldus.com/compilation-of-active-directory-logs-using-rust/)
 * [FR] [The Rust Programming Language (translated in French)](https://jimskapt.github.io/rust-book-fr/)
 
