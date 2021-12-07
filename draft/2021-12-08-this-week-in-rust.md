@@ -19,6 +19,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 * [cloud-hypervisor v20.0](https://github.com/cloud-hypervisor/cloud-hypervisor/releases/tag/v20.0)
 
+* [SixtyFPS (GUI crate): Changelog for 5th of December 2021](https://sixtyfps.io/thisweek/2021-12-06.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
