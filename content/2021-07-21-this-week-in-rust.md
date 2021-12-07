@@ -74,7 +74,6 @@ No newsletters or papers this week.
 ### Rust Walkthroughs
 * [How to implement worker pools in Rust](https://kerkour.com/blog/rust-worker-pool/)
 * [Run rust wasm in electron app](https://domtac.github.io/rust/webassembly/electron/2021/07/20/Run-rust-in-electron.html)
-* [Host a Wasm module easily on Raspberry Pi Part 2](https://blog.knoldus.com/host-a-wasm-module-easily-on-raspberry-pi-part-2/)
 * [Rust and the JVM](https://blog.frankel.ch/start-rust/7/)
 * [Smart Pointers in Rust: What, why and how?](https://dev.to/rogertorres/smart-pointers-in-rust-what-why-and-how-oma)
 * [Lazy async operations in Rust](https://joshchoo.com/writing/rust-lazy-async-operations)

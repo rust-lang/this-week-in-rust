@@ -39,9 +39,7 @@ No official blog posts or research papers this week.
 
 ### Rust Walkthroughs
 * [RESTful API in Sync & Async Rust](https://github.com/pretzelhammer/rust-blog/blob/master/posts/restful-api-in-sync-and-async-rust.md)
-* [Rust Closures will make your life easy.](https://blog.knoldus.com/rust-closures-will-make-your-life-easy/)
 * [Idiomatic Rust Binary Search Extended](https://c-hirsch.de/2020-05-30-idiomatic-rust-binary-search-extended)
-* [The Relation between “Rust and Safe Programming” !!](https://blog.knoldus.com/lets-know-about-the-relation-between-rust-and-safe-programming/)
 * [Tightness Driven Development in Rust](https://www.ecorax.net/tightness/)
 * [Writing a "hello world" Riscv Kernel with Nix in Rust](https://justin.restivo.me/posts/2021-05-30-nix-rust-riscv-toy-kernel.html)
 * [Rust for Fsharpers and F# for Rustaceans](https://github.com/Dhghomon/rust-fsharp)

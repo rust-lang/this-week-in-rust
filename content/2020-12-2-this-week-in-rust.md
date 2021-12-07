@@ -39,7 +39,6 @@ No project updates this week.
 
 ### Rust Walkthroughs
 * [References in Rust](https://hashrust.com/blog/references-in-rust/)
-* [OS in Rust: Building kernel for custom target: Part-4](https://blog.knoldus.com/os-in-rust-building-kernel-for-custom-target-part-4/)
 * [Writing Rust the Elixir way](https://dev.to/bkolobara/writing-rust-the-elixir-way-2lm8)
 * [Risp (in (Rust) (Lisp))](https://stopa.io/post/222)
 * [Props and Nested Components with Yew](https://dev.to/fllstck/props-and-nested-components-with-yew-2l0d)

@@ -28,7 +28,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Crust of Rust: lifetime annotations](https://www.youtube.com/watch?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa&time_continue=2&v=rAl-9HwD858&feature=emb_logo).
 * [First impressions on Rust and WebAssembly](https://deedone.github.io/posts/rust-wasm/).
 * [From Rust to WebAssembly: Building an interactive note-taking web app with Actix & Yew](https://www.luu.io/posts/lenote).
-* [Rust’s future: internal execution](https://blog.knoldus.com/rusts-future-internal-execution/).
 * [Rust concurrency: five easy pieces](https://medium.com/@polyglot_factotum/rust-concurrency-five-easy-pieces-871f1c62906a).
 * [(Almost) lockless stream buffering](https://mcfelix.me/blog/shared-buffers/).
 * [Rust and Node.js: a match made in heaven](https://blog.logrocket.com/rust-and-node-js-a-match-made-in-heaven/).

@@ -39,7 +39,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [How I significantly improved Giganotes app performance using Rust](https://www.reddit.com/r/rust/comments/m14agf/how_i_significantly_improved_giganotes_app/)
 
 ### Rust Walkthroughs
-* [OS in Rust: Incorporate VGA buffer: Part-6](https://blog.knoldus.com/os-in-rust-incorporate-vga-buffer-part-6/)
 * [Writing a 3D Shooter using rg3d - #1 - Character Controller](https://rg3d.rs/tutorials/2021/03/05/tutorial1.html)
 * [Writing a 3D Shooter using rg3d - #2 - Weapons](https://rg3d.rs/tutorials/2021/03/09/tutorial2.html)
 * [Writing Pong in Rust for my OS Written in Rust](https://blog.stephenmarz.com/2021/02/22/writing-pong-in-rust/)
