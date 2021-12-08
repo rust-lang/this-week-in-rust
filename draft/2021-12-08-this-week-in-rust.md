@@ -15,18 +15,50 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [Announcing Rust 1.57.0](https://blog.rust-lang.org/2021/12/02/Rust-1.57.0.html)
+* [Love for Rust at re:Invent](https://foundation.rust-lang.org/posts/2021-12-06-love-for-rust-at-reinvent/)
 
 ### Project/Tooling Updates
 * [Updates in IntelliJ Rust for 2021.3](https://blog.jetbrains.com/rust/2021/12/06/updates-in-intellij-rust-for-2021-3/)
+* [Rust Analyzer Changelog #106](https://rust-analyzer.github.io/thisweek/2021/12/06/changelog-106.html)
 * [cloud-hypervisor v20.0](https://github.com/cloud-hypervisor/cloud-hypervisor/releases/tag/v20.0)
 * [SixtyFPS (GUI crate): Changelog for 5th of December 2021](https://sixtyfps.io/thisweek/2021-12-06.html)
+* [This Month in Rust OSDev (November 2021)](https://rust-osdev.com/this-month/2021-11/)
+* [GCC Rust Monthly Report #12 November 2021](https://thephilbert.io/2021/12/06/gcc-rust-monthly-report-12-november-2021/)
+* [rustc_codegen_gcc: Progress Report #6](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-6)
+* [Arti 0.0.2 is released: API groundwork, refactoring, config, and optimism](https://forum.torproject.net/t/arti-0-0-2-is-released-api-groundwork-refactoring-config-and-optimism/939)
+* [Wasmer 2.1](https://wasmer.io/posts/wasmer-2.1)
+* [Black Hat Week (Black Hat Rust is out 🍾)](https://kerkour.com/black-hat-rust-week-2021/)
+* [Rust takes a major step forward as Linux's second official language](https://www.zdnet.com/article/rust-takes-a-major-step-forward-as-linuxs-second-official-language/)
+* [Updated Rust Code For Linux Kernel Patches Posted](https://www.phoronix.com/scan.php?page=news_item&px=Rust-For-Linux-v2)
+* [xmake v2.6.1 released, Switch to Lua5.4 runtime, Support Rust and Cplusplus mixed compilation](https://github.com/xmake-io/xmake/wiki/xmake-v2.6.1-released,-Switch-to-Lua5.4-runtime,-Support-Rust-and-Cplusplus-mixed-compilation)
+* [DE] [WebAssembly: Wasmer 2.1 ermöglicht das Ausführen von Rust-Projekten im Browser](https://www.heise.de/news/WebAssembly-Wasmer-2-1-ermoeglicht-das-Ausfuehren-von-Rust-Projekten-im-Browser-6283513.html)
+* [DE] [Programmiersprache: Rust 1.57 – Don't Panic!](https://www.heise.de/news/Programmiersprache-Rust-1-57-Don-t-Panic-6283665.html)
 
 ### Observations/Thoughts
+* [Uninit read/write](https://blog.yoshuawuyts.com/uninit-read-write/)
+* [Portable and interoperable async Rust](https://www.ncameron.org/blog/portable-and-interoperable-async-rust/)
+* [Speedrunning GUI development in Rust](https://aaronerhardt.github.io/blog/posts/gui_speedrun/)
+* [My Cryptography Final Project](https://codegito.xyz/2021/12/05/cryptography-final-project/)
+* [Case study: Rust programming language community](https://zulip.com/case-studies/rust/)
+* [Linear Types Can Help](https://aidancully.blogspot.com/2021/12/linear-types-can-help.html)
+* [video] [On Hubris and Humility: developing an OS for robustness in Rust](https://talks.osfc.io/osfc2021/talk/JTWYEH/)
 
 ### Rust Walkthroughs
 * [Getting Started with Rust on a Raspberry Pi Pico (Part 3)](https://reltech.substack.com/p/getting-started-with-rust-on-a-raspberry-a88)
+* [A better cargo-readme - Issue 0: Humble Beginning](https://scrabsha.github.io/abcr-issue-0/)
+* [How to Overriding (Patch) Cargo Dependencies](https://edger.substack.com/p/how-to-overriding-patch-cargo-dependencies)
+* [Higher Kinded Types in Rust](https://hugopeters.me/posts/14/)
+* [Node to Rust: Day 1 - From nvm to rustup](https://vino.dev/blog/node-to-rust-day-1-rustup/)
+* [Creating a Web Page with Actix-Web (Rust)](https://dev.to/michaelin007/creating-a-web-page-with-actix-web-rust--2agd)
+* [video] [rg3d - live game development #2](https://www.youtube.com/watch?v=TQaCyC_tGko)
+* [video] [1Password Developer Fireside Chat: Ownership & Mutability Patterns in Rust](https://www.youtube.com/watch?v=hJ9IO-nYpjs)
+* [video] [series] [Advent of Code in Rust by Lucille Blumire](https://www.youtube.com/channel/UCevTibyeBGT1ybiGzROnsfw)
+* [video] [series] [Solving Advent of Code 2021 in Rust by Yoshua Wuyts](https://www.youtube.com/playlist?list=PL2F_NKy2ueKOpAVPl-c3szUXuwB7K9sDq)
 
 ### Miscellaneous
+* [Live Coder Jon Gjengset Gets into the Nitty-Gritty of Rust](https://nostarch.com/blog/jon-gjengset-talks-rust)
+* [AWS SDK for Rust (Developer Preview)](https://aws.amazon.com/about-aws/whats-new/2021/12/aws-sdk-rust-developer-preview/)
 
 ## Crate of the Week
 
