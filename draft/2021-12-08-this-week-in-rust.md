@@ -27,8 +27,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [GCC Rust Monthly Report #12 November 2021](https://thephilbert.io/2021/12/06/gcc-rust-monthly-report-12-november-2021/)
 * [rustc_codegen_gcc: Progress Report #6](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-6)
 * [Arti 0.0.2 is released: API groundwork, refactoring, config, and optimism](https://forum.torproject.net/t/arti-0-0-2-is-released-api-groundwork-refactoring-config-and-optimism/939)
-* [Wasmer 2.1](https://wasmer.io/posts/wasmer-2.1)
-* [Black Hat Week (Black Hat Rust is out 🍾)](https://kerkour.com/black-hat-rust-week-2021/)
 * [Rust takes a major step forward as Linux's second official language](https://www.zdnet.com/article/rust-takes-a-major-step-forward-as-linuxs-second-official-language/)
 * [Updated Rust Code For Linux Kernel Patches Posted](https://www.phoronix.com/scan.php?page=news_item&px=Rust-For-Linux-v2)
 * [xmake v2.6.1 released, Switch to Lua5.4 runtime, Support Rust and Cplusplus mixed compilation](https://github.com/xmake-io/xmake/wiki/xmake-v2.6.1-released,-Switch-to-Lua5.4-runtime,-Support-Rust-and-Cplusplus-mixed-compilation)
