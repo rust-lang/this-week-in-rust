@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 * [Getting Started with Rust on a Raspberry Pi Pico (Part 3)](https://reltech.substack.com/p/getting-started-with-rust-on-a-raspberry-a88)
+* [series] [video] [Writing a Programming Language (in Rust) 9: Implementing Value References](https://www.youtube.com/watch?v=pgD7m02-XnI)
 
 ### Miscellaneous
 
