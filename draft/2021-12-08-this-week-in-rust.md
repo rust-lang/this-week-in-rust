@@ -23,6 +23,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Speedrunning GUI development in Rust](https://aaronerhardt.github.io/blog/posts/gui_speedrun/)
+
 ### Rust Walkthroughs
 * [Getting Started with Rust on a Raspberry Pi Pico (Part 3)](https://reltech.substack.com/p/getting-started-with-rust-on-a-raspberry-a88)
 
