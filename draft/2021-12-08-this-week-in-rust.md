@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 * [Announcing Rust 1.57.0](https://blog.rust-lang.org/2021/12/02/Rust-1.57.0.html)
+
+### Foundation
 * [Love for Rust at re:Invent](https://foundation.rust-lang.org/posts/2021-12-06-love-for-rust-at-reinvent/)
 
 ### Project/Tooling Updates
