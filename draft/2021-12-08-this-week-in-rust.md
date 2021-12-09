@@ -30,9 +30,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 [BR-pt][Esta Semana em Rust #419](https://github.com/luisvonmuller/Esta-Semana-Em-Rust/blob/main/%23419.md)
 ## Crate of the Week
 
-This week's crate is [poem-openapi](https://crates.io/crates/poem-openapi), a framework to implement OpenAPI services.
+This week's crate is [tap](https://crates.io/crates/tap), a library with extension traits to provide suffix-position pipeline behavior.
 
-llogiq is very pleased with his suggestion.
+Thanks to [David Mason](https://users.rust-lang.org/t/crate-of-the-week/2704/988) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -51,34 +51,37 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-244 pull requests were [merged in the last week][merged]
+286 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-11-22..2021-11-29
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-11-29..2021-12-06
 
-* [add codegen option for using LLVM stack smash protection](https://github.com/rust-lang/rust/pull/84197)
-* [do not use atomic reads on platforms without atomic support in LLVM](https://github.com/rust-lang/compiler-builtins/pull/442)
-* [diagnostic tweaks](https://github.com/rust-lang/rust/pull/85102)
-* [chalk: introduce `Folder::Error`](https://github.com/rust-lang/chalk/pull/709)
-* [miri: more portable SIMD: rem, shl, shr](https://github.com/rust-lang/miri/pull/1923)
-* [fix ICE due to out-of-bounds statement index when reporting borrowck error](https://github.com/rust-lang/rust/pull/91212)
-* [fix ICE when lowering `trait A where for<'a> Self: 'a`](https://github.com/rust-lang/rust/pull/91308)
-* [faster `Layout::array`](https://github.com/rust-lang/rust/pull/91246)
-* [make `TypeFolder::fold_*` return `Result`](https://github.com/rust-lang/rust/pull/91230)
-* [partially stabilize `duration_consts_2`](https://github.com/rust-lang/rust/pull/89542)
-* [stabilize `nonzero_is_power_of_two`](https://github.com/rust-lang/rust/pull/91301)
-* [stabilize some `MaybeUninit` behavior as const](https://github.com/rust-lang/rust/pull/90896)
-* [add fast path to `is_descendant_of`](https://github.com/rust-lang/rust/pull/91043)
-* [futures: remove dependency on proc-macro-hack](https://github.com/rust-lang/futures-rs/pull/2520)
-* [cargo: improve unused patch message when source URLs mismatched](https://github.com/rust-lang/cargo/pull/10130)
-* [clippy: add `needless_late_init` lint](https://github.com/rust-lang/rust-clippy/pull/7995)
-* [clippy: add more descriptive help info for `needless_question_mark`](https://github.com/rust-lang/rust-clippy/pull/8028)
-* [clippy: fix false positive on `if_then_some_else_none` with early return](https://github.com/rust-lang/rust-clippy/pull/7980)
-* [clippy: improve `strlen_on_c_string`](https://github.com/rust-lang/rust-clippy/pull/8001)
-* [clippy: extend `non_ascii_literal` to cover chars](https://github.com/rust-lang/rust-clippy/pull/8034)
-* [clippy: apply iter_cloned_collect to collect() using copied()](https://github.com/rust-lang/rust-clippy/pull/8006)
-* [rustdoc: avoid documenting top-level private imports](https://github.com/rust-lang/rust/pull/91094)
-* [rustfmt: fix: do not wrap reference-style doc links](https://github.com/rust-lang/rustfmt/pull/5096)
-* [rustfmt: maintain more AST info when formatting a RHS](https://github.com/rust-lang/rustfmt/pull/5113)
+* [Optimize `rustc_lexer`](https://github.com/rust-lang/rust/pull/91393)
+* [Add support for LLVM coverage mapping format versions 5 and 6](https://github.com/rust-lang/rust/pull/91207)
+* [Add support for riscv64gc-unknown-freebsd](https://github.com/rust-lang/rust/pull/91284)
+* [Fix ICE in `check_must_not_suspend_ty()`](https://github.com/rust-lang/rust/pull/91367)
+* [Fix ICE when `yield`ing in function returning `impl Trait`](https://github.com/rust-lang/rust/pull/91488)
+* [Don't suggest types whose inner type is erroneous](https://github.com/rust-lang/rust/pull/91450)
+* [Only show notable traits if both types are the same](https://github.com/rust-lang/rust/pull/91366)
+* [Improve diagnostic for missing half of binary operator in `if` condition](https://github.com/rust-lang/rust/pull/91435)
+* [Improve error message for `E0659` if the source is not available](https://github.com/rust-lang/rust/pull/91298)
+* [Improve error message for incorrect field accesses through raw pointers](https://github.com/rust-lang/rust/pull/91364)
+* [Add `Option::inspect` and `Result::{inspect, inspect_err}`](https://github.com/rust-lang/rust/pull/91346)
+* [Add a `try_reduce` method to the `Iterator` trait](https://github.com/rust-lang/rust/pull/87054)
+* [Add slice `take` methods](https://github.com/rust-lang/rust/pull/88502)
+* [Make `array::`{`try_from_fn`, `try_map`} and `Iterator::try_find` generic over `Try`](https://github.com/rust-lang/rust/pull/91286)
+* [Introduce `RawVec::reserve_for_push`](https://github.com/rust-lang/rust/pull/91352)
+* [Implement `VecDeque::retain_mut`](https://github.com/rust-lang/rust/pull/91215)
+* [libc: Define `max_align_t` for wasi](https://github.com/rust-lang/libc/pull/2577)
+* [portable-simd: Generic `core::ops` for `Simd<T, _>`](https://github.com/rust-lang/portable-simd/pull/195)
+* [cargo: Stabilize `future-incompat-report`](https://github.com/rust-lang/cargo/pull/10165)
+* [cargo: Support abbreviating `--release` as `-r`](https://github.com/rust-lang/cargo/pull/10133)
+* [clippy: Consider `NonNull` as a pointer type](https://github.com/rust-lang/rust-clippy/pull/8074)
+* [clippy: Escape backslash in `single_char_pattern.rs`](https://github.com/rust-lang/rust-clippy/pull/8067)
+* [clippy: Fix `any()` not taking reference in `search_is_some` lint](https://github.com/rust-lang/rust-clippy/pull/7463)
+* [clippy: Fix some false negatives for `single_char_pattern`](https://github.com/rust-lang/rust-clippy/pull/8077)
+* [clippy: Parenthesize blocks in `needless_bool` suggestion](https://github.com/rust-lang/rust-clippy/pull/8066)
+* [clippy: Upgrade `map_flatten` to complexity](https://github.com/rust-lang/rust-clippy/pull/8054)
+* [rustfmt: Determine when new comment lines are needed for itemized blocks](https://github.com/rust-lang/rustfmt/pull/5097)
 
 ### Rust Compiler Performance Triage
 
@@ -167,15 +170,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> The design of the safe/unsafe split means that there is an asymmetric trust relationship between Safe and Unsafe Rust. Safe Rust inherently has to trust that any Unsafe Rust it touches has been written correctly. On the other hand, Unsafe Rust cannot trust Safe Rust without care.
->
-> As an example, Rust has the [`PartialOrd`](https://doc.rust-lang.org/nightly/std/cmp/trait.PartialOrd.html) and [`Ord`](https://doc.rust-lang.org/nightly/std/cmp/trait.Ord.html) traits to differentiate between types which can "just" be compared, and those that provide a "total" ordering (which basically means that comparison behaves reasonably).
->
-> [`BTreeMap`](https://doc.rust-lang.org/nightly/std/collections/struct.BTreeMap.html) doesn't really make sense for partially-ordered types, and so it requires that its keys implement `Ord` . However, `BTreeMap` has Unsafe Rust code inside of its implementation. Because it would be unacceptable for a sloppy `Ord` implementation (which is Safe to write) to cause Undefined Behavior, the Unsafe code in BTreeMap must be written to be robust against `Ord` implementations which aren't actually total — even though that's the whole point of requiring `Ord` .
+> v2 of the patch-series "to add support for Rust as a second language to the Linux kernel" was posted to LKML \[..\]
+> 
+> There have been several improvements to the overall Rust support since RFC and v2 described in the linked mail.
 
-– [Gankra citing the Rustonomicon on github](https://github.com/rust-lang/rfcs/pull/3197#issuecomment-976032253)
+– [Thorsten Leemhuis on twitter](https://twitter.com/kernellogger/status/1467874273582886921?s=20)
 
-Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1144) for the suggestion!
+llogiq unanimously suggested and voted that this be our quote for this week.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
