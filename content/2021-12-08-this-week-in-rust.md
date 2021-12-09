@@ -63,7 +63,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Miscellaneous
 * [Live Coder Jon Gjengset Gets into the Nitty-Gritty of Rust](https://nostarch.com/blog/jon-gjengset-talks-rust)
 * [AWS SDK for Rust (Developer Preview)](https://aws.amazon.com/about-aws/whats-new/2021/12/aws-sdk-rust-developer-preview/)
-* [BR-pt][Esta Semana em Rust #419](https://github.com/luisvonmuller/Esta-Semana-Em-Rust/blob/main/%23419.md)
+* [BR-pt] [Esta Semana em Rust #419](https://github.com/luisvonmuller/Esta-Semana-Em-Rust/blob/main/%23419.md)
 
 ## Crate of the Week
 
