@@ -28,7 +28,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
-* [Hosting wasm modules in Rust easily using ‘wasmi’](https://blog.knoldus.com/hosting-wasm-modules-in-rust-easily-using-wasmi/)
 * [video] [Why the future of the cloud will be built on Rust](https://www.youtube.com/watch?v=BWL4889RKhU&t=5s)
 
 ### Rust Walkthroughs

@@ -32,7 +32,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [Overview of the Rust cryptography ecosystem](https://kerkour.com/blog/rust-cryptography-ecosystem)
-* [Superpowers of Unsafe Rust](https://blog.knoldus.com/superpowers-of-unsafe-rust/)
 * [Using KLEE on Rust-for-Linux (part 1)](https://project-oak.github.io/rust-verification-tools/2021/08/22/rust-on-linux-1.html)
 * [Large Rust Workspaces](https://matklad.github.io/2021/08/22/large-rust-workspaces.html)
 * [Using Rust with Elixir for code reuse and performance](https://blog.doctave.com/2021/08/19/using-rust-with-elixir-for-code-reuse-and-performance.html)
@@ -40,7 +39,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Shaking Off the Rust 2: Ray Tracing in WebAssembly](https://clayto.com/2021/07/shaking-off-the-rust-2-ray-tracing-in-webassembly/)
 * [Async Overloading](https://blog.yoshuawuyts.com/async-overloading/)
 * [Scoped Arena Allocator](https://devblog.arcana.rs/scoped-arena-allocator)
-* [Concurrency in Rust is indeed fearless](https://blog.knoldus.com/concurrency-in-rust-is-indeed-fearless/)
 
 ### Rust Walkthroughs
 * [Rust vectors](https://saidvandeklundert.net/learn/2021-08-15-rust-vector/)

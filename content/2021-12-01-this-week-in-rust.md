@@ -23,11 +23,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [SixtyFPS (GUI crate): Changelog for 28th of November 2021 – 0.1.15 Release](https://sixtyfps.io/thisweek/2021-11-29.html)
 * [This week in Databend #18: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-01-databend-weekly/)
 * [Wasmer 2.1](https://wasmer.io/posts/wasmer-2.1)
-* [Wyrcan ~ The Container Bootloader](https://gitlab.com/wyrcan/wyrcan/-/tree/v1.0.0)
+* [Wyrcan ~ The Container Bootloader](https://gitlab.com/wyrcan/wyrcan)
+* [This week in Fluvio #15: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0015/)
 
 ### Observations/Thoughts
 * [Do we Really Need Undefined Behavior?](https://www.ralfj.de/blog/2021/11/24/ub-necessary.html)
-* [Box Pointers in Rust make recursive types possible](https://blog.knoldus.com/box-pointers-in-rust-make-recursive-types-possible/)
 * [Notes On Module System](https://matklad.github.io//2021/11/27/notes-on-module-system.html)
 * [A prioritised micro-batch scheduler in rust](https://njk.onl/blog/gaffer.html)
 * [Go footguns: Go Defer and Rust Drop](https://dev.to/mark_saward/go-footguns-go-defer-and-rust-drop-17af)

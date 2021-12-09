@@ -20,7 +20,6 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 
 * [Compiling Rust binaries for Windows 98 SE and more: a journey](https://seri.tools/blog/compiling-rust-for-legacy-windows/)
 * [Zero To Production #0: Foreword](https://www.lpalmieri.com/posts/2020-05-24-zero-to-production-0-foreword/)
-* [Some Extensive Projects Working with Rust](https://blog.knoldus.com/some-extensive-projects-working-with-rust/)
 * [Writing Python inside your Rust code — Part 4](https://blog.m-ou.se/writing-python-inside-rust-4/)
 * [Drawing SVG Graphics with Rust](https://cetra3.github.io/blog/drawing-svg-graphs-rust/)
 * [Designing the Rust Unleash API Client](https://medium.com/cognite/designing-the-rust-unleash-api-client-6809c95aa568)

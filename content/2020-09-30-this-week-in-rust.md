@@ -44,8 +44,6 @@ No newsletters this week.
 ### Learn More Rust
 * [Are we observable yet? An introduction to Rust telemetry - Zero To Production #4](https://www.lpalmieri.com/posts/2020-09-27-zero-to-production-4-are-we-observable-yet/)
 * [A Fistful of States: More State Machine Patterns in Rust](https://deislabs.io/posts/a-fistful-of-states/)
-* [OS in Rust: An executable that runs on bare metal: Part-1](https://blog.knoldus.com/os-in-rust-an-executable-that-runs-on-bare-metal-part-1/)
-* [OS in Rust: An executable that runs on bare metal: Part-2](https://blog.knoldus.com/os-in-rust-an-executable-that-runs-on-bare-metal-part-2/)
 * [Build a Discord Bot with Rust and Serenity](https://developers.facebook.com/blog/post/2020/09/30/build-discord-bot-with-rust-and-serenity/)
 * [Porting EBU R128 audio loudness analysis from C to Rust – Porting Details](https://coaxion.net/blog/2020/09/porting-ebu-r128-audio-loudness-analysis-from-c-to-rust-porting-details/)
 * [Building a runtime reflection system for Rust 🦀️ (Part 1)](https://www.osohq.com/post/rust-reflection-pt-1)

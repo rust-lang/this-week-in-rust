@@ -24,7 +24,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Async-await status report](http://smallcultfollowing.com/babysteps/blog/2019/03/01/async-await-status-report/).
 * [Up and Running with React + Rust + Wasm](https://prestonrichey.com/blog/react-rust-wasm/).
 * [Exposing FFI from the Rust library](https://svartalf.info/posts/2019-03-01-exposing-ffi-from-the-rust-library/).
-* [Compile time function evaluation using `const fn` in Rust](https://blog.knoldus.com/no-more-run-time-enjoy-compile-time-function-evaluation-using-const-fn-in-rust/).
 * [This week in Rust and WebAssembly 12](https://rustwasm.github.io/2019/02/28/this-week-in-rust-and-wasm-012.html).
 
 # Crate of the Week

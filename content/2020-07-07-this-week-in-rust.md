@@ -31,7 +31,6 @@ Check out [this week's *This Week in Rust Podcast*](https://rustacean-station.or
 * [RiB (Rust in Blockchain) Newsletter #13](https://rustinblockchain.org/newsletters/2020-07-01-stuck-inside-hacking-away/)
 * [7 Things I learned from Porting a C Crypto Library to Rust](https://sharpend.io/7-things-I-learned-from-porting-a-c-crypto-library-to-rust/)
 * [This Month in Rust GameDev #11 (June 2020)](https://rust-gamedev.github.io/posts/newsletter-011/)
-* [AWS Lambda with Rust](https://blog.knoldus.com/aws-lambda-with-rust/)
 * [Writing a winning 4K intro in Rust](https://www.codeslow.com/2020/07/writing-winning-4k-intro-in-rust.html)
 * [Ringbahn II: the central state machine](https://without.boats/blog/ringbahn-ii/)
 * [Bastion floating on Tide - Part 2](https://blog.bastion.rs/2020/06/14/bastion-floating-on-tide-part-2.html)

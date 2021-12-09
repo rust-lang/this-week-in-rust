@@ -47,7 +47,6 @@ No official blog posts or newsletters this week.
 * [How to write a Terminal Multiplexer with Rust, Async, and Actors - Part 2](https://implaustin.hashnode.dev/how-to-write-a-terminal-multiplexer-with-rust-async-and-actors-part-2)
 * [Learning Rust: static trait bounds](https://codeandbitters.com/static-trait-bound/)
 * [Async: What is blocking?](https://ryhl.io/blog/async-what-is-blocking/)
-* [Schedule the program in Rust](https://blog.knoldus.com/schedule-the-program-in-rust/)
 * [video] [Generic Associated Types - Learn Rust](https://www.youtube.com/watch?v=JwG-Wa7dOBU&feature=youtu.be)
 * [video] [series] [Rust Tutorial](https://youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5)
 

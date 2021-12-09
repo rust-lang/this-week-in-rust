@@ -59,7 +59,6 @@ This Week in Rust will be the focus of [nellshamrell](https://github.com/nellsha
 * [Emulating abstract base classes in Rust](https://dev.to/mdoerner/emulating-abstract-base-classes-in-rust-3ai6)
 * [Rust #6: Exploring crates](https://dev.to/cthutu/rust-6-exploring-crates-3p6i)
 * [Rust and WebAssembly Serverless Functions in Vercel](https://thenewstack.io/rust-and-webassembly-serverless-functions-in-vercel/)
-* [Raw Pointers in Unsafe Rust are quite powerful](https://blog.knoldus.com/raw-pointers-in-unsafe-rust-are-quite-powerful/)
 * [28 Days of Rust -- Part 1: Ownership and the Borrow Checker](https://medium.com/comsystoreply/28-days-of-rust-part-1-ownership-and-the-borrow-checker-977a17e5b733)
 * [The Rust dbg! macro](https://edgarluque.com/blog/rust-dbg-macro)
 * [video] [Building a Web Application with Rust - Part X - VanillaJS FrontEnd](https://youtu.be/mgGPD6IVUbI)

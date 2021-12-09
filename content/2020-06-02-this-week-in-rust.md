@@ -59,7 +59,6 @@ better world.
 * [rust-analyzer changelog #26](https://rust-analyzer.github.io/thisweek/2020/05/25/changelog-26.html)
 * [Why I'm enjoying learning Rust as a Java programmer](https://opensource.com/article/20/5/rust-java)
 * [Contributing to Rust](https://blog.elinvynia.com/posts/2020-05-26-contributing-to-rust.html)
-* [Get a Look on Key Rust Crates for WebAssembly](https://blog.knoldus.com/get-a-look-on-key-rust-crates-for-webassembly/)
 * [10 Most Loved Programming Languages: Rust, TypeScript, and More](https://insights.dice.com/2020/05/29/10-most-loved-programming-languages-rust-typescript-more/)
 * [Creating a Ruby Gem with Rust](https://richardpatching.com/2020/05/22/creating-a-ruby-gem-with-rust.html)
 * [Designing the Rust Unleash API client](https://medium.com/cognite/designing-the-rust-unleash-api-client-6809c95aa568)
@@ -206,7 +205,7 @@ Email the [Rust Community Team][community] for access.
 
 > Rust enables belligerent refactoring – making dramatic changes and then working with the compiler to bring the project back to a working state.
 
-– [Pankaj Chaudhary on Knoldus Blog](https://blog.knoldus.com/some-extensive-projects-working-with-rust)
+– [Joe Wilm](https://onesignal.com/blog/rust-at-onesignal/)
 
 Thanks to [Maxim Vorobjov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/880) for the suggestions!
 
