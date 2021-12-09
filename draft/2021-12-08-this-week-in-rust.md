@@ -46,8 +46,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Linear Types Can Help](https://aidancully.blogspot.com/2021/12/linear-types-can-help.html)
 * [video] [On Hubris and Humility: developing an OS for robustness in Rust](https://talks.osfc.io/osfc2021/talk/JTWYEH/)
 
-* [Speedrunning GUI development in Rust](https://aaronerhardt.github.io/blog/posts/gui_speedrun/)
-
 ### Rust Walkthroughs
 * [How to encrypt a file in Rust (Using streaming AEAD encryption)](https://kerkour.com/rust-file-encryption)
 * [Getting Started with Rust on a Raspberry Pi Pico (Part 3)](https://reltech.substack.com/p/getting-started-with-rust-on-a-raspberry-a88)
@@ -209,6 +207,20 @@ Email the [Rust Community Team][community] for access.
 **Clear**
 
 * [Full Stack Developer (Remote)](https://docs.google.com/document/d/1OuG5Ts_6s4eWO6CXGzcbklOweD7qGnOgADnSoPjEa10/edit)
+
+**Pixy**
+
+* [Rust Developer Position](https://www.bigeyestudios.com/job-board)
+
+**Bionaut Labs**
+
+* [Embedded Software Engineer (Senior) (Los Angeles, CA, US)](https://www.indeed.com/viewjob?jk=775772a2587b4a1e)
+* [Embedded Software Engineer (Junior) (Los Angeles, CA, US)](https://www.indeed.com/viewjob?jk=030a274941d1f7ac)
+
+**Metawork**
+
+* [Infrastructure Engineer (Remote US)](https://jobs.ashbyhq.com/metawork/51d61a87-d4b8-4ed2-a49b-abb4b2247b30)
+* [Platform Engineer (Remote US)](https://jobs.ashbyhq.com/metawork/90575f85-de36-461e-a540-fbee126ad186)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
