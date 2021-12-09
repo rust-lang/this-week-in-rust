@@ -27,7 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Getting Started with Rust on a Raspberry Pi Pico (Part 3)](https://reltech.substack.com/p/getting-started-with-rust-on-a-raspberry-a88)
 
 ### Miscellaneous
-
+[BR-pt][Esta Semana em Rust #419](https://github.com/luisvonmuller/Esta-Semana-Em-Rust/blob/main/%23419.md)
 ## Crate of the Week
 
 This week's crate is [poem-openapi](https://crates.io/crates/poem-openapi), a framework to implement OpenAPI services.
