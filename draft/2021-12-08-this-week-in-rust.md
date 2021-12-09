@@ -100,7 +100,7 @@ Revision range: [1c0287..ecb65b](https://perf.rust-lang.org/?start=1c0287830e0fb
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* *No RFCs were approved this week.*
+* [Static async fn in traits](https://github.com/rust-lang/rfcs/commit/69833de7b46a571c6110c9ffc0796aeabde335ff)
 
 ### Final Comment Period
 
@@ -112,16 +112,13 @@ decision. Express your opinions now.
 
 * *No RFCs entered final comment period this week.*
 
-#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [rustdoc: accept --out-dir and soft-deprecate --output](https://github.com/rust-lang/rust/issues/91260)
-* [disposition: merge] [Tracking Issue for #![feature(available_parallelism)]](https://github.com/rust-lang/rust/issues/74479)
+* [disposition: merge] [Relax priv-in-pub lint on generic bounds and where clauses of trait impls.](https://github.com/rust-lang/rust/pull/90586)
 
 ### [New RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [RFC: Attributes in function return type position](https://github.com/rust-lang/rfcs/pull/3201)
-* [RFC: proc macro include!](https://github.com/rust-lang/rfcs/pull/3200)
-* [RFC: Unsafe Lifetime](https://github.com/rust-lang/rfcs/pull/3199)
+* [RFC: Alignment niches for references types.](https://github.com/rust-lang/rfcs/pull/3204)
 
 ## Upcoming Events
 
