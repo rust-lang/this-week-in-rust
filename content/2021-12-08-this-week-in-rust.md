@@ -36,6 +36,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Nushell 0.41](https://www.nushell.sh/blog/2021-12-07-nushell_0_41.html)
 * [DE] [WebAssembly: Wasmer 2.1 ermöglicht das Ausführen von Rust-Projekten im Browser](https://www.heise.de/news/WebAssembly-Wasmer-2-1-ermoeglicht-das-Ausfuehren-von-Rust-Projekten-im-Browser-6283513.html)
 * [DE] [Programmiersprache: Rust 1.57 – Don't Panic!](https://www.heise.de/news/Programmiersprache-Rust-1-57-Don-t-Panic-6283665.html)
+* [This week in Databend #19: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-08-databend-weekly/)
 
 ### Observations/Thoughts
 * [Uninit read/write](https://blog.yoshuawuyts.com/uninit-read-write/)
