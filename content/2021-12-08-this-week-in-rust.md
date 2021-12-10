@@ -44,7 +44,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [My Cryptography Final Project](https://codegito.xyz/2021/12/05/cryptography-final-project/)
 * [Case study: Rust programming language community](https://zulip.com/case-studies/rust/)
 * [Linear Types Can Help](https://aidancully.blogspot.com/2021/12/linear-types-can-help.html)
-* [video] [On Hubris and Humility: developing an OS for robustness in Rust](https://talks.osfc.io/osfc2021/talk/JTWYEH/)
+* [video] [On Hubris and Humility: developing an OS for robustness in Rust](https://talks.osfc.io/osfc2021/talk/JTWYEH/) [text version](https://cliffle.com/blog/on-hubris-and-humility/)
 
 ### Rust Walkthroughs
 * [How to encrypt a file in Rust (Using streaming AEAD encryption)](https://kerkour.com/rust-file-encryption)
