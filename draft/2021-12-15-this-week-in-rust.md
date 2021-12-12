@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [video] [Building a networked Web and Native app using BonsaiDb and Gooey](https://youtu.be/yIkUWT4QXCA)
+
 ### Miscellaneous
 
 ## Crate of the Week
