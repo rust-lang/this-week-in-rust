@@ -29,6 +29,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [How not to learn Rust](https://dystroy.org/blog/how-not-to-learn-rust/)
+
 ### Rust Walkthroughs
 
 * [video] [Building a networked Web and Native app using BonsaiDb and Gooey](https://youtu.be/yIkUWT4QXCA)
