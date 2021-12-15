@@ -36,6 +36,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Merge Queues with Bors](https://kflansburg.com/posts/merge-queues/)
 * [Stack-safety for free?](https://hurryabit.github.io/blog/stack-safety-for-free/)
 * [Intrusive Smart Pointers + Heap Only Types = 💞](https://blog.schichler.dev/intrusive-smart-pointers-heap-only-types-ckvzj2thw0caoz2s1gpmi1xm8)
+* [The Second First Rustc Reading Club](https://mojosd.medium.com/the-second-first-rustc-reading-club-d0d0ffedc92f)
 * [Rustc Reading Club, Take 2](http://smallcultfollowing.com/babysteps/blog/2021/11/18/rustc-reading-club-take-2/)
 * [Undefined Behavior deserves a better reputation](https://blog.sigplan.org/2021/11/18/undefined-behavior-deserves-a-better-reputation/)
 * [Improving overconstrained Rust library APIs](https://dev.to/logrocket/improving-overconstrained-rust-library-apis-47ok)
