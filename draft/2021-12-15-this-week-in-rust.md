@@ -104,15 +104,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-A week of mostly rather small changes with many regressions being hard to diagnose. The largest regression comes from the introduction of a new future (desugaring `.await` into a call to `IntoFuture::into_future`). This was deemed acceptable as it only seems to have a negative impact in stress test situations where async/await is used more than one would normally expect. Unfortunately this does mean regressions beat out improvements this week.
+This week's report started with 6 regressions; after eliminating truly obvious noise, we are left with just 2 minor regressions. Of the cases that regressed, I think the only interesting one is keccak (regressed by 1.73% in PR #91549). But don't be too depressed: keccak was also improved up to 23% by PR #85013 (!); thanks to @**simulacrum** for that PR.
 
-Triage done by **@rylev**.
-Revision range: [1c0287..ecb65b](https://perf.rust-lang.org/?start=1c0287830e0fb3c4007afea2819ba03766da6e9c&end=ecb65b0e170fc5275870c9d0fba7267a57cf35e5&absolute=false&stat=instructions%3Au)
+Triage done by **@pnkfelix**.
+Revision range: [e2116a..404c847](https://perf.rust-lang.org/?start=e2116acae59654bfab2a9729a024f3e2fd6d4b02&end=404c8471aba60c2d837fa728e7c729a0f52d5830&absolute=false&stat=instructions%3Au)
 
-3 Regressions, 5 Improvements, 5 Mixed; 3 of them in rollups
-31 comparisons made in total
+2 Regressions, 5 Improvements, 3 Mixed; 1 of them in rollups
+48 comparisons made in total
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-12-07.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-12-14.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
