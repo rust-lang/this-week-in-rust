@@ -24,7 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 * [Rust for Linux](https://lore.kernel.org/lkml/20211206140313.5653-1-ojeda@kernel.org/)
 * [Announcing rsadsb v0.4.0: View Airplanes in the sky with Rust](https://rsadsb.github.io/v0.4.0.html)
-
+* [This week in Databend #20: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-15-databend-weekly/)
 * [SixtyFPS (GUI crate): Changelog for 12th of December 2021](https://sixtyfps.io/thisweek/2021-12-13.html)
 
 ### Observations/Thoughts
