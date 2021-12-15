@@ -18,6 +18,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Foundation
 
+### Newsletters
+* [WebAssembly Weekly](https://wasmweekly.news/issue-161/)
+* 
 ### Project/Tooling Updates
 * [Rust for Linux](https://lore.kernel.org/lkml/20211206140313.5653-1-ojeda@kernel.org/)
 
@@ -26,7 +29,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 ### Miscellaneous
-* [WebAssembly Weekly](https://wasmweekly.news/issue-161/)
 
 ## Crate of the Week
 
