@@ -20,9 +20,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Newsletters
 * [WebAssembly Weekly](https://wasmweekly.news/issue-161/)
-* 
+
 ### Project/Tooling Updates
 * [Rust for Linux](https://lore.kernel.org/lkml/20211206140313.5653-1-ojeda@kernel.org/)
+* [Announcing rsadsb v0.4.0: View Airplanes in the sky with Rust](https://rsadsb.github.io/v0.4.0.html)
 
 ### Observations/Thoughts
 
