@@ -27,6 +27,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [SixtyFPS (GUI crate): Changelog for 12th of December 2021](https://sixtyfps.io/thisweek/2021-12-13.html)
 
+* [git-cliff 0.5.0 (changelog generator)](https://orhun.dev/blog/git-cliff-0.5.0/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
