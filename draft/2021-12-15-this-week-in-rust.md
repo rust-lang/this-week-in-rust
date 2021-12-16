@@ -122,7 +122,7 @@ Revision range: [e2116a..404c847](https://perf.rust-lang.org/?start=e2116acae596
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Static async fn in traits](https://github.com/rust-lang/rfcs/commit/69833de7b46a571c6110c9ffc0796aeabde335ff)
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -132,15 +132,18 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* *No RFCs entered final comment period this week.*
+* [disposition: merge] [Amend RFC 2996 to replace Stream with AsyncIterator](https://github.com/rust-lang/rfcs/pull/3208)
+* [disposition: merge] [Thread local Cell methods.](https://github.com/rust-lang/rfcs/pull/3184)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Relax priv-in-pub lint on generic bounds and where clauses of trait impls.](https://github.com/rust-lang/rust/pull/90586)
+* [disposition: merge] [Make rustdoc --passes and rustdoc --no-defaults have no effect](https://github.com/rust-lang/rust/issues/91714)
+* [disposition: merge] [make Instant::{duration_since, elapsed, sub} saturating and remove workarounds](https://github.com/rust-lang/rust/pull/89926)
+* [disposition: close] [Tracking issue for RFC 2115: In-band lifetime bindings](https://github.com/rust-lang/rust/issues/44524)
 
 ### [New RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [RFC: Alignment niches for references types.](https://github.com/rust-lang/rfcs/pull/3204)
+* *No new RFCs were published this week.*
 
 ## Upcoming Events
 
