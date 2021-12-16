@@ -142,37 +142,33 @@ decision. Express your opinions now.
 
 ## Upcoming Events
 
-Rusty Events between 12/01-12/15 🦀
+Rusty Events between 12/15/2021 - 1/15/2022 🦀
 
 ### Online
 
-* [December 3, 2021 | New York City, NY, US | **Getting started in aerospace with Rust 🦀** | NewSpace NYC](https://www.meetup.com/NewSpace-NYC/events/282320805).
-* [December 7, 2021 | Berlin, DE | **Rust Hack and Learn** | Berline.rs, a Berlin-local Rust community](https://berline.rs/2021/12/07/rust-hack-and-learn.html)
-* [December 7, 2021 | Buffalo, NY, US | **First Tuesdays: Buffalo Rust User Group** | Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/281833990/)
-* [December 7, 2021 | South Padre Island, TX, US | **Tuesdays - Book #24 - Rust for Rustaceans - Chapter 1** | Los Gatos Reading Group (South Padre Island)](https://www.meetup.com/the-south-padre-island-reading-group/events/281685234/)
-* [December 8, 2021 | Los Angeles, CA, US | **Introduction to Photogrammetry with Geordon Worley [Virtual] Dec. 2021** | Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/281944671)
-* [December 8, 2021 | Los Angeles, CA, US | **Rust Computer Vision Project with Geordon Worley** | Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/281944671/)
-* [December 8, 2021 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/282009864)
-* [December 9, 2021 | Columbus, OH, US | **Second Thursdays: Monthly Meetup** | Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dpkhgryccqbmb/)
-* [December 9, 2021 | London, UK | **Rust London x TrueLayer Takeover & Christmas Party** | Rust London User Group](https://www.meetup.com/Rust-London-User-Group/events/282343516/)
-* [December 9, 2021 | Oslo, NO | **Rust Oslo @ Rebel w/Carol (Nichols || Goulding)**| Rust Oslo](https://www.meetup.com/Rust-Oslo/events/281877640/)
-* [December 9, 2021 | San Diego, CA, US | **San Diego Rust December 2021 Tele-Meetup** | San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/282433355)
-* [December 10, 2021 | Chicago, IL, US | **8LU Keynote by Eric Smith - Write Your Game in Rust!** | 8th Light University](https://www.meetup.com/8th-light-university/events/282381279)
-* [December 11, 2021 | Nairobi, KE | **Rust Catchup 2021** | Rust Nairobi](https://www.meetup.com/Rust-Nairobi/events/282377713/)
-* [December 13, 2021 | Eugene, OR, US | **Mondays - Book-Club - Rust Programming Language** | Functional Programming - Eugene](https://www.meetup.com/fp-eug/events/282533185)
-* [December 14, 2021 | South Padre Island, TX, US | **Tuesdays - Book #24 - Rust for Rustaceans - Chapter 1 (session 2)** | Los Gatos Reading Group (South Padre Island)](https://www.meetup.com/the-south-padre-island-reading-group/events/282555459/)
-* [December 14, 2021 | Seattle, WA, US | **Monthly Meetup** | Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/281875277)
+* [December 15, 2021 | Cardiff, UK | **Rust Book Study Session - Error Handling & Generic Types, Traits, and Lifetimes** | Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/282313169/)
+* [December 16, 2021 | Linz, AT | **Rust Meetup Linz - 17th Edition** | Rust Linz](https://www.meetup.com/Rust-Linz/events/282559064/)
+* [December 17, 2021 | Various cities, IR | **The Third Rust Iran online meetup** | Rust Iran Meetup](https://rust-meetup.ir)
+* [December 18, 2021 | Vancouver, BC, CA | **Your Rust Web Development Toolset** | Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/nwcmpsyccqbtb/)
+* [December 21, 2021 | Los Gatos, CA, US | **Book #24 - Rust for Rustaceans - Chapter 1 (session 3)** | Los Gatos Reading Group](https://www.meetup.com/Los-Gatos-Rust-Reading-Group/events/282687733/) | [Alternative Link (South Padre Island, TX Reading Group)](https://www.meetup.com/the-south-padre-island-reading-group/events/282687761/)
+* [December 21, 2021 | Washington, DC, US | **Mid-month Rustful** | Rust DC](https://www.meetup.com/RustDC/events/vdhxgsyccqbcc/)
+* [December 23, 2021 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/ttjjqsyccqbfc/)
+* [December 28, 2021 | Dallas, TX, US | **Dallas Rust - Last Tuesday** | Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccqblc/)
+* [January 5, 2022 | Indianapolis, IN, US | **Indy.rs - with Social Distancing** | Indy Rust](https://www.meetup.com/indyrs/events/qwtdjsydccbhb/)
+* [January 6, 2022 | Nürnberg, DE | **Rust Nürnberg online #8**| Rust Nuremberg](https://www.meetup.com/rust-noris/events/282344613/)
+* [January 8, 2022 | Various cities | **Rust GameDev Monthly Meetup** | Rust GameDev](https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com)
+* [January 11, 2022 | Seattle, WA, US | **Monthly meetup** | Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrydccbpb/)
+* [January 12, 2022 | Boulder, CO, US | **Monthly Meetup** | Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydccbqb/)
+* [January 12, 2022 | Los Angeles, CA, US | **Live Coding Session - Mob Programming a Rust Code Kata [Virtual] Jan. 2022** | Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/282580016/)
+* [January 12, 2022 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/gjrtqsydccbqb/)
+
 
 ### North America
 
-* [December 14, 2021 | Minneapolis, MN, US | **First Meetup** | Minneapolis Rust Meetup Group](https://www.meetup.com/minneapolis-rust-meetup-group/events/282526064/)
-* [December 14, 2021 | New York, NY, US | **Presentation by Chelsea E. Manning: Rust on Arduino-style microcontrollers** | Rust NYC](https://www.meetup.com/Rust-NYC/events/282478738/)
+* [December 16, 2021 | Austin, TX, US | **Rust Lunch** | Rust ATX](https://www.meetup.com/rust-atx/events/282472182)
+* [January 12, 2022 | Atlanta, GA, US | **Grab a beer with fellow Rustaceans** | Rust Atlanta](https://www.meetup.com/Rust-ATL/events/lhpkmsydccbqb/)
+* [January 13, 2022 | Columbus, OH, US | **Monthly Meeting** | Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dpkhgrydccbrb/)
 
-
-### Europe
-
-* [December 3, 2021 | Moscow, RU | **Rust Con** | RustCon.ru](https://rustcon.ru)
-* [December 9, 2021 | London, UK | **Rust London x TrueLayer Takeover & Christmas Party** | Rust London User Group](https://www.meetup.com/Rust-London-User-Group/events/282343516/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
