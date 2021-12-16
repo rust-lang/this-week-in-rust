@@ -29,6 +29,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [SixtyFPS (GUI crate): Changelog for 12th of December 2021](https://sixtyfps.io/thisweek/2021-12-13.html)
 * [This week in Fluvio #16: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0016/)
 
+* [git-cliff 0.5.0 (changelog generator)](https://orhun.dev/blog/git-cliff-0.5.0/)
+
 ### Observations/Thoughts
 
 * [How not to learn Rust](https://dystroy.org/blog/how-not-to-learn-rust/)
