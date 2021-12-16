@@ -40,9 +40,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Databend #20: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-15-databend-weekly/)
 * [This week in Fluvio #16: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0016/)
 * [git-cliff 0.5.0 (changelog generator)](https://orhun.dev/blog/git-cliff-0.5.0/)
-* [Announcing Enzyme for Rust](https://www.reddit.com/r/rust/comments/reo75u/enzyme_towards_stateoftheart_autodiff_in_rust/)
-* [This week in Databend #20: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-15-databend-weekly/)
-* [This week in Fluvio #16: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0016/)
 
 ### Observations/Thoughts
 
