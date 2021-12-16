@@ -16,30 +16,59 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
+* [Launching the 2021 State of Rust Survey](https://blog.rust-lang.org/2021/12/08/survey-launch.html)
+
 ### Foundation
 
+* [Member Spotlight: Automata](https://foundation.rust-lang.org/posts/2021-12-13-member-spotlight-automata/)
+
 ### Newsletters
+
 * [WebAssembly Weekly](https://wasmweekly.news/issue-161/)
+* [This Month in Rust GameDev #28 - November 2021](https://gamedev.rs/news/028/)
 
 ### Project/Tooling Updates
+
+* [Rust Analyzer Changelog #107](https://rust-analyzer.github.io/thisweek/2021/12/13/changelog-107.html)
+* [Cranelift Progress Report: A Look Back at 2021](https://bytecodealliance.org/articles/cranelift-progress-2021)
 * [Rust for Linux](https://lore.kernel.org/lkml/20211206140313.5653-1-ojeda@kernel.org/)
 * [Announcing rsadsb v0.4.0: View Airplanes in the sky with Rust](https://rsadsb.github.io/v0.4.0.html)
+* [SixtyFPS (GUI crate): Changelog for 12th of December 2021](https://sixtyfps.io/thisweek/2021-12-13.html)
+* [sysinfo: version 0.22 and FreeBSD support](https://blog.guillaume-gomez.fr/articles/2021-12-14+sysinfo%3A+version+0.22+and+FreeBSD+support)
+* [Announcing the Grafana Plugin SDK for Rust](https://www.reddit.com/r/rust/comments/rbvmib/announcing_the_grafana_plugin_sdk_for_rust/)
 * [Announcing Enzyme for Rust](https://www.reddit.com/r/rust/comments/reo75u/enzyme_towards_stateoftheart_autodiff_in_rust/)
 * [This week in Databend #20: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-15-databend-weekly/)
-* [SixtyFPS (GUI crate): Changelog for 12th of December 2021](https://sixtyfps.io/thisweek/2021-12-13.html)
 * [This week in Fluvio #16: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0016/)
-
 * [git-cliff 0.5.0 (changelog generator)](https://orhun.dev/blog/git-cliff-0.5.0/)
+* [Announcing Enzyme for Rust](https://www.reddit.com/r/rust/comments/reo75u/enzyme_towards_stateoftheart_autodiff_in_rust/)
+* [This week in Databend #20: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-15-databend-weekly/)
+* [This week in Fluvio #16: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0016/)
 
 ### Observations/Thoughts
 
+* [Rust as a platform for IoT](https://blog.ysndr.de/posts/essays/2021-12-12-rust-for-iot/)
+* [https://madsravn.dk/posts/using-liquid-rust-with-serde](https://madsravn.dk/posts/using-liquid-rust-with-serde)
+* [Rust Error Handling](https://www.unwoundstack.com/blog/rust-error-handling.html)
 * [How not to learn Rust](https://dystroy.org/blog/how-not-to-learn-rust/)
+* [audio] [Refactoring to Rust with Lily Mara](https://rustacean-station.org/episode/049-lily-mara/)
+* [video] [Talking about the Rust Programming Language with Luca Palmieri](https://www.youtube.com/watch?v=WaTEjSHFMbY)
 
 ### Rust Walkthroughs
 
-* [video] [Building a networked Web and Native app using BonsaiDb and Gooey](https://youtu.be/yIkUWT4QXCA)
+* [A brutally effective hash function in Rust](https://nnethercote.github.io/2021/12/08/a-brutally-effective-hash-function-in-rust.html)
+* [Less Painful Linear Types](https://aidancully.blogspot.com/2021/12/less-painful-linear-types.html)
+* [A Rust Api pattern (Actix)](https://ctprods.cyprientaque.com/blog/a-rust-api-pattern-actix)
+* [Authoring a SIMD enhanced Wasm library with Rust](https://nickb.dev/blog/authoring-a-simd-enhanced-wasm-library-with-rust)
+* [Getting better insights into your Rust applications](https://21-lessons.com/getting-better-insights-into-your-rust-applications/)
+* [Validating JSON input in Rust web services](https://vinted.engineering/2021/02/15/validating-json-input-in-rust-web-services/)
+* [video] [Building a networked Web and Native app with Rust](https://www.youtube.com/watch?v=yIkUWT4QXCA)
+* [series] [video] [rg3d - live game development #4](https://www.youtube.com/watch?v=FGi8evJFdnw)
 
 ### Miscellaneous
+
+* [The DevX Initiative Sponsorship Program: Goals and Principles](https://medium.com/concordium/the-devx-initiative-sponsorship-program-goals-and-principles-e640063eeaa7)
+* [Introducing the new Relay compiler](https://relay.dev/blog/2021/12/08/introducing-the-new-relay-compiler/)
+* [DE] [Linux-Kernel: Rust-Entwicklung schreitet mit neuer Edition voran](https://www.heise.de/news/Linux-Kernel-Rust-Entwicklung-schreitet-mit-neuer-Edition-voran-6287775.html)
 
 ## Crate of the Week
 
