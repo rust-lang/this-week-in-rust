@@ -40,6 +40,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Databend #20: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-15-databend-weekly/)
 * [This week in Fluvio #16: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0016/)
 * [git-cliff 0.5.0 (changelog generator)](https://orhun.dev/blog/git-cliff-0.5.0/)
+* [Rust in Space technology - Setting up a new Rust Embedded Ecosystem for the VA108xx MCUs](https://robamu.github.io/post/rust-ecosystem/)
 
 ### Observations/Thoughts
 
