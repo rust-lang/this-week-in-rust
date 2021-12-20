@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+- [「Pin 三部曲」第二部之 《Rust Pin 进阶》[ZH]](https://folyd.com/blog/rust-pin-advanced/)
+
 ### Miscellaneous
 
 ## Crate of the Week
