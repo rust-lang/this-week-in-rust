@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Zellij v0.23.0](https://github.com/zellij-org/zellij/releases/tag/v0.23.0)
 
 ### Observations/Thoughts
 
