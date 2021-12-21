@@ -30,9 +30,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [efg](https://crates.io/crates/efg), a proc macro to allow boolean expression like syntax for `#[cfg]`s.
+This week's crate is [kajiya](https://github.com/EmbarkStudios/kajiya), an experimental real-time global illumination renderer made with Rust and Vulkan.
 
-Thanks to [farnbams](https://users.rust-lang.org/t/crate-of-the-week/2704/991) for the suggestion!
+llogiq is pretty pleased with himself for this suggestion.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -51,49 +51,43 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-315 pull requests were [merged in the last week][merged]
+340 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-12-06..2021-12-13
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-12-13..2021-12-20
 
-* [asm: allow using r9 (ARM) and x18 (AArch64) if they are not reserved by the current target](https://github.com/rust-lang/rust/pull/91643)
-* [suggest using a temporary variable to fix borrowck errors](https://github.com/rust-lang/rust/pull/83174)
-* [tweak "call this function" suggestion to have smaller span](https://github.com/rust-lang/rust/pull/91503)
-* [tweak assoc type obligation spans](https://github.com/rust-lang/rust/pull/91769)
-* [better span for unexpected normalization failure in CTFE engine](https://github.com/rust-lang/rust/pull/91815)
-* [give more help in the unaligned_references lint](https://github.com/rust-lang/rust/pull/91718)
-* [suggest casting between `i`/`u32` and `char`](https://github.com/rust-lang/rust/pull/91245)
-* [add a suggestion if `macro_rules` is misspelled](https://github.com/rust-lang/rust/pull/91337)
-* [avoid cloning refcounted types during folding](https://github.com/rust-lang/rust/pull/91353)
-* [deduplicate projection sub-obligations](https://github.com/rust-lang/rust/pull/90423)
-* [do not ICE when suggesting elided lifetimes on non-existent spans](https://github.com/rust-lang/rust/pull/91764)
-* [do not add `;` to expected tokens list when it's wrong](https://github.com/rust-lang/rust/pull/91531)
-* [do not attempt to suggest help for overly malformed struct/function call](https://github.com/rust-lang/rust/pull/91634)
-* [improve 'cannot contain emoji' error](https://github.com/rust-lang/rust/pull/91476)
-* [add `spin_loop` hint for RISC-V architecture](https://github.com/rust-lang/rust/pull/91548)
-* [override `Iterator::advance`(`_back`)`_by` for `array::IntoIter`](https://github.com/rust-lang/rust/pull/91512)
-* [replace dominators algorithm with simple Lengauer-Tarjan](https://github.com/rust-lang/rust/pull/85013)
-* [add `<*{const|mut} T>::{to|from}_bits`](https://github.com/rust-lang/rust/pull/91127)
-* [add `array::IntoIter::`{`empty`, `from_raw_parts`}](https://github.com/rust-lang/rust/pull/91341)
-* [add `rsplit_array` variants to slices and arrays](https://github.com/rust-lang/rust/pull/91515)
-* [make `Option::cloned` `const`](https://github.com/rust-lang/rust/pull/90741)
-* [make `(*mut T)::write_bytes` `const`](https://github.com/rust-lang/rust/pull/91824)
-* [make `Borrow` and `BorrowMut` impls `const`](https://github.com/rust-lang/rust/pull/90270)
-* [make `Unique`s methods `const`](https://github.com/rust-lang/rust/pull/91806)
-* [make `intrinsics::write_bytes` `const`](https://github.com/rust-lang/rust/pull/90081)
-* [implement `TryFrom<&'_ mut [T]>` for `[T; N]`](https://github.com/rust-lang/rust/pull/91086)
-* [implement `core::future::join!`](https://github.com/rust-lang/rust/pull/91645)
-* [implement concat_bytes!](https://github.com/rust-lang/rust/pull/87599)
-* [provide the `ReadBuf` abstraction](https://github.com/rust-lang/rust/pull/81156)
-* [stabilise `feature(const_generics_defaults)`](https://github.com/rust-lang/rust/pull/90207)
-* [stabilize `ControlFlow::`{`is_break`, `is_continue`}](https://github.com/rust-lang/rust/pull/91091)
-* [stabilize `const_cstr_unchecked`](https://github.com/rust-lang/rust/pull/91855)
-* [cargo: improve I/O error message for fingerprint of build script](https://github.com/rust-lang/cargo/pull/10191)
-* [rustdoc: show type layout for type aliases](https://github.com/rust-lang/rust/pull/91682)
-* [clippy: add new lint to warn when `#[must_use]` attribute should be used on a method](https://github.com/rust-lang/rust-clippy/pull/8071)
-* [clippy: fix FP on `question_mark` if returned object is not local](https://github.com/rust-lang/rust-clippy/pull/8080)
-* [clippy: fix `blocks_in_if_conditions` false positive](https://github.com/rust-lang/rust-clippy/pull/8100)
-* [clippy: fix bad suggestion on `option_if_let_else` when there is complex subpat](https://github.com/rust-lang/rust-clippy/pull/8086)
-* [clippy: ignore associated types in traits when considering type complexity](https://github.com/rust-lang/rust-clippy/pull/8030)
+* [add user seed to `-Z randomize-layout`](https://github.com/rust-lang/rust/pull/91932)
+* [improve suggestion to change struct field to `&mut`](https://github.com/rust-lang/rust/pull/91516)
+* [suggest to specify a target triple when lang item is missing](https://github.com/rust-lang/rust/pull/91820)
+* [tweak errors coming from `for`-loop, `?` and `.await` desugaring](https://github.com/rust-lang/rust/pull/90939)
+* [show the unused type for `unused_results` lint](https://github.com/rust-lang/rust/pull/91818)
+* [recover on invalid operators `<>` and `<=>`](https://github.com/rust-lang/rust/pull/91597)
+* [perf: manually implement `Hash` for `DefId`](https://github.com/rust-lang/rust/pull/91660)
+* [enable `#[thread_local]` for all windows-msvc targets](https://github.com/rust-lang/rust/pull/92042)
+* [add entry_ref API to HashMap](https://github.com/rust-lang/hashbrown/pull/301)
+* [add `[T]::as_simd`(`_mut`)](https://github.com/rust-lang/rust/pull/91479)
+* [add `BinaryHeap::try_reserve` and `BinaryHeap::try_reserve_exact`](https://github.com/rust-lang/rust/pull/91529)
+* [add `io::Error::other`](https://github.com/rust-lang/rust/pull/91947)
+* [avoid sorting in hash map stable hashing](https://github.com/rust-lang/rust/pull/91837)
+* [constify (most) `Option` methods](https://github.com/rust-lang/rust/pull/91928)
+* [constify `bool::then`{,`_some`}](https://github.com/rust-lang/rust/pull/91918)
+* [make `MaybeUninit::zeroed` `const`](https://github.com/rust-lang/rust/pull/91851)
+* [mark defaulted `PartialEq`/`PartialOrd` methods as const](https://github.com/rust-lang/rust/pull/91439)
+* [optimize `vec::retain` performance](https://github.com/rust-lang/rust/pull/91527)
+* [readd `track_caller` to `Result::from_residual`](https://github.com/rust-lang/rust/pull/91752)
+* [stabilize `destructuring_assignment`](https://github.com/rust-lang/rust/pull/90521)
+* [stabilize `iter::zip`](https://github.com/rust-lang/rust/pull/91881)
+* [stabilize `asm!` and `global_asm!`](https://github.com/rust-lang/rust/pull/91728)
+* [remove `P: Unpin` bound on `impl Stream for Pin`](https://github.com/rust-lang/rust/pull/92020)
+* [futures: add `StreamExt::count` method](https://github.com/rust-lang/futures-rs/pull/2495)
+* [futures: limit `FuturesUnordered` max value of `yield_every`](https://github.com/rust-lang/futures-rs/pull/2527)
+* [cargo: detect filesystem loop during walking the projects](https://github.com/rust-lang/cargo/pull/10188)
+* [cargo: display alias target on 'cargo help <alias>`](https://github.com/rust-lang/cargo/pull/10193)
+* [rustdoc: fix source code page sidebar on mobile](https://github.com/rust-lang/rust/pull/91905)
+* [clippy: add `unnecessary_to_owned` lint](https://github.com/rust-lang/rust-clippy/pull/7978)
+* [clippy: don't emit `return_self_not_must_use` lint if `Self` already is marked as `#[must_use]`](https://github.com/rust-lang/rust-clippy/pull/8146)
+* [clippy: ensure that `return_self_not_must_use` is not emitted if the method already has `#[must_use]`](https://github.com/rust-lang/rust-clippy/pull/8143)
+* [clippy: fix `SAFETY` comment tag casing in `undocumented_unsafe_blocks`](https://github.com/rust-lang/rust-clippy/pull/8138)
+* [rustfmt: prevent duplicate comma when formatting struct pattern with ".."](https://github.com/rust-lang/rustfmt/pull/5090)
 
 ### Rust Compiler Performance Triage
 
@@ -178,13 +172,23 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> This is safer than you may think, because those who need async tend to know it themselves and
-> don't ask "should I use async" question. In other words, asking itself is a signal that answer is
-> no. MITM proxy case was a rare exception.
+> Important crab-related diagnostics improvement shipping in nightly
+> [@rustlang](https://twitter.com/rustlang)
+>
+> ```
+> error: Ferris cannot be used as an identifier
+> --> src/main.rs:2:9
+>   |
+> 2 |     let 🦀 = 123;
+>   |         ^^ help: try using their name instead: `ferris`
+> 3 |
+> 4 |     for i in 0..🦀 {
+>   |
+> ```
 
-– [Seo Sanghyeon on rust-users](https://users.rust-lang.org/t/examples-of-high-performance-rust-multi-thread-network-app-w-o-async/68513/4)
+– [Mara Bos on twitter](https://twitter.com/m_ou_se/status/1471077145258647554)
 
-Thanks to [Zeroexcuses](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1146) for the suggestion!
+Thanks to [Julian Wollersberger](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1147) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
