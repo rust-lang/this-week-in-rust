@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Zellij v0.23.0](https://github.com/zellij-org/zellij/releases/tag/v0.23.0)
 
 ### Observations/Thoughts
+* [Contexts and capabilities in Rust](https://tmandry.gitlab.io/blog/posts/2021-12-21-context-capabilities/)
 
 ### Rust Walkthroughs
 
