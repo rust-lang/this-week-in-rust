@@ -112,7 +112,7 @@ Revision range: [e2116a..404c847](https://perf.rust-lang.org/?start=e2116acae596
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* *No RFCs were approved this week.*
+* [Thread local Cell methods.](https://github.com/rust-lang/rfcs/pull/3184)
 
 ### Final Comment Period
 
@@ -122,14 +122,12 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Amend RFC 2996 to replace Stream with AsyncIterator](https://github.com/rust-lang/rfcs/pull/3208)
-* [disposition: merge] [Thread local Cell methods.](https://github.com/rust-lang/rfcs/pull/3184)
+* *No new RFCs entered Final Comment Period this week.*
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Make rustdoc --passes and rustdoc --no-defaults have no effect](https://github.com/rust-lang/rust/issues/91714)
-* [disposition: merge] [make Instant::{duration_since, elapsed, sub} saturating and remove workarounds](https://github.com/rust-lang/rust/pull/89926)
-* [disposition: close] [Tracking issue for RFC 2115: In-band lifetime bindings](https://github.com/rust-lang/rust/issues/44524)
+* [disposition: merge] [Add UnwindSafe to Once](https://github.com/rust-lang/rust/pull/90625)
+* [disposition: merge] [Allow reverse iteration of lowercase'd/uppercase'd chars](https://github.com/rust-lang/rust/pull/88858)
 
 ### [New RFCs](https://github.com/rust-lang/rfcs/pulls)
 
