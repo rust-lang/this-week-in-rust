@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 - [Cross-compiling Rust Lambdas on macOS without Docker](https://noserve.rs/rust-lambdas-macos/)
+- [ZH] [「Pin 三部曲」第二部之 《Rust Pin 进阶](https://folyd.com/blog/rust-pin-advanced/)
 
 ### Miscellaneous
 
@@ -176,7 +177,17 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Timescale**
+[Senior Rust/C/C++ Engineer, Database Toolkit (Remote (UTC-8 to UTC-5)](https://boards.greenhouse.io/timescale/jobs/5542785002)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
+**Parity Technologies**
+
+* [Rust Core Engineer - Solidity Compiler (Solang) (Remote)](https://grnh.se/a5a5c0a33us)
+* [Rust Core Engineer - Smart Contract Platform (Remote)](https://grnh.se/cb272e3b3us)
+* [Multiple other Rust / Blockchain Engineering positions](https://www.parity.io/jobs)
+
 
 # Quote of the Week
 
