@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [You can now buy Black Hat Rust with PayPal, Apple Pay & Google Pay](https://kerkour.com/black-hat-rust-paypal-apple-pay-google-pay/]
 
+* [This week in Databend #21: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-22-databend-weekly/)
+
 ### Observations/Thoughts
 * [Contexts and capabilities in Rust](https://tmandry.gitlab.io/blog/posts/2021-12-21-context-capabilities/)
 
