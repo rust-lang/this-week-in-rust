@@ -16,17 +16,42 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
+* [Follow-up on the moderation issue](https://blog.rust-lang.org/inside-rust/2021/12/17/follow-up-on-the-moderation-issue.html)
+
 ### Foundation
+
+* [Take the State of Rust Survey](https://foundation.rust-lang.org/posts/2021-12-15-take-the-state-of-rust-survey/)
+* [Member Spotlight: Spectral](https://foundation.rust-lang.org/posts/2021-12-20-member-spotlight-spectral/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
 
+* [Announcing Tokio Console 0.1](https://tokio.rs/blog/2021-12-announcing-tokio-console)
+* [Rust Analyzer Changelog #108](https://rust-analyzer.github.io//thisweek/2021/12/20/changelog-108.html)
+* [IntelliJ Rust Changelog #162](https://intellij-rust.github.io/2021/12/20/changelog-162.html)
+* [SixtyFPS (GUI crate): 13th to 19th of December 2021](https://sixtyfps.io/thisweek/2021-12-20.html)
+* [GCC Rust in 2021](https://thephilbert.io/2021/12/20/gcc-rust-in-2021/)
+
 ### Observations/Thoughts
+
+* [Stop Whining about Rust Hype - A Pro-Rust Rant](https://thenewwazoo.github.io/whining.html)
+* [Contexts and capabilities in Rust](https://tmandry.gitlab.io/blog/posts/2021-12-21-context-capabilities/)
+* [Thread Safety in C++ and Rust](https://blog.reverberate.org/2021/12/18/thread-safety-cpp-rust.html)
+* [Rust in Production: Astropad](https://serokell.io/blog/rust-in-production-astropad)
+* [Unbuffered I/O Can Make Your Rust Programs Much Slower](https://era.co/blog/unbuffered-io-slows-rust-programs)
 
 ### Rust Walkthroughs
 
+* [A Beginner's Guide to Parsing in Rust](https://depth-first.com/articles/2021/12/16/a-beginners-guide-to-parsing-in-rust/)
+* [Building a CEDICT parser in Rust with Nom](https://briankung.dev/2021/12/07/building-a-cedict-parser-in-rust-with-nom/)
+* [DE] [Ferris Talk #4: Asynchrone Programmierung in Rust](https://www.heise.de/hintergrund/Ferris-Talk-4-Asynchrone-Programmierung-in-Rust-6299096.html)
+
 ### Miscellaneous
+
+* [Homegrown rendering with Rust](https://medium.com/embarkstudios/homegrown-rendering-with-rust-1e39068e56a7)
+* [audio] [SE-Radio: Tim McNamara on Rust 2021 Edition](https://www.se-radio.net/2021/12/episode-490-tim-mcnamara-on-rust-2021-edition/)
+* [video] [Web api benchmarking: Rust (Warp) vs Rust (actix-web)](https://www.youtube.com/watch?v=zC-r1jzVwh4)
 
 ## Crate of the Week
 
