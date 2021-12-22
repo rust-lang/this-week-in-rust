@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [You can now buy Black Hat Rust with PayPal, Apple Pay & Google Pay](https://kerkour.com/black-hat-rust-paypal-apple-pay-google-pay/]
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
