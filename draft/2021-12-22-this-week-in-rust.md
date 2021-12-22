@@ -24,7 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
-* [Video] [Safe && Portable Data Structure Design (10 minute lightning talk)](https://youtu.be/1UtklNrB8XA?t=1615)
+* [Video] [Safe && Portable Data Structure Design (10 minute lightning talk)](https://www.youtube.com/watch?v=1UtklNrB8XA&t=1619s)
 
 ### Rust Walkthroughs
 
