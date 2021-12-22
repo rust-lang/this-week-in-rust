@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [This week in Databend #21: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-22-databend-weekly/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
