@@ -21,8 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
-* [Zellij v0.23.0](https://github.com/zellij-org/zellij/releases/tag/v0.23.0)
-
+* [Zellij 0.23.0 released with new collaboration features](https://zellij.dev/news/multiplayer-sessions/)
 * [SixtyFPS (GUI crate): Changelog for 19th of December 2021](https://sixtyfps.io/thisweek/2021-12-20.html)
 
 ### Observations/Thoughts
