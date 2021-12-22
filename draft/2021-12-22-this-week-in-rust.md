@@ -1,6 +1,6 @@
-Title: This Week in Rust 421
-Number: 421
-Date: 2021-12-15
+Title: This Week in Rust 422
+Number: 422
+Date: 2021-12-22
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -19,19 +19,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Newsletters
-* [WebAssembly Weekly](https://wasmweekly.news/issue-161/)
 
 ### Project/Tooling Updates
-* [Rust for Linux](https://lore.kernel.org/lkml/20211206140313.5653-1-ojeda@kernel.org/)
-* [Announcing rsadsb v0.4.0: View Airplanes in the sky with Rust](https://rsadsb.github.io/v0.4.0.html)
-
-* [SixtyFPS (GUI crate): Changelog for 12th of December 2021](https://sixtyfps.io/thisweek/2021-12-13.html)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
-* [video] [Building a networked Web and Native app using BonsaiDb and Gooey](https://youtu.be/yIkUWT4QXCA)
 
 ### Miscellaneous
 
@@ -104,22 +97,22 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-A week of mostly rather small changes with many regressions being hard to diagnose. The largest regression comes from the introduction of a new future (desugaring `.await` into a call to `IntoFuture::into_future`). This was deemed acceptable as it only seems to have a negative impact in stress test situations where async/await is used more than one would normally expect. Unfortunately this does mean regressions beat out improvements this week.
+This week's report started with 6 regressions; after eliminating truly obvious noise, we are left with just 2 minor regressions. Of the cases that regressed, I think the only interesting one is keccak (regressed by 1.73% in PR #91549). But don't be too depressed: keccak was also improved up to 23% by PR #85013 (!); thanks to @**simulacrum** for that PR.
 
-Triage done by **@rylev**.
-Revision range: [1c0287..ecb65b](https://perf.rust-lang.org/?start=1c0287830e0fb3c4007afea2819ba03766da6e9c&end=ecb65b0e170fc5275870c9d0fba7267a57cf35e5&absolute=false&stat=instructions%3Au)
+Triage done by **@pnkfelix**.
+Revision range: [e2116a..404c847](https://perf.rust-lang.org/?start=e2116acae59654bfab2a9729a024f3e2fd6d4b02&end=404c8471aba60c2d837fa728e7c729a0f52d5830&absolute=false&stat=instructions%3Au)
 
-3 Regressions, 5 Improvements, 5 Mixed; 3 of them in rollups
-31 comparisons made in total
+2 Regressions, 5 Improvements, 3 Mixed; 1 of them in rollups
+48 comparisons made in total
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-12-07.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-12-14.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Static async fn in traits](https://github.com/rust-lang/rfcs/commit/69833de7b46a571c6110c9ffc0796aeabde335ff)
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -129,49 +122,48 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* *No RFCs entered final comment period this week.*
+* [disposition: merge] [Amend RFC 2996 to replace Stream with AsyncIterator](https://github.com/rust-lang/rfcs/pull/3208)
+* [disposition: merge] [Thread local Cell methods.](https://github.com/rust-lang/rfcs/pull/3184)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Relax priv-in-pub lint on generic bounds and where clauses of trait impls.](https://github.com/rust-lang/rust/pull/90586)
+* [disposition: merge] [Make rustdoc --passes and rustdoc --no-defaults have no effect](https://github.com/rust-lang/rust/issues/91714)
+* [disposition: merge] [make Instant::{duration_since, elapsed, sub} saturating and remove workarounds](https://github.com/rust-lang/rust/pull/89926)
+* [disposition: close] [Tracking issue for RFC 2115: In-band lifetime bindings](https://github.com/rust-lang/rust/issues/44524)
 
 ### [New RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [RFC: Alignment niches for references types.](https://github.com/rust-lang/rfcs/pull/3204)
+* *No new RFCs were published this week.*
 
 ## Upcoming Events
 
-Rusty Events between 12/01-12/15 🦀
+Rusty Events between 12/15/2021 - 1/15/2022 🦀
 
 ### Online
 
-* [December 3, 2021 | New York City, NY, US | **Getting started in aerospace with Rust 🦀** | NewSpace NYC](https://www.meetup.com/NewSpace-NYC/events/282320805).
-* [December 7, 2021 | Berlin, DE | **Rust Hack and Learn** | Berline.rs, a Berlin-local Rust community](https://berline.rs/2021/12/07/rust-hack-and-learn.html)
-* [December 7, 2021 | Buffalo, NY, US | **First Tuesdays: Buffalo Rust User Group** | Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/281833990/)
-* [December 7, 2021 | South Padre Island, TX, US | **Tuesdays - Book #24 - Rust for Rustaceans - Chapter 1** | Los Gatos Reading Group (South Padre Island)](https://www.meetup.com/the-south-padre-island-reading-group/events/281685234/)
-* [December 8, 2021 | Los Angeles, CA, US | **Introduction to Photogrammetry with Geordon Worley [Virtual] Dec. 2021** | Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/281944671)
-* [December 8, 2021 | Los Angeles, CA, US | **Rust Computer Vision Project with Geordon Worley** | Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/281944671/)
-* [December 8, 2021 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/282009864)
-* [December 9, 2021 | Columbus, OH, US | **Second Thursdays: Monthly Meetup** | Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dpkhgryccqbmb/)
-* [December 9, 2021 | London, UK | **Rust London x TrueLayer Takeover & Christmas Party** | Rust London User Group](https://www.meetup.com/Rust-London-User-Group/events/282343516/)
-* [December 9, 2021 | Oslo, NO | **Rust Oslo @ Rebel w/Carol (Nichols || Goulding)**| Rust Oslo](https://www.meetup.com/Rust-Oslo/events/281877640/)
-* [December 9, 2021 | San Diego, CA, US | **San Diego Rust December 2021 Tele-Meetup** | San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/282433355)
-* [December 10, 2021 | Chicago, IL, US | **8LU Keynote by Eric Smith - Write Your Game in Rust!** | 8th Light University](https://www.meetup.com/8th-light-university/events/282381279)
-* [December 11, 2021 | Nairobi, KE | **Rust Catchup 2021** | Rust Nairobi](https://www.meetup.com/Rust-Nairobi/events/282377713/)
-* [December 13, 2021 | Eugene, OR, US | **Mondays - Book-Club - Rust Programming Language** | Functional Programming - Eugene](https://www.meetup.com/fp-eug/events/282533185)
-* [December 14, 2021 | South Padre Island, TX, US | **Tuesdays - Book #24 - Rust for Rustaceans - Chapter 1 (session 2)** | Los Gatos Reading Group (South Padre Island)](https://www.meetup.com/the-south-padre-island-reading-group/events/282555459/)
-* [December 14, 2021 | Seattle, WA, US | **Monthly Meetup** | Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/281875277)
+* [December 15, 2021 | Cardiff, UK | **Rust Book Study Session - Error Handling & Generic Types, Traits, and Lifetimes** | Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/282313169/)
+* [December 16, 2021 | Linz, AT | **Rust Meetup Linz - 17th Edition** | Rust Linz](https://www.meetup.com/Rust-Linz/events/282559064/)
+* [December 17, 2021 | Various cities, IR | **The Third Rust Iran online meetup** | Rust Iran Meetup](https://rust-meetup.ir)
+* [December 18, 2021 | Vancouver, BC, CA | **Your Rust Web Development Toolset** | Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/nwcmpsyccqbtb/)
+* [December 21, 2021 | Los Gatos, CA, US | **Book #24 - Rust for Rustaceans - Chapter 1 (session 3)** | Los Gatos Reading Group](https://www.meetup.com/Los-Gatos-Rust-Reading-Group/events/282687733/) | [Alternative Link (South Padre Island, TX Reading Group)](https://www.meetup.com/the-south-padre-island-reading-group/events/282687761/)
+* [December 21, 2021 | Washington, DC, US | **Mid-month Rustful** | Rust DC](https://www.meetup.com/RustDC/events/vdhxgsyccqbcc/)
+* [December 23, 2021 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/ttjjqsyccqbfc/)
+* [December 28, 2021 | Dallas, TX, US | **Dallas Rust - Last Tuesday** | Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccqblc/)
+* [January 5, 2022 | Indianapolis, IN, US | **Indy.rs - with Social Distancing** | Indy Rust](https://www.meetup.com/indyrs/events/qwtdjsydccbhb/)
+* [January 6, 2022 | Nürnberg, DE | **Rust Nürnberg online #8**| Rust Nuremberg](https://www.meetup.com/rust-noris/events/282344613/)
+* [January 8, 2022 | Various cities | **Rust GameDev Monthly Meetup** | Rust GameDev](https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com)
+* [January 11, 2022 | Seattle, WA, US | **Monthly meetup** | Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrydccbpb/)
+* [January 12, 2022 | Boulder, CO, US | **Monthly Meetup** | Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydccbqb/)
+* [January 12, 2022 | Los Angeles, CA, US | **Live Coding Session - Mob Programming a Rust Code Kata [Virtual] Jan. 2022** | Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/282580016/)
+* [January 12, 2022 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/gjrtqsydccbqb/)
+
 
 ### North America
 
-* [December 14, 2021 | Minneapolis, MN, US | **First Meetup** | Minneapolis Rust Meetup Group](https://www.meetup.com/minneapolis-rust-meetup-group/events/282526064/)
-* [December 14, 2021 | New York, NY, US | **Presentation by Chelsea E. Manning: Rust on Arduino-style microcontrollers** | Rust NYC](https://www.meetup.com/Rust-NYC/events/282478738/)
+* [December 16, 2021 | Austin, TX, US | **Rust Lunch** | Rust ATX](https://www.meetup.com/rust-atx/events/282472182)
+* [January 12, 2022 | Atlanta, GA, US | **Grab a beer with fellow Rustaceans** | Rust Atlanta](https://www.meetup.com/Rust-ATL/events/lhpkmsydccbqb/)
+* [January 13, 2022 | Columbus, OH, US | **Monthly Meeting** | Columbus Rust Society](https://www.meetup.com/columbus-rs/events/dpkhgrydccbrb/)
 
-
-### Europe
-
-* [December 3, 2021 | Moscow, RU | **Rust Con** | RustCon.ru](https://rustcon.ru)
-* [December 9, 2021 | London, UK | **Rust London x TrueLayer Takeover & Christmas Party** | Rust London User Group](https://www.meetup.com/Rust-London-User-Group/events/282343516/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
