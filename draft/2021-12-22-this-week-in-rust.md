@@ -23,22 +23,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 * [Zellij 0.23.0 released with new collaboration features](https://zellij.dev/news/multiplayer-sessions/)
 * [SixtyFPS (GUI crate): Changelog for 19th of December 2021](https://sixtyfps.io/thisweek/2021-12-20.html)
-
-* [You can now buy Black Hat Rust with PayPal, Apple Pay & Google Pay](https://kerkour.com/black-hat-rust-paypal-apple-pay-google-pay/]
-
+* [You can now buy Black Hat Rust with PayPal, Apple Pay & Google Pay](https://kerkour.com/black-hat-rust-paypal-apple-pay-google-pay/)
 * [This week in Databend #21: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-22-databend-weekly/)
 
 ### Observations/Thoughts
 * [Contexts and capabilities in Rust](https://tmandry.gitlab.io/blog/posts/2021-12-21-context-capabilities/)
-
 * [Video] [Safe && Portable Data Structure Design (10 minute lightning talk)](https://www.youtube.com/watch?v=1UtklNrB8XA&t=1619s)
 
 ### Rust Walkthroughs
-
-- [Cross-compiling Rust Lambdas on macOS without Docker](https://noserve.rs/rust-lambdas-macos/)
-- [ZH] [「Pin 三部曲」第二部之 《Rust Pin 进阶](https://folyd.com/blog/rust-pin-advanced/)
+* [Cross-compiling Rust Lambdas on macOS without Docker](https://noserve.rs/rust-lambdas-macos/)
+* [ZH] [「Pin 三部曲」第二部之 《Rust Pin 进阶](https://folyd.com/blog/rust-pin-advanced/)
 
 ### Miscellaneous
+* [TypeVille Call for Papers (ends 9th of January 2022)](https://docs.google.com/forms/d/e/1FAIpQLSdzWAX_N7rkJlVza73hZuNDCZIzKtinGJv6OjcdfdOpJ5w6Ww/viewform)
+* [PT] [Olá e seja bem vindo a outra edição de esta semana em: Rust! #420 (08/12/2021). 🌟](https://github.com/luisvonmuller/Esta-Semana-Em-Rust/blob/main/%23420.md)
 
 ## Crate of the Week
 
@@ -56,6 +54,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [diesel-rs - Documentation improvements](https://github.com/diesel-rs/diesel/pull/2996)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -173,10 +173,23 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-**Timescale**
-[Senior Rust/C/C++ Engineer, Database Toolkit (Remote (UTC-8 to UTC-5)](https://boards.greenhouse.io/timescale/jobs/5542785002)
+**Astropad**
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+* [Software Engineering Manager (Remote North America time zones)](https://astropad.com/software-engineering-manager/)
+
+**Timescale**
+
+* [Senior Rust/C/C++ Engineer, Database Toolkit (Remote (UTC-8 to UTC-5)](https://boards.greenhouse.io/timescale/jobs/5542785002)
+
+**Tangam**
+
+* [Rust Developer (Remote)](https://www.tangram.dev/jobs)
+
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 **Parity Technologies**
 
@@ -184,6 +197,8 @@ Email the [Rust Community Team][community] for access.
 * [Rust Core Engineer - Smart Contract Platform (Remote)](https://grnh.se/cb272e3b3us)
 * [Multiple other Rust / Blockchain Engineering positions](https://www.parity.io/jobs)
 
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
