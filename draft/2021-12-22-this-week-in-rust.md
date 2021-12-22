@@ -178,8 +178,8 @@ Email the [Rust Community Team][community] for access.
 
 **Parity Technologies**
 
-* [Rust Core Engineer - Solidity Compiler (Solang)](https://grnh.se/a5a5c0a33us)
-* [Rust Core Engineer - Smart Contract Platform](https://grnh.se/cb272e3b3us)
+* [Rust Core Engineer - Solidity Compiler (Solang) (Remote)](https://grnh.se/a5a5c0a33us)
+* [Rust Core Engineer - Smart Contract Platform (Remote)](https://grnh.se/cb272e3b3us)
 * [Multiple other Rust / Blockchain Engineering positions](https://www.parity.io/jobs)
 
 
