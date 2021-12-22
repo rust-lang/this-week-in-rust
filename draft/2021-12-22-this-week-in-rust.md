@@ -30,7 +30,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [Contexts and capabilities in Rust](https://tmandry.gitlab.io/blog/posts/2021-12-21-context-capabilities/)
-
 * [Video] [Safe && Portable Data Structure Design (10 minute lightning talk)](https://www.youtube.com/watch?v=1UtklNrB8XA&t=1619s)
 
 ### Rust Walkthroughs
@@ -39,6 +38,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 - [ZH] [「Pin 三部曲」第二部之 《Rust Pin 进阶](https://folyd.com/blog/rust-pin-advanced/)
 
 ### Miscellaneous
+* [TypeVille Call for Papers (ends 9th of January 2022)(https://docs.google.com/forms/d/e/1FAIpQLSdzWAX_N7rkJlVza73hZuNDCZIzKtinGJv6OjcdfdOpJ5w6Ww/viewform)
+* [PT] [Olá e seja bem vindo a outra edição de esta semana em: Rust! #420 (08/12/2021). 🌟](https://github.com/luisvonmuller/Esta-Semana-Em-Rust/blob/main/%23420.md)
 
 ## Crate of the Week
 
@@ -173,10 +174,23 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-**Timescale**
-[Senior Rust/C/C++ Engineer, Database Toolkit (Remote (UTC-8 to UTC-5)](https://boards.greenhouse.io/timescale/jobs/5542785002)
+**Astropad**
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+* [Software Engineering Manager (Remote North America time zones)](https://astropad.com/software-engineering-manager/)
+
+**Timescale**
+
+* [Senior Rust/C/C++ Engineer, Database Toolkit (Remote (UTC-8 to UTC-5)](https://boards.greenhouse.io/timescale/jobs/5542785002)
+
+**Tangam**
+
+* [Rust Developer (Remote)](https://www.tangram.dev/jobs)
+
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 **Parity Technologies**
 
@@ -184,6 +198,8 @@ Email the [Rust Community Team][community] for access.
 * [Rust Core Engineer - Smart Contract Platform (Remote)](https://grnh.se/cb272e3b3us)
 * [Multiple other Rust / Blockchain Engineering positions](https://www.parity.io/jobs)
 
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
