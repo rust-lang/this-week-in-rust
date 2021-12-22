@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
+*[Zellij 0.23.0 released with new collaboration features](https://zellij.dev/news/multiplayer-sessions/)
 
 ### Observations/Thoughts
 
