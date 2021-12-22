@@ -15,15 +15,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
-
 * [Follow-up on the moderation issue](https://blog.rust-lang.org/inside-rust/2021/12/17/follow-up-on-the-moderation-issue.html)
 
 ### Foundation
-
 * [Take the State of Rust Survey](https://foundation.rust-lang.org/posts/2021-12-15-take-the-state-of-rust-survey/)
 * [Member Spotlight: Spectral](https://foundation.rust-lang.org/posts/2021-12-20-member-spotlight-spectral/)
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [Zellij 0.23.0 released with new collaboration features](https://zellij.dev/news/multiplayer-sessions/)
@@ -31,7 +27,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [You can now buy Black Hat Rust with PayPal, Apple Pay & Google Pay](https://kerkour.com/black-hat-rust-paypal-apple-pay-google-pay/)
 * [This week in Databend #21: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-22-databend-weekly/)
 * [This week in Fluvio #17: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0017/)
-
 * [Announcing Tokio Console 0.1](https://tokio.rs/blog/2021-12-announcing-tokio-console)
 * [Rust Analyzer Changelog #108](https://rust-analyzer.github.io//thisweek/2021/12/20/changelog-108.html)
 * [IntelliJ Rust Changelog #162](https://intellij-rust.github.io/2021/12/20/changelog-162.html)
@@ -40,29 +35,26 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [Contexts and capabilities in Rust](https://tmandry.gitlab.io/blog/posts/2021-12-21-context-capabilities/)
-* [Video] [Safe && Portable Data Structure Design (10 minute lightning talk)](https://www.youtube.com/watch?v=1UtklNrB8XA&t=1619s)
-
 * [Stop Whining about Rust Hype - A Pro-Rust Rant](https://thenewwazoo.github.io/whining.html)
 * [Contexts and capabilities in Rust](https://tmandry.gitlab.io/blog/posts/2021-12-21-context-capabilities/)
 * [Thread Safety in C++ and Rust](https://blog.reverberate.org/2021/12/18/thread-safety-cpp-rust.html)
 * [Rust in Production: Astropad](https://serokell.io/blog/rust-in-production-astropad)
 * [Unbuffered I/O Can Make Your Rust Programs Much Slower](https://era.co/blog/unbuffered-io-slows-rust-programs)
+* [video] [Safe && Portable Data Structure Design (10 minute lightning talk)](https://www.youtube.com/watch?v=1UtklNrB8XA&t=1619s)
 
 ### Rust Walkthroughs
 * [Cross-compiling Rust Lambdas on macOS without Docker](https://noserve.rs/rust-lambdas-macos/)
-* [ZH] [「Pin 三部曲」第二部之 《Rust Pin 进阶](https://folyd.com/blog/rust-pin-advanced/)
-
 * [A Beginner's Guide to Parsing in Rust](https://depth-first.com/articles/2021/12/16/a-beginners-guide-to-parsing-in-rust/)
 * [Building a CEDICT parser in Rust with Nom](https://briankung.dev/2021/12/07/building-a-cedict-parser-in-rust-with-nom/)
 * [DE] [Ferris Talk #4: Asynchrone Programmierung in Rust](https://www.heise.de/hintergrund/Ferris-Talk-4-Asynchrone-Programmierung-in-Rust-6299096.html)
+* [ZH] [「Pin 三部曲」第二部之 《Rust Pin 进阶](https://folyd.com/blog/rust-pin-advanced/)
 
 ### Miscellaneous
 * [TypeVille Call for Papers (ends 9th of January 2022)](https://docs.google.com/forms/d/e/1FAIpQLSdzWAX_N7rkJlVza73hZuNDCZIzKtinGJv6OjcdfdOpJ5w6Ww/viewform)
-* [PT] [Olá e seja bem vindo a outra edição de esta semana em: Rust! #420 (08/12/2021). 🌟](https://github.com/luisvonmuller/Esta-Semana-Em-Rust/blob/main/%23420.md)
-
 * [Homegrown rendering with Rust](https://medium.com/embarkstudios/homegrown-rendering-with-rust-1e39068e56a7)
 * [audio] [SE-Radio: Tim McNamara on Rust 2021 Edition](https://www.se-radio.net/2021/12/episode-490-tim-mcnamara-on-rust-2021-edition/)
 * [video] [Web api benchmarking: Rust (Warp) vs Rust (actix-web)](https://www.youtube.com/watch?v=zC-r1jzVwh4)
+* [PT] [Olá e seja bem vindo a outra edição de esta semana em: Rust! #420 (08/12/2021). 🌟](https://github.com/luisvonmuller/Esta-Semana-Em-Rust/blob/main/%23420.md)
 
 ## Crate of the Week
 
