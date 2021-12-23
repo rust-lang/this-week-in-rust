@@ -197,7 +197,7 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Rust/C/C++ Engineer, Database Toolkit (Remote (UTC-8 to UTC-5)](https://boards.greenhouse.io/timescale/jobs/5542785002)
 
-**Tangam**
+**Tangram**
 
 * [Rust Developer (Remote)](https://www.tangram.dev/jobs)
 
