@@ -30,13 +30,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Announcing Tokio Console 0.1](https://tokio.rs/blog/2021-12-announcing-tokio-console)
 * [Rust Analyzer Changelog #108](https://rust-analyzer.github.io//thisweek/2021/12/20/changelog-108.html)
 * [IntelliJ Rust Changelog #162](https://intellij-rust.github.io/2021/12/20/changelog-162.html)
-* [SixtyFPS (GUI crate): 13th to 19th of December 2021](https://sixtyfps.io/thisweek/2021-12-20.html)
 * [GCC Rust in 2021](https://thephilbert.io/2021/12/20/gcc-rust-in-2021/)
 
 ### Observations/Thoughts
 * [Contexts and capabilities in Rust](https://tmandry.gitlab.io/blog/posts/2021-12-21-context-capabilities/)
 * [Stop Whining about Rust Hype - A Pro-Rust Rant](https://thenewwazoo.github.io/whining.html)
-* [Contexts and capabilities in Rust](https://tmandry.gitlab.io/blog/posts/2021-12-21-context-capabilities/)
 * [Thread Safety in C++ and Rust](https://blog.reverberate.org/2021/12/18/thread-safety-cpp-rust.html)
 * [Rust in Production: Astropad](https://serokell.io/blog/rust-in-production-astropad)
 * [Unbuffered I/O Can Make Your Rust Programs Much Slower](https://era.co/blog/unbuffered-io-slows-rust-programs)
