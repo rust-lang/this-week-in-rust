@@ -4,3 +4,4 @@ feedgenerator==2.0
 pelican-webassets==2.0.0
 cssmin==0.2.0
 jinja2==2.11.3
+libsass==0.21.0
