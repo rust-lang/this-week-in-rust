@@ -25,8 +25,8 @@ FEED_DOMAIN = SITEURL
 FEED_ALL_ATOM = 'atom.xml'
 FEED_ALL_RSS = 'rss.xml'
 FEED_MAX_ITEMS = 4
-CATEGORY_FEED_ATOM = 'categories/%s/atom.xml'
-CATEGORY_FEED_RSS = 'categories/%s/rss.xml'
+CATEGORY_FEED_ATOM = 'categories/{slug}/atom.xml'
+CATEGORY_FEED_RSS = 'categories/{slug}/rss.xml'
 
 DEFAULT_PAGINATION = 10
 
@@ -46,4 +46,4 @@ scattered about.
 """
 }
 
-MD_EXTENSIONS = ['headerid']
+PLUGINS = ['webassets']
