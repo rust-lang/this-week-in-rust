@@ -19,6 +19,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Project/Tooling Updates
+* [gfx-rs](https://gfx-rs.github.io/2021/12/25/this-year.html)
+
+### Research
+* [Deadlock-free asynchronous message reordering in Rust with multiparty session types](https://arxiv.org/abs/2112.12693)
 
 ### Observations/Thoughts
 
