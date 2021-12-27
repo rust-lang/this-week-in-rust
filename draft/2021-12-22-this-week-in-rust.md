@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Rust in Space technology - Setting up a new Rust Embedded Ecosystem for the VA108xx MCUs](https://robamu.github.io/post/rust-ecosystem/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
