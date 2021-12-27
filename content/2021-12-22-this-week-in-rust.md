@@ -45,7 +45,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [A Beginner's Guide to Parsing in Rust](https://depth-first.com/articles/2021/12/16/a-beginners-guide-to-parsing-in-rust/)
 * [Building a CEDICT parser in Rust with Nom](https://briankung.dev/2021/12/07/building-a-cedict-parser-in-rust-with-nom/)
 * [DE] [Ferris Talk #4: Asynchrone Programmierung in Rust](https://www.heise.de/hintergrund/Ferris-Talk-4-Asynchrone-Programmierung-in-Rust-6299096.html)
-* [ZH] [「Pin 三部曲」第二部之 《Rust Pin 进阶](https://folyd.com/blog/rust-pin-advanced/)
+* [ZH] [「Pin 三部曲」第二部之 《Rust Pin 进阶》](https://folyd.com/blog/rust-pin-advanced/)
 
 ### Miscellaneous
 * [TypeVille Call for Papers (ends 9th of January 2022)](https://docs.google.com/forms/d/e/1FAIpQLSdzWAX_N7rkJlVza73hZuNDCZIzKtinGJv6OjcdfdOpJ5w6Ww/viewform)
@@ -92,7 +92,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [perf: manually implement `Hash` for `DefId`](https://github.com/rust-lang/rust/pull/91660)
 * [enable `#[thread_local]` for all windows-msvc targets](https://github.com/rust-lang/rust/pull/92042)
 * [add entry_ref API to HashMap](https://github.com/rust-lang/hashbrown/pull/301)
-* [add `[T]::as_simd`(`_mut`)](https://github.com/rust-lang/rust/pull/91479)
+* [add `[T]::as_simd(_mut)`](https://github.com/rust-lang/rust/pull/91479)
 * [add `BinaryHeap::try_reserve` and `BinaryHeap::try_reserve_exact`](https://github.com/rust-lang/rust/pull/91529)
 * [add `io::Error::other`](https://github.com/rust-lang/rust/pull/91947)
 * [avoid sorting in hash map stable hashing](https://github.com/rust-lang/rust/pull/91837)

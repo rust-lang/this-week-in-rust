@@ -13,17 +13,24 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
 ## Updates from Rust Community
-
+* [NAPI-RS 2.0 released](https://napi.rs/blog/announce-v2)
 ### Official
 
 ### Foundation
 
 ### Project/Tooling Updates
 * [Hello, youki! It is a low level container runtime written in Rust.](https://www.utam0k.jp/en/blog/2021/12/27/youki_first_release/)
+* [gfx-rs](https://gfx-rs.github.io/2021/12/25/this-year.html)
+
+### Research
+* [Deadlock-free asynchronous message reordering in Rust with multiparty session types](https://arxiv.org/abs/2112.12693)
+* [Rust in Space technology - Setting up a new Rust Embedded Ecosystem for the VA108xx MCUs](https://robamu.github.io/post/rust-ecosystem/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+
+[FR] [video] [Parlons peu, parlons Rust!](https://www.youtube.com/watch?v=jnLbY7RIH54&list=PLuNjeTqaNojpuaqVboF1vmCRbn1an6sXg&index=5)
 
 ### Miscellaneous
 
@@ -159,6 +166,12 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+  
+**Parity Technologies**
+
+* [Rust Core Engineer - Solidity Compiler (Solang)](https://grnh.se/a5a5c0a33us)
+* [Core Runtime Engineer - Substrate](https://grnh.se/dddd76283us)
+* [Multiple other Rust / Blockchain Engineering positions](https://www.parity.io/jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
