@@ -3211,3 +3211,82 @@ Number: 420  Date: 2021-12-08
 * [AWS SDK for Rust (Developer Preview)](https://aws.amazon.com/about-aws/whats-new/2021/12/aws-sdk-rust-developer-preview/)
 * [BR-pt] [Esta Semana em Rust #419](https://github.com/luisvonmuller/Esta-Semana-Em-Rust/blob/main/%23419.md)
 
+Number: 421  Date: 2021-12-15 
+
+### Official
+* [Launching the 2021 State of Rust Survey](https://blog.rust-lang.org/2021/12/08/survey-launch.html)
+### Foundation
+* [Member Spotlight: Automata](https://foundation.rust-lang.org/posts/2021-12-13-member-spotlight-automata/)
+### Newsletters
+* [WebAssembly Weekly](https://wasmweekly.news/issue-161/)
+* [This Month in Rust GameDev #28 - November 2021](https://gamedev.rs/news/028/)
+### Project/Tooling Updates
+* [Rust Analyzer Changelog #107](https://rust-analyzer.github.io/thisweek/2021/12/13/changelog-107.html)
+* [Cranelift Progress Report: A Look Back at 2021](https://bytecodealliance.org/articles/cranelift-progress-2021)
+* [Rust for Linux](https://lore.kernel.org/lkml/20211206140313.5653-1-ojeda@kernel.org/)
+* [Announcing rsadsb v0.4.0: View Airplanes in the sky with Rust](https://rsadsb.github.io/v0.4.0.html)
+* [SixtyFPS (GUI crate): Changelog for 12th of December 2021](https://sixtyfps.io/thisweek/2021-12-13.html)
+* [sysinfo: version 0.22 and FreeBSD support](https://blog.guillaume-gomez.fr/articles/2021-12-14+sysinfo%3A+version+0.22+and+FreeBSD+support)
+* [Announcing the Grafana Plugin SDK for Rust](https://www.reddit.com/r/rust/comments/rbvmib/announcing_the_grafana_plugin_sdk_for_rust/)
+* [Announcing Enzyme for Rust](https://www.reddit.com/r/rust/comments/reo75u/enzyme_towards_stateoftheart_autodiff_in_rust/)
+* [This week in Databend #20: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-15-databend-weekly/)
+* [This week in Fluvio #16: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0016/)
+* [git-cliff 0.5.0 (changelog generator)](https://orhun.dev/blog/git-cliff-0.5.0/)
+### Observations/Thoughts
+* [Rust as a platform for IoT](https://blog.ysndr.de/posts/essays/2021-12-12-rust-for-iot/)
+* [https://madsravn.dk/posts/using-liquid-rust-with-serde](https://madsravn.dk/posts/using-liquid-rust-with-serde)
+* [Rust Error Handling](https://www.unwoundstack.com/blog/rust-error-handling.html)
+* [How not to learn Rust](https://dystroy.org/blog/how-not-to-learn-rust/)
+* [audio] [Refactoring to Rust with Lily Mara](https://rustacean-station.org/episode/049-lily-mara/)
+* [video] [Talking about the Rust Programming Language with Luca Palmieri](https://www.youtube.com/watch?v=WaTEjSHFMbY)
+### Rust Walkthroughs
+* [A brutally effective hash function in Rust](https://nnethercote.github.io/2021/12/08/a-brutally-effective-hash-function-in-rust.html)
+* [Less Painful Linear Types](https://aidancully.blogspot.com/2021/12/less-painful-linear-types.html)
+* [A Rust Api pattern (Actix)](https://ctprods.cyprientaque.com/blog/a-rust-api-pattern-actix)
+* [Authoring a SIMD enhanced Wasm library with Rust](https://nickb.dev/blog/authoring-a-simd-enhanced-wasm-library-with-rust)
+* [Getting better insights into your Rust applications](https://21-lessons.com/getting-better-insights-into-your-rust-applications/)
+* [Validating JSON input in Rust web services](https://vinted.engineering/2021/02/15/validating-json-input-in-rust-web-services/)
+* [video] [Building a networked Web and Native app with Rust](https://www.youtube.com/watch?v=yIkUWT4QXCA)
+* [series] [video] [rg3d - live game development #4](https://www.youtube.com/watch?v=FGi8evJFdnw)
+### Miscellaneous
+* [The DevX Initiative Sponsorship Program: Goals and Principles](https://medium.com/concordium/the-devx-initiative-sponsorship-program-goals-and-principles-e640063eeaa7)
+* [Introducing the new Relay compiler](https://relay.dev/blog/2021/12/08/introducing-the-new-relay-compiler/)
+* [DE] [Linux-Kernel: Rust-Entwicklung schreitet mit neuer Edition voran](https://www.heise.de/news/Linux-Kernel-Rust-Entwicklung-schreitet-mit-neuer-Edition-voran-6287775.html)
+
+Number: 422  Date: 2021-12-22 
+
+### Official
+* [Follow-up on the moderation issue](https://blog.rust-lang.org/inside-rust/2021/12/17/follow-up-on-the-moderation-issue.html)
+### Foundation
+* [Take the State of Rust Survey](https://foundation.rust-lang.org/posts/2021-12-15-take-the-state-of-rust-survey/)
+* [Member Spotlight: Spectral](https://foundation.rust-lang.org/posts/2021-12-20-member-spotlight-spectral/)
+### Project/Tooling Updates
+* [Zellij 0.23.0 released with new collaboration features](https://zellij.dev/news/multiplayer-sessions/)
+* [SixtyFPS (GUI crate): Changelog for 19th of December 2021](https://sixtyfps.io/thisweek/2021-12-20.html)
+* [You can now buy Black Hat Rust with PayPal, Apple Pay & Google Pay](https://kerkour.com/black-hat-rust-paypal-apple-pay-google-pay/)
+* [This week in Databend #21: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-22-databend-weekly/)
+* [This week in Fluvio #17: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0017/)
+* [Announcing Tokio Console 0.1](https://tokio.rs/blog/2021-12-announcing-tokio-console)
+* [Rust Analyzer Changelog #108](https://rust-analyzer.github.io//thisweek/2021/12/20/changelog-108.html)
+* [IntelliJ Rust Changelog #162](https://intellij-rust.github.io/2021/12/20/changelog-162.html)
+* [GCC Rust in 2021](https://thephilbert.io/2021/12/20/gcc-rust-in-2021/)
+### Observations/Thoughts
+* [Contexts and capabilities in Rust](https://tmandry.gitlab.io/blog/posts/2021-12-21-context-capabilities/)
+* [Stop Whining about Rust Hype - A Pro-Rust Rant](https://thenewwazoo.github.io/whining.html)
+* [Thread Safety in C++ and Rust](https://blog.reverberate.org/2021/12/18/thread-safety-cpp-rust.html)
+* [Rust in Production: Astropad](https://serokell.io/blog/rust-in-production-astropad)
+* [Unbuffered I/O Can Make Your Rust Programs Much Slower](https://era.co/blog/unbuffered-io-slows-rust-programs)
+* [video] [Safe && Portable Data Structure Design (10 minute lightning talk)](https://www.youtube.com/watch?v=1UtklNrB8XA&t=1619s)
+### Rust Walkthroughs
+* [Cross-compiling Rust Lambdas on macOS without Docker](https://noserve.rs/rust-lambdas-macos/)
+* [A Beginner's Guide to Parsing in Rust](https://depth-first.com/articles/2021/12/16/a-beginners-guide-to-parsing-in-rust/)
+* [Building a CEDICT parser in Rust with Nom](https://briankung.dev/2021/12/07/building-a-cedict-parser-in-rust-with-nom/)
+* [DE] [Ferris Talk #4: Asynchrone Programmierung in Rust](https://www.heise.de/hintergrund/Ferris-Talk-4-Asynchrone-Programmierung-in-Rust-6299096.html)
+* [ZH] [「Pin 三部曲」第二部之 《Rust Pin 进阶](https://folyd.com/blog/rust-pin-advanced/)
+### Miscellaneous
+* [TypeVille Call for Papers (ends 9th of January 2022)](https://docs.google.com/forms/d/e/1FAIpQLSdzWAX_N7rkJlVza73hZuNDCZIzKtinGJv6OjcdfdOpJ5w6Ww/viewform)
+* [Homegrown rendering with Rust](https://medium.com/embarkstudios/homegrown-rendering-with-rust-1e39068e56a7)
+* [audio] [SE-Radio: Tim McNamara on Rust 2021 Edition](https://www.se-radio.net/2021/12/episode-490-tim-mcnamara-on-rust-2021-edition/)
+* [video] [Web api benchmarking: Rust (Warp) vs Rust (actix-web)](https://www.youtube.com/watch?v=zC-r1jzVwh4)
+* [PT] [Olá e seja bem vindo a outra edição de esta semana em: Rust! #420 (08/12/2021). 🌟](https://github.com/luisvonmuller/Esta-Semana-Em-Rust/blob/main/%23420.md)
+
