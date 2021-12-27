@@ -19,11 +19,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Project/Tooling Updates
+* [Hello, youki! It is a low level container runtime written in Rust.](https://www.utam0k.jp/en/blog/2021/12/27/youki_first_release/)
 * [gfx-rs](https://gfx-rs.github.io/2021/12/25/this-year.html)
 
 ### Research
 * [Deadlock-free asynchronous message reordering in Rust with multiparty session types](https://arxiv.org/abs/2112.12693)
-
 * [Rust in Space technology - Setting up a new Rust Embedded Ecosystem for the VA108xx MCUs](https://robamu.github.io/post/rust-ecosystem/)
 
 ### Observations/Thoughts
