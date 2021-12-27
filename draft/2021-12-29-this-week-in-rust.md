@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Project/Tooling Updates
+* [Hello, youki! It is a low level container runtime written in Rust.](https://www.utam0k.jp/en/blog/2021/12/27/youki_first_release/)
 
 ### Observations/Thoughts
 
