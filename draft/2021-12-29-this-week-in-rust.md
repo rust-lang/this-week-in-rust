@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Deadlock-free asynchronous message reordering in Rust with multiparty session types](https://arxiv.org/abs/2112.12693)
 * [Rust in Space technology - Setting up a new Rust Embedded Ecosystem for the VA108xx MCUs](https://robamu.github.io/post/rust-ecosystem/)
 
+* [SixtyFPS (GUI crate): 2021 in Review](https://sixtyfps.io/blog/2021-in-review.html): A short summary of what happened in 2021 and an even shorter outlook to 2022.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
