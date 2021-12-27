@@ -13,7 +13,7 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
 ## Updates from Rust Community
-
+* [NAPI-RS 2.0 released](https://napi.rs/blog/announce-v2)
 ### Official
 
 ### Foundation
