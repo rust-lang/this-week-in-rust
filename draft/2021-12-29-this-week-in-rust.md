@@ -99,17 +99,16 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-Unfortunately a change introduced in [rust-lang/rust#89836](https://github.com/rust-lang/rust/pull/89836) has made performance across different compiler artifacts much more variable by embedding compiler version information (including a git commit hash) in demangled symbol names. This means that even if two compiler artifacts are built from the same exact source code (with only the git commit changed), the compiler will have slightly different performance characteristics. This makes comparisons across pull requests virtually impossible. 
+Relatively quiet week, mostly rustdoc improvements.
 
-The compiler team is still deciding what to do to handle this, but in the mean time, performance testing is largely broken. This issue is currently being tracked in[rust-lang/rustc-perf#1126](https://github.com/rust-lang/rustc-perf/issues/1126).
+Triage done by **@simulacrum**.
+Revision range: [3d57c61a..e91ad5fc62](https://perf.rust-lang.org/?start=3d57c61a9e04dcd3df633f41142009d6dcad4399&end=e91ad5fc62bdee4a29c18baa5fad2ca42fc91bf4&absolute=false&stat=instructions%3Au)
 
-Triage done by **@rylev**.
-Revision range: [404c847..3d57c61](https://perf.rust-lang.org/?start=404c8471aba60c2d837fa728e7c729a0f52d5830&end=3d57c61a9e04dcd3df633f41142009d6dcad4399&absolute=false&stat=instructions%3Au)
+2 Regressions, 1 Improvements, 6 Mixed; 0 of them in rollups
 
-2 Regressions, 2 Improvements, 23 Mixed; 9 of them in rollups
-38 comparisons made in total
+26 comparisons made in total
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-12-21.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-12-28.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
