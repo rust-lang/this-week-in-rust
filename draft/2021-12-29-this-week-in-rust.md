@@ -38,9 +38,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [kajiya](https://github.com/EmbarkStudios/kajiya), an experimental real-time global illumination renderer made with Rust and Vulkan.
+This week's crate is [zoxide](https://github.com/ajeetdsouza/zoxide), a smarter `cd` command.
 
-llogiq is pretty pleased with himself for this suggestion.
+Thanks to [Ajeet D'Souza](https://users.rust-lang.org/t/crate-of-the-week/2704/993) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -59,43 +59,31 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-340 pull requests were [merged in the last week][merged]
+188 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-12-13..2021-12-20
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-12-20..2021-12-27
 
-* [add user seed to `-Z randomize-layout`](https://github.com/rust-lang/rust/pull/91932)
-* [improve suggestion to change struct field to `&mut`](https://github.com/rust-lang/rust/pull/91516)
-* [suggest to specify a target triple when lang item is missing](https://github.com/rust-lang/rust/pull/91820)
-* [tweak errors coming from `for`-loop, `?` and `.await` desugaring](https://github.com/rust-lang/rust/pull/90939)
-* [show the unused type for `unused_results` lint](https://github.com/rust-lang/rust/pull/91818)
-* [recover on invalid operators `<>` and `<=>`](https://github.com/rust-lang/rust/pull/91597)
-* [perf: manually implement `Hash` for `DefId`](https://github.com/rust-lang/rust/pull/91660)
-* [enable `#[thread_local]` for all windows-msvc targets](https://github.com/rust-lang/rust/pull/92042)
-* [add entry_ref API to HashMap](https://github.com/rust-lang/hashbrown/pull/301)
-* [add `[T]::as_simd`(`_mut`)](https://github.com/rust-lang/rust/pull/91479)
-* [add `BinaryHeap::try_reserve` and `BinaryHeap::try_reserve_exact`](https://github.com/rust-lang/rust/pull/91529)
-* [add `io::Error::other`](https://github.com/rust-lang/rust/pull/91947)
-* [avoid sorting in hash map stable hashing](https://github.com/rust-lang/rust/pull/91837)
-* [constify (most) `Option` methods](https://github.com/rust-lang/rust/pull/91928)
-* [constify `bool::then`{,`_some`}](https://github.com/rust-lang/rust/pull/91918)
-* [make `MaybeUninit::zeroed` `const`](https://github.com/rust-lang/rust/pull/91851)
-* [mark defaulted `PartialEq`/`PartialOrd` methods as const](https://github.com/rust-lang/rust/pull/91439)
-* [optimize `vec::retain` performance](https://github.com/rust-lang/rust/pull/91527)
-* [readd `track_caller` to `Result::from_residual`](https://github.com/rust-lang/rust/pull/91752)
-* [stabilize `destructuring_assignment`](https://github.com/rust-lang/rust/pull/90521)
-* [stabilize `iter::zip`](https://github.com/rust-lang/rust/pull/91881)
-* [stabilize `asm!` and `global_asm!`](https://github.com/rust-lang/rust/pull/91728)
-* [remove `P: Unpin` bound on `impl Stream for Pin`](https://github.com/rust-lang/rust/pull/92020)
-* [futures: add `StreamExt::count` method](https://github.com/rust-lang/futures-rs/pull/2495)
-* [futures: limit `FuturesUnordered` max value of `yield_every`](https://github.com/rust-lang/futures-rs/pull/2527)
-* [cargo: detect filesystem loop during walking the projects](https://github.com/rust-lang/cargo/pull/10188)
-* [cargo: display alias target on 'cargo help <alias>`](https://github.com/rust-lang/cargo/pull/10193)
-* [rustdoc: fix source code page sidebar on mobile](https://github.com/rust-lang/rust/pull/91905)
-* [clippy: add `unnecessary_to_owned` lint](https://github.com/rust-lang/rust-clippy/pull/7978)
-* [clippy: don't emit `return_self_not_must_use` lint if `Self` already is marked as `#[must_use]`](https://github.com/rust-lang/rust-clippy/pull/8146)
-* [clippy: ensure that `return_self_not_must_use` is not emitted if the method already has `#[must_use]`](https://github.com/rust-lang/rust-clippy/pull/8143)
-* [clippy: fix `SAFETY` comment tag casing in `undocumented_unsafe_blocks`](https://github.com/rust-lang/rust-clippy/pull/8138)
-* [rustfmt: prevent duplicate comma when formatting struct pattern with ".."](https://github.com/rust-lang/rustfmt/pull/5090)
+* [miri: provide slightly better notes when tracking a pointer tag](https://github.com/rust-lang/miri/pull/1945)
+* [backport LLVM changes to disable deferred inlining](https://github.com/rust-lang/rust/pull/92110)
+* [fix duplicate derive clone suggestion](https://github.com/rust-lang/rust/pull/91544)
+* [perf: change `Backtrace::enabled` atomic from `SeqCst` to `Relaxed`](https://github.com/rust-lang/rust/pull/92139)
+* [perf: eliminate `ObligationCauseData`](https://github.com/rust-lang/rust/pull/91844)
+* [fix bad caching of `~const Drop` bounds](https://github.com/rust-lang/rust/pull/92149)
+* [constify `core::intrinsics::black_box` and `core::hint::black_box`](https://github.com/rust-lang/rust/pull/92226)
+* [make `PTR::as_ref` and similar methods `const`](https://github.com/rust-lang/rust/pull/91823)
+* [RawVec: don't recompute capacity after allocating](https://github.com/rust-lang/rust/pull/92220)
+* [allow reverse iteration of lowercase'd/uppercase'd chars](https://github.com/rust-lang/rust/pull/88858)
+* [stabilise `entry_insert`](https://github.com/rust-lang/rust/pull/90345)
+* [suggest adding `#[cfg(test)]` to a test module](https://github.com/rust-lang/rust/pull/91770)
+* [cargo: make levenshtein distance case insensitive.](https://github.com/rust-lang/cargo/pull/10224)
+* [clippy: add suggestion for `neg_multiply` lint](https://github.com/rust-lang/rust-clippy/pull/8144)
+* [clippy: fix `iter_skip_next` false positives](https://github.com/rust-lang/rust-clippy/pull/8133)
+* [clippy: improve `unwrap_or_else_default` when handling `unwrap_or_else(XXX::new)`](https://github.com/rust-lang/rust-clippy/pull/8163)
+* [clippy: fix `shadow_reuse` false negative for if let bindings](https://github.com/rust-lang/rust-clippy/pull/8165)
+* [clippy: fix an ICE on unwrapping a None](https://github.com/rust-lang/rust-clippy/pull/8167)
+* [clippy: new lint: `init-numbered-fields`](https://github.com/rust-lang/rust-clippy/pull/8170)
+* [rustfmt: fix static async closure qualifier order](https://github.com/rust-lang/rustfmt/pull/5150)
+* [rustfmt: retain qualified path when rewriting struct literal expressions](https://github.com/rust-lang/rustfmt/pull/5152)
 
 ### Rust Compiler Performance Triage
 
@@ -179,23 +167,22 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Important crab-related diagnostics improvement shipping in nightly
-> [@rustlang](https://twitter.com/rustlang)
+> One reason we keep certain things as hard errors rather than lints: it establishes a baseline
+> that you can safely assume about other people's code, since it can't be turned off. And as a
+> result, that baseline can become part of people's mental model of Rust itself, rather than
+> something that might or might not be true in any given codebase.
 >
-> ```
-> error: Ferris cannot be used as an identifier
-> --> src/main.rs:2:9
->   |
-> 2 |     let 🦀 = 123;
->   |         ^^ help: try using their name instead: `ferris`
-> 3 |
-> 4 |     for i in 0..🦀 {
->   |
-> ```
+> We have to take care to not use that lightly, because that places work on all users of Rust to
+> maintain code to that baseline. But there are cases where we do. We don't allow using one integer
+> type where another was expected. We don't allow certain operations outside an unsafe block. ...
+>
+> I think the standard we should apply is asking whether something is part of the baseline that
+> people should be able to assume about all Rust code, and if that's worth the tradeoff of requiring
+> that baseline of all Rust users.
 
-– [Mara Bos on twitter](https://twitter.com/m_ou_se/status/1471077145258647554)
+– [Josh Triplett on rust-internals](https://internals.rust-lang.org/t/lack-of-mut-in-bindings-as-a-deny-by-default-lint/15818/8)
 
-Thanks to [Julian Wollersberger](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1147) for the suggestion!
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1153) for the self-suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
