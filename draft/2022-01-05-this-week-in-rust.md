@@ -1,6 +1,6 @@
-Title: This Week in Rust 423
-Number: 423
-Date: 2021-12-29
+Title: This Week in Rust 424
+Number: 424
+Date: 2022-01-05
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -14,48 +14,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-### Official
-
-### Foundation
-
 ### Project/Tooling Updates
-* [Hello, youki! (low-level container runtime written in Rust)](https://www.utam0k.jp/en/blog/2021/12/27/youki_first_release/)
-* [Nushell 0.42](https://www.nushell.sh/blog/2021-12-28-nushell_0_42.html)
-* [This Year in Wgpu - 2021](https://gfx-rs.github.io/2021/12/25/this-year.html)
-* [SixtyFPS (GUI crate): 2021 in Review](https://sixtyfps.io/blog/2021-in-review.html)
-* [BonsaiDb December Update: Finishing up alpha 1](https://community.khonsulabs.com/t/bonsaidb-december-update-finishing-up-alpha-1/88)
-* [NAPI-RS 2.0 released](https://napi.rs/blog/announce-v2)
-* [This Year in Embedded Rust: 2021 Edition](https://blog.rust-embedded.org/this-year-in-embedded-rust-2021/)
-* [Rust Analyzer Changelog #108](https://rust-analyzer.github.io/thisweek/2021/12/27/changelog-109.html)
-* [End of year 2021: 20 months of Gitoxide](https://github.com/Byron/gitoxide/discussions/285)
 
 ### Research
-* [Deadlock-free asynchronous message reordering in Rust with multiparty session types](https://arxiv.org/abs/2112.12693)
 
 ### Observations/Thoughts
-* [Thoughts on Context and Capabilities in Rust](https://jam1.re/blog/thoughts-on-contexts-and-capabilities-in-rust)
-* [My negative views on Rust](https://chrisdone.com/posts/rust/)
-* [Learning Rust – Why now?](https://garrellco.com/?p=1)
-* [audio] [What's New in Rust 1.56 and 1.57](https://rustacean-station.org/episode/050-rust-1.56-1.57/)
-* [audio] [Code Like a Pro in Rust with Brenden Matthews](https://rustacean-station.org/episode/051-brenden-matthews/)
 
 ### Rust Walkthroughs
-* [Vange-rs: WebAssembly in Rust](https://caiiiycuk.medium.com/vange-rs-webassembly-in-rust-498e2f960a04)
-* [Writing a minimal Lua implementation with a virtual machine from scratch in Rust](https://notes.eatonphil.com/lua-in-rust.html)
-* [Bringing Rust to Space - Setting up a Rust ecosystem for the VA108XX MCU family](https://robamu.github.io/post/rust-ecosystem/)
-* [Scala and Rust interoperability via JNI](https://engineering.avast.io/scala-and-rust-interoperability-via-jni/)
-* [Writing a prometheus exporter in rust from idea to grafana chart](https://mateusfreira.github.io/@mateusfreira-writing-a-prometheus-exporter-in-rust-from-idea-to-grafana-chart/)
-* [Futuristic Rust: context emulation](https://haibane-tenshi.github.io/rust-contexts/)
-* [Mocking HTTP Services in Rust](https://alexliesenfeld.com/mocking-http-services-in-rust)
-* [LLVM Infrastructure and Rust](https://www.bexxmodd.com/log/llvm-infrastrucutre-and-rust/7)
-* [Making Games in Rust - Part 6 - Generating a Map](https://dev.to/sbelzile/making-games-in-rust-part-6-generating-a-map-4aic)
-* [Procedural Macros: Parsing custom syntax](https://blog.turbo.fish/proc-macro-parsing/)
-* [A Data Pipeline for Go Trains Delay Analysis — ML in Action with Rust](https://towardsdatascience.com/a-data-pipeline-for-go-trains-delay-analysis-ml-in-action-with-rust-b294e80eede9)
-* [video] [Tetris in Rust from scratch](https://www.youtube.com/playlist?list=PLBNbqulT6FWw9C39_WIT_dcCIj1AdxiAy)
-* [video] [Rust Modules - Explained Like I'm 5](https://www.youtube.com/watch?v=969j0qnJGi8)
-* [video] [I'm learning Rust - Enums, patterns, and traits](https://www.youtube.com/watch?v=zHpDGeJU7no)
-* [FR] [video] [Parlons peu, parlons Rust!](https://www.youtube.com/watch?v=jnLbY7RIH54&list=PLuNjeTqaNojpuaqVboF1vmCRbn1an6sXg&index=5)
-* [ZH] [Rust性能评估与调优实践](https://zhuanlan.zhihu.com/p/451184900)
 
 ### Miscellaneous
 
@@ -185,21 +150,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
-**The Daily Edit**
-
-* [Rust Developer (Remote)](https://github.com/dailyedit/jobs/blob/master/rust.md)
-
-**Spruce**
-
-* [Software Engineer, Backend (New York, NY, US or Remote)](https://spruce-systems.breezy.hr/p/9fb3b149dc01-software-engineer-backend)
-* [Engineering Manager (New York, NY, US or Remote)](https://spruce-systems.breezy.hr/p/495dc657fb6e-engineering-manager)
-  
-**Parity Technologies**
-
-* [Rust Core Engineer - Solidity Compiler (Solang)](https://grnh.se/a5a5c0a33us)
-* [Core Runtime Engineer - Substrate](https://grnh.se/dddd76283us)
-* [Multiple other Rust / Blockchain Engineering positions](https://www.parity.io/jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
