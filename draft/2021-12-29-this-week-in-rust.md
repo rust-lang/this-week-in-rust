@@ -13,7 +13,6 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
 ## Updates from Rust Community
-* [NAPI-RS 2.0 released](https://napi.rs/blog/announce-v2)
 
 ### Official
 
@@ -25,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This Year in Wgpu - 2021](https://gfx-rs.github.io/2021/12/25/this-year.html)
 * [SixtyFPS (GUI crate): 2021 in Review](https://sixtyfps.io/blog/2021-in-review.html)
 * [BonsaiDb December Update: Finishing up alpha 1](https://community.khonsulabs.com/t/bonsaidb-december-update-finishing-up-alpha-1/88)
+* [NAPI-RS 2.0 released](https://napi.rs/blog/announce-v2)
 * [This Year in Embedded Rust: 2021 Edition](https://blog.rust-embedded.org/this-year-in-embedded-rust-2021/)
 * [Rust Analyzer Changelog #108](https://rust-analyzer.github.io/thisweek/2021/12/27/changelog-109.html)
 * [End of year 2021: 20 months of Gitoxide](https://github.com/Byron/gitoxide/discussions/285)
@@ -35,6 +35,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 * [Thoughts on Context and Capabilities in Rust](https://jam1.re/blog/thoughts-on-contexts-and-capabilities-in-rust)
 * [My negative views on Rust](https://chrisdone.com/posts/rust/)
+* [Learning Rust – Why now?](https://garrellco.com/?p=1)
 * [audio] [What's New in Rust 1.56 and 1.57](https://rustacean-station.org/episode/050-rust-1.56-1.57/)
 * [audio] [Code Like a Pro in Rust with Brenden Matthews](https://rustacean-station.org/episode/051-brenden-matthews/)
 
@@ -48,6 +49,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Mocking HTTP Services in Rust](https://alexliesenfeld.com/mocking-http-services-in-rust)
 * [LLVM Infrastructure and Rust](https://www.bexxmodd.com/log/llvm-infrastrucutre-and-rust/7)
 * [Making Games in Rust - Part 6 - Generating a Map](https://dev.to/sbelzile/making-games-in-rust-part-6-generating-a-map-4aic)
+* [Procedural Macros: Parsing custom syntax](https://blog.turbo.fish/proc-macro-parsing/)
+* [A Data Pipeline for Go Trains Delay Analysis — ML in Action with Rust](https://towardsdatascience.com/a-data-pipeline-for-go-trains-delay-analysis-ml-in-action-with-rust-b294e80eede9)
 * [video] [Tetris in Rust from scratch](https://www.youtube.com/playlist?list=PLBNbqulT6FWw9C39_WIT_dcCIj1AdxiAy)
 * [video] [Rust Modules - Explained Like I'm 5](https://www.youtube.com/watch?v=969j0qnJGi8)
 * [video] [I'm learning Rust - Enums, patterns, and traits](https://www.youtube.com/watch?v=zHpDGeJU7no)
@@ -182,6 +185,15 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**The Daily Edit**
+
+* [Rust Developer (Remote)](https://github.com/dailyedit/jobs/blob/master/rust.md)
+
+**Spruce**
+
+* [Software Engineer, Backend (New York, NY, US or Remote)](https://spruce-systems.breezy.hr/p/9fb3b149dc01-software-engineer-backend)
+* [Engineering Manager (New York, NY, US or Remote)](https://spruce-systems.breezy.hr/p/495dc657fb6e-engineering-manager)
   
 **Parity Technologies**
 
