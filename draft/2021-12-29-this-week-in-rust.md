@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Nushell 0.42](https://www.nushell.sh/blog/2021-12-28-nushell_0_42.html)
 * [gfx-rs](https://gfx-rs.github.io/2021/12/25/this-year.html)
 * [BonsaiDb December Update: Finishing up alpha 1](https://community.khonsulabs.com/t/bonsaidb-december-update-finishing-up-alpha-1/88)
+* [This Year in Embedded Rust: 2021 Edition](https://blog.rust-embedded.org/this-year-in-embedded-rust-2021/)
 
 ### Research
 * [Deadlock-free asynchronous message reordering in Rust with multiparty session types](https://arxiv.org/abs/2112.12693)
