@@ -53,8 +53,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [FR] [video] [Parlons peu, parlons Rust!](https://www.youtube.com/watch?v=jnLbY7RIH54&list=PLuNjeTqaNojpuaqVboF1vmCRbn1an6sXg&index=5)
 * [ZH] [Rust性能评估与调优实践](https://zhuanlan.zhihu.com/p/451184900)
 
-### Miscellaneous
-
 ## Crate of the Week
 
 This week's crate is [zoxide](https://github.com/ajeetdsouza/zoxide), a smarter `cd` command.
