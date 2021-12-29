@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 * [Hello, youki! It is a low level container runtime written in Rust.](https://www.utam0k.jp/en/blog/2021/12/27/youki_first_release/)
 * [gfx-rs](https://gfx-rs.github.io/2021/12/25/this-year.html)
+* [BonsaiDb December Update: Finishing up alpha 1](https://community.khonsulabs.com/t/bonsaidb-december-update-finishing-up-alpha-1/88)
 
 ### Research
 * [Deadlock-free asynchronous message reordering in Rust with multiparty session types](https://arxiv.org/abs/2112.12693)
