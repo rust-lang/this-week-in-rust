@@ -32,6 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+[video] [I'm learning Rust - Enums, patterns, and traits](https://www.youtube.com/watch?v=zHpDGeJU7no)
 [FR] [video] [Parlons peu, parlons Rust!](https://www.youtube.com/watch?v=jnLbY7RIH54&list=PLuNjeTqaNojpuaqVboF1vmCRbn1an6sXg&index=5)
 
 ### Miscellaneous
