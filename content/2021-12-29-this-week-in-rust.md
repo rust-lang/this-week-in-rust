@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This Year in Embedded Rust: 2021 Edition](https://blog.rust-embedded.org/this-year-in-embedded-rust-2021/)
 * [Rust Analyzer Changelog #108](https://rust-analyzer.github.io/thisweek/2021/12/27/changelog-109.html)
 * [End of year 2021: 20 months of Gitoxide](https://github.com/Byron/gitoxide/discussions/285)
+* [This week in Databend #22: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2021-12-29-databend-weekly/)
 
 ### Research
 * [Deadlock-free asynchronous message reordering in Rust with multiparty session types](https://arxiv.org/abs/2112.12693)
