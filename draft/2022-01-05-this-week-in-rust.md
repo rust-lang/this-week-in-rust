@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+[Nine Rules for Writing Python Extensions in Rust & Rayon (free link)](https://towardsdatascience.com/nine-rules-for-writing-python-extensions-in-rust-d35ea3a4ec29?sk=f8d808d5f414154fdb811e4137011437)
+
 ### Miscellaneous
 
 ## Crate of the Week
