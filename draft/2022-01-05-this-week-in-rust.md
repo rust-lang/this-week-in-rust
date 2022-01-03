@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Debian’s approach to Rust - Dependency handling](https://diziet.dreamwidth.org/10559.html)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
