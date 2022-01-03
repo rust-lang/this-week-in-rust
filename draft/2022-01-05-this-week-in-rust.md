@@ -15,7 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Project/Tooling Updates
-* [This Week in Glean](https://fnordig.de/2021/12/17/glean-in-2021/)
+* [This Week in Glean: Glean in 2021](https://fnordig.de/2021/12/17/glean-in-2021/)
 
 ### Research
 
