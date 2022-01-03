@@ -21,6 +21,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [Why is my Rust build so slow?](https://fasterthanli.me/articles/why-is-my-rust-build-so-slow)
+* [Profiling linkers](https://fasterthanli.me/articles/profiling-linkers)
+* [Debian's approach to Rust - Dependency handling](https://diziet.dreamwidth.org/10559.html)
 
 ### Rust Walkthroughs
 * [Truly headless draw.io exports](https://fasterthanli.me/series/dont-shell-out/part-1)
