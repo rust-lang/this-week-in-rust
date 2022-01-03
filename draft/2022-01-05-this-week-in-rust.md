@@ -15,12 +15,22 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Project/Tooling Updates
+* [This Week in Glean](https://fnordig.de/2021/12/17/glean-in-2021/)
 
 ### Research
 
 ### Observations/Thoughts
+* [Why is my Rust build so slow?](https://fasterthanli.me/articles/why-is-my-rust-build-so-slow)
 
 ### Rust Walkthroughs
+* [Truly headless draw.io exports](https://fasterthanli.me/series/dont-shell-out/part-1)
+* [From Inkscape to poppler](https://fasterthanli.me/series/dont-shell-out/part-2)
+* [A static poppler build: the easy way](https://fasterthanli.me/series/dont-shell-out/part-3)
+* [Building poppler for Windows](https://fasterthanli.me/series/dont-shell-out/part-4)
+* [Porting poppler to meson](https://fasterthanli.me/series/dont-shell-out/part-5)
+* [Productionizing out poppler build](https://fasterthanli.me/series/dont-shell-out/part-6)
+* [The rest of the fucking owl](https://fasterthanli.me/series/dont-shell-out/part-7)
+* [One funny way to bundle assets](https://fasterthanli.me/series/dont-shell-out/part-8)
 
 ### Miscellaneous
 
