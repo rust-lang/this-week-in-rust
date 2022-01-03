@@ -16,6 +16,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [SixtyFPS (GUI crate): Changelog for 2nd of January 2022](https://sixtyfps.io/thisweek/2022-01-03.html)
+
 ### Research
 
 ### Observations/Thoughts
