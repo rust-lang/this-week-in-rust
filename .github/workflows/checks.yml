@@ -13,4 +13,4 @@ jobs:
           update-pip: "false"
           update-setuptools: "false"
           update-wheel: "false"
-      - run: python3 tools/inspect_links.py
+      - run: python3 tools/inspect_links.py --num-warn 5
