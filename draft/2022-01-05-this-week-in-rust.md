@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Research
 
 ### Observations/Thoughts
+* [Why Rust enums are so cool](https://hashrust.com/blog/why-rust-enums-are-so-cool/)
 
 ### Rust Walkthroughs
 
