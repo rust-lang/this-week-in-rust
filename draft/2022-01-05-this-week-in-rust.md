@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Project/Tooling Updates
+* [This week in Fluvio #18: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0018/)
 
 ### Research
 
