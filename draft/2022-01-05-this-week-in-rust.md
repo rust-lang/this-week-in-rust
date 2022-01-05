@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Beyond the Borrow Checker: Differential Fuzzing](https://tiemoko.com/blog/diff-fuzz/)
+
 ### Miscellaneous
 
 ## Crate of the Week
