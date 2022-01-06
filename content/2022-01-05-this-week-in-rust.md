@@ -29,6 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [SNAFU 0.7 Released](https://users.rust-lang.org/t/snafu-0-7-released/69766)
 * [hyper-ish 2021 in review](https://seanmonstar.com/post/672473147126300672/hyper-ish-2021-in-review)
 * [This Week in Glean: Glean in 2021](https://fnordig.de/2021/12/17/glean-in-2021/)
+* [This week in Databend #23: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-01-05-databend-weekly/)
 
 ### Observations/Thoughts
 * [Ranges and suffering](https://kaylynn.gay/blog/post/rust_ranges_and_suffering)
