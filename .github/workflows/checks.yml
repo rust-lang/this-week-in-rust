@@ -1,0 +1,16 @@
+name: Correctness Checks
+on: [push, pull_request]
+jobs:
+  Run-Link-Checker:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v3
+        with:
+          path: "tools/requirements.txt"
+          update-pip: "false"
+          update-setuptools: "false"
+          update-wheel: "false"
+      - run: python3 tools/inspect_links.py --num-warn 5
