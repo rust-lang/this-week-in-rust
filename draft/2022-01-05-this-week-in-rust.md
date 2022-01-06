@@ -27,8 +27,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [hyper-ish 2021 in review](https://seanmonstar.com/post/672473147126300672/hyper-ish-2021-in-review)
 * [This Week in Glean: Glean in 2021](https://fnordig.de/2021/12/17/glean-in-2021/)
 
-### Research
-
 ### Observations/Thoughts
 * [Ranges and suffering](https://kaylynn.gay/blog/post/rust_ranges_and_suffering)
 * [Why is my Rust build so slow?](https://fasterthanli.me/articles/why-is-my-rust-build-so-slow)
