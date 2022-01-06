@@ -17,11 +17,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 * [This Week in Glean: Glean in 2021](https://fnordig.de/2021/12/17/glean-in-2021/)
 
+* [What's new in SeaORM 0.5.0](https://www.sea-ql.org/SeaORM/blog/2022-01-01-whats-new-in-0.5.0/)
+
 ### Research
 
 ### Observations/Thoughts
 * [Profiling linkers](https://fasterthanli.me/articles/profiling-linkers)
 * [Debian's approach to Rust - Dependency handling](https://diziet.dreamwidth.org/10559.html)
+* [Why is my Rust build so slow?](https://fasterthanli.me/articles/why-is-my-rust-build-so-slow)
+* [Nine Rules for Writing Python Extensions in Rust & Rayon](https://towardsdatascience.com/nine-rules-for-writing-python-extensions-in-rust-d35ea3a4ec29?sk=f8d808d5f414154fdb811e4137011437)
 
 ### Rust Walkthroughs
 * [series] [Don't shell out!](https://fasterthanli.me/series/dont-shell-out)
