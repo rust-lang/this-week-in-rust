@@ -19,6 +19,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [What's new in SeaORM 0.5.0](https://www.sea-ql.org/SeaORM/blog/2022-01-01-whats-new-in-0.5.0/)
 
+* [SixtyFPS (GUI crate): Changelog for 2nd of January 2022](https://sixtyfps.io/thisweek/2022-01-03.html)
+
 ### Research
 
 ### Observations/Thoughts
