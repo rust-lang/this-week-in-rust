@@ -14,6 +14,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
+### Newsletters
+* [Rust Nigeria #1](https://rustnigeria.curated.co/issues/1#start)
+
 ### Project/Tooling Updates
 * [rust-analyzer in 2021](https://rust-analyzer.github.io/blog/2021/12/30/2021-recap.html)
 * [rust-analyzer changelog #110](https://rust-analyzer.github.io//thisweek/2022/01/03/changelog-110.html)
@@ -54,6 +57,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Nine Rules for Writing Python Extensions in Rust & Rayon](https://towardsdatascience.com/nine-rules-for-writing-python-extensions-in-rust-d35ea3a4ec29?sk=f8d808d5f414154fdb811e4137011437)
 * [Why Rust enums are so cool](https://hashrust.com/blog/why-rust-enums-are-so-cool/)
 * [DE] [Auf Nummer sicher: Sicheres Programmieren mit Rust](https://www.heise.de/hintergrund/Auf-Nummer-sicher-Sicheres-Programmieren-mit-Rust-6302125.html)
+* [series] [video] [Let's build a voice journal in Rust | Ep. 1: audio I/O, SQlite, CLI args](https://www.youtube.com/watch?v=ZweInbMBsa4)
+* [series] [video] [Rust Embedded for STM32 Microcontrollers - Intro](https://www.youtube.com/watch?v=o_alVYMBBco)
 
 ### Miscellaneous
 * [Fluvio SmartModules with user-defined parameters](https://www.infinyon.com/blog/2021/12/smartmodule-params/)
@@ -195,6 +200,24 @@ Email the [Rust Community Team][community] for access.
 **Dreamsolution**
 
 * [Rust Developer (Delft, NL)](https://www.dreamsolution.nl/2021-12-30-vacature-rust-developer.html)
+
+**Dusk**
+
+* [Rust Developer (Remote)](https://dusk.network/pages/rust-developer-vacancy)
+
+**Ockam**
+
+* [Multiple Rust Development Positions Available (Remote)](https://jobs.lever.co/ockam)
+
+**Estuary**
+
+* [Multiple Rust Development Positions Available (Remote, New York, NY, US, or Columbus, OH, US](https://www.estuary.dev/about/#careers)
+
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
