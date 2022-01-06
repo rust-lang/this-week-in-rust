@@ -52,7 +52,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [An Introduction To Session-based Authentication In Rust](https://www.lpalmieri.com/posts/session-based-authentication-in-rust/)
 * [Profiling linkers](https://fasterthanli.me/articles/profiling-linkers)
 * [Debian's approach to Rust - Dependency handling](https://diziet.dreamwidth.org/10559.html)
-* [Why is my Rust build so slow?](https://fasterthanli.me/articles/why-is-my-rust-build-so-slow)
 * [Nine Rules for Writing Python Extensions in Rust & Rayon](https://towardsdatascience.com/nine-rules-for-writing-python-extensions-in-rust-d35ea3a4ec29?sk=f8d808d5f414154fdb811e4137011437)
 * [Why Rust enums are so cool](https://hashrust.com/blog/why-rust-enums-are-so-cool/)
 * [DE] [Auf Nummer sicher: Sicheres Programmieren mit Rust](https://www.heise.de/hintergrund/Auf-Nummer-sicher-Sicheres-Programmieren-mit-Rust-6302125.html)
