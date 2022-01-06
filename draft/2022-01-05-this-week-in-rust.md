@@ -15,21 +15,31 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Project/Tooling Updates
+* [This Week in Glean: Glean in 2021](https://fnordig.de/2021/12/17/glean-in-2021/)
+
+* [What's new in SeaORM 0.5.0](https://www.sea-ql.org/SeaORM/blog/2022-01-01-whats-new-in-0.5.0/)
+
+* [SixtyFPS (GUI crate): Changelog for 2nd of January 2022](https://sixtyfps.io/thisweek/2022-01-03.html)
 
 ### Research
 
 ### Observations/Thoughts
+* [Profiling linkers](https://fasterthanli.me/articles/profiling-linkers)
+* [Debian's approach to Rust - Dependency handling](https://diziet.dreamwidth.org/10559.html)
+* [Why is my Rust build so slow?](https://fasterthanli.me/articles/why-is-my-rust-build-so-slow)
+* [Nine Rules for Writing Python Extensions in Rust & Rayon](https://towardsdatascience.com/nine-rules-for-writing-python-extensions-in-rust-d35ea3a4ec29?sk=f8d808d5f414154fdb811e4137011437)
 * [Why Rust enums are so cool](https://hashrust.com/blog/why-rust-enums-are-so-cool/)
 
 ### Rust Walkthroughs
+* [series] [Don't shell out!](https://fasterthanli.me/series/dont-shell-out)
 
 ### Miscellaneous
 
 ## Crate of the Week
 
-This week's crate is [zoxide](https://github.com/ajeetdsouza/zoxide), a smarter `cd` command.
+This week's crate is [fltk-rs](https://crates.io/crates/fltk), a crate with bindings to the [FLTK](https://github.com/fltk/fltk) GUI toolkit.
 
-Thanks to [Ajeet D'Souza](https://users.rust-lang.org/t/crate-of-the-week/2704/993) for the self-suggestion!
+Thanks to [Mark Summerfield](https://users.rust-lang.org/t/crate-of-the-week/2704/999) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -48,31 +58,32 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-188 pull requests were [merged in the last week][merged]
+230 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-12-20..2021-12-27
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-12-27..2022-01-03
 
-* [miri: provide slightly better notes when tracking a pointer tag](https://github.com/rust-lang/miri/pull/1945)
-* [backport LLVM changes to disable deferred inlining](https://github.com/rust-lang/rust/pull/92110)
-* [fix duplicate derive clone suggestion](https://github.com/rust-lang/rust/pull/91544)
-* [perf: change `Backtrace::enabled` atomic from `SeqCst` to `Relaxed`](https://github.com/rust-lang/rust/pull/92139)
-* [perf: eliminate `ObligationCauseData`](https://github.com/rust-lang/rust/pull/91844)
-* [fix bad caching of `~const Drop` bounds](https://github.com/rust-lang/rust/pull/92149)
-* [constify `core::intrinsics::black_box` and `core::hint::black_box`](https://github.com/rust-lang/rust/pull/92226)
-* [make `PTR::as_ref` and similar methods `const`](https://github.com/rust-lang/rust/pull/91823)
-* [RawVec: don't recompute capacity after allocating](https://github.com/rust-lang/rust/pull/92220)
-* [allow reverse iteration of lowercase'd/uppercase'd chars](https://github.com/rust-lang/rust/pull/88858)
-* [stabilise `entry_insert`](https://github.com/rust-lang/rust/pull/90345)
-* [suggest adding `#[cfg(test)]` to a test module](https://github.com/rust-lang/rust/pull/91770)
-* [cargo: make levenshtein distance case insensitive.](https://github.com/rust-lang/cargo/pull/10224)
-* [clippy: add suggestion for `neg_multiply` lint](https://github.com/rust-lang/rust-clippy/pull/8144)
-* [clippy: fix `iter_skip_next` false positives](https://github.com/rust-lang/rust-clippy/pull/8133)
-* [clippy: improve `unwrap_or_else_default` when handling `unwrap_or_else(XXX::new)`](https://github.com/rust-lang/rust-clippy/pull/8163)
-* [clippy: fix `shadow_reuse` false negative for if let bindings](https://github.com/rust-lang/rust-clippy/pull/8165)
-* [clippy: fix an ICE on unwrapping a None](https://github.com/rust-lang/rust-clippy/pull/8167)
-* [clippy: new lint: `init-numbered-fields`](https://github.com/rust-lang/rust-clippy/pull/8170)
-* [rustfmt: fix static async closure qualifier order](https://github.com/rust-lang/rustfmt/pull/5150)
-* [rustfmt: retain qualified path when rewriting struct literal expressions](https://github.com/rust-lang/rustfmt/pull/5152)
+* [allow loading LLVM plugins with both legacy and new pass manager](https://github.com/rust-lang/rust/pull/91125)
+* [suggest `while let x = y` when encountering `while x = y`](https://github.com/rust-lang/rust/pull/92402)
+* [refactor variance diagnostics to work with more types](https://github.com/rust-lang/rust/pull/89336)
+* [extend check for `UnsafeCell` in consts to cover unions](https://github.com/rust-lang/rust/pull/90383)
+* [parse and suggest moving where clauses after equals for type aliases](https://github.com/rust-lang/rust/pull/92118)
+* [relax `priv-in-pub` lint on generic bounds and where clauses of trait impls](https://github.com/rust-lang/rust/pull/90586)
+* [perf: store liveness in interval sets for region inference](https://github.com/rust-lang/rust/pull/90637)
+* [add `try_reserve` and `try_reserve_exact` for `OsString`](https://github.com/rust-lang/rust/pull/92338)
+* [support `\[x; n\]` expressions in `concat_bytes!`](https://github.com/rust-lang/rust/pull/92066)
+* [std-simd: impl `std::simd::StdFloat`](https://github.com/rust-lang/portable-simd/pull/219)
+* [rustdoc: use `ThinVec` for `GenericArgs` bindings](https://github.com/rust-lang/rust/pull/92395)
+* [clippy: extend `unused_io_amount` to cover async io](https://github.com/rust-lang/rust-clippy/pull/8179)
+* [clippy: fix `enum_variants` false positive on prefixes that are not camel-case](https://github.com/rust-lang/rust-clippy/pull/8127)
+* [clippy: fixed issues with `to_radians` and `to_degrees` lints](https://github.com/rust-lang/rust-clippy/pull/8187)
+* [clippy: limit the `identity_op` lint to integral operands](https://github.com/rust-lang/rust-clippy/pull/8183)
+* [clippy: `erasing_op` lint ignored when operation `Output` type is different from the type of constant `0`](https://github.com/rust-lang/rust-clippy/pull/8204)
+* [clippy: perf: cache test item names](https://github.com/rust-lang/rust-clippy/pull/8182)
+* [clippy: fix `redundant_closure` fp with `Rc<F>`/`Arc<F>`](https://github.com/rust-lang/rust-clippy/pull/8193)
+* [clippy: `wrong_self_convention`: match `SelfKind::No` more restrictively](https://github.com/rust-lang/rust-clippy/pull/8208)
+* [rustfmt: do not flatten match arm block with leading attributes](https://github.com/rust-lang/rustfmt/pull/5158)
+* [rustfmt: improve out of line module resolution](https://github.com/rust-lang/rustfmt/pull/5142)
+* [rustfmt: support parsing of asm! args](https://github.com/rust-lang/rustfmt/pull/5156)
 
 ### Rust Compiler Performance Triage
 
@@ -118,7 +129,7 @@ decision. Express your opinions now.
 
 ## Upcoming Events
 
-Rusty Events between 12/29/2021 - 1/31/2022 🦀
+Rusty Events between 1/5/2022 - 2/2/2022 🦀
 
 ### Online
 
@@ -127,14 +138,21 @@ Rusty Events between 12/29/2021 - 1/31/2022 🦀
 * [January 6, 2022 | Nürnberg, DE | **Rust Nürnberg online #8**| Rust Nuremberg](https://www.meetup.com/rust-noris/events/282344613/)
 * [January 8, 2022 | Various cities | **Rust GameDev Monthly Meetup** | Rust GameDev](https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com)
 * [January 11, 2022 | Dallas, TX, US | **Second Tuesday Meetup**| Dallas Rust](https://www.meetup.com/Dallas-Rust/events/vqtjcsydccbpb/)
+* [January 11, 2022 | Los Gatos, CA, US | **Book #24 - Rust for Rustaceans - Chapter 2** | Los Gatos Reading Group](https://www.meetup.com/Los-Gatos-Rust-Reading-Group/events/282813296)
 * [January 11, 2022 | Seattle, WA, US | **Monthly meetup** | Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrydccbpb/)
 * [January 12, 2022 | Boulder, CO, US | **Monthly Meetup** | Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydccbqb/)
+* [January 12, 2022 | Frankfurt, DE | **Rust for bare-metal embedded systems** | Developing Embedded Systems in Rhein-Main](https://www.meetup.com/Developing-Embedded-Systems-in-Rhein-Main/events/282321009)
 * [January 12, 2022 | Los Angeles, CA, US | **Live Coding Session - Mob Programming a Rust Code Kata [Virtual] Jan. 2022** | Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/282580016/)
 * [January 12, 2022 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/gjrtqsydccbqb/)
+* [January 13, 2022 | Charlottesville, VA, US | **Higher kinded polymorphism** | Charlottesville Rust Meetup](https://www.meetup.com/Charlottesville-Rust-Meetup/events/282990814)
+* [January 13, 2022 | Minneapolis, MN, US | **Safe Systems Programming in Rust: The Promise and the Challenge** | Software Engineering Reading Group](https://www.meetup.com/meetup-group-bxuhnetv/events/282770888)
+* [January 13, 2022 | San Diego, CA, US | **San Diego Rust Rust January 2022 Tele-Meetup** | San Diego Rust](https://www.meetup.com/San-Diego-Rust/events/283032744)
 * [January 13, 2022 | Warsaw, PL | **Rust Warsaw #4** | Rust Warsaw](https://www.meetup.com/pl-PL/Rust-Warsaw/events/282879405/)
 * [January 18, 2022 | Washington, DC, US| **Mid-month Rustful** | Rust DC](https://www.meetup.com/RustDC/events/vdhxgsydccbxb/)
-* [January 19, 2022 | Vancouver, BC, CA | **Rust Study/Hack/Hang-out night** |Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/nwcmpsydccbzb)
+* [January 19, 2022 | Vancouver, BC, CA | **Rust Study/Hack/Hang-out night** | Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/nwcmpsydccbzb)
 * [January 25, 2022 | Dallas, TX, US | **Last Tuesday Meetup** | Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrydccbhc/)
+* [January 27, 2022 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/282545254)
+* [February 1, 2022 | Buffalo, NY, US | **First Tuesdays: Buffalo Rust User Group** | Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/283011769)
 
 ### North America
 
@@ -156,22 +174,19 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> One reason we keep certain things as hard errors rather than lints: it establishes a baseline
-> that you can safely assume about other people's code, since it can't be turned off. And as a
-> result, that baseline can become part of people's mental model of Rust itself, rather than
-> something that might or might not be true in any given codebase.
+> I performed an extremely scientific poll on twitter, and determined this is not how it's pronounced
 >
-> We have to take care to not use that lightly, because that places work on all users of Rust to
-> maintain code to that baseline. But there are cases where we do. We don't allow using one integer
-> type where another was expected. We don't allow certain operations outside an unsafe block. ...
+> ----
 >
-> I think the standard we should apply is asking whether something is part of the baseline that
-> people should be able to assume about all Rust code, and if that's worth the tradeoff of requiring
-> that baseline of all Rust users.
+> Well, it really is Vec<T, A>, pronounced Veck-tah. 😛
+>
+> ----
+>
+> Look, I moved away from Boston to avoid this sort of thing 😄.
 
-– [Josh Triplett on rust-internals](https://internals.rust-lang.org/t/lack-of-mut-in-bindings-as-a-deny-by-default-lint/15818/8)
+– [the8472 & Thom Chiovoloni on github](https://github.com/rust-lang/rust/pull/92463#discussion_r777059401)
 
-Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1153) for the self-suggestion!
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1159) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
