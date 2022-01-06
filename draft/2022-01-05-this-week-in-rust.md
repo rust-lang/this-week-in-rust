@@ -28,6 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Debian's approach to Rust - Dependency handling](https://diziet.dreamwidth.org/10559.html)
 * [Why is my Rust build so slow?](https://fasterthanli.me/articles/why-is-my-rust-build-so-slow)
 * [Nine Rules for Writing Python Extensions in Rust & Rayon](https://towardsdatascience.com/nine-rules-for-writing-python-extensions-in-rust-d35ea3a4ec29?sk=f8d808d5f414154fdb811e4137011437)
+* [Why Rust enums are so cool](https://hashrust.com/blog/why-rust-enums-are-so-cool/)
 
 ### Rust Walkthroughs
 * [series] [Don't shell out!](https://fasterthanli.me/series/dont-shell-out)
