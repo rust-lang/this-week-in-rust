@@ -15,27 +15,52 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Project/Tooling Updates
+* [rust-analyzer in 2021](https://rust-analyzer.github.io/blog/2021/12/30/2021-recap.html)
+* [rust-analyzer changelog #110](https://rust-analyzer.github.io//thisweek/2022/01/03/changelog-110.html)
+* [The year 2021 in Dimforge and our objectives for 2022](https://dimforge.com/blog/2022/01/02/the-year-2021-in-dimforge/)
+* [What's new in SeaORM 0.5.0](https://www.sea-ql.org/SeaORM/blog/2022-01-01-whats-new-in-0.5.0)
+* [Ezio](https://www.ncameron.org/blog/ezio/)
+* [SixtyFPS (GUI crate): Changelog for 3rd of January 2022](https://sixtyfps.io/thisweek/2022-01-03.html)
+* [Introducing Dioxus v0.1](https://dioxuslabs.com/blog/introducing-dioxus/)
+* [SNAFU 0.7 Released](https://users.rust-lang.org/t/snafu-0-7-released/69766)
+* [hyper-ish 2021 in review](https://seanmonstar.com/post/672473147126300672/hyper-ish-2021-in-review)
 * [This Week in Glean: Glean in 2021](https://fnordig.de/2021/12/17/glean-in-2021/)
-
-* [What's new in SeaORM 0.5.0](https://www.sea-ql.org/SeaORM/blog/2022-01-01-whats-new-in-0.5.0/)
-
-* [SixtyFPS (GUI crate): Changelog for 2nd of January 2022](https://sixtyfps.io/thisweek/2022-01-03.html)
 
 ### Research
 
 ### Observations/Thoughts
-* [Profiling linkers](https://fasterthanli.me/articles/profiling-linkers)
-* [Debian's approach to Rust - Dependency handling](https://diziet.dreamwidth.org/10559.html)
+* [Ranges and suffering](https://kaylynn.gay/blog/post/rust_ranges_and_suffering)
 * [Why is my Rust build so slow?](https://fasterthanli.me/articles/why-is-my-rust-build-so-slow)
-* [Nine Rules for Writing Python Extensions in Rust & Rayon](https://towardsdatascience.com/nine-rules-for-writing-python-extensions-in-rust-d35ea3a4ec29?sk=f8d808d5f414154fdb811e4137011437)
-* [Why Rust enums are so cool](https://hashrust.com/blog/why-rust-enums-are-so-cool/)
-
-### Rust Walkthroughs
-* [series] [Don't shell out!](https://fasterthanli.me/series/dont-shell-out)
-
+* [Implementing Spinlock for RISC-V OS in Rust](https://vmm.dev/en/rust/spinlock.md)
+* [Writing bindings upside down](https://ilyabylich.svbtle.com/writing-bindings-upside-down)
+* [Rust 2021 – Looking Back and Forth](https://llogiq.github.io/2021/12/30/review.html)
+* [How a Single Line of Code Made a 24-core Server Slower Than a Laptop](https://pkolaczk.github.io/server-slower-than-a-laptop/)
+* [In Defense of Async: Function Colors Are Rusty](https://www.thecodedmessage.com/posts/async-colors/)
+* [Rust and Valgrind](https://nnethercote.github.io/2022/01/05/rust-and-valgrind.html)
+* [Porting Rust's std to rustix](https://blog.sunfishcode.online/port-std-to-rustix/)
+* [Improved portability and performance 🦀](https://pngquant.org/rust.html)
+* [Thoughts on return, break and continue](https://blog.oberien.de/2022/01/04/thoughts-on-return-break-continue.html)
+* [Parsing Decimals 4 times faster](https://cantortrading.fi/rust_decimal_str/)
 * [Beyond the Borrow Checker: Differential Fuzzing](https://tiemoko.com/blog/diff-fuzz/)
 
+### Rust Walkthroughs
+* [Don't shell out!](https://fasterthanli.me/series/dont-shell-out)
+* [12 Rust Tips and Tricks you might not know yet](https://federicoterzi.com/blog/12-rust-tips-and-tricks-you-might-not-know-yet/)
+* [Indexing Strings in Rust and TypeScript: A Case Study of String](https://dawchihliou.github.io/articles/indexing-strings-in-rust-and-typescript)
+* [Safe && Portable Data Structure Design](https://tiemoko.com/slides/SafeAndPortableDataStructureDesign_CodeAndSupply_Dec2021.pdf)
+* [The joy of building a ray tracer, for fun, in Rust](https://blog.singleton.io/posts/2022-01-02-raytracing-with-rust/)
+* [An Introduction To Session-based Authentication In Rust](https://www.lpalmieri.com/posts/session-based-authentication-in-rust/)
+* [Profiling linkers](https://fasterthanli.me/articles/profiling-linkers)
+* [Debian's approach to Rust - Dependency handling](https://diziet.dreamwidth.org/10559.html)
+* [Nine Rules for Writing Python Extensions in Rust & Rayon](https://towardsdatascience.com/nine-rules-for-writing-python-extensions-in-rust-d35ea3a4ec29?sk=f8d808d5f414154fdb811e4137011437)
+* [Why Rust enums are so cool](https://hashrust.com/blog/why-rust-enums-are-so-cool/)
+* [DE] [Auf Nummer sicher: Sicheres Programmieren mit Rust](https://www.heise.de/hintergrund/Auf-Nummer-sicher-Sicheres-Programmieren-mit-Rust-6302125.html)
+
 ### Miscellaneous
+* [Fluvio SmartModules with user-defined parameters](https://www.infinyon.com/blog/2021/12/smartmodule-params/)
+* [Audio] [LibertyOS with Daniel Teberian](https://rustacean-station.org/episode/052-daniel-teberian/)
+* [Video] [Web api benchmarking: Rust (Axum) vs Rust (Warp)](https://www.youtube.com/watch?v=VVKDGnWc2DA)
+* [Video] [Adding while statements to Rena](https://www.youtube.com/watch?v=3TuPG_9WIZw)
 
 ## Crate of the Week
 
