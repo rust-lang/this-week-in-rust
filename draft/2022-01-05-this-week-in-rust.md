@@ -20,19 +20,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Research
 
 ### Observations/Thoughts
-* [Why is my Rust build so slow?](https://fasterthanli.me/articles/why-is-my-rust-build-so-slow)
 * [Profiling linkers](https://fasterthanli.me/articles/profiling-linkers)
 * [Debian's approach to Rust - Dependency handling](https://diziet.dreamwidth.org/10559.html)
 
 ### Rust Walkthroughs
-* [Truly headless draw.io exports](https://fasterthanli.me/series/dont-shell-out/part-1)
-* [From Inkscape to poppler](https://fasterthanli.me/series/dont-shell-out/part-2)
-* [A static poppler build: the easy way](https://fasterthanli.me/series/dont-shell-out/part-3)
-* [Building poppler for Windows](https://fasterthanli.me/series/dont-shell-out/part-4)
-* [Porting poppler to meson](https://fasterthanli.me/series/dont-shell-out/part-5)
-* [Productionizing out poppler build](https://fasterthanli.me/series/dont-shell-out/part-6)
-* [The rest of the fucking owl](https://fasterthanli.me/series/dont-shell-out/part-7)
-* [One funny way to bundle assets](https://fasterthanli.me/series/dont-shell-out/part-8)
+* [series] [Don't shell out!](https://fasterthanli.me/series/dont-shell-out)
 
 ### Miscellaneous
 
