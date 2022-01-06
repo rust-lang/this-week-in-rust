@@ -227,7 +227,7 @@ Email the [Rust Community Team][community] for access.
 >
 > ----
 >
-> Well, it really is Vec<T, A>, pronounced Veck-tah. 😛
+> Well, it really is `Vec<T, A>`, pronounced Veck-tah. 😛
 >
 > ----
 >
