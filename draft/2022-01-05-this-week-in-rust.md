@@ -103,7 +103,7 @@ Revision range: [3d57c61a..e91ad5fc62](https://perf.rust-lang.org/?start=3d57c61
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Amend RFC 2996 to replace `Stream` with  `AsyncIterator`](https://github.com/rust-lang/rfcs/pull/3208)
+* [Amend RFC 3107 to change feature name, fix grammatical error](https://github.com/rust-lang/rfcs/pull/3212)
 
 ### Final Comment Period
 
@@ -117,11 +117,8 @@ decision. Express your opinions now.
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Clarify the guarantees that ThreadId does and doesn't make.](https://github.com/rust-lang/rust/pull/84083)
-* [disposition: merge] [Remove effect of `#[no_link]` attribute on name resolution](https://github.com/rust-lang/rust/pull/92034)
-* [disposition: merge] [Tracking Issue for Stdin::lines, Stdin::split forwarder methods](https://github.com/rust-lang/rust/issues/87096)
-* [disposition: merge] [Tracking issue for Result::cloned, Result::cloned_err, Result::copied, Result::copied_err](https://github.com/rust-lang/rust/issues/63168)
-* [disposition: merge] [Remove unnecessary bounds for some Hash{Map,Set} methods](https://github.com/rust-lang/rust/pull/91593)
+* [disposition: merge] [Tracking issue for Box::into_pin (feature box_into_pin)](https://github.com/rust-lang/rust/issues/62370)
+* [disposition: merge] [make Instant::{duration_since, elapsed, sub} saturating and remove workarounds](https://github.com/rust-lang/rust/pull/89926)
 
 ### [New RFCs](https://github.com/rust-lang/rfcs/pulls)
 
