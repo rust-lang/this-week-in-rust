@@ -18,6 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [rust-analyzer in 2021](https://rust-analyzer.github.io/blog/2021/12/30/2021-recap.html)
 * [rust-analyzer changelog #110](https://rust-analyzer.github.io//thisweek/2022/01/03/changelog-110.html)
 * [The year 2021 in Dimforge and our objectives for 2022](https://dimforge.com/blog/2022/01/02/the-year-2021-in-dimforge/)
+* [This week in Fluvio #18: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0018/)
 * [What's new in SeaORM 0.5.0](https://www.sea-ql.org/SeaORM/blog/2022-01-01-whats-new-in-0.5.0)
 * [Ezio](https://www.ncameron.org/blog/ezio/)
 * [SixtyFPS (GUI crate): Changelog for 3rd of January 2022](https://sixtyfps.io/thisweek/2022-01-03.html)
