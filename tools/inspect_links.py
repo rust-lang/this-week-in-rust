@@ -246,8 +246,8 @@ def main():
 
 
 def setup_logging():
-    log_stderr = logging.StreamHandler()
-    logging.getLogger('').addHandler(log_stderr)
+    log_stdout = logging.StreamHandler(sys.stdout)
+    logging.getLogger('').addHandler(log_stdout)
 
 
 if __name__ == "__main__":
