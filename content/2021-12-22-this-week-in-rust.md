@@ -92,7 +92,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [perf: manually implement `Hash` for `DefId`](https://github.com/rust-lang/rust/pull/91660)
 * [enable `#[thread_local]` for all windows-msvc targets](https://github.com/rust-lang/rust/pull/92042)
 * [add entry_ref API to HashMap](https://github.com/rust-lang/hashbrown/pull/301)
-* [add `[T]::as_simd(_mut)`](https://github.com/rust-lang/rust/pull/91479)
+* <a href="https://github.com/rust-lang/rust/pull/91479">add `[T]::as_simd(_mut)`</a>
 * [add `BinaryHeap::try_reserve` and `BinaryHeap::try_reserve_exact`](https://github.com/rust-lang/rust/pull/91529)
 * [add `io::Error::other`](https://github.com/rust-lang/rust/pull/91947)
 * [avoid sorting in hash map stable hashing](https://github.com/rust-lang/rust/pull/91837)
