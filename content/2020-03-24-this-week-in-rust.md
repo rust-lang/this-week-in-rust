@@ -111,7 +111,7 @@ decision. Express your opinions now.
 
 * [disposition: merge] [Tracking issue for `{f32,f64}::approx_unchecked_to` methods](https://github.com/rust-lang/rust/issues/67058).
 * [disposition: merge] [Allow obtaining &mut OsStr](https://github.com/rust-lang/rust/pull/70048).
-* [disposition: merge] [impl From<[T; N]> for Vec<T>](https://github.com/rust-lang/rust/pull/68692).
+* [disposition: merge] [`impl From<[T; N]> for Vec<T>`](https://github.com/rust-lang/rust/pull/68692).
 * [disposition: merge] [Implement Hash for Infallible](https://github.com/rust-lang/rust/pull/70281).
 
 ## New RFCs
