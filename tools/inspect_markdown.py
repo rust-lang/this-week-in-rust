@@ -46,12 +46,16 @@ def render_file(filename):
 
 def check_tags(html, file):
     """ Render markdown to html. """
+    prev_tag = None
     for tag in bs4.BeautifulSoup(html, 'html.parser').find_all():
         if tag.name not in VALID_TAGS:
             tag_str = str(tag)[:50]
             warnings.warn(
                 f'{file}: unrecognized tag {tag.name} in "{tag_str}"')
-
+        if tag.name == 'li':
+            if tag.get_text() == '':
+                warnings.warn(f'{file}: empty <{tag.name}> tag after {prev_tag}')
+        prev_tag = tag
 
 def main():
     parser = argparse.ArgumentParser()
