@@ -98,7 +98,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [add coverage to `continue` statements](https://github.com/rust-lang/rust/pull/84295)
 * [further split up `const_fn` feature flag](https://github.com/rust-lang/rust/pull/84310)
 * [various const parameter defaults improvements](https://github.com/rust-lang/rust/pull/84299)
-* [tweak trait not `use d suggestion](https://github.com/rust-lang/rust/pull/84499)
+* [tweak trait not `use`d suggestion](https://github.com/rust-lang/rust/pull/84499)
 * [on stable, suggest removing `#![feature]` for features that have been stabilized](https://github.com/rust-lang/rust/pull/83722)
 * [improve diagnostics for function passed when a type was expected](https://github.com/rust-lang/rust/pull/84520)
 * [add suggestion to "use break" when attempting to implicit-break a loop](https://github.com/rust-lang/rust/pull/84516)

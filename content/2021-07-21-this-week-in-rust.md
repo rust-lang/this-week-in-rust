@@ -144,7 +144,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [some perf optimizations and logging](https://github.com/rust-lang/rust/pull/87203)
 * [update Rust Float-Parsing to use the Eisel-Lemire algorithm](https://github.com/rust-lang/rust/pull/86761)
 * [stabilize `[T; N]::map(_)`](https://github.com/rust-lang/rust/pull/87174)
-* [split `MaybeUninit::write' into new feature gate and stabilize it](https://github.com/rust-lang/rust/pull/86344)
+* [split `MaybeUninit::write` into new feature gate and stabilize it](https://github.com/rust-lang/rust/pull/86344)
 * [mark Option::insert as `must_use`](https://github.com/rust-lang/rust/pull/87196)
 * [added `Arc::try_pin`](https://github.com/rust-lang/rust/pull/85579)
 * [hashbrown: replace some custom unsafe code with `array::map`](https://github.com/rust-lang/hashbrown/pull/281)

@@ -112,7 +112,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [account for capture kind in auto traits migration](https://github.com/rust-lang/rust/pull/86869)
 * [stop generating `alloca`s & `memcmp` for simple short array equality](https://github.com/rust-lang/rust/pull/85828)
 * [inline `Iterator as IntoIterator`](https://github.com/rust-lang/rust/pull/84560)
-* [optimize unchecked indexing into `chunks` and 'chunks_mut`](https://github.com/rust-lang/rust/pull/86823)
+* [optimize unchecked indexing into `chunks` and `chunks_mut`](https://github.com/rust-lang/rust/pull/86823)
 * [add `Integer::log` variants](https://github.com/rust-lang/rust/pull/80918)
 * [special case for integer log10](https://github.com/rust-lang/rust/pull/86930)
 * [cargo: unify cargo and rustc's error reporting](https://github.com/rust-lang/cargo/pull/9655)
