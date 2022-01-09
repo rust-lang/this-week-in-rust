@@ -63,7 +63,7 @@ def main():
     args = parser.parse_args()
 
     if args.file:
-        check_tags(render_file(args.file))
+        check_tags(render_file(args.file), args.file)
     else:
         file_list = get_recent_files(args.paths, args.num_recent)
         for file in file_list:
