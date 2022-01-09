@@ -123,7 +123,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [clippy: move `if_then_panic` to pedantic and rename to `manual_assert`](https://github.com/rust-lang/rust-clippy/pull/7810)
 * [clippy: fix false positive in `match_overlapping_arm`](https://github.com/rust-lang/rust-clippy/pull/7847)
 * [clippy: fix `question_mark` false positive on custom error type](https://github.com/rust-lang/rust-clippy/pull/7860)
-* [clippy: add `unit-hash  lint](https://github.com/rust-lang/rust-clippy/pull/7875)
+* [clippy: add `unit-hash` lint](https://github.com/rust-lang/rust-clippy/pull/7875)
 * [clippy: new lint: `string-slice`](https://github.com/rust-lang/rust-clippy/pull/7878)
 * [clippy: ignore references to type aliases in `ptr_arg`](https://github.com/rust-lang/rust-clippy/pull/7890)
 * [clippy: fix ICE in `undocumented_unsafe_blocks`](https://github.com/rust-lang/rust-clippy/pull/7891)

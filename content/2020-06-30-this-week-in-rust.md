@@ -112,7 +112,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [shortcuts for min/max on ordinary BTreeMap/BTreeSet iterators](https://github.com/rust-lang/rust/pull/73627)
 * [add `TryFrom<{int}>` for `NonZero{int}`](https://github.com/rust-lang/rust/pull/72717)
 * [add a fast path for `std::thread::panicking`.](https://github.com/rust-lang/rust/pull/72617)
-* [add `[T]::partition_point`](https://github.com/rust-lang/rust/pull/73577)
+* [add `[T]::partition_point`](https://github.com/rust-lang/rust/pull/73577) &nbsp;
 * [add unstable `core::mem::variant_count` intrinsic](https://github.com/rust-lang/rust/pull/73418)
 * [added io forwarding methods to the stdio structs](https://github.com/rust-lang/rust/pull/72705)
 * [stabilize `leading_trailing_ones`](https://github.com/rust-lang/rust/pull/73032)

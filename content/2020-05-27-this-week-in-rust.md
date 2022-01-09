@@ -65,7 +65,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [ruma: Replace impl_enum! with strum derives](https://github.com/ruma/ruma-events/issues/90)
 * [time-rs: Revamped parsing/formatting](https://github.com/time-rs/time/issues/236)
 * [http-types: Request::query should match Tide's behavior](https://github.com/http-rs/http-types/issues/154)
-* [http-types: Status should take TryInto<StatusCode/>](https://github.com/http-rs/http-types/issues/155)
+* [http-types: Status should take `TryInto<StatusCode>`](https://github.com/http-rs/http-types/issues/155)
 * [http-types: Expose method shorthands for Request constructor](https://github.com/http-rs/http-types/issues/156)
 
 
