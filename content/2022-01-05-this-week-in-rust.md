@@ -102,7 +102,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [relax `priv-in-pub` lint on generic bounds and where clauses of trait impls](https://github.com/rust-lang/rust/pull/90586)
 * [perf: store liveness in interval sets for region inference](https://github.com/rust-lang/rust/pull/90637)
 * [add `try_reserve` and `try_reserve_exact` for `OsString`](https://github.com/rust-lang/rust/pull/92338)
-* [support `\[x; n\]` expressions in `concat_bytes!`](https://github.com/rust-lang/rust/pull/92066)
+* [support `[x; n]` expressions in `concat_bytes!`](https://github.com/rust-lang/rust/pull/92066)
 * [std-simd: impl `std::simd::StdFloat`](https://github.com/rust-lang/portable-simd/pull/219)
 * [rustdoc: use `ThinVec` for `GenericArgs` bindings](https://github.com/rust-lang/rust/pull/92395)
 * [clippy: extend `unused_io_amount` to cover async io](https://github.com/rust-lang/rust-clippy/pull/8179)
