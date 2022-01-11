@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Async Rust From The Ground Up: Concurrency With Threads](https://ibraheem.ca/writings/concurrency-with-threads/)
+
 ### Miscellaneous
 
 ## Crate of the Week
