@@ -17,10 +17,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Bevy 0.6](https://bevyengine.org/news/bevy-0-6/)
+* [rg3d 0.24](https://rg3d.rs/general/2022/01/07/0.24-feature-highlights.html)
+* [`rustc_codegen_gcc`: Progress Report #7](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-7)
 
 ### Observations/Thoughts
+* [Dyn async traits, part 7](https://smallcultfollowing.com/babysteps/blog/2022/01/07/dyn-async-traits-part-7/)
 
 ### Rust Walkthroughs
+* [How to install cargo-outdated in OSX without homebrew](https://estada.ch/2022/1/7/how-to-install-cargo-outdated-in-osx-without-homebrew/)
+* [Rust Any Part 1: Extension Maps in Rust](https://lucumr.pocoo.org/2022/1/6/rust-extension-map/)
+* [Rust Any Part 2: As-Any Hack](https://lucumr.pocoo.org/2022/1/7/as-any-hack/)
 
 ### Miscellaneous
 
