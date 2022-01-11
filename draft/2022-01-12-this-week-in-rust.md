@@ -14,15 +14,53 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
+### Official
+* [1.58.0 pre-release testing](https://blog.rust-lang.org/inside-rust/index.html)
+
+### Foundation
+* [Happy New Year, Rustaceans](https://foundation.rust-lang.org/posts/2022-01-06-happy-new-year-rustaceans-from-bec/)
+
 ### Newsletters
+* [This Month in Rust OSDev (December 2021)](https://rust-osdev.com/this-month/2021-12/)
 
 ### Project/Tooling Updates
+* [Rust Analyzer Changelog #111](https://rust-analyzer.github.io/thisweek/2022/01/10/changelog-111.html)
+* [rustc_codegen_gcc: Progress Report #7](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-7)
+* [Bevy 0.6 ](https://bevyengine.org/news/bevy-0-6/)
+* [rg3d 0.24 Feature Highlights](https://rg3d.rs/general/2022/01/07/0.24-feature-highlights.html)
+* [Lishwist (beta)](https://blog.polaris64.net/post/lishwist-beta/)
+* [Rust on Espressif chips - 10-01-2022](https://mabez.dev/blog/posts/esp-rust-10-01-2022/)
 
 ### Observations/Thoughts
+* [Dyn async traits, part 7: a design emerges?](https://smallcultfollowing.com/babysteps//blog/2022/01/07/dyn-async-traits-part-7/)
+* [Rust in 2022](https://www.ncameron.org/blog/rust-in-2022-2/)
+* [Bringing include_dir Into the Modern Era](https://adventures.michaelfbryan.com/posts/bringing-include_dir-into-the-modern-era/)
+* [Rust Async and the Terrible, Horrible, No Good, Very Bad Day](https://kevinhoffman.medium.com/rust-async-and-the-terrible-horrible-no-good-very-bad-day-348ebc836274)
+* [Crate of the Week second chance list](https://briankung.dev/2022/01/07/crate-of-the-week-second-chance-list/)
+* [How we built a VS Code extension with Rust, WebAssembly, and TypeScript](https://www.osohq.com/post/building-vs-code-extension-with-rust-wasm-typescript)
+* [App and OS Virtualization in Rust using crosvm](https://blog.openw3b.org/crosvm-for-os-and-app-virtualization-on-linux/)
+* [Rust 2030 Christmas list: Inout methods](https://poignardazur.github.io/2022/01/05/rust-wishlist-inout-syntax/)
+* [audio] [Yew with Julius Lungys](https://rustacean-station.org/episode/053-julius-lungys/)
+* [video] [Flying High with Flutter #40](https://www.youtube.com/watch?v=NB4w_0Wk0NA)
+* [video] [The Downside of Rust](https://www.youtube.com/watch?v=pmt0aaquh4o)
 
 ### Rust Walkthroughs
+* [Three Kinds of Polymorphism in Rust](https://www.brandons.me/blog/polymorphism-in-rust)
+* [How Bevy uses Rust traits for labeling](https://deterministic.space/bevy-labels.html)
+* [Parsing compressed files efficiently with Rust](https://edgarluque.com/blog/zstd-streaming-in-rust/)
+* [Rust Any Part 1: Extension Maps in Rust](https://lucumr.pocoo.org/2022/1/6/rust-extension-map/)
+* [Rust Any Part 2: As-Any Hack](https://lucumr.pocoo.org/2022/1/7/as-any-hack/   )
+* [How to Implement a Naive Bayes Classifier with Rust](https://www.freecodecamp.org/news/implement-naive-bayes-with-rust/)
+* [Adding parallelism to your Rust iterators with dpc-pariter](https://dpc.pw/adding-parallelism-to-your-rust-iterators)
+* [Parsing Text with Nom](https://blog.adamchalmers.com/nom-chars/)
+* [Implementing a metronome with Rust and Flutter](https://beijaflor.io/blog/01-2022/rust-audio-experiments-3/)
+* [Making Games in Rust - Part 9 - Main Menu Screen](https://dev.to/sbelzile/making-games-in-rust-part-9-main-menu-screen-2170)
+* [Emulating the Sega Genesis - Part I](https://jabberwocky.ca/posts/2022-01-emulating_the_sega_genesis_part1.html)
 
 ### Miscellaneous
+
+* [Let's take a moment to thank Joshua Nelson for his work on rustdoc](https://www.reddit.com/r/rust/comments/s0pcfa/lets_take_a_moment_to_thank_joshua_nelson_for_his/)
+* [Could Rust be the Future of JavaScript Infrastructure?](https://thenewstack.io/the-case-for-rust-as-the-future-of-javascript-infrastructure/)
 
 ## Crate of the Week
 
