@@ -155,6 +155,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Dreamsolution**
+
+* [Rust developer (Delft, NL)](https://www.dreamsolution.nl/2021-12-30-vacature-rust-developer.html#english)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
