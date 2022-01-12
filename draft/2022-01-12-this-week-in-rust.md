@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [This week in Databend #24: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-01-12-databend-weekly/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
