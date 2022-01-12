@@ -18,7 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 * [Bevy 0.6](https://bevyengine.org/news/bevy-0-6/)
-* [rg3d 0.24](https://rg3d.rs/general/2022/01/07/0.24-feature-highlights.html)
+* [Fryox Announcement](https://rg3d.rs/general/2022/01/11/fyrox.html)
+* [Fyrox 0.24](https://rg3d.rs/general/2022/01/07/0.24-feature-highlights.html)
 * [`rustc_codegen_gcc`: Progress Report #7](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-7)
 
 ### Observations/Thoughts
