@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
+* [This week in Fluvio #19: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0019/)
 
 ### Observations/Thoughts
 
