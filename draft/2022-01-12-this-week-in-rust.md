@@ -22,8 +22,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Fyrox 0.24](https://rg3d.rs/general/2022/01/07/0.24-feature-highlights.html)
 * [`rustc_codegen_gcc`: Progress Report #7](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-7)
 
+### Research
+* [Rast: A Language for Resource-Aware Session Types](https://arxiv.org/abs/2012.13129)
+* [RISE & Shine: Language-Orientated Compiler Design](https://arxiv.org/abs/2201.03611)
+
 ### Observations/Thoughts
 * [Dyn async traits, part 7](https://smallcultfollowing.com/babysteps/blog/2022/01/07/dyn-async-traits-part-7/)
+* [Why I Use a Debugger](https://blog.pnkfx.org/blog/2022/01/10/why-i-use-a-debugger/)
 
 ### Rust Walkthroughs
 * [How to install cargo-outdated in OSX without homebrew](https://estada.ch/2022/1/7/how-to-install-cargo-outdated-in-osx-without-homebrew/)
