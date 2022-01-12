@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [ZH] [2021 年 Rust 生态调研报告 | 星辰大海（上篇）](https://zhuanlan.zhihu.com/p/456451233)
+
 ### Miscellaneous
 
 ## Crate of the Week
