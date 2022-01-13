@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
+* [This week in Fluvio #19: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0019/)
 * [Bevy 0.6](https://bevyengine.org/news/bevy-0-6/)
 * [The engine was renamed to Fyrox](https://rg3d.rs/general/2022/01/11/fyrox.html)
 * [Fyrox 0.24 Feature Highlights](https://rg3d.rs/general/2022/01/07/0.24-feature-highlights.html)
@@ -25,9 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Research
 * [Rast: A Language for Resource-Aware Session Types](https://arxiv.org/abs/2012.13129)
 * [RISE & Shine: Language-Orientated Compiler Design](https://arxiv.org/abs/2201.03611)
-
 * [SixtyFPS (GUI crate): Changelog for 9th of January 2022](https://sixtyfps.io/thisweek/2022-01-10.html)
-
 * [This week in Databend #24: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-01-12-databend-weekly/)
 
 ### Observations/Thoughts
