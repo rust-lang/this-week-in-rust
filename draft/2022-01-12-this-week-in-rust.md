@@ -37,6 +37,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust Any Part 1: Extension Maps in Rust](https://lucumr.pocoo.org/2022/1/6/rust-extension-map/)
 * [Rust Any Part 2: As-Any Hack](https://lucumr.pocoo.org/2022/1/7/as-any-hack/)
 
+* [Async Rust From The Ground Up: Concurrency With Threads](https://ibraheem.ca/writings/concurrency-with-threads/)
+
 ### Miscellaneous
 
 * [Rust Memory Layout Optimization (Enum)](https://frehberg.com/2022/01/rust-memory-layout-optimization/)
