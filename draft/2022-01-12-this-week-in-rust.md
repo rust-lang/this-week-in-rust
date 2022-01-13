@@ -18,8 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 * [Bevy 0.6](https://bevyengine.org/news/bevy-0-6/)
-* [Fryox Game Engine Announcement](https://rg3d.rs/general/2022/01/11/fyrox.html)
-* [Fyrox 0.24](https://rg3d.rs/general/2022/01/07/0.24-feature-highlights.html)
+* [The engine was renamed to Fyrox](https://rg3d.rs/general/2022/01/11/fyrox.html)
+* [Fyrox 0.24 Feature Highlights](https://rg3d.rs/general/2022/01/07/0.24-feature-highlights.html)
 * [`rustc_codegen_gcc`: Progress Report #7](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-7)
 
 ### Research
@@ -27,7 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [RISE & Shine: Language-Orientated Compiler Design](https://arxiv.org/abs/2201.03611)
 
 ### Observations/Thoughts
-* [Dyn async traits, part 7](https://smallcultfollowing.com/babysteps/blog/2022/01/07/dyn-async-traits-part-7/)
+* [Dyn async traits, part 7: a design emerges?](https://smallcultfollowing.com/babysteps/blog/2022/01/07/dyn-async-traits-part-7/)
 * [Why I Use a Debugger](https://blog.pnkfx.org/blog/2022/01/10/why-i-use-a-debugger/)
 
 ### Rust Walkthroughs
