@@ -39,6 +39,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Async Rust From The Ground Up: Concurrency With Threads](https://ibraheem.ca/writings/concurrency-with-threads/)
 
+* [ZH] [2021 年 Rust 生态调研报告 | 星辰大海（上篇）](https://zhuanlan.zhihu.com/p/456451233)
+
 ### Miscellaneous
 
 * [Rust Memory Layout Optimization (Enum)](https://frehberg.com/2022/01/rust-memory-layout-optimization/)
