@@ -17,12 +17,25 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Bevy 0.6](https://bevyengine.org/news/bevy-0-6/)
+* [The engine was renamed to Fyrox](https://rg3d.rs/general/2022/01/11/fyrox.html)
+* [Fyrox 0.24 Feature Highlights](https://rg3d.rs/general/2022/01/07/0.24-feature-highlights.html)
+* [`rustc_codegen_gcc`: Progress Report #7](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-7)
+
+### Research
+* [Rast: A Language for Resource-Aware Session Types](https://arxiv.org/abs/2012.13129)
+* [RISE & Shine: Language-Orientated Compiler Design](https://arxiv.org/abs/2201.03611)
 
 * [SixtyFPS (GUI crate): Changelog for 9th of January 2022](https://sixtyfps.io/thisweek/2022-01-10.html)
 
 ### Observations/Thoughts
+* [Dyn async traits, part 7: a design emerges?](https://smallcultfollowing.com/babysteps/blog/2022/01/07/dyn-async-traits-part-7/)
+* [Why I Use a Debugger](https://blog.pnkfx.org/blog/2022/01/10/why-i-use-a-debugger/)
 
 ### Rust Walkthroughs
+* [How to install cargo-outdated in OSX without homebrew](https://estada.ch/2022/1/7/how-to-install-cargo-outdated-in-osx-without-homebrew/)
+* [Rust Any Part 1: Extension Maps in Rust](https://lucumr.pocoo.org/2022/1/6/rust-extension-map/)
+* [Rust Any Part 2: As-Any Hack](https://lucumr.pocoo.org/2022/1/7/as-any-hack/)
 
 ### Miscellaneous
 
