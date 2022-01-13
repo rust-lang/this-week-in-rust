@@ -42,6 +42,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [How we built a VS Code extension with Rust, WebAssembly, and TypeScript](https://www.osohq.com/post/building-vs-code-extension-with-rust-wasm-typescript)
 * [App and OS Virtualization in Rust using crosvm](https://blog.openw3b.org/crosvm-for-os-and-app-virtualization-on-linux/)
 * [Rust 2030 Christmas list: Inout methods](https://poignardazur.github.io/2022/01/05/rust-wishlist-inout-syntax/)
+* [What does a Rustc Reading Club do?](https://mojosd.medium.com/what-does-a-rustc-reading-club-do-8c9f9b336ff4)
 * [Why I Use a Debugger](https://blog.pnkfx.org/blog/2022/01/10/why-i-use-a-debugger/)
 * [audio] [Yew with Julius Lungys](https://rustacean-station.org/episode/053-julius-lungys/)
 * [video] [Flying High with Flutter #40](https://www.youtube.com/watch?v=NB4w_0Wk0NA)
@@ -214,6 +215,16 @@ Email the [Rust Community Team][community] for access.
 **Dreamsolution**
 
 * [Rust developer (Delft, NL)](https://www.dreamsolution.nl/2021-12-30-vacature-rust-developer.html#english)
+
+**LoanPASS**
+
+* [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
+
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote GMT + or - 2 hours)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
