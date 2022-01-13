@@ -32,7 +32,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust on Espressif chips - 10-01-2022](https://mabez.dev/blog/posts/esp-rust-10-01-2022/)
 * [This week in Fluvio #19: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0019/)
 * [The engine was renamed to Fyrox](https://rg3d.rs/general/2022/01/11/fyrox.html)
-* [Fyrox 0.24 Feature Highlights](https://rg3d.rs/general/2022/01/07/0.24-feature-highlights.html)
 
 ### Observations/Thoughts
 * [Dyn async traits, part 7: a design emerges?](https://smallcultfollowing.com/babysteps//blog/2022/01/07/dyn-async-traits-part-7/)
