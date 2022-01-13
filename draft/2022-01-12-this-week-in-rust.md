@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [Rust Memory Layout Optimization (Enum)](https://frehberg.com/2022/01/rust-memory-layout-optimization/)
+
 ## Crate of the Week
 
 This week's crate is [fltk-rs](https://crates.io/crates/fltk), a crate with bindings to the [FLTK](https://github.com/fltk/fltk) GUI toolkit.
