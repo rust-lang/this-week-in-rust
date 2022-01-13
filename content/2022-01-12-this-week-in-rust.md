@@ -242,4 +242,4 @@ Thanks to [Christopher Durham](https://users.rust-lang.org/t/twir-quote-of-the-w
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/k5nsab/this_week_in_rust_367/)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/s2nayu/this_week_in_rust_425/)</small>
