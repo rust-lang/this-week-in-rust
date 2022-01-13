@@ -45,9 +45,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [fltk-rs](https://crates.io/crates/fltk), a crate with bindings to the [FLTK](https://github.com/fltk/fltk) GUI toolkit.
+This week's crate is [rustix](https://github.com/bytecodealliance/rustix), a crate with safe bindings to POSIX-ish syscalls.
 
-Thanks to [Mark Summerfield](https://users.rust-lang.org/t/crate-of-the-week/2704/999) for the suggestion!
+Thanks to [Kornel](https://users.rust-lang.org/t/crate-of-the-week/2704/1003) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -66,32 +66,38 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-230 pull requests were [merged in the last week][merged]
+266 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-12-27..2022-01-03
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-01-03..2022-01-10
 
-* [allow loading LLVM plugins with both legacy and new pass manager](https://github.com/rust-lang/rust/pull/91125)
-* [suggest `while let x = y` when encountering `while x = y`](https://github.com/rust-lang/rust/pull/92402)
-* [refactor variance diagnostics to work with more types](https://github.com/rust-lang/rust/pull/89336)
-* [extend check for `UnsafeCell` in consts to cover unions](https://github.com/rust-lang/rust/pull/90383)
-* [parse and suggest moving where clauses after equals for type aliases](https://github.com/rust-lang/rust/pull/92118)
-* [relax `priv-in-pub` lint on generic bounds and where clauses of trait impls](https://github.com/rust-lang/rust/pull/90586)
-* [perf: store liveness in interval sets for region inference](https://github.com/rust-lang/rust/pull/90637)
-* [add `try_reserve` and `try_reserve_exact` for `OsString`](https://github.com/rust-lang/rust/pull/92338)
-* [support `\[x; n\]` expressions in `concat_bytes!`](https://github.com/rust-lang/rust/pull/92066)
-* [std-simd: impl `std::simd::StdFloat`](https://github.com/rust-lang/portable-simd/pull/219)
-* [rustdoc: use `ThinVec` for `GenericArgs` bindings](https://github.com/rust-lang/rust/pull/92395)
-* [clippy: extend `unused_io_amount` to cover async io](https://github.com/rust-lang/rust-clippy/pull/8179)
-* [clippy: fix `enum_variants` false positive on prefixes that are not camel-case](https://github.com/rust-lang/rust-clippy/pull/8127)
-* [clippy: fixed issues with `to_radians` and `to_degrees` lints](https://github.com/rust-lang/rust-clippy/pull/8187)
-* [clippy: limit the `identity_op` lint to integral operands](https://github.com/rust-lang/rust-clippy/pull/8183)
-* [clippy: `erasing_op` lint ignored when operation `Output` type is different from the type of constant `0`](https://github.com/rust-lang/rust-clippy/pull/8204)
-* [clippy: perf: cache test item names](https://github.com/rust-lang/rust-clippy/pull/8182)
-* [clippy: fix `redundant_closure` fp with `Rc<F>`/`Arc<F>`](https://github.com/rust-lang/rust-clippy/pull/8193)
-* [clippy: `wrong_self_convention`: match `SelfKind::No` more restrictively](https://github.com/rust-lang/rust-clippy/pull/8208)
-* [rustfmt: do not flatten match arm block with leading attributes](https://github.com/rust-lang/rustfmt/pull/5158)
-* [rustfmt: improve out of line module resolution](https://github.com/rust-lang/rustfmt/pull/5142)
-* [rustfmt: support parsing of asm! args](https://github.com/rust-lang/rustfmt/pull/5156)
+* [allow `_` as the length of array types and repeat expressions](https://github.com/rust-lang/rust/pull/91907) (this implements the closed RFC PR [#2545](https://github.com/rust-lang/rfcs/pull/2545))
+* [cg: split dwarf for crate dependencies](https://github.com/rust-lang/rust/pull/89819)
+* [suggest single quotes when char expected, str provided](https://github.com/rust-lang/rust/pull/92507)
+* [add a query for resolving an impl item from the trait item](https://github.com/rust-lang/rust/pull/90639)
+* [miri: exclude mutable references to !Unpin types from uniqueness guarantees](https://github.com/rust-lang/miri/pull/1952)
+* [perf: do not use LEB128 for encoding u16 and i16](https://github.com/rust-lang/rust/pull/92314)
+* [rustc_metadata: optimize and document module children decoding](https://github.com/rust-lang/rust/pull/92086)
+* [normalize generator-local types with unevaluated constants](https://github.com/rust-lang/rust/pull/92636)
+* [normalize struct tail type when checking Pointee trait](https://github.com/rust-lang/rust/pull/92248)
+* [constify `Box<T, A>` methods](https://github.com/rust-lang/rust/pull/91884)
+* [do not hash leading zero bytes of i64 numbers in Sip128 hasher](https://github.com/rust-lang/rust/pull/92103)
+* [implement `TryFrom<char>` for `u8`](https://github.com/rust-lang/rust/pull/84640)
+* [implement const casts of raw pointers](https://github.com/rust-lang/rust/pull/92657)
+* [stabilize `#[feature(available_parallelism)]`](https://github.com/rust-lang/rust/pull/92632)
+* [stabilize `result_cloned` and `result_copied`](https://github.com/rust-lang/rust/pull/92483)
+* [modifications to `std::io::Stdin` on Windows so that there is no longer a 4-byte buffer minimum in read()](https://github.com/rust-lang/rust/pull/91754)
+* [core::ops::unsize: improve docs for DispatchFromDyn](https://github.com/rust-lang/rust/pull/91587)
+* [hashbrown: don't hash the key when searching in an empty table](https://github.com/rust-lang/hashbrown/pull/305)
+* [cargo: support rustflags per profile](https://github.com/rust-lang/cargo/pull/10217)
+* [cargo: be resilient to most IO error and filesystem loop while walking dirs](https://github.com/rust-lang/cargo/pull/10214)
+* [rustdoc: introduce a resolver cache for sharing data between early doc link resolution and later passes](https://github.com/rust-lang/rust/pull/92608)
+* [rustdoc: resolve associated traits for non-generic primitive types](https://github.com/rust-lang/rust/pull/92443)
+* [docs.rs: add "y" shortcut for permalink](https://github.com/rust-lang/docs.rs/pull/1583)
+* [clippy: better detect when a field can be moved from in `while_let_on_iterator`](https://github.com/rust-lang/rust-clippy/pull/8221)
+* [clippy: consider auto-deref when linting `manual_swap`](https://github.com/rust-lang/rust-clippy/pull/8220)
+* [clippy: fix `type_repetition_in_bounds`](https://github.com/rust-lang/rust-clippy/pull/8224)
+* [clippy: cover trait for `trait_duplication_in_bounds`](https://github.com/rust-lang/rust-clippy/pull/8252)
+* [clippy: fix `iter_not_returning_iterator`](https://github.com/rust-lang/rust-clippy/pull/8228)
 
 ### Rust Compiler Performance Triage
 
@@ -179,19 +185,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I performed an extremely scientific poll on twitter, and determined this is not how it's pronounced
->
-> ----
->
-> Well, it really is `Vec<T, A>`, pronounced Veck-tah. 😛
->
-> ----
->
-> Look, I moved away from Boston to avoid this sort of thing 😄.
+> Language stability is not just about semver compatibility. It's also about not burdening developers to have to make new decisions when looking at old code. \[Language instability\] creates churn and debate about things that previously didn't require it.
 
-– [the8472 & Thom Chiovoloni on github](https://github.com/rust-lang/rust/pull/92463#discussion_r777059401)
+– [skysch on rust-internals](https://internals.rust-lang.org/t/rust-2030-christmas-list-inout-methods/15944/3)
 
-Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1159) for the suggestion!
+Thanks to [Christopher Durham](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1165) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
