@@ -28,6 +28,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [SixtyFPS (GUI crate): Changelog for 9th of January 2022](https://sixtyfps.io/thisweek/2022-01-10.html)
 
+* [This week in Databend #24: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-01-12-databend-weekly/)
+
 ### Observations/Thoughts
 * [Dyn async traits, part 7: a design emerges?](https://smallcultfollowing.com/babysteps/blog/2022/01/07/dyn-async-traits-part-7/)
 * [Why I Use a Debugger](https://blog.pnkfx.org/blog/2022/01/10/why-i-use-a-debugger/)
