@@ -110,7 +110,7 @@ Revision range: [e91ad5..2b681a](https://perf.rust-lang.org/?start=e91ad5fc62bde
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Amend RFC 3107 to change feature name, fix grammatical error](https://github.com/rust-lang/rfcs/pull/3212)
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -120,16 +120,17 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* *No new RFCs entered Final Comment Period this week.*
+* *No RFCs entered Final Comment Period this week.*
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Tracking issue for Box::into_pin (feature box_into_pin)](https://github.com/rust-lang/rust/issues/62370)
-* [disposition: merge] [make Instant::{duration_since, elapsed, sub} saturating and remove workarounds](https://github.com/rust-lang/rust/pull/89926)
+* [disposition: merge] [doc: guarantee call order for sort_by_cached_key](https://github.com/rust-lang/rust/pull/89621)
 
 ### [New RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* *No new RFCs were published this week.*
+* [Rename {Option, Result}::expect to unwrap_or_panic](https://github.com/rust-lang/rfcs/pull/3218)
+* [Add RFC for providing ignore test message](https://github.com/rust-lang/rfcs/pull/3217)
+* [Allow using for<'a> syntax when declaring closures](https://github.com/rust-lang/rfcs/pull/3216)
 
 ## Upcoming Events
 
