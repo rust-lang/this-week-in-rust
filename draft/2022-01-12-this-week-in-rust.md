@@ -41,6 +41,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [ZH] [2021 年 Rust 生态调研报告 | 星辰大海（上篇）](https://zhuanlan.zhihu.com/p/456451233)
 
+* [Secure and immutable development environments with Dev Containers](https://kerkour.com/secure-programming-with-vscode-dev-containers)
+
 ### Miscellaneous
 
 * [Rust Memory Layout Optimization (Enum)](https://frehberg.com/2022/01/rust-memory-layout-optimization/)
