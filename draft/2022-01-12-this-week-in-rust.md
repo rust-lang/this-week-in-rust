@@ -103,15 +103,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-It was a relatively calm, but good week overall. Most of the gains were improvements to rustdoc running times.
+Improvements generally outweighed regressions with most regressions coming in the form of correctness fixes (where performance regressions are generally less of a concern). The biggest win was arguably a change to the Sip128 hasher implementation which seemed to have decent performance implications for many real world crates. 
 
-Triage done by **@pnkfelix**.
-Revision range: [e91ad5..2b681a](https://perf.rust-lang.org/?start=e91ad5fc62bdee4a29c18baa5fad2ca42fc91bf4&end=2b681ac06b1a6b7ea39525e59363ffee0d1a68e5&absolute=false&stat=instructions%3Au)
+Triage done by **@rylev**.
+Revision range: [2b681ac..72e74d7](https://perf.rust-lang.org/?start=2b681ac06b1a6b7ea39525e59363ffee0d1a68e5&end=72e74d7b9cf1a7901650227e74650f1fcc797600&absolute=false&stat=instructions%3Au)
 
-1 Regressions, 6 Improvements, 1 Mixed; 0 of them in rollups
-38 comparisons made in total
+3 Regressions, 7 Improvements, 2 Mixed; 4 of them in rollups
+28 comparisons made in total
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-01-04.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-01-12.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
