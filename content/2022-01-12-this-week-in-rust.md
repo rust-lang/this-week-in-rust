@@ -15,7 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
-* [1.58.0 pre-release testing](https://blog.rust-lang.org/inside-rust/index.html)
+* [1.58.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2022/01/11/1.58.0-prerelease.html)
 
 ### Foundation
 * [Happy New Year, Rustaceans](https://foundation.rust-lang.org/posts/2022-01-06-happy-new-year-rustaceans-from-bec/)
