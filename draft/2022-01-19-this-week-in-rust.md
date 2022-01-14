@@ -28,6 +28,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+[video] [I'm learning Rust - Cargo, documentation, user input, and JSON files](https://youtu.be/ruKV0WMSweA)
+
 ### Miscellaneous
 
 ## Crate of the Week
