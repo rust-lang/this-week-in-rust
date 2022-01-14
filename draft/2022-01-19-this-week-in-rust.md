@@ -30,6 +30,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+[Rewriting my toy blockchain in Rust](https://ezzeriesa.notion.site/Rewriting-my-toy-blockchain-in-Rust-9a130f225666488491ba497004821fbb)
+
 ## Crate of the Week
 
 This week's crate is [rustix](https://github.com/bytecodealliance/rustix), a crate with safe bindings to POSIX-ish syscalls.
