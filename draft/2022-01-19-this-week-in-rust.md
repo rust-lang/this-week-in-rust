@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Release of ogma v0.2: a shell-like scripting language for tabular data](https://github.com/kdr-aus/ogma/releases/tag/v0.2)
+
 ### Observations/Thoughts
 
 ### Research
