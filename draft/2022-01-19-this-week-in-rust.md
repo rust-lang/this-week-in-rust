@@ -29,6 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 ### Miscellaneous
+[Writing a Fluent Bit input plugin in Rust](https://fredrik-jansson-se.github.io/fluent-bit-input-rust.html)
 
 ## Crate of the Week
 
