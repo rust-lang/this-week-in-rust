@@ -28,6 +28,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [series] [video] [Writing a Programming Language (in Rust) 10: Implementing Objects](https://www.youtube.com/watch?v=67HtN0PHWUI)
+* [series] [video] [Writing a Programming Language (in Rust) 11: Object Destructuring (Part 1)](https://www.youtube.com/watch?v=ay7gzTzMZKo)
+
 ### Miscellaneous
 
 ## Crate of the Week
