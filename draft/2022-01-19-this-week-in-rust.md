@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Lipstick: a Rust-like syntax frontend for C](https://jrvidal.github.io/lipstick).
 
 ### Observations/Thoughts
 
