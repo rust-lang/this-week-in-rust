@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Research
 
 ### Rust Walkthroughs
+* [🦀 How we built a VS Code extension with Rust, WebAssembly, and TypeScript](https://www.osohq.com/post/building-vs-code-extension-with-rust-wasm-typescript)
 
 ### Miscellaneous
 
