@@ -15,6 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [Announcing Rust 1.58.0](https://blog.rust-lang.org/2022/01/13/Rust-1.58.0.html)
 
 ### Foundation
 
@@ -22,23 +23,42 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [IntelliJ Rust Changelog #163](https://intellij-rust.github.io/2022/01/17/changelog-163.html)
+* [Rust Analyzer Changelog #112](https://rust-analyzer.github.io/thisweek/2022/01/17/changelog-112.html)
 * [SixtyFPS (GUI crate): Changelog for 16th of January 2022](https://sixtyfps.io/thisweek/2022-01-17.html)
 * [Quickwit 0.2 brings full-text search to ClickHouse and Kafka!](https://quickwit.io/blog/quickwit-0.2)
 * [Introducing the new DNSimple Rust Client](https://blog.dnsimple.com/2022/01/new-rust-api-client-library/)
+* [Announcing Parcel CSS](https://parceljs.org/blog/parcel-css/)
+* [DE] [Programmiersprache: Rust 1.58 erweitert Format-Strings und verschmälert den Pfad](https://www.heise.de/news/Programmiersprache-Rust-1-58-erweitert-Format-Strings-und-verschmaelert-den-Pfad-6326974.html)
+* [Announcing the sd-notify crate](https://blog.dend.ro/introducing-sd-notify/)
 
 ### Observations/Thoughts
+* [Async Rust in Practice: Performance, Pitfalls, Profiling](https://www.scylladb.com/2022/01/12/async-rust-in-practice-performance-pitfalls-profiling/)
+* [Format Strings in Rust 1.58](https://www.rustnote.com/blog/format_strings.html)
+* [Making Your Game Go Fast by Asking Windows Nicely](https://www.anthropicstudios.com/2022/01/13/asking-windows-nicely/)
+* [Binary Tree Insertion in Rust](https://dawchihliou.github.io/articles/binary-tree-insertion-in-rust)
+* [Investigating Memory Allocations in Rust](https://ysantos.com/blog/malloc-in-rust)
+* [Using Rustlang’s Async Tokio Runtime for CPU-Bound Tasks](https://thenewstack.io/using-rustlangs-async-tokio-runtime-for-cpu-bound-tasks/)
+* [Digital Audio Synthesizer in Rust](https://0xc45.com/blog/digital-audio-synthesizer-in-rust/)
+* [A path towards stable generic const expressions](https://lcnr.de/blog/generic-const-expressions/)
 
 ### Research
 
 ### Rust Walkthroughs
 
-[video] [I'm learning Rust - Cargo, documentation, user input, and JSON files](https://www.youtube.com/watch?v=ruKV0WMSweA)
+* [Tutorial: Writing a Tiny Rust Game Engine for Web](https://ianjk.com/game-engine-in-rust/)
+* [Mapping my walks with OSRM and Rust](https://blog.dend.ro/mapping-my-walks-osrm-rust/)
+* [Create a desktop app in Rust using Tauri and Yew](https://dev.to/stevepryde/create-a-desktop-app-in-rust-using-tauri-and-yew-2bhe)
+* [video] [I'm learning Rust - Cargo, documentation, user input, and JSON files](https://www.youtube.com/watch?v=ruKV0WMSweA)
+* [video] [Implementing Hazard Pointers in Rust (part 4/4)](https://www.youtube.com/watch?v=3oL1xokuHBE)
 
 ### Miscellaneous
 * [Writing a Fluent Bit input plugin in Rust](https://fredrik-jansson-se.github.io/fluent-bit-input-rust.html)
 * [The 10 books that helped me, as a hobbyist, on my journey to learn Rust to re-code a Django application](https://www.reddit.com/r/rust/comments/s3z7ek/the_10_books_that_helped_me_as_a_hobbyist_on_my/)
 * [Rewriting my toy blockchain in Rust](https://ezzeriesa.notion.site/Rewriting-my-toy-blockchain-in-Rust-9a130f225666488491ba497004821fbb)
 * [Rust on Apache NuttX OS](https://lupyuen.github.io/articles/rust2)
+* [An implementation of the NTFS filesystem in a Rust crate](https://colinfinck.de/posts/an-implementation-of-the-ntfs-filesystem-in-a-rust-crate/)
+* [audio] [Lumen with Paul Schoenfelder](https://rustacean-station.org/episode/054-paul-schoenfelder/)
 
 ## Crate of the Week
 
