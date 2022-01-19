@@ -25,7 +25,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Quickwit 0.2 brings full-text search to ClickHouse and Kafka!](https://quickwit.io/blog/quickwit-0.2)
 * [Introducing the new DNSimple Rust Client](https://blog.dnsimple.com/2022/01/new-rust-api-client-library/)
 
-
 ### Observations/Thoughts
 
 ### Research
@@ -36,6 +35,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [Rewriting my toy blockchain in Rust](https://ezzeriesa.notion.site/Rewriting-my-toy-blockchain-in-Rust-9a130f225666488491ba497004821fbb)
 * [Rust on Apache NuttX OS](https://lupyuen.github.io/articles/rust2)
 
 ## Crate of the Week
