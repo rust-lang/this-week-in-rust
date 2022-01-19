@@ -32,6 +32,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Fast access to regional AWS endpoints from Cloudflare Workers](https://noserve.rs/aws-region-nearby/)
+
 [video] [I'm learning Rust - Cargo, documentation, user input, and JSON files](https://www.youtube.com/watch?v=ruKV0WMSweA)
 
 ### Miscellaneous
