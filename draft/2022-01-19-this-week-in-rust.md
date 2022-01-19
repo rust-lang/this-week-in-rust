@@ -32,6 +32,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+[video] [I'm learning Rust - Cargo, documentation, user input, and JSON files](https://www.youtube.com/watch?v=ruKV0WMSweA)
+
 ### Miscellaneous
 
 * [Rust on Apache NuttX OS](https://lupyuen.github.io/articles/rust2)
