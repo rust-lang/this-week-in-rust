@@ -30,6 +30,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [Rust on Apache NuttX OS](https://lupyuen.github.io/articles/rust2)
+
 ## Crate of the Week
 
 This week's crate is [rustix](https://github.com/bytecodealliance/rustix), a crate with safe bindings to POSIX-ish syscalls.
