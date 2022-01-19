@@ -119,17 +119,20 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* *No RFCs entered Final Comment Period this week.*
+* [disposition: merge] [Scoped threads in the standard library, take 2](https://github.com/rust-lang/rfcs/pull/3151)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [doc: guarantee call order for sort_by_cached_key](https://github.com/rust-lang/rust/pull/89621)
+* [disposition: merge] [Stabilize arc_new_cyclic](https://github.com/rust-lang/rust/pull/90666)
+* [disposition: merge] [Change location of where clause on GATs](https://github.com/rust-lang/rust/pull/90076)
+* [disposition: merge] [rustdoc: "Namespace" user-written Markdown headings](https://github.com/rust-lang/rust/issues/91759)
+* [disposition: merge] [Stabilize -Z print-link-args as --print link-args](https://github.com/rust-lang/rust/pull/91606)
+* [disposition: merge] [Use verbatim paths for process::Command if necessary](https://github.com/rust-lang/rust/pull/92519)
+* [disposition: merge] [impl Not for !](https://github.com/rust-lang/rust/pull/91122)
 
 ### [New RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [Rename {Option, Result}::expect to unwrap_or_panic](https://github.com/rust-lang/rfcs/pull/3218)
-* [Add RFC for providing ignore test message](https://github.com/rust-lang/rfcs/pull/3217)
-* [Allow using for<'a> syntax when declaring closures](https://github.com/rust-lang/rfcs/pull/3216)
+* *No new RFCs were opened this week.*
 
 ## Upcoming Events
 
