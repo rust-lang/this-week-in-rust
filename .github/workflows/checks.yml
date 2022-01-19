@@ -1,7 +1,7 @@
 name: Correctness Checks
 on: [push, pull_request]
 jobs:
-  Run-Link-Checker:
+  Run-Markdown-Checks:
     runs-on: ubuntu-20.04
     steps:
       - name: checkout
@@ -13,4 +13,7 @@ jobs:
           update-pip: "false"
           update-setuptools: "false"
           update-wheel: "false"
-      - run: python3 tools/inspect_links.py --num-warn 5
+      - name: inspect_links
+        run: python3 tools/inspect_links.py --num-warn 5
+      - name: inspect_markdown
+        run: python3 tools/inspect_markdown.py --num-recent 5
