@@ -79,6 +79,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [css-inline - Support for converting style attributes to HTML attributes](https://github.com/Stranger6667/css-inline/issues/138)
+* [css-inline - Custom attribute to ignore inlining](https://github.com/Stranger6667/css-inline/issues/10)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
