@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+[Publishing to crates.io](https://www.printlnhello.world/blog/publishing-to-crates-io/)
+
 ### Miscellaneous
 
 ## Crate of the Week
