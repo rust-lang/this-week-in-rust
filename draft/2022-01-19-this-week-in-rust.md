@@ -32,7 +32,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
-[video] [I'm learning Rust - Cargo, documentation, user input, and JSON files](https://www.youtube.com/watch?v=ruKV0WMSweA)
+* [video] [I'm learning Rust - Cargo, documentation, user input, and JSON files](https://www.youtube.com/watch?v=ruKV0WMSweA)
+* [series] [video] [Writing a Programming Language (in Rust) 10: Implementing Objects](https://www.youtube.com/watch?v=67HtN0PHWUI)
+* [series] [video] [Writing a Programming Language (in Rust) 11: Object Destructuring (Part 1)](https://www.youtube.com/watch?v=ay7gzTzMZKo)
 
 ### Miscellaneous
 * [Writing a Fluent Bit input plugin in Rust](https://fredrik-jansson-se.github.io/fluent-bit-input-rust.html)
