@@ -23,9 +23,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 * [gtk-rs 0.15 / gtk4-rs 0.4 release](https://gtk-rs.org/blog/2022/01/16/new-release.html)
+* [Announcing Relm4 0.4](https://aaronerhardt.github.io/blog/posts/announcing_relm4_v0.4/)
 * [SixtyFPS (GUI crate): Changelog for 16th of January 2022](https://sixtyfps.io/thisweek/2022-01-17.html)
 * [Quickwit 0.2 brings full-text search to ClickHouse and Kafka!](https://quickwit.io/blog/quickwit-0.2)
 * [Introducing the new DNSimple Rust Client](https://blog.dnsimple.com/2022/01/new-rust-api-client-library/)
+* [Benchmarking relational data in BonsaiDb](https://bonsaidb.io/blog/commerce-benchmark/)
 
 ### Observations/Thoughts
 
@@ -33,7 +35,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
-[video] [I'm learning Rust - Cargo, documentation, user input, and JSON files](https://www.youtube.com/watch?v=ruKV0WMSweA)
+* [video] [I'm learning Rust - Cargo, documentation, user input, and JSON files](https://www.youtube.com/watch?v=ruKV0WMSweA)
+* [series] [video] [Writing a Programming Language (in Rust) 10: Implementing Objects](https://www.youtube.com/watch?v=67HtN0PHWUI)
+* [series] [video] [Writing a Programming Language (in Rust) 11: Object Destructuring (Part 1)](https://www.youtube.com/watch?v=ay7gzTzMZKo)
 
 ### Miscellaneous
 * [Writing a Fluent Bit input plugin in Rust](https://fredrik-jansson-se.github.io/fluent-bit-input-rust.html)
