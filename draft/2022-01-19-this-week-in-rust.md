@@ -22,6 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [gtk-rs 0.15 / gtk4-rs 0.4 release](https://gtk-rs.org/blog/2022/01/16/new-release.html)
 * [Announcing Relm4 0.4](https://aaronerhardt.github.io/blog/posts/announcing_relm4_v0.4/)
 * [SixtyFPS (GUI crate): Changelog for 16th of January 2022](https://sixtyfps.io/thisweek/2022-01-17.html)
 * [Quickwit 0.2 brings full-text search to ClickHouse and Kafka!](https://quickwit.io/blog/quickwit-0.2)
