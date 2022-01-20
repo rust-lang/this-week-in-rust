@@ -17,12 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 * [Announcing Rust 1.58.0](https://blog.rust-lang.org/2022/01/13/Rust-1.58.0.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
-
 * [IntelliJ Rust Changelog #163](https://intellij-rust.github.io/2022/01/17/changelog-163.html)
 * [Rust Analyzer Changelog #112](https://rust-analyzer.github.io/thisweek/2022/01/17/changelog-112.html)
 * [SixtyFPS (GUI crate): Changelog for 16th of January 2022](https://sixtyfps.io/thisweek/2022-01-17.html)
@@ -45,11 +40,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Using Rustlang’s Async Tokio Runtime for CPU-Bound Tasks](https://thenewstack.io/using-rustlangs-async-tokio-runtime-for-cpu-bound-tasks/)
 * [Digital Audio Synthesizer in Rust](https://0xc45.com/blog/digital-audio-synthesizer-in-rust/)
 * [A path towards stable generic const expressions](https://lcnr.de/blog/generic-const-expressions/)
-
-### Research
+* [Six Nice Things About Rust](https://sep.com/blog/six-nice-things-about-rust/)
 
 ### Rust Walkthroughs
-
 * [Tutorial: Writing a Tiny Rust Game Engine for Web](https://ianjk.com/game-engine-in-rust/)
 * [Mapping my walks with OSRM and Rust](https://blog.dend.ro/mapping-my-walks-osrm-rust/)
 * [Create a desktop app in Rust using Tauri and Yew](https://dev.to/stevepryde/create-a-desktop-app-in-rust-using-tauri-and-yew-2bhe)
@@ -198,6 +191,29 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Ockam**
+
+* [Sr Engineer - Rust, Library Design, Open Source (Remote)](https://jobs.lever.co/ockam/9bdb612c-417c-4b26-bcb5-84e6608736aa)
+
+**filancore**
+
+* [Experienced Backend Rust Developer (m/f/d) for our Identity Management Solution (Remote)](https://filancore.zohorecruit.eu/jobs/Careers/40250000000364074/Experienced-Backend-Rust-Developer-m-f-d-for-our-Identity-Management-Solution)
+
+**Enso**
+
+* [Senior Rust IDE Developer (Remote)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-ide-developer.md)
+* [Senior Rust Cloud Developer (Remote)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-cloud-developer.md)
+
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
+
+**Oso**
+
+* [Multiple Rust Positions Available (New York, NY, US or Remote)](https://www.osohq.com/company/jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
