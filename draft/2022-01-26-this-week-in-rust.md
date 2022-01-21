@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+[Lowering async await in rust](https://wiki.cont.run/lowering-async-await-in-rust/)
+
 ### Miscellaneous
 
 ## Crate of the Week
