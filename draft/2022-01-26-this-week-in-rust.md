@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Project/Tooling Updates
+* [Settings sync browser addon for rustdoc](https://gitlab.com/notriddle/rustdoc-settings-sync)
 
 ### Observations/Thoughts
 
