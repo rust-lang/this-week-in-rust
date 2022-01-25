@@ -26,9 +26,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [cargo-release](https://crates.io/crates/cargo-release), a cargo subcommand that makes every crate release a breeze.
+This week's crate is [html5gum](https://github.com/untitaker/html5gum), a WHATWG HTML spec-compliant HTML5 tokenizer.
 
-Thanks to [dpc](https://users.rust-lang.org/t/crate-of-the-week/2704/1010) for the suggestion!
+Thanks to [Markus Unterwaditzer](https://users.rust-lang.org/t/crate-of-the-week/2704/1012) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -47,34 +47,50 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-289 pull requests were [merged in the last week][merged]
+381 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-01-10..2022-01-17
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-01-17..2022-01-24
 
-* [remove deprecated LLVM-style inline assembly](https://github.com/rust-lang/rust/pull/92816)
-* [optimize `impl_read_unsigned_leb128`](https://github.com/rust-lang/rust/pull/92604)
-* [reduce use of LocalDefId <-> HirId maps](https://github.com/rust-lang/rust/pull/90146)
-* [store a `Symbol` instead of an `Ident` in `VariantDef`/`FieldDef`](https://github.com/rust-lang/rust/pull/92533)
-* [partially stabilize `maybe_uninit_extra`](https://github.com/rust-lang/rust/pull/92768)
-* [add {`Add`, `Sub`, `Mul`, `Div`, `Rem`, `BitXor`, `BitOr`, `BitAnd`}{, `Assign`} to `Saturating`](https://github.com/rust-lang/rust/pull/92356)
-* [futures: fix stacked borrows violations in waker_ref and FuturesUnordered](https://github.com/rust-lang/futures-rs/pull/2550)
-* [rustdoc: avoid many `Symbol` to `String` conversions](https://github.com/rust-lang/rust/pull/91948)
-* [clippy: new lint: `iter_overeager_cloned`](https://github.com/rust-lang/rust-clippy/pull/8203)
-* [clippy: add `manual_bits` lint](https://github.com/rust-lang/rust-clippy/pull/8213)
-* [clippy: add borrow_as_ptr lint](https://github.com/rust-lang/rust-clippy/pull/8210)
-* [clippy: allow primitive types in `disallowed_methods`](https://github.com/rust-lang/rust-clippy/pull/8112)
-* [clippy: apply `not_unsafe_ptr_arg_deref` to type aliases](https://github.com/rust-lang/rust-clippy/pull/8273)
-* [clippy: don't lint `if_same_then_else` with `if let` conditions](https://github.com/rust-lang/rust-clippy/pull/8297)
-* [clippy: downgrade `mutex_atomic` to nursery](https://github.com/rust-lang/rust-clippy/pull/8260)
-* [clippy: erase late bound regions in `iter_not_returning_iterator`](https://github.com/rust-lang/rust-clippy/pull/8287)
-* [clippy: fix `cmp_owned` suggestion flipping the comparison](https://github.com/rust-lang/rust-clippy/pull/8299)
-* [clippy: fix `deref_addrof`](https://github.com/rust-lang/rust-clippy/pull/8268)
-* [clippy: fix `implicit_clone` for `&&T`](https://github.com/rust-lang/rust-clippy/pull/8231)
-* [clippy: fix `manual_memcpy`](https://github.com/rust-lang/rust-clippy/pull/8226)
-* [clippy: fix cropped `or_fun_call` hint](https://github.com/rust-lang/rust-clippy/pull/8292)
-* [clippy: handle implicit named arguments in `useless_format`](https://github.com/rust-lang/rust-clippy/pull/8295)
-* [clippy: move `return_self_not_must_use` to `pedantic`](https://github.com/rust-lang/rust-clippy/pull/8302)
-* [thorin: performance improvements](https://github.com/rust-lang/thorin/pull/14)
+* [LLVM on AArch64/GlobalISel: fix incorrect handling of fp truncating stores](https://github.com/rust-lang/llvm-project/pull/127)
+* [show a more informative panic message when `DefPathHash` does not exist](https://github.com/rust-lang/rust/pull/93098)
+* [only suggest adding `!` to expressions that can be macro invocation](https://github.com/rust-lang/rust/pull/93061)
+* [point at correct argument when async fn output type lifetime disagrees with signature](https://github.com/rust-lang/rust/pull/92183)
+* [change lint message to be stronger for `&T` → `&mut T` transmute](https://github.com/rust-lang/rust/pull/92704)
+* [improve string concatenation suggestion](https://github.com/rust-lang/rust/pull/92843)
+* [formally implement let chains](https://github.com/rust-lang/rust/pull/88642)
+* [implement `#[rustc_must_implement_one_of]` attribute](https://github.com/rust-lang/rust/pull/92164)
+* [allow eq constraints on associated constants](https://github.com/rust-lang/rust/pull/87648)
+* [check `const Drop` impls considering `~const` Bounds](https://github.com/rust-lang/rust/pull/93028)
+* [add `~const` bound test for negative impls](https://github.com/rust-lang/rust/pull/92997)
+* [fix ICEs related to `Deref<Target=[T; N]>` on newtypes](https://github.com/rust-lang/rust/pull/92640)
+* [disable drop range tracking in generators](https://github.com/rust-lang/rust/pull/93165)
+* [directly use ConstValue for single literals in blocks](https://github.com/rust-lang/rust/pull/92780)
+* [add preliminary support for inline assembly for msp430](https://github.com/rust-lang/rust/pull/93219)
+* [let qpath contain NtTy: `<$:ty as $:ty>::…`](https://github.com/rust-lang/rust/pull/91150)
+* [make `Decodable` and `Decoder` infallible](https://github.com/rust-lang/rust/pull/93066)
+* [remove a `Span` from `hir::ExprKind::MethodCall`](https://github.com/rust-lang/rust/pull/92787)
+* [emit simpler code from `format_args`](https://github.com/rust-lang/rust/pull/91359)
+* [fix CVE-2022-21658 (symbolic link timing attack in `std::fs::remove_dir_all`)](https://github.com/rust-lang/rust/pull/93112)
+* [implement RFC 3151: Scoped threads](https://github.com/rust-lang/rust/pull/92555)
+* [improve capacity estimation in `Vec::from_iter`](https://github.com/rust-lang/rust/pull/92138)
+* [little improves in `CString::new` when creating from slice](https://github.com/rust-lang/rust/pull/92124)
+* [add `MaybeUninit::`(`slice_`)`as_bytes`(`_mut`)](https://github.com/rust-lang/rust/pull/89747)
+* [add `Option::is_some_with` and `Result::is_`{`ok`, `err`}`_with`](https://github.com/rust-lang/rust/pull/93051)
+* [add `log2` and `log10` to `NonZeroU*`](https://github.com/rust-lang/rust/pull/92956)
+* [std: implement `try_reserve` and `try_reserve_exact` on `PathBuf`](https://github.com/rust-lang/rust/pull/92513)
+* [`impl Not for !`](https://github.com/rust-lang/rust/pull/91122) (did you guess that "not never" is still "never"?)
+* [stabilize `arc_new_cyclic`](https://github.com/rust-lang/rust/pull/90666)
+* [stabilize `vec_spare_capacity`](https://github.com/rust-lang/rust/pull/93016)
+* [stabilize `-Z print-link-args` as `--print link-args`](https://github.com/rust-lang/rust/pull/91606)
+* [cargo: error when setting crate type of both dylib and cdylib in library](https://github.com/rust-lang/cargo/pull/10243)
+* [clippy: add `msrv` config for `map_clone`](https://github.com/rust-lang/rust-clippy/pull/8280)
+* [clippy: check usages in `ptr_arg`](https://github.com/rust-lang/rust-clippy/pull/8271)
+* [clippy: don't suggest an empty variant name in `enum_variant_names`](https://github.com/rust-lang/rust-clippy/pull/8329)
+* [clippy: fix `needless_borrow` causing mutable borrows to be moved](https://github.com/rust-lang/rust-clippy/pull/8217)
+* [clippy: `needless_lifetimes`: ignore lifetimes in explicit self types](https://github.com/rust-lang/rust-clippy/pull/8278)
+* [clippy: `trait_duplication_in_bounds` checks path segments for trait items](https://github.com/rust-lang/rust-clippy/pull/8315)
+* [clippy: fix `needless_question_mark` not considering async fn](https://github.com/rust-lang/rust-clippy/pull/8311)
+* [clippy: fix `op_ref` false positive](https://github.com/rust-lang/rust-clippy/pull/8298)
 
 ### Rust Compiler Performance Triage
 
@@ -158,11 +174,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Usually Rust figures out the [Sartre question](https://davedevine.wordpress.com/2011/01/20/the-sartre-joke/) by itself
+> Rust : We have a race condition bug in our standard filesystem library !  
+> C++ : You guys have a concurrency safe standard filesystem library ?  
+> C : You guys have a standard filesystem library ?
 
-– [kornel on rust-users](https://users.rust-lang.org/t/type-ascription/70214/4)
+– [redditmodsareshits on /r/cpp](https://np.reddit.com/r/cpp/comments/s8ok0h/possible_toctou_vulnerabilities_in)
 
-Thanks to [H2CO3](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1166) for the suggestion!
+Thanks to [UtherII](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1168) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
