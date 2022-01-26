@@ -28,6 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 * [Detect unsigned integer underflow](https://frehberg.com/2022/01/rust-detect-unsigned-integer-underflow/)
+* [Part 1: The life of an optimization barrier](https://blog.trailofbits.com/2022/01/26/part-1-the-life-of-an-optimization-barrier/)
 
 ### Rust Walkthroughs
 * [Building fast Wikipedia bots in Rust](https://blog.legoktm.com/2022/01/21/building-fast-wikipedia-bots-in-rust.html)
