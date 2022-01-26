@@ -22,7 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
-[Publishing to crates.io](https://www.printlnhello.world/blog/publishing-to-crates-io/)
+* [Lowering async await in rust](https://wiki.cont.run/lowering-async-await-in-rust/)
+* [Publishing to crates.io](https://www.printlnhello.world/blog/publishing-to-crates-io/)
 
 ### Miscellaneous
 
