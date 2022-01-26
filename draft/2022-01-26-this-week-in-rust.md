@@ -125,7 +125,7 @@ Revision range: [72e74d..7bc7be](https://perf.rust-lang.org/?start=72e74d7b9cf1a
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* *No RFCs were approved this week.*
+* [Scoped threads in the standard library, take 2](https://github.com/rust-lang/rfcs/pull/3151)
 
 ### Final Comment Period
 
@@ -135,20 +135,22 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Scoped threads in the standard library, take 2](https://github.com/rust-lang/rfcs/pull/3151)
+* *No RFCs entered FCP this week.*
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Stabilize arc_new_cyclic](https://github.com/rust-lang/rust/pull/90666)
-* [disposition: merge] [Change location of where clause on GATs](https://github.com/rust-lang/rust/pull/90076)
-* [disposition: merge] [rustdoc: "Namespace" user-written Markdown headings](https://github.com/rust-lang/rust/issues/91759)
-* [disposition: merge] [Stabilize -Z print-link-args as --print link-args](https://github.com/rust-lang/rust/pull/91606)
-* [disposition: merge] [Use verbatim paths for process::Command if necessary](https://github.com/rust-lang/rust/pull/92519)
-* [disposition: merge] [impl Not for !](https://github.com/rust-lang/rust/pull/91122)
+* [disposition: merge] [unreachable!("{}") works on Rust 2021](https://github.com/rust-lang/rust/issues/92137)
+* [disposition: merge] [Tracking Issue for Stdin::lines forwarder method](https://github.com/rust-lang/rust/issues/87096)
+* [disposition: merge] [impl Display for io::ErrorKind](https://github.com/rust-lang/rust/pull/93090)
+* [disposition: merge] [Tracking Issue for feature(pin_static_ref): Pin::{static_ref,static_mut}](https://github.com/rust-lang/rust/issues/78186)
+* [disposition: merge] [Tracking issue for #[cfg(target_has_atomic = ...)]](https://github.com/rust-lang/rust/issues/32976)
+* [disposition: merge] [Stabilize -Z instrument-coverage as -C instrument-coverage](https://github.com/rust-lang/rust/pull/90132)
 
-### [New RFCs](https://github.com/rust-lang/rfcs/pulls)
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* *No new RFCs were opened this week.*
+* [new] [Add `ignore_if` RFC](https://github.com/rust-lang/rfcs/pull/3221)
+* [update] [Add vendor-specific suffixes to v0 mangling RFC 2603](https://github.com/rust-lang/rfcs/pull/3224)
+* [update] [Mark RFC 1201 (naked functions) superseded by RFC 2972 (constrained naked functions)](https://github.com/rust-lang/rfcs/pull/3223)
 
 ## Upcoming Events
 
