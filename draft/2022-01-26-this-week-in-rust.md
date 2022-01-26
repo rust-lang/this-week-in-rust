@@ -17,6 +17,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Project/Tooling Updates
+* [Alacritty 0.10.0](https://alacritty.org/changelog_0_10_0.html)
+* [`mold` 1.0.2](https://github.com/rui314/mold/releases/tag/v1.0.2)
+* [RamFS](https://lore.kernel.org/rust-for-linux/35d69719-2b02-62f2-7e2f-afa367ee684a@gmail.com/)
+* [WebAssembly Weekly #163](https://wasmweekly.news/issue-163/)
+
+### Research
+* [How ISO C became unusable for operating systems development](https://arxiv.org/abs/2201.07845)
 
 ### Observations/Thoughts
 
