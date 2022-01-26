@@ -28,10 +28,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 * [Detect unsigned integer underflow](https://frehberg.com/2022/01/rust-detect-unsigned-integer-underflow/)
+* [Non-Lazy Futures Considered Harmful](https://swatinem.de/blog/non-lazy-futures/)
 
 ### Rust Walkthroughs
 * [Building fast Wikipedia bots in Rust](https://blog.legoktm.com/2022/01/21/building-fast-wikipedia-bots-in-rust.html)
-
+* [Futures and Tasks: A tale of concurrency and parallelism](https://swatinem.de/blog/futures-n-tasks/)
 * [Lowering async await in rust](https://wiki.cont.run/lowering-async-await-in-rust/)
 * [Publishing to crates.io](https://www.printlnhello.world/blog/publishing-to-crates-io/)
 
