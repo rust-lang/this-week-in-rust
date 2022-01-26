@@ -27,9 +27,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [async-await: Cooperative vs Preemtive scheduling](https://kerkour.com/cooperative-vs-preemtive-scheduling/)
 * [Detect unsigned integer underflow](https://frehberg.com/2022/01/rust-detect-unsigned-integer-underflow/)
 
 ### Rust Walkthroughs
+* [Clean and Scalable Architecture for Rust Web Applications](https://kerkour.com/rust-web-application-clean-architecture/)
 * [Building fast Wikipedia bots in Rust](https://blog.legoktm.com/2022/01/21/building-fast-wikipedia-bots-in-rust.html)
 
 * [Lowering async await in rust](https://wiki.cont.run/lowering-async-await-in-rust/)
