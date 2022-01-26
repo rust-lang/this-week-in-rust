@@ -34,6 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Lowering async await in rust](https://wiki.cont.run/lowering-async-await-in-rust/)
 * [Publishing to crates.io](https://www.printlnhello.world/blog/publishing-to-crates-io/)
+* [Hello, Microcontroller! - Demystify microcontrollers by programming one in ~100 lines of dependency-free Rust](https://medium.com/tempus-ex/hello-microcontroller-c747480818fa)
 
 ### Miscellaneous
 
