@@ -218,6 +218,10 @@ Email the [Rust Community Team][community] for access.
 
 * [Multiple Rust Positions Available (New York, NY, US or Remote)](https://www.osohq.com/company/jobs)
 
+**Connected Cars**
+
+* [Embedded/IoT Software Engineering (Copenhagen, DK)](https://connectedcars.io/jobs/embedded-software-engineer)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
