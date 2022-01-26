@@ -23,6 +23,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Dotenv-linter v3.2.0: Overview](https://dotenv-linter.github.io/#/whats_new/v320)
 
+* [youki 0.0.2 release](https://github.com/containers/youki/releases/tag/v0.0.2)
+
 ### Observations/Thoughts
 
 * [Detect unsigned integer underflow](https://frehberg.com/2022/01/rust-detect-unsigned-integer-underflow/)
