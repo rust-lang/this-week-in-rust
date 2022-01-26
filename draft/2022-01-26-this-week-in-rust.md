@@ -19,6 +19,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 * [Settings sync browser addon for rustdoc](https://gitlab.com/notriddle/rustdoc-settings-sync/-/snippets/2239910)
 
+* [SixtyFPS (GUI crate): Changelog for 23th of January 2022](https://sixtyfps.io/thisweek/2022-01-24.html)
+
 ### Observations/Thoughts
 
 * [Detect unsigned integer underflow](https://frehberg.com/2022/01/rust-detect-unsigned-integer-underflow/)
