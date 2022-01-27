@@ -43,6 +43,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Part 1: The life of an optimization barrier](https://blog.trailofbits.com/2022/01/26/part-1-the-life-of-an-optimization-barrier/)
 * [On Rust in Webdev](https://radekmie.github.io/blog/on-rust-in-webdev/)
 * [Unsoundness in owning_ref](https://github.com/noamtashma/owning-ref-unsoundness)
+* [Type-Driven Development](https://duesee.dev/p/type-driven-development/)
+* [Rust Programming, What to Look Forward to in 2022](https://chester-beard.medium.com/rust-programming-what-to-look-forward-to-in-2022-2e041258f750)
 
 ### Rust Walkthroughs
 * [Clean and Scalable Architecture for Rust Web Applications](https://kerkour.com/rust-web-application-clean-architecture/)
@@ -208,11 +210,21 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-* [Senior Frontend Engineer - Kollider, Remote](https://kollider.homerun.co/senior-frontend-engineer/en?)
+**Aembit**
+
+* [Senior Software Engineer (Remote)](https://www.linkedin.com/jobs/view/2876048244/)
+
+** Kollider**
+
+* [Senior Frontend Engineer (Remote)](https://kollider.homerun.co/senior-frontend-engineer/en?)
+
+**BrightMarbles**
+
+* [Software Engineer – Rust (Remote)](https://brightmarbles.zohorecruit.eu/jobs/Careers/36808000001372001/Software-Engineer-–-Rust)
 
 **Tempus Ex**
 
-* [Several full-time Rust positions available (San Francisco, Atlanta, Austin, and Remote)](https://tempus-ex.com/careers)
+* [Several Rust positions available (San Francisco, Atlanta, Austin, and Remote)](https://tempus-ex.com/careers)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
