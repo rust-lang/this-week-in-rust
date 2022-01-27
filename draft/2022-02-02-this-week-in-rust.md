@@ -1,6 +1,6 @@
-Title: This Week in Rust 427
-Number: 427
-Date: 2022-01-26
+Title: This Week in Rust 428
+Number: 428
+Date: 2022-02-02
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -15,54 +15,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
-* [Announcing Rust 1.58.1](https://blog.rust-lang.org/2022/01/20/Rust-1.58.1.html)
-* [Security advisory for the standard library (CVE-2022-21658)](https://blog.rust-lang.org/2022/01/20/cve-2022-21658.html)
-* [Rust Compiler January 2022 Steering Cycle](https://blog.rust-lang.org/inside-rust/2022/01/18/jan-steering-cycle.html)
 
 ### Project/Tooling Updates
-* [Rust Analyzer Changelog #113](https://rust-analyzer.github.io/thisweek/2022/01/24/changelog-113.html)
-* [SixtyFPS (GUI crate): Changelog for 23th of January 2022](https://sixtyfps.io/thisweek/2022-01-24.html)
-* [Settings sync browser addon for rustdoc](https://gitlab.com/notriddle/rustdoc-settings-sync/-/snippets/2239910)
-* [Dotenv-linter v3.2.0: Overview](https://dotenv-linter.github.io/#/whats_new/v320)
-* [youki 0.0.2 release](https://github.com/containers/youki/releases/tag/v0.0.2)
-* [This week in Databend #26: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-01-26-databend-weekly/)
 
 ### Newsletters
-* [This Month in Rust GameDev #29 - December 2021](https://gamedev.rs/news/029/)
 
 ### Research
-* [DuVisor: a User-level Hypervisor Through Delegated Virtualization](https://arxiv.org/abs/2201.09652)
 
 ### Observations/Thoughts
-* [Being Fair about Memory Safety and Performance](https://www.thecodedmessage.com/posts/unsafe/)
-* [Why Static Languages Suffer From Complexity](https://hirrolot.github.io/posts/why-static-languages-suffer-from-complexity)
-* [Async destruction on stable rust](https://github.com/vzvezda/asyncdrop/blob/main/article/async-dest.md)
-* [async-await: Cooperative vs Preemtive scheduling](https://kerkour.com/cooperative-vs-preemtive-scheduling/)
-* [Detect unsigned integer underflow](https://frehberg.com/2022/01/rust-detect-unsigned-integer-underflow/)
-* [Non-Lazy Futures Considered Harmful](https://swatinem.de/blog/non-lazy-futures/)
-* [Part 1: The life of an optimization barrier](https://blog.trailofbits.com/2022/01/26/part-1-the-life-of-an-optimization-barrier/)
-* [On Rust in Webdev](https://radekmie.github.io/blog/on-rust-in-webdev/)
-* [Unsoundness in owning_ref](https://github.com/noamtashma/owning-ref-unsoundness)
-* [Type-Driven Development](https://duesee.dev/p/type-driven-development/)
-* [Rust Programming, What to Look Forward to in 2022](https://chester-beard.medium.com/rust-programming-what-to-look-forward-to-in-2022-2e041258f750)
 
 ### Rust Walkthroughs
-* [Clean and Scalable Architecture for Rust Web Applications](https://kerkour.com/rust-web-application-clean-architecture/)
-* [Building fast Wikipedia bots in Rust](https://blog.legoktm.com/2022/01/21/building-fast-wikipedia-bots-in-rust.html)
-* [Futures and Tasks: A tale of concurrency and parallelism](https://swatinem.de/blog/futures-n-tasks/)
-* [Lowering async await in rust](https://wiki.cont.run/lowering-async-await-in-rust/)
-* [Publishing to crates.io](https://www.printlnhello.world/blog/publishing-to-crates-io/)
-* [Hello, Microcontroller! - Demystify microcontrollers by programming one in ~100 lines of dependency-free Rust](https://medium.com/tempus-ex/hello-microcontroller-c747480818fa)
-* [Rain's Rust CLI recommendations](https://rust-cli-recommendations.sunshowers.io/)
-* [Taking Rust for a Ride to Azeroth: What writing an AH Scanner in Rust taught me](https://medium.com/digitalfrontiers/taking-rust-for-a-ride-to-azeroth-what-writing-an-ah-scanner-in-rust-taught-me-58edc936cbb)
-* [On self-modifying executables in Rust](https://blog.dend.ro/self-modifying-rust/)
-* [Using tree data structures to implement terminal split panes - more fun than it sounds](https://blog.warp.dev/using-tree-data-structures-to-implement-terminal-split-panes-more-fun-than-it-sounds/)
-* [Durability and Redo Logging](http://justinjaffray.com/durability-and-redo-logging/)
-* [video] [Messing With The Recipe](https://www.youtube.com/watch?v=m902hm3fK7Q)
-* [audio] [Gitoxide with Sebastian Thiel](https://rustacean-station.org/episode/055-sebastian-thiel/)
 
 ### Miscellaneous
-* [tyty](https://zackoverflow.dev/writing/tyty)
 
 ## Crate of the Week
 
@@ -209,22 +173,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
-**Aembit**
-
-* [Senior Software Engineer (Remote)](https://www.linkedin.com/jobs/view/2876048244/)
-
-** Kollider**
-
-* [Senior Frontend Engineer (Remote)](https://kollider.homerun.co/senior-frontend-engineer/en?)
-
-**BrightMarbles**
-
-* [Software Engineer – Rust (Remote)](https://brightmarbles.zohorecruit.eu/jobs/Careers/36808000001372001/Software-Engineer-–-Rust)
-
-**Tempus Ex**
-
-* [Several Rust positions available (San Francisco, Atlanta, Austin, and Remote)](https://tempus-ex.com/careers)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
