@@ -25,6 +25,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [youki 0.0.2 release](https://github.com/containers/youki/releases/tag/v0.0.2)
 
+* [This week in Databend #26: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-01-26-databend-weekly/)
+
 ### Observations/Thoughts
 
 * [Detect unsigned integer underflow](https://frehberg.com/2022/01/rust-detect-unsigned-integer-underflow/)
