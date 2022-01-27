@@ -49,6 +49,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Futures and Tasks: A tale of concurrency and parallelism](https://swatinem.de/blog/futures-n-tasks/)
 * [Lowering async await in rust](https://wiki.cont.run/lowering-async-await-in-rust/)
 * [Publishing to crates.io](https://www.printlnhello.world/blog/publishing-to-crates-io/)
+* [Hello, Microcontroller! - Demystify microcontrollers by programming one in ~100 lines of dependency-free Rust](https://medium.com/tempus-ex/hello-microcontroller-c747480818fa)
 * [Rain's Rust CLI recommendations](https://rust-cli-recommendations.sunshowers.io/)
 * [Taking Rust for a Ride to Azeroth: What writing an AH Scanner in Rust taught me](https://medium.com/digitalfrontiers/taking-rust-for-a-ride-to-azeroth-what-writing-an-ah-scanner-in-rust-taught-me-58edc936cbb)
 * [On self-modifying executables in Rust](https://blog.dend.ro/self-modifying-rust/)
