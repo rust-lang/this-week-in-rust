@@ -34,7 +34,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [Being Fair about Memory Safety and Performance](https://www.thecodedmessage.com/posts/unsafe/)
-* [async-await: Cooperative vs Preemtive scheduling](https://kerkour.com/cooperative-vs-preemtive-scheduling/)
 * [Why Static Languages Suffer From Complexity](https://hirrolot.github.io/posts/why-static-languages-suffer-from-complexity)
 * [Async destruction on stable rust](https://github.com/vzvezda/asyncdrop/blob/main/article/async-dest.md)
 * [async-await: Cooperative vs Preemtive scheduling](https://kerkour.com/cooperative-vs-preemtive-scheduling/)
