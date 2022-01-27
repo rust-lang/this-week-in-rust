@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Settings sync browser addon for rustdoc](https://gitlab.com/notriddle/rustdoc-settings-sync/-/snippets/2239910)
 * [Dotenv-linter v3.2.0: Overview](https://dotenv-linter.github.io/#/whats_new/v320)
 * [youki 0.0.2 release](https://github.com/containers/youki/releases/tag/v0.0.2)
+* [This week in Databend #26: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-01-26-databend-weekly/)
 
 ### Newsletters
 * [This Month in Rust GameDev #29 - December 2021](https://gamedev.rs/news/029/)
