@@ -15,27 +15,46 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [Announcing Rust 1.58.1](https://blog.rust-lang.org/2022/01/20/Rust-1.58.1.html)
+* [Security advisory for the standard library (CVE-2022-21658)](https://blog.rust-lang.org/2022/01/20/cve-2022-21658.html)
+* [Rust Compiler January 2022 Steering Cycle](https://blog.rust-lang.org/inside-rust/2022/01/18/jan-steering-cycle.html)
 
 ### Project/Tooling Updates
-* [Settings sync browser addon for rustdoc](https://gitlab.com/notriddle/rustdoc-settings-sync/-/snippets/2239910)
-
+* [Rust Analyzer Changelog #113](https://rust-analyzer.github.io/thisweek/2022/01/24/changelog-113.html)
 * [SixtyFPS (GUI crate): Changelog for 23th of January 2022](https://sixtyfps.io/thisweek/2022-01-24.html)
-
+* [Settings sync browser addon for rustdoc](https://gitlab.com/notriddle/rustdoc-settings-sync/-/snippets/2239910)
 * [Dotenv-linter v3.2.0: Overview](https://dotenv-linter.github.io/#/whats_new/v320)
-
 * [youki 0.0.2 release](https://github.com/containers/youki/releases/tag/v0.0.2)
 
-### Observations/Thoughts
+### Newsletters
+* [This Month in Rust GameDev #29 - December 2021](https://gamedev.rs/news/029/)
 
+### Research
+* [DuVisor: a User-level Hypervisor Through Delegated Virtualization](https://arxiv.org/abs/2201.09652)
+
+### Observations/Thoughts
+* [Being Fair about Memory Safety and Performance](https://www.thecodedmessage.com/posts/unsafe/)
+* [async-await: Cooperative vs Preemtive scheduling](https://kerkour.com/cooperative-vs-preemtive-scheduling/)
+* [Why Static Languages Suffer From Complexity](https://hirrolot.github.io/posts/why-static-languages-suffer-from-complexity)
+* [Async destruction on stable rust](https://github.com/vzvezda/asyncdrop/blob/main/article/async-dest.md)
 * [Detect unsigned integer underflow](https://frehberg.com/2022/01/rust-detect-unsigned-integer-underflow/)
+* [On Rust in Webdev](https://radekmie.github.io/blog/on-rust-in-webdev/)
+* [Unsoundness in owning_ref](https://github.com/noamtashma/owning-ref-unsoundness)
 
 ### Rust Walkthroughs
 * [Building fast Wikipedia bots in Rust](https://blog.legoktm.com/2022/01/21/building-fast-wikipedia-bots-in-rust.html)
-
 * [Lowering async await in rust](https://wiki.cont.run/lowering-async-await-in-rust/)
 * [Publishing to crates.io](https://www.printlnhello.world/blog/publishing-to-crates-io/)
+* [Rain's Rust CLI recommendations](https://rust-cli-recommendations.sunshowers.io/)
+* [Taking Rust for a Ride to Azeroth: What writing an AH Scanner in Rust taught me](https://medium.com/digitalfrontiers/taking-rust-for-a-ride-to-azeroth-what-writing-an-ah-scanner-in-rust-taught-me-58edc936cbb)
+* [On self-modifying executables in Rust](https://blog.dend.ro/self-modifying-rust/)
+* [Using tree data structures to implement terminal split panes - more fun than it sounds](https://blog.warp.dev/using-tree-data-structures-to-implement-terminal-split-panes-more-fun-than-it-sounds/)
+* [Durability and Redo Logging](http://justinjaffray.com/durability-and-redo-logging/)
+* [video] [Messing With The Recipe](https://www.youtube.com/watch?v=m902hm3fK7Q)
+* [audio] [Gitoxide with Sebastian Thiel](https://rustacean-station.org/episode/055-sebastian-thiel/)
 
 ### Miscellaneous
+* [tyty](https://zackoverflow.dev/writing/tyty)
 
 ## Crate of the Week
 
