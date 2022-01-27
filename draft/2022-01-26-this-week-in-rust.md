@@ -38,12 +38,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Why Static Languages Suffer From Complexity](https://hirrolot.github.io/posts/why-static-languages-suffer-from-complexity)
 * [Async destruction on stable rust](https://github.com/vzvezda/asyncdrop/blob/main/article/async-dest.md)
 * [Detect unsigned integer underflow](https://frehberg.com/2022/01/rust-detect-unsigned-integer-underflow/)
+* [Non-Lazy Futures Considered Harmful](https://swatinem.de/blog/non-lazy-futures/)
 * [Part 1: The life of an optimization barrier](https://blog.trailofbits.com/2022/01/26/part-1-the-life-of-an-optimization-barrier/)
 * [On Rust in Webdev](https://radekmie.github.io/blog/on-rust-in-webdev/)
 * [Unsoundness in owning_ref](https://github.com/noamtashma/owning-ref-unsoundness)
 
 ### Rust Walkthroughs
 * [Building fast Wikipedia bots in Rust](https://blog.legoktm.com/2022/01/21/building-fast-wikipedia-bots-in-rust.html)
+* [Futures and Tasks: A tale of concurrency and parallelism](https://swatinem.de/blog/futures-n-tasks/)
 * [Lowering async await in rust](https://wiki.cont.run/lowering-async-await-in-rust/)
 * [Publishing to crates.io](https://www.printlnhello.world/blog/publishing-to-crates-io/)
 * [Rain's Rust CLI recommendations](https://rust-cli-recommendations.sunshowers.io/)
