@@ -15,27 +15,46 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [Announcing Rust 1.58.1](https://blog.rust-lang.org/2022/01/20/Rust-1.58.1.html)
+* [Security advisory for the standard library (CVE-2022-21658)](https://blog.rust-lang.org/2022/01/20/cve-2022-21658.html)
+* [Rust Compiler January 2022 Steering Cycle](https://blog.rust-lang.org/inside-rust/2022/01/18/jan-steering-cycle.html)
 
 ### Project/Tooling Updates
-* [Settings sync browser addon for rustdoc](https://gitlab.com/notriddle/rustdoc-settings-sync/-/snippets/2239910)
-
+* [Rust Analyzer Changelog #113](https://rust-analyzer.github.io/thisweek/2022/01/24/changelog-113.html)
 * [SixtyFPS (GUI crate): Changelog for 23th of January 2022](https://sixtyfps.io/thisweek/2022-01-24.html)
-
+* [Settings sync browser addon for rustdoc](https://gitlab.com/notriddle/rustdoc-settings-sync/-/snippets/2239910)
 * [Dotenv-linter v3.2.0: Overview](https://dotenv-linter.github.io/#/whats_new/v320)
-
 * [youki 0.0.2 release](https://github.com/containers/youki/releases/tag/v0.0.2)
 
-### Observations/Thoughts
+### Newsletters
+* [This Month in Rust GameDev #29 - December 2021](https://gamedev.rs/news/029/)
 
+### Research
+* [DuVisor: a User-level Hypervisor Through Delegated Virtualization](https://arxiv.org/abs/2201.09652)
+
+### Observations/Thoughts
+* [Being Fair about Memory Safety and Performance](https://www.thecodedmessage.com/posts/unsafe/)
+* [async-await: Cooperative vs Preemtive scheduling](https://kerkour.com/cooperative-vs-preemtive-scheduling/)
+* [Why Static Languages Suffer From Complexity](https://hirrolot.github.io/posts/why-static-languages-suffer-from-complexity)
+* [Async destruction on stable rust](https://github.com/vzvezda/asyncdrop/blob/main/article/async-dest.md)
 * [Detect unsigned integer underflow](https://frehberg.com/2022/01/rust-detect-unsigned-integer-underflow/)
+* [On Rust in Webdev](https://radekmie.github.io/blog/on-rust-in-webdev/)
+* [Unsoundness in owning_ref](https://github.com/noamtashma/owning-ref-unsoundness)
 
 ### Rust Walkthroughs
 * [Building fast Wikipedia bots in Rust](https://blog.legoktm.com/2022/01/21/building-fast-wikipedia-bots-in-rust.html)
-
 * [Lowering async await in rust](https://wiki.cont.run/lowering-async-await-in-rust/)
 * [Publishing to crates.io](https://www.printlnhello.world/blog/publishing-to-crates-io/)
+* [Rain's Rust CLI recommendations](https://rust-cli-recommendations.sunshowers.io/)
+* [Taking Rust for a Ride to Azeroth: What writing an AH Scanner in Rust taught me](https://medium.com/digitalfrontiers/taking-rust-for-a-ride-to-azeroth-what-writing-an-ah-scanner-in-rust-taught-me-58edc936cbb)
+* [On self-modifying executables in Rust](https://blog.dend.ro/self-modifying-rust/)
+* [Using tree data structures to implement terminal split panes - more fun than it sounds](https://blog.warp.dev/using-tree-data-structures-to-implement-terminal-split-panes-more-fun-than-it-sounds/)
+* [Durability and Redo Logging](http://justinjaffray.com/durability-and-redo-logging/)
+* [video] [Messing With The Recipe](https://www.youtube.com/watch?v=m902hm3fK7Q)
+* [audio] [Gitoxide with Sebastian Thiel](https://rustacean-station.org/episode/055-sebastian-thiel/)
 
 ### Miscellaneous
+* [tyty](https://zackoverflow.dev/writing/tyty)
 
 ## Crate of the Week
 
@@ -154,14 +173,11 @@ decision. Express your opinions now.
 
 ## Upcoming Events
 
-Rusty Events between 1/19/2022 - 2/16/2022 🦀
+Rusty Events between 1/26/2022 - 2/23/2022 🦀
 
 ### Online
 
-* [January 19, 2022 | Vancouver, BC, CA | **Rust Study/Hack/Hang-out night** | Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/nwcmpsydccbzb)
-* [January 20, 2022 | Cardiff, UK | **Rust Book Study Session - Functional Language Features & Cargo and Crates.io** | Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/283204522/)
-* [January 25, 2022 | Dallas, TX, US | **Last Tuesday Meetup** | Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrydccbhc/)
-* [January 25, 2022 | Los Gatos, CA, US | **Book #24 - Rust for Rustaceans - Chapter 3 - Designing Interfaces** | Los Gatos Reading Group](https://www.meetup.com/Los-Gatos-Rust-Reading-Group/events/283352417/)
+* [January 26, 2021 | Vienna, AT | **The Rustic Mob** | Mob-Programming on Open Source Software](https://www.meetup.com/Mob-Programming-on-Open-Source-Software/events/283408208)
 * [January 27, 2022 | Charlottesville, VA, US | **Minimal Area Bananagrams: a Tale of Needless Optimization** | Charlottesville Rust Meetup](https://www.meetup.com/Charlottesville-Rust-Meetup/events/283355090/)
 * [January 27, 2021 | Linz, AT | **Rust Meetup Linz - 18th Edition** | Rust Linz](https://www.meetup.com/Rust-Linz/events/283116945/)
 * [January 27, 2022 | Nürnberg, DE | **Rust Nürnberg online #9**| Rust Nuremberg](https://www.meetup.com/rust-noris/events/283118050/)
@@ -169,11 +185,14 @@ Rusty Events between 1/19/2022 - 2/16/2022 🦀
 * [January 29, 2021 | London, UK | **Rust (Remote) Hack & Learn** | Rust London User Group](https://www.meetup.com/Rust-London-User-Group/events/283335221/)
 * [February 1, 2021 | Berlin, DE | **Rust Hack and Learn** | OpenTechSchool Berlin](https://www.meetup.com/de-DE/opentechschool-berlin/events/283338268/)
 * [February 1, 2022 | Buffalo, NY, US | **First Tuesdays: Buffalo Rust User Group** | Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/283011769)
+* [February 1, 2022 | Los Gatos, CA, US | **Book #24 - Rust for Rustaceans - Chapter 4 - Error Handling** | Los Gatos Reading Group](https://www.meetup.com/Los-Gatos-Rust-Reading-Group/events/283494504/)
+* [February 3, 2022 | Cardiff, UK | **Rust Book Study Session - Smart Pointers** | Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/283480500/)
 * [February 8, 2022 | Seattle, WA, US | **Monthly meetup** | Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/283213217/)
 * [February 9, 2022 | Los Angeles, CA, US | **Raphael Tessmer & Celeste, finding craters on a rusty planet** (Virtual) | Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/283232930/)
 * [February 9, 2022 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/282545292)
 * [February 15, 2022 | Washington, DC, US| **Mid-month Rustful** | Rust DC](https://www.meetup.com/RustDC/events/283351974/)
-* [February 16, 2022 | Vancouver, BC, CA | **Rust Study/Hack/Hang-out night** | Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/283260386/)
+* [February 16, 2022 | Vancouver, BC, CA | **Rust Study/Hack/Hang-out Night** | Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/283260386/)
+* [February 17, 2022 | München, DE | **Rust - beyond "Hello World"**| Agile Softwareentwicklung München](https://www.meetup.com/maibornwolff-software-engineering-netzwerk/events/283379985)
 
 
 If you are running a Rust event please add it to the [calendar] to get
