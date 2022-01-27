@@ -38,6 +38,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Why Static Languages Suffer From Complexity](https://hirrolot.github.io/posts/why-static-languages-suffer-from-complexity)
 * [Async destruction on stable rust](https://github.com/vzvezda/asyncdrop/blob/main/article/async-dest.md)
 * [Detect unsigned integer underflow](https://frehberg.com/2022/01/rust-detect-unsigned-integer-underflow/)
+* [Part 1: The life of an optimization barrier](https://blog.trailofbits.com/2022/01/26/part-1-the-life-of-an-optimization-barrier/)
 * [On Rust in Webdev](https://radekmie.github.io/blog/on-rust-in-webdev/)
 * [Unsoundness in owning_ref](https://github.com/noamtashma/owning-ref-unsoundness)
 
