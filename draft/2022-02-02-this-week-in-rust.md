@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 ### Miscellaneous
+* [Podcast RustTalk 001. 与 Folyd 聊他的 Rust 使用经历](https://rusttalk.github.io/podcast/001/)
 
 ## Crate of the Week
 
