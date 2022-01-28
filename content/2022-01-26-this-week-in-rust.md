@@ -37,7 +37,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Being Fair about Memory Safety and Performance](https://www.thecodedmessage.com/posts/unsafe/)
 * [Why Static Languages Suffer From Complexity](https://hirrolot.github.io/posts/why-static-languages-suffer-from-complexity)
 * [Async destruction on stable rust](https://github.com/vzvezda/asyncdrop/blob/main/article/async-dest.md)
-* [async-await: Cooperative vs Preemtive scheduling](https://kerkour.com/cooperative-vs-preemtive-scheduling/)
+* [async-await: Cooperative vs Preemptive scheduling](https://kerkour.com/cooperative-vs-preemtive-scheduling/)
 * [Detect unsigned integer underflow](https://frehberg.com/2022/01/rust-detect-unsigned-integer-underflow/)
 * [Non-Lazy Futures Considered Harmful](https://swatinem.de/blog/non-lazy-futures/)
 * [Part 1: The life of an optimization barrier](https://blog.trailofbits.com/2022/01/26/part-1-the-life-of-an-optimization-barrier/)
