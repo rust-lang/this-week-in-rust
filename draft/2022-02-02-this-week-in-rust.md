@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Fornjot 0.5.0](https://www.fornjot.app/blog/fornjot-0-5-0/) - Code-CAD in Rust
+
 ### Newsletters
 
 ### Research
