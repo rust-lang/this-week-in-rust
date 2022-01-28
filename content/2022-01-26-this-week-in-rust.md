@@ -134,7 +134,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-An awesome week. There was some bits of noise from PR [#91032](https://github.com/rust-lang/rust/issues/93032) that landed and then had to be backed out (and may soon land again), and we continue to wrestle with how to classify which things to include in rollup PR's. But overall there were some very real wins to the compiler's performance, and it is definitely reflected in the [total bootstrap time graph](https://perf.rust-lang.org/bootstrap.html). Great job!
+An awesome week. There was some bits of noise from PR [#91032](https://github.com/rust-lang/rust/issues/91032) that landed and then had to be backed out (and may soon land again), and we continue to wrestle with how to classify which things to include in rollup PR's. But overall there were some very real wins to the compiler's performance, and it is definitely reflected in the [total bootstrap time graph](https://perf.rust-lang.org/bootstrap.html). Great job!
 
 Triage done by **@pnkfelix**.
 Revision range: [7bc7be..c54dfe](https://perf.rust-lang.org/?start=7bc7be860f99f4a40d45b0f74e2d01b02e072357&end=c54dfee65126a0ac385d55389a316e89095a0713&absolute=false&stat=instructions%3Au)
