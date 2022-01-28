@@ -26,7 +26,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Dotenv-linter v3.2.0: Overview](https://dotenv-linter.github.io/#/whats_new/v320)
 * [youki 0.0.2 release](https://github.com/containers/youki/releases/tag/v0.0.2)
 * [This week in Databend #26: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-01-26-databend-weekly/)
-* [This week in Fluvio #20: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0020/)
 
 ### Newsletters
 * [This Month in Rust GameDev #29 - December 2021](https://gamedev.rs/news/029/)
