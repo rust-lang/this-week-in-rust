@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 ### Miscellaneous
+* [Implementation of CIDR routing table in Rust](https://rtoch.com/posts/rust-cidr-routing/)
 
 ## Crate of the Week
 
