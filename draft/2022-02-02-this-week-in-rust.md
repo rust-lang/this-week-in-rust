@@ -28,6 +28,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [My new deployment workflow using AWS SDK for Rust](https://mdguerrero.com/blog)
+
 ## Crate of the Week
 
 This week's crate is [html5gum](https://github.com/untitaker/html5gum), a WHATWG HTML spec-compliant HTML5 tokenizer.
