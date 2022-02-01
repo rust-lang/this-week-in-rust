@@ -28,6 +28,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+[Ferrous Systems and AdaCore to join forces on Ferrocene](https://ferrous-systems.com/blog/ferrous-systems-adacore-joining-forces/)
+[AdaCore and Ferrous Systems joining forces to support Rust](https://blog.adacore.com/adacore-and-ferrous-systems-joining-forces-to-support-rust)
 ## Crate of the Week
 
 This week's crate is [html5gum](https://github.com/untitaker/html5gum), a WHATWG HTML spec-compliant HTML5 tokenizer.
