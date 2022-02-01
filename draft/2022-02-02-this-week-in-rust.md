@@ -51,6 +51,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Building and Deploying a Rust library on iOS](https://fnordig.de/2022/01/31/rust-libraries-on-ios/)
 
 * [My new deployment workflow using AWS SDK for Rust](https://mdguerrero.com/blog)
+* [Podcast RustTalk 001. 与 Folyd 聊他的 Rust 使用经历](https://rusttalk.github.io/podcast/001/)
 
 ## Crate of the Week
 
