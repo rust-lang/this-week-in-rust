@@ -21,7 +21,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Board Announcement: Farewell and Thanks to Florian](https://foundation.rust-lang.org/posts/2022-02-02-farewell-florian/)
 
 ### Project/Tooling Updates
-
 * [spa 0.3.0 release](https://crates.io/crates/spa)
 * [An update on rust/coreutils](https://sylvestre.ledru.info/blog/2022/01/29/an-update-on-rust-coreutils)
 * [This week in Fluvio #20: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0020/)
@@ -34,11 +33,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Databend #27: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-02-02-databend-weekly/)
 
 ### Newsletters
-
 * [This Week in Glean: Building and Deploying a Rust library on iOS](https://blog.mozilla.org/data/2022/01/31/this-week-in-glean-building-and-deploying-a-rust-library-on-ios/)
 
 ### Research
-
 * [An Empirical Study of Yanked Releases in the Rust Package Registry](https://arxiv.org/abs/2201.11821)
 
 ### Observations/Thoughts
@@ -54,7 +51,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Curl with Rust](https://daniel.haxx.se/blog/2022/02/01/curl-with-rust/)
 
 ### Rust Walkthroughs
-
 * [How Rust helped me power through my C assignments](https://dev.to/somedood/how-rust-helped-me-power-through-my-c-assignments-2akk)
 * [(Basic) Segment Trees with beautiful diagrams!](https://desmondwillowbrook.github.io/blog/competitive-programming/dsa-explanations/basic-segment-tree/)
 * [Sneak preview: Writing Ruby gem native extensions in Rust](https://briankung.dev/2022/01/31/sneak-preview-writing-ruby-gem-native-extensions-in-rust/)
@@ -65,10 +61,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [DE] [Ferris Talk #5: Tokio als asynchrone Laufzeitumgebung ist ein Fast-Alleskönner](https://www.heise.de/hintergrund/Ferris-Talk-5-Tokio-als-asynchrone-Laufzeitumgebung-ist-ein-Fast-Alleskoenner-6341018.html)
 
 ### Miscellaneous
-
 * [Async Rust: What is a runtime? Here is how tokio works under the hood](https://kerkour.com/rust-async-await-what-is-a-runtime/)
 * [Implementation of CIDR routing table in Rust](https://rtoch.com/posts/rust-cidr-routing/)
-- [How Prime Video updates its app for more than 8,000 device types](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)
+* [How Prime Video updates its app for more than 8,000 device types](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)
 * [Building and Deploying a Rust library on iOS](https://fnordig.de/2022/01/31/rust-libraries-on-ios/)
 * [My new deployment workflow using AWS SDK for Rust](https://mdguerrero.com/blog)
 * [Meilisearch raises a $5M Seed to change the world of user-facing search](https://blog.meilisearch.com/meilisearch-raised-5meu-seed-fundraising/)
