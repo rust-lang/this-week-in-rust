@@ -95,6 +95,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [diesel-rs/diesel - Add support for currently unsupported JSON/JSONB operators](https://github.com/diesel-rs/diesel/issues/3032)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
