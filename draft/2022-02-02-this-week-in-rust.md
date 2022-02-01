@@ -39,6 +39,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [An Empirical Study of Yanked Releases in the Rust Package Registry](https://arxiv.org/abs/2201.11821)
 
 ### Observations/Thoughts
+* [A new phase for the Rustc Reading Club](https://mojosd.medium.com/a-new-phase-for-the-rustc-reading-club-c3a048f52a2f)
 * [The 9 indispensable features to learn for the new Rust programmer](https://kerkour.com/indispensable-rust-features-to-learn/)
 * [Uninitialized Memory: Unsafe Rust is Too Hard](https://lucumr.pocoo.org/2022/1/30/unsafe-rust/)
 * [Part 2: Improving crypto code in Rust using LLVM’s optnone](https://blog.trailofbits.com/2022/02/01/part-2-rusty-crypto/)
@@ -49,6 +50,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [The Curious Absence of Lifetimes](https://ivkov.me/absence-of-lifetimes/)
 * [Rust has a small standard library (and that's ok)](https://blog.nindalf.com/posts/rust-stdlib/)
 * [Curl with Rust](https://daniel.haxx.se/blog/2022/02/01/curl-with-rust/)
+* [Frontmatter Podcast: Matt Provost, Author of Rust From the Ground Up](https://leanpub.com/podcasts/frontmatter/matt-provost-25-01-22)
 
 ### Rust Walkthroughs
 * [How Rust helped me power through my C assignments](https://dev.to/somedood/how-rust-helped-me-power-through-my-c-assignments-2akk)
@@ -226,6 +228,16 @@ Email the [Rust Community Team][community] for access.
 **LoanPASS**
 
 * [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
+
+**Stockly**
+
+* [Back-end developer intern - TechOps team (Rust, GRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-intern-techops-team-rust-grpc-postgresql_paris)
+
+**Kraken**
+
+* [Engineering Manager - Rust - Core Backend](https://jobs.lever.co/kraken/53def500-b146-40da-89a8-98adfd7e84e4)
+* [Rust Engineer, Desktop GUI - Cryptowatch](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
+* [Site Reliability Engineer - Rust - Core Backend](https://jobs.lever.co/kraken/1c6b290f-e430-430d-9b40-a258d07686b0)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
