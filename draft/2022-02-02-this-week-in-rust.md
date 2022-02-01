@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Research
 
 ### Observations/Thoughts
+* [Part 2: Improving crypto code in Rust using LLVM’s optnone](https://blog.trailofbits.com/2022/02/01/part-2-rusty-crypto/)
 
 ### Rust Walkthroughs
 
