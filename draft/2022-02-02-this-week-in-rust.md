@@ -114,7 +114,7 @@ Revision range: [7bc7be..c54dfe](https://perf.rust-lang.org/?start=7bc7be860f99f
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Scoped threads in the standard library, take 2](https://github.com/rust-lang/rfcs/pull/3151)
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -124,22 +124,21 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* *No RFCs entered FCP this week.*
+* *No RFCs entered final comment period this week.*
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [unreachable!("{}") works on Rust 2021](https://github.com/rust-lang/rust/issues/92137)
-* [disposition: merge] [Tracking Issue for Stdin::lines forwarder method](https://github.com/rust-lang/rust/issues/87096)
-* [disposition: merge] [impl Display for io::ErrorKind](https://github.com/rust-lang/rust/pull/93090)
-* [disposition: merge] [Tracking Issue for feature(pin_static_ref): Pin::{static_ref,static_mut}](https://github.com/rust-lang/rust/issues/78186)
-* [disposition: merge] [Tracking issue for #[cfg(target_has_atomic = ...)]](https://github.com/rust-lang/rust/issues/32976)
-* [disposition: merge] [Stabilize -Z instrument-coverage as -C instrument-coverage](https://github.com/rust-lang/rust/pull/90132)
+* [disposition: merge] [Rename `FilenameTooLong` to `FilenameInvalid` and also use it for Windows' `ERROR_INVALID_NAME`](https://github.com/rust-lang/rust/pull/90955)
+* [disposition: merge] [Add `From<u8>` for `ExitCode`](https://github.com/rust-lang/rust/pull/93445)
+* [disposition: merge] [Stabilise std::is_aarch64_feature_detected](https://github.com/rust-lang/rust/issues/86941)
+* [disposition: merge] [Impl {Add,Sub,Mul,Div,Rem,BitXor,BitOr,BitAnd}Assign<$t> for Wrapping<$t> for rust 1.61.0](https://github.com/rust-lang/rust/pull/93208)
+* [disposition: merge] [Tracking Issue for `int_abs_diff`](https://github.com/rust-lang/rust/issues/89492)
+* [disposition: merge] [Tracking Issue for total_cmp (on f32/f64)](https://github.com/rust-lang/rust/issues/72599)
+* [disposition: close] [Stabilize allow_fail test flag](https://github.com/rust-lang/rust/issues/46488)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [new] [Add `ignore_if` RFC](https://github.com/rust-lang/rfcs/pull/3221)
-* [update] [Add vendor-specific suffixes to v0 mangling RFC 2603](https://github.com/rust-lang/rfcs/pull/3224)
-* [update] [Mark RFC 1201 (naked functions) superseded by RFC 2972 (constrained naked functions)](https://github.com/rust-lang/rfcs/pull/3223)
+* [new] [RFC: Custom logo/favicon command-line flags](https://github.com/rust-lang/rfcs/pull/3226)
 
 ## Upcoming Events
 
