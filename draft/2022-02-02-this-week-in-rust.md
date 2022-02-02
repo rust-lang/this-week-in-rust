@@ -178,6 +178,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Polar Sync**
+
+* [Senior Blockchain Engineer (Remote)](https://polarsync.breezy.hr/p/6b3e70422f1d)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
