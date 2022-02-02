@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Research
 
 ### Observations/Thoughts
+* [Writing the fastest GBDT library in Rust](https://www.tangram.dev/blog/writing_the_fastest_gbdt_library_in_rust/)
 * [Async Rust vs RTOS showdown!](https://tweedegolf.nl/en/blog/65/async-rust-vs-rtos-showdown)
 
 ### Rust Walkthroughs
@@ -188,6 +189,10 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Tangram**
+
+* [Rust Programmer (Remote)](https://www.tangram.dev/jobs)
 
 **Polar Sync**
 
