@@ -45,9 +45,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [html5gum](https://github.com/untitaker/html5gum), a WHATWG HTML spec-compliant HTML5 tokenizer.
+This week we have two crates: [update-informer](https://github.com/mgrachev/update-informer), a
+library to embed an update check into your CLI project and
+[blake3](https://crates.io/crates/blake3), a fast cryptographic hash function.
 
-Thanks to [Markus Unterwaditzer](https://users.rust-lang.org/t/crate-of-the-week/2704/1012) for the self-suggestion!
+Thanks to [Grachev Mikhail](https://users.rust-lang.org/t/crate-of-the-week/2704/1014) and 
+[Zac Burns](https://users.rust-lang.org/t/crate-of-the-week/2704/1014) for the suggestions!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -66,50 +69,42 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-381 pull requests were [merged in the last week][merged]
+327 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-01-17..2022-01-24
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-01-24..2022-01-31
 
-* [LLVM on AArch64/GlobalISel: fix incorrect handling of fp truncating stores](https://github.com/rust-lang/llvm-project/pull/127)
-* [show a more informative panic message when `DefPathHash` does not exist](https://github.com/rust-lang/rust/pull/93098)
-* [only suggest adding `!` to expressions that can be macro invocation](https://github.com/rust-lang/rust/pull/93061)
-* [point at correct argument when async fn output type lifetime disagrees with signature](https://github.com/rust-lang/rust/pull/92183)
-* [change lint message to be stronger for `&T` → `&mut T` transmute](https://github.com/rust-lang/rust/pull/92704)
-* [improve string concatenation suggestion](https://github.com/rust-lang/rust/pull/92843)
-* [formally implement let chains](https://github.com/rust-lang/rust/pull/88642)
-* [implement `#[rustc_must_implement_one_of]` attribute](https://github.com/rust-lang/rust/pull/92164)
-* [allow eq constraints on associated constants](https://github.com/rust-lang/rust/pull/87648)
-* [check `const Drop` impls considering `~const` Bounds](https://github.com/rust-lang/rust/pull/93028)
-* [add `~const` bound test for negative impls](https://github.com/rust-lang/rust/pull/92997)
-* [fix ICEs related to `Deref<Target=[T; N]>` on newtypes](https://github.com/rust-lang/rust/pull/92640)
-* [disable drop range tracking in generators](https://github.com/rust-lang/rust/pull/93165)
-* [directly use ConstValue for single literals in blocks](https://github.com/rust-lang/rust/pull/92780)
-* [add preliminary support for inline assembly for msp430](https://github.com/rust-lang/rust/pull/93219)
-* [let qpath contain NtTy: `<$:ty as $:ty>::…`](https://github.com/rust-lang/rust/pull/91150)
-* [make `Decodable` and `Decoder` infallible](https://github.com/rust-lang/rust/pull/93066)
-* [remove a `Span` from `hir::ExprKind::MethodCall`](https://github.com/rust-lang/rust/pull/92787)
-* [emit simpler code from `format_args`](https://github.com/rust-lang/rust/pull/91359)
-* [fix CVE-2022-21658 (symbolic link timing attack in `std::fs::remove_dir_all`)](https://github.com/rust-lang/rust/pull/93112)
-* [implement RFC 3151: Scoped threads](https://github.com/rust-lang/rust/pull/92555)
-* [improve capacity estimation in `Vec::from_iter`](https://github.com/rust-lang/rust/pull/92138)
-* [little improves in `CString::new` when creating from slice](https://github.com/rust-lang/rust/pull/92124)
-* [add `MaybeUninit::`(`slice_`)`as_bytes`(`_mut`)](https://github.com/rust-lang/rust/pull/89747)
-* [add `Option::is_some_with` and `Result::is_`{`ok`, `err`}`_with`](https://github.com/rust-lang/rust/pull/93051)
-* [add `log2` and `log10` to `NonZeroU*`](https://github.com/rust-lang/rust/pull/92956)
-* [std: implement `try_reserve` and `try_reserve_exact` on `PathBuf`](https://github.com/rust-lang/rust/pull/92513)
-* [`impl Not for !`](https://github.com/rust-lang/rust/pull/91122) (did you guess that "not never" is still "never"?)
-* [stabilize `arc_new_cyclic`](https://github.com/rust-lang/rust/pull/90666)
-* [stabilize `vec_spare_capacity`](https://github.com/rust-lang/rust/pull/93016)
-* [stabilize `-Z print-link-args` as `--print link-args`](https://github.com/rust-lang/rust/pull/91606)
-* [cargo: error when setting crate type of both dylib and cdylib in library](https://github.com/rust-lang/cargo/pull/10243)
-* [clippy: add `msrv` config for `map_clone`](https://github.com/rust-lang/rust-clippy/pull/8280)
-* [clippy: check usages in `ptr_arg`](https://github.com/rust-lang/rust-clippy/pull/8271)
-* [clippy: don't suggest an empty variant name in `enum_variant_names`](https://github.com/rust-lang/rust-clippy/pull/8329)
-* [clippy: fix `needless_borrow` causing mutable borrows to be moved](https://github.com/rust-lang/rust-clippy/pull/8217)
-* [clippy: `needless_lifetimes`: ignore lifetimes in explicit self types](https://github.com/rust-lang/rust-clippy/pull/8278)
-* [clippy: `trait_duplication_in_bounds` checks path segments for trait items](https://github.com/rust-lang/rust-clippy/pull/8315)
-* [clippy: fix `needless_question_mark` not considering async fn](https://github.com/rust-lang/rust-clippy/pull/8311)
-* [clippy: fix `op_ref` false positive](https://github.com/rust-lang/rust-clippy/pull/8298)
+* [LLVM: cherry-pick different fix for AArch64 truncating FP stores](https://github.com/rust-lang/llvm-project/pull/128)
+* [allow eliding GATs in expression position](https://github.com/rust-lang/rust/pull/92918)
+* [fix debuginfo for pointers/references to unsized types](https://github.com/rust-lang/rust/pull/93006)
+* [add note suggesting that predicate may be satisfied, but is not `const`](https://github.com/rust-lang/rust/pull/93358)
+* [ignore unwinding edges when checking for unconditional recursion](https://github.com/rust-lang/rust/pull/92889)
+* [don't suggest inaccessible fields](https://github.com/rust-lang/rust/pull/93039)
+* [implement stable overlap check considering negative traits](https://github.com/rust-lang/rust/pull/93175)
+* [improve selection errors for `~const` trait bounds](https://github.com/rust-lang/rust/pull/92256)
+* [improve suggestion for escaping reserved keywords](https://github.com/rust-lang/rust/pull/93395)
+* [suggest tuple-parentheses for enum variants](https://github.com/rust-lang/rust/pull/90677)
+* [fix the unsoundness in the `early_otherwise_branch` mir opt pass](https://github.com/rust-lang/rust/pull/91840)
+* [store `def_id_to_hir_id` as variant in hir_owner](https://github.com/rust-lang/rust/pull/93373)
+* [store `hir_id_to_def_id` in OwnerInfo](https://github.com/rust-lang/rust/pull/93301)
+* [use `indexmap` to avoid sorting `LocalDefId`s](https://github.com/rust-lang/rust/pull/90842)
+* [codegen\_gcc: correctly import foreign statics](https://github.com/rust-lang/rustc_codegen_gcc/pull/115)
+* [codegen\_gcc: support `-Zfunction-sections`](https://github.com/rust-lang/rustc_codegen_gcc/pull/118)
+* [codegen\_gcc: support 128-bit integers on platforms without native support](https://github.com/rust-lang/rustc_codegen_gcc/pull/103)
+* [codegen\_gcc: support upgrading the alignment of a global variable](https://github.com/rust-lang/rustc_codegen_gcc/pull/121)
+* [accommodate yield points in the `format_args` expansion](https://github.com/rust-lang/rust/pull/93461)
+* [add `Simd::cast`](https://github.com/rust-lang/portable-simd/pull/232)
+* [add `intrinsics::const_deallocate`](https://github.com/rust-lang/rust/pull/92274)
+* [add `os::unix::net::SocketAddr::from_path`](https://github.com/rust-lang/rust/pull/93239)
+* [make `NonNull::new` `const`](https://github.com/rust-lang/rust/pull/93236)
+* [make `char::DecodeUtf16::size_hist` more precise](https://github.com/rust-lang/rust/pull/93347)
+* [improve `Duration::try_from_secs_f32`/`64` accuracy by directly processing exponent and mantissa](https://github.com/rust-lang/rust/pull/90247)
+* [cargo: add bash completion for `cargo clippy`](https://github.com/rust-lang/cargo/pull/10347)
+* [cargo: do not ignore `--features` when `--all-features` is present](https://github.com/rust-lang/cargo/pull/10337)
+* [clippy: add `default_union_representation` lint](https://github.com/rust-lang/rust-clippy/pull/8289)
+* [clippy: don't lint `ptr_arg` for `&mut _` types in trait items](https://github.com/rust-lang/rust-clippy/pull/8369)
+* [clippy: fix underflow in `manual_split_once` lint](https://github.com/rust-lang/rust-clippy/pull/8250)
+* [clippy: fix bad suggestion on `numeric_literal`](https://github.com/rust-lang/rust-clippy/pull/8350)
+* [clippy: `single_match`: don't lint non-exhaustive matches; support tuples](https://github.com/rust-lang/rust-clippy/pull/8322)
 
 ### Rust Compiler Performance Triage
 
@@ -201,13 +196,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Rust : We have a race condition bug in our standard filesystem library !  
-> C++ : You guys have a concurrency safe standard filesystem library ?  
-> C : You guys have a standard filesystem library ?
+> * [`impl Not for !`](https://github.com/rust-lang/rust/pull/91122) (did you guess that "not never" is still "never"?)
 
-– [redditmodsareshits on /r/cpp](https://np.reddit.com/r/cpp/comments/s8ok0h/possible_toctou_vulnerabilities_in)
+– [llogiq on last week's TWiR](https://this-week-in-rust.org/blog/2022/01/26/this-week-in-rust-427)
 
-Thanks to [UtherII](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1168) for the suggestion!
+Thanks to [scottmcm](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1174) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
