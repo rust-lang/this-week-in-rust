@@ -202,6 +202,10 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Blockchain Engineer (Remote)](https://polarsync.breezy.hr/p/6b3e70422f1d)
 
+**LoanPASS**
+
+* [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
