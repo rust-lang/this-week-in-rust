@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Project/Tooling Updates
+* [spa 0.3.0 release](https://crates.io/crates/spa)
 
 ### Newsletters
 
