@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Project/Tooling Updates
+* [spa 0.3.0 release](https://crates.io/crates/spa)
 
 * [rustc_codegen_gcc: Progress Report #8](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-8)
 * [An update on rust/coreutils](https://sylvestre.ledru.info/blog/2022/01/29/an-update-on-rust-coreutils)
