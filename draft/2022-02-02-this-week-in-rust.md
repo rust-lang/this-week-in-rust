@@ -174,7 +174,10 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-* [Rust Programmer](https://www.tangram.dev/jobs)
+
+**Tangram**
+
+* [Rust Programmer (Remote)](https://www.tangram.dev/jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
