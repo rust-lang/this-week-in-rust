@@ -26,7 +26,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
-- [(Basic) Segment Trees with beautiful diagrams!](https://desmondwillowbrook.github.io/blog/competitive-programming/dsa-explanations/basic-segment-tree/)
+* [(Basic) Segment Trees with beautiful diagrams!](https://desmondwillowbrook.github.io/blog/competitive-programming/dsa-explanations/basic-segment-tree/)
+* [series] [video] [Writing a Programming Language (in Rust) 13: Object Destructuring (Part 2) and Fixing Recursion](https://www.youtube.com/watch?v=BMGlSTQEC9M)
+* [series] [video] [Writing a Programming Language (in Rust) 14: Compiler Resources and Function Argument Destructuring](https://www.youtube.com/watch?v=hKOKfa30nAI)
 
 ### Miscellaneous
 
