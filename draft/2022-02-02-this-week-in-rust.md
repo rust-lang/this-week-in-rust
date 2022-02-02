@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+- [(Basic) Segment Trees with beautiful diagrams!](https://desmondwillowbrook.github.io/blog/competitive-programming/dsa-explanations/basic-segment-tree/)
+
 ### Miscellaneous
 
 ## Crate of the Week
