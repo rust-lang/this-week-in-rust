@@ -28,6 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Research
 
 ### Observations/Thoughts
+* [Part 2: Improving crypto code in Rust using LLVM’s optnone](https://blog.trailofbits.com/2022/02/01/part-2-rusty-crypto/)
 * [Writing the fastest GBDT library in Rust](https://www.tangram.dev/blog/writing_the_fastest_gbdt_library_in_rust/)
 * [Async Rust vs RTOS showdown!](https://tweedegolf.nl/en/blog/65/async-rust-vs-rtos-showdown)
 
