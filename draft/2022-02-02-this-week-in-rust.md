@@ -37,6 +37,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 - [How Prime Video updates its app for more than 8,000 device types](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)
 
+* [Building and Deploying a Rust library on iOS](https://fnordig.de/2022/01/31/rust-libraries-on-ios/)
+
 ## Crate of the Week
 
 This week's crate is [html5gum](https://github.com/untitaker/html5gum), a WHATWG HTML spec-compliant HTML5 tokenizer.
