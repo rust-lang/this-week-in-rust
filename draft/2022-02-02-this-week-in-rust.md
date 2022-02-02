@@ -31,6 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [series] [video] [Writing a Programming Language (in Rust) 14: Compiler Resources and Function Argument Destructuring](https://www.youtube.com/watch?v=hKOKfa30nAI)
 
 ### Miscellaneous
+* [Implementation of CIDR routing table in Rust](https://rtoch.com/posts/rust-cidr-routing/)
 
 - [How Prime Video updates its app for more than 8,000 device types](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)
 
