@@ -21,6 +21,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [SixtyFPS (GUI crate): Changelog for 30th of January 2022](https://sixtyfps.io/thisweek/2022-01-31.html)
 
+* [Fornjot 0.5.0 - Code-CAD in Rust](https://www.fornjot.app/blog/fornjot-0-5-0/)
+
 ### Newsletters
 
 ### Research
