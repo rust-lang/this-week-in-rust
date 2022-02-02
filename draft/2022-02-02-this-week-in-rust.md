@@ -26,10 +26,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [(Basic) Segment Trees with beautiful diagrams!](https://desmondwillowbrook.github.io/blog/competitive-programming/dsa-explanations/basic-segment-tree/)
 * [series] [video] [Writing a Programming Language (in Rust) 13: Object Destructuring (Part 2) and Fixing Recursion](https://www.youtube.com/watch?v=BMGlSTQEC9M)
 * [series] [video] [Writing a Programming Language (in Rust) 14: Compiler Resources and Function Argument Destructuring](https://www.youtube.com/watch?v=hKOKfa30nAI)
 
 ### Miscellaneous
+
+- [How Prime Video updates its app for more than 8,000 device types](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)
 
 ## Crate of the Week
 
@@ -176,6 +179,10 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Polar Sync**
+
+* [Senior Blockchain Engineer (Remote)](https://polarsync.breezy.hr/p/6b3e70422f1d)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
