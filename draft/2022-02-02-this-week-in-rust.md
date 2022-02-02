@@ -189,6 +189,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Svix**
+
+* [Senior Rust Backend Engineer (Remote)](https://www.svix.com/careers/)
+
 **Tangram**
 
 * [Rust Programmer (Remote)](https://www.tangram.dev/jobs)
