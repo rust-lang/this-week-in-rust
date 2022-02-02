@@ -17,17 +17,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Project/Tooling Updates
+
+* [rustc_codegen_gcc: Progress Report #8](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-8)
+* [An update on rust/coreutils](https://sylvestre.ledru.info/blog/2022/01/29/an-update-on-rust-coreutils)
 * [This week in Fluvio #20: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0020/)
-
 * [SixtyFPS (GUI crate): Changelog for 30th of January 2022](https://sixtyfps.io/thisweek/2022-01-31.html)
-
 * [Fornjot 0.5.0 - Code-CAD in Rust](https://www.fornjot.app/blog/fornjot-0-5-0/)
 
 ### Newsletters
+* [This Week in Glean: Building and Deploying a Rust library on iOS](https://blog.mozilla.org/data/2022/01/31/this-week-in-glean-building-and-deploying-a-rust-library-on-ios/)
 
 ### Research
 
 ### Observations/Thoughts
+* [Uninitialized Memory: Unsafe Rust is Too Hard](https://lucumr.pocoo.org/2022/1/30/unsafe-rust/)
 * [Part 2: Improving crypto code in Rust using LLVM’s optnone](https://blog.trailofbits.com/2022/02/01/part-2-rusty-crypto/)
 * [Writing the fastest GBDT library in Rust](https://www.tangram.dev/blog/writing_the_fastest_gbdt_library_in_rust/)
 * [Async Rust vs RTOS showdown!](https://tweedegolf.nl/en/blog/65/async-rust-vs-rtos-showdown)
