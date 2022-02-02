@@ -18,15 +18,30 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [SixtyFPS (GUI crate): Changelog for 30th of January 2022](https://sixtyfps.io/thisweek/2022-01-31.html)
+
 ### Newsletters
 
 ### Research
 
 ### Observations/Thoughts
+* [Writing the fastest GBDT library in Rust](https://www.tangram.dev/blog/writing_the_fastest_gbdt_library_in_rust/)
+* [Async Rust vs RTOS showdown!](https://tweedegolf.nl/en/blog/65/async-rust-vs-rtos-showdown)
 
 ### Rust Walkthroughs
 
+* [(Basic) Segment Trees with beautiful diagrams!](https://desmondwillowbrook.github.io/blog/competitive-programming/dsa-explanations/basic-segment-tree/)
+* [series] [video] [Writing a Programming Language (in Rust) 13: Object Destructuring (Part 2) and Fixing Recursion](https://www.youtube.com/watch?v=BMGlSTQEC9M)
+* [series] [video] [Writing a Programming Language (in Rust) 14: Compiler Resources and Function Argument Destructuring](https://www.youtube.com/watch?v=hKOKfa30nAI)
+
 ### Miscellaneous
+* [Implementation of CIDR routing table in Rust](https://rtoch.com/posts/rust-cidr-routing/)
+
+- [How Prime Video updates its app for more than 8,000 device types](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)
+
+* [Building and Deploying a Rust library on iOS](https://fnordig.de/2022/01/31/rust-libraries-on-ios/)
+
+* [My new deployment workflow using AWS SDK for Rust](https://mdguerrero.com/blog)
 
 ## Crate of the Week
 
@@ -114,7 +129,7 @@ Revision range: [7bc7be..c54dfe](https://perf.rust-lang.org/?start=7bc7be860f99f
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Scoped threads in the standard library, take 2](https://github.com/rust-lang/rfcs/pull/3151)
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -124,22 +139,21 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* *No RFCs entered FCP this week.*
+* *No RFCs entered final comment period this week.*
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [unreachable!("{}") works on Rust 2021](https://github.com/rust-lang/rust/issues/92137)
-* [disposition: merge] [Tracking Issue for Stdin::lines forwarder method](https://github.com/rust-lang/rust/issues/87096)
-* [disposition: merge] [impl Display for io::ErrorKind](https://github.com/rust-lang/rust/pull/93090)
-* [disposition: merge] [Tracking Issue for feature(pin_static_ref): Pin::{static_ref,static_mut}](https://github.com/rust-lang/rust/issues/78186)
-* [disposition: merge] [Tracking issue for #[cfg(target_has_atomic = ...)]](https://github.com/rust-lang/rust/issues/32976)
-* [disposition: merge] [Stabilize -Z instrument-coverage as -C instrument-coverage](https://github.com/rust-lang/rust/pull/90132)
+* [disposition: merge] [Rename `FilenameTooLong` to `FilenameInvalid` and also use it for Windows' `ERROR_INVALID_NAME`](https://github.com/rust-lang/rust/pull/90955)
+* [disposition: merge] [Add `From<u8>` for `ExitCode`](https://github.com/rust-lang/rust/pull/93445)
+* [disposition: merge] [Stabilise std::is_aarch64_feature_detected](https://github.com/rust-lang/rust/issues/86941)
+* [disposition: merge] [Impl {Add,Sub,Mul,Div,Rem,BitXor,BitOr,BitAnd}Assign<$t> for Wrapping<$t> for rust 1.61.0](https://github.com/rust-lang/rust/pull/93208)
+* [disposition: merge] [Tracking Issue for `int_abs_diff`](https://github.com/rust-lang/rust/issues/89492)
+* [disposition: merge] [Tracking Issue for total_cmp (on f32/f64)](https://github.com/rust-lang/rust/issues/72599)
+* [disposition: close] [Stabilize allow_fail test flag](https://github.com/rust-lang/rust/issues/46488)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [new] [Add `ignore_if` RFC](https://github.com/rust-lang/rfcs/pull/3221)
-* [update] [Add vendor-specific suffixes to v0 mangling RFC 2603](https://github.com/rust-lang/rfcs/pull/3224)
-* [update] [Mark RFC 1201 (naked functions) superseded by RFC 2972 (constrained naked functions)](https://github.com/rust-lang/rfcs/pull/3223)
+* [new] [RFC: Custom logo/favicon command-line flags](https://github.com/rust-lang/rfcs/pull/3226)
 
 ## Upcoming Events
 
@@ -148,6 +162,7 @@ Rusty Events between 2/2/2022 - 3/2/2022 🦀
 ### Online
 
 * [February 3, 2022 | Cardiff, UK | **Rust Book Study Session - Smart Pointers** | Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/283480500/)
+* [February 5 & 6, 2022 | Kyiv, UA | **Write a Game on Rust** | Rust Ukraine](https://dou.ua/calendar/42115/)
 * [February 8, 2022 | Saarbrücken, DE | **Meetup: 17u16** | Rust-Saar](https://www.meetup.com/Rust-Saar/events/283617274)
 * [February 8, 2022 | Seattle, WA, US | **Monthly meetup** | Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/283213217/)
 * [February 9, 2022 | Los Angeles, CA, US | **Raphael Tessmer & Celeste, finding craters on a rusty planet** (Virtual) | Rust Los Angeles](https://www.meetup.com/Rust-Los-Angeles/events/283232930/)
@@ -171,6 +186,14 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Tangram**
+
+* [Rust Programmer (Remote)](https://www.tangram.dev/jobs)
+
+**Polar Sync**
+
+* [Senior Blockchain Engineer (Remote)](https://polarsync.breezy.hr/p/6b3e70422f1d)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 

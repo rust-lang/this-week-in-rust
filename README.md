@@ -39,7 +39,7 @@ What we are generally NOT looking for includes:
 * Rants or anything degrading to any part or member of the Community. Rather than submitting an article about what is wrong with something, we would much rather you write something that explains how you'd make it better.
 * Duplicates of recent posts (even with the wording changed slightly)
 * Links to crates or GitHub repos without some sort of context. We would much rather you submit a blog post introducing your project and how a Rust user might use it (and what it would help them do) and/or what you learned about Rust in the process of writing the project.
-* Anything behind a paywall (this includes Medium's paid article mechanism)
+* Anything behind a paywall (this includes Medium's paid article / members-only mechanism)
 * Anything that requires information to be shared/captured (like an email address) in order to access
 
 These are meant to be guidelines, if you are ever not sure about whether something should be included please feel free to open a pull request anyway and we can discuss it!
@@ -47,6 +47,8 @@ These are meant to be guidelines, if you are ever not sure about whether somethi
 The editors of This Week in Rust do reserve the right to make the decision about whether to include something or not, but we intend to do so in a way that is as transparent as possible.
 
 ## Link style guidelines:
+
+The link text should be the same as the page's title. If the title seems to need additional context (for example, if the title is "What's New" and should have the project name added), please ask in the PR comments.
 
 Links should use the most canonical form. For example, if `example.tech` redirects to `www.example.com`, then the latter is preferred.
 
@@ -57,6 +59,22 @@ Some prefixes are used, and should be placed to the left of the link.
 - `[audio]` for podcasts or other audio.
 - `[series]` for articles that are one of a series.
 - 2-letter languages codes (e.g. `[ZH]`, `[ES]`, `[FR]`) for content in a language other than English.
+
+## Community sub-categories
+
+Editors will sort community links into sub-categories. The following sub-categories are currently used:
+- **Official** -- rust-lang.org blog posts and other official Rust team communications.
+- **Foundation** -- foundation.rust-lang.org blog posts and other official foundation communications.
+- **Project/Tooling Updates** -- News about the progress of a Rust project. Must be more informative than just a changelog.
+- **Newsletters** -- Regularly scheduled articles about an area of Rust development, e.g. posts titled "This Month in ___".
+- **Research** -- Academic Papers that are about Rust or contain significant Rust content.
+- **Observations/Thoughts** -- Articles about Rust.
+- **Rust Walkthroughs** -- Articles that include a significant amount of Rust source code, that walk the reader through building something.
+- **Miscellaneous** -- Links that don't clearly fit in other sub-categories.
+
+Most blog posts about Rust belong in **Rust Walkthroughs** if they show how something is done (including source code), otherwise **Observations/Thoughts**. Articles that don't contain much Rust content, or news articles that mention Rust, won't always be accepted, but when they are they can be placed in the **Miscellaneous** sub-category.
+
+If a set of related links is published (e.g. from a large Rust conference), the editors may choose to invent a new category just for that issue.
 
 ## How I get PR lists:
 
