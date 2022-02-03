@@ -21,7 +21,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Board Announcement: Farewell and Thanks to Florian](https://foundation.rust-lang.org/posts/2022-02-02-farewell-florian/)
 
 ### Project/Tooling Updates
-
 * [spa 0.3.0 release](https://crates.io/crates/spa)
 * [An update on rust/coreutils](https://sylvestre.ledru.info/blog/2022/01/29/an-update-on-rust-coreutils)
 * [This week in Fluvio #20: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0020/)
@@ -34,14 +33,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Databend #27: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-02-02-databend-weekly/)
 
 ### Newsletters
-
 * [This Week in Glean: Building and Deploying a Rust library on iOS](https://blog.mozilla.org/data/2022/01/31/this-week-in-glean-building-and-deploying-a-rust-library-on-ios/)
 
 ### Research
-
 * [An Empirical Study of Yanked Releases in the Rust Package Registry](https://arxiv.org/abs/2201.11821)
 
 ### Observations/Thoughts
+* [A new phase for the Rustc Reading Club](https://mojosd.medium.com/a-new-phase-for-the-rustc-reading-club-c3a048f52a2f)
 * [The 9 indispensable features to learn for the new Rust programmer](https://kerkour.com/indispensable-rust-features-to-learn/)
 * [Uninitialized Memory: Unsafe Rust is Too Hard](https://lucumr.pocoo.org/2022/1/30/unsafe-rust/)
 * [Part 2: Improving crypto code in Rust using LLVM’s optnone](https://blog.trailofbits.com/2022/02/01/part-2-rusty-crypto/)
@@ -52,9 +50,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [The Curious Absence of Lifetimes](https://ivkov.me/absence-of-lifetimes/)
 * [Rust has a small standard library (and that's ok)](https://blog.nindalf.com/posts/rust-stdlib/)
 * [Curl with Rust](https://daniel.haxx.se/blog/2022/02/01/curl-with-rust/)
+* [Frontmatter Podcast: Matt Provost, Author of Rust From the Ground Up](https://leanpub.com/podcasts/frontmatter/matt-provost-25-01-22)
 
 ### Rust Walkthroughs
-
 * [How Rust helped me power through my C assignments](https://dev.to/somedood/how-rust-helped-me-power-through-my-c-assignments-2akk)
 * [(Basic) Segment Trees with beautiful diagrams!](https://desmondwillowbrook.github.io/blog/competitive-programming/dsa-explanations/basic-segment-tree/)
 * [Sneak preview: Writing Ruby gem native extensions in Rust](https://briankung.dev/2022/01/31/sneak-preview-writing-ruby-gem-native-extensions-in-rust/)
@@ -65,10 +63,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [DE] [Ferris Talk #5: Tokio als asynchrone Laufzeitumgebung ist ein Fast-Alleskönner](https://www.heise.de/hintergrund/Ferris-Talk-5-Tokio-als-asynchrone-Laufzeitumgebung-ist-ein-Fast-Alleskoenner-6341018.html)
 
 ### Miscellaneous
-
 * [Async Rust: What is a runtime? Here is how tokio works under the hood](https://kerkour.com/rust-async-await-what-is-a-runtime/)
 * [Implementation of CIDR routing table in Rust](https://rtoch.com/posts/rust-cidr-routing/)
-- [How Prime Video updates its app for more than 8,000 device types](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)
+* [How Prime Video updates its app for more than 8,000 device types](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)
 * [Building and Deploying a Rust library on iOS](https://fnordig.de/2022/01/31/rust-libraries-on-ios/)
 * [My new deployment workflow using AWS SDK for Rust](https://mdguerrero.com/blog)
 * [Meilisearch raises a $5M Seed to change the world of user-facing search](https://blog.meilisearch.com/meilisearch-raised-5meu-seed-fundraising/)
@@ -97,6 +94,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [diesel-rs/diesel - Add support for currently unsupported JSON/JSONB operators](https://github.com/diesel-rs/diesel/issues/3032)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -231,6 +230,16 @@ Email the [Rust Community Team][community] for access.
 **LoanPASS**
 
 * [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
+
+**Stockly**
+
+* [Back-end developer intern - TechOps team (Rust, GRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-intern-techops-team-rust-grpc-postgresql_paris)
+
+**Kraken**
+
+* [Engineering Manager - Rust - Core Backend](https://jobs.lever.co/kraken/53def500-b146-40da-89a8-98adfd7e84e4)
+* [Rust Engineer, Desktop GUI - Cryptowatch](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
+* [Site Reliability Engineer - Rust - Core Backend](https://jobs.lever.co/kraken/1c6b290f-e430-430d-9b40-a258d07686b0)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
