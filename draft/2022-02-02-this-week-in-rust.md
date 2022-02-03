@@ -53,6 +53,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [My new deployment workflow using AWS SDK for Rust](https://mdguerrero.com/blog)
 * [Podcast RustTalk 001. 与 Folyd 聊他的 Rust 使用经历](https://rusttalk.github.io/podcast/001/)
 
+* [Ferrous Systems and AdaCore to join forces on Ferrocene](https://ferrous-systems.com/blog/ferrous-systems-adacore-joining-forces/)
+* [AdaCore and Ferrous Systems joining forces to support Rust](https://blog.adacore.com/adacore-and-ferrous-systems-joining-forces-to-support-rust)
+
 ## Crate of the Week
 
 This week we have two crates: [update-informer](https://github.com/mgrachev/update-informer), a
