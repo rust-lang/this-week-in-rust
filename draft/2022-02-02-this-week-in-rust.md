@@ -116,16 +116,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-An awesome week. There was some bits of noise from PR [#91032](https://github.com/rust-lang/rust/issues/93032) that landed and then had to be backed out (and may soon land again), and we continue to wrestle with how to classify which things to include in rollup PR's. But overall there were some very real wins to the compiler's performance, and it is definitely reflected in the [total bootstrap time graph](https://perf.rust-lang.org/bootstrap.html). Great job!
+This was a relatively quiet week with regressions and improvements relatively equally each other out. The big exception is with a somewhat large regression in rustdoc which was needed for a large and important architectural change. This could lead to users see somewhat slower doc build times with more memory used especially in projects with large crate dependency graphs.
 
-Triage done by **@pnkfelix**.
-Revision range: [7bc7be..c54dfe](https://perf.rust-lang.org/?start=7bc7be860f99f4a40d45b0f74e2d01b02e072357&end=c54dfee65126a0ac385d55389a316e89095a0713&absolute=false&stat=instructions%3Au)
+Triage done by **@rylev**.
+Revision range: [c54dfee..1ea4851](https://perf.rust-lang.org/?start=c54dfee65126a0ac385d55389a316e89095a0713&end=1ea4851715893ee3f365a8ef09d47165e9a7864f&absolute=false&stat=instructions%3Au)
 
-4 Regressions, 5 Improvements, 4 Mixed; 3 of them in rollups
+2 Regressions, 4 Improvements, 2 Mixed; 1 of them in rollups
+35 comparisons made in total
 
-29 comparisons made in total
-
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-01-25.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-02-02.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
