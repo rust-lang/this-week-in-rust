@@ -32,6 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Research
 
 ### Observations/Thoughts
+* [The 9 indispensable features to learn for the new Rust programmer](https://kerkour.com/indispensable-rust-features-to-learn/)
 * [Uninitialized Memory: Unsafe Rust is Too Hard](https://lucumr.pocoo.org/2022/1/30/unsafe-rust/)
 * [Part 2: Improving crypto code in Rust using LLVM’s optnone](https://blog.trailofbits.com/2022/02/01/part-2-rusty-crypto/)
 * [Writing the fastest GBDT library in Rust](https://www.tangram.dev/blog/writing_the_fastest_gbdt_library_in_rust/)
@@ -44,6 +45,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [series] [video] [Writing a Programming Language (in Rust) 14: Compiler Resources and Function Argument Destructuring](https://www.youtube.com/watch?v=hKOKfa30nAI)
 
 ### Miscellaneous
+
+* [Async Rust: What is a runtime? Here is how tokio works under the hood](https://kerkour.com/rust-async-await-what-is-a-runtime/)
 * [Implementation of CIDR routing table in Rust](https://rtoch.com/posts/rust-cidr-routing/)
 
 - [How Prime Video updates its app for more than 8,000 device types](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)
