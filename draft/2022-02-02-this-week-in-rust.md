@@ -15,21 +15,31 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [Changes in the Core Team](https://blog.rust-lang.org/2022/01/31/changes-in-the-core-team.html)
+
+### Foundation
+* [Board Announcement: Farewell and Thanks to Florian](https://foundation.rust-lang.org/posts/2022-02-02-farewell-florian/)
 
 ### Project/Tooling Updates
-* [spa 0.3.0 release](https://crates.io/crates/spa)
 
-* [rustc_codegen_gcc: Progress Report #8](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-8)
+* [spa 0.3.0 release](https://crates.io/crates/spa)
 * [An update on rust/coreutils](https://sylvestre.ledru.info/blog/2022/01/29/an-update-on-rust-coreutils)
 * [This week in Fluvio #20: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0020/)
 * [SixtyFPS (GUI crate): Changelog for 30th of January 2022](https://sixtyfps.io/thisweek/2022-01-31.html)
 * [Fornjot 0.5.0 - Code-CAD in Rust](https://www.fornjot.app/blog/fornjot-0-5-0/)
+* [BonsaiDb January update: Alpha Next Week](https://bonsaidb.io/blog/january-2022-update/)
+* [rustc_codegen_gcc: Progress Report #8](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-8)
+* [Rust Analyzer Changelog #114](https://rust-analyzer.github.io//thisweek/2022/01/31/changelog-114.html)
+* [IntelliJ Rust Changelog #164](https://intellij-rust.github.io/2022/01/31/changelog-164.html)
 * [This week in Databend #27: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-02-02-databend-weekly/)
 
 ### Newsletters
+
 * [This Week in Glean: Building and Deploying a Rust library on iOS](https://blog.mozilla.org/data/2022/01/31/this-week-in-glean-building-and-deploying-a-rust-library-on-ios/)
 
 ### Research
+
+* [An Empirical Study of Yanked Releases in the Rust Package Registry](https://arxiv.org/abs/2201.11821)
 
 ### Observations/Thoughts
 * [The 9 indispensable features to learn for the new Rust programmer](https://kerkour.com/indispensable-rust-features-to-learn/)
@@ -37,25 +47,34 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Part 2: Improving crypto code in Rust using LLVM’s optnone](https://blog.trailofbits.com/2022/02/01/part-2-rusty-crypto/)
 * [Writing the fastest GBDT library in Rust](https://www.tangram.dev/blog/writing_the_fastest_gbdt_library_in_rust/)
 * [Async Rust vs RTOS showdown!](https://tweedegolf.nl/en/blog/65/async-rust-vs-rtos-showdown)
+* [Panics vs cancellation, part 1](https://smallcultfollowing.com/babysteps//blog/2022/01/27/panics-vs-cancellation-part-1/)
+* [Rust extension traits, greppability and IDEs](https://eli.thegreenplace.net/2022/rust-extension-traits-greppability-and-ides/)
+* [The Curious Absence of Lifetimes](https://ivkov.me/absence-of-lifetimes/)
+* [Rust has a small standard library (and that's ok)](https://blog.nindalf.com/posts/rust-stdlib/)
+* [Curl with Rust](https://daniel.haxx.se/blog/2022/02/01/curl-with-rust/)
 
 ### Rust Walkthroughs
 
+* [How Rust helped me power through my C assignments](https://dev.to/somedood/how-rust-helped-me-power-through-my-c-assignments-2akk)
 * [(Basic) Segment Trees with beautiful diagrams!](https://desmondwillowbrook.github.io/blog/competitive-programming/dsa-explanations/basic-segment-tree/)
+* [Sneak preview: Writing Ruby gem native extensions in Rust](https://briankung.dev/2022/01/31/sneak-preview-writing-ruby-gem-native-extensions-in-rust/)
+* [video] [Rust Linz, January '22 - Error Handling in Rust - A Pragmatic Approach by Luca Palmieri](https://www.youtube.com/watch?v=jpVzSse7oJ4)
 * [series] [video] [Writing a Programming Language (in Rust) 13: Object Destructuring (Part 2) and Fixing Recursion](https://www.youtube.com/watch?v=BMGlSTQEC9M)
 * [series] [video] [Writing a Programming Language (in Rust) 14: Compiler Resources and Function Argument Destructuring](https://www.youtube.com/watch?v=hKOKfa30nAI)
+* [audio] [zbus with Zeeshan Ali](https://rustacean-station.org/episode/056-zeeshan-ali/)
+* [DE] [Ferris Talk #5: Tokio als asynchrone Laufzeitumgebung ist ein Fast-Alleskönner](https://www.heise.de/hintergrund/Ferris-Talk-5-Tokio-als-asynchrone-Laufzeitumgebung-ist-ein-Fast-Alleskoenner-6341018.html)
 
 ### Miscellaneous
 
 * [Async Rust: What is a runtime? Here is how tokio works under the hood](https://kerkour.com/rust-async-await-what-is-a-runtime/)
 * [Implementation of CIDR routing table in Rust](https://rtoch.com/posts/rust-cidr-routing/)
-
 - [How Prime Video updates its app for more than 8,000 device types](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)
-
 * [Building and Deploying a Rust library on iOS](https://fnordig.de/2022/01/31/rust-libraries-on-ios/)
-
 * [My new deployment workflow using AWS SDK for Rust](https://mdguerrero.com/blog)
+* [Meilisearch raises a $5M Seed to change the world of user-facing search](https://blog.meilisearch.com/meilisearch-raised-5meu-seed-fundraising/)
+* [Sequoia-PGP: Looking for SQ stakeholders](https://sequoia-pgp.org/blog/2022/02/01/202202-sq-stakeholders/)
+* [Hello, Microcontroller!](https://blog.tempus-ex.com/hello-microcontroller/)
 * [Podcast RustTalk 001. 与 Folyd 聊他的 Rust 使用经历](https://rusttalk.github.io/podcast/001/)
-
 * [Ferrous Systems and AdaCore to join forces on Ferrocene](https://ferrous-systems.com/blog/ferrous-systems-adacore-joining-forces/)
 * [AdaCore and Ferrous Systems joining forces to support Rust](https://blog.adacore.com/adacore-and-ferrous-systems-joining-forces-to-support-rust)
 
