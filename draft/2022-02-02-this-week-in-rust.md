@@ -28,6 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [rustc_codegen_gcc: Progress Report #8](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-8)
 * [Rust Analyzer Changelog #114](https://rust-analyzer.github.io//thisweek/2022/01/31/changelog-114.html)
 * [IntelliJ Rust Changelog #164](https://intellij-rust.github.io/2022/01/31/changelog-164.html)
+* [This week in Databend #27: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-02-02-databend-weekly/)
 
 ### Newsletters
 
@@ -38,7 +39,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [An Empirical Study of Yanked Releases in the Rust Package Registry](https://arxiv.org/abs/2201.11821)
 
 ### Observations/Thoughts
-
+* [The 9 indispensable features to learn for the new Rust programmer](https://kerkour.com/indispensable-rust-features-to-learn/)
 * [Uninitialized Memory: Unsafe Rust is Too Hard](https://lucumr.pocoo.org/2022/1/30/unsafe-rust/)
 * [Part 2: Improving crypto code in Rust using LLVM’s optnone](https://blog.trailofbits.com/2022/02/01/part-2-rusty-crypto/)
 * [Writing the fastest GBDT library in Rust](https://www.tangram.dev/blog/writing_the_fastest_gbdt_library_in_rust/)
@@ -62,6 +63,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [DE] [Ferris Talk #5: Tokio als asynchrone Laufzeitumgebung ist ein Fast-Alleskönner](https://www.heise.de/hintergrund/Ferris-Talk-5-Tokio-als-asynchrone-Laufzeitumgebung-ist-ein-Fast-Alleskoenner-6341018.html)
 
 ### Miscellaneous
+
+* [Async Rust: What is a runtime? Here is how tokio works under the hood](https://kerkour.com/rust-async-await-what-is-a-runtime/)
 * [Implementation of CIDR routing table in Rust](https://rtoch.com/posts/rust-cidr-routing/)
 - [How Prime Video updates its app for more than 8,000 device types](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)
 * [Building and Deploying a Rust library on iOS](https://fnordig.de/2022/01/31/rust-libraries-on-ios/)
@@ -69,6 +72,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Meilisearch raises a $5M Seed to change the world of user-facing search](https://blog.meilisearch.com/meilisearch-raised-5meu-seed-fundraising/)
 * [Sequoia-PGP: Looking for SQ stakeholders](https://sequoia-pgp.org/blog/2022/02/01/202202-sq-stakeholders/)
 * [Hello, Microcontroller!](https://blog.tempus-ex.com/hello-microcontroller/)
+* [Podcast RustTalk 001. 与 Folyd 聊他的 Rust 使用经历](https://rusttalk.github.io/podcast/001/)
+* [Ferrous Systems and AdaCore to join forces on Ferrocene](https://ferrous-systems.com/blog/ferrous-systems-adacore-joining-forces/)
+* [AdaCore and Ferrous Systems joining forces to support Rust](https://blog.adacore.com/adacore-and-ferrous-systems-joining-forces-to-support-rust)
 
 ## Crate of the Week
 
@@ -135,16 +141,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-An awesome week. There was some bits of noise from PR [#91032](https://github.com/rust-lang/rust/issues/93032) that landed and then had to be backed out (and may soon land again), and we continue to wrestle with how to classify which things to include in rollup PR's. But overall there were some very real wins to the compiler's performance, and it is definitely reflected in the [total bootstrap time graph](https://perf.rust-lang.org/bootstrap.html). Great job!
+This was a relatively quiet week with regressions and improvements relatively equally each other out. The big exception is with a somewhat large regression in rustdoc which was needed for a large and important architectural change. This could lead to users see somewhat slower doc build times with more memory used especially in projects with large crate dependency graphs.
 
-Triage done by **@pnkfelix**.
-Revision range: [7bc7be..c54dfe](https://perf.rust-lang.org/?start=7bc7be860f99f4a40d45b0f74e2d01b02e072357&end=c54dfee65126a0ac385d55389a316e89095a0713&absolute=false&stat=instructions%3Au)
+Triage done by **@rylev**.
+Revision range: [c54dfee..1ea4851](https://perf.rust-lang.org/?start=c54dfee65126a0ac385d55389a316e89095a0713&end=1ea4851715893ee3f365a8ef09d47165e9a7864f&absolute=false&stat=instructions%3Au)
 
-4 Regressions, 5 Improvements, 4 Mixed; 3 of them in rollups
+2 Regressions, 4 Improvements, 2 Mixed; 1 of them in rollups
+35 comparisons made in total
 
-29 comparisons made in total
-
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-01-25.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-02-02.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -220,6 +225,10 @@ Email the [Rust Community Team][community] for access.
 **Polar Sync**
 
 * [Senior Blockchain Engineer (Remote)](https://polarsync.breezy.hr/p/6b3e70422f1d)
+
+**LoanPASS**
+
+* [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
