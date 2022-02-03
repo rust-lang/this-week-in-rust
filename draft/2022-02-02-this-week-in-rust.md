@@ -51,7 +51,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust extension traits, greppability and IDEs](https://eli.thegreenplace.net/2022/rust-extension-traits-greppability-and-ides/)
 * [The Curious Absence of Lifetimes](https://ivkov.me/absence-of-lifetimes/)
 * [Rust has a small standard library (and that's ok)](https://blog.nindalf.com/posts/rust-stdlib/)
-* [Async Rust: What is a runtime? Here is how tokio works under the hood](https://kerkour.com/rust-async-await-what-is-a-runtime/)
 * [Curl with Rust](https://daniel.haxx.se/blog/2022/02/01/curl-with-rust/)
 
 ### Rust Walkthroughs
