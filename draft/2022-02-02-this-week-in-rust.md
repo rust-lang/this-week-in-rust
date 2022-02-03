@@ -17,6 +17,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 * [Changes in the Core Team](https://blog.rust-lang.org/2022/01/31/changes-in-the-core-team.html)
 
+### Foundation
+* [Board Announcement: Farewell and Thanks to Florian](https://foundation.rust-lang.org/posts/2022-02-02-farewell-florian/)
+
 ### Project/Tooling Updates
 
 * [spa 0.3.0 release](https://crates.io/crates/spa)
