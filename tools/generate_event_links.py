@@ -8,6 +8,7 @@ import datetime
 WEDNESDAY_DATETIME_DAY = 2
 END_DATE_WEEKS = 4 # Number of weeks to skip
 
+DATE_FORMAT = "%Y-%m-%d"
 START_URL_ENCODING = "T03%3A00%3A00-05%3A00" #T03:00:00
 END_URL_ENCODING = "T02%3A59%3A00-05%3A00" #T02:59:00
 EVENT_TYPES = [
@@ -58,11 +59,11 @@ def get_formatted_dates():
     """
 
     start, end = get_desired_date_range()
-    start_year, end_year = str(start.year), str(end.year)
-    start_month, end_month = str(start.month).zfill(2), str(end.month).zfill(2) # left padding with 0s
-    start_day, end_day = str(start.day).zfill(2), str(end.day).zfill(2) # left padding with 0s
+    
+    formatted_start = f"{start.strftime(DATE_FORMAT)}{START_URL_ENCODING}"
+    formatted_end = f"{end.strftime(DATE_FORMAT)}{END_URL_ENCODING}"
 
-    return f"{start_year}-{start_month}-{start_day}{START_URL_ENCODING}", f"{end_year}-{end_month}-{end_day}{END_URL_ENCODING}"
+    return formatted_start, formatted_end
 
 def get_urls():
     urls = []
@@ -87,11 +88,13 @@ def main():
     urls = get_urls()
 
     # TODO: Auto parse results... For now, generates an HTML page of links to use
+    CUTOFF_POINT = 160 # Skips all portions of URL up to the location + in-person/online
+
     date_title = str(datetime.datetime.today().strftime("%m_%d_%Y"))
     with open(f'{date_title}.html', 'w') as f:
         f.write(f'<p>{date_title}</p>\n<br>\n')
         for i, url in enumerate(urls):
-            text_line = url[160:]
+            text_line = url[CUTOFF_POINT:]
             f.write(f'<a href="{url}" target="_blank">{text_line}</a>\n<br>\n<br>\n')
 
 if __name__ == '__main__':
