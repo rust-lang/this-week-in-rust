@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Research
 
 ### Observations/Thoughts
+* [ZH] [为什么 Rust 没有继承？](https://fengliang.io/RustWHY/design_choices/why_not_inheritance.html) A thought on the design choice that Rust made and is questioned by many programmers from other object-oriented languages. Why does Rust not have inheritance?
 
 ### Rust Walkthroughs
 
