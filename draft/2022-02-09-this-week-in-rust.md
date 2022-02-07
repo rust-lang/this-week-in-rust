@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [SixtyFPS (GUI crate): Changelog for 06th of February 2022](https://sixtyfps.io/thisweek/2022-02-07.html)
+
 ### Newsletters
 
 ### Research
