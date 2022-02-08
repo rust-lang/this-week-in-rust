@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Open-sourcing update-informer: a highly customizable Rust library for CLI apps](https://evrone.com/update-informer)
+
 ### Newsletters
 
 ### Research
