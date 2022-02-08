@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Announcing BonsaiDb v0.1.0: A Rust NoSQL database that grows with you](https://bonsaidb.io/blog/announcing-bonsaidb-alpha/)
+
 ### Newsletters
 
 ### Research
