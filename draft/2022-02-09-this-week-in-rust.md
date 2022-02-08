@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+- [Knurling-rs changelog #33: Raspberry-pi silicon and looking back at 2021!](https://ferrous-systems.com/blog/knurling-changelog-33/)
+
 ### Newsletters
 
 ### Research
