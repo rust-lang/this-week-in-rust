@@ -124,17 +124,11 @@ decision. Express your opinions now.
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Rename `FilenameTooLong` to `FilenameInvalid` and also use it for Windows' `ERROR_INVALID_NAME`](https://github.com/rust-lang/rust/pull/90955)
-* [disposition: merge] [Add `From<u8>` for `ExitCode`](https://github.com/rust-lang/rust/pull/93445)
-* [disposition: merge] [Stabilise std::is_aarch64_feature_detected](https://github.com/rust-lang/rust/issues/86941)
-* [disposition: merge] [Impl {Add,Sub,Mul,Div,Rem,BitXor,BitOr,BitAnd}Assign<$t> for Wrapping<$t> for rust 1.61.0](https://github.com/rust-lang/rust/pull/93208)
-* [disposition: merge] [Tracking Issue for `int_abs_diff`](https://github.com/rust-lang/rust/issues/89492)
-* [disposition: merge] [Tracking Issue for total_cmp (on f32/f64)](https://github.com/rust-lang/rust/issues/72599)
-* [disposition: close] [Stabilize allow_fail test flag](https://github.com/rust-lang/rust/issues/46488)
+* [disposition: close] [Tracking issue for naked fns (RFC #1201)](https://github.com/rust-lang/rust/issues/32408)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [new] [RFC: Custom logo/favicon command-line flags](https://github.com/rust-lang/rfcs/pull/3226)
+* [new] [RFC: Add a process_group method to UNIX CommandExt](https://github.com/rust-lang/rfcs/pull/3228)
 
 ## Upcoming Events
 
