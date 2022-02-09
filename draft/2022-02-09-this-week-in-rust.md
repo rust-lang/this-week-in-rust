@@ -109,15 +109,17 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-This was a relatively quiet week with regressions and improvements relatively equally each other out. The big exception is with a somewhat large regression in rustdoc which was needed for a large and important architectural change. This could lead to users see somewhat slower doc build times with more memory used especially in projects with large crate dependency graphs.
+A week with a number of correctness-related regressions, and a few small
+cleanups yielding good performance results. Overall an improvement, particularly
+for incremental benchmarks.
 
-Triage done by **@rylev**.
-Revision range: [c54dfee..1ea4851](https://perf.rust-lang.org/?start=c54dfee65126a0ac385d55389a316e89095a0713&end=1ea4851715893ee3f365a8ef09d47165e9a7864f&absolute=false&stat=instructions%3Au)
+Triage done by **@simulacrum**.
+Revision range: [1ea48517..775e480](https://perf.rust-lang.org/?start=1ea4851715893ee3f365a8ef09d47165e9a7864f&end=775e480722c7aba6ff4ff3ccec8c1f4639ae7889&absolute=false&stat=instructions%3Au)
 
-2 Regressions, 4 Improvements, 2 Mixed; 1 of them in rollups
-35 comparisons made in total
+4 Regressions, 2 Improvements, 5 Mixed; 1 of them in rollups
+27 comparisons made in total
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-02-02.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-02-08.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
