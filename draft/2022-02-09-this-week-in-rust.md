@@ -27,7 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [A first look at Sycamore's new reactive primitives](https://sycamore-rs.netlify.app/news/new-reactive-primitives)
 * [Announcing BonsaiDb 0.1.0: A Rust NoSQL database that grows with you](https://bonsaidb.io/blog/announcing-bonsaidb-alpha/)
 * [Arti 0.0.4 is released: Refactoring, rustls, and more!](https://blog.torproject.org/arti_004_released/)
-* [Knurling-rs changelog #33](https://ferrous-systems.com/blog/knurling-changelog-33/)
+* [Knurling-rs changelog #33: Raspberry-pi silicon and looking back at 2021!](https://ferrous-systems.com/blog/knurling-changelog-33/)
 * [What's new in SeaORM 0.6.0](https://www.sea-ql.org/SeaORM/blog/2022-02-07-whats-new-in-0.6.0/)
 * [SixtyFPS (GUI crate): Changelog for 06th of February 2022](https://sixtyfps.io/thisweek/2022-02-07.html)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log](https://www.fornjot.app/blog/weekly-dev-log/2022-w05/)
