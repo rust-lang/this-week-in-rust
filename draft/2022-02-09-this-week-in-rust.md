@@ -32,7 +32,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Some mistakes Rust doesn't catch](https://fasterthanli.me/articles/some-mistakes-rust-doesnt-catch)
 
 ### Rust Walkthroughs
-* [Improving crypto code in Rust using LLVM's `optnone`](https://blog.trailofbits.com/2022/02/01/part-2-rusty-crypto/)
 * [Containerless! How to Run WebAssembly Workloads on Kubernetes with Rust](https://developer.okta.com/blog/2022/01/28/webassembly-on-kubernetes-with-rust)
 * [`curl` with Rust](https://daniel.haxx.se/blog/2022/02/01/curl-with-rust/)
 
