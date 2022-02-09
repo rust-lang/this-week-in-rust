@@ -30,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Research
 
 ### Observations/Thoughts
+ * [audio] [Building with Rust: Josh Triplett on Building the Build System of his Dreams](https://anchor.fm/building-with-rust/episodes/Josh-Triplett-on-Building-the-Build-System-of-his-Dreams-e1dt81c)
 
 ### Rust Walkthroughs
 - [ESP32 MQTT Publish with Rust](https://medium.com/iotics/esp32-mqtt-publish-with-rust-678d1068ee2)
@@ -45,7 +46,7 @@ This week we have two crates: [update-informer](https://github.com/mgrachev/upda
 library to embed an update check into your CLI project and
 [blake3](https://crates.io/crates/blake3), a fast cryptographic hash function.
 
-Thanks to [Grachev Mikhail](https://users.rust-lang.org/t/crate-of-the-week/2704/1014) and 
+Thanks to [Grachev Mikhail](https://users.rust-lang.org/t/crate-of-the-week/2704/1014) and
 [Zac Burns](https://users.rust-lang.org/t/crate-of-the-week/2704/1014) for the suggestions!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
