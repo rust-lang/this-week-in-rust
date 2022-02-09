@@ -29,6 +29,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log](https://www.fornjot.app/blog/weekly-dev-log/2022-w05/)
 
+- [Knurling-rs changelog #33: Raspberry-pi silicon and looking back at 2021!](https://ferrous-systems.com/blog/knurling-changelog-33/)
+
 ### Newsletters
 
 * [Rust Nigeria #2 - January 2022](https://rustnigeria.curated.co/issues/2#start)
