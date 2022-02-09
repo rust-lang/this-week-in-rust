@@ -27,6 +27,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Announcing BonsaiDb v0.1.0: A Rust NoSQL database that grows with you](https://bonsaidb.io/blog/announcing-bonsaidb-alpha/)
 
+* [Fornjot (Code-CAD in Rust) - Weekly Dev Log](https://www.fornjot.app/blog/weekly-dev-log/2022-w05/)
+
 ### Newsletters
 
 ### Research
