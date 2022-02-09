@@ -32,6 +32,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Some mistakes Rust doesn't catch](https://fasterthanli.me/articles/some-mistakes-rust-doesnt-catch)
 
 ### Rust Walkthroughs
+* [Containerless! How to Run WebAssembly Workloads on Kubernetes with Rust](https://developer.okta.com/blog/2022/01/28/webassembly-on-kubernetes-with-rust)
 * [`curl` with Rust](https://daniel.haxx.se/blog/2022/02/01/curl-with-rust/)
 
 ### Miscellaneous
