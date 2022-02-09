@@ -31,6 +31,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Newsletters
 
+* [Rust Nigeria #2 - January 2022](https://rustnigeria.curated.co/issues/2#start)
+
 ### Research
 
 ### Observations/Thoughts
