@@ -31,6 +31,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 - [Knurling-rs changelog #33: Raspberry-pi silicon and looking back at 2021!](https://ferrous-systems.com/blog/knurling-changelog-33/)
 
+* [Open-sourcing update-informer: a highly customizable Rust library for CLI apps](https://evrone.com/update-informer)
+
 ### Newsletters
 
 * [Rust Nigeria #2 - January 2022](https://rustnigeria.curated.co/issues/2#start)
