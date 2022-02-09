@@ -25,6 +25,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [SixtyFPS (GUI crate): Changelog for 06th of February 2022](https://sixtyfps.io/thisweek/2022-02-07.html)
 
+* [Announcing BonsaiDb v0.1.0: A Rust NoSQL database that grows with you](https://bonsaidb.io/blog/announcing-bonsaidb-alpha/)
+
 ### Newsletters
 
 ### Research
