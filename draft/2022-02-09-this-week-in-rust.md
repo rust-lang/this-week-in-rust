@@ -23,6 +23,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [What's new in SeaORM 0.6.0](https://www.sea-ql.org/SeaORM/blog/2022-02-07-whats-new-in-0.6.0/)
 
+* [SixtyFPS (GUI crate): Changelog for 06th of February 2022](https://sixtyfps.io/thisweek/2022-02-07.html)
+
 ### Newsletters
 
 ### Research
