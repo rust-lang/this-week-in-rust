@@ -190,6 +190,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Tempus Ex**
+
+* [Several full-time Rust positions available (San Francisco, Atlanta, Austin, and Remote)](https://tempus-ex.com/careers)
+
 **LoanPASS**
 
 * [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
