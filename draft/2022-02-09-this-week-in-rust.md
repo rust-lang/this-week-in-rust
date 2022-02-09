@@ -19,14 +19,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Project/Tooling Updates
+* [Nushell v0.44](https://www.nushell.sh/blog/2022-02-08-nushell_0_44.html)
+* [Rust API for the Firefox Profiler](https://blog.mozilla.org/performance/2022/02/08/rust-api-for-the-firefox-profiler/)
+* [Sayonara, Mozilla](https://kvark.github.io/mozilla/2022/02/02/leaving-mozilla.html)
+* [Starship v1.3.0](https://github.com/starship/starship/releases/tag/v1.3.0)
 
 ### Newsletters
 
 ### Research
 
 ### Observations/Thoughts
+* [Some mistakes Rust doesn't catch](https://fasterthanli.me/articles/some-mistakes-rust-doesnt-catch)
 
 ### Rust Walkthroughs
+* [`curl` with Rust](https://daniel.haxx.se/blog/2022/02/01/curl-with-rust/)
 
 ### Miscellaneous
 
