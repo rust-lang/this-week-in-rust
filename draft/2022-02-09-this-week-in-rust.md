@@ -200,6 +200,11 @@ Email the [Rust Community Team][community] for access.
 
 * [Software Engineer, Rust (Remote)](https://www.slight.co/jobs/software-engineer-rust)
 
+**Kollider**
+
+* [Senior Frontend Engineer (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
+* [Junior Backend Engineer (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
