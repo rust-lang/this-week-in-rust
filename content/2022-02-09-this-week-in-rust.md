@@ -34,6 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log](https://www.fornjot.app/blog/weekly-dev-log/2022-w05/)
 * [Knurling-rs changelog #33](https://ferrous-systems.com/blog/knurling-changelog-33/)
 * [Open-sourcing update-informer: a highly customizable Rust library for CLI apps](https://evrone.com/update-informer)
+* [This week in Databend #28: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-02-09-databend-weekly/)
 
 ### Newsletters
 * [This Month in Rust OSDev (January 2022)](https://rust-osdev.com/this-month/2022-01/)
