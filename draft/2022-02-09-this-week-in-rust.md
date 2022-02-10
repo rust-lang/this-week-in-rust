@@ -72,7 +72,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [series] [video] [Rust Embedded for STM32 Microcontrollers - HAL Crates](https://youtu.be/4oJy3ywY2B0)
 
 ### Miscellaneous
-
 * [Kraken Funds Full-Time Bitcoin Rust Maintainer](https://blog.kraken.com/post/12873/kraken-funds-full-time-bitcoin-rust-maintainer/)
 
 ## Crate of the Week
@@ -96,7 +95,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [Create an Ideal Components Bag for DateTimeFormat](https://github.com/unicode-org/icu4x/issues/1317)
 
-**Fuchsia Netstack 3**
+**Fuchsia Netstack3**
 
 * [Make language more inclusive](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=92797)
 * [Debugging a panic in IP packet fragment reassembly](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=92831)
@@ -205,10 +204,6 @@ Rusty Events between 2/9/2022 - 3/9/2022 🦀
 * [March 2, 2022 | Berlin, DE | **Rust Hack and Learn** | OpenTechSchool Berlin](https://www.meetup.com/de-DE/opentechschool-berlin/events/283633083/)
 * [March 7, 2022 | Valence, FR | **Coding-dojo - Rust** | Ardèch’Drôm Dev](https://www.meetup.com/Ardech-Drom-Dev/events/283624590)
 * [March 8, 2022 | Seattle, WA, US | **Monthly meetup** | Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/283221922/)
-
-### North America
-
-* [March 14, 2022 | Atlanta, GA, US | **_New_ Atlanta Rust Meetup** | Atlanta Rustaceans](https://twitter.com/atl_rustaceans/status/1489586471367589893)
 
 ### North America
 
