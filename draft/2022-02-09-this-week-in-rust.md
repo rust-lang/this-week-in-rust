@@ -19,18 +19,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Project/Tooling Updates
+* [This week in Fluvio #21: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0021/)
 * [A first look at Sycamore's new reactive primitives](https://sycamore-rs.netlify.app/news/new-reactive-primitives)
-
 * [What's new in SeaORM 0.6.0](https://www.sea-ql.org/SeaORM/blog/2022-02-07-whats-new-in-0.6.0/)
-
 * [SixtyFPS (GUI crate): Changelog for 06th of February 2022](https://sixtyfps.io/thisweek/2022-02-07.html)
-
 * [Announcing BonsaiDb v0.1.0: A Rust NoSQL database that grows with you](https://bonsaidb.io/blog/announcing-bonsaidb-alpha/)
-
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log](https://www.fornjot.app/blog/weekly-dev-log/2022-w05/)
-
 - [Knurling-rs changelog #33: Raspberry-pi silicon and looking back at 2021!](https://ferrous-systems.com/blog/knurling-changelog-33/)
-
 * [Open-sourcing update-informer: a highly customizable Rust library for CLI apps](https://evrone.com/update-informer)
 
 ### Newsletters
@@ -41,10 +36,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [The simplest guide to error handling in Rust](https://kerkour.com/rust-error-handling/)
 * [audio] [Building with Rust: Josh Triplett on Building the Build System of his Dreams](https://anchor.fm/building-with-rust/episodes/Josh-Triplett-on-Building-the-Build-System-of-his-Dreams-e1dt81c)
 * [ZH] [为什么 Rust 没有继承？Why doesn't Rust have inheritance?](https://fengliang.io/RustWHY/design_choices/why_not_inheritance.html)
 
 ### Rust Walkthroughs
+
+* [The foundations of end-to-end encryption: Domain separation (with code example in Rust)](https://kerkour.com/end-to-end-encryption-domain-separation-cryptography/)
 - [ESP32 MQTT Publish with Rust](https://medium.com/iotics/esp32-mqtt-publish-with-rust-678d1068ee2)
 
 * [series] [video] [Rust Embedded for STM32 Microcontrollers - Cross-compilation](https://youtu.be/WmEBBoc2iYM)
@@ -194,11 +192,14 @@ Email the [Rust Community Team][community] for access.
 
 * [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
 
+**Slight**
+
+* [Software Engineer, Rust (Remote)](https://www.slight.co/jobs/software-engineer-rust)
+
 **Kollider**
 
 * [Senior Frontend Engineer (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
 * [Junior Backend Engineer (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
-
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
