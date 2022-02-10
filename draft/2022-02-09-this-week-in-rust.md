@@ -192,7 +192,7 @@ Email the [Rust Community Team][community] for access.
 
 **Tempus Ex**
 
-* [Several full-time Rust positions available (San Francisco, Atlanta, Austin, and Remote)](https://tempus-ex.com/careers)
+* [Several full-time Rust positions available (San Francisco, CA, US, Atlanta, GA, US, Austin, TX, US, and Remote)](https://tempus-ex.com/careers)
 
 **LoanPASS**
 
