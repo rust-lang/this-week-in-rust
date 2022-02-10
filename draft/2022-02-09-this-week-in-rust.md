@@ -21,7 +21,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 * [Nushell v0.44](https://www.nushell.sh/blog/2022-02-08-nushell_0_44.html)
 * [Rust API for the Firefox Profiler](https://blog.mozilla.org/performance/2022/02/08/rust-api-for-the-firefox-profiler/)
-* [Starship v1.3.0](https://github.com/starship/starship/releases/tag/v1.3.0)
 
 ### Newsletters
 
