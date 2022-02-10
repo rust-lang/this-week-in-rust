@@ -24,17 +24,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust Analyzer Changelog #115](https://rust-analyzer.github.io/thisweek/2022/02/07/changelog-115.html)
 * [GCC Rust Monthly Report #13 January 2022](https://thephilbert.io/2022/01/31/gcc-rust-monthly-report-13-january-2021/)
 * [tracing: Announcing Experimental `valuable` Support](https://github.com/tokio-rs/tracing/discussions/1906)
-* [Announcing BonsaiDb 0.1.0: A Rust NoSQL database that grows with you](https://bonsaidb.io/blog/announcing-bonsaidb-alpha/)
 * [Arti 0.0.4 is released: Refactoring, rustls, and more!](https://blog.torproject.org/arti_004_released/)
 * [Nushell v0.44](https://www.nushell.sh/blog/2022-02-08-nushell_0_44.html)
 * [Rust API for the Firefox Profiler](https://blog.mozilla.org/performance/2022/02/08/rust-api-for-the-firefox-profiler/)
 * [This week in Fluvio #21: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0021/)
-* [A first look at Sycamore's new reactive primitives](https://sycamore-rs.netlify.app/news/new-reactive-primitives)
 * [What's new in SeaORM 0.6.0](https://www.sea-ql.org/SeaORM/blog/2022-02-07-whats-new-in-0.6.0/)
 * [SixtyFPS (GUI crate): Changelog for 06th of February 2022](https://sixtyfps.io/thisweek/2022-02-07.html)
 * [Announcing BonsaiDb v0.1.0: A Rust NoSQL database that grows with you](https://bonsaidb.io/blog/announcing-bonsaidb-alpha/)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log](https://www.fornjot.app/blog/weekly-dev-log/2022-w05/)
-- [Knurling-rs changelog #33: Raspberry-pi silicon and looking back at 2021!](https://ferrous-systems.com/blog/knurling-changelog-33/)
+- [Knurling-rs changelog #33](https://ferrous-systems.com/blog/knurling-changelog-33/)
 * [Open-sourcing update-informer: a highly customizable Rust library for CLI apps](https://evrone.com/update-informer)
 
 ### Newsletters
@@ -61,7 +59,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Rust 101 Lecture Series](https://www.youtube.com/playlist?list=PL-zQguBgjr2O4d-B9g_b0WYh1fyXr6MMq)
 
 ### Rust Walkthroughs
-* [The simplest guide to error handling in Rust](https://kerkour.com/rust-error-handling/)
 * [Rust Turbofish: Closure Return Type](https://blog.aloni.org/posts/rust-turbofish-closure-return-type/)
 * [Downcasting in Rust](https://ysantos.com/blog/downcast-rust)
 * [Crafting A Lox Interpreter In Rust, Part 1](https://www.diegofreijo.com/blog/rlox-vm-a-lox-interpreter-in-rust-part-1/)
