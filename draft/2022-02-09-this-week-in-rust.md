@@ -39,8 +39,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This Month in Rust OSDev (January 2022)](https://rust-osdev.com/this-month/2022-01/)
 * [Rust Nigeria #2 - January 2022](https://rustnigeria.curated.co/issues/2#start)
 
-### Research
-
 ### Observations/Thoughts
 * [Minor Semver Issue](https://epage.github.io/blog/2022/02/minor-semver-issue/)
 * [A first look at Sycamore's new reactive primitives](https://sycamore-rs.netlify.app/news/new-reactive-primitives)
@@ -52,6 +50,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Some mistakes Rust doesn't catch](https://fasterthanli.me/articles/some-mistakes-rust-doesnt-catch)
 * [The simplest guide to error handling in Rust](https://kerkour.com/rust-error-handling/)
 * [Vangers 3D: example of using Emscripten in Rust](https://caiiiycuk.medium.com/vangers-3d-example-of-using-emscripten-in-rust-720ee8099d72)
+* [My Rust Book: Language for the next 40 years](https://dev.to/rustnigeria/my-rust-book-language-for-the-next-40-years-5ba7)
 * [RU] [Вангеры 3D: пример использования Emscripten в Rust](https://habr.com/ru/post/649457/)
 * [ZH] [为什么 Rust 没有继承？Why doesn't Rust have inheritance?](https://fengliang.io/RustWHY/design_choices/why_not_inheritance.html)
 * [audio] [Building with Rust: Josh Triplett on Building the Build System of his Dreams](https://anchor.fm/building-with-rust/episodes/Josh-Triplett-on-Building-the-Build-System-of-his-Dreams-e1dt81c)
@@ -67,12 +66,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [ESP32 MQTT Publish with Rust](https://medium.com/iotics/esp32-mqtt-publish-with-rust-678d1068ee2)
 * [Containerless! How to Run WebAssembly Workloads on Kubernetes with Rust](https://developer.okta.com/blog/2022/01/28/webassembly-on-kubernetes-with-rust)
 * [The foundations of end-to-end encryption: Domain separation (with code example in Rust)](https://kerkour.com/end-to-end-encryption-domain-separation-cryptography/)
+* [Compiler Adventures, part 1: No-op Instructions](https://medium.com/@predrag.gruevski/compiler-adventures-part-1-no-op-instructions-c084358c7864)
 * [video] [Desktop UIs with Rust and React](https://www.youtube.com/watch?v=0gC3HOgtumo)
 * [series] [video] [Rust Embedded for STM32 Microcontrollers - Cross-compilation](https://youtu.be/WmEBBoc2iYM)
 * [series] [video] [Rust Embedded for STM32 Microcontrollers - HAL Crates](https://youtu.be/4oJy3ywY2B0)
 
 ### Miscellaneous
-
 * [Kraken Funds Full-Time Bitcoin Rust Maintainer](https://blog.kraken.com/post/12873/kraken-funds-full-time-bitcoin-rust-maintainer/)
 
 ## Crate of the Week
@@ -91,6 +90,16 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+**Unicode ICU4X**
+
+* [Create an Ideal Components Bag for DateTimeFormat](https://github.com/unicode-org/icu4x/issues/1317)
+
+**Fuchsia Netstack3**
+
+* [Make language more inclusive](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=92797)
+* [Debugging a panic in IP packet fragment reassembly](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=92831)
+* [fuzzing Netstack3 and its dependents](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=93012)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -200,10 +209,6 @@ Rusty Events between 2/9/2022 - 3/9/2022 🦀
 
 * [March 14, 2022 | Atlanta, GA, US | **_New_ Atlanta Rust Meetup** | Atlanta Rustaceans](https://twitter.com/atl_rustaceans/status/1489586471367589893)
 
-### North America
-
-* [March 14, 2022 | Atlanta, GA, US | **_New_ Atlanta Rust Meetup** | Atlanta Rustaceans](https://twitter.com/atl_rustaceans/status/1489586471367589893)
-
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
 Email the [Rust Community Team][community] for access.
@@ -225,10 +230,24 @@ Email the [Rust Community Team][community] for access.
 
 * [Software Engineer, Rust (Remote)](https://www.slight.co/jobs/software-engineer-rust)
 
+**Pixy**
+
+* [Senior Rust Developer (Remote)](https://www.bigeyestudios.com/job-board)
+
+**Apollo**
+
+* [Rust Platform Engineer (Remote)](https://www.apollographql.com/careers/job/?id=afcdcb31-ce6b-4485-9987-3cc8bc361deb)
+
 **Kollider**
 
 * [Senior Frontend Engineer (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
 * [Junior Backend Engineer (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
+
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
