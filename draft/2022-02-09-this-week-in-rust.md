@@ -19,6 +19,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Project/Tooling Updates
+* [Nushell v0.44](https://www.nushell.sh/blog/2022-02-08-nushell_0_44.html)
+* [Rust API for the Firefox Profiler](https://blog.mozilla.org/performance/2022/02/08/rust-api-for-the-firefox-profiler/)
 * [This week in Fluvio #21: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0021/)
 * [A first look at Sycamore's new reactive primitives](https://sycamore-rs.netlify.app/news/new-reactive-primitives)
 * [What's new in SeaORM 0.6.0](https://www.sea-ql.org/SeaORM/blog/2022-02-07-whats-new-in-0.6.0/)
@@ -35,16 +37,16 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Research
 
 ### Observations/Thoughts
-
+* [Sayonara, Mozilla](https://kvark.github.io/mozilla/2022/02/02/leaving-mozilla.html)
+* [Some mistakes Rust doesn't catch](https://fasterthanli.me/articles/some-mistakes-rust-doesnt-catch)
 * [The simplest guide to error handling in Rust](https://kerkour.com/rust-error-handling/)
 * [audio] [Building with Rust: Josh Triplett on Building the Build System of his Dreams](https://anchor.fm/building-with-rust/episodes/Josh-Triplett-on-Building-the-Build-System-of-his-Dreams-e1dt81c)
 * [ZH] [为什么 Rust 没有继承？Why doesn't Rust have inheritance?](https://fengliang.io/RustWHY/design_choices/why_not_inheritance.html)
 
 ### Rust Walkthroughs
-
+* [Containerless! How to Run WebAssembly Workloads on Kubernetes with Rust](https://developer.okta.com/blog/2022/01/28/webassembly-on-kubernetes-with-rust)
 * [The foundations of end-to-end encryption: Domain separation (with code example in Rust)](https://kerkour.com/end-to-end-encryption-domain-separation-cryptography/)
 - [ESP32 MQTT Publish with Rust](https://medium.com/iotics/esp32-mqtt-publish-with-rust-678d1068ee2)
-
 * [series] [video] [Rust Embedded for STM32 Microcontrollers - Cross-compilation](https://youtu.be/WmEBBoc2iYM)
 * [series] [video] [Rust Embedded for STM32 Microcontrollers - HAL Crates](https://youtu.be/4oJy3ywY2B0)
 
