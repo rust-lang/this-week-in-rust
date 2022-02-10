@@ -192,6 +192,10 @@ Email the [Rust Community Team][community] for access.
 
 * [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
 
+**Slight**
+
+* [Software Engineer, Rust (Remote)](https://www.slight.co/jobs/software-engineer-rust)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
