@@ -26,10 +26,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [tracing: Announcing Experimental `valuable` Support](https://github.com/tokio-rs/tracing/discussions/1906)
 * [Announcing BonsaiDb 0.1.0: A Rust NoSQL database that grows with you](https://bonsaidb.io/blog/announcing-bonsaidb-alpha/)
 * [Arti 0.0.4 is released: Refactoring, rustls, and more!](https://blog.torproject.org/arti_004_released/)
-* [Knurling-rs changelog #33: Raspberry-pi silicon and looking back at 2021!](https://ferrous-systems.com/blog/knurling-changelog-33/)
+* [Nushell v0.44](https://www.nushell.sh/blog/2022-02-08-nushell_0_44.html)
+* [Rust API for the Firefox Profiler](https://blog.mozilla.org/performance/2022/02/08/rust-api-for-the-firefox-profiler/)
+* [This week in Fluvio #21: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0021/)
+* [A first look at Sycamore's new reactive primitives](https://sycamore-rs.netlify.app/news/new-reactive-primitives)
 * [What's new in SeaORM 0.6.0](https://www.sea-ql.org/SeaORM/blog/2022-02-07-whats-new-in-0.6.0/)
 * [SixtyFPS (GUI crate): Changelog for 06th of February 2022](https://sixtyfps.io/thisweek/2022-02-07.html)
+* [Announcing BonsaiDb v0.1.0: A Rust NoSQL database that grows with you](https://bonsaidb.io/blog/announcing-bonsaidb-alpha/)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log](https://www.fornjot.app/blog/weekly-dev-log/2022-w05/)
+- [Knurling-rs changelog #33: Raspberry-pi silicon and looking back at 2021!](https://ferrous-systems.com/blog/knurling-changelog-33/)
 * [Open-sourcing update-informer: a highly customizable Rust library for CLI apps](https://evrone.com/update-informer)
 
 ### Newsletters
@@ -42,15 +47,18 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Minor Semver Issue](https://epage.github.io/blog/2022/02/minor-semver-issue/)
 * [A first look at Sycamore's new reactive primitives](https://sycamore-rs.netlify.app/news/new-reactive-primitives)
 * [Rustenstein 3D: Game programming like it's 1992](https://tech.nextroll.com/blog/dev/2022/02/02/rustenstein.html)
-* [https://johnaustin.io/articles/2022/hot-reloading-rust](https://johnaustin.io/articles/2022/hot-reloading-rust)
+* [Hot Reloading Rust: Windows and Linux](https://johnaustin.io/articles/2022/hot-reloading-rust)
 * [Past, present and future of rust-protobuf](https://github.com/stepancheg/rust-protobuf/blob/master/doc/past-present-future.md)
 * [An optimization story](https://tinkering.xyz/fmo-optimization-story/)
+* [Sayonara, Mozilla](https://kvark.github.io/mozilla/2022/02/02/leaving-mozilla.html)
+* [Some mistakes Rust doesn't catch](https://fasterthanli.me/articles/some-mistakes-rust-doesnt-catch)
+* [The simplest guide to error handling in Rust](https://kerkour.com/rust-error-handling/)
 * [Vangers 3D: example of using Emscripten in Rust](https://caiiiycuk.medium.com/vangers-3d-example-of-using-emscripten-in-rust-720ee8099d72)
+* [RU] [Вангеры 3D: пример использования Emscripten в Rust](https://habr.com/ru/post/649457/)
+* [ZH] [为什么 Rust 没有继承？Why doesn't Rust have inheritance?](https://fengliang.io/RustWHY/design_choices/why_not_inheritance.html)
+* [audio] [Building with Rust: Josh Triplett on Building the Build System of his Dreams](https://anchor.fm/building-with-rust/episodes/Josh-Triplett-on-Building-the-Build-System-of-his-Dreams-e1dt81c)
 * [video] [Top 6 Books to learn the Rust Programming Language in 2022](https://www.youtube.com/watch?v=a9SzQClrOeI)
 * [video] [Rust 101 Lecture Series](https://www.youtube.com/playlist?list=PL-zQguBgjr2O4d-B9g_b0WYh1fyXr6MMq)
-* [audio] [Building with Rust: Josh Triplett on Building the Build System of his Dreams](https://anchor.fm/building-with-rust/episodes/Josh-Triplett-on-Building-the-Build-System-of-his-Dreams-e1dt81c)
-* [ZH] [为什么 Rust 没有继承？Why doesn't Rust have inheritance?](https://fengliang.io/RustWHY/design_choices/why_not_inheritance.html)
-* [RU] [Вангеры 3D: пример использования Emscripten в Rust](https://habr.com/ru/post/649457/)
 
 ### Rust Walkthroughs
 * [The simplest guide to error handling in Rust](https://kerkour.com/rust-error-handling/)
@@ -60,6 +68,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Let's create an app in webassembly](https://infinite-improbability.org/rust_wasm_photos/)
 * [RISC-V Bytes: Rust Cross-Compilation](https://danielmangum.com/posts/risc-v-bytes-rust-cross-compilation/)
 * [ESP32 MQTT Publish with Rust](https://medium.com/iotics/esp32-mqtt-publish-with-rust-678d1068ee2)
+* [Containerless! How to Run WebAssembly Workloads on Kubernetes with Rust](https://developer.okta.com/blog/2022/01/28/webassembly-on-kubernetes-with-rust)
+* [The foundations of end-to-end encryption: Domain separation (with code example in Rust)](https://kerkour.com/end-to-end-encryption-domain-separation-cryptography/)
 * [video] [Desktop UIs with Rust and React](https://www.youtube.com/watch?v=0gC3HOgtumo)
 * [series] [video] [Rust Embedded for STM32 Microcontrollers - Cross-compilation](https://youtu.be/WmEBBoc2iYM)
 * [series] [video] [Rust Embedded for STM32 Microcontrollers - HAL Crates](https://youtu.be/4oJy3ywY2B0)
@@ -206,9 +216,22 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Tempus Ex**
+
+* [Several full-time Rust positions available (San Francisco, CA, US, Atlanta, GA, US, Austin, TX, US, and Remote)](https://tempus-ex.com/careers)
+
 **LoanPASS**
 
 * [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
+
+**Slight**
+
+* [Software Engineer, Rust (Remote)](https://www.slight.co/jobs/software-engineer-rust)
+
+**Kollider**
+
+* [Senior Frontend Engineer (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
+* [Junior Backend Engineer (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
