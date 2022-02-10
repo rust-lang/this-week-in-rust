@@ -39,12 +39,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 * [Sayonara, Mozilla](https://kvark.github.io/mozilla/2022/02/02/leaving-mozilla.html)
 * [Some mistakes Rust doesn't catch](https://fasterthanli.me/articles/some-mistakes-rust-doesnt-catch)
-
+* [The simplest guide to error handling in Rust](https://kerkour.com/rust-error-handling/)
 * [audio] [Building with Rust: Josh Triplett on Building the Build System of his Dreams](https://anchor.fm/building-with-rust/episodes/Josh-Triplett-on-Building-the-Build-System-of-his-Dreams-e1dt81c)
 * [ZH] [为什么 Rust 没有继承？Why doesn't Rust have inheritance?](https://fengliang.io/RustWHY/design_choices/why_not_inheritance.html)
 
 ### Rust Walkthroughs
 * [Containerless! How to Run WebAssembly Workloads on Kubernetes with Rust](https://developer.okta.com/blog/2022/01/28/webassembly-on-kubernetes-with-rust)
+* [The foundations of end-to-end encryption: Domain separation (with code example in Rust)](https://kerkour.com/end-to-end-encryption-domain-separation-cryptography/)
 - [ESP32 MQTT Publish with Rust](https://medium.com/iotics/esp32-mqtt-publish-with-rust-678d1068ee2)
 * [series] [video] [Rust Embedded for STM32 Microcontrollers - Cross-compilation](https://youtu.be/WmEBBoc2iYM)
 * [series] [video] [Rust Embedded for STM32 Microcontrollers - HAL Crates](https://youtu.be/4oJy3ywY2B0)
@@ -192,6 +193,10 @@ Email the [Rust Community Team][community] for access.
 **LoanPASS**
 
 * [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
+
+**Slight**
+
+* [Software Engineer, Rust (Remote)](https://www.slight.co/jobs/software-engineer-rust)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
