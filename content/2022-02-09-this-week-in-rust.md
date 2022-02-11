@@ -249,6 +249,9 @@ Email the [Rust Community Team][community] for access.
 * [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
 * [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
+**Wasmer**
+* [Senior Rust Engineer (Remote)](https://www.ycombinator.com/companies/wasmer/jobs/lG79n4xvg-rust-expert-senior-software-engineer)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
