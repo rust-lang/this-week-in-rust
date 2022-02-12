@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Observations/Thoughts
+* [ZH] [为什么我们要Associated Type？Why do we need Associated Type?](https://fengliang.io/RustWHY/engineering_features/why_associated_type.html)
 
 ### Rust Walkthroughs
 
