@@ -150,7 +150,7 @@ Rusty Events between 2/16/2022 - 3/16/2022 🦀
 
 ### Europe
 
-* [January 29, 2022 | London, UK | **Rust London Code Dojo: Rust with Front-End Web Assembly** | Rust London User Group](https://www.meetup.com/Rust-London-User-Group/events/283852309/)
+* [February 28, 2022 | London, UK | **Rust London Code Dojo: Rust with Front-End Web Assembly** | Rust London User Group](https://www.meetup.com/Rust-London-User-Group/events/283852309/)
 
 ### North America
 
