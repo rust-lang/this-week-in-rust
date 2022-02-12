@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Computing image filters with wgpu-rs](https://blog.redwarp.app/image-filters/)
+
 ### Miscellaneous
 
 ## Crate of the Week
