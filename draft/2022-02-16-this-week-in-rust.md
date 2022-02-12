@@ -19,12 +19,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Project/Tooling Updates
+* [rsadsb: v0.5.0 Release](https://rsadsb.github.io/v0.5.0.html)
 
 ### Newsletters
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [rsadsb: Raspberry Pi in-car ADS-B Display - with Rust!](https://rsadsb.github.io/rasp-pi-display.html)
 
 ### Miscellaneous
 
