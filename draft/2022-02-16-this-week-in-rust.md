@@ -22,6 +22,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Newsletters
 
+### Research
+* [Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://songlh.github.io/paper/survey.pdf)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
