@@ -25,6 +25,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [series] [video] [Rust Embedded for STM32 Microcontrollers - I2C protocol (part 1)](https://youtu.be/j3wlSGP5Sw8)
+* [series] [video] [Rust Embedded for STM32 Microcontrollers - I2C protocol (with reference manual!)(part 2)](https://youtu.be/_pIKywTVzck)
 
 ### Miscellaneous
 
