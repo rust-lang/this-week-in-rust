@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Rust Project: Deserialization with Serde](https://youtu.be/A38SoLTB1Y4)
+
 ### Miscellaneous
 
 ## Crate of the Week
