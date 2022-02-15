@@ -6,6 +6,27 @@ Content for [this-week-in-rust.org](http://this-week-in-rust.org). Made availabl
 All code Copyright 2014 Ember Arlynx, made available under [the MIT
 license](http://mit-license.org/).
 
+## TWiR Editors
+
+* [@nellshamrell](https://github.com/nellshamrell)
+* [llogiq](https://github.com/llogiq)
+* [cdmistman](https://github.com/cdmistman)
+* [ericseppanen](https://github.com/ericseppanen)
+* [extrawurst](https://github.com/extrawurst
+* [andrewpollack](https://github.com/andrewpollack)
+* [U007D](https://github.com/U007D) 
+* [kolharsam](https://github.com/kolharsam)
+* [joelmarcey](https://github.com/joelmarcey)
+* [mariannegoldin](https://github.com/mariannegoldin)
+
+### Language Reviewers
+
+* [yuk1ty](https://github.com/yuk1ty) - Japanese
+* [rpruizc](https://github.com/rpruizc) - Spanish
+* [matheus-consoli](https://github.com/matheus-consoli) - Portuguese
+* [MATRIXKOO](https://github.com/MATRIXKOO) - Chinese
+* [Folyd](https://github.com/Folyd) - Chinese
+
 ## PRs for next issue are now being accepted
 
 To propose content for inclusion in the next newsletter (found in the `drafts/`
