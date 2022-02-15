@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Implementing a custom async runtime in a game engine](https://domwillia.ms/devlog7)
+
 ### Miscellaneous
 
 ## Crate of the Week
