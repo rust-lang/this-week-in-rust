@@ -30,9 +30,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [document-features](https://crates.io/crates/document-features), a small proc macro to parse your `Cargo.toml` and generate docs for your features.
+This week's crate is [assay](https://lib.rs/crates/assay), a test macro that puts each test in its own process and filesystem.
 
-Thanks to [Tobias Hunger](https://users.rust-lang.org/t/crate-of-the-week/2704/1017) for the suggestion!
+Thanks to [Harsh Shandilya](https://users.rust-lang.org/t/crate-of-the-week/2704/1023) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -51,37 +51,37 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-301 pull requests were [merged in the last week][merged]
+321 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-01-31..2022-02-07
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-02-07..2022-02-14
 
-* [add new target armv7-unknown-linux-uclibceabi (softfloat)](https://github.com/rust-lang/rust/pull/92383)
-* [continue work on associated const equality](https://github.com/rust-lang/rust/pull/93285)
-* [clarify error on casting larger integers to char](https://github.com/rust-lang/rust/pull/91939)
-* [fix suggestion to slice if scrutinee is a `Result` or `Option`](https://github.com/rust-lang/rust/pull/91343)
-* [if an integer is entered with an upper-case base prefix (0Xbeef, 0O755, 0B1010), suggest to make it lowercase](https://github.com/rust-lang/rust/pull/93019)
-* [add rustc lint, warning when iterating over hashmaps 2](https://github.com/rust-lang/rust/pull/92584)
-* [borrowck: fix help on mutating `&self` in `async fn`s](https://github.com/rust-lang/rust/pull/93221)
-* [perf: compress amount of hashed bytes for `isize` values in StableHasher](https://github.com/rust-lang/rust/pull/93432)
-* [perf: use `fold_list` in `try_super_fold_with` for `SubstsRef`](https://github.com/rust-lang/rust/pull/93643)
-* [codegen\_gcc: implement simd_neg](https://github.com/rust-lang/rustc_codegen_gcc/pull/125)
-* [optimize `core::str::Chars::count`](https://github.com/rust-lang/rust/pull/90414)
-* [impl `Arc::unwrap_or_clone`](https://github.com/rust-lang/rust/pull/91589)
-* [carefully remove bounds checks from some chunk iterator functions](https://github.com/rust-lang/rust/pull/86988)
-* [Impl arithmetic (assign-)ops traits for `Wrapping<_>` for rust 1.60.0](https://github.com/rust-lang/rust/pull/93208)
-* [implement `RawWaker` and `Waker` getters for underlying pointers](https://github.com/rust-lang/rust/pull/91828)
-* [rustdoc: collect traits in scope for foreign inherent impls](https://github.com/rust-lang/rust/pull/93539)
-* [clippy: add `explicit_write` suggestions for `write!`s with format args](https://github.com/rust-lang/rust-clippy/pull/8365)
-* [clippy: add lint `transmute_undefined_repr`](https://github.com/rust-lang/rust-clippy/pull/8398)
-* [clippy: fix ICE in `ptr_arg`](https://github.com/rust-lang/rust-clippy/pull/8387)
-* [clippy: split matches](https://github.com/rust-lang/rust-clippy/pull/8400)
-* [clippy: `chars_next_cmp` fix unescaped suggestion](https://github.com/rust-lang/rust-clippy/pull/8376)
-* [clippy: fix `explicit_counter_loop` suggesting `.into_iter()`, despite that triggering `into_iter_on_ref` in some cases](https://github.com/rust-lang/rust-clippy/pull/8382)
-* [clippy: make `unwrap_used` also trigger on `.get().unwrap()`](https://github.com/rust-lang/rust-clippy/pull/8372)
-* [clippy: warn if we find multiple clippy configs](https://github.com/rust-lang/rust-clippy/pull/8326)
-* [rustfmt: fix doc of generic items formmating error](https://github.com/rust-lang/rustfmt/pull/5124)
-* [rustfmt: fix import_granularity option when the use tree has an alias](https://github.com/rust-lang/rustfmt/pull/5209)
-* [rustfmt: handle non-ascii character at boundary](https://github.com/rust-lang/rustfmt/pull/5089)
+* [support custom options for LLVM build](https://github.com/rust-lang/rust/pull/93756)
+* [store rlink data in opaque binary format on disk](https://github.com/rust-lang/rust/pull/93681)
+* [fix incorrect register conflict detection in `asm!`](https://github.com/rust-lang/rust/pull/93868)
+* [fix regression from lazy opaque types](https://github.com/rust-lang/rust/pull/93783)
+* [make `span_extend_to_prev_str()` more robust](https://github.com/rust-lang/rust/pull/91607)
+* [better suggestions when user tries to collect into an unsized `[_]`](https://github.com/rust-lang/rust/pull/91443)
+* [do not suggest char literal for zero-length strings](https://github.com/rust-lang/rust/pull/92715)
+* [improve opaque type higher-ranked region error message under NLL](https://github.com/rust-lang/rust/pull/92306)
+* [point at type when a `static` `#[global_allocator]` doesn't `impl GlobalAlloc`](https://github.com/rust-lang/rust/pull/91950)
+* [make `find_similar_impl_candidates` even fuzzier](https://github.com/rust-lang/rust/pull/93298)
+* [implement `tainted_by_errors` in MIR borrowck, use it to skip CTFE](https://github.com/rust-lang/rust/pull/93691)
+* [more informative error message for E0015](https://github.com/rust-lang/rust/pull/90532)
+* [miri: implement `const_allocate` intrinsic](https://github.com/rust-lang/miri/pull/1973)
+* [miri: implement `const_deallocate` as a no-op](https://github.com/rust-lang/miri/pull/1974)
+* [stabilise `is_aarch64_feature_detected!` under `simd_aarch64` feature](https://github.com/rust-lang/rust/pull/90271)
+* [stabilise `inherent_ascii_escape`](https://github.com/rust-lang/rust/pull/93886)
+* [stabilize `cfg_target_has_atomic`](https://github.com/rust-lang/rust/pull/93824)
+* [stabilize `int_abs_diff`](https://github.com/rust-lang/rust/pull/93735)
+* [fix `HashMap` not displaying correctly in VS debugger](https://github.com/rust-lang/rust/pull/93626)
+* [add `From<u8>` for `ExitCode`](https://github.com/rust-lang/rust/pull/93445)
+* [add `str::`{`floor`, `ceil`}`_char_boundary` methods](https://github.com/rust-lang/rust/pull/86497)
+* [`std::path::absolute`](https://github.com/rust-lang/rust/pull/91673)
+* [implement `AsFd` for `&T` and `&mut T`](https://github.com/rust-lang/rust/pull/93888)
+* [make `Instant::`{`duration_since`, `elapsed`, `sub`} saturating and remove workarounds](https://github.com/rust-lang/rust/pull/89926)
+* [clippy: fix `transmute_undefined_repr` with single field `#[repr(C)]` structs](https://github.com/rust-lang/rust-clippy/pull/8425)
+* [rustfmt: fix incorrect string indentation in macro defs with `format_strings`](https://github.com/rust-lang/rustfmt/pull/5201)
+* [rustfmt: leverage itemized blocks to support formatting markdown block quotes](https://github.com/rust-lang/rustfmt/pull/5160)
 
 ### Rust Compiler Performance Triage
 
@@ -166,11 +166,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> As the temporary human substitute for the temporarily unavailable automated representative of the governance process, I would like to thank the author for their work and everyone else who contributed.
+> I still get excited about programming languages. But these days, it's not so much because of what they let me do, but rather what they don't let me do.
 
-– [Mara Bos (on behalf of RFCbot) on github](https://github.com/rust-lang/rust/issues/87096#issuecomment-1028792980)
+– [Amos blogging about mistakes Rust doesn't catch](https://fasterthanli.me/articles/some-mistakes-rust-doesnt-catch)
 
-Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1180) for the suggestion!
+Thanks to [Rob Donnelly](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1181) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
