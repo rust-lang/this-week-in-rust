@@ -278,4 +278,4 @@ Thanks to [Rob Donnelly](https://users.rust-lang.org/t/twir-quote-of-the-week/32
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/k5nsab/this_week_in_rust_367/)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/sucpzb/this_week_in_rust_430/)</small>
