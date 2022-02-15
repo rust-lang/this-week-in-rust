@@ -12,7 +12,7 @@ license](http://mit-license.org/).
 * [llogiq](https://github.com/llogiq)
 * [cdmistman](https://github.com/cdmistman)
 * [ericseppanen](https://github.com/ericseppanen)
-* [extrawurst](https://github.com/extrawurst
+* [extrawurst](https://github.com/extrawurst)
 * [andrewpollack](https://github.com/andrewpollack)
 * [U007D](https://github.com/U007D) 
 * [kolharsam](https://github.com/kolharsam)
