@@ -116,11 +116,15 @@ decision. Express your opinions now.
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: close] [Tracking issue for naked fns (RFC #1201)](https://github.com/rust-lang/rust/issues/32408)
+* [disposition: merge] [Remove the everybody loops pass](https://github.com/rust-lang/rust/pull/93913)
+* [disposition: merge] [Stabilize `#[cfg(panic = "...")]`](https://github.com/rust-lang/rust/pull/93658)
+* [disposition: merge] [Tracking Issue for bool_to_option](https://github.com/rust-lang/rust/issues/80967)
+* [disposition: merge] [Check if enum from foreign crate has any non exhaustive variants when attempting a cast](https://github.com/rust-lang/rust/pull/92744)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [new] [RFC: Add a process_group method to UNIX CommandExt](https://github.com/rust-lang/rfcs/pull/3228)
+* [new] [add raw-code-data](https://github.com/rust-lang/rfcs/pull/3232)
+* [new] [Cargo authenticateing users without sending secrets over the network](https://github.com/rust-lang/rfcs/pull/3231)
 
 ## Upcoming Events
 
