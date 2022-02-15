@@ -8,7 +8,7 @@ license](http://mit-license.org/).
 
 ## TWiR Editors
 
-* [@nellshamrell](https://github.com/nellshamrell)
+* [nellshamrell](https://github.com/nellshamrell)
 * [llogiq](https://github.com/llogiq)
 * [cdmistman](https://github.com/cdmistman)
 * [ericseppanen](https://github.com/ericseppanen)
