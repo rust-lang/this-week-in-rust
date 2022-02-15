@@ -224,16 +224,47 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Fig**
+
+* [Systems Engineer (San Francisco, CA, US (Preferred) or Remote)](https://fig.io/jobs/systems)
+
+**Nuclia**
+
+* [Rust developer (Remote)](https://nuclia.com/careers/rust-developer/)
+
+**Rayon**
+
+* [Rust Software Engineer (Remote, Close to CET)](https://rayonapp.notion.site/Rust-Software-Engineer-241f9a33db484fa886ed9776e3b754e8)
+
+**LoanPASS**
+
+* [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
+
+**Wasmer**
+
+* [Rust Expert - Senior Software Engineer (San Francisco, CA, US or Remote)](https://www.ycombinator.com/companies/wasmer/jobs/lG79n4xvg-rust-expert-senior-software-engineer)
+
+**PolySign**
+
+* [Blockchain Development Team Lead (Remote)](https://www.linkedin.com/jobs/view/2913720780/)
+* [Senior Blockchain Engineer (Remote)](https://www.linkedin.com/jobs/view/2913719367/)
+
 **Kollider**
 
 * [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
 * [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
 
+**Kraken**
+
+* [Engineering Manager - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/53def500-b146-40da-89a8-98adfd7e84e4)
+* [Rust Engineer, Desktop GUI - Cryptowatch (Remote)](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
+* [Site Reliability Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/1c6b290f-e430-430d-9b40-a258d07686b0)
+
+**Stockly**
+
+* [Multiple Rust Developer Positions Available (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
-
-**LoanPASS**
-
-* [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
 
 # Quote of the Week
 
