@@ -19,8 +19,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Project/Tooling Updates
+* [This week in Fluvio #22: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0022/)
 * [rsadsb: v0.5.0 Release](https://rsadsb.github.io/v0.5.0.html)
-
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W06](https://www.fornjot.app/blog/weekly-dev-log/2022-w06/)
 
 ### Newsletters
