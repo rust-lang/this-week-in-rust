@@ -62,8 +62,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Rust Project: Deserialization with Serde](https://www.youtube.com/watch?v=A38SoLTB1Y4)
 * [video] [5 Tips for Rust Beginners](https://www.youtube.com/watch?v=zdT3bUljGQw)
 * [Assertion reporting](https://hole.tuziwo.info/assertion-reporting.html)
-* [series] [video] [Rust Embedded for STM32 Microcontrollers - I2C protocol (part 1)](https://youtu.be/j3wlSGP5Sw8)
-* [series] [video] [Rust Embedded for STM32 Microcontrollers - I2C protocol (with reference manual!)(part 2)](https://youtu.be/_pIKywTVzck)
+* [series] [video] [Rust Embedded for STM32 Microcontrollers - I2C protocol (part 1)](https://www.youtube.com/watch?v=j3wlSGP5Sw8)
+* [series] [video] [Rust Embedded for STM32 Microcontrollers - I2C protocol (with reference manual!)(part 2)](https://www.youtube.com/watch?v=_pIKywTVzck)
 
 ### Miscellaneous
 * [Rust core team alumni](https://brson.github.io/2022/02/09/rust-core-team-alumni)
