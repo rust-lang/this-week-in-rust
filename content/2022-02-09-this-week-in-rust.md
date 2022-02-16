@@ -34,6 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log](https://www.fornjot.app/blog/weekly-dev-log/2022-w05/)
 * [Knurling-rs changelog #33](https://ferrous-systems.com/blog/knurling-changelog-33/)
 * [Open-sourcing update-informer: a highly customizable Rust library for CLI apps](https://evrone.com/update-informer)
+* [This week in Databend #28: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-02-09-databend-weekly/)
 
 ### Newsletters
 * [This Month in Rust OSDev (January 2022)](https://rust-osdev.com/this-month/2022-01/)
@@ -196,6 +197,7 @@ Rusty Events between 2/9/2022 - 3/9/2022 🦀
 * [February 17, 2022 | Nürnberg, DE | **Rust Nürnberg online #10**| Rust Nuremberg](https://www.meetup.com/rust-noris/events/283545751/)
 * [February 17, 2022 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/282545308)
 * [February 17, 2022 | Würzburg, DE | **Meet and chat about Rust** | Rust Würzburg Meetup Group](https://www.meetup.com/rust-wurzburg-meetup-group/events/283609518)
+* [February 18, 2022 | Tehran, IR | **Rust Iran Meetup #5 - Type Driven Design** | Rust Iran Meetup](https://rust-meetup.ir/2022/02/18/fifth-meetup.html)
 * [February 22, 2022 | Dallas, TX, US | **Last Tuesday Meetup** | Dallas Rust](https://www.meetup.com/Dallas-Rust/events/283669162/)
 * [February 22, 2022 | Dublin, IE | **Rust Dublin February Meetup** - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/283613610)
 * [February 23, 2022 | México City, MX | **Platica Febrero 2022** | Rust MX](https://www.meetup.com/Rust-MX/events/283662630)
@@ -248,6 +250,9 @@ Email the [Rust Community Team][community] for access.
 * [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
 * [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
 * [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
+
+**Wasmer**
+* [Senior Rust Engineer (Remote)](https://www.ycombinator.com/companies/wasmer/jobs/lG79n4xvg-rust-expert-senior-software-engineer)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
