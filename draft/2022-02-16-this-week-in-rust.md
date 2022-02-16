@@ -30,6 +30,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 * [rsadsb: Raspberry Pi in-car ADS-B Display - with Rust!](https://rsadsb.github.io/rasp-pi-display.html)
 
+* [Computing image filters with wgpu-rs](https://blog.redwarp.app/image-filters/)
+
 ### Miscellaneous
 
 ## Crate of the Week
