@@ -31,7 +31,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust Analyzer Changelog #116](https://rust-analyzer.github.io/thisweek/2022/02/14/changelog-116.html)
 * [GCC Rust Weekly Status Report 39](https://thephilbert.io/2022/02/14/gcc-rust-weekly-status-report-39/)
 * [cargo-mutants 0.2.0: A new mutation testing tool for Rust](https://github.com/sourcefrog/cargo-mutants#readme)
-* [SixtyFPS becomes Slint](https://slint-ui.com/blog/sixtyfps-becomes-slint.html)
 
 ### Newsletters
 * [This Month in Rust GameDev #30 - January 2022](https://gamedev.rs/news/030/)
@@ -51,7 +50,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Async read and write traits](https://www.ncameron.org/blog/async-read-and-write-traits/)
 * [Dare to ask for more #rust2024](http://smallcultfollowing.com/babysteps//blog/2022/02/09/dare-to-ask-for-more-rust2024/)
 * [PostgreSQL Aggregates with Rust](https://hoverbear.org/blog/postgresql-aggregates-with-rust/)
-* [My Rust Frontend Experiences](https://blog.urth.org/2022/02/08/my-rust-frontend-experiences/)
 * [ZH] [为什么我们要Associated Type？Why do we need Associated Type?](https://fengliang.io/RustWHY/engineering_features/why_associated_type.html)
 
 ### Rust Walkthroughs
@@ -61,15 +59,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [How to build a custom blockchain implementation in Rust using Substrate](https://blog.logrocket.com/how-to-build-a-custom-blockchain-implementation-in-rust-using-substrate/)
 * [Rust on iOS and Mac Catalyst: A Simple, Updated Guide](https://nadim.computer/posts/2022-02-11-maccatalyst.html)
 * [What Is Rust's Hole Purpose?](http://blog.pnkfx.org/blog/2022/02/09/what-is-rusts-hole-purpose/)
-* [A Rust match made in hell](https://fasterthanli.me/articles/a-rust-match-made-in-hell)
 * [Futures Concurrency III](https://blog.yoshuawuyts.com/futures-concurrency-3/)
-* [More Enum Types](https://blog.yoshuawuyts.com/more-enum-types/)
 * [Frontend Rust Without Node](https://blog.urth.org/2022/02/14/frontend-rust-without-node/)
 * [Implementing a custom async runtime in a game engine](https://domwillia.ms/devlog7)
-* [Computing image filters with wgpu-rs](https://blog.redwarp.app/image-filters/)
-* [Futures concurrency III](https://blog.yoshuawuyts.com/futures-concurrency-3/)
-* [Let’s Build a WebSockets Project With Rust and Yew 0.19](https://fsjohnny.medium.com/lets-build-a-websockets-project-with-rust-and-yew-0-19-60720367399f)
-* [rsadsb: Raspberry Pi in-car ADS-B Display - with Rust!](https://rsadsb.github.io/rasp-pi-display.html)
 * [Assertion reporting](https://hole.tuziwo.info/assertion-reporting.html)
 * [Video] [Implementing the NTFS filesystem in Rust](https://fosdem.org/2022/schedule/event/misc_ntfs_rust/)
 * [video] [Rust Project: Deserialization with Serde](https://www.youtube.com/watch?v=A38SoLTB1Y4)
