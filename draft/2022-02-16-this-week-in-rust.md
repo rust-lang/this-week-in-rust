@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W06](https://www.fornjot.app/blog/weekly-dev-log/2022-w06/)
 * [cargo-mutants 0.2.0: A new mutation testing tool for Rust](https://github.com/sourcefrog/cargo-mutants#readme)
 
+* [SixtyFPS becomes Slint](https://slint-ui.com/blog/sixtyfps-becomes-slint.html)
+
 ### Newsletters
 
 ### Research
