@@ -21,6 +21,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 * [rsadsb: v0.5.0 Release](https://rsadsb.github.io/v0.5.0.html)
 
+* [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W06](https://www.fornjot.app/blog/weekly-dev-log/2022-w06/)
+
 ### Newsletters
 
 ### Research
