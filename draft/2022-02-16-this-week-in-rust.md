@@ -50,6 +50,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Implementing a custom async runtime in a game engine](https://domwillia.ms/devlog7)
 
 ### Miscellaneous
+* [Rotating log files and reassembling them for inspection](https://www.openanalytics.eu/blog/2022/02/15/log-files-in-rust/)
 
 ## Crate of the Week
 
