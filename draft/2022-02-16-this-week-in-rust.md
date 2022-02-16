@@ -45,6 +45,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [video] [Rust Project: Deserialization with Serde](https://www.youtube.com/watch?v=A38SoLTB1Y4)
 
+* [video] [5 Tips for Rust Beginners](https://www.youtube.com/watch?v=zdT3bUljGQw)
+
 ### Miscellaneous
 
 ## Crate of the Week
