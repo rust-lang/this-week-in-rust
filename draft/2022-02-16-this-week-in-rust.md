@@ -30,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://songlh.github.io/paper/survey.pdf)
 
 ### Observations/Thoughts
+* [ZH] [为什么我们要Associated Type？Why do we need Associated Type?](https://fengliang.io/RustWHY/engineering_features/why_associated_type.html)
 
 * [My Rust Frontend Experiences](https://blog.urth.org/2022/02/08/my-rust-frontend-experiences/)
 
