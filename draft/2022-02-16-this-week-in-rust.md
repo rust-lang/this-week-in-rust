@@ -63,6 +63,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [5 Tips for Rust Beginners](https://www.youtube.com/watch?v=zdT3bUljGQw)
 
 
+* [Assertion reporting](https://hole.tuziwo.info/assertion-reporting.html)
+
 ### Miscellaneous
 * [Rust core team alumni](https://brson.github.io/2022/02/09/rust-core-team-alumni)
 * [Crane Support for Alternative Registries and Git Dependencies](https://ipetkov.dev/blog/crane-support-for-alt-registries-and-git-deps/)
