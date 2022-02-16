@@ -40,6 +40,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Let’s Build a WebSockets Project With Rust and Yew 0.19](https://fsjohnny.medium.com/lets-build-a-websockets-project-with-rust-and-yew-0-19-60720367399f)
 
 ### Miscellaneous
+* [Rotating log files and reassembling them for inspection](https://www.openanalytics.eu/blog/2022/02/15/log-files-in-rust/)
 
 ## Crate of the Week
 
