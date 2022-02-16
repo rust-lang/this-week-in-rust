@@ -25,6 +25,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Newsletters
 
+* [Updates from the Tinyverse](https://tinyverse.substack.com/p/updates-from-the-tinyverse-february?r=jbznp)
+
 ### Research
 * [Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://songlh.github.io/paper/survey.pdf)
 
