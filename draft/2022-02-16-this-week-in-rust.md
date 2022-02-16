@@ -26,7 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
-* [video] [5 Tips for Rust Beginners](https://youtu.be/zdT3bUljGQw)
+* [video] [5 Tips for Rust Beginners](https://www.youtube.com/watch?v=zdT3bUljGQw)
 
 ### Miscellaneous
 
