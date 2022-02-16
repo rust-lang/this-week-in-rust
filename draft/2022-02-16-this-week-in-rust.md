@@ -19,12 +19,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Project/Tooling Updates
+* [Performance Tools Newsletter (Q4 2021)](https://blog.mozilla.org/performance/2022/02/15/performance-tools-newsletter-q4-2021/)
+* [SixtyFPS becomes Slint](https://slint-ui.com/blog/sixtyfps-becomes-slint.html)
+* [This week in Glean](https://blog.mozilla.org/data/2022/02/09/this-week-in-glean-migrating-legacy-telemetry-collections-to-glean/)
 
 ### Newsletters
 
 ### Observations/Thoughts
+* [A Rust match made in hell](https://fasterthanli.me/articles/a-rust-match-made-in-hell)
+* [Dare to ask more #rust2024](https://smallcultfollowing.com/babysteps/blog/2022/02/09/dare-to-ask-for-more-rust2024/)
+* [More Enum Types](https://blog.yoshuawuyts.com/more-enum-types/)
+* [What is Rust's hole purpose?](https://blog.pnkfx.org/blog/2022/02/09/what-is-rusts-hole-purpose/)
 
 ### Rust Walkthroughs
+* [Futures concurrency III](https://blog.yoshuawuyts.com/futures-concurrency-3/)
 
 ### Miscellaneous
 
