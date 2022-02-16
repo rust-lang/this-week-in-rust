@@ -61,6 +61,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Video] [Implementing the NTFS filesystem in Rust](https://fosdem.org/2022/schedule/event/misc_ntfs_rust/)
 * [video] [Rust Project: Deserialization with Serde](https://www.youtube.com/watch?v=A38SoLTB1Y4)
 * [video] [5 Tips for Rust Beginners](https://www.youtube.com/watch?v=zdT3bUljGQw)
+* [series] [video] [Writing a Programming Language (in Rust) 15: Implementing `this`](https://www.youtube.com/watch?v=TLy-59WtTX8)
 
 
 * [Assertion reporting](https://hole.tuziwo.info/assertion-reporting.html)
