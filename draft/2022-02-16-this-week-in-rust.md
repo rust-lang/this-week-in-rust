@@ -65,6 +65,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Assertion reporting](https://hole.tuziwo.info/assertion-reporting.html)
 
+* [video] [Developing Embedded Applications in Rust](https://www.youtube.com/watch?v=pgG95y0hBDc)
+
 ### Miscellaneous
 * [Rust core team alumni](https://brson.github.io/2022/02/09/rust-core-team-alumni)
 * [Crane Support for Alternative Registries and Git Dependencies](https://ipetkov.dev/blog/crane-support-for-alt-registries-and-git-deps/)
