@@ -26,7 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
-* [video] [Rust Project: Deserialization with Serde](https://youtu.be/A38SoLTB1Y4)
+* [video] [Rust Project: Deserialization with Serde](https://www.youtube.com/watch?v=A38SoLTB1Y4)
 
 ### Miscellaneous
 
