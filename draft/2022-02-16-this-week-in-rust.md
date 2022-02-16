@@ -49,6 +49,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Implementing a custom async runtime in a game engine](https://domwillia.ms/devlog7)
 
+* [video] [Developing Embedded Applications in Rust](https://www.youtube.com/watch?v=pgG95y0hBDc)
+
 ### Miscellaneous
 
 ## Crate of the Week
