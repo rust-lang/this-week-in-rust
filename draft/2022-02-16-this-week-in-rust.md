@@ -15,6 +15,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [Rust Survey 2021 Results](https://blog.rust-lang.org/2022/02/15/Rust-Survey-2021.html)
+* [CTCFT 2022-02-21 Agenda](https://blog.rust-lang.org/inside-rust/2022/02/11/CTCFT-february.html)
+* [Crates.io Index Snapshot Branches Moving](https://blog.rust-lang.org/2022/02/14/crates-io-snapshot-branches.html)
 
 ### Foundation
 
@@ -22,35 +25,50 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Fluvio #22: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0022/)
 * [rsadsb: v0.5.0 Release](https://rsadsb.github.io/v0.5.0.html)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W06](https://www.fornjot.app/blog/weekly-dev-log/2022-w06/)
+* [Rust Analyzer Changelog #116](https://rust-analyzer.github.io/thisweek/2022/02/14/changelog-116.html)
+* [GCC Rust Weekly Status Report 39](https://thephilbert.io/2022/02/14/gcc-rust-weekly-status-report-39/)
 * [cargo-mutants 0.2.0: A new mutation testing tool for Rust](https://github.com/sourcefrog/cargo-mutants#readme)
-
 * [SixtyFPS becomes Slint](https://slint-ui.com/blog/sixtyfps-becomes-slint.html)
 
 ### Newsletters
+* [This Month in Rust GameDev #30 - January 2022](https://gamedev.rs/news/030/)
 
 ### Research
 * [Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://songlh.github.io/paper/survey.pdf)
 
 ### Observations/Thoughts
-* [ZH] [为什么我们要Associated Type？Why do we need Associated Type?](https://fengliang.io/RustWHY/engineering_features/why_associated_type.html)
-
+* [Mocking Time in Async Rust](https://www.ditto.live/blog/mocking-time-in-async-rust)
+* [Plugins in Rust: Getting our Hands Dirty](https://nullderef.com/blog/plugin-impl/)
+* [Async IO fundamentals](https://www.ncameron.org/blog/async-io-fundamentals/)
+* [Async read and write traits](https://www.ncameron.org/blog/async-read-and-write-traits/)
+* [Dare to ask for more #rust2024](http://smallcultfollowing.com/babysteps//blog/2022/02/09/dare-to-ask-for-more-rust2024/)
+* [PostgreSQL Aggregates with Rust](https://hoverbear.org/blog/postgresql-aggregates-with-rust/)
 * [My Rust Frontend Experiences](https://blog.urth.org/2022/02/08/my-rust-frontend-experiences/)
+* [ZH] [为什么我们要Associated Type？Why do we need Associated Type?](https://fengliang.io/RustWHY/engineering_features/why_associated_type.html)
 
 ### Rust Walkthroughs
 * [rsadsb: Raspberry Pi in-car ADS-B Display - with Rust!](https://rsadsb.github.io/rasp-pi-display.html)
-
 * [Computing image filters with wgpu-rs](https://blog.redwarp.app/image-filters/)
-
 * [Let’s Build a WebSockets Project With Rust and Yew 0.19](https://fsjohnny.medium.com/lets-build-a-websockets-project-with-rust-and-yew-0-19-60720367399f)
-
+* [How to build a custom blockchain implementation in Rust using Substrate](https://blog.logrocket.com/how-to-build-a-custom-blockchain-implementation-in-rust-using-substrate/)
+* [Rust on iOS and Mac Catalyst: A Simple, Updated Guide](https://nadim.computer/posts/2022-02-11-maccatalyst.html)
+* [What Is Rust's Hole Purpose?](http://blog.pnkfx.org/blog/2022/02/09/what-is-rusts-hole-purpose/)
+* [A Rust match made in hell](https://fasterthanli.me/articles/a-rust-match-made-in-hell)
+* [Futures Concurrency III](https://blog.yoshuawuyts.com/futures-concurrency-3/)
+* [More Enum Types](https://blog.yoshuawuyts.com/more-enum-types/)
+* [Frontend Rust Without Node](https://blog.urth.org/2022/02/14/frontend-rust-without-node/)
+* [Implementing a custom async runtime in a game engine](https://domwillia.ms/devlog7)
+* [Video] [Implementing the NTFS filesystem in Rust](https://fosdem.org/2022/schedule/event/misc_ntfs_rust/)
 * [video] [Rust Project: Deserialization with Serde](https://www.youtube.com/watch?v=A38SoLTB1Y4)
-
 * [video] [5 Tips for Rust Beginners](https://www.youtube.com/watch?v=zdT3bUljGQw)
 
-* [Implementing a custom async runtime in a game engine](https://domwillia.ms/devlog7)
 
 ### Miscellaneous
+* [Rust core team alumni](https://brson.github.io/2022/02/09/rust-core-team-alumni)
+* [Crane Support for Alternative Registries and Git Dependencies](https://ipetkov.dev/blog/crane-support-for-alt-registries-and-git-deps/)
+* [Sustainability with Rust](https://aws.amazon.com/blogs/opensource/sustainability-with-rust/)
 * [Rotating log files and reassembling them for inspection](https://www.openanalytics.eu/blog/2022/02/15/log-files-in-rust/)
+* [DE] [Grafische User-Interfaces: SixtyFPS-Toolkit aus Berlin als Slint überarbeitet](https://www.heise.de/news/UI-Toolkit-aus-Berlin-SixtyFPS-heisst-nun-Slint-6443665.html)
 
 ## Crate of the Week
 
