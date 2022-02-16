@@ -23,6 +23,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Newsletters
 
+### Research
+* [Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://songlh.github.io/paper/survey.pdf)
+
 ### Observations/Thoughts
 
 * [My Rust Frontend Experiences](https://blog.urth.org/2022/02/08/my-rust-frontend-experiences/)
