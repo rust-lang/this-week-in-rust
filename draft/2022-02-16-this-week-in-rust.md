@@ -47,6 +47,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [video] [5 Tips for Rust Beginners](https://www.youtube.com/watch?v=zdT3bUljGQw)
 
+* [Implementing a custom async runtime in a game engine](https://domwillia.ms/devlog7)
+
 ### Miscellaneous
 
 ## Crate of the Week
