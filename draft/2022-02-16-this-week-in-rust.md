@@ -37,6 +37,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Computing image filters with wgpu-rs](https://blog.redwarp.app/image-filters/)
 
+* [Let’s Build a WebSockets Project With Rust and Yew 0.19](https://fsjohnny.medium.com/lets-build-a-websockets-project-with-rust-and-yew-0-19-60720367399f)
+
 ### Miscellaneous
 
 ## Crate of the Week
