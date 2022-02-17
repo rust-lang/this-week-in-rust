@@ -28,7 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Fornjot 0.5.0 - Code-CAD in Rust](https://www.fornjot.app/blog/fornjot-0-5-0/)
 * [BonsaiDb January update: Alpha Next Week](https://bonsaidb.io/blog/january-2022-update/)
 * [rustc_codegen_gcc: Progress Report #8](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-8)
-* [Rust Analyzer Changelog #114](https://rust-analyzer.github.io//thisweek/2022/01/31/changelog-114.html)
+* [Rust Analyzer Changelog #114](https://rust-analyzer.github.io/thisweek/2022/01/31/changelog-114.html)
 * [IntelliJ Rust Changelog #164](https://intellij-rust.github.io/2022/01/31/changelog-164.html)
 * [This week in Databend #27: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-02-02-databend-weekly/)
 
@@ -45,7 +45,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Part 2: Improving crypto code in Rust using LLVM’s optnone](https://blog.trailofbits.com/2022/02/01/part-2-rusty-crypto/)
 * [Writing the fastest GBDT library in Rust](https://www.tangram.dev/blog/writing_the_fastest_gbdt_library_in_rust/)
 * [Async Rust vs RTOS showdown!](https://tweedegolf.nl/en/blog/65/async-rust-vs-rtos-showdown)
-* [Panics vs cancellation, part 1](https://smallcultfollowing.com/babysteps//blog/2022/01/27/panics-vs-cancellation-part-1/)
+* [Panics vs cancellation, part 1](https://smallcultfollowing.com/babysteps/blog/2022/01/27/panics-vs-cancellation-part-1/)
 * [Rust extension traits, greppability and IDEs](https://eli.thegreenplace.net/2022/rust-extension-traits-greppability-and-ides/)
 * [The Curious Absence of Lifetimes](https://ivkov.me/absence-of-lifetimes/)
 * [Rust has a small standard library (and that's ok)](https://blog.nindalf.com/posts/rust-stdlib/)

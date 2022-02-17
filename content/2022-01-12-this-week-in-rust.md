@@ -34,7 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [The engine was renamed to Fyrox](https://rg3d.rs/general/2022/01/11/fyrox.html)
 
 ### Observations/Thoughts
-* [Dyn async traits, part 7: a design emerges?](https://smallcultfollowing.com/babysteps//blog/2022/01/07/dyn-async-traits-part-7/)
+* [Dyn async traits, part 7: a design emerges?](https://smallcultfollowing.com/babysteps/blog/2022/01/07/dyn-async-traits-part-7/)
 * [Rust in 2022](https://www.ncameron.org/blog/rust-in-2022-2/)
 * [Bringing include_dir Into the Modern Era](https://adventures.michaelfbryan.com/posts/bringing-include_dir-into-the-modern-era/)
 * [Rust Async and the Terrible, Horrible, No Good, Very Bad Day](https://kevinhoffman.medium.com/rust-async-and-the-terrible-horrible-no-good-very-bad-day-348ebc836274)
