@@ -134,17 +134,21 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-A week with a number of correctness-related regressions, and a few small
-cleanups yielding good performance results. Overall an improvement, particularly
-for incremental benchmarks.
+Only one outright regression this week. We had some very cool work from cjgillot
+to prevent queries from doing expensive clones, by just forcing them all to be
+`Copy`! Also, nnethercote's overhaul of interning yielded massive improvements
+across many crates. Also, a slew of benchmarks were unexpectedly improved
+[quite a lot][] by some changes to way we invoke the linker when building LLVM itself.
 
-Triage done by **@simulacrum**.
-Revision range: [1ea48517..775e480](https://perf.rust-lang.org/?start=1ea4851715893ee3f365a8ef09d47165e9a7864f&end=775e480722c7aba6ff4ff3ccec8c1f4639ae7889&absolute=false&stat=instructions%3Au)
+[quite a lot]: https://perf.rust-lang.org/compare.html?start=8d163e66211c529465868a22686f46c5956342a4&end=6655109f58b7d0f4cae7e04eab476e389c9b9a0f
 
-4 Regressions, 2 Improvements, 5 Mixed; 1 of them in rollups
-27 comparisons made in total
+Triage done by **@pnkfelix**.
+Revision range: [775e4807..a240ccd8](https://perf.rust-lang.org/?start=775e480722c7aba6ff4ff3ccec8c1f4639ae7889&end=a240ccd81c74c105b6f5fe84c46f8d36edb7e306&absolute=false&stat=instructions%3Au)
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-02-08.md)
+2 Regressions, 2 Improvements, 4 Mixed; 0 of them in rollups
+47 comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-02-16.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
