@@ -22,13 +22,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Project/Tooling Updates
-* [This week in Fluvio #22: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0022/)
-* [rsadsb: v0.5.0 Release](https://rsadsb.github.io/v0.5.0.html)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W06](https://www.fornjot.app/blog/weekly-dev-log/2022-w06/)
+* [Performance Tools Newsletter (Q4 2021)](https://blog.mozilla.org/performance/2022/02/15/performance-tools-newsletter-q4-2021/)
+* [rsadsb: v0.5.0 Release](https://rsadsb.github.io/v0.5.0.html)
+* [SixtyFPS becomes Slint](https://slint-ui.com/blog/sixtyfps-becomes-slint.html)
+* [This week in Fluvio #22: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0022/)
 * [Rust Analyzer Changelog #116](https://rust-analyzer.github.io/thisweek/2022/02/14/changelog-116.html)
 * [GCC Rust Weekly Status Report 39](https://thephilbert.io/2022/02/14/gcc-rust-weekly-status-report-39/)
 * [cargo-mutants 0.2.0: A new mutation testing tool for Rust](https://github.com/sourcefrog/cargo-mutants#readme)
-* [SixtyFPS becomes Slint](https://slint-ui.com/blog/sixtyfps-becomes-slint.html)
 
 ### Newsletters
 * [This Month in Rust GameDev #30 - January 2022](https://gamedev.rs/news/030/)
@@ -37,13 +38,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://songlh.github.io/paper/survey.pdf)
 
 ### Observations/Thoughts
+* [A Rust match made in hell](https://fasterthanli.me/articles/a-rust-match-made-in-hell)
+* [Dare to ask more #rust2024](https://smallcultfollowing.com/babysteps/blog/2022/02/09/dare-to-ask-for-more-rust2024/)
+* [More Enum Types](https://blog.yoshuawuyts.com/more-enum-types/)
+* [My Rust Frontend Experiences](https://blog.urth.org/2022/02/08/my-rust-frontend-experiences/)
+* [What is Rust's hole purpose?](https://blog.pnkfx.org/blog/2022/02/09/what-is-rusts-hole-purpose/)
 * [Mocking Time in Async Rust](https://www.ditto.live/blog/mocking-time-in-async-rust)
 * [Plugins in Rust: Getting our Hands Dirty](https://nullderef.com/blog/plugin-impl/)
 * [Async IO fundamentals](https://www.ncameron.org/blog/async-io-fundamentals/)
 * [Async read and write traits](https://www.ncameron.org/blog/async-read-and-write-traits/)
 * [Dare to ask for more #rust2024](http://smallcultfollowing.com/babysteps//blog/2022/02/09/dare-to-ask-for-more-rust2024/)
 * [PostgreSQL Aggregates with Rust](https://hoverbear.org/blog/postgresql-aggregates-with-rust/)
-* [My Rust Frontend Experiences](https://blog.urth.org/2022/02/08/my-rust-frontend-experiences/)
 * [ZH] [为什么我们要Associated Type？Why do we need Associated Type?](https://fengliang.io/RustWHY/engineering_features/why_associated_type.html)
 
 ### Rust Walkthroughs
@@ -53,18 +58,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [How to build a custom blockchain implementation in Rust using Substrate](https://blog.logrocket.com/how-to-build-a-custom-blockchain-implementation-in-rust-using-substrate/)
 * [Rust on iOS and Mac Catalyst: A Simple, Updated Guide](https://nadim.computer/posts/2022-02-11-maccatalyst.html)
 * [What Is Rust's Hole Purpose?](http://blog.pnkfx.org/blog/2022/02/09/what-is-rusts-hole-purpose/)
-* [A Rust match made in hell](https://fasterthanli.me/articles/a-rust-match-made-in-hell)
 * [Futures Concurrency III](https://blog.yoshuawuyts.com/futures-concurrency-3/)
-* [More Enum Types](https://blog.yoshuawuyts.com/more-enum-types/)
 * [Frontend Rust Without Node](https://blog.urth.org/2022/02/14/frontend-rust-without-node/)
 * [Implementing a custom async runtime in a game engine](https://domwillia.ms/devlog7)
+* [Assertion reporting](https://hole.tuziwo.info/assertion-reporting.html)
 * [Video] [Implementing the NTFS filesystem in Rust](https://fosdem.org/2022/schedule/event/misc_ntfs_rust/)
 * [video] [Rust Project: Deserialization with Serde](https://www.youtube.com/watch?v=A38SoLTB1Y4)
 * [video] [5 Tips for Rust Beginners](https://www.youtube.com/watch?v=zdT3bUljGQw)
-
-
-* [Assertion reporting](https://hole.tuziwo.info/assertion-reporting.html)
-
 * [video] [Developing Embedded Applications in Rust](https://www.youtube.com/watch?v=pgG95y0hBDc)
 
 ### Miscellaneous
