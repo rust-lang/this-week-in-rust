@@ -27,7 +27,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [rsadsb: v0.5.0 Release](https://rsadsb.github.io/v0.5.0.html)
 * [SixtyFPS becomes Slint](https://slint-ui.com/blog/sixtyfps-becomes-slint.html)
 * [This week in Fluvio #22: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0022/)
-* [This week in Glean](https://blog.mozilla.org/data/2022/02/09/this-week-in-glean-migrating-legacy-telemetry-collections-to-glean/)
 * [Rust Analyzer Changelog #116](https://rust-analyzer.github.io/thisweek/2022/02/14/changelog-116.html)
 * [GCC Rust Weekly Status Report 39](https://thephilbert.io/2022/02/14/gcc-rust-weekly-status-report-39/)
 * [cargo-mutants 0.2.0: A new mutation testing tool for Rust](https://github.com/sourcefrog/cargo-mutants#readme)
