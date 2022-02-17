@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Nix: 30x performance improvement in non-cstr path handling runtime instruction counts](https://github.com/nix-rust/nix/pull/1655)
+
 ### Newsletters
 
 ### Research
