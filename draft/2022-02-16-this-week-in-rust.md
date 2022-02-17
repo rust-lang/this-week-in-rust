@@ -29,6 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [GCC Rust Weekly Status Report 39](https://thephilbert.io/2022/02/14/gcc-rust-weekly-status-report-39/)
 * [cargo-mutants 0.2.0: A new mutation testing tool for Rust](https://github.com/sourcefrog/cargo-mutants#readme)
 * [SixtyFPS becomes Slint](https://slint-ui.com/blog/sixtyfps-becomes-slint.html)
+* [cargo binstall 0.6: with QuickInstall support](https://github.com/ryankurte/cargo-binstall/releases/tag/v0.6.2)
 
 ### Newsletters
 * [This Month in Rust GameDev #30 - January 2022](https://gamedev.rs/news/030/)
