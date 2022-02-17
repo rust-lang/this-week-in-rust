@@ -28,6 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust Analyzer Changelog #116](https://rust-analyzer.github.io/thisweek/2022/02/14/changelog-116.html)
 * [GCC Rust Weekly Status Report 39](https://thephilbert.io/2022/02/14/gcc-rust-weekly-status-report-39/)
 * [cargo-mutants 0.2.0: A new mutation testing tool for Rust](https://github.com/sourcefrog/cargo-mutants#readme)
+* [This week in Databend #29: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-02-16-databend-weekly/)
 
 ### Newsletters
 * [This Month in Rust GameDev #30 - January 2022](https://gamedev.rs/news/030/)
