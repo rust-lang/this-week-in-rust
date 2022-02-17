@@ -68,6 +68,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Developing Embedded Applications in Rust](https://www.youtube.com/watch?v=pgG95y0hBDc)
 * [series] [video] [Rust Embedded for STM32 Microcontrollers - I2C protocol (part 1)](https://www.youtube.com/watch?v=j3wlSGP5Sw8)
 * [series] [video] [Rust Embedded for STM32 Microcontrollers - I2C protocol (with reference manual!)(part 2)](https://www.youtube.com/watch?v=_pIKywTVzck)
+* [series] [video] [Writing a Programming Language (in Rust) 15: Implementing `this`](https://www.youtube.com/watch?v=TLy-59WtTX8)
 
 ### Miscellaneous
 * [Rust core team alumni](https://brson.github.io/2022/02/09/rust-core-team-alumni)
