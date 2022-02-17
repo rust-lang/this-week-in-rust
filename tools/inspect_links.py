@@ -138,17 +138,21 @@ def scrub_parameters(url, query):
 def parse_url(link):
     """ Parse a URL and return it in a stripped-down form.
 
-    This will strip HTTP parameters and anchors (in an effort to better
-    detect duplicate URLs). However, as this would break some common URLs
-    we don't strip parameters that are on the KEEP_PARAMETERS list.
+    In an effort to detect duplicate URLs, some information is removed:
+    - tracking parameters are removed (see `scrub_parameters`)
+    - "http" and "https" URLs are considered the same.
+    - consecutive slashes and trailing slashes are ignored.
 
-    Side-effects:
-    - If a link does not have a recognized protocol, we will
-      record a warning.
+    Warnings may be issued if unnecessary tracking parameters are found,
+    or if the URL contains consecutive slashes.
     """
     parsed_url = urllib.parse.urlsplit(link)
-    if parsed_url.scheme not in ('mailto', 'http', 'https'):
+
+    scheme = parsed_url.scheme
+    if scheme not in ('mailto', 'http', 'https'):
         warnings.warn(f'possibly malformed link: {link}')
+    if scheme == 'http':
+        scheme = 'https'
 
     # If there are query parameters present, give them a cleanup pass to remove irrelevant ones.
     query = parsed_url.query
@@ -159,12 +163,29 @@ def parse_url(link):
             LOG.debug(
                 f'{parsed_url.geturl()} keeping query parameters: {query}')
 
-    # Re-constitute the URL with the reduced set of query parameters.
-    (sch, loc, path, _, frag) = parsed_url
+    # Remove consecutive slashes, because https://path/to////file and http://path/to/file are the same.
+    path = parsed_url.path
+    path_components = path.split('/')
+    trailing_slash = path_components[-1] == ''
+    path_components = [s for s in path_components if s]
+    path = '/'.join(path_components)
+    if trailing_slash:
+        path += '/'
+
+    # Re-constitute the URL with any simplifications that should trigger a warning.
+    (sch, loc, _, _, frag) = parsed_url
     reconstituted = urllib.parse.urlunsplit((sch, loc, path, query, frag))
     if reconstituted != link:
         LOG.debug(f'reconstituted: {reconstituted}')
         warnings.warn(f'link can be simplified: {link} -> {reconstituted}')
+
+    # Strip any trailing slashes, again.
+    path = path.rstrip('/')
+
+    # Re-constitute a second time, including more simplifications that we don't
+    # need to warn about
+    reconstituted = urllib.parse.urlunsplit((scheme, loc, path, query, frag))
+
     return reconstituted
 
 
