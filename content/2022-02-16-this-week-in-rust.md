@@ -37,7 +37,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [A Rust match made in hell](https://fasterthanli.me/articles/a-rust-match-made-in-hell)
-* [Dare to ask more #rust2024](https://smallcultfollowing.com/babysteps/blog/2022/02/09/dare-to-ask-for-more-rust2024/)
+* [Dare to ask for more #rust2024](https://smallcultfollowing.com/babysteps/blog/2022/02/09/dare-to-ask-for-more-rust2024/)
 * [More Enum Types](https://blog.yoshuawuyts.com/more-enum-types/)
 * [My Rust Frontend Experiences](https://blog.urth.org/2022/02/08/my-rust-frontend-experiences/)
 * [What is Rust's hole purpose?](https://blog.pnkfx.org/blog/2022/02/09/what-is-rusts-hole-purpose/)
@@ -45,7 +45,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Plugins in Rust: Getting our Hands Dirty](https://nullderef.com/blog/plugin-impl/)
 * [Async IO fundamentals](https://www.ncameron.org/blog/async-io-fundamentals/)
 * [Async read and write traits](https://www.ncameron.org/blog/async-read-and-write-traits/)
-* [Dare to ask for more #rust2024](http://smallcultfollowing.com/babysteps//blog/2022/02/09/dare-to-ask-for-more-rust2024/)
 * [PostgreSQL Aggregates with Rust](https://hoverbear.org/blog/postgresql-aggregates-with-rust/)
 * [ZH] [为什么我们要Associated Type？Why do we need Associated Type?](https://fengliang.io/RustWHY/engineering_features/why_associated_type.html)
 
@@ -55,7 +54,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Let’s Build a WebSockets Project With Rust and Yew 0.19](https://fsjohnny.medium.com/lets-build-a-websockets-project-with-rust-and-yew-0-19-60720367399f)
 * [How to build a custom blockchain implementation in Rust using Substrate](https://blog.logrocket.com/how-to-build-a-custom-blockchain-implementation-in-rust-using-substrate/)
 * [Rust on iOS and Mac Catalyst: A Simple, Updated Guide](https://nadim.computer/posts/2022-02-11-maccatalyst.html)
-* [What Is Rust's Hole Purpose?](http://blog.pnkfx.org/blog/2022/02/09/what-is-rusts-hole-purpose/)
 * [Futures Concurrency III](https://blog.yoshuawuyts.com/futures-concurrency-3/)
 * [Frontend Rust Without Node](https://blog.urth.org/2022/02/14/frontend-rust-without-node/)
 * [Implementing a custom async runtime in a game engine](https://domwillia.ms/devlog7)
