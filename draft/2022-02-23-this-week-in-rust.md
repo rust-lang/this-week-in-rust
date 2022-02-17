@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Frontend Rust Without Node](https://blog.urth.org/2022/02/14/frontend-rust-without-node/)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
