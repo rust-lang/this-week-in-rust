@@ -62,10 +62,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Frontend Rust Without Node](https://blog.urth.org/2022/02/14/frontend-rust-without-node/)
 * [Implementing a custom async runtime in a game engine](https://domwillia.ms/devlog7)
 * [Assertion reporting](https://hole.tuziwo.info/assertion-reporting.html)
-* [Video] [Implementing the NTFS filesystem in Rust](https://fosdem.org/2022/schedule/event/misc_ntfs_rust/)
+* [video] [Implementing the NTFS filesystem in Rust](https://fosdem.org/2022/schedule/event/misc_ntfs_rust/)
 * [video] [Rust Project: Deserialization with Serde](https://www.youtube.com/watch?v=A38SoLTB1Y4)
 * [video] [5 Tips for Rust Beginners](https://www.youtube.com/watch?v=zdT3bUljGQw)
 * [video] [Developing Embedded Applications in Rust](https://www.youtube.com/watch?v=pgG95y0hBDc)
+* [series] [video] [Rust Embedded for STM32 Microcontrollers - I2C protocol (part 1)](https://www.youtube.com/watch?v=j3wlSGP5Sw8)
+* [series] [video] [Rust Embedded for STM32 Microcontrollers - I2C protocol (with reference manual!)(part 2)](https://www.youtube.com/watch?v=_pIKywTVzck)
 
 ### Miscellaneous
 * [Rust core team alumni](https://brson.github.io/2022/02/09/rust-core-team-alumni)
