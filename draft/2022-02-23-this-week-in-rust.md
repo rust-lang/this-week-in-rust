@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Type inference in `ogma` using graphs](https://www.kurtlawrence.info/blog/type-inference-in-ogma-using-graphs)
+
 ### Newsletters
 
 ### Research
