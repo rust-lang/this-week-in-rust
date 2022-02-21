@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Checking Tailwind Class Names at Compile Time with Rust](https://blog.urth.org/2022/02/21/checking-tailwind-class-names-at-compile-time-with-rust/)
+
 ### Miscellaneous
 
 ## Crate of the Week
