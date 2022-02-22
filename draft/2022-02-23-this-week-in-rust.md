@@ -17,6 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Official
 
 ### Project/Tooling Updates
+* [Zellij 0.25.0: floating panes, Tmux mode and more!](https://zellij.dev/news/floating-panes-tmux-mode/)
 
 ### Newsletters
 
