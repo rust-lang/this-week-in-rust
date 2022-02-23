@@ -21,6 +21,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 - [Hurl 1.6.0, a tool for running and testing HTTP requests with plain text](https://hurl.dev/blog/2022/02/11/announcing-hurl-1.6.0.html)
 
+* [Slint (former SixtyFPS, UI crate) Project Update](https://slint-ui.com/thisweek/2022-02-21.html)
+
 ### Newsletters
 
 ### Research
