@@ -181,16 +181,19 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**LoanPASS**
+
+* [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
+**Timescale**
+
+* [Sr. Rust/C/C++ Engineer - Core Database (Remote)](https://www.timescale.com/careers/5920911002?gh_jid=5920911002)
+
 **Kollider**
 
 * [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
 * [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
-
-**LoanPASS**
-
-* [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
 
 # Quote of the Week
 
