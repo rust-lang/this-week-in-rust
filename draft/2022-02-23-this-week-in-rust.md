@@ -178,6 +178,10 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+**LoanPASS**
+
+* [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
+
 # Quote of the Week
 
 > I still get excited about programming languages. But these days, it's not so much because of what they let me do, but rather what they don't let me do.
