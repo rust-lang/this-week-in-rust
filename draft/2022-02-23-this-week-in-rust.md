@@ -18,6 +18,12 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Zellij 0.25.0: floating panes, Tmux mode and more!](https://zellij.dev/news/floating-panes-tmux-mode/)
+* [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W07](https://www.fornjot.app/blog/weekly-dev-log/2022-w07/)
+- [Hurl 1.6.0, a tool for running and testing HTTP requests with plain text](https://hurl.dev/blog/2022/02/11/announcing-hurl-1.6.0.html)
+* [Slint (former SixtyFPS, UI crate) Project Update](https://slint-ui.com/thisweek/2022-02-21.html)
+* [Type inference in `ogma` using graphs](https://www.kurtlawrence.info/blog/type-inference-in-ogma-using-graphs)
+
 ### Newsletters
 
 ### Research
@@ -25,6 +31,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Compiler Adventures, part 2: Constant Propagation](https://medium.com/@predrag.gruevski/compiler-adventures-part-2-constant-propagation-c6f2e67d9881)
+
+* [video] [Rust Project: Custom Deserialization with Serde](https://www.youtube.com/watch?v=5D1hAy3UhTY)
+
+* [Checking Tailwind Class Names at Compile Time with Rust](https://blog.urth.org/2022/02/21/checking-tailwind-class-names-at-compile-time-with-rust/)
 
 ### Miscellaneous
 
@@ -116,47 +127,41 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* *No RFCs entered final comment period this week.*
+* [disposition: merge] [RFC: Add a `process_group` method to UNIX `CommandExt`](https://github.com/rust-lang/rfcs/pull/3228)
+* [disposition: postpone] [Let Cargo put data into platform-specific directories](https://github.com/rust-lang/rfcs/pull/1615)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Remove the everybody loops pass](https://github.com/rust-lang/rust/pull/93913)
-* [disposition: merge] [Stabilize `#[cfg(panic = "...")]`](https://github.com/rust-lang/rust/pull/93658)
-* [disposition: merge] [Tracking Issue for bool_to_option](https://github.com/rust-lang/rust/issues/80967)
-* [disposition: merge] [Check if enum from foreign crate has any non exhaustive variants when attempting a cast](https://github.com/rust-lang/rust/pull/92744)
+* [disposition: merge] [Tracking Issue for JoinHandle::is_running](https://github.com/rust-lang/rust/issues/90470)
+* [disposition: merge] [Make regular stdio lock() return 'static handles](https://github.com/rust-lang/rust/pull/93965)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [new] [add raw-code-data](https://github.com/rust-lang/rfcs/pull/3232)
-* [new] [Cargo authenticateing users without sending secrets over the network](https://github.com/rust-lang/rfcs/pull/3231)
+* [new] [RFC: add try_all and try_any to Iterator](https://github.com/rust-lang/rfcs/pull/3233)
 
 ## Upcoming Events
 
-Rusty Events between 2/16/2022 - 3/16/2022 🦀
+Rusty Events between 2/23/2022 - 3/23/2022 🦀
 
 ### Online
 
-* [February 16, 2022 | Vancouver, BC, CA | **Rust Study/Hack/Hang-out Night** | Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/283260386/)
-* [February 17, 2022 | Charlottesville, VA, US | **Live coding talk: Implementing parser combinators in Rust** | Charlottesville Rust Meetup](https://www.meetup.com/Charlottesville-Rust-Meetup/events/283819886/)
-* [February 17, 2022 | München, DE | **Rust - beyond "Hello World"**| Agile Softwareentwicklung München](https://www.meetup.com/maibornwolff-software-engineering-netzwerk/events/283379985)
-* [February 17, 2022 | Nürnberg, DE | **Rust Nürnberg online #10**| Rust Nuremberg](https://www.meetup.com/rust-noris/events/283545751/)
-* [February 17, 2022 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/282545308)
-* [February 17, 2022 | Würzburg, DE | **Meet and chat about Rust** | Rust Würzburg Meetup Group](https://www.meetup.com/rust-wurzburg-meetup-group/events/283609518)
-* [February 18, 2022 | Tehran, IR | **Rust Iran Meetup #5 - Type Driven Design** | Rust Iran Meetup](https://rust-meetup.ir/2022/02/18/fifth-meetup.html)
-* [February 20, 2022 | Kyiv, UA | **Ukrainian Rusty Dinner** | Rust Ukraine](https://dou.ua/calendar/40897/)
-* [February 22, 2022 | Dallas, TX, US | **Last Tuesday Meetup** | Dallas Rust](https://www.meetup.com/Dallas-Rust/events/283669162/)
-* [February 22, 2022 | Dublin, IE | **Rust Dublin February Meetup** - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/283613610)
+* [February 23, 2022 | Graz, AT | **Async Programming with Tokio** | Rust Graz Meetup](https://www.meetup.com/Graz-Rust-Meetup/events/284131759)
 * [February 23, 2022 | México City, MX | **Platica Febrero 2022** | Rust MX](https://www.meetup.com/Rust-MX/events/283662630)
 * [February 24, 2022 | Linz, AT | **Rust Meetup Linz - 19th Edition** | Rust Linz](https://www.meetup.com/Rust-Linz/events/283377693/)
 * [March 1, 2022 | Buffalo, NY, US | **First Tuesdays: Buffalo Rust User Group** | Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/283638736)
 * [March 2, 2022 | Berlin, DE | **Rust Hack and Learn** | OpenTechSchool Berlin](https://www.meetup.com/de-DE/opentechschool-berlin/events/283633083/)
+* [March 2, 2022 | Indianapolis, IN, US | **Zach Mitchell - Optimizing a Physics Simulation from 8 hours to 10 minutes** | Indy Rust](https://www.meetup.com/indyrs/events/283899260)
 * [March 3, 2022 | Würzburg, DE | **Guest Speaker | Herbert Wolverson | Rust gamedev in 2022** | Rust Würzburg Meetup Group](https://www.meetup.com/rust-wurzburg-meetup-group/events/283765814)
 * [March 7, 2022 | Valence, FR | **Coding-dojo - Rust** | Ardèch’Drôm Dev](https://www.meetup.com/Ardech-Drom-Dev/events/283624590)
+* [March 8, 2022 | Dallas, TX, US | **Second Tuesday**| Dallas Rust](https://www.meetup.com/Dallas-Rust/events/284064891/)
 * [March 8, 2022 | Rostock, DE | **5. Rust Meetup Rostock** | Altow Academy](https://www.meetup.com/altow-academy/events/283819113)
 * [March 8, 2022 | Seattle, WA, US | **Monthly meetup** | Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/283221922/)
+* [March 9, 2022 | Boulder, CO, US | **Monthly Meetup** | Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/events/283985719/)
 * [March 9, 2022 | München, DE | **Rust Munich Remote(?) #10** | Rust Munich](https://www.meetup.com/rust-munich/events/283790509)
+* [March 9, 2022 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/284068315)
 * [March 15, 2022 | Dublin, IE | **Rust Dublin March Meetup** - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/283613905)
 * [March 15, 2022 | Washington, DC, US| **Mid-month Rustful** | Rust DC](https://www.meetup.com/RustDC/events/283374540/)
+* [March 16, 2022 | Vancouver, BC, CA | **Rust Study/Hack/Hang-out Night** | Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/283910183/)
 
 ### Europe
 
@@ -174,6 +179,23 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Tangram**
+
+* [Rust Programmer (Remote)](https://www.tangram.dev/jobs)
+
+**LoanPASS**
+
+* [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
+
+**Timescale**
+
+* [Sr. Rust/C/C++ Engineer - Core Database (Remote)](https://www.timescale.com/careers/5920911002?gh_jid=5920911002)
+
+**Kollider**
+
+* [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
+* [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
 
 **Tempus Ex**
 
