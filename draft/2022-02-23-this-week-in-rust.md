@@ -266,7 +266,6 @@ Email the [Rust Community Team][community] for access.
 * [Senior Rust IDE Developer (Remote)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-ide-developer.md)
 * [Senior Cloud Rust Engineer (Remote)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-cloud-developer.md)
 
-
 **Stockly**
 
 * [Back-end developer - TechOps (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-rust-grpc-postgresql_paris?q=91115456bc4edddba2383b16fd2c2566&o=421986&e=companies_jobs)
