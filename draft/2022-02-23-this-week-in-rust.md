@@ -34,6 +34,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [video] [Rust Project: Custom Deserialization with Serde](https://www.youtube.com/watch?v=5D1hAy3UhTY)
 
+* [Checking Tailwind Class Names at Compile Time with Rust](https://blog.urth.org/2022/02/21/checking-tailwind-class-names-at-compile-time-with-rust/)
+
 ### Miscellaneous
 
 ## Crate of the Week
