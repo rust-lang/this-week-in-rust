@@ -30,11 +30,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [clap 3.1: A step towards 4.0](https://epage.github.io/blog/2022/02/clap-31-a-step-towards-40/)
 * [Zellij 0.25.0: floating panes, Tmux mode and more!](https://zellij.dev/news/floating-panes-tmux-mode/)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W07](https://www.fornjot.app/blog/weekly-dev-log/2022-w07/)
-- [Hurl 1.6.0, a tool for running and testing HTTP requests with plain text](https://hurl.dev/blog/2022/02/11/announcing-hurl-1.6.0.html)
+* [Hurl 1.6.0, a tool for running and testing HTTP requests with plain text](https://hurl.dev/blog/2022/02/11/announcing-hurl-1.6.0.html)
 * [Slint (former SixtyFPS, UI crate) Project Update](https://slint-ui.com/thisweek/2022-02-21.html)
 * [This week in Fluvio #23: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0023/)
-
-### Newsletters
 
 ### Research
 * [Verifying Dynamic Trait Objects in Rust](https://www.cs.cornell.edu/~avh/dyn-trait-icse-seip-2022-preprint.pdf)
@@ -48,7 +46,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [We're choosing Rust, and not Go, C++, or Node.js](https://symless.com/blog/we-are-choosing-rust-and-heres-why)
 
 ### Rust Walkthroughs
-
 * [Embedding a JavaScript Engine (quickjs) in a Rust Project](https://github.com/andrieshiemstra/ScriptExtensionLayerExample)
 * [Which Rust web framework to choose in 2022 (with code examples)](https://kerkour.com/rust-web-framework-2022)
 * [Annotating a compile-time value to a rust struct](https://lukas-prokop.at/articles/2022-02-16-annotating-const-generic-to-struct)
@@ -65,7 +62,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [series] [video] [Writing a Programming Language (in Rust) 17: `else if` statements and index ranges](https://www.youtube.com/watch?v=JiGD5JDl9gg)
 
 ### Miscellaneous
-
 * [RustFest LATAM is on! 🦀](https://rustfest.world/news/twirf-latam-is-on)
 * [AWS: Here's why we are investing in the Rust programming language](https://www.zdnet.com/article/programming-languages-aws-explains-why-rust-is-so-important/)
 * [DE] [Programmiersprache: Rust legt im produktiven Einsatz zu](https://www.heise.de/news/Programmiersprache-Rust-legt-im-produktiven-Einsatz-zu-6477740.html)
