@@ -23,6 +23,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Slint (former SixtyFPS, UI crate) Project Update](https://slint-ui.com/thisweek/2022-02-21.html)
 
+* [Type inference in `ogma` using graphs](https://www.kurtlawrence.info/blog/type-inference-in-ogma-using-graphs)
+
 ### Newsletters
 
 ### Research
