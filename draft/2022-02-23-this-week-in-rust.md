@@ -18,8 +18,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
-* [Walkthrough](https://github.com/andrieshiemstra/ScriptExtensionLayerExample) for embedding the quickjs JavaScript engine in your rust project including support for async, promises, modules and TypeScript.
-
 ### Newsletters
 
 ### Research
@@ -27,6 +25,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+
+* [Embedding a JavaScript Engine (quickjs) in a Rust Project](https://github.com/andrieshiemstra/ScriptExtensionLayerExample)
 
 ### Miscellaneous
 
