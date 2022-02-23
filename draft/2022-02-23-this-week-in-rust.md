@@ -180,9 +180,14 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Tangram**
+
+* [Rust Programmer (Remote)](https://www.tangram.dev/jobs)
+
 **LoanPASS**
 
 * [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
+
 **Timescale**
 
 * [Sr. Rust/C/C++ Engineer - Core Database (Remote)](https://www.timescale.com/careers/5920911002?gh_jid=5920911002)
