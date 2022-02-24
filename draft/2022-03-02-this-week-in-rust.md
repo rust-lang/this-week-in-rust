@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 ### Miscellaneous
+* [Modern Telecom Network Tracing](https://oxio.com/blog/modern-telecom-network-tracing)
 
 ## Crate of the Week
 
