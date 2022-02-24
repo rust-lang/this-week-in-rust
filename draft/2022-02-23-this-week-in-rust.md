@@ -49,7 +49,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
-* [Checking Tailwind Class Names at Compile Time with Rust](https://blog.urth.org/2022/02/21/checking-tailwind-class-names-at-compile-time-with-rust/)
 * [Embedding a JavaScript Engine (quickjs) in a Rust Project](https://github.com/andrieshiemstra/ScriptExtensionLayerExample)
 * [Which Rust web framework to choose in 2022 (with code examples)](https://kerkour.com/rust-web-framework-2022)
 * [Annotating a compile-time value to a rust struct](https://lukas-prokop.at/articles/2022-02-16-annotating-const-generic-to-struct)
