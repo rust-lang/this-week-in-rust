@@ -48,6 +48,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [We're choosing Rust, and not Go, C++, or Node.js](https://symless.com/blog/we-are-choosing-rust-and-heres-why)
 
 ### Rust Walkthroughs
+
+* [Embedding a JavaScript Engine (quickjs) in a Rust Project](https://github.com/andrieshiemstra/ScriptExtensionLayerExample)
 * [Which Rust web framework to choose in 2022 (with code examples)](https://kerkour.com/rust-web-framework-2022)
 * [Annotating a compile-time value to a rust struct](https://lukas-prokop.at/articles/2022-02-16-annotating-const-generic-to-struct)
 * [Type inference in `ogma` using graphs](https://www.kurtlawrence.info/blog/type-inference-in-ogma-using-graphs)
@@ -59,8 +61,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Tokio Axum with David Pedersen](https://www.youtube.com/watch?v=nZLimYT4EHs)
 * [video] [Developing Embedded Rust Drivers with Pretty HAL Machine](https://www.youtube.com/watch?v=EughbCeVVxw)
 * [video] [Rust Project: Custom Deserialization with Serde](https://www.youtube.com/watch?v=5D1hAy3UhTY)
-
-* [Embedding a JavaScript Engine (quickjs) in a Rust Project](https://github.com/andrieshiemstra/ScriptExtensionLayerExample)
+* [series] [video] [Writing a Programming Language (in Rust) 16: Evaluating object keys](https://www.youtube.com/watch?v=WCMurdux6YM)
+* [series] [video] [Writing a Programming Language (in Rust) 17: `else if` statements and index ranges](https://www.youtube.com/watch?v=JiGD5JDl9gg)
 
 ### Miscellaneous
 
