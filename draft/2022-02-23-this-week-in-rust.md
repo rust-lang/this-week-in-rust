@@ -80,7 +80,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [add mentions to `Copy` types being valid for `union` fields](https://github.com/rust-lang/rust/pull/94031)
 * [stabilize `#[cfg(panic = "...")]`](https://github.com/rust-lang/rust/pull/93658)
 * [do not ICE when inlining a function with un-satisfiable bounds](https://github.com/rust-lang/rust/pull/93024)
-* [fix ICE when using Box<T, A> with pointer sized A](https://github.com/rust-lang/rust/pull/94043)
+* [fix ICE when using `Box<T, A>` with pointer sized A](https://github.com/rust-lang/rust/pull/94043)
 * [fix ScalarInt to char conversion](https://github.com/rust-lang/rust/pull/94086)
 * [make `[u8]::cmp` implementation branchless](https://github.com/rust-lang/rust/pull/93962)
 * [add a `try_collect()` helper method to `Iterator`](https://github.com/rust-lang/rust/pull/94041)
