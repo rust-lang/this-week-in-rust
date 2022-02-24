@@ -33,6 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Hurl 1.6.0, a tool for running and testing HTTP requests with plain text](https://hurl.dev/blog/2022/02/11/announcing-hurl-1.6.0.html)
 * [Slint (former SixtyFPS, UI crate) Project Update](https://slint-ui.com/thisweek/2022-02-21.html)
 * [This week in Fluvio #23: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0023/)
+* [This week in Databend #30: an elastic and reliable cloud warehouse](https://weekly.databend.rs/2022-02-23-databend-weekly/)
 
 ### Research
 * [Verifying Dynamic Trait Objects in Rust](https://www.cs.cornell.edu/~avh/dyn-trait-icse-seip-2022-preprint.pdf)
