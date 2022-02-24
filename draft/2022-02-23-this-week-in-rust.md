@@ -30,11 +30,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [clap 3.1: A step towards 4.0](https://epage.github.io/blog/2022/02/clap-31-a-step-towards-40/)
 * [Zellij 0.25.0: floating panes, Tmux mode and more!](https://zellij.dev/news/floating-panes-tmux-mode/)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W07](https://www.fornjot.app/blog/weekly-dev-log/2022-w07/)
-- [Hurl 1.6.0, a tool for running and testing HTTP requests with plain text](https://hurl.dev/blog/2022/02/11/announcing-hurl-1.6.0.html)
+* [Hurl 1.6.0, a tool for running and testing HTTP requests with plain text](https://hurl.dev/blog/2022/02/11/announcing-hurl-1.6.0.html)
 * [Slint (former SixtyFPS, UI crate) Project Update](https://slint-ui.com/thisweek/2022-02-21.html)
 * [This week in Fluvio #23: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0023/)
-
-### Newsletters
 
 ### Research
 * [Verifying Dynamic Trait Objects in Rust](https://www.cs.cornell.edu/~avh/dyn-trait-icse-seip-2022-preprint.pdf)
@@ -46,9 +44,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [hyper 1.0 timeline](https://seanmonstar.com/post/676912131372875776/hyper-10-timeline)
 * [We’re Porting Our Database Drivers to Async Rust](https://www.scylladb.com/2022/02/22/were-porting-our-database-drivers-to-async-rust/)
 * [We're choosing Rust, and not Go, C++, or Node.js](https://symless.com/blog/we-are-choosing-rust-and-heres-why)
+* [Belgium Rust Meetup (February 3 2022): async Qt, bubbly bubblesorts and how to win hackathons.](https://video.rubdos.be/w/bhhMcctgLXTX5hrVARw3eu?start=0s)
 
 ### Rust Walkthroughs
-
 * [Embedding a JavaScript Engine (quickjs) in a Rust Project](https://github.com/andrieshiemstra/ScriptExtensionLayerExample)
 * [Which Rust web framework to choose in 2022 (with code examples)](https://kerkour.com/rust-web-framework-2022)
 * [Annotating a compile-time value to a rust struct](https://lukas-prokop.at/articles/2022-02-16-annotating-const-generic-to-struct)
@@ -65,7 +63,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [series] [video] [Writing a Programming Language (in Rust) 17: `else if` statements and index ranges](https://www.youtube.com/watch?v=JiGD5JDl9gg)
 
 ### Miscellaneous
-
 * [RustFest LATAM is on! 🦀](https://rustfest.world/news/twirf-latam-is-on)
 * [AWS: Here's why we are investing in the Rust programming language](https://www.zdnet.com/article/programming-languages-aws-explains-why-rust-is-so-important/)
 * [DE] [Programmiersprache: Rust legt im produktiven Einsatz zu](https://www.heise.de/news/Programmiersprache-Rust-legt-im-produktiven-Einsatz-zu-6477740.html)
@@ -236,6 +233,14 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Wayfair**
+
+* [Staff Engineer - Tremor (Berlin, DE)](https://www.wayfair.com/careers/job/staff-engineer---tremor/5728520002)
+
+**Amazon**
+
+* [Software Development Engineer, Builder Tools (Remote)](https://www.amazon.jobs/en/jobs/1938968/software-development-engineer-builder-tools)
+
 **Tangram**
 
 * [Rust Programmer (Remote)](https://www.tangram.dev/jobs)
@@ -248,10 +253,34 @@ Email the [Rust Community Team][community] for access.
 
 * [Sr. Rust/C/C++ Engineer - Core Database (Remote)](https://www.timescale.com/careers/5920911002?gh_jid=5920911002)
 
+**Polymath**
+
+* [Senior Rust Developer (Remote)](https://polymath.bamboohr.com/jobs/view.php?id=110&source=aWQ9NQ%3D%3D)
+
+**Komodo**
+
+* [Rust Developer (blockchain) (Remote)](https://utxo-ltd.breezy.hr/p/c374829c873c01-rust-developer-blockchain)
+
+**Enso**
+
+* [Senior Rust IDE Developer (Remote)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-ide-developer.md)
+* [Senior Cloud Rust Engineer (Remote)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-cloud-developer.md)
+
+**Stockly**
+
+* [Back-end developer - TechOps (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-rust-grpc-postgresql_paris?q=91115456bc4edddba2383b16fd2c2566&o=421986&e=companies_jobs)
+* [Back-end developer - Freelance (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-freelance-rust-grpc-postgresql_paris?q=91115456bc4edddba2383b16fd2c2566&o=854816&e=companies_jobs)
+
 **Kollider**
 
 * [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
 * [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
+
+**Kraken**
+
+* [Software Engineer (Rust) - Trading (Remote)](https://jobs.lever.co/kraken/4485f672-dc5f-4e49-a10b-2b0399e28a8d)
+* [Site Reliability Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/1c6b290f-e430-430d-9b40-a258d07686b0)
+* [Software Engineer in Test - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/5ec9958a-529c-4bae-89b3-0d1a104cbd81)
 
 **Tempus Ex**
 
