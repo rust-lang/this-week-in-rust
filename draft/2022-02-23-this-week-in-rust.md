@@ -15,29 +15,56 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [rust-analyzer joins the Rust organization!](https://blog.rust-lang.org/2022/02/21/rust-analyzer-joins-rust-org.html)
+* [Rust Compiler February 2022 Steering Cycle](https://blog.rust-lang.org/inside-rust/2022/02/17/feb-steering-cycle.html)
+* [Lang team February update](https://blog.rust-lang.org/inside-rust/2022/02/18/lang-team-feb-update.html)
+* [Rust Compiler Ambitions for 2022](https://blog.rust-lang.org/inside-rust/2022/02/22/compiler-team-ambitions-2022.html)
+
+### Foundation
+* [Member Spotlight: simplabs](https://foundation.rust-lang.org/posts/2022-02-16-member-spotlight-simplabs/)
+* [Rust Foundation Attracts Top Talent to Senior Leadership Roles](https://foundation.rust-lang.org/news/2022-02-22-news-rust-foundation-attracts-top-talent-to-senior-leadership-roles/)
 
 ### Project/Tooling Updates
-
+* [Announcing Tokio Metrics 0.1](https://tokio.rs/blog/2022-02-announcing-tokio-metrics)
+* [Rust-Analyzer Changelog #117](https://rust-analyzer.github.io/thisweek/2022/02/21/changelog-117.html)
+* [clap 3.1: A step towards 4.0](https://epage.github.io/blog/2022/02/clap-31-a-step-towards-40/)
 * [Zellij 0.25.0: floating panes, Tmux mode and more!](https://zellij.dev/news/floating-panes-tmux-mode/)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W07](https://www.fornjot.app/blog/weekly-dev-log/2022-w07/)
 - [Hurl 1.6.0, a tool for running and testing HTTP requests with plain text](https://hurl.dev/blog/2022/02/11/announcing-hurl-1.6.0.html)
 * [Slint (former SixtyFPS, UI crate) Project Update](https://slint-ui.com/thisweek/2022-02-21.html)
-* [Type inference in `ogma` using graphs](https://www.kurtlawrence.info/blog/type-inference-in-ogma-using-graphs)
 
 ### Newsletters
 
 ### Research
+* [Verifying Dynamic Trait Objects in Rust](https://www.cs.cornell.edu/~avh/dyn-trait-icse-seip-2022-preprint.pdf)
 
 ### Observations/Thoughts
+* [We need to talk about RFCs](https://www.ncameron.org/blog/the-problem-with-rfcs/)
+* [Analyzing unsized variables in Rust](https://poignardazur.github.io/2022/02/23/rust-unsized-vars-analysis/)
+* [pip and cargo are not the same](https://blog.williammanley.net/2022/02/23/pip-and-cargo-are-not-the-same.html)
+* [hyper 1.0 timeline](https://seanmonstar.com/post/676912131372875776/hyper-10-timeline)
+* [We’re Porting Our Database Drivers to Async Rust](https://www.scylladb.com/2022/02/22/were-porting-our-database-drivers-to-async-rust/)
+* [We're choosing Rust, and not Go, C++, or Node.js](https://symless.com/blog/we-are-choosing-rust-and-heres-why)
 
 ### Rust Walkthroughs
+* [Which Rust web framework to choose in 2022 (with code examples)](https://kerkour.com/rust-web-framework-2022)
+* [Annotating a compile-time value to a rust struct](https://lukas-prokop.at/articles/2022-02-16-annotating-const-generic-to-struct)
+* [Type inference in `ogma` using graphs](https://www.kurtlawrence.info/blog/type-inference-in-ogma-using-graphs)
 * [Compiler Adventures, part 2: Constant Propagation](https://medium.com/@predrag.gruevski/compiler-adventures-part-2-constant-propagation-c6f2e67d9881)
-
+* [Bevy Minesweeper Series' Articles](https://dev.to/qongzi/series/16975)
+* [Rust for web devs: Destructuring](https://paulbutler.org/2022/rust-for-web-devs-destructuring/)
+* [Checking Tailwind Class Names at Compile Time with Rust](https://blog.urth.org/2022/02/21/checking-tailwind-class-names-at-compile-time-with-rust/)
+* [Building a Blockchain Oracle for Solana](https://medium.com/loadsys-solutions/building-a-blockchain-oracle-for-solana-4556529ea841)
+* [video] [Tokio Axum with David Pedersen](https://www.youtube.com/watch?v=nZLimYT4EHs)
+* [video] [Developing Embedded Rust Drivers with Pretty HAL Machine](https://www.youtube.com/watch?v=EughbCeVVxw)
 * [video] [Rust Project: Custom Deserialization with Serde](https://www.youtube.com/watch?v=5D1hAy3UhTY)
 
-* [Checking Tailwind Class Names at Compile Time with Rust](https://blog.urth.org/2022/02/21/checking-tailwind-class-names-at-compile-time-with-rust/)
-
 ### Miscellaneous
+
+* [RustFest LATAM is on! 🦀](https://rustfest.world/news/twirf-latam-is-on)
+* [AWS: Here's why we are investing in the Rust programming language](https://www.zdnet.com/article/programming-languages-aws-explains-why-rust-is-so-important/)
+* [DE] [Programmiersprache: Rust legt im produktiven Einsatz zu](https://www.heise.de/news/Programmiersprache-Rust-legt-im-produktiven-Einsatz-zu-6477740.html)
+
 
 ## Crate of the Week
 
