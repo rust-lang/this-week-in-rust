@@ -32,9 +32,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
-* [Compiler Adventures, part 2: Constant Propagation](https://medium.com/@predrag.gruevski/compiler-adventures-part-2-constant-propagation-c6f2e67d9881)
-* [video] [Rust Project: Custom Deserialization with Serde](https://www.youtube.com/watch?v=5D1hAy3UhTY)
 * [Checking Tailwind Class Names at Compile Time with Rust](https://blog.urth.org/2022/02/21/checking-tailwind-class-names-at-compile-time-with-rust/)
+* [video] [Rust Project: Custom Deserialization with Serde](https://www.youtube.com/watch?v=5D1hAy3UhTY)
 * [series] [video] [Writing a Programming Language (in Rust) 16: Evaluating object keys](https://www.youtube.com/watch?v=WCMurdux6YM)
 * [series] [video] [Writing a Programming Language (in Rust) 17: `else if` statements and index ranges](https://www.youtube.com/watch?v=JiGD5JDl9gg)
 
