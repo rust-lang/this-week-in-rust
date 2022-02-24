@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Rust's Vision in 2022](https://www.youtube.com/watch?v=zYrudh-dsX8)
 
 ### Rust Walkthroughs
+* [Integrating Rust With Android Development](https://medium.com/@otukof/integrating-rust-with-android-development-ef341c2f9cca)
 
 ### Miscellaneous
 
