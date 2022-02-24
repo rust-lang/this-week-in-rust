@@ -59,6 +59,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Developing Embedded Rust Drivers with Pretty HAL Machine](https://www.youtube.com/watch?v=EughbCeVVxw)
 * [video] [Rust Project: Custom Deserialization with Serde](https://www.youtube.com/watch?v=5D1hAy3UhTY)
 
+* [Embedding a JavaScript Engine (quickjs) in a Rust Project](https://github.com/andrieshiemstra/ScriptExtensionLayerExample)
+
 ### Miscellaneous
 
 * [RustFest LATAM is on! 🦀](https://rustfest.world/news/twirf-latam-is-on)
