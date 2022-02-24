@@ -30,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Integrating Rust With Android Development](https://medium.com/@otukof/integrating-rust-with-android-development-ef341c2f9cca)
 
 ### Miscellaneous
+* [Modern Telecom Network Tracing](https://oxio.com/blog/modern-telecom-network-tracing)
 
 ## Crate of the Week
 
