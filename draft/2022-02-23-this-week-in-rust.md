@@ -15,35 +15,68 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [rust-analyzer joins the Rust organization!](https://blog.rust-lang.org/2022/02/21/rust-analyzer-joins-rust-org.html)
+* [Rust Compiler February 2022 Steering Cycle](https://blog.rust-lang.org/inside-rust/2022/02/17/feb-steering-cycle.html)
+* [Lang team February update](https://blog.rust-lang.org/inside-rust/2022/02/18/lang-team-feb-update.html)
+* [Rust Compiler Ambitions for 2022](https://blog.rust-lang.org/inside-rust/2022/02/22/compiler-team-ambitions-2022.html)
+
+### Foundation
+* [Member Spotlight: simplabs](https://foundation.rust-lang.org/posts/2022-02-16-member-spotlight-simplabs/)
+* [Rust Foundation Attracts Top Talent to Senior Leadership Roles](https://foundation.rust-lang.org/news/2022-02-22-news-rust-foundation-attracts-top-talent-to-senior-leadership-roles/)
 
 ### Project/Tooling Updates
-
+* [Announcing Tokio Metrics 0.1](https://tokio.rs/blog/2022-02-announcing-tokio-metrics)
+* [Rust-Analyzer Changelog #117](https://rust-analyzer.github.io/thisweek/2022/02/21/changelog-117.html)
+* [clap 3.1: A step towards 4.0](https://epage.github.io/blog/2022/02/clap-31-a-step-towards-40/)
 * [Zellij 0.25.0: floating panes, Tmux mode and more!](https://zellij.dev/news/floating-panes-tmux-mode/)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W07](https://www.fornjot.app/blog/weekly-dev-log/2022-w07/)
 - [Hurl 1.6.0, a tool for running and testing HTTP requests with plain text](https://hurl.dev/blog/2022/02/11/announcing-hurl-1.6.0.html)
 * [Slint (former SixtyFPS, UI crate) Project Update](https://slint-ui.com/thisweek/2022-02-21.html)
-* [Type inference in `ogma` using graphs](https://www.kurtlawrence.info/blog/type-inference-in-ogma-using-graphs)
+* [This week in Fluvio #23: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0023/)
 
 ### Newsletters
 
 ### Research
+* [Verifying Dynamic Trait Objects in Rust](https://www.cs.cornell.edu/~avh/dyn-trait-icse-seip-2022-preprint.pdf)
 
 ### Observations/Thoughts
+* [We need to talk about RFCs](https://www.ncameron.org/blog/the-problem-with-rfcs/)
+* [Analyzing unsized variables in Rust](https://poignardazur.github.io/2022/02/23/rust-unsized-vars-analysis/)
+* [pip and cargo are not the same](https://blog.williammanley.net/2022/02/23/pip-and-cargo-are-not-the-same.html)
+* [hyper 1.0 timeline](https://seanmonstar.com/post/676912131372875776/hyper-10-timeline)
+* [We’re Porting Our Database Drivers to Async Rust](https://www.scylladb.com/2022/02/22/were-porting-our-database-drivers-to-async-rust/)
+* [We're choosing Rust, and not Go, C++, or Node.js](https://symless.com/blog/we-are-choosing-rust-and-heres-why)
 
 ### Rust Walkthroughs
 
 * [Checking Tailwind Class Names at Compile Time with Rust](https://blog.urth.org/2022/02/21/checking-tailwind-class-names-at-compile-time-with-rust/)
+* [Embedding a JavaScript Engine (quickjs) in a Rust Project](https://github.com/andrieshiemstra/ScriptExtensionLayerExample)
+* [Which Rust web framework to choose in 2022 (with code examples)](https://kerkour.com/rust-web-framework-2022)
+* [Annotating a compile-time value to a rust struct](https://lukas-prokop.at/articles/2022-02-16-annotating-const-generic-to-struct)
+* [Type inference in `ogma` using graphs](https://www.kurtlawrence.info/blog/type-inference-in-ogma-using-graphs)
+* [Compiler Adventures, part 2: Constant Propagation](https://medium.com/@predrag.gruevski/compiler-adventures-part-2-constant-propagation-c6f2e67d9881)
+* [Bevy Minesweeper Series' Articles](https://dev.to/qongzi/series/16975)
+* [Rust for web devs: Destructuring](https://paulbutler.org/2022/rust-for-web-devs-destructuring/)
+* [Checking Tailwind Class Names at Compile Time with Rust](https://blog.urth.org/2022/02/21/checking-tailwind-class-names-at-compile-time-with-rust/)
+* [Building a Blockchain Oracle for Solana](https://medium.com/loadsys-solutions/building-a-blockchain-oracle-for-solana-4556529ea841)
+* [video] [Tokio Axum with David Pedersen](https://www.youtube.com/watch?v=nZLimYT4EHs)
+* [video] [Developing Embedded Rust Drivers with Pretty HAL Machine](https://www.youtube.com/watch?v=EughbCeVVxw)
 * [video] [Rust Project: Custom Deserialization with Serde](https://www.youtube.com/watch?v=5D1hAy3UhTY)
 * [series] [video] [Writing a Programming Language (in Rust) 16: Evaluating object keys](https://www.youtube.com/watch?v=WCMurdux6YM)
 * [series] [video] [Writing a Programming Language (in Rust) 17: `else if` statements and index ranges](https://www.youtube.com/watch?v=JiGD5JDl9gg)
 
 ### Miscellaneous
 
+* [RustFest LATAM is on! 🦀](https://rustfest.world/news/twirf-latam-is-on)
+* [AWS: Here's why we are investing in the Rust programming language](https://www.zdnet.com/article/programming-languages-aws-explains-why-rust-is-so-important/)
+* [DE] [Programmiersprache: Rust legt im produktiven Einsatz zu](https://www.heise.de/news/Programmiersprache-Rust-legt-im-produktiven-Einsatz-zu-6477740.html)
+
+
 ## Crate of the Week
 
-This week's crate is [assay](https://lib.rs/crates/assay), a test macro that puts each test in its own process and filesystem.
+This week's crate is [cargo-nextest](https://nexte.st), a new fast test runner for Rust.
 
-Thanks to [Harsh Shandilya](https://users.rust-lang.org/t/crate-of-the-week/2704/1023) for the suggestion!
+Thanks to [Christopher Durham](https://users.rust-lang.org/t/crate-of-the-week/2704/1026) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -62,37 +95,61 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-321 pull requests were [merged in the last week][merged]
+284 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-02-07..2022-02-14
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-02-14..2022-02-21
 
-* [support custom options for LLVM build](https://github.com/rust-lang/rust/pull/93756)
-* [store rlink data in opaque binary format on disk](https://github.com/rust-lang/rust/pull/93681)
-* [fix incorrect register conflict detection in `asm!`](https://github.com/rust-lang/rust/pull/93868)
-* [fix regression from lazy opaque types](https://github.com/rust-lang/rust/pull/93783)
-* [make `span_extend_to_prev_str()` more robust](https://github.com/rust-lang/rust/pull/91607)
-* [better suggestions when user tries to collect into an unsized `[_]`](https://github.com/rust-lang/rust/pull/91443)
-* [do not suggest char literal for zero-length strings](https://github.com/rust-lang/rust/pull/92715)
-* [improve opaque type higher-ranked region error message under NLL](https://github.com/rust-lang/rust/pull/92306)
-* [point at type when a `static` `#[global_allocator]` doesn't `impl GlobalAlloc`](https://github.com/rust-lang/rust/pull/91950)
-* [make `find_similar_impl_candidates` even fuzzier](https://github.com/rust-lang/rust/pull/93298)
-* [implement `tainted_by_errors` in MIR borrowck, use it to skip CTFE](https://github.com/rust-lang/rust/pull/93691)
-* [more informative error message for E0015](https://github.com/rust-lang/rust/pull/90532)
-* [miri: implement `const_allocate` intrinsic](https://github.com/rust-lang/miri/pull/1973)
-* [miri: implement `const_deallocate` as a no-op](https://github.com/rust-lang/miri/pull/1974)
-* [stabilise `is_aarch64_feature_detected!` under `simd_aarch64` feature](https://github.com/rust-lang/rust/pull/90271)
-* [stabilise `inherent_ascii_escape`](https://github.com/rust-lang/rust/pull/93886)
-* [stabilize `cfg_target_has_atomic`](https://github.com/rust-lang/rust/pull/93824)
-* [stabilize `int_abs_diff`](https://github.com/rust-lang/rust/pull/93735)
-* [fix `HashMap` not displaying correctly in VS debugger](https://github.com/rust-lang/rust/pull/93626)
-* [add `From<u8>` for `ExitCode`](https://github.com/rust-lang/rust/pull/93445)
-* [add `str::`{`floor`, `ceil`}`_char_boundary` methods](https://github.com/rust-lang/rust/pull/86497)
-* [`std::path::absolute`](https://github.com/rust-lang/rust/pull/91673)
-* [implement `AsFd` for `&T` and `&mut T`](https://github.com/rust-lang/rust/pull/93888)
-* [make `Instant::`{`duration_since`, `elapsed`, `sub`} saturating and remove workarounds](https://github.com/rust-lang/rust/pull/89926)
-* [clippy: fix `transmute_undefined_repr` with single field `#[repr(C)]` structs](https://github.com/rust-lang/rust-clippy/pull/8425)
-* [rustfmt: fix incorrect string indentation in macro defs with `format_strings`](https://github.com/rust-lang/rustfmt/pull/5201)
-* [rustfmt: leverage itemized blocks to support formatting markdown block quotes](https://github.com/rust-lang/rustfmt/pull/5160)
+* [upgrade to LLVM 14](https://github.com/rust-lang/rust/pull/93577)
+* [compiler-builtins: handle Win64 builtins ABI change in LLVM 14](https://github.com/rust-lang/compiler-builtins/pull/455)
+* [add MemTagSanitizer Support](https://github.com/rust-lang/rust/pull/91675)
+* [put crate metadata first in the rlib](https://github.com/rust-lang/rust/pull/93816)
+* [debuginfo: support fat pointers to unsized tuples](https://github.com/rust-lang/rust/pull/94050)
+* [extend uninhabited enum variant branch elimination to also affect fallthrough](https://github.com/rust-lang/rust/pull/93387)
+* [fix inconsistent symbol mangling with -Zverbose](https://github.com/rust-lang/rust/pull/94037)
+* [fix pretty printing of enums without variants](https://github.com/rust-lang/rust/pull/94093)
+* [improve `unused_unsafe` lint](https://github.com/rust-lang/rust/pull/93678)
+* [add more info and suggestions to use of `#[test]` on invalid items](https://github.com/rust-lang/rust/pull/92959)
+* [do not suggest "is a function" for free variables](https://github.com/rust-lang/rust/pull/93996)
+* [suggest `impl Trait` return type when incorrectly using a generic return type](https://github.com/rust-lang/rust/pull/89892)
+* [suggest copying trait associated type bounds on lifetime error](https://github.com/rust-lang/rust/pull/92683)
+* [suggest deriving required supertraits](https://github.com/rust-lang/rust/pull/93693)
+* [suggest using raw strings when invalid escapes appear in literals](https://github.com/rust-lang/rust/pull/93999)
+* [correctly mark the span of captured arguments in `format_args!()`](https://github.com/rust-lang/rust/pull/94030)
+* [deny mixing bin crate type with lib crate types](https://github.com/rust-lang/rust/pull/92933)
+* [normalize obligation and expected trait_refs in confirm_poly_trait_refs](https://github.com/rust-lang/rust/pull/94108)
+* [only mark projection as ambiguous if GAT substs are constrained](https://github.com/rust-lang/rust/pull/93892)
+* [generator drop tracking: improve break and continue handling](https://github.com/rust-lang/rust/pull/93752)
+* [overhaul interning](https://github.com/rust-lang/rust/pull/93148)
+* [support pretty printing of invalid constants](https://github.com/rust-lang/rust/pull/94020)
+* [add mentions to `Copy` types being valid for `union` fields](https://github.com/rust-lang/rust/pull/94031)
+* [stabilize `#[cfg(panic = "...")]`](https://github.com/rust-lang/rust/pull/93658)
+* [do not ICE when inlining a function with un-satisfiable bounds](https://github.com/rust-lang/rust/pull/93024)
+* [fix ICE when using `Box<T, A>` with pointer sized A](https://github.com/rust-lang/rust/pull/94043)
+* [fix ScalarInt to char conversion](https://github.com/rust-lang/rust/pull/94086)
+* [make `[u8]::cmp` implementation branchless](https://github.com/rust-lang/rust/pull/93962)
+* [add a `try_collect()` helper method to `Iterator`](https://github.com/rust-lang/rust/pull/94041)
+* [add basic platform support to `library/`{`panic_`}`unwind` for m68k](https://github.com/rust-lang/rust/pull/93949)
+* [add a stack-`pin!`-ning macro to `core::pin`](https://github.com/rust-lang/rust/pull/93176)
+* [stabilize pin_static_ref](https://github.com/rust-lang/rust/pull/93580)
+* [core: implement ASCII trim functions on byte slices](https://github.com/rust-lang/rust/pull/93686)
+* [asm: allow the use of r8-r14 as clobbers on Thumb1](https://github.com/rust-lang/rust/pull/93877)
+* [futures: fix `Sync` impl of `BiLockGuard`](https://github.com/rust-lang/futures-rs/pull/2570)
+* [`cargo new` should not add ignore rule on Cargo.lock inside subdirs](https://github.com/rust-lang/cargo/pull/10379)
+* [rustdoc: buffer JSON output](https://github.com/rust-lang/rust/pull/93954)
+* [rustdoc: avoid duplicating macros in sidebar](https://github.com/rust-lang/rust/pull/94002)
+* [rustdoc: collect traits in scope for lang items](https://github.com/rust-lang/rust/pull/93766)
+* [rustdoc: resolve intra-doc links when checking HTML](https://github.com/rust-lang/rust/pull/93605)
+* [rustdoc: add `--scrape-tests` option to scrape functions marked `#[test]`](https://github.com/rust-lang/rust/pull/93497)
+* [clippy: move `transmute_undefined_repr` back to nursery](https://github.com/rust-lang/rust/pull/94014)
+* [clippy: don't lint Default::default if it is the udpate syntax base](https://github.com/rust-lang/rust-clippy/pull/8433)
+* [clippy: don't lint `match` expressions with `cfg`ed arms](https://github.com/rust-lang/rust-clippy/pull/8443)
+* [clippy: don't lint `needless_borrow` in method receiver positions](https://github.com/rust-lang/rust-clippy/pull/8441)
+* [clippy: fix `await_holding_lock` not linting `parking_lot` Mutex/RwLock](https://github.com/rust-lang/rust-clippy/pull/8419)
+* [clippy: improve `redundant_slicing` lint](https://github.com/rust-lang/rust-clippy/pull/8218)
+* [clippy: lint enum-to-int casts with `cast_possible_truncation`](https://github.com/rust-lang/rust-clippy/pull/8381)
+* [clippy: some more fixes for `transmute_undefined_repr`](https://github.com/rust-lang/rust-clippy/pull/8440)
+* [clippy: new lint: `recursive_format_impl`](https://github.com/rust-lang/rust-clippy/pull/8188)
+* [clippy: trigger  `ptr_as_ptr` inside macros](https://github.com/rust-lang/rust-clippy/pull/8442)
 
 ### Rust Compiler Performance Triage
 
@@ -205,11 +262,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> I still get excited about programming languages. But these days, it's not so much because of what they let me do, but rather what they don't let me do.
+> There's a big difference between solving a problem and making a problem go away
 
-– [Amos blogging about mistakes Rust doesn't catch](https://fasterthanli.me/articles/some-mistakes-rust-doesnt-catch)
+– [Patrick Doyle on rust-users](https://users.rust-lang.org/t/what-does-impl-a-myserver-static-mean/71755)
 
-Thanks to [Rob Donnelly](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1181) for the suggestion!
+Thanks to [Michael Bryan](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1184) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
