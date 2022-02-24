@@ -195,6 +195,10 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+**LoanPASS**
+
+* [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
+
 # Quote of the Week
 
 > There's a big difference between solving a problem and making a problem go away
