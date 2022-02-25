@@ -195,6 +195,14 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+**Parity Technologies**
+
+* [Parachains Engineer - Common Good](https://boards.greenhouse.io/parity/jobs/4794657003)
+* [Core Runtime Engineer - Substrate](https://grnh.se/dddd76283us)
+* [Rust Core Engineer - Solidity Compiler (Solang)](https://grnh.se/a5a5c0a33us)
+* [Multiple other Rust / Blockchain Engineering positions](https://www.parity.io/jobs)
+
+
 # Quote of the Week
 
 > There's a big difference between solving a problem and making a problem go away
