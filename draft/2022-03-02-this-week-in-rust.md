@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [video] [Rust's Vision in 2022](https://www.youtube.com/watch?v=zYrudh-dsX8)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
