@@ -154,35 +154,58 @@ decision. Express your opinions now.
 
 ## Upcoming Events
 
-Rusty Events between 2/23/2022 - 3/23/2022 🦀
+Rusty Events between 2022-03-02 - 2022-03-30 🦀
 
-### Online
+### Virtual
 
-* [February 23, 2022 | Graz, AT | **Async Programming with Tokio** | Rust Graz Meetup](https://www.meetup.com/Graz-Rust-Meetup/events/284131759)
-* [February 23, 2022 | México City, MX | **Platica Febrero 2022** | Rust MX](https://www.meetup.com/Rust-MX/events/283662630)
-* [February 24, 2022 | Linz, AT | **Rust Meetup Linz - 19th Edition** | Rust Linz](https://www.meetup.com/Rust-Linz/events/283377693/)
-* [March 1, 2022 | Buffalo, NY, US | **First Tuesdays: Buffalo Rust User Group** | Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/283638736)
-* [March 2, 2022 | Berlin, DE | **Rust Hack and Learn** | OpenTechSchool Berlin](https://www.meetup.com/de-DE/opentechschool-berlin/events/283633083/)
-* [March 2, 2022 | Indianapolis, IN, US | **Zach Mitchell - Optimizing a Physics Simulation from 8 hours to 10 minutes** | Indy Rust](https://www.meetup.com/indyrs/events/283899260)
-* [March 3, 2022 | Würzburg, DE | **Guest Speaker | Herbert Wolverson | Rust gamedev in 2022** | Rust Würzburg Meetup Group](https://www.meetup.com/rust-wurzburg-meetup-group/events/283765814)
-* [March 7, 2022 | Valence, FR | **Coding-dojo - Rust** | Ardèch’Drôm Dev](https://www.meetup.com/Ardech-Drom-Dev/events/283624590)
-* [March 8, 2022 | Dallas, TX, US | **Second Tuesday**| Dallas Rust](https://www.meetup.com/Dallas-Rust/events/284064891/)
-* [March 8, 2022 | Rostock, DE | **5. Rust Meetup Rostock** | Altow Academy](https://www.meetup.com/altow-academy/events/283819113)
-* [March 8, 2022 | Seattle, WA, US | **Monthly meetup** | Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/283221922/)
-* [March 9, 2022 | Boulder, CO, US | **Monthly Meetup** | Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/events/283985719/)
-* [March 9, 2022 | München, DE | **Rust Munich Remote(?) #10** | Rust Munich](https://www.meetup.com/rust-munich/events/283790509)
-* [March 9, 2022 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/284068315)
-* [March 15, 2022 | Dublin, IE | **Rust Dublin March Meetup** - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/283613905)
-* [March 15, 2022 | Washington, DC, US| **Mid-month Rustful** | Rust DC](https://www.meetup.com/RustDC/events/283374540/)
-* [March 16, 2022 | Vancouver, BC, CA | **Rust Study/Hack/Hang-out Night** | Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/283910183/)
+* 2022-03-02 | Berlin, DE | [OpenTechSchool Berlin](https://www.meetup.com/de-DE/opentechschool-berlin)
+    * [**Rust Hack and Learn**](https://www.meetup.com/de-DE/opentechschool-berlin/events/283633083/)
+* 2022-03-02 | Indianapolis, IN, US | [Indy Rust](https://www.meetup.com/indyrs)
+    * [**Zach Mitchell - Optimizing a Physics Simulation from 8 hours to 10 minutes**](https://www.meetup.com/indyrs/events/283899260)
+* 2022-03-02 | Vienna, AT | [Mob-Programming on Open Source Software](https://www.meetup.com/Mob-Programming-on-Open-Source-Software)
+    * [**The Rustic Mob**](https://www.meetup.com/Mob-Programming-on-Open-Source-Software/events/284228300)
+* 2022-03-03 | Cardiff, UK | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
+    * [**Rust Book Study Session - Object Oriented Programming & Patterns and Matching**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/284196124/)
+* 2022-03-03 | Würzburg, DE | [Rust Würzburg Meetup Group](https://www.meetup.com/rust-wurzburg-meetup-group/)
+    * [**Guest Speaker | Herbert Wolverson | Rust gamedev in 2022**](https://www.meetup.com/rust-wurzburg-meetup-group/events/283765814)
+* 2022-03-07 | Valence, FR | [Ardèch’Drôm Dev](https://www.meetup.com/Ardech-Drom-Dev/)
+    * [**Coding-dojo - Rust**](https://www.meetup.com/Ardech-Drom-Dev/events/283624590)
+* 2022-03-08 | Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
+    * [**Second Tuesday**](https://www.meetup.com/Dallas-Rust/events/284064891/)
+* 2022-03-08 | Rostock, DE | [Altow Academy](https://www.meetup.com/altow-academy/)
+    * [**5. Rust Meetup Rostock**](https://www.meetup.com/altow-academy/events/283819113)
+* 2022-03-08 | Saarbrücken, DE | [Rust-Saar](https://www.meetup.com/Rust-Saar/)
+    * [**Meetup: 19u16**](https://www.meetup.com/Rust-Saar/events/284154283)
+* 2022-03-08 | Seattle, WA, US | [Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/)
+    * [**Monthly meetup**](https://www.meetup.com/Seattle-Rust-Meetup/events/283221922/)
+* 2022-03-09 | Boulder, CO, US | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
+    * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/283985719/)
+* 2022-03-09 | München, DE | [Rust Munich](https://www.meetup.com/rust-munich/)
+    * [**Rust Munich Remote(?) #10**](https://www.meetup.com/rust-munich/events/283790509/)
+* 2022-03-09 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
+    * [**Rust-Meetup**](https://www.meetup.com/Rust-Community-Stuttgart/events/284068315)
+* 2022-03-10 | Charlottesville, VA, US | [Charlottesville Rust Meetup](https://www.meetup.com/Charlottesville-Rust-Meetup/)
+    * [**Bluetoothing with Rust using BlueR**](https://www.meetup.com/Charlottesville-Rust-Meetup/events/284152560/)
+* 2022-03-15 | Berlin, DE | [OpenTechSchool Berlin](https://www.meetup.com/de-DE/opentechschool-berlin/)
+    * [**Rust Hack and Learn**](https://www.meetup.com/de-DE/opentechschool-berlin/events/284205132/)
+* 2022-03-15 | Dublin, IE | [Rust Dublin](https://www.meetup.com/Rust-Dublin/)
+    * [**Rust Dublin March Meetup**](https://www.meetup.com/Rust-Dublin/events/283613905)
+* 2022-03-15 | Washington, DC, US | [Rust DC](https://www.meetup.com/RustDC/)
+    * [**Mid-month Rustful**](https://www.meetup.com/RustDC/events/283374540/)
+* 2022-03-16 | Vancouver, BC, CA | [Vancouver Rust](https://www.meetup.com/Vancouver-Rust/)
+    * [**Rust Study/Hack/Hang-out Night**](https://www.meetup.com/Vancouver-Rust/events/283910183/)
 
 ### Europe
 
-* [February 28, 2022 | London, UK | **Rust London Code Dojo: Rust with Front-End Web Assembly** | Rust London User Group](https://www.meetup.com/Rust-London-User-Group/events/283852309/)
+* 2022-03-15 | Sofia, BG | [Rust Meetup Sofia](https://www.meetup.com/rust-meetup-sofia/)
+    * [**Rust Meetup Sofia - 1st Edition**](https://www.meetup.com/rust-meetup-sofia/events/284141594)
 
 ### North America
 
-* [March 14, 2022 | Atlanta, GA, US | **_New_ Atlanta Rust Meetup** | Atlanta Rustaceans](https://twitter.com/atl_rustaceans/status/1489586471367589893)
+* 2022-03-14 | Atlanta, GA, US | [Atlanta Rustaceans](https://twitter.com/atl_rustaceans/)
+    * [**_New_ Atlanta Rust Meetup**](https://twitter.com/atl_rustaceans/status/148958647136758989)
+* 2022-03-15 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
+    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/284215958/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
