@@ -203,7 +203,7 @@ Rusty Events between 2/23/2022 - 3/23/2022 🦀
 * [March 8, 2022 | Dallas, TX, US | **Second Tuesday**| Dallas Rust](https://www.meetup.com/Dallas-Rust/events/284064891/)
 * [March 8, 2022 | Rostock, DE | **5. Rust Meetup Rostock** | Altow Academy](https://www.meetup.com/altow-academy/events/283819113)
 * [March 8, 2022 | Seattle, WA, US | **Monthly meetup** | Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/283221922/)
-* [March 9, 2022 | Selangor, MY | **Rust Meetup** | Rust Malaysia Meetup](https://forms.gle/fFMvD89uxCSdrdSE7)
+* [March 9, 2022 | Selangor, MY | **Rust Meetup** | Rust Malaysia Meetup](https://forms.gle/35pipPdsKm1VFzCa9)
 * [March 9, 2022 | Boulder, CO, US | **Monthly Meetup** | Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/events/283985719/)
 * [March 9, 2022 | München, DE | **Rust Munich Remote(?) #10** | Rust Munich](https://www.meetup.com/rust-munich/events/283790509)
 * [March 9, 2022 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/284068315)
