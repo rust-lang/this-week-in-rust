@@ -182,6 +182,8 @@ Rusty Events between 2022-03-02 - 2022-03-30 🦀
     * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/283985719/)
 * 2022-03-09 | München, DE | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich Remote(?) #10**](https://www.meetup.com/rust-munich/events/283790509/)
+* 2022-03-09 | Selangor, MY | [Rust Malaysia](https://t.me/golangmalaysia)
+    * [**Rust Meetup**](https://forms.gle/35pipPdsKm1VFzCa9)
 * 2022-03-09 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
     * [**Rust-Meetup**](https://www.meetup.com/Rust-Community-Stuttgart/events/284068315)
 * 2022-03-10 | Charlottesville, VA, US | [Charlottesville Rust Meetup](https://www.meetup.com/Charlottesville-Rust-Meetup/)
