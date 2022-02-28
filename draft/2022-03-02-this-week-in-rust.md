@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Research
 
+* [video] [Talk on Pattern-defeating Quicksort, the algorithm behind `sort_unstable`](https://www.youtube.com/watch?v=jz-PBiWwNjc) 
+
 ### Observations/Thoughts
 
 * [video] [Rust's Vision in 2022](https://www.youtube.com/watch?v=zYrudh-dsX8)
