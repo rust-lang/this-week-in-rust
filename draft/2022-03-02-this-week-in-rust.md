@@ -36,9 +36,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [cargo-nextest](https://nexte.st), a new fast test runner for Rust.
+This week's crate is [prae](https://github.com/teenjuna/prae), a crate with macros to define types with inbuilt invariants.
 
-Thanks to [Christopher Durham](https://users.rust-lang.org/t/crate-of-the-week/2704/1026) for the suggestion!
+Thanks to [Alex](https://users.rust-lang.org/t/crate-of-the-week/2704/1033) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -57,61 +57,50 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-284 pull requests were [merged in the last week][merged]
+319 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-02-14..2022-02-21
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-02-21..2022-02-28
 
-* [upgrade to LLVM 14](https://github.com/rust-lang/rust/pull/93577)
-* [compiler-builtins: handle Win64 builtins ABI change in LLVM 14](https://github.com/rust-lang/compiler-builtins/pull/455)
-* [add MemTagSanitizer Support](https://github.com/rust-lang/rust/pull/91675)
-* [put crate metadata first in the rlib](https://github.com/rust-lang/rust/pull/93816)
-* [debuginfo: support fat pointers to unsized tuples](https://github.com/rust-lang/rust/pull/94050)
-* [extend uninhabited enum variant branch elimination to also affect fallthrough](https://github.com/rust-lang/rust/pull/93387)
-* [fix inconsistent symbol mangling with -Zverbose](https://github.com/rust-lang/rust/pull/94037)
-* [fix pretty printing of enums without variants](https://github.com/rust-lang/rust/pull/94093)
-* [improve `unused_unsafe` lint](https://github.com/rust-lang/rust/pull/93678)
-* [add more info and suggestions to use of `#[test]` on invalid items](https://github.com/rust-lang/rust/pull/92959)
-* [do not suggest "is a function" for free variables](https://github.com/rust-lang/rust/pull/93996)
-* [suggest `impl Trait` return type when incorrectly using a generic return type](https://github.com/rust-lang/rust/pull/89892)
-* [suggest copying trait associated type bounds on lifetime error](https://github.com/rust-lang/rust/pull/92683)
-* [suggest deriving required supertraits](https://github.com/rust-lang/rust/pull/93693)
-* [suggest using raw strings when invalid escapes appear in literals](https://github.com/rust-lang/rust/pull/93999)
-* [correctly mark the span of captured arguments in `format_args!()`](https://github.com/rust-lang/rust/pull/94030)
-* [deny mixing bin crate type with lib crate types](https://github.com/rust-lang/rust/pull/92933)
-* [normalize obligation and expected trait_refs in confirm_poly_trait_refs](https://github.com/rust-lang/rust/pull/94108)
-* [only mark projection as ambiguous if GAT substs are constrained](https://github.com/rust-lang/rust/pull/93892)
-* [generator drop tracking: improve break and continue handling](https://github.com/rust-lang/rust/pull/93752)
-* [overhaul interning](https://github.com/rust-lang/rust/pull/93148)
-* [support pretty printing of invalid constants](https://github.com/rust-lang/rust/pull/94020)
-* [add mentions to `Copy` types being valid for `union` fields](https://github.com/rust-lang/rust/pull/94031)
-* [stabilize `#[cfg(panic = "...")]`](https://github.com/rust-lang/rust/pull/93658)
-* [do not ICE when inlining a function with un-satisfiable bounds](https://github.com/rust-lang/rust/pull/93024)
-* [fix ICE when using `Box<T, A>` with pointer sized A](https://github.com/rust-lang/rust/pull/94043)
-* [fix ScalarInt to char conversion](https://github.com/rust-lang/rust/pull/94086)
-* [make `[u8]::cmp` implementation branchless](https://github.com/rust-lang/rust/pull/93962)
-* [add a `try_collect()` helper method to `Iterator`](https://github.com/rust-lang/rust/pull/94041)
-* [add basic platform support to `library/`{`panic_`}`unwind` for m68k](https://github.com/rust-lang/rust/pull/93949)
-* [add a stack-`pin!`-ning macro to `core::pin`](https://github.com/rust-lang/rust/pull/93176)
-* [stabilize pin_static_ref](https://github.com/rust-lang/rust/pull/93580)
-* [core: implement ASCII trim functions on byte slices](https://github.com/rust-lang/rust/pull/93686)
-* [asm: allow the use of r8-r14 as clobbers on Thumb1](https://github.com/rust-lang/rust/pull/93877)
-* [futures: fix `Sync` impl of `BiLockGuard`](https://github.com/rust-lang/futures-rs/pull/2570)
-* [`cargo new` should not add ignore rule on Cargo.lock inside subdirs](https://github.com/rust-lang/cargo/pull/10379)
-* [rustdoc: buffer JSON output](https://github.com/rust-lang/rust/pull/93954)
-* [rustdoc: avoid duplicating macros in sidebar](https://github.com/rust-lang/rust/pull/94002)
-* [rustdoc: collect traits in scope for lang items](https://github.com/rust-lang/rust/pull/93766)
-* [rustdoc: resolve intra-doc links when checking HTML](https://github.com/rust-lang/rust/pull/93605)
-* [rustdoc: add `--scrape-tests` option to scrape functions marked `#[test]`](https://github.com/rust-lang/rust/pull/93497)
-* [clippy: move `transmute_undefined_repr` back to nursery](https://github.com/rust-lang/rust/pull/94014)
-* [clippy: don't lint Default::default if it is the udpate syntax base](https://github.com/rust-lang/rust-clippy/pull/8433)
-* [clippy: don't lint `match` expressions with `cfg`ed arms](https://github.com/rust-lang/rust-clippy/pull/8443)
-* [clippy: don't lint `needless_borrow` in method receiver positions](https://github.com/rust-lang/rust-clippy/pull/8441)
-* [clippy: fix `await_holding_lock` not linting `parking_lot` Mutex/RwLock](https://github.com/rust-lang/rust-clippy/pull/8419)
-* [clippy: improve `redundant_slicing` lint](https://github.com/rust-lang/rust-clippy/pull/8218)
-* [clippy: lint enum-to-int casts with `cast_possible_truncation`](https://github.com/rust-lang/rust-clippy/pull/8381)
-* [clippy: some more fixes for `transmute_undefined_repr`](https://github.com/rust-lang/rust-clippy/pull/8440)
-* [clippy: new lint: `recursive_format_impl`](https://github.com/rust-lang/rust-clippy/pull/8188)
-* [clippy: trigger  `ptr_as_ptr` inside macros](https://github.com/rust-lang/rust-clippy/pull/8442)
+* [apply noundef attribute to all scalar types which do not permit raw init](https://github.com/rust-lang/rust/pull/94157)
+* [apply noundef metadata to loads of types that do not permit raw init](https://github.com/rust-lang/rust/pull/94158)
+* [suggest a float literal when dividing a floating-point type by `{integer}`](https://github.com/rust-lang/rust/pull/94078)
+* [suggest adding `{ .. }` around more bad const generic exprs](https://github.com/rust-lang/rust/pull/92884)
+* [suggest calling `.display()` on `PathBuf` too](https://github.com/rust-lang/rust/pull/94240)
+* [do not suggest using a const parameter when there are bounds on an unused type parameter](https://github.com/rust-lang/rust/pull/93400)
+* [do not suggest wrapping an item if it has ambiguous un-imported methods](https://github.com/rust-lang/rust/pull/94237)
+* [diagnostic: suggest parens when users want logical ops, but get closures](https://github.com/rust-lang/rust/pull/94344)
+* [better error if the user tries to do assignment ... `else`](https://github.com/rust-lang/rust/pull/94211)
+* [rustc_errors: let `DiagnosticBuilder::emit` return a "guarantee of emission"](https://github.com/rust-lang/rust/pull/93368)
+* [consider mutations as borrows in generator drop tracking](https://github.com/rust-lang/rust/pull/94068)
+* [miri: prune backtraces similar to `RUST_BACKTRACE=1` logic](https://github.com/rust-lang/miri/pull/1977)
+* [miri: prune stacktraces for tag-tracking diagnostics too](https://github.com/rust-lang/miri/pull/1987)
+* [fix ICE when passing block to while-loop condition](https://github.com/rust-lang/rust/pull/94248)
+* [fix ICE when using `Box<T, A>` with large A](https://github.com/rust-lang/rust/pull/94414)
+* [convert `newtype_index` to a proc macro](https://github.com/rust-lang/rust/pull/93878)
+* [gracefully handle non-UTF-8 string slices when pretty printing](https://github.com/rust-lang/rust/pull/94156)
+* [improve string literal unescaping](https://github.com/rust-lang/rust/pull/94316)
+* [introduce `ChunkedBitSet` and use it for some dataflow analyses](https://github.com/rust-lang/rust/pull/93984)
+* [simplify `rustc_serialize` by dropping support for decoding into JSON](https://github.com/rust-lang/rust/pull/93839)
+* [only create a single expansion for each inline integration](https://github.com/rust-lang/rust/pull/94427)
+* [remove in band lifetimes](https://github.com/rust-lang/rust/pull/93845)
+* [codegen\_gcc: add support for `on_stack` parameters](https://github.com/rust-lang/rustc_codegen_gcc/pull/135)
+* [codegen\_gcc: don't export global allocs which are not statics](https://github.com/rust-lang/rustc_codegen_gcc/pull/133)
+* [codegen\_gcc: fix miscompilation when `cg_ssa` is using multiple builders at the same time](https://github.com/rust-lang/rustc_codegen_gcc/pull/131)
+* [codegen\_gcc: support `-Cpanic=unwind` without unwinding](https://github.com/rust-lang/rustc_codegen_gcc/pull/132)
+* [implement `LowerHex` on `Scalar` to clean up their display in rustdoc](https://github.com/rust-lang/rust/pull/94189)
+* [add `slice::`{`from_ptr_range`, `from_mut_ptr_range`}](https://github.com/rust-lang/rust/pull/89793)
+* [futures: `FuturesUnordered`: fix partial iteration](https://github.com/rust-lang/futures-rs/pull/2574)
+* [portable-simd: bitmask conversion trait](https://github.com/rust-lang/portable-simd/pull/239)
+* [cargo: implement "artifact dependencies"](https://github.com/rust-lang/cargo/pull/9992) (RFC [#3028](https://rust-lang.github.io/rfcs/3028-cargo-binary-dependencies.html))
+* [cargo: add `-Z check-cfg-features` to enable compile-time checking of features](https://github.com/rust-lang/cargo/pull/10408)
+* [cargo: add common profile validation](https://github.com/rust-lang/cargo/pull/10411)
+* [cargo: enable propagating host rustflags to build scripts](https://github.com/rust-lang/cargo/pull/10395)
+* [clippy: add `print_in_format_impl` lint](https://github.com/rust-lang/rust-clippy/pull/8253)
+* [clippy: disable `new-without-default` for `#[doc(hidden)] new()` methods](https://github.com/rust-lang/rust-clippy/pull/8472)
+* [clippy: false positive `redundant_closure` when using ref pattern in closure params](https://github.com/rust-lang/rust-clippy/pull/8466)
+* [clippy: fix `ptr_arg`](https://github.com/rust-lang/rust-clippy/pull/8464)
+* [clippy: fix some `unnecessary_filter_map` false positives](https://github.com/rust-lang/rust-clippy/pull/8479)
+* [clippy: fix false positives of `large_enum_variant`](https://github.com/rust-lang/rust-clippy/pull/8453)
 
 ### Rust Compiler Performance Triage
 
@@ -204,11 +193,13 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> There's a big difference between solving a problem and making a problem go away
+> Due to recent events I feel the need to once again commend the reviewers and ehuss in particular for their amazing communication skills when reviewing PRs like this. I can only imagine how much work it means and how silly some of the changes proposed here might look to a seasoned cargo developer, yet you maintain a constructive, upbeat, and friendly spirit at all times. It's a style that I am aspiring when reviewing PRs myself, and is a prime example for the accessibility and friendliness of the Rust community as a whole.
+>
+> Thank you!
 
-– [Patrick Doyle on rust-users](https://users.rust-lang.org/t/what-does-impl-a-myserver-static-mean/71755)
+– [Sebastian Thiel commending Eric Huss on GitHub](https://github.com/rust-lang/cargo/pull/9992#issuecomment-1046606363)
 
-Thanks to [Michael Bryan](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1184) for the suggestion!
+Thanks to [Jacob Finkelman](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1185) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
