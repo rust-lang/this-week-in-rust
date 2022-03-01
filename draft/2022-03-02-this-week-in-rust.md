@@ -136,7 +136,7 @@ Revision range: [775e4807..a240ccd8](https://perf.rust-lang.org/?start=775e48072
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* *No RFCs were approved this week.*
+* [Scoped threads in the standard library, take 2](https://github.com/rust-lang/rfcs/pull/3151)
 
 ### Final Comment Period
 
@@ -146,17 +146,19 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [RFC: Add a `process_group` method to UNIX `CommandExt`](https://github.com/rust-lang/rfcs/pull/3228)
-* [disposition: postpone] [Let Cargo put data into platform-specific directories](https://github.com/rust-lang/rfcs/pull/1615)
+* [disposition: merge] [Add vendor-specific suffixes to v0 mangling RFC 2603](https://github.com/rust-lang/rfcs/pull/3224)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Tracking Issue for JoinHandle::is_running](https://github.com/rust-lang/rust/issues/90470)
-* [disposition: merge] [Make regular stdio lock() return 'static handles](https://github.com/rust-lang/rust/pull/93965)
+* [disposition: merge] [Rename unix::net::SocketAddr::from_path to from_pathname and stabilize it](https://github.com/rust-lang/rust/pull/94356)
+* [disposition: merge] [Tracking issue for Vec::retain_mut and VecDeque::retain_mut](https://github.com/rust-lang/rust/issues/90829)
+* [disposition: merge] [Stabilize const_fn_fn_ptr_basics, const_fn_trait_bound, and const_impl_trait](https://github.com/rust-lang/rust/pull/93827)
+* [disposition: merge] [Tracking Issue for const_intrinsic_copy](https://github.com/rust-lang/rust/issues/80697)
+* [disposition: merge] [Implement `Write for Cursor<[u8; N]>`, plus `A: Allocator` cursor support](https://github.com/rust-lang/rust/pull/92663)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [new] [RFC: add try_all and try_any to Iterator](https://github.com/rust-lang/rfcs/pull/3233)
+* *No new or updated RFCs were submitted this week.*
 
 ## Upcoming Events
 
