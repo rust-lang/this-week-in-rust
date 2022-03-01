@@ -20,7 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
-* [Announcing Rust runtime for AWS Lambda 0.5](https://github.com/awslabs/aws-lambda-rust-runtime/releases/tag/v0.5.0) - [Twitter thread with feature highlight](https://twitter.com/NMoutschen/status/1495481693247279104?s=20&t=frvwd0sGKgtlGTmTzGc-Cw)
+* [Announcing Rust runtime for AWS Lambda 0.5](https://github.com/awslabs/aws-lambda-rust-runtime/releases/tag/v0.5.0)
 
 ### Research
 
