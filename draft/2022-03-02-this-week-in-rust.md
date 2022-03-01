@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Announcing Rust runtime for AWS Lambda 0.5](https://github.com/awslabs/aws-lambda-rust-runtime/releases/tag/v0.5.0)
+
 ### Research
 * [video] [Talk on Pattern-defeating Quicksort, the algorithm behind `sort_unstable`](https://www.youtube.com/watch?v=jz-PBiWwNjc) 
 
