@@ -33,6 +33,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 * [Modern Telecom Network Tracing](https://oxio.com/blog/modern-telecom-network-tracing)
+* [audio] [与黄光星畅聊 Rust、Redis 与新加坡](https://rusttalk.github.io/podcast/002/)
 
 ## Crate of the Week
 
