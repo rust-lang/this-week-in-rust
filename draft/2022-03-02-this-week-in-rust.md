@@ -27,13 +27,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 * [video] [Rust's Vision in 2022](https://www.youtube.com/watch?v=zYrudh-dsX8)
+* [audio] [ZH][与黄光星畅聊 Rust、Redis 与新加坡](https://rusttalk.github.io/podcast/002/)
 
 ### Rust Walkthroughs
 * [Integrating Rust With Android Development](https://medium.com/@otukof/integrating-rust-with-android-development-ef341c2f9cca)
 
 ### Miscellaneous
 * [Modern Telecom Network Tracing](https://oxio.com/blog/modern-telecom-network-tracing)
-* [audio] [与黄光星畅聊 Rust、Redis 与新加坡](https://rusttalk.github.io/podcast/002/)
 
 ## Crate of the Week
 
