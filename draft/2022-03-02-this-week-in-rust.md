@@ -32,6 +32,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 * [Integrating Rust With Android Development](https://medium.com/@otukof/integrating-rust-with-android-development-ef341c2f9cca)
+* [series] [video] [Writing a Programming Language (in Rust) 18: Laurel: Calling a string as a process](https://www.youtube.com/watch?v=XKIqN3B7mNw)
+* [series] [video] [Writing a Programming Language (in Rust) 19: Laurel: Streamlining subcommands](https://www.youtube.com/watch?v=PMFKXgrDow4)
 
 ### Miscellaneous
 * [Modern Telecom Network Tracing](https://oxio.com/blog/modern-telecom-network-tracing)
