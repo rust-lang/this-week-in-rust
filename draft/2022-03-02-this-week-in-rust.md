@@ -19,14 +19,21 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Project/Tooling Updates
+* [Slint (formerly SixtyFPS, UI crate) weekly update](https://slint-ui.com/thisweek/2022-02-28.html)
+* [Announcing Rust runtime for AWS Lambda 0.5](https://github.com/awslabs/aws-lambda-rust-runtime/releases/tag/v0.5.0)
 
 ### Research
+* [video] [Talk on Pattern-defeating Quicksort, the algorithm behind `sort_unstable`](https://www.youtube.com/watch?v=jz-PBiWwNjc) 
 
 ### Observations/Thoughts
+* [video] [Rust's Vision in 2022](https://www.youtube.com/watch?v=zYrudh-dsX8)
+* [ZH] [audio] [与黄光星畅聊 Rust、Redis 与新加坡](https://rusttalk.github.io/podcast/002/)
 
 ### Rust Walkthroughs
+* [Integrating Rust With Android Development](https://medium.com/@otukof/integrating-rust-with-android-development-ef341c2f9cca)
 
 ### Miscellaneous
+* [Modern Telecom Network Tracing](https://oxio.com/blog/modern-telecom-network-tracing)
 
 ## Crate of the Week
 
@@ -169,6 +176,7 @@ Rusty Events between 2/23/2022 - 3/23/2022 🦀
 * [March 8, 2022 | Dallas, TX, US | **Second Tuesday**| Dallas Rust](https://www.meetup.com/Dallas-Rust/events/284064891/)
 * [March 8, 2022 | Rostock, DE | **5. Rust Meetup Rostock** | Altow Academy](https://www.meetup.com/altow-academy/events/283819113)
 * [March 8, 2022 | Seattle, WA, US | **Monthly meetup** | Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/events/283221922/)
+* [March 9, 2022 | Selangor, MY | **Rust Meetup** | Rust Malaysia Meetup](https://forms.gle/35pipPdsKm1VFzCa9)
 * [March 9, 2022 | Boulder, CO, US | **Monthly Meetup** | Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/events/283985719/)
 * [March 9, 2022 | München, DE | **Rust Munich Remote(?) #10** | Rust Munich](https://www.meetup.com/rust-munich/events/283790509)
 * [March 9, 2022 | Stuttgart, DE | **Rust-Meetup** | Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/events/284068315)
@@ -193,7 +201,9 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+**LoanPASS**
+
+* [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
 
 **Parity Technologies**
 
@@ -202,6 +212,7 @@ Email the [Rust Community Team][community] for access.
 * [Rust Core Engineer - Solidity Compiler (Solang)](https://grnh.se/a5a5c0a33us)
 * [Multiple other Rust / Blockchain Engineering positions](https://www.parity.io/jobs)
 
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
