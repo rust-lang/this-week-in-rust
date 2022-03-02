@@ -214,6 +214,13 @@ Email the [Rust Community Team][community] for access.
 * [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
 * [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
 
+**Parity Technologies**
+
+* [Parachains Engineer - Common Good](https://boards.greenhouse.io/parity/jobs/4794657003)
+* [Core Runtime Engineer - Substrate](https://grnh.se/dddd76283us)
+* [Rust Core Engineer - Solidity Compiler (Solang)](https://grnh.se/a5a5c0a33us)
+* [Multiple other Rust / Blockchain Engineering positions](https://www.parity.io/jobs)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
