@@ -27,10 +27,13 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Talk on Pattern-defeating Quicksort, the algorithm behind `sort_unstable`](https://www.youtube.com/watch?v=jz-PBiWwNjc) 
 
 ### Observations/Thoughts
+* [Mental models for learning Rust](https://kerkour.com/rust-mental-models)
 * [video] [Rust's Vision in 2022](https://www.youtube.com/watch?v=zYrudh-dsX8)
 * [ZH] [audio] [与黄光星畅聊 Rust、Redis 与新加坡](https://rusttalk.github.io/podcast/002/)
 
 ### Rust Walkthroughs
+* [The foundations of end-to-end encryption: Key exchange (with code example in Rust)](https://kerkour.com/end-to-end-encryption-key-exchange-cryptography-rust)
+* [Background jobs in Rust](https://kerkour.com/rust-background-jobs)
 * [Integrating Rust With Android Development](https://medium.com/@otukof/integrating-rust-with-android-development-ef341c2f9cca)
 * [series] [video] [Writing a Programming Language (in Rust) 18: Laurel: Calling a string as a process](https://www.youtube.com/watch?v=XKIqN3B7mNw)
 * [series] [video] [Writing a Programming Language (in Rust) 19: Laurel: Streamlining subcommands](https://www.youtube.com/watch?v=PMFKXgrDow4)
