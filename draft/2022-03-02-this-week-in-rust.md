@@ -201,9 +201,18 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Tangram**
+
+ * [Rust Programmer (Remote)](https://www.tangram.dev/jobs)
+
 **LoanPASS**
 
 * [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
+
+**Kollider**
+
+* [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
+* [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
 
 **Parity Technologies**
 
