@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Project/Tooling Updates
+* [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W08](https://www.fornjot.app/blog/weekly-dev-log/2022-w08/)
 * [Slint (formerly SixtyFPS, UI crate) weekly update](https://slint-ui.com/thisweek/2022-02-28.html)
 * [Announcing Rust runtime for AWS Lambda 0.5](https://github.com/awslabs/aws-lambda-rust-runtime/releases/tag/v0.5.0)
 
