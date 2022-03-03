@@ -85,6 +85,16 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+**ripzip2**
+
+* [Automatically use number of virtual CPUs as default for number of threads](https://github.com/torfmaster/ribzip2/issues/1)
+* [Improve CLI ergonomy](https://github.com/torfmaster/ribzip2/issues/5)
+
+**rust**
+
+* [Rare case of not properly rounding up thread stack size on Windows](https://github.com/rust-lang/rust/issues/94454)
+* [Document that Display entails ToString](https://github.com/rust-lang/rust/issues/92941)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
