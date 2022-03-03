@@ -34,6 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Databend #31: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-03-02-databend-weekly/)
 
 ### Research
+* [Assessing the alignment between the information needs of developers and the documentation of programming languages: A case study on Rust](https://arxiv.org/abs/2202.04431)
 * [video] [Talk on Pattern-defeating Quicksort, the algorithm behind `sort_unstable`](https://www.youtube.com/watch?v=jz-PBiWwNjc) 
 
 ### Observations/Thoughts
@@ -83,6 +84,16 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+**ripzip2**
+
+* [Automatically use number of virtual CPUs as default for number of threads](https://github.com/torfmaster/ribzip2/issues/1)
+* [Improve CLI ergonomy](https://github.com/torfmaster/ribzip2/issues/5)
+
+**rust**
+
+* [Rare case of not properly rounding up thread stack size on Windows](https://github.com/rust-lang/rust/issues/94454)
+* [Document that Display entails ToString](https://github.com/rust-lang/rust/issues/92941)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -198,6 +209,8 @@ Rusty Events between 2022-03-02 - 2022-03-30 🦀
     * [**Rust Book Study Session - Object Oriented Programming & Patterns and Matching**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/284196124/)
 * 2022-03-03 | Würzburg, DE | [Rust Würzburg Meetup Group](https://www.meetup.com/rust-wurzburg-meetup-group/)
     * [**Guest Speaker | Herbert Wolverson | Rust gamedev in 2022**](https://www.meetup.com/rust-wurzburg-meetup-group/events/283765814)
+* 2022-03-03 | [Scylla](https://www.scylladb.com/)
+    * [**Build Low-Latency Applications in Rust on ScyllaDB**](https://lp.scylladb.com/rust-virtual-workshop-registration.html)
 * 2022-03-07 | Valence, FR | [Ardèch’Drôm Dev](https://www.meetup.com/Ardech-Drom-Dev/)
     * [**Coding-dojo - Rust**](https://www.meetup.com/Ardech-Drom-Dev/events/283624590)
 * 2022-03-08 | Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
@@ -260,6 +273,17 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
 * [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
+
+**Starry**
+
+* [Manager, Systems Software Engineering (Boston, MA, US)](https://starry.com/careers/5197989002)
+* [Principal Systems Software Engineer (Boston, MA, US)](https://starry.com/careers/5808776002)
+
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 **Parity Technologies**
 
