@@ -18,8 +18,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Announcing Rust 1.59.0](https://blog.rust-lang.org/2022/02/24/Rust-1.59.0.html)
 
-### Foundation
-
 ### Project/Tooling Updates
 * [Rust-Analyzer Changelog #118](https://rust-analyzer.github.io/thisweek/2022/02/28/changelog-118.html)
 * [GCC Rust Monthly Report #14 February 2022](https://thephilbert.io/2022/02/25/gcc-rust-monthly-report-14-february-2022/)
