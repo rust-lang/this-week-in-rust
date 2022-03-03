@@ -12,6 +12,21 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/rust-lang/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
+# We Stand With You 🇺🇦
+
+Since our previous issue, Russia has launched an invasion of the sovereign nation
+of Ukraine with assaults on the civilian population, resulting in hundreds of
+civilian casualties so far. We stand with Ukraine and our Ukrainian siblings now
+and always.
+
+The Rust Code of Conduct ensures a safe place for everyone, including those that
+have traditionally suffered from political attacks on their right to exist. We
+believe all people have a right to live in peace and a right to self-determination.
+
+If you want to show your support,
+[Global Citizen has a list of curated resources](https://www.globalcitizen.org/en/content/ways-to-help-ukraine-conflict/)
+for donating, taking action, and staying informed.
+
 ## Updates from Rust Community
 
 ### Official
