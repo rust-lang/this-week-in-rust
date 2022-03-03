@@ -16,34 +16,56 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
+* [Announcing Rust 1.59.0](https://blog.rust-lang.org/2022/02/24/Rust-1.59.0.html)
+
 ### Foundation
 
 ### Project/Tooling Updates
-
+* [Rust-Analyzer Changelog #118](https://rust-analyzer.github.io/thisweek/2022/02/28/changelog-118.html)
+* [GCC Rust Monthly Report #14 February 2022](https://thephilbert.io/2022/02/25/gcc-rust-monthly-report-14-february-2022/)
+* [rustc_codegen_gcc: Progress Report #9](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-9)
+* [Announcing Actix Web v4.0](https://github.com/actix/actix-web/wiki/v4-Announcement)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W08](https://www.fornjot.app/blog/weekly-dev-log/2022-w08/)
 * [Slint (formerly SixtyFPS, UI crate) weekly update](https://slint-ui.com/thisweek/2022-02-28.html)
 * [Announcing Rust runtime for AWS Lambda 0.5](https://github.com/awslabs/aws-lambda-rust-runtime/releases/tag/v0.5.0)
 * [BonsaiDb February update: Supporting and Optimizing BonsaiDb](https://bonsaidb.io/blog/february-2022-update/)
+* [Wasmer 2.2: Major Singlepass Improvements](https://wasmer.io/posts/wasmer-2.2)
+* [OpenMLS v0.4 Release](https://openmls.tech/blog/2022-02-28-v0_4-release/)
 * [This week in Databend #31: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-03-02-databend-weekly/)
 
 ### Research
 * [video] [Talk on Pattern-defeating Quicksort, the algorithm behind `sort_unstable`](https://www.youtube.com/watch?v=jz-PBiWwNjc) 
 
 ### Observations/Thoughts
+* [How to speed up the Rust compiler in 2022](https://nnethercote.github.io/2022/02/25/how-to-speed-up-the-rust-compiler-in-2022.html)
+* [IDEs and proc-macros](https://veykril.github.io/posts/ide-proc-macros/)
 * [Mental models for learning Rust](https://kerkour.com/rust-mental-models)
+* [Warnings and Linter Errors: The Awkward Middle Children](https://www.thecodedmessage.com/posts/warnings/)
+* [CXX-Qt - Safe Rust Bindings for Qt](https://www.kdab.com/cxx-qt/)
+* [TreeFlat: Building a (possible) faster tree for Rust, inspired by APL](https://www.elmalabarista.com/blog/2022-flat-tree/)
+* [Discussion: New `unchecked` keyword](https://ohsayan.github.io/2022/02/rust-unchecked-keyword/)
 * [video] [Rust's Vision in 2022](https://www.youtube.com/watch?v=zYrudh-dsX8)
 * [ZH] [audio] [与黄光星畅聊 Rust、Redis 与新加坡](https://rusttalk.github.io/podcast/002/)
 
 ### Rust Walkthroughs
+* [Rust's Rules are Made to Be Broken](https://blog.warp.dev/rules-are-made-to-be-broken/)
 * [The foundations of end-to-end encryption: Key exchange (with code example in Rust)](https://kerkour.com/end-to-end-encryption-key-exchange-cryptography-rust)
 * [Background jobs in Rust](https://kerkour.com/rust-background-jobs)
-* [Integrating Rust With Android Development](https://medium.com/@otukof/integrating-rust-with-android-development-ef341c2f9cca)
+* [Shaking off the Rust](https://www.sotr.blog/)
+* [Integrating Rust With Android Development](https://blog.devgenius.io/integrating-rust-with-android-development-ef341c2f9cca)
+* [A taste of Rust](https://www.hacklewayne.com/a-taste-of-rust)
+* [Rust: Adding default cargo features without breaking Semantic Versioning](https://slint-ui.com/blog/rust-adding-default-cargo-feature.html)
+* [Highway to the TrustZone (Using Rust with TrustZone-M)](https://blog.m10.io/highway-to-the-trustzone-m-2/)
+* [Building a new graphics engine in Rust - Part 2](https://www.polymonster.co.uk/blog/bulding-new-engine-in-rust-2)
+* [DE] [Ferris Talk #6: Ein neuer Trick für die Formatstrings in Rust](https://www.heise.de/hintergrund/Ferris-Talk-6-Ein-neuer-Trick-fuer-die-Formatstrings-in-Rust-6505377.html)
 * [series] [video] [Writing a Programming Language (in Rust) 18: Laurel: Calling a string as a process](https://www.youtube.com/watch?v=XKIqN3B7mNw)
 * [series] [video] [Writing a Programming Language (in Rust) 19: Laurel: Streamlining subcommands](https://www.youtube.com/watch?v=PMFKXgrDow4)
 
 ### Miscellaneous
-* [Modern Telecom Network Tracing](https://oxio.com/blog/modern-telecom-network-tracing)
+* [Modern Telecom Network Tracing](https://oxio.com/blog/modern-telecom-network-tracing/)
+* [Achieving >1TB/hr backup speed by implementing the core client-side data pipeline in Rust](https://www.druva.com/blog/achieving-1tb-hr-backup-speed-with-a-core-client-side-data-pipeline-in-rust/)
 * [Black Hat Rust Cyberwar Discount](https://kerkour.com/black-hat-rust-discount-february-2022)
+* [DE] [Programmiersprache Rust 1.59 integriert Assembler-Code](https://www.heise.de/news/Programmiersprache-Rust-1-59-integriert-Assembler-Code-6526061.html)
 
 ## Crate of the Week
 
