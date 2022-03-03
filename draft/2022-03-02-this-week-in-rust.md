@@ -31,6 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [BonsaiDb February update: Supporting and Optimizing BonsaiDb](https://bonsaidb.io/blog/february-2022-update/)
 * [Wasmer 2.2: Major Singlepass Improvements](https://wasmer.io/posts/wasmer-2.2)
 * [OpenMLS v0.4 Release](https://openmls.tech/blog/2022-02-28-v0_4-release/)
+* [This week in Databend #31: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-03-02-databend-weekly/)
 
 ### Research
 * [video] [Talk on Pattern-defeating Quicksort, the algorithm behind `sort_unstable`](https://www.youtube.com/watch?v=jz-PBiWwNjc) 
@@ -63,6 +64,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Miscellaneous
 * [Modern Telecom Network Tracing](https://oxio.com/blog/modern-telecom-network-tracing/)
 * [Achieving >1TB/hr backup speed by implementing the core client-side data pipeline in Rust](https://www.druva.com/blog/achieving-1tb-hr-backup-speed-with-a-core-client-side-data-pipeline-in-rust/)
+* [Black Hat Rust Cyberwar Discount](https://kerkour.com/black-hat-rust-discount-february-2022)
 * [DE] [Programmiersprache Rust 1.59 integriert Assembler-Code](https://www.heise.de/news/Programmiersprache-Rust-1-59-integriert-Assembler-Code-6526061.html)
 
 ## Crate of the Week
