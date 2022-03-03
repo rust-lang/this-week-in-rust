@@ -12,7 +12,7 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/rust-lang/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
-# 🇺🇦 We Stand With You
+# We Stand With You 🇺🇦
 
 Since our previous issue, Russia has launched an invasion of the sovereign nation
 of Ukraine with assaults on the civilian population, resulting in hundreds of
