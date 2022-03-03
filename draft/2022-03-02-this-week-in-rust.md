@@ -209,7 +209,7 @@ Rusty Events between 2022-03-02 - 2022-03-30 🦀
     * [**Rust Book Study Session - Object Oriented Programming & Patterns and Matching**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/284196124/)
 * 2022-03-03 | Würzburg, DE | [Rust Würzburg Meetup Group](https://www.meetup.com/rust-wurzburg-meetup-group/)
     * [**Guest Speaker | Herbert Wolverson | Rust gamedev in 2022**](https://www.meetup.com/rust-wurzburg-meetup-group/events/283765814)
-**2022-03-03 | [Scylla](https://www.scylladb.com/)
+* 2022-03-03 | [Scylla](https://www.scylladb.com/)
     * [**Build Low-Latency Applications in Rust on ScyllaDB**](https://lp.scylladb.com/rust-virtual-workshop-registration.html)
 * 2022-03-07 | Valence, FR | [Ardèch’Drôm Dev](https://www.meetup.com/Ardech-Drom-Dev/)
     * [**Coding-dojo - Rust**](https://www.meetup.com/Ardech-Drom-Dev/events/283624590)
