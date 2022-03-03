@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Slint (formerly SixtyFPS, UI crate) weekly update](https://slint-ui.com/thisweek/2022-02-28.html)
 * [Announcing Rust runtime for AWS Lambda 0.5](https://github.com/awslabs/aws-lambda-rust-runtime/releases/tag/v0.5.0)
 * [BonsaiDb February update: Supporting and Optimizing BonsaiDb](https://bonsaidb.io/blog/february-2022-update/)
+* [This week in Databend #31: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-03-02-databend-weekly/)
 
 ### Research
 * [video] [Talk on Pattern-defeating Quicksort, the algorithm behind `sort_unstable`](https://www.youtube.com/watch?v=jz-PBiWwNjc) 
