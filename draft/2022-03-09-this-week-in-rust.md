@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Fuzzing unsafe code in a Rust crate](https://medium.com/@adetaylor/fuzzing-unsafe-code-in-a-rust-crate-dcf3ec04d79a)
+
 ### Miscellaneous
 
 ## Crate of the Week
