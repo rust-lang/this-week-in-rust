@@ -109,7 +109,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [add `MaybeUninit` method `array_assume_init`](https://github.com/rust-lang/rust/pull/80600)
 * [change `BinaryHeap::append` rebuild heuristic](https://github.com/rust-lang/rust/pull/77435)
 * [implement `ptr::write` without dedicated intrinsic](https://github.com/rust-lang/rust/pull/80290)
-* [introduce {`Ref`, `RefMut`}`::try_map' for optional projections in `RefCell`](https://github.com/rust-lang/rust/pull/78455)
+* [introduce {`Ref`, `RefMut`}`::try_map` for optional projections in `RefCell`](https://github.com/rust-lang/rust/pull/78455)
 * [re-stabilize `Weak::as_ptr` and friends for unsized T](https://github.com/rust-lang/rust/pull/80764)
 * [add `Iterator::intersperse_with`](https://github.com/rust-lang/rust/pull/80567)
 * [`TrustedRandomAaccess` specialization composes incorrectly for nested `iter::Zips`](https://github.com/rust-lang/rust/pull/80670)

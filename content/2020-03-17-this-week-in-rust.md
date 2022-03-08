@@ -122,7 +122,7 @@ decision. Express your opinions now.
 
 * [disposition: merge] [Allow obtaining &mut OsStr](https://github.com/rust-lang/rust/pull/70048).
 * [disposition: merge] [`is_x86_feature_detected!("avx512f")` fails to build on beta and nightly](https://github.com/rust-lang/rust/issues/68905).
-* [disposition: merge] [impl From<[T; N]> for Vec<T>](https://github.com/rust-lang/rust/pull/68692).
+* [disposition: merge] [`impl From<[T; N]> for Vec<T>`](https://github.com/rust-lang/rust/pull/68692).
 * [disposition: merge] [Amend Rc/Arc::from_raw() docs regarding unsafety](https://github.com/rust-lang/rust/pull/68099).
 
 ## New RFCs

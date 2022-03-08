@@ -27,6 +27,7 @@ FEED_ALL_RSS = 'rss.xml'
 FEED_MAX_ITEMS = 4
 CATEGORY_FEED_ATOM = 'categories/{slug}/atom.xml'
 CATEGORY_FEED_RSS = 'categories/{slug}/rss.xml'
+RSS_FEED_SUMMARY_ONLY = False
 
 DEFAULT_PAGINATION = 10
 

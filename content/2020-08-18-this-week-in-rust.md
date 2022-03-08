@@ -119,7 +119,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [detect JS-style `===` and `!==` and recover](https://github.com/rust-lang/rust/pull/75321)
 * [detect likely `for foo of bar` JS syntax](https://github.com/rust-lang/rust/pull/75320)
 * [move stack size check to `const_eval` machine](https://github.com/rust-lang/rust/pull/75338)
-* [add `array` lang item and `[T; N]::map(f: FnMut(T) -> S)`](https://github.com/rust-lang/rust/pull/75212)
+* [add `array` lang item and `[T; N]::map(f: FnMut(T) -> S)`](https://github.com/rust-lang/rust/pull/75212) &nbsp;
 * [remove branch in optimized `is_ascii`](https://github.com/rust-lang/rust/pull/74562)
 * [constified `str::from_utf8_unchecked`](https://github.com/rust-lang/rust/pull/75157)
 * [hard way to respect `BTreeMap`'s minimum node length](https://github.com/rust-lang/rust/pull/75105)

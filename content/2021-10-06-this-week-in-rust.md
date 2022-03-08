@@ -106,7 +106,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 * [make *const (), *mut () okay for FFI](https://github.com/rust-lang/rust/pull/84267)
 * [resolve: cache module loading for all foreign modules](https://github.com/rust-lang/rust/pull/89239)
-* [improve error message for missing angle brackets in `[_]::method`](https://github.com/rust-lang/rust/pull/89447)
+* [improve error message for missing angle brackets in `[_]::method`](https://github.com/rust-lang/rust/pull/89447) &nbsp;
 * [avoid nondeterminism in `trimmed_def_paths`](https://github.com/rust-lang/rust/pull/89408)
 * [improve error message for printf-style format strings](https://github.com/rust-lang/rust/pull/89340)
 * [pick one possible lifetime in case there are multiple choices](https://github.com/rust-lang/rust/pull/89327)

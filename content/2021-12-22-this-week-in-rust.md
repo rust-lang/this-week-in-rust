@@ -92,7 +92,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [perf: manually implement `Hash` for `DefId`](https://github.com/rust-lang/rust/pull/91660)
 * [enable `#[thread_local]` for all windows-msvc targets](https://github.com/rust-lang/rust/pull/92042)
 * [add entry_ref API to HashMap](https://github.com/rust-lang/hashbrown/pull/301)
-* [add `[T]::as_simd(_mut)`](https://github.com/rust-lang/rust/pull/91479)
+* [add `[T]::as_simd(_mut)`](https://github.com/rust-lang/rust/pull/91479) &nbsp;
 * [add `BinaryHeap::try_reserve` and `BinaryHeap::try_reserve_exact`](https://github.com/rust-lang/rust/pull/91529)
 * [add `io::Error::other`](https://github.com/rust-lang/rust/pull/91947)
 * [avoid sorting in hash map stable hashing](https://github.com/rust-lang/rust/pull/91837)
@@ -109,7 +109,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [futures: add `StreamExt::count` method](https://github.com/rust-lang/futures-rs/pull/2495)
 * [futures: limit `FuturesUnordered` max value of `yield_every`](https://github.com/rust-lang/futures-rs/pull/2527)
 * [cargo: detect filesystem loop during walking the projects](https://github.com/rust-lang/cargo/pull/10188)
-* [cargo: display alias target on 'cargo help <alias>`](https://github.com/rust-lang/cargo/pull/10193)
+* [cargo: display alias target on `cargo help <alias>`](https://github.com/rust-lang/cargo/pull/10193)
 * [rustdoc: fix source code page sidebar on mobile](https://github.com/rust-lang/rust/pull/91905)
 * [clippy: add `unnecessary_to_owned` lint](https://github.com/rust-lang/rust-clippy/pull/7978)
 * [clippy: don't emit `return_self_not_must_use` lint if `Self` already is marked as `#[must_use]`](https://github.com/rust-lang/rust-clippy/pull/8146)

@@ -115,7 +115,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [stabilize `deque_make_contiguous`](https://github.com/rust-lang/rust/pull/74559)
 * [add `slice::check_range`](https://github.com/rust-lang/rust/pull/75207)
 * [BTreeMap: introduce marker::ValMut and reserve Mut for unique access](https://github.com/rust-lang/rust/pull/75200)
-* [add `[T; N]::as_[mut_]slice`](https://github.com/rust-lang/rust/pull/76120)
+* [add `[T; N]::as_[mut_]slice`](https://github.com/rust-lang/rust/pull/76120) &nbsp;
 * [implement `Seek::stream_position()` for `BufReader`](https://github.com/rust-lang/rust/pull/74366)
 * [`impl Rc::new_cyclic`](https://github.com/rust-lang/rust/pull/75994)
 * [make `cow_is_borrowed` methods const](https://github.com/rust-lang/rust/pull/76139)

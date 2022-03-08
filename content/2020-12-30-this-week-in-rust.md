@@ -87,7 +87,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [prevent caching normalization results with a cycle](https://github.com/rust-lang/rust/pull/80246)
 * [fix ICE when lookup method in trait for type that have bound vars](https://github.com/rust-lang/rust/pull/80170)
 * [remove `DefPath` from `Visibility` and calculate it on demand](https://github.com/rust-lang/rust/pull/80099)
-* [`rustc_query_system : reduce dependency graph memory usage](https://github.com/rust-lang/rust/pull/79589)
+* [`rustc_query_system`: reduce dependency graph memory usage](https://github.com/rust-lang/rust/pull/79589)
 * [add `impl Div<NonZeroU*> for u*` which cannot panic](https://github.com/rust-lang/rust/pull/79134)
 * [deprecate atomic `compare_and_swap` method](https://github.com/rust-lang/rust/pull/79261)
 * [stabilize `core::slice::fill`](https://github.com/rust-lang/rust/pull/79213)

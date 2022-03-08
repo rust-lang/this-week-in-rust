@@ -156,7 +156,7 @@ decision. Express your opinions now.
 
 * [disposition: merge] [Cautiously add IntoIterator for arrays by value](https://github.com/rust-lang/rust/pull/84147)
 * [disposition: merge] [Stabilize Duration::MAX](https://github.com/rust-lang/rust/pull/84120)
-* [disposition: merge] [Stabilize `impl From<[(K, V); N]`> for HashMap`](https://github.com/rust-lang/rust/pull/84111)
+* [disposition: merge] [Stabilize `impl From<[(K, V); N]`> for `HashMap`](https://github.com/rust-lang/rust/pull/84111)
 * [disposition: merge] [Allow setting `target_family` to multiple values, and implement `target_family="wasm"`](https://github.com/rust-lang/rust/pull/84072)
 * [disposition: close] [Exiting a process calls exit() which isn’t thread-safe](https://github.com/rust-lang/rust/issues/83994)
 * [disposition: merge] [Stabilize `:pat_param` but leave :pat2021 gated](https://github.com/rust-lang/rust/pull/83386)

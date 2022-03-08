@@ -141,7 +141,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [miri: support non-rlib extern files](https://github.com/rust-lang/miri/pull/1557)
 * [add `as_str()` to `string::Drain`](https://github.com/rust-lang/rust/pull/76525)
 * [make all methods of `Duration` unstably const](https://github.com/rust-lang/rust/pull/76335)
-* [add `[T; N]: TryFrom<Vec<T>>`](https://github.com/rust-lang/rust/pull/76310)
+* [add `[T]: TryFrom<Vec<T>>`](https://github.com/rust-lang/rust/pull/76310) &nbsp;
 * [stabilize some `Result` methods as const](https://github.com/rust-lang/rust/pull/76136)
 * [stabilize some `Option` methods as const](https://github.com/rust-lang/rust/pull/76135)
 * [avoid useless `sift_down` when `std::collections::binary_heap::PeekMut` is never mutably dereferenced](https://github.com/rust-lang/rust/pull/75974)
