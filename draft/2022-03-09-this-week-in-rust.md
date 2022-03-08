@@ -122,6 +122,13 @@ are the RFCs that were approved for implementation this week:
 
 * [Scoped threads in the standard library, take 2](https://github.com/rust-lang/rfcs/pull/3151)
 
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
+
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* *No new or updated RFCs were submitted this week.*
+
 ### Final Comment Period
 
 Every week [the team](https://www.rust-lang.org/team.html) announces the
@@ -130,19 +137,19 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Add vendor-specific suffixes to v0 mangling RFC 2603](https://github.com/rust-lang/rfcs/pull/3224)
+* [disposition: merge] [Cargo alternative registry auth](https://github.com/rust-lang/rfcs/pull/3139)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Rename unix::net::SocketAddr::from_path to from_pathname and stabilize it](https://github.com/rust-lang/rust/pull/94356)
-* [disposition: merge] [Tracking issue for Vec::retain_mut and VecDeque::retain_mut](https://github.com/rust-lang/rust/issues/90829)
-* [disposition: merge] [Stabilize const_fn_fn_ptr_basics, const_fn_trait_bound, and const_impl_trait](https://github.com/rust-lang/rust/pull/93827)
-* [disposition: merge] [Tracking Issue for const_intrinsic_copy](https://github.com/rust-lang/rust/issues/80697)
-* [disposition: merge] [Implement `Write for Cursor<[u8; N]>`, plus `A: Allocator` cursor support](https://github.com/rust-lang/rust/pull/92663)
+* [disposition: merge] [Consistently present absent stdio handles on Windows as NULL handles.](https://github.com/rust-lang/rust/pull/93263)
+* [disposition: merge] [Stabilize ADX target feature](https://github.com/rust-lang/rust/pull/93745)
+* [disposition: merge] [proc-macro: Stop wrapping ident matchers into groups](https://github.com/rust-lang/rust/pull/92472)
+* [disposition: merge] [Tracking Issue for RFC #2972: Constrained Naked Functions](https://github.com/rust-lang/rust/issues/90957)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* *No new or updated RFCs were submitted this week.*
+* [new] [Edition Based Method Disambiguation: Preventing inference ambiguity breakages with extension trait methods](https://github.com/rust-lang/rfcs/pull/3240)
+* [update RFC #2991] [RFC: Add target configuration](https://github.com/rust-lang/rfcs/pull/3239)
 
 ## Upcoming Events
 
