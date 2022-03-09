@@ -76,6 +76,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [rust - Firefox crashes on Windows 7 x86 because BCryptGenRandom fails](https://github.com/rust-lang/rust/issues/94098)
+* [rust-clippy - invert check for `clippy::try_err` and disable it inside of try blocks](https://github.com/rust-lang/rust-clippy/issues/5757)
+* [ribzip2 - Write an interface compatible to the bzip2 crate](https://github.com/torfmaster/ribzip2/issues/18)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
