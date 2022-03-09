@@ -16,20 +16,40 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
+* [Rust Foundation](https://foundation.rust-lang.org/posts/2022-03-08-member-spotlight-1password/)
+* [Security advisory for the regex crate (CVE-2022-24713)](https://blog.rust-lang.org/2022/03/08/cve-2022-24713.html)
+
 ### Project/Tooling Updates
+
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W09](https://www.fornjot.app/blog/weekly-dev-log/2022-w09/)
 * [This week in Fluvio #24: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0024/)
+* [This Month in Rust OSDev: February 2022 | Rust OSDev](https://rust-osdev.com/this-month/2022-02/)
+* [IntelliJ Rust Changelog #166](https://intellij-rust.github.io/2022/03/09/changelog-166.html)
+* [Rust-Analyzer Changelog #119](https://rust-analyzer.github.io/thisweek/2022/03/07/changelog-119.html)
+* [DE] [WebAssembly-Runtime: Wasmer 2.2 liefert mehr Leistung im Singlepass Compiler](https://www.heise.de/news/WebAssembly-Runtime-Wasmer-2-2-liefert-mehr-Leistung-im-Singlepass-Compiler-6533165.html)
 
 ### Research
 
 ### Observations/Thoughts
 
+* [Safe Pin projections through view types](https://blog.yoshuawuyts.com/safe-pin-projections-through-view-types/)
+* [Improving Criterion.rs](https://www.tweag.io/blog/2022-03-03-criterion-rs/)
+* [Request coalescing in async Rust](https://fasterthanli.me/articles/request-coalescing-in-async-rust)
+* [Hyper’s Vision](https://seanmonstar.com/post/678179333918097408/hypers-vision)
+* [Introduction - Effective Rust](https://www.lurklurk.org/effective-rust/)
+
 ### Rust Walkthroughs
 
 * [Functional Programming in Rust](https://kerkour.com/rust-functional-programming)
 * [Fuzzing unsafe code in a Rust crate](https://medium.com/@adetaylor/fuzzing-unsafe-code-in-a-rust-crate-dcf3ec04d79a)
+* [Mint tokens on Solana using the Rust SDK](https://kristohb.medium.com/mint-tokens-on-solana-using-the-rust-sdk-3b05b07ca842)
+* [Implementing a size-bounded LRU cache with expiring entries for my DNS server (in Rust)](https://memo.barrucadu.co.uk/dns-cache.html)
 
 ### Miscellaneous
+
+* [audio] [What's New in Rust 1.58 and 1.59 :: Rustacean Station](https://rustacean-station.org/episode/058-rust-1.58-1.59/)
+* [audio] [Tor with Nick Mathewson :: Rustacean Station](https://rustacean-station.org/episode/057-nick-mathewson/)
+* [video] [Implementing and Optimizing a Wordle Solver in Rust](https://www.youtube.com/watch?v=doFowk4xj7Q)
 
 ## Crate of the Week
 
