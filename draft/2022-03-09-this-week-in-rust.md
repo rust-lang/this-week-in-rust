@@ -125,21 +125,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-A relatively noisy week in performance measurements, particularly on the
-`externs` incremental benchmark. Based on the timing of the first noise, this
-seems to be due to [#93839], which makes me suspect this is related to PGO or
-inlining decisions of some kind. [#94373] might help.
+A pretty smooth week. All three regressions were small, and two were isolated to rustdoc alone.
 
-Overall a relatively unchanged to slightly good week, with no outright regressions and most
-changes relatively small.
+Triage done by **@pnkfelix**.
+Revision range: [f0c4da49..10dccdc7](https://perf.rust-lang.org/?start=f0c4da49983aa699f715caf681e3154b445fb60b&end=10dccdc7fcbdc64ee9efe2c1ed975ab8c1d61287&absolute=false&stat=instructions%3Au)
 
-[#93839]: https://github.com/rust-lang/rust/pull/93839
-[#94373]: https://github.com/rust-lang/rust/pull/94373
+3 Regressions, 3 Improvements, 1 Mixed; 2 of them in rollups
+53 comparisons made in total
 
-Triage done by **@simulacrum**.
-Revision range: [1204400a..f0c4da4](https://perf.rust-lang.org/?start=1204400ab8da9830f6f77a5e40e7ad3ea459676a&end=f0c4da49983aa699f715caf681e3154b445fb60b&absolute=false&stat=instructions%3Au)
-
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-03-01.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-03-09.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
