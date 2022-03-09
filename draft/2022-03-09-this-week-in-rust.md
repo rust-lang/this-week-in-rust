@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Functional Programming in Rust](https://kerkour.com/rust-functional-programming)
 * [Fuzzing unsafe code in a Rust crate](https://medium.com/@adetaylor/fuzzing-unsafe-code-in-a-rust-crate-dcf3ec04d79a)
 
 ### Miscellaneous
