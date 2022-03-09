@@ -30,8 +30,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This Month in Rust OSDev: February 2022 | Rust OSDev](https://rust-osdev.com/this-month/2022-02/)
 * [IntelliJ Rust Changelog #166](https://intellij-rust.github.io/2022/03/09/changelog-166.html)
 * [Rust-Analyzer Changelog #119](https://rust-analyzer.github.io/thisweek/2022/03/07/changelog-119.html)
-* [DE] [WebAssembly-Runtime: Wasmer 2.2 liefert mehr Leistung im Singlepass Compiler](https://www.heise.de/news/WebAssembly-Runtime-Wasmer-2-2-liefert-mehr-Leistung-im-Singlepass-Compiler-6533165.html)
 * [This week in Databend #32: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-03-09-databend-weekly/)
+* [DE] [WebAssembly-Runtime: Wasmer 2.2 liefert mehr Leistung im Singlepass Compiler](https://www.heise.de/news/WebAssembly-Runtime-Wasmer-2-2-liefert-mehr-Leistung-im-Singlepass-Compiler-6533165.html)
 
 ### Observations/Thoughts
 
@@ -274,7 +274,7 @@ Email the [Rust Community Team][community] for access.
 **Stockly**
 
 * [Back-end developer - TechOps (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-rust-grpc-postgresql_paris)
-* [Back-end developer - Engine (Rust, gRPC, PostgreSQL)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
+* [Back-end developer - Engine (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
 
 **Kraken**
 
