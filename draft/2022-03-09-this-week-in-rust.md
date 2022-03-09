@@ -212,8 +212,8 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 **Matician**
-* [Robotics Systems engineering FT - Rust](https://jobs.lever.co/matician/3d2a49ae-43c9-41c0-b9e8-7b87e7429b8f)
-* [Robotics Systems engineering intern - Rust](https://jobs.lever.co/matician/3d2a49ae-43c9-41c0-b9e8-7b87e7429b8f)
+* [Robotics Systems Engineer FT - Rust](https://jobs.lever.co/matician/3d2a49ae-43c9-41c0-b9e8-7b87e7429b8f)
+* [Robotics Systems Engineer intern - Rust](https://jobs.lever.co/matician/3d2a49ae-43c9-41c0-b9e8-7b87e7429b8f)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
