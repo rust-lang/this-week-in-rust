@@ -19,6 +19,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust Foundation](https://foundation.rust-lang.org/posts/2022-03-08-member-spotlight-1password/)
 * [Security advisory for the regex crate (CVE-2022-24713)](https://blog.rust-lang.org/2022/03/08/cve-2022-24713.html)
 
+### Newsletters
+
+*  [Rust Nigeria Community Newsletter](https://rustnigeria.curated.co/issues/3#start)
+
 ### Project/Tooling Updates
 
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W09](https://www.fornjot.app/blog/weekly-dev-log/2022-w09/)
@@ -243,7 +247,15 @@ Email the [Rust Community Team][community] for access.
 
 * [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
 
-** Quickwit **
+**Komodo**
+
+* [Software Developer interested in learning Rust (Remote)](https://utxo-ltd.breezy.hr/p/c374829c873c01-rust-developer-blockchain)
+
+**Estuary**
+
+* [Backend Engineer (New York, NY, Columbus, OH, or Remote)](https://www.estuary.dev/about/#backend)
+
+**Quickwit**
 
 * [Senior Software Engineer, Rust & distributed systems - Rust (Remote)](https://quickwit.io/jobs/distributed-software-engineer)
 * [Software search engineering intern - Rust (Remote)](https://quickwit.io/jobs/oss-software-search-engineering-intern)
@@ -252,6 +264,17 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
 * [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
+
+**Stockly**
+
+* [Back-end developer - TechOps (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-rust-grpc-postgresql_paris)
+* [Back-end developer - Engine (Rust, gRPC, PostgreSQL)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
+
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
