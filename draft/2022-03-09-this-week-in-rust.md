@@ -146,34 +146,14 @@ decision. Express your opinions now.
 
 ## Upcoming Events
 
-Rusty Events between 2022-03-02 - 2022-03-30 🦀
+Rusty Events between 2022-03-09 - 2022-04-06 🦀
 
 ### Virtual
 
-* 2022-03-02 | Berlin, DE | [OpenTechSchool Berlin](https://www.meetup.com/de-DE/opentechschool-berlin)
-    * [**Rust Hack and Learn**](https://www.meetup.com/de-DE/opentechschool-berlin/events/283633083/)
-* 2022-03-02 | Indianapolis, IN, US | [Indy Rust](https://www.meetup.com/indyrs)
-    * [**Zach Mitchell - Optimizing a Physics Simulation from 8 hours to 10 minutes**](https://www.meetup.com/indyrs/events/283899260)
-* 2022-03-02 | Vienna, AT | [Mob-Programming on Open Source Software](https://www.meetup.com/Mob-Programming-on-Open-Source-Software)
-    * [**The Rustic Mob**](https://www.meetup.com/Mob-Programming-on-Open-Source-Software/events/284228300)
-* 2022-03-03 | Cardiff, UK | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
-    * [**Rust Book Study Session - Object Oriented Programming & Patterns and Matching**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/284196124/)
-* 2022-03-03 | Würzburg, DE | [Rust Würzburg Meetup Group](https://www.meetup.com/rust-wurzburg-meetup-group/)
-    * [**Guest Speaker | Herbert Wolverson | Rust gamedev in 2022**](https://www.meetup.com/rust-wurzburg-meetup-group/events/283765814)
-* 2022-03-03 | [Scylla](https://www.scylladb.com/)
-    * [**Build Low-Latency Applications in Rust on ScyllaDB**](https://lp.scylladb.com/rust-virtual-workshop-registration.html)
-* 2022-03-07 | Valence, FR | [Ardèch’Drôm Dev](https://www.meetup.com/Ardech-Drom-Dev/)
-    * [**Coding-dojo - Rust**](https://www.meetup.com/Ardech-Drom-Dev/events/283624590)
-* 2022-03-08 | Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
-    * [**Second Tuesday**](https://www.meetup.com/Dallas-Rust/events/284064891/)
-* 2022-03-08 | Rostock, DE | [Altow Academy](https://www.meetup.com/altow-academy/)
-    * [**5. Rust Meetup Rostock**](https://www.meetup.com/altow-academy/events/283819113)
-* 2022-03-08 | Saarbrücken, DE | [Rust-Saar](https://www.meetup.com/Rust-Saar/)
-    * [**Meetup: 19u16**](https://www.meetup.com/Rust-Saar/events/284154283)
-* 2022-03-08 | Seattle, WA, US | [Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/)
-    * [**Monthly meetup**](https://www.meetup.com/Seattle-Rust-Meetup/events/283221922/)
 * 2022-03-09 | Boulder, CO, US | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
     * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/283985719/)
+* 2022-03-09 | Egg Harbor City, NJ, US | [Neighborhood Math Club](https://www.meetup.com/neighborhood-math-club/)
+    * [**The Early Rustacean Gets The Worm!**](https://www.meetup.com/neighborhood-math-club/events/284379686/)
 * 2022-03-09 | München, DE | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich Remote(?) #10**](https://www.meetup.com/rust-munich/events/283790509/)
 * 2022-03-09 | Selangor, MY | [Rust Malaysia](https://t.me/golangmalaysia)
@@ -186,20 +166,34 @@ Rusty Events between 2022-03-02 - 2022-03-30 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/de-DE/opentechschool-berlin/events/284205132/)
 * 2022-03-15 | Dublin, IE | [Rust Dublin](https://www.meetup.com/Rust-Dublin/)
     * [**Rust Dublin March Meetup**](https://www.meetup.com/Rust-Dublin/events/283613905)
+* 2022-03-15 | Rome, IT | [Rust-Roma](https://www.meetup.com/Rust-Roma/)
+    * [**Packaging and deploying a rust application with cargo-deb #Aperitech**](https://www.meetup.com/Rust-Roma/events/284425486/)
 * 2022-03-15 | Washington, DC, US | [Rust DC](https://www.meetup.com/RustDC/)
-    * [**Mid-month Rustful**](https://www.meetup.com/RustDC/events/283374540/)
+    * [**Rust and Tell Lightning Talks! ⚡🦀**](https://www.meetup.com/RustDC/events/283374540/)
+* 2022-03-16 | Egg Harbor City, NJ, US | [Neighborhood Math Club](https://www.meetup.com/neighborhood-math-club/)
+    * [**The Early Rustacean Gets The Worm!**](https://www.meetup.com/neighborhood-math-club/events/284221983/)
+* 2022-03-16 | Seattle, WA, US | [Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/)
+    * [**Monthly meetup**](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrydcfblb/)
 * 2022-03-16 | Vancouver, BC, CA | [Vancouver Rust](https://www.meetup.com/Vancouver-Rust/)
-    * [**Rust Study/Hack/Hang-out Night**](https://www.meetup.com/Vancouver-Rust/events/283910183/)
+    * [**Building a Randomizer**](https://www.meetup.com/Vancouver-Rust/events/283910183/)
+* 2022-03-23 | Egg Harbor City, NJ, US | [Neighborhood Math Club](https://www.meetup.com/neighborhood-math-club/)
+    * [**The Early Rustacean Gets The Worm!**](https://www.meetup.com/neighborhood-math-club/events/284379020/)
+* 2022-04-05 | Buffalo, NY, US | [Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/)
+    * [**Buffalo Rust User Group, First Tuesdays**](https://www.meetup.com/Buffalo-Rust-Meetup/events/284342808/)
+* 2022-04-06 | Indianapolis, IN, US | [Indy Rust](https://www.meetup.com/indyrs/)
+    * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/284244527/)
 
 ### Europe
 
+* 2022-03-13 | Kyiv, UA | [Вивчаємо Rust Разом / Learn Rust Together](https://t.me/learn_rust_together_ukr)
+    *[**Ukrainian Rusty Dinner**](https://t.me/learn_rust_together_ukr)
 * 2022-03-15 | Sofia, BG | [Rust Meetup Sofia](https://www.meetup.com/rust-meetup-sofia/)
     * [**Rust Meetup Sofia - 1st Edition**](https://www.meetup.com/rust-meetup-sofia/events/284141594)
 
 ### North America
 
 * 2022-03-14 | Atlanta, GA, US | [Atlanta Rustaceans](https://twitter.com/atl_rustaceans/)
-    * [**_New_ Atlanta Rust Meetup**](https://twitter.com/atl_rustaceans/status/148958647136758989)
+    * [**_New_ Atlanta Rust Meetup**](https://twitter.com/atl_rustaceans/status/148958647136758989) 
 * 2022-03-15 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/284215958/)
 
@@ -215,6 +209,20 @@ Email the [Rust Community Team][community] for access.
 **Meilisearch**
 
 * [Core team engineering intern - Rust (Remote)](https://jobs.lever.co/meili/ac1c352e-dd88-4fd0-ad9f-0c0978a84727)
+
+**LoanPASS**
+
+* [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
+
+** Quickwit **
+
+* [Senior Software Engineer, Rust & distributed systems - Rust (Remote)](https://quickwit.io/jobs/distributed-software-engineer)
+* [Software search engineering intern - Rust (Remote)](https://quickwit.io/jobs/oss-software-search-engineering-intern)
+
+**Kollider**
+
+* [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
+* [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
