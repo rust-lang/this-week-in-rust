@@ -30,10 +30,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Research
 
-* [Safe Pin projections through view types](https://blog.yoshuawuyts.com/safe-pin-projections-through-view-types/)
-
 ### Observations/Thoughts
 
+* [Safe Pin projections through view types](https://blog.yoshuawuyts.com/safe-pin-projections-through-view-types/)
 * [Improving Criterion.rs](https://www.tweag.io/blog/2022-03-03-criterion-rs/)
 * [Request coalescing in async Rust](https://fasterthanli.me/articles/request-coalescing-in-async-rust)
 * [Hyper’s Vision](https://seanmonstar.com/post/678179333918097408/hypers-vision)
