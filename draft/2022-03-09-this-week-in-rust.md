@@ -28,6 +28,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Functional Programming in Rust](https://kerkour.com/rust-functional-programming)
 * [Fuzzing unsafe code in a Rust crate](https://medium.com/@adetaylor/fuzzing-unsafe-code-in-a-rust-crate-dcf3ec04d79a)
+* [series] [video] [Writing a Programming Language (in Rust) 20: Laurel: Porting a bash script to Laurel](https://www.youtube.com/watch?v=SGy2icp8aTI)
+* [series] [video] [Writing a Programming Language (in Rust) 21: Laurel: Type methods](https://www.youtube.com/watch?v=NayWr7B3aQc)
 
 ### Miscellaneous
 
