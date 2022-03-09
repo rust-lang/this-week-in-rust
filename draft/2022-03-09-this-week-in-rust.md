@@ -18,6 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W09](https://www.fornjot.app/blog/weekly-dev-log/2022-w09/)
+* [This week in Fluvio #24: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0024/)
 
 ### Research
 
