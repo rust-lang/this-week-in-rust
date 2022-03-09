@@ -206,6 +206,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Meilisearch**
+
+* [Core team engineering intern - Rust (Remote)](https://jobs.lever.co/meili/ac1c352e-dd88-4fd0-ad9f-0c0978a84727)
+
 **LoanPASS**
 
 * [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
