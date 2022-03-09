@@ -255,6 +255,10 @@ Email the [Rust Community Team][community] for access.
 
 * [Backend Engineer (New York, NY, Columbus, OH, or Remote)](https://www.estuary.dev/about/#backend)
 
+**Matician**
+
+* [Robotics Systems Engineer - FT or intern roles available (Palo Alto, CA, US)](https://jobs.lever.co/matician/3d2a49ae-43c9-41c0-b9e8-7b87e7429b8f)
+
 **Quickwit**
 
 * [Senior Software Engineer, Rust & distributed systems - Rust (Remote)](https://quickwit.io/jobs/distributed-software-engineer)
