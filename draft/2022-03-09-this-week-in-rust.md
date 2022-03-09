@@ -44,6 +44,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Fuzzing unsafe code in a Rust crate](https://medium.com/@adetaylor/fuzzing-unsafe-code-in-a-rust-crate-dcf3ec04d79a)
 * [Mint tokens on Solana using the Rust SDK](https://kristohb.medium.com/mint-tokens-on-solana-using-the-rust-sdk-3b05b07ca842)
 * [Implementing a size-bounded LRU cache with expiring entries for my DNS server (in Rust)](https://memo.barrucadu.co.uk/dns-cache.html)
+* [series] [video] [Writing a Programming Language (in Rust) 20: Laurel: Porting a bash script to Laurel](https://www.youtube.com/watch?v=SGy2icp8aTI)
+* [series] [video] [Writing a Programming Language (in Rust) 21: Laurel: Type methods](https://www.youtube.com/watch?v=NayWr7B3aQc)
 
 ### Miscellaneous
 
