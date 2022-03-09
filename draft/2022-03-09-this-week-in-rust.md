@@ -33,8 +33,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [DE] [WebAssembly-Runtime: Wasmer 2.2 liefert mehr Leistung im Singlepass Compiler](https://www.heise.de/news/WebAssembly-Runtime-Wasmer-2-2-liefert-mehr-Leistung-im-Singlepass-Compiler-6533165.html)
 * [This week in Databend #32: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-03-09-databend-weekly/)
 
-### Research
-
 ### Observations/Thoughts
 
 * [Safe Pin projections through view types](https://blog.yoshuawuyts.com/safe-pin-projections-through-view-types/)
