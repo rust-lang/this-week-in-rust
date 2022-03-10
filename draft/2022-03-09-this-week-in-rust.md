@@ -19,6 +19,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust Foundation](https://foundation.rust-lang.org/posts/2022-03-08-member-spotlight-1password/)
 * [Security advisory for the regex crate (CVE-2022-24713)](https://blog.rust-lang.org/2022/03/08/cve-2022-24713.html)
 
+### Newsletters
+
+*  [Rust Nigeria Community Newsletter](https://rustnigeria.curated.co/issues/3#start)
+
 ### Project/Tooling Updates
 
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W09](https://www.fornjot.app/blog/weekly-dev-log/2022-w09/)
@@ -28,8 +32,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust-Analyzer Changelog #119](https://rust-analyzer.github.io/thisweek/2022/03/07/changelog-119.html)
 * [DE] [WebAssembly-Runtime: Wasmer 2.2 liefert mehr Leistung im Singlepass Compiler](https://www.heise.de/news/WebAssembly-Runtime-Wasmer-2-2-liefert-mehr-Leistung-im-Singlepass-Compiler-6533165.html)
 * [This week in Databend #32: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-03-09-databend-weekly/)
-
-### Research
 
 ### Observations/Thoughts
 
@@ -71,6 +73,10 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [rust - Firefox crashes on Windows 7 x86 because BCryptGenRandom fails](https://github.com/rust-lang/rust/issues/94098)
+* [rust-clippy - invert check for `clippy::try_err` and disable it inside of try blocks](https://github.com/rust-lang/rust-clippy/issues/5757)
+* [ribzip2 - Write an interface compatible to the bzip2 crate](https://github.com/torfmaster/ribzip2/issues/18)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -243,7 +249,19 @@ Email the [Rust Community Team][community] for access.
 
 * [Full Stack Engineer, Rust + Typescript (Remote US)](https://loanpass.io/careerPage.html)
 
-** Quickwit **
+**Komodo**
+
+* [Software Developer interested in learning Rust (Remote)](https://utxo-ltd.breezy.hr/p/c374829c873c01-rust-developer-blockchain)
+
+**Estuary**
+
+* [Backend Engineer (New York, NY, Columbus, OH, or Remote)](https://www.estuary.dev/about/#backend)
+
+**Matician**
+
+* [Robotics Systems Engineer - FT or intern roles available (Palo Alto, CA, US)](https://jobs.lever.co/matician/3d2a49ae-43c9-41c0-b9e8-7b87e7429b8f)
+
+**Quickwit**
 
 * [Senior Software Engineer, Rust & distributed systems - Rust (Remote)](https://quickwit.io/jobs/distributed-software-engineer)
 * [Software search engineering intern - Rust (Remote)](https://quickwit.io/jobs/oss-software-search-engineering-intern)
@@ -252,6 +270,17 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
 * [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
+
+**Stockly**
+
+* [Back-end developer - TechOps (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-rust-grpc-postgresql_paris)
+* [Back-end developer - Engine (Rust, gRPC, PostgreSQL)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
+
+**Kraken**
+
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/2863623f-13c9-4f50-992d-7c25736a60f9)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
