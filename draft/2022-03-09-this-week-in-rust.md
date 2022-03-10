@@ -29,7 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
-* SAE International has created a task force to define rules and best practices for using Rust in safety critical environments, especially in automotive. If you would like to contribute please register at [SAfEr Rust TF](https://connection.sae.org/volunteeropportunities/volunteer-opportunity-details?VolunteerOpportunityKey=057a92a9-c6b8-4405-ae81-e293136a9284) (nomination requires an account)
+* [SAE seeking volunteers for SAfEr Rust Task Force](https://connection.sae.org/volunteeropportunities/volunteer-opportunity-details?VolunteerOpportunityKey=057a92a9-c6b8-4405-ae81-e293136a9284)
 
 ## Crate of the Week
 
