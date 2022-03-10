@@ -49,6 +49,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [SAE seeking volunteers for SAfEr Rust Task Force](https://connection.sae.org/volunteeropportunities/volunteer-opportunity-details?VolunteerOpportunityKey=057a92a9-c6b8-4405-ae81-e293136a9284)
 * [audio] [What's New in Rust 1.58 and 1.59 :: Rustacean Station](https://rustacean-station.org/episode/058-rust-1.58-1.59/)
 * [audio] [Tor with Nick Mathewson :: Rustacean Station](https://rustacean-station.org/episode/057-nick-mathewson/)
 * [video] [Implementing and Optimizing a Wordle Solver in Rust](https://www.youtube.com/watch?v=doFowk4xj7Q)
