@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [IntelliJ Rust Changelog #166](https://intellij-rust.github.io/2022/03/09/changelog-166.html)
 * [Rust-Analyzer Changelog #119](https://rust-analyzer.github.io/thisweek/2022/03/07/changelog-119.html)
 * [DE] [WebAssembly-Runtime: Wasmer 2.2 liefert mehr Leistung im Singlepass Compiler](https://www.heise.de/news/WebAssembly-Runtime-Wasmer-2-2-liefert-mehr-Leistung-im-Singlepass-Compiler-6533165.html)
+* [This week in Databend #32: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-03-09-databend-weekly/)
 
 ### Research
 
