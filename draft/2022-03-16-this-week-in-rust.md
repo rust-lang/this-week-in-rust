@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Rust WebAssembly OCR experiments](https://hugopeixoto.net/articles/rust-wasm-ocr-experiments.html)
+
 ### Miscellaneous
 
 * [audio] [Devtools podcast: building a new terminal in Rust](https://console.dev/podcast/s02e10-terminal-tools-michell-lim-zach-lloyd-warp/)
