@@ -175,7 +175,7 @@ Rusty Events between 2022-03-09 - 2022-04-06 🦀
     * [**Buffalo Rust User Group, First Tuesdays**](https://www.meetup.com/Buffalo-Rust-Meetup/events/284342808/)
 * 2022-04-06 | Indianapolis, IN, US | [Indy Rust](https://www.meetup.com/indyrs/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/284244527/)
-* 2022-04-14 | Nürnberg, DE | [Rust Nuremberg](https://www.meetup.com/de-DE/rust-noris/)
+* 2022-04-07 | Nürnberg, DE | [Rust Nuremberg](https://www.meetup.com/de-DE/rust-noris/)
   * [**Rust Nürnberg online #12**](https://www.meetup.com/de-DE/rust-noris/events/zgfnssydcgbsb/)
 
 ### Europe
