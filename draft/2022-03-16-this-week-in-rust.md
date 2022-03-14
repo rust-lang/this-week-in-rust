@@ -199,6 +199,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Juspay**
+
+* [Freelance Rust Developer (Remote)](https://www.upwork.com/jobs/~0106e33943207a0fc6)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
