@@ -28,9 +28,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [cfb](https://crates.io/crates/cfb), a crate to read/write Compound File Binary (structured storage) files.
+This week's crate is [noline](https://crates.io/crates/noline), a small no-std compatible readline-like line editor.
 
-Thanks to [Sebastian Urban](https://users.rust-lang.org/t/crate-of-the-week/2704/1034) for the suggestion!
+A lack of suggestions notwithstanding, llogiq is pretty pleased with his choice.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -49,52 +49,41 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-343 pull requests were [merged in the last week][merged]
+302 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-02-28..2022-03-07
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-03-07..2022-03-14
 
-* [implement thread local cell methods](https://github.com/rust-lang/rust/pull/92123) (RFC [#3184](https://rust-lang.github.io/rfcs/3184-thread-local-cell-methods.html))
-* [implement the `expect` attribute](https://github.com/rust-lang/rust/pull/87835) (RFC [#2383](https://rust-lang.github.io/rfcs/2383-lint-reasons.html))
-* [`Adt` copy suggestions](https://github.com/rust-lang/rust/pull/94375)
-* [do not point at whole file missing `fn main`](https://github.com/rust-lang/rust/pull/93142)
-* [downgrade `#[test]` on macro call to warning](https://github.com/rust-lang/rust/pull/94624)
-* [generalize "remove `&`"  and "add `*`" suggestions to more than one deref](https://github.com/rust-lang/rust/pull/91545)
-* [lint against more useless `#[must_use]` attributes](https://github.com/rust-lang/rust/pull/93926)
-* [improve `unexpected_cfgs` lint when their is no value expected](https://github.com/rust-lang/rust/pull/94561)
-* [improve allowness of the `unexpected_cfgs` lint](https://github.com/rust-lang/rust/pull/94433)
-* [improve error message for failed bitcode load](https://github.com/rust-lang/rust/pull/94672)
-* [suggest adding a new lifetime parameter when two elided lifetimes should match up for traits and impls](https://github.com/rust-lang/rust/pull/94464)
-* [suggest removing a semicolon after derive attributes](https://github.com/rust-lang/rust/pull/94633)
-* [caching the stable hash of Ty within itself](https://github.com/rust-lang/rust/pull/94299)
-* [clarify `Layout` interning](https://github.com/rust-lang/rust/pull/94690)
-* [introduce `ConstAllocation`](https://github.com/rust-lang/rust/pull/94597)
-* [chalk: recursive: fix hang on fulfill by slightly smarter check for progress](https://github.com/rust-lang/chalk/pull/752)
-* [miri: make sure we notice when a u16 is loaded at offset 1 into a u8 allocation](https://github.com/rust-lang/miri/pull/1994)
-* [miri: add more simd_reduce intrinsics](https://github.com/rust-lang/miri/pull/2001)
-* [miri: adjust for div/rem overflow being UB](https://github.com/rust-lang/miri/pull/1992)
-* [miri: also test f32/f64 simd_reduce](https://github.com/rust-lang/miri/pull/2003)
-* [miri: implement missing SIMD comparison operators, simd_xor, and simd_reduce_all](https://github.com/rust-lang/miri/pull/2000)
-* [miri: implement more SIMD intrinsics](https://github.com/rust-lang/miri/pull/2004)
-* [miri: implement simd_neg and simd_fabs](https://github.com/rust-lang/miri/pull/1997)
-* [miri: implement simd_saturating intrinsics](https://github.com/rust-lang/miri/pull/2007)
-* [stabilize `const_fn_fn_ptr_basics`, `const_fn_trait_bound`, and `const_impl_trait`](https://github.com/rust-lang/rust/pull/93827)
-* [add `#[track_caller]` to track callers when initializing poisoned `Once`](https://github.com/rust-lang/rust/pull/94236)
-* [add `Atomic*::from_mut_slice`](https://github.com/rust-lang/rust/pull/94384)
-* [portable SIMD: add bitmask i{N <8} -> u8 impls](https://github.com/rust-lang/portable-simd/pull/250)
-* [futures: `Shared`: fix false detection of inner panics](https://github.com/rust-lang/futures-rs/pull/2576)
-* [support GATs in Rustdoc](https://github.com/rust-lang/rust/pull/94009)
-* [rustfmt: fix missing struct field separators under certain conditions](https://github.com/rust-lang/rustfmt/pull/5159)
-* [rustfmt: prevent wrapping markdown headers in doc comments](https://github.com/rust-lang/rustfmt/pull/5242)
-* [rustfmt: fallback to dir_path when relative external mod resolution fails](https://github.com/rust-lang/rustfmt/pull/5205)
-* [clippy: add `unnecessary-find-map` lint](https://github.com/rust-lang/rust-clippy/pull/8489)
-* [clippy: add lint to detect `allow` attributes without reason](https://github.com/rust-lang/rust-clippy/pull/8504)
-* [clippy: lint for casting between raw slice pointers with different element sizes](https://github.com/rust-lang/rust-clippy/pull/8445)
-* [clippy: new lint: `missing-spin-loop`](https://github.com/rust-lang/rust-clippy/pull/8174)
-* [clippy: use `.into_iter()` rather than `.drain(..)`](https://github.com/rust-lang/rust-clippy/pull/8483)
-* [clippy: check `use_self` in `pat`](https://github.com/rust-lang/rust-clippy/pull/8456)
-* [clippy: omit `dbg-macro` in test code](https://github.com/rust-lang/rust-clippy/pull/8500)
-* [clippy: optimize `redundant-clone`](https://github.com/rust-lang/rust-clippy/pull/8414)
-* [clippy: `transmute-undefined-repr` to nursery again](https://github.com/rust-lang/rust-clippy/pull/8432)
+* [diagnostics: do not spuriously claim something is "not an iterator"](https://github.com/rust-lang/rust/pull/94870)
+* [diagnostics: single colon within `<>` probably, not type ascription](https://github.com/rust-lang/rust/pull/94865)
+* [improve suggestion when casting `usize` to (possibly) wide pointer](https://github.com/rust-lang/rust/pull/92150)
+* [warn users about `||` in `let` chain expressions](https://github.com/rust-lang/rust/pull/94754)
+* [suggest `if let`/`let_else` for refutable pat in `let`](https://github.com/rust-lang/rust/pull/94739)
+* [suggest using double colon when a struct field type include single colon](https://github.com/rust-lang/rust/pull/94839)
+* [miri: implement `simd_`{`shuffle`, `gather`, `scatter`}](https://github.com/rust-lang/miri/pull/2013)
+* [CTFE/Miri: detect out-of-bounds pointers in `offset_from`](https://github.com/rust-lang/rust/pull/94827)
+* [change several `HashMap`s to `IndexMap` to improve incremental hashing performance](https://github.com/rust-lang/rust/pull/90253)
+* [improve `AdtDef` interning](https://github.com/rust-lang/rust/pull/94733)
+* [optimize `ascii::escape_default`](https://github.com/rust-lang/rust/pull/94776)
+* [make some `Clone` impls `const`](https://github.com/rust-lang/rust/pull/91804)
+* [remove argument from closure in `thread::Scope::spawn`](https://github.com/rust-lang/rust/pull/94559)
+* [use `MaybeUninit` in `VecDeque` to remove the undefined behavior of slice](https://github.com/rust-lang/rust/pull/94472)
+* [constify `Index`{,`Mut`} for `[T]`, `str`, and `[T; N]`](https://github.com/rust-lang/rust/pull/94657)
+* [fix soundness issue in scoped threads](https://github.com/rust-lang/rust/pull/94644)
+* [implement `BITS` constant for non-zero integers](https://github.com/rust-lang/rust/pull/93292)
+* [implement `MIN`/`MAX` constants for non-zero integers](https://github.com/rust-lang/rust/pull/93293)
+* [add `Result::`{`ok`, `err`, `and`, `or`, `unwrap_or`} as `const`](https://github.com/rust-lang/rust/pull/92385)
+* [add `Atomic`*`::get_mut_slice`](https://github.com/rust-lang/rust/pull/94816)
+* [add `core::hint::must_use`](https://github.com/rust-lang/rust/pull/94723)
+* [unix: reduce the size of `DirEntry`](https://github.com/rust-lang/rust/pull/94750)
+* [portable-simd: add `.min` and `.max` for integers](https://github.com/rust-lang/portable-simd/pull/260)
+* [compiler-builtins: add support for Apple watchOS](https://github.com/rust-lang/compiler-builtins/pull/456)
+* [futures: add `Mutex::lock_owned` and `Mutex::try_lock_owned`](https://github.com/rust-lang/futures-rs/pull/2571)
+* [rustfmt: improve mod resolution error for mods with multiple candidate files](https://github.com/rust-lang/rustfmt/pull/5243)
+* [clippy: improve styles of filtering options for Clippy's lint list](https://github.com/rust-lang/rust-clippy/pull/8070)
+* [clippy: new lint that detects useless match expression](https://github.com/rust-lang/rust-clippy/pull/8471)
+* [clippy: new lint: `only_used_in_recursion`](https://github.com/rust-lang/rust-clippy/pull/8422)
+* [clippy: allow `single_component_path_imports` for all macros](https://github.com/rust-lang/rust-clippy/pull/8537)
+* [clippy: make `search_is_some`s suggestion `MachineApplicable`](https://github.com/rust-lang/rust-clippy/pull/8536)
 
 ### Rust Compiler Performance Triage
 
@@ -203,13 +192,25 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Because it is designed not to own. If you need an owning pointer, use Box.
+> protip: the rust extern keyword has a --help flag
 >
-> This is like asking "why there is no chocolate mousse in this burger?". Chocolate mousse is delicious, but it does not belong in a burger. If you want chocolate mousse, then that's fine and you can choose to eat it instead of a burger. But at other times you may want a burger instead.
+> ```text
+> error[E0703]: invalid ABI: found `--help`
+>  --> ext.rs:1:8
+>   |
+> 1 | extern "--help" {}  fn main() {}
+>   |        ^^^^^^^^ invalid ABI
+>   |
+>   = help: valid ABIs: Rust, C, C-unwind, cdecl, stdcall, stdcall-unwind, fastcall, vectorcall, thiscall, thiscall-unwind, aapcs, win64, sysv64, ptx-kernel, msp430-interrupt, x86-interrupt, amdgpu-kernel, efiapi, avr-interrupt, avr-non-blocking-interrupt, C-cmse-nonsecure-call, wasm, system, system-unwind, rust-intrinsic, rust-call, platform-intrinsic, unadjusted
+>
+> error: aborting due to previous error
+>
+> For more information about this error, try `rustc --explain E0703`.
+> ```
 
-– [H2CO3 answering why raw pointers don't own on rust-users](https://users.rust-lang.org/t/why-raw-pointer-doesnt-own-type-parameter-t-for-dropcheck/72408)
+– [Aria the Cat (with some help from rustc) on twitter](https://twitter.com/Gankra_/status/1501307407292641280)
 
-Thanks to [Deep Majumder](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1186) for the suggestion!
+Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1188) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
