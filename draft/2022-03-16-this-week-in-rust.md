@@ -25,7 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
-* [Rust-Analyzer Changelog #120](https://rust-analyzer.github.io//thisweek/2022/03/14/changelog-120.html)
+* [Rust-Analyzer Changelog #120](https://rust-analyzer.github.io/thisweek/2022/03/14/changelog-120.html)
 * [Tantivy 0.17 is out | Quickwit](https://quickwit.io/blog/tantivy-0.17/)
 * [Knurling-rs changelog #34](https://ferrous-systems.com/blog/knurling-changelog-34/)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W10](https://www.fornjot.app/blog/weekly-dev-log/2022-w10/)
@@ -50,7 +50,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [An In-Depth Introduction To Idempotency | A learning journal](https://www.lpalmieri.com/posts/idempotency/)
 * [A Rust Gem: The Rust Map API](https://www.thecodedmessage.com/posts/rust-map-entry)
-* [RPATH, or why lld doesn’t work on NixOS](https://matklad.github.io//2022/03/14/rpath-or-why-lld-doesnt-work-on-nixos.html)
+* [RPATH, or why lld doesn’t work on NixOS](https://matklad.github.io/2022/03/14/rpath-or-why-lld-doesnt-work-on-nixos.html)
 * [Rust WebAssembly OCR experiments](https://hugopeixoto.net/articles/rust-wasm-ocr-experiments.html)
 
 ### Miscellaneous
