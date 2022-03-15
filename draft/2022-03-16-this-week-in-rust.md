@@ -21,12 +21,17 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W10](https://www.fornjot.app/blog/weekly-dev-log/2022-w10/)
+- [Slint Version 0.2.1 released -- weekly update](https://slint-ui.com/thisweek/2022-03-14.html)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
 
+* [Rust WebAssembly OCR experiments](https://hugopeixoto.net/articles/rust-wasm-ocr-experiments.html)
+
 ### Miscellaneous
+
+* [audio] [Devtools podcast: building a new terminal in Rust](https://console.dev/podcast/s02e10-terminal-tools-michell-lim-zach-lloyd-warp/)
 
 ## Crate of the Week
 
