@@ -16,23 +16,48 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 
+* [Lang team March update](https://blog.rust-lang.org/inside-rust/2022/03/09/lang-team-mar-update.html)
+* [Rust Compiler March 2022 Steering Cycle](https://blog.rust-lang.org/inside-rust/2022/03/11/mar-steering-cycle.html)
+
 ### Newsletters
+
+* [This Month in Rust GameDev #31 - February 2022](https://gamedev.rs/news/031/)
 
 ### Project/Tooling Updates
 
+* [Rust-Analyzer Changelog #120](https://rust-analyzer.github.io/thisweek/2022/03/14/changelog-120.html)
+* [Tantivy 0.17 is out | Quickwit](https://quickwit.io/blog/tantivy-0.17/)
+* [Knurling-rs changelog #34](https://ferrous-systems.com/blog/knurling-changelog-34/)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W10](https://www.fornjot.app/blog/weekly-dev-log/2022-w10/)
 - [Slint Version 0.2.1 released -- weekly update](https://slint-ui.com/thisweek/2022-03-14.html)
+* [Arti 0.1.0 is released: Your somewhat-stable API is here!](https://blog.torproject.org/arti_010_released)
+* [Dioxus v0.2 Release: TUI, Router, Fermi, and Tooling](https://dioxuslabs.com/blog/release-020)
 
 ### Observations/Thoughts
 
+* [Introducing Rustler Precompiled - Dashbit Blog](https://dashbit.co/blog/rustler-precompiled)
+* [Announcing Savage, a computer algebra system written in Rust](https://www.reddit.com/r/rust/comments/tcxrs3/announcing_savage_a_computer_algebra_system/)
+* [Autosar Announces New Working Group For Programming Language Rust In Automotive Software Context](https://www.autosar.org/news-events/details/autosar-announces-new-working-group-for-programming-language-rust-in-automotive-software-context-202/)
+* [Oxide at Home: Propolis says Hello](https://artemis.sh/2022/03/14/propolis-oxide-at-home-pt1.html)
+* [Things I hate about Rust, redux](https://blog.yossarian.net/2022/03/10/Things-I-hate-about-Rust-redux)
+* [Async IO with completion-model IO systems](https://www.ncameron.org/blog/async-io-with-completion-model-io-systems/)
+
 * [Transcript: What's New in Rust 1.58 and 1.59](https://rustacean-station.org/transcript/058-rust-1.58-1.59/)
+* [video] [Rust Gamedev Meetup #14: March 2022](https://www.youtube.com/watch?v=dQPkyjbd36Y)
+* [video] [Rust fuzzing using cargo-libafl (LibAFL-based fuzzer) - Rust Security #4](https://www.youtube.com/watch?v=0gpGA80DA0s)
+* [audio] [Interview with Fish Fight | Rust Game Dev](https://rustgamedev.com/episodes/interview-with-fish-fight)
+* [audio] [PancakeDB with Martin Loncaric :: Rustacean Station](https://rustacean-station.org/episode/059-martin-loncaric/)
 
 ### Rust Walkthroughs
 
+* [An In-Depth Introduction To Idempotency | A learning journal](https://www.lpalmieri.com/posts/idempotency/)
+* [A Rust Gem: The Rust Map API](https://www.thecodedmessage.com/posts/rust-map-entry)
+* [RPATH, or why lld doesn’t work on NixOS](https://matklad.github.io/2022/03/14/rpath-or-why-lld-doesnt-work-on-nixos.html)
 * [Rust WebAssembly OCR experiments](https://hugopeixoto.net/articles/rust-wasm-ocr-experiments.html)
 
 ### Miscellaneous
 
+* [audio] [Nick Cameron on Juggling Open Source Work and Parenthood](https://anchor.fm/building-with-rust/episodes/Nick-Cameron-on-Juggling-Open-Source-Work-and-Parenthood-e1fhfc7)
 * [audio] [Devtools podcast: building a new terminal in Rust](https://console.dev/podcast/s02e10-terminal-tools-michell-lim-zach-lloyd-warp/)
 
 ## Crate of the Week
