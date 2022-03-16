@@ -285,4 +285,4 @@ Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/k5nsab/this_week_in_rust_367/)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/tfxrih/this_week_in_rust_434/)</small>
