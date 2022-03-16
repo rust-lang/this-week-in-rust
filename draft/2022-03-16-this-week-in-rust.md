@@ -33,7 +33,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 * [Introducing Rustler Precompiled - Dashbit Blog](https://dashbit.co/blog/rustler-precompiled)
 * [Announcing Savage, a computer algebra system written in Rust](https://www.reddit.com/r/rust/comments/tcxrs3/announcing_savage_a_computer_algebra_system/)
-* [Autosar Announces New Working Group For Programming Language Rust In Automotive Software Context](https://www.autosar.org/news-events/details/autosar-announces-new-working-group-for-programming-language-rust-in-automotive-software-context-202/)
 * [Oxide at Home: Propolis says Hello](https://artemis.sh/2022/03/14/propolis-oxide-at-home-pt1.html)
 * [Things I hate about Rust, redux](https://blog.yossarian.net/2022/03/10/Things-I-hate-about-Rust-redux)
 * [Async IO with completion-model IO systems](https://www.ncameron.org/blog/async-io-with-completion-model-io-systems/)
