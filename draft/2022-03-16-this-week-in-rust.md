@@ -122,7 +122,7 @@ Revision range: [10dccdc..3ba1eb](https://perf.rust-lang.org/?start=10dccdc7fcbd
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* *No new or updated RFCs were submitted this week.*
+* [Cargo alternative registry auth](https://github.com/rust-lang/rfcs/pull/3139)
 
 ### Final Comment Period
 
@@ -132,19 +132,17 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Cargo alternative registry auth](https://github.com/rust-lang/rfcs/pull/3139)
+* *No RFCs entered Final Comment Period this week.*
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Consistently present absent stdio handles on Windows as NULL handles.](https://github.com/rust-lang/rust/pull/93263)
-* [disposition: merge] [Stabilize ADX target feature](https://github.com/rust-lang/rust/pull/93745)
-* [disposition: merge] [proc-macro: Stop wrapping ident matchers into groups](https://github.com/rust-lang/rust/pull/92472)
-* [disposition: merge] [Tracking Issue for RFC #2972: Constrained Naked Functions](https://github.com/rust-lang/rust/issues/90957)
+* [disposition: merge] [Tracking Issue for JoinHandle::is_finished](https://github.com/rust-lang/rust/issues/90470)
+* [disposition: merge] [Tracking issue for const extern fn and const unsafe extern fn](https://github.com/rust-lang/rust/issues/64926)
+* [disposition: merge] [Always evaluate all cfg predicate in all() and any()](https://github.com/rust-lang/rust/pull/94295)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [new] [Edition Based Method Disambiguation: Preventing inference ambiguity breakages with extension trait methods](https://github.com/rust-lang/rfcs/pull/3240)
-* [update RFC #2991] [RFC: Add target configuration](https://github.com/rust-lang/rfcs/pull/3239)
+* [new] [RFC: Packages as (optional) namespaces](https://github.com/rust-lang/rfcs/pull/3243)
 
 ## Upcoming Events
 
