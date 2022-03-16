@@ -50,6 +50,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust WebAssembly OCR experiments](https://hugopeixoto.net/articles/rust-wasm-ocr-experiments.html)
 
 ### Miscellaneous
+* [AUTOSAR announces WG for Rust in automotive](https://www.autosar.org/news-events/details/autosar-announces-new-working-group-for-programming-language-rust-in-automotive-software-context-202/)
 * [audio] [Nick Cameron on Juggling Open Source Work and Parenthood](https://anchor.fm/building-with-rust/episodes/Nick-Cameron-on-Juggling-Open-Source-Work-and-Parenthood-e1fhfc7)
 * [audio] [Devtools podcast: building a new terminal in Rust](https://console.dev/podcast/s02e10-terminal-tools-michell-lim-zach-lloyd-warp/)
 
