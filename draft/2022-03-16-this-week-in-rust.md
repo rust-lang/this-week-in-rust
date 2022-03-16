@@ -170,7 +170,7 @@ Rusty Events between 2022-03-09 - 2022-04-06 🦀
 * 2022-03-16 | Vancouver, BC, CA | [Vancouver Rust](https://www.meetup.com/Vancouver-Rust/)
     * [**Building a Randomizer**](https://www.meetup.com/Vancouver-Rust/events/283910183/)
 * 2022-03-16 | Wien, AT | [Mob-Programming on Open Source Software](https://www.meetup.com/Mob-Programming-on-Open-Source-Software/)
-    * [**The Rustic Mob**](https://www.meetup.com/de-DE/Mob-Programming-on-Open-Source-Software/events/284548235/)
+    * [**The Rustic Mob**](https://www.meetup.com/Mob-Programming-on-Open-Source-Software/events/284548235/)
     * [**Rust-Meetup**](https://www.meetup.com/de-DE/Rust-Community-Stuttgart/events/lwgrssydcfbwb/)
 * 2022-03-23 | Egg Harbor City, NJ, US | [Neighborhood Math Club](https://www.meetup.com/neighborhood-math-club/)
     * [**The Early Rustacean Gets The Worm!**](https://www.meetup.com/neighborhood-math-club/events/284379020/)
