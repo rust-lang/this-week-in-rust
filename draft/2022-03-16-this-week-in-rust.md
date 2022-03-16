@@ -40,6 +40,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Autosar Announces New Working Group For Programming Language Rust In Automotive Software Context](https://www.autosar.org/news-events/details/autosar-announces-new-working-group-for-programming-language-rust-in-automotive-software-context-202/)
 * [Oxide at Home: Propolis says Hello](https://artemis.sh/2022/03/14/propolis-oxide-at-home-pt1.html)
 * [Things I hate about Rust, redux](https://blog.yossarian.net/2022/03/10/Things-I-hate-about-Rust-redux)
+* [Async IO with completion-model IO systems](https://www.ncameron.org/blog/async-io-with-completion-model-io-systems/)
 
 * [video] [Rust Gamedev Meetup #14: March 2022](https://www.youtube.com/watch?v=dQPkyjbd36Y)
 * [video] [Rust fuzzing using cargo-libafl (LibAFL-based fuzzer) - Rust Security #4](https://www.youtube.com/watch?v=0gpGA80DA0s)
