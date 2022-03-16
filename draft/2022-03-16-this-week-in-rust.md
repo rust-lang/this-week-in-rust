@@ -25,6 +25,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Transcript: What's New in Rust 1.58 and 1.59](https://rustacean-station.org/transcript/058-rust-1.58-1.59/)
+
 ### Rust Walkthroughs
 
 * [Rust WebAssembly OCR experiments](https://hugopeixoto.net/articles/rust-wasm-ocr-experiments.html)
