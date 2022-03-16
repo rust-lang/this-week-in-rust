@@ -15,22 +15,49 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [Lang team March update](https://blog.rust-lang.org/inside-rust/2022/03/09/lang-team-mar-update.html)
+* [Rust Compiler March 2022 Steering Cycle](https://blog.rust-lang.org/inside-rust/2022/03/11/mar-steering-cycle.html)
 
 ### Newsletters
+* [This Month in Rust GameDev #31 - February 2022](https://gamedev.rs/news/031/)
 
 ### Project/Tooling Updates
+* [Rust-Analyzer Changelog #120](https://rust-analyzer.github.io/thisweek/2022/03/14/changelog-120.html)
+* [Tantivy 0.17 is out | Quickwit](https://quickwit.io/blog/tantivy-0.17/)
+* [Knurling-rs changelog #34](https://ferrous-systems.com/blog/knurling-changelog-34/)
+* [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W10](https://www.fornjot.app/blog/weekly-dev-log/2022-w10/)
+* [Slint Version 0.2.1 released -- weekly update](https://slint-ui.com/thisweek/2022-03-14.html)
+* [Arti 0.1.0 is released: Your somewhat-stable API is here!](https://blog.torproject.org/arti_010_released/)
+* [Dioxus v0.2 Release: TUI, Router, Fermi, and Tooling](https://dioxuslabs.com/blog/release-020)
 
 ### Observations/Thoughts
+* [Introducing Rustler Precompiled - Dashbit Blog](https://dashbit.co/blog/rustler-precompiled)
+* [Announcing Savage, a computer algebra system written in Rust](https://www.reddit.com/r/rust/comments/tcxrs3/announcing_savage_a_computer_algebra_system/)
+* [Oxide at Home: Propolis says Hello](https://artemis.sh/2022/03/14/propolis-oxide-at-home-pt1.html)
+* [Things I hate about Rust, redux](https://blog.yossarian.net/2022/03/10/Things-I-hate-about-Rust-redux)
+* [Async IO with completion-model IO systems](https://www.ncameron.org/blog/async-io-with-completion-model-io-systems/)
+* [Transcript: What's New in Rust 1.58 and 1.59](https://rustacean-station.org/transcript/058-rust-1.58-1.59/)
+* [video] [Rust Gamedev Meetup #14: March 2022](https://www.youtube.com/watch?v=dQPkyjbd36Y)
+* [video] [Rust fuzzing using cargo-libafl (LibAFL-based fuzzer) - Rust Security #4](https://www.youtube.com/watch?v=0gpGA80DA0s)
+* [audio] [Interview with Fish Fight | Rust Game Dev](https://rustgamedev.com/episodes/interview-with-fish-fight)
+* [audio] [PancakeDB with Martin Loncaric :: Rustacean Station](https://rustacean-station.org/episode/059-martin-loncaric/)
 
 ### Rust Walkthroughs
+* [An In-Depth Introduction To Idempotency | A learning journal](https://www.lpalmieri.com/posts/idempotency/)
+* [A Rust Gem: The Rust Map API](https://www.thecodedmessage.com/posts/rust-map-entry/)
+* [RPATH, or why lld doesn’t work on NixOS](https://matklad.github.io/2022/03/14/rpath-or-why-lld-doesnt-work-on-nixos.html)
+* [Rust WebAssembly OCR experiments](https://hugopeixoto.net/articles/rust-wasm-ocr-experiments.html)
 
 ### Miscellaneous
+* [AUTOSAR announces WG for Rust in automotive](https://www.autosar.org/news-events/details/autosar-announces-new-working-group-for-programming-language-rust-in-automotive-software-context-202/)
+* [audio] [Nick Cameron on Juggling Open Source Work and Parenthood](https://anchor.fm/building-with-rust/episodes/Nick-Cameron-on-Juggling-Open-Source-Work-and-Parenthood-e1fhfc7)
+* [audio] [Devtools podcast: building a new terminal in Rust](https://console.dev/podcast/s02e10-terminal-tools-michell-lim-zach-lloyd-warp/)
 
 ## Crate of the Week
 
-This week's crate is [cfb](https://crates.io/crates/cfb), a crate to read/write Compound File Binary (structured storage) files.
+This week's crate is [noline](https://crates.io/crates/noline), a small no-std compatible readline-like line editor.
 
-Thanks to [Sebastian Urban](https://users.rust-lang.org/t/crate-of-the-week/2704/1034) for the suggestion!
+A lack of suggestions notwithstanding, llogiq is pretty pleased with his choice.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -49,71 +76,62 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-343 pull requests were [merged in the last week][merged]
+302 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-02-28..2022-03-07
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-03-07..2022-03-14
 
-* [implement thread local cell methods](https://github.com/rust-lang/rust/pull/92123) (RFC [#3184](https://rust-lang.github.io/rfcs/3184-thread-local-cell-methods.html))
-* [implement the `expect` attribute](https://github.com/rust-lang/rust/pull/87835) (RFC [#2383](https://rust-lang.github.io/rfcs/2383-lint-reasons.html))
-* [`Adt` copy suggestions](https://github.com/rust-lang/rust/pull/94375)
-* [do not point at whole file missing `fn main`](https://github.com/rust-lang/rust/pull/93142)
-* [downgrade `#[test]` on macro call to warning](https://github.com/rust-lang/rust/pull/94624)
-* [generalize "remove `&`"  and "add `*`" suggestions to more than one deref](https://github.com/rust-lang/rust/pull/91545)
-* [lint against more useless `#[must_use]` attributes](https://github.com/rust-lang/rust/pull/93926)
-* [improve `unexpected_cfgs` lint when their is no value expected](https://github.com/rust-lang/rust/pull/94561)
-* [improve allowness of the `unexpected_cfgs` lint](https://github.com/rust-lang/rust/pull/94433)
-* [improve error message for failed bitcode load](https://github.com/rust-lang/rust/pull/94672)
-* [suggest adding a new lifetime parameter when two elided lifetimes should match up for traits and impls](https://github.com/rust-lang/rust/pull/94464)
-* [suggest removing a semicolon after derive attributes](https://github.com/rust-lang/rust/pull/94633)
-* [caching the stable hash of Ty within itself](https://github.com/rust-lang/rust/pull/94299)
-* [clarify `Layout` interning](https://github.com/rust-lang/rust/pull/94690)
-* [introduce `ConstAllocation`](https://github.com/rust-lang/rust/pull/94597)
-* [chalk: recursive: fix hang on fulfill by slightly smarter check for progress](https://github.com/rust-lang/chalk/pull/752)
-* [miri: make sure we notice when a u16 is loaded at offset 1 into a u8 allocation](https://github.com/rust-lang/miri/pull/1994)
-* [miri: add more simd_reduce intrinsics](https://github.com/rust-lang/miri/pull/2001)
-* [miri: adjust for div/rem overflow being UB](https://github.com/rust-lang/miri/pull/1992)
-* [miri: also test f32/f64 simd_reduce](https://github.com/rust-lang/miri/pull/2003)
-* [miri: implement missing SIMD comparison operators, simd_xor, and simd_reduce_all](https://github.com/rust-lang/miri/pull/2000)
-* [miri: implement more SIMD intrinsics](https://github.com/rust-lang/miri/pull/2004)
-* [miri: implement simd_neg and simd_fabs](https://github.com/rust-lang/miri/pull/1997)
-* [miri: implement simd_saturating intrinsics](https://github.com/rust-lang/miri/pull/2007)
-* [stabilize `const_fn_fn_ptr_basics`, `const_fn_trait_bound`, and `const_impl_trait`](https://github.com/rust-lang/rust/pull/93827)
-* [add `#[track_caller]` to track callers when initializing poisoned `Once`](https://github.com/rust-lang/rust/pull/94236)
-* [add `Atomic*::from_mut_slice`](https://github.com/rust-lang/rust/pull/94384)
-* [portable SIMD: add bitmask i{N <8} -> u8 impls](https://github.com/rust-lang/portable-simd/pull/250)
-* [futures: `Shared`: fix false detection of inner panics](https://github.com/rust-lang/futures-rs/pull/2576)
-* [support GATs in Rustdoc](https://github.com/rust-lang/rust/pull/94009)
-* [rustfmt: fix missing struct field separators under certain conditions](https://github.com/rust-lang/rustfmt/pull/5159)
-* [rustfmt: prevent wrapping markdown headers in doc comments](https://github.com/rust-lang/rustfmt/pull/5242)
-* [rustfmt: fallback to dir_path when relative external mod resolution fails](https://github.com/rust-lang/rustfmt/pull/5205)
-* [clippy: add `unnecessary-find-map` lint](https://github.com/rust-lang/rust-clippy/pull/8489)
-* [clippy: add lint to detect `allow` attributes without reason](https://github.com/rust-lang/rust-clippy/pull/8504)
-* [clippy: lint for casting between raw slice pointers with different element sizes](https://github.com/rust-lang/rust-clippy/pull/8445)
-* [clippy: new lint: `missing-spin-loop`](https://github.com/rust-lang/rust-clippy/pull/8174)
-* [clippy: use `.into_iter()` rather than `.drain(..)`](https://github.com/rust-lang/rust-clippy/pull/8483)
-* [clippy: check `use_self` in `pat`](https://github.com/rust-lang/rust-clippy/pull/8456)
-* [clippy: omit `dbg-macro` in test code](https://github.com/rust-lang/rust-clippy/pull/8500)
-* [clippy: optimize `redundant-clone`](https://github.com/rust-lang/rust-clippy/pull/8414)
-* [clippy: `transmute-undefined-repr` to nursery again](https://github.com/rust-lang/rust-clippy/pull/8432)
+* [diagnostics: do not spuriously claim something is "not an iterator"](https://github.com/rust-lang/rust/pull/94870)
+* [diagnostics: single colon within `<>` probably, not type ascription](https://github.com/rust-lang/rust/pull/94865)
+* [improve suggestion when casting `usize` to (possibly) wide pointer](https://github.com/rust-lang/rust/pull/92150)
+* [warn users about `||` in `let` chain expressions](https://github.com/rust-lang/rust/pull/94754)
+* [suggest `if let`/`let_else` for refutable pat in `let`](https://github.com/rust-lang/rust/pull/94739)
+* [suggest using double colon when a struct field type include single colon](https://github.com/rust-lang/rust/pull/94839)
+* [miri: implement `simd_`{`shuffle`, `gather`, `scatter`}](https://github.com/rust-lang/miri/pull/2013)
+* [CTFE/Miri: detect out-of-bounds pointers in `offset_from`](https://github.com/rust-lang/rust/pull/94827)
+* [change several `HashMap`s to `IndexMap` to improve incremental hashing performance](https://github.com/rust-lang/rust/pull/90253)
+* [improve `AdtDef` interning](https://github.com/rust-lang/rust/pull/94733)
+* [optimize `ascii::escape_default`](https://github.com/rust-lang/rust/pull/94776)
+* [make some `Clone` impls `const`](https://github.com/rust-lang/rust/pull/91804)
+* [remove argument from closure in `thread::Scope::spawn`](https://github.com/rust-lang/rust/pull/94559)
+* [use `MaybeUninit` in `VecDeque` to remove the undefined behavior of slice](https://github.com/rust-lang/rust/pull/94472)
+* [constify `Index`{,`Mut`} for `[T]`, `str`, and `[T; N]`](https://github.com/rust-lang/rust/pull/94657)
+* [fix soundness issue in scoped threads](https://github.com/rust-lang/rust/pull/94644)
+* [implement `BITS` constant for non-zero integers](https://github.com/rust-lang/rust/pull/93292)
+* [implement `MIN`/`MAX` constants for non-zero integers](https://github.com/rust-lang/rust/pull/93293)
+* [add `Result::`{`ok`, `err`, `and`, `or`, `unwrap_or`} as `const`](https://github.com/rust-lang/rust/pull/92385)
+* [add `Atomic`*`::get_mut_slice`](https://github.com/rust-lang/rust/pull/94816)
+* [add `core::hint::must_use`](https://github.com/rust-lang/rust/pull/94723)
+* [unix: reduce the size of `DirEntry`](https://github.com/rust-lang/rust/pull/94750)
+* [portable-simd: add `.min` and `.max` for integers](https://github.com/rust-lang/portable-simd/pull/260)
+* [compiler-builtins: add support for Apple watchOS](https://github.com/rust-lang/compiler-builtins/pull/456)
+* [futures: add `Mutex::lock_owned` and `Mutex::try_lock_owned`](https://github.com/rust-lang/futures-rs/pull/2571)
+* [rustfmt: improve mod resolution error for mods with multiple candidate files](https://github.com/rust-lang/rustfmt/pull/5243)
+* [clippy: improve styles of filtering options for Clippy's lint list](https://github.com/rust-lang/rust-clippy/pull/8070)
+* [clippy: new lint that detects useless match expression](https://github.com/rust-lang/rust-clippy/pull/8471)
+* [clippy: new lint: `only_used_in_recursion`](https://github.com/rust-lang/rust-clippy/pull/8422)
+* [clippy: allow `single_component_path_imports` for all macros](https://github.com/rust-lang/rust-clippy/pull/8537)
+* [clippy: make `search_is_some`s suggestion `MachineApplicable`](https://github.com/rust-lang/rust-clippy/pull/8536)
 
 ### Rust Compiler Performance Triage
 
-A pretty smooth week. All three regressions were small, and two were isolated to rustdoc alone.
+Largely a quiet week. The perf improvement highlight is the use of real world crates such as `syn`, `cargo`, and `serde` in the collecting of profile guided optimization (PGO) profiles. Previously only `libcore` was used. This led to some decent improvement in compilation of real world crates (upwards of 5.5%). 
 
-Triage done by **@pnkfelix**.
-Revision range: [f0c4da49..10dccdc7](https://perf.rust-lang.org/?start=f0c4da49983aa699f715caf681e3154b445fb60b&end=10dccdc7fcbdc64ee9efe2c1ed975ab8c1d61287&absolute=false&stat=instructions%3Au)
+On the regression side, the regressions were all largely small but contained inside of rollups making them hard to diagnose and correct. The perf team continues to work on process improvements that make changes to the compiler land through CI quickly while minimizing perf regressions that can sneak through.
 
-3 Regressions, 3 Improvements, 1 Mixed; 2 of them in rollups
-53 comparisons made in total
+Triage done by **@rylev**.
+Revision range: [10dccdc..3ba1eb](https://perf.rust-lang.org/?start=10dccdc7fcbdc64ee9efe2c1ed975ab8c1d61287&end=3ba1ebea122238d1a5c613deb1bf60ce24bd8fd8&absolute=false&stat=instructions%3Au)
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-03-09.md)
+2 Regressions, 3 Improvements, 3 Mixed; 3 of them in rollups
+42 comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-03-15.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* *No new or updated RFCs were submitted this week.*
+* [Cargo alternative registry auth](https://github.com/rust-lang/rfcs/pull/3139)
 
 ### Final Comment Period
 
@@ -123,72 +141,82 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Cargo alternative registry auth](https://github.com/rust-lang/rfcs/pull/3139)
+* *No RFCs entered Final Comment Period this week.*
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Consistently present absent stdio handles on Windows as NULL handles.](https://github.com/rust-lang/rust/pull/93263)
-* [disposition: merge] [Stabilize ADX target feature](https://github.com/rust-lang/rust/pull/93745)
-* [disposition: merge] [proc-macro: Stop wrapping ident matchers into groups](https://github.com/rust-lang/rust/pull/92472)
-* [disposition: merge] [Tracking Issue for RFC #2972: Constrained Naked Functions](https://github.com/rust-lang/rust/issues/90957)
+* [disposition: merge] [Tracking Issue for JoinHandle::is_finished](https://github.com/rust-lang/rust/issues/90470)
+* [disposition: merge] [Tracking issue for const extern fn and const unsafe extern fn](https://github.com/rust-lang/rust/issues/64926)
+* [disposition: merge] [Always evaluate all cfg predicate in all() and any()](https://github.com/rust-lang/rust/pull/94295)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [new] [Edition Based Method Disambiguation: Preventing inference ambiguity breakages with extension trait methods](https://github.com/rust-lang/rfcs/pull/3240)
-* [update RFC #2991] [RFC: Add target configuration](https://github.com/rust-lang/rfcs/pull/3239)
+* [new] [RFC: Packages as (optional) namespaces](https://github.com/rust-lang/rfcs/pull/3243)
 
 ## Upcoming Events
 
-Rusty Events between 2022-03-09 - 2022-04-06 🦀
+Rusty Events between 2022-03-16 - 2022-04-13 🦀
 
 ### Virtual
 
-* 2022-03-09 | Boulder, CO, US | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
-    * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/283985719/)
-* 2022-03-09 | Egg Harbor City, NJ, US | [Neighborhood Math Club](https://www.meetup.com/neighborhood-math-club/)
-    * [**The Early Rustacean Gets The Worm!**](https://www.meetup.com/neighborhood-math-club/events/284379686/)
-* 2022-03-09 | München, DE | [Rust Munich](https://www.meetup.com/rust-munich/)
-    * [**Rust Munich Remote(?) #10**](https://www.meetup.com/rust-munich/events/283790509/)
-* 2022-03-09 | Selangor, MY | [Rust Malaysia](https://t.me/golangmalaysia)
-    * [**Rust Meetup**](https://forms.gle/35pipPdsKm1VFzCa9)
-* 2022-03-09 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
-    * [**Rust-Meetup**](https://www.meetup.com/Rust-Community-Stuttgart/events/284068315)
-* 2022-03-10 | Charlottesville, VA, US | [Charlottesville Rust Meetup](https://www.meetup.com/Charlottesville-Rust-Meetup/)
-    * [**Bluetoothing with Rust using BlueR**](https://www.meetup.com/Charlottesville-Rust-Meetup/events/284152560/)
-* 2022-03-15 | Berlin, DE | [OpenTechSchool Berlin](https://www.meetup.com/de-DE/opentechschool-berlin/)
-    * [**Rust Hack and Learn**](https://www.meetup.com/de-DE/opentechschool-berlin/events/284205132/)
-* 2022-03-15 | Dublin, IE | [Rust Dublin](https://www.meetup.com/Rust-Dublin/)
-    * [**Rust Dublin March Meetup**](https://www.meetup.com/Rust-Dublin/events/283613905)
-* 2022-03-15 | Rome, IT | [Rust-Roma](https://www.meetup.com/Rust-Roma/)
-    * [**Packaging and deploying a rust application with cargo-deb #Aperitech**](https://www.meetup.com/Rust-Roma/events/284425486/)
-* 2022-03-15 | Washington, DC, US | [Rust DC](https://www.meetup.com/RustDC/)
-    * [**Rust and Tell Lightning Talks! ⚡🦀**](https://www.meetup.com/RustDC/events/283374540/)
 * 2022-03-16 | Egg Harbor City, NJ, US | [Neighborhood Math Club](https://www.meetup.com/neighborhood-math-club/)
     * [**The Early Rustacean Gets The Worm!**](https://www.meetup.com/neighborhood-math-club/events/284221983/)
 * 2022-03-16 | Seattle, WA, US | [Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/)
     * [**Monthly meetup**](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrydcfblb/)
 * 2022-03-16 | Vancouver, BC, CA | [Vancouver Rust](https://www.meetup.com/Vancouver-Rust/)
-    * [**Building a Randomizer**](https://www.meetup.com/Vancouver-Rust/events/283910183/)
+    * [**Building a Randomizer**](https://www.meetup.com/Vancouver-Rust/events/nwcmpsydcfbvb/)
+* 2022-03-16 | Wien, AT | [Mob-Programming on Open Source Software](https://www.meetup.com/Mob-Programming-on-Open-Source-Software/)
+    * [**The Rustic Mob**](https://www.meetup.com/Mob-Programming-on-Open-Source-Software/events/284548235/)
+* 2022-03-17 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
+    * [**Rust-Meetup**](https://www.meetup.com/Rust-Community-Stuttgart/events/lwgrssydcfbwb/)
 * 2022-03-23 | Egg Harbor City, NJ, US | [Neighborhood Math Club](https://www.meetup.com/neighborhood-math-club/)
     * [**The Early Rustacean Gets The Worm!**](https://www.meetup.com/neighborhood-math-club/events/284379020/)
+* 2022-03-24 | Charlottesville, VA, US | [Charlottesville Rust Meetup](https://www.meetup.com/Charlottesville-Rust-Meetup/)
+    * [**Embedded Rust reaching out--Learn how Rust can interact with the outside world**](https://www.meetup.com/Charlottesville-Rust-Meetup/events/284627448/)
+* 2022-03-24 | Linz, AU | [Rust Linz](https://www.meetup.com/Rust-Linz/)
+    * [**Rust Meetup Linz - 20th Edition**](https://www.meetup.com/Rust-Linz/events/284584338/)
+* 2022-03-29 | Berlin, DE | [Berline](https://berline.rs/)
+    * [**Rust Hack and Learn Tuesday**](https://berline.rs/2022/03/29/rust-hack-and-learn.html)
+* 2022-03-29 | Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
+    * [**Last Tuesday**](https://www.meetup.com/Dallas-Rust/events/jqxqwrydcfbmc/)
+* 2022-03-30 | México City, MX | [Rust MX](https://www.meetup.com/Rust-MX/)
+    * [**Platica Marzo 2022 - Reescribir o no reescribir aplicaciones en Rust**](https://www.meetup.com/Rust-MX/events/284560362/)
+* 2022-04-05 | Beijing, CN | [WebAssembly and Rust Meetup (Rustlang)](https://www.meetup.com/Wasm-Rust-Meetup/)
+    * [**Monthly WasmEdge Community Meeting, a CNCF sandbox WebAssembly runtime**](https://www.meetup.com/Wasm-Rust-Meetup/events/jbfnrsydcgbhb/)
 * 2022-04-05 | Buffalo, NY, US | [Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/)
-    * [**Buffalo Rust User Group, First Tuesdays**](https://www.meetup.com/Buffalo-Rust-Meetup/events/284342808/)
+    * [**Buffalo Rust User Group, First Tuesdays**](https://www.meetup.com/Buffalo-Rust-Meetup/events/xgmfssydcgbhb/)
+* 2022-04-05 | Denver, CO, US | [Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/)
+    * [**Using Futures to wrap an unsafe USB API to play audio directly - with live stream**](https://www.meetup.com/Rust-Boulder-Denver/events/284371995/)
+* 2022-04-06 | Egg Harbor City, NJ, US | [Neighborhood Math Club](https://www.meetup.com/neighborhood-math-club/)
+    * [**The Early Rustacean Gets The Worm!**](https://www.meetup.com/neighborhood-math-club/events/kpgpssydcgbjb/)
 * 2022-04-06 | Indianapolis, IN, US | [Indy Rust](https://www.meetup.com/indyrs/)
-    * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/284244527/)
+    * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/qwtdjsydcgbjb/)
+* 2022-04-07 | Nürnberg, DE | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
+    * [**Rust Nürnberg online #12**](https://www.meetup.com/rust-noris/events/zgfnssydcgbsb/)
+* 2022-04-12 | Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
+    * [**Second Tuesday**](https://www.meetup.com/Dallas-Rust/events/vqtjcsydcgbqb/)
+* 2022-04-12 | Seattle, WA, US | [Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/)
+    * [**Monthly Meetup**](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrydcgbqb/)
+* 2022-04-13 | Boulder, CO | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
+    * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydcgbrb/)
+* 2022-04-13 | Egg Harbor City, NJ, US | [Neighborhood Math Club](https://www.meetup.com/neighborhood-math-club/)
+    * [**The Early Rustacean Gets The Worm!**](https://www.meetup.com/neighborhood-math-club/events/kpgpssydcgbrb/)
+* 2022-04-13 | Munich, DE | [Rust Munich](https://www.meetup.com/rust-munich/)
+    * [**Rust Munich 2022 / 1 - hybrid**](https://www.meetup.com/rust-munich/events/283790509/)
 
 ### Europe
-
-* 2022-03-13 | Kyiv, UA | [Вивчаємо Rust Разом / Learn Rust Together](https://t.me/learn_rust_together_ukr)
-    *[**Ukrainian Rusty Dinner**](https://t.me/learn_rust_together_ukr)
-* 2022-03-15 | Sofia, BG | [Rust Meetup Sofia](https://www.meetup.com/rust-meetup-sofia/)
-    * [**Rust Meetup Sofia - 1st Edition**](https://www.meetup.com/rust-meetup-sofia/events/284141594)
+* 2022-03-17 | Edinburgh, UK | [Rust Edinburgh](https://www.meetup.com/rust-edi/)
+    * [**Rust Night March, Edinburgh**](https://www.meetup.com/rust-edi/events/284428178/)
+* 2022-04-12 | Berlin, DE | [Rust Berlin](https://www.meetup.com/Rust-Berlin/)
+    * [**Rust and Tell - an onsite event**](https://www.meetup.com/Rust-Berlin/events/284512764/) | [**Alt Link**](https://berline.rs/2022/04/12/rust-and-tell.html)
+* 2022-04-13 | Munich, DE | [Rust Munich](https://www.meetup.com/rust-munich/)
+    * [**Rust Munich 2022 / 1 - hybrid**](https://www.meetup.com/rust-munich/events/283790509/)
 
 ### North America
-
-* 2022-03-14 | Atlanta, GA, US | [Atlanta Rustaceans](https://twitter.com/atl_rustaceans/)
-    * [**_New_ Atlanta Rust Meetup**](https://twitter.com/atl_rustaceans/status/148958647136758989) 
-* 2022-03-15 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
-    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/284215958/)
+* 2022-04-05 | Denver, CO, US | [Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/)
+    * [**Using Futures to wrap an unsafe USB API to play audio directly - with live stream**](https://www.meetup.com/Rust-Boulder-Denver/events/284371995/)
+* 2022-04-13 | Atlanta, GA, US | [Rust ATL](https://www.meetup.com/Rust-ATL/)
+    * [**Grab a beer with fellow Rustaceans**](https://www.meetup.com/Rust-ATL/events/pczdssydcgbrb/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -199,21 +227,44 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+
 **Juspay**
 
 * [Freelance Rust Developer (Remote)](https://www.upwork.com/jobs/~0106e33943207a0fc6)
+
+**Kollider**
+
+* [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
+* [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
+
+**Tempus Ex**
+
+ * [Several full-time Rust positions available (San Francisco, CA, US, Atlanta, GA, US, Austin, TX, US, and Remote)](https://tempus-ex.com/careers)
+
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> Because it is designed not to own. If you need an owning pointer, use Box.
+> protip: the rust extern keyword has a --help flag
 >
-> This is like asking "why there is no chocolate mousse in this burger?". Chocolate mousse is delicious, but it does not belong in a burger. If you want chocolate mousse, then that's fine and you can choose to eat it instead of a burger. But at other times you may want a burger instead.
+> ```text
+> error[E0703]: invalid ABI: found `--help`
+>  --> ext.rs:1:8
+>   |
+> 1 | extern "--help" {}  fn main() {}
+>   |        ^^^^^^^^ invalid ABI
+>   |
+>   = help: valid ABIs: Rust, C, C-unwind, cdecl, stdcall, stdcall-unwind, fastcall, vectorcall, thiscall, thiscall-unwind, aapcs, win64, sysv64, ptx-kernel, msp430-interrupt, x86-interrupt, amdgpu-kernel, efiapi, avr-interrupt, avr-non-blocking-interrupt, C-cmse-nonsecure-call, wasm, system, system-unwind, rust-intrinsic, rust-call, platform-intrinsic, unadjusted
+>
+> error: aborting due to previous error
+>
+> For more information about this error, try `rustc --explain E0703`.
+> ```
 
-– [H2CO3 answering why raw pointers don't own on rust-users](https://users.rust-lang.org/t/why-raw-pointer-doesnt-own-type-parameter-t-for-dropcheck/72408)
+– [Aria the Cat (with some help from rustc) on twitter](https://twitter.com/Gankra_/status/1501307407292641280)
 
-Thanks to [Deep Majumder](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1186) for the suggestion!
+Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1188) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
