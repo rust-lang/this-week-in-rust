@@ -41,7 +41,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Rust fuzzing using cargo-libafl (LibAFL-based fuzzer) - Rust Security #4](https://www.youtube.com/watch?v=0gpGA80DA0s)
 * [audio] [Interview with Fish Fight | Rust Game Dev](https://rustgamedev.com/episodes/interview-with-fish-fight)
 * [audio] [PancakeDB with Martin Loncaric :: Rustacean Station](https://rustacean-station.org/episode/059-martin-loncaric/)
-* [audio] [Tor with Nick Mathewson](https://rustacean-station.org/episode/057-nick-mathewson/)
 
 ### Rust Walkthroughs
 * [An In-Depth Introduction To Idempotency | A learning journal](https://www.lpalmieri.com/posts/idempotency/)
