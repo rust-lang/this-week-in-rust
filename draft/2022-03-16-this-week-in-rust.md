@@ -70,6 +70,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+**Boa**
+
+* [Good first issues](https://github.com/boa-dev/boa/issues?q=is%3Aopen+is%3Aissue+label%3AE-Easy)
+* [Help wanted issues](https://github.com/boa-dev/boa/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -227,10 +232,18 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-
 **Juspay**
 
 * [Freelance Rust Developer (Remote)](https://www.upwork.com/jobs/~0106e33943207a0fc6)
+
+**Komodo**
+
+* [Software Developer interested in learning Rust (Remote)](https://utxo-ltd.breezy.hr/p/c374829c873c01-rust-developer-blockchain)
+
+**Stockly**
+
+* [Back-end developer - TechOps (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-rust-grpc-postgresql_paris)
+* [Back-end developer - Engine (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
 
 **Kollider**
 
