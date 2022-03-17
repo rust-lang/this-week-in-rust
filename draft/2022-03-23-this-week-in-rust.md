@@ -25,6 +25,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 ### Miscellaneous
+* [Cross-platform Brainfuck Interpreter implementation in Rust - Part 1](https://rtoch.com/posts/brainfuck-interpreter-implementation-part-1/)
+* [Cross-platform Brainfuck Interpreter implementation in Rust - Part 2](https://rtoch.com/posts/brainfuck-interpreter-implementation-part-2/)
 
 ## Crate of the Week
 
