@@ -29,6 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Slint Version 0.2.1 released -- weekly update](https://slint-ui.com/thisweek/2022-03-14.html)
 * [Arti 0.1.0 is released: Your somewhat-stable API is here!](https://blog.torproject.org/arti_010_released/)
 * [Dioxus v0.2 Release: TUI, Router, Fermi, and Tooling](https://dioxuslabs.com/blog/release-020)
+* [This week in Databend #33: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-03-16-databend-weekly/)
 
 ### Observations/Thoughts
 * [Introducing Rustler Precompiled - Dashbit Blog](https://dashbit.co/blog/rustler-precompiled)
