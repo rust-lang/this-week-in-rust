@@ -227,6 +227,11 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+
+**Juspay**
+
+* [Freelance Rust Developer (Remote)](https://www.upwork.com/jobs/~0106e33943207a0fc6)
+
 **Kollider**
 
 * [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
@@ -235,6 +240,7 @@ Email the [Rust Community Team][community] for access.
 **Tempus Ex**
 
  * [Several full-time Rust positions available (San Francisco, CA, US, Atlanta, GA, US, Austin, TX, US, and Remote)](https://tempus-ex.com/careers)
+
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
