@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Rust superpowered DHCP cli with Rhai scripts](https://leshow.github.io/post/dhcpm/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
