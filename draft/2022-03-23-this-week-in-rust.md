@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Procedural macros under the hood: Part I](https://blog.jetbrains.com/rust/2022/03/18/procedural-macros-under-the-hood-part-i/)
 
 ### Miscellaneous
 * [Cross-platform Brainfuck Interpreter implementation in Rust - Part 1](https://rtoch.com/posts/brainfuck-interpreter-implementation-part-1/)
