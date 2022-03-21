@@ -30,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Miscellaneous
 * [Cross-platform Brainfuck Interpreter implementation in Rust - Part 1](https://rtoch.com/posts/brainfuck-interpreter-implementation-part-1/)
 * [Cross-platform Brainfuck Interpreter implementation in Rust - Part 2](https://rtoch.com/posts/brainfuck-interpreter-implementation-part-2/)
+* [Rust talks I2C on Apache NuttX RTOS](https://lupyuen.github.io/articles/rusti2c)
 
 ## Crate of the Week
 
