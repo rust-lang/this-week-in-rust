@@ -22,15 +22,19 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Rust superpowered DHCP cli with Rhai scripts](https://leshow.github.io/post/dhcpm/)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W11](https://www.fornjot.app/blog/weekly-dev-log/2022-w11/)
+* [A Year of BonsaiDb: A retrospective and looking to the future](https://bonsaidb.io/blog/one-year-anniversary/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
 * [Procedural macros under the hood: Part I](https://blog.jetbrains.com/rust/2022/03/18/procedural-macros-under-the-hood-part-i/)
 
+* [ZH] [Exploring Rust Mobile Development and Cross-Platform Patterns (Rust 移动开发与跨平台模式探究)](https://zhuanlan.zhihu.com/p/484269271)
+
 ### Miscellaneous
 * [Cross-platform Brainfuck Interpreter implementation in Rust - Part 1](https://rtoch.com/posts/brainfuck-interpreter-implementation-part-1/)
 * [Cross-platform Brainfuck Interpreter implementation in Rust - Part 2](https://rtoch.com/posts/brainfuck-interpreter-implementation-part-2/)
+* [Rust talks I2C on Apache NuttX RTOS](https://lupyuen.github.io/articles/rusti2c)
 
 ## Crate of the Week
 
