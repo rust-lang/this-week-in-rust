@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Rustc Reading Club Phase I Retrospective](https://mojosd.medium.com/rrc-phase-i-retrospective-74141fb246e4)
+
 ### Rust Walkthroughs
 * [Procedural macros under the hood: Part I](https://blog.jetbrains.com/rust/2022/03/18/procedural-macros-under-the-hood-part-i/)
 
