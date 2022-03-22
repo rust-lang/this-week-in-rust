@@ -21,8 +21,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust Community Grants Program - Survey Responses](https://foundation.rust-lang.org/news/2022-03-17-community-grants-program-survey-responses/)
 * [Announcing three new Rust Foundation Board Members](https://foundation.rust-lang.org/news/2022-03-16-news-announcing-three-new-board-members-copy/)
 
-### Newsletters
-
 ### Project/Tooling Updates
 * [Rust-Analyzer Changelog #121](https://rust-analyzer.github.io/thisweek/2022/03/21/changelog-121.html)
 * [Rust superpowered DHCP cli with Rhai scripts](https://leshow.github.io/post/dhcpm/)
@@ -60,7 +58,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [series] [video] [Writing a Programming Language (in Rust) 22: Laurel: Continuing a bash script port](https://www.youtube.com/watch?v=OynJIFEsf3o)
 * [video] [Fyrox - Making an Animation Blending State Machine Editor](https://www.youtube.com/watch?v=qkgaY7FwPJU)
 * [video] [Petrochenkov reviews the name resolution code](https://www.youtube.com/watch?v=Y1hvNWUbSDk)
-
 * [video] [UIUC CS 128 Honors Rust Lectures](https://www.youtube.com/playlist?list=PLezlz_6l_jm2MU-yfzKWerZV1rai71bw4)
 
 ### Miscellaneous
@@ -244,7 +241,6 @@ Rusty Events between 2022-03-23 - 2022-04-20 🦀
     * [**Rust Munich 2022 / 1 - hybrid**](https://www.meetup.com/rust-munich/events/283790509/)
 * 2022-04-14 | Cambridge, UK | [Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/)
     * [**Cambridge Rust Reboot 2**](https://www.meetup.com/Cambridge-Rust-Meetup/events/284505361/)
-
 
 ### North America
 * 2022-04-05 | Denver, CO, US | [Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/)
