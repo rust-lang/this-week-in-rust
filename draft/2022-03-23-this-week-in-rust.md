@@ -116,7 +116,7 @@ Revision range: [10dccdc..3ba1eb](https://perf.rust-lang.org/?start=10dccdc7fcbd
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Cargo alternative registry auth](https://github.com/rust-lang/rfcs/pull/3139)
+* [Add vendor-specific suffixes to v0 mangling RFC 2603](https://github.com/rust-lang/rfcs/pull/3224)
 
 ### Final Comment Period
 
@@ -126,17 +126,27 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* *No RFCs entered Final Comment Period this week.*
+* [disposition: merge] [Cargo authenticating users without sending secrets over the network](https://github.com/rust-lang/rfcs/pull/3231)
+* [disposition: merge] [Add provide_any module to core](https://github.com/rust-lang/rfcs/pull/3192)
+* [disposition: close] [Add the partial-closure-args RFC.](https://github.com/rust-lang/rfcs/pull/2956)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Tracking Issue for JoinHandle::is_finished](https://github.com/rust-lang/rust/issues/90470)
-* [disposition: merge] [Tracking issue for const extern fn and const unsafe extern fn](https://github.com/rust-lang/rust/issues/64926)
-* [disposition: merge] [Always evaluate all cfg predicate in all() and any()](https://github.com/rust-lang/rust/pull/94295)
+* [disposition: merge] [Lazy tait (Type Alias Impl Trait) take two](https://github.com/rust-lang/rust/pull/94081)
+* [disposition: close] [Allow struct and enum to contain inner attrs](https://github.com/rust-lang/rust/pull/84414)
+* [disposition: merge] [Fix constants not getting dropped if part of a diverging expression](https://github.com/rust-lang/rust/pull/94775)
+* [disposition: merge] [impl From\<&\[T; N\]\> and From\<&mut \[T; N\]\> for Vec\<T\>](https://github.com/rust-lang/rust/pull/95098)
+* [disposition: merge] [Docs: make Vec::from_raw_parts documentation less strict](https://github.com/rust-lang/rust/pull/95016)
+* [disposition: merge] [Clarify that ManuallyDrop\<T\> has same layout as T](https://github.com/rust-lang/rust/pull/88375)
+* [disposition: merge] [Allow comparing Vecs with different allocators using `==`](https://github.com/rust-lang/rust/pull/93755)
+* [disposition: merge] [Stabilize Termination and ExitCode](https://github.com/rust-lang/rust/pull/93840)
+* [disposition: merge] [Tracking Issue for cell_filter_map](https://github.com/rust-lang/rust/issues/81061)
+* [disposition: merge] [Stabilize native library modifier syntax and the `whole-archive` modifier specifically](https://github.com/rust-lang/rust/pull/93901)
+* [disposition: merge] [Tracking Issue for making ptr offset methods "const fn"](https://github.com/rust-lang/rust/issues/71499)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [new] [RFC: Packages as (optional) namespaces](https://github.com/rust-lang/rfcs/pull/3243)
+* [new] [Refined trait implementations](https://github.com/rust-lang/rfcs/pull/3245)
 
 ## Upcoming Events
 
