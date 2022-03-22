@@ -53,7 +53,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Web Socket for Productivity in Rust](https://www.ahmadrosid.com/blog/rust-websocket)
 * [Advanced logging in rust with log4rs: rotation, retention, patterns, multiple loggers](https://medium.com/nikmas-group/advanced-logging-in-rust-with-log4rs-2d712bb322de)
 * [Why your first FizzBuzz implementation may not work](https://chrismorgan.info/blog/rust-fizzbuzz/)
-* [Build an URL Shortener with LFU Cache by Rust](https://levelup.gitconnected.com/build-an-url-shortener-with-lfu-cache-by-rust-d2056a4d24e9)
 * [ZH] [Exploring Rust Mobile Development and Cross-Platform Patterns (Rust 移动开发与跨平台模式探究)](https://zhuanlan.zhihu.com/p/484269271)
 * [series] [video] [Writing a Programming Language (in Rust) 22: Laurel: Continuing a bash script port](https://www.youtube.com/watch?v=OynJIFEsf3o)
 * [video] [Fyrox - Making an Animation Blending State Machine Editor](https://www.youtube.com/watch?v=qkgaY7FwPJU)
