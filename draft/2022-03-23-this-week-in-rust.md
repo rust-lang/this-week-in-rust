@@ -32,8 +32,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 * [Procedural macros under the hood: Part I](https://blog.jetbrains.com/rust/2022/03/18/procedural-macros-under-the-hood-part-i/)
-
 * [ZH] [Exploring Rust Mobile Development and Cross-Platform Patterns (Rust 移动开发与跨平台模式探究)](https://zhuanlan.zhihu.com/p/484269271)
+* [series] [video] [Writing a Programming Language (in Rust) 22: Laurel: Continuing a bash script port](https://www.youtube.com/watch?v=OynJIFEsf3o)
 
 ### Miscellaneous
 * [Cross-platform Brainfuck Interpreter implementation in Rust - Part 1](https://rtoch.com/posts/brainfuck-interpreter-implementation-part-1/)
