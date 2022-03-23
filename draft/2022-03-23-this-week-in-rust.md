@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Rust is minimalist](https://kerkour.com/rust-is-minimalist)
 * [Rustc Reading Club Phase I Retrospective](https://mojosd.medium.com/rrc-phase-i-retrospective-74141fb246e4)
 
 ### Rust Walkthroughs
