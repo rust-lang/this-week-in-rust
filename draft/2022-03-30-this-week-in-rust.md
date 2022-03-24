@@ -159,6 +159,7 @@ Rusty Events between 2022-03-23 - 2022-04-20 🦀
     * [**Rust Hack and Learn Tuesday**](https://berline.rs/2022/03/29/rust-hack-and-learn.html)
 * 2022-03-29 | Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
     * [**Last Tuesday**](https://www.meetup.com/Dallas-Rust/events/jqxqwrydcfbmc/)
+* 2022-03-30 | London, UK | [Rust Ldn takeover: Aero Rust](https://skillsmatter.com/meetups/13826-ldn-talks-march-2022-aerorust-takeover)
 * 2022-03-30 | México City, MX | [Rust MX](https://www.meetup.com/Rust-MX/)
     * [**Platica Marzo 2022 - Reescribir o no reescribir aplicaciones en Rust**](https://www.meetup.com/Rust-MX/events/284560362/)
 * 2022-04-05 | Beijing, CN | [WebAssembly and Rust Meetup (Rustlang)](https://www.meetup.com/Wasm-Rust-Meetup/)
@@ -189,6 +190,7 @@ Rusty Events between 2022-03-23 - 2022-04-20 🦀
     * [**Rust Study/Hack/Hang-out night**](https://www.meetup.com/Vancouver-Rust/events/nwcmpsydcgbbc/)
 
 ### Europe
+* 2022-03-30 | London, UK | [Rust Ldn takeover: Aero Rust](https://skillsmatter.com/meetups/13826-ldn-talks-march-2022-aerorust-takeover)
 * 2022-04-12 | Berlin, DE | [Rust Berlin](https://www.meetup.com/Rust-Berlin/)
     * [**Rust and Tell - an onsite event**](https://www.meetup.com/Rust-Berlin/events/284512764/) | [**Alt Link**](https://berline.rs/2022/04/12/rust-and-tell.html)
 * 2022-04-13 | Munich, DE | [Rust Munich](https://www.meetup.com/rust-munich/)
