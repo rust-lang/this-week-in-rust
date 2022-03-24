@@ -60,6 +60,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Fyrox - Making an Animation Blending State Machine Editor](https://www.youtube.com/watch?v=qkgaY7FwPJU)
 * [video] [Petrochenkov reviews the name resolution code](https://www.youtube.com/watch?v=Y1hvNWUbSDk)
 
+* [video] [UIUC CS 128 Honors Rust Lectures](https://www.youtube.com/playlist?list=PLezlz_6l_jm2MU-yfzKWerZV1rai71bw4)
+
 ### Miscellaneous
 * [Cross-platform Brainfuck Interpreter implementation in Rust - Part 1](https://rtoch.com/posts/brainfuck-interpreter-implementation-part-1/)
 * [Cross-platform Brainfuck Interpreter implementation in Rust - Part 2](https://rtoch.com/posts/brainfuck-interpreter-implementation-part-2/)
