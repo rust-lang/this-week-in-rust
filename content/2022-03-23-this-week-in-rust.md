@@ -16,6 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Official
 * [video] [2022-03-21 Cross Team Collaboration Fun Times (CTCFT)](https://www.youtube.com/watch?v=GJp0W_Pg-1g)
+* [Rustc Reading Club Phase I Retrospective](https://mojosd.medium.com/rrc-phase-i-retrospective-74141fb246e4)
 
 ### Foundation
 * [Rust Community Grants Program - Survey Responses](https://foundation.rust-lang.org/news/2022-03-17-community-grants-program-survey-responses/)
@@ -34,7 +35,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [Rust is minimalist](https://kerkour.com/rust-is-minimalist)
-* [Rustc Reading Club Phase I Retrospective](https://mojosd.medium.com/rrc-phase-i-retrospective-74141fb246e4)
 * [Rust's Unsafe Pointer Types Need An Overhaul - Faultlore](https://gankra.github.io/blah/fix-rust-pointers/)
 * [Learning Rust: My 6 Key Moments](https://apollolabsblog.hashnode.dev/learning-rust-my-6-key-moments)
 * [I do understand the * operator in Rust now](https://micouy.github.io/rust-dereferencing/)
