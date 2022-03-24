@@ -15,35 +15,66 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [video] [2022-03-21 Cross Team Collaboration Fun Times (CTCFT)](https://www.youtube.com/watch?v=GJp0W_Pg-1g)
+
+### Foundation
+* [Rust Community Grants Program - Survey Responses](https://foundation.rust-lang.org/news/2022-03-17-community-grants-program-survey-responses/)
+* [Announcing three new Rust Foundation Board Members](https://foundation.rust-lang.org/news/2022-03-16-news-announcing-three-new-board-members-copy/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [Rust-Analyzer Changelog #121](https://rust-analyzer.github.io/thisweek/2022/03/21/changelog-121.html)
 * [Rust superpowered DHCP cli with Rhai scripts](https://leshow.github.io/post/dhcpm/)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W11](https://www.fornjot.app/blog/weekly-dev-log/2022-w11/)
 * [A Year of BonsaiDb: A retrospective and looking to the future](https://bonsaidb.io/blog/one-year-anniversary/)
 * [Slint (GUI crate) weekly update](https://slint-ui.com/thisweek/2022-03-21.html)
+* [This week in Fluvio #25: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0025/)
+* [Nushell 0.60](https://www.nushell.sh/blog/2022-03-22-nushell_0_60.html)
+* [Skytable 0.7.4 is here: authn, entity syntax, fixes and more](https://blog.skytable.io/skytable-0-7-4-is-here/)
+* [Boa release v0.14](https://boa-dev.github.io/posts/2022-03-15-boa-release-14/)
 
 ### Observations/Thoughts
-
+* [Rust is minimalist](https://kerkour.com/rust-is-minimalist)
 * [Rustc Reading Club Phase I Retrospective](https://mojosd.medium.com/rrc-phase-i-retrospective-74141fb246e4)
+* [Rust's Unsafe Pointer Types Need An Overhaul - Faultlore](https://gankra.github.io/blah/fix-rust-pointers/)
+* [Learning Rust: My 6 Key Moments](https://apollolabsblog.hashnode.dev/learning-rust-my-6-key-moments)
+* [I do understand the * operator in Rust now](https://micouy.github.io/rust-dereferencing/)
+* [The code is the specification? Introducing cargo spec](https://www.cryptologie.net/article/553/the-code-is-the-specification-introducing-cargo-spec/)
+* [Functional Futures: Live-Coding Rust with Tim McNamara](https://serokell.io/blog/live-coding-rust-with-tim-mcnamara)
+* [Help stabilize hyper in curl](https://seanmonstar.com/post/678895803144830976/help-stabilize-hyper-in-curl)
+* [Do we really need language support for self-references?](https://robinmoussu.gitlab.io/blog/post/2022-03-16_do_we_really_need_language_support_for_self_references/)
+* [video] [Runtime-agnostic async crates by Zeeshan Ali](https://www.youtube.com/watch?v=w1vKAUor-4o)
+* [video] [Tauri Foundations by Daniel Thompson-Yvetot](https://www.youtube.com/watch?v=u4OsO6dow0c)
+* [audio] [id3 with Roel](https://rustacean-station.org/episode/060-roel/)
 
 ### Rust Walkthroughs
 * [Procedural macros under the hood: Part I](https://blog.jetbrains.com/rust/2022/03/18/procedural-macros-under-the-hood-part-i/)
-
+* [A tour of the Rust and C++ interoperability ecosystem](https://blog.tetrane.com/2022/Rust-Cxx-interop.html)
+* [Architecture Experiment: Moving a front-end to Rust and WASM](https://nutsys.com/blog/architecture-experiment-rust-wasm-1/)
+* [Web Socket for Productivity in Rust](https://www.ahmadrosid.com/blog/rust-websocket)
+* [Advanced logging in rust with log4rs: rotation, retention, patterns, multiple loggers](https://medium.com/nikmas-group/advanced-logging-in-rust-with-log4rs-2d712bb322de)
+* [Why your first FizzBuzz implementation may not work](https://chrismorgan.info/blog/rust-fizzbuzz/)
 * [ZH] [Exploring Rust Mobile Development and Cross-Platform Patterns (Rust 移动开发与跨平台模式探究)](https://zhuanlan.zhihu.com/p/484269271)
+* [series] [video] [Writing a Programming Language (in Rust) 22: Laurel: Continuing a bash script port](https://www.youtube.com/watch?v=OynJIFEsf3o)
+* [video] [Fyrox - Making an Animation Blending State Machine Editor](https://www.youtube.com/watch?v=qkgaY7FwPJU)
+* [video] [Petrochenkov reviews the name resolution code](https://www.youtube.com/watch?v=Y1hvNWUbSDk)
+
+* [video] [UIUC CS 128 Honors Rust Lectures](https://www.youtube.com/playlist?list=PLezlz_6l_jm2MU-yfzKWerZV1rai71bw4)
 
 ### Miscellaneous
 * [Cross-platform Brainfuck Interpreter implementation in Rust - Part 1](https://rtoch.com/posts/brainfuck-interpreter-implementation-part-1/)
 * [Cross-platform Brainfuck Interpreter implementation in Rust - Part 2](https://rtoch.com/posts/brainfuck-interpreter-implementation-part-2/)
 * [Rust talks I2C on Apache NuttX RTOS](https://lupyuen.github.io/articles/rusti2c)
+* [Rust Patches For The Linux Kernel Updated A Fifth Time With New Features](https://www.phoronix.com/scan.php?page=news_item&px=Rust-For-Linux-v5)
+* [DE] [Programmiersprache: Rust könnte neue Technik für Unsafe Pointer bekommen](https://www.golem.de/news/programmiersprache-rust-koennte-neue-technik-fuer-unsafe-pointer-bekommen-2203-164046.html)
+
 
 ## Crate of the Week
 
-This week's crate is [noline](https://crates.io/crates/noline), a small no-std compatible readline-like line editor.
+This week's crate is [heph](https://docs.rs/heph), an event-driven, non-blocking I/O, share-nothing actor framework.
 
-A lack of suggestions notwithstanding, llogiq is pretty pleased with his choice.
+Thanks to [Cole Lawrence](https://users.rust-lang.org/t/crate-of-the-week/2704/1045) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -62,62 +93,69 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-302 pull requests were [merged in the last week][merged]
+287 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-03-07..2022-03-14
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-03-14..2022-03-21
 
-* [diagnostics: do not spuriously claim something is "not an iterator"](https://github.com/rust-lang/rust/pull/94870)
-* [diagnostics: single colon within `<>` probably, not type ascription](https://github.com/rust-lang/rust/pull/94865)
-* [improve suggestion when casting `usize` to (possibly) wide pointer](https://github.com/rust-lang/rust/pull/92150)
-* [warn users about `||` in `let` chain expressions](https://github.com/rust-lang/rust/pull/94754)
-* [suggest `if let`/`let_else` for refutable pat in `let`](https://github.com/rust-lang/rust/pull/94739)
-* [suggest using double colon when a struct field type include single colon](https://github.com/rust-lang/rust/pull/94839)
-* [miri: implement `simd_`{`shuffle`, `gather`, `scatter`}](https://github.com/rust-lang/miri/pull/2013)
-* [CTFE/Miri: detect out-of-bounds pointers in `offset_from`](https://github.com/rust-lang/rust/pull/94827)
-* [change several `HashMap`s to `IndexMap` to improve incremental hashing performance](https://github.com/rust-lang/rust/pull/90253)
-* [improve `AdtDef` interning](https://github.com/rust-lang/rust/pull/94733)
-* [optimize `ascii::escape_default`](https://github.com/rust-lang/rust/pull/94776)
-* [make some `Clone` impls `const`](https://github.com/rust-lang/rust/pull/91804)
-* [remove argument from closure in `thread::Scope::spawn`](https://github.com/rust-lang/rust/pull/94559)
-* [use `MaybeUninit` in `VecDeque` to remove the undefined behavior of slice](https://github.com/rust-lang/rust/pull/94472)
-* [constify `Index`{,`Mut`} for `[T]`, `str`, and `[T; N]`](https://github.com/rust-lang/rust/pull/94657)
-* [fix soundness issue in scoped threads](https://github.com/rust-lang/rust/pull/94644)
-* [implement `BITS` constant for non-zero integers](https://github.com/rust-lang/rust/pull/93292)
-* [implement `MIN`/`MAX` constants for non-zero integers](https://github.com/rust-lang/rust/pull/93293)
-* [add `Result::`{`ok`, `err`, `and`, `or`, `unwrap_or`} as `const`](https://github.com/rust-lang/rust/pull/92385)
-* [add `Atomic`*`::get_mut_slice`](https://github.com/rust-lang/rust/pull/94816)
-* [add `core::hint::must_use`](https://github.com/rust-lang/rust/pull/94723)
-* [unix: reduce the size of `DirEntry`](https://github.com/rust-lang/rust/pull/94750)
-* [portable-simd: add `.min` and `.max` for integers](https://github.com/rust-lang/portable-simd/pull/260)
-* [compiler-builtins: add support for Apple watchOS](https://github.com/rust-lang/compiler-builtins/pull/456)
-* [futures: add `Mutex::lock_owned` and `Mutex::try_lock_owned`](https://github.com/rust-lang/futures-rs/pull/2571)
-* [rustfmt: improve mod resolution error for mods with multiple candidate files](https://github.com/rust-lang/rustfmt/pull/5243)
-* [clippy: improve styles of filtering options for Clippy's lint list](https://github.com/rust-lang/rust-clippy/pull/8070)
-* [clippy: new lint that detects useless match expression](https://github.com/rust-lang/rust-clippy/pull/8471)
-* [clippy: new lint: `only_used_in_recursion`](https://github.com/rust-lang/rust-clippy/pull/8422)
-* [clippy: allow `single_component_path_imports` for all macros](https://github.com/rust-lang/rust-clippy/pull/8537)
-* [clippy: make `search_is_some`s suggestion `MachineApplicable`](https://github.com/rust-lang/rust-clippy/pull/8536)
+* [always evaluate all cfg predicate in all() and any()](https://github.com/rust-lang/rust/pull/94295)
+* [stabilise `aarch64_target_feature`](https://github.com/rust-lang/rust/pull/90621)
+* [implement `-Z oom=panic`](https://github.com/rust-lang/rust/pull/88098)
+* [make negative coherence work when there's impl negative on super predicates](https://github.com/rust-lang/rust/pull/95039)
+* [more robust fallback for `use` suggestion](https://github.com/rust-lang/rust/pull/94584)
+* [suggest removing type ascription in bad parsing position](https://github.com/rust-lang/rust/pull/95104)
+* [improve `unsafe` diagnostic](https://github.com/rust-lang/rust/pull/91133)
+* [fix diagnostics for `#![feature(deprecated_suggestion)]`](https://github.com/rust-lang/rust/pull/94948)
+* [miri: add a lot more information to SB fatal errors](https://github.com/rust-lang/miri/pull/1971)
+* [miri: make backtraces work with #[global_allocator]](https://github.com/rust-lang/miri/pull/1975)
+* [miri: implement SIMD float rounding functions](https://github.com/rust-lang/miri/pull/2028)
+* [miri: implement SIMD square root and fused multiply-add](https://github.com/rust-lang/miri/pull/2031)
+* [miri: implement SIMD bitmask intrinsics](https://github.com/rust-lang/miri/pull/2029)
+* [add `#[inline]` to trivial `AsRef`/`AsMut` impls](https://github.com/rust-lang/rust/pull/94372)
+* [`BTreeMap::entry`: avoid allocating if no insertion](https://github.com/rust-lang/rust/pull/92962)
+* [implement `Write for Cursor<[u8; N]>`, plus `A: Allocator` cursor support](https://github.com/rust-lang/rust/pull/92663)
+* [improve `expect` impl and handle `#[expect(unfulfilled_lint_expectations)]` (RFC 2383)](https://github.com/rust-lang/rust/pull/94670)
+* [make `Weak::new` const](https://github.com/rust-lang/rust/pull/94991)
+* [portable-simd: fix big-endian bitmasks smaller than a byte](https://github.com/rust-lang/portable-simd/pull/267)
+* [libc: add support for Apple WatchOS](https://github.com/rust-lang/libc/pull/2717)
+* [codegen\_gcc: fix ice in box alloc](https://github.com/rust-lang/rustc_codegen_gcc/pull/137)
+* [codegen\_gcc: fix shift of unsigned integer by signed integer](https://github.com/rust-lang/rustc_codegen_gcc/pull/141)
+* [codegen\_gcc: fix version of compiler_builtins to fix compilation failure](https://github.com/rust-lang/rustc_codegen_gcc/pull/139)
+* [cargo: fix panic when artifact target is used for `[target.'cfg(<target>)'.dependencies`](https://github.com/rust-lang/cargo/pull/10433)
+* [rustfmt: add `short_item_threshold` config option](https://github.com/rust-lang/rustfmt/pull/5228)
+* [rustfmt: honor `#[rustfmt::skip::attributes(derive)]` attribute](https://github.com/rust-lang/rustfmt/pull/5271)
+* [rustfmt: search for struct body span after any generic arguments](https://github.com/rust-lang/rustfmt/pull/5274)
+* [clippy: add lint `cast_enum_constructor`](https://github.com/rust-lang/rust-clippy/pull/8562)
+* [clippy: add `or_then_unwrap`](https://github.com/rust-lang/rust-clippy/pull/8561)
+* [clippy: don't lint `ptr_arg` on `&mut Cow<_>`](https://github.com/rust-lang/rust-clippy/pull/8552)
+* [clippy: don't lint `transmute_undefined_repr` when changing the type of generic params](https://github.com/rust-lang/rust-clippy/pull/8553)
+* [clippy: fix `unncessary_to_owned` false positive](https://github.com/rust-lang/rust-clippy/pull/8509)
+* [clippy: `unnecessary_lazy_eval` show suggestions on multiline lint](https://github.com/rust-lang/rust-clippy/pull/8543)
+* [clippy: fix suggestion on `map_flatten` being cropped causing possible information loss](https://github.com/rust-lang/rust-clippy/pull/8520)
+* [clippy: `match_same_arms` fix](https://github.com/rust-lang/rust-clippy/pull/8232)
+* [clippy: more `transmute_undefined_repr` fixes](https://github.com/rust-lang/rust-clippy/pull/8547)
+* [clippy: move `iter_with_drain` to nursery](https://github.com/rust-lang/rust-clippy/pull/8541)
+* [clippy: move `try_err` to restriction](https://github.com/rust-lang/rust-clippy/pull/8544)
 
 ### Rust Compiler Performance Triage
 
-Largely a quiet week. The perf improvement highlight is the use of real world crates such as `syn`, `cargo`, and `serde` in the collecting of profile guided optimization (PGO) profiles. Previously only `libcore` was used. This led to some decent improvement in compilation of real world crates (upwards of 5.5%). 
+Very quiet week for performance, with just one statistically significant change
+landing in the last week. This change was a regression, though primarily in
+stress tests, and was a result of a soundness fix.
 
-On the regression side, the regressions were all largely small but contained inside of rollups making them hard to diagnose and correct. The perf team continues to work on process improvements that make changes to the compiler land through CI quickly while minimizing perf regressions that can sneak through.
+Triage done by **@simulacrum**.
+Revision range: [3ba1ebea..3ea4493](https://perf.rust-lang.org/?start=3ba1ebea122238d1a5c613deb1bf60ce24bd8fd8&end=3ea44938e21f0de8ae7d4f6399a8a30f97867c70&absolute=false&stat=instructions%3Au)
 
-Triage done by **@rylev**.
-Revision range: [10dccdc..3ba1eb](https://perf.rust-lang.org/?start=10dccdc7fcbdc64ee9efe2c1ed975ab8c1d61287&end=3ba1ebea122238d1a5c613deb1bf60ce24bd8fd8&absolute=false&stat=instructions%3Au)
+1 Regressions, 0 Improvements, 0 Mixed; 0 of them in rollups
+37 comparisons made in total
 
-2 Regressions, 3 Improvements, 3 Mixed; 3 of them in rollups
-42 comparisons made in total
-
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-03-15.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-03-22.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Cargo alternative registry auth](https://github.com/rust-lang/rfcs/pull/3139)
+* [Add vendor-specific suffixes to v0 mangling RFC 2603](https://github.com/rust-lang/rfcs/pull/3224)
 
 ### Final Comment Period
 
@@ -127,17 +165,27 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* *No RFCs entered Final Comment Period this week.*
+* [disposition: merge] [Cargo authenticating users without sending secrets over the network](https://github.com/rust-lang/rfcs/pull/3231)
+* [disposition: merge] [Add provide_any module to core](https://github.com/rust-lang/rfcs/pull/3192)
+* [disposition: close] [Add the partial-closure-args RFC.](https://github.com/rust-lang/rfcs/pull/2956)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Tracking Issue for JoinHandle::is_finished](https://github.com/rust-lang/rust/issues/90470)
-* [disposition: merge] [Tracking issue for const extern fn and const unsafe extern fn](https://github.com/rust-lang/rust/issues/64926)
-* [disposition: merge] [Always evaluate all cfg predicate in all() and any()](https://github.com/rust-lang/rust/pull/94295)
+* [disposition: merge] [Lazy tait (Type Alias Impl Trait) take two](https://github.com/rust-lang/rust/pull/94081)
+* [disposition: close] [Allow struct and enum to contain inner attrs](https://github.com/rust-lang/rust/pull/84414)
+* [disposition: merge] [Fix constants not getting dropped if part of a diverging expression](https://github.com/rust-lang/rust/pull/94775)
+* [disposition: merge] [impl From\<&\[T; N\]\> and From\<&mut \[T; N\]\> for Vec\<T\>](https://github.com/rust-lang/rust/pull/95098)
+* [disposition: merge] [Docs: make Vec::from_raw_parts documentation less strict](https://github.com/rust-lang/rust/pull/95016)
+* [disposition: merge] [Clarify that ManuallyDrop\<T\> has same layout as T](https://github.com/rust-lang/rust/pull/88375)
+* [disposition: merge] [Allow comparing Vecs with different allocators using `==`](https://github.com/rust-lang/rust/pull/93755)
+* [disposition: merge] [Stabilize Termination and ExitCode](https://github.com/rust-lang/rust/pull/93840)
+* [disposition: merge] [Tracking Issue for cell_filter_map](https://github.com/rust-lang/rust/issues/81061)
+* [disposition: merge] [Stabilize native library modifier syntax and the `whole-archive` modifier specifically](https://github.com/rust-lang/rust/pull/93901)
+* [disposition: merge] [Tracking Issue for making ptr offset methods "const fn"](https://github.com/rust-lang/rust/issues/71499)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [new] [RFC: Packages as (optional) namespaces](https://github.com/rust-lang/rfcs/pull/3243)
+* [new] [Refined trait implementations](https://github.com/rust-lang/rfcs/pull/3245)
 
 ## Upcoming Events
 
@@ -216,30 +264,20 @@ Email the [Rust Community Team][community] for access.
 
 * [Blockchain Core Engineer (Remote)](https://rustjobs.dev/featured-jobs/Nimiq-Blockchain-Protocol-Core-Engineer-Rust-iAd8SGJPRzrYctf2u7MG)
 
+**Kollider**
+
+* [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
+* [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-> protip: the rust extern keyword has a --help flag
->
-> ```text
-> error[E0703]: invalid ABI: found `--help`
->  --> ext.rs:1:8
->   |
-> 1 | extern "--help" {}  fn main() {}
->   |        ^^^^^^^^ invalid ABI
->   |
->   = help: valid ABIs: Rust, C, C-unwind, cdecl, stdcall, stdcall-unwind, fastcall, vectorcall, thiscall, thiscall-unwind, aapcs, win64, sysv64, ptx-kernel, msp430-interrupt, x86-interrupt, amdgpu-kernel, efiapi, avr-interrupt, avr-non-blocking-interrupt, C-cmse-nonsecure-call, wasm, system, system-unwind, rust-intrinsic, rust-call, platform-intrinsic, unadjusted
->
-> error: aborting due to previous error
->
-> For more information about this error, try `rustc --explain E0703`.
-> ```
+> today I learned that `unsafe` is also a tool for people who are actively looking to implement bugs.
 
-– [Aria the Cat (with some help from rustc) on twitter](https://twitter.com/Gankra_/status/1501307407292641280)
+– [blonk on rust-users](https://users.rust-lang.org/t/difficulty-in-inventing-bugs/72963)
 
-Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1188) for the suggestion!
+Thanks to [Michael Bryan](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1197) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
