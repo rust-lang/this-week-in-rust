@@ -29,7 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Fluvio #24: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0024/)
 * [This Month in Rust OSDev: February 2022 | Rust OSDev](https://rust-osdev.com/this-month/2022-02/)
 * [IntelliJ Rust Changelog #166](https://intellij-rust.github.io/2022/03/09/changelog-166.html)
-* [Rust-Analyzer Changelog #119](https://rust-analyzer.github.io/thisweek/2022/03/07/changelog-119.html)
+* [rust-analyzer Changelog #119](https://rust-analyzer.github.io/thisweek/2022/03/07/changelog-119.html)
 * [This week in Databend #32: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-03-09-databend-weekly/)
 * [DE] [WebAssembly-Runtime: Wasmer 2.2 liefert mehr Leistung im Singlepass Compiler](https://www.heise.de/news/WebAssembly-Runtime-Wasmer-2-2-liefert-mehr-Leistung-im-Singlepass-Compiler-6533165.html)
 

@@ -21,7 +21,7 @@ No newsletters this week.
 * [Inside] [Lang team Backlog Bonanza and Project Proposals](https://blog.rust-lang.org/inside-rust/2020/10/16/Backlog-Bonanza.html)
 
 ### Tooling
-* [Rust-Analyzer Changelog #47](https://rust-analyzer.github.io/thisweek/2020/10/19/changelog-47.html)
+* [rust-analyzer Changelog #47](https://rust-analyzer.github.io/thisweek/2020/10/19/changelog-47.html)
 * [IntelliJ Rust Changelog #133](https://intellij-rust.github.io/2020/10/19/changelog-133.html)
 
 ### Observations/Thoughts

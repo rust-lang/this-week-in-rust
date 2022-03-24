@@ -22,7 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Tooling
 * [IntelliJ Rust Changelog #135](https://intellij-rust.github.io/2020/11/16/changelog-135.html)
-* [Rust-Analyzer Changelog #51](https://rust-analyzer.github.io/thisweek/2020/11/16/changelog-51.html)
+* [rust-analyzer Changelog #51](https://rust-analyzer.github.io/thisweek/2020/11/16/changelog-51.html)
 * [Knurling-rs Changelog #6](https://ferrous-systems.com/blog/knurling-changelog-6/)
 
 ### Observations/Thoughts

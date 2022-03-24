@@ -22,7 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This Month in Rust GameDev #31 - February 2022](https://gamedev.rs/news/031/)
 
 ### Project/Tooling Updates
-* [Rust-Analyzer Changelog #120](https://rust-analyzer.github.io/thisweek/2022/03/14/changelog-120.html)
+* [rust-analyzer Changelog #120](https://rust-analyzer.github.io/thisweek/2022/03/14/changelog-120.html)
 * [Tantivy 0.17 is out | Quickwit](https://quickwit.io/blog/tantivy-0.17/)
 * [Knurling-rs changelog #34](https://ferrous-systems.com/blog/knurling-changelog-34/)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W10](https://www.fornjot.app/blog/weekly-dev-log/2022-w10/)

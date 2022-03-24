@@ -26,7 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 * [Announcing Tokio Metrics 0.1](https://tokio.rs/blog/2022-02-announcing-tokio-metrics)
-* [Rust-Analyzer Changelog #117](https://rust-analyzer.github.io/thisweek/2022/02/21/changelog-117.html)
+* [rust-analyzer Changelog #117](https://rust-analyzer.github.io/thisweek/2022/02/21/changelog-117.html)
 * [clap 3.1: A step towards 4.0](https://epage.github.io/blog/2022/02/clap-31-a-step-towards-40/)
 * [Zellij 0.25.0: floating panes, Tmux mode and more!](https://zellij.dev/news/floating-panes-tmux-mode/)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W07](https://www.fornjot.app/blog/weekly-dev-log/2022-w07/)

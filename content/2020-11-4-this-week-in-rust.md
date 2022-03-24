@@ -22,7 +22,7 @@ No Rust Blog posts this week.
 * [These Weeks in Actix | Sep-Oct '20](https://www.reddit.com/r/rust/comments/jkv5xu/these_weeks_in_actix_sepoct_20/)
 
 ### Tooling
-* [Rust-Analyzer Changelog #49](https://rust-analyzer.github.io/thisweek/2020/11/02/changelog-49.html)
+* [rust-analyzer Changelog #49](https://rust-analyzer.github.io/thisweek/2020/11/02/changelog-49.html)
 * [IntelliJ Rust Changelog #134](https://intellij-rust.github.io/2020/11/02/changelog-134.html)
 * [IntelliJ Rust: New Functionality for Cargo Features](https://blog.jetbrains.com/clion/2020/10/intellij-rust-new-functionality-for-cargo-features/)
 

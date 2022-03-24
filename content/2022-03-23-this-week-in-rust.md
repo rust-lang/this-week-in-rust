@@ -22,7 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Announcing three new Rust Foundation Board Members](https://foundation.rust-lang.org/news/2022-03-16-news-announcing-three-new-board-members-copy/)
 
 ### Project/Tooling Updates
-* [Rust-Analyzer Changelog #121](https://rust-analyzer.github.io/thisweek/2022/03/21/changelog-121.html)
+* [rust-analyzer Changelog #121](https://rust-analyzer.github.io/thisweek/2022/03/21/changelog-121.html)
 * [Rust superpowered DHCP cli with Rhai scripts](https://leshow.github.io/post/dhcpm/)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W11](https://www.fornjot.app/blog/weekly-dev-log/2022-w11/)
 * [A Year of BonsaiDb: A retrospective and looking to the future](https://bonsaidb.io/blog/one-year-anniversary/)

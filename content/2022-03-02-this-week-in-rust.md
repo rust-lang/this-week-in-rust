@@ -34,7 +34,7 @@ for donating, taking action, and staying informed.
 * [Announcing Rust 1.59.0](https://blog.rust-lang.org/2022/02/24/Rust-1.59.0.html)
 
 ### Project/Tooling Updates
-* [Rust-Analyzer Changelog #118](https://rust-analyzer.github.io/thisweek/2022/02/28/changelog-118.html)
+* [rust-analyzer Changelog #118](https://rust-analyzer.github.io/thisweek/2022/02/28/changelog-118.html)
 * [GCC Rust Monthly Report #14 February 2022](https://thephilbert.io/2022/02/25/gcc-rust-monthly-report-14-february-2022/)
 * [rustc_codegen_gcc: Progress Report #9](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-9)
 * [Announcing Actix Web v4.0](https://github.com/actix/actix-web/wiki/v4-Announcement)
