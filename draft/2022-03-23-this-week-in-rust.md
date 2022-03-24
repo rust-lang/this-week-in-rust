@@ -102,17 +102,17 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-Largely a quiet week. The perf improvement highlight is the use of real world crates such as `syn`, `cargo`, and `serde` in the collecting of profile guided optimization (PGO) profiles. Previously only `libcore` was used. This led to some decent improvement in compilation of real world crates (upwards of 5.5%). 
+Very quiet week for performance, with just one statistically significant change
+landing in the last week. This change was a regression, though primarily in
+stress tests, and was a result of a soundness fix.
 
-On the regression side, the regressions were all largely small but contained inside of rollups making them hard to diagnose and correct. The perf team continues to work on process improvements that make changes to the compiler land through CI quickly while minimizing perf regressions that can sneak through.
+Triage done by **@simulacrum**.
+Revision range: [3ba1ebea..3ea4493](https://perf.rust-lang.org/?start=3ba1ebea122238d1a5c613deb1bf60ce24bd8fd8&end=3ea44938e21f0de8ae7d4f6399a8a30f97867c70&absolute=false&stat=instructions%3Au)
 
-Triage done by **@rylev**.
-Revision range: [10dccdc..3ba1eb](https://perf.rust-lang.org/?start=10dccdc7fcbdc64ee9efe2c1ed975ab8c1d61287&end=3ba1ebea122238d1a5c613deb1bf60ce24bd8fd8&absolute=false&stat=instructions%3Au)
+1 Regressions, 0 Improvements, 0 Mixed; 0 of them in rollups
+37 comparisons made in total
 
-2 Regressions, 3 Improvements, 3 Mixed; 3 of them in rollups
-42 comparisons made in total
-
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-03-15.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-03-22.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
