@@ -21,8 +21,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust Community Grants Program - Survey Responses](https://foundation.rust-lang.org/news/2022-03-17-community-grants-program-survey-responses/)
 * [Announcing three new Rust Foundation Board Members](https://foundation.rust-lang.org/news/2022-03-16-news-announcing-three-new-board-members-copy/)
 
-### Newsletters
-
 ### Project/Tooling Updates
 * [Rust-Analyzer Changelog #121](https://rust-analyzer.github.io/thisweek/2022/03/21/changelog-121.html)
 * [Rust superpowered DHCP cli with Rhai scripts](https://leshow.github.io/post/dhcpm/)
@@ -55,11 +53,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Web Socket for Productivity in Rust](https://www.ahmadrosid.com/blog/rust-websocket)
 * [Advanced logging in rust with log4rs: rotation, retention, patterns, multiple loggers](https://medium.com/nikmas-group/advanced-logging-in-rust-with-log4rs-2d712bb322de)
 * [Why your first FizzBuzz implementation may not work](https://chrismorgan.info/blog/rust-fizzbuzz/)
+* [Build an URL Shortener with LFU Cache by Rust](https://levelup.gitconnected.com/build-an-url-shortener-with-lfu-cache-by-rust-d2056a4d24e9)
 * [ZH] [Exploring Rust Mobile Development and Cross-Platform Patterns (Rust 移动开发与跨平台模式探究)](https://zhuanlan.zhihu.com/p/484269271)
 * [series] [video] [Writing a Programming Language (in Rust) 22: Laurel: Continuing a bash script port](https://www.youtube.com/watch?v=OynJIFEsf3o)
 * [video] [Fyrox - Making an Animation Blending State Machine Editor](https://www.youtube.com/watch?v=qkgaY7FwPJU)
 * [video] [Petrochenkov reviews the name resolution code](https://www.youtube.com/watch?v=Y1hvNWUbSDk)
-
 * [video] [UIUC CS 128 Honors Rust Lectures](https://www.youtube.com/playlist?list=PLezlz_6l_jm2MU-yfzKWerZV1rai71bw4)
 
 ### Miscellaneous
@@ -86,6 +84,10 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+**CAD97/tracing-filter**
+
+* [Collecting usage desires](https://github.com/CAD97/tracing-filter/discussions/1)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -240,7 +242,6 @@ Rusty Events between 2022-03-23 - 2022-04-20 🦀
 * 2022-04-14 | Cambridge, UK | [Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/)
     * [**Cambridge Rust Reboot 2**](https://www.meetup.com/Cambridge-Rust-Meetup/events/284505361/)
 
-
 ### North America
 * 2022-04-05 | Denver, CO, US | [Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/)
     * [**Using Futures to wrap an unsafe USB API to play audio directly - with live stream**](https://www.meetup.com/Rust-Boulder-Denver/events/284371995/)
@@ -260,6 +261,18 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Bionaut Labs**
+
+*[Embedded Software Engineer (Senior) (Remote)](https://www.indeed.com/viewjob?jk=bd2d65c6b37d561c)
+
+**OCR Labs**
+
+* [Rust 🦀 Developer (Remote)](https://github.com/OCRLabs/jd-rust-engineer)
+
+**Komodo**
+
+* [Software Developer interested in learning Rust (Remote)](https://utxo-ltd.breezy.hr/p/c374829c873c01-software-developer-interested-in-learn-rust)
+
 **Nimiq**
 
 * [Blockchain Core Engineer (Remote)](https://rustjobs.dev/featured-jobs/Nimiq-Blockchain-Protocol-Core-Engineer-Rust-iAd8SGJPRzrYctf2u7MG)
@@ -268,6 +281,12 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
 * [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
+
+**Kraken**
+
+* [Engineering Manager - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/53def500-b146-40da-89a8-98adfd7e84e4)
+* [Rust Engineer, Desktop GUI - Cryptowatch (Remote)](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
+* [Site Reliability Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/1c6b290f-e430-430d-9b40-a258d07686b0)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
