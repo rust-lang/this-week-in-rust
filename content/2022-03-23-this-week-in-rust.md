@@ -31,6 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Nushell 0.60](https://www.nushell.sh/blog/2022-03-22-nushell_0_60.html)
 * [Skytable 0.7.4 is here: authn, entity syntax, fixes and more](https://blog.skytable.io/skytable-0-7-4-is-here/)
 * [Boa release v0.14](https://boa-dev.github.io/posts/2022-03-15-boa-release-14/)
+* [This week in Databend #34: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-03-23-databend-weekly/)
 
 ### Observations/Thoughts
 * [Rust is minimalist](https://kerkour.com/rust-is-minimalist)
