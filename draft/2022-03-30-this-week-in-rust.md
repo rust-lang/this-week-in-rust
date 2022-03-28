@@ -223,6 +223,13 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+**harrison.ai**
+
+* [Software Engineer (Sydney AU / Remote in AU)](https://jobs.lever.co/harrison/3fa6cc4e-acd4-4e82-9ba0-224524cb4c6a)
+
+    Don't let the Python references fool you, we do lots of Rust 🦀! 
+
+
 # Quote of the Week
 
 > today I learned that `unsafe` is also a tool for people who are actively looking to implement bugs.
