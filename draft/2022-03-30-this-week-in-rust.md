@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 * [Introducing "High Assurance Rust": a FREE systems software security book!](https://highassurance.rs/)
+* [My First Clippy Lint](https://jamesmcm.github.io/blog/2022/03/26/my-first-clippy-lint/#en)
 
 ### Miscellaneous
 
