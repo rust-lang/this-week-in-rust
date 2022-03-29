@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Slint (GUI crate) weekly update](https://slint-ui.com/thisweek/2022-03-28.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
