@@ -18,16 +18,38 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Foundation
 
+* [Member Spotlight: Wyliodrin](https://foundation.rust-lang.org/news/2022-03-29-member-spotlight-wyliodrin/)
+
 ### Project/Tooling Updates
 
+* [Announcing fp-bindgen](https://fiberplane.dev/blog/announcing-fp-bindgen/)
+* [Rust-Analyzer Changelog #122](https://rust-analyzer.github.io/thisweek/2022/03/28/changelog-122.html)
+* [IntelliJ Rust Changelog #167](https://intellij-rust.github.io/2022/03/28/changelog-167.html)
+
 ### Observations/Thoughts
+
+* [dyn*: can we make dyn sized?](https://smallcultfollowing.com/babysteps//blog/2022/03/29/dyn-can-we-make-dyn-sized/)
+* [Oxide on My Wrist: Hubris on PineTime was the best worst idea](https://artemis.sh/2022/03/28/oxide-hubris-on-pinetime.html)
+* [Self Modifying Code](https://matklad.github.io/2022/03/26/self-modifying-code.html)
+* [Async destructors, async genericity and completion futures](https://sabrinajewson.org/blog/async-drop)
+* [A thanks to the traits working group in 2021](https://jackh726.github.io/rust/2022/03/25/a-thanks.html)
 
 ### Rust Walkthroughs
 
 * [Introducing "High Assurance Rust": a FREE systems software security book!](https://highassurance.rs/)
 * [Advanced deserialization with Serde: Parsing Cloudformation templates](https://rtoch.com/posts/advanced-serde/)
+* [My First Clippy Lint - Statistically Insignificant](https://jamesmcm.github.io/blog/2022/03/26/my-first-clippy-lint/)
+* [Introducing "High Assurance Rust"](https://www.reddit.com/r/rust/comments/toq2wj/introducing_high_assurance_rust_a_free_systems/)
+* [Rust for JavaScript developers: SQS batch error handling with AWS Lambda](https://dfrasca.hashnode.dev/rust-for-javascript-developers-sqs-batch-error-handling-with-aws-lambda)
+* [video] [Introduction to WAGI by Rainer Stropek & Stefan Baumgartner](https://www.youtube.com/watch?v=9NDwHBjLlhQ)
+* [video] [Rust for Linux by Miguel Ojeda and Wedson Almeida Filho](https://www.youtube.com/watch?v=fVEeqo40IyQ)
 
 ### Miscellaneous
+
+* [audio] [Interview with Dustin (A/B Street) | Rust Game Dev](https://rustgamedev.com/episodes/interview-with-dustin-a-b-street-ZCVQAek1)
+* [audio] [Rust Servers, Services, and Apps with Prabhu Eshwarla :: Rustacean ...](https://rustacean-station.org/episode/061-prabhu-eshwarla/)
+* [videos] [RustFest LATAM 2022 [ESP]](https://www.youtube.com/playlist?list=PL85XCvVPmGQg4ks051r3VbgKGbV3FYUzo)
+* [videos] [RustFest LATAM 2022 [ENG]](https://www.youtube.com/playlist?list=PL85XCvVPmGQiT5Ug60zPQ_t9j3dHyawcy)
 
 ## Crate of the Week
 
