@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+- [Helix editor 22.03 released](https://helix-editor.com/news/release-22-03-highlights/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
