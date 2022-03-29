@@ -28,7 +28,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
-* [dyn*: can we make dyn sized?](https://smallcultfollowing.com/babysteps//blog/2022/03/29/dyn-can-we-make-dyn-sized/)
+* [dyn*: can we make dyn sized?](https://smallcultfollowing.com/babysteps/blog/2022/03/29/dyn-can-we-make-dyn-sized/)
 * [Oxide on My Wrist: Hubris on PineTime was the best worst idea](https://artemis.sh/2022/03/28/oxide-hubris-on-pinetime.html)
 * [Self Modifying Code](https://matklad.github.io/2022/03/26/self-modifying-code.html)
 * [Async destructors, async genericity and completion futures](https://sabrinajewson.org/blog/async-drop)
