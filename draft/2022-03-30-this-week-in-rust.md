@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Rust Walkthroughs
 
 * [Introducing "High Assurance Rust": a FREE systems software security book!](https://highassurance.rs/)
+* [Advanced deserialization with Serde: Parsing Cloudformation templates](https://rtoch.com/posts/advanced-serde/)
 
 ### Miscellaneous
 
