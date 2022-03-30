@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [BonsaiDb v0.4.0: Now available without async](https://bonsaidb.io/blog/bonsaidb-v0-4-0/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
