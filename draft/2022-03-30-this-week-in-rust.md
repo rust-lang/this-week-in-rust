@@ -22,8 +22,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [When not to use Rust?](https://kerkour.com/why-not-rust)
+
 ### Rust Walkthroughs
 
+* [Cross-compilation in Rust](https://kerkour.com/rust-cross-compilation)
 * [Introducing "High Assurance Rust": a FREE systems software security book!](https://highassurance.rs/)
 * [Advanced deserialization with Serde: Parsing Cloudformation templates](https://rtoch.com/posts/advanced-serde/)
 
