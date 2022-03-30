@@ -37,6 +37,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Async destructors, async genericity and completion futures](https://sabrinajewson.org/blog/async-drop)
 * [A thanks to the traits working group in 2021](https://jackh726.github.io/rust/2022/03/25/a-thanks.html)
 * [When not to use Rust?](https://kerkour.com/why-not-rust)
+* [Yet Another GitHub Profile Generator](https://blog.urth.org/2022/03/28/yet-another-github-profile-generator/)
 
 ### Rust Walkthroughs
 
