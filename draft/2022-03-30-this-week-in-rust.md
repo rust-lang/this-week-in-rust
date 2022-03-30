@@ -26,6 +26,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Introducing "High Assurance Rust": a FREE systems software security book!](https://highassurance.rs/)
 * [Advanced deserialization with Serde: Parsing Cloudformation templates](https://rtoch.com/posts/advanced-serde/)
+* [Tiny and Fast Docker image for Rust Application](https://azzamsa.com/n/rust-docker/)
 
 ### Miscellaneous
 
