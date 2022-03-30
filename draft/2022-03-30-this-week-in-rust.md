@@ -14,8 +14,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-### Official
-
 ### Foundation
 
 * [Member Spotlight: Wyliodrin](https://foundation.rust-lang.org/news/2022-03-29-member-spotlight-wyliodrin/)
@@ -233,7 +231,8 @@ Rusty Events between 2022-03-30 - 2022-04-27 🦀
 * 2022-04-12 | Berlin, DE | [Rust Berlin](https://www.meetup.com/Rust-Berlin/)
     * [**Rust and Tell - an onsite event**](https://www.meetup.com/Rust-Berlin/events/284512764/) | [**Alt Link**](https://berline.rs/2022/04/12/rust-and-tell.html)
 * 2022-04-13 | Munich, DE | [Rust Munich](https://www.meetup.com/rust-munich/)
-    * [**Rust Munich 2022 / 1 - hybrid**](https://www.meetup.com/rust-munich/events/283790509/)
+* 2022-04-13 | Paris, FR | [Stockly](https://www.welcometothejungle.com/fr/companies/stockly-1)
+    * [**Rust Meetup in Paris - hosted by Stockly, Qovery & Meilisearch**](https://www.eventbrite.com/e/rust-meetup-in-paris-hosted-by-stockly-qovery-meilisearch-tickets-277690869867)
 * 2022-04-14 | Cambridge, UK | [Cambridge Rust Meetup](https://www.meetup.com/Cambridge-Rust-Meetup/)
     * [**Cambridge Rust Reboot 2**](https://www.meetup.com/Cambridge-Rust-Meetup/events/284505361/)
 * 2022-04-19 | Bristol, UK | [Rust Bristol](https://www.meetup.com/rust-bristol/)
@@ -262,11 +261,32 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**PlayStation Global**
+
+* [Senior Software Engineer (Aliso Viejo, CA, US)](https://boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/4241782004)
+
+**harrison.ai**
+
+* [Software Engineer (Sydney, AU / Remote, AU)](https://jobs.lever.co/harrison/3fa6cc4e-acd4-4e82-9ba0-224524cb4c6a)
+
 **Parity**
 
 * [Parachains Engineer - Common Good (Remote)](https://boards.greenhouse.io/parity/jobs/4794657003)
 
-** Quickwit **
+**Enso**
+
+* [☁ ️Senior Cloud Rust Engineer (Remote EU and US)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-cloud-developer.md)
+
+**Nuclia**
+
+* [Rust developer (Remote)](https://nuclia.com/careers/rust-developer/)
+
+**Stockly**
+
+* [Back-end developer - TechOps (Rust, gRPC, PostgreSQL) (Paris, FR, US)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-rust-grpc-postgresql_paris?q=77fd1862155dc1bff74b1adc38a04e92&o=421986&e=companies_jobs)
+* [Back-end developer - Engine (Rust, gRPC, PostgreSQL) (Paris, FR, US)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris?q=77fd1862155dc1bff74b1adc38a04e92&o=625243&e=companies_jobs)
+
+**Quickwit**
 
 * [Senior Software Engineer, Rust & distributed systems - Rust (Remote)](https://quickwit.io/jobs/distributed-software-engineer)
 * [Software search engineering intern - Rust (Remote)](https://quickwit.io/jobs/oss-software-search-engineering-intern)
@@ -276,11 +296,6 @@ Email the [Rust Community Team][community] for access.
 * [Several full-time Rust positions available (San Francisco, CA, US, Atlanta, GA, US, Austin, TX, US, and Remote)](https://tempus-ex.com/careers)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
-
-**harrison.ai**
-
-* [Software Engineer (Sydney, AU / Remote, AU)](https://jobs.lever.co/harrison/3fa6cc4e-acd4-4e82-9ba0-224524cb4c6a)
-
 
 # Quote of the Week
 
