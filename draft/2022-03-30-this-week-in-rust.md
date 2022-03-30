@@ -224,6 +224,10 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+* [Parachains Engineer - Common Good](https://boards.greenhouse.io/parity/jobs/4794657003)
+* [Core Runtime Engineer - Substrate](https://grnh.se/dddd76283us)
+* [Rust / Core Engineer - General Posting](https://grnh.se/1cf2de503us) - engineers new to/learning Rust are very welcomed!
+
 # Quote of the Week
 
 > today I learned that `unsafe` is also a tool for people who are actively looking to implement bugs.
