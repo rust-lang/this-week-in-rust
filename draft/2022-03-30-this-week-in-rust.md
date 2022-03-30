@@ -22,6 +22,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Yet Another GitHub Profile Generator
+](https://blog.urth.org/2022/03/28/yet-another-github-profile-generator/)
+
 ### Rust Walkthroughs
 
 * [Introducing "High Assurance Rust": a FREE systems software security book!](https://highassurance.rs/)
