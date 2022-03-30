@@ -42,7 +42,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Cross-compilation in Rust](https://kerkour.com/rust-cross-compilation)
 * [Introducing "High Assurance Rust": a FREE systems software security book!](https://highassurance.rs/)
-* [My First Clippy Lint](https://jamesmcm.github.io/blog/2022/03/26/my-first-clippy-lint/)
 * [Advanced deserialization with Serde: Parsing Cloudformation templates](https://rtoch.com/posts/advanced-serde/)
 * [My First Clippy Lint - Statistically Insignificant](https://jamesmcm.github.io/blog/2022/03/26/my-first-clippy-lint/)
 * [Introducing "High Assurance Rust"](https://www.reddit.com/r/rust/comments/toq2wj/introducing_high_assurance_rust_a_free_systems/)
