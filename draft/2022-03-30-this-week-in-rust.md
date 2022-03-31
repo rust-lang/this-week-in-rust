@@ -262,6 +262,11 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+** Quickwit **
+
+* [Senior Software Engineer, Rust & distributed systems - Rust (Remote)](https://quickwit.io/jobs/distributed-software-engineer)
+* [Software search engineering intern - Rust (Remote)](https://quickwit.io/jobs/oss-software-search-engineering-intern)
+
 **Tempus Ex**
 
 * [Several full-time Rust positions available (San Francisco, CA, US, Atlanta, GA, US, Austin, TX, US, and Remote)](https://tempus-ex.com/careers)
