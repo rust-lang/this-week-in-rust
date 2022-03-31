@@ -262,6 +262,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Parity**
+
+* [Parachains Engineer - Common Good (Remote)](https://boards.greenhouse.io/parity/jobs/4794657003)
+
 ** Quickwit **
 
 * [Senior Software Engineer, Rust & distributed systems - Rust (Remote)](https://quickwit.io/jobs/distributed-software-engineer)
