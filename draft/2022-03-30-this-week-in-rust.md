@@ -22,6 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Helix editor 22.03 released](https://helix-editor.com/news/release-22-03-highlights/)
 * [Announcing fp-bindgen](https://fiberplane.dev/blog/announcing-fp-bindgen/)
 * [Rust-Analyzer Changelog #122](https://rust-analyzer.github.io/thisweek/2022/03/28/changelog-122.html)
 * [IntelliJ Rust Changelog #167](https://intellij-rust.github.io/2022/03/28/changelog-167.html)
