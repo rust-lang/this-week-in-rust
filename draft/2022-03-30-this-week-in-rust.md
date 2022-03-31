@@ -222,11 +222,11 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+**Parity**
 
-* [Parachains Engineer - Common Good](https://boards.greenhouse.io/parity/jobs/4794657003)
-* [Core Runtime Engineer - Substrate](https://grnh.se/dddd76283us)
-* [Rust / Core Engineer - General Posting](https://grnh.se/1cf2de503us) - engineers new to/learning Rust are very welcomed!
+* [Parachains Engineer - Common Good (Remote)](https://boards.greenhouse.io/parity/jobs/4794657003)
+
+*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
