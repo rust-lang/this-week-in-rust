@@ -225,9 +225,7 @@ Email the [Rust Community Team][community] for access.
 
 **harrison.ai**
 
-* [Software Engineer (Sydney AU / Remote in AU)](https://jobs.lever.co/harrison/3fa6cc4e-acd4-4e82-9ba0-224524cb4c6a)
-
-    Don't let the Python references fool you, we do lots of Rust 🦀! 
+* [Software Engineer (Sydney, AU / Remote, AU)](https://jobs.lever.co/harrison/3fa6cc4e-acd4-4e82-9ba0-224524cb4c6a)
 
 
 # Quote of the Week
