@@ -265,6 +265,11 @@ Email the [Rust Community Team][community] for access.
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
+**harrison.ai**
+
+* [Software Engineer (Sydney, AU / Remote, AU)](https://jobs.lever.co/harrison/3fa6cc4e-acd4-4e82-9ba0-224524cb4c6a)
+
+
 # Quote of the Week
 
 > All that to say that Rust does precisely this great job at decoupling some of these notions that have been, historically, quite tangled for a while; and for those used to that environment with everything muddied, it can be a bit hard to take a step back and rethink these distinctions that Rust makes.
