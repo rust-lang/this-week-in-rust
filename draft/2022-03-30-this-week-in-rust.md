@@ -60,9 +60,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Crate of the Week
 
-This week's crate is [heph](https://docs.rs/heph), an event-driven, non-blocking I/O, share-nothing actor framework.
+This week's crate is [lapce](https://lapce.dev), a lightning-fast powerful code editor written in Rust.
 
-Thanks to [Cole Lawrence](https://users.rust-lang.org/t/crate-of-the-week/2704/1045) for the suggestion!
+llogiq is pretty pleased with his choice.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -81,48 +81,36 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-287 pull requests were [merged in the last week][merged]
+278 pull requests were [merged in the last week][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-03-14..2022-03-21
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-03-21..2022-03-28
 
-* [always evaluate all cfg predicate in all() and any()](https://github.com/rust-lang/rust/pull/94295)
-* [stabilise `aarch64_target_feature`](https://github.com/rust-lang/rust/pull/90621)
-* [implement `-Z oom=panic`](https://github.com/rust-lang/rust/pull/88098)
-* [make negative coherence work when there's impl negative on super predicates](https://github.com/rust-lang/rust/pull/95039)
-* [more robust fallback for `use` suggestion](https://github.com/rust-lang/rust/pull/94584)
-* [suggest removing type ascription in bad parsing position](https://github.com/rust-lang/rust/pull/95104)
-* [improve `unsafe` diagnostic](https://github.com/rust-lang/rust/pull/91133)
-* [fix diagnostics for `#![feature(deprecated_suggestion)]`](https://github.com/rust-lang/rust/pull/94948)
-* [miri: add a lot more information to SB fatal errors](https://github.com/rust-lang/miri/pull/1971)
-* [miri: make backtraces work with #[global_allocator]](https://github.com/rust-lang/miri/pull/1975)
-* [miri: implement SIMD float rounding functions](https://github.com/rust-lang/miri/pull/2028)
-* [miri: implement SIMD square root and fused multiply-add](https://github.com/rust-lang/miri/pull/2031)
-* [miri: implement SIMD bitmask intrinsics](https://github.com/rust-lang/miri/pull/2029)
-* [add `#[inline]` to trivial `AsRef`/`AsMut` impls](https://github.com/rust-lang/rust/pull/94372)
-* [`BTreeMap::entry`: avoid allocating if no insertion](https://github.com/rust-lang/rust/pull/92962)
-* [implement `Write for Cursor<[u8; N]>`, plus `A: Allocator` cursor support](https://github.com/rust-lang/rust/pull/92663)
-* [improve `expect` impl and handle `#[expect(unfulfilled_lint_expectations)]` (RFC 2383)](https://github.com/rust-lang/rust/pull/94670)
-* [make `Weak::new` const](https://github.com/rust-lang/rust/pull/94991)
-* [portable-simd: fix big-endian bitmasks smaller than a byte](https://github.com/rust-lang/portable-simd/pull/267)
-* [libc: add support for Apple WatchOS](https://github.com/rust-lang/libc/pull/2717)
-* [codegen\_gcc: fix ice in box alloc](https://github.com/rust-lang/rustc_codegen_gcc/pull/137)
-* [codegen\_gcc: fix shift of unsigned integer by signed integer](https://github.com/rust-lang/rustc_codegen_gcc/pull/141)
-* [codegen\_gcc: fix version of compiler_builtins to fix compilation failure](https://github.com/rust-lang/rustc_codegen_gcc/pull/139)
-* [cargo: fix panic when artifact target is used for `[target.'cfg(<target>)'.dependencies`](https://github.com/rust-lang/cargo/pull/10433)
-* [rustfmt: add `short_item_threshold` config option](https://github.com/rust-lang/rustfmt/pull/5228)
-* [rustfmt: honor `#[rustfmt::skip::attributes(derive)]` attribute](https://github.com/rust-lang/rustfmt/pull/5271)
-* [rustfmt: search for struct body span after any generic arguments](https://github.com/rust-lang/rustfmt/pull/5274)
-* [clippy: add lint `cast_enum_constructor`](https://github.com/rust-lang/rust-clippy/pull/8562)
-* [clippy: add `or_then_unwrap`](https://github.com/rust-lang/rust-clippy/pull/8561)
-* [clippy: don't lint `ptr_arg` on `&mut Cow<_>`](https://github.com/rust-lang/rust-clippy/pull/8552)
-* [clippy: don't lint `transmute_undefined_repr` when changing the type of generic params](https://github.com/rust-lang/rust-clippy/pull/8553)
-* [clippy: fix `unncessary_to_owned` false positive](https://github.com/rust-lang/rust-clippy/pull/8509)
-* [clippy: `unnecessary_lazy_eval` show suggestions on multiline lint](https://github.com/rust-lang/rust-clippy/pull/8543)
-* [clippy: fix suggestion on `map_flatten` being cropped causing possible information loss](https://github.com/rust-lang/rust-clippy/pull/8520)
-* [clippy: `match_same_arms` fix](https://github.com/rust-lang/rust-clippy/pull/8232)
-* [clippy: more `transmute_undefined_repr` fixes](https://github.com/rust-lang/rust-clippy/pull/8547)
-* [clippy: move `iter_with_drain` to nursery](https://github.com/rust-lang/rust-clippy/pull/8541)
-* [clippy: move `try_err` to restriction](https://github.com/rust-lang/rust-clippy/pull/8544)
+* [proc-macro: stop wrapping `ident` matchers into groups](https://github.com/rust-lang/rust/pull/92472)
+* [debuginfo: fix debuginfo for `Box<T>` where `T` is unsized](https://github.com/rust-lang/rust/pull/95270)
+* [better errors when a Copy impl on a Struct is not self-consistent](https://github.com/rust-lang/rust/pull/94249)
+* [provide suggestion for missing `>` in a type parameter list](https://github.com/rust-lang/rust/pull/94495)
+* [suggest constraining param for unary ops when missing trait impl](https://github.com/rust-lang/rust/pull/95197)
+* [suggest replacing a field when using the same type](https://github.com/rust-lang/rust/pull/95396)
+* [tell users that `||` operators are not currently supported in let chain expressions](https://github.com/rust-lang/rust/pull/95314)
+* [diagnostics: correct generic bounds with doubled colon](https://github.com/rust-lang/rust/pull/95318)
+* [diagnostics: do not give `Option::as_ref` suggestion for complex match](https://github.com/rust-lang/rust/pull/95127)
+* [diagnostics: do not suggest `fn foo({ <body> }`](https://github.com/rust-lang/rust/pull/95220)
+* [diagnostics: suggest missing comma in bad FRU syntax](https://github.com/rust-lang/rust/pull/94939)
+* [fix function pointers of different param counts unifying](https://github.com/rust-lang/chalk/pull/759)
+* [change Thir to lazily create constants](https://github.com/rust-lang/rust/pull/94876)
+* [fix perf issue for auto trait selection](https://github.com/rust-lang/rust/pull/95333)
+* [overlap inherent impls](https://github.com/rust-lang/rust/pull/95082)
+* [more macro expansion optimizations](https://github.com/rust-lang/rust/pull/95259)
+* [ignore doc comments in a declarative macro matcher](https://github.com/rust-lang/rust/pull/95390)
+* [allow comparing `Vec`s with different allocators using `==`](https://github.com/rust-lang/rust/pull/93755)
+* [stabilize `const_ptr_offset`](https://github.com/rust-lang/rust/pull/93957)
+* [impl `From<&[T; N]>` and `From<&mut [T; N]>` for `Vec<T>`](https://github.com/rust-lang/rust/pull/95098)
+* [resolve: do not build expensive suggestions if they are not actually used](https://github.com/rust-lang/rust/pull/95255)
+* [codegen\_gcc: add `--release-sysroot` flag to `build.sh`](https://github.com/rust-lang/rustc_codegen_gcc/pull/143)
+* [codegen\_gcc: don't pass `--target` in `cargo.sh`](https://github.com/rust-lang/rustc_codegen_gcc/pull/147)
+* [clippy: check if `lhs < rhs` in modulos in `identity_op`](https://github.com/rust-lang/rust-clippy/pull/8519)
+* [clippy: `map_identity` checks for needless `map_err`](https://github.com/rust-lang/rust-clippy/pull/8487)
+* [clippy: `unnecessary_join` lint](https://github.com/rust-lang/rust-clippy/pull/8579)
 
 ### Rust Compiler Performance Triage
 
@@ -279,11 +267,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> today I learned that `unsafe` is also a tool for people who are actively looking to implement bugs.
+> All that to say that Rust does precisely this great job at decoupling some of these notions that have been, historically, quite tangled for a while; and for those used to that environment with everything muddied, it can be a bit hard to take a step back and rethink these distinctions that Rust makes.
 
-– [blonk on rust-users](https://users.rust-lang.org/t/difficulty-in-inventing-bugs/72963)
+– [Daniel H-M on rust-users](https://users.rust-lang.org/t/a-better-term-than-thread-safe/73199/4)
 
-Thanks to [Michael Bryan](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1197) for the suggestion!
+Thanks to [H2CO3](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1200) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
