@@ -75,7 +75,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [**Call for Speakers: RustFest Global - EMEA Edition (2022-04-23)**](https://rustfest.world/news/twirf-latam-emea-announcement)
+* [Call for Speakers: RustFest Global - EMEA Edition (2022-04-23)](https://rustfest.world/news/twirf-latam-emea-announcement)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
