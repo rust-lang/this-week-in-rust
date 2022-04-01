@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Tracking the James Webb Space Telescope](https://arachnoid.com/tracking_the_JWST/section2.html)
 
 ### Rust Walkthroughs
 
