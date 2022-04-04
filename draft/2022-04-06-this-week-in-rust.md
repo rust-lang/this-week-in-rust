@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Slint (GUI crate) weekly update](https://slint-ui.com/thisweek/2022-04-05.html)
+
 ### Observations/Thoughts
 * [Tracking the James Webb Space Telescope](https://arachnoid.com/tracking_the_JWST/section2.html)
 
