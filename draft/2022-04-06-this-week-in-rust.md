@@ -101,7 +101,7 @@ Revision range: [3ea44938..3e751467](https://perf.rust-lang.org/?start=3ea44938e
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* *No RFCs were approved this week.*
+* [Cargo authenticating users without sending secrets over the network](https://github.com/rust-lang/rfcs/pull/3231)
 
 ### Final Comment Period
 
@@ -111,17 +111,15 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [New Rust attribute to support embedding debugger visualizers](https://github.com/rust-lang/rfcs/pull/3191)
+* [disposition: merge] [Allow using for<'a> syntax when declaring closures](https://github.com/rust-lang/rfcs/pull/3216)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Tracking Issue for RFC 3107: derive_default_enum](https://github.com/rust-lang/rust/issues/87517)
-* [disposition: merge] [Tracking Issue for scoped threads](https://github.com/rust-lang/rust/issues/93203)
-* [disposition: merge] [Tracking Issue for windows_process_extensions_raw_arg](https://github.com/rust-lang/rust/issues/92939)
+* [disposition: merge] [\[let_chains\] Forbid let inside parentheses](https://github.com/rust-lang/rust/issues/87517)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [new] [RFC: Interrupt calling conventions](https://github.com/rust-lang/rfcs/pull/3246)
+* [new] [RFC: multiple_crate_versions](https://github.com/rust-lang/rfcs/pull/3251)
 
 ## Upcoming Events
 
