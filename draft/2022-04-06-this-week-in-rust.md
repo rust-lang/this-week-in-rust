@@ -80,21 +80,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-A mixed week: some minor regressions, but things overall improved for instruction counts.
+A somewhat quiet week with only a few improvements and regressions, but with improvements ever so slightly edging out regressions. The biggest regression was in a rollup which makes investigation difficult though it looks like its in trait resolution which impacts crates that do a lot of that such as diesel. The biggest improvement comes from work done by the performance team (more specifically @nnethercote) to improve `macro_rules` parsing which can lead to sizeable performance gains for crates using the ["token munching"](https://danielkeep.github.io/tlborm/book/pat-incremental-tt-munchers.html) pattern in `macro_rules`.
 
-Max RSS has gone up slightly over the past
-[month](https://perf.rust-lang.org/?start=2022-03-01&end=2022-03-30&kind=percentfromfirst&stat=max-rss),
-on the order of 0.5% regression according to benchmark summary. pnkfelix is
-following up on that with rustc-perf team on
-[zulip](https://rust-lang.zulipchat.com/#narrow/stream/247081-t-compiler.2Fperformance/topic/max-rss.20over.202022-03/near/277194155)
+Triage done by **@rylev**.
+Revision range: [3e75146..949b98c](https://perf.rust-lang.org/?start=3e7514670db841a7f0d7656f3b13b1c8b2c11599&end=949b98cab8a186b98bf87e64374b8d0848c55271&absolute=false&stat=instructions%3Au)
 
-Triage done by **@pnkfelix**.
-Revision range: [3ea44938..3e751467](https://perf.rust-lang.org/?start=3ea44938e21f0de8ae7d4f6399a8a30f97867c70&end=3e7514670db841a7f0d7656f3b13b1c8b2c11599&absolute=false&stat=instructions%3Au)
+2 Regressions, 2 Improvements, 1 Mixed; 2 of them in rollups
+37 comparisons made in total
 
-4 Regressions, 5 Improvements, 4 Mixed; 3 of them in rollups
-63 comparisons made in total
-
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-03-30.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-04-05.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
