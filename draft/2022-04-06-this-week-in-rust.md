@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Introducing StarfishQL - visualizing the dependency network on crates.io](https://www.sea-ql.org/SeaORM/blog/2022-04-04-introducing-starfish-ql)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
