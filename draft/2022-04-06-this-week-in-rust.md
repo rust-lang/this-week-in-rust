@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 * [Tracking the James Webb Space Telescope](https://arachnoid.com/tracking_the_JWST/section2.html)
+* [Qiskit now includes Rust for better performance](https://medium.com/qiskit/new-weve-started-using-rust-in-qiskit-for-better-performance-a3676433ca8c)
 
 ### Rust Walkthroughs
 
