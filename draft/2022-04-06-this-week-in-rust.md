@@ -22,6 +22,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Rust's fearless concurrency in practice](https://kerkour.com/rust-fearless-concurrency)
+
 ### Miscellaneous
 
 ## Crate of the Week
