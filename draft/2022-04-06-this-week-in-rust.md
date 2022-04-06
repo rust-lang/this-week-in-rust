@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Slint (GUI crate) weekly update](https://slint-ui.com/thisweek/2022-04-05.html)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W13](https://www.fornjot.app/blog/weekly-dev-log/2022-w13/)
+* [Introducing StarfishQL - visualizing the dependency network on crates.io](https://www.sea-ql.org/SeaORM/blog/2022-04-04-introducing-starfish-ql)
 * [This week in Fluvio #27: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0027/)
 
 ### Observations/Thoughts
@@ -31,6 +32,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 * [I assembled a Computer Science Curriculum that helps practice the acquired academic knowledge in Rust.](https://github.com/AbdesamedBendjeddou/Rusty-CS)
+
+[Ferrous Systems and Espressif’s Rust Training on ESP32](https://www.espressif.com/en/news/ESP_RUST_training)
 
 ## Crate of the Week
 
