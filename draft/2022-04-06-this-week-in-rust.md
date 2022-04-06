@@ -26,7 +26,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Fluvio #27: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0027/)
 
 ### Observations/Thoughts
-* [Tracking the James Webb Space Telescope](https://arachnoid.com/tracking_the_JWST/section2.html)
 * [Qiskit now includes Rust for better performance](https://medium.com/qiskit/new-weve-started-using-rust-in-qiskit-for-better-performance-a3676433ca8c)
 
 ### Rust Walkthroughs
@@ -36,9 +35,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Research
 
 ### Miscellaneous
-* [I assembled a Computer Science Curriculum that helps practice the acquired academic knowledge in Rust.](https://github.com/AbdesamedBendjeddou/Rusty-CS)
-
-[Ferrous Systems and Espressif’s Rust Training on ESP32](https://www.espressif.com/en/news/ESP_RUST_training)
+* [A Computer Science Curriculum with Rust flavor](https://github.com/AbdesamedBendjeddou/Rusty-CS)
+* [Tracking the JWST: Programming/Language Issues](https://arachnoid.com/tracking_the_JWST/section2.html)
+* [Ferrous Systems and Espressif’s Rust Training on ESP32](https://www.espressif.com/en/news/ESP_RUST_training)
 
 ## Crate of the Week
 
