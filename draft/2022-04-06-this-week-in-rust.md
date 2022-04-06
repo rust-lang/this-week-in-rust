@@ -32,6 +32,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Miscellaneous
 * [I assembled a Computer Science Curriculum that helps practice the acquired academic knowledge in Rust.](https://github.com/AbdesamedBendjeddou/Rusty-CS)
 
+[Ferrous Systems and Espressif’s Rust Training on ESP32](https://www.espressif.com/en/news/ESP_RUST_training)
+
 ## Crate of the Week
 
 This week's crate is [lapce](https://lapce.dev), a lightning-fast powerful code editor written in Rust.
