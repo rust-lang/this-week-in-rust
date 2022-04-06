@@ -26,6 +26,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Rust's fearless concurrency in practice](https://kerkour.com/rust-fearless-concurrency)
+
 ### Miscellaneous
 * [I assembled a Computer Science Curriculum that helps practice the acquired academic knowledge in Rust.](https://github.com/AbdesamedBendjeddou/Rusty-CS)
 
