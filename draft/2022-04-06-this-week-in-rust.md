@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+[Custom Rust Toolchain for AVR](https://www.reddit.com/r/rust/comments/tvtxpv/custom_rust_toolchain_for_avr/)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
