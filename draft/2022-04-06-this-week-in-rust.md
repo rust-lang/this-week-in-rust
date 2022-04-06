@@ -24,6 +24,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+[Ferrous Systems and Espressif’s Rust Training on ESP32](https://www.espressif.com/en/news/ESP_RUST_training)
+
 ## Crate of the Week
 
 This week's crate is [lapce](https://lapce.dev), a lightning-fast powerful code editor written in Rust.
