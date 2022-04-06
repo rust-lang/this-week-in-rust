@@ -18,6 +18,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [youki 0.0.3 has been released with the support WASM](https://github.com/containers/youki/releases/tag/v0.0.3)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
