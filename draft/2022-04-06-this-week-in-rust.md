@@ -14,15 +14,32 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
+### Official
+
 ### Foundation
 
 ### Project/Tooling Updates
 
+* [Slint (GUI crate) weekly update](https://slint-ui.com/thisweek/2022-04-05.html)
+* [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W13](https://www.fornjot.app/blog/weekly-dev-log/2022-w13/)
+* [Introducing StarfishQL - visualizing the dependency network on crates.io](https://www.sea-ql.org/SeaORM/blog/2022-04-04-introducing-starfish-ql)
+* [This week in Fluvio #27: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0027/)
+* [youki 0.0.3 has been released, with WASM support](https://github.com/containers/youki/releases/tag/v0.0.3)
+* [Coppers - A test harness that measures the energy usage of your Rust projects](https://github.com/ThijsRay/coppers)
+
 ### Observations/Thoughts
+* [Tracking the James Webb Space Telescope](https://arachnoid.com/tracking_the_JWST/section2.html)
+* [Qiskit now includes Rust for better performance](https://medium.com/qiskit/new-weve-started-using-rust-in-qiskit-for-better-performance-a3676433ca8c)
 
 ### Rust Walkthroughs
 
+* [Rust's fearless concurrency in practice](https://kerkour.com/rust-fearless-concurrency)
+
+### Research
+
 ### Miscellaneous
+* [I assembled a Computer Science Curriculum that helps practice the acquired academic knowledge in Rust.](https://github.com/AbdesamedBendjeddou/Rusty-CS)
+* [Ferrous Systems and Espressif’s Rust Training on ESP32](https://www.espressif.com/en/news/ESP_RUST_training)
 
 ## Crate of the Week
 
@@ -80,28 +97,22 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-A mixed week: some minor regressions, but things overall improved for instruction counts.
+A somewhat quiet week with only a few improvements and regressions, but with improvements ever so slightly edging out regressions. The biggest regression was in a rollup which makes investigation difficult though it looks like its in trait resolution which impacts crates that do a lot of that such as diesel. The biggest improvement comes from work done by the performance team (more specifically @nnethercote) to improve `macro_rules` parsing which can lead to sizeable performance gains for crates using the ["token munching"](https://danielkeep.github.io/tlborm/book/pat-incremental-tt-munchers.html) pattern in `macro_rules`.
 
-Max RSS has gone up slightly over the past
-[month](https://perf.rust-lang.org/?start=2022-03-01&end=2022-03-30&kind=percentfromfirst&stat=max-rss),
-on the order of 0.5% regression according to benchmark summary. pnkfelix is
-following up on that with rustc-perf team on
-[zulip](https://rust-lang.zulipchat.com/#narrow/stream/247081-t-compiler.2Fperformance/topic/max-rss.20over.202022-03/near/277194155)
+Triage done by **@rylev**.
+Revision range: [3e75146..949b98c](https://perf.rust-lang.org/?start=3e7514670db841a7f0d7656f3b13b1c8b2c11599&end=949b98cab8a186b98bf87e64374b8d0848c55271&absolute=false&stat=instructions%3Au)
 
-Triage done by **@pnkfelix**.
-Revision range: [3ea44938..3e751467](https://perf.rust-lang.org/?start=3ea44938e21f0de8ae7d4f6399a8a30f97867c70&end=3e7514670db841a7f0d7656f3b13b1c8b2c11599&absolute=false&stat=instructions%3Au)
+2 Regressions, 2 Improvements, 1 Mixed; 2 of them in rollups
+37 comparisons made in total
 
-4 Regressions, 5 Improvements, 4 Mixed; 3 of them in rollups
-63 comparisons made in total
-
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-03-30.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-04-05.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* *No RFCs were approved this week.*
+* [Cargo authenticating users without sending secrets over the network](https://github.com/rust-lang/rfcs/pull/3231)
 
 ### Final Comment Period
 
@@ -111,17 +122,15 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [New Rust attribute to support embedding debugger visualizers](https://github.com/rust-lang/rfcs/pull/3191)
+* [disposition: merge] [Allow using for<'a> syntax when declaring closures](https://github.com/rust-lang/rfcs/pull/3216)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Tracking Issue for RFC 3107: derive_default_enum](https://github.com/rust-lang/rust/issues/87517)
-* [disposition: merge] [Tracking Issue for scoped threads](https://github.com/rust-lang/rust/issues/93203)
-* [disposition: merge] [Tracking Issue for windows_process_extensions_raw_arg](https://github.com/rust-lang/rust/issues/92939)
+* [disposition: merge] [\[let_chains\] Forbid let inside parentheses](https://github.com/rust-lang/rust/issues/87517)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [new] [RFC: Interrupt calling conventions](https://github.com/rust-lang/rfcs/pull/3246)
+* [new] [RFC: multiple_crate_versions](https://github.com/rust-lang/rfcs/pull/3251)
 
 ## Upcoming Events
 
@@ -216,6 +225,19 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**NXLog**
+
+* [Rust Developer (Remote, Europe or worldwide)](https://application.nxlog.org/jobs/detail/rust-developer-39)
+
+**Timescale**
+
+* [Senior Rust Engineer - TimescaleDB Toolkit (Remote: UTC-5 to UTC-8)](https://www.timescale.com/careers/5920911002?gh_jid=5920911002)
+
+**Kollider**
+
+* [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
+* [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
 
 **Tempus Ex**
 
