@@ -72,7 +72,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [better suggestions for `Fn`-family trait selection errors](https://github.com/rust-lang/rust/pull/95260)
 * [don't ICE when opaque types get their hidden type constrained again](https://github.com/rust-lang/rust/pull/95471)
 * [don't emit non-asm contents error for naked function composed of errors](https://github.com/rust-lang/rust/pull/95553)
-* [fix double drop of allocator in `IntoIter  impl of `Vec`](https://github.com/rust-lang/rust/pull/95298)
+* [fix double drop of allocator in `IntoIter  impl of Vec`](https://github.com/rust-lang/rust/pull/95298)
 * [improve method name suggestions](https://github.com/rust-lang/rust/pull/95119)
 * [specialize infinite-type "insert some indirection" suggestion for Option](https://github.com/rust-lang/rust/pull/91416)
 * [suggest `i += 1` when we see `i++` or `++i`](https://github.com/rust-lang/rust/pull/88672)
