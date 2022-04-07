@@ -25,6 +25,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Introducing StarfishQL - visualizing the dependency network on crates.io](https://www.sea-ql.org/SeaORM/blog/2022-04-04-introducing-starfish-ql)
 * [This week in Fluvio #27: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0027/)
 * [youki 0.0.3 has been released, with WASM support](https://github.com/containers/youki/releases/tag/v0.0.3)
+* [Coppers - A test harness that measures the energy usage of your Rust projects](https://github.com/ThijsRay/coppers)
 
 ### Observations/Thoughts
 * [Tracking the James Webb Space Telescope](https://arachnoid.com/tracking_the_JWST/section2.html)
@@ -39,7 +40,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Miscellaneous
 * [I assembled a Computer Science Curriculum that helps practice the acquired academic knowledge in Rust.](https://github.com/AbdesamedBendjeddou/Rusty-CS)
 * [Ferrous Systems and Espressif’s Rust Training on ESP32](https://www.espressif.com/en/news/ESP_RUST_training)
-* [Coppers - A test harness that measures the energy usage of your Rust projects](https://github.com/ThijsRay/coppers)
 
 ## Crate of the Week
 
