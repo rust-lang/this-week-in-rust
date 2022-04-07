@@ -15,30 +15,45 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [Changes at the Cargo Team](https://blog.rust-lang.org/inside-rust/2022/03/31/cargo-team-changes.html)
+* [Rust Lang Roadmap for 2024](https://blog.rust-lang.org/inside-rust/2022/04/04/lang-roadmap-2024.html)
 
 ### Foundation
+* [The Rust Foundation Community Grants Program 2022 Opens for Applications](https://foundation.rust-lang.org/news/2022-03-31-cgp-is-open-announcement/)
 
 ### Project/Tooling Updates
-
+* [What's new in axum 0.5](https://tokio.rs/blog/2022-03-whats-new-in-axum-0-5)
+* [rust-analyzer changelog #123](https://rust-analyzer.github.io/thisweek/2022/04/04/changelog-123.html)
 * [Slint (GUI crate) weekly update](https://slint-ui.com/thisweek/2022-04-05.html)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W13](https://www.fornjot.app/blog/weekly-dev-log/2022-w13/)
-* [Introducing StarfishQL - visualizing the dependency network on crates.io](https://www.sea-ql.org/SeaORM/blog/2022-04-04-introducing-starfish-ql)
+* [Introducing StarfishQL - visualizing the dependency network on crates.io](https://www.sea-ql.org/SeaORM/blog/2022-04-04-introducing-starfish-ql/)
 * [This week in Fluvio #27: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0027/)
+* [Rust on Espressif chips - 04-04-2022](https://mabez.dev/blog/posts/esp-rust-04-04-2022/)
+* [GCC Rust Monthly Report #15 March 2022](https://thephilbert.io/2022/04/04/gcc-rust-monthly-report-15-march-2022/)
+* [Progress Report #10: rustc_codegen_gcc can now bootstrap rustc!](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-10)
 * [youki 0.0.3 has been released, with WASM support](https://github.com/containers/youki/releases/tag/v0.0.3)
 * [Coppers - A test harness that measures the energy usage of your Rust projects](https://github.com/ThijsRay/coppers)
 
 ### Observations/Thoughts
-* [Tracking the James Webb Space Telescope](https://arachnoid.com/tracking_the_JWST/section2.html)
+* [The Tower of Weakenings: Memory Models For Everyone - Faultlore](https://gankra.github.io/blah/tower-of-weakenings/)
+* [hyper 1.0 roadmap](https://seanmonstar.com/post/680802159018803200/hyper-10-roadmap)
+* [Why Rust mutexes look like they do](https://cliffle.com/blog/rust-mutexes/)
+* [Improving Python S3 Client Performance with Rust](https://joshua-robinson.medium.com/improving-python-s3-client-performance-with-rust-e9639359072f)
 * [Qiskit now includes Rust for better performance](https://medium.com/qiskit/new-weve-started-using-rust-in-qiskit-for-better-performance-a3676433ca8c)
+* [Why We’re Porting Our Database Drivers to Async Rust](https://thenewstack.io/why-were-porting-our-database-drivers-to-async-rust/)
+* [audio] [Rusty Engine](https://rustacean-station.org/episode/062-nathan-stocks/)
 
 ### Rust Walkthroughs
-
+* [Futures Nostalgia](https://fasterthanli.me/articles/futures-nostalgia)
+* [A Rust web server / frontend setup like it's 2022 (with axum and yew)](https://robert.kra.hn/posts/2022-04-03_rust-web-wasm/)
 * [Rust's fearless concurrency in practice](https://kerkour.com/rust-fearless-concurrency)
+* [video] [Rust multi-threading code review](https://www.youtube.com/watch?v=jkHqrkcEHRc)
 
 ### Research
 
 ### Miscellaneous
-* [I assembled a Computer Science Curriculum that helps practice the acquired academic knowledge in Rust.](https://github.com/AbdesamedBendjeddou/Rusty-CS)
+* [A Computer Science Curriculum with Rust flavor](https://github.com/AbdesamedBendjeddou/Rusty-CS)
+* [Tracking the JWST: Programming/Language Issues](https://arachnoid.com/tracking_the_JWST/section2.html)
 * [Ferrous Systems and Espressif’s Rust Training on ESP32](https://www.espressif.com/en/news/ESP_RUST_training)
 
 ## Crate of the Week
