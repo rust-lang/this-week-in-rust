@@ -21,6 +21,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 * [The Rust Foundation Community Grants Program 2022 Opens for Applications](https://foundation.rust-lang.org/news/2022-03-31-cgp-is-open-announcement/)
 
+### Newsletters
+* [Rust Nigeria Newsletter #4](https://rustnigeria.curated.co/issues/4)
+
 ### Project/Tooling Updates
 * [What's new in axum 0.5](https://tokio.rs/blog/2022-03-whats-new-in-axum-0-5)
 * [rust-analyzer changelog #123](https://rust-analyzer.github.io/thisweek/2022/04/04/changelog-123.html)
@@ -41,6 +44,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Improving Python S3 Client Performance with Rust](https://joshua-robinson.medium.com/improving-python-s3-client-performance-with-rust-e9639359072f)
 * [Qiskit now includes Rust for better performance](https://medium.com/qiskit/new-weve-started-using-rust-in-qiskit-for-better-performance-a3676433ca8c)
 * [Why We’re Porting Our Database Drivers to Async Rust](https://thenewstack.io/why-were-porting-our-database-drivers-to-async-rust/)
+* [The Chronicles of a Web3 philosopher.](https://dev.to/rustnigeria/the-chronicles-of-a-web3-philosopher-3a43)
 * [audio] [Rusty Engine](https://rustacean-station.org/episode/062-nathan-stocks/)
 
 ### Rust Walkthroughs
@@ -49,12 +53,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust's fearless concurrency in practice](https://kerkour.com/rust-fearless-concurrency)
 * [video] [Rust multi-threading code review](https://www.youtube.com/watch?v=jkHqrkcEHRc)
 
-### Research
-
 ### Miscellaneous
 * [A Computer Science Curriculum with Rust flavor](https://github.com/AbdesamedBendjeddou/Rusty-CS)
 * [Tracking the JWST: Programming/Language Issues](https://arachnoid.com/tracking_the_JWST/section2.html)
 * [Ferrous Systems and Espressif’s Rust Training on ESP32](https://www.espressif.com/en/news/ESP_RUST_training)
+* [RUST! #[proc_macros] zine](https://github.com/lrlna/smol-zines/blob/fc925ac8168599915dd179babd858c53d6f57aab/zines/rust-proc-macros.md)
 
 ## Crate of the Week
 
@@ -277,6 +280,14 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**KidsLoop**
+
+* [Senior Audio/ Video Backend Engineer (Seoul, KR)](https://kidsloop.bamboohr.com/jobs/view.php?id=397)
+
+**Amazon**
+
+* [Software Development Engineer (Remote)](https://www.amazon.jobs/en/jobs/1262951/software-development-engineer)
+
 **NXLog**
 
 * [Rust Developer (Remote, Europe or worldwide)](https://application.nxlog.org/jobs/detail/rust-developer-39)
@@ -289,6 +300,18 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
 * [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
+
+**Stockly**
+
+* [Back-end developer - TechOps (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-rust-grpc-postgresql_paris)
+* [Back-end developer - Engine (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
+* [Back-end developer - Freelance (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-freelance-rust-grpc-postgresql_paris)
+
+**Kraken**
+
+* [Site Reliability Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/1c6b290f-e430-430d-9b40-a258d07686b0)
+* [Rust Engineer, Desktop GUI - Cryptowatch (Remote)](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
+* [Engineering Manager - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/53def500-b146-40da-89a8-98adfd7e84e4)
 
 **Tempus Ex**
 
