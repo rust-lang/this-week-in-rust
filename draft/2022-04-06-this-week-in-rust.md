@@ -284,7 +284,6 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Audio/ Video Backend Engineer (Seoul, KR)](https://kidsloop.bamboohr.com/jobs/view.php?id=397)
 
-
 **Amazon**
 
 * [Software Development Engineer (Remote)](https://www.amazon.jobs/en/jobs/1262951/software-development-engineer)
@@ -307,7 +306,6 @@ Email the [Rust Community Team][community] for access.
 * [Back-end developer - TechOps (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-rust-grpc-postgresql_paris)
 * [Back-end developer - Engine (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
 * [Back-end developer - Freelance (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-freelance-rust-grpc-postgresql_paris)
-
 
 **Kraken**
 
