@@ -18,9 +18,11 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Foundation
 
+### Project/Tooling Updates
+
 ### Newsletters
 
-### Project/Tooling Updates
+### Research
 
 ### Observations/Thoughts
 
