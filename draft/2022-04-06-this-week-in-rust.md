@@ -54,7 +54,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Miscellaneous
 * [A Computer Science Curriculum with Rust flavor](https://github.com/AbdesamedBendjeddou/Rusty-CS)
 * [Tracking the JWST: Programming/Language Issues](https://arachnoid.com/tracking_the_JWST/section2.html)
-* [I assembled a Computer Science Curriculum that helps practice the acquired academic knowledge in Rust.](https://github.com/AbdesamedBendjeddou/Rusty-CS)
 * [Ferrous Systems and Espressif’s Rust Training on ESP32](https://www.espressif.com/en/news/ESP_RUST_training)
 
 ## Crate of the Week
