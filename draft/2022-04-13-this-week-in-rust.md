@@ -28,6 +28,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Learning Rust You Need a Cognitive Frame](https://dev.to/zhanghandong/learning-rust-you-need-a-cognitive-frame-41oa)
+
 ### Miscellaneous
 
 ## Crate of the Week
