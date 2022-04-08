@@ -180,7 +180,7 @@ decision. Express your opinions now.
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [\[let_chains\] Forbid let inside parentheses](https://github.com/rust-lang/rust/issues/87517)
+* [disposition: merge] [\[let_chains\] Forbid let inside parentheses](https://github.com/rust-lang/rust/pull/95008)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
