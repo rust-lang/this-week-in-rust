@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 * [Ogma v0.3 release - now with type inference!](https://www.kurtlawrence.info/blog/ogma-v03-release-now-with-type-inference)
+* [Introducing FoundationDB Client API for Tokio](https://fdb-rs.github.io/blog/introducing-fdb-crate/)
 
 ### Newsletters
 
