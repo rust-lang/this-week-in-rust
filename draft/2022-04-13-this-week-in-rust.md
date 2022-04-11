@@ -84,6 +84,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [RustConf 2022 CFP is Open!](https://cfp.rustconf.com/events/rustconf-2022)
+* [Rust Foundation Community Grants Program 2022 is accepting applications](https://foundation.rust-lang.org/grants/)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
