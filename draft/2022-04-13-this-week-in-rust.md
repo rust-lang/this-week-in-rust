@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 * [Ogma v0.3 release - now with type inference!](https://www.kurtlawrence.info/blog/ogma-v03-release-now-with-type-inference)
+* [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W14](https://www.fornjot.app/blog/weekly-dev-log/2022-w14/)
 
 ### Newsletters
 
