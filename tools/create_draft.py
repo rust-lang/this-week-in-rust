@@ -11,10 +11,31 @@ import os
 import string
 import sys
 
-TEMPLATE_FILE = 'tools/DRAFT_TEMPLATE'
 
 LOG = logging.getLogger(__name__)
 LOG.setLevel(logging.INFO)
+
+
+def get_template_path():
+    """ Returns the path to the template file. """
+    self_path = os.path.abspath(__file__)
+    self_dir = os.path.dirname(self_path)
+    template_path = os.path.join(self_dir, 'DRAFT_TEMPLATE')
+    return template_path
+
+
+def default_draft_path():
+    """ Returns the default path where the draft issue should be written.
+
+    This is determined by computing the path to this script, then
+    traversing up one directory and appending '/draft`.
+    """
+
+    self_path = os.path.abspath(__file__)
+    self_dir = os.path.dirname(self_path)
+    root_path, _ = os.path.split(self_dir)
+    draft_path = os.path.join(root_path, 'draft')
+    return draft_path
 
 
 def default_date():
@@ -51,15 +72,18 @@ def create_draft(date):
         'twir_events_end_date': end_date.isoformat(),
     }
 
-    template = open(TEMPLATE_FILE).read()
+    template_path = get_template_path()
+    template = open(template_path).read()
     template = string.Template(template)
     return template.substitute(params)
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--date', default=None,
+    parser.add_argument('--date', default=None, metavar='YYYY-MM-DD',
                         help='draft date (defaults to Wednesday ~7 days away)')
+    parser.add_argument('--draft-path', default=None, metavar='DIR',
+                        help='directory to write the new draft to')
     parser.add_argument('--dry-run', action='store_true',
                         help="don't write the file; print it to stdout")
     parser.add_argument('--debug', action='store_true',
@@ -77,8 +101,12 @@ def main():
     LOG.debug(f'issue date {date}')
 
     # Create the draft filename: draft/YYYY-MM-DD-this-week-in-rust.md
+    if args.draft_path:
+        draft_path = args.draft_path
+    else:
+        draft_path = default_draft_path()
     filename = date.isoformat() + '-this-week-in-rust.md'
-    filename = os.path.join('draft', filename)
+    filename = os.path.join(draft_path, filename)
 
     # Create the draft text, and either write it to a file, or to stdout.
     draft = create_draft(date)
