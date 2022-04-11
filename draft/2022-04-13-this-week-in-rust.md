@@ -20,6 +20,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 * [Ogma v0.3 release - now with type inference!](https://www.kurtlawrence.info/blog/ogma-v03-release-now-with-type-inference)
+* [Slint (GUI crate) weekly update](https://slint-ui.com/thisweek/2022-04-11.html)
 
 ### Newsletters
 
