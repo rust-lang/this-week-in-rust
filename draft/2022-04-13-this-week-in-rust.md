@@ -85,6 +85,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [macro_railroad - SynParsing(Error("unrecognized fragment specifier"))](https://github.com/lukaslueg/macro_railroad/issues/25)
 * [RustConf 2022 CFP is Open!](https://cfp.rustconf.com/events/rustconf-2022)
 * [Rust Foundation Community Grants Program 2022 is accepting applications](https://foundation.rust-lang.org/grants/)
 
