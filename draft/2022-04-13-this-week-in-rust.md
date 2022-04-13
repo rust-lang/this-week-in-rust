@@ -35,6 +35,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Miscellaneous
 
+* [BlindAI: Privacy-friendly AI solution in Rust](https://github.com/mithril-security/blindai)
+
 ## Crate of the Week
 
 This week's crate is [hifitime](https://github.com/nyx-space/hifitime), a high fidelity time management library.
