@@ -38,6 +38,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Research
 
 ### Observations/Thoughts
+* [Defaults Affect Inference in Rust: Expressions Instead Of Types](https://gankra.github.io/blah/defaults-affect-inference/)
 * [Rust in Action Book Review](https://blog.frankel.ch/rust-action/)
 * [What I learned from making a DNS client in Rust](https://blog.adamchalmers.com/making-a-dns-client/)
 * [dyn* doesn't need to be special](https://dev.to/cad97/dyn-doesnt-need-to-be-special-3ldm)
