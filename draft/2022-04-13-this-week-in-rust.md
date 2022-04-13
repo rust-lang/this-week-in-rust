@@ -245,6 +245,11 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Grover**
+* [Senior/Mid Software Engineer - Rust & Python (EU || Remote)](https://boards.greenhouse.io/grover/jobs/4470003003)
+* [Machine Learning Engineer - Rust & Python (EU || Remote)](https://boards.greenhouse.io/grover/jobs/4692980003)
+* [Data Engineer - Rust & Python (EU || Remote)](https://boards.greenhouse.io/grover/jobs/5041627003)
+
 **Kollider**
 
 * [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
