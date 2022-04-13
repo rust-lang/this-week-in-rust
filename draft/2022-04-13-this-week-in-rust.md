@@ -205,6 +205,8 @@ Rusty Events between 2022-04-13 - 2022-05-11 🦀
 * 2022-05-10 | Rostock, DE | [Altow Academy](https://www.meetup.com/altow-academy/)
     * [**7. Rust Meetup Rostock**](https://www.meetup.com/altow-academy/events/283819127/)
 * 2022-05-10 | Seattle, WA, US | [Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/)
+* 2022-05-11 | Boulder, CO, US | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
+    * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydchbpb/)
     * [**Monthly meetup**](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrydchbnb/)
 
 ### Europe
