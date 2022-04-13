@@ -138,7 +138,7 @@ Revision range: [3e75146..949b98c](https://perf.rust-lang.org/?start=3e7514670db
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Cargo authenticating users without sending secrets over the network](https://github.com/rust-lang/rfcs/pull/3231)
+* [New Rust attribute to support embedding debugger visualizers](https://github.com/rust-lang/rfcs/pull/3191)
 
 ### Final Comment Period
 
@@ -148,15 +148,15 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* [disposition: merge] [Allow using for<'a> syntax when declaring closures](https://github.com/rust-lang/rfcs/pull/3216)
+* *No RFCs entered Final Comment Period this week.*
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [\[let_chains\] Forbid let inside parentheses](https://github.com/rust-lang/rust/issues/87517)
+* [disposition: merge] [Check if call return type is visibly uninhabited when building MIR](https://github.com/rust-lang/rust/pull/93313)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* [new] [RFC: multiple_crate_versions](https://github.com/rust-lang/rfcs/pull/3251)
+* *No New or Updated RFCs were created this week.*
 
 ## Upcoming Events
 
