@@ -223,6 +223,8 @@ Rusty Events between 2022-04-13 - 2022-05-11 🦀
     * [**Dealing with failure: producing and consuming Errors in Rust**](https://www.meetup.com/Charlottesville-Rust-Meetup/events/285078007/)
 * 2022-05-10 | Berlin, DE | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/284399988/)
+* 2022-05-10 | Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
+    * [**Second Tuesday**](https://www.meetup.com/Dallas-Rust/events/vqtjcsydchbnb/)
 * 2022-05-10 | Rostock, DE | [Altow Academy](https://www.meetup.com/altow-academy/)
     * [**7. Rust Meetup Rostock**](https://www.meetup.com/altow-academy/events/283819127/)
 * 2022-05-10 | Seattle, WA, US | [Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/)
