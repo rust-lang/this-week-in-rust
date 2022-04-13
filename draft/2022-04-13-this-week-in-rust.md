@@ -22,7 +22,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Member Spotlight: Tangram Vision](https://foundation.rust-lang.org/news/2022-04-11-member-spotlight-tangram-vision/)
 
 ### Project/Tooling Updates
-* [rust-analyzer changelog #124](https://rust-analyzer.github.io//thisweek/2022/04/11/changelog-124.html)
+* [rust-analyzer changelog #124](https://rust-analyzer.github.io/thisweek/2022/04/11/changelog-124.html)
 * [IntelliJ Rust Changelog #168](https://intellij-rust.github.io/2022/04/11/changelog-168.html)
 * [Ogma v0.3 release - now with type inference!](https://www.kurtlawrence.info/blog/ogma-v03-release-now-with-type-inference)
 * [Slint (GUI crate) weekly update](https://slint-ui.com/thisweek/2022-04-11.html)
