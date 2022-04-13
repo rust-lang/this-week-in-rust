@@ -44,7 +44,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [How to speed up the Rust compiler in April 2022](https://nnethercote.github.io/2022/04/12/how-to-speed-up-the-rust-compiler-in-april-2022.html)
 * [DE] [Programmiersprache: Rust-Team blickt zwei Jahre nach vorn auf Rust ...](https://www.heise.de/news/Programmiersprache-Rust-Team-blickt-zwei-Jahre-nach-vorn-auf-Rust-2024-6664059.html)
 * [DE] [Programmiersprache Rust 1.60 zeigt Codeabdeckung und sieht Zeitspan...](https://www.heise.de/news/Programmiersprache-Rust-1-60-zeigt-Codeabdeckung-und-sieht-Zeitspannen-positiv-6666628.html)
-
 * [Is life too short to fight Rust's borrow checker?](https://kerkour.com/life-is-short-rust-borrow-checker)
 
 ### Rust Walkthroughs
@@ -55,7 +54,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Pointers Are Complicated III, or: Pointer-integer casts exposed](https://www.ralfj.de/blog/2022/04/11/provenance-exposed.html)
 * [rustdoc: Recent UI and UX changes in generated documentation](https://blog.guillaume-gomez.fr/articles/2022-04-08+rustdoc%3A+Recent+UI+and+UX+changes+in+generated+documentation)
 * [video] [Perfect Reflections - 034 - The Ray Tracer Challenge](https://www.youtube.com/watch?v=Jr8eXubvKbU)
-
 * [Building a crawler in Rust: Associated Types](https://kerkour.com/rust-crawler-associated-types)
 
 ### Miscellaneous
