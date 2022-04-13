@@ -33,6 +33,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Building a crawler in Rust: Associated Types](https://kerkour.com/rust-crawler-associated-types)
+
 ### Miscellaneous
 
 ## Crate of the Week
