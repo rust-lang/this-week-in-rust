@@ -23,6 +23,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Slint (GUI crate) weekly update](https://slint-ui.com/thisweek/2022-04-11.html)
 * [Introducing FoundationDB Client API for Tokio](https://fdb-rs.github.io/blog/introducing-fdb-crate/)
 * [Introducing PCB-rs : Making it easier to write hardware](https://dev.to/yjdoc2/introducing-pcb-rs-making-it-easier-to-write-hardware-397m)
+* [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W14](https://www.fornjot.app/blog/weekly-dev-log/2022-w14/)
 
 ### Newsletters
 
