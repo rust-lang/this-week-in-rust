@@ -54,6 +54,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [rustdoc: Recent UI and UX changes in generated documentation](https://blog.guillaume-gomez.fr/articles/2022-04-08+rustdoc%3A+Recent+UI+and+UX+changes+in+generated+documentation)
 * [video] [Perfect Reflections - 034 - The Ray Tracer Challenge](https://www.youtube.com/watch?v=Jr8eXubvKbU)
 
+* [Building a crawler in Rust: Associated Types](https://kerkour.com/rust-crawler-associated-types)
+
 ### Miscellaneous
 * [audio] [Rustacean Station - Purdy with Marty Jones](https://rustacean-station.org/episode/063-martin-jones/)
 * [video] [Rust Gamedev Meetup #15: April 2022](https://www.youtube.com/watch?v=okWFrfaaADs)
