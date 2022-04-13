@@ -31,6 +31,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Is life too short to fight Rust's borrow checker?](https://kerkour.com/life-is-short-rust-borrow-checker)
+
 ### Rust Walkthroughs
 
 ### Miscellaneous
