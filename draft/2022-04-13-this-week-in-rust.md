@@ -15,25 +15,49 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [Announcing Rust 1.60.0](https://blog.rust-lang.org/2022/04/07/Rust-1.60.0.html)
+* [Lang team April update](https://blog.rust-lang.org/inside-rust/2022/04/06/lang-team-april-update.html)
 
 ### Foundation
+* [Member Spotlight: Tangram Vision](https://foundation.rust-lang.org/news/2022-04-11-member-spotlight-tangram-vision/)
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #124](https://rust-analyzer.github.io//thisweek/2022/04/11/changelog-124.html)
+* [IntelliJ Rust Changelog #168](https://intellij-rust.github.io/2022/04/11/changelog-168.html)
 * [Ogma v0.3 release - now with type inference!](https://www.kurtlawrence.info/blog/ogma-v03-release-now-with-type-inference)
 * [Slint (GUI crate) weekly update](https://slint-ui.com/thisweek/2022-04-11.html)
 * [Introducing FoundationDB Client API for Tokio](https://fdb-rs.github.io/blog/introducing-fdb-crate/)
 * [Introducing PCB-rs : Making it easier to write hardware](https://dev.to/yjdoc2/introducing-pcb-rs-making-it-easier-to-write-hardware-397m)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W14](https://www.fornjot.app/blog/weekly-dev-log/2022-w14/)
+* [Fazi - a drop-in replacement for libfuzzer](https://www.reddit.com/r/rust/comments/u1el9n/release_fazi_a_dropin_replacement_for_libfuzzer/)
+* [This Month in Rust OSDev (March 2022) | Rust OSDev](https://rust-osdev.com/this-month/2022-03/)
 
 ### Newsletters
+* [This Month in Rust GameDev #32 - March 2022](https://gamedev.rs/news/032/)
 
 ### Research
 
 ### Observations/Thoughts
+* [Rust in Action Book Review](https://blog.frankel.ch/rust-action/)
+* [What I learned from making a DNS client in Rust](https://blog.adamchalmers.com/making-a-dns-client/)
+* [dyn* doesn't need to be special](https://dev.to/cad97/dyn-doesnt-need-to-be-special-3ldm)
+* [How to speed up the Rust compiler in April 2022](https://nnethercote.github.io/2022/04/12/how-to-speed-up-the-rust-compiler-in-april-2022.html)
+* [DE] [Programmiersprache: Rust-Team blickt zwei Jahre nach vorn auf Rust ...](https://www.heise.de/news/Programmiersprache-Rust-Team-blickt-zwei-Jahre-nach-vorn-auf-Rust-2024-6664059.html)
+* [DE] [Programmiersprache Rust 1.60 zeigt Codeabdeckung und sieht Zeitspan...](https://www.heise.de/news/Programmiersprache-Rust-1-60-zeigt-Codeabdeckung-und-sieht-Zeitspannen-positiv-6666628.html)
 
 ### Rust Walkthroughs
+* [Implied bounds and perfect derive](https://smallcultfollowing.com/babysteps/blog/2022/04/12/implied-bounds-and-perfect-derive/)
+* [Postfix Spawn](https://blog.yoshuawuyts.com/postfix-spawn/)
+* [Continuous Looper](https://beijaflor.io/blog/04-2022/rust-audio-experiments-5/)
+* [Chumsky: A Tutorial](https://github.com/zesterer/chumsky/blob/82d534d2bd52de98dfe828bc84a177de9fd1a245/tutorial.md)
+* [Pointers Are Complicated III, or: Pointer-integer casts exposed](https://www.ralfj.de/blog/2022/04/11/provenance-exposed.html)
+* [rustdoc: Recent UI and UX changes in generated documentation](https://blog.guillaume-gomez.fr/articles/2022-04-08+rustdoc%3A+Recent+UI+and+UX+changes+in+generated+documentation)
+* [video] [Perfect Reflections - 034 - The Ray Tracer Challenge](https://www.youtube.com/watch?v=Jr8eXubvKbU)
 
 ### Miscellaneous
+* [audio] [Rustacean Station - Purdy with Marty Jones](https://rustacean-station.org/episode/063-martin-jones/)
+* [video] [Rust Gamedev Meetup #15: April 2022](https://www.youtube.com/watch?v=okWFrfaaADs)
+
 
 ## Crate of the Week
 
