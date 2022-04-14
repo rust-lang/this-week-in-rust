@@ -47,6 +47,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [dyn* doesn't need to be special](https://dev.to/cad97/dyn-doesnt-need-to-be-special-3ldm)
 * [How to speed up the Rust compiler in April 2022](https://nnethercote.github.io/2022/04/12/how-to-speed-up-the-rust-compiler-in-april-2022.html)
 * [Is life too short to fight Rust's borrow checker?](https://kerkour.com/life-is-short-rust-borrow-checker)
+* [Learning Rust You Need a Cognitive Frame](https://dev.to/zhanghandong/learning-rust-you-need-a-cognitive-frame-41oa)
 * [DE] [Programmiersprache: Rust-Team blickt zwei Jahre nach vorn auf Rust ...](https://www.heise.de/news/Programmiersprache-Rust-Team-blickt-zwei-Jahre-nach-vorn-auf-Rust-2024-6664059.html)
 * [DE] [Programmiersprache Rust 1.60 zeigt Codeabdeckung und sieht Zeitspan...](https://www.heise.de/news/Programmiersprache-Rust-1-60-zeigt-Codeabdeckung-und-sieht-Zeitspannen-positiv-6666628.html)
 
@@ -57,10 +58,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Chumsky: A Tutorial](https://github.com/zesterer/chumsky/blob/82d534d2bd52de98dfe828bc84a177de9fd1a245/tutorial.md)
 * [Pointers Are Complicated III, or: Pointer-integer casts exposed](https://www.ralfj.de/blog/2022/04/11/provenance-exposed.html)
 * [rustdoc: Recent UI and UX changes in generated documentation](https://blog.guillaume-gomez.fr/articles/2022-04-08+rustdoc%3A+Recent+UI+and+UX+changes+in+generated+documentation)
-* [video] [Perfect Reflections - 034 - The Ray Tracer Challenge](https://www.youtube.com/watch?v=Jr8eXubvKbU)
 * [Building a crawler in Rust: Associated Types](https://kerkour.com/rust-crawler-associated-types)
-
-* [Learning Rust You Need a Cognitive Frame](https://dev.to/zhanghandong/learning-rust-you-need-a-cognitive-frame-41oa)
+* [video] [Perfect Reflections - 034 - The Ray Tracer Challenge](https://www.youtube.com/watch?v=Jr8eXubvKbU)
+* [video] [Let's Demystify the Borrow Checker! - Rust 101 Lecture 2](https://www.youtube.com/watch?v=2KM6e3O9V4o)
+* [video] [Using Futures to wrap an unsafe USB API to play audio directly - Denver Rust Meetup](https://www.youtube.com/watch?v=r0M4_txi9Fo)
 
 ### Miscellaneous
 * [audio] [Rustacean Station - Purdy with Marty Jones](https://rustacean-station.org/episode/063-martin-jones/)
@@ -83,6 +84,10 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [macro_railroad - SynParsing(Error("unrecognized fragment specifier"))](https://github.com/lukaslueg/macro_railroad/issues/25)
+* [RustConf 2022 CFP is Open!](https://cfp.rustconf.com/events/rustconf-2022)
+* [Rust Foundation Community Grants Program 2022 is accepting applications](https://foundation.rust-lang.org/grants/)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -274,7 +279,25 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Element**
+
+* [Software Engineer - VoIP (Go/Rust) (Remote)](https://apply.workable.com/elementio/j/5BD58AFB6F/)
+
+**Amazon**
+
+* [Software Development Manager, Builder Tools (London, UK or Berlin, DE)](https://www.amazon.jobs/en/jobs/1977699/software-development-manager-builder-tools)
+
+**dcSpark**
+
+* [Rust Engineer (Remote)](https://apply.workable.com/dcspark/j/47EF5C1E7E/)
+
+**Stockly**
+
+* [Back-end developer (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-rust-grpc-postgresql_paris)
+* [Back-end developer - Engine (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
+
 **Grover**
+
 * [Senior/Mid Software Engineer - Rust & Python (EU || Remote)](https://boards.greenhouse.io/grover/jobs/4470003003)
 * [Machine Learning Engineer - Rust & Python (EU || Remote)](https://boards.greenhouse.io/grover/jobs/4692980003)
 * [Data Engineer - Rust & Python (EU || Remote)](https://boards.greenhouse.io/grover/jobs/5041627003)
