@@ -58,6 +58,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [video] [Perfect Reflections - 034 - The Ray Tracer Challenge](https://www.youtube.com/watch?v=Jr8eXubvKbU)
 * [Building a crawler in Rust: Associated Types](https://kerkour.com/rust-crawler-associated-types)
 
+* [Learning Rust You Need a Cognitive Frame](https://dev.to/zhanghandong/learning-rust-you-need-a-cognitive-frame-41oa)
+
 ### Miscellaneous
 * [audio] [Rustacean Station - Purdy with Marty Jones](https://rustacean-station.org/episode/063-martin-jones/)
 * [video] [Rust Gamedev Meetup #15: April 2022](https://www.youtube.com/watch?v=okWFrfaaADs)
