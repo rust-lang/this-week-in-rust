@@ -31,6 +31,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W14](https://www.fornjot.app/blog/weekly-dev-log/2022-w14/)
 * [Fazi - a drop-in replacement for libfuzzer](https://www.reddit.com/r/rust/comments/u1el9n/release_fazi_a_dropin_replacement_for_libfuzzer/)
 * [This Month in Rust OSDev (March 2022) | Rust OSDev](https://rust-osdev.com/this-month/2022-03/)
+* [This week in Fluvio #28: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0028/)
 * [This week in Databend #36: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-04-06-databend-weekly/)
 * [This week in Databend #37: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-04-13-databend-weekly/)
 
