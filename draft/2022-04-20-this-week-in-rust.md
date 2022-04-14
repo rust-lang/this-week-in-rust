@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Project/Tooling Updates
+* [digs - dig many at once](https://github.com/BiznetGIO/digs)
 
 ### Newsletters
 
