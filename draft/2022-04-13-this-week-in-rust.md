@@ -32,6 +32,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Fazi - a drop-in replacement for libfuzzer](https://www.reddit.com/r/rust/comments/u1el9n/release_fazi_a_dropin_replacement_for_libfuzzer/)
 * [This Month in Rust OSDev (March 2022) | Rust OSDev](https://rust-osdev.com/this-month/2022-03/)
 * [This week in Fluvio #28: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0028/)
+* [This week in Databend #36: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-04-06-databend-weekly/)
+* [This week in Databend #37: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-04-13-databend-weekly/)
 
 ### Newsletters
 * [This Month in Rust GameDev #32 - March 2022](https://gamedev.rs/news/032/)
@@ -39,6 +41,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Research
 
 ### Observations/Thoughts
+* [Defaults Affect Inference in Rust: Expressions Instead Of Types](https://gankra.github.io/blah/defaults-affect-inference/)
 * [Rust in Action Book Review](https://blog.frankel.ch/rust-action/)
 * [What I learned from making a DNS client in Rust](https://blog.adamchalmers.com/making-a-dns-client/)
 * [dyn* doesn't need to be special](https://dev.to/cad97/dyn-doesnt-need-to-be-special-3ldm)
@@ -56,6 +59,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [rustdoc: Recent UI and UX changes in generated documentation](https://blog.guillaume-gomez.fr/articles/2022-04-08+rustdoc%3A+Recent+UI+and+UX+changes+in+generated+documentation)
 * [video] [Perfect Reflections - 034 - The Ray Tracer Challenge](https://www.youtube.com/watch?v=Jr8eXubvKbU)
 * [Building a crawler in Rust: Associated Types](https://kerkour.com/rust-crawler-associated-types)
+
+* [Learning Rust You Need a Cognitive Frame](https://dev.to/zhanghandong/learning-rust-you-need-a-cognitive-frame-41oa)
 
 ### Miscellaneous
 * [audio] [Rustacean Station - Purdy with Marty Jones](https://rustacean-station.org/episode/063-martin-jones/)
@@ -269,11 +274,16 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Grover**
+* [Senior/Mid Software Engineer - Rust & Python (EU || Remote)](https://boards.greenhouse.io/grover/jobs/4470003003)
+* [Machine Learning Engineer - Rust & Python (EU || Remote)](https://boards.greenhouse.io/grover/jobs/4692980003)
+* [Data Engineer - Rust & Python (EU || Remote)](https://boards.greenhouse.io/grover/jobs/5041627003)
+
 **Kollider**
 
 * [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
 * [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
-* [Senior Full Stack Developer - Rust (Remote)](https://careers.kollider.xyz/senior-full-stack-developer/en) 
+* [Senior Full Stack Developer - Rust (Remote)](https://careers.kollider.xyz/senior-full-stack-developer/en)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
