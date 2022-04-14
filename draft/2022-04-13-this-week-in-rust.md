@@ -31,6 +31,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W14](https://www.fornjot.app/blog/weekly-dev-log/2022-w14/)
 * [Fazi - a drop-in replacement for libfuzzer](https://www.reddit.com/r/rust/comments/u1el9n/release_fazi_a_dropin_replacement_for_libfuzzer/)
 * [This Month in Rust OSDev (March 2022) | Rust OSDev](https://rust-osdev.com/this-month/2022-03/)
+* [This week in Databend #36: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-04-06-databend-weekly/)
+* [This week in Databend #37: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-04-13-databend-weekly/)
 
 ### Newsletters
 * [This Month in Rust GameDev #32 - March 2022](https://gamedev.rs/news/032/)
@@ -272,7 +274,7 @@ Email the [Rust Community Team][community] for access.
 
 * [Senior Frontend Engineer - Rust (Remote)](https://careers.kollider.xyz/senior-frontend-engineer/en)
 * [Junior Backend Engineer - Rust (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
-* [Senior Full Stack Developer - Rust (Remote)](https://careers.kollider.xyz/senior-full-stack-developer/en) 
+* [Senior Full Stack Developer - Rust (Remote)](https://careers.kollider.xyz/senior-full-stack-developer/en)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
