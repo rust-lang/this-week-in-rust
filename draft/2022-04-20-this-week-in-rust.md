@@ -20,6 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 
+* [Rewriting sysctl(8) in Rust (systeroid)](https://blog.orhun.dev/rewriting-sysctl-in-rust/)
+
 ### Newsletters
 
 ### Research
