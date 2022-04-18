@@ -19,6 +19,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Project/Tooling Updates
+- [Postage v0.5.0](https://implaustin.hashnode.dev/whats-new-in-postage-v050)
 
 ### Newsletters
 
