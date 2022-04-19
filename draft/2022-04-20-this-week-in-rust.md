@@ -126,7 +126,7 @@ Revision range: [949b98ca..4e1927d](https://perf.rust-lang.org/?start=949b98cab8
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [New Rust attribute to support embedding debugger visualizers](https://github.com/rust-lang/rfcs/pull/3191)
+* [Add provide_any module to core](https://github.com/rust-lang/rfcs/pull/3192)
 
 ### Final Comment Period
 
@@ -136,15 +136,17 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* *No RFCs entered Final Comment Period this week.*
+* [disposition: merge] [RFC: Add target configuration](https://github.com/rust-lang/rfcs/pull/3239)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Check if call return type is visibly uninhabited when building MIR](https://github.com/rust-lang/rust/pull/93313)
+* [disposition: merge] [Stabilize let_chains in Rust 1.62.0](https://github.com/rust-lang/rust/pull/94927)
+* [disposition: merge] [Implement Default for AssertUnwindSafe](https://github.com/rust-lang/rust/pull/95949)
+* [disposition: merge] [Tracking Issue for const offset_from \(const_ptr_offset_from\)](https://github.com/rust-lang/rust/issues/92980)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* *No New or Updated RFCs were created this week.*
+* [new] [Create a types team](https://github.com/rust-lang/rfcs/pull/3254)
 
 ## Upcoming Events
 
