@@ -27,8 +27,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [LoRaWAN Applications in Rust](https://tweedegolf.nl/en/blog/69/lorawan-applications-in-rust)
 
 ### Miscellaneous
+* [We asked 5 people why they like Embedded Rust](https://tweedegolf.nl/en/blog/70/we-asked-5-people-why-they-like-embedded-rust)
 
 ## Crate of the Week
 
