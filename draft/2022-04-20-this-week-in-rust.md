@@ -162,8 +162,6 @@ Rusty Events between 2022-04-20 - 2022-05-18 🦀
     * [**Rust image viewer from scratch**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/285193324/)
 * 2022-04-21 | Charlottesville, VA, US | [Charlottesville Rust Meetup](https://www.meetup.com/Charlottesville-Rust-Meetup/)
     * [**The Rusty Boss--directing the world with Rust, Bluetooth, and a Raspberry Pi**](https://www.meetup.com/Charlottesville-Rust-Meetup/events/284922970)
-* 2022-04-23 | Various - EMEA | [Rustfest](https://rustfest.world/)
-    * [**Rust EMEA Conference**](https://rustfest.world/news/twirf-latam-emea-announcement)
 * 2022-04-26 | Berlin, DE | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/284399979/)
 * 2022-04-26 | Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
