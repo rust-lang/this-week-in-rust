@@ -24,6 +24,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Postage v0.5.0](https://implaustin.hashnode.dev/whats-new-in-postage-v050)
 
 * [Slint (GUI crate) weekly update](https://slint-ui.com/thisweek/2022-04-18.html)
+* [This week in Fluvio #29: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0029/)
 
 ### Newsletters
 
