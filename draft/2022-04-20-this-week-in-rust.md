@@ -29,6 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Observations/Thoughts
 
+* [Coherence and crate-level where-clauses](https://smallcultfollowing.com/babysteps/blog/2022/04/17/coherence-and-crate-level-where-clauses/)
 * [Building a new terminal - using macOS Metal APIs for UI rendering (interview with Warp)](https://console.dev/interviews/warp-zach-lloyd/)
 
 ### Rust Walkthroughs
