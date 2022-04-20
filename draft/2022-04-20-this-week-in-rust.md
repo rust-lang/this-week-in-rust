@@ -27,6 +27,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [Command line argument parsing in Rust using Clap](https://blog.logrocket.com/command-line-argument-parsing-rust-using-clap/)
 
 ### Miscellaneous
 
