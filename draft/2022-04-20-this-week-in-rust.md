@@ -28,6 +28,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 
+* [Hostname based router with axum in Rust](https://kerkour.com/rust-axum-hostname-router)
+
 ### Miscellaneous
 
 ## Crate of the Week
