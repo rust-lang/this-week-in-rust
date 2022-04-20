@@ -39,6 +39,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Building a crawler in Rust: Synchronization (Atomic Types and Barriers)](https://kerkour.com/rust-crawler-synchronization-atomic-types-barrier)
 
+* [Hostname based router with axum in Rust](https://kerkour.com/rust-axum-hostname-router)
+
 ### Miscellaneous
 * [35 Rust Learning Resources Every Beginner Should Know in 2022](https://apollolabsblog.hashnode.dev/35-rust-learning-resources-every-beginner-should-know-in-2022)
 * [We asked 5 people why they like Embedded Rust](https://tweedegolf.nl/en/blog/70/we-asked-5-people-why-they-like-embedded-rust)
