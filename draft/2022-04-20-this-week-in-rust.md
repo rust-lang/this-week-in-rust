@@ -19,17 +19,30 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Foundation
 
 ### Project/Tooling Updates
+* [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W15 (Pre-Vacation Edition)](https://www.fornjot.app/blog/weekly-dev-log/2022-w15/)
+* [Rewriting sysctl(8) in Rust (systeroid)](https://blog.orhun.dev/rewriting-sysctl-in-rust/)
+* [Postage v0.5.0](https://implaustin.hashnode.dev/whats-new-in-postage-v050)
+
+* [Slint (GUI crate) weekly update](https://slint-ui.com/thisweek/2022-04-18.html)
 
 ### Newsletters
 
 ### Research
 
 ### Observations/Thoughts
+* [Why You Should Be Worried About the Future of C/C++ in Embedded: A Case for Rust](https://apollolabsblog.hashnode.dev/why-you-should-be-worried-about-the-future-of-cc-in-embedded-a-case-for-rust)
+* [Coherence and crate-level where-clauses](https://smallcultfollowing.com/babysteps/blog/2022/04/17/coherence-and-crate-level-where-clauses/)
+* [Building a new terminal - using macOS Metal APIs for UI rendering (interview with Warp)](https://console.dev/interviews/warp-zach-lloyd/)
 
 ### Rust Walkthroughs
-- [Command line argument parsing in Rust using Clap](https://blog.logrocket.com/command-line-argument-parsing-rust-using-clap/)
+* [LoRaWAN Applications in Rust](https://tweedegolf.nl/en/blog/69/lorawan-applications-in-rust)
+* [Building a crawler in Rust: Synchronization (Atomic Types and Barriers)](https://kerkour.com/rust-crawler-synchronization-atomic-types-barrier)
+* [Hostname based router with axum in Rust](https://kerkour.com/rust-axum-hostname-router)
+* [Command line argument parsing in Rust using Clap](https://blog.logrocket.com/command-line-argument-parsing-rust-using-clap/)
 
 ### Miscellaneous
+* [35 Rust Learning Resources Every Beginner Should Know in 2022](https://apollolabsblog.hashnode.dev/35-rust-learning-resources-every-beginner-should-know-in-2022)
+* [We asked 5 people why they like Embedded Rust](https://tweedegolf.nl/en/blog/70/we-asked-5-people-why-they-like-embedded-rust)
 
 ## Crate of the Week
 
