@@ -36,10 +36,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Rust Walkthroughs
 * [LoRaWAN Applications in Rust](https://tweedegolf.nl/en/blog/69/lorawan-applications-in-rust)
-
 * [Building a crawler in Rust: Synchronization (Atomic Types and Barriers)](https://kerkour.com/rust-crawler-synchronization-atomic-types-barrier)
-
 * [Hostname based router with axum in Rust](https://kerkour.com/rust-axum-hostname-router)
+* [Command line argument parsing in Rust using Clap](https://blog.logrocket.com/command-line-argument-parsing-rust-using-clap/)
 
 ### Miscellaneous
 * [35 Rust Learning Resources Every Beginner Should Know in 2022](https://apollolabsblog.hashnode.dev/35-rust-learning-resources-every-beginner-should-know-in-2022)
