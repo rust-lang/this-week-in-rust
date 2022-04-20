@@ -20,8 +20,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Project/Tooling Updates
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W15 (Pre-Vacation Edition)](https://www.fornjot.app/blog/weekly-dev-log/2022-w15/)
-
 * [Rewriting sysctl(8) in Rust (systeroid)](https://blog.orhun.dev/rewriting-sysctl-in-rust/)
+* [Postage v0.5.0](https://implaustin.hashnode.dev/whats-new-in-postage-v050)
 
 ### Newsletters
 
