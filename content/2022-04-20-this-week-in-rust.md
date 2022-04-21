@@ -162,15 +162,17 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-A week with a large amount of changes in rollups, which makes performance triage difficult. The performance team and the infra team are working on finding ways to automate marking PRs as likely a poor choice for rolling up. Otherwise, the week overall saw a ~1% improvement in incremental check builds, with smaller improvements to incremental debug and release builds. A number of benchmarks have been updated in the last few weeks, which has meant a decrease in the automated noise assessment's algorithm performance, but that should settle out to steady state behavior on its own in the next few days.
+A rough week, if only in terms of the sheer number of PRs that were flagged as regressions. Going through 31 regressive PR's, 13 of them rollups, is not fun.
+There were some nice wins from e.g. [#95968](https://github.com/rust-lang/rust/pull/95968) and [#95981](https://github.com/rust-lang/rust/pull/95981).
+The main worrisome regression is a 1% compile-time from [#96010](https://github.com/rust-lang/rust/pull/96010) that seems like it was not expected.
 
-Triage done by **@simulacrum**.
-Revision range: [949b98ca..4e1927d](https://perf.rust-lang.org/?start=949b98cab8a186b98bf87e64374b8d0848c55271&end=4e1927db3c399fa34dc71992bd5dbec09f945c3d&absolute=false&stat=instructions%3Au)
+Triage done by **@pnkfelix**.
+Revision range: [4e1927db..4ca19e09](https://perf.rust-lang.org/?start=4e1927db3c399fa34dc71992bd5dbec09f945c3d&end=4ca19e09d302a4cbde14f9cb1bc109179dc824cd&absolute=false&stat=instructions%3Au)
 
-5 Regressions, 4 Improvements, 7 Mixed; 7 of them in rollups
-50 artifact comparisons made in total
+7 Regressions, 12 Improvements, 24 Mixed; 13 of them in rollups
+51 artifact comparisons made in total
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-04-12.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-04-19.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
