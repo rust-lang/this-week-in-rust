@@ -33,10 +33,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [This week in Fluvio #29: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0029/)
 * [This week in Databend #38: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-04-20-databend-weekly/)
 
-### Newsletters
-
-### Research
-
 ### Observations/Thoughts
 * [Why You Should Be Worried About the Future of C/C++ in Embedded: A Case for Rust](https://apollolabsblog.hashnode.dev/why-you-should-be-worried-about-the-future-of-cc-in-embedded-a-case-for-rust)
 * [Coherence and crate-level where-clauses](https://smallcultfollowing.com/babysteps/blog/2022/04/17/coherence-and-crate-level-where-clauses/)
