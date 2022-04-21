@@ -282,6 +282,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**NXLog**
+
+* [Rust Developer (Remote, Europe or worldwide)](https://application.nxlog.org/jobs/detail/rust-developer-39)
+
 **Timescale**
 
 * [Senior Rust Engineer - TimescaleDB Toolkit (Remote: UTC-5 to UTC-8)](https://www.timescale.com/careers/5920911002?gh_jid=5920911002)
