@@ -90,7 +90,7 @@ decision. Express your opinions now.
 
 ## Upcoming Events
 
-Rusty Events between 2022-04-20 - 2022-05-18 🦀
+Rusty Events between 2022-04-27 - 2022-05-25 🦀
 
 ### Virtual
 
