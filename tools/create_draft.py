@@ -44,7 +44,7 @@ def default_date():
     # before the next issue is released. Just in case an issue comes out early
     # or late, we'll pick the Wednesday that is between 4 and 10 days in the
     # future.
-    starting_day = datetime.date.today()
+    starting_day = datetime.date.today() + datetime.timedelta(4)
     # Compute the number of days until the next Wednesday.
     # weekday() returns 0(Monday)..6(Sunday). We want 2.
     delta = (2 - starting_day.weekday()) % 7
