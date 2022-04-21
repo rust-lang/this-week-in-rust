@@ -15,14 +15,20 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 ### Official
+* [Rust Compiler April 2022 Steering Cycle](https://blog.rust-lang.org/inside-rust/2022/04/15/apr-steering-cycle.html)
+* [Please welcome Thom and Chris to Library Contributors](https://blog.rust-lang.org/inside-rust/2022/04/18/libs-contributors.html)
+* [Imposter Syndrome](https://blog.rust-lang.org/inside-rust/2022/04/19/imposter-syndrome.html)
 
 ### Foundation
+* [Member Spotlight: KDAB](https://foundation.rust-lang.org/news/member-spotlight-kdab/)
 
 ### Project/Tooling Updates
+* [MnemOS Initial Release Announcement](https://jamesmunns.com/blog/mnemos-initial-release/)
+* [Bevy 0.7](https://bevyengine.org/news/bevy-0-7/)
+* [rust-analyzer changelog #125](https://rust-analyzer.github.io/thisweek/2022/04/18/changelog-125.html)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W15 (Pre-Vacation Edition)](https://www.fornjot.app/blog/weekly-dev-log/2022-w15/)
 * [Rewriting sysctl(8) in Rust (systeroid)](https://blog.orhun.dev/rewriting-sysctl-in-rust/)
 * [Postage v0.5.0](https://implaustin.hashnode.dev/whats-new-in-postage-v050)
-
 * [Slint (GUI crate) weekly update](https://slint-ui.com/thisweek/2022-04-18.html)
 
 ### Newsletters
@@ -32,17 +38,31 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Observations/Thoughts
 * [Why You Should Be Worried About the Future of C/C++ in Embedded: A Case for Rust](https://apollolabsblog.hashnode.dev/why-you-should-be-worried-about-the-future-of-cc-in-embedded-a-case-for-rust)
 * [Coherence and crate-level where-clauses](https://smallcultfollowing.com/babysteps/blog/2022/04/17/coherence-and-crate-level-where-clauses/)
+* [How Async Functions in Traits could Work in Rustc](https://blog.theincredibleholk.org/blog/2022/04/18/how-async-functions-in-traits-could-work-in-rustc/)
+* [Choosing the Right Integers](https://www.thecodedmessage.com/posts/programming-integers/)
+* [Rustaceans at the border](https://lwn.net/SubscriberLink/889924/2f35f6746c3dd9b1/)
 * [Building a new terminal - using macOS Metal APIs for UI rendering (interview with Warp)](https://console.dev/interviews/warp-zach-lloyd/)
+* [35 Rust Learning Resources Every Beginner Should Know in 2022](https://apollolabsblog.hashnode.dev/35-rust-learning-resources-every-beginner-should-know-in-2022)
+* [We asked 5 people why they like Embedded Rust](https://tweedegolf.nl/en/blog/70/we-asked-5-people-why-they-like-embedded-rust)
+* [A Performance Evaluation on Rust Asynchronous Frameworks](https://zenoh.io/blog/2022-04-14-rust-async-eval/)
+* [Compile time evaluation in Nim, Zig, Rust and C++](https://castillodel.github.io/compile-time-evaluation/)
+* [video] [2022-04-20 Design Meeting: Felienne Hermans, Psychology of Programming](https://www.youtube.com/watch?v=nrkVIq0ccII)
+* [audio] [Armin Ronacher on experimental deserialization with Deser](https://rustacean-station.org/episode/064-armin-ronacher/)
 
 ### Rust Walkthroughs
 * [LoRaWAN Applications in Rust](https://tweedegolf.nl/en/blog/69/lorawan-applications-in-rust)
 * [Building a crawler in Rust: Synchronization (Atomic Types and Barriers)](https://kerkour.com/rust-crawler-synchronization-atomic-types-barrier)
 * [Hostname based router with axum in Rust](https://kerkour.com/rust-axum-hostname-router)
 * [Command line argument parsing in Rust using Clap](https://blog.logrocket.com/command-line-argument-parsing-rust-using-clap/)
+* [Full-text search for DynamoDB using Lambda, EFS, Tantivy and Rust](https://jakejscott.com/full-text-search-for-dynamodb-using-lambda-efs-tantivy-and-rust)
+* [Building and Deploying a URL shortener with Rust in 10 minutes or less](https://www.shuttle.rs/blog/2022/03/13/url-shortener)
+* [ Rust on Nails: A full stack architecture for Rust web applications](https://cloak.software/blog/rust-on-nails/)
+* [An Intro to the Sauron web Framework](https://blog.chainsafe.io/an-intro-to-the-sauron-web-framework-a6093a2ac9eb)
+* [video] [I'm in ur address space](https://fasterthanli.me/videos/im-in-ur-address-space)
+* [video] [A Mir Formality Walkthrough #1](https://www.youtube.com/watch?v=7ZQ-9yZztKA)
 
 ### Miscellaneous
-* [35 Rust Learning Resources Every Beginner Should Know in 2022](https://apollolabsblog.hashnode.dev/35-rust-learning-resources-every-beginner-should-know-in-2022)
-* [We asked 5 people why they like Embedded Rust](https://tweedegolf.nl/en/blog/70/we-asked-5-people-why-they-like-embedded-rust)
+* [Cancellation: RustFest Global EMEA Edition](https://rustfest.world/news/emea-edition-cancellation)
 
 ## Crate of the Week
 
@@ -155,7 +175,7 @@ Revision range: [949b98ca..4e1927d](https://perf.rust-lang.org/?start=949b98cab8
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [New Rust attribute to support embedding debugger visualizers](https://github.com/rust-lang/rfcs/pull/3191)
+* [Add provide_any module to core](https://github.com/rust-lang/rfcs/pull/3192)
 
 ### Final Comment Period
 
@@ -165,15 +185,17 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* *No RFCs entered Final Comment Period this week.*
+* [disposition: merge] [RFC: Add target configuration](https://github.com/rust-lang/rfcs/pull/3239)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [Check if call return type is visibly uninhabited when building MIR](https://github.com/rust-lang/rust/pull/93313)
+* [disposition: merge] [Stabilize let_chains in Rust 1.62.0](https://github.com/rust-lang/rust/pull/94927)
+* [disposition: merge] [Implement Default for AssertUnwindSafe](https://github.com/rust-lang/rust/pull/95949)
+* [disposition: merge] [Tracking Issue for const offset_from \(const_ptr_offset_from\)](https://github.com/rust-lang/rust/issues/92980)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-* *No New or Updated RFCs were created this week.*
+* [new] [Create a types team](https://github.com/rust-lang/rfcs/pull/3254)
 
 ## Upcoming Events
 
@@ -263,6 +285,10 @@ Email the [Rust Community Team][community] for access.
 **NXLog**
 
 * [Rust Developer (Remote, Europe or worldwide)](https://application.nxlog.org/jobs/detail/rust-developer-39)
+
+**Timescale**
+
+* [Senior Rust Engineer - TimescaleDB Toolkit (Remote: UTC-5 to UTC-8)](https://www.timescale.com/careers/5920911002?gh_jid=5920911002)
 
 **Kollider**
 
