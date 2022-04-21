@@ -48,6 +48,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [We asked 5 people why they like Embedded Rust](https://tweedegolf.nl/en/blog/70/we-asked-5-people-why-they-like-embedded-rust)
 * [A Performance Evaluation on Rust Asynchronous Frameworks](https://zenoh.io/blog/2022-04-14-rust-async-eval/)
 * [Compile time evaluation in Nim, Zig, Rust and C++](https://castillodel.github.io/compile-time-evaluation/)
+* [Including two versions of a Rust crate in a single project](https://reltech.substack.com/p/including-two-versions-of-a-rust)
 * [video] [2022-04-20 Design Meeting: Felienne Hermans, Psychology of Programming](https://www.youtube.com/watch?v=nrkVIq0ccII)
 * [audio] [Armin Ronacher on experimental deserialization with Deser](https://rustacean-station.org/episode/064-armin-ronacher/)
 
@@ -82,6 +83,9 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [RustConf 2022 CFP is Open!](https://cfp.rustconf.com/events/rustconf-2022)
+* [Rust Foundation Community Grants Program 2022 is accepting applications](https://foundation.rust-lang.org/grants/)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -284,13 +288,30 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Element**
+
+* [Software Engineer - VoIP (Go/Rust) (Remote)](https://apply.workable.com/elementio/j/5BD58AFB6F/)
+
+**GMTO Organization**
+
+* [Data Scientist (Pasadena, CA, US)](https://giantmagellan.org/employment/data-scientist/)
+
 **NXLog**
 
 * [Rust Developer (Remote, Europe or worldwide)](https://application.nxlog.org/jobs/detail/rust-developer-39)
 
+**KidsLoop**
+
+* [Junior Audio/ Video DevOps Engineer (Seoul, KR)](https://kidsloop.bamboohr.com/jobs/view.php?id=399)
+
 **Timescale**
 
 * [Senior Rust Engineer - TimescaleDB Toolkit (Remote: UTC-5 to UTC-8)](https://www.timescale.com/careers/5920911002?gh_jid=5920911002)
+
+**Stockly**
+
+* [Back-end developer (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-rust-grpc-postgresql_paris)
+* [Back-end developer - Engine (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
 
 **Kollider**
 
