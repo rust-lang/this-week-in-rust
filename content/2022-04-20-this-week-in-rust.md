@@ -331,4 +331,4 @@ Alas, this week went by without any memorable quote.
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/k5nsab/this_week_in_rust_367/)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/u8b9nc/this_week_in_rust_439/)</small>
