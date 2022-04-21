@@ -30,6 +30,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rewriting sysctl(8) in Rust (systeroid)](https://blog.orhun.dev/rewriting-sysctl-in-rust/)
 * [Postage v0.5.0](https://implaustin.hashnode.dev/whats-new-in-postage-v050)
 * [Slint (GUI crate) weekly update](https://slint-ui.com/thisweek/2022-04-18.html)
+* [This week in Fluvio #29: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0029/)
 * [This week in Databend #38: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-04-20-databend-weekly/)
 
 ### Newsletters
