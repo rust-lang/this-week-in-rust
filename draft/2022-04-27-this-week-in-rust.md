@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [StoffelMPC: An MPC as a sidechain framework for building MPC-enabled blockchain applications](https://write.as/hashcloaks-blog/announcing-stoffelmpc-an-mpc-as-a-sidechain-framework)
 
 ### Observations/Thoughts
 
