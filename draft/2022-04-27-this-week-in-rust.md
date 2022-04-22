@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [RisingWave: A Cloud-Native Streaming Database](https://singularity-data.com/blog/)
 
 ### Observations/Thoughts
 
