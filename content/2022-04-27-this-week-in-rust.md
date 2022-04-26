@@ -61,7 +61,7 @@ and just ask the editors to select the category.
 
 ### Research
 
-* [video][Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://www.youtube.com/watch?v=STjQxTu3tS8)
+* [video] [Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://www.youtube.com/watch?v=STjQxTu3tS8)
 
 ### Miscellaneous
 
