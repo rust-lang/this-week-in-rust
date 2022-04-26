@@ -32,10 +32,6 @@ and just ask the editors to select the category.
 * [Rust Library Team Aspirations](https://blog.rust-lang.org/inside-rust/2022/04/20/libs-aspirations.html)
 * [video] [Cross Team Collaboration Fun Times (CTCFT)](https://www.youtube.com/watch?v=xOkI7xZ35fE)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 
 * [rust-analyzer changelog #126](https://rust-analyzer.github.io/thisweek/2022/04/25/changelog-126.html)
@@ -97,9 +93,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [matrix-rust-sdk - several help wanted issues](https://github.com/matrix-org/matrix-rust-sdk/labels/help%20wanted)
 * [include_dir - Compression](https://github.com/Michael-F-Bryan/include_dir/issues/14)
 * [include_dir - Exclude files matching a pattern](https://github.com/Michael-F-Bryan/include_dir/issues/13)
-
-
-
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
