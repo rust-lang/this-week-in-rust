@@ -90,7 +90,16 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [The plotters crate is looking for new maintainers](https://github.com/plotters-rs/plotters/issues/345)
+* [diesel - looking for feedback on 2.0 release candidate, help updating existing guides to new release](https://github.com/diesel-rs/diesel/releases/tag/v2.0.0-rc0)
+* [plotters is looking for new maintainers](https://github.com/plotters-rs/plotters/issues/345)
+* [config-rs - Re-thinking config-rs](https://github.com/mehcode/config-rs/issues/321)
+* [ruma - several help wanted issues](https://github.com/ruma/ruma/issues?q=label%3A%22help+wanted%22)
+* [matrix-rust-sdk - several help wanted issues](https://github.com/matrix-org/matrix-rust-sdk/labels/help%20wanted)
+* [include_dir - Compression](https://github.com/Michael-F-Bryan/include_dir/issues/14)
+* [include_dir - Exclude files matching a pattern](https://github.com/Michael-F-Bryan/include_dir/issues/13)
+
+
+
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
