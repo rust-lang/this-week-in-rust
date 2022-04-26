@@ -121,6 +121,10 @@ They should be of the form:
 
 -->
 
+**Bytewax**
+
+* [Senior Software Engineer (Remote)](https://bytewax.notion.site/Senior-Software-Engineer-a8ea13a594dc454c92a5d4baa15eb321)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
