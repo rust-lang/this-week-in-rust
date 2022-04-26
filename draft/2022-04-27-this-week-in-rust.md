@@ -68,7 +68,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This was, in general, a positive week for compiler performance. There were many concentrated efforts on improving rustdoc performance with a lot of real world crates showing ~4-7% improvements in full build times. Additionally, there was further improvement to `macro_rules!` performance with many real world crates improving performance by as much as 18% in full builds! On the other hand, the regressions were mostly minor and largely relegated to secondary benchmarks.
+
+Triage done by **@rylev**.
+Revision range: [4ca19e0..1c988cf](https://perf.rust-lang.org/?start=4ca19e09d302a4cbde14f9cb1bc109179dc824cd&end=1c988cfa0b7f4d3bc5b1cb40dc5002f5adbfb9ad&absolute=false&stat=instructions%3Au)
+
+4 Regressions, 6 Improvements, 3 Mixed; 1 of them in rollups
+45 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-04-26.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
