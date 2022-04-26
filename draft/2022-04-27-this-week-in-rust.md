@@ -38,7 +38,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [rust-analyzer changelog #126](https://rust-analyzer.github.io//thisweek/2022/04/25/changelog-126.html)
+* [rust-analyzer changelog #126](https://rust-analyzer.github.io/thisweek/2022/04/25/changelog-126.html)
 * [IntelliJ Rust Changelog #169](https://intellij-rust.github.io/2022/04/25/changelog-169.html)
 * [Slint (UI crate) weekly update](https://slint-ui.com/thisweek/2022-04-25.html)
 * [Hello, Robyn!](https://www.sanskar.me/hello_robyn.html)
