@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Indirect ownership, shallow borrow and self-referential data structures](https://yoyo-code.com/indirect-ownership-and-self-borrow/)
+
 ### Rust Walkthroughs
 
 ### Research
