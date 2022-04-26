@@ -67,7 +67,6 @@ and just ask the editors to select the category.
 
 * [audio] [clap with Ed Page :: Rustacean Station](https://rustacean-station.org/episode/065-ed-page/)
 * [DE] [Ferris Talk #8: Wasm loves Rust – WebAssembly und Rust jenseits des...](https://www.heise.de/hintergrund/Ferris-Talk-8-Wasm-loves-Rust-WebAssembly-und-Rust-jenseits-des-Browsers-7064040.html)
-* [video] [Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://www.youtube.com/watch?v=STjQxTu3tS8)
 
 ## Crate of the Week
 
