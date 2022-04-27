@@ -101,7 +101,6 @@ Rusty Events between 2022-04-27 - 2022-05-25 🦀
 * 2022-05-02 | Philadelphia, PA, US | [Rust Philly (Rust Philadelphia)](https://www.meetup.com/RustPhilly/)
     * [**Mob Programming: Rome Tools**](https://www.meetup.com/RustPhilly/events/kkbktsydchbdb/)
 * 2022-05-03 | Austin, TX, US | [WebAssembly and WasmEdge](https://www.meetup.com/webassembly-and-wasmedge/)
-(https://www.meetup.com/RustPhilly/)
     * [**Monthly WasmEdge Community Meeting #8**](https://www.meetup.com/webassembly-and-wasmedge/events/zzdnrsydchbfb/)
 * 2022-05-03 | Beijing, CN | [WebAssembly and Rust Meetup (Rustlang)](https://www.meetup.com/Wasm-Rust-Meetup/)
     * [**Monthly WasmEdge Community Meeting, a CNCF sandbox WebAssembly runtime**](https://www.meetup.com/Wasm-Rust-Meetup/events/jbfnrsydchbfb/)
@@ -146,7 +145,6 @@ Rusty Events between 2022-04-27 - 2022-05-25 🦀
     * [**Rust: wasmcloud microservices**](https://www.meetup.com/Desert-Rustaceans/events/285397070/)
 * 2022-04-27 | New York, NY, US | [Rust NYC](https://www.meetup.com/Rust-NYC/)
     * [**Intro to Tantivy: a full-text search engine library written in Rust**](https://www.meetup.com/Rust-NYC/events/285257552/)
-    * [**Boston Rust Meetup at Amazon**](https://www.meetup.com/BostonRust/events/284808948)
 * 2022-05-11 | Atlanta, GA, US | [Rust ATL](https://www.meetup.com/Rust-ATL/)
     * [**Grab a beer with fellow Rustaceans**](https://www.meetup.com/Rust-ATL/events/pczdssydchbpb/)
 * 2022-05-12 | Columbus, OH, US | [Columbus Rust Society](https://www.meetup.com/columbus-rs/)
@@ -155,6 +153,7 @@ Rusty Events between 2022-04-27 - 2022-05-25 🦀
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/wjkjssydchbwb/)
 
 ### Europe
+
 * 2022-04-28 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester/)
     * [**Rust Manchester Pub Meet**](https://www.meetup.com/rust-manchester/events/285016109/)
 * 2022-05-06 | Zurich, CH | [Rust Zurich](https://www.meetup.com/Rust-Zurich/)
@@ -165,6 +164,7 @@ Rusty Events between 2022-04-27 - 2022-05-25 🦀
     * [**Rust Summit (paid)**](https://entwickler.de/rust-summit)
 * 2022-05-24 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group/)](https://www.meetup.com/rust-amsterdam-group/)
     * [**Rust Developer Meetup: Lightning Talks @ Fiberplane**](https://www.meetup.com/rust-amsterdam-group/events/285291653/)
+
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
 Email the [Rust Community Team][community] for access.
