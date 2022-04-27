@@ -55,6 +55,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Building a crawler in Rust: Implementing the crawler](https://kerkour.com/rust-crawler-implementation)
 * [DevLog[0]: Building a serverless platform for Rust in 4 weeks](https://www.shuttle.rs/blog/2022/04/22/dev-log-0)
 
 ### Research
