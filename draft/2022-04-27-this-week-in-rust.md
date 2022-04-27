@@ -50,7 +50,7 @@ and just ask the editors to select the category.
 * [Indirect ownership, shallow borrow and self-referential data structures](https://yoyo-code.com/indirect-ownership-and-self-borrow/)
 * [Rust traits and dependency injection](https://jmmv.dev/2022/04/rust-traits-and-dependency-injection.html)
 * [What is raw identifier in rust?](https://inspektor.cloud/blog/raw-identifier-in-rust/)
-* [How hard upgrading a Rust JWT library could be?](https://blog.orhun.dev/upgrading-rust-jwt)
+* [How hard upgrading a Rust JWT library could be?](https://blog.orhun.dev/upgrading-rust-jwt/)
 * [The magic of AsRef](https://swatinem.de/blog/magic-asref/)
 
 ### Rust Walkthroughs
