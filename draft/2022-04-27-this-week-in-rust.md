@@ -29,23 +29,41 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Rust Library Team Aspirations](https://blog.rust-lang.org/inside-rust/2022/04/20/libs-aspirations.html)
+* [video] [Cross Team Collaboration Fun Times (CTCFT)](https://www.youtube.com/watch?v=xOkI7xZ35fE)
+
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
 
+* [rust-analyzer changelog #126](https://rust-analyzer.github.io/thisweek/2022/04/25/changelog-126.html)
+* [IntelliJ Rust Changelog #169](https://intellij-rust.github.io/2022/04/25/changelog-169.html)
 * [Slint (UI crate) weekly update](https://slint-ui.com/thisweek/2022-04-25.html)
+* [Hello, Robyn!](https://www.sanskar.me/hello_robyn.html)
+* [gitoxide - Rich repository information & blazingly fast clone-checkouts](https://github.com/Byron/gitoxide/discussions/398)
 
 ### Observations/Thoughts
 
+* [A little fixed point math for embedded audio](https://jamesmunns.com/blog/fixed-point-math/)
 * [Indirect ownership, shallow borrow and self-referential data structures](https://yoyo-code.com/indirect-ownership-and-self-borrow/)
+* [Rust traits and dependency injection](https://jmmv.dev/2022/04/rust-traits-and-dependency-injection.html)
+* [What is raw identifier in rust?](https://inspektor.cloud/blog/raw-identifier-in-rust/)
+* [How hard upgrading a Rust JWT library could be?](https://blog.orhun.dev/upgrading-rust-jwt/)
+* [The magic of AsRef](https://swatinem.de/blog/magic-asref/)
 
 ### Rust Walkthroughs
+
+* [DevLog[0]: Building a serverless platform for Rust in 4 weeks](https://www.shuttle.rs/blog/2022/04/22/dev-log-0)
 
 ### Research
 
 ### Miscellaneous
+
+* [audio] [clap with Ed Page :: Rustacean Station](https://rustacean-station.org/episode/065-ed-page/)
+* [DE] [Ferris Talk #8: Wasm loves Rust – WebAssembly und Rust jenseits des...](https://www.heise.de/hintergrund/Ferris-Talk-8-Wasm-loves-Rust-WebAssembly-und-Rust-jenseits-des-Browsers-7064040.html)
+* [video] [Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://www.youtube.com/watch?v=STjQxTu3tS8)
 
 ## Crate of the Week
 
