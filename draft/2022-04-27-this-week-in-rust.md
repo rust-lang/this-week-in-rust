@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [What a better Rust would look like](https://kerkour.com/what-a-better-rust-would-look-like)
 * [A little fixed point math for embedded audio](https://jamesmunns.com/blog/fixed-point-math/)
 * [Indirect ownership, shallow borrow and self-referential data structures](https://yoyo-code.com/indirect-ownership-and-self-borrow/)
 * [Rust traits and dependency injection](https://jmmv.dev/2022/04/rust-traits-and-dependency-injection.html)
