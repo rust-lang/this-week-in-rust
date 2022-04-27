@@ -58,6 +58,7 @@ and just ask the editors to select the category.
 
 * [Building a crawler in Rust: Implementing the crawler](https://kerkour.com/rust-crawler-implementation)
 * [DevLog[0]: Building a serverless platform for Rust in 4 weeks](https://www.shuttle.rs/blog/2022/04/22/dev-log-0)
+* [Unlocking greater performance in the MongoDB Rust Driver via raw BSON and zero copy deserialization](https://patrickfreed.github.io/rust/2022/04/27/unlocking-greater-performance-in-the-mongodb-rust-driver-via-raw-bson-and-zero-copy-deserialization.html)
 
 ### Research
 
