@@ -154,6 +154,17 @@ Rusty Events between 2022-04-27 - 2022-05-25 🦀
 * 2022-05-17 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/wjkjssydchbwb/)
 
+### Europe
+* 2022-04-28 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester/)
+    * [**Rust Manchester Pub Meet**](https://www.meetup.com/rust-manchester/events/285016109/)
+* 2022-05-06 | Zurich, CH | [Rust Zurich](https://www.meetup.com/Rust-Zurich/)
+    * [**Rust programming language in the high-performance computing environment**](https://www.meetup.com/Rust-Zurich/events/285457518/)
+* 2022-05-09 | Helsinki, FI | [Finland Rust Meetup](https://www.meetup.com/Finland-Rust-Meetup/)
+    * [**May meetup**](https://www.meetup.com/Finland-Rust-Meetup/events/285433622/)
+* 2022-05-19 & 05-20 | Berlin, DE | [Entwickler.de](https://entwickler.de/)
+    * [**Rust Summit (paid)**](https://entwickler.de/rust-summit)
+* 2022-05-24 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group/)](https://www.meetup.com/rust-amsterdam-group/)
+    * [**Rust Developer Meetup: Lightning Talks @ Fiberplane**](https://www.meetup.com/rust-amsterdam-group/events/285291653/)
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
 Email the [Rust Community Team][community] for access.
