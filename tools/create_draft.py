@@ -15,27 +15,38 @@ import sys
 LOG = logging.getLogger(__name__)
 LOG.setLevel(logging.INFO)
 
-
-def get_template_path():
-    """ Returns the path to the template file. """
-    self_path = os.path.abspath(__file__)
-    self_dir = os.path.dirname(self_path)
-    template_path = os.path.join(self_dir, 'DRAFT_TEMPLATE')
-    return template_path
+DRAFT_PATH = 'draft'
+TEMPLATE_PATH = os.path.join('tools', 'DRAFT_TEMPLATE')
+PREVIOUS_ISSUE_SEARCH_PATHS = ['draft', 'content']
+EVENTS_LIST_PLACEHOLDER = '<!-- Events list goes here -->'
 
 
-def default_draft_path():
-    """ Returns the default path where the draft issue should be written.
+def path_from_root(path):
+    """ Returns a path computed relative to the repository root.
 
     This is determined by computing the path to this script, then
-    traversing up one directory and appending '/draft`.
+    traversing up one directory and appending the `path` argument.
     """
 
     self_path = os.path.abspath(__file__)
     self_dir = os.path.dirname(self_path)
     root_path, _ = os.path.split(self_dir)
-    draft_path = os.path.join(root_path, 'draft')
-    return draft_path
+    return os.path.join(root_path, path)
+
+
+def get_template_path():
+    """ Returns the path to the template file. """
+    return path_from_root(TEMPLATE_PATH)
+
+
+def default_draft_path():
+    """ Returns the default path where the draft issue should be written. """
+    return path_from_root(DRAFT_PATH)
+
+
+def issue_filename(date):
+    """ Compute the issue filename, given the date. """
+    return date.isoformat() + '-this-week-in-rust.md'
 
 
 def default_date():
@@ -61,15 +72,69 @@ def compute_issue_number(date):
     raise Exception('failed to compute issue number')
 
 
+def read_previous_issue(date):
+    """ Read the previous issue, and return the file contents. """
+
+    previous = date - datetime.timedelta(7)
+    filename = issue_filename(previous)
+    for path in PREVIOUS_ISSUE_SEARCH_PATHS:
+        full_path = os.path.join(path_from_root(path), filename)
+        try:
+            # Read and return the file contents
+            return open(full_path).read()
+        except Exception as e:
+            # Note: this error doesn't necessarily indicate something
+            # is wrong, because we're searching multiple paths.
+            LOG.debug(f'failed to read {full_path}: {e}')
+            pass
+    raise Exception(f'failed to read previous issue {filename}')
+
+
+def read_previous_events(date):
+    """ Attempt to copy the events list from the previous issue. """
+
+    EVENTS_START = 'Rusty Events between'
+    EVENTS_END = 'If you are running a Rust event'
+
+    previous_issue = read_previous_issue(date)
+    events_list = ''
+    found_events = False
+    for line in previous_issue.splitlines():
+        if found_events:
+            if line.strip().startswith(EVENTS_END):
+                # We found the end of the events list.
+                # Strip blank lines at the beginning and end.
+                return events_list.strip('\n')
+            else:
+                # Copy this line
+                events_list += line + '\n'
+        else:
+            if line.strip().startswith(EVENTS_START):
+                # Start copying lines after this one.
+                found_events = True
+
+    # If we made it here, something went wrong with the extraction.
+    # Most likely, the previous issue doesn't have the strings we are
+    # searching for (EVENTS_START, EVENTS_END).
+    raise Exception(f'failed to extract the previous events list')
+
+
 def create_draft(date):
     """ Return a new issue draft based on the template file. """
     # Events listing ends on issue_date + 28 days.
     end_date = date + datetime.timedelta(28)
 
+    try:
+        events_list = read_previous_events(date)
+    except Exception as e:
+        LOG.warning(f'failed to copy previous events: {e}')
+        events_list = EVENTS_LIST_PLACEHOLDER
+
     params = {
         'twir_issue_number': compute_issue_number(date),
         'twir_issue_date': date.isoformat(),
         'twir_events_end_date': end_date.isoformat(),
+        'twir_events_list': events_list,
     }
 
     template_path = get_template_path()
@@ -105,8 +170,7 @@ def main():
         draft_path = args.draft_path
     else:
         draft_path = default_draft_path()
-    filename = date.isoformat() + '-this-week-in-rust.md'
-    filename = os.path.join(draft_path, filename)
+    filename = os.path.join(draft_path, issue_filename(date))
 
     # Create the draft text, and either write it to a file, or to stdout.
     draft = create_draft(date)
