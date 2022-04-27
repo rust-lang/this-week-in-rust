@@ -142,6 +142,11 @@ Rusty Events between 2022-04-27 - 2022-05-25 🦀
 
 * 2022-04-27 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/BostonRust/)
     * [**Boston Rust Meetup at Amazon**](https://www.meetup.com/BostonRust/events/284808948)
+* 2022-04-27 | Mesa, AZ, US | [Desert Rust](https://www.meetup.com/Desert-Rustaceans/)
+    * [**Rust: wasmcloud microservices**](https://www.meetup.com/Desert-Rustaceans/events/285397070/)
+* 2022-04-27 | New York, NY, US | [Rust NYC](https://www.meetup.com/Rust-NYC/)
+    * [**Intro to Tantivy: a full-text search engine library written in Rust**](https://www.meetup.com/Rust-NYC/events/285257552/)
+    * [**Boston Rust Meetup at Amazon**](https://www.meetup.com/BostonRust/events/284808948)
 * 2022-05-11 | Atlanta, GA, US | [Rust ATL](https://www.meetup.com/Rust-ATL/)
     * [**Grab a beer with fellow Rustaceans**](https://www.meetup.com/Rust-ATL/events/pczdssydchbpb/)
 * 2022-05-12 | Columbus, OH, US | [Columbus Rust Society](https://www.meetup.com/columbus-rs/)
