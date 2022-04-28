@@ -219,7 +219,7 @@ Rusty Events between 2022-04-27 - 2022-05-25 🦀
     * [**Second Tuesday**](https://www.meetup.com/Dallas-Rust/events/vqtjcsydchbnb/)
 * 2022-05-10 | Rostock, DE | [Altow Academy](https://www.meetup.com/altow-academy/)
     * [**7. Rust Meetup Rostock**](https://www.meetup.com/altow-academy/events/283819127/)
-* 2022-05-10 | Saarbrücken, DE | [Rust-Saar](https://www.meetup.com/Rust-Saar/)](https://www.meetup.com/Rust-Saar/)
+* 2022-05-10 | Saarbrücken, DE | [Rust-Saar](https://www.meetup.com/Rust-Saar/)
     * [**Meetup: 21u16**](https://www.meetup.com/Rust-Saar/events/285483060/)
 * 2022-05-10 | Seattle, WA, US | [Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/)
     * [**Monthly meetup**](https://www.meetup.com/Seattle-Rust-Meetup/events/gskksrydchbnb/)
@@ -261,7 +261,7 @@ Rusty Events between 2022-04-27 - 2022-05-25 🦀
     * [**May meetup**](https://www.meetup.com/Finland-Rust-Meetup/events/285433622/)
 * 2022-05-19 & 05-20 | Berlin, DE | [Entwickler.de](https://entwickler.de/)
     * [**Rust Summit (paid)**](https://entwickler.de/rust-summit)
-* 2022-05-24 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group/)](https://www.meetup.com/rust-amsterdam-group/)
+* 2022-05-24 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group/)
     * [**Rust Developer Meetup: Lightning Talks @ Fiberplane**](https://www.meetup.com/rust-amsterdam-group/events/285291653/)
 
 If you are running a Rust event please add it to the [calendar] to get
