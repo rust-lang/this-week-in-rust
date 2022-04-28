@@ -198,7 +198,9 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+**Cambrian Works**
 
+* [Rust Software Engineer (In Spaaaace!) (Remote)](https://www.indeed.com/job/rust-software-engineer-1762efe7a9a9b442)
 <!--
 
 New jobs can be posted here.
