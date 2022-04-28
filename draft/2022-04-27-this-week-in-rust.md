@@ -217,6 +217,11 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Bytewax**
+
+* [Senior Software Engineer (Remote)](https://bytewax.notion.site/Senior-Software-Engineer-a8ea13a594dc454c92a5d4baa15eb321)
+* 
 **Cambrian Works**
 
 * [Rust Software Engineer (In Spaaaace!) (Remote)](https://www.indeed.com/job/rust-software-engineer-1762efe7a9a9b442)
