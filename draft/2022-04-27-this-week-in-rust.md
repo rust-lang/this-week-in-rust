@@ -70,7 +70,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [czkawka](https://github.com/qarmin/czkawka), a GTK-based duplicate finder.
+
+Despite a lack of nominations, llogiq is pleased with his pick.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -89,7 +91,52 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+278 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-04-18..2022-04-25
+
+* [debuginfo: emit ZST struct debuginfo for unit type when CPP-like debuginfo is enabled](https://github.com/rust-lang/rust/pull/96316)
+* [better error message for `_` in function signature in `impl Trait for Ty`](https://github.com/rust-lang/rust/pull/95395)
+* [fix an invalid error for a suggestion to add a slice in pattern-matching](https://github.com/rust-lang/rust/pull/96122)
+* [improve span for `consider adding an explicit lifetime bound` suggestions under NLL](https://github.com/rust-lang/rust/pull/96352)
+* [improve diagnostic on failure to meet send bound on future in a foreign crate](https://github.com/rust-lang/rust/pull/94493)
+* [make the lifetime accurate which is used in the region constraints part](https://github.com/rust-lang/rust/pull/96315)
+* [miri: allow to track multiple alloc-ids, call-ids and pointer tags](https://github.com/rust-lang/miri/pull/2075)
+* [miri: do not consider thread-local allocations read-only](https://github.com/rust-lang/miri/pull/2074)
+* [interpret: fix writing uninit to an allocation](https://github.com/rust-lang/rust/pull/96162)
+* [micro-optimize `ty::relate::relate_substs` by avoiding `match`](https://github.com/rust-lang/rust/pull/96020)
+* [optimize `const_prop` mir-opt by accessing `local_decls` through `ecx`](https://github.com/rust-lang/rust/pull/96281)
+* [remove visibility information from HIR](https://github.com/rust-lang/rust/pull/93970)
+* [speed up `TokenCursor`](https://github.com/rust-lang/rust/pull/96210)
+* [`alloc`: make `vec!` unavailable under `no_global_oom_handling`](https://github.com/rust-lang/rust/pull/96089)
+* [unstably constify `impl<I: Iterator> IntoIterator for I`](https://github.com/rust-lang/rust/pull/90602)
+* [add `as_slice` to slice iterator](https://github.com/rust-lang/rust/pull/92287)
+* [improve Windows path prefix parsing](https://github.com/rust-lang/rust/pull/94887)
+* [reduce allocations for path conversions on Windows](https://github.com/rust-lang/rust/pull/96314)
+* [futures: create `copy_buf_abortable`, which enables to stop copying in the middle](https://github.com/rust-lang/futures-rs/pull/2507)
+* [codegen\_gcc: don't emit `.intel_syntax` for non-x86 targets](https://github.com/rust-lang/rustc_codegen_gcc/pull/164)
+* [cargo: prefer `key.workspace = true` to `key = { workspace = true }`](https://github.com/rust-lang/cargo/pull/10584)
+* [rustdoc: optimize `IdMap`](https://github.com/rust-lang/rust/pull/96260)
+* [rustdoc: optimize and refactor doc link resolution](https://github.com/rust-lang/rust/pull/96135)
+* [rustdoc: resolve some more doc links early](https://github.com/rust-lang/rust/pull/96261)
+* [rustdoc: unindent doc fragments on `Attributes` construction](https://github.com/rust-lang/rust/pull/96282)
+* [rustdoc: make primitive synthetic impls for correct doc module](https://github.com/rust-lang/rust/pull/96301)
+* [clippy: add `large_include_file` lint](https://github.com/rust-lang/rust-clippy/pull/8727)
+* [clippy: add macro export exemption to `redundant_pub_crate`](https://github.com/rust-lang/rust-clippy/pull/8736)
+* [clippy: fix missing whitespace in `collapsible_else_if` suggestion](https://github.com/rust-lang/rust-clippy/pull/8729)
+* [clippy: fix `needless_match` false positive for if-let when the else block doesn't match to given expr](https://github.com/rust-lang/rust-clippy/pull/8700)
+* [clippy: new lint bytes count to len](https://github.com/rust-lang/rust-clippy/pull/8711)
+* [clippy: `manual_split_once`: lint manual iteration of `SplitN`](https://github.com/rust-lang/rust-clippy/pull/8717)
+* [clippy: add `empty_drop`](https://github.com/rust-lang/rust-clippy/pull/8571)
+* [clippy: `mistyped_literal_suffix`: improve integer suggestions, avoid wrong float suggestions](https://github.com/rust-lang/rust-clippy/pull/8742)
+* [clippy: `wrong_self_convention` allows `is_*` to take `&mut self`](https://github.com/rust-lang/rust-clippy/pull/8738)
+* [rust-analyzer: fix const generic panic in `dyn trait`](https://github.com/rust-lang/rust-analyzer/pull/12054)
+* [rust-analyzer: reduce priority of `flyimport` completions](https://github.com/rust-lang/rust-analyzer/pull/12074)
+* [rust-analyzer: restart proc-macro client when server reload](https://github.com/rust-lang/rust-analyzer/pull/12007)
+* [rust-analyzer: display signature help when applying "Add `::<>`" assist](https://github.com/rust-lang/rust-analyzer/pull/12032)
+* [rust-analyzer: prefer core/alloc over std in auto-imports if `#[no_std]` is conditional](https://github.com/rust-lang/rust-analyzer/pull/12041)
+* [rust-analyzer: improve parameter completion](https://github.com/rust-lang/rust-analyzer/pull/12040)
+* [rust-analyzer: index the correct `CargoWorkspace` with `rustc_private`](https://github.com/rust-lang/rust-analyzer/pull/12044)
 
 ### Rust Compiler Performance Triage
 
@@ -249,7 +296,11 @@ They should be of the form:
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> This is the most fundamental philosophy of both the Rust language and the Rust project: we don't think it's sufficient to build robust systems by only including people who don't make mistakes; we think it's better to provide tooling and process to catch and prevent mistakes.
+
+– [Jane Lusby on the inside Rust blog](https://blog.rust-lang.org/inside-rust/2022/04/19/imposter-syndrome.html)
+
+Thanks to [farnbams](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1220) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
