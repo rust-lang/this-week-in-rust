@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 * [Slint (UI crate) weekly update](https://slint-ui.com/thisweek/2022-04-25.html)
 * [Hello, Robyn!](https://www.sanskar.me/hello_robyn.html)
 * [gitoxide - Rich repository information & blazingly fast clone-checkouts](https://github.com/Byron/gitoxide/discussions/398)
+* [This week in Databend #39: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-04-27-databend-weekly/)
 
 ### Observations/Thoughts
 
