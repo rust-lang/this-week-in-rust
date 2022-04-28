@@ -94,13 +94,7 @@ decision. Express your opinions now.
 
 Rusty Events between $twir_issue_date - $twir_events_end_date 🦀
 
-### Virtual
-
-### Europe
-
-### North America
-
-### Oceania
+$twir_events_list
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
