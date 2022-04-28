@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 * [Slint (UI crate) weekly update](https://slint-ui.com/thisweek/2022-04-25.html)
 * [Hello, Robyn!](https://www.sanskar.me/hello_robyn.html)
 * [gitoxide - Rich repository information & blazingly fast clone-checkouts](https://github.com/Byron/gitoxide/discussions/398)
+* [This week in Fluvio #30: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0030/)
 
 ### Observations/Thoughts
 
