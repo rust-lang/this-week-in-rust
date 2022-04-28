@@ -211,6 +211,10 @@ They should be of the form:
 
 -->
 
+**HashCloak
+
+* [Junior Research Engineer (Toronto, ON, CA, Remote)](https://hackmd.io/@hashcloak/HJz2Xn3Z9)
+
 **NXLog**
 
 * [Rust Developer (Remote, Europe or worldwide)](https://application.nxlog.org/jobs/detail/rust-developer-39)
