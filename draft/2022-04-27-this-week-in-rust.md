@@ -32,10 +32,6 @@ and just ask the editors to select the category.
 * [Rust Library Team Aspirations](https://blog.rust-lang.org/inside-rust/2022/04/20/libs-aspirations.html)
 * [video] [Cross Team Collaboration Fun Times (CTCFT)](https://www.youtube.com/watch?v=xOkI7xZ35fE)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 
 * [rust-analyzer changelog #126](https://rust-analyzer.github.io/thisweek/2022/04/25/changelog-126.html)
@@ -45,6 +41,7 @@ and just ask the editors to select the category.
 * [gitoxide - Rich repository information & blazingly fast clone-checkouts](https://github.com/Byron/gitoxide/discussions/398)
 * [This week in Databend #39: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-04-27-databend-weekly/)
 * [This week in Fluvio #30: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0030/)
+* [Rust9x: Compile Rust code for Windows 95, NT and above](https://seri.tools/blog/announcing-rust9x/)
 
 ### Observations/Thoughts
 
@@ -64,11 +61,12 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [video][Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://www.youtube.com/watch?v=STjQxTu3tS8)
+
 ### Miscellaneous
 
 * [audio] [clap with Ed Page :: Rustacean Station](https://rustacean-station.org/episode/065-ed-page/)
 * [DE] [Ferris Talk #8: Wasm loves Rust – WebAssembly und Rust jenseits des...](https://www.heise.de/hintergrund/Ferris-Talk-8-Wasm-loves-Rust-WebAssembly-und-Rust-jenseits-des-Browsers-7064040.html)
-* [video] [Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://www.youtube.com/watch?v=STjQxTu3tS8)
 
 ## Crate of the Week
 
@@ -87,7 +85,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [The plotters crate is looking for new maintainers](https://github.com/plotters-rs/plotters/issues/345)
+* [diesel - looking for feedback on 2.0 release candidate, help updating existing guides to new release](https://github.com/diesel-rs/diesel/releases/tag/v2.0.0-rc0)
+* [plotters is looking for new maintainers](https://github.com/plotters-rs/plotters/issues/345)
+* [config-rs - Re-thinking config-rs](https://github.com/mehcode/config-rs/issues/321)
+* [ruma - several help wanted issues](https://github.com/ruma/ruma/issues?q=label%3A%22help+wanted%22)
+* [matrix-rust-sdk - several help wanted issues](https://github.com/matrix-org/matrix-rust-sdk/labels/help%20wanted)
+* [include_dir - Compression](https://github.com/Michael-F-Bryan/include_dir/issues/14)
+* [include_dir - Exclude files matching a pattern](https://github.com/Michael-F-Bryan/include_dir/issues/13)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -269,10 +273,14 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Element**
+
+* [Software Engineer - VoIP (Go/Rust) (London, UK)](https://apply.workable.com/elementio/j/5BD58AFB6F/)
+
 **Bytewax**
 
 * [Senior Software Engineer (Remote)](https://bytewax.notion.site/Senior-Software-Engineer-a8ea13a594dc454c92a5d4baa15eb321)
-* 
+
 **Cambrian Works**
 
 * [Rust Software Engineer (In Spaaaace!) (Remote)](https://www.indeed.com/job/rust-software-engineer-1762efe7a9a9b442)
@@ -288,13 +296,44 @@ They should be of the form:
 
 -->
 
-**HashCloak
+**HashCloak**
 
 * [Junior Research Engineer (Toronto, ON, CA, Remote)](https://hackmd.io/@hashcloak/HJz2Xn3Z9)
 
 **NXLog**
 
 * [Rust Developer (Remote, Europe or worldwide)](https://application.nxlog.org/jobs/detail/rust-developer-39)
+
+**Zcash Foundation**
+
+* [Core Engineer (Remote)](https://zfnd.org/careers/#Open_positions)
+
+**RDX Works**
+
+* [Senior Rust Software Engineer (Remote)](https://apply.workable.com/rdxworks/j/8DE666E0C4/)
+
+**KidsLoop**
+
+* [Senior Audio/Video Frontend Engineer (Seoul, KR)](https://kidsloop.bamboohr.com/jobs/view.php?id=413)
+* [Senior Audio/ Video Backend Engineer (Seoul, KR)](https://kidsloop.bamboohr.com/jobs/view.php?id=397)
+
+
+**Stockly**
+
+* [Back-end developer - Engine (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
+* [Back-end developer (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-rust-grpc-postgresql_paris)
+
+**Enso**
+
+* [Senior Rust IDE Developer (Remote EU and US)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-ide-developer.md)
+* [Senior Cloud Rust Engineer (Remote EU and US)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-cloud-developer.md)
+
+**Kraken**
+
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Engineering Manager - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/53def500-b146-40da-89a8-98adfd7e84e4)
+* [Senior Rust Engineer - Banking (Remote)](https://jobs.lever.co/kraken/d29373cd-3007-43e4-ab38-1cff5bc85e33)
+
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
