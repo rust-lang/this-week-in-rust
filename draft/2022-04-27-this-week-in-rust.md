@@ -121,8 +121,9 @@ They should be of the form:
 
 -->
 
-**HashCloak**
-* [Junioir Research Engineer (Toronto, Remote)](https://hackmd.io/@hashcloak/HJz2Xn3Z9)
+**HashCloak
+
+* [Junior Research Engineer (Toronto, ON, CA, Remote)](https://hackmd.io/@hashcloak/HJz2Xn3Z9)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
