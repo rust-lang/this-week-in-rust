@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [A tool to seed a dev database with real data written in Rust](https://github.com/qovery/replibyte)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
