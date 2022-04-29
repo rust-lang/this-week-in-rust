@@ -188,6 +188,12 @@ They should be of the form:
 
 * [Job Title (Location)](https://example.com/my-job-link)
 
+**Parity Jobs**
+
+*[Rust / Core Engineer - Parachains Engineering (Remote/Berlin/Lisbon/UK)](https://grnh.se/24949fb13us)
+*[Rust / Core Engineer - Parachains Protocol (Remote/Berlin/Lisbon/UK)](https://grnh.se/06ef2e673us)
+*[Rust Engineer - General opening (Remote/Berlin/Lisbon/UK)](https://grnh.se/1cf2de503us)
+
 -->
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
