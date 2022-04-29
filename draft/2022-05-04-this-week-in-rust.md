@@ -190,6 +190,10 @@ They should be of the form:
 
 -->
 
+**Rust Foundation**
+
+* [Rust Infrastructure Engineer (Remote)](https://foundation.rust-lang.org/careers/)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
