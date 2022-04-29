@@ -188,7 +188,7 @@ They should be of the form:
 
 * [Job Title (Location)](https://example.com/my-job-link)
 
-**Parity Jobs**
+**Parity**
 
 *[Rust / Core Engineer - Parachains Engineering (Remote/Berlin/Lisbon/UK)](https://grnh.se/24949fb13us)
 *[Rust / Core Engineer - Parachains Protocol (Remote/Berlin/Lisbon/UK)](https://grnh.se/06ef2e673us)
