@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Save 5 minutes web scraping with rust](https://domenicoluciani.com/2021/04/30/save-5-minutes-web-scraping-with-rust.html)
+
 ### Research
 
 ### Miscellaneous
