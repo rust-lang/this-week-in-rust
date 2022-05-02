@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Slint (UI crate) weekly update](https://slint-ui.com/thisweek/2022-05-02.html)
+* [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W16/W17 (Post-Vacation Edition)](https://www.fornjot.app/blog/weekly-dev-log/2022-w16-17/)
 
 ### Observations/Thoughts
 
