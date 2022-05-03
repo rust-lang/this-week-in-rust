@@ -94,6 +94,8 @@ Revision range: [1c988cfa..468492](https://perf.rust-lang.org/?start=1c988cfa0b7
 
 52 artifact comparisons made in total
 
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-05-03.md) for more.
+
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
