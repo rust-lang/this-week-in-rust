@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 * [Slint (UI crate) weekly update](https://slint-ui.com/thisweek/2022-05-02.html)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W16/W17 (Post-Vacation Edition)](https://www.fornjot.app/blog/weekly-dev-log/2022-w16-17/)
 * [BonsaiDb (NoSQL Database) April Update: Dogfooding and Fixing Bugs](https://bonsaidb.io/blog/april-2022-update/)
+* [This week in Databend #40: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-05-04-databend-weekly/)
 
 ### Observations/Thoughts
 
