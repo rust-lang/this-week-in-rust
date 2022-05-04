@@ -195,6 +195,10 @@ They should be of the form:
 
 -->
 
+**Rust Foundation**
+
+* [Rust Infrastructure Engineer (Remote)](https://foundation.rust-lang.org/careers/)
+
 **Tempus Ex**
 
 * [Several full-time Rust positions available (San Francisco, CA, US, Atlanta, GA, US, Austin, TX, US, and Remote)](https://tempus-ex.com/careers)
