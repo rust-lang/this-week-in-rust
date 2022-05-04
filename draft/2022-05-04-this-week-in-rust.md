@@ -73,7 +73,28 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Performance overall improved in the last week, but some of this is due to fixing
+regressions from prior weeks. This week also brings an average of 4% improvement
+in memory usage across all profiles due to
+[#95171](https://github.com/rust-lang/rust/pull/95171) bumping the LLVM/clang
+used on x86_64-unknown-linux-gnu to compile C and C++ code linked into rustc.
+
+Triage done by **@simulacrum**.
+Revision range: [1c988cfa..468492](https://perf.rust-lang.org/?start=1c988cfa0b7f4d3bc5b1cb40dc5002f5adbfb9ad&end=468492c2af3993f18b1fe98052200575c4a2e678&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+|            | Regressions 😿 <br />(primary) | Regressions 😿 <br />(secondary) | Improvements 🎉 <br />(primary) | Improvements 🎉 <br />(secondary) | All 😿 🎉 <br />(primary) |
+|:----------:|:------------------------------:|:--------------------------------:|:-------------------------------:|:---------------------------------:|:------------------------:|
+| count      | 13                             | 1                                | 78                              | 29                                | 91                       |
+| mean       | 0.8%                           | 0.3%                             | -0.9%                           | -0.8%                             | -0.7%                    |
+| max        | 1.5%                           | 0.3%                             | -2.7%                           | -2.1%                             | -2.7%                    |
+
+
+4 Regressions, 3 Improvements, 1 Mixed; 1 of them in rollups
+
+52 artifact comparisons made in total
+
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-05-03.md) for more.
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
