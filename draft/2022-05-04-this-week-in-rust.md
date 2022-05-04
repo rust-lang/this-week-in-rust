@@ -80,7 +80,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here -->
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -90,10 +90,16 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
+* *No RFCs entered Final Comment Period this week.*
+
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: merge] [impl Read and Write for VecDeque\<u8\>](https://github.com/rust-lang/rust/pull/95632)
+* [disposition: merge] [Make write/print macros eagerly drop temporaries](https://github.com/rust-lang/rust/pull/96455)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
+* [new] [Advance disclosure of security vulnerabilities](https://github.com/rust-lang/rfcs/pull/3259)
 
 ## Upcoming Events
 
