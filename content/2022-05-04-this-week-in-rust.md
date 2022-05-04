@@ -314,4 +314,4 @@ Thanks to [Jacques “erelde” Rimbault](https://users.rust-lang.org/t/twir-quo
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/uil19h/this_week_in_rust_441/)</small>
