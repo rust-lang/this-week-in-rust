@@ -79,6 +79,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
+* [RustConf Call for Proposals is open](https://cfp.rustconf.com/events/rustconf-2022)
+* [maplibre-rs has several good first issues](https://github.com/maplibre/maplibre-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+* [diesel.rs-website has several help wanted issues](https://github.com/sgrif/diesel.rs-website/labels/help%20wanted)
+
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
 ## Updates from the Rust Project
