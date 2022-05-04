@@ -14,13 +14,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-### Official
-
 ### Foundation
 
 * [A good start to the year!](https://foundation.rust-lang.org/news/2022-05-03-a-good-start-to-the-year/)
-
-### Newsletters
 
 ### Project/Tooling Updates
 
@@ -57,8 +53,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 * [Stay Safe under Panic: Affine Rust Programming with Multiparty Session Types](https://arxiv.org/abs/2204.13464)
 * [Rusty Links in Local Chains](https://arxiv.org/abs/2205.00795)
-
-### Miscellaneous
 
 ## Crate of the Week
 
