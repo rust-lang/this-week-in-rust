@@ -31,24 +31,43 @@ and just ask the editors to select the category.
 
 ### Foundation
 
+* [A good start to the year!](https://foundation.rust-lang.org/news/2022-05-03-a-good-start-to-the-year/)
+
 ### Newsletters
 
 ### Project/Tooling Updates
 
+* [rust-analyzer changelog #127](https://rust-analyzer.github.io/thisweek/2022/05/02/changelog-127.html)
+* [Redox OS 0.7.0](https://www.redox-os.org/news/release-0.7.0/)
+* [Plotters is back!](https://aaronerhardt.github.io/blog/posts/plotters_is_back/)
 * [Slint (UI crate) weekly update](https://slint-ui.com/thisweek/2022-05-02.html)
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W16/W17 (Post-Vacation Edition)](https://www.fornjot.app/blog/weekly-dev-log/2022-w16-17/)
 * [BonsaiDb (NoSQL Database) April Update: Dogfooding and Fixing Bugs](https://bonsaidb.io/blog/april-2022-update/)
 
 ### Observations/Thoughts
 
+* [A shiny future with GATs](https://jackh726.github.io/rust/2022/05/04/a-shiny-future-with-gats.html)
+* [C++ & Rust: Generics and Specialization](https://www.tangramvision.com/blog/c-rust-generics-and-specialization)
+* [The Better Alternative to Lifetime GATs](https://sabrinajewson.org/blog/the-better-alternative-to-lifetime-gats)
 * [Bugs that the Rust compiler catches for you](https://kerkour.com/bugs-rust-compiler-helps-prevent)
+* [Creating an Easy Mode for Rust](https://tim.mcnamara.nz/post/683022094467039232/easy-mode-for-rust)
+* [video] [Async Rust: Portability and Interoperability - Nick Cameron - Rust Linz, April 2022](https://www.youtube.com/watch?v=jxxLQsxJve8)
+* [video] [Rust for the Kubernetes Ecosystem - Deepu K Sasidharan - Rust Linz, April 2022](https://www.youtube.com/watch?v=9icztoT4JVs)
+* [audio] [Game Development with Rust and WebAssembly with Eric Smith](https://rustacean-station.org/episode/066-eric-smith/)
 
 ### Rust Walkthroughs
 
+* [Patching Cargo Dependencies](https://gatowololo.github.io/blog/cargo-patch/)
 * [Building a crawler in Rust: Scraping and Parsing HTML](https://kerkour.com/rust-crawler-scraping-and-parsing-html)
 * [Save 5 minutes web scraping with rust](https://domenicoluciani.com/2021/04/30/save-5-minutes-web-scraping-with-rust.html)
+* [Building a WebAssembly-powered serverless platform](https://blog.scottlogic.com/2022/04/16/wasm-faas.html)
+* [Self-referential structs and alternatives](https://swatinem.de/blog/self-reference-alternatives/)
+* [video] [Getting good at SNES games through DLL injection](https://fasterthanli.me/videos/getting-good-at-snes)
 
 ### Research
+
+* [Stay Safe under Panic: Affine Rust Programming with Multiparty Session Types](https://arxiv.org/abs/2204.13464)
+* [Rusty Links in Local Chains](https://arxiv.org/abs/2205.00795)
 
 ### Miscellaneous
 
