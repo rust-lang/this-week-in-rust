@@ -257,6 +257,9 @@ Email the [Rust Community Team][community] for access.
 
 * [Several full-time Rust positions available (San Francisco, CA, US, Atlanta, GA, US, Austin, TX, US, and Remote)](https://tempus-ex.com/careers)
 
+**Meilisearch**
+* [Senior Rust Engineer - Core Engine (Paris and Remote)](https://jobs.lever.co/meili/5b9f780a-0c80-41a7-aba0-bd86834e6823)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
