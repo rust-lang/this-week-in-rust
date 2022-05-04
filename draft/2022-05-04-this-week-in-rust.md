@@ -40,8 +40,11 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Bugs that the Rust compiler catches for you](https://kerkour.com/bugs-rust-compiler-helps-prevent)
+
 ### Rust Walkthroughs
 
+* [Building a crawler in Rust: Scraping and Parsing HTML](https://kerkour.com/rust-crawler-scraping-and-parsing-html)
 * [Save 5 minutes web scraping with rust](https://domenicoluciani.com/2021/04/30/save-5-minutes-web-scraping-with-rust.html)
 
 ### Research
