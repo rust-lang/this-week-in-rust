@@ -50,7 +50,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [shuttle](https://shuttle.rs), a rustic declarative deployment solution for and at your service.
+
+Thanks to [Nodar Daneliya](https://users.rust-lang.org/t/crate-of-the-week/2704/1058) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -69,7 +71,46 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+343 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-04-25..2022-05-02
+
+* [add `do yeet` expressions to allow experimentation in nightly](https://github.com/rust-lang/rust/pull/96376)
+* [enforce Copy bounds for repeat elements while considering lifetimes](https://github.com/rust-lang/rust/pull/95819)
+* [enforce static lifetimes in consts during late resolution](https://github.com/rust-lang/rust/(ull/95776)
+* [ensure that `'_` and GAT yields errors](https://github.com/rust-lang/rust/pull/95312)
+* [better error messages when collecting into `[T; n]`](https://github.com/rust-lang/rust/pull/96466)
+* [erase type params when suggesting fully qualified path](https://github.com/rust-lang/rust/pull/96347)
+* [fix incorrect suggestion for trait bounds involving binary operators](https://github.com/rust-lang/rust/pull/94034)
+* [improve Error Messaging for Unconstructed Structs and Enum Variants in Generic Contexts](https://github.com/rust-lang/rust/pull/92569)
+* [recover suggestions to introduce named lifetime under NLL](https://github.com/rust-lang/rust/pull/96409)
+* [recover most `impl Trait` and `dyn Trait` lifetime bound suggestions under NLL](https://github.com/rust-lang/rust/pull/96385)
+* [suggest calling method on nested field when struct is missing method](https://github.com/rust-lang/rust/pull/96372)
+* [use the correct lifetime binder for elided lifetimes in path](https://github.com/rust-lang/rust/pull/96559)
+* [when encountering a binding that could be a const or unit variant, suggest the right path](https://github.com/rust-lang/rust/pull/90988)
+* [fix incremental perf regression unsafety checking](https://github.com/rust-lang/rust/pull/96425)
+* [support arrays of zeros in `Vec`'s `__rust_alloc_zeroed` optimization](https://github.com/rust-lang/rust/pull/95362)
+* [make (`e`)`println!` macros eagerly drop temporaries (for backport)](https://github.com/rust-lang/rust/pull/96490)
+* [add `VecDeque::extend` from `vec::IntoIter` and `slice::Iter` specializations](https://github.com/rust-lang/rust/pull/95904)
+* [implement `str` to `[u8]` conversion for refcounted containers](https://github.com/rust-lang/rust/pull/96078)
+* [std: directly use pthread in UNIX parker implementation](https://github.com/rust-lang/rust/pull/96393)
+* [hashbrown: correct the implementation of `Debug` for `ValuesMut` and `IntoValues` structures](https://github.com/rust-lang/hashbrown/pull/321)
+* [hashbrown: fix underflow in `RawIterRange::size_hint`](https://github.com/rust-lang/hashbrown/pull/325)
+* [stdarch: add stdsimd feature to `allow_internal_unstable` attribute in feature detect macros](https://github.com/rust-lang/stdarch/pull/1303)
+* [stdarch: WASM simd128 pairwise/lane-wise](https://github.com/rust-lang/stdarch/pull/1302)
+* [codegen\_gcc: add inline assembly `sym` operands as GCC input operands](https://github.com/rust-lang/rustc_codegen_gcc/pull/163)
+* [cargo: add support for workspace inheritance](https://github.com/rust-lang/cargo/pull/10606)
+* [clippy: extend `extra_unused_lifetimes` to handle impl lifetimes](https://github.com/rust-lang/rust-clippy/pull/8737)
+* [clippy: `needless_late_init`: ignore `if let`, `let mut` and significant drops](https://github.com/rust-lang/rust-clippy/pull/8617)
+* [clippy: `redundant_closure` fix false positive on coerced closure](https://github.com/rust-lang/rust-clippy/pull/8431)
+* [clippy: fix ICE in `cast_slice_different_sizes`](https://github.com/rust-lang/rust-clippy/pull/8720)
+* [clippy: ignore `redundant_pub_crate` in `useless_attribute`](https://github.com/rust-lang/rust-clippy/pull/8743)
+* [rust-analyzer: reload project on `.cargo/config`(`.toml`) changes](https://github.com/rust-lang/rust-analyzer/pull/12093)
+* [rust-analyzer: make "inline type alias" work for `Self` in impls](https://github.com/rust-lang/rust-analyzer/pull/12110)
+* [rust-analyzer: diagnose unresolved derive macros](https://github.com/rust-lang/rust-analyzer/pull/12103)
+* [rust-analyzer: provide Self in record literal completion](https://github.com/rust-lang/rust-analyzer/pull/12123)
+* [rust-analyzer: fix outline mod completion with partial module name](https://github.com/rust-lang/rust-analyzer/pull/12111)
+* [rust-analyzer: fix show `macro_rules` snippet in blocks](https://github.com/rust-lang/rust-analyzer/pull/12098)
 
 ### Rust Compiler Performance Triage
 
@@ -220,7 +261,11 @@ Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> "Ah but logic errors can happen with all languages" yes and I'm sure trains occasionally run into trees as well, but cars are way more likely to. 🙃
+
+– [amos on twitter](https://twitter.com/fasterthanlime/status/1519457942474477569)
+
+Thanks to [Jacques “erelde” Rimbault](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1225) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
