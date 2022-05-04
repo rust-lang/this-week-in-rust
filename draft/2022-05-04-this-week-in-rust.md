@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Building a crawler in Rust: Scraping and Parsing HTML](https://kerkour.com/rust-crawler-scraping-and-parsing-html)
 * [Save 5 minutes web scraping with rust](https://domenicoluciani.com/2021/04/30/save-5-minutes-web-scraping-with-rust.html)
 
 ### Research
