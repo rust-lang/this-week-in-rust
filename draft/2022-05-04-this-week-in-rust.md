@@ -14,26 +14,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-<!--
-
-Dear community contributors:
-Please read README.md for guidance on submissions.
-Each submitted link should be of the form:
-
-* [Title of the Linked Page](https://example.com/my_article)
-
-If you don't know which category to use, feel free to submit a PR anyway
-and just ask the editors to select the category.
-
--->
-
-### Official
-
 ### Foundation
 
 * [A good start to the year!](https://foundation.rust-lang.org/news/2022-05-03-a-good-start-to-the-year/)
-
-### Newsletters
 
 ### Project/Tooling Updates
 
@@ -71,8 +54,6 @@ and just ask the editors to select the category.
 * [Stay Safe under Panic: Affine Rust Programming with Multiparty Session Types](https://arxiv.org/abs/2204.13464)
 * [Rusty Links in Local Chains](https://arxiv.org/abs/2205.00795)
 
-### Miscellaneous
-
 ## Crate of the Week
 
 This week's crate is [shuttle](https://shuttle.rs), a rustic declarative deployment solution for and at your service.
@@ -91,6 +72,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
+
+* [RustConf Call for Proposals is open](https://cfp.rustconf.com/events/rustconf-2022)
+* [maplibre-rs has several good first issues](https://github.com/maplibre/maplibre-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+* [diesel.rs-website has several help wanted issues](https://github.com/sgrif/diesel.rs-website/labels/help%20wanted)
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
@@ -268,15 +253,42 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Element**
+
+* [Software Engineer - VoIP (Go/Rust) (London, UK)](https://apply.workable.com/elementio/j/5BD58AFB6F/)
+
 **Meilisearch**
 
 * [Senior Rust Engineer - Core Engine (Paris, FR and Remote)](https://jobs.lever.co/meili/5b9f780a-0c80-41a7-aba0-bd86834e6823)
+
+**Aembit**
+
+* [Senior Software Engineer (Rust) (Remote US)](https://www.linkedin.com/jobs/view/2876048244/)
+
+**PropelAuth**
+
+* [Founding Backend Engineer (Remote, PST preferred)](https://www.ycombinator.com/companies/propelauth/jobs/b0dl3wz-founding-backend-engineer)
+
+**ANIXE**
+
+* [Rust Software Engineer (Remote or hybrid work PL, GR)](https://anixe.bamboohr.com/jobs/view.php?id=184&source=bamboohr)
+
+**Stockly**
+
+* [Back-end developer (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-rust-grpc-postgresql_paris)
+* [Back-end developer - Engine (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
 
 **Parity**
 
 * [Rust / Core Engineer - Parachains Engineering (Remote/Berlin/Lisbon/UK)](https://grnh.se/24949fb13us)
 * [Rust / Core Engineer - Parachains Protocol (Remote/Berlin/Lisbon/UK)](https://grnh.se/06ef2e673us)
 * [Rust Engineer - General opening (Remote/Berlin/Lisbon/UK)](https://grnh.se/1cf2de503us)
+
+**Kraken**
+
+* [Engineering Manager - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/53def500-b146-40da-89a8-98adfd7e84e4)
+* [Site Reliability Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/1c6b290f-e430-430d-9b40-a258d07686b0)
+* [Rust Engineer, Desktop GUI - Cryptowatch (Remote)](https://jobs.lever.co/kraken/2442ee5c-56b6-4a73-a477-8cdda2b218d5)
 
 **Rust Foundation**
 
