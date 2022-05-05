@@ -247,6 +247,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Meilisearch**
+
+* [Senior Rust Engineer - Core Engine (Paris, FR and Remote)](https://jobs.lever.co/meili/5b9f780a-0c80-41a7-aba0-bd86834e6823)
+
 **Parity**
 
 * [Rust / Core Engineer - Parachains Engineering (Remote/Berlin/Lisbon/UK)](https://grnh.se/24949fb13us)
