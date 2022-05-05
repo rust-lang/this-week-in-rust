@@ -134,6 +134,7 @@ Triage done by **@simulacrum**.
 Revision range: [1c988cfa..468492](https://perf.rust-lang.org/?start=1c988cfa0b7f4d3bc5b1cb40dc5002f5adbfb9ad&end=468492c2af3993f18b1fe98052200575c4a2e678&absolute=false&stat=instructions%3Au)
 
 **Summary**:
+
 |            | Regressions 😿 <br />(primary) | Regressions 😿 <br />(secondary) | Improvements 🎉 <br />(primary) | Improvements 🎉 <br />(secondary) | All 😿 🎉 <br />(primary) |
 |:----------:|:------------------------------:|:--------------------------------:|:-------------------------------:|:---------------------------------:|:------------------------:|
 | count      | 13                             | 1                                | 78                              | 29                                | 91                       |
