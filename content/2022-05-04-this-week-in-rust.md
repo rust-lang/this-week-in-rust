@@ -87,7 +87,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 * [add `do yeet` expressions to allow experimentation in nightly](https://github.com/rust-lang/rust/pull/96376)
 * [enforce Copy bounds for repeat elements while considering lifetimes](https://github.com/rust-lang/rust/pull/95819)
-* [enforce static lifetimes in consts during late resolution](https://github.com/rust-lang/rust/(ull/95776)
+* [enforce static lifetimes in consts during late resolution](https://github.com/rust-lang/rust/pull/95776)
 * [ensure that `'_` and GAT yields errors](https://github.com/rust-lang/rust/pull/95312)
 * [better error messages when collecting into `[T; n]`](https://github.com/rust-lang/rust/pull/96466)
 * [erase type params when suggesting fully qualified path](https://github.com/rust-lang/rust/pull/96347)
