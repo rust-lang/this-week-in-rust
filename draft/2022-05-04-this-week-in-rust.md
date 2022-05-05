@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 * [Fornjot (Code-CAD in Rust) - Weekly Dev Log - 2022-W16/W17 (Post-Vacation Edition)](https://www.fornjot.app/blog/weekly-dev-log/2022-w16-17/)
 * [BonsaiDb (NoSQL Database) April Update: Dogfooding and Fixing Bugs](https://bonsaidb.io/blog/april-2022-update/)
 * [This week in Databend #40: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-05-04-databend-weekly/)
+* [This week in Fluvio #31: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0031/)
 
 ### Observations/Thoughts
 
@@ -247,6 +248,10 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
+
+**Meilisearch**
+
+* [Senior Rust Engineer - Core Engine (Paris, FR and Remote)](https://jobs.lever.co/meili/5b9f780a-0c80-41a7-aba0-bd86834e6823)
 
 **Parity**
 
