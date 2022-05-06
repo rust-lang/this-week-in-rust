@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing the Kani Rust Verifier Project](https://model-checking.github.io/kani-verifier-blog/2022/05/04/announcing-the-kani-rust-verifier-project.html)
+
 ### Observations/Thoughts
 
 * [Introducing Rust in security research](https://tweedegolf.nl/en/blog/71/introducing-rust-in-security-research)
