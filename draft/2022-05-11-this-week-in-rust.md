@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Fornjot 0.6](https://www.fornjot.app/blog/fornjot-0.6/)
+
 ### Observations/Thoughts
 
 * [Introducing Rust in security research](https://tweedegolf.nl/en/blog/71/introducing-rust-in-security-research)
