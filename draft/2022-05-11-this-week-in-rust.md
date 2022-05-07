@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Fornjot 0.6](https://www.fornjot.app/blog/fornjot-0.6/)
+* [Announcing the Kani Rust Verifier Project](https://model-checking.github.io/kani-verifier-blog/2022/05/04/announcing-the-kani-rust-verifier-project.html)
 
 ### Observations/Thoughts
 
