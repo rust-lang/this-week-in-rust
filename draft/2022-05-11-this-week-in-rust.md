@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 
 * [Fornjot 0.6](https://www.fornjot.app/blog/fornjot-0.6/)
 * [Announcing the Kani Rust Verifier Project](https://model-checking.github.io/kani-verifier-blog/2022/05/04/announcing-the-kani-rust-verifier-project.html)
-* [DLHN : Blazing fast and small data serialization format](https://www.reddit.com/r/rust/comments/ull0et/i_made_a_blazing_fast_and_small_new_data/)
+* [DLHN : Blazing fast and small data serialization format](https://github.com/otake84/dlhn)
 
 ### Observations/Thoughts
 
