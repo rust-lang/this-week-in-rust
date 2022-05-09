@@ -37,7 +37,8 @@ and just ask the editors to select the category.
 
 * [Fornjot 0.6](https://www.fornjot.app/blog/fornjot-0.6/)
 * [Announcing the Kani Rust Verifier Project](https://model-checking.github.io/kani-verifier-blog/2022/05/04/announcing-the-kani-rust-verifier-project.html)
-* [Rust-raspberrypi-OS-tutorials](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials): Added [Tutorial 17 (Kernel Symbols)](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/17_kernel_symbols) and [Tutorial 18 (Backtracing)](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/18_backtrace)
+* [Rust-raspberrypi-OS-tutorials: Tutorial 17 - Kernel Symbols](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/17_kernel_symbols#readme)
+* [Rust-raspberrypi-OS-tutorials: Tutorial 18 - Backtracing](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/18_backtrace#readme)
 
 ### Observations/Thoughts
 
