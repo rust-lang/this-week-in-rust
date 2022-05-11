@@ -61,7 +61,7 @@ and just ask the editors to select the category.
 * [Securing Crates](https://tl8.co/entry/securing-crates)
 * [Over-Engineering A Fairly Simple Coding Challenge](https://ada-x64.github.io/over-engineering/)
 * [Building Rust code for my OpenWrt Wi-Fi router](https://blog.dend.ro/building-rust-for-routers/)
-* [Overview - Lisp interpreter in Rust](https://vishpat.github.io/lisp-rs/)
+* [Lisp interpreter in Rust](https://vishpat.github.io/lisp-rs/)
 
 ### Rust Walkthroughs
 
