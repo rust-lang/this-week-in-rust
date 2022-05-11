@@ -54,7 +54,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [enum\_dispatch](https://crates.io/crates/enum_dispatch), a proc-macro-attribute to replace dynamic dispatch with enum dispatch to gain performance.
+
+Thanks to [David Mason](https://users.rust-lang.org/t/crate-of-the-week/2704/1059) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -73,7 +75,57 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+377 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-05-02..2022-05-09
+
+* [rustc + avr = ❤️❤️ back again](https://github.com/rust-lang/llvm-project/pull/139)
+* [support tool lints with the `#[expect]` attribute](https://github.com/rust-lang/rust/pull/95542) (RFC [#2383](https://rust-lang.github.io/rfcs/2383-lint-reasons.html))
+* [remove `#[rustc_deprecated]`](https://github.com/rust-lang/rust/pull/95960)
+* [suggest fully qualified path with appropriate params](https://github.com/rust-lang/rust/pull/96772)
+* [report that opaque types are not allowed in impls even in the presence of other errors](https://github.com/rust-lang/rust/pull/96673)
+* [warn on unused `#[doc(hidden)]` attributes on trait impl items](https://github.com/rust-lang/rust/pull/96008)
+* [use source callsite in `check_argument_types` suggestion](https://github.com/rust-lang/rust/pull/96589)
+* [followups for method call error change](https://github.com/rust-lang/rust/pull/96155)
+* [don't cache results of coinductive cycle](https://github.com/rust-lang/rust/pull/96458)
+* [speed up `Token::{ident,lifetime}`](https://github.com/rust-lang/rust/pull/96683)
+* [overhaul `MacArgs`](https://github.com/rust-lang/rust/pull/96546)
+* [generalize "incoherent impls" impl for user defined types](https://github.com/rust-lang/rust/pull/96520)
+* [optimize `promote_consts` by caching the results of `validate_local`](https://github.com/rust-lang/rust/pull/96815)
+* [codegen\_gcc: implement more SIMD intrinsics](https://github.com/rust-lang/rustc_codegen_gcc/pull/172)
+* [codegen\_gcc: use the provided pointee type in `<Builder as BuilderMethods>::load`](https://github.com/rust-lang/rustc_codegen_gcc/pull/170)
+* [stabilize `bool::then_some`](https://github.com/rust-lang/rust/pull/96628)
+* [add a dedicated length-prefixing method to `Hasher`](https://github.com/rust-lang/rust/pull/94598)
+* [fix panic in `Path::strip_prefix`](https://github.com/rust-lang/rust/pull/93675)
+* [make `sys::windows::os_str::Slice` `repr(transparent)`](https://github.com/rust-lang/rust/pull/96802)
+* [futures: remove `Fuse`s from `select`, and only poll non-terminated streams](https://github.com/rust-lang/futures-rs/pull/2583)
+* [hashbrown: remove third copy operation for `RustcOccupiedEntry::insert`](https://github.com/rust-lang/hashbrown/pull/329)
+* [cargo: extend pkgid syntax with `@` support](https://github.com/rust-lang/cargo/pull/10582)
+* [cargo: improve support of condition compilation checking](https://github.com/rust-lang/cargo/pull/10566)
+* [cargo: when documenting private items in a binary, ignore warnings about links to private items](https://github.com/rust-lang/cargo/pull/10142)
+* [rust-analyzer: remove handling of `#[rustc_deprecated]`](https://github.com/rust-lang/rust-analyzer/pull/11983)
+* [rust-analyzer: lower values of char and byte literals](https://github.com/rust-lang/rust-analyzer/pull/12157)
+* [rust-analyzer: sort items by trait definition assist](https://github.com/rust-lang/rust-analyzer/pull/12142)
+* [rust-analyzer: allow auto importing starting segments of use items](https://github.com/rust-lang/rust-analyzer/pull/12188)
+* [rust-analyzer: don't show assoc. type binding completions when invalid](https://github.com/rust-lang/rust-analyzer/pull/12199)
+* [rust-analyzer: fix import insertion inserting after last comment in a file](https://github.com/rust-lang/rust-analyzer/pull/12197)
+* [rust-analyzer: fix panic when a macro passes a float token to another macro](https://github.com/rust-lang/rust-analyzer/pull/12178)
+* [rust-analyzer: fix snippets triggering where they shouldn't](https://github.com/rust-lang/rust-analyzer/pull/12175)
+* [rust-analyzer: remap float parts as integers when parsed as indices](https://github.com/rust-lang/rust-analyzer/pull/12185)
+* [rust-analyzer: resolve assoc. types of supertraits in the IDE layer](https://github.com/rust-lang/rust-analyzer/pull/12198)
+* [rust-analyzer: try not to invalidate state when the proc macro preference didn't change](https://github.com/rust-lang/rust-analyzer/pull/12171)
+* [rust-analyzer: fix macro expansion with float tokens](https://github.com/rust-lang/rust-analyzer/pull/12177)
+* [rust-analyzer: split float literal tokens at `.` to fix parsing of tuple field accesses](https://github.com/rust-lang/rust-analyzer/pull/12149)
+* [clippy: address `unnecessary_to_owned` false positive](https://github.com/rust-lang/rust-clippy/pull/8794)
+* [clippy: create lint against unexpectedly late drop for temporaries in match scrutinee expressions](https://github.com/rust-lang/rust/pull/94206)
+* [clippy: fix `cast_lossless` to avoid warning on `usize` to `f64` conversion](https://github.com/rust-lang/rust-clippy/pull/8778)
+* [clippy: ignore type aliases in `init_numbered_fields`](https://github.com/rust-lang/rust-clippy/pull/8780)
+* [clippy: lint `empty_lint_after_outer_attr` on argumentless macros](https://github.com/rust-lang/rust-clippy/pull/8790)
+* [clippy: move `only_used_in_recursion` to nursery](https://github.com/rust-lang/rust-clippy/pull/8783)
+* [clippy: optionally allow `expect` and `unwrap` in tests](https://github.com/rust-lang/rust-clippy/pull/8802)
+* [clippy: support negative ints in `manual_range_contains`](https://github.com/rust-lang/rust-clippy/pull/8763)
+* [clippy: `identity_op` false positive in front of if](https://github.com/rust-lang/rust-clippy/pull/8730)
+* [rustfmt: fix `wrap_comments` breaking up type links](https://github.com/rust-lang/rustfmt/pull/5262)
 
 ### Rust Compiler Performance Triage
 
@@ -215,7 +267,13 @@ They should be of the form:
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> At Cloudflare we have big Rust projects/teams and onboard new developers regularly.
+>
+> There is a learning curve. Rust is rigid and unforgiving, and noobs need assistance when the compiler says “no” (although error messages and Clippy do a good job for common mistakes).
+>
+> However, the big upside is that noobs can contribute safely to Rust projects. Rust limits severity of the damage an inexperienced programmer can cause. Once they manage to get the code to compile, it already has lots of correctness guarantees. “Bad” Rust code may just clone more than strictly necessary, or write 10 lines of code for something that has a helper method in the stdlib, but it won’t corrupt memory or blindly run the happy path without checking for errors. Rust prefers to be locally explicit, so it’s also easy to review.
+
+– [Kornel.Lesiński on lobste.rs](https://lobste.rs/s/ksj3ii/rust_is_hard_yes_does_it_matter)
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
