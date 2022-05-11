@@ -41,16 +41,20 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Programming languages are platforms, not products](https://kerkour.com/programming-languages-are-platforms)
 * [Introducing Rust in security research](https://tweedegolf.nl/en/blog/71/introducing-rust-in-security-research)
 
 ### Rust Walkthroughs
 
+* [Building a crawler in Rust: Crawling a JSON API](https://kerkour.com/rust-crawler-json-api)
 * [Rust-raspberrypi-OS-tutorials: Tutorial 17 - Kernel Symbols](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/17_kernel_symbols#readme)
 * [Rust-raspberrypi-OS-tutorials: Tutorial 18 - Backtracing](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/18_backtrace#readme)
 
 ### Research
 
 ### Miscellaneous
+
+* [Black Hat Rust discount: Happy 2022](https://kerkour.com/black-hat-rust-discount-happy-2022)
 
 ## Crate of the Week
 
