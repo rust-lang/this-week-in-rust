@@ -57,7 +57,7 @@ and just ask the editors to select the category.
 * [Introducing Rust in security research](https://tweedegolf.nl/en/blog/71/introducing-rust-in-security-research)
 * [Xilem: an architecture for UI in Rust](https://raphlinus.github.io/rust/gui/2022/05/07/ui-architecture.html)
 * [Modeling Finite State Machines with Rust | Ramnivas Laddad](https://www.ramnivas.com/blog/2022/05/09/fsm-model-rust)
-* [Secure computation in Rust: Using Intel's SGX instructions with Tea...](https://www.notamonadtutorial.com/secure-computation-in-rust-using-intels-sgx-instructions-with-teaclave-and-fortanix/)
+* [Secure computation in Rust: Using Intel's SGX instructions with Teaclave and Fortanix](https://www.notamonadtutorial.com/secure-computation-in-rust-using-intels-sgx-instructions-with-teaclave-and-fortanix/)
 * [Securing Crates](https://tl8.co/entry/securing-crates)
 * [Over-Engineering A Fairly Simple Coding Challenge](https://ada-x64.github.io/over-engineering/)
 * [Building Rust code for my OpenWrt Wi-Fi router](https://blog.dend.ro/building-rust-for-routers/)
