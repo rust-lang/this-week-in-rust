@@ -52,6 +52,9 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Evolving Collaboration, Dependencies, and Use in the Rust Open Source Software Ecosystem](https://arxiv.org/abs/2205.03597)
+* [Modeling Interconnected Social and Technical Risks in Open Source Software Ecosystems](https://arxiv.org/abs/2205.04268)
+
 ### Miscellaneous
 
 * [Black Hat Rust discount: Happy 2022](https://kerkour.com/black-hat-rust-discount-happy-2022)
