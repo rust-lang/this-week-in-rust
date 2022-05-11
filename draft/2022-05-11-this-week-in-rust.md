@@ -84,7 +84,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here -->
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -94,10 +94,21 @@ decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
+* *No RFCs entered Final Comment Period this week.*
+
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: merge] [Make RwLockReadGuard covariant](https://github.com/rust-lang/rust/pull/96820)
+* [disposition: merge] [Extend ptr::null and null_mut to all thin (including extern) types](https://github.com/rust-lang/rust/pull/94954)
+* [disposition: merge] [Modify MIR building to drop repeat expressions with length zero](https://github.com/rust-lang/rust/pull/95953)
+* [disposition: merge] [Tracking issue for explicit_generic_args_with_impl_trait](https://github.com/rust-lang/rust/issues/83701)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
+* [new] [RFC: Precise Pre-release Deps](https://github.com/rust-lang/rfcs/pull/3263)
+* [new] [Rolling co-lead roles for T-compiler](https://github.com/rust-lang/rfcs/pull/3262/files)
+* [new] [RFC: extended_hrtbs](https://github.com/rust-lang/rfcs/pull/3261)
+* [new] [Deprecating UnwindSafe](https://github.com/rust-lang/rfcs/pull/3260)
 
 ## Upcoming Events
 
