@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [This Month in Rust OSDev: April 2022](https://rust-osdev.com/this-month/2022-04/)
+
 ### Project/Tooling Updates
 
 * [rust-analyzer changelog #128](https://rust-analyzer.github.io/thisweek/2022/05/09/changelog-128.html)
@@ -47,7 +49,6 @@ and just ask the editors to select the category.
 * [rustc_codegen_gcc: Progress Report #11](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-11)
 * [GCC Rust Monthly Report #16 April 2022](https://thephilbert.io/2022/05/04/gcc-rust-monthly-report-16-april-2022/)
 * [RepliByte - An open-source tool to seed your dev database with real data](https://www.reddit.com/r/rust/comments/ukmnow/an_opensource_tool_to_seed_your_dev_database_with/)
-* [This Month in Rust OSDev: April 2022](https://rust-osdev.com/this-month/2022-04/)
 * [Introducing Crane: Composable and Cacheable Builds with Cargo and Nix](https://ipetkov.dev/blog/introducing-crane/)
 * [The run-up to v1.0 for Postcard](https://jamesmunns.com/blog/postcard-1-0-run/)
 
