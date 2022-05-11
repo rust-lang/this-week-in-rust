@@ -46,8 +46,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [How to speed up the Rust compiler in April 2022](https://nnethercote.github.io/2022/04/12/how-to-speed-up-the-rust-compiler-in-april-2022.html)
 * [Is life too short to fight Rust's borrow checker?](https://kerkour.com/life-is-short-rust-borrow-checker)
 * [Learning Rust You Need a Cognitive Frame](https://dev.to/zhanghandong/learning-rust-you-need-a-cognitive-frame-41oa)
-* [DE] [Programmiersprache: Rust-Team blickt zwei Jahre nach vorn auf Rust ...](https://www.heise.de/news/Programmiersprache-Rust-Team-blickt-zwei-Jahre-nach-vorn-auf-Rust-2024-6664059.html)
-* [DE] [Programmiersprache Rust 1.60 zeigt Codeabdeckung und sieht Zeitspan...](https://www.heise.de/news/Programmiersprache-Rust-1-60-zeigt-Codeabdeckung-und-sieht-Zeitspannen-positiv-6666628.html)
+* [DE] [Programmiersprache: Rust-Team blickt zwei Jahre nach vorn auf Rust 2024](https://www.heise.de/news/Programmiersprache-Rust-Team-blickt-zwei-Jahre-nach-vorn-auf-Rust-2024-6664059.html)
+* [DE] [Programmiersprache Rust 1.60 zeigt Codeabdeckung und sieht Zeitspannen positiv](https://www.heise.de/news/Programmiersprache-Rust-1-60-zeigt-Codeabdeckung-und-sieht-Zeitspannen-positiv-6666628.html)
 
 ### Rust Walkthroughs
 * [Implied bounds and perfect derive](https://smallcultfollowing.com/babysteps/blog/2022/04/12/implied-bounds-and-perfect-derive/)
