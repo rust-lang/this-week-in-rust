@@ -202,6 +202,10 @@ They should be of the form:
 
 -->
 
+**Quickwit**
+
+* [Senior Software Engineer, Rust & distributed systems (Remote, European/Asian time zones)](https://quickwit.io/jobs/distributed-software-engineer)
+
 **Timescale**
 
 * [Senior Rust Engineer - TimescaleDB Toolkit (Remote: UTC-5 to UTC-8)](https://www.timescale.com/careers/5920911002?gh_jid=5920911002)
