@@ -47,11 +47,12 @@ and just ask the editors to select the category.
 
 * [Rust-raspberrypi-OS-tutorials: Tutorial 17 - Kernel Symbols](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/17_kernel_symbols#readme)
 * [Rust-raspberrypi-OS-tutorials: Tutorial 18 - Backtracing](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/18_backtrace#readme)
-* [Decentralized cluster membership implementation in Rust](https://quickwit.io/blog/chitchat)
 
 ### Research
 
 ### Miscellaneous
+
+* [Decentralized cluster membership implementation in Rust](https://quickwit.io/blog/chitchat)
 
 ## Crate of the Week
 
