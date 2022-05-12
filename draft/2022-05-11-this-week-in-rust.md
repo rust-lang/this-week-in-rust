@@ -21,7 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Newsletters
 
-* [Rust Nigeria Community Newsletter #5](https://rustnigeria.curated.co/issues/5#start)
+* [Rust Nigeria Community Newsletter #5](https://rustnigeria.curated.co/issues/5)
 * [This Month in Rust OSDev: April 2022](https://rust-osdev.com/this-month/2022-04/)
 
 ### Project/Tooling Updates
