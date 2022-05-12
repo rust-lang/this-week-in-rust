@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 * [RepliByte - An open-source tool to seed your dev database with real data](https://www.reddit.com/r/rust/comments/ukmnow/an_opensource_tool_to_seed_your_dev_database_with/)
 * [Introducing Crane: Composable and Cacheable Builds with Cargo and Nix](https://ipetkov.dev/blog/introducing-crane/)
 * [The run-up to v1.0 for Postcard](https://jamesmunns.com/blog/postcard-1-0-run/)
+* [This week in Databend #41: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-05-11-databend-weekly/)
 
 ### Observations/Thoughts
 
