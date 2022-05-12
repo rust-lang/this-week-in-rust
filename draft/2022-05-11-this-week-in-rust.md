@@ -275,6 +275,10 @@ They should be of the form:
 
 -->
 
+**NXLog**
+
+* [Rust Developer (Remote, Europe or worldwide)](https://application.nxlog.org/jobs/detail/rust-developer-39)
+
 **Quickwit**
 
 * [Senior Software Engineer, Rust & distributed systems (Remote, European/Asian time zones)](https://quickwit.io/jobs/distributed-software-engineer)
