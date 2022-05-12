@@ -66,7 +66,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 
 * [audio] [clap with Ed Page :: Rustacean Station](https://rustacean-station.org/episode/065-ed-page/)
-* [DE] [Ferris Talk #8: Wasm loves Rust – WebAssembly und Rust jenseits des...](https://www.heise.de/hintergrund/Ferris-Talk-8-Wasm-loves-Rust-WebAssembly-und-Rust-jenseits-des-Browsers-7064040.html)
+* [DE] [Ferris Talk #8: Wasm loves Rust – WebAssembly und Rust jenseits des Browsers](https://www.heise.de/hintergrund/Ferris-Talk-8-Wasm-loves-Rust-WebAssembly-und-Rust-jenseits-des-Browsers-7064040.html)
 
 ## Crate of the Week
 
