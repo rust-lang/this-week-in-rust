@@ -78,6 +78,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 
 * [Building a startup with Rust](https://www.shuttle.rs/blog/2021/10/08/building-a-startup-with-rust)
+* [Decentralized cluster membership implementation in Rust](https://quickwit.io/blog/chitchat)
 * [Black Hat Rust discount: Happy 2022](https://kerkour.com/black-hat-rust-discount-happy-2022)
 * [DE] [Redox OS: Ein Betriebssystem, geschrieben in Rust](https://www.heise.de/news/Redox-OS-Ein-Betriebssystem-geschrieben-in-Rust-7071974.html)
 * [video] [Let's Code Minesweeper with Rust and WASM](https://www.youtube.com/watch?v=0ywizYLPV00)
@@ -160,7 +161,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A good week: Several performance improvements, many around macro expansion. Only
+one regression of note, and that PR author opened an issue to follow up on it.
+
+Triage done by **@pnkfelix**.
+Revision range: [468492c2..c51871c4](https://perf.rust-lang.org/?start=468492c2af3993f18b1fe98052200575c4a2e678&end=c51871c469f7ed3b35ae25d7e6e77bc73fbdd0e3&absolute=false&stat=instructions%3Au)
+
+
+**Summary**:
+
+|            | Regressions 😿 <br />(primary) | Regressions 😿 <br />(secondary) | Improvements 🎉 <br />(primary) | Improvements 🎉 <br />(secondary) | All 😿 🎉 <br />(primary) |
+|:----------:|:------------------------------:|:--------------------------------:|:-------------------------------:|:---------------------------------:|:------------------------:|
+| count      | 11                             | 37                               | 117                             | 65                                | 128                      |
+| mean       | 0.7%                           | 0.7%                             | -1.2%                           | -1.6%                             | -1.1%                    |
+| max        | 1.5%                           | 1.9%                             | -6.5%                           | -5.2%                             | -6.5%                    |
+
+
+2 Regressions, 4 Improvements, 1 Mixed; 1 of them in rollups
+59 artifact comparisons made in total
+
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-05-10.md) for more.
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -281,6 +301,10 @@ They should be of the form:
 * [Job Title (Location)](https://example.com/my-job-link)
 
 -->
+
+**NXLog**
+
+* [Rust Developer (Remote, Europe or worldwide)](https://application.nxlog.org/jobs/detail/rust-developer-39)
 
 **Quickwit**
 
