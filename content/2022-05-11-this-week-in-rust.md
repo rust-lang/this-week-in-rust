@@ -340,4 +340,4 @@ Email the [Rust Community Team][community] for access.
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://this-week-in-rust.org/blog/2022/05/11/this-week-in-rust-442/)</small>
