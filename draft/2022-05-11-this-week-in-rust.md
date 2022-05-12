@@ -134,7 +134,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A good week: Several performance improvements, many around macro expansion. Only
+one regression of note, and that PR author opened an issue to follow up on it.
+
+Triage done by **@pnkfelix**.
+Revision range: [468492c2..c51871c4](https://perf.rust-lang.org/?start=468492c2af3993f18b1fe98052200575c4a2e678&end=c51871c469f7ed3b35ae25d7e6e77bc73fbdd0e3&absolute=false&stat=instructions%3Au)
+
+
+**Summary**:
+
+|            | Regressions 😿 <br />(primary) | Regressions 😿 <br />(secondary) | Improvements 🎉 <br />(primary) | Improvements 🎉 <br />(secondary) | All 😿 🎉 <br />(primary) |
+|:----------:|:------------------------------:|:--------------------------------:|:-------------------------------:|:---------------------------------:|:------------------------:|
+| count      | 11                             | 37                               | 117                             | 65                                | 128                      |
+| mean       | 0.7%                           | 0.7%                             | -1.2%                           | -1.6%                             | -1.1%                    |
+| max        | 1.5%                           | 1.9%                             | -6.5%                           | -5.2%                             | -6.5%                    |
+
+
+2 Regressions, 4 Improvements, 1 Mixed; 1 of them in rollups
+59 artifact comparisons made in total
+
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-05-10.md) for more.
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
