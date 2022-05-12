@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [Fornjot 0.6](https://www.fornjot.app/blog/fornjot-0.6/)
 * [Announcing the Kani Rust Verifier Project](https://model-checking.github.io/kani-verifier-blog/2022/05/04/announcing-the-kani-rust-verifier-project.html)
 * [Slint (UI crate) weekly update -- Version 0.2.2 Release](https://slint-ui.com/thisweek/2022-05-09.html)
+* [This week in Fluvio #32: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0032/)
 * [Rocket's 2nd v0.5 Release Candidate - Rocket Web Framework](https://rocket.rs/v0.5-rc/news/2022-05-09-version-0.5-rc.2/)
 * [rustc_codegen_gcc: Progress Report #11](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-11)
 * [GCC Rust Monthly Report #16 April 2022](https://thephilbert.io/2022/05/04/gcc-rust-monthly-report-16-april-2022/)
