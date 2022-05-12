@@ -163,6 +163,7 @@ They should be of the form:
 
 * [Rust / Core Engineer - Parachains Engineering (Remote/Berlin/Lisbon/UK)](https://grnh.se/24949fb13us)
 * [Rust / Core Engineer - Parachains Protocol (Remote/Berlin/Lisbon/UK)](https://grnh.se/06ef2e673us)
+* [Rust / Core Runtime Engineering - Staking](https://grnh.se/b5d311bd3us)
 * [Rust Engineer - General opening (Remote/Berlin/Lisbon/UK)](https://grnh.se/1cf2de503us)
 
 Parity is looking for a number of Engineers who are interested in subjects such as Rust, Polkadot, or Substrate to learn about Rust, Cryptography, and Blockchain on-site in Cambridge from July 11 - August 7. [Application form for more information](https://docs.google.com/forms/d/e/1FAIpQLScAFegoJeHQDMXI0RJMI4OsbV0N2aXS5WmoaEcy5ysbaT0FCw/viewform)
