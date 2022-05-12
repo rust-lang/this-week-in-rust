@@ -283,7 +283,7 @@ Email the [Rust Community Team][community] for access.
 
 **Element**
 
-* [Software Engineer - VoIP (Go/Rust) (Remote)]
+* [Software Engineer - VoIP (Go/Rust) (Remote)](https://apply.workable.com/elementio/j/5BD58AFB6F/)
 
 **NXLog**
 
