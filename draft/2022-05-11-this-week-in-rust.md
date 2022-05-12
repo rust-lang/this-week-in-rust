@@ -75,6 +75,9 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Evolving Collaboration, Dependencies, and Use in the Rust Open Source Software Ecosystem](https://arxiv.org/abs/2205.03597)
+* [Modeling Interconnected Social and Technical Risks in Open Source Software Ecosystems](https://arxiv.org/abs/2205.04268)
+
 ### Miscellaneous
 
 * [Building a startup with Rust](https://www.shuttle.rs/blog/2021/10/08/building-a-startup-with-rust)
