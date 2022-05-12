@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Decentralized cluster membership implementation in Rust](https://quickwit.io/blog/chitchat)
 * [Black Hat Rust discount: Happy 2022](https://kerkour.com/black-hat-rust-discount-happy-2022)
 
 ## Crate of the Week
