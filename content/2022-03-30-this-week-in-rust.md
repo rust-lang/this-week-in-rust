@@ -55,7 +55,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Miscellaneous
 
 * [audio] [Interview with Dustin (A/B Street) | Rust Game Dev](https://rustgamedev.com/episodes/interview-with-dustin-a-b-street-ZCVQAek1)
-* [audio] [Rust Servers, Services, and Apps with Prabhu Eshwarla :: Rustacean ...](https://rustacean-station.org/episode/061-prabhu-eshwarla/)
+* [audio] [Rust Servers, Services, and Apps with Prabhu Eshwarla](https://rustacean-station.org/episode/061-prabhu-eshwarla/)
 * [videos] [RustFest LATAM 2022 [ESP]](https://www.youtube.com/playlist?list=PL85XCvVPmGQg4ks051r3VbgKGbV3FYUzo)
 * [videos] [RustFest LATAM 2022 [ENG]](https://www.youtube.com/playlist?list=PL85XCvVPmGQiT5Ug60zPQ_t9j3dHyawcy)
 
