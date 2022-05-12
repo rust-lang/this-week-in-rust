@@ -21,6 +21,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ### Newsletters
 
+* [Rust Nigeria Community Newsletter #5](https://rustnigeria.curated.co/issues/5#start)
 * [This Month in Rust OSDev: April 2022](https://rust-osdev.com/this-month/2022-04/)
 
 ### Project/Tooling Updates
@@ -48,6 +49,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Over-Engineering A Fairly Simple Coding Challenge](https://ada-x64.github.io/over-engineering/)
 * [Building Rust code for my OpenWrt Wi-Fi router](https://blog.dend.ro/building-rust-for-routers/)
 * [Lisp interpreter in Rust](https://vishpat.github.io/lisp-rs/)
+* [Demystifying Rust Embedded HAL Split and Constrain Methods](https://apollolabsblog.hashnode.dev/demystifying-rust-embedded-hal-split-and-constrain-methods)
+* [An O(1) Generic Blog Post About Rust](https://peterkos.me/rust-const-generics/)
 
 ### Rust Walkthroughs
 
@@ -278,11 +281,9 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-**Company Name**
+**Element**
 
-* [Job Title (Location)](https://example.com/my-job-link)
-
--->
+* [Software Engineer - VoIP (Go/Rust) (Remote)]
 
 **NXLog**
 
@@ -295,6 +296,27 @@ Email the [Rust Community Team][community] for access.
 **Timescale**
 
 * [Senior Rust Engineer - TimescaleDB Toolkit (Remote: UTC-5 to UTC-8)](https://www.timescale.com/careers/5920911002?gh_jid=5920911002)
+
+**Enso**
+
+* [Senior Rust IDE Developer (Remote Europe and US)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-ide-developer.md)
+* [Senior Cloud Rust Engineer (Remote Europe and US)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-cloud-developer.md)
+
+**Estuary**
+
+* [Developer Evangelist (New York, NY, US, Columbus, OH, US, or Remote)](https://www.estuary.dev/about/#developerevangelist)
+* [Senior Backend Engineer (New York, NY, US, Columbus, OH, US, or Remote)](https://www.estuary.dev/about/#backendengineer)
+
+**Stockly**
+
+* [Technical Engineer - Product Specialist (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-technical-engineer-rust-grpc-postgresql_paris)
+* [Back-end developer - Engine (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly-1/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
+
+**Kraken**
+
+* [Engineering Manager - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/53def500-b146-40da-89a8-98adfd7e84e4)
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/53def500-b146-40da-89a8-98adfd7e84e4)
 
 **Tempus Ex**
 
