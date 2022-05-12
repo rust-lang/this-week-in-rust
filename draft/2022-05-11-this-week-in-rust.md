@@ -14,26 +14,10 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-<!--
-
-Dear community contributors:
-Please read README.md for guidance on submissions.
-Each submitted link should be of the form:
-
-* [Title of the Linked Page](https://example.com/my_article)
-
-If you don't know which category to use, feel free to submit a PR anyway
-and just ask the editors to select the category.
-
--->
-
-
 ### Official
 
 * [Security advisory: malicious crate rustdecimal](https://blog.rust-lang.org/2022/05/10/malicious-crate-rustdecimal.html)
 * [CTCFT 2022-05-16 Agenda](https://blog.rust-lang.org/inside-rust/2022/05/10/CTCFT-may.html)
-
-### Foundation
 
 ### Newsletters
 
