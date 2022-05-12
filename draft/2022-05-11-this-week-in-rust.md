@@ -27,35 +27,62 @@ and just ask the editors to select the category.
 
 -->
 
+
 ### Official
+
+* [Security advisory: malicious crate rustdecimal](https://blog.rust-lang.org/2022/05/10/malicious-crate-rustdecimal.html)
+* [CTCFT 2022-05-16 Agenda](https://blog.rust-lang.org/inside-rust/2022/05/10/CTCFT-may.html)
 
 ### Foundation
 
 ### Newsletters
 
+* [This Month in Rust OSDev: April 2022](https://rust-osdev.com/this-month/2022-04/)
+
 ### Project/Tooling Updates
 
+* [rust-analyzer changelog #128](https://rust-analyzer.github.io/thisweek/2022/05/09/changelog-128.html)
 * [Fornjot 0.6](https://www.fornjot.app/blog/fornjot-0.6/)
 * [Announcing the Kani Rust Verifier Project](https://model-checking.github.io/kani-verifier-blog/2022/05/04/announcing-the-kani-rust-verifier-project.html)
 * [Slint (UI crate) weekly update -- Version 0.2.2 Release](https://slint-ui.com/thisweek/2022-05-09.html)
+* [Rocket's 2nd v0.5 Release Candidate - Rocket Web Framework](https://rocket.rs/v0.5-rc/news/2022-05-09-version-0.5-rc.2/)
+* [rustc_codegen_gcc: Progress Report #11](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-11)
+* [GCC Rust Monthly Report #16 April 2022](https://thephilbert.io/2022/05/04/gcc-rust-monthly-report-16-april-2022/)
+* [RepliByte - An open-source tool to seed your dev database with real data](https://www.reddit.com/r/rust/comments/ukmnow/an_opensource_tool_to_seed_your_dev_database_with/)
+* [Introducing Crane: Composable and Cacheable Builds with Cargo and Nix](https://ipetkov.dev/blog/introducing-crane/)
+* [The run-up to v1.0 for Postcard](https://jamesmunns.com/blog/postcard-1-0-run/)
 
 ### Observations/Thoughts
 
 * [Programming languages are platforms, not products](https://kerkour.com/programming-languages-are-platforms)
 * [Introducing Rust in security research](https://tweedegolf.nl/en/blog/71/introducing-rust-in-security-research)
+* [Xilem: an architecture for UI in Rust](https://raphlinus.github.io/rust/gui/2022/05/07/ui-architecture.html)
+* [Modeling Finite State Machines with Rust | Ramnivas Laddad](https://www.ramnivas.com/blog/2022/05/09/fsm-model-rust)
+* [Secure computation in Rust: Using Intel's SGX instructions with Teaclave and Fortanix](https://www.notamonadtutorial.com/secure-computation-in-rust-using-intels-sgx-instructions-with-teaclave-and-fortanix/)
+* [Securing Crates](https://tl8.co/entry/securing-crates)
+* [Over-Engineering A Fairly Simple Coding Challenge](https://ada-x64.github.io/over-engineering/)
+* [Building Rust code for my OpenWrt Wi-Fi router](https://blog.dend.ro/building-rust-for-routers/)
+* [Lisp interpreter in Rust](https://vishpat.github.io/lisp-rs/)
 
 ### Rust Walkthroughs
 
 * [Building a crawler in Rust: Crawling a JSON API](https://kerkour.com/rust-crawler-json-api)
 * [Rust-raspberrypi-OS-tutorials: Tutorial 17 - Kernel Symbols](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/17_kernel_symbols#readme)
 * [Rust-raspberrypi-OS-tutorials: Tutorial 18 - Backtracing](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/18_backtrace#readme)
+* [Parsing/Recursive Descent Parser](https://www.huy.rocks/everyday/05-08-2022-parsing-recursive-descent-parser)
+* [Converting Integers to Floats Using Hyperfocus](https://blog.m-ou.se/floats/)
+* [Easy Lossless Trees with Nom and Rowan](https://blog.kiranshila.com/blog/easy_cst.md)
 
 ### Research
 
 ### Miscellaneous
 
+* [Building a startup with Rust](https://www.shuttle.rs/blog/2021/10/08/building-a-startup-with-rust)
 * [Decentralized cluster membership implementation in Rust](https://quickwit.io/blog/chitchat)
 * [Black Hat Rust discount: Happy 2022](https://kerkour.com/black-hat-rust-discount-happy-2022)
+* [DE] [Redox OS: Ein Betriebssystem, geschrieben in Rust](https://www.heise.de/news/Redox-OS-Ein-Betriebssystem-geschrieben-in-Rust-7071974.html)
+* [video] [Let's Code Minesweeper with Rust and WASM](https://www.youtube.com/watch?v=0ywizYLPV00)
+* [audio] [Rust Safety with Quentin Ochem and Florian Gilcher](https://rustacean-station.org/episode/067-quentin-ochem-florian-gilcher/)
 
 ## Crate of the Week
 
