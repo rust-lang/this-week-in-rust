@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [What's new in SeaORM 0.8.0](https://www.sea-ql.org/SeaORM/blog/2022-05-15-whats-new-in-0.8.0/)
+
 ### Observations/Thoughts
 
 * [video] [Building a Postgres storage system in Rust](https://www.youtube.com/watch?v=kAQeout-mh8)
