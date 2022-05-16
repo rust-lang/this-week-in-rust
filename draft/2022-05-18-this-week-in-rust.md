@@ -70,6 +70,14 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 <!-- Perf results go here -->
 
+### Call for Testing
+
+An important step for RFC implementation is for people to experiment with the
+implementation and give feedback, especially before stabilization.  The following
+RFCs are at point where user testing is needed before moving forward:
+
+<!-- Pre-Stabilization RFCs go here -->
+
 <!-- RFC and FCP sections go here -->
 
 ## Upcoming Events
