@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Slint (UI crate) weekly update -- Version 0.2.4 Release](https://slint-ui.com/thisweek/2022-05-16.html)
+
 ### Observations/Thoughts
 
 * [video] [Building a Postgres storage system in Rust](https://www.youtube.com/watch?v=kAQeout-mh8)
