@@ -78,10 +78,10 @@ An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-* [RFC: Packages as (optional) namespaces](https://github.com/rust-lang/rfcs/pull/3243)
 * [RFC: Deduplicate Cargo workspace information](https://github.com/rust-lang/rfcs/pull/2906)
     - [Tracking Issue](https://github.com/rust-lang/cargo/issues/8415)
     - [Testing steps](https://github.com/rust-lang/cargo/blob/master/src/doc/src/reference/unstable.md#testing-notes)
+* [RFC: Packages as (optional) namespaces](https://github.com/rust-lang/rfcs/pull/3243)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
