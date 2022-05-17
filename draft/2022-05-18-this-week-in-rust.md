@@ -78,7 +78,11 @@ An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs are at point where user testing is needed before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+Pre-Stabilization
+- [RFC 2906 - Workspace Inheritance](https://github.com/rust-lang/rfcs/pull/2906)
+  - [Tracking Issue](https://github.com/rust-lang/cargo/issues/8415)
+  - [Testing steps](https://github.com/rust-lang/cargo/blob/master/src/doc/src/reference/unstable.md#testing-notes)
+
 
 <!-- RFC and FCP sections go here -->
 
