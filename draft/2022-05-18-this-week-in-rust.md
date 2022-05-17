@@ -80,7 +80,7 @@ RFCs are at point where user testing is needed before moving forward:
 
 <!-- Pre-Stabilization RFCs go here -->
 
-<!-- RFC and FCP sections go here -->
+* [`std::thread::scope` - Scoped Threads (RFC 3151)](https://github.com/rust-lang/rust/issues/93203)
 
 ## Upcoming Events
 
