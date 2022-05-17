@@ -70,7 +70,24 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+It was a somewhat quiet week with real-world benchmarks showing a slight improvement on average and only one real-world crate, `bitmaps`, experiencing regressions. Unfortunately, the cause of the regressions don't look straightforward though. The biggest performance win came from a change to not encode attributes in metadata that are only used within the local crate. This improved doc builds of 16 of the 18 real world crates we run in our performance suite!
+
+Triage done by **@rylev**.
+Revision range: [c51871..7355d](https://perf.rust-lang.org/?start=c51871c469f7ed3b35ae25d7e6e77bc73fbdd0e3&end=7355d971a954ed63293e4191f6677f60c1bc07d9&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+|            | Regressions 😿 <br />(primary) | Regressions 😿 <br />(secondary) | Improvements 🎉 <br />(primary) | Improvements 🎉 <br />(secondary) | All 😿 🎉 <br />(primary) |
+|:----------:|:------------------------------:|:--------------------------------:|:-------------------------------:|:---------------------------------:|:------------------------:|
+| count      | 7                              | 9                                | 40                              | 43                                | 47                       |
+| mean       | 1.6%                           | 2.6%                             | -0.6%                           | -1.3%                             | -0.3%                    |
+| max        | 1.9%                           | 3.5%                             | -2.6%                           | -2.6%                             | -2.6%                    |
+
+
+2 Regressions, 4 Improvements, 0 Mixed; 0 of them in rollups
+51 artifact comparisons made in total
+
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-05-17.md) for more.
 
 ### Call for Testing
 
