@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [What's new in SeaORM 0.8.0](https://www.sea-ql.org/SeaORM/blog/2022-05-15-whats-new-in-0.8.0/)
+* [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W19](https://www.fornjot.app/blog/weekly-dev-log/2022-w19/)
 
 ### Observations/Thoughts
 
