@@ -16,7 +16,7 @@ LOG = logging.getLogger(__name__)
 LOG.setLevel(logging.INFO)
 
 DRAFT_PATH = 'draft'
-TEMPLATE_PATH = os.path.join('tools', 'DRAFT_TEMPLATE')
+TEMPLATE_PATH = os.path.join('draft', 'DRAFT_TEMPLATE')
 PREVIOUS_ISSUE_SEARCH_PATHS = ['draft', 'content']
 EVENTS_LIST_PLACEHOLDER = '<!-- Events list goes here -->'
 
