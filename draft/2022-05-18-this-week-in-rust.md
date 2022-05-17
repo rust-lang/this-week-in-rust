@@ -79,7 +79,9 @@ implementation and give feedback, especially before stabilization.  The followin
 RFCs would benefit from user testing before moving forward:
 
 * [RFC: Packages as (optional) namespaces](https://github.com/rust-lang/rfcs/pull/3243)
-* [Tracking issue for Deduplicate Cargo workspace information RFC](https://github.com/rust-lang/cargo/issues/8415#issuecomment-1112618913)
+* [RFC: Deduplicate Cargo workspace information](https://github.com/rust-lang/rfcs/pull/2906)
+    - [Tracking Issue](https://github.com/rust-lang/cargo/issues/8415)
+    - [Testing steps](https://github.com/rust-lang/cargo/blob/master/src/doc/src/reference/unstable.md#testing-notes)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
