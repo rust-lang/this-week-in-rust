@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 
 * [What's new in SeaORM 0.8.0](https://www.sea-ql.org/SeaORM/blog/2022-05-15-whats-new-in-0.8.0/)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W19](https://www.fornjot.app/blog/weekly-dev-log/2022-w19/)
+* [Slint (UI crate) weekly update -- Version 0.2.4 Release](https://slint-ui.com/thisweek/2022-05-16.html)
 
 ### Observations/Thoughts
 
