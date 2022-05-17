@@ -81,6 +81,8 @@ RFCs would benefit from user testing before moving forward:
 * [RFC: Deduplicate Cargo workspace information](https://github.com/rust-lang/rfcs/pull/2906)
     - [Tracking Issue](https://github.com/rust-lang/cargo/issues/8415)
     - [Testing steps](https://github.com/rust-lang/cargo/blob/master/src/doc/src/reference/unstable.md#testing-notes)
+* [Tracking Issue for scoped threads](https://github.com/rust-lang/rust/issues/93203)
+    - [Feature documentation](https://doc.rust-lang.org/nightly/std/thread/fn.scope.html)
 * [RFC: Packages as (optional) namespaces](https://github.com/rust-lang/rfcs/pull/3243)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
