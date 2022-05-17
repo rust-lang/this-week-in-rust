@@ -160,6 +160,11 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Disney**
+
+* [Sr Rust Engineer (New York City, San Francisco, FT remote USA/Europe)](https://jobs.disneycareers.com/job/new-york/sr-software-engineer-rust/391/25299106288)
+
+
 <!--
 
 New jobs can be posted here.
