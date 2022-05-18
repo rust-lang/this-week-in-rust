@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W19](https://www.fornjot.app/blog/weekly-dev-log/2022-w19/)
 * [Introducing BlindAI, an open-source privacy-friendly AI deployment in Rust](https://blog.mithrilsecurity.io/introducing-blindai)
 * [Slint (UI crate) weekly update -- Version 0.2.4 Release](https://slint-ui.com/thisweek/2022-05-16.html)
+* [This week in Fluvio #33: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0033/)
 
 ### Observations/Thoughts
 
