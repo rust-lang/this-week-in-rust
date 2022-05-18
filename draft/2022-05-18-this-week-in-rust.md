@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Compiler Adventures, part 3: Value Numbering](https://medium.com/@predrag.gruevski/compiler-adventures-part-3-value-numbering-12d087b891bd)
+* [Rust Ergonomics: Default and From](https://elijahcaine.me/rust-default-from/)
 
 ### Research
 
