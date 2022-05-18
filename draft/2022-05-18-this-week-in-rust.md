@@ -89,6 +89,10 @@ RFCs would benefit from user testing before moving forward:
     - [Feature documentation](https://doc.rust-lang.org/nightly/std/thread/fn.scope.html)
 * [RFC: Packages as (optional) namespaces](https://github.com/rust-lang/rfcs/pull/3243)
 
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
