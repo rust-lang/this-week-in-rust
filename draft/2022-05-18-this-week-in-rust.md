@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 * [video] [Building a Postgres storage system in Rust](https://www.youtube.com/watch?v=kAQeout-mh8)
 
 ### Rust Walkthroughs
+
+* [Evil Twin Attacks in practice (with Rust and a Raspberry Pi)](https://kerkour.com/evil-twin-attack)
 * [Compiler Adventures, part 3: Value Numbering](https://medium.com/@predrag.gruevski/compiler-adventures-part-3-value-numbering-12d087b891bd)
 
 ### Research
