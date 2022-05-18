@@ -46,6 +46,9 @@ and just ask the editors to select the category.
 * [video] [Building a Postgres storage system in Rust](https://www.youtube.com/watch?v=kAQeout-mh8)
 
 ### Rust Walkthroughs
+
+* [Bitsquatting attacks and exploit in Rust](https://kerkour.com/bitsquatting-attack-generator-in-rust)
+* [Building a crawler in Rust: Scraping Javascript Single Page Applications (SPA) with a headless browser](https://kerkour.com/rust-crawler-javascript-single-page-application-headless-browser)
 * [Compiler Adventures, part 3: Value Numbering](https://medium.com/@predrag.gruevski/compiler-adventures-part-3-value-numbering-12d087b891bd)
 * [Rust Ergonomics: Default and From](https://elijahcaine.me/rust-default-from/)
 
