@@ -103,6 +103,8 @@ Rusty Events between 2022-05-18 - 2022-06-15 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/284399980/)
 * 2022-05-24 | Hyderbad, IN | [Rust Language Hyderbad](https://www.meetup.com/Rust-Hyderabad)
     * [**Rust Forum (half day event)**](https://www.meetup.com/Rust-Hyderabad/events/285837876/)
+* 2022-05-24 | San Francisco, CA, US | [Rust Bay Area](https://www.meetup.com/Rust-Bay-Area/)
+    * [**(@ Google) What is soundness anyways? (Livestream)**](https://www.meetup.com/Rust-Bay-Area/events/285563981/)
 * 2022-05-25 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
     * [**Rust-Meetup**](https://www.meetup.com/Rust-Community-Stuttgart/events/qwgrssydchbhc/)
 * 2022-05-31 | Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
