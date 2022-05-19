@@ -102,15 +102,49 @@ Revision range: [c51871..7355d](https://perf.rust-lang.org/?start=c51871c469f7ed
 
 See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-05-17.md) for more.
 
-### Call for Testing
+### Call for Testing (*New!*)
 
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
-RFCs are at point where user testing is needed before moving forward:
+RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* [RFC: Deduplicate Cargo workspace information](https://github.com/rust-lang/rfcs/pull/2906)
+    - [Tracking Issue](https://github.com/rust-lang/cargo/issues/8415)
+    - [Testing steps](https://github.com/rust-lang/cargo/blob/master/src/doc/src/reference/unstable.md#testing-notes)
+* [Tracking Issue for scoped threads](https://github.com/rust-lang/rust/issues/93203)
+    - [Feature documentation](https://doc.rust-lang.org/nightly/std/thread/fn.scope.html)
+* [RFC: Packages as (optional) namespaces](https://github.com/rust-lang/rfcs/pull/3243)
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
+
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* [RFC: Add target configuration](https://github.com/rust-lang/rfcs/pull/3239)
+
+### Final Comment Period
+
+Every week [the team](https://www.rust-lang.org/team.html) announces the
+'final comment period' for RFCs and key PRs which are reaching a
+decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* [disposition: merge] [Create a types team](https://github.com/rust-lang/rfcs/pull/3254)
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: merge] [Neither require nor imply lifetime bounds on opaque type for well formedness](https://github.com/rust-lang/rust/pull/95474)
+* [disposition: merge] [impl Read and Write for VecDeque\<u8\>](https://github.com/rust-lang/rust/pull/95632)
+* [disposition: merge] [Tracking Issue for `int_roundings`](https://github.com/rust-lang/rust/issues/88581)
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* [new] [RFC: Rust SemVer 2](https://github.com/rust-lang/rfcs/pull/3266)
 
 ## Upcoming Events
 
