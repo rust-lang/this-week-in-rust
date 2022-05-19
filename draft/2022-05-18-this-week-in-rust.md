@@ -343,7 +343,7 @@ They should be of the form:
 
 **Anixe**
 
-[Rust Software Engineer (Remote or hybrid work PL, GR)](https://anixe.bamboohr.com/jobs/view.php?id=184&source=bamboohr)
+* [Rust Software Engineer (Remote or hybrid work PL, GR)](https://anixe.bamboohr.com/jobs/view.php?id=184&source=bamboohr)
 
 **Instant Domains**
 
