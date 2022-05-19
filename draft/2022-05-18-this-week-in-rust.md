@@ -58,7 +58,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [cargo-supply-chain](https://crates.io/crates/cargo-supply-chain), a cargo subcommand to gather author, contributor and publisher data on crates in your dependency graph.
+
+Despite a lack of nominations, llogiq is pleased with his choice.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -79,7 +81,63 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+341 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-05-09..2022-05-16
+
+* [Add `EarlyBinder`](https://github.com/rust-lang/rust/pull/96883)
+* [rustc: Stricter checking for `#[link]` attributes](https://github.com/rust-lang/rust/pull/96885)
+* [Detect trait fulfillment in `subst_and_check_impossible_predicates`](https://github.com/rust-lang/rust/pull/96808)
+* [Gracefully fail to resolve associated items instead of `delay_span_bug`](https://github.com/rust-lang/rust/pull/96806)
+* [Stop suggesting non-existing fully qualified paths](https://github.com/rust-lang/rust/pull/96940)
+* [Implement a lint to warn about unused macro rules](https://github.com/rust-lang/rust/pull/96150)
+* [Check hidden types for well formedness at the definition site instead of only at the opaque type itself](https://github.com/rust-lang/rust/pull/96736)
+* [Drop tracking: handle invalid assignments better](https://github.com/rust-lang/rust/pull/97031)
+* [Forbid nested opaque types to reference HRTB from opaque types](https://github.com/rust-lang/rust/pull/97039)
+* [Don't subst an `AdtDef` with its own substs](https://github.com/rust-lang/rust/pull/96882)
+* [miri: Add a command line flag to avoid printing to stdout and stderr](https://github.com/rust-lang/miri/pull/2084)
+* [miri: Print spans where tags are created and invalidated](https://github.com/rust-lang/miri/pull/2030)
+* [miri: Use atomic RMW for `{mutex, rwlock, cond, srwlock}_get_or_create_id` functions](https://github.com/rust-lang/miri/pull/2114)
+* [Initial work on Miri permissive-exposed-provenance](https://github.com/rust-lang/rust/pull/95826)
+* [Use `FxIndexSet` to avoid sorting fake borrows](https://github.com/rust-lang/rust/pull/96888)
+* [make sure `ScalarPair` enums have `ScalarPair` variants; add some layout sanity checks](https://github.com/rust-lang/rust/pull/96872)
+* [optimize `insert_range` method of `IntervalSet`](https://github.com/rust-lang/rust/pull/96895)
+* [Make `BorrowedFd::borrow_raw` a const fn](https://github.com/rust-lang/rust/pull/96232)
+* [`ExitCode::exit_process()` method](https://github.com/rust-lang/rust/pull/95356)
+* [Fix `array::IntoIter::fold` to use the optimized `Range::fold`](https://github.com/rust-lang/rust/pull/95602)
+* [futures: Make `run_until_stalled` handle self-waking futures](https://github.com/rust-lang/futures-rs/pull/2593)
+* [futures: Remove TryStreamExt::into_async_read Unpin bound](https://github.com/rust-lang/futures-rs/pull/2599)
+* [cargo: Pass `--target` to `rustdoc` for `cargo test` if specified with host target](https://github.com/rust-lang/cargo/pull/10594)
+* [cargo install: Support `foo@version` like cargo-add](https://github.com/rust-lang/cargo/pull/10650)
+* [cargo yank: Support foo@version like cargo-add](https://github.com/rust-lang/cargo/pull/10597)
+* [rustdoc: correct path to type alias methods](https://github.com/rust-lang/rust/pull/96887)
+* [rustdoc: search result ranking fix](https://github.com/rust-lang/rust/pull/96879)
+* [clippy: Add `duplicate_mod` lint](https://github.com/rust-lang/rust-clippy/pull/8832)
+* [clippy: Add version filtering option to the lint list](https://github.com/rust-lang/rust-clippy/pull/8752)
+* [clippy: Don't lint `vec_init_then_push` when further extended](https://github.com/rust-lang/rust-clippy/pull/8699)
+* [clippy: Fix ICE in `let_unit_value` when calling a static or const callable type](https://github.com/rust-lang/rust-clippy/pull/8835)
+* [clippy: Fix `match_single_binding` suggestion for assign expressions](https://github.com/rust-lang/rust-clippy/pull/8726)
+* [clippy: Fix `redundant_allocation` warning for `Rc<Box<str>>`](https://github.com/rust-lang/rust-clippy/pull/8813)
+* [clippy: New lint: `derive_partial_eq_without_eq`](https://github.com/rust-lang/rust-clippy/pull/8796)
+* [clippy: Rename `eval_order_dependence` to `mixed_read_write_expression`, move to nursery](https://github.com/rust-lang/rust-clippy/pull/8621)
+* [clippy: `undocumented_unsafe_blocks` does not trigger on unsafe trait impls](https://github.com/rust-lang/rust-clippy/pull/8761)
+* [clippy: introduce `rc_clone_in_vec_init` lint](https://github.com/rust-lang/rust-clippy/pull/8769)
+* [rust-analyzer: Config revamp](https://github.com/rust-lang/rust-analyzer/pull/12010)
+* [rust-analyzer: Add binding mode inlay hints](https://github.com/rust-lang/rust-analyzer/pull/12253)
+* [rust-analyzer: Allow reborrow inlay hints to be restricted to mutable reborrows only](https://github.com/rust-lang/rust-analyzer/pull/12226)
+* [rust-analyzer: Change VSCode extension publisher to `rust-lang`](https://github.com/rust-lang/rust-analyzer/pull/12238)
+* [rust-analyzer: Handle getters and setters in documentation template assist](https://github.com/rust-lang/rust-analyzer/pull/12274)
+* [rust-analyzer: Improve "Generate `Deref` impl" assist](https://github.com/rust-lang/rust-analyzer/pull/12276)
+* [rust-analyzer: Show inlay hints after a `}` to indicate the closed item](https://github.com/rust-lang/rust-analyzer/pull/12244)
+* [rust-analyzer: Support variable substitution in VSCode settings](https://github.com/rust-lang/rust-analyzer/pull/12215)
+* [rust-analyzer: include associated types in trait signature help](https://github.com/rust-lang/rust-analyzer/pull/12208)
+* [rust-analyzer: Add cast expressions to param name inlay hint heuristics](https://github.com/rust-lang/rust-analyzer/pull/12201)
+* [rust-analyzer: Fix config patching failing when appending suffixes](https://github.com/rust-lang/rust-analyzer/pull/12209)
+* [rust-analyzer: Fix fill-arguments completions not working](https://github.com/rust-lang/rust-analyzer/pull/12245)
+* [rust-analyzer: Fix incorrect hover actions config keys](https://github.com/rust-lang/rust-analyzer/pull/12246)
+* [rust-analyzer: Fix old config patching overwriting callable snippet config unconditionally](https://github.com/rust-lang/rust-analyzer/pull/12228)
+* [rust-analyzer: don't panic at fully qualified call syntax in signature help](https://github.com/rust-lang/rust-analyzer/pull/12202)
+* [rust-analyzer: insert whitespace between 'mut' and 'self' in macro expansion](https://github.com/rust-lang/rust-analyzer/pull/12262)
 
 ### Rust Compiler Performance Triage
 
@@ -256,7 +314,11 @@ They should be of the form:
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> It is worth remembering that there is an infinitely large set of programs but a very small set of useful programs. A programming language is a form of ad-hoc compression algorithm, it is intended to sort the set of useful programs to have shorter encodings than the undesirable ones. Programs with certain categories of error or security vulnerability should be harder or impossible to express.
+
+– [david_chisnall on lobste.rs](https://lobste.rs/s/vtcocq/c_is_truly_all_we_need_everything_else_is#c_yrcjm1)
+
+Thanks to [Anton Fetisov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1241) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
