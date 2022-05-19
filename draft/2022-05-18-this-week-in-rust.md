@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W19](https://www.fornjot.app/blog/weekly-dev-log/2022-w19/)
 * [Introducing BlindAI, an open-source privacy-friendly AI deployment in Rust](https://blog.mithrilsecurity.io/introducing-blindai/)
 * [Slint (UI crate) weekly update -- Version 0.2.4 Release](https://slint-ui.com/thisweek/2022-05-16.html)
+* [This week in Databend #41: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-05-11-databend-weekly/)
+* [This week in Databend #42: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-05-18-databend-weekly/)
 * [Fyrox 0.25 Feature Highlights](https://fyrox.rs/blog/post/feature-highlights-0-25/)
 
 ### Observations/Thoughts
