@@ -162,7 +162,7 @@ Email the [Rust Community Team][community] for access.
 
 **Disney**
 
-* [Sr Rust Engineer (New York City, San Francisco, FT remote USA/Europe)](https://jobs.disneycareers.com/job/new-york/sr-software-engineer-rust/391/25299106288)
+* [Sr Rust Engineer (New York, NY, US, San Francisco, CA, US, Remote US/Europe)](https://jobs.disneycareers.com/job/new-york/sr-software-engineer-rust/391/25299106288)
 
 
 <!--
