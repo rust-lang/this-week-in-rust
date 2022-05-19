@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust: A Critical Retrospective](https://www.bunniestudios.com/blog/?p=6375)
+
 ### Rust Walkthroughs
 
 ### Research
