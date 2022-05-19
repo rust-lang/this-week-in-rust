@@ -71,6 +71,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Polkadot Blockchain Academy - Course on all things Rust, Substrate, Polkadot and Parity](https://docs.google.com/forms/d/e/1FAIpQLScAFegoJeHQDMXI0RJMI4OsbV0N2aXS5WmoaEcy5ysbaT0FCw/viewform)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -185,6 +187,10 @@ They should be of the form:
 * [Job Title (Location)](https://example.com/my-job-link)
 
 -->
+
+**Parity**
+
+* [Several Rust Engineering Positions Available (Remote/Berlin/Lisbon/UK)](https://www.parity.io/jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
