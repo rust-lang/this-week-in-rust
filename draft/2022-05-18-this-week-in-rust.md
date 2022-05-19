@@ -58,6 +58,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Polkadot Blockchain Academy - Course on all things Rust, Substrate, Polkadot and Parity](https://docs.google.com/forms/d/e/1FAIpQLScAFegoJeHQDMXI0RJMI4OsbV0N2aXS5WmoaEcy5ysbaT0FCw/viewform)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -161,13 +163,9 @@ They should be of the form:
 
 -->
 
-* [Rust / Core Engineer - Parachains Engineering (Remote/Berlin/Lisbon/UK)](https://grnh.se/24949fb13us)
-* [Rust / Core Engineer - Parachains Protocol (Remote/Berlin/Lisbon/UK)](https://grnh.se/06ef2e673us)
-* [Rust / Core Runtime Engineering - Staking](https://grnh.se/b5d311bd3us)
-* [Rust Engineer - General opening (Remote/Berlin/Lisbon/UK)](https://grnh.se/1cf2de503us)
+**Parity**
 
-Parity is looking for a number of Engineers who are interested in subjects such as Rust, Polkadot, or Substrate to learn about Rust, Cryptography, and Blockchain on-site in Cambridge from July 11 - August 7. [Application form for more information](https://docs.google.com/forms/d/e/1FAIpQLScAFegoJeHQDMXI0RJMI4OsbV0N2aXS5WmoaEcy5ysbaT0FCw/viewform)
-
+* [Several Rust Engineering Positions Available (Remote/Berlin/Lisbon/UK)](https://www.parity.io/jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
