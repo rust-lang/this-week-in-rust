@@ -27,10 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 
 * [This Month in Rust GameDev #33 - April 2022](https://gamedev.rs/news/033/)
