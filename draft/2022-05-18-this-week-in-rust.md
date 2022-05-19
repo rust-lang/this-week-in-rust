@@ -188,6 +188,10 @@ They should be of the form:
 
 -->
 
+**Spire Global**
+
+* [Software Engineer (Glasgow, UK, Remote UK, Luxembourg - Relocation Available)](https://spire.com/careers/job-openings/job/?gh_jid=4226230)
+
 **Parity**
 
 * [Several Rust Engineering Positions Available (Remote/Berlin/Lisbon/UK)](https://www.parity.io/jobs)
