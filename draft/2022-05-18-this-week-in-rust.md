@@ -56,6 +56,7 @@ and just ask the editors to select the category.
 * [Supply Chain Thoughts](https://insanitybit.github.io/2022/05/10/supply-chain-thoughts)
 * [Can you have too many programming language features?](https://www.thecodedmessage.com/posts/2022-05-11-programming-multiparadigm/)
 * [Asteracea (platform-agnostic mixed-style frontend components)](https://blog.schichler.dev/posts/Asteracea/)
+* [PixelBox Public Alpha](https://www.josephcatrambone.com/?p=1382)
 * [video] [Building a Postgres storage system in Rust](https://www.youtube.com/watch?v=kAQeout-mh8)
 * [video] [Rust: Your code can be perfect](https://www.youtube.com/watch?v=IA4q0lzmyfM)
 * [video] [Systems Programmers Can Have Nice Things](https://www.infoq.com/presentations/rust-systems-programmer/)
@@ -312,11 +313,6 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-**Disney**
-
-* [Sr Rust Engineer (New York, NY, US, San Francisco, CA, US, Remote US/Europe)](https://jobs.disneycareers.com/job/new-york/sr-software-engineer-rust/391/25299106288)
-
-
 <!--
 
 New jobs can be posted here.
@@ -329,9 +325,55 @@ They should be of the form:
 
 -->
 
+**Disney**
+
+* [Sr Rust Engineer (New York, NY, US, San Francisco, CA, US, Remote US/Europe)](https://jobs.disneycareers.com/job/new-york/sr-software-engineer-rust/391/25299106288)
+
+**StructionSite**
+
+* [Full Stack Engineer - Elm/Rust (Remote US)](https://jobs.ashbyhq.com/structionsite/6c732773-8209-4947-9adb-c8ddabcc9cb7)
+
+**Clear**
+
+* [Full Stack Developer (Remote)](https://docs.google.com/document/d/1Yt0zSGP3zFckdK6-0GVC9tsbqr3o4MNERUXewRdRaQA/edit)
+
+**Audiotool**
+
+* [Rust / Audio DSP Developer](https://www.audiotool.com/jobs#rust-audio-dsp-developer)
+
+**Anixe**
+
+[Rust Software Engineer (Remote or hybrid work PL, GR)](https://anixe.bamboohr.com/jobs/view.php?id=184&source=bamboohr)
+
+**Instant Domains**
+
+* [Experienced Rust Engineer (Remote, +/- 3 hours of CET)](https://www.ycombinator.com/companies/instant-domains/jobs/oCFQlxH-experienced-rust-engineer)
+
 **Spire Global**
 
 * [Software Engineer (Glasgow, UK, Remote UK, Luxembourg - Relocation Available)](https://spire.com/careers/job-openings/job/?gh_jid=4226230)
+
+**Enso**
+
+* [Senior Rust IDE Developer (Remote EU, US)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-ide-developer.md)
+* [Senior Cloud Rust Engineer (Remote EU, US)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-cloud-developer.md)
+
+**Stockly**
+
+* [Back-end developer - Engine (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
+* [Back-end developer (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly/jobs/back-end-developer-rust-grpc-postgresql_paris)
+
+**Kraken**
+
+* [Engineering Manager - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/53def500-b146-40da-89a8-98adfd7e84e4)
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+
+**Estuary**
+
+* [Developer Evangelist (New York, NY, US, Columbus, OH, US, Remote)](https://www.estuary.dev/about/#developerevangelist)
+* [Senior Backend Engineer (New York, NY, US, Columbus, OH, US, Remote)](https://www.estuary.dev/about/#backendengineer)
+* [Backend Engineer (New York, NY, US, Columbus, OH, US, Remote)](https://www.estuary.dev/about/#backend)
 
 **Parity**
 
