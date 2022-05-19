@@ -33,26 +33,51 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [This Month in Rust GameDev #33 - April 2022](https://gamedev.rs/news/033/)
+
 ### Project/Tooling Updates
 
+* [rust-analyzer changelog #129](https://rust-analyzer.github.io/thisweek/2022/05/16/changelog-129.html)
+* [IntelliJ Rust Changelog #170](https://intellij-rust.github.io/2022/05/16/changelog-170.html)
 * [What's new in SeaORM 0.8.0](https://www.sea-ql.org/SeaORM/blog/2022-05-15-whats-new-in-0.8.0/)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W19](https://www.fornjot.app/blog/weekly-dev-log/2022-w19/)
-* [Introducing BlindAI, an open-source privacy-friendly AI deployment in Rust](https://blog.mithrilsecurity.io/introducing-blindai)
+* [Introducing BlindAI, an open-source privacy-friendly AI deployment in Rust](https://blog.mithrilsecurity.io/introducing-blindai/)
 * [Slint (UI crate) weekly update -- Version 0.2.4 Release](https://slint-ui.com/thisweek/2022-05-16.html)
+* [Fyrox 0.25 Feature Highlights](https://fyrox.rs/blog/post/feature-highlights-0-25/)
 
 ### Observations/Thoughts
 
+* [Things Are Getting Rusty In Kernel Land](https://hackaday.com/2022/05/17/things-are-getting-rusty-in-kernel-land/)
+* [A new impl Trait](https://davidkoloski.me/blog/a-new-impl-trait-1/)
+* [Our Experience Porting the YJIT Ruby Compiler to Rust](https://shopify.engineering/porting-yjit-ruby-compiler-to-rust)
+* [Comparing Rust supply chain safety tools](https://blog.logrocket.com/comparing-rust-supply-chain-safety-tools/)
+* [Supply Chain Thoughts](https://insanitybit.github.io/2022/05/10/supply-chain-thoughts)
+* [Can you have too many programming language features?](https://www.thecodedmessage.com/posts/2022-05-11-programming-multiparadigm/)
 * [Asteracea (platform-agnostic mixed-style frontend components)](https://blog.schichler.dev/posts/Asteracea/)
 * [video] [Building a Postgres storage system in Rust](https://www.youtube.com/watch?v=kAQeout-mh8)
+* [video] [Rust: Your code can be perfect](https://www.youtube.com/watch?v=IA4q0lzmyfM)
+* [video] [Systems Programmers Can Have Nice Things](https://www.infoq.com/presentations/rust-systems-programmer/)
+* [video] [The Rust Borrow Checker - a Deep Dive](https://www.infoq.com/presentations/rust-borrow-checker/)
+* [audio] [Slint with Tobias Hunger](https://rustacean-station.org/episode/068-tobias-hunger/)
 
 ### Rust Walkthroughs
 
+* [Extending SQLite with Rust](https://ricardoanderegg.com/posts/extending-sqlite-with-rust/)
+* [Let's talk about this async](https://conradludgate.com/posts/async)
 * [Bitsquatting attacks and exploit in Rust](https://kerkour.com/bitsquatting-attack-generator-in-rust)
 * [Building a crawler in Rust: Scraping Javascript Single Page Applications (SPA) with a headless browser](https://kerkour.com/rust-crawler-javascript-single-page-application-headless-browser)
+* [Learning Rust - creating a full-text search engine](https://www.rsarai.xyz/learning-rust-by-creating-fts-db/)
 * [Compiler Adventures, part 3: Value Numbering](https://medium.com/@predrag.gruevski/compiler-adventures-part-3-value-numbering-12d087b891bd)
+* [Do not wait for Rust generators](https://david-delassus.medium.com/do-not-wait-for-rust-generators-9e7753465f59)
 * [Rust Ergonomics: Default and From](https://elijahcaine.me/rust-default-from/)
+* [Audio Libraries Considered Challenging](https://tesselode.github.io/articles/audio-libraries-considered-challenging/)
+* [Linking Rust Crates, Part 1](https://blog.pnkfx.org/blog/2022/05/12/linking-rust-crates/)
+* [A Guided Tour of Streams in Rust](https://www.qovery.com/blog/a-guided-tour-of-streams-in-rust/)
+* [video] [Rust Bevy 0.7 - Full Tutorial - Game Development with Rust](https://www.youtube.com/watch?v=j7qHwb7geIM)
 
 ### Research
+
+* [Ferrite: A Judgmental Embedding of Session Types in Rust](https://arxiv.org/abs/2205.06921)
 
 ### Miscellaneous
 
