@@ -65,6 +65,24 @@ def is_strict_title(title):
     return title.lower() in STRICT_TITLES
 
 
+def check_truncated_title(tag):
+    """ Flag any links that have a probably-truncated title.
+
+    Links collected from Discord may be truncated to a length of exactly
+    70 characters, including a "..." suffix.
+
+    If we're unlucky enough to trigger this warning by mistake, here are
+    some workarounds:
+    - Make any change to the title so that it's not exactly 70 characters
+      (e.g. add an extra space between words)
+    - Replace the "..." with unicode "…"
+    """
+    title = tag.string
+    LOG.debug(f'link title: {repr(title)}')
+    if title and title.endswith('...') and len(title) == 70:
+        warnings.warn(f'truncated link title: {repr(title)}')
+
+
 def extract_links(html):
     """ Return a list of links from this file.
 
@@ -90,6 +108,7 @@ def extract_links(html):
             link = tag.get('href')
             LOG.debug(f'found link tag: {link}')
             if strict_mode:
+                check_truncated_title(tag)
                 trimmed_url = parse_url(link)
                 urls.append(trimmed_url)
         else:
