@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Slint (UI crate) weekly update](https://slint-ui.com/thisweek/2022-05-23.html)
+
 ### Observations/Thoughts
 
 * [Rust: A Critical Retrospective](https://www.bunniestudios.com/blog/?p=6375)
