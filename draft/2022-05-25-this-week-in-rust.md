@@ -38,7 +38,7 @@ and just ask the editors to select the category.
 * [What’s New in IntelliJ Rust for 2022.1](https://blog.jetbrains.com/rust/2022/05/19/what-s-new-in-intellij-rust-for-2022-1)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W20](https://www.fornjot.app/blog/weekly-dev-log/2022-w20/)
 * [Slint (UI crate) weekly update](https://slint-ui.com/thisweek/2022-05-23.html)
-
+* [Apache Arrow has released version 8.0.0 of the DataFusion in-process SQL query engine](https://arrow.apache.org/blog/2022/05/16/datafusion-8.0.0/)
 
 ### Observations/Thoughts
 
