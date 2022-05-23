@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [What’s New in IntelliJ Rust for 2022.1](https://blog.jetbrains.com/rust/2022/05/19/what-s-new-in-intellij-rust-for-2022-1)
+
 ### Observations/Thoughts
 
 * [Rust: A Critical Retrospective](https://www.bunniestudios.com/blog/?p=6375)
