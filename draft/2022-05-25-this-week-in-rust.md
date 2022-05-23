@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Rust-raspberrypi-OS-tutorials: Tutorial 19 - Kernel Heap](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/19_kernel_heap#readme)
+
 ### Research
 
 ### Miscellaneous
