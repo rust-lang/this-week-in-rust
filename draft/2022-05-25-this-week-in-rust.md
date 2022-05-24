@@ -52,7 +52,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [rustdoc-types](https://docs.rs/rustdoc-types), a crate with types to deserialize Rustdoc's JSON output.
+
+Thanks to [Nixon Enraght-Moony](https://users.rust-lang.org/t/crate-of-the-week/2704/1061) for the self-ish suggestion. 
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -71,7 +73,56 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+363 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-05-16..2022-05-23
+
+* [recover when resolution did not resolve lifetimes](https://github.com/rust-lang/rust/pull/97236)
+* [add new lint to enforce whitespace after keywords](https://github.com/rust-lang/rust/pull/97179)
+* [lint single-use lifetimes during AST resolution](https://github.com/rust-lang/rust/pull/96833)
+* [fix misleading "cannot infer type for type parameter" error](https://github.com/rust-lang/rust/pull/97109)
+* [improve `u32 as char` cast diagnostic](https://github.com/rust-lang/rust/pull/97169)
+* [suggest dereferencing non-lval mutable reference on assignment](https://github.com/rust-lang/rust/pull/94639)
+* [add a query for checking whether a function is an intrinsic](https://github.com/rust-lang/rust/pull/97012)
+* [types with reachable constructors are reachable](https://github.com/rust-lang/rust/pull/97096)
+* [miri: adjust diagnostics assertion so we don't ICE in setup](https://github.com/rust-lang/miri/pull/2141)
+* [miri: initial work on Miri permissive-exposed-provenance](https://github.com/rust-lang/miri/pull/2059)
+* [miri: make `allow_data_races_*` public and use it during `EnvVars::cleanup`](https://github.com/rust-lang/miri/pull/2142)
+* [remove quadratic behaviour from `-Zunpretty=hir-tree`](https://github.com/rust-lang/rust/pull/97223)
+* [clean up derived obligation creation](https://github.com/rust-lang/rust/pull/96892)
+* [correctly deal with user type ascriptions in pat](https://github.com/rust-lang/rust/pull/96515)
+* [rustc\_parse: move AST -> `TokenStream` conversion logic to `rustc_ast`](https://github.com/rust-lang/rust/pull/97251)
+* [stabilize `Ipv6Addr::to_ipv4_mapped`](https://github.com/rust-lang/rust/pull/96906)
+* [stabilize `array_from_fn`](https://github.com/rust-lang/rust/pull/94119)
+* [add convenience byte offset/check align functions to pointers](https://github.com/rust-lang/rust/pull/95643)
+* [add functions to un-poison `Mutex` and `RwLock`](https://github.com/rust-lang/rust/pull/96422)
+* [improve codegen of `String::retain` method](https://github.com/rust-lang/rust/pull/96605)
+* [change `NonNull::as_uninit_*` to take self by value (as opposed to reference), matching primitive pointers](https://github.com/rust-lang/rust/pull/96100)
+* [remove unneeded null pointer asserts in `ptr2int` casts](https://github.com/rust-lang/rust/pull/97188)
+* [make `ptr::invalid` not the same as a regular `int2ptr` cast](https://github.com/rust-lang/rust/pull/97219)
+* [use pointers in `cell::{Ref,RefMut}` to avoid `noalias`](https://github.com/rust-lang/rust/pull/97027)
+* [portable SIMD: add `Mask::cast`](https://github.com/rust-lang/portable-simd/pull/251)
+* [backtrace: make Miri backtraces work with `#[global_allocator]`](https://github.com/rust-lang/backtrace-rs/pull/462)
+* [hashbrown: add function for getting access to map `table: RawTable<(K, V), A>` field](https://github.com/rust-lang/hashbrown/pull/335)
+* [cargo: add unstable `rustc-check-cfg` build script output](https://github.com/rust-lang/cargo/pull/10539)
+* [cargo: restore proper error for crate not in local reg](https://github.com/rust-lang/cargo/pull/10683)
+* [rustdoc: reduce `clean::Type` size](https://github.com/rust-lang/rust/pull/93963)
+* [rustdoc: resolve some more doc links early 2](https://github.com/rust-lang/rust/pull/96713)
+* [rustfmt: import_granularity: Don't normalize imports with comments](https://github.com/rust-lang/rustfmt/pull/5311)
+* [clippy: fix `cmp_owned` on copy types](https://github.com/rust-lang/rust-clippy/pull/8807)
+* [clippy: improve "unknown field" error messages](https://github.com/rust-lang/rust-clippy/pull/8823)
+* [clippy: lint indirect usages in `disallowed_methods`](https://github.com/rust-lang/rust-clippy/pull/8852)
+* [clippy: `dbg_macro` tolerates use of `dbg!` in test items](https://github.com/rust-lang/rust-clippy/pull/8838)
+* [clippy: add suggestions to `rc_clone_in_vec_init`](https://github.com/rust-lang/rust-clippy/pull/8814)
+* [rust-analyzer: fix inference when pattern matching a tuple field with a wildcard](https://github.com/rust-lang/rust-analyzer/pull/12355)
+* [rust-analyzer: generate enum variant assist](https://github.com/rust-lang/rust-analyzer/pull/12334)
+* [rust-analyzer: add "cargo clippy" task preset](https://github.com/rust-lang/rust-analyzer/pull/12326)
+* [rust-analyzer: implement inlay hint tooltips](https://github.com/rust-lang/rust-analyzer/pull/12285)
+* [rust-analyzer: improve docs generation assist](https://github.com/rust-lang/rust-analyzer/pull/12303)
+* [rust-analyzer: add a "Add attribute" assist](https://github.com/rust-lang/rust-analyzer/pull/12296)
+* [rust-analyzer: don't swallow build script errors](https://github.com/rust-lang/rust-analyzer/pull/12329)
+* [rust-analyzer: fix broken async callback in join lines](https://github.com/rust-lang/rust-analyzer/pull/12342)
+* [rustup: don't send logging to stdout](https://github.com/rust-lang/rustup/pull/2985)
 
 ### Rust Compiler Performance Triage
 
@@ -184,7 +235,11 @@ They should be of the form:
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> This is the difference in approaches of the two languages. In C++ if the code is vulnerable, the blame is on the programmer. In Rust if the code is vulnerable, Rust considers it a failure of the language, and takes responsibility to stop even “bad” programmers from writing vulnerable code. I can’t stress enough how awesome it is that I can be a careless fool, and still write perfectly robust highly multi-threaded code that never crashes.
+
+– [kornel on lobste.rs](https://lobste.rs/s/wiavtb/rust_critical_retrospective#c_jkfhpb) (with a [caveat from ZiCog](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1244) that Rust does *not* guarantee freedom from all vulnerabilities!)
+
+Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1243) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
