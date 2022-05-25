@@ -60,6 +60,7 @@ and just ask the editors to select the category.
 
 * [Optimizing the size of your Rust binaries](https://kerkour.com/optimize-rust-binary-size)
 * [Testing and building your Rust project with GitHub Actions](https://kerkour.com/rust-github-actions-ci-cd)
+* [Rust-raspberrypi-OS-tutorials: Tutorial 19 - Kernel Heap](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/19_kernel_heap#readme)
 
 ### Research
 
