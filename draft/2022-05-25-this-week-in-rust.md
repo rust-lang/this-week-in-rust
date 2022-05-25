@@ -29,23 +29,32 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Announcing Rust 1.61.0 | Rust Blog](https://blog.rust-lang.org/2022/05/19/Rust-1.61.0.html)
+
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
 
-* [What’s New in IntelliJ Rust for 2022.1](https://blog.jetbrains.com/rust/2022/05/19/what-s-new-in-intellij-rust-for-2022-1)
+* [What’s New in IntelliJ Rust for 2022.1](https://blog.jetbrains.com/rust/2022/05/19/what-s-new-in-intellij-rust-for-2022-1/)
+* [rust-analyzer changelog #130](https://rust-analyzer.github.io/thisweek/2022/05/23/changelog-130.html)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W20](https://www.fornjot.app/blog/weekly-dev-log/2022-w20/)
 * [Slint (UI crate) weekly update](https://slint-ui.com/thisweek/2022-05-23.html)
 * [Apache Arrow has released version 8.0.0 of the DataFusion in-process SQL query engine](https://arrow.apache.org/blog/2022/05/16/datafusion-8.0.0/)
+* [Redust: a new Redis client](https://www.reddit.com/r/rust/comments/ux9ry5/redust_a_new_redis_client/)
+* [[libblendinfo] Return information from Rust crate to C library](https://www.janwalter.org/jekyll/rust/libblendinfo/2022/05/10/libblendinfo.html)
 
 ### Observations/Thoughts
 
 * [Rust: A Critical Retrospective](https://www.bunniestudios.com/blog/?p=6375)
 * [Building a Cloud Database from Scratch: Why We Moved from C++ to Rust](https://singularity-data.com/blog/building-a-cloud-database-from-scratch-why-we-moved-from-cpp-to-rust/)
 * [How we use Rust, SQLx and Rocket for Oso Cloud](https://www.osohq.com/post/rust-rocket-sqlx)
-* [BonsaiDb (NoSQL database) performance update: A deep-dive on file synchronization](https://bonsaidb.io/blog/durable-writes/)
+* [Fixing Memory Leaks in Rust](https://onesignal.com/blog/solving-memory-leaks-in-rust/)
+* [Crash Reporting in Rust](https://jake-shadle.github.io/crash-reporting/)
+* [Rust Environment and Docker Build with Nix Flakes](https://johns.codes/blog/rust-enviorment-and-docker-build-with-nix-flakes)
+* [BonsaiDb performance update: A deep-dive on file synchronization](https://bonsaidb.io/blog/durable-writes/)
+* [Rust Docker Tutorial](https://tutorialedge.net/rust/rust-docker-tutorial/)
 
 ### Rust Walkthroughs
 
@@ -55,6 +64,9 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+
+* [Developer survey: JavaScript and Python reign, but Rust is rising](https://www.infoworld.com/article/3661248/developer-survey-javascript-and-python-reign-but-rust-is-rising.html)
+* [DE] [Programmiersprache Rust 1.61 kann Programme aussagekräftig beenden](https://www.heise.de/news/Programmiersprache-Rust-1-61-kann-Programme-aussagekraeftig-beenden-7101438.html)
 
 ## Crate of the Week
 
