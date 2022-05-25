@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [What’s New in IntelliJ Rust for 2022.1](https://blog.jetbrains.com/rust/2022/05/19/what-s-new-in-intellij-rust-for-2022-1)
+* [What’s New in IntelliJ Rust for 2022.1](https://blog.jetbrains.com/rust/2022/05/19/what-s-new-in-intellij-rust-for-2022-1/)
 * [rust-analyzer changelog #130](https://rust-analyzer.github.io/thisweek/2022/05/23/changelog-130.html)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W20](https://www.fornjot.app/blog/weekly-dev-log/2022-w20/)
 * [Slint (UI crate) weekly update](https://slint-ui.com/thisweek/2022-05-23.html)
