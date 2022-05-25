@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 * [Optimizing the size of your Rust binaries](https://kerkour.com/optimize-rust-binary-size)
+* [Testing and building your Rust project with GitHub Actions](https://kerkour.com/rust-github-actions-ci-cd)
 
 ### Research
 
