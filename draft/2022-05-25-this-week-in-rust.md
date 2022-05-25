@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Optimizing the size of your Rust binaries](https://kerkour.com/optimize-rust-binary-size)
+
 ### Research
 
 ### Miscellaneous
