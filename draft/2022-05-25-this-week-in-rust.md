@@ -179,6 +179,9 @@ They should be of the form:
 * [Job Title (Location)](https://example.com/my-job-link)
 
 -->
+**[Bionaut Labs](https://bionautlabs.com/)**
+* [Embedded Rust Engineer - Senior/Principal (Remote US, Los Angeles, CA)](https://www.indeed.com/cmp/Bionaut-Labs-1/jobs?jk=2d4ddec4bed66bc1)
+
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
