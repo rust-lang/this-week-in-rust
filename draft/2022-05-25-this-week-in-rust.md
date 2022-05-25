@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [Rust: A Critical Retrospective](https://www.bunniestudios.com/blog/?p=6375)
+* [Building a Cloud Database from Scratch: Why We Moved from C++ to Rust](https://singularity-data.com/blog/building-a-cloud-database-from-scratch-why-we-moved-from-cpp-to-rust/)
 
 ### Rust Walkthroughs
 
