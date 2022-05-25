@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Testing and building your Rust project with GitHub Actions](https://kerkour.com/rust-github-actions-ci-cd)
+
 ### Research
 
 ### Miscellaneous
