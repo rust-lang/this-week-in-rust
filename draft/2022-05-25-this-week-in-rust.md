@@ -46,6 +46,9 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [🦀 How we use Rust, SQLx and Rocket for Oso Cloud](https://www.osohq.com/post/rust-rocket-sqlx)
+
+
 ### Research
 
 ### Miscellaneous
