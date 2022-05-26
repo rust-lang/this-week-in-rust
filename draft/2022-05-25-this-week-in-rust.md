@@ -237,6 +237,10 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**SixtyFPS GmbH**
+
+* [Software Developer for the Slint UI Toolkit (remote/EU)](https://slint-ui.com/careers.html)
+
 <!--
 
 New jobs can be posted here.
