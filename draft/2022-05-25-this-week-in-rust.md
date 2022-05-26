@@ -308,6 +308,10 @@ They should be of the form:
 * [Embedded Rust Engineer - Senior/Principal (Remote US, Los Angeles, CA, US)](https://www.indeed.com/cmp/Bionaut-Labs-1/jobs?jk=2d4ddec4bed66bc1)
 
 
+**Tempus Ex**
+
+* [Several full-time Rust positions available (San Francisco, CA, US, Atlanta, GA, US, Austin, TX, US, and Remote)](https://tempus-ex.com/careers)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
