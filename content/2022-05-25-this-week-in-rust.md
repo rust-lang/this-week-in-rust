@@ -31,10 +31,6 @@ and just ask the editors to select the category.
 
 * [Announcing Rust 1.61.0 | Rust Blog](https://blog.rust-lang.org/2022/05/19/Rust-1.61.0.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 
 * [What’s New in IntelliJ Rust for 2022.1](https://blog.jetbrains.com/rust/2022/05/19/what-s-new-in-intellij-rust-for-2022-1/)
@@ -64,8 +60,6 @@ and just ask the editors to select the category.
 * [Testing and building your Rust project with GitHub Actions](https://kerkour.com/rust-github-actions-ci-cd)
 * [Rust-raspberrypi-OS-tutorials: Tutorial 19 - Kernel Heap](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/19_kernel_heap#readme)
 * [video] [Deref and Drop Traits](https://www.youtube.com/watch?v=Nlc3HdVyaNg)
-
-### Research
 
 ### Miscellaneous
 
@@ -203,14 +197,6 @@ decision. Express your opinions now.
 * [notice] [Mention RFC 1201 was superseded by RFC 2972](https://github.com/rust-lang/rfcs/pull/3270)
 * [new] [RFC: Add a scalable representation to allow support for scalable vectors](https://github.com/rust-lang/rfcs/pull/3268)
 * [new] [Macro Shorthand: Make m!123 identical to m!(123)](https://github.com/rust-lang/rfcs/pull/3267)
-
---
-
-* *No RFCs issued a call for testing this week.*
-* *No RFCs were approved this week.*
-* *No RFCs entered Final Comment Period this week.*
-* *No Tracking Issues or PRs entered Final Comment Period this week.*
-* *No New or Updated RFCs were created this week.*
 
 ## Upcoming Events
 
