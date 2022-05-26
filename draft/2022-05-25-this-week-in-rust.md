@@ -94,7 +94,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Overall a positive week for non-incremental performance (roughly 0.5% faster),
+however, some >1% regressions on multiple incremental benchmarks, primarily due to
+[#95563](https://github.com/rust-lang/rust/pull/95563), which will hopefully be
+investigated in the coming weeks.
+
+Triage done by **@simulacrum**.
+Revision range: [7355d971..43d9f3](https://perf.rust-lang.org/?start=7355d971a954ed63293e4191f6677f60c1bc07d9&end=43d9f3859e0204e764161ee085a360274b5f3e9a&absolute=false&stat=instructions%3Au)
+
+2 Regressions, 5 Improvements, 4 Mixed; 0 of them in rollups
+57 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-05-24.md)
 
 ### Call for Testing
 
