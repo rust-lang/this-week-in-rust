@@ -63,6 +63,7 @@ and just ask the editors to select the category.
 * [Optimizing the size of your Rust binaries](https://kerkour.com/optimize-rust-binary-size)
 * [Testing and building your Rust project with GitHub Actions](https://kerkour.com/rust-github-actions-ci-cd)
 * [Rust-raspberrypi-OS-tutorials: Tutorial 19 - Kernel Heap](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/19_kernel_heap#readme)
+* [video] [Deref and Drop Traits](https://www.youtube.com/watch?v=Nlc3HdVyaNg)
 
 ### Research
 
@@ -290,6 +291,14 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**Element**
+
+* [Software Engineer - VoIP (Go/Rust) (London, UK or Remote)](https://apply.workable.com/elementio/j/5BD58AFB6F/)
+
+**Kidsloop**
+
+* [Senior Audio/ Video Backend Engineer (Seoul, KR)](https://kidsloop.bamboohr.com/jobs/view.php?id=397)
+
 **SixtyFPS GmbH**
 
 * [Software Developer for the Slint UI Toolkit (remote/EU)](https://slint-ui.com/careers.html)
@@ -309,6 +318,10 @@ They should be of the form:
 
 * [Embedded Rust Engineer - Senior/Principal (Remote US, Los Angeles, CA, US)](https://www.indeed.com/cmp/Bionaut-Labs-1/jobs?jk=2d4ddec4bed66bc1)
 
+**Stockly**
+
+* [Back-end developer - Engine (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
+* [Back-end developer (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly/jobs/back-end-developer-rust-grpc-postgresql_paris)
 
 **Tempus Ex**
 
