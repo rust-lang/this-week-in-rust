@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 * [Apache Arrow has released version 8.0.0 of the DataFusion in-process SQL query engine](https://arrow.apache.org/blog/2022/05/16/datafusion-8.0.0/)
 * [Redust: a new Redis client](https://www.reddit.com/r/rust/comments/ux9ry5/redust_a_new_redis_client/)
 * [[libblendinfo] Return information from Rust crate to C library](https://www.janwalter.org/jekyll/rust/libblendinfo/2022/05/10/libblendinfo.html)
+* [This week in Databend #43: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-05-25-databend-weekly/)
 
 ### Observations/Thoughts
 
