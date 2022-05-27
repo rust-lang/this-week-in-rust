@@ -39,6 +39,9 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Simple rust interview questions](https://flakm.github.io/posts/rust_interview_questions/)
+* [Profiling heap allocation in rust](https://flakm.github.io/posts/heap_allocation/)
+
 ### Research
 
 ### Miscellaneous
