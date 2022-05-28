@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Arc and Mutex in Rust](https://itsallaboutthebit.com/arc-mutex)
+
 ### Research
 
 ### Miscellaneous
