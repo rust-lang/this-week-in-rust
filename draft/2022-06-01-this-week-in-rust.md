@@ -43,7 +43,7 @@ and just ask the editors to select the category.
 
 * [Simple rust interview questions](https://flakm.github.io/posts/rust_interview_questions/)
 * [Profiling heap allocation in rust](https://flakm.github.io/posts/heap_allocation/)
-* [Arc and Mutex in Rust](https://itsallaboutthebit.com/arc-mutex)
+* [Arc and Mutex in Rust](https://itsallaboutthebit.com/arc-mutex/)
 * [How I speeded up my Rust builds on GitHub ~30 times](https://ectobit.com/blog/speed-up-github-actions-rust-pipelines/)
 
 ### Research
