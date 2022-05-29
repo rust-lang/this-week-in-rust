@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [The Rust Jobs Market](https://www.rustjobs.com/blog/the-rust-jobs-market.html)
+
 ### Rust Walkthroughs
 
 * [Simple rust interview questions](https://flakm.github.io/posts/rust_interview_questions/)
