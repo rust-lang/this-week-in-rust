@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Helix editor 22.05 released](https://helix-editor.com/news/release-22-05-highlights/)
+* [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-05-30.html)
 
 ### Observations/Thoughts
 
