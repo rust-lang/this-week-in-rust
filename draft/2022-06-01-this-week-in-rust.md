@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Helix editor 22.05 released](https://helix-editor.com/news/release-22-05-highlights/)
+* [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W21](https://www.fornjot.app/blog/weekly-dev-log/2022-w21/)
 
 ### Observations/Thoughts
 
