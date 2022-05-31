@@ -77,15 +77,45 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 <!-- Perf results go here -->
 
-### Call for Testing
-
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* *No RFCs issued a call for testing this week.*
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
+
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* [Allow using for<'a> syntax when declaring closures](https://github.com/rust-lang/rfcs/pull/3216)
+* [Create a types team](https://github.com/rust-lang/rfcs/pull/3254)
+
+### Final Comment Period
+
+Every week [the team](https://www.rust-lang.org/team.html) announces the
+'final comment period' for RFCs and key PRs which are reaching a
+decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* *No RFCs entered Final Comment Period this week.*
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: merge] [Tracking Issue for scoped threads](https://github.com/rust-lang/rust/issues/93203)
+* [disposition: merge] [Put a bound on collection misbehavior](https://github.com/rust-lang/rust/pull/97316)
+* [disposition: merge] [Tracking Issue for RFC 3128: I/O Safety](https://github.com/rust-lang/rust/issues/87074)
+* [disposition: merge] [Lang: Stabilize usage of rustc_nonnull_optimization_guaranteed on -1](https://github.com/rust-lang/rust/issues/97122)
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* [notice] [Mention about removal of crate visibility specifier](https://github.com/rust-lang/rfcs/pull/3273)
 
 ## Upcoming Events
 
