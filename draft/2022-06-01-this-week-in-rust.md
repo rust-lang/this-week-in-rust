@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Helix editor 22.05 released](https://helix-editor.com/news/release-22-05-highlights/)
+* [mirrord 2.0 released (rewritten in Rust)](https://metalbear.co/blog/reintroducing-mirrord/)
 
 ### Observations/Thoughts
 
