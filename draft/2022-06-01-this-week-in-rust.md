@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Introduction to Rust generics (1/2): Traits](https://kerkour.com/rust-generics-traits)
 * [Simple rust interview questions](https://flakm.github.io/posts/rust_interview_questions/)
 * [Profiling heap allocation in rust](https://flakm.github.io/posts/heap_allocation/)
 * [Arc and Mutex in Rust](https://itsallaboutthebit.com/arc-mutex/)
