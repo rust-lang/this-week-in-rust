@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 
 * [Helix editor 22.05 released](https://helix-editor.com/news/release-22-05-highlights/)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-05-30.html)
+* [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W21](https://www.fornjot.app/blog/weekly-dev-log/2022-w21/)
 
 ### Observations/Thoughts
 
