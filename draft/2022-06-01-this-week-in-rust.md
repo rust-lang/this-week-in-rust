@@ -143,7 +143,7 @@ Rusty Events between 2022-06-01 - 2022-06-29 🦀
 * 2022-06-09 | Columbus, OH, US | [Columbus Rust Society](https://www.meetup.com/columbus-rs/)
     * [**Monthly Meeting**](https://www.meetup.com/columbus-rs/events/dpkhgrydcjbmb/)
 * 2022-06-21 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
-    * [**Rust Hacking in Person **](https://www.meetup.com/san-francisco-rust-study-group/events/wjkjssydcjbcc/)
+    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/wjkjssydcjbcc/)
 * 2022-06-29 | Austin, TX, US | [ATX Rustaceans](https://www.meetup.com/atx-rustaceans/)
     * [**First Official Meetup - June 2022**](https://www.meetup.com/atx-rustaceans/events/285878081/)
 
@@ -156,7 +156,7 @@ Rusty Events between 2022-06-01 - 2022-06-29 🦀
 * 2022-06-14 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
     * [**On Site Meetup**](https://www.meetup.com/Rust-Community-Stuttgart/events/286137650/)
 * 2022-06-21 | Oslo, NO | [Rust Oslo](https://www.meetup.com/Rust-Oslo/)
-    [**Async Rust and Embedded**](https://www.meetup.com/Rust-Oslo/events/286236751/)
+    * [**Async Rust and Embedded**](https://www.meetup.com/Rust-Oslo/events/286236751/)
 ### Oceania
 
 * 2022-06-17 | Melbourne, VI, AU | [Rust Melbourne](https://www.meetup.com/Rust-Melbourne/)
