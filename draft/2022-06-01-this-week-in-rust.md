@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Introducing the Ferrocene Language Specification](https://ferrous-systems.com/blog/ferrocene-language-specification/)
+
 ### Rust Walkthroughs
 
 * [Introduction to Rust generics (1/2): Traits](https://kerkour.com/rust-generics-traits)
