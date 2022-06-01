@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Helix editor 22.05 released](https://helix-editor.com/news/release-22-05-highlights/)
+* [Introducing the Ferrocene Language Specification](https://ferrous-systems.com/blog/ferrocene-language-specification/)
 
 ### Observations/Thoughts
 
