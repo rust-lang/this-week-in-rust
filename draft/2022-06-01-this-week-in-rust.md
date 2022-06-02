@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [Introducing the Ferrocene Language Specification](https://ferrous-systems.com/blog/ferrocene-language-specification/)
+* [The Rust Jobs Market](https://www.rustjobs.com/blog/the-rust-jobs-market.html)
 
 ### Rust Walkthroughs
 
