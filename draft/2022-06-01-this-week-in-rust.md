@@ -282,6 +282,11 @@ They should be of the form:
 
 -->
 
+
+**Quickwit**
+
+* [Senior Software Engineer, Rust & distributed systems (Remote, European/Asian time zones)](https://quickwit.io/jobs/distributed-software-engineer)
+
 **Micropelt**
 
 * [Embedded Engineer (Freiburg, DE)](http://www.micropelt.com/en/micropelt/jobs)
