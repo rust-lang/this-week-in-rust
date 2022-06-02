@@ -299,6 +299,10 @@ They should be of the form:
 
 -->
 
+**Element**
+
+* [Software Engineer - VoIP (Go/Rust) (Remote)](https://apply.workable.com/elementio/j/5BD58AFB6F/)
+
 **Quickwit**
 
 * [Senior Software Engineer, Rust & distributed systems (Remote, European/Asian time zones)](https://quickwit.io/jobs/distributed-software-engineer)
@@ -306,6 +310,25 @@ They should be of the form:
 **Micropelt**
 
 * [Embedded Engineer (Freiburg, DE)](http://www.micropelt.com/en/micropelt/jobs)
+
+**Stockly**
+
+* [Back-end developer (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly/jobs/back-end-developer-rust-grpc-postgresql_paris)
+
+**Audiotool**
+
+* [Rust / Audio DSP Developer](https://www.audiotool.com/jobs#rust-audio-dsp-developer)
+
+**Zcash Foundation**
+
+* [Core Engineer (Remote)](https://cryptojobslist.com/jobs/core-engineer-zcash-foundation-no-restrictions)
+
+**Bolt Labs**
+
+* [Cryptographic Engineer at Bolt Labs (Remote, US)](https://hackmd.io/@bolt/H1gYR6NEq)
+* [Senior Software Engineer (Rust) at Bolt Labs (Remote, US)](https://hackmd.io/@bolt/S1wOGzS4q)
+* [Software Engineer (Rust) at Bolt Labs (Remote, US)](https://hackmd.io/@bolt/SknjzfB49)
+
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
