@@ -328,7 +328,6 @@ They should be of the form:
 * [Senior Software Engineer (Rust) at Bolt Labs (Remote, US)](https://hackmd.io/@bolt/S1wOGzS4q)
 * [Software Engineer (Rust) at Bolt Labs (Remote, US)](https://hackmd.io/@bolt/SknjzfB49)
 
-
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
