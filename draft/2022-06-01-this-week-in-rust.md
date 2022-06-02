@@ -91,6 +91,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [mirrord - extract panics on non-existent directories](https://github.com/metalbear-co/mirrord/issues/53)
+* [mirrord - Support MIRRORD_AGENT_TTL as an argument in the CLI](https://github.com/metalbear-co/mirrord/issues/62)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
