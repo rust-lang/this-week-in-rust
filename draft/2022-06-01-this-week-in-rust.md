@@ -128,7 +128,23 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A good week: The regressions were small; some have follow-up PR's in flight to
+address them; and we saw a big improvement from PR
+[#97345](https://github.com/rust-lang/rust/pull/97345), which adds more fast
+paths for quickly exiting comparisons between two types (such as `BitsImpl<M>`
+and `BitsImpl<N>` for const integers `M` and `N`). This improved compile-times
+for the `bitmaps` benchmark by 50-65% in some cases (including the trunk
+`nalgebra`, according to independent investigation from nnethercote). That same
+PR had more modest improvements (1% to 2%) to the compile-times for a number of
+other crates. Many thanks to lcnr and nnethercote for some excellent work here!
+
+Triage done by **@pnkfelix**.
+Revision range: [43d9f385..0a43923a](https://perf.rust-lang.org/?start=43d9f3859e0204e764161ee085a360274b5f3e9a&end=0a43923a86c3b8f11d005884871b152f59b746f7&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 1 Improvements, 9 Mixed; 0 of them in rollups
+59 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-05-31.md) 
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
