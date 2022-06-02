@@ -31,10 +31,6 @@ and just ask the editors to select the category.
 
 * [Concluding the events of last November](https://blog.rust-lang.org/inside-rust/2022/05/26/Concluding-events-mods.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 
 * [rust-analyzer changelog #131](https://rust-analyzer.github.io/thisweek/2022/05/30/changelog-131.html)
@@ -278,7 +274,7 @@ Rusty Events between 2022-06-01 - 2022-06-29 🦀
     * [**Async Rust and Embedded**](https://www.meetup.com/Rust-Oslo/events/286236751/)
 ### Oceania
 
-* 2022-06-17 | Melbourne, VI, AU | [Rust Melbourne](https://www.meetup.com/Rust-Melbourne/)
+* 2022-06-17 | Melbourne, VIC, AU | [Rust Melbourne](https://www.meetup.com/Rust-Melbourne/)
     * [**June 2022 Meetup**](https://www.meetup.com/Rust-Melbourne/events/285962368/)
 
 If you are running a Rust event please add it to the [calendar] to get
