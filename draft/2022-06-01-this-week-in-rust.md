@@ -59,7 +59,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [pgfplots](https://github.com/DJDuque/pgfplots), a crate to generate publication-quality figures (with or without LaTeX).
+
+Thanks to [Daniel Duque](https://users.rust-lang.org/t/crate-of-the-week/2704/1066) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -78,7 +80,51 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+361 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-05-23..2022-05-30
+
+* [prepare Rust for opaque pointers](https://github.com/rust-lang/rust/pull/94214)
+* [parse expression after `else` as a condition if followed by `{`](https://github.com/rust-lang/rust/pull/97298)
+* [macros: introduce `fluent_messages` macro](https://github.com/rust-lang/rust/pull/97327)
+* [improve error message for E0081](https://github.com/rust-lang/rust/pull/97456)
+* [minor improvement on else-no-if diagnostic](https://github.com/rust-lang/rust/pull/97370)
+* [output correct type responsible for structural match violation](https://github.com/rust-lang/rust/pull/97351)
+* [miri: adjust Miri to also require return places everywhere](https://github.com/rust-lang/miri/pull/2138)
+* [miri: avoid error patterns matching themselves](https://github.com/rust-lang/miri/pull/2158)
+* [miri: enable number validity checking and `ptr::invalid` checking by default](https://github.com/rust-lang/miri/pull/2151)
+* [do writeback of Closure params before visiting the parent expression](https://github.com/rust-lang/rust/pull/97302)
+* [implement `Hash` for `core::alloc::Layout`](https://github.com/rust-lang/rust/pull/97034)
+* [refactor call terminator to always include destination place](https://github.com/rust-lang/rust/pull/96098)
+* [split out the various responsibilities of `rustc_metadata::Lazy`](https://github.com/rust-lang/rust/pull/97291)
+* [try to cache `region_scope_tree` as a query](https://github.com/rust-lang/rust/pull/97383)
+* [add a deep `fast_reject` routine](https://github.com/rust-lang/rust/pull/97345)
+* [extend `ptr::null` and `null_mut` to all thin (including extern) types](https://github.com/rust-lang/rust/pull/94954)
+* [stabilize `cell_filter_map`](https://github.com/rust-lang/rust/pull/97308)
+* [partially stabilize (`const_`)`slice_ptr_len` feature by stabilizing `NonNull::len`](https://github.com/rust-lang/rust/pull/94640)
+* [use rounding instead of truncation in float to Duration conversion methods](https://github.com/rust-lang/rust/pull/96051)
+* [improve case conversion happy path](https://github.com/rust-lang/rust/pull/97046)
+* [rustc: fix ICE in native library error reporting](https://github.com/rust-lang/rust/pull/97328)
+* [codegen\_gcc: Define immutable statics with const qualified types](https://github.com/rust-lang/rustc_codegen_gcc/pull/165)
+* [libcore: add `iter::from_generator` which is like `iter::from_fn`, but for coroutines instead of functions](https://github.com/rust-lang/rust/pull/96298)
+* [builtins: faster float conversion operations](https://github.com/rust-lang/compiler-builtins/pull/464)
+* [clippy: add new lint `unused_rounding`](https://github.com/rust-lang/rust-clippy/pull/8866)
+* [clippy: add `doc_link_with_quotes` lint](https://github.com/rust-lang/rust-clippy/pull/8385)
+* [clippy: new lint about use first() instead of get(0)](https://github.com/rust-lang/rust-clippy/pull/8882)
+* [clippy: new lint `no_effect_replace`](https://github.com/rust-lang/rust-clippy/pull/8754)
+* [clippy: support `Weak` in `rc_clone_in_vec_init`](https://github.com/rust-lang/rust-clippy/pull/8885)
+* [clippy: `get_last_with_len`: lint `VecDeque` and any deref to slice](https://github.com/rust-lang/rust-clippy/pull/8862)
+* [clippy: fix `empty_line_after_outer_attribute` false positive](https://github.com/rust-lang/rust-clippy/pull/8892)
+* [clippy: `identity_op`: add parenthesis to suggestions where required](https://github.com/rust-lang/rust-clippy/pull/8786)
+* [clippy: introduce `allow-dbg-in-tests` config value](https://github.com/rust-lang/rust-clippy/pull/8897)
+* [rust-analyzer: add implicit static lifetime hints](https://github.com/rust-lang/rust-analyzer/pull/12416)
+* [rust-analyzer: generate variant: insert code in file with enum definition](https://github.com/rust-lang/rust-analyzer/pull/12384)
+* [rust-analyzer: fix overflow during type inference for tuple struct patterns](https://github.com/rust-lang/rust-analyzer/pull/12409)
+* [rust-analyzer: correct single-file module rename](https://github.com/rust-lang/rust-analyzer/pull/12387)
+* [rust-analyzer: clear native diagnostics for files when they are deleted](https://github.com/rust-lang/rust-analyzer/pull/12383)
+* [rust-analyzer: retrigger visibility completion after parentheses](https://github.com/rust-lang/rust-analyzer/pull/12412)
+* [rust-analyzer: `f32` and `f64` representation during lowering](https://github.com/rust-lang/rust-analyzer/pull/12395)
+* [rust-analyzer: make `files.excludeDirs` work](https://github.com/rust-lang/rust-analyzer/pull/12341)
 
 ### Rust Compiler Performance Triage
 
@@ -194,7 +240,9 @@ They should be of the form:
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Rust is a perfect language for a dad like me, who every day puts kids to sleep, and tired after long day of work and chores, can sit down and possibly write some code for the hobby open source project, even when he's already just half awake. And it usually just works, tend to be robust and make the day feel extra productive.
+
+– [Dawid Ciężarkiewicz on /r/rust](https://www.reddit.com/r/rust/comments/uxx7w8/this_week_in_rust_444/ia1cwn6)
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
