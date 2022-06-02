@@ -173,7 +173,7 @@ They should be of the form:
 
 **Micropelt**
 
-* [Embedded Engineer (Freiburg, Germany)](http://www.micropelt.com/en/micropelt/jobs)
+* [Embedded Engineer (Freiburg, DE)](http://www.micropelt.com/en/micropelt/jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
