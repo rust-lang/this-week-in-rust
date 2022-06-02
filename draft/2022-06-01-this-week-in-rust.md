@@ -42,9 +42,11 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [Introducing the Ferrocene Language Specification](https://ferrous-systems.com/blog/ferrocene-language-specification/)
+* [The Rust Jobs Market](https://www.rustjobs.com/blog/the-rust-jobs-market.html)
 
 ### Rust Walkthroughs
 
+* [Impl-tools: beyond derive](https://kas-gui.github.io/blog/impl-tools.html)
 * [Introduction to Rust generics (1/2): Traits](https://kerkour.com/rust-generics-traits)
 * [Simple rust interview questions](https://flakm.github.io/posts/rust_interview_questions/)
 * [Profiling heap allocation in rust](https://flakm.github.io/posts/heap_allocation/)
@@ -57,7 +59,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [pgfplots](https://github.com/DJDuque/pgfplots), a crate to generate publication-quality figures (with or without LaTeX).
+
+Thanks to [Daniel Duque](https://users.rust-lang.org/t/crate-of-the-week/2704/1066) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -76,21 +80,111 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+361 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-05-23..2022-05-30
+
+* [prepare Rust for opaque pointers](https://github.com/rust-lang/rust/pull/94214)
+* [parse expression after `else` as a condition if followed by `{`](https://github.com/rust-lang/rust/pull/97298)
+* [macros: introduce `fluent_messages` macro](https://github.com/rust-lang/rust/pull/97327)
+* [improve error message for E0081](https://github.com/rust-lang/rust/pull/97456)
+* [minor improvement on else-no-if diagnostic](https://github.com/rust-lang/rust/pull/97370)
+* [output correct type responsible for structural match violation](https://github.com/rust-lang/rust/pull/97351)
+* [miri: adjust Miri to also require return places everywhere](https://github.com/rust-lang/miri/pull/2138)
+* [miri: avoid error patterns matching themselves](https://github.com/rust-lang/miri/pull/2158)
+* [miri: enable number validity checking and `ptr::invalid` checking by default](https://github.com/rust-lang/miri/pull/2151)
+* [do writeback of Closure params before visiting the parent expression](https://github.com/rust-lang/rust/pull/97302)
+* [implement `Hash` for `core::alloc::Layout`](https://github.com/rust-lang/rust/pull/97034)
+* [refactor call terminator to always include destination place](https://github.com/rust-lang/rust/pull/96098)
+* [split out the various responsibilities of `rustc_metadata::Lazy`](https://github.com/rust-lang/rust/pull/97291)
+* [try to cache `region_scope_tree` as a query](https://github.com/rust-lang/rust/pull/97383)
+* [add a deep `fast_reject` routine](https://github.com/rust-lang/rust/pull/97345)
+* [extend `ptr::null` and `null_mut` to all thin (including extern) types](https://github.com/rust-lang/rust/pull/94954)
+* [stabilize `cell_filter_map`](https://github.com/rust-lang/rust/pull/97308)
+* [partially stabilize (`const_`)`slice_ptr_len` feature by stabilizing `NonNull::len`](https://github.com/rust-lang/rust/pull/94640)
+* [use rounding instead of truncation in float to Duration conversion methods](https://github.com/rust-lang/rust/pull/96051)
+* [improve case conversion happy path](https://github.com/rust-lang/rust/pull/97046)
+* [rustc: fix ICE in native library error reporting](https://github.com/rust-lang/rust/pull/97328)
+* [codegen\_gcc: Define immutable statics with const qualified types](https://github.com/rust-lang/rustc_codegen_gcc/pull/165)
+* [libcore: add `iter::from_generator` which is like `iter::from_fn`, but for coroutines instead of functions](https://github.com/rust-lang/rust/pull/96298)
+* [builtins: faster float conversion operations](https://github.com/rust-lang/compiler-builtins/pull/464)
+* [clippy: add new lint `unused_rounding`](https://github.com/rust-lang/rust-clippy/pull/8866)
+* [clippy: add `doc_link_with_quotes` lint](https://github.com/rust-lang/rust-clippy/pull/8385)
+* [clippy: new lint about use first() instead of get(0)](https://github.com/rust-lang/rust-clippy/pull/8882)
+* [clippy: new lint `no_effect_replace`](https://github.com/rust-lang/rust-clippy/pull/8754)
+* [clippy: support `Weak` in `rc_clone_in_vec_init`](https://github.com/rust-lang/rust-clippy/pull/8885)
+* [clippy: `get_last_with_len`: lint `VecDeque` and any deref to slice](https://github.com/rust-lang/rust-clippy/pull/8862)
+* [clippy: fix `empty_line_after_outer_attribute` false positive](https://github.com/rust-lang/rust-clippy/pull/8892)
+* [clippy: `identity_op`: add parenthesis to suggestions where required](https://github.com/rust-lang/rust-clippy/pull/8786)
+* [clippy: introduce `allow-dbg-in-tests` config value](https://github.com/rust-lang/rust-clippy/pull/8897)
+* [rust-analyzer: add implicit static lifetime hints](https://github.com/rust-lang/rust-analyzer/pull/12416)
+* [rust-analyzer: generate variant: insert code in file with enum definition](https://github.com/rust-lang/rust-analyzer/pull/12384)
+* [rust-analyzer: fix overflow during type inference for tuple struct patterns](https://github.com/rust-lang/rust-analyzer/pull/12409)
+* [rust-analyzer: correct single-file module rename](https://github.com/rust-lang/rust-analyzer/pull/12387)
+* [rust-analyzer: clear native diagnostics for files when they are deleted](https://github.com/rust-lang/rust-analyzer/pull/12383)
+* [rust-analyzer: retrigger visibility completion after parentheses](https://github.com/rust-lang/rust-analyzer/pull/12412)
+* [rust-analyzer: `f32` and `f64` representation during lowering](https://github.com/rust-lang/rust-analyzer/pull/12395)
+* [rust-analyzer: make `files.excludeDirs` work](https://github.com/rust-lang/rust-analyzer/pull/12341)
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A good week: The regressions were small; some have follow-up PR's in flight to
+address them; and we saw a big improvement from PR
+[#97345](https://github.com/rust-lang/rust/pull/97345), which adds more fast
+paths for quickly exiting comparisons between two types (such as `BitsImpl<M>`
+and `BitsImpl<N>` for const integers `M` and `N`). This improved compile-times
+for the `bitmaps` benchmark by 50-65% in some cases (including the trunk
+`nalgebra`, according to independent investigation from nnethercote). That same
+PR had more modest improvements (1% to 2%) to the compile-times for a number of
+other crates. Many thanks to lcnr and nnethercote for some excellent work here!
 
-### Call for Testing
+Triage done by **@pnkfelix**.
+Revision range: [43d9f385..0a43923a](https://perf.rust-lang.org/?start=43d9f3859e0204e764161ee085a360274b5f3e9a&end=0a43923a86c3b8f11d005884871b152f59b746f7&absolute=false&stat=instructions%3Au)
 
+3 Regressions, 1 Improvements, 9 Mixed; 0 of them in rollups
+59 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-05-31.md) 
+
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* *No RFCs issued a call for testing this week.*
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
+
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* [Allow using for<'a> syntax when declaring closures](https://github.com/rust-lang/rfcs/pull/3216)
+* [Create a types team](https://github.com/rust-lang/rfcs/pull/3254)
+
+### Final Comment Period
+
+Every week [the team](https://www.rust-lang.org/team.html) announces the
+'final comment period' for RFCs and key PRs which are reaching a
+decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* *No RFCs entered Final Comment Period this week.*
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: merge] [Tracking Issue for scoped threads](https://github.com/rust-lang/rust/issues/93203)
+* [disposition: merge] [Put a bound on collection misbehavior](https://github.com/rust-lang/rust/pull/97316)
+* [disposition: merge] [Tracking Issue for RFC 3128: I/O Safety](https://github.com/rust-lang/rust/issues/87074)
+* [disposition: merge] [Lang: Stabilize usage of rustc_nonnull_optimization_guaranteed on -1](https://github.com/rust-lang/rust/issues/97122)
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* [notice] [Mention about removal of crate visibility specifier](https://github.com/rust-lang/rfcs/pull/3273)
 
 ## Upcoming Events
 
@@ -188,15 +282,22 @@ They should be of the form:
 
 -->
 
+
 **Quickwit**
 
 * [Senior Software Engineer, Rust & distributed systems (Remote, European/Asian time zones)](https://quickwit.io/jobs/distributed-software-engineer)
+
+**Micropelt**
+
+* [Embedded Engineer (Freiburg, DE)](http://www.micropelt.com/en/micropelt/jobs)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Rust is a perfect language for a dad like me, who every day puts kids to sleep, and tired after long day of work and chores, can sit down and possibly write some code for the hobby open source project, even when he's already just half awake. And it usually just works, tend to be robust and make the day feel extra productive.
+
+– [Dawid Ciężarkiewicz on /r/rust](https://www.reddit.com/r/rust/comments/uxx7w8/this_week_in_rust_444/ia1cwn6)
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
