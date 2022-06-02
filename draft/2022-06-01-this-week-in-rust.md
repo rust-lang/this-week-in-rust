@@ -29,33 +29,50 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Concluding the events of last November](https://blog.rust-lang.org/inside-rust/2022/05/26/Concluding-events-mods.html)
+
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
 
+* [rust-analyzer changelog #131](https://rust-analyzer.github.io/thisweek/2022/05/30/changelog-131.html)
 * [Helix editor 22.05 released](https://helix-editor.com/news/release-22-05-highlights/)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-05-30.html)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W21](https://www.fornjot.app/blog/weekly-dev-log/2022-w21/)
+* [IntelliJ Rust Changelog #171](https://intellij-rust.github.io/2022/05/30/changelog-171.html)
 
 ### Observations/Thoughts
 
 * [Introducing the Ferrocene Language Specification](https://ferrous-systems.com/blog/ferrocene-language-specification/)
 * [The Rust Jobs Market](https://www.rustjobs.com/blog/the-rust-jobs-market.html)
+* [video] [Rust makes you feel like a GENIUS](https://www.youtube.com/watch?v=0rJ94rbdteE)
+* [audio] [This Week in Rust Issue 443](https://rustacean-station.org/episode/twir-443/)
 
 ### Rust Walkthroughs
 
 * [Impl-tools: beyond derive](https://kas-gui.github.io/blog/impl-tools.html)
 * [Introduction to Rust generics (1/2): Traits](https://kerkour.com/rust-generics-traits)
+* [Builder Lite](https://matklad.github.io/2022/05/29/builder-lite.html)
+* [The curse of strong typing](https://fasterthanli.me/articles/the-curse-of-strong-typing)
 * [Simple rust interview questions](https://flakm.github.io/posts/rust_interview_questions/)
 * [Profiling heap allocation in rust](https://flakm.github.io/posts/heap_allocation/)
 * [Arc and Mutex in Rust](https://itsallaboutthebit.com/arc-mutex/)
 * [How I speeded up my Rust builds on GitHub ~30 times](https://ectobit.com/blog/speed-up-github-actions-rust-pipelines/)
+* [Some notes on internal working of profiler](https://inspektor.cloud/blog/how-profiler-works/)
+* [Rewriting the lexer benchmark in Rust ](https://eli.thegreenplace.net/2022/rewriting-the-lexer-benchmark-in-rust/)
+* [Parallel programming design with BipBuffer](https://dev-random.io/parallel-programming-with-bip-buffer/)
+* [A Neophyte's Introduction to the async/await landscape in Rust](https://www.geekabyte.io/2022/05/a-neophytes-introduction-to-asyncawait.html)
+
 
 ### Research
 
+* [Hardware/Software Co-Assurance using the Rust Programming Language and ACL2](https://arxiv.org/abs/2205.11709)
+
 ### Miscellaneous
+
+* [RustConf 2022 Presentation Schedule](https://rustconf.com/schedule)
 
 ## Crate of the Week
 
@@ -281,7 +298,6 @@ They should be of the form:
 * [Job Title (Location)](https://example.com/my-job-link)
 
 -->
-
 
 **Quickwit**
 
