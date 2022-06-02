@@ -31,10 +31,6 @@ and just ask the editors to select the category.
 
 * [Concluding the events of last November](https://blog.rust-lang.org/inside-rust/2022/05/26/Concluding-events-mods.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 
 * [rust-analyzer changelog #131](https://rust-analyzer.github.io/thisweek/2022/05/30/changelog-131.html)
@@ -90,6 +86,9 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [mirrord - extract panics on non-existent directories](https://github.com/metalbear-co/mirrord/issues/53)
+* [mirrord - Support MIRRORD_AGENT_TTL as an argument in the CLI](https://github.com/metalbear-co/mirrord/issues/62)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -275,7 +274,7 @@ Rusty Events between 2022-06-01 - 2022-06-29 🦀
     * [**Async Rust and Embedded**](https://www.meetup.com/Rust-Oslo/events/286236751/)
 ### Oceania
 
-* 2022-06-17 | Melbourne, VI, AU | [Rust Melbourne](https://www.meetup.com/Rust-Melbourne/)
+* 2022-06-17 | Melbourne, VIC, AU | [Rust Melbourne](https://www.meetup.com/Rust-Melbourne/)
     * [**June 2022 Meetup**](https://www.meetup.com/Rust-Melbourne/events/285962368/)
 
 If you are running a Rust event please add it to the [calendar] to get
@@ -299,6 +298,10 @@ They should be of the form:
 
 -->
 
+**Element**
+
+* [Software Engineer - VoIP (Go/Rust) (Remote)](https://apply.workable.com/elementio/j/5BD58AFB6F/)
+
 **Quickwit**
 
 * [Senior Software Engineer, Rust & distributed systems (Remote, European/Asian time zones)](https://quickwit.io/jobs/distributed-software-engineer)
@@ -306,6 +309,24 @@ They should be of the form:
 **Micropelt**
 
 * [Embedded Engineer (Freiburg, DE)](http://www.micropelt.com/en/micropelt/jobs)
+
+**Stockly**
+
+* [Back-end developer (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly/jobs/back-end-developer-rust-grpc-postgresql_paris)
+
+**Audiotool**
+
+* [Rust / Audio DSP Developer](https://www.audiotool.com/jobs#rust-audio-dsp-developer)
+
+**Zcash Foundation**
+
+* [Core Engineer (Remote)](https://cryptojobslist.com/jobs/core-engineer-zcash-foundation-no-restrictions)
+
+**Bolt Labs**
+
+* [Cryptographic Engineer at Bolt Labs (Remote, US)](https://hackmd.io/@bolt/H1gYR6NEq)
+* [Senior Software Engineer (Rust) at Bolt Labs (Remote, US)](https://hackmd.io/@bolt/S1wOGzS4q)
+* [Software Engineer (Rust) at Bolt Labs (Remote, US)](https://hackmd.io/@bolt/SknjzfB49)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
