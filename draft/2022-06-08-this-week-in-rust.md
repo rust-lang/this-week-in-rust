@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video][Async I/O in Depth: Creating a High Performance HTTP Web Server in Rust (Part 1)](https://youtu.be/fdxhcDne2Ww)
+
 ### Research
 
 ### Miscellaneous
