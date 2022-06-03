@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Web Scraping with Rust](https://www.scrapingbee.com/blog/web-scraping-rust/)
+
 ### Research
 
 ### Miscellaneous
