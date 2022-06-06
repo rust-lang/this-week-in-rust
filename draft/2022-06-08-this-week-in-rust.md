@@ -180,6 +180,10 @@ They should be of the form:
 
 -->
 
+**Meilisearch**
+
+* [Senior Software Engineer (Remote, European timezone)](https://jobs.lever.co/meili/5b9f780a-0c80-41a7-aba0-bd86834e6823?lever-origin=applied&lever-source%5B%5D=this%20week%20in%20rust)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
