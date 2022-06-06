@@ -41,9 +41,9 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-* [video] [Async I/O in Depth: Creating a High Performance HTTP Web Server in Rust (Part 1)](https://www.youtube.com/watch?v=fdxhcDne2Ww)
 * [Beginner-Intermediate Errror Handling in Rust](https://desmondwillowbrook.github.io/blog/rust-error-handling/)
 * [The entrait pattern](https://audunhalland.github.io/blog/entrait-pattern/)
+* [video] [Async I/O in Depth: Creating a High Performance HTTP Web Server in Rust (Part 1)](https://www.youtube.com/watch?v=fdxhcDne2Ww)
 
 ### Research
 
