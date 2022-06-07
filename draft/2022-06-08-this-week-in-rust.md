@@ -76,15 +76,43 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 <!-- Perf results go here -->
 
-### Call for Testing
-
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* [RFC: 'C-unwind' ABI](https://github.com/rust-lang/rfcs/pull/2945)
+    * [Testing instructions](https://github.com/rust-lang/rfcs/pull/2945#issuecomment-1134003542)
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
+
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* *No RFCs were approved this week.*
+
+### Final Comment Period
+
+Every week [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
+which are reaching a decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* [Rolling co-lead roles for T-compiler](https://github.com/rust-lang/rfcs/pull/3262)
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: merge] [Make {Mutex, Condvar, RwLock}::new() const. ](https://github.com/rust-lang/rust/pull/97791)
+* [disposition: merge] [Make std::mem::needs_drop accept ?Sized](https://github.com/rust-lang/rust/pull/97675)
+* [disposition: merge] [Tracking Issue for scoped threads](https://github.com/rust-lang/rust/issues/93203)
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* *No New or Updated RFCs were created this week.*
 
 ## Upcoming Events
 
