@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [This week in Databend #44: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-06-01-databend-weekly/)
+* [Zellij 0.30.0: use your $EDITOR to search and save your scrollback](https://zellij.dev/news/edit-scrollback-compact/)
 
 ### Observations/Thoughts
 
