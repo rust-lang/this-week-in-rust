@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [This week in Databend #44: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-06-01-databend-weekly/)
+* [This week in Fluvio #35: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0035/)
 
 ### Observations/Thoughts
 
