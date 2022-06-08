@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Introduction to Rust generics (2/2): Trait Objects - Static vs Dynamic dispatch](https://kerkour.com/rust-generics-trait-objects)
 * [Beginner-Intermediate Errror Handling in Rust](https://desmondwillowbrook.github.io/blog/rust-error-handling/)
 * [The entrait pattern](https://audunhalland.github.io/blog/entrait-pattern/)
 * [Web Scraping with Rust](https://www.scrapingbee.com/blog/web-scraping-rust/)
