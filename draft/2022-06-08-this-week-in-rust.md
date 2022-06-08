@@ -29,29 +29,50 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Rust Compiler June 2022 Steering Cycle](https://blog.rust-lang.org/inside-rust/2022/06/03/jun-steering-cycle.html)
+
 ### Foundation
 
 ### Newsletters
 
+* [This Month in Rust GameDev #34 - May 2022](https://gamedev.rs/news/034/)
+
 ### Project/Tooling Updates
 
+* [rust-analyzer changelog #132](https://rust-analyzer.github.io/thisweek/2022/06/06/changelog-132.html)
 * [This week in Databend #44: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-06-01-databend-weekly/)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-06-06.html)
 * [This week in Fluvio #35: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0035/)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W22](https://www.fornjot.app/blog/weekly-dev-log/2022-w22/)
+* [GCC Rust Monthly Report #17 May 2022](https://thephilbert.io/2022/06/06/gcc-rust-monthly-report-17-may-2022/)
 
 ### Observations/Thoughts
+
+* [Stacked Futures and why they are impossible](https://conradludgate.com/posts/async-stack)
+* [Rust Is Hard, Or: The Misery of Mainstream Programming](https://hirrolot.github.io/posts/rust-is-hard-or-the-misery-of-mainstream-programming.html)
+* [Trivia About Rust Types: An (Authorized) Transcription of Jon Gjengset’s Twitter Thread](https://www.thecodedmessage.com/posts/trivia-rust-types/)
+* [Hyper vs Rocket - Low Level vs Batteries included](https://www.shuttle.rs/blog/2022/06/01/hyper-vs-rocket)
+* [(async) Rust doesn't have to be hard](https://itsallaboutthebit.com/async-simple/)
+* [Rust language’s explosive popularity comes with challenges](https://thestack.technology/rust-language-explosive-growth-challenges-rust-governance/)
+* [audio] [egui with Emil Ernerfeldt](https://rustacean-station.org/episode/emil-ernerfeldt/)
 
 ### Rust Walkthroughs
 
 * [Introduction to Rust generics (2/2): Trait Objects - Static vs Dynamic dispatch](https://kerkour.com/rust-generics-trait-objects)
 * [Beginner-Intermediate Errror Handling in Rust](https://desmondwillowbrook.github.io/blog/rust-error-handling/)
+* [Macro Patterns - A match made in heaven](https://conradludgate.com/posts/macros_match)
+* [Using the Kani Rust Verifier on a Rust Standard Library CVE](https://model-checking.github.io/kani-verifier-blog/2022/06/01/using-the-kani-rust-verifier-on-a-rust-standard-library-cve.html)
 * [The entrait pattern](https://audunhalland.github.io/blog/entrait-pattern/)
 * [Web Scraping with Rust](https://www.scrapingbee.com/blog/web-scraping-rust/)
+* [Logan Keenan - A Rust Server App Compiled to WASM as an SPA](https://logankeenan.com/posts/a-rust-server-app-compiled-to-wasm-as-an-spa/)
 * [video] [Async I/O in Depth: Creating a High Performance HTTP Web Server in Rust (Part 1)](https://www.youtube.com/watch?v=fdxhcDne2Ww)
 * [video] [Stream Ingestion with Kafka & Kinesis](https://www.youtube.com/watch?v=05pS-m6iuQ4)
+* [video] [is salvo really the simplest rust web framework?](https://www.youtube.com/watch?v=tf9x97eTcpk)
+* [video] [Rust wgpu Graphics Programming Tutorial](https://www.youtube.com/playlist?list=PL_UrKDEhALdJS0VrLPn7dqC5A4W1vCAUT)
 
 ### Research
+
+* [End-to-End Security for Distributed Event-Driven Enclave Applications on Heterogeneous TEEs](https://arxiv.org/abs/2206.01041)
 
 ### Miscellaneous
 
