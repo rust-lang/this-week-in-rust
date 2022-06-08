@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 
 * [This week in Databend #44: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-06-01-databend-weekly/)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-06-06.html)
+* [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W22](https://www.fornjot.app/blog/weekly-dev-log/2022-w22/)
 
 ### Observations/Thoughts
 
