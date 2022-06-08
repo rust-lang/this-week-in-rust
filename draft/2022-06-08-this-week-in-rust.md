@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 * [Beginner-Intermediate Errror Handling in Rust](https://desmondwillowbrook.github.io/blog/rust-error-handling/)
 * [The entrait pattern](https://audunhalland.github.io/blog/entrait-pattern/)
 * [video] [Async I/O in Depth: Creating a High Performance HTTP Web Server in Rust (Part 1)](https://www.youtube.com/watch?v=fdxhcDne2Ww)
+* [Web Scraping with Rust](https://www.scrapingbee.com/blog/web-scraping-rust/)
 
 ### Research
 
