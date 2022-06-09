@@ -109,7 +109,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [add unicode fast path to `is_printable`](https://github.com/rust-lang/rust/pull/97526)
 * [additional `*mut [T]` methods](https://github.com/rust-lang/rust/pull/95594)
 * [expose `get_many_mut` and `get_many_unchecked_mut` to `HashMap`](https://github.com/rust-lang/rust/pull/94647)
-* [implement `[OsStr]::join`](https://github.com/rust-lang/rust/pull/96881)
+* [implement `[OsStr]::join`](https://github.com/rust-lang/rust/pull/96881) &nbsp;
 * [make `from{,_mut}_ptr_range` const](https://github.com/rust-lang/rust/pull/97419)
 * [stabilize `box_into_pin`](https://github.com/rust-lang/rust/pull/97397)
 * [stabilize `toowned_clone_into`](https://github.com/rust-lang/rust/pull/97455)
