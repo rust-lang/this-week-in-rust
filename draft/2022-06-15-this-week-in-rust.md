@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Qdrant - v0.8.0 update of the Qdrant engine was released](https://qdrant.tech/blog/qdrant-0-8-0-released/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
