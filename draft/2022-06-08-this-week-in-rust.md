@@ -80,7 +80,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A busy week in compiler performance, but fortunately improvements outweighed regressions. The biggest improvements came from @nnethercote's work on making the decoding of `SourceFile::lines` lazy which significantly cuts the costs of decoding crate metadata. The biggest regressions came from the removal of json handling in `rustc_serialize` which has been a multi-month effort to improve the maintainability of json (de-)serialization in the compiler.
+
+Triage done by **@rylev**.
+Revision range: [0a43923a..bb55bd](https://perf.rust-lang.org/?start=0a43923a86c3b8f11d005884871b152f59b746f7&end=bb55bd449e65e611da928560d948982d73e50027&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+|            | mean | max | count |
+|:----------:|:----:|:---:|:-----:|
+| Regressions 😿 <br /> (primary) | 0.5% | 3.2% | 36    |
+| Regressions 😿 <br /> (secondary) | 0.3% | 0.9% | 15    |
+| Improvements 🎉 <br /> (primary) | -1.3% | -15.1% | 124   |
+| Improvements 🎉 <br /> (secondary) | -2.7% | -13.5% | 182   |
+| All 😿🎉 (primary) | -0.9% | -15.1% | 160   |
+
+
+2 Regression, 6 Improvements, 5 Mixed; 4 of them in rollups
+48 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-06-07.md)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
