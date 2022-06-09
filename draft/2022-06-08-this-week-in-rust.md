@@ -95,6 +95,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [mirrord - Handle Job/Pod creation errors in mirrord-layer](https://github.com/metalbear-co/mirrord/issues/112)
+* [mirrord - mirrord-layer panics without any relevant info if the agent exits](https://github.com/metalbear-co/mirrord/issues/110)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -360,6 +363,28 @@ They should be of the form:
 **Meilisearch**
 
 * [Senior Software Engineer (Remote, European timezone)](https://jobs.lever.co/meili/5b9f780a-0c80-41a7-aba0-bd86834e6823)
+
+**Stockly**
+
+* [Back-end developer - Engine (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly/jobs/back-end-developer-engine-team-rust-grpc-postgresql_paris)
+
+**Nikulipe**
+
+* [Software Engineer – Full Stack Rust (Vilnius, Vilniaus, LT)](https://www.linkedin.com/jobs/view/3107060725/)
+
+**GMEX Group**
+
+* [Senior Blockchain MPC Developer / Blockchain MPC Developer (Various, Remote)](https://www.linkedin.com/jobs/view/3099462018/)
+
+**Enso**
+
+* [Senior Rust IDE Developer (Kraków, PL or Remote)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-ide-developer.md)
+* [Senior Cloud Rust Engineer (Kraków, PL or Remote)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-cloud-developer.md)
+
+**Kraken**
+
+* [Backend Engineer, Kraken Futures - Rust (Remote)](https://jobs.lever.co/kraken/fe1e07f4-6d7c-4f65-9a8f-27cf3b3fd2b1)
+* [Backend Engineer - Rust - Core Backend (Remote)](https://jobs.lever.co/kraken/4019a818-4a7b-46ef-9225-c53c7a7f238c)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
