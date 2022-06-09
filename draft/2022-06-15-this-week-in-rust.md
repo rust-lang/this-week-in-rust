@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Tidy up your Rust imports with a prelude.rs](https://justinwoodring.com/blog/tidy-your-rust-imports-with-prelude/)
+
 ### Research
 
 ### Miscellaneous
