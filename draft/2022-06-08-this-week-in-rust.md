@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-06-06.html)
 * [This week in Fluvio #35: the programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0035/)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W22](https://www.fornjot.app/blog/weekly-dev-log/2022-w22/)
+* [Zellij 0.30.0: use your $EDITOR to search and save your scrollback](https://zellij.dev/news/edit-scrollback-compact/)
 
 ### Observations/Thoughts
 
