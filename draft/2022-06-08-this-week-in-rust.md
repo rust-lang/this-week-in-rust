@@ -223,6 +223,10 @@ They should be of the form:
 
 -->
 
+**Spire Global**
+
+* [Software Engineers + Engineering Managers (Glasgow, UK, Luxembourg - Relocation Available)](https://spire.com/careers/job-openings/job/?gh_jid=4226230)
+
 **Meilisearch**
 
 * [Senior Software Engineer (Remote, European timezone)](https://jobs.lever.co/meili/5b9f780a-0c80-41a7-aba0-bd86834e6823)
