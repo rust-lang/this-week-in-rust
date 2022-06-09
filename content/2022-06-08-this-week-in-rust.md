@@ -31,8 +31,6 @@ and just ask the editors to select the category.
 
 * [Rust Compiler June 2022 Steering Cycle](https://blog.rust-lang.org/inside-rust/2022/06/03/jun-steering-cycle.html)
 
-### Foundation
-
 ### Newsletters
 
 * [This Month in Rust GameDev #34 - May 2022](https://gamedev.rs/news/034/)
