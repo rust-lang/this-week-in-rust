@@ -95,6 +95,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [mirrord - Handle Job/Pod creation errors in mirrord-layer](https://github.com/metalbear-co/mirrord/issues/112)
+* [mirrord - mirrord-layer panics without any relevant info if the agent exits](https://github.com/metalbear-co/mirrord/issues/110)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
