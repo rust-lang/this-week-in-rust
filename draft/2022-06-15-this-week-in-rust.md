@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 
 * [Caches In Rust](https://matklad.github.io/2022/06/11/caches-in-rust.html)
 * [video] [Async I/O in Depth: State Machines, Event Loops and Non-Blocking I/O System Calls in Rust (Part 2)](https://www.youtube.com/watch?v=_3LpJ6I-tzc)
+* [video] [Crust of Rust: Send, Sync, and their implementors](https://www.youtube.com/watch?v=yOezcP-XaIw)
 
 ### Research
 
