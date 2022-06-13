@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Local Async Executors and Why They Should be the Default](https://maciej.codes/2022-06-09-local-async.html)
+
 ### Rust Walkthroughs
 
 * [Caches In Rust](https://matklad.github.io/2022/06/11/caches-in-rust.html)
