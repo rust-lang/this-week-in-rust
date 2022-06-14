@@ -73,15 +73,49 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 <!-- Perf results go here -->
 
-### Call for Testing
-
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* *No RFCs issued a call for testing this week.*
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
+
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* [RFC: Add a process_group method to UNIX CommandExt](https://github.com/rust-lang/rfcs/pull/3228)
+
+### Final Comment Period
+
+Every week [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
+which are reaching a decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* *No RFCs entered Final Comment Period this week.*
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: merge] [Document Rust's stance on /proc/self/mem](https://github.com/rust-lang/rust/pull/97837)
+* [disposition: merge] [lub: don't bail out due to empty binders](https://github.com/rust-lang/rust/pull/97867)
+* [disposition: merge] [Impl Termination for Infallible and then make the Result impls of Termination into a blanket](https://github.com/rust-lang/rust/pull/97803)
+* [disposition: merge] [Partial stabilization of "nonzero_checked_ops".](https://github.com/rust-lang/rust/pull/97547)
+* [disposition: close] [Tracking issue for RFC 2514, "Union initialization and Drop"](https://github.com/rust-lang/rust/issues/55149)
+* [disposition: merge] [Stabilize `Path::try_exists()` and improve doc](https://github.com/rust-lang/rust/pull/97912)
+* [disposition: merge] [`impl<T: AsRawFd> AsRawFd for {Arc,Box}<T>`](https://github.com/rust-lang/rust/pull/97437)
+* [disposition: merge] [os str capacity documentation](https://github.com/rust-lang/rust/pull/97202)
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* [new] [Cargo and Rustup safe file discovery.](https://github.com/rust-lang/rfcs/pull/3279)
+* [new] [Mention infer_static_outlives_requirements removal](https://github.com/rust-lang/rfcs/pull/3278)
+* [updated] [Mention de-approval of `cfg(target = "...")`](https://github.com/rust-lang/rfcs/pull/3276)
 
 ## Upcoming Events
 
