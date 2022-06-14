@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Carcinisation of mirrord (or: why we use Rust)](https://metalbear.co/blog/carcinisation-of-mirrord-or-why-we-use-rust/)
 
 ### Observations/Thoughts
 
