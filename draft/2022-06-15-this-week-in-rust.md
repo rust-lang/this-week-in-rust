@@ -98,7 +98,7 @@ Rusty Events between 2022-06-15 - 2022-07-13 🦀
 * 2022-06-20 | Köln, DE | [Rust Cologne](https://www.meetup.com/rustcologne/)
     * [**Reboot**](https://www.meetup.com/rustcologne/events/286557151/)
 * 2022-06-21 | Berlin, DE | [Berline.rs](https://berline.rs/)
-    * [** Rust Hack and Learn**](https://berline.rs/2022/06/21/rust-hack-and-learn.html)
+    * [**Rust Hack and Learn**](https://berline.rs/2022/06/21/rust-hack-and-learn.html)
 * 2022-06-21 | Washington, DC, US | [Rust DC](https://www.meetup.com/RustDC/)
     * [**Mid-month Rustful**](https://www.meetup.com/RustDC/events/vdhxgsydcjbcc/)
 * 2022-06-28 | Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
