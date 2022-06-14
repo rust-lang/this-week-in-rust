@@ -38,10 +38,10 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
 * [Caches In Rust](https://matklad.github.io/2022/06/11/caches-in-rust.html)
-* [video] [Async I/O in Depth: State Machines, Event Loops and Non-Blocking I/O System Calls in Rust (Part 2)](https://www.youtube.com/watch?v=_3LpJ6I-tzc)
 * [Tidy up your Rust imports with a prelude.rs](https://justinwoodring.com/blog/tidy-your-rust-imports-with-prelude/)
+* [Hitchikers guide to Lunatic TCP Servers in 🦀](https://missmissm.medium.com/hitchikers-guide-to-lunatic-tcp-servers-in-ae44258750f1)
+* [video] [Async I/O in Depth: State Machines, Event Loops and Non-Blocking I/O System Calls in Rust (Part 2)](https://www.youtube.com/watch?v=_3LpJ6I-tzc)
 
 ### Research
 
