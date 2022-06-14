@@ -93,7 +93,7 @@ Rusty Events between 2022-06-15 - 2022-07-13 🦀
     * [**Remote Book Club: Rust for Rustaceans Chapter Discussion**](https://www.meetup.com/RustPhilly/events/qkbktsydcjbtb/)
 * 2022-06-15 | Vancouver, BC, CA | [Vancouver Rust](https://www.meetup.com/Vancouver-Rust/)
     * [**Nushell**](https://www.meetup.com/Vancouver-Rust/events/nwcmpsydcjbtb/)
-* 2022-06-17 [Tehran, IR] | [Rust Iran Meetup](https://rust-meetup.ir/)
+* 2022-06-17 | Tehran, IR | [Rust Iran Meetup](https://rust-meetup.ir/)
     * [**Rust Iran Meetup #7 - Actix-Web Framework**](https://rust-meetup.ir/2022/06/17/seventh-meetup.html)
 * 2022-06-20 | Köln, DE | [Rust Cologne](https://www.meetup.com/rustcologne/)
     * [**Reboot**](https://www.meetup.com/rustcologne/events/286557151/)
