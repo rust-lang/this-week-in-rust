@@ -34,13 +34,13 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W23](https://www.fornjot.app/blog/weekly-dev-log/2022-w23/)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-06-13.html)
 
 ### Observations/Thoughts
 
 * [Local Async Executors and Why They Should be the Default](https://maciej.codes/2022-06-09-local-async.html)
+* [Carcinisation of mirrord (or: why we use Rust)](https://metalbear.co/blog/carcinisation-of-mirrord-or-why-we-use-rust/)
 
 ### Rust Walkthroughs
 * [Caches In Rust](https://matklad.github.io/2022/06/11/caches-in-rust.html)
