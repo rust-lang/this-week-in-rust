@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 
 * [Local Async Executors and Why They Should be the Default](https://maciej.codes/2022-06-09-local-async.html)
 * [Carcinisation of mirrord (or: why we use Rust)](https://metalbear.co/blog/carcinisation-of-mirrord-or-why-we-use-rust/)
+* [Async Cancellation: A case study of pub-sub in mini-redis](https://smallcultfollowing.com/babysteps/blog/2022/06/13/async-cancellation-a-case-study-of-pub-sub-in-mini-redis/)
 
 ### Rust Walkthroughs
 * [Caches In Rust](https://matklad.github.io/2022/06/11/caches-in-rust.html)
