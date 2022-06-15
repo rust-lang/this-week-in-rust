@@ -235,6 +235,9 @@ They should be of the form:
 * [Job Title (Location)](https://example.com/my-job-link)
 
 -->
+** Kollider **
+
+* [Junior Backend Engineer (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
 
 **Disney**
 
