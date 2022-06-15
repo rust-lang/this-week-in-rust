@@ -185,8 +185,7 @@ They should be of the form:
 
 **Disney**
 
-* [Senior Software Engineer (Seattle,NYC,SF Bay Area, FT Remote)](https://jobs.disneycareers.com/job/seattle/senior-software-engineer/391/30162448528)
-
+* [Senior Software Engineer (Seattle, WA, US, New York, NY, US, San Francisco Bay Area, CA, US, FT Remote)](https://jobs.disneycareers.com/job/seattle/senior-software-engineer/391/30162448528)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
