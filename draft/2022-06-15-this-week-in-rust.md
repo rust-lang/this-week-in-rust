@@ -48,7 +48,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [dxf-rs](https://github.com/IxMilia/dxf-rs), a library to parse AutoCAD files.
+
+Thanks to [cosj](https://users.rust-lang.org/t/crate-of-the-week/2704/1067) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -67,7 +69,61 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+368 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-06-06..2022-06-13
+
+* [add support for emitting functions with `coldcc` to LLVM](https://github.com/rust-lang/rust/pull/97512)
+* [allow unstable items to be re-exported unstably without requiring the feature be enabled](https://github.com/rust-lang/rust/pull/97301)
+* [don't suggest adding `let` in certain `if` conditions](https://github.com/rust-lang/rust/pull/97856)
+* [fix ICEs from zsts within unsized types with non-zero offsets](https://github.com/rust-lang/rust/pull/97738)
+* [fix precise field capture of univariant enums](https://github.com/rust-lang/rust/pull/97325)
+* [never regard macro rules with `compile_error!` invocations as unused](https://github.com/rust-lang/rust/pull/97903)
+* [use more targeted suggestion when confusing i8 with std::i8](https://github.com/rust-lang/rust/pull/97845)
+* [`ValuePairs::PolyTraitRefs` should be called "trait"s in type error diagnostics](https://github.com/rust-lang/rust/pull/98012)
+* [use precise spans for recursive const evaluation](https://github.com/rust-lang/rust/pull/97740)
+* [suggest escaping `box` as identifier](https://github.com/rust-lang/rust/pull/97857)
+* [suggest to swap a struct and a trait in trait impls](https://github.com/rust-lang/rust/pull/97812)
+* [suggest using `iter()` or `into_iter()` for `Vec`](https://github.com/rust-lang/rust/pull/97871)
+* [tidy up miscellaneous bounds suggestions](https://github.com/rust-lang/rust/pull/97778)
+* [cleanup bound variable handling](https://github.com/rust-lang/rust/pull/97648)
+* [do not introduce bindings for types and consts in higher-ranked trait bounds](https://github.com/rust-lang/rust/pull/97927)
+* [folding revamp](https://github.com/rust-lang/rust/pull/97447)
+* [make `Encodable` and `Encoder` infallible](https://github.com/rust-lang/rust/pull/94732)
+* [re-use the type op instead of calling the `implied_outlives_bounds` query directly](https://github.com/rust-lang/rust/pull/97081)
+* [remove redundant calls to `reserve` in `impl Write for VecDeque`](https://github.com/rust-lang/rust/pull/97922)
+* [remove unnecessary `to_string` and `String::new`](https://github.com/rust-lang/rust/pull/98043)
+* [miri: make scheduler preemptive](https://github.com/rust-lang/miri/pull/2208)
+* [stabilize `$$` in Rust 1.63.0](https://github.com/rust-lang/rust/pull/95860)
+* [stabilize the `bundle` native library modifier](https://github.com/rust-lang/rust/pull/95818)
+* [stabilize `explicit_generic_args_with_impl_trait`](https://github.com/rust-lang/rust/pull/96868)
+* [stabilize `const_intrinsic_copy`](https://github.com/rust-lang/rust/pull/97276)
+* [stabilize scoped threads](https://github.com/rust-lang/rust/pull/97992)
+* [allow `ptr_from_addr_cast` to fail](https://github.com/rust-lang/rust/pull/97763)
+* [add the `Provider` api to `core::any`](https://github.com/rust-lang/rust/pull/91970)
+* [`BTreeSet`: avoid intermediate sorting when collecting sorted iterators](https://github.com/rust-lang/rust/pull/97868)
+* [`impl Read` and `Write` for `VecDeque<u8>`](https://github.com/rust-lang/rust/pull/95632)
+* [change `Direction::{is_forward,is_backward}` functions into constants](https://github.com/rust-lang/rust/pull/97832)
+* [fix infinite recursion in x86\_64 memcmp if SSE2 is not present](https://github.com/rust-lang/compiler-builtins/pull/471)
+* [fix `Termination` impl panic on closed stderr](https://github.com/rust-lang/rust/pull/97970)
+* [hashbrown: add `Extend<&'a (K, V)> for HashMap<K, V, S, A>`](https://github.com/rust-lang/hashbrown/pull/340)
+* [hashbrown: editing `do_alloc` for reducing LLVM IR](https://github.com/rust-lang/hashbrown/pull/341)
+* [codegen\_gcc: feature/more simd](https://github.com/rust-lang/rustc_codegen_gcc/pull/176)
+* [clippy: fix `iter_overeager_cloned` false positive](https://github.com/rust-lang/rust-clippy/pull/8960)
+* [clippy: fix some `#[expect]` lint interaction](https://github.com/rust-lang/rust-clippy/pull/8976)
+* [clippy: fix `derive_partial_eq_without_eq`](https://github.com/rust-lang/rust-clippy/pull/8950)
+* [clippy: check const context](https://github.com/rust-lang/rust-clippy/pull/8907)
+* [rustfmt: dedup `imports_granularity = "Item"` (#4737)](https://github.com/rust-lang/rustfmt/pull/5380)
+* [rust-analyzer: more precise proc-macro errors](https://github.com/rust-lang/rust-analyzer/pull/12514)
+* [rust-analyzer: restart server automatically on settings changes](https://github.com/rust-lang/rust-analyzer/pull/12477)
+* [rust-analyzer: add proc macro ABI for rustc 1.63](https://github.com/rust-lang/rust-analyzer/pull/12492)
+* [rust-analyzer: on assoc item name hover, render trait decl docs](https://github.com/rust-lang/rust-analyzer/pull/12519)
+* [rust-analyzer: add label to loop](https://github.com/rust-lang/rust-analyzer/pull/12481)
+* [rust-analyzer: fix inline variable produce mismatched type](https://github.com/rust-lang/rust-analyzer/pull/12464)
+* [rust-analyzer: don't respond to cancelled requests when retrying them](https://github.com/rust-lang/rust-analyzer/pull/12508)
+* [rustup: Visual Studio: add the English language pack](https://github.com/rust-lang/rustup/pull/3006)
+* [rustup: Visual Studio: let the user choose install method](https://github.com/rust-lang/rustup/pull/3008)
+* [rustup: improve handling of Visual Studio errors](https://github.com/rust-lang/rustup/pull/3004)
 
 ### Rust Compiler Performance Triage
 
@@ -190,7 +246,13 @@ They should be of the form:
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Because lower-level software has more operational constraints than higher-level software (e.g. it typically cannot tolerate a runtime or memory management via garbage collection), developing a memory safe language suitable for systems software is particularly challenging. The Rust language has met that challenge, however, and is an excellent candidate for replacing C in many systems applications.
+>
+> We plan to invest in the tools that allow systems engineers to move their software to Rust. This means investing in improving package management, compilers, and Foreign Function Interface (FFI) generators. In many cases this will include providing interfaces compatible with existing widely-used components to enable transition. With these tools, adoption of a memory safe alternative will scale much faster without replication of efforts.
+
+– [The White House Open Source Software Mobilization Plan, multiple authors](https://8112310.fs1.hubspotusercontent-na1.net/hubfs/8112310/OpenSSF/White%20House%20OSS%20Mobilization%20Plan.pdf?utm_referrer=https%3A%2F%2Fopenssf.org%2Foss-security-mobilization-plan%2F) (PDF link)
+
+Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/125) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
