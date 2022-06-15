@@ -78,7 +78,28 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A mixed week. I suppose it is best to focus on the fact we made some big
+improvements to a large number of primary benchmarks, at the cost of some
+smaller regressions to a smaller number of primary benchmarks.
+
+Triage done by **@pnkfelix**.
+Revision range: [bb55bd44..edab34ab](https://perf.rust-lang.org/?start=bb55bd449e65e611da928560d948982d73e50027&end=edab34ab2abbafc16a78daedf71dbacd2eb0b7bf&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+|            | mean | max | count |
+|:----------:|:----:|:---:|:-----:|
+| Regressions 😿 <br /> (primary) | 0.6% | 1.6% | 35    |
+| Regressions 😿 <br /> (secondary) | 2.1% | 8.1% | 23    |
+| Improvements 🎉 <br /> (primary) | -0.8% | -3.5% | 72    |
+| Improvements 🎉 <br /> (secondary) | -0.8% | -2.9% | 62    |
+| All 😿🎉 (primary) | -0.4% | -3.5% | 107   |
+
+
+4 Regressions, 3 Improvements, 5 Mixed; 4 of them in rollups
+47 artifact comparisons made in total
+
+Full report [here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-06-14.md).
 
 ### Call for Testing
 
