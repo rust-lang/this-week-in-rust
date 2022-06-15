@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [42 Companies using Rust in production (2021)](https://kerkour.com/rust-in-production-2021)
 * [Local Async Executors and Why They Should be the Default](https://maciej.codes/2022-06-09-local-async.html)
 * [Carcinisation of mirrord (or: why we use Rust)](https://metalbear.co/blog/carcinisation-of-mirrord-or-why-we-use-rust/)
 
