@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [Hitchikers guide to Lunatic TCP Servers in 🦀](https://missmissm.medium.com/hitchikers-guide-to-lunatic-tcp-servers-in-ae44258750f1)
 * [Building a web application with Rust and WebAssembly](https://kerkour.com/web-application-with-rust-and-webassembly)
 * [video] [Async I/O in Depth: State Machines, Event Loops and Non-Blocking I/O System Calls in Rust (Part 2)](https://www.youtube.com/watch?v=_3LpJ6I-tzc)
+* [video] [Crust of Rust: Send, Sync, and their implementors](https://www.youtube.com/watch?v=yOezcP-XaIw)
 
 ### Research
 
