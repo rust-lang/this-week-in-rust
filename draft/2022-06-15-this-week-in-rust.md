@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 * [IntelliJ Rust Changelog #172](https://intellij-rust.github.io/2022/06/14/changelog-172.html)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W23](https://www.fornjot.app/blog/weekly-dev-log/2022-w23/)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-06-13.html)
+* [This week in Databend #46: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-06-15-databend-weekly/)
 * [This week in Fluvio #36: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0036/)
 
 ### Observations/Thoughts
