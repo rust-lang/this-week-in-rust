@@ -76,8 +76,10 @@ and just ask the editors to select the category.
 * [Tidy up your Rust imports with a prelude.rs](https://justinwoodring.com/blog/tidy-your-rust-imports-with-prelude/)
 * [Hitchikers guide to Lunatic TCP Servers in 🦀](https://towardsdev.com/hitchikers-guide-to-lunatic-tcp-servers-in-ae44258750f1)
 * [Building a web application with Rust and WebAssembly](https://kerkour.com/web-application-with-rust-and-webassembly)
+* [Unwrap a value with the question mark operator in Rust](https://shane-o.dev/blog/unwrap-a-value-with-the-question-mark-operator-in-rust)
 * [video] [Async I/O in Depth: State Machines, Event Loops and Non-Blocking I/O System Calls in Rust (Part 2)](https://www.youtube.com/watch?v=_3LpJ6I-tzc)
 * [video] [Crust of Rust: Send, Sync, and their implementors](https://www.youtube.com/watch?v=yOezcP-XaIw)
+* [video] [series] [Introduction to Yew.rs](https://www.youtube.com/playlist?list=PLrmY5pVcnuE_R5qJ0o30eGw77bWmnrUtL)
 
 ### Research
 
@@ -324,13 +326,31 @@ They should be of the form:
 * [Job Title (Location)](https://example.com/my-job-link)
 
 -->
-** Kollider **
+
+**Audiotool**
+
+* [Rust / Audio DSP Developer](https://www.audiotool.com/jobs#rust-audio-dsp-developer)
+
+**Kollider**
 
 * [Junior Backend Engineer (Remote)](https://careers.kollider.xyz/junior-backend-engineer/en)
 
 **Disney**
 
 * [Senior Software Engineer (Seattle, WA, US, New York, NY, US, San Francisco Bay Area, CA, US, FT Remote)](https://jobs.disneycareers.com/job/seattle/senior-software-engineer/391/30162448528)
+
+**Stockly**
+
+* [Back-end developer (Rust, gRPC, PostgreSQL) (Paris, FR)](https://www.welcometothejungle.com/fr/companies/stockly/jobs/back-end-developer-rust-grpc-postgresql_paris)
+
+**Stellate**
+
+* [Rust Engineer (Remote)](https://boards.greenhouse.io/stellate/jobs/4027858005)
+
+**Enso**
+
+* [Senior Rust IDE Developer (Remote)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-ide-developer.md)
+* [Senior Cloud Rust Engineer (Remote)](https://github.com/enso-org/hiring/blob/main/positions/senior-rust-cloud-developer.md)
 
 **Spire Global**
 
