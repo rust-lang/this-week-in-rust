@@ -31,21 +31,48 @@ and just ask the editors to select the category.
 
 ### Foundation
 
+* [Cloud Compute Program Update](https://foundation.rust-lang.org/news/2022-06-09-cloud-compute-program-update/)
+* [Community Grants Program Awards Announcement](https://foundation.rust-lang.org/news/2022-06-14-community-grants-program-awards-announcement/)
+
 ### Newsletters
 
+* [This Month in Rust OSDev: May 2022](https://rust-osdev.com/this-month/2022-05/)
+
 ### Project/Tooling Updates
+
+* [Announcing error-stack](https://hash.dev/blog/announcing-error-stack)
+* [Rust Explorer: Rust playground with the top 10k crates](https://www.rustexplorer.com/b/about)
+* [Clap 3.2: Last Call Before 4.0](https://epage.github.io/blog/2022/06/clap-32-last-call-before-40/)
+* [C2Rust is Back](https://immunant.com/blog/2022/06/back/)
+* [rust-analyzer changelog #133](https://rust-analyzer.github.io/thisweek/2022/06/13/changelog-133.html)
+* [Progress report on rustc_codegen_cranelift (June 2022)](https://bjorn3.github.io/2022/06/13/progress-report-june-2022.html)
+* [rustc_codegen_gcc: Progress Report #12](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-12)
+* [IntelliJ Rust Changelog #172](https://intellij-rust.github.io/2022/06/14/changelog-172.html)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W23](https://www.fornjot.app/blog/weekly-dev-log/2022-w23/)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-06-13.html)
 
 ### Observations/Thoughts
 
+* [Into the Future with IntoFuture - Improving Rust Async Ergonomics](https://refaktory.net/blog/posts/into-the-future-with-intofuture-improving-rust-async-ergonomics)
+* [The Rust borrow checker just got (a little bit) smarter](https://jackh726.github.io/rust/2022/06/10/nll-stabilization.html)
+* [Async cancellation: a case study of pub-sub in mini-redis](https://smallcultfollowing.com/babysteps/blog/2022/06/13/async-cancellation-a-case-study-of-pub-sub-in-mini-redis/)
 * [Local Async Executors and Why They Should be the Default](https://maciej.codes/2022-06-09-local-async.html)
+* [Rust advocacy at a medium-sized startup](https://briankung.dev/2022/06/14/rust-advocacy-at-a-medium-sized-startup/)
 * [Carcinisation of mirrord (or: why we use Rust)](https://metalbear.co/blog/carcinisation-of-mirrord-or-why-we-use-rust/)
+* [Everything Is Broken: Shipping rust-minidump at Mozilla – Part 1](https://hacks.mozilla.org/2022/06/everything-is-broken-shipping-rust-minidump-at-mozilla/)
+* [How to Make Rust Leak Memory (Also: How to Make It Stop)](https://fly.io/blog/rust-memory-leak/)
+* [video] [Post-Crust of Rust Q&A](https://www.youtube.com/watch?v=aGrlEdAe6YE)
+* [audio] [Rust Foundation with Rebecca Rumbul](https://rustacean-station.org/episode/rebecca-rumbul/)
+* [audio] [This Week in Rust - Issue 444](https://rustacean-station.org/episode/twir-444/)
 
 ### Rust Walkthroughs
+
 * [Caches In Rust](https://matklad.github.io/2022/06/11/caches-in-rust.html)
+* [Flavors of enums with Rust bindgen](https://www.mdaverde.com/posts/rust-bindgen-enum/)
+* [Implementing strace in Rust](https://jakobwaibel.com/2022/06/06/ptrace/)
+* [Async Cancellation II: Time and Signals](https://blog.yoshuawuyts.com/async-cancellation-2/)
 * [Tidy up your Rust imports with a prelude.rs](https://justinwoodring.com/blog/tidy-your-rust-imports-with-prelude/)
-* [Hitchikers guide to Lunatic TCP Servers in 🦀](https://missmissm.medium.com/hitchikers-guide-to-lunatic-tcp-servers-in-ae44258750f1)
+* [Hitchikers guide to Lunatic TCP Servers in 🦀](https://towardsdev.com/hitchikers-guide-to-lunatic-tcp-servers-in-ae44258750f1)
 * [Building a web application with Rust and WebAssembly](https://kerkour.com/web-application-with-rust-and-webassembly)
 * [video] [Async I/O in Depth: State Machines, Event Loops and Non-Blocking I/O System Calls in Rust (Part 2)](https://www.youtube.com/watch?v=_3LpJ6I-tzc)
 * [video] [Crust of Rust: Send, Sync, and their implementors](https://www.youtube.com/watch?v=yOezcP-XaIw)
@@ -53,6 +80,9 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+
+* [Rusty Jam 2](https://gamedev.rs/blog/rustyjam-02/)
+* [GitHub brings supply chain security features to the Rust community](https://github.blog/2022-06-06-github-brings-supply-chain-security-features-to-the-rust-community/)
 
 ## Crate of the Week
 
