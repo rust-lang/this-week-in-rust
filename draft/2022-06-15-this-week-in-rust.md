@@ -31,22 +31,50 @@ and just ask the editors to select the category.
 
 ### Foundation
 
+* [Cloud Compute Program Update](https://foundation.rust-lang.org/news/2022-06-09-cloud-compute-program-update/)
+* [Community Grants Program Awards Announcement](https://foundation.rust-lang.org/news/2022-06-14-community-grants-program-awards-announcement/)
+
 ### Newsletters
 
+* [This Month in Rust OSDev: May 2022](https://rust-osdev.com/this-month/2022-05/)
+
 ### Project/Tooling Updates
+
+* [Announcing error-stack](https://hash.dev/blog/announcing-error-stack)
+* [Rust Explorer: Rust playground with the top 10k crates](https://www.rustexplorer.com/b/about)
+* [Clap 3.2: Last Call Before 4.0](https://epage.github.io/blog/2022/06/clap-32-last-call-before-40/)
+* [C2Rust is Back](https://immunant.com/blog/2022/06/back/)
+* [rust-analyzer changelog #133](https://rust-analyzer.github.io/thisweek/2022/06/13/changelog-133.html)
+* [Progress report on rustc_codegen_cranelift (June 2022)](https://bjorn3.github.io/2022/06/13/progress-report-june-2022.html)
+* [rustc_codegen_gcc: Progress Report #12](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-12)
+* [IntelliJ Rust Changelog #172](https://intellij-rust.github.io/2022/06/14/changelog-172.html)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W23](https://www.fornjot.app/blog/weekly-dev-log/2022-w23/)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-06-13.html)
 * [This week in Databend #46: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-06-15-databend-weekly/)
+* [This week in Fluvio #36: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0036/)
 
 ### Observations/Thoughts
 
+* [Into the Future with IntoFuture - Improving Rust Async Ergonomics](https://refaktory.net/blog/posts/into-the-future-with-intofuture-improving-rust-async-ergonomics)
+* [The Rust borrow checker just got (a little bit) smarter](https://jackh726.github.io/rust/2022/06/10/nll-stabilization.html)
+* [Async cancellation: a case study of pub-sub in mini-redis](https://smallcultfollowing.com/babysteps/blog/2022/06/13/async-cancellation-a-case-study-of-pub-sub-in-mini-redis/)
 * [Local Async Executors and Why They Should be the Default](https://maciej.codes/2022-06-09-local-async.html)
+* [Rust advocacy at a medium-sized startup](https://briankung.dev/2022/06/14/rust-advocacy-at-a-medium-sized-startup/)
 * [Carcinisation of mirrord (or: why we use Rust)](https://metalbear.co/blog/carcinisation-of-mirrord-or-why-we-use-rust/)
+* [Everything Is Broken: Shipping rust-minidump at Mozilla – Part 1](https://hacks.mozilla.org/2022/06/everything-is-broken-shipping-rust-minidump-at-mozilla/)
+* [How to Make Rust Leak Memory (Also: How to Make It Stop)](https://fly.io/blog/rust-memory-leak/)
+* [video] [Post-Crust of Rust Q&A](https://www.youtube.com/watch?v=aGrlEdAe6YE)
+* [audio] [Rust Foundation with Rebecca Rumbul](https://rustacean-station.org/episode/rebecca-rumbul/)
+* [audio] [This Week in Rust - Issue 444](https://rustacean-station.org/episode/twir-444/)
 
 ### Rust Walkthroughs
+
 * [Caches In Rust](https://matklad.github.io/2022/06/11/caches-in-rust.html)
+* [Flavors of enums with Rust bindgen](https://www.mdaverde.com/posts/rust-bindgen-enum/)
+* [Implementing strace in Rust](https://jakobwaibel.com/2022/06/06/ptrace/)
+* [Async Cancellation II: Time and Signals](https://blog.yoshuawuyts.com/async-cancellation-2/)
 * [Tidy up your Rust imports with a prelude.rs](https://justinwoodring.com/blog/tidy-your-rust-imports-with-prelude/)
-* [Hitchikers guide to Lunatic TCP Servers in 🦀](https://missmissm.medium.com/hitchikers-guide-to-lunatic-tcp-servers-in-ae44258750f1)
+* [Hitchikers guide to Lunatic TCP Servers in 🦀](https://towardsdev.com/hitchikers-guide-to-lunatic-tcp-servers-in-ae44258750f1)
 * [Building a web application with Rust and WebAssembly](https://kerkour.com/web-application-with-rust-and-webassembly)
 * [video] [Async I/O in Depth: State Machines, Event Loops and Non-Blocking I/O System Calls in Rust (Part 2)](https://www.youtube.com/watch?v=_3LpJ6I-tzc)
 * [video] [Crust of Rust: Send, Sync, and their implementors](https://www.youtube.com/watch?v=yOezcP-XaIw)
@@ -55,9 +83,14 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Rusty Jam 2](https://gamedev.rs/blog/rustyjam-02/)
+* [GitHub brings supply chain security features to the Rust community](https://github.blog/2022-06-06-github-brings-supply-chain-security-features-to-the-rust-community/)
+
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [dxf-rs](https://github.com/IxMilia/dxf-rs), a library to parse AutoCAD files.
+
+Thanks to [cosj](https://users.rust-lang.org/t/crate-of-the-week/2704/1067) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -76,7 +109,61 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+368 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-06-06..2022-06-13
+
+* [add support for emitting functions with `coldcc` to LLVM](https://github.com/rust-lang/rust/pull/97512)
+* [allow unstable items to be re-exported unstably without requiring the feature be enabled](https://github.com/rust-lang/rust/pull/97301)
+* [don't suggest adding `let` in certain `if` conditions](https://github.com/rust-lang/rust/pull/97856)
+* [fix ICEs from zsts within unsized types with non-zero offsets](https://github.com/rust-lang/rust/pull/97738)
+* [fix precise field capture of univariant enums](https://github.com/rust-lang/rust/pull/97325)
+* [never regard macro rules with `compile_error!` invocations as unused](https://github.com/rust-lang/rust/pull/97903)
+* [use more targeted suggestion when confusing i8 with std::i8](https://github.com/rust-lang/rust/pull/97845)
+* [`ValuePairs::PolyTraitRefs` should be called "trait"s in type error diagnostics](https://github.com/rust-lang/rust/pull/98012)
+* [use precise spans for recursive const evaluation](https://github.com/rust-lang/rust/pull/97740)
+* [suggest escaping `box` as identifier](https://github.com/rust-lang/rust/pull/97857)
+* [suggest to swap a struct and a trait in trait impls](https://github.com/rust-lang/rust/pull/97812)
+* [suggest using `iter()` or `into_iter()` for `Vec`](https://github.com/rust-lang/rust/pull/97871)
+* [tidy up miscellaneous bounds suggestions](https://github.com/rust-lang/rust/pull/97778)
+* [cleanup bound variable handling](https://github.com/rust-lang/rust/pull/97648)
+* [do not introduce bindings for types and consts in higher-ranked trait bounds](https://github.com/rust-lang/rust/pull/97927)
+* [folding revamp](https://github.com/rust-lang/rust/pull/97447)
+* [make `Encodable` and `Encoder` infallible](https://github.com/rust-lang/rust/pull/94732)
+* [re-use the type op instead of calling the `implied_outlives_bounds` query directly](https://github.com/rust-lang/rust/pull/97081)
+* [remove redundant calls to `reserve` in `impl Write for VecDeque`](https://github.com/rust-lang/rust/pull/97922)
+* [remove unnecessary `to_string` and `String::new`](https://github.com/rust-lang/rust/pull/98043)
+* [miri: make scheduler preemptive](https://github.com/rust-lang/miri/pull/2208)
+* [stabilize `$$` in Rust 1.63.0](https://github.com/rust-lang/rust/pull/95860)
+* [stabilize the `bundle` native library modifier](https://github.com/rust-lang/rust/pull/95818)
+* [stabilize `explicit_generic_args_with_impl_trait`](https://github.com/rust-lang/rust/pull/96868)
+* [stabilize `const_intrinsic_copy`](https://github.com/rust-lang/rust/pull/97276)
+* [stabilize scoped threads](https://github.com/rust-lang/rust/pull/97992)
+* [allow `ptr_from_addr_cast` to fail](https://github.com/rust-lang/rust/pull/97763)
+* [add the `Provider` api to `core::any`](https://github.com/rust-lang/rust/pull/91970)
+* [`BTreeSet`: avoid intermediate sorting when collecting sorted iterators](https://github.com/rust-lang/rust/pull/97868)
+* [`impl Read` and `Write` for `VecDeque<u8>`](https://github.com/rust-lang/rust/pull/95632)
+* [change `Direction::{is_forward,is_backward}` functions into constants](https://github.com/rust-lang/rust/pull/97832)
+* [fix infinite recursion in x86\_64 memcmp if SSE2 is not present](https://github.com/rust-lang/compiler-builtins/pull/471)
+* [fix `Termination` impl panic on closed stderr](https://github.com/rust-lang/rust/pull/97970)
+* [hashbrown: add `Extend<&'a (K, V)> for HashMap<K, V, S, A>`](https://github.com/rust-lang/hashbrown/pull/340)
+* [hashbrown: editing `do_alloc` for reducing LLVM IR](https://github.com/rust-lang/hashbrown/pull/341)
+* [codegen\_gcc: feature/more simd](https://github.com/rust-lang/rustc_codegen_gcc/pull/176)
+* [clippy: fix `iter_overeager_cloned` false positive](https://github.com/rust-lang/rust-clippy/pull/8960)
+* [clippy: fix some `#[expect]` lint interaction](https://github.com/rust-lang/rust-clippy/pull/8976)
+* [clippy: fix `derive_partial_eq_without_eq`](https://github.com/rust-lang/rust-clippy/pull/8950)
+* [clippy: check const context](https://github.com/rust-lang/rust-clippy/pull/8907)
+* [rustfmt: dedup `imports_granularity = "Item"` (#4737)](https://github.com/rust-lang/rustfmt/pull/5380)
+* [rust-analyzer: more precise proc-macro errors](https://github.com/rust-lang/rust-analyzer/pull/12514)
+* [rust-analyzer: restart server automatically on settings changes](https://github.com/rust-lang/rust-analyzer/pull/12477)
+* [rust-analyzer: add proc macro ABI for rustc 1.63](https://github.com/rust-lang/rust-analyzer/pull/12492)
+* [rust-analyzer: on assoc item name hover, render trait decl docs](https://github.com/rust-lang/rust-analyzer/pull/12519)
+* [rust-analyzer: add label to loop](https://github.com/rust-lang/rust-analyzer/pull/12481)
+* [rust-analyzer: fix inline variable produce mismatched type](https://github.com/rust-lang/rust-analyzer/pull/12464)
+* [rust-analyzer: don't respond to cancelled requests when retrying them](https://github.com/rust-lang/rust-analyzer/pull/12508)
+* [rustup: Visual Studio: add the English language pack](https://github.com/rust-lang/rustup/pull/3006)
+* [rustup: Visual Studio: let the user choose install method](https://github.com/rust-lang/rustup/pull/3008)
+* [rustup: improve handling of Visual Studio errors](https://github.com/rust-lang/rustup/pull/3004)
 
 ### Rust Compiler Performance Triage
 
@@ -245,11 +332,21 @@ They should be of the form:
 
 * [Senior Software Engineer (Seattle, WA, US, New York, NY, US, San Francisco Bay Area, CA, US, FT Remote)](https://jobs.disneycareers.com/job/seattle/senior-software-engineer/391/30162448528)
 
+**Spire Global**
+
+* [Software Engineers + Engineering Managers (Glasgow, UK, Luxembourg - Relocation Available)](https://spire.com/careers/job-openings/job/?gh_jid=4226230)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Because lower-level software has more operational constraints than higher-level software (e.g. it typically cannot tolerate a runtime or memory management via garbage collection), developing a memory safe language suitable for systems software is particularly challenging. The Rust language has met that challenge, however, and is an excellent candidate for replacing C in many systems applications.
+>
+> We plan to invest in the tools that allow systems engineers to move their software to Rust. This means investing in improving package management, compilers, and Foreign Function Interface (FFI) generators. In many cases this will include providing interfaces compatible with existing widely-used components to enable transition. With these tools, adoption of a memory safe alternative will scale much faster without replication of efforts.
+
+– [The White House Open Source Software Mobilization Plan, multiple authors](https://8112310.fs1.hubspotusercontent-na1.net/hubfs/8112310/OpenSSF/White%20House%20OSS%20Mobilization%20Plan.pdf?utm_referrer=https%3A%2F%2Fopenssf.org%2Foss-security-mobilization-plan%2F) (PDF link)
+
+Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/125) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
