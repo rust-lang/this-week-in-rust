@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W24](https://www.fornjot.app/blog/weekly-dev-log/2022-w24/)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-06-20.html)
+* [video] [Adding a Rust compiler front end to GCC](https://www.youtube.com/watch?v=R8Pr21nlhig)
 
 ### Observations/Thoughts
 
