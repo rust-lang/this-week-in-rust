@@ -220,7 +220,7 @@ which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-* *No RFCs entered Final Comment Period this week.*
+* [disposition: merge] [Refined trait implementations](https://github.com/rust-lang/rfcs/pull/3245)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
