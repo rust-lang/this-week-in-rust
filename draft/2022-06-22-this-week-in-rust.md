@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+ * [Build a simple template engine in <100 lines of Rust code](https://blog.spike.codes/build-a-template-engine)
+
 ### Research
 
 ### Miscellaneous
