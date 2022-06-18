@@ -118,10 +118,10 @@ Rusty Events between 2022-06-22 - 2022-07-20 🦀
     * [**Rust, nalgebra, and Fourier Optics**](https://www.meetup.com/charlottesville-rust-meetup/events/285818136/)
 * 2022-07-09 | Virtual | [Rust Game Dev](https://github.com/rust-gamedev/wg)
     * [**Monthly Meetup**](https://discord.gg/yNtPTb2&sa=D&source=calendar&usd=2&usg=AOvVaw2pjyb-YBsl99IFDmrOKoOK)
-* 2022-07-12 | Virtual, AU | [Rust Australia](https://www.meetup.com/rust-australia/)
-    * [**Rust Lightning Talks**](https://www.meetup.com/rust-australia/events/286651702/)
 * 2022-07-13 | Boulder, CO, US | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
     * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydckbrb/)
+* 2022-07-19 | Virtual, AU | [Rust Australia](https://www.meetup.com/rust-australia/)
+    * [**Rust Lightning Talks**](https://www.meetup.com/rust-australia/events/286651702/)
 
 ### North America
 
