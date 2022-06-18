@@ -120,8 +120,8 @@ Rusty Events between 2022-06-22 - 2022-07-20 🦀
     * [**Monthly Meetup**](https://discord.gg/yNtPTb2&sa=D&source=calendar&usd=2&usg=AOvVaw2pjyb-YBsl99IFDmrOKoOK)
 * 2022-07-13 | Boulder, CO, US | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
     * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydckbrb/)
-* 2022-07-19 | Virtual, AU | [Rust Australia](https://www.meetup.com/rust-australia/)
-    * [**Rust Lightning Talks**](https://www.meetup.com/rust-australia/events/286651702/)
+* 2022-07-19 | Virtual, AU | [Rust Australia](https://github.com/RustAU)
+    * [**Rust Lightning Talks**](https://github.com/RustAU/Virtual)
 
 ### North America
 
