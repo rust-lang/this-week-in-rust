@@ -369,7 +369,7 @@ They should be of the form:
 
 – [The White House Open Source Software Mobilization Plan, multiple authors](https://8112310.fs1.hubspotusercontent-na1.net/hubfs/8112310/OpenSSF/White%20House%20OSS%20Mobilization%20Plan.pdf?utm_referrer=https%3A%2F%2Fopenssf.org%2Foss-security-mobilization-plan%2F) (PDF link)
 
-Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/125) for the suggestion.
+Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1253) for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
