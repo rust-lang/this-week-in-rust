@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W24](https://www.fornjot.app/blog/weekly-dev-log/2022-w24/)
+
 ### Observations/Thoughts
 
  * [That vendored OpenSSL 🦀 most of us rely on probably needs a patch ..](https://medium.com/rust-secure-code/that-vendored-openssl-most-of-us-rely-on-probably-needs-a-patch-aae8fea5160f)
