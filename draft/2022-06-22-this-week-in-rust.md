@@ -72,7 +72,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A pretty busy week for performance, with quite a few PRs landing with
+significant improvements to specific benchmarks. Overall the week was positive,
+with many benchmarks improving at least a little. No significant changes in
+memory usage this week.
+
+Triage done by **@simulacrum**.
+Revision range: [edab34a..abace0a](https://perf.rust-lang.org/?start=edab34ab2abbafc16a78daedf71dbacd2eb0b7bf&end=abace0a1f17986d89aedf610819deab2b4afee56&absolute=false&stat=instructions%3Au)
+
+5 Regressions, 6 Improvements, 3 Mixed; 1 of them in rollups
+54 artifact comparisons made in total
+
+See [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-06-21.md) for details.
 
 ### Call for Testing
 
