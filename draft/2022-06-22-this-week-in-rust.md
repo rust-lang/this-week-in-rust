@@ -116,12 +116,14 @@ Rusty Events between 2022-06-22 - 2022-07-20 🦀
     * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydckbrb/)
 * 2022-07-14 | Nürnberg, DE | [Rust Nurnberg DE](https://www.meetup.com/rust-noris/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/hlvbvsydckbsb/)
+* 2022-07-14 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
+    * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/swgrssydckbsb/)
 * 2022-07-16 | Vancouver, BC, CA | [Vancouver Rust](https://www.meetup.com/Vancouver-Rust/)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/Vancouver-Rust/events/nwcmpsydckbbc/)
-* 2022-07-19 | Washington, DC, US | [Rust DC](https://www.meetup.com/RustDC/)
-    * [**Mid-month Rustful**](https://www.meetup.com/RustDC/events/vdhxgsydckbzb/)
 * 2022-07-19 | Sydney, NSW, AU | [Rust Australia](https://www.meetup.com/rust-australia/)
     * [**June Meetup**](https://www.meetup.com/rust-australia/events/286651702/)
+* 2022-07-19 | Washington, DC, US | [Rust DC](https://www.meetup.com/RustDC/)
+    * [**Mid-month Rustful**](https://www.meetup.com/RustDC/events/vdhxgsydckbzb/)
 
 ### Asia
 
