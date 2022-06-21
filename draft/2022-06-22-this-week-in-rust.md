@@ -120,8 +120,8 @@ Rusty Events between 2022-06-22 - 2022-07-20 🦀
     * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/swgrssydckbsb/)
 * 2022-07-16 | Vancouver, BC, CA | [Vancouver Rust](https://www.meetup.com/Vancouver-Rust/)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/Vancouver-Rust/events/nwcmpsydckbbc/)
-* 2022-07-19 | Sydney, NSW, AU | [Rust Australia](https://www.meetup.com/rust-australia/)
-    * [**June Meetup**](https://www.meetup.com/rust-australia/events/286651702/)
+* 2022-07-19 | Virtual, AU | [Rust Australia](https://github.com/RustAU)
+    * [**Rust Lightning Talks**](https://github.com/RustAU/Virtual)
 * 2022-07-19 | Washington, DC, US | [Rust DC](https://www.meetup.com/RustDC/)
     * [**Mid-month Rustful**](https://www.meetup.com/RustDC/events/vdhxgsydckbzb/)
 
