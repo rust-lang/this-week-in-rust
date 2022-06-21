@@ -38,7 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
  * [That vendored OpenSSL 🦀 most of us rely on probably needs a patch ..](https://medium.com/rust-secure-code/that-vendored-openssl-most-of-us-rely-on-probably-needs-a-patch-aae8fea5160f)
- * [audio] [Ernest Kissiedu on the DevX Initiative](https://anchor.fm/building-with-rust/episodes/Ernest-Kissiedu-on-the-DevX-Initiative-e1k3cs4)
+ * [audio] [Building with Rust: Ernest Kissiedu on the DevX Initiative](https://anchor.fm/building-with-rust/episodes/Ernest-Kissiedu-on-the-DevX-Initiative-e1k3cs4)
 ### Rust Walkthroughs
 
  * [Build a simple template engine in <100 lines of Rust code](https://blog.spike.codes/build-a-template-engine)
