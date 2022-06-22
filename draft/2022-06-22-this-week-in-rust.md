@@ -233,6 +233,10 @@ They should be of the form:
 
 * [Senior Infrastructure Engineer (New York, NY, US, Austin, TX, US, San Francisco, CA, US, or Remote)](https://boards.greenhouse.io/lithic/jobs/4252422004)
 
+**Spire Global**
+
+* [Software Engineers + Engineering Managers (Glasgow, UK, Luxembourg - Relocation Available)](https://spire.com/careers/job-openings/job/?gh_jid=4226230)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
