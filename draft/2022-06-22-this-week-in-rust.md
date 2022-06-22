@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [a Rust implementation of the Precision Time Protocol (PTP)](https://tweedegolf.nl/en/blog/72/announcing-statime-a-rust-ptp-implementation)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
