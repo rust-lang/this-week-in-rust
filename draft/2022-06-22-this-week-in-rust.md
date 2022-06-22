@@ -220,10 +220,15 @@ They should be of the form:
 
 -->
 
+# Rust Jobs
+
+**Matician**
+
+* [Robotics Systems Engineer - FT and intern roles (Mountain View, CA, US)](https://jobs.lever.co/matician/3d2a49ae-43c9-41c0-b9e8-7b87e7429b8f)
+
 **Lithic**
 
 * [Senior Infrastructure Engineer (New York, NY, US, Austin, TX, US, San Francisco, CA, US, or Remote)](https://boards.greenhouse.io/lithic/jobs/4252422004)
-
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
