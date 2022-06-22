@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
  * [Build a simple template engine in <100 lines of Rust code](https://blog.spike.codes/build-a-template-engine)
+ * [video][Async I/O in Depth (Part 3): Implementing an Async Runtime](https://www.youtube.com/watch?v=yfcJGEISsLc)
 
 ### Research
 
