@@ -29,22 +29,41 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [2021 Annual Survey Report](https://blog.rust-lang.org/inside-rust/2022/06/21/survey-2021-report.html)
+
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
 
+* [rust-analyzer changelog #134](https://rust-analyzer.github.io/thisweek/2022/06/20/changelog-134.html)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W24](https://www.fornjot.app/blog/weekly-dev-log/2022-w24/)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-06-20.html)
+* [Postcard 1.0.0 Release](https://jamesmunns.com/blog/postcard-1-0/)
+* [mold 1.3.0](https://github.com/rui314/mold/releases/tag/v1.3.0)
 
 ### Observations/Thoughts
 
- * [That vendored OpenSSL 🦀 most of us rely on probably needs a patch ..](https://medium.com/rust-secure-code/that-vendored-openssl-most-of-us-rely-on-probably-needs-a-patch-aae8fea5160f)
+* [That vendored OpenSSL 🦀 most of us rely on probably needs a patch ..](https://medium.com/rust-secure-code/that-vendored-openssl-most-of-us-rely-on-probably-needs-a-patch-aae8fea5160f)
+* [GUI in Rust with iced #2: Composable Layout](https://nikolish.in/gs-with-iced-2)
+* [Remote development with Rust on fly.io](https://fasterthanli.me/articles/remote-development-with-rust-on-fly-io)
+* [NVIDIA GPU profiling with Rust](https://simbleau.github.io/blog/gpu-profiling-with-rust/)
+* [Unsafe code highlighting with rust-analyzer](https://veykril.github.io/posts/semantic-unsafe/)
+* [When serde_json::to_string() fails](https://www.greyblake.com/blog/when-serde-json-to-string-fails/)
+* [Aeneas: Rust Verification by Functional Translation](https://arxiv.org/abs/2206.07185)
+* [Rust: Turtles all the way down](https://www.youtube.com/watch?v=PuMXWc0xrK0)
+* [What is `Box<str>` and how is it different from `String` in Rust?](https://mahdi.blog/rust-box-str-vs-string/)
+* [What it feels like when Rust saves your bacon](https://smallcultfollowing.com/babysteps/blog/2022/06/15/what-it-feels-like-when-rust-saves-your-bacon/)
+* [Serde by Example 1: JSON-RPC](https://blog.dzejkop.space/serde-by-example-1/)
+* [video] [Adding a Rust compiler front end to GCC Philip Herron & Arthur Cohen, Embecosm](https://m.youtube.com/watch?v=R8Pr21nlhig)
+* [audio] [This Week in Rust - Issue 445](https://rustacean-station.org/episode/twir-445/)
+* [audio] [Fig with Grant Gurvis](https://rustacean-station.org/episode/grant-gurvis/)
 
 ### Rust Walkthroughs
 
- * [Build a simple template engine in <100 lines of Rust code](https://blog.spike.codes/build-a-template-engine)
+* [Build a simple template engine in <100 lines of Rust code](https://blog.spike.codes/build-a-template-engine)
+* [A short introduction to async Rust](https://www.shuttle.rs/blog/2022/06/16/a-short-introduction-to-async-rust)
 
 ### Research
 
