@@ -173,7 +173,7 @@ They should be of the form:
 
 **Lithic**
 
-* [Senior Infrastructure Engineer (New York City, Austin, SF Bay, or Full-Time Remote)](https://boards.greenhouse.io/lithic/jobs/4252422004)
+* [Senior Infrastructure Engineer (New York, NY, US, Austin, TX, US, San Francisco, CA, US, or Remote)](https://boards.greenhouse.io/lithic/jobs/4252422004)
 
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
