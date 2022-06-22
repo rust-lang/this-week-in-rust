@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Automated Rust projects maintenance and dependencies security](https://kerkour.com/rust-projects-maintenance-and-supply-chain-security)
  * [Build a simple template engine in <100 lines of Rust code](https://blog.spike.codes/build-a-template-engine)
 
 ### Research
