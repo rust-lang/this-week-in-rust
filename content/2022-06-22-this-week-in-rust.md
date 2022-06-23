@@ -128,7 +128,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [`BTreeMap`: Support custom allocators (v1.5)](https://github.com/rust-lang/rust/pull/98103)
 * [use unchecked mul to compute slice sizes](https://github.com/rust-lang/rust/pull/98078)
 * [stabilize `try_reserve_2`](https://github.com/rust-lang/rust/pull/95392)
-* [stabilize `io_safety]`](https://github.com/rust-lang/rust/pull/95118)
+* [stabilize `io_safety`](https://github.com/rust-lang/rust/pull/95118)
 * [stabilize `Path::try_exists()` and improve doc](https://github.com/rust-lang/rust/pull/97912)
 * [stabilize checked slice → `str` conversion functions](https://github.com/rust-lang/rust/pull/97367)
 * [hashbrown: Add an `Entry` API for `HashSet`](https://github.com/rust-lang/hashbrown/pull/342)
