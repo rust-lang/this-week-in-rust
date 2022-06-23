@@ -40,7 +40,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
  * [Build a simple template engine in <100 lines of Rust code](https://blog.spike.codes/build-a-template-engine)
- * [Nine rules for elegant Rust library APIs](https://towardsdatascience.com/nine-rules-for-elegant-rust-library-apis-9b986a465247?source=friends_link&sk=eaeeb63c265ac7e5c91a766a7ea420e5)
+ * [Nine rules for elegant Rust library APIs](https://towardsdatascience.com/nine-rules-for-elegant-rust-library-apis-9b986a465247)
 
 ### Research
 
