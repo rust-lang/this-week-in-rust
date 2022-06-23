@@ -42,10 +42,12 @@ and just ask the editors to select the category.
 
  * [That vendored OpenSSL 🦀 most of us rely on probably needs a patch ..](https://medium.com/rust-secure-code/that-vendored-openssl-most-of-us-rely-on-probably-needs-a-patch-aae8fea5160f)
  * [audio] [Building with Rust: Ernest Kissiedu on the DevX Initiative](https://anchor.fm/building-with-rust/episodes/Ernest-Kissiedu-on-the-DevX-Initiative-e1k3cs4)
+
 ### Rust Walkthroughs
 
  * [Build a simple template engine in <100 lines of Rust code](https://blog.spike.codes/build-a-template-engine)
  * [Nine rules for elegant Rust library APIs](https://towardsdatascience.com/nine-rules-for-elegant-rust-library-apis-9b986a465247)
+ * [video][Async I/O in Depth (Part 3): Implementing an Async Runtime](https://www.youtube.com/watch?v=yfcJGEISsLc)
 
 ### Research
 
