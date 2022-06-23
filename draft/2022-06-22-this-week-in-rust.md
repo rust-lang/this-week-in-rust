@@ -31,10 +31,6 @@ and just ask the editors to select the category.
 
 * [2021 Annual Survey Report](https://blog.rust-lang.org/inside-rust/2022/06/21/survey-2021-report.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 
 * [rust-analyzer changelog #134](https://rust-analyzer.github.io/thisweek/2022/06/20/changelog-134.html)
@@ -70,10 +66,6 @@ and just ask the editors to select the category.
 * [Automated maintenance and dependencies security for Rust projects](https://kerkour.com/rust-projects-maintenance-and-supply-chain-security)
 * [video][Async I/O in Depth (Part 3): Implementing an Async Runtime](https://www.youtube.com/watch?v=yfcJGEISsLc)
 * [video] [Rust for Beginners -- Learning Rust Syntax faster with these Rustlings Tips](https://www.youtube.com/watch?v=kvmMGjF-_zo)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
