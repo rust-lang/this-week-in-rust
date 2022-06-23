@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #134](https://rust-analyzer.github.io/thisweek/2022/06/20/changelog-134.html)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W24](https://www.fornjot.app/blog/weekly-dev-log/2022-w24/)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-06-20.html)
+* [This week in Databend #47: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-06-22-databend-weekly/)
 * [Postcard 1.0.0 Release](https://jamesmunns.com/blog/postcard-1-0/)
 * [mold 1.3.0](https://github.com/rui314/mold/releases/tag/v1.3.0)
 
