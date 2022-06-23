@@ -66,6 +66,7 @@ and just ask the editors to select the category.
 * [Build a simple template engine in <100 lines of Rust code](https://blog.spike.codes/build-a-template-engine)
 * [A short introduction to async Rust](https://www.shuttle.rs/blog/2022/06/16/a-short-introduction-to-async-rust)
 * [Nine rules for elegant Rust library APIs](https://towardsdatascience.com/nine-rules-for-elegant-rust-library-apis-9b986a465247)
+* [Automated maintenance and dependencies security for Rust projects](https://kerkour.com/rust-projects-maintenance-and-supply-chain-security)
 * [video][Async I/O in Depth (Part 3): Implementing an Async Runtime](https://www.youtube.com/watch?v=yfcJGEISsLc)
 * [video] [Rust for Beginners -- Learning Rust Syntax faster with these Rustlings Tips](https://www.youtube.com/watch?v=kvmMGjF-_zo)
 
