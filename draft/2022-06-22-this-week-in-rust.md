@@ -247,6 +247,10 @@ They should be of the form:
 
 # Rust Jobs
 
+**Mutate**
+
+* [Rust Backend Software Engineer (Remote Europe)](https://rustjobs.dev/featured-jobs/Mutate-Rust-Backend-Software-Engineer-7kfTlQFSagzwHhugw1p0)
+
 **Matician**
 
 * [Robotics Systems Engineer - FT and intern roles (Mountain View, CA, US)](https://jobs.lever.co/matician/3d2a49ae-43c9-41c0-b9e8-7b87e7429b8f)
