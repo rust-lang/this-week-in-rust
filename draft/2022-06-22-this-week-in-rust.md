@@ -75,7 +75,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [error-stack](https://docs.rs/error-stack/latest/error_stack/), a currently nightly-only error handling library that optimizes for ease of use while allowing to add arbitrary context data to errors.
+
+Thanks to [Alfred Mountfield](https://users.rust-lang.org/t/crate-of-the-week/2704/1070) for the self-suggestion.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -94,7 +96,65 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+374 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-06-13..2022-06-20
+
+* [add Apple WatchOS compile targets](https://github.com/rust-lang/rust/pull/95243)
+* [std support for the Nintendo 3DS](https://github.com/rust-lang/rust/pull/95897)
+* [make missing argument placeholder more obvious that it's a placeholder](https://github.com/rust-lang/rust/pull/98264)
+* [improve `lifetime arguments are not allowed on` error message](https://github.com/rust-lang/rust/pull/98268)
+* [improve parser diagnostics](https://github.com/rust-lang/rust/pull/95211)
+* [improve parsing errors and suggestions for bad `if` statements](https://github.com/rust-lang/rust/pull/97474)
+* [suggest adding a `#[macro_export]` to a private macro](https://github.com/rust-lang/rust/pull/98087)
+* [hide irrelevant lines in suggestions to allow for suggestions that are far from each other to be shown](https://github.com/rust-lang/rust/pull/97798)
+* [do not suggest adding semicolon/changing delimiters for macros in item position that originates in macros](https://github.com/rust-lang/rust/pull/97377)
+* [fix suggestions for `&a: T` parameters](https://github.com/rust-lang/rust/pull/97964)
+* [miri: prevent futex_wait from actually waiting if a concurrent waker was executed before us](https://github.com/rust-lang/miri/pull/2228)
+* [miri: add ICE error level](https://github.com/rust-lang/miri/pull/2237)
+* [fix `MissingDoc` quadratic behaviour](https://github.com/rust-lang/rust/pull/98153)
+* [fix `SourceScope` for `if let` bindings](https://github.com/rust-lang/rust/pull/97931)
+* [make "Assemble stage1 compiler" orders of magnitude faster (take 2)](https://github.com/rust-lang/rust/pull/97268)
+* [`BitSet` related perf improvements](https://github.com/rust-lang/rust/pull/97863)
+* [obligation forest tweaks](https://github.com/rust-lang/rust/pull/97674)
+* [batch `proc_macro` RPC for `TokenStream` iteration and combination operations](https://github.com/rust-lang/rust/pull/98186)
+* [compile `unicode-normalization` faster](https://github.com/rust-lang/rust/pull/97936)
+* [use valtrees as the type-system representation for constant values](https://github.com/rust-lang/rust/pull/96591)
+* [make some lints incremental](https://github.com/rust-lang/rust/pull/98238)
+* [optimize heapsort](https://github.com/rust-lang/rust/pull/93765)
+* [`impl Termination for Infallible` and then make the `Result` impls of `Termination` more generic](https://github.com/rust-lang/rust/pull/97803)
+* [`Stdio::makes_pipe`](https://github.com/rust-lang/rust/pull/97150)
+* [implement `core::slice::IterMut::as_mut_slice` and `impl<T> AsMut<[T]> for IterMut<'_, T>`](https://github.com/rust-lang/rust/pull/93080)
+* [add `core::mem::copy` to complement `core::mem::drop`](https://github.com/rust-lang/rust/pull/95534)
+* [avoid `thread::panicking()` in non-poisoning methods of `Mutex` and `RwLock`](https://github.com/rust-lang/rust/pull/97924)
+* [make {`Mutex`, `Condvar`, `RwLock`}`::new()` const](https://github.com/rust-lang/rust/pull/97791)
+* [add `#[inline]` to small fns of futex `RwLock`](https://github.com/rust-lang/rust/pull/98143)
+* [add {`Arc`, `Rc`}`::downcast_unchecked`](https://github.com/rust-lang/rust/pull/96609)
+* [add `VecDeque::extend` from `TrustedLen` specialization](https://github.com/rust-lang/rust/pull/98004)
+* [`BTreeMap`: Support custom allocators (v1.5)](https://github.com/rust-lang/rust/pull/98103)
+* [use unchecked mul to compute slice sizes](https://github.com/rust-lang/rust/pull/98078)
+* [stabilize `try_reserve_2`](https://github.com/rust-lang/rust/pull/95392)
+* [stabilize `io_safety]`](https://github.com/rust-lang/rust/pull/95118)
+* [stabilize `Path::try_exists()` and improve doc](https://github.com/rust-lang/rust/pull/97912)
+* [stabilize checked slice → `str` conversion functions](https://github.com/rust-lang/rust/pull/97367)
+* [hashbrown: Add an `Entry` API for `HashSet`](https://github.com/rust-lang/hashbrown/pull/342)
+* [hashbrown: allow compiling on 1.56.0](https://github.com/rust-lang/hashbrown/pull/343)
+* [codegen\_gcc: more intrinsics](https://github.com/rust-lang/rustc_codegen_gcc/pull/181)
+* [clippy: add lint output to lint list](https://github.com/rust-lang/rust-clippy/pull/8947)
+* [clippy: fix false positive for `never_loop` struct expression fields](https://github.com/rust-lang/rust-clippy/pull/9002)
+* [clippy: rework `branches_sharing_code`](https://github.com/rust-lang/rust-clippy/pull/8901)
+* [clippy: warn about read into zero-length `Vec`](https://github.com/rust-lang/rust-clippy/pull/8964)
+* [clippy: ignore `todo!` and `unimplemented!` in `if_same_then_else`](https://github.com/rust-lang/rust-clippy/pull/9006)
+* [clippy: add `default_iter_empty`](https://github.com/rust-lang/rust-clippy/pull/8989)
+* [clippy: unused_async: lint async methods](https://github.com/rust-lang/rust-clippy/pull/9025)
+* [rustfmt: add width for codeblocks in comments](https://github.com/rust-lang/rustfmt/pull/5372)
+* [rust-analyzer: show proc-macro loading errors in unresolved-proc-macro diagnostics](https://github.com/rust-lang/rust-analyzer/pull/12544)
+* [rust-analyzer: add fold range for multi line match arm list](https://github.com/rust-lang/rust-analyzer/pull/12576)
+* [rust-analyzer: fix methods in pub trait generated by macro cannot be completed](https://github.com/rust-lang/rust-analyzer/pull/12517)
+* [rust-analyzer: ask the user to reload the vscode window when changing server settings](https://github.com/rust-lang/rust-analyzer/pull/12529)
+* [rust-analyzer: check for the correct proc-macro settings in missing proc-macro diagnostics](https://github.com/rust-lang/rust-analyzer/pull/12528)
+* [rust-analyzer: clear proc-macro changed flag when reloading workspace](https://github.com/rust-lang/rust-analyzer/pull/12541)
+* [rust-analyzer: don't trigger pattern completions when typing a wildcard pattern](https://github.com/rust-lang/rust-analyzer/pull/12596)
 
 ### Rust Compiler Performance Triage
 
@@ -268,7 +328,20 @@ They should be of the form:
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Rwlock vs Mutex? Please, tell me like I'm 5
+
+<!-- -->
+> Mutex: "Mom says it's my turn on the synchronization primitive."  
+> vs.  
+> Write lock: "Hey! You all are not allowed to look until I'm done writing!"
+> Read lock: "Hey! You are not allowed to edit what you wrote until we're done reading it!"
+
+<!-- -->
+> Thanks for an actual 5 year old reply, made me laugh
+
+– [/u/LyonSyonII and /u/everything-narrative on /r/rust](https://www.reddit.com/r/rust/comments/vcaabk/rwlock_vs_mutex_please_tell_me_like_im_5/)
+
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1254) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
