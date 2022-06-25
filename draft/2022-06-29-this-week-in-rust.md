@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Cross v0.2.2 Released](https://www.reddit.com/r/rust/comments/vk2xfc/cross_v022_released/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
