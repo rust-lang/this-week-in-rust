@@ -34,7 +34,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-- [Release-plz: release Rust packages from CI](https://www.marcoieni.com/2022/06/release-plz-release-rust-packages-from-ci/)
+
+* [Release-plz: release Rust packages from CI](https://www.marcoieni.com/2022/06/release-plz-release-rust-packages-from-ci/)
 
 ### Observations/Thoughts
 
