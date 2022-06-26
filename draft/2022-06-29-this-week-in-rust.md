@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [Integrating a Svelte app with Rust using WebAssembly](https://blog.logrocket.com/integrating-svelte-app-rust-webassembly/)
 
 ### Research
 
