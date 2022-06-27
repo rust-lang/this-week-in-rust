@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Deadlock-free Mutexes and Directed Acyclic Graphs](https://bertptrs.nl/2022/06/23/deadlock-free-mutexes-and-directed-acyclic-graphs.html)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
