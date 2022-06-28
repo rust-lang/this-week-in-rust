@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Many modes: A GATs pattern](https://smallcultfollowing.com/babysteps/blog/2022/06/27/many-modes-a-gats-pattern)
+
 ### Rust Walkthroughs
 
 ### Research
