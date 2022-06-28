@@ -178,6 +178,10 @@ They should be of the form:
 
 -->
 
+**Apple**
+
+* [Rust Data Infrastructure Engineer AI/ML (Seattle or London)](https://jobs.apple.com/en-us/details/200358228/ai-ml-data-infrastructure-engineer-machine-learning-platform-and-technologies?team=SFTWR), (or send us an email/resume: `a_rust_team \at group.apple.com`)
+
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
 # Quote of the Week
