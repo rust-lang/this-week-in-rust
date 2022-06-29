@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 * [Play Ping-Pong with Lunatic 🦀 UDP](https://missmissm.medium.com/play-ping-pong-with-lunatic-udp-ef557a22a604)
 
+* [Fetch-Data: New crate to download hash-verified files if necessary](https://docs.rs/fetch-data/latest/fetch_data/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
