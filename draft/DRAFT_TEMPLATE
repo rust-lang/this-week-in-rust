@@ -93,17 +93,14 @@ Email the [Rust Community Team][community] for access.
 [calendar]: https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com
 [community]: mailto:community-team@rust-lang.org
 
-# Rust Jobs
 
 <!--
 
-New jobs can be posted here.
+Rust Jobs:
 
-They should be of the form:
+TWiR no longer publishes a jobs section. You can read more about this change here:
 
-**Company Name**
-
-* [Job Title (Location)](https://example.com/my-job-link)
+https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
