@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Why Do Programmers Love Rust? (video)](https://youtu.be/vEuG2YoJZJw)
+
 ### Rust Walkthroughs
 
 ### Research
