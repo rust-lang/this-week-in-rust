@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 * [Play Ping-Pong with Lunatic 🦀 UDP](https://missmissm.medium.com/play-ping-pong-with-lunatic-udp-ef557a22a604)
+* [Markdown Blog in Rust with Tide](https://nyxtom.dev/2022/06/26/tide)
 
 ### Research
 
