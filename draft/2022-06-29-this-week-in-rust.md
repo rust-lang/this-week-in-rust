@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 
 * [Cross v0.2.2 Released](https://www.reddit.com/r/rust/comments/vk2xfc/cross_v022_released/)
 
+* [Release-plz: release Rust packages from CI](https://www.marcoieni.com/2022/06/release-plz-release-rust-packages-from-ci/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
