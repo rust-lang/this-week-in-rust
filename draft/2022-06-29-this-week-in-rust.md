@@ -237,12 +237,10 @@ They should be of the form:
 # Quote of the Week
 
 > JG: mem::replace / mem::swap ===
-> ![Indiana Jones swapping the artifact for a bag of sand in a temple](https://c.tenor.com/eqLNYv0A9TQAAAAC/swap-indiana-jones.gif)
-<!-- TODO: download and re-host the image to avoid trouble -->
-
+> [Indiana Jones swapping the artifact for a bag of sand in a temple](https://c.tenor.com/eqLNYv0A9TQAAAAC/swap-indiana-jones.gif)
+>
 > CV: except rustc would tell Indy that's a type mismatch
-<!-- -->
-
+>
 > JG: Yes, that would be the boulder, I assume.
 >
 > Older compilers were more aggressive in error reporting.
