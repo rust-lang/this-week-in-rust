@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [Call for applications: Knurling-rs Summer of Code 2022 🦀](https://ferrous-systems.com/blog/knurling-summer-of-code/)
 
 ### Observations/Thoughts
 
