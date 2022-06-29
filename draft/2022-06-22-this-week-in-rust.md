@@ -225,6 +225,10 @@ They should be of the form:
 
 # Rust Jobs
 
+**WalletConnect**
+
+* [Software Engineer (Remote or Berlin, Germany)](https://rustjobs.dev/featured-jobs/WalletConnect-Software-Engineer-jCks2m59CxmWzvQdVEc3)
+
 **Matician**
 
 * [Robotics Systems Engineer - FT and intern roles (Mountain View, CA, US)](https://jobs.lever.co/matician/3d2a49ae-43c9-41c0-b9e8-7b87e7429b8f)
