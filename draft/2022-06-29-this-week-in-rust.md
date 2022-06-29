@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Why Do Programmers Love Rust?](https://www.youtube.com/watch?v=vEuG2YoJZJw)
+
 ### Rust Walkthroughs
 
 * [Play Ping-Pong with Lunatic 🦀 UDP](https://missmissm.medium.com/play-ping-pong-with-lunatic-udp-ef557a22a604)
