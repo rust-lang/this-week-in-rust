@@ -77,7 +77,23 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Overall, a positive week for compiler performance with regressions mainly being relegated to smaller issues. This can be see by the fact that 95 test cases in real world crates were improvements while regressions only happened in 22 test cases. The largest improvement was by @nnethercote where the compilation of `#[derive(Debug)]` was improved. This led to an average of 1% improvement in compile times across 124 real world crate test cases.
+
+Triage done by **@rylev**.
+Revision range: [abace0..baf382](https://perf.rust-lang.org/?start=abace0a1f17986d89aedf610819deab2b4afee56&end=baf382e63c023259fa1f9042f8f479f183ca6ed3&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+|            | mean | max | count |
+|:----------:|:----:|:---:|:-----:|
+| Regressions 😿 <br /> (primary) | 0.6% | 2.4% | 22    |
+| Regressions 😿 <br /> (secondary) | 0.5% | 1.0% | 35    |
+| Improvements 🎉 <br /> (primary) | -1.1% | -5.2% | 95    |
+| Improvements 🎉 <br /> (secondary) | -2.3% | -10.3% | 35    |
+| All 😿🎉 (primary) | -0.8% | -5.2% | 117   |
+
+3 Regressions, 3 Improvements, 4 Mixed; 5 of them in rollups
+34 artifact comparisons made in total
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
