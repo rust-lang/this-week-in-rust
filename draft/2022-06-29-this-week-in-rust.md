@@ -28,16 +28,12 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
 * [Call for testing: Cargo sparse-registry](https://blog.rust-lang.org/2022/06/22/sparse-registry-testing.html)
 * [Announcing The RustConf PostConf UnConf](https://blog.rust-lang.org/2022/06/28/rust-unconference.html)
 * [1.62.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2022/06/28/1.62.0-prerelease.html)
 
 ### Foundation
-
 * [Making a Career Move with Rust: A Developer’s Approach](https://foundation.rust-lang.org/news/2022-06-21-guest-blog-series-dotan-nahum/)
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [rust-analyzer changelog #135](https://rust-analyzer.github.io/thisweek/2022/06/27/changelog-135.html)
@@ -65,7 +61,6 @@ and just ask the editors to select the category.
 * [audio] [Zig with Andrew Kelley](https://rustacean-station.org/episode/andrew-kelley/)
 * [audio] [This Week in Rust - Issue 446](https://rustacean-station.org/episode/twir-446/)
 
-
 ### Rust Walkthroughs
 * [Rust Default Values for Maintainability](https://cj.rs/blog/rust-default-values-for-maintainability/)
 * [rust-phf: the perfect hash function](https://simplabs.com/blog/2022/06/23/the-perfect-hash-function/)
@@ -73,13 +68,12 @@ and just ask the editors to select the category.
 * [Play Ping-Pong with Lunatic 🦀 UDP](https://missmissm.medium.com/play-ping-pong-with-lunatic-udp-ef557a22a604)
 * [Markdown Blog in Rust with Tide](https://nyxtom.dev/2022/06/26/tide)
 * [Integrating a Svelte app with Rust using WebAssembly](https://blog.logrocket.com/integrating-svelte-app-rust-webassembly/)
+* [STM32F4 Embedded Rust at the HAL: GPIO Button Controlled Blinking](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-gpio-button-controlled-blinking)
+* [Open Source Walk-Through with Rust & SeaORM](https://www.nahua.dev/blog/open-source-walk-through-with-rust-seaorm/)
 * [video] [Rc and RefCell Smart Pointers](https://www.youtube.com/watch?v=KYJ95TxEC18)
 * [video] [Microdosing Rust: Why & How to Get Started with AVR?](https://www.youtube.com/watch?v=3o_lzQMLU5Q)
 
-### Research
-
 ### Miscellaneous
-
 * [Deadlock-free Mutexes and Directed Acyclic Graphs](https://bertptrs.nl/2022/06/23/deadlock-free-mutexes-and-directed-acyclic-graphs.html)
 * [Call for applications: Knurling-rs Summer of Code 2022 🦀](https://ferrous-systems.com/blog/knurling-summer-of-code/)
 * [Memory Safety for the World’s Largest Software Project](https://www.memorysafety.org/blog/memory-safety-in-linux-kernel/)
@@ -101,6 +95,9 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [lockdiff - Add some automated tests](https://github.com/your-tools/lockdiff/issues/1)
+* [pest - Transferring maintenance & keeping pest alive](https://github.com/pest-parser/pest/discussions/606)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -272,6 +269,8 @@ Rusty Events between 2022-06-29 - 2022-07-27 🦀
     * [**Get started with Rust and stories from the frontlines**](https://www.meetup.com/rust-nederland/events/286582960/)
 * 2022-06-30 | Copenhagen, DK | [Copenhagen Rust Group](https://cph.rs/)
     * [**Hack Night #26**](https://cph.rs/)
+* 2022-07-06 | Paris, FR | [Stockly](https://www.welcometothejungle.com/fr)
+    * [**Rust Meetup in Paris**](https://www.eventbrite.com/e/rust-meetup-in-paris-hosted-by-stockly-tickets-358592809747)
 
 ### North America
 
@@ -295,19 +294,7 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
-<!--
-
-New jobs can be posted here.
-
-They should be of the form:
-
-**Company Name**
-
-* [Job Title (Location)](https://example.com/my-job-link)
-
--->
-
-*Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+We have made some changes to our jobs section, please see [this GitHub issue](https://github.com/rust-lang/this-week-in-rust/issues/3412) for an explanation and the [most current Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/utav5l/official_rrust_whos_hiring_thread_for_jobseekers/) for job postings.
 
 # Quote of the Week
 
