@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [Quartz Scheduler](https://crates.io/crates/quartz_sched): Minimalist scheduling library for Rust
 
 ### Observations/Thoughts
 
