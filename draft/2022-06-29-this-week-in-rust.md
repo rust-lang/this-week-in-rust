@@ -46,7 +46,6 @@ and just ask the editors to select the category.
 * [Release-plz: release Rust packages from CI](https://www.marcoieni.com/2022/06/release-plz-release-rust-packages-from-ci/)
 * [fmtools: Reinventing Rust formatting syntax](https://casualhacks.net/blog/2022-06-24/reinventing-rust-fmt/)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W25](https://www.fornjot.app/blog/weekly-dev-log/2022-w25/)
-* [Play Ping-Pong with Lunatic 🦀 UDP](https://missmissm.medium.com/play-ping-pong-with-lunatic-udp-ef557a22a604)
 * [Fetch-Data: New crate to download hash-verified files if necessary](https://docs.rs/fetch-data/latest/fetch_data/)
 
 ### Observations/Thoughts
