@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 * [Release-plz: release Rust packages from CI](https://www.marcoieni.com/2022/06/release-plz-release-rust-packages-from-ci/)
 * [fmtools: Reinventing Rust formatting syntax](https://casualhacks.net/blog/2022-06-24/reinventing-rust-fmt/)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W25](https://www.fornjot.app/blog/weekly-dev-log/2022-w25/)
+* [This week in Databend #48: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-06-29-databend-weekly/)
 * [This week in Fluvio #37: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0037/)
 * [Fetch-Data: New crate to download hash-verified files if necessary](https://docs.rs/fetch-data/latest/fetch_data/)
 
