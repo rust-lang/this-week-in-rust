@@ -105,6 +105,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [lockdiff - Add some automated tests](https://github.com/your-tools/lockdiff/issues/1)
+* [pest - Transferring maintenance & keeping pest alive](https://github.com/pest-parser/pest/discussions/606)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
