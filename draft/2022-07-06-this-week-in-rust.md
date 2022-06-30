@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Plantuml encoding in Rust using TDD](https://maksugr.com/posts/plantuml-encoding-in-rust-using-tdd)
 
 ### Research
 
