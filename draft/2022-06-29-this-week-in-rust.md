@@ -70,6 +70,7 @@ and just ask the editors to select the category.
 * [rust-phf: the perfect hash function](https://simplabs.com/blog/2022/06/23/the-perfect-hash-function/)
 * [Generative metatag images in Rust](https://www.shuttle.rs/blog/2022/06/23/generative-metatag-images)
 * [Play Ping-Pong with Lunatic 🦀 UDP](https://missmissm.medium.com/play-ping-pong-with-lunatic-udp-ef557a22a604)
+* [Markdown Blog in Rust with Tide](https://nyxtom.dev/2022/06/26/tide)
 * [Integrating a Svelte app with Rust using WebAssembly](https://blog.logrocket.com/integrating-svelte-app-rust-webassembly/)
 * [video] [Rc and RefCell Smart Pointers](https://www.youtube.com/watch?v=KYJ95TxEC18)
 * [video] [Microdosing Rust: Why & How to Get Started with AVR?](https://www.youtube.com/watch?v=3o_lzQMLU5Q)
