@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Many modes: A GATs pattern](https://smallcultfollowing.com/babysteps/blog/2022/06/27/many-modes-a-gats-pattern)
 * [video] [Why Do Programmers Love Rust?](https://www.youtube.com/watch?v=vEuG2YoJZJw)
 
 ### Rust Walkthroughs
