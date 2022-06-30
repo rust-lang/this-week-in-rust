@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Deadlock-free Mutexes and Directed Acyclic Graphs](https://bertptrs.nl/2022/06/23/deadlock-free-mutexes-and-directed-acyclic-graphs.html)
 * [Call for applications: Knurling-rs Summer of Code 2022 🦀](https://ferrous-systems.com/blog/knurling-summer-of-code/)
 
 ## Crate of the Week
