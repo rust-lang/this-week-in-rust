@@ -29,30 +29,59 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Call for testing: Cargo sparse-registry](https://blog.rust-lang.org/2022/06/22/sparse-registry-testing.html)
+* [Announcing The RustConf PostConf UnConf](https://blog.rust-lang.org/2022/06/28/rust-unconference.html)
+* [1.62.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2022/06/28/1.62.0-prerelease.html)
+
 ### Foundation
+
+* [Making a Career Move with Rust: A Developer’s Approach](https://foundation.rust-lang.org/news/2022-06-21-guest-blog-series-dotan-nahum/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [rust-analyzer changelog #135](https://rust-analyzer.github.io/thisweek/2022/06/27/changelog-135.html)
+* [IntelliJ Rust Changelog #173](https://intellij-rust.github.io/2022/06/27/changelog-173.html)
 * [Cross v0.2.2 Released](https://www.reddit.com/r/rust/comments/vk2xfc/cross_v022_released/)
 * [Release-plz: release Rust packages from CI](https://www.marcoieni.com/2022/06/release-plz-release-rust-packages-from-ci/)
+* [fmtools: Reinventing Rust formatting syntax](https://casualhacks.net/blog/2022-06-24/reinventing-rust-fmt/)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W25](https://www.fornjot.app/blog/weekly-dev-log/2022-w25/)
 * [This week in Fluvio #37: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0037/)
+* [Fetch-Data: New crate to download hash-verified files if necessary](https://docs.rs/fetch-data/latest/fetch_data/)
 
 ### Observations/Thoughts
-
+* [Many modes: a GATs pattern](https://smallcultfollowing.com/babysteps/blog/2022/06/27/many-modes-a-gats-pattern/)
+* [Complexity](https://www.ncameron.org/blog/complexity/)
+* [Fuzzing rust-minidump for Embarrassment and Crashes – Part 2](https://hacks.mozilla.org/2022/06/fuzzing-rust-minidump-for-embarrassment-and-crashes/)
+* [PrettySize 0.3 release and a weakness in rust’s type system](https://neosmart.net/blog/2022/prettysize-0-3-release-and-a-weakness-in-rusts-type-system/)
+* [Obscure Rust: reborrowing is a half-baked feature](https://haibane-tenshi.github.io/rust-reborrowing/)
+* [An Unfortunate Experience with Rust](https://blog.polybdenum.com/2022/06/25/an-unfortunate-experience-with-rust.html)
+* [(Ab)using Rust traits to write silly things](https://ihatereality.space/08-abusing-rust-traits-to-write-silly-things/)
 * [video] [Why Do Programmers Love Rust?](https://www.youtube.com/watch?v=vEuG2YoJZJw)
+* [video] [Day in the Life of Open Source Maintenance](https://www.youtube.com/watch?v=lkwkBry1xcE)
+* [video] [RTIC: Real time concurrency on ARM Cortex-M](https://www.youtube.com/watch?v=mzFTjn9eftU)
+* [audio] [What's New in Rust 1.60 and 1.61](https://rustacean-station.org/episode/rust-1.60-1.61/)
+* [audio] [Zig with Andrew Kelley](https://rustacean-station.org/episode/andrew-kelley/)
+* [audio] [This Week in Rust - Issue 446](https://rustacean-station.org/episode/twir-446/)
+
 
 ### Rust Walkthroughs
-
+* [Rust Default Values for Maintainability](https://cj.rs/blog/rust-default-values-for-maintainability/)
+* [rust-phf: the perfect hash function](https://simplabs.com/blog/2022/06/23/the-perfect-hash-function/)
+* [Generative metatag images in Rust](https://www.shuttle.rs/blog/2022/06/23/generative-metatag-images)
 * [Play Ping-Pong with Lunatic 🦀 UDP](https://missmissm.medium.com/play-ping-pong-with-lunatic-udp-ef557a22a604)
+* [Integrating a Svelte app with Rust using WebAssembly](https://blog.logrocket.com/integrating-svelte-app-rust-webassembly/)
+* [video] [Rc and RefCell Smart Pointers](https://www.youtube.com/watch?v=KYJ95TxEC18)
+* [video] [Microdosing Rust: Why & How to Get Started with AVR?](https://www.youtube.com/watch?v=3o_lzQMLU5Q)
 
 ### Research
 
 ### Miscellaneous
 
+* [Deadlock-free Mutexes and Directed Acyclic Graphs](https://bertptrs.nl/2022/06/23/deadlock-free-mutexes-and-directed-acyclic-graphs.html)
 * [Call for applications: Knurling-rs Summer of Code 2022 🦀](https://ferrous-systems.com/blog/knurling-summer-of-code/)
+* [Memory Safety for the World’s Largest Software Project](https://www.memorysafety.org/blog/memory-safety-in-linux-kernel/)
+* [Linus Torvalds: Rust For The Kernel Could Possibly Be Merged For Linux 5.20](https://www.phoronix.com/scan.php?page=news_item&px=Rust-For-Linux-5.20-Possible)
 
 ## Crate of the Week
 
