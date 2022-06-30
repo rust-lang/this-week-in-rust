@@ -46,9 +46,10 @@ and just ask the editors to select the category.
 * [Release-plz: release Rust packages from CI](https://www.marcoieni.com/2022/06/release-plz-release-rust-packages-from-ci/)
 * [fmtools: Reinventing Rust formatting syntax](https://casualhacks.net/blog/2022-06-24/reinventing-rust-fmt/)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W25](https://www.fornjot.app/blog/weekly-dev-log/2022-w25/)
+* [Play Ping-Pong with Lunatic 🦀 UDP](https://missmissm.medium.com/play-ping-pong-with-lunatic-udp-ef557a22a604)
+* [Fetch-Data: New crate to download hash-verified files if necessary](https://docs.rs/fetch-data/latest/fetch_data/)
 
 ### Observations/Thoughts
-
 * [Many modes: a GATs pattern](https://smallcultfollowing.com/babysteps/blog/2022/06/27/many-modes-a-gats-pattern/)
 * [Complexity](https://www.ncameron.org/blog/complexity/)
 * [Fuzzing rust-minidump for Embarrassment and Crashes – Part 2](https://hacks.mozilla.org/2022/06/fuzzing-rust-minidump-for-embarrassment-and-crashes/)
@@ -65,11 +66,11 @@ and just ask the editors to select the category.
 
 
 ### Rust Walkthroughs
-
 * [Rust Default Values for Maintainability](https://cj.rs/blog/rust-default-values-for-maintainability/)
 * [rust-phf: the perfect hash function](https://simplabs.com/blog/2022/06/23/the-perfect-hash-function/)
 * [Generative metatag images in Rust](https://www.shuttle.rs/blog/2022/06/23/generative-metatag-images)
 * [Play Ping-Pong with Lunatic 🦀 UDP](https://missmissm.medium.com/play-ping-pong-with-lunatic-udp-ef557a22a604)
+* [Integrating a Svelte app with Rust using WebAssembly](https://blog.logrocket.com/integrating-svelte-app-rust-webassembly/)
 * [video] [Rc and RefCell Smart Pointers](https://www.youtube.com/watch?v=KYJ95TxEC18)
 * [video] [Microdosing Rust: Why & How to Get Started with AVR?](https://www.youtube.com/watch?v=3o_lzQMLU5Q)
 
@@ -77,6 +78,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Deadlock-free Mutexes and Directed Acyclic Graphs](https://bertptrs.nl/2022/06/23/deadlock-free-mutexes-and-directed-acyclic-graphs.html)
 * [Call for applications: Knurling-rs Summer of Code 2022 🦀](https://ferrous-systems.com/blog/knurling-summer-of-code/)
 * [Memory Safety for the World’s Largest Software Project](https://www.memorysafety.org/blog/memory-safety-in-linux-kernel/)
 * [Linus Torvalds: Rust For The Kernel Could Possibly Be Merged For Linux 5.20](https://www.phoronix.com/scan.php?page=news_item&px=Rust-For-Linux-5.20-Possible)
