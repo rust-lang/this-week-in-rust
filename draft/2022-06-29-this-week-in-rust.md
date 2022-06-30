@@ -73,6 +73,8 @@ and just ask the editors to select the category.
 * [Play Ping-Pong with Lunatic 🦀 UDP](https://missmissm.medium.com/play-ping-pong-with-lunatic-udp-ef557a22a604)
 * [Markdown Blog in Rust with Tide](https://nyxtom.dev/2022/06/26/tide)
 * [Integrating a Svelte app with Rust using WebAssembly](https://blog.logrocket.com/integrating-svelte-app-rust-webassembly/)
+* [STM32F4 Embedded Rust at the HAL: GPIO Button Controlled Blinking](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-gpio-button-controlled-blinking)
+* [Open Source Walk-Through with Rust & SeaORM](https://www.nahua.dev/blog/open-source-walk-through-with-rust-seaorm/)
 * [video] [Rc and RefCell Smart Pointers](https://www.youtube.com/watch?v=KYJ95TxEC18)
 * [video] [Microdosing Rust: Why & How to Get Started with AVR?](https://www.youtube.com/watch?v=3o_lzQMLU5Q)
 
@@ -101,6 +103,8 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [lockdiff - Add some automated tests](https://github.com/your-tools/lockdiff/issues/1)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -272,6 +276,8 @@ Rusty Events between 2022-06-29 - 2022-07-27 🦀
     * [**Get started with Rust and stories from the frontlines**](https://www.meetup.com/rust-nederland/events/286582960/)
 * 2022-06-30 | Copenhagen, DK | [Copenhagen Rust Group](https://cph.rs/)
     * [**Hack Night #26**](https://cph.rs/)
+* 2022-07-06 | Paris, FR | [Stockly](https://www.welcometothejungle.com/fr)
+    * [**Rust Meetup in Paris**](https://www.eventbrite.com/e/rust-meetup-in-paris-hosted-by-stockly-tickets-358592809747)
 
 ### North America
 
