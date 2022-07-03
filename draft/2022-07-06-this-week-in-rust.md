@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [RLS Deprecation](https://blog.rust-lang.org/2022/07/01/RLS-deprecation.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
