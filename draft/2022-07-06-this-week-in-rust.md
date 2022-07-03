@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [A const builder pattern in Rust](https://wapl.es/rust/2022/07/03/const-builder-pattern.html)
+
 ### Research
 
 ### Miscellaneous
