@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [HexoSynth (modular synthesizer) - Devlog 3 - Chunk of GUI Work](https://m8geil.de/posts/hexosynth-3/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
