@@ -70,15 +70,51 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 <!-- Perf results go here -->
 
-### Call for Testing
-
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* *No RFCs issued a call for testing this week.*
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
+
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* *No RFCs were approved this week.*
+
+### Final Comment Period
+
+Every week [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
+which are reaching a decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* *No RFCs entered Final Comment Period this week.*
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: merge] [Make outlives::{components,verify} agree](https://github.com/rust-lang/rust/pull/97406)
+* [disposition: merge] [Enforce that layout size fits in isize in Layout](https://github.com/rust-lang/rust/pull/95295)
+* [disposition: merge] [Tracking Issue for feature(core_c_str) and feature(alloc_c_string)](https://github.com/rust-lang/rust/issues/98314)
+* [disposition: merge] [Remove restrictions on compare-exchange memory ordering.](https://github.com/rust-lang/rust/pull/98383)
+* [disposition: merge] [Partially stabilize const_slice_from_raw_parts](https://github.com/rust-lang/rust/pull/97522)
+* [disposition: merge] [Implement network primitives with ideal Rust layout, not C system layout](https://github.com/rust-lang/rust/pull/78802)
+* [disposition: merge] [Tracking Issue for `feature future_poll_fn`](https://github.com/rust-lang/rust/issues/72302)
+* [disposition: merge] [Stabilize const-weak-new](https://github.com/rust-lang/rust/pull/95965)
+* [disposition: merge] [stabilise mixed_integer_ops](https://github.com/rust-lang/rust/pull/98345)
+* [disposition: merge] [Implement `fmt::Write` for `OsString`](https://github.com/rust-lang/rust/pull/97915)
+* [disposition: merge] [Tracking Issue for process_set_process_group](https://github.com/rust-lang/rust/issues/93857)
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* [new] [Don't allow unwinding from Drop impls](https://github.com/rust-lang/rfcs/pull/3288)
+* [new] [RFC: Add native code coverage support in Cargo](https://github.com/rust-lang/rfcs/pull/3287)
 
 ## Upcoming Events
 
