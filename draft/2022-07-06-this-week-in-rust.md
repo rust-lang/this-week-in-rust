@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [(Ab)using Rust traits to write silly things](https://ihatereality.space/08-abusing-rust-traits-to-write-silly-things/)
+
 ### Research
 
 ### Miscellaneous
