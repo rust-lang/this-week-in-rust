@@ -86,22 +86,18 @@ Rusty Events between 2022-07-06 - 2022-08-03 🦀
 
 ### Virtual
 
-* 2022-06-29 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
-    * [**Rust-Meetup**](https://www.meetup.com/Rust-Community-Stuttgart/events/qwgrssydcjbmc/)
-* 2022-06-30 | Linz, AT | [Rust Linz](https://www.meetup.com/Rust-Linz/)
-    * [**Rust Meetup Linz - 23th Edition**](https://www.meetup.com/Rust-Linz/events/286029968/)
-* 2022-07-05 | Austin, TX, US | [WebAssembly and WasmEdge](https://www.meetup.com/webassembly-and-wasmedge/)
-    * [**Monthly WasmEdge Community Meeting #10**](https://www.meetup.com/webassembly-and-wasmedge/events/zzdnrsydckbhb/)
-* 2022-07-05 | Beijing, CN | [WebAssembly and Rust Meetup (Rustlang)](https://www.meetup.com/wasm-rust-meetup/)
-    * [**Monthly WasmEdge Community Meeting, a CNCF sandbox WebAssembly runtime**](https://www.meetup.com/wasm-rust-meetup/events/jbfnrsydckbhb/)
-* 2022-07-05 | Buffalo, NY, US | [Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/)
-    * [**Buffalo Rust User Group, First Tuesdays**](https://www.meetup.com/buffalo-rust-meetup/events/xgmfssydckbhb/)
 * 2022-07-06 | Indianapolis, IN, US | [Indy Rust](https://www.meetup.com/indyrs/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/qwtdjsydckbjb/)
 * 2022-07-07 | Charlottesville, VA, US | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Rust, nalgebra, and Fourier Optics**](https://www.meetup.com/charlottesville-rust-meetup/events/285818136/)
 * 2022-07-09 | Virtual | [Rust Game Dev](https://github.com/rust-gamedev/wg)
     * [**Monthly Meetup**](https://discord.gg/yNtPTb2&sa=D&source=calendar&usd=2&usg=AOvVaw2pjyb-YBsl99IFDmrOKoOK)
+* 2022-07-11 | Minneapolis, MN, US | [Minneapolis Rust Meetup](https://www.meetup.com/Minneapolis-Rust-Meetup/)
+    * [**Rust Meetup - "Lifetimes" and Social Hour**](https://www.meetup.com/Minneapolis-Rust-Meetup/events/286994065/)
+* 2022-07-12 | Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
+    * [**Second Tuesday**](https://www.meetup.com/Dallas-Rust/events/vqtjcsydckbqb/)
+* 2022-07-12 | Munich, DE | [Rust Munich](https://www.meetup.com/rust-munich/)
+    * [**Rust Munich 2022 / 2 - hybrid**](https://www.meetup.com/rust-munich/events/286935763/)
 * 2022-07-13 | Boulder, CO, US | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
     * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydckbrb/)
 * 2022-07-13 | Malaysia, MY | [Rust Malaysia Meetup](https://rust-malaysia.github.io/meetup/)
@@ -116,27 +112,30 @@ Rusty Events between 2022-07-06 - 2022-08-03 🦀
     * [**Mid-month Rustful**](https://www.meetup.com/RustDC/events/vdhxgsydckbzb/)
 * 2022-07-21 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
     * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/qtvtvsydckbcc/)
+* 2022-07-26 | Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
+    * [**Last Tuesday**](https://www.meetup.com/Dallas-Rust/events/jqxqwrydckbjc/)
+* 2022-07-29 | Minneapolis, MN, US | [Minneapolis Rust Meetup](https://www.meetup.com/Minneapolis-Rust-Meetup/)
+    * [**Beginner Rust Open "Office Hours"**](https://www.meetup.com/Minneapolis-Rust-Meetup/events/286993342/)
 * 2022-07-31 | Seattle, WA, US | [Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/)
     * [**Intro to Monads for Rustaceans**](https://www.meetup.com/Seattle-Rust-Meetup/events/286692243/)
-
-### Asia
-
-* 2022-07-04 | Tel Aviv, IL | [Rust TLV](https://www.meetup.com/rust-tlv/)
-    * [**Rust Interop, Rewrites and fun**](https://www.meetup.com/rust-tlv/events/286610368/)
+* 2022-08-02 | Buffalo, NY, US | [Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/)
+    * [**Buffalo Rust User Group, First Tuesdays**](https://www.meetup.com/buffalo-rust-meetup/events/xgmfssydclbdb/)
+* 2022-08-03 | Indianapolis, IN, US | [Indy Rust](https://www.meetup.com/indyrs/)
+    * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/qwtdjsydclbfb/)
+* 2022-08-03 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
+    * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/dvvtvsydclbfb/)
 
 ### Europe
 
-* 2022-06-29 | Nijmegen, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
-    * [**Get started with Rust and stories from the frontlines**](https://www.meetup.com/rust-nederland/events/286582960/)
-* 2022-06-30 | Copenhagen, DK | [Copenhagen Rust Group](https://cph.rs/)
-    * [**Hack Night #26**](https://cph.rs/)
 * 2022-07-06 | Paris, FR | [Stockly](https://www.welcometothejungle.com/fr)
     * [**Rust Meetup in Paris**](https://www.eventbrite.com/e/rust-meetup-in-paris-hosted-by-stockly-tickets-358592809747)
+* 2022-07-12 | Munich, DE | [Rust Munich](https://www.meetup.com/rust-munich/)
+    * [**Rust Munich 2022 / 2 - hybrid**](https://www.meetup.com/rust-munich/events/286935763/)
 
 ### North America
 
-* 2022-06-29 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/)
-    * [**Rust Lunch**](https://www.meetup.com/rust-atx/events/286596997/)
+* 2022-07-11 | Minneapolis, MN, US | [Minneapolis Rust Meetup](https://www.meetup.com/Minneapolis-Rust-Meetup/)
+    * [**Rust Meetup - "Lifetimes" and Social Hour**](https://www.meetup.com/Minneapolis-Rust-Meetup/events/286994065/)
 * 2022-07-13 | Atlanta, GA, US | [Rust Atlanta](https://www.meetup.com/rust-atl/)
     * [**Grab a beer with fellow Rustaceans**](https://www.meetup.com/rust-atl/events/pczdssydckbrb/)
 * 2022-07-14 | Columbus, IL | [Columbus Rust Society](https://www.meetup.com/columbus-rs/)
@@ -145,6 +144,11 @@ Rusty Events between 2022-07-06 - 2022-08-03 🦀
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/wjkjssydckbzb/)
 * 2022-07-26 | Austin, TX, US | [ATX Rustaceans](https://www.meetup.com/atx-rustaceans/)
     * [**First Official Meetup - July 2022**](https://www.meetup.com/atx-rustaceans/events/285878081/)
+
+### Oceania
+
+* 2022-07-28 | Brisbane, QLD, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane/)
+    * [**July Meetup**](https://www.meetup.com/rust-brisbane/events/286889804/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
