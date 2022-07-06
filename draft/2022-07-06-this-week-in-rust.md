@@ -38,8 +38,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-* [Cph.rs Hack Night - Simon Rasmussen on WASM and WAT the fp-bindgen](https://youtu.be/vJqhqRmSb68)
-* [Cph.rs Hack Night - David Pedersen on Axum](https://youtu.be/ETdmhh7OQpA)
+* [video] [Cph.rs Hack Night - Simon Rasmussen on WASM and WAT the fp-bindgen](https://youtu.be/vJqhqRmSb68)
+* [video] [Cph.rs Hack Night - David Pedersen on Axum](https://youtu.be/ETdmhh7OQpA)
 
 ### Research
 
