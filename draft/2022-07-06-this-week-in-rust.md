@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 * [More than you've ever wanted to know about errors in Rust](https://www.shuttle.rs/blog/2022/06/30/error-handling)
 * [Minimalist Guide to Axum](https://tech.marksblogg.com/axum-rust-web-framework.html)
 * [Insights of porting Hugging Face Rust Tokenizers to WASM](https://blog.mithrilsecurity.io/porting-tokenizers-to-wasm/)
+* [Minimalist Guide to Axum](https://tech.marksblogg.com/axum-rust-web-framework.html)
 * [audio] [New Rustacean with Chris Krycho](https://rustacean-station.org/episode/chris-krycho/)
 * [video] [The Future of Programming Languages](https://www.youtube.com/watch?v=oMpqj_nMsg0)
 
@@ -58,6 +59,7 @@ and just ask the editors to select the category.
 * [Pathfinding in Rust: A tutorial with examples](https://blog.logrocket.com/pathfinding-rust-tutorial-examples/)
 * [Plantuml encoding in Rust using TDD](https://maksugr.com/posts/plantuml-encoding-in-rust-using-tdd)
 * [A const builder pattern in Rust](https://wapl.es/rust/2022/07/03/const-builder-pattern.html)
+* [STM32F4 Embedded Rust at the HAL: Button Controlled Blinking by Timer Polling](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-button-controlled-blinking-by-timer-polling)
 * [video] [Simple error handling in Rust](https://www.youtube.com/watch?v=g6WUHcyjsfc)
 * [video] [Making a Rust crate compile faster](https://www.youtube.com/watch?v=pMiqRM5ooNw)
 * [video] [Rust for the impatient](https://www.youtube.com/watch?v=br3GIIQeefY)
