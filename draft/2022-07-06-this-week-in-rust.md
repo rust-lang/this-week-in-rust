@@ -46,7 +46,6 @@ and just ask the editors to select the category.
 * [More than you've ever wanted to know about errors in Rust](https://www.shuttle.rs/blog/2022/06/30/error-handling)
 * [Minimalist Guide to Axum](https://tech.marksblogg.com/axum-rust-web-framework.html)
 * [Insights of porting Hugging Face Rust Tokenizers to WASM](https://blog.mithrilsecurity.io/porting-tokenizers-to-wasm/)
-* [Minimalist Guide to Axum](https://tech.marksblogg.com/axum-rust-web-framework.html)
 * [audio] [New Rustacean with Chris Krycho](https://rustacean-station.org/episode/chris-krycho/)
 * [video] [The Future of Programming Languages](https://www.youtube.com/watch?v=oMpqj_nMsg0)
 
