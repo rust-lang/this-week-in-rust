@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 * [video] [Making a Rust crate compile faster](https://www.youtube.com/watch?v=pMiqRM5ooNw)
 
+- [A const builder pattern in Rust](https://wapl.es/rust/2022/07/03/const-builder-pattern.html)
+
 ### Research
 
 ### Miscellaneous
