@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 
 * [HexoSynth (modular synthesizer) - Devlog 3 - Chunk of GUI Work](https://m8geil.de/posts/hexosynth-3/)
 
+* [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-04.html)
+
 ### Observations/Thoughts
 
 * [video] [The Future of Programming Languages](https://www.youtube.com/watch?v=oMpqj_nMsg0)
