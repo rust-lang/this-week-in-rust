@@ -46,13 +46,14 @@ and just ask the editors to select the category.
 * [video] [The Future of Programming Languages](https://www.youtube.com/watch?v=oMpqj_nMsg0)
 
 ### Rust Walkthroughs
+
 * [Plantuml encoding in Rust using TDD](https://maksugr.com/posts/plantuml-encoding-in-rust-using-tdd)
 
-* [video] [Making a Rust crate compile faster](https://www.youtube.com/watch?v=pMiqRM5ooNw)
-
 - [A const builder pattern in Rust](https://wapl.es/rust/2022/07/03/const-builder-pattern.html)
-
 [mirrord internals - hooking libc functions in Rust and fixing bugs](https://metalbear.co/blog/mirrord-internals-hooking-libc-functions-in-rust-and-fixing-bugs/)
+* [video] [Cph.rs Hack Night - Simon Rasmussen on WASM and WAT the fp-bindgen](https://www.youtube.com/watch?v=vJqhqRmSb68)
+* [video] [Cph.rs Hack Night - David Pedersen on Axum](https://www.youtube.com/watch?v=ETdmhh7OQpA)
+* [video] [Making a Rust crate compile faster](https://www.youtube.com/watch?v=pMiqRM5ooNw)
 
 ### Research
 
