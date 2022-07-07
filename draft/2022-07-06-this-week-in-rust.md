@@ -31,10 +31,6 @@ and just ask the editors to select the category.
 * [Announcing Rust 1.62.0](https://blog.rust-lang.org/2022/06/30/Rust-1.62.0.html)
 * [RLS Deprecation](https://blog.rust-lang.org/2022/07/01/RLS-deprecation.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer changelog #136](https://rust-analyzer.github.io/thisweek/2022/07/04/changelog-136.html)
 * [GCC-Rust Feedback Sought - Possibly Aiming For Upstream In GCC 13](https://www.phoronix.com/scan.php?page=news_item&px=GCC-Rust-Upstream-Talk-Thread)
@@ -65,8 +61,6 @@ and just ask the editors to select the category.
 * [video] [Rust for the impatient](https://www.youtube.com/watch?v=br3GIIQeefY)
 * [video] [Cph.rs Hack Night - Simon Rasmussen on WASM and WAT the fp-bindgen](https://www.youtube.com/watch?v=vJqhqRmSb68)
 * [video] [Cph.rs Hack Night - David Pedersen on Axum](https://www.youtube.com/watch?v=ETdmhh7OQpA)
-
-### Research
 
 ### Miscellaneous
 * [DE] [Rust-Code im Linux-Kernel: Merge steht laut Linus Torvalds ab Linux 5.20 bevor](https://www.heise.de/news/Rust-Code-im-Linux-Kernel-Merge-steht-laut-Linus-Torvalds-ab-Linux-5-20-bevor-7154453.html)
