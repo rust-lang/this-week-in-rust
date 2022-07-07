@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Plantuml encoding in Rust using TDD](https://maksugr.com/posts/plantuml-encoding-in-rust-using-tdd)
 
+* [video] [Making a Rust crate compile faster](https://www.youtube.com/watch?v=pMiqRM5ooNw)
+
 ### Research
 
 ### Miscellaneous
