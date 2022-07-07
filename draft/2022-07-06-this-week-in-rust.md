@@ -31,10 +31,6 @@ and just ask the editors to select the category.
 * [Announcing Rust 1.62.0](https://blog.rust-lang.org/2022/06/30/Rust-1.62.0.html)
 * [RLS Deprecation](https://blog.rust-lang.org/2022/07/01/RLS-deprecation.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer changelog #136](https://rust-analyzer.github.io/thisweek/2022/07/04/changelog-136.html)
 * [GCC-Rust Feedback Sought - Possibly Aiming For Upstream In GCC 13](https://www.phoronix.com/scan.php?page=news_item&px=GCC-Rust-Upstream-Talk-Thread)
@@ -58,13 +54,12 @@ and just ask the editors to select the category.
 * [Pathfinding in Rust: A tutorial with examples](https://blog.logrocket.com/pathfinding-rust-tutorial-examples/)
 * [Plantuml encoding in Rust using TDD](https://maksugr.com/posts/plantuml-encoding-in-rust-using-tdd)
 * [A const builder pattern in Rust](https://wapl.es/rust/2022/07/03/const-builder-pattern.html)
+* [STM32F4 Embedded Rust at the HAL: Button Controlled Blinking by Timer Polling](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-button-controlled-blinking-by-timer-polling)
 * [video] [Simple error handling in Rust](https://www.youtube.com/watch?v=g6WUHcyjsfc)
 * [video] [Making a Rust crate compile faster](https://www.youtube.com/watch?v=pMiqRM5ooNw)
 * [video] [Rust for the impatient](https://www.youtube.com/watch?v=br3GIIQeefY)
 * [video] [Cph.rs Hack Night - Simon Rasmussen on WASM and WAT the fp-bindgen](https://www.youtube.com/watch?v=vJqhqRmSb68)
 * [video] [Cph.rs Hack Night - David Pedersen on Axum](https://www.youtube.com/watch?v=ETdmhh7OQpA)
-
-### Research
 
 ### Miscellaneous
 * [DE] [Rust-Code im Linux-Kernel: Merge steht laut Linus Torvalds ab Linux 5.20 bevor](https://www.heise.de/news/Rust-Code-im-Linux-Kernel-Merge-steht-laut-Linus-Torvalds-ab-Linux-5-20-bevor-7154453.html)
@@ -293,6 +288,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 
+# Jobs
+
 <!--
 
 Rust Jobs:
@@ -302,6 +299,8 @@ TWiR has removed the jobs posting section. You can read more about this change h
 https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
+
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/voglel/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
