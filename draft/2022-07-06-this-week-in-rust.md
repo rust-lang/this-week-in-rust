@@ -60,7 +60,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [coprosize](https://crates.io/crates/coprosize), a (you guessed it) program aiding the study of dinosaur dung.
+
+Thanks to [piotr](https://users.rust-lang.org/t/crate-of-the-week/2704/1075) for the self-nomination.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -79,7 +81,61 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+415 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-06-27..2022-07-04
+
+* [proc\_macro/bridge: stop using a remote object handle for proc\_macro `Punct` and `Group`](https://github.com/rust-lang/rust/pull/98188)
+* [diagnostics: structs with new slug syntax](https://github.com/rust-lang/rustc-dev-guide/pull/1377)
+* [clean up arg mismatch diagnostic, generalize tuple wrap suggestion](https://github.com/rust-lang/rust/pull/98607)
+* [improve some inference diagnostics](https://github.com/rust-lang/rust/pull/98497)
+* [some borrowck diagnostic fixes](https://github.com/rust-lang/rust/pull/98603)
+* [make TAIT behave exactly like RPIT](https://github.com/rust-lang/rust/pull/96727)
+* [fix FFI-unwind unsoundness with mixed panic mode](https://github.com/rust-lang/rust/pull/97235)
+* [fix ICE for associated constant generics](https://github.com/rust-lang/rust/pull/98609)
+* [fix glob import ICE in rustdoc JSON format](https://github.com/rust-lang/rust/pull/98611)
+* [fix rust-call ICE in mir-inliner](https://github.com/rust-lang/rust/pull/98823)
+* [fix box with custom allocator in miri](https://github.com/rust-lang/rust/pull/98554)
+* [miri: allow non-ZST allocations to be adjacent](https://github.com/rust-lang/miri/pull/2279)
+* [miri: enable permissive provenance by default](https://github.com/rust-lang/miri/pull/2275)
+* [miri: optimizing Stacked Borrows (part 1?): cache locations of tags in a Borrow Stack](https://github.com/rust-lang/miri/pull/1935)
+* [miri: add `./miri clippy`](https://github.com/rust-lang/miri/pull/2288)
+* [miri: allocation tracking: also print size, alignment, kind of the allocation](https://github.com/rust-lang/miri/pull/2295)
+* [miri: stacked borrows: add option for recursive field retagging](https://github.com/rust-lang/miri/pull/2287)
+* [miri: tweak `int2ptr` diagnostics](https://github.com/rust-lang/miri/pull/2280)
+* [avoid some `&str` to `String` conversions with `MultiSpan::push_span_label`](https://github.com/rust-lang/rust/pull/98668)
+* [avoid unnecessary work in `finalize_resolutions_in`](https://github.com/rust-lang/rust/pull/98569)
+* [don't use match-destructuring for derived ops on structs](https://github.com/rust-lang/rust/pull/98446)
+* [enable MIR inlining](https://github.com/rust-lang/rust/pull/91743)
+* [improve some deriving code and add a test](https://github.com/rust-lang/rust/pull/98376)
+* [optimize non-consuming operators](https://github.com/rust-lang/rust/pull/98337)
+* [`impl<T: AsRawFd> AsRawFd for` {`Arc`, `Box`}`<T>`](https://github.com/rust-lang/rust/pull/97437)
+* [add `fetch_not` method on `AtomicBool`](https://github.com/rust-lang/rust/pull/98479)
+* [optimize `Vec::insert` for the case where `index == len`](https://github.com/rust-lang/rust/pull/98755)
+* [optimise vectored write](https://github.com/rust-lang/rust/pull/98324)
+* [fix data race in `thread::scope`](https://github.com/rust-lang/rust/pull/98503)
+* [cargo: don't panic with `--offline`](https://github.com/rust-lang/cargo/pull/10817)
+* [rustfmt: allow `#[ignore]` tests to run in rustfmt's test suite](https://github.com/rust-lang/rustfmt/pull/5397)
+* [rustfmt: config_type: add `unstable_variant` attribute](https://github.com/rust-lang/rustfmt/pull/5379)
+* [clippy: add `Operators` lint pass](https://github.com/rust-lang/rust-clippy/pull/8921)
+* [clippy: add `invalid_utf8_in_unchecked`](https://github.com/rust-lang/rust-clippy/pull/9105)
+* [clippy: add lint `explicit_auto_deref` take 2](https://github.com/rust-lang/rust-clippy/pull/8355)
+* [clippy: don't lint `while_let_loop` when significant drop order would change](https://github.com/rust-lang/rust-clippy/pull/8666)
+* [clippy: fix ICE in `dereference.rs`](https://github.com/rust-lang/rust-clippy/pull/9093)
+* [clippy: fix `#[expect]` for most clippy lints](https://github.com/rust-lang/rust-clippy/pull/9046)
+* [clippy: fix direct `#[allow]` attributes in `let_unit_value`](https://github.com/rust-lang/rust-clippy/pull/9082)
+* [clippy: fix false-positive in `equatable_if_let`](https://github.com/rust-lang/rust-clippy/pull/9074)
+* [clippy: `new_without_default`: ignore const generics/lifetime params on `fn new`](https://github.com/rust-lang/rust-clippy/pull/9115)
+* [clippy: `trivially_copy_pass_by_ref` fixes](https://github.com/rust-lang/rust-clippy/pull/8639)
+* [let rust-analyzer ship on stable, non-preview](https://github.com/rust-lang/rust/pull/98640)
+* [rust-analyzer: complete raw identifier with "r#" prefix](https://github.com/rust-lang/rust-analyzer/pull/12636)
+* [rust-analyzer: show witnesses of non-exhaustiveness in `missing-match-arm` diagnostic](https://github.com/rust-lang/rust-analyzer/pull/12634)
+* [rust-analyzer: implement destructuring assignment](https://github.com/rust-lang/rust-analyzer/pull/12428)
+* [rust-analyzer: fix regressions on assignment expressions](https://github.com/rust-lang/rust-analyzer/pull/12680)
+* [rust-analyzer: fix attribute macros on assoc items being discarded with disabled proc macros](https://github.com/rust-lang/rust-analyzer/pull/12670)
+* [rust-analyzer: fix: extract Function produces duplicate fn names](https://github.com/rust-lang/rust-analyzer/pull/12662)
+* [rust-analyzer: fix: complete enum variants as patterns in pattern path](https://github.com/rust-lang/rust-analyzer/pull/12627)
+* [rust-analyzer: report proc macro errors in expressions correctly as well](https://github.com/rust-lang/rust-analyzer/pull/12648)
 
 ### Rust Compiler Performance Triage
 
@@ -237,7 +293,17 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> TIL: #cargo has build-in aliases for some commands
+>
+> so next time try out 
+>
+> cargo r  
+> cargo b  
+> cargo t
+
+– [@5422m4n on twitter](https://twitter.com/5422m4n/status/1542345726310629376)
+
+llogiq is pretty pleased with his choice.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
