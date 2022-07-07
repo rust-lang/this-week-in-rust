@@ -58,13 +58,11 @@ and just ask the editors to select the category.
 * [Pathfinding in Rust: A tutorial with examples](https://blog.logrocket.com/pathfinding-rust-tutorial-examples/)
 * [Plantuml encoding in Rust using TDD](https://maksugr.com/posts/plantuml-encoding-in-rust-using-tdd)
 * [A const builder pattern in Rust](https://wapl.es/rust/2022/07/03/const-builder-pattern.html)
-* [mirrord internals - hooking libc functions in Rust and fixing bugs](https://metalbear.co/blog/mirrord-internals-hooking-libc-functions-in-rust-and-fixing-bugs/)
 * [video] [Simple error handling in Rust](https://www.youtube.com/watch?v=g6WUHcyjsfc)
 * [video] [Making a Rust crate compile faster](https://www.youtube.com/watch?v=pMiqRM5ooNw)
 * [video] [Rust for the impatient](https://www.youtube.com/watch?v=br3GIIQeefY)
 * [video] [Cph.rs Hack Night - Simon Rasmussen on WASM and WAT the fp-bindgen](https://www.youtube.com/watch?v=vJqhqRmSb68)
 * [video] [Cph.rs Hack Night - David Pedersen on Axum](https://www.youtube.com/watch?v=ETdmhh7OQpA)
-* [video] [Making a Rust crate compile faster](https://www.youtube.com/watch?v=pMiqRM5ooNw)
 
 ### Research
 
