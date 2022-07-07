@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [The Future of Programming Languages](https://www.youtube.com/watch?v=oMpqj_nMsg0)
+
 ### Rust Walkthroughs
 * [Plantuml encoding in Rust using TDD](https://maksugr.com/posts/plantuml-encoding-in-rust-using-tdd)
 
