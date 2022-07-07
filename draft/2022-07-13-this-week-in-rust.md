@@ -34,7 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [Announcing Experimental Rust Filesystem and Path Support for Xous PDDB!](https://xobs.io/experimental-rust-filesystem-and-path-support-for-xous/)
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
