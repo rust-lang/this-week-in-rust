@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Insights of porting Hugging Face Rust Tokenizers to WASM](https://blog.mithrilsecurity.io/porting-tokenizers-to-wasm/)
 * [video] [The Future of Programming Languages](https://www.youtube.com/watch?v=oMpqj_nMsg0)
 
 ### Rust Walkthroughs
