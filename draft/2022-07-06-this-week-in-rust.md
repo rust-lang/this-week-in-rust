@@ -28,38 +28,49 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.62.0](https://blog.rust-lang.org/2022/06/30/Rust-1.62.0.html)
+* [RLS Deprecation](https://blog.rust-lang.org/2022/07/01/RLS-deprecation.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #136](https://rust-analyzer.github.io/thisweek/2022/07/04/changelog-136.html)
+* [GCC-Rust Feedback Sought - Possibly Aiming For Upstream In GCC 13](https://www.phoronix.com/scan.php?page=news_item&px=GCC-Rust-Upstream-Talk-Thread)
+* [Announcing lettre 0.10 - lettre](https://lettre.rs/post/lettre-0-10/)
+* [The last two years in Miri](https://www.ralfj.de/blog/2022/07/02/miri.html)
 * [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W26](https://www.fornjot.app/blog/weekly-dev-log/2022-w26/)
-
 * [HexoSynth (modular synthesizer) - Devlog 3 - Chunk of GUI Work](https://m8geil.de/posts/hexosynth-3/)
-
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-04.html)
-
 * [This week in Databend #49: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-07-06-databend-weekly/)
 
 ### Observations/Thoughts
-
+* [C++ & Rust: (Interior) Mutability, Moving and Ownership](https://www.tangramvision.com/blog/c-rust-interior-mutability-moving-and-ownership)
+* [More than you've ever wanted to know about errors in Rust](https://www.shuttle.rs/blog/2022/06/30/error-handling)
+* [Minimalist Guide to Axum](https://tech.marksblogg.com/axum-rust-web-framework.html)
 * [Insights of porting Hugging Face Rust Tokenizers to WASM](https://blog.mithrilsecurity.io/porting-tokenizers-to-wasm/)
+* [audio] [New Rustacean with Chris Krycho](https://rustacean-station.org/episode/chris-krycho/)
 * [video] [The Future of Programming Languages](https://www.youtube.com/watch?v=oMpqj_nMsg0)
 
 ### Rust Walkthroughs
-
+* [mirrord internals - hooking libc functions in Rust and fixing bugs](https://metalbear.co/blog/mirrord-internals-hooking-libc-functions-in-rust-and-fixing-bugs/)
+* [Pathfinding in Rust: A tutorial with examples](https://blog.logrocket.com/pathfinding-rust-tutorial-examples/)
 * [Plantuml encoding in Rust using TDD](https://maksugr.com/posts/plantuml-encoding-in-rust-using-tdd)
-
-- [A const builder pattern in Rust](https://wapl.es/rust/2022/07/03/const-builder-pattern.html)
-[mirrord internals - hooking libc functions in Rust and fixing bugs](https://metalbear.co/blog/mirrord-internals-hooking-libc-functions-in-rust-and-fixing-bugs/)
+* [A const builder pattern in Rust](https://wapl.es/rust/2022/07/03/const-builder-pattern.html)
+* [video] [Simple error handling in Rust](https://www.youtube.com/watch?v=g6WUHcyjsfc)
+* [video] [Making a Rust crate compile faster](https://www.youtube.com/watch?v=pMiqRM5ooNw)
+* [video] [Rust for the impatient](https://www.youtube.com/watch?v=br3GIIQeefY)
 * [video] [Cph.rs Hack Night - Simon Rasmussen on WASM and WAT the fp-bindgen](https://www.youtube.com/watch?v=vJqhqRmSb68)
 * [video] [Cph.rs Hack Night - David Pedersen on Axum](https://www.youtube.com/watch?v=ETdmhh7OQpA)
-* [video] [Making a Rust crate compile faster](https://www.youtube.com/watch?v=pMiqRM5ooNw)
 
 ### Research
 
 ### Miscellaneous
+* [DE] [Rust-Code im Linux-Kernel: Merge steht laut Linus Torvalds ab Linux 5.20 bevor](https://www.heise.de/news/Rust-Code-im-Linux-Kernel-Merge-steht-laut-Linus-Torvalds-ab-Linux-5-20-bevor-7154453.html)
+* [DE] [Ferris Talk #10: Constant Fun mit Rust – const fn](https://www.heise.de/hintergrund/Ferris-Talk-10-Constant-Fun-mit-Rust-const-fn-7162074.html)
+* [DE] [Programmiersprache Rust 1.62 kann Kernel für x86-64 bauen](https://www.heise.de/news/Programmiersprache-Rust-1-62-kann-Kernel-fuer-x86-64-bauen-7159459.html)
+* [video] [Rust Coming Soon To A Linux Kernel Near You!!](https://www.youtube.com/watch?v=b1lIU8Hp6XU)
 
 ## Crate of the Week
 
