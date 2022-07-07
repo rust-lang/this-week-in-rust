@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-04.html)
 
+* [This week in Databend #49: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-07-06-databend-weekly/)
+
 ### Observations/Thoughts
 
 * [Insights of porting Hugging Face Rust Tokenizers to WASM](https://blog.mithrilsecurity.io/porting-tokenizers-to-wasm/)
