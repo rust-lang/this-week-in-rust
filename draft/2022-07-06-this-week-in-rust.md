@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fornjot (code-first CAD in Rust) - Weekly Dev Log - 2022-W26](https://www.fornjot.app/blog/weekly-dev-log/2022-w26/)
 
 * [HexoSynth (modular synthesizer) - Devlog 3 - Chunk of GUI Work](https://m8geil.de/posts/hexosynth-3/)
 
