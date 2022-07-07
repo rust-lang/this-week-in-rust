@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 - [A const builder pattern in Rust](https://wapl.es/rust/2022/07/03/const-builder-pattern.html)
 
+[mirrord internals - hooking libc functions in Rust and fixing bugs](https://metalbear.co/blog/mirrord-internals-hooking-libc-functions-in-rust-and-fixing-bugs/)
+
 ### Research
 
 ### Miscellaneous
