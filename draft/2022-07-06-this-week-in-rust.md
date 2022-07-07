@@ -82,7 +82,21 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Overall the week is a small improvement on average, with some benchmarks
+(particularly in the primary category) showing significant improvements due to
+the enablement of MIR inlining in
+[#91743](https://github.com/rust-lang/rust/pull/91743). Inlining promises to
+improve the quality of our generated LLVM IR and make other optimizations more
+worthwhile, so it's great to see these early results already being quite
+impactful.
+
+Triage done by **@simulacrum**.
+Revision range: [baf382e6..880646c](https://perf.rust-lang.org/?start=baf382e63c023259fa1f9042f8f479f183ca6ed3&end=880646ca9c6dc21e04efe2f1940369a45b71ff2d&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 6 Improvements, 6 Mixed; 4 of them in rollups
+46 artifact comparisons made in total
+
+[See full report for details](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-07-05.md)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
