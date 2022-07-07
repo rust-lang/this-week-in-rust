@@ -289,6 +289,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 
+# Jobs
+
 <!--
 
 Rust Jobs:
@@ -298,6 +300,8 @@ TWiR has removed the jobs posting section. You can read more about this change h
 https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
+
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/voglel/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
