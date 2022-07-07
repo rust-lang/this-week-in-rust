@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Accouncing Fornjot 0.7 (code-first CAD in Rust)](https://www.fornjot.app/blog/fornjot-0.7/)
 
 ### Observations/Thoughts
 
