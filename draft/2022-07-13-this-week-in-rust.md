@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [HexoSynth (modular synthesizer) - Devlog #4 - The Tracker Sequencer is Back](https://m8geil.de/posts/hexosynth-4/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
