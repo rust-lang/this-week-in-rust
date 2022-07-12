@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [A Rust app in a Cloudflare Worker](https://logankeenan.com/posts/running-a-rust-server-in-a-cloudflare-worker/)
 
 ### Research
 
