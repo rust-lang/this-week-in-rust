@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [shame](https://github.com/RayMarch/shame), a shader EDSL for writing render and compute pipelines in rust.
+
+Thanks to [Zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/1077) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -64,7 +66,67 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+363 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-07-04..2022-07-11
+
+* [implement support for DWARF version 5](https://github.com/rust-lang/rust/pull/98350)
+* [sess: stabilize `-Zterminal-width` as `--diagnostic-width`](https://github.com/rust-lang/rust/pull/95635)
+* [macros: `LintDiagnostic` derive](https://github.com/rust-lang/rust/pull/98884)
+* [proc_macro: fix `expand_expr` expansion of `bool` literals](https://github.com/rust-lang/rust/pull/98463)
+* [shorten `def_span` of closures to just their header](https://github.com/rust-lang/rust/pull/98482)
+* [improve spans for specialization error](https://github.com/rust-lang/rust/pull/98782)
+* [do not mention private types from other crates as impl candidates](https://github.com/rust-lang/rust/pull/99091)
+* [adjust dangling-int-ptr error message](https://github.com/rust-lang/rust/pull/98860)
+* [highlight conflicting param-env candidates](https://github.com/rust-lang/rust/pull/98794)
+* [suggest `#[derive(Default)]` to enums with `#[default]`](https://github.com/rust-lang/rust/pull/98873)
+* [suggest using block for `extern "abi" fn` with no body](https://github.com/rust-lang/rust/pull/98827)
+* [suggest adding a derive for `#[default]` applied to variants](https://github.com/rust-lang/rust/pull/99002)
+* [fix "wrap closure in parenthesis" suggestion for `async` closure](https://github.com/rust-lang/rust/pull/98879)
+* [don't succeed `evaluate_obligation` query if new opaque types were registered](https://github.com/rust-lang/rust/pull/98614)
+* [lints: mostly translatable diagnostics](https://github.com/rust-lang/rust/pull/98624)
+* [deny float const params even when `adt_const_params` is enabled](https://github.com/rust-lang/rust/pull/98907)
+* [allow arithmetic and certain bitwise ops on `AtomicPtr`](https://github.com/rust-lang/rust/pull/96935)
+* [more `need_type_info` improvements](https://github.com/rust-lang/rust/pull/98761)
+* [miri: handle `Box` with allocators](https://github.com/rust-lang/miri/pull/2323)
+* [improve soundness of `rustc_arena`](https://github.com/rust-lang/rust/pull/97711)
+* [fix `ProjectionElem` validation](https://github.com/rust-lang/rust/pull/96856)
+* [compilation speed optimization for `pest-2.1.3`](https://github.com/rust-lang/rust/pull/98654)
+* [use less string interning](https://github.com/rust-lang/rust/pull/98638)
+* [more derive output improvements](https://github.com/rust-lang/rust/pull/98758)
+* [implement `SourceMap::is_span_accessible`](https://github.com/rust-lang/rust/pull/99140)
+* [use a bitset instead of a hash map in HIR ID validator](https://github.com/rust-lang/rust/pull/98841)
+* [miscellaneous inlining improvements](https://github.com/rust-lang/rust/pull/99028)
+* [partially stabilize `const_slice_from_raw_parts`](https://github.com/rust-lang/rust/pull/97522)
+* [return a `FxIndexSet` in `is_late_bound` query](https://github.com/rust-lang/rust/pull/98959)
+* [split `TypeVisitable` from `TypeFoldable`](https://github.com/rust-lang/rust/pull/98206)
+* [implement `ExitCodeExt` for Windows](https://github.com/rust-lang/rust/pull/97917)
+* [implement `FusedIterator` for `std::net::`(`Into`)`Incoming`](https://github.com/rust-lang/rust/pull/97300)
+* [Windows: fallback for overlapped I/O](https://github.com/rust-lang/rust/pull/98950)
+* [stabilize `into_future`](https://github.com/rust-lang/rust/pull/98718)
+* [futures: add `push_front` and `push_back` to `FuturesOrdered`](https://github.com/rust-lang/futures-rs/pull/2591)
+* [regex: add `ExactSizeIterator` to `SubCaptureMatches`](https://github.com/rust-lang/regex/pull/857)
+* [cargo: fix corrupted git checkout recovery](https://github.com/rust-lang/cargo/pull/10829)
+* [cargo: fix publishing to crates.io with `-Z sparse-registry`](https://github.com/rust-lang/cargo/pull/10831)
+* [cargo: add a cache for discovered workspace roots](https://github.com/rust-lang/cargo/pull/10776)
+* [rustdoc: add more semantic information to impl IDs](https://github.com/rust-lang/rust/pull/98939)
+* [rustdoc: filter `'_` lifetimes from `ty::Generics`](https://github.com/rust-lang/rust/pull/98911)
+* [clippy: allow `let_unit_value` in more cases](https://github.com/rust-lang/rust-clippy/pull/9056)
+* [clippy: extend `unnecessary_lazy_eval` to cover `bool::then` -> `bool::then_some`](https://github.com/rust-lang/rust-clippy/pull/9099)
+* [clippy: fix ICE in `sugg::DerefDelegate` with (named) closures](https://github.com/rust-lang/rust-clippy/pull/9120)
+* [clippy: fix `needless_borrow` changing called trait impls on method receivers](https://github.com/rust-lang/rust-clippy/pull/9096)
+* [clippy: fix `undocumented_unsafe_blocks` in closures](https://github.com/rust-lang/rust-clippy/pull/9117)
+* [clippy: fix span for `or_fun_call`](https://github.com/rust-lang/rust-clippy/pull/9144)
+* [clippy: ignore `into_iter` in `significant_drop_in_scrutinee`](https://github.com/rust-lang/rust-clippy/pull/9140)
+* [clippy: lint `shadow_*` lints in anon const blocks](https://github.com/rust-lang/rust-clippy/pull/9124)
+* [clippy: lint simple expressions in `manual_filter_map`, `manual_find_map`](https://github.com/rust-lang/rust-clippy/pull/8958)
+* [clippy: maybe trait bound on type repetition](https://github.com/rust-lang/rust-clippy/pull/9132)
+* [rust-analyzer: complete type param/associated type in trait generic arg per arg index](https://github.com/rust-lang/rust-analyzer/pull/12695)
+* [rust-analyzer: implement `ignore`  and `index` metavar expression](https://github.com/rust-lang/rust-analyzer/pull/12745)
+* [rust-analyzer: extract Function misses locals used in closures](https://github.com/rust-lang/rust-analyzer/pull/12706)
+* [rust-analyzer: extract function from trait impl](https://github.com/rust-lang/rust-analyzer/pull/12676)
+* [rust-analyzer: improve suggested names for extracted variables](https://github.com/rust-lang/rust-analyzer/pull/12727)
+* [rust-analyzer: use `SmallVec` to slightly shrink `ModPath` size](https://github.com/rust-lang/rust-analyzer/pull/12704)
 
 ### Rust Compiler Performance Triage
 
@@ -172,7 +234,11 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Learning Rust has taught me something - "There are really no problems, just adventure and opportunities"
+
+– [Adeoye Adefemi on rust-users](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1263)
+
+Thanks to [Adeoye Adefemi and Anton Fetisov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1266) for the suggestion as well as [Christopher Durham](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1267) for the leniency.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
