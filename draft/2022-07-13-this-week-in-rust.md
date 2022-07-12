@@ -68,7 +68,21 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A fairly noisy week (many entries below dropped and untagged as regressions),
+largely driven by tt-muncher and html5ever. Our sensitivity assessment currently
+takes roughly a week since new noise starts to learn the noise level, so it can
+take some time for oscillations to stop reporting somewhat spurious results.
+
+Otherwise, this week had a number of solid improvements, and was overall
+positive, with improvements across many benchmarks.
+
+Triage done by **@simulacrum**.
+Revision range: [880646c..b3f4c3](https://perf.rust-lang.org/?start=880646ca9c6dc21e04efe2f1940369a45b71ff2d&end=b3f4c3119957aa0a250cab08ab586b7a9a680ef1&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 6 Improvements, 3 Mixed; 3 of them in rollups
+53 artifact comparisons made in total
+
+For details, see the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-07-12.md).
 
 ### Call for Testing
 
