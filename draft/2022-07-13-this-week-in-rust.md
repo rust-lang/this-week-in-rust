@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-11.html)
 
+* [Black Hat Rust updated for Rust 1.62 (and announcing the online course)](https://kerkour.com/black-hat-rust-update-2022-56)
+
 ### Observations/Thoughts
 * [audio] [004. 与迟先生聊 Rust 与数据库系统](https://rusttalk.github.io/podcast/004/)
 
