@@ -35,8 +35,10 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Accouncing Fornjot 0.7 (code-first CAD in Rust)](https://www.fornjot.app/blog/fornjot-0.7/)
+* [This week in Fluvio #38: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0038/)
 
 ### Observations/Thoughts
+* [audio] [004. 与迟先生聊 Rust 与数据库系统](https://rusttalk.github.io/podcast/004/)
 
 ### Rust Walkthroughs
 
