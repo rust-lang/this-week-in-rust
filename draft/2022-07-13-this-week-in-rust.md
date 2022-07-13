@@ -35,12 +35,16 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Accouncing Fornjot 0.7 (code-first CAD in Rust)](https://www.fornjot.app/blog/fornjot-0.7/)
+* [Announcing Experimental Rust Filesystem and Path Support for Xous PDDB!](https://xobs.io/experimental-rust-filesystem-and-path-support-for-xous/)
 * [This week in Fluvio #38: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0038/)
+* [HexoSynth (modular synthesizer) - Devlog #4 - The Tracker Sequencer is Back](https://m8geil.de/posts/hexosynth-4/)
 
 ### Observations/Thoughts
 * [audio] [004. 与迟先生聊 Rust 与数据库系统](https://rusttalk.github.io/podcast/004/)
 
 ### Rust Walkthroughs
+
+* [Procedural macros under the hood: Part II](https://blog.jetbrains.com/rust/2022/07/07/procedural-macros-under-the-hood-part-ii/)
 
 ### Research
 
