@@ -38,17 +38,15 @@ and just ask the editors to select the category.
 * [Announcing Experimental Rust Filesystem and Path Support for Xous PDDB!](https://xobs.io/experimental-rust-filesystem-and-path-support-for-xous/)
 * [This week in Fluvio #38: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0038/)
 * [HexoSynth (modular synthesizer) - Devlog #4 - The Tracker Sequencer is Back](https://m8geil.de/posts/hexosynth-4/)
-
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-11.html)
-
 * [Black Hat Rust updated for Rust 1.62 (and announcing the online course)](https://kerkour.com/black-hat-rust-update-2022-56)
 
 ### Observations/Thoughts
+* [Bare-metal Rust on ESP32: A brief overview](https://beta7.io/posts/bare-metal-rust-on-esp32/)
 * [audio] [004. 与迟先生聊 Rust 与数据库系统](https://rusttalk.github.io/podcast/004/)
 
 ### Rust Walkthroughs
 * [A Rust app in a Cloudflare Worker](https://logankeenan.com/posts/running-a-rust-server-in-a-cloudflare-worker/)
-
 * [Procedural macros under the hood: Part II](https://blog.jetbrains.com/rust/2022/07/07/procedural-macros-under-the-hood-part-ii/)
 
 ### Research
