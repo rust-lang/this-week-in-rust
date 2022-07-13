@@ -64,6 +64,7 @@ and just ask the editors to select the category.
 * [Procedural macros under the hood: Part II | The IntelliJ Rust Blog](https://blog.jetbrains.com/rust/2022/07/07/procedural-macros-under-the-hood-part-ii/)
 * [Bare-Metal Rust on ESP32: A Brief Overview](https://beta7.io/posts/bare-metal-rust-on-esp32/)
 * [A Rust app in a Cloudflare Worker](https://logankeenan.com/posts/running-a-rust-server-in-a-cloudflare-worker/)
+* [Using the Kani Rust Verifier on a Firecracker Example](https://model-checking.github.io/kani-verifier-blog/2022/07/13/using-the-kani-rust-verifier-on-a-firecracker-example.html)
 * [video] [How AWS is building the Rust SDK and how you can use it today - Zelda Hessler](https://www.youtube.com/watch?v=N0XMjokwTIM)
 * [video] [Constant fun (const fn) with Rust - Rainer Stropek](https://www.youtube.com/watch?v=Vw8BFScm0K0)
 
