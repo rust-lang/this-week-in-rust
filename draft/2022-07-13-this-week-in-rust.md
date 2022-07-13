@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [audio] [004. 与迟先生聊 Rust 与数据库系统](https://rusttalk.github.io/podcast/004/)
 
 ### Rust Walkthroughs
+* [A Rust app in a Cloudflare Worker](https://logankeenan.com/posts/running-a-rust-server-in-a-cloudflare-worker/)
 
 * [Procedural macros under the hood: Part II](https://blog.jetbrains.com/rust/2022/07/07/procedural-macros-under-the-hood-part-ii/)
 
