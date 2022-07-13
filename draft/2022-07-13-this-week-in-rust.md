@@ -35,7 +35,10 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Announcing Experimental Rust Filesystem and Path Support for Xous PDDB!](https://xobs.io/experimental-rust-filesystem-and-path-support-for-xous/)
+* [This week in Fluvio #38: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0038/)
+
 ### Observations/Thoughts
+* [audio] [004. 与迟先生聊 Rust 与数据库系统](https://rusttalk.github.io/podcast/004/)
 
 ### Rust Walkthroughs
 
