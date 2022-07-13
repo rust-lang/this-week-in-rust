@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 * [This week in Fluvio #38: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0038/)
 * [HexoSynth (modular synthesizer) - Devlog #4 - The Tracker Sequencer is Back](https://m8geil.de/posts/hexosynth-4/)
 
+* [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-11.html)
+
 ### Observations/Thoughts
 * [audio] [004. 与迟先生聊 Rust 与数据库系统](https://rusttalk.github.io/podcast/004/)
 
