@@ -28,20 +28,44 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rustup 1.25.0](https://blog.rust-lang.org/2022/07/11/Rustup-1.25.0.html)
+* [Announcing Rustup 1.25.1](https://blog.rust-lang.org/2022/07/12/Rustup-1.25.1.html)
+* [Changes in the Core Team](https://blog.rust-lang.org/2022/07/12/changes-in-the-core-team.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: June 2022](https://rust-osdev.com/this-month/2022-06/)
+* [This Month in Rust GameDev #35 - June 2022](https://gamedev.rs/news/035/)
 
 ### Project/Tooling Updates
+* [Tauri 1.0 Release](https://tauri.app/blog/tauri_1_0/)
+* [Lyon 1.0](https://nical.github.io/posts/lyon-1-0.html)
+* [rust-analyzer changelog #137](https://rust-analyzer.github.io/thisweek/2022/07/11/changelog-137.html)
+* [IntelliJ Rust Changelog #174](https://intellij-rust.github.io/2022/07/11/changelog-174.html)
+* [rustc_codegen_gcc: Progress Report #13](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-13)
+
 
 ### Observations/Thoughts
+* [Announcement: Rust-Edu](https://rust-edu.org/news/announcement/)
+* [A Pleasing Symmetry in Rust — Sympolymathesy, by Chris Krycho](https://v5.chriskrycho.com/journal/pleasing-symmetry-in-rust/)
+* [Unsafe Syntax](https://blog.yoshuawuyts.com/unsafe-syntax/)
+* [Almost Rules](https://matklad.github.io/2022/07/10/almost-rules.html)
+* [Pitfalls of fallible Iterators](https://swatinem.de/blog/fallible-iterators/)
+* [audio] [High Assurance Rust with Tiemoko Ballo](https://rustacean-station.org/episode/tiemoko-ballo/)
+
 
 ### Rust Walkthroughs
+* [Procedural macros under the hood: Part II | The IntelliJ Rust Blog](https://blog.jetbrains.com/rust/2022/07/07/procedural-macros-under-the-hood-part-ii/)
+* [Bare-Metal Rust on ESP32: A Brief Overview](https://beta7.io/posts/bare-metal-rust-on-esp32/)
+* [video] [How AWS is building the Rust SDK and how you can use it today - Zelda Hessler](https://www.youtube.com/watch?v=N0XMjokwTIM)
+* [video] [Constant fun (const fn) with Rust - Rainer Stropek](https://www.youtube.com/watch?v=Vw8BFScm0K0)
 
 ### Research
+* [Flux: Liquid Types for Rust](https://arxiv.org/abs/2207.04034)
 
 ### Miscellaneous
+* [GCC Rust Approved By Steering Committee, Likely To Land For GCC 13](https://www.phoronix.com/scan.php?page=news_item&px=GCC-Rust-SC-Approved)
 
 ## Crate of the Week
 
