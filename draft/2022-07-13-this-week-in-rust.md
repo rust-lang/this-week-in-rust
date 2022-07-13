@@ -36,9 +36,9 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Bare-metal Rust on ESP32: A brief overview](https://beta7.io/posts/bare-metal-rust-on-esp32/)
 
 ### Rust Walkthroughs
-* [Bare-metal Rust on ESP32: A brief overview](https://beta7.io/posts/bare-metal-rust-on-esp32/)
 
 ### Research
 
