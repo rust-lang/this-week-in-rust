@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Black Hat Rust updated for Rust 1.62 (and announcing the online course)](https://kerkour.com/black-hat-rust-update-2022-56)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
