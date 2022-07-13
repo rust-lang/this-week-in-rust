@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 * [Unsafe Syntax](https://blog.yoshuawuyts.com/unsafe-syntax/)
 * [Almost Rules](https://matklad.github.io/2022/07/10/almost-rules.html)
 * [Pitfalls of fallible Iterators](https://swatinem.de/blog/fallible-iterators/)
+* [Minimalist Guide to Poem](https://tech.marksblogg.com/poem-rust-web-framework.html)
 * [audio] [High Assurance Rust with Tiemoko Ballo](https://rustacean-station.org/episode/tiemoko-ballo/)
 * [ZH] [audio] [004. 与迟先生聊 Rust 与数据库系统](https://rusttalk.github.io/podcast/004/)
 
@@ -64,6 +65,7 @@ and just ask the editors to select the category.
 * [Procedural macros under the hood: Part II | The IntelliJ Rust Blog](https://blog.jetbrains.com/rust/2022/07/07/procedural-macros-under-the-hood-part-ii/)
 * [Bare-Metal Rust on ESP32: A Brief Overview](https://beta7.io/posts/bare-metal-rust-on-esp32/)
 * [A Rust app in a Cloudflare Worker](https://logankeenan.com/posts/running-a-rust-server-in-a-cloudflare-worker/)
+* [Runtime errors: Come again? Rust macros to the rescue](https://tech.nextroll.com/blog/dev/2022/06/21/rust-lua.html)
 * [Using the Kani Rust Verifier on a Firecracker Example](https://model-checking.github.io/kani-verifier-blog/2022/07/13/using-the-kani-rust-verifier-on-a-firecracker-example.html)
 * [video] [How AWS is building the Rust SDK and how you can use it today - Zelda Hessler](https://www.youtube.com/watch?v=N0XMjokwTIM)
 * [video] [Constant fun (const fn) with Rust - Rainer Stropek](https://www.youtube.com/watch?v=Vw8BFScm0K0)
