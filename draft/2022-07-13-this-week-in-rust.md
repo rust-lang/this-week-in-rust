@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [This week in Fluvio #38: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0038/)
 
 ### Observations/Thoughts
 * [audio] [004. 与迟先生聊 Rust 与数据库系统](https://rusttalk.github.io/podcast/004/)
