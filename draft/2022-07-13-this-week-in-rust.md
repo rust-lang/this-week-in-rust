@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Bare-metal Rust on ESP32: A brief overview](https://beta7.io/posts/bare-metal-rust-on-esp32/)
 
 ### Research
 
