@@ -32,8 +32,6 @@ and just ask the editors to select the category.
 * [Announcing Rustup 1.25.1](https://blog.rust-lang.org/2022/07/12/Rustup-1.25.1.html)
 * [Changes in the Core Team](https://blog.rust-lang.org/2022/07/12/changes-in-the-core-team.html)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust OSDev: June 2022](https://rust-osdev.com/this-month/2022-06/)
 * [This Month in Rust GameDev #35 - June 2022](https://gamedev.rs/news/035/)
