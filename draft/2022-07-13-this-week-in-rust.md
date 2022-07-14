@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 * [HexoSynth (modular synthesizer) - Devlog #4 - The Tracker Sequencer is Back](https://m8geil.de/posts/hexosynth-4/)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-11.html)
 * [Black Hat Rust updated for Rust 1.62 (and announcing the online course)](https://kerkour.com/black-hat-rust-update-2022-56)
+* [This week in Databend #50: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-07-13-databend-weekly/)
 
 ### Observations/Thoughts
 * [Announcement: Rust-Edu](https://rust-edu.org/news/announcement/)
