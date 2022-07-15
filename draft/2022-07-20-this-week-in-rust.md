@@ -43,6 +43,22 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* Announcing the Rust-Edu Workshop 2022
+
+    The [Rust-Edu](https://rust-edu.org) Team is pleased to announce the 2022 Rust-Edu [Workshop](https://rust-edu.org/workshop). This workshop is intended to bring folks working toward Rust education and learnability together for a one-day online exchange of ideas.
+
+    Key info:
+
+    * Official [Call For Participation](https://rust-edu.org/workshop): please read.
+
+    * Workshop date: Saturday 20 August 2022. (Yes, this is soon.)
+
+    * Submission of a short position statement, talk proposal, or refereed paper required for attendance. Registration / submission deadline: Tuesday 16 August 2022.
+
+    * Program Committee: Bart Massey, Portland State University; Cyrus Omar, University of Michigan; Will Chricton, Brown University.
+
+    Some of our [Rust-Edu](https://rust-edu.org) Team will also be participating in the RustConf PostConf [Unconf](https://blog.rust-lang.org/2022/06/28/rust-unconference.html) here in Portland August 6. Please do say hi if you are there and have an interest in this area.
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
