@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W29](https://www.fornjot.app/blog/weekly-release/2022-w29/)
 
 ### Observations/Thoughts
 
