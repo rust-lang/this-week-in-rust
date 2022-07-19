@@ -34,10 +34,26 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #138](https://rust-analyzer.github.io/thisweek/2022/07/18/changelog-138.html)
+* [Release Rustlings 5.0.0](https://github.com/rust-lang/rustlings/releases/tag/5.0.0)
+* [Fornjot - Weekly Release - 2022-W29](https://www.fornjot.app/blog/weekly-release/2022-w29/)
+* [Rust on Espressif chips - 15-07-2022](https://mabez.dev/blog/posts/esp-rust-15-07-2022/)
 
 ### Observations/Thoughts
+* [How to setup a Wasm API for a CHIP-8 emulator](https://monadical.com/posts/wasm-chip8.html)
+* [async let - A new concurrency primitve?](https://conradludgate.com/posts/async-let)
+* [Extending SQLite with Rust to support Excel files as virtual tables](https://sergey.khabibullin.com/sqlite-extensions-in-rust/)
+* [Pandas vs Polar - A look at performance](https://studioterabyte.nl/en/blog/polars-vs-pandas)
+* [Improving “Extract Function” in Rust Analyzer  - Dorian Listens](https://dorianlistens.com/2022/07/improving-extract-function-in-rust-analyzer)
+* [Advice for the next dozen Rust GUIs](https://raphlinus.github.io/rust/gui/2022/07/15/next-dozen-guis.html)
+* [When rustc explodes](https://fasterthanli.me/articles/when-rustc-explodes)
 
 ### Rust Walkthroughs
+* [How Rust manages memory using ownership and borrowing](https://stackoverflow.blog/2022/07/14/how-rust-manages-memory-using-ownership-and-borrowing/)
+* [Integrating a Rust module into an Android app](https://blog.logrocket.com/integrating-rust-module-android-app/)
+* [Futuristic Rust: context emulation, part 2](https://haibane-tenshi.github.io/rust-contexts2/)
+* [DE][Kommentar: Rust im Linux-Kernel – handeln statt jubeln!](https://www.heise.de/meinung/Kommentar-Rust-im-Linux-Kernel-handeln-statt-jubeln-7179268.html)
+* [video] [Stop writing Rust](https://youtu.be/Z3xPIYHKSoI)
 
 ### Research
 
