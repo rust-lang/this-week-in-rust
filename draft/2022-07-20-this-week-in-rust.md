@@ -28,6 +28,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.62.1](https://blog.rust-lang.org/2022/07/19/Rust-1.62.1.html)
 
 ### Foundation
 
@@ -40,6 +41,7 @@ and just ask the editors to select the category.
 * [Rust on Espressif chips - 15-07-2022](https://mabez.dev/blog/posts/esp-rust-15-07-2022/)
 
 ### Observations/Thoughts
+* [How to speed up the Rust compiler in July 2022](https://nnethercote.github.io/2022/07/20/how-to-speed-up-the-rust-compiler-in-july-2022.html)
 * [How to setup a Wasm API for a CHIP-8 emulator](https://monadical.com/posts/wasm-chip8.html)
 * [async let - A new concurrency primitve?](https://conradludgate.com/posts/async-let)
 * [Extending SQLite with Rust to support Excel files as virtual tables](https://sergey.khabibullin.com/sqlite-extensions-in-rust/)
@@ -52,6 +54,7 @@ and just ask the editors to select the category.
 * [How Rust manages memory using ownership and borrowing](https://stackoverflow.blog/2022/07/14/how-rust-manages-memory-using-ownership-and-borrowing/)
 * [Integrating a Rust module into an Android app](https://blog.logrocket.com/integrating-rust-module-android-app/)
 * [Futuristic Rust: context emulation, part 2](https://haibane-tenshi.github.io/rust-contexts2/)
+* [Elegant and performant recursion in Rust](https://recursion.wtf/posts/rust_schemes/)
 * [DE] [Kommentar: Rust im Linux-Kernel – handeln statt jubeln!](https://www.heise.de/meinung/Kommentar-Rust-im-Linux-Kernel-handeln-statt-jubeln-7179268.html)
 * [video] [Stop writing Rust](https://www.youtube.com/watch?v=Z3xPIYHKSoI)
 
