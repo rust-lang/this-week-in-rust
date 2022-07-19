@@ -68,7 +68,24 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A rather rough week for compiler performance with regressions outweighing improvements by a considerable margin, in particular in real world crates. To add insult to injury, the biggest regressions came in rollups which make it difficult to trace the cause.
+
+Triage done by **@rylev**.
+Revision range: [b3f4c311..8bd12e8](https://perf.rust-lang.org/?start=b3f4c3119957aa0a250cab08ab586b7a9a680ef1&end=8bd12e8cca3f28f302b9cc0f1f47bb64bd1f98fd&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+|            | mean | max | count |
+|:----------:|:----:|:---:|:-----:|
+| Regressions 😿 <br /> (primary) | 1.5% | 4.0% | 176   |
+| Regressions 😿 <br /> (secondary) | 1.8% | 6.4% | 147   |
+| Improvements 🎉 <br /> (primary) | N/A  | N/A | 0     |
+| Improvements 🎉 <br /> (secondary) | -1.6% | -4.1% | 9     |
+| All 😿🎉 (primary) | 1.5% | 4.0% | 176   |
+
+
+7 Regressions, 5 Improvements, 3 Mixed; 4 of them in rollups
+48 artifact comparisons made in total
 
 ### Call for Testing
 
