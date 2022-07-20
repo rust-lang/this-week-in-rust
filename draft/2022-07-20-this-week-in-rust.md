@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [bnum](https://crates.io/crates/bnum), a library of arbitrarily sized fixed-size numerals.
+
+Thanks to [Isaac Holt](https://users.rust-lang.org/t/crate-of-the-week/2704/1079) for the self-suggestion.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -64,7 +66,78 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+416 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-07-11..2022-07-18
+
+* [add Nintendo Switch as tier 3 target](https://github.com/rust-lang/rust/pull/88991)
+* [implement `for<>` lifetime binder for closures](https://github.com/rust-lang/rust/pull/98705)
+* [allow destructuring opaque types in their defining scopes](https://github.com/rust-lang/rust/pull/98582)
+* [allow unions with mutable references and tuples of allowed types](https://github.com/rust-lang/rust/pull/97995)
+* [always create elided lifetime parameters for functions](https://github.com/rust-lang/rust/pull/97720)
+* [do not error during method probe on `Sized` predicates for types that aren't the method receiver](https://github.com/rust-lang/rust/pull/99146)
+* [add Output = expected type trait obligation for known binary operators](https://github.com/rust-lang/rust/pull/96482)
+* [fix drop-tracking ICE when a struct containing a field with a significant drop is used across an await](https://github.com/rust-lang/rust/pull/98754)
+* [fix ICE in `named_arguments_used_positionally` lint](https://github.com/rust-lang/rust/pull/99263)
+* [fix spans for asm diagnostics](https://github.com/rust-lang/rust/pull/99192)
+* [emit warning when named arguments are used positionally in format](https://github.com/rust-lang/rust/pull/98580)
+* [better error message for `generic_const_exprs` inference failure](https://github.com/rust-lang/rust/pull/99222)
+* [lower let-else in MIR](https://github.com/rust-lang/rust/pull/98574)
+* [miri: optimizing Stacked Borrows (part 2): Shrink Item](https://github.com/rust-lang/miri/pull/2315)
+* [use ICF (identical code folding) for building rustc](https://github.com/rust-lang/rust/pull/99062)
+* [utilize PGO for windows x64 rustc dist builds](https://github.com/rust-lang/rust/pull/96978)
+* [`replace_bound_vars` fast path: check predicates, don't check consts](https://github.com/rust-lang/rust/pull/99232)
+* [borrow `Vec<T, A>` as `\[T\]`](https://github.com/rust-lang/rust/pull/99317)
+* [final derive output improvements](https://github.com/rust-lang/rust/pull/99046)
+* [fix last `let_chains` blocker](https://github.com/rust-lang/rust/pull/98633)
+* [stabilize `let_chains` in Rust 1.64](https://github.com/rust-lang/rust/pull/94927)
+* [stabilize `core::ffi::CStr`, `alloc::ffi::CString`, and friends](https://github.com/rust-lang/rust/pull/99277)
+* [stabilize `core::ffi:c_*` and rexport in `std::ffi`](https://github.com/rust-lang/rust/pull/98315)
+* [stabilize `future_poll_fn`](https://github.com/rust-lang/rust/pull/99306)
+* [document and stabilize `process_set_process_group`](https://github.com/rust-lang/rust/pull/99088)
+* [rearrange `slice::split_mut` to remove bounds check](https://github.com/rust-lang/rust/pull/99223)
+* [add provider API to error trait](https://github.com/rust-lang/rust/pull/98072)
+* [add new unstable API `downcast` to `std::io::Error`](https://github.com/rust-lang/rust/pull/98387)
+* [add `#[must_use]` to `Box::from_raw`](https://github.com/rust-lang/rust/pull/99270)
+* [implement `fmt::Write` for `OsString`](https://github.com/rust-lang/rust/pull/97915)
+* [`UnsafeCell` blocks niches inside its nested type from being available outside](https://github.com/rust-lang/rust/pull/99011)
+* [hashbrown: fix double-drop in `RawTable::clone_from`](https://github.com/rust-lang/hashbrown/pull/348)
+* [cargo: allow '.' in workspace.default-members in non-virtual workspaces](https://github.com/rust-lang/cargo/pull/10784)
+* [cargo: fix nested workspace resolution](https://github.com/rust-lang/cargo/pull/10846)
+* [cargo: normalize path for `cargo vendor` output](https://github.com/rust-lang/cargo/pull/10668)
+* [cargo: stabilize `--crate-type` flag for `cargo rustc`](https://github.com/rust-lang/cargo/pull/10838)
+* [cargo: stabilize `-Zmultitarget`](https://github.com/rust-lang/cargo/pull/10766)
+* [rustdoc: avoid inlining items with duplicate `(type, name)`](https://github.com/rust-lang/rust/pull/99344)
+* [rustfmt: fix/comments inside trait generics gets duplicated](https://github.com/rust-lang/rustfmt/pull/5446)
+* [rustfmt: remove useless conditional compilation - 2](https://github.com/rust-lang/rustfmt/pull/5449)
+* [rustfmt: add `skip_macro_invocations` option](https://github.com/rust-lang/rustfmt/pull/5347)
+* [clippy: add `repeated_where_clause_or_trait_bound` lint](https://github.com/rust-lang/rust-clippy/pull/8703)
+* [clippy: add `std_instead_of_core`, `std_instead_of_alloc`, `alloc_instead_of_core`](https://github.com/rust-lang/rust-clippy/pull/9103)
+* [clippy: add new lint `obfuscated_if_else`](https://github.com/rust-lang/rust-clippy/pull/9148)
+* [clippy: fix `mismatching_type_param_order` false positive](https://github.com/rust-lang/rust-clippy/pull/9146)
+* [clippy: fix for `branches_sharing_code`](https://github.com/rust-lang/rust-clippy/pull/9138)
+* [clippy: improve `while_let_on_iterator` suggestion inside an `FnOnce` closure](https://github.com/rust-lang/rust-clippy/pull/9134)
+* [clippy: move `format_push_string` to `restriction`](https://github.com/rust-lang/rust-clippy/pull/9161)
+* [clippy: `box_collection`: raise warn for all std collections](https://github.com/rust-lang/rust-clippy/pull/9170)
+* [clippy: change applicability type to `MaybeIncorrect` in `explicit_counter_loop`](https://github.com/rust-lang/rust-clippy/pull/9149)
+* [clippy: `unused_self`: respect `avoid-breaking-exported-api`](https://github.com/rust-lang/rust-clippy/pull/9199)
+* [clippy: `match_like_matches_macro` does not trigger when one arm contains conta…](https://github.com/rust-lang/rust-clippy/pull/9178)
+* [rust-analyzer: add simple support for completion item details](https://github.com/rust-lang/rust-analyzer/pull/12807)
+* [rust-analyzer: add `str_ref_to_string` fix](https://github.com/rust-lang/rust-analyzer/pull/12696)
+* [rust-analyzer: automatically instaciate trivially instaciable structs in "Generate new" and "Fill struct fields"](https://github.com/rust-lang/rust-analyzer/pull/12539)
+* [rust-analyzer: fix extract variable assist for subexpression in mutable borrow](https://github.com/rust-lang/rust-analyzer/pull/12788)
+* [rust-analyzer: support negative, `char` & `bool` const generics](https://github.com/rust-lang/rust-analyzer/pull/12778)
+* [rust-analyzer: go to implementation of trait methods](https://github.com/rust-lang/rust-analyzer/pull/12549)
+* [rust-analyzer: `super::` completion at crate root and module depth aware](https://github.com/rust-lang/rust-analyzer/pull/12735)
+* [rust-analyzer: don't show qualified path completions for private items](https://github.com/rust-lang/rust-analyzer/pull/12766)
+* [rust-analyzer: fix VSCode status bar tooltip not showing the error messages](https://github.com/rust-lang/rust-analyzer/pull/12754)
+* [rust-analyzer: fix imports being inserted before doc comments in inline modules](https://github.com/rust-lang/rust-analyzer/pull/12765)
+* [rust-analyzer: fix unresolved proc macro diagnostics pointing to macro expansions](https://github.com/rust-lang/rust-analyzer/pull/12691)
+* [rust-analyzer: stack overflows and wrong type inference of associated type shorthands](https://github.com/rust-lang/rust-analyzer/pull/12781)
+* [rust-analyzer: support generics in extract_function assist](https://github.com/rust-lang/rust-analyzer/pull/12556)
+* [rustup: revert "Set RUSTC and RUSTDOC env for child processes run through the proxy"](https://github.com/rust-lang/rustup/pull/3034)
+* [rustup: improved warning message for System-Rust-override](https://github.com/rust-lang/rustup/pull/3038)
+* [rustup: correctly propagate subshell failures in rustup-init](https://github.com/rust-lang/rustup/pull/3012)
 
 ### Rust Compiler Performance Triage
 
@@ -172,7 +245,11 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> The long compile times where all responsibility is taken away from you is infinitely more effective than submission patterns in BDSM, where the graceful rustc takes over and all you have to do is wait until they tell you that you're a good person and that everything is alright!
+
+– [/u/whyvitamins on /r/rust](https://www.reddit.com/r/rust/comments/w0oyo5/comment/igfs4fw)
+
+Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1268) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
