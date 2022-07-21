@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 * [HexoSynth 2022 - Devlog #5 - Signal Monitors and HexoTK Bugfixing](https://m8geil.de/posts/hexosynth-5/)
 * [What's new in SeaORM 0.9.0](https://www.sea-ql.org/SeaORM/blog/2022-07-17-whats-new-in-0.9.0/)
 
+* [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-18.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
