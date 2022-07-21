@@ -44,8 +44,6 @@ and just ask the editors to select the category.
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-18.html)
 * [This week in Databend #51: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-07-20-databend-weekly/)
 
-* [Rust on Espressif chips - 15-07-2022](https://mabez.dev/blog/posts/esp-rust-15-07-2022/)
-
 ### Observations/Thoughts
 * [How to speed up the Rust compiler in July 2022](https://nnethercote.github.io/2022/07/20/how-to-speed-up-the-rust-compiler-in-july-2022.html)
 * [How to setup a Wasm API for a CHIP-8 emulator](https://monadical.com/posts/wasm-chip8.html)
@@ -61,6 +59,9 @@ and just ask the editors to select the category.
 * [Integrating a Rust module into an Android app](https://blog.logrocket.com/integrating-rust-module-android-app/)
 * [Futuristic Rust: context emulation, part 2](https://haibane-tenshi.github.io/rust-contexts2/)
 * [Elegant and performant recursion in Rust](https://recursion.wtf/posts/rust_schemes/)
+* [Getting Started with SeaORM](https://anshulchauhan.com/getting-started-seaorm)
+* [Making GTK keyboard on Rust](https://dev.to/antonov_mike/making-gtk-keyboard-on-rust-2fma)
+* [STM32F4 Embedded Rust at the HAL: PWM Buzzer](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-pwm-buzzer)
 * [DE] [Kommentar: Rust im Linux-Kernel – handeln statt jubeln!](https://www.heise.de/meinung/Kommentar-Rust-im-Linux-Kernel-handeln-statt-jubeln-7179268.html)
 * [video] [Stop writing Rust](https://www.youtube.com/watch?v=Z3xPIYHKSoI)
 
@@ -85,6 +86,13 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [@CAD97 is collecting examples of unwind-safety bugs](https://twitter.com/CAD97_/status/1548743689698250755)
+* [pyo3 - run_closure and drop_closure unsoundly drop payload on panic](https://github.com/PyO3/pyo3/issues/2501)
+* [miniz_oxide - println!() can cause panic outside catch_unwind()](https://github.com/Frommi/miniz_oxide/issues/118)
+* [axum - Add an example for a GET-or-HEAD handler that special-cases HEAD](https://github.com/tokio-rs/axum/issues/1175)
+* [ockam - ockam node delete should have an --all option](https://github.com/build-trust/ockam/issues/2987)
+* [ockam - Diagnose Cannot drop a runtime ... error in rust nodes](https://github.com/build-trust/ockam/issues/2996)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
