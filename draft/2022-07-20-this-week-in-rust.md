@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 * [HexoSynth 2022 - Devlog #5 - Signal Monitors and HexoTK Bugfixing](https://m8geil.de/posts/hexosynth-5/)
 * [What's new in SeaORM 0.9.0](https://www.sea-ql.org/SeaORM/blog/2022-07-17-whats-new-in-0.9.0/)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-18.html)
+* [This week in Databend #51: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-07-20-databend-weekly/)
 
 * [Rust on Espressif chips - 15-07-2022](https://mabez.dev/blog/posts/esp-rust-15-07-2022/)
 
