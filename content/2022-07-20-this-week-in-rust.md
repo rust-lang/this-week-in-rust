@@ -30,10 +30,6 @@ and just ask the editors to select the category.
 ### Official
 * [Announcing Rust 1.62.1](https://blog.rust-lang.org/2022/07/19/Rust-1.62.1.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer changelog #138](https://rust-analyzer.github.io/thisweek/2022/07/18/changelog-138.html)
 * [Release Rustlings 5.0.0](https://github.com/rust-lang/rustlings/releases/tag/5.0.0)
@@ -64,8 +60,6 @@ and just ask the editors to select the category.
 * [STM32F4 Embedded Rust at the HAL: PWM Buzzer](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-pwm-buzzer)
 * [DE] [Kommentar: Rust im Linux-Kernel – handeln statt jubeln!](https://www.heise.de/meinung/Kommentar-Rust-im-Linux-Kernel-handeln-statt-jubeln-7179268.html)
 * [video] [Stop writing Rust](https://www.youtube.com/watch?v=Z3xPIYHKSoI)
-
-### Research
 
 ### Miscellaneous
 * [Rust Education Workshop 2022 Call For Participation](https://rust-edu.org/workshop/)
