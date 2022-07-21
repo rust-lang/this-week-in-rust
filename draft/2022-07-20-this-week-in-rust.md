@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [What's new in SeaORM 0.9.0](https://www.sea-ql.org/SeaORM/blog/2022-07-17-whats-new-in-0.9.0/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
