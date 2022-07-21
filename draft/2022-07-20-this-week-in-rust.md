@@ -61,6 +61,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rust Education Workshop 2022 Call For Participation](https://rust-edu.org/workshop/)
 
 ## Crate of the Week
 
