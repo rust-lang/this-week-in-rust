@@ -37,8 +37,11 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [rust-analyzer changelog #138](https://rust-analyzer.github.io/thisweek/2022/07/18/changelog-138.html)
 * [Release Rustlings 5.0.0](https://github.com/rust-lang/rustlings/releases/tag/5.0.0)
-* [Fornjot - Weekly Release - 2022-W29](https://www.fornjot.app/blog/weekly-release/2022-w29/)
 * [Rust on Espressif chips - 15-07-2022](https://mabez.dev/blog/posts/esp-rust-15-07-2022/)
+* [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W29](https://www.fornjot.app/blog/weekly-release/2022-w29/)
+* [HexoSynth 2022 - Devlog #5 - Signal Monitors and HexoTK Bugfixing](https://m8geil.de/posts/hexosynth-5/)
+* [What's new in SeaORM 0.9.0](https://www.sea-ql.org/SeaORM/blog/2022-07-17-whats-new-in-0.9.0/)
+* [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-18.html)
 
 ### Observations/Thoughts
 * [How to speed up the Rust compiler in July 2022](https://nnethercote.github.io/2022/07/20/how-to-speed-up-the-rust-compiler-in-july-2022.html)
@@ -90,15 +93,44 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 <!-- Perf results go here -->
 
-### Call for Testing
-
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* *No RFCs issued a call for testing this week.*
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
+
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* [Rolling co-lead roles for T-compiler](https://github.com/rust-lang/rfcs/commit/2c687cd9712ed4cfe24ac042c12f55b0c908be72)
+* [Mention about removal of crate visibility specifier](https://github.com/rust-lang/rfcs/commit/e56963f86d252989bc8b3b55d3a454b9d93ede46)
+* [Fixed the associated syntax error in the associated type Trait Headers](https://github.com/rust-lang/rfcs/commit/45d66ff0c063f14371b49caa6dea5d62aa7c9d7e)
+
+### Final Comment Period
+
+Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
+which are reaching a decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* [disposition: merge] [RFC: resolve crates.io source replacement ambiguity](https://github.com/rust-lang/rfcs/pull/3289)
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: merge] [session: stabilize split debuginfo on linux](https://github.com/rust-lang/rust/pull/98051)
+* [disposition: merge] [do not mark interior mutable shared refs as dereferenceable](https://github.com/rust-lang/rust/pull/98017)
+* [disposition: close] [Tracking issue for `#![register_attr]`](https://github.com/rust-lang/rust/issues/66080)
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* *No New or Updated RFCs were created this week.*
 
 ## Upcoming Events
 
