@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 * [What's new in SeaORM 0.9.0](https://www.sea-ql.org/SeaORM/blog/2022-07-17-whats-new-in-0.9.0/)
 
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-18.html)
+* [This week in Databend #51: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-07-20-databend-weekly/)
 
 ### Observations/Thoughts
 
