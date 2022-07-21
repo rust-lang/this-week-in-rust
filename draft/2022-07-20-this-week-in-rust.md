@@ -44,8 +44,6 @@ and just ask the editors to select the category.
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-18.html)
 * [This week in Databend #51: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-07-20-databend-weekly/)
 
-* [Rust on Espressif chips - 15-07-2022](https://mabez.dev/blog/posts/esp-rust-15-07-2022/)
-
 ### Observations/Thoughts
 * [How to speed up the Rust compiler in July 2022](https://nnethercote.github.io/2022/07/20/how-to-speed-up-the-rust-compiler-in-july-2022.html)
 * [How to setup a Wasm API for a CHIP-8 emulator](https://monadical.com/posts/wasm-chip8.html)
