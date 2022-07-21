@@ -204,9 +204,7 @@ need testing.
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [Rolling co-lead roles for T-compiler](https://github.com/rust-lang/rfcs/commit/2c687cd9712ed4cfe24ac042c12f55b0c908be72)
-* [Mention about removal of crate visibility specifier](https://github.com/rust-lang/rfcs/commit/e56963f86d252989bc8b3b55d3a454b9d93ede46)
-* [Fixed the associated syntax error in the associated type Trait Headers](https://github.com/rust-lang/rfcs/commit/45d66ff0c063f14371b49caa6dea5d62aa7c9d7e)
+* [Rolling co-lead roles for T-compiler](https://github.com/rust-lang/rfcs/pull/3262)
 
 ### Final Comment Period
 
