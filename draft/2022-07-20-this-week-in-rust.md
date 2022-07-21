@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 * [What's new in SeaORM 0.9.0](https://www.sea-ql.org/SeaORM/blog/2022-07-17-whats-new-in-0.9.0/)
 
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-18.html)
+* [`cargo-semver-checks`: Fast, CI-friendly semver linter available as a GitHub Action](https://twitter.com/PredragGruevski/status/1550130476244926464)
 
 ### Observations/Thoughts
 
