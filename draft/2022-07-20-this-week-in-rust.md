@@ -234,6 +234,8 @@ Rusty Events between 2022-07-20 - 2022-08-17 🦀
     * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydckbrb/)
 * 2022-07-20 | Cardiff, UK | [Rust and C++ Cardiff ](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
     * [**Rust Book Discussion - Building a Multithreaded Web Server**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/287121101/)
+* 2022-07-21 | Buenos Aires, AR | [Rust Argentina](https://www.meetup.com/es-ES/rust-argentina/)
+    * [**WASM beyond the browser with Rust**](https://salesforce.zoom.us/webinar/register/WN_gaI8WBDSQFGnMgaqYAxPHA)
 * 2022-07-21 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
     * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/qtvtvsydckbcc/)
 * 2022-07-26 | Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
