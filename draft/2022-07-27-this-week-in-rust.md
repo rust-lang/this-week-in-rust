@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-25.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
