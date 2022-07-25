@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Writing Linux Kernel Modules in Rust](https://lore.kernel.org/rust-for-linux/CAN6UTaywU8NfeNVi2ZDfwgjo3LCKiQRbD9PUWKsRp33Gxo+4gg@mail.gmail.com/)
 
 ### Research
 
