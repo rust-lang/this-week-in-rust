@@ -145,6 +145,8 @@ Rusty Events between 2022-07-27 - 2022-08-24 🦀
     * [**Rust Lunch**](https://www.meetup.com/rust-atx/events/287009519/)
 * 2022-08-05 | Portland, OR, US + Virtual | [RustConf](https://rustconf.com/)
     * [**RustConf 2022**](https://rustconf.com/)
+* 2022-08-06 | Portland, OR, US | [Rust Project Teams](https://www.rust-lang.org/governance)
+    * [**RustConf 2022 PostConf Unconf**](https://www.eventbrite.com/e/rustconf-postconf-unconf-registration-373057423797) | [**Blog post**](https://blog.rust-lang.org/2022/06/28/rust-unconference.html)
 * 2022-08-10 | Atlanta, GA, US | [Rust Atlanta](https://www.meetup.com/rust-atl/)
     * [**Grab a beer with fellow Rustaceans**](https://www.meetup.com/rust-atl/events/pczdssydclbnb/)
 * 2022-08-11 | Columbus, IL | [Columbus Rust Society](https://www.meetup.com/columbus-rs/)
