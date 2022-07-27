@@ -28,8 +28,10 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing the Keyword Generics Initiative](https://blog.rust-lang.org/inside-rust/2022/07/27/keyword-generics.html)
 
 ### Foundation
+* [What has the Foundation been up to?](https://foundation.rust-lang.org/news/2022-07-27-what-has-the-foundation-been-up-to/)
 
 ### Newsletters
 
