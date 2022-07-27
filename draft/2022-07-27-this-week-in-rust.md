@@ -136,6 +136,8 @@ Rusty Events between 2022-07-27 - 2022-08-24 🦀
     * [**Rust Developers Amsterdam Group**](https://www.meetup.com/rust-amsterdam-group/events/287019877/)
 * 2022-07-28 | Copenhagen, DK | [Copenhagen Rust Group](https://cph.rs/)
     * [**Hack Night #27**](https://www.meetup.com/copenhagen-rust-meetup-group/events/287057762/)
+* 2022-07-28 | Oslo, NO | [Rust Oslo](https://www.meetup.com/Rust-Oslo/)
+    * [**Rust & Relax @ Brygg w/Jon Gjengset**](https://www.meetup.com/rust-oslo/events/287422914/)
 * 2022-08-02 | London, UK | [Rust London User Group](https://www.meetup.com/Rust-London-User-Group/)
     * [**Rust London Code Dojo: Rust with Front-End Web Assembly**](https://www.meetup.com/rust-london-user-group/events/287271789/)
 
