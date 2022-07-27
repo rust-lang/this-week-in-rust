@@ -157,7 +157,7 @@ Rusty Events between 2022-07-27 - 2022-08-24 🦀
 ### Oceania
 
 * 2022-07-28 | Brisbane, QLD, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane/)
-    * [**July Meetup**](https://www.meetup.com/rust-brisbane/events/286889804/)
+    * [**July Meetup: Reflections on using Rust for Data Analysis (Libor Spacek)**](https://www.meetup.com/rust-brisbane/events/286889804/)
 * 2022-08-23 | Wellington, NZ + Virtual | [Rust Wellington](https://www.meetup.com/rust-wellington/)
     * [**Flywheel Edition: 3 talks on Rust!**](https://www.meetup.com/rust-wellington/events/287280642/)
 
