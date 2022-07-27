@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [How To Put 30 Languages Into 1.1MB](https://laurmaedje.github.io/posts/hypher/)
 
 ### Rust Walkthroughs
 
