@@ -105,7 +105,7 @@ Rusty Events between 2022-07-27 - 2022-08-24 🦀
 * 2022-08-05 | Virtual + Portland, OR, US | [RustConf](https://rustconf.com/)
     * [**RustConf 2022**](https://rustconf.com/)
 * 2022-08-09 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
-    * [**Last Tuesday**](https://www.meetup.com/Dallas-Rust/events/vndgwsydclbmb/)
+    * [**Second Tuesday**](https://www.meetup.com/dallas-rust/events/vndgwsydclbmb/)
 * 2022-08-10 | Virtual (Boulder, CO, US) | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
     * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydclbnb/)
 * 2022-08-11 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
