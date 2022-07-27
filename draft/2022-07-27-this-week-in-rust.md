@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Does Rust need proc-macros 2.0?](https://aaronerhardt.github.io/blog/posts/proc_macro_v2/)
 
 ### Rust Walkthroughs
 
