@@ -34,6 +34,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [This week in Fluvio #39: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0039/)
+* [This week in Fluvio #40: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0040/)
 
 ### Observations/Thoughts
 
