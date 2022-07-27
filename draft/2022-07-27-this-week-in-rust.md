@@ -86,16 +86,6 @@ Rusty Events between 2022-07-27 - 2022-08-24 🦀
 
 ### Virtual
 
-* 2022-07-20 | Boulder, CO, US | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
-    * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydckbrb/)
-* 2022-07-20 | Cardiff, UK | [Rust and C++ Cardiff ](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
-    * [**Rust Book Discussion - Building a Multithreaded Web Server**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/287121101/)
-* 2022-07-21 | Buenos Aires, AR | [Rust Argentina](https://www.meetup.com/es-ES/rust-argentina/)
-    * [**WASM beyond the browser with Rust**](https://salesforce.zoom.us/webinar/register/WN_gaI8WBDSQFGnMgaqYAxPHA)
-* 2022-07-21 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
-    * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/qtvtvsydckbcc/)
-* 2022-07-26 | Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
-    * [**Last Tuesday**](https://www.meetup.com/Dallas-Rust/events/jqxqwrydckbjc/)
 * 2022-07-27 | Cardiff, UK | [Rust and C++ Cardiff ](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
     * [**Using Rust to read the Little Schemer**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/287121637/)
 * 2022-07-28 | Linz, AT | [Rust Linz](https://www.meetup.com/Rust-Linz/)
@@ -107,15 +97,15 @@ Rusty Events between 2022-07-27 - 2022-08-24 🦀
 * 2022-08-02 | Berlin, DE | [Berline.rs](https://berline.rs/)
     * [**Rust Hack and Learn**](https://berline.rs/2022/08/02/rust-hack-and-learn.html)
 * 2022-08-02 | Buffalo, NY, US | [Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/)
-    * [**Buffalo Rust User Group, First Tuesdays**](https://www.meetup.com/buffalo-rust-meetup/events/xgmfssydclbdb/)
+    * [**August Meetup: Using Rust on AWS Lambda**](https://www.meetup.com/buffalo-rust-meetup/events/xgmfssydclbdb/)
 * 2022-08-03 | Indianapolis, IN, US | [Indy Rust](https://www.meetup.com/indyrs/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/qwtdjsydclbfb/)
 * 2022-08-03 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
     * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/dvvtvsydclbfb/)
 * 2022-08-05 | Portland, OR, US | [RustConf](https://rustconf.com/)
     * [**RustConf 2022**](https://rustconf.com/)
-* 2022-08-10 | Atlanta, GA, US | [Rust Atlanta](https://www.meetup.com/rust-atl/)
-    * [**Grab a beer with fellow Rustaceans**](https://www.meetup.com/rust-atl/events/pczdssydclbnb/)
+* 2022-08-09 | Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
+    * [**Last Tuesday**](https://www.meetup.com/Dallas-Rust/events/vndgwsydclbmb/)
 * 2022-08-10 | Boulder, CO, US | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
     * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydclbnb/)
 * 2022-08-11 | Nürnberg, DE | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
@@ -130,6 +120,10 @@ Rusty Events between 2022-07-27 - 2022-08-24 🦀
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/Vancouver-Rust/events/nwcmpsydclbwb/)
 * 2022-08-18 | Charlottesville, VA, US | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Hierarchical Task Network compiler written in Rust**](https://www.meetup.com/charlottesville-rust-meetup/events/287203159/)
+* 2022-08-18 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
+    * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/qtvtvsydclbxb/)
+* 2022-08-23 | Virtual + Wellington, NZ | [Rust Wellington](https://www.meetup.com/rust-wellington/)
+    * [**Flywheel Edition: 3 talks on Rust!**](https://www.meetup.com/rust-wellington/events/287280642/)
 
 ### Asia
 
@@ -138,12 +132,6 @@ Rusty Events between 2022-07-27 - 2022-08-24 🦀
 
 ### Europe
 
-* 2022-07-20 | Warsaw, PL | [Rust Warsaw](https://www.meetup.com/rust-warsaw/)
-    * [**Rust Warsaw #5**](https://www.meetup.com/rust-warsaw/events/287093615/)
-* 2022-07-21 | Oslo, NO | [Rust Oslo](https://www.meetup.com/Rust-Oslo/)
-    * [**Rust & Relax @ Kulturhuset**](https://www.meetup.com/Rust-Oslo/events/287184674/)
-* 2022-07-21 | Wrocław, PL | [Rust Wrocław](https://www.meetup.com/rust-wroclaw/)
-    * [**Rust Wrocław Meetup #27**](https://www.meetup.com/rust-wroclaw/events/287023750/)
 * 2022-07-27 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group/)
     * [**Rust Developers Amsterdam Group**](https://www.meetup.com/rust-amsterdam-group/events/287019877/)
 * 2022-07-28 | Copenhagen, DK | [Copenhagen Rust Group](https://cph.rs/)
@@ -153,8 +141,6 @@ Rusty Events between 2022-07-27 - 2022-08-24 🦀
 
 ### North America
 
-* 2022-07-26 | Austin, TX, US | [ATX Rustaceans](https://www.meetup.com/atx-rustaceans/)
-    * [**First Official Meetup - July 2022**](https://www.meetup.com/atx-rustaceans/events/285878081/)
 * 2022-07-27 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/)
     * [**Rust Lunch**](https://www.meetup.com/rust-atx/events/287009519/)
 * 2022-08-05 | Portland, OR, US | [RustConf](https://rustconf.com/)
@@ -165,11 +151,15 @@ Rusty Events between 2022-07-27 - 2022-08-24 🦀
     * [**Monthly Meeting**](https://www.meetup.com/columbus-rs/events/dpkhgrydclbpb/)
 * 2022-08-16 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/wjkjssydclbvb/)
+* 2022-08-23 | Toronto, ON, CA | [Rust Toronto](https://www.meetup.com/rust-toronto/)
+    * [**WebAssembly plugins in Rust**](https://www.meetup.com/rust-toronto/events/287284601/)
 
 ### Oceania
 
 * 2022-07-28 | Brisbane, QLD, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane/)
     * [**July Meetup**](https://www.meetup.com/rust-brisbane/events/286889804/)
+* 2022-08-23 | Wellington, NZ | [Rust Wellington](https://www.meetup.com/rust-wellington/)
+    * [**Flywheel Edition: 3 talks on Rust!**](https://www.meetup.com/rust-wellington/events/287280642/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
