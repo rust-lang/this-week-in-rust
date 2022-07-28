@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-25.html)
 
+* [HexoSynth 2022 - Devlog #6 - Workflow and Oscilloscope](https://m8geil.de/posts/hexosynth-6/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
