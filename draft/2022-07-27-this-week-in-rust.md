@@ -36,6 +36,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [This week in Fluvio #39: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0039/)
+* [This week in Fluvio #40: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0040/)
 * [Announcing Relm4 v0.5 beta](https://relm4.org/blog/posts/announcing_relm4_v0.5_beta)
 * [rust-analyzer changelog #139](https://rust-analyzer.github.io/thisweek/2022/07/25/changelog-139.html)
 * [IntelliJ Rust Changelog #175](https://intellij-rust.github.io/2022/07/25/changelog-175.html)
