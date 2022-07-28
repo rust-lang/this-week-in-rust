@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 * [HexoSynth 2022 - Devlog #6 - Workflow and Oscilloscope](https://m8geil.de/posts/hexosynth-6/)
 
 ### Observations/Thoughts
+* [How To Put 30 Languages Into 1.1MB](https://laurmaedje.github.io/posts/hypher/)
 * [Does Rust need proc-macros 2.0?](https://aaronerhardt.github.io/blog/posts/proc_macro_v2/)
 * [The Ferrocene Language Specification is here!](https://ferrous-systems.com/blog/the-ferrocene-language-specification-is-here/)
 * [Fixing the Next Thousand Deadlocks: Why Buffered Streams Are Broken and How To Make Them Safer](https://blog.polybdenum.com/2022/07/24/fixing-the-next-thousand-deadlocks-why-buffered-streams-are-broken-and-how-to-make-them-safer.html)
