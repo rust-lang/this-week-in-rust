@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 * [What has the Foundation been up to?](https://foundation.rust-lang.org/news/2022-07-27-what-has-the-foundation-been-up-to/)
 
 ### Project/Tooling Updates
+* [Aya: your tRusty eBPF companion](https://deepfence.io/aya-your-trusty-ebpf-companion/)
 * [This week in Fluvio #39: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0039/)
 * [This week in Fluvio #40: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0040/)
 * [Announcing Relm4 v0.5 beta](https://relm4.org/blog/posts/announcing_relm4_v0.5_beta)
@@ -59,6 +60,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Writing Linux Kernel Modules in Rust](https://lore.kernel.org/rust-for-linux/CAN6UTaywU8NfeNVi2ZDfwgjo3LCKiQRbD9PUWKsRp33Gxo+4gg@mail.gmail.com/)
+* [STM32F4 Embedded Rust at the HAL: Timer Ultrasonic Distance Measurement](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-timer-ultrasonic-distance-measurement)
+* [Move data out of closure](https://dev.to/antonov_mike/move-data-out-of-closure-4jck)
 
 ## Crate of the Week
 
