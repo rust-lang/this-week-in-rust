@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [This week in Databend #52: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-07-27-databend-weekly/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
