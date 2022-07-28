@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Announcing Relm4 v0.5 beta](https://relm4.org/blog/posts/announcing_relm4_v0.5_beta)
 * [rust-analyzer changelog #139](https://rust-analyzer.github.io/thisweek/2022/07/25/changelog-139.html)
 * [IntelliJ Rust Changelog #175](https://intellij-rust.github.io/2022/07/25/changelog-175.html)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W30](https://www.fornjot.app/blog/weekly-release/2022-w30/)
