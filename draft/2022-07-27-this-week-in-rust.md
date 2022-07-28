@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-25.html)
 * [HexoSynth 2022 - Devlog #6 - Workflow and Oscilloscope](https://m8geil.de/posts/hexosynth-6/)
 
+* [This week in Databend #52: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-07-27-databend-weekly/)
+
 ### Observations/Thoughts
 * [How To Put 30 Languages Into 1.1MB](https://laurmaedje.github.io/posts/hypher/)
 * [Does Rust need proc-macros 2.0?](https://aaronerhardt.github.io/blog/posts/proc_macro_v2/)
