@@ -28,19 +28,30 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing the Keyword Generics Initiative](https://blog.rust-lang.org/inside-rust/2022/07/27/keyword-generics.html)
 
 ### Foundation
+* [What has the Foundation been up to?](https://foundation.rust-lang.org/news/2022-07-27-what-has-the-foundation-been-up-to/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #139](https://rust-analyzer.github.io/thisweek/2022/07/25/changelog-139.html)
+* [IntelliJ Rust Changelog #175](https://intellij-rust.github.io/2022/07/25/changelog-175.html)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W30](https://www.fornjot.app/blog/weekly-release/2022-w30/)
-
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-25.html)
-
 * [HexoSynth 2022 - Devlog #6 - Workflow and Oscilloscope](https://m8geil.de/posts/hexosynth-6/)
 
 ### Observations/Thoughts
+* [The Ferrocene Language Specification is here!](https://ferrous-systems.com/blog/the-ferrocene-language-specification-is-here/)
+* [Fixing the Next Thousand Deadlocks: Why Buffered Streams Are Broken and How To Make Them Safer](https://blog.polybdenum.com/2022/07/24/fixing-the-next-thousand-deadlocks-why-buffered-streams-are-broken-and-how-to-make-them-safer.html)
+* [A performance retrospective using Rust (part 2)](https://agourlay.github.io/rust-performance-retrospective-part2/)
+* [Introduction to WebAssembly and Rust](https://bojanstipic.rs/blog/01-introduction-to-webassembly-and-rust/)
+* [A look at serde-json](https://owengage.com/writing/2022-07-22-a-look-at-serde-json/)
+* [Impl Trait Parameters And Turbofish - Veetaha Website](https://veetaha.github.io/impl-trait-parameters-and-turbofish.html)
+* [Console #115 - Interview with Jonathan of BonsaiDb](https://console.substack.com/p/console-115)
+* [audio] [Asynchronous Rust with Tyler Mandry](https://rustacean-station.org/episode/tyler-mandry/)
+* [audio] [Tauri with Daniel Thompson-Yvetot](https://rustacean-station.org/episode/daniel-thompson/)
 
 ### Rust Walkthroughs
 * [Writing Linux Kernel Modules in Rust](https://lore.kernel.org/rust-for-linux/CAN6UTaywU8NfeNVi2ZDfwgjo3LCKiQRbD9PUWKsRp33Gxo+4gg@mail.gmail.com/)
