@@ -33,8 +33,6 @@ and just ask the editors to select the category.
 ### Foundation
 * [What has the Foundation been up to?](https://foundation.rust-lang.org/news/2022-07-27-what-has-the-foundation-been-up-to/)
 
-### Newsletters
-
 ### Project/Tooling Updates
 * [This week in Fluvio #39: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0039/)
 * [This week in Fluvio #40: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0040/)
@@ -44,7 +42,6 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W30](https://www.fornjot.app/blog/weekly-release/2022-w30/)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-07-25.html)
 * [HexoSynth 2022 - Devlog #6 - Workflow and Oscilloscope](https://m8geil.de/posts/hexosynth-6/)
-
 * [This week in Databend #52: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-07-27-databend-weekly/)
 
 ### Observations/Thoughts
@@ -63,10 +60,6 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Writing Linux Kernel Modules in Rust](https://lore.kernel.org/rust-for-linux/CAN6UTaywU8NfeNVi2ZDfwgjo3LCKiQRbD9PUWKsRp33Gxo+4gg@mail.gmail.com/)
 
-### Research
-
-### Miscellaneous
-
 ## Crate of the Week
 
 This week's crate is [cargo-semver-checks](https://crates.io/crates/cargo-semver-checks), a CI-friendly tool to ckeck your library's API.
@@ -83,6 +76,11 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [ockam - Make output node information and format consistent across `ockam node create | show | list` commands](https://github.com/build-trust/ockam/issues/3042)
+* [ockam - Combine `ockam identity print` and `ockam identity export` into one command `ockam identity show`](https://github.com/pest-parser/pest/discussions/606)
+* [mirrord - Add e2e tests for a bash script](https://github.com/metalbear-co/mirrord/issues/200)
+* [mirrord - Add e2e sanity tests for Rails](https://github.com/metalbear-co/mirrord/issues/199)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -305,7 +303,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/voglel/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
