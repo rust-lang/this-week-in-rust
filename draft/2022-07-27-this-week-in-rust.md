@@ -49,7 +49,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [cargo-semver-checks](https://crates.io/crates/cargo-semver-checks), a CI-friendly tool to ckeck your library's API.
+
+Thanks to [Predrag Gruevski](https://users.rust-lang.org/t/crate-of-the-week/2704/1087) and [Matthias Beyer](https://users.rust-lang.org/t/crate-of-the-week/2704/1088) for the (self and other) nominations.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -68,7 +70,53 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+397 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-07-18..2022-07-25
+
+* [rustc\_expand: switch `FxHashMap` to `FxIndexMap` where iteration is used](https://github.com/rust-lang/rust/pull/99320)
+* [proc\_macro/bridge: stop using a remote object handle for proc\_macro `Ident` and `Literal`](https://github.com/rust-lang/rust/pull/98189)
+* [allow to disable thinLTO buffer to support lto-embed-bitcode lld feature](https://github.com/rust-lang/rust/pull/98162)
+* [allow `trait A: ~const B`](https://github.com/rust-lang/rust/pull/93429)
+* [do not allow typeck children items to constrain outer RPITs](https://github.com/rust-lang/rust/pull/99345)
+* [do not resolve associated const when there is no provided value](https://github.com/rust-lang/rust/pull/99449)
+* [don't suggest unnameable generic arguments](https://github.com/rust-lang/rust/pull/99580)
+* [improve suggestions for `NonZeroT` <- `T` coercion error](https://github.com/rust-lang/rust/pull/99438)
+* [improve suggestions for returning binding](https://github.com/rust-lang/rust/pull/99539)
+* [add E0790 as more specific variant of E0283](https://github.com/rust-lang/rust/pull/98028)
+* [miri: add a scheme for always using the default toolchain, running clippy and fmt before running any other command](https://github.com/rust-lang/miri/pull/2381)
+* [miri: add a flag to print a diagnostic when an outdated value is returned from an atomic load](https://github.com/rust-lang/miri/pull/2424)
+* [support vec zero-alloc optimization for tuples and byte arrays](https://github.com/rust-lang/rust/pull/97581)
+* [add `PhantomData` marker for dropck to `BTreeMap`](https://github.com/rust-lang/rust/pull/99413)
+* [add `\[f32\]::sort_floats` and `\[f64\]::sort_floats`](https://github.com/rust-lang/rust/pull/93397)
+* [protect `std::io::Take::limit` from overflow in `read`](https://github.com/rust-lang/rust/pull/95040)
+* [fix `Skip::next` for non-fused inner iterators](https://github.com/rust-lang/rust/pull/99434)
+* [stabilize `core::task::ready!`](https://github.com/rust-lang/rust/pull/99419)
+* [add `IntoFuture::into_future` desugaring](https://github.com/rust-lang/reference/pull/1233)
+* [futures: inline `WakerRef` functions](https://github.com/rust-lang/futures-rs/pull/2626)
+* [cargo-miri: support nextest](https://github.com/rust-lang/miri/pull/2398)
+* [cargo-miri: reorder `--target` to after the user-defined commands](https://github.com/rust-lang/miri/pull/2402)
+* [cargo: stabilize workspace Inheritance](https://github.com/rust-lang/cargo/pull/10859)
+* [docs.rs: add canonical URL for rustdoc pages](https://github.com/rust-lang/docs.rs/pull/1773)
+* [clippy: add `arithmetic` lint](https://github.com/rust-lang/rust-clippy/pull/9130)
+* [clippy: add `assertions_on_result_states` lint](https://github.com/rust-lang/rust-clippy/pull/9225)
+* [clippy: check `assign_op_pattern` for conflicting borrows](https://github.com/rust-lang/rust-clippy/pull/9214)
+* [clippy: check for `todo!` on every expression in `SpanlessEq`](https://github.com/rust-lang/rust-clippy/pull/9207)
+* [clippy: check macro statements in `non_copy_const`](https://github.com/rust-lang/rust-clippy/pull/9246)
+* [clippy: don't lint `std_instead_of_core` on `std::env`](https://github.com/rust-lang/rust-clippy/pull/9243)
+* [clippy: fix ICE in `miri_to_const`](https://github.com/rust-lang/rust-clippy/pull/9241)
+* [clippy: fix ICE in `question_mark`](https://github.com/rust-lang/rust-clippy/pull/9244)
+* [clippy: fix `useless_format` spans for `format!("{foo}")`](https://github.com/rust-lang/rust-clippy/pull/9237)
+* [clippy: fix suggestion causing error for `needless_borrow` function in field](https://github.com/rust-lang/rust-clippy/pull/9210)
+* [rust-analyzer: find original as node before compute ref match](https://github.com/rust-lang/rust-analyzer/pull/12800)
+* [rust-analyzer: fix missing fields check on destructuring assignment](https://github.com/rust-lang/rust-analyzer/pull/12863)
+* [rust-analyzer: fix: autocomplete for struct fields includes receiver](https://github.com/rust-lang/rust-analyzer/pull/12861)
+* [rust-analyzer: fix: don't add braces to 'if' completion in match guard position](https://github.com/rust-lang/rust-analyzer/pull/12851)
+* [rust-analyzer: fix error tooltip message for VSCode status bar item](https://github.com/rust-lang/rust-analyzer/pull/12850)
+* [rust-analyzer: fix restart server duplicating language clients](https://github.com/rust-lang/rust-analyzer/pull/12847)
+* [rust-analyzer: fix: work around Code bug with empty diagnostics](https://github.com/rust-lang/rust-analyzer/pull/12809)
+* [rust-analyzer: don't replace default members' body](https://github.com/rust-lang/rust-analyzer/pull/12832)
+* [rustc-perf: enable measuring stable compiler builds](https://github.com/rust-lang/rustc-perf/pull/1341)
 
 ### Rust Compiler Performance Triage
 
@@ -193,7 +241,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> # JuSt Be CaReFuL
+>
+> If there’s one lesson from decades of software engineering, it is the failure of “just be careful” as a strategy. C/C++ programmers still experience memory corruption constantly, no matter how careful they are. Java programmers still frequently see NullPointerExceptions, no matter how careful they are. And so on. One of the reasons that Rust is so successful is that it adds automated checks to prevent many common mistakes.
+
+– [Robert Grosse on their blog](https://blog.polybdenum.com/2022/07/24/fixing-the-next-thousand-deadlocks-why-buffered-streams-are-broken-and-how-to-make-them-safer.html)
+
+Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1274) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
