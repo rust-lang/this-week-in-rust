@@ -65,7 +65,7 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-This week's crate is [cargo-semver-checks](https://crates.io/crates/cargo-semver-checks), a CI-friendly tool to ckeck your library's API.
+This week's crate is [cargo-semver-checks](https://crates.io/crates/cargo-semver-checks), a CI-friendly tool to check your library's API.
 
 Thanks to [Predrag Gruevski](https://users.rust-lang.org/t/crate-of-the-week/2704/1087) and [Matthias Beyer](https://users.rust-lang.org/t/crate-of-the-week/2704/1088) for the (self and other) nominations.
 
