@@ -164,7 +164,7 @@ Rusty Events between 2022-08-03 - 2022-08-31 🦀
     * [**July Meetup: Reflections on using Rust for Data Analysis (Libor Spacek)**](https://www.meetup.com/rust-brisbane/events/286889804/)
 * 2022-08-24 | Wellington, NZ + Virtual | [Rust Wellington](https://www.meetup.com/rust-wellington/)
     * [**Flywheel Edition: 3 talks on Rust!**](https://www.meetup.com/rust-wellington/events/287280642/)
-* 2022-08-26 | Melbourne, Vic, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
+* 2022-08-26 | Melbourne, VIC, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
     * [**August 2022 Meetup**](https://www.meetup.com/rust-melbourne/events/287468753/)
 
 If you are running a Rust event please add it to the [calendar] to get
