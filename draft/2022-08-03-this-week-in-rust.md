@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Ogma v0.5 Release](www.kurtlawrence.info/blog/ogma-v05-release)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
