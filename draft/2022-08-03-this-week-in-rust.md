@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [cargo-mutants 0.2.9 finds poorly-tested code faster](https://github.com/sourcefrog/cargo-mutants/discussions/51)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
