@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+[RRust: A Reversible Embedded Language](https://blog.erk.dev/posts/rrust)
+
 ### Miscellaneous
 
 ## Crate of the Week
