@@ -28,20 +28,41 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Increasing the glibc and Linux kernel requirements](https://blog.rust-lang.org/2022/08/01/Increasing-glibc-kernel-requirements.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #140](https://rust-analyzer.github.io//thisweek/2022/08/01/changelog-140.html)
+* [GCC Rust Monthly Report #19 July 2022](https://thephilbert.io/2022/08/01/gcc-rust-monthly-report-19-july-2022/)
+* [This Month in hyper: July 2022](https://seanmonstar.com/post/691039972381294592/this-month-in-hyper-july-2022)
+* [Bevy - Bevy 0.8](https://bevyengine.org/news/bevy-0-8/)
 
 ### Observations/Thoughts
+* [Rust linux kernel development](https://www.jackos.io/rust-kernel/rust-for-linux.html)
+* [Proc macro support in rust-analyzer for nightly rustc versions](https://fasterthanli.me/articles/proc-macro-support-in-rust-analyzer-for-nightly-rustc-versions)
+* [Manage keybindings in a Rust terminal application](https://dystroy.org/blog/keybindings/)
+* [Safety](https://nested.substack.com/p/safety)
+* [Paper Review: Safe, Flexible Aliasing with Deferred Borrows](https://blog.theincredibleholk.org/blog/2022/07/29/safe-flexible-aliasing-with-deferred-borrows/)
+* [Uncovering a Blocking Syscall](https://chrissardegna.com/blog/uncovering-a-blocking-syscall/)
+* [nt-list: Windows Linked Lists in idiomatic Rust](https://colinfinck.de/posts/nt-list-windows-linked-lists-in-idiomatic-rust/)
 
 ### Rust Walkthroughs
+* [Living with the Rust trademark](https://lwn.net/SubscriberLink/901816/000516eb2cb47e05/)
+* [Patterns with Rust types](https://www.shuttle.rs/blog/2022/07/28/patterns-with-rust-types)
+* [Fully generic recursion in Rust](https://recursion.wtf/posts/rust_schemes_2/)
+* [video] [Are we web yet? Our journey to Axum](https://www.youtube.com/watch?v=5l7WUXaaHzA)
+* [video] [Build your Rust lightsaber (my Rust toolkit recommendations)](https://www.youtube.com/watch?v=ifaLk5v3W90)
+* [video] [Rust Tutorial Full Course](https://www.youtube.com/watch?v=ygL_xcavzQ4)
+* [video] [Bevy 0.7 to 0.8 migration guide](https://www.youtube.com/watch?v=vAg2xXRHqXY)
 
 ### Research
 
 ### Miscellaneous
+* [Meta approves 4 programming languages for employees and devs](https://www.theregister.com/2022/07/27/meta_approves_four_programming_languages/)
+* [DE] [Meta setzt auf die Programmiersprachen C++, Python, Hack und neuerdings Rust](https://www.heise.de/news/Meta-setzt-auf-die-Programmiersprachen-C-Python-Hack-und-neuerdings-Rust-7193403.html)
 
 ## Crate of the Week
 
