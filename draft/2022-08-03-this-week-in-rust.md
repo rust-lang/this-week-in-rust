@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [HexoSynth 2022 - Devlog #7 - The DSP JIT Compiler](https://m8geil.de/posts/hexosynth-7/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
