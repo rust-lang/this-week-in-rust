@@ -187,6 +187,10 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
+**Tangram**
+
+- [Rust Programmer (Full Time | Remote USA)](https://www.tangram.dev/jobs/rust_programmer)
+
 Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
