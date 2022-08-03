@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Advanced shellcode in Rust](https://kerkour.com/advanced-shellcode-in-rust)
+
 ### Research
 
 ### Miscellaneous
