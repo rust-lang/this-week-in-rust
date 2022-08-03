@@ -122,6 +122,10 @@ Rusty Events between 2022-08-03 - 2022-08-31 🦀
 * 2022-08-12 | Tokyo, JP + Virtual | [tonari](https://gallery.tonari.no/en/tonari-lab)
     * [**Tokyo Rust Game Hack 2022 edition: The Bombercrab Challenge**](https://bombercrab-rust-game-hack.peatix.com/view)
 
+### Europe
+
+* 2022-08-30 | Utrecht, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
+    * [**Run Rust Anywhere**](https://www.meetup.com/rust-nederland/events/287302224/)
 
 ### North America
 
@@ -141,11 +145,6 @@ Rusty Events between 2022-08-03 - 2022-08-31 🦀
     * [**Concurrencia & paralelismo con Rust**](https://www.meetup.com/rust-mx/events/287561814/)
 * 2022-08-25 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
     * [**Hello World Cargo Crates Using Github Actions with jojobyte and Food!**](https://www.meetup.com/utah-rust/events/kvrxqsydclbpb/)
-
-### Europe
-
-* 202-08-30 | Utrecht, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
-    * [**Run Rust Anywhere**](https://www.meetup.com/rust-nederland/events/287302224/)
 
 ### Oceania
 
