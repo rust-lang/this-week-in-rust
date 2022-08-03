@@ -38,7 +38,7 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #140](https://rust-analyzer.github.io/thisweek/2022/08/01/changelog-140.html)
 * [GCC Rust Monthly Report #19 July 2022](https://thephilbert.io/2022/08/01/gcc-rust-monthly-report-19-july-2022/)
 * [This Month in hyper: July 2022](https://seanmonstar.com/post/691039972381294592/this-month-in-hyper-july-2022)
-* [Bevy - Bevy 0.8](https://bevyengine.org/news/bevy-0-8/)
+* [Bevy 0.8](https://bevyengine.org/news/bevy-0-8/)
 
 ### Observations/Thoughts
 * [Rust linux kernel development](https://www.jackos.io/rust-kernel/rust-for-linux.html)
