@@ -34,10 +34,9 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W31](https://www.fornjot.app/blog/weekly-release/2022-w31/)
 * [Zellij 0.31.0: Sixel support, search panes and custom status-bar keybindings](https://zellij.dev/news/sixel-search-statusbar/)
-
 * [Ogma v0.5 Release](https://www.kurtlawrence.info/blog/ogma-v05-release)
-
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-08-01.html)
 
 ### Observations/Thoughts
