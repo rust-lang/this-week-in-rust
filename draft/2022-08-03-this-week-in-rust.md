@@ -50,7 +50,6 @@ and just ask the editors to select the category.
 * [nt-list: Windows Linked Lists in idiomatic Rust](https://colinfinck.de/posts/nt-list-windows-linked-lists-in-idiomatic-rust/)
 
 ### Rust Walkthroughs
-* [Living with the Rust trademark](https://lwn.net/SubscriberLink/901816/000516eb2cb47e05/)
 * [Patterns with Rust types](https://www.shuttle.rs/blog/2022/07/28/patterns-with-rust-types)
 * [Fully generic recursion in Rust](https://recursion.wtf/posts/rust_schemes_2/)
 * [video] [Are we web yet? Our journey to Axum](https://www.youtube.com/watch?v=5l7WUXaaHzA)
