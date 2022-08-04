@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Advanced shellcode in Rust](https://kerkour.com/advanced-shellcode-in-rust)
+
 ### Research
 
 [RRust: A Reversible Embedded Language](https://blog.erk.dev/posts/rrust)
