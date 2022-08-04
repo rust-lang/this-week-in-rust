@@ -30,10 +30,6 @@ and just ask the editors to select the category.
 ### Official
 * [Increasing the glibc and Linux kernel requirements](https://blog.rust-lang.org/2022/08/01/Increasing-glibc-kernel-requirements.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer changelog #140](https://rust-analyzer.github.io/thisweek/2022/08/01/changelog-140.html)
 * [GCC Rust Monthly Report #19 July 2022](https://thephilbert.io/2022/08/01/gcc-rust-monthly-report-19-july-2022/)
@@ -55,20 +51,20 @@ and just ask the editors to select the category.
 * [Paper Review: Safe, Flexible Aliasing with Deferred Borrows](https://blog.theincredibleholk.org/blog/2022/07/29/safe-flexible-aliasing-with-deferred-borrows/)
 * [Uncovering a Blocking Syscall](https://chrissardegna.com/blog/uncovering-a-blocking-syscall/)
 * [nt-list: Windows Linked Lists in idiomatic Rust](https://colinfinck.de/posts/nt-list-windows-linked-lists-in-idiomatic-rust/)
+* [audio] [Beyond the Hype: Most-loved language – does Rust justify the hype?](https://blog.scottlogic.com/2022/08/01/beyond-the-hype-most-loved-language-does-rust-justify-the-hype.html)
 
 ### Rust Walkthroughs
 * [Patterns with Rust types](https://www.shuttle.rs/blog/2022/07/28/patterns-with-rust-types)
 * [Fully generic recursion in Rust](https://recursion.wtf/posts/rust_schemes_2/)
+* [Advanced shellcode in Rust](https://kerkour.com/advanced-shellcode-in-rust)
+* [STM32F4 Embedded Rust at the HAL: Analog Temperature Sensing using the ADC](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-analog-temperature-sensing-using-the-adc)
 * [video] [Are we web yet? Our journey to Axum](https://www.youtube.com/watch?v=5l7WUXaaHzA)
 * [video] [Build your Rust lightsaber (my Rust toolkit recommendations)](https://www.youtube.com/watch?v=ifaLk5v3W90)
 * [video] [Rust Tutorial Full Course](https://www.youtube.com/watch?v=ygL_xcavzQ4)
 * [video] [Bevy 0.7 to 0.8 migration guide](https://www.youtube.com/watch?v=vAg2xXRHqXY)
 
-* [Advanced shellcode in Rust](https://kerkour.com/advanced-shellcode-in-rust)
-
 ### Research
-
-[RRust: A Reversible Embedded Language](https://blog.erk.dev/posts/rrust)
+* [RRust: A Reversible Embedded Language](https://blog.erk.dev/posts/rrust)
 
 ### Miscellaneous
 * [Meta approves 4 programming languages for employees and devs](https://www.theregister.com/2022/07/27/meta_approves_four_programming_languages/)
@@ -92,6 +88,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
+
+* [EuroRust Call for Papers is Open](https://www.papercall.io/eurorust-2022)
+* [pq-sys - Setup a CI](https://github.com/sgrif/pq-sys/issues/42)
+* [ockam - Make `ockam message send ...` support `-` to represent STDIN in its addr argument](https://github.com/build-trust/ockam/issues/3068)
+* [ockam - Display a node's default identifier in output of `ockam node create | show | list` commands](https://github.com/build-trust/ockam/issues/3100)
+* [ockam - Refactor `ockam portal ...` commands into `ockam tcp-...` commands](https://github.com/build-trust/ockam/issues/3077)
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
