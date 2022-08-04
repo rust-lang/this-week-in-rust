@@ -36,6 +36,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Zellij 0.31.0: Sixel support, search panes and custom status-bar keybindings](https://zellij.dev/news/sixel-search-statusbar/)
 
+* [Ogma v0.5 Release](https://www.kurtlawrence.info/blog/ogma-v05-release)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
