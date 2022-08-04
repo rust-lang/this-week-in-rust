@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 * [Ogma v0.5 Release](https://www.kurtlawrence.info/blog/ogma-v05-release)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-08-01.html)
 
+* [HexoSynth 2022 - Devlog #7 - The DSP JIT Compiler](https://m8geil.de/posts/hexosynth-7/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
