@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-08-01.html)
 * [HexoSynth 2022 - Devlog #7 - The DSP JIT Compiler](https://m8geil.de/posts/hexosynth-7/)
 
+* [This week in Databend #53: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-08-03-databend-weekly/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
