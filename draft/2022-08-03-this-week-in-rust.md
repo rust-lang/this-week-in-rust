@@ -34,11 +34,11 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [This week in Fluvio #41: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0041/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W31](https://www.fornjot.app/blog/weekly-release/2022-w31/)
 * [Zellij 0.31.0: Sixel support, search panes and custom status-bar keybindings](https://zellij.dev/news/sixel-search-statusbar/)
 * [Ogma v0.5 Release](https://www.kurtlawrence.info/blog/ogma-v05-release)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-08-01.html)
-
 * [HexoSynth 2022 - Devlog #7 - The DSP JIT Compiler](https://m8geil.de/posts/hexosynth-7/)
 
 ### Observations/Thoughts
