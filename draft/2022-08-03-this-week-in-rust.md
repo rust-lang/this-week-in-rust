@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 
 * [Ogma v0.5 Release](https://www.kurtlawrence.info/blog/ogma-v05-release)
 
+* [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-08-01.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
