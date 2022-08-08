@@ -35,7 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-[Fang, async background processing for Rust](https://pxp9.github.io/articles/async-processing/)
+[Fang, async background processing for Rust](https://pxp9.github.io/rust/async-processing/)
 
 ### Observations/Thoughts
 
