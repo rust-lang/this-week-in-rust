@@ -1,5 +1,6 @@
 FROM ubuntu:18.04
 
+# Must run from base TWIR directory... makefile takes care of this.
 WORKDIR /usr/twir
 
 RUN apt-get update
@@ -25,9 +26,9 @@ RUN apt-get install -y nodejs
 RUN npm install -g sass
 RUN npm install -g juice
 
-COPY tools/run_server.sh run_server.sh
+COPY publishing/run_server.sh run_server.sh
 RUN chmod 777 run_server.sh
-COPY tools/create_html_friendly_page.sh create_html_friendly_page.sh
+COPY publishing/create_html_friendly_page.sh create_html_friendly_page.sh
 RUN chmod 777 create_html_friendly_page.sh
 
 CMD ["pelican", "--delete-output-directory", "content"]

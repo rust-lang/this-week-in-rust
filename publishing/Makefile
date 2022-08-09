@@ -31,7 +31,7 @@
 BLOG_DOWNLOAD=http://127.0.0.1:8000/blog/2022/07/27/this-week-in-rust-453/
 
 build:
-	docker build -t twir .
+	cd .. && docker build -t twir -f publishing/Dockerfile . && cd -
 
 clean:
 	rm -rf output/
