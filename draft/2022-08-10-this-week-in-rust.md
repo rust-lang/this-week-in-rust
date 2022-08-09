@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [argmin 0.6.0 and argmin-math 0.1.0 released](http://argmin-rs.org/blog/version-v0-6-0/)
 
 ### Observations/Thoughts
 
