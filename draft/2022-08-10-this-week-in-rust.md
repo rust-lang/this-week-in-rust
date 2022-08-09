@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+- [Announcing Cargo WAPM](https://adventures.michaelfbryan.com/posts/announcing-cargo-wapm/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
