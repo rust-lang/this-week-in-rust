@@ -68,7 +68,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A pretty quiet week for performance. Unfortunately, by far the biggest change was a regression introduced by increasing the minimum libc version for linux-gnu targets. The exact reason for why this happened in this case is unclear, and it's not easy to investigate. Luckily, the average regression introduced by this change was 0.4% which is fairly small, and many of the larger regressions were limited to doc builds.
+
+Triage done by **@rylev**.
+Revision range: [792bc5a0..cc4dd6fc](https://perf.rust-lang.org/?start=792bc5a0102d0973d42183a2b267850bb905236f&end=cc4dd6fc9f1a5c798df269933c7e442b79661a86&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+|            | mean | max | count |
+|:----------:|:----:|:---:|:-----:|
+| Regressions ❌ <br /> (primary) | 0.5% | 1.4% | 146   |
+| Regressions ❌ <br /> (secondary) | 0.8% | 1.6% | 78    |
+| Improvements ✅ <br /> (primary) | N/A  | N/A | 0     |
+| Improvements ✅ <br /> (secondary) | -2.0% | -4.0% | 9     |
+| All ❌✅ (primary) | 0.5% | 1.4% | 146   |
+
+1 Regressions, 2 Improvements, 2 Mixed; 1 of them in rollups
+42 artifact comparisons made in total
+
+Full report [here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-08-09.md)
 
 ### Call for Testing
 
