@@ -42,13 +42,13 @@ and just ask the editors to select the category.
 * [Announcing: MiniRust](https://www.ralfj.de/blog/2022/08/08/minirust.html)
 * [Achieving A Completely Open Source Implementation of Apple Code Signing and Notarization](https://gregoryszorc.com/blog/2022/08/08/achieving-a-completely-open-source-implementation-of-apple-code-signing-and-notarization/)
 * [Announcing Cargo WAPM](https://adventures.michaelfbryan.com/posts/announcing-cargo-wapm/)
+* [argmin 0.6.0 and argmin-math 0.1.0 released](http://argmin-rs.org/blog/version-v0-6-0/)
 * [rust-analyzer changelog #141](https://rust-analyzer.github.io/thisweek/2022/08/08/changelog-141.html)
 * [Fyrox 0.27 Feature Highlights](https://fyrox.rs/blog/post/feature-highlights-0-27/)
 * [rustc_codegen_gcc: Progress Report #14](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-14)
 * [IntelliJ Rust: Updates For the 2022.2 Release Cycle](https://blog.jetbrains.com/rust/2022/08/03/intellij-rust-updates-for-the-2022-2-release-cycle/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W32](https://www.fornjot.app/blog/weekly-release/2022-w32/)
 * [Fang, async background processing for Rust](https://pxp9.github.io/rust/async-processing/)
-
 * [HexoSynth 2022 - Devlog #8 - A Visual DSP Programming Language](https://m8geil.de/posts/hexosynth-8/)
 
 ### Observations/Thoughts
