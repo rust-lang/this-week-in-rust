@@ -79,6 +79,8 @@ and just ask the editors to select the category.
 * [Bevy Jam #2](https://itch.io/jam/bevy-jam-2)
 * [Rust Arcade: Designing a Custom Arcade Machine](https://www.youtube.com/watch?v=1hALxNZimzc)
 
+* [Rust Education Workshop 2022 Second Call For Participation](https://rust-edu.org/workshop/)
+
 ## Crate of the Week
 
 This week's crate is [fang](https://github.com/ayrat555/fang) an async background processing crate.
