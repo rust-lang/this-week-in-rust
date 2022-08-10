@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 * [HexoSynth 2022 - Devlog #8 - A Visual DSP Programming Language](https://m8geil.de/posts/hexosynth-8/)
 
 ### Observations/Thoughts
+* [Hot Reloading Rust for Fun and Faster Feedback Cycles](https://robert.kra.hn/posts/hot-reloading-rust/)
 * [Using unwrap() in Rust is Okay](https://blog.burntsushi.net/unwrap/)
 * [A performance retrospective using Rust (part 3)](https://agourlay.github.io/rust-performance-retrospective-part3/)
 * [The State Of Rust In 2022](https://deprogrammaticaipsum.com/the-state-of-rust-in-2022/)
