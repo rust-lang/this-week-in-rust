@@ -262,6 +262,8 @@ Rusty Events between 2022-08-10 - 2022-09-07 🦀
     * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/qtvtvsydclbxb/)
 * 2022-08-18 | Virtual (Wiesbaden, DE) | [Frontend RheinMain](https://www.meetup.com/frontend_rm/)
     * [**Rust for curious developers**](https://www.meetup.com/frontend_rm/events/287713743/)
+* 2022-08-18 | Virtual (Tehran, IR) | [Iran Rust Meetup](https://rust-meetup.ir/)
+    * [**Iran Rust Meetup #8**](https://rust-meetup.ir/2022/08/18/8th-meetup.html)
 * 2022-08-20 | Virtual (Hoboken, NJ, US) | [Neighborhood Math Club](https://www.meetup.com/neighborhood-math-club/)
     * [**Share Your Coding Project(s)!**](https://www.meetup.com/neighborhood-math-club/events/kbjcssydclbbc/)
 * 2022-08-24 | Virtual + Wellington, NZ | [Rust Wellington](https://www.meetup.com/rust-wellington/)
