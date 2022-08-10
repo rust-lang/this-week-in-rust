@@ -28,25 +28,65 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Non-lexical lifetimes (NLL) fully stable](https://blog.rust-lang.org/2022/08/05/nll-by-default.html)
+* [Rust Compiler Midyear Report for 2022](https://blog.rust-lang.org/inside-rust/2022/08/08/compiler-team-2022-midyear-report.html)
+* [Please welcome Dan to Library Contributors](https://blog.rust-lang.org/inside-rust/2022/08/10/libs-contributors.html)
 
 ### Foundation
+* [Trademark Policy: Review and Survey](https://foundation.rust-lang.org/news/2022-08-09-trademark-policy-review-and-survey/)
 
 ### Newsletters
+* [This Month in Rust OSDev: July 2022](https://rust-osdev.com/this-month/2022-07/)
 
 ### Project/Tooling Updates
+* [Announcing: MiniRust](https://www.ralfj.de/blog/2022/08/08/minirust.html)
+* [Achieving A Completely Open Source Implementation of Apple Code Signing and Notarization](https://gregoryszorc.com/blog/2022/08/08/achieving-a-completely-open-source-implementation-of-apple-code-signing-and-notarization/)
+* [Announcing Cargo WAPM](https://adventures.michaelfbryan.com/posts/announcing-cargo-wapm/)
+* [argmin 0.6.0 and argmin-math 0.1.0 released](http://argmin-rs.org/blog/version-v0-6-0/)
+* [rust-analyzer changelog #141](https://rust-analyzer.github.io/thisweek/2022/08/08/changelog-141.html)
+* [Fyrox 0.27 Feature Highlights](https://fyrox.rs/blog/post/feature-highlights-0-27/)
+* [rustc_codegen_gcc: Progress Report #14](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-14)
+* [IntelliJ Rust: Updates For the 2022.2 Release Cycle](https://blog.jetbrains.com/rust/2022/08/03/intellij-rust-updates-for-the-2022-2-release-cycle/)
+* [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W32](https://www.fornjot.app/blog/weekly-release/2022-w32/)
+* [Fang, async background processing for Rust](https://pxp9.github.io/rust/async-processing/)
+* [HexoSynth 2022 - Devlog #8 - A Visual DSP Programming Language](https://m8geil.de/posts/hexosynth-8/)
 
 ### Observations/Thoughts
+* [Using unwrap() in Rust is Okay](https://blog.burntsushi.net/unwrap/)
+* [A performance retrospective using Rust (part 3)](https://agourlay.github.io/rust-performance-retrospective-part3/)
+* [The State Of Rust In 2022](https://deprogrammaticaipsum.com/the-state-of-rust-in-2022/)
+* [Blocking Sockets and Async](https://www.thecodedmessage.com/posts/blocking-sockets/)
+* [How does Rust async work?](https://aidancully.blogspot.com/2022/08/how-does-rust-async-work.html)
 
 ### Rust Walkthroughs
-- [Understanding Rust generics and how to use them](https://blog.logrocket.com/understanding-rust-generics-how-use/)
+* [Understanding Rust generics and how to use them](https://blog.logrocket.com/understanding-rust-generics-how-use/)
+* [Hot Reloading Rust — for Fun and Faster Feedback Cycles](https://robert.kra.hn/posts/hot-reloading-rust/)
+* [The Magic of zerocopy (compared with scroll)](https://swatinem.de/blog/magic-zerocopy/)
+* [Not a Yoking Matter (Zero-Copy #1)](https://manishearth.github.io/blog/2022/08/03/zero-copy-1-not-a-yoking-matter/)
+* [Zero-Copy All The Things! (Zero-Copy #2)](https://manishearth.github.io/blog/2022/08/03/zero-copy-2-zero-copy-all-the-things/)
+* [So Zero It's ... Negative? (Zero-Copy #3)](https://manishearth.github.io/blog/2022/08/03/zero-copy-3-so-zero-its-dot-dot-dot-negative/)
+* [What is server middleware](https://www.shuttle.rs/blog/2022/08/04/middleware)
+* [Rust and WebAssembly without a Bundler](https://tung.github.io/posts/rust-and-webassembly-without-a-bundler/)
+* [What are Rust's HTTP extensions?](https://blog.adamchalmers.com/what-are-extensions/)
+* [Mapping into the serde data model](https://owengage.com/writing/2022-08-05-mapping-into-the-serde-data-model/)
+* [Generate Enum Variant with associated values in Rust Analyzer](https://dorianlistens.com/2022/08/rust-analyzer-generate-enum-variant-with-associated-values/)
+* [7 ways to pass a string between 🦀 Rust and C](https://dev.to/kgrech/7-ways-to-pass-a-string-between-rust-and-c-4ieb)
+* [STM32F4 Embedded Rust at the HAL: I2C Temperature & Pressure Sensing with BMP180](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-i2c-temperature-pressure-sensing-with-bmp180)
 
 ### Research
 
 ### Miscellaneous
+* [EuroRust CFP](https://www.papercall.io/eurorust-2022)
+* [Bevy Jam #2](https://itch.io/jam/bevy-jam-2)
+* [Rust Arcade: Designing a Custom Arcade Machine](https://www.youtube.com/watch?v=1hALxNZimzc)
+
+* [Rust Education Workshop 2022 Second Call For Participation](https://rust-edu.org/workshop/)
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [fang](https://github.com/ayrat555/fang) an async background processing crate.
+
+Thanks to [Ayrat Badykov](https://users.rust-lang.org/t/crate-of-the-week/2704/1096) for the self-suggestion.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -65,21 +105,125 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+330 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-08-01..2022-08-08
+
+* [add support for link-flavor rust-lld for iOS, tvOS and watchOS](https://github.com/rust-lang/rust/pull/98771)
+* [enable function merging when opt is for size](https://github.com/rust-lang/rust/pull/100035)
+* [recover `require`, `include` instead of `use` in item](https://github.com/rust-lang/rust/pull/100167)
+* [recover from C++ style `enum struct`](https://github.com/rust-lang/rust/pull/99786)
+* [provide suggestion on missing `let` in binding statement](https://github.com/rust-lang/rust/pull/100111)
+* [improve diagnostics for `const a: = expr;`](https://github.com/rust-lang/rust/pull/100168)
+* [revive suggestions for boxed trait objects instead of impl Trait](https://github.com/rust-lang/rust/pull/100019)
+* [suggest a positional formatting argument instead of a captured argument](https://github.com/rust-lang/rust/pull/100058)
+* [suggest adding/removing `ref` for binding patterns](https://github.com/rust-lang/rust/pull/99835)
+* [warn about dead tuple struct fields](https://github.com/rust-lang/rust/pull/95977)
+* [do not exclusively suggest `;` when `,` is also a choice](https://github.com/rust-lang/rust/pull/98796)
+* [avoid pointing out `return` span if it has nothing to do with type error](https://github.com/rust-lang/rust/pull/100130)
+* [always create elided lifetimes, even if inferred](https://github.com/rust-lang/rust/pull/99953)
+* [enable unused_parens for match arms](https://github.com/rust-lang/rust/pull/100093)
+* [prevent ICE for `doc_alias` on match arm, statement, expression](https://github.com/rust-lang/rust/pull/100029)
+* [detect type mismatch due to loop that might never iterate](https://github.com/rust-lang/rust/pull/100094)
+* [miri: add `mkstemp` shim for unix](https://github.com/rust-lang/miri/pull/2346)
+* [miri: add shim for realpath on unix](https://github.com/rust-lang/miri/pull/2457)
+* [miri: add support for env::home_dir](https://github.com/rust-lang/miri/pull/2467)
+* [miri: also forward --manifest-path to 'cargo metadata'](https://github.com/rust-lang/miri/pull/2474)
+* [miri: fix an ICE in nanosleep()](https://github.com/rust-lang/miri/pull/2466)
+* [miri: implement some missing float functions](https://github.com/rust-lang/miri/pull/2469)
+* [avoid invalidating the CFG in `MirPatch`](https://github.com/rust-lang/rust/pull/100087)
+* [remove `fn backtrace` and replace with usages of provider API](https://github.com/rust-lang/rust/pull/99431)
+* [add back `Send` and `Sync` impls on `ChunksMut` iterators](https://github.com/rust-lang/rust/pull/100023)
+* [optimize `pointer::as_aligned_to`](https://github.com/rust-lang/rust/pull/100169)
+* [portable SIMD: fix interleave/deinterleave for vectors with only one lane](https://github.com/rust-lang/portable-simd/pull/299)
+* [codegen\_gcc: support symbol visibility](https://github.com/rust-lang/rustc_codegen_gcc/pull/203)
+* [cargo: improve error message for `no such subcommand`](https://github.com/rust-lang/cargo/pull/10924)
+* [rustdoc: avoid inlining modules with duplicate names](https://github.com/rust-lang/rust/pull/99738)
+* [rustdoc: do not mark the contents of a skipped module as inlined](https://github.com/rust-lang/rust/pull/100207)
+* [rust-analyzer: add a setting to disable comment continuation in VSCode](https://github.com/rust-lang/rust-analyzer/pull/12934)
+* [rust-analyzer: add fixups for incomplete in proc-macros](https://github.com/rust-lang/rust-analyzer/pull/12937)
+* [rust-analyzer: add more constructors and entry-APIs for la-arena](https://github.com/rust-lang/rust-analyzer/pull/12931)
+* [rust-analyzer: add syntax fixup for while loops](https://github.com/rust-lang/rust-analyzer/pull/12880)
+* [rust-analyzer: corrected order of printing op and `=`](https://github.com/rust-lang/rust-analyzer/pull/12974)
+* [rust-analyzer: don't switch workspace on vfs file changes from libraries](https://github.com/rust-lang/rust-analyzer/pull/12947)
+* [rust-analyzer: error Diagnostics appear in the wrong place](https://github.com/rust-lang/rust-analyzer/pull/12939)
+* [rust-analyzer: fix `test_rainbow_highlighting` gate](https://github.com/rust-lang/rust-analyzer/pull/12959)
+* [rust-analyzer: generate rust type from json](https://github.com/rust-lang/rust-analyzer/pull/12905)
+* [rust-analyzer: more methods and traits for `la_arena::ArenaMap`](https://github.com/rust-lang/rust-analyzer/pull/12956)
+* [rust-analyzer: parse range patterns in struct and slice without trailing comma](https://github.com/rust-lang/rust-analyzer/pull/12962)
+* [rust-analyzer: run stable `fmt` & `cargo` through `rustup`](https://github.com/rust-lang/rust-analyzer/pull/12953)
+* [rust-analyzer: use an empty expander for ignored non-attribute proc-macros](https://github.com/rust-lang/rust-analyzer/pull/12933)
+* [rust-analyzer: handle operators like their trait functions in the IDE layer](https://github.com/rust-lang/rust-analyzer/pull/12948)
+* [rust-analyzer: support associated values in "Generate Enum Variant" assist](https://github.com/rust-lang/rust-analyzer/pull/12837)
+* [rust-analyzer: fix incorrect token pick rankings](https://github.com/rust-lang/rust-analyzer/pull/12949)
+* [rust-analyzer: make `concat!` work with char](https://github.com/rust-lang/rust-analyzer/pull/12942)
+* [clippy: add `elapsed_instant` lint](https://github.com/rust-lang/rust-clippy/pull/9264)
+* [clippy: fix ICE when reading literals with weird proc-macro spans](https://github.com/rust-lang/rust-clippy/pull/9303)
+* [clippy: fix `cast_abs_to_unsigned` with code in parens](https://github.com/rust-lang/rust-clippy/pull/9266)
+* [clippy: fix suggestions for `async` closures in `redundant_closure_call`](https://github.com/rust-lang/rust-clippy/pull/9053)
+* [clippy: more proc-macro detection](https://github.com/rust-lang/rust-clippy/pull/8694)
+* [clippy: move `significant_drop_in_scrutinee` into `nursery`](https://github.com/rust-lang/rust-clippy/pull/9302)
+* [clippy: rename `logic_bug` to `overly_complex_bool_expr`](https://github.com/rust-lang/rust-clippy/pull/9306)
+* [clippy: `explicit_auto_deref` changes](https://github.com/rust-lang/rust-clippy/pull/9126)
+* [clippy: add paren before '?' when suggesting deref for `clone_on_copy`](https://github.com/rust-lang/rust-clippy/pull/9282)
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A pretty quiet week for performance. Unfortunately, by far the biggest change was a regression introduced by increasing the minimum libc version for linux-gnu targets. The exact reason for why this happened in this case is unclear, and it's not easy to investigate. Luckily, the average regression introduced by this change was 0.4% which is fairly small, and many of the larger regressions were limited to doc builds.
 
-### Call for Testing
+Triage done by **@rylev**.
+Revision range: [792bc5a0..cc4dd6fc](https://perf.rust-lang.org/?start=792bc5a0102d0973d42183a2b267850bb905236f&end=cc4dd6fc9f1a5c798df269933c7e442b79661a86&absolute=false&stat=instructions%3Au)
 
+**Summary**:
+
+|            | mean | max | count |
+|:----------:|:----:|:---:|:-----:|
+| Regressions ❌ <br /> (primary) | 0.5% | 1.4% | 146   |
+| Regressions ❌ <br /> (secondary) | 0.8% | 1.6% | 78    |
+| Improvements ✅ <br /> (primary) | N/A  | N/A | 0     |
+| Improvements ✅ <br /> (secondary) | -2.0% | -4.0% | 9     |
+| All ❌✅ (primary) | 0.5% | 1.4% | 146   |
+
+1 Regressions, 2 Improvements, 2 Mixed; 1 of them in rollups
+42 artifact comparisons made in total
+
+Full report [here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-08-09.md)
+
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* *No RFCs issued a call for testing this week.*
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
+
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* *No RFCs were approved this week.*
+
+### Final Comment Period
+
+Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
+which are reaching a decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* *No RFCs entered Final Comment Period this week.*
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: merge] [[RFC] Support `.comment` section like GCC/Clang (`!llvm.ident`)](https://github.com/rust-lang/rust/pull/97550)
+* [disposition: merge] [Tracking Issue for "unsafe blocks in unsafe fn" (RFC #2585)](https://github.com/rust-lang/rust/issues/71668)
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* [new] [Distinguish closures from callables](https://github.com/rust-lang/rfcs/pull/3300)
 
 ## Upcoming Events
 
@@ -121,6 +265,8 @@ Rusty Events between 2022-08-10 - 2022-09-07 🦀
     * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/qtvtvsydclbxb/)
 * 2022-08-18 | Virtual (Wiesbaden, DE) | [Frontend RheinMain](https://www.meetup.com/frontend_rm/)
     * [**Rust for curious developers**](https://www.meetup.com/frontend_rm/events/287713743/)
+* 2022-08-18 | Virtual (Tehran, IR) | [Iran Rust Meetup](https://rust-meetup.ir/)
+    * [**Iran Rust Meetup #8**](https://rust-meetup.ir/2022/08/18/8th-meetup.html)
 * 2022-08-20 | Virtual (Hoboken, NJ, US) | [Neighborhood Math Club](https://www.meetup.com/neighborhood-math-club/)
     * [**Share Your Coding Project(s)!**](https://www.meetup.com/neighborhood-math-club/events/kbjcssydclbbc/)
 * 2022-08-24 | Virtual + Wellington, NZ | [Rust Wellington](https://www.meetup.com/rust-wellington/)
@@ -204,7 +350,12 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Don't come empty-handed to a project saying "this could be rewritten in Rust". It's obnoxious and gives the rust community a bad name.  
+> Do start the project on your own, adding Rust to the build system and converting some significant functions, and then ask the project's community for comments.
+
+– [moltonel on /r/rust](https://www.reddit.com/r/rust/comments/wfriz3/comment/iiw49bw/)
+
+Thanks to [zjp-CN](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1277) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
