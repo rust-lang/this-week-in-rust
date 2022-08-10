@@ -28,20 +28,49 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Non-lexical lifetimes (NLL) fully stable](https://blog.rust-lang.org/2022/08/05/nll-by-default.html)
+* [Rust Compiler Midyear Report for 2022](https://blog.rust-lang.org/inside-rust/2022/08/08/compiler-team-2022-midyear-report.html)
 
 ### Foundation
+* [Trademark Policy: Review and Survey](https://foundation.rust-lang.org/news/2022-08-09-trademark-policy-review-and-survey/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Announcing: MiniRust](https://www.ralfj.de/blog/2022/08/08/minirust.html)
+* [Achieving A Completely Open Source Implementation of Apple Code Signing and Notarization](https://gregoryszorc.com/blog/2022/08/08/achieving-a-completely-open-source-implementation-of-apple-code-signing-and-notarization/)
+* [Announcing Cargo WAPM](https://adventures.michaelfbryan.com/posts/announcing-cargo-wapm/)
+* [rust-analyzer changelog #141](https://rust-analyzer.github.io/thisweek/2022/08/08/changelog-141.html)
+* [Fyrox 0.27 Feature Highlights](https://fyrox.rs/blog/post/feature-highlights-0-27/)
+* [rustc_codegen_gcc: Progress Report #14](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-14)
+* [IntelliJ Rust: Updates For the 2022.2 Release Cycle](https://blog.jetbrains.com/rust/2022/08/03/intellij-rust-updates-for-the-2022-2-release-cycle/)
 
 ### Observations/Thoughts
+* [Using unwrap() in Rust is Okay](https://blog.burntsushi.net/unwrap/)
+* [A performance retrospective using Rust (part 3)](https://agourlay.github.io/rust-performance-retrospective-part3/)
+* [The State Of Rust In 2022](https://deprogrammaticaipsum.com/the-state-of-rust-in-2022/)
+* [Blocking Sockets and Async](https://www.thecodedmessage.com/posts/blocking-sockets/)
+* [How does Rust async work?](https://aidancully.blogspot.com/2022/08/how-does-rust-async-work.html)
 
 ### Rust Walkthroughs
+* [Hot Reloading Rust — for Fun and Faster Feedback Cycles](https://robert.kra.hn/posts/hot-reloading-rust/)
+* [The Magic of zerocopy (compared with scroll)](https://swatinem.de/blog/magic-zerocopy/)
+* [Not a Yoking Matter (Zero-Copy #1)](https://manishearth.github.io/blog/2022/08/03/zero-copy-1-not-a-yoking-matter/)
+* [Zero-Copy All The Things! (Zero-Copy #2)](https://manishearth.github.io/blog/2022/08/03/zero-copy-2-zero-copy-all-the-things/)
+* [So Zero It's ... Negative? (Zero-Copy #3)](https://manishearth.github.io/blog/2022/08/03/zero-copy-3-so-zero-its-dot-dot-dot-negative/)
+* [What is server middleware](https://www.shuttle.rs/blog/2022/08/04/middleware)
+* [Rust and WebAssembly without a Bundler](https://tung.github.io/posts/rust-and-webassembly-without-a-bundler/)
+* [What are Rust's HTTP extensions?](https://blog.adamchalmers.com/what-are-extensions/)
+* [Mapping into the serde data model](https://owengage.com/writing/2022-08-05-mapping-into-the-serde-data-model/)
+* [Generate Enum Variant with associated values in Rust Analyzer](https://dorianlistens.com/2022/08/rust-analyzer-generate-enum-variant-with-associated-values/)
+* [7 ways to pass a string between 🦀 Rust and C](https://dev.to/kgrech/7-ways-to-pass-a-string-between-rust-and-c-4ieb)
+* [STM32F4 Embedded Rust at the HAL: I2C Temperature & Pressure Sensing with BMP180](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-i2c-temperature-pressure-sensing-with-bmp180)
 
 ### Research
 
 ### Miscellaneous
+* [Bevy Jam #2](https://itch.io/jam/bevy-jam-2)
+* [Rust Arcade: Designing a Custom Arcade Machine](https://www.youtube.com/watch?v=1hALxNZimzc)
 
 ## Crate of the Week
 
