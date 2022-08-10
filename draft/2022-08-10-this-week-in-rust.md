@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [Understanding Rust generics and how to use them](https://blog.logrocket.com/understanding-rust-generics-how-use/)
 
 ### Research
 
