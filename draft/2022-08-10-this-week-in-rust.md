@@ -38,7 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 [Basic Operator Overloading with Traits](https://rsdlt.onrender.com/posts/welcome-blog-rust-technology-development-programming-language/)
 ### Rust Walkthroughs
-[Ruxel - Building a Ray Tracer with Rust (Prelude)](https://rsdlt.onrender.com/posts/ruxel-ray-tracer-project-first-update-rust-programming-development/)
+[Ruxel - Building a Ray Tracer with Rust (Prelude)][series](https://rsdlt.onrender.com/posts/ruxel-ray-tracer-project-first-update-rust-programming-development/)
 ### Research
 
 ### Miscellaneous
