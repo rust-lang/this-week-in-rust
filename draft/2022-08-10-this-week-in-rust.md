@@ -49,7 +49,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [fang](https://github.com/ayrat555/fang) an async background processing crate.
+
+Thanks to [Ayrat Badykov](https://users.rust-lang.org/t/crate-of-the-week/2704/1096) for the self-suggestion.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -68,7 +70,67 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+330 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-08-01..2022-08-08
+
+* [add support for link-flavor rust-lld for iOS, tvOS and watchOS](https://github.com/rust-lang/rust/pull/98771)
+* [enable function merging when opt is for size](https://github.com/rust-lang/rust/pull/100035)
+* [recover `require`, `include` instead of `use` in item](https://github.com/rust-lang/rust/pull/100167)
+* [recover from C++ style `enum struct`](https://github.com/rust-lang/rust/pull/99786)
+* [provide suggestion on missing `let` in binding statement](https://github.com/rust-lang/rust/pull/100111)
+* [improve diagnostics for `const a: = expr;`](https://github.com/rust-lang/rust/pull/100168)
+* [revive suggestions for boxed trait objects instead of impl Trait](https://github.com/rust-lang/rust/pull/100019)
+* [suggest a positional formatting argument instead of a captured argument](https://github.com/rust-lang/rust/pull/100058)
+* [suggest adding/removing `ref` for binding patterns](https://github.com/rust-lang/rust/pull/99835)
+* [warn about dead tuple struct fields](https://github.com/rust-lang/rust/pull/95977)
+* [do not exclusively suggest `;` when `,` is also a choice](https://github.com/rust-lang/rust/pull/98796)
+* [avoid pointing out `return` span if it has nothing to do with type error](https://github.com/rust-lang/rust/pull/100130)
+* [always create elided lifetimes, even if inferred](https://github.com/rust-lang/rust/pull/99953)
+* [enable unused_parens for match arms](https://github.com/rust-lang/rust/pull/100093)
+* [prevent ICE for `doc_alias` on match arm, statement, expression](https://github.com/rust-lang/rust/pull/100029)
+* [detect type mismatch due to loop that might never iterate](https://github.com/rust-lang/rust/pull/100094)
+* [miri: add `mkstemp` shim for unix](https://github.com/rust-lang/miri/pull/2346)
+* [miri: add shim for realpath on unix](https://github.com/rust-lang/miri/pull/2457)
+* [miri: add support for env::home_dir](https://github.com/rust-lang/miri/pull/2467)
+* [miri: also forward --manifest-path to 'cargo metadata'](https://github.com/rust-lang/miri/pull/2474)
+* [miri: fix an ICE in nanosleep()](https://github.com/rust-lang/miri/pull/2466)
+* [miri: implement some missing float functions](https://github.com/rust-lang/miri/pull/2469)
+* [avoid invalidating the CFG in `MirPatch`](https://github.com/rust-lang/rust/pull/100087)
+* [remove `fn backtrace` and replace with usages of provider API](https://github.com/rust-lang/rust/pull/99431)
+* [add back `Send` and `Sync` impls on `ChunksMut` iterators](https://github.com/rust-lang/rust/pull/100023)
+* [optimize `pointer::as_aligned_to`](https://github.com/rust-lang/rust/pull/100169)
+* [portable SIMD: fix interleave/deinterleave for vectors with only one lane](https://github.com/rust-lang/portable-simd/pull/299)
+* [codegen\_gcc: support symbol visibility](https://github.com/rust-lang/rustc_codegen_gcc/pull/203)
+* [cargo: improve error message for `no such subcommand`](https://github.com/rust-lang/cargo/pull/10924)
+* [rustdoc: avoid inlining modules with duplicate names](https://github.com/rust-lang/rust/pull/99738)
+* [rustdoc: do not mark the contents of a skipped module as inlined](https://github.com/rust-lang/rust/pull/100207)
+* [rust-analyzer: add a setting to disable comment continuation in VSCode](https://github.com/rust-lang/rust-analyzer/pull/12934)
+* [rust-analyzer: add fixups for incomplete in proc-macros](https://github.com/rust-lang/rust-analyzer/pull/12937)
+* [rust-analyzer: add more constructors and entry-APIs for la-arena](https://github.com/rust-lang/rust-analyzer/pull/12931)
+* [rust-analyzer: add syntax fixup for while loops](https://github.com/rust-lang/rust-analyzer/pull/12880)
+* [rust-analyzer: corrected order of printing op and `=`](https://github.com/rust-lang/rust-analyzer/pull/12974)
+* [rust-analyzer: don't switch workspace on vfs file changes from libraries](https://github.com/rust-lang/rust-analyzer/pull/12947)
+* [rust-analyzer: error Diagnostics appear in the wrong place](https://github.com/rust-lang/rust-analyzer/pull/12939)
+* [rust-analyzer: fix `test_rainbow_highlighting` gate](https://github.com/rust-lang/rust-analyzer/pull/12959)
+* [rust-analyzer: generate rust type from json](https://github.com/rust-lang/rust-analyzer/pull/12905)
+* [rust-analyzer: more methods and traits for `la_arena::ArenaMap`](https://github.com/rust-lang/rust-analyzer/pull/12956)
+* [rust-analyzer: parse range patterns in struct and slice without trailing comma](https://github.com/rust-lang/rust-analyzer/pull/12962)
+* [rust-analyzer: run stable `fmt` & `cargo` through `rustup`](https://github.com/rust-lang/rust-analyzer/pull/12953)
+* [rust-analyzer: use an empty expander for ignored non-attribute proc-macros](https://github.com/rust-lang/rust-analyzer/pull/12933)
+* [rust-analyzer: handle operators like their trait functions in the IDE layer](https://github.com/rust-lang/rust-analyzer/pull/12948)
+* [rust-analyzer: support associated values in "Generate Enum Variant" assist](https://github.com/rust-lang/rust-analyzer/pull/12837)
+* [rust-analyzer: fix incorrect token pick rankings](https://github.com/rust-lang/rust-analyzer/pull/12949)
+* [rust-analyzer: make `concat!` work with char](https://github.com/rust-lang/rust-analyzer/pull/12942)
+* [clippy: add `elapsed_instant` lint](https://github.com/rust-lang/rust-clippy/pull/9264)
+* [clippy: fix ICE when reading literals with weird proc-macro spans](https://github.com/rust-lang/rust-clippy/pull/9303)
+* [clippy: fix `cast_abs_to_unsigned` with code in parens](https://github.com/rust-lang/rust-clippy/pull/9266)
+* [clippy: fix suggestions for `async` closures in `redundant_closure_call`](https://github.com/rust-lang/rust-clippy/pull/9053)
+* [clippy: more proc-macro detection](https://github.com/rust-lang/rust-clippy/pull/8694)
+* [clippy: move `significant_drop_in_scrutinee` into `nursery`](https://github.com/rust-lang/rust-clippy/pull/9302)
+* [clippy: rename `logic_bug` to `overly_complex_bool_expr`](https://github.com/rust-lang/rust-clippy/pull/9306)
+* [clippy: `explicit_auto_deref` changes](https://github.com/rust-lang/rust-clippy/pull/9126)
+* [clippy: add paren before '?' when suggesting deref for `clone_on_copy`](https://github.com/rust-lang/rust-clippy/pull/9282)
 
 ### Rust Compiler Performance Triage
 
@@ -207,7 +269,12 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Don't come empty-handed to a project saying "this could be rewritten in Rust". It's obnoxious and gives the rust community a bad name.  
+> Do start the project on your own, adding Rust to the build system and converting some significant functions, and then ask the project's community for comments.
+
+– [moltonel on /r/rust](https://www.reddit.com/r/rust/comments/wfriz3/comment/iiw49bw/)
+
+Thanks to [zjp-CN](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1277) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
