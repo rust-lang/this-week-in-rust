@@ -52,7 +52,6 @@ and just ask the editors to select the category.
 * [HexoSynth 2022 - Devlog #8 - A Visual DSP Programming Language](https://m8geil.de/posts/hexosynth-8/)
 
 ### Observations/Thoughts
-* [Hot Reloading Rust for Fun and Faster Feedback Cycles](https://robert.kra.hn/posts/hot-reloading-rust/)
 * [Using unwrap() in Rust is Okay](https://blog.burntsushi.net/unwrap/)
 * [A performance retrospective using Rust (part 3)](https://agourlay.github.io/rust-performance-retrospective-part3/)
 * [The State Of Rust In 2022](https://deprogrammaticaipsum.com/the-state-of-rust-in-2022/)
@@ -74,13 +73,10 @@ and just ask the editors to select the category.
 * [7 ways to pass a string between 🦀 Rust and C](https://dev.to/kgrech/7-ways-to-pass-a-string-between-rust-and-c-4ieb)
 * [STM32F4 Embedded Rust at the HAL: I2C Temperature & Pressure Sensing with BMP180](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-i2c-temperature-pressure-sensing-with-bmp180)
 
-### Research
-
 ### Miscellaneous
 * [EuroRust CFP](https://www.papercall.io/eurorust-2022)
 * [Bevy Jam #2](https://itch.io/jam/bevy-jam-2)
 * [Rust Arcade: Designing a Custom Arcade Machine](https://www.youtube.com/watch?v=1hALxNZimzc)
-
 * [Rust Education Workshop 2022 Second Call For Participation](https://rust-edu.org/workshop/)
 
 ## Crate of the Week
@@ -101,6 +97,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
+
+* [ctest2 - CTest uses syntex_syntax which doesn't support raw identifiers](https://github.com/JohnTitor/ctest2/issues/6)
+* [ctest2 - Fails to parse `_` as a const identifier](https://github.com/JohnTitor/ctest2/issues/38)
+* [ockam - Change `ockam tcp-listener create` command for --at <NODE> and <ADDRESS>](https://github.com/build-trust/ockam/issues/3149)
+* [ockam - Implement the ockam secure-channel list command](https://github.com/build-trust/ockam/issues/3188)
+* [ockam - Make services information displayed with ockam node create | show command more dynamic](https://github.com/build-trust/ockam/issues/3177)
+* [mirrord - Remove unused dependencies from mirrord-layer](https://github.com/metalbear-co/mirrord/issues/220)
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
@@ -264,10 +267,10 @@ Rusty Events between 2022-08-10 - 2022-09-07 🦀
     * [**Hierarchical Task Network compiler written in Rust**](https://www.meetup.com/charlottesville-rust-meetup/events/287203159/)
 * 2022-08-18 | Virtual (Stuttgart, DE) | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
     * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/qtvtvsydclbxb/)
-* 2022-08-18 | Virtual (Wiesbaden, DE) | [Frontend RheinMain](https://www.meetup.com/frontend_rm/)
-    * [**Rust for curious developers**](https://www.meetup.com/frontend_rm/events/287713743/)
 * 2022-08-18 | Virtual (Tehran, IR) | [Iran Rust Meetup](https://rust-meetup.ir/)
     * [**Iran Rust Meetup #8**](https://rust-meetup.ir/2022/08/18/8th-meetup.html)
+* 2022-08-18 | Virtual (Wiesbaden, DE) | [Frontend RheinMain](https://www.meetup.com/frontend_rm/)
+    * [**Rust for curious developers**](https://www.meetup.com/frontend_rm/events/287713743/)
 * 2022-08-20 | Virtual (Hoboken, NJ, US) | [Neighborhood Math Club](https://www.meetup.com/neighborhood-math-club/)
     * [**Share Your Coding Project(s)!**](https://www.meetup.com/neighborhood-math-club/events/kbjcssydclbbc/)
 * 2022-08-24 | Virtual + Wellington, NZ | [Rust Wellington](https://www.meetup.com/rust-wellington/)
@@ -347,7 +350,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/voglel/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
