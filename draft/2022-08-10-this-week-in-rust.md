@@ -102,8 +102,6 @@ Rusty Events between 2022-08-10 - 2022-09-07 🦀
     * [**Rust Gamedev Monthly Meetup**](https://www.google.com/url?q=https://discord.gg/yNtPTb2&sa=D&source=calendar&usd=2&usg=AOvVaw2Eop9Blil9YUWeTq472NIi)
 * 2022-08-13 | Virtual (Bangalore, IN) | [Polkadot India](https://www.meetup.com/polkadot-india/)
     * [**Substrate Saturday - Bootcamp Series 2: Fundamentals of Rust & Substrate**](https://www.meetup.com/polkadot-india/events/287058154/)
-* 2022-08-13 | Virtual (Hoboken, NJ, US) | [Neighborhood Math Club](https://www.meetup.com/neighborhood-math-club/)
-    * [**Share Your Coding Project(s)!**](https://www.meetup.com/neighborhood-math-club/events/kbjcssydclbrb/)
 * 2022-08-16 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin)
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/287286736/)
 * 2022-08-16 | Virtual (Granada, ES) | [Google Developer Group Granada](https://www.meetup.com/granadagdg/)
