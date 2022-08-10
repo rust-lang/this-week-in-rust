@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+[Hot Reloading Rust for Fun and Faster Feedback Cycles](https://robert.kra.hn/posts/hot-reloading-rust/)
 
 ### Rust Walkthroughs
 
