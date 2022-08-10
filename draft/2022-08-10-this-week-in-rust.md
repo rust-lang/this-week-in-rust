@@ -59,6 +59,7 @@ and just ask the editors to select the category.
 * [How does Rust async work?](https://aidancully.blogspot.com/2022/08/how-does-rust-async-work.html)
 
 ### Rust Walkthroughs
+* [Understanding Rust generics and how to use them](https://blog.logrocket.com/understanding-rust-generics-how-use/)
 * [Hot Reloading Rust — for Fun and Faster Feedback Cycles](https://robert.kra.hn/posts/hot-reloading-rust/)
 * [The Magic of zerocopy (compared with scroll)](https://swatinem.de/blog/magic-zerocopy/)
 * [Not a Yoking Matter (Zero-Copy #1)](https://manishearth.github.io/blog/2022/08/03/zero-copy-1-not-a-yoking-matter/)
