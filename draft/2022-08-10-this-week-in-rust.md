@@ -93,7 +93,7 @@ Rusty Events between 2022-08-10 - 2022-09-07 🦀
 * 2022-08-10 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
     * [**cargo expand --bin writing_proc_macros**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/287450224/)
 * 2022-08-10 | Virtual (Hoboken, NJ, US) | [Neighborhood Math Club](https://www.meetup.com/neighborhood-math-club/)
-    * [**The Early Rustacean Gets The Worm!**](https://www.meetup.com/neighborhood-math-club/events/287468144/)
+    * [**The Early Rustacean Gets The Worm!**](https://www.meetup.com/neighborhood-math-club/events/kpgpssydclbnb/)
 * 2022-08-11 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/hlvbvsydclbpb/)
 * 2022-08-12 | Virtual + Tokyo, JP | [tonari](https://gallery.tonari.no/en/tonari-lab)
