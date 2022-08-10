@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W32](https://www.fornjot.app/blog/weekly-release/2022-w32/)
 * [Fang, async background processing for Rust](https://pxp9.github.io/rust/async-processing/)
 
+* [HexoSynth 2022 - Devlog #8 - A Visual DSP Programming Language](https://m8geil.de/posts/hexosynth-8/)
+
 ### Observations/Thoughts
 * [Using unwrap() in Rust is Okay](https://blog.burntsushi.net/unwrap/)
 * [A performance retrospective using Rust (part 3)](https://agourlay.github.io/rust-performance-retrospective-part3/)
