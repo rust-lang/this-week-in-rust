@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W32](https://www.fornjot.app/blog/weekly-release/2022-w32/)
 
 * [Fang, async background processing for Rust](https://pxp9.github.io/rust/async-processing/)
 * [What’s New in IntelliJ Rust for 2022.2](https://blog.jetbrains.com/rust/2022/08/03/intellij-rust-updates-for-the-2022-2-release-cycle/)
