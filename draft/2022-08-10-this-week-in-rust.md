@@ -30,11 +30,13 @@ and just ask the editors to select the category.
 ### Official
 * [Non-lexical lifetimes (NLL) fully stable](https://blog.rust-lang.org/2022/08/05/nll-by-default.html)
 * [Rust Compiler Midyear Report for 2022](https://blog.rust-lang.org/inside-rust/2022/08/08/compiler-team-2022-midyear-report.html)
+* [Please welcome Dan to Library Contributors](https://blog.rust-lang.org/inside-rust/2022/08/10/libs-contributors.html)
 
 ### Foundation
 * [Trademark Policy: Review and Survey](https://foundation.rust-lang.org/news/2022-08-09-trademark-policy-review-and-survey/)
 
 ### Newsletters
+* [This Month in Rust OSDev: July 2022](https://rust-osdev.com/this-month/2022-07/)
 
 ### Project/Tooling Updates
 * [Announcing: MiniRust](https://www.ralfj.de/blog/2022/08/08/minirust.html)
@@ -69,6 +71,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [EuroRust CFP](https://www.papercall.io/eurorust-2022)
 * [Bevy Jam #2](https://itch.io/jam/bevy-jam-2)
 * [Rust Arcade: Designing a Custom Arcade Machine](https://www.youtube.com/watch?v=1hALxNZimzc)
 
