@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Rust Education Workshop 2022 Second Call For Participation](https://rust-edu.org/workshop/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
