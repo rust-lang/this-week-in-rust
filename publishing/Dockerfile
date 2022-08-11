@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 # Must run from base TWIR directory... makefile takes care of this.
 WORKDIR /usr/twir
@@ -13,18 +13,18 @@ RUN ln -s /usr/bin/python3.8 /usr/bin/python
 COPY requirements.txt .
 RUN pip3 install -r requirements.txt
 
-# pelican setup
-COPY content content
-COPY plugins plugins
-COPY themes themes
-COPY pelicanconf.py pelicanconf.py
-
 # sass/juice
 RUN apt-get install -y curl
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
 RUN apt-get install -y nodejs
 RUN npm install -g sass
 RUN npm install -g juice
+
+# pelican setup
+COPY content content
+COPY plugins plugins
+COPY themes themes
+COPY pelicanconf.py pelicanconf.py
 
 COPY publishing/run_server.sh run_server.sh
 RUN chmod 777 run_server.sh

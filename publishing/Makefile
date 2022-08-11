@@ -37,18 +37,18 @@ clean:
 	rm -rf output/
 
 generate-website: clean
-	docker run \
+	docker run -it \
 		-v $(shell pwd)/output:/usr/twir/output \
 		twir:latest 
 
 generate-email: clean
-	docker run \
+	docker run -it \
 		-e TWIR_NEWSLETTER_THEME=1 \
 		-v $(shell pwd)/output:/usr/twir/output \
 		twir:latest
 
 host-content:
-	docker run \
+	docker run -it \
 		-p 8000:8000 \
 	 	-v $(shell pwd)/output:/usr/twir/output:ro \
 		-it \
