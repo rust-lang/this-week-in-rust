@@ -58,8 +58,8 @@ and just ask the editors to select the category.
 * [The State Of Rust In 2022](https://deprogrammaticaipsum.com/the-state-of-rust-in-2022/)
 * [Blocking Sockets and Async](https://www.thecodedmessage.com/posts/blocking-sockets/)
 * [How does Rust async work?](https://aidancully.blogspot.com/2022/08/how-does-rust-async-work.html)
+* [Basic Operator Overloading with Traits](https://rsdlt.onrender.com/posts/welcome-blog-rust-technology-development-programming-language/)
 
-[Basic Operator Overloading with Traits](https://rsdlt.onrender.com/posts/welcome-blog-rust-technology-development-programming-language/)
 ### Rust Walkthroughs
 * [Understanding Rust generics and how to use them](https://blog.logrocket.com/understanding-rust-generics-how-use/)
 * [Hot Reloading Rust — for Fun and Faster Feedback Cycles](https://robert.kra.hn/posts/hot-reloading-rust/)
