@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+
 [Basic Operator Overloading with Traits](https://rsdlt.onrender.com/posts/welcome-blog-rust-technology-development-programming-language/)
 ### Rust Walkthroughs
 ### Research
