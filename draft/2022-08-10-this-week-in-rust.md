@@ -77,7 +77,6 @@ and just ask the editors to select the category.
 * [EuroRust CFP](https://www.papercall.io/eurorust-2022)
 * [Bevy Jam #2](https://itch.io/jam/bevy-jam-2)
 * [Rust Arcade: Designing a Custom Arcade Machine](https://www.youtube.com/watch?v=1hALxNZimzc)
-* [Rust Education Workshop 2022 Second Call For Participation](https://rust-edu.org/workshop/)
 
 ## Crate of the Week
 
@@ -271,6 +270,8 @@ Rusty Events between 2022-08-10 - 2022-09-07 🦀
     * [**Iran Rust Meetup #8**](https://rust-meetup.ir/2022/08/18/8th-meetup.html)
 * 2022-08-18 | Virtual (Wiesbaden, DE) | [Frontend RheinMain](https://www.meetup.com/frontend_rm/)
     * [**Rust for curious developers**](https://www.meetup.com/frontend_rm/events/287713743/)
+* 2022-08-20 | Virtual | [Rust Edu](https://rust-edu.org/workshop)
+    * [**Rust Education Workshop 2022 (Submission deadline 2022-08-16)**](https://rust-edu.org/workshop)
 * 2022-08-20 | Virtual (Hoboken, NJ, US) | [Neighborhood Math Club](https://www.meetup.com/neighborhood-math-club/)
     * [**Share Your Coding Project(s)!**](https://www.meetup.com/neighborhood-math-club/events/kbjcssydclbbc/)
 * 2022-08-24 | Virtual + Wellington, NZ | [Rust Wellington](https://www.meetup.com/rust-wellington/)
