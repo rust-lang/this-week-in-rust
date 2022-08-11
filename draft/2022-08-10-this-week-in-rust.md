@@ -99,7 +99,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 * [ctest2 - CTest uses syntex_syntax which doesn't support raw identifiers](https://github.com/JohnTitor/ctest2/issues/6)
 * [ctest2 - Fails to parse `_` as a const identifier](https://github.com/JohnTitor/ctest2/issues/38)
-* [ockam - Change `ockam tcp-listener create` command for --at <NODE> and <ADDRESS>](https://github.com/build-trust/ockam/issues/3149)
+* [ockam - Change `ockam tcp-listener create` command for --at NODE and ADDRESS](https://github.com/build-trust/ockam/issues/3149)
 * [ockam - Implement the ockam secure-channel list command](https://github.com/build-trust/ockam/issues/3188)
 * [ockam - Make services information displayed with ockam node create | show command more dynamic](https://github.com/build-trust/ockam/issues/3177)
 * [mirrord - Remove unused dependencies from mirrord-layer](https://github.com/metalbear-co/mirrord/issues/220)
