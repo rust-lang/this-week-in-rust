@@ -23,12 +23,12 @@
 #   create an email-friendly HTML version of the "BLOG_DOWNLOAD" page. 
 #   This is the equivalent of running `juice --web-resources-images false /tmp/in.html /tmp/out.html`
 #   
-#   $ make optimize-email
+#    $ make optimize-email
 #
 #   This results in the desired email-friendly HTML version: "juice/out.html".
 
 # CHANGE ME!  vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-BLOG_DOWNLOAD=http://127.0.0.1:8000/blog/2022/07/27/this-week-in-rust-453/
+BLOG_DOWNLOAD=http://127.0.0.1:8000/blog/2022/08/10/this-week-in-rust-455/
 
 build:
 	cd .. && docker build -t twir -f publishing/Dockerfile . && cd -
@@ -56,6 +56,7 @@ host-content:
 		bash run_server.sh
 
 optimize-email:
+	@echo -n "Is this '${BLOG_DOWNLOAD}' your desired blog? [y/N] " && read ans && [ $${ans:-N} = y ]
 	rm -rf juice
 	mkdir juice
 	curl ${BLOG_DOWNLOAD} > juice/in.html
