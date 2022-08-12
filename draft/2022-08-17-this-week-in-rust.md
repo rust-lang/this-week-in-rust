@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Integrating fault injection in development workflows](https://blog.ledger.com/fault-injection-simulation/)
+
 ### Miscellaneous
 
 ## Crate of the Week
