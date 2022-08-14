@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Exploring Traits with Erased `serde`](https://www.thecodedmessage.com/posts/erased-serde/)
 
 ### Research
 
