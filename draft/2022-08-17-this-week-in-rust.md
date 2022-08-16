@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [cargo-pgo](https://github.com/Kobzol/cargo-pgo), a cargo subcommand to compile your code with profile-guided optimization and [BOLT](https://github.com/llvm/llvm-project/tree/main/bolt#readme) for good measure.
+
+Thanks to [Jakub Beránek](https://users.rust-lang.org/t/crate-of-the-week/2704/1098) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -64,7 +66,60 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+410 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-08-08..2022-08-15
+
+* [make `\[rust\] use-lld=true` work on windows](https://github.com/rust-lang/rust/pull/100464)
+* [debuginfo: generalize C++-like encoding for enums](https://github.com/rust-lang/rust/pull/98393)
+* [recover from mutable variable declaration where `mut` is placed before `let`](https://github.com/rust-lang/rust/pull/100253)
+* [suggest a missing semicolon before an array](https://github.com/rust-lang/rust/pull/100334)
+* [suggest adding an appropriate missing pattern excluding comments](https://github.com/rust-lang/rust/pull/100305)
+* [suggest const and static for global variable](https://github.com/rust-lang/rust/pull/100396)
+* [suggest removing `let` if `const let` or `let const` is used](https://github.com/rust-lang/rust/pull/100115)
+* [suggest removing a semicolon after impl/trait items](https://github.com/rust-lang/rust/pull/100446)
+* [suggest the path separator when a dot is used on a trait](https://github.com/rust-lang/rust/pull/100367)
+* [adjust span of fn argument declaration](https://github.com/rust-lang/rust/pull/100458)
+* [point to generic or arg if it's the self type of unsatisfied projection predicate](https://github.com/rust-lang/rust/pull/100483)
+* [do not manually craft a span pointing inside a multibyte character](https://github.com/rust-lang/rust/pull/100226)
+* [argument type error improvements](https://github.com/rust-lang/rust/pull/100479)
+* [set tainted errors bit before emitting coerce suggestions](https://github.com/rust-lang/rust/pull/100261)
+* [iterate `generics_def_id_map` in reverse order to fix P-critical issue](https://github.com/rust-lang/rust/pull/100340)
+* [miri: atomics must be mutable](https://github.com/rust-lang/miri/pull/2464)
+* [make `TypeError` impl `Copy`](https://github.com/rust-lang/rust/pull/100510)
+* [determine `match_has_guard` from candidates instead of looking up thir table again](https://github.com/rust-lang/rust/pull/99110)
+* [optimize thread ID generation](https://github.com/rust-lang/rust/pull/100022)
+* [simplify visitors](https://github.com/rust-lang/rust/pull/100392)
+* [simplify `format_args` builtin macro implementation](https://github.com/rust-lang/rust/pull/100277)
+* [stabilize `backtrace`](https://github.com/rust-lang/rust/pull/99573)
+* [stabilize `ptr_const_cast`](https://github.com/rust-lang/rust/pull/100184)
+* [replace pointer casting in `hashmap_random_keys` with safe code](https://github.com/rust-lang/rust/pull/100298)
+* [add `Iterator::array_chunks` (take N+1)](https://github.com/rust-lang/rust/pull/100026)
+* [optimize `next` and `nth` implementations of `Skip`](https://github.com/rust-lang/rust/pull/96350)
+* [compiler-builtins: remove `c32()`  from `x86_64` `memcmp`](https://github.com/rust-lang/compiler-builtins/pull/488)
+* [cargo: only override published resolver when the workspace is different](https://github.com/rust-lang/cargo/pull/10961)
+* [cargo: use `std::thread::scope` to replace crossbeam](https://github.com/rust-lang/cargo/pull/10977)
+* [rustdoc: don't document impossible to call default trait items on impls](https://github.com/rust-lang/rust/pull/100221)
+* [rustdoc: avoid ICE in rustdoc when using `Fn` bounds](https://github.com/rust-lang/rust/pull/100205)
+* [rustdoc: improve crate selection on rustdoc search results page](https://github.com/rust-lang/rust/pull/100374)
+* [rustdoc: don't render impl blocks with doc comment if they only contain private items by default](https://github.com/rust-lang/rust/pull/100323)
+* [rustdoc: fix handling of stripped enum variant in JSON output format](https://github.com/rust-lang/rust/pull/100582)
+* [rustdoc: use a more compact encoding for implementors/trait.*.js](https://github.com/rust-lang/rust/pull/100150)
+* [clippy: add lint recommending using `std::iter::once` and `std::iter::empty`](https://github.com/rust-lang/rust-clippy/pull/9187)
+* [clippy: add `partialeq_to_none` lint](https://github.com/rust-lang/rust-clippy/pull/9288)
+* [clippy: extend `if_then_some_else_none` to also suggest `bool::then_some`](https://github.com/rust-lang/rust-clippy/pull/9289)
+* [clippy: fix `if_let_mutex` not checking mutexes behind refs](https://github.com/rust-lang/rust-clippy/pull/9318)
+* [clippy: fixes `trait_duplication_in_bounds` false positives](https://github.com/rust-lang/rust-clippy/pull/9167)
+* [clippy: skip `unnecessary_to_owned` when `t != t.to_string()`](https://github.com/rust-lang/rust-clippy/pull/9329)
+* [clippy: use `check_proc_macro` for `missing_const_for_fn`](https://github.com/rust-lang/rust-clippy/pull/9308)
+* [rust-analyzer: do not unconditionally succeed RUSTC_WRAPPER checks when run by build scripts](https://github.com/rust-lang/rust-analyzer/pull/13010)
+* [rust-analyzer: fix pattern field completions not working for unions](https://github.com/rust-lang/rust-analyzer/pull/12986)
+* [rust-analyzer: move VSCode diagnostics workaround into client code](https://github.com/rust-lang/rust-analyzer/pull/13016)
+* [rust-analyzer: pad empty diagnostic messages in relatedInformation as well](https://github.com/rust-lang/rust-analyzer/pull/13017)
+* [rust-analyzer: recover from missing ellipsis in record literals for path expressions](https://github.com/rust-lang/rust-analyzer/pull/12987)
+* [rust-analyzer: remove imports that are also in edition 2021's prelude](https://github.com/rust-lang/rust-analyzer/pull/12981)
+* [rust-analyzer: fix incorrect type mismatch with `cfg_if!` and other macros in expression position](https://github.com/rust-lang/rust-analyzer/pull/13027)
+* [rust-analyzer: infer byte string pattern as `&\[u8\]` when matched against slices](https://github.com/rust-lang/rust-analyzer/pull/12992)
 
 ### Rust Compiler Performance Triage
 
@@ -207,7 +262,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> TL;DR: my claim is that Rust is attempting to **raise the abstraction** in the programming language and ultimately to join **computer science** and **software engineering** into one single discipline, an ambition that has been around since these disciplines were created.
+
+– [Linus Walley on his blog](https://people.kernel.org/linusw/rust-in-perspective)
+
+Thanks to [Julian Wollersberger](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1278) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
