@@ -35,7 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [jinx-rust: A Rust Parser for Rust Tooling in Typescript](https://github.com/jinxdash/jinx-rust)
+* [A Rust Parser for Rust Tooling in Typescript](https://github.com/jinxdash/jinx-rust)
 
 ### Observations/Thoughts
 
