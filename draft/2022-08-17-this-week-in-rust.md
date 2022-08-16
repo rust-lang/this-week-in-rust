@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Prettier code formatter for Rust](https://github.com/jinxdash/prettier-plugin-rust)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
