@@ -68,7 +68,27 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A fairly quiet week for performance, with the exception of the LLVM 15 upgrade
+which resulted in many changes, mostly to the positive.
+
+Triage done by **@simulacrum**.
+Revision range: [cc4dd6fc9f..14a459b3](https://perf.rust-lang.org/?start=cc4dd6fc9f1a5c798df269933c7e442b79661a86&end=14a459bf37bc19476d43e0045d078121c12d3fef&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u) | mean | max | count |
+|:----------------:|:----:|:---:|:-----:|
+| Regressions ❌ <br /> (primary) | 0.7% | 7.7% | 62    |
+| Regressions ❌ <br /> (secondary) | 1.3% | 5.0% | 51    |
+| Improvements ✅ <br /> (primary) | -1.8% | -6.9% | 93    |
+| Improvements ✅ <br /> (secondary) | -2.4% | -22.0% | 128   |
+| All ❌✅ (primary) | -0.8% | 7.7% | 155   |
+
+
+2 Regressions, 4 Improvements, 2 Mixed; 1 of them in rollups
+38 artifact comparisons made in total
+
+[Full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-08-16.md)
 
 ### Call for Testing
 
