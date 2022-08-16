@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+- [A New Beginning (at ETH Zürich)](https://www.ralfj.de/blog/2022/08/16/eth.html)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
