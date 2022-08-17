@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 * [Exploring Traits with Erased `serde`](https://www.thecodedmessage.com/posts/erased-serde/)
 * [Rust and Neovim - A Thorough Guide and Walkthrough](https://rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/)
 * [video] [Rust image viewer from scratch](https://www.youtube.com/watch?v=1yofBPRx864)
+* [Hooking Go from Rust - Hitchhiker’s Guide to the Go-laxy](https://metalbear.co/blog/hooking-go-from-rust-hitchhikers-guide-to-the-go-laxy/#!)
 ### Research
 * [Integrating fault injection in development workflows](https://blog.ledger.com/fault-injection-simulation/)
 
