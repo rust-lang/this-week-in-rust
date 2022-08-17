@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [HexoSynth 2022 - Devlog #9 - MIDI Note and CC Handling](https://m8geil.de/posts/hexosynth-9/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
