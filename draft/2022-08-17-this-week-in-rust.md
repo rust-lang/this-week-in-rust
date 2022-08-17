@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 * [This Month in Rust GameDev #36](https://gamedev.rs/news/036/)
 
 ### Project/Tooling Updates
-* [rust-analyzer changelog #142](https://rust-analyzer.github.io//thisweek/2022/08/15/changelog-142.html)
+* [rust-analyzer changelog #142](https://rust-analyzer.github.io/thisweek/2022/08/15/changelog-142.html)
 * [IntelliJ Rust Changelog #176](https://intellij-rust.github.io/2022/08/15/changelog-176.html)
 * [Introducing Rust Sitter](https://www.shadaj.me/writing/introducing-rust-sitter/)
 
