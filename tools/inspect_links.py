@@ -41,7 +41,7 @@ class Warnings:
 warnings = Warnings()
 
 # A regex that matches filenames to inspect.
-RE_FILENAME = re.compile(r'\d\d\d\d-\d\d-\d\d-this-week-in-rust.md')
+RE_FILENAME = re.compile(r'\d\d\d\d-\d\d-\d\d-this-week-in-rust.md$')
 
 # A block-list of tracking parameters
 TRACKING_PARAMETERS = set([
