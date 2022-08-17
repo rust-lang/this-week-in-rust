@@ -38,7 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-* [Rust image viewer from scratch](https://www.youtube.com/watch?v=1yofBPRx864)
+* [video] [Rust image viewer from scratch](https://www.youtube.com/watch?v=1yofBPRx864)
 
 ### Research
 
