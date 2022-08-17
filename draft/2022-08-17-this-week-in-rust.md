@@ -40,12 +40,14 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #142](https://rust-analyzer.github.io/thisweek/2022/08/15/changelog-142.html)
 * [IntelliJ Rust Changelog #176](https://intellij-rust.github.io/2022/08/15/changelog-176.html)
 * [Introducing Rust Sitter](https://www.shadaj.me/writing/introducing-rust-sitter/)
+* [SecureStore 0.100: KISS, git-versioned secrets management for rust](https://neosmart.net/blog/2022/securestore-0-100-kiss-git-versioned-secrets-management-for-rust/)
 
 ### Observations/Thoughts
 * [Comparing Rust's and C++'s Concurrency Library](https://blog.m-ou.se/rust-cpp-concurrency/)
 * [Kernel Driver with Rust in 2022](https://not-matthias.github.io/posts/kernel-driver-with-rust-2022/)
 * [IntoIterator and the for ... in Syntax in Rust](https://www.geekabyte.io/2022/08/intoiterator-and-for-in-syntax-in-rust.html)
 * [Rust in Perspective — linusw](https://people.kernel.org/linusw/rust-in-perspective)
+* [6 Things I Wish I Knew Starting with Embedded Rust](https://apollolabsblog.hashnode.dev/6-things-i-wish-i-knew-starting-with-embedded-rust)
 
 ### Rust Walkthroughs
 * [Exploring Traits with Erased `serde`](https://www.thecodedmessage.com/posts/erased-serde/)
