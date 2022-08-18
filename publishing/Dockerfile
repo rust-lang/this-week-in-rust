@@ -26,9 +26,7 @@ COPY plugins plugins
 COPY themes themes
 COPY pelicanconf.py pelicanconf.py
 
-COPY publishing/run_server.sh run_server.sh
-RUN chmod 777 run_server.sh
-COPY publishing/create_html_friendly_page.sh create_html_friendly_page.sh
-RUN chmod 777 create_html_friendly_page.sh
+COPY publishing/*.sh .
+RUN chmod 777 *.sh
 
 CMD ["pelican", "--delete-output-directory", "content"]
