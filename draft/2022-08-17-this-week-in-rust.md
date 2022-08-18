@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 * [HexoSynth 2022 - Devlog #9 - MIDI Note and CC Handling](https://m8geil.de/posts/hexosynth-9/)
 * [Rust Search Extension v1.8.0 has been released.](https://rust.extension.sh/changelog/#v1-8-2022-08-15)
 
+* [This week in Databend #55: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-08-17-databend-weekly/)
+
 ### Observations/Thoughts
 * [Comparing Rust's and C++'s Concurrency Library](https://blog.m-ou.se/rust-cpp-concurrency/)
 * [Kernel Driver with Rust in 2022](https://not-matthias.github.io/posts/kernel-driver-with-rust-2022/)
