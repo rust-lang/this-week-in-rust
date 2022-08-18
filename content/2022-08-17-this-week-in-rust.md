@@ -328,7 +328,7 @@ Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/r
 
 > TL;DR: my claim is that Rust is attempting to **raise the abstraction** in the programming language and ultimately to join **computer science** and **software engineering** into one single discipline, an ambition that has been around since these disciplines were created.
 
-– [Linus Walley on his blog](https://people.kernel.org/linusw/rust-in-perspective)
+– [Linus Walleij on his blog](https://people.kernel.org/linusw/rust-in-perspective)
 
 Thanks to [Julian Wollersberger](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1278) for the suggestion!
 
