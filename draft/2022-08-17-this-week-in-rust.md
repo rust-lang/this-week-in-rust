@@ -35,7 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-[Rust Search Extension v1.8.0 has been released.](https://rust.extension.sh/changelog/#v1-8-2022-08-15)
+* [HexoSynth 2022 - Devlog #9 - MIDI Note and CC Handling](https://m8geil.de/posts/hexosynth-9/)
+* [Rust Search Extension v1.8.0 has been released.](https://rust.extension.sh/changelog/#v1-8-2022-08-15)
 
 ### Observations/Thoughts
 
