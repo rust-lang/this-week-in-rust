@@ -28,28 +28,46 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.63.0](https://blog.rust-lang.org/2022/08/11/Rust-1.63.0.html)
+* [Contribute to the diagnostic translation effort!](https://blog.rust-lang.org/inside-rust/2022/08/16/diagnostic-effort.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust GameDev #36](https://gamedev.rs/news/036/)
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #142](https://rust-analyzer.github.io/thisweek/2022/08/15/changelog-142.html)
+* [IntelliJ Rust Changelog #176](https://intellij-rust.github.io/2022/08/15/changelog-176.html)
+* [Introducing Rust Sitter](https://www.shadaj.me/writing/introducing-rust-sitter/)
+* [SecureStore 0.100: KISS, git-versioned secrets management for rust](https://neosmart.net/blog/2022/securestore-0-100-kiss-git-versioned-secrets-management-for-rust/)
 
 * [HexoSynth 2022 - Devlog #9 - MIDI Note and CC Handling](https://m8geil.de/posts/hexosynth-9/)
 * [Rust Search Extension v1.8.0 has been released.](https://rust.extension.sh/changelog/#v1-8-2022-08-15)
 
 ### Observations/Thoughts
+* [Comparing Rust's and C++'s Concurrency Library](https://blog.m-ou.se/rust-cpp-concurrency/)
+* [Kernel Driver with Rust in 2022](https://not-matthias.github.io/posts/kernel-driver-with-rust-2022/)
+* [IntoIterator and the for ... in Syntax in Rust](https://www.geekabyte.io/2022/08/intoiterator-and-for-in-syntax-in-rust.html)
+* [Rust in Perspective — linusw](https://people.kernel.org/linusw/rust-in-perspective)
+* [6 Things I Wish I Knew Starting with Embedded Rust](https://apollolabsblog.hashnode.dev/6-things-i-wish-i-knew-starting-with-embedded-rust)
 
 ### Rust Walkthroughs
 * [Exploring Traits with Erased `serde`](https://www.thecodedmessage.com/posts/erased-serde/)
 * [Rust and Neovim - A Thorough Guide and Walkthrough](https://rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/)
+* [Get Started with Rust: Structs](https://serokell.io/blog/structs-in-rust)
 * [Hooking Go from Rust - Hitchhiker’s Guide to the Go-laxy](https://metalbear.co/blog/hooking-go-from-rust-hitchhikers-guide-to-the-go-laxy/)
 * [video] [Rust image viewer from scratch](https://www.youtube.com/watch?v=1yofBPRx864)
+* [video] [Rust is not a faster horse (why Rust is different)](https://www.youtube.com/watch?v=4YU_r70yGjQ)
+* [video] [Fiberplane's path to full-stack WASM development](https://www.youtube.com/watch?v=t581dnIzJSY)
 
 ### Research
 * [Integrating fault injection in development workflows](https://blog.ledger.com/fault-injection-simulation/)
 
 ### Miscellaneous
+* [Rust Iterator pattern with iter(), into_iter() and iter_mut() methods](https://www.geekabyte.io/2022/08/rust-iterator-pattern-with-iter.html)
+* [DE] [Rust: Makros - Einführung in ein unverzichtbares Werkzeug](https://www.heise.de/hintergrund/Programmiersprache-Rust-Makros-Einfuehrung-in-ein-unverzichtbares-Werkzeug-7217990.html)
+* [DE] [Rust 1.63 bekommt Threads, die sich Daten ausleihen dürfen](https://www.heise.de/news/Programmiersprache-Rust-1-63-bekommt-Threads-die-sich-Daten-ausleihen-duerfen-7218192.html)
 
 ## Crate of the Week
 
