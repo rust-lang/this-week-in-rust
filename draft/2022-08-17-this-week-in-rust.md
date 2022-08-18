@@ -31,8 +31,6 @@ and just ask the editors to select the category.
 * [Announcing Rust 1.63.0](https://blog.rust-lang.org/2022/08/11/Rust-1.63.0.html)
 * [Contribute to the diagnostic translation effort!](https://blog.rust-lang.org/inside-rust/2022/08/16/diagnostic-effort.html)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust GameDev #36](https://gamedev.rs/news/036/)
 
@@ -44,7 +42,6 @@ and just ask the editors to select the category.
 * [This week in Fluvio #42: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0042/)
 * [HexoSynth 2022 - Devlog #9 - MIDI Note and CC Handling](https://m8geil.de/posts/hexosynth-9/)
 * [Rust Search Extension v1.8.0 has been released.](https://rust.extension.sh/changelog/#v1-8-2022-08-15)
-
 * [This week in Databend #55: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-08-17-databend-weekly/)
 
 ### Observations/Thoughts
