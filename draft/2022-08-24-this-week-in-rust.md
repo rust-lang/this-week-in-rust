@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Setting Up Rust Web App with NGINX](https://azzamsa.com/n/rust-webapp-nginx/)
+
 ### Research
 
 ### Miscellaneous
