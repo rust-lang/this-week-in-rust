@@ -41,7 +41,7 @@ and just ask the editors to select the category.
 * [IntelliJ Rust Changelog #176](https://intellij-rust.github.io/2022/08/15/changelog-176.html)
 * [Introducing Rust Sitter](https://www.shadaj.me/writing/introducing-rust-sitter/)
 * [SecureStore 0.100: KISS, git-versioned secrets management for rust](https://neosmart.net/blog/2022/securestore-0-100-kiss-git-versioned-secrets-management-for-rust/)
-
+* [This week in Fluvio #42: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0042/)
 * [HexoSynth 2022 - Devlog #9 - MIDI Note and CC Handling](https://m8geil.de/posts/hexosynth-9/)
 * [Rust Search Extension v1.8.0 has been released.](https://rust.extension.sh/changelog/#v1-8-2022-08-15)
 
