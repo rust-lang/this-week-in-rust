@@ -148,6 +148,8 @@ Rusty Events between 2022-08-24 - 2022-09-21 🦀
     * [**0x21: Learning from Rust, Typical C++**](https://www.meetup.com/stockholmcpp/events/286854212/)
 * 2022-08-30 | Utrecht, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
     * [**Run Rust Anywhere**](https://www.meetup.com/rust-nederland/events/287302224/)
+* 2022-08-25 | Copenhagen, DK | [Copenhagen Rust group](https://www.meetup.com/copenhagen-rust-meetup-group/)
+    * [**CPH Hack Night #28**](https://www.meetup.com/copenhagen-rust-meetup-group/events/287635498/)
 
 ### North America
 
