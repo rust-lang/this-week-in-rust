@@ -31,8 +31,6 @@ and just ask the editors to select the category.
 * [Announcing Rust 1.63.0](https://blog.rust-lang.org/2022/08/11/Rust-1.63.0.html)
 * [Contribute to the diagnostic translation effort!](https://blog.rust-lang.org/inside-rust/2022/08/16/diagnostic-effort.html)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust GameDev #36](https://gamedev.rs/news/036/)
 
@@ -44,7 +42,6 @@ and just ask the editors to select the category.
 * [This week in Fluvio #42: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0042/)
 * [HexoSynth 2022 - Devlog #9 - MIDI Note and CC Handling](https://m8geil.de/posts/hexosynth-9/)
 * [Rust Search Extension v1.8.0 has been released.](https://rust.extension.sh/changelog/#v1-8-2022-08-15)
-
 * [This week in Databend #55: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-08-17-databend-weekly/)
 
 ### Observations/Thoughts
@@ -92,6 +89,12 @@ Some of these tasks may also have mentors available, visit the task page for mor
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
+
+* [ockam - Add examples section to ockam message send command's help](https://github.com/build-trust/ockam/issues/3257)
+* [ockam - ockam completion --shell {bash|zsh|fish} command for shell completion](https://github.com/build-trust/ockam/issues/3220)
+* [ockam - Visualize identity change history in ockam identity show --full command](https://github.com/build-trust/ockam/issues/3258)
+* [mirrord - Cache doesn't work on test-agent workflow](https://github.com/metalbear-co/mirrord/issues/251)
+* [mirrord - Split mirrord-layer LayerError based on criteria ](https://github.com/metalbear-co/mirrord/issues/247)
 
 ## Updates from the Rust Project
 
@@ -319,7 +322,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/wm0k6q/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
