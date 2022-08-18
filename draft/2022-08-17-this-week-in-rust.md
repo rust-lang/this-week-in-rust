@@ -93,6 +93,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
+* [ockam - Add examples section to ockam message send command's help](https://github.com/build-trust/ockam/issues/3257)
+* [ockam - ockam completion --shell {bash|zsh|fish} command for shell completion](https://github.com/build-trust/ockam/issues/3220)
+* [ockam - Visualize identity change history in ockam identity show --full command](https://github.com/build-trust/ockam/issues/3258)
+* [mirrord - Cache doesn't work on test-agent workflow](https://github.com/metalbear-co/mirrord/issues/251)
+* [mirrord - Split mirrord-layer LayerError based on criteria ](https://github.com/metalbear-co/mirrord/issues/247)
+
 ## Updates from the Rust Project
 
 410 pull requests were [merged in the last week][merged]
