@@ -274,6 +274,8 @@ Rusty Events between 2022-08-17 - 2022-09-14 🦀
 
 ### Europe
 
+* 2022-08-18 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/)
+    * [**Rust Paris meetup #51**](https://www.meetup.com/rust-paris/events/287704177/)
 * 2022-08-25 | Stockholm, SE | [StockholmCpp](https://www.meetup.com/stockholmcpp/)
     * [**0x21: Learning from Rust, Typical C++**](https://www.meetup.com/stockholmcpp/events/286854212/)
 * 2022-08-30 | Utrecht, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
