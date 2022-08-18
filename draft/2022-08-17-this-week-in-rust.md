@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 * [Rust and Neovim - A Thorough Guide and Walkthrough](https://rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/)
 * [Get Started with Rust: Structs](https://serokell.io/blog/structs-in-rust)
 * [Hooking Go from Rust - Hitchhiker’s Guide to the Go-laxy](https://metalbear.co/blog/hooking-go-from-rust-hitchhikers-guide-to-the-go-laxy/)
+* [Using the Kani Rust Verifier on Tokio Bytes](https://model-checking.github.io/kani-verifier-blog/2022/08/17/using-the-kani-rust-verifier-on-tokio-bytes.html)
 * [video] [Rust image viewer from scratch](https://www.youtube.com/watch?v=1yofBPRx864)
 * [video] [Rust is not a faster horse (why Rust is different)](https://www.youtube.com/watch?v=4YU_r70yGjQ)
 * [video] [Fiberplane's path to full-stack WASM development](https://www.youtube.com/watch?v=t581dnIzJSY)
