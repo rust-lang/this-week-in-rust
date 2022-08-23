@@ -70,15 +70,44 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 <!-- Perf results go here -->
 
-### Call for Testing
-
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* *No RFCs issued a call for testing this week.*
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
+
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* *No RFCs were approved this week.*
+
+### Final Comment Period
+
+Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
+which are reaching a decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* *No RFCs entered Final Comment Period this week.*
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: merge] [Register wf obligation before normalizing in wfcheck](https://github.com/rust-lang/rust/pull/100046)
+* [disposition: merge] [Partially stabilize `bound_as_ref` by stabilizing `Bound::as_ref`](https://github.com/rust-lang/rust/pull/99736)
+* [disposition: merge] [Document NonZeroXxx layout guarantees](https://github.com/rust-lang/rust/pull/94786)
+* [disposition: merge] [Strengthen invalid_value lint to forbid uninit primitives, adjust docs to say that's UB](https://github.com/rust-lang/rust/pull/98919)
+* [disposition: merge] [Make forward compatibility lint deprecated_cfg_attr_crate_type_name deny by default](https://github.com/rust-lang/rust/pull/99784)
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* [new] [RFC: Statics in patterns](https://github.com/rust-lang/rfcs/pull/3305)
 
 ## Upcoming Events
 
