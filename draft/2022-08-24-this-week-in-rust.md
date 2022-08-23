@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Tauri + Async Rust Process](https://rfdonnelly.github.io/posts/tauri-async-rust-process/)
 
 ### Research
 
