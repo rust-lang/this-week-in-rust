@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [State Machines II](https://blog.yoshuawuyts.com/state-machines-2/)
 
 ### Rust Walkthroughs
 
