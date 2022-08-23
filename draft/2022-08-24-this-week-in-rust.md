@@ -34,6 +34,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+A small web-based game that uses a Rust-written solver compiled to WebAssembly and run within a WebWorker:
+https://applied-math-coding.medium.com/playing-peg-solitaire-in-the-browser-and-having-rust-solving-it-for-you-14efad1f84e9
 
 ### Observations/Thoughts
 
