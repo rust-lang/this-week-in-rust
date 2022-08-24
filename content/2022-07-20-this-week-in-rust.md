@@ -115,7 +115,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [use ICF (identical code folding) for building rustc](https://github.com/rust-lang/rust/pull/99062)
 * [utilize PGO for windows x64 rustc dist builds](https://github.com/rust-lang/rust/pull/96978)
 * [`replace_bound_vars` fast path: check predicates, don't check consts](https://github.com/rust-lang/rust/pull/99232)
-* [borrow `Vec<T, A>` as `\[T\]`](https://github.com/rust-lang/rust/pull/99317)
+* [borrow `Vec<T, A>` as `[T]`](https://github.com/rust-lang/rust/pull/99317)
 * [final derive output improvements](https://github.com/rust-lang/rust/pull/99046)
 * [fix last `let_chains` blocker](https://github.com/rust-lang/rust/pull/98633)
 * [stabilize `let_chains` in Rust 1.64](https://github.com/rust-lang/rust/pull/94927)

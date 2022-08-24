@@ -111,7 +111,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [improve `cannot move out of` error message](https://github.com/rust-lang/rust/pull/99629)
 * [don't ICE on invalid dyn calls](https://github.com/rust-lang/rust/pull/99673)
 * [chalk: solve auto traits for closures](https://github.com/rust-lang/chalk/pull/755)
-* [add `Self: ~const Trait` to traits with `#\[const_trait\]`](https://github.com/rust-lang/rust/pull/99704)
+* [add `Self: ~const Trait` to traits with `#[const_trait]`](https://github.com/rust-lang/rust/pull/99704)
 * [miri: add default impls for `FileDescriptor` methods](https://github.com/rust-lang/miri/pull/2444)
 * [miri: use `cargo_metadata` in cargo-miri](https://github.com/rust-lang/miri/pull/2450)
 * [miri: use real exec on `cfg(unix)` targets](https://github.com/rust-lang/miri/pull/2426)
