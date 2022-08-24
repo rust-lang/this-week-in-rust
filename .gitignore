@@ -7,3 +7,8 @@ output
 cache
 .sass-cache
 **/.idea
+.DS_Store
+
+# Publishing creations...
+publishing/output
+publishing/juice
