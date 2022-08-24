@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [HexoSynth Modular Synthesizer in Rust - Devlog #10: Alpha-1 Release](https://m8geil.de/posts/hexosynth-10/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
