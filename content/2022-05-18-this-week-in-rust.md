@@ -221,7 +221,7 @@ decision. Express your opinions now.
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
 * [disposition: merge] [Neither require nor imply lifetime bounds on opaque type for well formedness](https://github.com/rust-lang/rust/pull/95474)
-* [disposition: merge] [impl Read and Write for VecDeque\<u8\>](https://github.com/rust-lang/rust/pull/95632)
+* [disposition: merge] [impl Read and Write for `VecDeque<u8>`](https://github.com/rust-lang/rust/pull/95632)
 * [disposition: merge] [Tracking Issue for `int_roundings`](https://github.com/rust-lang/rust/issues/88581)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)

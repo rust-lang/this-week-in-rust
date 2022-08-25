@@ -102,7 +102,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-08-08..2022-08-15
 
-* [make `\[rust\] use-lld=true` work on windows](https://github.com/rust-lang/rust/pull/100464)
+* [make `[rust] use-lld=true` work on windows](https://github.com/rust-lang/rust/pull/100464)
 * [debuginfo: generalize C++-like encoding for enums](https://github.com/rust-lang/rust/pull/98393)
 * [recover from mutable variable declaration where `mut` is placed before `let`](https://github.com/rust-lang/rust/pull/100253)
 * [suggest a missing semicolon before an array](https://github.com/rust-lang/rust/pull/100334)
@@ -151,7 +151,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [rust-analyzer: recover from missing ellipsis in record literals for path expressions](https://github.com/rust-lang/rust-analyzer/pull/12987)
 * [rust-analyzer: remove imports that are also in edition 2021's prelude](https://github.com/rust-lang/rust-analyzer/pull/12981)
 * [rust-analyzer: fix incorrect type mismatch with `cfg_if!` and other macros in expression position](https://github.com/rust-lang/rust-analyzer/pull/13027)
-* [rust-analyzer: infer byte string pattern as `&\[u8\]` when matched against slices](https://github.com/rust-lang/rust-analyzer/pull/12992)
+* [rust-analyzer: infer byte string pattern as `&[u8]` when matched against slices](https://github.com/rust-lang/rust-analyzer/pull/12992)
 
 ### Rust Compiler Performance Triage
 
