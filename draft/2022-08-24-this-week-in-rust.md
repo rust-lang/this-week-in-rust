@@ -77,6 +77,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Ockam - Add syntax highlighting to examples in ockam clap command help using syntect](https://github.com/build-trust/ockam/issues/3311)
+* [Ockam - Add examples section to ockam tcp-inlet create command's help](https://github.com/build-trust/ockam/issues/3317)
+* [Ockam - Make ockam node delete --all --force command more forceful](https://github.com/build-trust/ockam/issues/3322)
+* [Mirrord - Consider using mold linker](https://github.com/metalbear-co/mirrord/issues/221)
+* [Mirrord - mirrod-layer and mirrord bin are being built twice when running cargo +nightly build](https://github.com/metalbear-co/mirrord/issues/222)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
