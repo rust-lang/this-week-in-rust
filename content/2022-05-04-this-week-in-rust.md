@@ -167,7 +167,7 @@ decision. Express your opinions now.
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-* [disposition: merge] [impl Read and Write for VecDeque\<u8\>](https://github.com/rust-lang/rust/pull/95632)
+* [disposition: merge] [impl Read and Write for `VecDeque<u8>`](https://github.com/rust-lang/rust/pull/95632)
 * [disposition: merge] [Make write/print macros eagerly drop temporaries](https://github.com/rust-lang/rust/pull/96455)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
