@@ -314,7 +314,6 @@ Rusty Events between 2022-08-24 - 2022-09-21 🦀
 * 2022-08-25 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
     * [**Using Github Actions to Deploy Cargo Crates with Jordan and Food!**](https://www.meetup.com/utah-rust/events/kvrxqsydclbpb/)
 * 2022-08-31 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/)
-
     * [**August Meetup: Rewriting a high performance Vector Database in Rust.**](https://www.meetup.com/rust-nyc/events/287821884/)
 
 ### Oceania
