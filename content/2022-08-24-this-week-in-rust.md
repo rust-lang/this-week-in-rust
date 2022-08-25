@@ -359,4 +359,4 @@ Thanks to [scottmcm](https://users.rust-lang.org/t/twir-quote-of-the-week/328/12
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/wx3isj/this_week_in_rust_457/)</small>
