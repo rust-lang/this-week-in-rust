@@ -36,7 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
-- [video] [Rust Traits vs C++ Concepts](https://youtu.be/f68FtmUTl3s)
+* [video] [Rust Traits vs C++ Concepts](https://www.youtube.com/watch?v=f68FtmUTl3s)
 
 ### Rust Walkthroughs
 - [video] [Writing Procedural Macros](https://youtu.be/RfhkCdu3iYs)
