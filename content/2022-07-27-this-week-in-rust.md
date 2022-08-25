@@ -109,7 +109,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [miri: add a flag to print a diagnostic when an outdated value is returned from an atomic load](https://github.com/rust-lang/miri/pull/2424)
 * [support vec zero-alloc optimization for tuples and byte arrays](https://github.com/rust-lang/rust/pull/97581)
 * [add `PhantomData` marker for dropck to `BTreeMap`](https://github.com/rust-lang/rust/pull/99413)
-* [add `\[f32\]::sort_floats` and `\[f64\]::sort_floats`](https://github.com/rust-lang/rust/pull/93397)
+* [add `[f32]::sort_floats` and `[f64]::sort_floats`](https://github.com/rust-lang/rust/pull/93397)
 * [protect `std::io::Take::limit` from overflow in `read`](https://github.com/rust-lang/rust/pull/95040)
 * [fix `Skip::next` for non-fused inner iterators](https://github.com/rust-lang/rust/pull/99434)
 * [stabilize `core::task::ready!`](https://github.com/rust-lang/rust/pull/99419)
