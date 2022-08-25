@@ -35,11 +35,11 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [rust-analyzer changelog #143](https://rust-analyzer.github.io/thisweek/2022/08/22/changelog-143.html)
-* [What's new in axum 0.6.0-rc.1](https://tokio.rs/blog/2022-08-whats-new-in-axum-0-6-0-rc1)
-* [This week in Databend #56: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-08-24-databend-weekly/)
-* [HexoSynth Modular Synthesizer in Rust - Devlog #10: Alpha-1 Release](https://m8geil.de/posts/hexosynth-10/)
-
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-08-22.html)
+* [This week in Databend #56: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-08-24-databend-weekly/)
+* [What's new in axum 0.6.0-rc.1](https://tokio.rs/blog/2022-08-whats-new-in-axum-0-6-0-rc1)
+* [HexoSynth Modular Synthesizer in Rust - Devlog #10: Alpha-1 Release](https://m8geil.de/posts/hexosynth-10/)
+* [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W34](https://www.fornjot.app/blog/weekly-release/2022-w34/)
 
 ### Observations/Thoughts
 * [State Machines II](https://blog.yoshuawuyts.com/state-machines-2/)
