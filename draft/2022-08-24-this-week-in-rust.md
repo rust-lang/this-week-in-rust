@@ -318,6 +318,8 @@ Rusty Events between 2022-08-24 - 2022-09-21 🦀
 
 ### Oceania
 
+* 2022-08-24 | Wellington, NZ + Virtual | [Rust Wellington](https://www.meetup.com/rust-wellington/)
+    * [**Flywheel Edition: 3 talks on Rust!**](https://www.meetup.com/rust-wellington/events/287280642/)
 * 2022-08-26 | Melbourne, VIC, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
     * [**August 2022 Meetup**](https://www.meetup.com/rust-melbourne/events/287468753/)
 
