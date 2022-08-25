@@ -70,7 +70,35 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Overall some really impressive wins this week. Note in particular
+PR [#100209](https://github.com/rust-lang/rust/pull/100209), "Lazily
+decode SourceFile from metadata" (which improved 75 primary benchmark
+scenarios and 158 secondary scenarios) and
+PR [#98655](https://github.com/rust-lang/rust/pull/98655) "Don't derive
+`PartialEq::ne`", which improved 65 primary scenarios and 27 secondary
+scenarios). There were a few cases that pnkfelix explicitly decided not
+to mark as triaged; see report for more details there.
+Also pnkfelix wonders if there is a recent slight-upward trend on max-rss
+for the past week, see the [summary graph](https://perf.rust-lang.org/?start=&end=&kind=percentfromfirst&stat=max-rss)
+
+Triage done by **@pnkfelix**.
+Revision range: [14a459bf..4a24f08b](https://perf.rust-lang.org/?start=14a459bf37bc19476d43e0045d078121c12d3fef&end=4a24f08ba43166cfee86d868b3fe8612aec6faca&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u) | mean | range | count |
+|:----------------:|:----:|:-----:|:-----:|
+| Regressions ❌ <br /> (primary) | 0.6% | [0.4%, 0.8%] | 27    |
+| Regressions ❌ <br /> (secondary) | 0.4% | [0.2%, 0.6%] | 9     |
+| Improvements ✅ <br /> (primary) | -1.7% | [-20.1%, -0.3%] | 91    |
+| Improvements ✅ <br /> (secondary) | -3.6% | [-18.7%, -0.3%] | 160   |
+| All ❌✅ (primary) | -1.2% | [-20.1%, 0.8%] | 118   |
+
+
+3 Regressions, 4 Improvements, 4 Mixed; 3 of them in rollups
+43 artifact comparisons made in total
+
+[Full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-08-24.md)
 
 ### Call for Testing
 
