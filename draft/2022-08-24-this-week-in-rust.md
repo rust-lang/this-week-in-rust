@@ -27,12 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer changelog #143](https://rust-analyzer.github.io/thisweek/2022/08/22/changelog-143.html)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-08-22.html)
@@ -55,10 +49,6 @@ and just ask the editors to select the category.
 * [video] [Get under the hood of Rust Language with Assembly!!](https://www.youtube.com/watch?v=lRV_5IBUTes)
 * [video] [Scoped threads in Rust 1.63](https://www.youtube.com/watch?v=VsIicvwf_Yc)
 * [video] [1Password Developer Fireside Chat: Demystifying Atomics](https://www.youtube.com/watch?v=qhWbuQ8rv5k)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
