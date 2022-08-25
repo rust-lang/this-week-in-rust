@@ -42,15 +42,14 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W34](https://www.fornjot.app/blog/weekly-release/2022-w34/)
 
 ### Observations/Thoughts
-
-### Rust Walkthroughs
-* [State Machines II](https://blog.yoshuawuyts.com/state-machines-2/)
 * [Come contribute to Salsa 2022!](https://smallcultfollowing.com/babysteps/blog/2022/08/18/come-contribute-to-salsa-2022/)
+* [State Machines II](https://blog.yoshuawuyts.com/state-machines-2/)
 
 ### Rust Walkthroughs
 * [Tauri + Async Rust Process](https://rfdonnelly.github.io/posts/tauri-async-rust-process/)
 * [Writing a container in Rust](https://litchipi.github.io/series/container_in_rust)
 * [Experimentally compiling PHP code to Rust - Ryan Chandler](https://ryangjchandler.co.uk/posts/experimentally-compiling-php-code-to-rust)
+* [STM32F4 Embedded Rust at the HAL: GPIO Interrupts](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-gpio-interrupts)
 * [video] [Rust Traits vs C++ Concepts](https://www.youtube.com/watch?v=f68FtmUTl3s)
 * [video] [Writing Procedural Macros](https://www.youtube.com/watch?v=RfhkCdu3iYs)
 * [video] [Get under the hood of Rust Language with Assembly!!](https://www.youtube.com/watch?v=lRV_5IBUTes)
