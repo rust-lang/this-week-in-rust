@@ -34,12 +34,21 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #143](https://rust-analyzer.github.io/thisweek/2022/08/22/changelog-143.html)
+* [What's new in axum 0.6.0-rc.1](https://tokio.rs/blog/2022-08-whats-new-in-axum-0-6-0-rc1)
 
 * [This week in Databend #56: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-08-24-databend-weekly/)
 
 ### Observations/Thoughts
+* [State Machines II](https://blog.yoshuawuyts.com/state-machines-2/)
+* [Come contribute to Salsa 2022!](https://smallcultfollowing.com/babysteps/blog/2022/08/18/come-contribute-to-salsa-2022/)
 
 ### Rust Walkthroughs
+* [Writing a container in Rust](https://litchipi.github.io/series/container_in_rust)
+* [Experimentally compiling PHP code to Rust - Ryan Chandler](https://ryangjchandler.co.uk/posts/experimentally-compiling-php-code-to-rust)
+* [video] [Get under the hood of Rust Language with Assembly!!](https://www.youtube.com/watch?v=lRV_5IBUTes)
+* [video] [Scoped threads in Rust 1.63](https://www.youtube.com/watch?v=VsIicvwf_Yc)
+* [video] [1Password Developer Fireside Chat: Demystifying Atomics](https://www.youtube.com/watch?v=qhWbuQ8rv5k)
 
 ### Research
 
