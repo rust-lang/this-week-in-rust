@@ -46,7 +46,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [State Machines II](https://blog.yoshuawuyts.com/state-machines-2/)
 * [Come contribute to Salsa 2022!](https://smallcultfollowing.com/babysteps/blog/2022/08/18/come-contribute-to-salsa-2022/)
-
+* [Ruxel - Building a Ray Tracer with Rust Part 1](https://rsdlt.github.io/posts/ruxel-part-1-rust-ray-tracer-renderer-3d-development/)
 ### Rust Walkthroughs
 * [Tauri + Async Rust Process](https://rfdonnelly.github.io/posts/tauri-async-rust-process/)
 * [Writing a container in Rust](https://litchipi.github.io/series/container_in_rust)
