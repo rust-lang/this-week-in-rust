@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 * [This week in Databend #56: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-08-24-databend-weekly/)
 * [HexoSynth Modular Synthesizer in Rust - Devlog #10: Alpha-1 Release](https://m8geil.de/posts/hexosynth-10/)
 
+* [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-08-22.html)
+
 ### Observations/Thoughts
 * [State Machines II](https://blog.yoshuawuyts.com/state-machines-2/)
 * [Come contribute to Salsa 2022!](https://smallcultfollowing.com/babysteps/blog/2022/08/18/come-contribute-to-salsa-2022/)
