@@ -27,12 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer changelog #143](https://rust-analyzer.github.io/thisweek/2022/08/22/changelog-143.html)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-08-22.html)
@@ -42,24 +36,19 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W34](https://www.fornjot.app/blog/weekly-release/2022-w34/)
 
 ### Observations/Thoughts
-
-### Rust Walkthroughs
-* [State Machines II](https://blog.yoshuawuyts.com/state-machines-2/)
 * [Come contribute to Salsa 2022!](https://smallcultfollowing.com/babysteps/blog/2022/08/18/come-contribute-to-salsa-2022/)
+* [State Machines II](https://blog.yoshuawuyts.com/state-machines-2/)
 
 ### Rust Walkthroughs
 * [Tauri + Async Rust Process](https://rfdonnelly.github.io/posts/tauri-async-rust-process/)
 * [Writing a container in Rust](https://litchipi.github.io/series/container_in_rust)
 * [Experimentally compiling PHP code to Rust - Ryan Chandler](https://ryangjchandler.co.uk/posts/experimentally-compiling-php-code-to-rust)
+* [STM32F4 Embedded Rust at the HAL: GPIO Interrupts](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-gpio-interrupts)
 * [video] [Rust Traits vs C++ Concepts](https://www.youtube.com/watch?v=f68FtmUTl3s)
 * [video] [Writing Procedural Macros](https://www.youtube.com/watch?v=RfhkCdu3iYs)
 * [video] [Get under the hood of Rust Language with Assembly!!](https://www.youtube.com/watch?v=lRV_5IBUTes)
 * [video] [Scoped threads in Rust 1.63](https://www.youtube.com/watch?v=VsIicvwf_Yc)
 * [video] [1Password Developer Fireside Chat: Demystifying Atomics](https://www.youtube.com/watch?v=qhWbuQ8rv5k)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -77,6 +66,12 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [Ockam - Add syntax highlighting to examples in ockam clap command help using syntect](https://github.com/build-trust/ockam/issues/3311)
+* [Ockam - Add examples section to ockam tcp-inlet create command's help](https://github.com/build-trust/ockam/issues/3317)
+* [Ockam - Make ockam node delete --all --force command more forceful](https://github.com/build-trust/ockam/issues/3322)
+* [Mirrord - Consider using mold linker](https://github.com/metalbear-co/mirrord/issues/221)
+* [Mirrord - mirrod-layer and mirrord bin are being built twice when running cargo +nightly build](https://github.com/metalbear-co/mirrord/issues/222)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -346,7 +341,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/wm0k6q/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
