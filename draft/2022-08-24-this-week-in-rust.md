@@ -39,7 +39,7 @@ and just ask the editors to select the category.
 * [video] [Rust Traits vs C++ Concepts](https://www.youtube.com/watch?v=f68FtmUTl3s)
 
 ### Rust Walkthroughs
-- [video] [Writing Procedural Macros](https://youtu.be/RfhkCdu3iYs)
+* [video] [Writing Procedural Macros](https://www.youtube.com/watch?v=RfhkCdu3iYs)
 
 ### Research
 
