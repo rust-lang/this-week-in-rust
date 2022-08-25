@@ -257,7 +257,7 @@ Rusty Events between 2022-08-24 - 2022-09-21 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/287286751/)
 * 2022-08-30 | Virtual + Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
     * [**Last Tuesday**](https://www.meetup.com/dallas-rust/events/qndgwsydclbnc/)
-* 2022-09-01 | Virtual (PST Timezone) | [Conf42](https://www.conf42.com/)
+* 2022-09-01 | Virtual (PDT Timezone) | [Conf42](https://www.conf42.com/)
     * [**Conf42: Rustlang 2022**](https://www.conf42.com/rustlang2022)
 * 2022-09-01 | Virtual | [Google Open Source Live](https://www.meetup.com/google-open-source/)
     * [**Rust Day on Google Open Source Live**](https://www.meetup.com/google-open-source/events/287435626/)
