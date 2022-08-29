@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+- [Toward fearless `cargo update`](https://predr.ag/blog/toward-fearless-cargo-update/)
 
 ### Rust Walkthroughs
 
