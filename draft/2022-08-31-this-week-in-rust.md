@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Update-informer v0.5.0: Overview of key changes ⭐️](https://www.mgrachev.com/2022/08/29/update-informer-v050)
 
 ### Observations/Thoughts
 
