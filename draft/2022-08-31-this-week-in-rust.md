@@ -40,6 +40,9 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Using Rust to understand The Little Schemer](https://www.youtube.com/watch?v=J2GCw5oYiHU)
+* [video] [Building a Rust Multithreaded Web Server (chapter 20 of Rust Book)](https://www.youtube.com/watch?v=muTFcUVq-vo)
+
 ### Research
 
 ### Miscellaneous
@@ -129,6 +132,8 @@ Rusty Events between 2022-08-31 - 2022-09-28 🦀
     * [**Rust Meetup Rostock**](https://www.meetup.com/altow-academy/events/286485815/)
 * 2022-09-14 | Virtual (Malaysia)| [Golang Malaysia](https://docs.google.com/forms/d/e/1FAIpQLScKGolWclIOR1OBCzTOitVU5Am5lSYxSlVhK71DGsc-fa-Yhg/viewform)
     * [**Rust Meetup September 2022**](https://discord.gg/9Xj8H2EXTD)
+* 2022-09-14 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
+    * [**Introduction to Async in Rust**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/288154493/)
 * 2022-09-15 | Virtual (Columbus, OH, US) | [GDG Columbus](https://www.meetup.com/gdg-columbus/)
     * [**Past, Present, and Future of Internet Money! (Custom tokenomics, RUST and CosmWASM library...)**](https://www.meetup.com/gdg-columbus/events/287972746/)
 * 2022-09-20 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
