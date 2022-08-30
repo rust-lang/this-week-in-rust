@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [bytehound](https://github.com/koute/bytehound) a memory profiler for Rust.
+
+Thanks to [Aleksey Kladov](https://users.rust-lang.org/t/crate-of-the-week/2704/1101) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -64,7 +66,61 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+412 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-08-22..2022-08-29
+
+* [add the armv4t-none-eabi target to the supported_targets](https://github.com/rust-lang/rust/pull/100641)
+* [stabilize split debuginfo on linux](https://github.com/rust-lang/rust/pull/98051)
+* [add GDB/LLDB pretty-printers for `NonZero` types](https://github.com/rust-lang/rust/pull/98301)
+* [fix const: dynamic checks for accessing statics](https://github.com/rust-lang/const-eval/pull/70)
+* [improve const mismatch `FulfillmentError`](https://github.com/rust-lang/rust/pull/100437)
+* [provide structured suggestion for `hashmap[idx] = val`](https://github.com/rust-lang/rust/pull/101002)
+* [suggest adding a missing semicolon before an item](https://github.com/rust-lang/rust/pull/100565)
+* [suggest alternatives when trying to mutate a `HashMap`/`BTreeMap` via indexing](https://github.com/rust-lang/rust/pull/100906)
+* [use smaller span for suggestions](https://github.com/rust-lang/rust/pull/101055)
+* [migrate `rustc_attr` crate diagnostics](https://github.com/rust-lang/rust/pull/100836)
+* [migrate `rustc_interface` diagnostics](https://github.com/rust-lang/rust/pull/100808)
+* [migrate `rustc_lint` errors to `SessionDiagnostic`](https://github.com/rust-lang/rust/pull/100776)
+* [migrate `rustc_plugin_impl` to `SessionDiagnostic`](https://github.com/rust-lang/rust/pull/100768)
+* [migrate `rustc_ty_utils` to `SessionDiagnostic`](https://github.com/rust-lang/rust/pull/100735)
+* [migrate ast lowering to session diagnostic](https://github.com/rust-lang/rust/pull/100724)
+* [migrate part of `rustc_infer` to session diagnostic](https://github.com/rust-lang/rust/pull/100843)
+* [migrate `rustc_driver` to `SessionDiagnostic`](https://github.com/rust-lang/rust/pull/100890)
+* [migrate `rustc_mir_dataflow` to diagnostic structs](https://github.com/rust-lang/rust/pull/100744)
+* [miri: adding support for external C functions that have integer (or empty) args and/or returns](https://github.com/rust-lang/miri/pull/2363)
+* [miri: skip field retagging on ZSTs, it can take forever](https://github.com/rust-lang/miri/pull/2517)
+* [miri: strengthen C++20 SC accesses](https://github.com/rust-lang/miri/pull/2512)
+* [avoid cloning a collection only to iterate over it](https://github.com/rust-lang/rust/pull/100497)
+* [reduce code size of `assert_matches_failed`](https://github.com/rust-lang/rust/pull/100933)
+* [shrink `FnAbi`](https://github.com/rust-lang/rust/pull/100999)
+* [shrink `thir::Expr`](https://github.com/rust-lang/rust/pull/100944)
+* [stabilize `#![feature(label_break_value)]`](https://github.com/rust-lang/rust/pull/99332)
+* [stabilize `const_ptr_offset_from`](https://github.com/rust-lang/rust/pull/96240)
+* [stabilize `std::io::read_to_string`](https://github.com/rust-lang/rust/pull/100337)
+* [add a `File::create_new` constructor](https://github.com/rust-lang/rust/pull/98801)
+* [add `next_up` and `next_down` for `f32`/`f64`](https://github.com/rust-lang/rust/pull/100578)
+* [`is_whitespace()` performance improvements](https://github.com/rust-lang/rust/pull/99487)
+* [add pointer masking convenience functions](https://github.com/rust-lang/rust/pull/96946)
+* [BTree: evaluate static type-related check at compile time](https://github.com/rust-lang/rust/pull/95005)
+* [fix `Ipv6Addr::is_unicast_global` to check for unicast global scope rebase](https://github.com/rust-lang/rust/pull/99947)
+* [windows: optimize `Wtf8Buf::into_string` for the case where it contains UTF-8](https://github.com/rust-lang/rust/pull/96869)
+* [properly forward `ByRefSized::fold` to the inner iterator](https://github.com/rust-lang/rust/pull/100220)
+* [make `slice::`{`split_at`, `split_at_unchecked`} `const` functions](https://github.com/rust-lang/rust/pull/100076)
+* [`std::io`: migrate `ReadBuf` to `BorrowBuf`/`BorrowCursor`](https://github.com/rust-lang/rust/pull/97015)
+* [rustdoc: rewrite error index generator to greatly reduce the size of the pages](https://github.com/rust-lang/rust/pull/100922)
+* [clippy: implemented `suspicious_to_owned` lint to check if `to_owned` is called on a `Cow`](https://github.com/rust-lang/rust-clippy/pull/8984)
+* [clippy: new lint: Raw slice pointer cast](https://github.com/rust-lang/rust-clippy/pull/9247)
+* [clippy: new `multi_assignment` lint](https://github.com/rust-lang/rust-clippy/pull/9379)
+* [clippy: don't lint `needless_return` if `return` has attrs](https://github.com/rust-lang/rust-clippy/pull/9381)
+* [clippy: don't lint literal `None` from expansion](https://github.com/rust-lang/rust-clippy/pull/9389)
+* [clippy: ignore `match_like_matches_macro` when there is comment](https://github.com/rust-lang/rust-clippy/pull/9276)
+* [clippy: remove parenthesis from `unnecessary_cast` suggestion](https://github.com/rust-lang/rust-clippy/pull/9385)
+* [clippy: rename `manual_empty_string_creation` and move to pedantic](https://github.com/rust-lang/rust-clippy/pull/9366)
+* [rust-analyzer: do not substitute `Self` when in same impl block](https://github.com/rust-lang/rust-analyzer/pull/13090)
+* [rust-analyzer: move empty diagnostics workaround back into the server](https://github.com/rust-lang/rust-analyzer/pull/13133)
+* [rust-analyzer: resolve doc links on impl blocks](https://github.com/rust-lang/rust-analyzer/pull/13100)
+* [rustc-perf: add a metric containing the size of generated documentation](https://github.com/rust-lang/rustc-perf/pull/1417)
 
 ### Rust Compiler Performance Triage
 
@@ -188,7 +244,15 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> \[W\]e reached a tipping point. **We decided to move our entire codebase to Rust**... . Rust seemed to give us all the capabilities we needed, **however, there was still one *minor* problem - no one on the team knew Rust.** ...
+>
+> We started with a small team of senior engineers and managers learning Rust and developing the skeleton of the DB and dev environment (for others to build on). Then, slowly, others joined in rewriting and contributing different components until we eventually got rid of the old codebase altogether (I still remember the day my original C modules, from the first days of Pinecone, were taken out). Unbeknownst to most Pinecone customers, the new Rust core was deployed in March this year. And in the process of taking over running workloads, we managed not to drop a single API call!
+>
+> ... **We all expect\[ed\] performance and dev processes to improve. Those indeed happened.** What we didn’t expect was the extent to which dev velocity increased and operational incidents decreased. **Dev velocity** ... **improved dramatically with Rust. Built-in testing, CI/CD, benchmarking, and an overzealous compiler increased engineers’ confidence in pushing changes, and enabled them to work on the same code sections and contribute simultaneously without breaking the code base.** Most impressively though, **real time operational events dropped almost to zero overnight after the original release.** Sure, there are still surprises here and there but, by and large, the core engine has been shockingly stable and predictable.
+
+– [Edo Liberty on the pinecone blog](https://www.pinecone.io/learn/inside-the-pinecone/)
+
+Thanks to [Erich Gubler](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1283) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
