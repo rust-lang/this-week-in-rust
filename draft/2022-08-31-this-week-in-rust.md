@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-08-29.html)
+
 ### Observations/Thoughts
 * [Toward fearless `cargo update`](https://predr.ag/blog/toward-fearless-cargo-update/)
 
