@@ -69,7 +69,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A somewhat difficult week to triage due to the large amount of noise coming from two benchmarks. Hopefully this noise settles down in the future. Other than that, improvements much outweighed regressions with an average of 142 changes to instruction count averaging 0.7% improvement. There were no huge wins this week, however.
+
+Triage done by **@rylev**.
+Revision range: [4a24f08b..0631ea5d](https://perf.rust-lang.org/?start=4a24f08ba43166cfee86d868b3fe8612aec6faca&end=0631ea5d73f4a3199c776687b12c20c50a91f0d2&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u) | mean | range | count |
+|:----------------:|:----:|:-----:|:-----:|
+| Regressions ❌ <br /> (primary) | 1.0% | [0.2%, 2.6%] | 4     |
+| Regressions ❌ <br /> (secondary) | 1.3% | [0.3%, 2.6%] | 23    |
+| Improvements ✅ <br /> (primary) | -0.7% | [-2.8%, -0.2%] | 138   |
+| Improvements ✅ <br /> (secondary) | -1.3% | [-2.7%, -0.2%] | 71    |
+| All ❌✅ (primary) | -0.7% | [-2.8%, 2.6%] | 142   |
+
+
+2 Regressions, 3 Improvements, 10 Mixed; 6 of them in rollups
+40 artifact comparisons made in total
+
+[Full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-08-30.md)
 
 ### Call for Testing
 
