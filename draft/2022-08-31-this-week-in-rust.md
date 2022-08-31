@@ -42,7 +42,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Learning Rust: Combinators](https://kerkour.com/rust-combinators)
-* [Integrating Rust With Android Development — Final Part](https://medium.com/@otukof/integrating-rust-with-android-development-final-part-7c752a7cab1d)
+* [Integrating Rust With Android Development — Final Part](https://blog.devgenius.io/integrating-rust-with-android-development-final-part-7c752a7cab1d)
 * [series] [Ruxel - Building a Ray Tracer with Rust Part 1](https://rsdlt.github.io/posts/ruxel-part-1-rust-ray-tracer-renderer-3d-development/)
 
 ### Research
