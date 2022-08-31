@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Learning Rust: Combinators](https://kerkour.com/rust-combinators)
+
 ### Research
 
 ### Miscellaneous
