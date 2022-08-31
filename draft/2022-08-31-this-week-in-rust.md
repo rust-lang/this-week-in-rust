@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 * [IntelliJ Rust Changelog #177](https://intellij-rust.github.io/2022/08/29/changelog-177.html)
 * [Diesel 2.0.0](https://diesel.rs/news/2_0_0_release.html)
 * [Helix Editor Release 22.08 Highlights](https://helix-editor.com/news/release-22-08-highlights/)
+* [This Month in hyper: August 2022](https://seanmonstar.com/post/694122996505493504/this-month-in-hyper-august-2022)
 * [Fornjot - Weekly Release - 2022-W35](https://www.fornjot.app/blog/weekly-release/2022-w35/)
 * [Announcing Sycamore v0.8.0](https://sycamore-rs.netlify.app/news/announcing-v0.8.0)
 * [Announcing finl_unicode 1.0.0](https://www.finl.xyz/2022/08/29/announcing-finl_unicode-1-0-0/)
