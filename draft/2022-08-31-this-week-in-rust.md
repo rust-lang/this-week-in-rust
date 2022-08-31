@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Black Hat Rust "Back2School" Discount](https://kerkour.com/black-hat-rust-discount-august-2022)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
