@@ -41,8 +41,8 @@ and just ask the editors to select the category.
 * [Toward fearless `cargo update`](https://predr.ag/blog/toward-fearless-cargo-update/)
 
 ### Rust Walkthroughs
-
 * [Learning Rust: Combinators](https://kerkour.com/rust-combinators)
+* [Integrating Rust With Android Development — Final Part](https://medium.com/@otukof/integrating-rust-with-android-development-final-part-7c752a7cab1d)
 
 ### Research
 
