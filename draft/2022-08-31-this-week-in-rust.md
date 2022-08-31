@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 * [Fornjot - Weekly Release - 2022-W35](https://www.fornjot.app/blog/weekly-release/2022-w35/)
 * [Announcing Sycamore v0.8.0](https://sycamore-rs.netlify.app/news/announcing-v0.8.0)
 * [Announcing finl_unicode 1.0.0](https://www.finl.xyz/2022/08/29/announcing-finl_unicode-1-0-0/)
+* [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-08-29.html)
 
 ### Observations/Thoughts
 * [Solving The Witness with Z3 (Part 1)](https://www.techofnote.com/witness-part-1)
