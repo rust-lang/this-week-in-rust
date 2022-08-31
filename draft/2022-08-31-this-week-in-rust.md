@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [What's new in diesel 2.0.0](https://diesel.rs/news/2_0_0_release.html)
+
 ### Observations/Thoughts
 * [Toward fearless `cargo update`](https://predr.ag/blog/toward-fearless-cargo-update/)
 
