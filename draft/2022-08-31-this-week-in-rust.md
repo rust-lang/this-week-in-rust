@@ -34,20 +34,35 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [rust-analyzer - changelog #144](https://rust-analyzer.github.io/thisweek/2022/08/29/changelog-144.html)
+* [IntelliJ Rust Changelog #177](https://intellij-rust.github.io/2022/08/29/changelog-177.html)
 * [Diesel 2.0.0](https://diesel.rs/news/2_0_0_release.html)
+* [Fornjot - Weekly Release - 2022-W35](https://www.fornjot.app/blog/weekly-release/2022-w35/)
+* [Announcing Sycamore v0.8.0](https://sycamore-rs.netlify.app/news/announcing-v0.8.0)
+* [Announcing finl_unicode 1.0.0](https://www.finl.xyz/2022/08/29/announcing-finl_unicode-1-0-0/)
 
 ### Observations/Thoughts
+* [Solving The Witness with Z3 (Part 1)](https://www.techofnote.com/witness-part-1)
+* [Static streams for faster async proxies](https://blog.adamchalmers.com/streaming-proxy/)
+* [Building an authentication system in Rust using session tokens](https://www.shuttle.rs/blog/2022/08/11/authentication-tutorial)
+* [OpenTelemetry Distributed Tracing in Rust](https://www.aspecto.io/blog/distributed-tracing-with-opentelemetry-rust/)
 * [Toward fearless `cargo update`](https://predr.ag/blog/toward-fearless-cargo-update/)
 
 ### Rust Walkthroughs
 * [Learning Rust: Combinators](https://kerkour.com/rust-combinators)
 * [Integrating Rust With Android Development — Final Part](https://blog.devgenius.io/integrating-rust-with-android-development-final-part-7c752a7cab1d)
+* [Rewriting my blog in Rust for fun and profit](https://www.jonashietala.se/blog/2022/08/29/rewriting_my_blog_in_rust_for_fun_and_profit/)
+* [Building A Gamedev Maths Library In Rust From Scratch – Alex Dixon](https://www.polymonster.co.uk/blog/maths-rs)
+* [Pattern Matching and Backwards Compatibility](https://seanmonstar.com/post/693574545047683072/pattern-matching-and-backwards-compatibility)
 * [series] [Ruxel - Building a Ray Tracer with Rust Part 1](https://rsdlt.github.io/posts/ruxel-part-1-rust-ray-tracer-renderer-3d-development/)
 
 ### Research
 
 ### Miscellaneous
+* [The Bombercrab Challenge 💥💣🦀](https://blog.tonari.no/rust-game-hack-2022)
+* [video] [Unsafe Rust is not C](https://www.youtube.com/watch?v=DG-VLezRkYQ)
+* [video] [Building a space station in Rust (Simple Rust patterns)](https://www.youtube.com/watch?v=7GzQArrek7A)
+* [video] [Arvid Norberg: What C++ engineers can learn from Rust](https://www.youtube.com/watch?v=3GK5AAcOfbo)
 
 ## Crate of the Week
 
