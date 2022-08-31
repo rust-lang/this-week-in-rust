@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 * [Announcing finl_unicode 1.0.0](https://www.finl.xyz/2022/08/29/announcing-finl_unicode-1-0-0/)
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-08-29.html)
 * [argmin 0.7.0 and argmin-math 0.2.0 released](http://argmin-rs.org/blog/version-v0-7-0/)
+* [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W35](https://www.fornjot.app/blog/weekly-release/2022-w35/)
 
 ### Observations/Thoughts
 * [Solving The Witness with Z3 (Part 1)](https://www.techofnote.com/witness-part-1)
