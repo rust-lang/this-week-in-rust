@@ -59,7 +59,6 @@ and just ask the editors to select the category.
 * [series] [STM32F4 Embedded Rust at the HAL: Timer Interrupts - Part 2](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-timer-interrupts)
 * [video] [Using Rust to understand The Little Schemer](https://www.youtube.com/watch?v=J2GCw5oYiHU)
 * [video] [Building a Rust Multithreaded Web Server (chapter 20 of Rust Book)](https://www.youtube.com/watch?v=muTFcUVq-vo)
-* [video] [Unsafe Rust is not C](https://www.youtube.com/watch?v=DG-VLezRkYQ)
 
 ### Miscellaneous
 * [The Bombercrab Challenge 💥💣🦀](https://blog.tonari.no/rust-game-hack-2022)
