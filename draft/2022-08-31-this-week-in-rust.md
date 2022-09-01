@@ -27,12 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer - changelog #144](https://rust-analyzer.github.io/thisweek/2022/08/29/changelog-144.html)
 * [IntelliJ Rust Changelog #177](https://intellij-rust.github.io/2022/08/29/changelog-177.html)
@@ -66,8 +60,6 @@ and just ask the editors to select the category.
 * [video] [Using Rust to understand The Little Schemer](https://www.youtube.com/watch?v=J2GCw5oYiHU)
 * [video] [Building a Rust Multithreaded Web Server (chapter 20 of Rust Book)](https://www.youtube.com/watch?v=muTFcUVq-vo)
 * [video] [Unsafe Rust is not C](https://www.youtube.com/watch?v=DG-VLezRkYQ)
-
-### Research
 
 ### Miscellaneous
 * [The Bombercrab Challenge 💥💣🦀](https://blog.tonari.no/rust-game-hack-2022)
@@ -290,8 +282,6 @@ Rusty Events between 2022-08-31 - 2022-09-28 🦀
     * [**August Meetup: Rewriting a high performance Vector Database in Rust.**](https://www.meetup.com/rust-nyc/events/287821884/)
 * 2022-09-01 | Phoenix, AZ, US | [Phoenix Android - GDG](https://www.meetup.com/phx-android/)
     * [**Phoenix: Rust Day on Google Open Source Live Viewing party**](https://www.meetup.com/phx-android/events/288147058/) | [Main event link](https://opensourcelive.withgoogle.com/events/rust-day-2022)
-* 2022-09-29 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
-    * [**Game Prototyping with Rusty Engine with Nathan Stocks and Food!**](https://www.meetup.com/utah-rust/events/bwlfwsydcmbmc/)
 
 ### South America
 
