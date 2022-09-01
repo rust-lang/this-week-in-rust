@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 * [rust-analyzer - changelog #144](https://rust-analyzer.github.io/thisweek/2022/08/29/changelog-144.html)
 * [IntelliJ Rust Changelog #177](https://intellij-rust.github.io/2022/08/29/changelog-177.html)
 * [Diesel 2.0.0](https://diesel.rs/news/2_0_0_release.html)
-* [Helix Editor Release 22.08 Highlights](https://helix-editor.com/news/release-22-08-highlights/)
+* [Helix editor 22.08 released](https://helix-editor.com/news/release-22-08-highlights/)
 * [This Month in hyper: August 2022](https://seanmonstar.com/post/694122996505493504/this-month-in-hyper-august-2022)
 * [Fornjot - Weekly Release - 2022-W35](https://www.fornjot.app/blog/weekly-release/2022-w35/)
 * [Announcing Sycamore v0.8.0](https://sycamore-rs.netlify.app/news/announcing-v0.8.0)
@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-08-29.html)
 * [argmin 0.7.0 and argmin-math 0.2.0 released](http://argmin-rs.org/blog/version-v0-7-0/)
 * [Update-informer v0.5.0](https://www.mgrachev.com/2022/08/29/update-informer-v050/)
-* [Helix editor 22.08 released](https://helix-editor.com/news/release-22-08-highlights/)
+* [This week in Databend #57: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-08-31-databend-weekly/)
 
 ### Observations/Thoughts
 * [Solving The Witness with Z3 (Part 1)](https://www.techofnote.com/witness-part-1)
@@ -62,7 +62,6 @@ and just ask the editors to select the category.
 * [Pattern Matching and Backwards Compatibility](https://seanmonstar.com/post/693574545047683072/pattern-matching-and-backwards-compatibility)
 * [Writing FreeBSD Kernel Modules in Rust](https://research.nccgroup.com/2022/08/31/writing-freebsd-kernel-modules-in-rust/)
 * [series] [Ruxel - Building a Ray Tracer with Rust Part 1](https://rsdlt.github.io/posts/ruxel-part-1-rust-ray-tracer-renderer-3d-development/)
-
 * [video] [Using Rust to understand The Little Schemer](https://www.youtube.com/watch?v=J2GCw5oYiHU)
 * [video] [Building a Rust Multithreaded Web Server (chapter 20 of Rust Book)](https://www.youtube.com/watch?v=muTFcUVq-vo)
 
