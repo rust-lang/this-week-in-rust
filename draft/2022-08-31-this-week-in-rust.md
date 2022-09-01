@@ -92,6 +92,15 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Ogma - Alter Expecting enum to be a bitflag](https://github.com/kdr-aus/ogma/issues/168)
+* [Artichoke - Add wasi platform support to scolapasta-path](https://github.com/artichoke/artichoke/issues/2111)
+* [Blaze-rs - Fixing the lost references issue](https://github.com/Aandreba/blaze/issues/15)
+* [Tool-sync - Support not only 'latest' releases](https://github.com/chshersh/tool-sync/issues/32)
+* [Ockam - Improve output of ockam secure-channel list command for formatting, color, and json](https://github.com/build-trust/ockam/issues/3391)
+* [Ockam - Improve output of ockam tcp-connection create command for formatting, color, and json](https://github.com/build-trust/ockam/issues/3392)
+* [Ockam - Rename --node argument of ockam secure-channel list to --at](https://github.com/build-trust/ockam/issues/3379)
+* [Space-craft - Project contributions, migration from amytheyst](https://github.com/AthulMuralidhar/spacecraft)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
