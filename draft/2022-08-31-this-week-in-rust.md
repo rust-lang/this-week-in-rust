@@ -27,12 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer - changelog #144](https://rust-analyzer.github.io/thisweek/2022/08/29/changelog-144.html)
 * [IntelliJ Rust Changelog #177](https://intellij-rust.github.io/2022/08/29/changelog-177.html)
@@ -62,10 +56,9 @@ and just ask the editors to select the category.
 * [Pattern Matching and Backwards Compatibility](https://seanmonstar.com/post/693574545047683072/pattern-matching-and-backwards-compatibility)
 * [Writing FreeBSD Kernel Modules in Rust](https://research.nccgroup.com/2022/08/31/writing-freebsd-kernel-modules-in-rust/)
 * [series] [Ruxel - Building a Ray Tracer with Rust Part 1](https://rsdlt.github.io/posts/ruxel-part-1-rust-ray-tracer-renderer-3d-development/)
+* [series] [STM32F4 Embedded Rust at the HAL: Timer Interrupts - Part 2](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-timer-interrupts)
 * [video] [Using Rust to understand The Little Schemer](https://www.youtube.com/watch?v=J2GCw5oYiHU)
 * [video] [Building a Rust Multithreaded Web Server (chapter 20 of Rust Book)](https://www.youtube.com/watch?v=muTFcUVq-vo)
-
-### Research
 
 ### Miscellaneous
 * [The Bombercrab Challenge 💥💣🦀](https://blog.tonari.no/rust-game-hack-2022)
@@ -89,6 +82,15 @@ Always wanted to contribute to open-source projects but didn't know where to sta
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [Ogma - Alter Expecting enum to be a bitflag](https://github.com/kdr-aus/ogma/issues/168)
+* [Artichoke - Add wasi platform support to scolapasta-path](https://github.com/artichoke/artichoke/issues/2111)
+* [Blaze-rs - Fixing the lost references issue](https://github.com/Aandreba/blaze/issues/15)
+* [Tool-sync - Support not only 'latest' releases](https://github.com/chshersh/tool-sync/issues/32)
+* [Ockam - Improve output of ockam secure-channel list command for formatting, color, and json](https://github.com/build-trust/ockam/issues/3391)
+* [Ockam - Improve output of ockam tcp-connection create command for formatting, color, and json](https://github.com/build-trust/ockam/issues/3392)
+* [Ockam - Rename --node argument of ockam secure-channel list to --at](https://github.com/build-trust/ockam/issues/3379)
+* [Space-craft - Project contributions, migration from amytheyst](https://github.com/AthulMuralidhar/spacecraft)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -279,8 +281,6 @@ Rusty Events between 2022-08-31 - 2022-09-28 🦀
     * [**August Meetup: Rewriting a high performance Vector Database in Rust.**](https://www.meetup.com/rust-nyc/events/287821884/)
 * 2022-09-01 | Phoenix, AZ, US | [Phoenix Android - GDG](https://www.meetup.com/phx-android/)
     * [**Phoenix: Rust Day on Google Open Source Live Viewing party**](https://www.meetup.com/phx-android/events/288147058/) | [Main event link](https://opensourcelive.withgoogle.com/events/rust-day-2022)
-* 2022-09-29 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
-    * [**Game Prototyping with Rusty Engine with Nathan Stocks and Food!**](https://www.meetup.com/utah-rust/events/bwlfwsydcmbmc/)
 
 ### South America
 
@@ -308,7 +308,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/wm0k6q/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
