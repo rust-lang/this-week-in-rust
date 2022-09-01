@@ -1,6 +1,6 @@
-Title: This Week in Rust 457
-Number: 457
-Date: 2022-08-24
+Title: This Week in Rust 458
+Number: 458
+Date: 2022-08-31
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -34,14 +34,38 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer - changelog #144](https://rust-analyzer.github.io/thisweek/2022/08/29/changelog-144.html)
+* [IntelliJ Rust Changelog #177](https://intellij-rust.github.io/2022/08/29/changelog-177.html)
+* [Diesel 2.0.0](https://diesel.rs/news/2_0_0_release.html)
+* [Fornjot - Weekly Release - 2022-W35](https://www.fornjot.app/blog/weekly-release/2022-w35/)
+* [Announcing Sycamore v0.8.0](https://sycamore-rs.netlify.app/news/announcing-v0.8.0)
+* [Announcing finl_unicode 1.0.0](https://www.finl.xyz/2022/08/29/announcing-finl_unicode-1-0-0/)
+* [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-08-29.html)
+* [argmin 0.7.0 and argmin-math 0.2.0 released](http://argmin-rs.org/blog/version-v0-7-0/)
+* [Update-informer v0.5.0](https://www.mgrachev.com/2022/08/29/update-informer-v050/)
 
 ### Observations/Thoughts
+* [Solving The Witness with Z3 (Part 1)](https://www.techofnote.com/witness-part-1)
+* [Static streams for faster async proxies](https://blog.adamchalmers.com/streaming-proxy/)
+* [Building an authentication system in Rust using session tokens](https://www.shuttle.rs/blog/2022/08/11/authentication-tutorial)
+* [OpenTelemetry Distributed Tracing in Rust](https://www.aspecto.io/blog/distributed-tracing-with-opentelemetry-rust/)
+* [Toward fearless `cargo update`](https://predr.ag/blog/toward-fearless-cargo-update/)
 
 ### Rust Walkthroughs
+* [Learning Rust: Combinators](https://kerkour.com/rust-combinators)
+* [Integrating Rust With Android Development — Final Part](https://blog.devgenius.io/integrating-rust-with-android-development-final-part-7c752a7cab1d)
+* [Rewriting my blog in Rust for fun and profit](https://www.jonashietala.se/blog/2022/08/29/rewriting_my_blog_in_rust_for_fun_and_profit/)
+* [Building A Gamedev Maths Library In Rust From Scratch – Alex Dixon](https://www.polymonster.co.uk/blog/maths-rs)
+* [Pattern Matching and Backwards Compatibility](https://seanmonstar.com/post/693574545047683072/pattern-matching-and-backwards-compatibility)
+* [series] [Ruxel - Building a Ray Tracer with Rust Part 1](https://rsdlt.github.io/posts/ruxel-part-1-rust-ray-tracer-renderer-3d-development/)
 
 ### Research
 
 ### Miscellaneous
+* [The Bombercrab Challenge 💥💣🦀](https://blog.tonari.no/rust-game-hack-2022)
+* [video] [Unsafe Rust is not C](https://www.youtube.com/watch?v=DG-VLezRkYQ)
+* [video] [Building a space station in Rust (Simple Rust patterns)](https://www.youtube.com/watch?v=7GzQArrek7A)
+* [video] [Arvid Norberg: What C++ engineers can learn from Rust](https://www.youtube.com/watch?v=3GK5AAcOfbo)
 
 ## Crate of the Week
 
@@ -82,26 +106,10 @@ RFCs would benefit from user testing before moving forward:
 
 ## Upcoming Events
 
-Rusty Events between 2022-08-24 - 2022-09-21 🦀
+Rusty Events between 2022-08-31 - 2022-09-28 🦀
 
 ### Virtual
 
-* 2022-08-17 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
-    * [**C++ Concepts vs Rust Traits**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/287450947/)
-* 2022-08-17 | Virtual (Hoboken, NJ, US) | [Neighborhood Math Club](https://www.meetup.com/neighborhood-math-club/)
-    * [**The Early Rustacean Gets The Worm!**](https://www.meetup.com/neighborhood-math-club/events/287468144/)
-* 2022-08-17 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/Vancouver-Rust/)
-    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/Vancouver-Rust/events/nwcmpsydclbwb/)
-* 2022-08-18 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
-    * [**Hierarchical Task Network compiler written in Rust**](https://www.meetup.com/charlottesville-rust-meetup/events/287203159/)
-* 2022-08-18 | Virtual (Stuttgart, DE) | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
-    * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/qtvtvsydclbxb/)
-* 2022-08-18 | Virtual (Tehran, IR) | [Iran Rust Meetup](https://rust-meetup.ir/)
-    * [**Iran Rust Meetup #8**](https://rust-meetup.ir/2022/08/18/8th-meetup.html)
-* 2022-08-18 | Virtual (Wiesbaden, DE) | [Frontend RheinMain](https://www.meetup.com/frontend_rm/)
-    * [**Rust for curious developers**](https://www.meetup.com/frontend_rm/events/287713743/)
-* 2022-08-20 | Virtual | [Rust Edu](https://rust-edu.org/workshop)
-    * [**Rust Education Workshop 2022 (Submission deadline 2022-08-16)**](https://rust-edu.org/workshop)
 * 2022-08-24 | Virtual (Beijing, CN) | [WebAssembly and Rust Meetup (Rustlang)](https://www.meetup.com/wasm-rust-meetup/)
     * [**Tech Talk Live Appointment: Customize GitHub Workflow with Serverless Functions - How to use Rust and JavaScript to automate GitHub processes**](https://www.meetup.com/wasm-rust-meetup/events/287876999/)
 * 2022-08-24 | Virtual + Wellington, NZ | [Rust Wellington](https://www.meetup.com/rust-wellington/)
@@ -114,6 +122,8 @@ Rusty Events between 2022-08-24 - 2022-09-21 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/287286751/)
 * 2022-08-30 | Virtual + Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
     * [**Last Tuesday**](https://www.meetup.com/dallas-rust/events/qndgwsydclbnc/)
+* 2022-09-01 | Virtual (PDT Timezone) | [Conf42](https://www.conf42.com/)
+    * [**Conf42: Rustlang 2022**](https://www.conf42.com/rustlang2022)
 * 2022-09-01 | Virtual | [Google Open Source Live](https://www.meetup.com/google-open-source/)
     * [**Rust Day on Google Open Source Live**](https://www.meetup.com/google-open-source/events/287435626/)
 * 2022-09-02 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
@@ -134,20 +144,31 @@ Rusty Events between 2022-08-24 - 2022-09-21 🦀
     * [**Rust GameDev Monthly Meetup**](https://discord.gg/yNtPTb2&sa=D&source=calendar&usd=2&usg=AOvVaw2pjyb-YBsl99IFDmrOKoOK)
 * 2022-09-10 | Virtual (Bangalore, IN) | [Polkadot India](https://www.meetup.com/polkadot-india/)
     * [**Substrate Saturday - Bootcamp Series 2: Fundamentals of Rust & Substrate**](https://www.meetup.com/polkadot-india/events/287059979/)
+* 2022-09-12 | Virtual + Dublin, IE | [Linux Plumbers Conference](https://lpc.events)
+    * [**Rust Microconference in LPC 2022**](https://lpc.events/event/16/sessions/150/)
+* 2022-09-13 | Virtual + Dallas, TX, US | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
+    * [**Second Tuesday**](https://www.meetup.com/dallas-rust/events/vndgwsydcmbrb/)
 * 2022-09-13 | Virtual (Rostock, DE) | [Altow Academy](https://www.meetup.com/altow-academy/)
     * [**Rust Meetup Rostock**](https://www.meetup.com/altow-academy/events/286485815/)
 * 2022-09-14 | Virtual (Malaysia)| [Golang Malaysia](https://docs.google.com/forms/d/e/1FAIpQLScKGolWclIOR1OBCzTOitVU5Am5lSYxSlVhK71DGsc-fa-Yhg/viewform)
     * [**Rust Meetup September 2022**](https://discord.gg/9Xj8H2EXTD)
+* 2022-09-15 | Virtual (Columbus, OH, US) | [GDG Columbus](https://www.meetup.com/gdg-columbus/)
+    * [**Past, Present, and Future of Internet Money! (Custom tokenomics, RUST and CosmWASM library...)**](https://www.meetup.com/gdg-columbus/events/287972746/)
+* 2022-09-20 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
+    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/287004599/)
+* 2022-09-21 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
+    * [**Rust Study/Hack/Hang-out (Call for Participation)**](https://www.meetup.com/vancouver-rust/events/285933975/)
 
 
 ### Europe
-
-* 2022-08-18 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/)
-    * [**Rust Paris meetup #51**](https://www.meetup.com/rust-paris/events/287704177/)
+* 2022-08-25 | Copenhagen, DK | [Copenhagen Rust group](https://www.meetup.com/copenhagen-rust-meetup-group/)
+    * [**CPH Hack Night #28**](https://www.meetup.com/copenhagen-rust-meetup-group/events/287635498/)
 * 2022-08-25 | Stockholm, SE | [StockholmCpp](https://www.meetup.com/stockholmcpp/)
     * [**0x21: Learning from Rust, Typical C++**](https://www.meetup.com/stockholmcpp/events/286854212/)
 * 2022-08-30 | Utrecht, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
     * [**Run Rust Anywhere**](https://www.meetup.com/rust-nederland/events/287302224/)
+* 2022-09-12 | Dublin, IE + Virtual | [Linux Plumbers Conference](https://lpc.events)
+    * [**Rust Microconference in LPC 2022**](https://lpc.events/event/16/sessions/150/)
 
 ### North America
 
@@ -156,8 +177,8 @@ Rusty Events between 2022-08-24 - 2022-09-21 🦀
 * 2022-08-25 | Ciudad de México, MX | [Rust MX](https://www.meetup.com/rust-mx/)
     * [**Concurrencia & paralelismo con Rust**](https://www.meetup.com/rust-mx/events/287561814/)
 * 2022-08-25 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
-    * [**Hello World Cargo Crates Using Github Actions with jojobyte and Food!**](https://www.meetup.com/utah-rust/events/kvrxqsydclbpb/)
-* 2022-08-31 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/) 
+    * [**Using Github Actions to Deploy Cargo Crates with Jordan and Food!**](https://www.meetup.com/utah-rust/events/kvrxqsydclbpb/)
+* 2022-08-31 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/)
     * [**August Meetup: Rewriting a high performance Vector Database in Rust.**](https://www.meetup.com/rust-nyc/events/287821884/)
 
 ### Oceania
