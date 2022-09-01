@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 * [rust-analyzer - changelog #144](https://rust-analyzer.github.io/thisweek/2022/08/29/changelog-144.html)
 * [IntelliJ Rust Changelog #177](https://intellij-rust.github.io/2022/08/29/changelog-177.html)
 * [Diesel 2.0.0](https://diesel.rs/news/2_0_0_release.html)
+* [Helix Editor Release 22.08 Highlights](https://helix-editor.com/news/release-22-08-highlights/)
+* [This Month in hyper: August 2022](https://seanmonstar.com/post/694122996505493504/this-month-in-hyper-august-2022)
 * [Fornjot - Weekly Release - 2022-W35](https://www.fornjot.app/blog/weekly-release/2022-w35/)
 * [Announcing Sycamore v0.8.0](https://sycamore-rs.netlify.app/news/announcing-v0.8.0)
 * [Announcing finl_unicode 1.0.0](https://www.finl.xyz/2022/08/29/announcing-finl_unicode-1-0-0/)
@@ -58,6 +60,7 @@ and just ask the editors to select the category.
 * [Rewriting my blog in Rust for fun and profit](https://www.jonashietala.se/blog/2022/08/29/rewriting_my_blog_in_rust_for_fun_and_profit/)
 * [Building A Gamedev Maths Library In Rust From Scratch – Alex Dixon](https://www.polymonster.co.uk/blog/maths-rs)
 * [Pattern Matching and Backwards Compatibility](https://seanmonstar.com/post/693574545047683072/pattern-matching-and-backwards-compatibility)
+* [Writing FreeBSD Kernel Modules in Rust](https://research.nccgroup.com/2022/08/31/writing-freebsd-kernel-modules-in-rust/)
 * [series] [Ruxel - Building a Ray Tracer with Rust Part 1](https://rsdlt.github.io/posts/ruxel-part-1-rust-ray-tracer-renderer-3d-development/)
 
 * [video] [Using Rust to understand The Little Schemer](https://www.youtube.com/watch?v=J2GCw5oYiHU)
