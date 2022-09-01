@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 * [argmin 0.7.0 and argmin-math 0.2.0 released](http://argmin-rs.org/blog/version-v0-7-0/)
 * [Update-informer v0.5.0](https://www.mgrachev.com/2022/08/29/update-informer-v050/)
 * [This week in Databend #57: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-08-31-databend-weekly/)
+* [HexoSynth 2022 - Devlog #11: VST3/CLAP Plugin Integration](https://m8geil.de/posts/hexosynth-11/)
 
 ### Observations/Thoughts
 * [Solving The Witness with Z3 (Part 1)](https://www.techofnote.com/witness-part-1)
