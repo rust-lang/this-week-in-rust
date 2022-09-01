@@ -142,7 +142,7 @@ Rusty Events between 2022-08-31 - 2022-09-28 🦀
     * [**Rust Meetup September 2022**](https://discord.gg/9Xj8H2EXTD)
 * 2022-09-14 | Virtual (Sydney, NSW, AU) | [Rust Sydney](https://www.meetup.com/rust-sydney/)
     * [**Rust-Sydney Lightning Talks**](https://www.meetup.com/rust-sydney/events/287979855/)
-* 2022-09-15 | Virtual (Columbus , OH, US) | [GDG Columbus](https://www.meetup.com/gdg-columbus/)
+* 2022-09-15 | Virtual (Columbus, OH, US) | [GDG Columbus](https://www.meetup.com/gdg-columbus/)
     * [**Past, Present, and Future of Internet Money! (Custom tokenomics, RUST and CosmWASM library...)**](https://www.meetup.com/gdg-columbus/events/287972746/)
 * 2022-09-20 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
     * [**Mid-month Rustful: Bencher—Catch Performance Regressions in CI—Everett Pompeii**](https://www.meetup.com/rustdc/events/287004599/)
