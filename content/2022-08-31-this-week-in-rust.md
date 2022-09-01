@@ -328,4 +328,4 @@ Thanks to [Erich Gubler](https://users.rust-lang.org/t/twir-quote-of-the-week/32
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/x2wezn/this_week_in_rust_458/)</small>
