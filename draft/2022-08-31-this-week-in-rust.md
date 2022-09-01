@@ -62,8 +62,10 @@ and just ask the editors to select the category.
 * [Pattern Matching and Backwards Compatibility](https://seanmonstar.com/post/693574545047683072/pattern-matching-and-backwards-compatibility)
 * [Writing FreeBSD Kernel Modules in Rust](https://research.nccgroup.com/2022/08/31/writing-freebsd-kernel-modules-in-rust/)
 * [series] [Ruxel - Building a Ray Tracer with Rust Part 1](https://rsdlt.github.io/posts/ruxel-part-1-rust-ray-tracer-renderer-3d-development/)
+* [series] [STM32F4 Embedded Rust at the HAL: Timer Interrupts - Part 2](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-timer-interrupts)
 * [video] [Using Rust to understand The Little Schemer](https://www.youtube.com/watch?v=J2GCw5oYiHU)
 * [video] [Building a Rust Multithreaded Web Server (chapter 20 of Rust Book)](https://www.youtube.com/watch?v=muTFcUVq-vo)
+* [video] [Unsafe Rust is not C](https://www.youtube.com/watch?v=DG-VLezRkYQ)
 
 ### Research
 
@@ -308,7 +310,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/wm0k6q/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
