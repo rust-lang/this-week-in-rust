@@ -132,8 +132,8 @@ Rusty Events between 2022-08-31 - 2022-09-28 🦀
     * [**Rust GameDev Monthly Meetup**](https://discord.gg/yNtPTb2&sa=D&source=calendar&usd=2&usg=AOvVaw2pjyb-YBsl99IFDmrOKoOK)
 * 2022-09-10 | Virtual (Bangalore, IN) | [Polkadot India](https://www.meetup.com/polkadot-india/)
     * [**Substrate Saturday - Bootcamp Series 2: Fundamentals of Rust & Substrate**](https://www.meetup.com/polkadot-india/events/287059979/)
-* 2022-09-12 | Virtual + Dublin, IE | [Linux Plumbers Conference (Sep 12-14)](https://lpc.events)
-    * [**Rust Microconference in LPC 2022**](https://lpc.events/event/16/sessions/150/)
+* 2022-09-12 | Virtual + Dublin, IE | [Linux Plumbers Conference](https://lpc.events)
+    * [**Rust Microconference in LPC 2022 (Sep 12-14)**](https://lpc.events/event/16/sessions/150/)
 * 2022-09-13 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
     * [**Second Tuesday**](https://www.meetup.com/dallas-rust/events/vndgwsydcmbrb/)
 * 2022-09-13 | Virtual (Rostock, DE) | [Altow Academy](https://www.meetup.com/altow-academy/)
@@ -159,8 +159,8 @@ Rusty Events between 2022-08-31 - 2022-09-28 🦀
 
 * 2022-09-01 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust and Tell - BBQ Edition**](https://www.meetup.com/rust-berlin/events/287813728/)
-* 2022-09-12 | Dublin, IE + Virtual | [Linux Plumbers Conference (Sep 12-14)](https://lpc.events)
-    * [**Rust Microconference in LPC 2022**](https://lpc.events/event/16/sessions/150/)
+* 2022-09-12 | Dublin, IE + Virtual | [Linux Plumbers Conference](https://lpc.events)
+    * [**Rust Microconference in LPC 2022 (Sep 12-14)**](https://lpc.events/event/16/sessions/150/)
 * 2022-09-15 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/)
     * [**Rust Paris meetup #52**](https://www.meetup.com/rust-paris/events/288136736/)
 
