@@ -251,8 +251,6 @@ Rusty Events between 2022-08-31 - 2022-09-28 🦀
     * [**Rust Meetup September 2022**](https://discord.gg/9Xj8H2EXTD)
 * 2022-09-14 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
     * [**Introduction to Async in Rust**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/288154493/)
-* 2022-09-14 | Virtual (Sydney, NSW, AU) | [Rust Sydney](https://www.meetup.com/rust-sydney/)
-    * [**Rust-Sydney Lightning Talks**](https://www.meetup.com/rust-sydney/events/287979855/)
 * 2022-09-15 | Virtual (Columbus, OH, US) | [GDG Columbus](https://www.meetup.com/gdg-columbus/)
     * [**Past, Present, and Future of Internet Money! (Custom tokenomics, RUST and CosmWASM library...)**](https://www.meetup.com/gdg-columbus/events/287972746/)
 * 2022-09-20 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
@@ -281,6 +279,11 @@ Rusty Events between 2022-08-31 - 2022-09-28 🦀
     * [**August Meetup: Rewriting a high performance Vector Database in Rust.**](https://www.meetup.com/rust-nyc/events/287821884/)
 * 2022-09-01 | Phoenix, AZ, US | [Phoenix Android - GDG](https://www.meetup.com/phx-android/)
     * [**Phoenix: Rust Day on Google Open Source Live Viewing party**](https://www.meetup.com/phx-android/events/288147058/) | [Main event link](https://opensourcelive.withgoogle.com/events/rust-day-2022)
+
+### Oceania
+
+* 2022-09-14 | Sydney, NSW, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/)
+    * [**Rust-Sydney Lightning Talks**](https://www.meetup.com/rust-sydney/events/287979855/)
 
 ### South America
 
