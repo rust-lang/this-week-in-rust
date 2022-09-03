@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Arti 1.0.0 is released: Our Rust Tor implementation is ready for production use](https://blog.torproject.org/arti_100_released/)
 
 ### Observations/Thoughts
 
