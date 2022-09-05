@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Learning Rust: Async Combinators](https://kerkour.com/rust-async-combinators)
+
 ### Research
 
 ### Miscellaneous
