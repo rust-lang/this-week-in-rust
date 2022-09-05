@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+[Lapce editor 0.2.0 released](https://github.com/lapce/lapce/releases/tag/v0.2.0)
 
 ### Observations/Thoughts
 
