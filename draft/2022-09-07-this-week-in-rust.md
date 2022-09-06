@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [sql-query-builder](https://crates.io/crates/sql_query_builder), a library to write SQL queries in a simple and composable way.
+
+Thanks to [Belchior Oliveira](https://users.rust-lang.org/t/crate-of-the-week/2704/1102) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -64,7 +66,89 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+417 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-08-29..2022-09-05
+
+* [add tier-3 support for powerpc64 and riscv64 openbsd](https://github.com/rust-lang/rust/pull/101025)
+* [support `#[unix_sigpipe = "inherit|sig_dfl"]` on `fn main()` to prevent ignoring `SIGPIPE`](https://github.com/rust-lang/rust/pull/97802)
+* [proc\_macro/bridge: send diagnostics over the bridge as a struct](https://github.com/rust-lang/rust/pull/100210)
+* [proc\_macro/bridge: use the cross-thread executor for nested proc-macros](https://github.com/rust-lang/rust/pull/101414)
+* [do not leak type variables from opaque type relation](https://github.com/rust-lang/rust/pull/99928)
+* [attempt to normalize `FnDef` signature in `InferCtxt::cmp`](https://github.com/rust-lang/rust/pull/100473)
+* [do not report too many expr field candidates](https://github.com/rust-lang/rust/pull/100898)
+* [do not suggest adding `move` to closure when `move` is already used](https://github.com/rust-lang/rust/pull/101285)
+* [don't suggest reborrow if usage is inside a closure](https://github.com/rust-lang/rust/pull/101429)
+* [suggest `{Option,Result}::{copied,clone}()` to satisfy type mismatch](https://github.com/rust-lang/rust/pull/101367)
+* [suggest associated method on deref types when path syntax method fails](https://github.com/rust-lang/rust/pull/100302)
+* [suggest moving redundant generic args of an assoc fn to its trait](https://github.com/rust-lang/rust/pull/100838)
+* [suggest returning closure as `impl Fn`](https://github.com/rust-lang/rust/pull/101019)
+* [add `special_module_name` lint](https://github.com/rust-lang/rust/pull/94467)
+* [uplift the `let_underscore` lints from clippy into rustc](https://github.com/rust-lang/rust/pull/97739)
+* [strengthen `invalid_value` lint to forbid uninit primitives, adjust docs to say that's UB](https://github.com/rust-lang/rust/pull/98919)
+* [forbid mixing `System` with direct sytem allocator calls](https://github.com/rust-lang/rust/pull/101394)
+* [use head span for `rustc_on_unimplemented`'s `enclosing_scope` attr](https://github.com/rust-lang/rust/pull/101296)
+* [make call suggestions more general and more accurate](https://github.com/rust-lang/rust/pull/101100)
+* [make trait bound not satisfied specify kind](https://github.com/rust-lang/rust/pull/100647)
+* [miri: adjust for supporting more implicit ptr-to-int transmutation](https://github.com/rust-lang/miri/pull/2516)
+* [miri: re-enable FFI support](https://github.com/rust-lang/miri/pull/2529)
+* [allow deriving multipart suggestions](https://github.com/rust-lang/rust/pull/100970)
+* [replace `rustc_data_structures::thin_vec::ThinVec` with `thin_vec::ThinVec`](https://github.com/rust-lang/rust/pull/100869)
+* [separate the receiver from arguments in HIR](https://github.com/rust-lang/rust/pull/101261)
+* [shrink `thir::Pat`](https://github.com/rust-lang/rust/pull/101139)
+* [shrink suggestion span of argument mismatch error](https://github.com/rust-lang/rust/pull/101364)
+* [simplify `hir::PathSegment`](https://github.com/rust-lang/rust/pull/101228)
+* [interpret: fix unnecessary allocation in validation visitor](https://github.com/rust-lang/rust/pull/101154)
+* [more `clippy::perf` fixes](https://github.com/rust-lang/rust/pull/101391)
+* [optimization of access level table construction](https://github.com/rust-lang/rust/pull/100147)
+* [migrate `rustc_session` to use `SessionDiagnostic` - Pt. 1](https://github.com/rust-lang/rust/pull/100753)
+* [migrate `rustc_metadata` to `SessionDiagnostics`](https://github.com/rust-lang/rust/pull/100928)
+* [migrate `rustc_monomorphize` to use `SessionDiagnostic`](https://github.com/rust-lang/rust/pull/100730)
+* [porting 'compiler/rustc_trait_selection' to translatable diagnostics - Part 1](https://github.com/rust-lang/rust/pull/100814)
+* [fix UB from misalignment and provenance widening in `std::sys::windows`](https://github.com/rust-lang/rust/pull/101171)
+* [avoid needless buffer zeroing in `std::sys::windows::fs`](https://github.com/rust-lang/rust/pull/101236)
+* [avoid zeroing large stack buffers in stdio on Windows](https://github.com/rust-lang/rust/pull/101193)
+* [add `AsFd` implementations for stdio types on WASI](https://github.com/rust-lang/rust/pull/100892)
+* [implement internal `IsZero` for Wrapping and Saturating for `Vec` optimizations](https://github.com/rust-lang/rust/pull/93455)
+* [add `vec::Drain{,Filter}::keep_rest`](https://github.com/rust-lang/rust/pull/95376)
+* [fix `into_iter` on ZST](https://github.com/rust-lang/rust/pull/101237)
+* [provider API: add additional methods to the `Demand` type](https://github.com/rust-lang/rust/pull/99583)
+* [make `ReentrantMutex` movable and `const`](https://github.com/rust-lang/rust/pull/100576)
+* [make `char::is_lowercase` and `char::is_uppercase` const](https://github.com/rust-lang/rust/pull/101401)
+* [make `const_eval_select` a real intrinsic](https://github.com/rust-lang/rust/pull/100759)
+* [hashbrown: `Equivalent` trait](https://github.com/rust-lang/hashbrown/pull/350)
+* [cargo: rework test error handling](https://github.com/rust-lang/cargo/pull/11028)
+* [clippy: add `--explain` subcommand](https://github.com/rust-lang/rust-clippy/pull/8952)
+* [clippy: new lint `bool_to_int_with_if`](https://github.com/rust-lang/rust-clippy/pull/9412)
+* [clippy: initial implementation `result_large_err`](https://github.com/rust-lang/rust-clippy/pull/9373)
+* [clippy: don't use `hir_ty_to_ty` in `result_large_err`](https://github.com/rust-lang/rust-clippy/pull/9417)
+* [clippy: use `approx_ty_size` for `large_enum_variant`](https://github.com/rust-lang/rust-clippy/pull/9400)
+* [clippy: fix `mut_mutex_lock` when mutex is behind immutable deref](https://github.com/rust-lang/rust-clippy/pull/9418)
+* [clippy: fix `suboptimal_float` not linting on `{const}.powf({const})`](https://github.com/rust-lang/rust-clippy/pull/9404)
+* [clippy: fix `unnecessary_to_owned` false positive](https://github.com/rust-lang/rust-clippy/pull/9424)
+* [clippy: fix missing parens in `suboptimal_flops` suggestion](https://github.com/rust-lang/rust-clippy/pull/9394)
+* [clippy: fix the emission order of `trait_duplication_in_bounds`](https://github.com/rust-lang/rust-clippy/pull/9397)
+* [clippy: suggest `Entry::or_default` for `Entry::or_insert(Default::default())`](https://github.com/rust-lang/rust-clippy/pull/9342)
+* [rust-analyzer: clarify the state of (extern) preludes for block def maps](https://github.com/rust-lang/rust-analyzer/pull/13175)
+* [rust-analyzer: don't store `SyntheticSyntax` in the reverse maps in `BodySourceMap`](https://github.com/rust-lang/rust-analyzer/pull/13173)
+* [rust-analyzer: drop the expander borrow in all control flow paths](https://github.com/rust-lang/rust-analyzer/pull/13154)
+* [rust-analyzer: fix nested break expressions, expecting unknown types](https://github.com/rust-lang/rust-analyzer/pull/13183)
+* [rust-analyzer: highlight namerefs by syntax until proc-macros have been loaded](https://github.com/rust-lang/rust-analyzer/pull/13134)
+* [rust-analyzer: lift out the module scope into a field in the resolver](https://github.com/rust-lang/rust-analyzer/pull/13174)
+* [rust-analyzer: prefer the type of expression in "Replace turbofish with type"](https://github.com/rust-lang/rust-analyzer/pull/13151)
+* [rust-analyzer: properly handle break resolution inside non-breakable expressions](https://github.com/rust-lang/rust-analyzer/pull/13165)
+* [rust-analyzer: remove `hir::Expr::MacroStmts`](https://github.com/rust-lang/rust-analyzer/pull/13156)
+* [rust-analyzer: remove type alias definition on inline](https://github.com/rust-lang/rust-analyzer/pull/13091)
+* [rust-analyzer: suggest struct when completing enum](https://github.com/rust-lang/rust-analyzer/pull/13139)
+* [rust-analyzer: add a "Unmerge match arm" assist to split or-patterns inside match expressions](https://github.com/rust-lang/rust-analyzer/pull/13145)
+* [rust-analyzer: implement `feature(exhaustive_patterns)` from unstable Rust](https://github.com/rust-lang/rust-analyzer/pull/13167)
+* [rust-analyzer: assist to turn `match` into `matches!` invocation](https://github.com/rust-lang/rust-analyzer/pull/13005)
+* [rust-analyzer: insert whitespaces into `static` & `const` bodies if they are expanded from macro on hover](https://github.com/rust-lang/rust-analyzer/pull/13185)
+* [rust-analyzer: lower float literals with underscores](https://github.com/rust-lang/rust-analyzer/pull/13161)
+* [rust-analyzer: only move comments when extracting a struct from an enum variant](https://github.com/rust-lang/rust-analyzer/pull/13051)
+* [rust-analyzer: parse `TypePathFn` with preceding `::`](https://github.com/rust-lang/rust-analyzer/pull/13160)
+* [rust-analyzer: correct broken logic for return completion](https://github.com/rust-lang/rust-analyzer/pull/13187)
+* [rust-analyzer: unescape all occurrences of module name in module resolution](https://github.com/rust-lang/rust-analyzer/pull/13149)
 
 ### Rust Compiler Performance Triage
 
@@ -178,7 +262,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> So long, and thanks for all the turbofish.
+
+– [moltonel on r/rust](https://www.reddit.com/r/rust/comments/wzuoqz/comment/im4pek6)
+
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1286) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
