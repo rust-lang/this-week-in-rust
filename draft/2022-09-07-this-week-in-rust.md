@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [One year of Relm4](https://relm4.org/blog/posts/one_year_of_relm4/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
