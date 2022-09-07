@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [How to Use Rust Traits, Generics and Bounds](https://rsdlt.github.io/posts/rust-trait-super-generic-polymorphism-subtrait-supertrait-bounds/)
 
 ### Rust Walkthroughs
 
