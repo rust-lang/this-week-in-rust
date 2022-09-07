@@ -35,6 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Arti 1.0.0 is released: Our Rust Tor implementation is ready for production use](https://blog.torproject.org/arti_100_released/)
+* [HexoSynth 2022 - Devlog #11: VST3/CLAP Plugin Integration](https://m8geil.de/posts/hexosynth-11/)
 
 ### Observations/Thoughts
 * [How to Use Rust Traits, Generics and Bounds](https://rsdlt.github.io/posts/rust-trait-super-generic-polymorphism-subtrait-supertrait-bounds/)
