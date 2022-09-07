@@ -147,6 +147,8 @@ Rusty Events between 2022-09-07 - 2022-10-05 🦀
     * [**Rust Microconference in LPC 2022 (Sep 12-14)**](https://lpc.events/event/16/sessions/150/)
 * 2022-09-15 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/)
     * [**Rust Paris meetup #52**](https://www.meetup.com/rust-paris/events/288136736/)
+* 2022-10-03 | Florence, IT + Virtual | [RustLab](https://rustlab.it/)
+    * [**RustLab Conference 2022 (Oct 2-4)**](https://rustlab.it/schedule/)
 
 ### North America
 
