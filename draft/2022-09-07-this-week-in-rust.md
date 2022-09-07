@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 * [Learning Rust: Async Combinators](https://kerkour.com/rust-async-combinators)
 
+* [video] [Nine Rules for Elegant Rust Library APIs](https://www.youtube.com/watch?v=6-8-9ZV-2WQ)
+
 ### Research
 
 ### Miscellaneous
