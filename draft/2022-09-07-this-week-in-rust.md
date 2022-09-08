@@ -34,11 +34,19 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-[Lapce editor 0.2.0 released](https://github.com/lapce/lapce/releases/tag/v0.2.0)
+
+* [Arti 1.0.0 is released: Our Rust Tor implementation is ready for production use](https://blog.torproject.org/arti_100_released/)
+
+* [Lapce editor 0.2.0 released](https://github.com/lapce/lapce/releases/tag/v0.2.0)
 
 ### Observations/Thoughts
+* [How to Use Rust Traits, Generics and Bounds](https://rsdlt.github.io/posts/rust-trait-super-generic-polymorphism-subtrait-supertrait-bounds/)
 
 ### Rust Walkthroughs
+
+* [Learning Rust: Async Combinators](https://kerkour.com/rust-async-combinators)
+
+* [video] [Nine Rules for Elegant Rust Library APIs](https://www.youtube.com/watch?v=6-8-9ZV-2WQ)
 
 ### Research
 
@@ -142,6 +150,8 @@ Rusty Events between 2022-09-07 - 2022-10-05 🦀
     * [**Rust Microconference in LPC 2022 (Sep 12-14)**](https://lpc.events/event/16/sessions/150/)
 * 2022-09-15 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/)
     * [**Rust Paris meetup #52**](https://www.meetup.com/rust-paris/events/288136736/)
+* 2022-10-03 | Florence, IT + Virtual | [RustLab](https://rustlab.it/)
+    * [**RustLab Conference 2022 (Oct 2-4)**](https://rustlab.it/schedule/)
 
 ### North America
 
