@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Random File Lines and Iterator Items: Understanding Reservoir Sampling with Rust](https://towardsdatascience.com/interview-question-select-a-random-line-from-a-file-in-rust-c0a8cddcddfb)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
