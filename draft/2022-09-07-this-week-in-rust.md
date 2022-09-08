@@ -30,26 +30,40 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Hello JFrog!](https://foundation.rust-lang.org/news/2022-09-06-hello-jfrog/)
 
 ### Newsletters
+* [This Month in Rust OSDev: August 2022](https://rust-osdev.com/this-month/2022-08/)
 
 ### Project/Tooling Updates
+* [Announcing Unreal Rust](https://maikklein.github.io/unreal-rust-1/)
+* [Introducing `cxx-async`](https://pcwalton.github.io/_posts/2022-08-19-introducing-cxx-async.html)
 * [Arti 1.0.0 is released: Our Rust Tor implementation is ready for production use](https://blog.torproject.org/arti_100_released/)
+* [rust-analyzer changelog #145](https://rust-analyzer.github.io/thisweek/2022/09/05/changelog-145.html)
+* [rustc_codegen_gcc: Progress Report #15](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-15)
 * [This week in Databend #58: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-09-07-databend-weekly/)
 * [HexoSynth 2022 - Devlog #11: VST3/CLAP Plugin Integration](https://m8geil.de/posts/hexosynth-11/)
 
 ### Observations/Thoughts
 * [How to Use Rust Traits, Generics and Bounds](https://rsdlt.github.io/posts/rust-trait-super-generic-polymorphism-subtrait-supertrait-bounds/)
+* [Wasmtime 1.0: A Look at Performance](https://bytecodealliance.org/articles/wasmtime-10-performance)
+* [Understanding primitive data types in Rust](https://blog.logrocket.com/understanding-primitive-data-types-rust/)
+* [video] [RustConf 2022 Talks](https://www.youtube.com/playlist?list=PL85XCvVPmGQhXeH3QiYct6eMLH1un1dcu)
+* [video] [Rust Education Workshop 2022](https://www.youtube.com/playlist?list=PL85XCvVPmGQhVCcPkmgbMUfJv4iGVixj-)
+* [audio] [Fyrox with Dmitry Stepanov](https://rustacean-station.org/episode/dmitry-stepanov/)
 
 ### Rust Walkthroughs
-
+* [Filtering a Vector with SIMD Instructions (AVX-2 and AVX-512)](https://quickwit.io/blog/filtering%20a%20vector%20with%20simd%20instructions%20avx-2%20and%20avx-512/)
 * [Learning Rust: Async Combinators](https://kerkour.com/rust-async-combinators)
-
+* [Solving The Witness with Z3 (Part 2)](https://www.techofnote.com/witness-part-2)
+* [How to build a (simple) blog using Rust](https://mortenvistisen.com/posts/how-to-build-a-simple-blog-using-rust)
+* [STM32F4 Embedded Rust at the HAL: The RTIC Framework](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-the-rtic-framework)
 * [video] [Nine Rules for Elegant Rust Library APIs](https://www.youtube.com/watch?v=6-8-9ZV-2WQ)
 
 ### Research
 
 ### Miscellaneous
+* [DE] [Security: FreeBSD-Kernel bekommt experimentelle Rust-Patches](https://www.golem.de/news/security-freebsd-kernel-bekommt-experimentelle-rust-patches-2209-168027.html)
 
 * [Random File Lines and Iterator Items: Understanding Reservoir Sampling with Rust](https://towardsdatascience.com/interview-question-select-a-random-line-from-a-file-in-rust-c0a8cddcddfb)
 
