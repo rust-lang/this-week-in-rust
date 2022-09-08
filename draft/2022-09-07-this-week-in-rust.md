@@ -43,9 +43,8 @@ and just ask the editors to select the category.
 * [rustc_codegen_gcc: Progress Report #15](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-15)
 * [This week in Databend #58: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-09-07-databend-weekly/)
 * [HexoSynth 2022 - Devlog #11: VST3/CLAP Plugin Integration](https://m8geil.de/posts/hexosynth-11/)
-
+* [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W36](https://www.fornjot.app/blog/weekly-release/2022-w36/)
 * [One year of Relm4](https://relm4.org/blog/posts/one_year_of_relm4/)
-
 * [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-09-05.html)
 
 ### Observations/Thoughts
