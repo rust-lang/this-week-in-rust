@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 * [One year of Relm4](https://relm4.org/blog/posts/one_year_of_relm4/)
 
+* [Slint UI crate weekly updates](https://slint-ui.com/thisweek/2022-09-05.html)
+
 ### Observations/Thoughts
 * [How to Use Rust Traits, Generics and Bounds](https://rsdlt.github.io/posts/rust-trait-super-generic-polymorphism-subtrait-supertrait-bounds/)
 * [Wasmtime 1.0: A Look at Performance](https://bytecodealliance.org/articles/wasmtime-10-performance)
