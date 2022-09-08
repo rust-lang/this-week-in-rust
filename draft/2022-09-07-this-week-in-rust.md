@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 * [This week in Databend #58: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-09-07-databend-weekly/)
 * [HexoSynth 2022 - Devlog #11: VST3/CLAP Plugin Integration](https://m8geil.de/posts/hexosynth-11/)
 
+* [One year of Relm4](https://relm4.org/blog/posts/one_year_of_relm4/)
+
 ### Observations/Thoughts
 * [How to Use Rust Traits, Generics and Bounds](https://rsdlt.github.io/posts/rust-trait-super-generic-polymorphism-subtrait-supertrait-bounds/)
 * [Wasmtime 1.0: A Look at Performance](https://bytecodealliance.org/articles/wasmtime-10-performance)
