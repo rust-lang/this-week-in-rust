@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 * [Arti 1.0.0 is released: Our Rust Tor implementation is ready for production use](https://blog.torproject.org/arti_100_released/)
 * [rust-analyzer changelog #145](https://rust-analyzer.github.io/thisweek/2022/09/05/changelog-145.html)
 * [rustc_codegen_gcc: Progress Report #15](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-15)
+* [Lapce editor 0.2.0 released](https://github.com/lapce/lapce/releases/tag/v0.2.0)
 * [This week in Databend #58: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-09-07-databend-weekly/)
 * [HexoSynth 2022 - Devlog #11: VST3/CLAP Plugin Integration](https://m8geil.de/posts/hexosynth-11/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W36](https://www.fornjot.app/blog/weekly-release/2022-w36/)
