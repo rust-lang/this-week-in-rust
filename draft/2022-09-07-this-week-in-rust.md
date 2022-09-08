@@ -201,15 +201,48 @@ Revision range: [0631ea5d73..09fb0bc6e](https://perf.rust-lang.org/?start=0631ea
 
 [Full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-09-06.md)
 
-### Call for Testing
-
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* *No RFCs issued a call for testing this week.*
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
+
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* *No RFCs were approved this week.*
+
+### Final Comment Period
+
+Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
+which are reaching a decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* [disposition: merge] [De-RFC: Remove type ascription](https://github.com/rust-lang/rfcs/pull/3307)
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: merge] [Stabilize generic associated types](https://github.com/rust-lang/rust/pull/96709)
+* [disposition: merge] [Fix handling of trailing bare CR in str::lines](https://github.com/rust-lang/rust/pull/100311)
+* [disposition: merge] [Implement Default for some alloc/core iterators](https://github.com/rust-lang/rust/pull/99929)
+* [disposition: merge] [Tracking Issue for `#[instruction_set]` attribute (RFC 2867)](https://github.com/rust-lang/rust/issues/74727)
+* [disposition: merge] [Consider `#[must_use]` annotation on `async fn` as also affecting the `Future::Output`](https://github.com/rust-lang/rust/pull/100633)
+* [disposition: merge] [Tracking issue for `..X`, and `..=X` (`#![feature(half_open_range_patterns)]`)](https://github.com/rust-lang/rust/issues/67264)
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* [new] [RFC: Add descriptive names to doctest](https://github.com/rust-lang/rfcs/pull/3311)
+* [new] [Add a general mechanism of setting RUSTFLAGS in Cargo for the root crate only](https://github.com/rust-lang/rfcs/pull/3310)
+* [new] [Rust Style Team](https://github.com/rust-lang/rfcs/pull/3309)
+* [new] [Add `core::mem::offset_of!` RFC](https://github.com/rust-lang/rfcs/pull/3308)
 
 ## Upcoming Events
 
