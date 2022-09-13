@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Chat Blast! A TCP chat server in Rust](https://www.superperfundo.tech/articles/chat-blast)
+
 ### Research
 
 ### Miscellaneous
