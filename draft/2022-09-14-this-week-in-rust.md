@@ -53,10 +53,17 @@ and just ask the editors to select the category.
 
 ## Call for Participation
 
+<!-- note for editor: links included through here: https://users.rust-lang.org/t/twir-call-for-participation/4821/462 -->
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
+
+* [Ockam - Support TCP keepalive for TCP clients](https://github.com/build-trust/ockam/issues/3450)
+* [Ockam - Show ockam command help in $PAGER or less (clap based)](https://github.com/build-trust/ockam/issues/3434)
+* [Ockam - Implement ockam reset clap command](https://github.com/build-trust/ockam/issues/3454)
+* [lib3mf - Help compiling the upstream C++ library on Windows](https://github.com/Michael-F-Bryan/lib3mf/issues/1)
+* [Artichoke Ruby - Help migrate more path helpers out of its monolith into a support crate.](https://github.com/artichoke/artichoke/issues/2179)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
