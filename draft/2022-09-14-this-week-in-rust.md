@@ -36,7 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [rust-analyzer changelog #146](https://rust-analyzer.github.io//thisweek/2022/09/12/changelog-146.html)
+* [rust-analyzer changelog #146](https://rust-analyzer.github.io/thisweek/2022/09/12/changelog-146.html)
 * [IntelliJ Rust Changelog #178](https://intellij-rust.github.io/2022/09/12/changelog-178.html)
 * [Fornjot - Weekly Release - 2022-W37](https://www.fornjot.app/blog/weekly-release/2022-w37/)
 * [A byte string library for Rust](https://blog.burntsushi.net/bstr/)
