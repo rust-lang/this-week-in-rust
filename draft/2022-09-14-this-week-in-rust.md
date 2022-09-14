@@ -122,14 +122,16 @@ Rusty Events between 2022-09-14 - 2022-10-12 🦀
     * [**Rust GameDev Monthly Meetup**](https://discord.gg/yNtPTb2&sa=D&source=calendar&usd=2&usg=AOvVaw2pjyb-YBsl99IFDmrOKoOK)
 * 2022-10-12 | Virtual (Boulder, CO, US) | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
     * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydcnbqb/)
+* 2022-10-12 | Virtual (San Francisco, CA, US) | [Microsoft Reactor San Francisco](https://www.meetup.com/microsoft-reactor-san-francisco/)
+    * [**Getting Started with Rust: Building Rust Projects**](https://www.meetup.com/microsoft-reactor-san-francisco/events/288475796/)
 
 ### Europe
 
 * 2022-09-15 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/)
     * [**Rust Paris meetup #52**](https://www.meetup.com/rust-paris/events/288136736/)
 * 2022-09-27 | Nijmegen, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
-    * [**Rust at RU (regular track)**](https://www.meetup.com/rust-nederland/events/288376119/)
-    * [**Rust at RU (student track)**](https://www.meetup.com/rust-nederland/events/288440591/)
+    * [**Regular track: Rust at RU**](https://www.meetup.com/rust-nederland/events/288376119/)
+    * [**Student track: Rust at RU**](https://www.meetup.com/rust-nederland/events/288440591/)
 * 2022-09-28 | London, UK + Virtual | [Rust London User Group](https://www.meetup.com/Rust-London-User-Group/)
     * [**Rust (Hybrid) Hack & Learn September 2022**](https://www.meetup.com/rust-london-user-group/events/288436078/)
 * 2022-09-29 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group/)
