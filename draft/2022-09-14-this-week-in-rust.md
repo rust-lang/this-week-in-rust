@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Learning Rust by implementing a SHA-1 hash cracker](https://kerkour.com/learning-rust-sha1-hash-cracker)
+
 ### Research
 
 ### Miscellaneous
