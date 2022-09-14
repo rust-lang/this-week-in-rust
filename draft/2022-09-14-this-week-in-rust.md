@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [Security and Correctness in Wasmtime](https://bytecodealliance.org/articles/security-and-correctness-in-wasmtime)
 * [Attacking Firecracker: AWS' microVM Monitor Written in Rust](https://www.graplsecurity.com/post/attacking-firecracker)
 * [&stress about &Strings](https://cooscoos.github.io/blog/stress-about-strings/)
+* [A pair of Rust kernel modules](https://lwn.net/SubscriberLink/907685/75fc924f5ec91869/)
 * [video] [Coroutines: C++ vs Rust - Jonathan Müller - C++ on Sea 2022](https://www.youtube.com/watch?v=yt-gueRNCTU)
 * [video] [Rust on Rails (write code that never crashes)](https://www.youtube.com/watch?v=sbVxq7nNtgo)
 * [video] [Let's Code Asteroids in Rust with a First-Time Bevy User](https://www.youtube.com/watch?v=QCys49c44PU)
