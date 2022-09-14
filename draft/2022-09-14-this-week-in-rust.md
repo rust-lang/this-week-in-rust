@@ -28,7 +28,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-* [Security advisories for Cargo (CVE-2022-36113, CVE-2022-36114) | Ru...](https://blog.rust-lang.org/2022/09/14/cargo-cves.html)
+* [Security advisories for Cargo (CVE-2022-36113, CVE-2022-36114)](https://blog.rust-lang.org/2022/09/14/cargo-cves.html)
 
 ### Foundation
 * [Rust Foundation Establishes Security Team to Support and Advance Rust Programming Language](https://foundation.rust-lang.org/news/2022-09-13-rust-foundation-establishes-security-team/)
