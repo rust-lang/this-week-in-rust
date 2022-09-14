@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [HexoSynth 2022 - Devlog #12 - Documentation for me and you](https://m8geil.de/posts/hexosynth-12/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
