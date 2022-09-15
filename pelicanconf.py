@@ -9,10 +9,10 @@ SITEURL = 'https://this-week-in-rust.org'
 
 SOURCE_URL = 'https://github.com/rust-lang/this-week-in-rust'
 
-if '1' == os.environ.get('TWIR_NEWSLETTER_THEME'):
-    THEME = 'themes/newsletter'
-else:
-    THEME = 'themes/rusted'
+# if '1' == os.environ.get('TWIR_NEWSLETTER_THEME'):
+#     THEME = 'themes/newsletter'
+# else:
+THEME = 'themes/rusted'
 
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ['assets', 'neighbors']
