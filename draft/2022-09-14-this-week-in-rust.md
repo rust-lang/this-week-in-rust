@@ -34,11 +34,15 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Slint weekly updates (The GUI framework)](https://slint-ui.com/thisweek/2022-09-12.html)
+* [Fang 0.9 - new version of the background processing framework for rust](https://fang.badykov.com/blog/fang-09-release/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W37](https://www.fornjot.app/blog/weekly-release/2022-w37/)
 
 ### Observations/Thoughts
+* [GNU `ld` Discards Section Containing Code – Section Flags are Important for ELF Files](https://phip1611.de/blog/gnu-ld-discards-section-containing-code)
 
 ### Rust Walkthroughs
+* [Speeding up incremental Rust compilation with dynamic libraries](https://robert.kra.hn/posts/2022-09-09-speeding-up-incremental-rust-compilation-with-dylibs/)
 
 ### Research
 
@@ -87,26 +91,6 @@ Rusty Events between 2022-09-14 - 2022-10-12 🦀
 
 ### Virtual
 
-* 2022-09-07 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
-    * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/285121715/)
-* 2022-09-08 | Virtual (Linz, AT) | [Rust Linz](https://www.meetup.com/Rust-Linz/)
-    * [**Workshop: Introduction To Rust For Artists - by Lisa Passing**](https://www.meetup.com/rust-linz/events/288027737/)
-* 2022-09-08 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
-    * [**Rust Nürnberg online #17**](https://www.meetup.com/rust-noris/events/hlvbvsydcmblb/)
-* 2022-09-09 | Virtual + Linz, AT | [Rust Linz](https://www.meetup.com/Rust-Linz/)
-    * [**Rust Meetup Linz - 25th Edition**](https://www.meetup.com/rust-linz/events/288048260/)
-* 2022-09-10 | Virtual | [Rust GameDev](https://gamedev.rs/)
-    * [**Rust GameDev Monthly Meetup**](https://discord.gg/yNtPTb2&sa=D&source=calendar&usd=2&usg=AOvVaw2pjyb-YBsl99IFDmrOKoOK)
-* 2022-09-10 | Virtual (Bangalore, IN) | [Polkadot India](https://www.meetup.com/polkadot-india/)
-    * [**Substrate Saturday - Bootcamp Series 2: Fundamentals of Rust & Substrate**](https://www.meetup.com/polkadot-india/events/287059979/)
-* 2022-09-12 | Virtual + Dublin, IE | [Linux Plumbers Conference](https://lpc.events)
-    * [**Rust Microconference in LPC 2022 (Sep 12-14)**](https://lpc.events/event/16/sessions/150/)
-* 2022-09-13 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin)
-    * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/288032274/)
-* 2022-09-13 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
-    * [**Second Tuesday**](https://www.meetup.com/dallas-rust/events/vndgwsydcmbrb/)
-* 2022-09-13 | Virtual (Rostock, DE) | [Altow Academy](https://www.meetup.com/altow-academy/)
-    * [**Rust Meetup Rostock**](https://www.meetup.com/altow-academy/events/286485815/)
 * 2022-09-14 | Virtual (Boulder, CO, US) | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
     * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydcmbsb/)
 * 2022-09-14 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
@@ -123,27 +107,38 @@ Rusty Events between 2022-09-14 - 2022-10-12 🦀
     * [**Rust Study/Hack/Hang-out (Call for Participation)**](https://www.meetup.com/vancouver-rust/events/285933975/)
 * 2022-09-22 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup)
     * [**Rust based Bluetooth tools (BlueR) you can use today**](https://www.meetup.com/charlottesville-rust-meetup/events/288123436/)
+* 2022-09-22 | Virtual (Tehran, IR) | [Iran Rust Meetup](https://rust-meetup.ir/)
+    * [**Rust Iran Meetup #9 - Let's Write An Async Executor**](https://rust-meetup.ir/2022/09/22/9th-meetup.html)
 * 2022-09-23 | Virtual (Tokyo, JP) | [Rust Tokyo](https://rust.tokyo)
     * [**Rust Tokyo 2022**](https://rust.tokyo/2022)
 * 2022-09-27 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
     * [**Last Tuesday**](https://www.meetup.com/dallas-rust/events/qndgwsydcmbkc/)
+* 2022-09-28 | Virtual (London, UK) | [Rust London User Group](https://www.meetup.com/Rust-London-User-Group/)
+    * [**Rust (Hybrid) Hack & Learn September 2022**](https://www.meetup.com/rust-london-user-group/events/288436078/)
 * 2022-10-04 | Virtual (Buffalo, NY, US) | [Buffalo Rust Meetup](https://www.meetup.com/buffalo-rust-meetup/)
     * [**Buffalo Rust User Group, First Tuesdays**](https://www.meetup.com/buffalo-rust-meetup/events/xgmfssydcnbgb/)
 * 2022-10-05 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/qwtdjsydcnbhb/)
 * 2022-10-05 | Virtual (Stuttgart, DE) | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
     * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/dvvtvsydcnbhb/)
+* 2022-10-06 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
+    * [**Rust Nürnberg online #18**](https://www.meetup.com/rust-noris/events/hlvbvsydcnbrb/)
+* 2022-10-08 | Virtual | [Rust GameDev](https://gamedev.rs/)
+    * [**Rust GameDev Monthly Meetup**](https://discord.gg/yNtPTb2&sa=D&source=calendar&usd=2&usg=AOvVaw2pjyb-YBsl99IFDmrOKoOK)
+* 2022-10-12 | Virtual (Boulder, CO, US) | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
+    * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydcnbqb/)
+* 2022-10-12 | Virtual (San Francisco, CA, US) | [Microsoft Reactor San Francisco](https://www.meetup.com/microsoft-reactor-san-francisco/)
+    * [**Getting Started with Rust: Building Rust Projects**](https://www.meetup.com/microsoft-reactor-san-francisco/events/288475796/)
 
 ### Europe
 
-* 2022-09-09 | Linz, AT + Virtual | [Rust Linz](https://www.meetup.com/Rust-Linz/)
-    * [**Rust Meetup Linz - 25th Edition**](https://www.meetup.com/rust-linz/events/288048260/)
-* 2022-09-12 | Dublin, IE + Virtual | [Linux Plumbers Conference](https://lpc.events)
-    * [**Rust Microconference in LPC 2022 (Sep 12-14)**](https://lpc.events/event/16/sessions/150/)
-* 2022-09-13 | Rome, IT | [Rust Roma](https://www.meetup.com/Rust-Roma/)
-    * [**Rust learning and hacking evening #Aperitech**](https://www.meetup.com/Rust-Roma/events/288323150/)
 * 2022-09-15 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/)
     * [**Rust Paris meetup #52**](https://www.meetup.com/rust-paris/events/288136736/)
+* 2022-09-27 | Nijmegen, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
+    * [**Regular track: Rust at RU**](https://www.meetup.com/rust-nederland/events/288376119/)
+    * [**Student track: Rust at RU**](https://www.meetup.com/rust-nederland/events/288440591/)
+* 2022-09-28 | London, UK + Virtual | [Rust London User Group](https://www.meetup.com/Rust-London-User-Group/)
+    * [**Rust (Hybrid) Hack & Learn September 2022**](https://www.meetup.com/rust-london-user-group/events/288436078/)
 * 2022-09-29 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group/)
     * [**Fiberplane Rust Workshop**](https://www.meetup.com/rust-amsterdam-group/events/288266277/)
 * 2022-09-29 | Copenhagen, DK | [Copenhagen Rust group](https://www.meetup.com/copenhagen-rust-meetup-group/)
@@ -152,27 +147,28 @@ Rusty Events between 2022-09-14 - 2022-10-12 🦀
     * [**Going full stack on Rust**](https://www.meetup.com/dutch-rust-meetup/events/286727064/)
 * 2022-10-02 | Florence, IT + Virtual | [RustLab](https://rustlab.it/)
     * [**RustLab Conference 2022 (Oct 2-4)**](https://rustlab.it/schedule/)
+* 2022-10-03 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/Stockholm-Rust/)
+    * [**Rust Meetup @Microsoft Reactor**](https://www.meetup.com/Stockholm-Rust/events/288453360/)
+* 2022-10-12 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/)
+    * [**Rust and Tell - EuroRust B-Sides**](https://www.meetup.com/rust-berlin/events/288175448/)
 
 ### North America
 
-* 2022-09-08 | Columbus, OH, US| [Columbus Rust Society](https://www.meetup.com/columbus-rs/)
-    * [**Monthly Meeting**](https://www.meetup.com/columbus-rs/events/dpkhgrydcmblb/)
 * 2022-09-14 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/)
     * [**Rust Lunch**](https://www.meetup.com/rust-atx/events/288287206/)
 * 2022-09-20 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/wjkjssydcmbbc/)
 * 2022-09-22 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
     * [**Game Prototyping with Rusty Engine with Nathan Stocks and Food!**](https://www.meetup.com/utah-rust/events/rvpgxsydcmbmc/)
+* 2022-09-29 | Ciudad de México, MX | [Rust MX](https://www.meetup.com/rust-mx/)
+    * [**Nuestra RustMX comunidad tiene página**](https://www.meetup.com/rust-mx/events/288388973/)
 
 ### Oceania
 
 * 2022-09-14 | Sydney, NSW, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/)
     * [**Rust-Sydney Lightning Talks**](https://www.meetup.com/rust-sydney/events/287979855/)
-
-### South America
-
-* 2022-09-10 | São Paulo, BR | [Rust São Paulo Meetup](https://www.meetup.com/rust-sao-paulo-meetup/)
-    * [**iFood Tech Day: Rust**](https://www.meetup.com/rust-sao-paulo-meetup/events/288147015/)
+* 2022-09-20 | Phillip, ACT, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/)
+    * [**September Meetup**](https://www.meetup.com/rust-canberra/events/288450836/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
