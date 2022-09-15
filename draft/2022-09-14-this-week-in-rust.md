@@ -170,7 +170,31 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+From the viewpoint of metrics gathering, this was an absolutely terrible week,
+because the vast majority of this week's report is dominated by noise. Several
+benchmarks (html5ever, cranelift-codegen, and keccak) have all been exhibiting
+bimodal behavior where their compile-times would regress and improve randomly
+from run to run. Looking past that, we had one small win from adding an inline
+directive.
+
+Triage done by **@pnkfelix**.
+Revision range: [e7cdd4c0..17cbdfd0](https://perf.rust-lang.org/?start=e7cdd4c0909b62f2ee0368fd10e6e244f2af44b4&end=17cbdfd07178349d0a3cecb8e7dde8f915666ced&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u) | mean | range | count |
+|:----------------:|:----:|:-----:|:-----:|
+| Regressions ❌ <br /> (primary) | 1.1% | [0.2%, 6.2%] | 26    |
+| Regressions ❌ <br /> (secondary) | 1.9% | [0.1%, 5.6%] | 34    |
+| Improvements ✅ <br /> (primary) | -1.8% | [-29.4%, -0.2%] | 42    |
+| Improvements ✅ <br /> (secondary) | -1.3% | [-5.3%, -0.2%] | 50    |
+| All ❌✅ (primary) | -0.7% | [-29.4%, 6.2%] | 68    |
+
+
+11 Regressions, 11 Improvements, 13 Mixed; 11 of them in rollups
+71 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-09-13.md)
 
 ### Call for Testing
 
