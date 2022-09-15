@@ -54,7 +54,7 @@ and just ask the editors to select the category.
 * [&stress about &Strings](https://cooscoos.github.io/blog/stress-about-strings/)
 * [A pair of Rust kernel modules](https://lwn.net/SubscriberLink/907685/75fc924f5ec91869/)
 * [GNU `ld` Discards Section Containing Code – Section Flags are Important for ELF Files](https://phip1611.de/blog/gnu-ld-discards-section-containing-code)
-* [Use Rust to Reduce the Size of Your SQLite Databse](https://www.i-programmer.info/programming/database/15686-use-rust-to-reduce-the-size-of-your-sqlite-database-.html) 
+* [Use Rust to Reduce the Size of Your SQLite Database](https://www.i-programmer.info/programming/database/15686-use-rust-to-reduce-the-size-of-your-sqlite-database-.html) 
 * [video] [Coroutines: C++ vs Rust - Jonathan Müller - C++ on Sea 2022](https://www.youtube.com/watch?v=yt-gueRNCTU)
 * [video] [Rust on Rails (write code that never crashes)](https://www.youtube.com/watch?v=sbVxq7nNtgo)
 * [video] [Let's Code Asteroids in Rust with a First-Time Bevy User](https://www.youtube.com/watch?v=QCys49c44PU)
