@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Stalwart Mail Server: Distributed JMAP/IMAP4 server written in Rust](https://stalw.art/jmap/)
 
 ### Observations/Thoughts
 
