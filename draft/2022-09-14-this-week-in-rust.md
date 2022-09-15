@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 * [Rust Foundation Establishes Security Team to Support and Advance Rust Programming Language](https://foundation.rust-lang.org/news/2022-09-13-rust-foundation-establishes-security-team/)
 
 ### Newsletters
+* [Rust Nigeria Issue #9](https://rustnigeria.curated.co/issues/9#start)
 
 ### Project/Tooling Updates
 * [rust-analyzer changelog #146](https://rust-analyzer.github.io/thisweek/2022/09/12/changelog-146.html)
@@ -44,7 +45,6 @@ and just ask the editors to select the category.
 * [Fang 0.9 - new version of the background processing framework for rust](https://fang.badykov.com/blog/fang-09-release/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W37](https://www.fornjot.app/blog/weekly-release/2022-w37/)
 * [This week in Databend #59: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-09-14-databend-weekly/)
-
 * [HexoSynth 2022 - Devlog #12 - Documentation for me and you](https://m8geil.de/posts/hexosynth-12/)
 
 ### Observations/Thoughts
@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 * [&stress about &Strings](https://cooscoos.github.io/blog/stress-about-strings/)
 * [A pair of Rust kernel modules](https://lwn.net/SubscriberLink/907685/75fc924f5ec91869/)
 * [GNU `ld` Discards Section Containing Code – Section Flags are Important for ELF Files](https://phip1611.de/blog/gnu-ld-discards-section-containing-code)
+* [Use Rust to Reduce the Size of Your SQLite Databse](https://www.i-programmer.info/programming/database/15686-use-rust-to-reduce-the-size-of-your-sqlite-database-.html) 
 * [video] [Coroutines: C++ vs Rust - Jonathan Müller - C++ on Sea 2022](https://www.youtube.com/watch?v=yt-gueRNCTU)
 * [video] [Rust on Rails (write code that never crashes)](https://www.youtube.com/watch?v=sbVxq7nNtgo)
 * [video] [Let's Code Asteroids in Rust with a First-Time Bevy User](https://www.youtube.com/watch?v=QCys49c44PU)
@@ -65,8 +66,9 @@ and just ask the editors to select the category.
 * [Speeding up incremental Rust compilation with dynamic libraries](https://robert.kra.hn/posts/2022-09-09-speeding-up-incremental-rust-compilation-with-dylibs/)
 * [Learning Rust by implementing a SHA-1 hash cracker](https://kerkour.com/learning-rust-sha1-hash-cracker)
 * [Chat Blast! A TCP chat server in Rust](https://www.superperfundo.tech/articles/chat-blast)
-
-### Research
+* [Concurrency in RustDb](https://rustdb.wordpress.com/2022/09/03/concurrency-in-rustdb/)
+* [Beginners guide to Solana NFTs in Rust.](https://medium.com/@jacob_62353/introduction-365296716979)
+* [STM32F4 Embedded Rust at the HAL: DMA Controllers](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-dma-controllers)
 
 ### Miscellaneous
 * [FR] [Rejoignez la communauté Rust (et devenez un "rustacé")](https://news.gandi.net/fr/2022/09/rejoignez-la-communaute-rust-devenez-rustace/)
@@ -74,7 +76,6 @@ and just ask the editors to select the category.
 * [DE] [Programmieren mit Rust für den FreeBSD-Kernel](https://www.heise.de/news/Rust-fuer-den-FreeBSD-Kernel-7255609.html)
 
 ## Crate of the Week
-
 This week's crate is [bstr](https://lib.rs/crates/bstr), a fast and featureful byte-string library.
 
 Thanks to [8573](https://users.rust-lang.org/t/crate-of-the-week/2704/1103) for the suggestion!
@@ -370,7 +371,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/wm0k6q/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
