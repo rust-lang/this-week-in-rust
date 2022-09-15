@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 * [Slint weekly updates (The GUI framework)](https://slint-ui.com/thisweek/2022-09-12.html)
 * [Fang 0.9 - new version of the background processing framework for rust](https://fang.badykov.com/blog/fang-09-release/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W37](https://www.fornjot.app/blog/weekly-release/2022-w37/)
+* [This week in Databend #59: A Modern Cloud Data Warehouse for Everyone](https://weekly.databend.rs/2022-09-14-databend-weekly/)
 
 * [HexoSynth 2022 - Devlog #12 - Documentation for me and you](https://m8geil.de/posts/hexosynth-12/)
 
