@@ -198,15 +198,51 @@ Revision range: [e7cdd4c0..17cbdfd0](https://perf.rust-lang.org/?start=e7cdd4c09
 
 [Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-09-13.md)
 
-### Call for Testing
-
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* *No RFCs issued a call for testing this week.*
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
+
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* [De-RFC: Remove type ascription](https://github.com/rust-lang/rfcs/pull/3307)
+
+### Final Comment Period
+
+Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
+which are reaching a decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* [Rust Style Team](https://github.com/rust-lang/rfcs/pull/3309)
+* [RFC: Statics in patterns](https://github.com/rust-lang/rfcs/pull/3305)
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: close] [Loosen shadowing check inside macro contexts (attempt 2).](https://github.com/rust-lang/rust/pull/100453)
+* [disposition: merge] [Tracking issue for `std::hint::black_box`](https://github.com/rust-lang/rust/issues/64102)
+* [disposition: merge] [Commit to safety rules for dyn trait upcasting](https://github.com/rust-lang/rust/issues/101336)
+* [disposition: merge] [Tracking Issue for constifying some `{BTreeMap,Set}` functions](https://github.com/rust-lang/rust/issues/71835)
+* [disposition: merge] [Tracking Issue for `Option::unzip()`](https://github.com/rust-lang/rust/issues/87800)
+* [disposition: merge] [Tracking issue for map_first_last: first/last methods on BTreeSet and BTreeMap](https://github.com/rust-lang/rust/issues/62924)
+* [disposition: merge] [Make `Sized` coinductive, again](https://github.com/rust-lang/rust/pull/100386)
+* [disposition: merge] [Neither require nor imply lifetime bounds on opaque type for well formedness](https://github.com/rust-lang/rust/pull/95474)
+* [disposition: merge] [Make typeck aware of uninhabited types](https://github.com/rust-lang/rust/pull/100288)
+* [disposition: merge] [Stabilize `let else`](https://github.com/rust-lang/rust/pull/93628)
+* [disposition: merge] [Fix `#[derive(Default)]` on a generic `#[default]` enum adding unnecessary `Default` bounds](https://github.com/rust-lang/rust/pull/101040)
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* *No New or Updated RFCs were created this week.*
 
 ## Upcoming Events
 
