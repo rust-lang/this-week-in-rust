@@ -28,29 +28,47 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Security advisories for Cargo (CVE-2022-36113, CVE-2022-36114)](https://blog.rust-lang.org/2022/09/14/cargo-cves.html)
 
 ### Foundation
+* [Rust Foundation Establishes Security Team to Support and Advance Rust Programming Language](https://foundation.rust-lang.org/news/2022-09-13-rust-foundation-establishes-security-team/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #146](https://rust-analyzer.github.io/thisweek/2022/09/12/changelog-146.html)
+* [IntelliJ Rust Changelog #178](https://intellij-rust.github.io/2022/09/12/changelog-178.html)
+* [A byte string library for Rust](https://blog.burntsushi.net/bstr/)
+* [Pomsky 0.7 released](https://pomsky-lang.org/blog/pomsky-0.7-released/)
 * [Slint weekly updates (The GUI framework)](https://slint-ui.com/thisweek/2022-09-12.html)
 * [Fang 0.9 - new version of the background processing framework for rust](https://fang.badykov.com/blog/fang-09-release/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W37](https://www.fornjot.app/blog/weekly-release/2022-w37/)
 
 ### Observations/Thoughts
+* [You Can't Do That: Abstracting over Ownership in Rust with Higher-Rank Type Bounds. Or Can You?](https://lucumr.pocoo.org/2022/9/11/abstracting-over-ownership/)
+* [Security and Correctness in Wasmtime](https://bytecodealliance.org/articles/security-and-correctness-in-wasmtime)
+* [Attacking Firecracker: AWS' microVM Monitor Written in Rust](https://www.graplsecurity.com/post/attacking-firecracker)
+* [&stress about &Strings](https://cooscoos.github.io/blog/stress-about-strings/)
+* [A pair of Rust kernel modules](https://lwn.net/SubscriberLink/907685/75fc924f5ec91869/)
 * [GNU `ld` Discards Section Containing Code – Section Flags are Important for ELF Files](https://phip1611.de/blog/gnu-ld-discards-section-containing-code)
+* [video] [Coroutines: C++ vs Rust - Jonathan Müller - C++ on Sea 2022](https://www.youtube.com/watch?v=yt-gueRNCTU)
+* [video] [Rust on Rails (write code that never crashes)](https://www.youtube.com/watch?v=sbVxq7nNtgo)
+* [video] [Let's Code Asteroids in Rust with a First-Time Bevy User](https://www.youtube.com/watch?v=QCys49c44PU)
+* [video] [Linux Plumbers Conference 2022 - Rust MC](https://www.youtube.com/watch?v=Xw9pKeJ-4Bw)
+* [video] [series] [Rust Day on Google Open Source Live](https://www.youtube.com/playlist?list=PLxNYxgaZ8Rsf8JEZufwRvsZqrRfeqFiAt)
 
 ### Rust Walkthroughs
+* [Kernighan software tools in rust](https://dannas.name/2022/09/08/Kernighan-tools-in-rust)
 * [Speeding up incremental Rust compilation with dynamic libraries](https://robert.kra.hn/posts/2022-09-09-speeding-up-incremental-rust-compilation-with-dylibs/)
-
 * [Learning Rust by implementing a SHA-1 hash cracker](https://kerkour.com/learning-rust-sha1-hash-cracker)
-
 * [Chat Blast! A TCP chat server in Rust](https://www.superperfundo.tech/articles/chat-blast)
 
 ### Research
 
 ### Miscellaneous
+* [FR] [Rejoignez la communauté Rust (et devenez un "rustacé")](https://news.gandi.net/fr/2022/09/rejoignez-la-communaute-rust-devenez-rustace/)
+* [DE] [Moderne Spieleprogrammierung mit dem Entity Component System und der Engine Bevy](https://www.heise.de/hintergrund/Moderne-Spieleprogrammierung-mit-dem-Entity-Component-System-und-der-Engine-Bevy-7257412.html)
+* [DE] [Programmieren mit Rust für den FreeBSD-Kernel](https://www.heise.de/news/Rust-fuer-den-FreeBSD-Kernel-7255609.html)
 
 ## Crate of the Week
 
