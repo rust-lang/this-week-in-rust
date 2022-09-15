@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Speeding up incremental Rust compilation with dynamic libraries](https://robert.kra.hn/posts/2022-09-09-speeding-up-incremental-rust-compilation-with-dylibs/)
 
+* [Learning Rust by implementing a SHA-1 hash cracker](https://kerkour.com/learning-rust-sha1-hash-cracker)
+
 ### Research
 
 ### Miscellaneous
