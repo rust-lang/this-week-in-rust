@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+[Fang 0.9 - new version of the background processing framework for rust](https://fang.badykov.com/blog/fang-09-release/)
 
 ### Observations/Thoughts
 * [GNU `ld` Discards Section Containing Code – Section Flags are Important for ELF Files](https://phip1611.de/blog/gnu-ld-discards-section-containing-code)
