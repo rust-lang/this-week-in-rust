@@ -34,9 +34,9 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-[Fang 0.9 - new version of the background processing framework for rust](https://fang.badykov.com/blog/fang-09-release/)
-
 * [Slint weekly updates (The GUI framework)](https://slint-ui.com/thisweek/2022-09-12.html)
+* [Fang 0.9 - new version of the background processing framework for rust](https://fang.badykov.com/blog/fang-09-release/)
+* [Fornjot (code-first CAD in Rust) - Weekly Release - 2022-W37](https://www.fornjot.app/blog/weekly-release/2022-w37/)
 
 ### Observations/Thoughts
 * [GNU `ld` Discards Section Containing Code – Section Flags are Important for ELF Files](https://phip1611.de/blog/gnu-ld-discards-section-containing-code)
