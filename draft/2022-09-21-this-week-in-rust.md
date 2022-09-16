@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [video] [Introduction to Async](https://www.youtube.com/watch?v=wBQ8KlX7glY)
+
 ### Research
 
 ### Miscellaneous
