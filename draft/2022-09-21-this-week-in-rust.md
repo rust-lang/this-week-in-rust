@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [A Strong Typing Example](https://www.thecodedmessage.com/posts/strong-typing/)
 
 ### Research
 
