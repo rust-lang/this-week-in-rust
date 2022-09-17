@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Implementing the Display Trait on a Generic Array using Newtype Pattern](https://rsdlt.github.io/posts/rust-use-newtype-pattern-display-trait-array-generics/)
 
 ### Rust Walkthroughs
 
