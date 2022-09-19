@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[Hurl 1.7.0, run and test HTTP requests with plain text](https://hurl.dev/blog/2022/09/15/announcing-hurl-1.7.0.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
