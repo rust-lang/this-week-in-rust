@@ -140,6 +140,8 @@ Rusty Events between 2022-09-21 - 2022-10-19 🦀
     * [**Rust Hack Night #29**](https://www.meetup.com/copenhagen-rust-meetup-group/events/288179100/)
 * 2022-09-29 | Enschede, NL | [Dutch Rust Meetup](https://www.meetup.com/dutch-rust-meetup/)
     * [**Going full stack on Rust**](https://www.meetup.com/dutch-rust-meetup/events/286727064/)
+* 2022-09-30 | Berlin, DE | [RustFi Hackathon](https://rustfi.keyrock.com/)
+    * [**RustFi Hackathon 30 Sept - 2 Oct**](https://rustfi.keyrock.com/)
 * 2022-10-02 | Florence, IT + Virtual | [RustLab](https://rustlab.it/)
     * [**RustLab Conference 2022 (Oct 2-4)**](https://rustlab.it/schedule/)
 * 2022-10-03 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/Stockholm-Rust/)
