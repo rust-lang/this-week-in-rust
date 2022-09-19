@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[`headtail`](https://github.com/CleanCut/headtail/), a new utility written in Rust to head and tail a file or pipe simultaneously.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
