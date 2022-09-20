@@ -68,7 +68,21 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This was a fairly negative week for compiler performance, with regressions
+overall up to 14% on some workloads (primarily incr-unchanged scenarios),
+largely caused by [#101620](https://github.com/rust-lang/rust/pull/101620). We
+are still chasing down either a revert or a fix for that regression, though a
+partial mitigation in [#101862](https://github.com/rust-lang/rust/pull/101862)
+has been applied. Hopefully the full fix or revert will be part of the next
+triage report.
+
+We also saw a number of other regressions land, though most were much smaller in magnitude.
+
+Triage done by **@simulacrum**.
+Revision range: [17cbdfd0..8fd6d03](https://perf.rust-lang.org/?start=17cbdfd07178349d0a3c
+ecb8e7dde8f915666ced&end=8fd6d03e22fba2930ad377b87299de6a37076074&absolute=false&stat=instructions%3Au)
+
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-09-20.md) for more details.
 
 ### Call for Testing
 
