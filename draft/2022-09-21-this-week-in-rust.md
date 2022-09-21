@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [A Strong Typing Example](https://www.thecodedmessage.com/posts/strong-typing/)
+* [video] [1Password Developer Fireside Chat: `Serde Deserializers`](https://www.youtube.com/watch?v=7pZTYdqXfgY)
 
 ### Research
 
