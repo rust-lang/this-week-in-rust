@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Implementing the Display Trait on a Generic Array using Newtype Pattern](https://rsdlt.github.io/posts/rust-use-newtype-pattern-display-trait-array-generics/)
 * [A Strong Typing Example](https://www.thecodedmessage.com/posts/strong-typing/)
 * [video] [1Password Developer Fireside Chat: `Serde Deserializers`](https://www.youtube.com/watch?v=7pZTYdqXfgY)
 
