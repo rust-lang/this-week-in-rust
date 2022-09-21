@@ -51,7 +51,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [match\_deref](https://crates.io/crates/match_deref), a macro crate to implement deref patterns on stable Rust.
+
+Thanks to [meithecatte](https://users.rust-lang.org/t/crate-of-the-week/2704/1106) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -70,7 +72,76 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+347 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-09-12..2022-09-19
+
+* [stabilize `let else`](https://github.com/rust-lang/rust/pull/93628) (RFC #[3137](https://rust-lang.github.io/rfcs/3137-let-else.html))
+* [stabilize generic associated types](https://github.com/rust-lang/rust/pull/96709) (RFC #[1598](https://rust-lang.github.io/rfcs/1598-generic_associated_types.html))
+* [initial implementation of dyn*](https://github.com/rust-lang/rust/pull/101212)
+* [fix `#[link kind="raw-dylib"]` to respect `#[link_name]`](https://github.com/rust-lang/rust/pull/101738)
+* [disallow defaults on type GATs](https://github.com/rust-lang/rust/pull/101807)
+* [compute lint levels by definition](https://github.com/rust-lang/rust/pull/101620)
+* [deny return-position `impl Trait` in traits for object safety](https://github.com/rust-lang/rust/pull/101681)
+* [do not suggest a placeholder to const and static without a type](https://github.com/rust-lang/rust/pull/101790)
+* [avoid infinite loop in function arguments checking](https://github.com/rust-lang/rust/pull/100502)
+* [fix ICE in `opt_suggest_box_span`](https://github.com/rust-lang/rust/pull/101604)
+* [be careful about `expr_ty_adjusted` when noting block tail type](https://github.com/rust-lang/rust/pull/101629)
+* [check that the types in return position `impl Trait` in traits are well-formed](https://github.com/rust-lang/rust/pull/101676)
+* [impove diagnostic for `.await`ing non-futures](https://github.com/rust-lang/rust/pull/101723)
+* [suggest pub instead of public for const type item](https://github.com/rust-lang/rust/pull/101668)
+* [suggest associated const for incorrect use of let in traits](https://github.com/rust-lang/rust/pull/101843)
+* [miri: implement a garbage collector for tags](https://github.com/rust-lang/miri/pull/2479)
+* [miri: make `sleep` work with isolation enabled](https://github.com/rust-lang/miri/pull/2506)
+* [miri: run the GC more often on Linux, not MacOS](https://github.com/rust-lang/miri/pull/2543)
+* [do not fetch HIR node when iterating to find lint](https://github.com/rust-lang/rust/pull/101862)
+* [extend list of targets that support dyanmic linking for llvm tools](https://github.com/rust-lang/rust/pull/101781)
+* [normalize struct field types in `confirm_builtin_unsize_candidate`](https://github.com/rust-lang/rust/pull/101831)
+* [streamline `register_res`](https://github.com/rust-lang/rust/pull/101830)
+* [`rustc_error`, `rustc_private`: switch to stable hash containers](https://github.com/rust-lang/rust/pull/99334)
+* [change `AccessLevels` representation](https://github.com/rust-lang/rust/pull/101713)
+* [change `FnMutDelegate` to trait objects](https://github.com/rust-lang/rust/pull/101857)
+* [change rlib format to distinguish native dependencies](https://github.com/rust-lang/rust/pull/100101)
+* [ssa: implement `#[collapse_debuginfo]`](https://github.com/rust-lang/rust/pull/99556)
+* [translations: migrate `rustc_session` to use `SessionDiagnostic` - Final](https://github.com/rust-lang/rust/pull/101266)
+* [constify `PartialEq` for `Ordering`](https://github.com/rust-lang/rust/pull/101810)
+* [constify impl Fn* &(mut) Fn*](https://github.com/rust-lang/rust/pull/101802)
+* [constify some `CStr` methods](https://github.com/rust-lang/rust/pull/100291)
+* [use `DisplayBuffer` for socket addresses](https://github.com/rust-lang/rust/pull/100640)
+* [simplify `const` `memchr`](https://github.com/rust-lang/rust/pull/101784)
+* [implement `std::marker::Tuple`](https://github.com/rust-lang/rust/pull/100251)
+* [implement `simd_as` for pointers](https://github.com/rust-lang/rust/pull/98441)
+* [stdarch: riscv: P extension intrinsics for packed SIMD (part 1)](https://github.com/rust-lang/stdarch/pull/1332)
+* [cargo: expose cargo add internals as edit API](https://github.com/rust-lang/cargo/pull/11059)
+* [cargo: take priority into account within the pending queue](https://github.com/rust-lang/cargo/pull/11032)
+* [rustdoc: use more precise URLs for jump-to-definition links](https://github.com/rust-lang/rust/pull/101868)
+* [clippy: Add `iter_kv_map` lint](https://github.com/rust-lang/rust-clippy/pull/9409)
+* [clippy: Do not lint `use_self` in proc macro expansion](https://github.com/rust-lang/rust-clippy/pull/9454)
+* [clippy: Don't lint `large_stack_array` inside static items](https://github.com/rust-lang/rust-clippy/pull/9466)
+* [clippy: Don't panic on invalid shift while constfolding](https://github.com/rust-lang/rust-clippy/pull/9464)
+* [clippy: Fix `FormatArgsExpn` parsing of `FormatSpec` positions](https://github.com/rust-lang/rust-clippy/pull/9469)
+* [clippy: Fix `almost_complete_letter_range` false positive](https://github.com/rust-lang/rust-clippy/pull/9467)
+* [clippy: Fix `unused_peekable` closure and `f(&mut peekable)` false positives](https://github.com/rust-lang/rust-clippy/pull/9465)
+* [clippy: Make `derivable_impls` machine applicable](https://github.com/rust-lang/rust-clippy/pull/9429)
+* [clippy: Make module-style lints resilient to `--remap-path-prefix`](https://github.com/rust-lang/rust-clippy/pull/9475)
+* [clippy: Migrate write.rs to a late pass](https://github.com/rust-lang/rust-clippy/pull/8518)
+* [clippy: Use `visit_expr_field` for `ParamPosition`](https://github.com/rust-lang/rust-clippy/pull/9458)
+* [clippy: `arithmetic-side-effects` More non-overflowing ops](https://github.com/rust-lang/rust-clippy/pull/9474)
+* [clippy: `arithmetic-side-effects` Finish non-overflowing ops](https://github.com/rust-lang/rust-clippy/pull/9483)
+* [clippy: `bool_to_int_with_if` inverse case patch](https://github.com/rust-lang/rust-clippy/pull/9476)
+* [rust-analyzer: Add a new configuration settings to set env vars when running cargo, rustc, etc. commands: cargo.extraEnv and checkOnSave.extraEnv](https://github.com/rust-lang/rust-analyzer/pull/13058)
+* [rust-analyzer: Add config to unconditionally prefer core imports over std](https://github.com/rust-lang/rust-analyzer/pull/13212)
+* [rust-analyzer: Allow configuration of annotation location](https://github.com/rust-lang/rust-analyzer/pull/13221)
+* [rust-analyzer: Complete variants and assoc items in path pattern through type aliases](https://github.com/rust-lang/rust-analyzer/pull/13242)
+* [rust-analyzer: Ensure at least one trait bound in `TyKind::DynTy`](https://github.com/rust-lang/rust-analyzer/pull/13264)
+* [rust-analyzer: Filter imports on find-all-references](https://github.com/rust-lang/rust-analyzer/pull/13186)
+* [rust-analyzer: Fix add reference action on macros](https://github.com/rust-lang/rust-analyzer/pull/13239)
+* [rust-analyzer: Fix prelude injection](https://github.com/rust-lang/rust-analyzer/pull/13235)
+* [rust-analyzer: Move reference imports filtering into `to_proto` layer](https://github.com/rust-lang/rust-analyzer/pull/13228)
+* [rust-analyzer: New assist: `move_format_string_arg`](https://github.com/rust-lang/rust-analyzer/pull/13216)
+* [rust-analyzer: Fix a crash](https://github.com/rust-lang/rust-analyzer/pull/13257)
+* [rust-analyzer: handle lifetime variables in projection normalization](https://github.com/rust-lang/rust-analyzer/pull/13223)
+* [rust-analyzer: handle trait methods as inherent methods for trait-related types](https://github.com/rust-lang/rust-analyzer/pull/13147)
 
 ### Rust Compiler Performance Triage
 
@@ -241,7 +312,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> At the #LinuxPlumbers Rust MC: "I'm Matthew Wilcox, I'm one of the authors of the NVMe spec, I'm the one who suggested you make an NVMe driver to demonstrate the value of Rust. You have succeeded beyond my wildest expectations. These performance numbers are phenomenal."
+
+– [Josh Triplett paraphrasing Matthew Wilcox as spoken at the Linux Plumbers Conference Q&A session](https://twitter.com/josh_triplett/status/1569363148985233414)
+
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1291) for the self-suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
