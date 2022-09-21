@@ -28,23 +28,40 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Const Eval (Un)Safety Rules](https://blog.rust-lang.org/2022/09/15/const-eval-safety-rule-revision.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Wasmtime Reaches 1.0: Fast, Safe and Production Ready!](https://bytecodealliance.org/articles/wasmtime-1-0-fast-safe-and-production-ready)
+* [clap 4.0, a Rust CLI argument parser](https://epage.github.io/blog/2022/09/clap4/)
+* [rust-analyzer changelog #147](https://rust-analyzer.github.io/thisweek/2022/09/19/changelog-147.html)
+* [Announcing tauri-egui 0.1.0](https://tauri.app/blog/2022/09/19/tauri-egui-0-1/)
 
 ### Observations/Thoughts
+
+* [Ten challenges for Rust](https://www.ncameron.org/blog/ten-challenges-for-rust/)
+* [Futures Concurrency IV: Join Ergonomics](https://blog.yoshuawuyts.com/futures-concurrency-4/)
+* [Dyn async traits, part 8: the soul of Rust](https://smallcultfollowing.com/babysteps/blog/2022/09/18/dyn-async-traits-part-8-the-soul-of-rust/)
+* [What I meant by the "soul of Rust"](https://smallcultfollowing.com/babysteps/blog/2022/09/19/what-i-meant-by-the-soul-of-rust/)
+* [PostgresML is Moving to Rust for our 2.0 Release](https://postgresml.org/blog/postgresml-is-moving-to-rust-for-our-2.0-release/)
+* [Bringing Up TLS on Precursor](https://www.crowdsupply.com/sutajio-kosagi/precursor/updates/bringing-up-tls-on-precursor)
+* [video] [curl-up 2022: hyper in curl](https://www.youtube.com/watch?v=tXB9AkG1QwI)
+* [audio] [Rust at Microsoft with Nell Shamrell-Harrington](https://rustacean-station.org/episode/nell-shamrell-harrington/)
+* [audio] [Axum with David Pedersen](https://rustacean-station.org/episode/david-pedersen/)
 
 ### Rust Walkthroughs
 * [Implementing the Display Trait on a Generic Array using Newtype Pattern](https://rsdlt.github.io/posts/rust-use-newtype-pattern-display-trait-array-generics/)
 * [A Strong Typing Example](https://www.thecodedmessage.com/posts/strong-typing/)
+* [Rust Bevy Entity Component System](https://blog.logrocket.com/rust-bevy-entity-component-system/)
 * [video] [1Password Developer Fireside Chat: `Serde Deserializers`](https://www.youtube.com/watch?v=7pZTYdqXfgY)
 
 ### Research
 
 ### Miscellaneous
+* [Linus Torvalds: Rust will go into Linux 6.1](https://www.zdnet.com/article/linus-torvalds-rust-will-go-into-linux-6-1/)
 
 ## Crate of the Week
 
