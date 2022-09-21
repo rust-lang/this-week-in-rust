@@ -30,10 +30,6 @@ and just ask the editors to select the category.
 ### Official
 * [Const Eval (Un)Safety Rules](https://blog.rust-lang.org/2022/09/15/const-eval-safety-rule-revision.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [Wasmtime Reaches 1.0: Fast, Safe and Production Ready!](https://bytecodealliance.org/articles/wasmtime-1-0-fast-safe-and-production-ready)
 * [clap 4.0, a Rust CLI argument parser](https://epage.github.io/blog/2022/09/clap4/)
@@ -58,10 +54,7 @@ and just ask the editors to select the category.
 * [A Strong Typing Example](https://www.thecodedmessage.com/posts/strong-typing/)
 * [Rust Bevy Entity Component System](https://blog.logrocket.com/rust-bevy-entity-component-system/)
 * [video] [1Password Developer Fireside Chat: `Serde Deserializers`](https://www.youtube.com/watch?v=7pZTYdqXfgY)
-
-- [video] [Introduction to Async](https://www.youtube.com/watch?v=wBQ8KlX7glY)
-
-### Research
+* [video] [Introduction to Async](https://www.youtube.com/watch?v=wBQ8KlX7glY)
 
 ### Miscellaneous
 * [Linus Torvalds: Rust will go into Linux 6.1](https://www.zdnet.com/article/linus-torvalds-rust-will-go-into-linux-6-1/)
@@ -329,7 +322,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/wm0k6q/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
