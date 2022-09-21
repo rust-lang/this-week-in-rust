@@ -163,7 +163,7 @@ Rusty Events between 2022-09-21 - 2022-10-19 🦀
     * [**Rust Lunch**](https://www.meetup.com/rust-atx/events/288590318/)
 * 2022-09-29 | Ciudad de México, MX | [Rust MX](https://www.meetup.com/rust-mx/)
     * [**Nuestra RustMX comunidad tiene página**](https://www.meetup.com/rust-mx/events/288388973/)
-* 2022-10-13 | Columbus, OH, US| [Columbus Rust Society](https://www.meetup.com/columbus-rs/)
+* 2022-10-13 | Columbus, OH, US | [Columbus Rust Society](https://www.meetup.com/columbus-rs/)
     * [**Monthly Meeting**](https://www.meetup.com/columbus-rs/events/dpkhgrydcnbrb/)
 * 2022-10-18 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/wjkjssydcnbxb/)
