@@ -61,6 +61,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Ockam - Implement ockam status command](https://github.com/build-trust/ockam/issues/3460)
+* [Ockam - Make ockam identity show command work without creating nodes](https://github.com/build-trust/ockam/issues/3461)
+* [Ockam - Break down ockam command bats tests](https://github.com/build-trust/ockam/issues/3476)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
