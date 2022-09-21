@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 * [A Strong Typing Example](https://www.thecodedmessage.com/posts/strong-typing/)
 * [video] [1Password Developer Fireside Chat: `Serde Deserializers`](https://www.youtube.com/watch?v=7pZTYdqXfgY)
 
+- [video] [Introduction to Async](https://www.youtube.com/watch?v=wBQ8KlX7glY)
+
 ### Research
 
 ### Miscellaneous
