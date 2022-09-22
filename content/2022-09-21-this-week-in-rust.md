@@ -37,8 +37,7 @@ and just ask the editors to select the category.
 * [Announcing tauri-egui 0.1.0](https://tauri.app/blog/2022/09/19/tauri-egui-0-1/)
 
 ### Observations/Thoughts
-[Aembit: Why We Chose Rust](https://aembit.io/blog/why-we-chose-rust)
-
+* [Aembit: Why We Chose Rust](https://aembit.io/blog/why-we-chose-rust)
 * [Ten challenges for Rust](https://www.ncameron.org/blog/ten-challenges-for-rust/)
 * [Futures Concurrency IV: Join Ergonomics](https://blog.yoshuawuyts.com/futures-concurrency-4/)
 * [Dyn async traits, part 8: the soul of Rust](https://smallcultfollowing.com/babysteps/blog/2022/09/18/dyn-async-traits-part-8-the-soul-of-rust/)
