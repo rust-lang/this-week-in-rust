@@ -18,6 +18,7 @@ license](http://mit-license.org/).
 * [kolharsam](https://github.com/kolharsam)
 * [joelmarcey](https://github.com/joelmarcey)
 * [mariannegoldin](https://github.com/mariannegoldin)
+* [bennyvasquez](https://github.com/bennyvasquez)
 
 ### Language Reviewers
 
