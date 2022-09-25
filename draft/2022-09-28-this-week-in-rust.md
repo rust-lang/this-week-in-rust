@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [bpaf 0.6.0: yet another command line argument parser](https://www.reddit.com/r/rust/comments/xlzx3v/yet_another_command_line_argument_parser_bpaf_060/)
 
 ### Observations/Thoughts
 
