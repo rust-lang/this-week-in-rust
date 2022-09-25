@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [cargo-show-asm 0.1.20, an easy way to see generated asm, LLVM and MIR sources](https://www.reddit.com/r/rust/comments/xmsbl7/cargoshowasm_0120_new_and_improved_all_over_the/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
