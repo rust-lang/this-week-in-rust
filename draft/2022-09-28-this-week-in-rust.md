@@ -43,7 +43,7 @@ and just ask the editors to select the category.
 * [gitoxide - August: Useful rev-spec parsing and an abstraction for remotes](https://github.com/Byron/gitoxide/discussions/541)
 
 ### Observations/Thoughts
-* [Internship Projects 2022: Concrete Playback](https://model-checking.github.io//kani-verifier-blog/2022/09/22/internship-projects-2022-concrete-playback.html)
+* [Internship Projects 2022: Concrete Playback](https://model-checking.github.io/kani-verifier-blog/2022/09/22/internship-projects-2022-concrete-playback.html)
 * [Why Volvo thinks you should have Rust in your car](https://medium.com/volvo-cars-engineering/why-volvo-thinks-you-should-have-rust-in-your-car-4320bd639e09)
 * [Linux embracing Rust will boost robotics community](https://www.therobotreport.com/linux-embracing-rust-will-boost-robotics-community/)
 * [Better Java logging, inspired by Clojure and Rust](https://mccue.dev/pages/9-25-22-better-java-logging)
