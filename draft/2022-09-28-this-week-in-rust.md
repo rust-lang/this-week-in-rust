@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [serde-transcode](https://docs.rs/serde-transcode), a crate to efficiently convert between various serde-supporting formats
+
+Thanks to [Kornel](https://users.rust-lang.org/t/crate-of-the-week/2704/1109) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -64,7 +66,92 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+347 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-09-12..2022-09-19
+
+* [add armv5te-none-eabi and thumbv5te-none-eabi targets](https://github.com/rust-lang/rust/pull/101329)
+* [compiler-builtins: enable floating point intrinsics for RISCV32 microcontrollers](https://github.com/rust-lang/compiler-builtins/pull/493)
+* [rustc\_transmute: fix big-endian discriminants](https://github.com/rust-lang/rust/pull/102076)
+* [allow `~const` bounds on non-const functions](https://github.com/rust-lang/rust/pull/102273)
+* [allow specializing on const trait bounds](https://github.com/rust-lang/rust/pull/102224)
+* [recover from struct nested in struct](https://github.com/rust-lang/rust/pull/102143)
+* [recover some items that expect braces and don't take semicolons](https://github.com/rust-lang/rust/pull/102286)
+* [make cycle errors recoverable](https://github.com/rust-lang/rust/pull/102037)
+* [avoid panicking on missing fallback](https://github.com/rust-lang/rust/pull/101952)
+* [require `#[const_trait]` on `Trait` for `impl const Trait`](https://github.com/rust-lang/rust/pull/100982)
+* [resolve async fn signature even without body (e.g., in trait)](https://github.com/rust-lang/rust/pull/102161)
+* [diagnostics: avoid syntactically invalid suggestion in if conditionals](https://github.com/rust-lang/rust/pull/102210)
+* [add help for invalid inline argument](https://github.com/rust-lang/rust/pull/101904)
+* [suggest `Default::default()` when binding isn't initialized](https://github.com/rust-lang/rust/pull/102184)
+* [improve error for when query is unsupported by crate](https://github.com/rust-lang/rust/pull/101958)
+* [improve the help message for an invalid calling convention](https://github.com/rust-lang/rust/pull/100488)
+* [look at move place's type when suggesting mutable reborrow](https://github.com/rust-lang/rust/pull/101431)
+* [note if mismatched types have a similar name](https://github.com/rust-lang/rust/pull/101664)
+* [note the type when unable to drop values in compile time](https://github.com/rust-lang/rust/pull/102194)
+* [miri: don't back up past the caller when looking for an FnEntry span](https://github.com/rust-lang/miri/pull/2537)
+* [interpret: expose `generate_stacktrace` without full `InterpCx`](https://github.com/rust-lang/rust/pull/101985)
+* [inline `SyntaxContext` in both encoded span representation](https://github.com/rust-lang/rust/pull/98840)
+* [introduce `mir::Unevaluated`](https://github.com/rust-lang/rust/pull/102056)
+* [only generate closure def id for async fns with body](https://github.com/rust-lang/rust/pull/102244)
+* [use function pointers instead of macro-unrolled loops in `rustc_query_impl`](https://github.com/rust-lang/rust/pull/101785)
+* [separate definitions and HIR owners in the type system](https://github.com/rust-lang/rust/pull/102040)
+* [use `partition_point` instead of `binary_search` when looking up source lines](https://github.com/rust-lang/rust/pull/101999)
+* [skip `Equate` relation in `handle_opaque_type`](https://github.com/rust-lang/rust/pull/102069)
+* [calculate `ProjectionTy::trait_def_id` for return-position `impl Trait` in trait correctly](https://github.com/rust-lang/rust/pull/102152)
+* [manually cleanup token stream when macro expansion aborts](https://github.com/rust-lang/rust/pull/100250)
+* [neither require nor imply lifetime bounds on opaque type for well formedness](https://github.com/rust-lang/rust/pull/95474)
+* [normalize closure signature after construction](https://github.com/rust-lang/rust/pull/101708)
+* [normalize opaques with bound vars](https://github.com/rust-lang/rust/pull/100980)
+* [split out `async_fn_in_trait` into a separate feature](https://github.com/rust-lang/rust/pull/100734)
+* [support overriding initial rustc and cargo paths](https://github.com/rust-lang/rust/pull/102266)
+* [use internal iteration in `Iterator` comparison methods](https://github.com/rust-lang/rust/pull/100845)
+* [`alloc`: add unstable cfg features `no_rc` and `no_sync`](https://github.com/rust-lang/rust/pull/89891)
+* [a fn pointer doesn't implement `Fn`/`FnMut`/`FnOnce` if its return type isn't sized](https://github.com/rust-lang/rust/pull/100096)
+* [fix `ConstProp` handling of `written_only_inside_own_block_locals`](https://github.com/rust-lang/rust/pull/102045)
+* [implied\_bounds: deal with inference vars](https://github.com/rust-lang/rust/pull/102016)
+* [make `Condvar`, `Mutex`, `RwLock` const constructors work with the `unsupported` impl](https://github.com/rust-lang/rust/pull/98457)
+* [make projection bounds with const bounds satisfy const](https://github.com/rust-lang/rust/pull/101989)
+* [resolve: set effective visibilities for imports more precisely](https://github.com/rust-lang/rust/pull/102109)
+* [add option to deduplicate extern blocks](https://github.com/rust-lang/rust-bindgen/pull/2258)
+* [codegen: implement manuallydrop fields better](https://github.com/rust-lang/rust-bindgen/pull/2279)
+* [optimize `array::IntoIter`](https://github.com/rust-lang/rust/pull/100214)
+* [std: use `sync::RwLock` for internal statics](https://github.com/rust-lang/rust/pull/100581)
+* [stabilize const `BTree{Map,Set}::new`](https://github.com/rust-lang/rust/pull/102197)
+* [constify `Default` impl's for Arrays and Tuples](https://github.com/rust-lang/rust/pull/102200)
+* [constify `cmp_min_max_by`](https://github.com/rust-lang/rust/pull/102245)
+* [constify `slice.split_at_mut`(`_unchecked`)](https://github.com/rust-lang/rust/pull/101800)
+* [add `const_closure`, constify `Try` trait](https://github.com/rust-lang/rust/pull/102186)
+* [make `ManuallyDrop` satisfy `~const Destruct`](https://github.com/rust-lang/rust/pull/102204)
+* [make `from_waker`, `waker` and `from_raw` unstably `const`](https://github.com/rust-lang/rust/pull/101798)
+* [extend `const_convert` with `const` {`FromResidual`, `Try`} for `ControlFlow`](https://github.com/rust-lang/rust/pull/102144)
+* [recover error strings on Unix `from_lossy_utf8`](https://github.com/rust-lang/rust/pull/99609)
+* [cargo: add support for relative git submodule paths](https://github.com/rust-lang/cargo/pull/11106)
+* [cargo: improve errors for TOML fields that support workspace inheritance](https://github.com/rust-lang/cargo/pull/11113)
+* [cargo: report cmd aliasing failure with more contexts](https://github.com/rust-lang/cargo/pull/11087)
+* [cargo: error trailing args rather than ignore](https://github.com/rust-lang/cargo/pull/11119)
+* [cargo: forward non-UTF8 arguments to external subcommands](https://github.com/rust-lang/cargo/pull/11118)
+* [cargo: make unknown features on `cargo add` more discoverable](https://github.com/rust-lang/cargo/pull/11098)
+* [rustdoc: stabilize --diagnostic-width](https://github.com/rust-lang/rust/pull/102216)
+* [bindgen: handle `no_return` attributes](https://github.com/rust-lang/rust-bindgen/pull/2259)
+* [bindgen: remove file added by mistake](https://github.com/rust-lang/rust-bindgen/pull/2283)
+* [clippy: add `matches!` checking to `nonstandard_macro_braces`](https://github.com/rust-lang/rust-clippy/pull/9471)
+* [clippy: fix ICE in `needless_pass_by_value` with unsized `dyn Fn`](https://github.com/rust-lang/rust-clippy/pull/9531)
+* [clippy: fix ICE in `unnecessary_to_owned`](https://github.com/rust-lang/rust-clippy/pull/9505)
+* [clippy: fix panic when displaying the backtrace of failing integration tests](https://github.com/rust-lang/rust-clippy/pull/9533)
+* [clippy: moved `derive_partial_eq_without_eq` to nursery](https://github.com/rust-lang/rust-clippy/pull/9535)
+* [clippy: `never_loop`: fix FP with `let`..`else` statements](https://github.com/rust-lang/rust-clippy/pull/9496)
+* [clippy: `nonstandard_macro_braces` do not modify macro arguments](https://github.com/rust-lang/rust-clippy/pull/9499)
+* [clippy: new `uninlined_format_args` lint to inline explicit arguments](https://github.com/rust-lang/rust-clippy/pull/9233)
+* [clippy: `uninit_vec`: fix false positive with `set_len(0)`](https://github.com/rust-lang/rust-clippy/pull/9519)
+* [rust-analyzer: add assist to unwrap tuple declarations](https://github.com/rust-lang/rust-analyzer/pull/13248)
+* [rust-analyzer: fix diagnostics not working in enum variant bodies](https://github.com/rust-lang/rust-analyzer/pull/13288)
+* [rust-analyzer: fix operator highlighting tags applying too broadly](https://github.com/rust-lang/rust-analyzer/pull/13268)
+* [rust-analyzer: properly set the enum variant body type from the repr attribute](https://github.com/rust-lang/rust-analyzer/pull/13269)
+* [rust-analyzer: properly support IDE functionality in enum variants](https://github.com/rust-lang/rust-analyzer/pull/13285)
+* [rust-analyzer: use the sysroot proc-macro server for analysis-stats](https://github.com/rust-lang/rust-analyzer/pull/13289)
+* [rust-analyzer: display the value of enum variant on hover](https://github.com/rust-lang/rust-analyzer/pull/12966)
+* [rust-analyzer: type inference for generators](https://github.com/rust-lang/rust-analyzer/pull/13209)
 
 ### Rust Compiler Performance Triage
 
@@ -196,7 +283,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Semver has its philosophy, but a pragmatic approach to versioning is:
+>
+> `<upgrades may break API> . <downgrades may break API> . <fine either way>`
+
+– [Kornel on rust-users](https://users.rust-lang.org/t/semver-for-refactoring-change/81370/13)
+
+Thanks to [Artem Borisovskiy](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1301) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
