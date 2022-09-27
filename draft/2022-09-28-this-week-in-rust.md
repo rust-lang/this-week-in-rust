@@ -28,20 +28,43 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.64.0 | Rust Blog](https://blog.rust-lang.org/2022/09/22/Rust-1.64.0.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust GameDev #37 - August 2022](https://gamedev.rs/news/037/)
 
 ### Project/Tooling Updates
+* [rust-analyzer - changelog #148](https://rust-analyzer.github.io/thisweek/2022/09/26/changelog-148.html)
+* [IntelliJ Rust Changelog #179](https://intellij-rust.github.io/2022/09/26/changelog-179.html)
+* [Announcing `async-dns`](https://www.reddit.com/r/rust/comments/xld9jk/announcing_asyncdns/)
+* [Fornjot - Weekly Release - 2022-W39](https://www.fornjot.app/blog/weekly-release/2022-w39/)
+* [gitoxide - August: Useful rev-spec parsing and an abstraction for remotes](https://github.com/Byron/gitoxide/discussions/541)
 
 ### Observations/Thoughts
+* [Internship Projects 2022: Concrete Playback](https://model-checking.github.io//kani-verifier-blog/2022/09/22/internship-projects-2022-concrete-playback.html)
+* [Why Volvo thinks you should have Rust in your car](https://medium.com/volvo-cars-engineering/why-volvo-thinks-you-should-have-rust-in-your-car-4320bd639e09)
+* [Linux embracing Rust will boost robotics community](https://www.therobotreport.com/linux-embracing-rust-will-boost-robotics-community/)
+* [Better Java logging, inspired by Clojure and Rust](https://mccue.dev/pages/9-25-22-better-java-logging)
+* [Why Async Rust](https://blog.yoshuawuyts.com/why-async-rust/)
+* [Apache APISIX loves Rust! (and me too)](https://blog.frankel.ch/rust-apisix/1/)
 
 ### Rust Walkthroughs
+* [Dyn async traits, part 9: call-site selection](https://smallcultfollowing.com/babysteps/blog/2022/09/21/dyn-async-traits-part-9-callee-site-selection/)
+* [Rust 2024...the year of everywhere?](https://smallcultfollowing.com/babysteps/blog/2022/09/22/rust-2024-the-year-of-everywhere/)
+* [Building Nix flakes from Rust workspaces](https://www.tweag.io/blog/2022-09-22-rust-nix/)
+* [Accessing Firebird With Diesel and Rust](https://betterprogramming.pub/diesel-firebird-en-a4d00e793e1d)
 
 ### Research
 
 ### Miscellaneous
+* [DE] [CTO von MS Azure: Nehmt Rust für neue Projekte und erklärt C/C++ für überholt!](https://www.heise.de/news/CTO-von-MS-Azure-Nehmt-Rust-fuer-neue-Projekte-und-erklaert-C-C-fuer-ueberholt-7269887.html)
+* [DE] [Rust Foundation erhält 460.000 US-Dollar und gründet ein Team für Security](https://www.heise.de/news/Rust-Foundation-erhaelt-460-000-US-Dollar-und-gruendet-ein-Team-fuer-Security-7264511.html)
+* [DE] [Programmiersprache Rust 1.64 erweitert asynchrone Programmierung mit IntoFuture](https://www.heise.de/news/Programmiersprache-Rust-1-64-erweitert-asynchrone-Programmierung-mit-IntoFuture-7273465.html)
+* [video] [Rust & Wasm (Safe and fast web development)](https://www.youtube.com/watch?v=P4LMfkFLRsI)
+* [video] [Crust of Rust: Build Scripts and Foreign-Function Interfaces (FFI)](https://www.youtube.com/watch?v=pePqWoTnSmQ)
+* [video] [Bevy Basics Reflect](https://www.youtube.com/watch?v=7JYyqVlEjKE)
 
 ## Crate of the Week
 
