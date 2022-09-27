@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Multithreading in Rust](https://kerkour.com/multithreading-in-rust)
+
 ### Research
 
 ### Miscellaneous
