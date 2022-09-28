@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+- [Safe pinned initialization](https://y86-dev.github.io/blog/safe-pinned-initialization/overview.html)
 
 ### Rust Walkthroughs
 
