@@ -96,7 +96,17 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Overall a fairly quiet week in terms of new changes; the majority of the
+delta this week was due to reverting [#101620](https://github.com/rust-lang/rust/pull/101620),
+which was a regression noted in last week's report.
+
+Triage done by **@simulacrum**.
+Revision range: [8fd6d03e2..d9297d22](https://perf.rust-lang.org/?start=8fd6d03e22fba2930ad377b87299de6a37076074&end=d9297d22ad9edc2b56f0dd8734c1187a0c88be69&absolute=false&stat=instructions%3Au)
+
+2 Regressions, 7 Improvements, 3 Mixed; 3 of them in rollups
+53 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-09-27.md)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
