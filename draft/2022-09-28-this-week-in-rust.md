@@ -57,6 +57,8 @@ and just ask the editors to select the category.
 * [Building Nix flakes from Rust workspaces](https://www.tweag.io/blog/2022-09-22-rust-nix/)
 * [Accessing Firebird With Diesel and Rust](https://betterprogramming.pub/diesel-firebird-en-a4d00e793e1d)
 
+* [Multithreading in Rust](https://kerkour.com/multithreading-in-rust)
+
 ### Research
 
 ### Miscellaneous
