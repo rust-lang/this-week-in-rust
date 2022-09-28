@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [podcast] [Rustacean Station: Ockam with Mrinal Wadhwa](https://rustacean-station.org/episode/mrinal-wadhwa/)
+
 ### Rust Walkthroughs
 
 ### Research
