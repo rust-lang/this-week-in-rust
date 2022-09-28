@@ -30,8 +30,6 @@ and just ask the editors to select the category.
 ### Official
 * [Announcing Rust 1.64.0 | Rust Blog](https://blog.rust-lang.org/2022/09/22/Rust-1.64.0.html)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust GameDev #37 - August 2022](https://gamedev.rs/news/037/)
 
@@ -41,7 +39,6 @@ and just ask the editors to select the category.
 * [Announcing `async-dns`](https://www.reddit.com/r/rust/comments/xld9jk/announcing_asyncdns/)
 * [Fornjot - Weekly Release - 2022-W39](https://www.fornjot.app/blog/weekly-release/2022-w39/)
 * [gitoxide - August: Useful rev-spec parsing and an abstraction for remotes](https://github.com/Byron/gitoxide/discussions/541)
-
 * [Getting Started with Seaography - A GraphQL framework for SeaORM](https://www.sea-ql.org/blog/2022-09-27-getting-started-with-seaography/)
 
 ### Observations/Thoughts
@@ -52,8 +49,9 @@ and just ask the editors to select the category.
 * [Why Async Rust](https://blog.yoshuawuyts.com/why-async-rust/)
 * [Apache APISIX loves Rust! (and me too)](https://blog.frankel.ch/rust-apisix/1/)
 * [Safe pinned initialization](https://y86-dev.github.io/blog/safe-pinned-initialization/overview.html)
-
-* [podcast] [Rustacean Station: Ockam with Mrinal Wadhwa](https://rustacean-station.org/episode/mrinal-wadhwa/)
+* [Enabling Rapid Pulumi Prototyping with Rust](https://www.pulumi.com/blog/pulumi-watch-mode-with-rust/)
+* [STM32F4 Embedded Rust at the HAL: SPI with the MAX7219 LED Dot Matrix](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-hal-spi-with-the-max7219-led-dot-matrix)
+* [audio] [Rustacean Station: Ockam with Mrinal Wadhwa](https://rustacean-station.org/episode/mrinal-wadhwa/)
 
 ### Rust Walkthroughs
 * [Building a Real-Time Web Cipher with Rust, Sycamore and Trunk](https://rsdlt.github.io/posts/rust-sycamore-trunk-wasm-iterators-vigenere-cipher/)
@@ -63,8 +61,6 @@ and just ask the editors to select the category.
 * [Accessing Firebird With Diesel and Rust](https://betterprogramming.pub/diesel-firebird-en-a4d00e793e1d)
 * [Multithreading in Rust](https://kerkour.com/multithreading-in-rust)
 * [Flutter and Rust combined](https://blog.argonauths.eu/2022/09/26/flutter-and-rust-combined-creating-a-plugin-to-support-various-operating-systems/)
-
-### Research
 
 ### Miscellaneous
 * [DE] [CTO von MS Azure: Nehmt Rust für neue Projekte und erklärt C/C++ für überholt!](https://www.heise.de/news/CTO-von-MS-Azure-Nehmt-Rust-fuer-neue-Projekte-und-erklaert-C-C-fuer-ueberholt-7269887.html)
