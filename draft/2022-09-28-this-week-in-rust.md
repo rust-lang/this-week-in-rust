@@ -52,13 +52,12 @@ and just ask the editors to select the category.
 * [Safe pinned initialization](https://y86-dev.github.io/blog/safe-pinned-initialization/overview.html)
 
 ### Rust Walkthroughs
+* [Building a Real-Time Web Cipher with Rust, Sycamore and Trunk](https://rsdlt.github.io/posts/rust-sycamore-trunk-wasm-iterators-vigenere-cipher/)
 * [Dyn async traits, part 9: call-site selection](https://smallcultfollowing.com/babysteps/blog/2022/09/21/dyn-async-traits-part-9-callee-site-selection/)
 * [Rust 2024...the year of everywhere?](https://smallcultfollowing.com/babysteps/blog/2022/09/22/rust-2024-the-year-of-everywhere/)
 * [Building Nix flakes from Rust workspaces](https://www.tweag.io/blog/2022-09-22-rust-nix/)
 * [Accessing Firebird With Diesel and Rust](https://betterprogramming.pub/diesel-firebird-en-a4d00e793e1d)
-
 * [Multithreading in Rust](https://kerkour.com/multithreading-in-rust)
-
 * [Flutter and Rust combined](https://blog.argonauths.eu/2022/09/26/flutter-and-rust-combined-creating-a-plugin-to-support-various-operating-systems/)
 
 ### Research
