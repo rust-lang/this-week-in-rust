@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Getting Started with Seaography - A GraphQL framework for SeaORM](https://www.sea-ql.org/blog/2022-09-27-getting-started-with-seaography/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
