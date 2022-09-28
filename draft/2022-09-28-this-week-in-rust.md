@@ -58,6 +58,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [zerocopy - Test more conditions in GitHub actions](https://github.com/google/zerocopy/issues/12)
+* [pw-sys - help with CI for one of diesel's dependencies](https://github.com/sgrif/pq-sys/issues/42)
+* [Ockam - Improve CowStr Display](https://github.com/build-trust/ockam/issues/3531)
+* [Ockam - https://github.com/build-trust/ockam/issues/3507](https://github.com/build-trust/ockam/issues/3507)
+* [Ockam - Refactor NodeManager constructor](https://github.com/build-trust/ockam/issues/3527)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
