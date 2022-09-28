@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 * [Fornjot - Weekly Release - 2022-W39](https://www.fornjot.app/blog/weekly-release/2022-w39/)
 * [gitoxide - August: Useful rev-spec parsing and an abstraction for remotes](https://github.com/Byron/gitoxide/discussions/541)
 
+* [Getting Started with Seaography - A GraphQL framework for SeaORM](https://www.sea-ql.org/blog/2022-09-27-getting-started-with-seaography/)
+
 ### Observations/Thoughts
 * [Internship Projects 2022: Concrete Playback](https://model-checking.github.io/kani-verifier-blog/2022/09/22/internship-projects-2022-concrete-playback.html)
 * [Why Volvo thinks you should have Rust in your car](https://medium.com/volvo-cars-engineering/why-volvo-thinks-you-should-have-rust-in-your-car-4320bd639e09)
