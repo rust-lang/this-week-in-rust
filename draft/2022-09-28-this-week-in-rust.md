@@ -59,6 +59,8 @@ and just ask the editors to select the category.
 
 * [Multithreading in Rust](https://kerkour.com/multithreading-in-rust)
 
+* [Flutter and Rust combined](https://blog.argonauths.eu/2022/09/26/flutter-and-rust-combined-creating-a-plugin-to-support-various-operating-systems/)
+
 ### Research
 
 ### Miscellaneous
