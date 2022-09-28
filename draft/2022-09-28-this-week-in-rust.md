@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 * [Apache APISIX loves Rust! (and me too)](https://blog.frankel.ch/rust-apisix/1/)
 * [Safe pinned initialization](https://y86-dev.github.io/blog/safe-pinned-initialization/overview.html)
 
+* [podcast] [Rustacean Station: Ockam with Mrinal Wadhwa](https://rustacean-station.org/episode/mrinal-wadhwa/)
+
 ### Rust Walkthroughs
 * [Building a Real-Time Web Cipher with Rust, Sycamore and Trunk](https://rsdlt.github.io/posts/rust-sycamore-trunk-wasm-iterators-vigenere-cipher/)
 * [Dyn async traits, part 9: call-site selection](https://smallcultfollowing.com/babysteps/blog/2022/09/21/dyn-async-traits-part-9-callee-site-selection/)
