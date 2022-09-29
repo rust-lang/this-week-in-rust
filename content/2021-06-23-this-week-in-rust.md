@@ -34,7 +34,6 @@ No newsletters or research articles this week.
 * [Exploring ways to make async Rust easier](https://carllerche.com/2021/06/17/six-ways-to-make-async-rust-easier/)
 * [Reading Back What You Wrote in Rust](https://www.morsecodist.io/blog/rust-writer-ownership)
 * [First Rust Project: A Chess Engine](https://www.reddit.com/r/rust/comments/o3k6yu/first_rust_project_a_chess_engine/)
-* [Rust vs C++ for game development](https://blog.logrocket.com/rust-vs-c-for-game-development/)
 * [Skipping Tests in Rust](https://plume.benboeckel.net/~/JustAnotherBlog/skipping-tests-in-rust)
 * [ZH] [Build a Gameboy emulator in Rust](https://yodalee.me/2020/12/2020_rust_gameboy/)
 * [video] [Why the future of the cloud will be built on Rust - Oliver Gould, Buoyant](https://youtu.be/BWL4889RKhU)

@@ -51,7 +51,6 @@ and just ask the editors to select the category.
 * [When rustc explodes](https://fasterthanli.me/articles/when-rustc-explodes)
 
 ### Rust Walkthroughs
-* [How Rust manages memory using ownership and borrowing](https://stackoverflow.blog/2022/07/14/how-rust-manages-memory-using-ownership-and-borrowing/)
 * [Integrating a Rust module into an Android app](https://blog.logrocket.com/integrating-rust-module-android-app/)
 * [Futuristic Rust: context emulation, part 2](https://haibane-tenshi.github.io/rust-contexts2/)
 * [Elegant and performant recursion in Rust](https://recursion.wtf/posts/rust_schemes/)
