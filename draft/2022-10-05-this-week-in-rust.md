@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Model an ALU in Rust](https://www.superperfundo.tech/articles/alu-model)
 
 ### Research
 
