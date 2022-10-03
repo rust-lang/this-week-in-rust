@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Learning Rust: The derive attribute](https://kerkour.com/learning-rust-derive-attribute)
+
 ### Research
 
 ### Miscellaneous
