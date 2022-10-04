@@ -52,7 +52,7 @@ These are collected using GitHub queries:
 
 ## Events
 
-[@andrewpollack](https://github.com/andrewpollack) currently covers this section, but would welcome help from additional editors!
+[@andrewpollack](https://github.com/andrewpollack) and [@mariannegoldin](https://github.com/mariannegoldin) currently cover this section.
 
 These are collected from the [Rust Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=apd9vmbc22egenmtu5l6c5jbfc@group.calendar.google.com). We generally only feature events that are upcoming in the next 4 weeks.
 
