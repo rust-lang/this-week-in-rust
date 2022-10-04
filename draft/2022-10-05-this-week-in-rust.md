@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+- [Changelog Management](https://beyermatthias.de/changelog-management)
 
 ### Rust Walkthroughs
 
