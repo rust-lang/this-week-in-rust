@@ -62,7 +62,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [humansize](https://lib.rs/crates/humansize), a size formatting crate. 
+
+Thanks, [Leopold Arkham](https://users.rust-lang.org/u/leopoldarkham/summary) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
