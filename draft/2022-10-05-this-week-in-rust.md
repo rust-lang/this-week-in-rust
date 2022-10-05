@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+- [in-place constructors](https://y86-dev.github.io/blog/safe-pinned-initialization/in-place.html)
 
 ### Rust Walkthroughs
 * [Model an ALU in Rust](https://www.superperfundo.tech/articles/alu-model)
