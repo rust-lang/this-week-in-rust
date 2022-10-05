@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Model an ALU in Rust](https://www.superperfundo.tech/articles/alu-model)
 
+- [Last mile DynamoDB: Deno Deploy edition](https://artofserverless.com/dynamodb-deno-deploy/)
+
 ### Research
 
 ### Miscellaneous
