@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 * [cargo careful: run your Rust code with extra careful debug checking](https://www.ralfj.de/blog/2022/09/26/cargo-careful.html)
 
 ### Observations/Thoughts
-- [in-place constructors](https://y86-dev.github.io/blog/safe-pinned-initialization/in-place.html)
+* [in-place constructors](https://y86-dev.github.io/blog/safe-pinned-initialization/in-place.html)
 
 ### Rust Walkthroughs
 * [Model an ALU in Rust](https://www.superperfundo.tech/articles/alu-model)
