@@ -28,21 +28,37 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing the Rust Style Team](https://blog.rust-lang.org/inside-rust/2022/09/29/announcing-the-rust-style-team.html)
 
 ### Foundation
+* [Rust Foundation Project Grants are open for applications](https://foundation.rust-lang.org/news/2022-10-03-project-grants-open-for-applications/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [cargo careful: run your Rust code with extra careful debug checking](https://www.ralfj.de/blog/2022/09/26/cargo-careful.html)
+* [Async UI: a Rust UI Library where Everything is a Future](https://wishawa.github.io/posts/async-ui-intro/)
+* [rust-analyzer changelog #149](https://rust-analyzer.github.io/thisweek/2022/10/03/changelog-149.html)
 
 ### Observations/Thoughts
+* [How (and why) nextest uses tokio, part 1](https://sunshowers.io/posts/nextest-and-tokio-1/)
+* [in-place constructors](https://y86-dev.github.io/blog/safe-pinned-initialization/in-place.html)
+* [Quirks of Rust’s token representation](https://nnethercote.github.io/2022/10/05/quirks-of-rusts-token-representation.html)
+* [Brute forcing protected ZIP archives in Rust](https://agourlay.github.io/brute-forcing-protected-zip-rust/)
 
 ### Rust Walkthroughs
 * [How to call a C function from Rust (A simple FFI tutorial)](https://github.com/vanjacosic/rust-ffi-to-c)
+* [Rewriting the Modern Web in Rust](https://implfuture.dev/blog/rewriting-the-modern-web-in-rust)
+* [Implementing truly safe semaphores in rust](https://neosmart.net/blog/2022/implementing-truly-safe-semaphores-in-rust/)
+* [Model an ALU in Rust](https://www.superperfundo.tech/articles/alu-model)
+* [6 things you can do with the Cow 🐄 in Rust 🦀](https://dev.to/kgrech/6-things-you-can-do-with-the-cow-in-rust-4l55)
+* [Platform Agnostic Drivers in Rust: MAX7219 Naive Code Refactoring](https://apollolabsblog.hashnode.dev/platform-agnostic-drivers-in-rust-max7219-naive-code-refactoring)
+* [Last mile DynamoDB: Deno Deploy edition](https://artofserverless.com/dynamodb-deno-deploy/)
 
 ### Research
 
 ### Miscellaneous
+* [The Initial Rust Infrastructure Has Been Merged Into Linux 6.1](https://www.phoronix.com/news/Rust-Is-Merged-Linux-6.1)
 
 ## Crate of the Week
 
@@ -69,17 +85,62 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A great week, with 170 primary benchmark scenarios seeing improvement. Every PR
+flagged by perf provided at least some wins, and perhaps more impressive: No
+rollup PR's were flagged by perf this week! Furthermore, cjgillot fixed an issue
+where incremental compilation was being unnecessarily hindered by our span and
+lint system. Great work everyone!
 
-### Call for Testing
+Triage done by **@pnkfelix**.
+Revision range: [d9297d22..02cd79af](https://perf.rust-lang.org/?start=d9297d22ad9edc2b56f0dd8734c1187a0c88be69&end=02cd79afb8080fce8c8ce35533c54d8ecf8f390e&absolute=false&stat=instructions%3Au)
 
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-10-04.md)
+
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* *No RFCs issued a call for testing this week.*
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
+
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* *No RFCs were approved this week.*
+
+### Final Comment Period
+
+Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
+which are reaching a decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* *No RFCs entered Final Comment Period this week.*
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: merge] [make const_err a hard error](https://github.com/rust-lang/rust/pull/102091)
+* [disposition: merge] [Elaborate supertrait bounds when triggering unused_`must_use` on `impl Trait`](https://github.com/rust-lang/rust/pull/102287)
+* [disposition: merge] [Stabilize proc_macro Span::source_text](https://github.com/rust-lang/rust/issues/101991)
+* [disposition: merge] [`const`-stablilize `NonNull::as_ref`](https://github.com/rust-lang/rust/pull/102198)
+* [disposition: merge] [Add documentation about the memory layout of `UnsafeCell<T>`](https://github.com/rust-lang/rust/pull/101717)
+* [disposition: merge] [Handle projections as uncovered types during coherence check](https://github.com/rust-lang/rust/pull/100555)
+* [disposition: merge] [Never panic in `thread::park` and `thread::park_timeout`](https://github.com/rust-lang/rust/pull/102412)
+* [disposition: merge] [Stabilize `nonzero_bits`](https://github.com/rust-lang/rust/pull/101514)
+* [disposition: merge] [`EscapeAscii` is not an `ExactSizeIterator`](https://github.com/rust-lang/rust/pull/99880)
+* [disposition: merge] [Change default level of INVALID_HTML_TAGS to warning and stabilize it](https://github.com/rust-lang/rust/pull/101720)
+* [disposition: merge] [Add `Box<[T; N]>: TryFrom<Vec<T>>`](https://github.com/rust-lang/rust/pull/101837)
+* [disposition: merge] [add `no_compile` doctest attribute](https://github.com/rust-lang/rust/pull/96573)
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* *No New or Updated RFCs were created this week.*
 
 ## Upcoming Events
 
@@ -114,7 +175,7 @@ Rusty Events between 2022-10-05 - 2022-11-02 🦀
 * 2022-10-15 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
     * [**Deep Dive Session 2 (CuteCopter): Reverse Engineering a tiny drone**](https://www.meetup.com/rust-noris/events/287347851/)
 * 2022-10-18 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
-    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/vdhxgsydcnbxb/)
+    * [**Mid-month Rustful—Impractical Rust: The HATETRIS World Record**](https://www.meetup.com/rustdc/events/vdhxgsydcnbxb/)
 * 2022-10-19 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/tqvhxsydcnbzb/)
 * 2022-10-20 | Virtual (Stuttgart, DE) | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
@@ -166,6 +227,8 @@ Rusty Events between 2022-10-05 - 2022-11-02 🦀
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/wjkjssydcnbxb/)
 * 2022-10-20 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/)
     * [**Anyhow ? Turbofish ::<> / HTTP calls and errors in Rust.**](https://www.meetup.com/rust-nyc/events/288756215/)
+* 2022-10-20 | New York, NY, US | [Cloud Native New York](https://www.meetup.com/cloud-native-new-york/)
+    * [**Cloud-native Search Engine for Log Management and Analytics.**](https://www.meetup.com/cloud-native-new-york/events/288818963/)
 * 2022-10-25 | Toronto, ON, CA | [Rust Toronto](https://www.meetup.com/rust-toronto/)
     * [**Rust DHCP**](https://www.meetup.com/rust-toronto/events/288589539/)
 
