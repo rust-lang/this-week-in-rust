@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [in-place constructors](https://y86-dev.github.io/blog/safe-pinned-initialization/in-place.html)
 * [Quirks of Rust’s token representation](https://nnethercote.github.io/2022/10/05/quirks-of-rusts-token-representation.html)
 * [Brute forcing protected ZIP archives in Rust](https://agourlay.github.io/brute-forcing-protected-zip-rust/)
+* [This week in Fluvio #47: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0047/)
 
 ### Rust Walkthroughs
 * [How to call a C function from Rust (A simple FFI tutorial)](https://github.com/vanjacosic/rust-ffi-to-c)
