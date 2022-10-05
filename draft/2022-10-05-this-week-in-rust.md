@@ -68,7 +68,16 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A great week, with 170 primary benchmark scenarios seeing improvement. Every PR
+flagged by perf provided at least some wins, and perhaps more impressive: No
+rollup PR's were flagged by perf this week! Furthermore, cjgillot fixed an issue
+where incremental compilation was being unnecessarily hindered by our span and
+lint system. Great work everyone!
+
+Triage done by **@pnkfelix**.
+Revision range: [d9297d22..02cd79af](https://perf.rust-lang.org/?start=d9297d22ad9edc2b56f0dd8734c1187a0c88be69&end=02cd79afb8080fce8c8ce35533c54d8ecf8f390e&absolute=false&stat=instructions%3Au)
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-10-04.md)
 
 ### Call for Testing
 
