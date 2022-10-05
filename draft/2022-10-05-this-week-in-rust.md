@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [When to vendor (or not) your dependencies in Rust](https://kerkour.com/rust-vendor-dependencies)
+
 ### Rust Walkthroughs
 
 ### Research
