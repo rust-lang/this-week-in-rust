@@ -75,6 +75,16 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [AeroRust website - Add an aerospace related crate #Hacktoberfest](https://github.com/AeroRust/AeroRust.github.io/issues/6)
+* [nmea - Supporting additional sentences #Hacktoberfest](https://github.com/AeroRust/nmea/issues/54)
+* [AeroRust website - Request for content](https://github.com/AeroRust/AeroRust.github.io/issues/3)
+* [zerocopy - test_new_error fails on i686](https://github.com/google/zerocopy/issues/21)
+* [zerocopy - test_as_bytes_methods fails on powerpc](https://github.com/google/zerocopy/issues/23)
+* [zerocopy - Miri can't run tests for wasm32-wasi target](https://github.com/google/zerocopy/issues/22)
+* [Ockam - Prototype UDP NAT hole punching](https://github.com/build-trust/ockam/issues/3507)
+* [Ockam - Refactor ockam secure-channel listener create command to use rpc](https://github.com/build-trust/ockam/issues/3563)
+* [Ockam - Split CBOR / Messaging API schema.cddl](https://github.com/build-trust/ockam/issues/3575)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
