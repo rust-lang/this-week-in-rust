@@ -166,6 +166,8 @@ Rusty Events between 2022-10-05 - 2022-11-02 🦀
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/wjkjssydcnbxb/)
 * 2022-10-20 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/)
     * [**Anyhow ? Turbofish ::<> / HTTP calls and errors in Rust.**](https://www.meetup.com/rust-nyc/events/288756215/)
+* 2022-10-20 | New York, NY, US | [Cloud Native New York](https://www.meetup.com/cloud-native-new-york/)
+    * [**Cloud-native Search Engine for Log Management and Analytics.**](https://www.meetup.com/cloud-native-new-york/events/288818963/)
 * 2022-10-25 | Toronto, ON, CA | [Rust Toronto](https://www.meetup.com/rust-toronto/)
     * [**Rust DHCP**](https://www.meetup.com/rust-toronto/events/288589539/)
 
