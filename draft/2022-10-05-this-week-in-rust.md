@@ -62,7 +62,7 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-This week's crate is [humansize](https://lib.rs/crates/humansize), a size formatting crate. 
+This week's crate is [humansize](https://lib.rs/crates/humansize), a size formatting crate. Now in version 2.0, it features an updated API. 
 
 Thanks, [Leopold Arkham](https://users.rust-lang.org/u/leopoldarkham/summary) for the suggestion!
 
