@@ -28,25 +28,37 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing the Rust Style Team](https://blog.rust-lang.org/inside-rust/2022/09/29/announcing-the-rust-style-team.html)
 
 ### Foundation
+* [Rust Foundation Project Grants are open for applications](https://foundation.rust-lang.org/news/2022-10-03-project-grants-open-for-applications/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
 * [cargo careful: run your Rust code with extra careful debug checking](https://www.ralfj.de/blog/2022/09/26/cargo-careful.html)
+* [Async UI: a Rust UI Library where Everything is a Future](https://wishawa.github.io/posts/async-ui-intro/)
+* [rust-analyzer changelog #149](https://rust-analyzer.github.io/thisweek/2022/10/03/changelog-149.html)
 
 ### Observations/Thoughts
-- [in-place constructors](https://y86-dev.github.io/blog/safe-pinned-initialization/in-place.html)
+* [How (and why) nextest uses tokio, part 1](https://sunshowers.io/posts/nextest-and-tokio-1/)
+* [in-place constructors](https://y86-dev.github.io/blog/safe-pinned-initialization/in-place.html)
+* [Quirks of Rust’s token representation](https://nnethercote.github.io/2022/10/05/quirks-of-rusts-token-representation.html)
+* [Brute forcing protected ZIP archives in Rust](https://agourlay.github.io/brute-forcing-protected-zip-rust/)
 
 ### Rust Walkthroughs
+* [Rewriting the Modern Web in Rust](https://implfuture.dev/blog/rewriting-the-modern-web-in-rust)
+* [Implementing truly safe semaphores in rust](https://neosmart.net/blog/2022/implementing-truly-safe-semaphores-in-rust/)
 * [Model an ALU in Rust](https://www.superperfundo.tech/articles/alu-model)
+* [6 things you can do with the Cow 🐄 in Rust 🦀](https://dev.to/kgrech/6-things-you-can-do-with-the-cow-in-rust-4l55)
+* [Platform Agnostic Drivers in Rust: MAX7219 Naive Code Refactoring](https://apollolabsblog.hashnode.dev/platform-agnostic-drivers-in-rust-max7219-naive-code-refactoring)
 
 - [Last mile DynamoDB: Deno Deploy edition](https://artofserverless.com/dynamodb-deno-deploy/)
 
 ### Research
 
 ### Miscellaneous
+* [The Initial Rust Infrastructure Has Been Merged Into Linux 6.1](https://www.phoronix.com/news/Rust-Is-Merged-Linux-6.1)
 
 ## Crate of the Week
 
