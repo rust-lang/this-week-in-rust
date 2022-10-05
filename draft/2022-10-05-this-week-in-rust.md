@@ -500,7 +500,17 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+>BurntSushi is a super experienced programmer who always seems to know what’s right
+>
+>Shepmaster occasionally pops up to keep things level, and provides definitive answers and edits to all stackoverflow questions
+>
+>Epage is the ecosystem guy thanklessly maintaining the things that make the magic of cargo possible
+>
+>Dtolnay is an AI written in rust with the sole purpose of improving rust.
+
+– [trevg_123 on r/rust](https://users.rust-lang.org/t/semver-for-refactoring-change/81370/13)
+
+Thanks to [musicmatze](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1305) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
