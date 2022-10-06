@@ -188,7 +188,7 @@ Rusty Events between 2022-10-05 - 2022-11-02 🦀
     * [**Using Applicative Functors to parse command line options**](https://www.meetup.com/charlottesville-rust-meetup/events/288867237/)
 * 2022-11-01 | Virtual (Buffalo, NY, US) | [Buffalo Rust Meetup](https://www.meetup.com/buffalo-rust-meetup/)
     * [**Buffalo Rust User Group, First Tuesdays**](https://www.meetup.com/buffalo-rust-meetup/events/hlgvxsydcpbcb/)
-* 2022-11-02 | Virtual (Indianapolis, IN, US)| [Indy Rust](https://www.meetup.com/indyrs/)
+* 2022-11-02 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/287027659/)
 * 2022-11-02 | Virtual (Redmond, WA, US / San Francisco, SF, US) [Microsoft Reactor Redmond](https://www.meetup.com/microsoft-reactor-redmond/)
     * [**Getting Started with Rust: From Java Dev to Rust Developer**](https://www.meetup.com/microsoft-reactor-redmond/events/288475833/) | [**San Francisco Reactor Mirror Event**](https://www.meetup.com/microsoft-reactor-san-francisco/events/288475838/) | [**London Reactor Mirror Event**](https://www.meetup.com/microsoft-reactor-london/events/288475832/)
