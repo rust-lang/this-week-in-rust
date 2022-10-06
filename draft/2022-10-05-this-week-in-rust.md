@@ -62,7 +62,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [humansize](https://lib.rs/crates/humansize), a size formatting crate. Now in version 2.0, with an updated API. 
+
+Thanks, [Leopold Arkham](https://users.rust-lang.org/u/leopoldarkham/summary) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -91,7 +93,61 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+## Updates from the Rust Project
+
+367 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-09-26..2022-10-03
+
+* [libc: add major/minor/makedev on apple OSes](https://github.com/rust-lang/libc/pull/2937)
+* [miri: Add flag to specify the number of cpus](https://github.com/rust-lang/miri/pull/2562)
+* [cargo: Iteratively construct target cfg](https://github.com/rust-lang/cargo/pull/11114)
+* [rustdoc-Json: List impls for primitives](https://github.com/rust-lang/rust/pull/102321)
+* [clippy: Implement `manual_clamp` lint](https://github.com/rust-lang/rust-clippy/pull/9484)
+* [clippy: Silence [`question_mark`] in const context](https://github.com/rust-lang/rust-clippy/pull/9487)
+* [clippy: [`manual_assert`]: Preserve comments in the suggestion](https://github.com/rust-lang/rust-clippy/pull/9479)
+* [clippy: [`unnecessary_lazy_evaluations`] Do not suggest switching to early evaluation when type has custom `Drop`](https://github.com/rust-lang/rust-clippy/pull/9551)
+* [clippy: add `box-default` lint](https://github.com/rust-lang/rust-clippy/pull/9511)
+* [clippy: fix [`needless_borrow`], [`explicit_auto_deref`] FPs on unions](https://github.com/rust-lang/rust-clippy/pull/9490)
+* [clippy: let `upper_case_acronyms` check the enum name](https://github.com/rust-lang/rust-clippy/pull/9580)
+* [clippy: let unnecessary_cast work for trivial non_literal expressions](https://github.com/rust-lang/rust-clippy/pull/9576)
+* [clippy: lint nested patterns and slice patterns in `needless_borrowed_reference`](https://github.com/rust-lang/rust-clippy/pull/9573)
+* [clippy: new `implicit_saturating_add` lint](https://github.com/rust-lang/rust-clippy/pull/9549)
+* [rust-analyzer: Add proc-macro dependency to rustc crates](https://github.com/rust-lang/rust-analyzer/pull/13328)
+* [rust-analyzer: Fix PackageInformation having the crate name instead of package name](https://github.com/rust-lang/rust-analyzer/pull/13296)
+* [rust-analyzer: Fix annotations not resolving when lens location is set to whole item](https://github.com/rust-lang/rust-analyzer/pull/13318)
+* [rust-analyzer: Fix find_path using the wrong module for visibility calculations](https://github.com/rust-lang/rust-analyzer/pull/13275)
+* [rust-analyzer: Fix move_format_string_arg being tokentree unaware](https://github.com/rust-lang/rust-analyzer/pull/13321)
+* [rust-analyzer: Fix requests not being retried anymore](https://github.com/rust-lang/rust-analyzer/pull/13319)
+* [rust-analyzer: Fix trait impl item completions using macro file text ranges](https://github.com/rust-lang/rust-analyzer/pull/13324)
+* [rust-analyzer: Fix type alias hovers not rendering generic parameters](https://github.com/rust-lang/rust-analyzer/pull/13320)
+* [rust-analyzer: Use cfg(any()) instead of cfg(FALSE) for disabling proc-macro test](https://github.com/rust-lang/rust-analyzer/pull/13300)
+* [ci: Replace `volta-cli/action` with builtin functionality from `actions/setup-node`](https://github.com/rust-lang/crates.io/pull/5262)
+* [docs.rs: new cache-policy & cache middleware structure to support full page caching](https://github.com/rust-lang/docs.rs/pull/1856)
+* [add `#[rustc_safe_intrinsic]`](https://github.com/rust-lang/rust/pull/100719)
+* [add a niche to `Duration`, unix `SystemTime`, and non-apple `Instant`](https://github.com/rust-lang/rust/pull/102368)
+* [add diagnostic struct for const eval error in `rustc_middle`](https://github.com/rust-lang/rust/pull/102486)
+* [add negation methods for signed non-zero integers](https://github.com/rust-lang/rust/pull/102342)
+* [added more const_closure functionality](https://github.com/rust-lang/rust/pull/102276)
+* [adjust the s390x data layout for LLVM 16](https://github.com/rust-lang/rust/pull/102499)
+* [compute lint levels by definition](https://github.com/rust-lang/rust/pull/102236)
+* [fix `#[derive(Default)]` on a generic `#[default]` enum adding unnecessary `Default` bounds](https://github.com/rust-lang/rust/pull/101040)
+* [fix `format_args` capture for macro expanded format strings](https://github.com/rust-lang/rust/pull/102519)
+* [fix associated type bindings with anon const in GAT position](https://github.com/rust-lang/rust/pull/102336)
+* [fix integer overflow in `format!("{:.0?}", Duration::MAX)`](https://github.com/rust-lang/rust/pull/102484)
+* [generate synthetic region from `impl` even in closure body within an associated fn](https://github.com/rust-lang/rust/pull/102490)
+* [get rid of exclude-list for Windows-only tests](https://github.com/rust-lang/rust/pull/102305)
+* [serialize return-position `impl Trait` in trait hidden values in foreign libraries](https://github.com/rust-lang/rust/pull/102164)
+* [stabilize `#![feature(mixed_integer_ops)]`](https://github.com/rust-lang/rust/pull/101555)
+* [stabilize bench_black_box](https://github.com/rust-lang/rust/pull/102232)
+* [use let-chaining in `WhileTrue::check_expr`](https://github.com/rust-lang/rust/pull/102455)
+* [introduce `{char, u8}::is_ascii_octdigit`](https://github.com/rust-lang/rust/pull/101308)
+* [macros: diagnostic derive on enums](https://github.com/rust-lang/rust/pull/102189)
+* [add a filter for try commits in graphs, compare page and triage](https://github.com/rust-lang/rustc-perf/pull/1452)
+* [codegen\_gcc: Implement llvm.prefetch](https://github.com/rust-lang/rustc_codegen_gcc/pull/226)
+* [codegen\_gcc: simd: enable simd_as intrinsic](https://github.com/rust-lang/rustc_codegen_gcc/pull/228)
+* [codegen\_gcc: simd: implement float math intrinsics](https://github.com/rust-lang/rustc_codegen_gcc/pull/219)
+* [allow users to debug their processes](https://github.com/rust-lang/simpleinfra/pull/119)
 
 ### Rust Compiler Performance Triage
 
@@ -273,7 +329,17 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+>BurntSushi is a super experienced programmer who always seems to know what’s right
+>
+>Shepmaster occasionally pops up to keep things level, and provides definitive answers and edits to all stackoverflow questions
+>
+>Epage is the ecosystem guy thanklessly maintaining the things that make the magic of cargo possible
+>
+>Dtolnay is an AI written in rust with the sole purpose of improving rust.
+
+– [trevg_123 on r/rust](https://users.rust-lang.org/t/semver-for-refactoring-change/81370/13)
+
+Thanks to [musicmatze](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1305) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
