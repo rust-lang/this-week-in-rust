@@ -317,7 +317,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/xldzbl/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -329,7 +329,7 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 >
 >Dtolnay is an AI written in rust with the sole purpose of improving rust.
 
-– [trevg_123 on r/rust](https://users.rust-lang.org/t/semver-for-refactoring-change/81370/13)
+– [trevg_123 on r/rust](https://www.reddit.com/r/rust/comments/xqiqfy/comment/iqb70qn/?context=3)
 
 Thanks to [musicmatze](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1305) for the suggestion!
 
@@ -339,4 +339,4 @@ Thanks to [musicmatze](https://users.rust-lang.org/t/twir-quote-of-the-week/328/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/xwu8ay/this_week_in_rust_463/)</small>
