@@ -207,7 +207,7 @@ Rusty Events between 2022-10-05 - 2022-11-02 🦀
 * 2022-10-13 | Berlin, DE + Virtual | [EuroRust](https://eurorust.eu/)
     * [**EuroRust (Oct 13-14)**](https://eurorust.eu/schedule)
 * 2022-10-25 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/)
-    [**Rust Paris meetup #53**](https://www.meetup.com/rust-paris/events/288735204/)
+    * [**Rust Paris meetup #53**](https://www.meetup.com/rust-paris/events/288735204/)
 
 ### North America
 
