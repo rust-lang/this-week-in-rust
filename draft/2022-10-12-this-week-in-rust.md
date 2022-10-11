@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+[anyinput: a macro for easier writing of functions that accept any string-, path-, iterator-, array-, or ndarray-like input](https://docs.rs/anyinput/latest/anyinput/)
 
 ### Observations/Thoughts
 
