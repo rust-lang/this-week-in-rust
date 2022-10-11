@@ -155,7 +155,27 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Overall, a fairly quiet week where the change to primary benchmarks ended up breaking exactly even.
+Secondary benchmarks saw improvements but not in large enough numbers for it to be particularly noteworthy.
+
+Triage done by **@rylev**.
+Revision range: [02cd79a..1e926f0](https://perf.rust-lang.org/?start=02cd79afb8080fce8c8ce35533c54d8ecf8f390e&end=1e926f06528ecb2503f026e2fd53cb735d487b10&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u) | mean | range | count |
+|:----------------:|:----:|:-----:|:-----:|
+| Regressions ❌ <br /> (primary) | 0.8% | [0.2%, 1.4%] | 19    |
+| Regressions ❌ <br /> (secondary) | 1.0% | [0.3%, 1.8%] | 9     |
+| Improvements ✅ <br /> (primary) | -0.6% | [-1.8%, -0.3%] | 29    |
+| Improvements ✅ <br /> (secondary) | -1.0% | [-6.4%, -0.2%] | 39    |
+| All ❌✅ (primary) | -0.0% | [-1.8%, 1.4%] | 48    |
+
+
+3 Regressions, 1 Improvements, 6 Mixed; 4 of them in rollups
+41 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-10-11.md)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
