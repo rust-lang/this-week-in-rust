@@ -62,6 +62,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Call for Papers: Rust Nation UK Conference 2023 (Deadline 2022-10-31)](https://www.rustnationuk.com/call-for-papers)
 * [audio] [What's New in Rust 1.62, 1.63, and 1.64 :: Rustacean Station](https://rustacean-station.org/episode/rust-1.62-1.63-1.64/)
 * [audio] [Veloren with Forest Anderson :: Rustacean Station](https://rustacean-station.org/episode/forest-anderson/)
 * [video] [Day in the Life of Open Source Maintenance: 2022-10-08](https://www.youtube.com/watch?v=O2Ds0U0pXo8)
