@@ -86,6 +86,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Call for Papers: Rust Nation UK Conference 2023 (Deadline 2022-10-31)](https://www.rustnationuk.com/call-for-papers)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
