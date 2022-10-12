@@ -86,6 +86,14 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [zerocopy - Miri can't run tests for wasm32-wasi target](https://github.com/google/zerocopy/issues/22)
+* [zerocopy - Test in CI that we have the same MSRV in all source files](https://github.com/google/zerocopy/issues/39)
+* [zerocopy - Add comment to README.md stating that it's auto-generated and shouldn't be edited directly](https://github.com/google/zerocopy/issues/45)
+* [zerocopy - Test Clippy in CI](https://github.com/google/zerocopy/issues/49)
+* [Ockam - Partition rust test jobs with nextest](https://github.com/build-trust/ockam/issues/3619)
+* [Ockam - Refactor ockam identity show command to use rpc abstraction](https://github.com/build-trust/ockam/issues/3562)
+* [Ockam - Refactor tcp connection list command to use rpc abstraction](https://github.com/build-trust/ockam/issues/3595)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
