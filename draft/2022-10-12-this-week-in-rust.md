@@ -55,6 +55,7 @@ and just ask the editors to select the category.
 * [Avoiding allocations in Rust to shrink Wasm modules](https://nickb.dev/blog/avoiding-allocations-in-rust-to-shrink-wasm-modules/)
 * [Building a JobSystem](https://www.rismosch.com/article?id=building-a-job-system)
 * [video] [Fast Rest API - Rust + Actix Web (2022)](https://www.youtube.com/watch?v=Ziq3vu63pAU)
+* [Using C libraries in your Rust project](https://tweedegolf.nl/nl/blog/74/using-c-libraries-in-your-rust-project)
 
 ### Research
 
