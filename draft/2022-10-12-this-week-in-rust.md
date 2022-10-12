@@ -34,7 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [rust-analyzer changelog #150](https://rust-analyzer.github.io//thisweek/2022/10/10/changelog-150.html)
+* [rust-analyzer changelog #150](https://rust-analyzer.github.io/thisweek/2022/10/10/changelog-150.html)
 * [IntelliJ Rust Changelog #180](https://intellij-rust.github.io/2022/10/10/changelog-180.html)
 * [This Month in hyper: September 2022](https://seanmonstar.com/post/697293605419745280/this-month-in-hyper-september-2022)
 * [Fornjot - Weekly Release - 2022-W41](https://www.fornjot.app/blog/weekly-release/2022-w41/)
