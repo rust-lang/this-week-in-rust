@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [When to vendor (or not) your dependencies in Rust](https://kerkour.com/rust-vendor-dependencies)
 * [RAII: Compile-Time Memory Management in C++ and Rust](https://www.thecodedmessage.com/posts/raii/)
 
 ### Rust Walkthroughs
