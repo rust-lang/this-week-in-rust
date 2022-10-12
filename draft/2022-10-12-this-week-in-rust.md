@@ -47,7 +47,6 @@ and just ask the editors to select the category.
 * [RAII: Compile-Time Memory Management in C++ and Rust](https://www.thecodedmessage.com/posts/raii/)
 * [Hard Mode Rust](https://matklad.github.io/2022/10/06/hard-mode-rust.html)
 * [Single Pass Recursion in Rust](https://recursion.wtf/posts/rust_schemes_3/)
-* [RAII: Compile-Time Memory Management in C++ and Rust](https://www.thecodedmessage.com/posts/raii/)
 * [Platform Agnostic Drivers in Rust: The MAX7219 Driver](https://apollolabsblog.hashnode.dev/platform-agnostic-drivers-in-rust-the-max7219-driver)
 * [Different test scopes in Rust](https://blog.frankel.ch/different-test-scopes-rust/)
 
