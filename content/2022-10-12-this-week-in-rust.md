@@ -27,12 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer changelog #150](https://rust-analyzer.github.io/thisweek/2022/10/10/changelog-150.html)
 * [IntelliJ Rust Changelog #180](https://intellij-rust.github.io/2022/10/10/changelog-180.html)
@@ -42,7 +36,6 @@ and just ask the editors to select the category.
 * [rustc_codegen_gcc: Progress Report #16](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-16)
 * [Fyrox 0.28 Feature Highlights](https://fyrox.rs/blog/post/feature-highlights-0-28/)
 * [zerocal - A Serverless Calendar App in Rust Running on shuttle.rs](https://endler.dev/2022/zerocal/)
-
 * [Announcing error-stack v0.2](https://hash.dev/blog/error-stack-update-0-2)
 
 ### Observations/Thoughts
@@ -58,8 +51,6 @@ and just ask the editors to select the category.
 * [Building a JobSystem](https://www.rismosch.com/article?id=building-a-job-system)
 * [video] [Fast Rest API - Rust + Actix Web (2022)](https://www.youtube.com/watch?v=Ziq3vu63pAU)
 * [Using C libraries in your Rust project](https://tweedegolf.nl/nl/blog/74/using-c-libraries-in-your-rust-project)
-
-### Research
 
 ### Miscellaneous
 * [Call for Papers: Rust Nation UK Conference 2023 (Deadline 2022-10-31)](https://www.rustnationuk.com/call-for-papers)
@@ -309,6 +300,7 @@ Rusty Events between 2022-10-12 - 2022-11-09 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallas-rust/events/vndgwsydcpblb/)
 * 2022-11-08 | Virtual (Stockholm, SE) | [Func Prog Sweden](https://www.meetup.com/func-prog-sweden/)
     * [**Tenth Func Prog Sweden MeetUp 2022 – Online (with "Ready for Rust" by Erik Dörnenburg)**](https://www.meetup.com/func-prog-sweden/events/288323896/)
+
 ### Europe
 
 * 2022-10-12 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/)
@@ -372,7 +364,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/xldzbl/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -396,4 +388,4 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/y2jh7g/this_week_in_rust_464/)</small>
