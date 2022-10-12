@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing error-stack v0.2](https://hash.dev/blog/error-stack-update-0-2)
+
 ### Observations/Thoughts
 * [RAII: Compile-Time Memory Management in C++ and Rust](https://www.thecodedmessage.com/posts/raii/)
 
