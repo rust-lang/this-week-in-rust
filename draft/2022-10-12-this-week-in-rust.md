@@ -34,15 +34,37 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #150](https://rust-analyzer.github.io//thisweek/2022/10/10/changelog-150.html)
+* [IntelliJ Rust Changelog #180](https://intellij-rust.github.io/2022/10/10/changelog-180.html)
+* [This Month in hyper: September 2022](https://seanmonstar.com/post/697293605419745280/this-month-in-hyper-september-2022)
+* [Fornjot - Weekly Release - 2022-W41](https://www.fornjot.app/blog/weekly-release/2022-w41/)
+* [This Month in Rust OSDev: September 2022](https://rust-osdev.com/this-month/2022-09/)
+* [rustc_codegen_gcc: Progress Report #16](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-16)
+* [Fyrox 0.28 Feature Highlights](https://fyrox.rs/blog/post/feature-highlights-0-28/)
+* [zerocal - A Serverless Calendar App in Rust Running on shuttle.rs](https://endler.dev/2022/zerocal/)
 
 ### Observations/Thoughts
 * [RAII: Compile-Time Memory Management in C++ and Rust](https://www.thecodedmessage.com/posts/raii/)
+* [Hard Mode Rust](https://matklad.github.io/2022/10/06/hard-mode-rust.html)
+* [Single Pass Recursion in Rust](https://recursion.wtf/posts/rust_schemes_3/)
+* [RAII: Compile-Time Memory Management in C++ and Rust](https://www.thecodedmessage.com/posts/raii/)
+* [Platform Agnostic Drivers in Rust: The MAX7219 Driver](https://apollolabsblog.hashnode.dev/platform-agnostic-drivers-in-rust-the-max7219-driver)
+* [Different test scopes in Rust](https://blog.frankel.ch/different-test-scopes-rust/)
 
 ### Rust Walkthroughs
+* [Avoiding allocations in Rust to shrink Wasm modules](https://nickb.dev/blog/avoiding-allocations-in-rust-to-shrink-wasm-modules/)
+* [Building a JobSystem](https://www.rismosch.com/article?id=building-a-job-system)
+* [video] [Fast Rest API - Rust + Actix Web (2022)](https://www.youtube.com/watch?v=Ziq3vu63pAU)
 
 ### Research
 
 ### Miscellaneous
+* [audio] [What's New in Rust 1.62, 1.63, and 1.64 :: Rustacean Station](https://rustacean-station.org/episode/rust-1.62-1.63-1.64/)
+* [audio] [Veloren with Forest Anderson :: Rustacean Station](https://rustacean-station.org/episode/forest-anderson/)
+* [video] [Day in the Life of Open Source Maintenance: 2022-10-08](https://www.youtube.com/watch?v=O2Ds0U0pXo8)
+* [video] [Static Async Concurrency in Rust](https://www.youtube.com/watch?v=NbGQGfEzg58)
+* [video] [Rust makes cents (Speed is a FEATURE)](https://www.youtube.com/watch?v=4dvf6kM70qM)
+* [video] [Rust Wrocław Meetup 29 - Live stream, 6.10.2022](https://www.youtube.com/watch?v=ryrOZS-CLyo)
 
 ## Crate of the Week
 
