@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 * [Fyrox 0.28 Feature Highlights](https://fyrox.rs/blog/post/feature-highlights-0-28/)
 * [zerocal - A Serverless Calendar App in Rust Running on shuttle.rs](https://endler.dev/2022/zerocal/)
 
+* [Announcing error-stack v0.2](https://hash.dev/blog/error-stack-update-0-2)
+
 ### Observations/Thoughts
 * [When to vendor (or not) your dependencies in Rust](https://kerkour.com/rust-vendor-dependencies)
 * [RAII: Compile-Time Memory Management in C++ and Rust](https://www.thecodedmessage.com/posts/raii/)
