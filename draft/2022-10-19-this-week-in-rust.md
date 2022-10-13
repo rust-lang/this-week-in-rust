@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Introducing BastionAI, an open-source privacy-friendly AI training framework in Rust](https://blog.mithrilsecurity.io/introducing-bastionai/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
