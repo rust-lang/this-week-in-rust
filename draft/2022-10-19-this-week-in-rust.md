@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Simulating C++ references in Rust](https://medium.com/@adetaylor/are-we-reference-yet-c-references-in-rust-72c1c6c7015a)
+
 ### Miscellaneous
 
 ## Crate of the Week
