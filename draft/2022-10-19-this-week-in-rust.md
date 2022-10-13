@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [Zenoh 0.6.0, a Pub/Sub/Query protocol, was released and it is packed with new features.](https://zenoh.io/blog/2022-09-30-zenoh-bahamut/)
 
 ### Observations/Thoughts
 
