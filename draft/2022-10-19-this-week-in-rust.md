@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [HexoSynth 2022 - Devlog #13: Files, ADSR and VA Filters](https://m8geil.de/posts/hexosynth-13/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
