@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [HyperQueue](https://github.com/It4innovations/hyperqueue), a runtime for ergonomic execution of programs on a distributed cluster.
+
+Thanks to [Jakub Beránek](https://users.rust-lang.org/t/crate-of-the-week/2704/1113) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -64,7 +66,65 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+388 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-10-10..2022-10-17
+
+* [support casting boxes to dyn*](https://github.com/rust-lang/rust/pull/102641)
+* [support default-body trait functions with return-position `impl Trait` in traits](https://github.com/rust-lang/rust/pull/101679)
+* [mark derived `StructuralEq` as automatically derived](https://github.com/rust-lang/rust/pull/103089)
+* [allow compiling the `wasm32-wasi` std library with atomics](https://github.com/rust-lang/rust/pull/102372)
+* [detect and reject out-of-range integers in format string literals](https://github.com/rust-lang/rust/pull/102529)
+* [drop temporaries created in a condition, even if it's a let chain](https://github.com/rust-lang/rust/pull/102998)
+* [fix `let` keyword removal suggestion in structs](https://github.com/rust-lang/rust/pull/102927)
+* [make `dyn*` casts into a coercion, allow `dyn*` upcasting](https://github.com/rust-lang/rust/pull/101832)
+* [make `overlapping_impls` not generic](https://github.com/rust-lang/rust/pull/102931)
+* [point out incompatible closure bounds](https://github.com/rust-lang/rust/pull/101360)
+* [populate effective visibilities in `rustc_resolve`](https://github.com/rust-lang/rust/pull/102026)
+* [print return-position `impl Trait` in trait verbosely if `-Zverbose`](https://github.com/rust-lang/rust/pull/102904)
+* [add suggestion to the "missing native library" error](https://github.com/rust-lang/rust/pull/103000)
+* [suggest `==` to the first expr which has `ExprKind::Assign` kind](https://github.com/rust-lang/rust/pull/102765)
+* [suggest candidates for unresolved import](https://github.com/rust-lang/rust/pull/102876)
+* [suggest parentheses for possible range method calling](https://github.com/rust-lang/rust/pull/102454)
+* [suppress irrefutable let patterns lint for prefixes in match guards](https://github.com/rust-lang/rust/pull/103031)
+* [unify `tcx.constness` query and param env constness checks](https://github.com/rust-lang/rust/pull/102830)
+* [remove type traversal for mir constants](https://github.com/rust-lang/rust/pull/102355)
+* [scoped threads: pass closure through MaybeUninit to avoid invalid dangling references](https://github.com/rust-lang/rust/pull/102589)
+* [never panic in `thread::park` and `thread::park_timeout`](https://github.com/rust-lang/rust/pull/102412)
+* [use semaphores for thread parking on Apple platforms](https://github.com/rust-lang/rust/pull/102773)
+* [nicer errors from `assert_unsafe_precondition`](https://github.com/rust-lang/rust/pull/102732)
+* [optimize TLS on Windows](https://github.com/rust-lang/rust/pull/102655)
+* [stabilize `map_first_last`](https://github.com/rust-lang/rust/pull/101727)
+* [constify `Location` methods](https://github.com/rust-lang/rust/pull/101030)
+* [add `MaybeUninit` array transpose `From` impls](https://github.com/rust-lang/rust/pull/102023)
+* [add `Box<[T; N]>: TryFrom<Vec<T>>`](https://github.com/rust-lang/rust/pull/101837)
+* [add `IsTerminal` trait to determine if a descriptor or handle is a terminal](https://github.com/rust-lang/rust/pull/98033)
+* [add `is_empty()` method to `core::ffi::CStr`](https://github.com/rust-lang/rust/pull/102445)
+* [panic for invalid arguments of `{integer primitive}::ilog{,2,10}` in all modes](https://github.com/rust-lang/rust/pull/102578)
+* [impl `AsFd` and `AsRawFd` for `io::`{`Stdin`, `Stdout`, `Stderr`}, not the sys versions](https://github.com/rust-lang/rust/pull/102847)
+* [prevent UB in child process after calling `libc::fork`](https://github.com/rust-lang/rust/pull/102460)
+* [fix `Duration::{try_,}from_secs_f{32,64}(-0.0)`](https://github.com/rust-lang/rust/pull/103059)
+* [SIMD: mark more mask functions inline](https://github.com/rust-lang/portable-simd/pull/309)
+* [futures: fix soundness hole in join macros](https://github.com/rust-lang/futures-rs/pull/2649)
+* [cargo: fix deadlock when build scripts are waiting for input on stdin](https://github.com/rust-lang/cargo/pull/11205)
+* [cargo: support 'publish.timeout' config behind '-Zpublish-timeout'](https://github.com/rust-lang/cargo/pull/11230)
+* [rustdoc: change default level of `invalid_html_tags` to warning and stabilize it](https://github.com/rust-lang/rust/pull/101720)
+* [clippy: add `as_ptr_cast_mut` lint](https://github.com/rust-lang/rust-clippy/pull/9572)
+* [clippy: add `unused_format_specs` lint](https://github.com/rust-lang/rust-clippy/pull/9637)
+* [clippy: add a suggestion and a note about orphan rules for `from_over_into`](https://github.com/rust-lang/rust-clippy/pull/9649)
+* [clippy: add new lint `partial_pub_fields`](https://github.com/rust-lang/rust-clippy/pull/9658)
+* [clippy: change `uninlined_format_args` into a style lint](https://github.com/rust-lang/rust-clippy/pull/9600)
+* [clippy: don't lint `ptr_arg` when used as an incompatible trait object](https://github.com/rust-lang/rust-clippy/pull/9645)
+* [clippy: fix `to_string_in_format_args` in parens](https://github.com/rust-lang/rust-clippy/pull/9590)
+* [clippy: don't lint `default_numeric_fallback` on constants](https://github.com/rust-lang/rust-clippy/pull/9636)
+* [clippy: don't lint `unnecessary_cast` on negative hexadecimal literals when cast as floats](https://github.com/rust-lang/rust-clippy/pull/9609)
+* [clippy: `zero_prefixed_literal`: Do not advise to use octal form if not possible](https://github.com/rust-lang/rust-clippy/pull/9652)
+* [clippy: add `cast-nan-to-int` lint](https://github.com/rust-lang/rust-clippy/pull/9617)
+* [clippy: fix `box-default` linting `no_std` non-boxes](https://github.com/rust-lang/rust-clippy/pull/9655)
+* [clippy: fix: `uninlined_format_args` shouldn't inline panic! before 2021 edition](https://github.com/rust-lang/rust-clippy/pull/9605)
+* [rust-analyzer: migrate assists to format args captures, part 2](https://github.com/rust-lang/rust-analyzer/pull/13399)
+* [rust-analyzer: diagnose some incorrect usages of the question mark operator](https://github.com/rust-lang/rust-analyzer/pull/13354)
+* [rust-analyzer: fix formatting requests hanging when r-a is still starting](https://github.com/rust-lang/rust-analyzer/pull/13428)
 
 ### Rust Compiler Performance Triage
 
@@ -202,7 +262,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I think it's worth noting that the fact that this program fails to compile whereas the analogous Python runs but gives the wrong answer is *exactly what Rust's ownership and borrowing system is about*.
+
+– [Kevin Reid on rust-users](https://users.rust-lang.org/t/capturing-a-copy-of-a-local-variable-for-a-lambda/82522/5)
+
+Thanks to [Kill The Mule](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1310) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
