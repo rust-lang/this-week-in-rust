@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [OpenPGP Card Alpha For Nitrokey 3](https://www.nitrokey.com/blog/2022/openpgp-card-alpha-nitrokey-3)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
