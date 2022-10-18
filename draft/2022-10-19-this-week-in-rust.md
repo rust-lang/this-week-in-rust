@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rust on Espressif chips - 17-10-2022](https://mabez.dev/blog/posts/esp-rust-17-10-2022/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
