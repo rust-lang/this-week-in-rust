@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [GlueSQL v0.13 - FSM based SQL query builder is newly added](https://github.com/gluesql/gluesql/releases/tag/v0.13.0)
 
 ### Observations/Thoughts
 
