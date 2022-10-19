@@ -36,7 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
-
+[Platform Agnostic Drivers in Rust: Publishing to Crates.io](https://apollolabsblog.hashnode.dev/platform-agnostic-drivers-in-rust-publishing-to-cratesio)
 ### Rust Walkthroughs
 
 ### Research
