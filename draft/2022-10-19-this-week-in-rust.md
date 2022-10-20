@@ -32,12 +32,28 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust GameDev #38 - September 2022](https://gamedev.rs/news/038/)
 
 ### Project/Tooling Updates
+* [Progress report on rustc_codegen_cranelift (Okt 2022)](https://bjorn3.github.io/2022/10/12/progress-report-okt-2022.html)
+* [Announcing KataOS and Sparrow](https://opensource.googleblog.com/2022/10/announcing-kataos-and-sparrow.html)
+* [rust-analyzer changelog #151](https://rust-analyzer.github.io/thisweek/2022/10/17/changelog-151.html)
+* [A Memory Safe Implementation of the Network Time Protocol](https://www.memorysafety.org/blog/memory-safe-ntp/)
 
 ### Observations/Thoughts
+* [A first look at Rust in the 6.1 kernel](https://lwn.net/SubscriberLink/910762/0ebbdbf4b6f481d3/)
+* [Asynchronous programming in Rust](https://opensource.com/article/22/10/asynchronous-programming-rust)
+* [Why Rust?](https://www.rerun.io/blog/why-rust)
+* [What If LaTeX Had Instant Preview?](https://laurmaedje.github.io/posts/comemo/)
+* [Magical handler functions in Rust](https://lunatic.solutions/blog/magic-handler-functions-in-rust/)
 
 ### Rust Walkthroughs
+* [Rust: Type Concealment With Any Trait and FnMut](https://valand.dev/blog/post/rust-type-concealment-with-any-trait-and-fnmut/)
+* [Practical Parsing in Rust with nom](https://naiveai.hashnode.dev/practical-parsing-nom)
+* [The Little Joys of Code: Proc Macros](https://felix-knorr.net/posts/2022-10-14-proc-macros.html)
+* [How to Build a Machine Learning Model in Rust](https://www.freecodecamp.org/news/how-to-build-a-machine-learning-model-in-rust/)
+* [video] [Building Awesome Desktop App with Rust, Tauri, and SurrealDB](https://www.youtube.com/watch?v=BY_ZjPGqJJk)
+* [video] [AsRef/Borrow Traits, and the ?Sized Marker - Rust](https://www.youtube.com/watch?v=4YAmpHMl1Z0)
 
 ### Research
 
