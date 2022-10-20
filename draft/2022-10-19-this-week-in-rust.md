@@ -76,6 +76,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [zerocopy - Add defensive programming in FromBytes::new_box_slice_zeroed](https://github.com/google/zerocopy/issues/64)
+* [zerocopy - Add tests for compilation failure](https://github.com/google/zerocopy/issues/17)
+* [Fornjot - export-validator does not support Windows](https://github.com/hannobraun/Fornjot/issues/1231)
+* [Ockam - Add clap based ockam sub command to create a vault without creating a node](https://github.com/build-trust/ockam/issues/3683)
+* [Ockam - Add clap based ockam sub command to rotate identity keys](https://github.com/build-trust/ockam/issues/3685)
+* [Ockam - Partition rust test jobs with nextest](https://github.com/build-trust/ockam/issues/3619)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
