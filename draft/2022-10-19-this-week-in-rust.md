@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 * [A Memory Safe Implementation of the Network Time Protocol](https://www.memorysafety.org/blog/memory-safe-ntp/)
 
 ### Observations/Thoughts
+* [Platform Agnostic Drivers in Rust: Publishing to Crates.io](https://apollolabsblog.hashnode.dev/platform-agnostic-drivers-in-rust-publishing-to-cratesio)
 * [A first look at Rust in the 6.1 kernel](https://lwn.net/SubscriberLink/910762/0ebbdbf4b6f481d3/)
 * [Asynchronous programming in Rust](https://opensource.com/article/22/10/asynchronous-programming-rust)
 * [Why Rust?](https://www.rerun.io/blog/why-rust)
