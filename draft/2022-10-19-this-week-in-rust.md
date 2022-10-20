@@ -27,10 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 * [This Month in Rust GameDev #38 - September 2022](https://gamedev.rs/news/038/)
 
@@ -66,8 +62,6 @@ and just ask the editors to select the category.
 ### Research
 
 * [Simulating C++ references in Rust](https://medium.com/@adetaylor/are-we-reference-yet-c-references-in-rust-72c1c6c7015a)
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -334,7 +328,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/xldzbl/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
