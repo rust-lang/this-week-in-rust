@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [RPITs, RPITITs and AFITs and their relationship](https://santiagopastorino.com/2022/10/20/what-rpits-rpitits-and-afits-and-their-relationship)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
