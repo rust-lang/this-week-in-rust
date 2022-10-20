@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 * [Rust on Espressif chips - 17-10-2022](https://mabez.dev/blog/posts/esp-rust-17-10-2022/)
 
+* [Introducing BastionAI, an open-source privacy-friendly AI training framework in Rust](https://blog.mithrilsecurity.io/introducing-bastionai/)
+
 ### Observations/Thoughts
 * [Platform Agnostic Drivers in Rust: Publishing to Crates.io](https://apollolabsblog.hashnode.dev/platform-agnostic-drivers-in-rust-publishing-to-cratesio)
 * [A first look at Rust in the 6.1 kernel](https://lwn.net/SubscriberLink/910762/0ebbdbf4b6f481d3/)
