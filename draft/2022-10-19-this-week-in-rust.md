@@ -39,9 +39,8 @@ and just ask the editors to select the category.
 * [Announcing KataOS and Sparrow](https://opensource.googleblog.com/2022/10/announcing-kataos-and-sparrow.html)
 * [rust-analyzer changelog #151](https://rust-analyzer.github.io/thisweek/2022/10/17/changelog-151.html)
 * [A Memory Safe Implementation of the Network Time Protocol](https://www.memorysafety.org/blog/memory-safe-ntp/)
-
+* [GlueSQL v0.13 - FSM based SQL query builder is newly added](https://github.com/gluesql/gluesql/releases/tag/v0.13.0)
 * [Rust on Espressif chips - 17-10-2022](https://mabez.dev/blog/posts/esp-rust-17-10-2022/)
-
 * [Introducing BastionAI, an open-source privacy-friendly AI training framework in Rust](https://blog.mithrilsecurity.io/introducing-bastionai/)
 
 ### Observations/Thoughts
