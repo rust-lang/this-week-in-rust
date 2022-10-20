@@ -253,6 +253,8 @@ Rusty Events between 2022-10-19 - 2022-11-16 🦀
     * [**Rust Paris meetup #53**](https://www.meetup.com/rust-paris/events/288735204/)
 * 2022-10-26 | London, UK | [Rust London User Group](https://www.meetup.com/rust-london-user-group/)
     * [**LDN Talks October 2022: Host by Amazon Prime Video**](https://www.meetup.com/rust-london-user-group/events/289023932/)
+* 2022-10-26 | Bristol, UK | [Rust and C++ Cardiff/Rust Bristol](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
+    * [**Programming Veloren & Rust for a living**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/289204085/)
 * 2022-10-27 | København, DK | [Copenhagen Rust Group](https://cph.rs/)
     * [**Hack Night #30**](https://www.meetup.com/copenhagen-rust-meetup-group/events/288179125/)
     
