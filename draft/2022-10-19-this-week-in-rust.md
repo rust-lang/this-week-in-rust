@@ -59,6 +59,7 @@ and just ask the editors to select the category.
 * [How to Build a Machine Learning Model in Rust](https://www.freecodecamp.org/news/how-to-build-a-machine-learning-model-in-rust/)
 * [video] [Building Awesome Desktop App with Rust, Tauri, and SurrealDB](https://www.youtube.com/watch?v=BY_ZjPGqJJk)
 * [video] [AsRef/Borrow Traits, and the ?Sized Marker - Rust](https://www.youtube.com/watch?v=4YAmpHMl1Z0)
+* [Using Neovim for Rust Development](https://rusty-ferris.pages.dev/blog/using-nvim-for-rust-development/)
 
 ### Research
 
