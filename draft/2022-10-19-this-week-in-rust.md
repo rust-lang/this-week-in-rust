@@ -230,6 +230,8 @@ Rusty Events between 2022-10-19 - 2022-11-16 🦀
     * [**Rapid Prototyping in Rust: Write fast like Python; Run fast like C**](https://www.meetup.com/vancouver-rust/events/288641106/)
 * 2022-10-19 | Virtual | [Boston NoSQL Database Group (ScyllaDB)](https://www.meetup.com/meetup-group-boston-nosql-database-group/)
     * [**p99 Conf: All Things Performance (including talks on Rust) - Free**](https://www.meetup.com/meetup-group-boston-nosql-database-group/events/288464419/) | [**Official conference page**](https://www.p99conf.io)
+* 2022-10-20 | Virtual (Buenos Aires, AR) | [Nerdearla](https://nerdear.la)
+    * [**Rust y el desarrollo de software en la próxima década**](https://app.swapcard.com/widget/event/nerdearla-2022/planning/UGxhbm5pbmdfMTAxMzQzOQ==)
 * 2022-10-20 | Virtual (México City, MX) | [Rust MX](https://www.meetup.com/rust-mx/)
     * [**Graphul, un web framework escrito en Rust**](https://www.meetup.com/rust-mx/events/289023645/)
 * 2022-10-20 | Virtual (Stuttgart, DE) | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
