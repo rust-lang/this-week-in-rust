@@ -61,6 +61,8 @@ and just ask the editors to select the category.
 * [video] [AsRef/Borrow Traits, and the ?Sized Marker - Rust](https://www.youtube.com/watch?v=4YAmpHMl1Z0)
 * [Using Neovim for Rust Development](https://rusty-ferris.pages.dev/blog/using-nvim-for-rust-development/)
 
+* [[series] Sqlite File Parser Pt 3](https://freemasen.com/blog/sqlite-parser-pt-3/index.html)
+
 ### Research
 
 * [Simulating C++ references in Rust](https://medium.com/@adetaylor/are-we-reference-yet-c-references-in-rust-72c1c6c7015a)
