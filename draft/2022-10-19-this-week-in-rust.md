@@ -32,13 +32,32 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust GameDev #38 - September 2022](https://gamedev.rs/news/038/)
 
 ### Project/Tooling Updates
+* [Progress report on rustc_codegen_cranelift (Okt 2022)](https://bjorn3.github.io/2022/10/12/progress-report-okt-2022.html)
+* [Announcing KataOS and Sparrow](https://opensource.googleblog.com/2022/10/announcing-kataos-and-sparrow.html)
+* [rust-analyzer changelog #151](https://rust-analyzer.github.io/thisweek/2022/10/17/changelog-151.html)
+* [A Memory Safe Implementation of the Network Time Protocol](https://www.memorysafety.org/blog/memory-safe-ntp/)
 * [GlueSQL v0.13 - FSM based SQL query builder is newly added](https://github.com/gluesql/gluesql/releases/tag/v0.13.0)
+* [Rust on Espressif chips - 17-10-2022](https://mabez.dev/blog/posts/esp-rust-17-10-2022/)
+* [Introducing BastionAI, an open-source privacy-friendly AI training framework in Rust](https://blog.mithrilsecurity.io/introducing-bastionai/)
 
 ### Observations/Thoughts
+* [Platform Agnostic Drivers in Rust: Publishing to Crates.io](https://apollolabsblog.hashnode.dev/platform-agnostic-drivers-in-rust-publishing-to-cratesio)
+* [A first look at Rust in the 6.1 kernel](https://lwn.net/SubscriberLink/910762/0ebbdbf4b6f481d3/)
+* [Asynchronous programming in Rust](https://opensource.com/article/22/10/asynchronous-programming-rust)
+* [Why Rust?](https://www.rerun.io/blog/why-rust)
+* [What If LaTeX Had Instant Preview?](https://laurmaedje.github.io/posts/comemo/)
+* [Magical handler functions in Rust](https://lunatic.solutions/blog/magic-handler-functions-in-rust/)
 
 ### Rust Walkthroughs
+* [Rust: Type Concealment With Any Trait and FnMut](https://valand.dev/blog/post/rust-type-concealment-with-any-trait-and-fnmut/)
+* [Practical Parsing in Rust with nom](https://naiveai.hashnode.dev/practical-parsing-nom)
+* [The Little Joys of Code: Proc Macros](https://felix-knorr.net/posts/2022-10-14-proc-macros.html)
+* [How to Build a Machine Learning Model in Rust](https://www.freecodecamp.org/news/how-to-build-a-machine-learning-model-in-rust/)
+* [video] [Building Awesome Desktop App with Rust, Tauri, and SurrealDB](https://www.youtube.com/watch?v=BY_ZjPGqJJk)
+* [video] [AsRef/Borrow Traits, and the ?Sized Marker - Rust](https://www.youtube.com/watch?v=4YAmpHMl1Z0)
 
 ### Research
 
@@ -46,7 +65,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [HyperQueue](https://github.com/It4innovations/hyperqueue), a runtime for ergonomic execution of programs on a distributed cluster.
+
+Thanks to [Jakub Beránek](https://users.rust-lang.org/t/crate-of-the-week/2704/1113) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -59,27 +80,130 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [zerocopy - Add defensive programming in FromBytes::new_box_slice_zeroed](https://github.com/google/zerocopy/issues/64)
+* [zerocopy - Add tests for compilation failure](https://github.com/google/zerocopy/issues/17)
+* [Fornjot - export-validator does not support Windows](https://github.com/hannobraun/Fornjot/issues/1231)
+* [Ockam - Add clap based ockam sub command to create a vault without creating a node](https://github.com/build-trust/ockam/issues/3683)
+* [Ockam - Add clap based ockam sub command to rotate identity keys](https://github.com/build-trust/ockam/issues/3685)
+* [Ockam - Partition rust test jobs with nextest](https://github.com/build-trust/ockam/issues/3619)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+388 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-10-10..2022-10-17
+
+* [support casting boxes to dyn*](https://github.com/rust-lang/rust/pull/102641)
+* [support default-body trait functions with return-position `impl Trait` in traits](https://github.com/rust-lang/rust/pull/101679)
+* [mark derived `StructuralEq` as automatically derived](https://github.com/rust-lang/rust/pull/103089)
+* [allow compiling the `wasm32-wasi` std library with atomics](https://github.com/rust-lang/rust/pull/102372)
+* [detect and reject out-of-range integers in format string literals](https://github.com/rust-lang/rust/pull/102529)
+* [drop temporaries created in a condition, even if it's a let chain](https://github.com/rust-lang/rust/pull/102998)
+* [fix `let` keyword removal suggestion in structs](https://github.com/rust-lang/rust/pull/102927)
+* [make `dyn*` casts into a coercion, allow `dyn*` upcasting](https://github.com/rust-lang/rust/pull/101832)
+* [make `overlapping_impls` not generic](https://github.com/rust-lang/rust/pull/102931)
+* [point out incompatible closure bounds](https://github.com/rust-lang/rust/pull/101360)
+* [populate effective visibilities in `rustc_resolve`](https://github.com/rust-lang/rust/pull/102026)
+* [print return-position `impl Trait` in trait verbosely if `-Zverbose`](https://github.com/rust-lang/rust/pull/102904)
+* [add suggestion to the "missing native library" error](https://github.com/rust-lang/rust/pull/103000)
+* [suggest `==` to the first expr which has `ExprKind::Assign` kind](https://github.com/rust-lang/rust/pull/102765)
+* [suggest candidates for unresolved import](https://github.com/rust-lang/rust/pull/102876)
+* [suggest parentheses for possible range method calling](https://github.com/rust-lang/rust/pull/102454)
+* [suppress irrefutable let patterns lint for prefixes in match guards](https://github.com/rust-lang/rust/pull/103031)
+* [unify `tcx.constness` query and param env constness checks](https://github.com/rust-lang/rust/pull/102830)
+* [remove type traversal for mir constants](https://github.com/rust-lang/rust/pull/102355)
+* [scoped threads: pass closure through MaybeUninit to avoid invalid dangling references](https://github.com/rust-lang/rust/pull/102589)
+* [never panic in `thread::park` and `thread::park_timeout`](https://github.com/rust-lang/rust/pull/102412)
+* [use semaphores for thread parking on Apple platforms](https://github.com/rust-lang/rust/pull/102773)
+* [nicer errors from `assert_unsafe_precondition`](https://github.com/rust-lang/rust/pull/102732)
+* [optimize TLS on Windows](https://github.com/rust-lang/rust/pull/102655)
+* [stabilize `map_first_last`](https://github.com/rust-lang/rust/pull/101727)
+* [constify `Location` methods](https://github.com/rust-lang/rust/pull/101030)
+* [add `MaybeUninit` array transpose `From` impls](https://github.com/rust-lang/rust/pull/102023)
+* [add `Box<[T; N]>: TryFrom<Vec<T>>`](https://github.com/rust-lang/rust/pull/101837)
+* [add `IsTerminal` trait to determine if a descriptor or handle is a terminal](https://github.com/rust-lang/rust/pull/98033)
+* [add `is_empty()` method to `core::ffi::CStr`](https://github.com/rust-lang/rust/pull/102445)
+* [panic for invalid arguments of `{integer primitive}::ilog{,2,10}` in all modes](https://github.com/rust-lang/rust/pull/102578)
+* [impl `AsFd` and `AsRawFd` for `io::`{`Stdin`, `Stdout`, `Stderr`}, not the sys versions](https://github.com/rust-lang/rust/pull/102847)
+* [prevent UB in child process after calling `libc::fork`](https://github.com/rust-lang/rust/pull/102460)
+* [fix `Duration::{try_,}from_secs_f{32,64}(-0.0)`](https://github.com/rust-lang/rust/pull/103059)
+* [SIMD: mark more mask functions inline](https://github.com/rust-lang/portable-simd/pull/309)
+* [futures: fix soundness hole in join macros](https://github.com/rust-lang/futures-rs/pull/2649)
+* [cargo: fix deadlock when build scripts are waiting for input on stdin](https://github.com/rust-lang/cargo/pull/11205)
+* [cargo: support 'publish.timeout' config behind '-Zpublish-timeout'](https://github.com/rust-lang/cargo/pull/11230)
+* [rustdoc: change default level of `invalid_html_tags` to warning and stabilize it](https://github.com/rust-lang/rust/pull/101720)
+* [clippy: add `as_ptr_cast_mut` lint](https://github.com/rust-lang/rust-clippy/pull/9572)
+* [clippy: add `unused_format_specs` lint](https://github.com/rust-lang/rust-clippy/pull/9637)
+* [clippy: add a suggestion and a note about orphan rules for `from_over_into`](https://github.com/rust-lang/rust-clippy/pull/9649)
+* [clippy: add new lint `partial_pub_fields`](https://github.com/rust-lang/rust-clippy/pull/9658)
+* [clippy: change `uninlined_format_args` into a style lint](https://github.com/rust-lang/rust-clippy/pull/9600)
+* [clippy: don't lint `ptr_arg` when used as an incompatible trait object](https://github.com/rust-lang/rust-clippy/pull/9645)
+* [clippy: fix `to_string_in_format_args` in parens](https://github.com/rust-lang/rust-clippy/pull/9590)
+* [clippy: don't lint `default_numeric_fallback` on constants](https://github.com/rust-lang/rust-clippy/pull/9636)
+* [clippy: don't lint `unnecessary_cast` on negative hexadecimal literals when cast as floats](https://github.com/rust-lang/rust-clippy/pull/9609)
+* [clippy: `zero_prefixed_literal`: Do not advise to use octal form if not possible](https://github.com/rust-lang/rust-clippy/pull/9652)
+* [clippy: add `cast-nan-to-int` lint](https://github.com/rust-lang/rust-clippy/pull/9617)
+* [clippy: fix `box-default` linting `no_std` non-boxes](https://github.com/rust-lang/rust-clippy/pull/9655)
+* [clippy: fix: `uninlined_format_args` shouldn't inline panic! before 2021 edition](https://github.com/rust-lang/rust-clippy/pull/9605)
+* [rust-analyzer: migrate assists to format args captures, part 2](https://github.com/rust-lang/rust-analyzer/pull/13399)
+* [rust-analyzer: diagnose some incorrect usages of the question mark operator](https://github.com/rust-lang/rust-analyzer/pull/13354)
+* [rust-analyzer: fix formatting requests hanging when r-a is still starting](https://github.com/rust-lang/rust-analyzer/pull/13428)
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Overall a fairly busy week, with many improvements and regressions, though the
+net result ends up being a small regression. Pretty busy week in terms of
+regressions in rollups as well, which unfortunately mostly were not followed up
+on prior to the report being put together, despite the relative ease of running
+perf against individual PRs now.
 
-### Call for Testing
+Triage done by **@simulacrum**.
+Revision range: [1e926f06..e0f8e60](https://perf.rust-lang.org/?start=1e926f06528ecb2503f026e2fd53cb735d487b10&end=e0f8e60dddfecfc9093ee9d9f42557d8260c0355&absolute=false&stat=instructions%3Au)
 
+2 Regressions, 4 Improvements, 4 Mixed; 4 of them in rollups
+47 artifact comparisons made in total
+
+See [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-10-18.md) for details.
+
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* *No RFCs issued a call for testing this week.*
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
+
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* *No RFCs were approved this week.*
+
+### Final Comment Period
+
+Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
+which are reaching a decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* *No RFCs entered Final Comment Period this week.*
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* * *No Tracking Issues or PRs entered Final Comment Period this week.*
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* [new] [Add RFC for calling default trait methods](https://github.com/rust-lang/rfcs/pull/3329)
+* [new] [Add lang-team advisors team](https://github.com/rust-lang/rfcs/pull/3327)
 
 ## Upcoming Events
 
@@ -109,6 +233,8 @@ Rusty Events between 2022-10-19 - 2022-11-16 🦀
     * [**Rapid Prototyping in Rust: Write fast like Python; Run fast like C**](https://www.meetup.com/vancouver-rust/events/288641106/)
 * 2022-10-19 | Virtual | [Boston NoSQL Database Group (ScyllaDB)](https://www.meetup.com/meetup-group-boston-nosql-database-group/)
     * [**p99 Conf: All Things Performance (including talks on Rust) - Free**](https://www.meetup.com/meetup-group-boston-nosql-database-group/events/288464419/) | [**Official conference page**](https://www.p99conf.io)
+* 2022-10-20 | Virtual (Buenos Aires, AR) | [Nerdearla](https://nerdear.la)
+    * [**Rust y el desarrollo de software en la próxima década**](https://app.swapcard.com/widget/event/nerdearla-2022/planning/UGxhbm5pbmdfMTAxMzQzOQ==)
 * 2022-10-20 | Virtual (México City, MX) | [Rust MX](https://www.meetup.com/rust-mx/)
     * [**Graphul, un web framework escrito en Rust**](https://www.meetup.com/rust-mx/events/289023645/)
 * 2022-10-20 | Virtual (Stuttgart, DE) | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
@@ -152,6 +278,8 @@ Rusty Events between 2022-10-19 - 2022-11-16 🦀
     * [**Rust Paris meetup #53**](https://www.meetup.com/rust-paris/events/288735204/)
 * 2022-10-26 | London, UK | [Rust London User Group](https://www.meetup.com/rust-london-user-group/)
     * [**LDN Talks October 2022: Host by Amazon Prime Video**](https://www.meetup.com/rust-london-user-group/events/289023932/)
+* 2022-10-26 | Bristol, UK | [Rust and C++ Cardiff/Rust Bristol](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
+    * [**Programming Veloren & Rust for a living**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/289204085/)
 * 2022-10-27 | København, DK | [Copenhagen Rust Group](https://cph.rs/)
     * [**Hack Night #30**](https://www.meetup.com/copenhagen-rust-meetup-group/events/288179125/)
     
@@ -203,7 +331,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I think it's worth noting that the fact that this program fails to compile whereas the analogous Python runs but gives the wrong answer is *exactly what Rust's ownership and borrowing system is about*.
+
+– [Kevin Reid on rust-users](https://users.rust-lang.org/t/capturing-a-copy-of-a-local-variable-for-a-lambda/82522/5)
+
+Thanks to [Kill The Mule](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1310) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
