@@ -268,7 +268,6 @@ Rusty Events between 2022-10-19 - 2022-11-16 🦀
 * 2022-11-16 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/tqvhxsydcpbvb/)
 
-
 ### Europe
 
 * 2022-10-20 | London, UK | [Rust London User Group](https://www.meetup.com/rust-london-user-group/)
