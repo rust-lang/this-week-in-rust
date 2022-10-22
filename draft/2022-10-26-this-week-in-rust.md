@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Nine Rules for Creating Procedural Macros in Rust: Practical Lessons from anyinput, a New Macro for Easily Accepting String/Path/Iterator/Array-Like Inputs](https://towardsdatascience.com/nine-rules-for-creating-procedural-macros-in-rust-595aa476a7ff)
 
 ### Research
 
