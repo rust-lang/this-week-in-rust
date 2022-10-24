@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Evaluating Build Scripts in the IntelliJ Rust Plugin](https://blog.jetbrains.com/rust/2022/10/24/evaluating-build-scripts-in-the-intellij-rust-plugin/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
