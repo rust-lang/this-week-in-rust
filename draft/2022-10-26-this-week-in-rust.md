@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+[Zellij 0.32.0: YAML => KDL, actions through CLI, command panes and a new layout system](https://zellij.dev/news/config-command-layouts/)
 
 ### Observations/Thoughts
 
