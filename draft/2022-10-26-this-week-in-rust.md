@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Buffers on the edge: Python and Rust](https://alexgaynor.net/2022/oct/23/buffers-on-the-edge/)
 
 ### Rust Walkthroughs
 
