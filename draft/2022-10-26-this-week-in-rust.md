@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+ - [MacroKata: Rustlings style exercises for learning macros](https://tfpk.github.io/macrokata/)
+
 ### Research
 
 ### Miscellaneous
