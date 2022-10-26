@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [series] [Sqlite File Parser Pt 4](https://freemasen.com/blog/sqlite-parser-pt4/index.html)
+
 ### Research
 
 ### Miscellaneous
