@@ -58,6 +58,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [zerocopy - Optimize caching in CI](https://github.com/google/zerocopy/issues/85)
+* [boa - hacktoberfest issues](https://github.com/boa-dev/boa/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22%2CHacktoberfest%2CE-Easy%2C%22good+first+issue%22+no%3Aassignee)
+* [boa - bugs that cause boa to panic](https://github.com/boa-dev/boa/issues?q=is%3Aissue+is%3Aopen+panic+no%3Aassignee)
+* [Ockam - Show "help" output when no args passed on subscription show clap command](https://github.com/build-trust/ockam/issues/3739)
+* [Ockam - Add argument to node create clap command to terminate on EOF on STDIN](https://github.com/build-trust/ockam/issues/3701)
+* [Ockam - Extract duplicated code into a shared helper function](https://github.com/build-trust/ockam/issues/3742)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
