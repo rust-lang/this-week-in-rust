@@ -30,18 +30,54 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Rust Foundation](https://foundation.rust-lang.org/news/implementing-the-network-time-protocol-ntp-in-rust/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #152](https://rust-analyzer.github.io/thisweek/2022/10/24/changelog-152.html)
+* [IntelliJ Rust Changelog #181](https://intellij-rust.github.io/2022/10/24/changelog-181.html)
+* [mirrord 3.0 is out!](https://metalbear.co/blog/mirrord-3.0-is-out/)
+* [gix credential and diffing with similar](https://github.com/Byron/gitoxide/discussions/564)
+* [New release – gtk-rs](https://gtk-rs.org/blog/2022/10/18/new-release.html)
 
 ### Observations/Thoughts
+* [Adding Ada to Rust](https://blog.adacore.com/adding-ada-to-rust)
+* [Adding a JavaScript interpreter to your Rust project](https://boa-dev.github.io/posts/2022-10-24-boa-usage/)
+* [Rust in the Linux Kernel: Just the Beginning](https://www.memorysafety.org/blog/rust-in-linux-just-the-beginning/)
+* [A deeper look into the GCC Rust front-end](https://lwn.net/Articles/909887/)
+* [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for)
+* [Making Rust attractive for writing GTK applications](https://belmoussaoui.com/blog/15-making-rust-attractive-for-writing-gtk-applications/)
+* [Adventures In Cross Compilation](https://kentiklabs.com/blog/adventures-in-cross-compilation/)
+* [Compiling Brainfuck code - Part 1: A Optimized Interpreter](https://rodrigodd.github.io/2022/10/21/bf_compiler-part1.html)
+* [Rust Embedded Graphics with the MAX7219](https://apollolabsblog.hashnode.dev/rust-embedded-graphics-with-the-max7219)
+* [Buffers on the edge: Python and Rust · Alex Gaynor](https://alexgaynor.net/2022/oct/23/buffers-on-the-edge/)
+* [Writing Better Integration Tests with RAII](https://notado.substack.com/p/writing-better-integration-tests)
+* [Contention on multi-threaded regex matching](https://morestina.net/blog/1827/multi-threaded-regex)
+* [RPITs, RPITITs and AFITs and their relationship](https://santiagopastorino.com/2022/10/20/what-rpits-rpitits-and-afits-and-their-relationship/)
 
 ### Rust Walkthroughs
+* [Serde by Example 2: OpenStreetMap](https://blog.dzejkop.space/posts/serde-by-example-2.html)
+* [Enums and Pattern Matching in Rust](https://serokell.io/blog/enums-and-pattern-matching)
+* [Creating a minimal RESTful song request API using Rocket](https://imajindevon.hashnode.dev/rust-rocket-song-request-api)
+* [Compiling Rust libraries for Android apps: a deep dive](https://gendignoux.com/blog/2022/10/24/rust-library-android.html)
+* [Inline Crates](https://blog.yoshuawuyts.com/inline-crates/)
+* [Writing a HashMap in Rust without unsafe](https://ecton.dev/writing-a-hashmap-without-unsafe/)
+* [A Rust web app with HTML templates](https://woile.dev/posts/web-app-with-template-in-rust/)
 
 ### Research
 
 ### Miscellaneous
+* [video] [Web-native Rust apps (what will YOU build?)](https://www.youtube.com/watch?v=y10jJX35shE)
+* [video] [Rapid Prototyping in Rust: Write fast like Python; Run fast like C](https://www.youtube.com/watch?v=X7Dsu0oRk0U)
+* [video] [Let our rusty crab explore the depths of the C by Yvan Sraka](https://www.youtube.com/watch?v=GnrtYcqPOI8)
+* [video] [Case Study: Rust in axle OS by Philip Tennen](https://www.youtube.com/watch?v=OAGuoKa1Gm8)
+* [video] [Aya: Extending the Linux Kernel with eBPF and Rust by Michal Rostecki](https://www.youtube.com/watch?v=t996ZkbWnEs)
+* [video] [Building a Lightweight IR and Backend for YJIT / Maxime Chevalier-Boisvert](https://www.youtube.com/watch?v=BbLGqTxTRp0)
+* [video] [RustcContributor::explore: @compiler-errors session - RPITIT deep dive](https://www.youtube.com/watch?v=TGxio7A0SfI)
+* [Step-by-step guide to building a web-crawler](https://www.youtube.com/watch?v=oZa6UY9gzLw)
+* [SQLx in 12 minutes - Rust + Actix Web + PostgreSQL](https://www.youtube.com/watch?v=vLcoW408QvE)
+* [Bevy Basics Scenes(re-upload)](https://www.youtube.com/watch?v=bbBh3oKibkE)
 
 ## Crate of the Week
 
