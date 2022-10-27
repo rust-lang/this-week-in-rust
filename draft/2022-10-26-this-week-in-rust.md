@@ -52,7 +52,6 @@ and just ask the editors to select the category.
 * [Buffers on the edge: Python and Rust · Alex Gaynor](https://alexgaynor.net/2022/oct/23/buffers-on-the-edge/)
 * [Writing Better Integration Tests with RAII](https://notado.substack.com/p/writing-better-integration-tests)
 * [Contention on multi-threaded regex matching](https://morestina.net/blog/1827/multi-threaded-regex)
-* [RPITs, RPITITs and AFITs and their relationship](https://santiagopastorino.com/2022/10/20/what-rpits-rpitits-and-afits-and-their-relationship/)
 
 ### Rust Walkthroughs
 * [Serde by Example 2: OpenStreetMap](https://blog.dzejkop.space/posts/serde-by-example-2.html)
