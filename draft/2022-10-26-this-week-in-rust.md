@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 
 * [series] [Sqlite File Parser Pt 4](https://freemasen.com/blog/sqlite-parser-pt4/index.html)
 
+ * [MacroKata: Rustlings style exercises for learning macros](https://tfpk.github.io/macrokata/)
+
 ### Research
 
 ### Miscellaneous
