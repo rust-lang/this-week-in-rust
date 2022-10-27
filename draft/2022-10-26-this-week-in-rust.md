@@ -26,13 +26,8 @@ If you don't know which category to use, feel free to submit a PR anyway
 and just ask the editors to select the category.
 
 -->
-
-### Official
-
 ### Foundation
 * [Rust Foundation](https://foundation.rust-lang.org/news/implementing-the-network-time-protocol-ntp-in-rust/)
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [rust-analyzer changelog #152](https://rust-analyzer.github.io/thisweek/2022/10/24/changelog-152.html)
@@ -70,8 +65,6 @@ and just ask the editors to select the category.
 * [Nine Rules for Creating Procedural Macros in Rust: Practical Lessons from anyinput, a New Macro for Easily Accepting String/Path/Iterator/Array-Like Inputs](https://towardsdatascience.com/nine-rules-for-creating-procedural-macros-in-rust-595aa476a7ff)
 * [series] [Sqlite File Parser Pt 4](https://freemasen.com/blog/sqlite-parser-pt4/index.html)
 * [MacroKata: Rustlings style exercises for learning macros](https://tfpk.github.io/macrokata/)
-
-### Research
 
 ### Miscellaneous
 * [video] [Web-native Rust apps (what will YOU build?)](https://www.youtube.com/watch?v=y10jJX35shE)
@@ -373,7 +366,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/yc3z4r/hey_rustaceans_got_a_question_ask_here_432022/)
 
 # Quote of the Week
 
