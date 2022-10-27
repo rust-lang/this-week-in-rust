@@ -194,7 +194,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+An amazing week. We saw more wins than losses; I want to call out specifically
+the wins from removing attributes from metadata (up to 8.2% faster builds for 18
+benchmarks) and from enabling LTO for rustc_driver.so (up to 9.6% faster builds
+for an epic 230 benchmarks, with *zero* regressions).
+
+Triage done by **@pnkfelix**.
+Revision range: [e0f8e60d..629a414d](https://perf.rust-lang.org/?start=e0f8e60dddfecfc9093ee9d9f42557d8260c0355&end=629a414d7ba4caa3ca28b0a46c478e2ecb4c0059&absolute=false&stat=instructions%3Au)
+
+2 Regressions, 6 Improvements, 2 Mixed; 2 of them in rollups
+53 artifact comparisons made in total
+
+See [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-10-26.md) for details.
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
