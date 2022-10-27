@@ -27,7 +27,7 @@ and just ask the editors to select the category.
 
 -->
 ### Foundation
-* [Rust Foundation](https://foundation.rust-lang.org/news/implementing-the-network-time-protocol-ntp-in-rust/)
+* [Implementing the Network Time Protocol (NTP) in Rust](https://foundation.rust-lang.org/news/implementing-the-network-time-protocol-ntp-in-rust/)
 
 ### Project/Tooling Updates
 * [rust-analyzer changelog #152](https://rust-analyzer.github.io/thisweek/2022/10/24/changelog-152.html)
