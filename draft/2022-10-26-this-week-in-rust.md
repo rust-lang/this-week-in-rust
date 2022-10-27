@@ -113,7 +113,7 @@ Rusty Events between 2022-10-26 - 2022-11-23 🦀
 * 2022-11-08 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
     * [**Second Tuesday**](https://www.meetup.com/dallas-rust/events/vndgwsydcpblb/)
 * 2022-11-08 | Virtual (Rostock, DE) | [Altow Academy](https://www.meetup.com/altow-academy/)
-    * [**Rust Meetup Rostock**](https://www.meetup.com/altow-academy/)
+    * [**Rust Meetup Rostock**](https://www.meetup.com/altow-academy/events/289352420/)
 * 2022-11-08 | Virtual (Stockholm, SE) | [Func Prog Sweden](https://www.meetup.com/func-prog-sweden/)
     * [**Tenth Func Prog Sweden MeetUp 2022 – Online (with "Ready for Rust" by Erik Dörnenburg)**](https://www.meetup.com/func-prog-sweden/events/288323896/)
 * 2022-11-09 | Virtual (Malaysia, MY) | [Rust Malaysia](https://forms.gle/zWXcMDAnnibiL4ni9)
