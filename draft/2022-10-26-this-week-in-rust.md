@@ -92,7 +92,7 @@ Rusty Events between 2022-10-26 - 2022-11-23 🦀
     * [**Using Applicative Functors to parse command line options**](https://www.meetup.com/charlottesville-rust-meetup/events/288867237/)
 * 2022-10-27 | Virtual (Karlsruhe, DE) | [The Karlsruhe Functional Programmers Meetup Group](https://www.meetup.com/the-karlsruhe-functional-programmers-meetup-group/)
     * [**Stammtisch (gemeinsam mit der C++ UG KA) (various topics, from C++ to Rust...)**](https://www.meetup.com/the-karlsruhe-functional-programmers-meetup-group/events/288972651/)
-* 2022-10-27 | Virtual (Linz, AT) [Rust Linz](https://www.meetup.com/rust-linz/)
+* 2022-10-27 | Virtual (Linz, AT) | [Rust Linz](https://www.meetup.com/rust-linz/)
     * [**Rust Meetup Linz - 26th Edition**](https://www.meetup.com/rust-linz/events/289212637/)
 * 2022-10-29 | Virtual (Ludwigslust, DE) | [Ludwigslust Rust Meetup](https://www.meetup.com/ludwigslust-rust-meetup/)
     * [**Von Nullen und Einsen | Rust Meetup Ludwigslust #1**](https://www.meetup.com/ludwigslust-rust-meetup/events/289168194/)
