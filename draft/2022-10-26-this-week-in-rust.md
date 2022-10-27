@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 
 * [RPITs, RPITITs and AFITs and their relationship](https://santiagopastorino.com/2022/10/20/what-rpits-rpitits-and-afits-and-their-relationship)
 
+* [Evaluating Build Scripts in the IntelliJ Rust Plugin](https://blog.jetbrains.com/rust/2022/10/24/evaluating-build-scripts-in-the-intellij-rust-plugin/)
+
 ### Observations/Thoughts
 * [Buffers on the edge: Python and Rust](https://alexgaynor.net/2022/oct/23/buffers-on-the-edge/)
 
