@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Lock-free webserver using channels in Rust](https://www.kurtlawrence.info/blog/lock-free-webserver-using-channels-in-rust)
 
 ### Rust Walkthroughs
 
