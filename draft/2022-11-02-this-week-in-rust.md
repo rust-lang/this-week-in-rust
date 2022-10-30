@@ -83,6 +83,8 @@ RFCs would benefit from user testing before moving forward:
 
 <!-- RFC and FCP sections go here -->
 
+- [Have `cargo publish` block until crate is published](https://github.com/rust-lang/cargo/issues/9507#issuecomment-1296058029)
+
 ## Upcoming Events
 
 Rusty Events between 2022-11-02 - 2022-11-30 🦀
