@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Exploring technologies at Weborama: The Rust language](https://medium.com/weborama/introduction-to-the-rust-programming-language-4dbf8f3016de)
+
 ### Rust Walkthroughs
 
 ### Research
