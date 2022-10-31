@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[headtail: head & tail simultaneously, written in Rust](https://agile-perception.ghost.io/headtail-head-tail-simultaneously/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
