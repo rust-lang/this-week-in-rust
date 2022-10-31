@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Slint 0.3.1 - GUI framework in Rust](https://slint-ui.com/thisweek/2022-10-31.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
