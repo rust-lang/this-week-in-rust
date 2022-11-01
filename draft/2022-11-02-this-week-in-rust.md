@@ -73,15 +73,48 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 <!-- Perf results go here -->
 
-### Call for Testing
-
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* *No RFCs issued a call for testing this week.*
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
+
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* *No RFCs were approved this week.*
+
+### Final Comment Period
+
+Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
+which are reaching a decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* [disposition: merge] [Add lang-team advisors team](https://github.com/rust-lang/rfcs/pull/3327)
+* [disposition: merge] [Support upcasting of dyn Trait values](https://github.com/rust-lang/rfcs/pull/3324)
+* [disposition: close] [Short Macro Invocation Syntax: m!123 and m!"abc"](https://github.com/rust-lang/rfcs/pull/3267)
+* [disposition: merge] [crates.io token scopes](https://github.com/rust-lang/rfcs/pull/2947)
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: merge] [Use `token::Lit` in `ast::ExprKind::Lit`.](https://github.com/rust-lang/rust/pull/102944)
+* [disposition: merge] [Make `Sized` coinductive, again](https://github.com/rust-lang/rust/pull/100386)
+* [disposition: merge] [Stabilize const char convert](https://github.com/rust-lang/rust/pull/102470)
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* [new] [Add `exhaustive_match_output` RFC](https://github.com/rust-lang/rfcs/pull/3340)
+* [new] [Update the RFC template](https://github.com/rust-lang/rfcs/pull/3339)
+* [new] [Style evolution](https://github.com/rust-lang/rfcs/pull/3338)
+* [new] [MaybeDangling](https://github.com/rust-lang/rfcs/pull/3336)
 
 ## Upcoming Events
 
