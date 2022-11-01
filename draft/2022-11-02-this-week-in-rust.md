@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [SeaQuery 0.27.0 - A dynamic query builder for SeaORM](https://www.sea-ql.org/blog/2022-10-31-whats-new-in-seaquery-0.27.0/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
