@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [type\_description](https://crates.io/crates/type_description), a crate to make types discoverable for users by explaining them in a way that a user can understand without knowing implementation details.
+
+Thanks to [musicmatze](https://users.rust-lang.org/t/crate-of-the-week/2704/1119) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -67,7 +69,80 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+433 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-10-24..2022-10-31
+
+* [add a tier 3 target for the Sony PlayStation 1](https://github.com/rust-lang/rust/pull/102689)
+* [add flag to forbid recovery in the parser](https://github.com/rust-lang/rust/pull/103544)
+* [allow `impl Fn() -> impl Trait` in return position](https://github.com/rust-lang/rust/pull/93582)
+* [prevent foreign Rust exceptions from being caught](https://github.com/rust-lang/rust/pull/102721)
+* [add diagnostic for calling a function with the same name with unresolved Macro](https://github.com/rust-lang/rust/pull/103140)
+* [add suggestions for unsafe impl error codes](https://github.com/rust-lang/rust/pull/103283)
+* [change terminology for assoc method suggestions when they are not called](https://github.com/rust-lang/rust/pull/103350)
+* [diagnostic derives: allow specifying multiple alternative suggestions](https://github.com/rust-lang/rust/pull/103209)
+* [diagnostics: do not suggest static candidates as traits to import](https://github.com/rust-lang/rust/pull/103550)
+* [emit a nicer error on `impl Self {`](https://github.com/rust-lang/rust/pull/103609)
+* [emit proper error when casting to `dyn*`](https://github.com/rust-lang/rust/pull/103699)
+* [enable varargs support for calling conventions other than C or cdecl](https://github.com/rust-lang/rust/pull/97971)
+* [even nicer errors from `assert_unsafe_precondition`](https://github.com/rust-lang/rust/pull/103035)
+* [filter candidates in pick probe for diagnostics](https://github.com/rust-lang/rust/pull/103415)
+* [fix `unreachable_pub` suggestion for enum with fields](https://github.com/rust-lang/rust/pull/103338)
+* [name the `impl Trait` in region bound suggestions](https://github.com/rust-lang/rust/pull/103416)
+* [remap early bound lifetimes in return-position `impl Trait` in traits too](https://github.com/rust-lang/rust/pull/103608)
+* [remove extra type error after missing semicolon error](https://github.com/rust-lang/rust/pull/103444)
+* [libtest: do fewer passes and generally be more efficient when filtering tests](https://github.com/rust-lang/rust/pull/103689)
+* [libtest: sort tests at compile time, not at startup](https://github.com/rust-lang/rust/pull/99939)
+* [suggest type annotation for local statement initialed by ref expression](https://github.com/rust-lang/rust/pull/102951)
+* [miri: implement `ptr_mask` intrinsic](https://github.com/rust-lang/miri/pull/2624)
+* [miri: implement thread parking for Windows](https://github.com/rust-lang/miri/pull/2630)
+* [miri: stacked Borrows:  make scalar field retagging the default](https://github.com/rust-lang/miri/pull/2636)
+* [miri: support timeouts with monotonic clocks even when isolation is enabled](https://github.com/rust-lang/miri/pull/2631)
+* [miri: test on windows-gnu target](https://github.com/rust-lang/miri/pull/2621)
+* [use `br` instead of `switch` in more cases](https://github.com/rust-lang/rust/pull/103331)
+* [perf improvements for effective visibility calculating](https://github.com/rust-lang/rust/pull/103158)
+* [introduce UnordMap, UnordSet, and UnordBag (MCP 533)](https://github.com/rust-lang/rust/pull/102698)
+* [llvm-16: don't initialize removed legacy passes](https://github.com/rust-lang/rust/pull/103549)
+* [codegen\_gcc: add missing register class conversion for inline asm](https://github.com/rust-lang/rustc_codegen_gcc/pull/232)
+* [codegen\_gcc: fix gcc build instructions](https://github.com/rust-lang/rustc_codegen_gcc/pull/238)
+* [make `CStr::from_ptr` `const`](https://github.com/rust-lang/rust/pull/102961)
+* [make `core::mem::copy` `const`](https://github.com/rust-lang/rust/pull/100006)
+* [`poll_fn` and Unpin:  fix pinning](https://github.com/rust-lang/rust/pull/102737)
+* [stabilize `Option::unzip()`](https://github.com/rust-lang/rust/pull/98204)
+* [stabilize `arbitrary_enum_discriminant,` take 2](https://github.com/rust-lang/rust/pull/95710)
+* [stabilize `duration_checked_float`](https://github.com/rust-lang/rust/pull/102271)
+* [simd: vectors of pointers](https://github.com/rust-lang/portable-simd/pull/287)
+* [stdarch: fix undefined behavior in SSE4.2 test](https://github.com/rust-lang/stdarch/pull/1341)
+* [cargo: add Accept-Encoding request header to enable compression](https://github.com/rust-lang/cargo/pull/11292)
+* [cargo: fix confusing error messages when using `-Zsparse-registry`](https://github.com/rust-lang/cargo/pull/11283)
+* [cargo: improve the error message if `publish` is `false` or empty list](https://github.com/rust-lang/cargo/pull/11280)
+* [cargo: report crate size on package and publish](https://github.com/rust-lang/cargo/pull/11270)
+* [rustdoc: add support for incoherent impls on structs and traits](https://github.com/rust-lang/rust/pull/103746)
+* [rustdoc: do not filter out cross-crate `Self:  Sized` bounds](https://github.com/rust-lang/rust/pull/103254)
+* [rustdoc: don't mark `Box<T>` as `Iterator`, `Read`, etc](https://github.com/rust-lang/rust/pull/103432)
+* [clippy: `bool_to_int_with_if` do not lint in const context](https://github.com/rust-lang/rust-clippy/pull/9738)
+* [clippy: `option_if_let_else` do not lint if any arm has guard](https://github.com/rust-lang/rust-clippy/pull/9747)
+* [clippy: `question_mark` don't lint on `if let Err` with `else`](https://github.com/rust-lang/rust-clippy/pull/9722)
+* [clippy: `use_self` fix FP when trait impl defined in macro](https://github.com/rust-lang/rust-clippy/pull/9704)
+* [clippy: `use_self` fix suggestion when full path to struct was given](https://github.com/rust-lang/rust-clippy/pull/9726)
+* [clippy: add lint for confusing use of `^` instead of `.pow`](https://github.com/rust-lang/rust-clippy/pull/9506)
+* [clippy: add lint to tell about the `let else` pattern](https://github.com/rust-lang/rust-clippy/pull/8437)
+* [clippy: add new lint `seek_to_start_instead_of_rewind`](https://github.com/rust-lang/rust-clippy/pull/9667)
+* [clippy: add new lint `seek_from_current`](https://github.com/rust-lang/rust-clippy/pull/9681)
+* [clippy: ensure `new_ret_no_self` is not fired if `impl Trait<Self>` is returned](https://github.com/rust-lang/rust-clippy/pull/9733)
+* [clippy: fix `bool_to_int_with_if` false positive with `if let`](https://github.com/rust-lang/rust-clippy/pull/9714)
+* [clippy: fix `needless_borrow` false positive](https://github.com/rust-lang/rust-clippy/pull/9674) & [fix another `needless_borrow` false positive](https://github.com/rust-lang/rust-clippy/pull/9711)
+* [clippy: fix the `string-extend-chars` suggestion on slice](https://github.com/rust-lang/rust-clippy/pull/9741)
+* [clippy: make ignored internally mutable types for `mutable-key` configurable](https://github.com/rust-lang/rust-clippy/pull/9692)
+* [clippy: move `uninlined_format_args` to pedantic](https://github.com/rust-lang/rust-clippy/pull/9728)
+* [clippy: remove note mentioning configuration changes need cargo clean](https://github.com/rust-lang/rust-clippy/pull/9717)
+* [clippy: warn when `clippy::restriction` is enabled via the command line](https://github.com/rust-lang/rust-clippy/pull/9755)
+* [rust-analyzer: clicking the status bar item stops and starts the server](https://github.com/rust-lang/rust-analyzer/pull/13510)
+* [rust-analyzer: type inference for generic associated types](https://github.com/rust-lang/rust-analyzer/pull/13494)
+* [rust-analyzer: disregard type variable expectation for if expressions](https://github.com/rust-lang/rust-analyzer/pull/13523)
+* [rust-analyzer: don't respond with an error when requesting a shutdown while starting](https://github.com/rust-lang/rust-analyzer/pull/13476)
+* [rust-analyzer: fix standard flycheck command not being executed in the workspace it is being invoked for](https://github.com/rust-lang/rust-analyzer/pull/13478)
+* [rust-analyzer: test all generic args for trait when finding matching impl](https://github.com/rust-lang/rust-analyzer/pull/13475)
 
 ### Rust Compiler Performance Triage
 
@@ -196,7 +271,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I'm getting more convinced that Rust code is generally going to end up faster than C++ code every day I work on optimizations.
+>
+> Strong immutability and no-alias guarantees are a game-changer and we've only really begun to scratch the surface of what can be done.
+
+– [Patrick Walton on twitter](https://twitter.com/pcwalton/status/1585709621955526657?s=20&t=Ij5ODVKJERjZXOEh2Nzplg)
+
+llogiq is exceedingly pleased with his suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
