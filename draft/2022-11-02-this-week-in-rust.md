@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[dfdx v0.10.0 - deep learning now with even more const generic goodness](https://coreylowman.github.io/2022/10/30/release-0.10.0.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
