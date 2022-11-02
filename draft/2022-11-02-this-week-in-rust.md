@@ -71,7 +71,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Noise continues to make triaging a bit tedious. We've become good at identifying noise, but we may need to invest in trying to reduce it or automate some of the triaging needed to identify it. In terms of performance, this week ending up being positive albeit with improvements only outweighing regressions by a little. Some of the largest improvements were in reverts of previous regressions as well.
+
+Triage done by **@rylev**.
+Revision range: [629a414d..822f8](https://perf.rust-lang.org/?start=629a414d7ba4caa3ca28b0a46c478e2ecb4c0059&end=822f8c22f540b12f296d844ad5bf39aaa47bfeb4&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.7%  | [0.2%, 7.9%]   | 28    |
+| Regressions ❌ <br /> (secondary)  | 1.7%  | [0.2%, 7.0%]   | 97    |
+| Improvements ✅ <br /> (primary)   | -1.2% | [-4.6%, -0.2%] | 73    |
+| Improvements ✅ <br /> (secondary) | -1.3% | [-2.6%, -0.3%] | 61    |
+| All ❌✅ (primary)                 | -0.4% | [-4.6%, 7.9%]  | 101   |
+
+13 Regressions, 9 Improvements, 5 Mixed; 9 of them in rollups
+41 artifact comparisons made in total
+
+See [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-11-02.md) for details.
 
 ### Call for Testing
 
