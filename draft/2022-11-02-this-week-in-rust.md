@@ -61,6 +61,8 @@ and just ask the editors to select the category.
 * [Const Syntax](https://blog.yoshuawuyts.com/const-syntax/)
 * [How to speed up the Rust compiler in October 2022](https://nnethercote.github.io/2022/10/27/how-to-speed-up-the-rust-compiler-in-october-2022.html)
 * [Speeding up the Rust compiler without changing its code](https://kobzol.github.io/rust/rustc/2022/10/27/speeding-rustc-without-changing-its-code.html)
+* [Exploring technologies at Weborama: The Rust language](https://medium.com/weborama/introduction-to-the-rust-programming-language-4dbf8f3016de)
+* [Lock-free webserver using channels in Rust](https://www.kurtlawrence.info/blog/lock-free-webserver-using-channels-in-rust)
 * [video] [A Cellular Automaton with Rust and Bevy - Diemo Heuer](https://www.youtube.com/watch?v=rOFlUvMfOHQ)
 * [video] [AMD Hypervisor with Rust - Matthias Heiden](https://www.youtube.com/watch?v=7igpsgCZJY4)
 * [video] [Boxes, Heaps, and Stacks - Tim McNamara](https://www.youtube.com/watch?v=DEE1GKMbtgw)
@@ -69,8 +71,6 @@ and just ask the editors to select the category.
 * [video] [Intro to Tower and the Service Trait - Stefan Baumgartner](https://www.youtube.com/watch?v=z78_RnUPnpY)
 * [video] [Rust Before Main - Ryan Levick](https://www.youtube.com/watch?v=q8irLfXwaFM)
 * [video] [How does the detour crate work?](https://fasterthanli.me/videos/how-does-the-detour-crate-work)
-
-* [Exploring technologies at Weborama: The Rust language](https://medium.com/weborama/introduction-to-the-rust-programming-language-4dbf8f3016de)
 
 ### Rust Walkthroughs
 * [Implementing Rayon’s Parallel Iterators](https://geo-ant.github.io/blog/2022/implementing-parallel-iterators-rayon/)
@@ -216,7 +216,7 @@ An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-* *No RFCs issued a call for testing this week.*
+* [Have `cargo publish` block until crate is published](https://github.com/rust-lang/cargo/issues/9507#issuecomment-1296058029)
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -253,8 +253,6 @@ which are reaching a decision. Express your opinions now.
 * [new] [Update the RFC template](https://github.com/rust-lang/rfcs/pull/3339)
 * [new] [Style evolution](https://github.com/rust-lang/rfcs/pull/3338)
 * [new] [MaybeDangling](https://github.com/rust-lang/rfcs/pull/3336)
-
-- [Have `cargo publish` block until crate is published](https://github.com/rust-lang/cargo/issues/9507#issuecomment-1296058029)
 
 ## Upcoming Events
 
