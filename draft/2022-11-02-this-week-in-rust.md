@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 [dfdx v0.10.0 - deep learning now with even more const generic goodness](https://coreylowman.github.io/2022/10/30/release-0.10.0.html)
 
+* [SeaQuery 0.27.0 - A dynamic query builder for SeaORM](https://www.sea-ql.org/blog/2022-10-31-whats-new-in-seaquery-0.27.0/)
+
 ### Observations/Thoughts
 * [Mini-post: the role of Rust's teams](https://www.ncameron.org/blog/mini-post-the-role-of-rusts-teams/)
 * [Do we need a "Rust Standard"?](https://blog.m-ou.se/rust-standard/)
