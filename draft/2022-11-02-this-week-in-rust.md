@@ -28,20 +28,52 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Generic associated types to be stable in Rust 1.65](https://blog.rust-lang.org/2022/10/28/gats-stabilization.html)
 
 ### Foundation
+* [Project Grants Application Deadline Extended to November 7, 2022](https://foundation.rust-lang.org/news/project-grants-application-deadline-extended-to-november-7-2022/)
+* [Q3 2022 Recap: A summary from Rebecca Rumbul](https://foundation.rust-lang.org/news/q3-2022-update-a-recap-from-rebecca-rumb/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Announcing async-backtrace](https://tokio.rs/blog/2022-10-announcing-async-backtrace)
+* [This Month in hyper: October 2022](https://seanmonstar.com/post/699744578823127040/this-month-in-hyper-october-2022)
+* [rust-analyzer changelog #153](https://rust-analyzer.github.io/thisweek/2022/10/31/changelog-153.html)
+* [rustc_codegen_gcc: Progress Report #17](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-17)
 
 ### Observations/Thoughts
+* [Mini-post: the role of Rust's teams](https://www.ncameron.org/blog/mini-post-the-role-of-rusts-teams/)
+* [Do we need a "Rust Standard"?](https://blog.m-ou.se/rust-standard/)
+* [Rustdoc doctests need fixing](https://swatinem.de/blog/fix-rustdoc/)
+* [Ranged integers](https://cohost.org/oli-obk/post/148312-ranged-integers)
+* [Ranged integers via subtypes](https://cohost.org/oli-obk/post/165584-ranged-integers-via)
+* [The stable HashMap trap](https://morestina.net/blog/1843/the-stable-hashmap-trap)
+* [Const Syntax](https://blog.yoshuawuyts.com/const-syntax/)
+* [How to speed up the Rust compiler in October 2022](https://nnethercote.github.io/2022/10/27/how-to-speed-up-the-rust-compiler-in-october-2022.html)
+* [Speeding up the Rust compiler without changing its code](https://kobzol.github.io/rust/rustc/2022/10/27/speeding-rustc-without-changing-its-code.html)
+* [video] [A Cellular Automaton with Rust and Bevy - Diemo Heuer](https://www.youtube.com/watch?v=rOFlUvMfOHQ)
+* [video] [AMD Hypervisor with Rust - Matthias Heiden](https://www.youtube.com/watch?v=7igpsgCZJY4)
+* [video] [Boxes, Heaps, and Stacks - Tim McNamara](https://www.youtube.com/watch?v=DEE1GKMbtgw)
+* [video] [Rustberry Pi: Baby-steps in Embedded Rust - Lisa Passing](https://www.youtube.com/watch?v=IgC2HvBesms)
+* [video] [Workshop: Rust for Artists - Lisa Passing](https://www.youtube.com/watch?v=jB7aJDAvSuo)
+* [video] [Intro to Tower and the Service Trait - Stefan Baumgartner](https://www.youtube.com/watch?v=z78_RnUPnpY)
+* [video] [Rust Before Main - Ryan Levick](https://www.youtube.com/watch?v=q8irLfXwaFM)
+* [video] [How does the detour crate work?](https://fasterthanli.me/videos/how-does-the-detour-crate-work)
 
 ### Rust Walkthroughs
+* [Implementing Rayon’s Parallel Iterators](https://geo-ant.github.io/blog/2022/implementing-parallel-iterators-rayon/)
+* [Rust microservices in server-side WebAssembly](https://blog.logrocket.com/rust-microservices-server-side-webassembly/)
+* [4 Simple Steps for Creating a Platform Agnostic Driver in Rust](https://apollolabsblog.hashnode.dev/4-simple-steps-for-creating-a-platform-agnostic-driver-in-rust)
+* [Work on gpu library](https://www.youtube.com/watch?v=P5lab7t1hVM)
+* [Fathomable Rust Macros](https://geeklaunch.net/blog/fathomable-rust-macros/)
 
 ### Research
+* [Static Information Flow Control Made Simpler](https://arxiv.org/abs/2210.12996)
+* [Unsafe's Betrayal: Abusing Unsafe Rust in Binary Reverse Engineering toward Finding Memory-safety Bugs via Machine Learning](https://arxiv.org/abs/2211.00111)
 
 ### Miscellaneous
+* [Rust könnte offizielle Spezifikation bekommen](https://www.golem.de/news/programmierung-rust-koennte-offizielle-spezifikation-bekommen-2210-169286.html)
 
 - [video] [Programming Veloren - the multiplayer voxel RPG written in Rust](https://www.youtube.com/watch?v=bT2SeYXpQm8)
 
