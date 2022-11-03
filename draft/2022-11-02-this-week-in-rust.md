@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 * [This Month in hyper: October 2022](https://seanmonstar.com/post/699744578823127040/this-month-in-hyper-october-2022)
 * [rust-analyzer changelog #153](https://rust-analyzer.github.io/thisweek/2022/10/31/changelog-153.html)
 * [rustc_codegen_gcc: Progress Report #17](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-17)
+* [From Fuzzing to Proof: Using Kani with the Bolero Property-Testing Framework](https://model-checking.github.io/kani-verifier-blog/2022/10/27/using-kani-with-the-bolero-property-testing-framework.html)
 
 ### Observations/Thoughts
 * [Mini-post: the role of Rust's teams](https://www.ncameron.org/blog/mini-post-the-role-of-rusts-teams/)
