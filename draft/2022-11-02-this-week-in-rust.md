@@ -68,6 +68,8 @@ and just ask the editors to select the category.
 * [video] [Rust Before Main - Ryan Levick](https://www.youtube.com/watch?v=q8irLfXwaFM)
 * [video] [How does the detour crate work?](https://fasterthanli.me/videos/how-does-the-detour-crate-work)
 
+* [Exploring technologies at Weborama: The Rust language](https://medium.com/weborama/introduction-to-the-rust-programming-language-4dbf8f3016de)
+
 ### Rust Walkthroughs
 * [Implementing Rayon’s Parallel Iterators](https://geo-ant.github.io/blog/2022/implementing-parallel-iterators-rayon/)
 * [Rust microservices in server-side WebAssembly](https://blog.logrocket.com/rust-microservices-server-side-webassembly/)
