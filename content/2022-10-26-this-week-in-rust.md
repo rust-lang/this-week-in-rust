@@ -27,7 +27,7 @@ and just ask the editors to select the category.
 
 -->
 ### Foundation
-* [Rust Foundation](https://foundation.rust-lang.org/news/implementing-the-network-time-protocol-ntp-in-rust/)
+* [Implementing the Network Time Protocol (NTP) in Rust](https://foundation.rust-lang.org/news/implementing-the-network-time-protocol-ntp-in-rust/)
 
 ### Project/Tooling Updates
 * [rust-analyzer changelog #152](https://rust-analyzer.github.io/thisweek/2022/10/24/changelog-152.html)
@@ -347,7 +347,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/yc3z4r/hey_rustaceans_got_a_question_ask_here_432022/)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/xldzbl/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
