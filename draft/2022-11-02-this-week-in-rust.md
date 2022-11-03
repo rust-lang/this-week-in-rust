@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 [headtail: head & tail simultaneously, written in Rust](https://agile-perception.ghost.io/headtail-head-tail-simultaneously/)
 
+* [Slint 0.3.1 - GUI framework in Rust](https://slint-ui.com/thisweek/2022-10-31.html)
+
 ### Observations/Thoughts
 * [Mini-post: the role of Rust's teams](https://www.ncameron.org/blog/mini-post-the-role-of-rusts-teams/)
 * [Do we need a "Rust Standard"?](https://blog.m-ou.se/rust-standard/)
