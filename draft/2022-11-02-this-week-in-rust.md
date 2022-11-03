@@ -34,22 +34,16 @@ and just ask the editors to select the category.
 * [Project Grants Application Deadline Extended to November 7, 2022](https://foundation.rust-lang.org/news/project-grants-application-deadline-extended-to-november-7-2022/)
 * [Q3 2022 Recap: A summary from Rebecca Rumbul](https://foundation.rust-lang.org/news/q3-2022-update-a-recap-from-rebecca-rumb/)
 
-### Newsletters
-
 ### Project/Tooling Updates
 * [Announcing async-backtrace](https://tokio.rs/blog/2022-10-announcing-async-backtrace)
 * [This Month in hyper: October 2022](https://seanmonstar.com/post/699744578823127040/this-month-in-hyper-october-2022)
 * [rust-analyzer changelog #153](https://rust-analyzer.github.io/thisweek/2022/10/31/changelog-153.html)
 * [rustc_codegen_gcc: Progress Report #17](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-17)
 * [From Fuzzing to Proof: Using Kani with the Bolero Property-Testing Framework](https://model-checking.github.io/kani-verifier-blog/2022/10/27/using-kani-with-the-bolero-property-testing-framework.html)
-
-[dfdx v0.10.0 - deep learning now with even more const generic goodness](https://coreylowman.github.io/2022/10/30/release-0.10.0.html)
-
+* [dfdx v0.10.0 - deep learning now with even more const generic goodness](https://coreylowman.github.io/2022/10/30/release-0.10.0.html)
 * [SeaQuery 0.27.0 - A dynamic query builder for SeaORM](https://www.sea-ql.org/blog/2022-10-31-whats-new-in-seaquery-0.27.0/)
-
-[headtail: head & tail simultaneously, written in Rust](https://agile-perception.ghost.io/headtail-head-tail-simultaneously/)
-
 * [Slint 0.3.1 - GUI framework in Rust](https://slint-ui.com/thisweek/2022-10-31.html)
+* [headtail: head & tail simultaneously, written in Rust](https://agile-perception.ghost.io/headtail-head-tail-simultaneously/)
 
 ### Observations/Thoughts
 * [Mini-post: the role of Rust's teams](https://www.ncameron.org/blog/mini-post-the-role-of-rusts-teams/)
@@ -361,7 +355,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/xldzbl/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
