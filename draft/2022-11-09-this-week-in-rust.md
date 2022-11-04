@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Writing an eBPF/XDP Load-Balancer in Rust](https://konghq.com/blog/writing-an-ebpf-xdp-load-balancer-in-rust)
+
 ### Research
 
 ### Miscellaneous
