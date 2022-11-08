@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Announcing BlindAI 0.5 with Cloud support](https://blog.mithrilsecurity.io/announcing-blindai-0-5/)
 
 ### Observations/Thoughts
 
