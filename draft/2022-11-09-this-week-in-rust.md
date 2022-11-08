@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [enum_delegate](https://crates.io/crates/enum_delegate), a crate to replace dynamic dispatch with enum dispatch.
+
+Thanks to [Devin Brite](https://users.rust-lang.org/t/crate-of-the-week/2704/1120) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -67,7 +69,63 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+396 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-10-31..2022-11-07
+
+* [`(almost)` always use `ObligationCtxt` when dealing with canonical queries](https://github.com/rust-lang/rust/pull/103590)
+* [`fix(generic_const_exprs): `fix predicate inheritance for children of opaque types](https://github.com/rust-lang/rust/pull/99801)
+* [make cpp-like debuginfo type names for slices and str consistent](https://github.com/rust-lang/rust/pull/103691)
+* [track where diagnostics were created](https://github.com/rust-lang/rust/pull/103217)
+* [`rustc_metadata`: encode even less doc comments](https://github.com/rust-lang/rust/pull/103496)
+* [add `multivalue` target feature to WASM target](https://github.com/rust-lang/rust/pull/103638)
+* [allow use of `-Clto=thin` with `-Ccodegen-units=1` in general](https://github.com/rust-lang/rust/pull/103610)
+* [lint against usages of `struct_span_lint_hir`](https://github.com/rust-lang/rust/pull/103720)
+* [stable Lower lint level for `read_zero_byte_vec`](https://github.com/rust-lang/rust/pull/103859)
+* [reduce span of let else `irrefutable_let_patterns` warning](https://github.com/rust-lang/rust/pull/103749)
+* [suggest use `..` to fill in the rest of the struct fields](https://github.com/rust-lang/rust/pull/103012)
+* [better error for `rustc_strict_coherence` misuse](https://github.com/rust-lang/rust/pull/103772)
+* [correctly resolve Inherent Associated Types](https://github.com/rust-lang/rust/pull/103621)
+* [don't silently eat label before block in block-like expr](https://github.com/rust-lang/rust/pull/103986)
+* [interpret: fix `align_of_val` on packed types](https://github.com/rust-lang/rust/pull/103729)
+* [make `proc_macro_derive_resolution_fallback` a hard error](https://github.com/rust-lang/rust/pull/84022)
+* [make `underscore_literal_suffix` a hard error](https://github.com/rust-lang/rust/pull/103914)
+* [normalize types when deducing closure signature from supertraits](https://github.com/rust-lang/rust/pull/104038)
+* [miri: implement condvars for Windows](https://github.com/rust-lang/miri/pull/2638)
+* [miri: initOnce: synchronize with completion when already complete](https://github.com/rust-lang/miri/pull/2641)
+* [rewrite implementation of `#[alloc_error_handler]`](https://github.com/rust-lang/rust/pull/103061)
+* [remove bounds check when array is indexed by enum](https://github.com/rust-lang/rust/pull/103584)
+* [stabilize the `instruction_set` feature](https://github.com/rust-lang/rust/pull/102458)
+* [implement `std::marker::Tuple`, use it in `extern "rust-call"` and `Fn`-family traits](https://github.com/rust-lang/rust/pull/99943)
+* [futures: do not require `Clone` for `Shared::peek`](https://github.com/rust-lang/futures-rs/pull/2662)
+* [libtest: run all tests in their own thread, if supported by the host](https://github.com/rust-lang/rust/pull/103681)
+* [rustdoc: fix merge of attributes for reexports of local items](https://github.com/rust-lang/rust/pull/103886)
+* [rustdoc: make `Item::visibility` computed on-demand](https://github.com/rust-lang/rust/pull/103690)
+* [bindgen: add support for the `"C-unwind"` ABI](https://github.com/rust-lang/rust-bindgen/pull/2334)
+* [bindgen: add the `--override-abi` option](https://github.com/rust-lang/rust-bindgen/pull/2329)
+* [bindgen: allow callback composition](https://github.com/rust-lang/rust-bindgen/pull/2330)
+* [bindgen: wrap unsafe function's bodies in unsafe blocks](https://github.com/rust-lang/rust-bindgen/pull/2266)
+* [clippy: add `allow-print-in-tests` config](https://github.com/rust-lang/rust-clippy/pull/9797)
+* [clippy: add new lint `let_underscore_future`](https://github.com/rust-lang/rust-clippy/pull/9760)
+* [clippy: extend `needless_collect`](https://github.com/rust-lang/rust-clippy/pull/8744)
+* [clippy: fix ICE in `redundant_allocation`](https://github.com/rust-lang/rust-clippy/pull/9773)
+* [clippy: fix `unnecessary_join` turbofish in suggest message](https://github.com/rust-lang/rust-clippy/pull/9779)
+* [clippy: improve `needless_lifetimes`](https://github.com/rust-lang/rust-clippy/pull/9743)
+* [clippy: move `needless_collect` to nursery](https://github.com/rust-lang/rust-clippy/pull/9705)
+* [clippy: shrink `missing_`{`safety`, `errors`, `panics`}`_doc` spans](https://github.com/rust-lang/rust-clippy/pull/9772)
+* [rust-analyzer: add "Convert match to `let-else`" assist](https://github.com/rust-lang/rust-analyzer/pull/13516)
+* [rust-analyzer: add config for inserting `must_use` in `generate_enum_as_method`](https://github.com/rust-lang/rust-analyzer/pull/13359)
+* [rust-analyzer: extracted method from trait impl is placed in existing impl](https://github.com/rust-lang/rust-analyzer/pull/12991)
+* [rust-analyzer: generalize reborrow hints as adjustment hints](https://github.com/rust-lang/rust-analyzer/pull/13545)
+* [rust-analyzer: show signature help when calling generic types implementing `FnOnce`](https://github.com/rust-lang/rust-analyzer/pull/13525)
+* [rust-analyzer: fix the length displayed for byte string literals with escaped newlines](https://github.com/rust-lang/rust-analyzer/pull/13568)
+* [rust-analyzer: async trait method for `unnecessary_async`](https://github.com/rust-lang/rust-analyzer/pull/13508)
+* [rust-analyzer: fix reference searching only accounting substrings instead of whole identifiers](https://github.com/rust-lang/rust-analyzer/pull/13549)
+* [rust-analyzer: make custom expr prefix completions to understand refs](https://github.com/rust-lang/rust-analyzer/pull/13517)
+* [rust-analyzer: fixed local shadowing the caller's argument issue](https://github.com/rust-lang/rust-analyzer/pull/13454)
+* [rust-analyzer: lower unsafety of fn pointer and fn item types](https://github.com/rust-lang/rust-analyzer/pull/13546)
+* [rust-analyzer: migrate assists to format args captures, part 3](https://github.com/rust-lang/rust-analyzer/pull/13435)
+* [rust-analyzer: scip: generate symbols for local crates](https://github.com/rust-lang/rust-analyzer/pull/13456)
 
 ### Rust Compiler Performance Triage
 
@@ -193,7 +251,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Meanwhile the Rust shop has covers on everything and tag-out to even change settings of the multi-axis laser cutter, but you get trusted with said laser cutter on your first day, and if someone gets hurt people wonder how to make the shop safer.
+
+– [masklinn on r/rust](https://www.reddit.com/r/rust/comments/yo6ju6/comment/ivdxbdw)
+
+Thanks to [Anton Fetisov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1329) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
