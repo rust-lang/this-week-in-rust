@@ -73,15 +73,44 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 <!-- Perf results go here -->
 
-### Call for Testing
-
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* *No RFCs issued a call for testing this week.*
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
+
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* [crates.io token scopes](https://github.com/rust-lang/rfcs/pull/2947)
+
+### Final Comment Period
+
+Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
+which are reaching a decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* [disposition: close] [RFC 3283: Backward compatible default features](https://github.com/rust-lang/rfcs/pull/3283)
+* [disposition: close] [RFC: Rust SemVer 2](https://github.com/rust-lang/rfcs/pull/3266)
+* [disposition: postpone] [Add named path bases to cargo](https://github.com/rust-lang/rfcs/pull/3074)
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* *No Tracking Issues or PRs entered Final Comment Period this week.*
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* [new] [Create an Operational Semantics Team](https://github.com/rust-lang/rfcs/pull/3346)
+* [new] [Add a `--compile-time-deps` build flag to `cargo build`](https://github.com/rust-lang/rfcs/pull/3344)
+* [new] [RFC: Anonymous Associated Types](https://github.com/rust-lang/rfcs/pull/3342)
 
 ## Upcoming Events
 
