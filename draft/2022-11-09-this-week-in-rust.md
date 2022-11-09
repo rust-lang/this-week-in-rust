@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+[Floating Point Arcade](https://gist.github.com/CrockAgile/09065649ae5a52629599ebc5645922d6)
+
 ### Research
 
 ### Miscellaneous
