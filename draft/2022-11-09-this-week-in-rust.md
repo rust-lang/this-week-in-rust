@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Cost-Efficient Rust in Practice, Rust Tokyo](https://www.youtube.com/watch?v=UkfO5KBFSpY)
+
 ### Research
 
 ### Miscellaneous
