@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Can Rust-wrapped C++ offer performance and stability benefits?](https://medium.com/@adetaylor/can-rust-wrapped-c-offer-stability-and-performance-benefits-e140b7ca1ba9)
+
 ### Miscellaneous
 
 ## Crate of the Week
