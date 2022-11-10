@@ -73,6 +73,7 @@ and just ask the editors to select the category.
 * [4 Simple Steps for Creating a Platform Agnostic Driver in Rust](https://apollolabsblog.hashnode.dev/4-simple-steps-for-creating-a-platform-agnostic-driver-in-rust)
 * [Work on gpu library](https://www.youtube.com/watch?v=P5lab7t1hVM)
 * [Fathomable Rust Macros](https://geeklaunch.net/blog/fathomable-rust-macros/)
+* [Property-Based Testing in Rust with Arbitrary](https://www.greyblake.com/blog/property-based-testing-in-rust-with-arbitrary/)
 
 ### Research
 * [Static Information Flow Control Made Simpler](https://arxiv.org/abs/2210.12996)
