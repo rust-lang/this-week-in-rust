@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Lynx Joins AdaCore and Ferrous Systems to Bring Rust to Embedded Developers](https://www.lynx.com/press-releases/rust-compiler-support)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
