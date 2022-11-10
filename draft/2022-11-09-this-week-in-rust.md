@@ -64,6 +64,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
+[FOSDEM 2023 Rust devroom CFP](https://rust-fosdem.github.io)
 <!-- * [ - ]() -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
