@@ -61,6 +61,8 @@ and just ask the editors to select the category.
 
 [Floating Point Arcade](https://gist.github.com/CrockAgile/09065649ae5a52629599ebc5645922d6)
 
+* [video] [Cost-Efficient Rust in Practice, Rust Tokyo](https://www.youtube.com/watch?v=UkfO5KBFSpY)
+
 ### Research
 
 * [Can Rust-wrapped C++ offer performance and stability benefits?](https://medium.com/@adetaylor/can-rust-wrapped-c-offer-stability-and-performance-benefits-e140b7ca1ba9)
