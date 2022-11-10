@@ -45,8 +45,9 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-
 * [Lynx Joins AdaCore and Ferrous Systems to Bring Rust to Embedded Developers](https://www.lynx.com/press-releases/rust-compiler-support)
+* [video] [Bencher—Catch Performance Regressions in CI @ Rust DC, September 20, 2022 w/ Everett Pompeii](https://youtu.be/Xw9loUatF7k)
+* [video] [Impractical Rust: The HATETRIS World Record @ Rust DC, October 18, 2022 w/Dave Freiberg+Felipe Suero](https://youtu.be/UgQUvD9gyMk)
 
 ## Crate of the Week
 
