@@ -30,10 +30,6 @@ and just ask the editors to select the category.
 ### Official
 * [Announcing Rust 1.65.0](https://blog.rust-lang.org/2022/11/03/Rust-1.65.0.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer changelog #154](https://rust-analyzer.github.io/thisweek/2022/11/07/changelog-154.html)
 * [IntelliJ Rust Changelog #182](https://intellij-rust.github.io/2022/11/07/changelog-182.html)
@@ -50,21 +46,18 @@ and just ask the editors to select the category.
 * [mmap(1Tb): A Rust arena allocator (ab)using Linux overcommit](https://vgel.me/posts/mmap-arena-alloc/)
 * [Contributing to Rust: Bootstrapping the Rust Compiler (rustc)](https://www.youtube.com/watch?v=oG-JshUmkuA)
 * [The ‘Viral’ Secure Programming Language That’s Taking Over Tech](https://www.wired.com/story/rust-secure-programming-language-memory-safe/)
-* [FR] [series] [Rust par le Métal : move, clone, copy](https://lafor.ge/rust/move/)
-* [FR] [series] [Rust par le Métal (Annexe) : Les bases de nombres](https://lafor.ge/rust/annex_bases/)
+* [FR] [Rust par le Métal : move, clone, copy](https://lafor.ge/rust/move/) (series)
+* [FR] [Rust par le Métal (Annexe) : Les bases de nombres](https://lafor.ge/rust/annex_bases/) (series)
 
 ### Rust Walkthroughs
 * [Tauri vs. Electron for Tray Apps](https://betterprogramming.pub/tauri-vs-electron-for-tray-apps-ed15974f35ce)
 * [Running Rust in AWS Lambda with SAM — Part 1](https://medium.com/@shyamsundarb/running-rust-in-aws-lambda-with-sam-part-1-2b7a6963a2ef)
 * [Tower, Episode 2: calling a Tower Service ](https://heikoseeberger.de/2022/10/23/2022-10-23-tower-2/)
 * [Writing an eBPF/XDP Load-Balancer in Rust](https://konghq.com/blog/writing-an-ebpf-xdp-load-balancer-in-rust)
-
-[Floating Point Arcade](https://gist.github.com/CrockAgile/09065649ae5a52629599ebc5645922d6)
-
+* [Floating Point Arcade](https://gist.github.com/CrockAgile/09065649ae5a52629599ebc5645922d6)
 * [video] [Cost-Efficient Rust in Practice, Rust Tokyo](https://www.youtube.com/watch?v=UkfO5KBFSpY)
 
 ### Research
-
 * [Can Rust-wrapped C++ offer performance and stability benefits?](https://medium.com/@adetaylor/can-rust-wrapped-c-offer-stability-and-performance-benefits-e140b7ca1ba9)
 
 ### Miscellaneous
@@ -314,7 +307,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/ymepy8/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -330,4 +323,4 @@ Thanks to [Anton Fetisov](https://users.rust-lang.org/t/twir-quote-of-the-week/3
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/yr1z35/this_week_in_rust_468/)</small>
