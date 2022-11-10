@@ -36,6 +36,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+[FR] [series] [Rust par le Métal : move, clone, copy](https://lafor.ge/rust/move/)
+[FR] [series] [Rust par le Métal (Annexe) : Les bases de nombres](https://lafor.ge/rust/annex_bases/)
 
 ### Rust Walkthroughs
 * [Tower, Episode 2: calling a Tower Service ](https://heikoseeberger.de/2022/10/23/2022-10-23-tower-2/)
