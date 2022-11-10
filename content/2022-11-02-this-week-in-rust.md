@@ -71,8 +71,9 @@ and just ask the editors to select the category.
 * [Tower, Episode 1: your Service as a Function](https://heikoseeberger.de/2022/10/21/2022-10-21-tower-1/)
 * [Rust microservices in server-side WebAssembly](https://blog.logrocket.com/rust-microservices-server-side-webassembly/)
 * [4 Simple Steps for Creating a Platform Agnostic Driver in Rust](https://apollolabsblog.hashnode.dev/4-simple-steps-for-creating-a-platform-agnostic-driver-in-rust)
-* [Work on gpu library](https://www.youtube.com/watch?v=P5lab7t1hVM)
+* [video] [Work on gpu library](https://www.youtube.com/watch?v=P5lab7t1hVM)
 * [Fathomable Rust Macros](https://geeklaunch.net/blog/fathomable-rust-macros/)
+* [Property-Based Testing in Rust with Arbitrary](https://www.greyblake.com/blog/property-based-testing-in-rust-with-arbitrary/)
 
 ### Research
 * [Static Information Flow Control Made Simpler](https://arxiv.org/abs/2210.12996)
