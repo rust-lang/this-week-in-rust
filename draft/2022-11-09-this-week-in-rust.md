@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 * [This Week in Fyrox](https://fyrox.rs/blog/post/twif/)
 * [Cap'n Proto - Generic Associated Types](https://dwrensha.github.io/capnproto-rust/2022/11/03/0.15-release.html)
 * [Gitoxide - Cloning the Linux kernel in under a minute](https://github.com/Byron/gitoxide/discussions/579)
+* [This week in Fluvio #48: The programmable streaming platform](https://www.fluvio.io/news/this-week-in-fluvio-0048/)
 
 ### Observations/Thoughts
 * [Scoped threads in Rust, and why its async counterpart would be unsound](https://wishawa.github.io/posts/thread-scoped-async/)
