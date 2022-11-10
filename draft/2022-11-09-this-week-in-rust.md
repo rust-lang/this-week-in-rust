@@ -28,28 +28,46 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.65.0](https://blog.rust-lang.org/2022/11/03/Rust-1.65.0.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #154](https://rust-analyzer.github.io/thisweek/2022/11/07/changelog-154.html)
+* [IntelliJ Rust Changelog #182](https://intellij-rust.github.io/2022/11/07/changelog-182.html)
+* [This Month in Rust OSDev: October 2022 | Rust OSDev](https://rust-osdev.com/this-month/2022-10/)
+* [This Week in Fyrox](https://fyrox.rs/blog/post/twif/)
+* [Cap'n Proto - Generic Associated Types](https://dwrensha.github.io/capnproto-rust/2022/11/03/0.15-release.html)
+* [Gitoxide - Cloning the Linux kernel in under a minute](https://github.com/Byron/gitoxide/discussions/579)
 
 ### Observations/Thoughts
-[FR] [series] [Rust par le Métal : move, clone, copy](https://lafor.ge/rust/move/)
-[FR] [series] [Rust par le Métal (Annexe) : Les bases de nombres](https://lafor.ge/rust/annex_bases/)
+* [Scoped threads in Rust, and why its async counterpart would be unsound](https://wishawa.github.io/posts/thread-scoped-async/)
+* [34 Must Know Terms for Embedded Rust Newbies](https://apollolabsblog.hashnode.dev/34-must-know-terms-for-embedded-rust-newbies)
+* [what if pointer properties were in the rust type system](https://cohost.org/myrrlyn/post/197200-what-if-pointer-prop)
+* [mmap(1Tb): A Rust arena allocator (ab)using Linux overcommit](https://vgel.me/posts/mmap-arena-alloc/)
+* [Contributing to Rust: Bootstrapping the Rust Compiler (rustc)](https://www.youtube.com/watch?v=oG-JshUmkuA)
+* [The ‘Viral’ Secure Programming Language That’s Taking Over Tech](https://www.wired.com/story/rust-secure-programming-language-memory-safe/)
+* [FR] [series] [Rust par le Métal : move, clone, copy](https://lafor.ge/rust/move/)
+* [FR] [series] [Rust par le Métal (Annexe) : Les bases de nombres](https://lafor.ge/rust/annex_bases/)
 
 ### Rust Walkthroughs
+* [Tauri vs. Electron for Tray Apps](https://betterprogramming.pub/tauri-vs-electron-for-tray-apps-ed15974f35ce)
+* [Running Rust in AWS Lambda with SAM — Part 1](https://medium.com/@shyamsundarb/running-rust-in-aws-lambda-with-sam-part-1-2b7a6963a2ef)
 * [Tower, Episode 2: calling a Tower Service ](https://heikoseeberger.de/2022/10/23/2022-10-23-tower-2/)
-
 * [Writing an eBPF/XDP Load-Balancer in Rust](https://konghq.com/blog/writing-an-ebpf-xdp-load-balancer-in-rust)
 
 ### Research
 
 ### Miscellaneous
 * [Lynx Joins AdaCore and Ferrous Systems to Bring Rust to Embedded Developers](https://www.lynx.com/press-releases/rust-compiler-support)
-* [video] [Bencher—Catch Performance Regressions in CI @ Rust DC, September 20, 2022 w/ Everett Pompeii](https://youtu.be/Xw9loUatF7k)
-* [video] [Impractical Rust: The HATETRIS World Record @ Rust DC, October 18, 2022 w/Dave Freiberg+Felipe Suero](https://youtu.be/UgQUvD9gyMk)
+* [video] [RUST 1.65 - let-else statements - new language feature!!!](https://www.youtube.com/watch?v=U-5_bumwH9w)
+* [video] [The Rust Programming Language for Game Tooling](https://www.youtube.com/watch?v=GtRo-eF8-TE)
+* [video] [Bencher—Catch Performance Regressions in CI @ Rust DC, September 20, 2022 w/ Everett Pompeii](https://www.youtube.com/watch?v=Xw9loUatF7k)
+* [video] [Impractical Rust: The HATETRIS World Record @ Rust DC, October 18, 2022 w/Dave Freiberg+Felipe Suero](https://www.youtube.com/watch?v=UgQUvD9gyMk)
+* [DE] [Programmiersprache Rust 1.65 führt Generic Associated Types ein](https://www.heise.de/news/Programmiersprache-Rust-1-65-fuehrt-Generic-Associated-Types-ein-7329903.html)
+* [DE] [Ferris Talk #12: Web-APIs mit Rust erstellen](https://www.heise.de/hintergrund/Ferris-Talk-12-Web-APIs-mit-Rust-erstellen-7321340.html)
 
 ## Crate of the Week
 
