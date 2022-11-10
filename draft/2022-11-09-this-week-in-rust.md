@@ -63,6 +63,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Can Rust-wrapped C++ offer performance and stability benefits?](https://medium.com/@adetaylor/can-rust-wrapped-c-offer-stability-and-performance-benefits-e140b7ca1ba9)
+
 ### Miscellaneous
 * [Lynx Joins AdaCore and Ferrous Systems to Bring Rust to Embedded Developers](https://www.lynx.com/press-releases/rust-compiler-support)
 * [video] [RUST 1.65 - let-else statements - new language feature!!!](https://www.youtube.com/watch?v=U-5_bumwH9w)
