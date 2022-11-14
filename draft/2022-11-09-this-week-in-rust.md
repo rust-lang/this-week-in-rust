@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [The ‘Viral’ Secure Programming Language That’s Taking Over Tech](https://www.wired.com/story/rust-secure-programming-language-memory-safe/)
 * [FR] [Rust par le Métal : move, clone, copy](https://lafor.ge/rust/move/) (series)
 * [FR] [Rust par le Métal (Annexe) : Les bases de nombres](https://lafor.ge/rust/annex_bases/) (series)
+* [Rust and C++](https://slint-ui.com/blog/rust-and-cpp.html)
 
 ### Rust Walkthroughs
 * [Tauri vs. Electron for Tray Apps](https://betterprogramming.pub/tauri-vs-electron-for-tray-apps-ed15974f35ce)
