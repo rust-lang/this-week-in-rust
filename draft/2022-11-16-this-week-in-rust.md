@@ -30,14 +30,31 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Rust Foundation Included in Fastly's Fast Forward Program](https://foundation.rust-lang.org/news/rust-foundation-included-in-fastly-s-fast-forward-program/)
+* [Welcoming Seth Markle to the Rust Foundation Board](https://foundation.rust-lang.org/news/welcoming-seth-markle-to-the-rust-foundation-board/)
 
 ### Newsletters
+* [This Month in Rust GameDev #39 - October 2022](https://gamedev.rs/news/039/)
 
 ### Project/Tooling Updates
+* [hyper Polish Period](https://seanmonstar.com/post/701008919383932928/hyper-polish-period)
+* [Changelog #155](https://rust-analyzer.github.io/thisweek/2022/11/14/changelog-155.html)
+* [This Week in Fyrox](https://fyrox.rs/blog/post/twif2/)
+* [Bevy - Bevy 0.9](https://bevyengine.org/news/bevy-0-9/)
+* [video] [Bevy 0.9 Release Train](https://www.youtube.com/watch?v=mxYMduEC7xs)
 
 ### Observations/Thoughts
+* [Error docs](https://www.ncameron.org/blog/error-docs/)
+* [Rust enum-match code generation](https://www.eventhelix.com/rust/rust-to-assembly-enum-match/)
+* [Implementation Details of async Rust](https://swatinem.de/blog/async-codegen/)
+* [video] [Rust GCC Front-end - Philip Herron, David Faust](https://www.youtube.com/watch?v=D8FX1enoZnM)
+* [video] [Rust Is Boring (Why Rust?) [RUST-13]](https://www.youtube.com/watch?v=oY0XwMOSzq4)
+* [audio] [cargo-auditable with Sergey Davidoff](https://rustacean-station.org/episode/sergey-davidoff/)
 
 ### Rust Walkthroughs
+* [Rust and C++ Interoperability](https://slint-ui.com/blog/rust-and-cpp.html)
+* [4-Step Primer on Navigating Embedded Rust HAL Documentation](https://apollolabsblog.hashnode.dev/4-step-primer-on-navigating-embedded-rust-hal-documentation)
+* [Five simple steps to use any Arduino C++ library in a Rust project](https://dev.to/kgrech/five-simple-steps-to-use-any-arduino-c-library-in-a-rust-project-1k78)
 
 ### Research
 
