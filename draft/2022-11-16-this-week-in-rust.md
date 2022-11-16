@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [Error docs](https://www.ncameron.org/blog/error-docs/)
 * [Rust enum-match code generation](https://www.eventhelix.com/rust/rust-to-assembly-enum-match/)
 * [Implementation Details of async Rust](https://swatinem.de/blog/async-codegen/)
+* [Stop writing Rust linked list libraries!](https://diziet.dreamwidth.org/13476.html)
 * [video] [Rust GCC Front-end - Philip Herron, David Faust](https://www.youtube.com/watch?v=D8FX1enoZnM)
 * [video] [Rust Is Boring (Why Rust?) [RUST-13]](https://www.youtube.com/watch?v=oY0XwMOSzq4)
 * [audio] [cargo-auditable with Sergey Davidoff](https://rustacean-station.org/episode/sergey-davidoff/)
