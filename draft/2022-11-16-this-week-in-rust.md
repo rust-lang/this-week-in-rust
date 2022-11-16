@@ -61,6 +61,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [ARP Injection in Rust on Linux](https://leshow.github.io/post/linux_arp_injection/)
 
 ## Crate of the Week
 
