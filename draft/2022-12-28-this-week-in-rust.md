@@ -30,25 +30,43 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Board Announcement: Farewell to Shane Miller](https://foundation.rust-lang.org/news/board-announcement-farewell-to-shane-miller/)
+
+* [Community Grantee Spotlight: Oğuz Ağcayazı](https://foundation.rust-lang.org/news/community-grantee-spotlight-o%C4%9Fuz-a%C4%9Fcayaz%C4%B1/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
-
 * [MySQL connection pooling in Rust for Toolforge](https://blog.legoktm.com/2022/12/27/mysql-connection-pooling-in-rust-for-toolforge.html)
 * [The Sequoia GnuPG Chameleon 0.1 is Released](https://sequoia-pgp.org/blog/2022/12/19/202212-chameleon-0.1/)
 * [Dotenv-linter v3.3.0: Overview](https://dotenv-linter.github.io/#/whats_new/v330)
+* [rust-analyzer changelog #161](https://rust-analyzer.github.io/thisweek/2022/12/26/changelog-161.html)
+* [rust-gpu v0.4](https://github.com/EmbarkStudios/rust-gpu/releases/tag/v0.4.0)
+* [This Week in Fyrox #8](https://fyrox.rs/blog/post/twif8/)
 
 ### Observations/Thoughts
-
 * [cargo-semver-checks today and in 2023](https://predr.ag/blog/cargo-semver-checks-today-and-in-2023/)
-* [video] [Nine Rules for Creating Procedural Macros in Rust](https://www.youtube.com/watch?v=DMLBBZBlKis) - Rust Linz
+* [Rust vs Common C++ Bugs](https://geo-ant.github.io/blog/2022/common-cpp-errors-vs-rust/)
+* [2022 in review (Yoshua Wuyts)](https://blog.yoshuawuyts.com/look-back-2022/)
+* [Rust 2023 (Yoshua Wuyts)](https://blog.yoshuawuyts.com/rust-2023/)
+* [Rust in 2023 (Gijs Burghoorn)](https://gburghoorn.com/posts/rust-in-2023/)
+* [Rust in 2023 (azdavis)](https://azdavis.net/posts/rust-2023/)
+* [video] [Rust in 2024 (Niko Matsakis)](https://www.youtube.com/watch?v=OuSiuySr6_Q)
+* [video] [Profiling Code in Rust](https://www.youtube.com/watch?v=JRMOIE_wAFk)
+* [video] [Nine Rules for Creating Procedural Macros in Rust](https://www.youtube.com/watch?v=DMLBBZBlKis)
 
 ### Rust Walkthroughs
+* [How we extended the River stats module with Rust using PyO3](https://boring-guy.sh/posts/river-rust/)
+* [A taste of pavex, an upcoming Rust web framework](https://www.lpalmieri.com/posts/a-taste-of-pavex-rust-web-framework/)
+* [Rust visitor pattern and efficient DataFusion query federation](https://www.splitgraph.com/blog/datafusion-filter-expr-visitor)
+* [Embedded Rust and Embassy: Timer Ultrasonic Distance Measurement](https://apollolabsblog.hashnode.dev/embedded-rust-and-embassy-timer-ultrasonic-distance-measurement)
+* [video] [Rust - IAT Hooking](https://www.youtube.com/watch?v=jHrzmflNrgY)
 
 ### Research
+* [Modular Formal Verification of Rust Programs with Unsafe Blocks](https://arxiv.org/abs/2212.12976)
 
 ### Miscellaneous
+* [This year in LLVM (2022)](https://www.npopov.com/2022/12/20/This-year-in-LLVM-2022.html)
 
 ## Crate of the Week
 
