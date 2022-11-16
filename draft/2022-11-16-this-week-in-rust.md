@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [lngcnv](https://crates.io/crates/lngcnv), a linguistic command line tool.
+
+Thanks to [Piotr Bajdek](https://users.rust-lang.org/t/crate-of-the-week/2704/1124) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -67,7 +69,77 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+373 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-11-07..2022-11-14
+
+* [add new tier-3 target `loongarch64`](https://github.com/rust-lang/rust/pull/101939)
+* [add tier 3 `no_std AArch64/x86_64` support for the QNX Neutrino RTOS](https://github.com/rust-lang/rust/pull/102701)
+* [promote `{aarch64,i686,x86_64}-unknown-uefi` to Tier 2](https://github.com/rust-lang/rust/pull/103933)
+* [linker: refactoring and fixes to native library linking](https://github.com/rust-lang/rust/pull/103311)
+* [limit efiapi calling convention to supported arches](https://github.com/rust-lang/rust/pull/104020)
+* [implement the `+whole-archive` modifier for `wasm-ld`](https://github.com/rust-lang/rust/pull/102215)
+* [allow specialized const trait impls](https://github.com/rust-lang/rust/pull/95292)
+* [parser: recover from using colon as path separator in imports](https://github.com/rust-lang/rust/pull/103443)
+* [recover wrong-cased keywords that start items](https://github.com/rust-lang/rust/pull/99918)
+* [resolve: more detailed effective visibility tracking for imports](https://github.com/rust-lang/rust/pull/103965)
+* [emit error in `collecting_trait_impl_trait_tys` on mismatched signatures](https://github.com/rust-lang/rust/pull/104214)
+* [fix auto-application of associated generic functions with placeholders](https://github.com/rust-lang/rust/pull/101990)
+* [suggest `is_some` when we've found `Option` but expected `bool`](https://github.com/rust-lang/rust/pull/104036)
+* [suggest calling the instance method of the same name when method not found](https://github.com/rust-lang/rust/pull/103531)
+* [suggest removing unnecessary `.` to use a floating point literal](https://github.com/rust-lang/rust/pull/104144)
+* [improve spans with `use crate::{self}`](https://github.com/rust-lang/rust/pull/104315)
+* [tighten the 'introduce new binding' suggestion](https://github.com/rust-lang/rust/pull/104186)
+* [fix `rustc_parse_format` spans following escaped utf-8 multibyte chars](https://github.com/rust-lang/rust/pull/103651)
+* [consider `#[must_use]` annotation on `async fn` as also affecting the `Future::Output`](https://github.com/rust-lang/rust/pull/100633)
+* [better error message for HRTB error from generator interior](https://github.com/rust-lang/rust/pull/103171)
+* [`#[test]`: point at return type if `Termination` bound is unsatisfied](https://github.com/rust-lang/rust/pull/103445)
+* [`rustc_codegen_ssa`: better code generation for niche discriminants](https://github.com/rust-lang/rust/pull/102872)
+* [add support for custom mir](https://github.com/rust-lang/rust/pull/103464)
+* [add the `#[derive_const]` attribute](https://github.com/rust-lang/rust/pull/102049)
+* [delay `include_bytes` to AST lowering](https://github.com/rust-lang/rust/pull/103812)
+* [don't normalize constants unless they need normalization](https://github.com/rust-lang/rust/pull/104063)
+* [resolve lifetimes independently for each item-like](https://github.com/rust-lang/rust/pull/103530)
+* [improve performance of `rem_euclid()` for signed integers](https://github.com/rust-lang/rust/pull/103913)
+* [make `Sized` coinductive, again](https://github.com/rust-lang/rust/pull/100386)
+* [make `Hash`, `Hasher` and `BuildHasher` `#[const_trait]` and make `Sip` const `Hasher`](https://github.com/rust-lang/rust/pull/104060)
+* [const Compare for Tuples](https://github.com/rust-lang/rust/pull/104125)
+* [merge crossbeam-channel into `std::sync::mpsc`](https://github.com/rust-lang/rust/pull/93563)
+* [specialize `iter::ArrayChunks::fold` for TrustedRandomAccess iterators](https://github.com/rust-lang/rust/pull/103446)
+* [stabilize integer logarithms](https://github.com/rust-lang/rust/pull/103570)
+* [hashbrown: `rawTable::allocation_info`](https://github.com/rust-lang/hashbrown/pull/371)
+* [backtrace: C/C++ module file and line number are not looked up:  addr2line 0.18.0 fixes it](https://github.com/rust-lang/backtrace-rs/pull/492)
+* [impl `TryFrom<&[T]>` for Simd](https://github.com/rust-lang/portable-simd/pull/314)
+* [detect CPU features with Linux methods on Android for non-Intel CPUs](https://github.com/rust-lang/stdarch/pull/1351)
+* [cargo: propagate change of artifact bin dep to its parent fingerprint](https://github.com/rust-lang/cargo/pull/11353)
+* [rustdoc: fix missing reexports' doc comments](https://github.com/rust-lang/rust/pull/104292)
+* [rustdoc: use `ThinVec` and `Box<str>` to shrink `clean::ItemKind`](https://github.com/rust-lang/rust/pull/104013)
+* [bindgen: fix duplicated function names](https://github.com/rust-lang/rust-bindgen/pull/2341)
+* [bindgen: fix inline function identification](https://github.com/rust-lang/rust-bindgen/pull/2340)
+* [bindgen: handle the `const struct *` and `struct *` patterns](https://github.com/rust-lang/rust-bindgen/pull/2304)
+* [clippy: `fn_params_excessive_bools` Make it possible to allow the lint at the method level](https://github.com/rust-lang/rust-clippy/pull/9698)
+* [clippy: `result_large_err` show largest variants in err msg](https://github.com/rust-lang/rust-clippy/pull/9662)
+* [clippy: add `manual_is_ascii_check` lint](https://github.com/rust-lang/rust-clippy/pull/9765)
+* [clippy: add `unnecessary_safety_doc` lint](https://github.com/rust-lang/rust-clippy/pull/9822)
+* [clippy: Fix two `needless_borrow` false positives](https://github.com/rust-lang/rust-clippy/pull/9791)
+* [clippy: avoid linting unsized mutable reference](https://github.com/rust-lang/rust-clippy/pull/9835)
+* [clippy: fix `explicit_auto_deref` false positives](https://github.com/rust-lang/rust-clippy/pull/9813)
+* [clippy: fix `is_async_fn` to check `FnKind::Method`](https://github.com/rust-lang/rust-clippy/pull/9836)
+* [clippy: fix `never_loop` false positive](https://github.com/rust-lang/rust-clippy/pull/9837)
+* [clippy: fix `vec-box-size-threshold` off-by-one error](https://github.com/rust-lang/rust-clippy/pull/9848)
+* [clippy: fix: `cognitive_complexity` for async fn](https://github.com/rust-lang/rust-clippy/pull/9828)
+* [clippy: make `bool_to_int_with_if` a pedantic lint](https://github.com/rust-lang/rust-clippy/pull/9830)
+* [clippy: make it clear that `or_fun_call` can be a false positive](https://github.com/rust-lang/rust-clippy/pull/9829)
+* [rust-analyzer: nest Cargo.lock under Cargo.toml in Code](https://github.com/rust-lang/rust-analyzer/pull/13582)
+* [rust-analyzer: fix `tt::Punct`'s spacing calculation](https://github.com/rust-lang/rust-analyzer/pull/13548)
+* [rust-analyzer: add trait alias grammar to rust.ungram](https://github.com/rust-lang/rust-analyzer/pull/13606)
+* [rust-analyzer: check visibility of each path segment](https://github.com/rust-lang/rust-analyzer/pull/13602)
+* [rust-analyzer: fix hover in attributed items not preferring similar kinded tokens](https://github.com/rust-lang/rust-analyzer/pull/13604)
+* [rust-analyzer: fix item completions not working properly after unit structs and outline modules](https://github.com/rust-lang/rust-analyzer/pull/13581)
+* [rust-analyzer: fix panic when computing signature of generic `FnOnce` callable](https://github.com/rust-lang/rust-analyzer/pull/13584)
+* [rust-analyzer: fix r-a eagerly showing no discovered workspace errors](https://github.com/rust-lang/rust-analyzer/pull/13605)
+* [rust-analyzer: send status notification if there are no found workspaces](https://github.com/rust-lang/rust-analyzer/pull/13603)
+* [crates.io downloads: use `recent_downloads` as `downloads` if it is higher](https://github.com/rust-lang/crates.io/pull/5426)
 
 ### Rust Compiler Performance Triage
 
@@ -187,7 +259,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> What you are essentially saying is: "Doctor, I'm writing C in Rust, and it hurts." To which the doctor will reply: "Then don't write C in Rust, and it won't hurt!"
+
+– [Árpád Goretity on rust-users](https://users.rust-lang.org/t/rust-applicability-to-small-embedded-codebase-getting-discouraged/84049/17)
+
+Thanks to [Michael Bryan](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1332) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
