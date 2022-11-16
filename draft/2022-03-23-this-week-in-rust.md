@@ -29,6 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Miscellaneous
 * [Cross-platform Brainfuck Interpreter implementation in Rust - Part 1](https://rtoch.com/posts/brainfuck-interpreter-implementation-part-1/)
 * [Cross-platform Brainfuck Interpreter implementation in Rust - Part 2](https://rtoch.com/posts/brainfuck-interpreter-implementation-part-2/)
+* [ARP Injection in Rust on Linux](https://leshow.github.io/post/linux_arp_injection/)
 
 ## Crate of the Week
 
