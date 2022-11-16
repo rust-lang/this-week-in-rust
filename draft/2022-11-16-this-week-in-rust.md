@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Tower, Episode 3: Readiness](https://heikoseeberger.de/2022/11/07/2022-11-08-tower-3/)
 
 ### Research
 
