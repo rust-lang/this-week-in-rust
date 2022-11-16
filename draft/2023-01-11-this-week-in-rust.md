@@ -28,16 +28,39 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Updating the Android NDK in Rust 1.68](https://blog.rust-lang.org/2023/01/09/android-ndk-update-r25.html)
+* [Announcing Rust 1.66.1](https://blog.rust-lang.org/2023/01/10/Rust-1.66.1.html)
+* [Security advisory for Cargo (CVE-2022-46176)](https://blog.rust-lang.org/2023/01/10/cve-2022-46176.html)
 
 ### Foundation
+* [Introducing Our Newest Project Grantees](https://foundation.rust-lang.org/news/community-grants-program-awards-announcement-introducing-our-latest-project-grantees/)
 
 ### Newsletters
+* [This Month in Rust OSDev: December 2022](https://rust-osdev.com/this-month/2022-12/)
+* [Rust Nigeria newsletter Issue 13](https://rustnigeria.curated.co/issues/13)
 
 ### Project/Tooling Updates
+* [Announcing turmoil](https://tokio.rs/blog/2023-01-03-announcing-turmoil)
+* [rust-analyzer changelog #163](https://rust-analyzer.github.io/thisweek/2023/01/09/changelog-163.html)
+* [rustc_codegen_gcc: Progress Report #19](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-19)
+* [Fyrox 0.29 Feature Highlights](https://fyrox.rs/blog/post/feature-highlights-0-29/)
 
 ### Observations/Thoughts
+* [Rust Atomics and Locks by Mara Bos](https://marabos.nl/atomics/)
+* [Oh the Crates You'll Go! A 2022 Retrospective](https://jack.wrenn.fyi/blog/2022-retrospective/)
+* [Rust for Java developers, an introduction](https://wcgw.dev/posts/2023/rusty-java-intro/)
+* [On Random Numbers](https://matklad.github.io/2023/01/04/on-random-numbers.html)
+* [Potential DoS Vulnerability in Rust Hyper](https://jfrog.com/blog/watch-out-for-dos-when-using-rusts-popular-hyper-package/)
+* [Is coding in Rust as bad as in C++?](https://quick-lint-js.com/blog/cpp-vs-rust-build-times/)
+* [Rust vs C++ Formatting](https://brevzin.github.io/c++/2023/01/02/rust-cpp-format/)
+* [My impressions of Rust after a year of working with it](https://reltech.substack.com/p/my-impressions-of-rust-after-a-year)
+* [audio] [Fermyon with Matt Butcher](https://rustacean-station.org/episode/matt-butcher/)
 
 ### Rust Walkthroughs
+* [Testing SIMD instructions on ARM with Rust on Android](https://gendignoux.com/blog/2023/01/05/rust-arm-simd-android.html)
+* [Running Zola on WebAssembly](https://dstaley.com/posts/running-zola-on-wasm/)
+* [Who needs Haskell? Straight to Rust Hell](https://www.jernesto.com/articles/who_needs_haskell.html)
+* [Sharing Data Among Tasks in Rust Embassy: Synchronization Primitives](https://apollolabsblog.hashnode.dev/sharing-data-among-tasks-in-rust-embassy-synchronization-primitives)
 
 ### Research
 
