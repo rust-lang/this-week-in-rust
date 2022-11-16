@@ -71,7 +71,19 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A light week for triage. The biggest of the three regressions has a (hopeful)
+fix up already. The second biggest is a regression we are accepting for sake
+of correctness of incremental-compilation. The third regression is small and may
+well be removed as the type system internals are improved. max-rss seems stable.
+
+Triage done by **@pnkfelix**.
+Revision range: [57d3c58e..96ddd32c](https://perf.rust-lang.org/?start=57d3c58ed6e0faf89a62411f96c000ffc9fd3937&end=96ddd32c4bfb1d78f0cd03eb068b1710a8cebeef&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 4 Improvements, 3 Mixed; 2 of them in rollups
+40 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-11-14.md)
+
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
