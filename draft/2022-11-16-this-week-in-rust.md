@@ -60,8 +60,6 @@ and just ask the editors to select the category.
 * [Five simple steps to use any Arduino C++ library in a Rust project](https://dev.to/kgrech/five-simple-steps-to-use-any-arduino-c-library-in-a-rust-project-1k78)
 * [Tower, Episode 3: Readiness](https://heikoseeberger.de/2022/11/07/2022-11-08-tower-3/)
 
-### Research
-
 ### Miscellaneous
 * [ARP Injection in Rust on Linux](https://leshow.github.io/post/linux_arp_injection/)
 
