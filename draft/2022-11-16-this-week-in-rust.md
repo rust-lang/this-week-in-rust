@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 * [Bevy - Bevy 0.9](https://bevyengine.org/news/bevy-0-9/)
 * [video] [Bevy 0.9 Release Train](https://www.youtube.com/watch?v=mxYMduEC7xs)
 * [Fornjot (code-first CAD in Rust) - Progress Report](https://www.fornjot.app/blog/progress-report-2022-11/)
+* [What's new in SeaORM 0.10.x](https://www.sea-ql.org/blog/2022-11-10-whats-new-in-0.10.x/)
 
 ### Observations/Thoughts
 * [Error docs](https://www.ncameron.org/blog/error-docs/)
@@ -334,7 +335,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/ymepy8/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
