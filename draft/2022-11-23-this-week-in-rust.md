@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Calling Rust from iOS](https://burgers.io/calling-rust-from-ios)
+
 ### Research
 
 ### Miscellaneous
