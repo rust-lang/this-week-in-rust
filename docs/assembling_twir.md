@@ -60,4 +60,4 @@ Most events include a meetup link, it's important to follow the link and check t
 
 ## Jobs
 
-This section has been updated to refer to the most recent ['Who's Hiring'](https://www.reddit.com/r/rust/search/?q=who%27s%20hiring&restrict_sr=1&sr_nsfw=&include_over_18=1&sort=new) thread on the [Rust subreddit](https://www.reddit.com/r/rust/). 
+This section has been updated to refer to the most recent ['Who's Hiring'](https://www.reddit.com/r/rust/search/?q=who%27s%20hiring&restrict_sr=1&sort=new thread on the [Rust subreddit](https://www.reddit.com/r/rust/). 
