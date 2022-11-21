@@ -35,8 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-- [RustSBI 0.3.0 Has Released](https://rustcc.cn/article?id=18318ed2-d6b3-461c-a599-fe140ef41713)
-- [video] [Technologies and Applications in RustSBI 0.3.0](https://www.bilibili.com/video/BV1U841187xH)
+- [Chinese] [RustSBI 0.3.0 Has Released](https://rustcc.cn/article?id=18318ed2-d6b3-461c-a599-fe140ef41713)
+- [video] [Chinese] [Technologies and Applications in RustSBI 0.3.0](https://www.bilibili.com/video/BV1U841187xH)
 
 ### Observations/Thoughts
 
