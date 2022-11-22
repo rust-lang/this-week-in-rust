@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 - [video] [Chinese] [Technologies and Applications in RustSBI 0.3.0](https://www.bilibili.com/video/BV1U841187xH)
 
 ### Observations/Thoughts
+* [Category Theory with Rust (pt1)](https://www.kurtlawrence.info/blog/category-theory-with-rust-pt1)
 
 ### Rust Walkthroughs
 
