@@ -51,7 +51,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [graph](https://crates.io/crates/graph), a collection of high-performance graph algorithms.
+
+Thanks to [Knutwalker](https://users.rust-lang.org/t/crate-of-the-week/2704/1125) for the (partial self-) suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -73,7 +75,70 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+388 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-11-14..2022-11-21
+
+* [deduce closure signature from a type alias `impl Trait`'s supertraits](https://github.com/rust-lang/rust/pull/104258)
+* [pass 128-bit C-style enum enumerator values to LLVM](https://github.com/rust-lang/rust/pull/102717)
+* [detect incorrect chaining of if and if let conditions and recover](https://github.com/rust-lang/rust/pull/103405)
+* [diagnostics `icu4x` based list formatting](https://github.com/rust-lang/rust/pull/104047)
+* [diagnostics: only show one suggestion for method → assoc fn](https://github.com/rust-lang/rust/pull/104580)
+* [fix inconsistent rounding of 0.5 when formatted to 0 decimal places](https://github.com/rust-lang/rust/pull/102935)
+* [fix non-associativity of `Instant` math on `aarch64-apple-darwin` targets](https://github.com/rust-lang/rust/pull/103594)
+* [improve generating Custom entry (as in `main()`) function](https://github.com/rust-lang/rust/pull/104001)
+* [improve spans for RPITIT object-safety errors](https://github.com/rust-lang/rust/pull/104593)
+* [interpret: support for per-byte provenance](https://github.com/rust-lang/rust/pull/104054)
+* [llvm-wrapper adapt for LLVM API change](https://github.com/rust-lang/rust/pull/104413)
+* [nll: correctly deal with bivariance](https://github.com/rust-lang/rust/pull/104411)
+* [only do parser recovery on retried macro matching](https://github.com/rust-lang/rust/pull/104335)
+* [record `LocalDefId` in HIR nodes instead of a side table](https://github.com/rust-lang/rust/pull/104170)
+* [shift no characters when using raw string literals](https://github.com/rust-lang/rust/pull/104193)
+* [slightly improve error message for invalid identifier](https://github.com/rust-lang/rust/pull/104309)
+* [support `#[track_caller]` on async fns](https://github.com/rust-lang/rust/pull/104219)
+* [miri: make `align_offset` always work on no-provenance pointers](https://github.com/rust-lang/miri/pull/2683)
+* [miri: stack borrows: weak protectors](https://github.com/rust-lang/miri/pull/2684)
+* [add new MIR constant propagation based on dataflow analysis](https://github.com/rust-lang/rust/pull/101168)
+* [merge basic blocks where possible when generating LLVM IR](https://github.com/rust-lang/rust/pull/103138)
+* [minimal implementation of implicit deref patterns for Strings](https://github.com/rust-lang/rust/pull/98914)
+* [shrink `ast::Expr` harder](https://github.com/rust-lang/rust/pull/101562)
+* [use `token::Lit` in `ast::ExprKind::Lit`](https://github.com/rust-lang/rust/pull/102944)
+* [perform simple scalar replacement of aggregates (SROA) MIR opt](https://github.com/rust-lang/rust/pull/102570)
+* [make `pointer::byte_offset_from` more generic](https://github.com/rust-lang/rust/pull/103489)
+* [fix `mod_inv` termination for the last iteration](https://github.com/rust-lang/rust/pull/103378)
+* [improve accuracy of asinh and acosh](https://github.com/rust-lang/rust/pull/104553)
+* [stabilize const char convert](https://github.com/rust-lang/rust/pull/102470)
+* [`VecDeque::resize` should re-use the buffer in the passed-in element](https://github.com/rust-lang/rust/pull/104435)
+* [`unchecked_`{`shl`, `shr`} should use `u32` as the RHS](https://github.com/rust-lang/rust/pull/103456)
+* [constify `is_aligned` via `align_offset`](https://github.com/rust-lang/rust/pull/102795)
+* [`x86_64` SSE2 fast-path for `str.contains(&str)` and short needles](https://github.com/rust-lang/rust/pull/103779)
+* [remove HRTB from `[T]::is_sorted_by`{,`_key`}](https://github.com/rust-lang/rust/pull/102977)
+* [portable-simd: scatter/gather for pointers](https://github.com/rust-lang/portable-simd/pull/315)
+* [stdarch: fix undefined behavior in `movemask_epi8`](https://github.com/rust-lang/stdarch/pull/1354)
+* [compiler-builtins: skip assembly implementations on the UEFI targets](https://github.com/rust-lang/compiler-builtins/pull/504)
+* [compiler-builtins: use a stub stdlib.h when compiling for UEFI targets](https://github.com/rust-lang/compiler-builtins/pull/506)
+* [cargo: fix cargo install --index when used with registry.default](https://github.com/rust-lang/cargo/pull/11302)
+* [cargo: alternative registry authentication support](https://github.com/rust-lang/cargo/pull/10592) (RFC [#3139](https://rust-lang.github.io/rfcs/3139-cargo-alternative-registry-auth.html))
+* [cargo: improve error message for cargo add/remove](https://github.com/rust-lang/cargo/pull/11375)
+* [rustdoc: fix missing minification for static files](https://github.com/rust-lang/rust/pull/104404)
+* [rustdoc: resolve doc links in external traits having local impls](https://github.com/rust-lang/rust/pull/104364)
+* [clippy: `never_loop`: don't emit AlwaysBreaks if it targets a block](https://github.com/rust-lang/rust-clippy/pull/9858)
+* [clippy: add new lint `misnamed-getters`](https://github.com/rust-lang/rust-clippy/pull/9770)
+* [clippy: allow manual swap in const fn](https://github.com/rust-lang/rust-clippy/pull/9871)
+* [clippy: allow return types for closures with lifetime binder](https://github.com/rust-lang/rust-clippy/pull/9849)
+* [clippy: `arithmetic_side_effects`: detect overflowing associated constants of integers](https://github.com/rust-lang/rust-clippy/pull/9592)
+* [clippy: extend `needless_borrowed_reference` to structs and tuples, ignore `_`](https://github.com/rust-lang/rust-clippy/pull/9855)
+* [clippy: lint unchecked subtraction of a 'Duration' from an 'Instant'](https://github.com/rust-lang/rust-clippy/pull/9570)
+* [clippy: fix `#[allow]` for `module_name_repetitions` & `single_component_path_imports`](https://github.com/rust-lang/rust-clippy/pull/9879)
+* [clippy: preserve `ref` on `infallible_destructuring_match` suggestion](https://github.com/rust-lang/rust-clippy/pull/9850)
+* [rust-analyzer: allow viewing the full compiler diagnostic in a readonly textview](https://github.com/rust-lang/rust-analyzer/pull/13633)
+* [rust-analyzer: make "Remove dbg!()" assist work on selections](https://github.com/rust-lang/rust-analyzer/pull/13629)
+* [rust-analyzer: remove `item_const` which had default value when implement missing members](https://github.com/rust-lang/rust-analyzer/pull/13642)
+* [rust-analyzer: format expression parsing edge-cases](https://github.com/rust-lang/rust-analyzer/pull/13641)
+* [rust-analyzer: include generic parameter in GAT completions](https://github.com/rust-lang/rust-analyzer/pull/13622)
+* [rust-analyzer: resolve inference variable before applying adjustments](https://github.com/rust-lang/rust-analyzer/pull/13624)
+* [rust-analyzer: strip comments and attributes off of all trait item completions](https://github.com/rust-lang/rust-analyzer/pull/13623)
+* [rust-analyzer: support multiple targets for checkOnSave (in conjunction with cargo 1.64.0+)](https://github.com/rust-lang/rust-analyzer/pull/13290)
 
 ### Rust Compiler Performance Triage
 
@@ -212,7 +277,19 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> While working on these userspace Mesa changes today, I did not hit a single GPU kernel driver bug. Not. A. Single. Bug.
+>
+> This is thanks to Lina's phenomenal efforts. She took a gamble writing the kernel driver in Rust, knowing it would take longer to get to the first triangle but believing it would make for a more robust driver in the end. She was right.
+>
+> A few months of Lina's Rust development has produced a more stable driver than years of development in C on certain mainline Linux GPU kernel drivers.
+>
+> I think... I think I have Rust envy 🦀
+>
+> ....Or maybe just Lina envy 😊
+
+– [Alyssa Rosenzweig tooting on Mastodon](https://social.treehouse.systems/@alyssa/109311654876060384)
+
+Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1331) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
