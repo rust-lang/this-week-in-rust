@@ -77,7 +77,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-A fairly quiet week with regressions unfortunately slightly outweighing regressions. There was not any particular change of much note. Many of the regressions were justifiable since they were for critical bug fixes.
+A fairly quiet week with regressions unfortunately slightly outweighing improvements. There was not any particular change of much note. Many of the regressions were justifiable since they were for critical bug fixes.
 
 Triage done by **@rylev**.
 Revision range: [96ddd32c..a78c9bee](https://perf.rust-lang.org/?start=96ddd32c4bfb1d78f0cd03eb068b1710a8cebeef&end=a78c9bee4d9d51a3891bd8ecae1f28a93b83653b&absolute=false&stat=instructions%3Au)
