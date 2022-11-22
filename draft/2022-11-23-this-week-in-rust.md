@@ -6,7 +6,7 @@ Category: This Week in Rust
 Hello and welcome to another issue of *This Week in Rust*!
 [Rust](https://www.rust-lang.org/) is a programming language empowering everyone to build reliable and efficient software.
 This is a weekly summary of its progress and community.
-Want something mentioned? Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) or [send us a pull request](https://github.com/rust-lang/this-week-in-rust).
+Want something mentioned? Tag us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) on Twitter or [@ThisWeekinRust](https://mastodon.social/@thisweekinrust) on mastodon.social, or [send us a pull request](https://github.com/rust-lang/this-week-in-rust).
 Want to get involved? [We love contributions](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md).
 
 *This Week in Rust* is openly developed [on GitHub](https://github.com/rust-lang/this-week-in-rust).
@@ -113,7 +113,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [`unchecked_`{`shl`, `shr`} should use `u32` as the RHS](https://github.com/rust-lang/rust/pull/103456)
 * [constify `is_aligned` via `align_offset`](https://github.com/rust-lang/rust/pull/102795)
 * [`x86_64` SSE2 fast-path for `str.contains(&str)` and short needles](https://github.com/rust-lang/rust/pull/103779)
-* [remove HRTB from `[T]::is_sorted_by`{,`_key`}](https://github.com/rust-lang/rust/pull/102977)
 * [portable-simd: scatter/gather for pointers](https://github.com/rust-lang/portable-simd/pull/315)
 * [stdarch: fix undefined behavior in `movemask_epi8`](https://github.com/rust-lang/stdarch/pull/1354)
 * [compiler-builtins: skip assembly implementations on the UEFI targets](https://github.com/rust-lang/compiler-builtins/pull/504)
