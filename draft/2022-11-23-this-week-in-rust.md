@@ -35,9 +35,9 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2022-w47/)
-
-- [Chinese] [RustSBI 0.3.0 Has Released](https://rustcc.cn/article?id=18318ed2-d6b3-461c-a599-fe140ef41713)
-- [video] [Chinese] [Technologies and Applications in RustSBI 0.3.0](https://www.bilibili.com/video/BV1U841187xH)
+* [Rust Search Extension v1.9.0 has been released](https://rust.extension.sh/changelog/#v1-9-0-2022-11-20)
+* [Chinese] [RustSBI 0.3.0 Has Released](https://rustcc.cn/article?id=18318ed2-d6b3-461c-a599-fe140ef41713)
+* [Chinese] [Video: Technologies and Applications in RustSBI 0.3.0](https://www.bilibili.com/video/BV1U841187xH)
 
 ### Observations/Thoughts
 * [Category Theory with Rust (pt1)](https://www.kurtlawrence.info/blog/category-theory-with-rust-pt1)
