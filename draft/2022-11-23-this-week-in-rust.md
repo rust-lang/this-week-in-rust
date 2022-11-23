@@ -41,9 +41,9 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2022-w47/)
 * [This Week in Fyrox #3](https://fyrox.rs/blog/post/twif3/)
 * [futures-concurrency Release v7.0.0](https://github.com/yoshuawuyts/futures-concurrency/releases/tag/v7.0.0)
-
-- [Chinese] [RustSBI 0.3.0 Has Released](https://rustcc.cn/article?id=18318ed2-d6b3-461c-a599-fe140ef41713)
-- [video] [Chinese] [Technologies and Applications in RustSBI 0.3.0](https://www.bilibili.com/video/BV1U841187xH)
+* [Rust Search Extension v1.9.0 has been released](https://rust.extension.sh/changelog/#v1-9-0-2022-11-20)
+* [Chinese] [RustSBI 0.3.0 Has Released](https://rustcc.cn/article?id=18318ed2-d6b3-461c-a599-fe140ef41713)
+* [Chinese] [Video: Technologies and Applications in RustSBI 0.3.0](https://www.bilibili.com/video/BV1U841187xH)
 
 ### Observations/Thoughts
 * [A Better Way to Borrow in Rust: Stack Tokens](https://lucumr.pocoo.org/2022/11/23/stack-tokens/)
@@ -224,20 +224,6 @@ Rusty Events between 2022-11-23 - 2022-12-21 🦀
 
 ### Virtual
 
-* 2022-11-16 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
-    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/tqvhxsydcpbvb/)
-* 2022-11-17 | Virtual (Amsterdam, NL) | [ITGilde Tech-Talks](https://www.meetup.com/itgilde-cooperatie-amsterdam-unix-linux-meetups)
-    * [**Introduction “Rust” an ITGilde Tech Talk delivered by Pascal van Dam**](https://www.meetup.com/itgilde-cooperatie-amsterdam-unix-linux-meetups/events/289167373/)
-* 2022-11-17 | Virtual (San Francisco, CA, US) | [Data + AI Online Meetup](https://www.meetup.com/data-ai-online/)
-    * [**D3L2: delta-rs at Back Market: Python and Rust, the best of both worlds**](https://www.meetup.com/data-ai-online/events/289623322/)
-* 2022-11-17 | Virtual (San Francisco, CA, US) | [WebAssembly North America](https://www.meetup.com/wasmna/)
-    * [**Rust 🤝 Wasm with Alex Crichton**](https://www.meetup.com/wasmna/events/289623268/)
-* 2022-11-17 | Virtual (Stuttgart, DE) | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
-    * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/qtvtvsydcpbwb/)
-* 2022-11-21 | Virtual (Paris, FR) | [Meetup Paris - École Supérieure de Génie Informatique (ESGI)](https://www.meetup.com/meetup-paris-ecole-superieur-du-genie-informatique)
-    * [**Découverte de WebAssembly**](https://www.meetup.com/meetup-paris-ecole-superieur-du-genie-informatique/events/289112753/)
-* 2022-11-22 | Virtual (Berlin, DE) | [Berlin.rs](https://berline.rs/)
-    * [**Rust Hack and Learn**](https://berline.rs/2022/11/22/rust-hack-and-learn.html)
 * 2022-11-24 | Virtual (Linz, AT) | [Rust Linz](https://www.meetup.com/rust-linz/)
     * [**Rust Meetup Linz - 27th Edition**](https://www.meetup.com/rust-linz/events/289251460/)
 * 2022-11-28 | Virtual | [Rust Formal Methods Interest Group](https://www.eventbrite.com/o/rust-formal-methods-interest-group-34404947509)
@@ -250,12 +236,18 @@ Rusty Events between 2022-11-23 - 2022-12-21 🦀
     * [**Rust Munich 2022 / 3 - hybrid**](https://www.meetup.com/rust-munich/events/289065390/)
 * 2022-12-01 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Exploring USB with Rust**](https://www.meetup.com/charlottesville-rust-meetup/events/289563986/)
+* 2022-12-01 | Virtual (Lehi, UT, US) | [Utah Rust](https://www.meetup.com/utah-rust/)
+    * [**Beginner Projects and Shop Talk with Food!**](https://www.meetup.com/utah-rust/events/289899804/)
+* 2022-12-01 | Virtual (Redmond, WA, US) | [Microsoft Reactor Redmond](https://www.meetup.com/microsoft-reactor-redmond/)
+    * [**Getting Started with Rust: Understanding Rust Compile Errors – Part 2**](https://www.meetup.com/microsoft-reactor-redmond/events/289830539/) 
 * 2022-12-06 | Virtual (Berlin, DE) | [Berlin.rs](https://berline.rs/)
     * [**Rust Hack and Learn**](https://berline.rs/2022/12/06/rust-hack-and-learn.html)
 * 2022-12-06 | Virtual (Buffalo, NY, US) | [Buffalo Rust Meetup](https://www.meetup.com/buffalo-rust-meetup/)
     * [**Buffalo Rust User Group, First Tuesdays**](https://www.meetup.com/buffalo-rust-meetup/events/hlgvxsydcqbjb/)
 * 2022-12-07 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/287027660/)
+* 2022-12-07 | Virtual (Stuttgart, DE) | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
+    * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/dvvtvsydcqbkb/)
 * 2022-12-08 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
     * [**Rust Nürnberg online #20**](https://www.meetup.com/rust-noris/events/hlvbvsydcqblb/)
 * 2022-12-08 | Virtual (San Francisco, CA, US) | [Data + AI Online Meetup](https://www.meetup.com/data-ai-online/)
@@ -268,18 +260,15 @@ Rusty Events between 2022-11-23 - 2022-12-21 🦀
     * [**Meetup: 25u16**](https://www.meetup.com/rust-saar/events/289663288/)
 * 2022-12-14 | Virtual (Boulder, CO, US) | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
     * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsrydcqbsb/)
-
-### Asia
-
-* 2022-11-22 | Tokyo, JP | [Tokyo Rust Meetup](https://www.meetup.com/tokyo-rust-meetup)
-    * [**Fullstack Web Dev in Rust**](https://www.meetup.com/tokyo-rust-meetup/events/289661246/)
+* 2022-12-20 | Virtual (Berlin, DE) | [Berlin.rs](https://berline.rs/)
+    * [**Rust Hack and Learn**](https://berline.rs/2022/12/20/rust-hack-and-learn.html)
+* 2022-12-20 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
+    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/vdhxgsydcqbbc/)
+* 2022-12-21 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
+    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/tqvhxsydcqbcc/)
 
 ### Europe
 
-* 2022-11-16 | Paris, FR | [Stockly](https://www.eventbrite.fr/o/stockly-42274765293)
-    * [**Rust Meetup in Paris - hosted by Stockly**](https://www.eventbrite.fr/e/rust-meetup-in-paris-hosted-by-stockly-tickets-444152621447?aff=ebdssbdestsearch)
-* 2022-11-22 | Karlsruhe, DE | [Rust Hack & Learn Karlsruhe](https://www.meetup.com/rust-hack-learn-karlsruhe/)
-    * [**Rust Meet-up**](https://www.meetup.com/rust-hack-learn-karlsruhe/events/289674810/)
 * 2022-11-23 | Bratislava, SK | [Bratislava Rust Meetup Group](https://www.meetup.com/bratislava-rust-meetup-group/)
     * [**Initial Meet and Greet Rust meetup**](https://www.meetup.com/bratislava-rust-meetup-group/events/289028178/)
 * 2022-11-24 | København, DK | [Copenhagen Rust Group](https://cph.rs/)
@@ -292,10 +281,14 @@ Rusty Events between 2022-11-23 - 2022-12-21 🦀
     * [**Rust Lille #1**](https://www.meetup.com/meetup-group-zgphbyet/events/289620614/)
 * 2022-11-30 | Milan, IT | [Rust Language Milano](https://www.meetup.com/rust-language-milano/)
     * [**Welcome GAT!!**](https://www.meetup.com/rust-language-milano/events/289767176/)
+* 2022-11-30 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/)
+    * [**Rust Paris meetup #54**](https://www.meetup.com/rust-paris/events/289833645/)
 * 2022-11-30 | Munich, DE + Virtual | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich 2022 / 3 - hybrid**](https://www.meetup.com/rust-munich/events/289065390/)
 * 2022-12-01 | Edinburgh, UK | [Rust Edinburgh](https://www.meetup.com/rust-edi/)
     * [**December Talks + Rust Book Raffle**](https://www.meetup.com/rust-edi/events/289582990/)
+* 2022-12-01 | Wrocław, PL | [Rust Wrocław](https://www.meetup.com/rust-wroclaw/)
+    * [**Rust Wrocław Meetup #30**](https://www.meetup.com/rust-wroclaw/events/289884642/)
 * 2022-12-07 | Zurich, CH | [Rust Zurich](https://www.meetup.com/Rust-Zurich/)
     * [**Next generation i18n with rust (icu4x) and zero-copy deserialization**](https://www.meetup.com/rust-zurich/events/289518586/)
 * 2022-12-12 | Enschede, NL | [Dutch Rust Meetup](https://www.meetup.com/dutch-rust-meetup/)
@@ -305,13 +298,15 @@ Rusty Events between 2022-11-23 - 2022-12-21 🦀
 
 * 2022-11-29 | Austin, TX, US | [ATX Rustaceans](https://www.meetup.com/atx-rustaceans/)
     * [**Atx Rustaceans Meetup**](https://www.meetup.com/atx-rustaceans/events/289594614/)
+* 2022-12-01 | Lehi, UT, US + Virtual | [Utah Rust](https://www.meetup.com/utah-rust/)
+    * [**Beginner Projects and Shop Talk with Food!**](https://www.meetup.com/utah-rust/events/289899804/)
 * 2022-12-08 | Columbus, OH, US | [Columbus Rust Society](https://www.meetup.com/columbus-rs/events/)
     * [**Monthly Meeting**](https://www.meetup.com/columbus-rs/events/dpkhgrydcqblb/)
+* 2022-12-20 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
+    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/wjkjssydcqbbc/)
 
 ### Oceania
 
-* 2022-11-22 | Canberra, ACT, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/)
-    * [**November Meetup**](https://www.meetup.com/rust-canberra/events/288615873/)
 * 2022-11-24 | Brisbane, QLD, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane/)
     * [**November Meetup**](https://www.meetup.com/rust-brisbane/events/289539610/)
 * 2022-12-08 | Melbourne, VIC, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne)
