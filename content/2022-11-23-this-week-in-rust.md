@@ -33,8 +33,6 @@ and just ask the editors to select the category.
 ### Foundation
 * [Community Grantee Spotlight: Sebastian Thiel](https://foundation.rust-lang.org/news/community-grantee-spotlight-sebastian-thiel/)
 
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer changelog #156](https://rust-analyzer.github.io/thisweek/2022/11/21/changelog-156.html)
 * [IntelliJ Rust Changelog #183](https://intellij-rust.github.io/2022/11/21/changelog-183.html)
@@ -54,12 +52,10 @@ and just ask the editors to select the category.
 * [video] [Panel: Rust in reality - EuroRust 2022](https://www.youtube.com/watch?v=ubXvKRbULuo)
 
 ### Rust Walkthroughs
-- [Calling Rust from iOS](https://burgers.io/calling-rust-from-ios)
+* [Calling Rust from iOS](https://burgers.io/calling-rust-from-ios)
 * [Rust, Lambda, and DynamoDB](https://betterprogramming.pub/rust-lambda-and-dynamodb-bea841d47cca)
 * [Render Pipelines in wgpu and Rust](https://whoisryosuke.com/blog/2022/render-pipelines-in-wgpu-and-rust/)
 * [(Re)writing an interpreter in Rust](https://www.dannyvankooten.com/blog/2022-12-rewriting-interpreter-rust/)
-
-### Research
 
 ### Miscellaneous
 * [The carcinization of Go programs](https://xeiaso.net/blog/carcinization-golang)
@@ -85,8 +81,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+*There were no calls for participation submitted this week. If you would like to submit, please check the [guidelines](https://users.rust-lang.org/t/twir-call-for-participation/4821).*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -131,6 +126,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [`unchecked_`{`shl`, `shr`} should use `u32` as the RHS](https://github.com/rust-lang/rust/pull/103456)
 * [constify `is_aligned` via `align_offset`](https://github.com/rust-lang/rust/pull/102795)
 * [`x86_64` SSE2 fast-path for `str.contains(&str)` and short needles](https://github.com/rust-lang/rust/pull/103779)
+* [remove HRTB from `slice::is_sorted_by`(`_key`)](https://github.com/rust-lang/rust/pull/102977)
 * [portable-simd: scatter/gather for pointers](https://github.com/rust-lang/portable-simd/pull/315)
 * [stdarch: fix undefined behavior in `movemask_epi8`](https://github.com/rust-lang/stdarch/pull/1354)
 * [compiler-builtins: skip assembly implementations on the UEFI targets](https://github.com/rust-lang/compiler-builtins/pull/504)
@@ -332,7 +328,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/ymepy8/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -356,4 +352,4 @@ Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/z38fop/this_week_in_rust_470/)</small>
