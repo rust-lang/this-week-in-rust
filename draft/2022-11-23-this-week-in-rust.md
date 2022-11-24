@@ -28,27 +28,45 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Async fn in trait MVP comes to nightly](https://blog.rust-lang.org/inside-rust/2022/11/17/async-fn-in-trait-nightly.html)
 
 ### Foundation
+* [Community Grantee Spotlight: Sebastian Thiel](https://foundation.rust-lang.org/news/community-grantee-spotlight-sebastian-thiel/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #156](https://rust-analyzer.github.io/thisweek/2022/11/21/changelog-156.html)
+* [IntelliJ Rust Changelog #183](https://intellij-rust.github.io/2022/11/21/changelog-183.html)
 * [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2022-w47/)
+* [This Week in Fyrox #3](https://fyrox.rs/blog/post/twif3/)
+* [futures-concurrency Release v7.0.0](https://github.com/yoshuawuyts/futures-concurrency/releases/tag/v7.0.0)
 * [Rust Search Extension v1.9.0 has been released](https://rust.extension.sh/changelog/#v1-9-0-2022-11-20)
 * [Chinese] [RustSBI 0.3.0 Has Released](https://rustcc.cn/article?id=18318ed2-d6b3-461c-a599-fe140ef41713)
 * [Chinese] [Video: Technologies and Applications in RustSBI 0.3.0](https://www.bilibili.com/video/BV1U841187xH)
 
 ### Observations/Thoughts
+* [A Better Way to Borrow in Rust: Stack Tokens](https://lucumr.pocoo.org/2022/11/23/stack-tokens/)
 * [Category Theory with Rust (pt1)](https://www.kurtlawrence.info/blog/category-theory-with-rust-pt1)
+* [If a Tree Falls in a Forest, Does It Overflow the Stack?](https://matklad.github.io/2022/11/18/if-a-tree-falls-in-a-forest-does-it-overflow-the-stack.html)
+* [Safely writing code that isn't thread-safe](http://cliffle.com/blog/not-thread-safe/)
+* [Embedded Rust & Embassy: GPIO Button Controlled Blinking](https://apollolabsblog.hashnode.dev/embedded-rust-embassy-gpio-button-controlled-blinking)
+* [video] [Panel: Rust in reality - EuroRust 2022](https://www.youtube.com/watch?v=ubXvKRbULuo)
 
 ### Rust Walkthroughs
-
 - [Calling Rust from iOS](https://burgers.io/calling-rust-from-ios)
+* [Rust, Lambda, and DynamoDB](https://betterprogramming.pub/rust-lambda-and-dynamodb-bea841d47cca)
+* [Render Pipelines in wgpu and Rust](https://whoisryosuke.com/blog/2022/render-pipelines-in-wgpu-and-rust/)
+* [(Re)writing an interpreter in Rust](https://www.dannyvankooten.com/blog/2022-12-rewriting-interpreter-rust/)
 
 ### Research
 
 ### Miscellaneous
+* [The carcinization of Go programs](https://xeiaso.net/blog/carcinization-golang)
+* [Flux: Refinement Types for Rust](https://liquid-rust.github.io/2022/11/14/introducing-flux/)
+* [video] [Rust 🤝 WebAssembly with Alex Crichton](https://youtu.be/Uk1_3gH1w58)
+* [video] [Getting Started with Rust: Understanding Rust Compile Errors](https://www.youtube.com/watch?v=hgZQJys2zpY)
+* [video] [Can you use Character Controllers for non-platformer games?](https://www.youtube.com/watch?v=aKAwlCFaOms)
 
 ## Crate of the Week
 
