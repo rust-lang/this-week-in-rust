@@ -68,13 +68,12 @@ What we are generally NOT looking for includes:
 There are further guidelines for the Projects/Tooling Updates Section
 
 We include:
-
 * Updates on tooling when in long form or framed as a tutorial (this can be through a blog, through GitHub, through a newsletter, and more) - it must have a high amount of Rust specific info (examples in Rust, notes on things learned about Rust in the process of creating/updating the project, etc.)
 * Updates on tooling that call out specific contributors - it is wonderful to highlight all the great people contributing to Rust OSS projects (Note - the update still must include a high amount of Rust specific info)
+* Changelogs of projects (though we strongly prefer the changelogs be accompanied with details on the changes, guides to using the changes, etc.)
 
 We do not include:
-* Updates that are solely a change log without details on the changes, guides to using the changes, etc.
-* Links that are solely to a GitHub repo or crate on crates.io. While we would love to include these, there are too many being created/updated every week for us to include them all. We encourage you to write up an introduction to your project with examples, information you learned through creating the project, etc.
+* Links that are solely to a GitHub repo or crate on crates.io. While we would love to include these, there are too many being created/updated every week for us to include them all. We encourage you to write up an introduction to your project with examples, information you learned through creating the project, changes you recently made to the project, etc.
 
 Notes:
 * A small description of the project or the update in your link is encouraged (for example: FooBar 1.0: adding support for Baz)
