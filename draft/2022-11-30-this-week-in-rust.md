@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Unimock 0.4](https://audunhalland.github.io/blog/unimock-0-4/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
