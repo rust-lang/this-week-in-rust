@@ -71,7 +71,19 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A relatively quiet week for performance, with the notable exception of "Avoid
+`GenFuture` shim when compiling async constructs [#104321](https://github.com/rust-lang/rust/pull/104321)"
+ which brought sizeable wins on a number of stress test benchmarks. It probably
+won't be of huge benefit to most codebases, but should provide smaller wins to
+folks with large amounts of async-generated futures.
+
+Triage done by **@simulacrum**.
+Revision range: [a78c9bee..8a09420a](https://perf.rust-lang.org/?start=a78c9bee4d9d51a3891bd8ecae1f28a93b83653b&end=8a09420ac48658cad726e0a6997687ceac4151e3&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 3 Improvements, 6 Mixed; 2 of them in rollups
+43 artifact comparisons made in total
+
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-11-29.md) for details.
 
 ### Call for Testing
 
