@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- Extism: make all software programmable [blog post](https://extism.org/blog/announcing-extism)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
