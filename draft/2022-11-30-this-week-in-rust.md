@@ -57,7 +57,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [code-radio-cli](https://github.com/JasonWei512/code-radio-cli), a command line interface for listening to freeCodeCamp's Code Radio music stream.
+
+Thanks to [魏杰](https://users.rust-lang.org/t/crate-of-the-week/2704/1126) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -87,7 +89,82 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+389 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-11-21..2022-11-28
+
+* [add powerpc64-ibm-aix as Tier-3 target](https://github.com/rust-lang/rust/pull/102293)
+* [stabilize native library modifier `verbatim`](https://github.com/rust-lang/rust/pull/104360)
+* [use clang for the UEFI targets](https://github.com/rust-lang/rust/pull/104622)
+* [optimize field ordering by grouping m×2ⁿ-sized fields with equivalently aligned ones](https://github.com/rust-lang/rust/pull/102750)
+* [allow opaque types in trait impl headers and rely on coherence to reject unsound cases](https://github.com/rust-lang/rust/pull/103488)
+* [allow power10-vector feature in PowerPC](https://github.com/rust-lang/rust/pull/104704)
+* [branch `Clause` from `Predicate`](https://github.com/rust-lang/rust/pull/104846)
+* [enable `fuzzy_provenance_casts` lint in liballoc and libstd](https://github.com/rust-lang/rust/pull/104647)
+* [enable profiler in dist-riscv64-linux](https://github.com/rust-lang/rust/pull/104431)
+* [lint: do not warn unused parens around higher-ranked function pointers](https://github.com/rust-lang/rust/pull/104796)
+* [llvm-wrapper adapt for LLVM API change](https://github.com/rust-lang/rust/pull/104880)
+* [make `deref_into_dyn_supertrait` lint the impl and not the usage](https://github.com/rust-lang/rust/pull/104742)
+* [pass `InferCtxt` to `DropRangeVisitor` so we can resolve vars](https://github.com/rust-lang/rust/pull/104753)
+* [pretty-print generators with their `generator_kind`](https://github.com/rust-lang/rust/pull/104931)
+* [privacy: fix more (potential) issues with effective visibilities](https://github.com/rust-lang/rust/pull/104602)
+* [properly handle `Pin<&mut dyn* Trait>` receiver in codegen](https://github.com/rust-lang/rust/pull/104594)
+* [resolve: don't use constructor def ids in the map for field names](https://github.com/rust-lang/rust/pull/104747)
+* [separate lifetime ident from lifetime resolution in HIR](https://github.com/rust-lang/rust/pull/104048)
+* [stricter alignment enforcement for ScalarPair and Vector](https://github.com/rust-lang/rust/pull/105006)
+* [suggest `.clone()` or `ref binding` on E0382](https://github.com/rust-lang/rust/pull/103908)
+* [miri: fix handling of spurious accesses during retag](https://github.com/rust-lang/miri/pull/2694)
+* [miri: make `no_std` work on Windows](https://github.com/rust-lang/miri/pull/2696)
+* [miri: track local frames incrementally during execution](https://github.com/rust-lang/miri/pull/2647)
+* [miri: use `.wasm` extension when building for wasm in cargo-miri](https://github.com/rust-lang/miri/pull/2685)
+* [use an IndexVec to cache queries with index-like key](https://github.com/rust-lang/rust/pull/103808)
+* [fix perf regression by correctly matching keywords](https://github.com/rust-lang/rust/pull/104410)
+* [`rustc_metadata`: switch module children decoding to an iterator](https://github.com/rust-lang/rust/pull/104730)
+* [codegen\_gcc: fix `simd_bitmask`](https://github.com/rust-lang/rustc_codegen_gcc/pull/240)
+* [codegen\_gcc: fix the argument order for some AVX-512 intrinsics](https://github.com/rust-lang/rustc_codegen_gcc/pull/241)
+* [don't build `compiler_builtins` with `-C panic=abort`](https://github.com/rust-lang/rust/pull/103786)
+* [manually implement PartialEq for `Option<T>` and specialize non-nullable types](https://github.com/rust-lang/rust/pull/103556)
+* [stop peeling the last iteration of the loop in `Vec::resize_with`](https://github.com/rust-lang/rust/pull/104818)
+* [constify remaining `Layout` methods](https://github.com/rust-lang/rust/pull/102207)
+* [mark `sys_common::once::generic::Once::new` const-stable](https://github.com/rust-lang/rust/pull/103193)
+* [add slice methods for indexing via an array of indices](https://github.com/rust-lang/rust/pull/83608)
+* [futures: `stream::size_hint` for mpsc channels](https://github.com/rust-lang/futures-rs/pull/2660)
+* [futures: custom `Debug` implementations for `mpsc`](https://github.com/rust-lang/futures-rs/pull/2667)
+* [futures: remove `Debug` constraint for `oneshot` types](https://github.com/rust-lang/futures-rs/pull/2666)
+* [portable SIMD: avoid a scalar loop in `Simd::from_slice`](https://github.com/rust-lang/portable-simd/pull/318)
+* [regex: speed up replacen loop](https://github.com/rust-lang/regex/pull/930)
+* [`rustc_codegen_ssa`: write `.dwp` in a streaming fashion](https://github.com/rust-lang/rust/pull/104797)
+* [cargo: add error message for `cargo fix` on an empty repo](https://github.com/rust-lang/cargo/pull/11400)
+* [cargo: add suggestions when `cargo add` multiple packages](https://github.com/rust-lang/cargo/pull/11186)
+* [cargo: store the sparse+ prefix in the SourceId for sparse registries](https://github.com/rust-lang/cargo/pull/11387)
+* [rustdoc: improve popover focus handling JS](https://github.com/rust-lang/rust/pull/104946)
+* [bindgen: add `--wrap-unsafe-ops` option](https://github.com/rust-lang/rust-bindgen/pull/2354)
+* [bindgen: add `ParseCallbacks::process_comment`](https://github.com/rust-lang/rust-bindgen/pull/2347)
+* [bindgen: deprecate Rust targets lower or equal than `1.30`](https://github.com/rust-lang/rust-bindgen/pull/2356)
+* [bindgen: escape method fragments that happen to be rust keywords](https://github.com/rust-lang/rust-bindgen/pull/2359)
+* [bindgen: remove traits that have a single implementation](https://github.com/rust-lang/rust-bindgen/pull/2363)
+* [clippy: add `clippy_utils::msrv::Msrv` to keep track of the current MSRV](https://github.com/rust-lang/rust-clippy/pull/9924)
+* [clippy: add allow-mixed-uninlined-format-args config](https://github.com/rust-lang/rust-clippy/pull/9865)
+* [clippy: fix `unnecessary_to_owned` false positive](https://github.com/rust-lang/rust-clippy/pull/9796)
+* [clippy: fix `redundant_closure_for_method_calls` suggestion](https://github.com/rust-lang/rust-clippy/pull/9745)
+* [clippy: fix `unnecessary_lazy_eval` when type has significant drop](https://github.com/rust-lang/rust-clippy/pull/9750)
+* [clippy: lint unnecessary safety comments](https://github.com/rust-lang/rust-clippy/pull/9851)
+* [clippy: re-enable `uninlined_format_args` on multiline `format!`](https://github.com/rust-lang/rust-clippy/pull/9945)
+* [clippy: remove blank lines when `needless_return` returns no value](https://github.com/rust-lang/rust-clippy/pull/9967)
+* [rust-analyzer: add `deriveHelper` to `semanticTokenTypes` section of package.json](https://github.com/rust-lang/rust-analyzer/pull/13670)
+* [rust-analyzer: add assist to generate trait impl's](https://github.com/rust-lang/rust-analyzer/pull/13592)
+* [rust-analyzer: adds hover hint to ".." in record pattern](https://github.com/rust-lang/rust-analyzer/pull/13638)
+* [rust-analyzer: check tail expressions more precisely in `extract_function`](https://github.com/rust-lang/rust-analyzer/pull/13681)
+* [rust-analyzer: filter unnecessary completions after colon](https://github.com/rust-lang/rust-analyzer/pull/13611)
+* [rust-analyzer: handle empty `checkOnSave/target` values](https://github.com/rust-lang/rust-analyzer/pull/13661)
+* [rust-analyzer: handle sysroot config in detached-files workspaces](https://github.com/rust-lang/rust-analyzer/pull/13667)
+* [rust-analyzer: tuple to named struct inside macros](https://github.com/rust-lang/rust-analyzer/pull/13647)
+* [rust-analyzer: hir-expand: fix `compile_error!` expansion not unquoting strings](https://github.com/rust-lang/rust-analyzer/pull/13652)
+* [rust-analyzer: improve goto declaration](https://github.com/rust-lang/rust-analyzer/pull/13671)
+* [rust-analyzer: properly implement Drop for JodGroupChild](https://github.com/rust-lang/rust-analyzer/pull/13669)
+* [rust-analyzer: suppress "Implement default members" inside contained items](https://github.com/rust-lang/rust-analyzer/pull/13576)
+* [cargo-bisect-rustc: --start without --end defaults `end` to be today](https://github.com/rust-lang/cargo-bisect-rustc/pull/240)
+* [cc-rs: refine CUDA support](https://github.com/rust-lang/cc-rs/pull/712)
 
 ### Rust Compiler Performance Triage
 
@@ -256,7 +333,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> After many years of writing bugs, and then discovering Rust, I learned to appreciate explicitness in code, and hope you eventually will too.
+
+– [Artem Borisovskiy on rust-users](https://users.rust-lang.org/t/how-to-add-a-crate/84602/11)
+
+Thanks to [Árpád Goretity](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1334) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
