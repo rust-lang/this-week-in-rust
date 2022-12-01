@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 
 * [Unimock 0.4](https://audunhalland.github.io/blog/unimock-0-4/)
 
+* [Slint 0.3.2 release](https://slint-ui.com/thisweek/2022-11-28.html)
+
 ### Observations/Thoughts
 * [Falsehoods programmers believe about undefined behavior](https://predr.ag/blog/falsehoods-programmers-believe-about-undefined-behavior/)
 
