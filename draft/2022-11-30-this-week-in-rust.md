@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Fearless concurrency: multithreaded unzip](https://medium.com/@adetaylor/fearless-concurrency-a-practical-win-ae59e613c7ab)
+
 ### Research
 
 ### Miscellaneous
