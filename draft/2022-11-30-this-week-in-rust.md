@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Rust developers survey: coexisting Rust and C/C++ ecosystems](https://surveys.jetbrains.com/s3/rust-developers-survey)
+
 ### Miscellaneous
 
 ## Crate of the Week
