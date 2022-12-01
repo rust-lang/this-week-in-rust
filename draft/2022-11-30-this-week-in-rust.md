@@ -58,8 +58,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [site - integrate a web version of pest_debugger](https://github.com/pest-parser/site/issues/14)
+* [site - RFC: Make white-space handling less confusing / more consistent with the introduction of an "adjacent selector"](https://github.com/pest-parser/pest/issues/271#issuecomment-1224662176)
+* [site - two issues for the pest's website if anyone's into Wasm](https://github.com/pest-parser/pest/discussions/739#discussioncomment-4226968)
 * [site - migrate from stdweb to wasm-bindgen and websys](https://github.com/pest-parser/site/issues/13)
+* [site - integrate a web version of pest_debugger](https://github.com/pest-parser/site/issues/14)
 
 This week we also have a few non-rust-specific needs from your friends at This Week in Rust! Check them out:
 
