@@ -33,8 +33,6 @@ and just ask the editors to select the category.
 ### Foundation
 * [Secure App Development with Rust's Memory Model](https://foundation.rust-lang.org/news/secure-app-development-with-rust-s-memory-model/)
 
-### Newsletters
-
 ### Project/Tooling Updates
 * [Announcing axum 0.6.0](https://tokio.rs/blog/2022-11-25-announcing-axum-0-6-0)
 * [Redox OS 0.8.0](https://www.redox-os.org/news/release-0.8.0/)
@@ -348,7 +346,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/ymepy8/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -364,4 +362,4 @@ Thanks to [Árpád Goretity](https://users.rust-lang.org/t/twir-quote-of-the-wee
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/z9bqoa/this_week_in_rust_471/)</small>
