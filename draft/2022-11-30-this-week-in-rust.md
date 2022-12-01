@@ -28,34 +28,51 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Please welcome The 8472 to the Library team](https://blog.rust-lang.org/inside-rust/2022/11/29/libs-member.html)
 
 ### Foundation
+* [Secure App Development with Rust's Memory Model](https://foundation.rust-lang.org/news/secure-app-development-with-rust-s-memory-model/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Announcing axum 0.6.0](https://tokio.rs/blog/2022-11-25-announcing-axum-0-6-0)
+* [Redox OS 0.8.0](https://www.redox-os.org/news/release-0.8.0/)
+* [Releasing Yew 0.20](https://yew.rs/blog/2022/11/24/release-0-20)
+* [rust-analyzer changelog #157](https://rust-analyzer.github.io/thisweek/2022/11/28/changelog-157.html)
+* [This Week in Fyrox](https://fyrox.rs/blog/post/twif4/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2022-w48/)
-
 * [Unimock 0.4](https://audunhalland.github.io/blog/unimock-0-4/)
-
 * [Slint 0.3.2 release](https://slint-ui.com/thisweek/2022-11-28.html)
-
-* [Yew 0.20.0](https://yew.rs/blog/2022/11/24/release-0-20)
-
 * [Extism: make all software programmable](https://extism.org/blog/announcing-extism)
 
 ### Observations/Thoughts
+* [Rust to assembly: Arrays, Tuples, Box, and Option handling](https://www.eventhelix.com/rust/rust-to-assembly-arrays-option-box/)
+* [Improving async Rust codegen](https://swatinem.de/blog/improving-async-codegen/)
+* [rustdoc: Recent UI and UX changes in generated documentation 2](https://blog.guillaume-gomez.fr/articles/2022-11-25+rustdoc%3A+Recent+UI+and+UX+changes+in+generated+documentation+2)
+* [Rust Foundation in 2023-25](https://www.ncameron.org/blog/rust-foundation-in-2023-25/)
+* [Follow-up to Foundation post](https://www.ncameron.org/blog/follow-up-to-foundation-post/)
+* [WebAssembly: TinyGo vs Rust vs AssemblyScript](https://ecostack.dev/posts/wasm-tinygo-vs-rust-vs-assemblyscript/)
 * [Falsehoods programmers believe about undefined behavior](https://predr.ag/blog/falsehoods-programmers-believe-about-undefined-behavior/)
+* [video] [Learning Rust the wrong way - Ólafur Waage - NDC TechTown 2022](https://www.youtube.com/watch?v=DL9LANLg5EA)
+* [video] [OS Development - One Year with Rust - by Bernhard Kauer](https://www.youtube.com/watch?v=uB9hdaPoUxg)
+* [video] [Embedded Rust on ESP32 - Juraj Michálek](https://www.youtube.com/watch?v=0PPPdqoDBQs)
+* [audio] [Leptos with Greg Johnston](https://rustacean-station.org/episode/greg-johnston/)
+* [audio] [Kanal with Khashayar Fereidani](https://rustacean-station.org/episode/khashayar-fereidani/)
 
 ### Rust Walkthroughs
-
+* [Threads and messages with Rust and WebAssembly](https://www.tweag.io/blog/2022-11-24-wasm-threads-and-messages/)
+* [Migrating from warp to axum](https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-2)
+* [Measuring the overhead of HashMaps in Rust](https://ntietz.com/blog/rust-hashmap-overhead/)
+* [Building an API in Rust with Rocket.rs and Diesel.rs (Clean Architecture)](https://medium.com/@jeynesbrook/building-an-api-in-rust-with-rocket-rs-and-diesel-rs-clean-architecture-8f6092ee2606)
+* [Avoiding Benchmarking Pitfalls with black_box in Rust](https://alic.dev/blog/blackbox.html)
+* [Embedded Rust & Embassy: UART Serial Communication](https://apollolabsblog.hashnode.dev/embedded-rust-embassy-uart-serial-communication)
+* [Rust GUI and GTK calc](https://dev.to/antonov_mike/rust-gui-and-gtk-calc-2g60)
 * [Fearless concurrency: multithreaded unzip](https://medium.com/@adetaylor/fearless-concurrency-a-practical-win-ae59e613c7ab)
-
-### Research
-
-* [Rust developers survey: coexisting Rust and C/C++ ecosystems](https://surveys.jetbrains.com/s3/rust-developers-survey)
+* [video] [Typesafe Router state with Axum 0.6 release](https://www.youtube.com/watch?v=UKXPleK7GkA)
 
 ### Miscellaneous
+* [JetBrains Rust developers survey](https://blog.jetbrains.com/rust/2022/11/28/rust-developers-survey/)
 
 ## Crate of the Week
 
