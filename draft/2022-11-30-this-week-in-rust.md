@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 * [Slint 0.3.2 release](https://slint-ui.com/thisweek/2022-11-28.html)
 
+* [Yew 0.20.0](https://yew.rs/blog/2022/11/24/release-0-20)
+
 ### Observations/Thoughts
 * [Falsehoods programmers believe about undefined behavior](https://predr.ag/blog/falsehoods-programmers-believe-about-undefined-behavior/)
 
