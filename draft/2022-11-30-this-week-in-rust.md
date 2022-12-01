@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 * [Unimock 0.4](https://audunhalland.github.io/blog/unimock-0-4/)
 
 ### Observations/Thoughts
+* [Falsehoods programmers believe about undefined behavior](https://predr.ag/blog/falsehoods-programmers-believe-about-undefined-behavior/)
 
 ### Rust Walkthroughs
 
