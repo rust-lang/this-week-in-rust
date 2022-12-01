@@ -58,8 +58,14 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [site - integrate a web version of pest_debugger](https://github.com/pest-parser/site/issues/14)
+* [site - migrate from stdweb to wasm-bindgen and websys](https://github.com/pest-parser/site/issues/13)
+
+This week we also have a few non-rust-specific needs from your friends at This Week in Rust! Check them out:
+
+* [this-week-in-rust - Add a dark theme](https://github.com/rust-lang/this-week-in-rust/issues/2274)
+* [this-week-in-rust - Add anchors for headers](https://github.com/rust-lang/this-week-in-rust/issues/3669)
+* [this-week-in-rust - Add a search](https://github.com/rust-lang/this-week-in-rust/issues/2569)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
