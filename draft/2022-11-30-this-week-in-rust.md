@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 * [Yew 0.20.0](https://yew.rs/blog/2022/11/24/release-0-20)
 
+* [Extism: make all software programmable](https://extism.org/blog/announcing-extism)
+
 ### Observations/Thoughts
 * [Falsehoods programmers believe about undefined behavior](https://predr.ag/blog/falsehoods-programmers-believe-about-undefined-behavior/)
 
