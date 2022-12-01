@@ -44,7 +44,6 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2022-w48/)
 * [Unimock 0.4](https://audunhalland.github.io/blog/unimock-0-4/)
 * [Slint 0.3.2 release](https://slint-ui.com/thisweek/2022-11-28.html)
-* [Yew 0.20.0](https://yew.rs/blog/2022/11/24/release-0-20)
 * [Extism: make all software programmable](https://extism.org/blog/announcing-extism)
 
 ### Observations/Thoughts
