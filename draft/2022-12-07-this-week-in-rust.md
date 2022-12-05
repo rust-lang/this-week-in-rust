@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+[Rust Axum/Vue WebSocket Demo](https://frehberg.com/2022/12/rust-vue-websocket-demo/)
 
 ## Crate of the Week
 
