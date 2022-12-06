@@ -48,3 +48,15 @@ scattered about.
 }
 
 PLUGINS = ['webassets']
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.toc': {
+            'anchorlink': True,
+        },
+    },
+    'output_format': 'html5',
+}
