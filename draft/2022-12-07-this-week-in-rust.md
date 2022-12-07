@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [The book "Rust Web Devlopment" (Manning) is released](https://www.manning.com/books/rust-web-development)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
