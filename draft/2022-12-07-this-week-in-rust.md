@@ -30,24 +30,37 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Share Your Thoughts on the “State of Rust” in 2022](https://foundation.rust-lang.org/news/share-your-thoughts-on-the-state-of-rust-in-2022/)
 
 ### Newsletters
+* [Rust Nigeria Newsletter - Happy Holidays!](https://rustnigeria.curated.co/issues/12#start)
 
 ### Project/Tooling Updates
+* [This Month in hyper: November 2022](https://seanmonstar.com/post/702541983003148288/this-month-in-hyper-november-2022)
+* [IntelliJ Rust Changelog #184](https://intellij-rust.github.io/2022/12/05/changelog-184.html)
+* [rust-analyzer changelog #158](https://rust-analyzer.github.io/thisweek/2022/12/05/changelog-158.html)
+* [This Week in Fyrox](https://fyrox.rs/blog/post/twif5/)
+* [GCC Rust Front-End v4 Posted - Now Cleared For Merging In GCC 13](https://www.phoronix.com/news/GCC-Rust-v4-Cleared-For-Landing)
 * [What's new in Seaography 0.3.0](https://www.sea-ql.org/blog/2022-12-02-whats-new-in-seaography-0.3.0/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2022-w49/)
-
 * [Helix editor 22.12 released](https://helix-editor.com/news/release-22-12-highlights/)
 
 ### Observations/Thoughts
-
+* [Embedded Rust & Embassy: PWM Generation](https://apollolabsblog.hashnode.dev/embedded-rust-embassy-pwm-generation)
+* [Self-referential types for fun and profit](https://morestina.net/blog/1868/self-referential-types-for-fun-and-profit)
+* [Parsing numbers into base-10 decimals with SIMD](http://vgatherps.github.io/2022-11-28-dec/)
+* [How much does Rust's bounds checking actually cost?](https://blog.readyset.io/bounds-checks/)
 * [What Every Rust Developer Should Know About Macro Support in IDEs](https://blog.jetbrains.com/rust/2022/12/05/what-every-rust-developer-should-know-about-macro-support-in-ides/)
+* [video] [High Performance Rust UI](https://www.youtube.com/watch?v=zVUTZlNCb8U)
 
 ### Rust Walkthroughs
+* [Hacking Bluetooth to Brew Coffee from GitHub Actions: Part 1 - Bluetooth Investigation](https://grack.com/blog/2022/12/01/hacking-bluetooth-to-brew-coffee-on-github-actions-part-1/)
 
 ### Research
 
 ### Miscellaneous
+* [Advent of Code 2022](https://fasterthanli.me/series/advent-of-code-2022)
+* [Memory Safe Languages in Android 13](https://security.googleblog.com/2022/12/memory-safe-languages-in-android-13.html)
 
 ## Crate of the Week
 
