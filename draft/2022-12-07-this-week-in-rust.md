@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 * [video] [High Performance Rust UI](https://www.youtube.com/watch?v=zVUTZlNCb8U)
 
 ### Rust Walkthroughs
+* [Introduction to Rust: Writing an HTTP CLI client](https://www.bekk.christmas/post/2022/1/introduction-to-rust)
 * [Hacking Bluetooth to Brew Coffee from GitHub Actions: Part 1 - Bluetooth Investigation](https://grack.com/blog/2022/12/01/hacking-bluetooth-to-brew-coffee-on-github-actions-part-1/)
 
 ### Research
