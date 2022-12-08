@@ -27,8 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Foundation
 * [Share Your Thoughts on the “State of Rust” in 2022](https://foundation.rust-lang.org/news/share-your-thoughts-on-the-state-of-rust-in-2022/)
 
@@ -56,8 +54,6 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Introduction to Rust: Writing an HTTP CLI client](https://www.bekk.christmas/post/2022/1/introduction-to-rust)
 * [Hacking Bluetooth to Brew Coffee from GitHub Actions: Part 1 - Bluetooth Investigation](https://grack.com/blog/2022/12/01/hacking-bluetooth-to-brew-coffee-on-github-actions-part-1/)
-
-### Research
 
 ### Miscellaneous
 * [Rust Axum/Vue WebSocket Demo](https://frehberg.com/2022/12/rust-vue-websocket-demo/)
@@ -271,7 +267,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/ymepy8/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
