@@ -60,9 +60,9 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rust Axum/Vue WebSocket Demo](https://frehberg.com/2022/12/rust-vue-websocket-demo/)
 * [Advent of Code 2022](https://fasterthanli.me/series/advent-of-code-2022)
 * [Memory Safe Languages in Android 13](https://security.googleblog.com/2022/12/memory-safe-languages-in-android-13.html)
-
 * [The book "Rust Web Development" (Manning) is released](https://www.manning.com/books/rust-web-development)
 
 ## Crate of the Week
