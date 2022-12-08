@@ -51,7 +51,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [zeroize](https://crates.io/crates/zeroize), a crate to securely clear secrets from memory either manually or on drop, with both methods for your types being but one `#[derive]` away.
+
+Thanks to [Tally](https://users.rust-lang.org/t/crate-of-the-week/2704/1132) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -73,7 +75,60 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+339 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-11-28..2022-12-05
+
+* [remove drop order twist of && and || and make them associative](https://github.com/rust-lang/rust/pull/103293)
+* [`rustc_ast_lowering: `stop lowering imports into multiple items](https://github.com/rust-lang/rust/pull/104963)
+* [avoid Invalid code suggested when encountering unsatisfied trait bounds in derive macro code](https://github.com/rust-lang/rust/pull/104895)
+* [don't add a note for implementing a trait if its inner type is erroneous](https://github.com/rust-lang/rust/pull/105181)
+* [don't elide type information when printing E0308 with `-Zverbose`](https://github.com/rust-lang/rust/pull/105188)
+* [don't suggest associated function call for associated const](https://github.com/rust-lang/rust/pull/104856)
+* [restore `use` suggestion for `dyn` method call requiring `Sized`](https://github.com/rust-lang/rust/pull/105164)
+* [some initial normalization method changes](https://github.com/rust-lang/rust/pull/104905)
+* [suggest to use . instead of `:: ` when accessing a method of an object](https://github.com/rust-lang/rust/pull/101975)
+* [implement `should_continue` in chalk-recursive](https://github.com/rust-lang/chalk/pull/774)
+* [miri: refactor scheduler](https://github.com/rust-lang/miri/pull/2699)
+* [rewrite LLVM's archive writer in Rust](https://github.com/rust-lang/rust/pull/97485)
+* [cheaper `dump_mir`](https://github.com/rust-lang/rust/pull/105121)
+* [allow to feed a value in another query's cache](https://github.com/rust-lang/rust/pull/104940)
+* [attribute cleanups](https://github.com/rust-lang/rust/pull/104861)
+* [also cache the stable hash of interned Predicates](https://github.com/rust-lang/rust/pull/94487)
+* [merge generics and where predicates and prevent duplicates in where predicates](https://github.com/rust-lang/rust/pull/105183)
+* [adjust inlining attributes around `panic_immediate_abort`](https://github.com/rust-lang/rust/pull/104999)
+* [ensure query backtraces work for `DefId`s created after ast lowering](https://github.com/rust-lang/rust/pull/105133)
+* [add `type_ascribe!` macro as placeholder syntax for type ascription](https://github.com/rust-lang/rust/pull/104614)
+* [stabilize `nonzero_bits`](https://github.com/rust-lang/rust/pull/101514)
+* [make `VecDeque::new_in` unstably const](https://github.com/rust-lang/rust/pull/105126)
+* [send `VecDeque::from_iter` via `Vec::from_iter`](https://github.com/rust-lang/rust/pull/105046)
+* [add `PathBuf::as_mut_os_string` and `Path::as_mut_os_str`](https://github.com/rust-lang/rust/pull/105002)
+* [implement TcpStream shutdown for wasm32-wasi](https://github.com/rust-lang/rust/pull/104811)
+* [create a hacky fail-fast mode that stops tests at the first failure](https://github.com/rust-lang/rust/pull/105153)
+* [cargo: aware of compression ratio for unpack size limit](https://github.com/rust-lang/cargo/pull/11337)
+* [cargo: improve file found in multiple build targets warning](https://github.com/rust-lang/cargo/pull/11299)
+* [rustdoc-Json: don't inline foreign traits](https://github.com/rust-lang/rust/pull/105182)
+* [clippy: `comparison_to_empty`: peel derefs in suggestions](https://github.com/rust-lang/rust-clippy/pull/9962)
+* [clippy: `manual_let_else: `keep macro call on suggestion blocks](https://github.com/rust-lang/rust-clippy/pull/9943)
+* [clippy: don't cross contexts while building the suggestion for `redundant_closure_call`](https://github.com/rust-lang/rust-clippy/pull/9987)
+* [clippy: don't lint `explicit_auto_deref` when the initial type is neither a reference, nor a receiver](https://github.com/rust-lang/rust-clippy/pull/9997)
+* [clippy: don't lint `from_over_into` for opaque types](https://github.com/rust-lang/rust-clippy/pull/9982)
+* [clippy: don't lint `implicit_clone` when the type doesn't implement clone](https://github.com/rust-lang/rust-clippy/pull/10022)
+* [clippy: don't lint `manual_assert` in `else if`](https://github.com/rust-lang/rust-clippy/pull/10013)
+* [clippy: don't lint `string_lit_as_bytes` in match scrutinees](https://github.com/rust-lang/rust-clippy/pull/10012)
+* [clippy: don't lint `unnecessary_cast` in mixed macro context](https://github.com/rust-lang/rust-clippy/pull/9980)
+* [clippy: don't lint `unnecessary_operation` in mixed macro contexts](https://github.com/rust-lang/rust-clippy/pull/9981)
+* [clippy: don't suggest removing `mut` from references in `redundant_static_lifetimes`](https://github.com/rust-lang/rust-clippy/pull/10006)
+* [clippy: fix ICE in `unnecessary_to_owned`](https://github.com/rust-lang/rust-clippy/pull/10027)
+* [clippy: fix ICE in `result_large_err` with uninhabited enums](https://github.com/rust-lang/rust-clippy/pull/10007)
+* [clippy: fix ICE in `unused_rounding`](https://github.com/rust-lang/rust-clippy/pull/10001)
+* [clippy: fix `manual_let_else` producing a wrong suggestion with or-patterns](https://github.com/rust-lang/rust-clippy/pull/9966)
+* [clippy: fix `unnecessary_cast` suggestion when taking a reference](https://github.com/rust-lang/rust-clippy/pull/9996)
+* [clippy: move `index_refutable_slice` to `pedantic`](https://github.com/rust-lang/rust-clippy/pull/9975)
+* [clippy: move `unnecessary_unsafety_doc` to `pedantic`](https://github.com/rust-lang/rust-clippy/pull/9989)
+* [rust-analyzer: add `move_const_to_impl` assist](https://github.com/rust-lang/rust-analyzer/pull/13707)
+* [rust-analyzer: implement vararg parameter type inference](https://github.com/rust-lang/rust-analyzer/pull/13690)
+* [rust-analyzer: fix signature help not showing up when cursor is between `))` or `>>`](https://github.com/rust-lang/rust-analyzer/pull/13696)
 
 ### Rust Compiler Performance Triage
 
@@ -217,7 +272,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> To date, there have been zero memory safety vulnerabilities discovered in Android’s Rust code.
+
+– [Jeffrey Vander Stoep on the google security team blog](https://security.googleblog.com/2022/12/memory-safe-languages-in-android-13.html)
+
+Thanks to [Anton Fetisov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1335) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
