@@ -63,6 +63,8 @@ and just ask the editors to select the category.
 * [Advent of Code 2022](https://fasterthanli.me/series/advent-of-code-2022)
 * [Memory Safe Languages in Android 13](https://security.googleblog.com/2022/12/memory-safe-languages-in-android-13.html)
 
+* [The book "Rust Web Development" (Manning) is released](https://www.manning.com/books/rust-web-development)
+
 ## Crate of the Week
 
 This week's crate is [zeroize](https://crates.io/crates/zeroize), a crate to securely clear secrets from memory either manually or on drop, with both methods for your types being but one `#[derive]` away.
