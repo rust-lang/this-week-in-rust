@@ -75,7 +75,21 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A mixed bag of a week. 2 of the 3 regressions are connected to changes to the
+query system that underlies incremental compilation. The third regression is
+still being investigated. For all three, the impact on cycle counts that are
+within our noise tolerance levels There were several small-ish improvements,
+though PR #104963 is worth calling out: a well-factored change to
+how we lower the AST into HIR that had a broad positive impact. One final
+note: the summary-opt max-rss seems to gone up by 1.5% over the past month
+([perf](https://perf.rust-lang.org/?start=2022-11-06&end=2022-12-06&kind=percentfromfirst&stat=max-rss)),
+via a gradual climb; just something to keep our eyes on going forward.
+
+
+Triage done by **@pnkfelix**.
+Revision range: [8a09420a..9db224fc](https://perf.rust-lang.org/?start=8a09420ac48658cad726e0a6997687ceac4151e3&end=9db224fc908059986c179fc6ec433944e9cfce50&absolute=false&stat=instructions%3Au)
+
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-12-06.md) for details.
 
 ### Call for Testing
 
