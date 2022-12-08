@@ -35,8 +35,11 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [What's new in Seaography 0.3.0](https://www.sea-ql.org/blog/2022-12-02-whats-new-in-seaography-0.3.0/)
+* [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2022-w49/)
 
 ### Observations/Thoughts
+
+* [What Every Rust Developer Should Know About Macro Support in IDEs](https://blog.jetbrains.com/rust/2022/12/05/what-every-rust-developer-should-know-about-macro-support-in-ides/)
 
 ### Rust Walkthroughs
 
