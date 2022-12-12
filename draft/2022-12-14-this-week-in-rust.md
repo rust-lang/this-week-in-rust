@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Sorting with SIMD](https://tweedegolf.nl/en/blog/79/sorting-with-simd)
+
 ### Research
 
 ### Miscellaneous
