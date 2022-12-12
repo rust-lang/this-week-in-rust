@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Composing an observable Rust application](https://blog.logrocket.com/composing-underpinnings-observable-rust-application/)
+
 ### Research
 
 ### Miscellaneous
