@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [video] [Meetup: Rust in critical infrastructure, Amsterdam 30 Nov 2022](https://www.youtube.com/watch?v=DSdXAWCdhmk&list=PL8Q1w7Ff68DDmxLks3_nkZU8xAc6CPe1l)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
