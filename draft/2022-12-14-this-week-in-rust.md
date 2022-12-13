@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Category Theory with Rust (pt2) - GATs example](https://www.kurtlawrence.info/blog/category-theory-with-rust-pt2)
 
 ### Rust Walkthroughs
 
