@@ -38,7 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-* [Sending Emails from the Edge with Rust]([https://github.com/rust-lang/rust/pull/103293](https://mainmatter.com/blog/2022/12/09/sending-emails-from-the-edge-with-rust/))
+* [Sending Emails from the Edge with Rust](https://mainmatter.com/blog/2022/12/09/sending-emails-from-the-edge-with-rust/)
 
 ### Research
 
