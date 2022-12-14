@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Youki v0.0.4 Release](https://dev.to/yjdoc2/announcing-youki-040-ocn)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
