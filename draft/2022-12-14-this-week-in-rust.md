@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Rust: state of GUI, from the perspective of KAS](https://kas-gui.github.io/blog/state-of-GUI-2022.html)
+
 ### Rust Walkthroughs
 
 ### Research
