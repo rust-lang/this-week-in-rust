@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 * [Making Dioxus (almost) as fast as SolidJS](https://dioxuslabs.com/blog/templates-diffing/)
 * [Announcing Ksunami v0.1.x](https://ivandemarino.me/2022/12/announcing-ksunami)
 
+- [Youki v0.0.4 Release](https://dev.to/yjdoc2/announcing-youki-040-ocn)
+
 ### Observations/Thoughts
 * [Catch 22! Rust in Review](https://llogiq.github.io/2022/12/11/catch22.html)
 * [A Look at dyn* Code Generation](https://blog.theincredibleholk.org/blog/2022/12/12/dyn-star-codegen/)
