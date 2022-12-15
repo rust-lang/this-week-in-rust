@@ -185,15 +185,48 @@ Revision range: [9db224fc..109cccbe](https://perf.rust-lang.org/?start=9db224fc9
 
 See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-12-13.md) for details.
 
-### Call for Testing
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* [Support upcasting of `dyn Trait` values](https://github.com/rust-lang/rfcs/pull/3324)
+
+### Final Comment Period
+
+Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
+which are reaching a decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* [disposition: merge] [Add `core::mem::offset_of!` RFC](https://github.com/rust-lang/rfcs/pull/3308)
+* [disposition: close] [Cargo allow running binaries from development or build dependencies](https://github.com/rust-lang/rfcs/pull/3168)
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: merge] [Stabilize `#![feature(target_feature_11)]`](https://github.com/rust-lang/rust/pull/99767)
+* [disposition: merge] [Stabilize default_alloc_error_handler](https://github.com/rust-lang/rust/pull/102318)
+* [disposition: merge] [Stop promoting all the things](https://github.com/rust-lang/rust/pull/105085)
+* [disposition: merge] [`Arc::ptr_eq` does not always return "true if the two Arcs point to the same allocation" as documented](https://github.com/rust-lang/rust/issues/103763)
+* [disposition: merge] [Don't normalize in AstConv](https://github.com/rust-lang/rust/pull/101947)
+* [disposition: merge] [Encode spans relative to the enclosing item -- enable by default](https://github.com/rust-lang/rust/pull/84762)
+* [disposition: merge] [impl DispatchFromDyn for Cell and UnsafeCell](https://github.com/rust-lang/rust/pull/97373)
+* [disposition: merge] [Tracking issue for the "efiapi" calling convention](https://github.com/rust-lang/rust/issues/65815)
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* [new] [RFC: Start working on a Rust specification](https://github.com/rust-lang/rfcs/pull/3355)
+
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* *No RFCs issued a call for testing this week.*
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
 
 ## Upcoming Events
 
