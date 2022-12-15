@@ -59,15 +59,14 @@ and just ask the editors to select the category.
 * [audio] [Presser with Gray Olson](https://rustacean-station.org/episode/gray-olson/)
 * [audio] [Kernel Density Estimation with Seaton Ullberg](https://rustacean-station.org/episode/seaton-ullberg/)
 
-
 ### Rust Walkthroughs
 * [Clean Code with Rust & Axum](https://www.propelauth.com/post/clean-code-with-rust-and-axum)
 * [Data-driven performance optimization with Rust and Miri](https://medium.com/source-and-buggy/data-driven-performance-optimization-with-rust-and-miri-70cb6dde0d35)
 * [Embedded Rust & Embassy: Analog Sensing with ADCs](https://apollolabsblog.hashnode.dev/embedded-rust-embassy-analog-sensing-with-adcs)
-
 * [Sorting with SIMD](https://tweedegolf.nl/en/blog/79/sorting-with-simd)
+* [Sending Emails from the Edge with Rust](https://mainmatter.com/blog/2022/12/09/sending-emails-from-the-edge-with-rust/)
+* [Composing an observable Rust application](https://blog.logrocket.com/composing-underpinnings-observable-rust-application/)
 
-- [Composing an observable Rust application](https://blog.logrocket.com/composing-underpinnings-observable-rust-application/)
 
 ### Research
 
