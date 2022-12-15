@@ -66,7 +66,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [lazy_format](https://docs.rs/lazy_format), a lazy version of format! for more efficient composed string formatting operations.
+
+Thanks to [Nathan West](https://users.rust-lang.org/t/crate-of-the-week/2704/1133) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -92,7 +94,73 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+320 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-12-05..2022-12-12
+
+* [add LLVM KCFI support to the Rust compiler](https://github.com/rust-lang/rust/pull/105109)
+* [add StableOrd trait](https://github.com/rust-lang/rust/pull/105175)
+* [add help for `#![feature(impl_trait_in_fn_trait_return)]`](https://github.com/rust-lang/rust/pull/105408)
+* [compute generator sizes with `-Zprint_type_sizes`](https://github.com/rust-lang/rust/pull/104019)
+* [consider `parent_count` for const param defaults](https://github.com/rust-lang/rust/pull/105410)
+* [detect long types in E0308 and write them to disk](https://github.com/rust-lang/rust/pull/104922)
+* [detect spurious ; before assoc fn body](https://github.com/rust-lang/rust/pull/105369)
+* [disable top down MIR inlining](https://github.com/rust-lang/rust/pull/105119)
+* [don't ICE in ExprUseVisitor on FRU for non-existent struct](https://github.com/rust-lang/rust/pull/105267)
+* [don't call `diagnostic_hir_wf_check` query if we have infer variables](https://github.com/rust-lang/rust/pull/105283)
+* [don't internalize `__llvm_profile_counter_bias`](https://github.com/rust-lang/rust/pull/102900)
+* [enable ThinLTO for rustc on `x86_64-apple-darwin`](https://github.com/rust-lang/rust/pull/103647)
+* [enable ThinLTO for rustc on x64 msvc](https://github.com/rust-lang/rust/pull/103591)
+* [enable profiler in dist-powerpc64le-linux](https://github.com/rust-lang/rust/pull/105389)
+* [fix build on powerpc-unknown-freebsd](https://github.com/rust-lang/rust/pull/104572)
+* [fix invalid codegen during debuginfo lowering](https://github.com/rust-lang/rust/pull/105482)
+* [fix lint perf regressions](https://github.com/rust-lang/rust/pull/105485)
+* [group some fields in a common struct so we only pass one reference instead of three](https://github.com/rust-lang/rust/pull/105357)
+* [interpret: clobber return place when calling function](https://github.com/rust-lang/rust/pull/105207)
+* [llvm-wrapper: adapt for LLVM API changes](https://github.com/rust-lang/rust/pull/105555)
+* [llvm-wrapper: adapt for an LLVM API change](https://github.com/rust-lang/rust/pull/105298)
+* [make `VecDeque::from_iter` `O(1)` from `vec(_deque)::IntoIter`](https://github.com/rust-lang/rust/pull/105453)
+* [make integer-to-integer `From` impls `#[inline(always)]`](https://github.com/rust-lang/rust/pull/105271)
+* [make pointer `sub` and `wrapping_sub` methods `#[inline(always)]`](https://github.com/rust-lang/rust/pull/105508)
+* [make some trivial functions `#[inline(always)]`](https://github.com/rust-lang/rust/pull/105262)
+* [mangle "main" as `"__main_void"` on wasm32-wasi](https://github.com/rust-lang/rust/pull/105468)
+* [on E0195 point at where clause lifetime bounds](https://github.com/rust-lang/rust/pull/105005)
+* [point at GAT `where` clause when an obligation is unsatisfied](https://github.com/rust-lang/rust/pull/105324)
+* [point at LHS on binop type err if relevant](https://github.com/rust-lang/rust/pull/105192)
+* [point at args in associated const fn pointers](https://github.com/rust-lang/rust/pull/105349)
+* [re-enable removal of ZST writes to unions](https://github.com/rust-lang/rust/pull/105229)
+* [recurse into nested impl-trait when computing variance](https://github.com/rust-lang/rust/pull/105254)
+* [remove `token::Lit` from `ast::MetaItemLit`](https://github.com/rust-lang/rust/pull/105160)
+* [remove {`Early`, `Late`}`LintPassObjects`](https://github.com/rust-lang/rust/pull/105291)
+* [shrink `rustc_parse_format::Piece`](https://github.com/rust-lang/rust/pull/105363)
+* [suggest parenthesis around `ExprWithBlock BinOp ExprWithBlock`](https://github.com/rust-lang/rust/pull/105223)
+* [suggest removing struct field from destructive binding only in shorthand scenario](https://github.com/rust-lang/rust/pull/105174)
+* [tweak "the following other types implement trait"](https://github.com/rust-lang/rust/pull/105338)
+* [tweak `rustc_must_implement_one_of` diagnostic output](https://github.com/rust-lang/rust/pull/105506)
+* [miri: allow configurable and platform-specific page sizes](https://github.com/rust-lang/miri/pull/2721)
+* [miri: make unix path handling on Windows hosts (and vice versa) preserve absoluteness](https://github.com/rust-lang/miri/pull/2725)
+* [cargo: allow Check targets needed for optional doc-scraping to fail without killing the build](https://github.com/rust-lang/cargo/pull/11450)
+* [rustdoc: only hide lines starting with `#` in rust code blocks](https://github.com/rust-lang/rust/pull/105539)
+* [rustdoc: prevent auto/blanket impl retrieval if there were compiler errors](https://github.com/rust-lang/rust/pull/105457)
+* [clippy: `arithmetic-side-effects`: consider user-provided pairs](https://github.com/rust-lang/rust-clippy/pull/9840)
+* [clippy: `uninlined_format_args: `ignore assert! and `debug_assert!` before 2021 edition](https://github.com/rust-lang/rust-clippy/pull/10055)
+* [clippy: add 1.58 MSRV for `collapsible_str_replace`](https://github.com/rust-lang/rust-clippy/pull/10047)
+* [clippy: add `suppress_restriction_lint_in_const` config](https://github.com/rust-lang/rust-clippy/pull/9920)
+* [clippy: add lint `almost_complete_digit_range`](https://github.com/rust-lang/rust-clippy/pull/10043)
+* [clippy: add semicolon-outside/inside-block lints](https://github.com/rust-lang/rust-clippy/pull/9826)
+* [clippy: don't suggest keeping borrows in `identity_op`](https://github.com/rust-lang/rust-clippy/pull/10004)
+* [clippy: fix `zero_ptr` suggestion for `no_std` crates](https://github.com/rust-lang/rust-clippy/pull/10023)
+* [rust-analyzer: compute data layout of types](https://github.com/rust-lang/rust-analyzer/pull/13490)
+* [rust-analyzer: add "Remove redundant parentheses" assist](https://github.com/rust-lang/rust-analyzer/pull/13733)
+* [rust-analyzer: add fallback case in generated `PartialEq` impl](https://github.com/rust-lang/rust-analyzer/pull/13732)
+* [rust-analyzer: allow unwrap block in let initializers](https://github.com/rust-lang/rust-analyzer/pull/13726)
+* [rust-analyzer: breaking snippets on typed incomplete suggestions](https://github.com/rust-lang/rust-analyzer/pull/13715)
+* [rust-analyzer: don't show duplicated adjustment hints for blocks, ifs and matches](https://github.com/rust-lang/rust-analyzer/pull/13749)
+* [rust-analyzer: fix parsing of `_ = x` in closure body](https://github.com/rust-lang/rust-analyzer/pull/13762)
+* [rust-analyzer: make `make_body` respect comments in `extract_function`](https://github.com/rust-lang/rust-analyzer/pull/13746)
+* [rust-analyzer: normalize projection after discarding free `BoundVar`s in RPIT](https://github.com/rust-lang/rust-analyzer/pull/13750)
+* [rust-analyzer: only shift `BoundVar`s that come from outside lowering context](https://github.com/rust-lang/rust-analyzer/pull/13742)
+* [rust-analyzer: show type info on hover of enum variant fields](https://github.com/rust-lang/rust-analyzer/pull/13745)
 
 ### Rust Compiler Performance Triage
 
@@ -211,7 +279,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> ... you can lead a horse to git but you cannot make it commit.
+
+– [/u/kibwen on /r/rust](https://old.reddit.com/r/rust/comments/zjx2xx/blog_post_rust_in_2023/izz4g8d/)
+
+Thanks to [Anton Fetisov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1341) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
