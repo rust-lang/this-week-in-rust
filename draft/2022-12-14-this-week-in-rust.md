@@ -41,11 +41,10 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #159](https://rust-analyzer.github.io/thisweek/2022/12/12/changelog-159.html)
 * [Making Dioxus (almost) as fast as SolidJS](https://dioxuslabs.com/blog/templates-diffing/)
 * [Announcing Ksunami v0.1.x](https://ivandemarino.me/2022/12/announcing-ksunami)
-
-- [Youki v0.0.4 Release](https://dev.to/yjdoc2/announcing-youki-040-ocn)
+* [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2022-w50/)
+* [Youki v0.0.4 Release](https://dev.to/yjdoc2/announcing-youki-040-ocn)
 
 ### Observations/Thoughts
-
 * [Catch 22! Rust in Review](https://llogiq.github.io/2022/12/11/catch22.html)
 * [A Look at dyn* Code Generation](https://blog.theincredibleholk.org/blog/2022/12/12/dyn-star-codegen/)
 * [Shopify Embraces Rust for Systems Programming](https://shopify.engineering/shopify-rust-systems-programming)
