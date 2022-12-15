@@ -96,7 +96,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Fairly quiet week with the only excitement coming from a nice improvement implemented by @nnethercote which fixed a pesky performance regressions in the linting system. This produced a 0.6% performance improvement across a large amount of the real world crates we test against. 
+
+Triage done by **@rylev**.
+Revision range: [9db224fc..109cccbe](https://perf.rust-lang.org/?start=9db224fc908059986c179fc6ec433944e9cfce50&end=109cccbe4f345c0f0785ce860788580c3e2a29f5&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.2%  | [0.2%, 0.2%]   | 3     |
+| Regressions ❌ <br /> (secondary)  | 1.7%  | [0.3%, 3.3%]   | 11    |
+| Improvements ✅ <br /> (primary)   | -0.8% | [-2.2%, -0.2%] | 129   |
+| Improvements ✅ <br /> (secondary) | -1.2% | [-4.4%, -0.1%] | 97    |
+| All ❌✅ (primary)                 | -0.7% | [-2.2%, 0.2%]  | 132   |
+
+
+2 Regressions, 2 Improvements, 4 Mixed; 3 of them in rollups
+41 artifact comparisons made in total
+
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-12-13.md) for details.
 
 ### Call for Testing
 
