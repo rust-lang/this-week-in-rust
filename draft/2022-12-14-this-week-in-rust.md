@@ -57,6 +57,8 @@ and just ask the editors to select the category.
 * [audio] [Presser with Gray Olson](https://rustacean-station.org/episode/gray-olson/)
 * [audio] [Kernel Density Estimation with Seaton Ullberg](https://rustacean-station.org/episode/seaton-ullberg/)
 
+* [Rust: state of GUI, from the perspective of KAS](https://kas-gui.github.io/blog/state-of-GUI-2022.html)
+
 ### Rust Walkthroughs
 * [Clean Code with Rust & Axum](https://www.propelauth.com/post/clean-code-with-rust-and-axum)
 * [Data-driven performance optimization with Rust and Miri](https://medium.com/source-and-buggy/data-driven-performance-optimization-with-rust-and-miri-70cb6dde0d35)
