@@ -67,9 +67,6 @@ and just ask the editors to select the category.
 * [Sending Emails from the Edge with Rust](https://mainmatter.com/blog/2022/12/09/sending-emails-from-the-edge-with-rust/)
 * [Composing an observable Rust application](https://blog.logrocket.com/composing-underpinnings-observable-rust-application/)
 
-
-### Research
-
 ### Miscellaneous
 
 * [video] [Meetup: Rust in critical infrastructure, Amsterdam 30 Nov 2022](https://www.youtube.com/watch?v=DSdXAWCdhmk&list=PL8Q1w7Ff68DDmxLks3_nkZU8xAc6CPe1l)
@@ -318,7 +315,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/ymepy8/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -334,4 +331,4 @@ Thanks to [Anton Fetisov](https://users.rust-lang.org/t/twir-quote-of-the-week/3
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/zmhhvi/this_week_in_rust_473/)</small>
