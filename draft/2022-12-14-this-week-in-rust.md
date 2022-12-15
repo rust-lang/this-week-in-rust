@@ -27,17 +27,38 @@ and just ask the editors to select the category.
 
 -->
 
+
 ### Official
+* [Launching the 2022 State of Rust Survey](https://blog.rust-lang.org/2022/12/05/survey-launch.html)
 
 ### Foundation
+* [Welcoming Shopify as Our Inaugural Gold Member](https://foundation.rust-lang.org/news/welcoming-shopify-as-our-inaugural-gold-member/)
 
 ### Newsletters
+* [This Month in Rust OSDev: November 2022](https://rust-osdev.com/this-month/2022-11/)
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #159](https://rust-analyzer.github.io/thisweek/2022/12/12/changelog-159.html)
+* [Making Dioxus (almost) as fast as SolidJS](https://dioxuslabs.com/blog/templates-diffing/)
+* [Announcing Ksunami v0.1.x](https://ivandemarino.me/2022/12/announcing-ksunami)
 
 ### Observations/Thoughts
+* [Catch 22! Rust in Review](https://llogiq.github.io/2022/12/11/catch22.html)
+* [A Look at dyn* Code Generation](https://blog.theincredibleholk.org/blog/2022/12/12/dyn-star-codegen/)
+* [Shopify Embraces Rust for Systems Programming](https://shopify.engineering/shopify-rust-systems-programming)
+* [Rust in 2023](https://www.ncameron.org/blog/rust-in-2023/)
+* [A call for blogs about Rust GUI in 2023](https://poignardazur.github.io/2022/12/11/rust-gui-blog-posts-2023/)
+* [video] [Next Generation i18n with Rust Using ICU4X](https://www.youtube.com/watch?v=ZzsbN7HBd7E)
+* [video] [Supercharging Zero-Copy Deserialization](https://www.youtube.com/watch?v=DM2DI3ZI_BQ)
+* [video] [Let's write a TCP Port Scanner in Rust](https://www.youtube.com/watch?v=2nslVz2ju9I)
+* [video] [Rust Is Easy (The COMPILER teaches you!)](https://www.youtube.com/watch?v=CJtvnepMVAU)
+* [audio] [Presser with Gray Olson](https://rustacean-station.org/episode/gray-olson/)
+* [audio] [Kernel Density Estimation with Seaton Ullberg](https://rustacean-station.org/episode/seaton-ullberg/)
 
 ### Rust Walkthroughs
+* [Clean Code with Rust & Axum](https://www.propelauth.com/post/clean-code-with-rust-and-axum)
+* [Data-driven performance optimization with Rust and Miri](https://medium.com/source-and-buggy/data-driven-performance-optimization-with-rust-and-miri-70cb6dde0d35)
+* [Embedded Rust & Embassy: Analog Sensing with ADCs](https://apollolabsblog.hashnode.dev/embedded-rust-embassy-analog-sensing-with-adcs)
 
 ### Research
 
