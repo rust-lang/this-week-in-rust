@@ -67,6 +67,8 @@ and just ask the editors to select the category.
 
 * [Sorting with SIMD](https://tweedegolf.nl/en/blog/79/sorting-with-simd)
 
+- [Composing an observable Rust application](https://blog.logrocket.com/composing-underpinnings-observable-rust-application/)
+
 ### Research
 
 ### Miscellaneous
