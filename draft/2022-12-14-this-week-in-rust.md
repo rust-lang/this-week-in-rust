@@ -65,6 +65,8 @@ and just ask the editors to select the category.
 * [Data-driven performance optimization with Rust and Miri](https://medium.com/source-and-buggy/data-driven-performance-optimization-with-rust-and-miri-70cb6dde0d35)
 * [Embedded Rust & Embassy: Analog Sensing with ADCs](https://apollolabsblog.hashnode.dev/embedded-rust-embassy-analog-sensing-with-adcs)
 
+* [Sorting with SIMD](https://tweedegolf.nl/en/blog/79/sorting-with-simd)
+
 ### Research
 
 ### Miscellaneous
