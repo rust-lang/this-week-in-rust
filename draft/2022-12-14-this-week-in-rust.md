@@ -45,10 +45,13 @@ and just ask the editors to select the category.
 - [Youki v0.0.4 Release](https://dev.to/yjdoc2/announcing-youki-040-ocn)
 
 ### Observations/Thoughts
+
 * [Catch 22! Rust in Review](https://llogiq.github.io/2022/12/11/catch22.html)
 * [A Look at dyn* Code Generation](https://blog.theincredibleholk.org/blog/2022/12/12/dyn-star-codegen/)
 * [Shopify Embraces Rust for Systems Programming](https://shopify.engineering/shopify-rust-systems-programming)
 * [Rust in 2023](https://www.ncameron.org/blog/rust-in-2023/)
+* [Category Theory with Rust (pt2) - GATs example](https://www.kurtlawrence.info/blog/category-theory-with-rust-pt2)
+* [Rust: state of GUI, from the perspective of KAS](https://kas-gui.github.io/blog/state-of-GUI-2022.html)
 * [A call for blogs about Rust GUI in 2023](https://poignardazur.github.io/2022/12/11/rust-gui-blog-posts-2023/)
 * [video] [Next Generation i18n with Rust Using ICU4X](https://www.youtube.com/watch?v=ZzsbN7HBd7E)
 * [video] [Supercharging Zero-Copy Deserialization](https://www.youtube.com/watch?v=DM2DI3ZI_BQ)
@@ -57,7 +60,6 @@ and just ask the editors to select the category.
 * [audio] [Presser with Gray Olson](https://rustacean-station.org/episode/gray-olson/)
 * [audio] [Kernel Density Estimation with Seaton Ullberg](https://rustacean-station.org/episode/seaton-ullberg/)
 
-* [Rust: state of GUI, from the perspective of KAS](https://kas-gui.github.io/blog/state-of-GUI-2022.html)
 
 ### Rust Walkthroughs
 * [Clean Code with Rust & Axum](https://www.propelauth.com/post/clean-code-with-rust-and-axum)
