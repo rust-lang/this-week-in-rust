@@ -80,7 +80,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [impl-tools - more testing](https://crates.io/crates/impl-tools) [more context](https://users.rust-lang.org/t/twir-call-for-participation/4821/481)
+* [time - more testing](https://github.com/time-rs/time/issues/428) [more context](https://mastodon.social/@jhpratt/109498400905572278)
+* [Ockam - Refactor request_controller function to accept an optional Identity](https://github.com/build-trust/ockam/issues/3903)
+* [Ockam - Add optional --identity argument to secure-channel create and modify implementation on ockam_api](https://github.com/build-trust/ockam/issues/3906)
+
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
