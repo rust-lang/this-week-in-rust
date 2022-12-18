@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust needs `#[throws]`, not ubiquitous handwritten `Ok()`](https://diziet.dreamwidth.org/13657.html)
+
 ### Rust Walkthroughs
 
 ### Research
