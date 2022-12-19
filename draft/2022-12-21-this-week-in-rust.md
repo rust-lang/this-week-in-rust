@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Slint 0.3.3 Release and weekly update](https://slint-ui.com/thisweek/2022-12-19.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
