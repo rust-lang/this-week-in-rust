@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Rust for the Polyglot Programmer (2022 edition) - a rather different introductory text, now revised](https://diziet.dreamwidth.org/13884.html)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
