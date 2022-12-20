@@ -28,7 +28,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-* [Announcing Rust 1.66.0 | Rust Blog](https://blog.rust-lang.org/2022/12/15/Rust-1.66.0.html)
+* [Announcing Rust 1.66.0](https://blog.rust-lang.org/2022/12/15/Rust-1.66.0.html)
 
 ### Foundation
 
