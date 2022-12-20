@@ -33,6 +33,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+- [Announcing Rust Magazine](https://rustmagazine.github.io/announcing/)
+
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
