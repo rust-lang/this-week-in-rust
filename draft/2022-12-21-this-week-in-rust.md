@@ -28,20 +28,40 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.66.0 | Rust Blog](https://blog.rust-lang.org/2022/12/15/Rust-1.66.0.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust GameDev #40 - November 2022](https://gamedev.rs/news/040/)
 
 ### Project/Tooling Updates
+* [IntelliJ Rust Changelog #185](https://intellij-rust.github.io/2022/12/19/changelog-185.html)
+* [rust-analyzer changelog #160](https://rust-analyzer.github.io/thisweek/2022/12/19/changelog-160.html)
+* [Cranelift Progress in 2022](https://bytecodealliance.org/articles/cranelift-progress-2022)
+* [Native Reflection in Rust](https://jack.wrenn.fyi/blog/deflect/)
+* [Announcing Diesel-Async 0.2.0](https://www.reddit.com/r/rust/comments/zn9ut0/announcing_dieselasync_020/)
+* [Announcing Rust Magazine](https://rustmagazine.github.io/announcing/)
 
 ### Observations/Thoughts
+* [My Year With Rust: The Good, The Bad, The Ugly | BreakBuildGames](https://breakbuild.dev/blog/my-year-with-rust/)
+* [An adventure with optimization, Rust and Z3](https://ochagavia.nl/blog/an-adventure-with-optimization-rust-and-z3/)
+* [Faster CI builds for Rust with pre-baked builder images and sccache](https://vadosware.io/post/faster-ci-builds-for-rust-with-builder-images-and-sccache/)
 
 ### Rust Walkthroughs
+* [How to build a Rust API with the builder pattern](https://blog.logrocket.com/build-rust-api-builder-pattern/)
+* [Building a Command-Line Application in Rust](https://www.joshfinnie.com/blog/a-command-line-application-in-rust/)
 
 ### Research
 
 ### Miscellaneous
+* [audio] [Episode 108: Jane Losare-Lusby on Rust! (Part 3)](https://adspthepodcast.com/2022/12/16/Episode-108.html)
+* [DE] [Programmiersprache Rust 1.66 erweitert Enumerations und entfernt Ab...](https://www.heise.de/news/Programmiersprache-Rust-1-66-erweitert-Enumerations-und-entfernt-Abhaengigkeiten-7398888.html)
+* [video] [Programming Veloren - the multiplayer voxel RPG written in Rust](https://www.youtube.com/watch?v=bT2SeYXpQm8)
+* [video] [Re-writing an Express.js chat app (web-sockets) in Rust](https://www.youtube.com/watch?v=-N8AKKCE9L8)
+* [video] [Story time: Rust compiler errors](https://www.youtube.com/watch?v=Iv3UuGdB0TM)
+* [video] [Let's write a TUI Password Manager in Rust - Part 2](https://www.youtube.com/watch?v=Y917bFaH_IU)
+* [video] [Decrusting the serde crate](https://www.youtube.com/watch?v=BI_bHCGRgMY)
 
 ## Crate of the Week
 
