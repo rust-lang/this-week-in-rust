@@ -57,7 +57,6 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [audio] [Episode 108: Jane Losare-Lusby on Rust! (Part 3)](https://adspthepodcast.com/2022/12/16/Episode-108.html)
 * [DE] [Programmiersprache Rust 1.66 erweitert Enumerations und entfernt Ab...](https://www.heise.de/news/Programmiersprache-Rust-1-66-erweitert-Enumerations-und-entfernt-Abhaengigkeiten-7398888.html)
-* [video] [Programming Veloren - the multiplayer voxel RPG written in Rust](https://www.youtube.com/watch?v=bT2SeYXpQm8)
 * [video] [Re-writing an Express.js chat app (web-sockets) in Rust](https://www.youtube.com/watch?v=-N8AKKCE9L8)
 * [video] [Story time: Rust compiler errors](https://www.youtube.com/watch?v=Iv3UuGdB0TM)
 * [video] [Let's write a TUI Password Manager in Rust - Part 2](https://www.youtube.com/watch?v=Y917bFaH_IU)
