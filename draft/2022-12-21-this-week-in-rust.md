@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [video] [Possibility of OCI Container Runtime with Rust at KubeDay Japan](https://youtu.be/hdF45WGzi7g)
 
 ### Rust Walkthroughs
 
