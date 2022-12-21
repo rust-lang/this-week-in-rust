@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Docs as Code: Mermaid inline diagrams](https://frehberg.com/2022/12/docs-as-code-mermaid-inline-diagrams/)
 
 ### Rust Walkthroughs
 
