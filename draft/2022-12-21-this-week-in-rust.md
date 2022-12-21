@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Our year in Rust - in a rhyme!](https://tweedegolf.nl/en/blog/81/our-year-in-rust)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
