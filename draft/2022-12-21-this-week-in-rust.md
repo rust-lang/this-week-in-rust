@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [UI development in Rust](https://saona-raimundo.github.io/2022/12/21/UI-development-in-Rust.html)
+
 ### Rust Walkthroughs
 
 ### Research
