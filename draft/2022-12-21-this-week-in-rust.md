@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Writing SQL User-Defined Functions in Rust](https://mariadb.org/writing-user-defined-functions-in-rust/)
+
 ### Research
 
 ### Miscellaneous
