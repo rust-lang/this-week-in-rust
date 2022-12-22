@@ -33,16 +33,17 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
-- [Announcing Rust Magazine](https://rustmagazine.github.io/announcing/)
+* [Announcing Rust Magazine](https://rustmagazine.github.io/announcing/)
 
 ### Project/Tooling Updates
-* [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2022-w51/)
 
+* [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2022-w51/)
 * [Slint 0.3.3 Release and weekly update](https://slint-ui.com/thisweek/2022-12-19.html)
 
 ### Observations/Thoughts
-* [Docs as Code: Mermaid inline diagrams](https://frehberg.com/2022/12/docs-as-code-mermaid-inline-diagrams/)
 
+* [video] [Possibility of OCI Container Runtime with Rust at KubeDay Japan](https://youtu.be/hdF45WGzi7g)
+* [Docs as Code: Mermaid inline diagrams](https://frehberg.com/2022/12/docs-as-code-mermaid-inline-diagrams/)
 * [Rust needs `#[throws]`, not ubiquitous handwritten `Ok()`](https://diziet.dreamwidth.org/13657.html)
 
 ### Rust Walkthroughs
