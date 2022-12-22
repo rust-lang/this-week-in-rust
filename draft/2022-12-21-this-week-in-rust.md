@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [New Rust course by Android: Comprehensive Rust 🦀](https://google.github.io/comprehensive-rust/)
+
 ### Research
 
 ### Miscellaneous
