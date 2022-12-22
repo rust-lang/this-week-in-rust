@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Our year in Rust - in a rhyme!](https://tweedegolf.nl/en/blog/81/our-year-in-rust)
 * [Rust for the Polyglot Programmer (2022 edition) - a rather different introductory text, now revised](https://diziet.dreamwidth.org/13884.html)
 
 ## Crate of the Week
