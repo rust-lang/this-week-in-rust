@@ -33,6 +33,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+- [Announcing Rust Magazine](https://rustmagazine.github.io/announcing/)
+
 ### Project/Tooling Updates
 * [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2022-w51/)
 
