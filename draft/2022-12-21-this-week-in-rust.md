@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [UI development in Rust](https://saona-raimundo.github.io/2022/12/21/UI-development-in-Rust.html)
 * [video] [Possibility of OCI Container Runtime with Rust at KubeDay Japan](https://youtu.be/hdF45WGzi7g)
 * [Docs as Code: Mermaid inline diagrams](https://frehberg.com/2022/12/docs-as-code-mermaid-inline-diagrams/)
 * [Rust needs `#[throws]`, not ubiquitous handwritten `Ok()`](https://diziet.dreamwidth.org/13657.html)
