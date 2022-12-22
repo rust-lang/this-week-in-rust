@@ -62,7 +62,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [dhat](https://docs.rs/dhat), a crate providing DHAT-like allocation profiling capabilities.
+
+Thanks to [Kornel](https://users.rust-lang.org/t/crate-of-the-week/2704/1139) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -86,7 +88,74 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+368 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-12-12..2022-12-19
+
+* [fix `-Z print-type-sizes` for generators with discriminant field ordered first](https://github.com/rust-lang/rust/pull/105623)
+* [account for item-local in inner scope for E0425](https://github.com/rust-lang/rust/pull/104864)
+* [add `0..=isize::MAX` range metadata to size loads from vtables](https://github.com/rust-lang/rust/pull/105446)
+* [add batch flag to remote-test-server](https://github.com/rust-lang/rust/pull/105145)
+* [address some `EarlyBinder` nits](https://github.com/rust-lang/rust/pull/103600)
+* [adjust log line in `fuchsia-test-runner.py`](https://github.com/rust-lang/rust/pull/105663)
+* [allow `impl ~const Trait` opaque types](https://github.com/rust-lang/rust/pull/105725)
+* [allow unsafe through inline const](https://github.com/rust-lang/rust/pull/105147)
+* [always check alignment during CTFE](https://github.com/rust-lang/rust/pull/104616)
+* [always evaluate vecs of subdiagnostics eagerly](https://github.com/rust-lang/rust/pull/105233)
+* [always use `anonymize_bound_vars`](https://github.com/rust-lang/rust/pull/105717)
+* [auto traits in `dyn Trait + Auto` are suggestable](https://github.com/rust-lang/rust/pull/105627)
+* [bail in `collect_trait_impl_trait_tys` if signatures reference errors](https://github.com/rust-lang/rust/pull/105711)
+* [change pattern borrowing suggestions to be verbose and remove invalid suggestion](https://github.com/rust-lang/rust/pull/105476)
+* [check AArch64 branch-protection earlier in the pipeline](https://github.com/rust-lang/rust/pull/105421)
+* [combine `ty::Projection` and `ty::Opaque` into `ty::Alias`](https://github.com/rust-lang/rust/pull/104986)
+* [custom MIR: Many more improvements](https://github.com/rust-lang/rust/pull/105356)
+* [fast-path some binder relations](https://github.com/rust-lang/rust/pull/105350)
+* [find the right lower bound region in the scenario of partial order relations](https://github.com/rust-lang/rust/pull/104765)
+* [fix transmutes between pointers in different address spaces (e.g. fn ptrs on AVR)](https://github.com/rust-lang/rust/pull/105578)
+* [guard ProjectionTy creation against passing the wrong number of substs](https://github.com/rust-lang/rust/pull/105657)
+* [help rust-analyzer normalize query return types](https://github.com/rust-lang/rust/pull/105493)
+* [highlight conflicting param-env candidates, again](https://github.com/rust-lang/rust/pull/105285)
+* [illegal sized bounds: only suggest mutability change if needed](https://github.com/rust-lang/rust/pull/105491)
+* [implement DerefMut for PathBuf](https://github.com/rust-lang/rust/pull/105018)
+* [make some diagnostics not depend on the source of what they reference being available](https://github.com/rust-lang/rust/pull/105500)
+* [normalize receiver substs and erase the regions](https://github.com/rust-lang/rust/pull/105561)
+* [point at method chains on `E0271` errors](https://github.com/rust-lang/rust/pull/105674)
+* [point out the type of associated types in every method call of iterator chains](https://github.com/rust-lang/rust/pull/105332)
+* [print argument name in arg mismatch if possible](https://github.com/rust-lang/rust/pull/105842)
+* [properly handle postfix inc/dec in standalone and subexpr scenarios](https://github.com/rust-lang/rust/pull/104875)
+* [simpler diagnostic when passing arg to closure and missing borrow](https://github.com/rust-lang/rust/pull/102813)
+* [stabilize `default_alloc_error_handler`](https://github.com/rust-lang/rust/pull/102318)
+* [start improving monomorphization items stats](https://github.com/rust-lang/rust/pull/105481)
+* [suggest `collect`ing into `Vec<_>`](https://github.com/rust-lang/rust/pull/105523)
+* [suggest a `T: Send` bound for `&mut T` upvars in `Send` generators](https://github.com/rust-lang/rust/pull/105839)
+* [suggest constraining type parameter with `Clone`](https://github.com/rust-lang/rust/pull/105679)
+* [suggest dereferencing receiver arguments properly](https://github.com/rust-lang/rust/pull/105595)
+* [support `#[track_caller]` on async closures](https://github.com/rust-lang/rust/pull/105464)
+* [use a more efficient `Once` on platforms without threads](https://github.com/rust-lang/rust/pull/105698)
+* [futures: impl FusedStream for Buffered](https://github.com/rust-lang/futures-rs/pull/2676)
+* [cargo: artifact deps should works when target field specified coexists with `optional = true`](https://github.com/rust-lang/cargo/pull/11434)
+* [cargo: show `--help` if there is no man page for subcommand](https://github.com/rust-lang/cargo/pull/11473)
+* [cargo: stabilize terminal-width](https://github.com/rust-lang/cargo/pull/11494)
+* [cargo: use workspace lockfile when running `cargo package` and `cargo publish`](https://github.com/rust-lang/cargo/pull/11477)
+* [rustdoc: don't add "Read more" link if there is no extra content](https://github.com/rust-lang/rust/pull/105780)
+* [clippy: fix `new_return_no_self` with recursive bounds](https://github.com/rust-lang/rust-clippy/pull/10086)
+* [clippy: fix logic in `IncrementVisitor`](https://github.com/rust-lang/rust-clippy/pull/10094)
+* [clippy: fix overflow ICE in `large_stack/const_arrays`](https://github.com/rust-lang/rust-clippy/pull/10103)
+* [clippy: fix: not suggest `seek_to_start_instead_of_rewind` when expr is used](https://github.com/rust-lang/rust-clippy/pull/10096)
+* [clippy: extend `useless_conversion` to identify more cases of useless `into_iter()` calls](https://github.com/rust-lang/rust-clippy/pull/10020)
+* [clippy: `manual_is_ascii_check ` check](https://github.com/rust-lang/rust-clippy/pull/10053)
+* [clippy: move `manual_clamp` to nursery](https://github.com/rust-lang/rust-clippy/pull/10101)
+* [clippy: `null` fn lints](https://github.com/rust-lang/rust-clippy/pull/10099)
+* [rust-analyzer: add a command to clear flycheck diagnostics](https://github.com/rust-lang/rust-analyzer/pull/13792)
+* [rust-analyzer: add command for manually running flychecks](https://github.com/rust-lang/rust-analyzer/pull/13785)
+* [rust-analyzer: add parentheses for binding mode hints when they attach to an Or-pattern](https://github.com/rust-lang/rust-analyzer/pull/13783)
+* [rust-analyzer: deduplicate inserted parentheses in binding mode hints](https://github.com/rust-lang/rust-analyzer/pull/13784)
+* [rust-analyzer: parse half-open `..= X` patterns](https://github.com/rust-lang/rust-analyzer/pull/13769)
+* [rust-analyzer: fix wrong config patching logic for addCallParenthesis](https://github.com/rust-lang/rust-analyzer/pull/13766)
+* [rust-analyzer: add a check for `if` token in patterns parser](https://github.com/rust-lang/rust-analyzer/pull/13777)
+* [rust-analyzer: fix "parser seems stuck" panic when parsing colossal files](https://github.com/rust-lang/rust-analyzer/pull/13794)
+* [rust-analyzer: resolve all inference vars in `InferenceResult::assoc_resolutions`](https://github.com/rust-lang/rust-analyzer/pull/13774)
+* [rust-analyzer: use the correct edition when formatting code in path dependencies](https://github.com/rust-lang/rust-analyzer/pull/13795)
 
 ### Rust Compiler Performance Triage
 
@@ -204,7 +273,30 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> In the depths of a computer's core,  
+> Where bits and bytes are stored,  
+> Lies a tool that's often ignored  
+> But without it, things would be floored.
+>
+> It's the rust borrow checker,  
+> A guardian of memory,  
+> Ensuring that data is in the right place  
+> And never causing miseries.
+>
+> With each line of code it carefully scans,  
+> Checking for underflows and overflows,  
+> Preventing errors, saving the day,  
+> And keeping the program in a flow.
+>
+> So let's give a nod to this silent hero,  
+> Whose work may go unnoticed, but is never zero,  
+> It's the rust borrow checker,  
+> A vital part of the machine,  
+> Ensuring our programs run clean.
+
+– [ChatGPT prompted by Vivek Yadav](https://twitter.com/vivek_verse/status/1602232115982393344)
+
+[llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1340) is quite self-appreciative for the suggestion.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
