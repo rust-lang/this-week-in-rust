@@ -36,8 +36,8 @@ and just ask the editors to select the category.
 * [Announcing Rust Magazine](https://rustmagazine.github.io/announcing/)
 
 ### Project/Tooling Updates
- * [Easily verify your Rust in CI with Kani and GitHub Actions](https://model-checking.github.io/kani-verifier-blog/2022/12/21/easily-verify-your-rust-in-ci-with-kani.html)
 
+* [Easily verify your Rust in CI with Kani and GitHub Actions](https://model-checking.github.io/kani-verifier-blog/2022/12/21/easily-verify-your-rust-in-ci-with-kani.html)
 * [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2022-w51/)
 * [Slint 0.3.3 Release and weekly update](https://slint-ui.com/thisweek/2022-12-19.html)
 
@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Writing SQL User-Defined Functions in Rust](https://mariadb.org/writing-user-defined-functions-in-rust/)
 * [New Rust course by Android: Comprehensive Rust 🦀](https://google.github.io/comprehensive-rust/)
 
 ### Research
