@@ -30,11 +30,8 @@ and just ask the editors to select the category.
 ### Official
 * [Announcing Rust 1.66.0](https://blog.rust-lang.org/2022/12/15/Rust-1.66.0.html)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust GameDev #40 - November 2022](https://gamedev.rs/news/040/)
-
 * [Announcing Rust Magazine](https://rustmagazine.github.io/announcing/)
 
 ### Project/Tooling Updates
@@ -43,8 +40,6 @@ and just ask the editors to select the category.
 * [Cranelift Progress in 2022](https://bytecodealliance.org/articles/cranelift-progress-2022)
 * [Native Reflection in Rust](https://jack.wrenn.fyi/blog/deflect/)
 * [Announcing Diesel-Async 0.2.0](https://www.reddit.com/r/rust/comments/zn9ut0/announcing_dieselasync_020/)
-* [Announcing Rust Magazine](https://rustmagazine.github.io/announcing/)
-
 * [Easily verify your Rust in CI with Kani and GitHub Actions](https://model-checking.github.io/kani-verifier-blog/2022/12/21/easily-verify-your-rust-in-ci-with-kani.html)
 * [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2022-w51/)
 * [Slint 0.3.3 Release and weekly update](https://slint-ui.com/thisweek/2022-12-19.html)
@@ -53,31 +48,26 @@ and just ask the editors to select the category.
 * [My Year With Rust: The Good, The Bad, The Ugly | BreakBuildGames](https://breakbuild.dev/blog/my-year-with-rust/)
 * [An adventure with optimization, Rust and Z3](https://ochagavia.nl/blog/an-adventure-with-optimization-rust-and-z3/)
 * [Faster CI builds for Rust with pre-baked builder images and sccache](https://vadosware.io/post/faster-ci-builds-for-rust-with-builder-images-and-sccache/)
-
 * [UI development in Rust](https://saona-raimundo.github.io/2022/12/21/UI-development-in-Rust.html)
-* [video] [Possibility of OCI Container Runtime with Rust at KubeDay Japan](https://youtu.be/hdF45WGzi7g)
 * [Docs as Code: Mermaid inline diagrams](https://frehberg.com/2022/12/docs-as-code-mermaid-inline-diagrams/)
 * [Rust needs `#[throws]`, not ubiquitous handwritten `Ok()`](https://diziet.dreamwidth.org/13657.html)
+* [video] [Possibility of OCI Container Runtime with Rust at KubeDay Japan](https://youtu.be/hdF45WGzi7g)
 
 ### Rust Walkthroughs
 * [How to build a Rust API with the builder pattern](https://blog.logrocket.com/build-rust-api-builder-pattern/)
 * [Building a Command-Line Application in Rust](https://www.joshfinnie.com/blog/a-command-line-application-in-rust/)
-
 * [Writing SQL User-Defined Functions in Rust](https://mariadb.org/writing-user-defined-functions-in-rust/)
 * [New Rust course by Android: Comprehensive Rust 🦀](https://google.github.io/comprehensive-rust/)
 
-### Research
-
 ### Miscellaneous
+* [Our year in Rust - in a rhyme!](https://tweedegolf.nl/en/blog/81/our-year-in-rust)
+* [Rust for the Polyglot Programmer (2022 edition) - a rather different introductory text, now revised](https://diziet.dreamwidth.org/13884.html)
 * [audio] [Episode 108: Jane Losare-Lusby on Rust! (Part 3)](https://adspthepodcast.com/2022/12/16/Episode-108.html)
 * [DE] [Programmiersprache Rust 1.66 erweitert Enumerations und entfernt Abhängigkeiten](https://www.heise.de/news/Programmiersprache-Rust-1-66-erweitert-Enumerations-und-entfernt-Abhaengigkeiten-7398888.html)
 * [video] [Re-writing an Express.js chat app (web-sockets) in Rust](https://www.youtube.com/watch?v=-N8AKKCE9L8)
 * [video] [Story time: Rust compiler errors](https://www.youtube.com/watch?v=Iv3UuGdB0TM)
 * [video] [Let's write a TUI Password Manager in Rust - Part 2](https://www.youtube.com/watch?v=Y917bFaH_IU)
 * [video] [Decrusting the serde crate](https://www.youtube.com/watch?v=BI_bHCGRgMY)
-
-* [Our year in Rust - in a rhyme!](https://tweedegolf.nl/en/blog/81/our-year-in-rust)
-* [Rust for the Polyglot Programmer (2022 edition) - a rather different introductory text, now revised](https://diziet.dreamwidth.org/13884.html)
 
 ## Crate of the Week
 
@@ -314,7 +304,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/zpd1qo/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
