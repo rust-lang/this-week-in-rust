@@ -339,4 +339,4 @@ Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/r
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](https://this-week-in-rust.org/blog/2022/12/21/this-week-in-rust-474/)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/zsrzuq/this_week_in_rust_474/)</small>
