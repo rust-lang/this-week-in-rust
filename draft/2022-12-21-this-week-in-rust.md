@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 * [Slint 0.3.3 Release and weekly update](https://slint-ui.com/thisweek/2022-12-19.html)
 
 ### Observations/Thoughts
+* [Docs as Code: Mermaid inline diagrams](https://frehberg.com/2022/12/docs-as-code-mermaid-inline-diagrams/)
 
 * [Rust needs `#[throws]`, not ubiquitous handwritten `Ok()`](https://diziet.dreamwidth.org/13657.html)
 
