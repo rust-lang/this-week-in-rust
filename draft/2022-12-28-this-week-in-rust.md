@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [The Sequoia GnuPG Chameleon 0.1 is Released](https://sequoia-pgp.org/blog/2022/12/19/202212-chameleon-0.1/)
 
 ### Observations/Thoughts
 
