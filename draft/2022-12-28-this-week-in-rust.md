@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+\[video\] [Nine Rules for Creating Procedural Macros in Rust](https://www.youtube.com/watch?v=DMLBBZBlKis) - Rust Linz
+
 ### Rust Walkthroughs
 
 ### Research
