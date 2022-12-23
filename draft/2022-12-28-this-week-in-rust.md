@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [cargo-semver-checks today and in 2023](https://predr.ag/blog/cargo-semver-checks-today-and-in-2023/)
 
 ### Rust Walkthroughs
 
