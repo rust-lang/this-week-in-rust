@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Dotenv-linter v3.3.0: Overview](https://dotenv-linter.github.io/#/whats_new/v330)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
