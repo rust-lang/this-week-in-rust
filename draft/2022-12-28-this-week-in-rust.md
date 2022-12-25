@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Capture The IP — Or a tiny story about how to over-engineer a simple project for the sake of learning Rust and other things about web services and binaries](https://markentier.tech/posts/2022/12/capture-the-ip/)
+
 ### Rust Walkthroughs
 
 ### Research
