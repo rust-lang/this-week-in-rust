@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [MySQL connection pooling in Rust for Toolforge](https://blog.legoktm.com/2022/12/27/mysql-connection-pooling-in-rust-for-toolforge.html)
 
 ### Observations/Thoughts
 
