@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [scraper](https://crates.io/crates/scraper), a crate for HTML parsing and querying with CSS selectors.
+
+Thanks to [Carlo Federico Vescovo](https://users.rust-lang.org/t/crate-of-the-week/2704/1140) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -67,7 +69,53 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+344 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-12-19..2022-12-26
+
+* [make LLD build forward-compatible with LLVM 16](https://github.com/rust-lang/rust/pull/106000)
+* [add `-Zno-jump-tables`](https://github.com/rust-lang/rust/pull/105812)
+* [allow `&..` to be parsed as let initializer](https://github.com/rust-lang/rust/pull/105701)
+* [add `implied_bounds_entailment` lint](https://github.com/rust-lang/rust/pull/105575)
+* [allow building std with cranelift](https://github.com/rust-lang/rust/pull/106051)
+* [correct branch-protection ModFlagBehavior for Aarch64 on LLVM-15](https://github.com/rust-lang/rust/pull/105932)
+* [ensure param-env is const before calling `eval_to_valtree`](https://github.com/rust-lang/rust/pull/105847)
+* [fix arch flag on i686-apple-darwin](https://github.com/rust-lang/rust/pull/105904)
+* [give a more helpful error for "`trimmed_def_paths` constructed"](https://github.com/rust-lang/rust/pull/106057)
+* [give opaque types a better coherence error](https://github.com/rust-lang/rust/pull/106010)
+* [mark `proc_macro_decls_static` as always used](https://github.com/rust-lang/rust/pull/105978)
+* [re-enable `Fn` trait call notation error for non-tuple argument](https://github.com/rust-lang/rust/pull/105966)
+* [suggest associated const on possible capitalization mistake](https://github.com/rust-lang/rust/pull/105843)
+* [suggest remove last method call when type coerce with expected type](https://github.com/rust-lang/rust/pull/105872)
+* [miri: data race spans](https://github.com/rust-lang/miri/pull/2646)
+* [switch `#[track_caller]` back to a no-op unless feature gate is enabled](https://github.com/rust-lang/rust/pull/104741)
+* [make `VecDeque::new` const](https://github.com/rust-lang/rust/pull/105127)
+* [implement `From<bool>` for f32, f64](https://github.com/rust-lang/rust/pull/100390)
+* [add `ptr::from_`{`ref`, `mut`}](https://github.com/rust-lang/rust/pull/104977)
+* [abort immediately on bad `mem::zeroed/uninit`](https://github.com/rust-lang/rust/pull/105997)
+* [cargo: fix: deduplicate dependencies by artifact target](https://github.com/rust-lang/cargo/pull/11478)
+* [cargo: support vendoring with different revs from same git repo](https://github.com/rust-lang/cargo/pull/10690)
+* [add readable rustdoc display for tvOS and watchOS](https://github.com/rust-lang/rust/pull/105933)
+* [clippy: add `permissions_set_readonly_false` lint](https://github.com/rust-lang/rust-clippy/pull/10063)
+* [clippy: add `size_of_ref` lint](https://github.com/rust-lang/rust-clippy/pull/10098)
+* [clippy: avoid `match_wildcard_for_single_variants` on guarded wild matches](https://github.com/rust-lang/rust-clippy/pull/10056)
+* [clippy: fix false positives in `needless_return` when using yeet](https://github.com/rust-lang/rust-clippy/pull/10109)
+* [clippy: fix `manual_filter` false positive](https://github.com/rust-lang/rust-clippy/pull/10091)
+* [clippy: fix incorrect suggestion in `suboptimal_flops`](https://github.com/rust-lang/rust-clippy/pull/10113)
+* [clippy: improve `needless_borrow`, `redundant_clone`](https://github.com/rust-lang/rust-clippy/pull/9701)
+* [rust-analyzer: add xtask for publishing release notes in Markdown on GitHub Releases from a changelog in AsciiDoc](https://github.com/rust-lang/rust-analyzer/pull/13771)
+* [rust-analyzer: complete enum variants without parens when snippets are disabled](https://github.com/rust-lang/rust-analyzer/pull/13805)
+* [rust-analyzer: add an option to hide adjustment hints outside of `unsafe` blocks and functions](https://github.com/rust-lang/rust-analyzer/pull/13817)
+* [rust-analyzer: fix binding mode hints always adding parentheses to or-patterns](https://github.com/rust-lang/rust-analyzer/pull/13820)
+* [rust-analyzer: completion: remove bound insert of type in trait](https://github.com/rust-lang/rust-analyzer/pull/13831)
+* [rust-analyzer: calculate the `TargetDataLayout` correctly for the selected target](https://github.com/rust-lang/rust-analyzer/pull/13814)
+* [rust-analyzer: correctly check for parentheses redundancy in `remove_parentheses` assist](https://github.com/rust-lang/rust-analyzer/pull/13764)
+* [rust-analyzer: don't let mbe expr fragments match let exprs and inline consts](https://github.com/rust-lang/rust-analyzer/pull/13800)
+* [rust-analyzer: handle lifetime variables in `CallableSig` query](https://github.com/rust-lang/rust-analyzer/pull/13840)
+* [rust-analyzer: skip adjustment hints if the adjustment is identity (`T` → `T`)](https://github.com/rust-lang/rust-analyzer/pull/13806)
+* [rust-analyzer: implement location link for type inlay hints](https://github.com/rust-lang/rust-analyzer/pull/13699)
+* [rust-analyzer: inline all format arguments where possible](https://github.com/rust-lang/rust-analyzer/pull/13835)
+* [docs.rs: URL-encode canonical URLs when they can include UTF8 characters](https://github.com/rust-lang/docs.rs/pull/1968)
 
 ### Rust Compiler Performance Triage
 
@@ -166,7 +214,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Rust does best when we're ambitious
+
+– [Niko Matsakis quoted by Yoshua Wuyts on his blog](https://blog.yoshuawuyts.com/rust-2023/#ambition)
+
+llogiq is inordinately pleased with [his suggestion](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1343) and thanks Yoshua for clearing the quote!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
