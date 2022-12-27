@@ -71,8 +71,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
 
+A light week with few performance changes, apart from one PR that added some
+necessary extra work to rustdoc and so we observed a corresponding hit to some
+doc benchmarks.
+
+Triage done by **@pnkfelix**.
+Revision range: [8a746f4a..b38a6d37](https://perf.rust-lang.org/?start=8a746f4ac3a489efb724cde813607f3b96c2df7b&end=b38a6d373cb254697411147c0e49cd2e84864258&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 2.8%  | [0.2%, 18.4%]  | 14    |
+| Regressions ❌ <br /> (secondary)  | 1.3%  | [0.2%, 2.6%]   | 24    |
+| Improvements ✅ <br /> (primary)   | -     | -              | 0     |
+| Improvements ✅ <br /> (secondary) | -0.7% | [-1.1%, -0.3%] | 10    |
+| All ❌✅ (primary)                 | 2.8%  | [0.2%, 18.4%]  | 14    |
+
+
+3 Regressions, 2 Improvements, 1 Mixed; 1 of them in rollups
+44 artifact comparisons made in total
+ 
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-12-27.md)
+ 
 ### Call for Testing
 
 An important step for RFC implementation is for people to experiment with the
