@@ -65,10 +65,7 @@ Thanks to [Carlo Federico Vescovo](https://users.rust-lang.org/t/crate-of-the-we
 Always wanted to contribute to open-source projects but didn't know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
-Some of these tasks may also have mentors available, visit the task page for more information.
-
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+*No calls for participation this week. Keep an eye out for more places to contribute next week!*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
