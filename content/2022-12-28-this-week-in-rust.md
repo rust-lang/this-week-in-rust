@@ -27,14 +27,9 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Foundation
 * [Board Announcement: Farewell to Shane Miller](https://foundation.rust-lang.org/news/board-announcement-farewell-to-shane-miller/)
-
 * [Community Grantee Spotlight: Oğuz Ağcayazı](https://foundation.rust-lang.org/news/community-grantee-spotlight-o%C4%9Fuz-a%C4%9Fcayaz%C4%B1/)
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [MySQL connection pooling in Rust for Toolforge](https://blog.legoktm.com/2022/12/27/mysql-connection-pooling-in-rust-for-toolforge.html)
@@ -51,11 +46,10 @@ and just ask the editors to select the category.
 * [Rust 2023 (Yoshua Wuyts)](https://blog.yoshuawuyts.com/rust-2023/)
 * [Rust in 2023 (Gijs Burghoorn)](https://gburghoorn.com/posts/rust-in-2023/)
 * [Rust in 2023 (azdavis)](https://azdavis.net/posts/rust-2023/)
+* [Capture The IP — Or a tiny story about how to over-engineer a simple project for the sake of learning Rust and other things about web services and binaries](https://markentier.tech/posts/2022/12/capture-the-ip/)
 * [video] [Rust in 2024 (Niko Matsakis)](https://www.youtube.com/watch?v=OuSiuySr6_Q)
 * [video] [Profiling Code in Rust](https://www.youtube.com/watch?v=JRMOIE_wAFk)
 * [video] [Nine Rules for Creating Procedural Macros in Rust](https://www.youtube.com/watch?v=DMLBBZBlKis)
-
-- [Capture The IP — Or a tiny story about how to over-engineer a simple project for the sake of learning Rust and other things about web services and binaries](https://markentier.tech/posts/2022/12/capture-the-ip/)
 
 ### Rust Walkthroughs
 * [How we extended the River stats module with Rust using PyO3](https://boring-guy.sh/posts/river-rust/)
@@ -295,7 +289,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/zpd1qo/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -311,4 +305,4 @@ llogiq is inordinately pleased with [his suggestion](https://users.rust-lang.org
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/zxkbzb/this_week_in_rust_475/)</small>
