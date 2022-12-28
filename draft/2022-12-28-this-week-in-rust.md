@@ -55,6 +55,8 @@ and just ask the editors to select the category.
 * [video] [Profiling Code in Rust](https://www.youtube.com/watch?v=JRMOIE_wAFk)
 * [video] [Nine Rules for Creating Procedural Macros in Rust](https://www.youtube.com/watch?v=DMLBBZBlKis)
 
+- [Capture The IP — Or a tiny story about how to over-engineer a simple project for the sake of learning Rust and other things about web services and binaries](https://markentier.tech/posts/2022/12/capture-the-ip/)
+
 ### Rust Walkthroughs
 * [How we extended the River stats module with Rust using PyO3](https://boring-guy.sh/posts/river-rust/)
 * [A taste of pavex, an upcoming Rust web framework](https://www.lpalmieri.com/posts/a-taste-of-pavex-rust-web-framework/)
