@@ -34,13 +34,14 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [The Sequoia GnuPG Chameleon 0.1 is Released](https://sequoia-pgp.org/blog/2022/12/19/202212-chameleon-0.1/)
 
+* [MySQL connection pooling in Rust for Toolforge](https://blog.legoktm.com/2022/12/27/mysql-connection-pooling-in-rust-for-toolforge.html)
+* [The Sequoia GnuPG Chameleon 0.1 is Released](https://sequoia-pgp.org/blog/2022/12/19/202212-chameleon-0.1/)
 * [Dotenv-linter v3.3.0: Overview](https://dotenv-linter.github.io/#/whats_new/v330)
 
 ### Observations/Thoughts
-* [cargo-semver-checks today and in 2023](https://predr.ag/blog/cargo-semver-checks-today-and-in-2023/)
 
+* [cargo-semver-checks today and in 2023](https://predr.ag/blog/cargo-semver-checks-today-and-in-2023/)
 * [video] [Nine Rules for Creating Procedural Macros in Rust](https://www.youtube.com/watch?v=DMLBBZBlKis) - Rust Linz
 
 ### Rust Walkthroughs
