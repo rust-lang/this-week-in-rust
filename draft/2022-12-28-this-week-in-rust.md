@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [cargo-semver-checks today and in 2023](https://predr.ag/blog/cargo-semver-checks-today-and-in-2023/)
 
+* [video] [Nine Rules for Creating Procedural Macros in Rust](https://www.youtube.com/watch?v=DMLBBZBlKis) - Rust Linz
+
 ### Rust Walkthroughs
 
 ### Research
