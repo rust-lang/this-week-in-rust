@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 * [The Sequoia GnuPG Chameleon 0.1 is Released](https://sequoia-pgp.org/blog/2022/12/19/202212-chameleon-0.1/)
 
 ### Observations/Thoughts
+* [cargo-semver-checks today and in 2023](https://predr.ag/blog/cargo-semver-checks-today-and-in-2023/)
 
 ### Rust Walkthroughs
 
