@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Open Source Grindset Explained (with a Rust example)](https://blog.orhun.dev/open-source-grindset)
+
 ### Rust Walkthroughs
 
 ### Research
