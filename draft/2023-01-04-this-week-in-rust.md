@@ -30,18 +30,39 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Rust Foundation](https://foundation.rust-lang.org/news/a-q4-recap-2022-reflection-from-rebecca-rumbul-rust-foundation-executive-director-ceo/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #162](https://rust-analyzer.github.io/thisweek/2023/01/02/changelog-162.html)
+* [fltk-rs in 2022](https://moalyousef.github.io/blog/Fltkrs2022.html)
+* [shuttle - Release v0.8.0](https://github.com/shuttle-hq/shuttle/releases/tag/v0.8.0)
+* [This Week in Fyrox](https://fyrox.rs/blog/post/twif9/)
+* [gitoxide - The year in retrospective, and what's to come](https://github.com/Byron/gitoxide/discussions/681)
 
 ### Observations/Thoughts
+* [State Machines III: Type States](https://blog.yoshuawuyts.com/state-machines-3/)
+* [Rust — vim — code completion](https://medium.com/rust-sections/rust-vim-code-completion-b6a36a177340)
+* [How to Test](https://matklad.github.io/2021/05/31/how-to-test.html)
+* [Embedded Rust and Embassy: DMA Controllers](https://apollolabsblog.hashnode.dev/embedded-rust-and-embassy-dma-controllers)
+* [Parsing TFTP in Rust](https://tuckersiemens.com/posts/parsing-tftp-in-rust/)
+* [Rustdoc JSON in 2022](https://adotinthevoid.github.io/posts/2022/12/rustdoc-json-in-2022/)
+* [From PHP to Rust: Migrating a REST API between these two languages. (Part I)](https://blog.equationlabs.io/from-php-to-rust-migrating-a-rest-api-between-these-two-languages-part-i)
+* [React + Rust + Wasm: Play an Animated 3D Model](https://guptanikhil.medium.com/react-rust-wasm-play-an-animated-3d-model-ab0dc3fbb903)
 
 ### Rust Walkthroughs
+* [Building a Simple DB in Rust - Part 1](https://johns.codes/blog/build-a-db/part01)
+* [Microservices with Rust and WASM using Fermyon](https://medium.com/@shyamsundarb/microservices-with-rust-and-wasm-using-fermyon-30245673cdbb)
+* [Compiling Brainfuck code - Part 4: A Static Compiler](https://rodrigodd.github.io/2022/12/31/bf_compiler-part4.html)
+* [Rusty Circuit Breaker 🦀](https://blog.softwheel.io/how-to-implement-circuit-breaker-in-rust/)
 
 ### Research
 
 ### Miscellaneous
+* [video] [If Rust Compiles, It WORKS (Testing not needed 📚)](https://www.youtube.com/watch?v=JIvKgSyvtxI)
+* [video] [Introduction to Axum](https://www.youtube.com/playlist?list=PLrmY5pVcnuE-_CP7XZ_44HN-mDrLQV4nS)
+* [video] [Ergonomic APIs for hard problems - Raph Levien](https://www.youtube.com/watch?v=Phk0C-kLlho)
 
 ## Crate of the Week
 
