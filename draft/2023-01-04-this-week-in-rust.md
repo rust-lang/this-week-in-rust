@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Zero-dependency random number generation in Rust](https://blog.orhun.dev/zero-deps-random-in-rust)
+
 ### Research
 
 ### Miscellaneous
