@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rust 101: an open-source university course](https://tweedegolf.nl/en/blog/80/rust-101-open-source-university-course)
 
 ## Crate of the Week
 
