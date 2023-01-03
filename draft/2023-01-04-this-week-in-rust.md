@@ -71,7 +71,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Fairly busy week with some massive performance improvements at the expense of some significant albeit smaller regressions. The main wins came in a long-standing PR from @cjgillot to enable encoding spans in metadata relative to their enclosing item. This causes more work in full compilation which causes some regressions up to 5% but can lead to very large wins in incremental compilation scenarios (up to ~70%). For example, the clap crate compiles 68% faster after a small 1 line change than it did previously.
+
+Triage done by **@rylev**.
+Revision range: [b38a6d..b43596](https://perf.rust-lang.org/?start=b38a6d373cb254697411147c0e49cd2e84864258&end=b435960c4cfd3975651c7051be56d7f5d6c201ab&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.6%  | [0.3%, 4.6%]    | 97    |
+| Regressions ❌ <br /> (secondary)  | 1.8%  | [0.2%, 7.6%]    | 60    |
+| Improvements ✅ <br /> (primary)   | -9.7% | [-68.7%, -0.2%] | 53    |
+| Improvements ✅ <br /> (secondary) | -1.7% | [-15.3%, -0.1%] | 62    |
+| All ❌✅ (primary)                 | -2.4% | [-68.7%, 4.6%]  | 150   |
+
+1 Regressions, 1 Improvements, 4 Mixed; 1 of them in rollups
+47 artifact comparisons made in total
+
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-01-03.md)
 
 ### Call for Testing
 
