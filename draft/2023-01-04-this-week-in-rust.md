@@ -48,7 +48,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [Sniffnet](https://github.com/GyulyVGC/sniffnet), a cross-platform GUI application to analyze your network traffic.
+
+Thanks to [Gyuly Vgc](https://users.rust-lang.org/t/crate-of-the-week/2704/1143) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -70,7 +72,73 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+291 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2022-12-26..2023-01-02
+
+* [CFI: monomorphize transparent ADTs before typeid](https://github.com/rust-lang/rust/pull/106232)
+* [account for `match` expr in single line](https://github.com/rust-lang/rust/pull/105347)
+* [account for macros in const generics](https://github.com/rust-lang/rust/pull/105515)
+* [account for multiple multiline spans with empty padding](https://github.com/rust-lang/rust/pull/106190)
+* [adjust message on non-unwinding panic](https://github.com/rust-lang/rust/pull/105998)
+* [allow trait method paths to satisfy `const Fn` bounds](https://github.com/rust-lang/rust/pull/106210)
+* [always suggest as `MachineApplicable` in `recover_intersection_pat`](https://github.com/rust-lang/rust/pull/106066)
+* [detect diff markers in the parser](https://github.com/rust-lang/rust/pull/106242)
+* [detect when method call on LHS might be shadowed](https://github.com/rust-lang/rust/pull/106150)
+* [dont use `--merge-base` during bootstrap formatting subcommand](https://github.com/rust-lang/rust/pull/106310)
+* [emit fewer errors on invalid `#[repr(transparent)]` on `enum`](https://github.com/rust-lang/rust/pull/106201)
+* [encode spans relative to the enclosing item -- enable on nightly](https://github.com/rust-lang/rust/pull/84762)
+* [error parsing lifetime following by Sized and message + between them](https://github.com/rust-lang/rust/pull/103020)
+* [fix confusing diagnostic when attempting to implementing trait for tuple](https://github.com/rust-lang/rust/pull/106358)
+* [format only modified files](https://github.com/rust-lang/rust/pull/105702)
+* [on unsized locals with explicit types suggest `&`](https://github.com/rust-lang/rust/pull/106223)
+* [only deduplicate stack traces for good path bugs](https://github.com/rust-lang/rust/pull/106317)
+* [give the correct track-caller location with MIR inlining](https://github.com/rust-lang/rust/pull/106139)
+* [implement allow-by-default `multiple_supertrait_upcastable` lint](https://github.com/rust-lang/rust/pull/105484)
+* [improve heuristics whether `format_args` string is a source literal](https://github.com/rust-lang/rust/pull/106195)
+* [make trait/impl `where` clause mismatch on region error a bit more actionable](https://github.com/rust-lang/rust/pull/106208)
+* [merge multiple mutable borrows of immutable binding errors](https://github.com/rust-lang/rust/pull/106284)
+* [partially fix `explicit_outlives_requirements` lint in macros](https://github.com/rust-lang/rust/pull/106064)
+* [properly calculate best failure in macro matching](https://github.com/rust-lang/rust/pull/105570)
+* [provide a better error and a suggestion for `Fn` traits with lifetime params](https://github.com/rust-lang/rust/pull/104531)
+* [provide local extern function arg names](https://github.com/rust-lang/rust/pull/105965)
+* [recover `fn` keyword as `Fn` trait in bounds](https://github.com/rust-lang/rust/pull/106176)
+* [remove unreasonable help message for auto trait](https://github.com/rust-lang/rust/pull/105817)
+* [silence knock-down errors on `[type error]` bindings](https://github.com/rust-lang/rust/pull/106199)
+* [suggest `Pin::as_mut` when encountering borrow error](https://github.com/rust-lang/rust/pull/106095)
+* [suggest `impl Iterator` when possible for `_` return type](https://github.com/rust-lang/rust/pull/106172)
+* [suggest rewriting a malformed hex literal if we expect a float](https://github.com/rust-lang/rust/pull/105852)
+* [suppress errors due to TypeError not coercing with inference variables](https://github.com/rust-lang/rust/pull/106302)
+* [trim more paths in obligation types](https://github.com/rust-lang/rust/pull/106202)
+* [miri: cargo-miri: use rustc to determine the output filename](https://github.com/rust-lang/miri/pull/2741)
+* [miri: handle unknown targets more gracefully](https://github.com/rust-lang/miri/pull/2742)
+* [miri: simplify path joining code a bit](https://github.com/rust-lang/miri/pull/2743)
+* [miri: support using a JSON target file](https://github.com/rust-lang/miri/pull/2744)
+* [miri: tweaks to retag diagnostic handling](https://github.com/rust-lang/miri/pull/2746)
+* [use some more `const_eval_select` in pointer methods for compile times](https://github.com/rust-lang/rust/pull/106275)
+* [more inference-friendly API for lazy](https://github.com/rust-lang/rust/pull/103718)
+* [more verbose `Debug` implementation of `std::process:Command`](https://github.com/rust-lang/rust/pull/97176)
+* [add `#[inline]` markers to `once_cell` methods](https://github.com/rust-lang/rust/pull/105651)
+* [unify id-based thread parking implementations](https://github.com/rust-lang/rust/pull/105903)
+* [`available_parallelism: `gracefully handle zero value `cfs_period_us`](https://github.com/rust-lang/rust/pull/104493)
+* [catch panics/unwinding in destruction of thread-locals](https://github.com/rust-lang/rust/pull/105426)
+* [cargo: asymmetric tokens](https://github.com/rust-lang/cargo/pull/10771)
+* [cargo: reasons for rebuilding](https://github.com/rust-lang/cargo/pull/11407)
+* [clippy: fix false negative in `needless_return`](https://github.com/rust-lang/rust-clippy/pull/10110)
+* [clippy: fix `match_single_binding` suggestion introducing an extra semicolon](https://github.com/rust-lang/rust-clippy/pull/10060)
+* [clippy: move `mutex_atomic` to `restriction`](https://github.com/rust-lang/rust-clippy/pull/10115)
+* [rust-analyzer: derive `Hash`](https://github.com/rust-lang/rust-analyzer/pull/13861)
+* [rust-analyzer: enum variant discriminants hints](https://github.com/rust-lang/rust-analyzer/pull/13832)
+* [rust-analyzer: diagnose private assoc item accesses](https://github.com/rust-lang/rust-analyzer/pull/13875)
+* [rust-analyzer: diagnose private field accesses](https://github.com/rust-lang/rust-analyzer/pull/13870)
+* [rust-analyzer: implement yeeting](https://github.com/rust-lang/rust-analyzer/pull/13857)
+* [rust-analyzer: fall back to inaccessible associated functions and constants if no visible resolutions are found](https://github.com/rust-lang/rust-analyzer/pull/13867)
+* [rust-analyzer: improve exit point highlighting for `for` and `while` loops in tail position](https://github.com/rust-lang/rust-analyzer/pull/13869)
+* [rust-analyzer: merge multiple intersecting ranges](https://github.com/rust-lang/rust-analyzer/pull/13871)
+* [rust-analyzer: prefix prelude items whose name collides in current scope](https://github.com/rust-lang/rust-analyzer/pull/13877)
+* [rust-analyzer: type check unstable `try{}` blocks](https://github.com/rust-lang/rust-analyzer/pull/13856)
+* [rust-analyzer: support multi-character punct tokens in MBE](https://github.com/rust-lang/rust-analyzer/pull/13854)
+* [rust-analyzer: write down adjustments introduced by binary operators](https://github.com/rust-lang/rust-analyzer/pull/13882)
 
 ### Rust Compiler Performance Triage
 
@@ -229,7 +297,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> You haven’t “fooled” rustc, you are using unsafe code. Unsafe code means that all you can do is fool yourself.
+
+– [Frank Steffahn on rust-users](https://users.rust-lang.org/t/aint-it-funny/86661/3)
+
+Thanks to [Quine Dot](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1348) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
