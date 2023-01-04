@@ -27,12 +27,8 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Foundation
 * [Rust Foundation](https://foundation.rust-lang.org/news/a-q4-recap-2022-reflection-from-rebecca-rumbul-rust-foundation-executive-director-ceo/)
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [rust-analyzer changelog #162](https://rust-analyzer.github.io/thisweek/2023/01/02/changelog-162.html)
@@ -61,8 +57,6 @@ and just ask the editors to select the category.
 * [Compiling Brainfuck code - Part 4: A Static Compiler](https://rodrigodd.github.io/2022/12/31/bf_compiler-part4.html)
 * [Rusty Circuit Breaker 🦀](https://blog.softwheel.io/how-to-implement-circuit-breaker-in-rust/)
 * [Zero-dependency random number generation in Rust](https://blog.orhun.dev/zero-deps-random-in-rust)
-
-### Research
 
 ### Miscellaneous
 * [Rust 101: an open-source university course](https://tweedegolf.nl/en/blog/80/rust-101-open-source-university-course)
@@ -316,7 +310,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/zpd1qo/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
