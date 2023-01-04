@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 * [gitoxide - The year in retrospective, and what's to come](https://github.com/Byron/gitoxide/discussions/681)
 * [The AeroRust community - 3 years birthday (and the roadmap for 2023)](https://aerorust.org/blog/aerorust-3-years-birthday)
 * [SeaQuery 0.28.0 - A dynamic query builder for SeaORM](https://www.sea-ql.org/blog/2022-12-30-whats-new-in-seaquery-0.28.0/)
+* [Databend 2022 Recap](https://databend.rs/blog/2022-12-31-databend-2022-recap)
 
 ### Observations/Thoughts
 * [State Machines III: Type States](https://blog.yoshuawuyts.com/state-machines-3/)
