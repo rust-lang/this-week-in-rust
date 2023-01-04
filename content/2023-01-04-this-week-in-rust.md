@@ -28,7 +28,7 @@ and just ask the editors to select the category.
 -->
 
 ### Foundation
-* [Rust Foundation](https://foundation.rust-lang.org/news/a-q4-recap-2022-reflection-from-rebecca-rumbul-rust-foundation-executive-director-ceo/)
+* [A Q4 Recap & 2022 Reflection from Rebecca Rumbul](https://foundation.rust-lang.org/news/a-q4-recap-2022-reflection-from-rebecca-rumbul-rust-foundation-executive-director-ceo/)
 
 ### Project/Tooling Updates
 * [rust-analyzer changelog #162](https://rust-analyzer.github.io/thisweek/2023/01/02/changelog-162.html)
