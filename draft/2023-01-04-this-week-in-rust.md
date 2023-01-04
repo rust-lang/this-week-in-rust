@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [The AeroRust community - 3 years birthday (and the roadmap for 2023)](https://aerorust.org/blog/aerorust-3-years-birthday)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
