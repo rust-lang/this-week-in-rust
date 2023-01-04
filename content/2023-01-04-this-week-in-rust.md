@@ -326,4 +326,4 @@ Thanks to [Quine Dot](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/103cr02/this_week_in_rust_476/)</small>
