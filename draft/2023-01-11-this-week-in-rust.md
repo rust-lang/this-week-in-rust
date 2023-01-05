@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [This year I tried solving AoC using Rust, here are my impressions coming from Python!](https://duarteocarmo.com/blog/on-rust)
 
 ### Rust Walkthroughs
 
