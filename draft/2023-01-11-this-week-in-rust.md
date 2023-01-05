@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [`cargo-semver-checks` v0.15.0 release notes](https://github.com/obi1kenobi/cargo-semver-checks/releases/tag/v0.15.0)
 
 ### Observations/Thoughts
 
