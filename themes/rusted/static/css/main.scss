@@ -3,7 +3,6 @@
 // Bootstrap variables
 $screen-xs-max: 768px !default;
 
-// Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
@@ -11,13 +10,55 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #444;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+// Our variables
+$text-color:            var(--text-color);
+$background-color:      var(--background-color);
+$brand-color:           var(--brand-color);
+$brand-color-visited:   var(--brand-color-visited);
+$pre-color:             var(--pre-color);
+$code-bg-color:         var(--code-bg-color);
+$code-border-color:     var(--code-border-color);
+$grey-colour:           #828282;
+$grey-colour-light:     lighten($grey-colour, 40%);
+$grey-colour-dark:      darken($grey-colour, 25%);
 
-$grey-colour:       #828282;
-$grey-colour-light: lighten($grey-colour, 40%);
-$grey-colour-dark:  darken($grey-colour, 25%);
+// Light theme colors
+$text-color-lt:          #444;
+$background-color-lt:    #fdfdfd;
+$brand-color-lt:         #2a7ae2;
+$brand-color-visited-lt: #1756a9;
+$pre-color-lt:           #333;
+$code-bg-color-lt:       #eef;
+
+// Dark theme colors
+$text-color-dt:          #f0f0f0;
+$background-color-dt:    #353535;
+$brand-color-dt:         #d2991d;
+$brand-color-visited-dt: #9a7015;
+$pre-color-dt:           #aeaeae;
+$code-bg-color-dt:       #2a2a2a;
+
+:root {
+    --text-color:           #{$text-color-lt};
+    --background-color:     #{$background-color-lt};
+    --brand-color:          #{$brand-color-lt};
+    --brand-color-visited:  #{$brand-color-visited-lt};
+    --pre-color:            #{$pre-color-lt};
+    --code-bg-color:        #{$code-bg-color-lt};
+    --code-border-color:    #{$grey-colour-light};
+}
+
+@media(prefers-color-scheme: dark) {
+    :root {
+        --text-color:           #{$text-color-dt};
+        --background-color:     #{$background-color-dt};
+        --brand-color:          #{$brand-color-dt};
+        --brand-color-visited:  #{$brand-color-visited-dt};
+        --pre-color:            #{$pre-color-dt};
+        --code-bg-color:        #{$code-bg-color-dt};
+        --code-border-color:    #{$code-bg-color-dt};
+    }
+}
 
 $on-palm:          600px;
 $on-laptop:        800px;

@@ -17,9 +17,9 @@
     letter-spacing: -1px;
     margin-bottom: 0;
 
-    &,
+    color: $text-color;
     &:visited {
-        color: $grey-colour-dark;
+        color: $text-color;
     }
 }
 

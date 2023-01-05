@@ -92,7 +92,7 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $brand-color-visited;
     }
 
     &:hover {
@@ -126,9 +126,9 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-colour-light;
+    border: 1px solid $code-border-color;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: $code-bg-color;
 }
 
 code {
@@ -138,6 +138,7 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: scroll;
+    color: $pre-color;
 
     > code {
         border: 0;
