@@ -18,6 +18,9 @@ $brand-color-visited:   var(--brand-color-visited);
 $pre-color:             var(--pre-color);
 $code-bg-color:         var(--code-bg-color);
 $code-border-color:     var(--code-border-color);
+$thead-color:           var(--thead-color);
+$table-lines-color:     var(--table-lines-color);
+$table-even-color:      var(--table-even-color);
 $grey-colour:           #828282;
 $grey-colour-light:     lighten($grey-colour, 40%);
 $grey-colour-dark:      darken($grey-colour, 25%);
@@ -29,6 +32,9 @@ $brand-color-lt:         #2a7ae2;
 $brand-color-visited-lt: #1756a9;
 $pre-color-lt:           #333;
 $code-bg-color-lt:       #eef;
+$thead-color-lt:         #eeeeee;
+$table-lines-color-lt:   #d2d2d2;
+$table-even-color-lt:    #f7f7f7;
 
 // Dark theme colors
 $text-color-dt:          #f0f0f0;
@@ -37,6 +43,9 @@ $brand-color-dt:         #d2991d;
 $brand-color-visited-dt: #9a7015;
 $pre-color-dt:           #aeaeae;
 $code-bg-color-dt:       #2a2a2a;
+$thead-color-dt:         #525252;
+$table-lines-color-dt:   #aeaeae;
+$table-even-color-dt:    #828282;
 
 :root {
     --text-color:           #{$text-color-lt};
@@ -46,6 +55,9 @@ $code-bg-color-dt:       #2a2a2a;
     --pre-color:            #{$pre-color-lt};
     --code-bg-color:        #{$code-bg-color-lt};
     --code-border-color:    #{$grey-colour-light};
+    --thead-color:          #{$thead-color-lt};
+    --table-lines-color:    #{$table-lines-color-lt};
+    --table-even-color:     #{$table-even-color-lt};
 }
 
 @media(prefers-color-scheme: dark) {
@@ -57,6 +69,9 @@ $code-bg-color-dt:       #2a2a2a;
         --pre-color:            #{$pre-color-dt};
         --code-bg-color:        #{$code-bg-color-dt};
         --code-border-color:    #{$code-bg-color-dt};
+        --thead-color:          #{$thead-color-dt};
+        --table-lines-color:    #{$table-lines-color-dt};
+        --table-even-color:     #{$table-even-color-dt};
     }
 }
 
