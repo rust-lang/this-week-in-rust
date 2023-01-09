@@ -58,6 +58,28 @@ body > footer {
     font-size: 20px;
 }
 
+/**
+ * Search
+ */
+ .search {
+    li.nav-header h2 {
+        border-bottom: 1px solid $grey-colour-light;
+    }
+
+    li {
+        line-height: 1.8;
+    }
+}
+
+.stork-close-button {
+    right: 15px;
+    top: 87px;
+    bottom: unset;
+}
+
+.stork-progress {
+    position: relative;
+}
 
 /**
  * Page content
