@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Zenoh 0.7.0 Pub/Sub/Query protocol is out and packed with new features: MQTT and S3 Plugins, C++ API, Mutual TLS Auth, and more.](https://zenoh.io/blog/2023-01-10-zenoh-charmander/)
 
 ### Observations/Thoughts
 
@@ -42,6 +43,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Zenoh's "Taming The Dragon" Tutorial Series is available online](https://www.youtube.com/playlist?list=PLZDEtJusUvAY04pwmpY8uqCG5iQ7NgSrR)
 
 ## Crate of the Week
 
