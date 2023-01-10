@@ -73,15 +73,52 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 <!-- Perf results go here -->
 
-### Call for Testing
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* [Add `core::mem::offset_of!` RFC](https://github.com/rust-lang/rfcs/pull/3308)
+
+### Final Comment Period
+
+Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
+which are reaching a decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* [disposition: merge] [Create an Operational Semantics Team](https://github.com/rust-lang/rfcs/pull/3346)
+* [disposition: merge] [RFC: Move `std::net::IpAddr` types into `core::net`.](https://github.com/rust-lang/rfcs/pull/2832)
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+* [disposition: merge] [Add `SEMICOLON_IN_EXPRESSIONS_FROM_MACROS` to future-incompat report](https://github.com/rust-lang/rust/pull/103418)
+* [disposition: merge] [Tracking issue for RFC 2515, "Permit impl Trait in type aliases"](https://github.com/rust-lang/rust/issues/63063)
+* [disposition: merge] [Check ADT fields for copy implementations considering regions](https://github.com/rust-lang/rust/pull/105102)
+* [disposition: merge] [Stabilise inline_const](https://github.com/rust-lang/rust/pull/104087)
+* [disposition: merge] [Partial stabilization of `once_cell`](https://github.com/rust-lang/rust/pull/105587)
+* [disposition: merge] [Loosen `From<&[T]> for Box<[T]>` bound to `T: Clone`](https://github.com/rust-lang/rust/pull/103406)
+* [disposition: merge] [Leak amplification for peek_mut() to ensure BinaryHeap's invariant is always met](https://github.com/rust-lang/rust/pull/105851)
+* [disposition: merge] [rustdoc: simplify JS search routine by not messing with lev distance](https://github.com/rust-lang/rust/pull/105796)
+* [disposition: merge] [Only include stable lints in `rustdoc::all` group](https://github.com/rust-lang/rust/pull/106316)
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+* [new] [The `#[diagnostic]` attribute namespace](https://github.com/rust-lang/rfcs/pull/3368)
+* [new] [RFC: Multi-Type Return Position Impl Trait (MTRPIT)](https://github.com/rust-lang/rfcs/pull/3367)
+* [new] [RFC: re-export stdlib macros from submodules](https://github.com/rust-lang/rfcs/pull/3365)
+* [new] [Command improvements for ergonomics and error handling](https://github.com/rust-lang/rfcs/pull/3362)
+
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Pre-Stabilization RFCs go here -->
+* *No RFCs issued a call for testing this week.*
 
-<!-- RFC and FCP sections go here -->
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
 
 ## Upcoming Events
 
