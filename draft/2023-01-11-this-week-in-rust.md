@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Release of `how-u-doin`; a progress reporting abstraction](https://www.kurtlawrence.info/blog/how-u-doin-a-progress-reporting-abstraction)
 
 ### Observations/Thoughts
 
