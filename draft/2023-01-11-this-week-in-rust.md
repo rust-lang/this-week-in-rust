@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Cross compiling Rust with Drone CI and Gitea](https://jacobkiers.net/post/rust-cross-compilation-on-drone/)
 
 ### Research
 
