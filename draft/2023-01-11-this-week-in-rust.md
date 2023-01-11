@@ -137,6 +137,8 @@ Rusty Events between 2023-01-11 - 2023-02-08 🦀
     * [**OnSite Meeting**](https://www.meetup.com/rust-community-stuttgart/events/zmppzsyfccbbc/)
 * 2023-01-25 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/)
     * [**Rust Paris meetup #55**](https://www.meetup.com/rust-paris/events/290100223/)
+* 2023-02-02 | Lyon, FR | **Rust Lyon**
+    * [**Rust Lyon meetup #01**](https://mobilizon.fr/events/b8577678-d072-4d9a-9562-974715f1dfbb)
 
 
 ### North America
