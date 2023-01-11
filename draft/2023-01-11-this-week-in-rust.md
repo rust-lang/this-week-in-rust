@@ -58,8 +58,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Rust Playground - Call for contributors](https://users.rust-lang.org/t/call-for-contributors-to-the-rust-playground-for-upcoming-features/87110)
+* [meilisearch - When the `lat` and `lng` are strings the wrong error message is returned](https://github.com/meilisearch/meilisearch/issues/3007)
+* [meilisearch - Bad latitude / Bad longitude should share a common message between the invalid sort and invalid filte](https://github.com/meilisearch/meilisearch/issues/3006)
+* [meilisearch - When both `lat` and `lng` are missing it doesn't return the right error](https://github.com/meilisearch/meilisearch/issues/3005)
+* [meilisearch - We must return an error for when _geo is not an object](https://github.com/meilisearch/meilisearch/issues/3003)
+* [diesel - A pure rust postgres diesel connection](https://github.com/sfackler/rust-postgres/issues/890)
+* [diesel - A pure rust mysql diesel connection implementation](https://github.com/blackbeam/rust-mysql-simple/discussions/320)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
