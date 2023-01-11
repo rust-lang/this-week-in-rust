@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Introducing OkayWAL: A write-ahead log for Rust](https://bonsaidb.io/blog/introducing-okaywal/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
