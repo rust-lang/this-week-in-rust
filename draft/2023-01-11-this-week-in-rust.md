@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 * [rustc_codegen_gcc: Progress Report #19](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-19)
 * [Fyrox 0.29 Feature Highlights](https://fyrox.rs/blog/post/feature-highlights-0-29/)
 
+* [Introducing OkayWAL: A write-ahead log for Rust](https://bonsaidb.io/blog/introducing-okaywal/)
+
 ### Observations/Thoughts
 * [Rust Atomics and Locks by Mara Bos](https://marabos.nl/atomics/)
 * [Oh the Crates You'll Go! A 2022 Retrospective](https://jack.wrenn.fyi/blog/2022-retrospective/)
