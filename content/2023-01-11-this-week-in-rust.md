@@ -57,6 +57,8 @@ and just ask the editors to select the category.
 * [Rust vs C++ Formatting](https://brevzin.github.io/c++/2023/01/02/rust-cpp-format/)
 * [My impressions of Rust after a year of working with it](https://reltech.substack.com/p/my-impressions-of-rust-after-a-year)
 * [audio] [Fermyon with Matt Butcher](https://rustacean-station.org/episode/matt-butcher/)
+
+### Rust Walkthroughs
 * [Rust and Default Parameters](https://www.thecodedmessage.com/posts/default-params/)
 * [Testing SIMD instructions on ARM with Rust on Android](https://gendignoux.com/blog/2023/01/05/rust-arm-simd-android.html)
 * [Running Zola on WebAssembly](https://dstaley.com/posts/running-zola-on-wasm/)
