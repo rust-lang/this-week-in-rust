@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #163](https://rust-analyzer.github.io/thisweek/2023/01/09/changelog-163.html)
 * [rustc_codegen_gcc: Progress Report #19](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-19)
 * [Fyrox 0.29 Feature Highlights](https://fyrox.rs/blog/post/feature-highlights-0-29/)
-
+* [Release of `how-u-doin`; a progress reporting abstraction](https://www.kurtlawrence.info/blog/how-u-doin-a-progress-reporting-abstraction)
 * [Introducing OkayWAL: A write-ahead log for Rust](https://bonsaidb.io/blog/introducing-okaywal/)
 
 ### Observations/Thoughts
