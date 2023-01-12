@@ -58,12 +58,11 @@ and just ask the editors to select the category.
 * [My impressions of Rust after a year of working with it](https://reltech.substack.com/p/my-impressions-of-rust-after-a-year)
 * [audio] [Fermyon with Matt Butcher](https://rustacean-station.org/episode/matt-butcher/)
 * [Rust and Default Parameters](https://www.thecodedmessage.com/posts/default-params/)
-
-### Rust Walkthroughs
 * [Testing SIMD instructions on ARM with Rust on Android](https://gendignoux.com/blog/2023/01/05/rust-arm-simd-android.html)
 * [Running Zola on WebAssembly](https://dstaley.com/posts/running-zola-on-wasm/)
 * [Who needs Haskell? Straight to Rust Hell](https://www.jernesto.com/articles/who_needs_haskell.html)
 * [Sharing Data Among Tasks in Rust Embassy: Synchronization Primitives](https://apollolabsblog.hashnode.dev/sharing-data-among-tasks-in-rust-embassy-synchronization-primitives)
+* [Cross compiling Rust with Drone CI and Gitea](https://jacobkiers.net/post/rust-cross-compilation-on-drone/)
 
 ### Research
 
