@@ -28,9 +28,9 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-* [Updating the Android NDK in Rust 1.68](https://blog.rust-lang.org/2023/01/09/android-ndk-update-r25.html)
 * [Announcing Rust 1.66.1](https://blog.rust-lang.org/2023/01/10/Rust-1.66.1.html)
 * [Security advisory for Cargo (CVE-2022-46176)](https://blog.rust-lang.org/2023/01/10/cve-2022-46176.html)
+* [Updating the Android NDK in Rust 1.68](https://blog.rust-lang.org/2023/01/09/android-ndk-update-r25.html)
 
 ### Foundation
 * [Introducing Our Newest Project Grantees](https://foundation.rust-lang.org/news/community-grants-program-awards-announcement-introducing-our-latest-project-grantees/)
@@ -63,10 +63,6 @@ and just ask the editors to select the category.
 * [Who needs Haskell? Straight to Rust Hell](https://www.jernesto.com/articles/who_needs_haskell.html)
 * [Sharing Data Among Tasks in Rust Embassy: Synchronization Primitives](https://apollolabsblog.hashnode.dev/sharing-data-among-tasks-in-rust-embassy-synchronization-primitives)
 * [Cross compiling Rust with Drone CI and Gitea](https://jacobkiers.net/post/rust-cross-compilation-on-drone/)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -343,7 +339,6 @@ Email the [Rust Community Team][community] for access.
 [calendar]: https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com
 [community]: mailto:community-team@rust-lang.org
 
-
 <!--
 
 Rust Jobs:
@@ -372,4 +367,4 @@ llogiq is a tad sad there were no suggestions, but still likes the quote he ende
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/109mcyv/this_week_in_rust_477)</small>
