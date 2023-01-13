@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Build a ray tracer, pt. 1 - 2D Image](https://www.superperfundo.tech/articles/ray-tracer-part1)
 
 ### Research
 
