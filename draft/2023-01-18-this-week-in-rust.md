@@ -27,6 +27,8 @@ and just ask the editors to select the category.
 
 -->
 
+* [Rust Turkey starts Turkish Rust Lectures](https://www.linkedin.com/feed/update/urn:li:activity:7017119903610470400)
+
 ### Official
 
 ### Foundation
@@ -196,6 +198,8 @@ Rusty Events between 2023-01-18 - 2023-02-15 🦀
 
 ### Europe
 
+* 2023-01-12 | Ankara, TR | [Rust Turkey](https://linktr.ee/RustTurkey)
+    * [**Rust Turkey - Rust Lectures - Lecture 1**](https://www.linkedin.com/feed/update/urn:li:activity:7017119903610470400)
 * 2023-01-12 | Enschede, NL | [Dutch Rust Meetup](https://www.meetup.com/dutch-rust-meetup/)
     * [**Rust Meetup - Subject TBA**](https://www.meetup.com/dutch-rust-meetup/events/289021643/)
 * 2023-01-20 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/Rust-Community-Stuttgart/)
