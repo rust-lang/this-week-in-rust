@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Release of sphrs 0.2.0, a spherical harmonics library](http://argmin-rs.org/blog/sphrs-v0-2-0/)
 
 ### Observations/Thoughts
 
