@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Song search in Rust using OpenAI](https://gigapotential.dev/blog/song-search-in-rust-using-openai/)
 
 ### Research
 
