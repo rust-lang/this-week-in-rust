@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [We Need Type Information, Not Stable ABI](https://blaz.is/blog/post/we-dont-need-a-stable-abi/)
 
 ### Rust Walkthroughs
 
