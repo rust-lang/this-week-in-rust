@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+- [Zero To Production book review](https://rusty-ferris.pages.dev/blog/zero-to-production-book-review/)
 
 ### Rust Walkthroughs
 
