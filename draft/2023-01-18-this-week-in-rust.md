@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Release of Lodestone, a FOSS server hosting tool for Minecraft and other multiplayers](https://github.com/Lodestone-Team/lodestone)
 
 ### Observations/Thoughts
 
