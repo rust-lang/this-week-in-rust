@@ -58,8 +58,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Ockam - GitHub CI: use global default shell in documentation.yml workflow](https://github.com/build-trust/ockam/issues/3997)
+* [Ockam - Modify clap command ockam start to set the node attribute's default value using attributes](https://github.com/build-trust/ockam/issues/4080)
+* [Ockam - Add optional --identity argument to clap command secure-channel-listener create and modify its API handler](https://github.com/build-trust/ockam/issues/3907)
+
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
