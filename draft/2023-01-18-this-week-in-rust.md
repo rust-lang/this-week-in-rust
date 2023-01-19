@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+[2D game base with Bevy and LDtk (linked wasm)](https://radim.xyz/project/rusty_woods/)
 
 ### Research
 
