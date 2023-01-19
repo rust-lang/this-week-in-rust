@@ -41,13 +41,13 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2023-w03/)
 
 ### Observations/Thoughts
-* [We Need Type Information, Not Stable ABI](https://blaz.is/blog/post/we-dont-need-a-stable-abi/)
 * [Rails developers write some Rust: a review of Axum 0.6](https://thoughtbot.com/blog/axum-from-a-rails-perspective)
 * [Rust should own its debugger experience](https://blog.yoshuawuyts.com/rust-should-own-its-debugger-experience/)
 * [The Hidden Control Flow — Some Insights on an Async Cancellation Problem in Rust](https://greptime.com/blogs/2023-01-12-hidden-control-flow)
 * [Fallible - The Lost Sibling of Result and Option](https://datavirke.dk/posts/fallible-missing-rust-error-handling/)
 * [Folding arguments into the macro](https://nnmm.github.io/rust/2023/01/11/folding-arguments-into-the-macro.html)
 * [Zero To Production book review](https://rusty-ferris.pages.dev/blog/zero-to-production-book-review/)
+* [We Need Type Information, Not Stable ABI](https://blaz.is/blog/post/we-dont-need-a-stable-abi/)
 
 ### Rust Walkthroughs
 * [Create a Rust worker | Wasm Workers Server](https://workers.wasmlabs.dev/docs/tutorials/rust-workers/)
