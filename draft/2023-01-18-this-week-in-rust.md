@@ -56,6 +56,7 @@ and just ask the editors to select the category.
 * [Rust FFI and bindgen: Integrating Embedded C Code in Rust](https://apollolabsblog.hashnode.dev/rust-ffi-and-bindgen-integrating-embedded-c-code-in-rust)
 * [Finding Nice MD5s Using Rust](https://blog.youmu.moe/posts/finding-nice-md5s-using-rust/)
 * [2D game base with Bevy and LDtk (linked wasm)](https://radim.xyz/project/rusty_woods/)
+* [Song search in Rust using OpenAI](https://gigapotential.dev/blog/song-search-in-rust-using-openai/)
 
 ### Research
 
