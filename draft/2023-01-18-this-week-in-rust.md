@@ -46,7 +46,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [syntactic-for](https://crates.io/crates/syntactic-for), a syntactic "for" loop Rust macro.
+
+Thanks to [Tor Hovland](https://users.rust-lang.org/t/crate-of-the-week/2704/1148) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -70,7 +72,95 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+458 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-01-09..2023-01-16
+
+* [Initial `#[do_not_recommend]` implementation](https://github.com/rust-lang/rust/pull/106645) (RFC [#2397](https://rust-lang.github.io/rfcs/2397-do-not-recommend.html))
+* [LSDA Take `ttype_index` into account when taking unwind action](https://github.com/rust-lang/rust/pull/106446)
+* [add checks for the signature of the `start` lang item](https://github.com/rust-lang/rust/pull/106092)
+* [add log-backtrace option to show backtraces along with logging](https://github.com/rust-lang/rust/pull/104645)
+* [add note when `FnPtr` vs. `FnDef` impl trait](https://github.com/rust-lang/rust/pull/106665)
+* [adding a hint on iterator type errors](https://github.com/rust-lang/rust/pull/106740)
+* [allow codegen to unsize `dyn*` to `dyn`](https://github.com/rust-lang/rust/pull/106532)
+* [change flags with a fixed default value from `Option<bool>` to bool](https://github.com/rust-lang/rust/pull/106671)
+* [check `impl`'s `where` clauses in `consider_impl_candidate` in experimental solver](https://github.com/rust-lang/rust/pull/106397)
+* [collect and emit proper backtraces for `delay_span_bug`s](https://github.com/rust-lang/rust/pull/106321)
+* [consider return type when giving various method suggestions](https://github.com/rust-lang/rust/pull/106607)
+* [const closures](https://github.com/rust-lang/rust/pull/106004)
+* [deprioritize fulfillment errors that come from expansions](https://github.com/rust-lang/rust/pull/106820)
+* [detect out of bounds range pattern value](https://github.com/rust-lang/rust/pull/106622)
+* [detect struct literal needing parentheses](https://github.com/rust-lang/rust/pull/106620)
+* [disable "split dwarf inlining" by default](https://github.com/rust-lang/rust/pull/106709)
+* [emit a hint for bad call return types due to generic arguments](https://github.com/rust-lang/rust/pull/106752)
+* [emit a single error for contiguous sequences of unknown tokens](https://github.com/rust-lang/rust/pull/106566)
+* [emit only one nbsp error per file](https://github.com/rust-lang/rust/pull/106872)
+* [enable atomic cas for bpf targets](https://github.com/rust-lang/rust/pull/105708)
+* [exclude formatting commit from blame](https://github.com/rust-lang/rust/pull/106778)
+* [feed a bunch of queries instead of tracking fields on TyCtxt](https://github.com/rust-lang/rust/pull/106776)
+* [fix ICE formatting](https://github.com/rust-lang/rust/pull/106791)
+* [fix `aarch64-unknown-linux-gnu_ilp32` target](https://github.com/rust-lang/rust/pull/106646)
+* [fix `unused_braces` on generic const expr macro call](https://github.com/rust-lang/rust/pull/106563)
+* [fix bad import suggestion with nested `use` tree](https://github.com/rust-lang/rust/pull/106175)
+* [fix help docs for -Zallow-features](https://github.com/rust-lang/rust/pull/106653)
+* [fix invalid files array re-creation in rustdoc-gui tester](https://github.com/rust-lang/rust/pull/106689)
+* [fix invalid syntax and incomplete suggestion in impl Trait parameter type suggestions for E0311](https://github.com/rust-lang/rust/pull/106167)
+* [fix linker detection for linker (drivers) with a version postfix (e.g. clang-12 instead of clang)](https://github.com/rust-lang/rust/pull/106489)
+* [fix misleading "add dyn keyword before derive macro" suggestion](https://github.com/rust-lang/rust/pull/106072)
+* [improve fluent error messages](https://github.com/rust-lang/rust/pull/106427)
+* [label `struct/enum constructor` instead of `fn item`, mention that it should be called on type mismatch](https://github.com/rust-lang/rust/pull/106524)
+* [mark ZST as FFI-safe if all its fields are PhantomData](https://github.com/rust-lang/rust/pull/106675)
+* [move autoderef to `rustc_hir_analysis`](https://github.com/rust-lang/rust/pull/106170)
+* [new trait solver: rebase impl substs for gats correctly](https://github.com/rust-lang/rust/pull/106835)
+* [cargo: nightly Fix CVE-2022-46176: Missing SSH host key validation](https://github.com/rust-lang/rust/pull/106687)
+* [note predicate span on `ImplDerivedObligation`](https://github.com/rust-lang/rust/pull/106703)
+* [only suggest adding type param if path being resolved was a type](https://github.com/rust-lang/rust/pull/106909)
+* [prefer non-`[type error]` candidates during selection](https://github.com/rust-lang/rust/pull/106309)
+* [provide help on closures capturing self causing borrow checker errors](https://github.com/rust-lang/rust/pull/106641)
+* [recover from where clauses placed before tuple struct bodies](https://github.com/rust-lang/rust/pull/106537)
+* [remove unnecessary lseek syscall when using `std::fs::read`](https://github.com/rust-lang/rust/pull/106664)
+* [render missing generics suggestion verbosely](https://github.com/rust-lang/rust/pull/106608)
+* [report fulfillment errors in new trait solver](https://github.com/rust-lang/rust/pull/106705)
+* [specialize impl of `ToString` on `bool`](https://github.com/rust-lang/rust/pull/106662)
+* [stabilize `::{core,std}::pin::pin!`](https://github.com/rust-lang/rust/pull/103800)
+* [stabilize `abi_efiapi` feature](https://github.com/rust-lang/rust/pull/105795)
+* [stabilize `f16c_target_feature`](https://github.com/rust-lang/rust/pull/106323)
+* [stop probing for statx unless necessary](https://github.com/rust-lang/rust/pull/106661)
+* [suggest `is_empty` for collections when casting to `bool`](https://github.com/rust-lang/rust/pull/106896)
+* [suggest making private tuple struct field public](https://github.com/rust-lang/rust/pull/106579)
+* [suggestion for type mismatch when we need a u8 but the programmer wrote a char literal](https://github.com/rust-lang/rust/pull/106859)
+* [tweak E0277 `&`-removal suggestions](https://github.com/rust-lang/rust/pull/106360)
+* [tweak E0599 and `elaborate_predicates`](https://github.com/rust-lang/rust/pull/106788)
+* [support eager subdiagnostics again](https://github.com/rust-lang/rust/pull/105806)
+* [libcore: make result of `iter::from_generator` `Clone`](https://github.com/rust-lang/rust/pull/105526)
+* [add `AtomicPtr::as_mut_ptr`](https://github.com/rust-lang/rust/pull/106762)
+* [leak amplification for `peek_mut()` to ensure BinaryHeap's invariant is always met](https://github.com/rust-lang/rust/pull/105851)
+* [fix `mpsc::SyncSender` spinning behavior](https://github.com/rust-lang/rust/pull/106701)
+* [futures: fix panic when `Unfold` sink return an error](https://github.com/rust-lang/futures-rs/pull/2686)
+* [futures: fix `FuturesOrdered`](https://github.com/rust-lang/futures-rs/pull/2664)
+* [cargo: `cargo metadata` supports artifact dependencies](https://github.com/rust-lang/cargo/pull/11550)
+* [cargo: support `codegen-backend` and `rustflags` in profiles in config file](https://github.com/rust-lang/cargo/pull/11562)
+* [clippy: `cast_possible_truncation` Suggest `TryFrom` when truncation possible](https://github.com/rust-lang/rust-clippy/pull/10038)
+* [clippy: `expl_impl_clone_on_copy`: ignore packed structs with type/const params](https://github.com/rust-lang/rust-clippy/pull/10189)
+* [clippy: `needless_return`: remove all semicolons on suggestion](https://github.com/rust-lang/rust-clippy/pull/10187)
+* [clippy: `unused_self`: don't trigger if the method body contains `todo!()`](https://github.com/rust-lang/rust-clippy/pull/10166)
+* [clippy: allow implementing `Hash` with derived `PartialEq` (`derive_hash_xor_eq`)](https://github.com/rust-lang/rust-clippy/pull/10184)
+* [clippy: move `unchecked_duration_subtraction` to pedantic](https://github.com/rust-lang/rust-clippy/pull/10194)
+* [rust-analyzer: add basic tooltips to adjustment hints](https://github.com/rust-lang/rust-analyzer/pull/13947)
+* [rust-analyzer: assist: desugar doc-comment](https://github.com/rust-lang/rust-analyzer/pull/13935)
+* [rust-analyzer: comment out disabled code](https://github.com/rust-lang/rust-analyzer/pull/13862)
+* [rust-analyzer: derive 'Hash'](https://github.com/rust-lang/rust-analyzer/pull/13919)
+* [rust-analyzer: make `unlinked_file` diagnostic quickfixes work for inline modules](https://github.com/rust-lang/rust-analyzer/pull/13934)
+* [rust-analyzer: fix panicking Option unwraping in match arm analysis](https://github.com/rust-lang/rust-analyzer/pull/13940)
+* [rust-analyzer: fix ty should query impls in nearest block](https://github.com/rust-lang/rust-analyzer/pull/13897)
+* [rust-analyzer: check orpat in missing match](https://github.com/rust-lang/rust-analyzer/pull/13945)
+* [rust-analyzer: don't generate `PartialEq`/`PartialOrd` methods body when types don't match](https://github.com/rust-lang/rust-analyzer/pull/13961)
+* [rust-analyzer: make inlay hint location links work for more types](https://github.com/rust-lang/rust-analyzer/pull/13948)
+* [rust-analyzer: interior-mutable types should be `static` rather than `const`](https://github.com/rust-lang/rust-analyzer/pull/13936)
+* [rust-analyzer: remove hover inlay tooltips, replace them with location links](https://github.com/rust-lang/rust-analyzer/pull/13946)
+* [rust-analyzer: remove recursive `Display` implementations](https://github.com/rust-lang/rust-analyzer/pull/13937)
+* [rust-analyzer: split out hir-def attribute handling parts into hir-expand](https://github.com/rust-lang/rust-analyzer/pull/13917)
+* [rust-analyzer: unconditionally enable location links in inlay hints again](https://github.com/rust-lang/rust-analyzer/pull/13963)
 
 ### Rust Compiler Performance Triage
 
@@ -263,7 +353,16 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Common arguments against Rust's safety guarantees:
+>
+> * The library you're binding to can have a segfault in it.
+> * RAM can physically fail, causing dangling pointers.
+> * The computer the Rust program is running on can be hit by a meteorite.
+> * Alan Turing can come back from the dead and tell everyone that he actually made up computer science and none of it is real, thus invalidating every program ever made, including all Rust programs.
+
+– [Ironmask on the phoronix forums](https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1367544-google-to-allow-rust-code-in-the-chromium-browser?p=1367778#post1367778)
+
+Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1355) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
