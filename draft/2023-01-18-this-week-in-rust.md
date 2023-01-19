@@ -34,15 +34,38 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [IntelliJ Rust Changelog #186](https://intellij-rust.github.io/2023/01/16/changelog-186.html)
+* [rust-analyzer changelog #164](https://rust-analyzer.github.io/thisweek/2023/01/16/changelog-164.html)
+* [This Week in Fyrox](https://fyrox.rs/blog/post/twif10/)
+* [clap v4.1](https://epage.github.io/blog/2023/01/clap-v4-1/)
 
 ### Observations/Thoughts
+* [We Need Type Information, Not Stable ABI](https://blaz.is/blog/post/we-dont-need-a-stable-abi/)
+* [Rails developers write some Rust: a review of Axum 0.6](https://thoughtbot.com/blog/axum-from-a-rails-perspective)
+* [Rust should own its debugger experience](https://blog.yoshuawuyts.com/rust-should-own-its-debugger-experience/)
+* [The Hidden Control Flow — Some Insights on an Async Cancellation Problem in Rust](https://greptime.com/blogs/2023-01-12-hidden-control-flow)
+* [Fallible - The Lost Sibling of Result and Option](https://datavirke.dk/posts/fallible-missing-rust-error-handling/)
+* [Folding arguments into the macro](https://nnmm.github.io/rust/2023/01/11/folding-arguments-into-the-macro.html)
 
 ### Rust Walkthroughs
-[2D game base with Bevy and LDtk (linked wasm)](https://radim.xyz/project/rusty_woods/)
+* [Create a Rust worker | Wasm Workers Server](https://workers.wasmlabs.dev/docs/tutorials/rust-workers/)
+* [Displaying Images on ESP32 with Rust!](https://lilymara.xyz/posts/images-esp32/)
+* [Rust FFI and bindgen: Integrating Embedded C Code in Rust](https://apollolabsblog.hashnode.dev/rust-ffi-and-bindgen-integrating-embedded-c-code-in-rust)
+* [Finding Nice MD5s Using Rust](https://blog.youmu.moe/posts/finding-nice-md5s-using-rust/)
+* [2D game base with Bevy and LDtk (linked wasm)](https://radim.xyz/project/rusty_woods/)
 
 ### Research
 
 ### Miscellaneous
+* [Building an out-of-tree Rust Kernel Module Part Two](https://blog.rnstlr.ch/building-an-out-of-tree-rust-kernel-module-part-two.html)
+* [Using Rust to write a Data Pipeline. Thoughts. Musings.](https://www.confessionsofadataguy.com/using-rust-to-write-a-data-pipeline-thoughts-musings/)
+* [video] [C++ vs Rust: which is faster?](https://www.youtube.com/watch?v=VMpSYJ_7aYM)
+* [video] [Everything You Wanted to Know About Rust Unit Testing (and then some more)](https://youtube.com/watch?v=_jDKeOtOiEo)
+* [video] [Introduction to rust operators for Kubernetes](https://www.youtube.com/watch?v=feBYxeO-3cY)
+* [DE] [Rust-Framework: Turmoil testet verteilte Systeme](https://www.heise.de/news/Rust-Framework-Turmoil-testet-verteilte-Systeme-7449772.html)
+* [DE] [Rust: bis zu 2500 Projekte durch Bibliothek Hyper für DoS verwundbar](https://www.heise.de/news/Rust-bis-zu-2500-Projekte-durch-Bibliothek-Hyper-fuer-DoS-verwundbar-7451019.html)
+* [DE] [Ferris Talk #13: Rust-Web-APIs und Mocking mit Axum](https://www.heise.de/hintergrund/Ferris-Talk-13-Rust-Web-APIs-und-Mocking-mit-Axum-7457143.html)
+* [DE] [Open-Source-Browser: Google öffnet Chromium für Rust](https://www.heise.de/news/Open-Source-Browser-Google-oeffnet-Chromium-fuer-Rust-7458091.html)
 
 ## Crate of the Week
 
