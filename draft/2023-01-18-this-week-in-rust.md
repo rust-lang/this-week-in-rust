@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 * [The Hidden Control Flow — Some Insights on an Async Cancellation Problem in Rust](https://greptime.com/blogs/2023-01-12-hidden-control-flow)
 * [Fallible - The Lost Sibling of Result and Option](https://datavirke.dk/posts/fallible-missing-rust-error-handling/)
 * [Folding arguments into the macro](https://nnmm.github.io/rust/2023/01/11/folding-arguments-into-the-macro.html)
+* [Zero To Production book review](https://rusty-ferris.pages.dev/blog/zero-to-production-book-review/)
 
 ### Rust Walkthroughs
 * [Create a Rust worker | Wasm Workers Server](https://workers.wasmlabs.dev/docs/tutorials/rust-workers/)
