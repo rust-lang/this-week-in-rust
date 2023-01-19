@@ -72,8 +72,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
 
+Nearly all flagged regressions are likely noise, except one rollup with minor
+impact on diesel that we will follow up on. We had a broad (albeit small) win
+from [#106294](https://github.com/rust-lang/rust/pull/106294).
+
+Triage done by **@pnkfelix**.
+Revision range: [0442fbab..1f72129f](https://perf.rust-lang.org/?start=0442fbabe24ec43636a80ad1f40a0ad92a2e38df&end=1f72129ffe5e8c495113f9a2d4e1730f7fad3209&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.4%  | [0.2%, 1.7%]   | 39    |
+| Regressions ❌ <br /> (secondary)  | 0.5%  | [0.2%, 1.8%]   | 23    |
+| Improvements ✅ <br /> (primary)   | -0.4% | [-0.6%, -0.2%] | 7     |
+| Improvements ✅ <br /> (secondary) | -0.4% | [-0.6%, -0.2%] | 6     |
+| All ❌✅ (primary)                 | 0.3%  | [-0.6%, 1.7%]  | 46    |
+
+
+4 Regressions, 3 Improvements, 3 Mixed; 4 of them in rollups
+50 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-01-18.md)
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
