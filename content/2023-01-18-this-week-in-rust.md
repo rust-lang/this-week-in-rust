@@ -27,12 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [IntelliJ Rust Changelog #186](https://intellij-rust.github.io/2023/01/16/changelog-186.html)
 * [rust-analyzer changelog #164](https://rust-analyzer.github.io/thisweek/2023/01/16/changelog-164.html)
@@ -60,8 +54,6 @@ and just ask the editors to select the category.
 * [2D game base with Bevy and LDtk (linked wasm)](https://radim.xyz/project/rusty_woods/)
 * [Song search in Rust using OpenAI](https://gigapotential.dev/blog/song-search-in-rust-using-openai/)
 * [Build a ray tracer, pt. 1 - 2D Image](https://www.superperfundo.tech/articles/ray-tracer-part1)
-
-### Research
 
 ### Miscellaneous
 * [Building an out-of-tree Rust Kernel Module Part Two](https://blog.rnstlr.ch/building-an-out-of-tree-rust-kernel-module-part-two.html)
