@@ -58,6 +58,7 @@ and just ask the editors to select the category.
 * [Finding Nice MD5s Using Rust](https://blog.youmu.moe/posts/finding-nice-md5s-using-rust/)
 * [2D game base with Bevy and LDtk (linked wasm)](https://radim.xyz/project/rusty_woods/)
 * [Song search in Rust using OpenAI](https://gigapotential.dev/blog/song-search-in-rust-using-openai/)
+* [Build a ray tracer, pt. 1 - 2D Image](https://www.superperfundo.tech/articles/ray-tracer-part1)
 
 ### Research
 
