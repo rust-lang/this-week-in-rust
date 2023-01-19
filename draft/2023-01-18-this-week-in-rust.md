@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 * [This Week in Fyrox](https://fyrox.rs/blog/post/twif10/)
 * [clap v4.1](https://epage.github.io/blog/2023/01/clap-v4-1/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2023-w03/)
+* [Release of sphrs 0.2.0, a spherical harmonics library](http://argmin-rs.org/blog/sphrs-v0-2-0/)
 
 ### Observations/Thoughts
 * [Rails developers write some Rust: a review of Axum 0.6](https://thoughtbot.com/blog/axum-from-a-rails-perspective)
