@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 * [Folding arguments into the macro](https://nnmm.github.io/rust/2023/01/11/folding-arguments-into-the-macro.html)
 * [Zero To Production book review](https://rusty-ferris.pages.dev/blog/zero-to-production-book-review/)
 * [We Need Type Information, Not Stable ABI](https://blaz.is/blog/post/we-dont-need-a-stable-abi/)
+* [Comparison of web frameworks written in Java, nodejs and Rust](https://github.com/bwysocki/rocket-nest-spring/)
 
 ### Rust Walkthroughs
 * [Create a Rust worker | Wasm Workers Server](https://workers.wasmlabs.dev/docs/tutorials/rust-workers/)
