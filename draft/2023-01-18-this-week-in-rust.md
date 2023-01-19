@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #164](https://rust-analyzer.github.io/thisweek/2023/01/16/changelog-164.html)
 * [This Week in Fyrox](https://fyrox.rs/blog/post/twif10/)
 * [clap v4.1](https://epage.github.io/blog/2023/01/clap-v4-1/)
+* [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2023-w03/)
 
 ### Observations/Thoughts
 * [We Need Type Information, Not Stable ABI](https://blaz.is/blog/post/we-dont-need-a-stable-abi/)
