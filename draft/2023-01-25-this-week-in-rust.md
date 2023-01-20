@@ -34,6 +34,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [**Zenoh 0.7.0**, a pure Rust Pub/Sub/Query protocol for cloud-to-thing continuum, was released and it is packed with new features.](https://zenoh.io/blog/2023-01-10-zenoh-charmander/)
+
 
 ### Observations/Thoughts
 
