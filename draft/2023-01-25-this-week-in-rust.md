@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Mobc 0.8.1 release with improved stability](https://www.garrensmith.com/new-mobc-release-0-8-1/)
 
 ### Observations/Thoughts
 
