@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [The Git source code audit, viewed as a Rust programmer](https://litchipi.github.io/infosec/2023/01/24/git-code-audit-viewed-as-rust-programmer.html)
+* [Turning a Rust struct into an enum is not always a major breaking change](https://predr.ag/blog/turning-rust-struct-to-enum-is-not-always-breaking/)
 
 ### Rust Walkthroughs
 
