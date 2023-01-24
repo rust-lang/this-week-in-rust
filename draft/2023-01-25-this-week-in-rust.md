@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+[video] [10 Reasons Not To Use Rust (The Whole Truth)](https://www.youtube.com/watch?v=ul9vyWuT8SU)
 
 ## Crate of the Week
 
