@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2023-w04/)
 
 ### Observations/Thoughts
+* [The Git source code audit, viewed as a Rust programmer](https://litchipi.github.io/infosec/2023/01/24/git-code-audit-viewed-as-rust-programmer.html)
 
 ### Rust Walkthroughs
 
