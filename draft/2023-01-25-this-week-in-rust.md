@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Comparative fuzzing in Rust](https://medium.com/@adetaylor/comparative-fuzzing-parallel-rust-tools-fac5ce9c9c2d)
+
 ### Research
 
 ### Miscellaneous
