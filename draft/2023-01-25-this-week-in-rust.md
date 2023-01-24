@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Turning a Rust struct into an enum is not always a major breaking change](https://predr.ag/blog/turning-rust-struct-to-enum-is-not-always-breaking/)
 
 ### Rust Walkthroughs
 
