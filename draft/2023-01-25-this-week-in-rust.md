@@ -33,6 +33,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+- [Console #141 - An Interview with Orhun of git-cliff (a changelog generator written in Rust)](https://console.substack.com/p/console-141)
+
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
