@@ -194,7 +194,7 @@ Rusty Events between 2023-01-25 - 2023-02-22 🦀
     * [**Rust Hack & Learn February 2023**](https://www.meetup.com/rust-meetup-hamburg/events/290824576/)
 * 2023-02-02 | Lyon, FR | [Rust Lyon](https://mobilizon.fr/events/b8577678-d072-4d9a-9562-974715f1dfbb)
     * [**Rust Lyon meetup #01**](https://mobilizon.fr/events/b8577678-d072-4d9a-9562-974715f1dfbb)
-* 2022-02-04 | Brussels, BE | [FOSDEM](https://fosdem.org/)
+* 2023-02-04 | Brussels, BE | [FOSDEM](https://fosdem.org/)
     * [**FOSDEM 2023 Conference: Rust devroom**](https://fosdem.org/2023/schedule/track/rust/)
 * 2023-02-21 | Zurich, CH | [Rust Zurich](https://www.meetup.com/rust-zurich/)
     * [**Practical Cryptography - February Meetup (Registration opens 7 Feb 2023)**](https://www.meetup.com/de-DE/rust-zurich/events/290915075/)
