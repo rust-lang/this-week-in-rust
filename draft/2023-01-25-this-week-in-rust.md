@@ -35,8 +35,9 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Mobc 0.8.1 release with improved stability](https://www.garrensmith.com/new-mobc-release-0-8-1/)
-* [**Zenoh 0.7.0**, a pure Rust Pub/Sub/Query protocol for cloud-to-thing continuum, was released and it is packed with new features.](https://zenoh.io/blog/2023-01-10-zenoh-charmander/)
+* [Zenoh 0.7.0, a pure Rust Pub/Sub/Query protocol for cloud-to-thing continuum, was released and it is packed with new features.](https://zenoh.io/blog/2023-01-10-zenoh-charmander/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2023-w04/)
+* [Slint 0.3.4 release](https://slint-ui.com/blog/slint-0.3.4-released.html)
 * [First steps with NGenate - A dataflow and visual programming platform built with rust](https://codetrance.io/blog/1/rust-visual-programming-dataflow-ngenate-first-steps/)
 
 ### Observations/Thoughts
@@ -44,13 +45,13 @@ and just ask the editors to select the category.
 * [Turning a Rust struct into an enum is not always a major breaking change](https://predr.ag/blog/turning-rust-struct-to-enum-is-not-always-breaking/)
 
 ### Rust Walkthroughs
-
 * [Comparative fuzzing in Rust](https://medium.com/@adetaylor/comparative-fuzzing-parallel-rust-tools-fac5ce9c9c2d)
 
 ### Research
 
 ### Miscellaneous
-[video] [10 Reasons Not To Use Rust (The Whole Truth)](https://www.youtube.com/watch?v=ul9vyWuT8SU)
+* [video] [10 Reasons Not To Use Rust (The Whole Truth)](https://www.youtube.com/watch?v=ul9vyWuT8SU)
+* [Packaging Rust Applications for the NPM Registry](https://blog.orhun.dev/packaging-rust-for-npm/)
 
 ## Crate of the Week
 
@@ -65,10 +66,7 @@ and just ask the editors to select the category.
 Always wanted to contribute to open-source projects but did not know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
-Some of these tasks may also have mentors available, visit the task page for more information.
-
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+*No calls for participation this week. Keep an eye out for more places to contribute next week!*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -80,7 +78,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Largely a win for compiler performance with 100 test cases in real-world crates showing some sort of change in performance with an average 1% improvement. These wins were a combination of many different changes including how `doc(hidden)` gets more efficiently encoded in metadata, some optimizations in the borrow checker, and simplification of the output from `derive(Debug)` for fieldless enums.
+
+Triage done by **@rylev**.
+Revision range: [1f72129f..c8e6a9e8](https://perf.rust-lang.org/?start=1f72129ffe5e8c495113f9a2d4e1730f7fad3209&end=c8e6a9e8b6251bbc8276cb78cabe1998deecbed7&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.4%  | [0.2%, 0.7%]    | 19    |
+| Regressions ❌ <br /> (secondary)  | 0.9%  | [0.2%, 1.5%]    | 34    |
+| Improvements ✅ <br /> (primary)   | -1.3% | [-17.2%, -0.2%] | 81    |
+| Improvements ✅ <br /> (secondary) | -2.1% | [-7.1%, -0.2%]  | 64    |
+| All ❌✅ (primary)                 | -1.0% | [-17.2%, 0.7%]  | 100   |
+
+
+2 Regressions, 5 Improvements, 3 Mixed; 1 of them in rollups
+34 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-01-24.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
