@@ -79,6 +79,7 @@ and just ask the editors to select the category.
 * [Packaging Rust Applications for the NPM Registry](https://blog.orhun.dev/packaging-rust-for-npm/)
 * [Announcing Rust Support in CodeSandbox](https://codesandbox.io/blog/announcing-rust-support-in-codesandbox)
 * [video] [10 Reasons Not To Use Rust (The Whole Truth)](https://www.youtube.com/watch?v=ul9vyWuT8SU)
+* [video] [Sneaking By The Rust Borrow Checker - Interior Mutability](https://www.youtube.com/watch?v=HwupNf9iCJk)
 
 ## Crate of the Week
 
