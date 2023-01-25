@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 * [Mobc 0.8.1 release with improved stability](https://www.garrensmith.com/new-mobc-release-0-8-1/)
 * [**Zenoh 0.7.0**, a pure Rust Pub/Sub/Query protocol for cloud-to-thing continuum, was released and it is packed with new features.](https://zenoh.io/blog/2023-01-10-zenoh-charmander/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2023-w04/)
+* [First steps with NGenate - A dataflow and visual programming platform built with rust](https://codetrance.io/blog/1/rust-visual-programming-dataflow-ngenate-first-steps/)
 
 ### Observations/Thoughts
 * [The Git source code audit, viewed as a Rust programmer](https://litchipi.github.io/infosec/2023/01/24/git-code-audit-viewed-as-rust-programmer.html)
