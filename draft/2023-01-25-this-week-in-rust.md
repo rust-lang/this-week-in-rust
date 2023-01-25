@@ -43,13 +43,13 @@ and just ask the editors to select the category.
 * [Turning a Rust struct into an enum is not always a major breaking change](https://predr.ag/blog/turning-rust-struct-to-enum-is-not-always-breaking/)
 
 ### Rust Walkthroughs
-
 * [Comparative fuzzing in Rust](https://medium.com/@adetaylor/comparative-fuzzing-parallel-rust-tools-fac5ce9c9c2d)
 
 ### Research
 
 ### Miscellaneous
-[video] [10 Reasons Not To Use Rust (The Whole Truth)](https://www.youtube.com/watch?v=ul9vyWuT8SU)
+* [video] [10 Reasons Not To Use Rust (The Whole Truth)](https://www.youtube.com/watch?v=ul9vyWuT8SU)
+* [Packaging Rust Applications for the NPM Registry](https://blog.orhun.dev/packaging-rust-for-npm/)
 
 ## Crate of the Week
 
