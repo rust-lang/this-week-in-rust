@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [Darkbird](https://github.com/Rustixir/darkbird), a mnesia-inspired high concurrency, real time, in-memory storage library.
+
+Thanks to [DanyalMh](https://users.rust-lang.org/t/crate-of-the-week/2704/1149) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -67,7 +69,59 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+378 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-01-16..2023-01-23
+
+* [llvm-wrapper: adapt for LLVM API change](https://github.com/rust-lang/rust/pull/106113)
+* [enable sanitizers for s390x-linux](https://github.com/rust-lang/rust/pull/107127)
+* [put `noundef` on all scalars that don't allow uninit](https://github.com/rust-lang/rust/pull/106294)
+* [add 'static lifetime suggestion when GAT implied 'static requirement from HRTB](https://github.com/rust-lang/rust/pull/106747)
+* [add raw identifier for keyword in suggestion](https://github.com/rust-lang/rust/pull/106928)
+* [check ADT fields for copy implementations considering regions](https://github.com/rust-lang/rust/pull/105102)
+* [constify `TypeId` ordering impls](https://github.com/rust-lang/rust/pull/101698)
+* [diagnostics: suggest changing `s@self::{macro}@::macro` for exported](https://github.com/rust-lang/rust/pull/104347)
+* [dont randomly use `_` to print out const generic arguments](https://github.com/rust-lang/rust/pull/106873)
+* [drop tracking Visit break expressions](https://github.com/rust-lang/rust/pull/106699)
+* [encode const mir for closures if they're const](https://github.com/rust-lang/rust/pull/106917)
+* [fix check macro expansion](https://github.com/rust-lang/rust/pull/107124)
+* [label closure captures/generator locals that make opaque types recursive](https://github.com/rust-lang/rust/pull/106578)
+* [lazy dominator tree construction in borrowck](https://github.com/rust-lang/rust/pull/106976)
+* [make `CastError::NeedsDeref` create a `MachineApplicable` suggestion](https://github.com/rust-lang/rust/pull/106927)
+* [make error emitted on `impl &Trait` nicer](https://github.com/rust-lang/rust/pull/106712)
+* [refactor basic blocks control flow caches](https://github.com/rust-lang/rust/pull/106975)
+* [simplify `derive(Debug)` output for fieldless enums](https://github.com/rust-lang/rust/pull/106884)
+* [suggest remove deref for type mismatch](https://github.com/rust-lang/rust/pull/107203)
+* [suggestion for attempted integer identifier in patterns](https://github.com/rust-lang/rust/pull/106591)
+* [tweak "borrow closure argument" suggestion](https://github.com/rust-lang/rust/pull/106891)
+* [unify stable and unstable sort implementations in same core module](https://github.com/rust-lang/rust/pull/104672)
+* [use UnordMap and UnordSet for id collections (DefIdMap, LocalDefIdMap, etc)](https://github.com/rust-lang/rust/pull/106977)
+* [various cleanups around pre-TyCtxt queries and functions](https://github.com/rust-lang/rust/pull/106810)
+* [add heapsort fallback in `select_nth_unstable`](https://github.com/rust-lang/rust/pull/106997)
+* [implement `alloc::vec::IsZero` for `Option<$NUM>` types](https://github.com/rust-lang/rust/pull/106989)
+* [lift `T: Sized` bounds from some `strict_provenance` pointer methods](https://github.com/rust-lang/rust/pull/103702)
+* [add `Arc::into_inner` for safely discarding `Arc`s without calling the destructor on the inner type](https://github.com/rust-lang/rust/pull/106854)
+* [hashbrown: provide default hasher types to `Vacant` and `Occupied` entries](https://github.com/rust-lang/hashbrown/pull/389)
+* [futures: add `Either::as_pin_mut` and `Either::as_pin_ref`](https://github.com/rust-lang/futures-rs/pull/2691)
+* [futures: implement `FusedStream` for all streams in `ReadyChunks`](https://github.com/rust-lang/futures-rs/pull/2693)
+* [(cherry-pick) WebAssembly multivalue stackify fix](https://github.com/rust-lang/llvm-project/pull/144)
+* [cargo: stabilize sparse-registry](https://github.com/rust-lang/cargo/pull/11224)
+* [cargo: wrapper type for data that should never be logged](https://github.com/rust-lang/cargo/pull/11545)
+* [rustfmt: correct span for structs with const generics](https://github.com/rust-lang/rustfmt/pull/5669)
+* [clippy: add `multiple_unsafe_ops_per_block` lint](https://github.com/rust-lang/rust-clippy/pull/10206)
+* [clippy: add machine applicable suggestion for `bool_assert_comparison`](https://github.com/rust-lang/rust-clippy/pull/10218)
+* [clippy: fix false positive in `unnecessary_safety_comment`](https://github.com/rust-lang/rust-clippy/pull/10106)
+* [clippy: fix suggestion in `transmutes_expressible_as_ptr_casts` when the source type is a borrow](https://github.com/rust-lang/rust-clippy/pull/10193)
+* [rust-analyzer: don't escape non-snippets in assist](https://github.com/rust-lang/rust-analyzer/pull/14004)
+* [rust-analyzer: don't respond with a ContentModified while loading the workspace](https://github.com/rust-lang/rust-analyzer/pull/13985)
+* [rust-analyzer: fix checkOnSave to check config patching not always working](https://github.com/rust-lang/rust-analyzer/pull/13980)
+* [rust-analyzer: fix markdown removal in hover handling whitespace weirdly](https://github.com/rust-lang/rust-analyzer/pull/13988)
+* [rust-analyzer: handle slice patterns in "Fill match arms"](https://github.com/rust-lang/rust-analyzer/pull/13978)
+* [rust-analyzer: more precise binop inference](https://github.com/rust-lang/rust-analyzer/pull/13971)
+* [rust-analyzer: substitute vscode variables in `config.serverPath`](https://github.com/rust-lang/rust-analyzer/pull/13993)
+* [rust-analyzer: parse `const_closures` syntax](https://github.com/rust-lang/rust-analyzer/pull/13983)
+* [rust-analyzer: replace SmolStr usage with lang item enum for lang items](https://github.com/rust-lang/rust-analyzer/pull/14001)
+* [rust-analyzer: use workspace.dependencies to declare local dependencies](https://github.com/rust-lang/rust-analyzer/pull/13969)
 
 ### Rust Compiler Performance Triage
 
@@ -239,7 +293,21 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Rust has demonstrated that you using a type system as a vehicle for separation logic works, even in imperative languages, and it's nothing as arcane as those immutable functional predecessors would suggest. It did this by making sure the language defines a type system that helps you, by making sure core properties of soundness *can* be expressed in it.
+>
+> * soundness requirement for memory access: lifetimes
+> * soundness requirements for references *with* value semantics: > `&`/`&mut _`
+> * soundness requirements for resources: `Copy` and `Drop`
+> * making sure your logic is monotic: traits instead of inheritance, lack of specialization (yes, that's a *feature*).
+> * (notably missing: no dependent types; apparently not 'necessary' but I'm sure it could be useful; however, research is heavily ongoing; caution is good)
+>
+> This allows the standard library to encode all of its relevant requirements as types. And doing this everywhere is its soundness property: safe functions have no requirements beyond the sum of its parameter type, `unsafe functions` can. Nothing new or special there, nothing that makes Rust's notion of soundness special.
+>
+> Basing your mathematical reasoning on separation logic makes soundness reviews *local* instead of requiring whole program analysis. This is what makes it practical. It did this pretty successfully and principled, but did no single truly revolutionary thing. It's a sum of good bits from the last decade of type system research. That's probably why people refer to it as 'the soundness definition', it's just a very poignant way to say: "we learned that a practical type systems works as a proof checker".
+
+– [HeroicKatora on /r/cpp](https://www.reddit.com/r/cpp/comments/10d4qny/a_call_to_action_think_seriously_about_safety/j4ks225/)
+
+Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1365) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
