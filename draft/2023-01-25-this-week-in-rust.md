@@ -35,7 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Mobc 0.8.1 release with improved stability](https://www.garrensmith.com/new-mobc-release-0-8-1/)
-* [**Zenoh 0.7.0**, a pure Rust Pub/Sub/Query protocol for cloud-to-thing continuum, was released and it is packed with new features.](https://zenoh.io/blog/2023-01-10-zenoh-charmander/)
+* [Zenoh 0.7.0, a pure Rust Pub/Sub/Query protocol for cloud-to-thing continuum, was released and it is packed with new features.](https://zenoh.io/blog/2023-01-10-zenoh-charmander/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2023-w04/)
 * [Slint 0.3.4 release](https://slint-ui.com/blog/slint-0.3.4-released.html)
 
@@ -65,10 +65,7 @@ and just ask the editors to select the category.
 Always wanted to contribute to open-source projects but did not know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
-Some of these tasks may also have mentors available, visit the task page for more information.
-
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+*No calls for participation this week. Keep an eye out for more places to contribute next week!*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
