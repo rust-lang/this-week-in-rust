@@ -79,7 +79,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Largely a win for compiler performance with 100 test cases in real-world crates showing some sort of change in performance with an average 1% improvement. These wins were a combination of many different changes including how `doc(hidden)` gets more efficiently encoded in metadata, some optimizations in the borrow checker, and simplification of the output from `derive(Debug)` for fieldless enums.
+
+Triage done by **@rylev**.
+Revision range: [1f72129f..c8e6a9e8](https://perf.rust-lang.org/?start=1f72129ffe5e8c495113f9a2d4e1730f7fad3209&end=c8e6a9e8b6251bbc8276cb78cabe1998deecbed7&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.4%  | [0.2%, 0.7%]    | 19    |
+| Regressions ❌ <br /> (secondary)  | 0.9%  | [0.2%, 1.5%]    | 34    |
+| Improvements ✅ <br /> (primary)   | -1.3% | [-17.2%, -0.2%] | 81    |
+| Improvements ✅ <br /> (secondary) | -2.1% | [-7.1%, -0.2%]  | 64    |
+| All ❌✅ (primary)                 | -1.0% | [-17.2%, 0.7%]  | 100   |
+
+
+2 Regressions, 5 Improvements, 3 Mixed; 1 of them in rollups
+34 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-01-24.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
