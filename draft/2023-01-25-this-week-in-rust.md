@@ -28,30 +28,57 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Officially announcing the types team](https://blog.rust-lang.org/2023/01/20/types-announcement.html)
+* [Diversifying our Content Delivery Networks](https://blog.rust-lang.org/inside-rust/2023/01/24/content-delivery-networks.html)
 
 ### Foundation
+* [Lars Bergstrom Elected as Rust Foundation Board of Directors Chair](https://foundation.rust-lang.org/news/lars-bergstrom-elected-as-rust-foundation-board-of-directors-chair/)
+* [Join the Rust Foundation at Rust Nation UK 2023](https://foundation.rust-lang.org/news/join-the-rust-foundation-at-rust-nation-uk-2023/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #165](https://rust-analyzer.github.io/thisweek/2023/01/23/changelog-165.html)
+* [hyper-ish 2022 in review](https://seanmonstar.com/post/706802392260362240/hyper-ish-2022-in-review)
 * [Mobc 0.8.1 release with improved stability](https://www.garrensmith.com/new-mobc-release-0-8-1/)
 * [Zenoh 0.7.0, a pure Rust Pub/Sub/Query protocol for cloud-to-thing continuum, was released and it is packed with new features.](https://zenoh.io/blog/2023-01-10-zenoh-charmander/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release](https://www.fornjot.app/blog/weekly-release/2023-w04/)
 * [Slint 0.3.4 release](https://slint-ui.com/blog/slint-0.3.4-released.html)
+* [Astra: A Blocking HTTP Server Built on Top of Hyper](https://ibraheem.ca/posts/announcing-astra/)
 * [First steps with NGenate - A dataflow and visual programming platform built with rust](https://codetrance.io/blog/1/rust-visual-programming-dataflow-ngenate-first-steps/)
+* [`toml` vs `toml_edit`](https://epage.github.io/blog/2023/01/toml-vs-toml-edit/)
+* [This Week in Fyrox #11](https://fyrox.rs/blog/post/twif11/)
+* [The year 2022 in Dimforge and our objectives for 2023](https://dimforge.com/blog/2023/01/22/the-year-2022-in-dimforge/)
 
 ### Observations/Thoughts
+* [Rust in 2023: Growing up](https://smallcultfollowing.com/babysteps/blog/2023/01/20/rust-in-2023-growing-up/)
+* [The State of Developer Ecosystem 2022 in Rust: Discover recent trends](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/)
+* [The size of Rust Futures](https://swatinem.de/blog/future-size/)
+* [Capability-Safety I: Prelude](https://blog.yoshuawuyts.com/capabilities-1/)
+* [Surprises in the Rust JSON Ecosystem](https://ecton.dev/rust-json-ecosystem/)
 * [The Git source code audit, viewed as a Rust programmer](https://litchipi.github.io/infosec/2023/01/24/git-code-audit-viewed-as-rust-programmer.html)
 * [Turning a Rust struct into an enum is not always a major breaking change](https://predr.ag/blog/turning-rust-struct-to-enum-is-not-always-breaking/)
+* [14 Rust Tools for Linux Terminal Dwellers](https://itsfoss.com/rust-cli-tools/)
+* [audio] [Rust Magazine with Shuang Zhu](https://rustacean-station.org/episode/shuang-zhu/)
+* [audio] [Rust Nation with Ernest Kissiedu](https://rustacean-station.org/episode/ernest-kissiedu/)
 
 ### Rust Walkthroughs
+* [Temporary Values, Borrowing, and Lifetimes](https://blog.vashishtha.in/temporary-lifetimes/)
+* [Due to limitations in the borrow checker, this implies a 'static lifetime](https://kazlauskas.me/entries/due-to-borrowck-limitations)
+* [Rust concepts I wish I learned earlier](https://rauljordan.com/rust-concepts-i-wish-i-learned-earlier/)
 * [Comparative fuzzing in Rust](https://medium.com/@adetaylor/comparative-fuzzing-parallel-rust-tools-fac5ce9c9c2d)
+* [domain-specific error macros](https://blog.yoshuawuyts.com/ensure-macros/)
+* [Building a Simple DB in Rust - Part 2 - Basic Execution](https://johns.codes/blog/build-a-db/part02)
+* [Rust FFI and cbindgen: Integrating Embedded Rust Code in C](https://apollolabsblog.hashnode.dev/rust-ffi-and-cbindgen-integrating-embedded-rust-code-in-c)
 
 ### Research
 
 ### Miscellaneous
-* [video] [10 Reasons Not To Use Rust (The Whole Truth)](https://www.youtube.com/watch?v=ul9vyWuT8SU)
+* [The crates.io registry is now a GitHub secret scanning integrator](https://github.blog/changelog/2023-01-19-the-crate-io-registry-is-now-a-github-secret-scanning-integrator/)
+* [Six fun things to do with Rust operator overloading](https://wishawa.github.io/posts/fun-rust-operators/)
 * [Packaging Rust Applications for the NPM Registry](https://blog.orhun.dev/packaging-rust-for-npm/)
+* [Announcing Rust Support in CodeSandbox](https://codesandbox.io/blog/announcing-rust-support-in-codesandbox)
+* [video] [10 Reasons Not To Use Rust (The Whole Truth)](https://www.youtube.com/watch?v=ul9vyWuT8SU)
 
 ## Crate of the Week
 
