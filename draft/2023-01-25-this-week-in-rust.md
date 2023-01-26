@@ -96,7 +96,9 @@ Thanks to [DanyalMh](https://users.rust-lang.org/t/crate-of-the-week/2704/1149) 
 Always wanted to contribute to open-source projects but did not know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
-*No calls for participation this week. Keep an eye out for more places to contribute next week!*
+* [Ockam - Implement 'ockam node logs' CLI command](https://github.com/build-trust/ockam/issues/4129)
+* [Ockam - Implement 'ockam worker list' CLI command](https://github.com/build-trust/ockam/issues/4130)
+* [Ockam - Add a CI check to avoid conflicts in 'TypeTag' ids](https://github.com/build-trust/ockam/issues/4108)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
