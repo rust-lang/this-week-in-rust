@@ -314,7 +314,7 @@ Email the [Rust Community Team][community] for access.
 [calendar]: https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com
 [community]: mailto:community-team@rust-lang.org
 
-
+## Jobs
 <!--
 
 Rust Jobs:
@@ -325,9 +325,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-## Jobs
-
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/zpd1qo/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
