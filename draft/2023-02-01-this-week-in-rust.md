@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+ - [LifetimeKata: Exercises to learn how to use lifetimes.](https://github.com/tfpk/lifetimekata)
+
 ### Research
 
 ### Miscellaneous
