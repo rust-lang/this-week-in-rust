@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Autometrics 0.1 - A macro to track metrics for any function & understand the data with automatically-generated Prometheus queries](https://github.com/fiberplane/autometrics-rs)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
