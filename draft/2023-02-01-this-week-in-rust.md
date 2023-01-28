@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing `acrylic`: WiP ultra portable GUI toolkit](https://i.l0.pm/announcing-acrylic)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
