@@ -28,20 +28,41 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.67.0](https://blog.rust-lang.org/2023/01/26/Rust-1.67.0.html)
+* [Help test Cargo's new index protocol](https://blog.rust-lang.org/inside-rust/2023/01/30/cargo-sparse-protocol.html)
 
 ### Foundation
+* [Rust Foundation Annual Report 2022](https://foundation.rust-lang.org/news/rust-foundation-annual-report-2022/)
 
 ### Newsletters
+* [This Month in Rust GameDev #41 - December 2022](https://gamedev.rs/news/041/)
 
 ### Project/Tooling Updates
+* [IntelliJ Rust Changelog #187](https://intellij-rust.github.io/2023/01/30/changelog-187.html)
+* [rust-analyzer changelog #166](https://rust-analyzer.github.io/thisweek/2023/01/30/changelog-166.html)
+* [argmin 0.8.0 and argmin-math 0.3.0 released](https://argmin-rs.org/blog/version-v0-8-0/)
 
 ### Observations/Thoughts
+* [Ordering Numbers, How Hard Can It Be?](https://orlp.net/blog/ordering-numbers/)
+* [Next Rust Compiler](https://matklad.github.io/2023/01/25/next-rust-compiler.html)
+* [Forking Chrome to render in a terminal](https://fathy.fr/carbonyl)
+* [40x Faster! We rewrote our project with Rust!](https://medium.com/@xpf6677/40x-faster-we-rewrote-our-project-with-rust-120b006c6abe)
+* [Moving and re-exporting a Rust type can be a major breaking change](https://predr.ag/blog/moving-and-reexporting-rust-type-can-be-major-breaking-change/)
+* [What the HAL? The Quest for Finding a Suitable Embedded Rust HAL](https://apollolabsblog.hashnode.dev/what-the-hal-the-quest-for-finding-a-suitable-embedded-rust-hal)
+* [Some Rust breaking changes don't require a major version](https://predr.ag/blog/some-rust-breaking-changes-do-not-require-major-version/)
 
 ### Rust Walkthroughs
+* [Handling Integer Overflow in Rust](https://bmoxb.io/2023/01/28/integer-overflow-in-rust.html)
+* [Rust error handling with anyhow](https://antoinerr.github.io/blog-website/2023/01/28/rust-anyhow.html)
+* [Synchronizing state with Websockets and JSON Patch](https://cetra3.github.io/blog/synchronising-with-websocket/)
+* [Plugins for Rust](https://reorchestrate.com/posts/plugins-for-rust/)
 
 ### Research
 
 ### Miscellaneous
+* [Rust's Ugly Syntax](https://matklad.github.io/2023/01/26/rusts-ugly-syntax.html)
+* [video] [Rust's Witchcraft](https://www.youtube.com/watch?v=MWRPYBoCEaY)
+* [DE] [CodeSandbox: Nun auch für die Rust-Entwicklung](https://www.heise.de/news/CodeSandbox-Nun-auch-fuer-die-Rust-Entwicklung-7470518.html)
 
 ## Crate of the Week
 
