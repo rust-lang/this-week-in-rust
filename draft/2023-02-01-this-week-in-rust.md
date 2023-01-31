@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [symphonia](https://lib.rs/crates/symphonia), a collection of pure-Rust audio decoders for many common formats.
+
+Thanks to [Kornel](https://users.rust-lang.org/t/crate-of-the-week/2704/1151) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -67,7 +69,74 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+377 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-01-23..2023-01-30
+
+* [move `format_args!()` into AST (and expand it during AST lowering)](https://github.com/rust-lang/rust/pull/106745)
+* [implement Hash for `proc_macro::LineColumn`](https://github.com/rust-lang/rust/pull/106946)
+* [add help message about function pointers](https://github.com/rust-lang/rust/pull/105552)
+* [add hint for missing lifetime bound on trait object when type alias is used](https://github.com/rust-lang/rust/pull/105345)
+* [add suggestion to remove if in `let`..`else` block](https://github.com/rust-lang/rust/pull/107213)
+* [assume MIR types are fully normalized in `ascribe_user_type`](https://github.com/rust-lang/rust/pull/107197)
+* [check for missing space between fat arrow and range pattern](https://github.com/rust-lang/rust/pull/107425)
+* [compute generator saved locals on MIR](https://github.com/rust-lang/rust/pull/101692)
+* [core: support variety of atomic widths in width-agnostic functions](https://github.com/rust-lang/rust/pull/106856)
+* [correct suggestions for closure arguments that need a borrow](https://github.com/rust-lang/rust/pull/107306)
+* [detect references to non-existant messages in Fluent resources](https://github.com/rust-lang/rust/pull/107096)
+* [disable `ConstGoto` opt in cleanup blocks](https://github.com/rust-lang/rust/pull/107323)
+* [don't merge vtables when full debuginfo is enabled](https://github.com/rust-lang/rust/pull/107373)
+* [fix def-use dominance check](https://github.com/rust-lang/rust/pull/107097)
+* [fix thin archive reading](https://github.com/rust-lang/rust/pull/107360)
+* [impl `DispatchFromDyn` for `Cell` and `UnsafeCell`](https://github.com/rust-lang/rust/pull/97373)
+* [implement simple `CopyPropagation` based on SSA analysis](https://github.com/rust-lang/rust/pull/106908)
+* [improve proc macro attribute diagnostics](https://github.com/rust-lang/rust/pull/106407)
+* [insert whitespace to avoid ident concatenation in suggestion](https://github.com/rust-lang/rust/pull/106540)
+* [only compute `mir_generator_witnesses` query in `drop_tracking_mir` mode](https://github.com/rust-lang/rust/pull/107406)
+* [preserve split DWARF files when building archives](https://github.com/rust-lang/rust/pull/106904)
+* [recover from more const arguments that are not wrapped in curly braces](https://github.com/rust-lang/rust/pull/107190)
+* [reimplement `NormalizeArrayLen` based on `SsaLocals`](https://github.com/rust-lang/rust/pull/107172)
+* [remove overlapping parts of multipart suggestions](https://github.com/rust-lang/rust/pull/106916)
+* [special-case deriving `PartialOrd` for enums with dataless variants](https://github.com/rust-lang/rust/pull/103659)
+* [suggest coercion of `Result` using `?`](https://github.com/rust-lang/rust/pull/106583)
+* [suggest qualifying bare associated constants](https://github.com/rust-lang/rust/pull/107204)
+* [suggest using a lock for `*Cell: Sync` bounds](https://github.com/rust-lang/rust/pull/106944)
+* [teach parser to understand fake anonymous enum syntax](https://github.com/rust-lang/rust/pull/106960)
+* [use `can_eq` to compare types for default assoc type error](https://github.com/rust-lang/rust/pull/107304)
+* [use proper `InferCtxt` when probing for associated types in astconv](https://github.com/rust-lang/rust/pull/107100)
+* [use stable metric for const eval limit instead of current terminator-based logic](https://github.com/rust-lang/rust/pull/106227)
+* [remove optimistic spinning from `mpsc::SyncSender`](https://github.com/rust-lang/rust/pull/106836)
+* [stabilize the `const_socketaddr` feature](https://github.com/rust-lang/rust/pull/104252)
+* [codegen\_gcc: fix/signed integer overflow](https://github.com/rust-lang/rustc_codegen_gcc/pull/249)
+* [cargo: `cargo add` check `[dependencies]` order without considering the dotted item](https://github.com/rust-lang/cargo/pull/11612)
+* [cargo: avoid saving the same `future_incompat` warning multiple times](https://github.com/rust-lang/cargo/pull/11648)
+* [cargo: fix split-debuginfo support detection](https://github.com/rust-lang/cargo/pull/11347)
+* [cargo: make cargo aware of dwp files](https://github.com/rust-lang/cargo/pull/11572)
+* [cargo: mention current default value in `publish.timeout` docs](https://github.com/rust-lang/cargo/pull/11652)
+* [rustdoc: collect rustdoc-reachable items during early doc link resolution](https://github.com/rust-lang/rust/pull/107054)
+* [rustdoc: prohibit scroll bar on source viewer in Safari](https://github.com/rust-lang/rust/pull/107266)
+* [rustdoc: use smarter encoding for playground URL](https://github.com/rust-lang/rust/pull/107284)
+* [rustdoc: add option to include private items in library docs](https://github.com/rust-lang/rust/pull/107264)
+* [fix infinite loop in rustdoc `get_all_import_attributes` function](https://github.com/rust-lang/rust/pull/107357)
+* [rustfmt: don't wrap comments that are part of a table](https://github.com/rust-lang/rustfmt/pull/5475)
+* [rustfmt: fix for handling empty code block in doc comment](https://github.com/rust-lang/rustfmt/pull/5601)
+* [clippy: `invalid_regex`: show full error when string value doesn't match source](https://github.com/rust-lang/rust-clippy/pull/10231)
+* [clippy: `multiple_unsafe_ops_per_block`: don't lint in external macros](https://github.com/rust-lang/rust-clippy/pull/10260)
+* [clippy: improve span for `module_name_repetitions`](https://github.com/rust-lang/rust-clippy/pull/10226)
+* [clippy: missing config](https://github.com/rust-lang/rust-clippy/pull/10248)
+* [clippy: prevents `len_without_is_empty` from triggering when `len` takes arguments besides `&self`](https://github.com/rust-lang/rust-clippy/pull/10255)
+* [rust-analyzer: adding section for Visual Studio IDE Rust development support](https://github.com/rust-lang/rust-analyzer/pull/14012)
+* [rust-analyzer: don't fail workspace loading if sysroot can't be found](https://github.com/rust-lang/rust-analyzer/pull/14038)
+* [rust-analyzer: improve "match to let else" assist](https://github.com/rust-lang/rust-analyzer/pull/14057)
+* [rust-analyzer: show signature help when typing record literal](https://github.com/rust-lang/rust-analyzer/pull/14041)
+* [rust-analyzer: ide-assists: unwrap block when it parent is let stmt](https://github.com/rust-lang/rust-analyzer/pull/14011)
+* [rust-analyzer: fix config substitution failing extension activation](https://github.com/rust-lang/rust-analyzer/pull/14023)
+* [rust-analyzer: don't include lifetime or label apostrophe when renaming](https://github.com/rust-lang/rust-analyzer/pull/14015)
+* [rust-analyzer: fix "add missing impl members" assist for impls inside blocks](https://github.com/rust-lang/rust-analyzer/pull/14039)
+* [rust-analyzer: fix assoc item search finding unrelated definitions](https://github.com/rust-lang/rust-analyzer/pull/14020)
+* [rust-analyzer: fix process-changes not deduplicating changes correctly](https://github.com/rust-lang/rust-analyzer/pull/14025)
+* [rust-analyzer: handle boolean scrutinees in match `<->` if let replacement assists better](https://github.com/rust-lang/rust-analyzer/pull/14037)
+* [rust-analyzer: substitute VSCode variables more generally](https://github.com/rust-lang/rust-analyzer/pull/14019)
 
 ### Rust Compiler Performance Triage
 
@@ -229,7 +298,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Compilers are an error reporting tool with a code generation side-gig.
+
+– [Esteban Küber on Hacker News](https://news.ycombinator.com/item?id=34544449)
+
+Thanks to [Stefan Majewsky](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1369) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
