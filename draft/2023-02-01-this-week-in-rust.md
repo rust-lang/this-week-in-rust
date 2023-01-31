@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[Managing complex communication over raw I/O streams using `async-io-typed` and `async-io-converse`](https://xaeroxe.github.io/async-io/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
