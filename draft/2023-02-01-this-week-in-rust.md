@@ -38,13 +38,13 @@ and just ask the editors to select the category.
 * [This Month in Rust GameDev #41 - December 2022](https://gamedev.rs/news/041/)
 
 ### Project/Tooling Updates
+* [Scaphandre 0.5.0, to measure energy consumption of IT servers and computers, is released : windows compatibility (experimental), multiple sensors support, and much more...](https://github.com/hubblo-org/scaphandre/discussions/258)
 * [IntelliJ Rust Changelog #187](https://intellij-rust.github.io/2023/01/30/changelog-187.html)
 * [rust-analyzer changelog #166](https://rust-analyzer.github.io/thisweek/2023/01/30/changelog-166.html)
 * [argmin 0.8.0 and argmin-math 0.3.0 released](https://argmin-rs.org/blog/version-v0-8-0/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - The Usual Rabbit Hole](https://www.fornjot.app/blog/weekly-release/2023-w05/)
 * [One step forward, an easier interoperability between Rust and Haskell](https://engineering.iog.io/2023-01-26-hs-bindgen-introduction/)
-
-[Managing complex communication over raw I/O streams using `async-io-typed` and `async-io-converse`](https://xaeroxe.github.io/async-io/)
+* [Managing complex communication over raw I/O streams using `async-io-typed` and `async-io-converse`](https://xaeroxe.github.io/async-io/)
 
 ### Observations/Thoughts
 * [Ordering Numbers, How Hard Can It Be?](https://orlp.net/blog/ordering-numbers/)
