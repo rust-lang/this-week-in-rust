@@ -62,6 +62,7 @@ and just ask the editors to select the category.
 * [Synchronizing state with Websockets and JSON Patch](https://cetra3.github.io/blog/synchronising-with-websocket/)
 * [Plugins for Rust](https://reorchestrate.com/posts/plugins-for-rust/)
 * [series] [Protohackers in Rust, Part 00: Dipping the toe in async and Tokio](https://d2718.net/blog/posts/protohax_00.html)
+* [Building gRPC APIs with Rust using Tonic](https://konghq.com/blog/building-grpc-apis-with-rust)
 
 ### Research
 
