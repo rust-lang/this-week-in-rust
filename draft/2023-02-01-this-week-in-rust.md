@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Crash! And now what?](https://tweedegolf.nl/en/blog/82/crash-and-now-what)
 
 ### Rust Walkthroughs
 
