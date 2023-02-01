@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+[argmin 0.8.0 and argmin-math 0.3.0 released](https://argmin-rs.org/blog/version-v0-8-0/)
 
 * [One step forward, an easier interoperability between Rust and Haskell](https://engineering.iog.io/2023-01-26-hs-bindgen-introduction/)
 
