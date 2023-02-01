@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Release - The Usual Rabbit Hole](https://www.fornjot.app/blog/weekly-release/2023-w05/)
 * [One step forward, an easier interoperability between Rust and Haskell](https://engineering.iog.io/2023-01-26-hs-bindgen-introduction/)
 
+[Managing complex communication over raw I/O streams using `async-io-typed` and `async-io-converse`](https://xaeroxe.github.io/async-io/)
+
 ### Observations/Thoughts
 * [Ordering Numbers, How Hard Can It Be?](https://orlp.net/blog/ordering-numbers/)
 * [Next Rust Compiler](https://matklad.github.io/2023/01/25/next-rust-compiler.html)
