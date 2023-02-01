@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+  * [series] [Protohackers in Rust, Part 00: Dipping the toe in async and Tokio](https://d2718.net/blog/posts/protohax_00.html)
+
 ### Research
 
 ### Miscellaneous
