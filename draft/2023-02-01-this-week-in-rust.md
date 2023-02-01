@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+[How much does Rust's bounds checking actually cost?](https://blog.readyset.io/bounds-checks/)
 
 ### Rust Walkthroughs
 
