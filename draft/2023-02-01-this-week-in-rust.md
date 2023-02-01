@@ -42,7 +42,6 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #166](https://rust-analyzer.github.io/thisweek/2023/01/30/changelog-166.html)
 * [argmin 0.8.0 and argmin-math 0.3.0 released](https://argmin-rs.org/blog/version-v0-8-0/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - The Usual Rabbit Hole](https://www.fornjot.app/blog/weekly-release/2023-w05/)
-* [argmin 0.8.0 and argmin-math 0.3.0 released](https://argmin-rs.org/blog/version-v0-8-0/)
 * [One step forward, an easier interoperability between Rust and Haskell](https://engineering.iog.io/2023-01-26-hs-bindgen-introduction/)
 
 ### Observations/Thoughts
