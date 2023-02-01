@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 * [One step forward, an easier interoperability between Rust and Haskell](https://engineering.iog.io/2023-01-26-hs-bindgen-introduction/)
 
 ### Observations/Thoughts
+* [Moving and re-exporting a Rust type can be a major breaking change](https://predr.ag/blog/moving-and-reexporting-rust-type-can-be-major-breaking-change/)
 * [Some Rust breaking changes don't require a major version](https://predr.ag/blog/some-rust-breaking-changes-do-not-require-major-version/)
 * [Crash! And now what?](https://tweedegolf.nl/en/blog/82/crash-and-now-what)
 
