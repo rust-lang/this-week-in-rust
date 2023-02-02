@@ -45,7 +45,6 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Release - The Usual Rabbit Hole](https://www.fornjot.app/blog/weekly-release/2023-w05/)
 * [One step forward, an easier interoperability between Rust and Haskell](https://engineering.iog.io/2023-01-26-hs-bindgen-introduction/)
 * [Managing complex communication over raw I/O streams using `async-io-typed` and `async-io-converse`](https://xaeroxe.github.io/async-io/)
-
 * [Autometrics - a macro that tracks metrics for any function & inserts links to Prometheus charts right into each function's doc comments](https://github.com/fiberplane/autometrics-rs)
 
 ### Observations/Thoughts
@@ -65,8 +64,6 @@ and just ask the editors to select the category.
 * [Plugins for Rust](https://reorchestrate.com/posts/plugins-for-rust/)
 * [series] [Protohackers in Rust, Part 00: Dipping the toe in async and Tokio](https://d2718.net/blog/posts/protohax_00.html)
 * [Building gRPC APIs with Rust using Tonic](https://konghq.com/blog/building-grpc-apis-with-rust)
-
-### Research
 
 ### Miscellaneous
 * [Rust's Ugly Syntax](https://matklad.github.io/2023/01/26/rusts-ugly-syntax.html)
