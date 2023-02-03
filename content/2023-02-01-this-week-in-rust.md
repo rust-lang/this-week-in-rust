@@ -288,6 +288,8 @@ Rusty Events between 2023-02-01 - 2023-03-01 🦀
 
 * 2023-02-01 | Kyoto, JP | [Kansai Rust](https://www.meetup.com/kansai-rust)
     * [**Rust talk: How to implement Iterator on tuples... kind of**](https://www.meetup.com/kansai-rust/events/291020672)
+* 2023-02-08 | Kuala Lumpur, MY | [Rust Malaysia](https://forms.gle/1bJpsu3HDtzDkF6G7)
+    * [**Rust talk: The journey to Rust from a student**](https://forms.gle/1bJpsu3HDtzDkF6G7)
 * 2023-02-20 | Tel Aviv, IL | [Rust TLV](https://www.meetup.com/rust-tlv/)
     * [**February Edition - Redis and BioCatch talking Rust!**](https://www.meetup.com/rust-tlv/events/291182881/)
 
