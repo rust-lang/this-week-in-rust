@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [derive-adhoc: "derive by example", an ergonomic replacement for (some) proc macros - 0.1.0 release](https://diziet.dreamwidth.org/14345.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
