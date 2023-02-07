@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Meilisearch releases v1.0, the first completely stable version of its highly performant, open-source search engine](https://blog.meilisearch.com/v1-enterprise-ready-stable/)
 
 ### Observations/Thoughts
 
