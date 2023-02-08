@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 [Rustler - Using Rust crates in Elixir](https://mainmatter.com/blog/2023/02/01/using-rust-crates-in-elixir/)
 
+- [LifetimeKata: Exercises to learn how to use lifetimes.](https://tfpk.github.io/lifetimekata/)
+
 ### Research
 
 ### Miscellaneous
