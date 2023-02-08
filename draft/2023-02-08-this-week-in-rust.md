@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [Building a Rust parser using Pest and PEG](https://blog.logrocket.com/building-rust-parser-pest-peg/)
 
 [Rustler - Using Rust crates in Elixir](https://mainmatter.com/blog/2023/02/01/using-rust-crates-in-elixir/)
 
