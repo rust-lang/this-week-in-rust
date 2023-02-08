@@ -28,8 +28,10 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rustup 1.25.2](https://blog.rust-lang.org/2023/02/01/Rustup-1.25.2.html)
 
 ### Foundation
+* [Member Spotlight: AdaCore](https://foundation.rust-lang.org/news/member-spotlight-adacore/)
 
 ### FOSDEM 2023
 
@@ -53,26 +55,45 @@ and just ask the editors to select the category.
 * [RustyHermit @ FOSDEM 2023: A Rust-Based, Modular Unikernel For MicroVMs](https://fosdem.org/2023/schedule/event/rustunikernel/)
 
 ### Newsletters
+* [This Month in Rust OSDev: January 2023](https://rust-osdev.com/this-month/2023-01/)
 * [The first issue of Rust Magazine has been published 🎉🎉](https://rustmagazine.org/issue-1/)
 
 ### Project/Tooling Updates
+* [Release Engineering Is Exhausting So Here's cargo-dist](https://blog.axo.dev/2023/02/cargo-dist)
+* [rust-analyzer changelog #167](https://rust-analyzer.github.io/thisweek/2023/02/06/changelog-167.html)
+* [Glidesort, my stable adaptive quicksort/mergesort hybrid sorting algorithm](https://github.com/orlp/glidesort#readme)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Ostensibly Quiet](https://www.fornjot.app/blog/weekly-release/2023-w06/)
 * [derive-adhoc: "derive by example", an ergonomic replacement for (some) proc macros](https://diziet.dreamwidth.org/14345.html)
 * [Lemmy release 0.17.0 - A link aggregator for the Fediverse](https://join-lemmy.org/news/2023-01-31_-_Lemmy_Release_v0.17.0)
+* [Arti 1.1.1 is released: Groundwork for onion services](https://blog.torproject.org/arti_111_released/)
 * [SeaORM 0.11.0 - 🐚 An async & dynamic ORM for Rust](https://www.sea-ql.org/blog/2023-02-08-whats-new-in-seaorm-0.11.0/)
 
 ### Observations/Thoughts
+* [Async trait send bounds, part 1: intro](https://smallcultfollowing.com/babysteps/blog/2023/02/01/async-trait-send-bounds-part-1-intro/)
 * [Speeding up Rust semver-checking by over 2000x](https://predr.ag/blog/speeding-up-rust-semver-checking-by-over-2000x/)
+* [Announcing Masonry 0.1, and my vision for Rust UI](https://poignardazur.github.io/2023/02/02/masonry-01-and-my-vision-for-rust-ui/)
 * [Rust Is Beyond Object-Oriented, Part 2: Polymorphism](https://www.thecodedmessage.com/posts/oop-2-polymorphism/)
+* [Improving incremental test times in Rust](https://blog.waleedkhan.name/rust-incremental-test-times/)
+* [Using HTML as a compile target](https://blog.yoshuawuyts.com/compiled-html/)
+* [Tauri vs Iced vs egui: Rust GUI framework performance comparison](https://lukaskalbertodt.github.io/2023/02/03/tauri-iced-egui-performance-comparison.html)
+* [Improving Rust compile times to enable adoption of memory safety](https://www.memorysafety.org/blog/remy-rakic-compile-times/)
+* [audio] [Cloudflare with Adam Chalmers](https://rustacean-station.org/episode/adam-chalmers/)
 
 ### Rust Walkthroughs
 * [Building a Rust parser using Pest and PEG](https://blog.logrocket.com/building-rust-parser-pest-peg/)
 * [Rustler - Using Rust crates in Elixir](https://mainmatter.com/blog/2023/02/01/using-rust-crates-in-elixir/)
 * [LifetimeKata: Exercises to learn how to use lifetimes](https://tfpk.github.io/lifetimekata/)
+* [Exploring Rust for Vulkan drivers, part 1](https://www.collabora.com/news-and-blog/blog/2023/02/02/exploring-rust-for-vulkan-drivers-part-1/)
+* [Rustproofing Linux (Part 1/4 Leaking Addresses)](https://research.nccgroup.com/2023/02/06/rustproofing-linux-part-1-4-leaking-addresses/)
+* [STM32F4 Embedded Rust at the PAC: svd2rust](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-svd2rust)
 
 ### Research
 
 ### Miscellaneous
+
+* [My Reaction to Dr. Stroustrup's Recent Memory Safety Comments](https://www.thecodedmessage.com/posts/stroustrup-response/)
+* [This Is the Kind of Rust the Automotive Industry Needs](https://blogs.blackberry.com/en/2023/02/this-is-the-kind-of-rust-the-automotive-industry-needs)
+* [video] [RustyHermit @ FOSDEM 2023: A Rust-Based, Modular Unikernel For MicroVMs](https://fosdem.org/2023/schedule/event/rustunikernel/)
 
 ## Crate of the Week
 
