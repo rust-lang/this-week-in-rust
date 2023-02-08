@@ -35,8 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Ostensibly Quiet](https://www.fornjot.app/blog/weekly-release/2023-w06/)
-
 * [derive-adhoc: "derive by example", an ergonomic replacement for (some) proc macros - 0.1.0 release](https://diziet.dreamwidth.org/14345.html)
+* [Lemmy release 0.17.0 - A link aggregator for the Fediverse](https://join-lemmy.org/news/2023-01-31_-_Lemmy_Release_v0.17.0)
 
 ### Observations/Thoughts
 
