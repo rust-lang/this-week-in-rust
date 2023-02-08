@@ -93,7 +93,6 @@ and just ask the editors to select the category.
 
 * [My Reaction to Dr. Stroustrup's Recent Memory Safety Comments](https://www.thecodedmessage.com/posts/stroustrup-response/)
 * [This Is the Kind of Rust the Automotive Industry Needs](https://blogs.blackberry.com/en/2023/02/this-is-the-kind-of-rust-the-automotive-industry-needs)
-* [video] [RustyHermit @ FOSDEM 2023: A Rust-Based, Modular Unikernel For MicroVMs](https://fosdem.org/2023/schedule/event/rustunikernel/)
 
 ## Crate of the Week
 
