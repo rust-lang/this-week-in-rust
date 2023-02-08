@@ -31,6 +31,27 @@ and just ask the editors to select the category.
 
 ### Foundation
 
+### FOSDEM 2023
+
+* [Building an actor library for Quickwit's indexing pipeline](https://fosdem.org/2023/schedule/event/building_an_actor_library_for_quickwits_indexing_pipeline/)
+* [Building a distributed search engine with tantivy](https://fosdem.org/2023/schedule/event/rust_building_a_distributed_search_engine_with_tantivy/)
+* [Aurae: Distributed Runtime](https://fosdem.org/2023/schedule/event/rust_aurae_a_new_pid_1_for_distributed_systems/)
+* [BastionLab, a Rust open-source privacy framework for confidential data science collaboration](https://fosdem.org/2023/schedule/event/rust_bastionlab/)
+* [Neovim and rust-analyzer are best friends](https://fosdem.org/2023/schedule/event/rust_neovim_and_rust_analyzer_are_best_friends/)
+* [A Rusty CHERI - The path to hardware capabilities in Rust](https://fosdem.org/2023/schedule/event/rust_a_rusty_cheri_the_path_to_hardware_capabilities_in_rust/)
+* [Slint: Are we GUI yet?](https://fosdem.org/2023/schedule/event/rust_slint_are_we_gui_yet/)
+* [Rust API Design Learnings](https://fosdem.org/2023/schedule/event/rust_rust_api_design_learnings/)
+* [A deep dive inside the Rust frontend for GCC](https://fosdem.org/2023/schedule/event/rust_a_deep_dive_inside_the_rust_frontend_for_gcc/)
+* [Merging process of the rust compiler](https://fosdem.org/2023/schedule/event/rust_merging_process_of_the_rust_compiler/)
+* [Let's write Snake game!](https://fosdem.org/2023/schedule/event/rust_lets_write_snake_game/)
+* [Glidesort](https://fosdem.org/2023/schedule/event/rust_glidesort/)
+* [How Pydantic V2 leverages Rust's Superpowers](https://fosdem.org/2023/schedule/event/rust_how_pydantic_v2_leverages_rusts_superpowers/)
+* [Scalable graph algorithms in Rust (and Python)](https://fosdem.org/2023/schedule/event/rust_scalable_graph_algorithms_in_rust_and_python/)
+* [Using Rust for your network management tools!](https://fosdem.org/2023/schedule/event/rust_using_rust_for_your_network_management_tools/)
+* [Backward and forward compatibility for security features](https://fosdem.org/2023/schedule/event/rust_backward_and_forward_compatibility_for_security_features/)
+* [atuin: magical shell history with Rust](https://fosdem.org/2023/schedule/event/rust_atuin_magical_shell_history_with_rust/)
+* [RustyHermit @ FOSDEM 2023: A Rust-Based, Modular Unikernel For MicroVMs](https://fosdem.org/2023/schedule/event/rustunikernel/)
+
 ### Newsletters
 
 ### Project/Tooling Updates
@@ -50,8 +71,6 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-
-* [video] [RustyHermit @ FOSDEM 2023: A Rust-Based, Modular Unikernel For MicroVMs](https://fosdem.org/2023/schedule/event/rustunikernel/)
 
 ## Crate of the Week
 
