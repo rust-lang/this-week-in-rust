@@ -73,6 +73,7 @@ and just ask the editors to select the category.
 * [Speeding up Rust semver-checking by over 2000x](https://predr.ag/blog/speeding-up-rust-semver-checking-by-over-2000x/)
 * [Announcing Masonry 0.1, and my vision for Rust UI](https://poignardazur.github.io/2023/02/02/masonry-01-and-my-vision-for-rust-ui/)
 * [Rust Is Beyond Object-Oriented, Part 2: Polymorphism](https://www.thecodedmessage.com/posts/oop-2-polymorphism/)
+* [video] [Rust Malaysia - The journey to rust from a student](https://www.youtube.com/watch?v=rh1ZJXOuco8&list=PL85XCvVPmGQh3V0Pz-_xFm6VAUTR4aLUw&index=18)
 * [Improving incremental test times in Rust](https://blog.waleedkhan.name/rust-incremental-test-times/)
 * [Using HTML as a compile target](https://blog.yoshuawuyts.com/compiled-html/)
 * [Tauri vs Iced vs egui: Rust GUI framework performance comparison](https://lukaskalbertodt.github.io/2023/02/03/tauri-iced-egui-performance-comparison.html)
