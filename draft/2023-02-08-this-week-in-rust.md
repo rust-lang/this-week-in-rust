@@ -81,7 +81,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Much noise in benchmarks this week, which makes it hard to tell what the real
+improvements were and what they were due to. A query cache change (PR #107667)
+is part of the story. In addition, much improvement was reaped from the change
+to *not* deaggregate MIR (PR #107267). Finally, microoptimizing `fold_ty`
+(PR #107627) yielded a small improvement to a broad set of benchmarks.
+
+Triage done by **@pnkfelix**.
+Revision range: [a64ef7d0..e4dd9edb](https://perf.rust-lang.org/?start=a64ef7d07d0411315be85a646586cb85eeb9c136&end=e4dd9edb76a34ecbca539967f9662b8c0cc9c7fb&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 2.4%  | [0.3%, 18.8%]   | 18    |
+| Regressions ❌ <br /> (secondary)  | 1.8%  | [0.2%, 4.1%]    | 21    |
+| Improvements ✅ <br /> (primary)   | -1.0% | [-3.2%, -0.3%]  | 88    |
+| Improvements ✅ <br /> (secondary) | -4.0% | [-13.1%, -0.1%] | 47    |
+| All ❌✅ (primary)                 | -0.4% | [-3.2%, 18.8%]  | 106   |
+
+
+3 Regressions, 3 Improvements, 8 Mixed; 3 of them in rollups
+41 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-02-07.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
