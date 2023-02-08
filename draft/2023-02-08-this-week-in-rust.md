@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [video] [RustyHermit @ FOSDEM 2023: A Rust-Based, Modular Unikernel For MicroVMs](https://fosdem.org/2023/schedule/event/rustunikernel/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
