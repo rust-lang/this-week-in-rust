@@ -52,7 +52,7 @@ and just ask the editors to select the category.
 * [Using Rust for your network management tools!](https://fosdem.org/2023/schedule/event/rust_using_rust_for_your_network_management_tools/)
 * [Backward and forward compatibility for security features](https://fosdem.org/2023/schedule/event/rust_backward_and_forward_compatibility_for_security_features/)
 * [atuin: magical shell history with Rust](https://fosdem.org/2023/schedule/event/rust_atuin_magical_shell_history_with_rust/)
-* [RustyHermit @ FOSDEM 2023: A Rust-Based, Modular Unikernel For MicroVMs](https://fosdem.org/2023/schedule/event/rustunikernel/)
+* [A Rust-Based, modular Unikernel for MicroVMs](https://fosdem.org/2023/schedule/event/rustunikernel/)
 
 ### Newsletters
 * [This Month in Rust OSDev: January 2023](https://rust-osdev.com/this-month/2023-01/)
