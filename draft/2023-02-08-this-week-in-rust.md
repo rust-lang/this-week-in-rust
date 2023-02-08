@@ -32,6 +32,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The first issue of Rust Magazine has been published 🎉🎉](https://rustmagazine.org/issue-1/)
 
 ### Project/Tooling Updates
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Ostensibly Quiet](https://www.fornjot.app/blog/weekly-release/2023-w06/)
