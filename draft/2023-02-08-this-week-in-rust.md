@@ -34,15 +34,22 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fornjot (code-first CAD in Rust) - Weekly Release - Ostensibly Quiet](https://www.fornjot.app/blog/weekly-release/2023-w06/)
+* [derive-adhoc: "derive by example", an ergonomic replacement for (some) proc macros - 0.1.0 release](https://diziet.dreamwidth.org/14345.html)
 * [Lemmy release 0.17.0 - A link aggregator for the Fediverse](https://join-lemmy.org/news/2023-01-31_-_Lemmy_Release_v0.17.0)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [Building a Rust parser using Pest and PEG](https://blog.logrocket.com/building-rust-parser-pest-peg/)
+
+[Rustler - Using Rust crates in Elixir](https://mainmatter.com/blog/2023/02/01/using-rust-crates-in-elixir/)
 
 ### Research
 
 ### Miscellaneous
+
+* [video] [RustyHermit @ FOSDEM 2023: A Rust-Based, Modular Unikernel For MicroVMs](https://fosdem.org/2023/schedule/event/rustunikernel/)
 
 ## Crate of the Week
 
