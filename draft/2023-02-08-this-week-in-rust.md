@@ -58,8 +58,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Ockam - Allow 'ockam tcp-connection list' to run without any arguments](https://github.com/build-trust/ockam/issues/4178)
+* [Ockam - 'ockam tcp-connection create' should return the tcp-connection ID](https://github.com/build-trust/ockam/issues/4177)
+* [Ockam - 'ockam node stop' should output a message when exiting successfully](https://github.com/build-trust/ockam/issues/4175)
+* [comprehensive-rust - We now support translations!](https://github.com/google/comprehensive-rust/issues/282)
+* [comprehensive-rust - Extract text more carefully in mdbook-xgettext](https://github.com/google/comprehensive-rust/issues/282)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
