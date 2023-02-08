@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 * [Lemmy release 0.17.0 - A link aggregator for the Fediverse](https://join-lemmy.org/news/2023-01-31_-_Lemmy_Release_v0.17.0)
 
 ### Observations/Thoughts
+* [Speeding up Rust semver-checking by over 2000x](https://predr.ag/blog/speeding-up-rust-semver-checking-by-over-2000x/)
 
 * [Rust Is Beyond Object-Oriented, Part 2: Polymorphism](https://www.thecodedmessage.com/posts/oop-2-polymorphism/)
 
