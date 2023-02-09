@@ -13,7 +13,6 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
 ## Updates from Rust Community
-
 <!--
 
 Dear community contributors:
@@ -34,25 +33,24 @@ and just ask the editors to select the category.
 * [Member Spotlight: AdaCore](https://foundation.rust-lang.org/news/member-spotlight-adacore/)
 
 ### FOSDEM 2023
-
-* [Building an actor library for Quickwit's indexing pipeline](https://fosdem.org/2023/schedule/event/building_an_actor_library_for_quickwits_indexing_pipeline/)
-* [Building a distributed search engine with tantivy](https://fosdem.org/2023/schedule/event/rust_building_a_distributed_search_engine_with_tantivy/)
-* [Aurae: Distributed Runtime](https://fosdem.org/2023/schedule/event/rust_aurae_a_new_pid_1_for_distributed_systems/)
-* [BastionLab, a Rust open-source privacy framework for confidential data science collaboration](https://fosdem.org/2023/schedule/event/rust_bastionlab/)
-* [Neovim and rust-analyzer are best friends](https://fosdem.org/2023/schedule/event/rust_neovim_and_rust_analyzer_are_best_friends/)
-* [A Rusty CHERI - The path to hardware capabilities in Rust](https://fosdem.org/2023/schedule/event/rust_a_rusty_cheri_the_path_to_hardware_capabilities_in_rust/)
-* [Slint: Are we GUI yet?](https://fosdem.org/2023/schedule/event/rust_slint_are_we_gui_yet/)
-* [Rust API Design Learnings](https://fosdem.org/2023/schedule/event/rust_rust_api_design_learnings/)
-* [A deep dive inside the Rust frontend for GCC](https://fosdem.org/2023/schedule/event/rust_a_deep_dive_inside_the_rust_frontend_for_gcc/)
-* [Merging process of the rust compiler](https://fosdem.org/2023/schedule/event/rust_merging_process_of_the_rust_compiler/)
-* [Let's write Snake game!](https://fosdem.org/2023/schedule/event/rust_lets_write_snake_game/)
-* [Glidesort](https://fosdem.org/2023/schedule/event/rust_glidesort/)
-* [How Pydantic V2 leverages Rust's Superpowers](https://fosdem.org/2023/schedule/event/rust_how_pydantic_v2_leverages_rusts_superpowers/)
-* [Scalable graph algorithms in Rust (and Python)](https://fosdem.org/2023/schedule/event/rust_scalable_graph_algorithms_in_rust_and_python/)
-* [Using Rust for your network management tools!](https://fosdem.org/2023/schedule/event/rust_using_rust_for_your_network_management_tools/)
-* [Backward and forward compatibility for security features](https://fosdem.org/2023/schedule/event/rust_backward_and_forward_compatibility_for_security_features/)
-* [atuin: magical shell history with Rust](https://fosdem.org/2023/schedule/event/rust_atuin_magical_shell_history_with_rust/)
-* [A Rust-Based, modular Unikernel for MicroVMs](https://fosdem.org/2023/schedule/event/rustunikernel/)
+* [video] [Building an actor library for Quickwit's indexing pipeline](https://fosdem.org/2023/schedule/event/building_an_actor_library_for_quickwits_indexing_pipeline/)
+* [video] [Building a distributed search engine with tantivy](https://fosdem.org/2023/schedule/event/rust_building_a_distributed_search_engine_with_tantivy/)
+* [video] [Aurae: Distributed Runtime](https://fosdem.org/2023/schedule/event/rust_aurae_a_new_pid_1_for_distributed_systems/)
+* [video] [BastionLab, a Rust open-source privacy framework for confidential data science collaboration](https://fosdem.org/2023/schedule/event/rust_bastionlab/)
+* [video] [Neovim and rust-analyzer are best friends](https://fosdem.org/2023/schedule/event/rust_neovim_and_rust_analyzer_are_best_friends/)
+* [video] [A Rusty CHERI - The path to hardware capabilities in Rust](https://fosdem.org/2023/schedule/event/rust_a_rusty_cheri_the_path_to_hardware_capabilities_in_rust/)
+* [video] [Slint: Are we GUI yet?](https://fosdem.org/2023/schedule/event/rust_slint_are_we_gui_yet/)
+* [video] [Rust API Design Learnings](https://fosdem.org/2023/schedule/event/rust_rust_api_design_learnings/)
+* [video] [A deep dive inside the Rust frontend for GCC](https://fosdem.org/2023/schedule/event/rust_a_deep_dive_inside_the_rust_frontend_for_gcc/)
+* [video] [Merging process of the rust compiler](https://fosdem.org/2023/schedule/event/rust_merging_process_of_the_rust_compiler/)
+* [video] [Let's write Snake game!](https://fosdem.org/2023/schedule/event/rust_lets_write_snake_game/)
+* [video] [Glidesort](https://fosdem.org/2023/schedule/event/rust_glidesort/)
+* [video] [How Pydantic V2 leverages Rust's Superpowers](https://fosdem.org/2023/schedule/event/rust_how_pydantic_v2_leverages_rusts_superpowers/)
+* [video] [Scalable graph algorithms in Rust (and Python)](https://fosdem.org/2023/schedule/event/rust_scalable_graph_algorithms_in_rust_and_python/)
+* [video] [Using Rust for your network management tools!](https://fosdem.org/2023/schedule/event/rust_using_rust_for_your_network_management_tools/)
+* [video] [Backward and forward compatibility for security features](https://fosdem.org/2023/schedule/event/rust_backward_and_forward_compatibility_for_security_features/)
+* [video] [atuin: magical shell history with Rust](https://fosdem.org/2023/schedule/event/rust_atuin_magical_shell_history_with_rust/)
+* [video] [A Rust-Based, modular Unikernel for MicroVMs](https://fosdem.org/2023/schedule/event/rustunikernel/)
 
 ### Newsletters
 * [This Month in Rust OSDev: January 2023](https://rust-osdev.com/this-month/2023-01/)
@@ -88,10 +86,7 @@ and just ask the editors to select the category.
 * [Rustproofing Linux (Part 1/4 Leaking Addresses)](https://research.nccgroup.com/2023/02/06/rustproofing-linux-part-1-4-leaking-addresses/)
 * [STM32F4 Embedded Rust at the PAC: svd2rust](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-svd2rust)
 
-### Research
-
 ### Miscellaneous
-
 * [My Reaction to Dr. Stroustrup's Recent Memory Safety Comments](https://www.thecodedmessage.com/posts/stroustrup-response/)
 * [This Is the Kind of Rust the Automotive Industry Needs](https://blogs.blackberry.com/en/2023/02/this-is-the-kind-of-rust-the-automotive-industry-needs)
 
@@ -112,7 +107,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [Ockam - Allow 'ockam tcp-connection list' to run without any arguments](https://github.com/build-trust/ockam/issues/4178)
+* [this-week-in-rust - Make dark mode more accessible](https://github.com/rust-lang/this-week-in-rust/issues/4031?)
 * [Ockam - 'ockam tcp-connection create' should return the tcp-connection ID](https://github.com/build-trust/ockam/issues/4177)
 * [Ockam - 'ockam node stop' should output a message when exiting successfully](https://github.com/build-trust/ockam/issues/4175)
 * [comprehensive-rust - We now support translations!](https://github.com/google/comprehensive-rust/issues/282)
@@ -399,7 +394,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/10nmtew/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -415,4 +410,4 @@ Thanks to [scottmcm](https://users.rust-lang.org/t/twir-quote-of-the-week/328/13
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/10xiw1a/this_week_in_rust_481/)</small>
