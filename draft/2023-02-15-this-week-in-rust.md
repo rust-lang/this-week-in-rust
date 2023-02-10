@@ -39,9 +39,13 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+[video] [Build and deploy a Wasm smart contract with Rust-based language](https://www.youtube.com/watch?v=YnmBotet6_M)
+
 ### Research
 
 ### Miscellaneous
+
+Astar Network has three challenges to [build a project with Rust](https://www.polkadotglobalseries.com/).
 
 ## Crate of the Week
 
