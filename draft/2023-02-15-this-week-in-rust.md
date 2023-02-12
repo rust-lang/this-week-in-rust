@@ -210,6 +210,8 @@ Rusty Events between 2023-02-15 - 2023-03-15 🦀
     * [**Rust Meetup Revived with an Exciting Exploration of Ownership!**](https://www.meetup.com/rust-vienna/events/291465732/)
 * 2023-02-28 | Munich, DE + Virtual | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich 2023 / 1 - hybrid**](https://www.meetup.com/rust-munich/events/291437669/)
+* 2023-03-09 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/)
+    * [**Rust Meetup #7**](https://www.meetup.com/rust-basel/events/291228934/)
 
 ### North America
 
