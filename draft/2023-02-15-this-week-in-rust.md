@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [TrustZone, trials and tribulations](https://tweedegolf.nl/en/blog/85/trustzone-trials-tribulations)
 
 ### Rust Walkthroughs
 
