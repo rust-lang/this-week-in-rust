@@ -183,6 +183,8 @@ Rusty Events between 2023-02-15 - 2023-03-15 🦀
 
 * 2023-02-14 | Tokyo, JP | [Tokyo Rust Meetup](https://www.meetup.com/tokyo-rust-meetup)
     * [**Crafting Command Line Tools With Rust**](https://www.meetup.com/tokyo-rust-meetup/events/291349232/)
+* 2023-03-04 | Kyoto, JP | [Kansai Rust](https://www.meetup.com/kansai-rust/)
+    * [**Fn vs FnMut vs FnOnce**](https://www.meetup.com/kansai-rust/events/291614614/)
 * 2023-02-20 | Tel Aviv, IL | [Rust TLV](https://www.meetup.com/rust-tlv/)
     * [**February Edition - Redis and BioCatch talking Rust!**](https://www.meetup.com/rust-tlv/events/291182881/)
 
