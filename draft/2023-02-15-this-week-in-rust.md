@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Nutype - the newtype with gurantees](https://github.com/greyblake/nutype)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
