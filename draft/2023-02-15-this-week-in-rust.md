@@ -71,7 +71,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Overall a good week for performance with 77 real world crates benchmarks showing an average of nearly 1% performance improvement. Unfortunately, the largest regressions are not yet fully understood and require additional investigation. Of particular interest were some large improvements in doc builds due to storing additional metadata. However, this change might cause some crates to compile slightly slower in incremental check builds, but this is still being investigated.
+
+Triage done by **@rylev**.
+Revision range: [e4dd9edb..9bb6e60](https://perf.rust-lang.org/?start=e4dd9edb76a34ecbca539967f9662b8c0cc9c7fb&end=9bb6e60d1f1360234aae90c97964c0fa5524f141&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.4%  | [0.4%, 11.0%]  | 13    |
+| Regressions ❌ <br /> (secondary)  | 0.8%  | [0.2%, 1.6%]   | 4     |
+| Improvements ✅ <br /> (primary)   | -1.4% | [-7.9%, -0.3%] | 64    |
+| Improvements ✅ <br /> (secondary) | -2.1% | [-5.6%, -0.3%] | 73    |
+| All ❌✅ (primary)                 | -0.9% | [-7.9%, 11.0%] | 77    |
+
+
+3 Regressions, 4 Improvements, 9 Mixed; 4 of them in rollups
+46 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-02-14.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
