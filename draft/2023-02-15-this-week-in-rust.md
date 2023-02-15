@@ -32,18 +32,34 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Rust Nigeria #14](https://rustnigeria.curated.co/issues/14#start)
 
 ### Project/Tooling Updates
+* [New release – gtk-rs](https://gtk-rs.org/blog/2023/02/10/new-release.html)
+* [rust-analyzer changelog #168](https://rust-analyzer.github.io/thisweek/2023/02/13/changelog-168.html)
+* [IntelliJ Rust Changelog #188](https://intellij-rust.github.io/2023/02/13/changelog-188.html)
+* [Meilisearch releases v1.0, the first completely stable version of its open-source search engine](https://github.com/meilisearch/meilisearch/releases/tag/v1.0.0/)
 
 ### Observations/Thoughts
+* [How Rust went from a side project to the world’s most-loved programming language](https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/)
+* [The bottom emoji breaks rust-analyzer](https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer)
+* [Rust to WebAssembly the hard way](https://surma.dev/things/rust-to-webassembly/index.html)
+* [From Erlang to Lunatic](https://mattpo.pe/posts/from-erlang-to-lunatic/)
+* [STM32F4 Embedded Rust at the PAC: GPIO Control](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-gpio-control)
+* [A Case for Rust in Deep Learning](https://burn-rs.github.io/blog/a-case-for-rust-in-deep-learning)
 
 ### Rust Walkthroughs
-
 * [video] [Build and deploy a Wasm smart contract with Rust-based language](https://www.youtube.com/watch?v=YnmBotet6_M)
+* [video] [Write better parsers with nom_supreme](https://www.youtube.com/watch?v=Ph7xHhBfH0w)
 
 ### Research
 
 ### Miscellaneous
+* [video] [From cargo to crates.io and back again](https://www.youtube.com/watch?v=zGS-HqcAvA4)
+* [video] [Functional correctness with refinement types for Rust](https://m.youtube.com/live/_qUcEOQJByU?feature=share)
+* [audio] [Rust ABI with Aurimas Blažulionis](https://rustacean-station.org/episode/aurimas-blazulionis/)
+* [audio] [What's New in Rust 1.65, 1.66, and 1.67](https://rustacean-station.org/episode/rust-1.65-1.66-1.67/)
+* [audio] [Open Source Security Podcast: A lesson in Rust from Carol Nichols](https://opensourcesecuritypodcast.libsyn.com/episode-362-a-lesson-in-rust-from-carol-nichols)
 
 ## Crate of the Week
 
@@ -60,8 +76,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [warp - [Windows] locale and installer](https://gitlab.gnome.org/World/warp/-/issues/39)
+* [man-in-the-middle-proxy - custom certificate](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/5)
+* [man-in-the-middle-proxy - Filter request by method](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/6)
+* [man-in-the-middle-proxy - Request duplication](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/7)
+* [man-in-the-middle-proxy - Delete single request](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/8)
+* [man-in-the-middle-proxy - modify request with custom fields and headers](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/9)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -73,16 +93,33 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Overall a good week for performance with 77 real world crates benchmarks showing an average of nearly 1% performance improvement. Unfortunately, the largest regressions are not yet fully understood and require additional investigation. Of particular interest were some large improvements in doc builds due to storing additional metadata. However, this change might cause some crates to compile slightly slower in incremental check builds, but this is still being investigated.
+
+Triage done by **@rylev**.
+Revision range: [e4dd9edb..9bb6e60](https://perf.rust-lang.org/?start=e4dd9edb76a34ecbca539967f9662b8c0cc9c7fb&end=9bb6e60d1f1360234aae90c97964c0fa5524f141&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.4%  | [0.4%, 11.0%]  | 13    |
+| Regressions ❌ <br /> (secondary)  | 0.8%  | [0.2%, 1.6%]   | 4     |
+| Improvements ✅ <br /> (primary)   | -1.4% | [-7.9%, -0.3%] | 64    |
+| Improvements ✅ <br /> (secondary) | -2.1% | [-5.6%, -0.3%] | 73    |
+| All ❌✅ (primary)                 | -0.9% | [-7.9%, 11.0%] | 77    |
+
+
+3 Regressions, 4 Improvements, 9 Mixed; 4 of them in rollups
+46 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-02-14.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -91,34 +128,23 @@ which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* *No RFCs entered Final Comment Period this week.*
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [Drop support for FreeBSD 10 and 11 from std](https://github.com/rust-lang/rust/issues/89058)
+* [disposition: merge] [Stabilize cmpxchg16b_target_feature](https://github.com/rust-lang/rust/pull/106774)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+* *No New or Updated RFCs were created this week.*
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+* *No RFCs issued a call for testing this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -130,24 +156,6 @@ Rusty Events between 2023-02-15 - 2023-03-15 🦀
 
 ### Virtual
 
-* 2023-02-08 | Virtual (Boulder, CO, US) | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/) 
-    * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsryfcdblb/)
-* 2023-02-08 | Virtual (Redmond, WA, US; New York, NY, US; San Francisco, CA, US) | [Microsoft Reactor Redmond](https://www.meetup.com/microsoft-reactor-redmond/) and [Microsoft Rector New York](https://www.meetup.com/microsoft-reactor-new-york/) and [Microsoft Reactor San Francisco](https://www.meetup.com/microsoft-reactor-san-francisco/)
-    * [**Primeros pasos con Rust: QA y horas de comunidad**](https://www.meetup.com/microsoft-reactor-redmond/events/290224584/) | [**New York Mirror**](https://www.meetup.com/microsoft-reactor-new-york/events/290224583/) | [**San Francisco Mirror**](https://www.meetup.com/microsoft-reactor-san-francisco/events/290224585/)
-* 2023-02-09 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
-    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/hlvbvsyfcdbmb/)
-* 2023-02-11 | Virtual | [Rust GameDev](https://discord.gg/yNtPTb2)
-    * [**Rust GameDev Monthly Meetup**](https://discord.gg/yNtPTb2)
-* 2023-02-13 | Virtual (Redmond, WA, US; New York, NY, US; San Francisco, CA, US) | [Microsoft Reactor Redmond](https://www.meetup.com/microsoft-reactor-redmond/) and [Microsoft Rector New York](https://www.meetup.com/microsoft-reactor-new-york/) and [Microsoft Reactor San Francisco](https://www.meetup.com/microsoft-reactor-san-francisco/)
-    * [**Primeros pasos con Rust - Escritura de pruebas automatizadas**](https://www.meetup.com/microsoft-reactor-redmond/events/290224610/) | [**New York Mirror**](https://www.meetup.com/microsoft-reactor-new-york/events/290224608/) | [**San Francisco Mirror**](https://www.meetup.com/microsoft-reactor-san-francisco/events/290224609/)
-* 2023-02-14 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
-    * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/zdrzpsyfcdbsb/)
-* 2023-02-14 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/Dallas-Rust/)
-    * [**Second Tuesday**](https://www.meetup.com/dallas-rust/events/vndgwsyfcdbsb/)
-* 2023-02-14 | Virtual (Redmond, WA, US; New York, NY, US; San Francisco, CA, US) | [Microsoft Reactor Redmond](https://www.meetup.com/microsoft-reactor-redmond/) and [Microsoft Rector New York](https://www.meetup.com/microsoft-reactor-new-york/) and [Microsoft Reactor San Francisco](https://www.meetup.com/microsoft-reactor-san-francisco/)
-    * [**Primeros pasos con Rust - Creamos un programa de ToDos en la línea de comandos**](https://www.meetup.com/microsoft-reactor-redmond/events/290224616/) | [**San Francisco Mirror**](https://www.meetup.com/microsoft-reactor-san-francisco/events/290224613/) | [**New York Mirror**](https://www.meetup.com/microsoft-reactor-new-york/events/290224617/)
-* 2023-02-14 | Virtual (Saarbrücken, DE) | [Rust-Saar](https://www.meetup.com/rust-saar/)
-    * [**Meetup: 26u16**](https://www.meetup.com/rust-saar/events/290040138/)
 * 2023-02-15 | Virtual | [MongoDB](https://www.mongodb.com/)
     * [**Write a Microservice With Rust and MongoDB**](https://www.mongodb.com/webinar/write-a-microservice-with-rust-and-mongodb)
 * 2023-02-15 | Virtual (Redmond, WA, US; New York, NY, US; San Francisco, CA, US; São Paulo, BR) | [Microsoft Reactor Redmond](https://www.meetup.com/microsoft-reactor-redmond/) and [Microsoft Rector New York](https://www.meetup.com/microsoft-reactor-new-york/) and [Microsoft Reactor San Francisco](https://www.meetup.com/microsoft-reactor-san-francisco/) and [Microsoft Reactor São Paulo](https://www.meetup.com/microsoft-reactor-sao-paulo)
@@ -164,6 +172,8 @@ Rusty Events between 2023-02-15 - 2023-03-15 🦀
     * [**Eine Einführung in Rust (Stefan Baumgartner)**](https://www.meetup.com/java-user-group-hessen-jugh/events/290346591/)
 * 2023-02-23 | Virtual (México City, MX) | [Rust MX](https://www.meetup.com/rust-mx/)
     * [**Rust: ¿por qué es una opción adecuada para implantar Blockchain?**](https://www.meetup.com/rust-mx/events/291456677/)
+* 2023-02-24 | Virtual (Tunis, TN) | [Rust Meetup Tunisia](https://www.meetup.com/rust-tunisia/)
+    * [**Rust Meetup Tunisia - Volume I, Number II**](https://www.meetup.com/rust-tunisia/events/291534817/)
 * 2023-02-28 | Virtual (Berlin, DE) | [Open Tech School Berlin](https://www.meetup.com/opentechschool-berlin/)
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/290852327/)
 * 2023-02-28 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff)
@@ -180,24 +190,26 @@ Rusty Events between 2023-02-15 - 2023-03-15 🦀
     * [**First Tuesdays**](https://www.meetup.com/buffalo-rust-meetup/events/lsjbbtyfcfbkb/)
 * 2023-03-08 | Virtual (Boulder, CO, US) | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/) 
     * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsryfcfblb/)
+* 2023-03-11 | Virtual | [Rust GameDev](https://discord.gg/yNtPTb2)
+    * [**Rust GameDev Monthly Meetup**](https://discord.gg/yNtPTb2)
+* 2023-03-14 | Virtual (Berlin, DE) | [Berlin.rs](https://berline.rs/)
+    * [**Rust Hack and Learn**](https://berline.rs/2023/03/14/rust-hack-and-learn.html)
+* 2023-03-15 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff)
+    * [**Injecting Rust Hooks into a 1999 game binary (unsafe)**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/291354288/)
 
 ### Asia
 
-* 2023-02-14 | Tokyo, JP | [Tokyo Rust Meetup](https://www.meetup.com/tokyo-rust-meetup)
-    * [**Crafting Command Line Tools With Rust**](https://www.meetup.com/tokyo-rust-meetup/events/291349232/)
 * 2023-02-20 | Tel Aviv, IL | [Rust TLV](https://www.meetup.com/rust-tlv/)
     * [**February Edition - Redis and BioCatch talking Rust!**](https://www.meetup.com/rust-tlv/events/291182881/)
+* 2023-03-04 | Kyoto, JP | [Kansai Rust](https://www.meetup.com/kansai-rust/)
+    * [**Fn vs FnMut vs FnOnce**](https://www.meetup.com/kansai-rust/events/291614614/)
 
 ### Europe
 
-* 2023-02-09 | Lille, FR | [Rust Lille](https://www.meetup.com/meetup-group-zgphbyet)
-    * [**Rust Lille #2**](https://www.meetup.com/meetup-group-zgphbyet/events/291046592/)
 * 2023-02-15 | London, UK | [Rust London User Group](https://www.meetup.com/rust-london-user-group/)
     * [**Rust Nation Pre-Conference Reception with The Rust Foundation**](https://www.meetup.com/rust-london-user-group/events/290903823/)
 * 2023-02-15 | Trondheim, NO | [Rust Trondheim](https://www.meetup.com/rust-trondheim)
     * [**Rust New Year's Resolution Bug Hunt**](https://www.meetup.com/rust-trondheim/events/290889889/)
-* 2023-02-16 | Bordeaux, FR | [DedoTalk](https://www.meetup.com/dedotalk/)
-    * [**#1 DedoTalk 🎙️ : Rust pour un développeur Python**](https://www.meetup.com/dedotalk/events/291199962/)
 * 2023-02-16, 2023-02-17 | London, UK | [Rust Nation UK](https://www.rustnationuk.com/)
     * [**Rust Nation '23**](https://www.rustnationuk.com/)
 * 2023-02-18 | London, UK | [Rust London User Group](https://www.meetup.com/rust-london-user-group/)
@@ -206,25 +218,35 @@ Rusty Events between 2023-02-15 - 2023-03-15 🦀
     * [**Rust Paris meetup #56**](https://www.meetup.com/rust-paris/events/291334081/)
 * 2023-02-21 | Zurich, CH | [Rust Zurich](https://www.meetup.com/rust-zurich/)
     * [**Practical Cryptography - February Meetup (Registration opens 7 Feb 2023)**](https://www.meetup.com/de-DE/rust-zurich/events/290915075/)
+* 2023-02-23 | Bordeaux, FR | [DedoTalk](https://www.meetup.com/dedotalk/)
+    * [**#1 DedoTalk 🎙️ : Rust pour un développeur Python**](https://www.meetup.com/dedotalk/events/291199962/)
 * 2023-02-23 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community)
     * [**Rust metup #33**](https://www.meetup.com/copenhagen-rust-community/events/291288154/)
 * 2023-02-23 | Vienna, AT | [Rust Vienna](https://www.meetup.com/rust-vienna)
     * [**Rust Meetup Revived with an Exciting Exploration of Ownership!**](https://www.meetup.com/rust-vienna/events/291465732/)
 * 2023-02-28 | Munich, DE + Virtual | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich 2023 / 1 - hybrid**](https://www.meetup.com/rust-munich/events/291437669/)
+* 2023-02-28 | Nijmegen, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
+    * [**Regular track: Rust at RU**](https://www.meetup.com/rust-nederland/events/291489123/)
+    * [**Student track: Rust at RU**](https://www.meetup.com/rust-nederland/events/291488539/)
+* 2023-03-09 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/)
+    * [**Rust Meetup #7**](https://www.meetup.com/rust-basel/events/291228934/)
+* 2023-03-09 | Nijmegen, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
+    * [**Regular track: Embedded Rust**](https://www.meetup.com/rust-nederland/events/291401965/)
+    * [**Student track: Embedded Rust**](https://www.meetup.com/rust-nederland/events/291401778/)
+* 2023-03-15 | Nürnberg, DE | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
+    * [**Walk around Embedded World Exhibition**](https://www.meetup.com/rust-noris/events/291623203/)
 
 ### North America
 
-* 2023-02-09 | Mountain View, CA, US | [Mountain View Rust Study Group](https://www.meetup.com/rust-study-group/)
-    * [**Rust Study Group at Hacker Dojo**](https://www.meetup.com/rust-study-group/events/291190532/)
-* 2023-02-09 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/)
-    * [**A Night of Interop: Rust in React Native & Rust in Golang (two talks)**](https://www.meetup.com/rust-nyc/events/291239545/)
-* 2023-02-13 | Minneapolis, MN, US | [Minneapolis Rust Meetup](https://www.meetup.com/minneapolis-rust-meetup/)
-    * [**Happy Hour and Beginner Embedded Rust Hacking Session (#3!)**](https://www.meetup.com/minneapolis-rust-meetup/events/291299604/)
 * 2023-02-21 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/rwvwzsyfcdbcc/)
-* 2023-02-23 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
-    * [**Upcoming Event**](https://www.meetup.com/utah-rust/events/dsbpxsyfcdbfc/)
+* 2023-02-23 | Mountain View, CA, US | [Mountain View Rust Study Group](https://www.meetup.com/rust-study-group/)
+    * [**Rust Study Group at Hacker Dojo**](https://www.meetup.com/rust-study-group/events/291623636/)
+* 2023-03-01 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/)
+    * [**Rust Lunch**](https://www.meetup.com/rust-atx/events/291619816/)
+* 2023-03-09 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
+    * [**Upcoming Event**](https://www.meetup.com/utah-rust/events/rrwbctyfcfbmb/)
 
 ### Oceania
 
