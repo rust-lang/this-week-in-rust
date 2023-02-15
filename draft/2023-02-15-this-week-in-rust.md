@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 * [STM32F4 Embedded Rust at the PAC: GPIO Control](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-gpio-control)
 * [A Case for Rust in Deep Learning](https://burn-rs.github.io/blog/a-case-for-rust-in-deep-learning)
 
+- [video] [Rust Releases! 1.67.0 & 1.67.1](https://www.youtube.com/watch?v=-UEyf1li1A4)
+
 ### Rust Walkthroughs
 
 * [Write better parsers with nom_supreme](https://www.youtube.com/watch?v=Ph7xHhBfH0w)
