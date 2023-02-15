@@ -47,8 +47,8 @@ and just ask the editors to select the category.
 * [From Erlang to Lunatic](https://mattpo.pe/posts/from-erlang-to-lunatic/)
 * [STM32F4 Embedded Rust at the PAC: GPIO Control](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-gpio-control)
 * [A Case for Rust in Deep Learning](https://burn-rs.github.io/blog/a-case-for-rust-in-deep-learning)
-
-- [video] [Rust Releases! 1.67.0 & 1.67.1](https://www.youtube.com/watch?v=-UEyf1li1A4)
+* [TrustZone, trials and tribulations](https://tweedegolf.nl/en/blog/85/trustzone-trials-tribulations)
+* [video] [Rust Releases! 1.67.0 & 1.67.1](https://www.youtube.com/watch?v=-UEyf1li1A4)
 
 ### Rust Walkthroughs
 * [video] [Build and deploy a Wasm smart contract with Rust-based language](https://www.youtube.com/watch?v=YnmBotet6_M)
