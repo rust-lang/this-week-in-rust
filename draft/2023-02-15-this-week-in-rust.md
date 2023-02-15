@@ -27,10 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 * [Rust Nigeria #14](https://rustnigeria.curated.co/issues/14#start)
 
@@ -42,7 +38,6 @@ and just ask the editors to select the category.
 * [Meilisearch releases v1.0, the first completely stable version of its open-source search engine](https://github.com/meilisearch/meilisearch/releases/tag/v1.0.0/)
 * [Zenoh-Flow a Rust-based data-flow programming framework build on Zenoh](https://zenoh.io/blog/2023-02-10-zenoh-flow/)
 * [Nutype - the newtype with gurantees](https://github.com/greyblake/nutype)
-
 * [pavex, a new Rust web framework - Progress report #1](https://www.lpalmieri.com/posts/pavex-progress-report-01/)
 
 ### Observations/Thoughts
@@ -351,7 +346,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/10nmtew/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
