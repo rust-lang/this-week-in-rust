@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 * [Zenoh-Flow a Rust-based data-flow programming framework build on Zenoh](https://zenoh.io/blog/2023-02-10-zenoh-flow/)
 * [Nutype - the newtype with gurantees](https://github.com/greyblake/nutype)
 
+* [pavex, a new Rust web framework - Progress report #1](https://www.lpalmieri.com/posts/pavex-progress-report-01/)
+
 ### Observations/Thoughts
 * [How Rust went from a side project to the world’s most-loved programming language](https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/)
 * [The bottom emoji breaks rust-analyzer](https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer)
