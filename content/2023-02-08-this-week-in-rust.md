@@ -111,7 +111,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Ockam - 'ockam tcp-connection create' should return the tcp-connection ID](https://github.com/build-trust/ockam/issues/4177)
 * [Ockam - 'ockam node stop' should output a message when exiting successfully](https://github.com/build-trust/ockam/issues/4175)
 * [comprehensive-rust - We now support translations!](https://github.com/google/comprehensive-rust/issues/282)
-* [comprehensive-rust - Extract text more carefully in mdbook-xgettext](https://github.com/google/comprehensive-rust/issues/282)
+* [comprehensive-rust - Extract text more carefully in mdbook-xgettext](https://github.com/google/comprehensive-rust/issues/318)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
