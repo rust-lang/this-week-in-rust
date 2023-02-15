@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Write better parsers with nom_supreme](https://www.youtube.com/watch?v=Ph7xHhBfH0w)
+
 ### Research
 
 ### Miscellaneous
