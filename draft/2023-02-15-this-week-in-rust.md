@@ -58,8 +58,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [warp - [Windows] locale and installer](https://gitlab.gnome.org/World/warp/-/issues/39)
+* [man-in-the-middle-proxy - custom certificate](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/5)
+* [man-in-the-middle-proxy - Filter request by method](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/6)
+* [man-in-the-middle-proxy - Request duplication](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/7)
+* [man-in-the-middle-proxy - Delete single request](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/8)
+* [man-in-the-middle-proxy - modify request with custom fields and headers](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/9)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
