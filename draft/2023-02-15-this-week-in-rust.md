@@ -51,8 +51,8 @@ and just ask the editors to select the category.
 - [video] [Rust Releases! 1.67.0 & 1.67.1](https://www.youtube.com/watch?v=-UEyf1li1A4)
 
 ### Rust Walkthroughs
-
-* [Write better parsers with nom_supreme](https://www.youtube.com/watch?v=Ph7xHhBfH0w)
+* [video] [Build and deploy a Wasm smart contract with Rust-based language](https://www.youtube.com/watch?v=YnmBotet6_M)
+* [video] [Write better parsers with nom_supreme](https://www.youtube.com/watch?v=Ph7xHhBfH0w)
 
 ### Research
 
