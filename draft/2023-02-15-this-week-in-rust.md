@@ -34,7 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [Zenoh-Flow a Rust-based data-flow programming framework build on Zenoh is now available along with sample data-flows for robotics and autonous driving.](https://zenoh.io/blog/2023-02-10-zenoh-flow/)
+* [Zenoh-Flow a Rust-based data-flow programming framework build on Zenoh](https://zenoh.io/blog/2023-02-10-zenoh-flow/)
 
 ### Observations/Thoughts
 
