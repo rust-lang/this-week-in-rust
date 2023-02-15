@@ -32,16 +32,31 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Rust Nigeria #14](https://rustnigeria.curated.co/issues/14#start)
 
 ### Project/Tooling Updates
+* [New release – gtk-rs](https://gtk-rs.org/blog/2023/02/10/new-release.html)
+* [rust-analyzer changelog #168](https://rust-analyzer.github.io/thisweek/2023/02/13/changelog-168.html)
+* [IntelliJ Rust Changelog #188](https://intellij-rust.github.io/2023/02/13/changelog-188.html)
 
 ### Observations/Thoughts
+* [How Rust went from a side project to the world’s most-loved programming language](https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/)
+* [The bottom emoji breaks rust-analyzer](https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer)
+* [Rust to WebAssembly the hard way](https://surma.dev/things/rust-to-webassembly/index.html)
+* [From Erlang to Lunatic](https://mattpo.pe/posts/from-erlang-to-lunatic/)
+* [STM32F4 Embedded Rust at the PAC: GPIO Control](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-gpio-control)
+* [A Case for Rust in Deep Learning](https://burn-rs.github.io/blog/a-case-for-rust-in-deep-learning)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [video] [From cargo to crates.io and back again](https://www.youtube.com/watch?v=zGS-HqcAvA4)
+* [video] [Functional correctness with refinement types for Rust](https://m.youtube.com/live/_qUcEOQJByU?feature=share)
+* [audio] [Rust ABI with Aurimas Blažulionis](https://rustacean-station.org/episode/aurimas-blazulionis/)
+* [audio] [What's New in Rust 1.65, 1.66, and 1.67](https://rustacean-station.org/episode/rust-1.65-1.66-1.67/)
+* [audio] [Open Source Security Podcast: A lesson in Rust from Carol Nichols](https://opensourcesecuritypodcast.libsyn.com/episode-362-a-lesson-in-rust-from-carol-nichols)
 
 ## Crate of the Week
 
