@@ -56,7 +56,6 @@ and just ask the editors to select the category.
 * [video] [Functional correctness with refinement types for Rust](https://m.youtube.com/live/_qUcEOQJByU?feature=share)
 * [audio] [Rust ABI with Aurimas Blažulionis](https://rustacean-station.org/episode/aurimas-blazulionis/)
 * [audio] [What's New in Rust 1.65, 1.66, and 1.67](https://rustacean-station.org/episode/rust-1.65-1.66-1.67/)
-* [audio] [Rust ABI with Aurimas Blažulionis](https://rustacean-station.org/episode/aurimas-blazulionis/)
 * [audio] [Open Source Security Podcast: A lesson in Rust from Carol Nichols](https://opensourcesecuritypodcast.libsyn.com/episode-362-a-lesson-in-rust-from-carol-nichols)
 
 ## Crate of the Week
