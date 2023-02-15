@@ -55,6 +55,8 @@ and just ask the editors to select the category.
 * [TrustZone, trials and tribulations](https://tweedegolf.nl/en/blog/85/trustzone-trials-tribulations)
 * [video] [Rust Releases! 1.67.0 & 1.67.1](https://www.youtube.com/watch?v=-UEyf1li1A4)
 
+* [Everything you didn't need to know about `#[track_caller]`](https://hegdenu.net/posts/track-caller/)
+
 ### Rust Walkthroughs
 * [video] [Build and deploy a Wasm smart contract with Rust-based language](https://www.youtube.com/watch?v=YnmBotet6_M)
 * [video] [Write better parsers with nom_supreme](https://www.youtube.com/watch?v=Ph7xHhBfH0w)
