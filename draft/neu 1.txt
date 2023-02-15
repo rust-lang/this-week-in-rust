@@ -1,0 +1,113 @@
+entity1_id: card_id,
+entity2_id: null,
+key: version,
+unless_updated_since: Utc::now,
+value: *current version +1*
+
+select "value from attribute where entity1_id=$1 and "key" order by updated_version desc limit 1;
+
+
+* [introduce `with_forced_trimmed_paths`](https://github.com/rust-lang/rust/pull/105411)
+
+fn main() -> std::io::Result<()> {
+	content = std::fs::read_to_string(r"C:\Users\bogus\Documents\tweets.js")?;
+	for line in content.lines() {
+		if let Some(l) = line.trim().strip_prefix(r#""full_text" : ""#).and_then(|l| l.strip_suffix("\",")) {
+			let lines = l.split("\\n").collect();
+			if lines.len() > 4 {
+				println!("{}", lines.join(" | ")
+			}
+		}
+	}
+}
+
+for line in file(r"C:\Users\bogus\Documents\tweets.js"):
+	match = re.search(r'"full_text": "(.*)",')
+	if not match: continue
+	text = re.split("\\n", match.group(1))
+	if text.len() > 4:
+		print " | ".join(text)
+
+
+
+Config {
+            precision: 3,
+            max_memory: 0,
+            max_value: 60_000_000_000,
+            radix: 10,
+        }
+		
+		
+fn configured(config: Config) -> Option<Histogram> {
+        let buckets_inner: u32 = 1000;
+        let linear_power: u32 = 10;
+        let linear_max: u64 = 1024;
+        let max_value_power: u32 = 36;
+
+        let buckets_outer = if max_value_power > linear_power {
+            max_value_power - linear_power
+        } else {
+            0
+        } = 26;
+
+        let buckets_total = 26 * 1000 + 1024 = 2050;
+        let memory_used = buckets_total * mem::size_of::<u64>() as u32;
+
+        if config.max_memory > 0 && config.max_memory < memory_used {
+            return None;
+        }
+
+        let data = vec![0; buckets_total as usize];
+
+        let counters = Counters::new();
+
+        Some(Histogram {
+            config,
+            data: Data { data, counters },
+            properties: Properties {
+                buckets_inner,
+                linear_max,
+                linear_power,
+            },
+        })
+    }
+		
+	v0-rust-bloop-dc4bac4031edfb531a304d7877c1779b512e57f8-20f9e0621011e6eee6bcfb1563b87e4e9dc42958
+	
+	v0-rust-bloop-dc4bac4031edfb531a304d7877c1779b512e57f8-9dd990304eb2198e7aa6467df1436742a8ec202d
+
+
+
+Zahlungsempfänger 	Klarna
+IBAN 				DE13760700120500154000
+BIC 				DEUTDEMM760
+Bank 				Deutsche Bank AG
+Verwendungszweck 	8661827250432
+Betrag				189,45 €
+
+Dajana Meissner
+IBAN: 				DE80 4306 0967 6021 2769 00
+BIC: 				GENODEM1GLS
+Betrag				740 €
+Verwendungszweck	Rechnung: 002/02/2023
+
+DONE 14.02.23 | Regierungspräsidium Kassel
+IBAN:				DE48 5001 0060 0006 6346 02
+Betrag:				58,50
+Verwendungszweck	620.105884.6
+
+Boys and Girls Fotografie GmbH
+IBAN				DE46207300164395110196
+Betrag 				27€
+Verwendungszweck	HYVEDEMME16
+
+Health AG
+IBAN				DE96 6009 0700 0342 7190 41
+Betrag				1586,94
+Verwendungszweck	44490533K
+
+Health AG
+IBAN				DE96 6009 0700 0342 7190 41
+Betrag				125,71
+Verwendungszweck	44490532A
+
