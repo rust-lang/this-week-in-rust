@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 * [IntelliJ Rust Changelog #188](https://intellij-rust.github.io/2023/02/13/changelog-188.html)
 * [Meilisearch releases v1.0, the first completely stable version of its open-source search engine](https://github.com/meilisearch/meilisearch/releases/tag/v1.0.0/)
 
+* [Nutype - the newtype with gurantees](https://github.com/greyblake/nutype)
+
 ### Observations/Thoughts
 * [How Rust went from a side project to the world’s most-loved programming language](https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/)
 * [The bottom emoji breaks rust-analyzer](https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer)
