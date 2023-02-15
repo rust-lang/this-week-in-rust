@@ -72,7 +72,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [bkmr](https://github.com/sysid/bkmr), a fast CLI bookmark manager and launcher.
+
+Thanks to [sysid](https://users.rust-lang.org/t/crate-of-the-week/2704/1159) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -98,7 +100,67 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+387 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-02-06..2023-02-13
+
+* [add `-Z instrument-xray` flag](https://github.com/rust-lang/rust/pull/102963)
+* [add missing normalization for union fields types](https://github.com/rust-lang/rust/pull/106938)
+* [add only modified subcommand for compiletest](https://github.com/rust-lang/rust/pull/107657)
+* [add parentheses properly for borrowing suggestion](https://github.com/rust-lang/rust/pull/105019)
+* [allow multiple candidates with same response in new solver](https://github.com/rust-lang/rust/pull/107863)
+* [allow wasi-libc to initialize its environment variables lazily](https://github.com/rust-lang/rust/pull/107866)
+* [avoid exposing type parameters and implementation details sourced from macro expansions](https://github.com/rust-lang/rust/pull/107789)
+* [disqualify `auto trait` built-in impl in new solver if explicit `impl` exists](https://github.com/rust-lang/rust/pull/107815)
+* [do not bring trait alias supertraits into scope](https://github.com/rust-lang/rust/pull/107803)
+* [do not eagerly recover for bad `impl Trait` types in macros](https://github.com/rust-lang/rust/pull/107813)
+* [enable new rlib in non stable cases](https://github.com/rust-lang/rust/pull/105601)
+* [fix implied outlives bounds logic for projections](https://github.com/rust-lang/rust/pull/101680)
+* [fix suggestions rendering when the diff span is multiline](https://github.com/rust-lang/rust/pull/107671)
+* [implement `deferred_projection_equality` for erica solver](https://github.com/rust-lang/rust/pull/107507)
+* [introduce `-Zterminal-urls` to use OSC8 for error codes](https://github.com/rust-lang/rust/pull/107838)
+* [make &mut !Unpin not dereferenceable, and `Box<!Unpin>` not noalias](https://github.com/rust-lang/rust/pull/106180)
+* [make `derive_const` derive properly const-if-const impls](https://github.com/rust-lang/rust/pull/107777)
+* [mark `'atomic_mut_ptr'` methods const](https://github.com/rust-lang/rust/pull/107706)
+* [mir-Opt for copying enums with large discrepancies](https://github.com/rust-lang/rust/pull/85158)
+* [optimize `TyKind::eq`](https://github.com/rust-lang/rust/pull/107717)
+* [optimize `query_cache_hit` to reduce code size of the query hot path](https://github.com/rust-lang/rust/pull/107529)
+* [reduce interning](https://github.com/rust-lang/rust/pull/107869)
+* [simplify layout calculations in rawvec](https://github.com/rust-lang/rust/pull/107167)
+* [suggest function call on pattern type mismatch](https://github.com/rust-lang/rust/pull/107098)
+* [support `true` and `false` as boolean flag params](https://github.com/rust-lang/rust/pull/107043)
+* [turn projections into copies in `CopyProp`](https://github.com/rust-lang/rust/pull/107662)
+* [unused-lifetimes: don't warn about lifetimes originating from expanded code](https://github.com/rust-lang/rust/pull/107648)
+* [implement `AsFd` and `AsRawFd` for `Rc`](https://github.com/rust-lang/rust/pull/107317)
+* [implement cursors for BTreeMap](https://github.com/rust-lang/rust/pull/105641)
+* [improve the `array::map` codegen](https://github.com/rust-lang/rust/pull/107634)
+* [reverse Timsort scan direction](https://github.com/rust-lang/rust/pull/107191)
+* [speedup heapsort by 1.5x by making it branchless](https://github.com/rust-lang/rust/pull/107894)
+* [stabilize feature `cstr_from_bytes_until_nul`](https://github.com/rust-lang/rust/pull/107429)
+* [stop at the first `NULL` argument when iterating `argv`](https://github.com/rust-lang/rust/pull/106001)
+* [cargo: `-Zrustdoc-scrape-example` must fail with bad build script](https://github.com/rust-lang/cargo/pull/11694)
+* [cargo: add '-C' flag for changing current dir before build](https://github.com/rust-lang/cargo/pull/10952)
+* [cargo: re-export `cargo_new::NewProjectKind` as public](https://github.com/rust-lang/cargo/pull/11700)
+* [clippy: make `arithmetic_side_effects` mind constant items](https://github.com/rust-lang/rust-clippy/pull/10310)
+* [clippy: `cast_possible_truncation`: issue proper help message](https://github.com/rust-lang/rust-clippy/pull/10330)
+* [clippy: `suspicious_to_owned`: use `span_suggestions` to suggest both intents](https://github.com/rust-lang/rust-clippy/pull/10295)
+* [clippy: add `suspicious_command_arg_space` lint](https://github.com/rust-lang/rust-clippy/pull/10317)
+* [clippy: `almost_swapped`: detect almost-swaps using `let` statements](https://github.com/rust-lang/rust-clippy/pull/10177)
+* [clippy: negate suggestions when needed in `bool_assert_comparison`](https://github.com/rust-lang/rust-clippy/pull/10293)
+* [rust-analyzer: add braces assist](https://github.com/rust-lang/rust-analyzer/pull/13991)
+* [rust-analyzer: add postfix completion for `unsafe`](https://github.com/rust-lang/rust-analyzer/pull/14095)
+* [rust-analyzer: add setting for limiting number of completions](https://github.com/rust-lang/rust-analyzer/pull/13986)
+* [rust-analyzer: build `i686-pc-windows-msvc` binaries](https://github.com/rust-lang/rust-analyzer/pull/14127)
+* [rust-analyzer: don't include `r#` prefix in filesystem changes](https://github.com/rust-lang/rust-analyzer/pull/14138)
+* [rust-analyzer: don't insert a semicolon when typing = if parse errors are encountered](https://github.com/rust-lang/rust-analyzer/pull/14103)
+* [rust-analyzer: fix bind pat inlay hints rendering for constant patterns](https://github.com/rust-lang/rust-analyzer/pull/14125)
+* [rust-analyzer: fix completions after functions with no bodies](https://github.com/rust-lang/rust-analyzer/pull/14110)
+* [rust-analyzer: fix parsing of nested tuple field accesses in a cursed way](https://github.com/rust-lang/rust-analyzer/pull/14084)
+* [rust-analyzer: fix proc-macro-server incorrectly stripping delimiters](https://github.com/rust-lang/rust-analyzer/pull/14140)
+* [rust-analyzer: insert spaces when inlining macros](https://github.com/rust-lang/rust-analyzer/pull/14114)
+* [rust-analyzer: properly use location links for type hints of impl Future and its assoc type](https://github.com/rust-lang/rust-analyzer/pull/14099)
+* [rust-analyzer: suppress extra indent after the end of field and function chains](https://github.com/rust-lang/rust-analyzer/pull/13975)
+* [rust-analyzer: support `DidChangeWorkspaceFolders` notifications](https://github.com/rust-lang/rust-analyzer/pull/14098)
 
 ### Rust Compiler Performance Triage
 
@@ -293,7 +355,9 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> All the pro C/C++ arguments seem to come down to "Good drivers don’t need seat belts because they don’t get in accidents"
+
+– [otwkme on /r/rust](https://www.reddit.com/r/rust/comments/10rnymj/comment/j6x90x5)
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
