@@ -35,6 +35,7 @@ and just ask the editors to select the category.
 * [Rust Nigeria #14](https://rustnigeria.curated.co/issues/14#start)
 
 ### Project/Tooling Updates
+* [Fornjot (code-first CAD in Rust) - Weekly Release - Really Shouldn't Be That Hard](https://www.fornjot.app/blog/weekly-release/2023-w07/)
 * [New release – gtk-rs](https://gtk-rs.org/blog/2023/02/10/new-release.html)
 * [rust-analyzer changelog #168](https://rust-analyzer.github.io/thisweek/2023/02/13/changelog-168.html)
 * [IntelliJ Rust Changelog #188](https://intellij-rust.github.io/2023/02/13/changelog-188.html)
