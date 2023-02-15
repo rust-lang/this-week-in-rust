@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [pavex, a new Rust web framework - Progress report #1](https://www.lpalmieri.com/posts/pavex-progress-report-01/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
