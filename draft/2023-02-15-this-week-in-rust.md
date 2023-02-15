@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 * [New release – gtk-rs](https://gtk-rs.org/blog/2023/02/10/new-release.html)
 * [rust-analyzer changelog #168](https://rust-analyzer.github.io/thisweek/2023/02/13/changelog-168.html)
 * [IntelliJ Rust Changelog #188](https://intellij-rust.github.io/2023/02/13/changelog-188.html)
+* [Meilisearch releases v1.0, the first completely stable version of its open-source search engine](https://github.com/meilisearch/meilisearch/releases/tag/v1.0.0/)
 
 ### Observations/Thoughts
 * [How Rust went from a side project to the world’s most-loved programming language](https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/)
