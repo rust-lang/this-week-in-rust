@@ -49,14 +49,11 @@ and just ask the editors to select the category.
 * [A Case for Rust in Deep Learning](https://burn-rs.github.io/blog/a-case-for-rust-in-deep-learning)
 * [TrustZone, trials and tribulations](https://tweedegolf.nl/en/blog/85/trustzone-trials-tribulations)
 * [video] [Rust Releases! 1.67.0 & 1.67.1](https://www.youtube.com/watch?v=-UEyf1li1A4)
-
 * [Everything you didn't need to know about `#[track_caller]`](https://hegdenu.net/posts/track-caller/)
 
 ### Rust Walkthroughs
 * [video] [Build and deploy a Wasm smart contract with Rust-based language](https://www.youtube.com/watch?v=YnmBotet6_M)
 * [video] [Write better parsers with nom_supreme](https://www.youtube.com/watch?v=Ph7xHhBfH0w)
-
-### Research
 
 ### Miscellaneous
 * [video] [From cargo to crates.io and back again](https://www.youtube.com/watch?v=zGS-HqcAvA4)
@@ -360,4 +357,4 @@ Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/r
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/113dwhu/this_week_in_rust_482/)</small>
