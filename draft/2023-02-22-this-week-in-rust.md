@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust development for the Raspberry PI on Apple Silicon](https://manuel.bernhardt.io/posts/2022-11-04-rust-development-for-the-raspberry-pi-on-apple-silicon/)
+
 ### Rust Walkthroughs
 
 ### Research
