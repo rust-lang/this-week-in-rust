@@ -39,6 +39,9 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Build a Apache Kafka Producer/Consumer Application in Rust](https://dev.to/schultyy/how-to-build-a-simple-kafka-producerconsumer-application-in-rust-3pl4)
+- [Run WebAssembly from your Rust Program](https://21-lessons.com/how-to-run-webassembly-from-your-rust-program/)
+
 ### Research
 
 ### Miscellaneous
