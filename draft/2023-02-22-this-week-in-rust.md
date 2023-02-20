@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fornjot (code-first CAD in Rust) - Weekly Release - Accidental Side-Effect](https://www.fornjot.app/blog/weekly-release/2023-w08/)
 
 ### Observations/Thoughts
 
