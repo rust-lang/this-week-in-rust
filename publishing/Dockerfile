@@ -12,6 +12,9 @@ ENV LC_ALL='en_US.UTF-8'
 RUN ln -s /usr/bin/python3.8 /usr/bin/python
 COPY requirements.txt .
 RUN pip3 install -r requirements.txt
+RUN curl https://files.stork-search.net/releases/v1.5.0/stork-ubuntu-20-04 -o stork \
+    && chmod +x stork \
+    && mv ./stork /usr/bin/stork
 
 # sass/juice
 RUN apt-get install -y curl
@@ -26,7 +29,7 @@ COPY plugins plugins
 COPY themes themes
 COPY pelicanconf.py pelicanconf.py
 
-COPY publishing/*.sh .
+COPY publishing/*.sh ./
 RUN chmod 777 *.sh
 
 CMD ["pelican", "--delete-output-directory", "content"]
