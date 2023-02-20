@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [RustNation23 Blog Post](https://beyermatthias.de/rustnation23)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
