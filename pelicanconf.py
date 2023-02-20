@@ -14,7 +14,6 @@ if '1' == os.environ.get('TWIR_NEWSLETTER_THEME'):
 else:
     THEME = 'themes/rusted'
 
-THEME_STATIC_DIR = THEME + '/static'
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ['assets', 'neighbors']
 
@@ -48,9 +47,7 @@ scattered about.
 """
 }
 
-SEARCH_HTML_SELECTOR = "article"
-
-PLUGINS = ['webassets', 'search']
+PLUGINS = ['webassets']
 
 MARKDOWN = {
     'extension_configs': {
