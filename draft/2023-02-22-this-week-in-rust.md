@@ -206,6 +206,8 @@ Rusty Events between 2023-02-22 - 2023-03-22 🦀
 * 2023-03-09 | Nijmegen, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
     * [**Regular track: Embedded Rust**](https://www.meetup.com/rust-nederland/events/291401965/)
     * [**Student track: Embedded Rust**](https://www.meetup.com/rust-nederland/events/291401778/)
+* 2023-03-09 | Lyon, FR | [Rust Lyon](https://www.meetup.com/fr-FR/rust-lyon/)
+    * [**Rust Lyon Meetup #2**](https://www.meetup.com/fr-FR/rust-lyon/events/291727241/)
 * 2023-03-15 | Nürnberg, DE | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
     * [**Walk around Embedded World Exhibition**](https://www.meetup.com/rust-noris/events/291623203/)
 
