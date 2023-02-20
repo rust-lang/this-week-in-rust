@@ -201,6 +201,8 @@ Rusty Events between 2023-02-22 - 2023-03-22 🦀
 * 2023-02-28 | Nijmegen, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
     * [**Regular track: Rust at RU**](https://www.meetup.com/rust-nederland/events/291489123/)
     * [**Student track: Rust at RU**](https://www.meetup.com/rust-nederland/events/291488539/)
+* 2023-03-02 | Barcelona, ES | [BcnRust](https://bcnrust.github.io/)
+    * [**9th BcnRust Meetup: Full Stack**](https://www.meetup.com/es-ES/bcnrust/events/291754590/)
 * 2023-03-09 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/)
     * [**Rust Meetup #7**](https://www.meetup.com/rust-basel/events/291228934/)
 * 2023-03-09 | Nijmegen, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
