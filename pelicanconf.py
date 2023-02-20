@@ -3,13 +3,17 @@
 from __future__ import unicode_literals
 import os
 
+# Adjust `TESTING_LOCALLY` if testing search functionality locally.
+TESTING_LOCALLY = False
+USE_EMAIL_THEME = True if os.environ.get('USE_EMAIL_THEME') == '1' else False
+
 AUTHOR = u'TWiR Contributors'
 SITENAME = u"This Week in Rust"
-SITEURL = 'https://this-week-in-rust.org'
+SITEURL = 'https://this-week-in-rust.org' if not TESTING_LOCALLY else 'http://localhost:8000'
 
 SOURCE_URL = 'https://github.com/rust-lang/this-week-in-rust'
 
-if '1' == os.environ.get('TWIR_NEWSLETTER_THEME'):
+if USE_EMAIL_THEME:
     THEME = 'themes/newsletter'
 else:
     THEME = 'themes/rusted'
@@ -48,9 +52,12 @@ scattered about.
 """
 }
 
-SEARCH_HTML_SELECTOR = "article"
-
-PLUGINS = ['webassets', 'search']
+# Don't add search functionality for email.
+if USE_EMAIL_THEME:
+    PLUGINS = ['webassets']
+else:
+    PLUGINS = ['webassets', 'search']
+    SEARCH_HTML_SELECTOR = "article"
 
 MARKDOWN = {
     'extension_configs': {
