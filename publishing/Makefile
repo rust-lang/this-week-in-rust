@@ -19,7 +19,7 @@
 # 
 # 2. This workflow will generate the desired email template, landing
 #    the end contents in the local "output/" directory. This is the 
-#    equivalent of running `TWIR_NEWSLETTER_THEME=1 pelican --delete-output-directory content`
+#    equivalent of running `USE_EMAIL_THEME=1 pelican --delete-output-directory content`
 #    from a properly instantantiated environment.   
 # 
 #    $ make build && make generate-email && make host-content
@@ -58,7 +58,7 @@ generate-website: clean
 
 generate-email: clean
 	docker run -it \
-		-e TWIR_NEWSLETTER_THEME=1 \
+		-e USE_EMAIL_THEME=1 \
 		-v $(shell pwd)/output:/usr/twir/output \
 		twir:latest
 
