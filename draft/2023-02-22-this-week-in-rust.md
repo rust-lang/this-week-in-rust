@@ -71,7 +71,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Overall a fairly positive week, with few noise-related regressions or
+improvements and many benchmarks showing significant improvements. The one
+large regression is limited to documentation builds and has at least a partial
+fix already planned.
+
+Other wins this week include an average [improvement][memopt] of around 1% in
+maximum memory usage of optimized builds, and a 2% average [reduction][sizeopt]
+in compiled binary sizes. These are fairly significant wins for these metrics.
+
+[memopt]: https://perf.rust-lang.org/?start=9bb6e60d1f1360234aae90c97964c0fa5524f141&end=3fee48c161a48b0c142d3998fff56faee96bd56c&absolute=false&stat=max-rss&kind=percentfromfirst
+[sizeopt]: https://perf.rust-lang.org/?start=9bb6e60d1f1360234aae90c97964c0fa5524f141&end=3fee48c161a48b0c142d3998fff56faee96bd56c&absolute=false&stat=size%3Alinked_artifact&kind=percentfromfirst
+
+Triage done by **@simulacrum**.
+Revision range: [9bb6e60..3fee48c1](https://perf.rust-lang.org/?start=9bb6e60d1f1360234aae90c97964c0fa5524f141&end=3fee48c161a48b0c142d3998fff56faee96bd56c&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 3 Improvements, 3 Mixed; 2 of them in rollups
+45 artifact comparisons made in total
+
+[Full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-02-21.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
