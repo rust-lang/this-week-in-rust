@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Compression from scratch: Huffman coding tutorial](https://youtu.be/ek_HJX8sQqk)
+
 ### Research
 
 ### Miscellaneous
