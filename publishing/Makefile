@@ -19,7 +19,7 @@
 # 
 # 2. This workflow will generate the desired email template, landing
 #    the end contents in the local "output/" directory. This is the 
-#    equivalent of running `TWIR_NEWSLETTER_THEME=1 pelican --delete-output-directory content`
+#    equivalent of running `USE_EMAIL_THEME=1 pelican --delete-output-directory content`
 #    from a properly instantantiated environment.   
 # 
 #    $ make build && make generate-email && make host-content
@@ -38,7 +38,7 @@
 # TODO: The BLOG_DOWNLOAD is only needed because one dockerfile will have to communicate
 #       with another, and I don't want to deal with building out the networking logic... yet...
 # CHANGE ME!  vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-BLOG_DOWNLOAD=http://127.0.0.1:8000/blog/2023/01/25/this-week-in-rust-479/
+BLOG_DOWNLOAD=http://localhost:8000/blog/2023/01/25/this-week-in-rust-479/
 
 website-workflow: build clean generate-website host-content
 
@@ -58,7 +58,7 @@ generate-website: clean
 
 generate-email: clean
 	docker run -it \
-		-e TWIR_NEWSLETTER_THEME=1 \
+		-e USE_EMAIL_THEME=1 \
 		-v $(shell pwd)/output:/usr/twir/output \
 		twir:latest
 
