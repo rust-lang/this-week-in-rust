@@ -33,10 +33,6 @@ and just ask the editors to select the category.
 * [Welcome Tyler Mandry to the Rust language team!](https://blog.rust-lang.org/inside-rust/2023/02/14/lang-team-membership-update.html)
 * [Governance Reform RFC Announcement](https://blog.rust-lang.org/inside-rust/2023/02/22/governance-reform-rfc.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [Changelog #169](https://rust-analyzer.github.io/thisweek/2023/02/20/changelog-169.html)
 * [Rust now available for Real-Time Operating System and Hypervisor PikeOS](https://www.sysgo.com/press-releases/rust-now-available-for-real-time-operating-system-and-hypervisor-pikeos)
@@ -52,7 +48,6 @@ and just ask the editors to select the category.
 * [Battle Of The Backends: Rust vs. Go vs. C# vs. Kotlin - inovex GmbH](https://www.inovex.de/de/blog/rust-vs-go-vs-c-vs-kotlin/)
 * [The Bull Case for Rust on the Web](https://driftingin.space/posts/bull-case-for-rust-on-web)
 * [I love building a startup in Rust. I wouldn't pick it again.](https://www.propelauth.com/post/i-love-building-a-startup-in-rust-i-wouldnt-pick-it-again)
-
 * [Rust development for the Raspberry PI on Apple Silicon](https://manuel.bernhardt.io/posts/2022-11-04-rust-development-for-the-raspberry-pi-on-apple-silicon/)
 
 ### Rust Walkthroughs
@@ -64,7 +59,7 @@ and just ask the editors to select the category.
 * [Rust to WebAssembly the hard way](https://surma.dev/things/rust-to-webassembly/)
 * [STM32F4 Embedded Rust at the PAC: System Clock Configuration](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-system-clock-configuration)
 * [Implement base64 encoding using Rust - (Part 1) Base64 for non-unicode characters](https://dev.to/quackquack/implement-base64-encoding-using-rust-part-1-base64-for-non-unicode-characters-4944)
-* [How to Build a Simple Kafka Producer/Consumer Application in Rust](https://dev.to/schultyy/how-to-build-a-simple-kafka-producerconsumer-application-in-rust-3pl4)
+* [Build a Apache Kafka Producer/Consumer Application in Rust](https://dev.to/schultyy/how-to-build-a-simple-kafka-producerconsumer-application-in-rust-3pl4)
 * [Learning Rust by Building a To-Do App](https://dev.to/opendataanalytics/learning-rust-by-building-a-to-do-app-2okd)
 * [A Nibble of Quadtrees in Rust](https://dev.to/kurt2001/a-nibble-of-quadtrees-in-rust-4o7g)
 * [Embedded Rust on ESP32C3 Board, a Hands-on Quickstart Guide](https://dev.to/cyrilmarpaud/embedded-rust-on-esp32c3-board-a-hands-on-quickstart-guide-28mf)
@@ -73,11 +68,8 @@ and just ask the editors to select the category.
 * [ES] [Aprendiendo Rust 🦀️ II. Programming a guessing game](https://dev.to/retronauta/libro-the-rust-programming-language-ii-programming-a-guessing-game-8ni)
 * [video] [Speed up your Rust code with Rayon](https://youtu.be/YxG7PhZ3fb4)
 * [video] [Making Custom Asset Types: Platformer In Bevy #4](https://youtu.be/BWhe2UyJv1E)
-
 * [Implementing a Binary Tree in Rust](https://rusty-ferris.pages.dev/blog/binary-tree-sum-of-values/)
-
-- [Build a Apache Kafka Producer/Consumer Application in Rust](https://dev.to/schultyy/how-to-build-a-simple-kafka-producerconsumer-application-in-rust-3pl4)
-- [Run WebAssembly from your Rust Program](https://21-lessons.com/how-to-run-webassembly-from-your-rust-program/)
+* [Run WebAssembly from your Rust Program](https://21-lessons.com/how-to-run-webassembly-from-your-rust-program/)
 
 ### Research
 * [The Usability of Advanced Type Systems: Rust as a Case Study](https://arxiv.org/abs/2301.02308)
@@ -86,8 +78,7 @@ and just ask the editors to select the category.
 * [Learn Rust With JetBrains IDEs](https://blog.jetbrains.com/rust/2023/02/21/learn-rust-with-jetbrains-ides/)
 * [Rust in Rhymes II explainer](https://llogiq.github.io/2023/02/19/rhymes2.html)
 * [audio] [Lodestone with Wilbur Zhang, Peter Jiang, and Kevin Huang](https://rustacean-station.org/episode/lodestone/)
-
-- [Rust Nation UK 2023](https://www.jetstack.io/blog/rust-nation-uk-2023/)
+* [Rust Nation UK 2023](https://www.jetstack.io/blog/rust-nation-uk-2023/)
 
 ## Crate of the Week
 
@@ -106,11 +97,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [miri - Get Miri working on ARM again](https://github.com/rust-lang/miri/issues/2791)
+* [man-in-the-middle-proxy - Add Custom headers requests](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/9)
 * [Ockam - Create clap command to delete a TCP Outlet on a node](https://github.com/build-trust/ockam/issues/4268)
 * [Ockam - Create clap command to delete a TCP Inlet on a node](https://github.com/build-trust/ockam/issues/4269)
 * [Ockam - Add a Github Action to avoid conflicts in TypeTag ids](https://github.com/build-trust/ockam/issues/4108)
-* [miri - Get Miri working on ARM again](https://github.com/rust-lang/miri/issues/2791)
-* [man-in-the-middle-proxy - Add Custom headers requests](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/9)
 * [Ockam - Remove the disable/enable_check_credential arguments from ockam tcp-outlet create](https://github.com/build-trust/ockam/issues/4307)
 * [Ockam - Remove the disable/enable_check_credential arguments from ockam tcp-inlet create](https://github.com/build-trust/ockam/issues/4308)
 * [Ockam - Update ockam project addon configure influx-db clap command to ockam project addon configure influxdb](https://github.com/build-trust/ockam/issues/4318)
@@ -345,7 +336,6 @@ Rusty Events between 2023-02-22 - 2023-03-22 🦀
 
 ### North America
 
-
 * 2023-02-23 | Mountain View, CA, US | [Mountain View Rust Study Group](https://www.meetup.com/rust-study-group/)
   * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/rust-study-group/events/291623636/)
 * 2023-03-01 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/)
@@ -385,7 +375,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/10nmtew/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
