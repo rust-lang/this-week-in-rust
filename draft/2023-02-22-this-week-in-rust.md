@@ -26,24 +26,59 @@ If you don't know which category to use, feel free to submit a PR anyway
 and just ask the editors to select the category.
 
 -->
+* [RustConf 2023: Call for Proposals](https://sessionize.com/rustconf-2023)
 
 ### Official
+* [Language team advisors](https://blog.rust-lang.org/inside-rust/2023/02/14/lang-advisors.html)
+* [Welcome Tyler Mandry to the Rust language team!](https://blog.rust-lang.org/inside-rust/2023/02/14/lang-team-membership-update.html)
+* [Governance Reform RFC Announcement](https://blog.rust-lang.org/inside-rust/2023/02/22/governance-reform-rfc.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Changelog #169](https://rust-analyzer.github.io/thisweek/2023/02/20/changelog-169.html)
+* [Rust now available for Real-Time Operating System and Hypervisor PikeOS](https://www.sysgo.com/press-releases/rust-now-available-for-real-time-operating-system-and-hypervisor-pikeos)
 
 ### Observations/Thoughts
+* [Why is building a UI in Rust so hard?](https://www.warp.dev/blog/why-is-building-a-ui-in-rust-so-hard)
+* [Lightweight, Predictable Async Send Bounds](https://theincredibleholk.org/blog/2023/02/16/lightweight-predictable-async-send-bounds/)
+* [Return type notation (send bounds, part 2)](https://smallcultfollowing.com/babysteps/blog/2023/02/13/return-type-notation-send-bounds-part-2/)
+* [Faking Algebraic Effects and Handlers With Traits: A Rust Design Pattern](https://blog.shtsoft.eu/2022/12/22/effect-trait-dp.html)
+* [winnow = toml_edit + combine + nom](https://epage.github.io/blog/2023/02/winnow-toml-edit-combine-nom/)
+* [Battle Of The Backends: Rust vs. Go vs. C# vs. Kotlin - inovex GmbH](https://www.inovex.de/de/blog/rust-vs-go-vs-c-vs-kotlin/)
+* [The Bull Case for Rust on the Web](https://driftingin.space/posts/bull-case-for-rust-on-web)
+* [I love building a startup in Rust. I wouldn't pick it again.](https://www.propelauth.com/post/i-love-building-a-startup-in-rust-i-wouldnt-pick-it-again)
 
 ### Rust Walkthroughs
+* [Learn how to build and deploy a down detector Telegram bot in Rust](https://joshmo.hashnode.dev/building-deploying-a-down-detector-telegram-bot-in-rust)
+* [Compile Time Correctness: Type State](https://peace.mk/blog/compile-time-correctness-type-state/)
+* [Build a casual side scroller with Rust](https://www.ardanlabs.com/blog/2023/02/build-a-casual-side-scroller-with-rust.html)
+* [True Observer Pattern with Unsubscribe mechanism using Rust](https://ybnesm.github.io/blah/articles/true-observer-pattern-rust/)
+* [Refactoring in Rust: Abstraction with the Newtype Pattern](https://fettblog.eu/refactoring-rust-abstraction-newtype/)
+* [Rust to WebAssembly the hard way](https://surma.dev/things/rust-to-webassembly/)
+* [STM32F4 Embedded Rust at the PAC: System Clock Configuration](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-system-clock-configuration)
+* [Implement base64 encoding using Rust - (Part 1) Base64 for non-unicode characters](https://dev.to/quackquack/implement-base64-encoding-using-rust-part-1-base64-for-non-unicode-characters-4944)
+* [How to Build a Simple Kafka Producer/Consumer Application in Rust](https://dev.to/schultyy/how-to-build-a-simple-kafka-producerconsumer-application-in-rust-3pl4)
+* [Learning Rust by Building a To-Do App](https://dev.to/opendataanalytics/learning-rust-by-building-a-to-do-app-2okd)
+* [A Nibble of Quadtrees in Rust](https://dev.to/kurt2001/a-nibble-of-quadtrees-in-rust-4o7g)
+* [Embedded Rust on ESP32C3 Board, a Hands-on Quickstart Guide](https://dev.to/cyrilmarpaud/embedded-rust-on-esp32c3-board-a-hands-on-quickstart-guide-28mf)
+* [How to make a Text Adventure game in Rust - X - More Attributes](https://www.riskpeep.com/2023/02/make-text-adventure-game-rust-10.html)
+* [Nothing in Rust](https://geeklaunch.io/blog/nothing-in-rust/)
+* [ES] [Aprendiendo Rust 🦀️ II. Programming a guessing game](https://dev.to/retronauta/libro-the-rust-programming-language-ii-programming-a-guessing-game-8ni)
+* [video] [Speed up your Rust code with Rayon](https://youtu.be/YxG7PhZ3fb4)
+* [video] [Making Custom Asset Types: Platformer In Bevy #4](https://youtu.be/BWhe2UyJv1E)
 
 * [Implementing a Binary Tree in Rust](https://rusty-ferris.pages.dev/blog/binary-tree-sum-of-values/)
 
 ### Research
+* [The Usability of Advanced Type Systems: Rust as a Case Study](https://arxiv.org/abs/2301.02308)
 
 ### Miscellaneous
+* [Learn Rust With JetBrains IDEs](https://blog.jetbrains.com/rust/2023/02/21/learn-rust-with-jetbrains-ides/)
+* [Rust in Rhymes II explainer](https://llogiq.github.io/2023/02/19/rhymes2.html)
+* [audio] [Lodestone with Wilbur Zhang, Peter Jiang, and Kevin Huang](https://rustacean-station.org/episode/lodestone/)
 
 ## Crate of the Week
 
