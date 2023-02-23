@@ -43,7 +43,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
-2023-10-12 | Brussels, BE | [EuroRust 2023](https://eurorust.eu/)
+* [EuroRust 2023 announced for Oct. 12-13 in Brussels, BE](https://eurorust.eu/)
 
 ## Crate of the Week
 
