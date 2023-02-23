@@ -29,9 +29,9 @@ and just ask the editors to select the category.
 * [RustConf 2023: Call for Proposals](https://sessionize.com/rustconf-2023)
 
 ### Official
-* [inside] [Language team advisors](https://blog.rust-lang.org/inside-rust/2023/02/14/lang-advisors.html)
-* [inside] [Welcome Tyler Mandry to the Rust language team!](https://blog.rust-lang.org/inside-rust/2023/02/14/lang-team-membership-update.html)
-* [inside] [Governance Reform RFC Announcement](https://blog.rust-lang.org/inside-rust/2023/02/22/governance-reform-rfc.html)
+* [Language team advisors](https://blog.rust-lang.org/inside-rust/2023/02/14/lang-advisors.html)
+* [Welcome Tyler Mandry to the Rust language team!](https://blog.rust-lang.org/inside-rust/2023/02/14/lang-team-membership-update.html)
+* [Governance Reform RFC Announcement](https://blog.rust-lang.org/inside-rust/2023/02/22/governance-reform-rfc.html)
 
 ### Foundation
 
