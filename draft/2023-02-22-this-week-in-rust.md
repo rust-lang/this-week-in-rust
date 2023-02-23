@@ -60,8 +60,14 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Ockam - Create clap command to delete a TCP Outlet on a node](https://github.com/build-trust/ockam/issues/4268)
+* [Ockam - Create clap command to delete a TCP Inlet on a node](https://github.com/build-trust/ockam/issues/4269)
+* [Ockam - Add a Github Action to avoid conflicts in TypeTag ids](https://github.com/build-trust/ockam/issues/4108)
+* [miri - Get Miri working on ARM again](https://github.com/rust-lang/miri/issues/2791)
+* [man-in-the-middle-proxy - Add Custom headers requests](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/9)
+* [Ockam - Remove the disable/enable_check_credential arguments from ockam tcp-outlet create](https://github.com/build-trust/ockam/issues/4307)
+* [Ockam - Remove the disable/enable_check_credential arguments from ockam tcp-inlet create](https://github.com/build-trust/ockam/issues/4308)
+* [Ockam - Update ockam project addon configure influx-db clap command to ockam project addon configure influxdb](https://github.com/build-trust/ockam/issues/4318)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
