@@ -87,6 +87,8 @@ and just ask the editors to select the category.
 * [Rust in Rhymes II explainer](https://llogiq.github.io/2023/02/19/rhymes2.html)
 * [audio] [Lodestone with Wilbur Zhang, Peter Jiang, and Kevin Huang](https://rustacean-station.org/episode/lodestone/)
 
+- [Rust Nation UK 2023](https://www.jetstack.io/blog/rust-nation-uk-2023/)
+
 ## Crate of the Week
 
 This week's crate is [Darkbird](https://github.com/Rustixir/darkbird), a high-concurrency real-time in-memory database.
