@@ -37,13 +37,13 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-- [Rust Nation UK 2023](https://www.jetstack.io/blog/rust-nation-uk-2023/)
-
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+
+- [Rust Nation UK 2023](https://www.jetstack.io/blog/rust-nation-uk-2023/)
 
 ## Crate of the Week
 
