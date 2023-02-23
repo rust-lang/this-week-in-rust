@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Traits Implementations and References](https://www.judy.co.uk/blog/rust-traits-and-references/)
 
 ### Rust Walkthroughs
 
