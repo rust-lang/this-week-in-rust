@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 * [IntelliJ Rust Changelog #188](https://intellij-rust.github.io/2023/02/13/changelog-188.html)
 * [Meilisearch releases v1.0, the first completely stable version of its open-source search engine](https://github.com/meilisearch/meilisearch/releases/tag/v1.0.0/)
 * [Zenoh-Flow a Rust-based data-flow programming framework build on Zenoh](https://zenoh.io/blog/2023-02-10-zenoh-flow/)
-* [Nutype - the newtype with gurantees](https://github.com/greyblake/nutype)
+* [Nutype - the newtype with guarantees](https://github.com/greyblake/nutype)
 * [pavex, a new Rust web framework - Progress report #1](https://www.lpalmieri.com/posts/pavex-progress-report-01/)
 
 ### Observations/Thoughts
@@ -294,7 +294,7 @@ Rusty Events between 2023-02-15 - 2023-03-15 🦀
     * [**Student track: Rust at RU**](https://www.meetup.com/rust-nederland/events/291488539/)
 * 2023-03-09 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/)
     * [**Rust Meetup #7**](https://www.meetup.com/rust-basel/events/291228934/)
-* 2023-03-09 | Nijmegen, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
+* 2023-03-09 | Delft, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
     * [**Regular track: Embedded Rust**](https://www.meetup.com/rust-nederland/events/291401965/)
     * [**Student track: Embedded Rust**](https://www.meetup.com/rust-nederland/events/291401778/)
 * 2023-03-15 | Nürnberg, DE | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
