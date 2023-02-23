@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Some exercises to accompany the Rust Book](https://www.hyperexponential.com/blog/rust-language-exercises-at-hx)
+
 ### Research
 
 ### Miscellaneous
