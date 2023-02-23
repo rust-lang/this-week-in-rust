@@ -72,6 +72,9 @@ and just ask the editors to select the category.
 
 * [Implementing a Binary Tree in Rust](https://rusty-ferris.pages.dev/blog/binary-tree-sum-of-values/)
 
+- [Build a Apache Kafka Producer/Consumer Application in Rust](https://dev.to/schultyy/how-to-build-a-simple-kafka-producerconsumer-application-in-rust-3pl4)
+- [Run WebAssembly from your Rust Program](https://21-lessons.com/how-to-run-webassembly-from-your-rust-program/)
+
 ### Research
 * [The Usability of Advanced Type Systems: Rust as a Case Study](https://arxiv.org/abs/2301.02308)
 
