@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+2023-10-12 | Brussels, BE | [EuroRust 2023](https://eurorust.eu/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
