@@ -52,12 +52,12 @@ and just ask the editors to select the category.
 * [I love building a startup in Rust. I wouldn't pick it again.](https://www.propelauth.com/post/i-love-building-a-startup-in-rust-i-wouldnt-pick-it-again)
 
 ### Rust Walkthroughs
-* [Learn how to build and deploy a down detector Telegram bot in Rust.](https://joshmo.hashnode.dev/building-deploying-a-down-detector-telegram-bot-in-rust)
+* [Learn how to build and deploy a down detector Telegram bot in Rust](https://joshmo.hashnode.dev/building-deploying-a-down-detector-telegram-bot-in-rust)
 * [Compile Time Correctness: Type State](https://peace.mk/blog/compile-time-correctness-type-state/)
 * [Build a casual side scroller with Rust](https://www.ardanlabs.com/blog/2023/02/build-a-casual-side-scroller-with-rust.html)
 * [True Observer Pattern with Unsubscribe mechanism using Rust](https://ybnesm.github.io/blah/articles/true-observer-pattern-rust/)
 * [Refactoring in Rust: Abstraction with the Newtype Pattern](https://fettblog.eu/refactoring-rust-abstraction-newtype/)
-* [Rust to WebAssembly the hard way — surma.dev](https://surma.dev/things/rust-to-webassembly/)
+* [Rust to WebAssembly the hard way](https://surma.dev/things/rust-to-webassembly/)
 * [STM32F4 Embedded Rust at the PAC: System Clock Configuration](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-system-clock-configuration)
 * [Implement base64 encoding using Rust - (Part 1) Base64 for non-unicode characters](https://dev.to/quackquack/implement-base64-encoding-using-rust-part-1-base64-for-non-unicode-characters-4944)
 * [How to Build a Simple Kafka Producer/Consumer Application in Rust](https://dev.to/schultyy/how-to-build-a-simple-kafka-producerconsumer-application-in-rust-3pl4)
@@ -74,7 +74,7 @@ and just ask the editors to select the category.
 * [The Usability of Advanced Type Systems: Rust as a Case Study](https://arxiv.org/abs/2301.02308)
 
 ### Miscellaneous
-* [Learn Rust With JetBrains IDEs | The IntelliJ Rust Blog](https://blog.jetbrains.com/rust/2023/02/21/learn-rust-with-jetbrains-ides/)
+* [Learn Rust With JetBrains IDEs](https://blog.jetbrains.com/rust/2023/02/21/learn-rust-with-jetbrains-ides/)
 * [Rust in Rhymes II explainer](https://llogiq.github.io/2023/02/19/rhymes2.html)
 * [audio] [Lodestone with Wilbur Zhang, Peter Jiang, and Kevin Huang](https://rustacean-station.org/episode/lodestone/)
 
