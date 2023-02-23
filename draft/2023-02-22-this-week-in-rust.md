@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 * [The Bull Case for Rust on the Web](https://driftingin.space/posts/bull-case-for-rust-on-web)
 * [I love building a startup in Rust. I wouldn't pick it again.](https://www.propelauth.com/post/i-love-building-a-startup-in-rust-i-wouldnt-pick-it-again)
 
+* [Rust development for the Raspberry PI on Apple Silicon](https://manuel.bernhardt.io/posts/2022-11-04-rust-development-for-the-raspberry-pi-on-apple-silicon/)
+
 ### Rust Walkthroughs
 * [Learn how to build and deploy a down detector Telegram bot in Rust](https://joshmo.hashnode.dev/building-deploying-a-down-detector-telegram-bot-in-rust)
 * [Compile Time Correctness: Type State](https://peace.mk/blog/compile-time-correctness-type-state/)
