@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 * [Changelog #169](https://rust-analyzer.github.io/thisweek/2023/02/20/changelog-169.html)
 * [Rust now available for Real-Time Operating System and Hypervisor PikeOS](https://www.sysgo.com/press-releases/rust-now-available-for-real-time-operating-system-and-hypervisor-pikeos)
 
+* [Announcing Relm4 v0.5](https://relm4.org/blog/posts/announcing_relm4_v0.5)
+
 ### Observations/Thoughts
 * [Why is building a UI in Rust so hard?](https://www.warp.dev/blog/why-is-building-a-ui-in-rust-so-hard)
 * [Lightweight, Predictable Async Send Bounds](https://theincredibleholk.org/blog/2023/02/16/lightweight-predictable-async-send-bounds/)
