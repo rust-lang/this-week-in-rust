@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [(Possibly) Emulate PinePhone with Unicorn Emulator](https://lupyuen.github.io/articles/unicorn)
 
 ## Crate of the Week
 
