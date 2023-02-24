@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [When Rust hurts](https://mmapped.blog/posts/15-when-rust-hurts.html)
 
 ### Rust Walkthroughs
 
