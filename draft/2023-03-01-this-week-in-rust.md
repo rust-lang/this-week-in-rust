@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Create a launchbar app using Tauri & Rust](https://blog.spyglass.fyi/posts/2023/creating-a-launcher-in-tauri/)
 
 ### Research
 
