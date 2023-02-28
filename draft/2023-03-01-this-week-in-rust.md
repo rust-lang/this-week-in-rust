@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing Magmide Month!](https://github.com/magmide/magmide/discussions/28) (proof language for/using Rust)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
