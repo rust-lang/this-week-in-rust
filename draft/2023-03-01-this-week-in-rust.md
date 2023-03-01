@@ -28,20 +28,51 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Keyword Generics Progress Report: February 2023](https://blog.rust-lang.org/inside-rust/2023/02/23/keyword-generics-progress-report-feb-2023.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust GameDev #42 - January 2023](https://gamedev.rs/news/042/)
 
 ### Project/Tooling Updates
+* [rust-analyzer Changelog #170](https://rust-analyzer.github.io/thisweek/2023/02/27/changelog-170.html)
+* [IntelliJ Rust Changelog #189](https://intellij-rust.github.io/2023/02/27/changelog-189.html)
+* [gitoxide - [January]: The first `cargo` integration review](https://github.com/Byron/gitoxide/discussions/757)
+* [Dioxus 0.3 - Templates, Hot Reloading, LiveView, and more](https://dioxuslabs.com/blog/release-030/)
+* [Rust on Espressif chips - 2023 Roadmap](https://mabez.dev/blog/posts/esp-rust-24-02-2023/)
+* [Announcing transitive 0.4.1, for better transitivity between types](https://www.reddit.com/r/rust/comments/119roow/announcing_transitive_041_for_better_transitivity/)
+* [Announcing `compact_str` version 0.7! A small string optimization for Rust](https://www.reddit.com/r/rust/comments/1192ord/announcing_compact_str_version_07_a_small_string/)
+* [Introducing Ambient 0.1](https://www.ambient.run/post/introducing-ambient)
+* [This Week in Fyrox #16](https://fyrox.rs/blog/post/twif16/)
 
 ### Observations/Thoughts
+* [All the Problems of Mutation](https://samsartor.com/guis-3/)
+* [Learning Rust Part 1: A kitten's guide to Options and Results](https://cherrykitten.dev/blog/rust-1-options-results/)
+* [Time Travel Debugging in Rust](https://www.travelneil.com/time-travel-debugging-in-rust.html)
+* [What I learned from contributing to Rust's linter](https://blog.nindalf.com/posts/clippy/)
+* [Rust Programming #1 - Getting started & basic concepts](https://youtu.be/2NZlLK6NGmY?list=PLA3GOqJSZytqgPc76nqHc3QAr77bwj3p9)
+* [ROFL with a LOL: rewriting an NGINX module in Rust](https://blog.cloudflare.com/rust-nginx-module/)
+* [Pretty Rust backtraces in raw terminal mode](https://werat.dev/blog/pretty-rust-backtraces-in-raw-terminal-mode/)
+* [Create a launchbar app w/ Tauri](https://blog.spyglass.fyi/posts/2023/creating-a-launcher-in-tauri/)
+* [A Little Bit of Rust](https://betterprogramming.pub/a-little-bit-of-rust-d9f2afc09238)
+* [How Rust and Wasm power Cloudflare's 1.1.1.1](https://blog.cloudflare.com/big-pineapple-intro/)
+* [STM32F4 Embedded Rust at the PAC: SysTick Delay](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-systick-delay)
+* [Write a First Person Game in 2KB With Rust](https://grantshandy.github.io/posts/raycasting/)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [Rust Nation 2023 Review](https://matt.si/2023-02/rust-nation/)
+* [Announcing wasi-threads](https://bytecodealliance.org/articles/wasi-threads)
+* [WAI is the Answer !!!](https://wasmer.io/posts/WAI-is-the-answer)
+* [video] [Tutorial: Building a Blog in Rust - Static File Server](https://youtube.com/watch?v=9uAy8skUVsc)
+* [video] [Embedded-exploration: Debugging Rust start-up code via JTAG](https://www.youtube.com/watch?v=QeiAl35bAIQ)
+* [video] [Oxidise Your Life](https://www.youtube.com/watch?v=dFkGNe4oaKk)
+* [video] [Improve your Rust APIs with the type state pattern](https://www.youtube.com/watch?v=_ccDqRTx-JU)
+* [video] [Rust and RAII Memory Management - Computerphile](https://www.youtube.com/watch?v=pTMvh6VzDls)
 
 * [EuroRust 2023 announced for Oct. 12-13 in Brussels, BE](https://eurorust.eu/)
 
