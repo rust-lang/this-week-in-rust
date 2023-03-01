@@ -104,8 +104,21 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Some noisy benchmarks impeded performance review this week. There was a notable
+improvement to a broad range of primary benchmarks, first from PR #108440, which
+revised the encodable proc macro to handle the discriminant separately from its
+fields, and second from PR #108375, which inlined a number of methods that had
+only a single caller. Both of these PR's were authored by the same contributor;
+many thanks Zoxc!
 
+Triage done by **@pnkfelix**.
+Revision range: [3fee48c1..31f858d9](https://perf.rust-lang.org/?start=3fee48c161a48b0c142d3998fff56faee96bd56c&end=31f858d9a511f24fedb8ed997b28304fec809630&absolute=false&stat=instructions%3Au)
+
+5 Regressions, 4 Improvements, 6 Mixed; 6 of them in rollups
+39 artifact comparisons made in total
+
+[Full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-02-28.md) 
+ 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
