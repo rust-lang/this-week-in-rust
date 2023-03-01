@@ -34,7 +34,7 @@ and just ask the editors to select the category.
 * [Governance Reform RFC Announcement](https://blog.rust-lang.org/inside-rust/2023/02/22/governance-reform-rfc.html)
 
 ### Project/Tooling Updates
-* [Changelog #169](https://rust-analyzer.github.io/thisweek/2023/02/20/changelog-169.html)
+* [rust-analyzer Changelog #169](https://rust-analyzer.github.io/thisweek/2023/02/20/changelog-169.html)
 * [Rust now available for Real-Time Operating System and Hypervisor PikeOS](https://www.sysgo.com/press-releases/rust-now-available-for-real-time-operating-system-and-hypervisor-pikeos)
 * [Announcing Relm4 v0.5](https://relm4.org/blog/posts/announcing_relm4_v0.5)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Accidental Side-Effect](https://www.fornjot.app/blog/weekly-release/2023-w08/)
