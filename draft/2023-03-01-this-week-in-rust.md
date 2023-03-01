@@ -78,9 +78,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
+* [RFC: Move std::net::IpAddr types into core::net.](https://github.com/rust-lang/rfcs/pull/2832)
 
 ### Final Comment Period
 
@@ -89,34 +87,35 @@ which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: close] [Rename {Option, Result}::expect to unwrap_or_panic](https://github.com/rust-lang/rfcs/pull/3218)
+* [disposition: close] [take on bool](https://github.com/rust-lang/rfcs/pull/3189)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [io: soften ‘at most one write attempt’ requirement in io::Write::write](https://github.com/rust-lang/rust/pull/107200)
+* [disposition: merge] [Make `unused_allocation` lint against `Box::new` too](https://github.com/rust-lang/rust/pull/104363)
+* [disposition: merge] [Properly allow macro expanded format_args invocations to uses captures](https://github.com/rust-lang/rust/pull/106505)
+* [disposition: merge] [Add `NonZero{I,U}{8,16,32,64,128,size}::{MIN,MAX}`](https://github.com/rust-lang/rust/issues/89065)
+* [disposition: merge] [allow negative numeric literals in concat!](https://github.com/rust-lang/rust/pull/106844)
+* [disposition: merge] [Tracking issue for atomic_mut_ptr](https://github.com/rust-lang/rust/issues/66893)
+* [disposition: merge] [Add documentation about the memory layout of `Cell`](https://github.com/rust-lang/rust/pull/106921)
+* [disposition: merge] [Tracking issue for `PathBuf::as_mut_os_string` and `Path::as_mut_os_str`](https://github.com/rust-lang/rust/issues/105021)
+* [disposition: merge] [Use `partial_cmp` to implement tuple `lt`/`le`/`ge`/`gt`](https://github.com/rust-lang/rust/pull/108157)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+* [new] [Create RFC for bundling local images in rustdoc output](https://github.com/rust-lang/rfcs/pull/3397)
+* [new] [Extern types v2](https://github.com/rust-lang/rfcs/pull/3396)
+* [new] [format-dynamic-fill](https://github.com/rust-lang/rfcs/pull/3394)
+* [new] [Add RFC on governance, establishing the Leadership Council](https://github.com/rust-lang/rfcs/pull/3392)
+* [new] [RFC: result_ffi_guarantees](https://github.com/rust-lang/rfcs/pull/3391)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+* *No RFCs issued a call for testing this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
