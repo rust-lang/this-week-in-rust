@@ -30,8 +30,6 @@ and just ask the editors to select the category.
 ### Official
 * [Keyword Generics Progress Report: February 2023](https://blog.rust-lang.org/inside-rust/2023/02/23/keyword-generics-progress-report-feb-2023.html)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust GameDev #42 - January 2023](https://gamedev.rs/news/042/)
 
@@ -48,10 +46,7 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Still More To Do](https://www.fornjot.app/blog/weekly-release/2023-w09/)
 * [video] [Cargo's New Sparse Index w/special guest Arlo Siemsen](https://www.youtube.com/watch?v=LWef_2IaFDk)
 * [Kani Internship Projects 2022: Function Stubbing](https://model-checking.github.io/kani-verifier-blog/2023/02/28/kani-internship-projects-2022-stubbing.html)
-
 * [Announcing Magmide Month!](https://github.com/magmide/magmide/discussions/28) (proof language for/using Rust)
-
-* [Rust on Espressif chips - 2023 Roadmap](https://mabez.dev/blog/posts/esp-rust-24-02-2023/)
 
 ### Observations/Thoughts
 * [video] [Rust and RAII Memory Management - Computerphile](https://www.youtube.com/watch?v=pTMvh6VzDls)
@@ -60,7 +55,7 @@ and just ask the editors to select the category.
 * [When Rust hurts](https://mmapped.blog/posts/15-when-rust-hurts.html)
 * [Time Travel Debugging in Rust](https://www.travelneil.com/time-travel-debugging-in-rust.html)
 * [What I learned from contributing to Rust's linter](https://blog.nindalf.com/posts/clippy/)
-* [Rust Programming #1 - Getting started & basic concepts](https://youtu.be/2NZlLK6NGmY?list=PLA3GOqJSZytqgPc76nqHc3QAr77bwj3p9)
+* [Rust Programming #1 - Getting started & basic concepts](https://www.youtube.com/watch?v=2NZlLK6NGmY&list=PLA3GOqJSZytqgPc76nqHc3QAr77bwj3p9)
 * [ROFL with a LOL: rewriting an NGINX module in Rust](https://blog.cloudflare.com/rust-nginx-module/)
 * [Pretty Rust backtraces in raw terminal mode](https://werat.dev/blog/pretty-rust-backtraces-in-raw-terminal-mode/)
 * [A Little Bit of Rust](https://betterprogramming.pub/a-little-bit-of-rust-d9f2afc09238)
@@ -71,12 +66,11 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Trait Implementations and References](https://www.judy.co.uk/blog/rust-traits-and-references/)
 * [Some exercises to accompany the Rust Book](https://www.hyperexponential.com/blog/rust-language-exercises-at-hx)
-* [video] [Compression from scratch: Huffman coding tutorial](https://youtu.be/ek_HJX8sQqk)
+* [video] [Compression from scratch: Huffman coding tutorial](https://www.youtube.com/watch?v=ek_HJX8sQqk)
 * [Create a launchbar app using Tauri & Rust](https://blog.spyglass.fyi/posts/2023/creating-a-launcher-in-tauri/)
 
-### Research
-
 ### Miscellaneous
+* [EuroRust 2023 announced for Oct. 12-13 in Brussels, BE](https://eurorust.eu/)
 * [Introducing MailCrab!](https://tweedegolf.nl/en/blog/86/introducing-mailcrab)
 * [Rust Nation 2023 Review](https://matt.si/2023-02/rust-nation/)
 * [Announcing wasi-threads](https://bytecodealliance.org/articles/wasi-threads)
@@ -86,8 +80,6 @@ and just ask the editors to select the category.
 * [video] [Oxidise Your Life](https://www.youtube.com/watch?v=dFkGNe4oaKk)
 * [video] [Improve your Rust APIs with the type state pattern](https://www.youtube.com/watch?v=_ccDqRTx-JU)
 * [(Possibly) Emulate PinePhone with Unicorn Emulator](https://lupyuen.github.io/articles/unicorn)
-* [EuroRust 2023 announced for Oct. 12-13 in Brussels, BE](https://eurorust.eu/)
-
 * [Video] [Generic Traits, Impls, and Slices in Rustlang](https://www.youtube.com/watch?v=ykQbsTHqKF)
 
 ## Crate of the Week
@@ -357,7 +349,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/10nmtew/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
