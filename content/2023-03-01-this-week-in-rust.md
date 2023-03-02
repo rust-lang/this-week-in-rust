@@ -80,7 +80,7 @@ and just ask the editors to select the category.
 * [video] [Oxidise Your Life](https://www.youtube.com/watch?v=dFkGNe4oaKk)
 * [video] [Improve your Rust APIs with the type state pattern](https://www.youtube.com/watch?v=_ccDqRTx-JU)
 * [(Possibly) Emulate PinePhone with Unicorn Emulator](https://lupyuen.github.io/articles/unicorn)
-* [Video] [Generic Traits, Impls, and Slices in Rustlang](https://www.youtube.com/watch?v=ykQbsTHqKF)
+* [Video] [Generic Traits, Impls, and Slices in Rustlang](https://www.youtube.com/watch?v=ykQbsTHqKFo)
 
 ## Crate of the Week
 
