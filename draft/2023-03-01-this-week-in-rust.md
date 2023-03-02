@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 * [Announcing Magmide Month!](https://github.com/magmide/magmide/discussions/28) (proof language for/using Rust)
 
+* [Rust on Espressif chips - 2023 Roadmap](https://mabez.dev/blog/posts/esp-rust-24-02-2023/)
+
 ### Observations/Thoughts
 * [video] [Rust and RAII Memory Management - Computerphile](https://www.youtube.com/watch?v=pTMvh6VzDls)
 * [All the Problems of Mutation](https://samsartor.com/guis-3/)
