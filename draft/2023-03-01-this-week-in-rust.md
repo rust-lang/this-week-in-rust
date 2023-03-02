@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 * [video] [Cargo's New Sparse Index w/special guest Arlo Siemsen](https://www.youtube.com/watch?v=LWef_2IaFDk)
 * [Kani Internship Projects 2022: Function Stubbing](https://model-checking.github.io/kani-verifier-blog/2023/02/28/kani-internship-projects-2022-stubbing.html)
 
+* [Announcing Magmide Month!](https://github.com/magmide/magmide/discussions/28) (proof language for/using Rust)
+
 ### Observations/Thoughts
 * [video] [Rust and RAII Memory Management - Computerphile](https://www.youtube.com/watch?v=pTMvh6VzDls)
 * [All the Problems of Mutation](https://samsartor.com/guis-3/)
