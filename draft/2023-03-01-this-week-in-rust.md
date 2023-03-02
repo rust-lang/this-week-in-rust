@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [Announcing `compact_str` version 0.7! A small string optimization for Rust](https://www.reddit.com/r/rust/comments/1192ord/announcing_compact_str_version_07_a_small_string/)
 * [Introducing Ambient 0.1](https://www.ambient.run/post/introducing-ambient)
 * [This Week in Fyrox #16](https://fyrox.rs/blog/post/twif16/)
+* [Fornjot (code-first CAD in Rust) - Weekly Release - Still More To Do](https://www.fornjot.app/blog/weekly-release/2023-w09/)
 * [video] [Cargo's New Sparse Index w/special guest Arlo Siemsen](https://www.youtube.com/watch?v=LWef_2IaFDk)
 
 ### Observations/Thoughts
