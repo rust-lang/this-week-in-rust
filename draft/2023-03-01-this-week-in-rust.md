@@ -62,6 +62,7 @@ and just ask the editors to select the category.
 * [Write a First Person Game in 2KB With Rust](https://grantshandy.github.io/posts/raycasting/)
 
 ### Rust Walkthroughs
+* [Trait Implementations and References](https://www.judy.co.uk/blog/rust-traits-and-references/)
 
 * [Some exercises to accompany the Rust Book](https://www.hyperexponential.com/blog/rust-language-exercises-at-hx)
 
