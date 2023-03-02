@@ -43,9 +43,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
-- [Video] [Rust and RAII Memory Management - Computerphile](https://youtu.be/pTMvh6VzDls)
-- [Video] [Oxidise Your Life](https://youtu.be/dFkGNe4oaKk)
-- [Video] [Generic Traits, Impls, and Slices in Rustlang](https://youtu.be/ykQbsTHqKFo)
+* [Video] [Generic Traits, Impls, and Slices in Rustlang](https://www.youtube.com/watch?v=ykQbsTHqKF)
 
 ## Crate of the Week
 
