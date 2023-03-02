@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 * [This Week in Fyrox #16](https://fyrox.rs/blog/post/twif16/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Still More To Do](https://www.fornjot.app/blog/weekly-release/2023-w09/)
 * [video] [Cargo's New Sparse Index w/special guest Arlo Siemsen](https://www.youtube.com/watch?v=LWef_2IaFDk)
+* [Kani Internship Projects 2022: Function Stubbing](https://model-checking.github.io/kani-verifier-blog/2023/02/28/kani-internship-projects-2022-stubbing.html)
 
 ### Observations/Thoughts
 * [video] [Rust and RAII Memory Management - Computerphile](https://www.youtube.com/watch?v=pTMvh6VzDls)
