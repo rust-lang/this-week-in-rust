@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [All the Problems of Mutation](https://samsartor.com/guis-3/)
 * [Learning Rust Part 1: A kitten's guide to Options and Results](https://cherrykitten.dev/blog/rust-1-options-results/)
+* [When Rust hurts](https://mmapped.blog/posts/15-when-rust-hurts.html)
 * [Time Travel Debugging in Rust](https://www.travelneil.com/time-travel-debugging-in-rust.html)
 * [What I learned from contributing to Rust's linter](https://blog.nindalf.com/posts/clippy/)
 * [Rust Programming #1 - Getting started & basic concepts](https://youtu.be/2NZlLK6NGmY?list=PLA3GOqJSZytqgPc76nqHc3QAr77bwj3p9)
