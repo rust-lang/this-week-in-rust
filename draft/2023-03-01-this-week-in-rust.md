@@ -73,6 +73,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Introducing MailCrab!](https://tweedegolf.nl/en/blog/86/introducing-mailcrab)
 
 * [Rust Nation 2023 Review](https://matt.si/2023-02/rust-nation/)
 * [Announcing wasi-threads](https://bytecodealliance.org/articles/wasi-threads)
