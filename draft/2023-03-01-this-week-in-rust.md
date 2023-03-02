@@ -73,7 +73,6 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Introducing MailCrab!](https://tweedegolf.nl/en/blog/86/introducing-mailcrab)
-
 * [Rust Nation 2023 Review](https://matt.si/2023-02/rust-nation/)
 * [Announcing wasi-threads](https://bytecodealliance.org/articles/wasi-threads)
 * [WAI is the Answer !!!](https://wasmer.io/posts/WAI-is-the-answer)
@@ -81,7 +80,6 @@ and just ask the editors to select the category.
 * [video] [Embedded-exploration: Debugging Rust start-up code via JTAG](https://www.youtube.com/watch?v=QeiAl35bAIQ)
 * [video] [Oxidise Your Life](https://www.youtube.com/watch?v=dFkGNe4oaKk)
 * [video] [Improve your Rust APIs with the type state pattern](https://www.youtube.com/watch?v=_ccDqRTx-JU)
-* [video] [Rust and RAII Memory Management - Computerphile](https://www.youtube.com/watch?v=pTMvh6VzDls)
 * [(Possibly) Emulate PinePhone with Unicorn Emulator](https://lupyuen.github.io/articles/unicorn)
 * [EuroRust 2023 announced for Oct. 12-13 in Brussels, BE](https://eurorust.eu/)
 
