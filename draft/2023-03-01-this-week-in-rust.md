@@ -94,8 +94,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [barricade - Add support for OpenID Connect](https://github.com/purton-tech/barricade/issues/1)
+* [config-rs - CFP for the config-rs-ng experiment for a new implementation of the config-rs crate](https://beyermatthias.de/call-for-participation-config-rs-and-config-rs-ng)
+* [Ockam - Remove the check_credential arguments from clap command ockam tcp-inlet create](https://github.com/build-trust/ockam/issues/4308)
+* [Ockam - Implement clap command ockam tcp-listener delete](https://github.com/build-trust/ockam/issues/4367)
+* [Ockam - Improve install.sh to install in path - like rustup](https://github.com/build-trust/ockam/issues/4359)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
