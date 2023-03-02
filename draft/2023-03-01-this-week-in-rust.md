@@ -66,6 +66,8 @@ and just ask the editors to select the category.
 
 * [Some exercises to accompany the Rust Book](https://www.hyperexponential.com/blog/rust-language-exercises-at-hx)
 
+* [video] [Compression from scratch: Huffman coding tutorial](https://youtu.be/ek_HJX8sQqk)
+
 ### Research
 
 ### Miscellaneous
