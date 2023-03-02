@@ -58,7 +58,6 @@ and just ask the editors to select the category.
 * [Rust Programming #1 - Getting started & basic concepts](https://youtu.be/2NZlLK6NGmY?list=PLA3GOqJSZytqgPc76nqHc3QAr77bwj3p9)
 * [ROFL with a LOL: rewriting an NGINX module in Rust](https://blog.cloudflare.com/rust-nginx-module/)
 * [Pretty Rust backtraces in raw terminal mode](https://werat.dev/blog/pretty-rust-backtraces-in-raw-terminal-mode/)
-* [Create a launchbar app w/ Tauri](https://blog.spyglass.fyi/posts/2023/creating-a-launcher-in-tauri/)
 * [A Little Bit of Rust](https://betterprogramming.pub/a-little-bit-of-rust-d9f2afc09238)
 * [How Rust and Wasm power Cloudflare's 1.1.1.1](https://blog.cloudflare.com/big-pineapple-intro/)
 * [STM32F4 Embedded Rust at the PAC: SysTick Delay](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-systick-delay)
@@ -66,16 +65,14 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Trait Implementations and References](https://www.judy.co.uk/blog/rust-traits-and-references/)
-
 * [Some exercises to accompany the Rust Book](https://www.hyperexponential.com/blog/rust-language-exercises-at-hx)
-
 * [video] [Compression from scratch: Huffman coding tutorial](https://youtu.be/ek_HJX8sQqk)
+* [Create a launchbar app using Tauri & Rust](https://blog.spyglass.fyi/posts/2023/creating-a-launcher-in-tauri/)
 
 ### Research
 
 ### Miscellaneous
 * [Introducing MailCrab!](https://tweedegolf.nl/en/blog/86/introducing-mailcrab)
-
 * [Rust Nation 2023 Review](https://matt.si/2023-02/rust-nation/)
 * [Announcing wasi-threads](https://bytecodealliance.org/articles/wasi-threads)
 * [WAI is the Answer !!!](https://wasmer.io/posts/WAI-is-the-answer)
@@ -83,7 +80,6 @@ and just ask the editors to select the category.
 * [video] [Embedded-exploration: Debugging Rust start-up code via JTAG](https://www.youtube.com/watch?v=QeiAl35bAIQ)
 * [video] [Oxidise Your Life](https://www.youtube.com/watch?v=dFkGNe4oaKk)
 * [video] [Improve your Rust APIs with the type state pattern](https://www.youtube.com/watch?v=_ccDqRTx-JU)
-* [video] [Rust and RAII Memory Management - Computerphile](https://www.youtube.com/watch?v=pTMvh6VzDls)
 * [(Possibly) Emulate PinePhone with Unicorn Emulator](https://lupyuen.github.io/articles/unicorn)
 * [EuroRust 2023 announced for Oct. 12-13 in Brussels, BE](https://eurorust.eu/)
 
