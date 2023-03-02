@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [video] [Cargo's New Sparse Index w/special guest Arlo Siemsen](https://www.youtube.com/watch?v=LWef_2IaFDk)
 
 ### Observations/Thoughts
+* [video] [Rust and RAII Memory Management - Computerphile](https://www.youtube.com/watch?v=pTMvh6VzDls)
 * [All the Problems of Mutation](https://samsartor.com/guis-3/)
 * [Learning Rust Part 1: A kitten's guide to Options and Results](https://cherrykitten.dev/blog/rust-1-options-results/)
 * [When Rust hurts](https://mmapped.blog/posts/15-when-rust-hurts.html)
