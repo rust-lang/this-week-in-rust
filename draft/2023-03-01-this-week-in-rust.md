@@ -88,6 +88,8 @@ and just ask the editors to select the category.
 * [(Possibly) Emulate PinePhone with Unicorn Emulator](https://lupyuen.github.io/articles/unicorn)
 * [EuroRust 2023 announced for Oct. 12-13 in Brussels, BE](https://eurorust.eu/)
 
+* [Video] [Generic Traits, Impls, and Slices in Rustlang](https://www.youtube.com/watch?v=ykQbsTHqKF)
+
 ## Crate of the Week
 
 This week's crate is [goku](https://github.com/jcaromiq/goku/), a HTTP load tester.
