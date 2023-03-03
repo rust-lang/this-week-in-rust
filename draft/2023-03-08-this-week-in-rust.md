@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Creating and publishing a Python package written in Rust](https://antoniosbarotsis.github.io/posts/python_package_written_in_rust/)
+
 ### Research
 
 ### Miscellaneous
