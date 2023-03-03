@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+[video] [Living with Rust Long-Term - Jon Gjengset](https://www.youtube.com/watch?v=r35cBkPRNMI)
 
 ### Rust Walkthroughs
 
