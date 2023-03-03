@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [How a broken elevator led to one of the most loved programming languages available today](https://www.techspot.com/news/97654-how-broken-elevator-led-one-most-loved-programming.html)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
