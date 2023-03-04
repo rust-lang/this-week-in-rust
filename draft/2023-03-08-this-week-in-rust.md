@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust coding style](https://tzemanovic.gitlab.io/posts/rust-coding-style/)
+
 ### Rust Walkthroughs
 
 ### Research
