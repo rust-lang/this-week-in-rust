@@ -137,18 +137,39 @@ Use the included `new_contribs.sh` script:
 
 ## Building
 
-Ensure you have SASS installed. The easiest way to get it is via `gem`, the
-Ruby package manager.
+To ensure consistency across development setups, we use a [Docker](https://www.docker.com) container-based
+workflow for building the website and email newsletter. Similarly, we use a `makefile` to Ensure you have Docker installed on your system if
+you intend to build the website or email newsletter.
 
-```
-env SASS_BIN=$HOME/.gem/ruby/*/bin/sass pelican content -s pelicanconf.py
-```
+### Building the website
 
-### To build the newsletter
+*Before attempting to build the website, ensure Docker is in a running state on your system.*
 
-* Generate the HTML
+* Enter the `publishing/` directory:
+  ```sh
+  cd publishing
   ```
-  TWIR_NEWSLETTER_THEME=1 pelican --delete-output-directory content
+* Run the Docker build and website local-host command:
+  ```sh
+  make build && make generate-website && make host-content
   ```
-* Copy the HTML and inline CSS at http://zurb.com/ink/inliner.php - (MailChimp's inliner doesn't remove the CSS from `<head>`).
-* Send the newsletter (we currently use MailChimp).
+* View the website locally at default http://localhost:8000, or specific posts
+  at http://localhost:8000/blog/{YEAR}/{MONTH}/{DAY}/{ISSUE}/.
+
+Note: If looking to test the website's search functionality locally, you will need to adjust the [`TESTING_LOCALLY`](https://github.com/rust-lang/this-week-in-rust/blob/dc127f17fcabbf0f058eb3d5a3febba434ddca83/pelicanconf.py#L7)
+variable to `True`.
+
+### Building the newsletter
+
+*Before attempting to build the email newsletter, ensure Docker is in a running state on your system.*
+
+* Enter the `publishing/` directory:
+  ```sh
+  cd publishing
+  ```
+* Run the Docker build and website local-host command:
+  ```sh
+  make build && make generate-email && make host-content
+  ```
+* View the email newsletter formatting of specific posts at
+  http://localhost:8000/blog/{YEAR}/{MONTH}/{DAY}/{ISSUE}/.
