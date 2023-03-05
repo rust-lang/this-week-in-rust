@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Foogold - checking random (and not so random) bitcoin mnemonics](https://www.badykov.com/rust/bitcoin/foogold/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
