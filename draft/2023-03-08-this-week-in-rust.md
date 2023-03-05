@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Professional Rustacean, 3 months in](https://briankung.dev/2023/02/17/professional-rustacean-3-months-in/)
+
 ### Rust Walkthroughs
 
 ### Research
