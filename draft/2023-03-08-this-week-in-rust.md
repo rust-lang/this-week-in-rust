@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 * [Introducing runst: Handle desktop notifications neatly on Linux!](https://blog.orhun.dev/introducing-runst)
 
 ### Observations/Thoughts
+* [Re-exporting an enum with a type alias is breaking, but not major](https://predr.ag/blog/re-exporting-enum-with-type-alias-breaking-change-not-major/)
 * [Professional Rustacean, 3 months in](https://briankung.dev/2023/02/17/professional-rustacean-3-months-in/)
 * [Rust coding style](https://tzemanovic.gitlab.io/posts/rust-coding-style/)
 
