@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Academy Software Foundation Rust Working Group Status and Survey](https://www.reddit.com/r/rust/comments/11dxy7e/academy_software_foundation_rust_working_group/)
 
 ## Crate of the Week
 
