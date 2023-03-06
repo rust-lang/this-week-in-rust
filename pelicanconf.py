@@ -19,8 +19,6 @@ else:
     THEME = 'themes/rusted'
 
 THEME_STATIC_DIR = THEME + '/static'
-PLUGIN_PATHS = ["plugins"]
-PLUGINS = ['assets', 'neighbors']
 
 TIMEZONE = 'America/New_York'
 
@@ -52,11 +50,13 @@ scattered about.
 """
 }
 
-# Don't add search functionality for email.
+PLUGIN_PATHS = ["plugins"]
+
+# Don't add next/previous buttons search functionality for email.
 if USE_EMAIL_THEME:
     PLUGINS = ['webassets']
 else:
-    PLUGINS = ['webassets', 'search']
+    PLUGINS = ['webassets', 'neighbors', 'search']
     SEARCH_HTML_SELECTOR = "article"
 
 MARKDOWN = {
