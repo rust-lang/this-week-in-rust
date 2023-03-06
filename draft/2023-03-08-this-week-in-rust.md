@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust coding style](https://tzemanovic.gitlab.io/posts/rust-coding-style/)
+
 ### Rust Walkthroughs
 * [Build a Ray Tracer, pt. 2 - Enter The Matrix](https://www.superperfundo.dev/articles/ray-tracer-part2)
 
