@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Re-exporting an enum with a type alias is breaking, but not major](https://predr.ag/blog/re-exporting-enum-with-type-alias-breaking-change-not-major/)
 
 ### Rust Walkthroughs
 
