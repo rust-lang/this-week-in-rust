@@ -34,16 +34,14 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
 * [Introducing runst: Handle desktop notifications neatly on Linux!](https://blog.orhun.dev/introducing-runst)
 
 ### Observations/Thoughts
-
+* [Professional Rustacean, 3 months in](https://briankung.dev/2023/02/17/professional-rustacean-3-months-in/)
 * [Rust coding style](https://tzemanovic.gitlab.io/posts/rust-coding-style/)
 
 ### Rust Walkthroughs
 * [Build a Ray Tracer, pt. 2 - Enter The Matrix](https://www.superperfundo.dev/articles/ray-tracer-part2)
-
 * [Creating and publishing a Python package written in Rust](https://antoniosbarotsis.github.io/posts/python_package_written_in_rust/)
 
 ### Research
