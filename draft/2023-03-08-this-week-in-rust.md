@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [A Windows software written in RUST available in the Microsoft Store](https://pdhv.fr)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Progressed Extremely Well](https://www.fornjot.app/blog/weekly-release/2023-w10/)
 * [Introducing runst: Handle desktop notifications neatly on Linux!](https://blog.orhun.dev/introducing-runst)
 
