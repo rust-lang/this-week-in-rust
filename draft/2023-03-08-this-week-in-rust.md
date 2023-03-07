@@ -201,6 +201,8 @@ Rusty Events between 2023-03-08 - 2023-04-05 🦀
     * [**Rust Lyon Meetup #2**](https://www.meetup.com/fr-FR/rust-lyon/events/291727241/)
 * 2023-03-15 | Nürnberg, DE | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
     * [**Walk around Embedded World Exhibition**](https://www.meetup.com/rust-noris/events/291623203/)
+* 2023-03-15 | Trondheim, NO | [Rust Trondheim](https://www.meetup.com/rust-trondheim/)
+    * [**Rust graphics with nannou**](https://www.meetup.com/rust-trondheim/events/292085409/) 
 * 2023-03-17 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/rust-community-stuttgart)
     * [**OnSite Meeting**](https://www.meetup.com/rust-community-stuttgart/events/zmppzsyfcfbwb/)
 * 2023-03-28 | Zurich, CH | [Rust Zurich](https://www.meetup.com/de-DE/rust-zurich/events/291449557/)
