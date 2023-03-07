@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [man-in-the-middle-proxy](https://github.com/emanuele-em/man-in-the-middle-proxy), a - surprise! - man in the middle proxy.
+
+Thanks to [Emanuele Em](https://users.rust-lang.org/t/crate-of-the-week/2704/1163) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -77,7 +79,67 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+376 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-02-27..2023-03-06
+
+* [apply BOLT optimizations without rebuilding LLVM](https://github.com/rust-lang/rust/pull/107723)
+* [add support for QNX Neutrino to standard library](https://github.com/rust-lang/rust/pull/106673)
+* [recover from for-else and while-else](https://github.com/rust-lang/rust/pull/108427)
+* [allow checking whether a type allows being uninitialized](https://github.com/rust-lang/rust/pull/108669)
+* [allow setting hashmap toml values in `./configure`](https://github.com/rust-lang/rust/pull/108644)
+* [point error span at Some constructor argument when trait resolution fails](https://github.com/rust-lang/rust/pull/108557)
+* [deny capturing late-bound non-lifetime param in anon const](https://github.com/rust-lang/rust/pull/108553)
+* [descriptive error when users try to combine RPITIT/AFIT with specialization](https://github.com/rust-lang/rust/pull/108551)
+* [add warning on pre- and postfix decrement](https://github.com/rust-lang/rust/pull/108496)
+* [exit when there are unmatched delims to avoid noisy diagnostics](https://github.com/rust-lang/rust/pull/108297)
+* [erase **all** regions when probing for associated types on ambiguity in astconv](https://github.com/rust-lang/rust/pull/108575)
+* [erase regions even when failing to normalize type in MIR opts](https://github.com/rust-lang/rust/pull/108787)
+* [don't ICE when encountering bound var in builtin copy/clone bounds](https://github.com/rust-lang/rust/pull/108744)
+* [fix ICE: check if snippet is `)`](https://github.com/rust-lang/rust/pull/108298)
+* [fix another ICE in `point_at_expr_source_of_inferred_type`](https://github.com/rust-lang/rust/pull/108667)
+* [feed queries on impl side for RPITITs when using `lower_impl_trait_in_trait_to_assoc_ty`](https://github.com/rust-lang/rust/pull/108672)
+* [make `associated_item_def_ids` for traits use an unstable option to also return associated types for RPITITs](https://github.com/rust-lang/rust/pull/108568)
+* [new solver: implement canonicalization and region constraints](https://github.com/rust-lang/rust/pull/107981)
+* [don't project to RPITIT that has no default value](https://github.com/rust-lang/rust/pull/108746)
+* [desugaring of drop and replace at MIR build](https://github.com/rust-lang/rust/pull/107844)
+* [don't call `temporary_scope` twice](https://github.com/rust-lang/rust/pull/108692)
+* [stabilize `cmpxchg16b_target_feature`](https://github.com/rust-lang/rust/pull/106774)
+* [add `Atomic*::from_ptr`](https://github.com/rust-lang/rust/pull/108540)
+* [add `Option::as_`(`mut_`)`slice`](https://github.com/rust-lang/rust/pull/105871)
+* [fix `VecDeque::append` capacity overflow for ZSTs](https://github.com/rust-lang/rust/pull/108462)
+* [use `partial_cmp` to implement tuple `lt`/`le`/`ge`/`gt`](https://github.com/rust-lang/rust/pull/108157)
+* [add vectored positioned I/O on Unix](https://github.com/rust-lang/rust/pull/89518)
+* [cargo: breaking endless loop on cyclic features in added dependency in cargo-add](https://github.com/rust-lang/cargo/pull/11805)
+* [cargo: fix `CARGO_CFG_` vars for configs defined both with and without value](https://github.com/rust-lang/cargo/pull/11790)
+* [cargo: fix help string for "--charset" option of "cargo tree"](https://github.com/rust-lang/cargo/pull/11785)
+* [cargo: fix(toml): provide a way to show unused manifest keys for dependencies](https://github.com/rust-lang/cargo/pull/11630)
+* [cargo: gitoxide integration: fetch](https://github.com/rust-lang/cargo/pull/11448)
+* [cargo: improve error for missing crate in --offline mode for sparse index](https://github.com/rust-lang/cargo/pull/11783)
+* [cargo: make `sparse` the default protocol for crates.io](https://github.com/rust-lang/cargo/pull/11791)
+* [rustdoc-json: switch from HashMap to FxHashMap to fix non-determinism](https://github.com/rust-lang/rust/pull/108626)
+* [rustdoc: function signature search with traits in `where` clause](https://github.com/rust-lang/rust/pull/108723)
+* [rustdoc: reduce allocations when generating tooltips](https://github.com/rust-lang/rust/pull/108098)
+* [rustdoc: search by macro when query ends with `!`](https://github.com/rust-lang/rust/pull/108143)
+* [rustdoc: show that repeated expression arrays can be made with constant values](https://github.com/rust-lang/rust/pull/108531)
+* [clippy: downgrade `let_underscore_untyped` to restriction](https://github.com/rust-lang/rust-clippy/pull/10442)
+* [clippy: fix false positive for `let_unit_value` when `await` used](https://github.com/rust-lang/rust-clippy/pull/10439)
+* [clippy: fix ICE in `multiple_unsafe_ops_per_block`](https://github.com/rust-lang/rust-clippy/pull/10405)
+* [clippy: fix `array-size-threshold` config deserialization error](https://github.com/rust-lang/rust-clippy/pull/10423)
+* [clippy: fix various ICEs](https://github.com/rust-lang/rust-clippy/pull/10403)
+* [clippy: `missing_docs_in_private_items` should cover only private items](https://github.com/rust-lang/rust-clippy/pull/10324)
+* [rust-analyzer: allow `generate_function` to generate in different local crate](https://github.com/rust-lang/rust-analyzer/pull/14238)
+* [rust-analyzer: diagnose unresolved field, method call and call expression](https://github.com/rust-lang/rust-analyzer/pull/14243)
+* [rust-analyzer: diagnose value breaks in incorrect breakables](https://github.com/rust-lang/rust-analyzer/pull/14240)
+* [rust-analyzer: make `replace_or_with_or_else` assists more generally applicable](https://github.com/rust-lang/rust-analyzer/pull/14266)
+* [rust-analyzer: adjust `replace_match_with_if_let` applicability range](https://github.com/rust-lang/rust-analyzer/pull/14260)
+* [rust-analyzer: don't drop rustc crates in the rustc workspace](https://github.com/rust-lang/rust-analyzer/pull/14234)
+* [rust-analyzer: fix associated item visibility in block-local impls](https://github.com/rust-lang/rust-analyzer/pull/14176)
+* [rust-analyzer: load the sysroot in all CLI commands](https://github.com/rust-lang/rust-analyzer/pull/14239)
+* [rust-analyzer: run doctests for structs with lifetime parameters from IDE](https://github.com/rust-lang/rust-analyzer/pull/14185)
+* [rust-analyzer: generate correct completion edits for missing macro arguments](https://github.com/rust-lang/rust-analyzer/pull/14247)
+* [rust-analyzer: implement pattern mismatch diagnostics (but keep them disabled)](https://github.com/rust-lang/rust-analyzer/pull/14222)
+* [rust-analyzer: support removing nested `dbg!()`s in `remove_dbg`](https://github.com/rust-lang/rust-analyzer/pull/14225)
 
 ### Rust Compiler Performance Triage
 
@@ -240,7 +302,15 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> (…) as much as i dislike the [cargo-geiger](https://crates.io/crates/cargo-geiger) concept, the name … kind of works
+>
+> `unsafe` is a lot like uranium. it’s just one more metal ore you can process, refine, and machine. it doesn’t combust in atmosphere, it doesn’t corrode or make weird acids. unless you go out of your way to make it dangerous you don’t even have to worry about critical masses. you can work with it pretty normally most of the time
+>
+> but if you don’t know exactly what it is, what it does, and how to work with it, it will cause mysterious illnesses that only crop up long after you’ve stopped touching it
+
+– [Alexander Payne on /r/rust](https://www.reddit.com/r/rust/comments/11eyu50/comment/jahdf3b/)
+
+Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1377) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
