@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Progressed Extremely Well](https://www.fornjot.app/blog/weekly-release/2023-w10/)
 * [Introducing runst: Handle desktop notifications neatly on Linux!](https://blog.orhun.dev/introducing-runst)
+* [Databend 1.0 Release - The Future of Cloud Data Analytics](https://databend.rs/blog/databend-release-v1.0)
 
 ### Observations/Thoughts
 * [Re-exporting an enum with a type alias is breaking, but not major](https://predr.ag/blog/re-exporting-enum-with-type-alias-breaking-change-not-major/)
