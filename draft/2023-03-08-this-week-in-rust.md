@@ -30,28 +30,72 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [RustConf 2023 is Coming—Submit a Talk Today!](https://foundation.rust-lang.org/news/rustconf-2023-is-coming-submit-a-talk-today/)
+* [Member Spotlight: HighTec](https://foundation.rust-lang.org/news/member-spotlight-hightec/)
+* [Best Practices for Integrating Rust and Qt in Embedded Systems](https://foundation.rust-lang.org/news/best-practices-for-integrating-rust-and-qt-in-embedded-systems/)
+
+### Rust Nation 2023
+
+* [Opening Address - Rebecca Rumbul](https://www.youtube.com/watch?v=y4_a3ALa_20)
+* [The Rustacean Cycle: Learn, Teach, Deliver - Nell Shamrell-Harrington](https://www.youtube.com/watch?v=dTktT8y8niw)
+* [Fast, Flexible Iteration with Rust and Rhai - Jonathan Strong](https://www.youtube.com/watch?v=u4Dd7dBxcEA)
+* [iOS, Android and Web applications that share a single Rust core - Stuart Harris](https://www.youtube.com/watch?v=cWCZms92-1g)
+* [Tricks of the Trait: Enabling Ergonomic Extractors - Rob Ede](https://www.youtube.com/watch?v=7DOYtnCXucw)
+* [Let's Get Rusty In Here - Daniel Thompson-Yvetot](https://www.youtube.com/watch?v=4FymKv23J34)
+* [Let’s write async rust from the ground up! - Conrad Ludgate](https://www.youtube.com/watch?v=7pU3gOVAeVQ)
+* [What I learned by solving 50 Advent of Code challenges in Rust - Luciano Mammino](https://www.youtube.com/watch?v=udHjmno-tfA)
+* [Spreading Rust to the rest of the company: Moving past the proof of concept - Tim McNamara](https://www.youtube.com/watch?v=4DLhTPsg8QQ)
+* [A tale of binary translation - Amanieu D'Antras](https://www.youtube.com/watch?v=Avp55U2JFcQ)
+* [Embracing Rust at fly.io: How Rust powers our networking layer - Senyo Simpson](https://www.youtube.com/watch?v=-O31eFqBmf4)
+* [Closing the Supply Chain Security Loop with Rust and Pyrsia - Steven Chin](https://www.youtube.com/watch?v=ec8vvD1SG-s)
+* [SurrealDB: from Golang to Rust — building the world’s fastest-growing db - Tobie Morgan Hitchcock](https://www.youtube.com/watch?v=Chl8IdMxr4Y)
+* [Moving beyond `Arc<Mutex<T>>` - Katharina Fey](https://www.youtube.com/watch?v=Z-2siR9Ki84)
+* [What does the Rust Foundation do? - Rust Foundation team](https://www.youtube.com/watch?v=EFtassAEK5A)
+* [Rust on RISC-V, a case study - Jorge Prendes and James Wainwright](https://www.youtube.com/watch?v=t5q0M5VDlQM)
+* [Rust in Rhymes II - Andre Bogus](https://www.youtube.com/watch?v=rwH57zNm-A8)
+* [Living with Rust Long-Term - Jon Gjengset](https://www.youtube.com/watch?v=r35cBkPRNMI)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Bevy 0.10](https://bevyengine.org/news/bevy-0-10/)
+* [rust-analyzer hangelog #171](https://rust-analyzer.github.io/thisweek/2023/03/06/changelog-171.html)
+* [Zellij 0.35.1 Stacked Panes and Swap Layouts](https://zellij.dev/news/stacked-panes-swap-layouts/)
+* [Oxy is Cloudflare's Rust-based next generation proxy framework](https://blog.cloudflare.com/introducing-oxy/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Progressed Extremely Well](https://www.fornjot.app/blog/weekly-release/2023-w10/)
-* [Introducing runst: Handle desktop notifications neatly on Linux!](https://blog.orhun.dev/introducing-runst)
+* [Introducing runst: Handle desktop notifications neatly on Linux!](https://blog.orhun.dev/introducing-runst/)
+* [This Month in hyper: February 2023](https://seanmonstar.com/post/710694914534539264/this-month-in-hyper-february-2023)
+
 
 ### Observations/Thoughts
+* [Safety and Soundness in Rust](https://jacko.io/safety_and_soundness.html)
 * [Re-exporting an enum with a type alias is breaking, but not major](https://predr.ag/blog/re-exporting-enum-with-type-alias-breaking-change-not-major/)
+* [Trait transformers (send bounds, part 3)](https://smallcultfollowing.com/babysteps/blog/2023/03/03/trait-transformers-send-bounds-part-3/)
 * [Professional Rustacean, 3 months in](https://briankung.dev/2023/02/17/professional-rustacean-3-months-in/)
 * [Rust coding style](https://tzemanovic.gitlab.io/posts/rust-coding-style/)
+* [Fixing the Next 10,000 Aliasing Bugs](https://blog.polybdenum.com/2023/03/05/fixing-the-next-10-000-aliasing-bugs.html)
+* [\Device\Afd, or, the Deal with the Devil that makes async Rust work on Windows](https://notgull.github.io/device-afd/)
+* (audio) [Rustdoc with Joshua Nelson](https://rustacean-station.org/episode/joshuan-nelson/)
+* (audio) [Asynchronix with Serge Barral](https://rustacean-station.org/episode/serge-barral/)
+* (video) [strace feels like magic — let’s fix that (with Rust)](https://www.youtube.com/watch?v=engduNoI6DE)
+* (video) [Let's make an htop-like in your browser (with Rust)](https://www.youtube.com/watch?v=c_5Jy_AVDaM)
+* (video) [Build your entire tech stack in Rust](https://www.youtube.com/watch?v=luOgEhLE2sg)
+
 
 ### Rust Walkthroughs
+* [Rust's BufRead, And When To Use It](https://www.brandons.me/blog/bufread-and-when-to-use-it)
+* [Getting Started with Rust & GPT-3](https://www.shuttle.rs/blog/2023/03/01/getting-started-with-rust-and-gpt)
 * [Build a Ray Tracer, pt. 2 - Enter The Matrix](https://www.superperfundo.dev/articles/ray-tracer-part2)
 * [Creating and publishing a Python package written in Rust](https://antoniosbarotsis.github.io/posts/python_package_written_in_rust/)
-* [video] [Matching Braces With a Stack, Beginner Tutorial](https://www.youtube.com/watch?v=i_ghB5AusDs)
-
+* [The World's Smallest Hash Table](https://orlp.net/blog/worlds-smallest-hash-table/)
+* [Refactoring in Rust: Introducing Traits](https://fettblog.eu/refactoring-rust-introducing-traits/)
 * [Embedded Rust on ESP32C3 Board, a Hands-on Quickstart Guide](https://gitlab.com/cyril-marpaud/rust_esp_quickstart/)
+* [video] [Matching Braces With a Stack, Beginner Tutorial](https://www.youtube.com/watch?v=i_ghB5AusDs)
 
 ### Research
 
 ### Miscellaneous
+* [When Zig is safer and faster than Rust](https://zackoverflow.dev/writing/unsafe-rust-vs-zig/)
 
 ## Crate of the Week
 
