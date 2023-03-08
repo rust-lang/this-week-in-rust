@@ -31,6 +31,27 @@ and just ask the editors to select the category.
 
 ### Foundation
 
+### Rust Nation 2023
+
+* [Opening Address - Rebecca Rumbul](https://www.youtube.com/watch?v=y4_a3ALa_20)
+* [The Rustacean Cycle: Learn, Teach, Deliver - Nell Shamrell-Harrington](https://www.youtube.com/watch?v=dTktT8y8niw)
+* [Fast, Flexible Iteration with Rust and Rhai - Jonathan Strong](https://www.youtube.com/watch?v=u4Dd7dBxcEA)
+* [iOS, Android and Web applications that share a single Rust core - Stuart Harris](https://www.youtube.com/watch?v=cWCZms92-1g)
+* [Tricks of the Trait: Enabling Ergonomic Extractors - Rob Ede](https://www.youtube.com/watch?v=7DOYtnCXucw)
+* [Let's Get Rusty In Here - Daniel Thompson-Yvetot](https://www.youtube.com/watch?v=4FymKv23J34)
+* [Let’s write async rust from the ground up! - Conrad Ludgate](https://www.youtube.com/watch?v=7pU3gOVAeVQ)
+* [What I learned by solving 50 Advent of Code challenges in Rust - Luciano Mammino](https://www.youtube.com/watch?v=udHjmno-tfA)
+* [Spreading Rust to the rest of the company: Moving past the proof of concept - Tim McNamara](https://www.youtube.com/watch?v=4DLhTPsg8QQ)
+* [A tale of binary translation - Amanieu D'Antras](https://www.youtube.com/watch?v=Avp55U2JFcQ)
+* [Embracing Rust at fly.io: How Rust powers our networking layer - Senyo Simpson](https://www.youtube.com/watch?v=-O31eFqBmf4)
+* [Closing the Supply Chain Security Loop with Rust and Pyrsia - Steven Chin](https://www.youtube.com/watch?v=ec8vvD1SG-s)
+* [SurrealDB: from Golang to Rust — building the world’s fastest-growing db - Tobie Morgan Hitchcock](https://www.youtube.com/watch?v=Chl8IdMxr4Y)
+* [Moving beyond `Arc<Mutex<T>>` - Katharina Fey](https://www.youtube.com/watch?v=Z-2siR9Ki84)
+* [What does the Rust Foundation do? - Rust Foundation team](https://www.youtube.com/watch?v=EFtassAEK5A)
+* [Rust on RISC-V, a case study - Jorge Prendes and James Wainwright](https://www.youtube.com/watch?v=t5q0M5VDlQM)
+* [Rust in Rhymes II - Andre Bogus](https://www.youtube.com/watch?v=rwH57zNm-A8)
+* [Living with Rust Long-Term - Jon Gjengset](https://www.youtube.com/watch?v=r35cBkPRNMI)
+
 ### Newsletters
 
 ### Project/Tooling Updates
