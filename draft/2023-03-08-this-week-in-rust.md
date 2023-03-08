@@ -118,8 +118,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Ockam - Create traits to abstract the configuration files handled by the CLI state](https://github.com/build-trust/ockam/issues/4410)
+* [Ockam - Create clap command to show the details of an existing TCP listener on a node](https://github.com/build-trust/ockam/issues/4419)
+* [Ockam - When running the credential store command, validate the credential before storing it](https://github.com/build-trust/ockam/issues/4380)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
