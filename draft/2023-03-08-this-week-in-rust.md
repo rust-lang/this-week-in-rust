@@ -89,7 +89,7 @@ and just ask the editors to select the category.
 * [Creating and publishing a Python package written in Rust](https://antoniosbarotsis.github.io/posts/python_package_written_in_rust/)
 * [The World's Smallest Hash Table](https://orlp.net/blog/worlds-smallest-hash-table/)
 * [Refactoring in Rust: Introducing Traits](https://fettblog.eu/refactoring-rust-introducing-traits/)
-* [Embedded Rust on ESP32C3 Board, a Hands-on Quickstart Guide](https://gitlab.com/cyril.marpaud/rust_esp_quickstart/)
+* [Embedded Rust on ESP32C3 Board, a Hands-on Quickstart Guide](https://gitlab.com/cyril-marpaud/rust_esp_quickstart/)
 * [video] [Matching Braces With a Stack, Beginner Tutorial](https://www.youtube.com/watch?v=i_ghB5AusDs)
 
 ### Research
