@@ -67,6 +67,7 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Progressed Extremely Well](https://www.fornjot.app/blog/weekly-release/2023-w10/)
 * [Databend 1.0 Release - The Future of Cloud Data Analytics](https://databend.rs/blog/databend-release-v1.0)
 * [Introducing runst: Handle desktop notifications neatly on Linux!](https://blog.orhun.dev/introducing-runst/)
+* [A Windows software written in RUST available in the Microsoft Store](https://pdhv.fr/)
 * [This Month in hyper: February 2023](https://seanmonstar.com/post/710694914534539264/this-month-in-hyper-february-2023)
 
 ### Observations/Thoughts
