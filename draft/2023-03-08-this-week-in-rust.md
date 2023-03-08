@@ -127,7 +127,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A really quiet week with almost all regressions being due to noise in benchmarks that show "bimodality" in codegen that can cause swings in performance from one change to the other. The only true performance change was a two-line change by @nnethercote to remove a redundant function call which led to a 0.3% improvement in performance across roughly 15 benchmarks.
+
+Triage done by **@rylev**.
+Revision range: [31f858d9..8f9e09ac](https://perf.rust-lang.org/?start=31f858d9a511f24fedb8ed997b28304fec809630&end=8f9e09ac3ef3fa85d23ad6a0c920d49987144b13&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | -     | -              | 0     |
+| Regressions ❌ <br /> (secondary)  | 2.0%  | [1.2%, 2.8%]   | 8     |
+| Improvements ✅ <br /> (primary)   | -0.4% | [-0.7%, -0.2%] | 7     |
+| Improvements ✅ <br /> (secondary) | -1.0% | [-1.8%, -0.1%] | 31    |
+| All ❌✅ (primary)                 | -0.4% | [-0.7%, -0.2%] | 7     |
+
+
+7 Regressions, 8 Improvements, 2 Mixed; 7 of them in rollups
+35 artifact comparisons made in total
+
+[Full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-03-07.md) 
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
