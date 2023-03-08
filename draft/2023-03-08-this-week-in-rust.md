@@ -57,6 +57,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+[Rust Magazine Issue 2 has been released!](https://rustmagazine.org/issue-2/)
+
 ### Project/Tooling Updates
 * [Bevy 0.10](https://bevyengine.org/news/bevy-0-10/)
 * [rust-analyzer hangelog #171](https://rust-analyzer.github.io/thisweek/2023/03/06/changelog-171.html)
