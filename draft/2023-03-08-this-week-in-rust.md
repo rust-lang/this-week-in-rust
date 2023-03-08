@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Transpile to Rust with `clevercli convert-to-rust < index.ts > main.rs`](https://github.com/clevercli/clevercli)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
