@@ -27,15 +27,12 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Foundation
 * [RustConf 2023 is Coming—Submit a Talk Today!](https://foundation.rust-lang.org/news/rustconf-2023-is-coming-submit-a-talk-today/)
 * [Member Spotlight: HighTec](https://foundation.rust-lang.org/news/member-spotlight-hightec/)
 * [Best Practices for Integrating Rust and Qt in Embedded Systems](https://foundation.rust-lang.org/news/best-practices-for-integrating-rust-and-qt-in-embedded-systems/)
 
 ### Rust Nation 2023
-
 * [Opening Address - Rebecca Rumbul](https://www.youtube.com/watch?v=y4_a3ALa_20)
 * [The Rustacean Cycle: Learn, Teach, Deliver - Nell Shamrell-Harrington](https://www.youtube.com/watch?v=dTktT8y8niw)
 * [Fast, Flexible Iteration with Rust and Rhai - Jonathan Strong](https://www.youtube.com/watch?v=u4Dd7dBxcEA)
@@ -56,8 +53,7 @@ and just ask the editors to select the category.
 * [Living with Rust Long-Term - Jon Gjengset](https://www.youtube.com/watch?v=r35cBkPRNMI)
 
 ### Newsletters
-
-[Rust Magazine Issue 2 has been released!](https://rustmagazine.org/issue-2/)
+* [Rust Magazine Issue 2 has been released!](https://rustmagazine.org/issue-2/)
 
 ### Project/Tooling Updates
 * [Bevy 0.10](https://bevyengine.org/news/bevy-0-10/)
@@ -84,7 +80,6 @@ and just ask the editors to select the category.
 * (video) [Let's make an htop-like in your browser (with Rust)](https://www.youtube.com/watch?v=c_5Jy_AVDaM)
 * (video) [Build your entire tech stack in Rust](https://www.youtube.com/watch?v=luOgEhLE2sg)
 
-
 ### Rust Walkthroughs
 * [Rust's BufRead, And When To Use It](https://www.brandons.me/blog/bufread-and-when-to-use-it)
 * [Getting Started with Rust & GPT-3](https://www.shuttle.rs/blog/2023/03/01/getting-started-with-rust-and-gpt)
@@ -94,8 +89,6 @@ and just ask the editors to select the category.
 * [Refactoring in Rust: Introducing Traits](https://fettblog.eu/refactoring-rust-introducing-traits/)
 * [Embedded Rust on ESP32C3 Board, a Hands-on Quickstart Guide](https://gitlab.com/cyril-marpaud/rust_esp_quickstart/)
 * [video] [Matching Braces With a Stack, Beginner Tutorial](https://www.youtube.com/watch?v=i_ghB5AusDs)
-
-### Research
 
 ### Miscellaneous
 * [Academy Software Foundation Rust Working Group Status and Survey](https://www.reddit.com/r/rust/comments/11dxy7e/academy_software_foundation_rust_working_group/)
@@ -346,7 +339,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/10nmtew/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -366,4 +359,4 @@ Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/11mdl2e/this_week_in_rust_485/)</small>
