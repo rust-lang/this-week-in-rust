@@ -57,7 +57,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Bevy 0.10](https://bevyengine.org/news/bevy-0-10/)
-* [rust-analyzer hangelog #171](https://rust-analyzer.github.io/thisweek/2023/03/06/changelog-171.html)
+* [rust-analyzer changelog #171](https://rust-analyzer.github.io/thisweek/2023/03/06/changelog-171.html)
 * [Zellij 0.35.1 released: bringing Stacked Panes to your Terminal](https://zellij.dev/news/stacked-panes-swap-layouts/)
 * [Oxy is Cloudflare's Rust-based next generation proxy framework](https://blog.cloudflare.com/introducing-oxy/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Progressed Extremely Well](https://www.fornjot.app/blog/weekly-release/2023-w10/)
