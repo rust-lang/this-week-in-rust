@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [video] [Rust Releases! Rust 1.68.0](https://www.youtube.com/watch?v=BaSgkGIgRxc)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
