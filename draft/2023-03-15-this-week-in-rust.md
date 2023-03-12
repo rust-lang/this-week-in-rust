@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Mockito, the HTTP mocking library for Rust, goes 1.0](https://github.com/lipanski/mockito/releases/tag/1.0.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
