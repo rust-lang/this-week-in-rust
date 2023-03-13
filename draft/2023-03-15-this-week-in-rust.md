@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Tour of a HTTP request in Rust](https://rustwebdevelopment.com/blog/tour-http/)
+
 ### Research
 
 ### Miscellaneous
