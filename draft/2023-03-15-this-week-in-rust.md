@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Trace through a Kafka Cluster using OpenTelemetry](https://dev.to/ciscoemerge/trace-through-a-kafka-cluster-with-rust-and-opentelemetry-2jln)
+
 ### Research
 
 ### Miscellaneous
