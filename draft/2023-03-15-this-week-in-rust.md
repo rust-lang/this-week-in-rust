@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [duplicate](https://docs.rs/duplicate), a proc macro crate for easy parametric code duplication.
+
+Thanks to [Anton Fetisov](https://users.rust-lang.org/t/crate-of-the-week/2704/1164) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -59,7 +61,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+<!-- * [ -]() -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -67,7 +69,86 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+391 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-03-06..2023-03-13
+
+* [account for binders correctly when adding default RPITIT method assumption](https://github.com/rust-lang/rust/pull/108583)
+* [force parentheses around `match` expression in binary expression](https://github.com/rust-lang/rust/pull/108542)
+* [allow negative numeric literals in `concat!`](https://github.com/rust-lang/rust/pull/106844)
+* [add suggestion to diagnostic when user has array but trait wants slice](https://github.com/rust-lang/rust/pull/108841)
+* [always resolve to universal regions if possible](https://github.com/rust-lang/rust/pull/108121)
+* [check for free regions in MIR validation](https://github.com/rust-lang/rust/pull/108786)
+* [check that a query has not completed and is not executing before starting it](https://github.com/rust-lang/rust/pull/108845)
+* [custom MIR: Support `as` casts](https://github.com/rust-lang/rust/pull/108855)
+* [directly construct Inherited in typeck](https://github.com/rust-lang/rust/pull/108950)
+* [do not ICE when failing to normalize in `ConstProp`](https://github.com/rust-lang/rust/pull/108803)
+* [do not ICE when interpreting a cast between non-monomorphic types](https://github.com/rust-lang/rust/pull/108790)
+* [do not ICE when we have fn pointer `Fn` obligations with bound vars in the self type](https://github.com/rust-lang/rust/pull/108834)
+* [do not consider `&mut *x` as mutating `x` in `CopyProp`](https://github.com/rust-lang/rust/pull/108178)
+* [don't even try to combine consts with incompatible types](https://github.com/rust-lang/rust/pull/108947)
+* [emit alias-eq when equating numeric var and projection](https://github.com/rust-lang/rust/pull/108828)
+* [emit the `suspicious_auto_trait_impls` lint for negative impls as well](https://github.com/rust-lang/rust/pull/108807)
+* [ensure value is on the on-disk cache before returning from `ensure()`](https://github.com/rust-lang/rust/pull/108820)
+* [expand on the allocator comment in `rustc-main`](https://github.com/rust-lang/rust/pull/109018)
+* [improve errors in case of ident with number at start](https://github.com/rust-lang/rust/pull/108854)
+* [impl better help for `.poll()` not found on `impl Future`](https://github.com/rust-lang/rust/pull/108731)
+* [implement better error for manual impl of `Fn*` traits](https://github.com/rust-lang/rust/pull/108930)
+* [avoid unnecessary hashing](https://github.com/rust-lang/rust/pull/108794)
+* [fix invalid inlining of reexport of reexport of private item](https://github.com/rust-lang/rust/pull/108870)
+* [gate usages of `dyn*` and const closures in macros](https://github.com/rust-lang/rust/pull/109029)
+* [greatly improve the error messages when `run-make/translation` fails](https://github.com/rust-lang/rust/pull/108774)
+* [honor current target when checking conditional compilation values](https://github.com/rust-lang/rust/pull/108949)
+* [implement goal caching with the new solver](https://github.com/rust-lang/rust/pull/108071)
+* [make RPITITs simple cases work when using `lower_impl_trait_in_trait_to_assoc_ty`](https://github.com/rust-lang/rust/pull/108700)
+* [make `unused_allocation` lint against `Box::new` too](https://github.com/rust-lang/rust/pull/104363)
+* [place binder correctly for arbitrary trait bound suggestion](https://github.com/rust-lang/rust/pull/108294)
+* [relax ordering rules for `asm!` operands](https://github.com/rust-lang/rust/pull/105798)
+* [strengthen state tracking in const-prop](https://github.com/rust-lang/rust/pull/108872)
+* [tweak illegal `Copy` impl message](https://github.com/rust-lang/rust/pull/108884)
+* [unconstrained terms should account for infer vars being equated](https://github.com/rust-lang/rust/pull/108879)
+* [fix projection substitution order considering GATs](https://github.com/rust-lang/chalk/pull/790)
+* [remove `box_syntax`](https://github.com/rust-lang/rust/pull/108471)
+* [stabilize `nonzero_min_max`](https://github.com/rust-lang/rust/pull/106633)
+* [stabilize `path_as_mut_os_str`](https://github.com/rust-lang/rust/pull/105962)
+* [stabilize movbe target feature](https://github.com/rust-lang/rust/pull/107711)
+* [add `round_ties_even` to `f32` and `f64`](https://github.com/rust-lang/rust/pull/95317)
+* [make `ptr::from_ref` and `ptr::from_mut` const](https://github.com/rust-lang/rust/pull/108956)
+* [move `Option::as_slice` to an always-sound implementation](https://github.com/rust-lang/rust/pull/108623)
+* [prevent overflow through `Arc::downgrade`](https://github.com/rust-lang/rust/pull/108708)
+* [introduce `Rc::into_inner`, as a parallel to `Arc::into_inner`](https://github.com/rust-lang/rust/pull/109026)
+* [futures: Add `AbortRegistration::handle`](https://github.com/rust-lang/futures-rs/pull/2712)
+* [futures: Make BiLock strict-provenance compatible](https://github.com/rust-lang/futures-rs/pull/2716)
+* [futures: `TryFlattenUnordered`: propagate base stream error](https://github.com/rust-lang/futures-rs/pull/2607)
+* [cargo: Adding display of which target failed to compile](https://github.com/rust-lang/cargo/pull/11636)
+* [cargo: `cargo install --git` multiple packages with binaries found hint](https://github.com/rust-lang/cargo/pull/11835)
+* [rustdoc: don't crash on `crate` references in blocks](https://github.com/rust-lang/rust/pull/108988)
+* [rustdoc: don't hide anonymous reexport](https://github.com/rust-lang/rust/pull/108936)
+* [rustdoc: include link on all.html location header](https://github.com/rust-lang/rust/pull/108686)
+* [rustdoc: reduce allocs in `FnDecl::inner_full_print`](https://github.com/rust-lang/rust/pull/109011)
+* [rustdoc: sort deprecated items lower in search](https://github.com/rust-lang/rust/pull/107629)
+* [rustdoc: use restricted Damerau-Levenshtein distance for search](https://github.com/rust-lang/rust/pull/109009)
+* [clippy: add `collection_is_never_read`](https://github.com/rust-lang/rust-clippy/pull/10415)
+* [clippy: add `let_with_type_underscore` lint](https://github.com/rust-lang/rust-clippy/pull/10467)
+* [clippy: add `missing_assert_message` lint](https://github.com/rust-lang/rust-clippy/pull/10362)
+* [clippy: add new `redundant_async_block` lint](https://github.com/rust-lang/rust-clippy/pull/10448)
+* [clippy: add the `popular-crates` binary](https://github.com/rust-lang/rust-clippy/pull/10466)
+* [clippy: don't lint `manual_clamp` in const contexts](https://github.com/rust-lang/rust-clippy/pull/10479)
+* [clippy: fix semicolon insertion in `match_single_binding`](https://github.com/rust-lang/rust-clippy/pull/10470)
+* [clippy: improve diagnostic of `no_mangle_with_rust_abi`](https://github.com/rust-lang/rust-clippy/pull/10420)
+* [clippy: include async functions in the `len_without_is_empty`](https://github.com/rust-lang/rust-clippy/pull/10359)
+* [clippy: `arithmetic_side_effects` fix false positive on shifts](https://github.com/rust-lang/rust-clippy/pull/10309)
+* [rust-analyzer: add core lib to `proc_macro` dependencies](https://github.com/rust-lang/rust-analyzer/pull/14297)
+* [rust-analyzer: fix stack overflow when derefrencing `&!`](https://github.com/rust-lang/rust-analyzer/pull/14316)
+* [rust-analyzer: allow adding extra `cargo` args when running build scripts](https://github.com/rust-lang/rust-analyzer/pull/14328)
+* [rust-analyzer: fix multiple definition binding in match to let-else](https://github.com/rust-lang/rust-analyzer/pull/14291)
+* [rust-analyzer: don't trigger unresolved method/field diagnostics on types containing errors](https://github.com/rust-lang/rust-analyzer/pull/14271)
+* [rust-analyzer: evaluate consts in `path_to_const`](https://github.com/rust-lang/rust-analyzer/pull/14285)
+* [rust-analyzer: fix block defmap not looking into tail expressions for macro calls](https://github.com/rust-lang/rust-analyzer/pull/14286)
+* [rust-analyzer: fix search not searching bodies of attributed items](https://github.com/rust-lang/rust-analyzer/pull/14299)
+* [rust-analyzer: highlight unresolved derives as being unresolved](https://github.com/rust-lang/rust-analyzer/pull/14284)
+* [rust-analyzer: load proc-macros for `rustc_private` crates](https://github.com/rust-lang/rust-analyzer/pull/14282)
+* [rust-analyzer: watch both stdout and stderr in flycheck](https://github.com/rust-lang/rust-analyzer/pull/14300)
 
 ### Rust Compiler Performance Triage
 
@@ -223,7 +304,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> The Rust compiler is a thousand unit tests that you don't have to write
+
+– [Someone, likely Ian Purton on the Cloak blog](https://cloak.software/blog/i-built-startup-in-rust/)
+
+Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1380) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
