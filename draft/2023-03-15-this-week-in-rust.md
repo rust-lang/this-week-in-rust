@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Switching From C++ to Rust | Nikita Lapkov](https://laplab.me/posts/switching-from-cpp-to-rust/)
+
 ### Rust Walkthroughs
 
 ### Research
