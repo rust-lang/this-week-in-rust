@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* (video) [Teaching Embedded Rust](https://www.youtube.com/watch?v=hGdYBEkQJPU)
 
 ### Rust Walkthroughs
 
