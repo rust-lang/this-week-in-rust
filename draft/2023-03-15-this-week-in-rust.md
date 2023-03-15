@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+[Writing a Kubernetes Operator](https://metalbear.co/blog/writing-a-kubernetes-operator/)
+
 ### Research
 
 ### Miscellaneous
