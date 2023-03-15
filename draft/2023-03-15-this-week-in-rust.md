@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* (video) [Q&A with Mara Bos](https://www.youtube.com/watch?v=F4s0arp9WvM)
 
 ## Crate of the Week
 
