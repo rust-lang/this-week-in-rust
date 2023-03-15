@@ -178,6 +178,10 @@ Rusty Events between 2023-03-15 - 2023-04-12 🦀
 * 2023-04-04 | Berlin, DE | [Berline.rs](https://berline.rs)
     * [**Rust and Tell - Goodbye👋 Edition**](https://berline.rs/2023/04/04/rust-and-tell-goodbye-edition.html)
 
+### North America
+
+* 2023-03-21 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
+    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/vwljctyfcfbcc/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
