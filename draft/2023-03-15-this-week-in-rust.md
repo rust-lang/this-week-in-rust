@@ -74,6 +74,8 @@ and just ask the editors to select the category.
 * [video] [Learn Bevy 0.10 - EP4 - Enemy Movement, Collisions, Sound Effects, Despawning](https://www.youtube.com/watch?v=4TjEo-gDgAg)
 * [video] [Rust Releases! Rust 1.68.0](https://www.youtube.com/watch?v=BaSgkGIgRxc)
 * [video] [Interview and AMA with Josh Triplett](https://www.youtube.com/watch?v=Q3sLSihQ0vw)
+* [audio] [Q&A with Mara Bos](https://www.youtube.com/watch?v=F4s0arp9WvM)
+
 
 ## Crate of the Week
 
