@@ -58,8 +58,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [man-in-the-middle-proxy - Make order with constants and hard coded parts](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/34)
+* [man-in-the-middle-proxy - pause and play the request](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/33)
+* [man-in-the-middle-proxy - Highlight a request in the list when clicked](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/29)
+* [man-in-the-middle-proxy - add different colors for different request method](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/32)
+* [Ockam - Create clap command to show the details of an existing TCP connection on a node](https://github.com/build-trust/ockam/issues/4420)
+* [Ockam - Create clap command to show the details of an existing Forwarder on a node](https://github.com/build-trust/ockam/issues/4436)
+* [Ockam - improve install.sh to install in path](https://github.com/build-trust/ockam/issues/4359)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
