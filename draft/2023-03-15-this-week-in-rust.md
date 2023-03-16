@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #172](https://rust-analyzer.github.io/thisweek/2023/03/13/changelog-172.html)
 * [mockito 1.0.0](https://github.com/lipanski/mockito/releases/tag/1.0.0)
 * [rustc_codegen_gcc: Progress Report #21](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-21)
+* [Rust Insight! - an interactive book for practicing Rust](https://www.reddit.com/r/rust/comments/11q56ey/rust_insight_an_interactive_book_for_practicing/)
 
 ### Observations/Thoughts
 * [To async trait or just to trait](http://smallcultfollowing.com/babysteps/blog/2023/03/12/to-async-trait-or-just-to-trait/)
@@ -88,8 +89,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [man-in-the-middle-proxy - Make order with constants and hard coded parts](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/34)
+* [man-in-the-middle-proxy - pause and play the request](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/33)
+* [man-in-the-middle-proxy - Highlight a request in the list when clicked](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/29)
+* [man-in-the-middle-proxy - add different colors for different request method](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/32)
+* [Ockam - Create clap command to show the details of an existing TCP connection on a node](https://github.com/build-trust/ockam/issues/4420)
+* [Ockam - Create clap command to show the details of an existing Forwarder on a node](https://github.com/build-trust/ockam/issues/4436)
+* [Ockam - improve install.sh to install in path](https://github.com/build-trust/ockam/issues/4359)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -158,22 +164,6 @@ Rusty Events between 2023-03-15 - 2023-04-12 🦀
 
 ### Virtual
 
-* 2023-03-08 | Virtual (Boulder, CO, US) | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
-    * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsryfcfblb/)
-* 2023-03-09 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
-    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/hlvbvsyfcfbmb/)
-* 2023-03-11 | Virtual | [Rust GameDev](https://discord.gg/yNtPTb2)
-    * [**Rust GameDev Monthly Meetup**](https://discord.gg/yNtPTb2)
-* 2023-03-14 | Virtual (Italy) | [Hinto](https://www.eventbrite.it/o/hinto-28025248045)
-    * [**Webinar online | Introduzione a Rust**](https://www.eventbrite.com/e/biglietti-webinar-online-introduzione-a-rust-558594419947?aff=ebdssbonlinesearch&keep_tld=1)
-* 2023-03-14 | Virtual (Berlin, DE) | [Berlin.rs](https://berline.rs/)
-    * [**Rust Hack and Learn**](https://berline.rs/2023/03/14/rust-hack-and-learn.html)
-* 2023-03-14 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallas-rust/)
-    * [**Second Tuesday**](https://www.meetup.com/dallas-rust/events/291809763/)
-* 2023-03-14 | Virtual (Redmond, WA, US) | [Microsoft Reactor Redmond](https://www.meetup.com/microsoft-reactor-redmond/)
-    * [**Crack code interview problems in Rust: S2 Ep1**](https://www.meetup.com/microsoft-reactor-redmond/events/291676352/)
-* 2023-03-14 | Virtual (Saarbrücken, DE) | [Rust-Saar](https://www.meetup.com/rust-saar/)
-    * [**Meetup: 27u16**](https://www.meetup.com/rust-saar/events/292076386/)
 * 2023-03-15 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff)
     * [**Injecting Rust Hooks into a 1999 game binary (unsafe)**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/291354288/)
 * 2023-03-15 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
@@ -190,6 +180,8 @@ Rusty Events between 2023-03-15 - 2023-04-12 🦀
     * [**Rust+Tell Lightning Talks**](https://www.meetup.com/rustdc/events/vdhxgsyfcfbcc/)
 * 2023-03-22 | Virtual (Richmond, VA, US) | [Rustaceans RVA](https://www.meetup.com/rustaceans-rva/)
     * [**Rustaceans RVA - March Meetup**](https://www.meetup.com/rustaceans-rva/events/291963911/)
+* 2023-03-27 | Virtual | [Rust Formal Methods Interest Group](https://www.eventbrite.com/cc/rfmig-87969)
+    * [**Flux: Ergonomic Verification of Rust Programs with Liquid Types**](https://www.eventbrite.com/e/flux-ergonomic-verification-of-rust-programs-with-liquid-types-tickets-577742873487?aff=ebdssbonlinesearch)
 * 2023-03-28 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallas-rust/)
     * [**Last Tuesday**](https://www.meetup.com/dallas-rust/events/qndgwsyfcfblc/)
 * 2023-03-28 | Virtual (Redmond, WA, US) | [Microsoft Reactor Redmond](https://www.meetup.com/microsoft-reactor-redmond/)
@@ -202,17 +194,11 @@ Rusty Events between 2023-03-15 - 2023-04-12 🦀
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/291967741/)
 * 2023-04-05 | Virtual (Stuttgart, DE) | [Rust Community Stuttgart](https://www.meetup.com/rust-community-stuttgart)
     * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/dvvtvsyfcgbhb/)
-
+* 2023-04-11 | Virtual | [Rust Live](https://www.eventbrite.com/cc/rust-live-1876809)
+    * [**Rust Live: Asynchronous Rust**](https://www.eventbrite.com/e/rust-live-asynchronous-rust-tickets-575865518267?aff=ebdssbonlinesearch&keep_tld=1)
 
 ### Europe
  
-* 2023-03-09 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/)
-    * [**Rust Meetup #7**](https://www.meetup.com/rust-basel/events/291228934/)
-* 2023-03-09 | Delft, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
-    * [**Regular track: Embedded Rust**](https://www.meetup.com/rust-nederland/events/291401965/)
-    * [**Student track: Embedded Rust**](https://www.meetup.com/rust-nederland/events/291401778/)
-* 2023-03-09 | Lyon, FR | [Rust Lyon](https://www.meetup.com/fr-FR/rust-lyon/)
-    * [**Rust Lyon Meetup #2**](https://www.meetup.com/fr-FR/rust-lyon/events/291727241/)
 * 2023-03-15 | Nürnberg, DE | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
     * [**Walk around Embedded World Exhibition**](https://www.meetup.com/rust-noris/events/291623203/)
 * 2023-03-15 | Trondheim, NO | [Rust Trondheim](https://www.meetup.com/rust-trondheim/)
@@ -225,11 +211,13 @@ Rusty Events between 2023-03-15 - 2023-04-12 🦀
     * [**High performance concurrent data structures in Rust - March Meetup**](https://www.meetup.com/de-DE/rust-zurich/events/291449557/)
 * 2023-03-29 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/)
     * [**Rust Paris meetup #57**](https://www.meetup.com/rust-paris/events/291963747/)
+* 2023-04-04 | Berlin, DE | [Berline.rs](https://berline.rs)
+    * [**Rust and Tell - Goodbye👋 Edition**](https://berline.rs/2023/04/04/rust-and-tell-goodbye-edition.html)
 
 ### North America
 
-* 2023-03-09 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
-    * [**Trails, Triumphs, & Travails of Yet-Another-Database-Crate with PJ and Food!**](https://www.meetup.com/utah-rust/events/rrwbctyfcfbmb/)
+* 2023-03-21 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
+    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/vwljctyfcfbcc/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
