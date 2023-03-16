@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rust Insight! - an interactive book for practicing Rust](https://www.reddit.com/r/rust/comments/11q56ey/rust_insight_an_interactive_book_for_practicing/)
 
 ### Observations/Thoughts
 
