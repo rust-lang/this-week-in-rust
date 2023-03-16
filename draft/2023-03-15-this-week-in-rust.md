@@ -38,17 +38,12 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [IntelliJ Rust Changelog #190](https://intellij-rust.github.io/2023/03/13/changelog-190.html)
 * [rust-analyzer changelog #172](https://rust-analyzer.github.io/thisweek/2023/03/13/changelog-172.html)
-* [mockito 1.0.0](https://github.com/lipanski/mockito/releases/tag/1.0.0)
 * [rustc_codegen_gcc: Progress Report #21](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-21)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Thoroughly Mediocre](https://www.fornjot.app/blog/weekly-release/2023-w11/)
 * [Rust Insight! - an interactive book for practicing Rust](https://www.reddit.com/r/rust/comments/11q56ey/rust_insight_an_interactive_book_for_practicing/)
-
-
 * [Mockito, the HTTP mocking library for Rust, goes 1.0](https://github.com/lipanski/mockito/releases/tag/1.0.0)
-
-- [Klint: Compile-time Detection of Atomic Context Violations for Kernel Rust Code](https://www.memorysafety.org/blog/gary-guo-klint-rust-tools/)
-
-- [video] [Rust Releases! Rust 1.68.0](https://www.youtube.com/watch?v=BaSgkGIgRxc)
+* [Klint: Compile-time Detection of Atomic Context Violations for Kernel Rust Code](https://www.memorysafety.org/blog/gary-guo-klint-rust-tools/)
+* [video] [Rust Releases! Rust 1.68.0](https://www.youtube.com/watch?v=BaSgkGIgRxc)
 
 ### Observations/Thoughts
 * [To async trait or just to trait](http://smallcultfollowing.com/babysteps/blog/2023/03/12/to-async-trait-or-just-to-trait/)
