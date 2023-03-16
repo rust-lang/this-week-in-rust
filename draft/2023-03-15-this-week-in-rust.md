@@ -66,6 +66,8 @@ and just ask the editors to select the category.
 
 [Writing a Kubernetes Operator](https://metalbear.co/blog/writing-a-kubernetes-operator/)
 
+- [Trace through a Kafka Cluster using OpenTelemetry](https://dev.to/ciscoemerge/trace-through-a-kafka-cluster-with-rust-and-opentelemetry-2jln)
+
 ### Research
 
 ### Miscellaneous
