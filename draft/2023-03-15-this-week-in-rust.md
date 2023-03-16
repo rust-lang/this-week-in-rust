@@ -93,6 +93,8 @@ and just ask the editors to select the category.
 * [audio] [Q&A with Mara Bos](https://www.youtube.com/watch?v=F4s0arp9WvM)
 
 
+- [Automotive Safety and Cybersecurity: Infineon's AURIX™ TC3xx, TC4x, TRAVEO™ T2G & PSoC families of microcontrollers support Rust - Infineon Technologies](https://www.infineon.com/cms/en/about-infineon/press/market-news/2023/INFATV202303-076.html)
+
 ## Crate of the Week
 
 This week's crate is [duplicate](https://docs.rs/duplicate), a proc macro crate for easy parametric code duplication.
