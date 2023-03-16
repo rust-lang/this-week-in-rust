@@ -70,6 +70,8 @@ and just ask the editors to select the category.
 
 - [Trace through a Kafka Cluster using OpenTelemetry](https://dev.to/ciscoemerge/trace-through-a-kafka-cluster-with-rust-and-opentelemetry-2jln)
 
+* [Tour of a HTTP request in Rust](https://rustwebdevelopment.com/blog/tour-http/)
+
 ### Research
 
 ### Miscellaneous
