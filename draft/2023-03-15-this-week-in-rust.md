@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 * [Rust Insight! - an interactive book for practicing Rust](https://www.reddit.com/r/rust/comments/11q56ey/rust_insight_an_interactive_book_for_practicing/)
 
 
+* [Mockito, the HTTP mocking library for Rust, goes 1.0](https://github.com/lipanski/mockito/releases/tag/1.0.0)
+
 ### Observations/Thoughts
 * [To async trait or just to trait](http://smallcultfollowing.com/babysteps/blog/2023/03/12/to-async-trait-or-just-to-trait/)
 * [Writing an LLVM backend for the Move language in Rust](https://brson.github.io/2023/03/12/move-on-llvm)
