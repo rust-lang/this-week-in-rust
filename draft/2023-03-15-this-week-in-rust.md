@@ -40,7 +40,9 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #172](https://rust-analyzer.github.io/thisweek/2023/03/13/changelog-172.html)
 * [mockito 1.0.0](https://github.com/lipanski/mockito/releases/tag/1.0.0)
 * [rustc_codegen_gcc: Progress Report #21](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-21)
+* [Fornjot (code-first CAD in Rust) - Weekly Release - Thoroughly Mediocre](https://www.fornjot.app/blog/weekly-release/2023-w11/)
 * [Rust Insight! - an interactive book for practicing Rust](https://www.reddit.com/r/rust/comments/11q56ey/rust_insight_an_interactive_book_for_practicing/)
+
 
 ### Observations/Thoughts
 * [To async trait or just to trait](http://smallcultfollowing.com/babysteps/blog/2023/03/12/to-async-trait-or-just-to-trait/)
