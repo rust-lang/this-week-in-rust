@@ -310,6 +310,10 @@ Rusty Events between 2023-03-15 - 2023-04-12 🦀
 * 2023-03-21 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/vwljctyfcfbcc/)
 
+### Asia
+* 2023-04-08 | Kyoto, JP | [Kansai Rust](https://www.meetup.com/kansai-rust/)
+    * [**Demystifying Closures**](https://www.meetup.com/kansai-rust/events/292202435/) 
+
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
 Email the [Rust Community Team][community] for access.
