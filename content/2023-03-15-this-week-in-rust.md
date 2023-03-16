@@ -12,25 +12,8 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/rust-lang/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
-## Updates from Rust Community
-
-<!--
-
-Dear community contributors:
-Please read README.md for guidance on submissions.
-Each submitted link should be of the form:
-
-* [Title of the Linked Page](https://example.com/my_article)
-
-If you don't know which category to use, feel free to submit a PR anyway
-and just ask the editors to select the category.
-
--->
-
 ### Official
 * [Announcing Rust 1.68.0](https://blog.rust-lang.org/2023/03/09/Rust-1.68.0.html)
-
-### Foundation
 
 ### Newsletters
 * [This Month in Rust GameDev #43 - February 2023](https://gamedev.rs/news/043/)
@@ -43,7 +26,6 @@ and just ask the editors to select the category.
 * [Rust Insight! - an interactive book for practicing Rust](https://www.reddit.com/r/rust/comments/11q56ey/rust_insight_an_interactive_book_for_practicing/)
 * [Mockito, the HTTP mocking library for Rust, goes 1.0](https://github.com/lipanski/mockito/releases/tag/1.0.0)
 * [Klint: Compile-time Detection of Atomic Context Violations for Kernel Rust Code](https://www.memorysafety.org/blog/gary-guo-klint-rust-tools/)
-
 * [Leveraging Rust and the GPU to render user interfaces at 120 FPS](https://zed.dev/blog/videogame)
 
 ### Observations/Thoughts
@@ -70,20 +52,16 @@ and just ask the editors to select the category.
 * [Trace through a Kafka Cluster using OpenTelemetry](https://dev.to/ciscoemerge/trace-through-a-kafka-cluster-with-rust-and-opentelemetry-2jln)
 * [Tour of a HTTP request in Rust](https://rustwebdevelopment.com/blog/tour-http/)
 
-### Research
-
 ### Miscellaneous
 * [Why Turborepo is migrating from Go to Rust](https://vercel.com/blog/turborepo-migration-go-rust)
 * [Leveraging Rust and the GPU to render user interfaces at 120 FPS](https://zed.dev/blog/videogame)
+* [Automotive Safety and Cybersecurity: Infineon's AURIX™ TC3xx, TC4x, TRAVEO™ T2G & PSoC families of microcontrollers support Rust - Infineon Technologies](https://www.infineon.com/cms/en/about-infineon/press/market-news/2023/INFATV202303-076.html)
 * [video] [Bestagon Mesh Generation: Waveform Collapse in Bevy](https://www.youtube.com/watch?v=Zz296fdB8rc)
 * [video] [Bye WebSockets! Boost Web Comms with Rust and WebTransport](https://www.youtube.com/watch?v=dztIToTf8Yc)
 * [video] [Learn Bevy 0.10 - EP4 - Enemy Movement, Collisions, Sound Effects, Despawning](https://www.youtube.com/watch?v=4TjEo-gDgAg)
 * [video] [Rust Releases! Rust 1.68.0](https://www.youtube.com/watch?v=BaSgkGIgRxc)
 * [video] [Interview and AMA with Josh Triplett](https://www.youtube.com/watch?v=Q3sLSihQ0vw)
 * [audio] [Q&A with Mara Bos](https://www.youtube.com/watch?v=F4s0arp9WvM)
-
-
-- [Automotive Safety and Cybersecurity: Infineon's AURIX™ TC3xx, TC4x, TRAVEO™ T2G & PSoC families of microcontrollers support Rust - Infineon Technologies](https://www.infineon.com/cms/en/about-infineon/press/market-news/2023/INFATV202303-076.html)
 
 ## Crate of the Week
 
@@ -336,7 +314,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/10nmtew/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -352,4 +330,4 @@ Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/11sgz1t/this_week_in_rust_486/)</small>
