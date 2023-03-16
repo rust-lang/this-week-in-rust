@@ -43,7 +43,6 @@ and just ask the editors to select the category.
 * [Rust Insight! - an interactive book for practicing Rust](https://www.reddit.com/r/rust/comments/11q56ey/rust_insight_an_interactive_book_for_practicing/)
 * [Mockito, the HTTP mocking library for Rust, goes 1.0](https://github.com/lipanski/mockito/releases/tag/1.0.0)
 * [Klint: Compile-time Detection of Atomic Context Violations for Kernel Rust Code](https://www.memorysafety.org/blog/gary-guo-klint-rust-tools/)
-* [video] [Rust Releases! Rust 1.68.0](https://www.youtube.com/watch?v=BaSgkGIgRxc)
 
 ### Observations/Thoughts
 * [To async trait or just to trait](http://smallcultfollowing.com/babysteps/blog/2023/03/12/to-async-trait-or-just-to-trait/)
@@ -63,19 +62,11 @@ and just ask the editors to select the category.
 * [Getting Past “Ampersand-Driven Development” in Rust](https://fiberplane.com/blog/getting-past-ampersand-driven-development-in-rust)
 * (video) [Teaching Embedded Rust](https://www.youtube.com/watch?v=hGdYBEkQJPU)
 
-- [Switching From C++ to Rust | Nikita Lapkov](https://laplab.me/posts/switching-from-cpp-to-rust/)
-
 ### Rust Walkthroughs
 * [Beginning Rust: by exploring a very basic Axum web API in detail](https://medium.com/@lindblomdev/beginning-rust-by-exploring-a-very-basic-axum-web-api-in-detail-1f4c87e422e0)
 * [Rewriting the CLI in Rust: Was It Worth It?](https://blog.railway.app/p/rust-cli-rewrite)
-
-[Writing a Kubernetes Operator](https://metalbear.co/blog/writing-a-kubernetes-operator/)
-
-- [Trace through a Kafka Cluster using OpenTelemetry](https://dev.to/ciscoemerge/trace-through-a-kafka-cluster-with-rust-and-opentelemetry-2jln)
-
+* [Trace through a Kafka Cluster using OpenTelemetry](https://dev.to/ciscoemerge/trace-through-a-kafka-cluster-with-rust-and-opentelemetry-2jln)
 * [Tour of a HTTP request in Rust](https://rustwebdevelopment.com/blog/tour-http/)
-
-[Getting Past “Ampersand-Driven Development” - a little mental model for ownership and borrowing](https://fiberplane.com/blog/getting-past-ampersand-driven-development-in-rust)
 
 ### Research
 
