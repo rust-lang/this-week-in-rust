@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 * [Mockito, the HTTP mocking library for Rust, goes 1.0](https://github.com/lipanski/mockito/releases/tag/1.0.0)
 * [Klint: Compile-time Detection of Atomic Context Violations for Kernel Rust Code](https://www.memorysafety.org/blog/gary-guo-klint-rust-tools/)
 
+* [Leveraging Rust and the GPU to render user interfaces at 120 FPS](https://zed.dev/blog/videogame)
+
 ### Observations/Thoughts
 * [To async trait or just to trait](http://smallcultfollowing.com/babysteps/blog/2023/03/12/to-async-trait-or-just-to-trait/)
 * [Writing an LLVM backend for the Move language in Rust](https://brson.github.io/2023/03/12/move-on-llvm)
