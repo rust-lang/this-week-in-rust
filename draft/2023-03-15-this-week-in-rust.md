@@ -38,17 +38,11 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [IntelliJ Rust Changelog #190](https://intellij-rust.github.io/2023/03/13/changelog-190.html)
 * [rust-analyzer changelog #172](https://rust-analyzer.github.io/thisweek/2023/03/13/changelog-172.html)
-* [mockito 1.0.0](https://github.com/lipanski/mockito/releases/tag/1.0.0)
 * [rustc_codegen_gcc: Progress Report #21](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-21)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Thoroughly Mediocre](https://www.fornjot.app/blog/weekly-release/2023-w11/)
 * [Rust Insight! - an interactive book for practicing Rust](https://www.reddit.com/r/rust/comments/11q56ey/rust_insight_an_interactive_book_for_practicing/)
-
-
 * [Mockito, the HTTP mocking library for Rust, goes 1.0](https://github.com/lipanski/mockito/releases/tag/1.0.0)
-
-- [Klint: Compile-time Detection of Atomic Context Violations for Kernel Rust Code](https://www.memorysafety.org/blog/gary-guo-klint-rust-tools/)
-
-- [video] [Rust Releases! Rust 1.68.0](https://www.youtube.com/watch?v=BaSgkGIgRxc)
+* [Klint: Compile-time Detection of Atomic Context Violations for Kernel Rust Code](https://www.memorysafety.org/blog/gary-guo-klint-rust-tools/)
 
 ### Observations/Thoughts
 * [To async trait or just to trait](http://smallcultfollowing.com/babysteps/blog/2023/03/12/to-async-trait-or-just-to-trait/)
@@ -68,16 +62,10 @@ and just ask the editors to select the category.
 * [Getting Past “Ampersand-Driven Development” in Rust](https://fiberplane.com/blog/getting-past-ampersand-driven-development-in-rust)
 * (video) [Teaching Embedded Rust](https://www.youtube.com/watch?v=hGdYBEkQJPU)
 
-- [Switching From C++ to Rust | Nikita Lapkov](https://laplab.me/posts/switching-from-cpp-to-rust/)
-
 ### Rust Walkthroughs
 * [Beginning Rust: by exploring a very basic Axum web API in detail](https://medium.com/@lindblomdev/beginning-rust-by-exploring-a-very-basic-axum-web-api-in-detail-1f4c87e422e0)
 * [Rewriting the CLI in Rust: Was It Worth It?](https://blog.railway.app/p/rust-cli-rewrite)
-
-[Writing a Kubernetes Operator](https://metalbear.co/blog/writing-a-kubernetes-operator/)
-
-- [Trace through a Kafka Cluster using OpenTelemetry](https://dev.to/ciscoemerge/trace-through-a-kafka-cluster-with-rust-and-opentelemetry-2jln)
-
+* [Trace through a Kafka Cluster using OpenTelemetry](https://dev.to/ciscoemerge/trace-through-a-kafka-cluster-with-rust-and-opentelemetry-2jln)
 * [Tour of a HTTP request in Rust](https://rustwebdevelopment.com/blog/tour-http/)
 
 ### Research
@@ -297,11 +285,17 @@ Rusty Events between 2023-03-15 - 2023-04-12 🦀
     * [**Rust Live: Asynchronous Rust**](https://www.eventbrite.com/e/rust-live-asynchronous-rust-tickets-575865518267?aff=ebdssbonlinesearch&keep_tld=1)
 
 ### Europe
- 
+* 2023-03-09 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/)
+    * [**Rust Meetup #7**](https://www.meetup.com/rust-basel/events/291228934/)
+* 2023-03-09 | Delft, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
+    * [**Regular track: Embedded Rust**](https://www.meetup.com/rust-nederland/events/291401965/)
+    * [**Student track: Embedded Rust**](https://www.meetup.com/rust-nederland/events/291401778/)
+* 2023-03-09 | Lyon, FR | [Rust Lyon](https://www.meetup.com/fr-FR/rust-lyon/)
+    * [**Rust Lyon Meetup #2**](https://www.meetup.com/fr-FR/rust-lyon/events/291727241/)
 * 2023-03-15 | Nürnberg, DE | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
     * [**Walk around Embedded World Exhibition**](https://www.meetup.com/rust-noris/events/291623203/)
 * 2023-03-15 | Trondheim, NO | [Rust Trondheim](https://www.meetup.com/rust-trondheim/)
-    * [**Rust graphics with nannou**](https://www.meetup.com/rust-trondheim/events/292085409/) 
+    * [**Rust graphics with nannou**](https://www.meetup.com/rust-trondheim/events/292085409/)
 * 2023-03-16 | Paris, FR | [OCaml Users in Paris - OUPS](https://www.meetup.com/ocaml-paris/events/)
     * [**OUPS Mars 2023: Creusot a prophetic verifier for Rust -- Xavier Denis**](https://www.meetup.com/ocaml-paris/events/291637370/)
 * 2023-03-17 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/rust-community-stuttgart)
