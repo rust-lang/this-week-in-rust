@@ -60,6 +60,8 @@ and just ask the editors to select the category.
 * [Getting Past “Ampersand-Driven Development” in Rust](https://fiberplane.com/blog/getting-past-ampersand-driven-development-in-rust)
 * (video) [Teaching Embedded Rust](https://www.youtube.com/watch?v=hGdYBEkQJPU)
 
+- [Switching From C++ to Rust | Nikita Lapkov](https://laplab.me/posts/switching-from-cpp-to-rust/)
+
 ### Rust Walkthroughs
 * [Beginning Rust: by exploring a very basic Axum web API in detail](https://medium.com/@lindblomdev/beginning-rust-by-exploring-a-very-basic-axum-web-api-in-detail-1f4c87e422e0)
 * [Rewriting the CLI in Rust: Was It Worth It?](https://blog.railway.app/p/rust-cli-rewrite)
