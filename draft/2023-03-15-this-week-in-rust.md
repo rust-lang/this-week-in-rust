@@ -58,6 +58,7 @@ and just ask the editors to select the category.
 * [Rust: How We Built a Privacy Framework for Data Science](https://blog.mithrilsecurity.io/bastionlab-rust-privacy-framework-built-for-data-science/)
 * [Writing a Kubernetes Operator](https://metalbear.co/blog/writing-a-kubernetes-operator/)
 * [Getting Past “Ampersand-Driven Development” in Rust](https://fiberplane.com/blog/getting-past-ampersand-driven-development-in-rust)
+* (video) [Teaching Embedded Rust](https://www.youtube.com/watch?v=hGdYBEkQJPU)
 
 ### Rust Walkthroughs
 * [Beginning Rust: by exploring a very basic Axum web API in detail](https://medium.com/@lindblomdev/beginning-rust-by-exploring-a-very-basic-axum-web-api-in-detail-1f4c87e422e0)
