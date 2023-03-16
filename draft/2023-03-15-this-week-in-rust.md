@@ -28,21 +28,51 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.68.0](https://blog.rust-lang.org/2023/03/09/Rust-1.68.0.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust GameDev #43 - February 2023](https://gamedev.rs/news/043/)
 
 ### Project/Tooling Updates
+* [IntelliJ Rust Changelog #190](https://intellij-rust.github.io/2023/03/13/changelog-190.html)
+* [rust-analyzer changelog #172](https://rust-analyzer.github.io/thisweek/2023/03/13/changelog-172.html)
+* [mockito 1.0.0](https://github.com/lipanski/mockito/releases/tag/1.0.0)
+* [rustc_codegen_gcc: Progress Report #21](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-21)
 * [Rust Insight! - an interactive book for practicing Rust](https://www.reddit.com/r/rust/comments/11q56ey/rust_insight_an_interactive_book_for_practicing/)
 
 ### Observations/Thoughts
+* [To async trait or just to trait](http://smallcultfollowing.com/babysteps/blog/2023/03/12/to-async-trait-or-just-to-trait/)
+* [Writing an LLVM backend for the Move language in Rust](https://brson.github.io/2023/03/12/move-on-llvm)
+* [STM32F4 Embedded Rust at the PAC: UART Communication](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-uart-communication)
+* [A Guide to Declarative Macros in Rust](https://medium.com/@altaaar/a-guide-to-declarative-macros-in-rust-6f006fdaeebf)
+* [SQLx Compile Time Woes](https://cosmichorror.dev/posts/speeding-up-sqlx-compile-times/)
+* [I built a startup in Rust, I would do it again.](https://cloak.software/blog/i-built-startup-in-rust/)
+* [rustdoc and the re-exports](https://blog.guillaume-gomez.fr/articles/2023-03-08+rustdoc+and+the+re-exports)
+* [The registers of Rust](https://without.boats/blog/the-registers-of-rust/)
+* [Switching From C++ to Rust](https://laplab.me/posts/switching-from-cpp-to-rust/)
+* [Emitting Safer Rust with C2Rust](https://immunant.com/blog/2023/03/lifting/)
+* [Applying 5 million pixel updates per second with Rust & wgpu](https://maxisom.me/posts/applying-5-million-pixel-updates-per-second)
+* [Rust in the Real World: Super Fast Data Ingestion Using ScyllaDB](https://www.scylladb.com/2023/03/08/rust-in-the-real-world-super-fast-data-ingestion-using-scylladb/)
+* [Rust: How We Built a Privacy Framework for Data Science](https://blog.mithrilsecurity.io/bastionlab-rust-privacy-framework-built-for-data-science/)
+* [Writing a Kubernetes Operator](https://metalbear.co/blog/writing-a-kubernetes-operator/)
+* [Getting Past “Ampersand-Driven Development” in Rust](https://fiberplane.com/blog/getting-past-ampersand-driven-development-in-rust)
 
 ### Rust Walkthroughs
+* [Beginning Rust: by exploring a very basic Axum web API in detail](https://medium.com/@lindblomdev/beginning-rust-by-exploring-a-very-basic-axum-web-api-in-detail-1f4c87e422e0)
+* [Rewriting the CLI in Rust: Was It Worth It?](https://blog.railway.app/p/rust-cli-rewrite)
 
 ### Research
 
 ### Miscellaneous
+* [Why Turborepo is migrating from Go to Rust](https://vercel.com/blog/turborepo-migration-go-rust)
+* [Leveraging Rust and the GPU to render user interfaces at 120 FPS](https://zed.dev/blog/videogame)
+* [video] [Bestagon Mesh Generation: Waveform Collapse in Bevy](https://www.youtube.com/watch?v=Zz296fdB8rc)
+* [video] [Bye WebSockets! Boost Web Comms with Rust and WebTransport](https://www.youtube.com/watch?v=dztIToTf8Yc)
+* [video] [Learn Bevy 0.10 - EP4 - Enemy Movement, Collisions, Sound Effects, Despawning](https://www.youtube.com/watch?v=4TjEo-gDgAg)
+* [video] [Rust Releases! Rust 1.68.0](https://www.youtube.com/watch?v=BaSgkGIgRxc)
+* [video] [Interview and AMA with Josh Triplett](https://www.youtube.com/watch?v=Q3sLSihQ0vw)
 
 ## Crate of the Week
 
