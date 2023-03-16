@@ -64,6 +64,8 @@ and just ask the editors to select the category.
 * [Beginning Rust: by exploring a very basic Axum web API in detail](https://medium.com/@lindblomdev/beginning-rust-by-exploring-a-very-basic-axum-web-api-in-detail-1f4c87e422e0)
 * [Rewriting the CLI in Rust: Was It Worth It?](https://blog.railway.app/p/rust-cli-rewrite)
 
+[Writing a Kubernetes Operator](https://metalbear.co/blog/writing-a-kubernetes-operator/)
+
 ### Research
 
 ### Miscellaneous
