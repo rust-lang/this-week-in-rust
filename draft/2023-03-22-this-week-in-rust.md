@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+[AsRef vs Borrow trait (ft. ChatGPT)](https://rusty-ferris.pages.dev/blog/asref-vs-borrow-trait/)
+
 ### Rust Walkthroughs
 
 ### Research
