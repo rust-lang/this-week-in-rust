@@ -71,7 +71,20 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A mixed week, with some nice wins, but also at least two PR's that were
+subsequently reverted, such as the upgrade to LLVM 16. We do want to
+note PR [#108944][], which cut down on crate metadata, binary sizes, and
+was an overall win on execution time for many benchmarks.
+
+[#108944]: https://github.com/rust-lang/rust/pull/108944
+
+Triage done by **@pnkfelix**.
+Revision range: [00587489..ef03fda3](https://perf.rust-lang.org/?start=0058748944abb3282aba0e0a74823c6411703565&end=ef03fda339923e659d3d3ca3321de887316d2807&absolute=false&stat=instructions%3Au)
+
+1 Regressions, 4 Improvements, 11 Mixed; 2 of them in rollups
+37 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-03-21.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
