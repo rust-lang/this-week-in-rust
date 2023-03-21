@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 ### Research
+* [Optimizing a parser/compiler with data-oriented design: a case study](https://tweedegolf.nl/en/blog/88/data-oriented-design)
 
 ### Miscellaneous
 
