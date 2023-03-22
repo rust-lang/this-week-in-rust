@@ -30,16 +30,30 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Rust Foundation Joins Open Infrastructure Foundation as Associate Member](https://foundation.rust-lang.org/news/rust-foundation-joins-open-infrastructure-foundation-as-associate-member/)
+* [Rust Identified as Safer Coding Tool by NIST](https://foundation.rust-lang.org/news/rust-identified-as-safer-coding-tool-by-nist/)
+* [Rewarding Resilience: Rust & the U.S. National Cybersecurity Strategy](https://foundation.rust-lang.org/news/rewarding-resilience-rust-the-u-s-national-cybersecurity-strategy/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
 * [Helix editor 23.03 released](https://helix-editor.com/news/release-23-03-highlights/)
+* [Rustls 0.21.0 Released With Exciting New Features](https://www.memorysafety.org/blog/rustls-new-features/)
+* [Slint 1.0: The Next-Generation Native GUI Toolkit Matures](https://slint-ui.com/blog/announcing-slint-1.0.html)
+* [rust-analyzer changelog #175](https://rust-analyzer.github.io/thisweek/2023/04/03/changelog-175.html)
 
 ### Observations/Thoughts
+* [Thoughts on async closures](https://smallcultfollowing.com/babysteps/blog/2023/03/29/thoughts-on-async-closures/)
+* [How to speed up the Rust compiler in March 2023](https://nnethercote.github.io/2023/03/24/how-to-speed-up-the-rust-compiler-in-march-2023.html)
+* [Two things that Rust does better than C++](https://getdozer.io/blog/rust-cpp-move-and-dispatch/)
+* [Rust Tidbits #1](https://www.thecodedmessage.com/posts/rust-tidbits-1/)
+* [audio] [AI-NC with Tom Miles](https://rustacean-station.org/episode/tom-miles/)
+* [audio] [Servo with Josh Matthews](https://rustacean-station.org/episode/josh-matthews/)
 
 ### Rust Walkthroughs
 * [Cross Compiling Rust Projects in GitHub Actions](https://blog.urth.org/2023/03/05/cross-compiling-rust-projects-in-github-actions/)
+* [Rust on the CH32V003](https://noxim.xyz/blog/rust-ch32v003/)
+* [Build your own CountMinSketch in Rust](https://www.arunma.com/2023/04/02/build-your-own-countminsketch-in-rust/)
 
 ### Research
 
