@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [autometrics 0.3: Defining Service-Level Objectives (SLOs) in Rust Source Code](https://fiberplane.com/blog/autometrics-rs-0-3-defining-service-level-objectives-in-rust-source-code)
 
 ### Observations/Thoughts
 
@@ -191,7 +192,7 @@ Rusty Events between 2023-03-22 - 2023-04-19 🦀
 
 ### Asia
 * 2023-04-08 | Kyoto, JP | [Kansai Rust](https://www.meetup.com/kansai-rust/)
-    * [**Demystifying Closures**](https://www.meetup.com/kansai-rust/events/292202435/) 
+* [**Demystifying Closures**](https://www.meetup.com/kansai-rust/events/292202435/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
