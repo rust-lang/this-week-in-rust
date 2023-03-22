@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Quickwit 0.5: Distributed tracing with Open Telemetry and Jaeger, VRL, Pulsar support, and more...!](https://quickwit.io/blog/quickwit-0.5)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
