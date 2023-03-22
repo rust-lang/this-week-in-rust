@@ -183,6 +183,8 @@ Rusty Events between 2023-03-22 - 2023-04-19 🦀
     * [**Rust Paris meetup #57**](https://www.meetup.com/rust-paris/events/291963747/)
 * 2023-04-04 | Berlin, DE | [Berline.rs](https://berline.rs)
     * [**Rust and Tell - Goodbye👋 Edition**](https://berline.rs/2023/04/04/rust-and-tell-goodbye-edition.html)
+* 2023-04-06 | Lyon, FR | [Rust Lyon](https://www.meetup.com/fr-FR/rust-lyon/)
+    * [**Rust Lyon Meetup #3**](https://www.meetup.com/fr-FR/rust-lyon/events/292283973/)
 
 ### North America
 
