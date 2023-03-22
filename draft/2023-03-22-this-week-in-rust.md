@@ -58,8 +58,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [racoon - Open Source IAM call for contributors](https://github.com/opeolluwa/racoon)
+* [Ockam - create clap command to show the details of a secure-channel listener on a node](https://github.com/build-trust/ockam/issues/4439)
+* [Ockam - create clap command to delete an existing Forwarder on a node](https://github.com/build-trust/ockam/issues/4437)
+* [Ockam - ockam run - a single command to run many ockam “create” commands](https://github.com/build-trust/ockam/issues/4479)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
