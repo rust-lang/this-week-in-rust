@@ -28,20 +28,50 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Stabilizing async fn in traits in 2023](https://blog.rust-lang.org/inside-rust/2023/05/03/stabilizing-async-fn-in-trait.html)
+* [Postmortem Analysis in Cargo](https://blog.rust-lang.org/inside-rust/2023/05/01/cargo-postmortem.html)
 
 ### Foundation
+* [Welcoming Software Engineer Tobias Bieniek to the Rust Foundation Team](https://foundation.rust-lang.org/news/welcoming-software-engineer-tobias-bieniek-to-the-rust-foundation-team/)
+* [Q1 2023 Recap from Rebecca Rumbul](https://foundation.rust-lang.org/news/q1-2023-recap-from-rebecca-rumbul/)
 
 ### Newsletters
+* [This Month in Rust GameDev #44 - March 2023](https://gamedev.rs/news/044/)
+* [Rust on Espressif chips - 28-04-2023](https://mabez.dev/blog/posts/esp-rust-28-04-2023/)
 
 ### Project/Tooling Updates
+* [Going beyond build.rs: introducing cargo-px](https://www.lpalmieri.com/posts/cargo-px/)
+* [rust-analyzer changelog #179](https://rust-analyzer.github.io/thisweek/2023/05/01/changelog-179.html)
 
 ### Observations/Thoughts
+* [A Mirror for Rust: Compile-Time Reflection Report](https://soasis.org/posts/a-mirror-for-rust-a-plan-for-generic-compile-time-introspection-in-rust/)
+* [Some thoughts on open collaboration](https://www.ncameron.org/blog/some-thoughts-on-open-collaboration/)
+* [The case for stabilizing arbitrary_self_types](https://medium.com/@adetaylor/the-case-for-stabilizing-arbitrary-self-types-b07bab22bb45)
+* [Report on Surprise hyper CVE from 2023-04-11](https://seanmonstar.com/post/715784167270596608/coe-surpise-hyper-cve)
+* [video] [Rust Data Modelling WITHOUT OOP](https://www.youtube.com/watch?v=z-0-bbc80JM)
+* [video] [Introduction to Rust programming on bare metal hardware by Mike Kefeder](https://www.youtube.com/watch?v=KECu_piSM5s)
+* [video] [Writing Performant Concurrent Data Structures by Adrian Alic](https://www.youtube.com/watch?v=XKODaZgKcnE)
+* [video] [sett: data encryption and transfer made easy(ier) by Jaroslaw Surkont, Christian Ribeaud](https://www.youtube.com/watch?v=cP7uy97uU4A)
+* [video] [N-Queens Puzzle (PART 1)](https://www.youtube.com/watch?v=5NHYNFM4XUA)
+* [ES] [video] [01 Taller de Rust (lenguaje) en español](https://www.youtube.com/watch?v=dDX-MMFD8YI&list=PLP3JrIiWQArVUYA2Mt8S_jVvRq_SElVWB)
+* [audio] [SurrealDB with Tobie and Jamie Morgan](https://rustacean-station.org/episode/tobie-jamie-morgan/)
+* [audio] [Rust Embedded WG with Jonathan Pallant](https://rustacean-station.org/episode/jonathan-pallant/)
 
 ### Rust Walkthroughs
+* [Fast(er) binary search in Rust](https://www.bazhenov.me/posts/faster-binary-search-in-rust/)
+* [Rust allows redeclaring local variables to great benefit](https://ntietz.com/blog/rust-shadowing-idiomatic/)
+* [Build a Rust API with Rocket, Diesel, and MySQL](https://planetscale.com/blog/build-a-rust-api-with-rocket-diesel-mysql)
+* [Fun and Hackable Tensors in Rust, From Scratch](https://getcode.substack.com/p/fun-and-hackable-tensors-in-rust)
+* [Learning Game Dev - Building a platformer with Bevy #1](https://affanshahid.dev/posts/learning-game-dev-bevy-1/)
+* [How does async Rust work](https://bertptrs.nl/2023/04/27/how-does-async-rust-work.html)
+* [50 Shades of Rust, or emerging Rust GUIs in a WASM world](https://monadical.com/posts/shades-of-rust-gui-library-list.html)
+* [ESP32 Embedded Rust at the HAL: Button-Controlled Blinking by Timer Polling](https://apollolabsblog.hashnode.dev/esp32-embedded-rust-at-the-hal-button-controlled-blinking-by-timer-polling)
 
 ### Research
+* [Specifying and Verifying Higher-order Rust Iterators](https://hal.science/hal-03827702v2/)
 
 ### Miscellaneous
+* [Microsoft is rewriting core Windows libraries in Rust](https://www.theregister.com/2023/04/27/microsoft_windows_rust/)
 
 ## Crate of the Week
 
