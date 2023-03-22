@@ -30,18 +30,44 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Welcoming Software Engineer Adam Harvey to the Rust Foundation Team](https://foundation.rust-lang.org/news/welcoming-software-engineer-adam-harvey-to-the-rust-foundation-team/)
+* [New SLSA++ Survey Reveals Real-World Developer Approaches to Software Supply Chain Security](https://foundation.rust-lang.org/news/new-slsa-survey-reveals-real-world-developer-approaches-to-software-supply-chain-security/)
 
 ### Newsletters
+* [This Month in Rust OSDev: February 2023 | Rust OSDev](https://rust-osdev.com/this-month/2023-02/)
 
 ### Project/Tooling Updates
+* [Typst starts its public beta test and goes open source](https://typst.app/blog/2023/beta-oss-launch)
+* [Klint: Compile-time Detection of Atomic Context Violations for Kernel Rust Code](https://www.memorysafety.org/blog/gary-guo-klint-rust-tools/)
+* [rust-analyzer changelog #173](https://rust-analyzer.github.io/thisweek/2023/03/20/changelog-173.html)
+* [Gitea 1.19.0 is released](https://blog.gitea.io/2023/03/gitea-1.19.0-is-released/)
+
 
 ### Observations/Thoughts
+* [Temporary lifetimes](https://smallcultfollowing.com/babysteps/blog/2023/03/15/temporary-lifetimes/)
+* [Must move types](https://smallcultfollowing.com/babysteps/blog/2023/03/16/must-move-types/)
+* [Defer blocks and async drop](https://www.ncameron.org/blog/defer-blocks-and-async-drop/)
+* [A template proposal for adopting Rust at work](https://tim.mcnamara.nz/post/711821310255349760/template-proposal-to-adopt-rust)
+* [Patterns & Abstractions](https://without.boats/blog/patterns-and-abstractions/)
+* [Const as an auto trait](https://without.boats/blog/const-as-an-auto-trait/)
+* [Item Patterns And Struct Else](https://blog.nilstrieb.dev/posts/item-patterns-and-struct-else/)
+* [Why use Rust on the backend?](https://blog.adamchalmers.com/why-rust-on-backend/)
+* [The Importance of Logging](https://www.thecodedmessage.com/posts/logging/)
+* [audio] [Cargo Limit with Alexander Lopatin :: Rustacean Station](https://rustacean-station.org/episode/alexander-lopatin/)
+* [video] [The Truth about Rust/WebAssembly Performance](https://www.youtube.com/watch?v=4KtotxNAwME)
+
 
 ### Rust Walkthroughs
+* [STM32F4 Embedded Rust at the PAC: Creating Hardware Abstractions](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-creating-hardware-abstractions)
+* [STM32F4 Embedded Rust at the PAC: GPIO Interrupts](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-gpio-interrupts)
+* [video] [Setting up CI and property testing for a Rust crate](https://www.youtube.com/watch?v=xUH-4y92jPg)
 
 ### Research
+* [Verus: Verifying Rust Programs using Linear Ghost Types](https://arxiv.org/abs/2303.05491)
+* [Ownership guided C to Rust translation](https://arxiv.org/abs/2303.10515)
 
 ### Miscellaneous
+* [Bringing Rust to the Xen Project](https://xcp-ng.org/blog/2023/03/17/bringing-rust-to-the-xen-project/)
 
 ## Crate of the Week
 
