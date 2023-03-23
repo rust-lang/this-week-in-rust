@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 * [Build your own Counting Bloom Filter](https://www.arunma.com/2023/03/19/build-your-own-counting-bloom-filter-in-rust/)
 
 ### Research
+* [Optimizing a parser/compiler with data-oriented design: a case study](https://tweedegolf.nl/en/blog/88/data-oriented-design)
 
 ### Miscellaneous
 
