@@ -37,13 +37,13 @@ and just ask the editors to select the category.
 * [This Month in Rust OSDev: February 2023 | Rust OSDev](https://rust-osdev.com/this-month/2023-02/)
 
 ### Project/Tooling Updates
+* [autometrics 0.3: Defining Service-Level Objectives (SLOs) in Rust Source Code](https://fiberplane.com/blog/autometrics-rs-0-3-defining-service-level-objectives-in-rust-source-code)
 * [Typst starts its public beta test and goes open source](https://typst.app/blog/2023/beta-oss-launch)
 * [Klint: Compile-time Detection of Atomic Context Violations for Kernel Rust Code](https://www.memorysafety.org/blog/gary-guo-klint-rust-tools/)
 * [rust-analyzer changelog #173](https://rust-analyzer.github.io/thisweek/2023/03/20/changelog-173.html)
 * [Gitea 1.19.0 is released](https://blog.gitea.io/2023/03/gitea-1.19.0-is-released/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Finished!](https://www.fornjot.app/blog/weekly-release/2023-w12/)
 * [activitypub-federation 0.4.0: Major rewrite with improvements to usability and documentation](https://docs.rs/activitypub_federation)
-
 * [Quickwit 0.5: Distributed tracing with Open Telemetry and Jaeger, VRL, Pulsar support, and more...!](https://quickwit.io/blog/quickwit-0.5)
 
 ### Observations/Thoughts
@@ -56,17 +56,14 @@ and just ask the editors to select the category.
 * [Item Patterns And Struct Else](https://blog.nilstrieb.dev/posts/item-patterns-and-struct-else/)
 * [Why use Rust on the backend?](https://blog.adamchalmers.com/why-rust-on-backend/)
 * [The Importance of Logging](https://www.thecodedmessage.com/posts/logging/)
+* [AsRef vs Borrow trait (ft. ChatGPT)](https://rusty-ferris.pages.dev/blog/asref-vs-borrow-trait/)
 * [audio] [Cargo Limit with Alexander Lopatin :: Rustacean Station](https://rustacean-station.org/episode/alexander-lopatin/)
 * [video] [The Truth about Rust/WebAssembly Performance](https://www.youtube.com/watch?v=4KtotxNAwME)
-
-
-[AsRef vs Borrow trait (ft. ChatGPT)](https://rusty-ferris.pages.dev/blog/asref-vs-borrow-trait/)
 
 ### Rust Walkthroughs
 * [STM32F4 Embedded Rust at the PAC: Creating Hardware Abstractions](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-creating-hardware-abstractions)
 * [STM32F4 Embedded Rust at the PAC: GPIO Interrupts](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-gpio-interrupts)
 * [video] [Setting up CI and property testing for a Rust crate](https://www.youtube.com/watch?v=xUH-4y92jPg)
-
 * [Build your own Counting Bloom Filter](https://www.arunma.com/2023/03/19/build-your-own-counting-bloom-filter-in-rust/)
 
 ### Research
@@ -76,7 +73,6 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Bringing Rust to the Xen Project](https://xcp-ng.org/blog/2023/03/17/bringing-rust-to-the-xen-project/)
-
 * [The birth of a package manager [written in Rust ;)]](https://ochagavia.nl/blog/the-birth-of-a-package-manager/)
 
 ## Crate of the Week
