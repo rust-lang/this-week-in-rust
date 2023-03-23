@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Finished!](https://www.fornjot.app/blog/weekly-release/2023-w12/)
 * [activitypub-federation 0.4.0: Major rewrite with improvements to usability and documentation](https://docs.rs/activitypub_federation)
 
+* [Quickwit 0.5: Distributed tracing with Open Telemetry and Jaeger, VRL, Pulsar support, and more...!](https://quickwit.io/blog/quickwit-0.5)
+
 ### Observations/Thoughts
 * [Temporary lifetimes](https://smallcultfollowing.com/babysteps/blog/2023/03/15/temporary-lifetimes/)
 * [Must move types](https://smallcultfollowing.com/babysteps/blog/2023/03/16/must-move-types/)
