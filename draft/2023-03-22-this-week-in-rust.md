@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Build your own Counting Bloom Filter](https://www.arunma.com/2023/03/19/build-your-own-counting-bloom-filter-in-rust/)
+
 ### Research
 
 ### Miscellaneous
