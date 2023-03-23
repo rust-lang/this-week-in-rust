@@ -47,7 +47,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * (video) [Teaching Embedded Rust](https://www.youtube.com/watch?v=hGdYBEkQJPU)
 
 ### Rust Walkthroughs
-* [Beginning Rust: by exploring a very basic Axum web API in detail](https://medium.com/@lindblomdev/beginning-rust-by-exploring-a-very-basic-axum-web-api-in-detail-1f4c87e422e0)
+* [Beginning Rust: by exploring a very basic Axum web API in detail](https://medium.com/@lindblomdev/beginning-rust-by-exploring-a-very-basic-axum-web-api-in-detail-1f4c87e422e0?sk=6518c70d4704afe90e6b3b81bdf7ebf8)
 * [Rewriting the CLI in Rust: Was It Worth It?](https://blog.railway.app/p/rust-cli-rewrite)
 * [Trace through a Kafka Cluster using OpenTelemetry](https://dev.to/ciscoemerge/trace-through-a-kafka-cluster-with-rust-and-opentelemetry-2jln)
 * [Tour of a HTTP request in Rust](https://rustwebdevelopment.com/blog/tour-http/)
