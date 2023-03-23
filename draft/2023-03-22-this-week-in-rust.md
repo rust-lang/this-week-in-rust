@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 * [activitypub-federation 0.4.0: Major rewrite with improvements to usability and documentation](https://docs.rs/activitypub_federation)
 * [Quickwit 0.5: Distributed tracing with Open Telemetry and Jaeger, VRL, Pulsar support, and more...!](https://quickwit.io/blog/quickwit-0.5)
 
+* [pavex, a new Rust web framework - Progress report #2](https://www.lpalmieri.com/posts/pavex-progress-report-02/)
+
 ### Observations/Thoughts
 * [Temporary lifetimes](https://smallcultfollowing.com/babysteps/blog/2023/03/15/temporary-lifetimes/)
 * [Must move types](https://smallcultfollowing.com/babysteps/blog/2023/03/16/must-move-types/)
