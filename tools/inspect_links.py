@@ -13,7 +13,7 @@ import markdown
 import os
 import re
 import sys
-import urllib
+import urllib.parse
 
 LOG = logging.getLogger(__name__)
 LOG.setLevel(logging.INFO)
