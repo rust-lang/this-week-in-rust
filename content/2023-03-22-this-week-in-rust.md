@@ -12,23 +12,6 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/rust-lang/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
-## Updates from Rust Community
-
-<!--
-
-Dear community contributors:
-Please read README.md for guidance on submissions.
-Each submitted link should be of the form:
-
-* [Title of the Linked Page](https://example.com/my_article)
-
-If you don't know which category to use, feel free to submit a PR anyway
-and just ask the editors to select the category.
-
--->
-
-### Official
-
 ### Foundation
 * [Welcoming Software Engineer Adam Harvey to the Rust Foundation Team](https://foundation.rust-lang.org/news/welcoming-software-engineer-adam-harvey-to-the-rust-foundation-team/)
 * [New SLSA++ Survey Reveals Real-World Developer Approaches to Software Supply Chain Security](https://foundation.rust-lang.org/news/new-slsa-survey-reveals-real-world-developer-approaches-to-software-supply-chain-security/)
@@ -65,8 +48,8 @@ and just ask the editors to select the category.
 * [Using Cow in Rust for efficient memory utilization](https://blog.logrocket.com/using-cow-rust-efficient-memory-utilization/)
 * [STM32F4 Embedded Rust at the PAC: Creating Hardware Abstractions](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-creating-hardware-abstractions)
 * [STM32F4 Embedded Rust at the PAC: GPIO Interrupts](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-gpio-interrupts)
-* [video] [Setting up CI and property testing for a Rust crate](https://www.youtube.com/watch?v=xUH-4y92jPg)
 * [Build your own Counting Bloom Filter](https://www.arunma.com/2023/03/19/build-your-own-counting-bloom-filter-in-rust/)
+* [video] [Setting up CI and property testing for a Rust crate](https://www.youtube.com/watch?v=xUH-4y92jPg)
 
 ### Research
 * [Verus: Verifying Rust Programs using Linear Ghost Types](https://arxiv.org/abs/2303.05491)
@@ -304,7 +287,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/11naac9/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -320,4 +303,4 @@ Thanks to [bugaevc](https://users.rust-lang.org/t/twir-quote-of-the-week/328/138
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/11z992c/this_week_in_rust_487/)</small>
