@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [The birth of a package manager [written in Rust ;)]](https://ochagavia.nl/blog/the-birth-of-a-package-manager/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
