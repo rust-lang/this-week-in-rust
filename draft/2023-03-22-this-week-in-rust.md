@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rust Insight! — an interactive book | Week #1](https://blog.rustinsight.com/rust-insight-an-interactive-book-week-1-c31b7a25ac1b)
 
 ### Observations/Thoughts
 
