@@ -45,7 +45,6 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Finished!](https://www.fornjot.app/blog/weekly-release/2023-w12/)
 * [activitypub-federation 0.4.0: Major rewrite with improvements to usability and documentation](https://docs.rs/activitypub_federation)
 * [Quickwit 0.5: Distributed tracing with Open Telemetry and Jaeger, VRL, Pulsar support, and more...!](https://quickwit.io/blog/quickwit-0.5)
-
 * [pavex, a new Rust web framework - Progress report #2](https://www.lpalmieri.com/posts/pavex-progress-report-02/)
 
 ### Observations/Thoughts
@@ -63,6 +62,7 @@ and just ask the editors to select the category.
 * [video] [The Truth about Rust/WebAssembly Performance](https://www.youtube.com/watch?v=4KtotxNAwME)
 
 ### Rust Walkthroughs
+* [Using Cow in Rust for efficient memory utilization](https://blog.logrocket.com/using-cow-rust-efficient-memory-utilization/)
 * [STM32F4 Embedded Rust at the PAC: Creating Hardware Abstractions](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-creating-hardware-abstractions)
 * [STM32F4 Embedded Rust at the PAC: GPIO Interrupts](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-gpio-interrupts)
 * [video] [Setting up CI and property testing for a Rust crate](https://www.youtube.com/watch?v=xUH-4y92jPg)
