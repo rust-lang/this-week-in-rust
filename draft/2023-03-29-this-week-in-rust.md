@@ -58,8 +58,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Hyperswitch - Use newtype pattern for email addresses](https://github.com/juspay/hyperswitch/issues/608)
+* [Hyperswitch - Determine card brand from card BIN](https://github.com/juspay/hyperswitch/issues/379)
+* [Hyperswitch - Validate card number while accepting payment method information](https://github.com/juspay/hyperswitch/issues/606)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
