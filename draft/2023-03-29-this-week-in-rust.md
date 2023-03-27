@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[Rust Search Extension v1.10.0 has been released](https://rust.extension.sh/changelog/#v1-10-0-2023-03-25)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
