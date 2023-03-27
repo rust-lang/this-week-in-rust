@@ -175,6 +175,8 @@ Rusty Events between 2023-03-29 - 2023-04-26 🦀
 ### Asia
 * 2023-04-08 | Kyoto, JP | [Kansai Rust](https://www.meetup.com/kansai-rust/)
     * [**Demystifying Closures**](https://www.meetup.com/kansai-rust/events/292202435/) 
+* 2023-04-08 | Beijing, China | [Rust Chinese Group](https://www.meetup.com/rust-chinese-group/)
+    * [**Rust Meetup Beijing**](https://www.meetup.com/rust-chinese-group/events/292379002/) 
 * 2023-04-12 | Kuala Lumpur, MY | [Rust Malaysia](https://rust-malaysia.github.io/meetup/); [Telegram](https://t.me/golangmalaysia)
     * [**Rust Meetup Malaysia April 2023: How far is Dioxus from React? by Ivan Tham**](https://www.google.com/calendar/event?eid=MWI0bWJzY21qZTI2NWsyZDgzOG0xb2JkdTkgYXBkOXZtYmMyMmVnZW5tdHU1bDZjNWpiZmNAZw&ctz=America/Los_Angeles) | [Map](https://goo.gl/maps/w2ogftac6mqpBbvt5)
 
