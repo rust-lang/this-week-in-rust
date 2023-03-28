@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [State Machine testing with Proptest](https://tzemanovic.gitlab.io/posts/state-machine-testing-with-proptest/)
+
 ### Research
 
 ### Miscellaneous
