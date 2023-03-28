@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+[video][Env Config Option](https://youtu.be/r6niPhmgxRY)
 
 ### Research
 
