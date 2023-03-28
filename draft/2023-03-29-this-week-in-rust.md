@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Tree Borrows - A new aliasing model for Rust](https://perso.crans.org/vanille/treebor)
+
 ### Miscellaneous
 
 ## Crate of the Week
