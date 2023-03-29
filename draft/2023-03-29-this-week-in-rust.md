@@ -60,6 +60,7 @@ and just ask the editors to select the category.
 * [The AsyncIterator interface](https://without.boats/blog/async-iterator/)
 * [A Proposal for Safe Window Handles](https://notgull.github.io/safe-windows/)
 * [Rust Is a Scalable Language](https://matklad.github.io/2023/03/28/rust-is-a-scalable-language.html)
+* [Paradigm Shift](https://www.thecodedmessage.com/posts/paradigm-shift/)
 
 ### Rust Walkthroughs
 * [Building a Fibonacci Heap](https://www.kurtlawrence.info/blog/building-a-fibonacci-heap)
