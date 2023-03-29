@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fornjot (code-first CAD in Rust) - Weekly Release - Some Good Progress](https://www.fornjot.app/blog/weekly-release/2023-w13/)
 
 * [Rust Search Extension v1.10.0 has been released](https://rust.extension.sh/changelog/#v1-10-0-2023-03-25)
 * [video] [Rust Releases! Rust 1.68.1](https://www.youtube.com/watch?v=TTOH-_bZlYY)
