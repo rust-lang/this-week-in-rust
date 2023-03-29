@@ -43,7 +43,7 @@ and just ask the editors to select the category.
 * [dfdx v0.11.0: cuda accelerated deep learning](https://coreylowman.github.io/2023/03/15/release-0.11.0.html)
 * [Rust Search Extension v1.10.0 has been released](https://rust.extension.sh/changelog/#v1-10-0-2023-03-25)
 * [Introducing Kobold](https://maciej.codes/2023-03-23-kobold.html)
-* [autometrics-rs 0.3: Defining Service-Level Objectives (SLOs) in Rus...](https://fiberplane.com/blog/autometrics-rs-0-3-defining-service-level-objectives-in-rust-source-code)
+* [autometrics-rs 0.3: Defining Service-Level Objectives (SLOs) in Rust Source Code](https://fiberplane.com/blog/autometrics-rs-0-3-defining-service-level-objectives-in-rust-source-code)
 * [Rocket's 3rd v0.5 Release Candidate - Rocket Web Framework](https://rocket.rs/v0.5-rc/news/2023-03-23-version-0.5-rc.3/)
 * [Seven Tasks with Rust and Egui](https://github.com/Rust-Ninja-Sabi/rust-egui-seven-tasks)
 * [video] [Rust Releases! Rust 1.68.1](https://www.youtube.com/watch?v=TTOH-_bZlYY)
