@@ -52,6 +52,9 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [How we built our Embedded World Demo on Rust for QNX](https://ferrous-systems.com/blog/how-we-built-our-embedded-world-demo-on-rust-for-qnx/)
+* [A Rustaceans Tour of embedded world](https://ferrous-systems.com/blog/a-rustacean-tour-of-embedded-world/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
