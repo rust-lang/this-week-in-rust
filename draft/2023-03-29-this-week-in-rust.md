@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 * [dfdx v0.11.0: cuda accelerated deep learning](https://coreylowman.github.io/2023/03/15/release-0.11.0.html)
 * [Rust Search Extension v1.10.0 has been released](https://rust.extension.sh/changelog/#v1-10-0-2023-03-25)
 * [video] [Rust Releases! Rust 1.68.1](https://www.youtube.com/watch?v=TTOH-_bZlYY)
+* [video] [Rust Releases! Rust 1.68.2](https://youtu.be/Q4NUKNU2uX8)
 
 ### Observations/Thoughts
 
