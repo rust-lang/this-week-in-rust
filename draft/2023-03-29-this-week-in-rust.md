@@ -128,16 +128,6 @@ Rusty Events between 2023-03-29 - 2023-04-26 🦀
 
 ### Virtual
 
-* 2023-03-22 | Virtual (Richmond, VA, US) | [Rustaceans RVA](https://www.meetup.com/rustaceans-rva/)
-    * [**Rustaceans RVA - March Meetup**](https://www.meetup.com/rustaceans-rva/events/291963911/)
-* 2023-03-27 | Virtual | [Rust Formal Methods Interest Group](https://www.eventbrite.com/cc/rfmig-87969)
-    * [**Flux: Ergonomic Verification of Rust Programs with Liquid Types**](https://www.eventbrite.com/e/flux-ergonomic-verification-of-rust-programs-with-liquid-types-tickets-577742873487?aff=ebdssbonlinesearch)
-* 2023-03-28 | Virtual (Berlin, DE) | [Berline.rs - OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
-    * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/292113239/)
-* 2023-03-28 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallas-rust/)
-    * [**Last Tuesday**](https://www.meetup.com/dallas-rust/events/qndgwsyfcfblc/)
-* 2023-03-28 | Virtual (Redmond, WA, US) | [Microsoft Reactor Redmond](https://www.meetup.com/microsoft-reactor-redmond/)
-    * [**Crack code interview problems in Rust: S2 Ep3**](https://www.meetup.com/microsoft-reactor-redmond/events/291677113/)
 * 2023-03-29 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
     * [**Writing your own rust 'book' with mdBook**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/291892487/)
 * 2023-03-31 | Virtual (Tunis, TN) | [Rust Tunisia](https://www.meetup.com/rust-tunisia/)
@@ -148,39 +138,82 @@ Rusty Events between 2023-03-29 - 2023-04-26 🦀
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/291967741/)
 * 2023-04-05 | Virtual (Stuttgart, DE) | [Rust Community Stuttgart](https://www.meetup.com/rust-community-stuttgart)
     * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/dvvtvsyfcgbhb/)
+* 2023-04-06 | Virtual (Tehran, IR) | [Iran Rust Meetup](https://rust-meetup.ir/)
+    * [**Rust Iran Meetup #9 - Let's Write An Async Executor**](https://rust-meetup.ir/2023/04/06/9th-meetup.html)
+* 2023-04-08 | Virtual | [Rust GameDev](https://discord.gg/yNtPTb2)
+    * [**Rust GameDev Monthly Meetup**](https://discord.gg/yNtPTb2)
 * 2023-04-11 | Virtual (Berlin, DE) | [Berline.rs - OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/292236794/)
 * 2023-04-11 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallas-rust/)
     * [**Second Tuesday**](https://www.meetup.com/dallas-rust/events/vndgwsyfcgbpb/)
 * 2023-04-11 | Virtual | [Rust Live](https://www.eventbrite.com/cc/rust-live-1876809)
     * [**Rust Live: Asynchronous Rust**](https://www.eventbrite.com/e/rust-live-asynchronous-rust-tickets-575865518267?aff=ebdssbonlinesearch&keep_tld=1)
+* 2023-03-08 | Virtual (Boulder, CO, US) | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
+    * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsryfcgbqb/)
+* 2023-04-12 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
+    * [**Rust Atomics and Locks Book Club Launch!**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/292410256/)
+* 2023-04-13 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
+    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/hlvbvsyfcgbrb/)
 * 2023-04-18 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
     * [**Mid-month Rustful—Introducing duplicate! and the peculiarities of proc macros**](https://www.meetup.com/rustdc/events/291830834/)
 * 2023-04-19 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/-0)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/lqkkctyfcgbzb/)
+* 2023-04-20 | Virtual (Munich, DE) | [Rust Munich](https://www.meetup.com/rust-munich/)
+    * [**Rust Munich 2023 / 2 - hybrid**](https://www.meetup.com/rust-munich/events/291965920/)
+* 2023-04-20 | Virtual (Stuttgart, DE) | [Rust Community Stuttgart](https://www.meetup.com/rust-community-stuttgart)
+    * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/qtvtvsyfcgbbc/)
+* 2023-04-25 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallas-rust/)
+    * [**Last Tuesday**](https://www.meetup.com/dallas-rust/events/qndgwsyfcgbhc/)
+
+### Asia
+
+* 2023-04-08 | Beijing, CN | [Rust Chinese Group](https://www.meetup.com/rust-chinese-group/)
+    * [**Rust Meetup Beijing**](https://www.meetup.com/rust-chinese-group/events/292379002/) 
+* 2023-04-08 | Kyoto, JP | [Kansai Rust](https://www.meetup.com/kansai-rust/)
+    * [**Demystifying Closures**](https://www.meetup.com/kansai-rust/events/292202435/) 
+* 2023-04-12 | Kuala Lumpur, MY | [Rust Malaysia](https://rust-malaysia.github.io/meetup/); [Telegram](https://t.me/golangmalaysia)
+    * [**Rust Meetup Malaysia April 2023: How far is Dioxus from React? by Ivan Tham**](https://www.google.com/calendar/event?eid=MWI0bWJzY21qZTI2NWsyZDgzOG0xb2JkdTkgYXBkOXZtYmMyMmVnZW5tdHU1bDZjNWpiZmNAZw&ctz=America/Los_Angeles) | [Map](https://goo.gl/maps/w2ogftac6mqpBbvt5)
 
 ### Europe
 
-* 2023-03-28 | Zurich, CH | [Rust Zurich](https://www.meetup.com/de-DE/rust-zurich/)
-    * [**High performance concurrent data structures in Rust - March Meetup**](https://www.meetup.com/de-DE/rust-zurich/events/291449557/)
 * 2023-03-29 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/)
     * [**Rust Paris meetup #57**](https://www.meetup.com/rust-paris/events/291963747/)
+* 2023-03-30 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community)
+    * [**Rust meetup #34 at Penneo**](https://www.meetup.com/copenhagen-rust-community/events/291613010/)
+* 2023-03-30 | Lille, FR | [Rust Lille](https://www.meetup.com/meetup-group-zgphbyet)
+    * [**Rust Lille #3**](https://www.meetup.com/meetup-group-zgphbyet/events/292257807/)
+* 2023-03-30 | Vienna, AT | [Rust Vienna](https://www.meetup.com/rust-vienna)
+    * [**Rust Vienna Meetup - March**](https://www.meetup.com/rust-vienna/events/292064505/)
 * 2023-04-04 | Berlin, DE | [Berline.rs](https://berline.rs)
     * [**Rust and Tell - Goodbye👋 Edition**](https://berline.rs/2023/04/04/rust-and-tell-goodbye-edition.html)
 * 2023-04-06 | Lyon, FR | [Rust Lyon](https://www.meetup.com/fr-FR/rust-lyon/)
     * [**Rust Lyon Meetup #3**](https://www.meetup.com/fr-FR/rust-lyon/events/292283973/)
 * 2023-04-19 | Zurich, CH | [Rust Zurich](https://www.meetup.com/de-DE/rust-zurich/)
     * [**sett: data encryption and transfer made easy(ier)**](https://www.meetup.com/de-DE/rust-zurich/events/292151879/)
+* 2023-04-20 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
+    * [**Rust Aarhus meetup #1 at Geanix**](https://www.meetup.com/rust-aarhus/events/292185072/)
+* 2023-04-20 | Munich, DE + Virtual | [Rust Munich](https://www.meetup.com/rust-munich/)
+    * [**Rust Munich 2023 / 2 - hybrid**](https://www.meetup.com/rust-munich/events/291965920/)
 * 2023-04-20 | Bern, CH | [Rust Bern](https://www.meetup.com/de-DE/rust-bern/)
     * [**First Rust Bern Meetup!**](https://www.meetup.com/de-DE/rust-bern/events/292206056/)
 
-### Asia
-* 2023-04-08 | Kyoto, JP | [Kansai Rust](https://www.meetup.com/kansai-rust/)
-    * [**Demystifying Closures**](https://www.meetup.com/kansai-rust/events/292202435/) 
-* 2023-04-08 | Beijing, China | [Rust Chinese Group](https://www.meetup.com/rust-chinese-group/)
-    * [**Rust Meetup Beijing**](https://www.meetup.com/rust-chinese-group/events/292379002/) 
-* 2023-04-12 | Kuala Lumpur, MY | [Rust Malaysia](https://rust-malaysia.github.io/meetup/); [Telegram](https://t.me/golangmalaysia)
-    * [**Rust Meetup Malaysia April 2023: How far is Dioxus from React? by Ivan Tham**](https://www.google.com/calendar/event?eid=MWI0bWJzY21qZTI2NWsyZDgzOG0xb2JkdTkgYXBkOXZtYmMyMmVnZW5tdHU1bDZjNWpiZmNAZw&ctz=America/Los_Angeles) | [Map](https://goo.gl/maps/w2ogftac6mqpBbvt5)
+### North America
+
+* 2023-03-30 | Ciudad de México, MX | [Rust MX](https://www.meetup.com/rust-mx/)
+    * [**Escribiendo Bibliotecas de sistema con Rust**](https://www.meetup.com/rust-mx/events/292168261/)
+* 2023-04-13 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/)
+    * [**Autometrics: Easily add metrics in Rust and understand them in Prometheus**](https://www.meetup.com/rust-nyc/events/292430796/)
+
+### Oceania
+
+* 2023-04-04 | Aukland, NZ | [Rust AKL](https://www.meetup.com/rust-akl/)
+    * [**Christchurch Rust meetup first meeting**](https://www.meetup.com/rust-akl/events/292262863/)
+* 2023-04-04 | Christchurch, NZ | [Christchurch Rust Meetup Group](https://www.meetup.com/christchurch-rustlang-meetup-group/)
+    * [**Christchurch Rust meetup first meeting**](https://www.meetup.com/christchurch-rustlang-meetup-group/events/292541911/)
+* 2023-04-13 | Sydney, NSW, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/)
+    * [**🦀 Lightning Talks - 🐰 April Thingy 😊**](https://www.meetup.com/rust-sydney/events/292163549/)
+* 2023-04-18 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
+    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/vwljctyfcgbxb/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
