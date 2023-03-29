@@ -43,8 +43,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Building a Fibonacci Heap](https://www.kurtlawrence.info/blog/building-a-fibonacci-heap)
-
 * [Embedded Rust on BBC Micro Bit: unlocking Vec and HashMap](https://gitlab.com/cyril-marpaud/microbit_vec_hashmap)
+* [video] [Env Config Option](https://youtu.be/r6niPhmgxRY)
 
 ### Research
 
