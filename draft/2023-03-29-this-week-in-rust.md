@@ -28,30 +28,59 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.68.2 | Rust Blog](https://blog.rust-lang.org/2023/03/28/Rust-1.68.2.html)
+* [Announcing Rust 1.68.1 | Rust Blog](https://blog.rust-lang.org/2023/03/23/Rust-1.68.1.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #174](https://rust-analyzer.github.io/thisweek/2023/03/27/changelog-174.html)
+* [IntelliJ Rust Changelog #191](https://intellij-rust.github.io/2023/03/27/changelog-191.html)
+* [clap v4.2](https://epage.github.io/blog/2023/03/clap-v4-2/)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Some Good Progress](https://www.fornjot.app/blog/weekly-release/2023-w13/)
+* [Announcing `scoped-trace`.](https://jack.wrenn.fyi/blog/scoped-trace/)
 * [dfdx v0.11.0: cuda accelerated deep learning](https://coreylowman.github.io/2023/03/15/release-0.11.0.html)
 * [Rust Search Extension v1.10.0 has been released](https://rust.extension.sh/changelog/#v1-10-0-2023-03-25)
+* [Introducing Kobold](https://maciej.codes/2023-03-23-kobold.html)
+* [autometrics-rs 0.3: Defining Service-Level Objectives (SLOs) in Rust Source Code](https://fiberplane.com/blog/autometrics-rs-0-3-defining-service-level-objectives-in-rust-source-code)
+* [Rocket's 3rd v0.5 Release Candidate - Rocket Web Framework](https://rocket.rs/v0.5-rc/news/2023-03-23-version-0.5-rc.3/)
+* [Seven Tasks with Rust and Egui](https://github.com/Rust-Ninja-Sabi/rust-egui-seven-tasks)
 * [video] [Rust Releases! Rust 1.68.1](https://www.youtube.com/watch?v=TTOH-_bZlYY)
 * [video] [Rust Releases! Rust 1.68.2](https://youtu.be/Q4NUKNU2uX8)
 
 ### Observations/Thoughts
+* [STV-rs: Single Transferable Vote implementation in Rust](https://gendignoux.com/blog/2023/03/27/single-transferable-vote.html)
+* [STM32F4 Embedded Rust at the PAC: Creating Hardware Abstractions with embedded-hal](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-creating-hardware-abstractions-with-embedded-hal)
+* [Rust's Golden Rule](https://steveklabnik.com/writing/rusts-golden-rule)
+* [Linearity and Control](https://blog.yoshuawuyts.com/linearity-and-control/)
+* [Zig And Rust](https://matklad.github.io/2023/03/26/zig-and-rust.html)
+* [Generators](https://without.boats/blog/generators/)
+* [The AsyncIterator interface](https://without.boats/blog/async-iterator/)
+* [A Proposal for Safe Window Handles](https://notgull.github.io/safe-windows/)
+* [Rust Is a Scalable Language](https://matklad.github.io/2023/03/28/rust-is-a-scalable-language.html)
 
 ### Rust Walkthroughs
 * [Building a Fibonacci Heap](https://www.kurtlawrence.info/blog/building-a-fibonacci-heap)
 * [Embedded Rust on BBC Micro Bit: unlocking Vec and HashMap](https://gitlab.com/cyril-marpaud/microbit_vec_hashmap)
-* [video] [Env Config Option](https://youtu.be/r6niPhmgxRY)
+* [STM32F4 Embedded Rust at the PAC: Creating Hardware Abstractions](https://apollolabsblog.hashnode.dev/stm32f4-embedded-rust-at-the-pac-creating-hardware-abstractions)
 * [State Machine testing with Proptest](https://tzemanovic.gitlab.io/posts/state-machine-testing-with-proptest/)
+* [Linear Types One-Pager](https://blog.yoshuawuyts.com/linear-types-one-pager/)
+* [Writing a Linux executable from scratch with x86_64-unknown-none and Rust](https://vulns.xyz/2023/03/linux-executable-from-scratch-with-x86_64-unknown-none-rust/)
+* [Efficient, Extensible, Expressive: Typed Tagless Final Interpreters in Rust](https://getcode.substack.com/p/efficient-extensible-expressive-typed)
+* [video] [Env Config Option](https://youtu.be/r6niPhmgxRY)
 
 ### Research
 * [Tree Borrows - A new aliasing model for Rust](https://perso.crans.org/vanille/treebor)
 
 ### Miscellaneous
+* [video] [I built my own memory profiler (in Rust, on Linux)](https://youtu.be/DpnXaNkM9_M)
+* [video] [Build Universal Libraries with Rust](https://www.youtube.com/watch?v=uKlHwko36c4)
+* [video] [How to Learn Rust](https://www.youtube.com/watch?v=2hXNd6x9sZs)
+* [video] [How Bevy FlyCam Works](https://www.youtube.com/watch?v=d1agtogutHA)
+* [video] [Why I Swaped to Fixed Point Numbers in my game #UTDTG #devlog 2](https://www.youtube.com/watch?v=-YDg8WpJmHw)
+* [video] [Make iterators 10X better with itertools](https://www.youtube.com/watch?v=qY9j4dRaMjU)
 
 * [How we built our Embedded World Demo on Rust for QNX](https://ferrous-systems.com/blog/how-we-built-our-embedded-world-demo-on-rust-for-qnx/)
 * [A Rustaceans Tour of embedded world](https://ferrous-systems.com/blog/a-rustacean-tour-of-embedded-world/)
