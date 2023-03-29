@@ -35,7 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Some Good Progress](https://www.fornjot.app/blog/weekly-release/2023-w13/)
-
+* [dfdx v0.11.0: cuda accelerated deep learning](https://coreylowman.github.io/2023/03/15/release-0.11.0.html)
 * [Rust Search Extension v1.10.0 has been released](https://rust.extension.sh/changelog/#v1-10-0-2023-03-25)
 * [video] [Rust Releases! Rust 1.68.1](https://www.youtube.com/watch?v=TTOH-_bZlYY)
 
@@ -45,11 +45,9 @@ and just ask the editors to select the category.
 * [Building a Fibonacci Heap](https://www.kurtlawrence.info/blog/building-a-fibonacci-heap)
 * [Embedded Rust on BBC Micro Bit: unlocking Vec and HashMap](https://gitlab.com/cyril-marpaud/microbit_vec_hashmap)
 * [video] [Env Config Option](https://youtu.be/r6niPhmgxRY)
-
 * [State Machine testing with Proptest](https://tzemanovic.gitlab.io/posts/state-machine-testing-with-proptest/)
 
 ### Research
-
 * [Tree Borrows - A new aliasing model for Rust](https://perso.crans.org/vanille/treebor)
 
 ### Miscellaneous
