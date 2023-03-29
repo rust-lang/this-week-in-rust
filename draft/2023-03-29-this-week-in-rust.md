@@ -207,7 +207,7 @@ Rusty Events between 2023-03-29 - 2023-04-26 🦀
 ### Oceania
 
 * 2023-04-04 | Aukland, NZ | [Rust AKL](https://www.meetup.com/rust-akl/)
-    * [**Christchurch Rust meetup first meeting**](https://www.meetup.com/rust-akl/events/292262863/)
+    * [**Rust AKL: Real Time Audio Editing + A New Automation Framework**](https://www.meetup.com/rust-akl/events/292262863/)
 * 2023-04-04 | Christchurch, NZ | [Christchurch Rust Meetup Group](https://www.meetup.com/christchurch-rustlang-meetup-group/)
     * [**Christchurch Rust meetup first meeting**](https://www.meetup.com/christchurch-rustlang-meetup-group/events/292541911/)
 * 2023-04-13 | Sydney, NSW, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/)
