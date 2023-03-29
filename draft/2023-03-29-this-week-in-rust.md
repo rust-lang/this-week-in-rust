@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 * [Embedded Rust on BBC Micro Bit: unlocking Vec and HashMap](https://gitlab.com/cyril-marpaud/microbit_vec_hashmap)
 * [video] [Env Config Option](https://youtu.be/r6niPhmgxRY)
 
+* [State Machine testing with Proptest](https://tzemanovic.gitlab.io/posts/state-machine-testing-with-proptest/)
+
 ### Research
 
 ### Miscellaneous
