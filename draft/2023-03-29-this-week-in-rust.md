@@ -69,6 +69,7 @@ and just ask the editors to select the category.
 * [Linear Types One-Pager](https://blog.yoshuawuyts.com/linear-types-one-pager/)
 * [Writing a Linux executable from scratch with x86_64-unknown-none and Rust](https://vulns.xyz/2023/03/linux-executable-from-scratch-with-x86_64-unknown-none-rust/)
 * [Efficient, Extensible, Expressive: Typed Tagless Final Interpreters in Rust](https://getcode.substack.com/p/efficient-extensible-expressive-typed)
+* [Making Python 100x faster with less than 100 lines of Rust](https://ohadravid.github.io/posts/2023-03-rusty-python/)
 * [video] [Env Config Option](https://youtu.be/r6niPhmgxRY)
 
 ### Research
