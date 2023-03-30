@@ -200,7 +200,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A busy week with lots of real performance gains. Most regressions seemed to be due to noise. The biggest highlight was large wins in incremental compilation leading to a lot of (albeit modest gains) of 1% performance in a majority of incremental compilation test scenarios. Other than that most performance gains were smaller and more incremental. One of the biggest performance regressions came in an update too LLVM. However, nearly just as many test cases showed improvements as regressions.
+
+Triage done by **@rylev**.
+Revision range: [ef03fda3..cbc064b3](https://perf.rust-lang.org/?start=ef03fda339923e659d3d3ca3321de887316d2807&end=cbc064b341be231403d181402a786cce7f1c73f1&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.7%  | [0.5%, 3.5%]    | 24    |
+| Regressions ❌ <br /> (secondary)  | 1.2%  | [0.2%, 2.6%]    | 18    |
+| Improvements ✅ <br /> (primary)   | -1.5% | [-10.9%, -0.3%] | 168   |
+| Improvements ✅ <br /> (secondary) | -4.0% | [-65.3%, -0.4%] | 119   |
+| All ❌✅ (primary)                 | -1.1% | [-10.9%, 3.5%]  | 192   |
+
+
+3 Regressions, 7 Improvements, 8 Mixed; 5 of them in rollups
+46 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-03-28.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
