@@ -106,8 +106,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Raccoon - Call for contributors on Raccoon - an IAM server for microservices](https://github.com/opeolluwa/raccoon)
+* [Ockam - Refactor the processing of environment variables](https://github.com/build-trust/ockam/issues/4549)
+* [Ockam - Display the available environment variables in the ockam command help](https://github.com/build-trust/ockam/issues/4554)
+* [Ockam - Pin Telegraf dockerfile images](https://github.com/build-trust/ockam/issues/4521)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
