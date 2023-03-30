@@ -90,7 +90,7 @@ Revision range: [ef03fda3..cbc064b3](https://perf.rust-lang.org/?start=ef03fda33
 3 Regressions, 7 Improvements, 8 Mixed; 5 of them in rollups
 46 artifact comparisons made in total
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2022-03-28.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-03-28.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
