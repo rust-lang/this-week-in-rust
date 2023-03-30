@@ -31,10 +31,6 @@ and just ask the editors to select the category.
 * [Announcing Rust 1.68.2 | Rust Blog](https://blog.rust-lang.org/2023/03/28/Rust-1.68.2.html)
 * [Announcing Rust 1.68.1 | Rust Blog](https://blog.rust-lang.org/2023/03/23/Rust-1.68.1.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer changelog #174](https://rust-analyzer.github.io/thisweek/2023/03/27/changelog-174.html)
 * [IntelliJ Rust Changelog #191](https://intellij-rust.github.io/2023/03/27/changelog-191.html)
@@ -79,15 +75,14 @@ and just ask the editors to select the category.
 * [Tree Borrows - A new aliasing model for Rust](https://perso.crans.org/vanille/treebor)
 
 ### Miscellaneous
+* [How we built our Embedded World Demo on Rust for QNX](https://ferrous-systems.com/blog/how-we-built-our-embedded-world-demo-on-rust-for-qnx/)
+* [A Rustaceans Tour of embedded world](https://ferrous-systems.com/blog/a-rustacean-tour-of-embedded-world/)
 * [video] [I built my own memory profiler (in Rust, on Linux)](https://youtu.be/DpnXaNkM9_M)
 * [video] [Build Universal Libraries with Rust](https://www.youtube.com/watch?v=uKlHwko36c4)
 * [video] [How to Learn Rust](https://www.youtube.com/watch?v=2hXNd6x9sZs)
 * [video] [How Bevy FlyCam Works](https://www.youtube.com/watch?v=d1agtogutHA)
 * [video] [Why I Swaped to Fixed Point Numbers in my game #UTDTG #devlog 2](https://www.youtube.com/watch?v=-YDg8WpJmHw)
 * [video] [Make iterators 10X better with itertools](https://www.youtube.com/watch?v=qY9j4dRaMjU)
-
-* [How we built our Embedded World Demo on Rust for QNX](https://ferrous-systems.com/blog/how-we-built-our-embedded-world-demo-on-rust-for-qnx/)
-* [A Rustaceans Tour of embedded world](https://ferrous-systems.com/blog/a-rustacean-tour-of-embedded-world/)
 
 ## Crate of the Week
 
@@ -345,6 +340,8 @@ Rusty Events between 2023-03-29 - 2023-04-26 🦀
     * [**Escribiendo Bibliotecas de sistema con Rust**](https://www.meetup.com/rust-mx/events/292168261/)
 * 2023-04-13 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/)
     * [**Autometrics: Easily add metrics in Rust and understand them in Prometheus**](https://www.meetup.com/rust-nyc/events/292430796/)
+* 2023-04-18 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
+    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/vwljctyfcgbxb/)
 
 ### Oceania
 
@@ -354,8 +351,6 @@ Rusty Events between 2023-03-29 - 2023-04-26 🦀
     * [**Christchurch Rust meetup first meeting**](https://www.meetup.com/christchurch-rustlang-meetup-group/events/292541911/)
 * 2023-04-13 | Sydney, NSW, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/)
     * [**🦀 Lightning Talks - 🐰 April Thingy 😊**](https://www.meetup.com/rust-sydney/events/292163549/)
-* 2023-04-18 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
-    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/vwljctyfcgbxb/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -375,7 +370,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/11naac9/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -391,4 +386,4 @@ llogiq is patting himself on the back for the suggestion!
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1268t48/this_week_in_rust_488/)</small>
