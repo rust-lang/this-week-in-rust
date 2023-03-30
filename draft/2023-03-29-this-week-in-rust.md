@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #174](https://rust-analyzer.github.io/thisweek/2023/03/27/changelog-174.html)
 * [IntelliJ Rust Changelog #191](https://intellij-rust.github.io/2023/03/27/changelog-191.html)
 * [clap v4.2](https://epage.github.io/blog/2023/03/clap-v4-2/)
+* [CrossBus, A Platform-Less, Runtime-Less Actor Computing Model](https://hominee.github.io/crossbus/dev/post/announcing-a-new-runtime-less-platform-less-actor-computing-model.html)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Some Good Progress](https://www.fornjot.app/blog/weekly-release/2023-w13/)
 * [Announcing `scoped-trace`.](https://jack.wrenn.fyi/blog/scoped-trace/)
 * [dfdx v0.11.0: cuda accelerated deep learning](https://coreylowman.github.io/2023/03/15/release-0.11.0.html)
