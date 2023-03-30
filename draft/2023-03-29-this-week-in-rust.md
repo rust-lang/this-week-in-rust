@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 * [autometrics-rs 0.3: Defining Service-Level Objectives (SLOs) in Rust Source Code](https://fiberplane.com/blog/autometrics-rs-0-3-defining-service-level-objectives-in-rust-source-code)
 * [Rocket's 3rd v0.5 Release Candidate - Rocket Web Framework](https://rocket.rs/v0.5-rc/news/2023-03-23-version-0.5-rc.3/)
 * [Seven Tasks with Rust and Egui](https://github.com/Rust-Ninja-Sabi/rust-egui-seven-tasks)
+* [ngrok-rs: portable network ingress to your Rust apps w/ native hyper+axum support](https://ngrok.com/blog-post/ngrok-rs)
 * [video] [Rust Releases! Rust 1.68.1](https://www.youtube.com/watch?v=TTOH-_bZlYY)
 * [video] [Rust Releases! Rust 1.68.2](https://youtu.be/Q4NUKNU2uX8)
 
