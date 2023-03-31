@@ -142,6 +142,8 @@ Rusty Events between 2023-04-05 - 2023-05-03 🦀
     * [**Rust Iran Meetup #9 - Let's Write An Async Executor**](https://rust-meetup.ir/2023/04/06/9th-meetup.html)
 * 2023-04-08 | Virtual | [Rust GameDev](https://discord.gg/yNtPTb2)
     * [**Rust GameDev Monthly Meetup**](https://discord.gg/yNtPTb2)
+* 2023-04-08 | Virtual | [Ukrainian Rust Community](https://github.com/rust-lang-ua/learn_rust_together#-ukrainian-rust-community-)
+    * [**UA Rust Conference 2023**](https://www.uarust.com/)
 * 2023-04-11 | Virtual (Berlin, DE) | [Berline.rs - OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/292236794/)
 * 2023-04-11 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallas-rust/)
