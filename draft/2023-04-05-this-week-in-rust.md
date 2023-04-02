@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [ZH] [Build a Lua interpreter in Rust](https://wubingzheng.github.io/build-lua-in-rust/zh/)
+
 ### Research
 
 ### Miscellaneous
