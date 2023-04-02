@@ -39,7 +39,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-* [Build your own Count Min Sketch](https://www.arunma.com/2023/04/02/build-your-own-countminsketch-in-rust/)
+* [Build your own CountMinSketch](https://www.arunma.com/2023/04/02/build-your-own-countminsketch-in-rust/)
 
 ### Research
 
