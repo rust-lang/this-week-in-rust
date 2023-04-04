@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Helix editor 23.03 released](https://helix-editor.com/news/release-23-03-highlights/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
