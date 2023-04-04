@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [youki 0.0.5 has been released](https://github.com/containers/youki/releases/tag/v0.0.5)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
