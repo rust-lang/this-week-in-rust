@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 * [Slint 1.0: The Next-Generation Native GUI Toolkit Matures](https://slint-ui.com/blog/announcing-slint-1.0.html)
 
+* [Introducing SeaStreamer - a stream processing toolkit for Kafka and Redis Streams](https://www.sea-ql.org/blog/2023-04-03-intro-sea-streamer/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
