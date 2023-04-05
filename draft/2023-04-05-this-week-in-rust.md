@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 * [Cross Compiling Rust Projects in GitHub Actions](https://blog.urth.org/2023/03/05/cross-compiling-rust-projects-in-github-actions/)
 * [Helix editor 23.03 released](https://helix-editor.com/news/release-23-03-highlights/)
 
+* [Slint 1.0: The Next-Generation Native GUI Toolkit Matures](https://slint-ui.com/blog/announcing-slint-1.0.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
