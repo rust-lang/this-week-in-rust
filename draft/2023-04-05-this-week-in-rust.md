@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 * [Helix editor 23.03 released](https://helix-editor.com/news/release-23-03-highlights/)
 
 ### Observations/Thoughts
+* [Nine Rules for Creating Fast, Safe, and Compatible Data Structures in Rust (Part 1)](https://towardsdatascience.com/nine-rules-for-creating-fast-safe-and-compatible-data-structures-in-rust-part-1-c0973092e0a3)
 
 ### Rust Walkthroughs
 
