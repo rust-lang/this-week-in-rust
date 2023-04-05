@@ -60,13 +60,13 @@ and just ask the editors to select the category.
 * [Rust on the CH32V003](https://noxim.xyz/blog/rust-ch32v003/)
 * [Build your own CountMinSketch in Rust](https://www.arunma.com/2023/04/02/build-your-own-countminsketch-in-rust/)
 * [ZH] [Build a Lua interpreter in Rust](https://wubingzheng.github.io/build-lua-in-rust/zh/)
-
 * [Nine Rules for Creating Fast, Safe, and Compatible Data Structures in Rust (Part 1): Lessons from RangeSetBlaze](https://towardsdatascience.com/nine-rules-for-creating-fast-safe-and-compatible-data-structures-in-rust-part-1-c0973092e0a3)
 
 ### Research
 
 ### Miscellaneous
-* [video] [Rust Wasm-Bindgen in 2 Minutes: Bridging the Gap Between WASM & JavaScript](https://www.youtube.com/watch?v=y_nGGbM2eaU)
+* [video] [Rust Wasm-Bindgen in 2 Minutes: Bridging the Gap Between WASM & JavaScript](https://youtu.be/y_nGGbM2eaU)
+* [Rust for C#/.NET Developers](https://microsoft.github.io/rust-for-dotnet-devs/latest/)
 
 ## Crate of the Week
 
