@@ -36,11 +36,17 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Cross Compiling Rust Projects in GitHub Actions](https://blog.urth.org/2023/03/05/cross-compiling-rust-projects-in-github-actions/)
 * [Helix editor 23.03 released](https://helix-editor.com/news/release-23-03-highlights/)
+* [Building a Classic Mac OS App in Rust](https://www.wezm.net/v2/posts/2023/rust-classic-mac-os-app/)
+* [Slint 1.0: The Next-Generation Native GUI Toolkit Matures](https://slint-ui.com/blog/announcing-slint-1.0.html)
+* [Introducing SeaStreamer - a stream processing toolkit for Kafka and Redis Streams](https://www.sea-ql.org/blog/2023-04-03-intro-sea-streamer/)
+* [youki 0.0.5 has been released](https://github.com/containers/youki/releases/tag/v0.0.5)
 * [Fluvio Connector Development Kit released](https://www.fluvio.io/news/this-week-in-fluvio-0050/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [ZH] [Build a Lua interpreter in Rust](https://wubingzheng.github.io/build-lua-in-rust/zh/)
+* [Build your own CountMinSketch](https://www.arunma.com/2023/04/02/build-your-own-countminsketch-in-rust/)
 
 ### Research
 
@@ -75,7 +81,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A large improvement in const evaluation (particularly for large types) in
+[#109670](https://github.com/rust-lang/rust/pull/109670) and a large
+improvement to many-paged rustdoc workloads in
+[#109876](https://github.com/rust-lang/rust/pull/109876) by removing quadratic
+behavior. Regressions are comparatively limited this week.
+
+Triage done by **@simulacrum**.
+Revision range: [cbc064b341be231403d181402a786cce7f1c73f1..7c96e40da81165beef4f273f44e96eeef5a1bd30](https://perf.rust-lang.org/?start=cbc064b341be231403d181402a786cce7f1c73f1&end=7c96e40da81165beef4f273f44e96eeef5a1bd30&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 2.3%  | [0.4%, 8.4%]    | 18    |
+| Regressions ❌ <br /> (secondary)  | 1.6%  | [0.3%, 10.7%]   | 26    |
+| Improvements ✅ <br /> (primary)   | -2.5% | [-77.6%, -0.3%] | 63    |
+| Improvements ✅ <br /> (secondary) | -4.0% | [-27.9%, -0.3%] | 52    |
+| All ❌✅ (primary)                 | -1.4% | [-77.6%, 8.4%]  | 81    |
+
+
+1 Regressions, 4 Improvements, 3 Mixed; 2 of them in rollups
+54 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-04-04.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -202,6 +231,8 @@ Rusty Events between 2023-04-05 - 2023-05-03 🦀
     * [**Rust Munich 2023 / 2 - hybrid**](https://www.meetup.com/rust-munich/events/291965920/)
 * 2023-04-20 | Bern, CH | [Rust Bern](https://www.meetup.com/de-DE/rust-bern/)
     * [**First Rust Bern Meetup!**](https://www.meetup.com/de-DE/rust-bern/events/292206056/)
+* 2023-05-10 | Amsterdam, NL | [RustNL](https://rustnl.org/)
+    * [**RustNL 2023**](https://2023.rustnl.org/)
 
 ### North America
 
