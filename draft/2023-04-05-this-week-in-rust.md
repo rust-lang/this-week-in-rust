@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 * [How to speed up the Rust compiler in March 2023](https://nnethercote.github.io/2023/03/24/how-to-speed-up-the-rust-compiler-in-march-2023.html)
 * [Two things that Rust does better than C++](https://getdozer.io/blog/rust-cpp-move-and-dispatch/)
 * [Rust Tidbits #1](https://www.thecodedmessage.com/posts/rust-tidbits-1/)
+* [Follow up on cracking ZIP archives in Rust](https://agourlay.github.io/follow-up-cracking-zip-rust/)
 * [audio] [AI-NC with Tom Miles](https://rustacean-station.org/episode/tom-miles/)
 * [audio] [Servo with Josh Matthews](https://rustacean-station.org/episode/josh-matthews/)
 
