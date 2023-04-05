@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [keshvar](https://github.com/pouriya/keshvar), a library providing a host of information on every country.
+
+Thanks to [Pouriya](https://users.rust-lang.org/t/crate-of-the-week/2704/1182) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -67,7 +69,66 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+390 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-03-27..2023-04-03
+
+* [initial support for return type notation (RTN)](https://github.com/rust-lang/rust/pull/109010)
+* [specialization involving RPITITs is broken so ignore the diagnostic differences](https://github.com/rust-lang/rust/pull/109708)
+* [add a builtin `FnPtr` trait that is implemented for all function pointers](https://github.com/rust-lang/rust/pull/108080)
+* [middle: emit error rather than delay bug when reaching limit](https://github.com/rust-lang/rust/pull/109856)
+* [closures always implement `FnOnce` in new solver](https://github.com/rust-lang/rust/pull/109739)
+* [correctly substitute GAT's type used in `normalize_param_env` in `check_type_bounds`](https://github.com/rust-lang/rust/pull/109470)
+* [do not consider elaborated projection predicates for objects in new solver](https://github.com/rust-lang/rust/pull/109675)
+* [don't ICE on `DiscriminantKind` projection in new solver](https://github.com/rust-lang/rust/pull/109748)
+* [don't ICE on placeholder consts in deep reject](https://github.com/rust-lang/rust/pull/109740)
+* [erase impl regions when checking for impossible to eagerly monomorphize items](https://github.com/rust-lang/rust/pull/109321)
+* [freshen normalizes-to hack goal RHS in the evaluate loop](https://github.com/rust-lang/rust/pull/109679)
+* [improve error message when writer is forgotten in write and writeln macro](https://github.com/rust-lang/rust/pull/109149)
+* [make init mask lazy for fully initialized/uninitialized const allocations](https://github.com/rust-lang/rust/pull/109670)
+* [numeric vars can only be unified with numerical types in deep reject](https://github.com/rust-lang/rust/pull/109750)
+* [simplify transmutes in MIR InstCombine](https://github.com/rust-lang/rust/pull/109612)
+* [stable MIR: Add basic MIR body datastructures](https://github.com/rust-lang/rust/pull/109224)
+* [stop special-casing `'static` in evaluation](https://github.com/rust-lang/rust/pull/102472)
+* [suggest ..= when someone tries to create an overflowing range](https://github.com/rust-lang/rust/pull/109554)
+* [drop array patterns using subslices](https://github.com/rust-lang/rust/pull/109008)
+* [add `IndexSlice` to go with `IndexVec`](https://github.com/rust-lang/rust/pull/109787)
+* [use `&IndexSlice` instead of `&IndexVec` where possible](https://github.com/rust-lang/rust/pull/109819)
+* [partial stabilization of `once_cell`](https://github.com/rust-lang/rust/pull/105587)
+* [optimize `LazyCell` size](https://github.com/rust-lang/rust/pull/109483)
+* [drop unstable `Option::contains`, Result::contains`, Result::contains_err`](https://github.com/rust-lang/rust/pull/108095)
+* [use span of placeholders in `format_args!()` expansion](https://github.com/rust-lang/rust/pull/109664)
+* [change `advance(_back)_by` to return the remainder instead of the number of processed elements](https://github.com/rust-lang/rust/pull/92284)
+* [`binary_heap`: Optimize Extend implementation](https://github.com/rust-lang/rust/pull/108448)
+* [stabilize `binary_heap_retain`](https://github.com/rust-lang/rust/pull/109701)
+* [hashbrown: optimize insertion to only use a single lookup](https://github.com/rust-lang/hashbrown/pull/277)
+* [codegen\_gcc: optimize bitreverse codegen](https://github.com/rust-lang/rustc_codegen_gcc/pull/257)
+* [cargo: add delays to network retries](https://github.com/rust-lang/cargo/pull/11881)
+* [rustdoc + rustdoc-json support for `feature(non_lifetime_binders)`](https://github.com/rust-lang/rust/pull/108335)
+* [rustdoc: run more HIR validation to mirror rustc](https://github.com/rust-lang/rust/pull/108576)
+* [clippy: add large future lint](https://github.com/rust-lang/rust-clippy/pull/10414)
+* [clippy: added the `unnecessary_box_returns` lint](https://github.com/rust-lang/rust-clippy/pull/9102)
+* [clippy: flag `bufreader.lines().filter_map(Result::ok)` as suspicious](https://github.com/rust-lang/rust-clippy/pull/10534)
+* [clippy: add suggestions to `extra_unused_type_parameters`](https://github.com/rust-lang/rust-clippy/pull/10536)
+* [clippy: `arithmetic_side_effects`: correctly handle division and module when the right-hand-side is unknown](https://github.com/rust-lang/rust-clippy/pull/10585)
+* [clippy: fix `nonminimal_bool #[allow]` attributes](https://github.com/rust-lang/rust-clippy/pull/10588)
+* [clippy: fix allow attribute, items from macros in `items_after_statements`](https://github.com/rust-lang/rust-clippy/pull/10542)
+* [clippy: ignore `file!()` macro in `print_literal`, `write_literal`](https://github.com/rust-lang/rust-clippy/pull/10573)
+* [clippy: in uninit checking, add fallback for polymorphic types](https://github.com/rust-lang/rust-clippy/pull/10553)
+* [rust-analyzer: expand Macro Recursively: don't append "!" to non-bang macro name](https://github.com/rust-lang/rust-analyzer/pull/14468)
+* [rust-analyzer: feat: pop a notification prompting the user to add a Cargo.toml of unlinked file to the linkedProjects](https://github.com/rust-lang/rust-analyzer/pull/14366)
+* [rust-analyzer: fix stack overflow in `is_ty_uninhabited_from`](https://github.com/rust-lang/rust-analyzer/pull/14426)
+* [rust-analyzer: add missing autoborrow adjustment for index expressions](https://github.com/rust-lang/rust-analyzer/pull/14435)
+* [rust-analyzer: allow new, subsequent `rust-project.json`-based workspaces to get proc macro expansion](https://github.com/rust-lang/rust-analyzer/pull/14427)
+* [rust-analyzer: canonicalize rust-project.json manifest path](https://github.com/rust-lang/rust-analyzer/pull/14430)
+* [rust-analyzer: handle box and raw pointers correctly in `builtin_deref`](https://github.com/rust-lang/rust-analyzer/pull/14440)
+* [rust-analyzer: lower adjusts in simple index except the last one](https://github.com/rust-lang/rust-analyzer/pull/14464)
+* [rust-analyzer: properly handle local trait impls](https://github.com/rust-lang/rust-analyzer/pull/14424)
+* [rust-analyzer: recover from `pub()` visibility modifier](https://github.com/rust-lang/rust-analyzer/pull/14449)
+* [rust-analyzer: use `struct_tail_without_normalization` in `Expectation::rvalue_hint`](https://github.com/rust-lang/rust-analyzer/pull/14434)
+* [rust-analyzer: use async block in async fn type inference](https://github.com/rust-lang/rust-analyzer/pull/14461)
+* [rust-analyzer: limited syntax support for return type notations (RTN)](https://github.com/rust-lang/rust-analyzer/pull/14465)
+* [rust-analyzer: missing runnable env on debug target](https://github.com/rust-lang/rust-analyzer/pull/14444)
 
 ### Rust Compiler Performance Triage
 
@@ -239,7 +300,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> As usual, the borrow checker is correct: we are doing memory crimes.
+
+– [Ohad Ravid on his blog](https://ohadravid.github.io/posts/2023-03-rusty-python/)
+
+Thanks to [Jelte Fennema](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1392) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
