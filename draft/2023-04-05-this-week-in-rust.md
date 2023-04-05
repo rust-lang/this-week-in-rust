@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [video] [Rust Wasm-Bindgen in 2 Minutes: Bridging the Gap Between WASM & JavaScript](https://youtu.be/y_nGGbM2eaU)
+* [Rust for C#/.NET Developers](https://microsoft.github.io/rust-for-dotnet-devs/latest/)
 
 ## Crate of the Week
 
