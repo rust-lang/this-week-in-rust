@@ -37,12 +37,10 @@ and just ask the editors to select the category.
 * [Cross Compiling Rust Projects in GitHub Actions](https://blog.urth.org/2023/03/05/cross-compiling-rust-projects-in-github-actions/)
 * [Helix editor 23.03 released](https://helix-editor.com/news/release-23-03-highlights/)
 * [Building a Classic Mac OS App in Rust](https://www.wezm.net/v2/posts/2023/rust-classic-mac-os-app/)
-
 * [Slint 1.0: The Next-Generation Native GUI Toolkit Matures](https://slint-ui.com/blog/announcing-slint-1.0.html)
-
 * [Introducing SeaStreamer - a stream processing toolkit for Kafka and Redis Streams](https://www.sea-ql.org/blog/2023-04-03-intro-sea-streamer/)
-
 * [youki 0.0.5 has been released](https://github.com/containers/youki/releases/tag/v0.0.5)
+* [Fluvio Connector Development Kit released](https://www.fluvio.io/news/this-week-in-fluvio-0050/)
 
 ### Observations/Thoughts
 
