@@ -40,7 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+* [ZH] [Build a Lua interpreter in Rust](https://wubingzheng.github.io/build-lua-in-rust/zh/)
 * [Build your own CountMinSketch](https://www.arunma.com/2023/04/02/build-your-own-countminsketch-in-rust/)
 
 ### Research
