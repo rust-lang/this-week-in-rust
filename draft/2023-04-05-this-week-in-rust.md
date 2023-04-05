@@ -34,16 +34,19 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Cross Compiling Rust Projects in GitHub Actions](https://blog.urth.org/2023/03/05/cross-compiling-rust-projects-in-github-actions/)
+* [Helix editor 23.03 released](https://helix-editor.com/news/release-23-03-highlights/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
 * [ZH] [Build a Lua interpreter in Rust](https://wubingzheng.github.io/build-lua-in-rust/zh/)
+* [Build your own CountMinSketch](https://www.arunma.com/2023/04/02/build-your-own-countminsketch-in-rust/)
 
 ### Research
 
 ### Miscellaneous
+* [video] [Rust Wasm-Bindgen in 2 Minutes: Bridging the Gap Between WASM & JavaScript](https://youtu.be/y_nGGbM2eaU)
 
 ## Crate of the Week
 
@@ -200,6 +203,8 @@ Rusty Events between 2023-04-05 - 2023-05-03 🦀
     * [**Rust Munich 2023 / 2 - hybrid**](https://www.meetup.com/rust-munich/events/291965920/)
 * 2023-04-20 | Bern, CH | [Rust Bern](https://www.meetup.com/de-DE/rust-bern/)
     * [**First Rust Bern Meetup!**](https://www.meetup.com/de-DE/rust-bern/events/292206056/)
+* 2023-05-10 | Amsterdam, NL | [RustNL](https://rustnl.org/)
+    * [**RustNL 2023**](https://2023.rustnl.org/)
 
 ### North America
 
