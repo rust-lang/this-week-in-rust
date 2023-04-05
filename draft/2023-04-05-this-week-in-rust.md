@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 * [Introducing SeaStreamer - a stream processing toolkit for Kafka and Redis Streams](https://www.sea-ql.org/blog/2023-04-03-intro-sea-streamer/)
 
+* [youki 0.0.5 has been released](https://github.com/containers/youki/releases/tag/v0.0.5)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
