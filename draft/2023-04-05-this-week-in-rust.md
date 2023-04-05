@@ -82,7 +82,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A large improvement in const evaluation (particularly for large types) in
+[#109670](https://github.com/rust-lang/rust/pull/109670) and a large
+improvement to many-paged rustdoc workloads in
+[#109876](https://github.com/rust-lang/rust/pull/109876) by removing quadratic
+behavior. Regressions are comparatively limited this week.
+
+Triage done by **@simulacrum**.
+Revision range: [cbc064b341be231403d181402a786cce7f1c73f1..7c96e40da81165beef4f273f44e96eeef5a1bd30](https://perf.rust-lang.org/?start=cbc064b341be231403d181402a786cce7f1c73f1&end=7c96e40da81165beef4f273f44e96eeef5a1bd30&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 2.3%  | [0.4%, 8.4%]    | 18    |
+| Regressions ❌ <br /> (secondary)  | 1.6%  | [0.3%, 10.7%]   | 26    |
+| Improvements ✅ <br /> (primary)   | -2.5% | [-77.6%, -0.3%] | 63    |
+| Improvements ✅ <br /> (secondary) | -4.0% | [-27.9%, -0.3%] | 52    |
+| All ❌✅ (primary)                 | -1.4% | [-77.6%, 8.4%]  | 81    |
+
+
+1 Regressions, 4 Improvements, 3 Mixed; 2 of them in rollups
+54 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-04-04.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
