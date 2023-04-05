@@ -201,6 +201,8 @@ Rusty Events between 2023-04-05 - 2023-05-03 🦀
     * [**Rust Munich 2023 / 2 - hybrid**](https://www.meetup.com/rust-munich/events/291965920/)
 * 2023-04-20 | Bern, CH | [Rust Bern](https://www.meetup.com/de-DE/rust-bern/)
     * [**First Rust Bern Meetup!**](https://www.meetup.com/de-DE/rust-bern/events/292206056/)
+* 2023-05-10 | Amsterdam, NL | [RustNL](https://rustnl.org/)
+    * [**RustNL 2023**](https://2023.rustnl.org/)
 
 ### North America
 
