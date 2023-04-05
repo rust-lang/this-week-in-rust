@@ -41,6 +41,10 @@ and just ask the editors to select the category.
 * [Rustls 0.21.0 Released With Exciting New Features](https://www.memorysafety.org/blog/rustls-new-features/)
 * [Slint 1.0: The Next-Generation Native GUI Toolkit Matures](https://slint-ui.com/blog/announcing-slint-1.0.html)
 * [rust-analyzer changelog #175](https://rust-analyzer.github.io/thisweek/2023/04/03/changelog-175.html)
+* [Introducing SeaStreamer - a stream processing toolkit for Kafka and Redis Streams](https://www.sea-ql.org/blog/2023-04-03-intro-sea-streamer/)
+* [youki 0.0.5 has been released](https://github.com/containers/youki/releases/tag/v0.0.5)
+* [Fluvio Connector Development Kit released](https://www.fluvio.io/news/this-week-in-fluvio-0050/)
+
 
 ### Observations/Thoughts
 * [Thoughts on async closures](https://smallcultfollowing.com/babysteps/blog/2023/03/29/thoughts-on-async-closures/)
@@ -51,9 +55,11 @@ and just ask the editors to select the category.
 * [audio] [Servo with Josh Matthews](https://rustacean-station.org/episode/josh-matthews/)
 
 ### Rust Walkthroughs
+* [Building a Classic Mac OS App in Rust](https://www.wezm.net/v2/posts/2023/rust-classic-mac-os-app/)
 * [Cross Compiling Rust Projects in GitHub Actions](https://blog.urth.org/2023/03/05/cross-compiling-rust-projects-in-github-actions/)
 * [Rust on the CH32V003](https://noxim.xyz/blog/rust-ch32v003/)
 * [Build your own CountMinSketch in Rust](https://www.arunma.com/2023/04/02/build-your-own-countminsketch-in-rust/)
+* [ZH] [Build a Lua interpreter in Rust](https://wubingzheng.github.io/build-lua-in-rust/zh/)
 
 ### Research
 
@@ -88,7 +94,30 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A large improvement in const evaluation (particularly for large types) in
+[#109670](https://github.com/rust-lang/rust/pull/109670) and a large
+improvement to many-paged rustdoc workloads in
+[#109876](https://github.com/rust-lang/rust/pull/109876) by removing quadratic
+behavior. Regressions are comparatively limited this week.
+
+Triage done by **@simulacrum**.
+Revision range: [cbc064b341be231403d181402a786cce7f1c73f1..7c96e40da81165beef4f273f44e96eeef5a1bd30](https://perf.rust-lang.org/?start=cbc064b341be231403d181402a786cce7f1c73f1&end=7c96e40da81165beef4f273f44e96eeef5a1bd30&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 2.3%  | [0.4%, 8.4%]    | 18    |
+| Regressions ❌ <br /> (secondary)  | 1.6%  | [0.3%, 10.7%]   | 26    |
+| Improvements ✅ <br /> (primary)   | -2.5% | [-77.6%, -0.3%] | 63    |
+| Improvements ✅ <br /> (secondary) | -4.0% | [-27.9%, -0.3%] | 52    |
+| All ❌✅ (primary)                 | -1.4% | [-77.6%, 8.4%]  | 81    |
+
+
+1 Regressions, 4 Improvements, 3 Mixed; 2 of them in rollups
+54 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-04-04.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
