@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 * [Helix editor 23.03 released](https://helix-editor.com/news/release-23-03-highlights/)
 
 ### Observations/Thoughts
+* [Follow up on cracking ZIP archives in Rust](https://agourlay.github.io/follow-up-cracking-zip-rust/)
 
 ### Rust Walkthroughs
 
