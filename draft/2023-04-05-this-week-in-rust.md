@@ -30,28 +30,41 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Rust Foundation Joins Open Infrastructure Foundation as Associate Member](https://foundation.rust-lang.org/news/rust-foundation-joins-open-infrastructure-foundation-as-associate-member/)
+* [Rust Identified as Safer Coding Tool by NIST](https://foundation.rust-lang.org/news/rust-identified-as-safer-coding-tool-by-nist/)
+* [Rewarding Resilience: Rust & the U.S. National Cybersecurity Strategy](https://foundation.rust-lang.org/news/rewarding-resilience-rust-the-u-s-national-cybersecurity-strategy/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
-* [Cross Compiling Rust Projects in GitHub Actions](https://blog.urth.org/2023/03/05/cross-compiling-rust-projects-in-github-actions/)
 * [Helix editor 23.03 released](https://helix-editor.com/news/release-23-03-highlights/)
-* [Building a Classic Mac OS App in Rust](https://www.wezm.net/v2/posts/2023/rust-classic-mac-os-app/)
+* [Rustls 0.21.0 Released With Exciting New Features](https://www.memorysafety.org/blog/rustls-new-features/)
 * [Slint 1.0: The Next-Generation Native GUI Toolkit Matures](https://slint-ui.com/blog/announcing-slint-1.0.html)
+* [rust-analyzer changelog #175](https://rust-analyzer.github.io/thisweek/2023/04/03/changelog-175.html)
 * [Introducing SeaStreamer - a stream processing toolkit for Kafka and Redis Streams](https://www.sea-ql.org/blog/2023-04-03-intro-sea-streamer/)
 * [youki 0.0.5 has been released](https://github.com/containers/youki/releases/tag/v0.0.5)
 * [Fluvio Connector Development Kit released](https://www.fluvio.io/news/this-week-in-fluvio-0050/)
 
+
 ### Observations/Thoughts
+* [Thoughts on async closures](https://smallcultfollowing.com/babysteps/blog/2023/03/29/thoughts-on-async-closures/)
+* [How to speed up the Rust compiler in March 2023](https://nnethercote.github.io/2023/03/24/how-to-speed-up-the-rust-compiler-in-march-2023.html)
+* [Two things that Rust does better than C++](https://getdozer.io/blog/rust-cpp-move-and-dispatch/)
+* [Rust Tidbits #1](https://www.thecodedmessage.com/posts/rust-tidbits-1/)
+* [audio] [AI-NC with Tom Miles](https://rustacean-station.org/episode/tom-miles/)
+* [audio] [Servo with Josh Matthews](https://rustacean-station.org/episode/josh-matthews/)
 
 ### Rust Walkthroughs
+* [Building a Classic Mac OS App in Rust](https://www.wezm.net/v2/posts/2023/rust-classic-mac-os-app/)
+* [Cross Compiling Rust Projects in GitHub Actions](https://blog.urth.org/2023/03/05/cross-compiling-rust-projects-in-github-actions/)
+* [Rust on the CH32V003](https://noxim.xyz/blog/rust-ch32v003/)
+* [Build your own CountMinSketch in Rust](https://www.arunma.com/2023/04/02/build-your-own-countminsketch-in-rust/)
 * [ZH] [Build a Lua interpreter in Rust](https://wubingzheng.github.io/build-lua-in-rust/zh/)
-* [Build your own CountMinSketch](https://www.arunma.com/2023/04/02/build-your-own-countminsketch-in-rust/)
 
 ### Research
 
 ### Miscellaneous
-* [video] [Rust Wasm-Bindgen in 2 Minutes: Bridging the Gap Between WASM & JavaScript](https://youtu.be/y_nGGbM2eaU)
+* [video] [Rust Wasm-Bindgen in 2 Minutes: Bridging the Gap Between WASM & JavaScript](https://www.youtube.com/watch?v=y_nGGbM2eaU)
 
 ## Crate of the Week
 
