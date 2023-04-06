@@ -87,8 +87,17 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Hyperswitch - Use newtype pattern for email addresses](https://github.com/juspay/hyperswitch/issues/608)
+* [Hyperswitch - Determine card brand from card BIN](https://github.com/juspay/hyperswitch/issues/379)
+* [Hyperswitch - Validate card number while accepting payment method information](https://github.com/juspay/hyperswitch/issues/606)
+* [man-in-the-middle-proxy - Transparent mode](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/43)
+* [man-in-the-middle-proxy - TLS Decoder](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/37)
+* [man-in-the-middle-proxy - Edit and resend requests ](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/9)
+* [man-in-the-middle-proxy - Duplicate and resend requests](https://github.com/emanuele-em/man-in-the-middle-proxy/issues/7)
+* [rusticify - Arrows parallel mode](https://github.com/StaffEngineer/rusticify/issues/11)
+* [ockam - Update ockam tcp-outlet create clap command to have defined default arguments](https://github.com/build-trust/ockam/issues/4598)
+* [ockam - Update ockam forwarder create clap command to have defined default arguments](https://github.com/build-trust/ockam/issues/4599)
+* [ockam - Display worker address in the output of ockam tcp-connection create clap command](https://github.com/build-trust/ockam/issues/4600)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
