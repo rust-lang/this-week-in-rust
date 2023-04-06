@@ -154,6 +154,8 @@ Rusty Events between 2023-04-12 - 2023-05-10 🦀
     * [**Learning Rust By Building Small CLI Tools!**](https://www.meetup.com/charlottesville-rust-meetup/events/292674779/)
 * 2023-04-13 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/hlvbvsyfcgbrb/)
+* 2023-04-15 | Virtual (Bangalore, IN) | [Rust India](https://hasgeek.com/rustlangin)
+    * [**Rust India monthly meetup**](https://hasgeek.com/rustlangin/april-2023-rustacean-meetup/)
 * 2023-04-18 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
     * [**Mid-month Rustful—Introducing duplicate! and the peculiarities of proc macros**](https://www.meetup.com/rustdc/events/291830834/)
 * 2023-04-19 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/-0)
