@@ -14,29 +14,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-<!--
-
-Dear community contributors:
-Please read README.md for guidance on submissions.
-Each submitted link should be of the form:
-
-* [Title of the Linked Page](https://example.com/my_article)
-
-If you don't know which category to use, feel free to submit a PR anyway
-and just ask the editors to select the category.
-
--->
-
-### Official
-
 ### Foundation
+
 * [Rust Foundation Joins Open Infrastructure Foundation as Associate Member](https://foundation.rust-lang.org/news/rust-foundation-joins-open-infrastructure-foundation-as-associate-member/)
 * [Rust Identified as Safer Coding Tool by NIST](https://foundation.rust-lang.org/news/rust-identified-as-safer-coding-tool-by-nist/)
 * [Rewarding Resilience: Rust & the U.S. National Cybersecurity Strategy](https://foundation.rust-lang.org/news/rewarding-resilience-rust-the-u-s-national-cybersecurity-strategy/)
 
-### Newsletters
-
 ### Project/Tooling Updates
+
 * [Helix editor 23.03 released](https://helix-editor.com/news/release-23-03-highlights/)
 * [Rustls 0.21.0 Released With Exciting New Features](https://www.memorysafety.org/blog/rustls-new-features/)
 * [Slint 1.0: The Next-Generation Native GUI Toolkit Matures](https://slint-ui.com/blog/announcing-slint-1.0.html)
@@ -45,30 +30,32 @@ and just ask the editors to select the category.
 * [youki 0.0.5 has been released](https://github.com/containers/youki/releases/tag/v0.0.5)
 * [Fluvio Connector Development Kit released](https://www.fluvio.io/news/this-week-in-fluvio-0050/)
 
-
 ### Observations/Thoughts
+
 * [Thoughts on async closures](https://smallcultfollowing.com/babysteps/blog/2023/03/29/thoughts-on-async-closures/)
 * [How to speed up the Rust compiler in March 2023](https://nnethercote.github.io/2023/03/24/how-to-speed-up-the-rust-compiler-in-march-2023.html)
 * [Two things that Rust does better than C++](https://getdozer.io/blog/rust-cpp-move-and-dispatch/)
 * [Rust Tidbits #1](https://www.thecodedmessage.com/posts/rust-tidbits-1/)
 * [Follow up on cracking ZIP archives in Rust](https://agourlay.github.io/follow-up-cracking-zip-rust/)
+* [58 Rust Resources Every Learner Should Know in 2023](https://apollolabsblog.hashnode.dev/58-rust-resources-every-learner-should-know-in-2023)
 * [audio] [AI-NC with Tom Miles](https://rustacean-station.org/episode/tom-miles/)
 * [audio] [Servo with Josh Matthews](https://rustacean-station.org/episode/josh-matthews/)
 
+
 ### Rust Walkthroughs
+
 * [Building a Classic Mac OS App in Rust](https://www.wezm.net/v2/posts/2023/rust-classic-mac-os-app/)
 * [Cross Compiling Rust Projects in GitHub Actions](https://blog.urth.org/2023/03/05/cross-compiling-rust-projects-in-github-actions/)
 * [Rust on the CH32V003](https://noxim.xyz/blog/rust-ch32v003/)
 * [Build your own CountMinSketch in Rust](https://www.arunma.com/2023/04/02/build-your-own-countminsketch-in-rust/)
-* [ZH] [Build a Lua interpreter in Rust](https://wubingzheng.github.io/build-lua-in-rust/zh/)
 * [Nine Rules for Creating Fast, Safe, and Compatible Data Structures in Rust (Part 1): Lessons from RangeSetBlaze](https://towardsdatascience.com/nine-rules-for-creating-fast-safe-and-compatible-data-structures-in-rust-part-1-c0973092e0a3)
 * [A definitive guide to sealed traits in Rust](https://predr.ag/blog/definitive-guide-to-sealed-traits-in-rust/)
-
-### Research
+* [ZH] [Build a Lua interpreter in Rust](https://wubingzheng.github.io/build-lua-in-rust/zh/)
 
 ### Miscellaneous
-* [video] [Rust Wasm-Bindgen in 2 Minutes: Bridging the Gap Between WASM & JavaScript](https://youtu.be/y_nGGbM2eaU)
+
 * [Rust for C#/.NET Developers](https://microsoft.github.io/rust-for-dotnet-devs/latest/)
+* [video] [Rust Wasm-Bindgen in 2 Minutes: Bridging the Gap Between WASM & JavaScript](https://youtu.be/y_nGGbM2eaU)
 
 ## Crate of the Week
 
@@ -210,6 +197,7 @@ which are reaching a decision. Express your opinions now.
 * *No RFCs entered Final Comment Period this week.*
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
 * [disposition: merge] [rustdoc-search: add support for nested generics](https://github.com/rust-lang/rust/pull/109802)
 * [disposition: merge] [Tracking Issue for const_ptr_read](https://github.com/rust-lang/rust/issues/80377)
 * [disposition: merge] [Uplift `clippy::{drop,forget}_{ref,copy}` lints](https://github.com/rust-lang/rust/pull/109732)
@@ -219,9 +207,11 @@ which are reaching a decision. Express your opinions now.
 * [disposition: close] [Tracking Issue for array_zip](https://github.com/rust-lang/rust/issues/80094)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
 * [new] [ABI-stabilize `core::task::Waker`](https://github.com/rust-lang/rfcs/pull/3404)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
@@ -357,7 +347,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/11naac9/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -373,4 +363,4 @@ Thanks to [Jelte Fennema](https://users.rust-lang.org/t/twir-quote-of-the-week/3
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/12d4s34/this_week_in_rust_489/)</small>
