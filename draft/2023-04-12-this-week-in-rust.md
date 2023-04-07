@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+[Understanding tracing's macros by rebuilding them from scratch](https://dietcode.io/p/tracing-macros)
+
 ### Research
 
 ### Miscellaneous
