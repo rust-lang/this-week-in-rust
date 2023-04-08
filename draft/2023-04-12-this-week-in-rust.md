@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [A guide to aid you in your journey of becoming a Rustacean](https://github.com/plabayo/learn-rust-101/blob/main/README.md)
+
 ### Research
 
 ### Miscellaneous
