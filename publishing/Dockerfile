@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM --platform=linux/amd64 ubuntu:20.04
 
 # Must run from base TWIR directory... makefile takes care of this.
 WORKDIR /usr/twir
