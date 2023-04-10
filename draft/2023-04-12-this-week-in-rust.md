@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+[CfP for EuroRust 2023 now open](https://www.papercall.io/eurorust-2023)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
