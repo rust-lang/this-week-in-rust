@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 * [Writing a Fast C# Code-Search Tool in Rust](https://johnaustin.io/articles/2022/blazing-fast-structural-search-for-c-sharp-in-rust)
 * [Understanding tracing's macros by rebuilding them from scratch](https://dietcode.io/p/tracing-macros)
 
+- [A guide to aid you in your journey of becoming a Rustacean](https://rust-lang.guide/)
+
 ### Research
 
 ### Miscellaneous
