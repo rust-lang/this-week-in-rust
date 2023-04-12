@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 - [A guide to aid you in your journey of becoming a Rustacean](https://rust-lang.guide/)
 
+* [Flexible Tracing with Rust and OpenTelemetry](https://broch.tech/posts/rust-tracing-opentelemetry/)
+
 ### Research
 
 ### Miscellaneous
