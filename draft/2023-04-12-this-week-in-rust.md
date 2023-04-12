@@ -34,27 +34,44 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [Changelog #176](https://rust-analyzer.github.io/thisweek/2023/04/10/changelog-176.html)
+* [New in IntelliJ Rust for 2023.1 (Part 1)](https://blog.jetbrains.com/rust/2023/04/11/new-in-intellij-rust-for-2023-1-part-1/)
+* [IntelliJ Rust Changelog #192](https://intellij-rust.github.io/2023/04/11/changelog-192.html)
 * [sequence_align: an open-source Python + Rust toolkit for efficient sequence alignment](https://blog.kensho.com/introducing-sequence-align-an-open-source-python-rust-toolkit-for-efficient-sequence-alignment-ccdce71d04c7)
 * [Dozer Exiting Stealth Mode with v0.1.16 Release](https://getdozer.io/blog/2023/04/11/this-week-4)
+* [plrust - v1.0.0](https://github.com/tcdi/plrust/releases/tag/v1.0.0)
+* [cdrs-tokio - 8.0.0](https://github.com/krojew/cdrs-tokio/releases/tag/8.0.0)
+* [logos - v0.13](https://github.com/maciejhirsz/logos/releases/tag/v0.13)
+* [This Month in Rust OSDev: March 2023](https://rust-osdev.com/this-month/2023-03/)
+* [This Month in hyper: March 2023](https://seanmonstar.com/post/713948439199858688/this-month-in-hyper-march-2023)
+* [GCC Front-End For Rust - March 2023](https://rust-gcc.github.io/2023/04/03/2023-03-monthly-report.html)
 
 ### Observations/Thoughts
-
-+ [How Kani helped find bugs in Hifitime](https://model-checking.github.io/kani-verifier-blog/2023/03/31/how-kani-helped-find-bugs-in-hifitime.html)
+* [How Kani helped find bugs in Hifitime](https://model-checking.github.io/kani-verifier-blog/2023/03/31/how-kani-helped-find-bugs-in-hifitime.html)
+* [Build faster with Buck2: Our open source build system](https://engineering.fb.com/2023/04/06/open-source/buck2-open-source-large-scale-build-system/)
+* [Modular Errors in Rust](https://sabrinajewson.org/blog/errors)
+* [How fast can you count to 16 in Rust?](https://www.bazhenov.me/posts/counting-to-16-in-rust/)
+* [Can You Trust a Compiler to Optimize Your Code?](https://matklad.github.io/2023/04/09/can-you-trust-a-compiler-to-optimize-your-code.html)
+* [The Scoped Task trilemma](https://without.boats/blog/the-scoped-task-trilemma/)
+* [Restructuring Patterns](https://www.catmonad.xyz/blog/nibbles_02.html)
+* [Control flow patterns in Rust](https://symbolica.io/posts/control_flow_patterns/)
+* [Eight million pixels and counting – Custom allocators in Rust](https://nical.github.io/posts/rust-custom-allocators.html)
+* [Using Metal and Rust to make FFT even faster](https://www.notamonadtutorial.com/using-metal-and-rust-to-make-fft-even-faster/)
+* [video] [Solving distributed systems challenges in Rust](https://www.youtube.com/watch?v=gboGyccRVXI)
 
 ### Rust Walkthroughs
 * [Writing a Fast C# Code-Search Tool in Rust](https://johnaustin.io/articles/2022/blazing-fast-structural-search-for-c-sharp-in-rust)
 * [Understanding tracing's macros by rebuilding them from scratch](https://dietcode.io/p/tracing-macros)
-
-- [A guide to aid you in your journey of becoming a Rustacean](https://rust-lang.guide/)
-
+* [A guide to aid you in your journey of becoming a Rustacean](https://rust-lang.guide/)
 * [Flexible Tracing with Rust and OpenTelemetry](https://broch.tech/posts/rust-tracing-opentelemetry/)
+* [video] [Rust Axum Full Course - Web Development](https://www.youtube.com/watch?v=XZtlD_m59sM)
+* [video] [Introduction to Rust Programming language](https://www.youtube.com/watch?v=9ziaSnqL8RY)
 
 ### Research
 
 ### Miscellaneous
-
-[CfP for EuroRust 2023 now open](https://www.papercall.io/eurorust-2023)
+* [CfP for EuroRust 2023 now open](https://www.papercall.io/eurorust-2023)
+* [video] [The Rust Project visualized with Gource](https://www.youtube.com/watch?v=Ds0Psk1YmOc)
 
 ## Crate of the Week
 
