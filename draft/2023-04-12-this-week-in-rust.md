@@ -65,6 +65,7 @@ and just ask the editors to select the category.
 * [A guide to aid you in your journey of becoming a Rustacean](https://rust-lang.guide/)
 * [Flexible Tracing with Rust and OpenTelemetry](https://broch.tech/posts/rust-tracing-opentelemetry/)
 * [Build a Ray Tracer, pt. 3 - Let There Be Light!](https://www.superperfundo.dev/articles/ray-tracer-part3)
+* [Nine Rules for Creating Fast, Safe, and Compatible Data Structures in Rust (Part 2)](https://towardsdatascience.com/nine-rules-for-creating-fast-safe-and-compatible-data-structures-in-rust-part-1-c0973092e0a3)
 * [video] [Rust Axum Full Course - Web Development](https://www.youtube.com/watch?v=XZtlD_m59sM)
 * [video] [Introduction to Rust Programming language](https://www.youtube.com/watch?v=9ziaSnqL8RY)
 
