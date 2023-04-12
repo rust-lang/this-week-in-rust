@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [spacedisplay](https://github.com/funbiscuit/spacedisplay-rs), a small terminal app for analyzing used disk space.
+
+Thanks to [Sviatoslav Kokurin](https://users.rust-lang.org/t/crate-of-the-week/2704/1183) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -79,7 +81,67 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+385 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-04-03..2023-04-10
+
+* [migrate `rustc_macros` to syn 2.0](https://github.com/rust-lang/rust/pull/109663)
+* [add ability to transmute (somewhat) with generic consts in arrays](https://github.com/rust-lang/rust/pull/106281)
+* [allow `transmute`s to produce `OperandValue`s instead of needing `alloca`s](https://github.com/rust-lang/rust/pull/109843)
+* [resolve: restore some effective visibility optimizations](https://github.com/rust-lang/rust/pull/109437)
+* [better diagnostic when pattern matching tuple structs](https://github.com/rust-lang/rust/pull/109760)
+* [check pattern refutability on THIR](https://github.com/rust-lang/rust/pull/108504)
+* [diagnostics: account for glob shadowing when linting redundant imports](https://github.com/rust-lang/rust/pull/109599)
+* [diagnostics: account for self type when looking for source of unsolved type variable](https://github.com/rust-lang/rust/pull/109957)
+* [do not suppress `temporary_cstring_as_ptr` in macros](https://github.com/rust-lang/rust/pull/109944)
+* [don't ICE when encountering `dyn*` in statics or consts](https://github.com/rust-lang/rust/pull/109921)
+* [emit feature error for parenthesized generics in associated type bounds](https://github.com/rust-lang/rust/pull/109914)
+* [extend `-Cdebuginfo` with new options and named aliases](https://github.com/rust-lang/rust/pull/109808)
+* [fix `non_exhaustive_omitted_patterns` lint span](https://github.com/rust-lang/rust/pull/109838)
+* [fix a couple ICEs in the new `CastKind::Transmute` code](https://github.com/rust-lang/rust/pull/110021)
+* [fix buffer overrun in bootstrap and (test-only) `symlink_junction`](https://github.com/rust-lang/rust/pull/109960)
+* [fix issue when there are multiple candidates for `edit_distance_with_substrings`](https://github.com/rust-lang/rust/pull/109395)
+* [implement support for `GeneratorWitnessMIR` in new solver](https://github.com/rust-lang/rust/pull/109755)
+* [more descriptive error when qself path doesnt have a trait on the RHS of `as`](https://github.com/rust-lang/rust/pull/109788)
+* [never consider int and float vars for `FnPtr` candidates](https://github.com/rust-lang/rust/pull/109896)
+* [only visit reachable blocks in ConstProp lint](https://github.com/rust-lang/rust/pull/109792)
+* [prioritize param env candidates if they don't guide type inference](https://github.com/rust-lang/rust/pull/109724)
+* [pull some tuple variant fields out into their own `struct`](https://github.com/rust-lang/rust/pull/109723)
+* [remove the use of `-use-gnu-stack` when BOLTing LLVM](https://github.com/rust-lang/rust/pull/109945)
+* [suggest defining const parameter when appropriate](https://github.com/rust-lang/rust/pull/110041)
+* [tweak debug outputs to make debugging new solver easier](https://github.com/rust-lang/rust/pull/109956)
+* [tweak tuple indexing suggestion](https://github.com/rust-lang/rust/pull/110096)
+* [use SipHash-1-3 instead of SipHash-2-4 for StableHasher](https://github.com/rust-lang/rust/pull/107925)
+* [yeet `owning_ref`](https://github.com/rust-lang/rust/pull/109971)
+* [stabilize `is_some_and`](https://github.com/rust-lang/rust/pull/110019)
+* [cargo: add `try_canonicalize` and use it over `std::fs::canonicalize`](https://github.com/rust-lang/cargo/pull/11866)
+* [cargo: fix Cargo warning about unused sparse configuration key](https://github.com/rust-lang/cargo/pull/11930)
+* [cargo: fix credential token format validation](https://github.com/rust-lang/cargo/pull/11951)
+* [cargo: validate token on publish](https://github.com/rust-lang/cargo/pull/11952)
+* [rustdoc: avoid including line numbers in Google SERP snippets](https://github.com/rust-lang/rust/pull/109977)
+* [rustdoc: escape GAT args in more cases](https://github.com/rust-lang/rust/pull/109919)
+* [rustdoc: make intra-doc link pass non-quadratic for repeated links](https://github.com/rust-lang/rust/pull/109876)
+* [clippy: `needless_return`: do not trigger on ambiguous match arms return](https://github.com/rust-lang/rust-clippy/pull/10593)
+* [clippy: add `manual_slice_size_calculation`](https://github.com/rust-lang/rust-clippy/pull/10601)
+* [clippy: add `tests_outside_test_module` lint](https://github.com/rust-lang/rust-clippy/pull/10543)
+* [clippy: new lint: `suspicious_doc_comments`](https://github.com/rust-lang/rust-clippy/pull/10497)
+* [clippy: fix `mem_replace_option_with_none` not considering field variables](https://github.com/rust-lang/rust-clippy/pull/10594)
+* [clippy: fix `single_component_path_imports` false positive on `self::<import>::..`](https://github.com/rust-lang/rust-clippy/pull/10566)
+* [clippy: fix bug with getting parent directories in `lookup_conf_file`](https://github.com/rust-lang/rust-clippy/pull/10592)
+* [clippy: make `redundant_async_block` a more complete late pass](https://github.com/rust-lang/rust-clippy/pull/10554)
+* [clippy: mini-fix `double_must_use` for async functions](https://github.com/rust-lang/rust-clippy/pull/10589)
+* [rust-analyzer: highlight escapes in char](https://github.com/rust-lang/rust-analyzer/pull/14512)
+* [rust-analyzer: compute closure captures](https://github.com/rust-lang/rust-analyzer/pull/14470)
+* [rust-analyzer: desugar async fn completely](https://github.com/rust-lang/rust-analyzer/pull/14486)
+* [rust-analyzer: add doc-alias based completion](https://github.com/rust-lang/rust-analyzer/pull/14433)
+* [rust-analyzer: convert nested function to closure assist](https://github.com/rust-lang/rust-analyzer/pull/14455)
+* [rust-analyzer: drop support for non-syroot proc macro ABIs](https://github.com/rust-lang/rust-analyzer/pull/14432)
+* [rust-analyzer: assist: autoderef in generate delegate methods](https://github.com/rust-lang/rust-analyzer/pull/14483)
+* [rust-analyzer: fix block local impl trait solving regressions](https://github.com/rust-lang/rust-analyzer/pull/14505)
+* [rust-analyzer: fix vscode project linking popup buttons being swapped](https://github.com/rust-lang/rust-analyzer/pull/14481)
+* [rust-analyzer: insert whitespace between text and pound](https://github.com/rust-lang/rust-analyzer/pull/14493)
+* [rust-analyzer: unify types in `infer_expr_coerce_never()`](https://github.com/rust-lang/rust-analyzer/pull/14520)
+* [rust-analyzer: normalize associated types in paths in expressions](https://github.com/rust-lang/rust-analyzer/pull/14436)
 
 ### Rust Compiler Performance Triage
 
@@ -265,7 +327,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> As an expert at being ignorant of what `Pin` does, I can assert with expertise that other ignorant readers have a hard time with `Pin`.
+
+– [grom on rust-users](https://users.rust-lang.org/t/pin-tutorial-are-confusing-me/91003/3)
+
+Thanks to [bugaevc](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1393) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
