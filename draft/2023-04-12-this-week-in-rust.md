@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+[CfP for EuroRust 2023 now open](https://www.papercall.io/eurorust-2023)
+
 ## Crate of the Week
 
 This week's crate is [spacedisplay](https://github.com/funbiscuit/spacedisplay-rs), a small terminal app for analyzing used disk space.
