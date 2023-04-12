@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [sequence_align: an open-source Python + Rust toolkit for efficient sequence alignment](https://blog.kensho.com/introducing-sequence-align-an-open-source-python-rust-toolkit-for-efficient-sequence-alignment-ccdce71d04c7)
+
 ### Observations/Thoughts
 
 + [How Kani helped find bugs in Hifitime](https://model-checking.github.io/kani-verifier-blog/2023/03/31/how-kani-helped-find-bugs-in-hifitime.html)
