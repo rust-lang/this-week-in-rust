@@ -32,6 +32,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Community contribution to Fluvio by Carson Rajcan](https://www.fluvio.io/news/this-week-in-fluvio-0051/)
 
 ### Project/Tooling Updates
 * [Changelog #176](https://rust-analyzer.github.io/thisweek/2023/04/10/changelog-176.html)
