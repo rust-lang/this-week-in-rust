@@ -77,6 +77,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 
 * [rustc - help migrating to `derive(Diagnostic)` / struct-based diagnostics](https://rust-lang.zulipchat.com/#narrow/stream/328238-RustcContributor.3A.3Anew/topic/Diagnostics.20Translation) ([rust#100717](https://github.com/rust-lang/rust/issues/100717))
+* [Hyperswitch - Return all the `missing_fields` in a request](https://github.com/juspay/hyperswitch/issues/451)
+* [Hyperswitch - perf(logger): Remove unnecessary heap allocations](https://github.com/juspay/hyperswitch/issues/117)
+* [Hyperswitch - Have `get_required_value` to use `ValidationError` in `OptionExt`](https://github.com/juspay/hyperswitch/issues/860)
+* [Hyperswitch - RFC for optimizing compile time.](https://github.com/juspay/hyperswitch/issues/809)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
