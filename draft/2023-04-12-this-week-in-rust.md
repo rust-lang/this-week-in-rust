@@ -99,6 +99,12 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Hyperswitch - perf(logger): Remove unnecessary heap allocations](https://github.com/juspay/hyperswitch/issues/117)
 * [Hyperswitch - Have `get_required_value` to use `ValidationError` in `OptionExt`](https://github.com/juspay/hyperswitch/issues/860)
 * [Hyperswitch - RFC for optimizing compile time.](https://github.com/juspay/hyperswitch/issues/809)
+* [rusticify - Add tagging/untagging for documents](https://github.com/StaffEngineer/rusticify/issues/6)
+* [rusticify - Add search by document name / tags](https://github.com/StaffEngineer/rusticify/issues/7)
+* [Ockam - Rename ockam forwarder clap commands to ockam relay](https://github.com/build-trust/ockam/issues/4609)
+* [Ockam - Add default value to --project-route argument on kafka's service start clap commands](https://github.com/build-trust/ockam/issues/4615)
+* [Ockam - Combine ip and port arguments into a single dynamic argument on kafka's service start clap commands](https://github.com/build-trust/ockam/issues/4614)
+
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
