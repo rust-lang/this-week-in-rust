@@ -65,6 +65,7 @@ and just ask the editors to select the category.
 * [A guide to aid you in your journey of becoming a Rustacean](https://rust-lang.guide/)
 * [Flexible Tracing with Rust and OpenTelemetry](https://broch.tech/posts/rust-tracing-opentelemetry/)
 * [Build a Ray Tracer, pt. 3 - Let There Be Light!](https://www.superperfundo.dev/articles/ray-tracer-part3)
+* [How to write a type-level mock library in Rust](https://audunhalland.github.io/blog/how-to-write-a-type-level-mock-library-in-rust/)
 * [video] [Rust Axum Full Course - Web Development](https://www.youtube.com/watch?v=XZtlD_m59sM)
 * [video] [Introduction to Rust Programming language](https://www.youtube.com/watch?v=9ziaSnqL8RY)
 
