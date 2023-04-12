@@ -67,6 +67,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
 
+* [rustc - help migrating to `derive(Diagnostic)` / struct-based diagnostics](https://rust-lang.zulipchat.com/#narrow/stream/328238-RustcContributor.3A.3Anew/topic/Diagnostics.20Translation) ([rust#100717](https://github.com/rust-lang/rust/issues/100717))
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
