@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [sequence_align: an open-source Python + Rust toolkit for efficient sequence alignment](https://blog.kensho.com/introducing-sequence-align-an-open-source-python-rust-toolkit-for-efficient-sequence-alignment-ccdce71d04c7)
+* [Dozer Exiting Stealth Mode with v0.1.16 Release](https://getdozer.io/blog/2023/04/11/this-week-4)
 
 ### Observations/Thoughts
 
