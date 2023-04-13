@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Nutype v0.2](https://github.com/greyblake/nutype/releases/tag/v0.2.0)
 
 ### Observations/Thoughts
 
