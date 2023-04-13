@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+- [Two Rust features that I miss in Other languages](https://dev.to/yjdoc2/two-rust-features-that-i-miss-in-other-languages-7ec)
 
 ### Rust Walkthroughs
 
