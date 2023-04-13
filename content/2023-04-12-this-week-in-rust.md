@@ -29,12 +29,14 @@ and just ask the editors to select the category.
 
 ### Official
 
-### Foundation
+* [A note on the Trademark Policy Draft](https://blog.rust-lang.org/inside-rust/2023/04/12/trademark-policy-draft-feedback.html)
 
 ### Newsletters
+
 * [Community contribution to Fluvio by Carson Rajcan](https://www.fluvio.io/news/this-week-in-fluvio-0051/)
 
 ### Project/Tooling Updates
+
 * [Changelog #176](https://rust-analyzer.github.io/thisweek/2023/04/10/changelog-176.html)
 * [New in IntelliJ Rust for 2023.1 (Part 1)](https://blog.jetbrains.com/rust/2023/04/11/new-in-intellij-rust-for-2023-1-part-1/)
 * [IntelliJ Rust Changelog #192](https://intellij-rust.github.io/2023/04/11/changelog-192.html)
@@ -48,6 +50,7 @@ and just ask the editors to select the category.
 * [GCC Front-End For Rust - March 2023](https://rust-gcc.github.io/2023/04/03/2023-03-monthly-report.html)
 
 ### Observations/Thoughts
+
 * [How Kani helped find bugs in Hifitime](https://model-checking.github.io/kani-verifier-blog/2023/03/31/how-kani-helped-find-bugs-in-hifitime.html)
 * [Build faster with Buck2: Our open source build system](https://engineering.fb.com/2023/04/06/open-source/buck2-open-source-large-scale-build-system/)
 * [Modular Errors in Rust](https://sabrinajewson.org/blog/errors)
@@ -61,6 +64,7 @@ and just ask the editors to select the category.
 * [video] [Solving distributed systems challenges in Rust](https://www.youtube.com/watch?v=gboGyccRVXI)
 
 ### Rust Walkthroughs
+
 * [Writing a Fast C# Code-Search Tool in Rust](https://johnaustin.io/articles/2022/blazing-fast-structural-search-for-c-sharp-in-rust)
 * [Understanding tracing's macros by rebuilding them from scratch](https://dietcode.io/p/tracing-macros)
 * [A guide to aid you in your journey of becoming a Rustacean](https://rust-lang.guide/)
@@ -71,9 +75,8 @@ and just ask the editors to select the category.
 * [video] [Rust Axum Full Course - Web Development](https://www.youtube.com/watch?v=XZtlD_m59sM)
 * [video] [Introduction to Rust Programming language](https://www.youtube.com/watch?v=9ziaSnqL8RY)
 
-### Research
-
 ### Miscellaneous
+
 * [CfP for EuroRust 2023 now open](https://www.papercall.io/eurorust-2023)
 * [video] [The Rust Project visualized with Gource](https://www.youtube.com/watch?v=Ds0Psk1YmOc)
 
@@ -94,9 +97,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
-
 * [rustc - help migrating to `derive(Diagnostic)` / struct-based diagnostics](https://rust-lang.zulipchat.com/#narrow/stream/328238-RustcContributor.3A.3Anew/topic/Diagnostics.20Translation) ([rust#100717](https://github.com/rust-lang/rust/issues/100717))
 * [Hyperswitch - Return all the `missing_fields` in a request](https://github.com/juspay/hyperswitch/issues/451)
 * [Hyperswitch - perf(logger): Remove unnecessary heap allocations](https://github.com/juspay/hyperswitch/issues/117)
@@ -107,7 +107,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Ockam - Rename ockam forwarder clap commands to ockam relay](https://github.com/build-trust/ockam/issues/4609)
 * [Ockam - Add default value to --project-route argument on kafka's service start clap commands](https://github.com/build-trust/ockam/issues/4615)
 * [Ockam - Combine ip and port arguments into a single dynamic argument on kafka's service start clap commands](https://github.com/build-trust/ockam/issues/4614)
-
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -177,10 +176,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [rust-analyzer: unify types in `infer_expr_coerce_never()`](https://github.com/rust-lang/rust-analyzer/pull/14520)
 * [rust-analyzer: normalize associated types in paths in expressions](https://github.com/rust-lang/rust-analyzer/pull/14436)
 
-### Rust Compiler Performance Triage
-
-<!-- Perf results go here -->
-
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
@@ -198,15 +193,18 @@ which are reaching a decision. Express your opinions now.
 * *No RFCs entered Final Comment Period this week.*
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
 * [disposition: merge] [Evaluate place expression in `PlaceMention`](https://github.com/rust-lang/rust/pull/104844)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
 * [new] [Casting From by as_cast](https://github.com/rust-lang/rfcs/pull/3413)
 * [new] [Proposal: add range value type and range value conversions between different ranges.](https://github.com/rust-lang/rfcs/pull/3412)
 * [new] [Explicit move binding mode](https://github.com/rust-lang/rfcs/pull/3410)
 * [new] [Guaranteed TCO (tail call optimization)](https://github.com/rust-lang/rfcs/pull/3407)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
@@ -336,7 +334,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/11naac9/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -352,4 +350,4 @@ Thanks to [bugaevc](https://users.rust-lang.org/t/twir-quote-of-the-week/328/139
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/12k4rxc/this_week_in_rust_490/)</small>
