@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Improving build times for derive macros by 3x or more](https://blog.kodewerx.org/2023/04/improving-build-times-for-derive-macros.html)
 
 ### Rust Walkthroughs
 
