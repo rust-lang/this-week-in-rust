@@ -105,6 +105,8 @@ which are reaching a decision. Express your opinions now.
 <!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
 <!-- * [new|updated] []() -->
 
+* [new] [Cargo feature descriptions & `rustdoc` configuration](https://github.com/rust-lang/rfcs/pull/3416)
+
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
