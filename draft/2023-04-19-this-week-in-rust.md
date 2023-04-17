@@ -58,6 +58,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Quickwit - Upgrade clap from 3.1 to 4.0](https://github.com/quickwit-oss/quickwit/issues/2236)
+* [Quickwit - Implement quickwit dataset CLI command](https://github.com/quickwit-oss/quickwit/issues/2681)
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
 
