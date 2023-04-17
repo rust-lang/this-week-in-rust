@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Announcing tuxedo-rs](https://aaronerhardt.github.io/blog/posts/announcing_tuxedo_rs/)
 
 ### Observations/Thoughts
 
