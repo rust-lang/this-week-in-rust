@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [onlyerror](https://crates.io/crates/onlyerror), a `#[derive(Error)]` macro with support for `no_std` on nightly compilers.
+
+Thanks to [Jay Oster](https://users.rust-lang.org/t/crate-of-the-week/2704/1186) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -67,7 +69,78 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+450 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-04-10..2023-04-17
+
+* [initial support for loongarch64-unknown-linux-gnu](https://github.com/rust-lang/rust/pull/96971)
+* [add inline assembly support for m68k](https://github.com/rust-lang/rust/pull/109989)
+* [make rust-intrinsic ABI unwindable](https://github.com/rust-lang/rust/pull/110233)
+* [allow `repr(align = x)` on inherent methods](https://github.com/rust-lang/rust/pull/110313)
+* [add a backtrace to Allocation, display it in leak reports](https://github.com/rust-lang/rust/pull/109061)
+* [add a message for if an overflow occurs in `core::intrinsics::is_nonoverlapping`](https://github.com/rust-lang/rust/pull/110388)
+* [add suggestion to remove `derive()` if invoked macro is non-derive](https://github.com/rust-lang/rust/pull/109638)
+* [added diagnostic for `pin!` macro in addition to `Box::pin` if Unpin isn't implemented](https://github.com/rust-lang/rust/pull/110259)
+* [assemble `Unpin` candidates specially for generators in new solver](https://github.com/rust-lang/rust/pull/110207)
+* [check for body owner fallibly in error reporting](https://github.com/rust-lang/rust/pull/110193)
+* [correct default value for default-linker-libraries](https://github.com/rust-lang/rust/pull/110337)
+* [emits non-overlapping suggestions for arguments with wrong types](https://github.com/rust-lang/rust/pull/109850)
+* [encode def span for `ConstParam`](https://github.com/rust-lang/rust/pull/110425)
+* [erase lifetimes above `ty::INNERMOST` when probing ambiguous types](https://github.com/rust-lang/rust/pull/110195)
+* [erase regions when confirming transmutability candidate](https://github.com/rust-lang/rust/pull/110038)
+* [fix false positives for `unused_parens` around unary and binary operations](https://github.com/rust-lang/rust/pull/110257)
+* [fix transmute intrinsic mir validation ICE](https://github.com/rust-lang/rust/pull/109959)
+* [fix: ensure bad `#[test]` invocs retain correct AST](https://github.com/rust-lang/rust/pull/110035)
+* [fix: skip implied bounds if unconstrained lifetime exists](https://github.com/rust-lang/rust/pull/110272)
+* [improve safe transmute error reporting](https://github.com/rust-lang/rust/pull/109800)
+* [improve the error message when forwarding a matched fragment to another macro](https://github.com/rust-lang/rust/pull/110222)
+* [incr.comp.: make sure dependencies are recorded when feeding queries during eval-always queries](https://github.com/rust-lang/rust/pull/109935)
+* [preserve argument indexes when inlining MIR](https://github.com/rust-lang/rust/pull/109466)
+* [reformulate `point_at_expr_source_of_inferred_type` to be more accurate](https://github.com/rust-lang/rust/pull/108687)
+* [report overflows gracefully with new solver](https://github.com/rust-lang/rust/pull/110103)
+* [resolve: pre-compute non-reexport module children](https://github.com/rust-lang/rust/pull/110160)
+* [tweak output for 'add line' suggestion](https://github.com/rust-lang/rust/pull/109786)
+* [suggest lifetime for closure parameter type when mismatch](https://github.com/rust-lang/rust/pull/105888)
+* [support safe transmute in new solver](https://github.com/rust-lang/rust/pull/110126)
+* [add a stable MIR way to get the main function](https://github.com/rust-lang/rust/pull/110315)
+* [custom MIR: Support `BinOp::Offset`](https://github.com/rust-lang/rust/pull/110190)
+* [switch to `EarlyBinder` for `impl_subject` query](https://github.com/rust-lang/rust/pull/110299)
+* [tagged pointers, now with strict provenance!](https://github.com/rust-lang/rust/pull/110243)
+* [alloc `hir::Lit` in an arena to remove the destructor from `Expr`](https://github.com/rust-lang/rust/pull/109588)
+* [only emit alignment checks if we have a `panic_impl`](https://github.com/rust-lang/rust/pull/110283)
+* [only enable ConstProp at `mir-opt-level >= 2`](https://github.com/rust-lang/rust/pull/109900)
+* [permit MIR inlining without `#[inline]`](https://github.com/rust-lang/rust/pull/109247)
+* [`rustc_metadata`: Filter encoded data more aggressively using `DefKind`](https://github.com/rust-lang/rust/pull/109765)
+* [stabilize IsTerminal](https://github.com/rust-lang/rust/pull/110072)
+* [don't splice from files into pipes in `io::copy`](https://github.com/rust-lang/rust/pull/108283)
+* [`sync::mpsc`: synchronize receiver disconnect with initialization](https://github.com/rust-lang/rust/pull/110089)
+* [windows: map a few more error codes to ErrorKind](https://github.com/rust-lang/rust/pull/110433)
+* [hashbrown: remove drain-on-drop behavior from DrainFilter](https://github.com/rust-lang/hashbrown/pull/374)
+* [regex: first phase of migrating to regex-automata](https://github.com/rust-lang/regex/pull/977)
+* [cargo: change -C to be unstable](https://github.com/rust-lang/cargo/pull/11960)
+* [cargo: stabilize `cargo logout`](https://github.com/rust-lang/cargo/pull/11950)
+* [cargo: use registry.default for login/logout](https://github.com/rust-lang/cargo/pull/11949)
+* [cargo: use restricted Damerau-Levenshtein algorithm](https://github.com/rust-lang/cargo/pull/11963)
+* [rustdoc-search: add support for nested generics](https://github.com/rust-lang/rust/pull/109802)
+* [rustdoc: correctly handle built-in compiler proc-macros as proc-macro and not macro](https://github.com/rust-lang/rust/pull/110279)
+* [stabilize rustdoc `--test-run-directory`](https://github.com/rust-lang/rust/pull/103682)
+* [clippy: `collection_is_never_read`: Handle unit type](https://github.com/rust-lang/rust-clippy/pull/10492)
+* [clippy: add `manual_slice_size_calculation` applicable suggestion](https://github.com/rust-lang/rust-clippy/pull/10661)
+* [clippy: clear with drain](https://github.com/rust-lang/rust-clippy/pull/10614)
+* [clippy: fix false positives and false negatives in `octal_escapes`](https://github.com/rust-lang/rust-clippy/pull/10603)
+* [clippy: suggest `std::mem::size_of_val` instead of `std::mem::size_of_value`](https://github.com/rust-lang/rust-clippy/pull/10659)
+* [rust-analyzer: don't suggest unstable items on stable toolchain](https://github.com/rust-lang/rust-analyzer/pull/14549)
+* [rust-analyzer: make inlay hints insertable](https://github.com/rust-lang/rust-analyzer/pull/14533)
+* [rust-analyzer: map tokens from `include!` expansion to the included file](https://github.com/rust-lang/rust-analyzer/pull/14561)
+* [rust-analyzer: fix allow extracting function from single brace of block expression](https://github.com/rust-lang/rust-analyzer/pull/14540)
+* [rust-analyzer: fix explicit deref problems in closure capture](https://github.com/rust-lang/rust-analyzer/pull/14576)
+* [rust-analyzer: bring back LRU limit for `macro_expand` query](https://github.com/rust-lang/rust-analyzer/pull/14588)
+* [rust-analyzer: fix inference in nested closures](https://github.com/rust-lang/rust-analyzer/pull/14550)
+* [rust-analyzer: fix inverted code lens resolve file version check](https://github.com/rust-lang/rust-analyzer/pull/14570)
+* [rust-analyzer: fix receiver adjustments for `extract_variable` assist](https://github.com/rust-lang/rust-analyzer/pull/14547)
+* [rust-analyzer: infer types of nested RPITs](https://github.com/rust-lang/rust-analyzer/pull/14544)
+* [rust-analyzer: when running the "discoverProjectCommand", use the Rust file's parent directory instead of the workspace folder](https://github.com/rust-lang/rust-analyzer/pull/14535)
+* [rust-analyzer: parse more exclusive range patterns and inline const patterns](https://github.com/rust-lang/rust-analyzer/pull/14580)
 
 ### Rust Compiler Performance Triage
 
@@ -245,7 +318,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Error types should be located near to their unit of fallibility.
+
+– [Sabrina Jewson on her blog](https://sabrinajewson.org/blog/errors)
+
+Thanks to [Anton Fetisov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1394) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
