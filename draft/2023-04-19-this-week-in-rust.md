@@ -60,6 +60,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 * [Hyperswitch - move redis key creation to a common module](https://github.com/juspay/hyperswitch/issues/917)
+* [Hyperswitch - add `connector_label` field in error type](https://github.com/juspay/hyperswitch/issues/899)
 <!-- * [ - ]() -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
