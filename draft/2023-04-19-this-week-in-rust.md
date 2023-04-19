@@ -59,6 +59,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
+* [Hyperswitch - Migrate to `enum_dispatch` to reduce runtime overhead](https://github.com/juspay/hyperswitch/issues/921)
 * [Hyperswitch - move redis key creation to a common module](https://github.com/juspay/hyperswitch/issues/917)
 * [Hyperswitch - add `connector_label` field in error type](https://github.com/juspay/hyperswitch/issues/899)
 <!-- * [ - ]() -->
