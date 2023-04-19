@@ -71,7 +71,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A busy two weeks (as last week perf triage was not done). Overall improvements outweigh regressions with an average improvement of -2.6% across a large swath of the test cases. Of particular note was the move to use SipHash-1-3 instead of SipHash-2-4 for StableHasher which improved 184 benchmark tests by an average of 2.3%! 
+
+Triage done by **@rylev**.
+Revision range: [7c96e40..74864f](https://perf.rust-lang.org/?start=7c96e40da81165beef4f273f44e96eeef5a1bd30&end=74864fa496997a6498e623f0d2019ccb7eb6dad0&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 3.1%  | [0.2%, 24.4%]   | 11    |
+| Regressions ❌ <br /> (secondary)  | 4.9%  | [0.4%, 37.4%]   | 32    |
+| Improvements ✅ <br /> (primary)   | -2.9% | [-20.4%, -0.3%] | 205   |
+| Improvements ✅ <br /> (secondary) | -4.0% | [-43.5%, -0.3%] | 160   |
+| All ❌✅ (primary)                 | -2.6% | [-20.4%, 24.4%] | 216   |
+
+
+6 Regressions, 8 Improvements, 11 Mixed; 6 of them in rollups
+119 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-04-18.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
