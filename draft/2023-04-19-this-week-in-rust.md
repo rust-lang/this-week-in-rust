@@ -65,6 +65,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Introducing Shuttle Batch 2.0](https://www.shuttle.rs/blog/2023/04/14/Shuttle-Batch-2)
+* [The Rust Foundation's draft trademark policy is far too restrictive](https://diziet.dreamwidth.org/14929.html)
 * [Rust Trademark: Argle-bargle or Foofaraw?](https://www.youtube.com/watch?v=N-ADQ5n7HoY)
 
 ## Crate of the Week
