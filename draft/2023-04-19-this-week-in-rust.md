@@ -77,7 +77,8 @@ Always wanted to contribute to open-source projects but did not know where to st
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
-
+* [Quickwit - Upgrade clap from 3.1 to 4.0](https://github.com/quickwit-oss/quickwit/issues/2236)
+* [Quickwit - Implement quickwit dataset CLI command](https://github.com/quickwit-oss/quickwit/issues/2681)
 * [Hyperswitch - Migrate to `enum_dispatch` to reduce runtime overhead](https://github.com/juspay/hyperswitch/issues/921)
 * [Hyperswitch - move redis key creation to a common module](https://github.com/juspay/hyperswitch/issues/917)
 * [Hyperswitch - add `connector_label` field in error type](https://github.com/juspay/hyperswitch/issues/899)
