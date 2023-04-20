@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #177](https://rust-analyzer.github.io/thisweek/2023/04/17/changelog-177.html)
 
 ### Observations/Thoughts
+* [Improving build times for derive macros by 3x or more](https://blog.kodewerx.org/2023/04/improving-build-times-for-derive-macros.html)
 * [Oxidizing bmap-tools: rewriting a Python project in Rust](https://www.collabora.com/news-and-blog/blog/2023/03/03/oxidizing-bmap-tools-rewriting-a-python-project-in-rust/)
 * [Rust: A New Attempt at C++'s Main Goal](https://www.thecodedmessage.com/posts/rust-new-cpp/)
 * [Traits are more than interfaces](https://felix-knorr.net/posts/2023-04-17-traits.html)
