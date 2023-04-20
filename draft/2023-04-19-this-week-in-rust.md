@@ -211,7 +211,8 @@ which are reaching a decision. Express your opinions now.
 * [new] [Use `actions/deploy-pages` to deploy `mdbook` output](https://github.com/rust-lang/rfcs/pull/3419)
 * [new] [RFC for associated mathematical constants](https://github.com/rust-lang/rfcs/pull/3418)
 * [new] [improve `#[may_dangle]` for type parameters](https://github.com/rust-lang/rfcs/pull/3417)
-* [new] [RFC: Cargo feature descriptions & `rustdoc` configuration](https://github.com/rust-lang/rfcs/pull/3416)
+* [new] [RFC: Cargo feature descriptions & metadata](https://github.com/rust-lang/rfcs/pull/3416)
+* [new] [RFC: Rustdoc configuration via Cargo](https://github.com/rust-lang/rfcs/pull/3421)
 * [new] [Traits for lossy conversions](https://github.com/rust-lang/rfcs/pull/3415)
 * [new] [Split may_dangle and make PhantomData less weird](https://github.com/rust-lang/rfcs/pull/3414)
 
