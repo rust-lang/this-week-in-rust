@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 * [audio] [Rust Analyzer with Lukas Wirth](https://rustacean-station.org/episode/lukas-wirth/)
 * [audio] [Wasmer with Syrus Akbary](https://rustacean-station.org/episode/syrus-akbary/)
 
+* [Building a GStreamer plugin in Rust with meson instead of cargo](https://coaxion.net/blog/2023/04/building-a-gstreamer-plugin-in-rust-with-meson-instead-of-cargo/)
+
 ### Rust Walkthroughs
 * [Understanding Rust Thread Safety](https://onesignal.com/blog/thread-safety-rust/)
 * [how to run rust code on a circuit playground classic / atmega32u4](https://zoe.kittycat.homes/log/rust_atmega32u4_tutorial)
