@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 * [A syntax-level async join macro supporting branching control flow and synchronous shared mutable borrowing](https://wishawa.github.io/posts/enjoin/)
 * [Build a Lua Interpreter in Rust (English version)](https://wubingzheng.github.io/build-lua-in-rust/en/)
 * [CN] [Zino's implementation of an error type with tracing functionalities using 100 lines of code](https://zhuanlan.zhihu.com/p/621839043)
+* [A blog article and project demonstrating GitHub actions in Rust](https://blog.ngerakines.me/posts/github-actions-in-rust/)
 
 ### Miscellaneous
 * [Introducing Shuttle Batch 2.0](https://www.shuttle.rs/blog/2023/04/14/Shuttle-Batch-2)
