@@ -5,6 +5,12 @@ are the RFCs that were approved for implementation this week:
 
 * *No RFCs were approved this week.*
 
+#### Approved MCPs
+
+*    The MCP (Major Change Proposal) [Integreate Enzyme into nightly rustc](https://github.com/rust-lang/compiler-team/issues/611#issuecomment-1506929616) got accepted. The [current prototype](https://github.com/EnzymeAD/rust) will be upgraded and integrated into some future nightly releases. Those releases will have experimental support to vectorize and differentiate (in the calculus sense) Rust code.
+
+
+
 ### Final Comment Period
 
 Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
