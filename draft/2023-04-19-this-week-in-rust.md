@@ -188,9 +188,7 @@ Revision range: [7c96e40..74864f](https://perf.rust-lang.org/?start=7c96e40da811
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -199,34 +197,26 @@ which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* *No RFCs entered Final Comment Period this week.*
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [Update the version of musl used on `*-linux-musl` targets to 1.2.3](https://github.com/rust-lang/rust/pull/107129)
+* [disposition: merge] [Tracking Issue for `debugger_visualizer`](https://github.com/rust-lang/rust/issues/95939)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+* [new] [Use `actions/deploy-pages` to deploy `mdbook` output](https://github.com/rust-lang/rfcs/pull/3419)
+* [new] [RFC for associated mathematical constants](https://github.com/rust-lang/rfcs/pull/3418)
+* [new] [improve `#[may_dangle]` for type parameters](https://github.com/rust-lang/rfcs/pull/3417)
+* [new] [RFC: Cargo feature descriptions & `rustdoc` configuration](https://github.com/rust-lang/rfcs/pull/3416)
+* [new] [Traits for lossy conversions](https://github.com/rust-lang/rfcs/pull/3415)
+* [new] [Split may_dangle and make PhantomData less weird](https://github.com/rust-lang/rfcs/pull/3414)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+* [1.69.0 pre-release testing](https://blog.rust-lang.org/inside-rust/2023/04/17/1.69.0-prerelease.html)
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
