@@ -35,6 +35,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Nutype v0.2](https://github.com/greyblake/nutype/releases/tag/v0.2.0)
 * [Announcing tuxedo-rs](https://aaronerhardt.github.io/blog/posts/announcing_tuxedo_rs/)
 * [rust-analyzer changelog #177](https://rust-analyzer.github.io/thisweek/2023/04/17/changelog-177.html)
 
