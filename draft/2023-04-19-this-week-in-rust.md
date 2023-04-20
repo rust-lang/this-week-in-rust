@@ -30,18 +30,32 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Rust Trademark Policy Draft Revision – Next Steps](https://foundation.rust-lang.org/news/rust-trademark-policy-draft-revision-next-steps/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #177](https://rust-analyzer.github.io/thisweek/2023/04/17/changelog-177.html)
 
 ### Observations/Thoughts
+* [Oxidizing bmap-tools: rewriting a Python project in Rust](https://www.collabora.com/news-and-blog/blog/2023/03/03/oxidizing-bmap-tools-rewriting-a-python-project-in-rust/)
+* [Rust: A New Attempt at C++'s Main Goal](https://www.thecodedmessage.com/posts/rust-new-cpp/)
+* [Traits are more than interfaces](https://felix-knorr.net/posts/2023-04-17-traits.html)
+* [Optional If Expressions](https://animaomnium.github.io/optional-if-expressions/)
+* [audio] [Rust Analyzer with Lukas Wirth](https://rustacean-station.org/episode/lukas-wirth/)
+* [audio] [Wasmer with Syrus Akbary](https://rustacean-station.org/episode/syrus-akbary/)
 
 ### Rust Walkthroughs
+* [Understanding Rust Thread Safety](https://onesignal.com/blog/thread-safety-rust/)
+* [how to run rust code on a circuit playground classic / atmega32u4](https://zoe.kittycat.homes/log/rust_atmega32u4_tutorial)
+* [Hello World in Rust for m68k with #[no_core] and compiler patches](https://iandouglasscott.com/2023/04/12/hello-world-in-rust-for-m68k-with-no-core-and-compiler-patches/)
+* [A syntax-level async join macro supporting branching control flow and synchronous shared mutable borrowing](https://wishawa.github.io/posts/enjoin/)
 
 ### Research
 
 ### Miscellaneous
+* [Introducing Shuttle Batch 2.0](https://www.shuttle.rs/blog/2023/04/14/Shuttle-Batch-2)
+* [Rust Trademark: Argle-bargle or Foofaraw?](https://www.youtube.com/watch?v=N-ADQ5n7HoY)
 
 ## Crate of the Week
 
