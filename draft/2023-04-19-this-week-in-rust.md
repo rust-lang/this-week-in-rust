@@ -27,12 +27,8 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Foundation
 * [Rust Trademark Policy Draft Revision – Next Steps](https://foundation.rust-lang.org/news/rust-trademark-policy-draft-revision-next-steps/)
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [Nutype v0.2](https://github.com/greyblake/nutype/releases/tag/v0.2.0)
@@ -56,17 +52,13 @@ and just ask the editors to select the category.
 * [how to run rust code on a circuit playground classic / atmega32u4](https://zoe.kittycat.homes/log/rust_atmega32u4_tutorial)
 * [Hello World in Rust for m68k with #[no_core] and compiler patches](https://iandouglasscott.com/2023/04/12/hello-world-in-rust-for-m68k-with-no-core-and-compiler-patches/)
 * [A syntax-level async join macro supporting branching control flow and synchronous shared mutable borrowing](https://wishawa.github.io/posts/enjoin/)
-
-* [CN] [Zino's implementation of an error type with tracing functionalities using 100 lines of code](https://zhuanlan.zhihu.com/p/621839043)
-
 * [Build a Lua Interpreter in Rust (English version)](https://wubingzheng.github.io/build-lua-in-rust/en/)
-
-### Research
+* [CN] [Zino's implementation of an error type with tracing functionalities using 100 lines of code](https://zhuanlan.zhihu.com/p/621839043)
 
 ### Miscellaneous
 * [Introducing Shuttle Batch 2.0](https://www.shuttle.rs/blog/2023/04/14/Shuttle-Batch-2)
 * [The Rust Foundation's draft trademark policy is far too restrictive](https://diziet.dreamwidth.org/14929.html)
-* [Rust Trademark: Argle-bargle or Foofaraw?](https://www.youtube.com/watch?v=N-ADQ5n7HoY)
+* [video] [Rust Trademark: Argle-bargle or Foofaraw?](https://www.youtube.com/watch?v=N-ADQ5n7HoY)
 
 ## Crate of the Week
 
@@ -340,7 +332,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/11naac9/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -356,4 +348,4 @@ Thanks to [Anton Fetisov](https://users.rust-lang.org/t/twir-quote-of-the-week/3
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/12sgmyq/this_week_in_rust_491/)</small>
