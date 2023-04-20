@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 * [Optional If Expressions](https://animaomnium.github.io/optional-if-expressions/)
 * [Building a GStreamer plugin in Rust with meson instead of cargo](https://coaxion.net/blog/2023/04/building-a-gstreamer-plugin-in-rust-with-meson-instead-of-cargo/)
 * [Rutie and Magnus, Two Good Ways to Build Ruby Extensions in Rust](https://www.hezmatt.org/~mpalmer/blog/2023/04/18/rutie-magnus-rust-extensions-for-ruby.html)
+* [Two Rust features that I miss in Other languages](https://dev.to/yjdoc2/two-rust-features-that-i-miss-in-other-languages-7ec)
 * [audio] [Rust Analyzer with Lukas Wirth](https://rustacean-station.org/episode/lukas-wirth/)
 * [audio] [Wasmer with Syrus Akbary](https://rustacean-station.org/episode/syrus-akbary/)
 
