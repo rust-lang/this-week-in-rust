@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [Changelog #176](https://rust-analyzer.github.io/thisweek/2023/04/10/changelog-176.html)
+* [rust-analyzer changelog #176](https://rust-analyzer.github.io/thisweek/2023/04/10/changelog-176.html)
 * [New in IntelliJ Rust for 2023.1 (Part 1)](https://blog.jetbrains.com/rust/2023/04/11/new-in-intellij-rust-for-2023-1-part-1/)
 * [IntelliJ Rust Changelog #192](https://intellij-rust.github.io/2023/04/11/changelog-192.html)
 * [sequence_align: an open-source Python + Rust toolkit for efficient sequence alignment](https://blog.kensho.com/introducing-sequence-align-an-open-source-python-rust-toolkit-for-efficient-sequence-alignment-ccdce71d04c7)
