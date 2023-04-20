@@ -40,16 +40,15 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #177](https://rust-analyzer.github.io/thisweek/2023/04/17/changelog-177.html)
 
 ### Observations/Thoughts
+* [Improving build times for derive macros by 3x or more](https://blog.kodewerx.org/2023/04/improving-build-times-for-derive-macros.html)
 * [Oxidizing bmap-tools: rewriting a Python project in Rust](https://www.collabora.com/news-and-blog/blog/2023/03/03/oxidizing-bmap-tools-rewriting-a-python-project-in-rust/)
 * [Rust: A New Attempt at C++'s Main Goal](https://www.thecodedmessage.com/posts/rust-new-cpp/)
 * [Traits are more than interfaces](https://felix-knorr.net/posts/2023-04-17-traits.html)
 * [Optional If Expressions](https://animaomnium.github.io/optional-if-expressions/)
+* [Building a GStreamer plugin in Rust with meson instead of cargo](https://coaxion.net/blog/2023/04/building-a-gstreamer-plugin-in-rust-with-meson-instead-of-cargo/)
+* [Rutie and Magnus, Two Good Ways to Build Ruby Extensions in Rust](https://www.hezmatt.org/~mpalmer/blog/2023/04/18/rutie-magnus-rust-extensions-for-ruby.html)
 * [audio] [Rust Analyzer with Lukas Wirth](https://rustacean-station.org/episode/lukas-wirth/)
 * [audio] [Wasmer with Syrus Akbary](https://rustacean-station.org/episode/syrus-akbary/)
-
-* [Building a GStreamer plugin in Rust with meson instead of cargo](https://coaxion.net/blog/2023/04/building-a-gstreamer-plugin-in-rust-with-meson-instead-of-cargo/)
-
-* [Rutie and Magnus, Two Good Ways to Build Ruby Extensions in Rust](https://www.hezmatt.org/~mpalmer/blog/2023/04/18/rutie-magnus-rust-extensions-for-ruby.html)
 
 ### Rust Walkthroughs
 * [Understanding Rust Thread Safety](https://onesignal.com/blog/thread-safety-rust/)
