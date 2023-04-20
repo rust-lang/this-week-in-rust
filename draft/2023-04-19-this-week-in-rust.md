@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 * [Building a GStreamer plugin in Rust with meson instead of cargo](https://coaxion.net/blog/2023/04/building-a-gstreamer-plugin-in-rust-with-meson-instead-of-cargo/)
 
+* [Rutie and Magnus, Two Good Ways to Build Ruby Extensions in Rust](https://www.hezmatt.org/~mpalmer/blog/2023/04/18/rutie-magnus-rust-extensions-for-ruby.html)
+
 ### Rust Walkthroughs
 * [Understanding Rust Thread Safety](https://onesignal.com/blog/thread-safety-rust/)
 * [how to run rust code on a circuit playground classic / atmega32u4](https://zoe.kittycat.homes/log/rust_atmega32u4_tutorial)
