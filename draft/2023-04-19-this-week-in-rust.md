@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 * [Hello World in Rust for m68k with #[no_core] and compiler patches](https://iandouglasscott.com/2023/04/12/hello-world-in-rust-for-m68k-with-no-core-and-compiler-patches/)
 * [A syntax-level async join macro supporting branching control flow and synchronous shared mutable borrowing](https://wishawa.github.io/posts/enjoin/)
 
+* [CN] [Zino's implementation of an error type with tracing functionalities using 100 lines of code](https://zhuanlan.zhihu.com/p/621839043)
+
 ### Research
 
 ### Miscellaneous
