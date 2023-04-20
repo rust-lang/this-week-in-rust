@@ -37,13 +37,12 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-* [The Rust Foundation's draft trademark policy is far too restrictive](https://diziet.dreamwidth.org/14929.html)
-
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [The Rust Foundation's draft trademark policy is far too restrictive](https://diziet.dreamwidth.org/14929.html)
 
 ## Crate of the Week
 
