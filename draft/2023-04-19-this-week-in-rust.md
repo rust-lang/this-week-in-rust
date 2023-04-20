@@ -65,7 +65,6 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Introducing Shuttle Batch 2.0](https://www.shuttle.rs/blog/2023/04/14/Shuttle-Batch-2)
-* [The Rust Foundation's draft trademark policy is far too restrictive](https://diziet.dreamwidth.org/14929.html)
 * [Rust Trademark: Argle-bargle or Foofaraw?](https://www.youtube.com/watch?v=N-ADQ5n7HoY)
 
 ## Crate of the Week
@@ -272,6 +271,11 @@ Rusty Events between 2023-04-19 - 2023-05-17 🦀
     * [**Rust Atomics and Locks Book Club Chapter 2**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/292847157/)
 * 2023-05-17 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/lqkkctyfchbwb/)
+
+### Asia
+
+* 2023-05-06 | Kyoto, JP | [Kansai Rust](https://www.meetup.com/kansai-rust/)
+   * [**Rust Talk: Vec, arrays, and slices**](https://www.meetup.com/kansai-rust/events/293010553/)
 
 ### Europe
 
