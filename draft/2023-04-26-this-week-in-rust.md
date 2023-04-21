@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [r3bl_tui v0.3.3 TUI engine released](https://crates.io/crates/r3bl_tui)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
