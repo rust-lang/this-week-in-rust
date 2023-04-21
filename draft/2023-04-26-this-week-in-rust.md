@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [GBA From Scratch: A Basic Executable](https://lokathor.github.io/gba-from-scratch/ex1.html)
 
 ### Research
 
