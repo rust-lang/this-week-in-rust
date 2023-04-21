@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [A blog article and project demonstrating GitHub actions in Rust](https://blog.ngerakines.me/posts/github-actions-in-rust/)
 
 ### Research
 
