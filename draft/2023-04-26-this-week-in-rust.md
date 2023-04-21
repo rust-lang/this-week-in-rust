@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Guide to Rust procedural macros](https://developerlife.com/2022/03/30/rust-proc-macro/)
+
 ### Research
 
 ### Miscellaneous
