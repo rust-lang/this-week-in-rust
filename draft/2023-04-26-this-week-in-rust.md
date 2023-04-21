@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Rust + Embedded: A Development Power Duo](https://blog.espressif.com/rust-embedded-a-development-power-duo-db43dae21206)
 
 ### Research
 
