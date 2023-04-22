@@ -34,6 +34,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [video] [Rust Releases! Rust 1.69.0](https://youtu.be/uun_9A3eaGM)
+
 
 ### Observations/Thoughts
 
