@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Integrating the Rust Axum Framework with Cloudflare Workers](https://logankeenan.com/posts/rust-axum-and-cloudflare-workers/)
 
 ### Research
 
