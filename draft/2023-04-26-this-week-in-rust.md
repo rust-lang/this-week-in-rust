@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Can the Rust type system prevent deadlocks?](https://medium.com/@adetaylor/9ae6e4123037)
+
 ### Rust Walkthroughs
 
 ### Research
