@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [system-deps](https://crates.io/crates/system-deps), a crate that will compile your pkg-config-based dependencies for you.
+
+Thanks to [Aleksey Kladov](https://users.rust-lang.org/t/crate-of-the-week/2704/1191) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -67,7 +69,89 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+411 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-04-17..2023-04-24
+
+* [add support for the `x86_64h-apple-darwin` target](https://github.com/rust-lang/rust/pull/108795)
+* [support AIX-style archive type](https://github.com/rust-lang/rust/pull/106704)
+* [`assume` value ranges in `transmute`](https://github.com/rust-lang/rust/pull/109993)
+* [`rustc_metadata`: Remove `Span` from `ModChild`](https://github.com/rust-lang/rust/pull/109772)
+* [add suggestion to use closure argument instead of a capture on borrowck error](https://github.com/rust-lang/rust/pull/110061)
+* [deduplicate unreachable blocks, for real this time](https://github.com/rust-lang/rust/pull/110569)
+* [delay a good path bug on drop for `TypeErrCtxt` (instead of a regular delayed bug)](https://github.com/rust-lang/rust/pull/110476)
+* [ensure `mir_drops_elaborated_and_const_checked` when requiring codegen](https://github.com/rust-lang/rust/pull/110107)
+* [fix ICE for transmutability in candidate assembly](https://github.com/rust-lang/rust/pull/110510)
+* [fix lint regression in `non_upper_case_globals`](https://github.com/rust-lang/rust/pull/110575)
+* [fix printing native CPU on cross-compiled compiler](https://github.com/rust-lang/rust/pull/110668)
+* [make `impl Debug for Span` not panic on not having session globals](https://github.com/rust-lang/rust/pull/110548)
+* [make `non_upper_case_globals` lint not report trait impls](https://github.com/rust-lang/rust/pull/110513)
+* [make sysroot finding compatible with multiarch systems](https://github.com/rust-lang/rust/pull/110281)
+* [missing blanket impl trait not public](https://github.com/rust-lang/rust/pull/110533)
+* [normalize types and consts in MIR opts](https://github.com/rust-lang/rust/pull/110714)
+* [panic instead of truncating if the incremental on-disk cache is too big](https://github.com/rust-lang/rust/pull/110632)
+* [report allocation errors as panics](https://github.com/rust-lang/rust/pull/109507)
+* [report more detailed reason why `Index` impl is not satisfied](https://github.com/rust-lang/rust/pull/110432)
+* [set commit information environment variables when building tools](https://github.com/rust-lang/rust/pull/109981)
+* [substitute missing trait items suggestion correctly](https://github.com/rust-lang/rust/pull/110555)
+* [suggest using integration tests for test crate using own proc-macro](https://github.com/rust-lang/rust/pull/110255)
+* [track if EvalCtxt has been tainted, make sure it can't be used to make query responses after](https://github.com/rust-lang/rust/pull/110618)
+* [miri: add minimum alignment support for loongarch64](https://github.com/rust-lang/miri/pull/2852)
+* [miri: disable preemption in tokio tests again](https://github.com/rust-lang/miri/pull/2848)
+* [miri: remove a test that wasn't carrying its weight](https://github.com/rust-lang/miri/pull/2846)
+* [don't transmute `&List<GenericArg> <-> &List<Ty>`](https://github.com/rust-lang/rust/pull/110496)
+* [enable flatten-format-args by default](https://github.com/rust-lang/rust/pull/109999)
+* [rm const traits in libcore](https://github.com/rust-lang/rust/pull/110393)
+* [remove the size of locals heuristic in MIR inlining](https://github.com/rust-lang/rust/pull/110705)
+* [don't allocate on SimplifyCfg/Locals/Const on every MIR pass](https://github.com/rust-lang/rust/pull/110477)
+* [allow to feed a value in another query's cache and remove `WithOptConstParam`](https://github.com/rust-lang/rust/pull/96840)
+* [implement `StableHasher::write_u128` via `write_u64`](https://github.com/rust-lang/rust/pull/110410)
+* [in `LexicalResolver`, don't construct graph unless necessary](https://github.com/rust-lang/rust/pull/110527)
+* [turn on ConstDebugInfo pass](https://github.com/rust-lang/rust/pull/107404)
+* [run various queries from other queries instead of explicitly in phases](https://github.com/rust-lang/rust/pull/108118)
+* [add `intrinsics::transmute_unchecked`](https://github.com/rust-lang/rust/pull/110706)
+* [add `offset_of!` macro ](https://github.com/rust-lang/rust/pull/106934) (RFC [#3308](https://rust-lang.github.io/rfcs/3308-offset_of.html))
+* [limit read size in `File::read_to_end` loop](https://github.com/rust-lang/rust/pull/110655)
+* [specialize some `io::Read` and `io::Write` methods for `VecDeque<u8>` and `&[u8]`](https://github.com/rust-lang/rust/pull/110608)
+* [implement `Neg` for signed non-zero integers](https://github.com/rust-lang/rust/pull/102341)
+* [hashbrown: change key to return `&K` rather than `&Q`](https://github.com/rust-lang/hashbrown/pull/425)
+* [hashbrown: relax the trait bounds of `HashSet::raw_table{,_mut}`](https://github.com/rust-lang/hashbrown/pull/423)
+* [regex: fix prefix literal matching bug](https://github.com/rust-lang/regex/pull/984)
+* [portable-simd: lane → element for `core::simd::Simd`](https://github.com/rust-lang/portable-simd/pull/338)
+* [portable-simd: implement dynamic byte-swizzle prototype](https://github.com/rust-lang/portable-simd/pull/334)
+* [cargo: add the `Win32_System_Console` feature since it is used](https://github.com/rust-lang/cargo/pull/12016)
+* [cargo: allow named debuginfo options in Cargo.toml](https://github.com/rust-lang/cargo/pull/11958)
+* [cargo: better error message when getting an empty dep table](https://github.com/rust-lang/cargo/pull/11997)
+* [cargo: fix: allow win/mac credential managers to build on all platforms](https://github.com/rust-lang/cargo/pull/11993)
+* [cargo: improve error message for empty dep](https://github.com/rust-lang/cargo/pull/12001)
+* [clippy: `arithmetic_side_effects` cache symbols](https://github.com/rust-lang/rust-clippy/pull/10675)
+* [clippy: `arithmetic_side_effects` detect integer methods that can introduce side effects](https://github.com/rust-lang/rust-clippy/pull/10615)
+* [clippy: add `items_after_test_module` lint](https://github.com/rust-lang/rust-clippy/pull/10578)
+* [clippy: add size-parameter to `unecessary_box_returns`](https://github.com/rust-lang/rust-clippy/pull/10651)
+* [clippy: bugfix: ignore `impl Trait`(s) @ `let_underscore_untyped`](https://github.com/rust-lang/rust-clippy/pull/10701)
+* [clippy: check for `..` pattern in `redundant_pattern_matching`](https://github.com/rust-lang/rust-clippy/pull/10707)
+* [clippy: don't suggest `suboptimal_flops` unavailable in nostd](https://github.com/rust-lang/rust-clippy/pull/10670)
+* [clippy: fix `#[allow(clippy::enum_variant_names)]` directly on variants](https://github.com/rust-lang/rust-clippy/pull/10696)
+* [clippy: fix false positive in `allow_attributes`](https://github.com/rust-lang/rust-clippy/pull/10683)
+* [clippy: ignore `manual_slice_size_calculation` in code from macro expansions](https://github.com/rust-lang/rust-clippy/pull/10667)
+* [clippy: ignore `shadow` warns in code from macro expansions](https://github.com/rust-lang/rust-clippy/pull/10697)
+* [clippy: make `len_zero` lint not spanning over parenthesis](https://github.com/rust-lang/rust-clippy/pull/10681)
+* [clippy: new lint: detect `if` expressions with simple boolean assignments to the same target](https://github.com/rust-lang/rust-clippy/pull/10432)
+* [clippy: suppress the triggering of some lints in derived structures](https://github.com/rust-lang/rust-clippy/pull/10203)
+* [rust-analyzer: add `#[doc(alias(..))]`-based field and function completions](https://github.com/rust-lang/rust-analyzer/pull/14513)
+* [rust-analyzer: don't wavy-underline the whole for loop](https://github.com/rust-lang/rust-analyzer/pull/14644)
+* [rust-analyzer: `editor.parameterHints.enabled` not always being respected](https://github.com/rust-lang/rust-analyzer/pull/14618)
+* [rust-analyzer: deduplicate passed workspaces by top level cargo workspace they belong to](https://github.com/rust-lang/rust-analyzer/pull/14603)
+* [rust-analyzer: fix need-mut large span in closures and a false positive](https://github.com/rust-lang/rust-analyzer/pull/14619)
+* [rust-analyzer: fix panic in const eval and parameter destructing](https://github.com/rust-lang/rust-analyzer/pull/14643)
+* [rust-analyzer: fix pat fragment handling in 2021 edition](https://github.com/rust-lang/rust-analyzer/pull/14652)
+* [rust-analyzer: mbe: fix token conversion for doc comments](https://github.com/rust-lang/rust-analyzer/pull/14625)
+* [rust-analyzer: remove extra argument "rustc"](https://github.com/rust-lang/rust-analyzer/pull/14647)
+* [rust-analyzer: report remaining macro errors in assoc item collection](https://github.com/rust-lang/rust-analyzer/pull/14634)
+* [rust-analyzer: resolve `$crate` in derive paths](https://github.com/rust-lang/rust-analyzer/pull/14610)
+* [rust-analyzer: register obligations during path inference](https://github.com/rust-lang/rust-analyzer/pull/14641)
+* [rust-analyzer: simple fix for `make::impl_trait`](https://github.com/rust-lang/rust-analyzer/pull/14621)
+* [rust-analyzer: specify `--pre-release` when publishing vsce nightly](https://github.com/rust-lang/rust-analyzer/pull/14648)
 
 ### Rust Compiler Performance Triage
 
@@ -150,7 +234,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> That said, I really like the language. It’s as if someone set out to design a programming language, and just picked all the right answers. Great ecosystem, flawless cross platform, built-in build tools, no “magic”, static binaries, performance-focused, built-in concurrency checks. Maybe these “correct” choices are just laser-targeted at my soul, but in my experience, once you leap over the initial hurdles, it all just works™️, without much fanfare.
+
+– [John Austin on his blog]()
+
+Thanks to [Ivan Tham](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1408) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
