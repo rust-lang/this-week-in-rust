@@ -71,7 +71,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A week mostly dominated by noise, in particular a persistent bimodality in
+keccak and cranelift-codegen. No significant changes outside of that, a
+relatively equal mix of regressions and improvements. Most of the bimodality
+has been removed in the full report as it's just noise.
+
+Triage done by **@simulacrum**.
+Revision range: [74864fa..fdeef3e](https://perf.rust-lang.org/?start=74864fa496997a6498e623f0d2019ccb7eb6dad0&end=fdeef3ed1809aa9bd4ea9ff0fad92010c6de669c&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 6 Improvements, 5 Mixed; 1 of them in rollups
+60 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-04-25.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
