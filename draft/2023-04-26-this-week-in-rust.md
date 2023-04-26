@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Bringing Memory Safety to sudo and su](https://www.memorysafety.org/blog/sudo-and-su/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
