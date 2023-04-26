@@ -3,13 +3,13 @@ Number: 492
 Date: 2023-04-26
 Category: This Week in Rust
 
-Hello and welcome to another issue of *This Week in Rust*!
+Hello and welcome to another issue of _This Week in Rust_!
 [Rust](https://www.rust-lang.org/) is a programming language empowering everyone to build reliable and efficient software.
 This is a weekly summary of its progress and community.
 Want something mentioned? Tag us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) on Twitter or [@ThisWeekinRust](https://mastodon.social/@thisweekinrust) on mastodon.social, or [send us a pull request](https://github.com/rust-lang/this-week-in-rust).
 Want to get involved? [We love contributions](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md).
 
-*This Week in Rust* is openly developed [on GitHub](https://github.com/rust-lang/this-week-in-rust).
+_This Week in Rust_ is openly developed [on GitHub](https://github.com/rust-lang/this-week-in-rust).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
 ## Updates from Rust Community
@@ -36,6 +36,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+
+- [Why is Rust programming language so popular?](https://codilime.com/blog/why-is-rust-programming-language-so-popular/)
 
 ### Rust Walkthroughs
 
@@ -106,8 +108,9 @@ which are reaching a decision. Express your opinions now.
 <!-- * [new|updated] []() -->
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+
 An important step for RFC implementation is for people to experiment with the
-implementation and give feedback, especially before stabilization.  The following
+implementation and give feedback, especially before stabilization. The following
 RFCs would benefit from user testing before moving forward:
 
 <!-- Calls for Testing go here, use this format:
@@ -136,6 +139,7 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 ## Jobs
+
 <!--
 
 Rust Jobs:
@@ -154,8 +158,8 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
-*This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), [cdmistman](https://github.com/cdmistman), [ericseppanen](https://github.com/ericseppanen), [extrawurst](https://github.com/extrawurst), [andrewpollack](https://github.com/andrewpollack), [U007D](https://github.com/U007D), [kolharsam](https://github.com/kolharsam), [joelmarcey](https://github.com/joelmarcey), [mariannegoldin](https://github.com/mariannegoldin), [bennyvasquez](https://github.com/bennyvasquez).*
+_This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), [cdmistman](https://github.com/cdmistman), [ericseppanen](https://github.com/ericseppanen), [extrawurst](https://github.com/extrawurst), [andrewpollack](https://github.com/andrewpollack), [U007D](https://github.com/U007D), [kolharsam](https://github.com/kolharsam), [joelmarcey](https://github.com/joelmarcey), [mariannegoldin](https://github.com/mariannegoldin), [bennyvasquez](https://github.com/bennyvasquez)._
 
-*Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
+_Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)_
 
 <small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
