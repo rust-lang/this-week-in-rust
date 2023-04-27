@@ -31,7 +31,7 @@ and just ask the editors to select the category.
 * [Announcing Rust 1.69.0 | Rust Blog](https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html)
 
 ### Project/Tooling Updates
-* [Changelog #178](https://rust-analyzer.github.io/thisweek/2023/04/24/changelog-178.html)
+* [rust-analyzer changelog #178](https://rust-analyzer.github.io/thisweek/2023/04/24/changelog-178.html)
 * [`regex` 1.8.0 release notes](https://github.com/rust-lang/regex/blob/master/CHANGELOG.md#180-2023-04-20)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Where We've Been, Where We're Going](https://www.fornjot.app/blog/weekly-release/2023-w17/)
 * [pavex, a new Rust web framework - Progress report #3](https://www.lpalmieri.com/posts/pavex-progress-report-03/)
