@@ -40,9 +40,9 @@ and just ask the editors to select the category.
 * [Changelog #178](https://rust-analyzer.github.io/thisweek/2023/04/24/changelog-178.html)
 * [`regex` 1.8.0 release notes](https://github.com/rust-lang/regex/blob/master/CHANGELOG.md#180-2023-04-20)
 * [r3bl_tui v0.3.3 TUI engine released](https://crates.io/crates/r3bl_tui)
+* [Autometrics 0.4: Spot commits that introduce errors or slow down your application](https://fiberplane.com/blog/autometrics-rs-0-4-spot-commits-that-introduce-errors-or-slow-down-your-application)
+* [Rust Search Extension v1.11.0 has been released](https://rust.extension.sh/changelog/#v1-11-0-2023-04-22)
 * [video] [Rust Releases! Rust 1.69.0](https://youtu.be/uun_9A3eaGM)
-
-- [Rust Search Extension v1.11.0 has been released](https://rust.extension.sh/changelog/#v1-11-0-2023-04-22)
 
 ### Observations/Thoughts
 * [Is Rust a worthy contender for web development?](https://joshmo.hashnode.dev/can-rust-beat-javascript-in-2023)
