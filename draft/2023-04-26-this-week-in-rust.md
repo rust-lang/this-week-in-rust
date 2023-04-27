@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Where We've Been, Where We're Going](https://www.fornjot.app/blog/weekly-release/2023-w17/)
 * [pavex, a new Rust web framework - Progress report #3](https://www.lpalmieri.com/posts/pavex-progress-report-03/)
 * [r3bl_tui v0.3.3 TUI engine released](https://crates.io/crates/r3bl_tui)
+* [Autometrics 0.4: Spot commits that introduce errors or slow down your application](https://fiberplane.com/blog/autometrics-rs-0-4-spot-commits-that-introduce-errors-or-slow-down-your-application)
 * [Rust Search Extension v1.11.0 has been released](https://rust.extension.sh/changelog/#v1-11-0-2023-04-22)
 * [video] [Rust Releases! Rust 1.69.0](https://youtu.be/uun_9A3eaGM)
 
@@ -50,6 +51,8 @@ and just ask the editors to select the category.
 * [video] [Embeddable Rust](https://www.electronicdesign.com/technologies/embedded/software/video/21263235/electronic-design-embeddable-rust)
 
 * [Can the Rust type system prevent deadlocks?](https://medium.com/@adetaylor/9ae6e4123037)
+
+- [Why is Rust programming language so popular?](https://codilime.com/blog/why-is-rust-programming-language-so-popular/)
 
 ### Rust Walkthroughs
 * [Guide to Rust procedural macros](https://developerlife.com/2022/03/30/rust-proc-macro/)
@@ -66,7 +69,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-
+* [Bringing Memory Safety to sudo and su](https://www.memorysafety.org/blog/sudo-and-su/)
 * [Console #154 - An Interview with Giuliano of Sniffnet - Rust app to easily monitor network traffic](https://console.substack.com/p/console-154#§sniffnet)
 * [DE] [Programmiersprache: Rust Foundation überarbeitet Trademark-Entwurf](https://www.heise.de/news/Programmiersprache-Rust-Foundation-ueberarbeitet-Trademark-Entwurf-8969427.html)
 
