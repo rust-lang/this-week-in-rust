@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 * [r3bl_tui v0.3.3 TUI engine released](https://crates.io/crates/r3bl_tui)
 * [video] [Rust Releases! Rust 1.69.0](https://youtu.be/uun_9A3eaGM)
 
+- [Rust Search Extension v1.11.0 has been released](https://rust.extension.sh/changelog/#v1-11-0-2023-04-22)
+
 ### Observations/Thoughts
 * [Is Rust a worthy contender for web development?](https://joshmo.hashnode.dev/can-rust-beat-javascript-in-2023)
 * [Bringing runtime checks to compile time in Rust](https://ktkaufman03.github.io/blog/2023/04/20/rust-compile-time-checks/)
