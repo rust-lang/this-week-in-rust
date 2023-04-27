@@ -36,7 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [pavex, a new Rust web framework - Progress report #3](https://www.lpalmieri.com/posts/pavex-progress-report-03/)
 * [Changelog #178](https://rust-analyzer.github.io/thisweek/2023/04/24/changelog-178.html)
 * [`regex` 1.8.0 release notes](https://github.com/rust-lang/regex/blob/master/CHANGELOG.md#180-2023-04-20)
 
