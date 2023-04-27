@@ -327,7 +327,7 @@ Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/r
 
 > That said, I really like the language. It’s as if someone set out to design a programming language, and just picked all the right answers. Great ecosystem, flawless cross platform, built-in build tools, no “magic”, static binaries, performance-focused, built-in concurrency checks. Maybe these “correct” choices are just laser-targeted at my soul, but in my experience, once you leap over the initial hurdles, it all just works™️, without much fanfare.
 
-– [John Austin on his blog]()
+– [John Austin on his blog](https://johnaustin.io/articles/2022/blazing-fast-structural-search-for-c-sharp-in-rust)
 
 Thanks to [Ivan Tham](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1408) for the suggestion!
 
