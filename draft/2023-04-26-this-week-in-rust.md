@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 * [Bringing runtime checks to compile time in Rust](https://ktkaufman03.github.io/blog/2023/04/20/rust-compile-time-checks/)
 * [video] [Embeddable Rust](https://www.electronicdesign.com/technologies/embedded/software/video/21263235/electronic-design-embeddable-rust)
 
+* [Can the Rust type system prevent deadlocks?](https://medium.com/@adetaylor/9ae6e4123037)
+
 ### Rust Walkthroughs
 * [Guide to Rust procedural macros](https://developerlife.com/2022/03/30/rust-proc-macro/)
 * [Rust + Embedded: A Development Power Duo](https://blog.espressif.com/rust-embedded-a-development-power-duo-db43dae21206)
