@@ -39,11 +39,10 @@ and just ask the editors to select the category.
 * [pavex, a new Rust web framework - Progress report #3](https://www.lpalmieri.com/posts/pavex-progress-report-03/)
 * [Changelog #178](https://rust-analyzer.github.io/thisweek/2023/04/24/changelog-178.html)
 * [`regex` 1.8.0 release notes](https://github.com/rust-lang/regex/blob/master/CHANGELOG.md#180-2023-04-20)
-
 * [r3bl_tui v0.3.3 TUI engine released](https://crates.io/crates/r3bl_tui)
+* [video] [Rust Releases! Rust 1.69.0](https://youtu.be/uun_9A3eaGM)
 
 ### Observations/Thoughts
-
 * [Is Rust a worthy contender for web development?](https://joshmo.hashnode.dev/can-rust-beat-javascript-in-2023)
 * [Bringing runtime checks to compile time in Rust](https://ktkaufman03.github.io/blog/2023/04/20/rust-compile-time-checks/)
 * [video] [Embeddable Rust](https://www.electronicdesign.com/technologies/embedded/software/video/21263235/electronic-design-embeddable-rust)
