@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 * [Can the Rust type system prevent deadlocks?](https://medium.com/@adetaylor/9ae6e4123037)
 
+- [Why is Rust programming language so popular?](https://codilime.com/blog/why-is-rust-programming-language-so-popular/)
+
 ### Rust Walkthroughs
 * [Guide to Rust procedural macros](https://developerlife.com/2022/03/30/rust-proc-macro/)
 * [Rust + Embedded: A Development Power Duo](https://blog.espressif.com/rust-embedded-a-development-power-duo-db43dae21206)
