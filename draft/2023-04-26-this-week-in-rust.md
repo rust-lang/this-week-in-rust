@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 * [Changelog #178](https://rust-analyzer.github.io/thisweek/2023/04/24/changelog-178.html)
 * [`regex` 1.8.0 release notes](https://github.com/rust-lang/regex/blob/master/CHANGELOG.md#180-2023-04-20)
 
+* [r3bl_tui v0.3.3 TUI engine released](https://crates.io/crates/r3bl_tui)
+
 ### Observations/Thoughts
 
 * [Is Rust a worthy contender for web development?](https://joshmo.hashnode.dev/can-rust-beat-javascript-in-2023)
