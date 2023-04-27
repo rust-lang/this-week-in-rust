@@ -28,12 +28,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
 * [Announcing Rust 1.69.0 | Rust Blog](https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html)
-
-### Foundation
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [Changelog #178](https://rust-analyzer.github.io/thisweek/2023/04/24/changelog-178.html)
@@ -48,11 +43,9 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [Is Rust a worthy contender for web development?](https://joshmo.hashnode.dev/can-rust-beat-javascript-in-2023)
 * [Bringing runtime checks to compile time in Rust](https://ktkaufman03.github.io/blog/2023/04/20/rust-compile-time-checks/)
-* [video] [Embeddable Rust](https://www.electronicdesign.com/technologies/embedded/software/video/21263235/electronic-design-embeddable-rust)
-
 * [Can the Rust type system prevent deadlocks?](https://medium.com/@adetaylor/9ae6e4123037)
-
-- [Why is Rust programming language so popular?](https://codilime.com/blog/why-is-rust-programming-language-so-popular/)
+* [Why is Rust programming language so popular?](https://codilime.com/blog/why-is-rust-programming-language-so-popular/)
+* [video] [Embeddable Rust](https://www.electronicdesign.com/technologies/embedded/software/video/21263235/electronic-design-embeddable-rust)
 
 ### Rust Walkthroughs
 * [Guide to Rust procedural macros](https://developerlife.com/2022/03/30/rust-proc-macro/)
@@ -65,8 +58,6 @@ and just ask the editors to select the category.
 * [ESP32 Embedded Rust at the HAL: GPIO Button Controlled Blinking](https://apollolabsblog.hashnode.dev/esp32-embedded-rust-at-the-hal-gpio-button-controlled-blinking?ref=twitter-share)
 * [GBA From Scratch: A Basic Executable](https://lokathor.github.io/gba-from-scratch/ex1.html)
 * [video] [A Practical Introduction to Declarative Macros in Rust](https://www.youtube.com/watch?v=dHv8FhcAl5U)
-
-### Research
 
 ### Miscellaneous
 * [Bringing Memory Safety to sudo and su](https://www.memorysafety.org/blog/sudo-and-su/)
@@ -330,7 +321,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/12tehic/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
