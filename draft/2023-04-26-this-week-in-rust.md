@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 * [video] [Embeddable Rust](https://www.electronicdesign.com/technologies/embedded/software/video/21263235/electronic-design-embeddable-rust)
 
 ### Rust Walkthroughs
+* [A blog article and project demonstrating GitHub actions in Rust](https://blog.ngerakines.me/posts/github-actions-in-rust/)
 
 * [Foresterre's place | Using the todo! macro to prototype your API in Rust](https://foresterre.github.io/posts/todo-macro-rust/)
 * [Generics and Const Generics in Rust](https://sanjuvi.github.io/Blog/posts/Rust%20Generics/)
