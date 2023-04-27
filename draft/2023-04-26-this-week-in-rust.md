@@ -58,12 +58,15 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 * [Hyperswitch - add `upsert` endpoint to `cards_info` table](https://github.com/juspay/hyperswitch/issues/994)
 * [Hyperswitch - add a route that will invalidate cache](https://github.com/juspay/hyperswitch/issues/995)
 * [Hyperswitch - Implement `ApiKeyInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/996)
 * [Hyperswitch - Implement `ConfigInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/997)
-<!-- * [ - ]() -->
+* [velo - Add ability to switch canvas background - Issue #22 - StaffEngineer/velo - GitHub 3](https://github.com/StaffEngineer/velo/issues/22)
+* [velo - Hex color widget - Issue #58 - StaffEngineer/velo - GitHub 1](https://github.com/StaffEngineer/velo/issues/58)
+* [ockam - Update CLI documentation for `secure-channel-listener` commands 1](https://github.com/build-trust/ockam/issues/4774)
+* [ockam - Update CLI documentation for `identity` commands](https://github.com/build-trust/ockam/issues/4777)
+* [ockam - Refactor auto-reconnect replacer 1](https://github.com/build-trust/ockam/issues/4789)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
