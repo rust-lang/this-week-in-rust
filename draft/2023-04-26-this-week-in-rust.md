@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 * [GBA From Scratch: A Basic Executable](https://lokathor.github.io/gba-from-scratch/ex1.html)
 * [video] [A Practical Introduction to Declarative Macros in Rust](https://www.youtube.com/watch?v=dHv8FhcAl5U)
 
+- [Guide to Rust procedural macros](https://developerlife.com/2022/03/30/rust-proc-macro/)
+
 ### Research
 
 ### Miscellaneous
