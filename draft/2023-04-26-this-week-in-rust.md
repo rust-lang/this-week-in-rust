@@ -29,19 +29,37 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Announcing Rust 1.69.0 | Rust Blog](https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html)
+
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
 
+* [Changelog #178](https://rust-analyzer.github.io/thisweek/2023/04/24/changelog-178.html)
+* [`regex` 1.8.0 release notes](https://github.com/rust-lang/regex/blob/master/CHANGELOG.md#180-2023-04-20)
+
 ### Observations/Thoughts
 
+* [Is Rust a worthy contender for web development?](https://joshmo.hashnode.dev/can-rust-beat-javascript-in-2023)
+* [Bringing runtime checks to compile time in Rust](https://ktkaufman03.github.io/blog/2023/04/20/rust-compile-time-checks/)
+* [video] [Embeddable Rust](https://www.electronicdesign.com/technologies/embedded/software/video/21263235/electronic-design-embeddable-rust)
+
 ### Rust Walkthroughs
+
+* [Foresterre's place | Using the todo! macro to prototype your API in Rust](https://foresterre.github.io/posts/todo-macro-rust/)
+* [Generics and Const Generics in Rust](https://sanjuvi.github.io/Blog/posts/Rust%20Generics/)
+* [Writing an NES emulator: Part 1 - The 6502 CPU](https://analog-hors.github.io/site/pones-p1/)
+* [ESP32 Embedded Rust at the HAL: GPIO Button Controlled Blinking](https://apollolabsblog.hashnode.dev/esp32-embedded-rust-at-the-hal-gpio-button-controlled-blinking?ref=twitter-share)
+* [video] [A Practical Introduction to Declarative Macros in Rust](https://www.youtube.com/watch?v=dHv8FhcAl5U)
 
 ### Research
 
 ### Miscellaneous
+
+* [Console #154 - An Interview with Giuliano of Sniffnet - Rust app to easily monitor network traffic](https://console.substack.com/p/console-154#§sniffnet)
+* [DE] [Programmiersprache: Rust Foundation überarbeitet Trademark-Entwurf](https://www.heise.de/news/Programmiersprache-Rust-Foundation-ueberarbeitet-Trademark-Entwurf-8969427.html)
 
 ## Crate of the Week
 
