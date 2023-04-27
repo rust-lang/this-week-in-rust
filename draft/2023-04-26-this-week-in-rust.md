@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [Generics and Const Generics in Rust](https://sanjuvi.github.io/Blog/posts/Rust%20Generics/)
 * [Writing an NES emulator: Part 1 - The 6502 CPU](https://analog-hors.github.io/site/pones-p1/)
 * [ESP32 Embedded Rust at the HAL: GPIO Button Controlled Blinking](https://apollolabsblog.hashnode.dev/esp32-embedded-rust-at-the-hal-gpio-button-controlled-blinking?ref=twitter-share)
+* [GBA From Scratch: A Basic Executable](https://lokathor.github.io/gba-from-scratch/ex1.html)
 * [video] [A Practical Introduction to Declarative Macros in Rust](https://www.youtube.com/watch?v=dHv8FhcAl5U)
 
 ### Research
