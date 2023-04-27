@@ -68,7 +68,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-
+* [Bringing Memory Safety to sudo and su](https://www.memorysafety.org/blog/sudo-and-su/)
 * [Console #154 - An Interview with Giuliano of Sniffnet - Rust app to easily monitor network traffic](https://console.substack.com/p/console-154#§sniffnet)
 * [DE] [Programmiersprache: Rust Foundation überarbeitet Trademark-Entwurf](https://www.heise.de/news/Programmiersprache-Rust-Foundation-ueberarbeitet-Trademark-Entwurf-8969427.html)
 
