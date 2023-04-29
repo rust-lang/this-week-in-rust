@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [video] [Frontend in Rust with Yew and WebAssembly: Intro and Review](https://www.youtube.com/watch?v=1WHJqz0CHBw)
 
 ### Rust Walkthroughs
 
