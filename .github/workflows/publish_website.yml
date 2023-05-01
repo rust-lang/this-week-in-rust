@@ -1,0 +1,51 @@
+name: Publish Website
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'content/**'
+jobs:
+  Publish-Website:
+    runs-on: ubuntu-20.04
+    env:
+      LANG: en_US.UTF-8
+      LC_ALL: en_US.UTF-8
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v3
+        with:
+          path: "requirements.txt"
+          update-pip: "false"
+          update-setuptools: "false"
+          update-wheel: "false"
+      - name: Setup Node 
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - name: Install dependencies
+        run: |
+          curl https://files.stork-search.net/releases/v1.5.0/stork-ubuntu-20-04 -o stork
+          chmod +x stork
+          sudo mv ./stork /usr/bin/stork
+          sudo npm install -g sass
+          sudo npm install -g juice
+          sudo mv publishing/*.sh ./
+          chmod 777 *.sh
+      - name: Run pelican
+        run: |
+          pelican --delete-output-directory content
+          mkdir launch
+          rsync -razvP --delete --exclude /CNAME --exclude /.git output/ launch/
+      - name: Merge with public site
+        uses: cpina/github-action-push-to-another-repository@v1.5.1
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'launch'
+          destination-github-username: 'rust-lang'
+          destination-repository-name: 'this-week-in-rust.github.io'
+          user-email: andrewpkq@gmail.com
+          target-branch: dev
