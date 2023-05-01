@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v2
         uses: webfactory/ssh-agent@v0.7.0
         with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY_LIVE }}
+          ssh-private-key: ${{ secrets.API_TOKEN_GITHUB }}
       - name: Install Python dependencies
         uses: py-actions/py-dependency-install@v3
         with:
@@ -44,6 +44,7 @@ jobs:
           cd this-week-in-rust.github.io/
           git config --global user.name "Github Bot"
           git add --all
-          git checkout -b `date +"%d-%m-%y"`
+          BRANCH_PUB=`date +"%d-%m-%y"`
+          git checkout -b $BRANCH_PUB
           git commit -m "Pushing current state of TWiR"
-          git push
+          git push origin $BRANCH_PUB
