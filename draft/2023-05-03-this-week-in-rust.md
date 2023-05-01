@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Write code using async/await in Rust](https://developerlife.com/2022/03/12/rust-tokio/)
+
 ### Research
 
 ### Miscellaneous
