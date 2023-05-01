@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [dev-dependencies and Rust's unused_crate_dependencies lint](https://www.hezmatt.org/~mpalmer/blog/2023/04/30/dev-dependencies-and-rusts-unused_crate_dependencies.html)
+
 ### Rust Walkthroughs
 
 ### Research
