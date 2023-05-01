@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-        uses: webfactory/ssh-agent@v0.7.0
+      - uses: webfactory/ssh-agent@v0.7.0
         with:
           ssh-private-key: ${{ secrets.API_TOKEN_GITHUB }}
       - name: Install Python dependencies
