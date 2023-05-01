@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [What is HyperLogLog and how to build yours in Rust](https://www.arunma.com/2023/05/01/build-your-own-hyperloglog/)
+
 ### Research
 
 ### Miscellaneous
