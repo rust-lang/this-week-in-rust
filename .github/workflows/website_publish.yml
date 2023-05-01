@@ -1,0 +1,49 @@
+name: Publish Website
+on:
+  push:
+    paths:
+      - 'content/**'
+jobs:
+  Publish-Website:
+    runs-on: python:3.8.16-slim
+    env:
+      LANG: en_US.UTF-8
+      LC_ALL: en_US.UTF-8
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        uses: webfactory/ssh-agent@v0.7.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY_LIVE }}
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v3
+        with:
+          path: "requirements.txt"
+          update-pip: "false"
+          update-setuptools: "false"
+          update-wheel: "false"
+      - name: Install base dependencies
+        run: |
+          apt install -y curl
+          curl https://files.stork-search.net/releases/v1.5.0/stork-ubuntu-20-04 -o stork
+          chmod +x stork
+          mv ./stork /usr/bin/stork
+          curl -sL https://deb.nodesource.com/setup_14.x | bash -
+          apt-get install -y nodejs
+          npm install -g sass
+          npm install -g juice
+          publishing/*.sh ./
+          chmod 777 *.sh
+      - name: Run pelican
+        run: |
+          pelican --delete-output-directory content
+      - name: Merge with public site
+        run: |
+          git clone git@github.com:andrewpollack/this-week-in-rust.github.io.git
+          rsync -razvP --delete --exclude /CNAME --exclude /.git output/ this-week-in-rust.github.io/
+          cd this-week-in-rust.github.io/
+          git config --global user.name "Github Bot"
+          git add --all
+          git checkout -b `date +"%d-%m-%y"`
+          git commit -m "Pushing current state of TWiR"
+          git push
