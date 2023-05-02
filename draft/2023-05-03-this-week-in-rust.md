@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Efficient indexing with Quickwit Rust actor framework](https://quickwit.io/blog/quickwit-actor-framework)
 
 ### Research
 
