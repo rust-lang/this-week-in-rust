@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Going beyond build.rs: introducing cargo-px](https://www.lpalmieri.com/posts/cargo-px/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
