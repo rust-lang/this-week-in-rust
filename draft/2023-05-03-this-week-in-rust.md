@@ -71,7 +71,16 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week the good outweighed the bad. In particular, we had three different PRs
+that made improvements to a wide range of benchmarks. Special call out to PR
+[#111026](https://github.com/rust-lang/rust/pull/111026),
+which yielded 3% to 8% improvement for incremental compile times on a large set
+of benchmarks, by avoiding unnecessary caching in the type checker.
+
+Triage done by **@pnkfelix**.
+Revision range: [fdeef3ed..a368898d](https://perf.rust-lang.org/?start=fdeef3ed1809aa9bd4ea9ff0fad92010c6de669c&end=a368898de758e1b8def6c9060044a5b40eb79e84&absolute=false&stat=instructions%3Au)
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-05-02.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
