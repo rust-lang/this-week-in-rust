@@ -60,6 +60,8 @@ and just ask the editors to select the category.
 * [audio] [SurrealDB with Tobie and Jamie Morgan](https://rustacean-station.org/episode/tobie-jamie-morgan/)
 * [audio] [Rust Embedded WG with Jonathan Pallant](https://rustacean-station.org/episode/jonathan-pallant/)
 
+* [dev-dependencies and Rust's unused_crate_dependencies lint](https://www.hezmatt.org/~mpalmer/blog/2023/04/30/dev-dependencies-and-rusts-unused_crate_dependencies.html)
+
 ### Rust Walkthroughs
 * [Fast(er) binary search in Rust](https://www.bazhenov.me/posts/faster-binary-search-in-rust/)
 * [Rust allows redeclaring local variables to great benefit](https://ntietz.com/blog/rust-shadowing-idiomatic/)
