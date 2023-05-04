@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [script-macro](https://github.com/untitaker/script-macro), an experimental way of writing simple proc-macros inline.
+
+Thanks you to [Markus Unterwaditzer](https://users.rust-lang.org/t/crate-of-the-week/2704/1192) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -70,7 +72,60 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+390 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-04-24..2023-05-01
+
+* [add loongarch64 asm! support](https://github.com/rust-lang/rust/pull/101069)
+* [clear response values for overflow in new solver](https://github.com/rust-lang/rust/pull/110614)
+* [consider polarity in new solver](https://github.com/rust-lang/rust/pull/110671)
+* [do not resolve anonymous lifetimes in consts to be static](https://github.com/rust-lang/rust/pull/110984)
+* [fix an ICE in conflict error diagnostics](https://github.com/rust-lang/rust/pull/110957)
+* [improve error notes for packed `struct` reference diagnostic](https://github.com/rust-lang/rust/pull/110973)
+* [improve niche placement by trying two strategies and picking the better result](https://github.com/rust-lang/rust/pull/108106)
+* [include source error for LoadLibraryExW](https://github.com/rust-lang/rust/pull/110932)
+* [lower `intrinsics::offset` to `mir::BinOp::Offset`](https://github.com/rust-lang/rust/pull/110822)
+* [make sure that some stdlib method signatures aren't accidental refinements](https://github.com/rust-lang/rust/pull/110958)
+* [only cache typeck results if it's the typeck root](https://github.com/rust-lang/rust/pull/111026)
+* [provide better type hints when a type doesn't support a binary operator](https://github.com/rust-lang/rust/pull/110877)
+* [remove `QueryEngine` trait](https://github.com/rust-lang/rust/pull/109611)
+* [remove inline const deadcode in typeck](https://github.com/rust-lang/rust/pull/110893)
+* [rewrite MemDecoder around pointers not a slice](https://github.com/rust-lang/rust/pull/110634)
+* [share `BinOp::Offset` between CTFE and Miri](https://github.com/rust-lang/rust/pull/110944)
+* [sprinkle some `#[inline]` in `rustc_data_structures::tagged_ptr`](https://github.com/rust-lang/rust/pull/110814)
+* [suggest deref on comparison binop RHS even if type is not Copy](https://github.com/rust-lang/rust/pull/110550)
+* [use MIR's `Offset` for pointer `add` too](https://github.com/rust-lang/rust/pull/110837)
+* [use `?0` notation for ty/ct/int/float/region vars](https://github.com/rust-lang/rust/pull/110811)
+* [miri: fix endianess handling in `eventfd::write`](https://github.com/rust-lang/miri/pull/2857)
+* [miri: hide backtrace from stderr files](https://github.com/rust-lang/miri/pull/2854)
+* [miri: tree Borrows: improved diagnostics](https://github.com/rust-lang/miri/pull/2828)
+* [fix `std` compilation error for wasi+atomics](https://github.com/rust-lang/rust/pull/110587)
+* [make `mem::replace` simpler in codegen](https://github.com/rust-lang/rust/pull/111010)
+* [add `LazyCell::into_inner`](https://github.com/rust-lang/rust/pull/106152)
+* [add shortcut for Grisu3 algorithm](https://github.com/rust-lang/rust/pull/110389)
+* [loosen `From<&[T]> for Box<[T]>` bound to `T: Clone`](https://github.com/rust-lang/rust/pull/103406)
+* [add support for allocators in `LinkedList`](https://github.com/rust-lang/rust/pull/103093)
+* [hashbrown: remove lifetime on `RawIterHash`, for more flexibility & to match `RawIter`](https://github.com/rust-lang/hashbrown/pull/427)
+* [cargo: add `-Zmsrv-policy` feature flag](https://github.com/rust-lang/cargo/pull/12043)
+* [cargo: apply `[env]` to target info discovery rustc](https://github.com/rust-lang/cargo/pull/12029)
+* [cargo: warn instead of error in `cargo package` on empty `readme` or `license-file` in manifest](https://github.com/rust-lang/cargo/pull/12036)
+* [rustdoc: add a new lint for broken inline code](https://github.com/rust-lang/rust/pull/105848)
+* [rustdoc: catch and don't blow up on impl Trait cycles](https://github.com/rust-lang/rust/pull/110631)
+* [clippy: new lint: `manual_while_let_some`](https://github.com/rust-lang/rust-clippy/pull/10647)
+* [clippy: add configuration for `semicolon_block` lints](https://github.com/rust-lang/rust-clippy/pull/10656)
+* [clippy: don't apply `string_lit_as_bytes` if in macro expansion](https://github.com/rust-lang/rust-clippy/pull/10665)
+* [clippy: fix `items_after_test_module`: Ignore imported modules](https://github.com/rust-lang/rust-clippy/pull/10719)
+* [rust-analyzer: add hover for closures](https://github.com/rust-lang/rust-analyzer/pull/14690)
+* [rust-analyzer: deduplicate crates when extending crate graphs](https://github.com/rust-lang/rust-analyzer/pull/14659)
+* [rust-analyzer: don't wavy-underline iterator chains](https://github.com/rust-lang/rust-analyzer/pull/14686)
+* [rust-analyzer: fix proc-macro-srv path config not working](https://github.com/rust-lang/rust-analyzer/pull/14671)
+* [rust-analyzer: fix restart server button trying to start instead of restart the server](https://github.com/rust-lang/rust-analyzer/pull/14678)
+* [rust-analyzer: fix status command panicking when additional LRU caches are set up](https://github.com/rust-lang/rust-analyzer/pull/14654)
+* [rust-analyzer: fix vscode workspaces not working properly](https://github.com/rust-lang/rust-analyzer/pull/14651)
+* [rust-analyzer: force InitializeParams windows path drives to uppercase](https://github.com/rust-lang/rust-analyzer/pull/14689)
+* [rust-analyzer: handle nested types in `unwrap_result_return_type` assist](https://github.com/rust-lang/rust-analyzer/pull/14667)
+* [rust-analyzer: handle dev-dependency cycles](https://github.com/rust-lang/rust-analyzer/pull/14475)
+* [rust-analyzer: remove proc-macro server command from the rust-analyzer binary](https://github.com/rust-lang/rust-analyzer/pull/14658)
 
 ### Rust Compiler Performance Triage
 
@@ -218,7 +273,15 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Since it hasn't been said before, there is an important distinction that needs to be addressed. For anyone who has been doing embedded work for any length of time and hasn't yet been exposed to Rust, the only thing that can really be said is that the language is entirely unlike everything you've experienced before. There is just nothing comparable, and the only way to rationalize questions like *why use Rust at all* is to put some honest effort into learning and using it.
+>
+> Hearing things like "it's a bit like C++ except it's memory safe and thread safe, and it's actually practical to build kernels with it" will not sound convincing. You have to see it to believe it.
+>
+> It's as if you've spent an entire career writing assembly, and one day you hear something or other about a brand-new programming language claiming to be a "portable assembler" called C. It sounds too good to be true. And then the years pass, and all of the mystery and disbelief gives way to obviousness and precision engineering. That's sort of how it is when going from C to Rust.
+
+– [Jay Oster](https://users.rust-lang.org/t/concerns-about-embedded-real-time-linux-using-rust/91416/12)
+
+Thanks to [Michael Bryan](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1411) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
