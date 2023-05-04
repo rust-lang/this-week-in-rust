@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 * [Going beyond build.rs: introducing cargo-px](https://www.lpalmieri.com/posts/cargo-px/)
 * [rust-analyzer changelog #179](https://rust-analyzer.github.io/thisweek/2023/05/01/changelog-179.html)
 
+- [git-cliff 1.2.0 released (Highly Customizable Changelog Generator)](https://git-cliff.org/blog/git-cliff-1.2.0)
+
 ### Observations/Thoughts
 * [A Mirror for Rust: Compile-Time Reflection Report](https://soasis.org/posts/a-mirror-for-rust-a-plan-for-generic-compile-time-introspection-in-rust/)
 * [Some thoughts on open collaboration](https://www.ncameron.org/blog/some-thoughts-on-open-collaboration/)
