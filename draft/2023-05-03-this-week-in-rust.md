@@ -104,6 +104,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
+**Calls for Proposals**
+
+Open calls for submissions to conferences and meetups.
+
+* [P99 CONF Call for Speakers (By 2023-05-12)](https://sessionize.com/p99-conf-2023/)
+* [RustLab Call for Proposals (By 2023-05-26)](https://rustlab.it/call-for-proposals)
+* [EuroRust Call for Speakers (By 2023-06-11)](https://www.papercall.io/eurorust-2023)
+
+If you are an event organizer and would like to have your Call for Proposals listed here, please submit a [PR][pr-link].
+
+[pr-link]: https://github.com/rust-lang/this-week-in-rust/pulls
+
 ## Updates from the Rust Project
 
 390 pull requests were [merged in the last week][merged]
