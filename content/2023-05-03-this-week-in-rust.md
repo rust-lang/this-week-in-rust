@@ -44,7 +44,6 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #179](https://rust-analyzer.github.io/thisweek/2023/05/01/changelog-179.html)
 * [git-cliff 1.2.0 released (Highly Customizable Changelog Generator)](https://git-cliff.org/blog/git-cliff-1.2.0)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Inching Along](https://www.fornjot.app/blog/weekly-release/2023-w18/)
-
 * [Going beyond build.rs: introducing cargo-px](https://www.lpalmieri.com/posts/cargo-px/)
 
 ### Observations/Thoughts
@@ -354,4 +353,4 @@ Thanks to [Michael Bryan](https://users.rust-lang.org/t/twir-quote-of-the-week/3
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/137dm6c/this_week_in_rust_493/)</small>
