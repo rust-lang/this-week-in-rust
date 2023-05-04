@@ -40,7 +40,6 @@ and just ask the editors to select the category.
 * [Rust on Espressif chips - 28-04-2023](https://mabez.dev/blog/posts/esp-rust-28-04-2023/)
 
 ### Project/Tooling Updates
-* [Going beyond build.rs: introducing cargo-px](https://www.lpalmieri.com/posts/cargo-px/)
 * [rust-analyzer changelog #179](https://rust-analyzer.github.io/thisweek/2023/05/01/changelog-179.html)
 * [git-cliff 1.2.0 released (Highly Customizable Changelog Generator)](https://git-cliff.org/blog/git-cliff-1.2.0)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Inching Along](https://www.fornjot.app/blog/weekly-release/2023-w18/)
