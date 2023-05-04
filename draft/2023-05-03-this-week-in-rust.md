@@ -74,6 +74,8 @@ and just ask the editors to select the category.
 
 * [Write code using async/await in Rust](https://developerlife.com/2022/03/12/rust-tokio/)
 
+* [What is HyperLogLog and how to build yours in Rust](https://www.arunma.com/2023/05/01/build-your-own-hyperloglog/)
+
 ### Research
 * [Specifying and Verifying Higher-order Rust Iterators](https://hal.science/hal-03827702v2/)
 
