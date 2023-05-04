@@ -63,6 +63,7 @@ and just ask the editors to select the category.
 * [dev-dependencies and Rust's unused_crate_dependencies lint](https://www.hezmatt.org/~mpalmer/blog/2023/04/30/dev-dependencies-and-rusts-unused_crate_dependencies.html)
 
 ### Rust Walkthroughs
+* [Writing Code with ChatGPT? Improve it with Kani](https://model-checking.github.io/kani-verifier-blog/2023/05/01/writing-code-with-chatgpt-improve-it-with-kani.html)
 * [Fast(er) binary search in Rust](https://www.bazhenov.me/posts/faster-binary-search-in-rust/)
 * [Rust allows redeclaring local variables to great benefit](https://ntietz.com/blog/rust-shadowing-idiomatic/)
 * [Build a Rust API with Rocket, Diesel, and MySQL](https://planetscale.com/blog/build-a-rust-api-with-rocket-diesel-mysql)
@@ -71,9 +72,7 @@ and just ask the editors to select the category.
 * [How does async Rust work](https://bertptrs.nl/2023/04/27/how-does-async-rust-work.html)
 * [50 Shades of Rust, or emerging Rust GUIs in a WASM world](https://monadical.com/posts/shades-of-rust-gui-library-list.html)
 * [ESP32 Embedded Rust at the HAL: Button-Controlled Blinking by Timer Polling](https://apollolabsblog.hashnode.dev/esp32-embedded-rust-at-the-hal-button-controlled-blinking-by-timer-polling)
-
 * [Write code using async/await in Rust](https://developerlife.com/2022/03/12/rust-tokio/)
-
 * [What is HyperLogLog and how to build yours in Rust](https://www.arunma.com/2023/05/01/build-your-own-hyperloglog/)
 
 ### Research
