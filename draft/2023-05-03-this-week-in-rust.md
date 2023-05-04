@@ -72,6 +72,8 @@ and just ask the editors to select the category.
 * [50 Shades of Rust, or emerging Rust GUIs in a WASM world](https://monadical.com/posts/shades-of-rust-gui-library-list.html)
 * [ESP32 Embedded Rust at the HAL: Button-Controlled Blinking by Timer Polling](https://apollolabsblog.hashnode.dev/esp32-embedded-rust-at-the-hal-button-controlled-blinking-by-timer-polling)
 
+* [Write code using async/await in Rust](https://developerlife.com/2022/03/12/rust-tokio/)
+
 ### Research
 * [Specifying and Verifying Higher-order Rust Iterators](https://hal.science/hal-03827702v2/)
 
