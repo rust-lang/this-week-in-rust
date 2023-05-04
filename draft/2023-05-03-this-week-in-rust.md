@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 * [Some thoughts on open collaboration](https://www.ncameron.org/blog/some-thoughts-on-open-collaboration/)
 * [The case for stabilizing arbitrary_self_types](https://medium.com/@adetaylor/the-case-for-stabilizing-arbitrary-self-types-b07bab22bb45)
 * [Report on Surprise hyper CVE from 2023-04-11](https://seanmonstar.com/post/715784167270596608/coe-surpise-hyper-cve)
+* [video] [Frontend in Rust with Yew and WebAssembly: Intro and Review](https://www.youtube.com/watch?v=1WHJqz0CHBw)
 * [video] [Rust Data Modelling WITHOUT OOP](https://www.youtube.com/watch?v=z-0-bbc80JM)
 * [video] [Introduction to Rust programming on bare metal hardware by Mike Kefeder](https://www.youtube.com/watch?v=KECu_piSM5s)
 * [video] [Writing Performant Concurrent Data Structures by Adrian Alic](https://www.youtube.com/watch?v=XKODaZgKcnE)
