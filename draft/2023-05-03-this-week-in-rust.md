@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 * [git-cliff 1.2.0 released (Highly Customizable Changelog Generator)](https://git-cliff.org/blog/git-cliff-1.2.0)
 * [Fornjot (code-first CAD in Rust) - Weekly Release - Inching Along](https://www.fornjot.app/blog/weekly-release/2023-w18/)
 
+* [Going beyond build.rs: introducing cargo-px](https://www.lpalmieri.com/posts/cargo-px/)
+
 ### Observations/Thoughts
 * [A Mirror for Rust: Compile-Time Reflection Report](https://soasis.org/posts/a-mirror-for-rust-a-plan-for-generic-compile-time-introspection-in-rust/)
 * [Some thoughts on open collaboration](https://www.ncameron.org/blog/some-thoughts-on-open-collaboration/)
