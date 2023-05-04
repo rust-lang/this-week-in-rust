@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Hangman over QUIC](https://ochagavia.nl/blog/hangman-over-quic/) (using Rust and Quinn)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
