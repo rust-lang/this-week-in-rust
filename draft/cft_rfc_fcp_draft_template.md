@@ -15,11 +15,9 @@ which are reaching a decision. Express your opinions now.
 * [Add RFC on governance, establishing the Leadership Council](https://github.com/rust-lang/rfcs/pull/3392)
 
 
-#### Approved MCPs
+#### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
 
-*    The MCP (Major Change Proposal) [Integreate Enzyme into nightly rustc](https://github.com/rust-lang/compiler-team/issues/611#issuecomment-1506929616) got accepted and merged. The [current prototype](https://github.com/EnzymeAD/rust) will be upgraded and integrated into some future nightly releases. Those releases will have experimental support to vectorize and differentiate (in the calculus sense) Rust functions.
-
-
+*  [major change accepted] [Integrate Enzyme into nightly rustc](https://github.com/rust-lang/compiler-team/issues/611#issuecomment-1506929616)
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 * [disposition: merge] [Use fulfillment to check Drop impl compatibility](https://github.com/rust-lang/rust/pull/110577)
 * [disposition: merge] [Only check outlives goals on impl compared to trait](https://github.com/rust-lang/rust/pull/109356)
