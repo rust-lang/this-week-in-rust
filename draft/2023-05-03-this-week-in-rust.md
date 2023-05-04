@@ -212,6 +212,10 @@ which are reaching a decision. Express your opinions now.
 * [disposition: merge] [Tracking Issue for negation methods on `NonZeroI*`](https://github.com/rust-lang/rust/issues/102443)
 * [disposition: merge] [Tracking Issue for CStr::is_empty](https://github.com/rust-lang/rust/issues/102444)
 
+#### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
+
+*  [major change accepted] [Integrate Enzyme into nightly rustc](https://github.com/rust-lang/compiler-team/issues/611#issuecomment-1506929616)
+
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 * [new] [RFC: Partial Mutability](https://github.com/rust-lang/rfcs/pull/3428)
 * [new] [RFC: Partial Types (v2)](https://github.com/rust-lang/rfcs/pull/3426)
