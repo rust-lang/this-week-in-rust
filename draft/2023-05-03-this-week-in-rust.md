@@ -42,8 +42,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Going beyond build.rs: introducing cargo-px](https://www.lpalmieri.com/posts/cargo-px/)
 * [rust-analyzer changelog #179](https://rust-analyzer.github.io/thisweek/2023/05/01/changelog-179.html)
-
-- [git-cliff 1.2.0 released (Highly Customizable Changelog Generator)](https://git-cliff.org/blog/git-cliff-1.2.0)
+* [git-cliff 1.2.0 released (Highly Customizable Changelog Generator)](https://git-cliff.org/blog/git-cliff-1.2.0)
+* [Fornjot (code-first CAD in Rust) - Weekly Release - Inching Along](https://www.fornjot.app/blog/weekly-release/2023-w18/)
 
 ### Observations/Thoughts
 * [A Mirror for Rust: Compile-Time Reflection Report](https://soasis.org/posts/a-mirror-for-rust-a-plan-for-generic-compile-time-introspection-in-rust/)
@@ -59,7 +59,6 @@ and just ask the editors to select the category.
 * [ES] [video] [01 Taller de Rust (lenguaje) en español](https://www.youtube.com/watch?v=dDX-MMFD8YI&list=PLP3JrIiWQArVUYA2Mt8S_jVvRq_SElVWB)
 * [audio] [SurrealDB with Tobie and Jamie Morgan](https://rustacean-station.org/episode/tobie-jamie-morgan/)
 * [audio] [Rust Embedded WG with Jonathan Pallant](https://rustacean-station.org/episode/jonathan-pallant/)
-
 * [dev-dependencies and Rust's unused_crate_dependencies lint](https://www.hezmatt.org/~mpalmer/blog/2023/04/30/dev-dependencies-and-rusts-unused_crate_dependencies.html)
 
 ### Rust Walkthroughs
