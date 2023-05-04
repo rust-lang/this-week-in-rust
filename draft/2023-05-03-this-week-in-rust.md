@@ -90,11 +90,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
 * [Hyperswitch - Fix panic case on `RedisPoolConnection` close](https://github.com/juspay/hyperswitch/issues/1035)
 * [Hyperswitch - Use proxy exclusion instead of a separate proxied client](https://github.com/juspay/hyperswitch/issues/1039)
 * [Hyperswitch - replace manual implementation using `from_str` function of strum](https://github.com/juspay/hyperswitch/issues/1042)
+* [Ockam - `#[ockam::node]` macro doesn't handle returned errors 1](https://github.com/build-trust/ockam/issues/4662)
+* [Ockam - Update CLI documentation for `identity` commands 2](https://github.com/build-trust/ockam/issues/4777)
+* [Ockam - Add some regression tests for output files: identity, credential, etc...](https://github.com/build-trust/ockam/issues/4744)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
