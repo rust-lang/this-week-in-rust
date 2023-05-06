@@ -186,6 +186,8 @@ Rusty Events between 2023-05-10 - 2023-06-07 🦀
     * [**Atelier Axum & Rust**](https://www.meetup.com/kaibee/events/293169086)
 * 2023-05-25 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/)
     * [**Rust Paris meetup #59**](https://www.meetup.com/rust-paris/events/293191172)
+* 2023-05-30 | Barcelona, ES | [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
+    * [**BcnRust meetup #10**](https://www.meetup.com/es-ES/bcnrust/events/293363107/)
 
 ### North America
 
