@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Build a non-binary tree that is thread safe using Rust](https://developerlife.com/2022/02/24/rust-non-binary-tree/)
+
 ### Research
 
 ### Miscellaneous
