@@ -33,6 +33,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+[Issue 3 of Rust Magazine is out.](https://rustmagazine.org/issue-3/)
+
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
