@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [The Way of the Crab Podcast, Epside 1: Hello, World!](https://wayofthecrab.com/episodes/001/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
