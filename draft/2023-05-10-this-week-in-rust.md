@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+- [How Meilisearch uses dynamic virtual address management to scale indexes](https://blog.meilisearch.com/dynamic-virtual-address-management/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
