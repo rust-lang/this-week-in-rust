@@ -188,6 +188,8 @@ Rusty Events between 2023-05-10 - 2023-06-07 🦀
     * [**OnSite Meeting**](https://www.meetup.com/rust-community-stuttgart/events/pdhvctyfchbzb/)
 * 2023-05-23 | Paris, FR | [Kaïbee](https://www.meetup.com/kaibee/)
     * [**Atelier Axum & Rust**](https://www.meetup.com/kaibee/events/293169086)
+* 2023-05-24 | Lyon, FR | [Rust Lyon](https://www.meetup.com/fr-FR/rust-lyon/)
+    * [**Rust Lyon Meetup #4**](https://www.meetup.com/fr-FR/rust-lyon/events/293322211)
 * 2023-05-25 | Barcelona, ES | [C++ Programmer Meetup.](https://www.meetup.com/c-programmer-meetup/)
     * [**Rust for C++ Developers.**](https://www.meetup.com/c-programmer-meetup/events/292816507)
 * 2023-05-25 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/)
