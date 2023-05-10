@@ -58,8 +58,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [velo - Implement simple bevy-markdown renderer 1](https://github.com/StaffEngineer/velo/issues/93)
+* [ockam - `#[ockam::node]` macro doesn't handle returned errors](https://github.com/build-trust/ockam/issues/4662)
+* [ockam - Make clap command asynchronously wait for the changes to take place 2](https://github.com/build-trust/ockam/issues/4885)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
