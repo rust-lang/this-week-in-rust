@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Ask not what the compiler can do for you](https://github.com/juspay/hyperswitch/wiki/Ask-not-what-the-compiler-can-do-for-you)
+
 ### Rust Walkthroughs
 
 ### Research
@@ -60,6 +62,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [Hyperswitch - move connector config to a separate file](https://github.com/juspay/hyperswitch/issues/1109)
+* [Hyperswitch - Implement `ReverseLookupInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1115)
+* [Hyperswitch - Implement `EventInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1116)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
