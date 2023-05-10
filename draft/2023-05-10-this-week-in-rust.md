@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Published Whichlang on crates.io - A fast language detection library](https://github.com/quickwit-oss/whichlang/)
 
 ### Observations/Thoughts
 
