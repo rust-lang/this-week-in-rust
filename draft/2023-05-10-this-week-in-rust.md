@@ -60,7 +60,12 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
-* EuroRust's CFP is still open until June 11th | [EuroRust 2023 CfP](https://www.papercall.io/eurorust-2023)
+**Calls for Proposals**
+
+Open calls for submissions to conferences and meetups.
+
+* [EuroRust Call for Speakers (By 2023-06-11)](https://www.papercall.io/eurorust-2023)
+
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
