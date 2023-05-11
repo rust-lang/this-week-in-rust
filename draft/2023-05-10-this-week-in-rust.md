@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [The Way of the Crab Podcast, Epside 1: Hello, World!](https://wayofthecrab.com/episodes/001/)
 * [Hangman over QUIC (using Rust and Quinn)](https://ochagavia.nl/blog/hangman-over-quic/)
 
 ## Crate of the Week
