@@ -32,13 +32,9 @@ and just ask the editors to select the category.
 * [API token scopes for crates.io](https://blog.rust-lang.org/inside-rust/2023/05/09/api-token-scopes.html)
 * [Updating Rust's Linux musl targets](https://blog.rust-lang.org/2023/05/09/Updating-musl-targets.html)
 
-### Foundation
-
 ### Newsletters
 
-[Rust Magazine: Issue 3](https://rustmagazine.org/issue-3/)
-
-### Project/Tooling Updates
+* [Rust Magazine: Issue 3](https://rustmagazine.org/issue-3/)
 
 ### Observations/Thoughts
 
@@ -56,8 +52,6 @@ and just ask the editors to select the category.
 * [video] [Beginner's guide to Rust's Result, "?" and Try/FromResidual](https://youtu.be/NSqN2r0h8DE)
 * [video] [Crust of Rust: std::collections](https://youtu.be/EF3Z4jdD1EQ)
 * [ES] [video] [Introducción a Rust en Español, Parte 2: Todo sobre variables, let, mut, scopes, tipos y más.](https://youtu.be/6icd5wwsvF8)
-
-### Research
 
 ### Miscellaneous
 
@@ -209,10 +203,6 @@ Open calls for submissions to conferences and meetups.
 * [rust-analyzer: show type alias layout](https://github.com/rust-lang/rust-analyzer/pull/14748)
 * [rust-analyzer: sort rust dependencies in vscode tree view](https://github.com/rust-lang/rust-analyzer/pull/14745)
 
-### Rust Compiler Performance Triage
-
-<!-- Perf results go here -->
-
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
@@ -359,7 +349,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/12tehic/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
