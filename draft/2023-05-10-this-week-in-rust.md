@@ -60,8 +60,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [velo - Implement simple bevy-markdown renderer](https://github.com/StaffEngineer/velo/issues/93)
+* [ockam - `#[ockam::node]` macro doesn't handle returned errors](https://github.com/build-trust/ockam/issues/4662)
+* [ockam - Make clap command asynchronously wait for the changes to take place](https://github.com/build-trust/ockam/issues/4885)
 
 * [Hyperswitch - move connector config to a separate file](https://github.com/juspay/hyperswitch/issues/1109)
 * [Hyperswitch - Implement `ReverseLookupInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1115)
