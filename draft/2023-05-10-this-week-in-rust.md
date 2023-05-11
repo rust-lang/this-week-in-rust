@@ -49,10 +49,10 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-* [Coherence in Rust (feat. rustc sources)](https://ohadravid.github.io/posts/2023-05-coherence-and-errors/)
 * [How We Built Our Own Time-Tracking Algorithm for a Rust app](https://michellelim.dev/writing/measure-time-spent-in-app/)
 * [ESP32 Embedded Rust at the HAL: UART Serial Communication](https://apollolabsblog.hashnode.dev/esp32-embedded-rust-at-the-hal-uart-serial-communication?ref=twitter-share)
 * [Build a non-binary tree that is thread safe using Rust](https://developerlife.com/2022/02/24/rust-non-binary-tree/)
+* [Coherence in Rust (feat. rustc sources)](https://ohadravid.github.io/posts/2023-05-coherence-and-errors/)
 * [video] [Beginner's guide to Rust's Result, "?" and Try/FromResidual](https://youtu.be/NSqN2r0h8DE)
 * [video] [Crust of Rust: std::collections](https://youtu.be/EF3Z4jdD1EQ)
 * [ES] [video] [Introducción a Rust en Español, Parte 2: Todo sobre variables, let, mut, scopes, tipos y más.](https://youtu.be/6icd5wwsvF8)
