@@ -55,7 +55,7 @@ and just ask the editors to select the category.
 * [Build a non-binary tree that is thread safe using Rust](https://developerlife.com/2022/02/24/rust-non-binary-tree/)
 * [video] [Beginner's guide to Rust's Result, "?" and Try/FromResidual](https://youtu.be/NSqN2r0h8DE)
 * [video] [Crust of Rust: std::collections](https://youtu.be/EF3Z4jdD1EQ)
-* [ES] [video] [Introducción a Rust en Español, Parte 2: Todo sobre variables, let,...](https://youtu.be/6icd5wwsvF8)
+* [ES] [video] [Introducción a Rust en Español, Parte 2: Todo sobre variables, let, mut, scopes, tipos y más.](https://youtu.be/6icd5wwsvF8)
 
 ### Research
 
