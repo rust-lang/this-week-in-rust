@@ -29,7 +29,7 @@ and just ask the editors to select the category.
 
 ### Official
 
-* [API token scopes](https://blog.rust-lang.org/inside-rust/2023/05/09/api-token-scopes.html) for crates.io
+* [API token scopes for crates.io](https://blog.rust-lang.org/inside-rust/2023/05/09/api-token-scopes.html)
 
 ### Foundation
 
