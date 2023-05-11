@@ -62,6 +62,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+
 * [Hyperswitch - move connector config to a separate file](https://github.com/juspay/hyperswitch/issues/1109)
 * [Hyperswitch - Implement `ReverseLookupInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1115)
 * [Hyperswitch - Implement `EventInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1116)
@@ -69,6 +70,12 @@ Some of these tasks may also have mentors available, visit the task page for mor
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
+
+**Calls for Proposals**
+
+Open calls for submissions to conferences and meetups.
+
+* [EuroRust Call for Speakers (By 2023-06-11)](https://www.papercall.io/eurorust-2023)
 
 ## Updates from the Rust Project
 
