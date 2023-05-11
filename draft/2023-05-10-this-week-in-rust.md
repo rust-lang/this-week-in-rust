@@ -30,6 +30,7 @@ and just ask the editors to select the category.
 ### Official
 
 * [API token scopes for crates.io](https://blog.rust-lang.org/inside-rust/2023/05/09/api-token-scopes.html)
+* [Updating Rust's Linux musl targets](https://blog.rust-lang.org/2023/05/09/Updating-musl-targets.html)
 
 ### Foundation
 
@@ -40,14 +41,21 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
-* [Breaking semver in Rust by adding a private type, or by adding an import](https://predr.ag/blog/breaking-semver-in-rust-by-adding-private-type-or-import/)
 
+* [A guide to test parametrization in Rust](https://unterwaditzer.net/2023/rust-test-parametrization.html)
+* [Iterator, Generator](https://without.boats/blog/iterator-generator/)
+* [Breaking semver in Rust by adding a private type, or by adding an import](https://predr.ag/blog/breaking-semver-in-rust-by-adding-private-type-or-import/)
 * [Ask not what the compiler can do for you](https://github.com/juspay/hyperswitch/wiki/Ask-not-what-the-compiler-can-do-for-you)
 
 ### Rust Walkthroughs
 
+* [How We Built Our Own Time-Tracking Algorithm for a Rust app](https://michellelim.dev/writing/measure-time-spent-in-app/)
+* [ESP32 Embedded Rust at the HAL: UART Serial Communication](https://apollolabsblog.hashnode.dev/esp32-embedded-rust-at-the-hal-uart-serial-communication?ref=twitter-share)
 * [Build a non-binary tree that is thread safe using Rust](https://developerlife.com/2022/02/24/rust-non-binary-tree/)
 * [Coherence in Rust (feat. rustc sources)](https://ohadravid.github.io/posts/2023-05-coherence-and-errors/)
+* [video] [Beginner's guide to Rust's Result, "?" and Try/FromResidual](https://youtu.be/NSqN2r0h8DE)
+* [video] [Crust of Rust: std::collections](https://youtu.be/EF3Z4jdD1EQ)
+* [ES] [video] [Introducción a Rust en Español, Parte 2: Todo sobre variables, let, mut, scopes, tipos y más.](https://youtu.be/6icd5wwsvF8)
 
 ### Research
 
