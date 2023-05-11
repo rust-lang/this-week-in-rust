@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+[Rust Magazine: Issue 3](https://rustmagazine.org/issue-3/)
+
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
