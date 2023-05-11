@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [How Rust-based search engine Meilisearch uses dynamic virtual address management to scale indexes](https://blog.meilisearch.com/dynamic-virtual-address-management/)
 * [The Way of the Crab Podcast, Epside 1: Hello, World!](https://wayofthecrab.com/episodes/001/)
 * [Hangman over QUIC (using Rust and Quinn)](https://ochagavia.nl/blog/hangman-over-quic/)
 
