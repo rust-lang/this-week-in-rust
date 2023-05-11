@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [You are holding it wrong](https://ochagavia.nl/blog/you-are-holding-it-wrong/)
+
 ### Rust Walkthroughs
 
 ### Research
