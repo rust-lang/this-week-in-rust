@@ -43,7 +43,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
-- [How Rust-based search engine Meilisearch uses dynamic virtual address management to scale indexes](https://blog.meilisearch.com/dynamic-virtual-address-management/)
+* [How Rust-based search engine Meilisearch uses dynamic virtual address management to scale indexes](https://blog.meilisearch.com/dynamic-virtual-address-management/)
 
 ## Crate of the Week
 
