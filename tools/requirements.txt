@@ -1,2 +1,2 @@
 beautifulsoup4==4.10.0
-Markdown==3.3.6
+Markdown==3.3.7
