@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Build a simple grep CLI app in Rust](https://developerlife.com/2022/03/02/rust-grep-cli-app/)
+
 ### Research
 
 ### Miscellaneous
