@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [no more bit fiddling](https://hecatia-elegua.github.io/blog/no-more-bit-fiddling/)
+
 ### Rust Walkthroughs
 
 ### Research
