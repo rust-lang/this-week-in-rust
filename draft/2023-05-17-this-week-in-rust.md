@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Topological Sort: The Hidden Gem of Graph Algorithms in Rust](https://www.youtube.com/watch?v=HS8-1Obn87M)
+
 ### Research
 
 ### Miscellaneous
