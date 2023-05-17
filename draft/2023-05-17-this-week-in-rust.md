@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Taking Rust to the Cloud: Blazingly Fast File Sharing](https://blog.orhun.dev/blazingly-fast-file-sharing)
 * [Build a simple grep CLI app in Rust](https://developerlife.com/2022/03/02/rust-grep-cli-app/)
 * [video] [Topological Sort: The Hidden Gem of Graph Algorithms in Rust](https://www.youtube.com/watch?v=HS8-1Obn87M)
 
