@@ -34,14 +34,30 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Solving the "floating point precision" problem with... floats?](https://dev.to/voliva/solving-the-floating-point-precision-problem-with-floats-4369)
+* [Sniffnet v1.2.0](https://github.com/GyulyVGC/sniffnet/releases/tag/v1.2.0)
+* [Bevy + WebGPU](https://bevyengine.org/news/bevy-webgpu/)
+* [rust-analyzer changelog #182](https://rust-analyzer.github.io/thisweek/2023/05/22/changelog-182.html)
 
 ### Observations/Thoughts
+* [How Much Memory Do You Need to Run 1 Million Concurrent Tasks?](https://pkolaczk.github.io/memory-consumption-of-async/)
+* [Open sourcing our Rust crate audits](https://opensource.googleblog.com/2023/05/open-sourcing-our-rust-crate-audits.html)
+* [Rust & Nix: Parallels in Complexity Management](https://floxdev.com/blog/rust-nix-parallels)
+* [audio] [PyO3 with David Hewitt](https://rustacean-station.org/episode/david-hewitt/)
 
 ### Rust Walkthroughs
+* [The magic of scope guards](https://swatinem.de/blog/magic-scope-guards/)
+* [Mocking in Rust: Mockall and alternatives - LogRocket Blog](https://blog.logrocket.com/mocking-rust-mockall-alternatives)
+* [Compress-a-Palooza: Unpacking 5 Billion Varints in only 4 Billion CPU Cycles](https://www.bazhenov.me/posts/rust-stream-vbyte-varint-decoding/)
+* [Resilient LL Parsing Tutorial](https://matklad.github.io/2023/05/21/resilient-ll-parsing-tutorial.html)
+* [ESP32 Embedded Rust at the HAL: Timer Ultrasonic Distance Measurement](https://apollolabsblog.hashnode.dev/esp32-embedded-rust-at-the-hal-timer-ultrasonic-distance-measurement)
+* [video] [N-Queens Puzzle (PART 2) - Rust - Codurance Screenkata](https://www.youtube.com/watch?v=45ShXM9hwJc)
 
 ### Research
+* [video] [Nico Lehmann, Flux: Liquid Types for Rust](https://www.youtube.com/watch?v=k-izcFCHN2o)
 
 ### Miscellaneous
+* [RustConf 2023 Schedule](https://rustconf.com/schedule)
 
 ## Crate of the Week
 
