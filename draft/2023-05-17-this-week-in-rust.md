@@ -172,7 +172,7 @@ Rusty Events between 2023-05-17 - 2023-06-14 🦀
 ### Asia
 
 * 2023-05-18 | Seoul, KR | [Seoul Substrate Blockchain Meetup](https://www.meetup.com/seoul-substrate-blockchain-meetup/)
-    * [***Seoul Substrate Meetup - 최신 cyprography - Rust*](https://www.meetup.com/seoul-substrate-blockchain-meetup/events/293016466)
+    * [**Seoul Substrate Meetup - 최신 cyprography - Rust**](https://www.meetup.com/seoul-substrate-blockchain-meetup/events/293016466)
 * 2023-05-20 | Singapore, SG | [Web3Dev.Community](https://www.meetup.com/web3devc/)
     * [**[Hybrid] You'll Never Rust Alone - Rust Study Group**](https://www.meetup.com/web3devc/events/zcgndtyfchbbc/)
 * 2023-05-25 | Amsterdam, NL | [Frontend Developer Meetup Amsterdam](https://www.meetup.com/frontend-developer-meetup-amsterdam/)
