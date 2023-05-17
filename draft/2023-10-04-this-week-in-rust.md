@@ -30,21 +30,33 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Rust Foundation Project Director Election Update](https://foundation.rust-lang.org/news/rust-foundation-project-director-election-update/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
-* [Zenoh 0.10.0,  a pure Rust Pub/Sub/Query protocol for cloud-to-thing continuum, was released and it is packed with new features.](https://zenoh.io/blog/2023-10-03-zenoh-dragonite/)
-
+* [Progress Report #26: rustc_codegen_gcc can now compile Rust for Linux!](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-26)
+* [Leptos Release v0.5.0](https://github.com/leptos-rs/leptos/releases/tag/v0.5.0)
 * [Announcing Yew 0.21](https://yew.rs/blog/2023/09/23/release-0-21)
+* [Ambient Platform](https://ambient.run/blog/platform)
+* [rust-analyzer hangelog #201](https://rust-analyzer.github.io/thisweek/2023/10/02/changelog-201.html)
+* [Zenoh 0.10.0, a pure Rust Pub/Sub/Query protocol for cloud-to-thing continuum, was released and it is packed with new features.](https://zenoh.io/blog/2023-10-03-zenoh-dragonite/)
 
 ### Observations/Thoughts
-
- - [Rustconf 2023 recap](https://blog.adamchalmers.com/rustconf-2023-recap/)
+* [Polonius revisited, part 2](https://smallcultfollowing.com/babysteps/blog/2023/09/29/polonius-part-2/)
+* [Easing tradeoffs with profiles](https://smallcultfollowing.com/babysteps/blog/2023/09/30/profiles/)
+* [Async Iteration III: The Async Iterator Trait](https://blog.yoshuawuyts.com/async-iterator-trait/)
+* [Rustconf 2023 recap](https://blog.adamchalmers.com/rustconf-2023-recap/)
+* [Was async fn a mistake?](https://seanmonstar.com/post/66832922686/was-async-fn-a-mistake)
+* [Rust Vs Go: A Hands-On Comparison](https://www.shuttle.rs/blog/2023/09/27/rust-vs-go-comparison)
+* [video] [The ultimate Rust IDE is here](https://www.youtube.com/watch?v=sZaAP4AS0hc)
+* [audio] [rb-sys with Ian Ker-Seymer](https://rustacean-station.org/episode/ian-ker-sey/)
+* [audio] [What's New in Rust 1.70 and 1.71](https://rustacean-station.org/episode/rust-1.70-1.71/)
 
 ### Rust Walkthroughs
+* [Create an RSS Feed in Axum or Leptos](https://benw.is/posts/rss-in-axum)
+* [Two Ways To Do Dynamic Dispatch](https://www.youtube.com/watch?v=wU8hQvU8aKM)
 * [Rust Dockerfile Boilerplate](https://peterprototypes.com/blog/rust-dockerfile-boilerplate/)
-
 * [series] [Distributed Tracing in Rust, Episode 4: correlating logs and traces](https://heikoseeberger.de/2023-09-30-dist-tracing-4/)
 
 ### Research
