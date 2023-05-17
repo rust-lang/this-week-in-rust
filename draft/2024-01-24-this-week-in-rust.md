@@ -30,16 +30,39 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Q4 2023 Recap from Rebecca Rumbul](https://foundation.rust-lang.org/news/q4-2023-recap-from-rebecca-rumbul/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Ruffle 2023 in review](https://ruffle.rs/blog/2024/01/14/2023-in-review)
+* [Four challenges cargo-semver-checks has yet to tackle](https://predr.ag/blog/four-challenges-cargo-semver-checks-has-yet-to-tackle/)
+* [rustc_codegen_gcc: Progress Report #29](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-29)
+* [Roadmap for the Xilem backend in 2024](https://linebender.org/blog/xilem-backend-roadmap/#2)
+* [rust-analyzer changelog #217](https://rust-analyzer.github.io/thisweek/2024/01/22/changelog-217.html)
 
 ### Observations/Thoughts
+* [Making Rust binaries smaller by default](https://kobzol.github.io/rust/cargo/2024/01/23/making-rust-binaries-smaller-by-default.html)
+* [My Best and Worst Deadlock in Rust](https://www.snoyman.com/blog/2024/01/best-worst-deadlock-rust/)
+* [Why SQL hang for exactly 940s? TCP and Async Rust!](https://xuanwo.io/2024/01-why-sql-hang-for-exactly-940s/)
+* [Making Async Rust Reliable](https://tmandry.gitlab.io/blog/posts/making-async-reliable/)
+* [Identifying Rust’s collect::() memory leak footgun](https://blog.polybdenum.com/2024/01/17/identifying-the-collect-vec-memory-leak-footgun.html)
+* [video] [embassy is now on crates.io](https://www.youtube.com/watch?v=o7okEkXPuIA)
+* [video] [Rust full stack web frameworks have a bright future](https://www.youtube.com/watch?v=tq3-M7QJiWg)
+* [video] [Rust Halifax - Rust & Tell #1](https://www.youtube.com/watch?v=MH-7xnv9CMI)
+* [video] [Why Rust will keep growing in 2024](https://www.youtube.com/watch?v=Q4VNRgxMQ6I)
 
 ### Rust Walkthroughs
+* [Using `mem::take` to reduce heap allocations](https://ferrous-systems.com/blog/rustls-borrow-checker-p1/)
+* [Writing your own Rust linter](https://blog.guillaume-gomez.fr/articles/2024-01-18+Writing+your+own+Rust+linter)
+* [Using Serde in Rust](https://www.shuttle.rs/blog/2024/01/23/using-serde-rust)
+* [Parsing JSON in Rust](https://www.shuttle.rs/blog/2024/01/18/parsing-json-rust)
+* [Billion-row challenge: Rust walkthrough](https://aminediro.com/posts/billion_row/)
+* [Embassy on ESP: Timers](https://apollolabsblog.hashnode.dev/embassy-on-esp-timers)
 
 ### Research
+* [Profiling Programming Language Learning](https://arxiv.org/abs/2401.01257)
+* [Rust-lancet: Automated Ownership-Rule-Violation Fixing with Behavior Preservation](https://songlh.github.io/paper/lancet.pdf)
 
 ### Miscellaneous
 
