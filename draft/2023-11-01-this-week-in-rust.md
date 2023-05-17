@@ -28,6 +28,9 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [A tale of broken badges and 23,000 features](https://blog.rust-lang.org/2023/10/26/broken-badges-and-23k-keywords.html)
+* [crates.io: Dropping support for non-canonical downloads](https://blog.rust-lang.org/2023/10/27/crates-io-non-canonical-downloads.html)
+* [Generators are dead, long live coroutines, generators are back](https://blog.rust-lang.org/inside-rust/2023/10/23/coroutines.html)
 
 ### Foundation
 
@@ -36,17 +39,28 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 - [ratatui 0.24.0 is released! (Rust library that's all about cooking up terminal user interfaces)](https://ratatui.rs/highlights/v0.24.html)
 * [git-cliff 1.4.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/1.4.0)
+* [rust-analyzer changelog #205](https://rust-analyzer.github.io/thisweek/2023/10/30/changelog-205.html)
+* [Progress report on rustc_codegen_cranelift (Oct 2023)](https://bjorn3.github.io/2023/10/31/progress-report-oct-2023.html)
 
 ### Observations/Thoughts
-
+* [System dependencies are hard (so we made them easier)](https://blog.axo.dev/2023/10/dependencies)
+* [Was Rust Worth It?](https://jsoverson.medium.com/was-rust-worth-it-f43d171fb1b3)
 * [Can Rust prevent logic errors?](https://itsallaboutthebit.com/logic-errors-in-rust/)
 - [Faster Rust Serialization](https://mo8it.com/blog/faster-rust-serialization/)
 * [Dealing with Dependencies in Rust](https://tweedegolf.nl/en/blog/104/dealing-with-dependencies-in-rust)
+* [How I learned to stop worrying and love byte ordering](https://udoprog.github.io/rust/2023-10-28/stop-worrying.html)
+* [How To Move Fast With Rust](https://endler.dev/2023/move-fast-rust)
+* [video] [Impl Trait aka Look ma’, no generics! by Jon Gjengset](https://youtu.be/CWiz_RtA1Hw)
 
 ### Rust Walkthroughs
+* [Fully Automated Releases for Rust Projects](https://blog.orhun.dev/automated-rust-releases/)
 - [The beauty of a Rust message processor](https://worldwithouteng.com/articles/the-beauty-of-a-rust-message-processor/)
+* [interrupts is threads](https://onevariable.com/blog/interrupts-is-threads/)
+* [htmx, Rust & Shuttle: A New Rapid Prototyping Stack](https://www.shuttle.rs/blog/2023/10/25/htmx-with-rust)
+* [video] [Async Not Required 🦀](https://www.youtube.com/watch?v=QXynWxALJmo)
 
 ### Research
+* [Functional Ownership through Fractional Uniqueness](https://arxiv.org/abs/2310.18166)
 - [Grading on a Curve: How Rust can Facilitate New Contributors while Decreasing Vulnerabilities](https://cypherpunks.ca/~iang/pubs/gradingcurve-secdev23.pdf)
 
 ### Miscellaneous
