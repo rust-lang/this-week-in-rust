@@ -28,20 +28,43 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [2022 Annual Rust Survey Results](https://blog.rust-lang.org/2023/08/07/Rust-Survey-2023-Results.html)
+* [Security advisory for Cargo (CVE-2023-38497)](https://blog.rust-lang.org/2023/08/03/cve-2023-38497.html)
+* [Announcing Rust 1.71.1](https://blog.rust-lang.org/2023/08/03/Rust-1.71.1.html)
+* [Rotating Rust compiler team leadership](https://blog.rust-lang.org/inside-rust/2023/08/02/rotating-compiler-leads.html)
 
 ### Foundation
+* [Announcing Speakers & Schedule for Inaugural Rust Global Event](https://foundation.rust-lang.org/news/announcing-speakers-schedule-for-inaugural-rust-global-event/)
 
 ### Newsletters
+* [This Month in Rust OSDev: July 2023](https://rust-osdev.com/this-month/2023-07/)
+* [Rust Nigeria Issue 20](https://rustnigeria.curated.co/issues/20)
 
 ### Project/Tooling Updates
+* [Turbocharging Rust Code Verification](https://model-checking.github.io/kani-verifier-blog/2023/08/03/turbocharging-rust-code-verification.html)
+* [Changelog #193](https://rust-analyzer.github.io/thisweek/2023/08/07/changelog-193.html)
 
 ### Observations/Thoughts
+* [No telemetry in the Rust compiler: metrics without betraying user privacy](https://estebank.github.io/rustc-metrics.html)
+* [A failed experiment with Rust static dispatch](https://jmmv.dev/2023/08/rust-static-dispatch-failed-experiment.html)
+* [nesting allocators](https://blog.yoshuawuyts.com/nesting-allocators/)
+* [Allocator trait 1: Let’s talk about the Allocator trait](https://shift.click/blog/allocator-trait-talk/)
+* [How to improve Rust compiler’s CI in 2023](https://kobzol.github.io/rust/rustc/2023/07/30/optimizing-rust-ci-2023.html)
+* [video] [Andreas Monitzer  - Bevy-ECS explained - Rust Vienna June 2023](https://www.youtube.com/watch?v=TBjmRmjr4JA)
 
 ### Rust Walkthroughs
+* [Let's Build a Cargo Compatible Build Tool - Part 1](https://blog.mgattozzi.dev/freight-part-1/)
+* [Instrumenting Axum projects](https://determinate.systems/posts/instrumenting-axum)
+* [Rust Server Components](https://anto.pt/articles/rust-server-components)
+* [Optimizing Rust Enum `Debug`-ing with Perfect Hashing](https://swatinem.de/blog/optimizing-enums/)
+* [Running a Bevy game in SvelteKit](https://sneakycrow.dev/blog/2023-07-30-bevy-game-in-svelte-kit)
+* [ESP32 Standard Library Embedded Rust: Timers](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-timers)
+
 
 ### Research
 
 ### Miscellaneous
+* [Shuttle Launchpad #5: Our first foray into traits!](https://www.shuttle.rs/launchpad/issues/2023-28-07-issue-05-Traits-Image-Processing)
 
 ## Crate of the Week
 
