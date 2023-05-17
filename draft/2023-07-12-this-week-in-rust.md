@@ -28,20 +28,34 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing regex 1.9](https://blog.rust-lang.org/2023/07/05/regex-1.9.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: June 2023](https://rust-osdev.com/this-month/2023-06/)
 
 ### Project/Tooling Updates
+* [Regex engine internals as a library](https://blog.burntsushi.net/regex-internals/)
+* [Bevy 0.11](https://bevyengine.org/news/bevy-0-11/)
+* [rustc_codegen_gcc: Progress Report #24](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-24)
+* [rust-analyzer changelog #189](https://rust-analyzer.github.io/thisweek/2023/07/10/changelog-189.html)
 
 ### Observations/Thoughts
+* [How to think about `async`/`await` in Rust](https://cliffle.com/blog/async-inversion/)
+* [Back-end parallelism in the Rust compiler](https://nnethercote.github.io/2023/07/11/back-end-parallelism-in-the-rust-compiler.html)
+* [bridging fuzzing and property testing](https://blog.yoshuawuyts.com/bridging-fuzzing-and-property-testing/)
+* [Mastering Rust: 2 Years of Building Brilliance and Lessons Learned](https://opeolluwa.hashnode.dev/mastering-rust-2-years-of-building-brilliance-and-lessons-learned)
+* [audio] [Shuttle with Ivan Cernja](https://rustacean-station.org/episode/ivan-cernja/)
 
 ### Rust Walkthroughs
+* [video] [Build A Full Stack Chatbot in Rust (feat. Leptos & Rustformers)](https://www.youtube.com/watch?v=vAjle3c9Xqc)
+* [video] [Render the Julia set in 3 dozen lines of Rust code](https://www.youtube.com/watch?v=g4vN2Z0JuZI)
 
 ### Research
 
 ### Miscellaneous
+* [Docker Desktop 4.21: Support for new Wasm runtimes, Docker Init support for Rust, Docker Scout Dashboard enhancements, Builds view (Beta), and more](https://www.docker.com/blog/docker-desktop-4-21/)
 
 ## Crate of the Week
 
