@@ -166,7 +166,7 @@ Open calls for submissions to conferences and meetups.
 * [`assume` the runtime range of `align_offset`](https://github.com/rust-lang/rust/pull/111113)
 * [`btree_map: Cursor{,Mut}::peek_prev` must agree](https://github.com/rust-lang/rust/pull/111238)
 * [add `is_positive` method for signed non-zero integers](https://github.com/rust-lang/rust/pull/111186)
-* [constify `[u8]::is_ascii` (unstably)](https://github.com/rust-lang/rust/pull/111222)
+* [constify `[u8]::is_ascii` (unstably)](https://github.com/rust-lang/rust/pull/111222)&nbsp;
 * [fix `checked_{add,sub}_duration` incorrectly returning `None` when `other` has more than `i64::MAX` seconds](https://github.com/rust-lang/rust/pull/103056)
 * [correctly convert an NT path to a Win32 path in `read_link`](https://github.com/rust-lang/rust/pull/107978)
 * [libtest: include test output in junit xml reports](https://github.com/rust-lang/rust/pull/110651)
