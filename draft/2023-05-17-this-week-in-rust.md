@@ -35,11 +35,16 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [no more bit fiddling - introducing bilge](https://hecatia-elegua.github.io/blog/no-more-bit-fiddling/)
+
 ### Observations/Thoughts
 
-* [no more bit fiddling](https://hecatia-elegua.github.io/blog/no-more-bit-fiddling/)
+* [Task scheduled time in tokio-console](https://hegdenu.net/posts/task-scheduled-time-in-console/)
+* [You are holding it wrong](https://ochagavia.nl/blog/you-are-holding-it-wrong/)
 
 ### Rust Walkthroughs
+
+* [Build a simple grep CLI app in Rust](https://developerlife.com/2022/03/02/rust-grep-cli-app/)
 
 ### Research
 
