@@ -32,20 +32,29 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Shuttle Launchpad](https://www.shuttle.rs/launchpad)
+* [This Month in Rust OSDev: April 2023](https://rust-osdev.com/this-month/2023-04/)
 
 ### Project/Tooling Updates
+* [New in IntelliJ Rust for 2023.1 (Part 2)](https://blog.jetbrains.com/rust/2023/05/05/new-in-intellij-rust-for-2023-1-part-2/)
+* [rust-analyzer changelog #181](https://rust-analyzer.github.io/thisweek/2023/05/15/changelog-181.html)
 * [Trippy (Network diagnostic tool) - 0.8.0 release](https://github.com/fujiapple852/trippy/releases/tag/0.8.0)
-
+* [Taking Rust to the Cloud: Blazingly Fast File Sharing](https://blog.orhun.dev/blazingly-fast-file-sharing/)
 * [no more bit fiddling - introducing bilge](https://hecatia-elegua.github.io/blog/no-more-bit-fiddling/)
 
 ### Observations/Thoughts
-
-* [Task scheduled time in tokio-console](https://hegdenu.net/posts/task-scheduled-time-in-console/)
 * [You are holding it wrong](https://ochagavia.nl/blog/you-are-holding-it-wrong/)
+* [Task scheduled time in tokio-console](https://hegdenu.net/posts/task-scheduled-time-in-console/)
+* [Single Abstract Method Traits](https://mcyoung.xyz/2023/05/11/sam-closures/)
+* [A locking war story](https://swatinem.de/blog/locking-war-story/)
+* [Now is the time to bet big on Rust](https://tim.mcnamara.nz/post/717515899722137600/big-bet-on-rust)
+* [Giving, lending, and async closures](https://smallcultfollowing.com/babysteps/blog/2023/05/09/giving-lending-and-async-closures/)
+* [video] [RustNL 2023 Conference](https://www.youtube.com/watch?v=9Q4yNlbfiYk)
+* [video] [Qdrant vector search in Rust | Arnaud Gourlay @ Rust Meetup Linz](https://www.youtube.com/watch?v=2cGM1fEbWJQ)
+* [audio] [Glidesort with Orson Peters](https://rustacean-station.org/episode/orson-peters/)
+* [audio] [smol with John Nunley](https://rustacean-station.org/episode/john-nunley/)
 
 ### Rust Walkthroughs
-
-* [Taking Rust to the Cloud: Blazingly Fast File Sharing](https://blog.orhun.dev/blazingly-fast-file-sharing)
 * [Build a simple grep CLI app in Rust](https://developerlife.com/2022/03/02/rust-grep-cli-app/)
 * [video] [Topological Sort: The Hidden Gem of Graph Algorithms in Rust](https://www.youtube.com/watch?v=HS8-1Obn87M)
 
