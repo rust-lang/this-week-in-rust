@@ -58,8 +58,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Ockam - Add new CLI command to show available environment variables](https://github.com/build-trust/ockam/issues/4928)
+* [Ockam - Update CLI documentation for `project` commands](https://github.com/build-trust/ockam/issues/4762)
+* [Ockam - Allow binary messages in `ockam message send` CLI command](https://github.com/build-trust/ockam/issues/4918)
+* [RustQuant - call for participants in project](https://github.com/avhz/RustQuant/issues)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
