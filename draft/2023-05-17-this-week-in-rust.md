@@ -205,9 +205,9 @@ Rusty Events between 2023-05-17 - 2023-06-14 🦀
 * 2023-05-30 | Barcelona, ES | [BcnRust](https://www.meetup.com/bcnrust/)
     * [**10th BcnRust Meetup**](https://www.meetup.com/bcnrust/events/293363107)
 * 2023-06-03 | Plovidv, BG | [AeroRust](https://aerorust.org)
-    * [**Space Conference - Plovdiv**](https://space-conference-plovdiv.eventbrite.com) (3rd of June)
-    * [**Nanosatellite embedded workshop**](https://forms.gle/rnFx5wCbrYA9qN7m6) (4th of June)
-
+    * [**Space Conference - Plovdiv**](https://space-conference-plovdiv.eventbrite.com)
+* 2023-06-04 | Plovidv, BG | [AeroRust](https://aerorust.org)
+    * [**Space Conference : Nanosatellite embedded workshop**](https://forms.gle/rnFx5wCbrYA9qN7m6)
 ### North America
 
 * 2023-05-11 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
