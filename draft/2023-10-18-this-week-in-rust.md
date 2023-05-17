@@ -30,22 +30,31 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Q3 2023 Recap from Rebecca Rumbul](https://foundation.rust-lang.org/news/q3-2023-recap-from-rebecca-rumbul/)
 
 ### Newsletters
+* [This Month in Rust OSDev: September 2023](https://rust-osdev.com/this-month/2023-09/)
 
 ### Project/Tooling Updates
 * [Announcing EtherCrab, a Rust implementation of the EtherCAT industrial automation protocol](https://wapl.es/announcing-ethercrab-the-rust-ethercat-controller/)
+* [rust-analyzer changelog #203](https://rust-analyzer.github.io/thisweek/2023/10/16/changelog-203.html)
 
 ### Observations/Thoughts
+* [Why async Rust?](https://without.boats/blog/why-async-rust/)
+* [Compile Times and Code Graphs](https://blog.danhhz.com/compile-times-and-code-graphs)
 * [Containerize Rust applications on Ubuntu & Alpine, with GitHub Actions](https://medium.com/@vapor.schitcrafter/containerise-rust-applications-on-ubuntu-alpine-with-github-actions-or-docker-builders-9378a02b98fd)
 
 ### Rust Walkthroughs
-
 * [A type level contains operation for heterogeneous list using associated types](https://blog.weiznich.de/blog/eurorust-non-overlapping-contains-for-hlists/)
+* [Using GraphQL in Rust](https://www.shuttle.rs/blog/2023/10/16/graphql-in-rust)
 
 ### Research
+* [Yuga: Automatically Detecting Lifetime Annotation Bugs in the Rust Language](https://arxiv.org/abs/2310.08507)
+* [Fast Summary-based Whole-program Analysis to Identify Unsafe Memory Accesses in Rust](https://arxiv.org/abs/2310.10298)
 
 ### Miscellaneous
+* [Eurorust reflections](https://smallcultfollowing.com/babysteps/blog/2023/10/14/eurorust-reflections/)
+* [EuroRust 2023 Reflections: What's a Conference For?](https://lucumr.pocoo.org/2023/10/14/eurorust-whats-a-conference/)
 * [audio] [RustShip: Graphite - Raster and Vector Graphics in Rust](https://ieni.dev/2023/10/%EF%B8%8F-graphite-raster-and-vector-graphics-in-rust-rustship-4/)
 
 ## Crate of the Week
