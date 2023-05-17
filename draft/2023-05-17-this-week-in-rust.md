@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Trippy (Network diagnostic tool) - 0.8.0 release](https://github.com/fujiapple852/trippy/releases/tag/0.8.0)
 
 ### Observations/Thoughts
 
