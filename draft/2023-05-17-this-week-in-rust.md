@@ -81,6 +81,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Ockam - Update CLI documentation for `project` commands](https://github.com/build-trust/ockam/issues/4762)
 * [Ockam - Allow binary messages in `ockam message send` CLI command](https://github.com/build-trust/ockam/issues/4918)
 * [RustQuant - call for participants in project](https://github.com/avhz/RustQuant/issues)
+* [Hyperswitch - Implement `CardsInfoInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1189)
+* [Hyperswitch - Implement `DisputeInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1190)
+* [Hyperswitch - Implement `EphemeralKeyInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1191)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
