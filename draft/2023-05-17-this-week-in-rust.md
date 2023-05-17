@@ -36,13 +36,15 @@ and just ask the editors to select the category.
 * [This Month in Rust OSDev: April 2023](https://rust-osdev.com/this-month/2023-04/)
 
 ### Project/Tooling Updates
-* [Taking Rust to the Cloud: Blazingly Fast File Sharing](https://blog.orhun.dev/blazingly-fast-file-sharing/)
-* [no more bit fiddling - introducing bilge](https://hecatia-elegua.github.io/blog/no-more-bit-fiddling/)
 * [New in IntelliJ Rust for 2023.1 (Part 2)](https://blog.jetbrains.com/rust/2023/05/05/new-in-intellij-rust-for-2023-1-part-2/)
 * [rust-analyzer changelog #181](https://rust-analyzer.github.io/thisweek/2023/05/15/changelog-181.html)
+* [Trippy (Network diagnostic tool) - 0.8.0 release](https://github.com/fujiapple852/trippy/releases/tag/0.8.0)
+* [Taking Rust to the Cloud: Blazingly Fast File Sharing](https://blog.orhun.dev/blazingly-fast-file-sharing/)
+* [no more bit fiddling - introducing bilge](https://hecatia-elegua.github.io/blog/no-more-bit-fiddling/)
 
 ### Observations/Thoughts
 * [You are holding it wrong](https://ochagavia.nl/blog/you-are-holding-it-wrong/)
+* [Task scheduled time in tokio-console](https://hegdenu.net/posts/task-scheduled-time-in-console/)
 * [Single Abstract Method Traits](https://mcyoung.xyz/2023/05/11/sam-closures/)
 * [A locking war story](https://swatinem.de/blog/locking-war-story/)
 * [Now is the time to bet big on Rust](https://tim.mcnamara.nz/post/717515899722137600/big-bet-on-rust)
@@ -53,6 +55,9 @@ and just ask the editors to select the category.
 * [audio] [smol with John Nunley](https://rustacean-station.org/episode/john-nunley/)
 
 ### Rust Walkthroughs
+* [Taking Rust to the Cloud: Blazingly Fast File Sharing](https://blog.orhun.dev/blazingly-fast-file-sharing)
+* [Build a simple grep CLI app in Rust](https://developerlife.com/2022/03/02/rust-grep-cli-app/)
+* [video] [Topological Sort: The Hidden Gem of Graph Algorithms in Rust](https://www.youtube.com/watch?v=HS8-1Obn87M)
 
 ### Research
 
@@ -86,22 +91,23 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+The last two weeks mostly have small changes across a number of benchmarks, no
+widespread large regressions or improvements.
+
+Triage done by **@simulacrum**.
+Revision range: [a368898d..3ea9ad532](https://perf.rust-lang.org/?start=a368898de758e1b8def6c9060044a5b40eb79e84&end=3ea9ad532474343426e564b997891e459cda89a6&absolute=false&stat=instructions%3Au)
+
+6 Regressions, 3 Improvements, 4 Mixed; 2 of them in rollups
+90 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-05-16.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* [New rustc and Cargo options to allow path sanitisation by default](https://github.com/rust-lang/rfcs/pull/3127)
 
 ### Final Comment Period
 
@@ -110,34 +116,25 @@ which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [The `#[diagnostic]` attribute namespace](https://github.com/rust-lang/rfcs/pull/3368)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [Allow limited access to `OsStr` bytes](https://github.com/rust-lang/rust/pull/109698)
+* [disposition: merge] [Tracking Issue for `#![feature(offset_of)]`](https://github.com/rust-lang/rust/issues/106655)
+* [disposition: close] [Tracking Issue for the x86 `ud2` intrinsic](https://github.com/rust-lang/rust/issues/111193)
+* [disposition: merge] [Document memory orderings of `thread::{park, unpark}`](https://github.com/rust-lang/rust/pull/99587)
+* [disposition: merge] [Tracking Issue for `BuildHasher::hash_one`](https://github.com/rust-lang/rust/issues/86161)
+* [disposition: merge] [Tracking Issue for #![feature(unix_chown)]](https://github.com/rust-lang/rust/issues/88989)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+* *No New or Updated RFCs were created this week.*
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+* *No RFCs issued a call for testing this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -149,18 +146,6 @@ Rusty Events between 2023-05-17 - 2023-06-14 🦀
 
 ### Virtual
 
-* 2023-05-10 | Virtual (Boulder, CO, US) | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
-    * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/292464903)
-* 2023-05-11 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
-    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/gmkpctyfchbpb/)
-* 2023-05-11 | Virtual (South Pasadena, CA, US) | [Pasadena Thursday Go / Rust](https://www.meetup.com/thursday-go/)
-    * [**Weekly study group**](https://www.meetup.com/thursday-go/events/293338004)
-* 2023-05-13 | Virtual | [Rust GameDev](https://discord.gg/yNtPTb2)
-    * [**Rust GameDev Monthly Meetup**](https://discord.gg/yNtPTb2)
-* 2023-05-13 | Virtual + In person (Singapore, SG) | [Web3Dev.Community](https://www.meetup.com/web3devc/)
-    * [**[Hybrid] You'll Never Rust Alone - Rust Study Group**](https://www.meetup.com/web3devc/events/zcgndtyfchbrb/)
-* 2023-05-16 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
-    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/jkxsctyfchbvb/)
 * 2023-05-17 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
     * [**Rust Atomics and Locks Book Club Chapter 2**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/292847157/)
 * 2023-05-17 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
@@ -169,7 +154,7 @@ Rusty Events between 2023-05-17 - 2023-06-14 🦀
     * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/qtvtvsyfchbxb/)
 * 2023-05-20 | Virtual + In person (Singapore, SG) | [Web3Dev.Community](https://www.meetup.com/web3devc/)
     * [**[Hybrid] You'll Never Rust Alone - Rust Study Group**](https://www.meetup.com/web3devc/events/zcgndtyfchbbc/)
-* 2023-05-23 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin)
+* 2023-05-23 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/293302808)
 * 2023-05-25 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Practical Monads**](https://www.meetup.com/charlottesville-rust-meetup/events/293384348)
@@ -185,26 +170,30 @@ Rusty Events between 2023-05-17 - 2023-06-14 🦀
     * [**Rust for Mission-Critical AI: A Journey into Healthcare's Safest Language**](https://www.meetup.com/chicago-healthcare-tech-and-ai/events/293278396/?chapterContext=true&regToRsvp=true&isFromReg=true)
 * 2023-06-06 | Virtual (Austin, TX, US) | [WebAssembly and WasmEdge](https://www.meetup.com/webassembly-and-wasmedge/)
     * [**Monthly WasmEdge Community Meeting - Run Rust Warp in WasmEdge -- Alan, Poon Yong Quan**](https://www.meetup.com/webassembly-and-wasmedge/events/293014949)
+* 2023-06-06 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
+    * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/293485509)
 * 2023-06-06 | Virtual (Buffalo, NY, US) | [Buffalo Rust Meetup](https://www.meetup.com/buffalo-rust-meetup/)
     * [**Buffalo Rust User Group, First Tuesdays**](https://www.meetup.com/buffalo-rust-meetup/events/293296995)
 * 2023-06-07 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/293309294)
+* 2023-06-08 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
+    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/289732649)
+* 2023-06-13 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallas-rust/)
+    * [**Second Tuesday**](https://www.meetup.com/dallas-rust/events/293014938)
 
 ### Asia
 
-* 2023-05-13 | Singapore, SG | [Web3Dev.Community](https://www.meetup.com/web3devc/)
-    * [**[Hybrid] You'll Never Rust Alone - Rust Study Group**](https://www.meetup.com/web3devc/events/zcgndtyfchbrb/)
 * 2023-05-18 | Seoul, KR | [Seoul Substrate Blockchain Meetup](https://www.meetup.com/seoul-substrate-blockchain-meetup/)
-    * [***Seoul Substrate Meetup - 최신 cyprography - Rust*](https://www.meetup.com/seoul-substrate-blockchain-meetup/events/293016466)
+    * [**Seoul Substrate Meetup - 최신 cyprography - Rust**](https://www.meetup.com/seoul-substrate-blockchain-meetup/events/293016466)
 * 2023-05-20 | Singapore, SG | [Web3Dev.Community](https://www.meetup.com/web3devc/)
     * [**[Hybrid] You'll Never Rust Alone - Rust Study Group**](https://www.meetup.com/web3devc/events/zcgndtyfchbbc/)
 * 2023-05-25 | Amsterdam, NL | [Frontend Developer Meetup Amsterdam](https://www.meetup.com/frontend-developer-meetup-amsterdam/)
     * [**Svelte Frontend Meetup (signup required) - Building a Svelte-Rust app using Tauri**](https://www.meetup.com/frontend-developer-meetup-amsterdam/events/293272364)
+* 2023-06-10 | Kuala Lumpur, MY | [GoLang Malaysia](https://t.me/golangmalaysia)
+    * [**Rust Workshop/Hack and Learn Malaysia June 2023**](https://forms.gle/2fvbCG77HXCkWLfe6) | [Event updates Telegram](https://t.me/+dF46Fly4A_BjOTJl) | [Event group chat](https://t.me/golangmalaysia)
 
 ### Europe
 
-* 2023-05-10 | Amsterdam, NL | [RustNL](https://rustnl.org/)
-    * [**RustNL 2023**](https://2023.rustnl.org/)
 * 2023-05-19 | Stuttgart, DE | [Rust Community Stuttgart](https://www.meetup.com/rust-community-stuttgart)
     * [**OnSite Meeting**](https://www.meetup.com/rust-community-stuttgart/events/pdhvctyfchbzb/)
 * 2023-05-23 | Paris, FR | [Kaïbee](https://www.meetup.com/kaibee/)
@@ -219,13 +208,11 @@ Rusty Events between 2023-05-17 - 2023-06-14 🦀
     * [**Rust Paris meetup #59**](https://www.meetup.com/rust-paris/events/293191172)
 * 2023-05-30 | Barcelona, ES | [BcnRust](https://www.meetup.com/bcnrust/)
     * [**10th BcnRust Meetup**](https://www.meetup.com/bcnrust/events/293363107)
+* 2023-06-08 | Zurich, CH | [Rust Zurich](https://www.meetup.com/de-DE/rust-zurich/)
+    * [**Unsafe, Miri, SIMD - June Meetup**](https://www.meetup.com/de-DE/rust-zurich/events/293322792/)
 
 ### North America
 
-* 2023-05-11 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
-    * [**Interesting Title and Food!**](https://www.meetup.com/utah-rust/events/rrwbctyfchbpb/)
-* 2023-05-16 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
-    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/vwljctyfchbvb/)
 * 2023-05-17 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/)
     * [**Too many unit tests: A tale of macros and BigDecimals**](https://www.meetup.com/rust-nyc/events/293316694)
 
