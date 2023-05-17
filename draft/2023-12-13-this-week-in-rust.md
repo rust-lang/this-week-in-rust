@@ -28,16 +28,34 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.74.1](https://blog.rust-lang.org/2023/12/07/Rust-1.74.1.html)
+* [Cargo cache cleaning](https://blog.rust-lang.org/2023/12/11/cargo-cache-cleaning.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: November 2023](https://rust-osdev.com/this-month/2023-11/)
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #211](https://rust-analyzer.github.io/thisweek/2023/12/11/changelog-211.html)
+* [PC Music Generator](https://hjvt.dev/posts/5)
 
 ### Observations/Thoughts
+* [Being Rusty: Discovering Rust's design axioms](https://smallcultfollowing.com/babysteps/blog/2023/12/07/rust-design-axioms/)
+* [Non-Send Futures When?](https://matklad.github.io/2023/12/10/nsfw.html)
+* [`for await` and the battle of buffered streams](https://tmandry.gitlab.io/blog/posts/for-await-buffered-streams/)
+* [poll_progress](https://without.boats/blog/poll-progress/)
+* [Rust Is Beyond Object-Oriented, Part 3: Inheritance](https://www.thecodedmessage.com/posts/oop-3-inheritance/)
+* [Rust and ThreadX](https://ferrous-systems.com/blog/rust-and-threadx/)
+* [audio] [Exploring Rust's impact on efficiency and cost-savings, with Stefan Baumgartner](https://rustacean-station.org/episode/stefan-baumgartner-rust-efficiency/)
 
 ### Rust Walkthroughs
+* [Common Mistakes with Rust Async](https://www.qovery.com/blog/common-mistakes-with-rust-async/)
+* [Embassy on ESP: UART Transmitter](https://apollolabsblog.hashnode.dev/embassy-on-esp-uart-transmitter)
+* [Writing a CLI Tool in Rust with Clap](https://www.shuttle.rs/blog/2023/12/08/clap-rust)
+* [Memory and Iteration](https://yetanotherrustblog.net/memory-and-iteration/)
+* [Getting Started with Axum - Rust's Most Popular Web Framework](https://www.shuttle.rs/blog/2023/12/06/using-axum-rust)
+* [video] [Advent of Code 2023](https://www.youtube.com/playlist?list=PLWtPciJ1UMuD3_8Pb-EqrFhkYpastR2cn)
 
 ### Research
 
