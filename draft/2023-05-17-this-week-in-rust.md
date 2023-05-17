@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [no more bit fiddling - introducing bilge](https://hecatia-elegua.github.io/blog/no-more-bit-fiddling/)
+
 ### Observations/Thoughts
 
 * [Task scheduled time in tokio-console](https://hegdenu.net/posts/task-scheduled-time-in-console/)
