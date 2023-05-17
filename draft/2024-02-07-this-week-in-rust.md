@@ -28,16 +28,37 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [crates.io: API status code changes](https://blog.rust-lang.org/2024/02/06/crates-io-status-codes.html)
 
 ### Foundation
+* [Google Contributes $1M to Rust Foundation to Support C++/Rust "Interop Initiative"](https://foundation.rust-lang.org/news/google-contributes-1m-to-rust-foundation-to-support-c-rust-interop-initiative/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Ratatui 0.26.0](https://ratatui.rs/highlights/v026/)
+* [Announcing the Tauri v2 Beta Release](https://beta.tauri.app/blog/tauri-2-0-0-beta/)
+* [Polars — Why we have rewritten the string data type](https://pola.rs/posts/polars-string-type/)
+* [rust-analyzer changelog #219](https://rust-analyzer.github.io/thisweek/2024/02/05/changelog-219.html)
 
 ### Observations/Thoughts
+* [Will it block?](https://blog.yoshuawuyts.com/what-is-blocking/)
+* [Embedded Rust in Production ..?](https://blog.lohr.dev/embedded-rust)
+* [Let futures be futures](https://without.boats/blog/let-futures-be-futures/)
+* [Compiling Rust is testing](https://kobzol.github.io/rust/2024/02/04/compiling-rust-is-testing.html)
+* [Rust web frameworks have subpar error reporting](https://www.lpalmieri.com/posts/rust-web-frameworks-have-subpar-error-reporting/)
+* [video] [Proving Performance - FOSDEM 2024 - Rust Dev Room](https://www.youtube.com/watch?v=P87C4jNakGs)
+* [video] [Stefan Baumgartner - Trials, Traits, and Tribulations](https://www.youtube.com/watch?v=DH9HIBbpktY)
+* [video] [Rainer Stropek - Memory Management in Rust](https://www.youtube.com/watch?v=5yy64sy2oSM)
+* [video] [Shachar Langbeheim - async & FFI - not exactly a love story](https://www.youtube.com/watch?v=z3tpB94VKwU)
+* [video] [Massimiliano Mantione - Object Oriented Programming, and Rust](https://www.youtube.com/watch?v=XkCHjuF5Qps)
+* [audio] [Unlocking Rust's power through mentorship and knowledge spreading, with Tim McNamara](https://rustacean-station.org/episode/tim-mcnamara/)
+* [audio] [Asciinema with Marcin Kulik](https://rustacean-station.org/episode/marcin-kulik/)
 
 ### Rust Walkthroughs
+* [Garbage Collection Without Unsafe Code](https://fitzgeraldnick.com/2024/02/06/safe-gc.html)
+* [Fragment specifiers in Rust Macros](https://anoopelias.github.io/posts/fragment-specifiers-in-rust-macros/)
+* [Writing a REST API in Rust](https://www.shuttle.rs/blog/2024/01/31/write-a-rest-api-rust)
 
 ### Research
 
