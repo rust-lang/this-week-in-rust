@@ -28,16 +28,33 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.77.0](https://blog.rust-lang.org/2024/03/21/Rust-1.77.0.html)
+* [2024 Edition Update](https://blog.rust-lang.org/inside-rust/2024/03/22/2024-edition-update.html)
+* [This Development-cycle in Cargo: 1.78](https://blog.rust-lang.org/inside-rust/2024/03/26/this-development-cycle-in-cargo-1.78.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [cargo-autoinherit: DRY up your workspace dependencies](https://mainmatter.com/blog/2024/03/18/cargo-autoinherit/)
+* [rust-analyzer changelog #226](https://rust-analyzer.github.io/thisweek/2024/03/25/changelog-226.html)
+* [reqwest v0.12](https://seanmonstar.com/blog/reqwest-v012/)
 
 ### Observations/Thoughts
+* [Why choose async/await over threads?](https://notgull.net/why-not-threads/)
+* [Rustls: Continuous Benchmarking Case Study](https://bencher.dev/learn/case-study/rustls/)
+* [How I reduced (incremental) Rust compile times by up to 40%](https://www.coderemote.dev/blog/faster-rust-compiler-macro-expansion-caching/)
+* [How I learned to stop worrying and love the global state](https://symbolica.io/posts/global_state/)
+* [On Tech Debt: My Rust Library is now a CDO](https://lucumr.pocoo.org/2024/3/26/rust-cdo/)
+* [audio] [Hyper 1.0 with Sean McArthur](https://rustacean-station.org/episode/sean-mcarthur/)
+* [video] [The magic of Rust's type system](https://www.youtube.com/watch?v=NDIU1GSBrVI)
 
 ### Rust Walkthroughs
+* [It's a library AND a binary](https://blog.axo.dev/2024/03/its-a-lib-and-a-bin)
+* [Everything you need to know about testing in Rust](https://www.shuttle.rs/blog/2024/03/21/testing-in-rust)
+* [Building a Notification Service in Rust with AWS SNS](https://www.shuttle.rs/blog/2024/03/20/notification-service-rust)
+* [Embedded Rust Bluetooth on ESP: BLE Server](https://apollolabsblog.hashnode.dev/embedded-rust-bluetooth-on-esp-ble-server)
 
 ### Research
 
