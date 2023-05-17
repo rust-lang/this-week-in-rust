@@ -28,23 +28,35 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [This Development-cycle in Cargo: 1.76](https://blog.rust-lang.org/inside-rust/2024/01/03/this-development-cycle-in-cargo-1-76.html)
 
 ### Foundation
+* [Rust Foundation New Member Announcement: xFusion, Lynx, & SpruceID](https://foundation.rust-lang.org/news/rust-foundation-new-member-announcement-xfusion-lynx-spruceid/)
 
 ### Newsletters
+* [This Month in Rust OSDev: December 2023](https://rust-osdev.com/this-month/2023-12/)
 
 ### Project/Tooling Updates
+* [embedded-hal v1.0 now released!](https://blog.rust-embedded.org/embedded-hal-v1/)
+* [Maestro - Introduction](https://blog.lenot.re/a/introduction)
+* [Polars](https://pola.rs/posts/polars_in_aggregrate-0.20/)
+* [rust-analyzer changelog #215](https://rust-analyzer.github.io/thisweek/2024/01/08/changelog-215.html)
 
 ### Observations/Thoughts
 * [Arrays: index out of bounds error? Not always!](https://www.greyblake.com/blog/index-out-of-bounds-not-always-a-rust-surprise/)
+* [What I'd like to see for Async Rust in 2024](https://smallcultfollowing.com/babysteps/blog/2024/01/03/async-rust-2024/)
+* [Securing the Web: Rustls on track to outperform OpenSSL](https://www.memorysafety.org/blog/rustls-performance/)
+* [audio] [Rust Audio Programming with Ian Hobson](https://thewolfsound.com/talk016/)
+* [audio] [Polars with Ritchie Vink](https://rustacean-station.org/episode/ritchie-vink/)
 
 ### Rust Walkthroughs
+* [Getting Started with Tracing in Rust](https://www.shuttle.rs/blog/2024/01/09/getting-started-tracing-rust)
 
 ### Research
 
 ### Miscellaneous
-
 * [Video] [you need to build a RUST desktop app!!](https://m.youtube.com/watch?v=7aFgeUG9TK4)
+* [video] [Top 10 Games from Bevy Jam 4](https://www.youtube.com/watch?v=FVhOkpIytJc)
 
 ## Crate of the Week
 
