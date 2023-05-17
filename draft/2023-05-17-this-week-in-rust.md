@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Task scheduled time in tokio-console](https://hegdenu.net/posts/task-scheduled-time-in-console/)
 * [You are holding it wrong](https://ochagavia.nl/blog/you-are-holding-it-wrong/)
 
 ### Rust Walkthroughs
