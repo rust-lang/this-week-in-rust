@@ -28,14 +28,22 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rustup 1.27.0](https://blog.rust-lang.org/2024/03/11/Rustup-1.27.0.html)
+* [crates.io: Download changes](https://blog.rust-lang.org/2024/03/11/crates-io-download-changes.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: February 2024](https://rust-osdev.com/this-month/2024-02/)
 
 ### Project/Tooling Updates
+* [Bevy Foundation](https://bevyengine.org/news/bevy-foundation/)
 * [Rust Flashcards - 557 cards to learn Rust from first principles](https://github.com/ad-si/Rust-Flashcards)
-
+* [Lib.rs website improvements](https://users.rust-lang.org/t/lib-rs-website-improvements/108218)
+* [Sudo-rs dependencies: when less is better](https://www.memorysafety.org/blog/reducing-dependencies-in-sudo/)
+* [rust-analyzer changelog #224](https://rust-analyzer.github.io/thisweek/2024/03/11/changelog-224.html)
+* [biscotti, a new crate for HTTP cookies](https://www.lpalmieri.com/posts/biscotti-http-cookies-in-rust/)
+* [Boa release v0.18](https://boajs.dev/blog/2024/03/07/boa-release-18)
 * [Announcing Relm4 0.7 and 0.8](https://relm4.org/blog/posts/announcing_relm4_v0.7/)
 * [Meilisearch 1.7 — New OpenAI models & GPU support for Hugging Face embeddings](https://blog.meilisearch.com/meilisearch-1-7/)
 * [Cargo wizard: automate Cargo project configuration](https://kobzol.github.io/rust/cargo/2024/03/10/rust-cargo-wizard.html)
@@ -43,22 +51,26 @@ and just ask the editors to select the category.
 * [video] [Project Syn - Simon Gerber - Rust Zürisee March 2024](https://www.youtube.com/watch?list=PL85XCvVPmGQipj690WrVgsnU4K4x7qFGy&v=N7GMHcX-WdA)
 
 ### Observations/Thoughts
-
+* [Fast Development In Rust, Part One](https://blog.sdf.com/p/fast-development-in-rust-part-one)
 * [Mental model for unsafe (complete rewrite)](https://ia0.github.io/unsafe-mental-model/)
-* [Problems around modelling an asynchronous API for database transaction in Rust](https://blog.weiznich.de/blog/async-transaction-problem/)
 * [10 years in Open Source](https://ochagavia.nl/blog/10-years-in-open-source/)
+* [audio] [Season Finale - Rust in Production Podcast](https://corrode.dev/podcast/s01e07-season-finale/)
+* [video] [SemVer in Rust: Breakage, Tooling, and Edge Cases](https://www.youtube.com/watch?v=VArNQtYBC6Y)
 
 ### Rust Walkthroughs
-
 * [How to Use Rust Procedural Macros to Replace Panic with syn’s Fold](https://www.infoq.com/articles/rust-procedural-macros-replace-panic/)
 * Rust Iterators Beyond the Basics ([part 1](https://jb.gg/rit-p1), [part 2](https://jb.gg/rit-p2), [part 3](https://jb.gg/rit-p3))
 * [Rust Multi-crate project in a monorepo](https://rust.code-maven.com/multi-crate-project)
-* [video] [SemVer in Rust: Breakage, Tooling, and Edge Cases — FOSDEM 2024 Rust Dev Room](https://www.youtube.com/watch?v=VArNQtYBC6Y)
- 
+* [Using Stripe Payments with Rust](https://www.shuttle.rs/blog/2024/03/07/stripe-payments-rust)
+* [Problems around modelling an asynchronous API for database transaction in Rust](https://blog.weiznich.de/blog/async-transaction-problem/)
+* [Embedded Rust Bluetooth on ESP: BLE Scanner](https://apollolabsblog.hashnode.dev/embedded-rust-bluetooth-on-esp-ble-scanner)
+* [video] [Implementing (parts of) git from scratch in Rust](https://www.youtube.com/watch?v=u0VotuGzD_w)
+* [video] [The Billion Rows Challenge in Rust - an intro to Rust for data engineering](https://www.youtube.com/watch?v=-1VGwmFKKf8)
+
 ### Research
 
 ### Miscellaneous
-
+* [Rust impact on engineering management](https://bastienvigneron.medium.com/rust-impact-on-engineering-management-59647e5d0265)
 * [From medical doctor to rust developer](https://surrealdb.com/blog/from-medical-doctor-to-rust-developer--interview-with-our-new-senior-clinical-research-fellow)
 * [February 2024 Rust Jobs Report](https://filtra.io/rust-feb-24)
 
