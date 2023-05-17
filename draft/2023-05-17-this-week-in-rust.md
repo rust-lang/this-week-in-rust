@@ -79,6 +79,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [Hyperswitch - Implement `CardsInfoInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1189)
+* [Hyperswitch - Implement `DisputeInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1190)
+* [Hyperswitch - Implement `EphemeralKeyInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1191)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
