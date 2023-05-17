@@ -28,24 +28,36 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Improved API tokens for crates.io](https://blog.rust-lang.org/2023/06/23/improved-api-tokens-for-crates-io.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #187](https://rust-analyzer.github.io/thisweek/2023/06/26/changelog-187.html)
 
 ### Observations/Thoughts
-- [Rust fact vs. fiction: 5 Insights from Google's Rust journey in 2022](https://opensource.googleblog.com/2023/06/rust-fact-vs-fiction-5-insights-from-googles-rust-journey-2022.html)
-
+* [Rust fact vs. fiction: 5 Insights from Google's Rust journey in 2022](https://opensource.googleblog.com/2023/06/rust-fact-vs-fiction-5-insights-from-googles-rust-journey-2022.html)
 * [Escaping Macrophages](https://www.unscript.net/redblog/posts/trait-impl-macros/)
+* [Code coverage in Rust](https://rrmprogramming.com/article/code-coverage-in-rust/)
+* [video] [Verus - Verified Rust for low-level systems code by Andrea Lattuada](https://www.youtube.com/watch?v=ZZTk-zS4ZCY)
+* [audio] [Daily with Kwindla Hultman Kramer :: Rustacean Station](https://rustacean-station.org/episode/kwindla-hultman-kramer/)
+* [audio] [Fish Folk with Erlend Sogge Heggen :: Rustacean Station](https://rustacean-station.org/episode/erlend-sogge-heggen/)
 
 ### Rust Walkthroughs
+* [Serde Errors When Deserializing Untagged Enums Are Bad - But Easy to Make Better](https://www.gustavwengel.dk/serde-untagged-enum-errors-are-bad)
+* [Blowing up my compile times for dubious benefits](https://claytonwramsey.github.io/2023/06/20/fiddler-const-magic.html)
+* [Walk-Through: Prefix Ranges in Rust, a Surprisingly Deep Dive](https://www.thecodedmessage.com/posts/prefix-ranges/)
+* [ESP32 Embedded Rust at the HAL: Remote Control Peripheral](https://apollolabsblog.hashnode.dev/esp32-embedded-rust-at-the-hal-remote-control-peripheral)
+* [video] [Writing a Rust-based ring buffer](https://www.youtube.com/watch?v=TQVwv_e_rMw)
 * [video] [Supercharge your I/O in Rust with io_uring](https://www.youtube.com/watch?v=IHAPVK1nOrQ)
 * [video] [Graph Traversal with Breadth-First Search in Rust](https://www.youtube.com/watch?v=ZDy3tqn-DKA)
 * [video] [Nine Rules for Writing Python Extensions in Rust | PyData Seattle 2023](https://www.youtube.com/watch?v=B6E0Jb6yj34)
 
 ### Research
+* [Friend or Foe Inside? Exploring In-Process Isolation to Maintain Memory Safety for Unsafe Rust](https://arxiv.org/abs/2306.08127)
+* [Agile Development of Linux Schedulers with Ekiben](https://arxiv.org/abs/2306.15076)
 
 ### Miscellaneous
 
