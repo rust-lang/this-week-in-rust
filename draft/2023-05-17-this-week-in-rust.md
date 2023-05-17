@@ -35,10 +35,16 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [no more bit fiddling - introducing bilge](https://hecatia-elegua.github.io/blog/no-more-bit-fiddling/)
+
 ### Observations/Thoughts
+
+* [Task scheduled time in tokio-console](https://hegdenu.net/posts/task-scheduled-time-in-console/)
+* [You are holding it wrong](https://ochagavia.nl/blog/you-are-holding-it-wrong/)
 
 ### Rust Walkthroughs
 
+* [Build a simple grep CLI app in Rust](https://developerlife.com/2022/03/02/rust-grep-cli-app/)
 * [video] [Topological Sort: The Hidden Gem of Graph Algorithms in Rust](https://www.youtube.com/watch?v=HS8-1Obn87M)
 
 ### Research
@@ -73,7 +79,16 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+The last two weeks mostly have small changes across a number of benchmarks, no
+widespread large regressions or improvements.
+
+Triage done by **@simulacrum**.
+Revision range: [a368898d..3ea9ad532](https://perf.rust-lang.org/?start=a368898de758e1b8def6c9060044a5b40eb79e84&end=3ea9ad532474343426e564b997891e459cda89a6&absolute=false&stat=instructions%3Au)
+
+6 Regressions, 3 Improvements, 4 Mixed; 2 of them in rollups
+90 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-05-16.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
