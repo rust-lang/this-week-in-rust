@@ -64,7 +64,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [Qdrant](https://github.com/qdrant/qdrant), an open source production ready vector database/similarity search engine written in Rust. There are APIs available for [Rust](https://github.com/qdrant/rust-client), Python, Javascript/Typescript and Go.
+
+llogiq is overjoyed with his suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -91,7 +93,79 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+326 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-05-08..2023-05-15
+
+* [add support for `cfg(overflow_checks)`](https://github.com/rust-lang/rust/pull/111096)
+* [CFI: fix SIGILL reached via trait objects](https://github.com/rust-lang/rust/pull/111375)
+* [add midpoint function for all integers and floating numbers](https://github.com/rust-lang/rust/pull/92048)
+* [align unsized locals](https://github.com/rust-lang/rust/pull/111374)
+* [allow mutating function args through `&raw const`](https://github.com/rust-lang/rust/pull/111517)
+* [better diagnostics for `env!` where variable contains escape](https://github.com/rust-lang/rust/pull/111463)
+* [better diagnostics for `impl<..> impl Trait for Type`](https://github.com/rust-lang/rust/pull/111477)
+* [encode `VariantIdx` so we can decode ADT variants in the right order](https://github.com/rust-lang/rust/pull/111494)
+* [encode types in SMIR](https://github.com/rust-lang/rust/pull/110747)
+* [fix the `FileEncoder` buffer size](https://github.com/rust-lang/rust/pull/111088)
+* [implement SSA-based reference propagation](https://github.com/rust-lang/rust/pull/106285)
+* [implement builtin # syntax and use it for `offset_of!(...)`](https://github.com/rust-lang/rust/pull/110694)
+* [improve suggestion for `self: Box<self>`](https://github.com/rust-lang/rust/pull/111460)
+* [introduce `DynSend` and `DynSync` auto trait for parallel compiler](https://github.com/rust-lang/rust/pull/107586)
+* [keep encoding attributes for closures](https://github.com/rust-lang/rust/pull/111381)
+* [min specialization improvements](https://github.com/rust-lang/rust/pull/111252)
+* [note user-facing types of coercion failure](https://github.com/rust-lang/rust/pull/111451)
+* [only warn single-use lifetime when the binders match](https://github.com/rust-lang/rust/pull/111444)
+* [require impl Trait in associated types to appear in method signatures](https://github.com/rust-lang/rust/pull/110454)
+* [suggest let for possible binding with ty](https://github.com/rust-lang/rust/pull/111120)
+* [support linking to rust dylib with --crate-type staticlib](https://github.com/rust-lang/rust/pull/106560)
+* [switch to `EarlyBinder` for `thir_abstract_const` query](https://github.com/rust-lang/rust/pull/111410)
+* [tweak "make mut" spans when assigning to locals](https://github.com/rust-lang/rust/pull/110583)
+* [tweak borrow suggestion span](https://github.com/rust-lang/rust/pull/110504)
+* [uplift `clippy::{drop,forget}_{ref,copy}` lints](https://github.com/rust-lang/rust/pull/109732)
+* [use `visit_assign` to detect SSA locals](https://github.com/rust-lang/rust/pull/111432)
+* [use by ref TokenTree iterator to avoid a few clones](https://github.com/rust-lang/rust/pull/111492)
+* [use dynamic dispatch for queries](https://github.com/rust-lang/rust/pull/108638)
+* [use implied bounds when checking opaque types](https://github.com/rust-lang/rust/pull/106038)
+* [use proper impl self type for alias impl in rustdoc](https://github.com/rust-lang/rust/pull/111448)
+* [allow MIR debuginfo to point to a variable's address](https://github.com/rust-lang/rust/pull/111440)
+* [custom MIR: Support `Rvalue::CopyForDeref`](https://github.com/rust-lang/rust/pull/111587)
+* [miri: add `./miri run-dep` for running a file with test dependencies available](https://github.com/rust-lang/miri/pull/2890)
+* [miri: cargo-miri: fix forwarding arguments to cargo](https://github.com/rust-lang/miri/pull/2896)
+* [miri: implement SIMD ptr casts](https://github.com/rust-lang/miri/pull/2894)
+* [miri: support array return types in `simd_bitmask`](https://github.com/rust-lang/miri/pull/2895)
+* [reduce BitSet size used in `Borrows` dataflow analysis](https://github.com/rust-lang/rust/pull/111396)
+* [simplify `find_width_of_character_at_span`](https://github.com/rust-lang/rust/pull/111560)
+* [simplify the implementation of iterators over slices of ZSTs](https://github.com/rust-lang/rust/pull/111395)
+* [stabilize `const_ptr_read`](https://github.com/rust-lang/rust/pull/97320)
+* [stabilize const `slice::split_at`](https://github.com/rust-lang/rust/pull/108273)
+* [always const-evaluate the GCD in `slice::align_to_offsets`](https://github.com/rust-lang/rust/pull/111296)
+* [limit lifetime of `format_args!()` with inlined args](https://github.com/rust-lang/rust/pull/110770)
+* [implement `AsHandle`/`AsSocket` for `Arc`/`Rc`/`Box` on Windows](https://github.com/rust-lang/rust/pull/108196)
+* [shorten lifetime of panic temporaries in `panic_fmt` case](https://github.com/rust-lang/rust/pull/104134)
+* [start using `windows sys` for Windows FFI bindings in std](https://github.com/rust-lang/rust/pull/110152)
+* [cargo: fix `check_for_file_and_add`'s check for conflict file](https://github.com/rust-lang/cargo/pull/12135)
+* [cargo: fix dep/feat syntax with hidden implicit optional dependencies](https://github.com/rust-lang/cargo/pull/12130)
+* [cargo: remove useless drop of copy type](https://github.com/rust-lang/cargo/pull/12136)
+* [cargo: semver: note that it is not a breaking change to make an unsafe function safe](https://github.com/rust-lang/cargo/pull/12116)
+* [clippy: `[arithmetic_side_effects]` Consider referenced allowed or hard-coded types](https://github.com/rust-lang/rust-clippy/pull/10768)
+* [clippy: `needless_bool`: do not simplify code if it loses comments](https://github.com/rust-lang/rust-clippy/pull/10766)
+* [clippy: add configuration options to `--explain`](https://github.com/rust-lang/rust-clippy/pull/10751)
+* [clippy: add lint `manual_next_back`](https://github.com/rust-lang/rust-clippy/pull/10769)
+* [clippy: don't emit `clippy::useless_conversion` on type aliases](https://github.com/rust-lang/rust-clippy/pull/10778)
+* [clippy: extend `trait_duplication_in_bounds` to cover trait objects](https://github.com/rust-lang/rust-clippy/pull/10727)
+* [clippy: warn on empty line outer `AttrKind::DocComment`](https://github.com/rust-lang/rust-clippy/pull/10691)
+* [rust-analyzer: add basic support for `augmentsSyntaxTokens` and non-standard semantic token config](https://github.com/rust-lang/rust-analyzer/pull/14777)
+* [rust-analyzer: add metrics for unevaluated constants, failed mir bodies, and failed data layouts](https://github.com/rust-lang/rust-analyzer/pull/14808)
+* [rust-analyzer: expand more single ident macro calls upon item collection](https://github.com/rust-lang/rust-analyzer/pull/14800)
+* [rust-analyzer: add `#[doc(alias(..))]-based` method completions](https://github.com/rust-lang/rust-analyzer/pull/14775)
+* [rust-analyzer: add macro modifier for highlighting tokens in macro calls](https://github.com/rust-lang/rust-analyzer/pull/14795)
+* [rust-analyzer: fix perf regression from symbol index refactor](https://github.com/rust-lang/rust-analyzer/pull/14797)
+* [rust-analyzer: fix process-changes duplicating change events](https://github.com/rust-lang/rust-analyzer/pull/14801)
+* [rust-analyzer: introduce macro sub-namespaces and `macro_use` prelude](https://github.com/rust-lang/rust-analyzer/pull/14781)
+* [rust-analyzer: more APIs for `la_arena::IdxRange`](https://github.com/rust-lang/rust-analyzer/pull/14747)
+* [rust-analyzer: remove root component from patched Windows UNC path prefix](https://github.com/rust-lang/rust-analyzer/pull/14799)
+* [rust-analyzer: restructure InlayHint, no longer derive properties from its kind](https://github.com/rust-lang/rust-analyzer/pull/14794)
+* [rust-analyzer: support `#[macro_use(name, ...)]`](https://github.com/rust-lang/rust-analyzer/pull/14809)
 
 ### Rust Compiler Performance Triage
 
@@ -247,7 +321,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> That's one of the great things about Rust: sometimes you can do something really dumb and get away with it.
+
+– [Rik Arends at RustNL](https://www.youtube.com/live/9Q4yNlbfiYk?feature=share&t=1441)
+
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1414) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
