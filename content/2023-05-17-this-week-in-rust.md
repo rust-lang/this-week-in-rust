@@ -27,10 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 * [Shuttle Launchpad](https://www.shuttle.rs/launchpad)
 * [This Month in Rust OSDev: April 2023](https://rust-osdev.com/this-month/2023-04/)
@@ -57,10 +53,6 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Build a simple grep CLI app in Rust](https://developerlife.com/2022/03/02/rust-grep-cli-app/)
 * [video] [Topological Sort: The Hidden Gem of Graph Algorithms in Rust](https://www.youtube.com/watch?v=HS8-1Obn87M)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -286,6 +278,10 @@ Rusty Events between 2023-05-17 - 2023-06-14 🦀
     * [**Rust Paris meetup #59**](https://www.meetup.com/rust-paris/events/293191172)
 * 2023-05-30 | Barcelona, ES | [BcnRust](https://www.meetup.com/bcnrust/)
     * [**10th BcnRust Meetup**](https://www.meetup.com/bcnrust/events/293363107)
+* 2023-06-03 | Plovidv, BG | [AeroRust](https://aerorust.org)
+    * [**Space Conference - Plovdiv**](https://space-conference-plovdiv.eventbrite.com)
+* 2023-06-04 | Plovidv, BG | [AeroRust](https://aerorust.org)
+    * [**Space Conference : Nanosatellite embedded workshop**](https://forms.gle/rnFx5wCbrYA9qN7m6)
 * 2023-06-08 | Zurich, CH | [Rust Zurich](https://www.meetup.com/de-DE/rust-zurich/)
     * [**Unsafe, Miri, SIMD - June Meetup**](https://www.meetup.com/de-DE/rust-zurich/events/293322792/)
 
@@ -317,7 +313,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/12tehic/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
