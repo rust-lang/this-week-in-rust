@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Whichlang: A fast language detection library for Rust](https://quickwit.io/blog/whichlang-language-detection-library)
+
 ### Research
 
 ### Miscellaneous
