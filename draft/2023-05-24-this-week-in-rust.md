@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Pavex, a new Rust web framework - #4: Performance is a feature](https://www.lpalmieri.com/posts/pavex-progress-report-04/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
