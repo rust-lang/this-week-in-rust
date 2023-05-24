@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Opensourcing Whichlang, a fast language detection library for Rust](https://quickwit.io/blog/whichlang-language-detection-library)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
