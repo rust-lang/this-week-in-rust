@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+[A guide to closures in Rust](https://hashrust.com/blog/a-guide-to-closures-in-rust/)
 
 ### Rust Walkthroughs
 
