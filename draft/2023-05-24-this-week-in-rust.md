@@ -65,8 +65,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [bilge - Allow others to define their own `-Bits` derives](https://github.com/hecatia-elegua/bilge/issues/11)
 * [Hyperswitch - Implement `CardsInfoInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1256)
 * [Hyperswitch - Implement `DisputeInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1257)
 * [Hyperswitch - Unite payment intent and setup intent in stripe compatibility](https://github.com/juspay/hyperswitch/issues/1242)
