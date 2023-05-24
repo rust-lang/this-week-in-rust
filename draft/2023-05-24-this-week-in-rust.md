@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Update-informer v1.0.0](https://github.com/mgrachev/update-informer/releases/tag/v1.0.0)
 
 * [Opensourcing Whichlang, a fast language detection library for Rust](https://quickwit.io/blog/whichlang-language-detection-library)
 
