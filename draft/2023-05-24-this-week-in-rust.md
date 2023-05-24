@@ -35,9 +35,16 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Update-informer v1.0.0](https://github.com/mgrachev/update-informer/releases/tag/v1.0.0)
+* [Pavex, a new Rust web framework - #4: Performance is a feature](https://www.lpalmieri.com/posts/pavex-progress-report-04/)
+* [Opensourcing Whichlang, a fast language detection library for Rust](https://quickwit.io/blog/whichlang-language-detection-library)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+
+* [A guide to closures in Rust](https://hashrust.com/blog/a-guide-to-closures-in-rust/)
+* [Guide to parsing with nom](https://developerlife.com/2023/02/20/guide-to-nom-parsing/)
 
 ### Research
 
@@ -59,6 +66,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [bilge - Allow others to define their own `-Bits` derives](https://github.com/hecatia-elegua/bilge/issues/11)
+* [Hyperswitch - Implement `CardsInfoInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1256)
+* [Hyperswitch - Implement `DisputeInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1257)
+* [Hyperswitch - Unite payment intent and setup intent in stripe compatibility](https://github.com/juspay/hyperswitch/issues/1242)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -70,7 +80,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+There were a few regressions, but most were expected, and one in particular (PR
+#111807) is expected yield gains in object code performance at the expense of a
+slight compile-time hit. There are a couple PR's that need future followup,
+namely PRs #111364 and #111524.
+
+Triage done by **@pnkfelix**.
+Revision range: [3ea9ad53..cda5becc](https://perf.rust-lang.org/?start=3ea9ad532474343426e564b997891e459cda89a6&end=cda5becc27cbc7106646fbc40aacea5e7896d954&absolute=false&stat=instructions%3Au)
+ 
+3 Regressions, 2 Improvements, 5 Mixed; 2 of them in rollups
+51 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-05-23.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
