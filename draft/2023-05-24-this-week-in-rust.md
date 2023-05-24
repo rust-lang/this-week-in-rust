@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 * [Opensourcing Whichlang, a fast language detection library for Rust](https://quickwit.io/blog/whichlang-language-detection-library)
 
 ### Observations/Thoughts
+[A guide to closures in Rust](https://hashrust.com/blog/a-guide-to-closures-in-rust/)
 
 ### Rust Walkthroughs
 
