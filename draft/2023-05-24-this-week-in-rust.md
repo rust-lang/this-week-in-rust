@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Guide to parsing with nom](https://developerlife.com/2023/02/20/guide-to-nom-parsing/)
+
 ### Research
 
 ### Miscellaneous
