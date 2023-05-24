@@ -34,15 +34,16 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [Update-informer v1.0.0](https://github.com/mgrachev/update-informer/releases/tag/v1.0.0)
 
+* [Update-informer v1.0.0](https://github.com/mgrachev/update-informer/releases/tag/v1.0.0)
+* [Pavex, a new Rust web framework - #4: Performance is a feature](https://www.lpalmieri.com/posts/pavex-progress-report-04/)
 * [Opensourcing Whichlang, a fast language detection library for Rust](https://quickwit.io/blog/whichlang-language-detection-library)
 
 ### Observations/Thoughts
-[A guide to closures in Rust](https://hashrust.com/blog/a-guide-to-closures-in-rust/)
 
 ### Rust Walkthroughs
 
+* [A guide to closures in Rust](https://hashrust.com/blog/a-guide-to-closures-in-rust/)
 * [Guide to parsing with nom](https://developerlife.com/2023/02/20/guide-to-nom-parsing/)
 
 ### Research
