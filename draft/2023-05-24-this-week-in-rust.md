@@ -188,8 +188,8 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-There were a few regressions, but most were expected, and one in particular (PR
-#111807) is expected yield gains in object code performance at the expense of a
+There were a few regressions, but most were expected, and one in particular
+(PR #111807) is expected yield gains in object code performance at the expense of a
 slight compile-time hit. There are a couple PR's that need future followup,
 namely PRs #111364 and #111524.
 
