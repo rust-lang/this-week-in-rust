@@ -27,18 +27,11 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [Solving the "floating point precision" problem with... floats?](https://dev.to/voliva/solving-the-floating-point-precision-problem-with-floats-4369)
 * [Sniffnet v1.2.0](https://github.com/GyulyVGC/sniffnet/releases/tag/v1.2.0)
 * [Bevy + WebGPU](https://bevyengine.org/news/bevy-webgpu/)
 * [rust-analyzer changelog #182](https://rust-analyzer.github.io/thisweek/2023/05/22/changelog-182.html)
-
 * [Update-informer v1.0.0](https://github.com/mgrachev/update-informer/releases/tag/v1.0.0)
 * [Pavex, a new Rust web framework - #4: Performance is a feature](https://www.lpalmieri.com/posts/pavex-progress-report-04/)
 * [Opensourcing Whichlang, a fast language detection library for Rust](https://quickwit.io/blog/whichlang-language-detection-library)
@@ -55,10 +48,9 @@ and just ask the editors to select the category.
 * [Compress-a-Palooza: Unpacking 5 Billion Varints in only 4 Billion CPU Cycles](https://www.bazhenov.me/posts/rust-stream-vbyte-varint-decoding/)
 * [Resilient LL Parsing Tutorial](https://matklad.github.io/2023/05/21/resilient-ll-parsing-tutorial.html)
 * [ESP32 Embedded Rust at the HAL: Timer Ultrasonic Distance Measurement](https://apollolabsblog.hashnode.dev/esp32-embedded-rust-at-the-hal-timer-ultrasonic-distance-measurement)
-* [video] [N-Queens Puzzle (PART 2) - Rust - Codurance Screenkata](https://www.youtube.com/watch?v=45ShXM9hwJc)
-
 * [A guide to closures in Rust](https://hashrust.com/blog/a-guide-to-closures-in-rust/)
 * [Guide to parsing with nom](https://developerlife.com/2023/02/20/guide-to-nom-parsing/)
+* [video] [N-Queens Puzzle (PART 2) - Rust - Codurance Screenkata](https://www.youtube.com/watch?v=45ShXM9hwJc)
 
 ### Research
 * [video] [Nico Lehmann, Flux: Liquid Types for Rust](https://www.youtube.com/watch?v=k-izcFCHN2o)
@@ -308,7 +300,7 @@ Rusty Events between 2023-05-24 - 2023-06-21 🦀
 * 2023-06-04 | Plovidv, BG | [AeroRust](https://aerorust.org)
     * [**Space Conference : Nanosatellite embedded workshop**](https://forms.gle/rnFx5wCbrYA9qN7m6)
 * 2023-06-08 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
-    * [****](https://www.meetup.com/rust-aarhus/events/292865970/)
+    * [**Rust Aarhus meetup #2 sponsored by BRØLSTÆRK**](https://www.meetup.com/rust-aarhus/events/292865970/)
 * 2023-06-08 | Zurich, CH | [Rust Zurich](https://www.meetup.com/de-DE/rust-zurich/)
     * [**Unsafe, Miri, SIMD - June Meetup**](https://www.meetup.com/de-DE/rust-zurich/events/293322792/)
 
@@ -335,7 +327,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/12tehic/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -356,4 +348,4 @@ Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/13r0c4c/this_week_in_rust_496/)</small>
