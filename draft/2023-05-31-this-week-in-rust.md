@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rumqttd now supports MQTTv5 features like topic alias and message expiry](https://bytebeam.io/blog/one-step-closer-to-mqttv5-broker/)
 
 ### Observations/Thoughts
 
