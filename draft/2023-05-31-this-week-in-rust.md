@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [ratatui 0.21.0 is released! (community fork of tui-rs)](https://github.com/tui-rs-revival/ratatui/releases/tag/v0.21.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
