@@ -59,6 +59,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
+
+* [Hyperswitch - Define the Mapping between `ConnectorError` and `ApiErrorResponse` using the `ErrorSwitch` trait](https://github.com/juspay/hyperswitch/issues/1326)
+* [Hyperswitch - Remove redundant call to fetch payment method data](https://github.com/juspay/hyperswitch/issues/1327)
+* [Hyperswitch - Remove redundant heap allocation (specifically string construction) in the application](https://github.com/juspay/hyperswitch/issues/1294)
+* [Hyperswitch - Remove redundant heap allocation present in the logging framework](https://github.com/juspay/hyperswitch/issues/1293)
 <!-- * [ - ]() -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
