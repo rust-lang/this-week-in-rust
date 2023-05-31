@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[There is a new package registry available to Rust developers, for pro / paid libraries: Code Code Ship](https://codecodeship.com/changelog#2023-05-30)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
