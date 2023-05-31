@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [How I finally understood async/await in Rust (part 1)](https://hegdenu.net/posts/understanding-async-await-1/)
+
 ### Research
 
 ### Miscellaneous
