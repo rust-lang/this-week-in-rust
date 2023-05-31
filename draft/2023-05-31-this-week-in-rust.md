@@ -71,7 +71,17 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A good week overall, with a broad set of improvements to many primary benchmarks.
+The main single source of primary regressions is from rollup PR #111869; we are
+in the process of narrowing that down to see if there is a root cause.
+
+Triage done by **@pnkfelix**.
+Revision range: [cda5becc..1221e43b](https://perf.rust-lang.org/?start=cda5becc27cbc7106646fbc40aacea5e7896d954&end=1221e43bdf413f7c405e9b17ef19d76c88222098&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 3 Improvements, 3 Mixed; 4 of them in rollups
+26 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-05-30.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
