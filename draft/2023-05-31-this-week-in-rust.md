@@ -58,8 +58,15 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Ockam - Don't show a secure channel listener if it does not exist 2](https://github.com/build-trust/ockam/issues/4974)
+* [Ockam - `ockam secure-channel-listener list --node n1` is inconsistent 2](https://github.com/build-trust/ockam/issues/4973)
+* [Ockam - Do not print that a secure channel listener was successfully deleted when it is not the case 2](https://github.com/build-trust/ockam/issues/4972)
+* [Ockam - `tcp-connection show` command should iter all the available nodes to find the requested ID](https://github.com/build-trust/ockam/issues/4976)
+* [Ockam - Define json output for `ockam node create`](https://github.com/build-trust/ockam/issues/4967)
+* [velo - Implement Copy and Paste Functionality for `bevy_cosmic_edit` - Issue #128 - StaffEngineer/velo - GitHub 2](https://github.com/StaffEngineer/velo/issues/128)
+* [velo - Fix text height calculation for proper text alignment - Issue #131 - StaffEngineer/velo - GitHub 1](https://github.com/StaffEngineer/velo/issues/131)
+* [send-file - create WiFi hotspot on Linux Operating system 1](https://github.com/opeolluwa/send-file/issues/83)
+* [send-file - read the device default documents directory and return an array of documents files path 1](https://github.com/opeolluwa/send-file/issues/84)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
