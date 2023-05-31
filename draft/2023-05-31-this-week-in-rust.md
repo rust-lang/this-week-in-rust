@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+1. [M.E.D.(Mask, Encrypt, Decrypt) - a RUST powered CLI tool for CSV/JSON files](https://github.com/jayhuang75/rust-cli-med)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
