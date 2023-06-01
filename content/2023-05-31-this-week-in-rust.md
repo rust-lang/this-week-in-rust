@@ -33,7 +33,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [rumqttd now supports MQTTv5 features like topic alias and message expiry](https://bytebeam.io/blog/one-step-closer-to-mqttv5-broker/)
 * [GlueSQL v0.14 - Schemaless data support](https://github.com/gluesql/gluesql/releases/tag/v0.14.0)
-- [ratatui 0.21.0 is released! (community fork of tui-rs)](https://github.com/tui-rs-revival/ratatui/releases/tag/v0.21.0)
+* [ratatui 0.21.0 is released! (community fork of tui-rs)](https://github.com/tui-rs-revival/ratatui/releases/tag/v0.21.0)
 * [rust-analyzer Changelog #183](https://rust-analyzer.github.io/thisweek/2023/05/29/changelog-183.html)
 * [IntelliJ Rust Changelog #195](https://intellij-rust.github.io/2023/05/30/changelog-195.html)
 * [rustc_codegen_gcc: Progress Report #23](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-23)
