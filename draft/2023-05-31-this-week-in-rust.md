@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 * [How I finally understood async/await in Rust (part 1)](https://hegdenu.net/posts/understanding-async-await-1/)
 
+* [Serving dynamic social preview images with rust and serverless functions](https://traits-crates-and-awaits.ghost.io/serving-dynamic-social-preview-images-with-rust-and-serverless-functions/)
+
 ### Research
 
 ### Miscellaneous
