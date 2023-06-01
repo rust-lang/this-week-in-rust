@@ -28,11 +28,9 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
 * [On the RustConf keynote | Rust Blog](https://blog.rust-lang.org/2023/05/29/RustConf.html)
 
 ### Project/Tooling Updates
-
 * [rumqttd now supports MQTTv5 features like topic alias and message expiry](https://bytebeam.io/blog/one-step-closer-to-mqttv5-broker/)
 * [GlueSQL v0.14 - Schemaless data support](https://github.com/gluesql/gluesql/releases/tag/v0.14.0)
 - [ratatui 0.21.0 is released! (community fork of tui-rs)](https://github.com/tui-rs-revival/ratatui/releases/tag/v0.21.0)
@@ -42,14 +40,12 @@ and just ask the editors to select the category.
 * [Statement on RustConf & Introspection](https://soasis.org/posts/statement-on-rustconf-compile-time-introspection/)
 
 ### Observations/Thoughts
-
 * [Paired benchmarking. How to measure performance](https://www.bazhenov.me/posts/paired-benchmarking/)
 * [Pattern Extensions](https://blog.yoshuawuyts.com/pattern-extensions/)
 * [A governance system, if you can keep it](https://without.boats/blog/if-you-can-keep-it/)
 * [video] [Why You Shouldn’t Build Your Next App in Rust](https://youtu.be/spXMLbHVEkQ)
 
 ### Rust Walkthroughs
-
 * [How I finally understood async/await in Rust (part 1)](https://hegdenu.net/posts/understanding-async-await-1/)
 * [Serving dynamic social preview images with rust and serverless functions](https://traits-crates-and-awaits.ghost.io/serving-dynamic-social-preview-images-with-rust-and-serverless-functions/)
 * [Phase Locked State Machines](https://onevariable.com/blog/phase-locked-state-machines/)
@@ -64,7 +60,6 @@ and just ask the editors to select the category.
 * [video] [Building a Weather Forecast Command-Line App in Rust](https://www.youtube.com/watch?v=jMmDpR8mask)
 
 ### Miscellaneous
-
 * [I Am No Longer Speaking at RustConf 2023](https://thephd.dev/i-am-no-longer-speaking-at-rustconf-2023)
 * [Josh Triplett's Statement on RustConf 2023](https://hackmd.io/p3VG_bK9TXOvtgh1oA2yZQ)
 * [Why I left Rust](https://www.jntrnr.com/why-i-left-rust/?s=33)
