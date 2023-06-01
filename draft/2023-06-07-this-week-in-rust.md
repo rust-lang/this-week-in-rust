@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [A Practical Introduction to Derive Macros with Attributes](https://www.youtube.com/watch?v=GFijwucFJqw)
 
 ### Research
 
