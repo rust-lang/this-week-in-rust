@@ -66,7 +66,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 
 * [I Am No Longer Speaking at RustConf 2023](https://thephd.dev/i-am-no-longer-speaking-at-rustconf-2023)
-* [Josh Triplett's Statement on RustConf 2023](https://hackmd.io/p3VG_bK9TXOvtgh1oA2yZQ?view)
+* [Josh Triplett's Statement on RustConf 2023](https://hackmd.io/p3VG_bK9TXOvtgh1oA2yZQ)
 * [Why I left Rust](https://www.jntrnr.com/why-i-left-rust/?s=33)
 * [How s2n-quic uses Kani to inspire confidence](https://model-checking.github.io/kani-verifier-blog/2023/05/30/how-s2n-quic-uses-kani-to-inspire-confidence.html)
 
