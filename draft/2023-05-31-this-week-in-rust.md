@@ -184,15 +184,7 @@ Revision range: [cda5becc..1221e43b](https://perf.rust-lang.org/?start=cda5becc2
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* [The #[diagnostic] attribute namespace](https://github.com/rust-lang/rfcs/pull/3368)
 
 ### Final Comment Period
 
@@ -201,34 +193,32 @@ which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [Return position `impl Trait` in traits](https://github.com/rust-lang/rfcs/pull/3425)
+* [disposition: merge] [eRFC: single-file packages ("cargo script") integration](https://github.com/rust-lang/rfcs/pull/3424)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [rustdoc: search for slices and arrays by type with `[]`](https://github.com/rust-lang/rust/pull/111958)
+* [disposition: close] [dyn Trait comparison should not include the vtable pointer](https://github.com/rust-lang/rust/issues/106447)
+* [disposition: merge] [Uplift `clippy::fn_null_check` lint](https://github.com/rust-lang/rust/pull/111717)
+* [disposition: merge] [Uplift `clippy::cmp_nan` lint](https://github.com/rust-lang/rust/pull/111818)
+* [disposition: merge] [rustdoc: Add search result item types after their name](https://github.com/rust-lang/rust/pull/110688)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+* [new] [Unsafe Extern Blocks](https://github.com/rust-lang/rfcs/pull/3439)
+* [new] [RFC: Implementable trait aliases](https://github.com/rust-lang/rfcs/pull/3437)
 
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+* [new] [RFC: `#[export]` (dynamically linked crates)](https://github.com/rust-lang/rfcs/pull/3435)
+* [new] [Generic Futures](https://github.com/rust-lang/rfcs/pull/3434)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+* Add a `[lints]` table to Cargo.toml (Feature: [`manifest-lint`](https://github.com/rust-lang/rfcs/blob/master/text/3389-manifest-lint.md))
+  * [Tracking Issue](https://github.com/rust-lang/rfcs/pull/3389)
+  * [Testing steps](https://github.com/rust-lang/rfcs/pull/3389#issuecomment-1562948551)
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
