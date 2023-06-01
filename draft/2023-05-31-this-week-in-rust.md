@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 - [video] [Atomics and Locks Book Club - Chapter 1 - Basics of Rust Concurrency](https://www.youtube.com/watch?v=99Qzpv325yI)
 - [video] [Atomics and Locks Book Club - Chapter 2 - Atomics](https://www.youtube.com/watch?v=Ivm1FuO8quw)
 
+* [How I finally understood async/await in Rust (part 1)](https://hegdenu.net/posts/understanding-async-await-1/)
+
 ### Research
 
 ### Miscellaneous
