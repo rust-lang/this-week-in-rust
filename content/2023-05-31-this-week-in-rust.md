@@ -27,29 +27,16 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rumqttd now supports MQTTv5 features like topic alias and message expiry](https://bytebeam.io/blog/one-step-closer-to-mqttv5-broker/)
 * [GlueSQL v0.14 - Schemaless data support](https://github.com/gluesql/gluesql/releases/tag/v0.14.0)
-
 - [ratatui 0.21.0 is released! (community fork of tui-rs)](https://github.com/tui-rs-revival/ratatui/releases/tag/v0.21.0)
-
-### Observations/Thoughts
 
 ### Rust Walkthroughs
 - [video] [Atomics and Locks Book Club - Chapter 1 - Basics of Rust Concurrency](https://www.youtube.com/watch?v=99Qzpv325yI)
 - [video] [Atomics and Locks Book Club - Chapter 2 - Atomics](https://www.youtube.com/watch?v=Ivm1FuO8quw)
-
 * [How I finally understood async/await in Rust (part 1)](https://hegdenu.net/posts/understanding-async-await-1/)
-
 * [Serving dynamic social preview images with rust and serverless functions](https://traits-crates-and-awaits.ghost.io/serving-dynamic-social-preview-images-with-rust-and-serverless-functions/)
-
-### Research
 
 ### Miscellaneous
 * [How s2n-quic uses Kani to inspire confidence](https://model-checking.github.io/kani-verifier-blog/2023/05/30/how-s2n-quic-uses-kani-to-inspire-confidence.html)
@@ -86,7 +73,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [send-file - read the device default documents directory and return an array of documents files path 1](https://github.com/opeolluwa/send-file/issues/84)
 * [velo - Implement Copy and Paste Functionality for `bevy_cosmic_edit` - Issue #128 - StaffEngineer/velo - GitHub 2](https://github.com/StaffEngineer/velo/issues/128)
 * [velo - Fix text height calculation for proper text alignment - Issue #131 - StaffEngineer/velo - GitHub 1](https://github.com/StaffEngineer/velo/issues/131)
-
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -225,7 +211,6 @@ which are reaching a decision. Express your opinions now.
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 * [new] [Unsafe Extern Blocks](https://github.com/rust-lang/rfcs/pull/3439)
 * [new] [RFC: Implementable trait aliases](https://github.com/rust-lang/rfcs/pull/3437)
-
 * [new] [RFC: `#[export]` (dynamically linked crates)](https://github.com/rust-lang/rfcs/pull/3435)
 * [new] [Generic Futures](https://github.com/rust-lang/rfcs/pull/3434)
 
@@ -235,8 +220,8 @@ implementation and give feedback, especially before stabilization.  The followin
 RFCs would benefit from user testing before moving forward:
 
 * Add a `[lints]` table to Cargo.toml (Feature: [`manifest-lint`](https://github.com/rust-lang/rfcs/blob/master/text/3389-manifest-lint.md))
-  * [Tracking Issue](https://github.com/rust-lang/rfcs/pull/3389)
-  * [Testing steps](https://github.com/rust-lang/rfcs/pull/3389#issuecomment-1562948551)
+    * [Tracking Issue](https://github.com/rust-lang/rfcs/pull/3389)
+    * [Testing steps](https://github.com/rust-lang/rfcs/pull/3389#issuecomment-1562948551)
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -288,18 +273,6 @@ Rusty Events between 2023-05-31 - 2023-06-28 🦀
 
 ### Europe
 
-* 2023-05-24 | Lyon, FR | [Rust Lyon](https://www.meetup.com/fr-FR/rust-lyon/)
-    * [**Rust Lyon Meetup #4**](https://www.meetup.com/fr-FR/rust-lyon/events/293322211)
-* 2023-05-25 | Amsterdam, NL | [Frontend Developer Meetup Amsterdam](https://www.meetup.com/frontend-developer-meetup-amsterdam/)
-    * [**Svelte Frontend Meetup (signup required) - Building a Svelte-Rust app using Tauri**](https://www.meetup.com/frontend-developer-meetup-amsterdam/events/293272364)
-* 2023-05-25 | Barcelona, ES | [C++ Programmer Meetup.](https://www.meetup.com/c-programmer-meetup/)
-    * [**Rust for C++ Developers.**](https://www.meetup.com/c-programmer-meetup/events/292816507)
-* 2023-05-25 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/)
-    * [**Rust metup #36 at Adapt Agency!**](https://www.meetup.com/copenhagen-rust-community/events/293293863)
-* 2023-05-25 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/)
-    * [**Rust Paris meetup #59**](https://www.meetup.com/rust-paris/events/293191172)
-* 2023-05-30 | Barcelona, ES | [BcnRust](https://www.meetup.com/bcnrust/)
-    * [**10th BcnRust Meetup**](https://www.meetup.com/bcnrust/events/293363107)
 * 2023-06-03 | Plovidv, BG | [AeroRust](https://aerorust.org)
     * [**Space Conference - Plovdiv**](https://space-conference-plovdiv.eventbrite.com)
 * 2023-06-04 | Plovidv, BG | [AeroRust](https://aerorust.org)
@@ -344,7 +317,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/12tehic/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -360,4 +333,4 @@ Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/13x558d/this_week_in_rust_497/)</small>
