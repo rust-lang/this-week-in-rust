@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 * [rumqttd now supports MQTTv5 features like topic alias and message expiry](https://bytebeam.io/blog/one-step-closer-to-mqttv5-broker/)
 * [GlueSQL v0.14 - Schemaless data support](https://github.com/gluesql/gluesql/releases/tag/v0.14.0)
 
+- [ratatui 0.21.0 is released! (community fork of tui-rs)](https://github.com/tui-rs-revival/ratatui/releases/tag/v0.21.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
