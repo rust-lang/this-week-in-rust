@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [progenitor](https://github.com/oxidecomputer/progenitor), an OpenAPI client generator with support for strongly typed mock tests.
+
+Thanks to [John Vandenberg](https://users.rust-lang.org/t/crate-of-the-week/2704/1200) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -67,7 +69,94 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+325 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-05-22..2023-05-29
+
+* [promote loongarch64-unknown-linux-gnu to Tier 2 with host tools](https://github.com/rust-lang/rust/pull/110936)
+* [enable sanitizers and profiler for aarch64-unknown-linux-musl](https://github.com/rust-lang/rust/pull/111575)
+* [add support for LLVM SafeStack](https://github.com/rust-lang/rust/pull/112000)
+* [Expand more expressions](https://github.com/rust-lang/rust/pull/111928) (RFC [#2011](https://rust-lang.github.io/rfcs/2011-generic-assert.html))
+* [parse: return unpected when current token is EOF](https://github.com/rust-lang/rust/pull/111181)
+* [resolve: not defined `extern crate shadow_name`](https://github.com/rust-lang/rust/pull/111761)
+* [`rustc_privacy`: Cleanups and perf improvements to `EmbargoVisitor`](https://github.com/rust-lang/rust/pull/111260)
+* [add warn-by-default lint when local binding shadows exported glob re-export item](https://github.com/rust-lang/rust/pull/111378)
+* [always require closure parameters to be `Sized`](https://github.com/rust-lang/rust/pull/111864)
+* [check opaques for mismatch during writeback](https://github.com/rust-lang/rust/pull/111853)
+* [consider lint check attributes on match arms](https://github.com/rust-lang/rust/pull/111757)
+* [deal with unnormalized projections when structurally resolving types with new solver](https://github.com/rust-lang/rust/pull/110204)
+* [do not prefer substs relate during coherence](https://github.com/rust-lang/rust/pull/111987)
+* [don't ICE if method receiver fails to unify with `arbitrary_self_types`](https://github.com/rust-lang/rust/pull/111860)
+* [don't ICE on return-type notation when promoting trait preds to associated type bounds](https://github.com/rust-lang/rust/pull/111861)
+* [don't ICE when computing PointerLike trait when region vars are in param-env](https://github.com/rust-lang/rust/pull/111880)
+* [don't check for misaligned raw pointer derefs inside `Rvalue::AddressOf`](https://github.com/rust-lang/rust/pull/112026)
+* [don't skip mir typeck if body has errors](https://github.com/rust-lang/rust/pull/111863)
+* [enable `MatchBranchSimplification`](https://github.com/rust-lang/rust/pull/112001)
+* [expose more information in `get_body_with_borrowck_facts`](https://github.com/rust-lang/rust/pull/111840)
+* [fix for `Self` not respecting tuple Ctor privacy](https://github.com/rust-lang/rust/pull/111245)
+* [fix re-export of doc hidden macro not showing up](https://github.com/rust-lang/rust/pull/111997)
+* [fix some issues with folded AArch64 features](https://github.com/rust-lang/rust/pull/107294)
+* [fix symbol conflict diagnostic mistakenly being shown instead of missing crate diagnostic](https://github.com/rust-lang/rust/pull/111461)
+* [handle opaques in the new solver](https://github.com/rust-lang/rust/pull/111473)
+* [improve error message for calling a method on a raw pointer with an unknown pointee](https://github.com/rust-lang/rust/pull/111954)
+* [inline derived `hash`](https://github.com/rust-lang/rust/pull/111963)
+* [leverage the interval property to precompute borrow kill points](https://github.com/rust-lang/rust/pull/111759)
+* [libtest: improve error when missing `-Zunstable-options`](https://github.com/rust-lang/rust/pull/111915)
+* [perform MIR type ops locally in new solver](https://github.com/rust-lang/rust/pull/111983)
+* [preprocess and cache dominator tree](https://github.com/rust-lang/rust/pull/111673)
+* [pretty-print inherent projections correctly](https://github.com/rust-lang/rust/pull/111486)
+* [prevent crash when a path is not resolved in intra-doc link](https://github.com/rust-lang/rust/pull/111195)
+* [rework handling of recursive panics](https://github.com/rust-lang/rust/pull/110975)
+* [split out opaque collection from from `type_of`](https://github.com/rust-lang/rust/pull/111862)
+* [stop confusing specification levels when computing expectations](https://github.com/rust-lang/rust/pull/111714)
+* [use `ErrorGuaranteed` more in MIR type ops](https://github.com/rust-lang/rust/pull/111918)
+* [MIR: opt-in normalization of `BasicBlock` and `Local` numbering](https://github.com/rust-lang/rust/pull/111813)
+* [support `#[global_allocator]` without the allocator shim](https://github.com/rust-lang/rust/pull/86844)
+* [stabilize `BuildHasher::hash_one`](https://github.com/rust-lang/rust/pull/111934)
+* [use an unbounded lifetime in `String::leak`](https://github.com/rust-lang/rust/pull/111656)
+* [add Median of Medians fallback to introselect](https://github.com/rust-lang/rust/pull/107522)
+* [add `#[inline]` to array TryFrom impls](https://github.com/rust-lang/rust/pull/111966)
+* [add `slice::`{`split_`, }{`first`, `last`}`_chunk`{, `_mut`}](https://github.com/rust-lang/rust/pull/95198)
+* [stdarch: stabilize AArch64 AES/SHA1/SHA2 intrinsics](https://github.com/rust-lang/stdarch/pull/1399)
+* [regex: fix complete literal optimization issue](https://github.com/rust-lang/regex/pull/1000)
+* [cargo: add: Reduce the chance we re-format the user's `[features]` table](https://github.com/rust-lang/cargo/pull/12191)
+* [cargo: lints: Switch to -Zlints so stable projects can experiment](https://github.com/rust-lang/cargo/pull/12168)
+* [cargo: add a description of `Cargo.lock` conflicts in the Cargo FAQ](https://github.com/rust-lang/cargo/pull/12185)
+* [cargo: automatically inherit workspace fields when running cargo new/init](https://github.com/rust-lang/cargo/pull/12069)
+* [cargo: automatically inherit workspace lints when running cargo new/init](https://github.com/rust-lang/cargo/pull/12174)
+* [cargo: consider rust-version when selecting packages for cargo add](https://github.com/rust-lang/cargo/pull/12078)
+* [cargo: deps: remove unused features from windows-sys](https://github.com/rust-lang/cargo/pull/12176)
+* [cargo: warn when an edition 2021 crate is in a virtual workspace with default resolver](https://github.com/rust-lang/cargo/pull/10910)
+* [rustdoc: get unnormalized link destination for suggestions](https://github.com/rust-lang/rust/pull/112014)
+* [rustdoc-json: Use exclusively externally tagged enums in the JSON representation](https://github.com/rust-lang/rust/pull/111427)
+* [new tool `rustdoc-gui-test`](https://github.com/rust-lang/rust/pull/111348)
+* [clippy: `default_constructed_unit_structs`: do not lint on type alias paths](https://github.com/rust-lang/rust-clippy/pull/10813)
+* [clippy: `large_stack_arrays`: check array initializer expressions](https://github.com/rust-lang/rust-clippy/pull/10806)
+* [clippy: add `needless_else` lint to check for empty `else` clauses](https://github.com/rust-lang/rust-clippy/pull/10810)
+* [clippy: `unused_async`: do not consider `await` in nested `async` blocks as used](https://github.com/rust-lang/rust-clippy/pull/10807)
+* [clippy: add new lint `ptr_cast_constness`](https://github.com/rust-lang/rust-clippy/pull/10779)
+* [clippy: display the `needless_return` suggestion](https://github.com/rust-lang/rust-clippy/pull/10819)
+* [clippy: fix `redundant_pattern_match` on matches! macro](https://github.com/rust-lang/rust-clippy/pull/10831)
+* [clippy: fix missing block for unsafe code](https://github.com/rust-lang/rust-clippy/pull/10809)
+* [clippy: fixing `invalid_regex` with invalid UTF8. Also, adding more test cases](https://github.com/rust-lang/rust-clippy/pull/10839)
+* [clippy: ignore `#[cfg]`'d out code in `needless_else`](https://github.com/rust-lang/rust-clippy/pull/10822)
+* [clippy: improve pattern printing for `manual_let_else`](https://github.com/rust-lang/rust-clippy/pull/10797)
+* [rust-analyzer: editors/code: add markdown syntax highlighting to doc comments](https://github.com/rust-lang/rust-analyzer/pull/14866)
+* [rust-analyzer: allow users to override the .scip output file path](https://github.com/rust-lang/rust-analyzer/pull/14894)
+* [rust-analyzer: add diagnostic for incorrect `_` expressions (typed holes)](https://github.com/rust-lang/rust-analyzer/pull/14916)
+* [rust-analyzer: assist to replace generic with impl trait](https://github.com/rust-lang/rust-analyzer/pull/14816)
+* [rust-analyzer: using doc aliases to search workspace symbols](https://github.com/rust-lang/rust-analyzer/pull/14849)
+* [rust-analyzer: fix `need-mut` false positive in closure capture of match scrutinee](https://github.com/rust-lang/rust-analyzer/pull/14893)
+* [rust-analyzer: add a toggle to disable the dependency explorer](https://github.com/rust-lang/rust-analyzer/pull/14906)
+* [rust-analyzer: assists no longer break indentation](https://github.com/rust-lang/rust-analyzer/pull/14752)
+* [rust-analyzer: change how `#![cfg(FALSE)]` behaves on crate root](https://github.com/rust-lang/rust-analyzer/pull/14874)
+* [rust-analyzer: don't try determining type of token inside macro calls](https://github.com/rust-lang/rust-analyzer/pull/14895)
+* [rust-analyzer: evaluate `UnevaluatedConst` in unify](https://github.com/rust-lang/rust-analyzer/pull/14891)
+* [rust-analyzer: evaluate `UnevaluatedConst` before trait solving](https://github.com/rust-lang/rust-analyzer/pull/14913)
+* [rust-analyzer: filter out unused cargo features from config](https://github.com/rust-lang/rust-analyzer/pull/14910)
+* [rust-analyzer: insert type vars in function arguments](https://github.com/rust-lang/rust-analyzer/pull/14897)
+* [rust-analyzer: use `::core` instead of `$crate` in `option_env!`](https://github.com/rust-lang/rust-analyzer/pull/14890)
+* [rust-analyzer: implement `${count()}` metavariable expression](https://github.com/rust-lang/rust-analyzer/pull/14878)
 
 ### Rust Compiler Performance Triage
 
@@ -220,7 +309,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Panics are overgrown ASSERTs, not an underbuilt exception system.
+
+– [Stephan Sokolow on hacker news](https://news.ycombinator.com/item?id=36104811)
+
+Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1430) for the self-suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
