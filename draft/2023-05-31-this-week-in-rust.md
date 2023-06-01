@@ -280,6 +280,18 @@ Rusty Events between 2023-05-31 - 2023-06-28 🦀
 
 ### Europe
 
+* 2023-05-24 | Lyon, FR | [Rust Lyon](https://www.meetup.com/fr-FR/rust-lyon/)
+    * [**Rust Lyon Meetup #4**](https://www.meetup.com/fr-FR/rust-lyon/events/293322211)
+* 2023-05-25 | Amsterdam, NL | [Frontend Developer Meetup Amsterdam](https://www.meetup.com/frontend-developer-meetup-amsterdam/)
+    * [**Svelte Frontend Meetup (signup required) - Building a Svelte-Rust app using Tauri**](https://www.meetup.com/frontend-developer-meetup-amsterdam/events/293272364)
+* 2023-05-25 | Barcelona, ES | [C++ Programmer Meetup.](https://www.meetup.com/c-programmer-meetup/)
+    * [**Rust for C++ Developers.**](https://www.meetup.com/c-programmer-meetup/events/292816507)
+* 2023-05-25 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/)
+    * [**Rust metup #36 at Adapt Agency!**](https://www.meetup.com/copenhagen-rust-community/events/293293863)
+* 2023-05-25 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/)
+    * [**Rust Paris meetup #59**](https://www.meetup.com/rust-paris/events/293191172)
+* 2023-05-30 | Barcelona, ES | [BcnRust](https://www.meetup.com/bcnrust/)
+    * [**10th BcnRust Meetup**](https://www.meetup.com/bcnrust/events/293363107)
 * 2023-06-03 | Plovidv, BG | [AeroRust](https://aerorust.org)
     * [**Space Conference - Plovdiv**](https://space-conference-plovdiv.eventbrite.com)
 * 2023-06-04 | Plovidv, BG | [AeroRust](https://aerorust.org)
