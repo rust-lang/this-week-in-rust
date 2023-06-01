@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [GlueSQL v0.14 - Schemaless data support](https://github.com/gluesql/gluesql/releases/tag/v0.14.0)
 
 ### Observations/Thoughts
 
