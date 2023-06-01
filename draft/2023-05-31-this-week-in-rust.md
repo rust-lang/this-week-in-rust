@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [video] [Atomics and Locks Book Club - Chapter 1 - Basics of Rust Concurrency](https://www.youtube.com/watch?v=99Qzpv325yI)
+- [video] [Atomics and Locks Book Club - Chapter 2 - Atomics](https://www.youtube.com/watch?v=Ivm1FuO8quw)
 
 ### Research
 
@@ -247,6 +249,8 @@ Rusty Events between 2023-05-31 - 2023-06-28 🦀
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/289732649)
 * 2023-06-13 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallas-rust/)
     * [**Second Tuesday**](https://www.meetup.com/dallas-rust/events/293014938)
+* 2023-06-14 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
+    * [**Building Spin Locks and Channels - Rust Atomics & Locks Bookclub Chapters 4 & 5**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/293882628/)
 * 2023-06-14 | Virtual (Boulder, CO, US) | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
     * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/293014897)
 * 2023-06-15 | Virtual (Stuttgart, DE) | [Rust Community Stuttgart](https://www.meetup.com/rust-community-stuttgart/)
