@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Create a simple DSL for CSS like syntax for TUIs](https://developerlife.com/2022/08/04/rust-dsl-part-1/)
+
 ### Research
 
 ### Miscellaneous
