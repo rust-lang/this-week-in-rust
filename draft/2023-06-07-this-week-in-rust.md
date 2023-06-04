@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [video] [The status of parallel rustc - Nicholas Nethercote](https://www.youtube.com/watch?v=q2vJ8Faundw)
 
 ### Observations/Thoughts
 
