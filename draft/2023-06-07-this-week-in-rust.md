@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Meilisearch 1.2 - new features for filters and engine improvements](https://blog.meilisearch.com/v1-2-release/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
