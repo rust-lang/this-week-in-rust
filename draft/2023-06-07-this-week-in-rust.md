@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Quickwit 0.6: Elasticsearch compatible API, range & prefix phrase queries, histogram & percentiles aggregations, and more...!](https://quickwit.io/blog/quickwit-0.6)  
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
