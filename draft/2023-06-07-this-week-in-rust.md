@@ -71,7 +71,20 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week was a bunch of improvements, largely driven by cutting std debuginfo
+in [#110221] and a few MIR or codegen optimizations. No pure regressions landed
+this week!
+
+Triage done by **@simulacrum**.
+Revision range: [1221e43b..adc719d](https://perf.rust-lang.org/?start=1221e43bdf413f7c405e9b17ef19d76c88222098&end=adc719d7147d5e2578ce08e0b4504be44650256e&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+0 Regressions, 1 Improvements, 12 Mixed; 2 of them in rollups
+
+79 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-06-06.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
