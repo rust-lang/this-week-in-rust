@@ -60,6 +60,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [Hyperswitch - Remove redundant heap allocation (specifically string construction) in the application](https://github.com/juspay/hyperswitch/issues/1294)
+* [Hyperswitch - add domain type for client secret](https://github.com/juspay/hyperswitch/issues/1357)
+* [Hyperswitch - Implement cache for `MerchantKeyStore`](https://github.com/juspay/hyperswitch/issues/1381)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
