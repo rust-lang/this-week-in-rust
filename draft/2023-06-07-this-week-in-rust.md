@@ -171,6 +171,8 @@ Rusty Events between 2023-06-07 - 2023-07-05 🦀
 
 * 2023-06-10 | Kuala Lumpur, MY | [GoLang Malaysia](https://t.me/golangmalaysia)
     * [**Rust Workshop/Hack and Learn Malaysia June 2023**](https://forms.gle/2fvbCG77HXCkWLfe6) | [Event updates Telegram](https://t.me/+dF46Fly4A_BjOTJl) | [Event group chat](https://t.me/golangmalaysia)
+* 2023-06-10 | Pune, IN | [Rust Pune](https://www.meetup.com/rust-pune)
+    * [**#1 - Meet & Greet**](https://www.meetup.com/rust-pune/events/293936676/)
 
 ### Europe
 
