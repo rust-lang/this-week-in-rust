@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Diesel 2.1: Generated Migrations and simplified MultiBackend support](https://diesel.rs/news/2_1_0_release.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
