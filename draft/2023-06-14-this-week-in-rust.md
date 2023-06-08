@@ -59,7 +59,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Photos.network - FOSS photo management - Evaluate rewrite in Rust](https://github.com/photos-network/core/pull/27/)
+
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
