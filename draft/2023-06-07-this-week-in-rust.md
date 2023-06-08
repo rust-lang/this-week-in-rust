@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 * [MsgPacker: Enhancing performance and security](https://vlopes11.github.io/msgpacker-refactor/)
 
 ### Observations/Thoughts
+* [Demystifying trait generics in Rust](https://gruebelinchen.wordpress.com/2023/06/06/demystifying-trait-generics-in-rust/)
 
 ### Rust Walkthroughs
 
