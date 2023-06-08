@@ -28,23 +28,44 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.70.0](https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust GameDev #45 - April 2023](https://gamedev.rs/news/045/)
+* [This Month in Rust OSDev: May 2023](https://rust-osdev.com/this-month/2023-05/)
 
 ### Project/Tooling Updates
+* [Changelog #184](https://rust-analyzer.github.io/thisweek/2023/06/05/changelog-184.html)
 
 * [MsgPacker: Enhancing performance and security](https://vlopes11.github.io/msgpacker-refactor/)
 
 ### Observations/Thoughts
+* [A Proposal for an asynchronous Rust GUI framework](https://notgull.github.io/async-gui/)
+* [A locking war story](https://sentry.engineering/blog/locking-war-story)
+* [Building a Vector Database to Make Use of Vector Embeddings](https://terminusdb.com/blog/vector-database-and-vector-embeddings/)
+* [Data Exfiltration through DNS with Rust](https://balwurk.com/data-exfiltration-through-dns-with-rust/)
+* [The Rust I Wanted Had No Future](https://graydon2.dreamwidth.org/307291.html)
+* [From Stacks to Trees: A new aliasing model for Rust](https://www.ralfj.de/blog/2023/06/02/tree-borrows.html)
+* [ESP32 Embedded Rust at the HAL: GPIO Interrupts](https://apollolabsblog.hashnode.dev/esp32-embedded-rust-at-the-hal-gpio-interrupts?ref=twitter-share)
+* [Introducing posh: Type-Safe Graphics Programming with Functional Shaders in Rust](https://leod.github.io/rust/gamedev/posh/2023/06/04/posh.html)
 * [Demystifying trait generics in Rust](https://gruebelinchen.wordpress.com/2023/06/06/demystifying-trait-generics-in-rust/)
 
 ### Rust Walkthroughs
+* [Writing universal libraries using C++ and consuming it in Rust (WASI)](https://medium.com/@shyamsundarb/writing-universal-libraries-using-c-and-consuming-it-in-rust-wasi-80ad1174e0c9)
+* [Rust's cfg Attribute](https://blog.parker-codes.dev/posts/rusts-cfg-attribute)
+* [Looking at Rust builtin derives](https://cohenarthur.github.io/2023/06/05/rust-derives.html)
+* [What is WASI?](https://blog.yoshuawuyts.com/what-is-wasi/)
 
 ### Research
 
 ### Miscellaneous
+* [audio] [Shuttle Launchpad with Stefan Baumgartner :: Rustacean Station](https://rustacean-station.org/episode/stefan-baumgartner/)
+* [audio] [Episode 5: Putting Lipstick on a Pig](https://wayofthecrab.com/episodes/005/)
+* [video] [Bevy Basics Timers](https://www.youtube.com/watch?v=jC7QDlNxIg8)
+* [video] [We Built a Blazingly Fast Video Conferencing System in Rust & WASM](https://www.youtube.com/watch?v=LWwOSZJwEJI)
+* [video] [Why Static Typing Came Back • Richard Feldman • GOTO 2022](https://www.youtube.com/watch?v=Tml94je2edk)
 
 ## Crate of the Week
 
