@@ -38,14 +38,11 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Changelog #184](https://rust-analyzer.github.io/thisweek/2023/06/05/changelog-184.html)
-
 * [MsgPacker: Enhancing performance and security](https://vlopes11.github.io/msgpacker-refactor/)
-
 * [Diesel 2.1: Generated Migrations and simplified MultiBackend support](https://diesel.rs/news/2_1_0_release.html)
-
 * [Quickwit 0.6: Elasticsearch compatible API, range & prefix phrase queries, histogram & percentiles aggregations, and more...!](https://quickwit.io/blog/quickwit-0.6)  
-
 * [Meilisearch 1.2 - new features for filters and engine improvements](https://blog.meilisearch.com/v1-2-release/)
+* [video] [The status of parallel rustc - Nicholas Nethercote](https://www.youtube.com/watch?v=q2vJ8Faundw)
 
 ### Observations/Thoughts
 * [A Proposal for an asynchronous Rust GUI framework](https://notgull.github.io/async-gui/)
