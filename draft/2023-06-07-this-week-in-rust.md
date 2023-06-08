@@ -48,7 +48,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [kanata](https://github.com/jtroo/kanata), a keyboard remapper for Linux and Windows.
+
+Thanks to [Aleksey Kladov](https://users.rust-lang.org/t/crate-of-the-week/2704/1203) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -76,7 +78,110 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+392 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-05-29..2023-06-05
+
+* [support 128-bit atomics on all `x86_64` Apple targets](https://github.com/rust-lang/rust/pull/112150)
+* [support the rustc metadata for AIX](https://github.com/rust-lang/rust/pull/107583)
+* [QNX Neutrino: exponential backoff when fork/spawn needs a retry](https://github.com/rust-lang/rust/pull/109432)
+* [Control Flow Integrity: fix with `repr(transparent): transform_ty`: unexpected Alias(Proj](https://github.com/rust-lang/rust/pull/112182)
+* [Control Flow Integrity: fix async: `transform_ty`: unexpected GeneratorWitness(Bi…](https://github.com/rust-lang/rust/pull/111914)
+* [add other workspaces to `linkedProjects` in `rust_analyzer_settings`](https://github.com/rust-lang/rust/pull/111998)
+* [allow limited access to `OsStr` bytes](https://github.com/rust-lang/rust/pull/109698)
+* [check nested obligations during coercion unify in new solver](https://github.com/rust-lang/rust/pull/112022)
+* [diagnostics: exclude indirect private deps from trait impl suggest](https://github.com/rust-lang/rust/pull/111076)
+* [don't ICE in new solver when auto traits have associated types](https://github.com/rust-lang/rust/pull/112223)
+* [don't compute inlining status of mono items in advance](https://github.com/rust-lang/rust/pull/112128)
+* [don't require the output from libtest to be valid UTF-8](https://github.com/rust-lang/rust/pull/112277)
+* [don't suggest break through nested items](https://github.com/rust-lang/rust/pull/112024)
+* [don't typecheck recovered method call from suggestion](https://github.com/rust-lang/rust/pull/112100)
+* [enable `ConstGoto` and `SeparateConstSwitch` passes by default](https://github.com/rust-lang/rust/pull/112040)
+* [enable `ScalarReplacementOfAggregates` in optimized builds](https://github.com/rust-lang/rust/pull/112002)
+* [extra context for `unreachable_pub` lint](https://github.com/rust-lang/rust/pull/111496)
+* [fix bug where private item with intermediate doc hidden re-export was not inlined](https://github.com/rust-lang/rust/pull/112178)
+* [fix codegen test suite for bare-metal-like targets](https://github.com/rust-lang/rust/pull/111878)
+* [fix linkage for large binaries on mips64 platforms](https://github.com/rust-lang/rust/pull/111772)
+* [fix re-export of doc hidden item inside private item not displayed](https://github.com/rust-lang/rust/pull/112108)
+* [fix type-inference regression](https://github.com/rust-lang/rust/pull/112266)
+* [fix: dedup `static_candidates` before report](https://github.com/rust-lang/rust/pull/111872)
+* [improve CGU debug printing](https://github.com/rust-lang/rust/pull/112155)
+* [linker: report linker flavors incompatible with the current target](https://github.com/rust-lang/rust/pull/110807)
+* [normalize anon consts in new solver](https://github.com/rust-lang/rust/pull/112183)
+* [only check inlining counter after recursing](https://github.com/rust-lang/rust/pull/112240)
+* [only rewrite valtree-constants to patterns and keep other constants opaque](https://github.com/rust-lang/rust/pull/111913)
+* [only suppress coercion error if type is definitely unsized](https://github.com/rust-lang/rust/pull/112215)
+* [optimize scalar and scalar pair representations loaded from ByRef in llvm](https://github.com/rust-lang/rust/pull/111768)
+* [preserve substs in opaques recorded in typeck results](https://github.com/rust-lang/rust/pull/111980)
+* [refactor and cleanup the leak check, add it to new solver](https://github.com/rust-lang/rust/pull/111881)
+* [remove unneeded `Buffer` allocations when `&mut fmt::Write` can be used directly](https://github.com/rust-lang/rust/pull/112243)
+* [replace const eval limit by a lint and add an exponential backoff warning](https://github.com/rust-lang/rust/pull/103877)
+* [require that const param tys implement `ConstParamTy`](https://github.com/rust-lang/rust/pull/111670)
+* [rpath is not supported on AIX](https://github.com/rust-lang/rust/pull/109525)
+* [rust-lld: add rpath entry to the correct `lib` folder](https://github.com/rust-lang/rust/pull/112247)
+* [show note for type ascription on a local binding interpreted as a constant pattern and not a new variable](https://github.com/rust-lang/rust/pull/112272)
+* [stop normalizing so many different prefixes](https://github.com/rust-lang/rust/pull/111975)
+* [suggest `Option::as_deref(_mut)` on type mismatch in option combinator if it passes typeck](https://github.com/rust-lang/rust/pull/111659)
+* [suggest correct `self_ty`](https://github.com/rust-lang/rust/pull/112057)
+* [uplift `clippy::cast_ref_to_mut` lint](https://github.com/rust-lang/rust/pull/111567)
+* [uplift `clippy::invalid_utf8_in_unchecked` lint](https://github.com/rust-lang/rust/pull/111543)
+* [lower `unchecked_div`/`_rem` to MIR's `BinOp::Div`/`Rem`](https://github.com/rust-lang/rust/pull/112168)
+* [miri: Tree Borrows (TB) diagnostics: avoid printing irrelevant events](https://github.com/rust-lang/miri/pull/2888)
+* [miri: TB: improve error messages (distinguish between accesses and reborrows)](https://github.com/rust-lang/miri/pull/2918)
+* [miri: remove rustc-workspace-hack](https://github.com/rust-lang/miri/pull/2916)
+* [greatly decrease the size of `rustc_driver.so` when debuginfo is enabled](https://github.com/rust-lang/rust/pull/110221)
+* [remove `ExtendElement`, `ExtendWith`, `extend_with`](https://github.com/rust-lang/rust/pull/112263)
+* [remove `[T]::zip(_)`](https://github.com/rust-lang/rust/pull/112096)
+* [make `TrustedStep` require `Copy`](https://github.com/rust-lang/rust/pull/112083)
+* [`offset_of!`: don't require type to be `Sized`](https://github.com/rust-lang/rust/pull/112069)
+* [check tuple elements are `Sized` in `offset_of!`](https://github.com/rust-lang/rust/pull/112193)
+* [fix bug in `utf16_to_utf8` for zero length strings](https://github.com/rust-lang/rust/pull/112154)
+* [hashbrown: add support for rkyv serialization and deserialization](https://github.com/rust-lang/hashbrown/pull/432)
+* [regex compile: make `Regex::new(r"(?-u:\B)")` fail again](https://github.com/rust-lang/regex/pull/1007)
+* [cargo: add message on reusing previous temporary path on failed cargo installs](https://github.com/rust-lang/cargo/pull/12231)
+* [cargo: emit error when users try to use a toolchain via the `add` or `install` command](https://github.com/rust-lang/cargo/pull/12226)
+* [cargo: support "default" option for `build.jobs`](https://github.com/rust-lang/cargo/pull/12222)
+* [rustdoc: add interaction delays for tooltip popovers](https://github.com/rust-lang/rust/pull/111892)
+* [rustdoc: render visibility on associated types](https://github.com/rust-lang/rust/pull/110945)
+* [clippy: `allow_attributes`, `allow_attributes_without_reason`: Ignore attributes from procedural macros](https://github.com/rust-lang/rust-clippy/pull/10869)
+* [clippy: `manual_let_else`: support `struct` patterns](https://github.com/rust-lang/rust-clippy/pull/10866)
+* [clippy: `nonminimal_bool` fix double not](https://github.com/rust-lang/rust-clippy/pull/10845)
+* [clippy: `ptr_cast_constness`: Only lint on casts which don't change type](https://github.com/rust-lang/rust-clippy/pull/10879)
+* [clippy: `unnecessary_lazy_eval`: don't lint on types with deref impl](https://github.com/rust-lang/rust-clippy/pull/10864)
+* [clippy: `useless_conversion`: pluralize if there are multiple `.into_iter()` calls](https://github.com/rust-lang/rust-clippy/pull/10881)
+* [clippy: `wildcard_imports` Modules that contain `prelude` are also allowed](https://github.com/rust-lang/rust-clippy/pull/10848)
+* [clippy: add a test that checks for old style test headers](https://github.com/rust-lang/rust-clippy/pull/10705)
+* [clippy: add checking for `cfg(features = ...)`](https://github.com/rust-lang/rust-clippy/pull/10860)
+* [clippy: add lints for disallowing usage of `to_xx_bytes` and `from_xx_bytes`](https://github.com/rust-lang/rust-clippy/pull/10826)
+* [clippy: add spans to `clippy.toml` error messages](https://github.com/rust-lang/rust-clippy/pull/10607)
+* [clippy: emit `unnecessary_cast` on raw pointers as well](https://github.com/rust-lang/rust-clippy/pull/10821)
+* [clippy: fix suggestion on fully qualified syntax](https://github.com/rust-lang/rust-clippy/pull/10855)
+* [clippy: ignore fix for `from_over_into` if the target type contains a `Self` reference](https://github.com/rust-lang/rust-clippy/pull/10853)
+* [clippy: move `redundant_clone` to `nursery`](https://github.com/rust-lang/rust-clippy/pull/10873)
+* [clippy: new lint: `explicit_into_iter_fn_arg`](https://github.com/rust-lang/rust-clippy/pull/10814)
+* [clippy: new lint: `missing_fields_in_debug`](https://github.com/rust-lang/rust-clippy/pull/10616)
+* [rust-analyzer: add mandatory panic contexts to all threadpool tasks](https://github.com/rust-lang/rust-analyzer/pull/14965)
+* [rust-analyzer: allow setting cfgs](https://github.com/rust-lang/rust-analyzer/pull/14911)
+* [rust-analyzer: don't add --all-targets to runnables for no-std crates](https://github.com/rust-lang/rust-analyzer/pull/14912)
+* [rust-analyzer: add signature help for tuple patterns and expressions](https://github.com/rust-lang/rust-analyzer/pull/14938)
+* [rust-analyzer: render niches on hover](https://github.com/rust-lang/rust-analyzer/pull/14905)
+* [rust-analyzer: fix Assist "replace named generic type with impl trait"](https://github.com/rust-lang/rust-analyzer/pull/14945)
+* [rust-analyzer: fix `unused-mut` false positive for `Box`](https://github.com/rust-lang/rust-analyzer/pull/14972)
+* [rust-analyzer: fix bug in labeled for loop desugaring](https://github.com/rust-lang/rust-analyzer/pull/14942)
+* [rust-analyzer: fix drop scopes problems in mir](https://github.com/rust-lang/rust-analyzer/pull/14961)
+* [rust-analyzer: fix edits for `convert_named_struct_to_tuple_struct`](https://github.com/rust-lang/rust-analyzer/pull/14920)
+* [rust-analyzer: fix missing terminator for slice pattern](https://github.com/rust-lang/rust-analyzer/pull/14976)
+* [rust-analyzer: fix string pattern matching in mir interpreter](https://github.com/rust-lang/rust-analyzer/pull/14951)
+* [rust-analyzer: fix: add enum, reference, array and slice to `render_const_scalar`](https://github.com/rust-lang/rust-analyzer/pull/14947)
+* [rust-analyzer: fix: add render configs for memory layout hovers](https://github.com/rust-lang/rust-analyzer/pull/14929)
+* [rust-analyzer: fix: consider outer binders when folding captured items' type](https://github.com/rust-lang/rust-analyzer/pull/14971)
+* [rust-analyzer: fix: detect "bound more than once" error and suppress `need-mut` for it](https://github.com/rust-lang/rust-analyzer/pull/14970)
+* [rust-analyzer: fix: don't duplicate sysroot crates in rustc workspace](https://github.com/rust-lang/rust-analyzer/pull/14935)
+* [rust-analyzer: fix: emit `'_` for lifetime generics in `HirDisplay`](https://github.com/rust-lang/rust-analyzer/pull/14978)
+* [rust-analyzer: fix nav target calculation discarding file ids from differing macro upmapping](https://github.com/rust-lang/rust-analyzer/pull/14939)
+* [rust-analyzer: make assignment operators right associative](https://github.com/rust-lang/rust-analyzer/pull/14952)
+* [rust-analyzer: prioritize threads affected by user typing](https://github.com/rust-lang/rust-analyzer/pull/14888)
+* [rust-analyzer: support floating point intrinsics in const eval](https://github.com/rust-lang/rust-analyzer/pull/14950)
 
 ### Rust Compiler Performance Triage
 
@@ -247,7 +352,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> (...) Rust developers usually are not just looking for "less buggy". 
+>
+> They are addicted to the clicky sound of legos.
+
+– [Amirography on fosstodon](https://fosstodon.org/@Amirography/110486392650489999)
+
+Thanks to [Jan Riemer](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1434) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
