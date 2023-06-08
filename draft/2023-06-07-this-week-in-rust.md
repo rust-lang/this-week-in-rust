@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [MsgPacker: Enhancing performance and security](https://vlopes11.github.io/msgpacker-refactor/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
