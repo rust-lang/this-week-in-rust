@@ -219,15 +219,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* [eRFC: single-file packages ("cargo script") integration](https://github.com/rust-lang/rfcs/pull/3424)
 
 ### Final Comment Period
 
@@ -236,34 +228,31 @@ which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* *No RFCs entered Final Comment Period this week.*
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [TAIT defining scope options](https://github.com/rust-lang/rust/issues/107645)
+* [disposition: merge] [rustdoc-search: clean up type unification and "unboxing"](https://github.com/rust-lang/rust/pull/112233)
+* [disposition: merge] [Specify behavior of HashSet::insert](https://github.com/rust-lang/rust/pull/107619)
+* [disposition: merge] [Update runtime guarantee for `select_nth_unstable`](https://github.com/rust-lang/rust/pull/111974)
+* [disposition: merge] [Stabilize String::leak](https://github.com/rust-lang/rust/pull/109814)
+* [disposition: merge] [Implement `TryFrom<&OsStr>` for `&str`](https://github.com/rust-lang/rust/pull/98202)
+* [disposition: merge] [impl SliceIndex\<str\> for (Bound\<usize\>, Bound\<usize\>)](https://github.com/rust-lang/rust/pull/111081)
+* [disposition: merge] [Stabilize `const_cstr_methods`](https://github.com/rust-lang/rust/pull/107624)
+* [disposition: close] [Add cfg(no_128_bit) to core: removes u128/i128 formatting](https://github.com/rust-lang/rust/pull/103126)
+* [disposition: merge] [rustdoc: search for slices and arrays by type with `[]`](https://github.com/rust-lang/rust/pull/111958)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+* [new] [Fragment Specifiers for Generic Arguments](https://github.com/rust-lang/rfcs/pull/3442)
+* [new] [Virtually dispatched trait methods](https://github.com/rust-lang/rfcs/pull/3440)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+* *No RFCs issued a call for testing this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
