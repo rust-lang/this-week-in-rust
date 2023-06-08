@@ -35,7 +35,10 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [MsgPacker: Enhancing performance and security](https://vlopes11.github.io/msgpacker-refactor/)
+
 ### Observations/Thoughts
+* [Demystifying trait generics in Rust](https://gruebelinchen.wordpress.com/2023/06/06/demystifying-trait-generics-in-rust/)
 
 ### Rust Walkthroughs
 
@@ -63,6 +66,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Hyperswitch - Remove redundant heap allocation (specifically string construction) in the application](https://github.com/juspay/hyperswitch/issues/1294)
 * [Hyperswitch - add domain type for client secret](https://github.com/juspay/hyperswitch/issues/1357)
 * [Hyperswitch - Implement cache for `MerchantKeyStore`](https://github.com/juspay/hyperswitch/issues/1381)
+* [Ockam - Add `--yes` flag to `delete` commands to prevent unintentional deletions](https://github.com/build-trust/ockam/issues/5041)
+* [Ockam - Define json output for `ockam node create`](https://github.com/build-trust/ockam/issues/4967)
+* [Ockam - unreported `project path not found` error](https://github.com/build-trust/ockam/issues/4868)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
