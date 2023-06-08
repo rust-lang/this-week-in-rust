@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 * [Diesel 2.1: Generated Migrations and simplified MultiBackend support](https://diesel.rs/news/2_1_0_release.html)
 
+* [Quickwit 0.6: Elasticsearch compatible API, range & prefix phrase queries, histogram & percentiles aggregations, and more...!](https://quickwit.io/blog/quickwit-0.6)  
+
 ### Observations/Thoughts
 * [A Proposal for an asynchronous Rust GUI framework](https://notgull.github.io/async-gui/)
 * [A locking war story](https://sentry.engineering/blog/locking-war-story)
