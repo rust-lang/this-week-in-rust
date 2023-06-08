@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 * [Quickwit 0.6: Elasticsearch compatible API, range & prefix phrase queries, histogram & percentiles aggregations, and more...!](https://quickwit.io/blog/quickwit-0.6)  
 
+* [Meilisearch 1.2 - new features for filters and engine improvements](https://blog.meilisearch.com/v1-2-release/)
+
 ### Observations/Thoughts
 * [A Proposal for an asynchronous Rust GUI framework](https://notgull.github.io/async-gui/)
 * [A locking war story](https://sentry.engineering/blog/locking-war-story)
