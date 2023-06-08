@@ -9,7 +9,7 @@ This is a weekly summary of its progress and community.
 Want something mentioned? Tag us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) on Twitter or [@ThisWeekinRust](https://mastodon.social/@thisweekinrust) on mastodon.social, or [send us a pull request](https://github.com/rust-lang/this-week-in-rust).
 Want to get involved? [We love contributions](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md).
 
-*This Week in Rust* is openly developed [on GitHub](https://github.com/rust-lang/this-week-in-rust).
+*This Week in Rust* is openly developed [on GitHub](https://github.com/rust-lang/this-week-in-rust) and archives can be viewed at [this-week-in-rust.org](https://this-week-in-rust.org/).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
 ## Updates from Rust Community
@@ -29,8 +29,6 @@ and just ask the editors to select the category.
 
 ### Official
 * [Announcing Rust 1.70.0](https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html)
-
-### Foundation
 
 ### Newsletters
 * [This Month in Rust GameDev #45 - April 2023](https://gamedev.rs/news/045/)
@@ -62,8 +60,6 @@ and just ask the editors to select the category.
 * [What is WASI?](https://blog.yoshuawuyts.com/what-is-wasi/)
 * [Create a simple DSL for CSS like syntax for TUIs](https://developerlife.com/2022/08/04/rust-dsl-part-1/)
 * [video] [A Practical Introduction to Derive Macros with Attributes](https://www.youtube.com/watch?v=GFijwucFJqw)
-
-### Research
 
 ### Miscellaneous
 * [audio] [Shuttle Launchpad with Stefan Baumgartner :: Rustacean Station](https://rustacean-station.org/episode/stefan-baumgartner/)
@@ -376,7 +372,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/13yx1dn/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -394,4 +390,4 @@ Thanks to [Jan Riemer](https://users.rust-lang.org/t/twir-quote-of-the-week/328/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/143vynq/this_week_in_rust_498/)</small>
