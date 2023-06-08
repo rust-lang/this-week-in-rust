@@ -60,8 +60,8 @@ and just ask the editors to select the category.
 * [Rust's cfg Attribute](https://blog.parker-codes.dev/posts/rusts-cfg-attribute)
 * [Looking at Rust builtin derives](https://cohenarthur.github.io/2023/06/05/rust-derives.html)
 * [What is WASI?](https://blog.yoshuawuyts.com/what-is-wasi/)
-
 * [Create a simple DSL for CSS like syntax for TUIs](https://developerlife.com/2022/08/04/rust-dsl-part-1/)
+* [video] [A Practical Introduction to Derive Macros with Attributes](https://www.youtube.com/watch?v=GFijwucFJqw)
 
 ### Research
 
