@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 * [MsgPacker: Enhancing performance and security](https://vlopes11.github.io/msgpacker-refactor/)
 
+* [Diesel 2.1: Generated Migrations and simplified MultiBackend support](https://diesel.rs/news/2_1_0_release.html)
+
 ### Observations/Thoughts
 * [A Proposal for an asynchronous Rust GUI framework](https://notgull.github.io/async-gui/)
 * [A locking war story](https://sentry.engineering/blog/locking-war-story)
