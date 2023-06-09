@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+*  [A Beginner’s Guide to Rust Procedural Macros: Creating a JSON Derive Macro](https://medium.com/@otukof/a-beginners-guide-to-rust-procedural-macros-creating-a-json-derive-macro-eb44279e7244)
 
 ### Research
 
