@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Check AI-Generated Code Perfectly and Automatically: My Experience Applying Kani’s Formal Verification to ChatGPT-Suggested Rust Code](https://medium.com/p/d5b61acff741)
+
 ### Research
 
 ### Miscellaneous
