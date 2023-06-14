@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 * [Fyrox Game Engine 0.30](https://fyrox.rs/blog/post/fyrox-game-engine-0-30/)
 * [Announcing Nickel 1.0](https://www.tweag.io/blog/2023-05-17-nickel-1.0-release/)
 * [rust-analyzer changelog #185](https://rust-analyzer.github.io/thisweek/2023/06/12/changelog-185.html)
+* [Announcing Zebra 1.0.0: a Rust implementation of Zcash](https://github.com/ZcashFoundation/zebra)
 
 ### Observations/Thoughts
 * [Iterating on Testing in Rust](https://epage.github.io/blog/2023/06/iterating-on-test/)
