@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 * [Write a Redux library in Rust](https://developerlife.com/2022/03/12/rust-redux/)
 
+* [Check AI-Generated Code Perfectly and Automatically: My Experience Applying Kani’s Formal Verification to ChatGPT-Suggested Rust Code](https://medium.com/p/d5b61acff741)
+
 ### Research
 
 ### Miscellaneous
