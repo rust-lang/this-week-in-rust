@@ -30,12 +30,21 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [2023 Rust Foundation Fellowship Application Open Through June 30](https://foundation.rust-lang.org/news/2023-rust-foundation-fellowship-application-open-through-june-30/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fyrox Game Engine 0.30](https://fyrox.rs/blog/post/fyrox-game-engine-0-30/)
+* [Announcing Nickel 1.0](https://www.tweag.io/blog/2023-05-17-nickel-1.0-release/)
+* [rust-analyzer changelog #185](https://rust-analyzer.github.io/thisweek/2023/06/12/changelog-185.html)
 
 ### Observations/Thoughts
+* [Iterating on Testing in Rust](https://epage.github.io/blog/2023/06/iterating-on-test/)
+* [Higher-ranked projections (send bound problem, part 4)](https://smallcultfollowing.com/babysteps/blog/2023/06/12/higher-ranked-projections-send-bound-problem-part-4/)
+* [video] [Raph Levien on Xilem Vector Graphics](https://www.youtube.com/watch?v=XjbVnwBtVEk)
+* [video] [Unsafe Rust and Miri by Ralf Jung](https://www.youtube.com/watch?v=svR0p6fSUYY)
+* [audio] [Slint 1.0 with Tobias Hunger](https://rustacean-station.org/episode/tobias-hunger-slint-1.0/)
 
 ### Rust Walkthroughs
 * [A Beginner’s Guide to Rust Procedural Macros: Creating a JSON Derive Macro](https://medium.com/@otukof/a-beginners-guide-to-rust-procedural-macros-creating-a-json-derive-macro-eb44279e7244)
@@ -45,6 +54,8 @@ and just ask the editors to select the category.
 
 * [Check AI-Generated Code Perfectly and Automatically: My Experience Applying Kani’s Formal Verification to ChatGPT-Suggested Rust Code](https://medium.com/p/d5b61acff741)
 * [Observing your Rust application with Quickwit, Jaeger and Grafana](https://quickwit.io/blog/observing-rust-app-with-quickwit-jaeger-grafana)
+* [video] [Introducing the enum data type in Rust](https://www.youtube.com/watch?v=LafOj_HrxRQ)
+* [video] [Rust streams: Diving into WebAssembly and WASI (series)](https://www.youtube.com/watch?v=S5EBLCoPgoA)
 
 ### Research
 
