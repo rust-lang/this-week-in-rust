@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [A Beginner’s Guide to Rust Procedural Macros: Creating a JSON Derive Macro](https://medium.com/@otukof/a-beginners-guide-to-rust-procedural-macros-creating-a-json-derive-macro-eb44279e7244)
 * [Implementing data parallelism with Rayon Rust](https://blog.logrocket.com/implementing-data-parallelism-rayon-rust/)
 
 ### Research
@@ -60,7 +61,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Photos.network - FOSS photo management - Evaluate rewrite in Rust](https://github.com/photos-network/core/pull/27/)
+
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
