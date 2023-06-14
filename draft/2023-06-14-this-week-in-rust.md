@@ -76,7 +76,20 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Our build pipeline got sped up by PR #112012, which side-steps one of the rustc
+rebuilds we were suffering with before. (There is further potential speed-up by
+caching LLVM, as noted by on that PR.) Other than that, various small
+regressions that are largely noise, as well as one unexpected increase in binary
+sizes from PR #109005 that we should follow up on.
+
+Triage done by **@pnkfelix**.
+Revision range: [adc719d7..4bd4e2ea](https://perf.rust-lang.org/?start=adc719d7147d5e2578ce08e0b4504be44650256e&end=4bd4e2ea824f4f458cae8917047ebb6b88853fe6&absolute=false&stat=instructions%3Au)
+
+7 Regressions, 3 Improvements, 5 Mixed; 5 of them in rollups
+46 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-06-13.md)
+
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
