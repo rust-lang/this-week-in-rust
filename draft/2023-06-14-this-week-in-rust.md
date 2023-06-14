@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 * [A Beginner’s Guide to Rust Procedural Macros: Creating a JSON Derive Macro](https://medium.com/@otukof/a-beginners-guide-to-rust-procedural-macros-creating-a-json-derive-macro-eb44279e7244)
 * [Implementing data parallelism with Rayon Rust](https://blog.logrocket.com/implementing-data-parallelism-rayon-rust/)
 
+* [Write a Redux library in Rust](https://developerlife.com/2022/03/12/rust-redux/)
+
 ### Research
 
 ### Miscellaneous
