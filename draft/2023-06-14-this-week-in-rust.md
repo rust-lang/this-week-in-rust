@@ -84,6 +84,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Ockam - Extract command logic from Kafka create commands](https://github.com/build-trust/ockam/issues/5087)
 * [Ockam - Enable pnpm support in dependabot](https://github.com/build-trust/ockam/issues/4961)
 * [Ockam - Update CLI documentation for `credential` commands](https://github.com/build-trust/ockam/issues/4775)
+* [Hyperswitch - add domain type for client secret](https://github.com/juspay/hyperswitch/issues/1357)
+* [Hyperswitch - Remove Basic keyword from shift4 API key](https://github.com/juspay/hyperswitch/issues/1438)
+* [Hyperswitch - Payments list doesn't work with pagination parameters](https://github.com/juspay/hyperswitch/issues/1439)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
