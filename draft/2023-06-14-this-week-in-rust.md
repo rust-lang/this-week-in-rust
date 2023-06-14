@@ -64,9 +64,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-* [Photos.network - FOSS photo management - Evaluate rewrite in Rust](https://github.com/photos-network/core/pull/27/)
-
+* [Send File - help improve the readme](https://github.com/opeolluwa/send-file/issues/120)
+* [Send File - create wifi hotspot on Linux operating system](https://github.com/opeolluwa/send-file/issues/83)
+* [Send File - use Tauri store plugin to persist app data](https://github.com/opeolluwa/send-file/issues/29)
+* [Ockam - Extract command logic from Kafka create commands](https://github.com/build-trust/ockam/issues/5087)
+* [Ockam - Enable pnpm support in dependabot](https://github.com/build-trust/ockam/issues/4961)
+* [Ockam - Update CLI documentation for `credential` commands](https://github.com/build-trust/ockam/issues/4775)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
