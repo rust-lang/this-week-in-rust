@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Fyrox Game Engine 0.30](https://fyrox.rs/blog/post/fyrox-game-engine-0-30/)
+* [redb (Rust Embedded DataBase) 1.0 release](https://www.redb.org/post/2023/06/16/1-0-stable-release/)
 * [Announcing Nickel 1.0](https://www.tweag.io/blog/2023-05-17-nickel-1.0-release/)
 * [rust-analyzer changelog #185](https://rust-analyzer.github.io/thisweek/2023/06/12/changelog-185.html)
 * [Announcing Zebra 1.0.0: a Rust implementation of Zcash](https://github.com/ZcashFoundation/zebra)
