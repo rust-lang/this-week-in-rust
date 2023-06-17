@@ -61,6 +61,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Build a CLI Tool for Data Masking, Encryption, and Decryption With Rust](https://medium.com/better-programming/build-a-cli-tool-for-data-masking-encryption-and-decryption-with-rust-ad36bea27559)
 
 ## Crate of the Week
 
