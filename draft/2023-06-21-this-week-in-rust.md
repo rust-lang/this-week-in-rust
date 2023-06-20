@@ -47,7 +47,6 @@ and just ask the editors to select the category.
 * [Building vector search in 200 lines of Rust](https://fennel.ai/blog/vector-search-in-200-lines-of-rust/)
 * [Leveraging the Type System for Domain Modeling in Rust](https://kellnr.io/blog/domain-modeling#undefined)
 * [Building an out-of-tree Rust Kernel Module Part Three](https://blog.rnstlr.ch/building-an-out-of-tree-rust-kernel-module-part-three.html)
-* [Higher-ranked projections (send bound problem, part 4)](http://smallcultfollowing.com/babysteps/blog/2023/06/12/higher-ranked-projections-send-bound-problem-part-4/)
 
 ### Rust Walkthroughs
 
