@@ -27,21 +27,35 @@ and just ask the editors to select the category.
 
 -->
 
+
 ### Official
+* [Introducing the Rust Leadership Council](https://blog.rust-lang.org/2023/06/20/introducing-leadership-council.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #186](https://rust-analyzer.github.io/thisweek/2023/06/19/changelog-186.html)
+* [Tantivy 0.20: Schemaless](https://quickwit.io/blog/tantivy-0.20)
+* [lz4_flex 0.11: Gainzzzzz Unleashed!](https://flexineering.com/posts/lz4-011/)
 
 ### Observations/Thoughts
+* [How we built the Grafbase local development experience in Rust](https://grafbase.com/blog/how-we-built-the-grafbase-cli-in-rust)
+* [Encoding ML-style modules in Rust](https://blog.waleedkhan.name/encoding-ml-style-modules-in-rust/)
+* [Shuttle Launchpad #2: Structs and Enums](https://www.shuttle.rs/launchpad/issues/2023-06-16-issue-02-Structs-and-Enums)
+* [Building vector search in 200 lines of Rust](https://fennel.ai/blog/vector-search-in-200-lines-of-rust/)
+* [Leveraging the Type System for Domain Modeling in Rust](https://kellnr.io/blog/domain-modeling#undefined)
+* [Building an out-of-tree Rust Kernel Module Part Three](https://blog.rnstlr.ch/building-an-out-of-tree-rust-kernel-module-part-three.html)
+* [Higher-ranked projections (send bound problem, part 4)](http://smallcultfollowing.com/babysteps/blog/2023/06/12/higher-ranked-projections-send-bound-problem-part-4/)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [Santiago Pastorino: Maintainer Retention](https://yaah.dev/santiago-maintainer-retention)
+* [DE] [Programmiersprachen: Die Beliebtheit von Rust bleibt ungebrochen](https://www.heise.de/news/Programmiersprachen-Die-Beliebtheit-von-Rust-bleibt-ungebrochen-9187369.html)
 
 ## Crate of the Week
 
