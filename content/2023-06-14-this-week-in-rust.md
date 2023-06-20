@@ -27,12 +27,8 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Foundation
 * [2023 Rust Foundation Fellowship Application Open Through June 30](https://foundation.rust-lang.org/news/2023-rust-foundation-fellowship-application-open-through-june-30/)
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [Fyrox Game Engine 0.30](https://fyrox.rs/blog/post/fyrox-game-engine-0-30/)
@@ -50,17 +46,11 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [A Beginner’s Guide to Rust Procedural Macros: Creating a JSON Derive Macro](https://medium.com/@otukof/a-beginners-guide-to-rust-procedural-macros-creating-a-json-derive-macro-eb44279e7244)
 * [Implementing data parallelism with Rayon Rust](https://blog.logrocket.com/implementing-data-parallelism-rayon-rust/)
-
 * [Write a Redux library in Rust](https://developerlife.com/2022/03/12/rust-redux/)
-
 * [Check AI-Generated Code Perfectly and Automatically: My Experience Applying Kani’s Formal Verification to ChatGPT-Suggested Rust Code](https://medium.com/p/d5b61acff741)
 * [Observing your Rust application with Quickwit, Jaeger and Grafana](https://quickwit.io/blog/observing-rust-app-with-quickwit-jaeger-grafana)
 * [video] [Introducing the enum data type in Rust](https://www.youtube.com/watch?v=LafOj_HrxRQ)
 * [video] [Rust streams: Diving into WebAssembly and WASI (series)](https://www.youtube.com/watch?v=S5EBLCoPgoA)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -240,9 +230,11 @@ which are reaching a decision. Express your opinions now.
 * [disposition: merge] [Relax implicit `T: Sized` bounds on `BufReader<T>`, `BufWriter<T>` and `LineWriter<T>`](https://github.com/rust-lang/rust/pull/111074)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
 * [new] [Infered types](https://github.com/rust-lang/rfcs/pull/3444)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
@@ -369,7 +361,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/13yx1dn/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -381,4 +373,4 @@ Alas this week remains quoteless for lack of suggestions.
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/149oagp/this_week_in_rust_499/)</small>
