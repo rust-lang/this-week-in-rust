@@ -178,7 +178,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Fairly positive week with very few regressions and some decent (albeit incremental) improvements. The most widespread gains came from some standard library improvements which are not a particularly common cause of large improvements in compiler performance. Overall a large chunk of the perf test suite showed an average of 0.6% improvement.
+
+Triage done by **@rylev**.
+Revision range: [4bd4e2e..b9d608c](https://perf.rust-lang.org/?start=4bd4e2ea824f4f458cae8917047ebb6b88853fe6&end=b9d608c979ad3c0700f9f0237a8c12feb0ba44fb&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.4%  | [0.5%, 3.6%]    | 16    |
+| Regressions ❌ <br /> (secondary)  | 1.0%  | [0.2%, 3.5%]    | 29    |
+| Improvements ✅ <br /> (primary)   | -0.8% | [-7.8%, -0.2%]  | 157   |
+| Improvements ✅ <br /> (secondary) | -2.9% | [-48.3%, -0.3%] | 84    |
+| All ❌✅ (primary)                 | -0.6% | [-7.8%, 3.6%]   | 173   |
+
+
+3 Regressions, 7 Improvements, 4 Mixed; 3 of them in rollups
+51 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-06-20.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
