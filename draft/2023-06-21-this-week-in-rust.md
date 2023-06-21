@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Paying with (in memory) cache](https://github.com/juspay/hyperswitch/wiki/Paying-with-%28in-memory%29-cache)
+
 ### Rust Walkthroughs
 
 ### Research
