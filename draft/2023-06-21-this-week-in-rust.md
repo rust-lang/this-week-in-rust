@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [How to deliver the best search results: inside a full text search engine](https://blog.meilisearch.com/how-full-text-search-engines-work/)
 
 ## Crate of the Week
 
