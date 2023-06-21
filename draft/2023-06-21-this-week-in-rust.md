@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 * [redb (Rust Embedded DataBase) 1.0 release](https://www.redb.org/post/2023/06/16/1-0-stable-release/)
 * [rust-libp2p v0.52.0: a modular p2p networking stack](https://github.com/libp2p/rust-libp2p/releases/tag/libp2p-v0.52.0)
 
+* [Announcing Tantivy 0.20: Schemaless and more...](https://quickwit.io/blog/tantivy-0.20)
+
 ### Observations/Thoughts
 * [How we built the Grafbase local development experience in Rust](https://grafbase.com/blog/how-we-built-the-grafbase-cli-in-rust)
 * [Encoding ML-style modules in Rust](https://blog.waleedkhan.name/encoding-ml-style-modules-in-rust/)
