@@ -202,6 +202,8 @@ Rusty Events between 2023-06-21 - 2023-07-19 🦀
     * [**(Beginner) Rust Workshop**](https://www.meetup.com/rust-basel/events/293906330/)
 * 2023-07-03 | Zurich, CH | [Rust Zurich](https://www.meetup.com/rust-zurich/)
     * [**Rust in the Linux Kernel - July Meetup**](https://www.meetup.com/rust-zurich/events/293322905)
+* 2023-07-05 | Lyon, FR | [Rust Lyon](https://www.meetup.com/fr-FR/rust-lyon/)
+    * [**Rust Lyon Meetup #5**](https://www.meetup.com/fr-FR/rust-lyon/events/294325808)
 
 ### North America
 
