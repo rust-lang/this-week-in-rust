@@ -36,24 +36,25 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+
 * [rust-analyzer changelog #186](https://rust-analyzer.github.io/thisweek/2023/06/19/changelog-186.html)
 * [Tantivy 0.20: Schemaless](https://quickwit.io/blog/tantivy-0.20)
 * [lz4_flex 0.11: Gainzzzzz Unleashed!](https://flexineering.com/posts/lz4-011/)
 * [redb (Rust Embedded DataBase) 1.0 release](https://www.redb.org/post/2023/06/16/1-0-stable-release/)
 * [rust-libp2p v0.52.0: a modular p2p networking stack](https://github.com/libp2p/rust-libp2p/releases/tag/libp2p-v0.52.0)
-
-* [Announcing Tantivy 0.20: Schemaless and more...](https://quickwit.io/blog/tantivy-0.20)
-
-* [lz4_flex v0.11: Faster LZ4 de/compression](https://flexineering.com/posts/lz4-011/)
+* [`autometrics` 0.5 - Automatically connecting Prometheus metrics to traces with exemplars](https://fiberplane.com/blog/autometrics-rs-0-5-automatically-connecting-prometheus-metrics-to-traces)
 * [Introducing ducktor: Duck typed constructors for Rust structs with wasm-bindgen JsValue](https://mhamza.dev/blog/ducktor/)
 
 ### Observations/Thoughts
+
 * [How we built the Grafbase local development experience in Rust](https://grafbase.com/blog/how-we-built-the-grafbase-cli-in-rust)
 * [Encoding ML-style modules in Rust](https://blog.waleedkhan.name/encoding-ml-style-modules-in-rust/)
 * [Shuttle Launchpad #2: Structs and Enums](https://www.shuttle.rs/launchpad/issues/2023-06-16-issue-02-Structs-and-Enums)
 * [Building vector search in 200 lines of Rust](https://fennel.ai/blog/vector-search-in-200-lines-of-rust/)
 * [Leveraging the Type System for Domain Modeling in Rust](https://kellnr.io/blog/domain-modeling#undefined)
 * [Building an out-of-tree Rust Kernel Module Part Three](https://blog.rnstlr.ch/building-an-out-of-tree-rust-kernel-module-part-three.html)
+* [Paying with (in memory) cache](https://github.com/juspay/hyperswitch/wiki/Paying-with-%28in-memory%29-cache)
+* [Rewriting Ockam in Rust](https://www.ockam.io/blog/rewriting_in_rust)
 
 ### Rust Walkthroughs
 
@@ -62,9 +63,12 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Fossil Data Platform Rewritten in Rust 🦀](https://blog.duyet.net/2023/06/fossil-data-platform-written-rust.html)
+
 * [Build a CLI Tool for Data Masking, Encryption, and Decryption With Rust](https://medium.com/better-programming/build-a-cli-tool-for-data-masking-encryption-and-decryption-with-rust-ad36bea27559)
 * [Santiago Pastorino: Maintainer Retention](https://yaah.dev/santiago-maintainer-retention)
 * [DE] [Programmiersprachen: Die Beliebtheit von Rust bleibt ungebrochen](https://www.heise.de/news/Programmiersprachen-Die-Beliebtheit-von-Rust-bleibt-ungebrochen-9187369.html)
+* [Meilisearch across the Semantic Verse](https://github.com/meilisearch/meilisearch/issues/3838)
 
 ## Crate of the Week
 
@@ -85,6 +89,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [Hyperswitch - Make get_redis_conn return result in StorageInterface](https://github.com/juspay/hyperswitch/issues/1497)
+* [Hyperswitch - Implement `QueueInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1490)
+* [Hyperswitch - Maintain consistency between `PaymentIntent` and `PaymentAttempt` for `connector_id`](https://github.com/juspay/hyperswitch/issues/1453)
+* [Hyperswitch - Implement `PaymentMethodInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1491)
+* [Hyperswitch - Use the newtype pattern for ZIP/PIN codes](https://github.com/juspay/hyperswitch/issues/1492)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
