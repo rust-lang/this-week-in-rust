@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 * [lz4_flex 0.11: Gainzzzzz Unleashed!](https://flexineering.com/posts/lz4-011/)
 * [redb (Rust Embedded DataBase) 1.0 release](https://www.redb.org/post/2023/06/16/1-0-stable-release/)
 * [rust-libp2p v0.52.0: a modular p2p networking stack](https://github.com/libp2p/rust-libp2p/releases/tag/libp2p-v0.52.0)
+* [`autometrics` 0.5 - Automatically connecting Prometheus metrics to traces with exemplars](https://fiberplane.com/blog/autometrics-rs-0-5-automatically-connecting-prometheus-metrics-to-traces)
 
 ### Observations/Thoughts
 
