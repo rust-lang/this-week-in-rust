@@ -59,9 +59,11 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+
 * [Build a CLI Tool for Data Masking, Encryption, and Decryption With Rust](https://medium.com/better-programming/build-a-cli-tool-for-data-masking-encryption-and-decryption-with-rust-ad36bea27559)
 * [Santiago Pastorino: Maintainer Retention](https://yaah.dev/santiago-maintainer-retention)
 * [DE] [Programmiersprachen: Die Beliebtheit von Rust bleibt ungebrochen](https://www.heise.de/news/Programmiersprachen-Die-Beliebtheit-von-Rust-bleibt-ungebrochen-9187369.html)
+* [Meilisearch across the Semantic Verse](https://github.com/meilisearch/meilisearch/issues/3838)
 
 ## Crate of the Week
 
