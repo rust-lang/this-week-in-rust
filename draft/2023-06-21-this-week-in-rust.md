@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [`autometrics` 0.5 - Automatically connecting Prometheus metrics to traces with exemplars](https://fiberplane.com/blog/autometrics-rs-0-5-automatically-connecting-prometheus-metrics-to-traces)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
