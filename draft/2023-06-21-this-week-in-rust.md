@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing Tantivy 0.20: Schemaless and more...](https://quickwit.io/blog/tantivy-0.20)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
