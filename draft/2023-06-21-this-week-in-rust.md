@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Fossil Data Platform Rewritten in Rust 🦀](https://blog.duyet.net/2023/06/fossil-data-platform-written-rust.html)
 
 ## Crate of the Week
 
