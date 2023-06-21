@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [lz4_flex v0.11: Faster LZ4 de/compression](https://flexineering.com/posts/lz4-011/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
