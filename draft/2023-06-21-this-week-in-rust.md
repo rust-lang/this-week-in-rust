@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 * [Announcing Tantivy 0.20: Schemaless and more...](https://quickwit.io/blog/tantivy-0.20)
 
+* [lz4_flex v0.11: Faster LZ4 de/compression](https://flexineering.com/posts/lz4-011/)
+
 ### Observations/Thoughts
 * [How we built the Grafbase local development experience in Rust](https://grafbase.com/blog/how-we-built-the-grafbase-cli-in-rust)
 * [Encoding ML-style modules in Rust](https://blog.waleedkhan.name/encoding-ml-style-modules-in-rust/)
