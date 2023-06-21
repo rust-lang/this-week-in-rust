@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 * [Building vector search in 200 lines of Rust](https://fennel.ai/blog/vector-search-in-200-lines-of-rust/)
 * [Leveraging the Type System for Domain Modeling in Rust](https://kellnr.io/blog/domain-modeling#undefined)
 * [Building an out-of-tree Rust Kernel Module Part Three](https://blog.rnstlr.ch/building-an-out-of-tree-rust-kernel-module-part-three.html)
+* [Paying with (in memory) cache](https://github.com/juspay/hyperswitch/wiki/Paying-with-%28in-memory%29-cache)
 
 ### Rust Walkthroughs
 
@@ -86,6 +87,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [Hyperswitch - Make get_redis_conn return result in StorageInterface](https://github.com/juspay/hyperswitch/issues/1497)
+* [Hyperswitch - Implement `QueueInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1490)
+* [Hyperswitch - Maintain consistency between `PaymentIntent` and `PaymentAttempt` for `connector_id`](https://github.com/juspay/hyperswitch/issues/1453)
+* [Hyperswitch - Implement `PaymentMethodInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1491)
+* [Hyperswitch - Use the newtype pattern for ZIP/PIN codes](https://github.com/juspay/hyperswitch/issues/1492)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
