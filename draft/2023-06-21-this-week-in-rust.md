@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Meilisearch across the Semantic Verse](https://github.com/meilisearch/meilisearch/issues/3838)
 
 ## Crate of the Week
 
