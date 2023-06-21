@@ -59,6 +59,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Fossil Data Platform Rewritten in Rust 🦀](https://blog.duyet.net/2023/06/fossil-data-platform-written-rust.html)
 
 * [Build a CLI Tool for Data Masking, Encryption, and Decryption With Rust](https://medium.com/better-programming/build-a-cli-tool-for-data-masking-encryption-and-decryption-with-rust-ad36bea27559)
 * [Santiago Pastorino: Maintainer Retention](https://yaah.dev/santiago-maintainer-retention)
