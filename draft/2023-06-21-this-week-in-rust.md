@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rewriting Ockam in Rust](https://www.ockam.io/blog/rewriting_in_rust)
+
 ### Rust Walkthroughs
 
 ### Research
