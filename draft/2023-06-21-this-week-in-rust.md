@@ -181,7 +181,7 @@ Rusty Events between 2023-06-21 - 2023-07-19 🦀
 * 2023-06-22 | Wrocław, PL | [Rust Wrocław](https://www.meetup.com/rust-wroclaw/)
     * [**Rust Meetup #34**](https://www.meetup.com/rust-wroclaw/events/294176450/)
 * 2023-06-27 | Bucharest, RO | [Rust Lang Bucharest Meetup](https://www.meetup.com/rust-lang-bucharest-meetup/)
-    * [**Rust Bucharest Meetup #2***](https://www.meetup.com/rust-lang-bucharest-meetup/events/294204963/)
+    * [**Rust Bucharest Meetup #2**](https://www.meetup.com/rust-lang-bucharest-meetup/events/294204963/)
 * 2023-06-27 | London, UK | [Rust London User Group](https://www.meetup.com/rust-london-user-group/)
     * [**LDN Talks June 2023 *Shuttle Takeover***](https://www.meetup.com/rust-london-user-group/events/294038743/)
 * 2023-06-27 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/)
