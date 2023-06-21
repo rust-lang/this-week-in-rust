@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [Leveraging the Type System for Domain Modeling in Rust](https://kellnr.io/blog/domain-modeling#undefined)
 * [Building an out-of-tree Rust Kernel Module Part Three](https://blog.rnstlr.ch/building-an-out-of-tree-rust-kernel-module-part-three.html)
 * [Paying with (in memory) cache](https://github.com/juspay/hyperswitch/wiki/Paying-with-%28in-memory%29-cache)
+* [Rewriting Ockam in Rust](https://www.ockam.io/blog/rewriting_in_rust)
 
 ### Rust Walkthroughs
 
