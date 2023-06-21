@@ -36,17 +36,15 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+
 * [rust-analyzer changelog #186](https://rust-analyzer.github.io/thisweek/2023/06/19/changelog-186.html)
 * [Tantivy 0.20: Schemaless](https://quickwit.io/blog/tantivy-0.20)
 * [lz4_flex 0.11: Gainzzzzz Unleashed!](https://flexineering.com/posts/lz4-011/)
 * [redb (Rust Embedded DataBase) 1.0 release](https://www.redb.org/post/2023/06/16/1-0-stable-release/)
 * [rust-libp2p v0.52.0: a modular p2p networking stack](https://github.com/libp2p/rust-libp2p/releases/tag/libp2p-v0.52.0)
 
-* [Announcing Tantivy 0.20: Schemaless and more...](https://quickwit.io/blog/tantivy-0.20)
-
-* [lz4_flex v0.11: Faster LZ4 de/compression](https://flexineering.com/posts/lz4-011/)
-
 ### Observations/Thoughts
+
 * [How we built the Grafbase local development experience in Rust](https://grafbase.com/blog/how-we-built-the-grafbase-cli-in-rust)
 * [Encoding ML-style modules in Rust](https://blog.waleedkhan.name/encoding-ml-style-modules-in-rust/)
 * [Shuttle Launchpad #2: Structs and Enums](https://www.shuttle.rs/launchpad/issues/2023-06-16-issue-02-Structs-and-Enums)
