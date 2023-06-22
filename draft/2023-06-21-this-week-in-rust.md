@@ -338,6 +338,7 @@ Rusty Events between 2023-06-21 - 2023-07-19 🦀
     * [**Rust: breakfast & learn**](https://www.meetup.com/rust-breakfast-learn/events/jnmgftyfcjbgc/)
 * 2023-06-28 | Cambridge, MA, US | [Boston Rust Meetup](https://www.meetup.com/BostonRust/)
     * [**Harvard Square Rust Lunch**](https://www.meetup.com/BostonRust/events/293725559)
+    * [**Boston Rust Meetup at Kensho**](https://www.meetup.com/bostonrust/events/294222423/)
 * 2023-06-29 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
     * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/mv-rust-meetup/events/294223607)
 * 2023-07-01 | San Jose, CA, US | [Rust Breakfast & Learn](https://www.meetup.com/rust-breakfast-learn/)
