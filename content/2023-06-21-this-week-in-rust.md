@@ -29,11 +29,8 @@ and just ask the editors to select the category.
 
 
 ### Official
+
 * [Introducing the Rust Leadership Council](https://blog.rust-lang.org/2023/06/20/introducing-leadership-council.html)
-
-### Foundation
-
-### Newsletters
 
 ### Project/Tooling Updates
 
@@ -60,15 +57,13 @@ and just ask the editors to select the category.
 
 * [API with Axum, SurrealDB, GraphQL - Template](https://radim.xyz/project/axum-template/)
 
-### Research
-
 ### Miscellaneous
-* [Fossil Data Platform Rewritten in Rust 🦀](https://blog.duyet.net/2023/06/fossil-data-platform-written-rust.html)
 
+* [Fossil Data Platform Rewritten in Rust 🦀](https://blog.duyet.net/2023/06/fossil-data-platform-written-rust.html)
 * [Build a CLI Tool for Data Masking, Encryption, and Decryption With Rust](https://medium.com/better-programming/build-a-cli-tool-for-data-masking-encryption-and-decryption-with-rust-ad36bea27559)
 * [Santiago Pastorino: Maintainer Retention](https://yaah.dev/santiago-maintainer-retention)
-* [DE] [Programmiersprachen: Die Beliebtheit von Rust bleibt ungebrochen](https://www.heise.de/news/Programmiersprachen-Die-Beliebtheit-von-Rust-bleibt-ungebrochen-9187369.html)
 * [Meilisearch across the Semantic Verse](https://github.com/meilisearch/meilisearch/issues/3838)
+* [DE] [Programmiersprachen: Die Beliebtheit von Rust bleibt ungebrochen](https://www.heise.de/news/Programmiersprachen-Die-Beliebtheit-von-Rust-bleibt-ungebrochen-9187369.html)
 
 ## Crate of the Week
 
@@ -87,13 +82,19 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Send-file - Get device memory information](https://github.com/opeolluwa/send-file/issues/137)
+* [Send-file - create hotspot on Windows operating system](https://github.com/opeolluwa/send-file/issues/132)
+* [Ockam - Implement clap commands `ockam uninstall` and `ockam upgrade`](https://github.com/build-trust/ockam/issues/4916)
+* [Ockam - Enable pnpm support in dependabot](https://github.com/build-trust/ockam/issues/4961)
+* [Ockam - Add an "optional" tag to commands arguments' description when generating markdown docs](https://github.com/build-trust/ockam/issues/5158)
 * [Hyperswitch - Make get_redis_conn return result in StorageInterface](https://github.com/juspay/hyperswitch/issues/1497)
 * [Hyperswitch - Implement `QueueInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1490)
 * [Hyperswitch - Maintain consistency between `PaymentIntent` and `PaymentAttempt` for `connector_id`](https://github.com/juspay/hyperswitch/issues/1453)
 * [Hyperswitch - Implement `PaymentMethodInterface` for `MockDb`](https://github.com/juspay/hyperswitch/issues/1491)
 * [Hyperswitch - Use the newtype pattern for ZIP/PIN codes](https://github.com/juspay/hyperswitch/issues/1492)
+* [mirrord - Non-indicative error when running on a Completed pod](https://github.com/metalbear-co/mirrord/issues/462)
+* [mirrord - Log problem in layer and exit when agent image is not found](https://github.com/metalbear-co/mirrord/issues/366)
+* [mirrord - Further tests for HTTP header filtering.](https://github.com/metalbear-co/mirrord/issues/911)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -234,11 +235,13 @@ which are reaching a decision. Express your opinions now.
 * [disposition: merge] [Implement `Sync` for `mpsc::Sender`](https://github.com/rust-lang/rust/pull/111087)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
 * [new] [Propose code string literals](https://github.com/rust-lang/rfcs/pull/3450)
 * [new] [Contextual target feature detection](https://github.com/rust-lang/rfcs/pull/3449)
 * [new] [Introduce the Store API for great good.](https://github.com/rust-lang/rfcs/pull/3446)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
@@ -372,7 +375,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/13yx1dn/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -389,4 +392,4 @@ Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/14fovn3/this_week_in_rust_500/)</small>
