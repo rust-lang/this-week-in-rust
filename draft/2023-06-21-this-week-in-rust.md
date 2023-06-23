@@ -69,6 +69,7 @@ and just ask the editors to select the category.
 * [Santiago Pastorino: Maintainer Retention](https://yaah.dev/santiago-maintainer-retention)
 * [DE] [Programmiersprachen: Die Beliebtheit von Rust bleibt ungebrochen](https://www.heise.de/news/Programmiersprachen-Die-Beliebtheit-von-Rust-bleibt-ungebrochen-9187369.html)
 * [Meilisearch across the Semantic Verse](https://github.com/meilisearch/meilisearch/issues/3838)
+* 2023-07-11 | Virtual | [Web-based Services in Rust, 3-day Workshop with Stefan Baumgartner - organized by Mainmatter](https://rust-web-services-workshop.mainmatter.com/)
 
 ## Crate of the Week
 
