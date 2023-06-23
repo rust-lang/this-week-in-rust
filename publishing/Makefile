@@ -38,7 +38,7 @@
 # TODO: The BLOG_DOWNLOAD is only needed because one dockerfile will have to communicate
 #       with another, and I don't want to deal with building out the networking logic... yet...
 # CHANGE ME!  vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-BLOG_DOWNLOAD=http://localhost:8000/blog/2023/01/25/this-week-in-rust-479/
+BLOG_DOWNLOAD= http://localhost:8000/blog/2023/05/03/this-week-in-rust-493/
 
 website-workflow: build clean generate-website host-content
 
