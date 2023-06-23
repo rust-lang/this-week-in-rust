@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* 2023-07-11 | Virtual | [Web-based Services in Rust, 3-day Workshop with Stefan Baumgartner - organized by Mainmatter](https://rust-web-services-workshop.mainmatter.com/)
 
 ## Crate of the Week
 
