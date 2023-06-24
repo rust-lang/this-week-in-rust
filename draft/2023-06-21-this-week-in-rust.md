@@ -59,6 +59,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 * [API with Axum, SurrealDB, GraphQL - Template](https://radim.xyz/project/axum-template/)
+* [Prefix Ranges in Rust](https://www.thecodedmessage.com/posts/prefix-ranges/)
 
 ### Research
 
