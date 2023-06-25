@@ -35,7 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-[Exograph: Declarative GraphQL backends with a Rust-powered runtime](https://exograph.dev)
+[Exograph: Declarative GraphQL backends with a Rust-powered runtime](https://exograph.dev/)
 
 ### Observations/Thoughts
 
