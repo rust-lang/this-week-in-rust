@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [Graph Traversals with Breadth-First Search in Rust](https://www.youtube.com/watch?v=ZDy3tqn-DKA)
 
 ### Research
 
