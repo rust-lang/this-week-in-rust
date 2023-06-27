@@ -71,7 +71,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Relatively quiet week outside of a large win on one incremental benchmark in a
+regression test (i.e., not real world code). Bimodality in a number of
+benchmarks continues to be an issue.
+
+Triage done by **@simulacrum**.
+Revision range: [b9d608c9..b5e51db](https://perf.rust-lang.org/?start=b9d608c979ad3c0700f9f0237a8c12feb0ba44fb&end=b5e51db16dfbf5685e32dfe2d9a835a5c695afe4&absolute=false&stat=instructions%3Au)
+
+5 Regressions, 6 Improvements, 3 Mixed; 5 of them in rollups
+
+44 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-06-27.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
