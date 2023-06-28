@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Nine Rules for Writing Python Extensions in Rust | PyData Seattle 2023](https://www.youtube.com/watch?v=B6E0Jb6yj34)
+
 ### Research
 
 ### Miscellaneous
