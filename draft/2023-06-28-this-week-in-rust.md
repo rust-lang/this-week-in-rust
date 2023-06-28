@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Youki v0.1.0 has been released for use with Kubernetes and more](https://github.com/containers/youki/releases/tag/v0.1.0)
+
 ### Observations/Thoughts
 - [Rust fact vs. fiction: 5 Insights from Google's Rust journey in 2022](https://opensource.googleblog.com/2023/06/rust-fact-vs-fiction-5-insights-from-googles-rust-journey-2022.html)
 
