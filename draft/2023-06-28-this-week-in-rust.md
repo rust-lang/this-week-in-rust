@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Escaping Macrophages](https://www.unscript.net/redblog/posts/trait-impl-macros/)
+
 ### Rust Walkthroughs
 
 ### Research
