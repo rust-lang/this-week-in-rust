@@ -68,6 +68,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [Hyperswitch - create macros to implement intermediate traits for connectors](https://github.com/juspay/hyperswitch/issues/1562)
+* [Hyperswitch - separate crate specific settings from `settings.rs` to their respective crates](https://github.com/juspay/hyperswitch/issues/1563)
+* [Hyperswitch - Add scoped error enums for disputes API](https://github.com/juspay/hyperswitch/issues/1564)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
