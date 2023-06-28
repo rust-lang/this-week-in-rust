@@ -36,11 +36,12 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
-- [Rust fact vs. fiction: 5 Insights from Google's Rust journey in 2022](https://opensource.googleblog.com/2023/06/rust-fact-vs-fiction-5-insights-from-googles-rust-journey-2022.html)
 
+* [Rust fact vs. fiction: 5 Insights from Google's Rust journey in 2022](https://opensource.googleblog.com/2023/06/rust-fact-vs-fiction-5-insights-from-googles-rust-journey-2022.html)
 * [Escaping Macrophages](https://www.unscript.net/redblog/posts/trait-impl-macros/)
 
 ### Rust Walkthroughs
+
 * [video] [Supercharge your I/O in Rust with io_uring](https://www.youtube.com/watch?v=IHAPVK1nOrQ)
 * [video] [Graph Traversal with Breadth-First Search in Rust](https://www.youtube.com/watch?v=ZDy3tqn-DKA)
 * [video] [Nine Rules for Writing Python Extensions in Rust | PyData Seattle 2023](https://www.youtube.com/watch?v=B6E0Jb6yj34)
@@ -66,8 +67,20 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [RustQuant - Issue 56: Implementing Logistic Regression: weights matrix becomes singular.](https://github.com/avhz/RustQuant/issues/56)
+* [RustQuant - Issue 30: Error handling for the library.](https://github.com/avhz/RustQuant/issues/30)
+* [RustQuant - Issue 22: Pricing model calibration module.](https://github.com/avhz/RustQuant/issues/22)
+* [RustQuant - Issue 14: Add/improve documentation (esp. math related docs).](https://github.com/avhz/RustQuant/issues/14)
+* [RustQuant - Issue 57: Increase test coverage (chore).](https://github.com/avhz/RustQuant/issues/57)
+* [Ockam - Add API endpoint to retrieve the project's version](https://github.com/build-trust/ockam/issues/4062)
+* [Ockam - Validate the credential before storing it](https://github.com/build-trust/ockam/issues/4380)
+* [Ockam - Update CLI documentation for `lease` commands](https://github.com/build-trust/ockam/issues/4778)
+* [Send File - create hotspot on Linux operating system](https://github.com/opeolluwa/send-file/issues/83)
+* [Send File - Get device storage information (used disk size and total memory)](https://github.com/opeolluwa/send-file/issues/137)
+* [Send File - Create hotspot on Windows Operating system](https://github.com/opeolluwa/send-file/issues/132)
+* [Send File - Use Tauri store plugin to persist app data](https://github.com/opeolluwa/send-file/issues/29)
+* [mirrord - Alert user when running on OpenShift](https://github.com/metalbear-co/mirrord/issues/1560)
+* [mirrord - Add integration test for listening on the same port again after closing](https://github.com/metalbear-co/mirrord/issues/1552)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
