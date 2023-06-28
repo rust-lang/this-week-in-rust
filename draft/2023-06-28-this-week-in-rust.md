@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 * [Escaping Macrophages](https://www.unscript.net/redblog/posts/trait-impl-macros/)
 
 ### Rust Walkthroughs
+* [video] [Graph Traversal with Breadth-First Search in Rust](https://www.youtube.com/watch?v=ZDy3tqn-DKA)
 
 * [video] [Nine Rules for Writing Python Extensions in Rust | PyData Seattle 2023](https://www.youtube.com/watch?v=B6E0Jb6yj34)
 
