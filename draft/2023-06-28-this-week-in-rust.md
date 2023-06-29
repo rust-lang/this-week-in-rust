@@ -269,6 +269,8 @@ Rusty Events between 2023-06-28 - 2023-07-26 🦀
 
 * 2023-06-29 | Seoul, KR | [T-RUST meetup](https://www.meetup.com/t-rust-meetup/)
     * [**🦀 T-RUST Meetup 🦀**](https://www.meetup.com/t-rust-meetup/events/294280140/)
+* 2023-07-22 | Kyoto, JP | [Kansai Rust](https://www.meetup.com/kansai-rust/)
+    * [**Tauri Meetup**](https://www.meetup.com/kansai-rust/events/294426799/)
 
 ### Europe
 
