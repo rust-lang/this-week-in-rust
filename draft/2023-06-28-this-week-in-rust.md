@@ -85,6 +85,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
+<!-- * [ - ]() -->
+* [Hyperswitch - create macros to implement intermediate traits for connectors](https://github.com/juspay/hyperswitch/issues/1562)
+* [Hyperswitch - separate crate specific settings from `settings.rs` to their respective crates](https://github.com/juspay/hyperswitch/issues/1563)
+* [Hyperswitch - Add scoped error enums for disputes API](https://github.com/juspay/hyperswitch/issues/1564)
 * [RustQuant - Issue 56: Implementing Logistic Regression: weights matrix becomes singular.](https://github.com/avhz/RustQuant/issues/56)
 * [RustQuant - Issue 30: Error handling for the library.](https://github.com/avhz/RustQuant/issues/30)
 * [RustQuant - Issue 22: Pricing model calibration module.](https://github.com/avhz/RustQuant/issues/22)
