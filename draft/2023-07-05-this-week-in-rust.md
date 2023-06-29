@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [New MeetUp Group in Canada: Rust Halifax](https://www.meetup.com/rust-tell-halifax/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
