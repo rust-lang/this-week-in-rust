@@ -36,8 +36,10 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [rust-analyzer changelog #187](https://rust-analyzer.github.io/thisweek/2023/06/26/changelog-187.html)
-
-- [Youki v0.1.0 has been released for use with Kubernetes and more](https://github.com/containers/youki/releases/tag/v0.1.0)
+* [Youki v0.1.0 has been released for use with Kubernetes and more](https://github.com/containers/youki/releases/tag/v0.1.0)
+* [Build Zellij WebAssembly (Rust) plugins for your Terminal](https://zellij.dev/news/new-plugin-system/)
+* [Slint 1.1 Released with additional Royalty-Free License](https://slint.dev/blog/slint-1.1-released)
+* [Exograph: Declarative GraphQL backends with a Rust-powered runtime](https://exograph.dev/blog/hello-exograph)
 
 ### Observations/Thoughts
 * [Rust fact vs. fiction: 5 Insights from Google's Rust journey in 2022](https://opensource.googleblog.com/2023/06/rust-fact-vs-fiction-5-insights-from-googles-rust-journey-2022.html)
@@ -52,6 +54,7 @@ and just ask the editors to select the category.
 * [Blowing up my compile times for dubious benefits](https://claytonwramsey.github.io/2023/06/20/fiddler-const-magic.html)
 * [Walk-Through: Prefix Ranges in Rust, a Surprisingly Deep Dive](https://www.thecodedmessage.com/posts/prefix-ranges/)
 * [ESP32 Embedded Rust at the HAL: Remote Control Peripheral](https://apollolabsblog.hashnode.dev/esp32-embedded-rust-at-the-hal-remote-control-peripheral)
+* [Auto-Generating & Validating OpenAPI Docs in Rust: A Streamlined Approach with Utoipa and Schemathesis](https://identeco.de/en/blog/generating_and_validating_openapi_docs_in_rust/)
 * [video] [Writing a Rust-based ring buffer](https://www.youtube.com/watch?v=TQVwv_e_rMw)
 * [video] [Supercharge your I/O in Rust with io_uring](https://www.youtube.com/watch?v=IHAPVK1nOrQ)
 * [video] [Graph Traversal with Breadth-First Search in Rust](https://www.youtube.com/watch?v=ZDy3tqn-DKA)
@@ -290,6 +293,8 @@ Rusty Events between 2023-06-28 - 2023-07-26 🦀
     * [**Rust Lyon Meetup #5**](https://www.meetup.com/fr-FR/rust-lyon/events/294325808)
 * 2023-07-11 | Breda, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
     * [**Rust: Advanced Graphics and User Interfaces**](https://www.meetup.com/rust-nederland/events/294199533/)
+* 2023-07-11 | Virtual | [Mainmatter](https://mainmatter.com/)
+    * [Web-based Services in Rust, 3-day Workshop with Stefan Baumgartner](https://rust-web-services-workshop.mainmatter.com/)
 * 2023-07-13 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/)
     * [**Reading Rust Meetup at Browns***](https://www.meetup.com/reading-rust-workshop/events/mstlftyfckbrb/)
 
