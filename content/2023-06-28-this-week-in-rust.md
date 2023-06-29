@@ -30,10 +30,6 @@ and just ask the editors to select the category.
 ### Official
 * [Improved API tokens for crates.io](https://blog.rust-lang.org/2023/06/23/improved-api-tokens-for-crates-io.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer changelog #187](https://rust-analyzer.github.io/thisweek/2023/06/26/changelog-187.html)
 * [Youki v0.1.0 has been released for use with Kubernetes and more](https://github.com/containers/youki/releases/tag/v0.1.0)
@@ -86,11 +82,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
-* [Hyperswitch - create macros to implement intermediate traits for connectors](https://github.com/juspay/hyperswitch/issues/1562)
-* [Hyperswitch - separate crate specific settings from `settings.rs` to their respective crates](https://github.com/juspay/hyperswitch/issues/1563)
-* [Hyperswitch - Add scoped error enums for disputes API](https://github.com/juspay/hyperswitch/issues/1564)
 * [RustQuant - Issue 56: Implementing Logistic Regression: weights matrix becomes singular.](https://github.com/avhz/RustQuant/issues/56)
 * [RustQuant - Issue 30: Error handling for the library.](https://github.com/avhz/RustQuant/issues/30)
 * [RustQuant - Issue 22: Pricing model calibration module.](https://github.com/avhz/RustQuant/issues/22)
@@ -278,8 +269,6 @@ Rusty Events between 2023-06-28 - 2023-07-26 🦀
 
 * 2023-06-29 | Seoul, KR | [T-RUST meetup](https://www.meetup.com/t-rust-meetup/)
     * [**🦀 T-RUST Meetup 🦀**](https://www.meetup.com/t-rust-meetup/events/294280140/)
-* 2023-07-22 | Kyoto, JP | [Kansai Rust](https://www.meetup.com/kansai-rust/)
-    * [**Tauri Meetup**](https://www.meetup.com/kansai-rust/events/294426799/)
 
 ### Europe
 
@@ -324,7 +313,7 @@ Rusty Events between 2023-06-28 - 2023-07-26 🦀
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/294373345)
 * 2023-07-12 | Waterloo, ON, CA | [Rust KW](https://www.meetup.com/rust-kw/)
     * [**Overengineering FizzBuzz**](https://www.meetup.com/rust-kw/events/294355516/)
-* 2023-07-13 | Seattle, WA, US | [Seattle Rust User Group](https://www.meetup.com/seattle-rust-user-group/)
+* 2023-07-13 | Seattle, WA, US | [Seattle Rust User Group Meetup](https://www.meetup.com/seattle-rust-user-group/)
     * [**July Meetup**](https://www.meetup.com/seattle-rust-user-group/events/294191599/)
 * 2023-07-18 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/vwljctyfckbxb)
@@ -359,7 +348,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/13yx1dn/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
