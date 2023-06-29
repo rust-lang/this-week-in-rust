@@ -30,10 +30,6 @@ and just ask the editors to select the category.
 ### Official
 * [Improved API tokens for crates.io](https://blog.rust-lang.org/2023/06/23/improved-api-tokens-for-crates-io.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer changelog #187](https://rust-analyzer.github.io/thisweek/2023/06/26/changelog-187.html)
 * [Youki v0.1.0 has been released for use with Kubernetes and more](https://github.com/containers/youki/releases/tag/v0.1.0)
@@ -359,7 +355,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/13yx1dn/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
