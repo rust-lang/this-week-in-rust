@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 * [Build Zellij WebAssembly (Rust) plugins for your Terminal](https://zellij.dev/news/new-plugin-system/)
 * [Slint 1.1 Released with additional Royalty-Free License](https://slint.dev/blog/slint-1.1-released)
 * [Exograph: Declarative GraphQL backends with a Rust-powered runtime](https://exograph.dev/blog/hello-exograph)
+* [Nutype v0.3](https://github.com/greyblake/nutype/releases/tag/v0.3.0)
 
 ### Observations/Thoughts
 * [Rust fact vs. fiction: 5 Insights from Google's Rust journey in 2022](https://opensource.googleblog.com/2023/06/rust-fact-vs-fiction-5-insights-from-googles-rust-journey-2022.html)
