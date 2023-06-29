@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Pavex, a new Rust web framework - #5: Redesigning our runtime types](https://www.lpalmieri.com/posts/pavex-progress-report-05/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
