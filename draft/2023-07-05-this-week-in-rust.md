@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [projectable: a command line TUI file manager](https://dzfrias.dev/blog/projectable)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
