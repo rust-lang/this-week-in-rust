@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [How I finally understood async/await in Rust (part 2: how does a pending future get woken?)](https://hegdenu.net/posts/understanding-async-await-2/)
 
 ### Research
 
