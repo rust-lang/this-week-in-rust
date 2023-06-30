@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Verify Rust code in VS Code with the Kani VS Code extension](https://model-checking.github.io/kani-verifier-blog/2023/06/30/introducing-the-kani-vscode-extension.html)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
