@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [A persistent task queue in Rust](https://jmmv.dev/2023/06/iii-iv-task-queue.html)
+
 ### Research
 
 ### Miscellaneous
