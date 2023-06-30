@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Tree-Structured Concurrency](https://blog.yoshuawuyts.com/tree-structured-concurrency/)
+
 ### Rust Walkthroughs
 
 ### Research
