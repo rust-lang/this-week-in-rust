@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [A compressed indexable bitset](https://quickwit.io/blog/compressed-indexable-bitset)
+
 ### Research
 
 ### Miscellaneous
