@@ -28,14 +28,32 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Rustfmt support for let-else statements](https://blog.rust-lang.org/2023/07/01/rustfmt-supports-let-else-statements.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust GameDev #46 - May 2023](https://gamedev.rs/news/046/)
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #188](https://rust-analyzer.github.io/thisweek/2023/07/03/changelog-188.html)
+* [Pavex DevLog #5: redesigning our runtime types](https://www.lpalmieri.com/posts/pavex-progress-report-05/)
+* [Bevy XPBD: A physics engine for the Bevy game engine](https://joonaa.dev/blog/02/bevy-xpbd-0-1-0)
 
 ### Observations/Thoughts
+* [How To Wrap Your Errors With Enums When Using Error-Stack](https://betterprogramming.pub/how-to-wrap-your-errors-with-enums-when-using-error-stack-77b122016e6e)
+* [A compressed indexable bitset](https://quickwit.io/blog/compressed-indexable-bitset)
+* [Exploring Graphs in Rust. Yikes](https://www.confessionsofadataguy.com/exploring-graphs-in-rust-yikes/)
+* [Writing a Linked List in Rust: A Walkthrough](https://cmooneycollett.github.io/2023/07/01/writing-a-linkedlist-in-rust)
+* [Tree-Structured Concurrency](https://blog.yoshuawuyts.com/tree-structured-concurrency/)
+* [Rust Notes on Temporary values (usage of Mutex) - 4](https://dev.to/nsengupta/rust-notes-on-temporary-values-usage-of-mutex-4-498c)
+* [A persistent task queue in Rust](https://jmmv.dev/2023/06/iii-iv-task-queue.html)
+* [Method Overloading (kinda), and Advanced Trait Usage](https://youtu.be/HA_e1c0HbgQ)
+* [Unlocking Possibilities: 4 Reasons Why ESP32 and Rust Make a Winning Combination](https://apollolabsblog.hashnode.dev/unlocking-possibilities-4-reasons-why-esp32-and-rust-make-a-winning-combination)
+* [The magic of dependency resolution](https://ochagavia.nl/blog/the-magic-of-dependency-resolution/)
+* [Writing E2E Tests for Axum & GraphQL](https://estebanborai.com/en/notes/writing-e2e-tests-for-axum-and-graphql)
+* [video] [Choose the Right Option](https://www.youtube.com/watch?v=6c7pZYP_iIE)
+* [video] [4 levels of Rust error handling](https://www.youtube.com/watch?v=kHxjiTv8r18)
 
 ### Rust Walkthroughs
 
