@@ -194,7 +194,7 @@ Rusty Events between 2023-07-05 - 2023-08-02 🦀
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/294373345)
 * 2023-07-12 | Waterloo, ON, CA | [Rust KW](https://www.meetup.com/rust-kw/)
     * [**Overengineering FizzBuzz**](https://www.meetup.com/rust-kw/events/294355516/)
-* 2023-07-13 | Seattle, WA, US | [Seattle Rust User Group Meetup](https://www.meetup.com/seattle-rust-user-group/)
+* 2023-07-13 | Seattle, WA, US | [Seattle Rust User Group](https://www.meetup.com/seattle-rust-user-group/)
     * [**July Meetup**](https://www.meetup.com/seattle-rust-user-group/events/294191599/)
 * 2023-07-18 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/vwljctyfckbxb)
