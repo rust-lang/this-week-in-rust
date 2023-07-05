@@ -65,6 +65,8 @@ and just ask the editors to select the category.
 
 * [Full Stack Rust Workshop: Shuttle, Actix Web, SQLx & Diouxus](https://bcnrust.github.io/devbcn-workshop/)
 
+- [A compressed indexable bitset](https://quickwit.io/blog/compressed-indexable-bitset)
+
 ### Research
 
 ### Miscellaneous
