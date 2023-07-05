@@ -69,6 +69,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Reduce memory footprint by about 600% for M.E.D. — Performance Matters](https://medium.com/gitconnected/reduce-memory-footprint-by-about-600-for-m-e-d-performance-matters-bec407833e7c)
+
 ## Crate of the Week
 
 This week's crate is [rustypaste](https://github.com/orhun/rustypaste), a minimal file upload/pastebin service.
