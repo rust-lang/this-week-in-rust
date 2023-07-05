@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Generate {bash,fish,zsh} completions from a single EBNF-like grammar](https://github.com/adaszko/complgen)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
