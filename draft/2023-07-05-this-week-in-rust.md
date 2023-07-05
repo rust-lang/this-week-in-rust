@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 * [complgen: Generate {bash,fish,zsh} completions from a single EBNF-like grammar](https://github.com/adaszko/complgen)
 
+* [projectable: a command line TUI file manager](https://dzfrias.dev/blog/projectable)
+
 ### Observations/Thoughts
 * [How To Wrap Your Errors With Enums When Using Error-Stack](https://betterprogramming.pub/how-to-wrap-your-errors-with-enums-when-using-error-stack-77b122016e6e)
 * [A compressed indexable bitset](https://quickwit.io/blog/compressed-indexable-bitset)
