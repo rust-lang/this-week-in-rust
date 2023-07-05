@@ -39,21 +39,15 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #188](https://rust-analyzer.github.io/thisweek/2023/07/03/changelog-188.html)
 * [Pavex DevLog #5: redesigning our runtime types](https://www.lpalmieri.com/posts/pavex-progress-report-05/)
 * [Bevy XPBD: A physics engine for the Bevy game engine](https://joonaa.dev/blog/02/bevy-xpbd-0-1-0)
-
 * [complgen: Generate {bash,fish,zsh} completions from a single EBNF-like grammar](https://github.com/adaszko/complgen)
-
 * [projectable: a command line TUI file manager](https://dzfrias.dev/blog/projectable)
-
-* [Pavex, a new Rust web framework - #5: Redesigning our runtime types](https://www.lpalmieri.com/posts/pavex-progress-report-05/)
 
 ### Observations/Thoughts
 * [How To Wrap Your Errors With Enums When Using Error-Stack](https://betterprogramming.pub/how-to-wrap-your-errors-with-enums-when-using-error-stack-77b122016e6e)
-* [A compressed indexable bitset](https://quickwit.io/blog/compressed-indexable-bitset)
 * [Exploring Graphs in Rust. Yikes](https://www.confessionsofadataguy.com/exploring-graphs-in-rust-yikes/)
 * [Writing a Linked List in Rust: A Walkthrough](https://cmooneycollett.github.io/2023/07/01/writing-a-linkedlist-in-rust)
 * [Tree-Structured Concurrency](https://blog.yoshuawuyts.com/tree-structured-concurrency/)
 * [Rust Notes on Temporary values (usage of Mutex) - 4](https://dev.to/nsengupta/rust-notes-on-temporary-values-usage-of-mutex-4-498c)
-* [A persistent task queue in Rust](https://jmmv.dev/2023/06/iii-iv-task-queue.html)
 * [Method Overloading (kinda), and Advanced Trait Usage](https://youtu.be/HA_e1c0HbgQ)
 * [Unlocking Possibilities: 4 Reasons Why ESP32 and Rust Make a Winning Combination](https://apollolabsblog.hashnode.dev/unlocking-possibilities-4-reasons-why-esp32-and-rust-make-a-winning-combination)
 * [The magic of dependency resolution](https://ochagavia.nl/blog/the-magic-of-dependency-resolution/)
@@ -62,14 +56,12 @@ and just ask the editors to select the category.
 * [video] [Choose the Right Option](https://www.youtube.com/watch?v=6c7pZYP_iIE)
 * [video] [4 levels of Rust error handling](https://www.youtube.com/watch?v=kHxjiTv8r18)
 
-- [Tree-Structured Concurrency](https://blog.yoshuawuyts.com/tree-structured-concurrency/)
-
 ### Rust Walkthroughs
 * [Build a Ray Tracer, pt. 4 - The Next Dimension](https://www.superperfundo.dev/articles/ray-tracer-part4)
 * [Nine Rules for Running Rust on the Web and on Embedded: Practical Lessons from Porting range-set-blaze to no_std and WASM](https://towardsdatascience.com/nine-rules-for-running-rust-on-the-web-and-on-embedded-94462ef249a2)
 * [Full Stack Rust Workshop: Shuttle, Actix Web, SQLx & Diouxus](https://bcnrust.github.io/devbcn-workshop/)
-* [A compressed indexable bitset](https://quickwit.io/blog/compressed-indexable-bitset)
 * [Intercepting Allocations with the Global Allocator](https://bd103.github.io/blog/2023-06-27-global-allocators)
+* [A compressed indexable bitset](https://quickwit.io/blog/compressed-indexable-bitset)
 * [A persistent task queue in Rust](https://jmmv.dev/2023/06/iii-iv-task-queue.html)
 * [How I finally understood async/await in Rust (part 2: how does a pending future get woken?)](https://hegdenu.net/posts/understanding-async-await-2/)
 
