@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 ### Research
+* [Build a Ray Tracer, pt. 4 - The Next Dimension](https://www.superperfundo.dev/articles/ray-tracer-part4)
 
 ### Miscellaneous
 
