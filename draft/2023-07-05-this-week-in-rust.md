@@ -152,8 +152,6 @@ Rusty Events between 2023-07-05 - 2023-08-02 🦀
     * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/dvvtvsyfckbhb)
 * 2023-07-06 | Virtual (Ciudad de México, MX) | [Rust MX](https://www.meetup.com/rust-mx/)
     * [**Rust y Haskell**](https://www.meetup.com/rust-mx/events/294152158)
-* 2023-07-08 | Bangalore, IN | [Rust India](https://hasgeek.com/rustlangin)
-    * [**Rust India monthly meetup**](https://hasgeek.com/rustlangin/july-2023-rustacean-meetup/)
 * 2023-07-11 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallas-rust/)
     * [**Second Tuesday**](https://www.meetup.com/dallas-rust/events/vndgwsyfckbpb)
 * 2023-07-13 - 2023-07-14 | Virtual | [Scientific Computing in Rust](https://scientificcomputing.rs/)
@@ -169,6 +167,8 @@ Rusty Events between 2023-07-05 - 2023-08-02 🦀
 
 * 2023-06-29 | Seoul, KR | [T-RUST meetup](https://www.meetup.com/t-rust-meetup/)
     * [**🦀 T-RUST Meetup 🦀**](https://www.meetup.com/t-rust-meetup/events/294280140/)
+* 2023-07-08 | Bangalore, IN | [Rust India](https://hasgeek.com/rustlangin)
+    * [**Rust India monthly meetup**](https://hasgeek.com/rustlangin/july-2023-rustacean-meetup/)
 
 ### Europe
 
