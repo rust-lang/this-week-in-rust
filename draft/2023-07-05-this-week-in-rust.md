@@ -56,6 +56,7 @@ and just ask the editors to select the category.
 * [video] [4 levels of Rust error handling](https://www.youtube.com/watch?v=kHxjiTv8r18)
 
 ### Rust Walkthroughs
+* [Build a Ray Tracer, pt. 4 - The Next Dimension](https://www.superperfundo.dev/articles/ray-tracer-part4)
 
 ### Research
 
