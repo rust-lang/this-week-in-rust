@@ -68,8 +68,8 @@ and just ask the editors to select the category.
 * [Full Stack Rust Workshop: Shuttle, Actix Web, SQLx & Diouxus](https://bcnrust.github.io/devbcn-workshop/)
 * [A compressed indexable bitset](https://quickwit.io/blog/compressed-indexable-bitset)
 * [Intercepting Allocations with the Global Allocator](https://bd103.github.io/blog/2023-06-27-global-allocators)
-
 * [A persistent task queue in Rust](https://jmmv.dev/2023/06/iii-iv-task-queue.html)
+* [How I finally understood async/await in Rust (part 2: how does a pending future get woken?)](https://hegdenu.net/posts/understanding-async-await-2/)
 
 ### Research
 
