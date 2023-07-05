@@ -39,12 +39,8 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #188](https://rust-analyzer.github.io/thisweek/2023/07/03/changelog-188.html)
 * [Pavex DevLog #5: redesigning our runtime types](https://www.lpalmieri.com/posts/pavex-progress-report-05/)
 * [Bevy XPBD: A physics engine for the Bevy game engine](https://joonaa.dev/blog/02/bevy-xpbd-0-1-0)
-
 * [complgen: Generate {bash,fish,zsh} completions from a single EBNF-like grammar](https://github.com/adaszko/complgen)
-
 * [projectable: a command line TUI file manager](https://dzfrias.dev/blog/projectable)
-
-* [Pavex, a new Rust web framework - #5: Redesigning our runtime types](https://www.lpalmieri.com/posts/pavex-progress-report-05/)
 
 ### Observations/Thoughts
 * [How To Wrap Your Errors With Enums When Using Error-Stack](https://betterprogramming.pub/how-to-wrap-your-errors-with-enums-when-using-error-stack-77b122016e6e)
