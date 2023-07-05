@@ -36,7 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
-
+* [Detailed web-based 3D rendering of mining spatial data](https://www.kurtlawrence.info/blog/detailed-web-based-3d-rendering-of-mining-spatial-data)
 ### Rust Walkthroughs
 
 ### Research
