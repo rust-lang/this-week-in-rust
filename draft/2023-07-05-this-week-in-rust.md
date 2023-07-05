@@ -62,19 +62,15 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Build a Ray Tracer, pt. 4 - The Next Dimension](https://www.superperfundo.dev/articles/ray-tracer-part4)
-
 * [Nine Rules for Running Rust on the Web and on Embedded: Practical Lessons from Porting range-set-blaze to no_std and WASM](https://towardsdatascience.com/nine-rules-for-running-rust-on-the-web-and-on-embedded-94462ef249a2)
-
 * [Full Stack Rust Workshop: Shuttle, Actix Web, SQLx & Diouxus](https://bcnrust.github.io/devbcn-workshop/)
-
-- [A compressed indexable bitset](https://quickwit.io/blog/compressed-indexable-bitset)
-
+* [A compressed indexable bitset](https://quickwit.io/blog/compressed-indexable-bitset)
 * [Intercepting Allocations with the Global Allocator](https://bd103.github.io/blog/2023-06-27-global-allocators)
 
 ### Research
 
 ### Miscellaneous
-
+* [Verify Rust code in VS Code with the Kani VS Code extension](https://model-checking.github.io/kani-verifier-blog/2023/06/30/introducing-the-kani-vscode-extension.html)
 * [Reduce memory footprint by about 600% for M.E.D. — Performance Matters](https://medium.com/gitconnected/reduce-memory-footprint-by-about-600-for-m-e-d-performance-matters-bec407833e7c)
 
 ## Crate of the Week
