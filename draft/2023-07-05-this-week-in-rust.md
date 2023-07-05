@@ -90,8 +90,24 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [diesel - Most wanted missing features in diesel 1](https://github.com/diesel-rs/diesel/discussions/3672)
+* [diesel - Most wanted missing guide topic 1](https://github.com/diesel-rs/diesel/discussions/3671)
+* [css-inline - C bindings](https://github.com/Stranger6667/css-inline/issues/209)
+* [mfcc-rust - create npy files for testing the input and output of cacheable functions](https://github.com/secretsauceai/mfcc-rust/issues/25)
+* [mfcc-rust - make all functions generic over f32 and f64](https://github.com/secretsauceai/mfcc-rust/issues/19)
+* [mfcc-rust - migrate mfcc to depend on mel_spectrogram](https://github.com/secretsauceai/mfcc-rust/issues/26)
+* [ockam - Change argument for `ockam credential issue` command from Identity to IdentityIdentifier 2](https://github.com/build-trust/ockam/issues/5225)
+* [ockam - Use a background node for `ockam project enroll` 1](https://github.com/build-trust/ockam/issues/5215)
+* [ockam - `ockam project ticket` should return a proper error message 1](https://github.com/build-trust/ockam/issues/5226)
+* [RustQuant - Logistic regression is too slow (specifically the matrix inversions).](https://github.com/avhz/RustQuant/issues/66)
+* [RustQuant - Implement a user interface (TUI or GUI).](https://github.com/avhz/RustQuant/issues/62)
+* [RustQuant - Implement a Postgres interface. 1](https://github.com/avhz/RustQuant/issues/60)
+* [RustQuant - Pricing model calibration module.](https://github.com/avhz/RustQuant/issues/22)
+* [RustQuant - Add/improve documentation (esp. math related docs).](https://github.com/avhz/RustQuant/issues/14)
+* [RustQuant - Increase test coverage (chore). 1](https://github.com/avhz/RustQuant/issues/57)
+* [RustQuant - Compute returns from Yahoo finance data reader.](https://github.com/avhz/RustQuant/issues/37)
+* [mirrord - mirrord shows `loopcrashbackoff` pods as possible targets 1](https://github.com/metalbear-co/mirrord/issues/1617)
+* [mirrord - Log problem in layer and exit when agent image is not found 1](https://github.com/metalbear-co/mirrord/issues/366)
 * [Hyperswitch - Implement Code coverage for local system using Makefile](https://github.com/juspay/hyperswitch/issues/1622)
 * [Hyperswitch - Add scoped error enum for customer error](https://github.com/juspay/hyperswitch/issues/1580)
 * [Hyperswitch - move redis key creation to a common module](https://github.com/juspay/hyperswitch/issues/917)
