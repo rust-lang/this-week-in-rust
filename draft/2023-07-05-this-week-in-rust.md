@@ -293,6 +293,8 @@ Rusty Events between 2023-07-05 - 2023-08-02 🦀
 
 * 2023-06-29 | Seoul, KR | [T-RUST meetup](https://www.meetup.com/t-rust-meetup/)
     * [**🦀 T-RUST Meetup 🦀**](https://www.meetup.com/t-rust-meetup/events/294280140/)
+* 2023-07-08 | Bangalore, IN | [Rust India](https://hasgeek.com/rustlangin)
+    * [**Rust India monthly meetup**](https://hasgeek.com/rustlangin/july-2023-rustacean-meetup/)
 
 ### Europe
 
