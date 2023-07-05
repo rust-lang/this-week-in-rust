@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 * [Unlocking Possibilities: 4 Reasons Why ESP32 and Rust Make a Winning Combination](https://apollolabsblog.hashnode.dev/unlocking-possibilities-4-reasons-why-esp32-and-rust-make-a-winning-combination)
 * [The magic of dependency resolution](https://ochagavia.nl/blog/the-magic-of-dependency-resolution/)
 * [Writing E2E Tests for Axum & GraphQL](https://estebanborai.com/en/notes/writing-e2e-tests-for-axum-and-graphql)
+* [Detailed web-based 3D rendering of mining spatial data](https://www.kurtlawrence.info/blog/detailed-web-based-3d-rendering-of-mining-spatial-data)
 * [video] [Choose the Right Option](https://www.youtube.com/watch?v=6c7pZYP_iIE)
 * [video] [4 levels of Rust error handling](https://www.youtube.com/watch?v=kHxjiTv8r18)
 
