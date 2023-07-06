@@ -376,4 +376,4 @@ Thanks to [newpavlov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://this-week-in-rust.org/blog/2023/07/05/this-week-in-rust-502)</small>
