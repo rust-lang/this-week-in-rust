@@ -30,8 +30,6 @@ and just ask the editors to select the category.
 ### Official
 * [Rustfmt support for let-else statements](https://blog.rust-lang.org/2023/07/01/rustfmt-supports-let-else-statements.html)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust GameDev #46 - May 2023](https://gamedev.rs/news/046/)
 
@@ -65,12 +63,9 @@ and just ask the editors to select the category.
 * [A persistent task queue in Rust](https://jmmv.dev/2023/06/iii-iv-task-queue.html)
 * [How I finally understood async/await in Rust (part 2: how does a pending future get woken?)](https://hegdenu.net/posts/understanding-async-await-2/)
 
-### Research
-
 ### Miscellaneous
 * [Verify Rust code in VS Code with the Kani VS Code extension](https://model-checking.github.io/kani-verifier-blog/2023/06/30/introducing-the-kani-vscode-extension.html)
 * [Reduce memory footprint by about 600% for M.E.D. — Performance Matters](https://medium.com/gitconnected/reduce-memory-footprint-by-about-600-for-m-e-d-performance-matters-bec407833e7c)
-
 * [New MeetUp Group in Canada: Rust Halifax](https://www.meetup.com/rust-tell-halifax/)
 
 ## Crate of the Week
@@ -365,7 +360,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/13yx1dn/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
