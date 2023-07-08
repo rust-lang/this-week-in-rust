@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Ideas for crafting CLI in Rust](https://dev.to/64bit/ideas-for-crafting-cli-in-rust-5b0d)
 
 ### Rust Walkthroughs
 
