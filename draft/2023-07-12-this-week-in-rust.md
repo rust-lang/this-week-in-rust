@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Unit-testing a web service in Rust](https://jmmv.dev/2023/07/unit-testing-a-web-service.html)
 
 ### Research
 
