@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Learning Rust - the first month](https://szabgab.com/learning-rust-after-one-month.html)
 
 ### Rust Walkthroughs
 
