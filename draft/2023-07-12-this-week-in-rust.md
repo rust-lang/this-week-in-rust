@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Beyond Pointers: How Rust outshines C++ with its Borrow Checker](https://dev.to/vikram2784/beyond-pointers-how-rust-outshines-c-with-its-borrow-checker-1mad)
 
 ### Rust Walkthroughs
 
