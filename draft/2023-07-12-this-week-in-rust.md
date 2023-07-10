@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Vector storage is coming to Meilisearch to empower search through AI](https://blog.meilisearch.com/vector-search-announcement/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
