@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Put a Pin on That](https://ohadravid.github.io/posts/2023-07-put-a-pin-on-that/)
 
 ### Research
 
