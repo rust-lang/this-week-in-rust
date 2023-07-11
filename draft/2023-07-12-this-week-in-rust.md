@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Deref specialization in const contexts](https://github.com/GoldsteinE/gh-blog/blob/master/const_deref_specialization/src/lib.md)
 
 ### Rust Walkthroughs
 
