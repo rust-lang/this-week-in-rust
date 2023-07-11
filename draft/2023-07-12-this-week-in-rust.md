@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [dysk](https://dystroy.org/dysk/), a nice `df` like utility to display the fill level of your disks.
+
+Thanks to [Denys Séguret](https://users.rust-lang.org/t/crate-of-the-week/2704/1211) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -67,7 +69,64 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+378 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-07-03..2023-07-10
+
+* [add basic types to SMIR](https://github.com/rust-lang/rust/pull/113412)
+* [add flag for enabling global cache usage for proof trees and printing proof trees on error](https://github.com/rust-lang/rust/pull/113296)
+* [add simple markdown formatting to `rustc --explain` output](https://github.com/rust-lang/rust/pull/112697)
+* [avoid calling `item_name` for RPITIT](https://github.com/rust-lang/rust/pull/113419)
+* [avoid calling `report_forbidden_specialization` for RPITITs](https://github.com/rust-lang/rust/pull/113456)
+* [don't ICE in `resolve_bound_vars` when associated return-type bounds are in bad positions](https://github.com/rust-lang/rust/pull/113426)
+* [don't ICE for `dyn* Trait: Trait` (built-in object) goals during selection in new trait solver](https://github.com/rust-lang/rust/pull/113395)
+* [don't require associated types with Self: Sized bounds in `dyn Trait` objects](https://github.com/rust-lang/rust/pull/112319)
+* [effects/keyword generics MVP](https://github.com/rust-lang/rust/pull/113210)
+* [fix the issue of wrong diagnosis for `extern pub fn`](https://github.com/rust-lang/rust/pull/113350)
+* [implement `ConstEvaluatable` goals in new solver](https://github.com/rust-lang/rust/pull/113324)
+* [llvm ffi: Expose `CallInst->setTailCallKind`](https://github.com/rust-lang/rust/pull/112791)
+* [make RPITITs assume/require their parent method's predicates](https://github.com/rust-lang/rust/pull/113215)
+* [prefer object candidates in new selection](https://github.com/rust-lang/rust/pull/113397)
+* [replace RPITIT current impl with new strategy that lowers as a GAT](https://github.com/rust-lang/rust/pull/112988)
+* [require TAITs to be mentioned in the signatures of functions that register hidden types for them](https://github.com/rust-lang/rust/pull/112652)
+* [suggest importing for partial mod path matching in name resolving](https://github.com/rust-lang/rust/pull/112917)
+* [miri: check that assignments do not self-overlap](https://github.com/rust-lang/rust/pull/113441)
+* [miri: better error on missing `#[start]`](https://github.com/rust-lang/miri/pull/2963)
+* [miri: restore test filtering by substring](https://github.com/rust-lang/miri/pull/2960)
+* [miri: test and fix return place alias restrictions](https://github.com/rust-lang/miri/pull/2973)
+* [perform `TokenStream` replacement in-place when possible in `expand_macro`](https://github.com/rust-lang/rust/pull/113270)
+* [add `Read`, `Write` and `Seek` impls for `Arc<File>` where appropriate](https://github.com/rust-lang/rust/pull/94748)
+* [additional `io::copy` specializations](https://github.com/rust-lang/rust/pull/113493)
+* [regex: automata/nfa/backtrack: fix memory usage](https://github.com/rust-lang/regex/pull/1028)
+* [rewrite the regex crate](https://github.com/rust-lang/regex/pull/978)
+* [cargo: add profile strip to config docs](https://github.com/rust-lang/cargo/pull/12337)
+* [rustfmt: handle `skip_macro_invocations` from config file](https://github.com/rust-lang/rustfmt/pull/5817)
+* [clippy: `[significant_drop_tightening]` consider manual aliases of the `drop` function](https://github.com/rust-lang/rust-clippy/pull/11129)
+* [clippy: `arc_with_non_send_sync`: reword and move to `suspicious`](https://github.com/rust-lang/rust-clippy/pull/11104)
+* [clippy: `filter_next`: suggest making binding mutable if needed](https://github.com/rust-lang/rust-clippy/pull/11016)
+* [clippy: `manual_range_patterns`: lint negative values](https://github.com/rust-lang/rust-clippy/pull/11096)
+* [clippy: `unnecessary_literal_unwrap`: don't lint if binding initializer comes from expansion](https://github.com/rust-lang/rust-clippy/pull/11110)
+* [clippy: add `needless_pass_by_ref_mut` lint](https://github.com/rust-lang/rust-clippy/pull/10900)
+* [clippy: fix ICE in `needless_borrow`](https://github.com/rust-lang/rust-clippy/pull/11130)
+* [clippy: fix regex lints for regex 1.9.0](https://github.com/rust-lang/rust-clippy/pull/11111)
+* [clippy: new lint `manual_partial_ord_and_ord_impl`](https://github.com/rust-lang/rust-clippy/pull/10788)
+* [clippy: new lint: `read_line_without_trim`](https://github.com/rust-lang/rust-clippy/pull/10970)
+* [clippy: new lints `manual_is_infinite` and `manual_is_finite`](https://github.com/rust-lang/rust-clippy/pull/11049)
+* [clippy: pass correct substs to `implements_trait` in `incorrect_impls`](https://github.com/rust-lang/rust-clippy/pull/11122)
+* [rust-analyzer: assist: add `enum` to `glob_import_expand`](https://github.com/rust-lang/rust-analyzer/pull/15226)
+* [rust-analyzer: assist: generate trait from impl](https://github.com/rust-lang/rust-analyzer/pull/15152)
+* [rust-analyzer: disable remove unnecessary braces diagnotics for self imports](https://github.com/rust-lang/rust-analyzer/pull/15216)
+* [rust-analyzer: feature: add a memory layout viewer](https://github.com/rust-lang/rust-analyzer/pull/15081)
+* [rust-analyzer: fix `size_of_val` and support `min_align_of_val`](https://github.com/rust-lang/rust-analyzer/pull/15222)
+* [rust-analyzer: fix missing terminator in pattern matching of consts](https://github.com/rust-lang/rust-analyzer/pull/15245)
+* [rust-analyzer: fix: don't show `unresolved-field` diagnostic for missing names](https://github.com/rust-lang/rust-analyzer/pull/15223)
+* [rust-analyzer: fix: indent after pressing enter on a blank line](https://github.com/rust-lang/rust-analyzer/pull/15227)
+* [rust-analyzer: implement recursion in mir interpreter without recursion](https://github.com/rust-lang/rust-analyzer/pull/15228)
+* [rust-analyzer: recover from missing associated items and generic const defaults](https://github.com/rust-lang/rust-analyzer/pull/15212)
+* [rust-analyzer: stop inserting semicolon when extracting match arm](https://github.com/rust-lang/rust-analyzer/pull/15235)
+* [rust-analyzer: support GATs in bounds for associated types](https://github.com/rust-lang/rust-analyzer/pull/15211)
+* [rust-analyzer: support `read_via_copy` intrinsic](https://github.com/rust-lang/rust-analyzer/pull/15244)
+* [rust-analyzer: support getrandom syscall](https://github.com/rust-lang/rust-analyzer/pull/15258)
 
 ### Rust Compiler Performance Triage
 
@@ -225,7 +284,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> It's all ducks and sunshine until something starts barking.
+
+– [u/ZZaaaccc on r/rust](https://www.reddit.com/r/rust/comments/14rm1fs/comment/jqup09v)
+
+Thanks to [Patrice Peterson](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1445) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
