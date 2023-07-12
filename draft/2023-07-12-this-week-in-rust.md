@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+ * [SQLPage • Build dynamic websites in SQL](https://sql.ophir.dev)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
