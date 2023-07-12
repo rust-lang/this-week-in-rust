@@ -58,8 +58,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [RustQuant - autodiff module needs re-structure to avoid lifetimes.](https://github.com/avhz/RustQuant/issues/72)
+* [Ockam - Add `sqlite` support as an alternative to `lmdb` 2](https://github.com/build-trust/ockam/issues/5321)
+* [Ockam - Improve Secure Channel shutdown (make Encryptor and Decryptor shut down each other)](https://github.com/build-trust/ockam/issues/5322)
+* [Ockam - Improve Secure Channel shutdown (make Encryptor or Decryptor remove itself from the Registry) #5323](https://github.com/build-trust/ockam/issues/5323)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
