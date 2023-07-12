@@ -60,6 +60,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [Hyperswitch - Implement Code coverage for local system using Makefile](https://github.com/juspay/hyperswitch/issues/1622)
+* [Hyperswitch - Add scoped error enum for customer error](https://github.com/juspay/hyperswitch/issues/1580)
+* [Hyperswitch - Add logs for customer routes & functions](https://github.com/juspay/hyperswitch/issues/1598)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
