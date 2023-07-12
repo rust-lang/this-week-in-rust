@@ -152,6 +152,8 @@ Rusty Events between 2023-07-12 - 2023-08-09 🦀
     * [**Reasoning about Rust: an introduction to Rustdoc’s JSON format**](https://www.meetup.com/rust-edi/events/293820336/)
 * 2023-07-13 | Virtual (Nuremberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
     * [**Rust Nürnberg online #27**](https://www.meetup.com/rust-noris/events/289732650)
+* 2023-07-15 | Virtual (Chandigarh, IN) | [Rust Chandigarh](https://hasgeek.com/rustchandigarh)
+    * [**Rust Chandigarh Meetup #1**](https://hasgeek.com/rustchandigarh/july-2023-rust-meetup/)
 * 2023-07-18 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/zdrzpsyfckbxb/)
 * 2023-07-19 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
