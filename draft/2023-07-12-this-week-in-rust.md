@@ -44,11 +44,12 @@ and just ask the editors to select the category.
 * [Vector storage is coming to Meilisearch to empower search through AI](https://blog.meilisearch.com/vector-search-announcement/) | [Rust SDK](https://github.com/meilisearch/meilisearch-rust)
 
 ### Observations/Thoughts
-* [Learning Rust - the first month](https://szabgab.com/learning-rust-after-one-month.html)
+* [Deref specialization in const contexts](https://github.com/GoldsteinE/gh-blog/blob/master/const_deref_specialization/src/lib.md)
 * [How to think about `async`/`await` in Rust](https://cliffle.com/blog/async-inversion/)
 * [Back-end parallelism in the Rust compiler](https://nnethercote.github.io/2023/07/11/back-end-parallelism-in-the-rust-compiler.html)
 * [bridging fuzzing and property testing](https://blog.yoshuawuyts.com/bridging-fuzzing-and-property-testing/)
 * [Mastering Rust: 2 Years of Building Brilliance and Lessons Learned](https://opeolluwa.hashnode.dev/mastering-rust-2-years-of-building-brilliance-and-lessons-learned)
+* [Learning Rust - the first month](https://szabgab.com/learning-rust-after-one-month.html)
 * [Ideas for crafting CLI in Rust](https://dev.to/64bit/ideas-for-crafting-cli-in-rust-5b0d)
 * [Beyond Pointers: How Rust outshines C++ with its Borrow Checker](https://dev.to/vikram2784/beyond-pointers-how-rust-outshines-c-with-its-borrow-checker-1mad)
 * [audio] [Shuttle with Ivan Cernja](https://rustacean-station.org/episode/ivan-cernja/)
