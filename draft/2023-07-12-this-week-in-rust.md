@@ -46,8 +46,9 @@ and just ask the editors to select the category.
 * [Back-end parallelism in the Rust compiler](https://nnethercote.github.io/2023/07/11/back-end-parallelism-in-the-rust-compiler.html)
 * [bridging fuzzing and property testing](https://blog.yoshuawuyts.com/bridging-fuzzing-and-property-testing/)
 * [Mastering Rust: 2 Years of Building Brilliance and Lessons Learned](https://opeolluwa.hashnode.dev/mastering-rust-2-years-of-building-brilliance-and-lessons-learned)
-* [audio] [Shuttle with Ivan Cernja](https://rustacean-station.org/episode/ivan-cernja/)
 * [Ideas for crafting CLI in Rust](https://dev.to/64bit/ideas-for-crafting-cli-in-rust-5b0d)
+* [Beyond Pointers: How Rust outshines C++ with its Borrow Checker](https://dev.to/vikram2784/beyond-pointers-how-rust-outshines-c-with-its-borrow-checker-1mad)
+* [audio] [Shuttle with Ivan Cernja](https://rustacean-station.org/episode/ivan-cernja/)
 
 ### Rust Walkthroughs
 * [video] [Build A Full Stack Chatbot in Rust (feat. Leptos & Rustformers)](https://www.youtube.com/watch?v=vAjle3c9Xqc)
