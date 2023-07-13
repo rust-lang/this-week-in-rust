@@ -35,7 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
- * [SQLPage • Build dynamic websites in SQL](https://sql.ophir.dev/)
+ * [SQLPage • Build dynamic websites in SQL](https://crates.io/crates/sqlpage)
 
 ### Observations/Thoughts
 
