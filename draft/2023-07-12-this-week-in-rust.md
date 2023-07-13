@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #189](https://rust-analyzer.github.io/thisweek/2023/07/10/changelog-189.html)
 
 ### Observations/Thoughts
+* [Learning Rust - the first month](https://szabgab.com/learning-rust-after-one-month.html)
 * [How to think about `async`/`await` in Rust](https://cliffle.com/blog/async-inversion/)
 * [Back-end parallelism in the Rust compiler](https://nnethercote.github.io/2023/07/11/back-end-parallelism-in-the-rust-compiler.html)
 * [bridging fuzzing and property testing](https://blog.yoshuawuyts.com/bridging-fuzzing-and-property-testing/)
