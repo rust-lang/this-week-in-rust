@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [video] [Build A Full Stack Chatbot in Rust (feat. Leptos & Rustformers)](https://www.youtube.com/watch?v=vAjle3c9Xqc)
 * [video] [Render the Julia set in 3 dozen lines of Rust code](https://www.youtube.com/watch?v=g4vN2Z0JuZI)
+* [Unit-testing a web service in Rust](https://jmmv.dev/2023/07/unit-testing-a-web-service.html)
 
 ### Research
 
