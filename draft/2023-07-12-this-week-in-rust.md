@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 * [bridging fuzzing and property testing](https://blog.yoshuawuyts.com/bridging-fuzzing-and-property-testing/)
 * [Mastering Rust: 2 Years of Building Brilliance and Lessons Learned](https://opeolluwa.hashnode.dev/mastering-rust-2-years-of-building-brilliance-and-lessons-learned)
 * [audio] [Shuttle with Ivan Cernja](https://rustacean-station.org/episode/ivan-cernja/)
+* [Ideas for crafting CLI in Rust](https://dev.to/64bit/ideas-for-crafting-cli-in-rust-5b0d)
 
 ### Rust Walkthroughs
 * [video] [Build A Full Stack Chatbot in Rust (feat. Leptos & Rustformers)](https://www.youtube.com/watch?v=vAjle3c9Xqc)
