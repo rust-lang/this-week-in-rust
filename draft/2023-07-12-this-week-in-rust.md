@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 * [Rust on Espressif chips - June 30 2023](https://mabez.dev/blog/posts/esp-rust-30-06-2023/)
 * [esp-rs quarterly planning: Q3 2023](https://beta7.io/posts/esp-rs-quarterly-planning-q3-2023/)
 
+ * [SQLPage • Build dynamic websites in SQL](https://crates.io/crates/sqlpage)
+
 ### Observations/Thoughts
 * [Deref specialization in const contexts](https://github.com/GoldsteinE/gh-blog/blob/master/const_deref_specialization/src/lib.md)
 * [How to think about `async`/`await` in Rust](https://cliffle.com/blog/async-inversion/)
