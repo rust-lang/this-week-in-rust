@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [The easiest way to speed up Python with Rust](https://pythonspeed.com/articles/easiest-rust-python/)
+
 ### Research
 
 ### Miscellaneous
