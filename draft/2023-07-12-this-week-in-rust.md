@@ -34,8 +34,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-- [Rust on Espressif chips - 30-06-2023](https://mabez.dev/blog/posts/esp-rust-30-06-2023/)
-- [esp-rs quarterly planning: Q3 2023](https://beta7.io/posts/esp-rs-quarterly-planning-q3-2023/)
+* [Rust on Espressif chips - 30-06-2023](https://mabez.dev/blog/posts/esp-rust-30-06-2023/)
+* [esp-rs quarterly planning: Q3 2023](https://beta7.io/posts/esp-rs-quarterly-planning-q3-2023/)
 
 ### Observations/Thoughts
 
