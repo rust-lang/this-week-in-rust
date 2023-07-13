@@ -30,8 +30,6 @@ and just ask the editors to select the category.
 ### Official
 * [Announcing regex 1.9](https://blog.rust-lang.org/2023/07/05/regex-1.9.html)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust OSDev: June 2023](https://rust-osdev.com/this-month/2023-06/)
 
@@ -63,8 +61,6 @@ and just ask the editors to select the category.
 * [Put a Pin on That](https://ohadravid.github.io/posts/2023-07-put-a-pin-on-that/)
 * [Unit-testing a web service in Rust](https://jmmv.dev/2023/07/unit-testing-a-web-service.html)
 
-
-### Research
 
 ### Miscellaneous
 * [Docker Desktop 4.21: Support for new Wasm runtimes, Docker Init support for Rust, Docker Scout Dashboard enhancements, Builds view (Beta), and more](https://www.docker.com/blog/docker-desktop-4-21/)
@@ -308,7 +304,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/13yx1dn/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -324,4 +320,4 @@ Thanks to [Patrice Peterson](https://users.rust-lang.org/t/twir-quote-of-the-wee
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/14y950i/this_week_in_rust_503/)</small>
