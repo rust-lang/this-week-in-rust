@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 * [rustc_codegen_gcc: Progress Report #24](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-24)
 * [rust-analyzer changelog #189](https://rust-analyzer.github.io/thisweek/2023/07/10/changelog-189.html)
 
+* [Vector storage is coming to Meilisearch to empower search through AI](https://blog.meilisearch.com/vector-search-announcement/) | [Rust SDK](https://github.com/meilisearch/meilisearch-rust)
+
 ### Observations/Thoughts
 * [Learning Rust - the first month](https://szabgab.com/learning-rust-after-one-month.html)
 * [How to think about `async`/`await` in Rust](https://cliffle.com/blog/async-inversion/)
