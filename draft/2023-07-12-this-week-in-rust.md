@@ -42,7 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-* [The Rust Digger analyzes common practices in the Rust community and points at low-hanging fruits to improve crates. 1st slightly usable version](https://rust-digger.code-maven.com/)
+* [Rust Digger: identify low-hanging fruit improvements to crates](https://rust-digger.code-maven.com/)
 
 ## Crate of the Week
 
