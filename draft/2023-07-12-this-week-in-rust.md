@@ -60,6 +60,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Docker Desktop 4.21: Support for new Wasm runtimes, Docker Init support for Rust, Docker Scout Dashboard enhancements, Builds view (Beta), and more](https://www.docker.com/blog/docker-desktop-4-21/)
+* [Rust Digger: identify low-hanging fruit improvements to crates](https://rust-digger.code-maven.com/)
+
 
 ## Crate of the Week
 
