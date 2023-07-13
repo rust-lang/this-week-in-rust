@@ -40,8 +40,9 @@ and just ask the editors to select the category.
 * [Bevy 0.11](https://bevyengine.org/news/bevy-0-11/)
 * [rustc_codegen_gcc: Progress Report #24](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-24)
 * [rust-analyzer changelog #189](https://rust-analyzer.github.io/thisweek/2023/07/10/changelog-189.html)
-
 * [Vector storage is coming to Meilisearch to empower search through AI](https://blog.meilisearch.com/vector-search-announcement/) | [Rust SDK](https://github.com/meilisearch/meilisearch-rust)
+* [Rust on Espressif chips - June 30 2023](https://mabez.dev/blog/posts/esp-rust-30-06-2023/)
+* [esp-rs quarterly planning: Q3 2023](https://beta7.io/posts/esp-rs-quarterly-planning-q3-2023/)
 
 ### Observations/Thoughts
 * [Deref specialization in const contexts](https://github.com/GoldsteinE/gh-blog/blob/master/const_deref_specialization/src/lib.md)
