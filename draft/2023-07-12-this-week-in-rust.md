@@ -43,8 +43,7 @@ and just ask the editors to select the category.
 * [Vector storage is coming to Meilisearch to empower search through AI](https://blog.meilisearch.com/vector-search-announcement/) | [Rust SDK](https://github.com/meilisearch/meilisearch-rust)
 * [Rust on Espressif chips - June 30 2023](https://mabez.dev/blog/posts/esp-rust-30-06-2023/)
 * [esp-rs quarterly planning: Q3 2023](https://beta7.io/posts/esp-rs-quarterly-planning-q3-2023/)
-
- * [SQLPage • Build dynamic websites in SQL](https://crates.io/crates/sqlpage)
+* [SQLPage • Build dynamic websites in SQL](https://crates.io/crates/sqlpage)
 
 ### Observations/Thoughts
 * [Deref specialization in const contexts](https://github.com/GoldsteinE/gh-blog/blob/master/const_deref_specialization/src/lib.md)
@@ -60,8 +59,10 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [video] [Build A Full Stack Chatbot in Rust (feat. Leptos & Rustformers)](https://www.youtube.com/watch?v=vAjle3c9Xqc)
 * [video] [Render the Julia set in 3 dozen lines of Rust code](https://www.youtube.com/watch?v=g4vN2Z0JuZI)
+* [How We Generate JavaScript and Python SDKs From Our Canonical Rust SDK](https://postgresml.org/blog/how-we-generate-javascript-and-python-sdks-from-our-canonical-rust-sdk)
 * [Put a Pin on That](https://ohadravid.github.io/posts/2023-07-put-a-pin-on-that/)
 * [Unit-testing a web service in Rust](https://jmmv.dev/2023/07/unit-testing-a-web-service.html)
+
 
 ### Research
 
