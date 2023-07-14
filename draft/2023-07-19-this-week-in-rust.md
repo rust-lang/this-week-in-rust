@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+[Rust multi crate monorepo microservices series with Kafka, Apache Avro, OpenTelemetry tracing](https://medium.com/@omprakashsridharan/rust-multi-module-microservices-part-1-introduction-fb0121f1d541)
 
 ### Research
 
