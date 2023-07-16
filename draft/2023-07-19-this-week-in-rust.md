@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Simple Rust Function Macros](https://antoniosbarotsis.github.io/posts/simple_rust_macros/)
+
 ### Research
 
 ### Miscellaneous
