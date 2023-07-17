@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust vs Julia in scientific computing](https://mo8it.com/blog/rust-vs-julia/)
+
 ### Rust Walkthroughs
 
 ### Research
