@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Writing a toy DNS resolver in Rust](https://stace.dev/writing-a-dns-resolver/)
+
 ### Rust Walkthroughs
 
 ### Research
