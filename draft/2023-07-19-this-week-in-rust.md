@@ -58,12 +58,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
-
 * [Hyperswitch - Replacing the occurrences of gen_range with a safe alternative](https://github.com/juspay/hyperswitch/issues/1754)
 * [Hyperswitch - Include Currency Conversion utility functions to Currency Trait implementation](https://github.com/juspay/hyperswitch/issues/1750)
 * [Hyperswitch - Change Currency Enum to text string](https://github.com/juspay/hyperswitch/issues/1705)
+* [Ockam - Tauri based Ockam App: Stop app from appearing in the macOS dock 1](https://github.com/build-trust/ockam/issues/5365)
+* [Ockam - Tauri based Ockam App: Verify if a user is properly enrolled when starting the app 1](https://github.com/build-trust/ockam/issues/5338)
+* [Ockam - Clap based Ockam Command: Irregular spacing in output when calling `ockam node list` 1](https://github.com/build-trust/ockam/issues/5384)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
