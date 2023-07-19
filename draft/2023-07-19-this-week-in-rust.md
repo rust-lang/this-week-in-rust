@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Generating terminal user interfaces with Ratatui + ChatGPT](https://blog.orhun.dev/ratatui-0-22-0)
+
 ### Research
 
 ### Miscellaneous
