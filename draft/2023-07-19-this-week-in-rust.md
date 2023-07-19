@@ -61,6 +61,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
 
+* [Hyperswitch - Replacing the occurrences of gen_range with a safe alternative](https://github.com/juspay/hyperswitch/issues/1754)
+* [Hyperswitch - Include Currency Conversion utility functions to Currency Trait implementation](https://github.com/juspay/hyperswitch/issues/1750)
+* [Hyperswitch - Change Currency Enum to text string](https://github.com/juspay/hyperswitch/issues/1705)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
