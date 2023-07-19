@@ -34,7 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [We just released our rust teleconferencing system for free (free as in freedom)](https://www.youtube.com/watch?v=KXfiWbCHlBw)
+* [We Just Released our Rust Teleconferencing System For Free (Free as in Freedom)](https://www.youtube.com/watch?v=KXfiWbCHlBw)
 
 ### Observations/Thoughts
 
