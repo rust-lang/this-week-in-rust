@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [video] [Rust Releases! Rust 1.71.0](https://youtu.be/8DG1V9nNYeg)
+
 ### Observations/Thoughts
 * [Why Rust is a great fit for embedded software - 2023 update](https://tweedegolf.nl/en/blog/96/why-rust-is-a-great-fit-for-embedded-software-2023-update)
 
