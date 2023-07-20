@@ -35,7 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [ratatui 0.22.0 is released! (community fork of tui-rs)](https://github.com/tui-rs-revival/ratatui/releases/tag/v0.22.0)
+* [ratatui 0.22.0 is released! (community fork of tui-rs)](https://github.com/tui-rs-revival/ratatui/releases/tag/v0.22.0) | [Blog post](https://blog.orhun.dev/ratatui-0-22-0/)
 
 ### Observations/Thoughts
 
