@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 * [Why Rust is a great fit for embedded software - 2023 update](https://tweedegolf.nl/en/blog/96/why-rust-is-a-great-fit-for-embedded-software-2023-update)
 
 ### Rust Walkthroughs
+[series] [Rust multi crate monorepo microservices series with Kafka, Apache Avro, OpenTelemetry tracing](https://medium.com/@omprakashsridharan/rust-multi-module-microservices-part-1-introduction-fb0121f1d541)
 
 * [The easiest way to speed up Python with Rust](https://pythonspeed.com/articles/easiest-rust-python/)
 
