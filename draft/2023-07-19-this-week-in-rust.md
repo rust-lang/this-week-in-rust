@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-This week's crate is [ratatui](https://docs.rs/ratatui), a crate to build richt terminal user interfaces and dashboards.
+This week's crate is [ratatui](https://docs.rs/ratatui), a crate to build rich terminal user interfaces and dashboards.
 
 Thanks to [orhun](https://users.rust-lang.org/t/crate-of-the-week/2704/1217) for the (partial self-)suggestion!
 
