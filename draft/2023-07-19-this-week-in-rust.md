@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 
 * [video] [Rust Releases! Rust 1.71.0](https://youtu.be/8DG1V9nNYeg)
 
+* [ratatui 0.22.0 is released! (community fork of tui-rs)](https://github.com/tui-rs-revival/ratatui/releases/tag/v0.22.0) | [Blog post](https://blog.orhun.dev/ratatui-0-22-0/)
+
 ### Observations/Thoughts
 * [Why Rust is a great fit for embedded software - 2023 update](https://tweedegolf.nl/en/blog/96/why-rust-is-a-great-fit-for-embedded-software-2023-update)
 
