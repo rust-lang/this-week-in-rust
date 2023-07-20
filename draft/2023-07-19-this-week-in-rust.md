@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 * [Kani 0.32.0 has been released!](https://www.reddit.com/r/KaniRustVerifier/comments/14xytrg/kani_0320_has_been_released/)
 * [Bevy XPBD 0.2.0: Spatial queries, Bevy 0.11 support, and a lot more](https://www.reddit.com/r/rust_gamedev/comments/14zr5i5/bevy_xpbd_020_spatial_queries_bevy_011_support/)
 * [bwrap : A fast, lightweight, embedded environment-friendly Rust library for wrapping text](https://www.reddit.com/r/rust/comments/151usd5/bwrap_a_fast_lightweight_embedded/)
+* [We Just Released our Rust Teleconferencing System for Free](https://www.youtube.com/watch?v=KXfiWbCHlBw) | [Repo](https://github.com/security-union/videocall-rs)
 
 ### Observations/Thoughts
 * [Mutex without lock, Queue without push: cancel safety in lilos](https://cliffle.com/blog/lilos-cancel-safety/)
