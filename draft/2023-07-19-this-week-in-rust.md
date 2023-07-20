@@ -148,7 +148,17 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A lot of spurious results in the regressions this week. However, we did see some
+real gains with PR #113609, with nearly 40 real-world benchmarks improving their
+check-build performance by >=1%.
+
+Triage done by **@pnkfelix**.
+Revision range: [1d4f5aff..6b9236ed](https://perf.rust-lang.org/?start=1d4f5affbdee00c816f961c227c6b28a3e725ce6&end=6b9236ed5a58879969ddcf4c35a6a24f6260e979&absolute=false&stat=instructions%3Au)
+
+5 Regressions, 5 Improvements, 5 Mixed; 2 of them in rollups
+57 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-07-18.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
