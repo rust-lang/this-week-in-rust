@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 * [The easiest way to speed up Python with Rust](https://pythonspeed.com/articles/easiest-rust-python/)
 
+* [Simple Rust Function Macros](https://antoniosbarotsis.github.io/posts/simple_rust_macros/)
+
 ### Research
 
 ### Miscellaneous
