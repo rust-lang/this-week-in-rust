@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+[Updated fluvio SQL sink connector (repo)](https://github.com/infinyon/sql-connector) | [Walkthrough of deduplication on write using upsert function](https://infinyon.com/blog/2023/07/sql-upsert/)
 
 * [video] [Rust Releases! Rust 1.71.0](https://youtu.be/8DG1V9nNYeg)
 
