@@ -43,7 +43,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
-[A Decade of Rust, and Announcing Ferrocene](https://ferrous-systems.com/blog/a-decade-of-rust/)
+[release] [A Decade of Rust, and Announcing Ferrocene](https://ferrous-systems.com/blog/a-decade-of-rust/)
 
 ## Crate of the Week
 
