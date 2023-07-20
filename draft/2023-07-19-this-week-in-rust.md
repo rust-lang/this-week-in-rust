@@ -64,6 +64,8 @@ and just ask the editors to select the category.
 * [video] [Rust Releases! Rust 1.71.0](https://youtu.be/8DG1V9nNYeg)
 * [ratatui 0.22.0 is released! (community fork of tui-rs)](https://github.com/tui-rs-revival/ratatui/releases/tag/v0.22.0)
 
+[Asynchronous Rust on Cortex-M Microcontrollers](https://interrupt.memfault.com/blog/embedded-async-rust)
+
 ### Research
 * [RustSmith: Random Differential Compiler Testing for Rust](https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2023/ISSTA-tool.pdf)
 
