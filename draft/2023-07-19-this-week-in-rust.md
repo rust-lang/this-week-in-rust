@@ -70,6 +70,8 @@ and just ask the editors to select the category.
 * [video] [Rust's iterators are more interesting than they look](https://www.youtube.com/watch?v=dad1NQdjd0I)
 * [audio] [Bootstrapping Rust with Albert Larsan](https://rustacean-station.org/episode/albert-larsan/)
 
+[release] [A Decade of Rust, and Announcing Ferrocene](https://ferrous-systems.com/blog/a-decade-of-rust/)
+
 ## Crate of the Week
 
 This week's crate is [ratatui](https://docs.rs/ratatui), a crate to build rich terminal user interfaces and dashboards.
