@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 * [ESP32 Standard Library Embedded Rust: GPIO Control](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-gpio-control)
 * [Rust vs Julia in scientific computing](https://mo8it.com/blog/rust-vs-julia/)
 
+* [Writing a toy DNS resolver in Rust](https://stace.dev/writing-a-dns-resolver/)
+
 ### Rust Walkthroughs
 [series] [Rust multi crate monorepo microservices series with Kafka, Apache Avro, OpenTelemetry tracing](https://medium.com/@omprakashsridharan/rust-multi-module-microservices-part-1-introduction-fb0121f1d541)
 
