@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [Why Rust is a great fit for embedded software - 2023 update](https://tweedegolf.nl/en/blog/96/why-rust-is-a-great-fit-for-embedded-software-2023-update)
 
+* [Rust vs Julia in scientific computing](https://mo8it.com/blog/rust-vs-julia/)
+
 ### Rust Walkthroughs
 [series] [Rust multi crate monorepo microservices series with Kafka, Apache Avro, OpenTelemetry tracing](https://medium.com/@omprakashsridharan/rust-multi-module-microservices-part-1-introduction-fb0121f1d541)
 
