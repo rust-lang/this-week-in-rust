@@ -31,10 +31,6 @@ and just ask the editors to select the category.
 * [Announcing Rust 1.71.0](https://blog.rust-lang.org/2023/07/13/Rust-1.71.0.html)
 * [Rustc Trait System Refactor Initiative Update](https://blog.rust-lang.org/inside-rust/2023/07/17/trait-system-refactor-initiative.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer changelog #190](https://rust-analyzer.github.io/thisweek/2023/07/17/changelog-190.html)
 * [Generating terminal user interfaces with Ratatui + ChatGPT](https://blog.orhun.dev/ratatui-0-22-0/)
@@ -52,20 +48,18 @@ and just ask the editors to select the category.
 * [How `rustdoc` achieves a genius design](https://blog.goose.love/posts/rustdoc/)
 * [ESP32 Standard Library Embedded Rust: GPIO Control](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-gpio-control)
 * [Rust vs Julia in scientific computing](https://mo8it.com/blog/rust-vs-julia/)
-
 * [Writing a toy DNS resolver in Rust](https://stace.dev/writing-a-dns-resolver/)
 
 ### Rust Walkthroughs
-[series] [Rust multi crate monorepo microservices series with Kafka, Apache Avro, OpenTelemetry tracing](https://medium.com/@omprakashsridharan/rust-multi-module-microservices-part-1-introduction-fb0121f1d541)
 
+* [series] [Rust multi crate monorepo microservices series with Kafka, Apache Avro, OpenTelemetry tracing](https://medium.com/@omprakashsridharan/rust-multi-module-microservices-part-1-introduction-fb0121f1d541)
 * [The easiest way to speed up Python with Rust](https://pythonspeed.com/articles/easiest-rust-python/)
 * [Writing an AI Chatbot in Rust and Solid.js](https://thetechtrailblazer.blog/2023/07/18/writing-an-ai-chatbot-in-rust-and-solid-js/)
 * [Simple Rust Function Macros](https://antoniosbarotsis.github.io/posts/simple_rust_macros/)
 * [Updated fluvio SQL sink connector (repo)](https://github.com/infinyon/sql-connector) | [Walkthrough of deduplication on write using upsert function](https://infinyon.com/blog/2023/07/sql-upsert/)
 * [video] [Rust Releases! Rust 1.71.0](https://youtu.be/8DG1V9nNYeg)
 * [ratatui 0.22.0 is released! (community fork of tui-rs)](https://github.com/tui-rs-revival/ratatui/releases/tag/v0.22.0)
-
-[Asynchronous Rust on Cortex-M Microcontrollers](https://interrupt.memfault.com/blog/embedded-async-rust)
+* [Asynchronous Rust on Cortex-M Microcontrollers](https://interrupt.memfault.com/blog/embedded-async-rust)
 
 ### Research
 * [RustSmith: Random Differential Compiler Testing for Rust](https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2023/ISSTA-tool.pdf)
@@ -291,7 +285,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/14zmcpw/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -307,4 +301,4 @@ Thanks to [Arthur Rodrigues](https://users.rust-lang.org/t/twir-quote-of-the-wee
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/154hc2a/this_week_in_rust_504/)</small>
