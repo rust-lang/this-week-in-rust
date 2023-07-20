@@ -57,7 +57,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [ratatui](https://docs.rs/ratatui), a crate to build rich terminal user interfaces and dashboards.
+
+Thanks to [orhun](https://users.rust-lang.org/t/crate-of-the-week/2704/1217) for the (partial self-)suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -83,7 +85,66 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+391 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-07-10..2023-07-17
+
+* [dynamically size sigaltstk in rustc](https://github.com/rust-lang/rust/pull/113528)
+* [add `#[rustc_confusables]` attribute to allow targeted "no method" error suggestions on standard library types](https://github.com/rust-lang/rust/pull/112239)
+* [add machine-applicable suggestion for `unused_qualifications` lint](https://github.com/rust-lang/rust/pull/112729)
+* [add support for inherent projections in new solver](https://github.com/rust-lang/rust/pull/113336)
+* [allow escaping bound vars during `normalize_erasing_regions` in new solver](https://github.com/rust-lang/rust/pull/113471)
+* [avoid building proof trees in select](https://github.com/rust-lang/rust/pull/113536)
+* [check entry type as part of item type checking](https://github.com/rust-lang/rust/pull/113545)
+* [don't call `predicate_must_hold`-esque functions during fulfillment in intercrate](https://github.com/rust-lang/rust/pull/113742)
+* [don't fail early if `try_run` returns an error](https://github.com/rust-lang/rust/pull/113214)
+* [don't suggest `impl Trait` in path position](https://github.com/rust-lang/rust/pull/113310)
+* [enable `potential_query_instability` lint in `rustc_hir_typeck`](https://github.com/rust-lang/rust/pull/113328)
+* [enable coinduction support for Safe Transmute](https://github.com/rust-lang/rust/pull/113175)
+* [generate safe stable code for derives on empty enums](https://github.com/rust-lang/rust/pull/113770)
+* [implement "items do not inherit unsafety" note for THIR unsafeck](https://github.com/rust-lang/rust/pull/113663)
+* [implement selection for `Unsize` for better coercion behavior](https://github.com/rust-lang/rust/pull/113353)
+* [lint against misplaced where-clauses on associated types in traits](https://github.com/rust-lang/rust/pull/113560)
+* [normalize lazy type aliases when probing for ADTs](https://github.com/rust-lang/rust/pull/113755)
+* [structurally resolve in pattern matching when peeling refs in new solver](https://github.com/rust-lang/rust/pull/113470)
+* [trait system refactor ping: also apply to nested modules of `solve`](https://github.com/rust-lang/rust/pull/113682)
+* [uplift `clippy::fn_null_check` lint](https://github.com/rust-lang/rust/pull/111717)
+* [while let suggestion will work for closure body](https://github.com/rust-lang/rust/pull/113567)
+* [implement a few more rvalue translation to SMIR](https://github.com/rust-lang/rust/pull/112717)
+* [add Adt to SMIR](https://github.com/rust-lang/rust/pull/113629)
+* [add more ty conversions to SMIR](https://github.com/rust-lang/rust/pull/113639)
+* [enable MIR reference propagation by default](https://github.com/rust-lang/rust/pull/109025)
+* [miri: fail when calling a function that requires an unavailable target feature](https://github.com/rust-lang/rust/pull/113720)
+* [miri: protect `Move()` function arguments during the call](https://github.com/rust-lang/rust/pull/113569)
+* [miri: work around `custom_mir` span](https://github.com/rust-lang/miri/pull/2980)
+* [`rustc_target`: Add alignment to indirectly-passed by-value types, correcting the alignment of byval on x86 in the process](https://github.com/rust-lang/rust/pull/112157)
+* [add a cache for `maybe_lint_level_root_bounded`](https://github.com/rust-lang/rust/pull/113609)
+* [rewrite `UnDerefer`, again](https://github.com/rust-lang/rust/pull/113316)
+* [add support for allocators in `Rc` & `Arc`](https://github.com/rust-lang/rust/pull/89132)
+* [`std::io`: add back `BorrowedBuf::filled_mut`](https://github.com/rust-lang/rust/pull/103754)
+* [eliminate ZST allocations in `Box` and `Vec`](https://github.com/rust-lang/rust/pull/113113)
+* [regex: improve literal extraction from certain repetitions](https://github.com/rust-lang/regex/pull/1033)
+* [codegen\_gcc: add support for `pure` function attribute](https://github.com/rust-lang/rustc_codegen_gcc/pull/305)
+* [codegen\_gcc: add support for `returns_twice` function attribute](https://github.com/rust-lang/rustc_codegen_gcc/pull/301)
+* [cargo: Always generate valid package names](https://github.com/rust-lang/cargo/pull/12349)
+* [cargo: Error on intentionally unsupported commands](https://github.com/rust-lang/cargo/pull/12350)
+* [rustdoc: add jump to doc to sourceview](https://github.com/rust-lang/rust/pull/113623)
+* [clippy: `arithmetic_side_effect`: allow different types on the right hand side for `Wrapping<T>`](https://github.com/rust-lang/rust-clippy/pull/11147)
+* [clippy: `panic_in_result_fn` remove `todo!`, unimplemented!`, unreachable!`](https://github.com/rust-lang/rust-clippy/pull/11123)
+* [clippy: `semicolon_if_nothing_returned`: add an autofix](https://github.com/rust-lang/rust-clippy/pull/11083)
+* [clippy: `tuple_array_conversions`: move from `complexity` to `nursery`](https://github.com/rust-lang/rust-clippy/pull/11146)
+* [clippy: `unnecessary_literal_unwrap`: also lint `unwrap_(err_)unchecked`](https://github.com/rust-lang/rust-clippy/pull/11098)
+* [clippy: don't lint `needless_return` in fns across a macro boundary](https://github.com/rust-lang/rust-clippy/pull/11173)
+* [clippy: new lint: `format_collect`](https://github.com/rust-lang/rust-clippy/pull/11116)
+* [rust-analyzer: add `write_bytes` and ctlz intrinsics](https://github.com/rust-lang/rust-analyzer/pull/15268)
+* [rust-analyzer: enable cfg miri in analysis](https://github.com/rust-lang/rust-analyzer/pull/15284)
+* [rust-analyzer: fix eager token mapping panics](https://github.com/rust-lang/rust-analyzer/pull/15248)
+* [rust-analyzer: fix rust-analzyer ssr help message](https://github.com/rust-lang/rust-analyzer/pull/15295)
+* [rust-analyzer: give real `discriminant_type` to chalk](https://github.com/rust-lang/rust-analyzer/pull/15282)
+* [rust-analyzer: handle TyAlias in `projected_ty`](https://github.com/rust-lang/rust-analyzer/pull/15288)
+* [rust-analyzer: make fields of `mir::Terminator` public](https://github.com/rust-lang/rust-analyzer/pull/15270)
+* [rust-analyzer: normalize type alias in `projected_ty`](https://github.com/rust-lang/rust-analyzer/pull/15297)
+* [rust-analyzer: revert "Handle TyAlias in `projected_ty"`](https://github.com/rust-lang/rust-analyzer/pull/15291)
 
 ### Rust Compiler Performance Triage
 
@@ -237,7 +298,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> (...) complexity in programming is just like energy in physics: it cannot be created, nor destroyed, but only transformed. So, if a programming language is simple and can only express very simple concepts, the complexity is going to move from the language constructs to your source code and vice versa. One needs to find a balance here, it's a personal choice based on mindset and experience.
+
+– [u/inamestuff on r/rust](https://www.reddit.com/r/rust/comments/14wubzc/fighting_rust_anxiety_insights_from_a_go_developer/jrkpte4)
+
+Thanks to [Arthur Rodrigues](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1447) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
