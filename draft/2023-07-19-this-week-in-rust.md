@@ -226,20 +226,6 @@ Rusty Events between 2023-07-19 - 2023-08-16 🦀
 
 ### Virtual
 
-* 2023-07-11 - 2023-07-13 | Virtual (Europe) | [Mainmatter](https://mainmatter.com/)
-    * [**Web-based Services in Rust, 3-day Workshop with Stefan Baumgartner**](https://rust-web-services-workshop.mainmatter.com/)  
-* 2023-07-13 - 2023-07-14 | Virtual | [Scientific Computing in Rust](https://scientificcomputing.rs/)
-    * [**Scientific Computing in Rust workshop**](https://scientificcomputing.rs/)
-* 2023-07-13 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
-    * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/294707594/)
-* 2023-07-13 | Virtual (Edinburgh, UK) | [Rust Edinburgh](https://www.meetup.com/rust-edi/)
-    * [**Reasoning about Rust: an introduction to Rustdoc’s JSON format**](https://www.meetup.com/rust-edi/events/293820336/)
-* 2023-07-13 | Virtual (Nuremberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
-    * [**Rust Nürnberg online #27**](https://www.meetup.com/rust-noris/events/289732650)
-* 2023-07-15 | Virtual (Chandigarh, IN) | [Rust Chandigarh](https://hasgeek.com/rustchandigarh)
-    * [**Rust Chandigarh Meetup #1**](https://hasgeek.com/rustchandigarh/july-2023-rust-meetup/)
-* 2023-07-18 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
-    * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/zdrzpsyfckbxb/)
 * 2023-07-19 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/292763486)
 * 2023-07-20 | Virtual (Tehran, IR) | [Iran Rust Meetup](https://rust-meetup.ir/)
@@ -248,48 +234,44 @@ Rusty Events between 2023-07-19 - 2023-08-16 🦀
     * [**Crafting Interpreters Chapter 18: Types of Values**](https://www.meetup.com/programming-languages-toronto-meetup/events/294616842)
 * 2023-07-25 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallas-rust/)
     * [**Last Tuesday**](https://www.meetup.com/dallas-rust/events/qndgwsyfckbhc/)
+* 2023-07-25 | Virtual (Dublin, IE) | [Rust Dublin](https://www.meetup.com/Rust-Dublin/)
+    * [**Ruff. An extremely fast Python linter, written in Rust**](https://www.meetup.com/Rust-Dublin/events/294557256/)
+* 2023-07-26 | Virtual (Cardiff, UK)| [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff)
+    * [**The unreasonable power of combinator APIs**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/294748626)
 * 2023-07-27 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/ngnwftyfckbkc/)
 * 2023-07-28 | Virtual (Tunis, TN) | [Rust Meetup Tunisia](https://www.meetup.com/rust-tunisia/)
     * [**Rust Meetup Tunisia - Volume I, Number IV**](https://www.meetup.com/rust-tunisia/events/294664236/)
+* 2023-08-01 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
+    * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/zdrzpsyfclbcb/)
 * 2023-08-01 | Virtual (Buffalo, NY, US) | [Buffalo Rust Meetup](https://www.meetup.com/buffalo-rust-meetup/)
     * [**Buffalo Rust User Group, First Tuesdays**](https://www.meetup.com/buffalo-rust-meetup/events/lsjbbtyfclbcb//)
 * 2023-08-08 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallas-rust/)
     * [**Second Tuesday**](https://www.meetup.com/dallas-rust/events/vndgwsyfclblb/)
+* 2023-08-15 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
+    * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/zdrzpsyfclbtb/)
+* 2023-08-16 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
+    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/kmhpftyfclbvb/)
 
 ### Asia
 
-* 2023-07-13 | Tokyo, JP | [Tokyo Rust Meetup](https://www.meetup.com/tokyo-rust-meetup/)
-    * [**A "Bit" of Fun With Geometry in Rust**](https://www.meetup.com/tokyo-rust-meetup/events/294571542)
+* 2023-07-27 | Seoul, KR | [Rust Programming Meetup Seoul](https://www.meetup.com/rust-seoul-meetup/)
+    * [**Seoul Rust Meetup**](https://www.meetup.com/rust-seoul-meetup/events/294832771/)
 
 ### Europe
 
-* 2023-07-13 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/)
-    * [**Rust and Tell - beer garden Edition**](https://www.meetup.com/rust-berlin/events/294627419)
-* 2023-07-13 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/)
-    * [**Reading Rust Meetup at Browns**](https://www.meetup.com/reading-rust-workshop/events/mstlftyfckbrb/)
 * 2023-07-21 | Nuremberg, DE | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
     * [**Rust Nuremberg Get Together #2**](https://www.meetup.com/rust-noris/events/293823522/)
 
 ### North America
 
-* 2023-07-12 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/)
-    * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/294373345)
-* 2023-07-12 | Waterloo, ON, CA | [Rust KW](https://www.meetup.com/rust-kw/)
-    * [**Overengineering FizzBuzz**](https://www.meetup.com/rust-kw/events/294355516/)
-* 2023-07-13 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
-    * [**Writing Kubernetes Operators in Rust**](https://www.meetup.com/utah-rust/events/294604589/)
-* 2023-07-13 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
-    * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/mv-rust-meetup/events/294631273)
-* 2023-07-13 | Seattle, WA, US | [Seattle Rust User Group](https://www.meetup.com/seattle-rust-user-group/)
-    * [**July Meetup**](https://www.meetup.com/seattle-rust-user-group/events/294191599/)
-* 2023-07-18 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
-    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/vwljctyfckbxb)
+* 2023-07-27 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
+    * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/mv-rust-meetup/events/294911462/)
+* 2023-08-10 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
+    * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/mv-rust-meetup/events/294911475/)
+* 2023-08-15 | Seattle, WA, US | [Seattle Rust User Group Meetup](https://www.meetup.com/seattle-rust-user-group/)
+    * [**Seattle Rust User Group - August Meetup**](https://www.meetup.com/seattle-rust-user-group/events/294804636/)
 
-### Oceania
-
-* 2023-07-18 | Canberra, ACT, AU | [Rust Canberra](https://www.meetup.com/rust-canberra/)
-    * [**July Meetup**](https://www.meetup.com/rust-canberra/events/294321350/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
