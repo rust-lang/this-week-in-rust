@@ -28,35 +28,47 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.71.0](https://blog.rust-lang.org/2023/07/13/Rust-1.71.0.html)
+* [Rustc Trait System Refactor Initiative Update](https://blog.rust-lang.org/inside-rust/2023/07/17/trait-system-refactor-initiative.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
-[Updated fluvio SQL sink connector (repo)](https://github.com/infinyon/sql-connector) | [Walkthrough of deduplication on write using upsert function](https://infinyon.com/blog/2023/07/sql-upsert/)
-
-* [video] [Rust Releases! Rust 1.71.0](https://youtu.be/8DG1V9nNYeg)
-
-* [ratatui 0.22.0 is released! (community fork of tui-rs)](https://github.com/tui-rs-revival/ratatui/releases/tag/v0.22.0) | [Blog post](https://blog.orhun.dev/ratatui-0-22-0/)
+* [rust-analyzer changelog #190](https://rust-analyzer.github.io/thisweek/2023/07/17/changelog-190.html)
+* [Generating terminal user interfaces with Ratatui + ChatGPT](https://blog.orhun.dev/ratatui-0-22-0/)
+* [Kani 0.32.0 has been released!](https://www.reddit.com/r/KaniRustVerifier/comments/14xytrg/kani_0320_has_been_released/)
+* [Bevy XPBD 0.2.0: Spatial queries, Bevy 0.11 support, and a lot more](https://www.reddit.com/r/rust_gamedev/comments/14zr5i5/bevy_xpbd_020_spatial_queries_bevy_011_support/)
+* [bwrap : A fast, lightweight, embedded environment-friendly Rust library for wrapping text](https://www.reddit.com/r/rust/comments/151usd5/bwrap_a_fast_lightweight_embedded/)
 
 ### Observations/Thoughts
+* [Mutex without lock, Queue without push: cancel safety in lilos](https://cliffle.com/blog/lilos-cancel-safety/)
 * [Why Rust is a great fit for embedded software - 2023 update](https://tweedegolf.nl/en/blog/96/why-rust-is-a-great-fit-for-embedded-software-2023-update)
-
+* [{n} times faster than C, where n = 128](https://ipthomas.com/blog/2023/07/n-times-faster-than-c-where-n-128/)
+* [I have written a JVM in Rust](https://andreabergia.com/blog/2023/07/i-have-written-a-jvm-in-rust/)
+* [On Maximizing Your Rust Code's Performance](https://jbecker.dev/research/on-writing-performant-rust)
+* [How `rustdoc` achieves a genius design](https://blog.goose.love/posts/rustdoc/)
+* [ESP32 Standard Library Embedded Rust: GPIO Control](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-gpio-control)
 * [Rust vs Julia in scientific computing](https://mo8it.com/blog/rust-vs-julia/)
 
 ### Rust Walkthroughs
 [series] [Rust multi crate monorepo microservices series with Kafka, Apache Avro, OpenTelemetry tracing](https://medium.com/@omprakashsridharan/rust-multi-module-microservices-part-1-introduction-fb0121f1d541)
 
 * [The easiest way to speed up Python with Rust](https://pythonspeed.com/articles/easiest-rust-python/)
-
+* [Writing an AI Chatbot in Rust and Solid.js](https://thetechtrailblazer.blog/2023/07/18/writing-an-ai-chatbot-in-rust-and-solid-js/)
 * [Simple Rust Function Macros](https://antoniosbarotsis.github.io/posts/simple_rust_macros/)
-
-[series] [I have written a (toy) JVM in Rust](https://andreabergia.com/blog/2023/07/i-have-written-a-jvm-in-rust/)
+* [Updated fluvio SQL sink connector (repo)](https://github.com/infinyon/sql-connector) | [Walkthrough of deduplication on write using upsert function](https://infinyon.com/blog/2023/07/sql-upsert/)
+* [video] [Rust Releases! Rust 1.71.0](https://youtu.be/8DG1V9nNYeg)
+* [ratatui 0.22.0 is released! (community fork of tui-rs)](https://github.com/tui-rs-revival/ratatui/releases/tag/v0.22.0)
 
 ### Research
+* [RustSmith: Random Differential Compiler Testing for Rust](https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2023/ISSTA-tool.pdf)
 
 ### Miscellaneous
+* [video] [How Functions Function](https://www.youtube.com/watch?v=SqT5YglW3qU)
+* [video] [Rust's iterators are more interesting than they look](https://www.youtube.com/watch?v=dad1NQdjd0I)
+* [audio] [Bootstrapping Rust with Albert Larsan](https://rustacean-station.org/episode/albert-larsan/)
 
 ## Crate of the Week
 
