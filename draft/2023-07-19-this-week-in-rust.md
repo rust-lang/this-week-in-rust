@@ -95,6 +95,7 @@ which are reaching a decision. Express your opinions now.
 * [disposition: merge] [Support interpolated block for `try` and `async`](https://github.com/rust-lang/rust/pull/112953)
 * [disposition: close] [Uplift `clippy::option_env_unwrap` lint](https://github.com/rust-lang/rust/pull/111738)
 * [disposition: merge] [Add documentation on v0 symbol mangling.](https://github.com/rust-lang/rust/pull/97571)
+* [disposition: merge] [Check Cargo.lock in to version control for libraries](https://github.com/rust-lang/cargo/issues/8728) 
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 * [new] [Unsafe fields](https://github.com/rust-lang/rfcs/pull/3458)
