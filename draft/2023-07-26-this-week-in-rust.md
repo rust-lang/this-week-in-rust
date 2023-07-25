@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [First report: More than 80% of the crates link to their public VCS](https://rust-digger.code-maven.com/news/first-report)
 
 ### Rust Walkthroughs
 
