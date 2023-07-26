@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Programming language popularity: Rust](https://szabgab.com/programming-language-popularity-rust)
+* [Llama2.rs - Inference Llama 2 in one file of pure Rust](https://github.com/gaxler/llama2.rs/)
 
 ## Crate of the Week
 
