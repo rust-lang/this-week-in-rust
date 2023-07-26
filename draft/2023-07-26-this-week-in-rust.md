@@ -181,6 +181,11 @@ Rusty Events between 2023-07-26 - 2023-08-23 🦀
 * 2023-08-15 | Seattle, WA, US | [Seattle Rust User Group Meetup](https://www.meetup.com/seattle-rust-user-group/)
     * [**Seattle Rust User Group - August Meetup**](https://www.meetup.com/seattle-rust-user-group/events/294804636/)
 
+### Oceania
+
+* 2023-08-09 | Perth, WA, AU | [Rust Perth](https://www.linkedin.com/groups/7439562/)
+    * [**August Meetup**](https://www.tickettailor.com/events/perthrustusergroup/970279)
+
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
 Email the [Rust Community Team][community] for access.
