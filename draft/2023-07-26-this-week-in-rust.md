@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [ResourceGauge: Enabling Resource-Aware Software Components](https://www.ecrts.org/wp-content/uploads/2023/07/ospert23-proceedings.pdf#page=12) (with Rust)
 
 ### Miscellaneous
+* [Programming language popularity: Rust](https://szabgab.com/programming-language-popularity-rust)
 
 ## Crate of the Week
 
