@@ -64,8 +64,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Ockam - Investigate if the macOS toggle is possible in system tray app build with Tauri](https://github.com/build-trust/ockam/issues/5364)
+* [Ockam - Avoid setting an embedded node as default for `ockam project enroll`](https://github.com/build-trust/ockam/issues/5215)
+* [Ockam - `ockam project ticket` should return a proper error message](https://github.com/build-trust/ockam/issues/5226)
 * [Hyperswitch - Migrate to enum_dispatch to reduce runtime overhead](https://github.com/juspay/hyperswitch/issues/921)
 * [Hyperswitch - Add Create Merchant and Create Merchant Key Store in a DB transaction](https://github.com/juspay/hyperswitch/issues/1793)
 * [Hyperswitch - Use proxy exclusion instead of a separate proxied client](https://github.com/juspay/hyperswitch/issues/1039)
