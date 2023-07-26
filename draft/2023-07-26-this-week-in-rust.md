@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Programming language popularity: Rust](https://szabgab.com/programming-language-popularity-rust)
 
 ## Crate of the Week
 
