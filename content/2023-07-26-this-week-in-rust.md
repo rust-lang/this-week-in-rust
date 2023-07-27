@@ -34,8 +34,6 @@ and just ask the editors to select the category.
 ### Foundation
 * [My first three months at the Rust Foundation](https://foundation.rust-lang.org/news/three-months-at-the-rust-foundation/)
 
-### Newsletters
-
 ### Project/Tooling Updates
 * [IntelliJ Rust Changelog #199](https://intellij-rust.github.io/2023/07/24/changelog-199.html)
 * [Fyrox Game Engine 0.31](https://fyrox.rs/blog/post/fyrox-game-engine-0-31/)
@@ -56,7 +54,6 @@ and just ask the editors to select the category.
 * [video] [Pragmatic Intro to Rust Web Development: Overview](https://www.youtube.com/watch?v=ZdStbqp0400&list=PL4bcKu1Oi0f5eYmYJAOTYLGN7Lgr_B7mZ)
 
 ### Research
-
 * [ResourceGauge: Enabling Resource-Aware Software Components (with Rust)](https://www.ecrts.org/wp-content/uploads/2023/07/ospert23-proceedings.pdf#page=12)
 
 ### Miscellaneous
@@ -369,7 +366,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/14zmcpw/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -385,4 +382,4 @@ Thanks to [Kevin Mehall](https://users.rust-lang.org/t/twir-quote-of-the-week/32
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/15annnw/this_week_in_rust_505/)</small>
