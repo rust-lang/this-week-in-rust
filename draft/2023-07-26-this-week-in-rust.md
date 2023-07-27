@@ -214,7 +214,20 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+
+A relatively light week with respect to performance changes. The one major
+regressing PR was reverted (for other reasons), and we saw some very nice gains
+on compile-times from (1.) changes to our codegen-unit merging logic and from
+(2.) changes to the stdlib slice iterators encoding its non-null guarantees
+directly, allowing the removal of a call to the `assume` intrinsic.
+
+Triage done by **@pnkfelix**.
+Revision range: [6b9236ed..0308df23](https://perf.rust-lang.org/?start=6b9236ed5a58879969ddcf4c35a6a24f6260e979&end=0308df23e621e783e31a27ca5beaa01b9df60d4a&absolute=false&stat=instructions%3Au)
+
+1 Regressions, 1 Improvements, 4 Mixed; 1 of them in rollups
+35 artifact comparisons made in total
+
+[Full Report Here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-07-26.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
