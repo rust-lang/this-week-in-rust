@@ -62,6 +62,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [How to speed up the Rust compiler: data analysis assistance requested!](https://nnethercote.github.io/2023/07/25/how-to-speed-up-the-rust-compiler-data-analysis-assistance-requested.html)
 * [Programming language popularity: Rust](https://szabgab.com/programming-language-popularity-rust)
+* [Llama2.rs - Inference Llama 2 in one file of pure Rust](https://github.com/gaxler/llama2.rs/)
 
 ## Crate of the Week
 
