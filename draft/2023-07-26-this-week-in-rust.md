@@ -28,23 +28,39 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [crates.io Postmortem: Broken Crate Downloads](https://blog.rust-lang.org/inside-rust/2023/07/21/crates-io-postmortem.html)
+* [July 2023 Leadership Council Update](https://blog.rust-lang.org/inside-rust/2023/07/25/leadership-council-update.html)
 
 ### Foundation
+* [My first three months at the Rust Foundation](https://foundation.rust-lang.org/news/three-months-at-the-rust-foundation/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [IntelliJ Rust Changelog #199](https://intellij-rust.github.io/2023/07/24/changelog-199.html)
+* [Fyrox Game Engine 0.31](https://fyrox.rs/blog/post/fyrox-game-engine-0-31/)
+* [Writing a Rest HTTP Service with Axum](https://docs.shuttle.rs/tutorials/rest-http-service-with-axum)
 
 ### Observations/Thoughts
+* [Totality](https://blog.yoshuawuyts.com/totality/)
+* [Why the “Null” Lifetime Does Not Exist](https://sabrinajewson.org/blog/null-lifetime)
 * [First report: More than 80% of the crates link to their public VCS](https://rust-digger.code-maven.com/news/first-report)
+* [video] [Aram Drevekenin – Zellij - A terminal workspace with batteries included](https://www.youtube.com/watch?v=nBL_8KsTA5g)
 
 ### Rust Walkthroughs
+* [Make invalid states unrepresentable](https://geeklaunch.io/blog/make-invalid-states-unrepresentable/)
+* [A visual tree iterator in Rust](https://blog.danieljanus.pl/2023/07/20/iterating-trees/)
+* [A gentle introduction to IMAP](https://duesee.dev/p/a-gentle-introduction-to-imap/)
+* [ESP32 Standard Library Embedded Rust: UART Communication](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-uart-communication)
+* [Shuttle Launchpad #3: Sudoku, Ownership and Error Handling](https://www.shuttle.rs/launchpad/issues/2023-03-07-issue-03-Ownership-Error-Handling)
+* [video] [Pragmatic Intro to Rust Web Development: Overview](https://www.youtube.com/watch?v=ZdStbqp0400&list=PL4bcKu1Oi0f5eYmYJAOTYLGN7Lgr_B7mZ)
 
 ### Research
 
 * [ResourceGauge: Enabling Resource-Aware Software Components (with Rust)](https://www.ecrts.org/wp-content/uploads/2023/07/ospert23-proceedings.pdf#page=12)
 
 ### Miscellaneous
+* [How to speed up the Rust compiler: data analysis assistance requested!](https://nnethercote.github.io/2023/07/25/how-to-speed-up-the-rust-compiler-data-analysis-assistance-requested.html)
 * [Programming language popularity: Rust](https://szabgab.com/programming-language-popularity-rust)
 
 ## Crate of the Week
