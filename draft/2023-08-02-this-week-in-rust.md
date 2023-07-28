@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+[Rusk - The transition of our Node software from Golang to Rust](https://dusk.network/news/piecrust-and-our-transition-to-rust/)
+
 ### Rust Walkthroughs
 
 ### Research
