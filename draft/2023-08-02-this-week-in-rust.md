@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [This Week in Ars Militaris #4](https://arsmilitaris.com)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
