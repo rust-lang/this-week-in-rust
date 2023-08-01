@@ -60,6 +60,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* *No Calls for Participation were received this week.*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
