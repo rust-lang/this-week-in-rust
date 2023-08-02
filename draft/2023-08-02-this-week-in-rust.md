@@ -60,6 +60,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [Hyperswitch - add `upsert` endpoint to `cards_info` table](https://github.com/juspay/hyperswitch/issues/994)
+* [Hyperswitch - move redis key creation to a common module](https://github.com/juspay/hyperswitch/issues/917)
+* [Hyperswitch - Add support for more incoming webhooks for stripe](https://github.com/juspay/hyperswitch/issues/1746)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
