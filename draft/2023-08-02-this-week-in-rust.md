@@ -35,12 +35,12 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-- [tzf-rs: Get timezone via longitude&latitude in Rust in a fast way](https://github.com/ringsaturn/tzf-rs)
-
 ### Observations/Thoughts
 - [A random assortment of Rust notes](https://briankung.dev/2023/07/16/rust-notes/)
 
 ### Rust Walkthroughs
+
+* [Ockam Routing: Building End-to-End Channels](https://www.ockam.io/blog/routing)
 
 ### Research
 
