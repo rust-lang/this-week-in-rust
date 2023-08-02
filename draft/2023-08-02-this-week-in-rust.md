@@ -36,10 +36,16 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 - [This Week in Ars Militaris #4](https://arsmilitaris.com)
+- [tzf-rs: Get timezone via longitude&latitude in Rust in a fast way](https://github.com/ringsaturn/tzf-rs)
 
 ### Observations/Thoughts
+- [A random assortment of Rust notes](https://briankung.dev/2023/07/16/rust-notes/)
+
+[Rusk - The transition of our Node software from Golang to Rust](https://dusk.network/news/piecrust-and-our-transition-to-rust/)
 
 ### Rust Walkthroughs
+
+- [series] [Distributed Tracing in Rust, Episode 1: logging basics](https://heikoseeberger.de/2023-07-29-dist-tracing-1/)
 
 ### Research
 
@@ -47,7 +53,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [allocator-api2](https://docs.rs/allocator-api2), a forward-compatibility shim to use the nightly allocator API on stable Rust.
+
+Thanks to [Zicklag](https://users.rust-lang.org/t/crate-of-the-week/2704/1215) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -69,7 +77,110 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+404 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-07-24..2023-07-31
+
+* [add `x86_64-unikraft-linux-musl` target](https://github.com/rust-lang/rust/pull/113411)
+* [CFI: fix ICE: `encode_const`: unexpected type usize](https://github.com/rust-lang/rust/pull/113708)
+* [data\_structures: Simplify `binary_search_slice`](https://github.com/rust-lang/rust/pull/114152)
+* [`builtin_macros`: expect raw strings too](https://github.com/rust-lang/rust/pull/114014)
+* [`codegen_ssa` cleanups](https://github.com/rust-lang/rust/pull/113879)
+* [`desugar_doc_comments` cleanups](https://github.com/rust-lang/rust/pull/114081)
+* [resolve: report unresolved imports firstly](https://github.com/rust-lang/rust/pull/113920)
+* [resolve: skip panic when resolution is dummy](https://github.com/rust-lang/rust/pull/113980)
+* [abi: unsized field in union - assert to delay bug](https://github.com/rust-lang/rust/pull/114060)
+* [add Param and Bound ty to SMIR](https://github.com/rust-lang/rust/pull/113930)
+* [add `simd_bswap, simd_bitreverse, simd_ctlz,` and `simd_cttz` intrinsics](https://github.com/rust-lang/rust/pull/114156)
+* [adjust spans correctly for fn → method suggestion](https://github.com/rust-lang/rust/pull/114138)
+* [change LLVM BOLT flags for nice space savings](https://github.com/rust-lang/rust/pull/114141)
+* [check for `<&NotClone as Clone>::clone()` calls and suggest to add Clone trait appropriately](https://github.com/rust-lang/rust/pull/112995)
+* [check lazy type aliases for well-formedness](https://github.com/rust-lang/rust/pull/114228)
+* [define `CMAKE_SYSTEM_NAME` on a cross build targeting DragonFly](https://github.com/rust-lang/rust/pull/113996)
+* [diagnostic namespace](https://github.com/rust-lang/rust/pull/111780)
+* [discard default auto trait impls if explicit ones exist](https://github.com/rust-lang/rust/pull/113312)
+* [don't attempt to compute layout of type referencing error](https://github.com/rust-lang/rust/pull/113773)
+* [don't install default projection bound for return-position `impl Trait` in trait methods with no body](https://github.com/rust-lang/rust/pull/113741)
+* [don't say that a type is uncallable if its fn signature has errors in it](https://github.com/rust-lang/rust/pull/113578)
+* [don't treat negative trait predicates as always knowable](https://github.com/rust-lang/rust/pull/114080)
+* [dont pass `-Zwrite-long-types-to-disk=no` for `ui-fulldeps --stage=1`](https://github.com/rust-lang/rust/pull/114102)
+* [double check that hidden types match the expected hidden type](https://github.com/rust-lang/rust/pull/113661)
+* [effects: don't print `host` param in diagnostics](https://github.com/rust-lang/rust/pull/114203)
+* [fix `simd_bswap` for i8/u8](https://github.com/rust-lang/rust/pull/114266)
+* [fix intra-doc links on nested `use` and `extern crate` items](https://github.com/rust-lang/rust/pull/113958)
+* [fix invalid suggestion for mismatched types in closure arguments](https://github.com/rust-lang/rust/pull/114256)
+* [fix missing attribute merge on glob foreign re-exports](https://github.com/rust-lang/rust/pull/114012)
+* [gracefully handle ternary operator](https://github.com/rust-lang/rust/pull/114028)
+* [hide `ToString` implementations that specialize the default one](https://github.com/rust-lang/rust/pull/114020)
+* [implement diagnostic translation for rustc-errors](https://github.com/rust-lang/rust/pull/113281)
+* [implement generic const items](https://github.com/rust-lang/rust/pull/113522)
+* [improve test case for experimental API `remove_matches`](https://github.com/rust-lang/rust/pull/114111)
+* [insert RPITITs that were shadowed by missing ADTs that resolve to type error](https://github.com/rust-lang/rust/pull/114147)
+* [interpret: make read/write methods generic](https://github.com/rust-lang/rust/pull/114071)
+* [interpret: unify projections for MPlaceTy, PlaceTy, OpTy](https://github.com/rust-lang/rust/pull/114011)
+* [less `TokenTree` cloning](https://github.com/rust-lang/rust/pull/114115)
+* [lint/ctypes: fix `()` return type checks](https://github.com/rust-lang/rust/pull/113457)
+* [make RPITITs inherit the `assumed_wf_types` of their parent method](https://github.com/rust-lang/rust/pull/113704)
+* [make `--error-format human-annotate-rs` handle multiple files](https://github.com/rust-lang/rust/pull/114018)
+* [make `--print` with path unstable](https://github.com/rust-lang/rust/pull/114139)
+* [make `noop_method_call` warn by default](https://github.com/rust-lang/rust/pull/111916)
+* [make std tests pass on newer Android](https://github.com/rust-lang/rust/pull/102757)
+* [map RPITIT's opaque type bounds back from projections to opaques](https://github.com/rust-lang/rust/pull/114267)
+* [mark `lazy_type_alias` as incomplete](https://github.com/rust-lang/rust/pull/114222)
+* [new unstable option: -Zwrite-long-types-to-disk](https://github.com/rust-lang/rust/pull/113893)
+* [normalize the RHS of an `Unsize` goal in the new solver](https://github.com/rust-lang/rust/pull/113393)
+* [only golden arches](https://github.com/rust-lang/rust/pull/114225)
+* [optimize `TokenKind::clone`](https://github.com/rust-lang/rust/pull/114119)
+* [print omitted frames count for short backtrace mode](https://github.com/rust-lang/rust/pull/112843)
+* [privacy: no nominal visibility for assoc fns](https://github.com/rust-lang/rust/pull/114099)
+* [reimplement C-str literals](https://github.com/rust-lang/rust/pull/113476)
+* [remove `constness` from `ParamEnv`](https://github.com/rust-lang/rust/pull/114134)
+* [replace atty crate with std's IsTerminal](https://github.com/rust-lang/rust/pull/114098)
+* [restore region uniquification in the new solver 🎉](https://github.com/rust-lang/rust/pull/114117)
+* [skip reporting item name when checking RPITIT GAT's associated type bounds hold](https://github.com/rust-lang/rust/pull/114146)
+* [split some functions with many arguments into builder pattern functions](https://github.com/rust-lang/rust/pull/114054)
+* [suggest {`Option`,`Result`}`::as_ref()` instead of `cloned()` in some cases](https://github.com/rust-lang/rust/pull/114052)
+* [turns out opaque types can have hidden types registered during mir validation](https://github.com/rust-lang/rust/pull/114123)
+* [weaken `unnameable_types` lint](https://github.com/rust-lang/rust/pull/114246)
+* [when flushing delayed span bugs, write to the ICE dump file even if it doesn't exist](https://github.com/rust-lang/rust/pull/114128)
+* [miri: TB: redefine trigger condition for protectors](https://github.com/rust-lang/miri/pull/2993)
+* [miri: add some interesting tests for alignment corner cases](https://github.com/rust-lang/miri/pull/3001)
+* [miri: fix oversight from new miri-script](https://github.com/rust-lang/miri/pull/3002)
+* [miri: refactor tests/utils a bit, and move some FS functions there](https://github.com/rust-lang/miri/pull/2997)
+* [miri: rewrite miri script in rust](https://github.com/rust-lang/miri/pull/2909)
+* [stabilize `const-weak-new`](https://github.com/rust-lang/rust/pull/95965)
+* [const-stablilize `NonNull::as_ref`](https://github.com/rust-lang/rust/pull/102198)
+* [optimize `AtomicBool` for target that don't support byte-sized atomics](https://github.com/rust-lang/rust/pull/114034)
+* [mark `map_or` as `#[must_use]`](https://github.com/rust-lang/rust/pull/112655)
+* [merge functionality of `io::Sink` into `io::Empty`](https://github.com/rust-lang/rust/pull/98154)
+* [futures: add `len` method for `UnboundedSender`](https://github.com/rust-lang/futures-rs/pull/2750)
+* [cargo: normalize relative git submodule urls with `ssh://`](https://github.com/rust-lang/cargo/pull/12411)
+* [cargo: use thiserror for credential provider errors](https://github.com/rust-lang/cargo/pull/12424)
+* [rustdoc: fix cross-crate `impl Sized` & `impl ?Sized`](https://github.com/rust-lang/rust/pull/114059)
+* [rustdoc: If re-export is private, get the next item until a public one is found or expose the private item directly](https://github.com/rust-lang/rust/pull/113374)
+* [rustdoc: Remove unneeded `clone()` calls for `derive_id`](https://github.com/rust-lang/rust/pull/114204)
+* [rustfmt: handle `dyn*` syntax when rewriting `ast::TyKind::TraitObject`](https://github.com/rust-lang/rustfmt/pull/5552)
+* [clippy: `arc_with_non_send_sync`: no longer lints macro-generated code](https://github.com/rust-lang/rust-clippy/pull/11233)
+* [clippy: `arithmetic_side_effects`: ignore paths referring to literals](https://github.com/rust-lang/rust-clippy/pull/11263)
+* [clippy: `needless_pass_by_ref_mut`: do not lint if passed as a fn-like argument](https://github.com/rust-lang/rust-clippy/pull/11207)
+* [clippy: various `redundant_closure` fixes](https://github.com/rust-lang/rust-clippy/pull/8685)
+* [clippy: `slow_vector_initialization`: catch `Vec::new()` followed by `.resize(len, 0)`](https://github.com/rust-lang/rust-clippy/pull/11198)
+* [clippy: `unnecessary_find_map`: look for `then_some`](https://github.com/rust-lang/rust-clippy/pull/11261)
+* [clippy: `needless_pass_by_ref_mut`: emit note if function is behind a `#[cfg]`](https://github.com/rust-lang/rust-clippy/pull/11226)
+* [clippy: new lint `filter_map_bool_then`](https://github.com/rust-lang/rust-clippy/pull/11115)
+* [clippy: new lint `readonly_write_lock`](https://github.com/rust-lang/rust-clippy/pull/11210)
+* [clippy: now `option_env_unwrap` warns even if a variable isn't set at compiletime](https://github.com/rust-lang/rust-clippy/pull/10759)
+* [rust-analyzer: add manual implementation of clone for tuples in mir interpreter](https://github.com/rust-lang/rust-analyzer/pull/15353)
+* [rust-analyzer: fix: do not create fn macro calls with non-fn expanders](https://github.com/rust-lang/rust-analyzer/pull/15357)
+* [rust-analyzer: fix: expand eager macros to delimited comma separated expression list](https://github.com/rust-lang/rust-analyzer/pull/15361)
+* [rust-analyzer: fix: fix bad unwrap in `eager_macro_recur`](https://github.com/rust-lang/rust-analyzer/pull/15356)
+* [rust-analyzer: fix: remove another faulty unwrap (expect)](https://github.com/rust-lang/rust-analyzer/pull/15366)
+* [rust-analyzer: fixup path fragments upon MBE transcription](https://github.com/rust-lang/rust-analyzer/pull/15360)
+* [rust-analyzer: properly infer types with type casts](https://github.com/rust-lang/rust-analyzer/pull/15271)
+* [rust-analyzer: runnable env per platform](https://github.com/rust-lang/rust-analyzer/pull/15308)
+* [rust-analyzer: show anonymous fn def type as a fn pointer in source code](https://github.com/rust-lang/rust-analyzer/pull/15349)
+* [rust-analyzer: support `Self` without field in mir lowering](https://github.com/rust-lang/rust-analyzer/pull/15363)
+* [rust-analyzer: write proc-macro server spawn errors to the status text](https://github.com/rust-lang/rust-analyzer/pull/15359)
 
 ### Rust Compiler Performance Triage
 
@@ -171,6 +282,8 @@ Rusty Events between 2023-08-02 - 2023-08-30 🦀
     * [**Seoul Rust Meetup**](https://www.meetup.com/rust-seoul-meetup/events/294832771/)
 * 2023-07-27 | Seoul, KR | [T-RUST meetup](https://www.meetup.com/t-rust-meetup/)
     * [**🦀 7/27(목) T-RUST Meetup 🦀 (+ 현직자 네트워킹 세션)**](https://www.meetup.com/t-rust-meetup/events/295001681/)
+* 2023-08-09 | Kuala Lumpur, MY | [Rust Malaysia](https://rust-malaysia.github.io/meetup/)
+    * [**Rust Malaysia Meetup August 2023**](https://forms.gle/tL68U1PZF5bAV1LY7)
 
 ### Europe
 
@@ -237,7 +350,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Writing return \<something\>; at the end of a function in Rust is a bit like answering the question "Do you like potatoes?" with "Yes, I like potatoes" instead of simple "Yes".
+
+– [Artem Borisovskiy on rust-users](https://users.rust-lang.org/t/enable-linting-for-implicit-returns/97170/15)
+
+Thanks to [Todd Fleming](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1453) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
