@@ -274,6 +274,8 @@ Rusty Events between 2023-08-02 - 2023-08-30 🦀
     * [**Seoul Rust Meetup**](https://www.meetup.com/rust-seoul-meetup/events/294832771/)
 * 2023-07-27 | Seoul, KR | [T-RUST meetup](https://www.meetup.com/t-rust-meetup/)
     * [**🦀 7/27(목) T-RUST Meetup 🦀 (+ 현직자 네트워킹 세션)**](https://www.meetup.com/t-rust-meetup/events/295001681/)
+* 2023-08-09 | Kuala Lumpur, MY | [Rust Malaysia](https://rust-malaysia.github.io/meetup/)
+    * [**Rust Malaysia Meetup August 2023**](https://forms.gle/tL68U1PZF5bAV1LY7)
 
 ### Europe
 
