@@ -42,7 +42,8 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-
+* [From ranking to scoring. Our journey to add relevancy scores to search results in Meilisearch.](https://blog.meilisearch.com/from-ranking-to-scoring/)
+  
 ## Crate of the Week
 
 <!-- COTW goes here -->
