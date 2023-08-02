@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+- [A random assortment of Rust notes](https://briankung.dev/2023/07/16/rust-notes/)
 
 ### Rust Walkthroughs
 
