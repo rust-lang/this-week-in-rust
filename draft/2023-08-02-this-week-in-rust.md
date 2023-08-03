@@ -30,31 +30,46 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [New Rust Foundation Report Details Security Initiative Progress](https://foundation.rust-lang.org/news/new-rust-foundation-report-details-security-initiative-progress/)
 
 ### Newsletters
+* [This Month in Rust GameDev #47](https://gamedev.rs/news/047/)
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #192](https://rust-analyzer.github.io/thisweek/2023/07/31/changelog-192.html)
+* [iced Release 0.10.0](https://github.com/iced-rs/iced/releases/tag/0.10.0)
+* [Progress report on rustc_codegen_cranelift (July 2023)](https://bjorn3.github.io/2023/07/29/progress-report-july-2023.html)
+* [Garde 0.12 release](https://www.reddit.com/r/rust/comments/15bc1f7/garde_012_release/)
+* [tzf-rs: Get timezone via longitude&latitude in Rust in a fast way](https://github.com/ringsaturn/tzf-rs)
 * [Meilisearch 1.3 - new features, including vector search, ranking score details, search for facet values, and searchable fields at query time](https://blog.meilisearch.com/v1-3-release/)
-
-- [This Week in Ars Militaris #4](https://arsmilitaris.com/)
-- [tzf-rs: Get timezone via longitude&latitude in Rust in a fast way](https://github.com/ringsaturn/tzf-rs)
+* [This Week in Ars Militaris #4](https://arsmilitaris.com/)
 
 ### Observations/Thoughts
-- [A random assortment of Rust notes](https://briankung.dev/2023/07/16/rust-notes/)
-
-[Rusk - The transition of our Node software from Golang to Rust](https://dusk.network/news/piecrust-and-our-transition-to-rust/)
+* [Moving Ownership and Functions! - Rust for the ABSOLUTE Beginner Tutorial](https://www.youtube.com/watch?v=bXy45jGCiQI)
+* [High-throughput stream processing in Rust](https://noz.ai/hash-pipeline/)
+* [A Lock-Free Vector](https://ibraheem.ca/posts/a-lock-free-vector/)
+* [A JVM in Rust part 3 - Parsing class files](https://andreabergia.com/blog/2023/07/a-jvm-in-rust-part-3-parsing-class-files/)
+* [Optimizing Rust programs with PGO and BOLT using cargo-pgo](https://kobzol.github.io/rust/cargo/2023/07/28/rust-cargo-pgo.html)
+* [Distributing Lamport’s bakery with Automerge, and a touch of TLA+](https://medium.com/@polyglot_factotum/distributing-lamports-bakery-with-automerge-and-a-touch-of-tla-679b2705b7cc)
+* [Building a Rust workspace with Bazel](https://www.tweag.io/blog/2023-07-27-building-rust-workspace-with-bazel/)
+* [Building Multiple Binaries in Rust](https://crustc.com/building-multiple-binaries-in-rust/)
+* [ESP32 Standard Library Embedded Rust: I2C Communication](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-i2c-communication?ref=twitter-share)
+* [How to write Rust unit tests for your Compute@Edge application](https://www.fastly.com/blog/how-to-write-rust-unit-tests-for-your-compute-edge-application)
+* [A random assortment of Rust notes](https://briankung.dev/2023/07/16/rust-notes/)
+* [Rusk - The transition of our Node software from Golang to Rust](https://dusk.network/news/piecrust-and-our-transition-to-rust/)
 
 ### Rust Walkthroughs
 * [How I finally understood async/await in Rust (part 3: why shouldn’t I hold a mutex guard across an await point?)](https://hegdenu.net/posts/understanding-async-await-3/)
-
-
-- [series] [Distributed Tracing in Rust, Episode 1: logging basics](https://heikoseeberger.de/2023-07-29-dist-tracing-1/)
-
+* [Distributed Tracing in Rust, Episode 1: logging basics](https://heikoseeberger.de/2023-07-29-dist-tracing-1/)
 * [Ockam Routing: Building End-to-End Channels](https://www.ockam.io/blog/routing)
 
 ### Research
 
 ### Miscellaneous
+* [Sniffnet is one year old today: lessons learned and next steps](https://github.com/GyulyVGC/sniffnet/discussions/329)
+* [video] [Physics in Bevy: What is Bevy Rapier](https://www.youtube.com/watch?v=Fk4tfdHc8AM)
+* [video] [A Simpler Way to See Results](https://www.youtube.com/watch?v=s5S2Ed5T-dc)
+* [video] [Decrusting the axum crate](https://www.youtube.com/watch?v=Wnb_n5YktO8)
 
 ## Crate of the Week
 
