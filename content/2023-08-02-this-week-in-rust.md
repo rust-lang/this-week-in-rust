@@ -27,8 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Foundation
 * [New Rust Foundation Report Details Security Initiative Progress](https://foundation.rust-lang.org/news/new-rust-foundation-report-details-security-initiative-progress/)
 
@@ -63,8 +61,6 @@ and just ask the editors to select the category.
 * [How I finally understood async/await in Rust (part 3: why shouldn’t I hold a mutex guard across an await point?)](https://hegdenu.net/posts/understanding-async-await-3/)
 * [Distributed Tracing in Rust, Episode 1: logging basics](https://heikoseeberger.de/2023-07-29-dist-tracing-1/)
 * [Ockam Routing: Building End-to-End Channels](https://www.ockam.io/blog/routing)
-
-### Research
 
 ### Miscellaneous
 * [Sniffnet is one year old today: lessons learned and next steps](https://github.com/GyulyVGC/sniffnet/discussions/329)
@@ -341,7 +337,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/14zmcpw/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -357,4 +353,4 @@ Thanks to [Todd Fleming](https://users.rust-lang.org/t/twir-quote-of-the-week/32
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/15gpfpv/this_week_in_rust_506/)</small>
