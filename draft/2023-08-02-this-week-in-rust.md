@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 * [How to write Rust unit tests for your Compute@Edge application](https://www.fastly.com/blog/how-to-write-rust-unit-tests-for-your-compute-edge-application)
 * [A random assortment of Rust notes](https://briankung.dev/2023/07/16/rust-notes/)
 * [Rusk - The transition of our Node software from Golang to Rust](https://dusk.network/news/piecrust-and-our-transition-to-rust/)
+* [video] [What to Expect from RustConf 2023](https://youtu.be/v6TFArsTJ4E)
 
 ### Rust Walkthroughs
 * [How I finally understood async/await in Rust (part 3: why shouldn’t I hold a mutex guard across an await point?)](https://hegdenu.net/posts/understanding-async-await-3/)
@@ -255,22 +256,8 @@ Rusty Events between 2023-08-02 - 2023-08-30 🦀
 
 ### Virtual
 
-* 2023-07-26 | Virtual (Cardiff, UK)| [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff)
-    * [**The unreasonable power of combinator APIs**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/294748626)
-* 2023-07-27 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
-    * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/ngnwftyfckbkc/)
-* 2023-07-28 | Virtual (Tunis, TN) | [Rust Meetup Tunisia](https://www.meetup.com/rust-tunisia/)
-    * [**Rust Meetup Tunisia - Volume I, Number IV**](https://www.meetup.com/rust-tunisia/events/294664236/)
-* 2023-07-31 | Virtual (Linz, AT) | [Rust Linz](https://www.meetup.com/rust-linz/)
-    * [**Rust Meetup Linz - 31st Edition**](https://www.meetup.com/rust-linz/events/294718541/)
-* 2023-08-01 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
-    * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/zdrzpsyfclbcb/)
-* 2023-08-01 | Virtual (Buffalo, NY, US) | [Buffalo Rust Meetup](https://www.meetup.com/buffalo-rust-meetup/)
-    * [**Buffalo Rust User Group, First Tuesdays**](https://www.meetup.com/buffalo-rust-meetup/events/lsjbbtyfclbcb/)
 * 2023-08-02 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/294768155)
-* 2023-08-02 | Virtual (Stuttgart, DE) | [Rust Community Stuttgart](https://www.meetup.com/rust-community-stuttgart/)
-    * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/294788420)
 * 2023-08-08 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallas-rust/)
     * [**Second Tuesday**](https://www.meetup.com/dallas-rust/events/vndgwsyfclblb/)
 * 2023-08-10 | Virtual (Nuremberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
@@ -281,6 +268,10 @@ Rusty Events between 2023-08-02 - 2023-08-30 🦀
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/293553331/)
 * 2023-08-16 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/kmhpftyfclbvb/)
+* 2023-08-17 | Virtual (Linz, AT) | [Rust Linz](https://www.meetup.com/rust-linz/)
+    * [**Rust Meetup Linz - 32nd Edition**](https://www.meetup.com/rust-linz/events/294718621/)
+* 2023-08-17 | Virtual (Stuttgart, DE) | [Rust Community Stuttgart](https://www.meetup.com/rust-community-stuttgart/)
+    * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/294343590)
 * 2023-08-22 | Virtual (Dublin, IE) | [Rust Dublin](https://www.meetup.com/Rust-Dublin/)
     * [**Rust, Serverless and AWS**](https://www.meetup.com/Rust-Dublin/events/294587280/)
 
@@ -308,10 +299,6 @@ Rusty Events between 2023-08-02 - 2023-08-30 🦀
 
 ### North America
 
-* 2023-07-27 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
-    * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/mv-rust-meetup/events/294911462/)
-* 2023-08-01 | Chicago, IL, US | [Deep Dish Rust](https://www.meetup.com/deep-dish-rust/)
-    * [**Rust Happy Hour**](https://www.meetup.com/deep-dish-rust/events/294951373/)
 * 2023-08-07 | Minneapolis, MN, US | [Minneapolis Rust Meetup](https://www.meetup.com/minneapolis-rust-meetup/)
     * [**Minneapolis Rust Meetup Happy Hour**](https://www.meetup.com/minneapolis-rust-meetup/events/293561660/)
 * 2023-08-10 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
@@ -329,12 +316,12 @@ Rusty Events between 2023-08-02 - 2023-08-30 🦀
 
 ### Oceania
 
-* 2023-07-27 | Brisbane, QLD, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane/)
-    * [**July Meetup**](https://www.meetup.com/rust-brisbane/events/294857868/)
 * 2023-08-08 | Aukland, NZ | [Rust AKL](https://www.meetup.com/rust-akl/)
     * [**A Peek into GPU Computing + Safer Code with Code Generation**](https://www.meetup.com/rust-akl/events/294858251/)
 * 2023-08-09 | Perth, WA, AU | [Rust Perth](https://www.linkedin.com/groups/7439562/)
     * [**August Meetup**](https://www.tickettailor.com/events/perthrustusergroup/970279)
+* 2023-08-15 | Melbourne, VIC, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
+    * [**(Hybrid - in person & online) August 2023 Rust Melbourne Meetup**](https://www.meetup.com/rust-melbourne/events/295143203/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
