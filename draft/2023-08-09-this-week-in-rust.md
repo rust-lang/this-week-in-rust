@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+[Client-Side Server with Rust: A New Approach to UI Development](https://logankeenan.com/posts/client-side-server-with-rust-a-new-approach-to-ui-development/)
 
 ### Rust Walkthroughs
 
