@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 
 - [series] [Distributed Tracing in Rust, Episode 1: logging basics](https://heikoseeberger.de/2023-07-29-dist-tracing-1/)
 
+* [Ockam Routing: Building End-to-End Channels](https://www.ockam.io/blog/routing)
+
 ### Research
 
 ### Miscellaneous
