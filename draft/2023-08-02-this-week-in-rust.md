@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Meilisearch 1.3 - new features, including vector search, ranking score details, search for facet values, and searchable fields at query time](https://blog.meilisearch.com/v1-3-release/)
 
 - [This Week in Ars Militaris #4](https://arsmilitaris.com/)
 - [tzf-rs: Get timezone via longitude&latitude in Rust in a fast way](https://github.com/ringsaturn/tzf-rs)
