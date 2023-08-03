@@ -35,6 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [This Week in Ars Militaris #4](https://arsmilitaris.com/)
 - [tzf-rs: Get timezone via longitude&latitude in Rust in a fast way](https://github.com/ringsaturn/tzf-rs)
 
 ### Observations/Thoughts
