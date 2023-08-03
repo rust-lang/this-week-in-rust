@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 * [Progress report on rustc_codegen_cranelift (July 2023)](https://bjorn3.github.io/2023/07/29/progress-report-july-2023.html)
 * [Garde 0.12 release](https://www.reddit.com/r/rust/comments/15bc1f7/garde_012_release/)
 * [tzf-rs: Get timezone via longitude&latitude in Rust in a fast way](https://github.com/ringsaturn/tzf-rs)
+* [Meilisearch 1.3 - new features, including vector search, ranking score details, search for facet values, and searchable fields at query time](https://blog.meilisearch.com/v1-3-release/)
+* [This Week in Ars Militaris #4](https://arsmilitaris.com/)
 
 ### Observations/Thoughts
 * [Moving Ownership and Functions! - Rust for the ABSOLUTE Beginner Tutorial](https://www.youtube.com/watch?v=bXy45jGCiQI)
@@ -53,10 +55,6 @@ and just ask the editors to select the category.
 * [Building Multiple Binaries in Rust](https://crustc.com/building-multiple-binaries-in-rust/)
 * [ESP32 Standard Library Embedded Rust: I2C Communication](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-i2c-communication?ref=twitter-share)
 * [How to write Rust unit tests for your Compute@Edge application](https://www.fastly.com/blog/how-to-write-rust-unit-tests-for-your-compute-edge-application)
-* [Meilisearch 1.3 - new features, including vector search, ranking score details, search for facet values, and searchable fields at query time](https://blog.meilisearch.com/v1-3-release/)
-* [This Week in Ars Militaris #4](https://arsmilitaris.com/)
-
-### Observations/Thoughts
 * [A random assortment of Rust notes](https://briankung.dev/2023/07/16/rust-notes/)
 * [Rusk - The transition of our Node software from Golang to Rust](https://dusk.network/news/piecrust-and-our-transition-to-rust/)
 
