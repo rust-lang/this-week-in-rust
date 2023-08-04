@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [video] [Build a Cross Platform Mobile SDK in Rust](https://www.youtube.com/watch?v=nn7hAM0GDp0)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
