@@ -273,19 +273,11 @@ Rusty Events between 2023-08-02 - 2023-08-30 🦀
 
 ### Asia
 
-* 2023-07-27 | Seoul, KR | [Rust Programming Meetup Seoul](https://www.meetup.com/rust-seoul-meetup/)
-    * [**Seoul Rust Meetup**](https://www.meetup.com/rust-seoul-meetup/events/294832771/)
-* 2023-07-27 | Seoul, KR | [T-RUST meetup](https://www.meetup.com/t-rust-meetup/)
-    * [**🦀 7/27(목) T-RUST Meetup 🦀 (+ 현직자 네트워킹 세션)**](https://www.meetup.com/t-rust-meetup/events/295001681/)
 * 2023-08-09 | Kuala Lumpur, MY | [Rust Malaysia](https://rust-malaysia.github.io/meetup/)
     * [**Rust Malaysia Meetup August 2023**](https://forms.gle/tL68U1PZF5bAV1LY7)
 
 ### Europe
 
-* 2023-07-27 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/)
-    * [**Rust metup #38 at Deloitte!**](https://www.meetup.com/copenhagen-rust-community/events/294780997)
-* 2023-07-27 | Vienna, AT | [Rust Vienna](https://www.meetup.com/rust-vienna)
-    * [**Rust Dojo**](https://www.meetup.com/rust-vienna/events/294974346/)
 * 2023-08-17 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/)
     * [**Reading Rust Meetup at Browns**](https://www.meetup.com/reading-rust-workshop/events/294201562/)
 * 2023-08-22 | Helsinki, FI | [Finland Rust Meetup](https://www.meetup.com/helsinki-rust-meetup-group)
