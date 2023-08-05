@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Parse Prometheus Exposition format in Rust using Pest](https://medium.com/@miltag/parse-prometheus-exposition-format-in-rust-using-peg-3921e9fc7d65)
 
 ### Rust Walkthroughs
 
