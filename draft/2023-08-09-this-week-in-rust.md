@@ -184,7 +184,7 @@ Rusty Events between 2023-08-09 - 2023-09-06 🦀
 
 ### Oceania
 
-* 2023-08-08 | Aukland, NZ | [Rust AKL](https://www.meetup.com/rust-akl/)
+* 2023-08-08 | Auckland, NZ | [Rust AKL](https://www.meetup.com/rust-akl/)
     * [**A Peek into GPU Computing + Safer Code with Code Generation**](https://www.meetup.com/rust-akl/events/294858251/)
 * 2023-08-09 | Perth, WA, AU | [Rust Perth](https://www.linkedin.com/groups/7439562/)
     * [**August Meetup**](https://www.tickettailor.com/events/perthrustusergroup/970279)
