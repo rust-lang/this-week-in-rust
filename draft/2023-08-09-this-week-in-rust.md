@@ -34,10 +34,12 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [kinded](https://github.com/greyblake/kinded/) - generate enum variants without data
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Handling Rust enum variants with kinded crate](https://www.greyblake.com/blog/handling-rust-enum-variants-with-kinded-crate/)
 
 ### Research
 
