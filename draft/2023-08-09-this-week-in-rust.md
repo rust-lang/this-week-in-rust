@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [cargo-run-bin v1.0.0: Build, cache, and run CLI tools scoped in Cargo.toml rather than installing globally.](https://github.com/dustinblackman/cargo-run-bin)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
