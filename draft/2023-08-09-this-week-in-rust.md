@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [This Week in Ars Militaris #5](https://arsmilitaris.com/#this-week-in-ars-militaris-5)
 
 ### Observations/Thoughts
 
