@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust Pointer Metadata](https://bd103.github.io/blog/2023-08-06-ptr-metadata)
+
 ### Rust Walkthroughs
 
 ### Research
