@@ -42,6 +42,9 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [video] [Rust API design: the curious case of Result](https://www.youtube.com/watch?v=lYjMp9obcZ0)
+* [video] [A Tour of Iced 0.10](https://www.youtube.com/watch?v=XrR4VCKB0cQ)
+* [video] [5 programs you can't compile with Rust](https://www.youtube.com/watch?v=HbXrStY68_0)
 
 ## Crate of the Week
 
