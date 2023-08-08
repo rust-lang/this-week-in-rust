@@ -71,7 +71,21 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Overall a very positive last week, primarily due to an [upgrade to LLVM
+17](https://github.com/rust-lang/rust/pull/114048) and some changes to [lint
+execution](https://github.com/rust-lang/rust/pull/113734). Memory usage is down
+[4-7%](https://perf.rust-lang.org/?start=828bdc2c26f5c95773c4ecf72870919f16417b66&end=443c3161dd04f4c1b656a626f9079921bee9c326&absolute=false&stat=max-rss&kind=percentfromfirst)
+over the last week and wall times are down
+[3-5%](https://perf.rust-lang.org/?start=828bdc2c26f5c95773c4ecf72870919f16417b66&end=443c3161dd04f4c1b656a626f9079921bee9c326&absolute=false&stat=wall-time&kind=percentfromfirst).
+
+Triage done by **@simulacrum**.
+Revision range: [828bdc2c..443c3161](https://perf.rust-lang.org/?start=828bdc2c26f5c95773c4ecf72870919f16417b66&end=443c3161dd04f4c1b656a626f9079921bee9c326&absolute=false&stat=instructions%3Au)
+
+2 Regressions, 7 Improvements, 2 Mixed; 2 of them in rollups
+64 artifact comparisons made in total
+
+[Full report 7/22-8/1](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-08-01.md),
+[Full report 8/1-8/8](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-08-08.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
