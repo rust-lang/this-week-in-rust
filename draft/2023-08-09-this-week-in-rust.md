@@ -208,7 +208,7 @@ Rusty Events between 2023-08-09 - 2023-09-06 🦀
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/295008514)
 * 2023-08-24 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
     * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/mv-rust-meetup/events/295107743/)
-* 2023-09-06 | Belleview, WA, US | [The Linux Foundation](https://www.linuxfoundation.org/)
+* 2023-09-06 | Bellevue, WA, US | [The Linux Foundation](https://www.linuxfoundation.org/)
     * [**Rust Global**](https://events.linuxfoundation.org/rust-global/)
 
 ### Oceania
