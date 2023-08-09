@@ -60,6 +60,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [Hyperswitch - Add Create Merchant and Create Merchant Key Store in a DB transaction](https://github.com/juspay/hyperswitch/issues/1793)
+* [Hyperswitch - Use proxy exclusion instead of a separate proxied client](https://github.com/juspay/hyperswitch/issues/1039)
+* [Hyperswitch - Schedule webhook for retry](https://github.com/juspay/hyperswitch/issues/217)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
