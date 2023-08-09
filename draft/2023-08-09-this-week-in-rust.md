@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Optimizing Rust Enum `Debug`-ing with Perfect Hashing](https://swatinem.de/blog/optimizing-enums/)
+
 ### Rust Walkthroughs
 
 ### Research
