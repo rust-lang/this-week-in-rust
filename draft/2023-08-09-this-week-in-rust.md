@@ -51,9 +51,9 @@ and just ask the editors to select the category.
 * [nesting allocators](https://blog.yoshuawuyts.com/nesting-allocators/)
 * [Allocator trait 1: Let’s talk about the Allocator trait](https://shift.click/blog/allocator-trait-talk/)
 * [How to improve Rust compiler’s CI in 2023](https://kobzol.github.io/rust/rustc/2023/07/30/optimizing-rust-ci-2023.html)
-* [video] [Andreas Monitzer  - Bevy-ECS explained - Rust Vienna June 2023](https://www.youtube.com/watch?v=TBjmRmjr4JA)
-
 * [Rust Pointer Metadata](https://bd103.github.io/blog/2023-08-06-ptr-metadata)
+* [Parse Prometheus Exposition format in Rust using Pest](https://medium.com/@miltag/parse-prometheus-exposition-format-in-rust-using-peg-3921e9fc7d65)
+* [video] [Andreas Monitzer  - Bevy-ECS explained - Rust Vienna June 2023](https://www.youtube.com/watch?v=TBjmRmjr4JA)
 
 ### Rust Walkthroughs
 * [Handling Rust enum variants with kinded crate](https://www.greyblake.com/blog/handling-rust-enum-variants-with-kinded-crate/)
