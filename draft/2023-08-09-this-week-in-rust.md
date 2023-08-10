@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [How to improve Rust compiler’s CI in 2023](https://kobzol.github.io/rust/rustc/2023/07/30/optimizing-rust-ci-2023.html)
 * [Rust Pointer Metadata](https://bd103.github.io/blog/2023-08-06-ptr-metadata)
 * [Parse Prometheus Exposition format in Rust using Pest](https://medium.com/@miltag/parse-prometheus-exposition-format-in-rust-using-peg-3921e9fc7d65)
+* [Client-Side Server with Rust: A New Approach to UI Development](https://logankeenan.com/posts/client-side-server-with-rust-a-new-approach-to-ui-development/)
 * [video] [Andreas Monitzer  - Bevy-ECS explained - Rust Vienna June 2023](https://www.youtube.com/watch?v=TBjmRmjr4JA)
 
 ### Rust Walkthroughs
