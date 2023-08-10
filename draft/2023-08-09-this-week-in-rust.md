@@ -45,7 +45,6 @@ and just ask the editors to select the category.
 * [Changelog #193](https://rust-analyzer.github.io/thisweek/2023/08/07/changelog-193.html)
 
 ### Observations/Thoughts
-* [A failed experiment with Rust static dispatch](https://jmmv.dev/2023/08/rust-static-dispatch-failed-experiment.html)
 * [No telemetry in the Rust compiler: metrics without betraying user privacy](https://estebank.github.io/rustc-metrics.html)
 * [A failed experiment with Rust static dispatch](https://jmmv.dev/2023/08/rust-static-dispatch-failed-experiment.html)
 * [nesting allocators](https://blog.yoshuawuyts.com/nesting-allocators/)
