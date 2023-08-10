@@ -154,7 +154,7 @@ Rusty Events between 2023-08-09 - 2023-09-06 🦀
 * 2023-08-17 | Virtual (Linz, AT) | [Rust Linz](https://www.meetup.com/rust-linz/)
     * [**Rust Meetup Linz - 32nd Edition**](https://www.meetup.com/rust-linz/events/294718621/)
 * 2023-08-17 | Virtual (Stuttgart, DE) | [Rust Community Stuttgart](https://www.meetup.com/rust-community-stuttgart/)
-    * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/294343590)
+    * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/295051663/)
 * 2023-08-22 | Virtual (Dublin, IE) | [Rust Dublin](https://www.meetup.com/Rust-Dublin/)
     * [**Rust, Serverless and AWS**](https://www.meetup.com/Rust-Dublin/events/294587280/)
 * 2023-09-05 | Virtual (Buffalo, NY, US) | [Buffalo Rust Meetup](https://www.meetup.com/buffalo-rust-meetup/)
