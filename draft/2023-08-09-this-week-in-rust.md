@@ -83,8 +83,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [zerocopy - Install OpenSSF Scorecard and consider adopting its recommendations](https://github.com/google/zerocopy/issues/230)
+* [Ockam - Add icons to the menu items in Tauri system tray app 1](https://github.com/build-trust/ockam/issues/5491)
+* [Ockam - Improve docs of `ockam completion` clap command to specify how to use it](https://github.com/build-trust/ockam/issues/5565)
+* [Ockam - Remove unused `Error` enum members and avoid appearing of such members in the future 1](https://github.com/build-trust/ockam/issues/5564)
 * [Hyperswitch - Add Create Merchant and Create Merchant Key Store in a DB transaction](https://github.com/juspay/hyperswitch/issues/1793)
 * [Hyperswitch - Use proxy exclusion instead of a separate proxied client](https://github.com/juspay/hyperswitch/issues/1039)
 * [Hyperswitch - Schedule webhook for retry](https://github.com/juspay/hyperswitch/issues/217)
