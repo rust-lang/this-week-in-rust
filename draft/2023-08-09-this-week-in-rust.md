@@ -54,13 +54,13 @@ and just ask the editors to select the category.
 * [video] [Andreas Monitzer  - Bevy-ECS explained - Rust Vienna June 2023](https://www.youtube.com/watch?v=TBjmRmjr4JA)
 
 ### Rust Walkthroughs
+* [Handling Rust enum variants with kinded crate](https://www.greyblake.com/blog/handling-rust-enum-variants-with-kinded-crate/)
 * [Let's Build a Cargo Compatible Build Tool - Part 1](https://blog.mgattozzi.dev/freight-part-1/)
 * [Instrumenting Axum projects](https://determinate.systems/posts/instrumenting-axum)
 * [Rust Server Components](https://anto.pt/articles/rust-server-components)
 * [Optimizing Rust Enum `Debug`-ing with Perfect Hashing](https://swatinem.de/blog/optimizing-enums/)
 * [Running a Bevy game in SvelteKit](https://sneakycrow.dev/blog/2023-07-30-bevy-game-in-svelte-kit)
 * [ESP32 Standard Library Embedded Rust: Timers](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-timers)
-
 
 ### Research
 
