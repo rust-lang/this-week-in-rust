@@ -52,8 +52,6 @@ and just ask the editors to select the category.
 * [How to improve Rust compiler’s CI in 2023](https://kobzol.github.io/rust/rustc/2023/07/30/optimizing-rust-ci-2023.html)
 * [video] [Andreas Monitzer  - Bevy-ECS explained - Rust Vienna June 2023](https://www.youtube.com/watch?v=TBjmRmjr4JA)
 
-* [Optimizing Rust Enum `Debug`-ing with Perfect Hashing](https://swatinem.de/blog/optimizing-enums/)
-
 ### Rust Walkthroughs
 * [Let's Build a Cargo Compatible Build Tool - Part 1](https://blog.mgattozzi.dev/freight-part-1/)
 * [Instrumenting Axum projects](https://determinate.systems/posts/instrumenting-axum)
@@ -67,6 +65,10 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Shuttle Launchpad #5: Our first foray into traits!](https://www.shuttle.rs/launchpad/issues/2023-28-07-issue-05-Traits-Image-Processing)
+* [video] [Rust API design: the curious case of Result](https://www.youtube.com/watch?v=lYjMp9obcZ0)
+* [video] [A Tour of Iced 0.10](https://www.youtube.com/watch?v=XrR4VCKB0cQ)
+* [video] [5 programs you can't compile with Rust](https://www.youtube.com/watch?v=HbXrStY68_0)
+* [video] [Rich Terminal Interfaces with Ratatui](https://www.youtube.com/watch?v=pgFCjtwPBYI)
 
 ## Crate of the Week
 
