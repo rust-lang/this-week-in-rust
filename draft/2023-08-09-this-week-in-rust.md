@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 * [How to improve Rust compiler’s CI in 2023](https://kobzol.github.io/rust/rustc/2023/07/30/optimizing-rust-ci-2023.html)
 * [video] [Andreas Monitzer  - Bevy-ECS explained - Rust Vienna June 2023](https://www.youtube.com/watch?v=TBjmRmjr4JA)
 
+* [Optimizing Rust Enum `Debug`-ing with Perfect Hashing](https://swatinem.de/blog/optimizing-enums/)
+
 ### Rust Walkthroughs
 * [Let's Build a Cargo Compatible Build Tool - Part 1](https://blog.mgattozzi.dev/freight-part-1/)
 * [Instrumenting Axum projects](https://determinate.systems/posts/instrumenting-axum)
