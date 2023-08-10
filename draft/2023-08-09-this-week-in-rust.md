@@ -73,6 +73,8 @@ and just ask the editors to select the category.
 * [video] [5 programs you can't compile with Rust](https://www.youtube.com/watch?v=HbXrStY68_0)
 * [video] [Rich Terminal Interfaces with Ratatui](https://www.youtube.com/watch?v=pgFCjtwPBYI)
 
+* [video] [Build a Cross Platform Mobile SDK in Rust](https://www.youtube.com/watch?v=nn7hAM0GDp0)
+
 ## Crate of the Week
 
 This week's crate is [deep_causality](https://github.com/deepcausality-rs/deep_causality), a hyper-geometric computational causality library.
