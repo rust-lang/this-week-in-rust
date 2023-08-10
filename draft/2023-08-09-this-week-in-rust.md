@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Turbocharging Rust Code Verification](https://model-checking.github.io/kani-verifier-blog/2023/08/03/turbocharging-rust-code-verification.html)
 * [Changelog #193](https://rust-analyzer.github.io/thisweek/2023/08/07/changelog-193.html)
+* [This Week in Ars Militaris #5](https://arsmilitaris.com/#this-week-in-ars-militaris-5)
 
 ### Observations/Thoughts
 * [No telemetry in the Rust compiler: metrics without betraying user privacy](https://estebank.github.io/rustc-metrics.html)
