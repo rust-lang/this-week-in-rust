@@ -43,6 +43,13 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [video] [Open the Rust compiler's puzzle book - weird-exprs.rs](https://www.youtube.com/watch?v=RydzFK11-bE)
+* [video] [Causal inference in Rust - deep_causality | Crate of the Week 507](https://www.youtube.com/watch?v=vNz-iKRhneA)
+* [video] [Dioxus 0.4: Server Functions](https://www.youtube.com/watch?v=BbQzRdxekao)
+* [video] [history.txt vs sqlite with Atuin](https://www.youtube.com/watch?v=WB7qojkkVVU)
+* [video] [The Database of Four Dimensional Reality - SpacetimeDB](https://www.youtube.com/watch?v=v4EF3d2_QTg)
+* [video] [Andreas Monitzer - Bevy-ECS explained - Rust Vienna June 2023](https://www.youtube.com/watch?v=TBjmRmjr4JA)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
