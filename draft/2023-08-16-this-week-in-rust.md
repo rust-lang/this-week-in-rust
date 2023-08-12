@@ -48,7 +48,6 @@ and just ask the editors to select the category.
 * [video] [Dioxus 0.4: Server Functions](https://www.youtube.com/watch?v=BbQzRdxekao)
 * [video] [history.txt vs sqlite with Atuin](https://www.youtube.com/watch?v=WB7qojkkVVU)
 * [video] [The Database of Four Dimensional Reality - SpacetimeDB](https://www.youtube.com/watch?v=v4EF3d2_QTg)
-* [video] [Andreas Monitzer - Bevy-ECS explained - Rust Vienna June 2023](https://www.youtube.com/watch?v=TBjmRmjr4JA)
 
 ## Crate of the Week
 
