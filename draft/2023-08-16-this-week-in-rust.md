@@ -48,7 +48,7 @@ and just ask the editors to select the category.
 * [video] [Dioxus 0.4: Server Functions](https://www.youtube.com/watch?v=BbQzRdxekao)
 * [video] [history.txt vs sqlite with Atuin](https://www.youtube.com/watch?v=WB7qojkkVVU)
 * [video] [The Database of Four Dimensional Reality - SpacetimeDB](https://www.youtube.com/watch?v=v4EF3d2_QTg)
-* [audio] [Episode 092 - Moving to Rust in the Age of AI with Noah Gift](https://music.amazon.com/podcasts/f8bf7630-2521-4b40-be90-c46a9222c159/episodes/5e54e213-30c6-4a7c-8527-06dcf88a86b3/aws-developers-podcast-episode-092---moving-to-rust-in-the-age-of-ai-with-noah-gift)
+* [audio] [Episode 092 - Moving to Rust in the Age of AI with Noah Gift](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjk5NDM2MzU0OS9zb3VuZHMucnNz/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMTU5MDkyMDQ4Mw)
 
 ## Crate of the Week
 
