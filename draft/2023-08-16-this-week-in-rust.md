@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing SeaORM 0.12](https://www.sea-ql.org/blog/2023-08-12-announcing-seaorm-0.12/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
