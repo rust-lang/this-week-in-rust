@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Explaining Rust’s Deref trait](https://timclicks.dev/explaining-rusts-deref-trait/)
+
 ### Rust Walkthroughs
 
 ### Research
