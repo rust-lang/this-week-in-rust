@@ -207,7 +207,16 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A light week. Main thing to report is we got some improvements from telling LLVM
+that the negation in `<*const T>::sub` cannot overflow.
+
+Triage done by **@pnkfelix**.
+Revision range: [443c3161..e8459109](https://perf.rust-lang.org/?start=443c3161dd04f4c1b656a626f9079921bee9c326&end=e8459109bbb440764c1c877032189a27b9e76c4e&absolute=false&stat=instructions%3Au)
+
+0 Regressions, 1 Improvements, 4 Mixed; 1 of them in rollups
+49 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-08-14.md) 
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
