@@ -352,7 +352,7 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 > It has been
 >
-> <u> 0 </u>
+> **[ 0 ]**
 >
 > days since someone tried and failed to use unsafe to circumvent the lifetime system.
 
