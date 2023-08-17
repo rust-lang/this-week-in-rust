@@ -27,16 +27,27 @@ and just ask the editors to select the category.
 
 -->
 
+
 ### Official
 
 ### Foundation
+* [Announcing the Rust Foundation’s 2023 Fellows](https://foundation.rust-lang.org/news/announcing-the-rust-foundation-s-2023-fellows/)
 
 ### Newsletters
 * [This Week in Ars Militaris VI](https://arsmilitaris.com/#this-week-in-ars-militaris-vi)
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #194](https://rust-analyzer.github.io/thisweek/2023/08/14/changelog-194.html)
+* [cargo-binstall v1.2.0](https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.2.0)
 
 ### Observations/Thoughts
+* [I built a garbage collector for a language that doesn’t need one](https://claytonwramsey.github.io/2023/08/14/dumpster.html)
+* [The Case for Rust on the Web](https://mainmatter.com/blog/2023/08/14/the-case-for-rust-on-the-web/)
+* [Learning Async Rust With Entirely Too Many Web Servers](https://ibraheem.ca/posts/too-many-web-servers/)
+* [fn main( ) - Rust Type System: P2](https://sanjuvi.github.io/Blog/posts/Rust-Type-System-Part-2/)
+* [Our latest adventures with bindgen](https://ferrous-systems.com/blog/bindgen/)
+* [Autogenerating Rust-JS bindings with UniFFI](https://hacks.mozilla.org/2023/08/autogenerating-rust-js-bindings-with-uniffi/)
+* [Corrode Rust Consulting](https://corrode.dev/blog/illegal-state/)
 
 - [Why you should consider Rust for your Lambdas](https://loige.co/why-you-should-consider-rust-for-your-lambdas)
 
@@ -45,6 +56,9 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [DE] [Programmiersprache Rust gewinnt im Arbeitsumfeld an Bedeutung](https://www.heise.de/news/Programmiersprache-Rust-gewinnt-im-Arbeitsumfeld-an-Bedeutung-9239296.html)
+* [audio] [Adopting Rust: present and future of the Rust web ecosystem, with Luca Palmieri](https://rustacean-station.org/episode/luca-palmieri-web-ecosystem/)
+* [video] [Physics in Bevy: How to get Rapier in your games](https://www.youtube.com/watch?v=hrsoyBqE--A)
 
 ## Crate of the Week
 
