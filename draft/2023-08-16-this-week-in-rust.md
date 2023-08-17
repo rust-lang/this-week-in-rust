@@ -55,6 +55,8 @@ and just ask the editors to select the category.
 
 * [The Case for Rust on the Web](https://mainmatter.com/blog/2023/08/14/the-case-for-rust-on-the-web/)
 
+* [Explaining Rust’s Deref trait](https://timclicks.dev/explaining-rusts-deref-trait/)
+
 ### Rust Walkthroughs
 
 ### Research
@@ -63,6 +65,16 @@ and just ask the editors to select the category.
 * [DE] [Programmiersprache Rust gewinnt im Arbeitsumfeld an Bedeutung](https://www.heise.de/news/Programmiersprache-Rust-gewinnt-im-Arbeitsumfeld-an-Bedeutung-9239296.html)
 * [audio] [Adopting Rust: present and future of the Rust web ecosystem, with Luca Palmieri](https://rustacean-station.org/episode/luca-palmieri-web-ecosystem/)
 * [video] [Physics in Bevy: How to get Rapier in your games](https://www.youtube.com/watch?v=hrsoyBqE--A)
+
+* [video] [Open the Rust compiler's puzzle book - weird-exprs.rs](https://www.youtube.com/watch?v=RydzFK11-bE)
+* [video] [Causal inference in Rust - deep_causality | Crate of the Week 507](https://www.youtube.com/watch?v=vNz-iKRhneA)
+* [video] [Dioxus 0.4: Server Functions](https://www.youtube.com/watch?v=BbQzRdxekao)
+* [video] [history.txt vs sqlite with Atuin](https://www.youtube.com/watch?v=WB7qojkkVVU)
+* [video] [The Database of Four Dimensional Reality - SpacetimeDB](https://www.youtube.com/watch?v=v4EF3d2_QTg)
+* [video] [noisy material shaders in bevy](https://www.youtube.com/watch?v=OoluUyC3KEM)
+* [video] [I spent six months rewriting everything in Rust](https://www.youtube.com/watch?v=vL2nB1VwX1M)
+* [[series]](https://youtube.com/playlist?list=PL4iN-WluNkURv_EbC3b1vFM3hH-pGEc2U) [video] [Game Dev Log 4 - Schedules](https://www.youtube.com/watch?v=iyzW8w-2s00)
+* [audio] [Episode 092 - Moving to Rust in the Age of AI with Noah Gift](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjk5NDM2MzU0OS9zb3VuZHMucnNz/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMTU5MDkyMDQ4Mw)
 
 ## Crate of the Week
 
