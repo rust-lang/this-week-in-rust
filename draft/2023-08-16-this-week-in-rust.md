@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Why you should consider Rust for your Lambdas](https://loige.co/why-you-should-consider-rust-for-your-lambdas)
+
 ### Rust Walkthroughs
 
 ### Research
@@ -63,6 +65,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Hyperswitch - add domain type for client secret](https://github.com/juspay/hyperswitch/issues/1357)
 * [Hyperswitch - deserialization error exposes sensitive values in the logs](https://github.com/juspay/hyperswitch/issues/1943)
 * [Hyperswitch - move redis key creation to a common module](https://github.com/juspay/hyperswitch/issues/917)
+* [Ockam - Check key/secret size before casting as a fixed-length array](https://github.com/build-trust/ockam/issues/5631)
+* [Ockam - Ockam CLI should gracefully handle invalid state when initializing](https://github.com/build-trust/ockam/issues/5633)
+* [Ockam - Use TCP Outlets' "worker address" as identifiers in the Ockam App's tray menu items](https://github.com/build-trust/ockam/issues/5600)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
