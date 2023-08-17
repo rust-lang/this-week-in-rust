@@ -60,6 +60,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
+<!-- * [ - ]() -->
+* [Hyperswitch - add domain type for client secret](https://github.com/juspay/hyperswitch/issues/1357)
+* [Hyperswitch - deserialization error exposes sensitive values in the logs](https://github.com/juspay/hyperswitch/issues/1943)
+* [Hyperswitch - move redis key creation to a common module](https://github.com/juspay/hyperswitch/issues/917)
 * [Ockam - Check key/secret size before casting as a fixed-length array](https://github.com/build-trust/ockam/issues/5631)
 * [Ockam - Ockam CLI should gracefully handle invalid state when initializing](https://github.com/build-trust/ockam/issues/5633)
 * [Ockam - Use TCP Outlets' "worker address" as identifiers in the Ockam App's tray menu items](https://github.com/build-trust/ockam/issues/5600)
