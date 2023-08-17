@@ -27,9 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-
-### Official
-
 ### Foundation
 * [Announcing the Rust Foundation’s 2023 Fellows](https://foundation.rust-lang.org/news/announcing-the-rust-foundation-s-2023-fellows/)
 
@@ -39,7 +36,6 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [rust-analyzer changelog #194](https://rust-analyzer.github.io/thisweek/2023/08/14/changelog-194.html)
 * [cargo-binstall v1.2.0](https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.2.0)
-
 * [Announcing SeaORM 0.12](https://www.sea-ql.org/blog/2023-08-12-announcing-seaorm-0.12/)
 
 ### Observations/Thoughts
@@ -50,22 +46,13 @@ and just ask the editors to select the category.
 * [Our latest adventures with bindgen](https://ferrous-systems.com/blog/bindgen/)
 * [Autogenerating Rust-JS bindings with UniFFI](https://hacks.mozilla.org/2023/08/autogenerating-rust-js-bindings-with-uniffi/)
 * [Corrode Rust Consulting](https://corrode.dev/blog/illegal-state/)
-
-- [Why you should consider Rust for your Lambdas](https://loige.co/why-you-should-consider-rust-for-your-lambdas)
-
-* [The Case for Rust on the Web](https://mainmatter.com/blog/2023/08/14/the-case-for-rust-on-the-web/)
-
+* [Why you should consider Rust for your Lambdas](https://loige.co/why-you-should-consider-rust-for-your-lambdas)
 * [Explaining Rust’s Deref trait](https://timclicks.dev/explaining-rusts-deref-trait/)
-
-### Rust Walkthroughs
-
-### Research
 
 ### Miscellaneous
 * [DE] [Programmiersprache Rust gewinnt im Arbeitsumfeld an Bedeutung](https://www.heise.de/news/Programmiersprache-Rust-gewinnt-im-Arbeitsumfeld-an-Bedeutung-9239296.html)
 * [audio] [Adopting Rust: present and future of the Rust web ecosystem, with Luca Palmieri](https://rustacean-station.org/episode/luca-palmieri-web-ecosystem/)
 * [video] [Physics in Bevy: How to get Rapier in your games](https://www.youtube.com/watch?v=hrsoyBqE--A)
-
 * [video] [Open the Rust compiler's puzzle book - weird-exprs.rs](https://www.youtube.com/watch?v=RydzFK11-bE)
 * [video] [Causal inference in Rust - deep_causality | Crate of the Week 507](https://www.youtube.com/watch?v=vNz-iKRhneA)
 * [video] [Dioxus 0.4: Server Functions](https://www.youtube.com/watch?v=BbQzRdxekao)
@@ -73,7 +60,7 @@ and just ask the editors to select the category.
 * [video] [The Database of Four Dimensional Reality - SpacetimeDB](https://www.youtube.com/watch?v=v4EF3d2_QTg)
 * [video] [noisy material shaders in bevy](https://www.youtube.com/watch?v=OoluUyC3KEM)
 * [video] [I spent six months rewriting everything in Rust](https://www.youtube.com/watch?v=vL2nB1VwX1M)
-* [[series]](https://youtube.com/playlist?list=PL4iN-WluNkURv_EbC3b1vFM3hH-pGEc2U) [video] [Game Dev Log 4 - Schedules](https://www.youtube.com/watch?v=iyzW8w-2s00)
+* [video] [Game Dev Log 4 - Schedules](https://www.youtube.com/watch?v=iyzW8w-2s00) ([Entire Series](https://youtube.com/playlist?list=PL4iN-WluNkURv_EbC3b1vFM3hH-pGEc2U))
 * [audio] [Episode 092 - Moving to Rust in the Age of AI with Noah Gift](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjk5NDM2MzU0OS9zb3VuZHMucnNz/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMTU5MDkyMDQ4Mw)
 
 ## Crate of the Week
@@ -377,7 +364,7 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 > It has been
 >
-> **[ 0 ]**
+> **0**
 >
 > days since someone tried and failed to use unsafe to circumvent the lifetime system.
 
@@ -391,4 +378,4 @@ Thanks to [mdHMUpeyf8yluPfXI](https://users.rust-lang.org/t/twir-quote-of-the-we
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/15tajsl/this_week_in_rust_508/)</small>
