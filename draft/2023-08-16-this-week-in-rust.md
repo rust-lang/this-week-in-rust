@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #194](https://rust-analyzer.github.io/thisweek/2023/08/14/changelog-194.html)
 * [cargo-binstall v1.2.0](https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.2.0)
 
+* [Announcing SeaORM 0.12](https://www.sea-ql.org/blog/2023-08-12-announcing-seaorm-0.12/)
+
 ### Observations/Thoughts
 * [I built a garbage collector for a language that doesn’t need one](https://claytonwramsey.github.io/2023/08/14/dumpster.html)
 * [The Case for Rust on the Web](https://mainmatter.com/blog/2023/08/14/the-case-for-rust-on-the-web/)
