@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 
 - [Why you should consider Rust for your Lambdas](https://loige.co/why-you-should-consider-rust-for-your-lambdas)
 
+* [The Case for Rust on the Web](https://mainmatter.com/blog/2023/08/14/the-case-for-rust-on-the-web/)
+
 ### Rust Walkthroughs
 
 ### Research
