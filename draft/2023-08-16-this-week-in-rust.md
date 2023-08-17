@@ -352,6 +352,8 @@ Rusty Events between 2023-08-16 - 2023-09-13 🦀
 
 * 2023-08-24 | Brisbane, QLD, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane/)
     * [**August Meetup**](https://www.meetup.com/rust-brisbane/events/295415680/)
+* 2023-09-14 | Perth, WA, AU | [Rust Perth](https://www.linkedin.com/groups/7439562/)
+    * [**September Meetup**](https://www.tickettailor.com/events/perthrustusergroup/984771)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
