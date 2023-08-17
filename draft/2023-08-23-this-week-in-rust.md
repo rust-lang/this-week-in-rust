@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [actix-contrib-logger v0.1.0: drop-in replacement for the Actix Web HTTP Logger middleware](https://github.com/mrsarm/rust-actix-contrib-logger)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
