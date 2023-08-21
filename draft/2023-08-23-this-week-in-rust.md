@@ -184,6 +184,8 @@ Rusty Events between 2023-08-23 - 2023-09-20 🦀
     * [**Augsburg Rust Meetup #2**](https://www.meetup.com/rust-meetup-augsburg/events/294538503/)
 * 2023-09-05 | Munich, DE + Virtual | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich 2023 / 4 - hybrid**](https://www.meetup.com/rust-munich/events/294186101/)
+* 2023-09-21 | Bern, CH | [Rust Bern](https://www.meetup.com/de-DE/rust-bern/)
+    * [**Third Rust Bern Meetup**](https://www.meetup.com/rust-bern/events/295503351/)
 
 ### North America
 
