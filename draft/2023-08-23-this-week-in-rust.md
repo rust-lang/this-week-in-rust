@@ -43,6 +43,12 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+- [video] [I failed to build multiplayer pong in Rust](https://www.youtube.com/watch?v=wpx9qhKEuP8)
+- [video] [A useful tip for every (?) Rust code base](https://www.youtube.com/watch?v=FJsBGiRTM9A)
+- [video] [What Rust Discovered](https://www.youtube.com/watch?v=v6RxJsk8otY)
+- [video] [Delightful command-line utilities with Rust](https://www.youtube.com/watch?v=Y-LTWNciEks)
+- [video] [Rust 1.71.0](https://www.youtube.com/watch?v=H8aHX-JkiZs)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
