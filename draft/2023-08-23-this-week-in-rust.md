@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [audio] [RustShip: a new Rust podcast](https://ieni.dev/2023/08/rustship-a-new-rust-podcast/)
 
 ## Crate of the Week
 
