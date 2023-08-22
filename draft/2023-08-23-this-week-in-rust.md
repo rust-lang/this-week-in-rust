@@ -84,15 +84,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -101,34 +93,35 @@ which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* *No RFCs entered Final Comment Period this week.*
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [Tracking Issue for const `[u8]::is_ascii` (`const_slice_is_ascii`)](https://github.com/rust-lang/rust/issues/111090)
+* [disposition: merge] [Implement `From<[T; N]>` for `Rc<[T]>` and `Arc<[T]>`](https://github.com/rust-lang/rust/pull/114041)
+* [disposition: merge] [Tracking Issue for `Saturating` type](https://github.com/rust-lang/rust/issues/87920)
+* [disposition: merge] [Implement `From<{&,&mut} [T; N]`> for `Vec<T>` where `T: Clone`](https://github.com/rust-lang/rust/pull/111278)
+* [disposition: merge] [Tracking Issue for os_str_bytes](https://github.com/rust-lang/rust/issues/111544)
+* [disposition: merge] [Tracking Issue for `io::Error::other`](https://github.com/rust-lang/rust/issues/91946)
+* [disposition: merge] [`impl TryFrom<char> for u16`](https://github.com/rust-lang/rust/pull/114065)
+* [disposition: merge] [rustdoc: show inner enum and struct in type definition for concrete type](https://github.com/rust-lang/rust/pull/114855)
+* [disposition: merge] [Replace old private-in-public diagnostic with type privacy lints](https://github.com/rust-lang/rust/pull/113126)
+* [disposition: merge] [Implement `PartialOrd` and `Ord` for `Discriminant`](https://github.com/rust-lang/rust/pull/106418)
+* [disposition: merge] [stop adding dropck outlives requirements for `[T; 0]`](https://github.com/rust-lang/rust/issues/110288)
+* [disposition: merge] [make Cell::swap panic if the Cells partially overlap](https://github.com/rust-lang/rust/pull/114795)
+* [disposition: merge] [Add note that Vec::as_mut_ptr() does not materialize a reference to the internal buffer](https://github.com/rust-lang/rust/pull/113859)
+* [disposition: merge] [Document lack of panic safety guarantees of `Clone::clone_from`](https://github.com/rust-lang/rust/pull/98461)
+* [disposition: merge] [Command: also print removed env vars](https://github.com/rust-lang/rust/pull/114379)
+* [disposition: merge] [impl Step for IP addresses](https://github.com/rust-lang/rust/pull/113748)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+* [new] [RFC: `expose-fn-type`](https://github.com/rust-lang/rfcs/pull/3476)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+* *No RFCs issued a call for testing this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
