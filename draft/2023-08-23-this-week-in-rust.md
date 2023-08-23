@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [ESP32 Standard Library Embedded Rust: Analog Temperature Sensing using the ADC](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-analog-temperature-sensing-using-the-adc)
 * [Bare Metal Space Invaders](https://blog.fponzi.me/2023-08-13-bare-metal-space-invaders.html)
 * [series] [Distributed Tracing in Rust, Episode 2: tracing basics](https://heikoseeberger.de/2023-08-18-dist-tracing-2/)
+* [Secure database access using Ockam](https://www.ockam.io/blog/basic_web_app)
 
 ### Research
 * [Fixing Rust Compilation Errors using LLMs](https://arxiv.org/abs/2308.05177)
