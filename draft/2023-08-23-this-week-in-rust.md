@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 * [actix-contrib-logger v0.1.0: drop-in replacement for the Actix Web HTTP Logger middleware](https://github.com/mrsarm/rust-actix-contrib-logger)
 
 ### Observations/Thoughts
+* [Rust 1.71.1](https://youtu.be/djpujv8M7w8)
 * [Exploring the Rust compiler benchmark suite](https://kobzol.github.io/rust/rustc/2023/08/18/rustc-benchmark-suite.html)
 * [Pre-RFC: Sandboxed, deterministic, reproducible, efficient Wasm compilation of proc macros](https://internals.rust-lang.org/t/pre-rfc-sandboxed-deterministic-reproducible-efficient-wasm-compilation-of-proc-macros/19359)
 * [RustShip: a new Rust podcast](https://www.marcoieni.com/2023/08/rustship-a-new-rust-podcast/)
