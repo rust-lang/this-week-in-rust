@@ -65,8 +65,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [ZeroCopy - CI step "Set toolchain version" can fail without stopping CI job 1](https://github.com/google/zerocopy/issues/225)
+* [ZeroCopy - Prevent panics statically 1](https://github.com/google/zerocopy/issues/202)
+* [RON - Rusty byte strings in RON, deprecate base64 (byte) strings](https://github.com/ron-rs/ron/pull/438)
+* [heed - create guides on ways to use heed](https://github.com/meilisearch/heed/issues/196)
+* [Ockam - Use a user-friendly name for the shared services to show it in the tray menu](https://github.com/build-trust/ockam/issues/5686)
+* [Ockam - In the `Share a service` window, the `Port` should be renamed to `Address` and support such format](https://github.com/build-trust/ockam/issues/5685)
+* [Ockam - In the `Share a service` window, the `Name` attribute should not have the `/service/` prefix](https://github.com/build-trust/ockam/issues/5684)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
