@@ -40,15 +40,20 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [Exploring the Rust compiler benchmark suite](https://kobzol.github.io/rust/rustc/2023/08/18/rustc-benchmark-suite.html)
+* [Pre-RFC: Sandboxed, deterministic, reproducible, efficient Wasm compilation of proc macros](https://internals.rust-lang.org/t/pre-rfc-sandboxed-deterministic-reproducible-efficient-wasm-compilation-of-proc-macros/19359)
+* [RustShip: a new Rust podcast](https://www.marcoieni.com/2023/08/rustship-a-new-rust-podcast/)
 
 ### Rust Walkthroughs
-
--  [series] [Distributed Tracing in Rust, Episode 2: tracing basics](https://heikoseeberger.de/2023-08-18-dist-tracing-2/)
+* [Delightful command-line utilities with Rust](https://www.youtube.com/watch?v=Y-LTWNciEks)
+* [ESP32 Standard Library Embedded Rust: Analog Temperature Sensing using the ADC](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-analog-temperature-sensing-using-the-adc)
+* [Bare Metal Space Invaders](https://blog.fponzi.me/2023-08-13-bare-metal-space-invaders.html)
+* [series] [Distributed Tracing in Rust, Episode 2: tracing basics](https://heikoseeberger.de/2023-08-18-dist-tracing-2/)
 
 ### Research
+* [Fixing Rust Compilation Errors using LLMs](https://arxiv.org/abs/2308.05177)
 
 ### Miscellaneous
-* [audio] [RustShip: a new Rust podcast](https://ieni.dev/2023/08/rustship-a-new-rust-podcast/)
+* [Shuttle Launchpad #6: A little CRUD](https://www.shuttle.rs/launchpad/issues/2023-11-08-issue-06-CRUD-Postgres)
 
 ## Crate of the Week
 
