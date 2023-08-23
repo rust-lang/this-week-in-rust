@@ -40,15 +40,20 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [Exploring the Rust compiler benchmark suite](https://kobzol.github.io/rust/rustc/2023/08/18/rustc-benchmark-suite.html)
+* [Pre-RFC: Sandboxed, deterministic, reproducible, efficient Wasm compilation of proc macros](https://internals.rust-lang.org/t/pre-rfc-sandboxed-deterministic-reproducible-efficient-wasm-compilation-of-proc-macros/19359)
+* [RustShip: a new Rust podcast](https://www.marcoieni.com/2023/08/rustship-a-new-rust-podcast/)
 
 ### Rust Walkthroughs
-
--  [series] [Distributed Tracing in Rust, Episode 2: tracing basics](https://heikoseeberger.de/2023-08-18-dist-tracing-2/)
+* [Delightful command-line utilities with Rust](https://www.youtube.com/watch?v=Y-LTWNciEks)
+* [ESP32 Standard Library Embedded Rust: Analog Temperature Sensing using the ADC](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-analog-temperature-sensing-using-the-adc)
+* [Bare Metal Space Invaders](https://blog.fponzi.me/2023-08-13-bare-metal-space-invaders.html)
+* [series] [Distributed Tracing in Rust, Episode 2: tracing basics](https://heikoseeberger.de/2023-08-18-dist-tracing-2/)
 
 ### Research
+* [Fixing Rust Compilation Errors using LLMs](https://arxiv.org/abs/2308.05177)
 
 ### Miscellaneous
-* [audio] [RustShip: a new Rust podcast](https://ieni.dev/2023/08/rustship-a-new-rust-podcast/)
+* [Shuttle Launchpad #6: A little CRUD](https://www.shuttle.rs/launchpad/issues/2023-11-08-issue-06-CRUD-Postgres)
 
 ## Crate of the Week
 
@@ -65,8 +70,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [ZeroCopy - CI step "Set toolchain version" can fail without stopping CI job 1](https://github.com/google/zerocopy/issues/225)
+* [ZeroCopy - Prevent panics statically 1](https://github.com/google/zerocopy/issues/202)
+* [RON - Rusty byte strings in RON, deprecate base64 (byte) strings](https://github.com/ron-rs/ron/pull/438)
+* [heed - create guides on ways to use heed](https://github.com/meilisearch/heed/issues/196)
+* [Ockam - Use a user-friendly name for the shared services to show it in the tray menu](https://github.com/build-trust/ockam/issues/5686)
+* [Ockam - In the `Share a service` window, the `Port` should be renamed to `Address` and support such format](https://github.com/build-trust/ockam/issues/5685)
+* [Ockam - In the `Share a service` window, the `Name` attribute should not have the `/service/` prefix](https://github.com/build-trust/ockam/issues/5684)
 * [Hyperswitch - remove unused function for merchant connector account](https://github.com/juspay/hyperswitch/issues/1998)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
