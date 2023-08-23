@@ -77,6 +77,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Ockam - Use a user-friendly name for the shared services to show it in the tray menu](https://github.com/build-trust/ockam/issues/5686)
 * [Ockam - In the `Share a service` window, the `Port` should be renamed to `Address` and support such format](https://github.com/build-trust/ockam/issues/5685)
 * [Ockam - In the `Share a service` window, the `Name` attribute should not have the `/service/` prefix](https://github.com/build-trust/ockam/issues/5684)
+* [Hyperswitch - remove unused function for merchant connector account](https://github.com/juspay/hyperswitch/issues/1998)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
