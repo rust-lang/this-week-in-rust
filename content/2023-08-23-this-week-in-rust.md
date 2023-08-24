@@ -27,11 +27,8 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
+
 * [This Week in Ars Militaris VII](https://arsmilitaris.com/#this-week-in-ars-militaris-vii)
 
 ### Project/Tooling Updates
@@ -39,12 +36,14 @@ and just ask the editors to select the category.
 * [actix-contrib-logger v0.1.0: drop-in replacement for the Actix Web HTTP Logger middleware](https://github.com/mrsarm/rust-actix-contrib-logger)
 
 ### Observations/Thoughts
+
 * [Rust 1.71.1](https://youtu.be/djpujv8M7w8)
 * [Exploring the Rust compiler benchmark suite](https://kobzol.github.io/rust/rustc/2023/08/18/rustc-benchmark-suite.html)
 * [Pre-RFC: Sandboxed, deterministic, reproducible, efficient Wasm compilation of proc macros](https://internals.rust-lang.org/t/pre-rfc-sandboxed-deterministic-reproducible-efficient-wasm-compilation-of-proc-macros/19359)
 * [RustShip: a new Rust podcast](https://www.marcoieni.com/2023/08/rustship-a-new-rust-podcast/)
 
 ### Rust Walkthroughs
+
 * [Delightful command-line utilities with Rust](https://www.youtube.com/watch?v=Y-LTWNciEks)
 * [ESP32 Standard Library Embedded Rust: Analog Temperature Sensing using the ADC](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-analog-temperature-sensing-using-the-adc)
 * [Bare Metal Space Invaders](https://blog.fponzi.me/2023-08-13-bare-metal-space-invaders.html)
@@ -52,16 +51,17 @@ and just ask the editors to select the category.
 * [Secure database access using Ockam](https://www.ockam.io/blog/basic_web_app)
 
 ### Research
+
 * [Fixing Rust Compilation Errors using LLMs](https://arxiv.org/abs/2308.05177)
 
 ### Miscellaneous
-* [Shuttle Launchpad #6: A little CRUD](https://www.shuttle.rs/launchpad/issues/2023-11-08-issue-06-CRUD-Postgres)
 
-- [video] [I failed to build multiplayer pong in Rust](https://www.youtube.com/watch?v=wpx9qhKEuP8)
+* [Shuttle Launchpad #6: A little CRUD](https://www.shuttle.rs/launchpad/issues/2023-11-08-issue-06-CRUD-Postgres)
+* [video][I failed to build multiplayer pong in Rust](https://www.youtube.com/watch?v=wpx9qhKEuP8)
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+*No crate was selected for CotW.*
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -131,6 +131,7 @@ which are reaching a decision. Express your opinions now.
 * *No RFCs entered Final Comment Period this week.*
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
 * [disposition: merge] [Tracking Issue for const `[u8]::is_ascii` (`const_slice_is_ascii`)](https://github.com/rust-lang/rust/issues/111090)
 * [disposition: merge] [Implement `From<[T; N]>` for `Rc<[T]>` and `Arc<[T]>`](https://github.com/rust-lang/rust/pull/114041)
 * [disposition: merge] [Tracking Issue for `Saturating` type](https://github.com/rust-lang/rust/issues/87920)
@@ -149,9 +150,11 @@ which are reaching a decision. Express your opinions now.
 * [disposition: merge] [impl Step for IP addresses](https://github.com/rust-lang/rust/pull/113748)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
 * [new] [RFC: `expose-fn-type`](https://github.com/rust-lang/rfcs/pull/3476)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
@@ -251,7 +254,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/14zmcpw/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -263,4 +266,4 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/15zpq03/this_week_in_rust_509/)</small>
