@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [Shuttle Launchpad #6: A little CRUD](https://www.shuttle.rs/launchpad/issues/2023-11-08-issue-06-CRUD-Postgres)
 
+- [video] [I failed to build multiplayer pong in Rust](https://www.youtube.com/watch?v=wpx9qhKEuP8)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
