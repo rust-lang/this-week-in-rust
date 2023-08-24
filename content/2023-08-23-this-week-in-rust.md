@@ -89,7 +89,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+342 pull requests were [merged in the last week](https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-08-14..2023-08-21&type=pullrequests)
 
 ### Rust Compiler Performance Triage
 
