@@ -44,7 +44,6 @@ and just ask the editors to select the category.
 ### Miscellaneous
 
 - [video] [I failed to build multiplayer pong in Rust](https://www.youtube.com/watch?v=wpx9qhKEuP8)
-- [video] [Delightful command-line utilities with Rust](https://www.youtube.com/watch?v=Y-LTWNciEks)
 
 ## Crate of the Week
 
