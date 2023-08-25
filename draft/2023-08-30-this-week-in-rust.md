@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [video][Rust 1.72.0](https://youtu.be/jVoEA7qmN8c)
+
 ### Rust Walkthroughs
 * [Use Rust in shell scripts](https://www.kurtlawrence.info/blog/gufdjkjkq7wphfhkvrumcvmqdr4r69)
 ### Research
