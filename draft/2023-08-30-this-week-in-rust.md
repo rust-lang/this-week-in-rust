@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-- [Rust 1.72.0](https://youtu.be/jVoEA7qmN8c)
+- [video][Rust 1.72.0](https://youtu.be/jVoEA7qmN8c)
 
 ### Rust Walkthroughs
 
