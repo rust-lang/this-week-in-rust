@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-* [Rust 1.71.1](https://youtu.be/djpujv8M7w8)
+* [video] [Rust 1.71.1](https://youtu.be/djpujv8M7w8)
 * [Exploring the Rust compiler benchmark suite](https://kobzol.github.io/rust/rustc/2023/08/18/rustc-benchmark-suite.html)
 * [Pre-RFC: Sandboxed, deterministic, reproducible, efficient Wasm compilation of proc macros](https://internals.rust-lang.org/t/pre-rfc-sandboxed-deterministic-reproducible-efficient-wasm-compilation-of-proc-macros/19359)
 * [RustShip: a new Rust podcast](https://www.marcoieni.com/2023/08/rustship-a-new-rust-podcast/)
@@ -57,7 +57,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 
 * [Shuttle Launchpad #6: A little CRUD](https://www.shuttle.rs/launchpad/issues/2023-11-08-issue-06-CRUD-Postgres)
-* [video][I failed to build multiplayer pong in Rust](https://www.youtube.com/watch?v=wpx9qhKEuP8)
+* [video] [I failed to build multiplayer pong in Rust](https://www.youtube.com/watch?v=wpx9qhKEuP8)
 
 ## Crate of the Week
 
