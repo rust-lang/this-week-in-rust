@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [ratatui 0.23.0 is released! (official successor of tui-rs)](https://github.com/ratatui-org/ratatui/releases/tag/v0.23.0)
+
 ### Observations/Thoughts
 
 - [video][Rust 1.72.0](https://youtu.be/jVoEA7qmN8c)
