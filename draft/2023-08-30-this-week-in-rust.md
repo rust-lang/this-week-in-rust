@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 
 - [video][Rust 1.72.0](https://youtu.be/jVoEA7qmN8c)
 - [Dependency injection in Axum handlers. A quick tour](https://tulipemoutarde.be/posts/2023-08-20-depencency-injection-rust-axum/)
+- [From tui-rs to Ratatui: 6 Months of Cooking Up Rust TUIs](https://blog.orhun.dev/ratatui-0-23-0/)
 
 ### Rust Walkthroughs
 * [Use Rust in shell scripts](https://www.kurtlawrence.info/blog/gufdjkjkq7wphfhkvrumcvmqdr4r69)
