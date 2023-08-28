@@ -154,7 +154,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [cargo: login: allow passing additional args to provider](https://github.com/rust-lang/cargo/pull/12499)
 * [cargo: make cargo-credential-gnome-secret built-in as cargo:libsecret](https://github.com/rust-lang/cargo/pull/12521)
 * [cargo: print environment variables for `cargo run` in extra verbose mode](https://github.com/rust-lang/cargo/pull/12498)
-* [rustdoc: udd warning block support in rustdoc](https://github.com/rust-lang/rust/pull/106561)
+* [rustdoc: add warning block support in rustdoc](https://github.com/rust-lang/rust/pull/106561)
 * [rustdoc: add lint `redundant_explicit_links`](https://github.com/rust-lang/rust/pull/113167)
 * [rustdoc: fixes with --test-run-directory and relative paths](https://github.com/rust-lang/rust/pull/112751)
 * [rustfmt: prevent ICE when formatting item-only `vec!{}`](https://github.com/rust-lang/rustfmt/pull/5879)
