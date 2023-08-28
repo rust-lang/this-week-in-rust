@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 - [video][Rust 1.72.0](https://youtu.be/jVoEA7qmN8c)
+- [video][Rust 1.72 Release Train](https://www.youtube.com/watch?v=EFdzH67G-lw)
 - [Dependency injection in Axum handlers. A quick tour](https://tulipemoutarde.be/posts/2023-08-20-depencency-injection-rust-axum/)
 
 ### Rust Walkthroughs
@@ -45,6 +46,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+- [video][The Builder Pattern and Typestate Programming - Stefan Baumgartner - Rust Linz January 2023](https://www.youtube.com/watch?v=k8kd22jNcps)
 
 ## Crate of the Week
 
