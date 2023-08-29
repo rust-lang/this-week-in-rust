@@ -48,7 +48,6 @@ and just ask the editors to select the category.
 ### Miscellaneous
 - [video][The Builder Pattern and Typestate Programming - Stefan Baumgartner - Rust Linz January 2023](https://www.youtube.com/watch?v=k8kd22jNcps)
 - [video][base64 crate: code walkthrough](https://www.youtube.com/watch?v=KGP16TITJdU)
-- [video][](https://www.youtube.com/watch?v=ik1WNoyRdi8)
 - [video][Anyhow ? Turbofish - Elliot Frisch - Rust Linz January 2023](https://www.youtube.com/watch?v=ik1WNoyRdi8)
 - [video][Qdrant - A Search Engine in Rust - Arnaud Gourlay - Rust Linz March 2023](https://www.youtube.com/watch?v=uS4yhtvjseM)
 - [video][CI with Rust and Gitlab Selfhosting - Stefan Schindler - Rust Linz July 2023](https://www.youtube.com/watch?v=TrPyUVundbM)
