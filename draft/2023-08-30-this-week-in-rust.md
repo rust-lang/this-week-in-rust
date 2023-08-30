@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+- [Leveraging Rust in our high-performance Java database](https://questdb.io/blog/leveraging-rust-in-our-high-performance-java-database/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
