@@ -40,7 +40,6 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [rust-analyzer changelog #196](https://rust-analyzer.github.io/thisweek/2023/08/28/changelog-196.html)
-* [ratatui 0.23.0](https://github.com/ratatui-org/ratatui/releases/tag/v0.23.0)
 * [The First Stable Release of a Memory Safe sudo Implementation](https://www.memorysafety.org/blog/sudo-first-stable-release/)
 * [We're open-sourcing the library that powers 1Password's ability to log in with a passkey](https://blog.1password.com/passkey-crates/)
 
