@@ -28,6 +28,11 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.72.0](https://blog.rust-lang.org/2023/08/24/Rust-1.72.0.html)
+* [Change in Guidance on Committing Lockfiles](https://blog.rust-lang.org/2023/08/29/committing-lockfiles.html)
+* [Cargo changes how arrays in config are merged](https://blog.rust-lang.org/inside-rust/2023/08/24/cargo-config-merging.html)
+* [Seeking help for initial Leadership Council initiatives](https://blog.rust-lang.org/inside-rust/2023/08/25/leadership-initiatives.html)
+* [Leadership Council Membership Changes](https://blog.rust-lang.org/inside-rust/2023/08/29/leadership-council-membership-changes.html)
 
 ### Foundation
 
@@ -35,22 +40,37 @@ and just ask the editors to select the category.
 * [This Week in Ars Militaris VIII](https://arsmilitaris.com/#this-week-in-ars-militaris-viii)
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #196](https://rust-analyzer.github.io/thisweek/2023/08/28/changelog-196.html)
+* [The First Stable Release of a Memory Safe sudo Implementation](https://www.memorysafety.org/blog/sudo-first-stable-release/)
+* [We're open-sourcing the library that powers 1Password's ability to log in with a passkey](https://blog.1password.com/passkey-crates/)
 
 - [ratatui 0.23.0 is released! (official successor of tui-rs)](https://github.com/ratatui-org/ratatui/releases/tag/v0.23.0)
 
 ### Observations/Thoughts
-
+* [The fastest WebSocket implementation](https://c410-f3r.github.io/thoughts/the-fastest-websocket-implementation/)
+* [Rust Malware Staged on Crates.io](https://blog.phylum.io/rust-malware-staged-on-crates-io/)
+* [ESP32 Standard Library Embedded Rust: SPI with the MAX7219 LED Dot Matrix](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-spi-with-the-max7219-led-dot-matrix)
+* [A JVM in Rust part 5 - Executing instructions](https://andreabergia.com/blog/2023/08/a-jvm-in-rust-part-5-executing-instructions/)
+* [Compiling Rust for .NET, using only tea and stubbornness!](https://fractalfir.github.io/generated_html/rustc_codegen_clr_v0_0_1.html)
+* [Ad-hoc polymorphism erodes type-safety](https://cs-syd.eu/posts/2023-08-25-ad-hoc-polymorphism-erodes-type-safety)
+* [How to speed up the Rust compiler in August 2023](https://nnethercote.github.io/2023/08/25/how-to-speed-up-the-rust-compiler-in-august-2023.html)
+* [This isn't the way to speed up Rust compile times](https://xeiaso.net/blog/serde-precompiled-stupid)
+* [Rust Cryptography Should be Written in Rust](https://briansmith.org/rust-cryptography-should-be-written-in-rust-01)
 - [video][Rust 1.72.0](https://youtu.be/jVoEA7qmN8c)
 - [Dependency injection in Axum handlers. A quick tour](https://tulipemoutarde.be/posts/2023-08-20-depencency-injection-rust-axum/)
+* [Best Rust Web Frameworks to Use in 2023](https://www.shuttle.rs/blog/2023/08/23/rust-web-framework-comparison)
 - [From tui-rs to Ratatui: 6 Months of Cooking Up Rust TUIs](https://blog.orhun.dev/ratatui-0-23-0/)
 
 ### Rust Walkthroughs
 * [series] [Distributed Tracing in Rust, Episode 3: tracing basics](https://heikoseeberger.de/2023-08-28-dist-tracing-3/)
 * [Use Rust in shell scripts](https://www.kurtlawrence.info/blog/gufdjkjkq7wphfhkvrumcvmqdr4r69)
+* [A Simple CRUD API in Rust with Cloudflare Workers, Cloudflare KV, and the Rust Router](https://medium.com/@estebanrules/a-simple-crud-api-in-rust-with-cloudflare-workers-cloudflare-kv-and-the-rust-router-cbc1b9015e7b)
 
 ### Research
 
 ### Miscellaneous
+* [video][Rust 1.72 Release Train](https://www.youtube.com/watch?v=EFdzH67G-lw)
+* [Interview with Rust and operating system Developer Andy Python](https://blog.rust.careers/post/andy-python-interview/)
 
 - [Leveraging Rust in our high-performance Java database](https://questdb.io/blog/leveraging-rust-in-our-high-performance-java-database/)
 
