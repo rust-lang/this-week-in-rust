@@ -32,6 +32,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [This Week in Ars Militaris VIII](https://arsmilitaris.com/#this-week-in-ars-militaris-viii)
 
 ### Project/Tooling Updates
 
