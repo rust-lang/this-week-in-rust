@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rust error message to fix a typo](https://rust.code-maven.com/error-message-to-fix-typo)
 
 ## Crate of the Week
 
