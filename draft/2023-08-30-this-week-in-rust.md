@@ -56,10 +56,11 @@ and just ask the editors to select the category.
 * [How to speed up the Rust compiler in August 2023](https://nnethercote.github.io/2023/08/25/how-to-speed-up-the-rust-compiler-in-august-2023.html)
 * [This isn't the way to speed up Rust compile times](https://xeiaso.net/blog/serde-precompiled-stupid)
 * [Rust Cryptography Should be Written in Rust](https://briansmith.org/rust-cryptography-should-be-written-in-rust-01)
-- [video][Rust 1.72.0](https://youtu.be/jVoEA7qmN8c)
-- [Dependency injection in Axum handlers. A quick tour](https://tulipemoutarde.be/posts/2023-08-20-depencency-injection-rust-axum/)
+* [Dependency injection in Axum handlers. A quick tour](https://tulipemoutarde.be/posts/2023-08-20-depencency-injection-rust-axum/)
 * [Best Rust Web Frameworks to Use in 2023](https://www.shuttle.rs/blog/2023/08/23/rust-web-framework-comparison)
-- [From tui-rs to Ratatui: 6 Months of Cooking Up Rust TUIs](https://blog.orhun.dev/ratatui-0-23-0/)
+* [From tui-rs to Ratatui: 6 Months of Cooking Up Rust TUIs](https://blog.orhun.dev/ratatui-0-23-0/)
+* [video] [Rust 1.72.0](https://www.youtube.com/watch?v=jVoEA7qmN8c)
+* [video] [Rust 1.72 Release Train](https://www.youtube.com/watch?v=EFdzH67G-lw)
 
 ### Rust Walkthroughs
 * [series] [Distributed Tracing in Rust, Episode 3: tracing basics](https://heikoseeberger.de/2023-08-28-dist-tracing-3/)
@@ -69,7 +70,6 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-* [video][Rust 1.72 Release Train](https://www.youtube.com/watch?v=EFdzH67G-lw)
 * [Interview with Rust and operating system Developer Andy Python](https://blog.rust.careers/post/andy-python-interview/)
 * [Leveraging Rust in our high-performance Java database](https://questdb.io/blog/leveraging-rust-in-our-high-performance-java-database/)
 * [Rust error message to fix a typo](https://rust.code-maven.com/error-message-to-fix-typo)
