@@ -34,7 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-[Zellij 0.38.0 released: including a session-manager, plugin infrastructure improvements and an end to offensive session names](https://zellij.dev/news/session-manager-protobuffs/)
+[Zellij 0.38.0: session-manager, plugin infra, and no more offensive session names](https://zellij.dev/news/session-manager-protobuffs/)
 
 ### Observations/Thoughts
 
