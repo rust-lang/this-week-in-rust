@@ -37,11 +37,14 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [This Week in Ars Militaris VIII](https://arsmilitaris.com/#this-week-in-ars-militaris-viii)
 
 ### Project/Tooling Updates
 * [rust-analyzer changelog #196](https://rust-analyzer.github.io/thisweek/2023/08/28/changelog-196.html)
 * [The First Stable Release of a Memory Safe sudo Implementation](https://www.memorysafety.org/blog/sudo-first-stable-release/)
 * [We're open-sourcing the library that powers 1Password's ability to log in with a passkey](https://blog.1password.com/passkey-crates/)
+
+- [ratatui 0.23.0 is released! (official successor of tui-rs)](https://github.com/ratatui-org/ratatui/releases/tag/v0.23.0)
 
 ### Observations/Thoughts
 * [The fastest WebSocket implementation](https://c410-f3r.github.io/thoughts/the-fastest-websocket-implementation/)
@@ -56,8 +59,10 @@ and just ask the editors to select the category.
 - [video][Rust 1.72.0](https://youtu.be/jVoEA7qmN8c)
 - [Dependency injection in Axum handlers. A quick tour](https://tulipemoutarde.be/posts/2023-08-20-depencency-injection-rust-axum/)
 * [Best Rust Web Frameworks to Use in 2023](https://www.shuttle.rs/blog/2023/08/23/rust-web-framework-comparison)
+- [From tui-rs to Ratatui: 6 Months of Cooking Up Rust TUIs](https://blog.orhun.dev/ratatui-0-23-0/)
 
 ### Rust Walkthroughs
+* [series] [Distributed Tracing in Rust, Episode 3: tracing basics](https://heikoseeberger.de/2023-08-28-dist-tracing-3/)
 * [Use Rust in shell scripts](https://www.kurtlawrence.info/blog/gufdjkjkq7wphfhkvrumcvmqdr4r69)
 * [A Simple CRUD API in Rust with Cloudflare Workers, Cloudflare KV, and the Rust Router](https://medium.com/@estebanrules/a-simple-crud-api-in-rust-with-cloudflare-workers-cloudflare-kv-and-the-rust-router-cbc1b9015e7b)
 
@@ -66,6 +71,8 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [video][Rust 1.72 Release Train](https://www.youtube.com/watch?v=EFdzH67G-lw)
 * [Interview with Rust and operating system Developer Andy Python](https://blog.rust.careers/post/andy-python-interview/)
+
+- [Leveraging Rust in our high-performance Java database](https://questdb.io/blog/leveraging-rust-in-our-high-performance-java-database/)
 
 ## Crate of the Week
 
@@ -95,7 +102,17 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A fairly quiet week, with improvements exceeding a small scattering of
+regressions. Memory usage and artifact size held fairly steady across the week,
+with no regressions or improvements.
+
+Triage done by **@simulacrum**.
+Revision range: [d4a881e..cedbe5c](https://perf.rust-lang.org/?start=d4a881e1433cd10e424843353e1f939f5a798f4e&end=cedbe5c715c1fa9359683c5f108bed2054ac258b&absolute=false&stat=instructions%3Au)
+
+2 Regressions, 3 Improvements, 2 Mixed; 0 of them in rollups
+108 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-08-29.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
