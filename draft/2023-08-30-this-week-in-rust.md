@@ -43,8 +43,8 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #196](https://rust-analyzer.github.io/thisweek/2023/08/28/changelog-196.html)
 * [The First Stable Release of a Memory Safe sudo Implementation](https://www.memorysafety.org/blog/sudo-first-stable-release/)
 * [We're open-sourcing the library that powers 1Password's ability to log in with a passkey](https://blog.1password.com/passkey-crates/)
-
-- [ratatui 0.23.0 is released! (official successor of tui-rs)](https://github.com/ratatui-org/ratatui/releases/tag/v0.23.0)
+* [ratatui 0.23.0 is released! (official successor of tui-rs)](https://github.com/ratatui-org/ratatui/releases/tag/v0.23.0)
+* [Zellij 0.38.0: session-manager, plugin infra, and no more offensive session names](https://zellij.dev/news/session-manager-protobuffs/)
 
 ### Observations/Thoughts
 * [The fastest WebSocket implementation](https://c410-f3r.github.io/thoughts/the-fastest-websocket-implementation/)
