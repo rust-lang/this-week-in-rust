@@ -76,7 +76,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [dprint](https://github.com/dprint/dprint), a fast code formatter that formats Markdown, TypeScript, JavaScript, JSON, TOML and many other types natively via Wasm plugins.
+
+Thanks to [Martin Geisler](https://users.rust-lang.org/t/crate-of-the-week/2704/1232) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -98,7 +100,92 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+366 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-08-21..2023-08-28
+
+* [reassign sparc-unknown-none-elf to tier 3](https://github.com/rust-lang/rust/pull/115075)
+* [wasi: round up the size for `aligned_alloc`](https://github.com/rust-lang/rust/pull/115254)
+* [allow `MaybeUninit` in input and output of inline assembly](https://github.com/rust-lang/rust/pull/114790)
+* [allow explicit `#[repr(Rust)]`](https://github.com/rust-lang/rust/pull/114201)
+* [fix CFI: f32 and f64 are encoded incorrectly for cross-language CFI](https://github.com/rust-lang/rust/pull/115151)
+* [add `suggestion` for some `#[deprecated]` items](https://github.com/rust-lang/rust/pull/113365)
+* [add an (perma-)unstable option to disable vtable vptr](https://github.com/rust-lang/rust/pull/114974)
+* [add comment to the `push_trailing` function](https://github.com/rust-lang/rust/pull/115190)
+* [add note when matching on tuples/ADTs containing non-exhaustive types](https://github.com/rust-lang/rust/pull/114397)
+* [add support for `ptr::write`s for the `invalid_reference_casting` lint](https://github.com/rust-lang/rust/pull/115100)
+* [allow overwriting `ExpnId` for concurrent decoding](https://github.com/rust-lang/rust/pull/115081)
+* [avoid duplicate `large_assignments` lints](https://github.com/rust-lang/rust/pull/114774)
+* [contents of reachable statics is reachable](https://github.com/rust-lang/rust/pull/115114)
+* [do not emit invalid suggestion in E0191 when spans overlap](https://github.com/rust-lang/rust/pull/115077)
+* [do not forget to pass DWARF fragment information to LLVM](https://github.com/rust-lang/rust/pull/115139)
+* [ensure that THIR unsafety check is done before stealing it](https://github.com/rust-lang/rust/pull/115012)
+* [emit a proper diagnostic message for unstable lints passed from CLI](https://github.com/rust-lang/rust/pull/114959)
+* [fix races conditions with `SyntaxContext` decoding](https://github.com/rust-lang/rust/pull/115082)
+* [fix waiting on a query that panicked](https://github.com/rust-lang/rust/pull/115198)
+* [improve note for the `invalid_reference_casting` lint](https://github.com/rust-lang/rust/pull/115102)
+* [include compiler flags when you `break rust;`](https://github.com/rust-lang/rust/pull/115158)
+* [load `include_bytes!` directly into an Lrc](https://github.com/rust-lang/rust/pull/115296)
+* [make `Sharded` an `enum` and specialize it for the single thread case](https://github.com/rust-lang/rust/pull/114860)
+* [make `rustc_on_unimplemented` std-agnostic for `alloc::rc`](https://github.com/rust-lang/rust/pull/115210)
+* [more precisely detect cycle errors from `type_of` on opaque](https://github.com/rust-lang/rust/pull/115294)
+* [point at type parameter that introduced unmet bound instead of full HIR node](https://github.com/rust-lang/rust/pull/115219)
+* [record allocation spans inside `force_allocation`](https://github.com/rust-lang/rust/pull/115184)
+* [suggest mutable borrow on read only for-loop that should be mutable](https://github.com/rust-lang/rust/pull/115147)
+* [tweak output of `to_pretty_impl_header` involving only anon lifetimes](https://github.com/rust-lang/rust/pull/115322)
+* [use the same DISubprogram for each instance of the same inlined function within a caller](https://github.com/rust-lang/rust/pull/114643)
+* [walk through full path in `point_at_path_if_possible`](https://github.com/rust-lang/rust/pull/115221)
+* [warn on elided lifetimes in associated constants (`ELIDED_LIFETIMES_IN_ASSOCIATED_CONSTANT`)](https://github.com/rust-lang/rust/pull/115011)
+* [make RPITITs capture all in-scope lifetimes](https://github.com/rust-lang/rust/pull/114489)
+* [add stable for Constant in smir](https://github.com/rust-lang/rust/pull/115202)
+* [add `generics_of` to smir](https://github.com/rust-lang/rust/pull/115092)
+* [add smir `predicates_of`](https://github.com/rust-lang/rust/pull/115084)
+* [treat `StatementKind::Coverage` as completely opaque for SMIR purposes](https://github.com/rust-lang/rust/pull/115093)
+* [do not convert copies of packed projections to moves](https://github.com/rust-lang/rust/pull/115138)
+* [don't do intra-pass validation on MIR shims](https://github.com/rust-lang/rust/pull/115005)
+* [MIR validation: reject in-place argument/return for packed fields](https://github.com/rust-lang/rust/pull/115164)
+* [disable MIR SROA optimization by default](https://github.com/rust-lang/rust/pull/115140)
+* [miri: automatically start and stop josh in rustc-pull/push](https://github.com/rust-lang/miri/pull/3036)
+* [miri: fix some bad regex capture group references in test normalization](https://github.com/rust-lang/miri/pull/3037)
+* [stop emitting non-power-of-two vectors in (non-portable-SIMD) codegen](https://github.com/rust-lang/rust/pull/115236)
+* [resolve: stop creating `NameBinding`s on every use, create them once per definition instead](https://github.com/rust-lang/rust/pull/113408)
+* [fix a `pthread_t` handle leak](https://github.com/rust-lang/rust/pull/114696)
+* [when terminating during unwinding, show the reason why](https://github.com/rust-lang/rust/pull/115045)
+* [avoid triple-backtrace due to panic-during-cleanup](https://github.com/rust-lang/rust/pull/115280)
+* [add additional float constants](https://github.com/rust-lang/rust/pull/103836)
+* [add ability to spawn Windows process with Proc Thread Attributes | Take 2](https://github.com/rust-lang/rust/pull/114848)
+* [fix implementation of `Duration::checked_div`](https://github.com/rust-lang/rust/pull/114238)
+* [hashbrown: allow serializing `HashMap`s that use a custom allocator](https://github.com/rust-lang/hashbrown/pull/449)
+* [hashbrown: change `&` to `&mut` where applicable](https://github.com/rust-lang/hashbrown/pull/464)
+* [hashbrown: simplify `Clone` by removing redundant guards](https://github.com/rust-lang/hashbrown/pull/458)
+* [regex-automata: fix incorrect use of Aho-Corasick's "standard" semantics](https://github.com/rust-lang/regex/pull/1072)
+* [cargo: **Very** preliminary MSRV resolver support](https://github.com/rust-lang/cargo/pull/12560)
+* [cargo: Use a more compact relative-time format](https://github.com/rust-lang/cargo/pull/12542)
+* [cargo: Improve TOML parse errors](https://github.com/rust-lang/cargo/pull/12556)
+* [cargo: add support for `target.'cfg(..)'.linker`](https://github.com/rust-lang/cargo/pull/12535)
+* [cargo: config: merge lists in precedence order](https://github.com/rust-lang/cargo/pull/12515)
+* [cargo: create dedicated unstable flag for asymmetric-token](https://github.com/rust-lang/cargo/pull/12551)
+* [cargo: set MSRV for internal packages](https://github.com/rust-lang/cargo/pull/12381)
+* [cargo: improve deserialization errors of untagged enums](https://github.com/rust-lang/cargo/pull/12574)
+* [cargo: improve resolver version mismatch warning](https://github.com/rust-lang/cargo/pull/12573)
+* [cargo: stabilize `--keep-going`](https://github.com/rust-lang/cargo/pull/12568)
+* [cargo: support dependencies from registries for artifact dependencies, take 2](https://github.com/rust-lang/cargo/pull/12421)
+* [cargo: use AND search when having multiple terms](https://github.com/rust-lang/cargo/pull/12548)
+* [rustdoc: add unstable `--no-html-source` flag](https://github.com/rust-lang/rust/pull/115135)
+* [rustdoc: rename typedef to type alias](https://github.com/rust-lang/rust/pull/115078)
+* [rustdoc: use unicode-aware checks for redundant explicit link fastpath](https://github.com/rust-lang/rust/pull/115070)
+* [clippy: new lint: `implied_bounds_in_impls`](https://github.com/rust-lang/rust-clippy/pull/11362)
+* [clippy: new lint: `reserve_after_initialization`](https://github.com/rust-lang/rust-clippy/pull/11373)
+* [clippy: `arithmetic_side_effects`: detect division by zero for `Wrapping` and `Saturating`](https://github.com/rust-lang/rust-clippy/pull/11395)
+* [clippy: `if_then_some_else_none`: look into local initializers for early returns](https://github.com/rust-lang/rust-clippy/pull/11401)
+* [clippy: `iter_overeager_cloned`: detect `.cloned().all()` and `.cloned().any()`](https://github.com/rust-lang/rust-clippy/pull/11360)
+* [clippy: `unnecessary_unwrap`: lint on `.as_ref().unwrap()`](https://github.com/rust-lang/rust-clippy/pull/11387)
+* [clippy: allow trait alias DefIds in `implements_trait_with_env_from_iter`](https://github.com/rust-lang/rust-clippy/pull/11338)
+* [clippy: fix `"derivable_impls`: attributes are ignored"](https://github.com/rust-lang/rust-clippy/pull/11404)
+* [clippy: fix `tuple_array_conversions` lint on nightly](https://github.com/rust-lang/rust-clippy/pull/11379)
+* [clippy: skip `float_cmp` check if lhs is a custom type](https://github.com/rust-lang/rust-clippy/pull/11385)
+* [rust-analyzer: diagnostics for 'while let' loop with label in condition](https://github.com/rust-lang/rust-analyzer/pull/15517)
+* [rust-analyzer: respect `#[allow(unused_braces)]`](https://github.com/rust-lang/rust-analyzer/pull/15527)
 
 ### Rust Compiler Performance Triage
 
@@ -262,7 +349,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> In \[other languages\], I could end up chasing silly bugs and waste time debugging and tracing to find that I made a typo or ran into a language quirk that gave me an unexpected nil pointer. That situation is almost non-existent in Rust, it's just me and the problem. Rust is honest and upfront about its quirks and will yell at you about it before you have a hard to find bug in production.
+
+– [dannersy on Hacker News](https://news.ycombinator.com/item?id=37107992)
+
+Thanks to [Kyle Strand](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1463) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
