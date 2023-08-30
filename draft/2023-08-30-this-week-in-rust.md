@@ -71,8 +71,8 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [video][Rust 1.72 Release Train](https://www.youtube.com/watch?v=EFdzH67G-lw)
 * [Interview with Rust and operating system Developer Andy Python](https://blog.rust.careers/post/andy-python-interview/)
-
-- [Leveraging Rust in our high-performance Java database](https://questdb.io/blog/leveraging-rust-in-our-high-performance-java-database/)
+* [Leveraging Rust in our high-performance Java database](https://questdb.io/blog/leveraging-rust-in-our-high-performance-java-database/)
+* [Rust error message to fix a typo](https://rust.code-maven.com/error-message-to-fix-typo)
 
 ## Crate of the Week
 
