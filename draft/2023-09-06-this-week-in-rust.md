@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Use just to run commands in Rust projects](https://developerlife.com/2023/08/28/justfile/)
 
 ### Research
 
