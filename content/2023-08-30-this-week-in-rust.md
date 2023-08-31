@@ -34,8 +34,6 @@ and just ask the editors to select the category.
 * [Seeking help for initial Leadership Council initiatives](https://blog.rust-lang.org/inside-rust/2023/08/25/leadership-initiatives.html)
 * [Leadership Council Membership Changes](https://blog.rust-lang.org/inside-rust/2023/08/29/leadership-council-membership-changes.html)
 
-### Foundation
-
 ### Newsletters
 * [This Week in Ars Militaris VIII](https://arsmilitaris.com/#this-week-in-ars-militaris-viii)
 
@@ -68,8 +66,6 @@ and just ask the editors to select the category.
 * [A Simple CRUD API in Rust with Cloudflare Workers, Cloudflare KV, and the Rust Router](https://medium.com/@estebanrules/a-simple-crud-api-in-rust-with-cloudflare-workers-cloudflare-kv-and-the-rust-router-cbc1b9015e7b)
 * [video] [base64 crate: code walkthrough](https://www.youtube.com/watch?v=KGP16TITJdU)
 
-### Research
-
 ### Miscellaneous
 * [Interview with Rust and operating system Developer Andy Python](https://blog.rust.careers/post/andy-python-interview/)
 * [Leveraging Rust in our high-performance Java database](https://questdb.io/blog/leveraging-rust-in-our-high-performance-java-database/)
@@ -94,11 +90,33 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
 * [Hyperswitch - add domain type for client secret](https://github.com/juspay/hyperswitch/issues/1357)
 * [Hyperswitch - deserialization error exposes sensitive values in the logs](https://github.com/juspay/hyperswitch/issues/1943)
 * [Hyperswitch - move redis key creation to a common module](https://github.com/juspay/hyperswitch/issues/917)
+* [mdbook-i18n-helpers - Write tool which can convert translated files back to PO](https://github.com/google/mdbook-i18n-helpers/issues/30)
+* [mdbook-i18n-helpers - Package a language selector](https://github.com/google/mdbook-i18n-helpers/issues/12)
+* [mdbook-i18n-helpers - Add links between translations](https://github.com/google/mdbook-i18n-helpers/issues/35)
+* [Comprehensive Rust - Link to correct line when editing a translation](https://github.com/google/comprehensive-rust/issues/1075)
+* [Comprehensive Rust - Track the number of times the redirect pages are visited](https://github.com/google/comprehensive-rust/issues/488)
+* [RustQuant - Jacobian and Hessian matrices support.](https://github.com/avhz/RustQuant/issues/87)
+* [RustQuant - improve Graphviz plotting of autodiff computational graphs.](https://github.com/avhz/RustQuant/issues/74)
+* [RustQuant - bond pricing implementation.](https://github.com/avhz/RustQuant/issues/88)
+* [RustQuant - implement cap/floor pricers.](https://github.com/avhz/RustQuant/issues/21)
+* [RustQuant - Implement Asian option pricers.](https://github.com/avhz/RustQuant/issues/3)
+* [RustQuant - Implement American option pricers.](https://github.com/avhz/RustQuant/issues/4)
+* [release-plz - add ability to mark Gitea/GitHub release as draft](https://github.com/MarcoIeni/release-plz/issues/676)
+* [zerocopy - CI step "Set toolchain version" is flaky due to network timeouts](https://github.com/google/zerocopy/issues/295)
+* [zerocopy - Implement traits for tuple types (and maybe other container types?)](https://github.com/google/zerocopy/issues/274)
+* [zerocopy - Prevent panics statically](https://github.com/google/zerocopy/issues/202)
+* [zerocopy - Add positive and negative trait impl tests for SIMD types](https://github.com/google/zerocopy/issues/130)
+* [zerocopy - Inline many trait methods (in zerocopy and in derive-generated code)](https://github.com/google/zerocopy/issues/7)
+* [datatest-stable - Fix quadratic performance with nextest](https://github.com/nextest-rs/datatest-stable/issues/8)
+* [Ockam - Use a user-friendly name for the shared services to show it in the tray menu](https://github.com/build-trust/ockam/issues/5686)
+* [Ockam - Rename the Port to Address and support such format](https://github.com/build-trust/ockam/issues/5685)
+* [Ockam - Ockam CLI should gracefully handle invalid state when initializing](https://github.com/build-trust/ockam/issues/5633)
+* [css-inline - Update `cssparser` & `selectors`](https://github.com/Stranger6667/css-inline/issues/214)
+* [css-inline - Non-blocking stylesheet resolving](https://github.com/Stranger6667/css-inline/issues/246)
+* [css-inline - Optionally remove all `class` attributes](https://github.com/Stranger6667/css-inline/issues/13)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -347,7 +365,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/14zmcpw/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -363,4 +381,4 @@ Thanks to [Kyle Strand](https://users.rust-lang.org/t/twir-quote-of-the-week/328
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/165w3ea/this_week_in_rust_510/)</small>
