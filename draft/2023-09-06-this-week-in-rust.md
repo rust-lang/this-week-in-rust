@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Trying out Rust's Async Functions in Traits](https://broch.tech/posts/rust-async-fn-trait/)
+
 ### Research
 
 ### Miscellaneous
