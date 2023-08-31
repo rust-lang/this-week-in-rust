@@ -66,6 +66,7 @@ and just ask the editors to select the category.
 * [series] [Distributed Tracing in Rust, Episode 3: tracing basics](https://heikoseeberger.de/2023-08-28-dist-tracing-3/)
 * [Use Rust in shell scripts](https://www.kurtlawrence.info/blog/gufdjkjkq7wphfhkvrumcvmqdr4r69)
 * [A Simple CRUD API in Rust with Cloudflare Workers, Cloudflare KV, and the Rust Router](https://medium.com/@estebanrules/a-simple-crud-api-in-rust-with-cloudflare-workers-cloudflare-kv-and-the-rust-router-cbc1b9015e7b)
+* [video] [base64 crate: code walkthrough](https://www.youtube.com/watch?v=KGP16TITJdU)
 
 ### Research
 
@@ -73,6 +74,8 @@ and just ask the editors to select the category.
 * [Interview with Rust and operating system Developer Andy Python](https://blog.rust.careers/post/andy-python-interview/)
 * [Leveraging Rust in our high-performance Java database](https://questdb.io/blog/leveraging-rust-in-our-high-performance-java-database/)
 * [Rust error message to fix a typo](https://rust.code-maven.com/error-message-to-fix-typo)
+* [video] [The Builder Pattern and Typestate Programming - Stefan Baumgartner - Rust Linz January 2023](https://www.youtube.com/watch?v=k8kd22jNcps)
+* [video] [CI with Rust and Gitlab Selfhosting - Stefan Schindler - Rust Linz July 2023](https://www.youtube.com/watch?v=TrPyUVundbM)
 
 ## Crate of the Week
 
