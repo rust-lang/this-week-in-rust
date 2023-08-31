@@ -300,6 +300,8 @@ Rusty Events between 2023-08-30 - 2023-09-27 🦀
 
 ### Europe
 
+* 2023-08-30 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/)
+    * [**Rust metup #39 sponsored by Fermyon**](https://www.meetup.com/copenhagen-rust-community/events/294806394)
 * 2023-08-31 | Augsburg, DE | [Rust Meetup Augsburg](https://www.meetup.com/rust-meetup-augsburg/)
     * [**Augsburg Rust Meetup #2**](https://www.meetup.com/rust-meetup-augsburg/events/294538503/)
 * 2023-09-05 | Munich, DE + Virtual | [Rust Munich](https://www.meetup.com/rust-munich/)
@@ -315,8 +317,6 @@ Rusty Events between 2023-08-30 - 2023-09-27 🦀
 
 ### North America
 
-* 2023-08-30 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/)
-    * [**Rust metup #39 sponsored by Fermyon**](https://www.meetup.com/copenhagen-rust-community/events/294806394)
 * 2023-09-05 | Chicago, IL, US | [Deep Dish Rust](https://www.meetup.com/deep-dish-rust/)
     * [**Rust Happy Hour**](https://www.meetup.com/deep-dish-rust/events/295589114/)
 * 2023-09-06 | Bellevue, WA, US | [The Linux Foundation](https://www.linuxfoundation.org/)
