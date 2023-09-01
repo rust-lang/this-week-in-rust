@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Becoming a [Rust] contractor](https://ochagavia.nl/blog/becoming-a-contractor/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
