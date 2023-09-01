@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing diesel-async 0.4](https://blog.weiznich.de/blog/diesel-async-0-4/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
