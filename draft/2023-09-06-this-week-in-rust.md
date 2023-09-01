@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+[Elevate Your Rust Code: The Art of Separating Actions and Calculations](https://rusty-ferris.pages.dev/blog/fp-actions-vs-calculations/)
 
 ### Rust Walkthroughs
 
