@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Views on Machine Learning in Rust](https://deepcausality.com/blog/views-on-rust-ml/)
+
 ### Rust Walkthroughs
 
 ### Research
