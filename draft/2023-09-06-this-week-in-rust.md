@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Slint 1.2 Released with Enhanced Platform Abstraction](https://slint.dev/blog/slint-1.2-released)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
