@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* \[video\] [Core Flight System Applications in Rust with n2o4](https://www.youtube.com/live/H7q-7CNb7gc?si=zgWjLlaCxNHJfRJq&t=8229) ([slides](https://blackcat-cubesat.github.io/n2o4/fsw2023-n2o4.pdf), [project repo](https://github.com/BlackCAT-CubeSat/n2o4))
+
 ### Rust Walkthroughs
 
 ### Research
