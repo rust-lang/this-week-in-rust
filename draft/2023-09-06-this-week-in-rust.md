@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 - [video][5 Strong Opinions On Everyday Rust](https://www.youtube.com/watch?v=8j_FbjiowvE)
 - [video][Creating a spectrogram generator - "peer programming" with the Internet](https://www.youtube.com/watch?v=PoaHybRUC18)
+- [video][Raytracing in Rust](https://www.youtube.com/watch?v=6D8WVYm1YwY)
 
 ## Crate of the Week
 
