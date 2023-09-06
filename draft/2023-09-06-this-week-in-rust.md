@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Why Rust is the most admired language among developers](https://github.blog/2023-08-30-why-rust-is-the-most-admired-language-among-developers/)
+
 ### Rust Walkthroughs
 
 ### Research
