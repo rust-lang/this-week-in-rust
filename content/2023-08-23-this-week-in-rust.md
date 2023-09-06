@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-* [Delightful command-line utilities with Rust](https://www.youtube.com/watch?v=Y-LTWNciEks)
+* [video] [Delightful command-line utilities with Rust](https://www.youtube.com/watch?v=Y-LTWNciEks)
 * [ESP32 Standard Library Embedded Rust: Analog Temperature Sensing using the ADC](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-analog-temperature-sensing-using-the-adc)
 * [Bare Metal Space Invaders](https://blog.fponzi.me/2023-08-13-bare-metal-space-invaders.html)
 * [series] [Distributed Tracing in Rust, Episode 2: tracing basics](https://heikoseeberger.de/2023-08-18-dist-tracing-2/)
