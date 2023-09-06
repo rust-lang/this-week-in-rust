@@ -165,7 +165,18 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+
+A lot of spurious noise this week from a few benchmarks (bitmaps-3.1.0, libc,
+and even cargo-0.60.0 at a few points). Beyond that, we had a few small
+improvements associated with the trait system and with parallel-rustc.
+
+Triage done by **@pnkfelix**.
+Revision range: [cedbe5c7..15e52b05](https://perf.rust-lang.org/?start=cedbe5c715c1fa9359683c5f108bed2054ac258b&end=15e52b05ca8f63e0da27c808680388717e5b997e&absolute=false&stat=instructions%3Au)
+
+4 Regressions, 7 Improvements, 8 Mixed; 2 of them in rollups
+66 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-09-05.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
