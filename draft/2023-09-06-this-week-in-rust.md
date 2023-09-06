@@ -35,6 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Slint 1.2 Released with Enhanced Platform Abstraction](https://slint.dev/blog/slint-1.2-released)
 * [Announcing diesel-async 0.4](https://blog.weiznich.de/blog/diesel-async-0-4/)
 * [git-cliff 1.3.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/1.3.0)
 
