@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [How I finally understood async/await in Rust (part 4: why would I ever want to write a future manually?)](https://hegdenu.net/posts/understanding-async-await-4/)
 
 ### Research
 
