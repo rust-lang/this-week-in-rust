@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Implementing a Naive Buffered Queue in Rust](https://dhruv-ahuja.github.io/posts/implementing-buffered-queue-in-rust/)
+
 ### Research
 
 ### Miscellaneous
