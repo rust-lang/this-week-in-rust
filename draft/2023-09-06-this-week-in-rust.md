@@ -64,8 +64,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Ockam - Inconsistent behavior of `ockam tcp-outlet create`](https://github.com/build-trust/ockam/issues/5897)
+* [Ockam - Incorrect alias handling in outlet creation](https://github.com/build-trust/ockam/issues/5898)
+* [Ockam - Investigate Github API error in github actions workflows that use nix](https://github.com/build-trust/ockam/issues/5895)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
