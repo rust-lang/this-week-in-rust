@@ -58,6 +58,7 @@ and just ask the editors to select the category.
 * [video] [Core Flight System Applications in Rust with n2o4](https://www.youtube.com/live/H7q-7CNb7gc?si=zgWjLlaCxNHJfRJq&t=8229)
 
 ### Rust Walkthroughs
+* [How I finally understood async/await in Rust (part 4: why would I ever want to write a future manually?)](https://hegdenu.net/posts/understanding-async-await-4/)
 * [Use just to run commands in Rust projects](https://developerlife.com/2023/08/28/justfile/)
 * [How to Implement OAuth in Rust](https://www.shuttle.rs/blog/2023/08/30/using-oauth-with-axum)
 * [Integrating a large Tokio-based Rust library with Haskell](https://www.iankduncan.com/articles/2023-08-30-integrating-haskell-and-tokio)
