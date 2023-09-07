@@ -72,6 +72,8 @@ and just ask the editors to select the category.
 
 * [video] [Creating a spectrogram generator - "peer programming" with the Internet](https://www.youtube.com/watch?v=PoaHybRUC18)
 
+* [Becoming a [Rust] contractor](https://ochagavia.nl/blog/becoming-a-contractor/)
+
 ## Crate of the Week
 
 This week's crate is [str0m](https://github.com/algesten/str0m), a synchronous sans-IO WebRTC implementation.
