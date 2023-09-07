@@ -33,8 +33,6 @@ and just ask the editors to select the category.
 * [crates.io Postmortem: User Uploaded Malware](https://blog.rust-lang.org/inside-rust/2023/09/01/crates-io-malware-postmortem.html)
 * [Announcing Freya GUI library](https://marc0.hashnode.dev/freya)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust GameDev #48 - July 2023](https://gamedev.rs/news/048/)
 
@@ -54,7 +52,6 @@ and just ask the editors to select the category.
 * [Using Kani to Validate Security Boundaries in AWS Firecracker](https://model-checking.github.io/kani-verifier-blog/2023/08/31/using-kani-to-validate-security-boundaries-in-aws-firecracker.html)
 * [Views on Machine Learning in Rust](https://deepcausality.com/blog/views-on-rust-ml/)
 * [video] [5 Strong Opinions On Everyday Rust](https://www.youtube.com/watch?v=8j_FbjiowvE)
-
 * [video] [Core Flight System Applications in Rust with n2o4](https://www.youtube.com/live/H7q-7CNb7gc?si=zgWjLlaCxNHJfRJq&t=8229)
 
 ### Rust Walkthroughs
@@ -63,10 +60,10 @@ and just ask the editors to select the category.
 * [How to Implement OAuth in Rust](https://www.shuttle.rs/blog/2023/08/30/using-oauth-with-axum)
 * [Integrating a large Tokio-based Rust library with Haskell](https://www.iankduncan.com/articles/2023-08-30-integrating-haskell-and-tokio)
 * [A series of 3 tutorials that walks one through the world of Actors as implemented by 'ractor' framework ](https://github.com/nsengupta/ractor-tutorial#readme)
-* [video] [Raytracing in Rust](https://www.youtube.com/watch?v=6D8WVYm1YwY)
 * [Trying out Rust's Async Functions in Traits](https://broch.tech/posts/rust-async-fn-trait/)
-
 * [Implementing a Naive Buffered Queue in Rust](https://dhruv-ahuja.github.io/posts/implementing-buffered-queue-in-rust/)
+* [video] [Raytracing in Rust](https://www.youtube.com/watch?v=6D8WVYm1YwY)
+* [video] [Creating a spectrogram generator - "peer programming" with the Internet](https://www.youtube.com/watch?v=PoaHybRUC18)
 
 ### Research
 * [Accelerating package expansion in Rust through development of a semantic versioning tool](https://arxiv.org/abs/2308.14623)
@@ -74,9 +71,6 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [Why Rust is the most admired language among developers](https://github.blog/2023-08-30-why-rust-is-the-most-admired-language-among-developers/)
 * [FFI optimizations and benchmarking](https://godot-rust.github.io/dev/ffi-optimizations-benchmarking/)
-
-* [video] [Creating a spectrogram generator - "peer programming" with the Internet](https://www.youtube.com/watch?v=PoaHybRUC18)
-
 * [Becoming a [Rust] contractor](https://ochagavia.nl/blog/becoming-a-contractor/)
 
 ## Crate of the Week
@@ -390,7 +384,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/14zmcpw/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
