@@ -48,12 +48,12 @@ and just ask the editors to select the category.
 * [Announcing Nucleo: A fast fuzzy matcher library](https://reddit.com/r/rust/s/GeGknPLPOm)
 
 ### Observations/Thoughts
+* [Elevate Your Rust Code: The Art of Separating Actions and Calculations](https://rusty-ferris.pages.dev/blog/fp-actions-vs-calculations/)
 * [Are we embedded yet?](https://tweedegolf.nl/en/blog/101/are-we-embedded-yet)
 * [Pavex DevLog #6: designing safe and ergonomic middlewares](https://www.lpalmieri.com/posts/pavex-progress-report-06/)
 * [Using Kani to Validate Security Boundaries in AWS Firecracker](https://model-checking.github.io/kani-verifier-blog/2023/08/31/using-kani-to-validate-security-boundaries-in-aws-firecracker.html)
-* [video] [5 Strong Opinions On Everyday Rust](https://www.youtube.com/watch?v=8j_FbjiowvE)
-
 * [Views on Machine Learning in Rust](https://deepcausality.com/blog/views-on-rust-ml/)
+* [video] [5 Strong Opinions On Everyday Rust](https://www.youtube.com/watch?v=8j_FbjiowvE)
 
 ### Rust Walkthroughs
 * [Use just to run commands in Rust projects](https://developerlife.com/2023/08/28/justfile/)
