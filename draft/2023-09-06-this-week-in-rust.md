@@ -68,6 +68,8 @@ and just ask the editors to select the category.
 * [Why Rust is the most admired language among developers](https://github.blog/2023-08-30-why-rust-is-the-most-admired-language-among-developers/)
 * [FFI optimizations and benchmarking](https://godot-rust.github.io/dev/ffi-optimizations-benchmarking/)
 
+* [video] [Creating a spectrogram generator - "peer programming" with the Internet](https://www.youtube.com/watch?v=PoaHybRUC18)
+
 ## Crate of the Week
 
 This week's crate is [str0m](https://github.com/algesten/str0m), a synchronous sans-IO WebRTC implementation.
