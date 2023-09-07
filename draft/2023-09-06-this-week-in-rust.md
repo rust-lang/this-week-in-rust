@@ -59,6 +59,8 @@ and just ask the editors to select the category.
 * [A series of 3 tutorials that walks one through the world of Actors as implemented by 'ractor' framework ](https://github.com/nsengupta/ractor-tutorial#readme)
 * [video] [Raytracing in Rust](https://www.youtube.com/watch?v=6D8WVYm1YwY)
 
+* [Trying out Rust's Async Functions in Traits](https://broch.tech/posts/rust-async-fn-trait/)
+
 ### Research
 * [Accelerating package expansion in Rust through development of a semantic versioning tool](https://arxiv.org/abs/2308.14623)
 
