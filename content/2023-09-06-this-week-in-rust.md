@@ -31,7 +31,6 @@ and just ask the editors to select the category.
 * [Electing New Project Directors](https://blog.rust-lang.org/2023/08/30/electing-new-project-directors.html)
 * [Keeping Rust projects secure with cargo-audit 0.18: performance, compatibility and security improvements](https://blog.rust-lang.org/inside-rust/2023/09/04/keeping-secure-with-cargo-audit-0.18.html)
 * [crates.io Postmortem: User Uploaded Malware](https://blog.rust-lang.org/inside-rust/2023/09/01/crates-io-malware-postmortem.html)
-* [Announcing Freya GUI library](https://marc0.hashnode.dev/freya)
 
 ### Newsletters
 * [This Month in Rust GameDev #48 - July 2023](https://gamedev.rs/news/048/)
@@ -44,6 +43,7 @@ and just ask the editors to select the category.
 * [rustc_codegen_gcc: Progress Report #25](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-25)
 * [Type-safe Rust-In-Flutter 3.0](https://reddit.com/r/rust/s/glIVUEPb8U)
 * [Announcing Nucleo: A fast fuzzy matcher library](https://reddit.com/r/rust/s/GeGknPLPOm)
+* [Announcing Freya GUI library](https://marc0.hashnode.dev/freya)
 
 ### Observations/Thoughts
 * [Elevate Your Rust Code: The Art of Separating Actions and Calculations](https://rusty-ferris.pages.dev/blog/fp-actions-vs-calculations/)
