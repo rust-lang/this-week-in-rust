@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 * [Using Kani to Validate Security Boundaries in AWS Firecracker](https://model-checking.github.io/kani-verifier-blog/2023/08/31/using-kani-to-validate-security-boundaries-in-aws-firecracker.html)
 * [video] [5 Strong Opinions On Everyday Rust](https://www.youtube.com/watch?v=8j_FbjiowvE)
 
+* [Views on Machine Learning in Rust](https://deepcausality.com/blog/views-on-rust-ml/)
+
 ### Rust Walkthroughs
 * [Use just to run commands in Rust projects](https://developerlife.com/2023/08/28/justfile/)
 * [How to Implement OAuth in Rust](https://www.shuttle.rs/blog/2023/08/30/using-oauth-with-axum)
