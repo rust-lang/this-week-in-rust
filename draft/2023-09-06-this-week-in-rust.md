@@ -93,6 +93,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Hyperswitch - add domain type for client secret](https://github.com/juspay/hyperswitch/issues/1357)
+* [Hyperswitch - deserialization error exposes sensitive values in the logs](https://github.com/juspay/hyperswitch/issues/1943)
+* [Hyperswitch - remove unnecessary function from Refunds Validate Flow](https://github.com/juspay/hyperswitch/issues/1521)
 * [Ockam - Inconsistent behavior of `ockam tcp-outlet create`](https://github.com/build-trust/ockam/issues/5897)
 * [Ockam - Incorrect alias handling in outlet creation](https://github.com/build-trust/ockam/issues/5898)
 * [Ockam - Investigate Github API error in github actions workflows that use nix](https://github.com/build-trust/ockam/issues/5895)
