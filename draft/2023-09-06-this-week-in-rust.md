@@ -54,11 +54,11 @@ and just ask the editors to select the category.
 * [video] [5 Strong Opinions On Everyday Rust](https://www.youtube.com/watch?v=8j_FbjiowvE)
 
 ### Rust Walkthroughs
+* [Use just to run commands in Rust projects](https://developerlife.com/2023/08/28/justfile/)
 * [How to Implement OAuth in Rust](https://www.shuttle.rs/blog/2023/08/30/using-oauth-with-axum)
 * [Integrating a large Tokio-based Rust library with Haskell](https://www.iankduncan.com/articles/2023-08-30-integrating-haskell-and-tokio)
 * [A series of 3 tutorials that walks one through the world of Actors as implemented by 'ractor' framework ](https://github.com/nsengupta/ractor-tutorial#readme)
 * [video] [Raytracing in Rust](https://www.youtube.com/watch?v=6D8WVYm1YwY)
-
 * [Trying out Rust's Async Functions in Traits](https://broch.tech/posts/rust-async-fn-trait/)
 
 ### Research
