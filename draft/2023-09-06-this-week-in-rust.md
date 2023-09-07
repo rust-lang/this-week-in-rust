@@ -309,6 +309,8 @@ Rusty Events between 2023-09-06 - 2023-10-04 🦀
     * [**OnsiteMeeting**](https://www.meetup.com/rust-community-stuttgart/events/295639296/)
 * 2023-09-15 | Tiel, NL | [Rust, Getting Started](https://www.meetup.com/rust-getting-started/)
     * [**Rust Workshop - 2**](https://www.meetup.com/rust-getting-started/events/295880062/)
+* 2023-09-16 | Brussels, BE | [HSBXL](https://hsbxl.be/events/software-freedom-day/2023-09-16/)
+    * [**Software Freedom Day 2023**](https://www.meetup.com/brussels-hackerspace/events/295912633/)
 * 2023-09-19 | Augsburg, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
     * [**Logging and tracing in Rust**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/295504245/)
 * 2023-09-21 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
