@@ -55,6 +55,8 @@ and just ask the editors to select the category.
 * [Views on Machine Learning in Rust](https://deepcausality.com/blog/views-on-rust-ml/)
 * [video] [5 Strong Opinions On Everyday Rust](https://www.youtube.com/watch?v=8j_FbjiowvE)
 
+* [video] [Core Flight System Applications in Rust with n2o4](https://www.youtube.com/live/H7q-7CNb7gc?si=zgWjLlaCxNHJfRJq&t=8229)
+
 ### Rust Walkthroughs
 * [Use just to run commands in Rust projects](https://developerlife.com/2023/08/28/justfile/)
 * [How to Implement OAuth in Rust](https://www.shuttle.rs/blog/2023/08/30/using-oauth-with-axum)
