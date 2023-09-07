@@ -28,24 +28,43 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Electing New Project Directors](https://blog.rust-lang.org/2023/08/30/electing-new-project-directors.html)
+* [Keeping Rust projects secure with cargo-audit 0.18: performance, compatibility and security improvements](https://blog.rust-lang.org/inside-rust/2023/09/04/keeping-secure-with-cargo-audit-0.18.html)
+* [crates.io Postmortem: User Uploaded Malware](https://blog.rust-lang.org/inside-rust/2023/09/01/crates-io-malware-postmortem.html)
+* [Announcing Freya GUI library](https://marc0.hashnode.dev/freya)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust GameDev #48 - July 2023](https://gamedev.rs/news/048/)
 
 ### Project/Tooling Updates
-
 * [Slint 1.2 Released with Enhanced Platform Abstraction](https://slint.dev/blog/slint-1.2-released)
 * [Announcing diesel-async 0.4](https://blog.weiznich.de/blog/diesel-async-0-4/)
-* [git-cliff 1.3.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/1.3.0)
+* [git-cliff 1.3.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/1.3.0/)
+* [capnp 0.18 release](https://dwrensha.github.io/capnproto-rust/2023/09/04/0.18-release.html)
+* [rustc_codegen_gcc: Progress Report #25](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-25)
+* [Type-safe Rust-In-Flutter 3.0](https://reddit.com/r/rust/s/glIVUEPb8U)
+* [Announcing Nucleo: A fast fuzzy matcher library](https://reddit.com/r/rust/s/GeGknPLPOm)
 
 ### Observations/Thoughts
+* [Are we embedded yet?](https://tweedegolf.nl/en/blog/101/are-we-embedded-yet)
+* [Pavex DevLog #6: designing safe and ergonomic middlewares](https://www.lpalmieri.com/posts/pavex-progress-report-06/)
+* [Using Kani to Validate Security Boundaries in AWS Firecracker](https://model-checking.github.io/kani-verifier-blog/2023/08/31/using-kani-to-validate-security-boundaries-in-aws-firecracker.html)
+* [video] [5 Strong Opinions On Everyday Rust](https://www.youtube.com/watch?v=8j_FbjiowvE)
 
 ### Rust Walkthroughs
+* [How to Implement OAuth in Rust](https://www.shuttle.rs/blog/2023/08/30/using-oauth-with-axum)
+* [Integrating a large Tokio-based Rust library with Haskell](https://www.iankduncan.com/articles/2023-08-30-integrating-haskell-and-tokio)
+* [A series of 3 tutorials that walks one through the world of Actors as implemented by 'ractor' framework ](https://github.com/nsengupta/ractor-tutorial#readme)
+* [video] [Raytracing in Rust](https://www.youtube.com/watch?v=6D8WVYm1YwY)
 
 ### Research
+* [Accelerating package expansion in Rust through development of a semantic versioning tool](https://arxiv.org/abs/2308.14623)
 
 ### Miscellaneous
+* [Why Rust is the most admired language among developers](https://github.blog/2023-08-30-why-rust-is-the-most-admired-language-among-developers/)
+* [FFI optimizations and benchmarking](https://godot-rust.github.io/dev/ffi-optimizations-benchmarking/)
 
 ## Crate of the Week
 
