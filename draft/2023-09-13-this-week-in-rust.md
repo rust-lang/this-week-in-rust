@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Deploy Your Rust Project to Any Hosting Provider in Minutes](https://logankeenan.com/posts/deploy-your-rust-project-to-any-hosting-provider-in-minutes/)
 
 ### Research
 
