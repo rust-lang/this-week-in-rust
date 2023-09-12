@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Gotchas in Rust-Python binding with pyo3](https://dora.carsmos.ai/blog/rust-python)
 
 ### Rust Walkthroughs
 
