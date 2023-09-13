@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-- [Teaching Rust in 5 days](https://mo8it.com/blog/teaching-rust/)
+* [Teaching Rust in 5 days](https://mo8it.com/blog/teaching-rust/)
 
 ### Rust Walkthroughs
 
