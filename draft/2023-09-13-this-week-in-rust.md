@@ -28,20 +28,41 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Leadership change in the Rust Infrastructure Team](https://blog.rust-lang.org/inside-rust/2023/09/08/infra-team-leadership-change.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: August 2023](https://rust-osdev.com/this-month/2023-08/)
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #198](https://rust-analyzer.github.io/thisweek/2023/09/11/changelog-198.html)
+* [Meet Yazi: Blazing fast terminal file manager, written in Rust, based on async I/O](https://www.reddit.com/r/rust/comments/16fxr58/meet_yazi_blazing_fast_terminal_file_manager/)
+* [Candle: A New Machine Learning Framework for Rust](https://thenewstack.io/candle-a-new-machine-learning-framework-for-rust/)
+* [Wasmer 4.2 is Released: Upping the Ante with 50% Faster Module Load Times! 🚀](https://www.reddit.com/r/rust/comments/16cmgwg/wasmer_42_is_released_upping_the_ante_with_50/)
+* [Roadmap to Tauri 2.0](https://beta.tauri.app/blog/roadmap-to-tauri-2-0/)
+* [Introducing RustRover – A Standalone Rust IDE by JetBrains](https://blog.jetbrains.com/rust/2023/09/13/introducing-rustrover-a-standalone-rust-ide-by-jetbrains/)
 
 ### Observations/Thoughts
+* [How Ferrocene improves Rust](https://ferrous-systems.com/blog/how-ferrocene-improves-rust/)
+* [Owned values and Futures in Rust](https://www.snoyman.com/blog/owned-values-and-futures/)
+* [Semver violations are common, better tooling is the answer](https://predr.ag/blog/semver-violations-are-common-better-tooling-is-the-answer/)
+* [Rethinking Rust’s unsafe keyword](https://rainingcomputers.blog/dist/rethinking_rusts_unsafe_keyword.md)
+* [Async Rust Is A Bad Language](https://bitbashing.io/async-rust.html)
+* [Why you might actually want async in your project](https://notgull.net/why-you-want-async/)
+* [I Wrote A String Type](https://mcyoung.xyz/2023/08/09/yarns/)
+* [Writing a Web Scraper in Rust using Reqwest](https://www.shuttle.rs/blog/2023/09/13/web-scraping-rust-reqwest)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [What's The Time In Tokio?](https://work.yba.dev/what-s-the-time-in-tokio)
+* [Teaching Rust in 5 days](https://mo8it.com/blog/teaching-rust/)
+* [Semantic Search with Qdrant, OpenAI and Shuttle](https://www.shuttle.rs/blog/2023/09/08/building-semantic-search-in-rust)
+* [ESP32 Standard Library Embedded Rust: GPIO Interrupts](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-gpio-interrupts)
+* [video] [How to Do Embedded Development with Rust • Steve Klabnik • GOTO 2023](https://www.youtube.com/watch?v=7lHtXkYnip8)
 
 ## Crate of the Week
 
