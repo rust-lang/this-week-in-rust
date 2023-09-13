@@ -55,7 +55,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [How Rust can build an elegant API around raw memory](https://litchipi.site/post/14762501311625827021)
-
+* [Deploy Your Rust Project to Any Hosting Provider in Minutes](https://logankeenan.com/posts/deploy-your-rust-project-to-any-hosting-provider-in-minutes/)
 * [Rust embedded at Espressif @ Copenhagen Rust Community](https://www.youtube.com/watch?v=gdmUhzJfgzk)
 
 ### Research
