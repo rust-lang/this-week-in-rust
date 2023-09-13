@@ -43,7 +43,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
-[How Ferrocene improves Rust](https://ferrous-systems.com/blog/how-ferrocene-improves-rust/)
+* [How Ferrocene improves Rust](https://ferrous-systems.com/blog/how-ferrocene-improves-rust/)
 
 ## Crate of the Week
 
