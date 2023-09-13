@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 * [Async Rust Is A Bad Language](https://bitbashing.io/async-rust.html)
 * [Why you might actually want async in your project](https://notgull.net/why-you-want-async/)
 * [I Wrote A String Type](https://mcyoung.xyz/2023/08/09/yarns/)
+* [Writing a Web Scraper in Rust using Reqwest](https://www.shuttle.rs/blog/2023/09/13/web-scraping-rust-reqwest)
 
 ### Rust Walkthroughs
 
