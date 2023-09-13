@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 * [Writing a Web Scraper in Rust using Reqwest](https://www.shuttle.rs/blog/2023/09/13/web-scraping-rust-reqwest)
 
 ### Rust Walkthroughs
+* [How Rust can build an elegant API around raw memory](https://litchipi.site/post/14762501311625827021)
 
 ### Research
 
