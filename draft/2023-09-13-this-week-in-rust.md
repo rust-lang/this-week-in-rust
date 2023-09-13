@@ -195,6 +195,8 @@ Rusty Events between 2023-09-13 - 2023-10-11 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/295679767/)
 * 2023-09-28 | Berlin, DE | [React Berlin](https://www.meetup.com/react-berlin-meetup/)
     * [**React Berlin September Meetup: Creating Videos with React & Remotion & More: Integrating Rust with React Native – Gheorghe Pinzaru**](https://www.meetup.com/react-berlin-meetup/events/295382108/)
+* 2023-09-28 | Madrid, ES | [MadRust](https://www.meetup.com/madrust/)
+    * [**Primer evento Post COVID: ¡Cervezas MadRust!**](https://www.meetup.com/madrust/events/296063394/)
 
 ### North America
 
