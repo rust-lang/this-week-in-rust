@@ -71,7 +71,22 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+
+An interesting week. We saw a massive improvement to instruction-counts across
+over a hundred benchmarks, thanks to #110050 an improved encoding scheme for the
+dependency graphs that underlie incremental-compilation. However, these
+instruction-count improvements did not translate to direct cycle time
+improvements. We also saw an improvement to our artifact sizes due to #115306.
+Beyond that, we had a scattering of small regressions to instruction-counts that
+were justified because they were associated with bug fixes.
+
+Triage done by **@pnkfelix**.
+Revision range: [15e52b05..7e0261e7](https://perf.rust-lang.org/?start=15e52b05ca8f63e0da27c808680388717e5b997e&end=7e0261e7ea2085bdc0bc3d0fd6776bf343473858&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 2 Improvements, 5 Mixed; 2 of them in rollups
+84 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-09-13.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
