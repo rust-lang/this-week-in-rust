@@ -42,7 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-- [Time Travel Debugging Rust in NeoVim](https://jonboh.dev/posts/rr/)
+* [Time Travel Debugging Rust in NeoVim](https://jonboh.dev/posts/rr/)
 
 ## Crate of the Week
 
