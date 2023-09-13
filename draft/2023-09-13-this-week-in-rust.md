@@ -63,6 +63,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [What's The Time In Tokio?](https://work.yba.dev/what-s-the-time-in-tokio)
 * [Teaching Rust in 5 days](https://mo8it.com/blog/teaching-rust/)
+* [Time Travel Debugging Rust in NeoVim](https://jonboh.dev/posts/rr/)
 * [Semantic Search with Qdrant, OpenAI and Shuttle](https://www.shuttle.rs/blog/2023/09/08/building-semantic-search-in-rust)
 * [ESP32 Standard Library Embedded Rust: GPIO Interrupts](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-gpio-interrupts)
 * [video] [How to Do Embedded Development with Rust • Steve Klabnik • GOTO 2023](https://www.youtube.com/watch?v=7lHtXkYnip8)
