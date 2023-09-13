@@ -60,8 +60,21 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [zerocopy - Prevent panics statically](https://github.com/google/zerocopy/issues/202)
+* [zerocopy - Implement traits for tuple types (and maybe other container types?)](https://github.com/google/zerocopy/issues/274)
+* [zerocopy - [CI] Deduplicate `actions/cache` directives](https://github.com/google/zerocopy/issues/340)
+* [zerocopy - Refactor version comparison logic in `check_versions` CI job](https://github.com/google/zerocopy/issues/307)
+* [r3bl_rs_utils - Add styling support so that selected and unselected styles can be passed in](https://github.com/r3bl-org/r3bl_rs_utils/issues/116)
+* [r3bl_rs_utils - Create a function that allows multiple selections from a list of strings](https://github.com/r3bl-org/r3bl_rs_utils/issues/123)
+* [r3bl_rs_utils - Add support for syntect output](https://github.com/r3bl-org/r3bl_rs_utils/issues/125)
+* [Ockam - Use the Terminal to print out RPC response instead of printlns - Issue #5904 - build-trust/ockam - GitHub](https://github.com/build-trust/ockam/issues/5904)
+* [Ockam - Investigate and fix breaking changes in upgrading from nix crate 0.26.2 to 0.27.1](https://github.com/build-trust/ockam/issues/5936)
+* [Ockam - Give user feedback on using Ockam Command CLI](https://github.com/build-trust/ockam/issues/5523)
+* [RustQuant - Increase test coverage.](https://github.com/avhz/RustQuant/issues/57)
+* [RustQuant - Create Python bindings.](https://github.com/avhz/RustQuant/issues/39)
+* [RustQuant - Add/improve documentation.](https://github.com/avhz/RustQuant/issues/14)
+* [RustQuant - Implement jump-diffusion simulator.](https://github.com/avhz/RustQuant/issues/89)
+* [hyper - hyper 1.0 API docs polish - meta issue](https://github.com/hyperium/hyper/issues/3067)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
