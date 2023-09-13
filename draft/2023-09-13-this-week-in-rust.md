@@ -42,7 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-* [audio] [RustShip: Trustfall and cargo-semver-checks with Predrag Gruevski]([https://ieni.dev/2023/08/rustship-a-new-rust-podcast/](https://ieni.dev/2023/09/%EF%B8%8F-trustfall-and-cargo-semver-checks-with-predrag-gruevski-rustship/))
+* [audio] [RustShip: Trustfall and cargo-semver-checks with Predrag Gruevski](https://ieni.dev/2023/09/%EF%B8%8F-trustfall-and-cargo-semver-checks-with-predrag-gruevski-rustship/)
 
 ## Crate of the Week
 
