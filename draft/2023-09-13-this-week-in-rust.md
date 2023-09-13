@@ -46,7 +46,6 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [How Ferrocene improves Rust](https://ferrous-systems.com/blog/how-ferrocene-improves-rust/)
 * [Owned values and Futures in Rust](https://www.snoyman.com/blog/owned-values-and-futures/)
-* [Semantic Search with Qdrant, OpenAI and Shuttle](https://www.shuttle.rs/blog/2023/09/08/building-semantic-search-in-rust)
 * [Semver violations are common, better tooling is the answer](https://predr.ag/blog/semver-violations-are-common-better-tooling-is-the-answer/)
 * [Rethinking Rust’s unsafe keyword](https://rainingcomputers.blog/dist/rethinking_rusts_unsafe_keyword.md)
 * [Async Rust Is A Bad Language](https://bitbashing.io/async-rust.html)
