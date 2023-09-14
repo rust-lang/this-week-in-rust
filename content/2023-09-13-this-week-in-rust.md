@@ -236,7 +236,7 @@ Revision range: [15e52b05..7e0261e7](https://perf.rust-lang.org/?start=15e52b05c
 3 Regressions, 2 Improvements, 5 Mixed; 2 of them in rollups
 84 artifact comparisons made in total
 
-[Full report  - pending](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-09-13.md)
+[Full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-09-13.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -430,4 +430,4 @@ Thanks to [Vincent de Phily](https://users.rust-lang.org/t/twir-quote-of-the-wee
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/16i3yr2/this_week_in_rust_512/)</small>
