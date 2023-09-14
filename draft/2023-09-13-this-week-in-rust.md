@@ -30,8 +30,6 @@ and just ask the editors to select the category.
 ### Official
 * [Leadership change in the Rust Infrastructure Team](https://blog.rust-lang.org/inside-rust/2023/09/08/infra-team-leadership-change.html)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust OSDev: August 2023](https://rust-osdev.com/this-month/2023-08/)
 
@@ -58,8 +56,6 @@ and just ask the editors to select the category.
 * [How Rust can build an elegant API around raw memory](https://litchipi.site/post/14762501311625827021)
 * [Deploy Your Rust Project to Any Hosting Provider in Minutes](https://logankeenan.com/posts/deploy-your-rust-project-to-any-hosting-provider-in-minutes/)
 * [Rust embedded at Espressif @ Copenhagen Rust Community](https://www.youtube.com/watch?v=gdmUhzJfgzk)
-
-### Research
 
 ### Miscellaneous
 * [What's The Time In Tokio?](https://work.yba.dev/what-s-the-time-in-tokio)
@@ -225,7 +221,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [rust-analyzer: use crate name for `CARGO_CRATE_NAME`](https://github.com/rust-lang/rust-analyzer/pull/15574)
 
 ### Rust Compiler Performance Triage
-
 
 An interesting week. We saw a massive improvement to instruction-counts across
 over a hundred benchmarks, thanks to #110050 an improved encoding scheme for the
@@ -418,7 +413,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/163w6fl/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
