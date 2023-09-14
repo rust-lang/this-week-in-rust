@@ -102,6 +102,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [RustQuant - Implement jump-diffusion simulator.](https://github.com/avhz/RustQuant/issues/89)
 * [hyper - hyper 1.0 API docs polish - meta issue](https://github.com/hyperium/hyper/issues/3067)
 
+* [Hyperswitch - log a placeholder if merchant_id is not found](https://github.com/juspay/hyperswitch/issues/2153)
+* [Hyperswitch - merchant account delete does not delete the `merchant_key_store`](https://github.com/juspay/hyperswitch/issues/2154)
+* [Hyperswitch - add domain type for client secret](https://github.com/juspay/hyperswitch/issues/1357)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
