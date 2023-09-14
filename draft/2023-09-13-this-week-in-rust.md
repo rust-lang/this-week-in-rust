@@ -67,6 +67,7 @@ and just ask the editors to select the category.
 * [Time Travel Debugging Rust in NeoVim](https://jonboh.dev/posts/rr/)
 * [Semantic Search with Qdrant, OpenAI and Shuttle](https://www.shuttle.rs/blog/2023/09/08/building-semantic-search-in-rust)
 * [ESP32 Standard Library Embedded Rust: GPIO Interrupts](https://apollolabsblog.hashnode.dev/esp32-standard-library-embedded-rust-gpio-interrupts)
+* [audio] [RustShip: Trustfall and cargo-semver-checks with Predrag Gruevski](https://ieni.dev/2023/09/%EF%B8%8F-trustfall-and-cargo-semver-checks-with-predrag-gruevski-rustship/)
 * [video] [How to Do Embedded Development with Rust • Steve Klabnik • GOTO 2023](https://www.youtube.com/watch?v=7lHtXkYnip8)
 
 ## Crate of the Week
