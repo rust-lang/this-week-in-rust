@@ -36,6 +36,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Breaking Tradition: Why Rust Might Be Your Best First Language](https://medium.com/@otukof/breaking-tradition-why-rust-might-be-your-best-first-language-d10afc482ac1)
+
 
 ### Rust Walkthroughs
 
