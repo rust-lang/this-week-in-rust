@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [🤗 Calling Hugging Face models from Rust (via Python bindings)](https://peterprototypes.com/blog/huggingface-from-rust/)
 
 ### Research
 
