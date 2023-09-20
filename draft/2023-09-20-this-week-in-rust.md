@@ -28,25 +28,52 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.72.1](https://blog.rust-lang.org/2023/09/19/Rust-1.72.1.html)
 
 ### Foundation
+* [Announcing the Rust Foundation’s Associate Membership with OpenSSF](https://foundation.rust-lang.org/news/announcing-the-rust-foundation-s-associate-membership-with-openssf/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [This month in Servo: upcoming events, new browser UI, and more!](https://servo.org/blog/2023/09/15/upcoming-events-and-new-browser-ui/)
+* [Pagefind v1.0.0 — Stable static search at scale](https://github.com/CloudCannon/pagefind/releases/tag/v1.0.0)
+* [Open sourcing the Grafbase Engine](https://grafbase.com/blog/open-sourcing-the-grafbase-engine)
+* [Announcing Arroyo 0.6.0](https://www.arroyo.dev/blog/arroyo-0-6-0)
+* [rust-analyzer changelog #199](https://rust-analyzer.github.io/thisweek/2023/09/18/changelog-199.html)
+* [rumqttd 0.18.0](https://github.com/bytebeamio/rumqtt/releases/tag/rumqttd-0.18.0)
 
 ### Observations/Thoughts
+* [Stability without stressing the !@#! out](https://smallcultfollowing.com/babysteps/blog/2023/09/18/stability-without-stressing-the-out/)
+* [The State of Async Rust](https://corrode.dev/blog/async/)
+* [NFS > FUSE: Why We Built our own NFS Server in Rust](https://about.xethub.com/blog/nfs-fuse-why-we-built-nfs-server-rust)
 * [Breaking Tradition: Why Rust Might Be Your Best First Language](https://medium.com/@otukof/breaking-tradition-why-rust-might-be-your-best-first-language-d10afc482ac1)
+* [The Embedded Rust ESP Development Ecosystem](https://apollolabsblog.hashnode.dev/the-embedded-rust-esp-development-ecosystem)
+* [Sifting through crates.io for malware with OSSF Package Analysis](http://www.williballenthin.com/post/sifting-through-crates.io-for-malware-with-ossf-package-analysis/)
+* [Choosing a more optimal `String` type](https://swatinem.de/blog/optimized-strings/)
+* [Changing the rules of Rust](https://without.boats/blog/changing-the-rules-of-rust/)
+* [Follow up to "Changing the rules of Rust"](https://without.boats/blog/follow-up-to-changing-the-rules-of-rust/)
+* [When Zig Outshines Rust - Memory Efficient Enum Arrays](https://alic.dev/blog/dense-enums)
+* [Three years of Bevy](https://trent.kiwi/bevy-three-years)
+* [Should I Rust or should I go?](https://kerkour.com/should-i-rust-or-should-i-go)
+* [audio] [What's New in Rust 1.68 and 1.69](https://rustacean-station.org/episode/rust-1.68-1.69/)
+* [audio] [Pitching Rust to decision-makers, with Joel Marcey](https://rustacean-station.org/episode/joel-marcey-pitching-rust/)
 
 
 ### Rust Walkthroughs
-* [🤗 Calling Hugging Face models from Rust (via Python bindings)](https://peterprototypes.com/blog/huggingface-from-rust/)
-
-* [tuify your clap CLI apps and make them more interactive](https://developerlife.com/2023/09/17/tuify-clap)
+* [🤗 Calling Hugging Face models from Rust](https://peterprototypes.com/blog/huggingface-from-rust/)
+* [Rust Cross-Compilation With GitHub Actions](https://reemus.dev/tldr/rust-cross-compilation-github-actions)
+* [tuify your clap CLI apps and make them more interactive](https://developerlife.com/2023/09/17/tuify-clap/)
+* [Enhancing ClickHouse's Geospatial Support](https://tech.marksblogg.com/clickhouse-gis-rust.html)
+* [video] [All Rust string types explained](https://www.youtube.com/watch?v=CpvzeyzgQdw)
 
 ### Research
+* [A Grounded Conceptual Model for Ownership Types in Rust](https://blog.brownplt.org/2023/09/17/rust-ownership.html)
+* [Debugging Trait Errors as Logic Programs](https://arxiv.org/abs/2309.05137)
+* [REVIS: An Error Visualization Tool for Rust](https://arxiv.org/abs/2309.06640)
 
 ### Miscellaneous
+* [JetBrains, You're scaring me. The Rust plugin deprecation situation.](https://chillfish8.ghost.io/jetbrains-youre-scaring-me/)
 
 ## Crate of the Week
 
