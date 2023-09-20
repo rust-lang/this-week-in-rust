@@ -172,8 +172,7 @@ Rusty Events between 2023-09-20 - 2023-10-18 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/fvdtgtyfcnbnb/)
 * 2023-10-11| Virtual (Boulder, CO, US) | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
     * [**Monthly Meetup**]https://www.meetup.com/boulder-elixir-rust/events/zvxcsryfcnbpb/)
-
-* 2023-10-11 - 2023-10-13| Virtual (Brussels, BE) | [EuroRust](https://eurorust.eu)
+* 2023-10-11 - 2023-10-13 | Virtual (Brussels, BE) | [EuroRust](https://eurorust.eu)
     * [**EuroRust 2023**](https://eurorust.eu)
  
 ### Asia
