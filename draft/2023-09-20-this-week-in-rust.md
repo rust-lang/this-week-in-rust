@@ -58,8 +58,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [r3bl_rs_utils - [tuify] Use nice ANSI symbols instead of ">" to decorate what row is currently selected](https://github.com/r3bl-org/r3bl_rs_utils/issues/133)
+* [r3bl_rs_utils - [all] Use nu shell scripts (not just or fish) and add Github Actions to build & test on mac & linux](https://github.com/r3bl-org/r3bl_rs_utils/issues/120)
+* [r3bl_rs_utils - [tuify] Use offscreen buffer from r3bl_tui to make repaints smooth](https://github.com/r3bl-org/r3bl_rs_utils/issues/118)
+* [Ockam - make building of `ockam_app` create behind a feature flag](https://github.com/build-trust/ockam/issues/5977)
+* [Ockam - Use the Terminal to print out RPC response instead of printlns](https://github.com/build-trust/ockam/issues/5904)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -71,22 +74,23 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A pretty quiet week, with relatively few statistically significant changes, though some good improvements to a number of benchmarks, particularly in cycle counts rather than instructions.
+
+Triage done by **@simulacrum**.
+Revision range: [7e0261e7ea..af78bae](https://perf.rust-lang.org/?start=7e0261e7ea2085bdc0bc3d0fd6776bf343473858&end=af78bae565e85b9c5698ee909af0652674eca6d4&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 3 Improvements, 2 Mixed; 2 of them in rollups
+
+56 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-09-19.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -95,34 +99,25 @@ which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [RFC: Unicode and escape codes in literals](https://github.com/rust-lang/rfcs/pull/3349)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [stabilize combining +bundle and +whole-archive link modifiers](https://github.com/rust-lang/rust/pull/113301)
+* [disposition: merge] [Stabilize `impl_trait_projections`](https://github.com/rust-lang/rust/pull/115659)
+* [disposition: merge] [Tracking Issue for `option_as_slice`](https://github.com/rust-lang/rust/issues/108545)
+* [disposition: merge] [Amend style guide section for formatting where clauses in type aliases](https://github.com/rust-lang/rust/pull/114901)
+* [disposition: merge] [Add allow-by-default lint for unit bindings](https://github.com/rust-lang/rust/pull/112380)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+* [new] [RFC: Remove implicit features in a new edition](https://github.com/rust-lang/rfcs/pull/3491)
+* [new] [RFC: const functions in traits](https://github.com/rust-lang/rfcs/pull/3490)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+* *No RFCs issued a call for testing this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -172,6 +167,8 @@ Rusty Events between 2023-09-20 - 2023-10-18 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/fvdtgtyfcnbnb/)
 * 2023-10-11| Virtual (Boulder, CO, US) | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
     * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsryfcnbpb/)
+* 2023-10-11 - 2023-10-13 | Virtual (Brussels, BE) | [EuroRust](https://eurorust.eu)
+    * [**EuroRust 2023**](https://eurorust.eu)
  
 ### Asia
 
