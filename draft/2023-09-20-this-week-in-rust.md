@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [🤗 Calling Hugging Face models from Rust (via Python bindings)](https://peterprototypes.com/blog/huggingface-from-rust/)
 
 * [tuify your clap CLI apps and make them more interactive](https://developerlife.com/2023/09/17/tuify-clap)
 
