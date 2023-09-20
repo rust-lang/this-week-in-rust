@@ -39,7 +39,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-- [tuify your clap CLI apps and make them more interactive](https://developerlife.com/2023/09/17/tuify-clap/#example-1-add-interactivity-using-a-list-selection-component)
+* [tuify your clap CLI apps and make them more interactive](https://developerlife.com/2023/09/17/tuify-clap)
 
 ### Research
 
