@@ -97,6 +97,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [r3bl_rs_utils - [tuify] Use offscreen buffer from r3bl_tui to make repaints smooth](https://github.com/r3bl-org/r3bl_rs_utils/issues/118)
 * [Ockam - make building of `ockam_app` create behind a feature flag](https://github.com/build-trust/ockam/issues/5977)
 * [Ockam - Use the Terminal to print out RPC response instead of printlns](https://github.com/build-trust/ockam/issues/5904)
+* [Hyperswitch - add domain type for client secret](https://github.com/juspay/hyperswitch/issues/1357)
+* [Hyperswitch - separate payments_session from payments core](https://github.com/juspay/hyperswitch/issues/888)
+* [Hyperswitch - move redis key creation to a common module](https://github.com/juspay/hyperswitch/issues/917)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
