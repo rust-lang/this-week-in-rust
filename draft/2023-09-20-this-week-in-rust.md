@@ -166,7 +166,7 @@ Rusty Events between 2023-09-20 - 2023-10-18 🦀
 * 2023-10-10 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/fvdtgtyfcnbnb/)
 * 2023-10-11| Virtual (Boulder, CO, US) | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
-    * [**Monthly Meetup**]https://www.meetup.com/boulder-elixir-rust/events/zvxcsryfcnbpb/)
+    * [**Monthly Meetup**](https://www.meetup.com/boulder-elixir-rust/events/zvxcsryfcnbpb/)
 * 2023-10-11 - 2023-10-13 | Virtual (Brussels, BE) | [EuroRust](https://eurorust.eu)
     * [**EuroRust 2023**](https://eurorust.eu)
  
@@ -226,10 +226,14 @@ Rusty Events between 2023-09-20 - 2023-10-18 🦀
     * [**Monthly Rust group**](https://www.meetup.com/thursday-go/events/295771515)
 * 2023-09-27 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/295466314)
+* 2023-09-28 | Boulder, CO, US | [Solid State Depot - The Boulder Makerspace](https://www.meetup.com/solidstatedepot/)
+    * [**Rust and ROS for Robotics + Happy Hour**](https://www.meetup.com/solidstatedepot/events/295466122/)
 * 2023-09-30 | Mountain View, CA, US | [Rust Breakfast and Learn](https://www.meetup.com/rust-breakfast-learn/)
     * [**Rust: breakfast & learn**](https://www.meetup.com/rust-breakfast-learn/events/fktvgtyfcmbnc/)
 * 2023-10-07 | Mountain View, CA, US | [Rust Breakfast and Learn](https://www.meetup.com/rust-breakfast-learn/)
     * [**Rust: breakfast & learn**](https://www.meetup.com/rust-breakfast-learn/events/fktvgtyfcnbkb/)
+* 2023-10-11 | Boulder, CO, US | [Boulder Rust Meetup](https://www.meetup.com/boulder-rust-meetup/)
+    * [**First Meetup - Demo Day and Office Hours**](https://www.meetup.com/boulder-rust-meetup/events/296193722/)
 
 ### Oceania
 
