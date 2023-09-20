@@ -58,8 +58,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [r3bl_rs_utils - [tuify] Use nice ANSI symbols instead of ">" to decorate what row is currently selected](https://github.com/r3bl-org/r3bl_rs_utils/issues/133)
+* [r3bl_rs_utils - [all] Use nu shell scripts (not just or fish) and add Github Actions to build & test on mac & linux](https://github.com/r3bl-org/r3bl_rs_utils/issues/120)
+* [r3bl_rs_utils - [tuify] Use offscreen buffer from r3bl_tui to make repaints smooth](https://github.com/r3bl-org/r3bl_rs_utils/issues/118)
+* [Ockam - make building of `ockam_app` create behind a feature flag](https://github.com/build-trust/ockam/issues/5977)
+* [Ockam - Use the Terminal to print out RPC response instead of printlns](https://github.com/build-trust/ockam/issues/5904)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
