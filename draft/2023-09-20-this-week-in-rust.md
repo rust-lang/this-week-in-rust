@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [RustQuant](https://github.com/avhz/RustQuant), a crate for quantitative finance.
+
+Thanks to [avhz](https://users.rust-lang.org/t/crate-of-the-week/2704/1238) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -67,7 +69,94 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+342 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-09-11..2023-09-18
+
+* [`#[diagnostic::on_unimplemented]` without filters](https://github.com/rust-lang/rust/pull/114452)
+* [`repr(transparent)`: it's fine if the one non-1-ZST field is a ZST](https://github.com/rust-lang/rust/pull/115334)
+* [accept additional user-defined syntax classes in fenced code blocks](https://github.com/rust-lang/rust/pull/110800)
+* [add `explicit_predicates_of` to SMIR](https://github.com/rust-lang/rust/pull/115793)
+* [add `i686-pc-windows-gnullvm` triple](https://github.com/rust-lang/rust/pull/115687)
+* [add diagnostic for raw identifiers in format string](https://github.com/rust-lang/rust/pull/115611)
+* [add source type for invalid bool casts](https://github.com/rust-lang/rust/pull/115765)
+* [cache `reachable_set` on disk](https://github.com/rust-lang/rust/pull/115740)
+* [canonicalize effect vars in new solver](https://github.com/rust-lang/rust/pull/115850)
+* [change `unsafe_op_in_unsafe_fn` to be `warn`-by-default from edition 2024](https://github.com/rust-lang/rust/pull/112038)
+* [closure field capturing: don't depend on alignment of packed fields](https://github.com/rust-lang/rust/pull/115315)
+* [consistently pass `ty::Const` through valtrees](https://github.com/rust-lang/rust/pull/115804)
+* [coverage: simplify internal representation of debug types](https://github.com/rust-lang/rust/pull/115867)
+* [disabled socketpair for Vita](https://github.com/rust-lang/rust/pull/115816)
+* [enable varargs support for AAPCS calling convention](https://github.com/rust-lang/rust/pull/115860)
+* [extend rustc -Zls](https://github.com/rust-lang/rust/pull/115735)
+* [fallback effects even if types also fallback](https://github.com/rust-lang/rust/pull/115859)
+* [fix `std::primitive` doc: homogenous → homogeneous](https://github.com/rust-lang/rust/pull/115329)
+* [fix the error message for `#![feature(no_coverage)]`](https://github.com/rust-lang/rust/pull/115832)
+* [fix: return early when has tainted in mir pass](https://github.com/rust-lang/rust/pull/115815)
+* [improve Span in smir](https://github.com/rust-lang/rust/pull/115772)
+* [improve `PadAdapter::write_char`](https://github.com/rust-lang/rust/pull/115782)
+* [improve invalid let expression handling](https://github.com/rust-lang/rust/pull/115677)
+* [inspect: closer to proof trees for coherence](https://github.com/rust-lang/rust/pull/115838)
+* [llvm-wrapper: adapt for LLVM API changes](https://github.com/rust-lang/rust/pull/115871)
+* [make `.rmeta` file in `dep-info` have correct name (`lib` prefix)](https://github.com/rust-lang/rust/pull/114750)
+* [make `ty::Const` debug printing less verbose](https://github.com/rust-lang/rust/pull/115884)
+* [make `useless_ptr_null_checks` smarter about some std functions](https://github.com/rust-lang/rust/pull/114494)
+* [move `required_consts` check to general post-mono-check function](https://github.com/rust-lang/rust/pull/115748)
+* [only suggest turbofish in patterns if we may recover](https://github.com/rust-lang/rust/pull/115785)
+* [properly consider binder vars in `HasTypeFlagsVisitor`](https://github.com/rust-lang/rust/pull/115834)
+* [read from non-scalar constants and statics in dataflow const-prop](https://github.com/rust-lang/rust/pull/115705)
+* [remove `verbose_generic_activity_with_arg`](https://github.com/rust-lang/rust/pull/115736)
+* [remove assert that checks type equality](https://github.com/rust-lang/rust/pull/115215)
+* [resolve: mark binding is determined after all macros had been expanded](https://github.com/rust-lang/rust/pull/115269)
+* [rework `no_coverage` to `coverage(off)`](https://github.com/rust-lang/rust/pull/114656)
+* [small wins for formatting-related code](https://github.com/rust-lang/rust/pull/108043)
+* [some ConstValue refactoring](https://github.com/rust-lang/rust/pull/115764)
+* [some inspect improvements](https://github.com/rust-lang/rust/pull/115751)
+* [treat host effect params as erased in codegen](https://github.com/rust-lang/rust/pull/115817)
+* [turn custom code classes in docs into warning](https://github.com/rust-lang/rust/pull/115914)
+* [visit `ExprField` for lint levels](https://github.com/rust-lang/rust/pull/115825)
+* [store a index per dep node kind](https://github.com/rust-lang/rust/pull/115733)
+* [stabilize the `Saturating` type](https://github.com/rust-lang/rust/pull/115477)
+* [stabilize `const_transmute_copy`](https://github.com/rust-lang/rust/pull/115520)
+* [make `Debug` impl for `ascii::Char` match that of `char`](https://github.com/rust-lang/rust/pull/115434)
+* [add `minmax{,_by,_by_key}` functions to `core::cmp`](https://github.com/rust-lang/rust/pull/109409)
+* [specialize count for range iterators](https://github.com/rust-lang/rust/pull/112229)
+* [impl `Step` for IP addresses](https://github.com/rust-lang/rust/pull/113748)
+* [add implementation for `thread::sleep_until`](https://github.com/rust-lang/rust/pull/113753)
+* [cargo: cli: Add '-n' to dry-run](https://github.com/rust-lang/cargo/pull/12660)
+* [cargo: pkgid: Allow incomplete versions when unambigious](https://github.com/rust-lang/cargo/pull/12614)
+* [cargo: doc: differentiate defaults for split-debuginfo](https://github.com/rust-lang/cargo/pull/12680)
+* [cargo: stabilize credential-process and registry-auth](https://github.com/rust-lang/cargo/pull/12649)
+* [cargo: emit a warning for `credential-alias` shadowing](https://github.com/rust-lang/cargo/pull/12671)
+* [cargo: generalise suggestion on abiguous spec](https://github.com/rust-lang/cargo/pull/12685)
+* [cargo: limit cargo add feature print](https://github.com/rust-lang/cargo/pull/12662)
+* [cargo: prerelease candidates error message](https://github.com/rust-lang/cargo/pull/12659)
+* [cargo: consolidate clap/shell styles](https://github.com/rust-lang/cargo/pull/12655)
+* [cargo: use `RegistryOrIndex enum` to replace two booleans](https://github.com/rust-lang/cargo/pull/12677)
+* [rustfmt: Style help like cargo nightly](https://github.com/rust-lang/rustfmt/pull/5908)
+* [clippy: ignore `#[doc(hidden)]` functions in clippy doc lints](https://github.com/rust-lang/rust/pull/115851)
+* [clippy: reuse rustdoc's doc comment handling in Clippy](https://github.com/rust-lang/rust/pull/115689)
+* [clippy: `extra_unused_type_parameters`: Fix edge case FP for parameters in where bounds](https://github.com/rust-lang/rust-clippy/pull/11484)
+* [clippy: `filter_map_bool_then`: include multiple derefs from adjustments](https://github.com/rust-lang/rust-clippy/pull/11515)
+* [clippy: `len_without_is_empty`: follow type alias to find inherent `is_empty` method](https://github.com/rust-lang/rust-clippy/pull/11452)
+* [clippy: `used_underscore_bindings`: respect lint levels on the binding definition](https://github.com/rust-lang/rust-clippy/pull/11523)
+* [clippy: `useless_conversion`: don't lint if type parameter has unsatisfiable bounds for `.into_iter()` receiver](https://github.com/rust-lang/rust-clippy/pull/11301)
+* [clippy: fix FP of `let_unit_value` on async fn args](https://github.com/rust-lang/rust-clippy/pull/11509)
+* [clippy: fix ICE by `u64::try_from(<u128>)`](https://github.com/rust-lang/rust-clippy/pull/11517)
+* [clippy: trigger `transmute_null_to_fn` on chain of casts](https://github.com/rust-lang/rust-clippy/pull/11507)
+* [clippy: fix `filter_map_bool_then` with a bool reference](https://github.com/rust-lang/rust-clippy/pull/11506)
+* [clippy: ignore closures for some type lints](https://github.com/rust-lang/rust-clippy/pull/11504)
+* [clippy: ignore span's parents in `collect_ast_format_args`/`find_format_args`](https://github.com/rust-lang/rust-clippy/pull/11473)
+* [clippy: add `redundant_as_str` lint](https://github.com/rust-lang/rust-clippy/pull/11526)
+* [clippy: add extra `byref` checking for the guard's local](https://github.com/rust-lang/rust-clippy/pull/11468)
+* [clippy: new `unnecessary_map_on_constructor` lint](https://github.com/rust-lang/rust-clippy/pull/11413)
+* [clippy: new lint: `path_ends_with_ext`](https://github.com/rust-lang/rust-clippy/pull/11483)
+* [clippy: split `needless_borrow` into two lints](https://github.com/rust-lang/rust-clippy/pull/11511)
+* [rust-analyzer: field shorthand overwritten in promote local to const assist](https://github.com/rust-lang/rust-analyzer/pull/15597)
+* [rust-analyzer: don't skip closure captures after let-else](https://github.com/rust-lang/rust-analyzer/pull/15625)
+* [rust-analyzer: fix lens location `"above_whole_item"` breaking lenses](https://github.com/rust-lang/rust-analyzer/pull/15606)
+* [rust-analyzer: temporarily skip decl check in derive expansions](https://github.com/rust-lang/rust-analyzer/pull/15601)
+* [rust-analyzer: prefer stable paths over unstable ones in import path calculation](https://github.com/rust-lang/rust-analyzer/pull/15611)
 
 ### Rust Compiler Performance Triage
 
@@ -265,7 +354,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> This is the first programming language I've learned that makes it so easy to make test cases! It's actually a pleasure to implement them.
+
+– [0xMB on rust-users](https://users.rust-lang.org/t/published-first-library-looking-for-feedback/99856/7)
+
+Thanks to [Moy2010](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1467) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
