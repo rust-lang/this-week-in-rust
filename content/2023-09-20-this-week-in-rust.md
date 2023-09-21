@@ -33,8 +33,6 @@ and just ask the editors to select the category.
 ### Foundation
 * [Announcing the Rust Foundation’s Associate Membership with OpenSSF](https://foundation.rust-lang.org/news/announcing-the-rust-foundation-s-associate-membership-with-openssf/)
 
-### Newsletters
-
 ### Project/Tooling Updates
 * [This month in Servo: upcoming events, new browser UI, and more!](https://servo.org/blog/2023/09/15/upcoming-events-and-new-browser-ui/)
 * [Pagefind v1.0.0 — Stable static search at scale](https://github.com/CloudCannon/pagefind/releases/tag/v1.0.0)
@@ -330,11 +328,11 @@ Rusty Events between 2023-09-20 - 2023-10-18 🦀
 
 * 2023-09-21 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
     * [**A Cargo Preview w/Ed Page, A Cargo Team Member**](https://www.meetup.com/utah-rust/events/294972877/)
-* 2023-09-21 | Mountain View, CA, US| [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
+* 2023-09-21 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
     * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/mv-rust-meetup/events/295747006/)
 * 2023-09-21 | Nashville, TN, US | [Music City Rust Developers](https://www.meetup.com/music-city-rust-developers/)
     * [**Rust on the web! Get started with Leptos**](https://www.meetup.com/music-city-rust-developers/events/295587220/)
-* 2023-09-26 | Mountain View, CA, US| [Rust Breakfast & Learn](https://www.meetup.com/rust-breakfast-learn)
+* 2023-09-26 | Mountain View, CA, US | [Rust Breakfast & Learn](https://www.meetup.com/rust-breakfast-learn)
     * [**Rust: snacks & learn**](https://www.meetup.com/rust-breakfast-learn/events/295579189/)
 * 2023-09-26 | Pasadena, CA, US | [Pasadena Thursday Go/Rust](https://www.meetup.com/thursday-go/)
     * [**Monthly Rust group**](https://www.meetup.com/thursday-go/events/295771515)
@@ -376,7 +374,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/163w6fl/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -392,4 +390,4 @@ Thanks to [Moy2010](https://users.rust-lang.org/t/twir-quote-of-the-week/328/146
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/16o13k5/this_week_in_rust_513/)</small>
