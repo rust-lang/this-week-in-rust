@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 ### Research
+* [How do Rust developers use unsafe? - Survey](https://cmu.ca1.qualtrics.com/jfe/form/SV_0k7naTSSk8jaaGi)
 
 ### Miscellaneous
 
