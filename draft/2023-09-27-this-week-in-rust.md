@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Cross-compiling Rust on Github Actions](https://blog.timhutt.co.uk/cross-compiling-rust/)
+
 ### Research
 
 ### Miscellaneous
