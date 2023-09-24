@@ -59,6 +59,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
+* [nix-rust - next generation maintainers](https://github.com/nix-rust/nix/issues/2132)
 <!-- * [ - ]() -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
