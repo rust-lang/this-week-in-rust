@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+[Rust for Mission Critical Applications](https://ferrous-systems.com/blog/rust-for-mission-critical-applications/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
