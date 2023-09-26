@@ -71,7 +71,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A very quiet week with the only large change in performance being improvements brought on by @saethlin's work on cleaning up the `FileEncoder` used in various places like `rustc_metadata` and `rustc_serialize`.
+
+Triage done by **@rylev**.
+Revision range: [af78bae..27b4eb9](https://perf.rust-lang.org/?start=af78bae565e85b9c5698ee909af0652674eca6d4&end=27b4eb96d13106332d511be2ea6d0c008a57aa6e&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.6%  | [0.3%, 1.1%]   | 15    |
+| Regressions ❌ <br /> (secondary)  | 2.0%  | [0.2%, 7.1%]   | 32    |
+| Improvements ✅ <br /> (primary)   | -0.7% | [-1.3%, -0.3%] | 70    |
+| Improvements ✅ <br /> (secondary) | -0.9% | [-3.5%, -0.2%] | 31    |
+| All ❌✅ (primary)                 | -0.4% | [-1.3%, 1.1%]  | 85    |
+
+
+2 Regressions, 3 Improvements, 4 Mixed; 0 of them in rollups
+73 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-09-26.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
