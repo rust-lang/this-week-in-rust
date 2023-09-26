@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+[Qualifying Rust without forking | Ferrous Systems](https://ferrous-systems.com/blog/qualifying-rust-without-forking/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
