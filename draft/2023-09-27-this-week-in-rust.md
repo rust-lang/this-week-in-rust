@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [async_fn_traits](https://docs.rs/async_fn_traits), a crate with async function traits to enable using higher ranked trait bounds in async functions.
+
+Thanks to [kornel](https://users.rust-lang.org/t/crate-of-the-week/2704/1239) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -67,7 +69,106 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+402 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-09-18..2023-09-25
+
+* [*breaking change*: Validate crate name in `--extern`](https://github.com/rust-lang/rust/pull/116001)
+* [add support for GNU/Hurd](https://github.com/rust-lang/rust/pull/115230)
+* [enable ASAN/LSAN/TSAN for *-apple-ios-macabi](https://github.com/rust-lang/rust/pull/115644)
+* [raise minimum supported Apple OS versions](https://github.com/rust-lang/rust/pull/104385)
+* [`rustc_target/loongarch`: Fix passing of transparent unions with only one non-ZST member](https://github.com/rust-lang/rust/pull/115987)
+* [`rustc_target/riscv`: Fix passing of transparent unions with only one non-ZST member](https://github.com/rust-lang/rust/pull/115499)
+* [`rustc_hir_analysis`: add a helper to check function the signature mismatches](https://github.com/rust-lang/rust/pull/115897)
+* [account for nested `impl Trait` in TAIT](https://github.com/rust-lang/rust/pull/116039)
+* [add minimal std implementation for UEFI](https://github.com/rust-lang/rust/pull/105861)
+* [add OwnedTargetMachine to manage llvm:TargetMachine](https://github.com/rust-lang/rust/pull/115911)
+* [add Zba, Zbb, and Zbs as target features for riscv64-linux-android](https://github.com/rust-lang/rust/pull/116076)
+* [add initial libstd support for Xous](https://github.com/rust-lang/rust/pull/104101)
+* [adjust `ConstValue::Slice` to work for arbitrary slice types](https://github.com/rust-lang/rust/pull/115870)
+* [adjust how closure/generator types are printed](https://github.com/rust-lang/rust/pull/115696)
+* [allow `-Z treat-err-as-bug=0`](https://github.com/rust-lang/rust/pull/115690)
+* [allow anyone to set llvm-fixed-upstream](https://github.com/rust-lang/rust/pull/115990)
+* [allow higher-ranked fn sigs in `ValuePairs`](https://github.com/rust-lang/rust/pull/116073)
+* [capture scrutinee of if let guards correctly](https://github.com/rust-lang/rust/pull/115999)
+* [check that closure/generator's interior/capture types are sized](https://github.com/rust-lang/rust/pull/116081)
+* [command: also print removed env vars](https://github.com/rust-lang/rust/pull/114379)
+* [correctly deny late-bound lifetimes from parent in anon consts and TAITs](https://github.com/rust-lang/rust/pull/115486)
+* [coverage: don't bother renumbering expressions on the Rust side](https://github.com/rust-lang/rust/pull/114399)
+* [coverage: fix an unstable-sort inconsistency in coverage spans](https://github.com/rust-lang/rust/pull/115930)
+* [coverage: remove debug code from the instrumentor](https://github.com/rust-lang/rust/pull/115962)
+* [dependencies: reduce the amount of crates pulling in atty](https://github.com/rust-lang/rust/pull/115975)
+* [detect cycle errors hidden by opaques during monomorphization](https://github.com/rust-lang/rust/pull/115801)
+* [diagnostics: avoid mismatch between variance index and hir generic](https://github.com/rust-lang/rust/pull/116045)
+* [do not create a DerefLen place for `Box<[T]>`](https://github.com/rust-lang/rust/pull/115794)
+* [don't ICE when no bound vars found while doing closure hir type check](https://github.com/rust-lang/rust/pull/113396)
+* [don't complain on a single non-exhaustive 1-ZST](https://github.com/rust-lang/rust/pull/115924)
+* [don't modify libstd to dump rustc ICEs](https://github.com/rust-lang/rust/pull/115627)
+* [don't resolve generic impls that may be shadowed by dyn built-in impls](https://github.com/rust-lang/rust/pull/114941)
+* [enable -Zdrop-tracking-mir by default](https://github.com/rust-lang/rust/pull/107421)
+* [enable effects for libcore](https://github.com/rust-lang/rust/pull/114776)
+* [fall back to `_SC_NPROCESSORS_ONLN` if `sched_getaffinity` returns an empty mask](https://github.com/rust-lang/rust/pull/116038)
+* [fall back to the unoptimized implementation in `read_binary_file` if `File::metadata` lies](https://github.com/rust-lang/rust/pull/115549)
+* [fix `ui-fulldeps --stage=1` with `-Zignore-directory-in-diagnostics-source-blocks`](https://github.com/rust-lang/rust/pull/116009)
+* [fix confusing let chain indentation in `rustc_resolve`](https://github.com/rust-lang/rust/pull/115983)
+* [fix debug printing of tuple](https://github.com/rust-lang/rust/pull/116069)
+* [give FutureIncompatibilityReason variants more explicit names](https://github.com/rust-lang/rust/pull/116049)
+* [implement `Literal::byte_character`](https://github.com/rust-lang/rust/pull/112711)
+* [implement `intercrate_ambiguity_causes` in the new solver](https://github.com/rust-lang/rust/pull/115996)
+* [improve invalid UTF-8 lint by finding the expression initializer](https://github.com/rust-lang/rust/pull/115257)
+* [interpret: more consistently use ImmTy in operators and casts](https://github.com/rust-lang/rust/pull/116010)
+* [make unsized casts illegal](https://github.com/rust-lang/rust/pull/116056)
+* [match on elem first while building move paths](https://github.com/rust-lang/rust/pull/115770)
+* [more accurate suggestion for `self.` and `Self:`:](https://github.com/rust-lang/rust/pull/116086)
+* [move `DepKind` to `rustc_query_system` and define it as `u16`](https://github.com/rust-lang/rust/pull/115920)
+* [pass name of object file to LLVM so it can correctly emit `S_OBJNAME` in pdb files on Windows](https://github.com/rust-lang/rust/pull/115704)
+* [point at cause of expectation of `break` value when possible](https://github.com/rust-lang/rust/pull/116071)
+* [prevent promotion of const fn calls in inline consts](https://github.com/rust-lang/rust/pull/115936)
+* [suggest desugaring to return-position `impl Future` when an `async fn` in trait fails an auto trait bound](https://github.com/rust-lang/rust/pull/115864)
+* [tweak expected message to explain what it's actually signifying](https://github.com/rust-lang/rust/pull/116082)
+* [miri: GC the Stacked Borrows allocation history](https://github.com/rust-lang/miri/pull/3083)
+* [miri: deprecate -Zmiri-disable-abi-check](https://github.com/rust-lang/miri/pull/3071)
+* [miri: implement `llvm.ctpop.v*` intrinsics](https://github.com/rust-lang/miri/pull/3072)
+* [miri: issue discovered in TB: spurious reads are not (yet) possible in a concurrent setting](https://github.com/rust-lang/miri/pull/3054)
+* [miri: move `llvm.x86.*` shims into `shims::x86` and implement `_addcarry_u32` and `_subborrow_u{32,64}`](https://github.com/rust-lang/miri/pull/3075)
+* [open the FileEncoder file for reading and writing](https://github.com/rust-lang/rust/pull/116067)
+* [simplify/Optimize FileEncoder](https://github.com/rust-lang/rust/pull/115542)
+* [avoid overflow in `IoSlice::advance_slices`](https://github.com/rust-lang/rust/pull/116070)
+* [call `panic_display` directly in `const_panic_fmt`](https://github.com/rust-lang/rust/pull/116007)
+* [implement `cstr_count_bytes`](https://github.com/rust-lang/rust/pull/114443)
+* [panic when encountering an illegal cpumask in `thread::available_parallelism`](https://github.com/rust-lang/rust/pull/115946)
+* [add the `cfg_match!` macro](https://github.com/rust-lang/rust/pull/115416)
+* [cargo: add some enhancements to `cargo clean`](https://github.com/rust-lang/cargo/pull/12638)
+* [cargo: better suggestion for redundant mode in build and install commands](https://github.com/rust-lang/cargo/pull/12693)
+* [cargo: buffer console status messages](https://github.com/rust-lang/cargo/pull/12727)
+* [cargo: cargo add displays either feature list or summarized count](https://github.com/rust-lang/cargo/pull/12702)
+* [cargo: doc: mention unstable flag `-Z asymmetric-token`](https://github.com/rust-lang/cargo/pull/12712)
+* [cargo: fix spurious errors with networking tests](https://github.com/rust-lang/cargo/pull/12726)
+* [cargo: fix: copy PDBs for EFI targets](https://github.com/rust-lang/cargo/pull/12688)
+* [cargo: fix: use channel-specific link for registry auth error](https://github.com/rust-lang/cargo/pull/12709)
+* [cargo: infra: add auto-trigger rules for new labels](https://github.com/rust-lang/cargo/pull/12713)
+* [cargo: more specific registry index not found msg](https://github.com/rust-lang/cargo/pull/12732)
+* [cargo: shortest path](https://github.com/rust-lang/cargo/pull/12678)
+* [rustdoc-search: add support for type parameters](https://github.com/rust-lang/rust/pull/112725)
+* [rustdoc: correctly render the return type of cross-crate async fns](https://github.com/rust-lang/rust/pull/116084)
+* [rustdoc: custom code classes in docs warning](https://github.com/rust-lang/rust/pull/115947)
+* [rustfmt: bugfix/comment duplication](https://github.com/rust-lang/rustfmt/pull/5913)
+* [clippy: `redundant_guards`: lint if the pattern is on the left side](https://github.com/rust-lang/rust-clippy/pull/11522)
+* [clippy: change defaults of `accept-comment-above-statement` and `accept-comment-above-attributes`](https://github.com/rust-lang/rust-clippy/pull/11170)
+* [clippy: fix false positive with `needless_raw_string_hashes`](https://github.com/rust-lang/rust-clippy/pull/11518)
+* [clippy: fix `cast_lossless` with macro call](https://github.com/rust-lang/rust-clippy/pull/11516)
+* [clippy: fix mutably used async function argument in closure for `needless_pass_by_ref_mut`](https://github.com/rust-lang/rust-clippy/pull/11492)
+* [clippy: fixed  caused by moving &mut reference inside of a closure](https://github.com/rust-lang/rust-clippy/pull/11551)
+* [clippy: prevent ice when threshold is 0 and `enum` has no variants](https://github.com/rust-lang/rust-clippy/pull/11552)
+* [clippy: remove most usage of `hir_ty_to_ty`](https://github.com/rust-lang/rust-clippy/pull/11544)
+* [rust-analyzer: add `unused_variables` native diagnostic](https://github.com/rust-lang/rust-analyzer/pull/15659)
+* [rust-analyzer: add option to show full function signatures in completion docs](https://github.com/rust-lang/rust-analyzer/pull/15582)
+* [rust-analyzer: deunwrap `add_missing_match_arms`](https://github.com/rust-lang/rust-analyzer/pull/15594)
+* [rust-analyzer: do not resolve inlayHint.textEdit for VSCode client](https://github.com/rust-lang/rust-analyzer/pull/15635)
+* [rust-analyzer: bool to `enum` assist](https://github.com/rust-lang/rust-analyzer/pull/15484)
+* [rust-analyzer: fix autoimport does nothing when importing trait that is as `_` imports](https://github.com/rust-lang/rust-analyzer/pull/15587)
+* [rust-analyzer: fix inlining closures from local variables and functions](https://github.com/rust-lang/rust-analyzer/pull/15651)
+* [rust-analyzer: give `unmerge_use` a label explaining what it will affect](https://github.com/rust-lang/rust-analyzer/pull/15621)
 
 ### Rust Compiler Performance Triage
 
@@ -261,7 +362,15 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> The problem with Rust it appears,  
+> that it leaves programmers in tears  
+> if they have to go back  
+> to languages that lack  
+> in short they've got feature-arrears.
+
+– [llogiq on /r/rust](https://www.reddit.com/r/rust/comments/16mv8bb/comment/k1buhp0/)
+
+Thanks to [Frank Steffahn](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1468) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
