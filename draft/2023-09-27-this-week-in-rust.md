@@ -60,6 +60,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [Hyperswitch - add multiple insert and delete functionality for in-memory cache](https://github.com/juspay/hyperswitch/issues/2373)
+* [Hyperswitch - add metrics to cache invalidation miss](https://github.com/juspay/hyperswitch/issues/2377)
+* [Hyperswitch - separate payments_session from payments core](https://github.com/juspay/hyperswitch/issues/888)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
