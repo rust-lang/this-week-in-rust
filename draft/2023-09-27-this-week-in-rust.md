@@ -58,8 +58,17 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [DeepCausality - Increase Test Coverage](https://github.com/deepcausality-rs/deep_causality/issues/104)
+* [DeepCausality - Polish documentation](https://github.com/deepcausality-rs/sites/issues/71)
+* [rust-libp2p - replace `custom-clippy` alias with workspace-wide `[lints]` configuration](https://github.com/libp2p/rust-libp2p/issues/4484)
+* [rust-libp2p - Prefer tokio runtime everywhere](https://github.com/libp2p/rust-libp2p/issues/4449)
+* [rust-libp2p - misc: make `RwStreamSink` an implementation detail of the memory transport](https://github.com/libp2p/rust-libp2p/issues/4345)
+* [Missing panic condition on API docs](https://github.com/time-rs/time/issues/623)
+* [Add comparison to chrono to the docs](https://github.com/time-rs/time/issues/308)
+* [time - The Book is hardly readable](https://github.com/time-rs/time/issues/327)
+* [Ockam - `ockam status` clap command should provide more user friendly information when a user is *not* enrolled](https://github.com/build-trust/ockam/issues/6064)
+* [Ockam - `ockam status` clap command should provide more user friendly information when a user is enrolled](https://github.com/build-trust/ockam/issues/6063)
+* [Ockam - Improve `ockam enroll ----help` clap command text by adding doc comment for `verbose` flag](https://github.com/build-trust/ockam/issues/6055)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
