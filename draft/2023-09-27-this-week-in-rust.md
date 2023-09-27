@@ -37,6 +37,9 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Let's Build a FIPS-validated Rust Crypto Library](https://briansmith.org/lets-build-a-fips-rust-crypto)
+* [Why Not Rust Crypto?](https://briansmith.org/why-not-rustcrypto)
+
 ### Rust Walkthroughs
 
 ### Research
