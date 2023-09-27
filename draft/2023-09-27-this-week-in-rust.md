@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [audio] [RustShip: Atuin - Shell history sync, search and backup with Ellie Huxtable](https://ieni.dev/2023/09/%EF%B8%8F-atuin-shell-history-sync-search-and-backup-ellie-huxtable-rustship-3/)
 
 ## Crate of the Week
 
