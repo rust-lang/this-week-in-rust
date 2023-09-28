@@ -39,7 +39,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-* \[video\] [`no_std: ?no_problem`](https://www.youtube.com/watch?v=Oq-3bOBrpeo)
+* [video] [`no_std: ?no_problem`](https://www.youtube.com/watch?v=Oq-3bOBrpeo)
 
 ### Research
 
