@@ -38,8 +38,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
 * [Cross-compiling Rust on Github Actions](https://blog.timhutt.co.uk/cross-compiling-rust/)
+* [video] [`no_std: ?no_problem`](https://www.youtube.com/watch?v=Oq-3bOBrpeo)
 
 ### Research
 * [How do Rust developers use unsafe? - Survey](https://cmu.ca1.qualtrics.com/jfe/form/SV_0k7naTSSk8jaaGi)
