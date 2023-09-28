@@ -86,6 +86,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
+<!-- * [ - ]() -->
+* [Hyperswitch - add multiple insert and delete functionality for in-memory cache](https://github.com/juspay/hyperswitch/issues/2373)
+* [Hyperswitch - add metrics to cache invalidation miss](https://github.com/juspay/hyperswitch/issues/2377)
+* [Hyperswitch - separate payments_session from payments core](https://github.com/juspay/hyperswitch/issues/888)
 * [nix-rust - next generation maintainers](https://github.com/nix-rust/nix/issues/2132)
 * [DeepCausality - Increase Test Coverage](https://github.com/deepcausality-rs/deep_causality/issues/104)
 * [DeepCausality - Polish documentation](https://github.com/deepcausality-rs/sites/issues/71)
