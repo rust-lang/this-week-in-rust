@@ -62,7 +62,7 @@ and just ask the editors to select the category.
 * [Profiling with perf and DHAT on Rust code in Linux](https://www.justanotherdot.com/posts/profiling-with-perf-and-dhat-on-rust-code-in-linux.html)
 * [Adding runtime benchmarks to the Rust compiler benchmark suite](https://kobzol.github.io/rust/rustc/2023/09/23/rustc-runtime-benchmarks.html)
 * [ESP Embedded Rust: Multithreading with FreeRTOS Bindings](https://apollolabsblog.hashnode.dev/esp-embedded-rust-multithreading-with-freertos-bindings)
-* [A JVM in Rust part 6 - Methods and exceptions](https://andreabergia.com/blog/2023/09/a-jvm-in-rust-part-6-methods-and-exceptions/
+* [A JVM in Rust part 6 - Methods and exceptions](https://andreabergia.com/blog/2023/09/a-jvm-in-rust-part-6-methods-and-exceptions/)
 * [audio] [RustShip: Atuin - Shell history sync, search and backup with Ellie Huxtable](https://ieni.dev/2023/09/%EF%B8%8F-atuin-shell-history-sync-search-and-backup-ellie-huxtable-rustship-3/)
 
 ## Crate of the Week
