@@ -356,7 +356,9 @@ Rusty Events between 2023-09-27 - 2023-10-25 🦀
     * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/mv-rust-meetup/events/296369976/)
 * 2023-10-19 | Nashville, TN, US | [Music City Rust Developers](https://www.meetup.com/music-city-rust-developers/)
     * [**Rust Meetup : Getting to Know search other**](https://www.meetup.com/music-city-rust-developers/events/296254420/)
-
+* 2023-10-19 | Seattle, WA, US | [Seattle Rust User Group](https://www.meetup.com/seattle-rust-user-group/)
+    * [**Seattle Rust User Group - October Meetup**](https://www.meetup.com/seattle-rust-user-group/events/296110729)
+    
 ### Oceania
 
 * 2023-09-28 | Brisbane, QLD, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane/)
