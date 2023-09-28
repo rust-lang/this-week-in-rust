@@ -65,10 +65,7 @@ and just ask the editors to select the category.
 * [Profiling with perf and DHAT on Rust code in Linux](https://www.justanotherdot.com/posts/profiling-with-perf-and-dhat-on-rust-code-in-linux.html)
 * [Adding runtime benchmarks to the Rust compiler benchmark suite](https://kobzol.github.io/rust/rustc/2023/09/23/rustc-runtime-benchmarks.html)
 * [ESP Embedded Rust: Multithreading with FreeRTOS Bindings](https://apollolabsblog.hashnode.dev/esp-embedded-rust-multithreading-with-freertos-bindings)
-* [A JVM in Rust part 6 - Methods and exceptions](https://andreabergia.com/blog/2023/09/a-jvm-in-rust-part-6-methods-and-exceptions/)
-* [video] [no_std: ?no_problem: September 2023 Rust Gamedev Meetup](https://www.youtube.com/watch?v=Oq-3bOBrpeo)
-
-[Rust for Mission Critical Applications - Rust on SPARC 8 processors](https://ferrous-systems.com/blog/rust-for-mission-critical-applications/)
+* [A JVM in Rust part 6 - Methods and exceptions](https://andreabergia.com/blog/2023/09/a-jvm-in-rust-part-6-methods-and-exceptions/
 
 ## Crate of the Week
 
