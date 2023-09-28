@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+[Rust for Mission Critical Applications - Rust on SPARC 8 processors](https://ferrous-systems.com/blog/rust-for-mission-critical-applications/)
+
 ## Crate of the Week
 
 This week's crate is [async_fn_traits](https://docs.rs/async_fn_traits), a crate with async function traits to enable using higher ranked trait bounds in async functions.
