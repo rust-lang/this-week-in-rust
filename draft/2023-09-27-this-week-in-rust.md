@@ -43,7 +43,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
-[Rust for Mission Critical Applications](https://ferrous-systems.com/blog/rust-for-mission-critical-applications/)
+[Rust for Mission Critical Applications - Rust on SPARC 8 processors](https://ferrous-systems.com/blog/rust-for-mission-critical-applications/)
 
 ## Crate of the Week
 
