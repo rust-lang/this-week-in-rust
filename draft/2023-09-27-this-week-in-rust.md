@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Meilisearch 1.4 - new features, including custom text separators, and user-definded dictionary](https://blog.meilisearch.com/v1-4-release/)
 * [cargo-binstall Release v1.4.1](https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.4.1)
 
 ### Observations/Thoughts
