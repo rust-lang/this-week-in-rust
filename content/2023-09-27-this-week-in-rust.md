@@ -31,10 +31,6 @@ and just ask the editors to select the category.
 * [Increasing the minimum supported Apple platform versions](https://blog.rust-lang.org/2023/09/25/Increasing-Apple-Version-Requirements.html)
 * [crates.io Policy Update RFC](https://blog.rust-lang.org/2023/09/22/crates-io-usage-policy-rfc.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [Meilisearch 1.4 - new features, including custom text separators, and user-definded dictionary](https://blog.meilisearch.com/v1-4-release/)
 * [cargo-binstall Release v1.4.1](https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.4.1)
@@ -384,7 +380,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/163w6fl/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -404,4 +400,4 @@ Thanks to [Frank Steffahn](https://users.rust-lang.org/t/twir-quote-of-the-week/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/16u2kba/this_week_in_rust_514/)</small>
