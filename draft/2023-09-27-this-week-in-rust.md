@@ -28,25 +28,44 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Increasing the minimum supported Apple platform versions](https://blog.rust-lang.org/2023/09/25/Increasing-Apple-Version-Requirements.html)
+* [crates.io Policy Update RFC](https://blog.rust-lang.org/2023/09/22/crates-io-usage-policy-rfc.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [cargo-binstall Release v1.4.1](https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.4.1)
 
 ### Observations/Thoughts
+* [Interacting with AWS IAM services using the Rust SDK and stand-alone CLI](https://sanjuvi.github.io/Blog/posts/Aws-Iam/)
+* [My Pure Rust Wishlist](https://gburghoorn.com/posts/pure-rust-wishlist/)
+* [Qualifying Rust without forking](https://ferrous-systems.com/blog/qualifying-rust-without-forking/)
+* [Why Not Rust Crypto?](https://briansmith.org/why-not-rustcrypto)
+* [Eyra is an interesting Rust project](https://notgull.net/eyra/)
+* [Generic trait methods and new auto traits](https://without.boats/blog/generic-trait-methods-and-new-auto-traits/)
+* [Rust for Mission Critical Applications](https://ferrous-systems.com/blog/rust-for-mission-critical-applications/)
+* [Polonius revisited, part 1](https://smallcultfollowing.com/babysteps/blog/2023/09/22/polonius-part-1/)
+* [Scaling Rust Adoption Through Training](https://security.googleblog.com/2023/09/scaling-rust-adoption-through-training.html)
 
 ### Rust Walkthroughs
+* [Hello, Rust!](https://ariel-miculas.github.io/Hello-Rust/)
+* [Rust: The joy of safe zero-copy parsers](https://itnext.io/rust-the-joy-of-safe-zero-copy-parsers-8c8581db8ab2)
 * [Cross-compiling Rust on Github Actions](https://blog.timhutt.co.uk/cross-compiling-rust/)
+* [video] [Build Your First Game in Bevy and Rust](https://www.youtube.com/watch?v=E9SzRc9HkOg)
 * [video] [`no_std: ?no_problem`](https://www.youtube.com/watch?v=Oq-3bOBrpeo)
 
 ### Research
 * [How do Rust developers use unsafe? - Survey](https://cmu.ca1.qualtrics.com/jfe/form/SV_0k7naTSSk8jaaGi)
 
 ### Miscellaneous
-
-[Rust for Mission Critical Applications - Rust on SPARC 8 processors](https://ferrous-systems.com/blog/rust-for-mission-critical-applications/)
+* [Using Kani to write and validate Rust code with ChatGPT](https://blog.logrocket.com/using-kani-write-validate-rust-code-chatgpt/)
+* [Logging in Rust - How to Get Started](https://www.shuttle.rs/blog/2023/09/20/logging-in-rust)
+* [Profiling with perf and DHAT on Rust code in Linux](https://www.justanotherdot.com/posts/profiling-with-perf-and-dhat-on-rust-code-in-linux.html)
+* [Adding runtime benchmarks to the Rust compiler benchmark suite](https://kobzol.github.io/rust/rustc/2023/09/23/rustc-runtime-benchmarks.html)
+* [ESP Embedded Rust: Multithreading with FreeRTOS Bindings](https://apollolabsblog.hashnode.dev/esp-embedded-rust-multithreading-with-freertos-bindings)
+* [A JVM in Rust part 6 - Methods and exceptions](https://andreabergia.com/blog/2023/09/a-jvm-in-rust-part-6-methods-and-exceptions/
 
 ## Crate of the Week
 
