@@ -169,6 +169,8 @@ Rusty Events between 2023-10-04 - 2023-11-01 🦀
 
 * 2023-10-03 | Taipei, TW | [WebAssembly and Rust Meetup (Wasm Empowering AI)](https://www.meetup.com/wasm-rust-meetup/)
     * [**WebAssembly Meetup (Wasm Empowering AI) in Taipei**](https://www.meetup.com/wasm-rust-meetup/events/295672575/)
+* 2023-10-11 | Kuala Lumpur, MY | [GoLang Malaysia](https://t.me/golangmalaysia)
+    * [**Rust Meetup Malaysia October 2023**](https://forms.gle/wwJAEipFgwQtEfJB9) | [Event updates Telegram](https://t.me/+dF46Fly4A_BjOTJl) | [Event group chat](https://t.me/golangmalaysia)
 
 ### Europe
 
