@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing Yew 0.21](https://yew.rs/blog/2023/09/23/release-0-21)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
