@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Writing the Matrix Bridge in Rust using matrix-rust-sdk](https://harshil-jani.github.io/GSoC-Book-2.0/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
