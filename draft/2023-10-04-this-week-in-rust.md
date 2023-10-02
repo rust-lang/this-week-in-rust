@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+ - [Rustconf 2023 recap](https://blog.adamchalmers.com/rustconf-2023-recap/)
+
 ### Rust Walkthroughs
 
 ### Research
