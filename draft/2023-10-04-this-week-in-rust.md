@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [daktilo](https://github.com/orhun/daktilo): A small command-line tool to turn your keyboard into a typewriter!
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
