@@ -107,15 +107,7 @@ Revision range: [27b4eb..9998f4](https://perf.rust-lang.org/?start=27b4eb96d1310
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -124,34 +116,38 @@ which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [RFC: Remove implicit features in a new edition](https://github.com/rust-lang/rfcs/pull/3491)
+* [Add `f16` and `f128` float types](https://github.com/rust-lang/rfcs/pull/3453)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [Tracking Issue for pointer_bytes_offsets](https://github.com/rust-lang/rust/issues/96283)
+* [disposition: merge] [Stabilize `atomic_from_ptr`](https://github.com/rust-lang/rust/pull/115719)
+* [disposition: merge] [document when atomic loads are guaranteed read-only](https://github.com/rust-lang/rust/pull/115577)
+* [disposition: merge] [const_eval: allow function pointer signatures containing &mut T in const contexts](https://github.com/rust-lang/rust/pull/116015)
+* [disposition: merge] [const-eval: make misalignment a hard error](https://github.com/rust-lang/rust/pull/115524)
+* [disposition: merge] [Stabilize `async fn` and `return-position impl` Trait in trait](https://github.com/rust-lang/rust/pull/115822)
+* [disposition: merge] [rustdoc: hide `#[repr(transparent)]` if it isn't part of the public ABI](https://github.com/rust-lang/rust/pull/115439)
+* [disposition: merge] [Stabilize `const_maybe_uninit_assume_init_read`](https://github.com/rust-lang/rust/pull/116233)
+* [disposition: merge] [Fix exit status / wait status on non-Unix cfg(unix) platforms](https://github.com/rust-lang/rust/pull/115108)
+* [disposition: merge] [impl Default for ExitCode](https://github.com/rust-lang/rust/pull/114589)
+* [disposition: merge] [rustdoc-search: add impl disambiguator to duplicate assoc items](https://github.com/rust-lang/rust/pull/109422)
+* [disposition: merge] [rustdoc: show crate name beside smaller logo](https://github.com/rust-lang/rust/pull/115948)
+* [disposition: merge] [Implement iterator specialization traits on more adapters](https://github.com/rust-lang/rust/pull/85528)
+* [disposition: merge] [Fix generic bound of `str::SplitInclusive`'s `DoubleEndedIterator` impl](https://github.com/rust-lang/rust/pull/100806)
+* [disposition: merge] [fix detecting references to packed unsized fields](https://github.com/rust-lang/rust/pull/115583)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+* [new] [Move rustdoc-types to T-Rustdoc ownership.](https://github.com/rust-lang/rfcs/pull/3505)
+* [new] [RFC: Syntax for embedding cargo-script manifests](https://github.com/rust-lang/rfcs/pull/3503)
+* [new] [RFC: cargo-script](https://github.com/rust-lang/rfcs/pull/3502)
+* [new] [2024 Edition](https://github.com/rust-lang/rfcs/pull/3501)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+* *No RFCs issued a call for testing this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
