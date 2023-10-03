@@ -36,6 +36,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Zenoh 0.10.0,  a pure Rust Pub/Sub/Query protocol for cloud-to-thing continuum, was released and it is packed with new features.](https://zenoh.io/blog/2023-10-03-zenoh-dragonite/)
 
+* [Announcing Yew 0.21](https://yew.rs/blog/2023/09/23/release-0-21)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
