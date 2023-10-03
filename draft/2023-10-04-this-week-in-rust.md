@@ -196,6 +196,8 @@ Rusty Events between 2023-10-04 - 2023-11-01 🦀
     * [**Rust Lyon Meetup #6**](https://www.meetup.com/fr-FR/rust-lyon/events/296186641/)
 * 2023-10-10 | Berlin, DE | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/295679773/)
+* 2023-10-11 | Brussels, BE | [BeCode Brussels Meetup](https://www.eventbrite.be/e/becode-brussels-meetup-rust-on-web-tickets-728375238947)
+    * [**Rust on Web - EuroRust Conference**](https://rust-on-web.glitch.me/)
 * 2023-10-12 - 2023-10-13 | Brussels, BE | [EuroRust](https://eurorust.eu)
     * [**EuroRust 2023**](https://eurorust.eu)
 * 2023-10-12 | Brussels, BE | [Rust Aarhus](https://www.meetup.com/rust-aarhus)
