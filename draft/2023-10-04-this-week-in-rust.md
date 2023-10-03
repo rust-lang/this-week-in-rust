@@ -81,7 +81,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A week completely free of pure regressions! The compiler has definitely come out of this week a decent amount faster and less memory hungry than before with the large gain coming from building the compiler with a single CGU on x64 Linux. This not only allows LLVM to do more optimizations across the entire compiler, but should hopefully also result in less non-deterministic performance regressions in the future. This improvement largely comes only at the expense of a few more minutes spent when bootstrapping the compiler.
+
+Triage done by **@rylev**.
+Revision range: [27b4eb..9998f4](https://perf.rust-lang.org/?start=27b4eb96d13106332d511be2ea6d0c008a57aa6e&end=9998f4add08c3d09c82e00975cf3a293b30160ec&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.0%  | [0.3%, 6.1%]   | 41    |
+| Regressions ❌ <br /> (secondary)  | 2.0%  | [0.9%, 7.8%]   | 21    |
+| Improvements ✅ <br /> (primary)   | -1.3% | [-5.1%, -0.2%] | 134   |
+| Improvements ✅ <br /> (secondary) | -1.8% | [-6.9%, -0.2%] | 175   |
+| All ❌✅ (primary)                 | -0.8% | [-5.1%, 6.1%]  | 175   |
+
+
+0 Regressions, 2 Improvements, 4 Mixed; 0 of them in rollups
+74 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-10-03.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
