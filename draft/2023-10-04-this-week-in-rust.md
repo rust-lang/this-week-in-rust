@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 * [series] [Distributed Tracing in Rust, Episode 4: correlating logs and traces](https://heikoseeberger.de/2023-09-30-dist-tracing-4/)
 
+* [Tracing Tokio Tasks](https://hegdenu.net/posts/tracing-tokio-tasks/)
+
 ### Research
 
 ### Miscellaneous
