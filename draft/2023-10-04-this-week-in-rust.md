@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 * [Leptos Release v0.5.0](https://github.com/leptos-rs/leptos/releases/tag/v0.5.0)
 * [Announcing Yew 0.21](https://yew.rs/blog/2023/09/23/release-0-21)
 * [Ambient Platform](https://ambient.run/blog/platform)
+* [Open Sourcing Ferrocene](https://ferrous-systems.com/blog/ferrocene-open-source/)
 * [rust-analyzer hangelog #201](https://rust-analyzer.github.io/thisweek/2023/10/02/changelog-201.html)
 * [Zenoh 0.10.0, a pure Rust Pub/Sub/Query protocol for cloud-to-thing continuum, was released and it is packed with new features.](https://zenoh.io/blog/2023-10-03-zenoh-dragonite/)
 
