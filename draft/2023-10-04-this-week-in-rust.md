@@ -71,6 +71,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
 
+* [Hyperswitch (Hacktoberfest)- Bitpay: Use connector_response_reference_id as reference to merchant](https://github.com/juspay/hyperswitch/issues/2325)
+* [Hyperswitch (Hacktoberfest)- Trustpay: Remove Default Case Handling](https://github.com/juspay/hyperswitch/issues/2287)
+* [Hyperswitch (Hacktoberfest)- Worldline: Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2249)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
