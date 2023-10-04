@@ -46,6 +46,9 @@ and just ask the editors to select the category.
 * [Rust Dockerfile Boilerplate](https://peterprototypes.com/blog/rust-dockerfile-boilerplate/)
 
 * [series] [Distributed Tracing in Rust, Episode 4: correlating logs and traces](https://heikoseeberger.de/2023-09-30-dist-tracing-4/)
+  
+* [Nine Rules to Formally Validate Rust Algorithms with Dafny (Part 1):
+Lessons from Verifying the range-set-blaze Crate](https://towardsdatascience.com/nine-rules-to-formally-validate-rust-algorithms-with-dafny-part-1-5cb8c8a0bb92)
 
 ### Research
 
