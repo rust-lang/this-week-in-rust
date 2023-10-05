@@ -69,7 +69,6 @@ and just ask the editors to select the category.
 ### Miscellaneous
 
 * [Writing the Matrix Bridge in Rust using matrix-rust-sdk](https://harshil-jani.github.io/GSoC-Book-2.0/)
-* [Open Sourcing Ferrocene](https://ferrous-systems.com/blog/ferrocene-open-source/)
 * [Ferrocene Open Source documentation](https://public-docs.ferrocene.dev/main/)
 
 ## Crate of the Week
