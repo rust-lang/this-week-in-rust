@@ -46,8 +46,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Rust Dockerfile Boilerplate](https://peterprototypes.com/blog/rust-dockerfile-boilerplate/)
-
 * [series] [Distributed Tracing in Rust, Episode 4: correlating logs and traces](https://heikoseeberger.de/2023-09-30-dist-tracing-4/)
+* [Send the logs of your Shuttle-powered backend to Datadog](https://robertohuertas.com/2023/09/30/shuttle-datadog-logs/)
 
 ### Research
 
