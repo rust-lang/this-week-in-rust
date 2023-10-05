@@ -35,8 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Zenoh 0.10.0,  a pure Rust Pub/Sub/Query protocol for cloud-to-thing continuum, was released and it is packed with new features.](https://zenoh.io/blog/2023-10-03-zenoh-dragonite/)
-
 * [Announcing Yew 0.21](https://yew.rs/blog/2023/09/23/release-0-21)
+* [Divan: Fast and Simple Benchmarking for Rust](https://nikolaivazquez.com/blog/divan/)
 
 ### Observations/Thoughts
 
@@ -193,7 +193,7 @@ Rusty Events between 2023-10-04 - 2023-11-01 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/295679778/) | [**Mirror**](https://berline.rs/)
 * 2023-10-31 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
     * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/mvdtgtyfcnbpc/)
- 
+
 ### Asia
 
 * 2023-10-11 | Kuala Lumpur, MY | [GoLang Malaysia](https://t.me/golangmalaysia)
