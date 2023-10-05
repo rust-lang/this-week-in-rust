@@ -64,6 +64,8 @@ and just ask the editors to select the category.
 * [Nine Rules to Formally Validate Rust Algorithms with Dafny (Part 1): Lessons from Verifying the range-set-blaze Crate](https://towardsdatascience.com/nine-rules-to-formally-validate-rust-algorithms-with-dafny-part-1-5cb8c8a0bb92)
 * [Send the logs of your Shuttle-powered backend to Datadog](https://robertohuertas.com/2023/09/30/shuttle-datadog-logs/)
 
+* [Tracing Tokio Tasks](https://hegdenu.net/posts/tracing-tokio-tasks/)
+
 ### Research
 
 ### Miscellaneous
