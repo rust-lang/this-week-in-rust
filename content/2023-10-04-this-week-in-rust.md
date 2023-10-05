@@ -27,12 +27,8 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Foundation
 * [Rust Foundation Project Director Election Update](https://foundation.rust-lang.org/news/rust-foundation-project-director-election-update/)
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [Progress Report #26: rustc_codegen_gcc can now compile Rust for Linux!](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-26)
@@ -42,7 +38,6 @@ and just ask the editors to select the category.
 * [Open Sourcing Ferrocene](https://ferrous-systems.com/blog/ferrocene-open-source/)
 * [rust-analyzer changelog #201](https://rust-analyzer.github.io/thisweek/2023/10/02/changelog-201.html)
 * [Zenoh 0.10.0, a pure Rust Pub/Sub/Query protocol for cloud-to-thing continuum, was released and it is packed with new features.](https://zenoh.io/blog/2023-10-03-zenoh-dragonite/)
-
 * [Announcing Divan: Fast and Simple Benchmarking for Rust](https://nikolaivazquez.com/blog/divan/)
 
 ### Observations/Thoughts
@@ -58,18 +53,14 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Create an RSS Feed in Axum or Leptos](https://benw.is/posts/rss-in-axum)
-* [video] [Two Ways To Do Dynamic Dispatch](https://www.youtube.com/watch?v=wU8hQvU8aKM)
 * [Rust Dockerfile Boilerplate](https://peterprototypes.com/blog/rust-dockerfile-boilerplate/)
-* [series] [Distributed Tracing in Rust, Episode 4: correlating logs and traces](https://heikoseeberger.de/2023-09-30-dist-tracing-4/)
 * [Nine Rules to Formally Validate Rust Algorithms with Dafny (Part 1): Lessons from Verifying the range-set-blaze Crate](https://towardsdatascience.com/nine-rules-to-formally-validate-rust-algorithms-with-dafny-part-1-5cb8c8a0bb92)
 * [Send the logs of your Shuttle-powered backend to Datadog](https://robertohuertas.com/2023/09/30/shuttle-datadog-logs/)
-
 * [Tracing Tokio Tasks](https://hegdenu.net/posts/tracing-tokio-tasks/)
-
-### Research
+* [series] [Distributed Tracing in Rust, Episode 4: correlating logs and traces](https://heikoseeberger.de/2023-09-30-dist-tracing-4/)
+* [video] [Two Ways To Do Dynamic Dispatch](https://www.youtube.com/watch?v=wU8hQvU8aKM)
 
 ### Miscellaneous
-
 * [Writing the Matrix Bridge in Rust using matrix-rust-sdk](https://harshil-jani.github.io/GSoC-Book-2.0/)
 * [Ferrocene Open Source documentation](https://public-docs.ferrocene.dev/main/)
 
@@ -380,7 +371,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/163w6fl/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -398,4 +389,4 @@ There was no suggestion this week, but llogiq is pleased with his choice nonethe
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1708new/this_week_in_rust_515/)</small>
