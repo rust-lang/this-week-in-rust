@@ -73,7 +73,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [loole](https://github.com/mahdi-shojaee/loole), another multiple-producer multiple-consumer channel.
+
+Thanks to [Mahdi Shojaee](https://users.rust-lang.org/t/crate-of-the-week/2704/1243) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -95,7 +97,96 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+358 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-09-25..2023-10-02
+
+* [suggestion: insert projection to associated types](https://github.com/rust-lang/rust/pull/112123)
+* [`skip_binder` to `instantiate_identity`](https://github.com/rust-lang/rust/pull/116340)
+* [add "integer square root" method to integer primitive types](https://github.com/rust-lang/rust/pull/116176)
+* [add Exclusive forwarding impls (FnOnce, FnMut, Generator)](https://github.com/rust-lang/rust/pull/116241)
+* [add context to `let: Ty = loop { break };`](https://github.com/rust-lang/rust/pull/116187)
+* [allow LTO on `proc-macro` crates with `-Zdylib-lto`](https://github.com/rust-lang/rust/pull/115986)
+* [anonymize binders for `refining_impl_trait` check](https://github.com/rust-lang/rust/pull/116149)
+* [assorted improvements for `rustc_middle::mir::traversal`](https://github.com/rust-lang/rust/pull/116254)
+* [build `rustc` with a single CGU on x64 Linux](https://github.com/rust-lang/rust/pull/115554)
+* [cleanup number handling in match exhaustiveness](https://github.com/rust-lang/rust/pull/116281)
+* [constParamTy: require Eq as supertrait](https://github.com/rust-lang/rust/pull/116125)
+* [correct codegen of `ConstValue::Indirect` scalar and scalar pair](https://github.com/rust-lang/rust/pull/116102)
+* [don't store lazyness in `DefKind::TyAlias`](https://github.com/rust-lang/rust/pull/116163)
+* [don't use a thread to load the dep graph](https://github.com/rust-lang/rust/pull/116109)
+* [expose `try_destructure_mir_constant_for_diagnostics` directly to clippy](https://github.com/rust-lang/rust/pull/115819)
+* [factor out duplicated `entry_point_type` functions](https://github.com/rust-lang/rust/pull/116259)
+* [fix `noop_method_call` detection](https://github.com/rust-lang/rust/pull/116201)
+* [gate and validate `#[rustc_safe_intrinsic]`](https://github.com/rust-lang/rust/pull/116162)
+* [implement Region for smir](https://github.com/rust-lang/rust/pull/116024)
+* [implement a global value numbering MIR optimization](https://github.com/rust-lang/rust/pull/109597)
+* [lint towards rejecting consts in patterns that do not implement PartialEq](https://github.com/rust-lang/rust/pull/115893)
+* [make `adt_const_params` feature suggestion consistent with other features and improve when it is emitted](https://github.com/rust-lang/rust/pull/116253)
+* [make `link_llvm_intrinsics` and `platform_intrinsics` features internal](https://github.com/rust-lang/rust/pull/116093)
+* [mark drop calls in landing pads cold instead of noinline](https://github.com/rust-lang/rust/pull/102099)
+* [migrate `rustc_hir_analysis` to session diagnostic (Part 5)](https://github.com/rust-lang/rust/pull/115821)
+* [more fixes for running the test suite on a bare metal target](https://github.com/rust-lang/rust/pull/116263)
+* [new solver: remove provisional cache](https://github.com/rust-lang/rust/pull/115843)
+* [only prevent field projections into opaque types, not types containing opaque types](https://github.com/rust-lang/rust/pull/116156)
+* [only visit reachable nodes in SsaLocals](https://github.com/rust-lang/rust/pull/116239)
+* [point at more causes of expectation of break value when possible](https://github.com/rust-lang/rust/pull/116080)
+* [print GHA log groups to stdout instead of stderr](https://github.com/rust-lang/rust/pull/114453)
+* [promote loongarch64-unknown-none* to Tier 2](https://github.com/rust-lang/rust/pull/115368)
+* [properly print `cstr` literals in `proc_macro::Literal::to_string`](https://github.com/rust-lang/rust/pull/116124)
+* [prototype using const generic for `simd_shuffle` IDX array](https://github.com/rust-lang/rust/pull/115933)
+* [remove `rustc_lint_defs::lint_array`](https://github.com/rust-lang/rust/pull/116231)
+* [replace `HashMap` with `IndexMap` in pattern binding resolve](https://github.com/rust-lang/rust/pull/114454)
+* [resolve: skip underscore character during candidate lookup](https://github.com/rust-lang/rust/pull/116228)
+* [reveal opaque types before drop elaboration](https://github.com/rust-lang/rust/pull/115759)
+* [run abi/compatibility test against a whole bunch of targets](https://github.com/rust-lang/rust/pull/116030)
+* [simplify some of the logic in the `invalid_reference_casting` lint](https://github.com/rust-lang/rust/pull/116199)
+* [skip MIR pass `UnreachablePropagation` when coverage is enabled](https://github.com/rust-lang/rust/pull/116166)
+* [split out the stable part of smir into its own crate to prevent accidental usage of forever unstable things](https://github.com/rust-lang/rust/pull/115934)
+* [stabilize `impl_trait_projections`](https://github.com/rust-lang/rust/pull/115659)
+* [stabilize combining +bundle and +whole-archive link modifiers](https://github.com/rust-lang/rust/pull/113301)
+* [use `Vec::retain` in `remove_dead_blocks`](https://github.com/rust-lang/rust/pull/116154)
+* [use absolute paths in `rustc_lint::passes` macros](https://github.com/rust-lang/rust/pull/116204)
+* [use placeholders to prevent using inferred RPITIT types to imply their own well-formedness](https://github.com/rust-lang/rust/pull/116072)
+* [when suggesting `self.x` for `S { x }`, use `S { x: self.x }`](https://github.com/rust-lang/rust/pull/116089)
+* [miri: implement SSE3 and SSSE3 intrinsics](https://github.com/rust-lang/miri/pull/3086)
+* [miri: implement the `llvm.x86.sse2.pmadd.wd` intrinsic](https://github.com/rust-lang/miri/pull/3093)
+* [stdio support for UEFI](https://github.com/rust-lang/rust/pull/116207)
+* [Build `rustc` with a single CGU on x64 Linux](https://github.com/rust-lang/rust/pull/107651)
+* [`rustc_arena` overhaul](https://github.com/rust-lang/rust/pull/116224)
+* [add `ptr::addr_eq`](https://github.com/rust-lang/rust/pull/116325)
+* [add `track_caller` attribute to `Result::unwrap_or_else`](https://github.com/rust-lang/rust/pull/116317)
+* [implement `From<OwnedFd/Handle>` for `ChildStdin`/`out`/`err` object](https://github.com/rust-lang/rust/pull/98704)
+* [implement `From<[T; N]>` for `Rc<[T]>` and `Arc<[T]>`](https://github.com/rust-lang/rust/pull/114041)
+* [implement `From<{&,&mut} [T; N]>` for `Vec<T>` where `T: Clone`](https://github.com/rust-lang/rust/pull/111278)
+* [weaken needlessly restrictive orderings on `Arc::*_count`](https://github.com/rust-lang/rust/pull/115546)
+* [cargo: add better suggestion for the unsupported silent flag](https://github.com/rust-lang/cargo/pull/12723)
+* [cargo: add missing `strip` entries in `dev` and `release` profiles](https://github.com/rust-lang/cargo/pull/12748)
+* [cargo: fix corruption when cargo killed while writing](https://github.com/rust-lang/cargo/pull/12744)
+* [cargo: use full target spec for `cargo rustc --print --target`](https://github.com/rust-lang/cargo/pull/12743)
+* [rustdoc: speed up processing of cross-crate fns to fix a perf regression](https://github.com/rust-lang/rust/pull/116195)
+* [clippy: `manual_let_else`: only omit block if span is from same ctxt](https://github.com/rust-lang/rust-clippy/pull/11580)
+* [clippy: `mir_to_const` improvements](https://github.com/rust-lang/rust-clippy/pull/11565)
+* [clippy: `write_literal`: Fix index of the remaining positional arguments](https://github.com/rust-lang/rust-clippy/pull/11576)
+* [clippy: add `manual_hash_one` lint](https://github.com/rust-lang/rust-clippy/pull/11556)
+* [clippy: add lint: `into_iter_without_iter`](https://github.com/rust-lang/rust-clippy/pull/11587)
+* [clippy: add lint: `iter_without_into_iter`](https://github.com/rust-lang/rust-clippy/pull/11527)
+* [clippy: describe the type of string in `raw_strings` lints](https://github.com/rust-lang/rust-clippy/pull/11569)
+* [clippy: do not lint `wildcard_imports` when imported item contains underscore](https://github.com/rust-lang/rust-clippy/pull/10300)
+* [clippy: don't escape unicode escape braces in `print_literal`](https://github.com/rust-lang/rust-clippy/pull/11265)
+* [clippy: don't lint `manual_non_exhaustive` when `enum` is `#[non_exhaustive]`](https://github.com/rust-lang/rust-clippy/pull/11590)
+* [clippy: mention that `missing_assert_message` lint ignores test functions](https://github.com/rust-lang/rust-clippy/pull/11574)
+* [clippy: move `needless_pass_by_ref_mut: suspicious` → `nursery`](https://github.com/rust-lang/rust-clippy/pull/11596)
+* [clippy: move `needless_raw_string_hashes` to `pedantic`](https://github.com/rust-lang/rust-clippy/pull/11415)
+* [rust-analyzer: allow more kinds of if let patterns in guarded return assist](https://github.com/rust-lang/rust-analyzer/pull/15698)
+* [rust-analyzer: downgrade `unused_variables` to experimental](https://github.com/rust-lang/rust-analyzer/pull/15693)
+* [rust-analyzer: make `bool_to_enum` assist create `enum` at top-level](https://github.com/rust-lang/rust-analyzer/pull/15667)
+* [rust-analyzer: make `rustc_layout_scalar_valid_range` attributes work for non-decimal literals](https://github.com/rust-lang/rust-analyzer/pull/15688)
+* [rust-analyzer: panic with wrapping/unwrapping result return type assists](https://github.com/rust-lang/rust-analyzer/pull/15662)
+* [rust-analyzer: recover better on missing parameter in param list](https://github.com/rust-lang/rust-analyzer/pull/15682)
+* [rust-analyzer: strip base prefix in `layout_scalar_valid_range`](https://github.com/rust-lang/rust-analyzer/pull/15701)
+* [rust-analyzer: typing underscore should not trigger completions in types or patterns](https://github.com/rust-lang/rust-analyzer/pull/15692)
+* [rust-analyzer: scip: allow customizing cargo config](https://github.com/rust-lang/rust-analyzer/pull/15633)
 
 ### Rust Compiler Performance Triage
 
@@ -291,7 +382,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I've been writing Rust code everyday for years, and I used to say Rust wasn't great for writing prototypes because if forced you to ask yourself many questions that you may want to avoid at that time.
+>
+> I recently realized this is all wrong: you can write Rust pretty much as fast as you can write code in any other language, with a meaningful difference: with a little discipline it's easy to make the rough edges obvious so you can sort them out later. 
+
+– [/u/moiaussi4213 on /r/rust](https://www.reddit.com/r/rust/comments/16yljmi/realization_rust_lets_you_comfortably_leave/)
+
+There was no suggestion this week, but llogiq is pleased with his choice nonetheless!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
