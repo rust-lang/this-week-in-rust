@@ -87,6 +87,12 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Hyperswitch (Hacktoberfest)- Bitpay: Use connector_response_reference_id as reference to merchant](https://github.com/juspay/hyperswitch/issues/2325)
 * [Hyperswitch (Hacktoberfest)- Trustpay: Remove Default Case Handling](https://github.com/juspay/hyperswitch/issues/2287)
 * [Hyperswitch (Hacktoberfest)- Worldline: Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2249)
+* [rust-libp2p - core: remove `upgrade::transfer` module](https://github.com/libp2p/rust-libp2p/issues/4011)
+* [rust-libp2p - mdns: don't perform IO on main task](https://github.com/libp2p/rust-libp2p/issues/2591)
+* [rust-libp2p - quic: don't support draft versions](https://github.com/libp2p/rust-libp2p/issues/3395)
+* [Ockam - Improve `ockam enroll` project configuration step by warning user not to exit process](https://github.com/build-trust/ockam/issues/6060)
+* [Ockam - Improve `ockam space create` by add missing argument `--identity` (`clap` command)](https://github.com/build-trust/ockam/issues/6125)
+* [Ockam - Improve `ockam enroll` argument `--identity` (`clap` command)](https://github.com/build-trust/ockam/issues/6117)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
