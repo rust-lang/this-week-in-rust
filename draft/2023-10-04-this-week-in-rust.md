@@ -40,7 +40,7 @@ and just ask the editors to select the category.
 * [Announcing Yew 0.21](https://yew.rs/blog/2023/09/23/release-0-21)
 * [Ambient Platform](https://ambient.run/blog/platform)
 * [Open Sourcing Ferrocene](https://ferrous-systems.com/blog/ferrocene-open-source/)
-* [rust-analyzer hangelog #201](https://rust-analyzer.github.io/thisweek/2023/10/02/changelog-201.html)
+* [rust-analyzer changelog #201](https://rust-analyzer.github.io/thisweek/2023/10/02/changelog-201.html)
 * [Zenoh 0.10.0, a pure Rust Pub/Sub/Query protocol for cloud-to-thing continuum, was released and it is packed with new features.](https://zenoh.io/blog/2023-10-03-zenoh-dragonite/)
 
 ### Observations/Thoughts
@@ -56,7 +56,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Create an RSS Feed in Axum or Leptos](https://benw.is/posts/rss-in-axum)
-* [Two Ways To Do Dynamic Dispatch](https://www.youtube.com/watch?v=wU8hQvU8aKM)
+* [video] [Two Ways To Do Dynamic Dispatch](https://www.youtube.com/watch?v=wU8hQvU8aKM)
 * [Rust Dockerfile Boilerplate](https://peterprototypes.com/blog/rust-dockerfile-boilerplate/)
 * [series] [Distributed Tracing in Rust, Episode 4: correlating logs and traces](https://heikoseeberger.de/2023-09-30-dist-tracing-4/)
 
@@ -206,7 +206,7 @@ Rusty Events between 2023-10-04 - 2023-11-01 🦀
     * [**Rust-Meetup**](https://www.meetup.com/rust-community-stuttgart/events/dvvtvsyfcnbgb/)
 * 2023-10-24 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/295679778/) | [**Mirror**](https://berline.rs/)
- 
+
 ### Asia
 
 * 2023-10-03 | Taipei, TW | [WebAssembly and Rust Meetup (Wasm Empowering AI)](https://www.meetup.com/wasm-rust-meetup/)
@@ -225,7 +225,7 @@ Rusty Events between 2023-10-04 - 2023-11-01 🦀
 * 2023-09-28 | Vienna, AT | [Rust Vienna](https://www.meetup.com/rust-vienna/)
     * [**Rust Dojo 2**](https://www.meetup.com/rust-vienna/events/296254546/)
 * 2023-09-30 | Saint Petersburg, RU | [Rust Saint Petersburg meetups](https://t.me/ruRust_spb)
-    * [**Rust Community Meetup: A tale about how I tried to make my Blitz Basic - Vitaly; How to use nix to build projects on Rust – Danil; Getting to know tower middleware. General overview – Mikhail**](https://rurust-saint-petersburg-m.timepad.ru/event/2561864/) 
+    * [**Rust Community Meetup: A tale about how I tried to make my Blitz Basic - Vitaly; How to use nix to build projects on Rust – Danil; Getting to know tower middleware. General overview – Mikhail**](https://rurust-saint-petersburg-m.timepad.ru/event/2561864/)
 * 2023-10-04 | Lyon, FR | [Rust Lyon](https://www.meetup.com/fr-FR/rust-lyon/)
     * [**Rust Lyon Meetup #6**](https://www.meetup.com/fr-FR/rust-lyon/events/296186641/)
 * 2023-10-10 | Berlin, DE | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
