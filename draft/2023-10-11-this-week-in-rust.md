@@ -196,6 +196,8 @@ Rusty Events between 2023-10-11 - 2023-11-08 🦀
     * [**Biome, web development tooling with Rust**](https://www.meetup.com/rust-dublin/events/295179534/)
 * 2023-10-26 | Augsburg, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
     * [**Augsburg Rust Meetup #3**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/296183126/)
+* 2023-11-23 | Biel / Bienne, CH | [Rust Bern](https://www.meetup.com/de-DE/rust-bern/)
+    * [**Rust Talks Bern @ Biel: Embedded Edition**](https://www.meetup.com/rust-bern/events/296556498/)
 
 ### North America
 
