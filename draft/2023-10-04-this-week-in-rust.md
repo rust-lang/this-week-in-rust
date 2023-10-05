@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 
 * [Announcing Yew 0.21](https://yew.rs/blog/2023/09/23/release-0-21)
 
+* [Announcing Divan: Fast and Simple Benchmarking for Rust](https://nikolaivazquez.com/blog/divan/)
+
 ### Observations/Thoughts
 
  - [Rustconf 2023 recap](https://blog.adamchalmers.com/rustconf-2023-recap/)
