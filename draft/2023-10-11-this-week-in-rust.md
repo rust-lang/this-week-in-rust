@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Implementing the `#[diagnostic]` namespace to improve rustc error messages in complex crates](https://blog.weiznich.de/blog/diagnostic-namespace-10-23/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
