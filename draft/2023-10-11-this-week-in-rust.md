@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Rust 1.73.0: Everything Revealed in 16 Minutes](https://youtu.be/xXdfLNIHkPk)
+
 ### Rust Walkthroughs
 
 ### Research
