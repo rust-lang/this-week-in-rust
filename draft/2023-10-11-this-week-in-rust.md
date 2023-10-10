@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 ### Research
+* [Looking for Bad Apples in Rust Dependency Trees Using GraphQL and Trustfall](https://medium.com/volvo-cars-engineering/looking-for-bad-apples-in-rust-dependency-trees-using-graphql-and-trustfall-cb88b835f652)
 
 ### Miscellaneous
 
