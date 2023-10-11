@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 * [Rust on Espressif chips - September 29 2023](https://mabez.dev/blog/posts/esp-rust-29-09-2023/)
 * [esp-rs quarterly planning: Q4 2023](https://beta7.io/posts/esp-rs-quarterly-planning-q4-2023/)
 
+* [Implementing the `#[diagnostic]` namespace to improve rustc error messages in complex crates](https://blog.weiznich.de/blog/diagnostic-namespace-10-23/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
