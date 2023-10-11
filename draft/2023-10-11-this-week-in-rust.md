@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Rust 1.73.0: Everything Revealed in 16 Minutes](https://youtu.be/xXdfLNIHkPk)
+
 ### Rust Walkthroughs
 * [5 ways to instantiate Rust structs in tests](https://jmmv.dev/2023/10/rust-test-structs.html)
 
