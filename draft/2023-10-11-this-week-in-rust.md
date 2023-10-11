@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+ * [Acceptance Testing embedded-hal Drivers](https://tommy-gilligan.github.io/driver-acceptance.html)
 
 ### Research
 
