@@ -37,7 +37,6 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [rust-analyzer changelog #202](https://rust-analyzer.github.io/thisweek/2023/10/09/changelog-202.html)
-* [Divan: Fast and Simple Benchmarking for Rust](https://nikolaivazquez.com/blog/divan/)
 * [Announcing: pid1 Crate for Easier Rust Docker Images - FP Complete](https://www.fpcomplete.com/blog/announcing-pid1-crate-for-easier-rust-docker-images/)
 * [bit_seq in Rust: A Procedural Macro for Bit Sequence Generation](https://medium.com/@jozott/bit-seq-in-rust-a-procedural-macro-for-bit-sequence-generation-5a4b856d629a)
 * [tcpproxy 0.4 released](https://neosmart.net/blog/tcpproxy-0-4-released/)
