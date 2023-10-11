@@ -52,6 +52,9 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [video] [Rust 1.73 Release Train](https://www.youtube.com/watch?v=oMYKGhPw9Sc)
+* [video] [Why is the JavaScript ecosystem switching to Rust?](https://www.youtube.com/watch?v=dZQMoEWe5uY)
+
 ## Crate of the Week
 
 This week's crate is [yarer](https://crates.io/crates/yarer), a library and command-line tool to evaluate mathematical expressions.
