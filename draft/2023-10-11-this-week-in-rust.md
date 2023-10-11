@@ -28,20 +28,43 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.73.0](https://blog.rust-lang.org/2023/10/05/Rust-1.73.0.html)
+* [Polonius update](https://blog.rust-lang.org/inside-rust/2023/10/06/polonius-update.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #202](https://rust-analyzer.github.io/thisweek/2023/10/09/changelog-202.html)
+* [Divan: Fast and Simple Benchmarking for Rust](https://nikolaivazquez.com/blog/divan/)
+* [Announcing: pid1 Crate for Easier Rust Docker Images - FP Complete](https://www.fpcomplete.com/blog/announcing-pid1-crate-for-easier-rust-docker-images/)
+* [bit_seq in Rust: A Procedural Macro for Bit Sequence Generation](https://medium.com/@jozott/bit-seq-in-rust-a-procedural-macro-for-bit-sequence-generation-5a4b856d629a)
+* [tcpproxy 0.4 released](https://neosmart.net/blog/tcpproxy-0-4-released/)
+* [Rune 0.13](https://rune-rs.github.io/posts/rune-0-13-0/)
 
 ### Observations/Thoughts
+* [Safety vs Performance. A case study of C, C++ and Rust sort implementations](https://github.com/Voultapher/sort-research-rs/blob/main/writeup/sort_safety/text.md)
+* [Raw SQL in Rust with SQLx](https://www.shuttle.rs/blog/2023/10/04/sql-in-rust)
+* [Thread-per-core](https://without.boats/blog/thread-per-core/)
+* [Edge IoT with Rust on ESP: HTTP Client](https://apollolabsblog.hashnode.dev/edge-iot-with-rust-on-esp-http-client)
+* [The Ultimate Data Engineering Chadstack. Running Rust inside Apache Airflow](https://www.confessionsofadataguy.com/the-ultimate-data-engineering-chadstack-running-rust-inside-apache-airflow/)
+* [Why Rust doesn't need a standard div_rem: An LLVM tale - CodSpeed](https://codspeed.io/blog/why-rust-doesnt-need-a-standard-divrem)
+* [Making Rust supply chain attacks harder with Cackle](https://davidlattimore.github.io/making-supply-chain-attacks-harder.html)
 
 ### Rust Walkthroughs
+* [Let's Build A Cargo Compatible Build Tool - Part 5](https://ductile.systems/freight-part-5/)
+* [How we reduced the memory usage of our Rust extension by 4x](https://blog.kolo.app/optimising-rust-memory.html)
+* [Calling Rust from Python](https://blog.frankel.ch/rust-from-python/)
 
 ### Research
 
 ### Miscellaneous
+* [Rust, Open Source, Consulting - Interview with Matthias Endler](https://filtra.io/rust-corrode-oct-23)
+* [Edge IoT with Rust on ESP: Connecting WiFi](https://apollolabsblog.hashnode.dev/edge-iot-with-rust-on-esp-connecting-wifi)
+* [Bare-metal Rust in Android](https://security.googleblog.com/2023/10/bare-metal-rust-in-android.html)
+* [audio] [Learn Rust in a Month of Lunches with Dave MacLeod](https://rustacean-station.org/episode/dave-macleod/)
+* [video] [Rust 1.73.0: Everything Revealed in 16 Minutes](https://www.youtube.com/watch?v=xXdfLNIHkPk)
 
 ## Crate of the Week
 
