@@ -54,7 +54,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [yarer](https://crates.io/crates/yarer), a library and command-line tool to evaluate mathematical expressions.
+
+Thanks to [Gianluigi Davassi](https://users.rust-lang.org/t/crate-of-the-week/2704/1246) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -76,7 +78,90 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+384 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-10-02..2023-10-09
+
+* [formally demote tier 2 MIPS targets to tier 3](https://github.com/rust-lang/rust/pull/115238)
+* [add tvOS to `target_os` for `register_dtor`](https://github.com/rust-lang/rust/pull/116500)
+* [linker: remove `-Zgcc-ld` option](https://github.com/rust-lang/rust/pull/116514)
+* [linker: remove unstable legacy CLI linker flavors](https://github.com/rust-lang/rust/pull/116515)
+* [`non_lifetime_binders`: fix ICE in lint opaque-hidden-inferred-bound](https://github.com/rust-lang/rust/pull/116379)
+* [add `async_fn_in_trait` lint](https://github.com/rust-lang/rust/pull/116184)
+* [add a note to duplicate diagnostics](https://github.com/rust-lang/rust/pull/116428)
+* [always preserve DebugInfo in DeadStoreElimination](https://github.com/rust-lang/rust/pull/116183)
+* [bring back generic parameters for indices in `rustc_abi` and make it compile on stable](https://github.com/rust-lang/rust/pull/116269)
+* [coverage: allow each coverage statement to have multiple code regions](https://github.com/rust-lang/rust/pull/115301)
+* [detect missing `=>` after match guard during parsing](https://github.com/rust-lang/rust/pull/116400)
+* [diagnostics: be more careful when suggesting `struct` fields](https://github.com/rust-lang/rust/pull/116429)
+* [don't suggest nonsense suggestions for unconstrained type vars in `note_source_of_type_mismatch_constraint`](https://github.com/rust-lang/rust/pull/116158)
+* [dont call `mir.post_mono_checks` in codegen](https://github.com/rust-lang/rust/pull/116277)
+* [emit feature gate *warning* for `auto` traits pre-expansion](https://github.com/rust-lang/rust/pull/116393)
+* [ensure that `~const` trait bounds on associated functions are in const traits or impls](https://github.com/rust-lang/rust/pull/116210)
+* [extend `impl`'s `def_span` to include its where clauses](https://github.com/rust-lang/rust/pull/116497)
+* [fix detecting references to packed unsized fields](https://github.com/rust-lang/rust/pull/115583)
+* [fix fast-path for `try_eval_scalar_int`](https://github.com/rust-lang/rust/pull/116457)
+* [fix to register analysis passes with -Zllvm-plugins at link-time](https://github.com/rust-lang/rust/pull/116486)
+* [for a single impl candidate, try to unify it with error trait ref](https://github.com/rust-lang/rust/pull/115726)
+* [generalize small dominators optimization](https://github.com/rust-lang/rust/pull/116454)
+* [improve the suggestion of `generic_bound_failure`](https://github.com/rust-lang/rust/pull/115882)
+* [make FnDef 1-ZST in LLVM debuginfo](https://github.com/rust-lang/rust/pull/116096)
+* [more accurately point to where default return type should go](https://github.com/rust-lang/rust/pull/116296)
+* [move subtyper below `reveal_all` and change `reveal_all`](https://github.com/rust-lang/rust/pull/116415)
+* [only trigger `refining_impl_trait` lint on reachable traits](https://github.com/rust-lang/rust/pull/116273)
+* [point to full `async fn` for future](https://github.com/rust-lang/rust/pull/116360)
+* [print normalized ty](https://github.com/rust-lang/rust/pull/116374)
+* [properly export function defined in test which uses `global_asm!()`](https://github.com/rust-lang/rust/pull/116458)
+* [remove Key impls for types that involve an AllocId](https://github.com/rust-lang/rust/pull/116330)
+* [remove is global hack](https://github.com/rust-lang/rust/pull/116417)
+* [remove the `TypedArena::alloc_from_iter` specialization](https://github.com/rust-lang/rust/pull/116370)
+* [show more information when multiple `impl`s apply](https://github.com/rust-lang/rust/pull/114811)
+* [suggest `pin!()` instead of `Pin::new()` when appropriate](https://github.com/rust-lang/rust/pull/114654)
+* [make subtyping explicit in MIR](https://github.com/rust-lang/rust/pull/115025)
+* [do not run optimizations on trivial MIR](https://github.com/rust-lang/rust/pull/116533)
+* [in smir `find_crates` returns `Vec<Crate>` instead of `Option<Crate>`](https://github.com/rust-lang/rust/pull/116543)
+* [add Span to various smir types](https://github.com/rust-lang/rust/pull/116288)
+* [miri-script: print which sysroot target we are building](https://github.com/rust-lang/miri/pull/3105)
+* [miri: auto-detect `no_std` where possible](https://github.com/rust-lang/miri/pull/3000)
+* [miri: continuation of #3054: enable spurious reads in TB](https://github.com/rust-lang/miri/pull/3067)
+* [miri: do not use host floats in `simd_{ceil,floor,round,trunc}`](https://github.com/rust-lang/miri/pull/3110)
+* [miri: ensure RET assignments do not get propagated on unwinding](https://github.com/rust-lang/miri/pull/3114)
+* [miri: implement `llvm.x86.aesni.*` intrinsics](https://github.com/rust-lang/miri/pull/3101)
+* [miri: refactor dlsym: dispatch symbols via the normal shim mechanism](https://github.com/rust-lang/miri/pull/3108)
+* [miri: support getentropy on macOS as a foreign item](https://github.com/rust-lang/miri/pull/3098)
+* [miri: tree Borrows: do not create new tags as 'Active'](https://github.com/rust-lang/miri/pull/3106)
+* [add missing inline attributes to Duration trait impls](https://github.com/rust-lang/rust/pull/116386)
+* [stabilize `Option::as_`(`mut_`)`slice`](https://github.com/rust-lang/rust/pull/116220)
+* [reuse existing `Some`s in `Option::(x)or`](https://github.com/rust-lang/rust/pull/116481)
+* [fix generic bound of `str::SplitInclusive`'s `DoubleEndedIterator` impl](https://github.com/rust-lang/rust/pull/100806)
+* [cargo: `refactor(toml)`: Make manifest file layout more consitent](https://github.com/rust-lang/cargo/pull/12768)
+* [cargo: add new package cache lock modes](https://github.com/rust-lang/cargo/pull/12706)
+* [cargo: add unsupported short suggestion for --out-dir flag](https://github.com/rust-lang/cargo/pull/12755)
+* [cargo: crates-io: add doc comment for `NewCrate struct`](https://github.com/rust-lang/cargo/pull/12782)
+* [cargo: feat: add `Edition2024`](https://github.com/rust-lang/cargo/pull/12771)
+* [cargo: prep for automating MSRV management](https://github.com/rust-lang/cargo/pull/12767)
+* [cargo: set and verify all MSRVs in CI](https://github.com/rust-lang/cargo/pull/12654)
+* [rustdoc-search: fix bug with multi-item impl trait](https://github.com/rust-lang/rust/pull/116475)
+* [rustdoc: rename `issue-\d+.rs` tests to have meaningful names (part 2)](https://github.com/rust-lang/rust/pull/116432)
+* [rustdoc: Show `enum` discrimant if it is a C-like variant](https://github.com/rust-lang/rust/pull/116142)
+* [rustfmt: adjust span derivation for const generics](https://github.com/rust-lang/rustfmt/pull/5936)
+* [clippy: `impl_trait_in_params` now supports impls and traits](https://github.com/rust-lang/rust-clippy/pull/11550)
+* [clippy: `into_iter_without_iter`: walk up deref impl chain to find `iter` methods](https://github.com/rust-lang/rust-clippy/pull/11639)
+* [clippy: `std_instead_of_core`: avoid lint inside of proc-macro](https://github.com/rust-lang/rust-clippy/pull/11589)
+* [clippy: avoid invoking `ignored_unit_patterns` in macro definition](https://github.com/rust-lang/rust-clippy/pull/11602)
+* [clippy: fix `items_after_test_module` for non root modules, add applicable suggestion](https://github.com/rust-lang/rust-clippy/pull/11611)
+* [clippy: fix ICE in `redundant_locals`](https://github.com/rust-lang/rust-clippy/pull/11623)
+* [clippy: fix: avoid changing drop order](https://github.com/rust-lang/rust-clippy/pull/11603)
+* [clippy: improve `redundant_locals` help message](https://github.com/rust-lang/rust-clippy/pull/11628)
+* [rust-analyzer: add config option to use `rust-analyzer` specific target dir](https://github.com/rust-lang/rust-analyzer/pull/15681)
+* [rust-analyzer: add configuration for the default action of the status bar click action in VSCode](https://github.com/rust-lang/rust-analyzer/pull/15707)
+* [rust-analyzer: do flyimport completions by prefix search for short paths](https://github.com/rust-lang/rust-analyzer/pull/15713)
+* [rust-analyzer: add assist for applying De Morgan's law to `Iterator::all` and `Iterator::any`](https://github.com/rust-lang/rust-analyzer/pull/15700)
+* [rust-analyzer: add backtick to surrounding and auto-closing pairs](https://github.com/rust-lang/rust-analyzer/pull/15668)
+* [rust-analyzer: implement tuple return type to tuple `struct` assist](https://github.com/rust-lang/rust-analyzer/pull/15696)
+* [rust-analyzer: ensure `rustfmt` runs when configured with `./`](https://github.com/rust-lang/rust-analyzer/pull/15600)
+* [rust-analyzer: fix path syntax produced by the `into_to_qualified_from` assist](https://github.com/rust-lang/rust-analyzer/pull/15641)
+* [rust-analyzer: recognize custom main function as binary entrypoint for runnables](https://github.com/rust-lang/rust-analyzer/pull/15709)
 
 ### Rust Compiler Performance Triage
 
@@ -262,7 +347,23 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> The Rust mission -- let you write software that's fast and correct, productively -- has never been more alive. So next Rustconf, I plan to celebrate:
+>
+> * All the buffer overflows I didn't create, thanks to Rust
+> * All the unit tests I didn't have to write, thanks to its type system
+> * All the null checks I didn't have to write thanks to Option and Result
+> * All the JS I didn't have to write thanks to WebAssembly
+> * All the impossible states I didn't have to assert "This can never actually happen"
+> * All the JSON field keys I didn't have to manually type in thanks to Serde
+> * All the missing SQL column bugs I caught at compiletime thanks to Diesel
+> * All the race conditions I never had to worry about thanks to the borrow checker
+> * All the connections I can accept concurrently thanks to Tokio
+> * All the formatting comments I didn't have to leave on PRs thanks to Rustfmt
+> * All the performance footguns I didn't create thanks to Clippy
+
+– [Adam Chalmers in their RustConf 2023 recap](https://blog.adamchalmers.com/rustconf-2023-recap/)
+
+Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1469) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
