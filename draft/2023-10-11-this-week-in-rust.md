@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [5 ways to instantiate Rust structs in tests](https://jmmv.dev/2023/10/rust-test-structs.html)
 
 ### Research
+* [Looking for Bad Apples in Rust Dependency Trees Using GraphQL and Trustfall](https://medium.com/volvo-cars-engineering/looking-for-bad-apples-in-rust-dependency-trees-using-graphql-and-trustfall-cb88b835f652)
 
 ### Miscellaneous
 
