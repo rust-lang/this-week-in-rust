@@ -91,8 +91,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Ockam - Make `ockam node delete` (no args) interactive by asking the user to choose from a list of nodes to delete (tuify)](https://github.com/build-trust/ockam/issues/6450)
+* [Ockam - Improve `ockam enroll ----help` text by adding doc comment for `identity` flag (`clap` command)](https://github.com/build-trust/ockam/issues/6054)
+* [Ockam - Enroll "email: '+' character not allowed"](https://github.com/build-trust/ockam/issues/6095)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
