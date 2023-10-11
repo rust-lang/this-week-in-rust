@@ -204,15 +204,7 @@ Revision range: [9998f4add..84d44dd](https://perf.rust-lang.org/?start=9998f4add
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -221,34 +213,30 @@ which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [RFC: Remove implicit features in a new edition](https://github.com/rust-lang/rfcs/pull/3491)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [Bump `COINDUCTIVE_OVERLAP_IN_COHERENCE` to deny + warn in deps](https://github.com/rust-lang/rust/pull/116493)
+* [disposition: merge] [document ABI compatibility](https://github.com/rust-lang/rust/pull/115476)
+* [disposition: merge] [Broaden the consequences of recursive TLS initialization](https://github.com/rust-lang/rust/pull/116172)
+* [disposition: merge] [Implement `BufRead` for `VecDeque<u8>`](https://github.com/rust-lang/rust/pull/110604)
+* [disposition: merge] [Tracking Issue for `feature(file_set_times)`: `FileTimes` and `File::set_times`](https://github.com/rust-lang/rust/issues/98245)
+* [disposition: merge] [impl Not, Bit{And,Or}{,Assign} for IP addresses](https://github.com/rust-lang/rust/pull/113747)
+* [disposition: close] [Make `RefMut` `Sync`](https://github.com/rust-lang/rust/pull/115157)
+* [disposition: merge] [Implement FusedIterator for DecodeUtf16 when the inner iterator does](https://github.com/rust-lang/rust/pull/110729)
+* [disposition: merge] [Stabilize `{IpAddr, Ipv6Addr}::to_canonical`](https://github.com/rust-lang/rust/pull/115955)
+* [disposition: merge] [rustdoc: hide `#[repr(transparent)]` if it isn't part of the public ABI](https://github.com/rust-lang/rust/pull/115439)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+* [new] [Add closure-move-bindings RFC](https://github.com/rust-lang/rfcs/pull/3512)
+* [new] [RFC: Include Future and IntoFuture in the 2024 prelude](https://github.com/rust-lang/rfcs/pull/3509)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+* *No RFCs issued a call for testing this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
