@@ -156,6 +156,8 @@ Rusty Events between 2023-10-18 - 2023-11-15 🦀
     * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/mvdtgtyfcnbpc/)
 * 2023-11-01 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftyfcpbcb)
+* 2023-11-15 | Virtual + Richmond, VA | [Linux Plumbers Conference](https://lpc.events)
+    * [**Rust Microconference in LPC 2023 (Nov 13-16)**](https://lpc.events/event/17/sessions/170/)
 
 ### Asia
 
@@ -215,6 +217,8 @@ Rusty Events between 2023-10-18 - 2023-11-15 🦀
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/296495790)
 * 2023-10-25 | Chicago, IL, US | [Deep Dish Rust](https://www.meetup.com/deep-dish-rust/)
     * [**Rust Happy Hour**](https://www.meetup.com/deep-dish-rust/events/296657993/)
+* 2023-11-15 | Richmond, VA + Virtual | [Linux Plumbers Conference](https://lpc.events)
+    * [**Rust Microconference in LPC 2023 (Nov 13-16)**](https://lpc.events/event/17/sessions/170/)
 
 ### Oceania
 
