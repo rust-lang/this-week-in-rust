@@ -31,10 +31,6 @@ and just ask the editors to select the category.
 * [Announcing Rust 1.73.0](https://blog.rust-lang.org/2023/10/05/Rust-1.73.0.html)
 * [Polonius update](https://blog.rust-lang.org/inside-rust/2023/10/06/polonius-update.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [rust-analyzer changelog #202](https://rust-analyzer.github.io/thisweek/2023/10/09/changelog-202.html)
 * [Announcing: pid1 Crate for Easier Rust Docker Images - FP Complete](https://www.fpcomplete.com/blog/announcing-pid1-crate-for-easier-rust-docker-images/)
@@ -355,7 +351,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/163w6fl/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -383,4 +379,4 @@ Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1469)
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/175vzx8/this_week_in_rust_516/)</small>
