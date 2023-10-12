@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Announcing EtherCrab, a Rust implementation of the EtherCAT industrial automation protocol](https://wapl.es/announcing-ethercrab-the-rust-ethercat-controller/)
 
 ### Observations/Thoughts
 
