@@ -34,7 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [Spacedrive Alpha 0.1.1 Released](https://github.com/spacedriveapp/spacedrive/releases/tag/0.1.1)
 ### Observations/Thoughts
 * [Containerize Rust applications on Ubuntu & Alpine, with GitHub Actions](https://medium.com/@vapor.schitcrafter/containerise-rust-applications-on-ubuntu-alpine-with-github-actions-or-docker-builders-9378a02b98fd)
 ### Rust Walkthroughs
