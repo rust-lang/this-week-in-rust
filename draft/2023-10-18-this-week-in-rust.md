@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Youki v0.3.0 released, supporting rootless podman](https://github.com/containers/youki/releases/tag/v0.3.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
