@@ -34,7 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [RustRover 2023.3 EAP 1 Release Notes](https://youtrack.jetbrains.com/articles/RUST-A-19/RustRover-2023.3-EAP-1-233.8264.22-build-Release-Notes)
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
