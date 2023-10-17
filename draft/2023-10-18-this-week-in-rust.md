@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [audio] [RustShip: Graphite - Raster and Vector Graphics in Rust](https://ieni.dev/2023/10/%EF%B8%8F-graphite-raster-and-vector-graphics-in-rust-rustship-4/)
 
 ## Crate of the Week
 
