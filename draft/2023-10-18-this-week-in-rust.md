@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Announcing EtherCrab, a Rust implementation of the EtherCAT industrial automation protocol](https://wapl.es/announcing-ethercrab-the-rust-ethercat-controller/)
 
 ### Observations/Thoughts
 * [Containerize Rust applications on Ubuntu & Alpine, with GitHub Actions](https://medium.com/@vapor.schitcrafter/containerise-rust-applications-on-ubuntu-alpine-with-github-actions-or-docker-builders-9378a02b98fd)
