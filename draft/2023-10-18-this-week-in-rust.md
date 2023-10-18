@@ -132,6 +132,7 @@ Rusty Events between 2023-10-18 - 2023-11-15 🦀
     * [**Month-end Rusting—Fun with 🍌 and 🔎!**](https://www.meetup.com/rustdc/events/296217448)
 * 2023-10-25 | Dublin, IE | [Rust Dublin](https://www.meetup.com/rust-dublin/)
     * [**Biome, web development tooling with Rust**](https://www.meetup.com/rust-dublin/events/295179534/)
+* 2023-10-25 | Paris, FR | [Rust for the web - Paris meetup #61](https://mobilizon.fr/events/149c0367-66cb-42c6-aa0c-8495bf6d2a52)
 * 2023-10-26 | Augsburg, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
     * [**Augsburg Rust Meetup #3**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/296183126/)
 * 2023-10-26 | Delft, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
