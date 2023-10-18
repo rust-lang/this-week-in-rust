@@ -90,9 +90,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Ockam - Make `ockam node delete` (no args) interactive by asking the user to choose from a list of nodes to delete (tuify)](https://github.com/build-trust/ockam/issues/6450)
 * [Ockam - Improve `ockam enroll ----help` text by adding doc comment for `identity` flag (`clap` command)](https://github.com/build-trust/ockam/issues/6054)
 * [Ockam - Enroll "email: '+' character not allowed"](https://github.com/build-trust/ockam/issues/6095)
-* [Hyperswitch (Hacktoberfest)- [Nuvei] Remove Default Case Handling](https://github.com/juspay/hyperswitch/issues/2278)
-* [Hyperswitch (Hacktoberfest)- [Bambora] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2219)
-* [Hyperswitch (Hacktoberfest)- [Worldline] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2249)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 

@@ -60,6 +60,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [Hyperswitch (Hacktoberfest)- [Iatapay] Use connector_request_reference_id as reference to the connector](https://github.com/juspay/hyperswitch/issues/2302)
+* [Hyperswitch (Hacktoberfest)- [Stax] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2246)
+* [Hyperswitch (Hacktoberfest)- [ACI] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2198)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
