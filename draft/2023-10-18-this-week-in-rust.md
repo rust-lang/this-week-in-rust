@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [A type level contains operation for heterogeneous list using associated types](https://blog.weiznich.de/blog/eurorust-non-overlapping-contains-for-hlists/)
+
 ### Research
 
 ### Miscellaneous
