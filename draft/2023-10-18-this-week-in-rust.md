@@ -136,6 +136,8 @@ Rusty Events between 2023-10-18 - 2023-11-15 🦀
     * [**Augsburg Rust Meetup #3**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/296183126/)
 * 2023-10-26 | Delft, NL | [Rust Nederland](https://www.meetup.com/rust-nederland/)
     * [**Rust at TU Delft**](https://www.meetup.com/rust-nederland/events/296488286/)
+* 2023-10-26 | Lille, FR | [Rust Lille](https://www.meetup.com/meetup-group-zgphbyet/)
+    * [**Rust Lille #4 at SFEIR**](https://www.meetup.com/meetup-group-zgphbyet/events/296766699/)
 * 2023-11-07 | Brussels, BE | [Rust Aarhus](https://www.meetup.com/rust-aarhus)
     * [**Rust Aarhus - Rust and Talk beginners edition**](https://www.meetup.com/rust-aarhus/events/296223647/)
 
