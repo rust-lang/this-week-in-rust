@@ -172,7 +172,22 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Overall an interesting week performance wise, with small improvements to a vast
+number of benchmarks seeming to outweigh an isolated set of (slightly) larger
+regressions. It included a number of PRs regressed instruction counts but did
+not matter for cycle times, plus one mysterious regression to `check_match` and
+`mir_borrowck` from reworking constructor splitting (see report on PR 116391 for
+details), and an awesome broad set of improvements from automatically inlining
+small functions across crates (see report on PR 116505 for details).
+
+Triage done by **@pnkfelix**.
+Revision range: [84d44dd1..b9832e72](https://perf.rust-lang.org/?start=84d44dd1d8ec1e98fff94272ba4f96b2a1f044ca&end=b9832e72c9223f4e96049aa5911effd258b92591&absolute=false&stat=instructions%3Au)
+
+4 Regressions, 1 Improvements, 4 Mixed; 3 of them in rollups
+84 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/420012f0bb12281b5a3e897280d3f38b241a4735/triage/2023-10-18.md)
+
 
 https://github.com/rust-lang/rfcs/pull/3513
 ## Upcoming Events
