@@ -201,8 +201,44 @@ Revision range: [84d44dd1..b9832e72](https://perf.rust-lang.org/?start=84d44dd1d
 
 [Full report here](https://github.com/rust-lang/rustc-perf/blob/420012f0bb12281b5a3e897280d3f38b241a4735/triage/2023-10-18.md)
 
+### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
-https://github.com/rust-lang/rfcs/pull/3513
+Changes to Rust follow the Rust [RFC (request for comments) process](http®s://github.com/rust-lang/rfcs#rust-rfcs). These
+are the RFCs that were approved for implementation this week:
+
+* *No RFCs were approved this week.*
+
+### Final Comment Period
+
+Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
+which are reaching a decision. Express your opinions now.
+
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+* [disposition: merge] [2024 Edition](https://github.com/rust-lang/rfcs/pull/3501)
+
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* [disposition: merge] [Tracking Issue for result_option_inspect](https://github.com/rust-lang/rust/issues/91345)
+* [disposition: merge] [Allow partially moved values in match](https://github.com/rust-lang/rust/pull/103208)
+* [disposition: merge] [`read_dir` has unexpected behavior for `""`](https://github.com/rust-lang/rust/issues/114149)
+* [disposition: merge] [rustdoc: align stability badge to baseline instead of bottom](https://github.com/rust-lang/rust/pull/105666)
+
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+* [new] [RFC: Superseding public/private dependencies](https://github.com/rust-lang/rfcs/pull/3516)
+* [new] [add float semantics RFC](https://github.com/rust-lang/rfcs/pull/3514)
+* [new] [Reserve `gen` keyword in 2024 edition and start an experiment implementation of `Iterator` generators](https://github.com/rust-lang/rfcs/pull/3513)
+
+### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+An important step for RFC implementation is for people to experiment with the
+implementation and give feedback, especially before stabilization.  The following
+RFCs would benefit from user testing before moving forward:
+
+* *No RFCs issued a call for testing this week.*
+
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
+
 ## Upcoming Events
 
 Rusty Events between 2023-10-18 - 2023-11-15 🦀
@@ -326,7 +362,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/163w6fl/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -344,4 +380,4 @@ Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/17b86sn/this_week_in_rust_517/)</small>
