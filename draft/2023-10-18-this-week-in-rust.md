@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [A type level contains operation for heterogeneous list using associated types](https://blog.weiznich.de/blog/eurorust-non-overlapping-contains-for-hlists/)
 * [Using GraphQL in Rust](https://www.shuttle.rs/blog/2023/10/16/graphql-in-rust)
+* [Writing parsers in Winnow](https://www.youtube.com/watch?v=QF3kMyzMC40)
 
 ### Research
 * [Yuga: Automatically Detecting Lifetime Annotation Bugs in the Rust Language](https://arxiv.org/abs/2310.08507)
@@ -76,9 +77,12 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
-* [Hyperswitch (Hacktoberfest)- [OpenNode] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2240)
-* [Hyperswitch (Hacktoberfest)- [Stax] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2246)
-* [Hyperswitch (Hacktoberfest)- [ACI] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2198)
+* [Hyperswitch (Hacktoberfest) - [OpenNode] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2240)
+* [Hyperswitch (Hacktoberfest) - [Stax] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2246)
+* [Hyperswitch (Hacktoberfest) - [ACI] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2198)
+* [Ockam - Make `ockam space show` (no args) interactive by asking the user to choose from a list of space names to show (tuify)](https://github.com/build-trust/ockam/issues/6472)
+* [Ockam - Improve `ockam tcp-inlet delete --help` text (`clap` command)](https://github.com/build-trust/ockam/issues/6645)
+* [Ockam - Enroll "email: '+' character not allowed"](https://github.com/build-trust/ockam/issues/6095)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -181,7 +185,22 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Overall an interesting week performance wise, with small improvements to a vast
+number of benchmarks seeming to outweigh an isolated set of (slightly) larger
+regressions. It included a number of PRs regressed instruction counts but did
+not matter for cycle times, plus one mysterious regression to `check_match` and
+`mir_borrowck` from reworking constructor splitting (see report on PR 116391 for
+details), and an awesome broad set of improvements from automatically inlining
+small functions across crates (see report on PR 116505 for details).
+
+Triage done by **@pnkfelix**.
+Revision range: [84d44dd1..b9832e72](https://perf.rust-lang.org/?start=84d44dd1d8ec1e98fff94272ba4f96b2a1f044ca&end=b9832e72c9223f4e96049aa5911effd258b92591&absolute=false&stat=instructions%3Au)
+
+4 Regressions, 1 Improvements, 4 Mixed; 3 of them in rollups
+84 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/420012f0bb12281b5a3e897280d3f38b241a4735/triage/2023-10-18.md)
+
 
 https://github.com/rust-lang/rfcs/pull/3513
 ## Upcoming Events
