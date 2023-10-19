@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 * [A type level contains operation for heterogeneous list using associated types](https://blog.weiznich.de/blog/eurorust-non-overlapping-contains-for-hlists/)
+* [Writing parsers in Winnow](https://www.youtube.com/watch?v=QF3kMyzMC40)
 
 ### Research
 
