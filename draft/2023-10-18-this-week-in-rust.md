@@ -67,9 +67,12 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
-* [Hyperswitch (Hacktoberfest)- [OpenNode] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2240)
-* [Hyperswitch (Hacktoberfest)- [Stax] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2246)
-* [Hyperswitch (Hacktoberfest)- [ACI] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2198)
+* [Hyperswitch (Hacktoberfest) - [OpenNode] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2240)
+* [Hyperswitch (Hacktoberfest) - [Stax] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2246)
+* [Hyperswitch (Hacktoberfest) - [ACI] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2198)
+* [Ockam - Make `ockam space show` (no args) interactive by asking the user to choose from a list of space names to show (tuify)](https://github.com/build-trust/ockam/issues/6472)
+* [Ockam - Improve `ockam tcp-inlet delete --help` text (`clap` command)](https://github.com/build-trust/ockam/issues/6645)
+* [Ockam - Enroll "email: '+' character not allowed"](https://github.com/build-trust/ockam/issues/6095)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
