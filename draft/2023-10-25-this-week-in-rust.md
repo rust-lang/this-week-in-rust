@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Trying to invent a better substring search algorithm](https://marcos.unsafe.rs/trying-to-invent-a-better-substring-search-algorithm/)
 
 ### Rust Walkthroughs
 
