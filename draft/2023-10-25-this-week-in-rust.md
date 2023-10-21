@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [Analyzing Data 180,000x Faster with Rust](https://willcrichton.net/notes/k-corrset/)
 
 ### Research
 
