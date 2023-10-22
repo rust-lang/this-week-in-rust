@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [video] [Associated types in Iterator bounds](https://youtu.be/Sa5bYF5a-Ng)
 
 ## Crate of the Week
 
