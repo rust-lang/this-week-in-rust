@@ -39,6 +39,9 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [video] [Let's write a message broker using QUIC - Broke But Quick Episode 1](https://www.youtube.com/watch?v=lpsduJy2EIM)
+- [video] [Publishing Messages over QUIC Streams!! - Broke But Quick episode 2](https://www.youtube.com/watch?v=auXpVgUMZjU)
+
 ### Research
 
 ### Miscellaneous
