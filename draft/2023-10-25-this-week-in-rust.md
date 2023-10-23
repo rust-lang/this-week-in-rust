@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Make your Rust code unit testable with dependency inversion](https://worldwithouteng.com/articles/make-your-rust-code-unit-testable-with-dependency-inversion/)
+
 ### Research
 
 ### Miscellaneous
