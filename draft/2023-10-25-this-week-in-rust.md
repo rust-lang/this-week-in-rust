@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Fully Automated Releases for Rust Projects](https://blog.orhun.dev/automated-rust-releases/)
+
 ### Research
 
 ### Miscellaneous
