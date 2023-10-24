@@ -34,14 +34,28 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Strobe Crate](https://jlogan03.github.io/jekyll/update/2023/10/21/strobe.html)
 
 ### Observations/Thoughts
+* [Improving Node.js with Rust-Wasm Library](https://elvisbrevi.hashnode.dev/improving-nodejs-with-rust-wasm-library)
+* [Mixing C# and Rust - Interop](https://fractalfir.github.io/generated_html/rustc_codegen_clr_v0_0_3_2.html)
+* [A fresh look on incremental zero copy serialization](https://udoprog.github.io/rust/2023-10-19/musli-zerocopy.html)
+* [Make the Rust compiler 5% faster with this one weird trick](https://kobzol.github.io/rust/rustc/2023/10/21/make-rust-compiler-5percent-faster.html)
+* [Part 3: Rowing Afloat Datatype Boats](https://thunderseethe.dev/posts/row-types/)
+* [Recreating concurrent futures combinators in smol](https://notgull.net/futures-concurrency-in-smol/)
+* [Unpacking some Rust ergonomics: getting a single Result from an iterator of them](https://ntietz.com/blog/rust-vec-of-result/)
+* [Idea: "Using Rust", a living document](https://smallcultfollowing.com/babysteps/blog/2023/10/20/using-rust/)
+* [Object Soup is Made of Indexes](https://jacko.io/object_soup.html)
+* [Analyzing Data 180,000x Faster with Rust](https://willcrichton.net/notes/k-corrset/)
+* [Issue #10: Serving HTML](https://www.shuttle.rs/launchpad/issues/2023-10-17-issue-10-Serving-HTML)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [video] [Rust and the Age of High-Integrity Languages](https://www.youtube.com/watch?v=pJoATjuc50w)
+* [video] [Implementing (part of) a BitTorrent client in Rust](https://www.youtube.com/watch?v=jf_ddGnum_4)
 
 ## Crate of the Week
 
