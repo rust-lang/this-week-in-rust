@@ -132,6 +132,8 @@ Rusty Events between 2023-10-25 - 2023-11-22 🦀
     * [**Month-end Rusting—Fun with 🍌 and 🔎!**](https://www.meetup.com/rustdc/events/296217448/)
 * 2023-10-31 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
     * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/mvdtgtyfcnbpc/)
+* 2023-10-31 | Virtual (Europe / Africa) | [Rust for Lunch](https://lunch.rs/)
+    * [**Rust Meet-up**](https://lunch.rs/meetups/2023-10-31/)
 * 2023-11-01 | Virtual (Cardiff, UK)| [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff)
     * [**ECS with Bevy Game Engine**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/296583207/)
 * 2023-11-01 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
