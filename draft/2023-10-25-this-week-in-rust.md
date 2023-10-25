@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [System dependencies are hard (so we made them easier)](https://blog.axo.dev/2023/10/dependencies)
 
 ### Observations/Thoughts
 
