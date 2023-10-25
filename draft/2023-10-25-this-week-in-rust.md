@@ -60,6 +60,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [Hyperswitch (Hacktoberfest)- [FEATURE] separate payments_session from payments core](https://github.com/juspay/hyperswitch/issues/888)
+* [Hyperswitch (Hacktoberfest)- [NMI] Use connector_response_reference_id as reference to merchant](https://github.com/juspay/hyperswitch/issues/2338)
+* [Hyperswitch (Hacktoberfest)- [Airwallex] Use connector_response_reference_id as reference to merchant](https://github.com/juspay/hyperswitch/issues/2322)
+* [Hyperswitch (Hacktoberfest)- [Worldline] Use connector_response_reference_id as reference to merchant](https://github.com/juspay/hyperswitch/issues/2351)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
