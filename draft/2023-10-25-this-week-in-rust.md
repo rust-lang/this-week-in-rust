@@ -59,8 +59,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Ockam - Make `ockam project delete` (no args) interactive by asking the user to choose from a list of space and project names to delete (tuify)](https://github.com/build-trust/ockam/issues/6461)
+* [Ockam - Validate CBOR structs according to the cddl schema for `authenticator/direct/types`](https://github.com/build-trust/ockam/issues/6682)
+* [Ockam - Slim down the `NodeManagerWorker` for `node / node status`](https://github.com/build-trust/ockam/issues/6707)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
