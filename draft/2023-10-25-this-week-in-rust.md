@@ -49,22 +49,20 @@ and just ask the editors to select the category.
 * [Object Soup is Made of Indexes](https://jacko.io/object_soup.html)
 * [Analyzing Data 180,000x Faster with Rust](https://willcrichton.net/notes/k-corrset/)
 * [Issue #10: Serving HTML](https://www.shuttle.rs/launchpad/issues/2023-10-17-issue-10-Serving-HTML)
-
- * [Rust vs C on an ATTiny85; an embedded war story](https://diziet.dreamwidth.org/16771.html)
+* [Rust vs C on an ATTiny85; an embedded war story](https://diziet.dreamwidth.org/16771.html)
 
 ### Rust Walkthroughs
-- [Fully Automated Releases for Rust Projects](https://blog.orhun.dev/automated-rust-releases/)
-- [video] [Let's write a message broker using QUIC - Broke But Quick Episode 1](https://www.youtube.com/watch?v=lpsduJy2EIM)
-- [video] [Publishing Messages over QUIC Streams!! - Broke But Quick episode 2](https://www.youtube.com/watch?v=auXpVgUMZjU)
-
+* [Fully Automated Releases for Rust Projects](https://blog.orhun.dev/automated-rust-releases/)
+* [video] [Let's write a message broker using QUIC - Broke But Quick Episode 1](https://www.youtube.com/watch?v=lpsduJy2EIM)
+* [video] [Publishing Messages over QUIC Streams!! - Broke But Quick episode 2](https://www.youtube.com/watch?v=auXpVgUMZjU)
 * [Make your Rust code unit testable with dependency inversion](https://worldwithouteng.com/articles/make-your-rust-code-unit-testable-with-dependency-inversion/)
-
 * [Nine Rules to Formally Validate Rust Algorithms with Dafny (Part 2): Lessons from Verifying the range-set-blaze Crate](https://medium.com/towards-data-science/nine-rules-to-formally-validate-rust-algorithms-with-dafny-part-2-f2a279686700)
 
 
 ### Research
 
 ### Miscellaneous
+* [video] [Associated types in Iterator bounds](https://youtu.be/Sa5bYF5a-Ng)
 * [video] [Rust and the Age of High-Integrity Languages](https://www.youtube.com/watch?v=pJoATjuc50w)
 * [video] [Implementing (part of) a BitTorrent client in Rust](https://www.youtube.com/watch?v=jf_ddGnum_4)
 
