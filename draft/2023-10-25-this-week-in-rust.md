@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 * [System dependencies are hard (so we made them easier)](https://blog.axo.dev/2023/10/dependencies)
 
 ### Observations/Thoughts
+* [Trying to invent a better substring search algorithm](https://marcos.unsafe.rs/trying-to-invent-a-better-substring-search-algorithm/)
 * [Improving Node.js with Rust-Wasm Library](https://elvisbrevi.hashnode.dev/improving-nodejs-with-rust-wasm-library)
 * [Mixing C# and Rust - Interop](https://fractalfir.github.io/generated_html/rustc_codegen_clr_v0_0_3_2.html)
 * [A fresh look on incremental zero copy serialization](https://udoprog.github.io/rust/2023-10-19/musli-zerocopy.html)
