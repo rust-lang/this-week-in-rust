@@ -105,6 +105,12 @@ which are reaching a decision. Express your opinions now.
 <!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
 <!-- * [disposition: ] []() -->
 
+### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+<!-- Remove this section if empty>
+
+### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+<!-- Remove this section if empty>
+
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
 <!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
