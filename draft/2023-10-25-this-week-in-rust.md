@@ -67,6 +67,7 @@ and just ask the editors to select the category.
 * [video] [Associated types in Iterator bounds](https://youtu.be/Sa5bYF5a-Ng)
 * [video] [Rust and the Age of High-Integrity Languages](https://www.youtube.com/watch?v=pJoATjuc50w)
 * [video] [Implementing (part of) a BitTorrent client in Rust](https://www.youtube.com/watch?v=jf_ddGnum_4)
+* [video] [5 Hours to 7.7 Seconds: How Database Tricks Sped up Rust Linting Over 2000x](https://www.youtube.com/watch?v=Fqo8r4bInsk)
 
 ## Crate of the Week
 
