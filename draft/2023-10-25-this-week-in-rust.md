@@ -63,6 +63,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
+<!-- * [ - ]() -->
+* [Hyperswitch (Hacktoberfest)- [FEATURE] separate payments_session from payments core](https://github.com/juspay/hyperswitch/issues/888)
+* [Hyperswitch (Hacktoberfest)- [NMI] Use connector_response_reference_id as reference to merchant](https://github.com/juspay/hyperswitch/issues/2338)
+* [Hyperswitch (Hacktoberfest)- [Airwallex] Use connector_response_reference_id as reference to merchant](https://github.com/juspay/hyperswitch/issues/2322)
+* [Hyperswitch (Hacktoberfest)- [Worldline] Use connector_response_reference_id as reference to merchant](https://github.com/juspay/hyperswitch/issues/2351)
 * [Ockam - Make `ockam project delete` (no args) interactive by asking the user to choose from a list of space and project names to delete (tuify)](https://github.com/build-trust/ockam/issues/6461)
 * [Ockam - Validate CBOR structs according to the cddl schema for `authenticator/direct/types`](https://github.com/build-trust/ockam/issues/6682)
 * [Ockam - Slim down the `NodeManagerWorker` for `node / node status`](https://github.com/build-trust/ockam/issues/6707)
