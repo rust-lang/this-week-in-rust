@@ -27,17 +27,13 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
+## Project/Tooling Updates
 
-### Foundation
-
-### Newsletters
-
-### Project/Tooling Updates
 * [Strobe Crate](https://jlogan03.github.io/jekyll/update/2023/10/21/strobe.html)
 * [System dependencies are hard (so we made them easier)](https://blog.axo.dev/2023/10/dependencies)
 
 ### Observations/Thoughts
+
 * [Trying to invent a better substring search algorithm](https://marcos.unsafe.rs/trying-to-invent-a-better-substring-search-algorithm/)
 * [Improving Node.js with Rust-Wasm Library](https://elvisbrevi.hashnode.dev/improving-nodejs-with-rust-wasm-library)
 * [Mixing C# and Rust - Interop](https://fractalfir.github.io/generated_html/rustc_codegen_clr_v0_0_3_2.html)
@@ -54,6 +50,7 @@ and just ask the editors to select the category.
 * [Make the Rust compiler 5% faster with this one weird trick](https://kobzol.github.io/rust/rustc/2023/10/21/make-rust-compiler-5percent-faster.html)
 
 ### Rust Walkthroughs
+
 * [Analyzing Data /,000x Faster with Rust](https://willcrichton.net/notes/k-corrset/)
 * [Fully Automated Releases for Rust Projects](https://blog.orhun.dev/automated-rust-releases/)
 * [Make your Rust code unit testable with dependency inversion](https://worldwithouteng.com/articles/make-your-rust-code-unit-testable-with-dependency-inversion/)
@@ -61,9 +58,8 @@ and just ask the editors to select the category.
 * [video] [Let's write a message broker using QUIC - Broke But Quick Episode 1](https://www.youtube.com/watch?v=lpsduJy2EIM)
 * [video] [Publishing Messages over QUIC Streams!! - Broke But Quick episode 2](https://www.youtube.com/watch?v=auXpVgUMZjU)
 
-### Research
-
 ### Miscellaneous
+
 * [video] [Associated types in Iterator bounds](https://youtu.be/Sa5bYF5a-Ng)
 * [video] [Rust and the Age of High-Integrity Languages](https://www.youtube.com/watch?v=pJoATjuc50w)
 * [video] [Implementing (part of) a BitTorrent client in Rust](https://www.youtube.com/watch?v=jf_ddGnum_4)
@@ -368,7 +364,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/163w6fl/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -386,4 +382,4 @@ Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/17gndm2/this_week_in_rust_518/)</small>
