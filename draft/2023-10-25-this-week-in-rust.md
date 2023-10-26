@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+ * [Rust vs C on an ATTiny85; an embedded war story](https://diziet.dreamwidth.org/16771.html)
+
 ### Rust Walkthroughs
 
 ### Research
