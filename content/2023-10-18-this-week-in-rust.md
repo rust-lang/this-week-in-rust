@@ -220,7 +220,7 @@ which are reaching a decision. Express your opinions now.
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 * [disposition: merge] [Tracking Issue for result_option_inspect](https://github.com/rust-lang/rust/issues/91345)
 * [disposition: merge] [Allow partially moved values in match](https://github.com/rust-lang/rust/pull/103208)
-* [disposition: merge] [`read_dir` has unexpected behavior for `""`](https://github.com/rust-lang/rust/issues/114149)
+* [disposition: close] [`read_dir` has unexpected behavior for `""`](https://github.com/rust-lang/rust/issues/114149)
 * [disposition: merge] [rustdoc: align stability badge to baseline instead of bottom](https://github.com/rust-lang/rust/pull/105666)
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
