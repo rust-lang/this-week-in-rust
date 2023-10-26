@@ -34,8 +34,11 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [System dependencies are hard (so we made them easier)](https://blog.axo.dev/2023/10/dependencies)
 
 ### Observations/Thoughts
+
+ * [Rust vs C on an ATTiny85; an embedded war story](https://diziet.dreamwidth.org/16771.html)
 
 ### Rust Walkthroughs
 
@@ -45,7 +48,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [cargo-show-asm](https://lib.rs/crates/cargo-show-asm), a cargo subcommand to show the optimized assembly of any function.
+
+Thanks to [Kornel](https://users.rust-lang.org/t/crate-of-the-week/2704/1250) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -64,6 +69,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Hyperswitch (Hacktoberfest)- [NMI] Use connector_response_reference_id as reference to merchant](https://github.com/juspay/hyperswitch/issues/2338)
 * [Hyperswitch (Hacktoberfest)- [Airwallex] Use connector_response_reference_id as reference to merchant](https://github.com/juspay/hyperswitch/issues/2322)
 * [Hyperswitch (Hacktoberfest)- [Worldline] Use connector_response_reference_id as reference to merchant](https://github.com/juspay/hyperswitch/issues/2351)
+* [Ockam - Make `ockam project delete` (no args) interactive by asking the user to choose from a list of space and project names to delete (tuify)](https://github.com/build-trust/ockam/issues/6461)
+* [Ockam - Validate CBOR structs according to the cddl schema for `authenticator/direct/types`](https://github.com/build-trust/ockam/issues/6682)
+* [Ockam - Slim down the `NodeManagerWorker` for `node / node status`](https://github.com/build-trust/ockam/issues/6707)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -71,7 +79,104 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+397 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-10-16..2023-10-23
+
+* [rewrite gdb pretty-printer registration](https://github.com/rust-lang/rust/pull/116978)
+* [add FileCheck annotations to mir-opt tests](https://github.com/rust-lang/rust/pull/116810)
+* [add MonoItems and Instance to `stable_mir`](https://github.com/rust-lang/rust/pull/116719)
+* [add a `csky-unknown-linux-gnuabiv2hf` target](https://github.com/rust-lang/rust/pull/117049)
+* [add a test showing failing closure signature inference in new solver](https://github.com/rust-lang/rust/pull/116899)
+* [add new simpler and more explicit syntax for check-cfg](https://github.com/rust-lang/rust/pull/111072)
+* [add stable `Instance::body()` and RustcInternal trait](https://github.com/rust-lang/rust/pull/116964)
+* [automatically enable cross-crate inlining for small functions](https://github.com/rust-lang/rust/pull/116505)
+* [avoid a `track_errors` by bubbling up most errors from `check_well_formed`](https://github.com/rust-lang/rust/pull/116849)
+* [avoid having `rustc_smir` depend on `rustc_interface` or `rustc_driver`](https://github.com/rust-lang/rust/pull/116837)
+* [coverage: emit mappings for unused functions without generating stubs](https://github.com/rust-lang/rust/pull/116922)
+* [coverage: emit the filenames section before encoding per-function mappings](https://github.com/rust-lang/rust/pull/117042)
+* [coverage: fix inconsistent handling of function signature spans](https://github.com/rust-lang/rust/pull/116974)
+* [coverage: move most per-function coverage info into `mir::Body`](https://github.com/rust-lang/rust/pull/116046)
+* [coverage: simplify the injection of coverage statements](https://github.com/rust-lang/rust/pull/116917)
+* [disable `missing_copy_implementations` lint on `non_exhaustive` types](https://github.com/rust-lang/rust/pull/116812)
+* [do not bold main message in `--error-format=short`](https://github.com/rust-lang/rust/pull/116962)
+* [don't ICE when encountering unresolved regions in `fully_resolve`](https://github.com/rust-lang/rust/pull/116663)
+* [don't compare host param by name](https://github.com/rust-lang/rust/pull/116870)
+* [don't crash on empty match in the `nonexhaustive_omitted_patterns` lint](https://github.com/rust-lang/rust/pull/117034)
+* [duplicate `~const` bounds with a non-const one in effects desugaring](https://github.com/rust-lang/rust/pull/116756)
+* [eliminate `rustc_attrs::builtin::handle_errors` in favor of emitting errors directly](https://github.com/rust-lang/rust/pull/117064)
+* [fix a performance regression in obligation deduplication](https://github.com/rust-lang/rust/pull/116826)
+* [fix implied outlives check for GAT in RPITIT](https://github.com/rust-lang/rust/pull/116800)
+* [fix spans for removing `.await` on `for` expressions](https://github.com/rust-lang/rust/pull/117019)
+* [fix suggestion for renamed coroutines feature](https://github.com/rust-lang/rust/pull/117073)
+* [implement an internal lint encouraging use of `Span::eq_ctxt`](https://github.com/rust-lang/rust/pull/116787)
+* [implement jump threading MIR opt](https://github.com/rust-lang/rust/pull/107009)
+* [implement rustc part of RFC 3127 trim-paths](https://github.com/rust-lang/rust/pull/115214)
+* [improve display of parallel jobs in rustdoc-gui tester script](https://github.com/rust-lang/rust/pull/116798)
+* [initiate the inner usage of `cfg_match` (Compiler)](https://github.com/rust-lang/rust/pull/116312)
+* [lint `non_exhaustive_omitted_patterns` by columns](https://github.com/rust-lang/rust/pull/116734)
+* [location-insensitive polonius: consider a loan escaping if an SCC has member constraints applied only](https://github.com/rust-lang/rust/pull/116960)
+* [make `#[repr(Rust)]` incompatible with other (non-modifier) representation hints like `C` and `simd`](https://github.com/rust-lang/rust/pull/116829)
+* [make `rustc_onunimplemented` export path agnostic](https://github.com/rust-lang/rust/pull/116805)
+* [mention `into_iter` on borrow errors suggestions when appropriate](https://github.com/rust-lang/rust/pull/116990)
+* [mention the syntax for `use` on `mod foo;` if `foo` doesn't exist](https://github.com/rust-lang/rust/pull/116992)
+* [panic when the global allocator tries to register a TLS destructor](https://github.com/rust-lang/rust/pull/116402)
+* [point at assoc fn definition on type param divergence](https://github.com/rust-lang/rust/pull/116995)
+* [preserve unicode escapes in format string literals when pretty-printing AST](https://github.com/rust-lang/rust/pull/116811)
+* [properly account for self ty in method disambiguation suggestion](https://github.com/rust-lang/rust/pull/116713)
+* [report `unused_import` for empty reexports even it is pub](https://github.com/rust-lang/rust/pull/116033)
+* [special case iterator chain checks for suggestion](https://github.com/rust-lang/rust/pull/116717)
+* [strict provenance unwind](https://github.com/rust-lang/rust/pull/114534)
+* [suggest `;` after bare `match` expression E0308](https://github.com/rust-lang/rust/pull/106601)
+* [suggest constraining assoc types in more cases](https://github.com/rust-lang/rust/pull/116865)
+* [suggest relaxing implicit `type Assoc: Sized;` bound](https://github.com/rust-lang/rust/pull/116911)
+* [suggest removing redundant arguments in `format!()`](https://github.com/rust-lang/rust/pull/115324)
+* [uplift movability and mutability, the simple way](https://github.com/rust-lang/rust/pull/116946)
+* [miri: avoid a linear scan over the entire `int_to_ptr_map` on each deallocation](https://github.com/rust-lang/miri/pull/3134)
+* [miri: fix rounding mode check in SSE4.1 round functions](https://github.com/rust-lang/miri/pull/3124)
+* [miri: intptrcast: remove information about dead allocations](https://github.com/rust-lang/miri/pull/3122)
+* [disable effects in libcore again](https://github.com/rust-lang/rust/pull/116856)
+* [add `#[track_caller]` to `Option::unwrap_or_else`](https://github.com/rust-lang/rust/pull/116795)
+* [specialize `Bytes<R>::next` when `R` is a `BufReader`](https://github.com/rust-lang/rust/pull/116785)
+* [make TCP connect handle EINTR correctly](https://github.com/rust-lang/rust/pull/116132)
+* [on Windows make `read_dir` error on the empty path](https://github.com/rust-lang/rust/pull/116606)
+* [hashbrown: add low-level `HashTable` API](https://github.com/rust-lang/hashbrown/pull/466)
+* [codegen\_gcc: add support for NonNull function attribute](https://github.com/rust-lang/rustc_codegen_gcc/pull/326)
+* [codegen\_gcc: fix `#[inline(always)]` attribute and support unsigned comparison for signed integers](https://github.com/rust-lang/rustc_codegen_gcc/pull/352)
+* [codegen\_gcc: fix endianness](https://github.com/rust-lang/rustc_codegen_gcc/pull/346)
+* [codegen\_gcc: fix int types alignment](https://github.com/rust-lang/rustc_codegen_gcc/pull/353)
+* [codegen\_gcc: optimize popcount implementation](https://github.com/rust-lang/rustc_codegen_gcc/pull/348)
+* [codegen\_gcc: optimize u128/i128 popcounts further](https://github.com/rust-lang/rustc_codegen_gcc/pull/354)
+* [cargo add: Preserve more comments](https://github.com/rust-lang/cargo/pull/12838)
+* [cargo remove: Preserve feature comments](https://github.com/rust-lang/cargo/pull/12837)
+* [cargo replace: Partial-version spec support](https://github.com/rust-lang/cargo/pull/12806)
+* [cargo: Provide next steps for bad -Z flag](https://github.com/rust-lang/cargo/pull/12857)
+* [cargo: Suggest cargo-search on bad commands](https://github.com/rust-lang/cargo/pull/12840)
+* [cargo: adjust `-Zcheck-cfg` for new rustc syntax and behavior](https://github.com/rust-lang/cargo/pull/12845)
+* [cargo: if there's a version in the lock file only use that exact version](https://github.com/rust-lang/cargo/pull/12772)
+* [cargo: make the precise field of a source an Enum](https://github.com/rust-lang/cargo/pull/12849)
+* [cargo: print environment variables for build script executions with `-vv`](https://github.com/rust-lang/cargo/pull/12829)
+* [cargo: warn about crate name's format when creating new crate](https://github.com/rust-lang/cargo/pull/12766)
+* [rustdoc: align stability badge to baseline instead of bottom](https://github.com/rust-lang/rust/pull/105666)
+* [rustdoc: avoid allocating strings primitive link printing](https://github.com/rust-lang/rust/pull/117007)
+* [clippy: `map_identity`: allow closure with type annotations](https://github.com/rust-lang/rust-clippy/pull/11521)
+* [clippy: `map_identity`: recognize tuple identity function](https://github.com/rust-lang/rust-clippy/pull/10943)
+* [clippy: add lint for `struct` field names](https://github.com/rust-lang/rust-clippy/pull/11496)
+* [clippy: don't emit `needless_pass_by_ref_mut` if the variable is used in an unsafe block or function](https://github.com/rust-lang/rust-clippy/pull/11624)
+* [clippy: make `multiple_unsafe_ops_per_block` ignore await desugaring](https://github.com/rust-lang/rust-clippy/pull/11646)
+* [clippy: needless pass by ref mut closure non async fn](https://github.com/rust-lang/rust-clippy/pull/11621)
+* [clippy: now `declare_interior_mutable_const` and `borrow_interior_mutable_const` respect the `ignore-interior-mutability` configuration entry](https://github.com/rust-lang/rust-clippy/pull/11678)
+* [clippy: skip `if_not_else` lint for '!= 0'-style checks](https://github.com/rust-lang/rust-clippy/pull/11028)
+* [clippy: suggest passing function instead of calling it in closure for `option_if_let_else`](https://github.com/rust-lang/rust-clippy/pull/11460)
+* [clippy: warn `missing_enforced_import_renames` by default](https://github.com/rust-lang/rust-clippy/pull/11539)
+* [rust-analyzer: generate descriptors for all unstable features](https://github.com/rust-lang/rust-analyzer/pull/15727)
+* [rust-analyzer: add command for only opening external docs and attempt to fix vscode-remote issue](https://github.com/rust-lang/rust-analyzer/pull/15779)
+* [rust-analyzer: add incorrect case diagnostics for module names](https://github.com/rust-lang/rust-analyzer/pull/15736)
+* [rust-analyzer: fix VS Code detection for Insiders version](https://github.com/rust-lang/rust-analyzer/pull/15786)
+* [rust-analyzer: import trait if needed for `unqualify_method_call` assist](https://github.com/rust-lang/rust-analyzer/pull/15780)
+* [rust-analyzer: pick a better name for variables introduced by `replace_is_some_with_if_let_some`](https://github.com/rust-lang/rust-analyzer/pull/15775)
+* [rust-analyzer: store binding mode for each instance of a binding independently](https://github.com/rust-lang/rust-analyzer/pull/15789)
+* [perf: add NES emulation runtime benchmark](https://github.com/rust-lang/rustc-perf/pull/1730)
 
 ### Rust Compiler Performance Triage
 
@@ -136,6 +241,8 @@ Rusty Events between 2023-10-25 - 2023-11-22 🦀
     * [**Month-end Rusting—Fun with 🍌 and 🔎!**](https://www.meetup.com/rustdc/events/296217448/)
 * 2023-10-31 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
     * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/mvdtgtyfcnbpc/)
+* 2023-10-31 | Virtual (Europe / Africa) | [Rust for Lunch](https://lunch.rs/)
+    * [**Rust Meet-up**](https://lunch.rs/meetups/2023-10-31/)
 * 2023-11-01 | Virtual (Cardiff, UK)| [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff)
     * [**ECS with Bevy Game Engine**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/296583207/)
 * 2023-11-01 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
@@ -243,7 +350,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> When your Rust build times get slower after adding some procedural macros:
+>
+> We call that the syn tax :ferris:
+
+– [Janet on Fosstodon](https://fosstodon.org/@janet/111223564960983226)
+
+Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1472) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
