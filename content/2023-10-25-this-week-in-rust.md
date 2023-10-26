@@ -47,7 +47,6 @@ and just ask the editors to select the category.
 * [Analyzing Data 180,000x Faster with Rust](https://willcrichton.net/notes/k-corrset/)
 * [Issue #10: Serving HTML](https://www.shuttle.rs/launchpad/issues/2023-10-17-issue-10-Serving-HTML)
 * [Rust vs C on an ATTiny85; an embedded war story](https://diziet.dreamwidth.org/16771.html)
-* [Make the Rust compiler 5% faster with this one weird trick](https://kobzol.github.io/rust/rustc/2023/10/21/make-rust-compiler-5percent-faster.html)
 
 ### Rust Walkthroughs
 
