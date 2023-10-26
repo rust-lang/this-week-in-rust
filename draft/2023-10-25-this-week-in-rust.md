@@ -54,7 +54,6 @@ and just ask the editors to select the category.
 * [Make the Rust compiler 5% faster with this one weird trick](https://kobzol.github.io/rust/rustc/2023/10/21/make-rust-compiler-5percent-faster.html)
 
 ### Rust Walkthroughs
-* [Analyzing Data /,000x Faster with Rust](https://willcrichton.net/notes/k-corrset/)
 * [Fully Automated Releases for Rust Projects](https://blog.orhun.dev/automated-rust-releases/)
 * [Make your Rust code unit testable with dependency inversion](https://worldwithouteng.com/articles/make-your-rust-code-unit-testable-with-dependency-inversion/)
 * [Nine Rules to Formally Validate Rust Algorithms with Dafny (Part 2): Lessons from Verifying the range-set-blaze Crate](https://medium.com/towards-data-science/nine-rules-to-formally-validate-rust-algorithms-with-dafny-part-2-f2a279686700)
