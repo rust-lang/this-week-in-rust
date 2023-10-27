@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [video] [5 Hours to 7.7 Seconds: How Database Tricks Sped up Rust Linting Over 2000x](https://www.youtube.com/watch?v=Fqo8r4bInsk)
 
 ## Crate of the Week
 
