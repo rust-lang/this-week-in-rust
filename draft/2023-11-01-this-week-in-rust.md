@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Faster Rust Serialization](https://mo8it.com/blog/faster-rust-serialization/)
+
 ### Rust Walkthroughs
 
 ### Research
