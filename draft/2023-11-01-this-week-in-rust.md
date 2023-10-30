@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 ### Research
+- [Grading on a Curve: How Rust can Facilitate New Contributors while Decreasing Vulnerabilities](https://cypherpunks.ca/~iang/pubs/gradingcurve-secdev23.pdf)
 
 ### Miscellaneous
 
