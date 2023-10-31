@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [The beauty of a Rust message processor](https://worldwithouteng.com/articles/the-beauty-of-a-rust-message-processor/)
 
 ### Research
 
