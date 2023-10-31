@@ -75,18 +75,10 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
-Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
+Changes to Rust follow the Rust [RFC (request for comments) process](http®s://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* [2024 Edition](https://github.com/rust-lang/rfcs/pull/3501)
 
 ### Final Comment Period
 
@@ -95,40 +87,36 @@ which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [Lifetime Capture Rules 2024](https://github.com/rust-lang/rfcs/pull/3498)
+* [disposition: merge] [Add "crates.io Policy Update" RFC](https://github.com/rust-lang/rfcs/pull/3463)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [Override `Waker::clone`_from to avoid cloning Wakers unnecessarily](https://github.com/rust-lang/rust/pull/96979)
+* [disposition: merge] [dropck_outlives check whether generator witness needs_drop](https://github.com/rust-lang/rust/pull/117134)
+* [disposition: merge] [stricter hidden type wf-check](https://github.com/rust-lang/rust/pull/115008)
+* [disposition: merge] [Tracking Issue for the GroupBy and GroupByMut iterators](https://github.com/rust-lang/rust/issues/80552)
+* [disposition: merge] [Don't panic in `<BorrowedCursor as io::Write>::write`](https://github.com/rust-lang/rust/pull/115460)
+* [disposition: merge] [Guarantee that `char` has the same size and alignment as `u32`](https://github.com/rust-lang/rust/pull/116894)
+* [disposition: merge] [Stabilize `const_maybe_uninit_zeroed` and `const_mem_zeroed`](https://github.com/rust-lang/rust/pull/116218)
+* [disposition: merge] [Clarify UB in `get_unchecked(_mut)`](https://github.com/rust-lang/rust/pull/117039)
+* [disposition: merge] [document that the null pointer has the 0 address](https://github.com/rust-lang/rust/pull/116988)
+* [disposition: close] [regression: parameter type may not live long enough](https://github.com/rust-lang/rust/issues/117055)
 
 ### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+* [disposition: merge] [Guarantee that raw pointer conversions preserve slice element count](https://github.com/rust-lang/reference/pull/1417)
 
 ### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+* * No Unsafe Code Guideline RFCs entered Final Comment Period this week.*
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+* *No New or Updated RFCs were created this week.*
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+* *No RFCs issued a call for testing this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
