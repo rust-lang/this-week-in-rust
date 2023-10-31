@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Can Rust prevent logic errors?](https://itsallaboutthebit.com/logic-errors-in-rust/)
+
 ### Rust Walkthroughs
 
 ### Research
