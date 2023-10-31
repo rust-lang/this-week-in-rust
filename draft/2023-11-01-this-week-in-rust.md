@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Starting a virtual Rust meet-up](https://hegdenu.net/posts/virtual-rust-meet-up/)
+
 ### Rust Walkthroughs
 
 ### Research
