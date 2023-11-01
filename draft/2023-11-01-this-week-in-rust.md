@@ -35,13 +35,18 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [git-cliff 1.4.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/1.4.0)
+
 ### Observations/Thoughts
 
 * [Can Rust prevent logic errors?](https://itsallaboutthebit.com/logic-errors-in-rust/)
+- [Faster Rust Serialization](https://mo8it.com/blog/faster-rust-serialization/)
 
 ### Rust Walkthroughs
+- [The beauty of a Rust message processor](https://worldwithouteng.com/articles/the-beauty-of-a-rust-message-processor/)
 
 ### Research
+- [Grading on a Curve: How Rust can Facilitate New Contributors while Decreasing Vulnerabilities](https://cypherpunks.ca/~iang/pubs/gradingcurve-secdev23.pdf)
 
 ### Miscellaneous
 
@@ -60,8 +65,13 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [pubgrub - Move to edition 2021](https://github.com/pubgrub-rs/pubgrub/issues/140)
+* [pubgrub - Fix CI for conventional commits](https://github.com/pubgrub-rs/pubgrub/issues/139)
+* [pubgrub - Rename v0.3 Range into BoundedRange](https://github.com/pubgrub-rs/pubgrub/issues/123)
+* [pubgrub - `OfflineDependencyProvider` should get its own module](https://github.com/pubgrub-rs/pubgrub/issues/114)
+* [Ockam - Library - Slim down the `NodeManagerWorker` for `node / tcp`](https://github.com/build-trust/ockam/issues/6708)
+* [Ockam - Make `ockam vault delete` (no args) interactive by asking the user to choose from a list of vaults to delete (tuify)](https://github.com/build-trust/ockam/issues/6462)
+* [Ockam - Command - refactor to use typed interfaces to implement commands for `services`](https://github.com/build-trust/ockam/issues/6700)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -73,13 +83,25 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week we have two sets of results as last week's arrived later than the publish date:
+
+Triage done by **@rylev** and **@simulacrum**.
+
+Revision range: [b9832e72..650991d](https://perf.rust-lang.org/?start=b9832e72c9223f4e96049aa5911effd258b92591&end=650991d62c3a2c80ba27009d06839adbb038bf5e&absolute=false&stat=instructions%3Au)
+
+Across both reports:
+
+9 Regressions, 7 Improvements, 5 Mixed
+127 artifact comparisons made in total
+
+* [Full report #1](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-10-26.md)
+* [Full report #2](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-10-31.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
-
+- [Rust 2024 Edition](https://rust-lang.github.io/rfcs/3501-edition-2024.html)
 <!-- Approved RFCs go here, use this format: * [Topic](URL) -->
 <!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
 <!-- * []() -->
