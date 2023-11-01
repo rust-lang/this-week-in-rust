@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-- [ratatui 0.24.0 is released! (Rust library that's all about cooking up terminal user interfaces)](https://ratatui.rs/highlights/v0.24.html)
+* [ratatui 0.24.0 is released! (Rust library that's all about cooking up terminal user interfaces)](https://ratatui.rs/highlights/v0.24.html)
 * [git-cliff 1.4.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/1.4.0)
 * [rust-analyzer changelog #205](https://rust-analyzer.github.io/thisweek/2023/10/30/changelog-205.html)
 * [Progress report on rustc_codegen_cranelift (Oct 2023)](https://bjorn3.github.io/2023/10/31/progress-report-oct-2023.html)
@@ -46,7 +46,7 @@ and just ask the editors to select the category.
 * [System dependencies are hard (so we made them easier)](https://blog.axo.dev/2023/10/dependencies)
 * [Was Rust Worth It?](https://jsoverson.medium.com/was-rust-worth-it-f43d171fb1b3)
 * [Can Rust prevent logic errors?](https://itsallaboutthebit.com/logic-errors-in-rust/)
-- [Faster Rust Serialization](https://mo8it.com/blog/faster-rust-serialization/)
+* [Faster Rust Serialization](https://mo8it.com/blog/faster-rust-serialization/)
 * [Dealing with Dependencies in Rust](https://tweedegolf.nl/en/blog/104/dealing-with-dependencies-in-rust)
 * [How I learned to stop worrying and love byte ordering](https://udoprog.github.io/rust/2023-10-28/stop-worrying.html)
 * [How To Move Fast With Rust](https://endler.dev/2023/move-fast-rust)
@@ -54,14 +54,14 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Fully Automated Releases for Rust Projects](https://blog.orhun.dev/automated-rust-releases/)
-- [The beauty of a Rust message processor](https://worldwithouteng.com/articles/the-beauty-of-a-rust-message-processor/)
+* [The beauty of a Rust message processor](https://worldwithouteng.com/articles/the-beauty-of-a-rust-message-processor/)
 * [interrupts is threads](https://onevariable.com/blog/interrupts-is-threads/)
 * [htmx, Rust & Shuttle: A New Rapid Prototyping Stack](https://www.shuttle.rs/blog/2023/10/25/htmx-with-rust)
 * [video] [Async Not Required 🦀](https://www.youtube.com/watch?v=QXynWxALJmo)
 
 ### Research
 * [Functional Ownership through Fractional Uniqueness](https://arxiv.org/abs/2310.18166)
-- [Grading on a Curve: How Rust can Facilitate New Contributors while Decreasing Vulnerabilities](https://cypherpunks.ca/~iang/pubs/gradingcurve-secdev23.pdf)
+* [Grading on a Curve: How Rust can Facilitate New Contributors while Decreasing Vulnerabilities](https://cypherpunks.ca/~iang/pubs/gradingcurve-secdev23.pdf)
 
 ### Miscellaneous
 * [video] [5 Hours to 7.7 Seconds: How Database Tricks Sped up Rust Linting Over 2000x](https://www.youtube.com/watch?v=Fqo8r4bInsk)
