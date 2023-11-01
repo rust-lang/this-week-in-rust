@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Can Rust prevent logic errors?](https://itsallaboutthebit.com/logic-errors-in-rust/)
 - [Faster Rust Serialization](https://mo8it.com/blog/faster-rust-serialization/)
 
 ### Rust Walkthroughs
