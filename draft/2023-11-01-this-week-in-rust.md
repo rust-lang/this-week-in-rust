@@ -87,7 +87,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
-
+- [Rust 2024 Edition](https://rust-lang.github.io/rfcs/3501-edition-2024.html)
 <!-- Approved RFCs go here, use this format: * [Topic](URL) -->
 <!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
 <!-- * []() -->
