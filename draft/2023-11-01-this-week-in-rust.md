@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 * [How To Move Fast With Rust](https://endler.dev/2023/move-fast-rust)
 * [video] [Impl Trait aka Look ma’, no generics! by Jon Gjengset](https://www.youtube.com/watch?v=CWiz_RtA1Hw)
 
+* [Starting a virtual Rust meet-up](https://hegdenu.net/posts/virtual-rust-meet-up/)
+
 ### Rust Walkthroughs
 * [Fully Automated Releases for Rust Projects](https://blog.orhun.dev/automated-rust-releases/)
 * [The beauty of a Rust message processor](https://worldwithouteng.com/articles/the-beauty-of-a-rust-message-processor/)
