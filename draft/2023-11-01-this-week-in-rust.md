@@ -98,7 +98,7 @@ Across both reports:
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
-Changes to Rust follow the Rust [RFC (request for comments) process](http®s://github.com/rust-lang/rfcs#rust-rfcs). These
+Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
 * [2024 Edition](https://github.com/rust-lang/rfcs/pull/3501)
