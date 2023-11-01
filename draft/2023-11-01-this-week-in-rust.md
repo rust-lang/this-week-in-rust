@@ -34,7 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+- [ratatui 0.24.0 is released! (Rust library that's all about cooking up terminal user interfaces)](https://ratatui.rs/highlights/v0.24.html)
 * [git-cliff 1.4.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/1.4.0)
 
 ### Observations/Thoughts
