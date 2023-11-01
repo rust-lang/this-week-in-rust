@@ -38,7 +38,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [ratatui 0.24.0 is released! (Rust library that's all about cooking up terminal user interfaces)](https://ratatui.rs/highlights/v0.24.html)
-* [git-cliff 1.4.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/1.4.0)
+* [git-cliff 1.4.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/1.4.0/)
 * [rust-analyzer changelog #205](https://rust-analyzer.github.io/thisweek/2023/10/30/changelog-205.html)
 * [Progress report on rustc_codegen_cranelift (Oct 2023)](https://bjorn3.github.io/2023/10/31/progress-report-oct-2023.html)
 
