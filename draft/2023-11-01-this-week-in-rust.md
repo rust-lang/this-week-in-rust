@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 - [Faster Rust Serialization](https://mo8it.com/blog/faster-rust-serialization/)
 
 ### Rust Walkthroughs
+- [The beauty of a Rust message processor](https://worldwithouteng.com/articles/the-beauty-of-a-rust-message-processor/)
 
 ### Research
 - [Grading on a Curve: How Rust can Facilitate New Contributors while Decreasing Vulnerabilities](https://cypherpunks.ca/~iang/pubs/gradingcurve-secdev23.pdf)
