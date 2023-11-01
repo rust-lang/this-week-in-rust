@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [96 Hours left to get Black hat Rust for free](https://kerkour.com/black-hat-rust-free-november-2023)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
