@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 
 * [Can Rust prevent logic errors?](https://itsallaboutthebit.com/logic-errors-in-rust/)
 - [Faster Rust Serialization](https://mo8it.com/blog/faster-rust-serialization/)
+* [Dealing with Dependencies in Rust](https://tweedegolf.nl/en/blog/104/dealing-with-dependencies-in-rust)
 
 ### Rust Walkthroughs
 - [The beauty of a Rust message processor](https://worldwithouteng.com/articles/the-beauty-of-a-rust-message-processor/)
