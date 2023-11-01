@@ -50,7 +50,7 @@ and just ask the editors to select the category.
 * [Dealing with Dependencies in Rust](https://tweedegolf.nl/en/blog/104/dealing-with-dependencies-in-rust)
 * [How I learned to stop worrying and love byte ordering](https://udoprog.github.io/rust/2023-10-28/stop-worrying.html)
 * [How To Move Fast With Rust](https://endler.dev/2023/move-fast-rust)
-* [video] [Impl Trait aka Look ma’, no generics! by Jon Gjengset](https://youtu.be/CWiz_RtA1Hw)
+* [video] [Impl Trait aka Look ma’, no generics! by Jon Gjengset](https://www.youtube.com/watch?v=CWiz_RtA1Hw)
 
 ### Rust Walkthroughs
 * [Fully Automated Releases for Rust Projects](https://blog.orhun.dev/automated-rust-releases/)
