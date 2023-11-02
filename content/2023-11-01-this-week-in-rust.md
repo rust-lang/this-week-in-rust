@@ -28,21 +28,20 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+
 * [A tale of broken badges and 23,000 features](https://blog.rust-lang.org/2023/10/26/broken-badges-and-23k-keywords.html)
 * [crates.io: Dropping support for non-canonical downloads](https://blog.rust-lang.org/2023/10/27/crates-io-non-canonical-downloads.html)
 * [Generators are dead, long live coroutines, generators are back](https://blog.rust-lang.org/inside-rust/2023/10/23/coroutines.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
+
 * [ratatui 0.24.0 is released! (Rust library that's all about cooking up terminal user interfaces)](https://ratatui.rs/highlights/v0.24.html)
 * [git-cliff 1.4.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/1.4.0/)
 * [rust-analyzer changelog #205](https://rust-analyzer.github.io/thisweek/2023/10/30/changelog-205.html)
 * [Progress report on rustc_codegen_cranelift (Oct 2023)](https://bjorn3.github.io/2023/10/31/progress-report-oct-2023.html)
 
 ### Observations/Thoughts
+
 * [System dependencies are hard (so we made them easier)](https://blog.axo.dev/2023/10/dependencies)
 * [Was Rust Worth It?](https://jsoverson.medium.com/was-rust-worth-it-f43d171fb1b3)
 * [Can Rust prevent logic errors?](https://itsallaboutthebit.com/logic-errors-in-rust/)
@@ -50,11 +49,11 @@ and just ask the editors to select the category.
 * [Dealing with Dependencies in Rust](https://tweedegolf.nl/en/blog/104/dealing-with-dependencies-in-rust)
 * [How I learned to stop worrying and love byte ordering](https://udoprog.github.io/rust/2023-10-28/stop-worrying.html)
 * [How To Move Fast With Rust](https://endler.dev/2023/move-fast-rust)
+* [Starting a virtual Rust meet-up](https://hegdenu.net/posts/virtual-rust-meet-up/)
 * [video] [Impl Trait aka Look ma’, no generics! by Jon Gjengset](https://www.youtube.com/watch?v=CWiz_RtA1Hw)
 
-* [Starting a virtual Rust meet-up](https://hegdenu.net/posts/virtual-rust-meet-up/)
-
 ### Rust Walkthroughs
+
 * [Fully Automated Releases for Rust Projects](https://blog.orhun.dev/automated-rust-releases/)
 * [The beauty of a Rust message processor](https://worldwithouteng.com/articles/the-beauty-of-a-rust-message-processor/)
 * [interrupts is threads](https://onevariable.com/blog/interrupts-is-threads/)
@@ -62,10 +61,12 @@ and just ask the editors to select the category.
 * [video] [Async Not Required 🦀](https://www.youtube.com/watch?v=QXynWxALJmo)
 
 ### Research
+
 * [Functional Ownership through Fractional Uniqueness](https://arxiv.org/abs/2310.18166)
 * [Grading on a Curve: How Rust can Facilitate New Contributors while Decreasing Vulnerabilities](https://cypherpunks.ca/~iang/pubs/gradingcurve-secdev23.pdf)
 
 ### Miscellaneous
+
 * [video] [5 Hours to 7.7 Seconds: How Database Tricks Sped up Rust Linting Over 2000x](https://www.youtube.com/watch?v=Fqo8r4bInsk)
 
 ## Crate of the Week
@@ -257,10 +258,6 @@ are the RFCs that were approved for implementation this week:
 
 * [2024 Edition](https://github.com/rust-lang/rfcs/pull/3501)
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
 ### Final Comment Period
 
 Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
@@ -272,6 +269,7 @@ which are reaching a decision. Express your opinions now.
 * [disposition: merge] [Add "crates.io Policy Update" RFC](https://github.com/rust-lang/rfcs/pull/3463)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
 * [disposition: merge] [Override `Waker::clone`_from to avoid cloning Wakers unnecessarily](https://github.com/rust-lang/rust/pull/96979)
 * [disposition: merge] [dropck_outlives check whether generator witness needs_drop](https://github.com/rust-lang/rust/pull/117134)
 * [disposition: merge] [stricter hidden type wf-check](https://github.com/rust-lang/rust/pull/115008)
@@ -284,15 +282,19 @@ which are reaching a decision. Express your opinions now.
 * [disposition: close] [regression: parameter type may not live long enough](https://github.com/rust-lang/rust/issues/117055)
 
 ### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
 * [disposition: merge] [Guarantee that raw pointer conversions preserve slice element count](https://github.com/rust-lang/reference/pull/1417)
 
 ### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-* * No Unsafe Code Guideline RFCs entered Final Comment Period this week.*
+
+* *No Unsafe Code Guideline RFCs entered Final Comment Period this week.*
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
 * *No New or Updated RFCs were created this week.*
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
@@ -344,7 +346,7 @@ Rusty Events between 2023-11-01 - 2023-11-29 🦀
     * [**Web-applications with axum: Hello CRUD!**](https://www.meetup.com/rustcologne/events/296540949/)
 * 2023-11-07 | Bratislava, SK | [Bratislava Rust Meetup Group](https://www.meetup.com/bratislava-rust-meetup-group/)
     * [**Rust Meetup by Sonalake**](https://www.meetup.com/bratislava-rust-meetup-group/events/296809100/)
-* 2023-11-07 | Brussels, BE | [Rust Aarhus](https://www.meetup.com/rust-aarhus)
+* 2023-11-07 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus)
     * [**Rust Aarhus - Rust and Talk beginners edition**](https://www.meetup.com/rust-aarhus/events/296223647/)
 * 2023-11-07 | Lyon, FR | [Rust Lyon](https://www.meetup.com/fr-FR/rust-lyon/)
     * [**Rust Lyon Meetup #7**](https://www.meetup.com/rust-lyon/events/296853019/)
@@ -411,7 +413,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/163w6fl/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -427,4 +429,4 @@ Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/17lqhp2/this_week_in_rust_519/)</small>
