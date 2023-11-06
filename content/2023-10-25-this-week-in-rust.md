@@ -44,13 +44,12 @@ and just ask the editors to select the category.
 * [Unpacking some Rust ergonomics: getting a single Result from an iterator of them](https://ntietz.com/blog/rust-vec-of-result/)
 * [Idea: "Using Rust", a living document](https://smallcultfollowing.com/babysteps/blog/2023/10/20/using-rust/)
 * [Object Soup is Made of Indexes](https://jacko.io/object_soup.html)
-* [Analyzing Data 180,000x Faster with Rust](https://willcrichton.net/notes/k-corrset/)
 * [Issue #10: Serving HTML](https://www.shuttle.rs/launchpad/issues/2023-10-17-issue-10-Serving-HTML)
 * [Rust vs C on an ATTiny85; an embedded war story](https://diziet.dreamwidth.org/16771.html)
 
 ### Rust Walkthroughs
 
-* [Analyzing Data /,000x Faster with Rust](https://willcrichton.net/notes/k-corrset/)
+* [Analyzing Data 180,000x Faster with Rust](https://willcrichton.net/notes/k-corrset/)
 * [Fully Automated Releases for Rust Projects](https://blog.orhun.dev/automated-rust-releases/)
 * [Make your Rust code unit testable with dependency inversion](https://worldwithouteng.com/articles/make-your-rust-code-unit-testable-with-dependency-inversion/)
 * [Nine Rules to Formally Validate Rust Algorithms with Dafny (Part 2): Lessons from Verifying the range-set-blaze Crate](https://medium.com/towards-data-science/nine-rules-to-formally-validate-rust-algorithms-with-dafny-part-2-f2a279686700)
