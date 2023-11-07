@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [rust-libp2p v0.53 has been released](https://github.com/libp2p/rust-libp2p/releases/tag/libp2p-v0.53.0)
+* [Announcing Chitchai 0.1: A Free and Private Multi-agent Chatroom in Rust and Wasm](https://chitchai.dev/announcements)
 
 ### Observations/Thoughts
 * [Writing Rust Bindings for My Python App](https://dhruv-ahuja.github.io/posts/writing-rust-bindings/)
