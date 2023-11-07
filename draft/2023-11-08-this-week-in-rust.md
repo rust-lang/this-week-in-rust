@@ -52,7 +52,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [floem](https://github.com/lapce/floem), a native Rust UI library with fine-grained reactivity.
+
+Despite receiving no suggestions, llogiq is reasonably pleased with his choice.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -74,7 +76,90 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+366 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-10-30..2023-11-06
+
+* [`dropck_outlives` check whether generator witness `needs_drop`](https://github.com/rust-lang/rust/pull/117134)
+* [account for `ref` and `mut` in the wrong place for pattern ident renaming](https://github.com/rust-lang/rust/pull/117289)
+* [add a stable MIR visitor](https://github.com/rust-lang/rust/pull/117417)
+* [add all RPITITs when augmenting param-env with GAT bounds in `check_type_bounds`](https://github.com/rust-lang/rust/pull/117131)
+* [add diagnostic items for a few of core's builtin macros](https://github.com/rust-lang/rust/pull/117596)
+* [add support for pre-unix-epoch file dates on Apple platforms](https://github.com/rust-lang/rust/pull/117451)
+* [add the `Span` of the `move` keyword to the HIR](https://github.com/rust-lang/rust/pull/117585)
+* [also consider TAIT to be uncomputable if the MIR body is tainted](https://github.com/rust-lang/rust/pull/117416)
+* [avoid the path trimming ICE lint in error reporting](https://github.com/rust-lang/rust/pull/117373)
+* [avoid unnecessary comparison in `partition_equal`](https://github.com/rust-lang/rust/pull/117179)
+* [check binders with bound vars for global bounds that don't hold](https://github.com/rust-lang/rust/pull/117637)
+* [consts: remove dead code around `i1` constant values](https://github.com/rust-lang/rust/pull/117554)
+* [coverage: replace impossible `coverage::Error` with assertions](https://github.com/rust-lang/rust/pull/117421)
+* [derive `TyEncodable`/`TyDecodable` in `rustc_type_ir`](https://github.com/rust-lang/rust/pull/117578)
+* [detect misparsed binop caused by missing semi](https://github.com/rust-lang/rust/pull/117292)
+* [detect object safety errors when assoc type is missing](https://github.com/rust-lang/rust/pull/116405)
+* [do not ICE on constant evaluation failure in GVN](https://github.com/rust-lang/rust/pull/117438)
+* [do not assert in `op_to_const`](https://github.com/rust-lang/rust/pull/117441)
+* [don't check for alias bounds in liveness when aliases have escaping bound vars](https://github.com/rust-lang/rust/pull/117466)
+* [don't emit delayed good-path bugs on panic](https://github.com/rust-lang/rust/pull/117397)
+* [don't pass `-stdlib=libc++` when building C files on macOS](https://github.com/rust-lang/rust/pull/116017)
+* [enable cross-crate-inlining when MIR inlining is enabled](https://github.com/rust-lang/rust/pull/117363)
+* [enable parallel rustc front end in nightly builds](https://github.com/rust-lang/rust/pull/117435)
+* [fallback for `construct_generic_bound_failure`](https://github.com/rust-lang/rust/pull/117570)
+* [fix excessive initialization and reads beyond EOF in `io::copy(_, Vec<u8>)` specialization](https://github.com/rust-lang/rust/pull/117576)
+* [fix incorrect trait bound restriction suggestion](https://github.com/rust-lang/rust/pull/117505)
+* [fix order of implementations in the "implementations on foreign types" section](https://github.com/rust-lang/rust/pull/117521)
+* [guarantee representation of None in NPO](https://github.com/rust-lang/rust/pull/115333)
+* [guarantee that `char` has the same size and alignment as `u32`](https://github.com/rust-lang/rust/pull/116894)
+* [hint optimizer about try-reserved capacity](https://github.com/rust-lang/rust/pull/117503)
+* [inline and remove `create_session`](https://github.com/rust-lang/rust/pull/117475)
+* [make sure that predicates with unmentioned bound vars are still considered global in the old solver](https://github.com/rust-lang/rust/pull/117589)
+* [make the randomize feature of `rustc_abi` additive](https://github.com/rust-lang/rust/pull/117603)
+* [match usize/isize exhaustively with half-open ranges](https://github.com/rust-lang/rust/pull/116692)
+* [prepopulate opaque ty storage before using it](https://github.com/rust-lang/rust/pull/117439)
+* [pretty print `Fn` traits in `rustc_on_unimplemented`](https://github.com/rust-lang/rust/pull/116439)
+* [recover from missing param list in function definitions](https://github.com/rust-lang/rust/pull/117298)
+* [refactor: move suggestion functions from demand to suggestions](https://github.com/rust-lang/rust/pull/117401)
+* [remove obsolete support for linking unwinder on Android](https://github.com/rust-lang/rust/pull/117504)
+* [remove support for alias `-Z symbol-mangling-version`](https://github.com/rust-lang/rust/pull/117509)
+* [remove support for compiler plugins](https://github.com/rust-lang/rust/pull/116412)
+* [replace switch to unreachable by assume statements](https://github.com/rust-lang/rust/pull/113970)
+* [set `max_atomic_width` for riscv32*-esp-espidf to 32](https://github.com/rust-lang/rust/pull/117307)
+* [turn `const_caller_location` from a query to a hook](https://github.com/rust-lang/rust/pull/117388)
+* [use `FxIndexSet` in the symbol interner](https://github.com/rust-lang/rust/pull/117508)
+* [use derivative for `Clone`/`PartialOrd`/`Ord`/`Hash` in `rustc_type_ir`](https://github.com/rust-lang/rust/pull/117407)
+* [use global cache when computing proof trees](https://github.com/rust-lang/rust/pull/117394)
+* [use the correct span when emitting the `env!` result](https://github.com/rust-lang/rust/pull/117592)
+* [warn users who set `non_exhaustive_omitted_patterns` lint level on a match arm](https://github.com/rust-lang/rust/pull/117094)
+* [when encountering unclosed delimiters during lexing, check for diff markers](https://github.com/rust-lang/rust/pull/116712)
+* [enable src/math for all UEFI targets](https://github.com/rust-lang/compiler-builtins/pull/553)
+* [intrinsics macro: fix non-weak aeabi generation](https://github.com/rust-lang/compiler-builtins/pull/552)
+* [this enables math module for riscv32 targets](https://github.com/rust-lang/compiler-builtins/pull/554)
+* [stabilize `const_maybe_uninit_zeroed` and `const_mem_zeroed`](https://github.com/rust-lang/rust/pull/116218)
+* [stabilize `file_set_times`](https://github.com/rust-lang/rust/pull/117422)
+* [fix `switch_stdout_to` on Windows7](https://github.com/rust-lang/rust/pull/117386)
+* [add `track_caller` to `transmute_copy`](https://github.com/rust-lang/rust/pull/117510)
+* [delegate `<Box<E> as Error>::provide` to `<E as Error>::provide`](https://github.com/rust-lang/rust/pull/117434)
+* [support `enum` variants in `offset_of!`](https://github.com/rust-lang/rust/pull/114208)
+* [feature gate enums in `offset_of`](https://github.com/rust-lang/rust/pull/117537)
+* [override `Waker::clone_from` to avoid cloning `Waker`s unnecessarily](https://github.com/rust-lang/rust/pull/96979)
+* [codegen\_gcc: fix vector compilation error](https://github.com/rust-lang/rustc_codegen_gcc/pull/368)
+* [cargo: `feat(trim-paths)`: set env `CARGO_TRIM_PATHS` for build scripts](https://github.com/rust-lang/cargo/pull/12900)
+* [cargo toml: Pull out the schema](https://github.com/rust-lang/cargo/pull/12911)
+* [cargo: fix an unhelpful panic message](https://github.com/rust-lang/cargo/pull/12923)
+* [cargo: implement `-Ztrim-paths`](https://github.com/rust-lang/cargo/pull/12625) (RFC [#3127](https://rust-lang.github.io/rfcs/3127-trim-paths.html))
+* [cargo: merge `trim-paths` from different profiles](https://github.com/rust-lang/cargo/pull/12908)
+* [rustdoc: accept less invalid Rust](https://github.com/rust-lang/rust/pull/117450)
+* [rustfmt: fixes comma added to comment in where-clause](https://github.com/rust-lang/rustfmt/pull/5954)
+* [clippy: `unused_enumerate_index`: don't ICE on empty tuples](https://github.com/rust-lang/rust-clippy/pull/11756)
+* [clippy: add `unused_enumerate_index` lint](https://github.com/rust-lang/rust-clippy/pull/10404)
+* [clippy: fix `dbg_macro` semi span calculation](https://github.com/rust-lang/rust-clippy/pull/11743)
+* [clippy: fix `enum_variant_names` depending lint depending on order](https://github.com/rust-lang/rust-clippy/pull/11498)
+* [clippy: fix `get_first` false negative for VecDeque](https://github.com/rust-lang/rust-clippy/pull/11744)
+* [clippy: new lint: `unnecessary_fallible_conversions`](https://github.com/rust-lang/rust-clippy/pull/11669)
+* [rust-analyzer: add `generate_mut_trait_impl` assist](https://github.com/rust-lang/rust-analyzer/pull/15832)
+* [rust-analyzer: import trait with alias](https://github.com/rust-lang/rust-analyzer/pull/15788)
+* [rust-analyzer: skip checking token tree count for include! macro call](https://github.com/rust-lang/rust-analyzer/pull/15819)
+* [rust-analyzer: fix docs path for derive macros](https://github.com/rust-lang/rust-analyzer/pull/15834)
+* [rust-analyzer: vSCode metadata. category:formatters](https://github.com/rust-lang/rust-analyzer/pull/15827)
 
 ### Rust Compiler Performance Triage
 
@@ -253,7 +338,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> For Binder to continue to meet Android's needs, we need better ways to manage (and reduce!) complexity without increasing the risk.
+>
+> The biggest change is obviously the choice of programming language. We decided to use Rust because it directly addresses a number of the challenges within Binder that we have faced during the last years.
+
+– [Alice Rhyl on the Linux Kernel Mailing List](https://lore.kernel.org/rust-for-linux/20231101-rust-binder-v1-0-08ba9197f637@google.com/)
+
+Thanks to [Vincent de Phily](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1475) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
