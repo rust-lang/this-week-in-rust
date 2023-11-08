@@ -67,7 +67,8 @@ and just ask the editors to select the category.
 * [Migrating SecureDrop’s PGP backend from GnuPG to Sequoia](https://securedrop.org/news/migrating-securedrops-pgp-backend-from-gnupg-to-sequoia/)
 * [video] [10x faster - taking charge of the compiler backend](https://www.youtube.com/watch?v=FCVfofYsWHU)
 * [video] [RISC-V Vector Extension in Rust](https://www.youtube.com/watch?v=jb5-P_r3jmw)
-
+* [Embedding simple CSV file in Rust application](https://rust.code-maven.com/embedding-simple-csv-file)
+ 
 ## Crate of the Week
 
 This week's crate is [floem](https://github.com/lapce/floem), a native Rust UI library with fine-grained reactivity.
