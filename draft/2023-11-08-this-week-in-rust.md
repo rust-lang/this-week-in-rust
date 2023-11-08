@@ -32,15 +32,30 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: October 2023](https://rust-osdev.com/this-month/2023-10/)
 
 ### Project/Tooling Updates
-
 * [rust-libp2p v0.53 has been released](https://github.com/libp2p/rust-libp2p/releases/tag/libp2p-v0.53.0)
 * [Zellij 0.39.0 released](https://zellij.dev/news/session-resurrection-ui-components/)
 * [Officially Qualfied - Ferrocene](https://ferrous-systems.com/blog/officially-qualified-ferrocene/)
+* [Rocket's 4th v0.5 Release Candidate](https://rocket.rs/v0.5-rc/news/2023-11-01-version-0.5-rc.4/)
 
 ### Observations/Thoughts
 * [Writing Rust Bindings for My Python App](https://dhruv-ahuja.github.io/posts/writing-rust-bindings/)
+* [A four year plan for async Rust](https://without.boats/blog/a-four-year-plan/)
+* [Cursed Rust: Printing Things The Wrong Way](https://endler.dev/2023/cursed-rust/)
+* [Rust for JavaScript Developers: An Overview of Testing](https://www.shuttle.rs/blog/2023/11/08/testing-in-rust)
+* [Why Golang instead of Rust to develop the Krater desktop app](https://blog.moonguard.dev/why-golang-instead-of-rust-to-develop-the-krater-desktop-app)
+* [Google Rewriting Android's Binder In Rust With Promising Results](https://www.phoronix.com/news/Google-Linux-Binder-In-Rust)
+* [Dump Rust Struct or Enum Memory Representation as Bytes](https://bennett.dev/rust/dump-struct-bytes/)
+* [How Open Source Projects are Using Kani to Write Better Software in Rust](https://aws.amazon.com/blogs/opensource/how-open-source-projects-are-using-kani-to-write-better-software-in-rust/)
+* [Creating High Performance Asynchronous Backends With Burn-Compute](https://burn.dev/blog/creating-high-performance-asynchronous-backends-with-burn-compute)
+* [Goodbye Python, Hello Rust: Building a RAG CLI Application with Orca](https://huggingface.co/blog/santiagomed/building-a-rag-cli-application-application)
+* [Variadic generics, again](https://poignardazur.github.io/2023/11/08/time-for-variadic-generics/)
+* [Using Rust, Chrome and NixOS to Take Headless Screenshots for Social Sharing](https://lgug2z.com/articles/using-rust-chrome-and-nixos-to-take-headless-screenshots-for-social-sharing/)
+* [sudo-rs' first security audit](https://ferrous-systems.com/blog/sudo-rs-audit/)
+* [Destructing trees safely and cheaply](https://ismailmaj.github.io/destructing-trees-safely-and-cheaply)
+* [Edge IoT with Rust on ESP: NTP](https://apollolabsblog.hashnode.dev/edge-iot-with-rust-on-esp-ntp)
 
 ### Rust Walkthroughs
 
@@ -49,6 +64,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Writing Rust Bindings for My Python App](https://dhruv-ahuja.github.io/posts/writing-rust-bindings/)
 * [Migrating SecureDrop’s PGP backend from GnuPG to Sequoia](https://securedrop.org/news/migrating-securedrops-pgp-backend-from-gnupg-to-sequoia/)
 * [video] [10x faster - taking charge of the compiler backend](https://www.youtube.com/watch?v=FCVfofYsWHU)
 * [video] [RISC-V Vector Extension in Rust](https://www.youtube.com/watch?v=jb5-P_r3jmw)
