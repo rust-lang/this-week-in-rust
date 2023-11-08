@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 
 * [rust-libp2p v0.53 has been released](https://github.com/libp2p/rust-libp2p/releases/tag/libp2p-v0.53.0)
 * [Zellij 0.39.0 released](https://zellij.dev/news/session-resurrection-ui-components/)
+* [Officially Qualfied - Ferrocene](https://ferrous-systems.com/blog/officially-qualified-ferrocene/)
 
 ### Observations/Thoughts
 * [Writing Rust Bindings for My Python App](https://dhruv-ahuja.github.io/posts/writing-rust-bindings/)
