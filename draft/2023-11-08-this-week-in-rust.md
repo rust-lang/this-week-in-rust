@@ -165,7 +165,20 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A difficult week for triage, due to what appears to be system-level disruption to
+measurement apparatus, yielding transient noise (and potentially masking actual
+problems). The main non-noise performance change was huge regression to bitmaps introduced
+by PR 117131, and that already has a fix in-flight fix (PR #117542). The other thing
+worth noting is that the parallel rustc front-end has been enabled in the nighlty builds,
+which has introduced some overhead that was expected by wg-parallel-rustc.
+
+Triage done by **@pnkfelix**.
+Revision range: [650991d6..7b97a5ca](https://perf.rust-lang.org/?start=650991d62c3a2c80ba27009d06839adbb038bf5e&end=7b97a5ca8422d1495a8918106d3249aa405812d4&absolute=false&stat=instructions%3Au)
+
+10 Regressions, 4 Improvements, 3 Mixed; 3 of them in rollups
+68 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/9804362a1bf583dddd7070095e674b0bd6eee887/triage/2023-11-07.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
