@@ -52,8 +52,6 @@ and just ask the editors to select the category.
 * [video] [10x faster - taking charge of the compiler backend](https://www.youtube.com/watch?v=FCVfofYsWHU)
 * [video] [RISC-V Vector Extension in Rust](https://www.youtube.com/watch?v=jb5-P_r3jmw)
 * [Embedding simple CSV file in Rust application](https://rust.code-maven.com/embedding-simple-csv-file)
-* [Embed list of values ](https://rust.code-maven.com/embed-list-of-values)
-* [Embedding string, embedding text file](https://rust.code-maven.com/embedding-text-file)
  
 ## Crate of the Week
 
