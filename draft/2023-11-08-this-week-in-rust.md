@@ -364,7 +364,7 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 >
 > The biggest change is obviously the choice of programming language. We decided to use Rust because it directly addresses a number of the challenges within Binder that we have faced during the last years.
 
-– [Alice Rhyl on the Linux Kernel Mailing List](https://lore.kernel.org/rust-for-linux/20231101-rust-binder-v1-0-08ba9197f637@google.com/)
+– [Alice Ryhl on the Linux Kernel Mailing List](https://lore.kernel.org/rust-for-linux/20231101-rust-binder-v1-0-08ba9197f637@google.com/)
 
 Thanks to [Vincent de Phily](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1475) for the suggestion!
 
