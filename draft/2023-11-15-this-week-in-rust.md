@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [I Got a Milk-V Duo (and It’s Running Rust)](https://barretts.club/posts/i-got-a-milkv-duo/)
+
 ### Research
 
 ### Miscellaneous
