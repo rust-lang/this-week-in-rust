@@ -27,20 +27,19 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
+
 * [This Month in Rust OSDev: October 2023](https://rust-osdev.com/this-month/2023-10/)
 
 ### Project/Tooling Updates
+
 * [rust-libp2p v0.53 has been released](https://github.com/libp2p/rust-libp2p/releases/tag/libp2p-v0.53.0)
 * [Zellij 0.39.0 released](https://zellij.dev/news/session-resurrection-ui-components/)
 * [Officially Qualfied - Ferrocene](https://ferrous-systems.com/blog/officially-qualified-ferrocene/)
 * [Rocket's 4th v0.5 Release Candidate](https://rocket.rs/v0.5-rc/news/2023-11-01-version-0.5-rc.4/)
 
 ### Observations/Thoughts
+
 * [Writing Rust Bindings for My Python App](https://dhruv-ahuja.github.io/posts/writing-rust-bindings/)
 * [A four year plan for async Rust](https://without.boats/blog/a-four-year-plan/)
 * [Cursed Rust: Printing Things The Wrong Way](https://endler.dev/2023/cursed-rust/)
@@ -60,8 +59,6 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 * [Using Modern Linux Sockets](https://devork.be/blog/2023/11/modern-linux-sockets/)
-
-### Research
 
 ### Miscellaneous
 * [Migrating SecureDrop’s PGP backend from GnuPG to Sequoia](https://securedrop.org/news/migrating-securedrops-pgp-backend-from-gnupg-to-sequoia/)
@@ -86,8 +83,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Ockam - Make `ockam identity delete` (no args) interactive by asking the user to choose from a list of identity names to delete (tuify)](https://github.com/build-trust/ockam/issues/6463)
+* [Ockam - Make `ockam tcp-outlet delete` (no args) interactive by asking the user to choose from a list of tcp-outlet aliases to delete (tuify)](https://github.com/build-trust/ockam/issues/6465)
+* [Ockam - Make `ockam project show` (no args) interactive by asking the user to choose from a list of projects to show (tuify)](https://github.com/build-trust/ockam/issues/6473)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -356,7 +354,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/13yx1dn/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -374,4 +372,4 @@ Thanks to [Vincent de Phily](https://users.rust-lang.org/t/twir-quote-of-the-wee
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/17r3usm/this_week_in_rust_520/)</small>
