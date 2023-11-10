@@ -38,7 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+* [How I Improved My Rust Compile Times By 75%](https://benw.is/posts/how-i-improved-my-rust-compile-times-by-seventy-five-percent)
 ### Research
 
 ### Miscellaneous
