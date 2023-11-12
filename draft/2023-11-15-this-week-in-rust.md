@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [`breadcrumbs 0.1.4`](https://crates.io/crates/breadcrumbs) released - now the smallest logging library on crates.io, supporting `#[no_std]` and concurrency.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
