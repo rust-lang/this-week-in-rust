@@ -35,7 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-- [Cargo Lambda 1.0.0](https://cargo-lambda.into) released - includes support for Amazon Linux 2023 on AWS Lambda, SSO, and more release optimizations.
+- [Cargo Lambda 1.0.0](https://cargo-lambda.info/) released - includes support for Amazon Linux 2023 on AWS Lambda, SSO, and more release optimizations.
 
 ### Observations/Thoughts
 
